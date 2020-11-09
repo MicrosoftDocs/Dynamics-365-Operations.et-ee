@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,64 +17,64 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfecdbd8ca2d6124906ef664493602a1d0ac0baf
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c91d49c2ccdc274632e3acf94b836e19dc6cdaa8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981917"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016996"
 ---
-# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="d0a5a-103">Kütuseindeksi seostamine vedajaga lisatasuna</span><span class="sxs-lookup"><span data-stu-id="d0a5a-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
+# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="2c396-103">Kütuseindeksi seostamine vedajaga lisatasuna</span><span class="sxs-lookup"><span data-stu-id="2c396-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d0a5a-104">See juhend näitab, kuidas luua lisade määramist, vedaja lisatasu, lisade koondandmeid kütuse lisatasu puhul ja kuidas seostada vedaja kütuseindeksit vedajaga.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="d0a5a-105">Enne selle juhendi käivitamist peab teil olema vedaja kütuseindeks seadistatud.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="d0a5a-106">Saate selleks kasutada juhendit „Vedaja kütuseindeksi seadistamine”.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-106">You can use the "Set up a carrier fuel index" guide to do this.</span></span> <span data-ttu-id="d0a5a-107">Neid seadistustoiminguid teeb üldjuhul logistika haldur.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="d0a5a-108">Selle protseduuri loomiseks kasutati demoandmeid USMF.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-108">The demo data used to create this procedure is USMF.</span></span>
+<span data-ttu-id="2c396-104">See juhend näitab, kuidas luua lisade määramist, vedaja lisatasu, lisade koondandmeid kütuse lisatasu puhul ja kuidas seostada vedaja kütuseindeksit vedajaga.</span><span class="sxs-lookup"><span data-stu-id="2c396-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="2c396-105">Enne selle juhendi käivitamist peab teil olema vedaja kütuseindeks seadistatud.</span><span class="sxs-lookup"><span data-stu-id="2c396-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="2c396-106">Saate selleks kasutada juhendit „Vedaja kütuseindeksi seadistamine”.</span><span class="sxs-lookup"><span data-stu-id="2c396-106">You can use the "Set up a carrier fuel index" guide to do this.</span></span> <span data-ttu-id="2c396-107">Neid seadistustoiminguid teeb üldjuhul logistika haldur.</span><span class="sxs-lookup"><span data-stu-id="2c396-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="2c396-108">Selle protseduuri loomiseks kasutati demoandmeid USMF.</span><span class="sxs-lookup"><span data-stu-id="2c396-108">The demo data used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-an-accessorial-master"></a><span data-ttu-id="d0a5a-109">Lisade koondandmete loomine</span><span class="sxs-lookup"><span data-stu-id="d0a5a-109">Create an accessorial master</span></span>
-1. <span data-ttu-id="d0a5a-110">Avage Transpordihaldus > Seadistus > Hinnang > Lisade koondandmed.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
-2. <span data-ttu-id="d0a5a-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-111">Click New.</span></span>
-3. <span data-ttu-id="d0a5a-112">Sisestage väärtus väljale Lisade koondandmed.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-112">In the Accessorial master field, type a value.</span></span>
-4. <span data-ttu-id="d0a5a-113">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="d0a5a-114">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-114">Click Save.</span></span>
+## <a name="create-an-accessorial-master"></a><span data-ttu-id="2c396-109">Lisade koondandmete loomine</span><span class="sxs-lookup"><span data-stu-id="2c396-109">Create an accessorial master</span></span>
+1. <span data-ttu-id="2c396-110">Avage Transpordihaldus > Seadistus > Hinnang > Lisade koondandmed.</span><span class="sxs-lookup"><span data-stu-id="2c396-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="2c396-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2c396-111">Click New.</span></span>
+3. <span data-ttu-id="2c396-112">Sisestage väärtus väljale Lisade koondandmed.</span><span class="sxs-lookup"><span data-stu-id="2c396-112">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="2c396-113">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="2c396-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="2c396-114">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2c396-114">Click Save.</span></span>
 
-## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="d0a5a-115">Vedaja lisatasu loomine</span><span class="sxs-lookup"><span data-stu-id="d0a5a-115">Create a carrier accessorial charge</span></span>
-1. <span data-ttu-id="d0a5a-116">Avage Transpordihaldus > Seadistus > Hinnang > Vedaja lisatasud.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
-2. <span data-ttu-id="d0a5a-117">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-117">Click New.</span></span>
-3. <span data-ttu-id="d0a5a-118">Sisestage väärtus väljale Vedaja lisade ID.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-118">In the Carrier accessorial ID field, type a value.</span></span>
-4. <span data-ttu-id="d0a5a-119">Klõpsake väljal Kättetoimetaja otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="d0a5a-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="d0a5a-121">Selles näites valige veoki vedaja.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-121">In this example, choose Truck Carrier.</span></span>  
-6. <span data-ttu-id="d0a5a-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-122">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="d0a5a-123">Klõpsake väljal Vedaja teenus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="d0a5a-124">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-124">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d0a5a-125">Klõpsake väljal Lisade koondandmed otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="d0a5a-126">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-126">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="d0a5a-127">Selle näite puhul valige äsja loodud lisade koond.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-127">In this example, choose the newly created Accessorial master.</span></span>  
-11. <span data-ttu-id="d0a5a-128">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-128">Click Save.</span></span>
+## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="2c396-115">Vedaja lisatasu loomine</span><span class="sxs-lookup"><span data-stu-id="2c396-115">Create a carrier accessorial charge</span></span>
+1. <span data-ttu-id="2c396-116">Avage Transpordihaldus > Seadistus > Hinnang > Vedaja lisatasud.</span><span class="sxs-lookup"><span data-stu-id="2c396-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
+2. <span data-ttu-id="2c396-117">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2c396-117">Click New.</span></span>
+3. <span data-ttu-id="2c396-118">Sisestage väärtus väljale Vedaja lisade ID.</span><span class="sxs-lookup"><span data-stu-id="2c396-118">In the Carrier accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="2c396-119">Klõpsake väljal Kättetoimetaja otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="2c396-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="2c396-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="2c396-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2c396-121">Selles näites valige veoki vedaja.</span><span class="sxs-lookup"><span data-stu-id="2c396-121">In this example, choose Truck Carrier.</span></span>  
+6. <span data-ttu-id="2c396-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="2c396-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="2c396-123">Klõpsake väljal Vedaja teenus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="2c396-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="2c396-124">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="2c396-124">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="2c396-125">Klõpsake väljal Lisade koondandmed otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="2c396-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="2c396-126">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="2c396-126">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2c396-127">Selle näite puhul valige äsja loodud lisade koond.</span><span class="sxs-lookup"><span data-stu-id="2c396-127">In this example, choose the newly created Accessorial master.</span></span>  
+11. <span data-ttu-id="2c396-128">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2c396-128">Click Save.</span></span>
 
-## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="d0a5a-129">Lisade määrangu loomine</span><span class="sxs-lookup"><span data-stu-id="d0a5a-129">Create an accessorial assignment</span></span>
-1. <span data-ttu-id="d0a5a-130">Klõpsake suvandit Lisade määrangud.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-130">Click Accessorial assignments.</span></span>
-2. <span data-ttu-id="d0a5a-131">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-131">Click New.</span></span>
-3. <span data-ttu-id="d0a5a-132">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-132">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="d0a5a-133">Laiendage jaotist Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-133">Toggle the expansion of the Criteria section.</span></span>
-    * <span data-ttu-id="d0a5a-134">Kriteeriumides saate alati valida kütuse lisatasu rakendamise või näiteks selle, et see kehtib ainult teatud regioonis.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
-5. <span data-ttu-id="d0a5a-135">Sisestage väärtus väljale Sihtnumber alates.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-135">In the ZIP/postal code from field, type a value.</span></span>
-6. <span data-ttu-id="d0a5a-136">Sisestage väärtus väljale Sihtnumber kuni.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-136">In the ZIP/postal code to field, type a value.</span></span>
-7. <span data-ttu-id="d0a5a-137">Laiendage jaotist Arvutamine.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-137">Toggle the expansion of the Calculation section.</span></span>
-    * <span data-ttu-id="d0a5a-138">Arvutamise jaotises saate määrata, kuidas kütuse lisatasu arvutada.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="d0a5a-139">Arvutamine oleneb teie arvutuse aluseks valitud lisade ühikust.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
-8. <span data-ttu-id="d0a5a-140">Valige väljal Lisatasu tüüp suvand Kütuse lisatasu.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
-9. <span data-ttu-id="d0a5a-141">Valige väljal Lisade ühik suvand Läbisõit.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-141">In the Accessorial unit field, select 'Mileage'.</span></span>
-10. <span data-ttu-id="d0a5a-142">Klõpsake väljal Regioon otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-142">In the Region field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="d0a5a-143">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-143">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="d0a5a-144">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-144">Click Save.</span></span>
+## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="2c396-129">Lisade määrangu loomine</span><span class="sxs-lookup"><span data-stu-id="2c396-129">Create an accessorial assignment</span></span>
+1. <span data-ttu-id="2c396-130">Klõpsake suvandit Lisade määrangud.</span><span class="sxs-lookup"><span data-stu-id="2c396-130">Click Accessorial assignments.</span></span>
+2. <span data-ttu-id="2c396-131">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2c396-131">Click New.</span></span>
+3. <span data-ttu-id="2c396-132">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="2c396-132">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="2c396-133">Laiendage jaotist Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="2c396-133">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="2c396-134">Kriteeriumides saate alati valida kütuse lisatasu rakendamise või näiteks selle, et see kehtib ainult teatud regioonis.</span><span class="sxs-lookup"><span data-stu-id="2c396-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
+5. <span data-ttu-id="2c396-135">Sisestage väärtus väljale Sihtnumber alates.</span><span class="sxs-lookup"><span data-stu-id="2c396-135">In the ZIP/postal code from field, type a value.</span></span>
+6. <span data-ttu-id="2c396-136">Sisestage väärtus väljale Sihtnumber kuni.</span><span class="sxs-lookup"><span data-stu-id="2c396-136">In the ZIP/postal code to field, type a value.</span></span>
+7. <span data-ttu-id="2c396-137">Laiendage jaotist Arvutamine.</span><span class="sxs-lookup"><span data-stu-id="2c396-137">Toggle the expansion of the Calculation section.</span></span>
+    * <span data-ttu-id="2c396-138">Arvutamise jaotises saate määrata, kuidas kütuse lisatasu arvutada.</span><span class="sxs-lookup"><span data-stu-id="2c396-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="2c396-139">Arvutamine oleneb teie arvutuse aluseks valitud lisade ühikust.</span><span class="sxs-lookup"><span data-stu-id="2c396-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
+8. <span data-ttu-id="2c396-140">Valige väljal Lisatasu tüüp suvand Kütuse lisatasu.</span><span class="sxs-lookup"><span data-stu-id="2c396-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
+9. <span data-ttu-id="2c396-141">Valige väljal Lisade ühik suvand Läbisõit.</span><span class="sxs-lookup"><span data-stu-id="2c396-141">In the Accessorial unit field, select 'Mileage'.</span></span>
+10. <span data-ttu-id="2c396-142">Klõpsake väljal Regioon otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="2c396-142">In the Region field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="2c396-143">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="2c396-143">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="2c396-144">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2c396-144">Click Save.</span></span>
 
-## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="d0a5a-145">Vedaja hinnanguprofiili värskendamine</span><span class="sxs-lookup"><span data-stu-id="d0a5a-145">Update the carrier rating profile</span></span>
-1. <span data-ttu-id="d0a5a-146">Tehke valik Transpordi haldus > Seadistus > Vedajad > Kättetoimetajad.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
-2. <span data-ttu-id="d0a5a-147">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-147">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d0a5a-148">Laiendage jaotist Hinnanguprofiilid.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-148">Toggle the expansion of the Rating profiles section.</span></span>
-4. <span data-ttu-id="d0a5a-149">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-149">Click Edit.</span></span>
-5. <span data-ttu-id="d0a5a-150">Klõpsake väljal Vedaja kütuseindeks otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="d0a5a-151">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-151">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="d0a5a-152">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="d0a5a-152">Click Save.</span></span>
+## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="2c396-145">Vedaja hinnanguprofiili värskendamine</span><span class="sxs-lookup"><span data-stu-id="2c396-145">Update the carrier rating profile</span></span>
+1. <span data-ttu-id="2c396-146">Tehke valik Transpordi haldus > Seadistus > Vedajad > Kättetoimetajad.</span><span class="sxs-lookup"><span data-stu-id="2c396-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="2c396-147">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="2c396-147">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="2c396-148">Laiendage jaotist Hinnanguprofiilid.</span><span class="sxs-lookup"><span data-stu-id="2c396-148">Toggle the expansion of the Rating profiles section.</span></span>
+4. <span data-ttu-id="2c396-149">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="2c396-149">Click Edit.</span></span>
+5. <span data-ttu-id="2c396-150">Klõpsake väljal Vedaja kütuseindeks otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="2c396-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="2c396-151">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="2c396-151">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="2c396-152">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2c396-152">Click Save.</span></span>
 
