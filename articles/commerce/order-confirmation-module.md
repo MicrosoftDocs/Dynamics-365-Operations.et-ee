@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015176"
 ---
 # <a name="order-details-module"></a>Tellimuse üksikasjade moodul
 
@@ -38,7 +38,7 @@ Tellimuse üksikasjade moodulit kasutatakse pärast tellimuse esitamist tellimus
 
 | Atribuudi nimi  | Väärtused | Kirjeldus |
 |----------------|--------|-------------|
-| Pealkiri        | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Tellimuse üksikasjade moodulil võib olla pealkiri. Vaikimisi kasutatakse pealkirja jaks pealkirja silti **H2**. Samas saab silti muuta, et see vastaks juurdepääsetavuse nõuetele. |
+| Pealkiri        | Pealkirja tekst ja pealkirja silt ( **H1** , **H2** , **H3** , **H4** , **H5** või **H6** ) | Tellimuse üksikasjade moodulil võib olla pealkiri. Vaikimisi kasutatakse pealkirja jaks pealkirja silti **H2**. Samas saab silti muuta, et see vastaks juurdepääsetavuse nõuetele. |
 | Kontakti number | Tekst | Tellimusega seotud küsimuste jaoks saab kasutada kontaktnumbrit. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moodulid, mida saab tellimuse üksikasjade lehel kasutada
@@ -54,15 +54,15 @@ Uuele lehele tellimuse üksikasjade mooduli lisamiseks ja vajalike atribuutide s
 
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
 1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all nimi **Tellimuse üksikasjade mall** ja valige seejärel **OK**.
-1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige pesas **Keha** kolmikpunkt ( **…** ) ja seejärel valige käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
-1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt ( **...** ) ja seejärel suvand **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Tellimuse üksikasjad** ja klõpsake seejärel **OK**.
 1. Valige **Salvesta** ja seejärel malli eelvaate kuvamiseks **Eelvaade**. Tellimuse üksikasjade moodulit ei renderdata, kuna see nõuab tellimuse kinnituse numbri konteksti.
 1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
 1. Valige dialoogiboksis **Vali mall** suvand **Tellimuse üksikasjade mall**. Sisestage jaotises **Lehe nimi** väärtus **Tellimuse üksikasjade leht** ja seejärel klõpsake **OK**.
-1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt ( **...** ) ja seejärel suvand **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Tellimuse üksikasjad** ja klõpsake seejärel **OK**.
 1. Valige tellimuse üksikasjade mooduli atribuutide paanil pliiatsisümboli kõrval olev suvand **Pealkiri**.
 1. Sisestage dialoogiboksi **Pealkiri** väljale **Pealkirja tekst** pealkirja tekst **Tellimuse üksikasjad** ja klõpsake seejärel **OK**.

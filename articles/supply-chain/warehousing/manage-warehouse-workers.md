@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
+ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8e7790fa8ab8d60d0e5fd8eb470d86d6728091b
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530025"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017078"
 ---
 # <a name="manage-warehouse-workers"></a>Laotöötajate haldamine
 
@@ -45,7 +45,7 @@ Enda määratletud tööstandardite lubamiseks peate valima suvandi **Luba töö
 ## <a name="monitoring-and-controlling-warehouse-work"></a>Laotöö seire ja kontrollimine
 Leht **Kogu töö** võimaldab teil kogu plaanitud, töös olevat ja lõpetatud tööd jälgida ja säilitada. Sellel lehel saate värskendada erinevaid protsesse, nagu laotöö kasutaja määramised ja töö prioriteet. Samuti saate süveneda töö päise ja töö ridadega seotud üksikasjadesse, et mõista eeldatavast või lõpetatud tööprotsessidest. 
 
-Kui lubate suvandi **Tööstandardid**, näete töö arvutatud hinnangulist aega. Kui tööd tehakse, kuvatakse iga töötoimingu puhul ka tegelik aeg. Nii saate võrrelda hinnangulist ajaarvutust tegeliku ajaga estimated. 
+Kui lubate suvandi **Tööstandardid** , näete töö arvutatud hinnangulist aega. Kui tööd tehakse, kuvatakse iga töötoimingu puhul ka tegelik aeg. Nii saate võrrelda hinnangulist ajaarvutust tegeliku ajaga estimated. 
 
 Lisaks saate kasutada hinnangulist aega töö loomisel töö automaatse jagamise reeglites. Nii saate laadida taskaalustatud töö hinnagulise ülesannete täitmiseks kuluva aja alusel. 
 

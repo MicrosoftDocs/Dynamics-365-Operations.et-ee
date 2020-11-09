@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 816bfc8b93f52fe91192874bcc1c8e605e41b582
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7091e8ba7940e358d77c69c63e26c8f3d9337713
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022227"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107252"
 ---
 # <a name="call-center-sales-functionality"></a>Kõnekeskuse müügifunktsioonid
 
@@ -35,7 +35,7 @@ Rakenduse Dynamics 365 Commerce kõnekeskus on sellist tüüpi kanal, mille saab
 
 Kõnekeskus sisaldab selliseid funktsioone nagu täpsem hind ja kampaaniad, kataloogid, kinkekaardid, püsikliendi programmid ja kupongid. Kõnekeskuse tellimusi kasutatakse ka kassarakenduses, et toetada kanalite vahelisi tellimuse täitmise stsenaariume.
 
-Siinkohal on oluline märkida, et kuigi kõnekeskuse moodulit saab kasutada teistes valdkondades väljaspool Commerce'i, pole i praeguse versiooni kõnekeskuse rakendus optimeeritud kasutamiseks ettevõtete vaheliste (B2B) tellimuste töötlemise stsenaariumide jaoks ega selliste stsenaariumide jaoks, kus tellimustel on palju müügiridu. Kasutajatel, kes soovivad kasutada kõnekeskuse tellimuste töötlemise funktsioone väljapool tavapärast vahetult tarbijaga seotud kannete töötlemist, on soovitatav võtta piisavalt aega, et testida ja veenduda, et kõnekeskuse funktsionaalsuse lubamine vastaks funktsionaalsuse ja jõudluse vajadustele.
+Siinkohal on oluline märkida, et kuigi kõnekeskuse moodulit saab kasutada teistes valdkondades väljaspool Commerce'i, pole praeguse versiooni kõnekeskuse rakendus optimeeritud kasutamiseks ettevõtete vaheliste (B2B) tellimuste töötlemise stsenaariumide jaoks ega selliste stsenaariumide jaoks, kus tellimustel on palju müügiridu. Kasutajatel, kes soovivad kasutada kõnekeskuse tellimuste töötlemise funktsioone väljapool tavapärast vahetult tarbijaga seotud kannete töötlemist, on soovitatav võtta piisavalt aega, et testida ja veenduda, et kõnekeskuse funktsionaalsuse lubamine vastaks funktsionaalsuse ja jõudluse vajadustele.
 
 Lisaks tellimuste loomise toele pakub kõnekeskuse moodul kasutajasõbralikku klienditeenindusrakendust, mis hõlbustab kasutajatel kliendikontode leidmist ja kõigi seonduvate klienditellimuste andmete ja atribuutide ülevaatamist. Klienditeeninduse ekraan on mõeldud pakkuma kasutajale kiiret juurdepääsu tellimusega seotud andmetele, mis võimaldab klientide kõige levinumatele tellimusega seotud küsimustele kiiresti vastata.
 

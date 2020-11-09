@@ -1,7 +1,7 @@
 ---
 title: Demoandmete ekraanipaigutused kaasaegses kassas (MPOS) ja pilve kassas
 description: See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Dynamics 365 Commercei kassa demoandmetega.
-author: zlinster
+author: josaw1
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: zlinster
+ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 7956eece1a77951795a3f5f66067a2ecfacf3450
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022215"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014882"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demoandmete ekraanipaigutused kaasaegses kassas (MPOS) ja pilve kassas
 
@@ -89,8 +89,8 @@ Järgmisel joonisel on Fabrikami kaupluse juhataja tervitusekraani näide.
 
 Ekraanipaigutus võib sisaldada ka nii täis- kui ka kompaktseadmete konfiguratsioone. Seetõttu saab kasutaja ühele ekraanipaigutusele, mis töötab kaupluses mitmesuguste suuruse ja vormi tegurite lõikes.
 
-- **Modern POS – täispaigutus**: täispaigutused sobivad tavaliselt kõige paremini suurematele ekraanidele, näiteks lauaarvuti kuvaritele või tahvelarvutitele. Kasutajad saavad valida paigutuses saadaolevaid kasutajaliidese elemente, määrata elementide suuruse ja paigutuse ning konfigureerida nende üksikasjalikke atribuute. Täispaigutused toetavad nii vertikaal- kui ka horisontaalkonfiguratsioone.
-- **Modern POS – kompaktne**: kompaktsed paigutused sobivad tavaliselt kõige paremini telefonidele või väikestele tahvelarvutitele. Kompaktsete seadmete puhul on kujundusvõimalused piiratud. Kasutajad saavad konfigureerida sissetuleku ja kogusummade paani veerge ja välju.
+- **Modern POS – täispaigutus** : täispaigutused sobivad tavaliselt kõige paremini suurematele ekraanidele, näiteks lauaarvuti kuvaritele või tahvelarvutitele. Kasutajad saavad valida paigutuses saadaolevaid kasutajaliidese elemente, määrata elementide suuruse ja paigutuse ning konfigureerida nende üksikasjalikke atribuute. Täispaigutused toetavad nii vertikaal- kui ka horisontaalkonfiguratsioone.
+- **Modern POS – kompaktne** : kompaktsed paigutused sobivad tavaliselt kõige paremini telefonidele või väikestele tahvelarvutitele. Kompaktsete seadmete puhul on kujundusvõimalused piiratud. Kasutajad saavad konfigureerida sissetuleku ja kogusummade paani veerge ja välju.
 
 ### <a name="screen-resolutions-that-are-provided"></a>Saadaolevad ekraani eraldusvõimed
 

@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 52090645b0bb00399a88926c0b48a3cee8fcd114
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652079"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012294"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.11 (juuli 2020)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaateversiooni 10.0.11 uusi või muutunud funktsioone. Selle versiooni number on 10.0.464 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.11 uusi või muutunud funktsioone. Selle versiooni number on 10.0.464 ja see on saadaval järgmiselt:
 
 - **Eelvaateversiooni välja andmine:** aprill 2020
 - **Üldine saadavus (enesevärskendus):** mai 2020
@@ -39,10 +39,15 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaa
 See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 - [Vaba kaubavaru aruande talletamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+
 - [Laorakenduse identifitseerimisnumbri vastuvõtmise täiustused](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Lisateabe saamiseks vaadake teemat [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Rea reserveerimise täiustused partiinumbri reserveerimise vormi jaoks](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Lisateabe saamiseks vt [Sama partii reserveerimine müügitellimuse jaoks](../sales-marketing/reserve-same-batch-sales-order.md).
+
 - [Tootmisala uued andmeüksused](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
 - [Koorma koguste liigne vastuvõtt](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Lisateabe saamiseks vt [Ostutellimuste sissetulevate koormate laohaldus](../warehousing/inbound-load-handling.md).
+
 - [Töökaardi seadme partii numbrite lõpetatuna kinnitamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Lisateabe saamiseks vt [Lõpetatuna kinnitamine töökaardi seadmest](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Lisaressursid

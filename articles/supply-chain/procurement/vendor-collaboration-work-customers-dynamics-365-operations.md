@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018147"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Hankija koostöö klientidega
 
@@ -59,9 +59,9 @@ OT-dega töötamiseks saate kasutada järgmisi lehti.
 
 Kliendi saadetud OT-d kuvatakse tööruumis **Ostutellimuse kinnitus** ja lehel **Ülevaatamist ootavad ostutellimused**. Pärast OT avamist saate selle aktseptida, tagasi lükata või aktseptida selle muudatustega. OT päises või üksikutel ridadel võib olla manuseid. Peale selle on teil võimalik lisada oma vastusele informatsiooni OT päisesse või üksikutele ridadele. Näiteks võite soovitada soovitada kauba asendamise ühele ridadest.
 
-Saate eelvaadata ja printide ostutellimuse PDF-failina, kasutades suvandit **Kuva eelvaade / prindi**. Selliste dimensiooniveergude nagu **Tegevuskoht**, **Ladu**, **Värv**, **Suurus**, **Stiil** ja **Konfiguratsioon** peitmiseks või kuvamiseks saate kasutada ka tegevust **Dimensioonide kuvamine**. 
+Saate eelvaadata ja printide ostutellimuse PDF-failina, kasutades suvandit **Kuva eelvaade / prindi**. Selliste dimensiooniveergude nagu **Tegevuskoht** , **Ladu** , **Värv** , **Suurus** , **Stiil** ja **Konfiguratsioon** peitmiseks või kuvamiseks saate kasutada ka tegevust **Dimensioonide kuvamine**. 
 
-Kui kasutate suvandit **Aktsepteeri koos muudatustega**, saate üksikud read kinnitada või tagasi lükata. Samuti saate ridadele teha järgmised muudatused.
+Kui kasutate suvandit **Aktsepteeri koos muudatustega** , saate üksikud read kinnitada või tagasi lükata. Samuti saate ridadele teha järgmised muudatused.
 
 - Muutke kuupäevi või koguseid. Kinnitatud tarnekuupäeva värskendamiseks kõikidel ridadel kasutage OT päises olevat suvandit **Värskenda tarnekuupäeva**.
 - Eri tarnekuupäevade ja -koguste jaoks saate ridu tükeldada.
@@ -130,7 +130,7 @@ Avaliku sektori töötajad saavad vaadata avatud ja aegunud avalikult kättesaad
 
     Võib juhtuda, et peate enne pakkumise esitamist küsimustikule vastama.
 
-- Kui te ei soovi pakkumist esitada, valige **Keeldu**. Kui olete valinud **Keeldu**, ei saa seda tegevust tagasi kutsuda ega pakkumist sisestada.
+- Kui te ei soovi pakkumist esitada, valige **Keeldu**. Kui olete valinud **Keeldu** , ei saa seda tegevust tagasi kutsuda ega pakkumist sisestada.
 
 Kui pakkumiskutset on parandatud, peate sisestama uue pakkumise. Paranduste kohta leiate teavet pakkumiskutse lehe vahekaardilt **Parandused**. Parandatud pakkumiskutseid kuvatakse lehel **Uue pakkumise kutsed**.
 

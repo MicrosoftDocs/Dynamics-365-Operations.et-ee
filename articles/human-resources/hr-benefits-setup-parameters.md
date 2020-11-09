@@ -2,7 +2,7 @@
 title: Soodustuste halduse parameetrite määramine
 description: Konfigureerige soodustuste halduse parameetreid rakenduses Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85bbe5d3b422f2f29f1d1fe8ee269b407da691c2
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
+ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599352"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4057024"
 ---
 # <a name="set-benefits-management-parameters"></a>Soodustuste halduse parameetrite määramine
 
@@ -45,7 +45,7 @@ Enne rakenduses Microsoft Dynamics 365 Human Resources puhkuseplaanid seadistami
    | **Määra muutuse põhjusekood** | Põhjuse kood, mida kasutada töötaja soodustuse plaani tühistamisel ja uuesti avamisel määra muutmise värskendamisprotsessi käigus. See näitab, milliseid kirjeid määra muutmise värskendusprotsessiga muudeti. |
    | **Soodustuste aastane palk** | Lubab teil määrata summa **Soodustuste aastane palgasumma** töövõtja jaoks. Human Resources kasutab summat **Soodustuse aastane palgasumma** kindlustussummade määramiseks aastase põhipalga summa asemel. |
    | **Uus palkamine sobilik** | Määrab, kas uued töötajad on sobivad. |
-   | **Uue palkamise registreerimisperiood** | Ajaperiood, mil uue töötaja registreerimine on lubatud.</br></br>**Määrkus**: see säte alistab kõik uue töötaja registreerimisperioodid, mille plaani sobivusreeglis määrasite. |
+   | **Uue palkamise registreerimisperiood** | Ajaperiood, mil uue töötaja registreerimine on lubatud.</br></br>**Määrkus** : see säte alistab kõik uue töötaja registreerimisperioodid, mille plaani sobivusreeglis määrasite. |
    | **Maksete vaikesagedus** | Vaikimisi kasutatav maksesagedus uute töötajate lisamisel. |
    | **Elusündmused on lubatud** | Lubab elusündmused. |
    | **Peida pärandsoodustuse vormid** | Võimaldab teil peita pärandsoodustuse vorme. |
@@ -56,9 +56,9 @@ Enne rakenduses Microsoft Dynamics 365 Human Resources puhkuseplaanid seadistami
 
 1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Human Resourcesi parameetrid**.
 
-2. Määrake vahekaardil **Töövõtja iseteenindus** järgmiste väljade väärtused.
+2. Määrake vahekaardil **Soodustuste haldus** järgmiste väljade väärtused.
 
-   | Väli | Kirjeldus |
+   | Field | Kirjeldus |
    | --- | --- |
    | **Soodustuse kinnitamine** | Soodustuste iseteenindusest väljaregistreerimisel kasutatav kinnitustekst. |
    | **Volitatud isikute automaatne valimine** | Määrab, kas valida sõltuvad ja kasusaajad vastavalt nende plaanisuvandite sobivusele automaatselt. |

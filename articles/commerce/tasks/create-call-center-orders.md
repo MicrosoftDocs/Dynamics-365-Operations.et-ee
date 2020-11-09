@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141426"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107348"
 ---
 # <a name="create-call-center-orders"></a> Kõnekeskuse tellimuste loomine
 
@@ -30,29 +30,29 @@ ms.locfileid: "3141426"
 
 See protseduur juhendab kliendi otsimisel, uue tellimuse loomisel, toote otsimisel ja kliendilt makse vastuvõtmisel. See protseduur kasutab ettevõtte USRT demoandmeid ja on mõeldud müügitellimuste ametnikule. Eeltingimused: kasutaja, kes viib protseduuri lõpule, häälestatakse kõnekeskuse kasutajana ja Fabrikami poolaastakataloogis avaldatakse vähemalt üks lähtekood.
 
-1. Avage Jaemüük ja kaubandus > Kliendid > Klienditeenindus.
-2. Sisestage väljale SearchText otsingukriteeriumid kliendi leidmiseks.
-    * Selleks näidisprotseduuriks trükkige "karen" ja vajutage klahvi Tab.  
-3. Klõpsake nuppu Otsing.
-    * Kuna demoandmetes on ainult ühe kliendi nimi Karen, valitakse need automaatselt.  
-4. Klõpsake valikul New sales order (Uus müügitellimus).
-5. Laiendage või ahendage jaotise Sales order (Müügitellimus) päiseosa.
+1. Avage **Jaemüük ja kaubandus \> Kliendid \> Klienditeenindus**.
+2. Sisestage väljale **SearchText** otsingukriteeriumid kliendi leidmiseks.
+    * Selleks näidisprotseduuriks sisestage „Karen” ja valige **Vahekaart**.  
+3. Valige Otsi.
+    * Kuna demoandmetes on ainult ühe kliendi nimi Karen, valitakse tulemus automaatselt.  
+4. Valige **Uus müügitellimus**.
+5. Laiendage või ahendage jaotise **Müügitellimus** päiseosa.
 6. Valige kataloogi jaoks lähtekood.
-    * Kui ühtegi aktiivset lähtekoodi ei ole, saab välja Source (Allikas) sulgeda ning selle etapi vahele jätta.  
-7. Klõpsake käsku Lisa rida.
-8. Sisestage väljale Item number (Kauba number) kauba otsingusõna.
-    * Selleks näidisprotseduuriks sisestage osaline kaubanumber 8111 ja vajutage klahvi Tab. See avab kauba otsingu hüpikakna.  
-9. Valige toode müügitellimusele lisamiseks
+    * Kui ühtegi aktiivset lähtekoodi ei ole, saab selle etapi vahele jätta.  
+7. Valige **Lisa rida**.
+8. Sisestage väljale **Kaubakood** kauba otsingusõna.
+    * Selleks näidisprotseduuriks sisestage osaline kaubakood 8111 ja vajutage vahekaarti. See tegevus avab kauba otsinguakna.  
+9. Valige toode müügitellimusele lisamiseks.
 10. Sisestage müügikogus.
-11. Klõpsake käsku Loo.
-12. Klõpsake kliendi makse vastuvõtmiseks nuppu Complete (Valmis).
-13. Klõpsake vahekaarti Lisa.
+11. Valige **Loo**.
+12. Klõpsake kliendi makse vastuvõtmiseks nuppu Complete **Valmis**.
+13. Valige **Lisa**.
     * Lisamise link on vahekaardil Payments (Maksed). Laiendage maksete vahekaarti, kui see on kokku pandud.  
 14. Valige makseviis.
     * Valige selle protseduuri jaoks sularaha maksemeetod.  
 15. Sulgege leht.
 16. Sisestage summa.
-    * Sisestage selle protseduuri jaoks summa, mis on võrdne tellimuse saldoga, mis on nähtav müügitellimuse kokkuvõtte lehel summa väljast vasakul pool. See võimaldab teil tellimuse täielikult tasutuna lõpetada.  
-17. Klõpsake nuppu OK.
-18. Klõpsake Edasta.
+    * Sisestage selle protseduuri jaoks summa, mis on võrdne tellimuse saldoga, mis on nähtav müügitellimuse kokkuvõtte lehel summa väljast vasakul pool. See tegevus võimaldab teil tellimuse täielikult tasutuna lõpule viia.  
+17. Valige nupp **OK**.
+18. Valige käsk **Esita**.
 

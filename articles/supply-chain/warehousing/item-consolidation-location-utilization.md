@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5e4172a8d3f82e6eeb8868aac87abd183a94c088
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017180"
 ---
 # <a name="item-consolidation---location-utilization"></a>Kauba konsolideerimine – asukoha kasutamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet funktsiooni kohta, mis hõlbustab laohalduritel kuvada ja filtreerida asukohtade mahulist kasutust terves laos. Haldurid saavad valida asukohti ja luua varude liikumise tööd otse lehelt **Kauba konsolideerimine**, et konsolideerida kaupu ja seeläbi kasutada laos olevat ruumi tõhusamalt.
+Selles teemas antakse teavet funktsiooni kohta, mis hõlbustab laohalduritel kuvada ja filtreerida asukohtade mahulist kasutust terves laos. Haldurid saavad valida asukohti ja luua varude liikumise tööd otse lehelt **Kauba konsolideerimine** , et konsolideerida kaupu ja seeläbi kasutada laos olevat ruumi tõhusamalt.
 
 ## <a name="turn-on-the-features"></a>Funktsioonide sisselülitamine
 
@@ -80,7 +81,7 @@ Selles jaotises kirjeldatakse, kuidas valmistada süsteemi ette kauba konsolidee
 1. Valige käsk **Salvesta**.
 
     > [!IMPORTANT]
-    > Kui suvandite **Luba kaup asukohas** ja **Luba asukoha olek** väärtuseks oli juba seatud *Jah*, jätkake etapis 10 toodud juhistega kiirkaardi **Dimensioonid** seadistamiseks. Kui suvandite väärtuseks polnud seatud *Jah*, peate käivitama ühtsuskontrolli mooduli **Laohaldus** jaoks pärast nende käsitsi määramist. Sellisel juhul jätkake järgmise etapiga.
+    > Kui suvandite **Luba kaup asukohas** ja **Luba asukoha olek** väärtuseks oli juba seatud *Jah* , jätkake etapis 10 toodud juhistega kiirkaardi **Dimensioonid** seadistamiseks. Kui suvandite väärtuseks polnud seatud *Jah* , peate käivitama ühtsuskontrolli mooduli **Laohaldus** jaoks pärast nende käsitsi määramist. Sellisel juhul jätkake järgmise etapiga.
 
 1. Ühtsuskontrolli käivitamiseks avage jaotis **Süsteemi administreerimine \> Perioodilised ülesanded \> Andmebaas \> Ühtsuskontroll**.
 1. Dialoogiboksis **Ühtsuskontroll** määrake järgmised väärtused.
@@ -97,7 +98,7 @@ Selles jaotises kirjeldatakse, kuidas valmistada süsteemi ette kauba konsolidee
     >
     > Kui ühtsuskontroll kuvab teadet „Leiti vale asukoha oleku teave asukoha XXXX jaoks laos XX”, peate käivitama ühtsuskontrolli uuesti. Seekord seadke välja **Kontroll/parandus** väärtuseks *Paranda tõrge*. Kontrollige teateid, veendumaks, et tõrkeid ei leitud.
 
-1. Nüüd peate asukohaprofiili seadistamise lõpetama. Naaske jaotisse **Laohaldus \> Seadistus \> Ladu \> Asukohaprofiilid**, valige asukohaprofiil **KORRUS-05** ja seejärel valige toimingupaanil **Redigeeri**.
+1. Nüüd peate asukohaprofiili seadistamise lõpetama. Naaske jaotisse **Laohaldus \> Seadistus \> Ladu \> Asukohaprofiilid** , valige asukohaprofiil **KORRUS-05** ja seejärel valige toimingupaanil **Redigeeri**.
 1. Määrake kiirkaardil **Dimensioonid** järgmised väärtused.
 
     - **Mahu kasutamise protsent:** *100*
@@ -112,7 +113,7 @@ Selles jaotises kirjeldatakse, kuidas valmistada süsteemi ette kauba konsolidee
 ### <a name="mobile-device-menu-items"></a>Mobiilse seadme menüü-üksused
 
 1. Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme menüü-üksused**.
-1. Valige toimingupaanil **Uus**, et luua menüü-üksus sortimiseks.
+1. Valige toimingupaanil **Uus** , et luua menüü-üksus sortimiseks.
 1. Määrake päises järgmised väärtused.
 
     - **Menüü-üksuse nimi:** *Korrigeeri üksuses*
@@ -180,7 +181,7 @@ Järgmine stsenaarium kasutab mobiilse seadme laorakendust, et teha varude *korr
 
     Teile kuvatakse teade „Töö lõpule viidud”.
 
-1. Valige nupp Menüü (nimetatakse mõnikord hamburgeriks või hamburgeri nupuks) ja seejärel valige **Tühista**, et väljuda ülesandest **Korrigeeri üksuses**.
+1. Valige nupp Menüü (nimetatakse mõnikord hamburgeriks või hamburgeri nupuks) ja seejärel valige **Tühista** , et väljuda ülesandest **Korrigeeri üksuses**.
 
 ### <a name="consolidate-locations"></a>Asukohtade konsolideerimine
 

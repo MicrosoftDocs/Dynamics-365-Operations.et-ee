@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 4b9cd7dac680c1691fb4c6dd4078f109254be784
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215590"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017732"
 ---
 # <a name="pick-line-grouping"></a>Komplekteerimisridade grupeerimine
 
@@ -52,7 +52,7 @@ Komplekteerimisridade grupeerimisel saab mitut töörida, millel on sama üksus 
 4. Kiirkaardil **Töö klassid** järgige neid etappe, et konfigureerida mobiilse seadme menüü-üksuse kehtivad töö klassid.
 
     1. Valige suvand **Uus**.
-    2. Väljal **Töö klassi ID** valige **Müük** või **SO komplekteerimine**, olenevalt kasutatavast laost.
+    2. Väljal **Töö klassi ID** valige **Müük** või **SO komplekteerimine** , olenevalt kasutatavast laost.
     3. Valige väljal **Töökäsu tüüp** suvand **Müügitellimused**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Mobiilse seadme menüü seadistamine
@@ -100,7 +100,7 @@ Enne kogumi komplekteerimise seadistamist peate looma mõne sobiliku väljaminev
     - **Üksus M9201:** igat 3
     - **Üksus M9202:** igat 9
 
-6. Enne tellimuste lattu vabastamist peate veenduma, et komplekteerimise asukohtadel on kõikide tellimuste kõigi üksuste jaoks piisavalt varusid. Vaadake üle seadistus **Asukoha korraldus**, et määratleda, milliseid komplekteerimise asukohti müügitellimuse komplekteerimiseks kasutatakse.
+6. Enne tellimuste lattu vabastamist peate veenduma, et komplekteerimise asukohtadel on kõikide tellimuste kõigi üksuste jaoks piisavalt varusid. Vaadake üle seadistus **Asukoha korraldus** , et määratleda, milliseid komplekteerimise asukohti müügitellimuse komplekteerimiseks kasutatakse.
 7. Reserveerige varud ja vabastage need lattu. Luuakse töö ID, millel on kuus rida. Read sorditakse kaubakoodi alusel.
 
 ### <a name="run-the-mobile-device-flow"></a>Mobiilse seadme voo käitamine
@@ -130,3 +130,4 @@ Enne kogumi komplekteerimise seadistamist peate looma mõne sobiliku väljaminev
 >    - Osade komplekteerimine.
 >    - Töö read, millel on lõpetamata täiendamise töö.
 >    - Ülekomplekteerimine.
+>    - Kiirelt komplekteeritava kauba ümberjaotamine

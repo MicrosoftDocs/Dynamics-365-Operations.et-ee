@@ -3,7 +3,7 @@ title: Autoriõiguste teatise lisamine
 description: Selles teemas kirjeldatakse kuidas oma e-kaubanduse veebisaidile autoriõiguse teatist lisada.
 author: psimolin
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019537"
 ---
 # <a name="add-a-copyright-notice"></a>Autoriõiguste teatise lisamine
 
@@ -41,17 +41,17 @@ Enne saidile autoriõiguse teatise lisamist peavad teil olema järgmised üksuse
 
 Iga konkreetset malli kasutava lehe allossa autoriõiguse teatise lisamiseks toimige järgmiselt.
 
-1. Avage suvand **Fragmendid** ja valige seejärel **Uus lehe fragment**.
-1. Valige dialoogiaknas moodul **Jalus** ja andke fragmendile nimi. Sisestage näiteks **Jalus-autoriõigus**.
+1. Avage **Fragmendid** ja valige seejärel **Uus**.
+1. Valige dialoogiboksis **Uus fragment** moodul **Jalus** ja pange fragmendile nimi. Sisestage näiteks **Jalus-autoriõigus**.
 1. Valige nupp **OK**.
-1. Navigeerimispaanil valige kolmikpunkti nupp (**...**) suvandi **Jalus** kõrval ja valige seejärel **Lisa moodul**.
+1. Navigeerimispaanil valige kolmikpunkti nupp ( **...** ) suvandi **Jalus** kõrval ja valige seejärel **Lisa moodul**.
 1. Dialoogiaknas valige suvand **Jaluse kategooria** ja seejärel valige nupp **OK**.
 1. Navigeerimispaanil valige kolmikpunkti nupp suvandi **Jaluse kategooria** kõrval ja valige seejärel **Lisa moodul**.
 1. Dialoogiaknas valige suvand **Tekstiplokk** ja seejärel valige nupp **OK**.
 1. Valige navigeerimispaanil **Tekstiplokk**.
 1. Lisage paremal atribuutide paanil väljale **Lõik** oma autoriõiguse sõnum. Sisestage näiteks **(C) Fabrikam 2019**.
-1. Valige **Salvesta**, valige **Lõpeta redigeerimine** ja valige seejärel **Avalda**.
-1. Valige suvand **Mallid**, valige mall ja seejärel käsk **Redigeeri**.
+1. Valige **Salvesta** , valige **Lõpeta redigeerimine** ja valige seejärel **Avalda**.
+1. Valige suvand **Mallid** , valige mall ja seejärel käsk **Redigeeri**.
 1. Jaotises **Lehe liigendus** laiendage suvandit **Kehatekst** ja laiendage seejärel suvandit **Vaikeleht**.
 1. Valige suvandi **Jaluse pesa** kõrval kolmikpunkti nupp ja seejärel valige käsk **Lisa fragment**.
 1. Valige varem loodud fragment ja seejärel valige käsk **Vali**.

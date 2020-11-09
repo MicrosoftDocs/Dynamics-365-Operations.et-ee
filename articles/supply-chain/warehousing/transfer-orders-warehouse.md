@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa5786df72f87da992f1020bbaaa1c2185adf043
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216708"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017479"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Ladude seadistamine üleviimistellimuste jaoks 
 
@@ -50,5 +51,5 @@ Ladudevahelisi üleviimistellimusi toetava hierarhia loomiseks saate kasutada la
 Peate ka seadistama transpordi täitmisaja ladude vahel lehel **Transpordipäevad**. 
 1. Minge jaotisse **Varude haldus > Seadistus > Jaotus > Transpordipäevad**.
 2. Valige väljal **Vastuvõtupunkt** säte **ladu**.
-3. Valige **Lähetav ladu**, **Vastuvõttev ladu** ja **Transpordi päevas**. 
+3. Valige **Lähetav ladu** , **Vastuvõttev ladu** ja **Transpordi päevas**. 
 4. (Valikuline) Saate määrata ka tarneviisist oleneva transpordiaja vahekaardil **Transpordipäevi tarneviisi kohta**.

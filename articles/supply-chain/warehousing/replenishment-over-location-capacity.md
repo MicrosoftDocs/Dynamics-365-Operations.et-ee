@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5591af5fce4eb3fc901919b98f654faa5e160c54
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652225"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016604"
 ---
 # <a name="replenishment-over-location-capacity"></a>Täiendamine üle asukoha võimsuse
 
@@ -97,7 +98,7 @@ Lubage täiendamine üle võimsuse funktsioon asukohaprofiilis.
         Asukoha ladustamispiirangud võetakse arvesse töökoguse protsendi arvutamisel. Kui asukoha ladustamispiiranguid pole määratletud, arvutatakse töö koguse protsent mahu järgi, kui asukohaprofiilis on määratletud mahupiirangud.
 
 > [!IMPORTANT]
-> Kui kasutate juriidilise isiku **USMF** demoandmeid ja eelnevalt lülitasite sisse funktsiooni *Asukoha identifitseerimisnumbri paigutus*, peate näidisstsenaariumi mobiilse seade etappides välja lülitama asukohaprofiili **BULK-06** sätte **Luba identifitseerimisnumbri paigutus**.
+> Kui kasutate juriidilise isiku **USMF** demoandmeid ja eelnevalt lülitasite sisse funktsiooni *Asukoha identifitseerimisnumbri paigutus* , peate näidisstsenaariumi mobiilse seade etappides välja lülitama asukohaprofiili **BULK-06** sätte **Luba identifitseerimisnumbri paigutus**.
 
 ### <a name="wave-step-code"></a>Vooetapi kood
 
@@ -137,7 +138,7 @@ Täiendamise mallid on reeglistik, mis määrab asikoha täiendamise aja ja viis
 
     Valige selle suvandi väärtuseks *Jah* nõudlusel põhineva täiendustöö loomiseks ja selle automaatseks väljastamiseks. Selleks peab voomallile lisama täiendusvoo meetodi ja looma täiendamismalli tüübiga **Voo nõue**. Häälestage lehel **Täiendamise mall** täiendamise mall. Täiendamise malli häälestamiseks tuleb lisada voo mallile täiendamise meetod.
 
-1. Otsige kiirkaardi **Meetodid** veerust **Valitud meetodid**, järgmine rida:
+1. Otsige kiirkaardi **Meetodid** veerust **Valitud meetodid** , järgmine rida:
 
     - **Meetodi nimi:** *täiendamine*
     - **Nimi:** *Täiendamine*
@@ -154,7 +155,7 @@ Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättes
 #### <a name="create-sales-order-1"></a>Müügitellimuse 1 loomine
 
 1. Avage **Müük ja turundus \> Müügitellimused \> Kõik müügitellimused**.
-1. Valige tegevuspaanil **Uus**, et avada dialoogiboks uue müügitellimuse loomiseks.
+1. Valige tegevuspaanil **Uus** , et avada dialoogiboks uue müügitellimuse loomiseks.
 1. Määrake dialoogiboksis järgmised väärtused.
 
     - **Kliendi konto:** *US-007*
@@ -177,7 +178,7 @@ Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättes
 
 #### <a name="create-sales-order-2"></a>Müügitellimuse 2 loomine
 
-1. Tehke tegevuspaani lehel **Kõik müügitellimused** valik **Uus**, et avada dialoogiboks uue müügitellimuse loomiseks.
+1. Tehke tegevuspaani lehel **Kõik müügitellimused** valik **Uus** , et avada dialoogiboks uue müügitellimuse loomiseks.
 1. Määrake dialoogiboksis järgmine väärtus.
 
     - **Kliendi konto:** *US-001*
@@ -200,7 +201,7 @@ Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättes
 
 #### <a name="create-sales-order-3"></a>Müügitellimuse 3 loomine
 
-1. Tehke tegevuspaani lehel **Kõik müügitellimused** valik **Uus**, et avada dialoogiboks uue müügitellimuse loomiseks.
+1. Tehke tegevuspaani lehel **Kõik müügitellimused** valik **Uus** , et avada dialoogiboks uue müügitellimuse loomiseks.
 1. Määrake dialoogiboksis järgmised väärtused.
 
     - **Kliendi konto:** *US-004*
@@ -228,7 +229,7 @@ Pärast seda, kui olete teinud kõik eelnevalt kirjeldatud näidisandmed kättes
 1. Peaksite nägema, et kolme nõudluse müügitellimuse jaoks loodi seitse töö ID-d.
 
     - Kolmel seitsmest töö ID-st on *Täiendamise* **Töökäsu tüübi** väärtus ja neljal on *Müügitellimuse* **Töökäsu tüübi** väärtus.
-    - Kõik kolm töö ID-d mille *Täiendamise* väärtusel on **Töökäsu tüüp** sama asukohaga *Komplekteerimine* ja *Ladustamine* jaotises **Read**:
+    - Kõik kolm töö ID-d mille *Täiendamise* väärtusel on **Töökäsu tüüp** sama asukohaga *Komplekteerimine* ja *Ladustamine* jaotises **Read** :
 
         - **Komplekteerimine:** *02A01R5S1B*
         - **Ladustamine:** *06A01R2S1B*
@@ -360,7 +361,7 @@ Müügitellimus 2 on komplekteerimisel blokeeritud, kuna sellega seotud täiendu
 
 Kohe, kui vaba kaubavaru koguse summa komplekteerimise asukohas ja täiendamise kogus on alla piirmäära, saate töödelda järelejäänud täiendustööd.
 
-Minge tagasi lehele **Töö üksikasjad** ja märkate, et täiendustöö kättesaadavus täiendamise (müügitellimus 2) viimaseks osaks on *Avatud*, kuna asukohas on nüüd piisavalt ruumi täiendamisega nõustumiseks.
+Minge tagasi lehele **Töö üksikasjad** ja märkate, et täiendustöö kättesaadavus täiendamise (müügitellimus 2) viimaseks osaks on *Avatud* , kuna asukohas on nüüd piisavalt ruumi täiendamisega nõustumiseks.
 
 Nüüd saate seda täiendustööd mobiilse seadme kaudu töödelda.
 

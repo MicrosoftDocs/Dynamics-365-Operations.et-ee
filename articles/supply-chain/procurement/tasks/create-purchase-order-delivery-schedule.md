@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383247"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018232"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Tarnegraafikuga ostutellimuse loomine
 
@@ -46,7 +46,7 @@ Selles teemas näidatakse, kuidas luua ostutellimusele tarnegraafikut. Tarnegraa
 - Valige väljalt Tarnekuupäev kuupäev, mis on üks nädal pärast esimesel tarnereal olevat kuupäeva.  
 - Väljade **Kokku** ja **Järelejäänud** abil saate jälgida lõplikku kogust, mis tarnegraafiku ridadele eraldati. Kui järelejäänud kogus on null, eraldati graafikusse algse rea täielik kogus.  
 12. Laiendage jaotist **Tasude teisendamine**.
-- Siin olevad valikud võimaldavad teil juhtida, kuidas soovite tasusid tarnegraafiku ridade vahel jagada. Kui valite **Kopeeri brutosummad**, kopeeritakse igale tarnereale algsel tellimuse real olev tasu summa. Valik **Eralda tarneridadele** jagab algse rea tasu koguse järgi igale tarnereale.  
+- Siin olevad valikud võimaldavad teil juhtida, kuidas soovite tasusid tarnegraafiku ridade vahel jagada. Kui valite **Kopeeri brutosummad** , kopeeritakse igale tarnereale algsel tellimuse real olev tasu summa. Valik **Eralda tarneridadele** jagab algse rea tasu koguse järgi igale tarnereale.  
 13. Ahendage jaotist **Tasude teisendamine**.
 14. Valige nupp **OK**.
 - Tarnegraafik on nüüd tellimusele rakendatud.  

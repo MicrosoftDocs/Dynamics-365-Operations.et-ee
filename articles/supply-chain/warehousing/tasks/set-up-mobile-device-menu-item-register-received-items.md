@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFMenuItem, WHSRFMenu
+ms.search.form: WHSRFMenuItem, WHSRFMenu, WHSRFDefaultData
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 25fabeeb9bcedd888cdebc1ffeee9f0aef5b43cd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: f636a1f3d598a069c3922160eedbe05b68bc91eb
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017433"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
 
@@ -39,21 +39,21 @@ Saate seda juhendit kasutada demoettevõtte USMF andmetega. See protseduur on m�
 3. Sisestage väärtus väljale **Menüü-üksuse nimi**. See on selle mobiilse seadme menüü-üksuse ainuidentifikaator. Näiteks võite sisestada `My PO registration`.  
 4. Sisestage väärtus väljale **Pealkiri**. See on pealkiri, mis kuvatakse kasutajale mobiilses seadmes. Näiteks võite sisestada `PO registration`.  
 5. Valige väljal **Režiim** suvand **Töö**. Ostutellimuse rea jaoks vastu võetud vaba kaubavaru koguste registreerimine loob töö kaupade teisaldamiseks vastuvõtualast varudesse. Tööd ei looda enne, kui kaubad on registreeritud. Seetõttu jätke suvandi **Kasuta** olemasolevat tööd sätteks **Ei**.
-6. Valige jaotise **Üldine** väljal **Töö loomise protsess**, **Ostutellimuse objekt saab**.
+6. Valige jaotise **Üldine** väljal **Töö loomise protsess** , **Ostutellimuse objekt saab**.
     - Ostutellimuse rida peab olema üheselt identifitseeritud, enne kui vaba kaubavaru saab laos registreerida. Selles stsenaariumis registreerib mobiilne seade ostutellimuse numbri ja kaubakoodi ning see võimaldab süsteemil tuvastada ostutellimuse rea. Luuakse paigutamistöö ja selle saab võtta teine töötaja. Teie valitud töö loomise meetod määrab, millised väljad muutuvad **Üldist** FastTabis kättesaadavaks.  
-    - Kui valite suvandi **Kasuta vaikemisi andmeid**, on nupp **Vaikeandmed** sisse lülitatud. siin saate valida väljad nende andmete kuvamiseks, mida töötajal enamasti igapäevases töös vaja läheb, nii et need väärtused kuvatakse mobiilses seadmes.  
+    - Kui valite suvandi **Kasuta vaikemisi andmeid** , on nupp **Vaikeandmed** sisse lülitatud. siin saate valida väljad nende andmete kuvamiseks, mida töötajal enamasti igapäevases töös vaja läheb, nii et need väärtused kuvatakse mobiilses seadmes.  
     - Parameeter **Numbrimärkide rühmitus** töötab koos ühikute seeriagrupiga, mis on määratud vastuvõetavale üksusele. Saate määrata, kas vähema või rohkema kui ühe kaubaaluse sissetulekud rühmitatakse ühele litsentsiplaadile või luuakse iga ühiku kohta eraldi litsentsiplaat.  
-    - Kui valite valiku **Genereeri numbrimärk**, genereerib see numbrijadade valiku põhjal kordumatu numbrimärgi numbri.  
+    - Kui valite valiku **Genereeri numbrimärk** , genereerib see numbrijadade valiku põhjal kordumatu numbrimärgi numbri.  
     - Saate valida malli, mida kasutatakse töö loomisel. Näiteks kui registreerite ostutellimuse jaoks kauba, luuakse töömalli alusel paigutamistöö. Kui te siin töömalli ei vali, määrab süsteem malli mallidega seostatud päringukriteeriumite alusel.  
     - Kui mobiilses seadmes kuvatakse likvideerimiskoodid, saavad töötajad hinnata kaupade olekut või kvaliteeti ja valida sobiva koodi. Likvideerimiskoodi reeglid määratlevad, kas kaup on saadaval teiste laoprotsesside jaoks. Reeglid määratlevad ka selle, millist asukohakorraldust loodud töö jaoks kasutatakse.   
-    - Kui valite valiku **Partii dispositsiooni koodid**, saavad töötajad hinnata partii olekut või kvaliteeti ja valida sobiva dispositsiooni koodi. Partii likvideerimiskoodile määratud reeglid määratlevad, kas partii on saadaval teiste laoprotsesside jaoks.  
-    - Kui valite suvandi **Prindi sildid**, prinditakse numbrimärgi sildid objektide vastuvõtmisel automaatselt.  
+    - Kui valite valiku **Partii dispositsiooni koodid** , saavad töötajad hinnata partii olekut või kvaliteeti ja valida sobiva dispositsiooni koodi. Partii likvideerimiskoodile määratud reeglid määratlevad, kas partii on saadaval teiste laoprotsesside jaoks.  
+    - Kui valite suvandi **Prindi sildid** , prinditakse numbrimärgi sildid objektide vastuvõtmisel automaatselt.  
 7. Valige käsk **Salvesta**.
 8. Sulgege leht.
 
 ## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Menüü-üksuse lisamine mobiilse seadme menüüsse
 1. Avage Navigeerimispaneel > **Moodulid > Laohaldus > Seadistus > Mobiilne seade > Mobiilse seadme menüü-üksused.**
-2. Kasutage **Kiirfiltrit**, et filtreerida väljal **Nimi** väärtusega '`inbound`.
+2. Kasutage **Kiirfiltrit** , et filtreerida väljal **Nimi** väärtusega '`inbound`.
 3. Valige suvand **Redigeeri**.
 4. Valige puul Saadaolevad menüüd ja üksused varem loodud menüü-üksus.
 5. Klõpsake paremale suunatud noolt.

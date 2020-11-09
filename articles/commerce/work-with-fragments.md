@@ -3,7 +3,7 @@ title: Fragmentidega töötamine
 description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961654"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019560"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
@@ -58,31 +58,27 @@ Saate kas luua uue fragmendi või salvestada olemasoleva mooduli konfiguratsioon
 
 ### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Olemasoleva mooduli konfiguratsiooni salvestamine fragmendina
 
-Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks tehke järgmist.
+Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks Commerce'i saidiehitajas, toimige järgmiselt.
 
 1. Avage leht või mall, mis sisaldab moodulit, mida soovite teisendada fragmendiks.
 1. Valige vasakul liigenduspaanil või otse visuaalses leheehitajas eelnevalt konfigureeritud moodul.
-1. Valige kolmikpunkt (**...**) mooduli nime kõrval kas liigenduspaanil või visuaalses leheehitajas valitud mooduli tööriistaribal. 
-1. Valige suvand **Jaga lehekülje fragmendina**. 
-1. Dialoogiaknas **Salvesta lehe fragmendina** sisestage fragmendi nimi.
-1. Valige nupp **OK**, et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
+1. Valige kolmikpunkt ( **...** ) mooduli nime kõrval kas liigenduspaanil või visuaalses leheehitajas valitud mooduli tööriistaribal. 
+1. Valige **Jaga fragmendina**. 
+1. Sisestage dialoogiboksis **Salvesta fragmendina** fragmendi nimi.
+1. Valige nupp **OK** , et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
+<!-- The following image shows how to save a module configuration as a fragment.-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
-Järgmine pilt näitab, kuidas salvestada mooduli konfiguratsiooni fragmendina.
+### <a name="create-a-new-fragment"></a>Loo uus fragment
 
-![Mooduli konfiguratsiooni fragmendina salvestamise kuvahõive](./media/save-as-fragment.png)
-
-### <a name="create-a-new-fragment"></a>Uue fragmendi loomine
-
-Uue fragmendi loomiseks tehke järgmist.
+Uue fragmendi loomiseks Commerce'i saidiehitajas, toimige järgmiselt.
 
 1. Valige navigeerimispaanilt vasakult suvand **Fragmendid**.
-1. Valige suvand **Uus lehe fragment**. Kuvatakse dialoogiboks, kus on näha kõik saadaolevad mooduli tüübid. Nagu varem mainitud, fragmente saab luua igast mooduli tüübist.
+1. Valige suvand **Uus**. Kuvatakse dialoogiboks **Uus fragment** , kus on näha kõik saadaolevad mooduli tüübid. Nagu varem mainitud, fragmente saab luua igast mooduli tüübist.
 1. Valige oma fragmendi jaoks mooduli tüüp.
 
-Järgmine pilt näitab, kus uus fragment luua.
-
-![Uue fragmendi loomiskoha kuvahõive](./media/fragment-nav-menu.png)
-
+<!-- The following image shows where to create a new fragment.-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Valides üldkonteineri mooduli tüübi, on teil hiljem fragmendi värskendamise ja konfigureerimise vajadusel kõige rohkem vabadust.
 
@@ -92,30 +88,28 @@ Järgmistes protseduurides kirjeldatakse, kuidas fragmente lisada, eemaldada ja 
 
 ### <a name="add-a-fragment"></a>Fragmendi lisamine
 
-Lehele fragmendi lisamiseks tehke järgmist.
+Lehele uue fragmendi lisamiseks Commerce'i saidiehitajas, toimige järgmiselt.
 
 1. Valige vasakult liigenduspaanilt või otse visuaalsest leheehitajast konteiner või pesa, kuhu võib lisada alammoodulid.
-1. Valige võrgupaanil kolmikpunkt (**...**) konteineri või pesa nime kõrval.  Kui kasutate visuaalset leheehitajat, valige teise võimalusena pluss-sümbol (**+**).  
-1. Valige nupp **Lisa fragment**.
-
-    ![Olemasoleva fragmendi pessa või konteinerisse lisamise kuvahõive](./media/add-fragment.png)
+1. Valige kolmikpunkt ( **...** ) konteineri või pesa nime kõrval.  Kui kasutate visuaalset leheehitajat, valige teise võimalusena pluss-sümbol ( **+** ).  
+1. Valige **Lisa fragment**.
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
-    > Kui konteiner või pesa ei toeta uusi alammooduleid, ei ole käsk **Lisa fragment** saadaval.
+    > Kui konteiner või pesa ei toeta uusi alammooduleid, ei ole suvand **Lisa fragment** saadaval.
     
-1. Otsige ja valige lisamiseks dialoogiboksist **Lisa fragment** fragment. Kui ühtegi saadaolevat fragmenti loendis pole, peate kõigepealt looma fragmendi mooduli tüübist, mida valitud konteiner või pesa toetab.
+1. Otsige dialoogiboksist **Lisa fragment** fragmenti ja valige see lisamiseks. Kui ühtegi saadaolevat fragmenti loendis pole, peate kõigepealt looma fragmendi mooduli tüübist, mida valitud konteiner või pesa toetab.
 1. Valige soovitud fragment, et lisada see oma lehel konteinerile või pesale.
-
-    ![Fragmendi valija modaalakna ekraanihõive](./media/fragment-picker.png)
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Konteineris või pesas lubatud moodulid on määratletud lehe malli või moodulite enda määratlustega.
 
 ### <a name="remove-a-fragment"></a>Fragmendi eemaldamine
 
-Fragmendi eemaldamiseks pesast või konteinerist lehel tehke järgmist.
+Fragmendi eemaldamiseks pesast või konteinerist Commerce'i saidiehitaja lehel, toimige järgmiselt.
 
-1. Vasakult liigenduspaanilt valige eemaldatava fragmendi kõrvalt kolmikpunkt (**...**) ja seejärel valige prügikasti tähis.  Alternatiivselt saate valida visuaalses leheehitajas fragmendi ja valida fragmendi tööriistaribal prügikasti tähise.
+1. Vasakult liigenduspaanilt valige eemaldatava fragmendi kõrvalt kolmikpunkt ( **...** ) ja seejärel valige prügikasti tähis.  Alternatiivselt saate valida visuaalses leheehitajas fragmendi ja valida fragmendi tööriistaribal prügikasti tähise.
 1. Kui teil palutakse kinnitada, et soovite fragmenti eemaldada, valige nupp **OK**.
 
 > [!NOTE]
@@ -125,7 +119,7 @@ Fragmendi eemaldamiseks pesast või konteinerist lehel tehke järgmist.
 
 Fragmentide redigeerimiseks peate kasutama fragmendi redaktori kasutajaliidest. See piirang on kavandatud. See aitab tagada, et autorid ei ajaks segi konkreetse lehe moodulite redigeerimise protsessi paljude lehtede vahel jagatavate fragmentide redigeerimise protsessiga.
 
-Fragmendi redigeerimiseks tehke järgmist.
+Fragmendi redigeerimiseks Commerce'i saidiehitajas, toimige järgmiselt.
 
 1. Valige navigeerimispaanilt vasakult suvand **Fragmendid**.
 1. Valige jaotisest **Fragmendid** redigeerimiseks fragment.
