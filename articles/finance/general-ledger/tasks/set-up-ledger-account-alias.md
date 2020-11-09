@@ -16,28 +16,28 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2098ffed81ab3c18855363f0c3ef43dc1d11a77d
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: e1764f31c98039e9ea6f665dcb04a1cfd23c31dc
+ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138079"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998844"
 ---
-# <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="cafbe-103">Pearaamatukonto pseudonüümi seadistamine</span><span class="sxs-lookup"><span data-stu-id="cafbe-103">Set up a ledger account alias</span></span>
+# <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="42280-103">Pearaamatukonto pseudonüümi seadistamine</span><span class="sxs-lookup"><span data-stu-id="42280-103">Set up a ledger account alias</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="cafbe-104">Selle protseduuriga kirjeldatakse kontopseudonüümi loomist, mis pakub otseteed kontonumbri sisestamiseks.</span><span class="sxs-lookup"><span data-stu-id="cafbe-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="cafbe-105">Protseduur kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="cafbe-105">This procedure users demo data company USMF.</span></span>
+<span data-ttu-id="42280-104">Selle protseduuriga kirjeldatakse kontopseudonüümi loomist, mis pakub otseteed kontonumbri sisestamiseks.</span><span class="sxs-lookup"><span data-stu-id="42280-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="42280-105">Protseduur kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="42280-105">This procedure uses demo data company USMF.</span></span>
 
-1. <span data-ttu-id="cafbe-106">Minge jaotisse Pearaamat > Kontoplaan > Kontod > Pearaamatukonto pseudonüüm.</span><span class="sxs-lookup"><span data-stu-id="cafbe-106">Go to General ledger > Chart of accounts > Accounts > Ledger account alias.</span></span>
-2. <span data-ttu-id="cafbe-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="cafbe-107">Click New.</span></span>
-3. <span data-ttu-id="cafbe-108">Sisestage väärtus väljale Pearaamatukonto pseudonüüm.</span><span class="sxs-lookup"><span data-stu-id="cafbe-108">In the Ledger account alias field, type a value.</span></span>
-4. <span data-ttu-id="cafbe-109">Valige väljal Konto struktuur see struktuur, millesse konto ja dimensioonid kuuluvad.</span><span class="sxs-lookup"><span data-stu-id="cafbe-109">In the Account structure field, select the structure the account and dimensions belong to.</span></span>
-5. <span data-ttu-id="cafbe-110">Klõpsake väljal Ettevõte otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="cafbe-110">In the Company field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="cafbe-111">Leidke ja valige loendist ettevõte, millele pseudonüüm rakendub.</span><span class="sxs-lookup"><span data-stu-id="cafbe-111">In the list, find and select the company that the alias applies to.</span></span>
-7. <span data-ttu-id="cafbe-112">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="cafbe-112">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="cafbe-113">Määrake konto ja dimensioonid väljal Pearaamatukonto pseudonüümi määratlus.</span><span class="sxs-lookup"><span data-stu-id="cafbe-113">In the Ledger account alias definition field, specify the account and dimensions.</span></span>
-    * <span data-ttu-id="cafbe-114">Otsetee kasutamisel asustatakse konto ja dimensioonid.</span><span class="sxs-lookup"><span data-stu-id="cafbe-114">The account and dimensions will be populated when using the shortcut.</span></span>  
-9. <span data-ttu-id="cafbe-115">Valige väljal Algne fookus see dimensioon, millele liigub fookus pseudonüümi kasutamisel.</span><span class="sxs-lookup"><span data-stu-id="cafbe-115">In the Initial focus field, select the dimension that will have focus when the alias is used.</span></span>
-    * <span data-ttu-id="cafbe-116">Pärast otsetee sisestamist ning konto ja dimensioonide asustamist liigub kursor või fookus väljale Algne fookus.</span><span class="sxs-lookup"><span data-stu-id="cafbe-116">After you type the shortcut, and the account and dimensions are populated, the Initial focus field is where the cursor or focus will move to.</span></span>  
+1. <span data-ttu-id="42280-106">Minge jaotisse Pearaamat > Kontoplaan > Kontod > Pearaamatukonto pseudonüüm.</span><span class="sxs-lookup"><span data-stu-id="42280-106">Go to General ledger > Chart of accounts > Accounts > Ledger account alias.</span></span>
+2. <span data-ttu-id="42280-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="42280-107">Click New.</span></span>
+3. <span data-ttu-id="42280-108">Sisestage väärtus väljale Pearaamatukonto pseudonüüm.</span><span class="sxs-lookup"><span data-stu-id="42280-108">In the Ledger account alias field, type a value.</span></span>
+4. <span data-ttu-id="42280-109">Valige väljal Konto struktuur see struktuur, millesse konto ja dimensioonid kuuluvad.</span><span class="sxs-lookup"><span data-stu-id="42280-109">In the Account structure field, select the structure the account and dimensions belong to.</span></span>
+5. <span data-ttu-id="42280-110">Klõpsake väljal Ettevõte otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="42280-110">In the Company field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="42280-111">Leidke ja valige loendist ettevõte, millele pseudonüüm rakendub.</span><span class="sxs-lookup"><span data-stu-id="42280-111">In the list, find and select the company that the alias applies to.</span></span>
+7. <span data-ttu-id="42280-112">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="42280-112">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="42280-113">Määrake konto ja dimensioonid väljal Pearaamatukonto pseudonüümi määratlus.</span><span class="sxs-lookup"><span data-stu-id="42280-113">In the Ledger account alias definition field, specify the account and dimensions.</span></span>
+    * <span data-ttu-id="42280-114">Otsetee kasutamisel asustatakse konto ja dimensioonid.</span><span class="sxs-lookup"><span data-stu-id="42280-114">The account and dimensions will be populated when using the shortcut.</span></span>  
+9. <span data-ttu-id="42280-115">Valige väljal Algne fookus see dimensioon, millele liigub fookus pseudonüümi kasutamisel.</span><span class="sxs-lookup"><span data-stu-id="42280-115">In the Initial focus field, select the dimension that will have focus when the alias is used.</span></span>
+    * <span data-ttu-id="42280-116">Pärast otsetee sisestamist ning konto ja dimensioonide asustamist liigub kursor või fookus väljale Algne fookus.</span><span class="sxs-lookup"><span data-stu-id="42280-116">After you type the shortcut, and the account and dimensions are populated, the Initial focus field is where the cursor or focus will move to.</span></span>  
 
