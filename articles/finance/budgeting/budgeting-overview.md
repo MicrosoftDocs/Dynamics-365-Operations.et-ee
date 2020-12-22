@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975264"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528541"
 ---
 # <a name="budgeting-home-page"></a>Eelarvestamise avaleht
 
@@ -64,7 +64,7 @@ Teavet selle kohta, kuidas tuua plaanimisandmeid muudest moodulitest eelarveplaa
 ## <a name="user-interface-and-reporting-capabilities"></a>Kasutajaliides ja aruandluse võimalused
 Kasutajad saavad koostada eelarveplaane kas otse kliendis (kasutades konfigureeritavat eelarveplaani dokumendi lehte) või Exceli kaudu. Excel pakub mitut lisavõimalust. Näiteks saab eelarveplaani allikana kasutada väliseid andmeid, teha kohandatud arvutusi ning kasutada Microsofti liigendtabeleid ja diagramme. Enamikku eelarve plaanimise protsessi muutujatest saab konfigureerida. 
 
-Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostatakse ja milline on protsess. Kuigi saate kasutada eelarve plaanimiseks Excelit, jääb rakendus ainsaks tõe allikaks, mis aitab eelarve juhtimise probleeme vältida. Algsete eelarvestamise andmete toomiseks eelarveplaani saab kasutada perioodilisi protsesse. Aruandluse jaoks pakub rakendus standardsete päringulehtede kogumit, mis võimaldab eelarvestamise andmeid vaadata ja analüüsida. Eelarveplaani andmetele pääseb juurde Management Reporteri kaudu ja eraldi eelarveplaani stsenaariume saab kuvada Management Reporteri aruandes veergudena.
+Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostatakse ja milline on protsess. Kuigi saate kasutada eelarve plaanimiseks Excelit, jääb rakendus ainsaks tõe allikaks, mis aitab eelarve juhtimise probleeme vältida. Algsete eelarvestamise andmete toomiseks eelarveplaani saab kasutada perioodilisi protsesse. Aruandluse jaoks pakutakse rakenduses standardsete päringulehtede kogumit, mis võimaldab eelarveandmeid vaadata ja analüüsida. Eelarveplaani andmetele pääseb juurde rakenduse [Financial Reporting](../general-ledger/financial-reporting-getting-started.md) kaudu ning eraldi eelarveplaani stsenaariume saab kuvada finantsaruandes veergudena.
 
 
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458832"
+---
 Kui kopeerite andmebaasi ühest keskkonnast teise, peate enne kopeeritud andmebaasi täielikku töölehakkamist käivitama keskkonna uuesti ettevalmistamise tööriista, et kõik kaubanduse komponendid oleks ajakohased.
 
 > [!IMPORTANT]
@@ -6,7 +14,7 @@ Kui kopeerite andmebaasi ühest keskkonnast teise, peate enne kopeeritud andmeba
 Enne jätkamist peate veenduma, et järgmised tingimused on täidetud.
 1. Kui lähete üle 2017. aasta versioonile (teise nimega 7.2) 7.2.11792.56024, rakendage sihtkeskkonnas järgmised rakenduse X++ kiirparandused, enne kui käivitate selles keskkonnas andmete versioonitäienduse. Need hoiavad andmete versioonitäienduse ajal ära mitmesuguste tõrgete tekkimise.
 
-    - KB 4036156 – Retaili vaheversiooni täiendus – „Variandi numbriseeriat pole määratud.“ See paranduspakett sisaldab ka värskendusi KB 4035399 ja KB 4035751. Võtke arvesse, et selle paketi kasutamiseks peab teil olema vähemalt Platform Update 9. Kui te pole kindel, installige uusimad binaarfailid.
+    - KB 4036156 – Retaili vaheversiooni täiendus – „Variandi numbriseeriat pole määratud.“ See paranduspakett sisaldab ka värskendusi KB 4035399 ja KB 4035751. Võtke arvesse, et selle paketi kasutamiseks peab teil olema vähemalt platvormivärskendus 9. Kui te pole kindel, installige uusimad binaarfailid.
     
 2. Kui täiendate versiooni Microsoft Dynamics AX 2012, installige enne andmete versioonitäienduse käivitamist sihtkeskkonnas järgmised rakenduse X++ parandused:
     - KB 4033183 – Dynamics AX 2012 R2 või Dynamics AX 2012 R3 Pre-CU8 mitte-Retaili versioonitäiendus nurjub, kuna dbo.RETAILTILLLAYOUTZONE objekti ei leitud.

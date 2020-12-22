@@ -16,6 +16,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Ühe versiooni teenusevärskenduste KKK
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
+                - name: 'Värskenduste ja kohandatud koodi elutsükli, sh Dynamics 365 Commerce, haldamine'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/finance/toc.json
                 - name: Tarkvara elutsükli poliitika – pilv
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
                 - name: Tarkvara elutsükli poliitika – kohapealne
@@ -56,7 +58,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Rakenduse Finance + Operations (on-premises) ostmine
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Asutusesisese juurutuste ladustamise konfigureerimine
+                - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
                 - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
@@ -64,33 +66,29 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
-                - name: Mis on uut või mida on muudetud rakendustes Finance and Operations?
+                - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Mis on uut või mida on muudetud rakenduses Finance?
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.16 (veebruar 2021)
+                      href: get-started/whats-new-changed-10-0-16.md
                     - name: Finance 10.0.15 (jaanuar 2021)
                       href: get-started/whats-new-changed-10-0-15.md
                     - name: Finance 10.0.14 (november 2020)
                       href: get-started/whats-new-changed-10-0-14.md
-                    - name: Finance 10.0.13 (oktoober 2020)
-                      href: get-started/whats-new-changed-10-0-13.md
-                    - name: Finance 10.0.12 (august 2020)
-                      href: get-started/whats-new-changed-10-0-12.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Dynamics 365 Finance'i eemaldatud või iganenud funktsioonid
                   href: get-started/removed-deprecated-features-finance.md
-                - name: Varasematest versioonidest eemaldatud või iganenud funktsioonid
+                - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
             - name: AX 2012 edasilükatud funktsioonid
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Asutusesisestes juurutustes rakendamata funktsioonid
-              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
             - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
               href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
-            - name: Dokumentatsiooni ressursid
+            - name: Dokumentatsiooniressursid
               items:
                 - name: Spikrisüsteem
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
@@ -140,11 +138,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Tegevuse otsing
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/finance/toc.json
-                - name: Täpsema filtreerimise ja päringu süntaks
+                - name: Täpsem filtreerimine ja päringusüntaks
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/finance/toc.json
                 - name: Tööruumide konfigureerimine ja filtreerimine
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/finance/toc.json
-                - name: 'Lehtede kuvamine kõrvuti, kasutades ikooni Ava uue akna funktsioonis'
+                - name: 'Lehtede kõrvuti kuvamine, kasutades uue akna funktsioonis nuppu „Ava“'
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/finance/toc.json
                 - name: Kiirklahvid
                   href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/finance/toc.json
@@ -724,15 +722,19 @@
               href: fixed-assets/fixed-asset-value-model-depreciation-book-merge.md
             - name: Tuletatud raamatutega sisestus
               href: fixed-assets/post-derived-value-models.md
-            - name: Põhivarakannete sisestamine sisestuskihtidele
+            - name: Raamatute arv töölehe kohta
+              href: fixed-assets/number-books-per-journal.md
+            - name: Põhivarakannete sisestamine sisestamiskihtidele
               href: fixed-assets/post-fixed-asset-transactions-posting-layers.md
-            - name: Põhivara kande valikud
+            - name: Põhivarakande valikud
               href: fixed-assets/enter-fixed-asset-transactions.md
             - name: Põhivara ülekandmine
               href: fixed-assets/tasks/transfer-fixed-asset.md
             - name: Põhivara tükeldamine
               href: fixed-assets/tasks/split-fixed-asset.md
-            - name: Põhivaragruppide häälestamine
+            - name: Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist
+              href: fixed-assets/reduce-balance-depreciation-after-split.md
+            - name: Põhivaragruppide seadistamine
               href: fixed-assets/tasks/set-up-fixed-asset-groups.md
             - name: Põhivaragrupi muutmine
               href: fixed-assets/tasks/change-fixed-asset-group.md
@@ -812,8 +814,72 @@
                   href: fixed-assets/straight-line-service-life-depreciation.md
         - name: Vara rentimine
           items:
+            - name: Vara rentimise avaleht
+              href: asset-leasing/asset-leasing-homepage.md
             - name: Vara rentimise alustamine
               href: asset-leasing/asset-leasing-quick-start.md
+            - name: Vara rentimise seadistus
+              items:
+                - name: Vara rentimise parameetrite konfigureerimine
+                  href: asset-leasing/config-lease-parameters.md
+                - name: Rendiraamatute seadistamine
+                  href: asset-leasing/set-up-lease-books.md
+                - name: Rendigrupi loomine
+                  href: asset-leasing/create-lease-group.md
+                - name: Indeksimäärade seadistamine
+                  href: asset-leasing/set-up-index-rate-types.md
+                - name: Kulutüüpide seadistamine
+                  href: asset-leasing/set-up-expense-types.md
+                - name: Renditöölehe nimede seadistamine
+                  href: asset-leasing/set-up-lease-journal-names.md
+                - name: Rendisisestuskontode seadistamine
+                  href: asset-leasing/set-up-lease-posting-accts.md
+                - name: Numbriseeriate määramine
+                  href: asset-leasing/leasing-number-sequences.md
+                - name: Kasutajarollide määramine
+                  href: asset-leasing/lease-user-roles.md
+            - name: Vara rentimise haldamine
+              items:
+                - name: Rendi lisamine või kopeerimine
+                  href: asset-leasing/add-lease.md
+                - name: Maksearve loomine
+                  href: asset-leasing/create-payment-invoice.md
+                - name: Kasutamisõiguse esemeks oleva vara kulumi kirjendamine
+                  href: asset-leasing/record-rou-asset-depreciation.md
+                - name: Sisestatud rendikannete tühistamine
+                  href: asset-leasing/reverse-posted-lease-trans.md
+                - name: Rendi korrigeerimine
+                  href: asset-leasing/adjust-lease.md
+                - name: Kasutamisõiguse esemeks oleva vara kahjustus
+                  href: asset-leasing/impair-rou-asset.md
+                - name: Rendi seostamine põhivaraga
+                  href: asset-leasing/associate-lease-with-fixed-asset.md
+                - name: Rendi kirjendamine välisvaluutas
+                  href: asset-leasing/record-leases-foreign-currency.md
+                - name: Indeksimääraga seotud rendimaksete ümberhindlus
+                  href: asset-leasing/revalue-payments-tied-2-index-rate.md
+                - name: Rendikohustise lühiajalise osa ümberklassifitseerimine
+                  href: asset-leasing/reclassify-st-lease-liability.md
+                - name: 'Kohustuse-, vara- ja kulukannete kuvamine'
+                  href: asset-leasing/view-asset-transactions.md
+                - name: Liitintervalli funktsioon
+                  href: asset-leasing/compound-interval-functionality.md
+                - name: Maksegraafikute hulgikinnitamine
+                  href: asset-leasing/confirm-payment-schedules-in-batch.md
+                - name: Igakuiste töölehekirjete hulgiloomine
+                  href: asset-leasing/create-monthly-journals-batch.md
+                - name: Rendisisestustüübid
+                  href: asset-leasing/lease-posting-types.md
+                - name: Topeltaruandlus
+                  href: asset-leasing/dual-reporting.md
+                - name: Renditöövoo seadistamine
+                  href: asset-leasing/set-up-lease-wrkflw.md
+                - name: Rendi kinnitamise töövoogude kasutamine
+                  href: asset-leasing/use-create-lease-wrkflw.md
+                - name: Rendi haldamine rendi importimise raamistiku kaudu
+                  href: asset-leasing/manage-leases-thru-imprt-framewrk.md
+            - name: Vara rentimise aruanded
+              href: asset-leasing/asset-leasing-rprts.md
         - name: Pearaamat
           items:
             - name: Pearaamatu ülevaade
@@ -908,6 +974,8 @@
                   href: general-ledger/tasks/create-assign-advanced-rule-structures.md
                 - name: Pearaamatu töölehe tüübid
                   href: general-ledger/ledger-journal-types.md
+                - name: Pearaamatute konfigureerimine
+                  href: general-ledger/configure-ledger.md
                 - name: Töölehtede loomine ja kinnitamine
                   href: general-ledger/tasks/create-validate-journals.md
                 - name: Töölehe sisestuste või kannete kuvamine
@@ -1002,6 +1070,44 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Lähtedokumentide jaoks auditipoliitikate määratlemine
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Finance'i ülevaated
+          items:
+            - name: Finance'i ülevaadete avaleht
+              href: finance-insights/finance-insights-home-page.md
+            - name: Konfiguratsioon ja haldus
+              items:
+                - name: Finance'i ülevaadete konfigureerimine
+                  href: finance-insights/configure-for-fin-insites.md
+                - name: Kliendimaksete prognoosimise lubamine
+                  href: finance-insights/enable-cust-paymnt-prediction.md
+                - name: Likviidsuse planeerimise lubamine
+                  href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Eelarveettepanekute lubamine
+                  href: finance-insights/enable-budget-proposal.md
+                - name: Andmeintegraatori projekti loomine
+                  href: finance-insights/create-data-integrate-project.md
+            - name: Finance'i ülevaadete kasutamine
+              items:
+                - name: Eelarveettepanekud
+                  href: finance-insights/budget-proposals.md
+                - name: Kassajääk
+                  href: finance-insights/cash-position.md
+                - name: Likviidsuse planeerimine
+                  href: finance-insights/cash-flow-forecast-intro.md
+                - name: Välisandmete kasutamine likviidsuse planeerimistes
+                  href: finance-insights/external-data-in-cash-flow.md
+                - name: Kliendimaksete prognoosimine
+                  href: finance-insights/payment-insights-overview.md
+                - name: Kliendimaksete prognoosimise kasutamine
+                  href: finance-insights/use-customer-payment-predictions.md
+                - name: Hetktõmmiste ülevaade
+                  href: finance-insights/payment-snapshots.md
+                - name: Masinõppemudelite tulemused
+                  href: finance-insights/confusion-matrix.md
+                - name: Esialgse kliendimakse prognoosimudeli hindamine
+                  href: finance-insights/evaluate-payment-prediction.md
+                - name: Prognoosimudeli parandamine
+                  href: finance-insights/improve-model.md
         - name: Projektihaldus ja -arvestus
           items:
             - name: Projektihalduse ja -arvestuse ülevaade
@@ -1404,13 +1510,15 @@
                       href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'NF-e XML-dokumentide ja DANFE häälestamine, importimine ning kinnitamine'
                       href: localizations/latam-bra-set-up-import-nfe.md
-                    - name: NF-e üldparameetrite häälestus
+                    - name: NF-e üldparameetrite seadistamine
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
-                    - name: Maksuameti jaoks NF-e parameetrite häälestus
+                    - name: NF-e parameetrite seadistamine maksuameti jaoks
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2019.001 – maksusoodustused ja maksuvabastuse reeglid NF-e/NFC-e jaoks
+                      href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: SPED-Reinf maksudeklaratsioon
+                - name: SPED-Reinfi maksudeklaratsioon
                   href: localizations/latam-bra-sped-reinf.md
                 - name: SPED finantskäskkiri 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
@@ -1690,7 +1798,7 @@
                   href: localizations/emea-invoice-processing.md
                 - name: EL-i kandesertifikaadi väljastamine
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
-                - name: OIOUBL-i standardid
+                - name: Elektroonilise arvelduse toetatud standardid
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
                 - name: Algse arve viide (Ida-Euroopa)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
@@ -1836,9 +1944,11 @@
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Saksamaa käibemaksudeklaratsioon
                   href: localizations/emea-de-vat-declaration.md
+                - name: Kliendi elektrooniliste arvete aruanne
+                  href: localizations/emea-deu-e-invoices.md
                 - name: Tööleheloendi aruanne
                   href: localizations/emea-deu-journal-list-report.md
-                - name: Elektroonilise maksudeklaratsioonide häälestus
+                - name: Elektrooniliste maksudeklaratsioonide seadistamine
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
             - name: Ungari
               items:
@@ -1938,6 +2048,8 @@
                           href: localizations/apac-ind-news-letter-10-0-12.md
                         - name: Mis on uut või mida on muudetud versioonis 10.0.13?
                           href: localizations/ind-news-letter-10-0-13.md
+                        - name: Mis on uut või mida on muudetud versioonis 10.0.14?
+                          href: localizations/apac-ind-news-letter-10-0-14.md
                     - name: India GST viitegrupid
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST integreerimine kassaaparaatide jaoks
@@ -2158,12 +2270,14 @@
                   href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Kordumatu sert
                   href: localizations/emea-ita-exil-unique-certification.md
-                - name: Käskveksli vaidlustamise import
+                - name: Käskveksli vaidlustamise importimine
                   href: localizations/emea-ita-exil-protest-boe.md
-                - name: Maksulagi
+                - name: Maksuülempiir
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Kliendi elektroonilised arved
                   href: localizations/emea-ita-e-invoices.md
+                - name: Aastane maksusuhtlus
+                  href: localizations/emea-ita-yearly-tax-communication.md
             - name: Jaapan
               items:
                 - name: Jaapani ülevaade
@@ -2450,6 +2564,8 @@
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: Maksu standardne auditifail (SAF-T) Norra jaoks
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
+                - name: Kliendi elektroonilised arved Norras
+                  href: localizations/emea-nor-e-invoices.md
             - name: Poola
               items:
                 - name: Poola ülevaade
@@ -2482,6 +2598,8 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Ostu-/müügireskontro kursierinevuse tükeldamine
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: 'Käibemaksudeklaratsioon registritega (JPK_V7M, VDEK)'
+                  href: localizations/emea-pol-vdek.md
             - name: Katar
               items:
                 - name: Katari ülevaade
@@ -2596,7 +2714,7 @@
                           href: localizations/rus-fixed-assets-revaluation.md
                         - name: Põhivara soetuste eelarvetöölehtede loomine ja sisestamine
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                        - name: Põhivara ülekandmine
+                        - name: Põhivarade ülekandmine
                           href: localizations/rus-fixed-asset-transfer.md
                     - name: Ei ole väärtuslik põhivara ega töörõivad
                       items:
@@ -2716,6 +2834,8 @@
                   href: localizations/apac-sau-sales-tax.md
                 - name: Saudi Araabia Zakat-aruandlus
                   href: localizations/emea-sau-zakat-reporting.md
+                - name: Pangadokumentide tasude eraldamine saadetisele
+                  href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
             - name: Singapur
               items:
                 - name: Singapuri ülevaade
@@ -2848,11 +2968,11 @@
                   href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
                 - name: Osakondade määratlemine
                   href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: Lisage osakond hierarhiasse
+                - name: Osakonna lisamine hierarhiasse
                   href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
                 - name: Tööde määratlemine
                   href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Looge töögraafikud
+                - name: Töögraafikute loomine
                   href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: Personalitegevuste KKK
                   href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
@@ -2994,6 +3114,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
             - name: Teabele juurdepääs ja aruandlus
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Isikupärastamise suvandid lehel Power BI.com
+              items:
+                - name: Power BI.com-i integratsiooni kaudu saadaolevad funktsioonid
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/finance/toc.json
+                - name: Power BI.com-i sisu kinnitamine
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Analüütiliste tööruumide valimine lehel Power BI.com
             - name: Isikupärastamise suvandid rakendusega Power BI
               items:
                 - name: Power BI integreerimise kaudu saadaolevad funktsioonid
@@ -3112,7 +3239,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Finantsdimensioonide lisamine koondmõõtmistele
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Analüütiliste aruannete loomine PowerBI Desktopi abil
+                - name: Analüütiliste aruannete loomine Power BI Desktopi abil
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -3530,8 +3657,10 @@
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
-                - name: Uue elektroonilise aruandluslahenduse kujundamine kohandatud aruande printimiseks
+                - name: Uue elektroonilise aruandluse lahenduse kujundamine kohandatud aruande printimiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
+                - name: Elektroonilise aruandluslahenduse korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/finance/toc.json
             - name: Õpikud
               items:
                 - name: Teave andmeallikate kasutamise kohta
@@ -3608,6 +3737,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Suurte väljaminevate dokumentide tihendamine
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
+                - name: Konfigureeritud elektroonilise aruandluse komponentide kontrollimine
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
                 - name: Suhteline tee andmesidemetes
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektroonilise aruandluse lahenduste kasutamine Finance and Operationsis
@@ -3662,24 +3793,36 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
                 - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
-                - name: Äridokumentide haldus
+                - name: Äridokumentide haldus (BDM)
                   items:
-                    - name: Äridokumentide halduse ülevaade
+                    - name: BDM-i ülevaade
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Uue dokumendi kasutajaliides äridokumendi halduses
-                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
-                    - name: Uute väljade lisamine Microsoft Exceli äridokumendi mallile
-                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
-            - name: ER-raamistiku API
+                    - name: Uus dokumendiliides BDM-is
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
+                    - name: Äridokumendimallide redigeerimine BDM-is
+                      items:
+                        - name: Uute väljade lisamine Microsoft Exceli äridokumendimallile
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                        - name: Äridokumendimalli struktuuri värskendamine
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/finance/toc.json
+            - name: Elektroonilise aruandluse raamistiku API
               items:
                 - name: Siseehitatud funktsioonide loendi laiendamine
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
-                - name: Application update 10.0.11 API muudatused
-                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
-                - name: Application update 7.3 API muudatused
-                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
+                - name: API muutused
+                  items:
+                    - name: Rakenduse värskendus 7.3
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
+                    - name: Rakenduse värskendus 10.0.11
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
+                    - name: Elektroonilise aruandluse sihtkoha loomise delegeerimine kohandatud sihttehasesse
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
+                - name: KASUTAJA SISENDPARAMEETRI tüübi andmeallika väärtuste käivitamine lähtekoodist
+                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Mobiilirakendus
           items:
             - name: Mobiilirakenduse avaleht

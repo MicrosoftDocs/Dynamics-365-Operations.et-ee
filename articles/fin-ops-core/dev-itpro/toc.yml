@@ -8,30 +8,26 @@
           href: index.md
         - name: Mis on uut või mida on muudetud?
           items:
-            - name: Mis on uut või mida on muudetud rakendustes Finance and Operations?
+            - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Mis on uut või mida on muudetud Platform update'is?
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormi versiooni 10.0.16 värskendused (veebruar 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platvormi versiooni 10.0.15 värskendused (jaanuar 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platvormi versiooni 10.0.14 värskendused (november 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Platvormi versiooni 10.0.13 värskendused (oktoober 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Platvormi versiooni 10.0.12 värskendused (august 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud platvormifunktsioonid
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Varasematest versioonidest eemaldatud või iganenud funktsioonid
+                - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: AX 2012 edasilükatud funktsioonid
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Asutusesisestes juurutustes rakendamata funktsioonid
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Ärisündmused
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Müügitellimuse olekuväljade vastendamise seadistamine
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Topeltkirjutamise haldamine
                           items:
                             - name: Üksuse- ja väljavastenduste kohandamine
@@ -202,17 +200,19 @@
                               href: data-entities/dual-write/organization-mapping.md
                             - name: Finants-ja maksuandmed
                               items:
-                                - name: Juurdepääs finantsilistele ja maksude viiteandmetele
+                                - name: Juurdepääs finants- ja maksuandmetele
                                   href: data-entities/dual-write/finance-tax-reference.md
                                 - name: Integreeritud pearaamat
                                   href: data-entities/dual-write/ledger-mapping.md
-                                - name: Integreeritud maksu koondandmed
+                                - name: Integreeritud koondmaksuandmed
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Sünkroonimine Dynamics 365 Supply Chain Management hinnakujunduse mootoriga vajaduse korral
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Potentsiaalne klient sularahaks topeltkirjutus
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Majasisesed varad teenindamiseks
+                            - name: Sünkroonimine Dynamics 365 Supply Chain Management hinnakujunduse mootoriga vajaduse korral
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Dynamics 365 Commerce'i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
+                            - name: Ettevõttesisesed varad teenindamiseks
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Integreeritud töötaja, töö ja ametikoht'
                               href: data-entities/dual-write/integrated-hr.md
@@ -496,15 +496,17 @@
                   items:
                     - name: Asutusesisese juurutuse ülevaade
                       href: deployment/on-premises-overview.md
-                    - name: Asutusesiseste juurutuste plaanimine ja ettevalmistamine
+                    - name: Kohapealsete juurutuste plaanimine ja ettevalmistamine
                       href: deployment/plan-onprem-deployment.md
-                    - name: Riistvarakalkulaatori nõuded
+                    - name: Riistvara suuruse nõuded
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Asutusesiseste keskkondade häälestamine ja juurutamine
+                    - name: Autentimine rakenduses Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
+                - name: Kohapealsete keskkondade häälestamine ja juurutamine
                   items:
-                    - name: Asutusesiseste projektide häälestamine LCS-is
+                    - name: Kohapealsete projektide häälestamine LCS-is
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Asutusesiseste keskkondade häälestamine ja juurutamine
+                    - name: Kohapealsete keskkondade häälestamine ja juurutamine
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Etapid Retaili kanali komponentide installimiseks kohapealses keskkonnas
                       href: deployment/deploy-retail-onprem.md
@@ -628,8 +630,10 @@
                   href: dev-tools/pipeline-asset-upload.md
                 - name: Varade juurutamine teenuse Azure Pipelines abil
                   href: dev-tools/pipeline-deploy-asset.md
-                - name: Lifecycle Servicese (LCS) ühenduse loomine teenuses Azure Pipelines
+                - name: Teenuse Lifecycle Services (LCS) ühenduse loomine lahenduses Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Pärandkonveieri värskendamine lahenduses Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Sõidukipargi halduse näidisrakendus
               items:
                 - name: Sõidukipargi halduse näidisrakenduse täielik stsenaarium
@@ -762,10 +766,12 @@
                           href: dev-ref/xpp-data/xpp-select-expression.md
                         - name: Kannete terviklikkus
                           href: dev-ref/xpp-data/xpp-transaction.md
-                        - name: Toimingute teisendamine komplektipõhisest kirjetaseme toiminguks
+                        - name: Toimingute teisendamine komplektipõhistest kirjepõhisteks
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: Juurdepääs andmetele SysDa API abil
                           href: dev-ref/sysda.md
+                        - name: SQL-i injektsioonirünnaku leevendamine
+                          href: dev-ref/query-with-parameters.md
                     - name: X++ makrod
                       href: dev-ref/xpp-macros.md
                     - name: X++ atribuudiklassid
@@ -1462,7 +1468,7 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 toe ülevaade
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: 'Toe hankimine Finance and Operationsi jaoks, mida käitab 21Vianet Hiinas'
+            - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
             - name: Tehnilise toe häälestus Finance and Operationsi rakenduste jaoks
               href: lifecycle-services/support-experience.md
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Krüptimine Finance and Operationsi rakendustes
                   href: sysadmin/encryption.md
-                - name: Seansi jõudeoleku ajalõpu määramine
+                - name: Seansi passiivsusajalõpu määramine
                   href: sysadmin/session-idle-timeout.md
                 - name: Valmisturbearuanded
                   href: sysadmin/security-reports.md
                 - name: Uute kasutajate loomine
                   href: sysadmin/tasks/create-new-users.md
+                - name: Kasutaja seansi haldus
+                  href: sysadmin/user-session-management.md
                 - name: Kasutajate hulgiimport
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Kohustuste jagamise häälestus
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: Azure'i võtmehoidla klientrakenduse häälestus
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Puhastustoimingud
+              href: sysadmin/cleanuproutines.md
         - name: 'Täiendused, värskendused ja kiirparandused'
           items:
             - name: 'Täienduste, värskenduste ja kiirparanduste ressursid'
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: Navigeerimise koostamine
                   href: user-interface/build-navigation.md
-                - name: Tööruumide koostamine
+                - name: Tööruumi muutmine
                   href: user-interface/build-workspace.md
             - name: Vormid
               items:

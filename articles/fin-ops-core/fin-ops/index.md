@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Finance and Operations dokumentatsioon
-description: Rakenduste Finance and Operations dokumentatsioon.
+description: Finance and Operationsi rakenduste dokumentatsioon.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005536"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694381"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Rakenduse Finance and Operations dokumentatsioon
 
@@ -44,7 +43,7 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
 <h3><a href="get-started/before-you-buy.md">Enne ostmist</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Eelvaatetellimuse saamiseks registreerumine</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Juurutamissuvandi valimine</a></p>
- <p><a href="get-started/purchase-on-premises.md">Osta Finance and Operations (asutusesisene)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Rakenduse Finance and Operations (on-premises) ostmine</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Juurutamise elutsükkel</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
@@ -54,7 +53,7 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
 <h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Ühe versiooni teenusevärskendused</a></h3>
 <p><a href="get-started/one-version.md">Ühe versiooni teenusevärskenduste KKK</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Tarkvara elutsükli poliitika: pilv</a></p>
-<p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Tarkvara elutsükli poliitika: asutusesisene</a></p>
+<p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Tarkvara elutsükli poliitika: kohapealne</a></p>
 <p><a href="get-started/public-preview-releases.md">Standardsete ja esmaväljaannete teenusevärskendused</a></p>
 <p><a href="get-started/whats-new-changed.md">Mis on uut või mida on muudetud?</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Täiendused, värskendused ja kiirparandused</a></p>
@@ -116,11 +115,11 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Laiendatavus</a></p>
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office’i integreerimine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Pidev tarne</a></p>
-<p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiiliplatvorm</a></p>
+<p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiilne platvorm</a></p>
 <p><a href="get-started/demo-data.md">Demoandmed</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Haldus</h3>
-<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Pilvjuurutus</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Pilvejuurutus</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Asutusesisene juurutus</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Täiendamine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Hooldus</a></p>

@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979300"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685049"
 ---
 # <a name="globalization-resources"></a>Globaliseerimisressursid
 
 ## <a name="local-and-regional-deployments"></a>Kohalikud ja regioonipõhised juurutused
 Kui teie riiklike õigusaktidega nõutakse andmete teistsugust talletamist või haldamist kui teistes riikides/regioonides, peate juurutamisel võib-olla arvestama oma riigi/regiooni nõuetega. Võtke arvesse järgmisi ressursse, mis võivad teie jaoks asjakohased olla.
 
-[Finance and Operations rakendused, mida käitab 21Vianet Hiinas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Lokaliseerimine ja regulatiivsed funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations rakendused sisaldavad funktsioone dokumendis [toote lokaliseerimise ja tõlke saadavaloleku juhend](https://aka.ms/dynamics_365_international_availability_deck) esitatud riikide/regioonide kohta. Need funktsioonid aktiveeritakse aktiivse juriidilise isiku esmase aadressi põhjal. 
+Finance and Operationsi rakendused sisaldavad funktsioone artiklis [Toote lokaliseerimise ja tõlke saadavaloleku juhend](https://aka.ms/dynamics_365_international_availability_deck) esitatud riikide/regioonide jaoks. Need funktsioonid aktiveeritakse aktiivse juriidilise isiku esmase aadressi põhjal. 
 
 See teema sisaldab ressursside loetelusid, mis aitavad teil teha järgmist: 
 - saada lisateavet riigi-/regioonikohaste lahenduste arendamise kohta;

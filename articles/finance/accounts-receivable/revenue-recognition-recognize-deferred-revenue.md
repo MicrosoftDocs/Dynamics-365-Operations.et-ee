@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570352"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458853"
 ---
 # <a name="recognize-deferred-revenue"></a>Edasilükkunud tulu tuvastamine
 
@@ -30,7 +30,7 @@ ms.locfileid: "2570352"
 > [!NOTE]
 > Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
 
-Selles teemas kirjeldatakse tulu tuvastamise protsessi tulu tuvastamise graafikuga. Pärast müügitellimuse arve sisestamist luuakse iga tulugraafikuga müügitellimuse rea jaoks tulu tuvastamise graafik. Real olevat tulu graafikut kasutatakse selleks, et määrata, kas rea tulu tuleks edasi lükata.
+Selles teemas kirjeldatakse tulu tuvastamise protsessi tulu tuvastamise graafikuga. Pärast müügitellimuse arve sisestamist luuakse iga tulugraafikuga müügitellimuse rea jaoks tulu tuvastamise graafik. Real olevat tulugraafikut kasutatakse selleks, et määrata, kas rea tulu tuleks edasi lükata.
 
 ## <a name="view-revenue-recognition-schedule-details"></a>Tulu tuvastamise graafiku üksikasjade kuvamine
 
@@ -77,29 +77,29 @@ Pärast tulu tuvastamise töölehe sisestamist sisestatakse kanne graafikule. Ku
 
 ## <a name="modify-the-revenue-recognition-schedule-details"></a>Tulu tuvastamise graafiku üksikasjade muutmine
 
-Enamikku tulu graafiku andmetest ei saa redigeerida. Graafikule ei saa lisada uusi ridu ja olemasolevaid ridu ei saa kustutada. Iga müügitellimuse rea tulu graafiku üksikasju tuleb säilitada, et aidata tagada, et edaspidi tuvastaks organisatsioon sama summa, mis oli edasi lükatud.
+Enamikku tulugraafiku andmetest ei saa redigeerida. Graafikule ei saa lisada uusi ridu ja olemasolevaid ridu ei saa kustutada. Iga müügitellimuse rea tulugraafiku üksikasju tuleb säilitada, et aidata tagada, et edaspidi tuvastaks organisatsioon sama summa, mis oli edasi lükatud.
 
 ### <a name="edit-schedule-lines"></a>Graafiku ridade redigeerimine
 
 Graafiku ridadel on lubatud mõned redigeerimised. Ridadel saab muuta järgmisi välju.
 
-- **Ootel** – selle lipu saab enne rea töötlemist määrata või eemaldada. Lipu eemaldamiseks valige rida ja seejärel käsk **Eemalda ootelolek**. Ootel olevatel ridadel ei saa tulu tuvastada. Ridu saab automaatselt ootele panna, kui tulu graafikul on automaatsed ootelepanekud seadistatud.
+- **Ootel** – selle lipu saab enne rea töötlemist määrata või eemaldada. Lipu eemaldamiseks valige rida ja seejärel käsk **Eemalda ootelolek**. Ootel olevatel ridadel ei saa tulu tuvastada. Ridu saab automaatselt ootele panna, kui tulugraafikul on automaatsed ootelepanekud seadistatud.
 
-    [![Tulu graafikud – graafiku ridade redigeerimine](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+    [![Tulugraafikud – graafiku ridade redigeerimine](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 - **Tuvastamise kuupäev** – tuvastamise kuupäeva saab enne rea töötlemist muuta. Kui käitatakse protsess, mis loob tulu tuvastamiseks töölehe, sisestatakse kuupäev väljale **Tulu tuvastamine alates kuupäevast**. Seda kuupäeva võrreldakse väljal **Tuvastamise kuupäev** oleva kuupäevaga, et määrata, milliseid ridu tuleks tuvastada.
 - **Vabastatav summa** – enne rea töötlemist saab vabastatavat summat muuta. Tuvastatud tulu summat saate vähendada, kuid mitte suurendada. See väli võimaldab organisatsioonil tuvastada osa tulust tuvastamise kuupäeval. Kui summat muudetakse, näitab summa väljal **Ülejäänud summa**, kui palju tulu tuleb veel tuvastada.
-- **Väljastatav kogus** – kui tulu graafik on seadistatud ühe korra või ühe kuu kohta, näidatakse väljal **Väljastatav kogus** müügitellimuse rea kogust. Seda välja saab samuti redigeerida ja see annab teise võimaluse tulu osa tuvastamiseks. Näiteks kui real olev kogus on 5, saate koguse alistada nii, et see on väiksem kui 5. Summat väljal **Vabastatav summa** uuendatakse proportsionaalselt.
+- **Väljastatav kogus** – kui tulugraafik on seadistatud ühe korra või ühe kuu kohta, näidatakse väljal **Väljastatav kogus** müügitellimuse rea kogust. Seda välja saab samuti redigeerida ja see annab teise võimaluse tulu osa tuvastamiseks. Näiteks kui real olev kogus on 5, saate koguse alistada nii, et see on väiksem kui 5. Summat väljal **Vabastatav summa** uuendatakse proportsionaalselt.
 
 ### <a name="update-contract-terms"></a>Lepingutingimuste uuendamine
 
-Tulu graafiku üksikasjad luuakse arve sisestamisel müügitellimuse reale määratud tulu graafiku alusel. Kui müügitellimuse rea tulu graafik on vale, ei saa seda müügitellimusel pärast müügitellimuse arveldamist muuta. Selle asemel peate tulu graafiku muutmiseks kasutama nuppu **Lepingutingimuste uuendamine**. Tulu graafikut saab muuta kas enne või pärast tulu tuvastamist.
+Tulugraafiku üksikasjad luuakse arve sisestamisel müügitellimuse reale määratud tulugraafiku alusel. Kui müügitellimuse rea tulugraafik on vale, ei saa seda müügitellimusel pärast müügitellimuse arveldamist muuta. Selle asemel peate tulugraafiku muutmiseks kasutama nuppu **Lepingutingimuste uuendamine**. Tulugraafikut saab muuta kas enne või pärast tulu tuvastamist.
 
-Graafiku muutmiseks valige muudetava üksuse mis tahes graafiku rida. Järgmisel joonisel on valitud 12-kuulise tulugraafikuga postitatud üksuse S0008 rida. Kui valite **Lepingutingimuste uuendamine**, kuvatakse dialoogiboksis lepingu algus- ja lõppkuupäevad ning tulu graafik.
+Graafiku muutmiseks valige muudetava üksuse mis tahes graafiku rida. Järgmisel joonisel on valitud 12-kuulise tulugraafikuga postitatud üksuse S0008 rida. Kui valite **Lepingutingimuste uuendamine**, kuvatakse dialoogiboksis lepingu algus- ja lõppkuupäevad ning tulugraafik.
 
 [![Lepingu algus- ja lõppkuupäevad](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
-Muutke lepingu algus- ja lõppkuupäeva nii, et need kajastaksid õiget kuupäevavahemikku. Kuupäevavahemiku muutmisel peab välja **Juhtumite arv** väärtus kattuma süsteemis määratletud tulu graafikuga. Selles näites, kuna leping muudeti 24-kuuliseks lepinguks, tuleb seadistada 24-kuuline tulugraafik. Kuna 24-kuuline tulugraafik on olemas, sisestatakse see vaikimisi ja lepingut saab muuta. Kui kattuva juhtumite arvuga tulugraafikut pole olemas, ei saa lepingut muuta. Kui olete lepingutingimuste ja tulugraafiku uuendamise lõpetanud, valige muudatuste salvestamiseks dialoogiboksis nupp **OK**.
+Muutke lepingu algus- ja lõppkuupäeva nii, et need kajastaksid õiget kuupäevavahemikku. Kuupäevavahemiku muutmisel peab välja **Juhtumite arv** väärtus kattuma süsteemis määratletud tulugraafikuga. Selles näites, kuna leping muudeti 24-kuuliseks lepinguks, tuleb seadistada 24-kuuline tulugraafik. Kuna 24-kuuline tulugraafik on olemas, sisestatakse see vaikimisi ja lepingut saab muuta. Kui kattuva juhtumite arvuga tulugraafikut pole olemas, ei saa lepingut muuta. Kui olete lepingutingimuste ja tulugraafiku uuendamise lõpetanud, valige muudatuste salvestamiseks dialoogiboksis nupp **OK**.
 
 [![Uuendatud lepingu kuupäevavahemik](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 

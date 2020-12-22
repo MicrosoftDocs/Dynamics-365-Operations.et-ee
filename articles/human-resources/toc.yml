@@ -5,7 +5,9 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
-        - name: 22. oktoober 2002
+        - name: 2. detsember 2020
+          href: hr-whats-new-2020-12-02.md
+        - name: 22. oktoober 2020
           href: hr-whats-new-2020-10-22.md
         - name: 6. oktoober 2020
           href: hr-whats-new-2020-10-06.md
@@ -195,11 +197,11 @@
               href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
             - name: Tegevuse otsing
               href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
-            - name: Täpsema filtreerimise ja päringu süntaks
+            - name: Täpsem filtreerimine ja päringusüntaks
               href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
             - name: Tööruumide konfigureerimine ja filtreerimine
               href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
-            - name: 'Lehtede kuvamine kõrvuti, kasutades ikooni Ava uue akna funktsioonis'
+            - name: 'Lehtede kõrvuti kuvamine, kasutades uue akna funktsioonis nuppu „Ava“'
               href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
             - name: Kiirklahvid
               href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
@@ -471,12 +473,14 @@
               href: hr-personnel-jobs.md
             - name: Osakondade määratlemine
               href: hr-personnel-define-departments.md
-            - name: Lisage osakond hierarhiasse
+            - name: Osakonna lisamine hierarhiasse
               href: hr-personnel-add-department-hierarchy.md
             - name: Tööde määratlemine
               href: hr-personnel-define-jobs.md
-            - name: Looge töögraafikud
+            - name: Töögraafikute loomine
               href: hr-personnel-create-working-time-calendar.md
+            - name: Kandidaatide värbamine
+              href: hr-personnel-recruit.md
             - name: Personalitegevuste KKK
               href: hr-personnel-actions-faq.md
             - name: Töövoogude kasutamine töövõtja teabe haldamiseks
@@ -533,9 +537,11 @@
                   href: hr-benefits-management-overview.md
                 - name: Soodustuste halduse konfigureerimine
                   items:
-                    - name: Soodustuste halduse parameetrite määramine
+                    - name: Soodustuste halduse parameetrite konfigureerimine ettevõtte alusel
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: Soodustuste halduse ja töövõtja iseteeninduse parameetrite seadistamine kõigi ettevõtete jaoks
                       href: hr-benefits-setup-parameters.md
-                    - name: Sobivuse reeglite ja suvandite konfigureerimine
+                    - name: Sobivusreeglite ja -suvandite konfigureerimine
                       href: hr-benefits-setup-eligibility-rules.md
                     - name: Isiklike kontaktide sobivuse suvandite konfigureerimine
                       href: hr-benefits-setup-contact-eligibility-options.md
