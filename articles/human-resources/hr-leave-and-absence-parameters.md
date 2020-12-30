@@ -2,8 +2,8 @@
 title: Puhkuste ja puudumiste parameetrite konfigureerimine
 description: Määratlege rakenduses Dynamics 365 Human Resources puhkuste ja puudumiste inimressursside parameetrid.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712372"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4418243"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Puhkuste ja puudumiste parameetrite konfigureerimine
 
@@ -38,7 +38,7 @@ Enne puhkuste ja puudumiste plaanide seadistamist rakenduses Dynamics 365 Human 
 
 1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
 
-2. Jaotises **Seadistus** valige suvand**Inimressursside parameetrid**.
+2. Jaotises **Seadistus** valige suvand **Inimressursside parameetrid**.
 
 3. Vahekaardil **Numbriseeriad** kontrollige suvandit **Numbriseeria kood** suvandi **Puhkusetaotluse ID** jaoks ja muutke vastavalt vajadusele. See säte määrab järjestuse, mida kasutatakse puhkusetaotlustele automaatselt ID-de määramiseks.
 
@@ -47,6 +47,19 @@ Enne puhkuste ja puudumiste plaanide seadistamist rakenduses Dynamics 365 Human 
 5. Määrake vahekaardil **Töövõtja iseteenindus**, kas haldurid saavad oma töötajate nimel sisestada puhkuste ja puudumiste taotlusi.
 
 7. Valige käsk **Salvesta**.
+
+>[!IMPORTANT]
+>Puhkuste ja puudumiste kuvamine ettevõtete lõikes on praegu eelversioonis. Peate selle lubama keskkonnas **Liivakast**, et kuvada puhkuse ja puudumise suvand. Lisateavet eelvaatefunktsioonide lubamise kohta vt [Funktsioonide haldus](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Human Resourcesi ühiskasutuses parameetrite kuvamine ja muutmine
+
+1. Lehel **Personalihaldus** valige vahekaart **Lingid**.
+
+2. Jaotises **Häälestus** valige suvand **Human Resourcesi ühiskasutuses parameetrid**.
+
+3. Valige vahekaardil **Eeljuurdepääs** suvandi **Luba ettevõtteülene puhkuste vaade** jaoks väärtus **Jah**, et lubada puhkuste kuvamine kogu ettevõttes.
+
+4. Valige käsk **Salvesta**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Puhkuste ja puudumiste kalendri parameetrite kuvamine ja muutmine
 

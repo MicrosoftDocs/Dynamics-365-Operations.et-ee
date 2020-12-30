@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015081"
+ms.locfileid: "4407872"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 
@@ -50,7 +50,7 @@ Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud
    |    <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                         Sisestage valuutat tuvastav ISO-kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                         |
    |   <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                               Sisestage valuuta allühiku üldnimetus. Näiteks sisestage Centas.                                                                                               |
    |       <strong>Sidesõna „ja” ühikute ja allühikute vahel</strong>       |                                     Märkige ruut , et printida ühikute ja allühikute vahel sidesõna „ja”. Näiteks kuvatakse summa LTL 100,20 arvetel või aruannetes kui „100 Litas and 20 Centas”.                                      |
-   |       <strong>Sugu</strong>       |  Valige **Mehelik** , **Naiselik** või **Kesksoost**. See näitaja võib mõjutada summa käänet, mida näidatakse kassaorderi kohalikus keeles. Näiteks, kui määrate EUR valuuta **sooks** **Kesksugu** , siis summa 1,01 EUR on tšehhikeelsel kassaorderil, kui *Edno euro 01 cent*.  |
+   |       <strong>Sugu</strong>       |  Valige **Mehelik**, **Naiselik** või **Kesksoost**. See näitaja võib mõjutada summa käänet, mida näidatakse kassaorderi kohalikus keeles. Näiteks, kui määrate EUR valuuta **sooks** **Kesksugu**, siis summa 1,01 EUR on tšehhikeelsel kassaorderil, kui *Edno euro 01 cent*.  |
 
 5. Valige käsk **Salvesta**.
 

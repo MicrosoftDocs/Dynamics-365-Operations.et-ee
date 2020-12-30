@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 49b90037c182e10d0cc9d449649e8501537fdc4f
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012386"
+ms.locfileid: "4426561"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.13 uut või mida on muudetud (oktoober 2020)
 

@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017755"
+ms.locfileid: "4426658"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
@@ -89,11 +89,11 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
 
     - **Uuesti kinnitamine tarne vastuvõtmisel:** *Ei*
 
-        See suvand määratleb, kas tarnet tuleb vastuvõtmise ajal uuesti kinnitada. Kui selle suvandi väärtuseks on seatud *Jah* , kontrollitakse nii maksimaalset ajavahemikku kui ka aegumiskuupäevade vahemikku.
+        See suvand määratleb, kas tarnet tuleb vastuvõtmise ajal uuesti kinnitada. Kui selle suvandi väärtuseks on seatud *Jah*, kontrollitakse nii maksimaalset ajavahemikku kui ka aegumiskuupäevade vahemikku.
 
     - **Kinnita maksimaalne ajavahemik:** *Jah*
 
-        See suvand määratleb, kas maksimaalset ajavahemikku tuleb hinnata tarneallika valimisel. Kui selle suvandi väärtuseks on seatud *Jah* , siis muutuvad maksimaalse ja minimaalse ajavahemiku väljad kättesaadavaks.
+        See suvand määratleb, kas maksimaalset ajavahemikku tuleb hinnata tarneallika valimisel. Kui selle suvandi väärtuseks on seatud *Jah*, siis muutuvad maksimaalse ja minimaalse ajavahemiku väljad kättesaadavaks.
 
     - **Maksimaalne ajavahemik** *5*
 
@@ -128,21 +128,21 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
 
 1. Avage **Laohaldus \> Seadistus \> Töö \> Töömallid**.
 1. Määrake välja **Töökäsu tüüp** väärtuseks *Ristlaadimine*.
-1. Valige toimingupaanil suvand **Uus** , et lisada vahekaardile rida **Ülevaade**.
+1. Valige toimingupaanil suvand **Uus**, et lisada vahekaardile rida **Ülevaade**.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** *1*
     - **Töömall:** *51 ristlaadimine*
     - **Töömalli kirjeldus:** *51 ristlaadimine*
 
-1. Valige **Salvesta** , et muuta kiirkaart **Töömalli üksikasjad** kättesaadavaks.
-1. Valige kiirkaardil **Töömalli üksikasjad** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige **Salvesta**, et muuta kiirkaart **Töömalli üksikasjad** kättesaadavaks.
+1. Valige kiirkaardil **Töömalli üksikasjad** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Töö tüüp:** *Komplekteerimine*
     - **Töö klassi ID:** *CrossDock*
 
-1. Valige **Uus** , et lisada uus rida ja määrake sellele järgmised väärtused.
+1. Valige **Uus**, et lisada uus rida ja määrake sellele järgmised väärtused.
 
     - **Töö tüüp:** *Ladustamine*
     - **Töö klassi ID:** *CrossDock*
@@ -164,23 +164,23 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
     - **Tegevuskoht:** *5*
     - **Ladu:** *51*
 
-1. Valige **Salvesta** , et muuta kiirkaart **Read** kättesaadavaks.
-1. Valige kiirkaardil **Read** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige **Salvesta**, et muuta kiirkaart **Read** kättesaadavaks.
+1. Valige kiirkaardil **Read** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Alates kogusest:** *1*
     - **Koguseni:** *1000000*
 
-1. Valige **Salvesta** , et muuta kiirkaart **Asukohakorralduse toimingud** kättesaadavaks.
-1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige **Salvesta**, et muuta kiirkaart **Asukohakorralduse toimingud** kättesaadavaks.
+1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Nimi:** *Baydoor*
     - **Fikseeritud asukoha kasutus:** *Fikseeritud ja mittefikseeritud asukohad*
 
-1. Valige **Salvesta** , et muuta tööriistariba **Asukohakorralduse toimingud** nupp **Päringu redigeerimine** kättesaadavaks.
+1. Valige **Salvesta**, et muuta tööriistariba **Asukohakorralduse toimingud** nupp **Päringu redigeerimine** kättesaadavaks.
 1. Valige päringuredaktori avamiseks **Päringu redigeerimine**.
-1. Veenduge vahekaardil **Vahemik** , et järgmised kaks rida oleksid konfigureeritud.
+1. Veenduge vahekaardil **Vahemik**, et järgmised kaks rida oleksid konfigureeritud.
 
     - Rida 1:
 
@@ -203,7 +203,7 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
 1. Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme menüü-üksused**.
 1. Valige vasakpoolse paani menüü-üksuste loendist **Ostu ladustamine**.
 1. Valige suvand **Redigeeri**.
-1. Valige kiirkaardil **Tööklassid** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige kiirkaardil **Tööklassid** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Töö klassi ID:** *CrossDock*
@@ -259,10 +259,10 @@ Järgige neid etappe osturellimusest plaanitud ristlaadimise loomiseks.
 
 1. Valige ruudustiku kohal oleva menüü **Ladu** kiirkaardilt **Müügitellimuse read** suvand **Saadetise üksikasjad**.
 
-    Kuvatakse leht **Saadetise üksikasjad** , mis kuvab müügirea jaoks loodud saadetise.
+    Kuvatakse leht **Saadetise üksikasjad**, mis kuvab müügirea jaoks loodud saadetise.
 
 1. Pange tähele, et kiirkaardil **Koormusread** on välja **Plaanitud ristlaadimise kogus** väärtuseks seatud *3*. Kuna laos polnud varusid saadaval, kuid kehtiv tarneallikas saabub ristlaadimismallis määratletud ajavahemikus, loodi ristlaadimise kogus.
-1. Valige kiirkaardil **Koormusread** suvand **Plaanitud ristlaadimine** , et vaadata loodud ristlaadimise üksikasju.
+1. Valige kiirkaardil **Koormusread** suvand **Plaanitud ristlaadimine**, et vaadata loodud ristlaadimise üksikasju.
 
 ## <a name="process-the-cross-docking"></a>Ristlaadimise töötlemine
 
@@ -281,7 +281,7 @@ Teine loodud töö ID suvandi **Töötellimuse tüüp** väärtus on *Ostutellim
 1. Valige nupp **OK**.
 1. Järgmisel lehel määrake välja **Kaup** väärtuseks *A0001*.
 1. Valige nupp **OK**.
-1. Kinnitage järgmisel lehel väärtused **PONum** , **Kaup** ja **Kogus** , valides **OK**.
+1. Kinnitage järgmisel lehel väärtused **PONum**, **Kaup** ja **Kogus**, valides **OK**.
 
     Teile kuvatakse teade „Töö lõpule viidud”.
 
@@ -294,7 +294,7 @@ Praegu on mõlemal töö ID-l sama sihtkoha identifitseerimisnumber. Järgmiste 
 1. Avage mobiilsel seadmel **Sissetulev \> Ostude ladustamine** ja sisestage töö jaoks sihtidentifitseerimisnumber.
 1. Sisestage väljale **ID** töö üksikasjadest saadud sihtidentifitseerimisnumbri ID.
 
-    Lehel ristlaadimise komplekteerimine kuvatakse komplekteerimise asukoht ( *RECV* ), sihtidentifitseerimisnumber ( *identifitseerimisnumber* ), kaup ( *A0001* ) ja kogus ( *3* ).
+    Lehel ristlaadimise komplekteerimine kuvatakse komplekteerimise asukoht (*RECV*), sihtidentifitseerimisnumber (*identifitseerimisnumber*), kaup (*A0001*) ja kogus (*3*).
 
 1. Valige nupp **OK**.
 1. Sisestage väljale **Siht-LP** sihtidentifitseerimisnumber selle identifitseerimisnumbri ID jaoks, mis tuleks ladustada (ristlaadida) saatmise asukohta. Saate valida mis tahes soovitud identifitseerimisnumbri ID.
@@ -306,8 +306,8 @@ Praegu on mõlemal töö ID-l sama sihtkoha identifitseerimisnumber. Järgmiste 
 
     Mobiilirakendus annab teile nende jaoks asukoha ja identifitseerimisnumbri.
 
-1. Kinnitage hulgiladustamine **Ladustamine** , valides **OK**.
-1. Järgmisel lehel kinnitage ristlaadimine **Ladustamine** , valides **OK**.
+1. Kinnitage hulgiladustamine **Ladustamine**, valides **OK**.
+1. Järgmisel lehel kinnitage ristlaadimine **Ladustamine**, valides **OK**.
 
     Teile kuvatakse teade „Töö lõpule viidud”.
 

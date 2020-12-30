@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fb0472a0d2ac9b552cd16e4d6bf516a876ea4a0e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981507"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426099"
 ---
 # <a name="moving-average"></a>Liikuv keskmine
 
@@ -141,7 +141,7 @@ Kui uus laos olev kogus on pärast kannet positiivne, tükeldatakse kanne kaheks
 
 ## <a name="inventory-value-report"></a>Laoväärtuse aruanne
 
-Selles liikuva keskmise näites prinditakse varude väärtuse aruanne, et toetada toote praeguse liikuva keskmise arvutamist. Varude väärtuse aruande saate printida kannete kronoloogilises järjestuses koos kuluga, et toetada toote liikuva keskmise kulu arvutamist. Aruandes kuvatakse toote liikuv keskmine kulu. Dialoogiboksis **Varude väärtuse aruanded** võimaldab kuupäevaintervall valida teil aruande sortimise aluseks suvandi **Kande kellaaeg** või **Sisestuskuupäev**. Suvand **Sisestuskuupäev** näitab aruande tavalist printimisviisi. Suvand **Kande kellaaeg** on tegelik kuupäev, millal kandest teatatakse ja toote liikuva keskmise kulu värskendatakse. Saate varude väärtuse aruande printida, kasutades suvandit**Kande kellaaja järgi sortimine**, kui soovite näha liikuva keskmise kulu arvutamist aja lõikes. Järgmises tabelis kuvatakse toote kanded, mille kohta aruanne prinditakse, kui kasutatakse suvandit **Kande kellaaja järgi sortimine**.
+Selles liikuva keskmise näites prinditakse varude väärtuse aruanne, et toetada toote praeguse liikuva keskmise arvutamist. Varude väärtuse aruande saate printida kannete kronoloogilises järjestuses koos kuluga, et toetada toote liikuva keskmise kulu arvutamist. Aruandes kuvatakse toote liikuv keskmine kulu. Dialoogiboksis **Varude väärtuse aruanded** võimaldab kuupäevaintervall valida teil aruande sortimise aluseks suvandi **Kande kellaaeg** või **Sisestuskuupäev**. Suvand **Sisestuskuupäev** näitab aruande tavalist printimisviisi. Suvand **Kande kellaaeg** on tegelik kuupäev, millal kandest teatatakse ja toote liikuva keskmise kulu värskendatakse. Saate varude väärtuse aruande printida, kasutades suvandit **Kande kellaaja järgi sortimine**, kui soovite näha liikuva keskmise kulu arvutamist aja lõikes. Järgmises tabelis kuvatakse toote kanded, mille kohta aruanne prinditakse, kui kasutatakse suvandit **Kande kellaaja järgi sortimine**.
 
 | Kande aeg | Kuupäev         | Kande tüüp           | Kogus | Summa | Keskmine ühikukulu |
 |------------------|--------------|----------------------------|----------|--------|-------------------|

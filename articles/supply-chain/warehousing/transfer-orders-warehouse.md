@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017479"
+ms.locfileid: "4426640"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Ladude seadistamine üleviimistellimuste jaoks 
 
@@ -51,5 +51,5 @@ Ladudevahelisi üleviimistellimusi toetava hierarhia loomiseks saate kasutada la
 Peate ka seadistama transpordi täitmisaja ladude vahel lehel **Transpordipäevad**. 
 1. Minge jaotisse **Varude haldus > Seadistus > Jaotus > Transpordipäevad**.
 2. Valige väljal **Vastuvõtupunkt** säte **ladu**.
-3. Valige **Lähetav ladu** , **Vastuvõttev ladu** ja **Transpordi päevas**. 
+3. Valige **Lähetav ladu**, **Vastuvõttev ladu** ja **Transpordi päevas**. 
 4. (Valikuline) Saate määrata ka tarneviisist oleneva transpordiaja vahekaardil **Transpordipäevi tarneviisi kohta**.

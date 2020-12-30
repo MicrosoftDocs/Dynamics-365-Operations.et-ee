@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014908"
+ms.locfileid: "4426572"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Azure'i ressursside seadistamine IoT iseõppimisvõime jaoks
 
@@ -49,7 +49,7 @@ Järgige neid juhiseid, et kinnitada, kas teie rentnikus on Microsoft Dynamics E
 
     1. Valige Azure'i portaali tööriistaribal nupp Azure Cloud Shelli avamiseks.
     2. Käivitage käsk **Install-Module AzureAD**. Sisestage mooduli installimiseks **Y**.
-    3. Käivitage käsk **Get-InstalledModule -Name "AzureAD"** , et kinnitada, kas moodul on installitud.
+    3. Käivitage käsk **Get-InstalledModule -Name "AzureAD"**, et kinnitada, kas moodul on installitud.
     4. Käivitage käsk **Connect-AzureAD -Confirm** autentimise käivitamiseks.
     5. Käivitage käsk **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 

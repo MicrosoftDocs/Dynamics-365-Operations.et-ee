@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019537"
+ms.locfileid: "4411801"
 ---
 # <a name="add-a-copyright-notice"></a>Autoriõiguste teatise lisamine
 
@@ -44,14 +44,14 @@ Iga konkreetset malli kasutava lehe allossa autoriõiguse teatise lisamiseks toi
 1. Avage **Fragmendid** ja valige seejärel **Uus**.
 1. Valige dialoogiboksis **Uus fragment** moodul **Jalus** ja pange fragmendile nimi. Sisestage näiteks **Jalus-autoriõigus**.
 1. Valige nupp **OK**.
-1. Navigeerimispaanil valige kolmikpunkti nupp ( **...** ) suvandi **Jalus** kõrval ja valige seejärel **Lisa moodul**.
+1. Navigeerimispaanil valige kolmikpunkti nupp (**...**) suvandi **Jalus** kõrval ja valige seejärel **Lisa moodul**.
 1. Dialoogiaknas valige suvand **Jaluse kategooria** ja seejärel valige nupp **OK**.
 1. Navigeerimispaanil valige kolmikpunkti nupp suvandi **Jaluse kategooria** kõrval ja valige seejärel **Lisa moodul**.
 1. Dialoogiaknas valige suvand **Tekstiplokk** ja seejärel valige nupp **OK**.
 1. Valige navigeerimispaanil **Tekstiplokk**.
 1. Lisage paremal atribuutide paanil väljale **Lõik** oma autoriõiguse sõnum. Sisestage näiteks **(C) Fabrikam 2019**.
-1. Valige **Salvesta** , valige **Lõpeta redigeerimine** ja valige seejärel **Avalda**.
-1. Valige suvand **Mallid** , valige mall ja seejärel käsk **Redigeeri**.
+1. Valige **Salvesta**, valige **Lõpeta redigeerimine** ja valige seejärel **Avalda**.
+1. Valige suvand **Mallid**, valige mall ja seejärel käsk **Redigeeri**.
 1. Jaotises **Lehe liigendus** laiendage suvandit **Kehatekst** ja laiendage seejärel suvandit **Vaikeleht**.
 1. Valige suvandi **Jaluse pesa** kõrval kolmikpunkti nupp ja seejärel valige käsk **Lisa fragment**.
 1. Valige varem loodud fragment ja seejärel valige käsk **Vali**.

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092102"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418086"
 ---
 # <a name="authentication"></a>Autentimine
 
@@ -66,7 +66,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 3. Vasakpoolsel paanil valige teenus **Azure Active Directory** ja seejärel valige **Rakenduse registreerimised \> Uus registreerimine**.
 
-4. Kui ilmub leht**Rakenduse registreerimine**, sisestage oma rakenduse registreerimisteave.
+4. Kui ilmub leht **Rakenduse registreerimine**, sisestage oma rakenduse registreerimisteave.
 
     - **Nimi**: sisestage tähendusega rakenduse nimi, mis kuvatakse rakenduse kasutajatele.
     - **Toetatud kontotüübid**: valige kontode tüübid, mida teie rakendus peaks toetama.

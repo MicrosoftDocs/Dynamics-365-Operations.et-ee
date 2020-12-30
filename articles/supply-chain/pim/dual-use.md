@@ -17,11 +17,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895469"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426457"
 ---
 # <a name="dual-use-goods"></a>Topeltkasutusega kaubad
 
@@ -57,7 +57,7 @@ Erinevate riikide topeltkasutuse nõuete seadistamiseks toimige järgmiselt.
 2. Valige redigeerimiseks olemasolev riigi häälestus või valige toimingupaanilt **Uus** uue riigi häälestuse loomiseks.
 3. Määrake valitud või uue riigi häälestuse jaoks järgmised väärtused.
 
-    | Field | Kirjeldus |
+    | Väli | Kirjeldus |
     |---|---|
     | Riik/regioon | Valige riik, mille nõudeid te jälgite. |
     | Sert nõutav | Märkige see ruut riikide puhul, mis nõuavad topeltkasutusega kaupade sertifitseerimist. Tühjendage see riikide puhul, mis seda sertifikaati ei nõua. |
@@ -98,7 +98,7 @@ Kasutage lehte **Topeltkasutuse sertifikaadid** iga toote ja riigi jaoks nõutav
 2. Valige redigeerimiseks olemasolev sertifikaat või valige toimingupaanilt **Uus** uue sertifikaadi loomiseks.
 3. Määrake valitud või uue sertifikaadi jaoks järgmised väärtused.
 
-    | Field | Kirjeldus |
+    | Väli | Kirjeldus |
     |---|---|
     | Kauba number | Valige topeltkasutusega kauba kaubakood, millele see sertifikaat kehtib. |
     | Riik/regioon | Sihtriik või -piirkond, kus peate seda sertifikaati kasutama. |

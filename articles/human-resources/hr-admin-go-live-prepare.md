@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011411"
+ms.locfileid: "4418229"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Ettevalmistamine Human Resourcesi kasutuselevõtmiseks
 
@@ -57,7 +57,7 @@ Iga juurutusprojekti oluline vahe-eesmärk on üleminek töökeskkonda.
 
 Selleks, et töökeskkonda kasutataks reaalajatoiminguteks, valmistab Microsoft tootmiseksemplari ette ainult siis, kui juurutus läheneb **kasutamise** faasile, kui LCS-i metodoloogia nõutavad tegevused on lõpule viidud. Lisateavet teie kordustellimuse keskkondade kohta vt  [Dynamics 365 litsentsimisjuhendist](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
-Kliendid peavad viima lõpule LCS-i metodoloogia faasid **Analüüs** , **Kujundus ja arendus** ja **Testimine** enne, kui töökeskkonna taotlemise nupp  **Konfigureeri**  saab kättesaadavaks. LCS-is etapi lõpule viimiseks peate esmalt viima lõpule kõik selles faasis nõutavad etapid. Kui faasi kõik etapid on lõpule viidud, saate kogu faasi lõpule viia. Faasi saab alati hiljem uuesti avada, kui peate muudatusi tegema. Lisateavet leiate teemast  [Lifecycle Services (LCS) for Finance and Operationsi rakenduste kliendid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+Kliendid peavad viima lõpule LCS-i metodoloogia faasid **Analüüs**, **Kujundus ja arendus** ja **Testimine** enne, kui töökeskkonna taotlemise nupp  **Konfigureeri**  saab kättesaadavaks. LCS-is etapi lõpule viimiseks peate esmalt viima lõpule kõik selles faasis nõutavad etapid. Kui faasi kõik etapid on lõpule viidud, saate kogu faasi lõpule viia. Faasi saab alati hiljem uuesti avada, kui peate muudatusi tegema. Lisateavet leiate teemast  [Lifecycle Services (LCS) for Finance and Operationsi rakenduste kliendid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 Etapi lõpule viimise protsess koosneb kahest osast. 
 

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 64c7c2787e2ac996e3016f5b23fc48582f5533ad
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018901"
+ms.locfileid: "4426587"
 ---
 # <a name="procurement-catalogs-overview"></a>Hankekataloogide ülevaade
 
@@ -66,7 +66,7 @@ Värskendusi saab avaldada kas automaatselt või käsitsi olenevalt sellest, mil
 
 -   **Dünaamiline** – kataloogi värskendatakse automaatselt iga kord, kui seda muudetakse.
 -   **Staatiline** – katalooge tuleb käsitsi värskendada.
--   **Mõlemad** – kui kataloog sisaldab tootekategooriat, mille värskenduse vaiketüüp on **Staatiline** , tuleb seda kataloogide värskendamisel käsitsi värskendada. Kui kataloog sisaldab tootekategooriaid, mille värskenduse vaiketüüp on **Dünaamiline** , toimub värskendamine automaatselt iga kord, kui seda muudetakse.
+-   **Mõlemad** – kui kataloog sisaldab tootekategooriat, mille värskenduse vaiketüüp on **Staatiline**, tuleb seda kataloogide värskendamisel käsitsi värskendada. Kui kataloog sisaldab tootekategooriaid, mille värskenduse vaiketüüp on **Dünaamiline**, toimub värskendamine automaatselt iga kord, kui seda muudetakse.
 
 
 <a name="additional-resources"></a>Lisaressursid

@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428658"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418173"
 ---
 # <a name="define-new-jobs"></a>Uute tööde määratlemine
 
@@ -57,7 +57,7 @@ See ülesanne keskendub uue töö loomisele. See lõpetatakse käsitsi sisestami
 21. Otsige loendist ja valige soovitud kirje.
 22. Klõpsake loendis valitud real olevat linki.
 23. Lülitage jaotise Oskused laiendamist.
-    * Pange tähele, et kiirvahekaartide Oskused, Haridus ja Tunnistused väljad on tühjad. Pärast teabe kopeerimist ametijuhendist sisestatakse teave nendel väljadel ühe etapina.   
+    * Pange tähele, et kiirvahekaartide Oskused, Haridus ja Tunnistused väljad on tühjad. Pärast teabe kopeerimist ametijuhendist sisestatakse teave nendel väljadel ühe etapina.   
 24. Klõpsake nuppu Salvesta.
 25. Klõpsake suvandit Kopeeri.
 26. Klõpsake suvandit Kopeeri mallist.

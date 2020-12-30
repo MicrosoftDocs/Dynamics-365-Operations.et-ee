@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201728"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426237"
 ---
 # <a name="include-physical-value"></a>Kaasa füüsiline väärtus
 
@@ -45,7 +45,7 @@ Märkeruudul on veidi erinevad mõjud, olenevalt kasutatavast laomudelist.
 -   Kui te ei märgi laomudelite kasutamisel ruutu **Kaasa füüsiline väärtus**, teeb lao sulgemine tasakaalustusi ainult rahaliselt värskendatud kannetes.
 -   Kui kasutate kaalutud keskmise või kaalutud keskmise kuupäeva laomudelit, tasakaalustab lao sulgemine vaid rahaliselt värskendatud kanded, olenemata sellest, kas märgite ruudu **Kaasa füüsiline väärtus**.
 
-**Näide 1** Olete märkinud ruudu**Kaasa füüsiline väärtus** ja saate järgmised ostutellimused.
+**Näide 1** Olete märkinud ruudu **Kaasa füüsiline väärtus** ja saate järgmised ostutellimused.
 
 -   Ostutellimus kogusele 2 omahinnaga 10,00 USA dollarit, mis on saatelehega sisestatud.
 -   Ostutellimus kogusele 3 omahinnaga 12,00 USA dollarit, mis on arvega sisestatud.

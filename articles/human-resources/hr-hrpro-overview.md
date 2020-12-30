@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428752"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418221"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -68,7 +68,7 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 ## <a name="set-up-compensation-plans"></a>Kompensatsiooniplaanide häälestamine
 
 [Kompensatsiooniplaanide ülevaade](hr-compensation-overview.md)</br>
-[Hüvitusruudustike seadistamine](hr-compensation-grids.md)</br>
+[Hüvitusruudustike häälestus](hr-compensation-grids.md)</br>
 [Kompensatsiooni struktuuri ja plaani arendamine](hr-compensation-structure.md)</br>
 [Põhipalga plaanide loomine](hr-compensation-fixed-plans.md)</br>
 [Ergutussüsteemi plaanide loomine](hr-compensation-variable-plans.md)</br>
@@ -115,7 +115,7 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 
 ## <a name="create-courses"></a>Kursuste loomine
 
-[Koolituskursuste seadistamine](hr-learning-courses.md)</br>
+[Koolituskursuste häälestus](hr-learning-courses.md)</br>
 [Küsimustike ülevaade](hr-learning-questionnaires.md)</br>
 [Küsimustike kujundamine](hr-learning-design-questionnaires.md)</br>
 [Küsimustike jaotamine ja kavandamine](hr-learning-distribute-questionnaires.md)</br>

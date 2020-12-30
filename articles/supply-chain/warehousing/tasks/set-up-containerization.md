@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 1f961dc379ceeeae9bbceec1baaa9b9be21316f3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017778"
+ms.locfileid: "4426589"
 ---
 # <a name="set-up-containerization"></a>Konteinerisse määramise seadistamine
 
@@ -75,7 +75,7 @@ Selles teemas kirjeldatakse koormuste konteineriseerimise automeerimist laohaldu
 5. Sisestage väärtus väljale **Voo etapi kood**.
 6. Valige märkeruut **Luba tükeldatud valikud**.
 7. Valige käsk **Salvesta**.
-8. Valige **Konteineri koostamise piirangud**. Koostamisloogika pausid võimaldavad seadistada reeglid eraldusridade konteinerisse pakkimise kohta. Näiteks, kui lisate **Üksuse numbri välja** , kui üksused on konteineritesse määratud, luuakse uue üksuse numbri korral uus konteiner. See takistab töötajaid pakkimast kahe erineva kliendi eraldusridu samasse konteinerisse.  
+8. Valige **Konteineri koostamise piirangud**. Koostamisloogika pausid võimaldavad seadistada reeglid eraldusridade konteinerisse pakkimise kohta. Näiteks, kui lisate **Üksuse numbri välja**, kui üksused on konteineritesse määratud, luuakse uue üksuse numbri korral uus konteiner. See takistab töötajaid pakkimast kahe erineva kliendi eraldusridu samasse konteinerisse.  
 9. Valige suvand **Uus**.
 10. Valige suvand väljal **Tabel**.
 11. Sisestage või valige väärtus väljale **Välja valik**.

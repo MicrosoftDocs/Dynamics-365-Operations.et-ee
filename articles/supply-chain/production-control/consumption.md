@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f58365278200344169b93658e9c92dea2bc4f18f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211626"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426325"
 ---
 # <a name="calculate-material-consumption"></a>Materjalikulu arvutamine
 
@@ -63,7 +63,7 @@ Eeldatakse, et 0,5-meetrine toruosa kantakse iga viie tarrbitud toru kohta maha.
 
 ### <a name="consumption"></a>Tarbimine
 
-Tavaliselt valite ümardamismehhanismi suvandiks**Tarbimine**, kui toormaterjali komplekteeritakse toote kindla materjali käsitlemisühiku täielikes kogustes. Näiteks kasutatakse ühe valmistoote tootmiseks 2 liitrit värvi ja värvi komplekteeritakse 25-liitristes tünnides. Selles näites saab ümardamismehhanismiga **Tarbimine** ümardada tarbimise täisarvu, 25-liitristes tünnideni. Värvi, mis on vajalik, kui 180 lõpetatud kauba ühikut, tuleb esitada arvutusmeetodid järgnevalt:
+Tavaliselt valite ümardamismehhanismi suvandiks **Tarbimine**, kui toormaterjali komplekteeritakse toote kindla materjali käsitlemisühiku täielikes kogustes. Näiteks kasutatakse ühe valmistoote tootmiseks 2 liitrit värvi ja värvi komplekteeritakse 25-liitristes tünnides. Selles näites saab ümardamismehhanismiga **Tarbimine** ümardada tarbimise täisarvu, 25-liitristes tünnideni. Värvi, mis on vajalik, kui 180 lõpetatud kauba ühikut, tuleb esitada arvutusmeetodid järgnevalt:
 
 1.  Vajalik värv, v.a praak: 180 × 2 = 360 liitrit
 2.  Tünnide arv: 360 ÷ 25 = 14,4, ümardatuna 15

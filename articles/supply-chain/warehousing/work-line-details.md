@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015891"
+ms.locfileid: "4426636"
 ---
 # <a name="work-line-details"></a>Töörea üksikasjad
 
@@ -40,12 +40,12 @@ Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Ad
 
 Töörea üksikasjade loendi kuvamiseks avage jaotis **Laohaldus \> Töö \> Töörea üksikasjad**. Siit saate teha järgmisi toiminguid.
 
-- Saate kasutada välja **Filter** , et otsida ridu, mille mis tahes saadaoleval parameetril on kindel väärtus. (Saadaolevate parameetrite hulka kuuluvad paljud parameetrid, mida ei kuvata ruudustiku veergudena.)
+- Saate kasutada välja **Filter**, et otsida ridu, mille mis tahes saadaoleval parameetril on kindel väärtus. (Saadaolevate parameetrite hulka kuuluvad paljud parameetrid, mida ei kuvata ruudustiku veergudena.)
 - Suletud ridade kuvamiseks või peitmiseks kasutake märkeruutu **Kuva suletud**.
-- Valige **Kuva dimensioonid** , et avada dialoogiboks **Dimensioonide kuvamine** , kus saate valida, kas kuvada või peita ruudustiku erinevaid dimensiooni veergusid.
+- Valige **Kuva dimensioonid**, et avada dialoogiboks **Dimensioonide kuvamine**, kus saate valida, kas kuvada või peita ruudustiku erinevaid dimensiooni veergusid.
 - Valige mis tahes veeru päis menüü avamiseks, kus saate valida, kas sortida või filtreerida loendit selle veeru väärtuste alusel.
-- Valige töörida ja seejärel valige **Asukoha muutmine** , et avada dialoogiboks, kus saate muuta selle töörea asukohta. Teie määratud asukoht alistab selle asukohakorralduse häälestuse.
-- Valige töörida ja seejärel valige **Töörea tühistamine** , et avada dialoogiaken, kus saate vähendada selle töörea kogust osaliselt või täielikult.
+- Valige töörida ja seejärel valige **Asukoha muutmine**, et avada dialoogiboks, kus saate muuta selle töörea asukohta. Teie määratud asukoht alistab selle asukohakorralduse häälestuse.
+- Valige töörida ja seejärel valige **Töörea tühistamine**, et avada dialoogiaken, kus saate vähendada selle töörea kogust osaliselt või täielikult.
 - Korrigeerige koguseid.
 - Vaadake mis tahes töörea taga olevaid kandeid.
 
@@ -61,7 +61,7 @@ Seda demo saate kasutada ka juhistena, kui töötate tootmissüsteemis. Kuid pea
 
 ### <a name="verify-that-the-scenario-setup-includes-enough-available-inventory"></a>Veendumine, et stsenaariumi häälestus sisaldaks piisavalt vabu varusid
 
-Kui töötate demoandmetega **USMF** , peaksite esmalt veenduma, et teie süsteem oleks seadistatud nii, et igas vastavas komplekteerimise asukohas oleks saadaval piisavalt varusid. Selle demo puhul on eelduseks, et saadaval oleks järgmised varud.
+Kui töötate demoandmetega **USMF**, peaksite esmalt veenduma, et teie süsteem oleks seadistatud nii, et igas vastavas komplekteerimise asukohas oleks saadaval piisavalt varusid. Selle demo puhul on eelduseks, et saadaval oleks järgmised varud.
 
 - **Kaup M9200:** 45 ea. (või rohkem)
 - **Kaup M9202:** 10 ea. (või rohkem)
@@ -79,7 +79,7 @@ Enne töö loomise alustamist veenduge, et teie ladu on seadistatud nii, et see 
 Komplekteerimistöö loomiseks järgige neid etappe.
 
 1. Avage **Müük ja turundus \> Müügitellimused \> Kõik müügitellimused**.
-1. Valige **Uus** , et avada dialoogiboks **Müügitellimuse loomine**.
+1. Valige **Uus**, et avada dialoogiboks **Müügitellimuse loomine**.
 1. Dialoogiboksis **Müügitellimuse loomine** määrake järgmised väärtused.
 
     - Määrake kiirkaardi **Klient** välja **Kliendi konto** väärtuseks _US-001_.
@@ -93,13 +93,13 @@ Komplekteerimistöö loomiseks järgige neid etappe.
     - **Ühik:** _ea_
 
 1. Valige uus tellimuserida ja seejärel valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine** lehe **Reserveerimine** avamiseks.
-1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida laos kogu valitud rea kogus.
+1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida laos kogu valitud rea kogus.
 1. Müügitellimuse juurde naasmiseks sulgege leht **Reserveerimine**.
 1. Valige toimingupaani vahekaardil **Ladu** suvand **Vabasta lattu**. Süsteem loob saadetise, lisab selle uuele koormusele ja loob vajaliku töö.
 1. Looge teine müügitellimus sama kliendi konto ja lao jaoks, mida kasutasite esimese tellimuse jaoks. Lisage sellele tellimusele kaks järgmist tellimuse rida.
 
-    - **Rida 1:** määrake välja **Kaubakood** väärtuseks _M9200_ , välja **Kogus** väärtuseks _25_ ja välja **Ühik** väärtuseks _ea_.
-    - **Rida 2:** määrake välja **Kaubakood** väärtuseks _M9202_ , välja **Kogus** väärtuseks _10_ ja välja **Ühik** väärtuseks _ea_.
+    - **Rida 1:** määrake välja **Kaubakood** väärtuseks _M9200_, välja **Kogus** väärtuseks _25_ ja välja **Ühik** väärtuseks _ea_.
+    - **Rida 2:** määrake välja **Kaubakood** väärtuseks _M9202_, välja **Kogus** väärtuseks _10_ ja välja **Ühik** väärtuseks _ea_.
 
 1. Korrake etappe 6–8, et reserveerida varud iga tellimuserea jaoks (ükshaaval) ja seejärel korrake etappi 9 tellimuse vabastamiseks lattu.
 
@@ -109,7 +109,7 @@ Komplekteerimistöö loomiseks järgige neid etappe.
 1. Otsige üles ja valige üks selle demo jaoks loodud tööridadest.
 1. Valige **Asukoha muutmine** dialoogiboksi **Vali uus asukoht** avamiseks.
 1. Valige dialoogiboksi **Vali uus asukoht** väljal **Asukoht** töörea jaoks uus asukoht.
-1. Valige **OK** , et rakendada oma muudatus ja sulgeda dialoogiboks.
+1. Valige **OK**, et rakendada oma muudatus ja sulgeda dialoogiboks.
 
 > [!IMPORTANT]
 > Asukohamuudatusi saate esitada ainult juhul, kui uues asukohas on saadaval piisavalt vaba varu (komplekteerimiseks) või kui see läbib asukoha tüübi kinnitamise (ladustamiseks).
@@ -121,10 +121,10 @@ Komplekteerimistöö loomiseks järgige neid etappe.
 1. Valige **Töörea tühistamine** dialoogiboksi **Tühistatav kogus** avamiseks.
 1. Muutke dialoogiboksis **Tühistatav kogus** välja **Kogus** väärtust, et määrata kogus, mis tuleks *lahutada* kogusest, mis on praegu sellele reale määratud. Vaikimisi kuvatakse väljal **Kogus** täielikku kogust.
 
-    - Kui tühistate täieliku koguse, muudetakse väärtus **Töö olek** olekusse _Tühistatud_ , kuid väljal **Töö kogus** kuvatakse jätkuvalt algset väärtust.
-    - Kui tühistate ainult osa kogusest, värskendatakse välja **Töö kogus** , et see kuvaks uut väärtust, kuid väärtus **Töö olek** ei muutu.
+    - Kui tühistate täieliku koguse, muudetakse väärtus **Töö olek** olekusse _Tühistatud_, kuid väljal **Töö kogus** kuvatakse jätkuvalt algset väärtust.
+    - Kui tühistate ainult osa kogusest, värskendatakse välja **Töö kogus**, et see kuvaks uut väärtust, kuid väärtus **Töö olek** ei muutu.
 
-1. Valige **OK** , et rakendada oma muudatus ja sulgeda dialoogiboks.
+1. Valige **OK**, et rakendada oma muudatus ja sulgeda dialoogiboks.
 
 > [!IMPORTANT]
 > Kui tühistate ainult osa töörea kogusest, peate eemaldama aegunud koguse ka koormuse realt. Vastasel juhul, kui alatarne on õigesti seadistatud, ei saa koormuse rida kinnitada saatmiseks.

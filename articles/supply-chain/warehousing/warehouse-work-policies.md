@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017663"
+ms.locfileid: "4426669"
 ---
 # <a name="work-policies"></a>Tööpoliitikad
 
@@ -29,7 +29,7 @@ ms.locfileid: "4017663"
 
 See teema selgitab, kuidas häälestada süsteemi ja rakenduse ladu, et nad toetaksid tööpoliitikaid. Seda funktsiooni saate kasutada lao kiireks registreerimiseks, loomata ladustamistööd, kui võtate vastu ostu-või üleviimistellimusi või kui lõpetate tootmisprotsesse. See teema annab üldteavet. Üksikasjalikku teavet, mis on seotud litsentsiplaadi vastuvõtmisega, leiate teemast [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Tööpoliitika kontrollib, kas lao töö on loodud, kui toodetud kaup on lõpetatuks kinnitatud või kui kaubad võetakse vastu lao rakenduse abil. Seadistage iga tööpoliitika, määratledes tingimused, mille puhul see kehtib: töötellimuse tüübid ja protsessid, lao asukoht ja (valikuliselt) tooted. Näiteks peab toote *A0001* ostutellimuse vastu võtma asukohas *RECV* laos *24*. Hiljem tarbitakse toodet teises protsessi asukohas *RECV*. Sellisel juhul saate seadistada tööpoliitika, et vältida ladustatud töö loomist, kui töötaja teatab tootest *A0001* , kui see saabus asukoha *RECV*.
+Tööpoliitika kontrollib, kas lao töö on loodud, kui toodetud kaup on lõpetatuks kinnitatud või kui kaubad võetakse vastu lao rakenduse abil. Seadistage iga tööpoliitika, määratledes tingimused, mille puhul see kehtib: töötellimuse tüübid ja protsessid, lao asukoht ja (valikuliselt) tooted. Näiteks peab toote *A0001* ostutellimuse vastu võtma asukohas *RECV* laos *24*. Hiljem tarbitakse toodet teises protsessi asukohas *RECV*. Sellisel juhul saate seadistada tööpoliitika, et vältida ladustatud töö loomist, kui töötaja teatab tootest *A0001*, kui see saabus asukoha *RECV*.
 
 > [!NOTE]
 > - Selleks, et tööpoliitika oleks aktiivne, peate selle määratlema vähemalt ühes asukohas lehe **Tööpoliitikad** FastTab valikus **Lao asukohad**. 
@@ -113,11 +113,11 @@ Mobiilse seadme menüü-üksuse seadistamiseks, mis toetab vastuvõtmist kohanda
 
 ## <a name="example-scenario-warehouse-receiving"></a>Stsenaariumi näide: lao vastuvõtt
 
-Kõik tooted, mis on vastu võetud *Ostutellimuse kauba vastuvõtmisel (ja ladustamisel)* , peavad olema registreeritud asukohas *FL-001* ja need peavad olema saadaval laos *24*. Siiski ei tohi tööd luua. Tooted, mis on saadud mis tahes muul viisil (s.h kasutades muid mobiilse seadme menüükäske) tuleks registreerida vaikimisi lao vastuvõtvas asukohas ( *RECV* ) ja töö tuleb luua nagu tavaliselt. (See stsenaarium ei kuva vaikimisi vastuvõtmise häälestust.)
+Kõik tooted, mis on vastu võetud *Ostutellimuse kauba vastuvõtmisel (ja ladustamisel)*, peavad olema registreeritud asukohas *FL-001* ja need peavad olema saadaval laos *24*. Siiski ei tohi tööd luua. Tooted, mis on saadud mis tahes muul viisil (s.h kasutades muid mobiilse seadme menüükäske) tuleks registreerida vaikimisi lao vastuvõtvas asukohas (*RECV*) ja töö tuleb luua nagu tavaliselt. (See stsenaarium ei kuva vaikimisi vastuvõtmise häälestust.)
 
 See stsenaarium nõuab järgmisi elemente:
 
-- *Ostutellimuse kauba vastuvõtmine (ja kõrvalepanek)* tööpoliitika protsess asukohas *FL-001* , kõikidele toodetele
+- *Ostutellimuse kauba vastuvõtmine (ja kõrvalepanek)* tööpoliitika protsess asukohas *FL-001*, kõikidele toodetele
 - Mobiilse seadme menüükäsk, millel on vaikeandmed ja mis määrab **Välja asukoha** väärtuseks *FL-001*
 
 ### <a name="prerequisites"></a>Eeltingimused
@@ -132,14 +132,14 @@ See stsenaarium kasutab standardseid demoandmeid. Niisiis, kui soovite selle lä
 1. Valige suvand **Uus**.
 1. Minge väljal **Tööpoliitika nimi** asukohta *Ostukauba ladustamise töö puudub*.
 1. Valige käsk **Salvesta**.
-1. **Töötellimuse tüüpide** FastTab-l valige **Lisa** , et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
+1. **Töötellimuse tüüpide** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
 
     - **Töötellimuse tüüp:** *ostutellimused*
     - **Tööprotsess:** *vastuvõttev ostutellimuse kaup (ja ladustamine)*
     - **Töö loomise meetod:** *mitte kunagi*
     - **Ristlaadimise poliitika nimi:** jätke see väli tühjaks.
 
-1. **Varude asukohtade** FastTab-l valige **Lisa** , et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
+1. **Varude asukohtade** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
 
     - **Ladu:** *24*
     - **Asukoht:** *FL-001*
@@ -154,7 +154,7 @@ See stsenaarium kasutab standardseid demoandmeid. Niisiis, kui soovite selle lä
 1. Määrake FastTab-il **Üldine** suvandil **Kasutage vaikeandmed** valikut *Jah*.
 1. Valige käsk **Salvesta**.
 1. Valige tegumiribal suvand **Vaikeandmed**.
-1. **Vaikeandmete** lehel tegevuspaanil valige **Uus** , et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
+1. **Vaikeandmete** lehel tegevuspaanil valige **Uus**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
 
     - **Vaikimisi andmeväli:** *Asukohta*
     - **Ladu:** *24*
@@ -201,7 +201,7 @@ Ostutellimus on nüüd vastu võetud, kuid sellega pole seotud ühtegi tööd. V
 
 ## <a name="example-scenario-manufacturing"></a>Stsenaariumi näide: tootmine
 
-Järgmises näites on kaks tootmistellimust: *PRD-001* ja *PRD-002*. Tootmistellimusel *PRD-001* on toiming nimega *Assembler* , kus toode *SC1* on teatatud lõpetatuks asukohale *001*. Tootmistellimusel *PRD-002* on toiming nimega *Värvimine* ja tarbib toodet *SC1* asukohast *001*. Tootmistellimus *PRD-002* tarbib ka toormaterjali *RM1* asukohast *001*. Toormaterjali *RM1* hoitakse laoasukohas *BULK-001* ja komplekteeritakse asukohale *001* laotööga toormaterjali komplekteerimiseks. Komplekteerimistöö luuakse tootmise *PRD-002* väljastamisel.
+Järgmises näites on kaks tootmistellimust: *PRD-001* ja *PRD-002*. Tootmistellimusel *PRD-001* on toiming nimega *Assembler*, kus toode *SC1* on teatatud lõpetatuks asukohale *001*. Tootmistellimusel *PRD-002* on toiming nimega *Värvimine* ja tarbib toodet *SC1* asukohast *001*. Tootmistellimus *PRD-002* tarbib ka toormaterjali *RM1* asukohast *001*. Toormaterjali *RM1* hoitakse laoasukohas *BULK-001* ja komplekteeritakse asukohale *001* laotööga toormaterjali komplekteerimiseks. Komplekteerimistöö luuakse tootmise *PRD-002* väljastamisel.
 
 [![Lao tööpoliitikad](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
@@ -233,7 +233,7 @@ Laotoimingud ei hõlma alati laotööd. Tööpoliitika määratlemisel saate vä
 1. Valige suvand **Uus**.
 1. Minge väljal **Tööpoliitika nimi** asukohta *Ladustamistöö puudub*.
 1. Valige toimingupaanil nupp **Salvesta**.
-1. **Töötellimuse tüüpide** FastTab-l valige **Lisa** , et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
+1. **Töötellimuse tüüpide** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
 
     - **Töötellimuse tüüp:** *lõpetatud kaupade ladustamine*
     - **Tööprotsess:** *kõik seotud tööprotsessid*
@@ -247,13 +247,13 @@ Laotoimingud ei hõlma alati laotööd. Tööpoliitika määratlemisel saate vä
     - **Töö loomise meetod:** *mitte kunagi*
     - **Ristlaadimise poliitika nimi:** jätke see väli tühjaks.
 
-1. **Varude asukohtade** FastTab-l valige **Lisa** , et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
+1. **Varude asukohtade** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:
 
     - **Ladu:** *51*
     - **Asukoht:** *001*
 
 1. **Toodete** FastTab-il seadistage välja **Tootevalik** väärtuseks *Valitud*.
-1. FastTab-il **Tooted** valige käsk **Lisa** , et lisada uus rida tabelisse.
+1. FastTab-il **Tooted** valige käsk **Lisa**, et lisada uus rida tabelisse.
 1. Uues reas määrake välja **Kauba number** väärtuseks *L0101*.
 1. Valige toimingupaanil nupp **Salvesta**.
 
@@ -283,13 +283,13 @@ Laotoimingud ei hõlma alati laotööd. Tööpoliitika määratlemisel saate vä
     Hoidke uus tootmistellimus valituna.
 
 1. Tehke tegumiriba vahekaardil **Tootmistellimus** grupis **Protsess** valik **Hinda**.
-1. Dialoogiaknas **Hinda** lugege hinnangut ja seejärel klõpsake nuppu **OK** , et sulgeda dialoogiaken.
+1. Dialoogiaknas **Hinda** lugege hinnangut ja seejärel klõpsake nuppu **OK**, et sulgeda dialoogiaken.
 1. Tehke tegumiriba vahekaardil **Tootmistellimus** grupis **Protsess** valik **Alusta**.
 1. Seadke dialoogiaknas **Alusta** vahekaardil **Üldine** väli **Automaatne BOM-tarbimine** väärtuseks *Mitte kunagi*.
-1. Valige **OK** , et salvestada oma säte ja sulgeda dialoogiaken.
+1. Valige **OK**, et salvestada oma säte ja sulgeda dialoogiaken.
 1. Tehke tegumiriba vahekaardil **Tootmistellimus** grupis **Protsess** valik **Kinnita lõpetatuks**.
 1. Dialoogiaknas **Lõpetatuks kinnitamine** vahekaardil **Üldine** määrake suvandi **Kinnita tõrge** väärtuseks *Jah*.
-1. Valige **OK** , et salvestada oma säte ja sulgeda dialoogiaken.
+1. Valige **OK**, et salvestada oma säte ja sulgeda dialoogiaken.
 1. Valige toimingupaani vahekaardil **Ladu** grupis **Seotud teave** üksus **Töö üksikasjad**.
 
 Kui tootmistellimus on lõpetatuks kuulutatud, pole ladustamiseks tööd loodud. Seda käitumist ilmneb, kuna määratletud on tööpoliitika, mis takistab töö loomist, kui toode *L0101* kuulutatakse lõpetatuks asukohale *001*.

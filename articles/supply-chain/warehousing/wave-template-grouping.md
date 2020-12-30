@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015822"
+ms.locfileid: "4426668"
 ---
 # <a name="wave-template-grouping"></a>Voomalli rühmitamine
 
@@ -52,7 +52,7 @@ Voomalli rühmitamise kättesaadavaks tegemiseks järgige neid etappe oma [vooma
     - **Määra avatud voogudele:** *Jah*
     - **Töötle voogu lattu vabastamisel:** *Ei*
 
-1. Valige toimingupaanil suvand **Redigeeri päringut** , et avada dialoogiboks.
+1. Valige toimingupaanil suvand **Redigeeri päringut**, et avada dialoogiboks.
 1. Vaadake üle päringu dialoogiboksi vahekaardil **Sortimine** sortimise kriteeriumid ja veenduge, et oleks olemas reegel, mis sisaldab välja, mida soovite kasutada oma voogude rühmitamiseks.
 
     Kui valmistute seda stsenaariumit demoandmete abil läbi töötama, lisage rida, millel on järgmised väärtused.
@@ -107,14 +107,14 @@ Enne alustamist valmistage voomall ette selles teemas eelnevalt kirjeldatud jaot
     - **Vedaja teenus:** *Õhk*
 
 1. Minge tagasi vaatesse **Read**.
-1. Valige jaotises **Müügitellimuse read** suvand **Lisa rida** , et lisada rida ruudustikule.
+1. Valige jaotises **Müügitellimuse read** suvand **Lisa rida**, et lisada rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Kauba kood:** *A0002*
     - **Kogus:** *2*
 
 1. Valige uus tellimuserida ja seejärel valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
-1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida laos kogu valitud rea kogus.
+1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida laos kogu valitud rea kogus.
 1. Müügitellimuse juurde naasmiseks sulgege leht **Reserveerimine**.
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**.
 1. Saate teate, mis näitab saadetist ja voogu selle tellimuse jaoks. Märkige üles voo ID-kood ja saadetise ID-koodid.
@@ -144,14 +144,14 @@ Enne alustamist valmistage voomall ette selles teemas eelnevalt kirjeldatud jaot
     - **Vedaja teenus:** *Std*
 
 1. Minge tagasi vaatesse **Read**.
-1. Valige jaotises **Müügitellimuse read** suvand **Lisa rida** , et lisada rida ruudustikule.
+1. Valige jaotises **Müügitellimuse read** suvand **Lisa rida**, et lisada rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Kauba kood:** *A0001*
     - **Kogus:** *1*
 
 1. Valige uus tellimuserida ja seejärel valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
-1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida laos kogu valitud rea kogus.
+1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida laos kogu valitud rea kogus.
 1. Müügitellimuse juurde naasmiseks sulgege leht **Reserveerimine**.
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**.
 1. Saate teate, mis näitab saadetist ja voogu selle tellimuse jaoks. Märkige üles voo ID-kood ja saadetise ID-koodid. Pange tähele, et voo ID erineb esimese müügitellimuse voo ID-st.
@@ -183,14 +183,14 @@ Selle saadetise jaoks loodi uus voog, kuna see kasutab esimesest müügitellimus
     - **Vedaja teenus:** *Õhk*
 
 1. Minge tagasi vaatesse **Read**.
-1. Valige jaotises **Müügitellimuse read** suvand **Lisa rida** , et lisada rida ruudustikule.
+1. Valige jaotises **Müügitellimuse read** suvand **Lisa rida**, et lisada rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Kauba kood:** *A0001*
     - **Kogus:** *1*
 
 1. Valige uus tellimuserida ja seejärel valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
-1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida laos kogu valitud rea kogus.
+1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida laos kogu valitud rea kogus.
 1. Müügitellimuse juurde naasmiseks sulgege leht **Reserveerimine**.
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**.
 1. Saate teate, mis näitab saadetist ja voogu selle tellimuse jaoks. Märkige üles voo ID-kood ja saadetise ID-koodid. Saadetis määrati olemasolevale voole esimesest müügitellimusest.

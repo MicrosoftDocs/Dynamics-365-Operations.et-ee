@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6428981fcf560c541634d9466695be7bce4cb453
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.openlocfilehash: 2686dd6db032239e2a3aac03f3998cee055302f6
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888949"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4426708"
 ---
 # <a name="maintenance-forecasts"></a>Hooldusprognoosid
 
@@ -69,7 +69,7 @@ Varuosade loendis või vara koosluses mittesisalduva varuosa jaoks uue rea loomi
 4. Valige väljal **Ühik** koguse mõõtühik.
 5. Sisestage sobivad väärtused väljadele **Omahind** ja **Valuuta**
 6. Valige rea atribuut väljal **Rea atribuut**.
-7. Üksuse ridadel kuvatavate mõõtude loendi muutmiseks valige **Varud** > **Kuva mõõdud**, valige mõõdud ja seejärel määrake valiku**Salvesta seadistus** väärtuseks **Jah**.
+7. Üksuse ridadel kuvatavate mõõtude loendi muutmiseks valige **Varud** > **Kuva mõõdud**, valige mõõdud ja seejärel määrake valiku **Salvesta seadistus** väärtuseks **Jah**.
 
 Varuosa lisamiseks heakskiidetud varuosade loendist tehke järgmist.
 

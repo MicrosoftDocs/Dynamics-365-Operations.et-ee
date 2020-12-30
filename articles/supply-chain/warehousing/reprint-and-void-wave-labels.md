@@ -4,7 +4,7 @@ description: Selles teemas selgitatakse olemasolevate voo siltide tühistamist j
 author: GarmMSFT
 manager: PJacobse
 ms.date: 07/09/2020
-ms.topic: reprint-and-void-wave-labels
+ms.topic: article
 ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016650"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4426701"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Voo siltide uuesti printimine ja tühistamine
 
@@ -96,7 +96,7 @@ Järgige neid etappe, et luua uus menüü-üksuste kogum siltide uuesti printimi
     - **Süsteemi grupeerimise silt:** *Saadetise ID*
     - **Printimisrežiim:** *Toode*
 
-1. Valige toimingupaanil **Väljaloend** , et avada leht, kus saate valida kuvatavad väljad, mis aitavad töötajatel õiget siltide rulli tuvastada.
+1. Valige toimingupaanil **Väljaloend**, et avada leht, kus saate valida kuvatavad väljad, mis aitavad töötajatel õiget siltide rulli tuvastada.
 1. Saate kuvada kuni seitset välja. Kasutage ripploendit, et valida igas saadaolevas kohas kuvatav väli. Jätke tühjaks väljad, mida te ei vaja. 
 
     Siin on näide.
@@ -118,7 +118,7 @@ Järgige neid etappe, et luua uus menüü-üksuste kogum siltide uuesti printimi
     - **Süsteemi grupeerimise silt:** *Saadetise ID*
     - **Printimisrežiim:** *Loetelu*
 
-1. Valige toimingupaanil **Väljaloend** ja seejärel kasutage ripploendit, et valida kuvatavad väljad, mis aitavad töötajatel õiget siltide rulli tuvastada (nt *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* ja *NumberOfLabels* ).
+1. Valige toimingupaanil **Väljaloend** ja seejärel kasutage ripploendit, et valida kuvatavad väljad, mis aitavad töötajatel õiget siltide rulli tuvastada (nt *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* ja *NumberOfLabels*).
 1. Sulgege leht.
 1. Looge neljas menüü-üksus ja seadke sellele järgmised väärtused.
 
@@ -131,7 +131,7 @@ Järgige neid etappe, et luua uus menüü-üksuste kogum siltide uuesti printimi
     - **Süsteemi grupeerimise silt:** *Saadetise ID*
     - **Printimisrežiim:** *Viimase hea voo sildi ID*
 
-1. Valige toimingupaanil **Väljaloend** ja seejärel kasutage ripploendit, et valida kuvatavad väljad, mis aitavad töötajatel õiget siltide rulli tuvastada (nt *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* ja *NumberOfLabels* ).
+1. Valige toimingupaanil **Väljaloend** ja seejärel kasutage ripploendit, et valida kuvatavad väljad, mis aitavad töötajatel õiget siltide rulli tuvastada (nt *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* ja *NumberOfLabels*).
 1. Sulgege leht.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Mobiilse seadme menüü seadistamine

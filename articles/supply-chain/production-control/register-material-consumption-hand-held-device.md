@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211257"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426539"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materjalitarbe registreerimine mobiilse seadmega
 
@@ -68,7 +68,7 @@ See toob materjali hulgiasukohast tootmise sisendasukohta PIL-01. Kui töö on l
 
 Pärast tootmistellimuse alustamist võite registreerida materjali tarbimise pihuseadme töövoo abil. Alustame 25 naela partii B1 tarbimise registreerimisega.
 
-6.  Valige pihuseadme menüüst menüüelement **Registreeri materjali** **tarbimine**, sisestage järgmised andmed. 
+6.  Valige pihuseadme menüüst menüüelement  **Registreeri materjali** **tarbimine**, sisestage järgmised andmed. 
 
 -    Toote tellimisnumber. 
 -    Asukoht, kust materjali tarbitakse, praegusel juhul PIL-01. 

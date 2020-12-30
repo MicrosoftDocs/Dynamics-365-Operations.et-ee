@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055733"
+ms.locfileid: "4411810"
 ---
 # <a name="navigation-menu-module"></a>Navigeerimismenüü moodul
 
@@ -44,12 +44,12 @@ Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüü näide, mil
 
 | Atribuudi nimi             | Väärtus                 | Kirjeldus |
 |---------------------------|-----------------------|-------------|
-| Allikas                  | **Jaemüük** , **Käsitsi koostamine** , **Jaemüük ja käsitsi koostamine** | Väärtus **Jaemüük** võimaldab navigeerimismenüüs kuvada kanali navigeerimishierarhia Commerce'i peakontorist. Väärtus **Käsitsi koostamine** võimaldab staatiliste menüüde üksusi kureerida. Väärtus **Jaemüük ja käsitsi koostamine** võimaldab mõlemat. |
+| Allikas                  | **Jaemüük**, **Käsitsi koostamine**, **Jaemüük ja käsitsi koostamine** | Väärtus **Jaemüük** võimaldab navigeerimismenüüs kuvada kanali navigeerimishierarhia Commerce'i peakontorist. Väärtus **Käsitsi koostamine** võimaldab staatiliste menüüde üksusi kureerida. Väärtus **Jaemüük ja käsitsi koostamine** võimaldab mõlemat. |
 | Kategooria piltide kuvamine | **Tõene** või **Väär**    | Kui see on lubatud, kuvatakse navigeerimismenüüs kategooria pildid, nagu on määratletud iga kategooria kohta Commerce’i peakontoris. Lisatud Commerce'i väljalaskesse 10.0.14. |
 | Mitme tasemega navigeerimismenüü lubamine | **Tõene** või **Väär** | Kui see atribuut on lubatud, võib navigeerimismenüü kuvada navigeerimise hierarhia mitut taset. See funktsioon on saadaval Dynamics 365 Commerce'i versioonis 10.0.15. |
 | Tasemete arv | täisarv | See atribuut määratleb tasemete numbrid, mis tuleb kuvada, kui atribuudi **Luba mitmetasandiline navigeerimismenüü** väärtuseks on seatud **Tõene**. |
 | Staatiline menüü-üksus| Väärtuste massiiv| Staatilised menüü-üksused, mis seostavad menüü-üksuse nime staatilise saidi lingiga. Menüü-üksusi saate luua muude menüü-üksuste all. Vaikimisi kuvatakse staatilised menüüd juuretasandil ja need lisatakse kanali navigeerimishierarhiasse, kui see on olemas. |
-| Juurmenüü kuvamine | **Tõene** või **Väär** | Kui see atribuut on lubatud, saab navigeerimismenüü määratleda kohandatud juure alusel (nt **Osta kohe** ). See funktsioon on saadaval Dynamics 365 Commerce'i versioonis 10.0.15. |
+| Juurmenüü kuvamine | **Tõene** või **Väär** | Kui see atribuut on lubatud, saab navigeerimismenüü määratleda kohandatud juure alusel (nt **Osta kohe**). See funktsioon on saadaval Dynamics 365 Commerce'i versioonis 10.0.15. |
 | Juurmenüü | string | Seda atribuuti saab kasutada kohandatud juure teksti määratlemiseks, kui atribuudi **Kuva juurmenüü** väärtuseks on seatud **Tõene**. |
 
 Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüüs kuvatav kategooria pilt.

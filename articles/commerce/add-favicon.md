@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761149"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411608"
 ---
 # <a name="add-a-favicon"></a>Faviconi lisamine
 
@@ -65,7 +65,7 @@ Teie lemmikuikooni metasilti sisaldava fragmendi loomiseks järgige neid juhisei
 1. Avage **Fragmendid** ja valige **Uus**.
 1. Määrake dialoogiboksis **Uus fragment** mooduliks (millel põhineb fragment) **Metasildid**.
 1. Sisestage fragmendi nimi ja valige **OK**.
-1. Valige fragmendihierarhiapuus tütarüksus**Vaikimisi metasildid**.
+1. Valige fragmendihierarhiapuus tütarüksus **Vaikimisi metasildid**.
 1. Valige parempoolsel paanil jaotises **Metasildid** suvand **Lisa** ja seejärel sisestage HTML-string, mille eelnevalt faviconi jaoks lõite. 
 1. Valige **Lõpeta redigeerimine** ja seejärel valige fragmendi avaldamiseks **Avalda**.
 

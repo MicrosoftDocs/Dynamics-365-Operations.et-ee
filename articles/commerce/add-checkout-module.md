@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8439b88ccda3f72e5a9b918c6c89bd406599b516
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818222"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4411832"
 ---
 # <a name="checkout-module"></a>Maksmise moodul
 
@@ -116,11 +116,13 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Ostukorvi ikooni moodul](cart-icon-module.md)
 
-[Maksemoodul](payment-module.md)
+[Makse moodul](payment-module.md)
 
 [Tarneaadressi moodul](ship-address-module.md)
 
-[Tarnevalikute moodul](delivery-options-module.md)
+[Tarnesuvandite moodul](delivery-options-module.md)
+
+[Järeletulemisteabe moodul](pickup-info-module.md)
 
 [Tellimuse üksikasjade moodul](order-confirmation-module.md)
 

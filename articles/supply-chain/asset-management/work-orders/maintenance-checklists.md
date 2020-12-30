@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1091af424f84265ffa7983fca8ddc3f66138a5cd
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889861"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426078"
 ---
 # <a name="maintenance-checklists"></a>Hoolduse kontrollnimekirjad
 
@@ -31,7 +31,7 @@ ms.locfileid: "3889861"
 
 
 
-Hoolduse kontrollnimekirjad on loodud hooldustööde tüüpide järgi. Täidate hoolduse kontrollnimekirjad töökäsu täitmise osana. Lisateabe saamiseks hooldustööde tüüpide hooldustööde kontrollnimekirjade seadistamise kohta lehel**Hooldustöö tüübi vaikesuvandid**, vt teemat [Hooldustööde tüüpide kategooriad ja hooldustööde tüübid, hooldustööde tüüpide variandid, hooldustööde vahetused ja hooldustööde kontrollnimekirjad](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Hoolduse kontrollnimekirjad on loodud hooldustööde tüüpide järgi. Täidate hoolduse kontrollnimekirjad töökäsu täitmise osana. Lisateabe saamiseks hooldustööde tüüpide hooldustööde kontrollnimekirjade seadistamise kohta lehel **Hooldustöö tüübi vaikesuvandid**, vt teemat [Hooldustööde tüüpide kategooriad ja hooldustööde tüübid, hooldustööde tüüpide variandid, hooldustööde vahetused ja hooldustööde kontrollnimekirjad](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 Kui töötate hooldustööde kontrollnimekirjadega töökäsu alusel, saate täita eelnevalt määratletud hooldustööde kontrollnimekirjad, mis on seotud hooldustööde tüüpidega. Saate lisada ka rohkem hoolduse kontrollnimekirju.
 

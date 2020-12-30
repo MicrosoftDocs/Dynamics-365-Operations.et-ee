@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018372"
+ms.locfileid: "4426611"
 ---
 # <a name="set-up-consignment"></a>Saadetise seadistamine
 
@@ -40,7 +40,7 @@ Selles näidisstsenaariumis on ettevõtte USMF-l veose leping hankijaga US-104 t
 2.  Hankijat teavitatakse eeldatava tarnekuupäeva kohta. See võib juhtuda ühel kolmest viisist.
     -   Keegi, kes töötab USMF-s, saadab hankijale tellimuse teabe.
     -   Hankija saab jälgida eeldatavaid vabu varusid, kasutades hankija koostööliidest.
-    -   Keegi, kes töötab USMF-s, filtreerib andmeid lehel **Vaba kaubavaru** , et näidata ainult hankija US-104 kirjeid, kus sissetuleku olek on **Tellitud** , ja saadab selle teabe seejärel hankijale.
+    -   Keegi, kes töötab USMF-s, filtreerib andmeid lehel **Vaba kaubavaru**, et näidata ainult hankija US-104 kirjeid, kus sissetuleku olek on **Tellitud**, ja saadab selle teabe seejärel hankijale.
 3.  Varud tarnitakse US-104-st USMF-sse.
 4.  Kui materjal saabub USMF-sse, värskendatakse veose täiendamistellimust toote sissetulekuga. Kirjendatakse ainult hankijale kuuluvate varude füüsilised kogused. Puuduvad loodud pearaamatu kanded, kuna varude omanik on ikka hankija.
 5.  Hankija jälgib värskendusi füüsilistele vabadele varudele, kasutades lehte **Veose vaba kaubavaru**.
@@ -82,12 +82,12 @@ Hankija koostööliidesel on kolm sissetuleva veose protsessiga seotud lehte.
 -   **Veose vaba kaubavaru** – näitab teavet selliste veose kaupade kohta, mille tarnimist nad ootavad ja selliste, mis on juba kliendi tegevuskohas füüsiliselt saadaval.
 
 ## <a name="inventory-owners"></a>Varude omanikud
-Füüsiliste sissetulevate veose varude kirjendamiseks peate määratlema hankijast omaniku. Seda tehakse lehel **Varude omanik**. Kui teete valiku **Hankija konto** , loob see väljade **Nimi** ja **Omanik** jaoks vaikeväärtused. Väärtus väljal **Omanik** on hankijale nähtav, seega võite soovi korral seda muuta, kui hankijakonto nimesid pole välistel inimestel lihtne tuvastada. On võimalik redigeerida välja **Omanik** , kuid ainult kirje **Varude omanik** salvestamiseni. Väli **Nimi** täidetakse selle osapoole nimega, millega hankija konto on seostatud ja seda ei saa muuta.
+Füüsiliste sissetulevate veose varude kirjendamiseks peate määratlema hankijast omaniku. Seda tehakse lehel **Varude omanik**. Kui teete valiku **Hankija konto**, loob see väljade **Nimi** ja **Omanik** jaoks vaikeväärtused. Väärtus väljal **Omanik** on hankijale nähtav, seega võite soovi korral seda muuta, kui hankijakonto nimesid pole välistel inimestel lihtne tuvastada. On võimalik redigeerida välja **Omanik**, kuid ainult kirje **Varude omanik** salvestamiseni. Väli **Nimi** täidetakse selle osapoole nimega, millega hankija konto on seostatud ja seda ei saa muuta.
 
 [![inventory-owners](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Jälgimisdimensioonigrupp
-Veose protsessides kasutatavad kaubad tuleb seostada valikuga **Jälgimisdimensioonigrupp** , kus dimensioon **Omanik** on määratud sättele **Aktiivne**. Dimensioonil Omanik on suvandid **Füüsiline ladu** ja **Finantsiline laovaru** valitud. Suvand **Laovarude planeerimine dimensioonide kaupa** pole kunagi valitud.
+Veose protsessides kasutatavad kaubad tuleb seostada valikuga **Jälgimisdimensioonigrupp**, kus dimensioon **Omanik** on määratud sättele **Aktiivne**. Dimensioonil Omanik on suvandid **Füüsiline ladu** ja **Finantsiline laovaru** valitud. Suvand **Laovarude planeerimine dimensioonide kaupa** pole kunagi valitud.
 
 [![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 

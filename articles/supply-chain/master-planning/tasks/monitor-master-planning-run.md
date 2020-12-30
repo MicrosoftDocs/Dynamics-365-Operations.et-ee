@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978124"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426034"
 ---
 # <a name="monitor-a-master-planning-run"></a>Koondplaneerimise käitamise jälgimine
 
@@ -35,8 +35,8 @@ Lehel **Koondplaneerimise edenemise kuva** saate vaadata ajalooliste koondplanee
 
 Sulle funktsiooni kasutamiseks tehke järgmist.
 
-1. Valige tööruumis **Funktsiooni haldus** vahekaardil**Uus** loendist suvand **Koondplaneerimise edenemise visualiseerimine**. Kui funktsioon vahekaardile **Uus** ei ilmu, vaadake vahekaartidelt **Pole lubatud** ja **Kõik**.
-1. Valige **Luba kohe**. Teise võimalusena valige **Graafik**ja seejärel valige kellaaeg, millal soovite funktsiooni sisse lülitada.
+1. Valige tööruumis **Funktsiooni haldus** vahekaardil **Uus** loendist suvand **Koondplaneerimise edenemise visualiseerimine**. Kui funktsioon vahekaardile **Uus** ei ilmu, vaadake vahekaartidelt **Pole lubatud** ja **Kõik**.
+1. Valige **Luba kohe**. Teise võimalusena valige **Graafik** ja seejärel valige kellaaeg, millal soovite funktsiooni sisse lülitada.
 
 Leht **Koondplaneerimise edenemise kuva** võib kuvada nii ajaloolised planeerimistööd kui ka aktiivsed planeerimistööd. 
 

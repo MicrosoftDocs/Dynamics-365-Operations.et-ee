@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973472"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4426704"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
@@ -67,6 +67,8 @@ Planeerimise optimeerimise kasutamiseks installige Dynamics 365 Supply Chain Man
 1. Kiirkaardil **Keskkonna lisandmoodulid** peaksite nägema, et planeerimise optimeerimine on installitud.
 1. Mõne minuti pärast peaks olek **Installimine** muutuma olekuks **Installitud** (võimalik, et peate lehte värskendama). Kui installimine on lõpetatud, olete valmis aktiveerima optimeerimise plaanimise rakenduses Dynamics 365 Supply Chain Management.
 
+Planeerimise optimeerimise lisandmooduli installimise peamine eesmärk on ühendada teenus ja keskkond. Seetõttu peate installima lisandmooduli eraldi igasse keskkonda, kus te kasutate planeerimise optimeerimist, olenemata mis tahes koodist, mis on teisaldatud keskkondade vahel.
+
 ### <a name="planning-optimization-integration"></a>Planeerimise optimeerimise integreerimine
 
 Konfigureerimaks, kas planeerimise optimeerimise lisandmoodulit peaks koondplaneerimise jaoks kasutama, avage **Koondplaneerimine** \> **Seadistamine** \> **Optimeerimise parameetrite plaanimine**.
@@ -95,7 +97,7 @@ Suvandi **Planeerimise optimeerimise kasutamine** säte määrab, millist planee
 
 ### <a name="integration-with-the-setup"></a>Integreerimine seadistamisega
 
-Kui planeerimise optimeerimise eelvaade on sisse lülitatud, tehakse koondplaneerimine planeerimise optimeerimise lisandmoodulit kasutades. Sel juhul on koondplaneerimise tulemused ja funktsioonid mõjutatud.
+Kui planeerimise optimeerimine on sisse lülitatud, tehakse koondplaneerimine planeerimise optimeerimise lisandmoodulit kasutades. Sel juhul on koondplaneerimise tulemused ja funktsioonid mõjutatud.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

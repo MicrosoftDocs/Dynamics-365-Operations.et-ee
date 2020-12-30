@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107226"
+ms.locfileid: "4411825"
 ---
 # <a name="set-up-an-online-channel"></a>Veebikanali häälestamine
 
@@ -76,7 +76,7 @@ Jaotisest **Maksekonto** saate lisada kolmanda osapoole maksepakkuja. Lisateavet
 
 Veebikanali häälestamiseks nõutavad täiendavad toimingud hõlmavad makseviiside, tarneviiside ja täitmisgrupi määramist.
 
-Järgmine pilt näitab seadistuste **Tarneviisid** , **Makseviisid** ja **Täitmisgurpi määramine** suvandeid vahekaardil **Seadistus**.
+Järgmine pilt näitab seadistuste **Tarneviisid**, **Makseviisid** ja **Täitmisgurpi määramine** suvandeid vahekaardil **Seadistus**.
 
 ![Täiendavad võrgukanali seadistamise toimingud](media/channel-setup-online-3.png)
 
@@ -102,7 +102,7 @@ Konfigureeritud tarneviise saate näha valides **Tarneviisid** vahekaardilt **Se
 Tarneviisi muutmiseks või lisamiseks toimige järgmiselt.
 
 1. Avage navigeerimispaanil **Moodulid \> Varude haldus \> Tarneviisid**.
-1. Valige tegevuspaanilt **Uus** , et luua uus tarneviis, või valige olemasolev režiim.
+1. Valige tegevuspaanilt **Uus**, et luua uus tarneviis, või valige olemasolev režiim.
 1. Kanali lisamiseks valige jaotisest **Jaemüügikanalid** käsk **Lisa rida**. Kanalite lisamine kasutades organisatsiooni sõlmpunkte, mitte iga kanalit ükshaaval lisades, täiustab kanalite lisamist veelgi.
 
 Järgmine pilt näitab tarneviisi näidet.

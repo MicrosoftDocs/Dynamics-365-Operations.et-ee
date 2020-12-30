@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214385"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426338"
 ---
 # <a name="standard-cost-conversion-overview"></a>Standardkulu teisendamise ülevaade
 
@@ -60,7 +60,7 @@ Uus kuluarvutuse versioon on määratud teisenduskirjele, nagu näitab kuluarves
 Kauba kuluteavet sellele määratud kuluarvutuse versioonis saab hallata ainult lehelt **Standardkulu teisendused**. Teisenduse ajal ei saa kuluarvutuse versiooni kulude arvutamiseks kasutada lehte **Kuluarvutuse versiooni seadistus** või **Kuluarvutuse versiooni hooldus**. Kuid saate kasutada neid lehti kuluarvutuse versiooni haldamiseks pärast teisendusprotsessi lõpuleviimist.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Tuvastage kaubad, mis teisendatakse standardseks kuluks.
-Tuvastage lehel**Standardkulu teisendused** eraldi üksused, mis tuleks standardkuluks teisendada. Lehel **Lisa üksusi standardkulu teisendusele** saate lisada mitu üksust. Üldjuhul peaksite lisama kõik toodetud kaubad ühte teisenduskirjesse, mis aitab tagada kulude õige arvutamise.
+Tuvastage lehel **Standardkulu teisendused** eraldi üksused, mis tuleks standardkuluks teisendada. Lehel **Lisa üksusi standardkulu teisendusele** saate lisada mitu üksust. Üldjuhul peaksite lisama kõik toodetud kaubad ühte teisenduskirjesse, mis aitab tagada kulude õige arvutamise.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Sisestage või arvutage iga kauba puhul ootel standardsed kulud, mida teisendatakse.
 Kasutage lehte **Kauba hind**, et sisestada ootel standardkulud vastava kuluversiooni raames ostetud kaupade ja üleviidavate kaupade jaoks. Kulukirjed on laoalapõhised ja kauba ootel kulud tuleb sisestada iga laoala puhul. Kasutage lehte **Kauba hind**, et arvutada ootel standardkulud toodetavate kaupade jaoks. Toodetava kauba ootel kulud tuleb arvutada iga tootmiskoha jaoks, kui laoalaks pole üleviimisala. Sel juhul tuleb ootel kulud käsitsi sisestada. Mõnel kaubal võivad olla värvi, suuruse või konfiguratsiooni tootedimensioonid. Lehel **Standardkulu teisendused** näitab märkeruut **Kasuta omahinda variantide alusel** iga tootedimensioonide kombinatsiooni standardkulu. Kui see märkeruut on tühjendatud, tuleb kauba jaoks sisestada ainult ootel kulu.
