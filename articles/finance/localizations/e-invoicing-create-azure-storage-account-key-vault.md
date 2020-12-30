@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039765"
+ms.locfileid: "4442543"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure'i salvestusruumi konto ja võtmehoidla loomine
 
@@ -59,7 +59,7 @@ Selles teemas läbite kaks peamist sammu.
 2. Avage **Bloobiteenus** \> **Konteinerid** ja looge uus konteiner.
 3. Sisestage konteineri nimi ja seadke välja **Avaliku juurdepääsu tase** väärtuseks **Privaatne(anonüümse juurdepääsuta)**.
 4. Avage konteiner ja seejärel **Sätted \> Juurdepääsupoliitika**.
-5. Valige **Lisa poliitika** , et lisada talletamise juurdepääsupoliitika.
+5. Valige **Lisa poliitika**, et lisada talletamise juurdepääsupoliitika.
 6. Seadistage väljad **Identifikaator** ja **Load** oma vajaduste järgi. Väljal **Load** peaksite valima kõik load.
 
     ![Bloobimälu loa andmine](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
@@ -75,7 +75,7 @@ Selles teemas läbite kaks peamist sammu.
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Võtmehoidla seadistamine salvestusruumi konto URI talletamiseks
 
 1. Avage võtmehoidla, mida kavatsete kasutada koos elektroonilise arvelduse lisandmooduliga.
-2. Avage **Sätted** \> **Saladused** ja seejärel valige **Loo/impordi** , et luua uus saladus.
+2. Avage **Sätted** \> **Saladused** ja seejärel valige **Loo/impordi**, et luua uus saladus.
 3. Valige lehel **Saladuse loomine** väljal **Üleslaadimissuvandid** väärtus **Käsitsi**.
 4. Sisestage saladuse nimi. Seda nime kasutatakse teenuse seadistamiseks teenuses Regulatory Configuration Service (RCS) ja sellele viidatakse kui *võtmehoidla saladuse nimele*.
 5. Valige väljal **Väärtus** suvand **Jagatud juurdepääsu allkirja URI** ja seejärel valige **Loo**.

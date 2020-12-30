@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980960"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517376"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -320,7 +320,7 @@ B2C rakenduse seostamiseks teie saidi ja kanaliga toimige järgnevalt.
 
 1. Liikuge oma saidile kaubanduse saidiehitajas.
 1. Vasakpoolsel navigeerimispaanil valige suvand **Saidi sätted** selle laiendamiseks.
-1. Jaotises **Saidi sätted**valige **Kanalid**.
+1. Jaotises **Saidi sätted** valige **Kanalid**.
 1. Valige oma kanal põhiakna jaotises **Kanalid**.
 1. Parempoolsel kanali atribuutide paanil valige oma B2C rakenduse nimi rippmenüüst **B2C rakenduse valimine**.
 1. Valige **Sule** ja seejärel valige **Salvesta ja avalda**.
@@ -345,19 +345,19 @@ Teie B2C rentnikku on valikuliselt võimalik lisada teisene administraatorikonto
 
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
-[Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
 [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
-[Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
-[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+[URL-i üleslaadimine kogumina](upload-bulk-redirects.md)Saidi Dynamics 365 Commerce seostamine võrgukanaliga
 
 [Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
 
-[Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas](configure-multi-B2C-tenants.md)
+[Mitme jaekaubandusrentniku konfigureerimine Commerce'i keskkonnas](configure-multi-B2C-tenants.md)
 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 

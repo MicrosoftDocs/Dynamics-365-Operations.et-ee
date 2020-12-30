@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177415"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442210"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine
 
@@ -58,7 +58,7 @@ April klõpsab nuppu **Sisesta**. Seejärel vaatab ta lõpetatud tasakaalustuse 
 | Valitud ja esile tõstetud | Tavaline            | Inv-10070 | 3050    | 6/29/2015 | 7/29/2015 | 10070    | –1000.00                      | USA dollar      | –200.00          |
 | Valitud                 | Tavaline            | CR-10070  | 3050    | 7/2/2015  | 7/29/2015 | CR-10070 | 200,00                         | USA dollar      | 198.00           |
 
-April saab vaadata üle hankija kanded lehel **Hankija kanded**, valides hankija lehel **Kõik hankijad**ja klõpsates siis tegumiribal nuppu **Kanded**. Sellel lehel näeb April, et arve saldo on –800.00. Ta näeb ka kreeditarvet summaga 198.00 ja allahindlust summas 2.00.
+April saab vaadata üle hankija kanded lehel **Hankija kanded**, valides hankija lehel **Kõik hankijad** ja klõpsates siis tegumiribal nuppu **Kanded**. Sellel lehel näeb April, et arve saldo on –800.00. Ta näeb ka kreeditarvet summaga 198.00 ja allahindlust summas 2.00.
 
 | Kanne    | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo | Valuuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

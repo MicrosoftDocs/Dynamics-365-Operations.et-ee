@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5277081d9f7adcc43c30d30208d13c7e39d76118
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140371"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645277"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Hankija arve kirjendamine arvete töölehele
 
@@ -43,7 +43,9 @@ Selles tegevuse juhises näitlikustatakse, kuidas salvestada hankija arveid, mis
     * **Käibemaksugrupp** pärineb vaikimisi hankija kontolt.  
     * **Kauba käibemaksugrupp** pärineb vaikimisi väljal **Vastaskonto** määratud põhikontolt.  
     * **Tähtaeg** arvutatakse maksetingimuste alusel.  
-    * **Sularaha allahindlus** vaikimisi kehtib müüjakontolt.  
+    * **Sularaha allahindlus** vaikimisi kehtib müüjakontolt.
+12. Kui olete hankija arve töölehe töövoo lubanud, klõpsake valikul **Töövoog > Esita**.
+    * Kui teie esildis on kinnitatud, edastatakse kuupäev järgmise avatud perioodi esimesele päevale, kui kande sisestuskuupäev jääb perioodi, mis on ootel või pearaamatu sisestusteks suletud.
 12. Klõpsake käsku **Sisesta**.
 13. Sulgege leht.
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896769"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527116"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>Mis on Dynamics 365 Talent-is uut või mida on muudetud (5. november 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -69,9 +71,9 @@ See väljaanne parandab tõrke kompensatsiooni muutmise taotlemisel läbi tööv
 
 Selle muudatusega värskendatakse Common Data Service’is põhjuse koode, millel on rohkem kui 30 tähemärki. Common Data Service’is tehtud muudatused kajastuvad Talentis.
 
-### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Aadressi integratsioon Talentist rakendusse Finance and Operations (351961)
+### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Aadressi integratsioon Talent-ist Finance and Operations-i (351961)
 
-See väljaanne lahendab probleemi, kus Talentis värskendatud aadresse rakenduses Finance and Operations ei värskendatud. Aadressiploki muudatusi nüüd värskendatakse.
+See väljaanne lahendab probleemi, kus Talent-is värskendatud aadresse ei värskendatud Finance and Operations rakenduses. Aadressiploki muudatusi nüüd värskendatakse.
 
 ## <a name="coming-soon"></a>Peagi tulekul
 

@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983619"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517448"
 ---
 # <a name="manage-robotstxt-files"></a>Failide robots.txt haldamine
 
@@ -90,15 +90,15 @@ Faili robots.txt Commerce’is kustutamiseks toimige järgmiselt.
 
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
-[Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
-[e-Commerce saidi loomine](create-ecommerce-site.md)
+[E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
-[Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
-[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+[Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
-[B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
+[B2C-rentniku häälestus Commerce'is](set-up-B2C-tenant.md)
 
 [Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
 

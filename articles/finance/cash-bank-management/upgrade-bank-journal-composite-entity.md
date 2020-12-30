@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899638"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442230"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Pangatöölehe liitüksuse värskendamine
 
@@ -40,7 +40,7 @@ Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitük
     -   Tabel\\BankJournalLineStaging
 
 2.  Andmehaldus\\andmeprojektid
-    -   Avage tüüp **Pangakanne**paigutuses **Lähteandmed**.
+    -   Avage tüüp **Pangakanne** paigutuses **Lähteandmed**.
         -   Lähteandmete vorming = XML-element
         -   Üksuse nimi = Panga tööleht
         -   Andmefaili üleslaadimise = uus faili SampleBankJournalCompositeEntity.xml versioon.

@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d69b1e9444785058a2b3e62b9a76cb6e70abf03
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017594"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666742"
 ---
 # <a name="partial-location-cycle-counting"></a>Osaline asukoha tsükliline inventuur
 
@@ -35,29 +35,30 @@ Tsüklilise inventuuri plaanid juhivad tegelikke inventuuritoimingud. Saate nõu
 Tsüklilise inventuuri plaanide abil inventuuritöö loomisel saate juhtida tegelikke inventuuritoiminguid. Saate nõuda, et asukohas loendataks kogu vaba kaubavaru asemel ainult konkreetseid tooteid ja tootevariante. Konkreetseid tooteid filtreerides saab laojuht vähendada ülevaatamise üldkulusid, vältida konsolideerimisvigu ja säästa aega.
 
 ## <a name="how-to-configure-partial-location-cycle-counting"></a>Osalise asukoha tsüklilise inventuuri konfigureerimine
-Kui kasutate inventuuritoimingute jaoks lao tööprotsessi, luuakse iga asukoha jaoks tööpäis. Kui määratlete tsüklilise inventuuri plaani, võite kasutada päringut **Vali asukohad** loodava tsüklilise inventuuri töö piiramiseks. Tsüklilise inventuuri plaani jaoks toodete valimisel saate valida nii toote kui ka tootevariandi päringuid, et täpsustada, mida loendatakse. 
 
-Tsüklilise inventuuri plaaniga saab seostada **töömalli** määramiseks, kuidas tsüklilise inventuuri töö tuleks luua. Inventuuritoimingute töömallile viidatakse otse tsüklilise inventuuri plaanist. 
+Kui kasutate inventuuritoimingute jaoks lao tööprotsessi, luuakse iga asukoha jaoks tööpäis. Kui määratlete tsüklilise inventuuri plaani, võite kasutada päringut **Vali asukohad** loodava tsüklilise inventuuri töö piiramiseks. Tsüklilise inventuuri plaani jaoks toodete valimisel saate valida nii toote kui ka tootevariandi päringuid, et täpsustada, mida loendatakse.
 
-Töömalli üksikasjade määratlemisel võite kasutada valikut **Töörea jaotused** määramiseks, kas inventuuritöö read tuleks rühmitada kaubakoodi või tootevariandi koodi alusel. See seadistus on vajalik ainult juhul, kui soovite loendada asukohas vaba kaubavaru ainult teatud toodete puhul. Loodavatel tsüklilise inventuuri töö ridadel on siin määratud teabetase ja juhendatud inventuuritoiming toimub selle taseme põhjal. 
+Tsüklilise inventuuri plaaniga saab seostada **töömalli** määramiseks, kuidas tsüklilise inventuuri töö tuleks luua. Inventuuritoimingute töömallile viidatakse otse tsüklilise inventuuri plaanist.
 
-Kui seostate tsüklilise inventuuri plaanid töömallidega, kasutades valikut **Tööridade jaotused** , valitakse loodavale tsüklilise inventuuri tööle väli **Osaline tsükliline inventuur** ja töömalli definitsiooni põhjal luuakse mitu tsüklilise inventuuri töö rida. 
+Töömalli üksikasjade määratlemisel võite kasutada valikut **Töörea jaotused** määramiseks, kas inventuuritöö read tuleks rühmitada kaubakoodi või tootevariandi koodi alusel. See seadistus on vajalik ainult juhul, kui soovite loendada asukohas vaba kaubavaru ainult teatud toodete puhul. Loodavatel tsüklilise inventuuri töö ridadel on siin määratud teabetase ja juhendatud inventuuritoiming toimub selle taseme põhjal.
 
-Enne osalise tsüklilise inventuuri töö töötlemist peab tegema tsüklilise inventuuri seadistamise käigus mobiilse seadme menüüelemendile vähemalt valiku **Kuva kaubakood**. Laooperaatoril palutakse registreerida ainult inventuuriridadega seotud inventuuriteave (kaubakoodid ja tootedimensioonid). Kõiki muid vabu kaubavarusid eiratakse selle inventuuriprotsessi puhul. 
+Kui seostate tsüklilise inventuuri plaanid töömallidega, kasutades valikut **Tööridade jaotused**, valitakse loodavale tsüklilise inventuuri tööle väli **Osaline tsükliline inventuur** ja töömalli definitsiooni põhjal luuakse mitu tsüklilise inventuuri töö rida.
 
-Osalise tsüklilise inventuuri protsessi korral ei uuendata asukoha kuupäeva/kellaaega **Viimane tsükliline inventuur** , kuigi loendatakse kõik antud asukohas olevad üksused. Osaline tsükliline inventuur ei arvesta lehel **Tsüklilise inventuuri plaanid** parameetrit **Päevi tsükliliste inventuuride vahel**. Osaline tsükliline inventuur ei toeta mitme üksuse samaaegset loendamist samas asukohas. Osalise tsüklilise inventuuri funktsioon võib põhjustada kauba korral sama asukoha loendamist mitu korda, kui käitatakse käsk **Töötle tsüklilise inventuuri plaani**. Selle stsenaariumi vältimiseks määrake filtrid väljal **Vali asukohad**.
+Enne osalise tsüklilise inventuuri töö töötlemist peab tegema tsüklilise inventuuri seadistamise käigus mobiilse seadme menüüelemendile vähemalt valiku **Kuva kaubakood**. Laooperaatoril palutakse registreerida ainult inventuuriridadega seotud inventuuriteave (kaubakoodid ja tootedimensioonid). Kõiki muid vabu kaubavarusid eiratakse selle inventuuriprotsessi puhul.
+
+Osalise tsüklilise inventuuri protsessi korral ei uuendata asukoha kuupäeva/kellaaega **Viimane tsükliline inventuur**, kuigi loendatakse kõik antud asukohas olevad üksused. Osaline tsükliline inventuur ei arvesta lehel **Tsüklilise inventuuri plaanid** parameetrit **Päevi tsükliliste inventuuride vahel**. Osaline tsükliline inventuur ei toeta mitme üksuse samaaegset loendamist samas asukohas. Osalise tsüklilise inventuuri funktsioon võib põhjustada kauba korral sama asukoha loendamist mitu korda, kui käitatakse käsk **Töötle tsüklilise inventuuri plaani**. Selle stsenaariumi vältimiseks määrake filtrid väljal **Vali asukohad**.
+
+> [!NOTE]
+> Osalise tsüklilise inventuuri protsessi käigus ei paku laorakendus nuppu **Lisa LP või kaup**.
 
 ## <a name="example"></a>Näide
+
 Selle näite puhul tuleb laos 61 loendada ainult kaup koodiga A0001.
 
-1.  Tsüklilisele inventuurile luuakse uus töömall. Inventuuri tööridade rühmitamiseks kaubakoodi alusel kasutatakse valikut **Töörea jaotused**. Seega on loodaval tsüklilise inventuuri tööl read kaubakoodi kohta. Võite rühmitada read ka tootevariandi numbri järgi.
-2.  Luuakse uus tsüklilise inventuuri plaan, mis viitab äsja loodud töömallile. Tsüklilise inventuuri plaan sisaldab kõiki asukohti laos 61 (päring **Vali asukohad** ), kus on kaubakoodi A0001 varud. Konkreetsete toodete valik on määratletud jaotises **Tsüklilise inventuuri tootevalikud**.
-3.  Tsüklilise inventuuri plaanidele saab valida tooteid, määrates välja **Tühjad asukohad** olekuks **Välista tühjad**. Tsüklilise inventuuri plaani töötlemisel luuakse kaubakoodile A0001 osaline tsüklilise inventuuri töö. Tegeliku inventuuriprotsessi saab juhendatud tsüklilise inventuuri puhul läbida mobiilse seadme menüüelemendi abil.
+1. Tsüklilisele inventuurile luuakse uus töömall. Inventuuri tööridade rühmitamiseks kaubakoodi alusel kasutatakse valikut **Töörea jaotused**. Seega on loodaval tsüklilise inventuuri tööl read kaubakoodi kohta. Võite rühmitada read ka tootevariandi numbri järgi.
+1. Luuakse uus tsüklilise inventuuri plaan, mis viitab äsja loodud töömallile. Tsüklilise inventuuri plaan sisaldab kõiki asukohti laos 61 (päring **Vali asukohad**), kus on kaubakoodi A0001 varud. Konkreetsete toodete valik on määratletud jaotises **Tsüklilise inventuuri tootevalikud**.
+1. Tsüklilise inventuuri plaanidele saab valida tooteid, määrates välja **Tühjad asukohad** olekuks **Välista tühjad**. Tsüklilise inventuuri plaani töötlemisel luuakse kaubakoodile A0001 osaline tsüklilise inventuuri töö. Tegeliku inventuuriprotsessi saab juhendatud tsüklilise inventuuri puhul läbida mobiilse seadme menüüelemendi abil.
 
-
-
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Tsükliline inventuur](cycle-counting.md)
-

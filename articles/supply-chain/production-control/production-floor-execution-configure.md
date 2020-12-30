@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: cf58a7d851577854d08bad70cff69794c3841a2d
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
+ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012468"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "4664292"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -36,47 +36,53 @@ Tootmisosakonna käivitusliidese avamisel laadib see automaatselt valitud konfig
 
 Selles teemas kirjeldatakse mitmesuguseid võimalusi töökaardi seadmete konfigureerimiseks.
 
-## <a name="turn-on-new-features-in-feature-management"></a>Uute funktsioonide sisselülitamine funktsioonihalduses
+## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Tootmisosakonna käivitusliidese ja sellega seotud valikuliste funktsioonide sisselülitamine
 
-Mõned selles teemas kirjeldatud sätted peavad teie süsteemis olema sisse lülitatud, enne kui need teile kättesaadavad on. Kasutage [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et lülitada sisse vajaduse järgi mõned või kõik järgmistest funktsioonidest.
+Tootmisosakonna käivitusliides ja mitmed selles teemas kirjeldatud valikulised sätted tuleb süsteemis enne kasutamist sisse lülitada. Kasutage [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et lülitada sisse vajaduse järgi mõned või kõik järgmistes jaotistes kirjeldatud funktsioonidest.
 
-### <a name="generate-license-plate"></a>Loo litsentsiplaat
+### <a name="the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliides
 
-Selle funktsiooni kättesaadavaks muutmiseks lülitage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid (vastavas järjekorras).
+See on peamine funktsioon, mida selles teemas kirjeldatakse. Sellega lisatakse tootmisosakonna käivitusliides teie süsteemile. Selle lubamiseks lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.  
+- Tootmisosakonna käivitus
+
+### <a name="generate-license-plates"></a>Litsentsiplaatide loomine
+
+Need funktsioonid muudavad litsentsiplaadi funktsioonid tootmisosakonna käivitusliidese jaoks kättesaadavaks. Kui soovite neid kasutada, lülitage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid (vastavas järjekorras).
 
 1. Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat
 1. Identifitseerimisnumbri automaatse genereerimise lubamine lõpetamisest teatamisel töökaardi vahendis
 
-### <a name="print-label"></a>Prindi silt
+### <a name="print-labels"></a>Prindi sildid
 
-Selle funktsiooni kättesaadavaks muutmiseks lülitage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid (vastavas järjekorras).
+Need funktsioonid muudavad siltide printimise funktsioonid tootmisosakonna käivitusliidese jaoks kättesaadavaks. Kui soovite neid kasutada, lülitage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid (vastavas järjekorras).
 
 1. Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat
 1. Sildi printimine töökaardi vahendilt
 
 ### <a name="allow-locking-the-touch-screen"></a>Puuteekraani lukustamise lubamine
 
-Selle funktsiooni sisselülitamiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmine funktsioon.
+See funktsioon lisab nupu ootmisosakonna käivitusliidesele, mis võimaldab töötajatel puuteekraani puhastada. Kui soovite seda kasutada, lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.
 
-- (Eelversioon) Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
+- Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Tootmisosakonna käivituskonfiguratsioonidega töötamine
 
 Seadme konfiguratsioonide loomiseks ja haldamiseks avage **Tootmise juhtimine \> Seadistus \> Tootmise käivitamine \> Tootmisosakonna käivituse konfigureerimine**. Lehel **Tootmisosakonna käivituste konfigureerimine** kuvatakse olemasolevate konfiguratsioonide loend. Sellel lehel saate teha järgmisi toiminguid.
 
 - Saate valida kuvamiseks ja redigeerimiseks mis tahes vasakus veerus loetletud tootmisosakonna konfiguratsiooni.
-- Valige toimingupaanil suvand **Uus** , et lisada loetellu uus seadme konfiguratsioon. Seejärel sisestage uue konfiguratsiooni tuvastamiseks nimi väljale **Konfiguratsioon**. Sisestatav nimi peab olema kõikide seadme konfiguratsioonide seas ainulaadne ja seda ei saa hiljem redigeerida.
+- Valige toimingupaanil suvand **Uus**, et lisada loetellu uus seadme konfiguratsioon. Seejärel sisestage uue konfiguratsiooni tuvastamiseks nimi väljale **Konfiguratsioon**. Sisestatav nimi peab olema kõikide seadme konfiguratsioonide seas ainulaadne ja seda ei saa hiljem redigeerida.
 
 Järgmisena konfigureerige valitud seadme konfiguratsiooni erinevad sätted. Saadaval on järgmised väljad.
 
-- **Koguse teatamine väljaregistreerimisel** – määrake suvandi väärtuseks *Jah* , et paluda töötajatel anda käimasolevate tööde kohta väljaregistreerimisel tagasisidet. Kui suvandi väärtuseks on seatud *Ei* , siis töötajatel seda teha ei paluta.
-- **Lukusta töövõtja** – kui selle suvandi väärtuseks on seatud *Ei* , siis registreeritakse töötajad välja kohe pärast registreerimist (nt uus töö). Seade naaseb seejärel sisselogimislehele. Kui suvandi väärtuseks on seatud *Jah* , siis jäävad töötajad töökaardi seadmesse sisselogituks. Töötaja saab siiski käsitsi välja logida, et teine töötaja saaks sisse logida, kui töökaardi seade jätkab sama süsteemikasutaja kontoga töötamist. Lisateavet nende kontotüüpide kohta leiate jaotisest [Määratud kasutajad](config-job-card-device.md#assigned-users).
-- **Tegeliku registreerimisaja kasutamine** – seadke suvandi väärtuseks *Jah* , et iga uue registreeringu aeg oleks samaväärne täpse ajaga, mil töötaja registreeringu esitas. Kui selle suvandi väärtuseks on seatud *Ei* , kasutatakse selle asemel sisselogimisaega. Tavaliselt võiks selle väärtuseks olla *Jah* , kui olete seadnud suvandite **Lukusta töötaja** ja/või **Üksik töötaja** väärtuseks *Jah* juhul, töötajad jäävad sageli pikemaks ajaks sisselogituks.
-- **Üksik töötaja** – seadke väärtuseks *Jah* , kui iga töökaardi seadet, kus see konfiguratsioon on aktiivne, kasutab ainult üks töötaja. Kui suvandi väärtuseks on seatud *Jah* , siis seatakse suvandi **Lukusta töötaja** väärtuseks automaatselt *Jah*. Lisaks eemaldab see säte töötajalt kohustuse (ja võimaluse) logida sisse pääsme ID (või sarnase ID) abil. Selle asemel logib töötaja Microsoft Dynamics 365 Supply Chain Managementi sisse süsteemi kasutajakonto kaudu, mis on seotud *ajaliselt registreeritud töötajaga* (tabelis *töötajad* ), ning ta logitakse samal ajal kõnealuse töötajana töökaardi seadmesse sisse.
-- **Luba puuteekraani lukustamine** – seadke väärtuseks *Jah* , et võimaldada töötajatel lukustada töökaardi seadme puuteekraan, et nad saaksid seda puhastada. Kui suvandi väärtuseks on seatud *Jah* , lisatakse seadme sisselogimislehele nupp **Ekraani lukustamine puhastamiseks**. Kui töötaja valib selle nupu, siis lukustub puuteekraan ajutiselt, et ennetada soovimatuid sisendeid. Kuvatakse ka taimer. Siis saab töötaja ohutult seadet ja selle ekraani puhastada. Kui taimer lõpetab, siis tehakse puuteekraan automaatselt lukust lahti.
-- **Ekraaniluku kestus** – kui suvandi **Luba puuteekraani lukustamine** väärtuseks on seatud *Jah* , siis kasutage seda suvandit, et määratleda, mitu sekundit peaks puuteekraan puhastamiseks lukustatud olema. Kestus peab olema vahemikus 5–120 sekundit.
-- **Loo litsentsiplaat** – seadke suvandi väärtuseks *Jah* , et luua uus litsentsiplaat iga kord, kui töötaja kasutab töökaardi seadet töö lõpetamisest teatamiseks. Identifitseerimisnumber luuakse lehel **Laohalduse parameetrid** seadistatud numbriseeria alusel. Kui suvandi väärtuseks on seatud *Ei* , siis peavad töötajad määratlema lõpetamisest teatamisel olemasoleva litsentsiplaadi.
-- **Prindi silt** – seadke suvandi väärtuseks *Jah* , et printida litsentsiplaadi silt, kui töötaja kasutab töökaardi seadet lõpetamisest teatamiseks. Sildi konfiguratsioon on seadistatud dokumendi marsruudivalikus, nagu on kirjeldatud teemas [Identifitseerimisnumbri siltide dokumendi marsruudivaliku paigutus](../warehousing/document-routing-layout-for-license-plates.md).
+- **Koguse teatamine väljaregistreerimisel** – määrake suvandi väärtuseks *Jah*, et paluda töötajatel anda käimasolevate tööde kohta väljaregistreerimisel tagasisidet. Kui suvandi väärtuseks on seatud *Ei*, siis töötajatel seda teha ei paluta.
+- **Lukusta töövõtja** – kui selle suvandi väärtuseks on seatud *Ei*, siis registreeritakse töötajad välja kohe pärast registreerimist (nt uus töö). Seade naaseb seejärel sisselogimislehele. Kui suvandi väärtuseks on seatud *Jah*, siis jäävad töötajad töökaardi seadmesse sisselogituks. Töötaja saab siiski käsitsi välja logida, et teine töötaja saaks sisse logida, kui töökaardi seade jätkab sama süsteemikasutaja kontoga töötamist. Lisateavet nende kontotüüpide kohta leiate jaotisest [Määratud kasutajad](config-job-card-device.md#assigned-users).
+- **Tegeliku registreerimisaja kasutamine** – seadke suvandi väärtuseks *Jah*, et iga uue registreeringu aeg oleks samaväärne täpse ajaga, mil töötaja registreeringu esitas. Kui selle suvandi väärtuseks on seatud *Ei*, kasutatakse selle asemel sisselogimisaega. Tavaliselt võiks selle väärtuseks olla *Jah*, kui olete seadnud suvandite **Lukusta töötaja** ja/või **Üksik töötaja** väärtuseks *Jah* juhul, töötajad jäävad sageli pikemaks ajaks sisselogituks.
+- **Üksik töötaja** – seadke väärtuseks *Jah*, kui iga töökaardi seadet, kus see konfiguratsioon on aktiivne, kasutab ainult üks töötaja. Kui suvandi väärtuseks on seatud *Jah*, siis seatakse suvandi **Lukusta töötaja** väärtuseks automaatselt *Jah*. Lisaks eemaldab see säte töötajalt kohustuse (ja võimaluse) logida sisse pääsme ID (või sarnase ID) abil. Selle asemel logib töötaja Microsoft Dynamics 365 Supply Chain Managementi sisse süsteemi kasutajakonto kaudu, mis on seotud *ajaliselt registreeritud töötajaga* (tabelis *töötajad*), ning ta logitakse samal ajal kõnealuse töötajana töökaardi seadmesse sisse.
+- **Luba puuteekraani lukustamine** – seadke väärtuseks *Jah*, et võimaldada töötajatel lukustada töökaardi seadme puuteekraan, et nad saaksid seda puhastada. Kui suvandi väärtuseks on seatud *Jah*, lisatakse seadme sisselogimislehele nupp **Ekraani lukustamine puhastamiseks**. Kui töötaja valib selle nupu, siis lukustub puuteekraan ajutiselt, et ennetada soovimatuid sisendeid. Kuvatakse ka taimer. Siis saab töötaja ohutult seadet ja selle ekraani puhastada. Kui taimer lõpetab, siis tehakse puuteekraan automaatselt lukust lahti.
+- **Ekraaniluku kestus** – kui suvandi **Luba puuteekraani lukustamine** väärtuseks on seatud *Jah*, siis kasutage seda suvandit, et määratleda, mitu sekundit peaks puuteekraan puhastamiseks lukustatud olema. Kestus peab olema vahemikus 5–120 sekundit.
+- **Loo litsentsiplaat** – seadke suvandi väärtuseks *Jah*, et luua uus litsentsiplaat iga kord, kui töötaja kasutab töökaardi seadet töö lõpetamisest teatamiseks. Identifitseerimisnumber luuakse lehel **Laohalduse parameetrid** seadistatud numbriseeria alusel. Kui suvandi väärtuseks on seatud *Ei*, siis peavad töötajad määratlema lõpetamisest teatamisel olemasoleva litsentsiplaadi.
+- **Prindi silt** – seadke suvandi väärtuseks *Jah*, et printida litsentsiplaadi silt, kui töötaja kasutab töökaardi seadet lõpetamisest teatamiseks. Sildi konfiguratsioon on seadistatud dokumendi marsruudivalikus, nagu on kirjeldatud teemas [Identifitseerimisnumbri siltide dokumendi marsruudivaliku paigutus](../warehousing/document-routing-layout-for-license-plates.md).
+- **Vahekaartide valimine**  – Kasutage selles jaotises olevaid sätteid, et valida, millised vahekaardid tootmisosakonna käivitusliides kuvab, kui see konfiguratsioon on aktiivne. Saate kujundada nii palju vahekaarte kui vaja ja seejärel lisada ja korraldada neid siin vastavalt vajadusele. Üksikasjalikumat teavet selle kohta, kuidas kujundada vahekaarte ja siinseid sätteid kasutada, leiate teemast [Tootmisosakonna käivitusliidese kujundamine](production-floor-execution-tabs.md).
 
 ## <a name="clean-up-job-configurations"></a>Töökonfiguratsioonide puhastamine
 
@@ -87,4 +93,4 @@ Pakett-töö puhastab regulaarselt viitetabeli kirjeid seadmetel, kus pole viima
 1. Avage **Tootmise juhtimine \> Seadistus \> Tootmise käivitamine \> Tootmisosakonna käivituse konfigureerimine**.
 1. Valige toimingupaanil **Kliendi konfiguratsioonide puhastamine**.
 1. Määrake dialoogiboksis **Kliendi konfiguratsioonide puhastamine** väljale **Päevade arv** passiivsete päevade arv (enne tänast), mida arvesse võtta. Saate eemaldada kõik konfiguratsioonid ja sisselogimise kirjed seadmetel, mis pole olnud selle aja jooksul aktiivsed.
-1. Valige **OK** , et puhastada asjakohased konfiguratsioonid sätte **Päevade arv** põhjal.
+1. Valige **OK**, et puhastada asjakohased konfiguratsioonid sätte **Päevade arv** põhjal.

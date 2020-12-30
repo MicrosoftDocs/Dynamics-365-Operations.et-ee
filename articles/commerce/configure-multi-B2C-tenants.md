@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976012"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517115"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas
 
@@ -85,7 +85,7 @@ Et lisada Azure AD B2C rentnik oma keskkonda, toimige järgmiselt.
 1. Kui olete selle teabe sisestamise lõpetanud, valige muudatuste salvestamiseks **OK**.
 
 > [!NOTE]
-> Peaksite jätma tühjaks väljad **Ulatus**, **Mitteinteraktiivse poliitika ID**, **Mitteinteraktiivse kliendi ID**, **Sisselogimise kohandatud domeeni**ja **Registreerimise poliitika ID**, kui Dynamics 365 Commerce meeskond ei käsi teil neid seada.
+> Peaksite jätma tühjaks väljad **Ulatus**, **Mitteinteraktiivse poliitika ID**, **Mitteinteraktiivse kliendi ID**, **Sisselogimise kohandatud domeeni** ja **Registreerimise poliitika ID**, kui Dynamics 365 Commerce meeskond ei käsi teil neid seada.
 Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste haldamine**.
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>Azure AD B2C rentniku haldamine või kustutamine
@@ -94,7 +94,7 @@ Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste hal
 1. Vasakpoolsel navigeerimispaanil valige suvand **Rentniku sätted** selle laiendamiseks.
 1. Valige **B2C sätted** ja seejärel valige **Halda**.
 1. B2C rentniku redigeerimiseks valige selle kõrval olev pliiatsisümbol. B2C üürniku kustutamiseks valige selle kõrval prügikastisümbol.
-1. Valige **Salvesta**ja seejärel valige muudatuste aktiveerimiseks käsk **Avalda** .
+1. Valige **Salvesta** ja seejärel valige muudatuste aktiveerimiseks käsk **Avalda** .
 
 > [!WARNING]
 > Kui B2C rentnik on konfigureeritud aktiivse/avaldatud saidi jaoks, võivad kasutajad olla registreerunud, kasutades rentniku kontosid. Kui kustutate konfigureeritud rentniku **Rentniku sätete \> B2C rentniku** menüüs, eemaldate selle B2C rentniku seose saitidega, mis on seotud mis tahes selle rentniku kanalitega. Sel juhul ei saa teie kasutajad enam oma kontodele sisse logida. Seetõttu olge äärmiselt ettevaatlikud, kui kustutate konfigureeritud rentniku.
@@ -104,7 +104,7 @@ Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste hal
 
 1. Logige sisse oma keskkonna Kaubanduse saidiehitusse süsteemi administraatorina. Azure AD B2C rentnike konfigureerimiseks peate olema Kaubanduskeskkonna süsteemiadministraator.
 1. Vasakpoolsel navigeerimispaanil valige suvand **Saidi sätted** selle laiendamiseks.
-1. Valige **Kanalid**ja siis valige konfigureerimiseks kanal.
+1. Valige **Kanalid** ja siis valige konfigureerimiseks kanal.
 1. Valige parempoolsel omaduste paanil väljal **Vali B2C rakendus** selle kanali jaoks konfigureeritud Azure AD B2C rentnik.
 1. Valige tegumiribal **Salvesta ja avalda**, et kinnitada uus või värskendatud konfiguratsioon.
 
@@ -114,15 +114,15 @@ Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste hal
 
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
-[Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
 [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
-[Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
-[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+[Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
 [B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
 

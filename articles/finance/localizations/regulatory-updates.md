@@ -3,7 +3,7 @@ title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 Finance plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/14/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4fd099116a342780961079c600368d81b30ec4c5
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985939"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517496"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas on toodud loend regulatiivsetest värskendustest, mis on plaanitud rakenduse Dynamics 365 Finance toetatud lokaliseeringute väljalaskesse. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet vt jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Selles teemas on toodud loend regulatiivsetest värskendustest, mis on plaanitud rakenduse Dynamics 365 Finance toetatud lokaliseeringute väljalaskesse. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet leiate jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Teavet muude plaanitud ja välja antud riigikohaste funktsioonide kohta vaadake lehelt [Dynamics 365 ja Power Platformi väljalaskeplaanid](https://docs.microsoft.com/business-applications-release-notes/index).
 
@@ -40,52 +40,46 @@ Regulatiivsed uuendused, mis väljastatakse osana igakuisest uuendusest, tähist
 
 Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist tabelit.   
 
-|Riik|Plaanitud väljaandmiskuupäev|Vabasta versioon|Regulatiivne värskendus|
+|Riik|Väljalaske kuupäev|Vabasta versioon|Regulatiivne värskendus|
 |--------------------|---------------|-------|-------|
 |      Austria         |   2020. september      | 10.0.15      |   Käibemaksudeklaratsiooni vormingut U30 on uuendatud 2020. aasta aruandluse jaoks   |
-|      Bahrein         |   2020. a juuli      | 10.0.12      |   Pöördtasu   |
-|      Bahrein         |   2020. a juuli      | 10.0.12      |   Arve väljastamise tähtaeg (GCC)   |
-|      Bahrein         |   2020. a juuli      | 10.0.12      |   Bahreini käibemaksudeklaratsioon   |
-|      Bahrein         |   2020. a juuli      | 10.0.12      |   Bahreini müügiarved   |
-|      Brasiilia         |   August 2020      | 10.0.14, 10.0.13, 10.0.12      |   ADRCST deklaratsioon PR   |
-|      Brasiilia         |   2020. märts      | 10.0.11      |   SPED ECD kavand 8   |
-|      Brasiilia         |   2020. aprill      | 10.0.11      |   Tehniline märkus NT2019.001 v 1.40   |
-|      Brasiilia         |   2020. mai      | 10.0.12, 10.0.11HF      |   Parana oleku ADCR ICMS-ST väljavõte   |
-|      Brasiilia         |   Juuli 2020 – mai 2020      | 10.0.13, 10.0.12, 10.0.11      |   SPED ECF kavand 6   |
-|      Brasiilia         |   2020. a juuli      | 10.0.13, 10.0.12HF      |   SPED Fiinants – kirje C176 – RS-olek   |
+|      Bahrein         |   2020. juuni      | 10.0.13      |   Arve väljastamise tähtaeg (GCC)   |
+|      Bahrein         |   2020. september      | 10.0.13      |   Bahreini projekti arve   |
+|      Bahrein         |   2020. juuni      | 10.0.13      |   Bahreini km-deklaratsioon – kande kirjelduse lubamine   |   
+|      Brasiilia         |   August 2020      | 10.0.14, 10.0.13      |   ADRCST deklaratsioon PR   |
+|      Brasiilia         |   2020. mai      | 10.0.13      |   SPED ECF kavand 6   |
+|      Brasiilia         |   2020. a juuli      | 10.0.13      |   SPED Fiinants – kirje C176 – RS-olek   |
+|      Brasiilia         |   2020. oktoober      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT2019.001 v1.51 – rakenduseeskirjade vastuvõtmine Distrito Federali soodustuse koodi alusel   |
+|      Brasiilia         |   2020. oktoober      | 10.0.16      |   SPED finantsaasta – paigutus 015   |
+|      Brasiilia         |   November 2020      | 10.0.15HF      |   SPED finantsaasta ICMS / IPI kirje C176 uuendus RS-olekule   |
+|      Brasiilia         |   2020. oktoober      | 10.0.16      |   DRCST deklaratsioon SC - SEF 262/2020   |
+|      Brasiilia         |   2020. oktoober      | 10.0.16      |   SPED finantsaasta ICMS / IPI kirje C176   |
 |      Tšehhi Vabariik      |   2020. a juuli      | 10.0.13      |   KM-i kontrolldeklaratsiooni muudatused XML-skeemis (arve loend)   |
 |      Tšehhi Vabariik         |   2020. a juuli      | 10.0.13      |   KM-deklaratsioon XML-is, KM-deklaratsiooni eelvaade Excelis ja KM-i kontrolldeklaratsiooni XML-vormingud maksudeklaratsiooni mudeli põhjal   |
-|      Eesti         |   2020. mai       | 10.0.11      |   Elektrooniline arveldamine Eestis: klientide arved eksporditakse Eestile omases formaadiversioonis 1.2.  |
 |      Euroopa        |   August 2020       | 10.0.14      |   Partneri käibemaksu ID ülekandmine intrastatile  |
 |      Soome         |   2020. a juuli       | 10.0.13      |   Soome elektrooniliste arvete tugi  |
-|      Saksamaa         |   2020. mai       | 10.0.12      |   Saksamaa – Jaemüük – Sularahakassa nõuded    |
-|      Ungari         |   2020. märts       | 10.0.11     |   Finance and Operationsi veebiarvelduse süsteem v.2.0    |
-|      India         |   August 2020, juuli 2020      | 10.0.3, 10.0.12HF      |   Kaupade müügi TCS vastavalt paragrahvile 206C (1H) – lävi PAN-i kohta, mis põhineb tehingute akumuleerimisel.  |
-|      India         |   August 2020, juuni 2020      | 10.0.13, 10.0.12HF      |   Deebet-/kreeditarve ekspordiarve põhjal  |
-|      India         |   August 2020      | 10.0.13, 10.0.12HF, 10.0.11HF      |   Elektroonilised arved GST põhjal  |
-|      India         |   2020. mai      | 10.0.13, 10.0.12      |   Uus tagastuse vorming GSTR-1 ja GSTR-2  |
+|      India         |   2020. a juuli      | 10.0.13      |   Kaupade müügi TCS vastavalt paragrahvile 206C (1H) – lävi PAN-i kohta, mis põhineb tehingute akumuleerimisel.  |
+|      India         |   August 2020, juuni 2020      | 10.0.13      |   Deebet-/kreeditarve ekspordiarve põhjal  |
+|      India         |   August 2020      | 10.0.13      |   Elektroonilised arved GST põhjal  |
 |      India         |   2020. a juuli      | 10.0.13      |   Uus võrguühenduseta tööriist (beetaversioon) GSTR (ANX-1 & ANX-2)  |
-|      India         |   2020. mai      | 10.0.12      |   Ühiku hinna ja omahinna käsitlemise täiustused aktsiakandekorraldustes  |
-|      India         |   2020. mai      | 10.0.12      |   Aktsiaülekanded sama maksumäära kohaldatavusega saatmise ja sissetuleku ajal (kaasa arvatud osaline sissetulek)  |
-|      Itaalia         |   2020. mai      | 10.0.12, 10.0.11      |   Modello 770/2019 vormingu muutmine |
-|      Itaalia         |   2020. a juuli      | 10.0.13, 10.0.12HF      |   Itaalia elektrooniliste arvete vormingumuudatused – FatturaPA |
-|      Kuveit         |   2020. a juuli      | 10.0.12      |   Pöördtasu |
+|      India         |   2020. oktoober      | 10.0.14HF, 10.0.13HF      |   E-arve GST alusel varude ülekandmise tellimuses India jaoks|
+|      India         |   2020. oktoober      | 10.0.14HF, 10.0.13HF      |   E-arve GST alusel mitme GSTIN registreerimise jaoks Indias|
+|      India         |   2020. september      | 10.0.13HF      |   Kinnipeetava maksu määr 3/5 kümnendkohta|
+|      India         |   2020. september      | 10.0.14HF      |   Numbriseeria grupp: "GSTNSG", kande tüüp: "GST-arve", mis seadistatakse maksuteabe "0073" GST viitenumbri seeriagrupile|
+|      Itaalia         |   2020. a juuli      | 10.0.13      |   Itaalia elektrooniliste arvete vormingumuudatused – FatturaPA |
 |      Malaisia         |   2020. a juuli      | 10.0.13      |   SST-aruanne |
-|      Mehhiko         |   2020. september      | 10.0.13HF, 10.0.12HF, 10.0.11HF      |   CFDI URL-i skeemi asukoht Anexo 20 dokumendi alusel |
-|      Norra          |   2020. mai   | 10.0.12     |   SAF-T aruande ümberkujundamine: algsaldo vastavalt „töötava“ kande tüübile ja maksuteave maksukoodi valuutas rakenduses Finance (versioon10) |
-|      Norra          |   2020. mai   | 10.0.12     |   SAF-T aruande dialoogi muutus: anda võimalus valida ettevõteteüleselt kontaktisik |
-|      Norra          |   2020. mai   | 10.0.12     |   SAF-T nimeruumi deklaratsioonid igal real, mitte ainult päises |
-|      Omaan         |   2020. a juuli      | 10.0.12H      |   Pöördtasu |
+|      Mehhiko         |   2020. september      | 10.0.13HF      |   CFDI URL-i skeemi asukoht Anexo 20 dokumendi alusel |
+|      Holland         |   2020. oktoober      | 10.0.16     |   Intrastati vormingut värskendatakse alates 2021. aastast |
+|      Norra         |   August 2020      | 10.0.14     |   SAF-T - kannete rühmituse tase "Kande" kohta tuleb esitada "Kande" elemendi tasemel, mitte "Töölehe" tasemel. |
 |      Poola          |   2020. september     | 10.0.14     |   Poola: Exceli vorming JPK-V7M (VDEK) – SSRS-aruande asendamiseks  |
-|      Poola          |   2020. mai     | 10.0.11     |   Jaotage AP/AR-i realiseeritud vahetuskursi erinevuse summa arve netoväärtuse ja käibemaksu summa vahetuskursi erinevuseks  |
-|      Poola          |   2020. mai     | 10.0.11     |   SAF-i raamatupidamisraamatud – sisestamiskihtide filtreerimise täiustused |
-|      Poola          |   2020. märts     | 10.0.11     |   JPK_VDEK täiendatud pakett I |
-|      Poola          |   2020. mai     | 10.0.12     |   JPK_VDEK täiendatud pakett II |
-|      Poola          |   2020. märts     | 10.0.11     |   Ettemaksuarvega müügitellimuse osaline kreeditarve |
-|      Poola          |   2020. a juuli     | 10.0.13     |   Kohustusliku tükeldatud makse täiustused |
-|      Katar         |   2020. a juuli      | 10.0.12H      |   Pöördtasu |
+|      Poola          |   2020. a juuli     | 10.0.15, 10.0.14HF, 10.0.13     |   Vabatahtliku tükeldatud makse täiustused |
+|      Poola          |   2020. oktoober     | 10.0.13HF     |   Kohustusliku tükeldatud makse täiustused |
+|      Poola          |   November 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) – müügidokumendi tüüp FP ja RO jaemüügi kannete jaoks |
+|      Poola          |   2020. september     | 10.0.15     |   Poola: JPK-V7M (VDEK) – avab võimaluse aruande loomiseks osade kaupa |
+|      Poola          |   2020. oktoober     | 10.0.16     |   JPK-V7M (VDEK) aruanne - "makse vabatahtlikult jagamise" parameetri omastamine |
 |      Venemaa          |   August 2020     | 10.0.14    |   Raamatupidamisaruandluse vorming muutus alates 2020. aastast  |
 |      Venemaa          |   2020. a juuli     | 10.0.13    |   Kulumi arvutamine soetusmaksumuse alusel ja olulised parandused kulumilisade rakendamisel maksuarvestuses  |
+|      Venemaa          |   November 2020     | 10.0.16    |   KM-i deklaratsiooni vorming uuendatakse versioonile 5.07 alates 2020 a. 4. kv aruandlusest|
 
 
 

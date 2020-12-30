@@ -3,7 +3,7 @@ title: Hinnakorrigeerimised ja allahindlused
 description: Selles artiklis käsitletakse hinna korrigeerimisi ja allahindlusi Dynamics 365 Commerceis.
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dfaacfa7681258e3b2273083017c0c398d566651
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022308"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584311"
 ---
 # <a name="price-adjustments-and-discounts"></a>Hinnakorrigeerimised ja allahindlused
 
@@ -41,11 +41,13 @@ Hinna korrigeerimisi ja allahindlusi saab rakendada toodetele, variantidele või
 
 ## <a name="types-of-discounts"></a>Allahindluste tüübid
 
-Allahindlusi on nelja tüüpi.
+Allahindlusi on mitut tüüpi.
 
 - **Lihtne allahindlus** – üksik protsent või summa.
 - **Koguse allahindlus** – allahindlus, mis rakendub kahe või enama toote ostmisel.
 - **Segamise ja sobitamise allahindlus** – allahindlus, mis rakendub teatud tootekombinatsiooni ostmisel.
 - **Läve allahindlus** – allahindlus, mis rakendub, kui kande kogusumma on teatud summast suurem.
+- **Maksevahendil põhinev allahindlus** – allahindlus, mis rakendub, kui kande kogusumma on suurem kui määratud summa ja makse puhul kasutatakse kindlat maksetüüpi (nt sularaha, krediit- või deebetkaarti).
+- **Saatmise allahindlus** – allahindlus, mis rakendub, kui kande kogusumma on suurem kui määratud summa ja tellimusel kasutatakse kindlat tarneviisi (nt kahepäevane saatmine või öine saatmine).
 
 Nii hinna korrigeerimisi kui ka allahindlusi saab seostada hinnagruppidega. Seejärel saab hinnagruppe seostada kanalite, kataloogide, alluvuste ja püsikliendiprogrammidega.

@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2c9d95a7a45ed99c63516749285126c786685c87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187310"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442244"
 ---
 # <a name="consumption-depreciation"></a>Tarbimise kulum
 
@@ -44,7 +44,7 @@ Kui valite põhivara kulumireeglid ja teete valiku **Tarbimine** väljal **Meeto
     -   Ühikukulum
     -   Eeldatav tarbimine
 
-    Väljal**Sisestatud tarbimine** kuvatakse põhivara väärtusmudeli või kulumiraamatu puhul juba sisestatud tarbimiskulum määratud ühikutes. Selle välja väärtust ei saa käsitsi värskendada.
+    Väljal **Sisestatud tarbimine** kuvatakse põhivara väärtusmudeli või kulumiraamatu puhul juba sisestatud tarbimiskulum määratud ühikutes. Selle välja väärtust ei saa käsitsi värskendada.
 
 ## <a name="examples"></a>Näited
 ### <a name="example-1"></a>Näide 1

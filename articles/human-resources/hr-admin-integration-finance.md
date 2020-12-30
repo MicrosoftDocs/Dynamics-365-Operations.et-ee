@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431264"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527907"
 ---
 # <a name="configure-integration-with-finance"></a>Integratsiooni konfigureerimine Finance’iga
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resourcesi integreerimisel Dynamics 365 Finance'iga saate kasutada rakendusest Human Resources rakendusse Finance malli [Andmeintegraator](https://docs.microsoft.com/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
 
@@ -51,7 +53,7 @@ Rakendusest Human Resources rakendusse Finance malli juurde pääsemine.
 
 1. Avage [Power Appsi halduskeskus](https://admin.powerapps.com/). 
 
-2. Valige **Projektid**ja seejärel valige paremas ülanurgas **Uus projekt**. Looge iga juriidilise isiku jaoks uus projekt, mida soovite Finance’i integreerida.
+2. Valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**. Looge iga juriidilise isiku jaoks uus projekt, mida soovite Finance’i integreerida.
 
 3. Rakendusest Human Resources rakendusse Finance andmete sünkroonimiseks valige **Human Resources (Human Resources Common Data Service rakendusse Finance)**.
 

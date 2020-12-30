@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 55ae179298a980073a03a804711707a1f02c68bd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977979"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442592"
 ---
 # <a name="vendor-workflow"></a>Hankija töövoog
 

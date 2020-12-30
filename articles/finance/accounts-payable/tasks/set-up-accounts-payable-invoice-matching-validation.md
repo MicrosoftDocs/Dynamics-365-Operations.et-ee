@@ -17,11 +17,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143784"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442307"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Ostureskontro arve vastenduse kinnitamise seadistamine
 
@@ -52,7 +52,7 @@ Saadaval on neli erinevat tüüpi võrdlemise kinnitamist.
 8. Valige väljalt **Rea vastavusse viimise poliitika** väärtus, mida kasutada vaikepoliitikana juriidilise isiku puhul, kellega töötate. **Pole nõutav** tähendab, et üksiku arverea hindade kinnitamine ostutellimuse hinnaga või arve koguste kinnitamine saatelehe kogustega pole nõutav. **Kahesuunaline võrdlemine** tähendab, et arveridade kontrollimine on nõutav, kuid kontrollimine hõlmab ainult ostutellimust ja tarnija arve dokumente. Toote sissetulekut vastavusse viimise kontrollimisel ei arvestata. **Kolmesuunaline võrdlemine** tähendab, et arve ühiku netohinda võrreldakse ostutellimuse ühiku netohinnaga ja ühtivat toote sissetuleku kogust võrreldakse arve kogusega.
 9. Teistsuguse võrdlemise taseme rakendamise lubamiseks kauba, hankija, hankija ja kauba kombinatsiooni või ostutellimuse rea puhul valige väärtus väljalt **Luba vastavusse viimise poliitika alistamine**. Juriidilise isiku rea vastavusse viimise poliitika saab alistada kindla hankija, kauba või hankija ja kauba kombinatsiooni puhul lehel **Vastavusse viimise poliitika**
     * Kui kasutate rea vastavusse viimise poliitika kahesuunalist vastavusse viimist või kolmesuunalist vastavusse viimist, saate seadistada hinnakõikumisprotsendid juriidilise isiku, kaupade ja hankijate puhul lehel **Kauba hinna kõikumine**. Juriidilise isiku vaikimisi hinna kõikumine seatakse kahe-ja kolmesuunalise vastavusse viimise jaoks nullprotsendile. Kui hankijaarveid ostutellimuste teabega võrreldakse, otsitakse sobivat hinnakõikumisprotsenti.   
-10. Rea kaupade hinna kogusummade vastavusse viimiseks arvetel valige väärtus väljalt **Hinna kogusumma vastendamine**. Seda tüüpi vastendamine on kasulik, kui hankija saadab sama ostutellimuse rea puhul mitu arvet. Saate võrrelda iga arve rea ja kõikide ootel ja varem sisestatud arve ridade netosumma hinnateavet asjakohase ostutellimuse rea netosummaga.  Valikute **hulka**kuuluvad **pole**, **protsent**, summa **või protsent ja summa**.
+10. Rea kaupade hinna kogusummade vastavusse viimiseks arvetel valige väärtus väljalt **Hinna kogusumma vastendamine**. Seda tüüpi vastendamine on kasulik, kui hankija saadab sama ostutellimuse rea puhul mitu arvet. Saate võrrelda iga arve rea ja kõikide ootel ja varem sisestatud arve ridade netosumma hinnateavet asjakohase ostutellimuse rea netosummaga.  Valikute **hulka** kuuluvad **pole**, **protsent**, summa **või protsent ja summa**.
 11. Sisestage väljale **Ostuhinna kogusumma hälbe protsent** hälbe protsent, millega nõustute. See väli on saadaval üksnes juhul, kui väljal **Hinna kogusumma võrdlemine** on valitud **Protsent** või **Protsent ja summa**.
 12. Sisestage väljale **Ostuhinna kogusumma hälve** summa arvestusvaluutas. See väli on saadaval üksnes juhul, kui väljal **Hinna kogusumma võrdlemine** on valitud **Summa** või **Protsent ja summa**.
 13. Valige väljalt **Kogusumma võrdlemise ikooni kuvamine**, millal kuvada ikoon, kui erinevus ületab arve vastendamisel lubatud ühiku netohinna hälbe. Ikooni saab kuvada, kui positiivne erinevus ületab lubatud hälbe, või kui positiivne või negatiivne erinevus ületab lubatud hälbe.

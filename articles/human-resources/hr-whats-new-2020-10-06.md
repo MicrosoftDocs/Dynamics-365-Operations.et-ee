@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ca2fbbf3ffbcc7c9c32490f3733b8a94731170e
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022211"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529824"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Mis on Dynamics 365 Human Resources-is uut või mida on muudetud (6. oktoober 2020)
 
-Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
 Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
 
@@ -45,7 +47,7 @@ Selle väljalaskega tuleb üldiselt kättesaadavaks järgmine funktsioon.
 
 ### <a name="bug-fixes"></a>Veaparandused
 
-See väljalase hõlmab järgmisi veaparandusi.
+See väljalase hõlmab järgmisi veaparandusi.
 
 >[!NOTE]
 > Meie eesmärk on edastada teile see teave esimesel võimalusel. Seda teemat võidakse värskendada, et lisada sellesse versioonijärku pärast selle teema esialgset avaldamist tehtud veaparandusi.
@@ -77,11 +79,11 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 
 Järgmised uued funktsioonid on planeeritud tulevaste väljaannete jaoks:
 
-- **Common Data Service'i kontroll-loendi üksused** : kontroll-loendi ükdused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Common Data Service'is.
+- **Common Data Service'i kontroll-loendi üksused**: kontroll-loendi ükdused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Common Data Service'is.
 
-- **Soodustuste halduse põhjusekoodid** : soodustuste halduse põhjusekoodid kombineeritakse peagi Human Resourcesi olemasolevate põhjusekoodidega. Kui lõite soodustuste halduses põhjusekoodid, mis on pikemad kui 15 tähemärki, peate soodustuste halduse vormil **Põhjusekoodid** muutma põhjusekoodi nime nii, et see poleks pikem kui 15 tähemärki. Pärast nime värskendamist kuvatakse põhjusekood personalihalduse olemasoleva põhjusekoodi vormi all. See muudatus on saadaval tulevikus ja see ei mõjuta olemasolevaid funktsioone.
+- **Soodustuste halduse põhjusekoodid**: soodustuste halduse põhjusekoodid kombineeritakse peagi Human Resourcesi olemasolevate põhjusekoodidega. Kui lõite soodustuste halduses põhjusekoodid, mis on pikemad kui 15 tähemärki, peate soodustuste halduse vormil **Põhjusekoodid** muutma põhjusekoodi nime nii, et see poleks pikem kui 15 tähemärki. Pärast nime värskendamist kuvatakse põhjusekood personalihalduse olemasoleva põhjusekoodi vormi all. See muudatus on saadaval tulevikus ja see ei mõjuta olemasolevaid funktsioone.
 
-- **Kohandatud lingid juhi iseteeninduses** : juhtide toetamiseks laiendame juhi iseteeninduse võimalusi. Lisame kohandatud linkide lisamise võimaluse vahekaardil **Minu meeskond**. See funktsioon sarnaneb kohandatud linkide funktsiooniga töövõtja iseteeninduse **Minu teabe vahekaardil**. Lisateavet leiate teemast [Kohandatud lingid juhi iseteeninduses](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Kohandatud lingid juhi iseteeninduses**: juhtide toetamiseks laiendame juhi iseteeninduse võimalusi. Lisame kohandatud linkide lisamise võimaluse vahekaardil **Minu meeskond**. See funktsioon sarnaneb kohandatud linkide funktsiooniga töövõtja iseteeninduse **Minu teabe vahekaardil**. Lisateavet leiate teemast [Kohandatud lingid juhi iseteeninduses](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
 Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2019. aasta 2. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 

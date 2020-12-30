@@ -1,9 +1,9 @@
 ---
-title: Pöördkäibemaks
+title: KM/GST-süsteemi pöördmaksustamise mehhanism
 description: See teema selgitab, kuidas seadistada Euroopa riikide ja Saudi Araabia pöördkäibemaksu (KM).
 author: epodkolz
 manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,21 +15,28 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760229"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515047"
 ---
-# <a name="reverse-charge-vat"></a>Pöördkäibemaks
+# <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>KM/GST-süsteemi pöördmaksustamise mehhanism
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse üldist lähenemist Euroopa ja GCC riikide ning Singapuri pöördkäibemaksu (KM) seadistamisele.
+Selles teemas kirjeldatakse üldist lähenemist pöördmaksustamise funktsiooni seadistamiseks riikidele/regioonidele, kes võtavad kasutusele käibemaksu või GST-skeemid.
+                                                                                 
+Funktsiooni riigi/regiooni kättesaadavust haldavad tööruumis **Funktsioonihaldus** järgmised funktsioonid.
 
-> [!NOTE]                                                                                  
-> Bahreini, Kuveidi, Omaani ja Katari jaoks tuleks tööruumis **Funktsioonihaldus** lubada funktsioon **Pöördkäibemaksu kättesaadavus lisariikide korral**. 
+| Funktsioon                                              | Riik/regioon                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Spetsiifilised funktsioonid puuduvad                                | Austria </br>Belgia </br>Bulgaaria </br>Horvaatia </br>Küpros </br>Tšehhi Vabariik </br>Taani  </br>Eesti  </br>Soome  </br>Prantsusmaa  </br>Saksamaa  </br>Ungari  </br>Island  </br>Iirimaa  </br>Itaalia  </br>Läti  </br>Liechtenstein  </br>Leedu  </br>Luksemburg  </br>Holland  </br>Norra Poola </br>Portugal </br>Rumeenia  </br>Saudi Araabia </br>Singapur  </br>Slovakkia  </br>Sloveenia  </br>Hispaania  </br>Rootsi  </br>Šveits  </br>Ühendkuningriik  </br>Araabia Ühendemiraadid |
+| Täiendavate riikide pöördmaksustamine            | Bahrein  </br>Kuveit  </br>Omaan  </br>Katar                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| KM-/GST-skeemi jaoks pöördkäibemaksu mehhanismi lubamine | Kõik muud riigid/regioonid, välja arvatud järgnevad.  </br>Brasiilia  </br>India  </br>Venemaa                                                                                                                                                                                                                                                                                                                                                                                         |
+ 
+ Lisateabe saamiseks vt selles teemas hiljem tuevat jaotist [KM-/GST-skeemi jaoks pöördkäibemaksu mehhanismi lubamine](#enable-reverse-charge).
 
 Pöördmaks on maksuskeem, mis viib käibemaksu arvestamise ja registreerimise kohustuse kaupade ja/või teenuste müüjalt ostjale. Seetõttu registreerivad kaupade ja/või teenuste saajad nii arvestatud käibemaksu (müüja rollis) kui ka sisendkäibemaksu (ostja rollis) oma käibemaksuaruandes.
 
@@ -61,7 +68,7 @@ See negatiivne käibemaksukood tuleb määrata kauba käibemaksugrupile ja seej�
 </tbody>
 </table>
 
-## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
+## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
 Soovitame kasutada müügi- ja ostutoimingute jaoks eraldi käibemaksugruppe.
 
 <table>
@@ -79,10 +86,10 @@ Soovitame kasutada müügi- ja ostutoimingute jaoks eraldi käibemaksugruppe.
 </tr>
 </table>
 
-## <a name="set-up-reverse-charge-groups"></a>Pöördmaksu gruppide seadistamine
+## <a name="set-up-reverse-charge-item-groups"></a><a name="reverse-charge-item-group"></a>Pöördmaksu üksuse gruppide seadistamine
 Lehel **Pöördmaksu kaubagrupid** (**Maks** &gt; **Seadistus** &gt; **Käibemaks** &gt; **Pöördmaksu kaubagrupid**) saate määratleda toodete või teenuste gruppe või eraldi tooteid või teenuseid, millele pöördmaksu saab rakendada. Määratlege iga pöördmaksu kaubagrupi puhul kaupade loend, kaubagrupid ja kategooriad müügi ja/või ostude jaoks.
 
-## <a name="set-up-reverse-charge-rules"></a>Pöördmaksu reeglite häälestamine
+## <a name="set-up-reverse-charge-rules"></a><a name="reverse-charge-rules"></a>Pöördmaksu reeglite häälestamine
 Lehel **Pöördmaksu reeglid** (**Maks** &gt; **Seadistus** &gt; **Käibemaks** &gt; **Pöördmaksu reeglid**) saate määratleda rakendatavuse reeglid ostu ja müügi eesmärkidele. Saate konfigureerida pöördmaksu rakendatavuse reeglikogumi. Määrake igale reeglile järgmised väljad.
 
 - **Dokumendi tüüp** – valige **Ostutellimus**, **Hankija arve tööleht**, **Müügitellimus**, **Vabas vormis arve**, **Kliendi arve tööleht** ja/või **Hankija arve**.
@@ -99,18 +106,18 @@ Lisaks saate määrata, kas kuvatakse teade ja dokumendireale lisatakse pöördk
 - **Küsi** – kuvatakse teade, milles küsitakse kinnitust, kas pöördmaksu saab rakendada.
 - **Määra** – dokumendi rida uuendatakse täiendava teatiseta.
 
-## <a name="set-up-countryregion-properties"></a>Riigi/regiooni atribuutide häälestamine
+## <a name="set-up-countryregion-properties"></a><a name="Set-up-Country/region-properties"></a>Riigi/regiooni atribuutide häälestamine
 Seadke lehe **Väliskaubanduse parameetrid** (**Maks** &gt; **Häälestus** &gt; **Käibemaks** &gt; **Väliskaubandus** &gt; **Väliskaubanduse parameetrid**) vahekaardil **Riigi/regiooni atribuudid** praeguse juriidilise isiku riigi/regiooni väärtuseks *Kodumaine*. Määrake praeguse juriidilise isikuga ELi kaubanduses osalevate ELi **riikide/regioonide** riigi/regiooni tüübiks *EL*. Määrake praeguse juriidilise isikuga GCC kaubanduses osalevate GCC **riikide/regioonide** riigi/regiooni tüübiks *GCC*.
 
 ## <a name="set-up-default-parameters"></a>Vaikeparameetrite seadistamine
 Pöördkäibemaksu funktsiooni lubamiseks määrake lehel **Pearaamatu parameetrid** vahekaardil **Pöördmaks** suvandi **Luba pöördmaks** väärtuseks **Jah**. Valige väljadel **Ostutellimuse käibemaksugrupp** ja **Müügitellimuse maksugrupp** käibemaksu vaikegrupid. Kui pöördmaksu rakendatavuse tingimus on täidetud, lisatakse müügi- või ostutellimuse reale need käibemaksugrupid.
 
-## <a name="reverse-charge-on-a-sales-invoice"></a>Pöördmaks müügiarvel
+## <a name="reverse-charge-on-a-sales-invoice"></a><a name="reverse-charge-sale"></a>Pöördmaks müügiarvel
 Müügi korral pöördmaksu skeemi alusel ei küsi müüja käibemaksu. Selle asemel on arvel näidatud nii kaubad, millelt nõutakse pöördkäibemaksu, kui ka pöördkäibemaksu koondsumma.
 
 Kui sisestatakse pöördkäibemaksuga müügiarve, on müügikannetel maksusuund **Tasumisele kuuluv käibemaks** ja nullkäibemaks ning ruut **Pöördkäibemaks** ja **Vabastus** on märgitud.
 
-## <a name="reverse-charge-on-a-purchase-invoice"></a>Pöördmaks ostuarvel
+## <a name="reverse-charge-on-a-purchase-invoice"></a><a name="reverse-charge-purchase"></a>Pöördmaks ostuarvel
 Ostude korral pöördmaksu skeemi alusel tegutseb ostja, kes saab pöördmaksuga arve, käibemaksuarvestuse seisukohast ostja ja müüjana.
 
 Pöördmaksuga ostuarve sisestamisel luuakse kaks käibemaksukannet. Ühel kandel on maksusuund **Saadaolev käibemaks**. Teisel kandel on maksusuund **Tasumisele kuuluv käibemaks** ja märgitud on ruut **Pöördmaks**.
@@ -118,3 +125,15 @@ Pöördmaksuga ostuarve sisestamisel luuakse kaks käibemaksukannet. Ühel kande
 Järgneval kuvatõmmisel on ühe kande suund **Saadaolev käibemaks** ja teise kande suund **Tasumisele kuuluv käibemaks**. 
 
 ![Sisestatud käibemaks](media/apac-sau-posted-sales-tax.png)
+
+## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>KM-/GST-skeemi jaoks pöördkäibemaksu mehhanismi funktsiooni lubamine
+Leidke tööruumis **Funktsioonihaldus** funktsioon ja valige suvand **Luba**.
+
+Pärast funktsiooni lubamist on vahekaart **Pöördmaksustamine** kõikidel juriidilistel isikutel saadaval. Juriidilise isiku jaoks pöördmaksustamise funktsiooni lubamine, määrates suvandi **Luba pöördmaksustamine** väärtuseks **Jah**.
+
+Saadaval on järgmised funktsiooni häälestusega seotud lehed ja menüükäsud.
+ - **Pöördmaksustamise üksuse grupid** (**Maks** > **Seadistus** > **Müügimaks** > **Üksuste gruppide pöördmaksustamine**). Lisateavet vt jaotisest [Pöördmaksu üksuse gruppide seadistamine](#reverse-charge-item-group).
+ - **Pöördmaksu reeglid** (**Maks** > **Seadistamine** > **Müügimaks** > **Pöördmaksustamise reeglid**). Vt teemat [Pöördmaksu reeglite häälestamine](#reverse-charge-rules).
+ - **Väliskaubanduse parameetrid** (**Maks** > **Seadistus** > **Müügimaks** > **Väliskaubandus** > **Väliskaubanduse parameetrid**). Vt teemat [Riigi/regiooni atribuutide häälestamine](#Set-up-Country/region-properties).
+
+Saadabal on märkeruut **Pöördmaksustamine** lehtedel **Käibemaksu grupp** ja **Sisestatud käibemaks**. Lisateavet vt jaotistest [Käibemaksugruppide ja kauba käibemaksugruppide häälestus](#sales-tax-item-sales-tax-groups), [Pöördmaks müügiarvel](#reverse-charge-sale) ja [Pöördmaks ostuarvel](#reverse-charge-purchase).

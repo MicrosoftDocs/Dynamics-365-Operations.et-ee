@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6bb754ca80af0a0793b5ee162a378ebbe92524c5
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197286"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528337"
 ---
 # <a name="choose-a-data-integration-technology"></a>Andme integratsioonitehnoloogia valimine
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles artiklis antakse teavet Dynamics 365 Human Resources hallatud andmetega integreerimise kohta. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
 
@@ -107,7 +109,7 @@ BYOD on sobiv aruandluslahenduste, andmete integreerimise ja andmete koondamise,
 
 Enamikul DMF-üksustel on juurdepääs ka rakendusele Human Resources andmeside teenuse (OData) kaudu. [Finance and Operationsi OData teenuse](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) kohta esitatud dokumentatsiooni rakendatakse ka rakendusele Human Resources, kuigi teie enda OData üksuste loomise dokumentatsiooni ei rakendata.
 
-Samal ajal kui Common Data Service ja OData rakendamine, mida pakub Common Data Service ([Dynamics 365 veebirakendusliidese](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) kaudu), on eelistatud rakenduse Human Resources andmesideteenuse ees, on rakenduse Human Resources andmesideteenusel praegu suurem täielike üksuste katvus Human Resourcesi andmete jaoks.
+Samal ajal kui Common Data Service ja OData rakendamine, mida pakub Common Data Service ([Dynamics 365 veebirakendusliidese](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) kaudu), on eelistatud rakenduse Human Resources andmesideteenuse ees, on rakenduse Human Resources andmesideteenusel praegu suurem täielike üksuste katvus Human Resourcesi andmete jaoks.
 
 ### <a name="excel-add-in"></a>Exceli lisandmoodul
 

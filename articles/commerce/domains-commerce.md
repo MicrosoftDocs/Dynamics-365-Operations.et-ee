@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3764997"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517351"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid teenuses Dynamics 365 Commerce
 
@@ -34,20 +34,20 @@ Domeenid on veebiaadressid, mida kasutatakse veebibrauseris teenuse Dynamics 365
 
 ## <a name="provisioning-and-supported-host-names"></a>Hostinimede ettevalmistamine ja toetamine
 
-E-kaubanduse keskkonna ettevalmistamisel teenuses [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) kasutatakse juurutatud Commerce'i keskkonnaga seotud domeenide sisestamiseks e-kaubanduse ettevalmistamise kuval välja **Toetatud hostinimed**. Need domeenid on kliendile suunatud domeeni nimeserveri (DNS) nimed, kus majutatakse e-kaubanduse veebisaite. Domeeni sisestamine selles etapis ei hakka domeeni liiklust teenusesse Dynamics 365 Commerce suunama. Domeeni liiklus marsruuditakse Commerce'i lõpp-punkti alles siis, kui DNS-i kirjet CNAME värskendatakse Commerce'i lõpp-punkti kasutamiseks domeeniga.
+E-kaubanduse keskkonna ettevalmistamisel teenuses [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) kasutatakse juurutatud Commerce'i keskkonnaga seotud domeenide sisestamiseks e-kaubanduse ettevalmistamise kuval välja **Toetatud hostinimed**. Need domeenid on kliendile suunatud domeeninimede serveri (DNS) nimed, kus majutatakse e-kaubanduse veebisaite. Domeeni sisestamine selles etapis ei hakka domeeni liiklust teenusesse Dynamics 365 Commerce suunama. Domeeni liiklus marsruuditakse Commerce'i lõpp-punkti alles siis, kui DNS-i kirjet CNAME värskendatakse Commerce'i lõpp-punkti kasutamiseks domeeniga.
 
 > [!NOTE]
 > Väljale **Toetatud hostinimed** saab sisestada mitu domeeni, eraldades need semikoolonitega.
 
-Järgmisel joonisel on kujutatud LCS-i e-kaubanduse ettevalmistamise kuva, kus on esile tõstetud väli **Toetatud hostinimed**. 
+Järgmisel joonisel on kujutatud LCS-i e-kaubanduse ettevalmistamise ekraan, kus on esile tõstetud väli **Toetatud hostinimed**. 
 
-![LCS-i e-kaubanduse ettevalmistamise kuva koos esiletõstetud väljaga **Toetatud hostinimed**](./media/Domains_ProvisioningeCommerceScreen.png)
+![LCS-i e-kaubanduse ettevalmistamise ekraan koos esiletõstetud väljaga **Toetatud hostinimed**](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Kui ettevalmistamine on juba toimunud, saate luua hooldustaotluse lisadomeenide keskkonda lisamiseks. Teenusetaotluse loomiseks LCS-is tehke oma keskkonnas valikud **Tugi \> Toeprobleemid** ja valige **Edasta juhtum**.
 
 ## <a name="commerce-generated-urls"></a>Commerce'i loodud URL-id
 
-E-kaubanduse keskkonna ettevalmistamisel loob Commerce URL-i, mis on keskkonna tööaadress. Sellele URL-ile viidatakse LCS-is kuvatavas e-kaubanduse saidi lingis pärast keskkonna ettevalmistamist. Commerce'i loodud URL on vormingus `https://<e-Commerce tenant name>.commerce.dynamics.com`, mille korral e-kaubanduse rentniku nimi on LCS-is Commerce'i keskkonna jaoks sisestatud nimi.
+Dynamics 365 Commerce'i e-kaubanduse keskkonna ettevalmistamisel loob Commerce URL-i, mis on keskkonna tööaadress. Sellele URL-ile viidatakse LCS-is kuvatavas e-kaubanduse saidi lingis pärast keskkonna ettevalmistamist. Commerce'i loodud URL on vormingus `https://<e-commerce tenant name>.commerce.dynamics.com`, mille korral e-kaubanduse rentniku nimi on LCS-is Commerce'i keskkonna jaoks sisestatud nimi.
 
 Tootmissaidi hostinimesid saate kasutada ka liivakastikeskkonnas. See suvand on ideaalne kasutamiseks siis, kui kopeerite saidi liivakastikeskkonnast tootmisse.
 
@@ -68,7 +68,7 @@ Välja **Tee** saab tühjaks jätta või lisada täiendava tee stringi, mis kaja
 > [!NOTE]
 > Tee on tuntud ka kui **Vastendatud tee**, kui lisada kanal saidiehitaja konfiguratsioonisektsiooni **Saidi sätted \> Kanalid**.
 
-Näiteks kui teil on saidiehitaja sait „fabrikam” e-kaubanduse rentnikus nimega „xyz” ja kui seadistate saidi tühja teega, pääsete veebibrauseris juurde avaldatud saidi sisule, avades otse Commerce'i loodud baas-URL-i.
+Näiteks kui teil on saidiehitaja sait „fabrikam“ e-kaubanduse rentnikus nimega „xyz“ ja kui seadistate saidi tühja teega, pääsete veebibrauseris juurde avaldatud saidi sisule, avades otse Commerce'i loodud baas-URL-i.
 
 `https://xyz.commerce.dynamics.com`
 
@@ -102,9 +102,9 @@ Kui domeeni päringustringi ei pakuta keskkonnas, kus on mitu domeeni, kasutab C
 
 ## <a name="traffic-forwarding-in-production"></a>Liikluse edastamine tootmisse
 
-Mitme domeeni simuleerimiseks saate kasutada domeeni päringustringi parameetreid saidi commerce.dynamics.com lõpp-punktis. Kuid kui teil on vaja avaldada otse tootmisse, peate oma kohandatud domeeni liikluse edastama saidi `<e-Commerce tenant name>.commerce.dynamics.com` lõpp-punkti.
+Mitme domeeni simuleerimiseks saate kasutada domeeni päringustringi parameetreid saidi commerce.dynamics.com lõpp-punktis. Kuid kui teil on vaja avaldada otse tootmisse, peate oma kohandatud domeeni liikluse edastama saidi `<e-commerce tenant name>.commerce.dynamics.com` lõpp-punkti.
 
-Saidi `<e-Commerce tenant name>.commerce.dynamics.com` lõpp-punkt ei toeta kohandatud domeeni SSL-e, seega peate häälestama kohandatud domeenid, kasutades sisenemispunkti teenust või sisu edastamise võrku (CDN). 
+Saidi `<e-commerce tenant name>.commerce.dynamics.com` lõpp-punkt ei toeta kohandatud domeeni SSL-e, seega peate häälestama kohandatud domeenid, kasutades sisenemispunkti teenust või sisu edastamise võrku (CDN). 
 
 Kohandatud domeenide seadistamiseks sisenemispunkti teenuse või CDN-i abil on teil kaks võimalust.
 
@@ -152,17 +152,17 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
 
   ## <a name="additional-resources"></a>Lisaressursid
 
-  [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+  [Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
   [Võrgupoe kanali häälestamine](online-stores.md)
 
-  [e-Commerce saidi loomine](create-ecommerce-site.md)
+  [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
-  [Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+  [Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
   [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
-  [URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+  [Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
   [B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
 

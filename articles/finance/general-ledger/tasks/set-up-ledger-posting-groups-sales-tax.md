@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1481b714d089994c1f00189cdaba3ca328f00577
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983103"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644893"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Pearaamatu käibemaksu sisestusgruppide seadistamine
 
@@ -37,7 +37,7 @@ Käibemaks arvutatakse ja sisestatakse põhikontodele, mis on määratud pearaam
 6. Valige väljal **Sisendkäibemaks** põhikonto sisendkäibemaksule, mis saadakse maksuametilt. Hankijad koguvad makse maksuhalduri nimel maksustatavate kaupade ja teenuste ostmisel. See väli ei ole kohaldatav, kui lehel **Pearaamatu parameetrid** on valitud suvand Rakenda käibemaksuga maksustamise reeglid. Selle asemel debiteeritakse hankijatele makstud käibemaks samale kontole kui ost.   
 7. Valige väljal **Kasuta maksukulu** põhikonto mahaarvatud kasutusmaksud, mis ei ole sisse nõutud ega maksuametile tarnijate poolt teavitatud vastavalt EL-i pöördmaksustamisele GST/HST. Suvand **Kasuta maksu** peab olema valitud tehingus kasutatavale **Käibemaksukoodile** jaotises **Käibemaksu rühm**. See väli ei ole kohaldatav, kui lehel **Pearaamatu parameetrid** on valitud suvand **Rakenda käibemaksuga maksustamise reeglid**.   
 8. Valige väljal **Kasuta väljundkäibemaksu** põhikonto maksuametile makstava sissetuleva kasutusmaksu jaoks. Suvand **Kasutusmaks** peab jaotise **Käibemaksukood** rühmas **Käibemaksurühm** olema valitud, et saaks sisestada **Kasutusmaksu**. Kui lehel **Pearaamatu parameetrid** on valitud suvand **Rakenda käibemaksuga maksustamise reeglid**, sisestatakse vahe tehingu kulukontole.   
-9. Valige väljal **Arvelduskonto** põhikonto, millele sisestatakse nende pearaamatu kontode netosaldo, mis on määratletud väljadel **Kasuta väljundkäibemaksu** ja **Sisendkäibemaks**. Saldo luuakse siis, kui käibemaks arveldatakse ja käivitatakse sisestustöö.  Kui arveldusperioodi maksuamet on seotud tarnija kontoga, sisestatakse saldo hoopis tarnija kontole.
+9. Valige väljal **Arvelduskonto** põhikonto, millele sisestatakse nende pearaamatu kontode netosaldo, mis on määratletud väljadel **Kasuta väljundkäibemaksu** ja **Sisendkäibemaks**. Saldo luuakse siis, kui käibemaks arveldatakse ja sisestustöö on käitatud.  Kui arveldusperioodi maksuamet on seotud tarnija kontoga, sisestatakse saldo hoopis tarnija kontole.
 10. Valige väljal **Tarnija sularaha allahindlus** põhikonto selle pearaamatu sisestusrühmaga seotud käibemaksukoodidele sularaha allahindluse sisestamiseks. See on valikuline ja kui kontot ei sisestata, kasutatakse **Sularaha allahindluskoodide** põhikontot. Võib olla kasulik kasutada erinevaid kontosid **Pearaamatu sisestusrühma** kohta, kui kasutatakse käibemaksu rühmades sularaha allahindluse valikul pöördkäibemaksu.  
 11. Valige väljal **Kliendi teenindusjuhtumi allahindlus** põhikonto nende **Käibemaksukoodide** allahindluse sisestamiseks, mis on seotud selle **Pearaamatu sisestusrühmaga**. See on valikuline ja kui kontot ei sisestata, kasutatakse **Sularaha allahindluskoodide** põhikontot. Võib olla kasulik kasutada erinevaid kontosid **Pearaamatu sisestusrühma** kohta, kui kasutatakse **Käibemaksu rühmades** sularaha allahindluse valikul pöördkäibemaksu.  
 12. Klõpsake valikut **Salvesta**.

@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039842"
+ms.locfileid: "4442548"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine
 
@@ -125,7 +125,7 @@ RCS-i seadistuse käigus teete järgmist.
 
     ![Võtmehoidla URI väli](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Valige kiirkaardil **Serdid** suvand **Lisa** , et sisestada kõik digitaalsete sertide nimed ja võtmehoidla saladused, mis on vajalikud usaldusväärsete ühenduste loomiseks. Veerus **Tüüp** saate määrata, kas see on sert või saladus. Mõlemad väärtuste komplektid on konfigureeritud Azure'is võtmehoidla ressursis.
+7. Valige kiirkaardil **Serdid** suvand **Lisa**, et sisestada kõik digitaalsete sertide nimed ja võtmehoidla saladused, mis on vajalikud usaldusväärsete ühenduste loomiseks. Veerus **Tüüp** saate määrata, kas see on sert või saladus. Mõlemad väärtuste komplektid on konfigureeritud Azure'is võtmehoidla ressursis.
 
     ![Sertide lisamine](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -151,11 +151,11 @@ Saate luua elektroonilise arvelduse lisandmooduli jaoks eri keskkondi, näiteks 
 
     ![Salvestusruumi SAS-tõendi konto väli](media/e-invoicing-services-get-started-enter-sas-token-secret.png)
 
-4. Valige kiirkaardil **Kasutajad** suvand **Uus** , et anda kasutajatele juurdepääs sellele keskkonnale.
+4. Valige kiirkaardil **Kasutajad** suvand **Uus**, et anda kasutajatele juurdepääs sellele keskkonnale.
 
     ![Teenuse kasutajate lisamine](media/e-invoicing-services-get-started-enter-service-users.png)
 
-5. Valige toimingupaanil **Avalda** , et avaldada keskkond elektroonilise arvelduse lisandmooduli serveris.
+5. Valige toimingupaanil **Avalda**, et avaldada keskkond elektroonilise arvelduse lisandmooduli serveris.
 
     ![Nupp „Avalda”](media/e-invoicing-services-get-started-publish-service-environment.png)
 
@@ -231,17 +231,17 @@ Kui edastatud arvedokumenti on vaja pärast riiklikele autentimisteenustele edas
 1. Valige tööruumi **Elektrooniline aruandlus** jaotisest **Konfiguratsioonipakkujad** paan **Microsoft**.
 2. Valige **Osad**.
 3. Valige **Globaalne ressurss** ja seejärel **Ava**.
-4. Importige **Vastuseteate mudel** , **Vastuseteate impordivorming** , **Vastuseteate mudeli vastendus sihtkohaga** ja **Failisisu impordivorming**.
+4. Importige **Vastuseteate mudel**, **Vastuseteate impordivorming**, **Vastuseteate mudeli vastendus sihtkohaga** ja **Failisisu impordivorming**.
 5. Avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**.
-6. Valige vahekaardil **Elektrooniline dokument** suvand **Lisa** , et sisestada teie riigi-/regioonipõhise arvedokumendiga seotud tabeli nimi. Lisateavet tabelinimede kohta, mille peaksite valima, leiate riigi-/regioonipõhisest teemast „Elektroonilise arvelduse lisandmooduli kasutamise alustamine”.
-7. Valige **Vastuse tüübid** , et konfigureerida vastuse tüübid. Lisateavet tabelinimede kohta, mille peaksite valima, leiate riigi-/regioonipõhisest teemast „Elektroonilise arvelduse lisandmooduli kasutamise alustamine”.
+6. Valige vahekaardil **Elektrooniline dokument** suvand **Lisa**, et sisestada teie riigi-/regioonipõhise arvedokumendiga seotud tabeli nimi. Lisateavet tabelinimede kohta, mille peaksite valima, leiate riigi-/regioonipõhisest teemast „Elektroonilise arvelduse lisandmooduli kasutamise alustamine”.
+7. Valige **Vastuse tüübid**, et konfigureerida vastuse tüübid. Lisateavet tabelinimede kohta, mille peaksite valima, leiate riigi-/regioonipõhisest teemast „Elektroonilise arvelduse lisandmooduli kasutamise alustamine”.
 
 ![Vastusetüüpide seadistamine](media/e-invoicing-services-get-started-set-up-response-types.png)
 
 ## <a name="e-invoicing-feature-names-by-country"></a>E-arvelduse funktsiooni nimed riigi põhjal 
 Järgmises tabelis on kirjeldatud muid e-arvelduse funktsioone, mida on võimalik elektrooniliste arvete loomiseks elektroonilise aruandluse globaalsest hoidlast alla laadida.
 RCS-is saate alla laadida selles tabelis loetletud e-arvelduse funktsioonid, ER-i konfiguratsioonid ja saadaolevad e-arvelduse funktsiooni seadistused.
-Rakenduses Finance saate lubada seotud funktsiooniviiteid lehel **Elektroonilise dokumendi parameetrid** , et väljastada nende riikide jaoks elektroonilisi arveid. Lisateavet leiate selle teema varasemast jaotisest [Riigi-/regioonipõhiste e-arvelduse funktsioonide sisselülitamine](#region-specific).
+Rakenduses Finance saate lubada seotud funktsiooniviiteid lehel **Elektroonilise dokumendi parameetrid**, et väljastada nende riikide jaoks elektroonilisi arveid. Lisateavet leiate selle teema varasemast jaotisest [Riigi-/regioonipõhiste e-arvelduse funktsioonide sisselülitamine](#region-specific).
 
 | Funktsiooni nimi                      | Kirjeldus                                 | Elektroonilise aruandluse konfiguratsioonid                                                                                                  | Seadistused                                                                                                                                                         | Riik/regioon  | Funktsiooni viide      |
 |-----------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
@@ -277,19 +277,19 @@ Tavapärase edastusprotsessi käigus on kliendi ja elektroonilise arvelduse lisa
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Edasta elektroonilised dokumendid**.
 2. Mis tahes dokumendi esimese edastamise korral seadke suvandi **Dokumentide taasedastamine** väärtuseks alati **Ei**. Kui peate dokumendi teenuse kaudu uuesti edastama, seadke selle suvandi väärtuseks **Jah**.
-3. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter** , et avada dialoogiboks **Päring** , kus saate luua päringu edastatavate dokumentide valimiseks.
+3. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**, et avada dialoogiboks **Päring**, kus saate luua päringu edastatavate dokumentide valimiseks.
 
 ![Elektrooniliste dokumentide edastamise dialoogiboks](media/e-invoicing-services-get-started-submission-form.png)
 
 ### <a name="filter-query"></a>Filtri päring
 
-1. Sisestage dialoogiboksis **Päring** vahekaardil **Vahemik** filtrikriteeriumid, kasutades välju **Tabel** , **Tuletatud tabel** , **Väli** ja **Kriteeriumid**.
-2. Valige **Lisa** , et lisada nii palju lisakriteeriume, kui teil on äridokumentide valimiseks vaja.
+1. Sisestage dialoogiboksis **Päring** vahekaardil **Vahemik** filtrikriteeriumid, kasutades välju **Tabel**, **Tuletatud tabel**, **Väli** ja **Kriteeriumid**.
+2. Valige **Lisa**, et lisada nii palju lisakriteeriume, kui teil on äridokumentide valimiseks vaja.
 
     ![Edastamise filtreerimiskriteeriumide seadistamine](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
 
 3. Valige dialoogiboksi **Päring** sulgemiseks **OK**.
-4. Valige **OK** , et edastada valitud äridokumendid elektroonilise arvelduse lisandmoodulile.
+4. Valige **OK**, et edastada valitud äridokumendid elektroonilise arvelduse lisandmoodulile.
 
     > [!NOTE]
     > Esimesel dokumendi edastamise katsel teenuse kaudu palutakse teil kinnitada ühendus elektroonilise arvelduse lisandmooduliga. Valige **Elektroonilise dokumendi edastusteenusega ühendumiseks klõpsake siin**.
@@ -334,7 +334,7 @@ Dokumentide käsitsi edastamise asemel saate edastusprotsessi automatiseerida ja
 Edastuslogis kuvatavad tulemused sõltuvad sellest, kuidas e-arvelduse funktsioon RCS-is seadistati. Kuid hoolimata seadistusest on edastuslogil alati kolm kiirkaarti.
 
 - **Töötlemistegevused** – sellel kiirkaardil näidatakse RCS-is seadistatud funktsiooni versioonis konfigureeritud tegevuste käivituslogi. Veerus **Olek** on näha, kas tegevuse käivitamine õnnestus.
-- **Tegevusfailid** – sellel kiirkaadil on vahefailid, mis loodi tegevuste käivitamise ajal. Saate valida **Kuva** , et fail alla laadida ja selle sisu vaadata.
+- **Tegevusfailid** – sellel kiirkaadil on vahefailid, mis loodi tegevuste käivitamise ajal. Saate valida **Kuva**, et fail alla laadida ja selle sisu vaadata.
 - **Töötlemise tegevuslogi** – sellel kiirkaardil on kuvatud elektroonilise arvelduse lisandmooduli ja sihtveebiteenuse vahelise suhtluse tulemused. See näitab ka, mis veebiteenuse töötlemise käigus tagastati.
 
 ## <a name="related-topics"></a>Seotud teemad

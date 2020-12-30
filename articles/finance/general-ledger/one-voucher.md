@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
 ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3058013"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442421"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
@@ -125,7 +125,7 @@ Järgmised põhivara kanded loovad samuti ühes kandes mitu kannet.
 - Vara teenuse kuupäev on enne soetamiskuupäeva. Seega sisestatakse kulumi korrigeerimine.
 
 > [!Note]
-> Kannete sisestamisel veenduge, et kõik kanded oleksid seotud sama põhivaraga. Kannet ei sisestata, kui see hõlmab rohkem kui ühte põhivara, isegi kui väli**Uus kanne** on määratud pearaamatu lehel **Töölehe nimed** valikule Ainult üks kande number. Kui kaasate kandesse rohkem kui ühe põhivara, kuvatakse teade **Kandel võib olla ainult üks põhivarakanne** ja te ei saa kannet sisestada.  
+> Kannete sisestamisel veenduge, et kõik kanded oleksid seotud sama põhivaraga. Kannet ei sisestata, kui see hõlmab rohkem kui ühte põhivara, isegi kui väli **Uus kanne** on määratud pearaamatu lehel **Töölehe nimed** valikule Ainult üks kande number. Kui kaasate kandesse rohkem kui ühe põhivara, kuvatakse teade **Kandel võib olla ainult üks põhivarakanne** ja te ei saa kannet sisestada.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Käskveksel ja võlatähed
 Käskvekslid ja võlatähed nõuavad Ühe kande kasutamist, sest kanded viivad kliendi või hankija saldo ühelt Müügireskontro/ostureskontro pearaamatukontolt teisele, olenevalt makse olekust.

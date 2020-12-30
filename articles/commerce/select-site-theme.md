@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817702"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556425"
 ---
 # <a name="select-a-site-theme"></a>Saidi kujunduse valimine
 
@@ -32,7 +32,7 @@ See teema kirjeldab, kuidas seada või muuta saidi kujundust rakenduses Microsof
 
 ## <a name="overview"></a>Ülevaade
 
-Saidi paigutust ja stiili (nt fonte, suurusi ja värve) määratletakse teemaga, mille valite ja rakendate saidile. Kujundus luuakse ja rakendatakse teie ettevõtte arendaja poolt. Kujunduste ülevaate saamiseks vaadake jaotist [Kujunduse ülevaadet](http://). Lisateavet kujunduse loomise ja juurutamise kohta vt jaotisest [Uue kujunduse loomine](http://).
+Saidi paigutust ja stiili (nt fonte, suurusi ja värve) määratletakse teemaga, mille valite ja rakendate saidile. Kujundus luuakse ja rakendatakse teie ettevõtte arendaja poolt. Kujunduste ülevaate saamiseks vaadake jaotist [Kujunduse ülevaadet](e-commerce-extensibility/theming.md). Lisateavet kujunduse loomise ja juurutamise kohta vt jaotisest [Uue kujunduse loomine](e-commerce-extensibility/create-theme.md).
 
 Kui loote esmalt saidi, kasutab see vaikimisi kujundust nimega **Fabrikam**. See vaikekujundus on osa Commerce'i mooduliteegist. Kui olete oma saidi jaoks täiendavad kujundused juurutanud, saate saiti konfigureerida nii, et see kasutab selle asemel ühte neist.
 
@@ -63,3 +63,8 @@ Saidil rakendatava kujunduse valimiseks järgige neid etappe.
 [Saidile keelte lisamine](add-languages-to-site.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
+
+[Kujundamise ülevaade](e-commerce-extensibility/theming.md)
+
+[Uue teema loomine](e-commerce-extensibility/create-theme.md)
+

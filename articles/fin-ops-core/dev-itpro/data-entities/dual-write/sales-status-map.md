@@ -19,11 +19,11 @@ ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
 ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997670"
+ms.locfileid: "4451749"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Müügitellimuse olekuväljade vastendamise seadistamine
 
@@ -44,7 +44,7 @@ Loetelul **Olek** on järgmised väärtused.
 - Arveldatud
 - Cancelled
 
-Loetelu **Dokumendi olek** täpsustab kõige hiljutisemat tellimuse jaoks loodud dokumenti. Näiteks kui tellimus on kinnitatud, on see dokument müügitellimuse kinnitus. Kui müügitellimus on osaliselt arveldatud ja seejärel kinnitatakse järelejäänud rida, jääb dokumendi olekuks **Arve** , kuna arve luuakse protsessis hiljem.
+Loetelu **Dokumendi olek** täpsustab kõige hiljutisemat tellimuse jaoks loodud dokumenti. Näiteks kui tellimus on kinnitatud, on see dokument müügitellimuse kinnitus. Kui müügitellimus on osaliselt arveldatud ja seejärel kinnitatakse järelejäänud rida, jääb dokumendi olekuks **Arve**, kuna arve luuakse protsessis hiljem.
 
 Loetelul **Dokumendi olek** on järgmised väärtused.
 
@@ -129,7 +129,7 @@ Atribuudi **IsSOPIntegrationEnabled** lubamiseks tehke järgmist.
 
 Atribuudi **isIntegrationUser** lubamiseks tehke järgmist.
 
-1. Valige rakenduses Sales **Sätted \> Kohandamine \> Kohanda süsteemi** , valige **Kasutajaüksus** ja seejärel avage **Vorm \> Kasutaja**.
+1. Valige rakenduses Sales **Sätted \> Kohandamine \> Kohanda süsteemi**, valige **Kasutajaüksus** ja seejärel avage **Vorm \> Kasutaja**.
 
     ![Kasutaja vormi avamine](media/sales-map-user.png)
 

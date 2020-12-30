@@ -1,6 +1,6 @@
 ---
 title: Eelarve koostamise ülevaade
-description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav rakenduses Finance and Operations eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,17 +19,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667456"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442377"
 ---
-# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade 
+# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav rakenduses Finance and Operations eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 
 <a name="overview"></a>Ülevaade
 --------

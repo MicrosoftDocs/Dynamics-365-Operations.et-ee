@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 4851c62a19bb562c7f5f578aecbae99cfcdb982f
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897369"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460938"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-october-31-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (31. oktoober 2018)
 
@@ -59,7 +59,7 @@ Iga loodud lingi kohta määratletakse järgmine teave.
 
 - Kasuta kasutaja praegust ettevõtet – valige **Jah**, kui soovite Finance’i navigeerimisel kasutada kasutaja praeguse ettevõtte konteksti. Kui valitakse **Ei**, saate valida ettevõtte, mida tuleks kasutada.
 
-- Sihtmenüü käsk – sisestage Finance’i menüükäsk, mida link peab navigeerimisel kasutama. Otse navigeeritavad menüü-üksused ei ole saadaval. Nõutava menüü-üksuse leidmiseks avage Finance ja avage navigeerimise sihtlehekülg. Kopeerige menüü-üksus URL-ist. Kui soovite näiteks, et link viiks teid töövõtjate loendisse Finance ja Operationsis, sisestage väärtus, mis kuvatakse URL-is pärast "&mi"-d. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Töövõtja loendi lehele navigeerimise menüü-üksus on selles näites: HcmWorkerListPage_Employees.
+- Sihtmenüü käsk – sisestage Finance’i menüükäsk, mida link peab navigeerimisel kasutama. Otse navigeeritavad menüü-üksused ei ole saadaval. Nõutava menüü-üksuse leidmiseks avage Finance ja avage navigeerimise sihtlehekülg. Kopeerige menüü-üksus URL-ist. Kui soovite näiteks, et link viiks teid töövõtjate loendisse Finance and Operations rakenduses, sisestage väärtus, mis kuvatakse URL-is pärast "&mi"-d. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Töövõtja loendi lehele navigeerimise menüü-üksus on selles näites: HcmWorkerListPage_Employees.
 
 - Andmeallika link – valige andmeallikas, millele link viitab. Saadaval on kõige tavalisemad allikad nagu **Töötaja** ja **Ametikoht**.
 
@@ -69,7 +69,7 @@ Iga loodud lingi kohta määratletakse järgmine teave.
 
 Süsteemiadministraatorid näevad vastloodud linke määratletud lehtedel isegi siis, kui **Lingi lubamise** suvandiks on määratud **Ei**. Seda saab kasutada linkide kontrollimiseks enne nende ilmutamist teistele töövõtjatele. Kõik teised rollid näevad vaid konfigureeritud linke pärast seda, kui valiku **Lingi lubamise** suvandiks on määratud **Jah**. Töövõtjatel, kellel on juurdepääs lehekülgedele, kuhu lingid on ilmutatud, on juurdepääs ka linkidele.
 
-Kasutajatele võib ka rakenduses Finance määratleda turvaõigused, et pääseda ligi lehekülgedele Finance’is. Kui õiguseid ei ole, kuvatakse lingi kasutamisel turva dialoogiboks.
+Kasutajatele võib ka rakenduses Finance määratleda turvaõigused, et pääseda ligi lehekülgedele Finance and Operations rakenduses. Kui õiguseid ei ole, kuvatakse lingi kasutamisel turva dialoogiboks.
 
 
 ## <a name="other-changesfixes"></a>Muud muudatused/parandused

@@ -3,7 +3,7 @@ title: Lao ruumi leidmine
 description: Selles teemas antakse teavet lao ruumi leidmise kohta. Lao ruumi leidmise abil saate konsolideerida nõudlust kauba ja mõõtühiku järgi tellimustest, mille olek on tellitud, reserveeritud või väljastatud. See aitab laohalduritel nutikalt planeerida komplekteerimise asukohti enne tellimuse lattu väljatamist ja komplekteerimistöö loomist.
 author: mirzaab
 manager: tfehr
-ms.date: 07/01/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,48 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
+ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017410"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "4627745"
 ---
 # <a name="warehouse-slotting"></a>Lao ruumi leidmine
 
 [!include [banner](../includes/banner.md)]
 
-Lao ruumi leidmise abil saate konsolideerida nõudlust kauba ja mõõtühiku järgi tellimustest, mille olek on *Tellitud* , *Reserveeritud* või *Väljastatud*. Loodud nõudlust saab seejärel rakendada asukohtadele, mida kasutatakse koguse, ühiku, füüsiliste dimensioonide, fikseeritud asukohtade ja muu alusel komplekteerimiseks. Pärast seda, kui ruumi leidmise plaan on loodud, saab luua täiendamise töö, et tuua igasse asukohta sobiv kogus varusid.
+Mitmed saadavalolevad laoruumi paigutamise funktsioonid aitavad laohalduritel nutikalt planeerida komplekteerimise asukohti enne tellimuse lattu väljastamist ja komplekteerimistöö loomist.
 
-See funktsioon aitab laohalduritel nutikalt planeerida komplekteerimise asukohti enne tellimuse lattu väljatamist ja komplekteerimistöö loomist.
+*Lao paigutamise funktsiooni* abil saate konsolideerida nõudlust kauba ja mõõtühiku järgi tellimustest, mille olek on *Tellitud*, *Reserveeritud* või *Väljastatud*. Loodud nõudlust saab seejärel rakendada asukohtadele, mida kasutatakse koguse, ühiku, füüsiliste dimensioonide, fikseeritud asukohtade ja muu alusel komplekteerimiseks. Pärast seda, kui ruumi leidmise plaan on loodud, saab luua täiendamise töö, et tuua igasse asukohta sobiv kogus varusid.
 
-## <a name="turn-on-the-warehouse-slotting-feature"></a>Lao ruumi leidmise funktsiooni sisselülitamine
+*Üleviimistellimustele laoruumi leidmise* funktsioon võimaldab laohaldajatel täiendada komplekteerimise asukohti, mis põhinevad nõudel, mis ei ole veel lattu väljastatud. See tagab, et kõik komplekteerimise asukohad kaasavad kõik kaubad, mis on vajalikud üleviimistellimuste jaoks pärast nende lattu väljastamist. Selle funktsiooni kasutamiseks tuleb teil sisse lülitada ka *Laoruumi leidmise funktsioon*.
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+*Laoruumi eraldamise täiustuste* funktsioon lisab valiku malli ridadele, mida kasutatakse *Laoruumi eraldamise funktsioonis*. Suvand võimaldab süsteemil kaaluda olemasolevat vaba kaubavaru sihtkoha asukohas. Seetõttu võidakse ruumi loomiseks luua vähem täiendusi. *Laoruumi paigutamise täiustamise* funktsioon nõuab, et kasutataks ka *Laoruumi eraldamise funktsiooni*. Seda saab soovi korral kasutada koos *Lao ümberpaigutamisega üleviimistellimuste* funktsiooni jaoks.
 
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi** *Lao ruumi leidmise funktsioon*
+## <a name="turn-on-the-warehouse-slotting-features"></a>Laoruumi leidmise funktsioonide sisselülitamine
+
+Enne nende funktsioonide kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Järgmiste funktsioonide sisselülitamine vastavalt vajadusele:
+
+- Laopesade planeerimise funktsioon
+- Laoruumi leidmine üleviimistellimuste jaoks
+
+    > [!IMPORTANT]
+    > *Laoruumi leidmise funktsioon* peab enne seda funktsiooni olema sisse lülitatud.
+
+- Laoruumi leidmise eraldamise täiustused
+
+    > [!IMPORTANT]
+    > *Laoruumi leidmise funktsioon* peab enne seda funktsiooni olema sisse lülitatud.
 
 ## <a name="set-up-warehouse-slotting"></a>Lao ruumi leidmise seadistamine
 
-Lao ruumi leidmise kasutamiseks peate seadistama järgmised elemendid oma süsteemis.
+Lao ruumi leidmise kasutamiseks peate seadistama järgmised elemendid oma süsteemis:
+
+- Ruumi leidmise mõõtühiku järgud
+- Korralduse koodid
+- Ruumi leidmise mallid
+- Asukohakorraldus
 
 ### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a>Mõõtühikute järkude loomine ruumi leidmise jaoks
 
@@ -54,21 +71,21 @@ Mõõtühikute järgud võimaldavad mitme mõõtühiku grupeerimist ruumi leidmi
     - **Kirjeldus:** *Iga kasti kaubaalus*
 
 1. Valige käsk **Salvesta**.
-1. Valige kiirkaardil **Mõõtühikud** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige kiirkaardil **Mõõtühikud** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Ühik:** *Kast*
     - **Kirjeldus:** jätke väli tühjaks. See täidetakse muudatuste salvestamisel automaatselt.
     - **Ühiku klass:** *Kogus*
 
-1. Klõpsake valikut **Uus** , et lisada ruudustikku teine rida.
+1. Klõpsake valikut **Uus**, et lisada ruudustikku teine rida.
 1. Määrake uuel real järgmised väärtused.
 
     - **Ühik:** *ea*
     - **Kirjeldus:** jätke väli tühjaks. See täidetakse muudatuste salvestamisel automaatselt.
     - **Ühiku klass:** *Kogus*
 
-1. Klõpsake valikut **Uus** , et lisada ruudustikku kolmas rida.
+1. Klõpsake valikut **Uus**, et lisada ruudustikku kolmas rida.
 1. Määrake uuel real järgmised väärtused.
 
     - **Ühik:** *PL*
@@ -93,9 +110,9 @@ Iga ruumi leidmise mall juhib seda, kuidas kindla lao asukohtade jaoks määrata
 1. Avage jaotis **Laohaldus \> Seadistus \> Täiendamine \> Ruumi leidmise mallid**.
 1. Valige malli loomiseks **Uus**.
 
-Järgmisena peate seadistama malli päise, ruumi leidmise kirjelduse ja asukohakorraldused järgmistes alamjaotistes kirjeldatud juhiste järgi.
+Järgmisena peate seadistama malli päise, ruumi leidmise kirjelduse ja asukohakorraldused järgmistes alamjaotistes kirjeldatud juhiste järgi. Üleviimistellimuste paigutamine meenutab müügitellimuste paigutamise seadistust, kuid **Nõudluse tüüp** välja väärtuseks seatakse *Üleviimistellimused*, mitte *Müügitellimused*.
 
-#### <a name="set-up-a-slotting-template-header"></a>Ruumi leidmise malli päise seadistamine
+#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>Müügitellimuse paigutamiseks kasutatava malli päise seadistamine
 
 1. Määrake malli päises järgmised väärtused.
 
@@ -103,7 +120,8 @@ Järgmisena peate seadistama malli päise, ruumi leidmise kirjelduse ja asukohak
     - **Kirjeldus:** _61_
     - **Nõudluse tüüp:** *Müügitellimus*
 
-        Praegu on *Müügitellimus* ainus toetatud nõudluse tüüp.
+        > [!NOTE]
+        > Praegu *Müügitellimused* ja *Üleviimistellimused* ainukesed toetatavad nõudluse tüübid. *Üleviimistellimusi* saate valida ainult juhul, kui *Laoruumi leidmine üleviimistellimusele* funktsioon on sisse lülitatud.
 
     - **Nõudluse strateegia:** _Tellitud_
 
@@ -111,6 +129,7 @@ Järgmisena peate seadistama malli päise, ruumi leidmise kirjelduse ja asukohak
 
         - **Tellitud** – müügitellimuse täielikku tellitud kogust tuleks arvestada nõudlusena.
         - **Reserveeritud** – ainult reserveeritud müügitellimuse rea (füüsilised ja tellitud) koguseid tuleks arvestada nõudlusena.
+        - **Väljastatud** – Väljastatud kogus tuleks lugeda nõudluseks.
 
     - **Ladu:** _61_
     - **Luba voo nõudmisel kasutada reserveerimata koguseid:** _Jah_
@@ -119,9 +138,9 @@ Samuti saate määrata päringu hinnatava nõudluse ulatuse kitsendamiseks.
 
 #### <a name="set-up-slotting-specifications-for-each-template"></a>Ruumi leidmise täpsustuste seadistamine iga malli jaoks
 
-Iga loodava malli jaoks järgige neid etappe, et lisada rida iga ruumi leidmise täpsustuse jaoks.
+Iga loodava müügitellimuse malli jaoks järgige neid etappe, et lisada rida iga ruumi leidmise täpsustuse jaoks.
 
-1. Valige kiirkaardil **Ruumi leidmise malli üksikasjad** suvand **Uus** , et luua malli rida.
+1. Valige kiirkaardil **Ruumi leidmise malli üksikasjad** suvand **Uus**, et luua malli rida.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjestus:** _1_
@@ -148,6 +167,7 @@ Iga loodava malli jaoks järgige neid etappe, et lisada rida iga ruumi leidmise 
 
         - **Tühja eeldamine** – see süsteem peaks eeldama, et kõik komplekteerimisala asukohad on tühjad ja neid ei tohiks kontrollida varudes.
         - **Koguse kaalumine** – see süsteem peaks kontrollima varusid komplekteerimisala asukohtades ja ei tohiks jätta vahele asukohti, mis pole tühjad.
+        - **Arvestage laoseisu** – Süsteem peaks kontrollima, kas sihtkohas oleva kauba jaoks on reserveeritud kogused. Kui kogus on piisavalt suur, et rahuldada vähemalt üht nõudluse rea ühikut, vähendatakse loodud paigutamise plaani kirjet saadaoleva summa võrra. Näiteks kui nõudlus on 10 kasti ja üks kast on laos olemas, on leitud nõudlus üheksa kasti. Kui nõudlus on 10 kasti ja üks kast on käepärast, on leitud nõudlus 10 kasti. See väärtus on saadaval ainult siis, kui funktsioon *Lao paigutamise täiustamine* on sisse lülitatud.
 
     - **Korralduskood:** _Ruumi leidmine_
 
@@ -159,7 +179,7 @@ Iga loodava malli jaoks järgige neid etappe, et lisada rida iga ruumi leidmise 
 
     - **Luba loobumine:** _Jah_
 
-        Kui selle suvandi väärtuseks on seatud *Jah* , luuakse liikumise töö juhul, kui nõudlusele ei leita ruumi, et võtta varud välja asukohtadest, kus on varusid, kuid leitud ruumi ei kasutatud. Seejärel käivitatakse mall uuesti. Seekord eirab see varusid asukohtades. See funktsioon töötab kõige paremini siis, kui välja **Ruumi kriteeriumide määramine** on seatud _Koguse kaalumine_.
+        Kui selle suvandi väärtuseks on seatud *Jah*, luuakse liikumise töö juhul, kui nõudlusele ei leita ruumi, et võtta varud välja asukohtadest, kus on varusid, kuid leitud ruumi ei kasutatud. Seejärel käivitatakse mall uuesti. Seekord eirab see varusid asukohtades. See funktsioon töötab kõige paremini siis, kui välja **Ruumi kriteeriumide määramine** on seatud _Koguse kaalumine_.
 
     - **Fikseeritud asukoha kasutus:** _Ainult selle toote fikseeritud asukohad_
 
@@ -168,6 +188,9 @@ Iga loodava malli jaoks järgige neid etappe, et lisada rida iga ruumi leidmise 
         - **Fikseeritud ja mittefikseeritud asukohad** – süsteem ei tohiks piirduda ainult fikseeritud asukohtade kasutamisega.
         - **Ainult selle toote fikseeritud asukohad** – süsteem peaks kasutama ainult nende asukohtade ruumi, mis on selle toote jaoks fikseeritud asukohad.
         - **Ainult selle tootevariandi fikseeritud asukohad** – süsteem peaks kasutama ainult nende asukohtade ruumi, mis on selle tootevariandi jaoks fikseeritud asukohad.
+
+> [!NOTE]
+> Kui paigutamise mall sisaldab vähemalt ühte rida, kus välja **Määra ruumi kriteerium** väärtuseks on seatud *Arvestage olemasolevat kaubavaru*, ei lubata mitte ühtegi malli rida soiku jääda.
 
 1. Valige käsk **Salvesta**.
 1. Teise malli rea loomiseks valige **Uus**.
@@ -189,7 +212,7 @@ Iga loodava malli jaoks järgige neid etappe, et lisada rida iga ruumi leidmise 
 
 1. Otsige üles rida, kus välja **Järjestus** väärtuseks on seatud *2*.
 1. Valige **Päringu redigeerimine**.
-1. Vahekaardil **Vahemik** valige käsk **Lisa** , et lisada uus rida ruudustikule.
+1. Vahekaardil **Vahemik** valige käsk **Lisa**, et lisada uus rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** *Asukohad*
@@ -207,6 +230,7 @@ Vähemalt üks asukohakorraldus peab olema seadistatud, et toetada ruumi leidmis
 1. Valige vasakpoolse paani väljal **Töökäsu tüüp** suvand *Täiendamine*.
 1. Valige toimingupaanil nupp **Uus**.
 1. Sisestage uue asukohakorralduse päise väljale **Nimi** väärtus *61 ruumi leidmise komplekteerimine*.
+1. **Järjekorranumber** väljal nõustuge vaikeväärtusega.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Asukohakorralduste kiirkaardi konfigureerimine
 
@@ -217,32 +241,35 @@ Vähemalt üks asukohakorraldus peab olema seadistatud, et toetada ruumi leidmis
     - **Ladu:** _61_
     - **Korralduskood:** _Ruumi leidmine_
 
-1. Valige **Salvesta** , et muuta kiirkaart **Read** kättesaadavaks.
+1. Valige **Salvesta**, et muuta kiirkaart **Read** kättesaadavaks.
 
 ##### <a name="configure-the-lines-fasttab"></a>Ridade kiirkaardi konfigureerimine
 
 1. Rea loomiseks valige kiirkaardil **Read** suvand **Uus**.
-1. Määrake uuel real järgmised väärtused. Võtke vastu vaikeväärtused kõigil teistel väljadel.
+1. Määrake uuel real järgmised väärtused.
 
     - **Alates kogusest:** _0_
     - **Koguseni:** _1000000_
 
-1. Valige **Salvesta** , et muuta kiirkaart **Asukohakorralduse toimingud** kättesaadavaks.
+1. Võtke vastu ülejäänud väljade vaikeväärtused.
+1. Valige **Salvesta**, et muuta kiirkaart **Asukohakorralduse toimingud** kättesaadavaks.
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Asukohakorralduste tegevuste kiirkaardi konfigureerimine
 
-1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** , et luua rida.
+1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus**, et luua rida.
 1. Määrake uuel real järgmised väärtused. Võtke vastu vaikeväärtused kõigil teistel väljadel.
 
+    - **Järjekorranumber:** nõustuge vaikeväärtusega.
     - **Nimi:** _Hulgi_
     - **Strateegia:** _Puudub_
 
-1. Valige **Salvesta** , et muuta nupp **Päringu redigeerimine** kättesaadavaks.
+1. Võtke vastu ülejäänud väljade vaikeväärtused.
+1. Valige **Salvesta**, et muuta nupp **Päringu redigeerimine** kättesaadavaks.
 
 ##### <a name="edit-the-query"></a>Redigeeri päringut
 
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Päringu redigeerimine**.
-1. Vahekaardil **Vahemik** valige käsk **Lisa** , et lisada uus rida ruudustikule.
+1. Vahekaardil **Vahemik** valige käsk **Lisa**, et lisada uus rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** *Asukohad*
@@ -276,7 +303,7 @@ Järgige neid etappe nõudluse loomiseks, millele soovite ruumi leidmist rakenda
     - **Kaup:** _L0101_
     - **Kogus:** _20_
 
-1. Valige **Lisa rida** , et lisada uus rida ja seadke järgmised väärtused.
+1. Valige **Lisa rida**, et lisada uus rida ja seadke järgmised väärtused.
 
     - **Kaup:** _T0100_
     - **Kogus:** _8_
@@ -305,7 +332,7 @@ Kui kõik eeltingimuseks olevad elemendid on eelmise jaotise kirjelduste järgi 
 
 *Ruumi leidmise nõudlus* kuvab nõudluse loomise tulemused ruumi leidmise malli seadistuse põhjal.
 
-- Valige toimingupaanil **Ruumi leidmise nõudlus** , et kuvada käsu **Loo nõudlus** tulemusi. Ruumi leidmise nõudluse ridu saab redigeerida. Saate kustutada rea, lisada uue rea või redigeerida rea üksikasju.
+- Valige toimingupaanil **Ruumi leidmise nõudlus**, et kuvada käsu **Loo nõudlus** tulemusi. Ruumi leidmise nõudluse ridu saab redigeerida. Saate kustutada rea, lisada uue rea või redigeerida rea üksikasju.
 
 > [!NOTE]
 > Saate redigeerida nõudlust käsitsi või importida selle andmehalduse abil välisest süsteemist. Ruumi leidmise nõudluses olevat kasutatakse järgmises etapis, olenemata selle päritolust.
@@ -318,9 +345,16 @@ Kui nõudlus on loodud, peate käsu **Otsi nõudlust** abil looma *ruumi leidmis
 
 #### <a name="slotting-plan"></a>Ruumi leidmise plaan
 
-Ruumi leidmise plaan kuvab asukohta, kuhu iga kaup/kogus määrati, kas kasutati ületäitumist, kas loodi loobumistöö ja kasutatud malli rida. **Kõik nõudlused, millele ruumi ei leitud, on punasega esile tõstetud.**
+Ruumi leidmise plaan kuvab asukohta, kuhu iga kaup/kogus määrati, kas kasutati ületäitumist, kas loodi loobumistöö ja kasutatud malli rida. *Kõik nõudlused, millele ruumi ei leitud, on punasega esile tõstetud.*
 
 - Valige toimingupaanil **Ruumi leidmise plaan** tulemuste kuvamiseks.
+
+> [!NOTE]
+> - **Nõudluse loomise**, **Nõudluse leidmise** ja **Täiendamise** protsesside käivitamine on nüüd käivitatud. (Need protsessid on saadaval tegumiribal **Paigutuse mallid** lehel.)
+> - **Nõudluse loomise**, **Nõudluse leidmise** ja **Täiendamise käivitamise** protsessid on lukus tagamaks, et neid ei saa samal ajal käivitada. Muul juhul võidakse kasutatavaid andmeid kustutada.
+> - **Nõudluse loomine** ja **Nõudluse leidmise** protsessid näitavad hoiatust, kui käivitamine ei loo kirjeid või kui kirjetel puudub teave.
+> - Kui valite **Paigutusplaani**, ei ole tegumiribal nuppe **Uus**, **Redigeeri** või **Kustuta**, sest andmeallikat ei saa redigeerida.
+> - Kui valite **Täitmise käivitamise**, kinnitab süsteem valitud teenindusaegade malli ja protsessid.
 
 #### <a name="create-replenishment"></a>Täiendamise loomine
 
@@ -344,7 +378,7 @@ Kui kõik vajalikud elemendid on paigas, saate häälestada ruumi leidmise autom
     - Täiendustöö loomine
 
     > [!NOTE]
-    > Ruumi leidmise etapid on progresseeruvad. Kui soovite valida suvandit *Otsi nõudlust* , peate esmalt valima *Loo nõudlus*.
+    > Ruumi leidmise etapid on progresseeruvad. Kui soovite valida suvandit *Otsi nõudlust*, peate esmalt valima *Loo nõudlus*.
 
 1. Määrake kasutatav ruumi leidmise mall.
 1. Soovi korral saate määrata kordumise automaatselt käivituma.

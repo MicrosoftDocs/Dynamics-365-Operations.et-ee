@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814716"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460970"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Saate vaadata sisseelavate töötajate olekut ja oma tööülesandeid
 
@@ -33,12 +33,12 @@ Microsoft Dynamics 365 Talent: Onboard võimaldab vaadata edusamme, mida uued t�
 
 1. Valige vasakpoolses menüüs **Juhendid**. Näete ülevaadet kõigist teie saadetud sisseelamisjuhendite edenemisest.
 
-    ![[Sisseelamisjuhendite vaatamine](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
+    ![[Saate vaadata töölevõtmisjuhendite olekut](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
 
 2. Süvitsiminekuks valige juhend, mida soovite vaadata.
 3. Valige vahekaart **Tegevused**, et näha, millised tegevused teie uus töötaja on lõpule viinud.
 
-    ![[Uue töötaja lõpetatud tegevuste vaatamine](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[Saate vaadata toiminguid, mis palgatud töövõtja on lõpule viinud](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Vaadake teile määratud sisseelamisülesandeid
 

@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 509827d5736887f56e7754a0760af7dea76277f7
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006051"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460908"
 ---
 # <a name="talent-system-requirements"></a>Rakenduse Talent süsteeminõuded
 

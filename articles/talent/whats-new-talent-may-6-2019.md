@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897507"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529704"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (6. mai 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -43,9 +45,9 @@ See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Tal
 
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2282. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26-for-finance-and-operations"></a>Finance and Operationsi 26. platvormi värskendus
+### <a name="platform-update-26-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 26
 
-Finance and Operationsi platvormivärskenduse 26 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 26 (mai 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Lisainfo saamiseks Finance and Operations platvormi värskenduse 26 kohta vt [Dynamics 365 Finance and Operations platvormi värskenduse 26 (mai, 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service'i üksuse tugi kohandatud väljadele
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897576"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528665"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (11. juuni 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -54,9 +56,9 @@ See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Tal
 
 Selles jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2337.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Finance and Operationsi 27. platvormi värskendus
+### <a name="platform-update-27-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 27
 
-Finance and Operationsi platvormivärskenduse 27 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 27 (juuni 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Finance and Operations platvormivärskenduse 27 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 27 (juuni 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Funktsioonihalduse tööruum Talentis
 

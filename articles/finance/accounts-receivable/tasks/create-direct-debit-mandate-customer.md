@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 86d29782f616219b5d84e3567910cb28c60b65ae
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140302"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442259"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Kliendi jaoks otsekorralduse loa loomine
 
@@ -31,7 +31,7 @@ See ülesande juhend näitab, kuidas luua otsekorralduse luba ja seda arvel kasu
 
 
 ## <a name="create-a-bank-account"></a>Pangakonto loomine
-1. **Navigeerimispaan**il avage **Moodulid > Müügireskontro > Kliendid > Kõik kliendid**.
+1. **Navigeerimispaan** il avage **Moodulid > Müügireskontro > Kliendid > Kõik kliendid**.
 2. Valige loendis kirje. Näiteks valige US-001
 3. Toimingupaanil klõpsake **Klient**.
 4. Klõpsake **Pangakontod**.
@@ -62,7 +62,7 @@ See ülesande juhend näitab, kuidas luua otsekorralduse luba ja seda arvel kasu
 7. Sulgege leht.
 
 ## <a name="add-a-direct-debit-mandate-to-a-customer"></a>Kliendile otsekorralduse loa lisamine.
-1. **Navigeerimispaan**il avage **Moodulid > Müügireskontro > Kliendid > Kõik kliendid**.
+1. **Navigeerimispaan** il avage **Moodulid > Müügireskontro > Kliendid > Kõik kliendid**.
 2. Valige loendis kirje. Näiteks valige US-001
 3. Klõpsake valikut **Redigeeri**.
 4. Laiendage kiirkaart **Makse vaikeandmed**.

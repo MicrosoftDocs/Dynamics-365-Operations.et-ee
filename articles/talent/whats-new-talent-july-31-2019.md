@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006283"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460958"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (30. juuli 2019)
 
@@ -47,7 +47,7 @@ Teiste piirkondade ning Kanada ja Aasia piirkondade olemasolevate projektide and
 
 ### <a name="new-active-positions-list-page"></a>Uute aktiivsete ametikohtade loendi leht
 
-Ametikohtadel põhinevate loendite valikud on nüüd järgmised: **Kõik ametikohad**, **Aktiivsed ametikohad**, **Vabad ametikohad**ja **Passiivsed ametikohad**. Uus **Aktiivsete ametikohtade** loend kuvab ainult need vabad või täuidetud ametikohad, mis on praegusest kuupäevast alates aktiivsed. 
+Ametikohtadel põhinevate loendite valikud on nüüd järgmised: **Kõik ametikohad**, **Aktiivsed ametikohad**, **Vabad ametikohad** ja **Passiivsed ametikohad**. Uus **Aktiivsete ametikohtade** loend kuvab ainult need vabad või täuidetud ametikohad, mis on praegusest kuupäevast alates aktiivsed. 
 
 ### <a name="allow-course-participants-to-be-added-to-open-courses"></a>Lubage kursusel osalejate lisamist avatud kursustele
 

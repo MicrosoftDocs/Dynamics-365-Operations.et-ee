@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443414"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527857"
 ---
 # <a name="overview"></a>Ülevaade
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsingut rakenduses Dynamics 365 Human Resources.
 
@@ -47,7 +49,7 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
     - [Office’i integreerimise õppetükk](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Üksuseandmete värskendamine Excelis](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Excelis avamise kogemuste loomine](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Office’i integreerimise tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office'i integreerimise tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Funktsioonide haldamine](hr-admin-manage-features.md)
 

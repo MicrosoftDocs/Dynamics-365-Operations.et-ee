@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
-ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
+ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618407"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442587"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Hankija maksesoovituste automatiseerimine
 
@@ -128,7 +128,7 @@ Pärast makse kustutamist avanevad arved uuesti makse tegemiseks. Seejärel saab
 
 ## <a name="edit-a-vendor-payment-proposal-automation"></a>Hankija maksesoovituse automatiseerimise redigeerimine
 
-Protsessi automatiseerimise raamistik võimaldab teil redigeerida maksesoovituse jaoks loodud makset, seeriat ja sündmuseid. Seeriat saab redigeerida lehel **Protsessi automatiseerimine** või protsessi automatiseerimise nädalavaates. Näiteks kui ostureskontro haldur otsustab luua kõik riigisiseste hankijate tšekid esmaspäeva asemel kolmapäeval, siis võib ta leida nädalavaates sündmuse ja valida **Kuva/Redigeeri – Seeria**. Seeria redigeerimisel palub süsteem teil määratleda, kas muudatus tuleks rakendada kõikide sündmuste või ainult uute sündmuste puhul. Selliste varasemate sündmuste, mille olek on juba **Lõpule viidud** või mis lõppesid olekuga **Tõrge**, olekut ei muudeta.
+Protsessi automatiseerimise raamistik võimaldab teil redigeerida maksesoovituse jaoks loodud makset, seeriat ja sündmuseid. Seeriat saab redigeerida lehel **Protsessi automatiseerimine** või protsessi automatiseerimise nädalavaates. Näiteks kui ostureskontro haldur otsustab luua kõik riigisiseste hankijate tšekid esmaspäeva asemel kolmapäeval, siis võib ta leida nädalavaates sündmuse ja valida **Kuva/Redigeeri – seeria**. Seeria redigeerimisel palub süsteem teil määratleda, kas muudatus tuleks rakendada kõikide sündmuste või ainult uute sündmuste puhul. Selliste varasemate sündmuste, mille olek on juba **Lõpule viidud** või mis lõppesid olekuga **Tõrge**, olekut ei muudeta.
 
 Samuti saate lisada uue sündmuse või muuta olemasolevat sündmust. Näiteks järgmine maksesoovituse sündmus on ajastatud käitamiseks kolmapäeval, 1. jaanuaril, kuid tegemist on pühaga. Te saate muuta sündmust protsessi automatiseerimise nädalavaates või lehel **Protsessi automatiseerimine**. Avaneb lehekülg, kus kuvatakse graafiku üksikasjad ja maksesoovituse kriteeriumid. Siin saate redigeerida plaanitud kellaaega ja kuupäeva. Samuti saate vajaduse korral redigeerida maksesoovituse kriteeriume. Näiteks kui muudate maksesündmuse plaanitud kuupäeva 1. jaanuarilt 2. jaanuarile, võite soovida muuta ka „kuni“ kuupäeva suhtelisi kuupäevasid.
 

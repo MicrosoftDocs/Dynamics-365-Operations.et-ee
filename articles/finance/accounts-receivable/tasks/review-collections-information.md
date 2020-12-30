@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143334"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442386"
 ---
 # <a name="review-collections-information"></a>Sissenõuete teabe ülevaatamine
 
@@ -105,7 +105,7 @@ Selles teemas selgitatakse, kuidas vaadata üle sissenõuete teavet ja eri hää
 2. Laiendage kiirinfo **Aadress**, **Kontakt**, **Aegumine** ja **Krediidilimiit**, et kuvada valitud info.
 3. Toimingupaanil valige **Kogu**.
 - Uuendage kliendi aegumise hetktõmmist, kasutades tänast kuupäeva aegumiskuupäevana, millega kande kuupäevi võrreldakse. Kui aegumise hetktõmmis hõlmab mitme juriidilise isiku teavet, hõlmab uuendatud aegumise hetktõmmis samade juriidiliste isikute teavet. Summad talletatakse aegumise hetktõmmise uuendamise ajal sisselogitud juriidilise isiku arvestusvaluutas.  
-- Valige aegumisperioodi definitsioon. Vaikimisi kuvatakse kliendi aegumise hetktõmmisega seostatud aegumisperioodi määratlus. Aegumisperioodi definitsioon kontrollib aegumisperioode ja hulkasid, mida näidatakse kiirinfos **Aegunud saldo** ja**Krediiditeave**.  
+- Valige aegumisperioodi definitsioon. Vaikimisi kuvatakse kliendi aegumise hetktõmmisega seostatud aegumisperioodi määratlus. Aegumisperioodi definitsioon kontrollib aegumisperioode ja hulkasid, mida näidatakse kiirinfos **Aegunud saldo** ja **Krediiditeave**.  
 - Avage menüü, mis sisaldab järgmisi üksusi.    
   - Ettevõte – aegunud saldode ja krediiditeabe kiirinfo kuvamine juriidilise isiku arvestusvaluutas.  
   - Klient – aegunud saldode ja krediiditeabe kiirinfo kuvamine kliendi valuutas.  

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 7d552f29fd8f52b512a7c21b36b0a814cac50646
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533432"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517180"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
@@ -32,7 +32,7 @@ ms.locfileid: "3533432"
 
 See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 
-Kui litsentsite e-kaubanduse võimalusi, valmistatakse ette saidiehitaja koos alustusssaidiga, mida saate kasutada oma saidi alusena. Kui aga soovite alustada nullist või luua teise saidi, tuleb teil luua uus sait saidi autorluse keskkonnas. 
+Kui litsentsite Dynamics 365 Commerce'i võimalusi, valmistatakse saidiehitaja ette koos alustussaidiga, mida saate kasutada oma saidi alusena. Kui aga soovite alustada nullist või luua teise saidi, tuleb teil luua uus sait saidi autorluse keskkonnas. 
 
 ## <a name="set-up-your-site"></a>Saidi seadistamine
 
@@ -46,7 +46,7 @@ Oma saidi seadistamiseks tehke järgmist.
 |-------------------------------------|-------------|
 | Saidi nimi                           | Sisestage kuvatav nimi, mida tuleks saidi autorluse keskkonnas teie saidi jaoks kasutada. See nimi on nähtav ainult autorluse keskkonnas ja seda ei kuvata klientidele. |
 | Saidi administraatori turberühm | Määrake Microsoft Azure Active Directory (Azure AD) turberühm, mis haldab kasutajaid, kellel on sellel saidil saidi administraatori roll. |
-| Vaikekanal (tootmisüksuse number) | Valige veebipood, mille jaoks see sait toimib fassaadina. Kui soovite, et teie e-kaubanduse sait toetaks mitut veebipoodi, peate pärast saidi seadistamist seostama poed oma saidiga suvandis **Saidi sätted**. |
+| Vaikekanal (tootmisüksuse number) | Valige veebipood, mille jaoks see sait toimib fassaadina. Kui soovite, et teie e-kaubanduse sait toetaks mitut veebipoodi, peate pärast saidi seadistamist seostama poed oma saidiga jaotises **Saidi sätted** . |
 | Vaikekeel                            | Määrake selle veebipoe ja turu vaikekeel. Veebipood võib toetada mitut keelt. Kui soovite selle veebipoe või mõne muu veebipoe jaoks toetada mitut keelt, saate konfigureerida selle toe pärast saidi seadistamist suvandis **Saidi sätted**.  |
 | Domeen                              | Valige domeeni nimi, mis toimib selle veebipoe jaoks domeenina. Kui te pole LCS-is ühtegi domeeni konfigureerinud, võite selle välja tühjaks jätta. Pärast domeeni LCS-is konfigureerimist peate lisama selle oma veebipoele suvandis **Saidi sätted**.  |
 | Tee                              | Kui teie sait toetab antud domeeninime puhul rohkem kui ühte keelt, kasutage tee välja, et luua selle domeeni ja keele kombinatsiooni jaoks kordumatu saidi URL. Kui keel, mille väljal **Vaikekeel** määrasite, on ainus selle domeeni jaoks toetatav keel või see on pärast saidi täiendavate keelte jaoks lokaliseerimist jätkuvalt vaikekeel, soovitame jätta selle välja tühjaks. |
@@ -58,13 +58,13 @@ Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, val
 
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
-[Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
-[Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
-[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+[Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
 [B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
 

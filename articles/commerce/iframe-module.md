@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818194"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665392"
 ---
 # <a name="iframe-module"></a>IFrame-moodul
 
@@ -35,7 +35,7 @@ See teema hõlmab iFrame-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft
 
 IFrame-moodul tagab iFrame'i (tekstisisene raam), mis majutab saidil välissisu. Näiteks saab seda kasutada YouTube'i video või PDF-faili vaaturi majutamiseks ükskõik millisel saidilehel. 
 
-IFrame-mooduli jaoks on vaja siht-URL-i. Seejärel majutab see sihtlehe sisu HTML-i **iFrame'i** elemendi sees. Välised URL-id peavad olema saidi sisu turbepoliitika (CSP) direktiivide põhjal lubatud URL-ide loendis (tuntud ka kui valge nimekiri). IFrame'i sisu jaoks peavad URL-id olema lubatud direktiivi **frame-ancestor** kaudu. Lisateavet leiate teemast [Sisu turbepoliitika (CSP) haldamine](manage-csp.md).
+IFrame-mooduli jaoks on vaja siht-URL-i. Seejärel majutab see sihtlehe sisu HTML-i **iFrame'i** elemendi sees. Välised URL-id peavad olema saidi sisu turbepoliitika (CSP) direktiivide põhjal lubatud URL-ide loendis. IFrame'i sisu jaoks peavad URL-id olema lubatud direktiivi **frame-ancestor** kaudu. Lisateavet leiate teemast [Sisu turbepoliitika (CSP) haldamine](manage-csp.md).
 
 > [!NOTE]
 > IFrame-moodul on saadaval rakenduse Dynamics 365 Commerce väljalaskes 10.0.13.

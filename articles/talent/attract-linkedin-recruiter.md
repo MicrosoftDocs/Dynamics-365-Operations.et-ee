@@ -3,7 +3,7 @@ title: LinkedIn Recruiteriga allikakandidaadid Attractis
 description: Kasutage programmi Microsoft Dynamics 365 Talent – Attract pakutavat LinkedIni integratsiooni, et otsida kandidaate LinkedIn Recruiter kaudu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833042"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528265"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>LinkedIn Recruiteriga allikakandidaadid Attractis
 
@@ -34,6 +34,9 @@ LinkedIn on maailma suurim tööalane veebivõrgustik, mis annab ligipääsu maa
 
 Kui teil seda võimalust ei ole, pöörduge administraatori poole. Enne kui saate ära kasutada teenuse LinkedIn Recruiter Attracti võimalused, peab teie administraator [seadistama integratsiooni LinkedIniga.](./attract-admin-linkedin.md) Seejärel saate häälestada ühenduse teenusega LinkedIn Recruiter ja alustada kandidaatide leidmisega.
 
+>[!IMPORTANT]
+>Alates 1. juulist 2020 ei toeta LinkedIn enam Internet Explorer 11. Kasutajatele on endiselt tagatud juurdepääs LinkedInile Internet Explorer 11-ga, kuid neil palutakse brauserit kas täiendada või kasutada teist brauserit. Lisateabe saamiseks vt [toetatud Interneti-brauserid LinkedIni jaoks](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
+
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>Häälestage ühendus teenusega LinkedIn Recruiter
 
 Enne kui saate alustada Attracti kaudu tööd teenusega LinkedIn Recruiter, peate seadistama oma ühenduse teenuega LinkedIn Recruiter. Selle sammu jaoks on teil vaja teenuse LinkedIn Recruiter mandaati.
@@ -42,22 +45,38 @@ Enne kui saate alustada Attracti kaudu tööd teenusega LinkedIn Recruiter, peat
 2. **Kasutajasätete valimine**.
 3. Valige vahekaardil **Ühendused** suvand **Ühenda** **LinkedIni** kõrval. Järgige LinkedIni pakutavaid juhiseid.
 
-    ![[Seadista ühendus teenusega LinkedIn Recruiter Attractist](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[LinkedIn Recruiteriga ühenduse seadistamine Attractist](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>Vaadake LinkedIni kandidaate Attractis
 
 Pärat teenusega LinkedIn Recruiter ühendamist saate vaadata kandidaatide LinkedIni profiile Attractis.
 
+>[!NOTE]
+>Kui teile on määratud värbaja töökoht, saate vaadata kandidaatide täielikku teavet.<br><br>
+>Kui teile on määratud personalitöötaja töökoht või teile ei ole määratud töökohta, tuleb kindlasti välja logida LinkedInist või LinkedIn Recruiterist enne kandidaadi LinkedIni vahekaardile navigeerimist Attractis. Saate vaadata kandidaadi põhilisi avaliku profiili andmeid nagu nende ees- ja perekonnanime.
+
 1. Valige Attractis vasakul **Tööpakkumised** või **Talendipangad** ja valige kandidaat.
 
     ![[Vaadake LinkedIni kandidaate Attractis](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. Kandidaadi profiilis valige vahekaart **LinkedIn.** Saate vaadata kandidaadi profiili koos InMail ajaloo ja LinkedIni märkmete ajalooga.
+2. Kandidaadi profiilil valige vahekaart **LinkedIn**. Saate vaadata kandidaadi profiili ja tema InMaili ajalugu.
 
-Siit saate salvestada kandidaadi teenuse LinkedIn Recruiter projekti, saata inMaili või kasutada funktsiooni Värskenda mind teenuses LinkedIn Recruiter teatise seadmiseks.
+   ![Kandidaadi LinkedIni teabe vaatamine](./media/attract-candidate-linkedin-tab.png)
+
+Siit saate teha järgmisi toiminguid.
+
+- Valige vahekaart **Värbamistegevused**, et vaadata järgmist.
+   
+   - Värbaja märkmed (nii avalikud kui ka varjatud). Märkmed on vaikimisi varjatud ja nähtavad vaid märkmete omanikule.
+   - InMaili tegevus (kuid mitte InMaili sisu). Liikuge lehekülje allossa, et vaadata InMaili kirjavahetust oma potentsiaalse kliendiga ja teisi organisatsiooni kasutajaid, kes suhtlevad teie potentsiaalse kliendiga.
+   - Kandidaadi tagasilükkamise tegevus
+
+- Valige **Saada InMail**, et saata InMail ilma Attractist lahkumata.
+
+- Valige **Salvesta töö**, et salvestada töö ilma Attractist lahkumata.
 
 > [!NOTE]
-> Kui kandidaadi Attracti teave vastab LinkedIni teabele, kuvatakse Attractis kandidaadi LinkedIni profiil. Siin on vastavad reeglid, mida kasutatakse:
+> Kandidaadi LinkedIni profiil kuvatakse Attractis, kui kandidaadi Attracti teave vastab LinkedIni teabele. Siin on vastavad reeglid, mida kasutatakse:
 > 
 > 1. Kui meiliaadress ja LinkedIni liikme ID ühtivad Attractis ja LinkedInis, kuvatakse kandidaadi profiil. Kandidaatidel on endiselt võimalus linkida või tühistada oma LinkedIni profiil Attracti kaudu.
 > 2. Kui meiliaadressi või LinkedIni liikme ID ei ühti, kuvatakse võimalike kandidaatide loend. Seejärel saate valida loendist kandidaadi ja linkida profiili.
@@ -87,7 +106,7 @@ Platvormil LinkedIn Recruiter saate jälgida, kas kandidaat on kandideerinud muu
     - **Vestluse tagasiside** – vaadake intervjueerijate Attracti sisestatud tagasisidet.
     - **Märkused** – vaadake kõiki märkmeid, mis on selle kandidaadi kohta Attractis sisestatud.
 
-    ![[Vaadake platvormi LinkedIn Recruiter teavet](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Attracti teabe vaatamine LinkedIn Recruiteris](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Kandidaadi ja kandideerimise andmeid ei sünkroonita platvormiga LinkedIn Recruiter, kui kandidaat ei ole potentsiaalselt sobiva kandidaadi etapist edasi jõudnud.

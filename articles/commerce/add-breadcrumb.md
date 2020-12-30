@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055400"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517156"
 ---
 # <a name="breadcrumb-module"></a>Lingirea moodul
 
@@ -46,10 +46,10 @@ Järgmisel pildil on näidatud lingirea mooduli näide, kus on toodud toote üks
 
 ## <a name="breadcrumb-module-settings"></a>Lingirea mooduli sätted
 
-Lingirea moodul tugineb sättele **Lingirea kuvamistüüp toote üksikasjade lehel** , mis on määratletud saidiehitaja jaotises **Saidi sätted \> Laiendused**. Sellel sättel on kolm võimalikku väärtust.
+Lingirea moodul tugineb sättele **Lingirea kuvamistüüp toote üksikasjade lehel**, mis on määratletud saidiehitaja jaotises **Saidi sätted \> Laiendused**. Sellel sättel on kolm võimalikku väärtust.
 
 - **Kuva kategooriahierarhia** – kui see väärtus on valitud, kuvatakse lingirea moodulis toote üksikasjade lehel vaadatava toote terviklik kategooriahierarhia.
-- **Kuva tagasi tulemuste juurde** – kui see väärtus on valitud, kuvab lingirea moodul toote üksikasjade lehel linki „Tagasi tulemuste juurde“, juhul kui kasutaja on avanud toote üksikasjade lingi moodulist, mis võimaldab lingi „Tagasi tulemuste juurde“ kuvamist. See funktsioon on saadaval juhul, kui kasutajad navigeerivad kategooria, otsingu, loendi ja soovituste loendi lehtedelt. Selle funktsionaalsuse toetamiseks on tootekogumi ja otsingutulemuste moodulitel atribuut nimega **Luba toote üksikasjade lehel tagasi tulemuste juurde**. See atribuut annab teile paindlikkuse määratleda, millised moodulid peaks toetama toote üksikasjade lehel lingi „Tagasi tulemuste juurde“ funktsiooni. Näiteks kui lingirea mooduli sätte **Lingirea kuvamistüüp toote üksikasjade lehel** jaoks on valitud suvand **Kuva tagasi tulemuste juurde** ja otsingulehe otsingutulemuste mooduli jaoks on valitud suvand **Luba toote üksikasjade lehel tagasi tulemuste juurde** , siis kuvatakse link „Tagasi tulemuste juurde“, kui kasutaja navigeerib otsingulehelt toote üksikasjade lehele.
+- **Kuva tagasi tulemuste juurde** – kui see väärtus on valitud, kuvab lingirea moodul toote üksikasjade lehel linki „Tagasi tulemuste juurde“, juhul kui kasutaja on avanud toote üksikasjade lingi moodulist, mis võimaldab lingi „Tagasi tulemuste juurde“ kuvamist. See funktsioon on saadaval juhul, kui kasutajad navigeerivad kategooria, otsingu, loendi ja soovituste loendi lehtedelt. Selle funktsionaalsuse toetamiseks on tootekogumi ja otsingutulemuste moodulitel atribuut nimega **Luba toote üksikasjade lehel tagasi tulemuste juurde**. See atribuut annab teile paindlikkuse määratleda, millised moodulid peaks toetama toote üksikasjade lehel lingi „Tagasi tulemuste juurde“ funktsiooni. Näiteks kui lingirea mooduli sätte **Lingirea kuvamistüüp toote üksikasjade lehel** jaoks on valitud suvand **Kuva tagasi tulemuste juurde** ja otsingulehe otsingutulemuste mooduli jaoks on valitud suvand **Luba toote üksikasjade lehel tagasi tulemuste juurde**, siis kuvatakse link „Tagasi tulemuste juurde“, kui kasutaja navigeerib otsingulehelt toote üksikasjade lehele.
 - **Kuva kategooriahierarhia ja tagasi tulemuste juurde** – see väärtus on eelmise kahe kombinatsioon. Kui see väärtus on valitud, siis kuvab lingirea moodul toote üksikasjade lehel nii terviklikku kategooriahierarhiat kui ka linki „Tagasi tulemuste juurde“ (kui see on konfigureeritud).
 
 > [!IMPORTANT]
@@ -66,15 +66,15 @@ Lingirea moodul tugineb sättele **Lingirea kuvamistüüp toote üksikasjade leh
 
 Toote üksikasjade lehele lingirea mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Avage **Saidi sätted /> Laiendused** ja seejärel valige sättes **Lingirea kuvamistüüp toote üksikasjade lehel** suvand **Kuva kategooriahierarhia**.
+1. Avage **Saidi sätted \> Laiendused** ja seejärel valige sätte **Lingirea kuvamistüüp PDP-s** jaoks **Kuva kategooriahierarhia**.
 1. Avage **Mallid** ja seejärel valige toote üksikasjade lehe mall.
-1. Valige ostukasti moodulit sisaldavas pesas **Konteiner** kolmikpunkt ( **...** ) ja seejärel **Lisa moodul**.
+1. Valige ostukasti moodulit sisaldavas pesas **Konteiner** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Lingirida** ja klõpsake seejärel **OK**.
-1. Valige **Salvesta** , valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ning avage toote üksikasjade lehe malli kasutav toote üksikasjade leht. Kui toote üksikasjade lehte ei ole veel olemas, siis looge see.
-1. Valige ostukasti moodulit sisaldavas pesas **Konteiner** kolmikpunkt ( **...** ) ja seejärel **Lisa moodul**.
+1. Valige ostukasti moodulit sisaldavas pesas **Konteiner** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Lingirida** ja klõpsake seejärel **OK**.
-1. Valige pesas **Lingirida** toodud atribuutide paanilt **Juur** , valige **Lingi tekst**.
+1. Valige pesas **Lingirida** toodud atribuutide paanilt **Juur**, valige **Lingi tekst**.
 1. Valige dialoogiboksis **Lingi tekst** suvand **Avaleht** ja seejärel valige jaotises **Lingi sihtkoht** suvand **Lisa link**.
 1. Valige lingirea juure jaoks link dialoogiboksis **Lisa link** ning valige seejärel **OK**.
 1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**.

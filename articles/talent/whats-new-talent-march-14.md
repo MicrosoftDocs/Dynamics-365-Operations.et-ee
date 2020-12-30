@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 79bb8c0ed3c3f3bee62a8bc384a9d3a15cfe881a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897599"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528617"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (14. märts 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Talenti uusi või muutunud funktsioone.
 
@@ -44,8 +46,8 @@ Selles väljaandes tehtud muudatused võimaldavad jõudlushalduse stsenaariume, 
 ### <a name="mass-assign-checklists-to-workers"></a>Töötajatele kontroll-loendite massiline määramine
 Selle muudatusega saate nüüd valida mitu töötajat ja määrata neile töötajatele ühe või mitu kontroll-loendit korraga. 
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operationsi 24. platvormi värskendus
-Lisateavet Finance and Operationsi platvormivärskenduse 24 kohta vt jaotisest [Mis on rakenduse Finance and Operations platvormivärskenduses 24 uut või mida on muudetud (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Olulised muudatused platvormil 24 sisaldavad: 
+### <a name="platform-update-24-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 24
+Lisateavet Finance and Operations platvormivärskenduse 24 kohta vt jaotisest [Mis on rakenduse Finance and Operations platvormivärskenduses 24 uut või mida on muudetud (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Olulised muudatused platvormil 24 sisaldavad: 
 
 - Talendis on lubatud teavitused.
 - Uuendatud navigeerimisriba joondub nüüd Office'i päisega.
@@ -65,7 +67,7 @@ Common Data Service üksused sünkroonivad nüüd õigesti, kui neid Common Data
 Paljudes ettevõtetes on hüvitise ja eeliste halduritel juurdepääs ainult teatud hüvituskirjetele. Need võivad olla juhtkonna või piirkonna töövõtjate omad. Selle muudatusega saab personaliosakond ettevõttesiseselt hüvitusplaane hallata ja säilitada erinevate töövõtjate gruppide jaoks. Saate fikseeritud ja muutuvatele plaanidele määrata turberolle, mis määravad plaanide juurdepääsu ja plaanidega seotud töövõtja andmed, näiteks palga või lisakulumikirjed. Ainult juurdepääsu saanud rollid saavad töödelda nende töötajate hüvitisi.
 
 ###  <a name="email-support-for-alerts"></a>E-posti tugi teatistele
-Finance and Operationsi platvormi 24. uuendusega saavad kasutajad luua alarmide reegleid, mis saadavad sündmuse poolt käivitades automaatselt kontaktidele meiliteavitusi.
+Finance and Operations-i platvormi värskendusega 24 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Topelt töötajate kontroll: kasutajaliidese muudatused
 Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek näitab leitud duplikaatide arvu. Võite uue lehe avamiseks valida antud lingi, et hinnata, kas kasutada tuvastatud vastet. Andmesisestuse katkestamise vältimiseks ei avane duplikaatide vorm automaatselt.

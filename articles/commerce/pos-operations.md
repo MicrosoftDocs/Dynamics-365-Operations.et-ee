@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081335"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594109"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -197,6 +197,8 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 500 | Kande tühistamine | Tühistage praegune kanne. | Jah | Jah | Ei | Jah | Ei |
 | 916 | Windowsi töövoo alus | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 924 | X aruanne pangakaartide kohta | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Jah |
+| 311 | Süsteemi allahindluste eemaldamine kannetest | Saate kandest eemaldada kõik süsteemi rakendatud allahindlused, sh kupongipõhised allahindlused. See ei eemalda käsitsi lisatud allahindlusi. | Jah | Jah | Jah | Jah | Ei |
+| 312 | Süsteemi allahindluste uuesti rakendamine | Saate süsteemi allahindlused uuesti kandele rakendada, kui need eemaldati toimingut **Süsteemi allahindluste eemaldamine kannetest** kasutades. | Jah | Jah | Jah | Jah | Ei |
 
 \* Klienditellimuse või müügipakkumise loomisel on operatsioon saadaval ainult ühenduseta režiimis ja seda ainult juhul, kui kassa funktsiooniprofiilil on konfigureeritud ühenduseta režiimis klienditellimuste ja müügipakkumiste loomine. Operatsiooni ei saa teha reaalajas teenusega tellimuste loomise või tellimuste tagasikutsumise ja muutmise ajal.
 

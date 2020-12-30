@@ -16,11 +16,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144206"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442401"
 ---
 # <a name="vendor-payment-overview"></a>Hankija maksete ülevaade
 
@@ -44,7 +44,7 @@ See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri 
 14. Klõpsake valikut **OK**. Pärast nupu **OK** klõpsamist kuvatakse päringu tulemused. Kui te ei soovi maksmiseks valitud arvete loendit eelvaadata, saate naasta kiirkaardile **Parameteetrid** ja muuta sätte **Maksete loomine ilma arve eelvaateta** valikule Jah.  
 15. Valige nupp **Kuva maksete ülevaade**, et vaadata valitud arvel hankija puhul loodavaid makseid.
 16. Valige maksete peitmiseks nupp **Peida maksete ülevaade**. 
-17. Klõpsake suvandit **Maksete loomine**. Enne nupu **Loo maksed** valimist saate paremklõpsata ruudustikul ja eksportida arvete loendi Excelisse. Nupp **Loo maksed**loob makse töölehel hankija maksed.  
+17. Klõpsake suvandit **Maksete loomine**. Enne nupu **Loo maksed** valimist saate paremklõpsata ruudustikul ja eksportida arvete loendi Excelisse. Nupp **Loo maksed** loob makse töölehel hankija maksed.  
 18. Skannige makseid ja veenduge, et makseviis oleks määratletud kõikide maksete puhul. Maksete loomisel, nt tšeki printimisel või elektroonilise makse loomisel peab olema määratletud makseviis. Makseviis määrab vaikimisi ka pangakonto, millelt makse tehakse.  
 19. Ühekordse makse loomiseks klõpsake nuppu **Uus**. Ühekordse makse saab maksetöölehele lisada mis tahes ajal enne sisestamist. Selleks klõpsake **Maksesoovituse** kasutamise asemel pigem nuppu **Uus** ja lisage makseteave käsitsi.  
 20. Valige hankija, kellele makse tehakse.

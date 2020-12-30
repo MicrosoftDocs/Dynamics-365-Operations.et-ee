@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006137"
+ms.locfileid: "4442528"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
 
@@ -40,7 +40,7 @@ Fabrikam ostab kaupu hankijalt 3064. Hankija annab Fabrikamile 1 protsenti skont
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10010 | 25.06.2015 | 10010   |                                      | 1 000,00                              | –1000,00 | USA dollar      |
 
-Lehelt **Hankijad** avab April lehe **Kannete tasakaalustamine**. Ta saab kasutada lehte **Kannete tasakaalustamine** , et vaadata skonto kuupäevi ja summasid. Tähtaeg on 25. juulil ja kui arve on tasutud 9. juuliks, on saadaval skonto summas –10,00.
+Lehelt **Hankijad** avab April lehe **Kannete tasakaalustamine**. Ta saab kasutada lehte **Kannete tasakaalustamine**, et vaadata skonto kuupäevi ja summasid. Tähtaeg on 25. juulil ja kui arve on tasutud 9. juuliks, on saadaval skonto summas –10,00.
 
 | Märge | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -64,7 +64,7 @@ Skonto summa vaatamiseks klõpsab April vahekaarti **Skonto**.
 | 25.07.2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Osaline makse 1. juulil, kasutades lehte Kannete tasakaalustamine
-April saab luua sellele maksele maksetöölehe, avades jaotises Ostureskontro lehe **Maksetööleht**. Ta loob uue töölehe ja sisestab rea hankija 3064 jaoks. Ta avab seejärel lehe **Kannete tasakaalustamine** , et ta saaks arve tasakaalustamiseks märgistada. April märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **–500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **–10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **–5,05**. Seetõttu tasakaalustab April arve summas –505,05.
+April saab luua sellele maksele maksetöölehe, avades jaotises Ostureskontro lehe **Maksetööleht**. Ta loob uue töölehe ja sisestab rea hankija 3064 jaoks. Ta avab seejärel lehe **Kannete tasakaalustamine**, et ta saaks arve tasakaalustamiseks märgistada. April märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **–500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **–10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **–5,05**. Seetõttu tasakaalustab April arve summas –505,05.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -105,7 +105,7 @@ April sulgeb lehe **Kannete tasakaalustamine**. Töölehel luuakse makserida sum
 | DISC‑10010 | Skonto    | 01.07.2015  |         | 5,00                                 |                                       | 0,00    | USA dollar      |
 
 ## <a name="remaining-amount-paid-on-july-8"></a>Ülejäänud summa on makstud 8. juulil
-April maksab ülejäänud arve hankijale 3064 8. juulil, mis on allahindluse perioodil. April loob 8. juulil maksetöölehe ja märgib kande tasakaalustamiseks. Ta näeb, et tasakaalustatav summa on 495,00. Välja **Eeldatav skonto** väärtus on **–5,00** , sest skonto summas 5,00 oli juba varem arvestatud.
+April maksab ülejäänud arve hankijale 3064 8. juulil, mis on allahindluse perioodil. April loob 8. juulil maksetöölehe ja märgib kande tasakaalustamiseks. Ta näeb, et tasakaalustatav summa on 495,00. Välja **Eeldatav skonto** väärtus on **–5,00**, sest skonto summas 5,00 oli juba varem arvestatud.
 
 |  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|

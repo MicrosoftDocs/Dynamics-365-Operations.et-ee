@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188943"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442264"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Korduvate arvete seadistamine ja töötlemine
 
@@ -53,12 +53,12 @@ Pärast malli loomist peate määrama malli klientidele, kellega soovite arvelda
 Kliendil võib olla mitu malli, millel on erinevad sagedused.
 
 ## <a name="generate-the-recurring-invoices"></a>Korduvate arvete loomine
-Lehel **Korduvad arved**on ülesanne, mis töötleb korduvate arvete malle. Saate määrata arve kuupäeva ja malli, millest arveid luua. Luuakse arved ja neile määratakse üks kordumise ID-kood iga töödeldava arvegrupi kohta.
+Lehel **Korduvad arved** on ülesanne, mis töötleb korduvate arvete malle. Saate määrata arve kuupäeva ja malli, millest arveid luua. Luuakse arved ja neile määratakse üks kordumise ID-kood iga töödeldava arvegrupi kohta.
 
 <a name="post-recurring-free-text-invoices"></a>Vabas vormis korduvate arvete sisestamine
 ---------------------------------
 
-Pärast korduvate arvete loomist kuvatakse lehel **Korduvad arved**ülesande sisestamisel arve kordumise ID-koodid. Linki klõpsates saate vaadata kõigi arvete kordumise ID-d. Arvete kordumise ID ülevaatamisel saate eraldi arveid kustutada. Kliendi kordumise sätted lähtestatakse selle malli puhul, et seda saaks hiljem uuesti luua. Kordumise ID-koodile saab sisestada ühe arve, mitu arvet või kõik arved. Kui töövood on lubatud, peate klõpsama enne arvete sisestamist nuppu **Edasta**.
+Pärast korduvate arvete loomist kuvatakse lehel **Korduvad arved** ülesande sisestamisel arve kordumise ID-koodid. Linki klõpsates saate vaadata kõigi arvete kordumise ID-d. Arvete kordumise ID ülevaatamisel saate eraldi arveid kustutada. Kliendi kordumise sätted lähtestatakse selle malli puhul, et seda saaks hiljem uuesti luua. Kordumise ID-koodile saab sisestada ühe arve, mitu arvet või kõik arved. Kui töövood on lubatud, peate klõpsama enne arvete sisestamist nuppu **Edasta**.
 
 <a name="print-recurring-free-text-invoices"></a>Vabas vormis korduvate arvete printimine
 ----------------------------------

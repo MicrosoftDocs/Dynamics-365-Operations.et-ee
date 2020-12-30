@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0c8a265971c4a3f0b83ac1d6404b7d4aa82660
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793799"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516615"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Õppekataloog Dynamics 365 Supply Chain Managementi administraatoritele
 
@@ -46,7 +46,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Juurutusprojekti juhtimine Finance and Operationsis](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | Saate teada kõige olulisemad elemendid ja parimad tavad, kuidas Finance and Operationsi juurutamise projekti edukalt juhtida. Alates esimesest sammust, mil plaanite ja kujundate oma projekti metodoloogiat, FastTracki teenuste kasutamist, arenguplaani, andmehaldust jne, kuni parimate viisideni, kuidas oma toiminguid pärast avaldamist hallata ja jälgida. | Tasuta iseläbitav internetipõhine õppetee | 11.5 tundi |
 | [Süsteemihalduse koduleht](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Selles teemas käsitletakse Microsoft Dynamics 365 for Finance and Operationsi süsteemiadministraatorite sisu. See sisu aitab teil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni puhul sujuvalt ning tulemuslikult. | Dokumentatsioon | |
 | [Finance and Operations: Dynamics 365 (DYN542PAL2) kasutuselevõtt](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack pakub kasutuselevõtmise teenust igale Dynamics 365 for Finance and Operationsi projektile. Selle arutelu käigus selgitame kasutuselevõtmise protsessi, tutvustame kasutuselevõtmise sessiooni etappe ja selgitame, kuidas me teeme kasutuselevõtmise protsessi lähitulevikus tõhusamaks ja mugavamaks. See seanss on kindlasti abiks kõigile, kes teevad klientidega koostööd projekti varajastes etappides, alates litsentsilepingu lõpetamisest kuni juurutusprojekti algatamiseni. | Veebikonverentsi tasuta salvestamine | 62 minutit |
-| [Asutusesisene (kohalikud äriandmed) juurutus (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Liituge selle vestlusega, et saada ülevaade Dynamics 365 for Finance and Operationsi Enterprise Editioni asutusesisese juurutuse suvandist Selle seansi käigus uurime asutusesisese juurutuse lahenduste arhitektuuri, ALM-i aspekte, süsteeminõudeid ja seda, kuidas Lifecycle Servicesi projekti ette valmistada. | Veebikonverentsi tasuta salvestamine | 48 minutit |
+| [Asutusesisene (kohalikud äriandmed) juurutus (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Liituge selle vestlusega, et saada ülevaade Dynamics 365 for Finance and Operationsi Enterprise Editioni asutusesisese juurutuse suvandist. Selle seansi käigus uurime asutusesisese juurutuse lahenduste arhitektuuri, ALM-i aspekte, süsteeminõudeid ja seda, kuidas Lifecycle Servicesi projekti ette valmistada. | Veebikonverentsi tasuta salvestamine | 48 minutit |
 | [Juriidilisse isikusse kopeerimine (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | Selle seansi käigus räägime andmehaldusraamistiku uuest funktsioonist Juriidilisse isikusse kopeerimine. Kõigepealt vaatame kiirelt üle tööruumi, mallide ja andmeprojektide platvormil 8 andmehaldusraamistikku lisatud uued funktsioonid ning seejärel uurime Juriidilisse isikusse kopeerimise lisafunktsioone. | Veebikonverentsi tasuta salvestus | 54 minutit |
 
 ## <a name="core-development"></a>Peamine arendus<a name="core-development"></a>

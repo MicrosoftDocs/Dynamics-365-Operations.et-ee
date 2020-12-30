@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646035"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517204"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisuedastusvõrgu (CDN) toe lisamine
 
@@ -33,9 +33,9 @@ See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce keskkonna
 
 ## <a name="overview"></a>Ülevaade
 
-Rakenduses Dynamics 365 Commerce e-kaubanduse keskkonda seadistades saate konfigureerida selle töötama koos oma CDN-i teenusega. 
+Kui seadistate e-kaubanduse keskkonda rakenduses Dynamics 365 Commerce, siis saate konfigureerida selle töötama koos oma CDN-i teenusega. 
 
-Teie kohandatud domeeni saab lubada e-kaubanduse keskkonna ettevalmistamisprotsessi käigus. Teise võimalusena saate kasutada teenusetaotlust, et seadistada see pärast ettevalmistusprotsessi lõpetamist. E-kaubanduse keskkonna ettevalmistamisprotsess loob hostinime, mis on keskkonnaga seotud. Sellel hostinimel on järgmine vorming, kus \<*e-commerce-tenant-name*\> on teie keskkonna nimi.
+Teie kohandatud domeeni saab lubada e-kaubanduse keskkonna ettevalmistamisprotsessi käigus. Teise võimalusena saate kasutada teenusetaotlust, et seadistada see pärast ettevalmistusprotsessi lõpetamist. E-kaubanduse keskkonna ettevalmistamisprotsess loob keskkonnaga seotud hostinime. Sellel hostinimel on järgmine vorming, kus \<*e-commerce-tenant-name*\> on teie keskkonna nimi.
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
@@ -97,8 +97,8 @@ Azure’i sisenemispunkti teenuse marsruudivaliku reegli seadistamiseks toimige 
 1. Väljale **Nimi** sisestage suvand **vaikimisi**.
 1. Väljal **Kinnitatud protokoll** valige **HTTP ja HTTPS**.
 1. Väljal **Eesserveri hostid** sisestage **dynamics-ecom-rentnik-nimi.azurefd.net**.
-1. Jaotises **Vastendamise mustrid** sisestage ülemisele väljale **/\***.
-1. Jaotises **Marsruudi üksikasjad** määrake suvandi **Marsruudi tüüp** väärtuseks **Edasi**.
+1. Jaotises **Vastavusse viidavad mustrid** sisestage ülemisele väljale **/\** _.
+1. Jaotises _**Protsessi üksikasjad** määrake suvandi **Protsessi tüüp** väärtuseks **Edasi**.
 1. Väljal **Tagaserveri kaust** valige **ecom-tagaserver**.
 1. Valige väljagrupis **Edasisaatmise protokoll** suvand **Taotlusele vastendamine**. 
 1. Määrake suvand **URL-i ümberkirjutamine** väärtusele **Keelatud**.
@@ -110,8 +110,8 @@ Azure’i sisenemispunkti teenuse vahemällu salvestamise reegli seadistamiseks 
 1. Väljale **Nimi** sisestage suvand **staatika**.
 1. Väljal **Kinnitatud protokoll** valige **HTTP ja HTTPS**.
 1. Väljal **Eesserveri hostid** sisestage **dynamics-ecom-rentnik-nimi.azurefd.net**.
-1. Jaotises **Vastendamise mustrid** sisestage ülemisele väljale **/\_msdyn365/\_scnr/\***.
-1. Jaotises **Marsruudi üksikasjad** määrake suvandi **Marsruudi tüüp** väärtuseks **Edasi**.
+1. Jaotises **Vastavusse viidavad mustrid** sisestage ülemisele väljale **/\_msdyn365/\_scnr/\** _.
+1. Jaotises _**Protsessi üksikasjad** määrake suvandi **Protsessi tüüp** väärtuseks **Edasi**.
 1. Väljal **Tagaserveri kaust** valige **ecom-tagaserver**.
 1. Valige väljagrupis **Edasisaatmise protokoll** suvand **Taotlusele vastendamine**.
 1. Määrake suvand **URL-i ümberkirjutamine** väärtusele **Keelatud**.
@@ -146,15 +146,15 @@ Teie CDN peaks nüüd olema õigesti konfigureeritud, et seda saaks teie Commerc
 
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
-[Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
 [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
-[Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
-[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+[Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
 [B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
 

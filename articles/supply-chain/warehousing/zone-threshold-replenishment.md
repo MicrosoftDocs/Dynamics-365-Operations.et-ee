@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017318"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654168"
 ---
 # <a name="zone-threshold-replenishment"></a>Tsooniläve täiendamine
 
@@ -64,7 +64,7 @@ Selles näites kirjeldatakse, kuidas valmistada ette korralduskoodi. Kui kavatse
 
 1. Valige juriidiline isik **USMF** demoandmetega töötamiseks.
 1. Avage jaotis **Laohaldus \> Seadistus \> Korralduskoodid**.
-1. Valige toimingupaanil suvand **Uus** , et lisada ruudustikku rida.
+1. Valige toimingupaanil suvand **Uus**, et lisada ruudustikku rida.
 1. Määrake uuel real järgmised väärtused.
 
     - **Korralduskood:** _Tsooni täiend_
@@ -87,7 +87,7 @@ Selles näites kirjeldatakse, kuidas valmistada ette täiendamismalli. Kui kavat
 1. Valige juriidiline isik **USMF** demoandmetega töötamiseks.
 1. Avage jaotis **Laohaldus \> Seadistus \> Täiendamine \> Täiendamismallid**.
 1. Lehe redigeerimisrežiimi panemiseks valige **Redigeeri**.
-1. Valige toimingupaanil suvand **Uus** , et lisada ruudustikku rida **Ülevaade**.
+1. Valige toimingupaanil suvand **Uus**, et lisada ruudustikku rida **Ülevaade**.
 1. Määrake uuel real järgmised väärtused. Võtke vastu vaikeväärtused kõigil teistel väljadel.
 
     - **Täiendamismall:** _Tsooni min/max täiend_
@@ -95,14 +95,14 @@ Selles näites kirjeldatakse, kuidas valmistada ette täiendamismalli. Kui kavat
     - **Täiendamise tüüp:** _Minimaalne või maksimaalne_
 
 1. Valige käsk **Salvesta**.
-1. Kui uus rida on valitud ruudustikus **Ülevaade** , valige ruudustiku **Täiendamismalli üksikasjad** kohalt suvand **Uus** , et lisada rida, mis on seostatud teie äsja loodud täiendamismalliga *Tsooni min/max. täiend*.
+1. Kui uus rida on valitud ruudustikus **Ülevaade**, valige ruudustiku **Täiendamismalli üksikasjad** kohalt suvand **Uus**, et lisada rida, mis on seostatud teie äsja loodud täiendamismalliga *Tsooni min/max. täiend*.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** sisestage _1_.
     - **Kirjeldus:** Sisestage _Komplekteerimistsooni täiendamine_.
     - **Täiendamise ühik:** valige _ea_.
     - **Taotluse tüüp:** jätke see väli tühjaks.
-    - **Korralduse kood:** see väli seob täiendamismalli asukohakorraldusega. Valige eelnevalt loodud demoandmete korralduskood ( _Tsooni täiend_ ).
+    - **Korralduse kood:** see väli seob täiendamismalli asukohakorraldusega. Valige eelnevalt loodud demoandmete korralduskood (_Tsooni täiend_).
     - **Töömall:** jätke see väli tühjaks.
     - **Minimaalne kogus:** see väli määrab koguse, mille puhul täiendamine käivitatakse. Sisestage _50_.
     - **Maksimaalne kogus:** see väli määrab kauba maksimaalse koguse, mis võib tsoonis olla. Loodud varude täiendamistöö suurendab varud sellele kogusele. Sisestage _150_.
@@ -115,7 +115,7 @@ Selles näites kirjeldatakse, kuidas valmistada ette täiendamismalli. Kui kavat
     - **Ladu:** valige _61_.
 
 1. Valige ruudustiku **Täiendamismalli üksikasjad** kohalt **Toodete valimine**.
-1. Valige dialoogiboksi **Toote päring** vahekaardil **Vahemik** suvand **Lisa** , et lisada rida ruudustikule.
+1. Valige dialoogiboksi **Toote päring** vahekaardil **Vahemik** suvand **Lisa**, et lisada rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** _Kaubad_
@@ -125,7 +125,7 @@ Selles näites kirjeldatakse, kuidas valmistada ette täiendamismalli. Kui kavat
 
 1. Oma päringu salvestamiseks ja dialoogiboksi sulgemiseks valige **OK**.
 1. Valige ruudustiku **Täiendamismalli üksikasjad** kohalt **Täiendatavate tsoonide valimine**.
-1. Valige dialoogiboksi **Tsooni päring** vahekaart **Vahemik** , et lisada rida ruudustikule.
+1. Valige dialoogiboksi **Tsooni päring** vahekaart **Vahemik**, et lisada rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** _Lao tsoon_
@@ -165,8 +165,8 @@ Demoandmete ettevalmistamiseks, et neid saaks kasutada selle teema lõpus kirjel
     - **Korralduse kood:** jätke see väli tühjaks.
     - **Mitmik-SKU:** määrake selle suvandi väärtuseks _Ei_.
 
-1. Valige **Salvesta** , et luua korraldus, millel on teie siiani konfigureeritud sätted.
-1. Valige kiirkaardil **Read** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige **Salvesta**, et luua korraldus, millel on teie siiani konfigureeritud sätted.
+1. Valige kiirkaardil **Read** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** sisestage _1_.
@@ -180,7 +180,7 @@ Demoandmete ettevalmistamiseks, et neid saaks kasutada selle teema lõpus kirjel
     - **Luba tükeldamine:** märkige see ruut.
 
 1. Uue rea salvestamiseks valige **Salvesta**.
-1. Kui teie uus rida on valitud ruudustikul **Read** , valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** , et lisada rida ruudustikku.
+1. Kui teie uus rida on valitud ruudustikul **Read**, valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** sisestage _1_.
@@ -192,7 +192,7 @@ Demoandmete ettevalmistamiseks, et neid saaks kasutada selle teema lõpus kirjel
 
 1. Uue tegevuse salvestamiseks valige **Salvesta**.
 1. Kui uus tegevus on valitud, valige ruudustiku **Asukohakorralduse tegevused** kohalt suvand **Päringu redigeerimine**.
-1. Kuvatakse päringu dialoogiboks, kust saate valida asukohad, millest täiendada. Vahekaardil **Vahemik** valige käsk **Lisa** , et lisada uus rida ruudustikule.
+1. Kuvatakse päringu dialoogiboks, kust saate valida asukohad, millest täiendada. Vahekaardil **Vahemik** valige käsk **Lisa**, et lisada uus rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** _Asukohad_
@@ -214,11 +214,11 @@ Demoandmete ettevalmistamiseks, et neid saaks kasutada selle teema lõpus kirjel
     - **Töötellimuse tüüp:** valige _Ladustamine_.
     - **Tegevuskoht:** valige _6_.
     - **Ladu:** valige _61_.
-    - **Korralduskood:** valige _Tsooni täiend_ , et linkida see asukohakorraldus eelnevalt loodud täiendamismalliga, kasutades eelnevalt loodud koodi.
+    - **Korralduskood:** valige _Tsooni täiend_, et linkida see asukohakorraldus eelnevalt loodud täiendamismalliga, kasutades eelnevalt loodud koodi.
     - **Mitmik-SKU:** määrake selle suvandi väärtuseks _Ei_.
 
-1. Valige **Salvesta** , et luua korraldus, millel on teie siiani konfigureeritud sätted.
-1. Valige kiirkaardil **Read** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige **Salvesta**, et luua korraldus, millel on teie siiani konfigureeritud sätted.
+1. Valige kiirkaardil **Read** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** sisestage _1_.
@@ -232,7 +232,7 @@ Demoandmete ettevalmistamiseks, et neid saaks kasutada selle teema lõpus kirjel
     - **Luba tükeldamine:** märkige see ruut.
 
 1. Uue rea salvestamiseks valige **Salvesta**.
-1. Kui teie uus rida on valitud ruudustikul **Read** , valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** , et lisada rida ruudustikku.
+1. Kui teie uus rida on valitud ruudustikul **Read**, valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** sisestage _1_.
@@ -244,7 +244,7 @@ Demoandmete ettevalmistamiseks, et neid saaks kasutada selle teema lõpus kirjel
 
 1. Uue tegevuse salvestamiseks valige **Salvesta**.
 1. Kui uus tegevus on endiselt valitud, valige ruudustiku **Asukohakorralduse tegevused** kohalt suvand **Päringu redigeerimine**.
-1. Kuvatakse päringu dialoogiboks, kust saate valida tsooni, kuhu täiendada. See tsoon peaks vastama täiendamismallis määratud tsoonile. Vahekaardil **Vahemik** valige käsk **Lisa** , et lisada uus rida ruudustikule.
+1. Kuvatakse päringu dialoogiboks, kust saate valida tsooni, kuhu täiendada. See tsoon peaks vastama täiendamismallis määratud tsoonile. Vahekaardil **Vahemik** valige käsk **Lisa**, et lisada uus rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** _Asukohad_
@@ -275,15 +275,15 @@ Pärast juriidilise isiku **USMF** valimist, lisage nõutavad täiendavad näidi
 
 Järgige neid etappe, et veenduda, kas teie süsteem sisaldab näidisstsenaariumi toetamiseks piisavalt varusid.
 
-1. Veenduge, et kauba *A0001* jaoks oleks vaba kaubavaru komplekteerimistsooni kahes eri asukohas ( *FLOOR* ), mis on määratud täiendamismallis. Kuid kogu varu peaks olema väiksem kui nõutav minimaalne kogus ( *50* ), mis on määratletud täiendamismallis. Sel viisil saate simuleerida, kuidas toimub arvutamine üksiku asukoha asemel terve tsooni jaoks. **Kasutage varude korrigeerimiseks mis tahes laoprotsessi.**
-1. Veenduge, et kauba *A0001* jaoks oleks piisavalt varusid hulgiasukohas, mis on määratud tsooni komplekteerimise asukohakorralduses, kus täiendamistöö peaks komplekteerima kaubad tsooni ID-st *BULK*. Kogu varu peaks olema rohkem kui nõutav maksimaalne kogus ( *150* ), mis on määratletud täiendamismallis.
+1. Veenduge, et kauba *A0001* jaoks oleks vaba kaubavaru komplekteerimistsooni kahes eri asukohas (*FLOOR*), mis on määratud täiendamismallis. Kuid kogu varu peaks olema väiksem kui nõutav minimaalne kogus (*50*), mis on määratletud täiendamismallis. Sel viisil saate simuleerida, kuidas toimub arvutamine üksiku asukoha asemel terve tsooni jaoks. **Kasutage varude korrigeerimiseks mis tahes laoprotsessi.**
+1. Veenduge, et kauba *A0001* jaoks oleks piisavalt varusid hulgiasukohas, mis on määratud tsooni komplekteerimise asukohakorralduses, kus täiendamistöö peaks komplekteerima kaubad tsooni ID-st *BULK*. Kogu varu peaks olema rohkem kui nõutav maksimaalne kogus (*150*), mis on määratletud täiendamismallis.
 1. Valikuline, kuid soovitatav: tehke lao korrigeerimise töölehe loomiseks järgmist.
 
     1. Avage jaotis **Varude haldus \> Töölehe sisestused \> Kaubad \> Varude korrigeerimine**.
     1. Valige suvand **Uus**.
     1. Valige dialoogiboksi **Varude töölehe loomine** väljal **Ladu** väärtus *61*.
     1. Valige nupp **OK**.
-    1. Kasutage kiirkaardil **Töölehe read** nuppu **Uus** , et lisada ruudustikku kolm rida ja seadke järgmised väärtused. Pärast kõigi ridade seadistamise lõpule viimist valige **Salvesta**.
+    1. Kasutage kiirkaardil **Töölehe read** nuppu **Uus**, et lisada ruudustikku kolm rida ja seadke järgmised väärtused. Pärast kõigi ridade seadistamise lõpule viimist valige **Salvesta**.
 
         - **Rida 1:**
 

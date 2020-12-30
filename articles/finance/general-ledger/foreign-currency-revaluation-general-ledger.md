@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006209"
+ms.locfileid: "4442532"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Pearaamatu välisvaluuta ümberarvutamine
 
@@ -61,13 +61,13 @@ Väljade **Alguskuupäev** ja **Lõppkuupäev** väärtused määratlevad kuupä
 
 Välja **Kursi kuupäev** abil saab määratleda kuupäeva, mille puhul vahetuskurss peaks olema vaikeväärtus. Näiteks saate ümber arvutada saldosid kuupäevavahemikus 1. jaanuarist 31. jaanuarini, kuid kasutada 1. veebruari jaoks määratletud vahetuskurssi. 
 
-Valige, millised põhikontod tuleb ümber arvutada: Kõik, Bilanss või Kasum ja kahjum. Ümber arvutatakse ainult ümberarvutamiseks märgitud põhikontod (lehel Põhikontod). Kui soovite põhikontode valikut täiendavalt piirata, kasutage vahekaarti **Kaasatavad kirjed** , et määratleda põhikontode vahemik või üksikud põhikontod. 
+Valige, millised põhikontod tuleb ümber arvutada: Kõik, Bilanss või Kasum ja kahjum. Ümber arvutatakse ainult ümberarvutamiseks märgitud põhikontod (lehel Põhikontod). Kui soovite põhikontode valikut täiendavalt piirata, kasutage vahekaarti **Kaasatavad kirjed**, et määratleda põhikontode vahemik või üksikud põhikontod. 
 
 Ümberarvutusprotsessi saab käitada ühe või mitme juriidilise isiku puhul. Otsingus kuvatakse ainult need juriidilised isikud, kellele teil on juurdepääs. Valige juriidilised isikud, mille puhul soovite ümberarvutamisprotsessi käitada. 
 
 Ümberarvutamise saab käitada ühe või mitme välisvaluuta puhul. Otsingusse kaasatakse kõik valuutad, mis sisestati põhikonto tüübile (Bilanss või Kasum ja kahjum) vastavas kuupäevavahemikus ümberarvutamiseks valitud juriidiliste isikute puhul. Arvestusvaluuta lisatakse loendisse, kuid arvestusvaluuta valimisel ei arvutata midagi ümber. 
 
-Valige suvandi **Eelvaade enne sisestamist** sätteks **Jah** , kui soovite kuvada pearaamatu ümberarvutamise tulemuse eelvaate. Eelvaade pearaamatus erineb müügireskontro ja ostureskontro välisvaluuta ümberarvutamise simulatsioonist. Ostureskontros ja müügireskontros on simulatsioon aruanne, kuid pearaamatul on eelvaade, mida saab sisestada, ilma et ümberarvutusprotsessi tuleks uuesti käitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**. 
+Valige suvandi **Eelvaade enne sisestamist** sätteks **Jah**, kui soovite kuvada pearaamatu ümberarvutamise tulemuse eelvaate. Eelvaade pearaamatus erineb müügireskontro ja ostureskontro välisvaluuta ümberarvutamise simulatsioonist. Ostureskontros ja müügireskontros on simulatsioon aruanne, kuid pearaamatul on eelvaade, mida saab sisestada, ilma et ümberarvutusprotsessi tuleks uuesti käitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**. 
 
 Kui välisvaluuta ümberarvutamise protsess on lõppenud, luuakse kirje iga tsükli ajaloo jälgimiseks.  Iga juriidilise isiku ja sisestamiskihi kohta luuakse eraldi kirje.
 

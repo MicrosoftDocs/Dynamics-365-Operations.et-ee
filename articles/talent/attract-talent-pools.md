@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078039"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527689"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Talendipangaga allikakandidaadid iga rakenduses Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Värbajad ja personalijuhid saavad oma kandidaate Attracti talendikaustade funktsionaalsusega korraldada. Talendikaustad aitavad teil jälgida ja suhelda kõigi kandidaatidega, kes kandideerivad teie ettevõtte töökohtadele.
 
@@ -113,7 +115,7 @@ Kõigil kasutajatel on kandidaatide profiilide üldvaade. Vahekaardil **Profiil*
 
 - Vahekaart **Dokumendid** näitab mistahes dokumente, mille kandidaat on on lisanud oma profiilile töödele kandideerimiste käigus. Seda vahekaarti saate kasutada kandidaadi elulookirjelduste, kaaskirjade, portfoolio ja muu haldamiseks. Selle vahekaardi abil saate ka dokumente lisada.
 
-    Dokumendi vaatamiseks valige dokumentide loendist dokumendi nimi. Saate vaadata rakenduses Microsoft Wordi dokumente, kasutades Microsoft Office 365. Saate dokumendid ka oma arvutisse alla laadida, kasutades iga dokumendi juures valikut **Laadi alla**.
+    Dokumendi vaatamiseks valige dokumentide loendist dokumendi nimi. Rakenduses saate vaadata Microsoft Wordi dokumente Microsoft 365 abil. Saate dokumendid ka oma arvutisse alla laadida, kasutades iga dokumendi juures valikut **Laadi alla**.
 
 - Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate kasutaja sätete abil ühendama oma LinkedIni konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisateabe saamiseks vaadake jaotist [LinkedIn Recruiteriga allikakandidaadid rakenduses Microsoft Dynamics 365 Talent – Attract](./attract-linkedin-recruiter.md).
 

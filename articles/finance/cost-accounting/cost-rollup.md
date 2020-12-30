@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006162"
+ms.locfileid: "4442530"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Kulukomplekti poliitika ja üldkulude arvutus 
 
@@ -186,7 +186,7 @@ Dimensioonihierarhiat **Kasumi- ja kahjumiaruanne** on vaja täiendada uute dime
 | &nbsp;&nbsp;&nbsp;&nbsp;Peamine kulu                        | 10001                   | 10003               |
 | &nbsp;&nbsp;&nbsp;&nbsp;Sekundaarne kulu                         | **SC-CC001**            | **SC-CC004**        |
 
-Looge **Kulu ümberarvestuse poliitika** , kus iga kulukeskus vastendatakse vastava kuluelemendiga, mille tüüp on **Teisene**.
+Looge **Kulu ümberarvestuse poliitika**, kus iga kulukeskus vastendatakse vastava kuluelemendiga, mille tüüp on **Teisene**.
 
 **Kulu ümberarvestuse poliitikad**
 
@@ -211,7 +211,7 @@ Looge **Kulu ümberarvestuse poliitika** , kus iga kulukeskus vastendatakse vast
 |---------|-------------------------|------------------------|------|--------|---------------|
 | 00002   | Kulueralduse tööleht | Fiskaalne                 | 2017    | Periood 1 | Üldkulude arvutus / 01-02-2017 23:51:00 / Pearaamat /2017 / 1. periood |
 
-Süsteem rakendab nüüd **Kulude ümberarvestuse poliitika** , luues **kuluobjekti saldo töölehekirjed**.
+Süsteem rakendab nüüd **Kulude ümberarvestuse poliitika**, luues **kuluobjekti saldo töölehekirjed**.
 
 **Kuluobjekti saldo töölehe sisestused**
 
@@ -225,7 +225,7 @@ Süsteem rakendab nüüd **Kulude ümberarvestuse poliitika** , luues **kuluobje
 > [!NOTE]
 > Luuakse töölehekirjed jaotise **Kulude ümberarvestuse poliitika** reeglite põhjal, kui poliitika on olemas. Kuvatav saldo on üldkulude arvutuse saldo.
 
-Leht **Kuluobjekti kulu saldo töölehekirje üksikasjad** , millele pääseb töölehekirjetest, kuvab saldo saamise viisi.
+Leht **Kuluobjekti kulu saldo töölehekirje üksikasjad**, millele pääseb töölehekirjetest, kuvab saldo saamise viisi.
 
 **Näide: töölehekirje kuluobjektile CC002 finantsid**
 

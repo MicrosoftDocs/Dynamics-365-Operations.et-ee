@@ -19,11 +19,11 @@ ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022563"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4442540"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
@@ -71,7 +71,7 @@ Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut,
 
 - **Liitintervall** – see näitab perioodide arvu, mille korral intress aasta jooksul koguneb. See võib olla kord kuus (12 perioodi aastas), kord kvartalis (4 perioodi aastas), kord poole aasta tagant (2 perioodi aastas) või kord aastas (1 periood aastas). Perioodide arv võetakse arvesse praeguse väärtuse arvutamisel.
 
-- **Alguskuupäev** – see on kuupäev, mil rendileandja annab vara rentnikule kasutamiseks üle. Kõik rendiarvutused ja -kanded põhinevad alguskuupäeval. Alguskuupäev peaks olema perioodi alguses (kuu esimene päev), et tagada järgnevate arvutuste täpsus. Saate kasutada välja **Lepingu allkirja kuupäev** , et sisestada lepingu allkirjastamise tegelik kuupäev.
+- **Alguskuupäev** – see on kuupäev, mil rendileandja annab vara rentnikule kasutamiseks üle. Kõik rendiarvutused ja -kanded põhinevad alguskuupäeval. Alguskuupäev peaks olema perioodi alguses (kuu esimene päev), et tagada järgnevate arvutuste täpsus. Saate kasutada välja **Lepingu allkirja kuupäev**, et sisestada lepingu allkirjastamise tegelik kuupäev.
 
 - **Rendiperiood** – see on rendiperioodi pikkus kuudes.
 
@@ -208,7 +208,7 @@ See kajastab kasutamisõiguse esemeks olev vara ülekantavat bilansi vähendamis
 ## <a name="create-an-asset-lease"></a>Renditava vara loomine
 Uue renditava vara loomiseks läbige järgmised etapid. 
 
-1. Funktsiooni **Vara rentimine** kasutamiseks peate selle lubama tööruumis **Funktsioonihaldus**. Valige tööruumis **Funktsioonihaldus** suvand **Kõik** , et kõik funktsioonid oleksid lehel loetletud. Valige **Vara rentimine** ja seejärel valige **Luba kohe**.
+1. Funktsiooni **Vara rentimine** kasutamiseks peate selle lubama tööruumis **Funktsioonihaldus**. Valige tööruumis **Funktsioonihaldus** suvand **Kõik**, et kõik funktsioonid oleksid lehel loetletud. Valige **Vara rentimine** ja seejärel valige **Luba kohe**.
 2. Avage **Vara rentimine > Ühine > Rendi kokkuvõte**. Sisestage kiirkaardil **Üldine** vajalikud väljad. 
    - **Rendi üksikasjad**
    - **Vara kasulik tööiga (kuudes)**
@@ -225,19 +225,19 @@ Uue renditava vara loomiseks läbige järgmised etapid.
 
 5. Aktiveerige kiirkaart **Üldine**. Arvutatakse **Esialgne kasutamisõiguse esemeks olev vara** ja **rendikohustis**. 
 
-6. Avage kiirkaart **Rendi klassifikatsioonitest** , et kontrollida välja **Rendi tüüp** väärtust. 
+6. Avage kiirkaart **Rendi klassifikatsioonitest**, et kontrollida välja **Rendi tüüp** väärtust. 
 
    Automaatne **rendi tüüp** liigitatakse kriteeriumide alusel, mis on määratletud lehel **Raamatud**.
 
-7.  Avage **Maksegraafik** , mis asub jaotises **Funktsioon**.  
+7.  Avage **Maksegraafik**, mis asub jaotises **Funktsioon**.  
 
-   Lehel **Maksegraafik** on loetletud rendi ID tulevased maksegraafikud. Valige **Kinnita graafik** , et saaksite sisestada **esialgse tuvastamise** kanded. 
+   Lehel **Maksegraafik** on loetletud rendi ID tulevased maksegraafikud. Valige **Kinnita graafik**, et saaksite sisestada **esialgse tuvastamise** kanded. 
 
 [![Esialgse tuvastamise funktsioon](./media/overview-13.png)](./media/overview-13.png)
 
-8. Valige **Esialgne tuvastamine** , et luua esialgse tuvastamise tööleht. 
+8. Valige **Esialgne tuvastamine**, et luua esialgse tuvastamise tööleht. 
 
-9. Valige **Vara rentimise töölehed** , et sisestada esialgse tuvastamise kanne. 
+9. Valige **Vara rentimise töölehed**, et sisestada esialgse tuvastamise kanne. 
 
    Maksegraafikust saate avada üksikasjaliku lehe, kus on loetletud kasutamisõiguse esemeks olev vara kanded. 
  

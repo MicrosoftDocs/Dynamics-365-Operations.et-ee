@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124723"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460894"
 ---
 # <a name="configure-email-settings-in-attract"></a>Attractis meilisätete konfigureerimine
 
@@ -34,7 +34,7 @@ Teie kaubamärk loob usalduse ja aitab teil luua suhteid kandidaatidega, enne ku
 
 Attract võimaldab teil teha järgmisi toiminguid.
 
-- Konfigureerige e-posti sätted nii, et kasutatakse teie ettevõtte Microsoft Exchange'i e-posti teenuse kontot. Sel viisil teavad kandidaadid, et meilid tulevad teie ettevõttest. Näiteks saate konfigureerida sätteid nii, et kandidaadid saavad e-kirju aadressilt `recruiting@contoso.com`, mitte `contoso@microsoft.com`.
+- Konfigureerida e-posti sätted nii, et kasutatakse teie ettevõtte Microsoft Exchange'i e-posti teenuse kontot. Sel viisil teavad kandidaadid, et meilid tulevad teie ettevõttest. Näiteks saate konfigureerida sätteid nii, et kandidaadid saavad e-kirju aadressilt `recruiting@contoso.com`, mitte `contoso@microsoft.com`.
 - Loogu kogu meilisuhtlusele ühtne tootjakohanduse, määrates kõigile meilimallidele üldine päis ja jalus. 
 
 > [!NOTE]
@@ -52,7 +52,7 @@ Attract võimaldab teil teha järgmisi toiminguid.
     Lisateavet ühiskasutatava meilikonto loomise kohta vt teemast [Ühiskasutatavad postkastid rakenduses Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes).
 
 3. Logige Microsofti sisselogimise aknas sisse, kasutades oma ettevõtte mandaate.
-4. Kui te ei ole veel meiliteenuse kontot seadistanud või kui soovite lisada uue, valige käsk **Lisa uus teenusekonto**ja sisestage seejärel oma e-posti andmed. Kui olete juba selle meiliteenuse konto seadistanud, mida soovite kasutada, valige see.
+4. Kui te ei ole veel meiliteenuse kontot seadistanud või kui soovite lisada uue, valige käsk **Lisa uus teenusekonto** ja sisestage seejärel oma e-posti andmed. Kui olete juba selle meiliteenuse konto seadistanud, mida soovite kasutada, valige see.
 
 Kui teie meiliteenuse konto on edukalt konfigureeritud, kuvatakse see jaotises **Meiliteenuse kontod**.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817302"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517228"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
 
@@ -197,15 +197,15 @@ Pärast faili global.json värskendamist ja muudatuste avaldamist ilmub sisselog
 
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
-[Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
 [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
-[Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
-[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+[Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
 [B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
 

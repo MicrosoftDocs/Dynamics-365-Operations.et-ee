@@ -1,5 +1,5 @@
 ---
-title: E-kaubanduse saidi seostamine võrgukanaliga
+title: Dynamics 365 Commerce'i saidi seostamine veebikanaliga
 description: See teema selgitab, kuidas siduda oma rakenduse Microsoft Dynamics 365 Commerce saiti ühe või mitme võrgupoega.
 author: bicyclingfool
 manager: AnnBe
@@ -18,23 +18,22 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b7c393ec2f716c7057a77d0f3c3c1a9f79ee8c68
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975364"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517326"
 ---
-# <a name="associate-an-e-commerce-site-with-an-online-channel"></a>E-kaubanduse saidi seostamine võrgukanaliga
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Dynamics 365 Commerce'i saidi seostamine veebikanaliga
 
 [!include [banner](includes/banner.md)]
 
-
 See teema selgitab, kuidas siduda oma rakenduse Microsoft Dynamics 365 Commerce saiti ühe või mitme võrgupoega. 
 
-Kui olete e-kaubanduse Microsoft Dynamicsi teenust Lifecycle Services (LCS) kasutades ette valmistanud, olete valmis looma oma esimese e-kaubanduse veebisaidi. Algse saidi loomise osana seostate saidi eelnevalt loodud võrgupoega. See samm seob saidi veebikanaliga ja võimaldab saidil kuvada navigeerimise hierarhiat, tooteid, kategooriaid, hindu, tarnevõimalusi ja kõike muud, mille veebipoes määratlete.
+Kui olete Dynamics 365 Commerce'i e-kaubanduse keskkonna Microsoft Dynamics Lifecycle Servicesi (LCS) portaali kasutades ette valmistanud, olete valmis looma oma esimest e-kaubanduse veebisaiti. Algse saidi loomise osana seostate saidi eelnevalt loodud võrgupoega. See samm seob saidi veebikanaliga ja võimaldab saidil kuvada navigeerimise hierarhiat, tooteid, kategooriaid, hindu, tarnevõimalusi ja kõike muud, mille veebipoes määratlete.
 
-LCS-is uue saidi loomiseks ja sellega veebipoe seostamiseks valige saidi autorluse keskkonna link. Seejärel valige saidi autorluse keskkonna lehel suvand **Uus sait**. Dialoogiaknas **Uus sait** peate sisestama oma saidi kohta mõned põhiandmed. Esitatava teabe täielikku selgitust vaadake teemast [Uue e-kaubanduse saidi loomine](create-ecommerce-site.md).
+LCS-is uue saidi loomiseks ja sellega veebipoe seostamiseks valige saidi autorluse keskkonna link. Seejärel valige saidi autorluse keskkonna lehel suvand **Uus sait**. Dialoogiaknas **Uus sait** peate sisestama oma saidi kohta mõned põhiandmed. Esitatava teabe täielikku selgitust vaadake artiklist [Uue e-kaubanduse saidi loomine](create-ecommerce-site.md).
 
 Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, valides vahekaardi **Tooted**. Peaksite nägema veebipoele eraldatud toodete valikut. Saate kasutada ka leheküljel üleval vasakul ripploendit, et pääseda toodete juurde kategooriate põhjal.
 
@@ -42,9 +41,9 @@ Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, val
 
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
-[Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
+[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
-[e-Commerce saidi loomine](create-ecommerce-site.md)
+[E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 

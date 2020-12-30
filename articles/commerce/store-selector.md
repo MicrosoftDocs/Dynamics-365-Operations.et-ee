@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818246"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665268"
 ---
 # <a name="store-selector-module"></a>Kaupluse valija moodul
 
@@ -47,7 +47,7 @@ Kaupluse valija moodul võimaldab kasutajatel sisestada asukoha (linn, maakond, 
 
 Kaupluse valija moodul on integreeritud [Bing Maps REST-rakenduse programmeerimise liidestega (API)](https://docs.microsoft.com/bingmaps/rest-services/) Bingi geokodeerimise ja automaatse soovitamise funktsioonide kasutamiseks. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Geokodeerimise API-d kasutatakse asukoha teisendamiseks laius-ja pikkuskraadideks. Autosuggest API-ga integreerimist kasutatakse otsingusoovituste näitamiseks, kui kasutajad sisestavad asukohad otsinguväljale.
 
-Autosuggest REST API puhul peate tagama, et järgmised URL-id on lubatud (tuntud ka kui "whitelisted") saidi sisu turbepoliitikat (CSP) arvestades. Seadistus toimub Commerce'i saidiehitajas, lisades lubatud URL-id erinevatele saidi CSP-direktiividele (nt **img-src**). Lisateavet leiate teemast [Sisu turbepoliitika](manage-csp.md). 
+Autosuggest REST API puhul peate tagama, et järgmised URL-id on lubatud saidi sisu turbepoliitikat (CSP) arvestades. Seadistus toimub Commerce'i saidiehitajas, lisades lubatud URL-id erinevatele saidi CSP-direktiividele (nt **img-src**). Lisateavet leiate teemast [Sisu turbepoliitika](manage-csp.md). 
 
 - Lisage direktiivile **connect-src** väärtus **&#42;.bing.com**.
 - Lisage direktiivile **img-src** väärtus **&#42;.virtualearth.net**.
@@ -65,6 +65,9 @@ Selleks, et see stsenaarium töötaks, tuleb toodete tarneviisiks konfigureerida
 Järgmisel pildil on näide, kuidas kasutatakse kaupluse valija moodulit PDP-s.
 
 ![Kaupluse valija mooduli näide PDP-s](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Versioonis 10.0.16 ja uuemates versioonides saab lubada uue funktsiooni, mis võimaldab organisatsioonil määratleda klientide jaoks mitu vastuvõtuviisi.  Kui see funktsioon on lubatud, täiustatakse kaupluse valijat ja teisi e-kaubanduse mooduleid, et võimaldada ostjal valida potentsiaalselt mitme pealevõtmise võimaluse vahel, kui see on konfigureeritud.  Lisateavet selle funktsiooni kohta leiate [sellest dokumentatsioonist](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Leia kauplused režiim
 

@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000791"
+ms.locfileid: "4442525"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Hankija arve sisestamise tööruum
 
@@ -46,7 +46,7 @@ Peate selle häälestuse lõpule viima enne, kui andmeid saab kuvada Power BI vi
 6. Määrake suvandi **Imporditud arvete automaatne edastamine töövoole** väärtuseks **Jah**.
 7. Kui toote sissetulekud tuleb automaatselt vastendada, määrake suvandi **Toote sissetulekute automaatne vastendamine arveridadele** väärtuseks **Jah**.
 8. Vaadake läbi ülejäänud valikulised sätted ja konfigureerige need vastavalt oma organisatsiooni vajadustele.
-9. Avage **Süsteemihaldus \> Seadistamine \> Süsteemi parameetrid** , et määrata väljad **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
+9. Avage **Süsteemihaldus \> Seadistamine \> Süsteemi parameetrid**, et määrata väljad **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
 10. Avage **Pearaamat \> Seadistamine \> Pearaamat** ja määrake väljad **Raamatupidamise valuuta** ja **Vahetuskursi tüüp**.
 11. Avage **Pearaamat \> Valuutad \> Valuuta vahetuskursid** ja sisestage kandevaluuta ja arvestusvaluuta ning arvestusvaluuta ja süsteemivaluuta vahelised vahetuskursid.
 12. Avage **Süsteemihaldus \> Seadistamine \> Üksuse kauplus** ja otsige üles üksus **Hankija arve automatiseerimise mõõdik**. Valige **Värskenda**.
@@ -72,7 +72,7 @@ Vaate **Minu töö** jaotise **Ootel olevate arvete kokkuvõte** paanid annavad 
 
 Paani **Hankija arvete taastamine** kasutamiseks peab funktsioon olema ostureskontro parameetrites sisse lülitatud. Avage **Ostureskontro \> Ostureskontro parameetrid** ja seejärel määrake vahekaardil **Arve** suvandi **Luba hankija arve taastamine** väärtuseks **Jah**.
 
-Kui funktsioon on sisse lülitatud, kuvatakse töölehe jaotises **Töölehed** kolm kokku grupeeritud paani. Need paanid on **Töölehed** , **Töölehed – mulle määratud** ja **Arvekaust**. 
+Kui funktsioon on sisse lülitatud, kuvatakse töölehe jaotises **Töölehed** kolm kokku grupeeritud paani. Need paanid on **Töölehed**, **Töölehed – mulle määratud** ja **Arvekaust**. 
 
 Jaotises **Ootel olevate arvete kokkuvõte** kuvatav teave käib ettevõtte kohta, mis on määratud teie vaikeettevõtteks sisselogimisel.
 
@@ -86,7 +86,7 @@ Uue arve kirje loomiseks valige **Uus** ja seejärel valige loendist üks järgm
 - Arveregister
 - Arve kinnitamine
 
-Pange tähele, et teie loodud kirje põhineb ettevõtte filtril, mitte ettevõttel, kuhu olete sisse logitud. Näiteks olete sisse logitud ettevõttesse **UMSF** , kuid ettevõtte filtriks on seatud **GBSI**. Sel juhul, kui valite suvandi **Uus** ja valite seejärel loendist kirje tüübi, luuakse kirje ettevõttes GBSI.
+Pange tähele, et teie loodud kirje põhineb ettevõtte filtril, mitte ettevõttel, kuhu olete sisse logitud. Näiteks olete sisse logitud ettevõttesse **UMSF**, kuid ettevõtte filtriks on seatud **GBSI**. Sel juhul, kui valite suvandi **Uus** ja valite seejärel loendist kirje tüübi, luuakse kirje ettevõttes GBSI.
 
 ### <a name="documents-not-invoiced-grids"></a>Arveldamata dokumentide ruudustikud
 
@@ -102,7 +102,7 @@ Ruudustikus **Ostutellimuse otsimine** saate kasutada välja **Otsing** kindla o
 
 ### <a name="related-information"></a>Seostuv teave
 
-Tööruumi paremas servas olevate linkide abil saate kuvada teavet sisestatud arvete kohta. Nende linkide hulka kuuluvad **Avatud hankija arved** , **Arve tööleht** ja **Arve ajalugu ja võrdlemise üksikasjad**. Jaotises **Hankijad** pääsete juurde filtreeritud loendile, kus kuvatakse kõik ootel olevad hankijad, või saate kasutada linki **Kõik hankijad**. Saadaval on ka lingid **Kõik ostutellimused** ja **Avatud ettemaksud**.
+Tööruumi paremas servas olevate linkide abil saate kuvada teavet sisestatud arvete kohta. Nende linkide hulka kuuluvad **Avatud hankija arved**, **Arve tööleht** ja **Arve ajalugu ja võrdlemise üksikasjad**. Jaotises **Hankijad** pääsete juurde filtreeritud loendile, kus kuvatakse kõik ootel olevad hankijad, või saate kasutada linki **Kõik hankijad**. Saadaval on ka lingid **Kõik ostutellimused** ja **Avatud ettemaksud**.
 
 ### <a name="analytics--all-companies-page"></a>Analüüs – kõikide ettevõtete leht
 

@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209118"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528895"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integreerimine lahendusega Microsoft Dynamics 365 Field Service – ülevaade
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Tarneahela juhtimine võimaldab äriprotsesside sünkrooniminst rakenduste Dynamics 365 Supply Chain Management ja Dynamics 365 Field Service vahel. Integreerimisstsenaariume konfigureeritakse lubama äriprotsesside sünkroonimist laiendatavates andmeintegraatori mallides ja teenuses Common Data Service.
 Kohandatud integratsiooniprojektide loomiseks saab kasutada standardmalle, kus standardseid ja kohandatud lisavälju ja üksusi saab integratsiooni korrigeerimiseks ja konkreetsete ärivajadustega kooskõlla viimiseks vastendada. 
@@ -62,10 +64,10 @@ Lisafunktsioon selles teises etapis on suunatud väljatehnikutele ülevaate andm
 ![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Rakenduste Field Service ja Supply Chain Management integratsiooni teises faasis võimaldatakse sünkroonida järgmisi malle:
-- Laod (rakendus Supply Chain Management rakendusele Field Service) – laod rakendusest Supply Chain Management rakendusse Field Service [Täpsem päring] 
-- Tootevarud (rakendus Supply Chain Management rakendusele Field Service) – varude taseme teave rakendusest Supply Chain Management rakendusse Field Service [Täpsem päring] 
-- Lao korrigeerimine (rakendus Field Service rakendusele Supply Chain Management) – lao korrigeerimised rakendusest Field Service rakendusse Supply Chain Management [Täpsem päring] 
-- Varude ülekanded (rakendus Field Service rakendusele Supply Chain Management) – varude ülekanded rakendusest Field Service rakendusse Supply Chain Management [Täpsem päring] 
+- Laod (rakendus Supply Chain Management rakendusele Field Service) – laod rakendusest Supply Chain Management rakendusse Field Service [täpsem päring] 
+- Tootevarud (rakendus Supply Chain Management rakendusele Field Service) – varude taseme teave rakendusest Supply Chain Management rakendusse Field Service [täpsem päring] 
+- Lao korrigeerimine (rakendus Field Service rakendusele Supply Chain Management) – lao korrigeerimised rakendusest Field Service rakendusse Supply Chain Management [täpsem päring] 
+- Varude ülekanded (rakendus Field Service rakendusele Supply Chain Management) – varude ülekanded rakendusest Field Service rakendusse Supply Chain Management [täpsem päring] 
 - Projektid (rakendus Supply Chain Management rakendusele Field Service) – projektiloend rakendusest Supply Chain Management rakendusse Field Service 
 - Projekti töötellimused (rakendus Field Service rakendusele Supply Chain Management) – töötellimused rakenduses Field Service müügitellimuste kohta rakenduses Supply Chain Management, koos projektitoega [täpsem päring] 
 - Rakenduse Field Service tooted laoühikuga (Supply Chain Management müügile) – rakenduse Supply Chain Management „Müüdavad väljastatud tooted” müügile „Tooted” rakenduse Field Service jaoks, sh laoühikud 

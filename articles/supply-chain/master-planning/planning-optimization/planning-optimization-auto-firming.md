@@ -1,5 +1,5 @@
 ---
-title: Automaatkinnitamine planeerimise optimiseerimisega
+title: Automaatne kinnitamine planeerimise optimeerimisega
 description: Selles teemas selgitatakse, kuidas kasutada automaatkinnitamist koos planeerimise optimeerimisega.
 author: ChristianRytt
 manager: tfehr
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383684"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594522"
 ---
-# <a name="auto-firming-with-planning-optimization"></a>Automaatkinnitamine planeerimise optimiseerimisega
+# <a name="autofirming-with-planning-optimization"></a>Automaatne kinnitamine planeerimise optimeerimisega
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,12 +35,12 @@ Automaatkinnitamine võimaldab teil kinnitada (st vabastada) plaanitud tellimuse
 > [!NOTE]
 > Plaanitud ostutellimuse automaatkinnitamine saab aset leida ainult siis, kui üksus on hankijaga seostatud.
 
-## <a name="turn-on-auto-firming"></a>Automaatkinnitamise sisselülitamine
+## <a name="turn-on-autofirming"></a>Automaatkinnitamise sisselülitamine
 
 Automaatkinnitamise sisselülitamiseks toimige järgmiselt.
 
-1. Valige tööruumis **Funktsiooni haldus** vahekaardil**Uus** loendist suvand **Automaatkinnitus planeerimise optimeerimine**. Kui funktsioon vahekaardile **Uus** ei ilmu, vaadake vahekaartidelt **Pole lubatud** ja **Kõik**.
-1. Valige **Luba kohe**. Teise võimalusena valige **Graafik**ja seejärel valige kellaaeg, millal soovite funktsiooni sisse lülitada.
+1. Valige tööruumis **Funktsiooni haldus** vahekaardil **Uus** loendist suvand **Automaatkinnitus planeerimise optimeerimine**. Kui funktsioon vahekaardile **Uus** ei ilmu, vaadake vahekaartidelt **Pole lubatud** ja **Kõik**.
+1. Valige **Luba kohe**. Teise võimalusena valige **Graafik** ja seejärel valige kellaaeg, millal soovite funktsiooni sisse lülitada.
 
 ## <a name="set-up-the-firming-time-fence"></a>Kinnitamise ajalimiidi häälestamine
 
@@ -48,13 +48,13 @@ Kinnitamise ajapiir arvutatakse koondplaneerimise käivitamise kuupäevast edasi
 
 - Katvusgrupi vaikimisi kinnitamise ajapiiri määramiseks avage **Koondplaneerimine** \> **Seadistus** \> **Laovarud** \> **Katvusgrupid** ja valige katvusgrupp. Seejärel sisestage kiirkaardil **Muu** väljale **Automaatse kinnitamise ajapiir (päevades)** päevade arv.
 - Konkreetse kauba katvusgrupi jaoks märatud kinnitamise ajapiiri ülekirjutamiseks avage **Tooteteabe haldus** \> **Väljastatud tooted**, seejärel valige Toimingupaanil **Plaan** ja valige seejärel **Kauba laovarud**. Seejärel valige vahekaardil **Üldine** suvand **Ajapiiride alistamine** ja sisestage väljale **Automaatse kinnitamise ajapiir (päevad)** päevade arv.
-- Konkreetse koondplaani katvusgrupi ja laovarude haldamise jaoks määratletud kinnitamise ajapiiri ülekirjutamiseks avage **Koondplaneerimine** \> **Seadistus** \> **Koonplaanid** ja valige koondplaan. Seejärel määrake kiirkaardil **Ajapiir päevades** suvand **Külmuta** olekusse **Jah** ja sisestage päevade arv.
+- Konkreetse koondplaani katvusgrupi ja laovarude haldamise jaoks määratletud kinnitamise ajapiiri ülekirjutamiseks avage **Koondplaneerimine** \> **Seadistus** \> **Koonplaanid** ja valige koondplaan. Seejärel määrake kiirkaardil **Ajapiir päevades** suvand **Kinnitamine** olekusse **Jah** ja sisestage päevade arv.
 
-Kui planeerimise optimeerimist kasutava koondplaneerimise käivitamise automaatne kinnitamine on sisse lülitatud, tehakse automaatse kinnitamise protsess vastavalt automaatse kinnitamise seadistusele. Kui automaatne kinnitamine ei ole sisse lülitatud või kui planeerimine käivitatakse lehelt **Netonõuded**, jäetakse automaatse kinnitamise protsess vahele.
+Kui planeerimise optimeerimist kasutava koondplaneerimise käivitamise automaatne kinnitamine on sisse lülitatud, tehakse automaatse kinnitamise protsess vastavalt automaatse kinnitamise häälestusele. Kui automaatne kinnitamine ei ole sisse lülitatud või kui planeerimine käivitatakse lehelt **Netonõuded**, jäetakse automaatse kinnitamise protsess vahele.
 
 ## <a name="planning-optimization-vs-the-built-in-supply-chain-management-planning-engine"></a>Planeerimise optimeerimine vs. sisseehitatud tarneahela halduse planeerimismootor.
 
-Nii planeerimise optimeerimine kui ka rakendusse Microsoft Dynamics 365 Supply Chain Management sisseehitatud planeerimismootorit saab planeeritud tellimuste automaatseks kinnitamiseks. Kuid on ka olulisi erinevusi. Näiteks kui planeerimise optimeerimine kasutab tellimuse kuupäeva (s.o alguskuupäev), et määrata, millised plaanitud tellimused kinnitada, siis sisseehitatud tarneahela halduse planeerimismootor kasutab vajaduse kuupäeva (s.o lõppkuupäev). Siin on erinevuste kokkuvõte.
+Nii planeerimise optimeerimine kui ka rakendusse Microsoft Dynamics 365 Supply Chain Management sisseehitatud planeerimismootorit saab kasutada planeeritud tellimuste automaatseks kinnitamiseks. Kuid on ka olulisi erinevusi. Näiteks kui planeerimise optimeerimine kasutab tellimuse kuupäeva (s.o alguskuupäev), et määrata, millised plaanitud tellimused kinnitada, siis sisseehitatud tarneahela halduse planeerimismootor kasutab vajaduse kuupäeva (s.o lõppkuupäev). Siin on erinevuste kokkuvõte.
 
 **Planeerimise optimeerimine**
 

@@ -1,6 +1,6 @@
 ---
 title: Uue e-kaubanduse rentniku juurutamine
-description: Selles teemas kirjeldatakse, kuidas juurutada uut e-kaubanduse rentnikku, kasutades Microsoft Dynamicsi teenust Lifecycle Services (LCS).
+description: Selles teemas kirjeldatakse, kuidas juurutada uut Dynamics 365 Commerce'i e-kaubanduse saiti, kasutades teenust Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
 ms.date: 07/02/2020
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533271"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517278"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uue e-kaubanduse rentniku juurutamine
 
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas juurutada uut e-kaubanduse saiti, kasutades Microsoft Dynamicsi teenust Lifecycle Services (LCS).
+Selles teemas kirjeldatakse, kuidas juurutada uut Dynamics 365 Commerce'i e-kaubanduse saiti, kasutades teenust Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Ülevaade
 
@@ -37,7 +37,7 @@ Microsoft Dynamicsi teenus Lifecycle Services (LCS) on pilvepõhine koostöö t�
 
 Lisateavet LCS-i kohta vaadake teemast [Teenuse Lifecycle Services kasutusjuhend](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
-## <a name="get-started"></a>Alustamine
+## <a name="get-started"></a>Alustage
 
 Enne e-kaubanduse lähtestamist tuleb teil lähtestada projekt, keskkond ja Retail Cloud Scale Unit (RCSU). LCS-i lähtestamiseks peab teil olema kas projekti omaniku või keskkonnahalduri rolli õigused. Tootmise ja liivakasti keskkonna topoloogiad on toetatud.
 
@@ -45,12 +45,12 @@ Lisateavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](https://do
 
 ## <a name="initialize-e-commerce"></a>E-kaubanduse lähtestamine
 
-Kasutage seda protseduuri, et lähtestada e-kaubanduse funktsiooni olemasolevas keskkonnas.
+Kasutage seda protseduuri, et lähtestada e-kaubanduse funktsioon olemasolevas keskkonnas.
 
 Enne alustamist veenduge, et teil on järgmine vajalik teave.
 
 - Kasutatav RCSU.
-- Microsoft Azure Active Directory turvagrupp, mida kasutatakse e-kaubanduse süsteemiadministraatorite jaoks.
+- Microsoft Azure Active Directory turbegrupp, mida kasutatakse e-kaubanduse süsteemiadministraatorite jaoks.
 - Microsoft Azure Active Directory turvagrupp, mida kasutatakse hinnangute ja arvustuste moderaatorite jaoks.
 - Keskkonnaga seostatavad domeenid.
 
@@ -80,16 +80,16 @@ Pärast nõutava teabe kogumist tehke e-kaubanduse lähtestamiseks järgmist.
 1. Järgmisel lehel täitke nõutud teave ja seejärel esitage vorm. Olete naasnud vahekaardile **E-kaubandus**, kus peaksite nägema, et lähtestamine on alanud.
 1. Lähtestamise oleku vaatamiseks kas vajutage **Lähtesta** või naaske hiljem vahekaardile **E-kaubandus**.
     
-Kui e-kaubandus on LCS-ist lähtestatud, valmistab süsteem ette mitu komponenti, mis on e-kaubanduse vahekaardile vajalikud ja seostab need keskkonnaga. Pärast ettevalmistuse lõpuleviimist uuendatakse vahekaarti **E-kaubandus** lehel **Jaemüügi haldus**, et kajastada ettevalmistamist. Lehel kuvatakse uusimad kohanduste juurutused ja kõikide teiste käimasolevate juurutuste olekud. See sisaldab ka linke e-kaubanduse saidile ja e-kaubanduse saidi ehitajat, kus saidid on tehtud.
+Kui e-kaubandus on LCS-ist lähtestatud, valmistab süsteem ette mitu komponenti, mis on e-kaubandusele vajalikud, ja seostab need keskkonnaga. Pärast ettevalmistuse lõpuleviimist uuendatakse vahekaarti **E-kaubandus** lehel **Jaemüügi haldus**, et kajastada ettevalmistamist. Lehel kuvatakse uusimad kohanduste juurutused ja kõikide teiste käimasolevate juurutuste olekud. See sisaldab ka linke e-kaubanduse saidile ja Commerce'i saidiehitajat, kus saidid on tehtud.
 
-## <a name="access-site-builder"></a>Juurdepääs saidiehitajale
+## <a name="access-commerce-site-builder"></a>Juurdepääs Commerce'i saidiehitajale
 
-Saidiehitajale juurdepääsuks avage vahekaart **e-Commerce** LCS lehel **Jaemüügi haldur** ja valige link **e-Commerce'i saidihalduse tööriist**. Saidiehitaja sihtleht kuvab rentniku tasemel vaadet. Sellelt lehelt saate teha järgmist.
+Commerce'i saidiehitajale juurdepääsuks avage vahekaart **E-kaubandus** LCS-i lehel **Jaemüügi haldus** ja valige link **E-kaubanduse saidihalduse tööriist**. Saidiehitaja sihtleht kuvab rentniku tasemel vaadet. Sellelt lehelt saate teha järgmist.
 
 - Rentniku taseme sätete muutmine.
 - Navigeerige mistahes loodud saidile ja omage vaatamiseks õigusi. 
 - Juurdepääs ülevaadete funktsioonidele, nagu modereerimine ja aruandlus.
-- Uue saidi loomine. Lisateavet uue saidi loomise kohta vt jaotisest [Uue e-kaubanduse saidi loomine](create-ecommerce-site.md). 
+- Uue saidi loomine. Lisateavet uue saidi loomise kohta vt jaotisest [E-kaubanduse saidi loomine](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -97,11 +97,11 @@ Saidiehitajale juurdepääsuks avage vahekaart **e-Commerce** LCS lehel **Jaemü
 
 [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
-[Veebisaidi seostamine kanaliga](associate-site-online-store.md)
+[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
-[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+[Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
 [B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
 

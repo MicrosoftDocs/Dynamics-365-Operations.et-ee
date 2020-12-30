@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa984a01e9da30e6da07516fa2986833366a882b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896723"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527140"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Mis on Dynamics 365 Talent-is uut või mida on muudetud (19. november 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles artiklis kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -41,9 +43,9 @@ See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Tal
 
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2621. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-31-for-finance-and-operations-apps"></a>Lahenduse Finance and Operations rakenduste platvormivärskendus 31
+### <a name="platform-update-31-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendus 31
 
-Lisateavet vt [Finance and Operationsi rakenduste platvormi värskenduse 31 eelvaatefunktsioonid (jaanuar 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
+Lisateavet vt [Finance and Operations rakenduste platvormi värskenduse 31 eelvaatefunktsioonid (jaanuar 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
 
 ### <a name="feature-management-workspace-383856"></a>Funktsioonihalduse tööruum (383856)
 

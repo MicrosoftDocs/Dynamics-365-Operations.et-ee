@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
 ms.openlocfilehash: c009f82e69bff0e4ea540514de8f9e60eca1e466
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006347"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460966"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Värbamisandmete muudatuste jälgimine
 
@@ -35,7 +35,7 @@ Muudatuste jälgimiseks värbamisandmetes toimige järgmiselt.
 
 1. Valige [Power Appsis](https://web.powerapps.com) sobiv keskkond.
 
-2. Valige **Sätted** (hammasratta ikoon), valige **Täpsemad kohandused**ja seejärel **Ressursid** jaotises **Arendaja ressursid**. 
+2. Valige **Sätted** (hammasratta ikoon), valige **Täpsemad kohandused** ja seejärel **Ressursid** jaotises **Arendaja ressursid**. 
 
 3. Lehel **Arendaja ressursid** kopeerige väärtus väljale **Eksemplari veebi API väärtus**. Näiteks võib väärtus välja näha selline: https://yourorgname.api.crm.dynamics.com/api/data/v9.1/.
 

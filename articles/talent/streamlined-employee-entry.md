@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b73b420c2eb75077814fbfeb6cd17404c7efc11e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915197"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4460985"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Sujuvam töötajate sisestamine ja navigeerimine
 
@@ -68,12 +68,12 @@ Töölehe tegevuspaan on ümber korraldatud, et kaasata vähem suvandeid. Teave 
 
 - Töö
 - Isik
-- Lahkumine
-- Kompensatsioon
-- Soodustused
+- Puhkus
+- Hüvitus
+- Kasu
 - Vastavus
 
-Lisaks annab kasutaja põhilehele vahekaardi uued **Lingid** põhiasukohale juurdepääsu kogu seotud teabele töötaja kohta.
+Lisaks annab kasutaja põhilehel uus **Lingid** vahekaart põhiasukohale juurdepääsu kogu seotud teabele töötaja kohta.
 
 Nende muudatuste tõttu võidakse teave kuvada teises asukohas, kui olete harjunud. Näiteks töötaja vormil varem kuvatud palgaandmed kuvatakse nüüd tegevuspaanil jaotises **Kompensatsioon > Palgad** ja vahekaardil **Isiklik teave** on nüüd nupp **Lisateave**, et peita väljad, millele sageli juurde ei pääse.
 
@@ -81,7 +81,7 @@ Nende muudatuste tõttu võidakse teave kuvada teises asukohas, kui olete harjun
 
 ## <a name="work-history"></a>Tööajalugu
 
-Vahekaardil **Töötamise ajalugu** kuvatakse kõigi juriidiliste isikute töötamise ajalugu ja see on saadaval väljunud, aktiivsetele ning ootel töötajatele ja töövõtjatele. Nüüd saate vaadata kogu töötamise ajalugu korraga juriidiliste isikute jaoks, kellele teil on juurdepääs. Lisaks saate redigeerida teavet iga töötamise ajaloo kirje kohta, muutmata andmete konteksti. Saate värskendada kogu teabe otse lehel. 
+Vahekaardil **Töötamise ajalugu** kuvatakse kõikide juriidiliste isikute töötamise ajalugu ja see on saadaval väljunud, aktiivsetele ning ootel töötajatele ja töövõtjatele. Nüüd saate vaadata kogu töötamise ajalugu korraga juriidiliste isikute jaoks, kellele teil on juurdepääs. Lisaks saate redigeerida teavet iga töötamise ajaloo kirje kohta, muutmata andmete konteksti. Saate värskendada kogu teabe otse lehel. 
 
 [![Tööajalugu](./media/Worker-work-history.png)](./media/Worker-work-history.png)
 

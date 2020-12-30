@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: feb39966d98fa7bde9a6bfad26b07fbd224da59b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897622"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528027"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (9. juuli 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -47,9 +49,9 @@ See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Tal
 
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2374.
 
-### <a name="platform-update-28-for-finance-and-operations"></a>Finance and Operationsi 28. platvormi värskendus
+### <a name="platform-update-28-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 28
 
-Finance and Operationsi platvormivärskenduse 28 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 28 (juuli 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Finance and Operations platvormivärskenduse 28 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 28 (juuli 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Üksuse tugi ühise andmeteenuse Common Data Service kohandatud väljadele 
 

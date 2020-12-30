@@ -3,7 +3,7 @@ title: Laotöö juhtimine töömallide ja asukohadirektiividega
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldust määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: tfehr
-ms.date: 02/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e000f2779c50d3216a38d55df659bd683cadf6eb
-ms.sourcegitcommit: ecad92c9cb7e9e57688e678f79f747673c921df5
+ms.openlocfilehash: 21f6240b247433c7448a9aa5543996f19b3a25dd
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3692158"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517424"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Laotöö juhtimine töömallide ja asukohadirektiividega
 
@@ -39,17 +39,22 @@ Leht **Töömallid** võimaldab teil määratleda tööüksuse toimingud, mida t
 
 Töömallid koosnevad päisest ja seostatud ridadest. Iga töömall on kindlale *töö tellimuse tüübile*. Paljud töötellimuse tüübid on seotud lähtedokumentidega, nagu ostu- või müügitellimused. Kuid muud töötellimuse tüübid esindavad eraldiseisvaid laoprotsesse, nagu tsükliline inventuur. *Töökausta ID* võimaldab tööd gruppidesse korraldada. 
 
-Töö päise määratluses olevaid sätteid saab kasutada selleks, et määrata, millal tuleb luua uus tööüksus. Näiteks saate määrata komplekteerimisridade maksimaalse arvu ja maksimaalse eeldatava komplekteerimisaja. Kui müügitellimuse komplekteerimisprotsessi töö ületab kummgi nendest väärtustest, jaotatakse see töö kaheks tööüksuseks. 
+Kasutage tööpäise määratluses olevaid sätteid, et määrata, millal tuleb luua uus tööüksus. Näiteks saate määrata komplekteerimisridade maksimaalse arvu ja maksimaalse eeldatava komplekteerimisaja. Kui müügitellimuse komplekteerimisprotsessi töö ületab kummgi nendest väärtustest, jaotatakse see töö kaheks tööüksuseks.
 
-Tööread näitavad füüsilisi ülesandeid, mis on töö jätkamiseks nõutavad. Näiteks väljamineva laoprotsessi jaoks võib olla töörida kaupade komplekteerimise kohta laos ja teine rida nende kaupade panemise kohta koondusalale. Seal võib olla täiendav rida kaupade komplekteerimise kohta koondusalalt ja teine rida kaupade laadimisest autosse osana laadimisprotsessist. Saate määrata töömallide ridadele *korralduse koodi*. Korralduse kood lingitakse asukohakorraldusega ja see aitab seega tagada, et laotööd töödeldakse laos õiges kohas. 
+Kasutage nuppu **Tööpäise piirid**, et määrata, millal süsteem peaks looma uusi tööpäiseid. Näiteks, et luua tööpäis igale _tellimuse numbrile_, valige toimingupaanil **Redigeeri päringut** ja siis lisage väli **Tellimuse number** päringuredaktoris vahekaardile **Sortimine**. Välju, mis on lisatud **Sortimise** vahekaardile, saab valida *grupeerimisväljadena*. Grupeerimisväljade määramiseks valige toimingupaanil **Tööpäise piirid** ja seejärel valige märkige iga välja puhul, mida soovite kasutada grupeerimisväljana, märkeruut veerus **Grupeeri selle välja järgi**.
 
-Saate seadistada päringu, et juhtida, millal konkreetset töömalli kasutatakse. Näiteks saate määrata piirangu, nii et kindlat malli saab kasutada ainult kindlas laos töötamisel. Teise võimalusena võib teil olla mitu malli, mida kasutatakse töö loomiseks väljamineva müügitellimuse töötlemisel olenevalt müügi allikast. Süsteem kasutab välja **Seerianumber** saadaolevate töömallide hindamise järjekorra määramiseks. Seega kui teil on väga konkreetne päring kindla töömalli kohta, andke sellele väike järjekorranumber. Seda päringut hinnatakse siis muudest, üldisematest päringutest enne. 
+Tööread näitavad füüsilisi ülesandeid, mis on töö jätkamiseks nõutavad. Näiteks väljamineva laoprotsessi jaoks võib olla üks rida kaupade komplekteerimise kohta laos ja teine rida nende kaupade ladustamise kohta vaheasukohas. Siis võib olla täiendav rida kaupade komplekteerimise kohta vaheasukohas ja teine rida kaupade ladustamiseks veoautosse osana laadimisprotsessist. Saate määrata töömallide ridadele *korralduse koodi*. Korralduse kood lingitakse asukohakorraldusega ja see aitab seega tagada, et laotööd töödeldakse laos õiges kohas.
+
+Saate seadistada päringu, et juhtida, millal konkreetset töömalli kasutatakse. Näiteks saate määrata piirangu, nii et kindlat malli saab kasutada ainult kindlas laos töötamisel. Teise võimalusena võib teil olla mitu malli, mida kasutatakse töö loomiseks väljamineva müügitellimuse töötlemisel olenevalt müügi allikast. Süsteem kasutab välja **Seerianumber** saadaolevate töömallide hindamise järjekorra määramiseks. Seega kui teil on väga konkreetne päring kindla töömalli kohta, andke sellele väike järjekorranumber. Seda päringut hinnatakse siis enne teisi, üldisemaid päringuid.
+
+> [!NOTE]
+> Et takistada süsteemil automaatselt töömalli *järjekorranumbrite* ülekirjutamist, lülitage pärast malli kustutamist sisse funktsioon *Säilita kustutamisel töömalli järjekorranumbrid* [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Tööprotsessi lõpetamiseks või peatamiseks saate kasutada töörea sätet **Peata töö**. Sellisel juhul ei pea tööd tegev töötaja läbima järgmist töörea etappi. Järgmise etapi juurde liikumiseks peab see või mõni teine töötaja uuesti töö valima. Samuti saate erldada ülesanded tööüksuses, kasutades töömalliridadel erinevat *tööklassi ID-d*.
 
 ## <a name="location-directives"></a>Asukoha korraldus
 
-Asukoha korraldused on reeglid, mis aitavad tuvastada komplekteerimise ja mahapanemise asukohti varude liigutamisel. Näiteks määratleb asukohakorraldus müügitellimuse kandes koha, kus kaubad komplekteeritakse ja kuhu komplekteeritud kaubad maha pannakse. Asukoha korraldus koosneb päisest ja seotud ridadest ning loote need lehel **Asukoha korraldus**. 
+Asukoha korraldused on reeglid, mis aitavad tuvastada komplekteerimise ja mahapanemise asukohti varude liigutamisel. Näiteks määratleb asukohakorraldus müügitellimuse kandes koha, kus kaubad komplekteeritakse ja kuhu komplekteeritud kaubad maha pannakse. Asukoha korraldus koosneb päisest ja seotud ridadest ning loote need lehel **Asukoha korraldus**.
 
 Päises peab iga asukoha korraldus olema seotud *töö tellimuse tüübiga*, mis määrab laokande tüübi, mille jaoks korraldust kasutatakse, nt müügitellimused, täiendamine või toormaterjalide komplekteerimine. *Töö tüüp* määrab, kas asukoha korraldust kasutatakse töö komplekteerimiseks või mahapanekuks või mõneks muuks laoprotsessiks, nagu inventuur või varude oleku muutmine. Peate määrama ka *koha* ja *lao*. Päises määratavat *korralduse koodi* saab kasutada asukoha korralduse linkimiseks ühe või mitme töömalliga. 
 
@@ -60,3 +65,15 @@ Asukohakorralduse read seavad asukoha leidmise reeglite rakendusele lisapiirangu
 Asukohakorraldustel on veel üks üksikasjade tase: *asukohakorralduse toimingud*. Saate määratleda igale reale mitu asukoha korralduse tegevust. Järjekorranumbrit kasutatakse selleks, et määrata tegevuste järjekord. Sellel tasemel saate seadistada päringu määratlemaks, kuidas leida laos parim asukoht. Saate kasutada ka eelmääratletud sätteid **Strateegia**, et leida optimaalne asukoht.
 
 Lisateavet asukohakorralduste loomise ja konfigureerimise kohta leiate jaotisest [Asukohakorralduse loomine](create-location-directive.md).
+
+### <a name="how-location-directives-work"></a>Kuidas asukohakorraldused töötavad?
+
+Asukohakorraldused määravad, *kus* tuleb kaubad komplekteerida ja *kuhu* need tuleb ladustada. Süsteem hindab asukohakorraldust iga töörea korral ja seejärel valib asukoha, võttes aluseks töörea üksikasjad. Süsteem leiab kõigepealt kõik asukohakorraldused, mis vastavad kindlale tööreale (nt need on õige lao jaoks ja vastavad päringule). Seejärel hindab see leitud korraldusi järjekorras.
+
+> [!NOTE]
+> On erijuhtumeid, kus komplekteerimise või ladustamise asukoht on eelnevalt valitud. Näiteks _ostu registreerimisel_ toimub esimene komplekteerimine alati asukohas, kus registreerimine toimub. Teine näide on *varude liigutamine malli alusel*, kus laotöötaja valib komplekteerimise asukoha ning asukohakorralduste kaudu leitakse ainult ladustamiskohad.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+- Video: [laohalduse konfiguratsiooni üksikasjalik juhis](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
+- Spikriteema: [asukohakorralduste loomine](create-location-directive.md)

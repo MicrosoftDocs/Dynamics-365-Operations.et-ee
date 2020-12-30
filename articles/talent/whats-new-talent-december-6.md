@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897691"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529158"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (6. detsember 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Järk 8.1.2071**
 
 Teema kirjeldab funktsioone, mis on Core HR-is kas uued või muudetud.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Finance and Operationsi 22. platvormi värskendus
+## <a name="platform-update-22-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 22
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Kuin 1 miljoni rea eksportimine Excelisse
 
@@ -40,7 +42,7 @@ Excelisse eksportimise funktsiooni saab nüüd konfigureerida nii, et see võima
 
 ### <a name="restyled-personalization-toolbar"></a>Ümberkujundatud isikupärastamise tööriistariba
 
-Isikupärastamise tööriistariba on Finance and Operationsi platvormi värskendusega nr 22 ümber kujundatud, et aidata kasutajatel oma rakenduse Talent kogemust lihtsamini kohandada. Tehti järgmised muudatused. 
+Isikupärastamise tööriistariba on Finance and Operations platvormivärskendusega nr 22 ümberkujundatud, et aidata kasutajatel oma rakenduse Talent kogemust lihtsamini kohandada. Tehti järgmised muudatused. 
 
 -  Nüüd näidatakse iga isikupärastamistööriista nime ikooni juures, mis aitab kasutajatel kiiresti ära tunda selle tööriista, mida nad kasutada soovivad.
 -  Käesoleva tööriista kasutamise kirjeldust näidatakse nüüd samuti, see aitab kasutajal mõista, kuidas teha vajalikke isikupärastamisi.  
@@ -48,13 +50,13 @@ Isikupärastamise tööriistariba on Finance and Operationsi platvormi värskend
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Optimeeris filtri „üks (mitmest)“ kasutuse
 
-"Üks (mitmest)" filtreerimise operaator on enamike väljade jaoks saadaval kasutades filtripaani ja ruudustiku päise rippmenüüsid. See operaator võimaldab kasutajal välja filtreerida põhinedes mitmele väärtusele. Uus ja täiustatud kogemus "üks (mitmest)" operaatorile on saadaval Finance and Operationsi platvormi värskendusega nr 22. Lisainfo saamiseks vt [Optimeeritud "üks (mitmest)" filtreerimiskogemus](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+"Üks (mitmest)" filtreerimise operaator on enamike väljade jaoks saadaval kasutades filtripaani ja ruudustiku päise rippmenüüsid. See operaator võimaldab kasutajal välja filtreerida põhinedes mitmele väärtusele. Uus ja täiustatud kogemus "üks (mitmest)" operaatorile on saadaval Finance and Operations platvormivärskendusega nr 22. Lisainfo saamiseks vt [Optimeeritud "üks (mitmest)" filtreerimiskogemus](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>KKleepige "üks (mitmest) operaatoriga Execlist pärinevaid loendeid filtri väljadele
 
 Mõnede ülesannete juures võib kasutajatel olla Excelis väärtuste loendud, mida nad sooviksid kasutada andmete filtreerimiseks rakenduses Talent. Näiteks või olla Inimressursside kasutaja määranud aruandest teatud töötajad, kes vajavad süsteemis lisanduvat uurimist, ja oleks ideaalne, kui see kasutaja saaks kopeerida selle nimekirja otse Excelist rakenduse Talent filtri väljale.
 
-Alates Finance and Operationsi platvormi värskendusest nr 22, tunneb nüüd "üks (mitmest) operaator Filtripaani ja ruudustiku veeru filtreerimisel ära Excelist kopeeritud nimekirjad, nii et neid saab otse filtri väljale kleepida. See sisaldab erinevatest Exceli ridadest ja veergudest kopeeritud väärtuste kogu. Selle funktsiooni kohta lisateabe saamiseks vt [Excelist loendite kleepimine filtri väljadele "üks (mitmest)" operaatoriga](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Alates Finance and Operations platvormivärskendusest nr 22, tunneb nüüd "üks (mitmest) operaator Filtripaani ja ruudustiku veeru filtreerimisel ära Excelist kopeeritud nimekirjad, nii et neid saab otse filtri väljale kleepida. See sisaldab erinevatest Exceli ridadest ja veergudest kopeeritud väärtuste kogu. Selle funktsiooni kohta lisateabe saamiseks vt [Excelist loendite kleepimine filtri väljadele "üks (mitmest)" operaatoriga](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Eelvaates
 
@@ -133,7 +135,7 @@ Töötajatelt Tööülesandele ülesanne vajab järgmiste vastenduste uuendamist
 
 Soo välja muutmine vajab samuti värskendamist. Valige vastenduse tüüp **fn** (funktsioon) Soole ja värskendada järgmisi väärtuste vastendusi.
 
-| Common Data Service väärtus   | Finance and Operations väärtus | | ------------|------------------ -----------| | 75440000    | Mees                         | | 75440001    | Naine                       | | 75440002    | Puudub                        | | 75440003    | Mittespetsiifilised                  |
+| Common Data Service Väärtus | Finance and Operations väärtus | | ------------|------------------ -----------| | 75440000 | Male | | 75440001 | Female | | 75440002 | Pole | | 75440003 | Mittespetsiifiline |
 
 Värskendatud vastendused peaksid välja nägema sellised.
 

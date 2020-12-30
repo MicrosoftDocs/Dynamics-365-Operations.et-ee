@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772095"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442492"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Eelarve planeerimise mallid Exceli jaoks
 
@@ -67,7 +67,7 @@ Klõpsake vahekaardil **Kujundus** välju **Lisa** ja valige üksuse andmeallika
 
 Viige kursor Exceli failis soovitud kohta. Valitud asukohta väljasildi lisamiseks klõpsake valikut **Lisa silt**. Valitud kohta väärtusevälja lisamiseks klõpsake valikut **Lisa väärtus**. Kujundaja sulgemiseks klõpsake valikut **Valmis**.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Valige Lisa väärtus](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Valige Lisa väärtus](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Eelarveplaani dokumendimalli tabelisse arvutatud veeru lisamine
 --------------------------------------------------------------
@@ -83,7 +83,7 @@ Valitud väljagrupis kuvatakse mallis saadaolevad veerud. Uue veeru lisamiseks k
 [![Lisa ja sisesta veerg](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**. Finance and Operationsiga seotud tabelile antakse tavaliselt nimi AXTable1. Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].
+> Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**. Rakendusega Finance and Operations seotud tabelile antakse tavaliselt nimi AXTable1. Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].
 
 Korrake neid etappe veeru **Korrigeerimine** lisamiseks. Kasutage selle veeru puhul valemit AxTable1\[Koondtaotlus\]\*$I$1. See võtab väärtuse lahtrist I1 ja korrutab väärtustega veerus **Koondtaotlus**, et arvutada korrigeerimise summad.
 
@@ -120,7 +120,7 @@ Soovitame malli lukustada, et kasutajad ei saaks seda sulgeda. Lukustamiseks kl�
 
 Klõpsake lisamenüü avamiseks noolt. Valige **Lukusta**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Luku valimine](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Luku valimine](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Kas eelarveplaani mallidega saab kasutada ka muid Exceli funktsioone, nagu lahtrite vormindamine, värvid, tingimusvorming ja diagrammid?
 

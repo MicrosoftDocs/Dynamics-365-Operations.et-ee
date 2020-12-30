@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation
+ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c53596f9b11b1a7be4b8f1e18d58a202c74acd4
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 1fc7ae950ed32a75b8767d764c1b77193c454381
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016512"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654120"
 ---
 # <a name="replenishment-overview"></a>Täiendamise ülevaade
 
@@ -62,7 +62,7 @@ Miinimum- ja maksimumkogused määratakse täiendamismallis. Paljud muud malli s
 Pange tähele, et min/max täiendamise strateegia ei saa täiendada tühja asukohta, kui asukoht pole määratud kauba puhul fikseeritud asukohaks. Kui asukoht, mida peab täiendama, pole fikseeritud asukoht, ei saa süsteem määratleda, millist kaupa tuleks täiendada. Seetõttu on enne täiendamist vaja vähemalt mingisugust vaba kaubavaru.
 
 ## <a name="load-demand-replenishment"></a>Nõudmise tõttu laovarude täiendamise laadimine
-Koorma nõudluse tõttu täiendamine summeerib nõudluse mitme koorma järele ja loob täiendamistöö, mis on vajalik vastavate komplekteerimiskohtade varustamiseks. Koorma nõudluse tõttu täiendamine sarnaneb mitmel moel voo nõudluse tõttu täiendamisele. Peamine erinevus on see, kuidas ja millal koorma nõudluse tõttu täiendamine ja voo nõudluse tõttu täiendamine käivitatakse. Sarnaselt min/max täiendamisele käivitatakse koorma nõudluse tõttu täiendamine pakett-töö abil. Pakett-töö seadistamiseks valige lehelt **Koorma nõudluse tõttu täiendamine** , valige täiendamismall, mida kasutada, ja määrake filtri päring täpsustamiseks, milliseid koormaid nõudluse määramiseks kasutatakse. Asukoha päring määratleb asukohad, millest saadaolevad kogused lahutatakse, et koormate kogunõudlust täita.
+Koorma nõudluse tõttu täiendamine summeerib nõudluse mitme koorma järele ja loob täiendamistöö, mis on vajalik vastavate komplekteerimiskohtade varustamiseks. Koorma nõudluse tõttu täiendamine sarnaneb mitmel moel voo nõudluse tõttu täiendamisele. Peamine erinevus on see, kuidas ja millal koorma nõudluse tõttu täiendamine ja voo nõudluse tõttu täiendamine käivitatakse. Sarnaselt min/max täiendamisele käivitatakse koorma nõudluse tõttu täiendamine pakett-töö abil. Pakett-töö seadistamiseks valige lehelt **Koorma nõudluse tõttu täiendamine**, valige täiendamismall, mida kasutada, ja määrake filtri päring täpsustamiseks, milliseid koormaid nõudluse määramiseks kasutatakse. Asukoha päring määratleb asukohad, millest saadaolevad kogused lahutatakse, et koormate kogunõudlust täita.
 
 ## <a name="immediate-replenishment"></a>Viivitamatu täiendamine
 Selle asemel, et võtta nõudlus eraldamisprotsessi lõppemisel kokku ja täiendada summeeritud koguse põhjal, saate rakendada viivitamatu täiendamise strateegiat. Selle strateegia kasutamisel saab varusid täiendada kohe pärast asukohakorralduse rea nurjumist. Seetõttu saate seadistada täiendamise nii, et see on piiratud konkreetsete üksustega ja kasutab konkreetsetele asukohtadele määratud koguseid.

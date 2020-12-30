@@ -1,6 +1,6 @@
 ---
 title: Kliendimaksete ülevaated (eelvaade)
-description: Selles teemas kirjeldatakse makse ülevaadete võimalust, mis aitab parandada individuaalse kliendi tüüpilise maksekäitumise mõistmist ja tuvastada olukorrad, mis õigustavad kogumisprotsesside varasemat algatamist kui olete muidu seda teinud.
+description: Selles teemas kirjeldatakse makse ülevaadete võimalust, mis aitab parandada üksikute klientide tüüpiliste maksetavade mõistmist. Funktsioon aitab teil tuvastada asjaolud, mis õigustavad sissenõudmisprotsesside alustamist varem, kui te oleksite seda muidu teinud.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773938"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644629"
 ---
 # <a name="customer-payment-insights-preview"></a>Kliendimaksete ülevaated (eelvaade)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas kirjeldatakse makse ülevaadete võimalust, mis aitab parandada individuaalse kliendi tüüpilise maksekäitumise mõistmist ja mis saab tuvastada olukorrad, mis õigustavad kogumisprotsesside varasemat algatamist kui oleksite muidu seda teinud. 
+Selles teemas kirjeldatakse makse ülevaadete võimalust, mis aitab parandada üksikute klientide tüüpiliste maksetavade mõistmist. Funktsioon aitab teil tuvastada asjaolud, mis õigustavad sissenõudmisprotsesside alustamist varem, kui te oleksite seda muidu teinud. 
 
 ## <a name="overview"></a>Ülevaade
 
-Organisatsioonidel on tihti raske ennustada, millal kliendid oma arved ära maksavad. Selle ülevaate puudumine toob kaasa vähem täpset likviidsuse planeerimised, liiga hilja algavad kogumisprotsessid ja tellimused, mis väljastatakse kliendile, kes ei pruugi maksta. Kliendi makse ülevaated (eelvaade) aitab organisatsioonidel ennustada, millal kliendiarve ära makstakse, aidates organisatsioonidel luua kogumisstrateegiaid, mis täiustavad õigel ajal maksmise tõenäosust. 
+Võib olla raske ennustada, millal kliendid oma arved ära maksavad. Selle ülevaate puudumine toob kaasa vähem täpset likviidsuse planeerimised, liiga hilja algavad kogumisprotsessid ja tellimused, mis väljastatakse kliendile, kes ei pruugi maksta. Funktsioon Kliendi makse ülevaated (eelversioon) aitab organisatsioonidel ennustada, millal kliendi arve tasutakse. See teave võib aidata organisatsioonidel luua sissenõudmisstrateegiaid, mis parandavad õigeaegselt maksmise tõenäosust. 
 
 ## <a name="predictions"></a>Ennustused
 
@@ -42,13 +42,13 @@ Makseennustused võimaldavad organisatsioonidel parandada oma äriprotsesse, aid
 
 Masinõppe mudelit kasutades, mis kasutab varasemaid arveid, makseid ja kliendiandmeid, ennustab kliendimaksete ülevaated (eelvaade) veelgi täpsemalt, millal klient tasumata arve ära maksab.
 
-Funktsioon Kliendi makse ülevaated (eelvaade) ennustab iga avatud arve jaoks kolme maksetõenäosust.
+Funktsioon Kliendi makse ülevaated (eelversioon) ennustab iga avatud arve jaoks kolme maksetõenäosust.
 
 -   Õigeaegselt maksmise tõenäosus 
 -   Makse hilja tegemise tõenäosus
 -   Makse väga hilja tegemise tõenäosus
 
-Et aidata organisatsioonidel mõista kogu maksesummat, mida nad võivad kliendilt oodata ühte kolmest ämbrist (õigel ajal, hilja ja väga hilja), annab Klindi makse ülevaated (eelvaade) ka eeldatavate maksete koondvaate.
+Et aidata organisatsioonidel mõista kogu maksesummat, mida nad võivad kliendilt oodata ühes kolmest vahemikust (õigeaegselt, hilja ja väga hilja), annab Klindi makse ülevaated (eelversioon) ka eeldatavate maksete koondvaate.
 
 [![Maksete ennustuste koondvaade](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -66,7 +66,7 @@ Tehisintellektiga lahenduse arendamine ja kasutuselevõtmine on raske. Selleks o
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Kuidas hankida funktsioon Kliendi makse ülevaated (eelvaade)
 
-Kui olete huvitatud funktsiooni Kliendi makse ülevaated (eelvaade) proovimisest, saatke meil [Kliendi makse ülevaated (eelvaade)](mailto:fiap@microsoft.com).
+Kui olete huvitatud funktsiooni Kliendi makse ülevaated (eelversioon) proovimisest, saatke meil lahendusele [Kliendi makse ülevaated (eelversioon)](mailto:fiap@microsoft.com).
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 

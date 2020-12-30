@@ -19,11 +19,11 @@ ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
 ms.openlocfilehash: ae46dab5250fbe8096f43e420cb7ef33a5862af0
-ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3432043"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442274"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) – globaliseerimise funktsioonid
 
@@ -107,7 +107,7 @@ Saate lisada uue globaliseerimise funktsiooni, tuletades selle juba avaldatud v�
 7. Vaadake üle funktsiooni komponendid, et teha kindlaks, kas värskendused on vajalikud.
 
     - Vaadake üle konfiguratsioonid, juhuks kui peate kohandama elektroonilise aruandluse vorminguid ja nende seotust funktsiooniversiooni vorminguvastendustega.
-    - Vaadake seadistused üle, juhuks kui peate kohandama funktsiooniversiooni vahekaarti **Tegevused**, vahekaarti **Rakendatavuse reeglid** või vahekaarti**Muutujad**.
+    - Vaadake seadistused üle, juhuks kui peate kohandama funktsiooniversiooni vahekaarti **Tegevused**, vahekaarti **Rakendatavuse reeglid** või vahekaarti **Muutujad**.
 
 8. Valige vahekaardil **Versioonid** kuupäev **Kehtiv alates** ja sisestage kirjeldus, kui väli **Kirjeldus** on tühi.
 9. Valige funktsiooni lõpule viimiseks suvand **Muuda olekut**. Lõpule viidud funktsioonid saab muuta kättesaadavaks konkreetsele keskkonnale, et seda saaks kasutada globaliseerimise teenustes, või neid saab avaldada globaalses hoidlas.

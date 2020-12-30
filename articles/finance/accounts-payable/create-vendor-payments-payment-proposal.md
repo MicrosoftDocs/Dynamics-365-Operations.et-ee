@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177424"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442343"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Hankija maksete loomine maksesoovituse abil
 
@@ -119,7 +119,7 @@ Dimensioonide juhtimine võimaldab teil juhtida loodud ridade rühmitamist makse
 
 #### <a name="bank-account-selection"></a>Pangakonto valimine
 
-Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Saate seadistada need kombinatsioonid lehel **Makseviisid**, kasutades nuppu **Pangakontod**, mis on saadaval iga makseviisi puhul, mille **Sisestuskonto tüüp** = **Pank**.
+Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Saate seadistada need kombinatsioonid lehel **Makseviisid**, kasutades nuppu  **Pangakontod**, mis on saadaval iga makseviisi puhul, mille **Sisestuskonto tüüp** = **Pank**.
 
 
 

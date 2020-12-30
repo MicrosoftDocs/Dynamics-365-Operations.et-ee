@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897116"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460941"
 ---
 # <a name="edit-onboarding-guides-and-templates"></a>Sisseelamisjuhendite ja mallide redigeerimine
 
@@ -125,7 +125,7 @@ Muudatustele vajutamine:
     - YouTube'i video lisamiseks lohistage **YouTube**'i üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage YouTube'i video URL.
     - Sway esitluse või infolehe lisamiseks lohistage **Sway** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage Sway esitluse või infolehe varjatud URL.
     - Microsoft Power Appsi rakenduse lisamiseks lohistage **Power Appsi** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning valige kas Power Appsi rakendus või sisestage Power Appsi rakenduse ID.
-    - Microsoft Streami video lisamiseks lohistage **Microsoft Stream**i üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage Microsoft Streami video URL.
+    - Microsoft Streami video lisamiseks lohistage **Microsoft Stream** i üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage Microsoft Streami video URL.
     - Microsofti vormide vormi lisamiseks lohistage **Microsoft Forms** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage vormi Microsoft Forms URL ja määrake ekraani ala suurus.
     - Veebisisu sisaldava iframe'i lisamiseks lohistage **Veebisisu (iframe)** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage veebisisu URL ja määrake ekraani ala suurus.
 

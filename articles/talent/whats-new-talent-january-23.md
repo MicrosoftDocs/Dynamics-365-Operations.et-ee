@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899124"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460872"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (23. jaanuar 2019)
 
@@ -51,5 +51,5 @@ Ametikoha töö muutmisel on töö väljad ametikoha vaikeväärtused. Kuvatakse
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Katseaega ja kalendrit ei kuvata tulevikus palgatavate töövõtjate puhul.
 Selle muudatusega on väljad **Katseaeg** ja **Kalender** lisatud lehele **Muudatuste haldamine**, et võimaldada andmete sisestamist tulevaste ja olemasolevate töövõtjate puhul.
 
-### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operationsi 23. platvormi värskendus
-Finance and Operationsi platvormivärskenduse 23 osana on tehtud väiksemaid veaparandusi. Lisateavet vt teemast [Mis on uut või mida on muudetud rakenduse Dynamics 365 Finance and Operations platvormivärskenduses 23 (jaanuar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 23
+Finance and Operations platvormivärskenduse 23 osana on tehtud väiksemaid veaparandusi. Lisateavet vt teemast [Mis on uut või mida on muudetud rakenduse Dynamics 365 Finance and Operations platvormivärskenduses 23 (jaanuar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

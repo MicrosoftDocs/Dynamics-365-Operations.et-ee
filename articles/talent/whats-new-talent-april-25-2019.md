@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cbafea9063844dd3f19e5828ab37632e04591f18
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 53faf972759c8f770017fcd3a87920410988e626
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897885"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527175"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (23. aprill, 2019)?
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -77,4 +79,4 @@ Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek nä
 ## <a name="known-issues"></a>Teadaolevad probleemid
 
 ### <a name="email-support-for-alerts"></a>E-posti tugi teatistele
-Finance and Operationsi platvormi 26. uuendusega saavad kasutajad luua alarmide reegleid, mis saadavad sündmuse poolt käivitades automaatselt kontaktidele meiliteavitusi.
+Finance and Operationsi platvormi värskendusega 26 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.

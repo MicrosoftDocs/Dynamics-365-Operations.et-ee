@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897139"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460972"
 ---
 # <a name="share-content-with-other-contributors"></a>Sisu jagamine teiste kaasautoritega
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Talent: Onboard võimaldab jagada sisseelamisjuhendeid ja
     ![[Sisseelamisjuhisele juurdepääsu ja meilieelistuste seadmine](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Sisestage nimi või meiliaadress ja valige ripploendist soovitud adressaat.
-5. Vahekaardil **Halda juurdepääsu** saate vaadata või muuta, mida adressaadid juhendiga teha saavad. Adressaadi juurdepääsu muutmiseks valige adressaadi nime kõrval olevas ripploendis vastavalt vajadusele **Saab vaadata**, **Saab muuta**või **Eemalda**.
+5. Vahekaardil **Halda juurdepääsu** saate vaadata või muuta, mida adressaadid juhendiga teha saavad. Adressaadi juurdepääsu muutmiseks valige adressaadi nime kõrval olevas ripploendis vastavalt vajadusele **Saab vaadata**, **Saab muuta** või **Eemalda**.
 6. Kui olete adressaatide lisamise või muutmise lõpetanud, valige **Uuenda**.
 
 ## <a name="share-an-onboarding-template-with-other-contributors"></a>Sisseelamismalli jagamine teiste kaasautoritega
@@ -56,7 +56,7 @@ Microsoft Dynamics 365 Talent: Onboard võimaldab jagada sisseelamisjuhendeid ja
     [![Mallile juurdepääsu ja meilieelistuste seadmine](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Sisestage nimi või meiliaadress ja valige ripploendist soovitud adressaat.
-5. Vahekaardil **Halda juurdepääsu** saate vaadata või muuta, mida adressaadid malliga teha saavad. Adressaadi juurdepääsu muutmiseks valige adressaadi nime kõrval olevas ripploendis vastavalt vajadusele **Saab vaadata**, **Saab muuta**või **Eemalda**.
+5. Vahekaardil **Halda juurdepääsu** saate vaadata või muuta, mida adressaadid malliga teha saavad. Adressaadi juurdepääsu muutmiseks valige adressaadi nime kõrval olevas ripploendis vastavalt vajadusele **Saab vaadata**, **Saab muuta** või **Eemalda**.
 6. Kui olete adressaatide lisamise või muutmise lõpetanud, valige **Uuenda**.
 
 ## <a name="next-steps"></a>Järgmised etapid

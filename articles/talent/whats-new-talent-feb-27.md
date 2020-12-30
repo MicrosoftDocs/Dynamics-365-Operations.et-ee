@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897668"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529134"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (27. veebruar 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -75,9 +77,9 @@ See versioon sisaldab ka muid väikesi veaparandusi.
 
 Paljudes ettevõtetes on hüvitise ja eeliste halduritel juurdepääs ainult teatud hüvituskirjetele. Need kirjed võivad olla juhtkonna või piirkonna töövõtjate omad. See muudatus võimaldab inimressurssidel (HR) hüvitusplaane hallata ja säilitada ettevõtte erinevate töövõtjate populatsioonide jaoks. Turberollid, mida saab määrata fikseeritud ja muutuvatele plaanidele, määravad nende plaanide juurdepääsu ja nendega seotud töövõtja andmed (näiteks palgateabe või lisakulumikirjed). Nende töövõtjate hüvitisi saavad töödelda ainult rollid, millele on antud juurdepääs.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operationsi 24. platvormi värskendus
+### <a name="platform-update-24-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 24
 
-Lisateavet rakenduse Microsoft Dynamics 365 Finance and Operations platvormivärskenduse 24 kohta (märts 2019) vt jaotisest [Eelvaatefunktsioonid rakenduse Finance and Operations platvormivärskenduses 24 (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Lisateavet Microsoft Dynamics 365 Finance and Operations (märts 2019) platvormiuuenduse 24 kohta vt [Finance and Operations rakenduse eelvaatefunktsioonid platvormiuuendus 24 (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Töövõtja põhipalga lubamine tulevaste ametikoha määrangute jaoks
 
@@ -98,19 +100,19 @@ Olemasoleva malli värskendamiseks toimige järgmiselt.
 
     - **Ametikohtadest Ametikohtadesse:** eemaldage see vastendus.
     - **Ametikohast Ametikoha peamisele tööülesandele:** eemaldage see vastendus.
-    - **Ametikohast Peamisele ametikohale:** lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Peamine ametikoht** rakendusse Finance and Operations. Teisaldage see järjestuses ametikohale 7.
+    - **Ametikohast Peamisele ametikohale:** Lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Peamine ametikoht** rakendusse Finance and Operations. Teisaldage see järjestuses ametikohale 7.
 
         [![Vastendus Ametikohast Peamisele ametikohale](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Ametikohast Ametikoha üksikasjadele:** lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Ametikoha üksikasjad** rakendusse Finance and Operations. Teisaldage see järjestuses ametikohale 8.
+    - **Ametikohast Ametikoha üksikasjadele:** Lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Ametikoha üksikasjad** rakendusse Finance and Operations. Teisaldage see järjestuses ametikohale 8.
 
         [![Vastendus Ametikohast Ametikoha üksikasjadele](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Ametikohast Ametikoha kestustele:** lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Ametikoha kestused** rakendusse Finance and Operations.
+    - **Ametikohast Ametikoha kestvusele:** Lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Ametikoha kestvuse** rakendusse Finance and Operations.
 
         [![Vastendus Ametikohast Ametikoha kestustele](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Ametikohast Ametikoha hierarhiatele:** lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Ametikoha hierarhiad** rakendusse Finance and Operations. Täpsema päringu projektile kättesaadavaks muutmiseks tehke valik **Täpsem päring**.
+    - **Ametikohast Ametikoha hierarhiateni:** Lisage uus vastendus üksuse **Ametikoht** teenusest Common Data Service üksuse **Ametikoha hierarhiate** rakendusse Finance and Operations. Täpsema päringu projektile kättesaadavaks muutmiseks tehke valik **Täpsem päring**.
 
        [![Täpsema päringu nupp](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Olemasoleva malli värskendamiseks toimige järgmiselt.
         [![Käsk Lisa tingimusveerg](./media/Add-column.png)](./media/Add-column.png)
 
     6. Sisestage dialoogiboksis **Lisa tingimusveerg** uue veeru nimena **HIERARCHYTYPENAME**.
-    7. Tingimuse osas **Kui** valige mis tahes väli, kasutage seosena väärtust **võrdne** ja sisestage mis tahes väärtus. Tingimuse osades ***Siis** ja **Muidu** määrake, mis peaks olema vaikeväärtus. Siinses näites sisestage mõlemas osas **Rida**.
+    7. Tingimuse osas **Kui** valige mis tahes väli, kasutage seosena väärtust **võrdne** ja sisestage mis tahes väärtus. Tingimuse osades **_Siis_** ja **Muidu** määrake, mis peab olema vaikeväärtus. Siinses näites sisestage mõlemas osas **Rida**.
 
         [![Tingimusveeru dialoogiboksi lisamine](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

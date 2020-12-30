@@ -1,7 +1,7 @@
 ---
 title: Põhivarakannete sisestamine sisestuskihtidele
 description: See artikkel annab ülevaate sisestamiskihi funktsioonist põhivarakannete puhul.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770708"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493668"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Põhivarakannete sisestamine sisestuskihtidele
 
@@ -39,8 +39,11 @@ Põhivara töölehed määratletakse lehel Töölehtede nimed, valides suvandid 
 
 Saate määrata põhivarakannete jaoks pearaamatukontosid lehel Põhivara sisestusreeglid. Igale sisestusreeglile tuleb valida vastav kandetüüp ja raamat ning seejärel määrata pearaamatukontod. Saate seadistada sisestusreeglite kirje igale raamatule, mis sisestab pearaamatusse.
 
+Põhivara saab sisestada dokumentidesse, mis toetavad ainult **Praegust** sisestamiskihti, nagu näiteks **Ostutellimus**, **Ootel hankija arve**, **Müügitellimus** või **Vabas vormis arve**. Põhivara ID valimisel ükskõik millisel nendest dokumentidest on vararaamat filtreeritud **Kehtiva** sisestamiskihiga raamatule ja seda täidetakse sisestamise ajal automaatselt, kui süsteem valideerib, et põhivara sisestamiskihiti on **Kehtiv**. Kui seda valideerimist ei saa lõpule viia, siis sisestamise protsess peatatakse. 
+
 > [!NOTE] 
-> Tuletatud raamatute kasutamisel saate kandeid sisestada korraga eri sisestuskihtidesse. Looge esmase raamatu kanded töölehel, mille sisestuskiht vastab raamatu sisestuskihile. Sisestamise ajal kantakse tuletatud raamatu kanded vastavatesse sisestuskihtidesse.
+> Tuletatud raamatute kasutamisel saate kandeid sisestada korraga eri sisestuskihtidesse. Esmase raamatu kanded luuakse tööraamatus või algdokumendis, kus sisestamiskiht vastab raamatu sisestamiskihile. Sisestamise ajal kantakse tuletatud raamatu kanded vastavatesse sisestuskihtidesse. 
+
 
 Lisateavet vt teemadest [Tuletatud raamatud](derived-books.md) ja [Tuletatud raamatutega sisestus](post-derived-value-models.md).
 

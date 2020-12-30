@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056093"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527881"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn talent Hubiga integreerimine
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) on kandidaadi jälgimise süsteemi (ATS) platvorm. See võimaldab teil leida, hallata ja palgata töötajaid ühest kohast. Microsoft Dynamics 365 Human Resourcesi integreerimisel LinkedIn Talent Hubiga saate Human Resourcesis hõlpsalt luua töövõtja kirjed kandidaatide jaoks, kes on palgatud ametikohale.
 
@@ -99,7 +101,7 @@ Rakenduse kasutaja tuleb luua LinkedIn Talent Hubi adapteris, et anda adapterile
     1. Muutke välja **Kasutaja Tüüp** väärtuseks **Rakenduse kasutaja**.
     2. Seadke välja **Kasutajanimi** väärtuseks **Dynamics365 HR LinkedIn HRIS-i integratsioon**.
     3. Määrake välja **Rakenduse ID** väärtuseks **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    4. Sisestage mis tahes väärtus väljadele **Eesnimi** , **Perekonnanimi** ja **Esmane meiliaadress**.
+    4. Sisestage mis tahes väärtus väljadele **Eesnimi**, **Perekonnanimi** ja **Esmane meiliaadress**.
     5. Valige tööriistaribal **Salvesta \& Sule**.
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>Turberolli määramine uuele kasutajale
@@ -121,9 +123,9 @@ Pärast eelmises jaotises uue rakenduse kasutaja salvestamist ja sulgemist naase
 1. Avage Dynamics 365 Human Resourcesis leht **Azure Active Directory rakendused**.
 2. Lisage loendisse uus kirje ja määrake järgmised väljad.
 
-    - **Kliendi ID** : sisestage **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    - **Nimi** : sisestage Power Appsi turberolli nimi, mille eelnevalt lõite, nt **LinkedIn Talent Hub HRIS-i integratsioon**.
-    - **Kasutaja ID** : valige kasutaja, kellel on õigus kirjutada andmeid personalihalduses.
+    - **Kliendi ID**: sisestage **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
+    - **Nimi**: sisestage Power Appsi turberolli nimi, mille eelnevalt lõite, nt **LinkedIn Talent Hub HRIS-i integratsioon**.
+    - **Kasutaja ID**: valige kasutaja, kellel on õigus kirjutada andmeid personalihalduses.
 
 ### <a name="create-the-entity-in-common-data-service"></a>Üksuse loomine Common Data Service'is
 
@@ -140,7 +142,7 @@ Pärast eelmises jaotises uue rakenduse kasutaja salvestamist ja sulgemist naase
 
 ## <a name="exporting-candidate-records"></a>Kandidaadi kirjete eksportimine
 
-Pärast häälestuse lõpule viimist saavad värbajad ja Human Resourcesi (HR) professionaalid kasutada LinkedIn Talent Hubi funktsiooni **Ekspordi HRIS-i** , et eksportida palgatud kandidaadi kirjeid LinkedIni Talent Hubist Human Resourcesisse.
+Pärast häälestuse lõpule viimist saavad värbajad ja Human Resourcesi (HR) professionaalid kasutada LinkedIn Talent Hubi funktsiooni **Ekspordi HRIS-i**, et eksportida palgatud kandidaadi kirjeid LinkedIni Talent Hubist Human Resourcesisse.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>Kirjete eksportimine LinkedIn Talent Hubist
 
@@ -152,7 +154,7 @@ Kui kandidaat on liikunud värbamisprotsessist edasi ja on palgatud, saate ekspo
 
 3. Valige **Muuda etappi** ja seejärel **Palgatud**.
 
-4. Kandidaadi kolmikpunkti menüüs ( **...** ) valige **Ekspordi HRIS-i**.
+4. Kandidaadi kolmikpunkti menüüs ( **...**) valige **Ekspordi HRIS-i**.
 
 5. Sisestage paanil **Ekspordi HRIS-i** teave, mis tuleb eksportida.
 

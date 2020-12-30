@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 84cde511ab0b5cbe4b99e72832bf548336b6b28c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187218"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442226"
 ---
 # <a name="manual-depreciation"></a>Käsitsi kulumiarvestus
 
@@ -58,7 +58,7 @@ Järgmises tabelis on näidatud, kuidas iga intervalli kulum arvutatakse.
 | 2                | (11 000 – 1000) × 50% = 5000                | 5000 (10000 – 5000)                    |
 | 3                | (11 000 – 1000) × 8% = 800                   | 4200 (5000 – 800)                       |
 
-Kui teete valiku **Igakuine** väljal**Perioodi sagedus**, seadistate 12 käsitsi graafikuintervalli. Järgmine tabel näitab kahe esimese intervalli kulumisummasid.
+Kui teete valiku **Igakuine** väljal **Perioodi sagedus**, seadistate 12 käsitsi graafikuintervalli. Järgmine tabel näitab kahe esimese intervalli kulumisummasid.
 
 | Intervall | Kulumisumma            |
 |----------|--------------------------------|

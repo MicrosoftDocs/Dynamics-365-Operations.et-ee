@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413956"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527359"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliendiportaali kohandamine ja kasutamine
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse erinevaid lehti, mis on valmiskujul kliendiportaalis saadaval. Selles seletatakse, mida lehed teevad ja kuidas saate neid kohandada.
 
 Kliendiportaal pakub valmiskujul mõningaid veebilehti ja toiminguid. Järgmine saidikaart annab ülevaate nendest veebisaitidest ja toimingutest ning samuti rollidest, mis saavad nimetatud toiminguid teha.
 
-![![Kliendiportaali saidikaart](media/customer-portal-site-map.png "Kliendiportaali saidikaart")](media/customer-portal-site-map.png "Customer portal site map")
+![Kliendiportaali saidikaart](media/customer-portal-site-map.png "Kliendiportaali saidikaart")
 
 ## <a name="typical-customizations"></a>Tavalised kohandused
 
@@ -62,12 +64,12 @@ Siit leiate standardetapid tellimuse esitamiseks kliendiportaali kaudu.
     - **Ostutellimuse number** – sisestage tellimuse ostutellimuse number. See väli ei ole kohustuslik.
     - **Tarni riiki/piirkonda** – sisestage riik või piirkond, kuhu kaubad tarnitakse. See väli määratakse mitteadministraatorist kasutajate jaoks automaatselt.
 
-    ![![Tellimuse teabeleht](media/customer-portal-order-information.png "Tellimuse teabeleht")](media/customer-portal-order-information.png "Order Information page")
+    ![Tellimuse teabeleht](media/customer-portal-order-information.png "Tellimuse teabeleht")
 
 1. Valige **Edasi**.
 1. Valige lehel **Kaubad** suvand **Lisa kaup**.
 
-    ![![Kaupade leht](media/customer-portal-items.png "Kaupade leht")](media/customer-portal-items.png "Items page")
+    ![Kaupade leht](media/customer-portal-items.png "Kaupade leht")
 
 1. Määrake dialoogiboksis **Kauba teave** järgmised väljad.
 
@@ -76,14 +78,14 @@ Siit leiate standardetapid tellimuse esitamiseks kliendiportaali kaudu.
     - **Ühik** – määrake mõõtühik (nt **ea.**, **kg** või **kast**).
     - **Eeldatav netosumma** – väärtus arvutatakse kauba eeldatava hinna ja valitud üksuse koguse korrutisena.
 
-    ![![Kauba teabe dialoogiboks](media/customer-portal-item-information.png "Kauba teabe dialoogiboks")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Kauba teabe dialoogiboks](media/customer-portal-item-information.png "Kauba teabe dialoogiboks")
 
 1. Kauba tellimusele lisamiseks valige **Esita**.
 1. Korrake samme 4–6, kuni olete lisanud kõik kaubad, mida soovite tellida.
 1. Kui olete kaupade lisamise lõpetanud, klõpsake lehel **Kaubad** nuppu **Edasi**.
 1. Lehel **Tellimuse teave** esitatakse tellimuse kokkuvõte. Vaadake üle tellimuse sisu ja tarne üksikasjad. Kui kõik tundub õige, siis valige tellimuse esitamiseks suvand **Esita**.
 
-    ![![Tellimuse teabeleht](media/customer-portal-order-submit.png "Tellimuse teabeleht")](media/customer-portal-order-submit.png "Order Information page")
+    ![Tellimuse teabeleht](media/customer-portal-order-submit.png "Tellimuse teabeleht")
 
 ### <a name="standard-data-setup"></a>Standardandmete seadistus
 
@@ -148,19 +150,19 @@ Kõik kliendiportaali juhtelemendid on Power Appsi portaalide sisseehitatud juht
 
 Ainus kliendiportaali malli kaasatud kohandatud juhtelement on mõeldud avalehel paanide loomiseks.
 
-![![Avalehe paanid](media/customer-portal-home-page-tiles.png "Avalehe paanid")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Avalehe paanid](media/customer-portal-home-page-tiles.png "Avalehe paanid")
 
 Paanide muutmiseks toimige järgmiselt.
 
 1. Avage [portaalihalduse rakendus](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. Valige navigeerimispaanilt vasakult suvand **Lehe mallid**.
 
-    ![![Portaalihalduse navigeerimispaan](media/customer-portal-nav.png "Portaalihalduse navigeerimispaan")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Portaalihalduse navigeerimispaan](media/customer-portal-nav.png "Portaalihalduse navigeerimispaan")
 
 1. Valige lehe mall, mille nimi on **Avaleht**.
 1. Valige väljal **Veebimall** link **Avaleht**, et avada selle lehe lähtekood.
 
-    ![![Veebimalli väli](media/customer-portal-web-template.png "Veebimalli väli")](media/customer-portal-web-template.png "Web Template field")
+    ![Veebimalli väli](media/customer-portal-web-template.png "Veebimalli väli")
 
 1. Nüüd peaksite nägema kogu avalehe lähtekoodi ja saate seda vajaduse järgi muuta.
 

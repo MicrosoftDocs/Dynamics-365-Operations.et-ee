@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269517"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594328"
 ---
 # <a name="customize-image-focal-points"></a>Pildi fokaalpunktide kohandamine
 
@@ -43,7 +43,7 @@ Pildi kohandatud fokaalpunkti määramiseks toimige järgmiselt.
 1. Põhiaknas valige pilt, mida soovite muuta.
 1. Klõpsake käsuribal käsku **Redigeeri**.
 1. Valige pilt, et siseneda **Redigeerimisrežiimi**.
-1. Valikus **Redigeerimisrežiim**valige **Muuda fokaalpunkti**. Pildil kuvatakse ümmargust fokaalpunkti tähist.
+1. Valikus **Redigeerimisrežiim** valige **Muuda fokaalpunkti**. Pildil kuvatakse ümmargust fokaalpunkti tähist.
 1. Valige fokaalpunkti tähis ja liigutage see soovitud fokaalpunkti.
 1. Kui olete lõpetanud, valige tegumiribal käsk **Salvesta** ja seejärel valige **Lõpeta redigeerimine**.
 
@@ -58,3 +58,5 @@ Pildi kohandatud fokaalpunkti määramiseks toimige järgmiselt.
 [Failide üleslaadimine](dam-upload-files.md)
 
 [Piltide kärpimine](dam-crop-images.md)
+
+[Staatiliste failide üleslaadimine ja kasutamine](upload-serve-static-files.md)

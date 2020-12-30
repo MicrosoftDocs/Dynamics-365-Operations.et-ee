@@ -3,7 +3,7 @@ title: Common Data Service'i virtuaalüksuste konfigureerimine
 description: Selles teemas kirjeldatakse virtuaalüksuste konfigureerimist rakenduse Dynamics 365 Human Resources jaoks. Looge ja värskendage olemasolevaid virtuaalüksusi ning analüüsige loodud ja saadaolevaid üksusi.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058150"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645597"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Common Data Service'i virtuaalüksuste konfigureerimine
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources on virtuaalne andmeallikas teenuses Common Data Service. See pakub täielikke loomise, lugemise, värskendamise ja kustutamise (CRUD) toiminguid lahendustes Common Data Service ning Microsoft Power Platform. Virtuaalüksuste andmeid ei talletata teenuses Common Data Service, vaid rakenduse andmebaasis. 
 
@@ -50,11 +50,23 @@ Rakenduse Human Resources virtuaalüksused pole samad, mis tavalised teenuse Com
 
 ## <a name="setup"></a>Seadistus
 
-Järgige neid seadistussamme, et lubada oma keskkonnas virtuaalüksused. 
+Järgige neid seadistussamme, et lubada oma keskkonnas virtuaalüksused.
+
+### <a name="enable-virtual-entities-in-human-resources"></a>Virtuaalüksuste lubamine rakenduses Human Resources
+
+Esmalt peate lubama tööruumi **Funktsioonihaldus** kaudu virtuaalüksused lubama.
+
+1. Valige rakenduses Human Resources suvand **Süsteemihaldus**.
+
+2. Valige paan **Funktsioonihaldus**.
+
+3. Valige **Virtuaalüksuse tugi rakenduses HR/CDS** ja seejärel valige **Luba**.
+
+Lisateavet eelvaatefunktsioonide lubamise ja keelamise kohta vt jaotisest [Funktsioonide haldus](hr-admin-manage-features.md).
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Rakenduse registreerimine Microsoft Azure'is
 
-Esmalt peate rakenduse Azure'i portaalis registreerima, et Microsofti identiteediplatvorm saaks pakkuda rakenduse ja kasutajate jaoks autentimis- ning autoriseerimisteenuseid. Lisateavet Azure'is rakenduste registreerimise kohta leiate teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteediplatvormis](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Peate Human Resourcesi eksemplari Azure'i portaalis registreerima, et Microsofti identiteediplatvorm saaks pakkuda rakenduse ja kasutajate jaoks autentimis- ning autoriseerimisteenuseid. Lisateavet Azure'is rakenduste registreerimise kohta leiate teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteediplatvormis](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. Avage [Microsoft Azure'i portaal](https://portal.azure.com).
 
@@ -68,7 +80,7 @@ Esmalt peate rakenduse Azure'i portaalis registreerima, et Microsofti identiteed
 
 6. Valige suvand **Registreeri**.
 
-7. Registreerimise lõpetamisel kuvatakse Azure'i portaalis rakenduse registreerimise kohta paan **Ülevaade** , mis sisaldab väärtust **Rakenduse (kliendi) ID**. Kirjutage väärtus **Rakenduse (kliendi) ID** endale üles. Te sisestate selle teabe [virtuaalüksuse andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+7. Registreerimise lõpetamisel kuvatakse Azure'i portaalis rakenduse registreerimise kohta paan **Ülevaade**, mis sisaldab väärtust **Rakenduse (kliendi) ID**. Kirjutage väärtus **Rakenduse (kliendi) ID** endale üles. Te sisestate selle teabe [virtuaalüksuse andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
 
 8. Valige vasakpoolsel navigeerimispaanil **Serdid ja saladused**.
 
@@ -123,14 +135,26 @@ Järgmine samm on konfigureerida virtuaalüksuse andmeallikas Power Appsi keskko
 
 8. Sisestage andmeallika konfiguratsiooni jaoks vajalik teave.
 
-   - **Siht-URL** : teie rakenduse Human Resources nimeruumi URL.
-   - **Rentniku ID** : Azure Active Directory (Azure AD) rentniku ID.
-   - **AAD rakenduse ID** : rakenduse (kliendi) ID, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **AAD rakenduse saladus** : klientrakenduse saladus, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Siht-URL**: teie rakenduse Human Resources nimeruumi URL. Siht-URL-i vorming on:
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
 
-9. Valige **Salvesta ja sule**.
+     Näide:
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >Tõrketeate kuvamise välistamiseks lisage URL-i lõppu märk „**/**“.
+
+   - **Rentniku ID**: Azure Active Directory (Azure AD) rentniku ID.
+
+   - **AAD rakenduse ID**: rakenduse (kliendi) ID, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+
+   - **AAD rakenduse saladus**: klientrakenduse saladus, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    ![Microsoft HR-i andmeallikas](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. Valige **Salvesta ja sule**.
 
 ### <a name="grant-app-permissions-in-human-resources"></a>Rakenduse õiguste andmine rakenduses Human Resources
 
@@ -149,8 +173,8 @@ Andke rakenduses Human Resources õigused kahe Azure AD rakenduse jaoks.
 
 3. Valige teise rakenduse kirje loomiseks **Uus**.
 
-    - **Kliendi ID** : f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Nimi** : Dynamics 365 HR Virtual Entity
+    - **Kliendi ID**: f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Nimi**: Dynamics 365 HR Virtual Entity
     - Valige väljal **Kasutaja ID** sellise kasutaja ID, kellel rakenduses Human Resources ja Power Appsi keskkonnas administraatoriõigused.
 
 ## <a name="generate-virtual-entities"></a>Virtuaalüksuste loomine
@@ -162,7 +186,7 @@ Kui seadistus on lõpule viidud, saate valida virtuaalüksused, mille soovite lu
 2. Valige vahekaart **Virtuaalsed üksused**.
 
 > [!NOTE]
-> Lüliti **Virtuaalse üksuse lubamine** olekuks seatakse automaatselt **Jah** , kui kogu nõutav seadistus on lõpule viidud. Kui lüliti olekuks on seatud **Ei** , vaadake läbi selle dokumendi eelmiste jaotiste etapid, et kogu eeltingimuste häälestus oleks lõpule viidud.
+> Lüliti **Virtuaalse üksuse lubamine** olekuks seatakse automaatselt **Jah**, kui kogu nõutav seadistus on lõpule viidud. Kui lüliti olekuks on seatud **Ei**, vaadake läbi selle dokumendi eelmiste jaotiste etapid, et kogu eeltingimuste häälestus oleks lõpule viidud.
 
 3. Valige üksus või üksused, mida soovite luua Common Data Service'is.
 

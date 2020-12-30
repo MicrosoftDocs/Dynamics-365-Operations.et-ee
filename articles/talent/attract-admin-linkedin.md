@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833180"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460947"
 ---
 # <a name="set-up-linkedin-integration-with-attract"></a>LinkedIni Attractiga integreerimise seadistamine
 
@@ -117,4 +117,4 @@ See funktsioon on praegu eelvaateversioonis. Enne nende toimingute tegemist veen
 
 [Tööde loomine, kinnitamine ja sisestamine Attractis](./creating-jobs-attract.md)
 
-[Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md).
+[Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md)

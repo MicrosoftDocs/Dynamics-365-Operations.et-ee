@@ -1,33 +1,34 @@
 ---
 title: Hankija koostöö klientidega
 description: Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd, et töötada ostutellimustega ja jälgida saadetise varusid.
-author: mkirknel
+author: TaylorVH
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.author: v-savanh
+ms.search.validFrom: 2020-11-01
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018147"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654336"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Hankija koostöö klientidega
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse, kuidas saate kasutada hankija koostööd, et töötada klientidega rakenduses Microsoft Dynamics 365 Supply Chain Management. Hankijad saavad äriprotsesse lõpule viia järgmistes tööruumides.
 
@@ -40,7 +41,7 @@ Hankijad saavad jälgida ka teavet veose varude kohta.
 
 ## <a name="working-with-pos-in-the-purchase-order-confirmation-workspace"></a>Töö OT-dega tööruumis Ostutellimuse kinnitus
 
-Tööruum **Ostutellimuse kinnitus** võimaldab teil vastata ülevaatamiseks saadetud OT-dele. See võimaldab teil vaadata ka teavet OT-de kohta, mis ootavad kliendipoolset tegevust, ja selliste OT-de kohta, mis on kinnitatud, kuid ikka avatud.
+Tööruum **Ostutellimuse kinnitus** võimaldab teil vastata ülevaatamiseks saadetud ostutellimustele (OT-dele). See võimaldab teil vaadata ka teavet OT-de kohta, mis ootavad kliendipoolset tegevust, ja selliste OT-de kohta, mis on kinnitatud, kuid ikka avatud.
 
 Tööruumis **Ostutellimuse kinnitus** on kolm loendit.
 
@@ -53,15 +54,15 @@ OT-dega töötamiseks saate kasutada järgmisi lehti.
 - **Ülevaatamist ootavad ostutellimused** – see leht sisaldab sama teavet nagu loend **Ülevaatamist ootavad ostutellimused** tööruumis. Vaadake selle kirjeldust eestpoolt.
 - **Ostutellimuse hankija kinnitamise ajalugu** – see leht sisaldab kõiki OT-sid ja kõiki hankijale saadetud OT-de versioone. See sisaldab ka kõiki hankijalt saadud vastuseid.
 - **Ava kinnitatud ostutellimused** – see leht sisaldab sama teavet nagu loend **Ava kinnitatud ostutellimus** tööruumis. Vaadake selle kirjeldust eestpoolt.
-- **Kõik kinnitatud ostutellimused** – see leht sisaldab kõiki kinnitatud OT-sid. Selle lehe OT-d hõlmavad ka saadud toodete või teenuste OT-sid. Saate kasutada seda loendit jälgimaks, milliste OT-de eest saate arveid saata.
+- **Kõik kinnitatud ostutellimused** – see leht sisaldab kõiki kinnitatud OT-sid. Sellel lehel kuvatud OT-d hõlmavad ka saadud toodete või teenuste OT-sid. Saate kasutada seda loendit jälgimaks, milliste OT-de eest saate arveid saata.
 
 ### <a name="responding-to-pos"></a>OT-dele vastamine
 
 Kliendi saadetud OT-d kuvatakse tööruumis **Ostutellimuse kinnitus** ja lehel **Ülevaatamist ootavad ostutellimused**. Pärast OT avamist saate selle aktseptida, tagasi lükata või aktseptida selle muudatustega. OT päises või üksikutel ridadel võib olla manuseid. Peale selle on teil võimalik lisada oma vastusele informatsiooni OT päisesse või üksikutele ridadele. Näiteks võite soovitada soovitada kauba asendamise ühele ridadest.
 
-Saate eelvaadata ja printide ostutellimuse PDF-failina, kasutades suvandit **Kuva eelvaade / prindi**. Selliste dimensiooniveergude nagu **Tegevuskoht** , **Ladu** , **Värv** , **Suurus** , **Stiil** ja **Konfiguratsioon** peitmiseks või kuvamiseks saate kasutada ka tegevust **Dimensioonide kuvamine**. 
+Saate eelvaadata ja printide ostutellimuse PDF-failina, kasutades suvandit **Kuva eelvaade / prindi**. Selliste dimensiooniveergude nagu **Tegevuskoht**, **Ladu**, **Värv**, **Suurus**, **Stiil** ja **Konfiguratsioon** peitmiseks või kuvamiseks saate kasutada ka tegevust **Dimensioonide kuvamine**. 
 
-Kui kasutate suvandit **Aktsepteeri koos muudatustega** , saate üksikud read kinnitada või tagasi lükata. Samuti saate ridadele teha järgmised muudatused.
+Kui kasutate suvandit **Aktsepteeri koos muudatustega**, saate üksikud read kinnitada või tagasi lükata. Samuti saate ridadele teha järgmised muudatused.
 
 - Muutke kuupäevi või koguseid. Kinnitatud tarnekuupäeva värskendamiseks kõikidel ridadel kasutage OT päises olevat suvandit **Värskenda tarnekuupäeva**.
 - Eri tarnekuupäevade ja -koguste jaoks saate ridu tükeldada.
@@ -83,7 +84,7 @@ Veose varude kasutamisel saate hankija koostööliidese kaudu vaadata teavet jä
 
 Tööruum **Hankija pakkumine** võimaldab vaadata pakkumiskutseid, millele oodatakse teie ettevõte vastust. Samuti saate pakkumiskutsetele vastata. 
 
-Tööruumis kuvatakse ka kõik kaotatud või võidetud pakkumiskutsed. Kui süsteemi konfiguratsiooniks on Avalik sektor, kuvatakse tööruumis ka avalikult kättesaadavad pakkumiskutsed.
+Tööruumis kuvatakse ka kõik kaotatud või võidetud pakkumiskutsed. Kui süsteemi konfiguratsiooniks on avalik sektor, kuvatakse tööruumis ka avalikult kättesaadavad pakkumiskutsed.
 
 ### <a name="viewing-rfqs"></a>Pakkumiskutsete vaatamine
 
@@ -105,15 +106,18 @@ Avaliku sektori töötajad saavad vaadata avatud ja aegunud avalikult kättesaad
 
     Kui teid on kutsutud pakkumist esitama, leiate sama pakkumiskutse lehelt **Uue pakkumise kutsed**. Mõnikord võib ette tulla, et teile pole avatud pakkumiskutset saadetud, kuid soovite siiski pakkumise esitada. Sel juhul võib olla võimalik iseennast kutsuda, eeldusel et klient on selle pakkumiskutse puhul lubanud ise end kutsuda.
 
+    Laiendage **Ava avaldatud pakkumiskutsete** link lülitades sisse **Kuva "Ava avaldatud pakkumiskutsed" link plaadina** funktsiooni. See funktsioon teisendab lingi paanile ja teisaldab selle silmapaistvasse asukohta, et seda oleks lihtne leida.
+
 - Avalikult kättesaadavaks tehtud suletud pakkumiskutsete vaatamiseks valige link **Suletud avaldatud pakkumiskutsed**. Suletud pakkumiskutse on aegunud pakkumiskutse. Aegumiskuupäeva ja -kellaaja leiate pakkumiskutse päisest.
 
     Suletud pakkumiskutse näitab kõiki hankija pakkumisi kuni rea tasemeni. Teave pakkumiste valituks osutumise või tagasilükkamise kohta kajastub suletud pakkumiskutses. Kättesaadavad on ka kõik pakkumisele lisatud manused.
 
-**Märkus.** See funktsioon on saadaval ainult juhul, kui lubatud on konfiguratsioon Avalik sektor.
+> [!NOTE]
+> See funktsioon on saadaval ainult juhul, kui lubatud on konfiguratsioon avalik sektor.
 
 ### <a name="bidding"></a>Pakkumine
 
-- Pakkumiskutsele vastamiseks klõpsake valikut **Pakkumine**.
+- Pakkumiskutsele vastamiseks valige suvand **Pakkumine**.
 
     Kui pakkumiskutse päistes ja ridades on pakkumiseväljade muutmine lubatud, saate oma pakkumise sisestada ruudustikku. Peate ka arvestama mis tahes täiendava teabega pakkumise kohta, mis tuleks lisada rea üksikasjadesse.
 
@@ -130,7 +134,7 @@ Avaliku sektori töötajad saavad vaadata avatud ja aegunud avalikult kättesaad
 
     Võib juhtuda, et peate enne pakkumise esitamist küsimustikule vastama.
 
-- Kui te ei soovi pakkumist esitada, valige **Keeldu**. Kui olete valinud **Keeldu** , ei saa seda tegevust tagasi kutsuda ega pakkumist sisestada.
+- Kui te ei soovi pakkumist esitada, valige **Keeldu**. Kui olete valinud **Keeldu**, ei saa seda tegevust tagasi kutsuda ega pakkumist sisestada.
 
 Kui pakkumiskutset on parandatud, peate sisestama uue pakkumise. Paranduste kohta leiate teavet pakkumiskutse lehe vahekaardilt **Parandused**. Parandatud pakkumiskutseid kuvatakse lehel **Uue pakkumise kutsed**.
 

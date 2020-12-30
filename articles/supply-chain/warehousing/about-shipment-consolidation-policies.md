@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016351"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654216"
 ---
 # <a name="shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikad
 
-Saadetise konsolideerimisprotsess, mis kasutab saadetise konsolideerimispoliitikaid, lubab automatiseeritud saadetise konsolideerimist automaatsel ja käsitsi väljastamisel lattu. Enne selle funktsiooni kasutuselevõttu saadaval olnud automaatsel konsolideerimisel olid püsiprogrammeeritud väljad ja see põhines väljal **Konsolideeri saadetis lattu väljastamisel** , mis määrati laole.
+Saadetise konsolideerimisprotsess, mis kasutab saadetise konsolideerimispoliitikaid, lubab automatiseeritud saadetise konsolideerimist automaatsel ja käsitsi väljastamisel lattu. Enne selle funktsiooni kasutuselevõttu saadaval olnud automaatsel konsolideerimisel olid püsiprogrammeeritud väljad ja see põhines väljal **Konsolideeri saadetis lattu väljastamisel**, mis määrati laole.
 
 Saadetise konsolideerimispoliitikaid kasutatakse järgmiste funktsioonide jaoks.
 
@@ -37,9 +37,9 @@ Saadetise konsolideerimispoliitikaid kasutatakse järgmiste funktsioonide jaoks.
 
 Enne saadetise konsolideerimispoliitikate kasutuselevõttu oli konsolideerimise funktsioon olemas sättena laotasemel. Ühe lao kõikide klientide kõiki tellimusi koheldi selliselt, nagu neil oleks olnud samad konsolideerimise nõuded. Saadetise konsolideerimispoliitikad lisavad tuge stsenaariumides, kus erinevatel organisatsioonidel on saadetise konsolideerimise jaoks erinevad nõuded.
 
-Kehtiva saadetise konsolideerimispoliitika määratlemiseks kasutatakse päringuid ja seejärel määrab redigeeritavate väljade kogum, kuidas koormuse ridu grupeeritakse saadetise tasemel. (See meenutab mustrit, mida kasutavad voo mallid.) Lisaks on igasse poliitikasse lisatud suvand **Konsolideeri olemasolevate saadetistega**. Kui see suvand on sisse lülitatud, otsib protseduur *Lattu väljastamine* konsolideerimiseks saadetisi, otsides olemasolevate saadetiste hulgast, mis loodi sama konsolideerimispoliitika alusel. Sellisel juhul valib süsteem uue saadetise või koormuse loomise asemel olemasoleva. Kuid süsteem konsolideerib ainult olemasolevate saadetistega, mille olek on *Avatud* , voo vabastamisse olekuga *Vabastatud* või kõrgemasse kuuluvaid saadetisi, ei peeta konsolideerimise sihtmärkideks.
+Kehtiva saadetise konsolideerimispoliitika määratlemiseks kasutatakse päringuid ja seejärel määrab redigeeritavate väljade kogum, kuidas koormuse ridu grupeeritakse saadetise tasemel. (See meenutab mustrit, mida kasutavad voo mallid.) Lisaks on igasse poliitikasse lisatud suvand **Konsolideeri olemasolevate saadetistega**. Kui see suvand on sisse lülitatud, otsib protseduur *Lattu väljastamine* konsolideerimiseks saadetisi, otsides olemasolevate saadetiste hulgast, mis loodi sama konsolideerimispoliitika alusel. Sellisel juhul valib süsteem uue saadetise või koormuse loomise asemel olemasoleva. Kuid süsteem konsolideerib ainult olemasolevate saadetistega, mille olek on *Avatud*, voo vabastamisse olekuga *Vabastatud* või kõrgemasse kuuluvaid saadetisi, ei peeta konsolideerimise sihtmärkideks.
 
-Kui saadetise konsolideerimispoliitikad tehakse saadavaks, peidetakse säte **Saadetise konsolideerimine lattu väljastamisel** , mis oli varasemalt saadaval seadistuse lehel **Laod**. Uuele saadetise konsolideerimise funktsioonile ülemineku hõlbustamiseks, loob leht **Saadetise konsolideerimispoliitikad** vaikepoliitika, mis sisaldab automaatselt olemasolevate ladude vana sätet. Kui see vaikepoliitika on loodud, ei võeta enam arvesse sätet **Saadetise konsolideerimine lattu väljastamisel** seadistuse lehel **Laod**.
+Kui saadetise konsolideerimispoliitikad tehakse saadavaks, peidetakse säte **Saadetise konsolideerimine lattu väljastamisel**, mis oli varasemalt saadaval seadistuse lehel **Laod**. Uuele saadetise konsolideerimise funktsioonile ülemineku hõlbustamiseks, loob leht **Saadetise konsolideerimispoliitikad** vaikepoliitika, mis sisaldab automaatselt olemasolevate ladude vana sätet. Kui see vaikepoliitika on loodud, ei võeta enam arvesse sätet **Saadetise konsolideerimine lattu väljastamisel** seadistuse lehel **Laod**.
 
 Saate kasutada lehte **Lattu väljastamine** vastava konsolideerimispoliitika käsitsi alistamiseks, nagu ka saate alistada täitmise poliitikaid.
 

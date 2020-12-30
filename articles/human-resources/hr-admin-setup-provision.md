@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e37777b8000fb3afbc72ff9c61347085816e36c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 106976edfa2bd7efba41887d5e8f4243b56e7b2f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431218"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527786"
 ---
 # <a name="provision-human-resources"></a>Human Resources ettevalmistus
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 See artikkel selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks. See artikkel eeldab, et olete ostnud rakenduse Human Resources pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. Kui teil on olemasolev Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Human Resources teenuseplaani ja te ei saa selles artiklis olevaid etappe läbida, võtke ühendust toega.
 
@@ -45,7 +47,7 @@ Selleks, et kasutada oma rakenduse Human Resources keskkondade haldamiseks LCS-i
 
 5. Valige **Loo**.
 
-Lisateavet selle kohta, kuidas rakenduse Human Resources kasutamist alustada, leiate **Human Resources**i metoodikast, mille lõite oma uues projektis. Kui olete projekti loomise lõpule viinud, viige oma Human Resourcesi keskkonna ettevalmistamiseks läbi järgmine protseduur.
+Lisateavet selle kohta, kuidas rakenduse Human Resources kasutamist alustada, leiate **Human Resources** i metoodikast, mille lõite oma uues projektis. Kui olete projekti loomise lõpule viinud, viige oma Human Resourcesi keskkonna ettevalmistamiseks läbi järgmine protseduur.
 
 ## <a name="provision-a-human-resources-project"></a>Rakenduse Human Resources projekti ettevalmistamine
 
