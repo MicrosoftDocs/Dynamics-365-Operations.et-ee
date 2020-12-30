@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771302"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688121"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 
@@ -64,7 +63,7 @@ Lõpuks peate alla laadima järgmised failid asukohast [CustomerSource](https://
 
 1. Avage **Organisatsiooni haldamine \> Tööruumid \> Elektrooniline aruandlus**.
 2. Veenduge, et pakkuja **Litware, Inc.** on olemas ja märgitud aktiivseks.
-3. Paanil **Microsoft**i pakkuja jaoks valige **Hoidlad**.
+3. Paanil **Microsoft** i pakkuja jaoks valige **Hoidlad**.
 
     > [!NOTE]
     > Kui **LCS**-tüüpi hoidla on juba olemas, jätke selle protseduuri ülejäänud etapid vahele.
@@ -105,7 +104,7 @@ Lõpuks peate alla laadima järgmised failid asukohast [CustomerSource](https://
     > [!NOTE]
     > Aktiivne konfiguratsiooni pakkuja sisestatakse automaatselt. See pakkuja saab seda konfiguratsiooni hallata. Kuigi teised pakkujad saavad seda konfiguratsiooni kasutada, ei saa nad seda hallata.
 
-7. Valikuline: väljal **Vormingu tüüp** saate valida elektroonilise dokumendi kindla vormingu. Kui valite **PDF**-i kujunduse ajal, siis pakub ER-i operatsioonide kujundaja ainult vorminguelemente, mis on kohaldatavad ainult PDF-vormingus loodud dokumentidele (**PDF\fail**, **PDF\PDF-i liitmine**jne). Kui jätate selle välja tühjaks, määratakse elektroonilise dokumendi vorming ER operatsioonide kujundamise ajal, kui lisatakse esimene vorminguelement. Näiteks kui lisate **Excel\File** esimese vorminguelemendina, pakub ER-i operatsioonide kujundaja just vormingu elemente, mis on kohaldatavad ainult Exceli vormingus loodud dokumentidele (**Excel\Cell**, **Excel\Range**, jne). Vorming.
+7. Valikuline: väljal **Vormingu tüüp** saate valida elektroonilise dokumendi kindla vormingu. Kui valite **PDF**-i kujunduse ajal, siis pakub ER-i operatsioonide kujundaja ainult vorminguelemente, mis on kohaldatavad ainult PDF-vormingus loodud dokumentidele (**PDF\fail**, **PDF\PDF-i liitmine** jne). Kui jätate selle välja tühjaks, määratakse elektroonilise dokumendi vorming ER operatsioonide kujundamise ajal, kui lisatakse esimene vorminguelement. Näiteks kui lisate **Excel\File** esimese vorminguelemendina, pakub ER-i operatsioonide kujundaja just vormingu elemente, mis on kohaldatavad ainult Exceli vormingus loodud dokumentidele (**Excel\Cell**, **Excel\Range**, jne). Vorming.
 8. Valige **Konfiguratsiooni loomine**.
 
 Uus ER-i vormingu konfiguratsioon on loodud. Saate kasutada selle konfiguratsiooni mustandversiooni, et talletada ER-i vormingu komponenti, mille eesmärk on luua elektroonilisi dokumente PDF-vormingus.

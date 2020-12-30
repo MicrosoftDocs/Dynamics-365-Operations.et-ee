@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
-ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "3257057"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685379"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektroonilise aruandluse täiustatud valemiredaktor
 
@@ -44,9 +43,9 @@ Lisaks [Elektroonilise aruandluse](general-electronic-reporting.md) [valemiredak
 
 Tehke järgmised sammud, et alustada oma Microsofti Dynamics 365 Finance eksemplaris täpsema valemiredaktori kasutamist.
 
-1.  Avage **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
-2.  Valige lehe **Konfiguratsioonid**  vahekaardi **Konfiguratsioonid**  tegevuspaani rühma **Täpsemad sätted**  **Kasutaja parameetrid**.
-3.  Seadke dialoogiboksi **Kasutaja parameetrid**  jaotise  **Käivitamise jälitus**  valiku **Luba täpsem valemiredaktor** parameetriks **Jah**.
+1.  Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
+2.  Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
+3.  Seadke dialoogiboksi **Kasutaja parameetrid** jaotise **Käivitamise jälitus** valiku **Luba täpsem valemiredaktor** parameetriks **Jah**.
 
 [![ER-seadete leht](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 

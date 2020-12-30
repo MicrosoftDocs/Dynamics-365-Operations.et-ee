@@ -3,26 +3,25 @@ title: Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
 description: Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse.
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040095"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694563"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Pilvepõhiste ja kohapealsete funktsioonide võrdlus
 
@@ -167,9 +166,12 @@ Kohapeal saadaolevate juurutuste võimaluste loendi nägemiseks vt [Kohapealseks
 | Platvorm ühilduvus     |                                           | Jah       | Jah             |
 | Hooldus                  |                                           | Jah       | Jah             |
 |                            | Teeninduskeskkonnad                    | Jah       | Ei              |
-| Trace Parser ja PerfTimer |                                           | Jah       | Ei              |
+| Trace Parser               |                                           | Jah       | Jah             |
+| PerfTimer                  |                                           | Jah       | Jah\*           |
 | Täiendamine                    |                                           | Jah       | Jah             |
 |                            | Täiendamine                                   | Jah       | Ei              |
 |                            | Eelmiste versioonide täiendamine ja tugi | Jah       | Ei              |
 | Visual Studio arendus  |                                           | Jah       | Jah             |
+
+\*Kohapealsetes keskkondades näitab PerfTimer ainult kliendi tulemusi.
 

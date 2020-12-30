@@ -3,26 +3,25 @@ title: SharePointist andmete importimise konfigureerimine
 description: Selles teemas selgitatakse, kuidas importida andmeid Microsoft SharePointist.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/29/2018
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 1f7754a3e69238ab1760b3f7eb8f5e2c792b451b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771348"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680898"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePointist andmete importimise konfigureerimine
 
@@ -56,7 +55,7 @@ Vaadake tegevusjuhiseid **Elektrooniline aruandlus: andmete importimine Microsof
 
 - Exceli fail **1099import-data.xlsx** koos hankija kannetega, mis tuleb importida.
 
-![Microsoft Exceli näidisfail SharePointist importimiseks](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Exceli näidisfail SharePointist importimiseks](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Hankija kannete importimise vorming on valitud vaike-mudelivastendusena. Seega kui käivitate **1099 maksete mudeli** mudelivastenduse ja mudelivastenduse tüüp on **Sihtkohta**, käitab mudelivastendus seda vormingut andmete importimiseks välistest failidest. Seejärel kasutab see neid andmeid rakenduse tabelite värskendamiseks.
@@ -80,7 +79,7 @@ Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigur
     - Failide veakaust – See kaust oleks failide jaoks, mida ei saanud importida.
 
 4. Avage **Organisatsiooni haldus > Dokumendihaldus > Dokumenditüübid**.
-5. Looge dokumenditüübid, mida kasutatakse äsjaloodud SharePointi kaustadele juurdepääsuks. Lisateabe saamiseks vaadake [Dokumenditüüpide konfigureerimine](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Looge dokumenditüübid, mida kasutatakse loodud SharePointi kaustadele juurdepääsuks. Lisateabe saamiseks vaadake [Dokumenditüüpide konfigureerimine](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Dokumendi tüüp        | Grupeeri              | Koht      | SharePointi kaust      |
 |--------------------|--------------------|---------------|------------------------|
@@ -96,7 +95,7 @@ Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigur
 1. Klõpsake valikuid **Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Elektroonilise aruandluse allikas**.
 2. Lehel **Elektroonilise aruandluse allikas** saate konfigureerida andmeimpordi lähtefailid, kasutades konfigureeritud elektroonilise aruandluse vormingut.
 3. Määratlege failinime mask, et imporditaks ainult xlsx-laiendiga failid. Failinime mask on valikuline ja seda kasutatakse ainult siis, kui see on määratletud. Iga elektroonilise aruandluse vormingu jaoks saate määratleda ainult ühe maski.
-4. Muutke valikut **Failide sorteerimine enne importimist** - **Mitte sorteerida**, kui teil on palju failide importimiseks ja importimise järjekord pole oluline
+4. Muutke valikut **Failide sorteerimine enne importimist** – **Mitte sorteerida**, kui teil on importimiseks mitu faili ja importimise järjekord pole oluline
 5. Valige kõik varem loodud SharePointi kaustad.
 
     [![Elektroonilise aruandluse failide allika säte](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
@@ -119,7 +118,7 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 
     [![SharePointi sisu – imporditav Microsoft Exceli fail](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
-2. Valige lehel **Allikate failiolekud** suvand **Värskenda**, et lehte värskendada. Pange tähele, et SharePointi üleslaaditud Exceli fail kuvatakse sellel lehel olekuga **Valmis**. Praegu toetatakse järgmisi olekuid.
+2. Valige lehel **Allikate failiolekud** suvand **Värskenda**, et lehte värskendada. SharePointi üleslaaditud Exceli fail kuvatakse sellel lehel olekuga **Valmis**. Praegu toetatakse järgmisi olekuid.
 
     - **Valmis** – määratakse automaatselt igale uuele failile SharePointi kaustas. See olek tähendab, et fail on importimiseks valmis.
     - **Importimine** – selle määrab automaatselt elektroonilise aruandluse aruanne, kui impordiprotsess on faili lukustanud, et takistada selle kasutamist teistes protsessides (kui neid töötab korraga mitu).
@@ -127,21 +126,21 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
     - **Nurjunud** – selle määrab automaatselt elektroonilise aruandluse aruanne, kui faili importimine on lõpule viidud tõrgete või eranditega.
     - **Ootel** – selle määrab kasutaja lehel käsitsi. See olek tähendab, et faili praegu ei impordita. Seda olekut saab kasutada mõne faili importimise edasilükkamiseks.
 
-    [![Elektroonilise aruandluse failiolekute leht valitud allikate puhul](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Värskendatud elektroonilise aruandluse failiolekute leht valitud allikate puhul](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>Andmete importimine SharePointi failidest
 1. Avage elektroonilise aruandluse puu, valige suvand **1099 maksete mudel** ja laiendage elektroonilise aruandluse komponentide loend.
 2. Valige mudelivastenduse nimi, et avada valitud elektroonilise aruandluse mudeli konfiguratsiooni mudelivastenduste loend.
 
-    [![Elektroonilise aruandluse failiolekute leht valitud allikate puhul](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Konfigureerimise leht](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Valitud mudelivastenduse käivitamiseks valige käsk **Käivita**. Kuna konfigureerisite elektroonilise aruandluse vormingu failiallikaid, saate suvandit **Failiallikas** sätet vajadusel muuta. Kui säilitate selle suvandi sätte, imporditakse xlsx-failid konfigureeritud allikatest (selles näites SharePointi kaustadest).
 
     Selles näites impordite ainult ühe faili. Kui aga faile on mitu, valitakse need importimiseks järjekorras, milles need SharePointi kausta lisati. Iga elektroonilise aruandluse vormingu käitamine impordib ühe valitud faili.
 
-    [![Elektroonilise aruandluse mudelivastenduse käitamine](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![SharePointist importimine ja ER-i mudeli vastendamise käitamine](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
-4. Mudelivastendust saab käitada pakettrežiimis järelevalveta. Sellisel juhul imporditakse igal selle elektroonilise aruandluse vormingu pakettkäitusel üks fail konfigureeritud failiallikatest.
+4. Mudelivastendust saab käitada pakettrežiimis [järelevalveta](#limitations). Sellisel juhul imporditakse igal selle elektroonilise aruandluse vormingu pakettkäitusel üks fail konfigureeritud failiallikatest.
 
     Kui fail on SharePointi kaustast edukalt imporditud, kustutatakse see sellest kaustast ja teisaldatakse edukalt imporditud failide kausta või hoiatustega imporditud failide kausta. Vastasel juhul teisaldatakse see ebaõnnestunud failide kausta või jääb sellesse kausta, kui ebaõnnestunud failide kausta ei ole loodud. 
 
@@ -151,7 +150,7 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 
 6. Valige lehel **Allikate failiolekud** suvand **Värskenda**, et lehte värskendada.
 
-    [![Elektroonilise aruandluse failiolekute leht valitud allikate puhul](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![Allikalehe elektroonilise aruandluse failiolekud](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. Jaotises **Failid** vaadake failide loend üle. Jaotises **Impordivormingu allikate logi** kuvatakse Exceli faili importimise ajalugu. Kuna see fail on edukalt imporditud, on see SharePointi kaustas märkega **Kustutatud**.
 8. Vaadake üle SharePointi kaust **Failide impordiallikas (peamine)**. Edukalt imporditud Exceli failid on sellest kaustast kustutatud.
@@ -179,9 +178,9 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 8. Muudetud elektroonilise aruandluse mudelivastenduse käivitamiseks valige käsk **Käivita**.
 9. Sisestage kande ID, nt **V-00002**, ja seejärel valige **OK**.
 
-    Pange tähele, et teabelogi sisaldab teatist selle kohta, et SharePointi kaustas asuv fail sisaldab vale hankija kontot ja seda ei saa importida.
+    Teabelogi sisaldab teatist selle kohta, et SharePointi kaustas asuv fail sisaldab vale hankija kontot ja seda ei saa importida.
 
-    [![Elektroonilise aruandluse mudelivastenduse käitamine](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Lõpetatud elektroonilise aruandluse mudelivastenduse käitamine](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. Valige lehel **Allikate failiolekud** suvand **Värskenda** ja siis vaadake jaotises **Failid** faililoend üle.
 
@@ -192,3 +191,18 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 11. Valige suvandid **Ostureskontro** \> **Perioodilised ülesanded** \> **Maks 1099** \> **Hankija tasakaalustus 1099 jaoks**, sisestage väljadele **Alguskuupäev** ja **Lõppkuupäev** asjakohased väärtused ning siis valige suvand **Manuaalsed 1099 kanded**.
 
     Saadaval on ainult kanded kandele V-00001. Kandele V-00002 ei ole kandeid saadaval, kuigi Exceli failis leiti viimati imporditud kande tõrge.
+
+## <a name=""></a><a name="limitations">Kitsendused</a>
+
+ER-i raamistik ei paku võimalust algatada uut pakett-tööd, mis käivitab mudeli vastendamise andmete importimiseks järelevalveta režiimis. Selleks peate arendama uue loogika, et konfigureeritud ER-i mudeli vastendust saaks kutsuda rakenduse kasutajaliidesest (UI), et importida andmeid sissetulevatest failidest. Seetõttu on vaja teha natuke tehnilist tööd. 
+
+Asjakohase ER-i API kohta lisateabe saamiseks vt teemat [Andmete importimiseks vastendamise vormingu käitamise kood](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) või [ER-i raamistiku API muudatused rakenduse värskenduse 7.3 jaoks](er-apis-app73.md).
+
+Vaadake kood läbi klassi `BankImport_RU` mudelis `Application Suite`, et näha, kuidas teie kohandatud loogikat saab rakendada. See klass laiendab klassi `RunBaseBatch`. Täpsemalt vaadake läbi meetod `runER()`, kus objekt `ERIModelMappingDestinationRun` on loodud ER-i mudeli vastendamise käitajana.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+
+[ER-i raamistiku API muudatused rakenduse värskenduse 7.3 puhul](er-apis-app73.md)
+

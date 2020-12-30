@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181768"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682767"
 ---
 # <a name="financial-insights"></a>Finantsülevaated
 
@@ -88,7 +87,7 @@ Praegu ei saa Power BI aruannete andmeid manustada juriidilistele isikutele, mil
 | Ettevõtteüleste finantsülevaadete vaatamine   | Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 pole see kohustus veel rollile määratud. Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Finantsaruandlus vs finantsülevaated
+## <a name="financial-reporting-vs-financial-insights"></a>Finantsaruandlus vs finantsülevaated
 Kuigi **finantsülevaated** hõlmab finantsaruandeid, ei asenda see rakenduse finantsaruandlust. **Finantsülevaadete** vaike-finantsaruannete ulatus on piiratud ega hõlma igat tüüpi finantsaruanded. Finantsaruandlus on siiski seaduslike finantsaruannete kavandamise ja loomise peamine tööriist.
 
 Järgmine võrdlusdiagramm selgitab kahe võimaluse vahelisi erinevusi.
@@ -131,7 +130,7 @@ Kasutajad saavad aruannet filtreerida vasakul asuva paani **Filter** abil. See p
 - **Visuaalitaseme filtrid** – neid filtreid rakendatakse ainult valitud visuaalile. Neid filtreid rakendatakse lehetaseme filtritele lisaks.
 - **Süvitsimineku filter** – see filter filtreerib lähtevisuaalist, mida rakendatakse praegusele visuaalile süvaaruande loomisel lähtevisuaalist praegusele visuaalile.
 
-![Filtreeri](./media/filter.png)
+![Filtreerimissuvandid](./media/filter.png)
 
 Konkreetse filtriväärtuse eemaldamiseks valige selle kõrval asuv kustutuskummi sümbol. Ärge eemaldage filtrit, valides sümboli X. Sümboli X valimisel eemaldatakse filtreeritav väli filtrisuvandite hulgast. Kui eemaldate välja filtrist kogemata, sulgege tööruum ja avage see uuesti. Vaikefiltri sätted rakendatakse uuesti.
 
@@ -176,25 +175,25 @@ Power BI kaudu on saadaval süvitsimineku eri tasemed. Igal tasemel on oma nimi 
 
 Järgmisel joonisel on aruanne **Proovibilanss** ahendatud reahierarhia kõrgeimale tasemele – põhikonto tüübile.
 
-![Proovibilanss](./media/trial-balance.png)
+![Proovibilansi väljavõte](./media/trial-balance.png)
 
 Hierarhia järgmise taseme (põhikonto kategooriad) vaatamiseks saate välja **Mine süvitsi üksusega** väärtuseks määrata **Read** ja valida seejärel nupp **Laienda** (kolmas nupp väljast Mine süvitsi üksusega). Nüüd näete põhikonto kategooriad laiendatuna. Praegu ei luba Power BI teil laiendada ainult üht rida või veergu ning samal ajal näha kõiki teisi ridu ja veerge.
 
-![Proovibilanss](./media/trial-balance2.png)
+![Proovibilansi ridadesse süvitsi minek](./media/trial-balance2.png)
 
 Kõigi ridade põhikontode laiendamiseks saate uuesti kasutada nuppu **Laienda**. Põhikontodega süvitsi minekuks ainult ühe rea kaupa valige aga esmalt nupp **Mine süvitsi** (akna paremal pool asuv üksik allapoole osutav nool) ja valige seejärel rida, millega süvitsi minna. Järgmisel joonisel on kujutatud tulemus, kui pärast nupu **Drill Down** valimist on valitud rida **Müük**.
 
-![Proovibilanss](./media/trial-balance3.png)
+![Proovibilansi laiendamise nupp](./media/trial-balance3.png)
 
 Pärast ühe reaga süvitsiminekut tuleb täielikule proovibilansile naasmiseks teha mitu klõpsu. Nupp **Mine üldiseks** (Esimene nupp pärast välja **Mine süvitsi üksusega**) läheb üldiseks ainult kategooria **Müük** kontekstis, nagu alloleval pildil on näidatud.
 
-![Proovibilanss](./media/trial-balance4.png)
+![Proovibilansi üldiseks minemise nupp](./media/trial-balance4.png)
 
 Nuppu **Mine üldiseks** saate kasutada ridade kõrgeima taseme summeerimise juurde naasmiseks.
 
 Power BI-l on ka nupp, mille abil saate hierarhia järgmisele tasemele liikuda (teine nupp pärast välja **Mine süvitsi üksusega**). Selle nupu mõju erineb nupu **Laienda** (kolmas nupp pärast välja **Mine süvitsi üksusega**) mõjust, mida kasutatakse hierarhia laiendamiseks. Hierarhia laiendamisel säilitatakse hierarhia aruandel. Nagu näitasime ka varem, siis kui laiendate näiteks põhikonto tüüpi, näete aruandel ikka põhikonto tüüpi. Kui aga lähete hierarhia järgmisele tasemele, ei näita aruanne enam hierarhia ülemüksust, nagu on näha järgmisel pildil.
 
-![Proovibilanss](./media/trial-balance5.png)
+![Proovibilansi süvenemisest naasmise nupp](./media/trial-balance5.png)
 
 Summeeritud saldote taga olevate kande üksikasjade vaatamiseks saate rakendusse Financial and Operations tagasi minna, valides mõned summad.
 
@@ -245,6 +244,6 @@ Power BI-l ei ole tühjade ridade peitmise või kuvamise valikut. Kui real ei ol
 
 Järgmiste ressursside teave ei ole kohustuslik **CFO ülevaate** või **finantsülevaadete** tööruumi manustatud aruannete lubamiseks tootmiskeskkonnas. Selle asemel on need kasulikud arendusväljade jaoks ja juhul, kui soovite oma Power BI aruandeid manustada.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Analüütikatööruumidele ja aruannetele juurdepääs valmiskeskkonnas](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138856"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679482"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Luba kasutajatel häälestada ER-vormingu viidet vormingu päringule globaalsest hoidlast
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada [elektroonilise aruandluse](general-electronic-reporting.md) (ER) raamistikku, et konfigureerida [vorminguid](general-electronic-reporting.md#FormatComponentOutbound) väljaminevatele dokumentidele vastavalt erinevate riikide/piirkondade juriidilistele nõudmistele. Saate kasutada ka ER raamistikku, et konfigureerida [vorminguid](general-electronic-reporting.md#FormatComponentInbound) sissetulevate dokumentide sõelumiseks ja kasutada nende dokumentide teavet, et lisada või värskendada rakenduse andmeid. Kõiki neid vorminguid saab kasutada teie Dynamics 365 Finance eksemplaris sissetuleva või väljamineva äridokumendi käsitlemiseks teatud äriprotsessi osana. 
+Saate kasutada [elektroonilise aruandluse](general-electronic-reporting.md) (ER) raamistikku, et konfigureerida [vorminguid](general-electronic-reporting.md#FormatComponentOutbound) väljaminevatele dokumentidele vastavalt erinevate riikide/piirkondade juriidilistele nõudmistele. Saate kasutada ka ER raamistikku, et konfigureerida [vorminguid](general-electronic-reporting.md#FormatComponentInbound) sissetulevate dokumentide sõelumiseks ja kasutada nende dokumentide teavet, et lisada või värskendada rakenduse andmeid. Kõiki neid vorminguid saab kasutada teie rakenduse Dynamics 365 Finance eksemplaris sissetuleva või väljamineva äridokumendi käsitlemiseks teatud äriprotsessi osana.
 
 Tavaliselt peate määrama, millist ER-vormingut peab teatud äriprotsessis kasutama. Selleks valige üks ER vorming otsinguväljal, mis on konfigureeritud äriprotsessi kohaste parameetrite osana. Neid otsingu välju rakendatakse tavaliselt, kasutades ER raamistiku vastavat API-d. Lisateavet vt teemast [ER raamistiku API-kood, et kuvada vormingu vastendamise otsing](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
 Näiteks, kui konfigureerite [väliskaubanduse parameetreid](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters), peate seadistama viited konkreetsetele ER vormingutele, mida kasutatakse Intrastat-deklaratsiooni ja Intrastat-deklaratsiooni kontrolliaruande loomiseks. Järgmised pildid näitavad, kuidas ER vormingu otsinguväli välja näeb **Väliskaubanduse parameetrite** lehel.
 
-Kui praegune Finance eksemplar ei sisalda Intrastati äriprotsessiga seotud ER vorminguid, on see otsinguväli tühi.
+Kui praegune Finance’i eksemplar ei sisalda Intrastati äriprotsessiga seotud ER-i vorminguid, on see otsinguväli tühi.
 
 [![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
@@ -45,7 +44,7 @@ Kui praegune Finance eksemplar sisaldab Intrastati äriprotsessiga seotud ER vor
 
 See otsing pakub ainult praegusesse Finance eksemplari juba imporditud ER vorminguid. Et [importida](./tasks/er-import-configuration-lifecycle-services.md) ER lahendusi praegusesse Finance eksemplari, teil on vaja luba käivitada vastav ER raamistiku funktsioon, mis toetab ER vorminguid sisaldavate ER lahenduste [elutsüklit](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-Alates Finance versioonist 10.0.9 (aprill 2020 väljalase), ER vormingu otsing, mida rakendatakse ER raamistiku API abil, on laiendatud. Saate siiski valida olemasolevad ER vormingud, mis on kiirkaardil**Vormingu konfiguratsiooni valimine**. Lisaks sellele pakub laiendatud otsing uut võimalust otsida globaalset hoidlat (GR), et leida kindlaid ER vorminguid. Kõiki GR ER formaate pakutakse kiirkaardil **Globaalsest hoidlast importimine**.
+Alates Finance versioonist 10.0.9 (aprill 2020 väljalase), ER vormingu otsing, mida rakendatakse ER raamistiku API abil, on laiendatud. Saate siiski valida olemasolevad ER vormingud, mis on kiirkaardil **Vormingu konfiguratsiooni valimine**. Lisaks pakub laiendatud otsing uut võimalust otsida globaalset hoidlat (GR), et leida kindlaid ER-i vorminguid. Kõiki GR ER formaate pakutakse kiirkaardil **Globaalsest hoidlast importimine**.
 
 [![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
@@ -55,13 +54,13 @@ ER-vormingu valimisel kiirkaardil **Globaalsest hoidlast importimine** impordita
 
 [![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Kui import on edukalt lõpule viidud, talletatakse sellel otsinguväljal viide imporditud ER vormingule. Pidage meeles, et kui avate esmakordselt GR-i, tuleb teil järgida antud linki, et registreeruda teenuse [Regulatory Configuratin Service](https://aka.ms/rcs) (RCS) jaoks, mida kasutatakse juurdepääsu haldamiseks GR salvestusruumi.
+Kui import on edukalt lõpule viidud, talletatakse sellel otsinguväljal viide imporditud ER vormingule. Kui avate esmakordselt GR-i, tuleb teil järgida antud linki, et registreeruda [regulatiivsete konfiguratsiooniteenuse](https://aka.ms/rcs) (RCS) jaoks, mida kasutatakse juurdepääsu haldamiseks GR-i salvestusruumi.
 
 [![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Vaikimisi esindab kiirkaart **Globaalsest hoidlast importimine** ajutise salvestusruumi ER vormingute loendit, mis luuakse automaatselt jõudluse täiustuste GR sisu alusel. See juhtub siis, kui kiirkaart **Globaalsest hoidlast importimine** avatakse esimest korda, mis võib kesta mitu sekundit.
 
-Kui te ei näe nõutud ER vormingut kiirkaardil **Globaalsest hoidlast importimine**, kuid olete kindel, et see ER vorming on salvestatud GR-is, valige suvand **Sünkroonimine**. See värskendab ajutise salvestusruumi ja sünkroonib selle GR praeguse sisuga.
+Kui te ei näe nõutud ER vormingut kiirkaardil **Globaalsest hoidlast importimine**, kuid olete kindel, et see ER vorming on salvestatud GR-is, valige suvand **Sünkroonimine**. See suvand värskendab ajutise salvestusruumi ja sünkroonib selle GR-i praeguse sisuga.
 
 ## <a name="feature-activation"></a>Funktsiooni aktiveerimine
 
@@ -73,7 +72,7 @@ Selle funktsiooni saadavust kontrollib **ER vormingu konfiguratsioonide laiendat
 
 **Konfiguratsioonihoidlate haldamise** (**ERMaintainSolutionRepositories**) privileeg kontrollib kasutaja juurdepääsu GR-ile, kes avab ER vormingu otsingu lubatud kiirkaardiga **Globaalsest hoidlast importimine**. Et lubada kasutajatel juurde pääseda GR sisule ER vormingu otsingust, peate muutma turvasätteid, andes **ERMaintainSolutionRepositories** kasutajatele privileegi kas otse või kasutades juba määratud rolle ja kohustusi.
 
-Järgmine pilt näitab, kuidas saab seda privileegi anda kasutajatele, kellele on määratud **Raamatupidaja** roll. See roll võimaldab kasutajatel konfigureerida väliskaubanduse parameetreid ja seadistada viiteid ER vormingutele väljadel **Failivormingu vastendamine** ja **Aruande vormingu vastendamine** **Väliskaubanduse parameetrite** lehel.
+Järgmine pilt näitab, kuidas saab seda privileegi anda kasutajatele, kellele on määratud **Raamatupidaja** roll. See roll võimaldab kasutajatel konfigureerida väliskaubanduse parameetreid ja seadistada viiteid ER-i vormingutele väljadel **Failivormingu vastendamine** ja **Aruande vormingu vastendamine** lehel **Väliskaubanduse parameetrid**.
 
 [![Turvakonfiguratsiooni leht](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 

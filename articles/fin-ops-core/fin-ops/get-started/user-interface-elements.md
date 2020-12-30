@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 37c5a6c20a6e77a50ece01046ee28074c927bd76
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 0c58ac63a4eae61c9a1cc6134bd0857394895e30
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091819"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693589"
 ---
 # <a name="user-interface-elements"></a>Kasutajaliidese elemendid
 
@@ -43,7 +42,7 @@ Selles teemas kirjeldatakse rakenduse kasutajaliidese (UI) elemente. Enne, kui k
 
 ## <a name="tabs-fields-and-sections"></a>Vahekaardid, väljad ja jaotised
 
-*Vahekaart* on lehel tehtud valik, mis avab sama lehekülje kirje erineva aspekti. Sageli lubatakse teil muuta teatud *välju*või kasutajaliidese elemente, mis lubavad tipitud sisestust. 
+*Vahekaart* on lehel tehtud valik, mis avab sama lehekülje kirje erineva aspekti. Sageli lubatakse teil muuta teatud *välju* või kasutajaliidese elemente, mis lubavad tipitud sisestust. 
 
 *FastTab* on vahekaart, millele on lisatud eelis, mis võimaldab mitmetel vahekaartidel olla samal tasemel nähtav. FastTabi saate laiendada, kui valite selle parempoolsest otsast allapoole osutava noole.
 

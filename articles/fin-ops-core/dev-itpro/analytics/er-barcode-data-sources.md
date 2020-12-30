@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088193"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681420"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Vöötkoodi andmeallikate kasutamine vöötkoodipiltide loomiseks
 
@@ -43,7 +42,7 @@ Aruandemallides saab kasutada vöötkoodipiltide sisestamiseks järgmiseid kohat
 - [Pildi](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word)sisu juhtelement Wordi jaoks
 - [Pildi](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)objekt Excelis
 
-Kasutades andmeallikat, mille tüüp on **Vöötkood** , saate luua vöötkoode järgmistes vormingutes.
+Kasutades andmeallikat, mille tüüp on **Vöötkood**, saate luua vöötkoode järgmistes vormingutes.
 
 - Ühemõõtmelised vöötkoodid:
 
@@ -72,7 +71,7 @@ Kasutades andmeallikat, mille tüüp on **Vöötkood** , saate luua vöötkoode 
 - **Laius** – määrake vöötkoodi laius pikslites. Väärtus **0** (null) tähendab, et kasutatakse vaikelaiust. Tähendus võib eri vormingute puhul varieeruda.
 - **Kõrgus** – määrake vöötkoodi kõrgus pikslites. Väärtus **0** (null) tähendab, et kasutatakse vaikekõrgust. Tähendus võib eri vormingute puhul varieeruda.
 - **Veeris** – määrake vöötkoodi veerise suurus pikslites. Veeris viitab vöötkoodi mõlemal küljel olevale alale, mis tuleb hoida tühjana (nn puhver). Väärtus **0** (null) tähendab, et kasutatakse vaikeveerist. Tähendus võib eri vormingute puhul varieeruda.
-- **Väljundi sisu** – seadke väärtuseks **Jah** , et luua vöötkoodipilt, mis sisaldab kodeeritud teavet tekstina. Vaikeväärtus on **Ei**.
+- **Väljundi sisu** – seadke väärtuseks **Jah**, et luua vöötkoodipilt, mis sisaldab kodeeritud teavet tekstina. Vaikeväärtus on **Ei**.
 - **Kodeering** – määrake loodud vöötkoodipildis kodeeritavate märkide tüüp. Vaikimisi kasutatakse **UTF-8** kodeeringut.
 
 > [!IMPORTANT]
@@ -131,7 +130,7 @@ Lisaks laadige alla järgmine Exceli fail, mis sisaldab muudetud malli pakutava 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Konfiguratsioonipakkuja aktiveerimine
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Veenduge lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad** , et näidisettevõtte **Litware, Inc.** [konfiguratsioonipakkuja](general-electronic-reporting.md#Provider) oleks loendis ja aktiivseks märgitud. Kui seda pole loendis või kui see pole märgitud aktiivseks, järgige juhiseid teemas [Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Veenduge lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad**, et näidisettevõtte **Litware, Inc.** [konfiguratsioonipakkuja](general-electronic-reporting.md#Provider) oleks loendis ja aktiivseks märgitud. Kui seda pole loendis või kui see pole märgitud aktiivseks, järgige juhiseid teemas [Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Näidisettevõtte märkimine aktiivseks lokaliseerimise konfiguratsioonide lehel](./media/er-barcode-data-source-active-provider.png)
 
@@ -142,12 +141,12 @@ Lisaks laadige alla järgmine Exceli fail, mis sisaldab muudetud malli pakutava 
 3. Kui lehel **Konfiguratsioonid** pole konfiguratsioon **Tšekkide mudel** konfiguratsioonipuus saadaval, järgige ER-i andmemudeli konfiguratsiooni importimiseks järgmiseid samme.
 
     1. Valige toimingupaanil suvand **Vahetus** \> **Laadi XML-failist**.
-    2. Valige dialoogiboksis suvand **Sirvi** , otsige üles ja valige fail **Model for cheques.xml** ning seejärel valige **OK**.
+    2. Valige dialoogiboksis suvand **Sirvi**, otsige üles ja valige fail **Model for cheques.xml** ning seejärel valige **OK**.
 
 4. Kui konfiguratsioonipuus pole konfiguratsioon **Tšekkide printimisvorming** saadaval, järgige ER-i vormingu konfiguratsiooni importimiseks järgmiseid samme.
 
     1. Valige toimingupaanil suvand **Vahetus** \> **Laadi XML-failist**.
-    2. Valige dialoogiboksis suvand **Sirvi** , otsige üles ja valige fail **Cheques printing format.xml** ning seejärel valige **OK**.
+    2. Valige dialoogiboksis suvand **Sirvi**, otsige üles ja valige fail **Cheques printing format.xml** ning seejärel valige **OK**.
 
 5. Laiendage konfiguratsioonipuus suvand **Tšekkide mudel**.
 6. Vaadake imporditavate ER konfiguratsioonide loendit konfiguratsioonipuus.
@@ -159,7 +158,7 @@ Lisaks laadige alla järgmine Exceli fail, mis sisaldab muudetud malli pakutava 
 3. Avage pangakonto üksikasjade lehel toimingupaanil vahekaart **Seadistamine** ning valige grupist **Paigutus** suvand **Tšekk**.
 4. Valige lehel **Tšeki paigutus** suvand **Redigeeri**.
 5. Seadke kiirkaardil **Üldine** suvandi **Üldine elektrooniline ekspordivorming** väärtuseks **Jah**.
-6. Valige väljal **Ekspordivormingu konfiguratsioon** ER-i vorming **Tšekkide printimisvorming** , mille te enne importisite.
+6. Valige väljal **Ekspordivormingu konfiguratsioon** ER-i vorming **Tšekkide printimisvorming**, mille te enne importisite.
 7. Valige toimingupaanil suvand **Prindi test**.
 8. Seadke dialoogiboksis suvandi **Käibiv tšekivorming** väärtuseks **Jah** ja valige seejärel **OK**.
 
@@ -192,11 +191,11 @@ Nüüd peate muutma ER-i lahendust ja seejärel muudetud malli [uuesti rakendama
     ![ER-i toimingute koostajas lahtrivormingu elementide sidumine andmeallikatega](./media/er-barcode-data-source-cells-bound.png)
 
 7. Valige lehe parempoolsest servast vahekaart **Vorming**.
-8. Valige toimingupaanil kolmikpunkt ( **...** ) ja seejärel **Impordi**.
+8. Valige toimingupaanil kolmikpunkt (**...**) ja seejärel **Impordi**.
 9. Valige grupis **Impordi** suvand **Värskenda Excelist** ja seejärel suvand **Värskenda malli**.
-10. Leidke dialoogiboksis teie arvutisse salvestatud fail **Cheque template Excel.xlsx** , valige see ja klõpsake seejärel **OK** , et kinnitada valitud malli rakendamine.
+10. Leidke dialoogiboksis teie arvutisse salvestatud fail **Cheque template Excel.xlsx**, valige see ja klõpsake seejärel **OK**, et kinnitada valitud malli rakendamine.
 11. Valige lehe parempoolsest servast vahekaart **Vastendamine** ja klõpsake siis vasakul oleva vormingupuu paanil suvandit **Laienda/ahenda**.
-12. Pange tähele, et lahtrielement **AmountBarcode** on vormingusse lisatud. See element on seotud elemendiga **AmountBarcode** , mis on lisatud vöötkoodipildi kohatäitena muudetud Exceli malli.
+12. Pange tähele, et lahtrielement **AmountBarcode** on vormingusse lisatud. See element on seotud elemendiga **AmountBarcode**, mis on lisatud vöötkoodipildi kohatäitena muudetud Exceli malli.
 
     ![ER-i toimingute koostajas vormingule lisatud lahtrielement AmountBarcode](./media/er-barcode-data-source-cell-added.png)
 
@@ -229,7 +228,7 @@ Järgmisena peate siduma uue vorminguelemendi äsja lisatud andmeallikaga.
 
 5. Seose korrigeerimiseks valige **Redigeeri valemit**.
 
-    Te ei soovi, et tagastataks lahtrielemendi nimi. Seetõttu peate konfigureerima avaldise, mis tagastab teksti, mis sisaldab praeguse tšeki tasumisele kuuluvat summat. Kuna emavahemik **ChequeLines** on seotud andmeallikaga **model.cheques** , siis on praeguse tšeki tasumisele kuuluv summa saadaval andmetüübi **Tegelik** väljal **model.cheques.attributes.amount**.
+    Te ei soovi, et tagastataks lahtrielemendi nimi. Seetõttu peate konfigureerima avaldise, mis tagastab teksti, mis sisaldab praeguse tšeki tasumisele kuuluvat summat. Kuna emavahemik **ChequeLines** on seotud andmeallikaga **model.cheques**, siis on praeguse tšeki tasumisele kuuluv summa saadaval andmetüübi **Tegelik** väljal **model.cheques.attributes.amount**.
 
 6. Sisestage väljale **Valem** väärtus **print.barcode(NUMBERFORMAT(@.attributes.amount, "F2"))**.
 7. Valige **Salvesta** ja sulgege seejärel [ER-i valemikoostaja](general-electronic-reporting-formula-designer.md).
@@ -296,7 +295,7 @@ Kui aga kasutate vöötkoodide loomiseks **Vöötkoodi** andmeallikat, ei sõltu
 ## <a name="limitations"></a>Kitsendused
 
 > [!NOTE]
-> Mõnel loodud vöötkooditüübil on fikseeritud proportsioonid. See on loogiline, kui olete sisse lülitanud funktsiooni **Luba EPPlusi teegi kasutamine elektroonilise aruandluse raamistikus** , et töötada ER-is Exceli dokumentidega. Sellisel juhul sisestatakse pilt kohatäitesse, millel on lukustatud proportsioonid. Kui malli kohatäite mõõtmed vastavad sisestatud pildi proportsioonide suhtele, võidakse loodud dokumendis tegeliku pildi suurust muuta, et säilitada vajalikud proportsioonid. Pildi suuruse muutmise takistamiseks kasutage kohatäidet, millel on soovitavad proportsioonid.
+> Mõnel loodud vöötkooditüübil on fikseeritud proportsioonid. See on loogiline, kui olete sisse lülitanud funktsiooni **Luba EPPlusi teegi kasutamine elektroonilise aruandluse raamistikus**, et töötada ER-is Exceli dokumentidega. Sellisel juhul sisestatakse pilt kohatäitesse, millel on lukustatud proportsioonid. Kui malli kohatäite mõõtmed vastavad sisestatud pildi proportsioonide suhtele, võidakse loodud dokumendis tegeliku pildi suurust muuta, et säilitada vajalikud proportsioonid. Pildi suuruse muutmise takistamiseks kasutage kohatäidet, millel on soovitavad proportsioonid.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

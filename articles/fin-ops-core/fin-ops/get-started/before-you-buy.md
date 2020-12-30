@@ -3,25 +3,24 @@ title: Enne ostmist
 description: Üksikasjalikud juhised, kui kaalute rakenduste Dynamics 365 Finance, Dynamics 365 Supply Chain Management või Dynamics 365 Commerce ostmist.
 author: ShellyBakke
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 4619a359a352d702526c576d97b666439d71ed96
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027720"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694132"
 ---
 # <a name="before-you-buy"></a>Enne ostmist
 
@@ -41,7 +40,7 @@ Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 
 - Regulatiivsed ja nõuetelevastavuse nõuded, mis ei ole saadaval pilvesertides.
 - Ühenduseta äriprotsess ajutise Interneti-ühendusega, mida on vaja teenusesse Microsoft Dynamics Lifecycle Services (LCS) juurdepääsuks rakenduste elutsükli haldamiseks.
-- [Asutusesisestes juurutustes rakendamata funktsioonid](features-not-implemented-on-prem.md).
+- [Pilvepõhiste ja kohapealsete funktsioonide võrdlus](cloud-prem-comparison.md).
 - [Asutusesiseste juurutuste süsteeminõuded](system-requirements-on-prem.md).
 
 > [!IMPORTANT]

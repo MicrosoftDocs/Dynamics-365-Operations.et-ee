@@ -1,6 +1,6 @@
 ---
 title: Üldine tõrkeotsing
-description: See teema annab teavet rakendustekomplekti Finance and Operations ja Common Data Service’i vahelise andmete topeltkirjutuse integratsiooni üldise tõrkeotsingu kohta.
+description: See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni üldise tõrkeotsingu kohta.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997250"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688255"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Common Data Service’i vahelise andmete topeltkirjutuse integratsiooni üldise tõrkeotsingu kohta.
+
+See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni üldise tõrkeotsingu kohta.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
@@ -51,11 +53,11 @@ Pärast tööriista Package Deployer installimist installige lahendusepakett, j�
     ![Kausta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 sisu](media/extract_package.png)
 
 3. Kleepige kõik kopeeritud failid tööriista Package Deployer kausta **Tööriistad**. 
-4. Käivitage **PackageDeployer.exe** Common Data Service'i keskkonna valimiseks ja lahenduste installimiseks.
+4. Käivitage **PackageDeployer.exe** Dataverse'i keskkonna valimiseks ja lahenduste installimiseks.
 
     ![Kausta Tööriistad sisu](media/paste_copied_files.png)
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Common Data Service'i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Teenuse Dataverse’i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
 
 **Jälituslogi sisselülitamiseks ja tõrgete kuvamiseks nõutav roll:** süsteemiadministraator
 
@@ -74,7 +76,7 @@ Jälituslogi kuvamiseks toimige järgmiselt.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Silumisrežiim lubamine tõrkeotsingu reaalajas sünkroonimise probleemide korral Finance and Operationsi rakendustes
 
-**Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator. Common Data Service'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Mõnel juhul ei ole tõrketeate täistekst saadaval, kuna sõnum on liiga pikk või sisaldab tuvastamist võimaldavaid andmeid (PII). Verbose tõrgete logimise saate sisse lülitada järgmiste juhiste abil.
+**Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator. Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Mõnel juhul ei ole tõrketeate täistekst saadaval, kuna sõnum on liiga pikk või sisaldab tuvastamist võimaldavaid andmeid (PII). Verbose tõrgete logimise saate sisse lülitada järgmiste juhiste abil.
 
 1. Kõigil Finance and Operationsi rakenduste projekti konfiguratsioonidel on atribuut **IsDebugMode** üksusel **DualWriteProjectConfiguration**. Üksuse **DualWriteProjectConfiguration** avamine Exceli lisandmooduliga.
 
@@ -85,7 +87,7 @@ Jälituslogi kuvamiseks toimige järgmiselt.
 3. Käivitage stsenaarium, mis tekitab tõrkeid.
 4. Verbose logid on saadaval tabelis DualWriteErrorLog. Tabeli brauseris andmete otsimiseks kasutage järgmist URL-i (asendage **XXX** vastavalt vajadusele):
 
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Rakenduse Finance and Operations virtuaalarvuti sünkroonimistõrgete kontrollimine
 
@@ -99,9 +101,9 @@ Jälituslogi kuvamiseks toimige järgmiselt.
 6. Valige **Rakenduste ja teenuste logid \> Microsoft \> Dynamics \> AX-DualWriteSync \> Toiming**.
 7. Vaadake läbi hiljutiste tõrgete loend.
 
-## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Linkimise tühistamine ja teise Common Data Service'i keskkonna linkimine Finance and Operationsi rakendusest
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Linkimise tühistamine ja teise Dataverse'i keskkonna linkimine Finance and Operationsi rakendusest
 
-**Keskkonna linkimise tühistamiseks nõutav roll:** kas Finance and Operationsi rakenduse või teenuse Common Data Service süsteemiadministraator.
+**Keskkonna linkimise tühistamiseks nõutav roll:** kas Finance and Operationsi rakenduse või teenuse Dataverse süsteemiadministraator.
 
 1. Logige rakendusse Finance and Operations sisse.
 2. Avage **Tööruumid \>Andmehaldus** ja valige paan **Topeltkirjutus**.
@@ -113,7 +115,7 @@ Nüüd saate linkida uue keskkonna.
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>Müügitellimuse rea teabevormi ei saa kuvada 
 
-Kui loote müügitellimuse rakenduses Dynamics 365 Sales, võib nupu **+ Lisa tooted** klõpsamine suunata teid rakenduse Dynamics 365 Project Operation tellimuserea vormile. Sellel vormil ei saa vaadata müügitellimuse rea vormi **Teave**. Ripploendis ei kuvata suvandi **Uus tellimuse rida** all suvandit **Teave**. See juhtub, kuna teie keskkonnas on installitud rakendus Project Operations.
+Kui loote müügitellimuse rakenduses Dynamics 365 Sales, võib nupu **+ Lisa tooted** klõpsamine suunata teid rakenduse Dynamics 365 Project Operations tellimuserea vormile. Sellel vormil ei saa vaadata müügitellimuse rea vormi **Teave**. Ripploendis ei kuvata suvandi **Uus tellimuse rida** all suvandit **Teave**. See juhtub, kuna teie keskkonnas on installitud rakendus Project Operations.
 
 Vormisuvandi **Teave** uuesti lubamiseks tehke järgmist.
 1. Avage üksus **Tellimuse rida**.

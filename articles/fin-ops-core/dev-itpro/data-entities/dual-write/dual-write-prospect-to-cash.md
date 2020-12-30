@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997396"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683643"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -62,9 +62,9 @@ Näiteks on Supply Chain Managementi numbrijärjestus **1, 2, 3, 4, 5,...** ja M
 
 Müügipakkumised võib luua rakenduses Müügid või Supply Chain Management. Kui loote pakkumise Müükides, sünkroonitakse see reaalajas Supply Chain Managementiga. Kui loote pakkumise Supply Chain Managementis, sünkroonitakse see reaalajas Müükidega. Pidage meeles järgmiseid punkte.
 
-+ Toote pakkumisele saate lisada allahindluse. Sel juhul sünkroonitakse allahindlus Supply Chain Managementiga. Päise välju **Allahindlus** , **Tasud** ja **Maks** juhitakse seadistusega rakenduses Supply Chain Management. See seadistus ei toeta integreerimise vastendamist. Seeasemel välju **Hind** , **Allahindlus** , **Tasu** ning **Maks** säilitatakse ja käsitsetakse Supply Chain Managementis.
-+ Väljad **Allahindluse %** , **Allahindlus** ja **Veose kogus** müügipakkumise päises on kirjutuskaitstud väljad.
-+ Väljad **Veotingimused** , **Tarnetingimused** , **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
++ Toote pakkumisele saate lisada allahindluse. Sel juhul sünkroonitakse allahindlus Supply Chain Managementiga. Päise välju **Allahindlus**, **Tasud** ja **Maks** juhitakse seadistusega rakenduses Supply Chain Management. See seadistus ei toeta integreerimise vastendamist. Seeasemel välju **Hind**, **Allahindlus**, **Tasu** ning **Maks** säilitatakse ja käsitsetakse Supply Chain Managementis.
++ Väljad **Allahindluse %**, **Allahindlus** ja **Veose kogus** müügipakkumise päises on kirjutuskaitstud väljad.
++ Väljad **Veotingimused**, **Tarnetingimused**, **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
 
 Kui kasutate ka lahendust Field Service, veenduge, et oleksite parameetri **Pakkumisrea kiirloomine** uuesti lubanud. Parameetri uuesti lubamine võimaldab teil jätkata pakkumisridade loomist kiirloomise funktsiooni kasutades.
 1. Liikuge oma Dynamics 365 Sales'i rakenduse juurde.
@@ -98,7 +98,7 @@ Kui sünkroonite Supply Chain Managementi Müükidega, saate järgmise tulemuse:
 
 ## <a name="dual-write-solution-for-sales"></a>Kaksikkirjutamise lahendus Müükidele
 
-Üksusele **Tellimus** lisati uued väljad ja need kuvatakse lehel. Enamik neist väljadest kuvatakse Müükide vahekaardil **Integreerimine** . Lisateavet selle kohta, kuidas olekuvälju vastendatakse, leiate dokumentatsioonist teemas [Müügitellimuse olekuväljade vastendamise seadistamine](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
+Üksusele **Tellimus** lisati uued väljad ja need kuvatakse lehel. Enamik neist väljadest kuvatakse Müükide vahekaardil **Integreerimine** . Lisateavet selle kohta, kuidas olekuvälju vastendatakse, vaadake: [Müügitellimuse olekuväljade vastendamise seadistamine](sales-status-map.md).
 
 + Nupud **Loo arve** ja **Tühista tellimus** lehel **Müügitellimus** on Müükides peidetud.
 + Väärtus **Müügitellimuse olek** jääb **Aktiivseks** , et rakendusest Supply Chain Management pärit muudatused saaksid liikuda rakenduse Müügid müügitellimusse. Selle käitumise juhtimiseks seadke suvandi **Olekukood \[Olek\]** vaikeväärtuseks **Aktiivne**.
@@ -109,12 +109,12 @@ Müügiarved luuakse rakenduses Supply Chain Management ja sünkroonitakse raken
 
 + Väli **Arve number** lisati üksusesse **Arve** ja kuvatakse lehel.
 + Nupp **Arve koostamine** lehel **Müügitellimus** on peidetud, kuna arved koostatakse Supply Chain Managementis ja sünkroonitakse Müükidega. Lehte **Arve** ei saa redigeerida, kuna arved sünkroonitakse Supply Chain Managementist.
-+ Väärtus **Müügitellimuse olek** asendatakse automaatselt olekuga **Arveldatud** , kui seotud arve Supply Chain Managementist on sünkroonitud Müükidega. Samuti määratakse selle müügitellimuse omanik, millest arve loodi, arve omanikuks. Seetõttu saab müügitellimuse omanik arvet vaadata.
-+ Väljad **Veotingimused** , **Tarnetingimused** ja **Tarneviis** ei kuulu vaikevastendustesse. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
++ Väärtus **Müügitellimuse olek** asendatakse automaatselt olekuga **Arveldatud**, kui seotud arve Supply Chain Managementist on sünkroonitud Müükidega. Samuti määratakse selle müügitellimuse omanik, millest arve loodi, arve omanikuks. Seetõttu saab müügitellimuse omanik arvet vaadata.
++ Väljad **Veotingimused**, **Tarnetingimused** ja **Tarneviis** ei kuulu vaikevastendustesse. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
 
 ## <a name="templates"></a>Mallid
 
-Järjestus Potentsiaalne klient-raha sisaldab kogumit põhiüksuste kaartidest, mis töötavad andmete vastasmõjus koos, nagu on näha järgmises tabelis.
+Järjestus Potentsiaalne klient sularahaks sisaldab kogumit põhitabeli vastendustest, mis töötavad andmete vastasmõjus koos, nagu on näha järgmises tabelis.
 
 | Finance and Operations rakendused | Mudeljuhitud Dynamics 365 rakendused | Kirjeldus |
 |-----------------------------|-----------------------------------|-------------|
@@ -126,7 +126,7 @@ Järjestus Potentsiaalne klient-raha sisaldab kogumit põhiüksuste kaartidest, 
 | CDS-i müügipakkumise päis  | pakkumised                            |             |
 | CDS-i müügipakkumise read   | Pakkumise üksikasjad                      |             |
 
-Siin on seotud põhiüksuse potentsiaalne klient-raha vastendused:
+Siin on seotud põhitabeli potentsiaalne klient sularahaks vastendused.
 
 + [Kliendi V3 kontodele](customer-mapping.md#customers-v3-to-accounts)
 + [CDS-i kontakti V2 kontaktidele](customer-mapping.md#cds-contacts-v2-to-contacts)

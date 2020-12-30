@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: b867099b131594a64cad102e50ead7c355594f2b
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112187"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694539"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Täpsema filtreerimise ja päringu süntaks
 
@@ -135,7 +134,7 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td><strong>T</strong> vastab tänasele kuupäevale.</td>
 </tr>
 <tr>
-<td>(methodName(parameters)) (<strong>SysQueryRangeUtil</strong>-meetod sulgudes</td>
+<td>(methodName(parameters)) (<strong>SysQueryRangeUtil</strong>-meetod sulgudes)</td>
 <td>Vastendab <strong>SysQueryRangeUtil</strong>-meetodi parameetritega määratud väärtuse või väärtusevahemiku</td>
 <td>Tippige <strong>SysQueryRangeUtil</strong>-meetod, mille parameetrid määravad väärtuse või väärtusevahemiku.</td>
 <td>

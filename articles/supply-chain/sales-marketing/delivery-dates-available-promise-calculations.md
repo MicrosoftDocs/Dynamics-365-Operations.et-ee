@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979423"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666766"
 ---
 # <a name="order-promising"></a>Tellimuse lubamine
 
@@ -37,6 +37,12 @@ Tellimuse lubamine arvutab varaseimad lähetamise ja vastuvõtmise kuupäevad ni
 -   **ATP (saadaval lubamiseks)** – ATP on kaubakogus, mis on saadaval ja mida saab kliendile konkreetsel kuupäeval lubada. ATP arvutamine sisaldab kehtestamata laosaldot, täitmisaegu, plaanitud sissetulekuid ja väljaminekuid.
 -   **ATP + väljamineku ohutusvaru** – tarnekuupäev on võrdne ATP kuupäevaga pluss kauba väljamineku ohutusvaru. Väljamineku ohutusvaru on aeg, mis on vajalik kaupade saatmiseks ettevalmistamiseks.
 -   **CTP (lubamiseks võimeline)**– saadavus arvutatakse koosnevusarvutuse abil.
+
+> [!NOTE]
+> Müügitellimuse värskendamisel uuendatakse tellimuse lubamise teavet ainult juhul, kui kehtivat tellimuse lubamise kuupäeva ei saa täita, nagu on näidatud järgmistes näidetes.
+> 
+> - **Näide 1**: praegune tellimuse lubamise kuupäev on 20. juuli, kuid suurenenud koguse tõttu ei saa te tarnida enne 25. juulit. Kuna praegust kuupäeva ei saa enam täita, käivitatakse tellimuse lubamine.
+> -  **Näide 2**: praegune tellimuse lubamise kuupäev on 20. juuli, kuid vähenenud koguse tõttu saate nüüd tarnida 15. juulil. Kuid kuna praegust kuupäeva saab veel täita, ei käivitata tellimuse lubamist ning 20. juuli jääb tellimuse lubamise kuupäevaks.
 
 ## <a name="atp-calculations"></a>ATP arvutused
 ATP kogus arvutatakse meetodil „kumulatiivne plaanitav ATP”. Selle ATP arvutamise meetodi peamiseks eeliseks on see, et selle abil saab käsitleda juhtumeid, kus väljaminekute summa sissetulekute hulgas on suurem kui viimane sisstulek (näiteks kui nõude täitmiseks tuleb kasutada varasema sissetuleku kogust). Arvutusmeetod „kumulatiivne plaanitav ATP” sisaldab kõiki väljaminekuid, kuni kumulatiivne vastuvõetav kogus ületab kumulatiivse väljastatava koguse. Seetõttu hindab see ATP arvutusmeetod, kas mõne varasema perioodi kogust saab hilisemas perioodis kasutada.  

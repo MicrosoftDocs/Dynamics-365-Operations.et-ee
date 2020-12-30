@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177437"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694685"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organisatsiooni hierarhia kavandamine
 
@@ -174,7 +173,7 @@ Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke a
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Kui organisatsiooni mudel on tootmisüksus
 
-Kohustuslikud aruanded tuleb luua teise rakenduse abil. Peate veenduma, et andmed hõivatakse rakenduses Finance and Operations iga tootmisüksuse nõuete kohaselt, kui need peakontori nõuetest erinevad.
+Kohustuslikud aruanded tuleb luua teise rakenduse abil. Peate veenduma, et andmed hõivatakse rakendustekomplektis Finance and Operations iga tootmisüksuse nõuete kohaselt, kui need peakontori nõuetest erinevad.
 
 ### <a name="currency"></a>Valuuta
 

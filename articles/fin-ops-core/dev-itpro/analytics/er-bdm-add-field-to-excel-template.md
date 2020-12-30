@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: fcfbcb021b192cef75d59b0db1796e994f3dc27d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893243"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681371"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Äridokumendi mallile uute väljade lisamine Microsoft Excelis
 
@@ -112,7 +111,7 @@ Kuvatakse BDM-i malli muutja leht. Saate kasutada rakendust Microsoft 365, et re
 
     Kui soovite mallile lisada uue vahemiku, saate valida **Excel\vahemik**. Sisestatud vahemik võib sisaldada mitut lahtrit. Saate need lahtrid lisada hiljem.
     
-    Pange tähele, et malli komponent **CompanyInfo** valitakse paanil**Malli struktuur** automaatselt, kuna see on praegu lisatava välja jaoks malli struktuuri kõige sobivam ülemkomponent.
+    Pange tähele, et malli komponent **CompanyInfo** valitakse paanil **Malli struktuur** automaatselt, kuna see on praegu lisatava välja jaoks malli struktuuri kõige sobivam ülemkomponent.
     
 4.  Sisestage väljal **Exceli vahemik** suvand **CompanyURL_Value**.
 5.  Valige nupp **OK**.
@@ -141,13 +140,13 @@ Tööruumi **Äridokumendi haldus** paremal paanil asuv vahekaart **Mall** näit
 ## <a name="review-company-settings"></a>Ettevõtete sätete ülevaatamine
 
 1.  Avage **Organisatsiooni haldus \> Organisatsioonid \> Juriidilised isikud**.
-2.  Kontrollige kiirkaardil**Kontaktteave**, kas ettevõtte URL on sisestatud.
+2.  Kontrollige kiirkaardil **Kontaktteave**, kas ettevõtte URL on sisestatud.
 
 ![Ettevõtte URL sisestatud lehele Juriidilised isikud](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Äridokumentide loomine värskendatud malli testimiseks
 
-1.  Muutke rakenduses ettevõte valikule **USMF**ja avage **Müügireskontro \> Arved \> Kõik vabas vormis arved**.
+1.  Muutke rakenduses ettevõte valikule **USMF** ja avage **Müügireskontro \> Arved \> Kõik vabas vormis arved**.
 2.  Valige arve **FTI-00000002** ja seejärel valige **Prindihaldus**.
 3.  Vasakpoolsel paanil laiendage **Moodul – müügireskontro \> Dokumendid \> Vabas vormis arve**.
 4.  Suvandis **Vabas vormis arve** valge tase **Algne dokument**, et määratleda töötlemiseks arvete ulatus.

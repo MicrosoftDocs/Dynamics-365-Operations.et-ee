@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142451"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684543"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Vormingute muutmine rakendusandmetega dokumentide loomiseks
 
@@ -80,7 +79,7 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 38. Klõpsake nuppu OK.
 39. Tehke puul valik "File\Declaration\Data\Item”.
 40. Klõpsake käsku Lisa kaup.
-41. Sisestage nimeväljale valik „Commodity rec id”.
+41. Sisestage nimeväljale valik „Kaubakirje ID”.
     * Kaubakirje ID  
 42. Valige väljalt Andmetüüp suvand Int64.
 43. Klõpsake nuppu OK.
@@ -89,22 +88,23 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 46. Klõpsake valikut Seo.
 47. Laiendage puus sõlme „model”.
 48. Laiendage puul valikut „model\Transactions“.
-49. Tehke puul valik „File\Declaration\Data\Item =  model.Transactions\Commodity rec id”.
-50. Tehke puul valik „model\Transactions\Commodity rec id”.
+49. Tehke puul valik „File\Declaration\Data\Item = model.Transactions\Commodity rec ID”.
+50. Tehke puul valik „model\Transactions\Commodity rec ID”.
 51. Klõpsake valikut Seo.
 52. Klõpsake nuppu Salvesta.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Vormingu muutmine aruandluse üksikasjade meeldejätmiseks
+
 1. Klõpsake nuppu Vormingu vastendamine mudeliga.
 2. Klõpsake Uus.
 3. Sisestage või valige väljal Definitsioon juurkaup „Avalduse andmete uuendamiseks”.
-    * Avalduse andmete uuendamiseks  
+    * Avalduse andmete uuendamiseks.
 4. Sisestage nimeväljale valik „Vastendamine andmete uuendamiseks”.
     * Vastendamise andmete uuendamiseks  
 5. Klõpsake nuppu Salvesta.
-    * Vastendus määratleb, kuidas Intrastat-aruande üksikasju kogutakse andmemudelis, mille struktuur on määratud valitud juurkauba poolt „Avalduse andmete uuendamiseks”. Neid üksikasju, sama juurkaubaga „Avalduse andmete uuendamiseks” vastendamist ja suunda „Sihtkohani" kasutatakse avalduse andmete uuendamiseks. Avalduse andmete uuendamine käivitatakse kohe pärast väljamineva Intrastat-aruande genereerimist. Pange tähele, et avalduse andmete uuendamise võib käitusajal vahele jätta, aga andmemudel peab olema tühi (sisaldab tühja kirjeloendit).   
+    * Vastendus määratleb, kuidas Intrastat-aruande üksikasju kogutakse andmemudelis, mille struktuur on määratud valitud juurkauba poolt „Avalduse andmete uuendamiseks”. Neid üksikasju, sama juurkaubaga „Avalduse andmete uuendamiseks” vastendamist ja suunda „Sihtkohani" kasutatakse avalduse andmete uuendamiseks. Avalduse andmete uuendamine käivitatakse kohe pärast väljamineva Intrastat-aruande genereerimist. Avalduse andmete uuendamise võib käitusajal vahele jätta, aga andmemudel peab olema tühi (sisaldab tühja kirjeloendit).
 6. Klõpsake valikut Kujundaja.
-    * Pange tähele, et väljamineva Intrastat-aruande vorming lisatakse vaikimisi selle mudelivastenduse andmeallikana.  
+    * Väljamineva Intrastat-aruande vorming lisatakse vaikimisi selle mudelivastenduse andmeallikana.  
     * Siduge loodud aruande elemendid (esitatud andmeallikana) andmemudeli elementidega, mis on filtreeritud valitud mudeli juurkauba alusel.  
 7. Laiendage puul väärtust „Archive header”.
 8. Laiendage puul valikut „Archive header\Archive lines”.
@@ -120,8 +120,8 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 18. Klõpsake suvandit Funktsiooni lisamine.
 19. Laiendage puul valikut „format”.
 20. Laiendage puul valikut „format\Declaration: XML Element(Declaration)”.
-21. Laiendage puul valikut „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.
-22. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.
+21. Laiendage puul valikut `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
+22. Valige puul suvand `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 23. Klõpsake suvandit Andmeallika lisamine.
 24. Sisestage valemi väljale väärtus „COUNT(format.Declaration.Data.Item)”.
     * COUNT(format.Declaration.Data.Item)  
@@ -130,23 +130,22 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 27. Tehke puul valik „Archive header\File name”.
 28. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)”.
 29. Klõpsake valikut Seo.
-30. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)”.
+30. Valige puul suvand `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`.
 31. Tehke puul valik „Archive header\Archive lines\Item number”.
 32. Klõpsake valikut Seo.
-33. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)”.
+33. Valige puul suvand `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`.
 34. Tehke puul valik „Archive header\Archive lines\Amount”.
 35. Klõpsake valikut Seo.
-36. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)”.
-37. Tehke puul valik „Archive header\Archive lines\Commodity rec id”.
+36. Valige puul suvand `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`.
+37. Tehke puul valik „Archive header\Archive lines\Commodity rec ID”.
 38. Klõpsake valikut Seo.
 39. Tehke puul valik „Archive header\Archive lines”.
-40. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)”.
+40. Valige puul suvand `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 41. Klõpsake valikut Seo.
 42. Tehke puul valik „Archive header”.
-43. Tehke puul valik „format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)”.
+43. Valige puul suvand `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
 44. Klõpsake valikut Seo.
 45. Klõpsake nuppu Salvesta.
 46. Sulgege leht.
 47. Sulgege leht.
 48. Sulgege leht.
-

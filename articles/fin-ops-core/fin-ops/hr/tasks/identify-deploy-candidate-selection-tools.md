@@ -3,7 +3,7 @@ title: Kandidaatide valikutööriistade tuvastamine ja juurutamine
 description: Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143945"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693060"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidaatide valikutööriistade tuvastamine ja juurutamine
 
@@ -39,9 +38,9 @@ Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine 
 7. Klõpsake vahekaarti Töö.
 8. Sisestage või valige väärtus väljal Töö.
 9. Klõpsake nuppu OK.
-10. Laiendage kiirkaardi vahemikku ning lisage mistahes täiendavat teavet, näiteks osakond.
+10. Laiendage kiirkaarti Vahemik ja lisage mistahes täiendavat teavet, näiteks osakond.
 11. Tunnistuste vaatamiseks või redigeerimiseks laiendage kiirkaarti Tunnistused.
-12. Oskusi vaatamiseks või redigeerimiseks laiendage kiirkaarti Oskused.
+12. Oskuste vaatamiseks või redigeerimiseks laiendage kiirkaarti Oskused.
 13. Hariduse kriteeriumide vaatamiseks või redigeerimiseks laiendage kiirkaarti Haridus.
 14. Klõpsake nuppu Käivita.
 15. Klõpsake nuppu OK.
@@ -49,12 +48,12 @@ Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine 
 17. Klõpsake vahekaarti Tulemus.
 18. Klõpsake Jätka.
 19. Klõpsake vahekaarti Tunnistused.
-    * Saate süvitsi minna iga loendis oleva isiku andmetesse ja vaadata nende hariduse, oskuste, professionaalse kogemuse jms üksikasju.  
+    * Saate süvitsi minna iga loendis oleva isiku andmetesse ja vaadata nende hariduse, oskuste ja professionaalse kogemuse üksikasju.  
 20. Sulgege leht.
 21. Sulgege leht.
 22. Valige tulemus uuesti.
 23. Klõpsake vahekaarti Aruanne.
-    * Parimad vasted loetletakse aruande ülaosas.  Loetelus näete vaheelementi.  See on näitab erinevust oskuste kaardistamisel üles loetletud ja isikule määratud oskuste taseme vahel.  
+    * Parimad vasted loetletakse aruande ülaosas.  Näete, et vaheelement on loetletud.  See on näitab erinevust oskuste kaardistamisel üles loetletud ja isikule määratud oskuste taseme vahel.  
 24. Sulgege leht.
 25. Klõpsake nuppu Salvesta.
 

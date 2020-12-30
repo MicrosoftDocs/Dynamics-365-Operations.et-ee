@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
-ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
+ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3810663"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679698"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
@@ -78,15 +77,15 @@ ER-i andmemudeli konfigureerimisel saate sellele lisada ER-i silte. ER-i andmemu
 
 Kui ER-i andmemudel konfigureeritakse sel viisil, esitatakse selle sisu ER-i andmemudeli kujundaja kasutajatele nende eelistatud keeles. Seetõttu on mudeli haldamine lihtsam. Järgmistel illustratsioonidel on näha, kuidas see funktsioon töötab kasutajate puhul, kelle eelistatud keeleks on seatud DE-AT ja JA.
 
-![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on oma eelistatud keeleks seadnud keele DE-AT](./media/er-multilingual-labels-refer-de.png)
+![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks DE-AT](./media/er-multilingual-labels-refer-de.png)
 
-![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on oma eelistatud keeleks seadnud keele JA](./media/er-multilingual-labels-refer-ja.png)
+![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks JA](./media/er-multilingual-labels-refer-ja.png)
 
 ### <a name="model-mapping-component"></a>Mudelivastenduse komponent
 
 Kuna ER-i mudelivastendus põhineb ER-i andmemudelil, siis esitatakse viidatud andmemudeli elementide sildid mudelivastenduse kujundajas kasutaja eelistatud keeles. Järgmisel illustratsioonil on näha, kuidas selgitatakse muudetavas mudelivastenduses välja **PurchaseOrder** tähendust konfigureeritud andmemudelisse lisatud atribuudi **Kirjeldus** sildi abil. Pange tähele, et silt on esitatud kasutaja eelistatud keeles (selles näites DE-AT).
 
-![ER-i mudelivastenduse kujundaja paigutus kasutaja puhul, kes on oma eelistatud keeleks seadnud keele DE-AT](./media/er-multilingual-labels-show-mapping.png)
+![ER-i mudelivastenduse kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks DE-AT](./media/er-multilingual-labels-show-mapping.png)
 
 Kui andmeallika **Kasutaja sisendparameeter** atribuut **Silt** on konfiguratsioonis seotud ER-i sildiga, esitatakse sellele andmeallikale vastav parameetriväli käitusajal kasutaja dialoogiboksis kasutaja eelistatud keeles.
 
@@ -158,7 +157,7 @@ ER toetab eri viise, kuidas määrata loodud aruande keel. Saate valida vahekaar
 
     ![Kujundamise ajal määratletud keele määramine loodud aruande keeleks ER-i toimingute kujundajas](./media/er-multilingual-labels-language-context-fixed.png)
 
-- **Käitusajal määratletud** – looge aruanne keeles, mis määratakse käitusajal. Kui valite selle väärtuse, konfigureerige väljal **Keel** ER-i avaldis, mis tagastab keele koodi, nt asjaomase kliendi keel.
+- **Käitusajal määratletud** – looge aruanne keeles, mis määratakse käitusajal. Kui valite selle väärtuse, konfigureerige väljal **Keel** ER-i avaldis, mis tagastab keele koodi, nt vastava kliendi keel.
 
     ![ER-i toimingute kujundajas käitusajal määratletud keele määramine loodud aruande keeleks](./media/er-multilingual-labels-language-context-runtime.png)
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: b948da0bff8de3b8ad783b3e3f52100a29fab109
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802891"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693697"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -92,7 +91,7 @@ Pange tähele, et mõnel juhul ei käivitu lehe esmakordsel avamisel vaikevaateg
 
 ## <a name="managing-personal-views"></a>Isiklike vaadete haldamine
 
-Dialoogiboks **Halda mu vaateid** pakub teile isiklike vaadete ja vaate valijas olevate vaadete järjekorra põhilisi haldamisvõimalusi. Selle lehe avamiseks valige vaate nimi, et avada vaate valija rippmenüü, klõpsake valikut **Veel**ja seejärel käsku **Halda mu vaateid**.
+Dialoogiboks **Halda mu vaateid** pakub teile isiklike vaadete ja vaate valijas olevate vaadete järjekorra põhilisi haldamisvõimalusi. Selle lehe avamiseks valige vaate nimi, et avada vaate valija rippmenüü, klõpsake valikut **Veel** ja seejärel käsku **Halda mu vaateid**.
 
 Selle lehe jaoks saadaolevate vaadete loendi jaoks on olemas järgmised tegevused.
 
@@ -171,7 +170,7 @@ Kui avaldatud vaate muudatused hõlmavad vaatega seostatud isikupärastamiste v�
 
 ## <a name="managing-published-views"></a>Avaldatud vaadete haldamine
 
-Nagu isiklike vaadete haldamise puhulgi, annab dialoogiboks **Halda mu vaateid** avaldamise privileegidega kasutajatele lehe avaldatud vaadete põhilised haldamisvõimalused (lisaks nende isiklikele vaadetele). Selle lehe avamiseks valige vaate nimi, et avada vaate valija rippmenüü, klõpsake valikut **Veel**ja seejärel käsku **Halda mu vaateid**.
+Nagu isiklike vaadete haldamise puhulgi, annab dialoogiboks **Halda mu vaateid** avaldamise privileegidega kasutajatele lehe avaldatud vaadete põhilised haldamisvõimalused (lisaks nende isiklikele vaadetele). Selle lehe avamiseks valige vaate nimi, et avada vaate valija rippmenüü, klõpsake valikut **Veel** ja seejärel käsku **Halda mu vaateid**.
 
 Kuigi kõikidel kasutajatel on vahekaart **Minu vaated**, mis näitab nende isiklikke vaateid, on avaldamise privileegidega kasutajatel ka vahekaarti **Organisatsiooni vaated**, mis kuvab kõiki selle lehe jaoks avaldatud ja mitteavaldatud vaateid. Kuna vaateid võivad avaldada mitu kasutajat, on võimalus avaldatud vaadete täielikku loendit hallata oluline hoolimata sellest, kas olite kasutaja, kes tegelikult vaate avaldas.
 

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 446a4676ad00c93d691d3048408c32d7ad373d2d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142233"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682089"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 
@@ -28,86 +27,89 @@ ms.locfileid: "3142233"
 
 Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks. Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada sissetulevate elektrooniliste dokumentide sõelumiseks. Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks”.
 
-Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. 
+Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll.
 
-Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage teemas „Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks” loetletud failid (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
+Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage teemas „Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks” loetletud failid ([Sissetulevate dokumentide sõelumine](../parse-incoming-electronic-documents.md)). Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-    * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.  
-2. Klõpsake valikut Aruandluse konfiguratsioonid.
-    * Järgmise stsenaariumiga demonstreeritakse sissetulevate XML-vormingus elektrooniliste dokumentide sõelumisfunktsioone: ERP rakendus taotleb andmeid veebiteenusest (nt http://efsta.org/ EFSTA finantsteenus) ja sõelub sissetulevad vastused, et värskendada sobival moel avalduse andmeid. Kõige tõhusamaks sõelumiseks kasutatakse üht ER-i vormingut olenemata eeldatavate sissetulevate XML-vormingus dokumentide erinevast struktuurist.   
+    * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.
+2. Valige Aruandluse konfiguratsioonid.
+    * Järgmise stsenaariumiga demonstreeritakse sissetulevate XML-vormingus elektrooniliste dokumentide sõelumisfunktsioone: ERP rakendus taotleb andmeid veebiteenusest (nt [efsta](http://efsta.org/) finantsteenus) ja sõelub sissetulevad vastused, et värskendada sobival moel avalduse andmeid. Kõige tõhusamaks sõelumiseks kasutatakse üht ER-i vormingut olenemata eeldatavate sissetulevate XML-vormingus dokumentide erinevast struktuurist.
 
 ## <a name="import-and-review-er-configurations"></a>ER-i konfiguratsioonide importimine ja ülevaatamine
-Importige ER-i mudeli konfiguratsioon, mis sisaldab näidisandmemudelit, mis on mõeldud sissetuleva faili andmete talletamiseks.  
-1. Klõpsake nuppu Vahetus.
-2. Klõpsake nuppu Laadi XML-failist.
-    * Klõpsake käsku Sirvi ja vali EFSTA fail model.xml.  
-3. Klõpsake nuppu OK.
+
+Importige ER-i mudeli konfiguratsioon, mis sisaldab näidisandmemudelit, mis on mõeldud sissetuleva faili andmete talletamiseks.
+
+1. Valige Exchange.
+2. Valige Laadi XML-failist.
+    * Valige suvand Sirvi ja vali EFSTA fail model.xml.
+3. Valige nupp OK.
 4. Valige puul väärtus „EFSTA mudel”.
-5. Klõpsake valikut Kujundaja.
-    * Vaadake üle imporditud andmemudeli struktuur. Pange tähele, et loetelu enumType määratletakse järgmist tüüpi teenuse vastuste tuvastamiseks: kande esitamise kinnituse saamiseks, viimase esitatud kande kohta teabe saamiseks ja toetamata vastusetüüpide tuvastamiseks.   
+5. Valige Kujundaja.
+    * Vaadake üle imporditud andmemudeli struktuur. Loetelu enumType määratletakse järgmist tüüpi teenuse vastuste tuvastamiseks: kande esitamise kinnituse saamiseks, viimase esitatud kande kohta teabe saamiseks ja toetamata vastusetüüpide tuvastamiseks.
 6. Laiendage puul väärtust „Vastus”.
-    * Pange tähele, et juurüksus „Vastus” määratletakse selleks, et määrata, millist tüüpi andmeid tuleb toetatud teenuse vastusest hankida, et avalduse andmeid värskendada.   
+    * Juurüksus „Vastus” määratletakse selleks, et määrata, millist tüüpi andmeid tuleb toetatud teenuse vastusest hankida, et avalduse andmeid värskendada.
 7. Sulgege leht.
-    * Impordite ER-i vormingu konfiguratsiooni, mis määrab, kuidas  sissetulevaid dokumente sõelutakse ER-i andmemudelisse andmete talletamiseks.   
-8. Klõpsake nuppu Vahetus.
-9. Klõpsake nuppu Laadi XML-failist.
-    * Klõpsake käsku Sirvi ja vali EFSTA fail format.xml.  
-10. Klõpsake nuppu OK.
+    * Impordite ER-i vormingu konfiguratsiooni, mis määrab, kuidas  sissetulevaid dokumente sõelutakse ER-i andmemudelisse andmete talletamiseks.
+8. Valige Exchange.
+9. Valige Laadi XML-failist.
+    * Valige suvand Sirvi ja vali EFSTA fail format.xml.
+10. Valige nupp OK.
 11. Laiendage puul väärtust „EFSTA mudel”.
 12. Valige puul väärtus „EFSTA mudel\EFSTA vorming”.
-13. Klõpsake valikut Kujundaja.
-14. Klõpsake nuppu Laienda/ahenda.
-    * Pange tähele, et vormingus CASE elementi kasutatakse juurena ja see sisaldab kolme pesastatud elementi FILE, mis tähendab, et see vorming on loodud mitmes vormingus sissetulevate failide sõelumiseks.  
+13. Valige Kujundaja.
+14. Valige Laienda/ahenda.
+    * Vormingus CASE elementi kasutatakse juurena ja see sisaldab kolme pesastatud elementi FILE, mis tähendab, et see vorming on loodud mitmes vormingus sissetulevate failide sõelumiseks.
 15. Valige puul väärtus „Vastused\Kande lõpuleviimine\TraC”.
-    * Pange tähele, et esitatud kande vastus algab juurelemendist „TraC”.   
+    * Esitatud kande vastus algab juurelemendist „TraC”.
 16. Valige puul „Vastused\Viimane kande taotlus\Tra”.
-    * Pange tähele, et viimasena esitatud kande vastus algab juurelemendist „Tra”.   
+    * Esitatud viimase kande vastus algab juurelemendist „Era”.
 17. Valige puul „Vastused\Ootamatu vastus\Tekst”.
-    * Lisati kolmas element FILE pesastatud elemendiga TEXT, et tuvastada muud tüüpi vastuseid, mis erinevad ülalmainitust.   
-18. Klõpsake nuppu Vormingu vastendamine mudeliga.
-    * Mudeli vastendus sisaldab andmevoo definitsiooni, millega talletada sõelutud sissetuleva dokumendi üksikasju, kasutades andmemudeli üksusi.  
-19. Klõpsake valikut Kujundaja.
+    * Lisati kolmas element FILE pesastatud elemendiga TEXT, et tuvastada muud tüüpi vastuseid, mis erinevad ülalmainitust.
+18. Valige Vormingu vastendamine mudeliga.
+    * Mudeli vastendus sisaldab andmevoo definitsiooni, millega talletada sõelutud sissetuleva dokumendi üksikasju, kasutades andmemudeli üksusi.
+19. Valige Kujundaja.
 20. Laiendage puul valikut „format”.
 21. Laiendage puul valikut „format\Responses: Case(Responses)”.
-    * Vaadake üle andmeallika „Vorming” struktuur. Pange tähele, et kõiki kolme vastusetüüpi pakutakse eraldi.   
+    * Vaadake üle andmeallika „Vorming” struktuur. Kõiki kolme vastusetüüpi pakutakse eraldi.
 22. Valige puul „format\Responses: Case(Responses)\aType”.
-    * Lisati andmeallika üksus „aType”, et näidata vastuse tüüpi. See on seotud andmemudeli üksusega „Tüüp”.  
-23. Klõpsake vahekaarti Kinnitused.
+    * Lisati andmeallika üksus „aType”, et näidata vastuse tüüpi. See on seotud andmemudeli üksusega „Tüüp”.
+23. Valige vahekaart Kinnitused.
 24. Valige puul „Type = format.Responses.aType”.
-    * Pange tähele, et ER-i kinnitamine on konfigureeritud selleks, et teavitada kasutajat olukorrast, kui vastuse struktuur ei ühti kande esitamise kinnitusega või viimati esitatud kande teabega (toetamata vastuse puhul).   
+    * ER-i kinnitamine on konfigureeritud selleks, et teavitada kasutajat olukorrast, kui vastuse struktuur ei ühti kande esitamise kinnitusega või viimati esitatud kande teabega (toetamata vastuse puhul).
 25. Sulgege leht.
 
 ## <a name="run-model-mapping-of-er-format-configured-for-parsing-incoming-files"></a>Sissetulevate failide sõelumiseks konfigureeritud ER-i vormingu mudelivastenduse käitamine
-Käivitate loodud mudeli vastendamise testimise eesmärgil, et vaadata, kuidas konfigureeritud ER-i vorming sõelub sissetulevaid teenuse vastuseid. See etapp kasutab erinevaid XML-faile, et simuleerida veebiteenuste vastuste eri tüüpe.   
-1. Avage fail Response1.xml XML-lugeris, nt veebibrauseris. Pange tähele, et fail sisaldab lõpuleviidud kande kinnituse üksikasju (juurelement on „TraC”).   
-2. Klõpsake käsku Käita.
-    * Klõpsake käsku Sirvi ja vali fail Response1.xml.  
-3. Klõpsake nuppu OK.
-    * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud ja sõelutud (ERModelEnumDataSourceHandler#EFSTA model#enumType#C tähendab kande lõpuleviimise juhtumit).   
-    * Avage fail Response2.xml XML-lugejas. Pange tähele, et fail sisaldab viimase lõpuleviidud kande teavet (juurelement on „Tra”).   
-4. Klõpsake käsku Käita.
-    * Klõpsake käsku Sirvi ja vali fail Response2.xml.  
-5. Klõpsake nuppu OK.
-    * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud ja sõelutud (ERModelEnumDataSourceHandler#EFSTA model#enumType#R tähendab süsteemi taaskäivitamise juhtumit).   
-    * Avage fail Response3.xml XML-lugejas. Pange tähele, et faili algab juurüksusest TraZ ja seda struktuuri ei konfigureeritud ER-i vormingus.   
-6. Klõpsake nuppu Käivita.
-    * Klõpsake käsku Sirvi ja vali fail Response3.xml.  
-7. Klõpsake nuppu OK.
-    * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud kui toetamata (ERModelEnumDataSourceHandler#EFSTA model#enumType#U). Vastav teade lisati teabelogisse (ER-i kinnitamissätte kohaselt) ja enamik andmemudelist pole täidetud.   
-    * Avage fail Response4.xml XML-lugejas. Pange tähele, et selle faili struktuur on peaaegu sama mis sõelutud failil Response1.xml, v.a juurelemendi „TraC” pesastatud elementide seeria.   
-8. Klõpsake käsku Käita.
-    * Klõpsake käsku Sirvi ja valige fail Response4.xml.  
-9. Klõpsake nuppu OK.
-    * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud kui toetamata (ERModelEnumDataSourceHandler#EFSTA model#enumType#U). Vastav teade lisati teabelogisse ja enamik andmemudelist pole täidetud. Selle põhjuseks ons ee, et ER-i vormingu praegune säte eeldab sissetuleva faili juurüksuse pesastatud elementide teatud jada.   
+
+Käivitate loodud mudeli vastendamise testimise eesmärgil, et vaadata, kuidas konfigureeritud ER-i vorming sõelub sissetulevaid teenuse vastuseid. See etapp kasutab erinevaid XML-faile, et simuleerida veebiteenuste vastuste eri tüüpe.
+
+1. Avage fail Response1.xml XML-lugeris, nt veebibrauseris. See fail sisaldab lõpuleviidud kande kinnituse üksikasju (juurelement on „TraC”).
+2. Valige käsk Käitus.
+    * Valige käsk Sirvi ja vali fail Response1.xml.
+3. Valige nupp OK.
+    * Vaadake loodud väljundit. Vastuse tüüp on õigesti tuvastatud ja sõelutud (`ERModelEnumDataSourceHandler#EFSTA model#enumType#C` tähendab tehingu lõpetamise juhtumit).
+    * Avage fail Response2.xml XML-lugejas. See fail sisaldab viimase lõpuleviidud kande teavet (juurelement on „`Tra`”).
+4. Valige käsk Käitus.
+    * Valige käsk Sirvi ja vali fail Response2.xml.
+5. Valige nupp OK.
+    * Vaadake loodud väljundit. Vastuse tüüp on õigesti tuvastatud ja sõelutud (`ERModelEnumDataSourceHandler#EFSTA model#enumType#R` tähendab süsteemi taaskäivitamise juhtumit).
+    * Avage fail Response3.xml XML-lugejas. See fail algab juurüksusest TraZ ja seda struktuuri ei konfigureeritud ER-i vormingus.
+6. Valige käsk Käitus.
+    * Valige käsk Sirvi ja vali fail Response3.xml.
+7. Valige nupp OK.
+    * Vaadake loodud väljundit. Vastuse tüüp on õigesti tuvastatud kui mitte toetatud (`ERModelEnumDataSourceHandler#EFSTA model#enumType#U`). Vastav teade lisati teabelogisse (ER-i kinnitamissätte kohaselt) ja enamik andmemudelist pole täidetud.
+    * Avage fail Response4.xml XML-lugejas. Selle faili struktuur on peaaegu sama mis sõelutud failil Response1.xml, v.a juurelemendi „TraC” pesastatud elementide seeria.
+8. Valige käsk Käitus.
+    * Valige käsk Sirvi ja vali fail Response4.xml.
+9. Valige nupp OK.
+    * Vaadake loodud väljundit. Vastuse tüüp on õigesti tuvastatud kui mitte toetatud (`ERModelEnumDataSourceHandler#EFSTA model#enumType#U`). Vastav teade lisati teabelogisse ja enamik andmemudelist pole täidetud. Selle käitumise põhjuseks on see, et ER-i vormingu praegune säte eeldab sissetuleva faili juurüksuse pesastatud elementide teatud jada.
 10. Sulgege leht.
 11. Valige puul väärtus „Vastused\Kande lõpuleviimine\TraC”.
 12. Väljal Pesastatud elementide sõelumise järjekord valige „Kõik”.
-    * Väljal „Pesastatud elementide sõelumise järjestus” valige Mis tahes, et lubada XML-juurüksuse jaoks pesastatud elementide mis tahes seeria.  
-13. Klõpsake nuppu Salvesta.
-14. Klõpsake nuppu Vormingu vastendamine mudeliga.
-15. Klõpsake nuppu Käivita.
-    * Klõpsake käsku Sirvi ja valige fail Response4.xml.  
-16. Klõpsake nuppu OK.
-    * Vaadake loodud väljundit. Pange tähele, et vastusetüüpi on nüüd tuvastatud õigesti failiga Response1.xml võrdsena.  
-
+    * Väljal „Pesastatud elementide sõelumise järjestus” valige Mis tahes, et lubada XML-juurüksuse jaoks pesastatud elementide mis tahes seeria.
+13. Valige käsk Salvesta.
+14. Valige Vormingu vastendamine mudeliga.
+15. Valige käsk Käitus.
+    * Valige käsk Sirvi ja vali fail Response4.xml.
+16. Valige nupp OK.
+    * Vaadake loodud väljundit. Vastusetüüpi on nüüd tuvastatud õigesti failiga Response1.xml võrdsena.

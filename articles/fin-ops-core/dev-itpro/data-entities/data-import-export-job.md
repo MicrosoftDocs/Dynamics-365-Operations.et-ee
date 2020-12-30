@@ -3,24 +3,23 @@ title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278894"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684056"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -130,7 +129,7 @@ Töö saab kaitsta korraga rollide, kasutajate ja juriidiliste isikute kaudu.
 Töö saab käivitada ühe korra, valides pärast töö määratlemist nupu **Impordi** või **Ekspordi**. Korduva töö seadistamiseks valige **Korduva andmetöö loomine**.
 
 > [!NOTE]
-> Importimis- või eksportimistööd saab käivitada asünkroonselt, kui valite nupu **Impordi** või **Ekspordi**. Asünkroonne käivitamine kasutab asünkroonimisraamistikku, mis erineb paketiraamistikust. Kui nii nagu paketiraamistikku võidakse asünkroonimisraamistikku ahendada ja selle tulemusel ei tarvitse töö kohe käivituda. Töid saab käivitada ka sünkroonselt, kui valite nupu **Impordi kohe** või **Ekspordi kohe**. See käivitab töö kohe ja on kasulik siis, kui asünkroonimine või paketi ahendamise tõttu kohe ei käivitu. Töid saab käivitada ka paketina, kui valida käsk **Pakettkäivitus**. Paketiressursid kuuluvad ahendamisele, seega pakett-töö ei tarvitse kohe käivituda. Asünkroonimise võimalus on kasulik, kui kasutajad suhtlevad otse kasutajaliidesega ega ole lauskasutajad, et saada aru paketiplaneerimisest. Paketi kasutamine on alternatiivne võimalus suurte hulkade eksportimiseks või importimiseks. Pakett-töid saab planeerida käivituma kindlate paketigruppide korral, mis koormuse ühtlustamise seisukohast võimaldab suuremat kontrolli. Kui nii asünkroonimist kui ka paketti parasjagu süsteemi suure ressursikasutuse tõttu ahendataks, siis võib viivitamatu vastukaaluna kasutada sünkroonset importimist/eksportimist. Sünkroonne variant käivitub kohe ja blokeerib kasutajaliidese, kuna toimub sünkroonselt. Brauseri aken peab jääma sünkroonse toimingu ajal avatuks.
+> Importimis- või eksportimistööd saab käivitada, kui valite nupu **Impordi** või **Ekspordi**. See ajastab ainult üks kord käitatava pakett-töö. Töö ei pruugi kohe käivituda, kui partii teenus on partii teenuse koorma tõttu ahendatud. Töid saab käivitada ka sünkroonselt, kui valite nupu **Impordi kohe** või **Ekspordi kohe**. See käivitab töö kohe ja on kasulik siis, kui pakett ahendamise tõttu kohe ei käivitu. Tööde käivitamine on võimalik ajastada ka hilisemaks. Seda saab teha, kui valite suvandi **Käivita partiina**. Paketiressursid kuuluvad ahendamisele, seega pakett-töö ei tarvitse kohe käivituda. Partii kasutamine on soovitatav valik, sest see aitab ka suurte andmehulkade korral, mis on vaja importida või eksportida. Pakett-töid saab planeerida käivituma kindlate paketigruppide korral, mis koormuse ühtlustamise seisukohast võimaldab suuremat kontrolli.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Kontrollimine, et töö toimus õigesti
 Töö ajalugu on tõrkeotsinguks ja uurimiseks saadaval nii impordi- kui ka eksporditööde puhul. Varasemad töötsüklid on korraldatud ajavahemike alusel.
@@ -195,7 +194,7 @@ Tööajaloo puhastamise funktsiooni tuleb andmehaldustöös kasutada käivitusaj
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-Funktsioon peab olema lubatud funktsioonide halduses ja seejärel pääseb sellele ligi kohast **Andmehaldus \> Tööde ajaloo puhastamine**.
+Funktsioon **Käivitusajaloo puhastamine** peab olema funktsioonide halduses lubatud ja seejärel pääseb sellele ligi kohast **Andmehaldus \> Tööde ajaloo puhastamine**.
 
 ### <a name="scheduling-parameters"></a>Parameetrite planeerimine
 
@@ -211,3 +210,36 @@ Puhastamise protsessi planeerimisel tuleb täpsustada puhastuse kriteeriumite j�
 
 > [!NOTE]
 > Kui vahetabelite kirjeid täielikult ei puhastata, veenduge, et puhastamise töö oleks plaanitud käivituma korduvalt. Nagu eespool selgitatud, siis mis tahes puhastamise käivitamisel töö puhastab ainult nii palju käivitamise ID-sid, nagu on ettenähtud maksimaalsete tundide jooksul võimalik. Mis tahes allesjäänud vahekirjete puhastamise jätkamiseks peab töö olema ajastatud töötama perioodiliselt.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Tööde ajaloo puhastamine ja arhiveerimine (saadaval rakenduse Platform värskenduse 39 või versiooni 10.0.15 eelversiooni jaoks)
+Tööde ajaloo puhastamise ja arhiveerimise funktsioon asendab puhastamise funktsioonide varasemad versioonid. Selles jaotises selgitatakse neid uusi võimalusi.
+
+Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab Finance and Operationsi rakendustel puhastada automaatselt pakett-tööd plaanitult ja käivitada selle kohe, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates kl 12 keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks.
+
+> [!NOTE]
+> Kuna see funktsioon on eelvaateversioonis, ei kustuta süsteemi pakett-töö käivitamise ajalugu enne, kui see on lubatud eelväljaande DMFEnableExecutionHistoryCleanupSystemJob kaudu. Kui funktsioon on tavaliselt saadaval tulevases väljalaskes, ei ole see eelväljaanne nõutav ja süsteemi pakett-töö hakkab likvideerima ja arhiveerima pärast süsteemi valmimist, mis põhineb määratletud graafikul, nagu eespool selgitatud. 
+
+> [!NOTE]
+> Tulevases väljalaskes eemaldatakse rakenduse puhastamise funktsioonidest Finance and Operationsi rakenduste varasemad versioonid.
+
+Puhastustoimingu protsessi teine muudatus on likvideeritud käivitamise ajaloo arhiveerimine. Puhastamise töö arhiveerib kustutatud kirjed bloobimällu, mida DIXF kasutab regulaarsete integratsioonide jaoks. Arhiveeritud fail on DIXF-i paketi vormingus ja see on bloobimälus 7 päeva jooksul saadaval, mille jooksul saab selle alla laadida. Arhiivitud faili vaikimisi säilimisaega 7 päeva saab muuta parameetrites maksimaalselt 90 päevaks.
+
+### <a name="changing-the-default-settings"></a>Vaikesätete muutmine
+See funktsioon on praegu eelvaates ja see tuleb selgesõnaliselt sisse lülitada, lubades eelväljaande DMFEnableExecutionHistoryCleanupSystemJob. Ajastamise puhastamise funktsiooni tuleb samuti funktsiooni halduses sisse lülitada.
+
+Arhiveeritud faili säilitamisaja vaikesätte muutmiseks minge dokumendihalduse tööruumi ja valige **Tööajaloo puhastamine**. Määrake suvand **Paketi bloobimälus talletamise päevade arv** väärtusele vahemikus 7 kuni 90 (kaasa arvatud). See jõustub arhiivides, mis luuakse pärast selle muudatuse tegemist.
+
+### <a name="downloading-the-archived-package"></a>Arhiveeritud paketi allalaadimine
+See funktsioon on praegu eelvaates ja see tuleb selgesõnaliselt sisse lülitada, lubades eelväljaande DMFEnableExecutionHistoryCleanupSystemJob. Ajastamise puhastamise funktsiooni tuleb samuti funktsiooni halduses sisse lülitada.
+
+Arhiveeritud käivitamise ajaloo allalaadimiseks minge dokumendihalduse tööruumi ja valige **Tööajaloo puhastamine**. Valige suvand **Paketi varundamise ajalugu**, et avada ajaloo vorm. Sellel vormil kuvatakse kõigi arhiveeritud pakettide loend. Arhiivi saab valida ja alla laadida, valides suvandi **Allalaadimise pakett**. Allalaaditud pakett on DIXF-i paketi vormingus ja sisaldab järgmisi faile.
+
+-   Üksuse koondtabeli fail
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   (DMFSTAGINGLOG)
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

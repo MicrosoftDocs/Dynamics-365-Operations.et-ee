@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143311"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684278"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
 
@@ -98,11 +97,11 @@ Selles alamülesandes olevad juhised näitavad teile, kuidas saab luua uue vormi
 
     Pange tähele, et kujundatud vormingut tähistatakse siin andmeallika komponendina.  
 
-6. Laiendage puul valikut „format: Record\*settlement: XML Element 1..1 (settlement): Record”.
-7. Puuvaates laiendage valikut „format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list“.
-8. Puuvaates laiendage valikut „format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record“.
-9. Puuvaates laiendage valikut „format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record”.
-10. Puuvaates valige „format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record“.
+6. Laiendage puul valikut `format: Record\*settlement: XML Element 1..1 (settlement): Record`.
+7. Laiendage puul valikut `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`.
+8. Laiendage puul valikut `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
+9. Laiendage puul valikut `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`.
+10. Valige puul suvand `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
 
     Pange tähele, et kohustuslike ja valikuliste vorminguelementide esitlus erineb eelmääratletud „vorminguga” andmeallika komponendist.  
 11. Puuvaates laiendage „Kanded: Kirjete loend = format.settlement.'$enumerated”.
@@ -237,7 +236,7 @@ Käivitage selle vormingu vastendamine testimisotstarbel. Kasutage varsemalt all
 19. Sulgege leht.
 20. Klõpsake nuppu Redigeeri.
 
-    Kui installisite kiirparanduse „GER-i mudeli vastenduste tugi KB 4012871 eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates rakenduse Dynamics 365 Finance versioonides” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), käivitage sisestatud vormingu konfiguratsiooni puhul järgmine etapp „Lülita lipp „Mudelivastenduse vaikeväärtus” sisse”. Vastasel juhul jätke järgmine etapp vahele.  
+    Kui installisite kiirparanduse „KB 4012871 GER-i mudeli vastenduste tugi eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates rakenduse Dynamics 365 Finance versioonides” ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), käivitage sisestatud vormingu konfiguratsiooni puhul järgmine etapp „Lülita lipp Mudelivastenduse vaikeväärtus sisse”. Vastasel juhul jätke järgmine etapp vahele.  
 
 21. Väljal Mudelivastenduse vaikeväärtus valige Jah.
 22. Puuvaates valige „1099 maksete mudel”.
@@ -245,9 +244,9 @@ Käivitage selle vormingu vastendamine testimisotstarbel. Kasutage varsemalt all
 24. Klõpsake suvandit Mudeli vastendamine andmeallikaga.
 25. Klõpsake nuppu Käivita.
 
-    Kui installisite kiirparanduse „GER-i mudeli vastenduste tugi KB 4012871 eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates versioonides (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), valige otsinguväljal eelistatud mudelivastendus. Kui te pole kiirparandust veel installinud, jätke järgmine etapp vahele, kuna vastendus on vaikevormingu konfiguratsiooniga juba valitud.  
+    Kui installisite kiirparanduse „KB 4012871 GER-i mudeli vastenduste tugi eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates versioonides ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), valige otsinguväljal eelistatud mudelivastendus. Kui te pole kiirparandust veel installinud, jätke järgmine etapp vahele, kuna vastendus on vaikevormingu konfiguratsiooniga juba valitud.  
     
-    Kui te pole veel kiirparandust KB 4012871 installinud, pange tähele, et dialoogiboks sisaldab täiendavat mudeli vastendamise küsimust, mida kasutatakse imporditava faili sõelumist. Andmed imporditakse seejärel dialoogiboksist andmemudelisse. Praegu saate valida, millist vormingu vastendust tuleb kasutada, sõltuvalt sellest, millist tüüpi faili plaanite importida.  
+    Kui te pole veel kiirparandust KB 4012871 installinud, pange tähele, et dialoogiboks sisaldab täiendavat mudeli vastendamise küsimust, mida kasutatakse imporditava faili sõelumiseks. Andmed imporditakse seejärel dialoogiboksist andmemudelisse. Praegu saate valida, millist vormingu vastendust tuleb kasutada, sõltuvalt sellest, millist tüüpi faili plaanite importida.  
     
     Kui plaanite selle mudelivastenduse kutsuda rakenduse punktist, mis on spetsiaalselt ette nähtud selle toimingu jaoks, tuleb elektroonilise aruandluse sihtkoha ja vormingu vastendus märkida integratsiooni osaks.  
 

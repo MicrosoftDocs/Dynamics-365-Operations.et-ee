@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040118"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679952"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasematest versioonidest eemaldatud või aegunud funktsioonid
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Seda teemat enam ei uuendata. Et näha praegust funktsioonide loendit, mis on Finance and Operations rakendustest eemaldatud või aegunud, otsige rakenduse **"Eemaldatud või aegunud funktsioonid"** sisu, mis on seotud teie kasutatava rakendusega.
@@ -185,7 +186,7 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Pärast parameetri eemaldamist on see funktsioon alati lubatud. |
 | **Asendatud teise funktsiooniga?**   | Nr Mitme rahastamisallikaga projektipõhiste müügitellimuste toetamise funktsioon on alati lubatud.   |
-| **Mõjutatud tootealad**         |Parameeter **Luba müügitellimused mitme rahastamisallikaga projektide puhul**. Parameetri eemaldamisel muudetakse järgmisi meetodeid: meetod **ctrlSalesOrderTable** klassis **ProjStatusType** , meetod **valideeri** välja **ProjId** puhul ja meetod **käita** vormil **SalescreateOrder**. Parameetri eemaldamisel muutuvad aegunuks järgmised meetodid: meetod **IsSalesOrderAllowedForMultipleFundingSources** tabelifailis **ProjTable** , meetod **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** tabelifailis **ProjTable** , andmeväli **AllowSalesOrdersForMultipleFundingSources** vormil **ProjParameters** ja failides **ProjParameterEntity** , privaatmeetod **IsAssociatedToMultipleFundingSourcesContract** tabelifailis **ProjTable**. |
+| **Mõjutatud tootealad**         |Parameeter **Luba müügitellimused mitme rahastamisallikaga projektide puhul**. Parameetri eemaldamisel muudetakse järgmisi meetodeid: meetod **ctrlSalesOrderTable** klassis **ProjStatusType**, meetod **valideeri** välja **ProjId** puhul ja meetod **käita** vormil **SalescreateOrder**. Parameetri eemaldamisel muutuvad aegunuks järgmised meetodid: meetod **IsSalesOrderAllowedForMultipleFundingSources** tabelifailis **ProjTable**, meetod **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** tabelifailis **ProjTable**, andmeväli **AllowSalesOrdersForMultipleFundingSources** vormil **ProjParameters** ja failides **ProjParameterEntity**, privaatmeetod **IsAssociatedToMultipleFundingSourcesContract** tabelifailis **ProjTable**. |
 | **Juurutamissuvand**              | Kõik  |
 | **Olek**                         | Aegumine on plaanitud 2020. aprilli väljalaskevoogu. |
 
@@ -229,7 +230,7 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 ### <a name="renaming-released-products"></a>Väljastatud toodete ümbernimetamine 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Kui kasutate funktsiooni **Nimeta esmane võti ümber** , et muuta väljastatud toote ItemId värskendatakse ainult võõrvõtme viited. Mis tahes muud väljastatud toote viited, näiteks tootmistellimustest, säilitavad vana ItemId. Tulemuseks võivad olla ebaühtlased andmed, mis lõpuks blokeerivad äriprotsessid. |
+| **Aegumise/eemaldamise põhjus** | Kui kasutate funktsiooni **Nimeta esmane võti ümber**, et muuta väljastatud toote ItemId värskendatakse ainult võõrvõtme viited. Mis tahes muud väljastatud toote viited, näiteks tootmistellimustest, säilitavad vana ItemId. Tulemuseks võivad olla ebaühtlased andmed, mis lõpuks blokeerivad äriprotsessid. |
 | **Asendatud teise funktsiooniga?**   | Nr |
 | **Mõjutatud tootealad**         | Tooteteabe haldus |
 | **Juurutamissuvand**              | Kõik  |
@@ -266,7 +267,7 @@ Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelle
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Tabeli metaandmete definitsioonidel korral on võimalik, et väljagrupid sisaldavad sobimatuid väljaviiteid. Juurutamise korral võib see põhjustada käitusaja tõrkeid finantsaruandluses ja SQL Serveri aruandlusteenustes (SSRS). See probleem on praegu liigitatud *kompilaatori hoiatuseks* , mitte *tõrkeks* , mis tähendab, et juurutatava paketi loomist ja juurutamist saab jätkata ilma probleemi kõrvaldamata. Probleemi kõrvaldamiseks:<br><br>1. Eemaldage sobimatu väljaviide tabeli väljagrupi definitsioonist.<br><br>2. Kompileerige uuesti.<br><br>3. Veenduge, et kõikide hoiatuste või tõrgetega oleks tegeletud. |
+| **Aegumise/eemaldamise põhjus** | Tabeli metaandmete definitsioonidel korral on võimalik, et väljagrupid sisaldavad sobimatuid väljaviiteid. Juurutamise korral võib see põhjustada käitusaja tõrkeid finantsaruandluses ja SQL Serveri aruandlusteenustes (SSRS). See probleem on praegu liigitatud *kompilaatori hoiatuseks*, mitte *tõrkeks*, mis tähendab, et juurutatava paketi loomist ja juurutamist saab jätkata ilma probleemi kõrvaldamata. Probleemi kõrvaldamiseks:<br><br>1. Eemaldage sobimatu väljaviide tabeli väljagrupi definitsioonist.<br><br>2. Kompileerige uuesti.<br><br>3. Veenduge, et kõikide hoiatuste või tõrgetega oleks tegeletud. |
 | **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevikus kompileerimistõrkega. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
@@ -374,12 +375,12 @@ Neid kaht aruannet rakenduses Finance and Operations enam ei toetata. Selle asem
 | **Olek**                       | Aegunud: nende kahe aruande menüü-üksused on versioonis 7.3 eemaldatud. Aruannete kood jääb siiski tootesse. Plaan on kood tulevases väljaandes eemaldada. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI sisupaketid on saadaval AppSource’is
-Sisupaketid **Kuluhaldus** , **Finantstulemused** ja **Jaemüügikanali jõudlus** , mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on Microsoft Power BI tootevärskenduste tagajärjel aegunud. Nende sisupakettide juurutamiseks saidil PowerBI.com kasutatavad süsteemiadministreerimise vormid on aegunud samuti rakenduses Finance and Operations.
+Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on Microsoft Power BI tootevärskenduste tagajärjel aegunud. Nende sisupakettide juurutamiseks saidil PowerBI.com kasutatavad süsteemiadministreerimise vormid on aegunud samuti rakenduses Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Tootevärskendused rakenduses Microsoft Power BI. |
-| **Asendatud teise funktsiooniga?**   | Sisupaketid **Kuluhaldus** , **Finantstulemused** ja **Jaemüügikanali jõudlus** , mis on saadaval saidil [AppSource](https://appsource.microsoft.com), on asendatud analüütiliste rakendustega, mis võimaldavad lahenduse integratsioone andmebaasi tasemel. Lisateavet analüütiliste rakenduste kohta vt teemast [Manustatud Power BI tööruumides](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Asendatud teise funktsiooniga?**   | Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [AppSource](https://appsource.microsoft.com), on asendatud analüütiliste rakendustega, mis võimaldavad lahenduse integratsioone andmebaasi tasemel. Lisateavet analüütiliste rakenduste kohta vt teemast [Manustatud Power BI tööruumides](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Mõjutatud tootealad**         | Kuluhaldus, Finance ja Retail                                                                                               |
 | **Juurutamissuvand**              | Ainult pilveteenus (integratsiooni PowerBI.com’iga ei toetata asutusesisestes juurutustes)                                                                                                            |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2018. aasta 2. kvartal.    |
@@ -712,7 +713,7 @@ Inimressursside palgateave
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | See funktsioon on asendatud tuumlehtedega Palk ja Inimressurssid.  |
-| **Asendatud teise funktsiooniga?**   | **Soodustused** , **Tulud** ja muud seotud lehed, mis olid varem moodulis USA palk olemas, on nüüd ümber konfigureeritud ja kuuluvad inimressursside tuumkonfiguratsiooni, et aidata toetada välist palga töötlemist. Sellele funktsioonile pääseb juurde konfiguratsioonivõtmega **Inimressursid 1** \> **Palk**. |
+| **Asendatud teise funktsiooniga?**   | **Soodustused**, **Tulud** ja muud seotud lehed, mis olid varem moodulis USA palk olemas, on nüüd ümber konfigureeritud ja kuuluvad inimressursside tuumkonfiguratsiooni, et aidata toetada välist palga töötlemist. Sellele funktsioonile pääseb juurde konfiguratsioonivõtmega **Inimressursid 1** \> **Palk**. |
 | **Mõjutatud tootealad**         | Inimressursid, Palk   |
 | **Olek**                         | Eemaldatud alates rakenduse Dynamics 365 for Operations versioonist 1611.    |
 
@@ -806,8 +807,8 @@ Soome puhul on maksete eksportimiseks saadaval kaks vormingut. LM02 (FI) kasutat
 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Laohalduse II lahendus (WMS II), mis oli saadaval moodulis **Varude haldus** , dubleerib funktsiooni, mis on olemas Dynamics AX 2012 R3-ga välja antud moodulis **Laohaldus**.                                                                         |
-| **Asendatud teise funktsiooniga?**   | Moodul **Laohaldus** , mis on välja antud rakendustes AX 2012 R3, Dynamics AX 2012 R3 CU8 ja Dynamics AX 2012 R3 CU9 asendab mooduli Laohaldus II funktsioonid. Uuel moodulil on täiustatumad funktsioonid ja paindlikum laohalduse protsess kui moodulil Laohaldus II. |
+| **Aegumise/eemaldamise põhjus** | Laohalduse II lahendus (WMS II), mis oli saadaval moodulis **Varude haldus**, dubleerib funktsiooni, mis on olemas Dynamics AX 2012 R3-ga välja antud moodulis **Laohaldus**.                                                                         |
+| **Asendatud teise funktsiooniga?**   | Moodul **Laohaldus**, mis on välja antud rakendustes AX 2012 R3, Dynamics AX 2012 R3 CU8 ja Dynamics AX 2012 R3 CU9 asendab mooduli Laohaldus II funktsioonid. Uuel moodulil on täiustatumad funktsioonid ja paindlikum laohalduse protsess kui moodulil Laohaldus II. |
 | **Mõjutatud tootealad**         | Varude haldus, Müük ja turundus, Hanked   |
 | **Olek**                         | Eemaldatud alates rakenduse Dynamics 365 for Operations versioonist 1611.    |
 
@@ -1157,12 +1158,12 @@ Eelpäringu loomine pole partii abil võimalik, kuid kasutaja saab seda siiski t
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS-i aruanded
 
-Järgmisi menüüelemente sisaldavad aruanded on eemaldatud. **Proovibilansi kokkuvõte** , **Üksikasjalik proovibilanss** , **Kontoplaan** , **Auditijälg** , **Saldod** ja **Saldoloend**.
+Järgmisi menüüelemente sisaldavad aruanded on eemaldatud. **Proovibilansi kokkuvõte**, **Üksikasjalik proovibilanss**, **Kontoplaan**, **Auditijälg**, **Saldod** ja **Saldoloend**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Microsoft SQL Serveri teenuste Reporting Services (SSRS) finantsaruanded on asendatud Management Reporteri võimaluste ja vaikearuannetega. |
-| **Asendatud teise funktsiooniga?**   | Management Reporter (selles Dynamics AX-i versioonis nimega **Finantsaruandlus** )    |
+| **Asendatud teise funktsiooniga?**   | Management Reporter (selles Dynamics AX-i versioonis nimega **Finantsaruandlus**)    |
 | **Mõjutatud tootealad**         | Pearaamat   |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.   |
 
@@ -1359,7 +1360,7 @@ Windows 8 tahvelarvuti rakendus pakkus kulude sisestamise ja kinnitamise funktsi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Vähene kasutus |
-| **Asendatud teise funktsiooniga?**   | Ei, kuid leht **Reeglite suhe** , mis avaneb lehelt **Reegligrupid** , toetab sama äristsenaariumi kui mittesoovitatav leht **Tööplaanija**. |
+| **Asendatud teise funktsiooniga?**   | Ei, kuid leht **Reeglite suhe**, mis avaneb lehelt **Reegligrupid**, toetab sama äristsenaariumi kui mittesoovitatav leht **Tööplaanija**. |
 | **Mõjutatud tootealad**         | Tööajaarvestus     |
 | **Olek**                         | Koodi ei eemaldatud Vormi JmgWorkPlanner siiski ei migreeritud.    |
 

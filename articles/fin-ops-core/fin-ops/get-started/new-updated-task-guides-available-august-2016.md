@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812528"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694985"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Uued või värskendatud tegevusjuhised (august 2016)
 
@@ -32,7 +31,7 @@ Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastat
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegis
 
-(August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics AX-i platvormivärskenduse 2 (august 2016), Dynamics AX -i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruariväljaandega. Lisateavet nende väljaannete kohta leiate teemast [Mis on uut või mida on muudetud Finance and Operationsi avalehel?](whats-new-changed.md) Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
+(August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics AX-i platvormivärskenduse 2 (august 2016), Dynamics AX -i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruariväljaandega. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on rakenduse Finance and Operations avalehel uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
 
 ### <a name="data-access"></a>Juurdepääs andmetele
 

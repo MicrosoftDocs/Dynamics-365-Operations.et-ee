@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143049"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684423"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
 
@@ -59,16 +58,16 @@ Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida 
 18. Klõpsake valikut Valmis.
 19. Klõpsake nuppu OK.
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>Uue elektroonilise aruandluse mudelivastenduse konfiguratsiooni lisamine
+## <a name="add-a-new-er-model-mapping-configuration"></a>Uue ER-i mudelivastenduse konfiguratsiooni lisamine
 1. Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.
 2. Sisestage väljale Uus suvand "Andmemudelil Näidisandmemudel põhinev mudelivastendus".
 3. Sisestage nimeväljale tekst „Sample mapping".
     * Näidisvastendamine  
 4. Klõpsake Loo konfiguratsioon.
 5. Laiendage jaotist Eeltingimused.
-    * Pange tähele, et juurutuste eeltingimuste grupp on lisatud automaatselt. Grupi sisaldab eeltingimuse komponenti, mis viitab ülataseme andmemudeli konfiguratsioonile ning see on märgitud juurutuseks. See tähendab, et seda näidisvastendusmudeli vastenduskonfiguratsiooni peetakse andmemudeli, näidisandmemudeli, juurutamiseks. Seetõttu sunnib see komponent elektroonilist aruandlust alla laadima mudelivastenduse konfiguratsiooni, näidisvastendust elektroonilise aruandluse hoidlast, kui mudeli konfiguratsioon, näidisandmemudel, on alla laaditud.   
+    * Juurutuste eeltingimuste grupp on lisatud automaatselt. Grupi sisaldab eeltingimuse komponenti, mis viitab ülataseme andmemudeli konfiguratsioonile ning see on märgitud juurutuseks. See tähendab, et seda näidisvastendusmudeli vastenduskonfiguratsiooni peetakse andmemudeli, näidisandmemudeli juurutamiseks. Seetõttu sunnib see komponent elektroonilist aruandlust alla laadima mudelivastenduse konfiguratsiooni näidisvastendust elektroonilise aruandluse hoidlast, kui mudeli konfiguratsioon, näidisandmemudel on alla laaditud.   
 6. Klõpsake valikut Kujundaja.
-    * Pange tähele, et loodud mudelivastenduse konfiguratsiooni sisaldab uut tühja vastendamist, millel on loodud konfiguratsiooniga sama nimi. Võtke arvesse, et kui valitud ülataseme mudeli konfiguratsioon sisaldab mudelivastendusi, kopeeritakse need uude mudelivastenduse konfiguratsiooni.   
+    * Loodud mudelivastenduse konfiguratsioon sisaldab uut tühja vastendamist, millel on loodud konfiguratsiooniga sama nimi. Kui valitud ülataseme mudeli konfiguratsioon sisaldab mudelivastendusi, kopeeritakse need uude mudelivastenduse konfiguratsiooni.   
 7. Klõpsake valikut Kujundaja.
 8. Valige puul väärtus Dynamics 365 for Operations \ Tabel.
 9. Klõpsake suvandit Juure lisamine.
@@ -112,9 +111,9 @@ Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida 
 16. Klõpsake nuppu Käivita.
     * Klõpsake Versioonide kiirkaardil nuppu Käivita.  
 17. Klõpsake nuppu OK.
-    * Vaadake toodangu, mis sisaldab kasutaja, kes töötab sellele vormingu konfiguratsioonile loginud ettevõtte nimi. Pange tähele, et see vormingukonfiguratsioon kasutab loodud mudelivastenduskonfiguratsiooni, kuna see on ainus saadaolev konfiguratsioon, mis sisaldab nõutavaid mudelivastendusi.   
+    * Vaadake toodangu, mis sisaldab kasutaja, kes töötab sellele vormingu konfiguratsioonile loginud ettevõtte nimi. See vormingukonfiguratsioon kasutab loodud mudelivastenduskonfiguratsiooni, kuna see on ainus saadaolev konfiguratsioon, mis sisaldab nõutavaid mudelivastendusi.   
 
-## <a name="add-alternative-er-model-mapping-configuration"></a>Alternatiivse elektroonilise aruandluse mudelivastenduse konfiguratsiooni lisamine
+## <a name="add-alternative-er-model-mapping-configuration"></a>Alternatiivse ER-i mudelivastenduse konfiguratsiooni lisamine
 1. Tehke puul valik „Sample data model".
 2. Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.
 3. Sisestage väljale Uus suvand "Andmemudelil Näidisandmemudel põhinev mudelivastendus".
@@ -150,15 +149,15 @@ Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida 
 28. Sulgege leht.
 29. Tehke väljal Käivita mustand valik Jah.
 
-## <a name="use-an-existing-er-model-mapping-configuration"></a>Olemasoleva elektroonilise aruandluse mudelivastenduse konfiguratsiooni kasutamine
+## <a name="use-an-existing-er-model-mapping-configuration"></a>Olemasoleva ER-i mudelivastenduse konfiguratsiooni kasutamine
 1. Tehke puul valik „Näidisandmemudel\Näidisformaat".
-2. Klõpsake nuppu Käivita.
-    * Pange tähele, et valitud ER-vormingu konfiguratsiooni mustandiversiooni ei saa käivitada, kuna määratlemata andmemudeli jaoks, mis on valitud käivitatud ER-vormingu andmeallikana, sisaldab mitut mudelivastenduse konfiguratsiooni.   
-    * Seejärel määratlege alternatiivne mudelivastenduskonfiguratsioon sellena, millest mudelivastendusi kasutatakse andmeallikana käivitatud ER-vormingu jaoks.   
+2. Klõpsake käsku Käita.
+    * Valitud ER-vormingu konfiguratsiooni mustandiversiooni ei saa käivitada, kuna määratlemata andmemudeli jaoks, mis on valitud käivitatud ER-vormingu andmeallikana, sisaldab mitut mudelivastenduse konfiguratsiooni.   
+    * Seejärel määratlege alternatiivne mudelivastenduskonfiguratsioon sellena, millest kasutatakse mudelivastendusi andmeallikana käivitatud ER-vormingu jaoks.   
 3. Tehke puul valik „Näidisandmemudel\Näidisvastendamine (alternatiivne)".
 4. Väljal Mudelivastenduse vaikeväärtus valige Jah.
 5. Tehke puul valik „Näidisandmemudel\Näidisformaat".
-6. Klõpsake nuppu Käivita.
+6. Klõpsake käsku Käita.
 7. Klõpsake nuppu OK.
-    * Pange tähele, et mudelivastenduse vaikekonfiguratsiooni kasutab see vormingukonfiguratsioon elektroonilise dokumendi genereerimiseks (loodud väljund sisaldab ettevõtte koodi).  
+    * See vormingukonfiguratsioon kasutab mudelivastenduse vaikekonfiguratsioon elektroonilise dokumendi genereerimiseks (loodud väljund sisaldab ettevõtte koodi).  
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771256"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680190"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
 
@@ -221,7 +220,7 @@ Kui olete varem selles teemas protseduuri [Juurdepääs rakenduse metaandmetele 
 
 1. Avage **Kõik tööruumid \> Elektrooniline aruandlus**.
 2. Valige **Ühendatud rakendused**.
-3. Veenduge, et konfigureeritud rakendus on Microsoft Azure põhine ja et see on RCS-i kasutajatele üldiselt juurdepääsetav. Praegusel RCSi kasutajal peab olema juurdepääs konfigureeritud rakendusele, mis registreeritakse selle rakenduse kasutajana rollis, mis annab talle õigused rakenduse mataandmetele juurdepääsuks.
+3. Veenduge, et konfigureeritud rakendus on Microsoft Azure põhine ja et see on RCS-i kasutajatele üldiselt juurdepääsetav. Praegusel RCS-i kasutajal peab olema juurdepääs konfigureeritud rakendusele, mis registreeritakse selle rakenduse kasutajana rollis, mis annab talle õigused rakenduse mataandmetele juurdepääsuks.
 4. Valige suvand **Uus**.
 5. Sisestage väljale **Nimi** ühendatud rakenduse nimena suvand **MyConnectedApp**.
 6. Määratlege väljal **Rakendus** rakenduse URL.

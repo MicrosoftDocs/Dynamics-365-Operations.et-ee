@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Managementi versiooni 10.0.15 eelversioon (jaanuar 2021)
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.15. (jaanuar 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.15 uusi või muutunud funktsioone.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: 02f343c5351168375eca38893b9d8eef4549dc5a
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012271"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700953"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Managementi versiooni 10.0.15 eelversioon (jaanuar 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.15. (jaanuar 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.15 uued või muutunud funktsioonid. Selle versiooni number on 10.0.644 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.15 uusi või muutunud funktsioone. Selle versiooni number on 10.0.644 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** oktoober 2020
 - **Väljalaske üldine kättesaadavus (enesevärskendus):** november 2020
@@ -39,19 +38,23 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 
 See väljalase hõlmab järgmisi funktsioone. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
-- Pilv- ja perimeeterskaalaüksuse haldus koos tootmis- ja laotööde käitamise töökoormustega<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+- Pilv- ja perimeeterskaalaüksuse haldus koos tootmis- ja laotööde käitamise töökoormustega<br> - Rohkem informatsiooni vt [Pilv- ja perimeeterskaalaüksused tootmise ja laohalduse töökoormuste jaoks](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Laorakenduses ülekandetellimuste loomine ja töötlemine](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Lisateavet leiate teemast [Üleviimistellimuste loomine laorakenduses](../warehousing/create-transfer-order-from-warehouse-app.md).
 
 - [Pakkumiskutse vastuse vaikeväljad hankijate pakkumiste jaoks](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Lisateavet leiate teemast [Pakkumiskutsete (RFQ-de) ülevaade](../procurement/request-quotations.md).
 
-- [Tehniliste muudatuste halduse lisandmoodul rakendusele Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+- [Tehniliste muudatuste halduse lisandmoodul rakendusele Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Lisateavet vt teemast [Tehniliste muudatuste haldamise ülevaade](../engineering-change-management/product-engineering-overview.md).
 
 - [Hübriidreaalsusjuhendid tootmise jaoks](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Lisateavet leiate teemast [Hübriidreaalsusjuhendite pakkumine tootmistöötajatele](../production-control/instruction-guides-in-production-overview.md).
 
 - [Uus kasutajakogemus tootmisosakonnas tööde tegemiseks](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - lisateavet leiate teemast [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md)
 
 - [Laorakenduse sündmuste töötlemine](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Lisateavet leiate teemast [Laorakenduse sündmuse töötlemine](../warehousing/warehouse-app-events.md).
+
+- [Väljastatud toodete lehe salvestatud vaated](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Lisateavet leiate teemast [Salvestatud vaated](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+
+- USMCA päritolutunnistuse dokument<br> - Lisateavet vt [USMCA sertifitseerimisest](../transportation/usmca-certification-of-origin.md).
 
 Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 

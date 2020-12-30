@@ -3,26 +3,25 @@ title: Videod
 description: Sellel lehel on loetletud Microsofti loodud Finance and Operationsi rakendustega seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 author: sericks007
 manager: AnnBe
-ms.date: 10/12/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
-ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
+ms.openlocfilehash: 4c34c539428563e69013e60ed3d0403b648c96bc
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3991448"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693565"
 ---
 # <a name="videos"></a>Videod 
 
@@ -147,6 +146,9 @@ ms.locfileid: "3991448"
 
 - [Ostutellimuste kinnitamine mobiilses seadmes](https://youtu.be/gZ-gOlJe7H8)
 - [Uue hankija kasutuselevõtt](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
+
+### <a name="product-information-management"></a>Tooteteabe haldus
+- [Haldusvõimaluste muutmine](https://youtu.be/N313FqvRuBc)
 
 ### <a name="production-control"></a>Tootmise juhtimine
 

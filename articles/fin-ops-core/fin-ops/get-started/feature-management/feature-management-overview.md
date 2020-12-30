@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015039"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692962"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -43,7 +42,7 @@ Funktsioonide loend sisaldab järgmist teavet.
 - **Funktsioon lisatud** – kuupäev, mil funktsioon lisati teie keskkonda. See kuupäev sisestatakse automaatselt, kui värskendate oma keskkonda igakuiste väljaannete tsüklite ajal.
 - **Moodul** – moodul, mida uus funktsioon mõjutab.
 
-Kui valite funktsiooni, kuvatakse lisateave üksikasjade paanil funktsioonide loendist paremal. Paani ülaosas näete funktsiooni nime, funktsiooni lisamise kuupäeva, funktsiooni poolt mõjutatud moodulit ja linki **Lisateave**. Valige see link funktsiooni dokumentatsiooni vaatamiseks. Kui dokumentatsioon ei ole saadaval, suunatakse teid ajutisele lehele. Üksikasjade paanil on ka väli **Kommentaarid** , kus saate lisada oma kommentaare funktsiooni kohta.
+Kui valite funktsiooni, kuvatakse lisateave üksikasjade paanil funktsioonide loendist paremal. Paani ülaosas näete funktsiooni nime, funktsiooni lisamise kuupäeva, funktsiooni poolt mõjutatud moodulit ja linki **Lisateave**. Valige see link funktsiooni dokumentatsiooni vaatamiseks. Kui dokumentatsioon ei ole saadaval, suunatakse teid ajutisele lehele. Üksikasjade paanil on ka väli **Kommentaarid**, kus saate lisada oma kommentaare funktsiooni kohta.
 
 Tööruumis **Funktsioonihaldus** on ka mitu vahekaarti, mis igaüks kuvavad funktsioonide loendi.
 
@@ -60,7 +59,7 @@ Kui funktsioon ei ole sisse lülitatud, kuvatakse üksikasjade paanil nupp **Lub
 
 Mõnda funktsiooni ei saa pärast sisse lülitamist välja lülitada. Kui funktsiooni, mida proovite sisse lülitada, ei saa välja lülitada, kuvatakse hoiatus. Saate valida nupu **Tühista** toimingu tühistamiseks ja jätta funktsiooni väljalülitatuks. Kui aga valite nupu **Luba** funktsiooni sisselülitamiseks, ei saa te seda hiljem välja lülitada.
 
-Mõni funktsioon kuvab sõnumi, mis annab lisateavet enne nende sisselülitamist. Need omadused on tähistatud kollase hoiatussümboliga. Lugege lisateavet hoolikalt, et paremini mõista, mis juhtub, kui funktsioon on lubatud. Siiski saate endiselt valida suvandi **Luba** , et funktsioon sisse lülitada.
+Mõni funktsioon kuvab sõnumi, mis annab lisateavet enne nende sisselülitamist. Need omadused on tähistatud kollase hoiatussümboliga. Lugege lisateavet hoolikalt, et paremini mõista, mis juhtub, kui funktsioon on lubatud. Siiski saate endiselt valida suvandi **Luba**, et funktsioon sisse lülitada.
 
 Mõni funktsioon kuvab sõnum, et funktsiooni ei saa enne toimingu tegemist lubada. Need omadused on tähistatud punane X hoiatussümboliga. Enne funktsiooni lubamist peate täitma kirjelduses kirjeldatud toimingud. Näiteks kui te ei saa kasutada funktsiooni kuni konfiguratsioonivõti on keelatud, siis peate esmalt keelama konfiguratsioonivõtme ja seejärel naasma funktsiooni haldusesse funktsiooni lubamiseks.
 
@@ -74,7 +73,7 @@ Kui funktsiooni ei ole plaanis tulevikus sisse lülitada, kuvatakse üksikasjade
 
 1. Valige uuesti plaanimiseks plaanitud funktsioon ja seejärel valige üksikasjade paanil nupp **Plaani**.
 2. Kuvatavas dialoogiboksis väljas **Luba kuupäeval** määrake uus kuupäev, millal tuleb funktsioon sisse lülitada.
-3. Valige **Luba** , et funktsiooni uuesti plaanida, või **Keela** plaanimise tühistamiseks.
+3. Valige **Luba**, et funktsiooni uuesti plaanida, või **Keela** plaanimise tühistamiseks.
 
 ## <a name="turn-off-a-feature"></a>Funktsiooni väljalülitamine
 
@@ -92,7 +91,7 @@ Mõnikord lisatakse kriitiline funktsioon, mis tuleb uuendamisel automaatselt si
 
 Vaikimisi lülitatakse kõik teie keskkonda lisatavad funktsioonid välja, kui need pole kohustuslikud funktsioonid. Kõik funktsioonid saate lubada, kui valite nupu **Luba kõik**. 
 
-Kui valite **Luba kõik** , kuvatakse suvand, kus peate esitama järgmise teabe.
+Kui valite **Luba kõik**, kuvatakse suvand, kus peate esitama järgmise teabe.
 - Kõigi funktsioonide loend, mis vajavad kinnitamist enne, kui neid saab lubada. Kui soovite funktsioone loendis lubada, valige väärtus **Jah** nupul **Luba funktsioonid, mis vajavad kinnitust**.
 - Kõik funktsioonid, mida saab lubada, on lubatud. Neid funktsioone ei saa lubada.
 
@@ -130,12 +129,12 @@ Andmeüksusega nimega **Funktsioonihaldus** saate eksportida funktsioonihalduse 
 
 Järgmistest näidetes kirjeldatakse, mis juhtub, kui kasutate andmete importimiseks üksust **Funktsioonihaldus**.
 
-- Kui muudate välja **Lubatud** väärtusele **Jah** , lülitatakse funktsioon sisse ja välja **Luba kuupäeval** väärtuseks määratakse praegune kuupäev.
+- Kui muudate välja **Lubatud** väärtusele **Jah**, lülitatakse funktsioon sisse ja välja **Luba kuupäeval** väärtuseks määratakse praegune kuupäev.
 - Kui muudate välja **Lubatud** väärtusele **Ei** või jätate välja **Luba kuupäeval** tühjaks, lülitatakse funktsioon välja ja väli **Luba kuupäeval** tühjendatakse. Välja ei saa lülitada kohustuslikke funktsioone või funktsiooni, mida pole võimalik välja lülitada pärast selle sisse lülitamist.
 - Kui muudate välja **Luba kuupäeval** väärtuseks tulevase kuupäeva, plaanitakse funktsioon sellele kuupäevale.
 - Kui muudate välja **Lubatud** väärtusele **Jah** ja muudate välja **Luba kuupäeval** väärtuseks tulevase kuupäeva, plaanitakse funktsioon sellele kuupäevale. 
-- Kui muudate välja **Lubatud** väärtusele **Ei** , aga muudate ka välja **Luba kuupäeval** väärtuseks tulevase kuupäeva, plaanitakse funktsioon sellele kuupäevale.
-- Kui funktsioon lülitatakse sisse ja lisate välja **Luba kuupäeval** , mis on määratud tulevasele kuupäevale, jääb funktsioon sisse lülitatuks. Funktsiooni uuesti plaanimiseks peate muutma välja **Lubatud** väärtusele **Ei**.
+- Kui muudate välja **Lubatud** väärtusele **Ei**, aga muudate ka välja **Luba kuupäeval** väärtuseks tulevase kuupäeva, plaanitakse funktsioon sellele kuupäevale.
+- Kui funktsioon lülitatakse sisse ja lisate välja **Luba kuupäeval**, mis on määratud tulevasele kuupäevale, jääb funktsioon sisse lülitatuks. Funktsiooni uuesti plaanimiseks peate muutma välja **Lubatud** väärtusele **Ei**.
 
 ## <a name="feature-management-and-flighting"></a>Funktsioonihaldus ja eelväljaanded
 
@@ -181,7 +180,7 @@ Funktsiooni eelväljaanded on Microsofti kontrollitavad reaalajas sisse-väljal�
 Jah, kui funktsioon mõjutab sellise keskkonna toimimist, millel ei ole funktsionaalset mõju, võidakse funktsioon lubada vaikimisi.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Kuidas saab funktsiooni lubamist koodis kontrollida?
-Kasutage klassi **FeatureStateProvider** meetodit **isFeatureEnabled** , edastades sellele funktsiooniklassi eksemplari. Näide:
+Kasutage klassi **FeatureStateProvider** meetodit **isFeatureEnabled**, edastades sellele funktsiooniklassi eksemplari. Näide:
 
 ```xpp
 if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))

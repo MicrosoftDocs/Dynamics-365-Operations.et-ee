@@ -10,17 +10,16 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 98c08ae2ab4c7cceadb6caaf98fa431e56be4b97
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 5e9afad936a353c8db3c316ad45c4ce28d33b129
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042730"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680802"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Loodud dokumentidele kohandatud talletuskoha määramine
 
@@ -130,7 +129,7 @@ Sündmus **AttachingFile()** tõstatatakse järgmiste ER-i sihtkohtade töötlem
 1. Lisage oma Microsoft Visual Studio projektile uus klass ja kirjutage kood, et tellida eelnevalt mainitud sündmus **AttachingFile()**. (Lisateavet kasutatava laiendatavusmustri kohta vt jaotisest [Vastamine üksuse EventHandlerResult abil](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Kirjutage nt uues klassis kood, mis teeb järgmisi toiminguid.
 
     1. Talletage loodud failid selle serveri kohaliku failisüsteemi kaustas, kus töötab teenus rakendusobjekti server (AOS).
-    2. Talletage need loodud failid ainult juhul, kui faili manustamisel ER-i käitamise töölogi kirjele kasutatakse uut dokumendi tüüpi (nt tüüp **FileX** mille nimes on märksõna „(KOHALIK)”)).
+    2. Talletage need loodud failid ainult juhul, kui faili manustamisel ER-i käitamise töölogi kirjele kasutatakse uut dokumendi tüüpi (nt tüüp **FileX** mille nimes on märksõna „(KOHALIK)”).
 
     ```xpp
     class ERDocuSubscriptionSample

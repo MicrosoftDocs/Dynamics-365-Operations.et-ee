@@ -3,7 +3,7 @@ title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks tuleb uus ruudustikufunktsioon lubada.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835082"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693770"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida saab kasutada kasutaja tootlikkuse suurendamiseks, teie andmetest huvitavate vaadete loomiseks ja sisukate ülevaadete hankimiseks andmete jaoks. Selles artiklis tutvustatakse järgmisi võimalusi. 
 
@@ -95,21 +95,23 @@ Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse 
 Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabeli andmete grupeerimine
-[!include [preview banner](../includes/preview-banner.md)]
+Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Üks võimalus selle tegemiseks on eksportida andmed Microsoft Excelisse ja kasutada liigendtabeleid, kuid funktsioon **ruudustikes rühmitamine**, mis on üldsusele versioonis 10.0.16 / platvormi värskenduses 40 saadaval ja sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel oma tabeli andmeid põnevatel viisidel Finance and Operationsi rakendustes korraldada. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
 
-Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Üks võimalus selle tegemiseks on eksportida andmeid Microsoft Excelisse ja kasutada liigendtabeleid, kuid **(eelvaade) grupeerimine võrkude** funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel oma tabeli andmeid põnevatel viisidel Finance and Operationsi rakendustes korraldada. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
-
-Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue **grupi veeru järgi** ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet. 
+Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue veeru **Rühmitamisalus** ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet. 
 -  Grupi andmete väärtus 
--  Veeru nimi (see teave on eriti kasulik pärast seda, kui toetatud on rühmitamise mitu taset.)  
+-  Veeru nimi (see teave on eriti kasulik, kui teil on rühmitamise mitu taset.)  
 -  Selles grupis olevate andmeridade arv
 -  Kogusummade kuvamiseks konfigureeritud veergude vahesummad
 
 Kui [Salvestatud vaated](saved-views.md) on lubatud, saab selle rühmitamise isikupärastamisena järgmiseks lehekülastuseks salvestada, et saada kiirjuurdepääs.  
 
-Kui valite käsu **Rühmita selle veeru alusel** mõnes teises veerus, asendatakse algne rühmitamine, kuna versioonis 10.0.9 platvormivärskendusega 33 on toetatud ainult üks rühmitamise tase.
+### <a name="multiple-levels-of-grouping"></a>Rühmitamise mitu taset
+Kui olete andmed ühe veeru kaupa rühmitanud, saate andmed rühmitada erineva veeru alusel, valides soovitud veerus suvandi **Rühmita selle veeru järgi**. Seda protsessi saab korrata seni, kuni teil on 5 pesastatud rühmitamise taset, mis on maksimaalne toetatud sügavus. Praegusel hetkel ei saa te enam täiendavate veergude alusel rühmitada.  
 
-Rühmitamise tagasivõtmiseks ruudustikus paremklõpsake rühmitataval veerul ja valige käsk **Tühista rühmitamine**.  
+Saate igal ajal teisaldada rühmitamise mis tahes veerule paremklõpsates seda veergu ja valides suvandi **Tühista rühmitamine**. Saate rühmitamise kõikidelt veergudelt eemaldada, kui valite suvandi **Ruudustiku suvandid** ja seejärel **Tühista kõikide rühmitamine**.   
+
+Pange tähele, et enne versiooni 10.0.16 / platvormi värskendust 40 on toetatud ainult ühe taseme rühmitamine. Kui nendes versioonides on andmed rühmitatud ja valite erineva veeru jaoks suvandi **Rühmita selle veeru alusel**, algne rühmitamine asendatakse.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Gruppide laiendamine ja ahendamine
 Andmete algsel grupeerimisel on kõik grupid laiendatud. Andmete summeeritud vaateid saate luua üksikute rühmade ahendamise abil või kasutada andmete navigeerimisel grupi laiendamist ja ahendamist. Grupi laiendamiseks või ahendamiseks valige vastava grupi päisereal nupp Rööpnool (>). Pange tähele, et üksikute gruppide laiendamis-/ahendamisolek on **pole** salvestatud isikupärastamise võimalustes.
@@ -165,10 +167,26 @@ Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide l
     -  Lehel on rühmitatud kaartide loend.
     -  Ruudustiku veerus on mittereageeriv laiendatav juhtelement.
 
-    Kui kasutaja seisab ühega neist olukordadest esimest korda silmitsi, kuvatakse teade lehe värskendamise kohta. Pärast selle teate kuvamist jätkab leht olemasoleva ruudustiku kasutamist kõigi kasutajate puhul kuni järgmise tooteversiooni värskenduseni. Nende stsenaariumide paremat käsitlemist, et uut ruudustikku saaks kasutada, kaalutakse tulevases värskenduses.     
+    Kui kasutaja seisab ühega neist olukordadest esimest korda silmitsi, kuvatakse teade lehe värskendamise kohta. Pärast selle teate kuvamist jätkab leht olemasoleva ruudustiku kasutamist kõigi kasutajate puhul kuni järgmise tooteversiooni värskenduseni. Nende stsenaariumide paremat käsitlemist, et uut ruudustikku saaks kasutada, kaalutakse tulevases värskenduses.    
+    
+-  [KB 4582758] Kirjed on udused, kui muudate suumi 100 pealt mis tahes teisele protsendile
+    
+### <a name="fixed-as-part-of-10015"></a>Parandatud versioonis 10.0.15    
+
+-  [KB 4582723] Kuvamise valikuid ei kuvata, kui need tehakse vormi elutsüklis hiljem
+
+### <a name="fixed-as-part-of-10014"></a>Parandatud versioonis 10.0.14
+
+-  (Kvaliteedi uuendamine) [KB 4584752] Ootamatu kliendi tõrge projekti arve ettepanekute lehel
 
 ### <a name="fixed-as-part-of-10013"></a>Parandatud versioonis 10.0.13
 
+-  (Kvaliteedi uuendamine) [KB 4583880] Tööriista Regression Suite Automation Tool (RSAT) katsed nurjuvad tegevuse OpenLookup puhul koos teatega „Ei saa lugeda määratlemata atribuuti RowIndex”
+-  (Kvaliteedi uuendamine) [KB 4583847] Ootamatu kliendi tõrge läbi otsingute navigeerimisel 
+-  (Kvaliteedi uuendamine) [Programmiviga 471777] Mobiilirakenduse redigeerimiseks või loomiseks ei saa ruudustikus välju valida
+-  [Programmiviga 474851] Viitegrupi juhtelementides ei tööta hüperlingid 
+-  [Programmiviga 474848] Ruudustikega täiustatud eelvaateid ei kuvata
+-  [KB 4582726] Atribuudiga RotateSign ei arvestata  
 -  [Programmiviga 470173] Passiivsete ridade märkeruudud täidetakse/tühjendatakse, kui lahtris klõpsatakse tühemikku
 -  [Programmiviga 474848] Ruudustikega täiustatud eelvaateid ei kuvata
 -  [Programmiviga 474851] Viitegrupi juhtelementides ei tööta hüperlingid 
@@ -176,6 +194,7 @@ Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide l
 -  [KB 4569441] Mitme veeruga kaardiloendite, piltide kohtspikrite ja mõnel väljal kuvamisvalikutega seotud probleemid
 -  [KB 4575279] Pearaamatust ei kustutata kõiki märgitud ridasid
 -  [KB 4575233] Kuvamisvalikuid ei taastata pärast teisele reale üleminemist
+-  [Bug 477884] Otsingud tagastavad vale väärtuse/kirje, kui uue ruudustiku juhtelement on aktiveeritud
 -  [KB 4571095] Toote sissetulek sisestatakse, kui kogemata vajutakse klahvi Enter (lehe vaiketegevuse õige käsitlemine)
 -  [KB 4575437] Redigeeritavate juhtelementidega otsingud sulguvad ootamatult
 -  [KB 4569418] Tarnegraafiku vormil loodi topeltrida
@@ -225,7 +244,7 @@ Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide l
 - [KB 4558383] Pärast viimase kirje kustutamist ei värskendata väljaspool ruudustikku olevaid juhtelemente.
 - [KB 4558587] Viitegruppides, mille asendusväljadeks on liitboksid, ei kuvata väärtusi.
 - [KB 4562143] Välju ei värskendata pärast rea muutmist / ruudustiku töötlemine takerdub pärast rea kustutamist.
-- [KB 4562645] Serverite kaughalduse tööriistade (RSAT) testide käitamisel esineb otsingu avamisel erand.
+- [KB 4562645] Tööriista Regression Suite Automation Tool (RSAT) testide käitamisel esineb otsingu avamisel erand.
 
 ### <a name="fixed-as-part-of-10010"></a>Parandatud versioonis 10.0.10
 

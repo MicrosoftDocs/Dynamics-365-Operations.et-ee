@@ -1,6 +1,6 @@
 ---
 title: Integreeritud hankija koondandmed
-description: Selles teemas kirjeldatakse hankija andmete integreerimist teenusekomplekti Finance and Operations rakenduste ja teenuse Common Data Service vahel.
+description: Selles teemas kirjeldatakse hankija andmete integreerimist teenusekomplekti Finance and Operations rakenduste ja teenuse Dataverse vahel.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997643"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685481"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,11 +39,11 @@ Mõlemas lähenemisviisis on hankija andmed integreeritud Dynamics 365 Supply Ch
 
 ## <a name="vendor-data-flow"></a>Hankijaandmete voog
 
-Kui te ei soovi talletada hankija andmeid Common Data Service'i üksuses **Konto/kontakt** , saate kasutada uut hankija kujundust.
+Kui te ei soovi talletada hankija andmeid Dataverse'i üksuses **Konto/kontakt**, saate kasutada uut hankija kujundust.
 
 ![Hankijaandmete voog](media/dual-write-vendor-data-flow.png)
 
-Kui soovite jätkata hankija andmete talletamist üksuses **Konto/kontakt** , saate kasutada laiendatud hankija kujundust. Laiendatud hankija kujunduse kasutamiseks peate konfigureerima hankija töövood topeltkirjutuse lahendusepaketis. Lisateavet vaadake teemast [Hankija kujunduste vahel vahetamine](vendor-switch.md).
+Kui soovite jätkata hankija andmete talletamist üksuses **Konto/kontakt**, saate kasutada laiendatud hankija kujundust. Laiendatud hankija kujunduse kasutamiseks peate konfigureerima hankija töövood topeltkirjutuse lahendusepaketis. Lisateavet vaadake teemast [Hankija kujunduste vahel vahetamine](vendor-switch.md).
 
 ![Hankijaandmete laiendatud voog](media/dual-write-vendor-detail.jpg)
 
@@ -50,12 +52,12 @@ Kui soovite jätkata hankija andmete talletamist üksuses **Konto/kontakt** , sa
 
 ## <a name="templates"></a>Mallid
 
-Hankijaandmed sisaldavad kogu teavet hankija kohta (nt hankijagrupp, aadressid, kontaktandmed, makseprofiil, arveprofiil). Olemikaartide kogum toimib koos hankijaandmete suhtluse ajal, nagu on näidatud järgmises tabelis.
+Hankijaandmed sisaldavad kogu teavet hankija kohta (nt hankijagrupp, aadressid, kontaktandmed, makseprofiil, arveprofiil). Tabeli kaartide kogum toimib koos hankijaandmete suhtluse ajal, nagu on näidatud järgmises tabelis.
 
 Finance and Operations rakendused | Muud Dynamics 365 rakendused     | Kirjeldus
 ----------------------------|-----------------------------|------------
 Hankija V2                   | Konto                     | Ettevõtted, mis kasutavad hankija teabe talletamiseks olemit Konto, saavad jätkata selle kasutamist samal viisil. Nad saavad Finance and Operationsi rakenduste integratsiooni tõttu kasutada ka konkreetseid hankijafunktsioone.
-Hankija V2                   | Msdyn\_vendors              | Ettevõtted, mis kasutavad hankijate jaoks kohandatud lahendusi, saavad kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni tõttu juurutatud teenuses Common Data Service. 
+Hankija V2                   | Msdyn\_vendors              | Ettevõtted, mis kasutavad hankijate jaoks kohandatud lahendusi, saavad kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni tõttu juurutatud teenuses Dataverse. 
 Hankijagrupid               | msdyn\_vendorgroups         | See mall sünkroonib hankijagrupi teabe.
 Tarnija makseviis       | msdyn\_vendorpaymentmethods | See mall sünkroonib hankija makseviisi teabe.
 CDS-i kontaktid V2             | kontaktid                    | [Kontaktide](customer-mapping.md#cds-contacts-v2-to-contacts) mall sünkroonib nii klientide kui hankijate kõik esmased, sekundaarsed ja tertsiaarsed kontaktandmed.

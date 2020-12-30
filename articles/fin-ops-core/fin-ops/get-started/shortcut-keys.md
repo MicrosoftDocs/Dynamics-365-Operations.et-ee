@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013176"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693721"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
@@ -33,7 +32,7 @@ Järgmised klaviatuuri otseteed aitavad teil Finance and Operationsi rakendustes
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
 
-Mõni sellel lehel toodud otsetee on *klahvikomplekt* , mis tähendab, et selle jaoks on vaja kahte järjestikust klahvikombinatsiooni (komadega eraldatud), mida tuleb vajaliku tegevuse käivitamiseks sõltumatult vajutada. Näiteks otsetee „Alt+M,A” puhul peab kasutaja esmalt vajutama klahve „Alt+M”, vabastama klahvid ja seejärel vajutama klahvi „A”. 
+Mõni sellel lehel toodud otsetee on *klahvikomplekt*, mis tähendab, et selle jaoks on vaja kahte järjestikust klahvikombinatsiooni (komadega eraldatud), mida tuleb vajaliku tegevuse käivitamiseks sõltumatult vajutada. Näiteks otsetee „Alt+M,A” puhul peab kasutaja esmalt vajutama klahve „Alt+M”, vabastama klahvid ja seejärel vajutama klahvi „A”. 
 
 ## <a name="finding-a-shortcut"></a>Otsetee leidmine
 

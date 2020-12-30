@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182987"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685855"
 ---
 # <a name="modify-row-definition-cells"></a>Rea definitsioonide lahtrite muutmine
 
@@ -107,7 +106,7 @@ Lahter **Vormingu kood** pakub selle rea sisu puhul eelvormindatud valikuid. Kui
     |-------------------------------|-----------------------------------|--------|
     | (Pole)                        |                                   | Tühjendab lahtri **Vormingu kood**. |
     | TOT                           | Kokku                             | Tuvastab matemaatilisi tehtemärke kasutava rea veerus **Seotud valemid/read/üksused**. Kogusummad sisaldavad lihtsaid tehtemärke, nagu **+** või **-**. |
-    | CAL                           | Kalkulatsioon                       | Tuvastab matemaatilisi tehtemärke kasutava rea veerus **Seotud valemid/read/üksused**. Arvutused sisaldavad keerukaid tehtemärke, nagu **+**, **-**, **\***, **/**, ja lauseid **IF/THEN/ELSE** |
+    | CAL                           | Kalkulatsioon                       | Tuvastab matemaatilisi tehtemärke kasutava rea veerus **Seotud valemid/read/üksused**. Arvutused sisaldavad keerukaid tehtemärke, nagu **+**, **-**, **\**_, _*/**, ja lauseid **IF/THEN/ELSE**. |
     | DES                           | Kirjeldus                       | Tuvastab aruande pealkirja rea või tühja rea. |
     | LFT RGT CEN                   | Vasakul, keskel, paremal                 | Joondab aruande lehel rea kirjelduse teksti olenemata teksti paigutusest veeru definitsioonis. |
     | CBR                           | Baasrea muutmine                   | Määrab veeru arvutuste puhul baasrea määrava rea. |
@@ -175,7 +174,7 @@ Readefinitsiooni veerus **Vormingu kood** rakendavad vormingu koodid **DES**, **
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Ridade printimise vältimise näide
 
-Järgmises näites soovib Phyllis vältida oma aruande rea **Sularahas kokku** pealkirja ja allkriipsude printimist, kuna tegevus mõlemal skontol puudus. Seetõttu sisestab ta reale 220 (mis, nagu vormingu kood **---** viitab, on vormindamise rida) lahtrisse **Seotud valemid/read/üksused** väärtuse **250**, mis on rea kood summa rea puhul, mille ta soovib peita.
+Järgmises näites soovib kasutaja vältida oma aruande rea **Sularahas kokku** pealkirja ja allkriipsude printimist, kuna tegevus mõlemal sularahakontol puudus. Seetõttu sisestab kasutaja reale 220 (mis, nagu vormingu kood **---** viitab, on vormindamise rida) lahtrisse **Seotud valemid/read/üksused** väärtuse **250**, mis on rea kood summa rea puhul, mille kasutaja soovib peita.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -402,7 +401,7 @@ Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tule
 2. Topeltklõpsake veerus **Link finantsdimensioonidele** olevat lahtrit.
 3. Topeltklõpsake dialoogiboksis **Dimensioonid** dimensiooni nime all olevat lahtrit.
 4. Valige dimensiooni dialoogiaknas suvand **Üksik või vahemik**.
-5. Sisestage väljale **Alates** algusdimensioon või klõpsake saadaolevate dimensioonide otsimiseks ikooni ![Sirvi](media/browse.gif "Sirvi"). Dimensioonide vahemiku sisestamiseks sisestage lõppdimensioon väljale **Kuni**.
+5. Sisestage väljale **Alates** algusdimensioon või klõpsake saadaolevate dimensioonide otsimiseks ikooni ![Sirvi](media/browse.gif "Sirvimine"). Dimensioonide vahemiku sisestamiseks sisestage lõppdimensioon väljale **Kuni**.
 6. Dimensiooni dialoogiboksi sulgemiseks klõpsake nuppu **OK**. Dialoogiboksis **Dimensioonid** kuvatakse värskendatud dimensioon või vahemik.
 7. Klõpsake nuppu **OK** dialoogiboksi **Dimensioonid** sulgemiseks.
 
@@ -416,7 +415,7 @@ Vaikimisi ei prindi aruandekoostur ridu, mille finantsandmetes pole asjakohast s
 3. Muudatuste salvestamiseks klõpsake menüü **Fail** käsku **Salvesta**.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Metamärkide ja vahemike kasutamine readefinitsioonis
-Füüsilise segmendi väärtuse sisestamisel dialoogiboksi **Dimensioonid** saate panna metamärgi (? või \*) segmendi mis tahes kohta. Aruandekoostur ekstraktib kõik määratud asukohtade väärtused metamärke arvestamata. Näiteks sisaldab readefinitsioon ainult füüsilise segmendi väärtusi ja füüsilistel segmentidel on neli tähemärki. Sisestades reale **6???**, juhendate aruandekoosturit kaasama kõiki kontosid, mille füüsilise segmendi väärtus algab 6-ga. Kui sisestate **6\***, saadakse samad tulemused, kuid tulemused sisaldavad ka muutuva laiusega väärtusi, nagu **60** ja **600000**. Aruandekoostur asendab iga metamärgi (?) võimalikud väärtuste vahemikuga, mis hõlmavad tähti ja erimärke. Näiteks vahemikus **12?0** kuni **12?4** asendatakse **12?0** metamärk märgistiku madalaima väärtusega ja **12?4** metamärk asendatakse märgistiku kõrgeima väärtusega.
+Füüsilise segmendi väärtuse sisestamisel dialoogiboksi **Dimensioonid** saate panna metamärgi (? või \*) segmendi mis tahes kohta. Aruandekoostur ekstraktib kõik määratud asukohtade väärtused metamärke arvestamata. Näiteks sisaldab readefinitsioon ainult füüsilise segmendi väärtusi ja füüsilistel segmentidel on neli tähemärki. Sisestades reale **6???**, juhendate aruandekoosturit kaasama kõiki kontosid, mille füüsilise segmendi väärtus algab 6-ga. Kui sisestate **6\**_, saadakse samad tulemused, kuid tulemused sisaldavad ka muutuva laiusega väärtusi, nagu _* 60** ja **600000**. Aruandekoostur asendab iga metamärgi (?) võimalikud väärtuste vahemikuga, mis hõlmavad tähti ja erimärke. Näiteks vahemikus **12?0** kuni **12?4** asendatakse **12?0** metamärk märgistiku madalaima väärtusega ja **12?4** metamärk asendatakse märgistiku kõrgeima väärtusega.
 
 > [!NOTE]
 > Peaksite vältima metamärkide kasutamist vahemike algus- ja lõppkontode puhul. Algus- või lõppkontol metamärkide kasutamisel võite saada ootamatuid tulemusi.
@@ -479,7 +478,7 @@ Järgmises tabelis kirjeldatakse dialoogiboksi **Dimensioonid** välju.
 
 | Kaup                | Kirjeldus |
 |---------------------|-------------|
-| Üksik või vahemik | Sisestage väljale **Alates** konto nimi või klõpsake nuppu **Sirvi** ![Sirvi](media/browse.gif "Sirvi") konto sirvimiseks. Vahemiku valimiseks sisestage väärtus või sirvige seda väljal **Kuni**. |
+| Üksik või vahemik | Sisestage väljale **Alates** konto nimi või klõpsake nuppu **Sirvi** ![Sirvi](media/browse.gif "Sirvimine") konto sirvimiseks. Vahemiku valimiseks sisestage väärtus või sirvige seda väljal **Kuni**. |
 | Dimensiooniväärtuste kogum | Sisestage dimensiooniväärtuste kogumi nimi väljale **Nimi**. Kogumi loomiseks, muutmiseks, kopeerimiseks või kustutamiseks klõpsake suvandit **Dimensiooniväärtuste kogumite haldamine**. Väli **Valem** täidetakse valemiga lahtrist **Link finantsdimensioonidele** readefinitsioonis määratud dimensiooniväärtuse puhul. |
 | Kontode summeerimine   | Sisestage kontode summeerimise dimensioon väljale **Nimi** või sirvige seda sellel väljal. Väli **Vorming** asustatakse valemiga lahtris **Link finantsdimensioonidele** aruande definitsiooni selle konto summeerimise puhul. |
 

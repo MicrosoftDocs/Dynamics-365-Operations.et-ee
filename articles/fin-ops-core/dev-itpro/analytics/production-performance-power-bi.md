@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0dc71f819f132b91fe153f83089eab24fa33173a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 661617ea7e51ac5cacdd5a08ee52f6a6e43b44be
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772484"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686682"
 ---
 # <a name="production-performance-power-bi-content"></a>Tootmisjõudluse Power BI sisu
 
@@ -66,7 +65,7 @@ Järgmises tabelis antakse ülevaade sisalduvatest visualiseeringutest.
 
 Järgmises tabelis on näidatud peamised koondmõõdikud, mida kasutatakse Power BI sisu alusena.
 
-| Üksus                   | Peamised koondmõõtmised  | Finance and Operationsi andmeallikas | Väli              |
+| Üksus                   | Peamised koondmõõtmised  | Rakendustekomplekti Finance and Operations andmeallikas | Field              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

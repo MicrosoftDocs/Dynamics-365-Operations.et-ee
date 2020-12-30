@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe68f926848c86843be04977f58d89e7a54509b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143876"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694661"
 ---
 # <a name="configure-the-global-address-book"></a>Globaalse aadressiraamatu konfigureerimine
 
@@ -33,10 +32,10 @@ Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on
 
 1. Avage navigeerimispaanil **Moodulid > Organisatsiooni haldus > Globaalne aadressiraamat > Globaalse aadressiraamatu parameetrid**.
 2. Valige väljal **Nime järjestus** nimede kuvamise viis.
-3. Suvandis **Kustuta pooled, kellel pole rolle**valige, kas soovite kustutada pooled, kellele pole rolli määratud.
-4. Suvandis **Kasuta duplikaadi kontrolli**valige, kas soovite kontrollida duplikaatkirjeid.
-5. Suvandis **Kuva DUNS-number aadressidel**valige, kas soovite kuvada DUNS-numbrit aadressidel.
-6. Suvandis **Otsi unikaalset DUNS-numbrit**valige, kas soovite otsida unikaalset DUNS-numbrit.
+3. Suvandis **Kustuta pooled, kellel pole rolle** valige, kas soovite kustutada pooled, kellele pole rolli määratud.
+4. Suvandis **Kasuta duplikaadi kontrolli** valige, kas soovite kontrollida duplikaatkirjeid.
+5. Suvandis **Kuva DUNS-number aadressidel** valige, kas soovite kuvada DUNS-numbrit aadressidel.
+6. Suvandis **Otsi unikaalset DUNS-numbrit** valige, kas soovite otsida unikaalset DUNS-numbrit.
 7. Valige suvand väljal **Osapool** .
 8. Valige suvand väljal **Klient** .
 9. Valige suvand väljal **Hankija** .

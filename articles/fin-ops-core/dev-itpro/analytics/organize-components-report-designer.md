@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185286"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685807"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Aruande komponentide korraldamine aruandekoosturis
 
@@ -50,7 +49,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 ### <a name="create-a-report-group"></a>Aruandegrupi loomine
 
 1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
-2. Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp](media/report-group.gif "Aruandegrupp").
+2. Klõpsake menüüs **Fail** valikuid **Uus** &gt; **Aruandegrupi definitsioon** uue aruandegrupi avamiseks vaaturi aknas. Teine võimalus on klõpsata tööriistaribal nuppu **Aruandegrupp** ![Aruandegrupp](media/report-group.gif "Aruanderühm")
 3. Klõpsake vahekaarti **Aruandegrupp**. Eraldi aruande definitsioonide teabe tühistamiseks selle aruande loomise puhul märkige ruut **Ettevõtte, üksikasjade ja kuupäeva sätete tühistamine** eraldi aruande definitsioonidest. Ettevõtte nime, üksikasjataseme, tinglikkuse seadistuse ja kuupäeva teave sisestatakse automaatselt, kuid saate endiselt värskendusi teha.
 4. Mitme arvestusvaluutasid näitava aruande koostamiseks märkige ruut **Kaasa kõik aruandlusvaluutad**. Seejärel pääsete mitmesse vaatesse, klõpsates aruande vaatamisel veebivaaturis nuppu **Valuuta**.
 5. Aruandegruppi kaasatavate aruannete valimiseks klõpsake väljal **Grupi aruanded** valikut **Lisa**. Mitme aruande valimiseks dialoogiboksis **Lisa** hoidke aruannete valimisel all klahvi Ctrl. Kui olete aruannete valimise lõpetanud, klõpsake **OK**.
@@ -61,7 +60,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
 2. Aruandegrupi muutmiseks topeltklõpsake.
 3. Tehke vahekaardil **Aruandegrupp** soovitud muudatused.
-4. Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks. Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta](media/save.gif "Salvesta").
+4. Klõpsake menüüs **Fail** käsku **Salvesta** muudetud aruandegrupi salvestamiseks. Teine võimalus on klõpsata tööriistaribal nuppu **Salvesta** ![Salvesta](media/save.gif "Salvesta")
 
 > Kui olete plaaninud aruanded määratud vahemikel koostamiseks, saate need sätted tühistada ja aruande kohe luua.
 
@@ -69,7 +68,7 @@ Saate grupeerida aruande definitsioone korraga mitme aruande loomiseks. Aruandeg
 
 1. Klõpsake aruandekoosturi navigeerimispaanil valikut **Aruandegrupid**.
 2. Avage loodav aruandegrupp.
-3. Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne](media/generate-report.gif "Loo aruanne").
+3. Klõpsake aruannete loomiseks nuppu **Loo aruanne** ![Loo aruanne](media/generate-report.gif "Aruande loomine")
 
 ### <a name="delete-a-report-group"></a>Aruandegrupi kustutamine
 

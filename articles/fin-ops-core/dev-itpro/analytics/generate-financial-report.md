@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181837"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688313"
 ---
 # <a name="generate-financial-reports"></a>Finantsaruannete loomine
 
@@ -98,7 +97,7 @@ Aruande graafiku kustutamiseks peate olema aruande graafiku omanik või teil pea
 
 Kui te ei sisesta kõikide aruandesse kaasatud ettevõtete puhul nõutavaid mandaate, kuvatakse aruande graafiku salvestamisel järgmine teade: „Peate sisestama mandaadid sellesse aruande graafikusse kaasatud ettevõtete puhul. Valige mandaatide sisestamiseks nupp Õigused.”
 
-Näiteks Phyllis logib oma sisselogimisandmete ja parooliga Ettevõttesse A sisse. Ta loob mitme ettevõtte andmete kogumiseks aruandluspuu definitsiooni kasutava aruande graafiku. Aruandegraafiku salvestamisel palutakse Phyllisel sisestada teiste aruandluspuu definitsioonis määratud ettevõtete mandaadid. Mandaatide aegumisel ei looda aruande graafikus olevaid mõjutatud aruandeid kuni mandaatide värskendamiseni. Lubade värskendamise viitamiseks kuvatakse aruannete järjekorras teade. Aruande graafik nurjub mis tahes järgmiste asjaolude korral (kuna need nõuavad mandaate).
+Näiteks logib kasutaja oma sisselogimisandmete ja parooliga Ettevõttesse A sisse. Kasutaja loob mitme ettevõtte andmete kogumiseks aruandluspuu definitsiooni kasutava aruande graafiku. Aruandegraafiku salvestamisel palutakse kasutajal sisestada teiste aruandluspuu definitsioonis määratud ettevõtete mandaadid. Mandaatide aegumisel ei looda aruande graafikus olevaid mõjutatud aruandeid kuni mandaatide värskendamiseni. Lubade värskendamise viitamiseks kuvatakse aruannete järjekorras teade. Aruande graafik nurjub mis tahes järgmiste asjaolude korral (kuna need nõuavad mandaate).
 
 - Uus ettevõte on lisatud aruandluspuusse üksiku aruande puhul.
 - Aruanderühmas olevat aruannet on muudetud.

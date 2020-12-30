@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249114"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701672"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
@@ -112,15 +112,18 @@ Saate lehele **Hankija arvete taastamine** juurdepääsu ainult siis, kui teile 
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Hankija arvete töövoo oleku lähtestamine olekult Parandamatu olekule Mustand
 
-Taastamatu tõrke tõttu peatatud töövoo eksemplaril on töövoo olekuks **Parandamatu**. Kui hankija arve töövoo olek on **Taastamatu**, saate lähtestada selle olekusse **Mustand**, valides suvandi **Tagasikutsumine**. Seejärel saate hankija arvet redigeerida. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Hankija arve töövoo mustandi olekule lähtestamine** sisse lülitatud.
+Taastamatu tõrke tõttu peatatud töövoo eksemplaril on töövoo olekuks **Parandamatu**. Kui hankija arve töövoo olek on **Taastamatu**, saate lähtestada selle olekusse **Mustand**, valides suvandi **Tagasikutsumine**. Seejärel saate hankija arvet redigeerida. See funktsioon on saadaval, kui parameeter **Hankija arvete töövoo oleku lähtestamine olekult Parandamatu olekule Mustand** lehel **Funktsioonihaldus** on sisse lülitatud.
 
 Saate kasutada lehte **Töövoo ajalugu**, et lähtestada töövoo olekuks **Mustand**. Saate avada selle lehe jaotisest **Hankija arve** või navigeerides **Üldine > Päringud > Töövoog**. Töövoo oleku lähtestamiseks olekusse **Mustand**, valige **Tagasikutsumine**. Võite lähtestada töövoo oleku mustandiks ka valides tegevuse **Tagasikutsumine** lehel **Hankija arve** või **Ootel hankija arved**. Pärast töövoo olekule **Mustand** lähtestamist muutub see lehel **Hankija arve** redigeerimise jaoks kättesaadavaks.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Arve kogusumma kuvamine lehel Ootel hankija arved
+Saate vaadata arve kogusummat lehel **Ootel hankija arved**, lubades parameetri **Kuva arve kogusumma ootel hankija arvete loendis** lehel **Ostureskontro parameetrid**. 
 
 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Hankija arve poliitikate seadistamine](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Saate häälestada hankija arve poliitikaid.](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Arve põhiandmed AP-süsteemis, kasutades hankija arvet](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Arve põhiandmed ostureskontrosse kinnitamise töölehe abil](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Arve põhiandmed ostureskontro süsteemi arvete kausta abil](tasks/key-invoice-data-into-ap-system-invoice-pool.md)

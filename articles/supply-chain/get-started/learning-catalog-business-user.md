@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 741c8af7eaabe23c03546daddd0a9a422146f575
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: c3fc8cf49b62515f41712e594076c31ae5d7654b
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793559"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668977"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Õppekataloog Dynamics 365 Supply Chain Managementi kasutajatele
 
@@ -50,6 +50,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Toodete ja varude konfigureerimine ja haldamine Dynamics 365 Supply Chain Managementis](https://docs.microsoft.com/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Tooteteave on tarneahela ja jaemüügirakenduste alus kõigi valdkondade lõikes. Mitmesugustes ärilahenduse moodulites on vajalik tootepõhine teave ja konfiguratsioon, et hallata toodete, tooteperede, koosluse või tootekategooriatega seotud äriprotsesse. Varude aruanded näitavad mitmel viisil, kui palju varusid teil on, ning selgitavad, kuidas laoinvesteeringuid tõhusamalt kasutada. Koondplaneerimine aitab teil eelmääratud tegurite põhjal plaanimist sujuvamaks muuta, et saaksite tõhusalt plaanida, milliseid materjale on vaja osta, üle kanda või toota. | Tasuta iseläbitav internetipõhine õppetee | 14 tundi |
 | [Hanke ja hankijate konfigureerimine ja haldamine Dynamics 365 Supply Chain Managementis](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Hankijate leidmise ja nendega koostöötamise protsess, toodete ostmine ning kaupade ja teenuste kvaliteedi tagamine on kõik olulised tegurid, mis mõjutavad ettevõtte mainet ja edukust. | Tasuta iseläbitav internetipõhine õppetee | 14 tundi |
 | [Müügi ja klientide konfigureerimine ning haldamine Dynamics 365 Supply Chain Managementis](https://docs.microsoft.com/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) | Klientidega töötamise protsess, müügiprotsessi töötsükli mõistmine ja müügilepingute koostamine on kõik olulised asjad, mis mõjutavad ettevõtte edukust. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
+| [Koondplaneerimine teenuses Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/master-planning-supply-chain-management/) | Koondplaneerimine võimaldab ettevõtetel kindlaks määrata ja tasakaalustada toormaterjalid ning vajalikud võimsused ettevõtte tulevikueesmärkide täitmiseks. Koondplaneerimisel hinnatakse, millised toormaterjalid ja võimsused on praegu saadaval ja millised toormaterjalid ja võimsused on tootmise lõpetamiseks vajalikud. Näiteks määrarab see kindlaks selle, mida tuleb toota, osta, üle kanda või puhvervaruna kõrvale panna, enne kui tootmise saab lõpule viia. | Tasuta iseläbitav internetipõhine õppetee | 5 tundi |
 | [Laohalduse konfigureerimine ja sellega töötamine Dynamics 365 for Finance and Operationsis](https://docs.microsoft.com/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Dynamics 365 Supply Chain Managementi laohaldus aitab laoprotsesse optimeerida ja sujuvamaks muuta vastavalt teie vajadustele ning annab ülevaate teie varudest ja tööriistadest, mis aitavad suurendada klientide rahulolu ja vähendada kulusid. | Tasuta iseläbitav internetipõhine õppetee | 8.5 tundi |
 | [Transpordihalduse konfigureerimine ja sellega töötamine Dynamics 365 Supply Chain Managementis](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Transpordihalduse moodul rakenduses Dynamics 365 Supply Chain Management aitab teil leida kõige tõhusama viisi oma klientidele kaupade tarnimiseks. Transpordihalduse moodul arvutab kõige soodsama ja kiirema viisi kaupade tarnimiseks ning võimaldab teil tuvastada hankija- ja marsruudilahendusi sissetulevate ning väljaminevate tellimuste jaoks. | Tasuta iseläbitav internetipõhine õppetee | 3 tundi |
 | [Töö varahaldusega rakenduses Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Varahaldus on lisandmoodul rakendusele Dynamics 365 Supply Chain Management, mida kasutatakse teie ettevõtte igapäevastes toimingutes kasutatavate varade haldamiseks. Mõned näited seda tüüpi varadest on masinad, tootmisseadmed ja kahveltõstukid. | Tasuta iseläbitav internetipõhine õppetee | 12.5 tundi |

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b5534c9ed0ad6cab0bc827ff626bf65a34f9df08
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 9aa019e20b218fdaad4659fa65d9df629069204b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138942"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680730"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Lükka edasi elementide käivitamise järjestus ER-vormingus
 
@@ -134,7 +133,7 @@ Vaadake üle ER mudeli vastendamise komponendi sätted, mis on konfigureeritud j
 
 ### <a name="review-the-imported-format"></a>Vaadake üle imporditud vorming
 
-1. Lehel **Konfiguratsioonid** valige konfiguratsioonipuus konfiguratsioon**Vorming edasilükatud elementidega tutvumiseks**.
+1. Lehel **Konfiguratsioonid** valige konfiguratsioonipuus konfiguratsioon **Vorming edasilükatud elementidega tutvumiseks**.
 2. Valige **Koostaja**, et vaadata üle vormingu üksikasjad.
 3. Valige **Üksikasjade näitamine**.
 4. Vaadake üle ER-vormingu komponentide sätted, mis on konfigureeritud looma väljaminevat dokumenti tekstivormingus, mis sisaldab maksude kannete üksikasju.

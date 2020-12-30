@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 210231bb442928674b490d83f50bf787d7bfa60c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181009"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688463"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Üksuse andmete avamine Excelis ja andmete värskendamine Exceli lisandmooduliga
 
@@ -33,12 +32,12 @@ See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid see
 Kui avate üksuse andmed Excelis, saate neid kiiresti ja hõlpsasti vaadata ja redigeerida, kasutades Exceli lisandmoodulit. See lisandmoodul nõuab rakendust Microsoft Excel 2016.
 
 > [!NOTE]
-> Kui teie Microsoft Azure Active Directory (Azure AD) rentnik konfigureeritakse kasutama teenust Active Directory Federation Services (AD FS), peate veenduma, et Office’i 2016. aasta mai värskendus oleks rakendatud, nii et Exceli lisandmoodul saab teid korrektselt sisse logida.
+> Kui teie Microsoft Azure Active Directory (Azure AD) rentnik konfigureeritakse kasutama teenust Active Directory Federation Services (AD FS), peate veenduma, et Office’i 2016. aasta mai värskendus oleks rakendatud, nii et Exceli lisandmoodul saab teid korrektselt sisse logida.
 
 Exceli lisandmooduli kasutamise kohta lisateabe saamiseks vaadake lühivideot [Exceli malli loomine päise ja reamustrite jaoks rakenduses Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Avage üksuse andmed Excelis rakenduse Finance and Operations käivitamisel
-1. Valige rakenduse Finance and Operations lehel käsk **Ava Microsoft Office’is**.
+## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Üksuse andmete avamine Exceli kaudu Finance and Operationsist käivitamisel
+1. Valige lehel Finance and Operations suvand **Ava rakenduses Microsoft Office**.
 
     Kui lehe juurandmete allikas (tabel) on sama kui mis tahes üksuste juurandmeallikas, luuakse lehe jaoks vaikesuvandid **Ava Excelis**. Suvandid **Ava Excelis** on leitavad sagedasti kasutatavatel lehtedel, nagu **Kõik hankijad** ja **Kõik kliendid**.
  
@@ -54,7 +53,7 @@ Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et
 2. Office Store’is otsige märksõna **Dynamics** ja seejärel valige käsk **Lisa**, mis asub valiku **Microsoft Dynamics Office’i lisandmoodul** (Exceli lisandmoodul) kõrval.
 3. Kui käivitate Exceli lisandmooduli esimest korda, valige käsk **Usalda seda lisandmoodulit**, et lubada Exceli lisandmooduli käivitamine. Exceli lisandmoodul töötab Exceli akna paremal küljel olevas paanis.
 4. Valige suvand **Serveriteabe lisamine**, et avada paan **Suvandid**.
-5. Kopeerige brauseris URL rakenduse Finance and Operations sihteksemplari URL, kleepige see väljale **Serveri URL** ja seejärel kustutage kõik, mis järgneb hostinimele. Tulemuseks saadav URL peaks sisaldama ainult hostinime.
+5. Kopeerige brauseris URL rakenduse Finance and Operations sihteksemplari URL, kleepige see väljale **Server URL** ja seejärel kustutage kõik, mis järgneb hostinimele. Tulemuseks saadav URL peaks sisaldama ainult hostinime.
 
     Näiteks kui URL on `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, kustutage kõik peale `https://xxx.dynamics.com`.
 

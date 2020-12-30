@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58381f491cda199d77e555e5d3da04714b6a5f8f
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138919"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680706"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Lükka edasi XML-elementide käivitamine ER-vormingus
 
@@ -152,7 +151,7 @@ Vaadake üle ER mudeli vastendamise komponendi sätted, mis on konfigureeritud j
 
     - **Aruande\\teate\\päise** element ei pea olema seotud allikaga, et luua üksik sõlm väljaminevas dokumendis.
     - **ExecutionDateTime** atribuut loob päisesõlme lisamisel kuupäeva ja kellaaja (sh millisekundid).
-    - **Aruande\\teate\\kirje** element on seotud loendiga**mudel.Andmed.Loend**, et luua üks kirjesõlm iga kirje puhul seotud loendist.
+    - **Aruande\\teate\\kirje** element on seotud loendiga **mudel.Andmed.Loend**, et luua üks kirjesõlm iga kirje puhul seotud loendist.
     - **TaxAmount** atribuut on seotud loendiga **mudel.Andmed.Loend.Väärtus** (mis kuvatakse kujul **\@. Väärtus** suhtelise tee vaates), et luua praeguse maksukande maksusumma.
     - **RunningTotal** atribuut on maksusummade jooksva kogusumma kohatäide. Praegu ei ole sellel atribuudil väljundit, kuna selle jaoks ei ole konfigureeritud ega vaikimisi määratud väärtust.
     - **ExecutionDateTime** atribuut loob praeguse kande töötlemisel selles aruandes kuupäeva ja kellaaja (sh millisekundid).

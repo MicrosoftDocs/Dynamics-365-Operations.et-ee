@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c19fef3e62eec48e66f7cec824afee3ebb25209e
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088216"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683011"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroonilise aruandluse konfiguratsioonide kohandamine elektroonilise dokumendi loomiseks
 
@@ -65,7 +64,7 @@ Elektroonilise aruandluse funktsionaalse konsultandi või elektroonilise aruandl
 2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Elektroonilise aruandluse parameetrid**.
 3. Valige lehel **Elektroonilise aruandluse parameetrid** vahekaardil **Üldine** suvandi **Luba kujundusrežiim** sätteks **Jah**.
 4. Valige vahekaardi **Manused** väljal **Konfiguratsioonid** suvand **Fail**.
-5. Valige väljadel **Töö arhiiv** , **Ajutine** , **Alus** ja **Muud** tüüp **Fail**.
+5. Valige väljadel **Töö arhiiv**, **Ajutine**, **Alus** ja **Muud** tüüp **Fail**.
 
 Lisateavet ER-parameetrite kohta vt jaotisest [ER-raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md).
 
@@ -107,7 +106,7 @@ Oma praegusesse Finance'i eksemplari standardsete ER-i konfiguratsioonide lisami
 3. Valige lehel **Konfiguratsioonihoidlad** hoidla tüübiga **Globaalne** ja seejärel valige käsk **Ava**. Kui teilt küsitakse autoriseerimist ühenduse loomiseks Regulatory Configuration Service'iga, järgige autoriseerimise juhiseid.
 4. Valige lehel **Konfiguratsioonihoidla** vasakpoolselt paanilt konfiguratsioonipuult vormingu **PEPPOL-i müügiarve** konfiguratsioon.
 5. Kiirkaardil **Versioonid** valige versioon **11.2.2**.
-6. Valige käsk **Impordi** , et laadida valitud versioon globaalsest hoidlast.
+6. Valige käsk **Impordi**, et laadida valitud versioon globaalsest hoidlast.
 
 ![Konfiguratsioonihoidla leht](./media/er-quick-start3-import-solution1.png)
 
@@ -127,12 +126,12 @@ Pange tähele, et lisaks valitud ER-vormingule **PEPPOL-i müügiarve** impordit
 
 Et simuleerida olekut, milles ER-i konfiguratsioonid oleksid praeguses Finance'i eksemplaris, kui impordite **PEPPOL-i müügiarve** ER-vormingu versiooni **11.2.2** minevikus (nt 7. augustil 2019), toimige järgmiselt.
 
-- Valige toimingupaanil **Kustuta** , et kustutada kõik ER-i konfiguratsioonid, mis avaldati pärast 7. augustit 2019. Alles peaksid jääma ainult konfiguratsioonid **Arvemudel** , **Arve mudeli vastendus** (algselt nimega **Kliendi arve mudeli vastendus** ), **UBL-i müügiarve** ja **PEPPOL-i müügiarve**.
-- Kiirkaardile **Versioonid** alles jäänud ER-i konfiguratsioonide puhul valige **Kustuta** , et kustutada kõik ER-i konfiguratsioonide versioonid, mis avaldati pärast 7. augustit 2019.
+- Valige toimingupaanil **Kustuta**, et kustutada kõik ER-i konfiguratsioonid, mis avaldati pärast 7. augustit 2019. Alles peaksid jääma ainult konfiguratsioonid **Arvemudel**, **Arve mudeli vastendus** (algselt nimega **Kliendi arve mudeli vastendus**), **UBL-i müügiarve** ja **PEPPOL-i müügiarve**.
+- Kiirkaardile **Versioonid** alles jäänud ER-i konfiguratsioonide puhul valige **Kustuta**, et kustutada kõik ER-i konfiguratsioonide versioonid, mis avaldati pärast 7. augustit 2019.
 
 Seejärel kinnitage, et konfiguratsioonipuus oleksid saadaval järgmised konfiguratsioonid.
 
-- **Arvemudeli** ER-i andmemudeli konfiguratsioon (algselt nimega **Kliendi arve mudel** ).
+- **Arvemudeli** ER-i andmemudeli konfiguratsioon (algselt nimega **Kliendi arve mudel**).
 
     - Versioon 11 sisaldab [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) ER-i komponendi versiooni 10, mis tähistab arveldamise äridomeeni andmestruktuuri. See ER-i konfiguratsioon on imporditud importimiseks valitud **PEPPOL-i müügiarve** ER-vormingu eekäijana.
     - Versioon 50 sisaldab andmemudeli ER-i komponendi versiooni 31. See ER-i konfiguratsioon imporditi 7. augusti 2019 **Arve mudeli vastenduse** ER-i mudeli vastenduse konfiguratsiooni versiooni eelkäijana.
@@ -142,7 +141,7 @@ Seejärel kinnitage, et konfiguratsioonipuus oleksid saadaval järgmised konfigu
     > [!TIP]
     > Kui teile ei kuvata selle andmemudeli versiooni 50, avage globaalne hoidla ja importige **Arve mudeli vastenduse** ER-i konfiguratsiooni versioon 50.19.
 
-- **Arvemudeli vastenduse** ER-i mudeli vastenduse konfiguratsioon (algselt nimega **Kliendi arve mudeli vastendus** ).
+- **Arvemudeli vastenduse** ER-i mudeli vastenduse konfiguratsioon (algselt nimega **Kliendi arve mudeli vastendus**).
 
     - Versioon 50.19 imporditi **Arvemudeli** ER-i andmemudeli konfiguratsiooni versiooni 50 uusima juurutusena. See sisaldab kahte ER-i komponentide [mudeli vastendust](general-electronic-reporting.md#data-model-and-model-mapping-components), mis kirjeldavad, kuidas rakenduse andmeid sisestatakse andmemudelisse käitusajal.
 
@@ -258,7 +257,7 @@ Lisateabe saamiseks vt [Vabas vormis arve loomine](../../../finance/accounts-rec
 Praegusesse Finance'i eksemplari järgmise kohanduse tegemiseks saate kasutada funktsiooni [Kohandatud väli](../../fin-ops/get-started/user-defined-fields.md).
 
 - Kohandage andmebaasi struktuuri, lisades uue kohandatud andmebaasi välja, mis talletab kõikide klientide föderaalsmaksu ID-koode.
-- Kohandage lehte **Klient** , lisades uue andmesisestusvälja, mida saab kasutada maksukoodi väärtuse sisestamiseks uuele kohandatud andmebaasi väljale.
+- Kohandage lehte **Klient**, lisades uue andmesisestusvälja, mida saab kasutada maksukoodi väärtuse sisestamiseks uuele kohandatud andmebaasi väljale.
 
 Kohandamise tegemiseks toimige järgmiselt.
 
@@ -280,7 +279,7 @@ Kohandamise tegemiseks toimige järgmiselt.
 9. Väljal **Tüüp** valige **Tekst**.
 10. Väljale **Pikkus** sisestage **20**.
 11. Valige käsk **Salvesta**.
-12. Kuvatavas teateaknas valige **Jah** , et kinnitada, kas soovite luua uue välja kirje **FederalTaxID** tabelisse **Kliendid**.
+12. Kuvatavas teateaknas valige **Jah**, et kinnitada, kas soovite luua uue välja kirje **FederalTaxID** tabelisse **Kliendid**.
 13. Valige **Sisesta** välja **FederalTaxID\_Kohandatud** <a name="insert_custom_field"></a>lisamiseks praegusele lehele.
 
     ![Leht Kõik kliendid](./media/er-quick-start3-create-new-field.gif)
@@ -307,7 +306,7 @@ Elektroonilise aruandluse funktsionaalse konsultandi rolli kasutajana saate kuju
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Valige lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvand **Kliendi arve mudel**.
 3. Valige toimingupaanilt suvand **Loo konfiguratsioon**.
-4. Valige dialoogiboksi rippmenüü väljal **Uus** suvand **Tuleta nimest: kliendi arve mudel, Microsoft** , et näidata, et teie uus kohandatud ER-i andmemudeli konfiguratsioon peaks põhinema ER-i andmemudeli konfiguratsioonil.
+4. Valige dialoogiboksi rippmenüü väljal **Uus** suvand **Tuleta nimest: kliendi arve mudel, Microsoft**, et näidata, et teie uus kohandatud ER-i andmemudeli konfiguratsioon peaks põhinema ER-i andmemudeli konfiguratsioonil.
 5. Tippige väljale **Nimi** tekst **Arvemudel (Litware)**.
 6. Uue ER-i konfiguratsiooni lisamiseks valige **Loo konfiguratsioon**.
 
@@ -320,7 +319,7 @@ Nüüd saate kasutada ER-i andmemudeli kujundajat **Arvemudeli (Litware)** ER-i 
 Peate muutma oma kohandatud andmemudelit, lisades uue välja föderaalmaksu ID-koodi väärtuse sisestamiseks. See kood on kliendiandmete osa igas ER-vormingus, mis kasutab seda andmemudelit andmeallikana.
 
 1. Valige lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvand **Arvemudel (Litware)**.
-2. Kiirkaardil **Versioonid** valige valitud ER-i andmemudeli konfiguratsiooni versioon **50.1** , mille olek on **Mustand**.
+2. Kiirkaardil **Versioonid** valige valitud ER-i andmemudeli konfiguratsiooni versioon **50.1**, mille olek on **Mustand**.
 3. Valige toimingupaanil **Kujundaja** valitud konfiguratsiooni versioonile.
 4. Valige lehe **Andmemudeli kujundaja** andmemudeli puus **Kliendi teave (klient)**.
 5. Valige suvand **Uus**.
@@ -357,7 +356,7 @@ Elektroonilise aruandluse arendaja rolli kasutajana saate kujundada oma kohandat
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Kliendi arve mudel** ja seejärel valige **Kliendi arve mudeli vastendus**.
 3. Valige toimingupaanilt suvand **Loo konfiguratsioon**.
-4. Valige dialoogiboksi rippmenüü väljal **Uus** suvand **Tuleta nimest: kliendi arve mudeli vastendus, Microsoft** , et näidata, et teie uus kohandatud ER-i mudeli vastenduse konfiguratsioon peaks põhinema ER-i mudeli vastenduse konfiguratsioonil.
+4. Valige dialoogiboksi rippmenüü väljal **Uus** suvand **Tuleta nimest: kliendi arve mudeli vastendus, Microsoft**, et näidata, et teie uus kohandatud ER-i mudeli vastenduse konfiguratsioon peaks põhinema ER-i mudeli vastenduse konfiguratsioonil.
 5. Tippige väljale **Nimi** tekst **Arve mudeli vastendus (Litware)**.
 6. Väljal **Sihtmudel** valige **Arvemudel (Litware)**.
 
@@ -380,10 +379,10 @@ Peate muutma oma kohandatud mudelivastendust ja määratlema, kuidas kohandatud 
     ![Leht „Mudelist andmeallikasse vastendamine”](./media/er-quick-start3-select-customer-mapping.png)
 
 5. Valige **Kujundaja**.
-6. Laiendage lehe **Mudelivastenduse kujundaja** paanil **Andmeallikad** andmeallikat **CustInvoiceJour** , mis tähistab rakenduse tabelit **CustInvoiceJour**.
-7. Laiendage jaotises **CustInvoiceJour** suvandit **Seosed** , et vaadata läbi mitu-ühele (N:1) tüüpi seoste loend tabeli **CustInvoiceJour** jaoks.
-8. Laiendage jaotises **CustInvoiceJour** \> **Seosed** suvandit **Kliendid (CustTable)** , et pääseda juurde tabeli **Kliendid (CustTable)** väljade ja seoste juurde.
-9. Valige andmeallika väli **FederalTaxID\_Kohandatud** , mille [eelnevalt](#insert_custom_field) rakendasite.
+6. Laiendage lehe **Mudelivastenduse kujundaja** paanil **Andmeallikad** andmeallikat **CustInvoiceJour**, mis tähistab rakenduse tabelit **CustInvoiceJour**.
+7. Laiendage jaotises **CustInvoiceJour** suvandit **Seosed**, et vaadata läbi mitu-ühele (N:1) tüüpi seoste loend tabeli **CustInvoiceJour** jaoks.
+8. Laiendage jaotises **CustInvoiceJour** \> **Seosed** suvandit **Kliendid (CustTable)**, et pääseda juurde tabeli **Kliendid (CustTable)** väljade ja seoste juurde.
+9. Valige andmeallika väli **FederalTaxID\_Kohandatud**, mille [eelnevalt](#insert_custom_field) rakendasite.
 10. Laiendage paanil **Andmemudel** suvandit **Kliendi teave (klient)** ja valige andmemudeli väli **FederalTaxID\_Litware**.
 11. Valige **Seo**.
 
@@ -406,7 +405,7 @@ Versiooni 50.19.1 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja vers
 ![Versioon 50.19.1 on lõpule viidud lehel „Konfiguratsioonid”](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
-> Toetatud konfiguratsiooni [elutsükkel](general-electronic-reporting-manage-configuration-lifecycle.md) ei hõlma andmebaasi muudatuste elutsüklit. Kui ekspordite konfiguratsiooni **Arve mudeli vastendus (Litware)** versiooni 50.19.1 praegusest Finance'i eksemplarist ja proovite seda importida teise eksemplari, mille tabel **CustTable** ei sisalda kohandatud välja **FederalTaxID\_Kohandatud** , ilmneb erand. Erand ütleb, et imporditud ER-i konfiguratsioon ei ühildu Finance'i sihteksemplari metaandmetega.
+> Toetatud konfiguratsiooni [elutsükkel](general-electronic-reporting-manage-configuration-lifecycle.md) ei hõlma andmebaasi muudatuste elutsüklit. Kui ekspordite konfiguratsiooni **Arve mudeli vastendus (Litware)** versiooni 50.19.1 praegusest Finance'i eksemplarist ja proovite seda importida teise eksemplari, mille tabel **CustTable** ei sisalda kohandatud välja **FederalTaxID\_Kohandatud**, ilmneb erand. Erand ütleb, et imporditud ER-i konfiguratsioon ei ühildu Finance'i sihteksemplari metaandmetega.
 
 ### <a name="customize-the-format-configuration"></a>Vormingu konfiguratsiooni kohandamine
 
@@ -417,9 +416,9 @@ Elektroonilise aruandluse funktsionaalse konsultandi rolli kasutajana saate kuju
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Laiendage lehe **Konfiguratsioonid** vasakpoolsel paanil konfiguratsioonipuus suvandit **Kliendi arve mudel** \> **UBL-i müügiarve** ja seejärel valige **PEPPOL-i müügiarve**.
 3. Valige toimingupaanilt suvand **Loo konfiguratsioon**.
-4. Valige dialoogiboksi rippmenüü väljal **Uus** suvand **Tuleta nimest: PEPPOL-i müügiarve, Microsoft** , et näidata, et teie uus kohandatud ER-vormingu konfiguratsioon peaks põhinema ER-vormingu konfiguratsioonil.
+4. Valige dialoogiboksi rippmenüü väljal **Uus** suvand **Tuleta nimest: PEPPOL-i müügiarve, Microsoft**, et näidata, et teie uus kohandatud ER-vormingu konfiguratsioon peaks põhinema ER-vormingu konfiguratsioonil.
 5. Tippige väljale **Nimi** tekst **PEPPOL-i müügiarve (Litware)**.
-6. Valige väljal **Andmemudel** suvand **Arvemudel (Litware)** , et kasutada oma kohandatud andmemudelit ja mudelivastenduse komponente.
+6. Valige väljal **Andmemudel** suvand **Arvemudel (Litware)**, et kasutada oma kohandatud andmemudelit ja mudelivastenduse komponente.
 
     > [!NOTE]
     > See etapp on väga oluline. Kui jätate selle välja, ei saa te konfigureeritud vormingus kasutada kohandatud andmemudelit.
@@ -443,7 +442,7 @@ Peate muutma oma kohandatud vormingut, lisades uue vorminguelemendi arveldatud k
 4. Laiendage vormingupuus suvandit **XMLHeader** \> **Arve** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** ja valige **cbc:ID**.
 5. Valige **Lisa** ja seejärel **XML** \> **Atribuut**.
 6. Sisestage dialoogiboksi **Komponendi atribuut** väljale **Nimi** tekst **FederalTaxID**.
-7. Valige uue vorminguelemendi lisamiseks **OK** , et luua uus XML-atribuut **FederalTaxID** loodud XML-failis.
+7. Valige uue vorminguelemendi lisamiseks **OK**, et luua uus XML-atribuut **FederalTaxID** loodud XML-failis.
 8. Valige vormingupuu jaotises **XMLHeader** \> **Arve** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID** suvand **FederalTaxID**.
 9. Valige **Nihuta üles**.
 
@@ -451,13 +450,13 @@ Peate muutma oma kohandatud vormingut, lisades uue vorminguelemendi arveldatud k
 
 #### <a name="configure-a-custom-format-mapping"></a>Kohandatud vorminguvastenduse konfigureerimine
 
-1. Lehel **Vormingu koostaja** vahekaardil **Vastendamine** laiendage andmeallikat **Arve** , mille tüüp on **Mudel**.
+1. Lehel **Vormingu koostaja** vahekaardil **Vastendamine** laiendage andmeallikat **Arve**, mille tüüp on **Mudel**.
 2. Laiendage jaotises **Arve** suvandit **Kliendi teave (klient)** ja valige **FederalTaxID\_Litware**.
 3. Valige **Seo**.
 
     ![Vormingukujundaja leht](./media/er-quick-start3-customized-format-mapping.png)
 
-4. Valige andmemudel **Arve** , mille tüüp on **Mudel** , ja seejärel valige **Redigeeri**.
+4. Valige andmemudel **Arve**, mille tüüp on **Mudel**, ja seejärel valige **Redigeeri**.
 5. Valige väljal **Versioon** oma kohandatud andmemudeli versioon **1** ja seejärel valige **OK**.
 6. Valige käsk **Salvesta**.
 7. Sulgege **Vormingu kujundaja** leht.
@@ -520,8 +519,8 @@ Selleks, et teie Finance'i eksemplari standardsete ER-i konfiguratsioonide kompl
 2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonipakkujad** paan **Microsoft** ja seejärel valige pakkuja Microsoft hoidlate loendi kuvamiseks **Hoidlad**.
 3. Valige lehel **Konfiguratsioonihoidlad** hoidla tüübiga **Globaalne** ja seejärel valige käsk **Ava**. Kui teilt küsitakse autoriseerimist ühenduse loomiseks Regulatory Configuration Service'iga, järgige autoriseerimise juhiseid.
 4. Valige lehel **Konfiguratsioonihoidla** vasakpoolselt paanilt konfiguratsioonipuult vormingu **PEPPOL-i müügiarve** konfiguratsioon.
-5. Valige kiirkaardil **Versioonid** valitud ER-i konfiguratsiooni versioon **32.6.7** , mis on väljastatud kliendi elektrooniliste arvete toetamiseks vormingus PEPPOL BIS 3. Lisateavet vt [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
-6. Valige käsk **Impordi** , et laadida valitud versioon globaalsest hoidlast alla Finance'i praegusesse eksemplari.
+5. Valige kiirkaardil **Versioonid** valitud ER-i konfiguratsiooni versioon **32.6.7**, mis on väljastatud kliendi elektrooniliste arvete toetamiseks vormingus PEPPOL BIS 3. Lisateavet vt [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
+6. Valige käsk **Impordi**, et laadida valitud versioon globaalsest hoidlast alla Finance'i praegusesse eksemplari.
 
 ![Valitud versioon 32.6.7 lehel „Konfiguratsiooni hoidla”](./media/er-quick-start3-import-solution2.png)
 
@@ -571,7 +570,7 @@ Veenduge, et konfiguratsioonipuus oleksid lõpuks saadaval järgmised ER-i konfi
 3. Kiirkaardil **Versioonid** valige valitud andmemudeli konfiguratsiooni mustandiversioonile **50.2** suvand **Aluse muutmine**.
 4. Kinnitage väljal **Sihtversioon** aluseks oleva ER-i andmemudeli konfiguratsiooni versiooni **206** valik ja seejärel valige **OK**.
 
-    Teie kohandatud ER-i andmemudeli konfiguratsiooni mustandiversiooni numbri **50.2** asemele tuleb **206.2** , mis viitab sellele, et see sisaldab nüüd teie kohandust, mis ühendati uusima aluseks oleva ER-i andmemudeli konfiguratsiooni versiooni (206) muudatustega.
+    Teie kohandatud ER-i andmemudeli konfiguratsiooni mustandiversiooni numbri **50.2** asemele tuleb **206.2**, mis viitab sellele, et see sisaldab nüüd teie kohandust, mis ühendati uusima aluseks oleva ER-i andmemudeli konfiguratsiooni versiooni (206) muudatustega.
 
     > [!NOTE]
     > Aluse muutmise tegevus on tühistatav. Selle aluse muutmise tühistamiseks valige kiirkaardil **Versioonid** mudeli **Arvemudel (Litware)** versioon **50.1** ja seejärel valige **Hangi see versioon**. Versiooni 206.2 numbriks pannakse seejärel uuesti **50.2** ja mustandiversiooni 50.2 sisu vastab versiooni 50.1 sisule.
@@ -589,20 +588,20 @@ Versiooni 206.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versio
 3. Kiirkaardil **Versioonid** valige valitud mudelivastenduse konfiguratsiooni mustandiversioonile **50.19.2** suvand **Aluse muutmine**.
 4. Kinnitage väljal **Sihtversioon** aluseks oleva ER-i mudelivastenduse konfiguratsiooni versiooni **206.132** valik ja seejärel valige **OK**.
 
-    Teie kohandatud ER-i mudelivastenduse konfiguratsiooni mustandiversiooni numbri **50.19.2** asemele tuleb **206.132.2** , mis viitab sellele, et see sisaldab nüüd teie kohandust, mis ühendati uusima aluseks oleva ER-i mudelivastenduse konfiguratsiooni versiooni (206.132) muudatustega.
+    Teie kohandatud ER-i mudelivastenduse konfiguratsiooni mustandiversiooni numbri **50.19.2** asemele tuleb **206.132.2**, mis viitab sellele, et see sisaldab nüüd teie kohandust, mis ühendati uusima aluseks oleva ER-i mudelivastenduse konfiguratsiooni versiooni (206.132) muudatustega.
 
     Pange tähele, et avastati mõned aluse muutmise konfliktid. Nüüd peate need konfliktid käsitsi lahendama.
 
     ![Aluse muutmise konflikti teade lehel „Konfiguratsioonid”](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. Valige toimingupaanil **Kujundaja** ja seejärel valige vastenduste loendist **Kliendi arve**.
-6. Iga aluse muutmise konflikti puhul valige **Säilita oma väärtus** , sest peate säilitama oma kohandatud andmemudeli versiooni numbri igal mainitud komponendil.
+6. Iga aluse muutmise konflikti puhul valige **Säilita oma väärtus**, sest peate säilitama oma kohandatud andmemudeli versiooni numbri igal mainitud komponendil.
 
     ![Aluse muutmise konfliktid lehel „Mudeli vastenduse koostaja”](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Valige **Salvesta** ja sulgege leht **Mudeli vastenduse koostaja**.
 8. Valige vastenduste loendist **Projekti arve**.
-9. Iga aluse muutmise konflikti puhul valige **Säilita oma väärtus** , sest peate säilitama oma kohandatud andmemudeli versiooni numbri igal mainitud komponendil.
+9. Iga aluse muutmise konflikti puhul valige **Säilita oma väärtus**, sest peate säilitama oma kohandatud andmemudeli versiooni numbri igal mainitud komponendil.
 10. Valige **Salvesta** ja sulgege leht **Mudeli vastendused**.
 
     > [!NOTE]
@@ -621,14 +620,14 @@ Versiooni 206.132.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja ve
 3. Kiirkaardil **Versioonid** valige valitud vormingu konfiguratsiooni mustandiversioonile **11.2.2.2** suvand **Aluse muutmine**.
 4. Kinnitage versiooni väljal **Siht** aluseks oleva ER-vormingu konfiguratsiooni versiooni **32.6.7** valik ja seejärel valige **OK**.
 
-    Teie kohandatud ER-vormingu konfiguratsiooni mustandiversiooni numbri **11.2.2.2** asemele tuleb **32.6.7.2** , mis viitab sellele, et see sisaldab nüüd teie kohandust, mis ühendati uusima aluseks oleva ER-vormingu konfiguratsiooni versiooni (32.6.7) muudatustega.
+    Teie kohandatud ER-vormingu konfiguratsiooni mustandiversiooni numbri **11.2.2.2** asemele tuleb **32.6.7.2**, mis viitab sellele, et see sisaldab nüüd teie kohandust, mis ühendati uusima aluseks oleva ER-vormingu konfiguratsiooni versiooni (32.6.7) muudatustega.
 
     Pange tähele, et avastati mõned aluse muutmise konfliktid. Nüüd peate need konfliktid käsitsi lahendama.
 
 5. Valige toimingupaanil valik **Koostaja**.
-6. Iga aluse muutmise konflikti puhul valige **Säilita oma väärtus** , sest peate säilitama oma kohandatud andmemudeli versiooni numbri igal mainitud komponendil.
+6. Iga aluse muutmise konflikti puhul valige **Säilita oma väärtus**, sest peate säilitama oma kohandatud andmemudeli versiooni numbri igal mainitud komponendil.
 7. Valige käsk **Salvesta**.
-8. Valige vahekaardil **Vastendus** andmemudel **Arve** , mille tüüp on **Mudel** , ja seejärel valige **Redigeeri**.
+8. Valige vahekaardil **Vastendus** andmemudel **Arve**, mille tüüp on **Mudel**, ja seejärel valige **Redigeeri**.
 9. Valige väljal **Versioon** oma kohandatud andmemudeli versioon **2** ja seejärel valige **OK**.
 10. Valige käsk **Salvesta**.
 

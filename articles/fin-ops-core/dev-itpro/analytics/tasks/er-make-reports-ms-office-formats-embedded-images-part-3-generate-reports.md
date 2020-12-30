@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143095"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684375"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Manuspiltidega aruannete loomine Office’i vormingus
 
@@ -40,14 +39,14 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
     * Käivitage testimiseks vorming.  
 6. Valige väljal Käibiv tšekivorming väärtus Jah.
 7. Klõpsake nuppu OK.
-    * Vaadake loodud väljund üle. Võtke arvesse, et aruandes on esitatud nii ettevõtte logo kui ka volitatud isiku allkiri. Allkirja pilt võetakse valitud pangakontoga seotud tšeki paigutusekirje andmetüübi väljalt „Konteiner”.  
+    * Vaadake loodud väljund üle. Aruandes on esitatud nii ettevõtte logo kui ka volitatud isiku allkiri. Allkirja pilt võetakse valitud pangakontoga seotud tšeki paigutusekirje andmetüübi väljalt „Konteiner”.  
 8. Laiendage jaotis Eksemplare.
 9. Klõpsake nuppu Redigeeri.
 10. Sisestage väljale Vesimärk tekst Prindi vesimärk kui Tühista.
     * Muutke vesimärgi paigutuse sätet, et kuvada vesimärgi tekst dokumendi genereerimisel Exceli kujunduselemendis.  
 11. Klõpsake valikut Prindi test.
 12. Klõpsake nuppu OK.
-    * Vaadake loodud väljund üle. Võtke arvesse, et vesimärk kuvatakse loodud aruandes vastavalt valitud suvandile.  
+    * Vaadake loodud väljund üle. Vesimärk kuvatakse loodud aruandes vastavalt valitud suvandile.  
 13. Sulgege leht.
 14. Klõpsake toimingupaanil valikut Maksete haldamine.
 15. Klõpsake nuppu Kontrolli.
@@ -56,7 +55,7 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 18. Märkige loendis kõik read.
 19. Klõpsake valikut Tšeki koopia printimine.
     * Käivitage vorming valitud tšekkide uuesti printimiseks.  
-    * Vaadake loodud väljund üle. Pange tähele, et valitud tšekid on uuesti prinditud. Ettevõtte logo ja silte ei prindita, kuna need on esitatakse eelprinditud vormil.  
+    * Vaadake loodud väljund üle. Valitud tšekid on uuesti prinditud. Ettevõtte logo ja silte ei prindita, kuna need on esitatakse eelprinditud vormil.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Imporditud andmemudeli vastenduse muutmine
 1. Sulgege leht.
@@ -67,7 +66,7 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 6. Klõpsake suvandit Mudeli vastendamine andmeallikaga.
 7. Klõpsake valikut Kujundaja.
     * Muudame andmemudeli allkirjaüksuse sidumist, et tuua allkirja pilt failist, mis on manustatud valitud pangakontoga seostatud tšeki paigutusekirjele.  
-8. Lülitage säte Näita üksikasju välja.
+8. Lülitage välja säte Näita üksikasju.
 9. Laiendage puus valik layout.
 10. Laiendage puus valik „layout\signature“.
 11. Valige puus „layout\signature\image = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp“.
@@ -91,7 +90,7 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 4. Klõpsake nuppu Kontrolli.
 5. Klõpsake valikut Prindi test.
 6. Klõpsake nuppu OK.
-    * Vaadake loodud väljund üle. Pange tähele, et dokumendihalduse manusest pärit pilt on esitatud volitatud isiku allkirjana.  
+    * Vaadake loodud väljund üle. Dokumendihalduse manusest pärit pilt on esitatud volitatud isiku allkirjana.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>MS Wordi dokumendi kasutamine imporditud vormingus mallina
 1. Sulgege leht.
@@ -118,5 +117,5 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 21. Klõpsake nuppu Kontrolli.
 22. Klõpsake valikut Prindi test.
 23. Klõpsake nuppu OK.
-    * Vaadake loodud väljund üle. Võtke arvesse, et väljund on loodud manuspiltidega MS Wordi dokumendina, kus on ettevõtte logo, volitatud isiku allkiri ning vesimärgi jaoks valitud tekst.  
+    * Vaadake loodud väljund üle. Väljund on loodud manuspiltidega Wordi dokumendina, kus on ettevõtte logo, volitatud isiku allkiri ning vesimärgi jaoks valitud tekst.  
 

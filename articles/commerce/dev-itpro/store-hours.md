@@ -10,19 +10,18 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 96ae5f33b1ab5fda98da4fc48b1fb883ca4d54b8
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4706432234437d2dc7943fb194cd01004ab7e6b7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024474"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687507"
 ---
 # <a name="create-and-update-store-hours"></a>Kaupluse lahtiolekuaegade loomine ja värskendamine
 
@@ -36,7 +35,7 @@ Erinevate kanalite vahel saab konfigureerida mitu lahtiolekuaega. Need kanalid h
 
 Kui kliendil on teise kaupluse tellimus, saab kassapidaja valida kuupäevad, millal üleskorje on selles poes saadaval. Kaupluse otsing annab viite kuupäevadele ja kaupluse lahtiolekuaegadele. Kassapidaja saab valida kuupäeva ja asukoha ning printida ka üleskorje kviitungi, mis sisaldab kaupluse lahtiolekuaegu.
 
-See funktsioon on saadaval rakenduse Microsoft Dynamics 365 Retail versioonides 8.1.2 ja uuemad.
+See funktsioon on saadaval tarkvara Microsoft Dynamics 365 Retail versioonides 8.1.2 ja uuemad.
 
 ## <a name="configure-store-hours"></a>Konfigureeri lahtiolekuaegu
 

@@ -1,7 +1,7 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent - Core HR (august 2018)
-description: Selles teemas kirjeldatakse funktsioone, mis on kas uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
-author: Darinkramer
+description: Selles teemas kirjeldatakse funktsioone, mis on uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 4f6d0a32807397d5f2c0892061e54c2fed24610b
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 30646de08bd5ea4b2da05bfc38da7edc320a3331
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897760"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690096"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-august-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent - Core HR (august 2018)
 
@@ -33,7 +33,7 @@ Selles teemas kirjeldatakse Dynamics 365 Talent: Core HRi uusi või muutunud fun
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>Aeguvate kirjete vaatamine juhi iseteeninduses
 
-Aeguvaid kirjeid saab vaadata juhi iseteeninduses. Uute suvanditega saate konfigureerida, milline teave on juhtidele vaatamiseks saadaval. Kopeeritavad väljad on järgmised.
+Aeguvaid kirjeid saab vaadata juhi iseteeninduses. Uued suvandid võimaldavad konfigureerida, milline teave on juhtidele vaatamiseks saadaval. Need valikud on järgmised.
 
 -   Serdid
 
@@ -51,7 +51,7 @@ Selle funktsiooniga saate ka määrata päevade vahemiku, kust aeguvaid kirjeid 
 
 Saate rolli järgi konfigureerida suvandeid, mis on saadaval ülekandmise taotluse sisestamisel. See funktsioon lisab paindlikkust organisatsiooni rollidele.
 
-Näiteks juhtidel, kes taotlevad töötaja ülekandmisi, ei pruugi olla juurdepääsu tasusummade pakkumiseks või sisestamiseks või ülekandmise nõudega seostatavate ülesandeloendite valimiseks. Sellisel juhul saavad juhid luua ja edastada ülekandmise taotlusi, aga neil pole lubatud sisestada kompensatsiooni või ülesandeloendi määramisi. Samas konfiguratsioonis saab personaliosakond määrata uued tasuväärtused ja täiendavad kontroll-loendid, mis tuleb lõpule viia ülekandmise lõpetamise tulemusena.
+Näiteks juhtidel, kes taotlevad töötaja ülekandmisi, ei pruugi olla juurdepääsu tasusummade pakkumiseks või sisestamiseks või ülekandmise nõudega seostatavate ülesandeloendite valimiseks. Juhid saavad luua ja edastada ülekandmise taotlusi, aga nad ei saa sisestada kompensatsiooni või ülesandeloendi määramisi. Samas konfiguratsioonis võib personaliosakond määrata uued tasuväärtused ja täiendavad kontroll-loendid, mis tuleb lõpule viia ülekandmise lõpetamise tulemusena.
 
 Vaikimisi määratakse uued konfigureerimissuvandid nii, et need ei muuda võimalusi enne seda värskendust.
 
@@ -59,7 +59,7 @@ Vaikimisi määratakse uued konfigureerimissuvandid nii, et need ei muuda võima
 
 Puhkustes ja puudumistes on nüüd saadaval täiendavad kuupäevaväljad.
 
-Selle funktsiooniga saate määrata lisandumisperioodi aluse plaani tasemel, et kasutada konkreetseid töötamise kuupäevi. Tänu sellele saab puhkuse lisandumisprotsessi ajal kasutada muid kuupäevi peale plaani alguskuupäeva. Töövõtjakohaste kuupäevade suvandid hõlmavad järgmisi väärtusi.
+Selle funktsiooniga saate määrata lisandumisperioodi aluse plaani tasemel, et kasutada konkreetseid töötamise kuupäevi. Puhkuse lisandumisprotsessi ajal kasutada muid kuupäevi peale plaani alguskuupäeva. Töövõtjakohaste kuupäevade suvandid hõlmavad järgmisi väärtusi.
 
 -   Kohandatud (saadaval enne seda värskendust)
 

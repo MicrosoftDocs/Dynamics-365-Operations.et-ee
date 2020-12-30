@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 196083
 ms.assetid: 192b7a98-7d04-4c7a-a986-29d797a8a837
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d01a784b0f0cbfce30f1197278f015b236ef0b8
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698140"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693278"
 ---
 # <a name="configure-workflow-properties"></a>Töövoo atribuutide konfigureerimine
 
@@ -114,7 +113,7 @@ Kui dokument esitatakse töötlemiseks, luuakse töövooeksemplar. Saate saata k
     2. Klõpsake nuppu **Sisesta kohatäide**.
     3. Ilmuvas loendis valige sisestamiseks kohatäitja.
     4. Klõpsake nuppu **Sisesta**.
-    5. Tavapärane **Teatise teksti** kaasatav kohatäide on „Last Notes: %Workflow.Last note%”, mis kuvab kõiki eelmise etapi kommentaare.
+    5. Tavapärane **Teatise teksti** kaasatav kohatäide on „Viimased märkmed: %Workflow.Last note%”, mis kuvab kõiki eelmise etapi kommentaare.
 
 6. Teksti tõlgete lisamiseks järgige neid etappe.
 

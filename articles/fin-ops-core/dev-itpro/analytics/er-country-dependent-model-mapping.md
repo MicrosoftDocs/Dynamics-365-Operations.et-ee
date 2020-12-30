@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781141"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680871"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Riigi konteksti konfigureerimine sõltuvalt ER-i mudelivastendustest
 
@@ -117,7 +116,7 @@ Pange tähele, et valitud ER-vormingu käivitamine õnnestub. Veebilehitseja pak
 
 ### <a name="define-the-france-specific-mapping-configuration-as-the-default-configuration"></a>Prantsusmaale omase vastenduse konfiguratsiooni määratlemine vaikimisi konfiguratsiooniks
 
-Järgige neid samme, et määratleda kohandatud mudelivastenduse konfiguratsioon**Vastendamine (FR)** vaikimisi konfiguratsiooniks. Pidage meeles, et kuna see vastendamine on omane Prantsusmaale, loetakse see vaikimisi vastenduseks kõikide mudelivastenduste konfiguratsioonide vahel, millel on määratud riigikoodiks **FR** väljal **ISO riigi/piirkonna koodid**.
+Järgige neid samme, et määratleda kohandatud mudelivastenduse konfiguratsioon **Vastendamine (FR)** vaikimisi konfiguratsiooniks. Pidage meeles, et kuna see vastendamine on omane Prantsusmaale, loetakse see vaikimisi vastenduseks kõikide mudelivastenduste konfiguratsioonide vahel, millel on määratud riigikoodiks **FR** väljal **ISO riigi/piirkonna koodid**.
 
 1.  Valige lehe **Konfiguratsioonid** konfiguratsioonide puult suvand **Vastendamise (FR)**.
 2.  Vastavalt vajadusele valige **Redigeeri**, et muuta praegune leht redigeerimiseks valmis.
@@ -202,7 +201,7 @@ Tabelis näitab plussmärk (+) mudelivastenduse konfiguratsiooni olemasolu teenu
 
 Pange tähele, et elektroonilise aruandluse silumislogisse on käitatud ER-vormingu jaoks lisatud uus kirje. Kuna selle kirje väli **Tase** on määratud suvandile **Teave**, on kirje teavituslik. Kuna vormingu komponendi väli on määratud suvandile **Vastenduse konfiguratsioon**, teavitab kirje teid mudelivastendustest, mida ER-vormingu **Vormindamine vastenduste õppimiseks** käitamise ajal kasutati (valitud väljal **Konfiguratsiooni nimi**). Välja **Loodud tekst** sisu teavitab teid, et vastenduskomponenti **Vastendamine (FR)**, mis asub konfiguratsioonis **Vastendamine (FR)**, on kasutatud selle aruande käitamiseks.
 
-## <a name="appendix1"></a>Lisa 1
+## <a name="appendix-1"></a><a name="appendix1"></a>Lisa 1
 
 ### <a name="configure-a-sample-data-model"></a>Näidisandmete mudeli konfigureerimine
 
@@ -343,7 +342,7 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 4.  Valige käsk **Salvesta**.
 5.  Sulgege leht.
 
-## <a name="appendix2"></a>Lisa 2
+## <a name="appendix-2"></a><a name="appendix2"></a>Lisa 2
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Näidisest mudelivastenduse konfigureerimine üldiseks kohandamiseks
 
@@ -403,7 +402,7 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 
 Pange tähele, et loodud konfiguratsioon on salvestatud kui lõpetatud versioon 1.
 
-## <a name="appendix3"></a>Lisa 3
+## <a name="appendix-3"></a><a name="appendix3"></a>Lisa 3
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Näidisest mudelivastenduse konfigureerimine konkreetsele riigile/piirkonnale kohandamiseks
 
@@ -459,7 +458,7 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 #### <a name="specify-countryregion-context-restrictions-for-use"></a>Konkreetsele riigile/piirkonnale omaste kontekstipiirangute kasutamiseks määramine
 
 1.  Valige lehel **Konfiguratsioonid** kiirkaardil **ISO riigi/piirkonna koodid** suvand **Uus**.
-2.  Väljal**ISO** valige **FR**.
+2.  Väljal **ISO** valige **FR**.
 3.  Valige käsk **Salvesta**.
 
 Pange tähele, et ER-vormingu käitamiseks peate logima rakenduses Finance konkreetsesse ettevõttesse sisse. Seega saab seda ettevõtet lugeda osapooleks, mis kontrollib nii ER-vormingu käitamist kui ka õige ER-i mudelivastenduse valimist aluseks oleva ER-i mudelivastenduse jaoks. Lisades riigikoodi **FR** te määrate, et see mudelivastendus on aluseks oleva andmemudeli ER-vormingu poolt valimiseks saadaval ainult siis, kui see vorming käivitatakse ettevõtte kontrolli all, millel on Prantsusmaa riigi/piirkonna kontekst.

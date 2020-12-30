@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea2bfd2514be666d05165410ca27041a86464715
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143219"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684183"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Konfiguratsioonide importimine RCS-ist
 
@@ -31,28 +30,28 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 
 1. Avage **Organisatsiooni haldamine** > **Tööruumid** > **Elektrooniline aruandlus**. 
 2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima teemas [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md) toodud juhised. 
-3. Kui teie ettevõtte jaoks pole RCS-i keskkonda eraldatud, klõpsake välist linki **Regulatory services – konfigureerimine** ja järgige juhiseid RCS-i keskkonna eraldamiseks. 
-4. Klõpsake valikut **Elektroonilise aruandluse parameetrid**. 
-5. Klõpsake vahekaarti **RCS**. 
+3. Kui teie ettevõtte jaoks pole RCS-i keskkonda eraldatud, valige väline link **Regulatory services – konfigureerimine** ja järgige juhiseid RCS-i keskkonna eraldamiseks. 
+4. Valige **Elektroonilise aruandluse parameetrid**. 
+5. Valige vahekaart **RCS**. 
 6. Kui RCS-i keskkond on juba teie ettevõtte jaoks eraldatud, kasutage sellele ligipääsemiseks lehe URL-i. 
 7. Sulgege leht. 
 
 ## <a name="register-a-new-er-repository"></a>Registreerige uus elektroonilise aruandluse hoidla. 
 1. Märkige loendis valitud rida. 
 2. Valige pakkuja Litware, Inc. 
-3. Klõpsake valikut Hoidlad. 
+3. Valige Hoidlad. 
 4. Klõpsake valikut Lisa rippdialoogi avamiseks. 
 5. Sisestage väljale Konfiguratsioonihoidla tüüp valik RCS. 
-6. Klõpsake käsku Loo hoidla. 
+6. Valige käsk Loo hoidla. 
 7. Valige või sisestage väärtus väljal RCS keskkonna kuvatav nimi. 
-8. Valige soovitud RCS-i eksemplar. Pange tähele, et neid võib olla mitu. 
-9. Klõpsake nuppu OK. 
+8. Valige soovitud RCS-i eksemplar. Teil võib neid olla mitu. 
+9. Valige nupp OK. 
 
 ## <a name="import-er-configurations-from-rcs-based-repository"></a>Elektroonilise aruandluse konfiguratsioonide importimine RCS-põhisest hoidlast
-1. Klõpsake nuppu **Näita filtreid**. 
+1. Valige **Kuva filtrid**. 
 2. Sisestage filtri tehtemärgi **algab väärtusega** abil filtri väärtus **Nimi**. 
-3. Kui avate valitud hoidla, klõpsake lehel **Loo ühendus teenusega Regulatory Configuration Services** linki **Klõpsake siin teenusega Regulatory Configuration Services ühenduse loomiseks**. 
-4. Klõpsake nuppu **Ava**. 
-5. Klõpsake valikut **Sule**. 
-6. Valige elektroonilise aruandluse konfiguratsiooni sobiv versioon ja klõpsake nuppu **Impordi**, et viia see praegusesse eksemplari.
+3. Kui avate valitud hoidla, valige lehel **Loo ühendus teenusega Regulatory Configuration Services** link **Valige siin teenusega Regulatory Configuration Services ühenduse loomiseks**. 
+4. Valige **Avamine**. 
+5. Valige suvand **Sule**. 
+6. Valige elektroonilise aruandluse konfiguratsiooni sobiv versioon ja valige nupp **Impordi**, et viia see praegusesse eksemplari.
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564163"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682669"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Aruandluspuu definitsioonid finantsaruannetes
 
@@ -76,7 +75,7 @@ Aruandluspuu definitsiooni loomiseks tehke järgmist.
     | Kaasa/märgi asukoht       | Selles jaotises on loetletud finantsandmetes määratletud dimensioonid ja kuvatud märkide arv kõige pikemas igale dimensioonile määratud väärtuses. Selle dimensiooni lisamiseks aruandluspuu hierarhiasse märkige dimensioonil see ruut. |
     | Segmendi hierarhia ja vahemikud     | See jaotis kuvab dimensioonide hierarhia. Dimensioonide aruandluse järjekorra muutmiseks saate dimensioone loendis liigutada. Väljadel **Alates dimensioonist** ja **Kuni dimensioonini** saate määrata iga dimensiooni väärtuste vahemiku. Kui te vahemikku ei määra, lisatakse aruandluspuule kõik dimensiooniväärtused.<blockquote>[!NOTE] Kui kasutate mitut dimensiooni, kuvatakse tulemuste hulgas ainult dimensioonide kombinatsioonid, millesse on sisestusi tehtud.</blockquote> |
 
-    Ekraanipildi, millel on näide dialoogiboksist **Sisesta aruandlusüksused dimensioonidest**, leiate selle artikli edasisest jaotisest Näide dialoogiboksi Sisesta aruandlusüksused dimensioonidest kohta.
+    Kuvatõmmise jaoks, millel on näide dialoogiboksist **Sisesta aruandlusüksused dimensioonidest**, leiate selle artikli edasisest jaotisest „Näide aruandlusüksuste sisestamise kohta dimensioonide dialoogiboksist”.
 
 5. Lisasegmentide loomiseks (näiteks ühe segmendi jaotamiseks kaheks lühemaks segmendiks) klõpsake õiget asukohta väljal **Märgi asukoht** ja seejärel klõpsake käsku **Tükelda segmendid**.
 6. Kahe segmendi mestimiseks ühte segmenti klõpsake segmentide liitmiseks ühte segmendivälja ja seejärel klõpsake käsku **Ühenda segmendid**.
@@ -86,7 +85,7 @@ Aruandluspuu definitsiooni loomiseks tehke järgmist.
     1. Sisestage selle dimensiooni väljale **Alates dimensioonist** vahemiku esimene väärtus.
     2. Sisestage väljale **Kuni dimensioonini** vahemiku viimane väärtus.
 
-9. Korrake iga dimensiooni puhul alal **Segmendi hierarhia ja vahemikud** toiminguid 7–8.
+9. Korrake alal **Segmendi hierarhia ja vahemikud** iga dimensiooni puhul toiminguid 7–8.
 10. Kui olete lõpetanud selle määratlemise, kuidas aruandlusüksused uude aruandluspuusse tuua tuleks, klõpsake nuppu **OK**.
 11. Aruandluspuu salvestamiseks klõpsake valikuid **Fail** &gt; **Salvesta**. Sisestage aruandluspuu kordumatu nimi ja kirjeldus ja seejärel klõpsake nuppu **OK**.
 
@@ -98,7 +97,7 @@ Aruandluspuu definitsiooni loomiseks tehke järgmist.
 
 ### <a name="roll-up-data-in-a-reporting-tree"></a>Aruandluspuu andmete koondamine
 
-Aruandluspuu kasutamisel saate koondada summad aruandluse tütarüksusest aruandluse emaüksuse tasemel. Seda nimetatakse andmete koondamiseks. Summade koondamiseks aruandluspuu emaüksustele kasutatakse järgmisi reegleid.
+Aruandluspuu kasutamisel saate koondada summad aruandluse alamüksusest aruandluse ülemüksuse tasemel. Seda nimetatakse andmete koondamiseks. Summade koondamiseks aruandluspuu emaüksustele kasutatakse järgmisi reegleid.
 
 - Aruandluspuul peavad tütarüksused sisaldama dimensioone, kui pole tegemist üksiktaseme puuga. Emaüksuste puhul pole aruandluspuul üldjuhul dimensioone.
 
@@ -106,7 +105,7 @@ Aruandluspuu kasutamisel saate koondada summad aruandluse tütarüksusest aruand
     > Dimensioonide määramine nii tütar- kui ka emaüksustele võib põhjustada aruandes andmete dubleerimist.
 
 - Aruandluspuus dimensioone sisaldavad aruandlusüksused vastavad dimensioonidele, mida kasutatakse rea ja veeru definitsioonides. Dimensioonikombinatsioon määrab selle üksuse puhul tagastatavad summad. Näiteks selle artikli edaspidises näites 2 annavad read 6 ja 7 väärtused ainult osakondadele 00 ja 01.
-- Aruandluspuul dimensioone mittesisaldavate aruandluse emaüksuste summad määratakse tütarüksuse aruandes ja summa koondatakse määratud emaüksusesse. Näiteks kui emaüksusel (vt Contoso USA-d andmete koondamise näites 2) on kaks tütarüksust (022 ja 023) ja see ei sisalda dimensioone, luuakse aruanne iga tütar- ja emaüksuse kohta. Emaüksuse kogusumma on kahe tütarüksuse summa.
+- Aruandluspuul dimensioone mittesisaldavate aruandluse emaüksuste summad määratakse tütarüksuse aruandes ja summa koondatakse määratud emaüksusesse. Näiteks kui ülendüksusel (vt Contoso USA-d andmete koondamise näites 2) on kaks alamüksust (022 ja 023) ja see ei sisalda dimensioone, luuakse aruanne iga alam- ja ülemüksuse kohta. Emaüksuse kogusumma on kahe tütarüksuse summa.
 
 ### <a name="manage-reporting-units"></a>Aruandlusüksuste haldamine
 
@@ -165,9 +164,9 @@ Saate vältida teatud kasutajate ja gruppide juurdepääsu aruandlusüksusele. S
 3. Valige nimi dialoogiboksist **Üksuse turvalisus** ja seejärel klõpsake käsku **Eemalda**.
 4. Klõpsake nupul **OK**.
 
-### <a name="link-toreports"></a>Link aruannete juurde
+### <a name="link-to-reports"></a>Link aruannete juurde
 
-Pärast **aruande** veeru loomist readefinitsioonis ja aruandesse kaasatava aruande määratlemist peate värskendama aruandluspuud lingitud veeru ja aruande teabega. Aruande saab importida aruandluspuu mis tahes üksusesse.
+Pärast **aruande** veeru loomist rea määratluses ja aruandesse kaasatava aruande määratlemist peate värskendama aruandluspuud lingitud veeru ja aruande teabega. Aruande saab importida aruandluspuu mis tahes üksusesse.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Aruande tuvastamine aruandluspuus
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678244"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680238"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Uue ER-i lahenduse kujundamine kohandatud aruande printimiseks
 
@@ -142,10 +141,10 @@ Elektroonilise aruandluse arendaja rollis kasutajana peate konfigureerima minima
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Elektroonilise aruandluse parameetrite konfigureerimine
 
-1. Avage **Organisatsiooni haldus** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Valige tööruumis **Elektrooniline aruandlus** suvand **Elektroonilise aruandluse parameetrid**.
-3. Seadke lehel **Elektroonilise aruandluse parameetrid** vahekaardil **Üldine** suvandi **Luba kujundusrežiim** väärtuseks **Jah**.
-4. Määrake vahekaardil **Manused** järgmised parameetrid.
+1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
+2. Tööruumis **Elektrooniline aruandlus** valige **Elektroonilise aruandluse parameetrid**.
+3. Valige lehel **Elektroonilise aruandluse parameetrid** vahekaardil **Üldine** suvandi **Luba kujundusrežiim** sätteks **Jah**.
+4. Vahekaardil **Manused** määrake järgmised parameetrid.
 
     - Seadke välja **Konfiguratsioonid** väärtuseks **Fail** ettevõtte **USMF** jaoks.
     - Seadke väljade **Tööarhiiv**, **Ajutine**, **Alus** ja **Muud** väärtuseks **Fail**.
@@ -161,28 +160,28 @@ Kõigi ER-i konfiguratsioonide omanikuks on märgitud ER-i konfiguratsiooni pakk
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>ER-konfiguratsiooni pakkujate loendi ülevaatamine
 
-1. Avage **Organisatsiooni haldus** \> **Tööruumid** \> **Elektrooniline aruandlus**.
+1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 2. Valige tööruumis **Elektrooniline aruandlus** jaotisest **Seotud lingid** suvand **Konfiguratsioonipakkujad**.
 3. Lehel **Konfiguratsioonipakkujad** on igal konfiguratsioonipakkuja kirjel kordumatu nimi ja URL. Vaadake üle selle lehe sisu. Kui üksuse **Litware, Inc.** (`https://www.litware.com`) kirje on juba olemas, jätke järgmine protseduur vahele [Uue ER-konfiguratsiooni pakkuja lisamine](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Uue ER-konfiguratsiooni pakkuja lisamine
 
 1. Lehel **Konfiguratsioonipakkujad** valige suvand **Uus**.
-2. Sisestage väljale **Nimi** väärtus  **Litware, Inc.**
-3. Sisestage väljale **Interneti-aadress**  `https://www.litware.com`.
-4. Valige **Salvesta**.
+2. Väljale **Nimi** sisestage väärtus **Litware, Inc.**
+3. Sisestage väljale **Interneti-aadress** `https://www.litware.com`.
+4. Valige käsk **Salvesta**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>ER-konfiguratsiooni pakkuja aktiveerimine
 
-1. Avage **Organisatsiooni haldus** \> **Tööruumid** \> **Elektrooniline aruandlus**.
+1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 2. Valige tööruumis **Elektrooniline aruandlus** konfiguratsioonipakkuja **Litware, Inc.**
-3. Valige **Määra aktiivseks**.
+3. Valige **Määra aktiivseks**.
 
 Lisateabe saamiseks ER-konfiguratsiooni pakkujate kohta vaadake teemat [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Domeenipõhise andmemudeli kujundamine
 
-Peate looma uue ER-i konfiguratsiooni, mis sisaldab [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) komponenti **Küsimustiku** äridomeeni jaoks. Seda andmemudelit kasutatakse hiljem andmeallikana, kui kujundate ER-i vormingut aruande **Küsimustik** loomiseks.
+Peate looma uue ER-i konfiguratsiooni, mis sisaldab [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) komponenti **Küsimustiku** äridomeeni jaoks. Seda andmemudelit kasutatakse hiljem andmeallikana, kui kujundate ER-i vormingut aruande **Küsimustik** loomiseks.
 
 Kui täidate jaotises [Uue andmemudeli konfiguratsiooni importimine](#ImportDataModel) toodud juhised, saate vajaliku andmemudeli importida esitatud XML-failist. Teise võimalusena saate täita jaotise [Uue andmemudeli konfiguratsiooni loomine](#DesignDataModel) juhised, et kujundada see andmemudel täiesti algusest.
 
@@ -811,7 +810,7 @@ Selle konfiguratsiooni versiooni 1.1 olek muudetakse olekust **Mustand** olekuss
 
 Süsteemiadministraatori rollis kasutajana peate arendama välja uue loogika, et konfigureeritud ER-i vormingut saaks kutsuda rakenduse kasutajaliidesest (UI) kohandatud aruande loomiseks. Praegu ei paku ER seda tüüpi loogika konfigureerimiseks ühtegi võimalust. Seetõttu on vaja teha natuke tehnilist tööd. 
 
-Uue loogika arendamiseks peate juurutama topoloogia, mis toetab pidevat järku. Lisateavet leiate teemast [Pidevat järku ja testimise automatiseerimist toetavate topoloogiate juurutamine](../perf-test/continuous-build-test-automation.md). Samuti peab teil selle topoloogia puhul olema juurdepääs arenduskeskkonnale. Lisateavet saadaval ER-i API kohta leiate teemast [ER-i raamistiku API](er-apis-app73.md).
+Uue loogika arendamiseks peate juurutama topoloogia, mis toetab pidevat järku. Lisainfo saamiseks vt [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](../perf-test/continuous-build-test-automation.md). Samuti peab teil selle topoloogia puhul olema juurdepääs arenduskeskkonnale. Lisateavet saadaval ER-i API kohta leiate teemast [ER-i raamistiku API](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Lähtekoodi muutmine
 
@@ -1179,7 +1178,7 @@ Selle konfiguratsiooni versiooni 1.2 olek muudetakse olekust **Mustand** olekuss
 
 Pange tähele, et loodud aruande jalus sisaldab aruande loomiseks kasutatud ER-i vormingu nime.
 
-![Loodud fail Exceli vormingus](./media/er-quick-start1-report4.png)
+![Loodud aruanne Exceli vormingus](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Vormingu käivitamine ER-is
 
@@ -1215,7 +1214,7 @@ Pange tähele, et loodud aruande jalus ei sisalda aruande loomiseks kasutatud ER
     ![ER-i aruande käitusaja dialoogiboks, kus saate muuta konfigureeritud sihtkohta](./media/er-quick-start1-run-settings.png)
 
 6. Aruande käivitamiseks valige **OK**.
-7. Vaadake loodud fail PDF-vormingus üle.
+7. Vaadake loodud aruanne PDF-vormingus üle.
 
     ![PDF-vormingus loodud aruande eelvaade ekraanil](./media/er-quick-start1-preview-PDF.png)
 

@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248709"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695111"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool seadistamise ja installimise õppetükk
 See teema on õppetükk, mis aitab seadistada RSAT-d ja selle kasutamisega seotud tööriistu ning alustada nende kasutamist. 
@@ -407,7 +406,7 @@ Autentimise lubamiseks peate looma ja installima serdi samasse arvutisse, kus t�
     ```
 
     > [!NOTE]
-    > Kui mitu kasutajat kasutab sama rakendust, peab iga kasutaja looma eraldi sõrmejäljed, mis tuleb kõik lisada jaotisesse **\<võtmed\>**.
+    > Kui mitu kasutajat kasutab sama rakendust, peab iga kasutaja looma eraldi sõrmejäljed, mis tuleb kõik lisada jaotisesse **\<keys\>**.
 
 5. Kui AOS-i arvuteid on rohkem kui üks, korrake etappe 3 kuni 4 iga lisaarvuti jaoks.
 
@@ -563,7 +562,7 @@ RSAT vanemates versioonides pidite installima Seleniumi ja brauseri draiverid. N
 
     ![Töölaua eraldusvõime on seatud väärtusele 100%](./media/setup_rsa_tool_68.png)
 
-6. Kui brauseri draivereid pole süsteemi installitud, kuvatakse hoiatusteade „Selleks toiminguks on vaja \<brauseri nimi\> draiverit. Kas soovite selle kohe automaatselt alla laadida ja installida?” Valige **Jah**.
+6. Kui brauseri draivereid pole süsteemi installitud, kuvatakse hoiatusteade „Selleks toiminguks on vaja brauseri \<browser name\> draiverit. Kas soovite selle kohe automaatselt alla laadida ja installida?” Valige **Jah**.
 
     ![Internet Exploreri hoiatusteade](./media/setup_rsa_tool_69.png)
 

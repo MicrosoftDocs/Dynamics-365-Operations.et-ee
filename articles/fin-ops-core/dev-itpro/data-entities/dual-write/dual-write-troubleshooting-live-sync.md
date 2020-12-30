@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997298"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685559"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Reaalajas sünkroonimise probleemide tõrkeotsing
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Common Data Service’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige annab see teavet, mis aitab lahendada reaalajas sünkroonimisega seotud probleeme.
+
+See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige annab see teavet, mis aitab lahendada reaalajas sünkroonimisega seotud probleeme.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>Reaalajas sünkroonimine põhjustab 403 keelatud tõrke, kui loote kirje Finance and Operationsi rakenduses
+## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Reaalajas sünkroonimine põhjustab 403 keelatud tõrke, kui loote rea Finance and Operationsi rakenduses
 
-Kui proovite luua rakenduses Finance and Operations kirjet, võidakse kuvada järgmine tõrketeade.
+Kui proovite luua rakenduses Finance and Operations rida, võidakse kuvada järgmine tõrketeade.
 
 *\[{\\„tõrge\\”:{\\„kood\\”:\\„0x80072560\\”,\\„sõnum\\”:\\„Kasutaja pole organisatsiooni liige.\\”}}\], Kaugserver tagastas tõrke: (403) keelatud.”}}”.*
 
-Probleemi lahendamiseks järgige juhiseid teemas [Süsteemi nõuded ja eeltingimused](requirements-and-prerequisites.md). Nende sammude lõpule viimiseks peab rakenduses Common Data Service loodud topeltkirjutuse kasutajatel olema süsteemiadministraatori roll. Vaikeomanikust meeskonnal peab samuti olema süsteemiadministraatori roll.
+Probleemi lahendamiseks järgige juhiseid teemas [Süsteemi nõuded ja eeltingimused](requirements-and-prerequisites.md). Nende sammude lõpule viimiseks peab rakenduses Dataverse loodud topeltkirjutuse kasutajatel olema süsteemiadministraatori roll. Vaikeomanikust meeskonnal peab samuti olema süsteemiadministraatori roll.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>Mis tahes üksuse reaalajas sünkroonimine põhjustab sarnase tõrke, kui loote kirje Finance and Operationsi rakenduses
+## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Mis tahes üksuse reaalajas sünkroonimine põhjustab sarnase tõrke, kui loote rea Finance and Operationsi rakenduses
 
 **Tõrke parandamiseks nõutav roll:** süsteemiadministraator
 
@@ -52,12 +54,12 @@ Teile võidakse kuvada järgnev tõrketeate iga kord, kui proovite üksuse andme
 
 *Andmebaasi muudatusi ei saa salvestada. Tööüksus ei saa kannet kinnitada. Üksuse uoms-i ei saa andmeid kirjutada. Üksusesse UnitOfMeasureEntity kirjutamine nurjus, kuna tõrketeade ei saa sünkroonida üksuse uoms-i.*
 
-Probleemi lahendamiseks peate veenduma, et eeltingimuseks olevad viiteandmed on olemas nii Finance and Operationsi rakenduses kui ka Common Data Service'is. Näiteks kui olete klient rakeenduses Finance and Operations, mis kuulub kindlasse kliendigruppi, veenduge, et see kliendigrupp on olemas Common Data Service'is.
+Probleemi lahendamiseks peate veenduma, et eeltingimuseks olevad viiteandmed on olemas nii Finance and Operationsi rakenduses kui ka Dataverse'is. Näiteks kui olete klient rakeenduses Finance and Operations, mis kuulub kindlasse kliendigruppi, veenduge, et see kliendigrupp on olemas Dataverse'is.
 
 Kui andmed on olemas kummalgi poolel ja olete teinud kindlaks, et probleem ei ole seotud andmetega, toimige järgmiselt.
 
 1. Peatage seostatud üksus.
-2. Logige sisse rakendusse Finance and Operations ja veenduge, et nurjuva üksuse kirjed on olemas tabelites DualWriteProjectConfiguration ja DualWriteProjectFieldConfiguration. Näiteks selline näeb välja päring, kui üksus **Kliendid** nurjub.
+2. Logige sisse rakendusse Finance and Operations ja veenduge, et nurjuva üksuse read oleks olemas tabelites DualWriteProjectConfiguration ja DualWriteProjectFieldConfiguration. Näiteks selline näeb välja päring, kui üksus **Kliendid** nurjub.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -66,8 +68,8 @@ Kui andmed on olemas kummalgi poolel ja olete teinud kindlaks, et probleem ei ol
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Kui nurjunud üksusel on kirjeid ka pärast üksuse vastendamise peatamist, kustutage nurjunud üksusega seotud kirjed. Märkige tabelis DualWriteProjectConfiguration veerg **projectname** ja tooge tabelist DualWriteProjectFieldConfiguration kirje, kasutades kirje kustutamiseks projekti nime.
-4. Käivitage üksuse vastendamine. Kontrollige, kas andmed sünkroonitakse tõrgeteta.
+3. Kui nurjunud üksusel on ridu ka pärast tabeli vastendamise peatamist, kustutage nurjunud üksusega seotud read. Märkige tabelis DualWriteProjectConfiguration veerg **projectname** ja tooge tabelist DualWriteProjectFieldConfiguration kirje, kasutades rea kustutamiseks projekti nime.
+4. Käivitage tabeli vastendamine. Kontrollige, kas andmed sünkroonitakse tõrgeteta.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Lugemis- või kirjutusprivileegide tõrgete käsitlemine rakenduses Finance and Operations andmete loomisel
 
@@ -89,25 +91,25 @@ Probleemi lahendamiseks peate määrama vastendatud Dynamics 365 Salesi või Dyn
 
     ![Nupp rollide haldamine](media/manage_team_roles.png)
 
-4. Määrake roll, millel on asjaomaste üksuste lugemise/kirjutamise privileeg ja seejärel valige **OK**.
+4. Määrake roll, millel on asjaomaste tabelite lugemise/kirjutamise privileeg ja seejärel valige **OK**.
 
-## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-common-data-service-environment"></a>Sünkroonimisprobleemide parandamine keskkonnas, millel on hiljuti muudetud Common Data Service'i keskkond
+## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-dataverse-environment"></a>Sünkroonimisprobleemide parandamine keskkonnas, millel on hiljuti muudetud Dataverse'i keskkond
 
 **Tõrke parandamiseks nõutav roll:** süsteemiadministraator
 
 Kui proovite luua rakenduses Finance and Operations andmeid, võidakse kuvada järgmine tõrketeade.
 
-*{„entityName”:„CustCustomerV3Entity”,„executionStatus”:2,„fieldResponses”:\[\],„recordResponses”:\[{„errorMessage”:„ **Lasti ei saanud luua üksusele CustCustomerV3Entity** ”,„logDateTime”:„2019-08-27T18:51:52.5843124Z”,„verboseError”:„Lasti loomine nurjus tõrkega kehtetu URI: URI on tühi.”}\],„isErrorCountUpdated”:true}*
+*{„entityName”:„CustCustomerV3Entity”,„executionStatus”:2,„fieldResponses”:\[\],„recordResponses”:\[{„errorMessage”:„**Lasti ei saanud luua üksusele CustCustomerV3Entity**”,„logDateTime”:„2019-08-27T18:51:52.5843124Z”,„verboseError”:„Lasti loomine nurjus tõrkega kehtetu URI: URI on tühi.”}\],„isErrorCountUpdated”:true}*
 
 Dynamics 365 mudeljuhitud rakenduses näeb tõrge välja järgnev.
 
 *ISV-koodist ilmnes ootamatu tõrge. (ErrorType = ClientError) Ootamatu erand lisandmoodulist (Käivita): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: üksuse konto töötlemine nurjus – (ühenduse loomise katse nurjus, kuna ühendatud osapool ei reageerinud pärast teatavat ajavahemikku või loodud ühendus nurjus, kuna ühendatud host ei vastanud*
 
-See tõrge ilmneb, kui Common Data Service'i keskkond on valesti lähtestatud sel ajal, kui proovite luua andmeid rakenduses Finance and Operations.
+See tõrge ilmneb, kui Dataverse'i keskkond on valesti lähtestatud sel ajal, kui proovite luua andmeid rakenduses Finance and Operations.
 
 Probleemi lahendamiseks tehke järgmist.
 
-1. Logige aiaaw Finance and Operationsi virtuaalarvutisse (VM), avage SQL Server Management Studio (SSMS) ja otsige kirjeid tabelist DUALWRITEPROJECTCONFIGURATIONENTITY, kus **internalentityname** võrdub üksusega **Klientide V3** ja **externalentityname** võrdub üksusega **kontod**. Päring näeb välja järgnev.
+1. Logige sisse Finance and Operationsi virtuaalarvutisse (VM), avage SQL Server Management Studio (SSMS) ja otsige ridu tabelist DUALWRITEPROJECTCONFIGURATIONENTITY, kus **internalentityname** võrdub üksusega **Klientide V3** ja **externalentityname** võrdub üksusega **kontod**. Päring näeb välja järgnev.
 
     ```sql
     select projectname, externalenvironmentURL ,\* 
@@ -123,5 +125,5 @@ Probleemi lahendamiseks tehke järgmist.
     where projectname = <project name from previous query>
     ```
 
-3. Veenduge, et veerul **externalenvironmentURL** oleks õige Common Data Service'i või rakenduse URL. Kustutage kõik duplikaatkirjed, mis osutavad valele Common Data Service'i URL-ile. Kustutage vastavad kirjed tabelitest DUALWRITEPROJECTFIELDCONFIGURATION and DUALWRITEPROJECTCONFIGURATION.
-4. Peatage üksuse vastendamine ja taaskäivitage see
+3. Veenduge, et veerul **externalenvironmentURL** oleks õige Dataverse'i või rakenduse URL. Kustutage kõik duplikaatread, mis osutavad valele Dataverse'i URL-ile. Kustutage vastavad read tabelitest DUALWRITEPROJECTFIELDCONFIGURATION and DUALWRITEPROJECTCONFIGURATION.
+4. Peatage tabeli vastendamine ja taaskäivitage see
