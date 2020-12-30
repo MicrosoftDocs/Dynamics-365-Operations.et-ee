@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429562"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418217"
 ---
 # <a name="design-questionnaires"></a>Küsimustike kujundamine
 
@@ -91,7 +91,7 @@ Küsimuste ja vastuste korraldamiseks kasutatakse numbriseeriakoode. Nende numbr
 Kõik parameetrid tuleks määratleda enne andmete loomise alustamist. Küsimustiku parameetri sätteid saab igal ajal muuta.
 
 ## <a name="questionnaire-components"></a>Küsimustiku osad
-Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast. Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
+Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast.  Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 

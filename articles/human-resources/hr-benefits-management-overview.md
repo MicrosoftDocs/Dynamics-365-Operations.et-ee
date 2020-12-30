@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819761"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418118"
 ---
 # <a name="benefits-management-overview"></a>Soodustuste haldamise ülevaade
 

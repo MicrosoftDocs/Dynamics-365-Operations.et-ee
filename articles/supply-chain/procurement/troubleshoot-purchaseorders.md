@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018556"
+ms.locfileid: "4426681"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Ostutellimuste tõrkeotsing
 
@@ -80,7 +80,7 @@ See funktsioon pole praegu saadaval.
 
 ### <a name="issue-description"></a>Probleemi kirjeldus
 
-Isegi kui kaupade olek on ostutellimusel *Registreeritud* , saate varusid siiski reserveerida. Teisisõnu saate luua kandeid registreeritud varude põhjal.
+Isegi kui kaupade olek on ostutellimusel *Registreeritud*, saate varusid siiski reserveerida. Teisisõnu saate luua kandeid registreeritud varude põhjal.
 
 ### <a name="reproduce-the-issue"></a>Probleemi taastekitamine
 
@@ -118,7 +118,7 @@ Selline käitumine on nii kavandatud. Ostutellimuste puhul kuvatakse toode alati
 
 ### <a name="issue-description"></a>Probleemi kirjeldus
 
-Tootel on kinnitatud hankija, mille jõustumiskuupäev on näiteks 11. jaanuar 2018 ( *01/11/2018* ) ja aegumiskuupäev *Mitte kunagi*. Kui proovite muuta jõustumiskuupäevaks 10. jaanuari 2018 ( *01/10/2018* ) või 12. jaanuari 2018 ( *01/12/2018* ), kuvatakse järgmine tõrge.
+Tootel on kinnitatud hankija, mille jõustumiskuupäev on näiteks 11. jaanuar 2018 (*01/11/2018*) ja aegumiskuupäev *Mitte kunagi*. Kui proovite muuta jõustumiskuupäevaks 10. jaanuari 2018 (*01/10/2018*) või 12. jaanuari 2018 (*01/12/2018*), kuvatakse järgmine tõrge.
 
 > Kinnitatud tarnijate loendis (PdsApproveVendorList) ei saa kirjet luua. Väärtus „Aegumine” peab olema suurem kui väärtus „Jõustumine” või sellega võrdne.
 
@@ -130,7 +130,7 @@ Saate pikendada ainult perioodi, mille jooksul on hankija kinnitatud. Kehtivad j
 - Aegumiskuupäeva muutmiseks nii, et see oleks hiljem kui mõni olemasolev periood, peab jõustumiskuupäev olema pärast mis tahes olemasoleva kirje hilisemat aegumiskuupäeva.
 - Et vähendada tervet perioodi, mille jooksul on hankija kinnitatud, peate olemasolevad kirjed kustutama või neid muutma. Teise võimalusena saate kasutada importimise ajal **kärpimise** lülitit. See lüliti kustutab kõik tabelis „Kinnitatud hankijad kauba põhjal” olevad kirjed.
 
-Probleemi kirjelduses kirjeldatud näidisstsenaariumi puhul, kus kirje jõustumiskuupäev on *01/11/2018* ja aegumiskuupäev *Mitte kunagi* , saate importida uue kirje, mille jõustumiskuupäev on *01/10/2018* ja aegumiskuupäev *Mitte kunagi*. Kuid te ei saa perioodi vähendada nii, et jõustumiskuupäev muudetaks andmehalduse kaudu kuupäevaks *01/12/2018*. Selle muudatuse peate tegema kasutajaliidese kaudu.
+Probleemi kirjelduses kirjeldatud näidisstsenaariumi puhul, kus kirje jõustumiskuupäev on *01/11/2018* ja aegumiskuupäev *Mitte kunagi*, saate importida uue kirje, mille jõustumiskuupäev on *01/10/2018* ja aegumiskuupäev *Mitte kunagi*. Kuid te ei saa perioodi vähendada nii, et jõustumiskuupäev muudetaks andmehalduse kaudu kuupäevaks *01/12/2018*. Selle muudatuse peate tegema kasutajaliidese kaudu.
 
 ## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Pärast tarneaadressi muutmist ostutellimuse päisel ei sünkroonita tarne nime.
 

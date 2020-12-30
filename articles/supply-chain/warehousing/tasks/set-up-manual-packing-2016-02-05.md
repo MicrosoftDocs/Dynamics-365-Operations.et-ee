@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 67e1e99b479752a027c60a878c57bd35d4219981
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017549"
+ms.locfileid: "4426642"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Käsitsi pakkimise seadistamine (veebruar 2016 ja mai 2016)
 

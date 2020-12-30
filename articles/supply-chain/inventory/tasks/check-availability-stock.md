@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 28446e32c8f126e76b13f41f379ecf994a7b7a0d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980762"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426527"
 ---
 # <a name="check-the-availability-of-stock"></a>Varude saadavuse kontrollimine
 
@@ -32,7 +32,7 @@ See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba ka
 
 ## <a name="check-on-hand-inventory-for-an-item"></a>Kauba vaba kaubavaru kontrollimine
 1. Avage **Navigeerimisriba > Moodulid > Varude haldus > Päringud ja aruanded > Vaba kaubavaru**.
-2. Valige rida **Kaubakood**. Vaba kaubavaru päringute esitamiseks kaubakoodi alusel valige rida, kus tabel on seatud **Vabal kaubavarule** ja väli on seatud **Kauba**koodile.
+2. Valige rida **Kaubakood**. Vaba kaubavaru päringute esitamiseks kaubakoodi alusel valige rida, kus tabel on seatud **Vabal kaubavarule** ja väli on seatud **Kauba** koodile.
 3. Valige väljal **Kriteeriumid** kaup, mille puhul soovite päringu esitada. Ettevõtte USMF demoandmete kasutamisel võite valida väärtuse M9201.  
 4. Klõpsake valikut **OK**.
 5. Klõpsake **Toimingupaanil** valikut **Dimensioonid**. Vahekaart **Dimensioonid** võimaldab valida, kui palju üksikasju soovite vaba kaubavaru kohta vaadata. Kui teil on vaja reserveerimisega seotud andmeid, peate kuvama kõik täiustatud laotoimingute (WMS) protsesse kasutavate kaupade varude dimensioonid.
@@ -56,7 +56,7 @@ See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba ka
 1. Avage **Navigeerimisriba > Moodulid > Laohaldus > Päringud ja aruanded > Kaubavaru asukoha järgi**.
 2. Sisestage väärtus väljale **Ladu**. Ettevõtte USMF demoandmete kasutamisel saate kasutada suvandit 51.  
 3. Värskendage lehte.
-4. Klõpsake suvandit**Dimensioonide kuvamine.**
+4. Klõpsake suvandit **Dimensioonide kuvamine.**
 5. Klõpsake valikut **OK**.
 6. Sulgege leht.
 

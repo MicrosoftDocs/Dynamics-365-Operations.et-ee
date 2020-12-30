@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bd014f5804681936920b47e999709f153def11bc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016674"
+ms.locfileid: "4426677"
 ---
 # <a name="create-a-bill-of-lading"></a>Loo veokiri
 
@@ -36,10 +36,10 @@ Veokiri on juriidiline dokument kaupu tarniva ettevõtte ja vedaja vahel. Dokume
   -   Looge aruanne käsitsi, kasutades lehte **Veokiri**.
   -   Looge aruanne valikust **Koorma planeerimise töölaud**.
 
-Kui loote veokirja valikust **Koorma planeerimise töölaud** , siis peab koorma olek olema **Välja saadetud** Kui koormas on rohkem kui üks saadetis, luuakse veokiri iga saadetise jaoks. Pärast veokirja loomist saate seda muuta lehel **Veokiri**.
+Kui loote veokirja valikust **Koorma planeerimise töölaud**, siis peab koorma olek olema **Välja saadetud** Kui koormas on rohkem kui üks saadetis, luuakse veokiri iga saadetise jaoks. Pärast veokirja loomist saate seda muuta lehel **Veokiri**.
 
 ## <a name="master-bill-of-lading"></a>Põhiveokiri
-Kui koormas on rohkem kui üks saadetis, saate luua koondveokirja. Sellel on sama paigutus ja teave kui veokirjal, kuid sisaldab kokkuvõtlikku sisu kõikide saadetiste kohta. Kui valiku **Loo põhiveokiri, kui koormas on rohkem kui üks saadetis** sätteks on **Jah** lehel **Transpordihalduse parameetrid** , luuakse koondveokiri automaatselt, kui loote veokirja valikust **Koorma planeerimise töölaud** ja on rohkem kui üks saadetis. Saate ka loendi veokirjadest, klõpsates valikuid **Seotud teave** &gt; **Veokiri**. Kui loote veokirju käsitsi, saate koondveokirja luua lehel **Veokiri**.
+Kui koormas on rohkem kui üks saadetis, saate luua koondveokirja. Sellel on sama paigutus ja teave kui veokirjal, kuid sisaldab kokkuvõtlikku sisu kõikide saadetiste kohta. Kui valiku **Loo põhiveokiri, kui koormas on rohkem kui üks saadetis** sätteks on **Jah** lehel **Transpordihalduse parameetrid**, luuakse koondveokiri automaatselt, kui loote veokirja valikust **Koorma planeerimise töölaud** ja on rohkem kui üks saadetis. Saate ka loendi veokirjadest, klõpsates valikuid **Seotud teave** &gt; **Veokiri**. Kui loote veokirju käsitsi, saate koondveokirja luua lehel **Veokiri**.
 
 
 

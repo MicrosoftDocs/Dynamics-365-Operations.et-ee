@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 85b9f473cc725896a00501510eea02d7cfb21782
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426150"
 ---
 # <a name="install-assets-on-functional-locations"></a>Varade installimine töö asukohtades
 
@@ -82,4 +82,4 @@ Kui seadistusandmed on saadaval, olete valmis vara looma.
 
 1. Veenduge lehel **Kõik töö asukohad**, et töö asukoht, kuhu soovite vara automaatselt luua, kasutab töö asukoha tüüpi, mille olete sel eesmärgil loonud.
 2. Valige loendist töö asukoht.
-3. Valige **Värskenda töö asukohta olekut**ja seejärel valige selleks otstarbeks loodud töötsükli olek. Üks vara installitakse nüüd automaatselt töö asukohta. Varal on töö asukohaga sama nimi.
+3. Valige **Värskenda töö asukohta olekut** ja seejärel valige selleks otstarbeks loodud töötsükli olek. Üks vara installitakse nüüd automaatselt töö asukohta. Varal on töö asukohaga sama nimi.

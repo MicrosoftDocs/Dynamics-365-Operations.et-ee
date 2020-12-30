@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018232"
+ms.locfileid: "4426655"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Tarnegraafikuga ostutellimuse loomine
 
@@ -46,7 +46,7 @@ Selles teemas näidatakse, kuidas luua ostutellimusele tarnegraafikut. Tarnegraa
 - Valige väljalt Tarnekuupäev kuupäev, mis on üks nädal pärast esimesel tarnereal olevat kuupäeva.  
 - Väljade **Kokku** ja **Järelejäänud** abil saate jälgida lõplikku kogust, mis tarnegraafiku ridadele eraldati. Kui järelejäänud kogus on null, eraldati graafikusse algse rea täielik kogus.  
 12. Laiendage jaotist **Tasude teisendamine**.
-- Siin olevad valikud võimaldavad teil juhtida, kuidas soovite tasusid tarnegraafiku ridade vahel jagada. Kui valite **Kopeeri brutosummad** , kopeeritakse igale tarnereale algsel tellimuse real olev tasu summa. Valik **Eralda tarneridadele** jagab algse rea tasu koguse järgi igale tarnereale.  
+- Siin olevad valikud võimaldavad teil juhtida, kuidas soovite tasusid tarnegraafiku ridade vahel jagada. Kui valite **Kopeeri brutosummad**, kopeeritakse igale tarnereale algsel tellimuse real olev tasu summa. Valik **Eralda tarneridadele** jagab algse rea tasu koguse järgi igale tarnereale.  
 13. Ahendage jaotist **Tasude teisendamine**.
 14. Valige nupp **OK**.
 - Tarnegraafik on nüüd tellimusele rakendatud.  

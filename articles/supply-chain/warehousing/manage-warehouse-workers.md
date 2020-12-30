@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017078"
+ms.locfileid: "4426575"
 ---
 # <a name="manage-warehouse-workers"></a>Laotöötajate haldamine
 
@@ -45,7 +45,7 @@ Enda määratletud tööstandardite lubamiseks peate valima suvandi **Luba töö
 ## <a name="monitoring-and-controlling-warehouse-work"></a>Laotöö seire ja kontrollimine
 Leht **Kogu töö** võimaldab teil kogu plaanitud, töös olevat ja lõpetatud tööd jälgida ja säilitada. Sellel lehel saate värskendada erinevaid protsesse, nagu laotöö kasutaja määramised ja töö prioriteet. Samuti saate süveneda töö päise ja töö ridadega seotud üksikasjadesse, et mõista eeldatavast või lõpetatud tööprotsessidest. 
 
-Kui lubate suvandi **Tööstandardid** , näete töö arvutatud hinnangulist aega. Kui tööd tehakse, kuvatakse iga töötoimingu puhul ka tegelik aeg. Nii saate võrrelda hinnangulist ajaarvutust tegeliku ajaga estimated. 
+Kui lubate suvandi **Tööstandardid**, näete töö arvutatud hinnangulist aega. Kui tööd tehakse, kuvatakse iga töötoimingu puhul ka tegelik aeg. Nii saate võrrelda hinnangulist ajaarvutust tegeliku ajaga estimated. 
 
 Lisaks saate kasutada hinnangulist aega töö loomisel töö automaatse jagamise reeglites. Nii saate laadida taskaalustatud töö hinnagulise ülesannete täitmiseks kuluva aja alusel. 
 

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 0158bd4ee74e24006e338c0477ee0ac4210b1bf5
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429355"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418080"
 ---
 # <a name="edit-personal-information"></a>Isiklike andmete muutmine
 
@@ -56,7 +56,7 @@ Globaalses aadressiraamatus seatud parameetrid määratlevad rollid, mis näevad
 
     - Uue kontaktteabe lisamiseks valige **Lisa**. Redigeerige välju vastavalt vajadusele.
     - Olemasoleva kontaktteabe redigeerimiseks valige üksus ja seejärel valige **Redigeeri**. Redigeerige välju vastavalt vajadusele.
-    - Kontaktteabe privaatsena määramiseks valige see üksus, valige **Täpsem**ja seadke nupp **Privaatne** väärtusele **Jah**. Valige nupp **OK**.
+    - Kontaktteabe privaatsena määramiseks valige see üksus, valige **Täpsem** ja seadke nupp **Privaatne** väärtusele **Jah**. Valige nupp **OK**.
   
 5. Isiklike kontaktide muutmiseks valige vahekaart **Isiklikud kontaktid**. Saate määrata lähedasi isikuid, kasusaajaid ja sõltuvaid. Kontaktiks võib olla isik või organisatsioon. Funktsioon **Soodustuste haldus** kasutab isiklikke kontaktandmeid. Lisateavet leiate teemast [Isiklike kontaktide sobivuse suvandite konfigureerimine](hr-benefits-setup-contact-eligibility-options.md).
 

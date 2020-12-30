@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016789"
+ms.locfileid: "4426599"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Saadetiste konsolideerimine, kui lehel Lattu väljastamine alistatakse saadetise konsolideerimispoliitika
 
@@ -47,7 +47,7 @@ Siin kirjeldatud stsenaarium eeldab, et olete juba funktsiooni sisse lülitanud,
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -58,12 +58,12 @@ Järgige neid juhiseid saadetise konsolideerimispoliitika alistamiseks lattu vä
 
 1. Avage jaotis **Laohaldus \> Lattu väljastamine \> Lattu väljastamine**.
 1. Valige ülemisel paanil esimene selle stsenaariumi jaoks loodud müügitellimus.
-1. Valige **Lisa** , et lisada rida lattu väljastamisele. Pange tähele, et *Vaikimisi* saadetise konsolideerimispoliitika rakendatakse alumisel paanil.
+1. Valige **Lisa**, et lisada rida lattu väljastamisele. Pange tähele, et *Vaikimisi* saadetise konsolideerimispoliitika rakendatakse alumisel paanil.
 1. Valige alumisel paanil **Uue saadetise konsolideerimispoliitika valimine**.
 1. Valige poliitika, mis lubab sama poliitika teiste avatud saadetiste konsolideerimist. Valige näiteks poliitika *CustomerOrderNo*.
 1. Valige **Lattu väljastamine**.
 1. Valige selle stsenaariumi jaoks loodud teine ja kolmas müügitellimus.
-1. Valige **Lisa** , et lisada read lattu väljastamisele. Pange tähele, et *Vaikimisi* poliitika rakendatakse alumisel paanil.
+1. Valige **Lisa**, et lisada read lattu väljastamisele. Pange tähele, et *Vaikimisi* poliitika rakendatakse alumisel paanil.
 1. Valige teine rida ja seejärel valige väljal **Uue saadetise konsolideerimispoliitika valimine** poliitika *CustomerOrderNo*.
 1. Valige mõlemal real **Lattu väljastamine**.
 

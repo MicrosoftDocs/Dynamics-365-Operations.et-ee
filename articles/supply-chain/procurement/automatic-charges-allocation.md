@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998872"
+ms.locfileid: "4426558"
 ---
 # <a name="automatic-allocation-of-charges"></a>Tasude automaatne eraldamine
 
@@ -45,7 +45,7 @@ Tasude eraldamiseks peate esmalt määratlema tasukoodid.
     - **Tasukood** – sisestage tasukood.
     - **Kirjeldus** – sisestage tasude kirjeldus.
     - **Kauba käibemaksugrupp** – valige kauba käibemaksugrupp (kui see on olemas).
-    - **Proportsionaalne jaotumine** – määrake suvandi väärtuseks *Jah* , kui soovite tasusid proportsionaalselt jaotada. See suvand on saadaval ainult müügitellimuste puhul.
+    - **Proportsionaalne jaotumine** – määrake suvandi väärtuseks *Jah*, kui soovite tasusid proportsionaalselt jaotada. See suvand on saadaval ainult müügitellimuste puhul.
     - **Maksimaalne summa** – sisestage maksimaalne summa, mis selle tasukoodi puhul lubatud on. Seda välja kasutatakse hankija arvete tasude kontrollimiseks. See on saadaval ainult ostutellimustele.
 
         > [!NOTE]
@@ -53,8 +53,8 @@ Tasude eraldamiseks peate esmalt määratlema tasukoodid.
 
 1. Kiirkaart **Sisestamine** sisaldab jaotiseid **Deebet** ja **Krediit**. Määrake järgmised väljad, sõltuvalt pearaamatust, kuhu soovite tasud sisestada.
 
-    - **Tüüp** – valige konto tüüp, kuhu sisestate ( *Pearaamat* , *Klient* või *Kaup* ).
-    - **Sisestamine** – valige loodavate sisestuste tüüp (nt *Peatöövõtja tasu* või *Kliendi tasakaalustamine* ).
+    - **Tüüp** – valige konto tüüp, kuhu sisestate (*Pearaamat*, *Klient* või *Kaup*).
+    - **Sisestamine** – valige loodavate sisestuste tüüp (nt *Peatöövõtja tasu* või *Kliendi tasakaalustamine*).
     - **Konto** – valige konto, mille eest tasu sisestate.
 
 1. Valige toimingupaanil nupp **Salvesta**.
@@ -68,7 +68,7 @@ Tasugrupid eraldavad kindlaid klientide või hankijate grupi tasusid automaatsel
 Ostutellimuste jaoks tasugruppide loomiseks toimige järgmiselt.
 
 1. Avage **Ostureskontro \> Tasude seadistus \> Hankija tasugrupp**.
-1. Valige toimingupaanil **Uus** , et lisada rida jaotise ruudustikku ja seejärel määrake järgmised väljad.
+1. Valige toimingupaanil **Uus**, et lisada rida jaotise ruudustikku ja seejärel määrake järgmised väljad.
 
     - **Tasugrupp** – sisestage tasugrupi nimi.
     - **Kirjeldus** – sisestage tasugrupi kirjeldus.
@@ -82,7 +82,7 @@ Ostutellimuste jaoks tasugruppide loomiseks toimige järgmiselt.
 Müügitellimuste jaoks tasugruppide loomiseks toimige järgmiselt.
 
 1. Minge jaotisse **Müügireskontro \> Tasude seadistus \> Kliendi tasugrupid**.
-1. Valige toimingupaanil **Uus** , et lisada rida jaotise ruudustikku ja seejärel määrake järgmised väljad.
+1. Valige toimingupaanil **Uus**, et lisada rida jaotise ruudustikku ja seejärel määrake järgmised väljad.
 
     - **Tasugrupp** – sisestage tasugrupi nimi.
     - **Kirjeldus** – sisestage tasugrupi kirjeldus.
@@ -112,28 +112,28 @@ Pärast tasukoodide seadistamist tehke automaatsete tasude määratlemiseks jär
     - *Grupp* – tasud määratakse lisatasude grupile.
     - *Kõik* – tasud määratakse kõigile klientidele või hankijatele.
 
-1. Valige väljal **Kliendi seos** või **Hankija seos** kindel klient või hankija, kui tegite väljal **Konto kood** valiku *Tabel*. Kui tegite väljal **Konto kood** valiku *Grupp* , valige kliendi või hankija tasugrupp.
+1. Valige väljal **Kliendi seos** või **Hankija seos** kindel klient või hankija, kui tegite väljal **Konto kood** valiku *Tabel*. Kui tegite väljal **Konto kood** valiku *Grupp*, valige kliendi või hankija tasugrupp.
 1. Valige väljal **Kauba kood** üks järgmistest väärtustest, et määrata mõjutatud kaupade ulatus. Kauba koodi saate valida ainult siis, kui määratlete automaatsed tasud reatasemel.
 
     - *Tabel* – tasud määratakse kindlale kaubale.
     - *Grupp* – tasud määratakse kauba tasugrupile.
     - *Kõik* – tasud määratakse kõigile kaupadele.
 
-1. Valige väljal **Kauba seos** kindel kaup, kui tegite väljal **Kauba kood** valiku *Tabel*. Kui tegite väljal **Kauba kood** valiku *Grupp* , valige kauba tasugrupp.
+1. Valige väljal **Kauba seos** kindel kaup, kui tegite väljal **Kauba kood** valiku *Tabel*. Kui tegite väljal **Kauba kood** valiku *Grupp*, valige kauba tasugrupp.
 1. **Ainult müügitellimuste puhul:** valige väljal **Tarneviisi kood** üks järgmistest väärtustest, et määrata tarneviiside ulatus, mis on mõjutatud.
 
     - *Tabel* – tasud määratakse konkreetsele tarneviisile.
     - *Grupp* – tasud määratakse konkreetsele tarnegrupile.
     - *Kõik* – tasud määratakse kõigile tarneviisidele.
 
-1. **Ainult müügitellimuste puhul** valige väljal **Tarneviisi seos** kindel tarneviis, kui tegite väljal **Tarneviisi kood** valiku *Tabel*. Kui tegite väljal **Tarneviisi kood** valiku *Grupp* , valige tarneviisi grupp.
+1. **Ainult müügitellimuste puhul** valige väljal **Tarneviisi seos** kindel tarneviis, kui tegite väljal **Tarneviisi kood** valiku *Tabel*. Kui tegite väljal **Tarneviisi kood** valiku *Grupp*, valige tarneviisi grupp.
 1. Määratlege kiirkaardil **Read** tasud ja tasumäärad, mida kasutatakse praeguse automaatse tasu rakendamisel. Saate kasutada selle kiirkaardi tööriistariba nii paljude ridade lisamiseks, kui vajate. Määrake igale reale järgmised väljad.
 
     - **Valuuta** – valige valuuta, mida tuleks kasutada tasu arvutamiseks.
     - **Tasukood** – valige tasukood.
     - **Kategooria** – valige üks järgmistest väärtustest.
 
-        - *Fikseeritud* – tasu sisestatakse reale fikseeritud summana. Fikseeritud tasusid saab kasutada tellimuse päises ja tellimuse ridadel olevate tasude puhul.
+        - *Fikseeritud*– tasu sisestatakse reale fikseeritud summana. Fikseeritud tasusid saab kasutada tellimuse päises ja tellimuse ridadel olevate tasude puhul.
         - *Tk* – tasu põhineb ühikul. Neid tasusid saab kasutada ainult tellimuse ridadel. Need kuvatakse tellimuse kogusumma arvutamisel.
         - *Protsent* – tasu sisestatakse reale protsendina. Tasude protsente saab kasutada tellimuse päises ja tellimuse ridadel olevate tasude puhul.
         - *Kontsernisisene protsent* – tasu sisestatakse kontsernisiseste tellimuste real protsendina. Kontsernisisest protsenti saab kasutada ainult tellimuse ridadel.
@@ -171,9 +171,9 @@ Järgmises protseduuris näidatakse kuidas eraldada päisetaseme tasusid reale. 
     - **Eralda kõik** – märkige see ruut, et eraldada tasud ostutellimuse ridadele ka juhul, kui tasukoodil on muu deebettüüp kui *Kaup*.
     - **Vastuvõetud** – märkige see ruut, et eraldada tasud ainult saadud tellimuse ridadele.
     - **Ladustatud** – märkige see ruut, et eraldada tasud ainult inverteeritud tellimuse ridadele.
-    - **Suvandite kuvamine ja kindlate ridade tühjendamine** – märkige see ruut, et välistada sellest eraldamisest konkreetsed read. Kui märgite selle ruudu, siis avaneb ruudustik **Eraldamisest välja arvatud ridade valimine**. See ruudustik sisaldab ainult sätetega **Rea tasude eraldamine** ja **Ladustatud** määratletud kriteeriumidele vastavaid ridu. Näiteks kui teete väljal **Rea tasude eraldamine** valiku *Positiivsed read* ja märgite ruudu **Ladustatud** , kuvatakse ruudustikus ainult need read, mis on positiivsed ja inventeeritud. Lisaks filtreerib ruudustik automaatselt kõik read, millel on kogu kogus juba vastu võetud. Kui ruudustik on avatud, tühjendage märkeruut **Kaasa** iga rea puhul, mis tuleks eraldamisel välistada. 
+    - **Suvandite kuvamine ja kindlate ridade tühjendamine** – märkige see ruut, et välistada sellest eraldamisest konkreetsed read. Kui märgite selle ruudu, siis avaneb ruudustik **Eraldamisest välja arvatud ridade valimine**. See ruudustik sisaldab ainult sätetega **Rea tasude eraldamine** ja **Ladustatud** määratletud kriteeriumidele vastavaid ridu. Näiteks kui teete väljal **Rea tasude eraldamine** valiku *Positiivsed read* ja märgite ruudu **Ladustatud**, kuvatakse ruudustikus ainult need read, mis on positiivsed ja inventeeritud. Lisaks filtreerib ruudustik automaatselt kõik read, millel on kogu kogus juba vastu võetud. Kui ruudustik on avatud, tühjendage märkeruut **Kaasa** iga rea puhul, mis tuleks eraldamisel välistada. 
 
         > [!IMPORTANT]
-        > Kui töötate ruudustikuga **Eraldamisest välja arvatud ridade valimine** , jätke kindlasti ruudustik senikaua avatuks, kuni valite **Eralda**. Kui sulgete ruudustiku enne valiku **Eralda** tegemist, lähevad teie ruudustiku sätted kaotsi. Seega tasud eraldatakse vastavalt eelnevalt määratletud kriteeriumitele.
+        > Kui töötate ruudustikuga **Eraldamisest välja arvatud ridade valimine**, jätke kindlasti ruudustik senikaua avatuks, kuni valite **Eralda**. Kui sulgete ruudustiku enne valiku **Eralda** tegemist, lähevad teie ruudustiku sätted kaotsi. Seega tasud eraldatakse vastavalt eelnevalt määratletud kriteeriumitele.
 
-1. Valige **Eralda** , et rakendada oma sätted ja sulgeda päringu dialoogiboks.
+1. Valige **Eralda**, et rakendada oma sätted ja sulgeda päringu dialoogiboks.

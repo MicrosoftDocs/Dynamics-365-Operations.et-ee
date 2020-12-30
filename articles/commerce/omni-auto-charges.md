@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107371"
+ms.locfileid: "4411824"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
@@ -38,7 +38,7 @@ Varasemates väljaannetes kui rakenduse Retail versioon 10.0 pääsevad [automaa
 
 Varasemate versioonide kui 10.0 kasutamisel palutakse kassa kasutajal sisestada saatekulu kassakande Saada kõik või Saada valitud loomise ajal käsitsi. Kui tellimusse kulude kirjutamiseks kasutatakse rakenduse lisakulude võimalusi, ei pakuta süstemaatilist arvutamist – kulude väärtuste arvutamisel toetutakse kasutaja sisendile. Kulusid saab lisada ainult ühe saadetisega seotud kulukoodina ja seda ei saa kassas pärast loomist hõlpsalt redigeerida ega muuta.
 
-Versioonis 10.0 ja uuemates on endiselt võimalik kasutada saatekulude lisamiseks käsitsi viipasid. Kui organisatsioon ei luba parameetrit **Täpsemad automaatsed kulud** , jäävad kassa viibad kulude käsitsi sisestamiseks samaks.
+Versioonis 10.0 ja uuemates on endiselt võimalik kasutada saatekulude lisamiseks käsitsi viipasid. Kui organisatsioon ei luba parameetrit **Täpsemad automaatsed kulud**, jäävad kassa viibad kulude käsitsi sisestamiseks samaks.
 
 Täpsemate automaatsete kulude funktsioon pakub kassa kasutajatele automaatsete kulude seadistustabelite põhjal süstemaatilisi arvutusi mis tahes määratletud kulude puhul. Peale selle on kasutajatel võimalik lisada või redigeerida piiramatut arvu lisakulusid ja -tasusid mis tahes kassa müügikandele päise- või reatasandil (sularaha või klienditellimuse puhul).
 
@@ -67,7 +67,7 @@ Uued toimingud on järgmised.
 
 Nagu kõigi kassatoimingute puhul saab teha turbekonfiguratsioonid, mille alusel nõutakse toimingu käivitamiseks halduri kinnitust.
 
-On oluline tähele panna, et ülal loetletud kassatoimingud saab kassa paigutusse lisada isegi siis, kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Selles stsenaariumis saavad organisatsioonid veel kasutada lisatud eeliseid nagu käsitsi lisatud kulude vaatamine ja nende redigeerimine toiminguga **Kulude haldamine**. Kasutajad saavad kassakannete jaoks kasutada toiminguid **Lisa päisetasud** ja **Lisa reatasud** , isegi kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Toimingul **Kulude ümberarvutus** on vähem funktsioonaalsust, kui seda kasutatakse, kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Selle stsenaariumi puhul ei arvutata midagi ümber ja mis tahes kandele käsitsi lisatud kulud lähtestatakse lihtsalt väärtusele $0,00.
+On oluline tähele panna, et ülal loetletud kassatoimingud saab kassa paigutusse lisada isegi siis, kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Selles stsenaariumis saavad organisatsioonid veel kasutada lisatud eeliseid nagu käsitsi lisatud kulude vaatamine ja nende redigeerimine toiminguga **Kulude haldamine**. Kasutajad saavad kassakannete jaoks kasutada toiminguid **Lisa päisetasud** ja **Lisa reatasud**, isegi kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Toimingul **Kulude ümberarvutus** on vähem funktsioonaalsust, kui seda kasutatakse, kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Selle stsenaariumi puhul ei arvutata midagi ümber ja mis tahes kandele käsitsi lisatud kulud lähtestatakse lihtsalt väärtusele $0,00.
 
 ## <a name="use-case-examples"></a>Kasutusjuhtumite näited
 
@@ -149,9 +149,9 @@ Toiming **Päisekulu lisamine** tuleb konfigureerida [kassa ekraanipaigutuses](h
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Müügi käsitsi päisekulu töötlemine
 
-Stsenaariumi käivitamiseks kassarakenduses loob kassa kasutaja müügikande tavapärasel viisil, lisades müügile tooted ja mis tahes muud konfiguratsioonid. Enne makse kogumist peab kasutaja käivitama toiming **Päisekulu lisamine** , mis palub kasutajal valida kulukoodi ja sisestada kulu väärtuse. Kui kasutaja on protsessi lõpule viinud, lisatakse kulu müügitellimusele päisetasemel kuluna.
+Stsenaariumi käivitamiseks kassarakenduses loob kassa kasutaja müügikande tavapärasel viisil, lisades müügile tooted ja mis tahes muud konfiguratsioonid. Enne makse kogumist peab kasutaja käivitama toiming **Päisekulu lisamine**, mis palub kasutajal valida kulukoodi ja sisestada kulu väärtuse. Kui kasutaja on protsessi lõpule viinud, lisatakse kulu müügitellimusele päisetasemel kuluna.
 
-Selle protsessi saab rakendada kõnekeskuses olemasoleva funktsiooniga **Kulud** , mille leiate tööriistariba vahekaardilt **Müük**. Lehel **Kulude haldamine** saab kasutaja lisada tellimuse päisesse uusi kuluridu.
+Selle protsessi saab rakendada kõnekeskuses olemasoleva funktsiooniga **Kulud**, mille leiate tööriistariba vahekaardilt **Müük**. Lehel **Kulude haldamine** saab kasutaja lisada tellimuse päisesse uusi kuluridu.
 
 ### <a name="manual-line-charges-example"></a>Käsitsi reakulude näide
 
@@ -173,7 +173,7 @@ Toiming **Reakulu lisamine** tuleb konfigureerida [kassa ekraanipaigutuses](http
 
 Stsenaariumi käivitamiseks kassarakenduses loob kassa kasutaja müügikande tavapärasel viisil, lisades müügile tooted ja mis tahes muud konfiguratsioonid. Enne makse kogumist peab kasutaja valima kassa kaubaloendi kuval konkreetse rea, millele kulu kohaldub, ja käivitama toimingu **Reakulu lisamine**. Kasutajal palutakse valida kulukood ja sisestada kulu väärtus. Kui kasutaja on protsessi lõpule viinud, seotakse kulu reaga ja lisatakse tellimuse kogusummale reatasemel kuluna. Kasutaja saab protsessi korrata, et lisada vajaduse korral täiendavaid reakulusid kande teistele kaubaridadele.
 
-Sama protsessi saab rakendada kõnekeskuses, kasutades kulude haldamise funktsiooni, mille leiate lehe **Müügitellimus** jaotises **Müügitellimuse read** rippmenüüst **Finantsid**. Selle suvandi valimine avab lehe **Kulude haldamine** , kus kasutaja saab lisada kandele uue reakohase kulu.
+Sama protsessi saab rakendada kõnekeskuses, kasutades kulude haldamise funktsiooni, mille leiate lehe **Müügitellimus** jaotises **Müügitellimuse read** rippmenüüst **Finantsid**. Selle suvandi valimine avab lehe **Kulude haldamine**, kus kasutaja saab lisada kandele uue reakohase kulu.
 
 ## <a name="additional-features"></a>Lisafunktsioonid
 
@@ -189,7 +189,7 @@ Kui ülekirjutatud kulude kohta on põhjusekoodid sisestatud, on nende tühistus
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Kulude tagastamine kassa tagastuskandes
 
-Kui parameetri **Kasuta täpsemaid automaatseid kulusid** sätteks on valitud **Jah** , ei kohaldu suvandile **Saatekulu tagastamine** enam olemasolev Kaubanduse parameeter. Selleks et näidata, millised kulud tuleb süstemaatiliselt kliendile tagastada, kui kasutatakse täpsemaid automaatseid kulusid, veenduge, et seotud kulukood oleks suvandi **Kulukood** seadistuslehel konfigureeritud kui **Tagastatav**. Veenduge, et sätted oleksid jaotusgraafiku protsessi kaudu sünkroonitud teie Commerce’i kanali andmebaasiga.
+Kui parameetri **Kasuta täpsemaid automaatseid kulusid** sätteks on valitud **Jah**, ei kohaldu suvandile **Saatekulu tagastamine** enam olemasolev Kaubanduse parameeter. Selleks et näidata, millised kulud tuleb süstemaatiliselt kliendile tagastada, kui kasutatakse täpsemaid automaatseid kulusid, veenduge, et seotud kulukood oleks suvandi **Kulukood** seadistuslehel konfigureeritud kui **Tagastatav**. Veenduge, et sätted oleksid jaotusgraafiku protsessi kaudu sünkroonitud teie Commerce’i kanali andmebaasiga.
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Kulude tagastamine tagastustellimuse kandes
 
@@ -210,7 +210,7 @@ Organisatsioonil on soovitatav lisada sissetuleku jalusesse ka vabas vormis teks
 
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Kulude arvutamise keelamine, enne kui kassatellimus on lõpule viidud
 
-Mõni organisatsioon võib soovida, et kasutaja oleks kassakandele kõigi müügiridade lisamise lõpetanud, enne kui kulud arvutatakse. Kulude arvutamise keelamiseks, kui kaupu lisatakse kassakandele, lülitage poe kasutatavas suvandis **Funktsiooniprofiil** sisse parameeter **Kulude käsitsi arvutamine**. Selle parameetri lubamisel peab kassa kasutaja kasutama toimingut **Arvuta kogusummad** , kui ta on toodete lisamise kassakandesse lõpule viinud. Seejärel käivitab toiming **Kogusummade arvutamine** vajadust mööda tellimuse päise või ridade puhul mis tahes automaatsete kulude arvutamise.
+Mõni organisatsioon võib soovida, et kasutaja oleks kassakandele kõigi müügiridade lisamise lõpetanud, enne kui kulud arvutatakse. Kulude arvutamise keelamiseks, kui kaupu lisatakse kassakandele, lülitage poe kasutatavas suvandis **Funktsiooniprofiil** sisse parameeter **Kulude käsitsi arvutamine**. Selle parameetri lubamisel peab kassa kasutaja kasutama toimingut **Arvuta kogusummad**, kui ta on toodete lisamise kassakandesse lõpule viinud. Seejärel käivitab toiming **Kogusummade arvutamine** vajadust mööda tellimuse päise või ridade puhul mis tahes automaatsete kulude arvutamise.
 
 ### <a name="charges-override-reports"></a>Tasude tühistamisaruanded
 

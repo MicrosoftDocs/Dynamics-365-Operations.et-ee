@@ -17,11 +17,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895544"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425922"
 ---
 # <a name="country-of-origin"></a>Päritoluriik
 
@@ -45,7 +45,7 @@ Enne tootele sertifikatsiooni väljastamist, peate linkima toote selle sihtriigi
 2. Valige redigeerimiseks olemasolev riigi häälestus või valige toimingupaanilt **Uus** uue riigi häälestuse loomiseks.
 3. Määrake valitud või uue riigi jaoks järgmised väärtused.
 
-    | Field | Kirjeldus |
+    | Väli | Kirjeldus |
     |---|---|
     | Kauba number | Valige toote kaubakood. |
     | Sihtriik | Valige riik, kuhu te toote saadate. |
@@ -65,7 +65,7 @@ Sertifikaadi teabe häälestamiseks toimige järgmiselt.
 2. Valige redigeerimiseks olemasolev sertifikaadi häälestus või valige toimingupaanilt **Uus** uue sertifikaadi häälestuse loomiseks.
 3. Määrake valitud või uue sertifikaadi jaoks järgmised sätted.
 
-    | Field | Kirjeldus |
+    | Väli | Kirjeldus |
     |---|---|
     | Hankija konto | Valige hankija, kellele väljastasite sertifikaadi. |
     | Kauba number | Valige kaup, millele väljastasite sertifikaadi. |

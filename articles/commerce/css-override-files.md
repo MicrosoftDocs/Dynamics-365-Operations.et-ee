@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411243"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411677"
 ---
 # <a name="work-with-css-override-files"></a>CSS-i alistamisfailidega töötamine
 
@@ -68,7 +68,7 @@ CSS-i alistamisfaili Commerce’is üleslaadimiseks toimige järgmiselt.
 
 CSS-i alistamisfaili eelvaate kuvamiseks enne, kui selle oma avaldatud saidil aktiveerite, tehke järgmist.
 
-1. Valige vasakpoolsel navigeerimispaanil suvand **Kujundus**ja seejärel otsige vahekaardil **CSS-i alistamine** jaotises **Saadaolevad CSS-i alistamised** üles CSS-fail, mille eelvaate soovite kuvada.
+1. Valige vasakpoolsel navigeerimispaanil suvand **Kujundus** ja seejärel otsige vahekaardil **CSS-i alistamine** jaotises **Saadaolevad CSS-i alistamised** üles CSS-fail, mille eelvaate soovite kuvada.
 1. CSS-faili nime kõrval valige suvand **Saidi eelvaade**.
 1. Valige dialoogiaknas **URL-i valimine** saidi URL, mille suhtes soovite alistused rakendada, ja seejärel valige **OK**.
 1. Kui valitud URL-il on mitu varianti, valige kuvatavas dialoogiaknas **Eelvaate variatsioonid** soovitud variant.
@@ -84,7 +84,7 @@ Kui olete vaadanud ja kinnitanud CSS-i alistamisfaili, saate selle oma avaldatud
 
 CSS-i alistamisfaili aktiveerimiseks toimige järgmiselt.
 
-1. Valige vasakpoolsel navigeerimispaanil suvand **Kujundus** ja seejärel otsige vahekaardi **CSS-i alistamine** jaotises **Saadaolevad CSS-i alistamised**üles CSS-fail, mille soovite aktiveerida.
+1. Valige vasakpoolsel navigeerimispaanil suvand **Kujundus** ja seejärel otsige vahekaardi **CSS-i alistamine** jaotises **Saadaolevad CSS-i alistamised** üles CSS-fail, mille soovite aktiveerida.
 1. CSS-faili nime all valige **Aktiveeri**. Alistamisfail muutub kohe teie avaldatud saidil aktiivseks.
 
 ## <a name="deactivate-a-css-override-file-on-your-live-site"></a>CSS-i alistamisfailide avaldatud saidil desaktiveerimine

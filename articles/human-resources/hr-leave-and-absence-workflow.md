@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 209f0ec7236778cc0a828102e554b02206b45b73
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428681"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418092"
 ---
 # <a name="create-a-leave-request-workflow"></a>Puhkusetaotluse töövoo loomine
 
@@ -37,7 +37,7 @@ Saate luua töövoo rakenduses Dynamics 365 Human Resources, et järjepidevalt h
 
 1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
 
-2. Jaotises **Seadistus** valige suvand**Inimressursside töövood**.
+2. Jaotises **Seadistus** valige suvand **Inimressursside töövood**.
 
 3. Valige suvand **Uus** ja seejärel valige **Puhkuse- ja puudumistaotlus**. 
 

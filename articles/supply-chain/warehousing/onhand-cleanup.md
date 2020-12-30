@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015937"
+ms.locfileid: "4426643"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Laohalduse vabade kirjete puhastustöö
 
@@ -50,7 +50,7 @@ Töö käitamisel on selle kinnitustase 100. Teisisõnu püütakse iga 100 kustu
 
 ## <a name="possible-user-impact"></a>Võimalik mõju kasutajale
 
-Kui puhastustöö käigus kustutatakse kõik puhastustöö vabade kirjete andmed konkreetse taseme kohta (nt litsentsiplaadi tase), siis võib see mõjutada ka kasutajaid. Sellisel juhul ei pruugi antud varude nägemiseks varasemalt litsentsiplaadil saadaolev funktsioon õigesti töötada, kuna asjakohased vabad kirjed ei ole enam saadaval. (Kui töötaja vaatab vabade varude teavet, siis kontrollib see funktsioon sätete **Dimensiooni kuvamine** all tingimust **Kogus \<\> 0** ). Samas peaks puhastustööst tulenevalt paranenud jõudlus selle väikse funktsionaalsuskao tasa tegema.
+Kui puhastustöö käigus kustutatakse kõik puhastustöö vabade kirjete andmed konkreetse taseme kohta (nt litsentsiplaadi tase), siis võib see mõjutada ka kasutajaid. Sellisel juhul ei pruugi antud varude nägemiseks varasemalt litsentsiplaadil saadaolev funktsioon õigesti töötada, kuna asjakohased vabad kirjed ei ole enam saadaval. (Kui töötaja vaatab vabade varude teavet, siis kontrollib see funktsioon sätete **Dimensiooni kuvamine** all tingimust **Kogus \<\> 0**). Samas peaks puhastustööst tulenevalt paranenud jõudlus selle väikse funktsionaalsuskao tasa tegema.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimaalse teostamisaja kättesaadavaks muutmine
 

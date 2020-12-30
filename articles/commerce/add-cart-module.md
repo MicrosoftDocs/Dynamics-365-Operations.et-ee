@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055423"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4411831"
 ---
 # <a name="cart-module"></a>Ostukorvi moodul
 
@@ -50,9 +50,9 @@ Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest. Selles näites on 
 
 | Atribuut | Väärtused | Kirjeldus |
 |----------------|--------|-------------|
-| Pealkiri | Pealkirja tekst ja pealkirja silt ( **H1** , **H2** , **H3** , **H4** , **H5** või **H6** ) | Ostukorvi pealkiri, näiteks „Ostukorv” või „Ostukorvis olevad kaubad”. |
-| Kuva laost otsas varude tõrked | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene** , kuvatakse ostukorvilehel varudega seotud tõrkeid. Soovitame seada selle atribuudi väärtuseks **Tõene** , kui saidil kontrollitakse varusid. |
-| Kuva reakaupade saatekulud | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene** , kuvatakse ostukorvi reakaupade juures saatekulud, kui see teave on saadaval. See funktsioon pole Fabrikami kujunduses toetatud, kuna kasutajad valivad tarneviisi alles maksmise voos. Kuid seda funktsiooni saab sisse lülitada ka teistes töövoogudes, kui see on rakendatav. |
+| Pealkiri | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Ostukorvi pealkiri, näiteks „Ostukorv” või „Ostukorvis olevad kaubad”. |
+| Kuva laost otsas varude tõrked | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, kuvatakse ostukorvilehel varudega seotud tõrkeid. Soovitame seada selle atribuudi väärtuseks **Tõene**, kui saidil kontrollitakse varusid. |
+| Kuva reakaupade saatekulud | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, kuvatakse ostukorvi reakaupade juures saatekulud, kui see teave on saadaval. See funktsioon pole Fabrikami kujunduses toetatud, kuna kasutajad valivad tarneviisi alles maksmise voos. Kuid seda funktsiooni saab sisse lülitada ka teistes töövoogudes, kui see on rakendatav. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moodulid, mida saab ostukorvi moodulis kasutada
 
@@ -80,17 +80,17 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
 1. Valige dialoogiboksis **Uus fragment** moodul **Ostukorv**.
-1. Avage jaotis **Fragmendi nimi** , sisestage **Ostukorvi fragmendi** nimi ja seejärel valige **OK**.
+1. Avage jaotis **Fragmendi nimi**, sisestage **Ostukorvi fragmendi** nimi ja seejärel valige **OK**.
 1. Valige pesa **Ostukorv**.
 1. Valige parempoolsel atribuutide paanil pliiatsisümbol, sisestage väljale pealkirja tekst ja seejärel valige märkesümbol.
-1. Valige pesas **Ostukorv** kolmikpunkt ( **…** ) ja seejärel käsk **Lisa moodul**.
+1. Valige pesas **Ostukorv** kolmikpunkt (**…**) ja seejärel käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Kaupluse valija** ja klõpsake seejärel **OK**.
-1. Valige **Salvesta** , valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
 1. Sisestage dialoogiboksis **Uus mall** jaotises **Malli nimi** mallile nimi.
-1. Valige liigenduspuu jaotises **Sisu** kolmikpunkt ( **...** ) ja seejärel valige **Lisa fragment**.
+1. Valige liigenduspuu jaotises **Sisu** kolmikpunkt (**...**) ja seejärel valige **Lisa fragment**.
 1. Valige dialoogiboksis **Vali fragment** **Ostukorvi fragmendi** fragment ja seejärel valige **OK**.
-1. Valige **Salvesta** , valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
 1. Valige dialoogiboksis **Malli valimine** varem teie loodud mall, sisestage lehe nimi ja seejärel valige **OK**.
 1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**.
@@ -102,11 +102,13 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Maksmise moodul](add-checkout-module.md)
 
-[Maksemoodul](payment-module.md)
+[Makse moodul](payment-module.md)
 
 [Tarneaadressi moodul](ship-address-module.md)
 
-[Tarnevalikute moodul](delivery-options-module.md)
+[Tarnesuvandite moodul](delivery-options-module.md)
+
+[Järeletulemisteabe moodul](pickup-info-module.md)
 
 [Tellimuse üksikasjade moodul](order-confirmation-module.md)
 

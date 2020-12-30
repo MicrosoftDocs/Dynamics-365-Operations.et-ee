@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982133"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426184"
 ---
 # <a name="sales-agreements-overview"></a>Müügilepingute ülevaade
 
@@ -37,7 +37,7 @@ Müügilepingu kehtivusperiood määratletakse lepingu väljadega **Jõustumisku
 
 Saate luua müügitellimuse otse müügilepingult, kasutades tegevust **Väljalaskeorder**. Teine võimalus on valida tellimuste tegemisel kehtiva müügilepingu (vt selle artikli jaotist „Müügilepingute rakendamine tellimisprotsessis”).  
 
-> [Märkus.] Varasemates versioonides nimetati müügilepinguid müügi raamtellimusteks.
+> [Märkus!] Varasemates versioonides nimetati müügilepinguid müügi raamtellimusteks.
 
 ## <a name="commitment-types"></a>Kohustuse tüübid
 Müügilepingu iga rida väljendab teatud kauba müümise kohustust. Üldiselt on kohustusekategooriaid kaks.

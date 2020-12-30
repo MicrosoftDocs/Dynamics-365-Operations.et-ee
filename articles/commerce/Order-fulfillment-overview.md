@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107203"
+ms.locfileid: "4411823"
 ---
 # <a name="store-order-fulfillment"></a>Kaupluse tellimuse täitmine
 
@@ -40,7 +40,7 @@ Tellimuse täitmist, [toimingu ID 928](https://docs.microsoft.com/dynamics365/un
 
 Tellimuse täitmise toimingul ei ole oma valmisluba, kuid tulevikus on kasutajatel võimalik kasutada kassast toimingu alustamiseks luba nimega **Luba tellimuse toomine**.
 
-Kaupluse tasemel on saadaval konfiguratsioonisäte määramaks, kas tellimuserida peab olema aktsepteeritud kassas käsitsi. Kui see konfiguratsioonivalik pole määratud, aktsepteeritakse tellimuseread vaikimisi. Selle konfiguratsioonivalik sisselülitamisel peavad kasutajad kassas valima loa nimega **Luba tellimuste aktsepteerimine** , et aktsepteerida tellimused kassas.
+Kaupluse tasemel on saadaval konfiguratsioonisäte määramaks, kas tellimuserida peab olema aktsepteeritud kassas käsitsi. Kui see konfiguratsioonivalik pole määratud, aktsepteeritakse tellimuseread vaikimisi. Selle konfiguratsioonivalik sisselülitamisel peavad kasutajad kassas valima loa nimega **Luba tellimuste aktsepteerimine**, et aktsepteerida tellimused kassas.
 
 Tellimuseridu saab kassas ka tagasi lükata. Tellimuserea tagasilükkamine näitab, et seda ei täideta selles kaupluses ja tellimuserida saadetakse tagasi ümbermääramiseks teise kauplusse või lattu. Tellimuserea tagasilükkamise luba antakse loa **Luba tellimuste tagasilükkamine** kaudu.
 
@@ -64,15 +64,15 @@ Kui valitud on mitu rida, kuvatakse tellimuserea üksikasjade hüpikaknas ainult
 
 ## <a name="pending-order-lines"></a>Ootel tellimuseread
 
-Ühtse tellimuse täitmine hõlmab võimalust tellimusi käsitsi aktsepteerida. Vaikimisi on kaupluses täidetavad tellimused juba aktsepteeritud. Kui aga äriprotsessid nõuavad, et tellimused peab aktsepteerima kaupluse tasemel töötaja, saab sisse lülitada käsitsi aktsepteerimise jaekaupluse tasemel. Tellimuse aktsepteerimise lubamiseks minge jaotisse **Jaemüük ja kaubandus** \> **Kanalid** \> **Kauplused** \> **Kõik kauplused**. Avage soovitud kauplus ja leidke vahekaardil **Üldine** alampäis **Tellimuse täitmine**. Sellel alampäisel on suvand **Käsitsi aktsepteerimine** , mille sätteks on vaikimisi määratud **Ei**. Valides selle suvandi sätteks **Jah** ja sünkroonides muudatused kanali andmebaasiga, saavad tellimuseread läbida aktsepteerimisprotsessi.
+Ühtse tellimuse täitmine hõlmab võimalust tellimusi käsitsi aktsepteerida. Vaikimisi on kaupluses täidetavad tellimused juba aktsepteeritud. Kui aga äriprotsessid nõuavad, et tellimused peab aktsepteerima kaupluse tasemel töötaja, saab sisse lülitada käsitsi aktsepteerimise jaekaupluse tasemel. Tellimuse aktsepteerimise lubamiseks minge jaotisse **Jaemüük ja kaubandus** \> **Kanalid** \> **Kauplused** \> **Kõik kauplused**. Avage soovitud kauplus ja leidke vahekaardil **Üldine** alampäis **Tellimuse täitmine**. Sellel alampäisel on suvand **Käsitsi aktsepteerimine**, mille sätteks on vaikimisi määratud **Ei**. Valides selle suvandi sätteks **Jah** ja sünkroonides muudatused kanali andmebaasiga, saavad tellimuseread läbida aktsepteerimisprotsessi.
 
-Töötajad, kellel on luba nimega **Luba tellimuste aktsepteerimine** , saavad avada tellimuse täitmise ja valida aktsepteerimiseks read. Kui read on aktsepteeritud, muutub nende olek sättelt **Ootel** sättele **Aktsepteeritud** ja ülejäänud tellimuse täitmise protsessi saab jätkata. Kui suvand **Käsitsi aktsepteerimine** on sisse lülitatud, ei töödelda tellimusi enne, kui need on aktsepteeritud.
+Töötajad, kellel on luba nimega **Luba tellimuste aktsepteerimine**, saavad avada tellimuse täitmise ja valida aktsepteerimiseks read. Kui read on aktsepteeritud, muutub nende olek sättelt **Ootel** sättele **Aktsepteeritud** ja ülejäänud tellimuse täitmise protsessi saab jätkata. Kui suvand **Käsitsi aktsepteerimine** on sisse lülitatud, ei töödelda tellimusi enne, kui need on aktsepteeritud.
 
 Tellimuste, mis on mõeldud kauplusest kättesaamiseks, olek pole kunagi **Ootel**. Seda tehakse selleks et vältida olukorda, kus klient saabub kauplusse ja tellimuserida ei saa töödelda, kuna sobiva õigusega töötaja pole saadaval.
 
 ## <a name="accepted-order-lines"></a>Aktsepteeritud tellimuseread
 
-Tellimused, mille rea olek on **Aktsepteeritud** , saavad jätkata kassas ülejäänud tellimuse täitmise protsessi läbimist. Pärast tellimuse aktsepteerimist saab tellimusereaga teha kõiki ülejäänud tegevusi.
+Tellimused, mille rea olek on **Aktsepteeritud**, saavad jätkata kassas ülejäänud tellimuse täitmise protsessi läbimist. Pärast tellimuse aktsepteerimist saab tellimusereaga teha kõiki ülejäänud tegevusi.
 
 Näiteks saab aktsepteeritud tellimuserea valida ja seejärel kätte saada otse ilma komplekteerimist ja pakkimist läbimata.
 
@@ -87,7 +87,7 @@ Tegevuste kategooria **Komplekteerimine** on mõeldud tellimuseridade riiulitelt
 - **Kassa tulemolek:** komplekteerimine
 - **Varukontori tulemolek:** muudatusteta
 
-Kui tellimus on aktsepteeritud, saab ridu valida ja nende olekuks märkida **Komplekteerimisel**. Kui märgite rea olekuks **Komplekteerimisel** , näitab see, et real juba tehakse komplekteerimistööd. See takistab kahel töötajal samal ajal samade tellimuseridade komplekteerimist.
+Kui tellimus on aktsepteeritud, saab ridu valida ja nende olekuks märkida **Komplekteerimisel**. Kui märgite rea olekuks **Komplekteerimisel**, näitab see, et real juba tehakse komplekteerimistööd. See takistab kahel töötajal samal ajal samade tellimuseridade komplekteerimist.
 
 **Tegevus: komplekteerimislehe printimine**
 
@@ -105,13 +105,13 @@ Kui read on valitud ja nende ridade kohta komplekteerimisleht prinditud, värske
 - **Tulemolek:** komplekteeritud või osaliselt komplekteeritud
 - **Varukontori tulemolek:** komplekteeritud või osaliselt komplekteeritud
 
-Kui füüsiline komplekteerimisprotsess on tehtud, saab ridade olekuks märkida **Komplekteeritud**. Rea valimine ja selle olekuks **Komplekteeritud** märkimine teeb reaalajas taotluse värskendada tellimuserida. Kui rea olekuks on kassas märgitud **Komplekteeritud** , värskendatakse ka varukontoris selle olekuks **Komplekteeritud** ja laokanded kajastavad, et määratud kogust on vähendatud.
+Kui füüsiline komplekteerimisprotsess on tehtud, saab ridade olekuks märkida **Komplekteeritud**. Rea valimine ja selle olekuks **Komplekteeritud** märkimine teeb reaalajas taotluse värskendada tellimuserida. Kui rea olekuks on kassas märgitud **Komplekteeritud**, värskendatakse ka varukontoris selle olekuks **Komplekteeritud** ja laokanded kajastavad, et määratud kogust on vähendatud.
 
 Tellimuste töötlemisel aja jooksul saab kindla rea puhul töödelda osalisi koguseid. Kui rida on valitud ja tegevus **Komplekteerituks märkimine** tehtud ning kogus on suurem kui üks, küsitakse kasutajalt kogust. Järelejäänud komplekteeritav kogus sisestatakse automaatselt. Kui määratud kogus on järelejäänud kogusest väiksem, muutub rea olekuks **Osaliselt komplekteeritud**. Tellimuserea värskendamisel varukontoris kajastab see ka osaliselt komplekteeritud olekut ja varude värskendamiseks kasutatakse kasutaja sisestatud kogust.
 
 Kui tellimuserida on komplekteeritud ekslikult, tuleb varukontoris teha tellimusereal komplekteerimise tühistamise protsess. Komplekteerimise tühistamise protsessi praegu kassas ei toetata.
 
-Tellimuseridu erinevatelt tellimustelt saab valida ja märkida nende olekuks **Komplekteerimine** , printida samale komplekteerimislehele ja märkida olekuks **Komplekteeritud**.
+Tellimuseridu erinevatelt tellimustelt saab valida ja märkida nende olekuks **Komplekteerimine**, printida samale komplekteerimislehele ja märkida olekuks **Komplekteeritud**.
 
 ### <a name="pack"></a>Pakkimine
 
@@ -135,7 +135,7 @@ Kui tellimuserida on pakitud ekslikult, tuleb saatelehe töölehte korrigeerida 
 
 Korraga saab pakkida ainult samal real olevaid ja sama tarneviisiga ridu.
 
-Praegu on suvand, mis võimaldab märkida kaupluse kättesaamisridade olekuks **Pakitud** , keelatud. See võimalus lisatakse tulevases väljaandes. Saatelehe loomise protsessi täiustatakse, nii et see toetaks muu osapoole lähetusteabe sisestamist saatelehe protsessi.
+Praegu on suvand, mis võimaldab märkida kaupluse kättesaamisridade olekuks **Pakitud**, keelatud. See võimalus lisatakse tulevases väljaandes. Saatelehe loomise protsessi täiustatakse, nii et see toetaks muu osapoole lähetusteabe sisestamist saatelehe protsessi.
 
 ### <a name="pick-up"></a>Komplekteeri
 
@@ -180,7 +180,7 @@ Ridu või osalisi ridu saab tagasi lükata. See võimaldab neid varukontorist ü
 - **Tulemolek:** tagasi lükatud
 - **Varukontori tulemolek:** muudatusteta
 
-Tagasilükatud ridu saab vaadata tööruumis **Müügitellimuse töötlemine ja päring**. Kõigi tagasilükatud tellimuseridade nägemiseks kõigis kauplustes eemaldage tööruumis isikufilter. Vahekaardil **Tagasilükatud tellimuseread** jaotises **Tellimused ja lemmikud** kuvatakse tellimuserea üksikasjad. Peale selle saavad kasutajad klõpsata nuppu **Tagasilükatud tellimuseread** jaotises **Kokkuvõte** , et minna müügitellimuse vaatesse. Kuvatakse kõik tellimused, millel on üks või mitu tagasilükatud tellimuserida. Kui jaotatud tellimusehaldus (DOM) on lubatud, määratakse tagasilükatud tellimused täitmiseks automaatselt ümber sobivatesse kauplustesse, kuid neid tellimuseridu saab ka käsitsi ümber määrata. Selleks valige rida, mille suvandi **Täitmise olek** sätteks on **Tagasi lükatud** , ja muutke vajadust mööda laoala/ladu. Klõpsake rippmenüüd **Rea värskendamine** ja klõpsake valikut **Lähtesta täitmise olek** , et muuta täitmise olek sättelt **Tagasi lükatud** sättele **Aktsepteeritud** või **Ootel** olenevalt tellimuse täitmise seadistusest. Kui täitmise olek on lähtestatud, saavad kaupluse töötajad vaadata tellimusridu kassas.
+Tagasilükatud ridu saab vaadata tööruumis **Müügitellimuse töötlemine ja päring**. Kõigi tagasilükatud tellimuseridade nägemiseks kõigis kauplustes eemaldage tööruumis isikufilter. Vahekaardil **Tagasilükatud tellimuseread** jaotises **Tellimused ja lemmikud** kuvatakse tellimuserea üksikasjad. Peale selle saavad kasutajad klõpsata nuppu **Tagasilükatud tellimuseread** jaotises **Kokkuvõte**, et minna müügitellimuse vaatesse. Kuvatakse kõik tellimused, millel on üks või mitu tagasilükatud tellimuserida. Kui jaotatud tellimusehaldus (DOM) on lubatud, määratakse tagasilükatud tellimused täitmiseks automaatselt ümber sobivatesse kauplustesse, kuid neid tellimuseridu saab ka käsitsi ümber määrata. Selleks valige rida, mille suvandi **Täitmise olek** sätteks on **Tagasi lükatud**, ja muutke vajadust mööda laoala/ladu. Klõpsake rippmenüüd **Rea värskendamine** ja klõpsake valikut **Lähtesta täitmise olek**, et muuta täitmise olek sättelt **Tagasi lükatud** sättele **Aktsepteeritud** või **Ootel** olenevalt tellimuse täitmise seadistusest. Kui täitmise olek on lähtestatud, saavad kaupluse töötajad vaadata tellimusridu kassas.
 
 ## <a name="line-quantity-tracking"></a>Reakoguse jälgimine
 
@@ -195,7 +195,7 @@ Jätkates ülaltoodud näitega – kui 200 plaati on märgitud pakituks ja lähe
 Tellimuseridadel kassas on mitu olekut, mis kajastavad tellimuserea olekut. Olekud kassas ja varukontoris ei pruugi alati ühtida. Tellimuserea olekut saab vaadata kassa kaudu, kasutades tellimuse täitmise toiminguid. Varukontoris saab tellimuseridu vaadata tellimuse üksikasjadest. Tellimuse üksikasjadele pääseb juurde jaotisest **Jaemüük ja kaubandus** \> **Kliendid** \> **Kõik kliendi tellimused**. Tellimuse üksikasjade vaatamiseks valige suvand **Tellimuse ID**. Tellimuse üksikasjades valige vahekaart **Müügitellimus** ja siis valige alapäise **Vaade** all suvand **Üksikasjalik olek**.
 
 - **Ootel** – kauplusele määratud, kuid veel aktsepteerimata tellimuseridade olek on kassas vaadatuna **Ootel**. Kassas aktsepteerimise ootel olevate ridade olek on varukontoris **Tellimuse töötlemine**.
-- **Aktsepteeritud** – käsitsi aktsepteeritud või automaatselt aktsepteeritud ridade olek on kassas vaadatuna **Aktsepteeritud**. Ridade, mille olek on **Aktsepteeritud** , olek on varukontoris **Tellimuse töötlemine**.
+- **Aktsepteeritud** – käsitsi aktsepteeritud või automaatselt aktsepteeritud ridade olek on kassas vaadatuna **Aktsepteeritud**. Ridade, mille olek on **Aktsepteeritud**, olek on varukontoris **Tellimuse töötlemine**.
 - **Komplekteerimine** – parasjagu kauplusetasemel komplekteeritavate ridade olek on **Komplekteerimine**. Samade ridade olek varukontorist vaadatuna on **Tellimuse töötlemine**.
 - **Komplekteeritud** ja **Osaliselt komplekteeritud** – kassas komplekteeritud või osaliselt komplekteeritud ridade olek on **Komplekteeritud** või **Osaliselt komplekteeritud**. Samade ridade olek varukontoris on samuti **Komplekteeritud** või **Osaliselt komplekteeritud**.
 - **Pakitud** ja **Osaliselt pakitud** – kassas pakitud või osaliselt pakitud ridade olek on **Pakitud** või **Osaliselt pakitud**. Samade ridade olek varukontoris on samuti **Tarnitud** või **Osaliselt tarnitud**.
@@ -204,7 +204,7 @@ Tellimuseridadel kassas on mitu olekut, mis kajastavad tellimuserea olekut. Olek
 
 ## <a name="order-fulfillment-filtering"></a>Tellimuse täitmise filtrimine
 
-Tellimuse täitmine kassas hõlmab filtrimist, et aidata kasutajal otsitavat hõlpsasti leida. Filtreid saab muuta kuva **Kassa** alaservas oleva toimingupaani kaudu. Vaikimisi on olenevalt toimingu seadistusest rakendatud filter **Tarnetüüp**. Kui toiming on seadistatud parameetriga **Kõik tellimused** , rakendatakse seda filtrit tellimuse täitmise kasutamisel. Sama kehtib ka parameetrite **Kauplusest kättesaamine** ja **Kauplusest lähetamine** puhul. Muud tellimuse täitmisele rakendatavad filtrid on järgmised.
+Tellimuse täitmine kassas hõlmab filtrimist, et aidata kasutajal otsitavat hõlpsasti leida. Filtreid saab muuta kuva **Kassa** alaservas oleva toimingupaani kaudu. Vaikimisi on olenevalt toimingu seadistusest rakendatud filter **Tarnetüüp**. Kui toiming on seadistatud parameetriga **Kõik tellimused**, rakendatakse seda filtrit tellimuse täitmise kasutamisel. Sama kehtib ka parameetrite **Kauplusest kättesaamine** ja **Kauplusest lähetamine** puhul. Muud tellimuse täitmisele rakendatavad filtrid on järgmised.
 
 - Kliendi number
 - Kliendi nimi

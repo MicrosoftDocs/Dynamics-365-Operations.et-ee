@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017502"
+ms.locfileid: "4426650"
 ---
 # <a name="immediate-replenishment"></a>Viivitamatu täiendamine
 
@@ -47,7 +47,7 @@ Viivitamatut täiendamist kasutatakse laine käivitamise ajal, kui eraldamine nu
 
 ## <a name="set-up-immediate-replenishment"></a>Viivitamatu täiendamise seadistamine
 
-- Tehke valikud **Laohaldus** \> **Seadistus** \> **Asukohakorraldused** , seejärel valige voo nõude jaoks vahekaardi **Read** loendis **Viivitamatu täiendamise mall** täiendamise mall.
+- Tehke valikud **Laohaldus** \> **Seadistus** \> **Asukohakorraldused**, seejärel valige voo nõude jaoks vahekaardi **Read** loendis **Viivitamatu täiendamise mall** täiendamise mall.
 
 Täiendamise mall rakendatakse, kui asukohakorralduse real ei õnnestu sihtotstarbelist mõõtühikut eraldada.
 

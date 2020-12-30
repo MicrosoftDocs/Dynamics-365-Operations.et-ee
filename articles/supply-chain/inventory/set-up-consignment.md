@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 51f7d6b0402ebbed417554978fc8d927f6b9c606
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207205"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426531"
 ---
 # <a name="set-up-consignment"></a>Veose seadistamine
 
@@ -44,7 +44,7 @@ Veose protsessides kasutatavad kaubad tuleb seostada valikuga **Jälgimisdimensi
 [![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Varude omandiõiguse muutmise tööleht
-Töölehte **Varude omandiõiguse muutmine**kasutatakse, et kirjendada veose varude omandiõiguse ülekannet hankijalt juriidilisele isikule, kes seda tarbib. Nagu iga varude töölehega, tuleb see tuvastada lao töölehe nimega. Need nimed luuakse lehel **Lao töölehe nimed** ja valik **Töölehe tüüp** tuleb määrata sättele **Omandiõiguse muutmine**.
+Töölehte **Varude omandiõiguse muutmine** kasutatakse, et kirjendada veose varude omandiõiguse ülekannet hankijalt juriidilisele isikule, kes seda tarbib. Nagu iga varude töölehega, tuleb see tuvastada lao töölehe nimega. Need nimed luuakse lehel **Lao töölehe nimed** ja valik **Töölehe tüüp** tuleb määrata sättele **Omandiõiguse muutmine**.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

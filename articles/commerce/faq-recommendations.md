@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664974"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411564"
 ---
 # <a name="product-recommendations-faq"></a>Tootesoovituste KKK
 
@@ -81,7 +81,7 @@ Pärast tootesoovituste lubamist peate lisama soovituste paneeli juhtelemendi ka
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[ Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
+[Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
 
 [Luba tootesoovitused](enable-product-recommendations.md)
 

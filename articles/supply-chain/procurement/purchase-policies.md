@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 00200bc79f83e9d072ff8220c89a6aaa70cb07a5
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018717"
+ms.locfileid: "4426692"
 ---
 # <a name="purchasing-policies-overview"></a>Ostupoliitikate ülevaade
 
@@ -81,9 +81,9 @@ Kataloogi poliitikareegel määrab, millised hankekataloogi kasutajad näevad os
 
 Kategooria juurdepääsupoliitika reegel määrab, millistele kategooriatele on kasutajatel juurdepääs ostutaotluste loomisel. Kui ühtegi reeglit pole määratud, saab ostutaotlusele lisada kõik hankekategooriad.
 
-1.  Valige suvand **Kaasa emareegel** , et rakendada kategooriale emaorganisatsiooni kategooria juurdepääsupoliitika reegel.
+1.  Valige suvand **Kaasa emareegel**, et rakendada kategooriale emaorganisatsiooni kategooria juurdepääsupoliitika reegel.
 2.  Valige paanil **Saadaolevad kategooriad** kategooriad, millele reegel rakendub. Kui valite kategooria, lisatakse loendisse **Valitud kategooriad** ka kõik kategooriad, mis on hierarhias kõrgemal.
-3.  Valige suvand **Kaasa alamkategooriad** , et rakendada reeglit kõikidele valitud kategooria alamkategooriatele.
+3.  Valige suvand **Kaasa alamkategooriad**, et rakendada reeglit kõikidele valitud kategooria alamkategooriatele.
 
 ### <a name="category-policy-rule"></a>Kategooria poliitikareegel
 
@@ -127,8 +127,8 @@ Ostutellimuse loomise ja nõude konsolideerimise reegel määratleb poliitikaree
 
 -   Vahekaardil **Ostutellimuse tükeldamine** saate määratleda ostutaotluse ridade eraldi ostutellimusteks tükeldamise kriteeriumi.
 -   Vahekaardil **Hinna/allahindluse ülekanne** saate määratleda, millal arvutada ümber hinnalepe, kui loodud onostutellimus.
-    -   **Ainult kaubandusleppe puudumisel** : hinnad ja allahindlused kantakse ostutaotluselt üle vaid juhul, kui kehtiv kaubanduslepe või baashind puudub. Kui kauba või hankija kaubanduslepe või baashind on olemas, arvutatakse hinnad ja allahindlused ümber kaubandusleppe või baashinna alusel ning rakendatakse ostutellimusele. Kui pole sätestatud teisiti, siis on see vaikekäitumine.
-    -   **Alati** : hinnad ja allahindlused kantakse alati ostutaotlusest üle.
+    -   **Ainult kaubandusleppe puudumisel**: hinnad ja allahindlused kantakse ostutaotluselt üle vaid juhul, kui kehtiv kaubanduslepe või baashind puudub. Kui kauba või hankija kaubanduslepe või baashind on olemas, arvutatakse hinnad ja allahindlused ümber kaubandusleppe või baashinna alusel ning rakendatakse ostutellimusele. Kui pole sätestatud teisiti, siis on see vaikekäitumine.
+    -   **Alati**: hinnad ja allahindlused kantakse alati ostutaotlusest üle.
 
     Samuti saate anda nõude esitajale loa muuta hinna ja allahindluse ülekandmise viisi üksikute ostutaotluse ridade puhul Valige suvand **Luba ostutaotluse ridadel manuaalne alistamine** selle võimaluse aktiveerimiseks.
 -   Vahekaardil **Kauba kirjelduse kanne** saate kauba kirjelduse taotluselt üle kanda, kui see pärineb pakkumiskutselt.
@@ -140,13 +140,13 @@ Ostutellimuse loomise ja nõude konsolideerimise reegel määratleb poliitikaree
 -   Vahekaardil **Ostutellimuse käsitsi loomine** saate määratleda parameetrid, mis määravad, kas ostutaotlust tuleb töödelda käsitsi või kas seda saab automaatselt ostutellimuseks teisendada. Parameetrid võivad kehtida sisekataloogi kaupadele, väliskataloogi kaupadele ja mittekataloogi kaupadele. Tehke üks järgmistest valikutest:
     -   **Loo ostutellimused käsitsi** – looge kõikide ostutaotluste puhul ostutellimused käsitsi.
     -   **Loo ostutellimused automaatselt** – looge kõikide kinnitatud ostutaotluste ostutellimused automaatselt. Käsitsi ostutellimuse loomiseks ei säilitata ühtki ostutaotlust.
-    -   **Loo ostutellimusi automaatselt, v.a nendel tingimustel** – looge ostutellimused käsitsi ostutaotlustele, mis vastavad teie määratletud kriteeriumile. Kõik muud kinnitatud ostutaotlused teisendatakse automaatselt ostutellimusteks. Kui teete valiku **Loo ostutellimusi automaatselt, v.a nendel tingimustel** , saate lisada hankekategooriad ja hankijad määramaks, millised kinnitatud ostutaotluse read säilitatakse käsitsi töötlemiseks. See suvand võib kehtida sisekataloogi kaupadele, väliskataloogi kaupadele ja mittekataloogi kaupadele. Hankekategooria valimisel valitakse ka kõik hankekategooria alamkategooriad. Valige suvand **Kõik** teatud tüüpi ostutaotluse rea puhul, et säilitada käsitsi töötlemiseks kõik seda tüüpi read.
+    -   **Loo ostutellimusi automaatselt, v.a nendel tingimustel** – looge ostutellimused käsitsi ostutaotlustele, mis vastavad teie määratletud kriteeriumile. Kõik muud kinnitatud ostutaotlused teisendatakse automaatselt ostutellimusteks. Kui teete valiku **Loo ostutellimusi automaatselt, v.a nendel tingimustel**, saate lisada hankekategooriad ja hankijad määramaks, millised kinnitatud ostutaotluse read säilitatakse käsitsi töötlemiseks. See suvand võib kehtida sisekataloogi kaupadele, väliskataloogi kaupadele ja mittekataloogi kaupadele. Hankekategooria valimisel valitakse ka kõik hankekategooria alamkategooriad. Valige suvand **Kõik** teatud tüüpi ostutaotluse rea puhul, et säilitada käsitsi töötlemiseks kõik seda tüüpi read.
 
-    Kui soovite, et ostutellimused loodaks ostutellimuse loomise pakett-töö käivitamisel kinnitatud ostutaotlustest automaatselt, valige suvand **Ostutellimuse automaatse loomise käivitamine pakett-tööna**. See suvand kehtib ainult ostutaotlustele, mis ei nõua käsitsi töötlemist. Automaatse ostutellimuse loomise käivitamisel pakett-tööna saate plaanida selle tegevuse ajal, kui ressursid on vähem piiratud. Kui ostutaotluse ridadel on valitud suvand **Nõutav ettemakse** , valige suvand **Kui taotlus on ettemakse jaoks häälestatud** , et säilitada kinnitatud ostutaotlused käsitsi töötlemiseks. Käsitsi töötlemiseks säilitatavaid ostutaotlusi saab filtreerida nii, et saate vaadata ainult neid ostutaotluse ridu, mis nõuavad ettemakset.
+    Kui soovite, et ostutellimused loodaks ostutellimuse loomise pakett-töö käivitamisel kinnitatud ostutaotlustest automaatselt, valige suvand **Ostutellimuse automaatse loomise käivitamine pakett-tööna**. See suvand kehtib ainult ostutaotlustele, mis ei nõua käsitsi töötlemist. Automaatse ostutellimuse loomise käivitamisel pakett-tööna saate plaanida selle tegevuse ajal, kui ressursid on vähem piiratud. Kui ostutaotluse ridadel on valitud suvand **Nõutav ettemakse**, valige suvand **Kui taotlus on ettemakse jaoks häälestatud**, et säilitada kinnitatud ostutaotlused käsitsi töötlemiseks. Käsitsi töötlemiseks säilitatavaid ostutaotlusi saab filtreerida nii, et saate vaadata ainult neid ostutaotluse ridu, mis nõuavad ettemakset.
 -   Vahekaardil **Nõudluse konsolideerimine** saate määratleda parameetrid, mis määravad, kas käsitsi töödeldud ostutaotlusi saab kaasata ostutaotluse konsolideerimisse. Parameetrid võivad kehtida sisekataloogi kaupadele, väliskataloogi kaupadele ja mittekataloogi kaupadele. Tehke üks järgmistest valikutest:
     -   **Ära luba nõudluskonsolideerimist** – nõudluskonsolideerimise puhul ei ole sobilikke kinnitatud ostutellimuse ridu. See suvand on vaikimisi valitud ja kehtib ainult ostutaotluse ridadele, mis nõuavad ostutellimuse loomisel käsitsi töötlemist.
-    -   **Luba alati nõudluskonsolideerimine** – nõudluskonsolideerimise puhul on sobilikud kõik kinnitatud ostutellimuse read. **Märkus.** Kui valite vahekaardil **Nõudluskonsolideerimine** suvandi **Luba alati nõudluskonsolideerimine** , kuid valite vahekaardil **Ostutellimuse käsitsi loomine** suvandi **Loo ostutellimused automaatselt** , säilitatakse kõik ostutaotlused käsitsi töötlemiseks.
-    -   **Luba nõudluskonsolideerimine nendel tingimustel** – määrake kriteerium, mis määrab, kas kinnitatud ostutaotluse read on nõudluskonsolideerimise puhul sobilikud. Iga ostutaotluse rea tüübi puhul saate määrata kriteeriumid hankekategooria ja hankija alusel. Kui teete valiku **Luba nõudluskonsolideerimine nendel tingimustel** , saate iga ostutaotluse rea tüübi puhul määrata kriteeriumid hankekategooria ja hankija alusel. Hankekategooria valimisel valitakse ka kõik hankekategooria alamkategooriad. Kui valite suvandi **Kõik** konkreetse rea tüübi puhul, sobivad kõik seda tüüpi ostutaotluse read nõudluskonsolideerimiseks.
+    -   **Luba alati nõudluskonsolideerimine** – nõudluskonsolideerimise puhul on sobilikud kõik kinnitatud ostutellimuse read. **Märkus.** Kui valite vahekaardil **Nõudluskonsolideerimine** suvandi **Luba alati nõudluskonsolideerimine**, kuid valite vahekaardil **Ostutellimuse käsitsi loomine** suvandi **Loo ostutellimused automaatselt**, säilitatakse kõik ostutaotlused käsitsi töötlemiseks.
+    -   **Luba nõudluskonsolideerimine nendel tingimustel** – määrake kriteerium, mis määrab, kas kinnitatud ostutaotluse read on nõudluskonsolideerimise puhul sobilikud. Iga ostutaotluse rea tüübi puhul saate määrata kriteeriumid hankekategooria ja hankija alusel. Kui teete valiku **Luba nõudluskonsolideerimine nendel tingimustel**, saate iga ostutaotluse rea tüübi puhul määrata kriteeriumid hankekategooria ja hankija alusel. Hankekategooria valimisel valitakse ka kõik hankekategooria alamkategooriad. Kui valite suvandi **Kõik** konkreetse rea tüübi puhul, sobivad kõik seda tüüpi ostutaotluse read nõudluskonsolideerimiseks.
 
 
 

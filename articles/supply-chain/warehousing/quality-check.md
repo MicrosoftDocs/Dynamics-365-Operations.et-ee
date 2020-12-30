@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016627"
+ms.locfileid: "4426656"
 ---
 # <a name="quality-check"></a>Kvaliteedikontroll
 
@@ -123,7 +123,7 @@ Töömallid võimaldavad teil määratleda tööüksuse toimingud, mida tuleb la
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Valige töömall, mis peaks sisaldama kvaliteedikontrolli etappi. Valige jaotise **Ülevaade** väljal **Töömall** suvand *51 Ostutellimuse vastuvõtmine*.
 1. Märkate, et jaotise **Töömalli üksikasjad** tabelis on kaks olemasolevat rida: üks tegevusele *Komplekteerimine* ja teine tegevusele *Ladustamine*.
-1. Tehke jaotises **Töömalli üksikasjad** valik **Uus** , et lisada tabelisse kvaliteedikontrolli rida. Pange tähele, et uue rea välja **Reanumber** väärtuseks on määratud *3*.
+1. Tehke jaotises **Töömalli üksikasjad** valik **Uus**, et lisada tabelisse kvaliteedikontrolli rida. Pange tähele, et uue rea välja **Reanumber** väärtuseks on määratud *3*.
 1. Määrake uuel real järgmised väärtused. Võtke vastu ülejäänud väljade vaikeväärtused.
 
     - **Töö tüüp:** *Kvaliteedikontroll*
@@ -139,7 +139,7 @@ Töömallid võimaldavad teil määratleda tööüksuse toimingud, mida tuleb la
 1. Uue rea **Reanumbri** väärtuse muutmiseks toimige järgmiselt.
 
     1. Valige jaotises **Töömalli üksikasjad** rida, milles välja **Töö tüüp** väärtuseks on määratud *Kvaliteedikontroll*.
-    2. Valige nupud **Teisalda üles** või **Teisalda alla** , et viia rida *Kvaliteedikontroll* kohta, kus see asub pärast rida *Komplekteerimine*.
+    2. Valige nupud **Teisalda üles** või **Teisalda alla**, et viia rida *Kvaliteedikontroll* kohta, kus see asub pärast rida *Komplekteerimine*.
 
 1. Valige toimingupaanil nupp **Salvesta**.
 
@@ -148,7 +148,7 @@ Töömallid võimaldavad teil määratleda tööüksuse toimingud, mida tuleb la
 Järgmisena looge kvaliteedikontrolli jaoks töömall.
 
 1. Muutke lehe **Töömallid** päises välja **Töökäsu tüüp** väärtuseks *Kvaliteet kvaliteedikontrollis*.
-1. Valige tegevuspaanil suvand **Uus** , et lisada rida jaotise **Ülevaade** tabelisse.
+1. Valige tegevuspaanil suvand **Uus**, et lisada rida jaotise **Ülevaade** tabelisse.
 1. Määrake uuel real järgmised väärtused.
 
     - **Töömall:** *51 Kvaliteedikontroll*
@@ -157,7 +157,7 @@ Järgmisena looge kvaliteedikontrolli jaoks töömall.
 
     - **Töömalli kirjeldus:** *51 Kvaliteedikontroll*
 
-1. Valige tegevuspaanil **Salvesta** , et muuta jaotis **Töömalli üksikasjad** kättesaadavaks.
+1. Valige tegevuspaanil **Salvesta**, et muuta jaotis **Töömalli üksikasjad** kättesaadavaks.
 1. Kui jaotises **Ülevaade** on uus mall endiselt valitud, tehke jaotises **Töömalli üksikasjad** valik **Uus** ja lisage rida seal olevasse tabelisse.
 1. Määrake uuel real järgmised väärtused.
 
@@ -197,7 +197,7 @@ Asukoha korraldused on reeglid, mis aitavad tuvastada komplekteerimise ja mahapa
     - **Ladu:** *51*
 
 1. Korralduse salvestamiseks tegevuspaanil valige **Salvesta** ja muutke kiirkaart **Read** kättesaadavaks.
-1. Valige kiirkaardil **Read** suvand **Uus** , et lisada rida ruudustikku.
+1. Valige kiirkaardil **Read** suvand **Uus**, et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused. Võtke vastu ülejäänud väljade vaikeväärtused.
 
     - **Alates kogusest:** *1*
@@ -206,9 +206,9 @@ Asukoha korraldused on reeglid, mis aitavad tuvastada komplekteerimise ja mahapa
 1. Uue rea salvestamiseks ja kiirkaardi **Asukohakorralduse tegevused** kättesaadavaks muutmiseks valige tegevuspaanil **Salvesta**.
 1. Kui kiirkaardil **Read** on uus rida endiselt valitud, tehke kiirkaardil **Asukohakorralduse toimingud** valik **Uus** rea sinna lisamiseks tabelis, et saaksite rea jaoks tegevuse häälestada.
 1. Uues reas määrake välja **Nimi** väärtuseks *Kvaliteet*. Võtke vastu ülejäänud väljade vaikeväärtused.
-1. Valige tegevuspaanil **Salvesta** , et muuta kiirkaardi **Asukohakorralduse tegevused** nupp **Redigeeri päringut** kättesaadavaks.
-1. Kui teie lisatud rida on kiirkaardil **Asukohakorralduse tegevused** endiselt valitud, valige käsk **Redigeeri päringut** , et avada dialoogiboks, kus saate redigeerida tegevuse päringut.
-1. Vahekaardil **Vahemik** valige käsk **Lisa** , et lisada uus rida päringusse.
+1. Valige tegevuspaanil **Salvesta**, et muuta kiirkaardi **Asukohakorralduse tegevused** nupp **Redigeeri päringut** kättesaadavaks.
+1. Kui teie lisatud rida on kiirkaardil **Asukohakorralduse tegevused** endiselt valitud, valige käsk **Redigeeri päringut**, et avada dialoogiboks, kus saate redigeerida tegevuse päringut.
+1. Vahekaardil **Vahemik** valige käsk **Lisa**, et lisada uus rida päringusse.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** *Asukohad*
@@ -216,10 +216,10 @@ Asukoha korraldused on reeglid, mis aitavad tuvastada komplekteerimise ja mahapa
     - **Väli:** *Asukoht*
     - **Kriteeriumid:** *QMS*
 
-    *QMS* -i asukoht on kvaliteedi laoasukoht.
+    *QMS*-i asukoht on kvaliteedi laoasukoht.
 
 1. Valige dialoogiboksi sulgemiseks suvand **OK**.
-1. Nüüd peate lao *51* jaoks muutma ostutellimuse asukohakorralduste järjestust. Salvestage uus asukohakorraldus *51 kvaliteedikontrolli* , värskendage lehte ja valige loendist asukohakorraldus. Seejärel kasutage lao *51* asukohakorralduse järgmisesse järjestusse panemiseks tegevuspaanil nuppe **Nihuta üles** ja **Nihuta alla**. (Enne kui valite **Nihuta üles** või **Nihuta alla** , peate loendis valima asukohakorralduse.)
+1. Nüüd peate lao *51* jaoks muutma ostutellimuse asukohakorralduste järjestust. Salvestage uus asukohakorraldus *51 kvaliteedikontrolli*, värskendage lehte ja valige loendist asukohakorraldus. Seejärel kasutage lao *51* asukohakorralduse järgmisesse järjestusse panemiseks tegevuspaanil nuppe **Nihuta üles** ja **Nihuta alla**. (Enne kui valite **Nihuta üles** või **Nihuta alla**, peate loendis valima asukohakorralduse.)
 
     1. 51 Kvaliteedikontrolli
     2. 51 otse-PO
@@ -308,10 +308,10 @@ Pärast ostutellimuse loomist saab selle vastu võtta, kasutades menüü-üksust
 1. Kinnitage ostutellimuse number.
 1. Sisestage sissetuleva ostutellimuse rea number väljale **LINENUM**. Kuna tellimusel on selles stsenaariumis ainult üks rida, sisestate väljale **LINENUM** iga vastuvõtmisetapi jaoks *1*.
 1. Kinnitage reanumber.
-1. Sisestage vastuvõetav kogus väljale **Kogus**. Kuna selle stsenaariumi ostutellimuses on kolm kaubaalust ( *PL* ) ja vastuvõtu etappe on kolm, sisestate iga vastuvõtuetapi jaoks väljale **Kogus** numbri *1*.
+1. Sisestage vastuvõetav kogus väljale **Kogus**. Kuna selle stsenaariumi ostutellimuses on kolm kaubaalust (*PL*) ja vastuvõtu etappe on kolm, sisestate iga vastuvõtuetapi jaoks väljale **Kogus** numbri *1*.
 1. Kinnitage kogus.
 
-    Kuvataval lehel **Kvaliteedikontroll** pole sisestusvälju. Sellel on allosas ainult kinnituse (märge) nupp ja ülaosas menüünupp ( **≡** ). (Menüünupule on mõnikord viidatud ka kui hamburgerile või hamburgerinupule). Kvaliteedikontrolli protsessi kiirendamiseks, kui kaubaalus läbib kvaliteedikontrolli, kinnitab kasutaja vaid lehe **Kvaliteedikontroll**.
+    Kuvataval lehel **Kvaliteedikontroll** pole sisestusvälju. Sellel on allosas ainult kinnituse (märge) nupp ja ülaosas menüünupp (**≡**). (Menüünupule on mõnikord viidatud ka kui hamburgerile või hamburgerinupule). Kvaliteedikontrolli protsessi kiirendamiseks, kui kaubaalus läbib kvaliteedikontrolli, kinnitab kasutaja vaid lehe **Kvaliteedikontroll**.
 
     ![Kvaliteedikontrolli leht](media/quality-check.png "Kvaliteedikontrolli leht")
 
@@ -342,8 +342,8 @@ Selles stsenaariumis lükatakse kaubaalus 2 tagasi.
 
     Kuvatakse leht **Kvaliteedikontroll**. Selle vastuvõtu puhul on kaubaaluse kvaliteet tagasi lükatud ja pannakse kvaliteediasukohta *QMS*.
 
-1. Valige lehe ülaosas nupp Menüü ( **≡** ) ja seejärel valige menüüs **Lükka tagasi**.
-1. Sisestage kuvatavale lehele **Ülesanne** suvand **QMS** asukohana *Ladusta* , et saate kaubaalus täiendavasse kontrolli.
+1. Valige lehe ülaosas nupp Menüü (**≡**) ja seejärel valige menüüs **Lükka tagasi**.
+1. Sisestage kuvatavale lehele **Ülesanne** suvand **QMS** asukohana *Ladusta*, et saate kaubaalus täiendavasse kontrolli.
 
     Kuvataval lehel **Kvaliteet kvaliteedikontrollis: ladustamine** kuvatakse ladustamistöö üksikasjad.
 
@@ -394,6 +394,6 @@ Selle stsenaariumi võetakse kaubaalus 3 vastu.
 
     Vastuvõtva ostutellimuse rea lehele **Ülesanne** saate teate "Töö on lõpule viidud". Väli **LINENUM** on saadaval, et saaksite hakata vastu võtma järgmist kaubaalust.
 
-1. Valige lehe ülaosas nupp Menüü ( **≡** ) ja seejärel tehke menüüsse naasmiseks valik **Tühista**.
+1. Valige lehe ülaosas nupp Menüü (**≡**) ja seejärel tehke menüüsse naasmiseks valik **Tühista**.
 
 Nüüd saate mobiilirakenduse sulgeda.

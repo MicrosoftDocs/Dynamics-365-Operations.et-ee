@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982253"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426073"
 ---
 # <a name="weighted-average-date"></a>Kaalutud keskmine kuupäev
 
@@ -38,7 +38,7 @@ Kui sellel kuupäeval või enne seda on toimunud ainult üks sissetulek, ei ole 
 
 Kaalutud keskmise kuupäeva kuluarvutusmeetodi arvutamiseks kasutatakse järgmist valemit. 
 
-Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Varude sulgemise ajal tehakse arvutus iga päev sulgemisperioodi kaudu, nagu on näidatud järgmisel joonisel. 
 

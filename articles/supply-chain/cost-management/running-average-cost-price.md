@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 73cdede298375bf61899babb41b1444afe3f20ff
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214408"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426339"
 ---
 # <a name="running-average-cost-price"></a>Keskmine jooksev omahind
 
@@ -56,7 +56,7 @@ Harvadel juhtudel kujundab süsteem mitme väljamineku hinna, enne kui hinna alu
 2.  Väljastate rahaliselt koguse 200.
 3.  Saate füüsiliselt koguse 101 hinnaga USD 202.00.
 
-Kui uurite kauba eeldatavat jooksvat keskmist omahinda, eeldate omahinda USD 1.51. Selle asemel leiate hinnangulise jooksva keskmise USD 102.00, mis põhineb järgmisel valemil: hinnanguline hind = \[202 + (–100)]\] ÷ \[101 + (–100)\] = 102 ÷ 1 = 102 See hinnavõimendus toimub, kuna 200 üksuse väljastamisel rahaliselt sammus 2 peab süsteem määrama hinna 100 üksusele enne, kui on olemas vastavaid sissetulekuid. Selline olukord põhjustab negatiivse laovaru. Süsteem prognoosib siis ühiku hinnaks USD 1.00, nagu võib eeldada. Kuid kui vastavad 100 sissetulekut saabuvad, on nende iga ühiku hind USD 2.00. 
+Kui uurite kauba eeldatavat jooksvat keskmist omahinda, eeldate omahinda USD 1.51. Selle asemel leiate hinnangulise jooksva keskmise USD 102.00, mis põhineb järgmisel valemil: hinnanguline hind = \[202 + (–100)\] ÷ \[101 + (–100)\] = 102 ÷ 1 = 102 See hinnavõimendus toimub, kuna 200 üksuse väljastamisel rahaliselt sammus 2 peab süsteem määrama hinna 100 üksusele enne, kui on olemas vastavaid sissetulekuid. Selline olukord põhjustab negatiivse laovaru. Süsteem prognoosib siis ühiku hinnaks USD 1.00, nagu võib eeldada. Kuid kui vastavad 100 sissetulekut saabuvad, on nende iga ühiku hind USD 2.00. 
 
 **Märkus:** kuigi väljaminekud tekitavad negatiivse laovaru, on väljastamise hinna arvutamisel laovaru positiivne. Seetõttu kasutataksegi kauba põhikirje hinna asemel jooksvat keskmist omahinda. Selles punktis on süsteemil laoväärtuse tasakaalustus USD 100.00. Kuigi see tasakaalustus kogunes 100 ühikult, kui iga ühiku tasakaalustus oli USD 1.00, on meil nüüd laos üks ühik. Seega eraldatakse tasakaalustus USD 100.00 sellele ühele ühikule. Tulemuseks on liigselt paisutatud eeldatav omahind. 
 

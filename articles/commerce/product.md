@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7afe9225b8fc966ca154a5eb7421e8d4cc7c3023
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664830"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411784"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Tootesoovituste lisamine kassas
 
@@ -73,7 +73,7 @@ Tootesoovituste seadistamiseks läbige need etapid.
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[ Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
+[Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
 
 [Luba tootesoovitused](enable-product-recommendations.md)
 

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 206d6d6769d1dedcbfefa589fd72903e65a25ba6
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018786"
+ms.locfileid: "4426577"
 ---
 # <a name="create-purchase-orders"></a>Ostutellimuste loomine
 
@@ -38,7 +38,7 @@ Saate koostada ostutellimusi ka teiselt ostutellimuse dokumendilt või müügite
 Kuigi ostutellimusi saab käsitsi luua, luuakse need tavaliselt teistest protsessidest. Tellimusi saab automaatselt luua muude dokumentide (nt taotluste) põhjal. Teine võimalus on luua need koondplaneerimise protsessi käigus plaanitud ostutellimuste kaudu. Kui kasutate ostulepinguid, saab ostutellimused luua toiminguga **Väljalaskeorder**. Ostutellimuse automaatseks loomiseks on ka paremaid meetodeid. Näiteks saab tellimusi koostada, kui kasutate otsetarnet või kontsernisiseseid tellimusahelaid.
 
 ## <a name="creating-a-purchase-order-header"></a>Ostutellimuse päise loomine
-Kui loote uue ostutellimuse, kuvatakse dialoogiboks, kuhu saate sisestada ostutellimuse päise jaoks kõige üldisemat teavet. Kui klõpsate dialoogiboksi sulgemiseks valikut **OK** , luuakse tellimus ja saate siis päises lisateavet täpsustada.  
+Kui loote uue ostutellimuse, kuvatakse dialoogiboks, kuhu saate sisestada ostutellimuse päise jaoks kõige üldisemat teavet. Kui klõpsate dialoogiboksi sulgemiseks valikut **OK**, luuakse tellimus ja saate siis päises lisateavet täpsustada.  
 
 Esimene asi, mida ostutellimuse loomisel peab arvestama, on tellimuse tüüp. Kõige sagedamini kasutatakse tüüpi **Ostutellimus**. Kuid kui on vajalik kreeditarve, võite kasutada tüüpi **Tagastatud tellimus**.  
 
@@ -63,21 +63,21 @@ Saate kontrollida ladustatud toodete laokannete oleku üksikasju. Näiteks võib
 
 Ostutellimuse real, mida kasutatakse toote tagastamiseks hankijale, on negatiivne kogus. Konkreetse partii saab valida toiminguga **Reserveerimine**.  
 
-Mõnikord võib olla vaja tellitud kogust jagada, et selle erinevaid osi saaks tarnida erinevatel kuupäevadel. Need tarned saab seadistada toiminguga **Tarnegraafik** , mis on saadaval menüüs **Ostutellimuse rida** vaates **Read**.  
+Mõnikord võib olla vaja tellitud kogust jagada, et selle erinevaid osi saaks tarnida erinevatel kuupäevadel. Need tarned saab seadistada toiminguga **Tarnegraafik**, mis on saadaval menüüs **Ostutellimuse rida** vaates **Read**.  
 
-Tasusid saab ostutellimuse ridadele automaatselt lisada, kui hankijale või hankija tasugrupile ja kaubale või kauba tasugrupile on seadistatud automaatsed tasud. Kuid tavaliselt lisatakse tasud käsitsi tellimuse rea tasandil. Tasu lisamiseks avage leht **Tasude haldamine** , kasutades toimingut **Tasude haldamine** menüüs **Finantsid** vaates **Read**. Otse tellimuse rea tasandil tasu lisamise eelis on see, et tasu saab eraldada laokuluna. Tasukoodide seadistamiseks toote hinna arvestamiseks kasutage debiteerimisvalikut **Kaup**. Seda tüüpi tasud tuleb enne tellimuse kinnitamist ostutellimuse päisest ridadele eraldada. Näiteks võib olla vaja eraldada tasud igal real oleva koguse põhjal. Tasukategooria mõjutab ka seda, kuidas tasusid arvestatakse. Näiteks fikseeritud tasud näitavad fikseeritud summat ja tasuprotsent arvutatakse tellimuse rea netosumma protsendina. Ostutellimused saab määrata koormale ja koorma hulka võib kuuluda eeldatavate transpordikulude prognoos. Selle kulu saab eraldada koormalt tagasi ostutellimuse ridadele.
+Tasusid saab ostutellimuse ridadele automaatselt lisada, kui hankijale või hankija tasugrupile ja kaubale või kauba tasugrupile on seadistatud automaatsed tasud. Kuid tavaliselt lisatakse tasud käsitsi tellimuse rea tasandil. Tasu lisamiseks avage leht **Tasude haldamine**, kasutades toimingut **Tasude haldamine** menüüs **Finantsid** vaates **Read**. Otse tellimuse rea tasandil tasu lisamise eelis on see, et tasu saab eraldada laokuluna. Tasukoodide seadistamiseks toote hinna arvestamiseks kasutage debiteerimisvalikut **Kaup**. Seda tüüpi tasud tuleb enne tellimuse kinnitamist ostutellimuse päisest ridadele eraldada. Näiteks võib olla vaja eraldada tasud igal real oleva koguse põhjal. Tasukategooria mõjutab ka seda, kuidas tasusid arvestatakse. Näiteks fikseeritud tasud näitavad fikseeritud summat ja tasuprotsent arvutatakse tellimuse rea netosumma protsendina. Ostutellimused saab määrata koormale ja koorma hulka võib kuuluda eeldatavate transpordikulude prognoos. Selle kulu saab eraldada koormalt tagasi ostutellimuse ridadele.
 
 ## <a name="purchase-order-actions"></a>Ostutellimuse tegevused
 Kui olete lisanud ostutellimusele päise ja read, peate sageli tegema lisatoiminguid enne, kui tellimus on kinnitamiseks valmis. Kuna saadaval on nii palju võimalusi, võib olla abiks funktsiooni [Tegevuse otsing](../../fin-and-ops/get-started/action-search.md) kasutamine vastava menüü-üksuse otsimiseks.  
 
-Tellimusel saab tooteid konfigureerida nii, et neil on lisakaubad. Lisakaubad on tooted, mida tuleb või saab osta koos teiste toodetega. Lisatooted võib lisada tasuta kaasnevate toodetena või otsustada, kas lisada need tellimusele või mitte. Lisakaupu saab pärast iga lisatavat tellimuse rida üle vaadata. Kuid ilmselt on mugavam vaadata üle ja lisada vastavad lisakaubad kõigile tellimuse ridadele, kasutades lehte **Lisakaubad** , mille saate avada tegumiribalt.  
+Tellimusel saab tooteid konfigureerida nii, et neil on lisakaubad. Lisakaubad on tooted, mida tuleb või saab osta koos teiste toodetega. Lisatooted võib lisada tasuta kaasnevate toodetena või otsustada, kas lisada need tellimusele või mitte. Lisakaupu saab pärast iga lisatavat tellimuse rida üle vaadata. Kuid ilmselt on mugavam vaadata üle ja lisada vastavad lisakaubad kõigile tellimuse ridadele, kasutades lehte **Lisakaubad**, mille saate avada tegumiribalt.  
 
 Allahindlused lisatakse ridadele tavaliselt nende loomise ajal. Kuid mõningad allahindlused kehtivad tervele tellimusele.
 
 -   Toiming **Lõppallahindlus** arvutab allahindluse protsendi, mis rakendatakse tervele tellimusele. Ärge ajage seda segamini sularahaallahindluse protsendiga. Sularahaallahindlusi rakendatakse arve tasumisel ja need sõltuvad makse tasakaalustamisest konkreetseks kuupäevaks.
 -   Kui rakendub multiallahindlus, tuleb kasutada toimingut **Multiallahindlus** selle arvutamiseks ja tellimusele määramiseks. Multiallahindlused on allahindlused, mida saab pakkuda, kui tellimusel olevate toodete kombinatsioon ületab ühise läve. Seda liiki allahindlusi kasutab ainult mõni ettevõte.
 
-Tasud, mille kood kasutab deebeti tüüpi **Kaup** , tuleb määrata rea tasandile enne, kui tellimuse saab kinnitada. Neid tasusid võib olla mugav määrata tellimuse päise tasandil, et saaksite määrata tasu kogusumma. Kuid sellisel juhul tuleb tasu eraldada siis igale reale, enne kui tellimuse saab kinnitada. Saate kasutada toimingut **Tasude eraldamine** summade jagamiseks tasudest, mis määratakse päise tasandil tellimuse ridadele. Tasud saab jagada iga rea netosumma järgi, vastavalt tellitud kogusele, või ühtlaselt tellimuse ridadele. Kui olete tasud ridadele eraldanud, eemaldatakse tasu tellimuse päisest.  
+Tasud, mille kood kasutab deebeti tüüpi **Kaup**, tuleb määrata rea tasandile enne, kui tellimuse saab kinnitada. Neid tasusid võib olla mugav määrata tellimuse päise tasandil, et saaksite määrata tasu kogusumma. Kuid sellisel juhul tuleb tasu eraldada siis igale reale, enne kui tellimuse saab kinnitada. Saate kasutada toimingut **Tasude eraldamine** summade jagamiseks tasudest, mis määratakse päise tasandil tellimuse ridadele. Tasud saab jagada iga rea netosumma järgi, vastavalt tellitud kogusele, või ühtlaselt tellimuse ridadele. Kui olete tasud ridadele eraldanud, eemaldatakse tasu tellimuse päisest.  
 
 Ostutellimused saab konfigureerida nõudma, et eelarvevahendid eraldataks tellimusele enne selle töötlemist. Sel juhul võite kasutada eelarve eraldamiseks toimingut **Eelarve kontrollimine**.  
 

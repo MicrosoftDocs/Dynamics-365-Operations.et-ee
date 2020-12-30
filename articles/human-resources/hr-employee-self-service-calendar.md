@@ -2,8 +2,8 @@
 title: Töörühma kalendri loomine
 description: Vaadake ja looge töörühma kalendreid rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968994"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4418241"
 ---
 # <a name="view-team-and-company-calendars"></a>Meeskonna ja ettevõtte kalendrite kuvamine
 
@@ -64,6 +64,11 @@ Kalendrid sisaldavad nüüd täiendavaid filtreid ja suvandeid. Kõik kalendrid 
 Kalendri konfiguratsioon väljal Puhkuste ja puudumiste parameetrid määrab saadaolevad vaate suvandid.
 
 Kalendreid saate filtreerida ka halduri või osakonna alusel. Esmase ametikoha määramisega määratletakse töötajad, kes kuvatakse nende filtrite seadistamisel. 
+
+>[!IMPORTANT]
+>Puhkuste ja puudumiste kuvamine ettevõtete lõikes on praegu eelversioonis. Peate selle lubama keskkonnas **Liivakast**. Lisateavet eelvaatefunktsioonide lubamise kohta vt [Funktsioonide haldus](hr-admin-manage-features.md).<br><br>
+>Seejärel peate lubama funktsiooni **Human Resourcesi ühiskasutuses parameetrid**, et kuvada juriidilise isiku filter kalendrites. Lisateabe saamiseks vt jaotist [Puhkuse ja puudumise parameetrite konfigureerimine](hr-leave-and-absence-parameters.md).<br><br>
+>Kalendri saate filtreerida juriidilise isiku alusel. Kui soovite näha kõiki töövõtjaid sõltumata juriidilisest isikust, tühjendage filtriväli ja valige sisestusklahv. 
 
 Lisateavet kalendri sätete kohta vt teemast [Kalendri parameetrite konfigureerimine](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211372"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426102"
 ---
 # <a name="operations-scheduling-options"></a>Operatsioonide plaanimise valikud
 
@@ -97,7 +97,7 @@ Kui viited sõltuvad tootmistellimustest, nimetatakse neid ka alamtootmisteks. A
 
 ### <a name="synchronize-references"></a>Sünkrooni viited
 
-Saate sünkroonida viited tootmistellimusega. Kui see suvand on valitud, nihutatakse alamtootmiste kuupäevi ja joondatakse, kui tootmistellimuse graafikus tehakse muudatusi. Kui tootmistellimusel on üks või mitu alamtootmist, saate soovi korral plaanida alamtootmised koos põhitootmisega. Sellisel juhul ei saa põhitootmist käivitada enne, kui seotud alamtootmised on lõpule viidud. Seetõttu märkige see ruut, kui alamtootmiste plaanimine peaks põhinema valitud tootmise algus- ja lõppajal. Saate märkida selle ruudu vaid juhul, kui märgitud on ka ruut**Graafiku viited**.
+Saate sünkroonida viited tootmistellimusega. Kui see suvand on valitud, nihutatakse alamtootmiste kuupäevi ja joondatakse, kui tootmistellimuse graafikus tehakse muudatusi. Kui tootmistellimusel on üks või mitu alamtootmist, saate soovi korral plaanida alamtootmised koos põhitootmisega. Sellisel juhul ei saa põhitootmist käivitada enne, kui seotud alamtootmised on lõpule viidud. Seetõttu märkige see ruut, kui alamtootmiste plaanimine peaks põhinema valitud tootmise algus- ja lõppajal. Saate märkida selle ruudu vaid juhul, kui märgitud on ka ruut **Graafiku viited**.
 
 ## <a name="cancellation"></a>Tühistamine
 ### <a name="cancel-queue-time"></a>Tühista ooteaeg

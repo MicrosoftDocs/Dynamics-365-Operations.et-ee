@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: b6e96f2f6b324ffe44e8684d9bd2a42fb52d0aed
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889261"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426313"
 ---
 # <a name="work-order-lifecycle-states"></a>Töökäsu elutsükli olekud
 
@@ -32,7 +32,7 @@ ms.locfileid: "3889261"
 
  
 
-Töökäsu töötsüklis määratletakse olekud, mida töökäsk saab läbida. Näideteks **on**Loodud **,** Planeeritud **, Käimas**ja **Lõpetatud**. Töökäsu töötsükli olekuid saab töökäsul käsitsi uuendad või neid saab automaatselt uuendada (nt töökäsu planeerimisel).
+Töökäsu töötsüklis määratletakse olekud, mida töökäsk saab läbida. Näideteks **on** Loodud **,** Planeeritud **, Käimas** ja **Lõpetatud**. Töökäsu töötsükli olekuid saab töökäsul käsitsi uuendad või neid saab automaatselt uuendada (nt töökäsu planeerimisel).
 
 Töökäsu töötsüklite olekud, mis on vajalikud teie tööolekute jaoks, tuleb siduda vastavate projektietappidega lehel **Projektijuhtimine ja raamatupidamise parameetrid** (**projektijuhtimine ja raamatupidamine** \> **Projektijuhtumise ja raamatupidamise parameetrid**). Esmalt seadistage projektietapid lehel Projektijuhtimine ja raamatupidamine. Seejärel seadistate töökäsu töötsükli olekud ja töökäsu töötsükli mudelid Varahalduses.
 
@@ -74,7 +74,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
 
 8. Valige kiirkaart **Üldine** jaotises **Töökäsk** ja seejärel valige funktsioonid, mis peaksid olema selle töötsükli oleku jaoks saadaval, seades vastavad valikud väärtusele **Jah**. Suvandite kirjeldused leiate selles teema eelnevas tabelis.
 9. Jaotises **Projekt** valige väli **Etapp**, seejärel valige projektietapp, mis peaks olema selle töötsükli olekuga seotud.
-10. Seadke jaotises **Projekt**valik **Sule tegevused** väärtuseks **Jah**, kui projekti tegevused, mis on seotud iga töökäsu tööga, tuleb automaatselt sulgeda, kui töö tellimus on selles töötsükli olekus.
+10. Seadke jaotises **Projekt** valik **Sule tegevused** väärtuseks **Jah**, kui projekti tegevused, mis on seotud iga töökäsu tööga, tuleb automaatselt sulgeda, kui töö tellimus on selles töötsükli olekus.
 
     > [!NOTE]
     > Töötellimuse tööga seotud projekti tegevuse numbri leidmiseks valige **Varahaldus** \> **Ühised** \> **Töökäsudt** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**. Avage töökäsk ja valige töökäsu töö. Tegevuse number kuvatakse väljal  **Aktiivsuse number** jaotises **Projekt** kaardil **Üldine** kiirkaardil **Rea üksikasjad**.

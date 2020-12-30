@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097089"
+ms.locfileid: "4411817"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Variatsiooni esiletõstmine ja eksperimendi lõpuleviimine
 
@@ -43,7 +43,7 @@ Parima variatsiooni reklaamimiseks toimige järgmiselt.
 1. Valige dialoogiboksis **Eksperimendi lõpule viimine** suvand **Vaata eksperimendi andmed läbi**. Avaneb kolmanda osapoole teenus, kus saate mõõdikuid kontrollida ja teha kindlaks, milline variatsioon oli parim.
 1. Valige dialoogiboksis **Eksperimendi lõpule viimine** parim variatsioon ja seejärel valige **Edasi**.
 1. Avage kolmanda osapoole teenus ja peatage eksperiment.
-1. Valige saidiehitajas suvand **Lõpeta** , et kirjutada üle originaalne aktiivne leht ja avaldada parim variatsioon nii, et see on saadaval kõigile teie veebisaidi kasutajatele. 
+1. Valige saidiehitajas suvand **Lõpeta**, et kirjutada üle originaalne aktiivne leht ja avaldada parim variatsioon nii, et see on saadaval kõigile teie veebisaidi kasutajatele. 
 
 > [!NOTE]
 > Kui otsustate praegust aktiivset lehte säilitada ja variatsiooni mitte avaldada, valige **Avalda originaalne leht uuesti**.
@@ -56,7 +56,7 @@ Eksperimendi kustutamiseks Commerce'i saidiehitajas, toimige järgmiselt.
 1. Valige vasakpoolsel navigeerimispaanil **Eksperimendid** ja seejärel valige eksperiment. 
     > [!NOTE]
     > Kui eksperiment on ikka aktiivne, peatage eksperiment enne jätkamist kolmanda osapoole teenuses.
-1. Valige käsuribalt **Tühista avaldamine** , et eemaldada variatsiooni sisu aktiivselt saidilt.
+1. Valige käsuribalt **Tühista avaldamine**, et eemaldada variatsiooni sisu aktiivselt saidilt.
 1. Eksperimendi kustutamiseks valige **Kustuta**.
 
 ## <a name="previous-step"></a>Eelmine etapp

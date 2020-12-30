@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113755"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411666"
 ---
 # <a name="warehouse-set-up"></a>Lao seadistamine
 
@@ -85,7 +85,7 @@ Standardsete, kahjustatud ja tagastatud lao varude asukohtade seadistamiseks jä
 1. Avage navigeerimispaanilt **Moodulid \> Jaemüük ja kaubandus \> Kanali seadistus \> Laod**.
 1. Valige varem loodud ladu.
 1. Valige tegevuspaanil nupp **Redigeeri**.
-1. Valige tegevuspaanilt **Ladu**ja seejärel valige **Varude asukoht**.
+1. Valige tegevuspaanilt **Ladu** ja seejärel valige **Varude asukoht**.
 1. Valige toimingupaanil nupp **Uus**. Ripploend **Ladu** peaks minema vaikimisi teie uude lattu.
     1. Sisestage kasti **Riiulirida** varem määratud riiulirea nimi. 
     1. Seadistage **Käsitsi värskendamine** väärtusele **Jah**

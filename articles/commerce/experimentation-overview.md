@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097135"
+ms.locfileid: "4411813"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimenteerimine rakenduses Dynamics 365 Commerce
 Eksperimenteerige rakenduses Dynamics 365 Commerce, et kinnitada hüpoteese oma e-kaubanduse lehtede tõhususe kohta ja langetada otsuseid andmetel põhineva kindlustundega. Commerce toetab lehtede, moodulite ja fragmentide A/B-testimist ning võimaldab teil mõõta väljapakutud muudatuste mõju oma veebisaidile.
@@ -33,9 +33,9 @@ Saate luua, redigeerida ning hallata lehe- ja sisukäsitlusi, mida nimetatakse C
 ## <a name="set-up-prerequisites"></a> Seadistuse eeltingimused
 1. **Hankige Commerce'i õige versioon** – värskendage oma mooduliteek, veebikanali laiendatavuse tarkvara arenduse komplekt (SDK) ja Commerce Scale Unit rakenduse Commerce'i versioonile 10.0.13 või uuemale.
 1. **Eksperimendi konnektori seadistamine** – eksperimendi konnektor võimaldab rakendusel Commerce ühenduda kolmanda osapoole teenustega, et hankida eksperimentide loend ja teha kindlaks, millal kasutajale eksperimenti näidata. Saate osta kolmanda osapoole konnektori siit: [AppSource](https://appsource.microsoft.com). Järgige avaldaja installijuhiseid. Saate teise võimalusena kasutada näidistestkonnektorit rakenduses Commerce, et testida eksperimenteerimistöövoogu ilma, et peaksite välist teenust konfigureerima. Lisateavet leiate teemast [Konnektorite konfigureerimine ja lubamine](e-commerce-extensibility/connectors.md). 
-1. **Lülitage sisse eksperimenteerimisfunktsiooni lipud rakenduses Commerce** – saate lubada eksperimenteerimise rentnikutasemel, avades **Rentniku sätted > Funktsioonid** , või saiditasemel kohas **Sätted > Funktsioonid**.
+1. **Lülitage sisse eksperimenteerimisfunktsiooni lipud rakenduses Commerce** – saate lubada eksperimenteerimise rentnikutasemel, avades **Rentniku sätted > Funktsioonid**, või saiditasemel kohas **Sätted > Funktsioonid**.
     - Lubage **Eksperimenteerimise** lipp, et luua lehel moodulite eksperimendivariatsioonid ilma eksperimenti mittekuuluvat sisu muutmata või kopeerimata. See tagab, et jätkuvad sisuvärskendused väljaspool eksperimenti on eksperimendi elutsükli jooksul sünkroonitud. Selle lipu keelamise korral ei näidata kasutajatele ühtki eksperimente ja eemaldatakse saidiehitajast kõik redigeerimisfunktsioonid.
-    - Lubage lipp **Lehtede või fragmentide kasutamine eksperimentides** , et kasutada lehte või fragmenti eksperimendis. See loob lehel või fragmendis olevate kõikide moodulite puhul terve lehe või fragmendi täieliku koopia. Kasutage seda režiimi, kui soovite testida sisu suuri muudatusi või juhul, kui jätkuvate sisumuudatuste sünkroniseerimine kõikides eksemplarides pole oluline. Selle lipu keelamine takistab uute eksperimentide loomist ja redigeerimist lehtedel ning fragmentides.
+    - Lubage lipp **Lehtede või fragmentide kasutamine eksperimentides**, et kasutada lehte või fragmenti eksperimendis. See loob lehel või fragmendis olevate kõikide moodulite puhul terve lehe või fragmendi täieliku koopia. Kasutage seda režiimi, kui soovite testida sisu suuri muudatusi või juhul, kui jätkuvate sisumuudatuste sünkroniseerimine kõikides eksemplarides pole oluline. Selle lipu keelamine takistab uute eksperimentide loomist ja redigeerimist lehtedel ning fragmentides.
     > [!NOTE]
     > Lipp **Eksperimenteerimine** peab olema samuti lubatud, et töötaks funktsioon **Lehtede või fragmentide kasutamine eksperimentides**.
     

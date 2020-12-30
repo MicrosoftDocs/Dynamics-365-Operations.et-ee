@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818418"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411691"
 ---
 # <a name="work-with-modules"></a>Moodulitega töötamine
 
@@ -81,7 +81,7 @@ Mooduli lisamiseks pesasse või konteinerisse lehel tehke järgmist.
 1. Otsige ja valige lehele lisamiseks dialoogiboksist **Lisa moodul** moodul.
 
     > [!TIP]
-    > **Sisu plokk**on hea mooduli tüüp algajatele töötamiseks.
+    > **Sisu plokk** on hea mooduli tüüp algajatele töötamiseks.
 
 1. Valige nupp **OK**, et lisada valitud moodul valitud konteinerisse või pesasse oma lehel.
 

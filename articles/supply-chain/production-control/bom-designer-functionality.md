@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2e845b05d77701191a267de45354c3da25bd7699
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426304"
 ---
 # <a name="bom-designer-functionality"></a>Koosluse koostaja funktsioon
 
@@ -96,7 +96,7 @@ Kooslusele ja protsessile rakendatud filter kuvatakse koosluse koostaja päises.
 Kui kasutate koosluse koostajat ühest või mitmest fiktiivse koosluse tasemest koosnevate koosluste ülevaatuseks või redigeerimiseks, siis tavaliselt hõlmab enimmüüdud kaubaga seostatud protsess kogu koosluse hierarhiat. Ülevaate lihtsustamiseks saate lukustada kuval kõrgeima taseme protsessi, klõpsates valikuid **Vaade** &gt; **Lukusta protsess**. Protsessi vabastamiseks klõpsake valikuid **Vaade** &gt; **Vabasta protsess**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Koosluste ja koosluse ridade lisamine ning redigeerimine
-Koosluse ridade ja koosluste muutmiseks kasutage funktsiooni **Koosluseread**või **Kooslus**. Kui valite puus sõlme, määrab sõlme tüüp saadaolevad funktsioonid.
+Koosluse ridade ja koosluste muutmiseks kasutage funktsiooni **Koosluseread** või **Kooslus**. Kui valite puus sõlme, määrab sõlme tüüp saadaolevad funktsioonid.
 
 | Funktsioon                            | Kirjeldus                                                                                               | Sõlme tüüp ja tingimused                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

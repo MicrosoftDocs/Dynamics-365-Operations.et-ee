@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017112"
+ms.locfileid: "4426580"
 ---
 # <a name="location-license-plate-positioning"></a>Asukoha litsentsiplaadi paigutus
 
@@ -60,11 +60,11 @@ Funktsioon peab olema asukohaprofiilis sisse lülitatud iga asukoha jaoks, kus s
 
     - **Luba identifitseerimisnumbri positsioon:** *Jah*
 
-        Kui selle suvandi väärtuseks on seatud *Jah* , säilitatakse identifitseerimisnumbri positsioon selle asukoha identifitseerimisnubrite puhul.
+        Kui selle suvandi väärtuseks on seatud *Jah*, säilitatakse identifitseerimisnumbri positsioon selle asukoha identifitseerimisnubrite puhul.
 
     - **Kuva mobiilse seadme LP-positsioon:** *Jah*
 
-        Kui selle suvandi väärtuseks on seatud *Jah* , kuvatakse identifitseerimisnumbri positsioon mobiilse seadme kasutajatele korrigeerimise ja inventuuri ajal. Selle suvandi sätet saate muuta ainult juhul, kui funktsioon on sisse lülitatud.
+        Kui selle suvandi väärtuseks on seatud *Jah*, kuvatakse identifitseerimisnumbri positsioon mobiilse seadme kasutajatele korrigeerimise ja inventuuri ajal. Selle suvandi sätet saate muuta ainult juhul, kui funktsioon on sisse lülitatud.
 
 1. Valige käsk **Salvesta**.
 
@@ -76,7 +76,7 @@ Funktsioon peab olema asukohaprofiilis sisse lülitatud iga asukoha jaoks, kus s
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Valige kiirkaardil **Read** rida, mille suvandi **Järjekorranumber** väärtus on *2*.
 1. Valige kiirkaardil **Asukohakorralduse tegevused** rida, mille suvandi **Nimi** väärtus on *Komplekteeri kaubaalusest väiksem kogus* (see peaks olema ainus rida) ja muutke selle suvandi **Järjekorranumber** väärtuseks *2*.
-1. Valige ruudustiku kohal suvand **Uus** , et lisada rida uue asukohakorralduse tegevuse jaoks.
+1. Valige ruudustiku kohal suvand **Uus**, et lisada rida uue asukohakorralduse tegevuse jaoks.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** *1*
@@ -84,18 +84,18 @@ Funktsioon peab olema asukohaprofiilis sisse lülitatud iga asukoha jaoks, kus s
 
 1. Kui uus rida on valitud, valige ruudustiku kohal **Päringu redigeerimine**.
 1. Valige päringuredaktoris vahekaart **Liitmised**.
-1. Laiendage tabeli liitmist **Asukohad** , et kuvada liitmist tabelis **Varude dimensioonid**.
-1. Laiendage tabeli liitmist **Varude dimensioonid** , et kuvada liitmist tabelis **Vaba kaubavaru**.
+1. Laiendage tabeli liitmist **Asukohad**, et kuvada liitmist tabelis **Varude dimensioonid**.
+1. Laiendage tabeli liitmist **Varude dimensioonid**, et kuvada liitmist tabelis **Vaba kaubavaru**.
 1. Valige **Varude dimensioonid** ja seejärel valige **Lisa tabeli liitmine**.
-1. Valige kuvatava tabelite loendi veerust **Seos** suvand **Identifitseerimisnumber (Identifitseerimisnumber)**. Seejärel valige **Vali** , et lisada **Identifitseerimisnumber** tabeli liitmisse **Varude dimensioonid**.
+1. Valige kuvatava tabelite loendi veerust **Seos** suvand **Identifitseerimisnumber (Identifitseerimisnumber)**. Seejärel valige **Vali**, et lisada **Identifitseerimisnumber** tabeli liitmisse **Varude dimensioonid**.
 1. Kui **Identifitseerimisnumber** on valitud, valige **Lisa tabeli liitmine**.
-1. Valige kuvatava tabelite loendi veerust **Seos** suvand **Asukoha identifitseerimisnumbri positsioneerimine (Identifitseerimisnumber)**. Seejärel valige **Vali** , et lisada **Asukoha identifitseerimisnumbri positsioneerimine** tabeli liitmisse **Varude dimensioonid**.
+1. Valige kuvatava tabelite loendi veerust **Seos** suvand **Asukoha identifitseerimisnumbri positsioneerimine (Identifitseerimisnumber)**. Seejärel valige **Vali**, et lisada **Asukoha identifitseerimisnumbri positsioneerimine** tabeli liitmisse **Varude dimensioonid**.
 
     ![Tabeli liitmised](media/LpTableJoin.png "Tabeli liitmised")
 
 1. Värskendatud liidetud tabelite kinnitamiseks ja päringuredaktori sulgemiseks valige **OK**.
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Redigeeri päringut** uuesti, et avada päringuredaktor uuesti.
-1. Vahekaardil **Vahemik** valige käsk **Lisa** , et lisada uus rida ruudustikule.
+1. Vahekaardil **Vahemik** valige käsk **Lisa**, et lisada uus rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** *Asukoha identifitseerimisnumbri positsioneerimine*
@@ -123,9 +123,9 @@ Kuna funktsioon *Asukoha identifitseerimisnumbri positsioneerimine* lisab asukoh
     Sellel lehel kuvatakse teie sisestatud asukoht. Samuti kuvatakse järgmine teade: „Asukoht lõpule viidud, kas soovite lisada uue LP või kauba?”
 
 1. Asukohas inventuuri lisamiseks valige **Värskenda**.
-1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup** , väli **Kaup** ja sisestage seejärel väärtus *A0001*.
+1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup**, väli **Kaup** ja sisestage seejärel väärtus *A0001*.
 1. Valige nupp **OK**.
-1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup** , väli **LP** ja sisestage seejärel väärtus *LP1001* (või mis tahes muu teie valitud identifitseerimisnumbri number).
+1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup**, väli **LP** ja sisestage seejärel väärtus *LP1001* (või mis tahes muu teie valitud identifitseerimisnumbri number).
 
     Lehel **Tsükliline inventuur: lisage uus LP või kaup** kuvatakse **Identifitseerimisnumbri positsioon 1**.
 
@@ -139,9 +139,9 @@ Kuna funktsioon *Asukoha identifitseerimisnumbri positsioneerimine* lisab asukoh
     Sellel lehel kuvatakse teie sisestatud asukoht. Samuti kuvatakse järgmine teade: „Asukoht lõpule viidud, kas soovite lisada uue LP või kauba?”
 
 1. Asukohas teise inventuuri lisamiseks valige **Värskenda**.
-1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup** , väli **Kaup** ja sisestage seejärel väärtus *A0002*.
+1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup**, väli **Kaup** ja sisestage seejärel väärtus *A0002*.
 1. Valige nupp **OK**.
-1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup** , väli **LP** ja sisestage seejärel väärtus *LP1002* (või mis tahes muu teie valitud identifitseerimisnumbri number, eeldusel, et see erineb teie eelnevalt määratud identifitseerimisnumbri numbrist).
+1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup**, väli **LP** ja sisestage seejärel väärtus *LP1002* (või mis tahes muu teie valitud identifitseerimisnumbri number, eeldusel, et see erineb teie eelnevalt määratud identifitseerimisnumbri numbrist).
 1. Muutke identifitseerimisnumbri positsiooni, määrates välja **LP-positsioon** väärtuseks *2*.
 1. Valige nupp **OK**.
 1. Määrake kauba kogus, mida loendatakse identifitseerimisnumbris, seadistades välja **Kogus** väärtuseks *10*.
@@ -161,9 +161,9 @@ Töö on nüüd lõpule viidud.
     Sellel lehel kuvatakse teie sisestatud asukoht. Samuti kuvatakse järgmine teade: „Asukoht lõpule viidud, kas soovite lisada uue LP või kauba?”
 
 1. Asukohas inventuuri lisamiseks valige **Värskenda**.
-1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup** , väli **Kaup** ja sisestage seejärel väärtus *A0002*.
+1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup**, väli **Kaup** ja sisestage seejärel väärtus *A0002*.
 1. Valige nupp **OK**.
-1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup** , väli **LP** ja sisestage seejärel väärtus *LP1003* (või mis tahes muu teie valitud identifitseerimisnumbri number, eeldusel, et see erineb mõlemast teie eelnevalt määratud identifitseerimisnumbri numbrist).
+1. Valige leht **Tsükliline inventuur: lisage uus LP või kaup**, väli **LP** ja sisestage seejärel väärtus *LP1003* (või mis tahes muu teie valitud identifitseerimisnumbri number, eeldusel, et see erineb mõlemast teie eelnevalt määratud identifitseerimisnumbri numbrist).
 
     Lehel **Tsükliline inventuur: lisage uus LP või kaup** kuvatakse **Identifitseerimisnumbri positsioon 1**.
 
@@ -195,7 +195,7 @@ Töö on nüüd lõpule viidud.
 1. Valige ruudustikus esimese töö ID töökäsu tüübi *Tsükliline inventuur* jaoks.
 1. Valige toimingupaani vahekaardil **Töö** grupis **Töö** üksus **Tsükliline inventuur**.
 
-    Kuvatakse kaks rida, kummagi identifitseerimisnumbri kohta üks. Väljade **Loendatud kogus** , **Asukoht** , **Identifitseerimisnumber** ja **Kaup** väärtused peaksid vastama mobiilses seadmes loodud inventuuri kirjetele. Kui mõni nendest väljadest pole nähtav, valige toimingupaanil **Kuva dimensioonid** nende ruudustikku lisamiseks.
+    Kuvatakse kaks rida, kummagi identifitseerimisnumbri kohta üks. Väljade **Loendatud kogus**, **Asukoht**, **Identifitseerimisnumber** ja **Kaup** väärtused peaksid vastama mobiilses seadmes loodud inventuuri kirjetele. Kui mõni nendest väljadest pole nähtav, valige toimingupaanil **Kuva dimensioonid** nende ruudustikku lisamiseks.
 
 1. Valige mõlemad read.
 1. Valige toimingupaanil **Kinnita inventuur**.
@@ -213,7 +213,7 @@ Töö on nüüd lõpule viidud.
 1. Valige vahekaardil **Ülevaade** teise töö ID töökäsu tüübi *Tsükliline inventuur* jaoks.
 1. Valige toimingupaani vahekaardil **Töö** grupis **Töö** üksus **Tsükliline inventuur**.
 
-    Kuvatakse üks rida kauba ja identifitseerimisnumbri jaoks. Väljade **Loendatud kogus** , **Asukoht** , **Identifitseerimisnumber** ja **Kaup** väärtused peaksid vastama mobiilses seadmes loodud inventuuri kirjetele.
+    Kuvatakse üks rida kauba ja identifitseerimisnumbri jaoks. Väljade **Loendatud kogus**, **Asukoht**, **Identifitseerimisnumber** ja **Kaup** väärtused peaksid vastama mobiilses seadmes loodud inventuuri kirjetele.
 
 1. Valige rida.
 1. Valige toimingupaanil **Kinnita inventuur**.
@@ -237,12 +237,12 @@ Töö on nüüd lõpule viidud.
 
 1. Pange tähele, et asukohas *01A01R1S1B* on kaks identifitseerimisnumbrit.
 
-    - **A0001** , kus välja **LP-positsioon** väärtuseks on seatud *1*
-    - **A0002** , kus välja **LP-positsioon** väärtuseks on seatud *2*
+    - **A0001**, kus välja **LP-positsioon** väärtuseks on seatud *1*
+    - **A0002**, kus välja **LP-positsioon** väärtuseks on seatud *2*
 
 1. Pange tähele, et asukohas *01A01R1S2B* on üks identifitseerimisnumber.
 
-    - **A0002** , kus välja **LP-positsioon** väärtuseks on seatud *1*
+    - **A0002**, kus välja **LP-positsioon** väärtuseks on seatud *1*
 
 ### <a name="sales-order-scenario"></a>Müügitellimuse stsenaarium
 
@@ -262,20 +262,20 @@ Nüüd, kui funktsioon *Asukoha identifitseerimisnumbri positsioneerimine* on se
     - **Kogus:** *1*
 
 1. Valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
-1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida varud tellimuserea jaoks.
+1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida varud tellimuserea jaoks.
 1. Sulgege leht **Reserveerimine**.
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**.
 
     Saate teabesõnumi, mis näitab selle tellimuse jaoks loodud voo ID-d ja saadetise ID-d.
 
 1. Valige ruudustiku kohal oleva menüü **Ladu** kiirkaardilt **Müügitellimuse read** suvand **Töö üksikasjad**.
-1. Kuvatakse leht **Töö** , mis kuvab müügirea jaoks loodud töö. Märkige üles kuvatav töö ID.
+1. Kuvatakse leht **Töö**, mis kuvab müügirea jaoks loodud töö. Märkige üles kuvatav töö ID.
 
 ### <a name="sales-picking-scenario"></a>Müügi komplekteerimise stsenaarium
 
 1. Avage mobiilirakendus ja logige sisse lattu *61*.
 1. Avage jaotis **Väljaminev \> Müügi komplekteerimine**.
-1. Valige leht **Töö ID / identifitseerimisnumbri ID skannimine** , valige väli **ID** ja sisestage seejärel müügirea välja töö ID.
+1. Valige leht **Töö ID / identifitseerimisnumbri ID skannimine**, valige väli **ID** ja sisestage seejärel müügirea välja töö ID.
 1. Pange tähele, et komplekteerimistöö suunab teid komplekteerima kauba *A0002* asukohast *01A01R1S2B*. Saate selle juhise seetõttu, et kaup *A0002* on identifitseerimisnumbri all, mis on selles asukohas positsioonis *1*.
 
     ![Positsiooni 1 asukoht](media/LocationLicensePlatePositioning.png "Positsiooni 1 asukoht")

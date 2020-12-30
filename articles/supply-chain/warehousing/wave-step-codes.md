@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017801"
+ms.locfileid: "4426667"
 ---
 # <a name="wave-step-codes"></a>Vooetapi koodid
 
@@ -59,7 +59,7 @@ Lubamise ajal teostatakse andmete uuendamise ajal kinnitamised. Kui uuendamine e
 
 Pärast võimalike kinnitamise ajal tuvastatud konfliktide lahendamist saate proovida funktsiooni uuesti lubada.
 
-Kui funktsioon on lubatud, siis muutub leht **Voo etapikoodid** ( **Laohaldus \> Seadistus \> Vood \> Voo etapikoodid** ) kättesaadavaks. Sellel lehel loetletakse voo etapikoodid, mida värskendati siis, kui organisatsiooniülene voo etapikoodide funktsioon lubati.
+Kui funktsioon on lubatud, siis muutub leht **Voo etapikoodid** (**Laohaldus \> Seadistus \> Vood \> Voo etapikoodid**) kättesaadavaks. Sellel lehel loetletakse voo etapikoodid, mida värskendati siis, kui organisatsiooniülene voo etapikoodide funktsioon lubati.
 
 ### <a name="create-new-wave-step-codes"></a>Uute voo etapikoodid loomine
 
@@ -85,7 +85,7 @@ Selle loendi malle rakendatakse, kui need on viidatud voo protsessi meetodist, m
 
 Järgmine protseduur aitab tagada, et loodud täiendamise mall rakendub voo mallile.
 
-1. Avage **Laohaldus \> Seadistus \> Vood \> Voo etapikoodid** , ja looge voo etapikood tüübile **Täiendamine**.
+1. Avage **Laohaldus \> Seadistus \> Vood \> Voo etapikoodid**, ja looge voo etapikood tüübile **Täiendamine**.
 2. Avage **Laohaldus \> Seadistus \> Täiendamine \> Täiendamise mallid** ja looge täiendamise mall.
 3. Täiendamise mallis valige see voo etapikood, mille lõite tüübile **Täiendamine**.
 4. Avage **Laohaldus \> Seadistus \> Vood \> Voo mallid** ja valige see voo mall, mida soovite kasutada.

@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 163c2e00bd0363303596a48199a833369e51b232
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012340"
+ms.locfileid: "4426566"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.9 (aprill, 2020)?
 
@@ -36,7 +36,7 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaa
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Mõni neist funktsioonidest võisid olla lisatud ka eelmisele järkjärgulisele väljalaskele, kuid seda ei kuulutatud välja eelmises teemas *Mis on uut* , seega lisasime need siia. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
+See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Mõni neist funktsioonidest võisid olla lisatud ka eelmisele järkjärgulisele väljalaskele, kuid seda ei kuulutatud välja eelmises teemas *Mis on uut*, seega lisasime need siia. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 - [Täiustatud koormuse koostamine voo ajal](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Lisateavet vt teemast [Täiustatud koorma koostamine voo ajal](../warehousing/advanced-load-building-during-wave.md).
 

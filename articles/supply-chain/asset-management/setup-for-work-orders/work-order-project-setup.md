@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: a51837275203dc2d4f31dc4dec9bf970a7ebeba7
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889310"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426083"
 ---
 # <a name="work-order-project-setup"></a>Töökäsu projekti seadistus
 
@@ -35,7 +35,7 @@ ms.locfileid: "3889310"
 
 ## <a name="project-setup-for-a-work-order-job"></a>Töökäsu töö projekti seadistus
 
-Kui loote töökäsu töö töökäsule, määratlevad projekti seadistus moodulis**Projektjuhtimine ja raamatupidamine** ning töökäskude projekti seadistus moodulis **Varahaldus**, kuidas projekte saab kasutada kulukontrolliks selle töökäsu tööl valitud varal. Selles lõigus kirjeldatakse projekti seadistuse järgmisi osi, mida kasutatakse töökäsus: põhiprojekt (projekti ID), projekti tüüp, projekti tegevused ja finantsdimensioonid:
+Kui loote töökäsu töö töökäsule, määratlevad projekti seadistus moodulis **Projektjuhtimine ja raamatupidamine** ning töökäskude projekti seadistus moodulis **Varahaldus**, kuidas projekte saab kasutada kulukontrolliks selle töökäsu tööl valitud varal. Selles lõigus kirjeldatakse projekti seadistuse järgmisi osi, mida kasutatakse töökäsus: põhiprojekt (projekti ID), projekti tüüp, projekti tegevused ja finantsdimensioonid:
 
 - Töökäsu töö loomisel töökäsul luuakse selle jaoks automaatselt kordumatu projekti ID ja seotud projekti tegevus. Kui aga töökäsu mitu töökäsu tööd hõlmavad sama vara, siis kasutatakse neil sama projekti ID-d. Teisisõnu luuakse töötellimuse iga vara kohta üks projekti ID.
 

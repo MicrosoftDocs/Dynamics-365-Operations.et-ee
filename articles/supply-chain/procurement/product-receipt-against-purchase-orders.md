@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cead310eaa86d755399e512f99d6782bfa551211
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018855"
+ms.locfileid: "4426582"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Toote sissetulek ostutellimuste suhtes
 
@@ -42,9 +42,9 @@ Toote sissetuleku registreerimine toimub sageli lao saabumisalal. See toimub kä
 Tooted, mis laos vastu võetakse, võivad läbida enne varudesse paigutamist kvaliteedikontrolli. Kvaliteedikontrolli tegemiseks võib kasutada kvaliteettellimusi või vahelaoordereid. Kui kasutatakse kvaliteettellimusi, võite konfigureerida protsessi tooteid reserveerimise kaudu ajutiselt blokeerima, kuni neid kontrollitakse. Vahelaoorderite kasutamisel viiakse tooted kontrollimiseks teise lattu. Seda ladu nimetatakse vahelaoks. Mõlema kvaliteedikontrolli protsessi puhul võidakse osa kaupadest praagiks tunnistada, kuna need ei vasta kvaliteedinõuetele või kuna kvaliteedikontroll hõlmab tootenäidise purustavat katset.
 
 ## <a name="product-receipt"></a>Toote sissetulek
-Kõige sagedamini kasutatakse toimingut **Toote sissetulek** lehel **Ostutellimused** selleks, et märkida ostutellimusel toodete olekuks **Saadud**. Lehel **Toote sissetuleku sisestamine** on mitmesuguseid valikuid vastuvõetuks märgitud koguste kohta. Näiteks saate määrata välja **Kogus** olekuks **Tellitud kogus** või **Kohe tarnitav kogus**. Teise võimalusena, kui on kasutatud lattu saabumise protsessi, määratakse sellel väljal sageli väärtus **Registreeritud kogus**. Saate muuta koguseid igal tellimuse real, mille olekuks määratakse **Saadud** , et kajastada igasuguseid lahknevusi, nt ala- või ületarnet. Toote sissetuleku ajal tuleb määrata toote sissetuleku identifikaator, mis on tavaliselt hankija saatelehe viide. See ID on raamatupidamise jaoks vajalik, kuna see võimaldab võrrelda hankija saatelehti ja saadud kaupu ning kontrollida arvestatud varusid või kulusid.  
+Kõige sagedamini kasutatakse toimingut **Toote sissetulek** lehel **Ostutellimused** selleks, et märkida ostutellimusel toodete olekuks **Saadud**. Lehel **Toote sissetuleku sisestamine** on mitmesuguseid valikuid vastuvõetuks märgitud koguste kohta. Näiteks saate määrata välja **Kogus** olekuks **Tellitud kogus** või **Kohe tarnitav kogus**. Teise võimalusena, kui on kasutatud lattu saabumise protsessi, määratakse sellel väljal sageli väärtus **Registreeritud kogus**. Saate muuta koguseid igal tellimuse real, mille olekuks määratakse **Saadud**, et kajastada igasuguseid lahknevusi, nt ala- või ületarnet. Toote sissetuleku ajal tuleb määrata toote sissetuleku identifikaator, mis on tavaliselt hankija saatelehe viide. See ID on raamatupidamise jaoks vajalik, kuna see võimaldab võrrelda hankija saatelehti ja saadud kaupu ning kontrollida arvestatud varusid või kulusid.  
 
-Ostutellimusi saab koostada toodetele, mis pole mõeldud varudeks, vaid mida käsitletakse kuluna. See kategooria hõlmab tellimuse ridu, millel tooted on märgitud laomudeligrupi järgi olekuga **Ladustamata** , ja samuti ridu, mis kasutavad hankekategooriaid. Sel juhul ei pruugi kaubad läbida laos saabumise registreerimist ja vastuvõtmist. Selle asemel kasutatakse toimingut **Toote sissetulek** sissetuleku kajastamiseks otse ostutellimusel ja sissetulek põhineb tellitud, mitte registreeritud kogusel.  
+Ostutellimusi saab koostada toodetele, mis pole mõeldud varudeks, vaid mida käsitletakse kuluna. See kategooria hõlmab tellimuse ridu, millel tooted on märgitud laomudeligrupi järgi olekuga **Ladustamata**, ja samuti ridu, mis kasutavad hankekategooriaid. Sel juhul ei pruugi kaubad läbida laos saabumise registreerimist ja vastuvõtmist. Selle asemel kasutatakse toimingut **Toote sissetulek** sissetuleku kajastamiseks otse ostutellimusel ja sissetulek põhineb tellitud, mitte registreeritud kogusel.  
 
 Saate luua ostutellimuse ridu, millel on lubatud valik **Uus põhivara**. See valik näitab, et ostu tuleks käsitleda varude asemel põhivarana. Sellisel juhul määravad konfigureeritud põhivara määramise reeglid, kas toote või kategooria ost ületab konkreetseid lävesid ja kas seetõttu tuleks seda käsitleda varana ning läbida põhivara haldus. Oste saab teha ka olemasoleva põhivara suhtes. Sellisel juhul korrigeeritakse summat vajalikul viisil.  
 

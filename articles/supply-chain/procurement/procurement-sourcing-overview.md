@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018878"
+ms.locfileid: "4426585"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Hangete ülevaade
 
@@ -35,13 +35,13 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 
 ## <a name="identifying-a-need-for-product-and-services"></a>Toote ja teenuste vajaduse tuvastamine
 
-Vajadus toodete või teenuste järele võib tekkida *taotlusest* , näiteks kui töötaja taotleb toodet. *Tootekataloogid* saab seadistada juhtima saadaolevate toodete valikut, mille seast valida, või saab taotleda tooteid, mis ei ole veel kataloogis saadaval, võimaldades ostuosakonnal kaaluda, kuidas toodet tarnida.  
+Vajadus toodete või teenuste järele võib tekkida *taotlusest*, näiteks kui töötaja taotleb toodet. *Tootekataloogid* saab seadistada juhtima saadaolevate toodete valikut, mille seast valida, või saab taotleda tooteid, mis ei ole veel kataloogis saadaval, võimaldades ostuosakonnal kaaluda, kuidas toodet tarnida.  
 
 Suvandit *Kulutuse piirmäärad* saab kasutada taotluse kulutuste piiramiseks ja *ostutöövoog* lisab enne tellimuse tegemist kinnituse nõude suvandi. Vajaduse korral saab määrata ka eelarvefondi eraldamise.  
 
 Hankeosakond tuvastab nõutavate toodete ja teenuste tarnijad ning see võib hõlmata seda, et mitmele potentsiaalsele tarnijale saaadetakse *pakkumiskutse*. Taotletud toote spetsifikatsioone saab ühiskasutada ja potentsiaalsed hankijad saavad neid vaadata, et näha, kas nad saavad neile vastava toote hankida. Hankijad tagastavad oma pakkumised, mille hankeosakond siis üle vaatab, enne kui valitakse tarnija, kellelt nad soovivad hankida.  
 
-Ostutellimused sisaldavad võimalust saata välja *ostupäring* hankijale alternatiivina põhjalikumale pakkumikutsele. Ostupäringut saab kasutada selliste tingimuste loomiseks nagu hinnad, allahindlused ja tellimuse tarnekuupäev. Kui hankijad on seadistatud kasutama portaali **Hankija** , siis on ostupäringu funktsioon keelatud. Selle asemel ühiskasutatakse tellimust portaalis **Hankija** ja kui saadetakse *kinnituse taotlus* , saab hankija tellimuse otse kinnitada.  
+Ostutellimused sisaldavad võimalust saata välja *ostupäring* hankijale alternatiivina põhjalikumale pakkumikutsele. Ostupäringut saab kasutada selliste tingimuste loomiseks nagu hinnad, allahindlused ja tellimuse tarnekuupäev. Kui hankijad on seadistatud kasutama portaali **Hankija**, siis on ostupäringu funktsioon keelatud. Selle asemel ühiskasutatakse tellimust portaalis **Hankija** ja kui saadetakse *kinnituse taotlus*, saab hankija tellimuse otse kinnitada.  
 
 *Hankija katalooge* saab kasutada kogumaks teavet tootesortimendi kohta, mida hankijad tarnida saavad. Hankijad saavad avaldada oma kataloogi, et oleks lihtsam kataloogi ajakohasena hoida. Võimalik n manustada tootele *kinnitatud hankijate loend* ja see aitab juhtida hankija valikut, kui uued ostutellimused avatakse, ning vältida soovimatute hankijate kasutamist.
 
@@ -54,7 +54,7 @@ Ostutellimused sisaldavad võimalust saata välja *ostupäring* hankijale altern
 - Ostulepingute töötlemise kaudu, kus ostutellimused luuakse lepingutest vabastattud tellimustena. Seda kasutatakse tavaliselt siis, kui ostulepinguid kasutatakse raamtellimuste tähistamiseks.
 - Käsitsi, kui loodud ostutellimus ei põhine muul dokumendil.
 
-Ostutellimused, mis on konfigureeritud *ostu kinnitustöövooga* , vajavad enne kinnitatuna salvestamist kinnitamist ja seda nõutakse, enne kui tellimust saab edasi töödelda.
+Ostutellimused, mis on konfigureeritud *ostu kinnitustöövooga*, vajavad enne kinnitatuna salvestamist kinnitamist ja seda nõutakse, enne kui tellimust saab edasi töödelda.
 
 Ostutellimused *kinnitatakse* näitamaks, et hankijaga on loodud leping. Ostutellimus edeneb seejärel järk-järgult läbi erinevate olekute, kuni arveldatakse või tühistatakse lõpuks.  
 
@@ -66,7 +66,7 @@ Hinnad ja allahindlused sisaldavad teavet hindade, allahindluste ja nende pakuta
 
 ### <a name="delivery-options"></a>Tarnevalikud
 
-Ostutellimusega seotud tarneprotsesside puhul on erinevad võimalused. Tellitud tooted saab jaotada *tarnegraafikutesse* , kus saab tellitud koguse osadele plaanida erinevad tarnekuupäevad. Tarne võib sisaldada ka ostutellimuses algatatud *otsetarnet* , mis automatiseerib saatelehe loomise müügitellimuses samal ajal kui ostutellimuses salvestatakse toote kviitung. Ostutellimused võivad olla ka *kontsernisisese tellimuse* ahela osad, mida nimetatakse ka kontsernisisesteks ostutellimusteks, kus tooteid tellitakse sobivast kontsernisisesest müügitellimusest. Selles olukorras on mõned etapid kahes seotud kontsernisiseses tellimuses automatiseeritud.
+Ostutellimusega seotud tarneprotsesside puhul on erinevad võimalused. Tellitud tooted saab jaotada *tarnegraafikutesse*, kus saab tellitud koguse osadele plaanida erinevad tarnekuupäevad. Tarne võib sisaldada ka ostutellimuses algatatud *otsetarnet*, mis automatiseerib saatelehe loomise müügitellimuses samal ajal kui ostutellimuses salvestatakse toote kviitung. Ostutellimused võivad olla ka *kontsernisisese tellimuse* ahela osad, mida nimetatakse ka kontsernisisesteks ostutellimusteks, kus tooteid tellitakse sobivast kontsernisisesest müügitellimusest. Selles olukorras on mõned etapid kahes seotud kontsernisiseses tellimuses automatiseeritud.
 
 ### <a name="supplementary-items"></a>Lisakaubad
 
@@ -84,7 +84,7 @@ Mõned ostutellimused sisaldavad tooteid, mis on teenused või muud mittefüüsi
 
 Toodete sissetulek võib kaasa tuua automaatse tarbimise kindlal eesmärgil. See hõlmab kaudset tarbimist otsetarnega, projekti tarbimist või toote arveldamist põhivarana.  
 
-Kui hankijalt saabuvad *hankija arved* , võidakse need esmalt salvestada ostutellimusest sõltumatusse *arveregistrisse* ja hiljem kinnitatakse need ostutellimuses kirjena. Hankija arve salvestamine ostutellimusega hõlmab toote sissetuleku vastendamist arvega.  
+Kui hankijalt saabuvad *hankija arved*, võidakse need esmalt salvestada ostutellimusest sõltumatusse *arveregistrisse* ja hiljem kinnitatakse need ostutellimuses kirjena. Hankija arve salvestamine ostutellimusega hõlmab toote sissetuleku vastendamist arvega.  
 
 *Arvestuse jaotuse* saab määrata ostutellimuses kirjeldamaks, kuidas tuleks pearaamatus arveldada, ja samuti saab määratleda, kuidas eelarvefondi eraldus saadakse, kui see lisatakse teie konfiguratsiooni.  
 

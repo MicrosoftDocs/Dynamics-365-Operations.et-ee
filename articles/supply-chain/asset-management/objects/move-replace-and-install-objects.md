@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec150adb35eb0600844245b14cbec9e9632ab337
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889549"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426315"
 ---
 # <a name="move-replace-and-install-assets"></a>Varade teisaldamine, asendamine ja installimine
 
@@ -59,7 +59,7 @@ Funktsiooni **Vara teisaldamine** saate kasutada vara teisaldamiseks kas muusse 
 Kasutage funktsiooni **Vara asendamine** seoses remontimise, renoveerimise või kulunud vara püsiva asendamisega uue varaga. Seda funktsiooni kasutatakse alamvarade asendamiseks vara struktuuris. Emavara jaoks (st varad, millel pole praegu emavara), tehakse see asendamine töö asukohas. Lisateabe saamiseks emavara asendamiseks töö asukohas lugege teemat [Varade installimine töö asukohtadesse](../functional-locations/install-objects-on-functional-locations.md).
 
 > [!NOTE]
-> Kui tootmisosakonnaga on seotud remonditöökoda, saate luua töö asukohti **(nt Remont**, **Praak**ja **Ladustamine**), et käsitseda vara parandamist ja asendamist.
+> Kui tootmisosakonnaga on seotud remonditöökoda, saate luua töö asukohti **(nt Remont**, **Praak** ja **Ladustamine**), et käsitseda vara parandamist ja asendamist.
 
 1. Valige **Varahaldus** \> **Ühine** \> **Varad** \> **Kõik varad** või **Aktiivsed varad**.
 2. Valige loendist asendatav alamvara. Kui varal on alamvarad, asendate ka need varad.

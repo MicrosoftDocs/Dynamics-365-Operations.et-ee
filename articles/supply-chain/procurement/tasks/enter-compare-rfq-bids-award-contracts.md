@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018418"
+ms.locfileid: "4426687"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Pakkumiskutse pakkumiste sisestamine ja võrdlemine ning lepingute määramine
 
@@ -37,14 +37,14 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 
 1. Armatuurlaual valige **Hankija pakkumine**.
 2. Leidke loendist **Uued pakkumiskutsed** äsja saadetud pakkumiskutse. Valige vaatamiseks nõutud pakkumiskutse.
-3. Valige **Pakkumiskutsete manused** , et vaadata lisatud manuseid.
-4. Valige **Pakkumine** , et muuta väljad redigeeritavaks. Jälgige, et välja **Pakkumise edenemine** väärtuseks oleks määratud **Hankija värskendab**.
+3. Valige **Pakkumiskutsete manused**, et vaadata lisatud manuseid.
+4. Valige **Pakkumine**, et muuta väljad redigeeritavaks. Jälgige, et välja **Pakkumise edenemine** väärtuseks oleks määratud **Hankija värskendab**.
 5. Sisestage päisesse ja ridadele väärtused pakkumise vastusest.
 6. Kui pakkumisele tuleb lisada mis tahes manuseid, valige **Pakkumise manused.**
-7. Valige kiirkaart **Pakkumisjuhiste üksused** , et vaadata, kas nõutakse mingisuguseid dokumente.
-8. Valige kiirkaart **Parandused** , et vaadata, kas pakkumiskutset on muudetud.
+7. Valige kiirkaart **Pakkumisjuhiste üksused**, et vaadata, kas nõutakse mingisuguseid dokumente.
+8. Valige kiirkaart **Parandused**, et vaadata, kas pakkumiskutset on muudetud.
 9. Valige kiirkaart **Küsimustik**. Kõigile siin kuvatavatele küsimustikele tuleb vastata.
-10. Valige kiirkaart **Rea üksikasjad** , et vaadata rea kohta laiendatud teavet.
+10. Valige kiirkaart **Rea üksikasjad**, et vaadata rea kohta laiendatud teavet.
 11. Valige **Lähtestamine alates pakkumiskutsest** ainult siis, kui peate lähtestama väärtused, mis on sisestatud algse pakkumiskutse väärtusteks.
 12. Saate pakkumise igal ajal salvestada ja seda hiljem uuesti töödelda tingimusel, et aegumiskuupäev ja-kellaaeg pole möödunud. Sel juhul leiate pakkumise loendist **Pooleliolevad pakkumised** tööruumis **Hankija pakkumine**.
 13. Kui pakkumine on saatmiseks valmis, valige **Edasta**. Kui te ei soovi pakkumist teha, valige **Keeldu**. Esitatud pakkumised on saadavaloendis **Esitatud pakkumised** tööruumis **Hankija pakkumine**.  
@@ -54,7 +54,7 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 
 1. Veenduge, et luba redigeerida hankija pakkumisi on seadistatud. Minge **Hanked \> Seadistus \> Hangete parameetrid**. Vahekaardil **Pakkumiskutse** seadke suvandi **Ostja saab redigeerida hankija pakkumist** väärtuseks **Jah**.
 2. Avage **Hanked \> Pakkumiskutsed \> Kõik pakkumiskutsed**.
-3. Valige pakkumiskutse, mille olek on **Saadetud** , ja klõpsake linki väljal **Pakkumiskutse juhtum**.
+3. Valige pakkumiskutse, mille olek on **Saadetud**, ja klõpsake linki väljal **Pakkumiskutse juhtum**.
 4. Valige **Halda vastuseid**. Ilmuval lehel näidatakse igale kutsutud hankijale tehtud pakkumiskutset.
 5. Valige pakkumiskutse, millele pole vastatud. (Välja **Vastuse edenemine** väärtuseks peab olema määratud **Alustamata**.)
 6. Valige **Redigeerimine \> Pakkumiskutse vastuse redigeerimine**. Kuvatakse leht **Pakkumiskutse vastus**. Hankespetsialistina saate nüüd sisestada vastuse hankija asemel. Jälgige, et välja **Pakkumise edenemine** väärtuseks oleks määratud **Ostja värskendab**.  
@@ -65,7 +65,7 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 1. Lehel **Kõik pakkumiskutsed** valige pakkumiskutse juhtum, mille kohta soovite hindamisvastuseid saada.
 2. Valige **Halda vastuseid**.
 3. Valige vastuse skoor.
-4. Valige **Päis** , et saaksite vaadata pakkumise hindamist.
+4. Valige **Päis**, et saaksite vaadata pakkumise hindamist.
 5. Sisestage kiirkaardil **Pakkumise hindamine** väljale **Skoor** number ühe hindamiskriteeriumi kohta. Kui liigute hiirega üle hindamiskriteeriumi, näitab kohtspikker vahemiku, millesse skoor peab jääma. Selles demos saate sisestada mis tahes skoorikriteeriumidele arvu vahemikus 1 ja 5.  
 6. Korrake etappi 5 teise skoorikriteeriumiga.
 7. Kui pakkumiskutse juhtumil on küsimustik, mis saadeti hankijatele, saate sisestada hankijate vastused kiirkaardil **Küsimustikud**.
@@ -88,7 +88,7 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 
 1. Valige päise rida pakkumisele, mille soovite tagasi lükata. Ühe pakkumise puhul saate korraga aktsepteerida, tagasi lükata või tagastada ainult ühe pakkumise või rea.
 2. Valige märkeruut **Märgi.**  
-    - Kui valite pakkumise päises märkeruudu **Märgi** , märgitakse ka kõik read. Ainult mõnede pakkumise ridade tagasilükkamiseks või aktsepteerimiseks saate märkida ainult need read. Lisaks saate kinnitada mõne pakkumiskutse rea puhul ühe hankija pakkumise ja siis märata teised pakkumiskutse read teisele hankijale. Kuid peate tegema ühe pakkumise korraga.  
+    - Kui valite pakkumise päises märkeruudu **Märgi**, märgitakse ka kõik read. Ainult mõnede pakkumise ridade tagasilükkamiseks või aktsepteerimiseks saate märkida ainult need read. Lisaks saate kinnitada mõne pakkumiskutse rea puhul ühe hankija pakkumise ja siis märata teised pakkumiskutse read teisele hankijale. Kuid peate tegema ühe pakkumise korraga.  
     - Kui on olemas alternatiivsed read, saate aktsepteerida esialgse pakkumise rea või selle alternatiivi, kuid mitte mõlemaid.  
 3. Valige **Keeldu**.
 4. Valige **Parameetrid** ja seejärel sisestage või valige väljale **Tagasilükkamise põhjus** pakkumise tagasilükkamise põhjus. Põhjus salvestatakse vastuses.  
@@ -102,7 +102,7 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 3. Valige **Aktsepteerimine**. Kui märkisite ainult kindlad read, kaasatakse aktsepteerimistoimingusse ainult need read. Kui soovite aktsepteerida kõiki pakkumise ridu, siis ei pea te ridu märkima.  
 4. Valige **Parameetrid** ja seejärel sisestage või valige väljale **Aktsepteerimise põhjus** pakkumise aktsepteerimise põhjus. Põhjus salvestatakse pakkumises.  
 5. Valige nupp **OK**.
-6. Valige nupp **OK**. Kui valite nupu **OK** , luuakse ostutellimus pakkumiskutse kinnitusse lisatud ridade alusel. Kui on teisi pakkumisi, mida ei ole töödeldud (aktsepteeritud, tagasi lükatud või tagastatud), siis palub süsteem teil need pakkumised tagasi lükata.  
+6. Valige nupp **OK**. Kui valite nupu **OK**, luuakse ostutellimus pakkumiskutse kinnitusse lisatud ridade alusel. Kui on teisi pakkumisi, mida ei ole töödeldud (aktsepteeritud, tagasi lükatud või tagastatud), siis palub süsteem teil need pakkumised tagasi lükata.  
 
 ## <a name="view-the-purchase-order-that-is-generated"></a>Loodud ostutellimuse vaatamine
 

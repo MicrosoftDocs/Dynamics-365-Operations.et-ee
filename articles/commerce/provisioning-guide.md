@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
 description: Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i hindamiskeskkond.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599846"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4411829"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
 
@@ -48,6 +48,7 @@ Teavet selle kohta, kuidas Commerce’i hindamiskeskkonda pärast ettevalmistami
 
 Enne Commerce’i hindamiskeskkonna ettevalmistamist peavad olema kehtestatud järgmised eeltingimused.
 
+- Teid on teavitatud hindamisprogrammist ja teile on antud hindamiskeskkonna suutlikkus.
 - Teil on juurdepääs Microsoft Dynamicsi portaalile Lifecycle Services (LCS).
 - Olete olemasolev Microsoft Dynamics 365 partner või klient ja olete võimeline looma Dynamics 365 Commerce’i projekti.
 - Teil on administraatori juurdepääs Microsoft Azure'i kordustellimusele või teil on võimalik võtta ühendust kordustellimuse administraatoriga, kes saab vajadusel teid abistada.
@@ -91,7 +92,7 @@ Keskkonna juurutamiseks tehke järgmist.
 
 1. Ülemises menüüs valige suvand **Pilve majutatud keskkonnad**.
 1. Valige suvand **Lisa** keskkonna lisamiseks.
-1. Väljal **Rakenduse versioon** valige uusim versioon. Kui teil on konkreetne vajadus valida rakenduse versioon, mis ei ole kõige uuem versioon, ärge valige varasemat versiooni kui **10.0.8**.
+1. Väljal **Rakenduse versioon** valige uusim versioon. Kui teil on konkreetne vajadus valida rakenduse versioon, mis ei ole kõige uuem versioon, ärge valige varasemat versiooni kui **10.0.14**.
 1. Kasutage väljal **Platvormi versioon** platvormi versiooni, mis valitakse automaatselt valitud rakenduse versiooni jaoks. 
 
     ![Rakenduse ja platvormi versioonide valimine](./media/project1.png)

@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269609"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411626"
 ---
 # <a name="add-a-welcome-message"></a>Tervitussõnumi lisamine
 
@@ -46,7 +46,7 @@ Oma saidile tervitussõnumi lisamiseks toimige järgmiselt.
 1. Valige päise fragment, millele sõnum lisada.
 1. Laiendage liigendpuus suvandit **Tõrke-/teabeteated**.
 1. Valige teatise moodul ja valige seejärel **OK**. Kui teatise moodulit pole veel olemas, valige esiteks kolmikpunkti nupp (**...**) suvandi **Tõrke-/teabeteated** kõrval ja seejärel valige käsk **Lisa moodul**.
-1. Valige parempoolsel atribuudipaanil vahekaardil **Andmed** suvand **Lisa andmeallikas**ja valige seejärel suvand **Sisu**.
+1. Valige parempoolsel atribuudipaanil vahekaardil **Andmed** suvand **Lisa andmeallikas** ja valige seejärel suvand **Sisu**.
 1. Sisestage väljale **Sisendtekst** tervitussõnumi tekst.
 1. Valige **Salvesta**, valige päise fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 

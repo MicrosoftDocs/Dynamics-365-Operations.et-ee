@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022001"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4411838"
 ---
 # <a name="gift-card-module"></a>Kinkekaardi moodul
 
@@ -81,11 +81,13 @@ Juhiste saamiseks kinkekaardi mooduli lisamiseks kassa lehele ja nõutavate atri
 
 [Maksmismoodul](add-checkout-module.md)
 
-[Maksemoodul](payment-module.md)
+[Makse moodul](payment-module.md)
 
 [Tarneaadressi moodul](ship-address-module.md)
 
 [Tarnesuvandite moodul](delivery-options-module.md)
+
+[Järeletulemisteabe moodul](pickup-info-module.md)
 
 [Tellimuse üksikasjade moodul](order-confirmation-module.md)
 

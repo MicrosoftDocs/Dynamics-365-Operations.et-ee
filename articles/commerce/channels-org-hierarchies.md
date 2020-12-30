@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113847"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411635"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organisatsiooni hierarhiate seadistamine
 

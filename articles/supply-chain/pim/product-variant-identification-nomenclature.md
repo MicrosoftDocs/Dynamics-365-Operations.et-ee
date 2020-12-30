@@ -1,6 +1,6 @@
 ---
 title: Tootevariandi numbrite ja nimede nomenklatuur
-description: See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks.
+description: See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] vormingu asendamiseks.
 author: roxanadiaconu
 manager: tfehr
 ms.date: 11/03/2017
@@ -20,17 +20,17 @@ ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 90c01e4281246d890ef888c56ca137f83e83741c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980479"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426028"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Tootevariandi numbrite ja nimede nomenklatuur
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud vormingu [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] asendamiseks. Uuel nomenklatuuril on sihipärane vorming, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja teie valitud teksti eraldajaid. Nomenklatuuri saab luua ka tootenimede kohta. Lõpuks saab koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute.
+See teema kirjeldab, kuidas seadistada tootenumbri nomenklatuuri fikseeritud [Tooteetaloni number – Konfiguratsioon – Suurus – Värv – Laad] vormingu asendamiseks. Uuel nomenklatuuril on sihipärane vorming, mis sisaldab tooteetaloni numbrit, aktiivseid tootedimensioone ja teie valitud teksti eraldajaid. Nomenklatuuri saab luua ka tootenimede kohta. Lõpuks saab koostada nomenklatuuri piirangupõhise tootekonfiguraatoriga loodud konfiguratsioonide tuvastamiseks. Need nomenklatuurid võivad sisaldada teie valitud atribuute.
 
 Tootevariandi numbrite ja nimede uued nomenklatuurid võimaldavad kaasata identifikaatoritesse tootevariantide segmente. Need segmendid võivad sisaldada tooteetaloni numbrit ja nime, tootedimensiooni ID-sid ja nimesid, numbriseeriaid, tekstikonstante ja atribuute. See funktsionaalsus võimaldab teil müügitellimuse või ostutellimuse loomisel kiiresti leida konkreetse tootevariandi. Nomenklatuure saab luua nii tootevariandi numbrite kui ka nimede kohta, kasutades lehte **Toote nomenklatuur**. Selle lehe avamiseks klõpsake nuppe **Tooteteabe haldus** &gt; **Seadistus**.
 

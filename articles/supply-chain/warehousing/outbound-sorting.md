@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017686"
+ms.locfileid: "4426678"
 ---
 # <a name="outbound-sorting"></a>Väljastuste sortimine
 
@@ -62,7 +62,7 @@ Pakkimisjaama loetakse asukohaks. Lao töötajad, kes logivad pakkimisjaamas sis
 1. Valige väljal **Töötaja** töötajate loendist sihtkasutaja.
 1. Valige käsk **Vali**.
 1. Valige toimingupaanil nupp **Salvesta**.
-1. Valige kiirkaardil **Kasutajad** suvand **Uus** , et luua mobiilse seadme konto ja seadke sellele järgmised väärtused.
+1. Valige kiirkaardil **Kasutajad** suvand **Uus**, et luua mobiilse seadme konto ja seadke sellele järgmised väärtused.
 
     - **Kasutaja ID:** sisestage kordumatu ID.
     - **Kasutajanimi:** sisestage nimi ID jaoks.
@@ -70,7 +70,7 @@ Pakkimisjaama loetakse asukohaks. Lao töötajad, kes logivad pakkimisjaamas sis
     - **Menüü nimi:** *Peamine*
 
 1. Valige toimingupaanil nupp **Salvesta**.
-1. Kuvatakse dialoogiboks **Parooli määramine** , kus saate luua lihtsa parooli, mida kasutaja saab mobiilirakendusse sisselogimiseks kasutada. Määrake järgmised väärtused.
+1. Kuvatakse dialoogiboks **Parooli määramine**, kus saate luua lihtsa parooli, mida kasutaja saab mobiilirakendusse sisselogimiseks kasutada. Määrake järgmised väärtused.
 
     - **Parool:** sisestage lihtne parool.
     - **Kinnita parool:** sisestage uuesti sama parool.
@@ -82,7 +82,7 @@ Pakkimisjaama loetakse asukohaks. Lao töötajad, kes logivad pakkimisjaamas sis
 ### <a name="create-a-location-type"></a>Asukoha tüübi loomine
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Ladu \> Asukoha tüübid**.
-1. Valige toimingupaanil **Uus** , et luua asukoha tüüp ja määrake sellele järgmised väärtused.
+1. Valige toimingupaanil **Uus**, et luua asukoha tüüp ja määrake sellele järgmised väärtused.
 
     - **Asukoha tüüp:** *SORTIMINE*
     - **Kirjeldus:** *Sortimine*
@@ -109,7 +109,7 @@ Pakkimisjaama loetakse asukohaks. Lao töötajad, kes logivad pakkimisjaamas sis
     - **Asukoha vorming:** *ASRB* (riiulirida-sektsioon-riiul-asukoht)
     - **Asukoha tüüp:** *SORTIMINE*
     - **Kasuta identifitseerimisnumbri jälgimist:** *Jah*
-    - **Luba segakaubad:** *Jah* (kui määrate selle suvandi väärtuseks *Jah* , määratakse suvandi **Luba segatud varude partiid** väärtuseks *Jah* ja seda ei saa eraldi muuta.)
+    - **Luba segakaubad:** *Jah* (kui määrate selle suvandi väärtuseks *Jah*, määratakse suvandi **Luba segatud varude partiid** väärtuseks *Jah* ja seda ei saa eraldi muuta.)
 
 1. Valige käsk **Salvesta**.
 
@@ -117,7 +117,7 @@ Pakkimisjaama loetakse asukohaks. Lao töötajad, kes logivad pakkimisjaamas sis
 
 1. Avage **Laohaldus \> Seadistus \> Ladu \> Asukohad**.
 1. Tühjendage päises märkeruut **Loo kontrollnumbrid asukoha jaoks**.
-1. Valige toimingupaanil **Uus** , et luua asukoht ja määrake sellele järgmised väärtused.
+1. Valige toimingupaanil **Uus**, et luua asukoht ja määrake sellele järgmised väärtused.
 
     - **Ladu:** *62*
     - **Asukoht:** *SORT*
@@ -146,13 +146,13 @@ Selle stsenaariumi korral loote väljamineku sortimismalli, et koostada kaubaalu
     - **Sortimise kontrollimine:** *Asukoha skannimine*
     - **Loo töö asukoha sulgemisel:** *Jah*
 
-        Kui selle suvandi väärtuseks on seatud *Jah* , kui asukoht on suletud, luuakse töö varude lõppsihtkohta teisaldamiseks. Kui väärtuseks on seatud *Ei* , komplekteeritakse varud asukoha sulgemisel kohe tellimusele.
+        Kui selle suvandi väärtuseks on seatud *Jah*, kui asukoht on suletud, luuakse töö varude lõppsihtkohta teisaldamiseks. Kui väärtuseks on seatud *Ei*, komplekteeritakse varud asukoha sulgemisel kohe tellimusele.
 
     - **Asukoha määramine:** *Automaatne*
 
-        Kui välja väärtuseks on seatud *Käsitsi* , peab kasutaja alati näitama, millisesse asukohta varud sortida tuleb. Kui selleks on seatud *Automaatne* , juhib süsteem varud võimaluse korral automaatselt asukohta, võttes aluseks sortimismalli jaotamised.
+        Kui välja väärtuseks on seatud *Käsitsi*, peab kasutaja alati näitama, millisesse asukohta varud sortida tuleb. Kui selleks on seatud *Automaatne*, juhib süsteem varud võimaluse korral automaatselt asukohta, võttes aluseks sortimismalli jaotamised.
 
-1. Valige **Salvesta** , et muuta nupp **Redigeeri päringut** toimingupaanil kättesaadavaks.
+1. Valige **Salvesta**, et muuta nupp **Redigeeri päringut** toimingupaanil kättesaadavaks.
 1. Valige toimingupaanil **Päringu redigeerimine**.
 1. Lisage päringuredaktoris vahekaardile **Sortimine** rida, millel on järgmised väärtused.
 
@@ -176,7 +176,7 @@ Selle stsenaariumi korral loote väljamineku sortimismalli, et koostada kaubaalu
     - **Viitevälja nimi:** *Vedaja teenus*
     - **Grupeeri välja alusel:** märkige see ruut, et grupeerida saadetised vedaja teenuse alusel.
 
-1. Valige **OK** , et salvestada oma sätted ja sulgeda dialoogiboks.
+1. Valige **OK**, et salvestada oma sätted ja sulgeda dialoogiboks.
 
 ### <a name="set-up-container-packing-policies"></a>Konteineri pakkimise poliitikate seadistamine
 
@@ -202,14 +202,14 @@ Selle stsenaariumi korral loote väljamineku sortimismalli, et koostada kaubaalu
 Looge uus pakkimisprofiil, mida kasutatakse koos sortimise funktsiooniga.
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Pakkimine \> Pakkimisprofiilid**.
-1. Valige toimingupaanil **Uus** , et luua rida ja määrake sellele järgmised väärtused.
+1. Valige toimingupaanil **Uus**, et luua rida ja määrake sellele järgmised väärtused.
 
     - **Pakkimisprofiili ID:** *Sortimine*
     - **Kirjeldus:** *Sortimine*
     - **Konteineri pakkimise poliitika:** *Sortimine*
     - **Konteineri ID-režiim:** *Automaatne*
     - **Konteineri tüüp:** *Box-Large*
-    - **Konteineri automaatne loomine konteineri sulgemisel:** tühjendatud (= *Ei* )
+    - **Konteineri automaatne loomine konteineri sulgemisel:** tühjendatud (= *Ei*)
 
 1. Valige käsk **Salvesta**.
 
@@ -218,7 +218,7 @@ Looge uus pakkimisprofiil, mida kasutatakse koos sortimise funktsiooniga.
 Seadistage töö klass, mida kasutatakse koos sortimisega.
 
 1. Minge jaotisse **Laohaldus \> Seadistus \> Töö \> Töö klassid**.
-1. Valige toimingupaanil **Uus** , et luua sortimiseks töö klass ja määrake sellele järgmised väärtused.
+1. Valige toimingupaanil **Uus**, et luua sortimiseks töö klass ja määrake sellele järgmised väärtused.
 
     - **Töö klassi ID:** *Sortimine*
     - **Kirjeldus:** *Sortimine*
@@ -245,11 +245,11 @@ Looge mobiilse seadme menüü-üksus kaubaaluste loomiseks sortimise ajal.
 
     - **Tegevuse kood:** *Väljamineku sortimine*
 
-        Kui selle välja väärtuseks on seatud *Väljamineku sortimine* , kuvatakse väli **Väljamineku sortimismalli ID**.
+        Kui selle välja väärtuseks on seatud *Väljamineku sortimine*, kuvatakse väli **Väljamineku sortimismalli ID**.
 
     - **Protsessijuhendi kasutamine:** *Jah*
 
-        Kui välja **Tegevuse kood** on seatud *Väljamineku sortimine* , seatakse selle suvandi väärtuseks automaatselt *Jah*.
+        Kui välja **Tegevuse kood** on seatud *Väljamineku sortimine*, seatakse selle suvandi väärtuseks automaatselt *Jah*.
 
     - **Väljamineku sortimismalli ID:** *AutoWork*
 
@@ -310,14 +310,14 @@ Nüüd peate lisama uued menüü-üksused mobiilse seadme menüüsse.
     - **Ladu:** *62*
     - **Mitu SKU-d:** *Ei*
 
-1. Valige **Salvesta** , et muuta tööriistariba kiirkaardil **Read** kättesaadavaks.
+1. Valige **Salvesta**, et muuta tööriistariba kiirkaardil **Read** kättesaadavaks.
 1. Valige kiirkaardil **Read** suvand **Uus** ja seejärel seadke uuel real järgmised väärtused. Võtke vastu kõigi teiste väljade vaikeväärtused.
 
     - **Järjestus:** *1*
     - **Alates:** *0*
     - **Kuni:** *1 000 000*
 
-1. Valige **Salvesta** , et muuta tööriistariba kiirkaardil **Asukohakorralduse toimingud** kättesaadavaks.
+1. Valige **Salvesta**, et muuta tööriistariba kiirkaardil **Asukohakorralduse toimingud** kättesaadavaks.
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** ja seejärel seadke uuel real järgmised väärtused. Võtke vastu kõigi teiste väljade vaikeväärtused.
 
     - **Järjestus:** *1*
@@ -345,14 +345,14 @@ Nüüd peate lisama uued menüü-üksused mobiilse seadme menüüsse.
     - **Ladu:** *62*
     - **Mitu SKU-d:** *Jah*
 
-1. Valige **Salvesta** , et muuta tööriistariba kiirkaardil **Read** kättesaadavaks.
+1. Valige **Salvesta**, et muuta tööriistariba kiirkaardil **Read** kättesaadavaks.
 1. Valige kiirkaardil **Read** suvand **Uus** ja seejärel seadke uuel real järgmised väärtused. Võtke vastu kõigi teiste väljade vaikeväärtused.
 
     - **Järjestus:** *1*
     - **Alates:** *0*
     - **Kuni:** *1 000 000*
 
-1. Valige **Salvesta** , et muuta tööriistariba kiirkaardil **Asukohakorralduse toimingud** kättesaadavaks.
+1. Valige **Salvesta**, et muuta tööriistariba kiirkaardil **Asukohakorralduse toimingud** kättesaadavaks.
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** ja seejärel seadke uuel real järgmised väärtused. Võtke vastu kõigi teiste väljade vaikeväärtused.
 
     - **Järjestus:** *1*
@@ -374,13 +374,13 @@ Nüüd peate lisama uued menüü-üksused mobiilse seadme menüüsse.
     - **Töömall:** *Sortimine*
     - **Töömalli kirjeldus:** *Sortimine*
 
-1. Valige **Salvesta** , et muuta kiirkaart **Töömalli üksikasjad** kättesaadavaks.
-1. Valige kiirkaardil **Töömalli üksikasjad** suvand **Jah** , et lisada rida ja seejärel seadke sellele järgmised väärtused.
+1. Valige **Salvesta**, et muuta kiirkaart **Töömalli üksikasjad** kättesaadavaks.
+1. Valige kiirkaardil **Töömalli üksikasjad** suvand **Jah**, et lisada rida ja seejärel seadke sellele järgmised väärtused.
 
     - **Töö tüüp:** *Komplekteerimine*
     - **Töö klassi ID:** *SORTIMINE*
 
-1. Valige uuesti **Uus** , et lisada teine rida ja seejärel seadke sellele järgmised väärtused.
+1. Valige uuesti **Uus**, et lisada teine rida ja seejärel seadke sellele järgmised väärtused.
 
     - **Töö tüüp:** *Ladustamine*
     - **Töö klassi ID:** *SORTIMINE*
@@ -420,7 +420,7 @@ See stsenaarium simuleerib olukorda, kus pakitud konteinerid tuleks pärast pakk
     - **Kogus:** *2*
 
 1. Kui uus tellimuse rida on veel valitud, valige kiirkaardi **Müügitellimuse read** ruudustiku kohal olevas menüüs **Varud** suvand **Reserveerimine**.
-1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida laos kogu valitud rea kogus.
+1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida laos kogu valitud rea kogus.
 1. Müügitellimuse juurde naasmiseks sulgege leht **Reserveerimine**.
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**.
 1. Saate teate, mis näitab saadetist ja voogu selle tellimuse jaoks. Märkige üles voo ID-kood ja saadetise ID-kood.
@@ -448,10 +448,10 @@ See stsenaarium simuleerib olukorda, kus pakitud konteinerid tuleks pärast pakk
 
 1. Muutke kiirkaardi **Rea üksikasjad** vahekaardil **Tarne** välja **Tarneviis** väärtuseks *Air C-Air*.
 1. Valige kiirkaardil **Müügitellimuse read** esimene tellimuse rida. Seejärel valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
-1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida laos kogu valitud rea kogus.
+1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida laos kogu valitud rea kogus.
 1. Müügitellimuse juurde naasmiseks sulgege leht **Reserveerimine**.
 1. Valige kiirkaardil **Müügitellimuse read** teine tellimuse rida. Seejärel valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
-1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida laos kogu valitud rea kogus.
+1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida laos kogu valitud rea kogus.
 1. Müügitellimuse juurde naasmiseks sulgege leht **Reserveerimine**.
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**.
 1. Saate teate, mis näitab saadetist ja voogu selle tellimuse jaoks. Pange tähele, et loodi kaks voo ID-numbrit ja kaks saadetise ID-numbrit, üks iga tarneviisi tarneviisi jaoks müügitellimuse ridadel.
@@ -465,12 +465,12 @@ See stsenaarium simuleerib olukorda, kus pakitud konteinerid tuleks pärast pakk
 
 Viige loodud töö lõpule, kasutades mobiilset seadet kaupade teisaldamiseks pakkimisjaama.
 
-1. Logige mobiilses seadmes sisse lattu *62* , kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
+1. Logige mobiilses seadmes sisse lattu *62*, kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
 1. Valige peamenüüs suvand **Väljaminev**.
 1. Valige menüüs **Väljaminev** suvand **Müügi komplekteerimine**.
 1. Sisestage väljale **ID** müügitellimuse 1 jaoks loodud töö ID.
 1. Valige nupp **OK**.
-1. Sisestage lehel **Müügitellimused – komplekteerimine** siht-LP, mis loodi müügitellimuse 1 jaoks. Pange tähele, et kuvatakse komplekteerimise asukoht ( *hulgi-001* ), kaup ( *A0001* ) ja kogus ( *2 tk* ).
+1. Sisestage lehel **Müügitellimused – komplekteerimine** siht-LP, mis loodi müügitellimuse 1 jaoks. Pange tähele, et kuvatakse komplekteerimise asukoht (*hulgi-001*), kaup (*A0001*) ja kogus (*2 tk*).
 1. Valige nupp **OK**.
 1. Vaadake üle teave lehel **Ostutellimused – sisestatud**. Väli **Loc** peaks näitama, et komplekteeritud kaubad lähevad asukohta *Pakkimine*.
 1. Valige nupp **OK**.
@@ -481,7 +481,7 @@ Viige loodud töö lõpule, kasutades mobiilset seadet kaupade teisaldamiseks pa
 
 1. Sisestage väljale **ID** töö ID, mis loodi müügitellimuse 2 jaoks, kus real 1 on kaup *A0001*.
 1. Valige nupp **OK**.
-1. Sisestage lehele **Müügitellimused – komplekteerimine** siht-LP. Pange tähele, et kuvatakse komplekteerimise asukoht ( *hulgi-001* ), kaup ( *A0001* ) ja kogus ( *1 tk* ).
+1. Sisestage lehele **Müügitellimused – komplekteerimine** siht-LP. Pange tähele, et kuvatakse komplekteerimise asukoht (*hulgi-001*), kaup (*A0001*) ja kogus (*1 tk*).
 1. Valige nupp **OK**.
 1. Vaadake üle teave lehel **Ostutellimused – sisestatud**. Väli **Loc** peaks näitama, et komplekteeritud kaubad lähevad asukohta *Pakkimine*.
 1. Valige nupp **OK**.
@@ -490,7 +490,7 @@ Viige loodud töö lõpule, kasutades mobiilset seadet kaupade teisaldamiseks pa
 
 1. Sisestage väljale **ID** töö ID, mis loodi müügitellimuse 2 jaoks, kus real 2 on kaup *A0002*.
 1. Valige nupp **OK**.
-1. Sisestage lehele **Müügitellimused – komplekteerimine** siht-LP. Pange tähele, et kuvatakse komplekteerimise asukoht ( *hulgi-002* ), kaup ( *A0001* ) ja kogus ( *1 tk* ).
+1. Sisestage lehele **Müügitellimused – komplekteerimine** siht-LP. Pange tähele, et kuvatakse komplekteerimise asukoht (*hulgi-002*), kaup (*A0001*) ja kogus (*1 tk*).
 1. Valige nupp **OK**.
 1. Vaadake üle teave lehel **Ostutellimused – sisestatud**. Väli **Loc** peaks näitama, et komplekteeritud kaubad lähevad asukohta *Pakkimine*.
 1. Valige nupp **OK**.
@@ -522,7 +522,7 @@ Viige loodud töö lõpule, kasutades mobiilset seadet kaupade teisaldamiseks pa
     - **Identifikaator:** kaup *A0001*
 
 1. Valige toimingupaanil nupp **Sule konteiner**.
-1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine** , et süsteem värskendaks välja **Brutokaal**.
+1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine**, et süsteem värskendaks välja **Brutokaal**.
 1. Valige nupp **OK**. Konteiner teisaldatakse asukohta *SORTIMINE* ja on sortimiseks valmis.
 1. Looge teine konteiner, et lisada teine kaup müügitellimuse 1 LP-st uude konteinerisse.
 1. Valige toimingupaanil nupp **Uus konteiner**.
@@ -533,7 +533,7 @@ Viige loodud töö lõpule, kasutades mobiilset seadet kaupade teisaldamiseks pa
     - **Identifikaator:** kaup *A0001*
 
 1. Valige toimingupaanil nupp **Sule konteiner**.
-1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine** , et süsteem värskendaks välja **Brutokaal**.
+1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine**, et süsteem värskendaks välja **Brutokaal**.
 1. Valige nupp **OK**. Konteiner teisaldatakse asukohta *SORTIMINE* ja on sortimiseks valmis.
 
 #### <a name="pack-sales-order-2-into-containers"></a>Müügitellimuse 2 pakkimine konteineritesse
@@ -547,7 +547,7 @@ Viige loodud töö lõpule, kasutades mobiilset seadet kaupade teisaldamiseks pa
     - **Identifikaator:** kaup *A0001*
 
 1. Valige toimingupaanil nupp **Sule konteiner**.
-1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine** , et süsteem värskendaks välja **Brutokaal**.
+1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine**, et süsteem värskendaks välja **Brutokaal**.
 1. Valige nupp **OK**. Konteiner teisaldatakse asukohta *SORTIMINE* ja on sortimiseks valmis.
 1. Sisestage väljale **Identifitseerimisnumber või saadetis** siht-LP müügitellimuse 2 rea 2 jaoks. Seejärel valige **Vahekaart** või vajutage klaviatuuril **Sisestusklahvi (Enter)** väljalt väljumiseks.
 1. Valige toimingupaanil nupp **Uus konteiner**.
@@ -558,7 +558,7 @@ Viige loodud töö lõpule, kasutades mobiilset seadet kaupade teisaldamiseks pa
     - **Identifikaatori väli:** kaup *A0002*
 
 1. Valige toimingupaanil nupp **Sule konteiner**.
-1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine** , et süsteem värskendaks välja **Brutokaal**.
+1. Valige dialoogiboksis **Sule konteiner** suvand **Süsteemi kaalu toomine**, et süsteem värskendaks välja **Brutokaal**.
 1. Valige nupp **OK**. Konteiner teisaldatakse asukohta *SORTIMINE* ja on sortimiseks valmis.
 
 Konteineri üksikasjade kuvamiseks avage jaotis **Laohaldus \> Pakkimine ja konteinerisse määramine \> Konteinerid** ja otsige pakkimise ajal loodud konteineri ID-sid.
@@ -566,19 +566,19 @@ Konteineri üksikasjade kuvamiseks avage jaotis **Laohaldus \> Pakkimine ja kont
 ### <a name="sort-the-containers"></a>Konteinerite sortimine
 
 > [!IMPORTANT]
-> Kui avate mobiilirakenduses menüü-üksuse **Kaubaaluse loomine** , et teha väljamineku sortimist, kuvatakse nupp, mille märgistus on **Täielik**. *Ärge kasutage nuppu **Täielik** asukoha sortimiseks või sulgemiseks.*
+> Kui avate mobiilirakenduses menüü-üksuse **Kaubaaluse loomine**, et teha väljamineku sortimist, kuvatakse nupp, mille märgistus on **Täielik**. *Ärge kasutage nuppu **Täielik** asukoha sortimiseks või sulgemiseks.*
 >
 > Nupp **Täielik** on vaikimisi saadaval ja seda ei saa lehelt keelata ega eemaldada. Seda ei kasutata funktsiooni *Väljamineku sortimine*.
 
 #### <a name="sort-the-first-container"></a>Esimese konteineri sortimine
 
-1. Logige mobiilses seadmes sisse lattu *62* , kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
+1. Logige mobiilses seadmes sisse lattu *62*, kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
 1. Valige peamenüüs suvand **Väljaminev**.
 1. Valige menüüs **Väljaminev** suvand **Kaubaaluse loomine**.
 1. Sisestage väljale **LP/Con** esimese konteineri ID, mis on seostatud müügitellimusega 1.
 1. Valige nupp **OK**.
 1. Kuna ühtegi sortimise asukohta pole praegu olemas, peate selle määrama. Sisestage väljale **Sortimise asukoha ID** väärtus *SP01*.
-1. Kuna ükski LP pole praegu seotud asukohaga *SP01* , peate selle määrama. Sisestage väljale **LP** väärtus *PLP01*.
+1. Kuna ükski LP pole praegu seotud asukohaga *SP01*, peate selle määrama. Sisestage väljale **LP** väärtus *PLP01*.
 1. Valige nupp **OK**.
 1. Kuna sortimise asukoha kinnitamine on sisse lülitatud, peate sisestama sortimise asukoha ID uuesti. Sisestage väljale **Sortimise asukoha ID** väärtus *SP01*.
 1. Valige nupp **OK**.
@@ -592,7 +592,7 @@ Konteineri üksikasjade kuvamiseks avage jaotis **Laohaldus \> Pakkimine ja kont
 
 #### <a name="sort-the-remaining-containers"></a>Järelejäänud konteinerite sortimine
 
-1. Logige mobiilses seadmes sisse lattu *62* , kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
+1. Logige mobiilses seadmes sisse lattu *62*, kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
 1. Valige peamenüüs suvand **Väljaminev**.
 1. Valige menüüs **Väljaminev** suvand **Kaubaaluse loomine**.
 1. Sisestage väljale **LP/Con** teise konteineri ID, mis on seostatud müügitellimusega 1.
@@ -623,7 +623,7 @@ Kui kõik varud on sorditud, tuleb asukoht enne töö loomist sulgeda. Luuakse s
 
 #### <a name="close-a-position-from-the-mobile-device"></a>Asukoha sulgemine mobiilsest seadmest
 
-1. Logige mobiilses seadmes sisse lattu *62* , kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
+1. Logige mobiilses seadmes sisse lattu *62*, kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
 1. Valige peamenüüs suvand **Väljaminev**.
 1. Valige menüüs **Väljaminev** suvand **Kaubaaluse loomine**.
 1. Sisestage väljale **LP/Con** konteineri ID, mis sorditi sortimise asukohta *SP01*.
@@ -645,23 +645,23 @@ Kui kõik varud on sorditud, tuleb asukoht enne töö loomist sulgeda. Luuakse s
 
 Peate viima lõpule sorditud varude komplekteerimistöö. Kui see on lõpule viidud, komplekteeritakse varud müügitellimusele. Seejärel kehtivad kõik muud laoprotsessid.
 
-1. Logige mobiilses seadmes sisse lattu *62* , kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
+1. Logige mobiilses seadmes sisse lattu *62*, kasutades selleks stsenaariumi jaoks loodud kasutaja ID-d (või olemasoleva demoandmete kasutaja ID-d).
 1. Valige peamenüüs suvand **Väljaminev**.
 1. Valige menüüs **Väljaminek** suvand **Laadi sortimisest**.
 1. Sisestage esimese sortimise asukoha siht-LP ID *SP01*. Määrake välja **ID** väärtuseks *PLP01*.
 1. Valige nupp **OK**.
-1. Lehel **Sorditud varude komplekteerimine: komplekteerimine** kuvatakse komplekteerimistöö, mida tuleb teha. Komplekteerige askohast *SORTIMINE* ja siht-LP-st *PLP01* , millel on mitu kaupa ja kogus *3*.
+1. Lehel **Sorditud varude komplekteerimine: komplekteerimine** kuvatakse komplekteerimistöö, mida tuleb teha. Komplekteerige askohast *SORTIMINE* ja siht-LP-st *PLP01*, millel on mitu kaupa ja kogus *3*.
 1. Valige nupp **OK**.
-1. Lehel **Sorditud varude komplekteerimine: sisestatud** kuvatakse sisestamistöö, mida tuleb teha. Sisestage askohta *Baydoor* ja siht-LP *PLP01* , millel on mitu kaupa ja kogus *3*.
+1. Lehel **Sorditud varude komplekteerimine: sisestatud** kuvatakse sisestamistöö, mida tuleb teha. Sisestage askohta *Baydoor* ja siht-LP *PLP01*, millel on mitu kaupa ja kogus *3*.
 1. Valige nupp **OK**.
 
     Töö on lõpule viidud.
 
 1. Sisestage teise sortimise asukoha identifitseerimisnumbri ID *SP02*. Määrake välja **ID** väärtuseks *PLP02*.
 1. Valige nupp **OK**.
-1. Lehel **Sorditud varude komplekteerimine: komplekteerimine** kuvatakse komplekteerimistöö, mida tuleb teha. Komplekteerige askohast *SORTIMINE* ja siht-LP-st *PLP02* , millel on mitu kaupa ja kogus *1*.
+1. Lehel **Sorditud varude komplekteerimine: komplekteerimine** kuvatakse komplekteerimistöö, mida tuleb teha. Komplekteerige askohast *SORTIMINE* ja siht-LP-st *PLP02*, millel on mitu kaupa ja kogus *1*.
 1. Valige nupp **OK**.
-1. Lehel **Sorditud varude komplekteerimine: sisestatud** kuvatakse sisestamistöö, mida tuleb teha. Sisestage askohta *Baydoor* ja siht-LP *PLP02* , millel on mitu kaupa ja kogus *1*.
+1. Lehel **Sorditud varude komplekteerimine: sisestatud** kuvatakse sisestamistöö, mida tuleb teha. Sisestage askohta *Baydoor* ja siht-LP *PLP02*, millel on mitu kaupa ja kogus *1*.
 1. Valige nupp **OK**.
 
     Töö on lõpule viidud.

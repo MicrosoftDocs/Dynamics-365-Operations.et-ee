@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014931"
+ms.locfileid: "4426570"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT iseõppimisvõime lisandmooduli installimine LCS-is
 
@@ -34,7 +34,7 @@ Selles teemas selgitatakse, kuidas installida IoT iseõppimisvõime lisandmoodul
 
 1. Avage LCS ja minge oma Microsoft Dynamics 365 Supply Chain Managementi keskkonda.
 2. Kerige alla jaotiseni **Keskkonna lisandmoodulid**.
-3. Valige **Installi uus lisandmoodul** , et kuvada selle keskkonna jaoks lubatud lisandmoodulite loend.
+3. Valige **Installi uus lisandmoodul**, et kuvada selle keskkonna jaoks lubatud lisandmoodulite loend.
 4. Valige dialoogiboksis **Installitava lisandmooduli valimine** suvand **IoT iseõppimisvõime**.
 5. Sisestage dialoogiboksis **Seadistuse lisandmoodul** oma IoT-keskuse ja Redis-vahemälu üksikasjad. Nõutavad väärtused leiate võtmehoidlast, mille lõite jaotises [Azure'i ressursside loomine](iot-azure-setup.md).
 

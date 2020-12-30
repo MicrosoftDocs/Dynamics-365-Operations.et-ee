@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: 85e64c4186c7782391a3db6dc4deb3fab0ea9f4f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430528"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418095"
 ---
 # <a name="create-variable-compensation-plans"></a>Ergutussüsteemi plaanide loomine
 
@@ -34,7 +34,7 @@ Ergutussüsteemi summade arvutamine töötajatele võib põhineda mitmel teguril
 ## <a name="variable-compensation-components"></a>Ergutussüsteemi osad
 ### <a name="create-compensation-types"></a>Tasutüüpide loomine
 
-**Ergutussüsteemi tüübid**on kohustuslik osa. Ergutussüsteemi tüübid võimaldavad kirjeldada organisatsioonis kasutatavaid ergutussüsteeme. Samuti võimaldavad need määrata, kas tasu makstakse sularahas või mitterahalistes vahendites (nt aktsiatega).
+**Ergutussüsteemi tüübid** on kohustuslik osa. Ergutussüsteemi tüübid võimaldavad kirjeldada organisatsioonis kasutatavaid ergutussüsteeme. Samuti võimaldavad need määrata, kas tasu makstakse sularahas või mitterahalistes vahendites (nt aktsiatega).
 
 ### <a name="describe-vesting-rules"></a>Pensionireeglite kirjeldamine
 
@@ -49,7 +49,7 @@ Soovi korral saavad ettevõtted seadistada **pensionireegleid**. Pensionireeglid
 Tulemustasu summa võib põhineda töötaja regulaarse põhitasu protsendil või määratud ühikute arvul.
 
 -   Tehke valik **Alusprotsent** vaikeprotsendi sisestamiseks ja määrake, kas alus peaks olema töötaja põhipalgamäär või töötaja palgataseme kontrollpunkt. Töötaja ametile määratakse palgatase. Üks palgastruktuuri viitepunkt võib olla määratud põhipalgaplaani kontrollpunktiks. Süsteem kasutab töötaja ametikoha puhul seda palgataset ja ristviitab sellele kontrollpunktiga, mis on nimetatud töötaja põhipalgaplaanis, et leida töötaja palgataseme kontrollpunkti summa. Kontrollpunkti summat kasutatakse siis töötaja fikseeritud palgamäära asemel tulemustasu alusena.
--   Valige**Ühikute arv**, et sisestada ühikute vaikearv, iga ühiku väärtus ja ühiku väärtuse valuuta, kui tasuplaan on mitterahaline tasu (nt 200 aktsiat väärtusega 40 dollarit) või lihtsalt ühikute arv, kui tasuplaan on rahalise tulemustasu kohta. Rahalise preemia puhul saab töötaja nimetatud valuutaühikute arvu, mida kasutatakse tema põhipalgaplaani puhul (nt 500 ühikut väärtusega 1 dollar). Üks-ühele seose juhtimise abil saab näidata, kas ühikute arvu ja ühiku väärtuse vahel on otsene üks-ühele vastendus. Kui koostate ergutussüsteemi plaani rahapõhisele plaanile, kasutades ühikute arvu, lukustatakse see valik automaatselt väärtusele **Jah** ja ühiku väärtus on **1,0000**.
+-   Valige **Ühikute arv**, et sisestada ühikute vaikearv, iga ühiku väärtus ja ühiku väärtuse valuuta, kui tasuplaan on mitterahaline tasu (nt 200 aktsiat väärtusega 40 dollarit) või lihtsalt ühikute arv, kui tasuplaan on rahalise tulemustasu kohta. Rahalise preemia puhul saab töötaja nimetatud valuutaühikute arvu, mida kasutatakse tema põhipalgaplaani puhul (nt 500 ühikut väärtusega 1 dollar). Üks-ühele seose juhtimise abil saab näidata, kas ühikute arvu ja ühiku väärtuse vahel on otsene üks-ühele vastendus. Kui koostate ergutussüsteemi plaani rahapõhisele plaanile, kasutades ühikute arvu, lukustatakse see valik automaatselt väärtusele **Jah** ja ühiku väärtus on **1,0000**.
 
 Säte **Palkamise reegel** võimaldab määrata, kas kõik töötajad peaksid saama ühesugust palgatõusu, olenemata nende palkamise kuupäevast (**Palkamise reegel** = **Pole**) või peaksid töötajad saama preemiaprotsenti selle põhjal, kui kaua nad tsükli vältel palgatud olid (**Palkamise reegel** = **Protsent**). 
 

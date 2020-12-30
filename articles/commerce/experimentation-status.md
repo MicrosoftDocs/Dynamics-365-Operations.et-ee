@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: eea67ddc1718902198b74614ee1a910fc6e29c1d
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097066"
+ms.locfileid: "4411815"
 ---
 # <a name="review-the-status-of-an-experiment"></a>Eksperimendi oleku ülevaatamine
 Eksperimendi seadistamine ja käitamine rakenduses Dynamics 365 Commerce hõlmavad palju samme. Lisateavet eksperimendi elutsükli kohta leiate teemast [Eksperimenteerimine rakenduses Dynamics 365 Commerce](experimentation-overview.md).

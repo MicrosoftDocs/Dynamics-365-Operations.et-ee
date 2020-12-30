@@ -16,11 +16,11 @@ ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: 6946cb5f8bc8aa451f72d1eebcd324f408ad5f7a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975067"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411596"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Luba Azure Active Directory kassa sisselogimise autentimine
 [!include [banner](includes/banner.md)]
@@ -62,7 +62,7 @@ Konto Azure AD seostamiseks töötajaga toimige järgmiselt.
 1. Dialoogiaknas **Kasuta olemasolevat välisidentiteeti** valige **Otsi kasutades e-posti**, sisestage Azure AD e-posti aadress ja seejärel valige **Otsing**.
 1. Valige saadud konto Azure AD ja seejärel valige **OK**.
 
-Täidetakse väljad **Alias**, **UPN**ja **Väline alamidentifikaator** töötaja üksikasjade lehe vahekaardil **Kaubandus** .
+Täidetakse väljad **Alias**, **UPN** ja **Väline alamidentifikaator** töötaja üksikasjade lehe vahekaardil **Kaubandus** .
 
 > [!NOTE]
 > Pärast töötaja kirje uuendamist, näiteks pärast uue Azure AD konto seostamist, parooli muutmist või töövõtja aadressiraamatu uuendamist, soovitatakse käitada jaotusgraafik **1060** (**Personal**), et sünkroonida uusim personaliteave kanaliga. Nii saab kassarakendus tuua õigeid andmeid kasutaja autentimiseks ja autoriseerimise kontrollimiseks.

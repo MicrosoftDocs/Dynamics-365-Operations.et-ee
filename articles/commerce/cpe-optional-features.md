@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599816"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411569"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
 
@@ -120,7 +120,7 @@ Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite k
     1. Valige loendist mall.
     1. Jaotises **Meilisõnumi sisu** valige loendist sobiva keele versioon. (Vaikekeel on **en-us**.)
     1. Jaotises **e-kirja sisu** valige **Redigeeri**. Kuvatakse paan **Laadi üles e-kirja mall**.
-    1. Valige **Sirvi**ja leidke HTML-fail, millel on kohandatud sisu.
+    1. Valige **Sirvi** ja leidke HTML-fail, millel on kohandatud sisu.
     1. Valige nupp **Laadi üles**. Teie mall laaditakse süsteemi ja kuvatakse eelvaade.
     1. Valige nupp **OK**.
     1. Valikuline: kohandage malli atribuuti **Teema**.

@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012467"
+ms.locfileid: "4426568"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -41,7 +41,7 @@ Selle teema järgnevates jaotistes kirjeldatakse, kuidas töötajad liidesega su
 
 ## <a name="all-jobs-tab"></a>Vahekaart Kõik tööd
 
-Vahekaardil **Kõik tööd** kuvatakse tööde loend, kus on kõik tootmistööd, mille olek on *Pole alustatud* , *Peatatud* või *Käivitatud*.
+Vahekaardil **Kõik tööd** kuvatakse tööde loend, kus on kõik tootmistööd, mille olek on *Pole alustatud*, *Peatatud* või *Käivitatud*.
 
 ![Vahekaart Kõik tööd](media/pfei-all-jobs-tab.png "Vahekaart Kõik tööd")
 
@@ -79,19 +79,19 @@ Töötajad alustavad tootmistööd, valides töö vahekaardilt **Kõik tööd** 
 
 ![Dialoogiboks Alusta tööd](media/pfei-start-job-dialog.png "Dialoogiboks Alusta tööd")
 
-Töötajad kasutavad dialoogiboksi **Alusta tööd** , et kinnitada tootmiskogus ja seejärel alustada tööd. Töötajad saavad kogust kohandada, valides välja **Kogus** ja kasutades seejärel kuvatavat numbriklahvistikku. Seejärel valivad töötajad töö alustamiseks **Alusta**. Dialoogiboks **Alusta tööd** suletakse ja töö lisatakse vahekaardile **Aktiivsed tööd**.
+Töötajad kasutavad dialoogiboksi **Alusta tööd**, et kinnitada tootmiskogus ja seejärel alustada tööd. Töötajad saavad kogust kohandada, valides välja **Kogus** ja kasutades seejärel kuvatavat numbriklahvistikku. Seejärel valivad töötajad töö alustamiseks **Alusta**. Dialoogiboks **Alusta tööd** suletakse ja töö lisatakse vahekaardile **Aktiivsed tööd**.
 
-Töötajad saavad alustada tööd, mis on mis tahes olekus. Kui töötaja alustab tööd, mille olek on *Alustamata* , kuvatakse dialoogiboksi **Alusta tööd** väljal **Kogus** algselt kogu kogus. Kui töötaja alustab tööd, mille olek on *Alustatud* või *Peatatud* , kuvatakse väljal **Kogus** algselt järelejäänud kogus.
+Töötajad saavad alustada tööd, mis on mis tahes olekus. Kui töötaja alustab tööd, mille olek on *Alustamata*, kuvatakse dialoogiboksi **Alusta tööd** väljal **Kogus** algselt kogu kogus. Kui töötaja alustab tööd, mille olek on *Alustatud* või *Peatatud*, kuvatakse väljal **Kogus** algselt järelejäänud kogus.
 
 ## <a name="reporting-good-quantities"></a>Õigete koguste aruandlus
 
-Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada õige toodetud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Edenemisteabe esitamine**. Seejärel sisestab töötaja dialoogiboksis **Edenemisteabe esitamine** õige koguse numbriklahvistiku abil. Kogus on vaikimisi tühi. Pärast koguse sisestamist saab töötaja uuendada töö olekuks *Käimas* , *Peatatud* või *Lõpetatud*.
+Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada õige toodetud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Edenemisteabe esitamine**. Seejärel sisestab töötaja dialoogiboksis **Edenemisteabe esitamine** õige koguse numbriklahvistiku abil. Kogus on vaikimisi tühi. Pärast koguse sisestamist saab töötaja uuendada töö olekuks *Käimas*, *Peatatud* või *Lõpetatud*.
 
 ![Dialoogiboks Edenemisteabe esitamine](media/pfei-report-progress-dialog.png "Dialoogiboks Edenemisteabe esitamine")
 
 ## <a name="reporting-scrap"></a>Maha kantud koguse esitamine
 
-Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada maha kantud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Maha kantud koguse esitamine**. Seejärel sisestab töötaja dialoogiboksis **Maha kantud koguse esitamine** maha kantud koguse numbriklahvistiku abil. Töötaja valib ka põhjuse ( *Puudub* , *Masin* , *Operaator* või *Materjal* ).
+Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada maha kantud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Maha kantud koguse esitamine**. Seejärel sisestab töötaja dialoogiboksis **Maha kantud koguse esitamine** maha kantud koguse numbriklahvistiku abil. Töötaja valib ka põhjuse (*Puudub*, *Masin*, *Operaator* või *Materjal*).
 
 ![Dialoogiboks Maha kantud koguse esitamine](media/pfei-report-scrap-dialog.png "Dialoogiboks Maha kantud koguse esitamine")
 
@@ -119,8 +119,8 @@ Kaudsed tegevused on tegevused, mis pole tootmistellimusega otseselt seotud. Kau
 
 Näiteks Contoso töökoja töötaja Shannon soovib osaleda ettevõtte koosolekul ja koosolekud on kaudsed tegevused. Kehtib üks kahest järgmisest stsenaariumist.
 
-- **Shannon töötab ühe või mitme aktiivse tööga.** Shannon valib suvandi **Tegevus** , määratleb tegevuse (koosoleku) ja kinnitab valiku. Kuvatakse teade, mis teavitab teda pooleliolevatest töödest. Shannon saab teates valida, kas lõpetada või peatada pooleliolevad tööd enne koosolekule minekut.
-- **Shannonil pole aktiivseid töid.** Shannon valib suvandi **Tegevus** , määratleb tegevuse (koosoleku) ja kinnitab valiku. Nüüd on ta koosolekule registreeritud.
+- **Shannon töötab ühe või mitme aktiivse tööga.** Shannon valib suvandi **Tegevus**, määratleb tegevuse (koosoleku) ja kinnitab valiku. Kuvatakse teade, mis teavitab teda pooleliolevatest töödest. Shannon saab teates valida, kas lõpetada või peatada pooleliolevad tööd enne koosolekule minekut.
+- **Shannonil pole aktiivseid töid.** Shannon valib suvandi **Tegevus**, määratleb tegevuse (koosoleku) ja kinnitab valiku. Nüüd on ta koosolekule registreeritud.
 
 Mõlemal juhul läheb Shannon pärast valiku kinnitamist kas sisselogimislehele või lehele, mis ootab tema kinnitust, et ta on oma kaudselt tegevuselt naasnud. Kuvatav leht sõltub tootmisosakonna käivitusliidese konfiguratsioonist. (Lisateavet leiate teemast [Tootmisosakonna käivitusliidese konfigureerimine](production-floor-execution-configure.md).)
 
@@ -132,7 +132,7 @@ Töötaja registreerib pausi, valides suvandi **Paus** ja valides seejärel kaar
 
 ## <a name="opening-instructions"></a>Juhiste avamine
 
-Töötajad saavad avada tööga seotud dokumenti, valides **Juhised**. Nupp **Juhised** on saadaval ainult juhul, kui koondandmetes on dokument seostatud tööga. Näiteks dokument, mis on seotud tootega Supply Chain Managementi lehel **Väljastatud tooted** , on saadaval ka töötajatele, kes saavad saavad avada seda tootmisjaoskonna käivitusliideses.
+Töötajad saavad avada tööga seotud dokumenti, valides **Juhised**. Nupp **Juhised** on saadaval ainult juhul, kui koondandmetes on dokument seostatud tööga. Näiteks dokument, mis on seotud tootega Supply Chain Managementi lehel **Väljastatud tooted**, on saadaval ka töötajatele, kes saavad saavad avada seda tootmisjaoskonna käivitusliideses.
 
 ## <a name="opening-mixed-reality-guides-for-hololens"></a>HoloLensi hübriidreaalsusjuhendite avamine
 

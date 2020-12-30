@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dcc155a7fe5ca16e7543bf5917dbedadef987b62
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826714"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426344"
 ---
 # <a name="production-order-cost-analysis"></a>Tootmistellimuse kulu analüüs
 
@@ -49,7 +49,7 @@ Järgmisel diagrammil on näidatud neli hälvet, mis selgitavad erinevust tootmi
 Saate tootmishälbeid analüüsida lehega **Hälve** või aruandega **Tootmishälve**. Kasutage kuvamisvalikuid üksikasjalike hälvete vaatamiseks kauba ja operatsiooniressursi või kulugrupi järgi.. Kulude jaotamise poliitika varude parameetrites määratleb, kas hälbeid jälgitakse kulugruppide alusel. Võite kasutada summeeritud hälvete vaatamiseks ka kuvamisvalikuid **üksik**, **mitmekordne** ja **kokku**. Teave üksikasjalike hälvete kohta võib aidata iga hälbe allikat mõista. Hälvete prognoosimiseks enne tootmistellimuse lõpetamist analüüsige üksikasjalikku teavet, mis on antud aruandes **Kuluhinnangud ja omahind**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Praeguste tootmistellimuste kuluanalüüs.
-Eraldiolevad aruanded kajastavad iga kandetüübi teavet. Kasutage neid aruandeid kinnitatud tootmistegevuste kulude analüüsimiseks. Kuvatakse teave ainult nende jooksvate tootmistellimuste kohta, mille olek on **Alustatud** või**Lõpetatuna kinnitatud**.
+Eraldiolevad aruanded kajastavad iga kandetüübi teavet. Kasutage neid aruandeid kinnitatud tootmistegevuste kulude analüüsimiseks. Kuvatakse teave ainult nende jooksvate tootmistellimuste kohta, mille olek on **Alustatud** või **Lõpetatuna kinnitatud**.
 
 -   **Lõpetamata materjalid**− see aruanne koosneb komplekteerimislehe kannetest, mis on praeguste tootmistellimuste alusel määratud kande kuupäevaga kinnitatud. Aruanne näitab komponendi väljastatud kogust ja iga kande kulusummat. Kasutage ühe komponendiüksuse valikukriteeriume. Näiteks võite printida komponendi väljastatud koguse teabe võrreldes kehtivate tootmistellimustega. Väljastatud kogust ei värskendata peamise üksuse puhul lõpetatuks märgitud kogustega. Seetõttu võib lõpetamata toormaterjalide tegelik kogus olla liialdatud.
 -   **Lõpetamata töö**− see aruanne kajastab protsessi (või töö) kandeid, mis on praeguste tootmistellimuste alusel määratud kande kuupäevaga kinnitatud. Aruanne näitab tunde, summat ja kogust (nii kvaliteetset kui ka veakogust), mis iga kande kohta esitatakse. See sisaldab ka teavet toimingu numbri, toimingu ID ja operatsiooniressursi kohta. Aruandes kuvatakse ka kõikide kannete koondaeg ja -summa tootmistellimusega seoses ning lõpetatuna kinnitatud kogus.

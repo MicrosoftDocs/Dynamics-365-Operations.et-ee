@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018510"
+ms.locfileid: "4426673"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Tellimuste lähetamine otsetarnetena
 
@@ -32,13 +32,13 @@ Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet k
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Eraldi otsetarne tellimuse määramine
 1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Tellimused > Kõik müügitellimused**.
 2. Valige suvand **Uus**.
-3. Sisestage või valige väärtus väljale **Kliendi konto** , seejärel valige **OK**
-4. Sisestage või valige väärtused väljadel **Üksuse number** ja **Sait** , seejärel valige **Salvesta**.
-5. Valige toimingupaanil **Müügitellimus** , seejärel valige **Otsetarne**. Lehel Tarne loomine on kõik avatud müügitellimuse read müügitellimuselt kopeeritud kujul. Saate vaadata tellimuse üksikasju ja vajaduse korral muuta üksikasju nagu ostu kogus ja hinnatingimused, enne otsetarne loomist.  
+3. Sisestage või valige väärtus väljale **Kliendi konto**, seejärel valige **OK**
+4. Sisestage või valige väärtused väljadel **Üksuse number** ja **Sait**, seejärel valige **Salvesta**.
+5. Valige toimingupaanil **Müügitellimus**, seejärel valige **Otsetarne**. Lehel Tarne loomine on kõik avatud müügitellimuse read müügitellimuselt kopeeritud kujul. Saate vaadata tellimuse üksikasju ja vajaduse korral muuta üksikasju nagu ostu kogus ja hinnatingimused, enne otsetarne loomist.  
 6. Valige **Jah** väljal **Kaasa kõik**.
     - Kui soovite luua otsetarne ainult müügitellimuse ridade alamkogumile, valige need eraldi.  
     - Väli **Hankija konto** võib juba hankija numbrit sisaldada või mitte sisaldada. Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija. Vastasel korral tuleb hankija sisestada käsitsi. Selles näites valime järgmises etapis uue hankija, isegi juhul, kui mõni on juba lisatud.   
-7. Sisestage või valige väärtus väljale **Hankija konto** , seejärel valige **OK** Saate teate, et ostutellimus on nüüd loodud.   
+7. Sisestage või valige väärtus väljale **Hankija konto**, seejärel valige **OK** Saate teate, et ostutellimus on nüüd loodud.   
 8. Laiendage jaotist **Rea üksikasjad**.
 9. Valige vahekaart **Tarne** ja kontrollige, et väli **Otsetarne** oleks määratud olekusse **Jah**.
 10. Valige toimingupaanil **Üldine**.
@@ -70,7 +70,7 @@ Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet k
 ## <a name="create-direct-deliveries-from-the-workbench"></a>Otsetarnete loomine töölaualt
 1. Avage **Navigeerimine > Moodulid > Müügireskontro > Tellimused > Kõik müügitellimused**.
 2. Valige suvand **Uus**.
-3. Sisestage või valige väärtus väljale **Kliendi konto** , seejärel valige **OK**
+3. Sisestage või valige väärtus väljale **Kliendi konto**, seejärel valige **OK**
 4. Sisestage või valige väärtused väljadel **Kauba kood** ja **Sait**.
 5. Laiendage jaotist **Rea üksikasjad** ja seejärel valige vahekaart **Tarne**.Selle asemel, et luua müügitellimuste töötlemise osana otsetarne, nagu eelmises protseduuris, võite selle ülesande ostuspetsialistile üle anda. Müügitellimuse rea lisamiseks otsetarne käsitsusprotsessi tuleb märkida rida otsetarneks.  
 6. Valige **Jah** väljal **Otsetarne**.

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057048"
+ms.locfileid: "4418234"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Töövõtja ja ülemuse iseteeninduse ülevaade
 
@@ -35,11 +35,11 @@ Kui soovite lisada või muuta isikuandmeid, vaadake teemat [Isikuandmete redigee
 
 ## <a name="user-not-assigned-to-a-worker-record"></a>Kasutaja pole töötaja kirjele määratud
 
-Kui te pole lehel **Kasutajad** kasutajat linkinid kirjega **Töötaja** , kuvatakse järgmine teade.
+Kui te pole lehel **Kasutajad** kasutajat linkinid kirjega **Töötaja**, kuvatakse järgmine teade.
 
 **Teie kasutajatunnus pole süsteemis töövõtja kirjega seostatud. Te ei saa oma andmeid vaadata ega muuta, kuni see on tehtud. Pöörduge abi saamiseks oma juhi või tugitöörühma poole.**
 
-Kasutaja seostamiseks kirjega **Töötaja** navigeerige lehele **Kasutajad** ja valige kasutaja. Valige **Redigeeri** , lisage vastav töötaja vormi väljale **Isik** ja valige **Salvesta**. Teil peaks nüüd olema juurdepääs töövõtja iseteenindusele.
+Kasutaja seostamiseks kirjega **Töötaja** navigeerige lehele **Kasutajad** ja valige kasutaja. Valige **Redigeeri**, lisage vastav töötaja vormi väljale **Isik** ja valige **Salvesta**. Teil peaks nüüd olema juurdepääs töövõtja iseteenindusele.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Töövõtja ja juhi iseteeninduse turbenõuded
 
@@ -80,7 +80,7 @@ Kaart **Tunnistused** kuvab praegusele kuupäevale kõige lähedasema aegumiskuu
 
 Kaart **Järgmine plaanitud ülevaatus** kuvab teie järgmise jõudluse ülevaatuse. Sellelt kaardilt saate alustada uut ülevaatust. Ülevaatusi võivad algatada ka ülemus või personalijuht. Sõltuvalt teie organisatsiooni sätetest võib teil olla võimalik sellel kaardil vaadata, värskendada ja edastada töösuhte lõpetamise ülevaatusi.
 
-Kaardil **Jõudluse eesmärgid** saate hallata oma eesmärke. Sellel kaardil kuvatakse eesmärkide arv igas olekus ( **Pole käivitatud** , **Õigel teel** ja **Vajab parandamist** ). Sõltuvalt teie rollipõhisest turbest saate luua, värskendada ja eemaldada eesmärke. Soovi korral saate lisada uusi eesmärke gruppidest või mallidest. Eesmärke saavad luua ja iga eesmärgi üksikasju täpsustada ka ülemused ja personalijuhid. Ülemused ja töövõtjad saavad teha koostööd eesmärkidega ning värskendada tegevusi, mõõtmisi ja olekut. Saate lisada ka manuseid.
+Kaardil **Jõudluse eesmärgid** saate hallata oma eesmärke. Sellel kaardil kuvatakse eesmärkide arv igas olekus (**Pole käivitatud**, **Õigel teel** ja **Vajab parandamist**). Sõltuvalt teie rollipõhisest turbest saate luua, värskendada ja eemaldada eesmärke. Soovi korral saate lisada uusi eesmärke gruppidest või mallidest. Eesmärke saavad luua ja iga eesmärgi üksikasju täpsustada ka ülemused ja personalijuhid. Ülemused ja töövõtjad saavad teha koostööd eesmärkidega ning värskendada tegevusi, mõõtmisi ja olekut. Saate lisada ka manuseid.
 
 Saate vaadata oma olemasolevaid oskusi kaardil **Oskused**. Saate värskendada oskusi, lisada uusi või eemaldada need, mis pole enam asjakohased. Sõltuvalt teie organisatsiooni sätetest võib oskuste muutmine läbida kinnitamisprotsessi.
 
@@ -96,7 +96,7 @@ Registreeruge soodustuste saamiseks lingi **Soodustused** kaudu. Lisateavet sood
 
 Jaotises **Jõudlus** saate valida **Jõudluse töölehed** jõudluse töölehekannete loomiseks, et kasutada neid nii jõudluse eesmärkide kui ka ülevaatuse puhul. Organisatsiooni teiste töövõtjate kohta tagasiside andmiseks saate valida **Saada tagasisidet**. Sõltuvalt teie organisatsiooni sätetest võidakse meile saata adressaadile, saatjale ja ülemustele. Tagasisidet saate saata kõigi organisatsiooni töötajate kohta. Ettevõte ei piira tagasiside saatmist.
 
-Jaotises **Pädevused** saate teha muudatusi üksustele **Kursused** , **Haridus** , **Vastutavad positsioonid** ja **Töökogemus**. Sõltuvalt teie organisatsiooni sätetest võib nende pädevuste värskendamine läbida kinnitamisprotsessi.
+Jaotises **Pädevused** saate teha muudatusi üksustele **Kursused**, **Haridus**, **Vastutavad positsioonid** ja **Töökogemus**. Sõltuvalt teie organisatsiooni sätetest võib nende pädevuste värskendamine läbida kinnitamisprotsessi.
 
 Saate vaadata töö üksikasju jaotises **Organisatsioon**. Töö üksikasjad hõlmavad teie esmase ametikoha oskusi, tunnistusi ja vastutust. Samuti saate vaadata teile välja registreeritud laenatud seadmeid. Sõltuvalt teie organisatsiooni sätetest võib laenatud seadmete muutmine läbida kinnitamisprotsessi.
 
@@ -112,7 +112,7 @@ Vahekaart **Minu meeskond** kuvab ülemuse iseteeninduskeskuse kohta järgmise t
 
 ### <a name="personnel-actions"></a>Personalitegevused
 
-Personalitegevused kuvatakse jaotiste **Human Resourcesi jagatud parameetrid** ja **Human Resourcesi parameetrid** konfiguratsioonisuvandite põhjal. Kui see on lubatud üksusele **Töötajad** , lubavad personalitegevused järgmisi uusi menüüsuvandeid.
+Personalitegevused kuvatakse jaotiste **Human Resourcesi jagatud parameetrid** ja **Human Resourcesi parameetrid** konfiguratsioonisuvandite põhjal. Kui see on lubatud üksusele **Töötajad**, lubavad personalitegevused järgmisi uusi menüüsuvandeid.
 
 - **Uue töövõtja taotlus**
 - **Uue peatöövõtja taotlus**
@@ -205,12 +205,12 @@ Vahekaardil **Puhkus ja puudumine** kuvatakse nende töötajate kõrgeimad saldo
 
 #### <a name="performance-goals-tab"></a>Jõudluse eesmärkide vahekaart
 
-Vahekaart **Jõudluse eesmärgid** summeerib jõudluse eesmärgid oleku järgi. Valige oleku number või valige jõudluse eesmärgid suvandist **Üksikasjad** , et näha töövõtja kõiki eesmärke. Ülemused ja töövõtjad saavad eesmäre selle kestuse jooksul vastavalt vajadusele uuendada.
+Vahekaart **Jõudluse eesmärgid** summeerib jõudluse eesmärgid oleku järgi. Valige oleku number või valige jõudluse eesmärgid suvandist **Üksikasjad**, et näha töövõtja kõiki eesmärke. Ülemused ja töövõtjad saavad eesmäre selle kestuse jooksul vastavalt vajadusele uuendada.
 
 Ülemused näevad meeskonna kõiki eesmärke menüü **Minu meeskond** paani **Meeskonna jõudluse eesmärgid** jaotises **Kokkuvõte**.
 
 #### <a name="reviews-tab"></a>Ülevaatuste vahekaart
 
-Vahekaart **Ülevaatused** summeerib töövõtjaja ülevaatuseid kõigis olekutes: **Pooleli** , **Ülevaatamiseks valmis** ja **Lõplik ülevaatus**. Töövõtja ülevaatuse juurde pääsemiseks valige nupp **Üksikasjad** ja seejärel valige ülevaateid, millega koostööd teha. Olenevalt sellest, kus ülevaatus paikneb töövooprotsessis, saate vaadata kas ülevaatus on värskendamiseks saadaval. 
+Vahekaart **Ülevaatused** summeerib töövõtjaja ülevaatuseid kõigis olekutes: **Pooleli**, **Ülevaatamiseks valmis** ja **Lõplik ülevaatus**. Töövõtja ülevaatuse juurde pääsemiseks valige nupp **Üksikasjad** ja seejärel valige ülevaateid, millega koostööd teha. Olenevalt sellest, kus ülevaatus paikneb töövooprotsessis, saate vaadata kas ülevaatus on värskendamiseks saadaval. 
 
 Saate vaadata oma meeskonna kõiki ülevaatuseid menüü **Minu meeskond** paani **Meeskonna jõudluse ülevaatused** jaotises **Kokkuvõte**.

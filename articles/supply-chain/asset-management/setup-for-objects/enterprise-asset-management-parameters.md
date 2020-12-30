@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889837"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426365"
 ---
 # <a name="asset-management-parameters"></a>Rakenduse Asset Management parameetrid
 
@@ -52,7 +52,7 @@ Link **Töökäsud**
 
 - **Töökäsu vaiketüüp** määratleb standardsätted töökäsu loomisel.  
 - **Ennetava töökäsu tüüp** määratleb töökäsu tüübi, mida kasutatakse töökäskude loomisel hoolduskavadest. Kui see väli jäetakse tühjaks, kasutatakse välja **Töökäsu vaiketüüp** töökäsu tüüpi.  
-- Väljal **Seotud töökäsu mask** saate määratleda töökäskude maksimumarvu, mida saa töökäsuga siduda. Näiteks ## võimaldab teil siduda kuni 99 töökäsku. Kui määratlete siin kirjeldatud maski, nummerdatakse seotud töökäsud [töökäsuga seotud töökäsu töökäsu ID]-01,-02,-03 jne. Kui te sellel väljal maski ei määratle, saab seostuv töökäsk järgmise järjestikuste töökäsu ID.  
+- Väljal **Seotud töökäsu mask** saate määratleda töökäskude maksimumarvu, mida saa töökäsuga siduda. Näiteks ## võimaldab teil siduda kuni 99 töökäsku. Kui määratlete siin kirjeldatud maski, nummerdatakse seotud töökäsud [töökäsuga seotud töökäsu töökäsu ID] -01,-02,-03 jne. Kui te sellel väljal maski ei määratle, saab seostuv töökäsk järgmise järjestikuste töökäsu ID.  
 - Valige **Jah** suvandis **Kopeeri vead**, kui soovite automaatselt kopeerida töökäskudes registreeritud vead seotud hooldusnõuetesse. 
 - Väljal **Tase** saate määratleda töö asukoha taseme, mis sisestatakse automaatselt töökäsku, kui kõik seotud töökäsu tööd viitavad samale töö asukohale. Kui kõik töökäsu tööd pole määratletud tasemel seotud sama töö asukohaga, jäetakse väli **Töö asukoht** töökäsul tühjaks. Näiteks kui sisestate sellele väljale numbri „1”, on see töö asukoha struktuuris ülemine tase. Kui sisestate sellele väljale numbri „0”, ei ole te määratlenud kindlat töö asukoha taset, vaid töökäsu kõik töökäsu tööd peavad olema seotud töökäsule lisatava töö asukoha sama töö asukoht.  
 - Töökäsule tarbimise sisestamisel kasutatavaid töölehti saab valida kiirkaardi **Üldine** väljadel **Tund**, **Üksus** ja **Kulu**.  

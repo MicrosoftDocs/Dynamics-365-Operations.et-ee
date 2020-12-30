@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016812"
+ms.locfileid: "4426600"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
 
@@ -63,7 +63,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -77,13 +77,13 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
 1. Lisage teine järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0002* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0002* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
     - **Tarneviis:** *Airwa-Air*
 
@@ -100,13 +100,13 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv* )
+    - **Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv*)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
 1. Lisage teine järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine* )
+    - **Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine*)
     - **Kogus:** *1.00*
     - **Tarneviis:** *Airwa-Air*
 
@@ -123,7 +123,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -137,7 +137,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -152,7 +152,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -165,7 +165,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -181,7 +181,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -197,7 +197,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
     - **Kogus:** *1.00*
 
 1. Valige **Varud \> Reserveerimine** ja seejärel valige paanil Toimingupaan tellimuserea reserveerimiseks **Reserveeri saatepartii**.
@@ -208,14 +208,14 @@ Järgige neid etappe iga selle stsenaariumi jaoks loodud müügitellimuse välja
 
 1. Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused**.
 1. Otsige üles ja valige väljastatav müügitellimus.
-1. Tehke Toimingupaani vahekaardil **Ladu** valik **Tegevused \> Vabasta lattu** , et väljastada valitud müügitellimus.
+1. Tehke Toimingupaani vahekaardil **Ladu** valik **Tegevused \> Vabasta lattu**, et väljastada valitud müügitellimus.
 1. Korrake seda protseduuri kõigi selle stsenaariumi jaoks loodud müügitellimuste puhul.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
 
 1. Avage jaotis **Laohaldus \> Lattu väljastamine \> Saadetise konsoldeerimise töölaud**.
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
-1. Valige päringu redaktori dialoogiboksis vahekaardil **Vahemik** suvand  **Lisa** , et lisada järgmiste sätetega rida ruudustikule.
+1. Valige päringu redaktori dialoogiboksis vahekaardil **Vahemik** suvand  **Lisa**, et lisada järgmiste sätetega rida ruudustikule.
 
     - **Tabel:** *Müügitellimused*
     - **Väli:** *Müügitellimus*
@@ -238,7 +238,7 @@ Järgmine protseduur võimaldab teil kontrollida saadetise konsolideerimise käi
 Kaks saadetist peaks olema loodud.
 
 - Esimene saadetis sisaldab kolme rida ja loodi saadetise konsolideerimispoliitika *CustomerMode* abil.
-- Teine saadetis, mis ei kasuta transportimisel tarneviisi *Lennutransport* , loodi saadetise konsolideerimispoliitika *CustomerOrderNo* abil.
+- Teine saadetis, mis ei kasuta transportimisel tarneviisi *Lennutransport*, loodi saadetise konsolideerimispoliitika *CustomerOrderNo* abil.
 
 ### <a name="related-shipments-for-order-set-2"></a>Tellimuse komplektiga 2 seostatud saadetised
 

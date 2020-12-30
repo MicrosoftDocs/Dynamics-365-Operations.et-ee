@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016236"
+ms.locfileid: "4426620"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Laotöö tühistamine erandi käsitlemiseks
 
@@ -40,7 +40,7 @@ Erinevalt tavalisest tühistamis funktsioonist, millele pääseb juurde töö p�
 > [!NOTE]
 > Töö jaoks, mis tuleb tööpõhjuste tõttu tühistada, peavad lao kasutajad jätkama töölehel asuva tavapärase tühistamisfunktsiooni kasutamist.
 
-Funktsiooni Töö tühistamine abil saab tühistada ainult tööd, mille tüüp on **Müük** , **Edastuse väljaminek** , **Toormaterjalide komplekteerimine** või **Täiendamine**. Tühistamisloogikat ei käivitata külmutatud toormaterjalide komplekteerimise töö või töö puhul, mida saab tühistada tavapärase tühistamisfunktsiooni abil (vt eelmist märkust).
+Funktsiooni Töö tühistamine abil saab tühistada ainult tööd, mille tüüp on **Müük**, **Edastuse väljaminek**, **Toormaterjalide komplekteerimine** või **Täiendamine**. Tühistamisloogikat ei käivitata külmutatud toormaterjalide komplekteerimise töö või töö puhul, mida saab tühistada tavapärase tühistamisfunktsiooni abil (vt eelmist märkust).
 
 Töö blokeeringu tühistamiseks tühistab süsteem kõik allesjäänud tööread ja fikseerib laoandmed, mis on seotud kasutaja määratud töö ID-ga. Kõik tavapärased lao käitlustoimingud, mis hõlmavad mõjutatud kauba kogust, saavad seejärel jätkuda.
 

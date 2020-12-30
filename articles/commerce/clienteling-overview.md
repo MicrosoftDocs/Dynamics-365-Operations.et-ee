@@ -20,11 +20,11 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
 ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456503"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411669"
 ---
 # <a name="clienteling-overview"></a>Kliendisuhtluse ülevaade
 
@@ -114,7 +114,7 @@ Integratsiooni seadistamiseks läbige need etapid.
 
 3. Looge Azure'i võtmehoidla ja salvestage rakenduse saladus. Juhised leiate teemast [Lühijuhend: saate seada ja tuua saladuse Azure'i võtmehoidlast Azure'i portaali abil](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Lülita juurdepääs Azure'i võtmehoidlale sisse Commerce'ist. Selle sammu lõpetamiseks peab teil olema rakenduse ID ja saladus. Rakendus võib olla sama rakendus, mille lõite juhises 1 või see võib olla uus rakendus. (Teisisõnu, saate kasutada rakendust, mille lõite sammus 1 nii võtmehoidlale juurdepääsuks ja Customer Insightsi teenusele juurdepääsuks, või saate luua kordumatu rakenduse iga juurdepääsutüübi kohta.) Juhiste saamiseks vaadake teemat [Salvestage teenuse peamised mandaadid Azure Stacki võtmehoidlasse](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
-5. Avage rakenduses Headquarters **Süsteemi haldus \> Seadistus \> Võtmehoidla parameetrid**ja sisestage võtmehoidlale vajalik teave. Seejärel sisestage väljal **Võtmehoidla klient** rakenduse ID, mida kasutasite sammus 4, nii et Commerce pääseks ligi saladustele võtmehoidlas.
+5. Avage rakenduses Headquarters **Süsteemi haldus \> Seadistus \> Võtmehoidla parameetrid** ja sisestage võtmehoidlale vajalik teave. Seejärel sisestage väljal **Võtmehoidla klient** rakenduse ID, mida kasutasite sammus 4, nii et Commerce pääseks ligi saladustele võtmehoidlas.
 6. Esimese sammu käigus loodud rakenduse lisamiseks turvaliste rakenduste loendisse (nimetatakse mõnikord ka turvaliseks loendiks) avage Customer Insights ja muutke rakendus **kuvatavaks**. Vaadake juhiseid jaotisest [Load](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. Järgige Commerce'is lehel **Commerce'i parameetrid** vahekaardi **Klientuur** kiirkaardil **Dynamics 365 Customer Insights** toodud etappe.
 

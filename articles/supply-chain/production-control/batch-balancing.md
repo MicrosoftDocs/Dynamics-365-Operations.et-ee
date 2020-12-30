@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016881"
+ms.locfileid: "4426607"
 ---
 # <a name="batch-balancing"></a>Partii tasakaalustamine
 
@@ -97,7 +97,7 @@ Koostisosal B on alusatribuut X ja sihttase 30 ning seda kasutatakse valemis, mi
 
 ### <a name="none"></a>None
 
-Kui rakendate partii tasakaalustamise protsessi siis, kui koostisosa tüüp on **Puudub** , on partiitellimuse valemirea hinnanguline kogus ja tasakaalustatud kogus võrdsed.
+Kui rakendate partii tasakaalustamise protsessi siis, kui koostisosa tüüp on **Puudub**, on partiitellimuse valemirea hinnanguline kogus ja tasakaalustatud kogus võrdsed.
 
 **Näide**
 
@@ -115,7 +115,7 @@ Toimeaine ja täiendava koostisosa vaheline seos on esitatud lehel **Kompenseeri
 
 Järgige neid etappe koostisosade vaheliste seoste loomiseks.
 
-1.  Valige **Tooteteabe haldus** \> **Kooslused, materjalid ja valemid** \> **Valemid** , avage valemirida ja valige **Koostisosad** , et avada leht **Kompenseerimise põhimõte**.
+1.  Valige **Tooteteabe haldus** \> **Kooslused, materjalid ja valemid** \> **Valemid**, avage valemirida ja valige **Koostisosad**, et avada leht **Kompenseerimise põhimõte**.
 
 2.  Valige rida, mis tähistab kompenseerimise põhimõtet ja seejärel valige kompenseeritav toimeaine.
 
@@ -125,7 +125,7 @@ Järgige neid etappe koostisosade vaheliste seoste loomiseks.
 
 Komponent B on toimeaine, mille alusatribuut on X ja sihttase 30. Seda kasutatakse valemis, mis nõuab iga 100 liitri toote jaoks 30 liitrit koostisosa B-d. Koostisosa C on kompenseeriv aine ja sama valem sisaldab kogust 10. Kompenseerimise põhimõttes on seadistatud kompenseeriv tegur 1.10. Seega vähendatakse kompenseeriva aine tasakaalustatud kogust erinevuse võrra toimeaine tasakaalustatud koguse ja hinnangulise vajaliku koguse vahel, mis on korrutatud teguriga 1.10.
 
-Kui koostisosa tüüp on **Aktiivne** , saadi vajaliku toimeaine tasakaalustatud koguseks 25,71 ja hinnanguliseks vajalikuks koguseks 30. Sel juhul arvutatakse kompenseeriva aine tasakaalustatud kogus järgmiselt.
+Kui koostisosa tüüp on **Aktiivne**, saadi vajaliku toimeaine tasakaalustatud koguseks 25,71 ja hinnanguliseks vajalikuks koguseks 30. Sel juhul arvutatakse kompenseeriva aine tasakaalustatud kogus järgmiselt.
 
 1.  Määratakse kindlaks erinevus hinnangulise ja tasakaalustatud koguse vahel:
 
@@ -171,7 +171,7 @@ Partii tasakaalustamise protsessi saab jagada kaheks alamprotsessiks:
 Partii koostisosade tasakaalustamise alamprotsessis arvutatakse tootmispartii jaoks kasutatavate koostisosade arv valitud partiide põhjal, millel on toimeained. Tavaliselt saab arvutuse lõpule viia ainult siis, kui kõik koostisosad on täies ulatuses olemas. Te ei saa tasakaalustatada ainult osa partiist, mille tootmiseks partiitellimus on seadistatud.
 
 [!NOTE]
-Te ei saa arvutust salvestada ja seejärel partii tasakaalustamise protsessi hiljem lõpule viia. Kui sulgete lehe **Partii tasakaalustamine** , peate protsessi lõpule viimiseks arvutuse uuesti tegema.
+Te ei saa arvutust salvestada ja seejärel partii tasakaalustamise protsessi hiljem lõpule viia. Kui sulgete lehe **Partii tasakaalustamine**, peate protsessi lõpule viimiseks arvutuse uuesti tegema.
 
 ### <a name="confirm-and-release-the-formula"></a>Valemi kinnitamine ja väljastamine
 

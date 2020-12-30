@@ -3,7 +3,7 @@ title: Puhkusetaotluste haldamine Teamsis
 description: Selles teemas kirjeldatakse, kuidas esitada puhkusetaotlust Microsoft Teamsi rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929989"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4418240"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
@@ -182,11 +182,25 @@ Kui te ei saa rakendusse sisse logida, siis on võimalik, et konto, mida kasutat
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Tõrge puhkusetaotluste kinnitamise korral Teamsis rakenduses Human Resources
 
-Kui saate Teamsi rakenduses puhkusetaotluste kinnitamise katsel tõrke, tehke järgmised tõrkeotsingusammud.
+Kui saate Teamsi rakenduses puhkusetaotluste kinnitamise katsel tõrke, proovige järgmisi tõrkeotsingutoiminguid.
 
 1. Veenduge, et konto, mida kasutate rakendusse Microsoft Teams sisse logimiseks, oleks sama, mida kasutate rakendusele Dynamics 365 Human Resources juurde pääsemiseks.
 
 2. Kontrollige, et te oleks taotluse puhul sobiv kinnitaja, kontrollides puhkuse kinnitamise töövoo sätteid. Lisateavet puhkusetaotluse töövoogude kohta leiate teemast [Puhkusetaotluse töövoo loomine](hr-leave-and-absence-workflow.md).
+
+## <a name="known-accessibility-issues"></a>Teadaolevad hõlbustusprobleemid
+
+Teamsi rakendusel Human Resources on järgmised hõlbustusprobleemid, mille lahendamise nimel teeme tööd, et neid tulevastes väljaannetes poleks.
+
+| Väljasta | Lahendus või selgitus |
+| --- | --- |
+| 400% suumimine töölaual peidab vaates mõned tegevusnupud. | Selle asemel soovitame kasutada luupi, kuni saame sellel tasemel suumi toetada. |
+| VoiceOver teatab vahekaardil **Vaba aeg** nuputoimingust, lugedes ette vaba aja ruudustiku päist. | Ruudustiku päis ja elemendid rühmitatakse aasta kaupa ja need on ahendatavad. VoiceOver tõlgendab seda kui tegevusüksust, kuid see pole seda. |
+| Kui avatud hüpikakna või menüü ajal nipsate, jätab VoiceOver hüpikakna või menüü sisu lugemise vahele. | Saate sisu sõrme skännimise abil uurida. |
+| Vahekaardil **Vaba aeg** saab teha lisaks veel ühe nipsamise, kui valitakse uue taotluse **põhjuse kood**. | See nipsamine ei ava siiski ühtki peidetud juhtelementi. |
+| Kui nipsate vahekaardil **Vaba aeg** avatud kalendri korral, liigutakse uue taotluse korral või taotluse redigeerimisel ülaosa asemel hoopis juhtelemendist välja. | Kui jõuate valikuni **Liigu tänase juurde**, võtke arvesse, et see on juhtelemendi lõpp ja nipske vastassuunas, et tagasi algusse saada. |
+| VoiceOver ei loe ette kuupäevasilte. | Paarides esinevad kuupäevad on alati **alguskuupäev** ja **lõppkuupäev**. |
+| Vahekaardil **Vestlus** viiakse fookus tagasi algusse, kui sisestate kuupäeva abistavat tööriista kaustades või klaviatuuri abil valides. | Vajutage tabeldusklahvi, kuni jõuate uuesti sisendi juurde. |
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 

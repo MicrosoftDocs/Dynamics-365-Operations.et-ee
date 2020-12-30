@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016258"
+ms.locfileid: "4426619"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -97,7 +97,7 @@ Tegeliku kaalu siltide jälgimise protsessi saab kasutada kaupade jälgimiseks, 
 
 Teine oluline parameeter, mis on seotud tegeliku kaalu siltide töötlemisega on **Tegeliku kaalu sildi mõõtme jälgimise meetod**. Silte saab kas osaliselt jälgida või täielikult jälgida. Kui silt on osaliselt jälgitav, siis jälgitakse toote dimensioone, jälgimise dimensioone ja varude olekut. Kui silt on täielikult jälgitav, siis jälgitakse toote dimensioone, jälgimisdimensioone ja **kõiki** laoala dimensioone.
 
-Lisaks, kui kaup on sildiga jälgitav, on olemas parameeter **Väljamineva sildi hõivamise meetod**. Saate seada selle parameetri nii, et teilt küsitakse alati mobiilsest seadmest väljaminevatel kannetel silti. Teise võimalusena saate seadistada parameetri nii, et teilt küsitakse silte ainult siis, kui need on kohustuslikud. Näiteks on antud litsentsiplaadil laos olemas viis tegeliku kaalu silti ja te olete märkinud, et soovite komplekteerida litsentsiplaadi kõik viis silti. Sel juhul, kui parameeter **Väljamineva sildi hõivamise meetod** on seadistatud väärtusele **Küsi silti ainult vajadusel** , komplekteeritakse viis silti automaatselt. Te ei pea iga silti skannima. Kui parameetri väärtuseks on seatud **Küsi alati silti** , peate skannima iga sildi, isegi kui komplekteeritakse kõik viis silti.
+Lisaks, kui kaup on sildiga jälgitav, on olemas parameeter **Väljamineva sildi hõivamise meetod**. Saate seada selle parameetri nii, et teilt küsitakse alati mobiilsest seadmest väljaminevatel kannetel silti. Teise võimalusena saate seadistada parameetri nii, et teilt küsitakse silte ainult siis, kui need on kohustuslikud. Näiteks on antud litsentsiplaadil laos olemas viis tegeliku kaalu silti ja te olete märkinud, et soovite komplekteerida litsentsiplaadi kõik viis silti. Sel juhul, kui parameeter **Väljamineva sildi hõivamise meetod** on seadistatud väärtusele **Küsi silti ainult vajadusel**, komplekteeritakse viis silti automaatselt. Te ei pea iga silti skannima. Kui parameetri väärtuseks on seatud **Küsi alati silti**, peate skannima iga sildi, isegi kui komplekteeritakse kõik viis silti.
 
 > [!NOTE]
 > Reeglina hõivatakse sildid värskendatakse ainult mobiilse seadme menüü-üksustest. Sellegipoolest on mõned stsenaariumid, kus sildid hõivatakse kuskil mujal (nt käsitsi pakkimisjaamas). Kuid üldiselt tuleks mobiilse seadme menüükäske kasutada kõigi laotegevuse puhul, kus kasutatakse silte.
@@ -109,7 +109,7 @@ Lisaks, kui kaup on sildiga jälgitav, on olemas parameeter **Väljamineva sildi
 Näiteks on tegeliku kaalu ühik **kast** ja te saate ühe kaubaaluse kaheksa kastiga. Sel juhul tuleb luua kaheksa kordumatut tegeliku kaalu silti ja kaal tuleb seostada iga sildiga. Olenevalt sissetuleva tegeliku kaalu sildist saab registreerida kas kõigi kaheksa kasti kaalu ja jaotada igale kastile keskmise kaalu või registreerida iga kasti jaoks kordumatu kaalu.
 Kui kasutate funktsiooni **Kasuta olemasolevaid tegeliku kaalu silte tootmistellimuste kinnitamisel lõpetatuna** , kui protsess on lubatud mobiilseadme menüükäsuga, uuendatakse varud olemasoleva tegeliku kaalu sildi teabe alusel. Selle tulemusena ei viipa laorakendus hõivata tegeliku kaalu sildi andmeid tootmisaruande osa lõpetatud toiminguna.
 
-**Kui tegeliku kaalu sildi jälgimist ei kasutata** , saab kaalu registreerida iga dimensioonikogumi kohta (nt iga litsentsiplaadi ja jälgimisdimensiooni kohta). Samuti on võimalik kaal registreerida koondtaseme, näiteks viie litsentsiplaadi (kaubaaluse), põhjal.
+**Kui tegeliku kaalu sildi jälgimist ei kasutata**, saab kaalu registreerida iga dimensioonikogumi kohta (nt iga litsentsiplaadi ja jälgimisdimensiooni kohta). Samuti on võimalik kaal registreerida koondtaseme, näiteks viie litsentsiplaadi (kaubaaluse), põhjal.
 
 Väljamineva kaalu hõivamise meetodite puhul saate määrata suvandi **Tegeliku kaalu ühiku kohta** abil, et kaalumist tuleks teha iga tegeliku kaalu ühiku jaoks (nt karbi kohta). Valik **Komplekteerimisüksuse kohta** laseb teil määrata, et kaal tuleb hõivata vastavalt komplekteeritavale kogusele (nt kolm kasti). Pange tähele, et tootmisrea komplekteerimise ja siseliikumise protsesside puhul kasutatakse keskmist kaalu, kui kasutusel on suvand **Ei jäädvustata**.
 
@@ -124,7 +124,7 @@ Mitu kaalu hõivamise meetodit määratletakse tegeliku kaalu kauba käitlemise 
 | Loenduskaalu jäädvustamise meetod           | Inventuur                                   |
 | Lao ülekandekaalu jäädvustamise meetod | Edastus laos                         |
 
-Selleks et laohalduse komplekteerimisprotsessid ei jäädvustaks kaale, mis annavad tulemuseks tegeliku kaalu kasumi/kahjumi korrigeerimised, saate kasutada väljamineva kaalu hälbe meetodit. Väljamineva kaalu hälbe meetodit rakendatakse järgmiste mobiilsete seadmete protsesside puhul: komplekteerimine, üleviimiseks komplekteerimine, tootmisse komplekteerimine, liikumised, inventuur ja lao üleviimised. Saate kasutada valikut **Piira kaalu hälvet** , kui tegeliku kaalu kauba kaal ei kõigu laos ladustamise ajal ja kui tegeliku kaalu kasumi/kahjumi korrigeerimisi ei nõuta. Saate kasutada valikut **Luba kaalu hälve** , kui kaal võib kõikuda ja kui tegeliku kaalu kasumi/kahjumi korrigeerimine on vajalik kaalu kõikumise kirjendamisel.
+Selleks et laohalduse komplekteerimisprotsessid ei jäädvustaks kaale, mis annavad tulemuseks tegeliku kaalu kasumi/kahjumi korrigeerimised, saate kasutada väljamineva kaalu hälbe meetodit. Väljamineva kaalu hälbe meetodit rakendatakse järgmiste mobiilsete seadmete protsesside puhul: komplekteerimine, üleviimiseks komplekteerimine, tootmisse komplekteerimine, liikumised, inventuur ja lao üleviimised. Saate kasutada valikut **Piira kaalu hälvet**, kui tegeliku kaalu kauba kaal ei kõigu laos ladustamise ajal ja kui tegeliku kaalu kasumi/kahjumi korrigeerimisi ei nõuta. Saate kasutada valikut **Luba kaalu hälve**, kui kaal võib kõikuda ja kui tegeliku kaalu kasumi/kahjumi korrigeerimine on vajalik kaalu kõikumise kirjendamisel.
 
 ## <a name="unsupported-scenarios"></a>Ilma toeta stsenaariumid
 
@@ -203,10 +203,10 @@ Lisaks piirangutele, mis praegu kehtivad tegeliku kaalu toodete puhul, on sildis
 - Peate tegeliku kaalu sildid käsitsi värskendama, et need kajastaksid täiendamistöö liikumisi. Seda seetõttu, et süsteem ei suuda täiendamistöö töötlemise käigus kaalusid hõivata ja seega registreerib selle asemel keskmise kaalu.
 - Kombineeritud litsentsiplaadi vastuvõtmist hetkel sildistatud tegeliku kaalu toodete juures ei toetata.
 - Müügi tagastustellimuse vastuvõtmise töötlemine võib tegeliku kaalu sildid registreerida. Kuid protsess ei valideeri, et tagastatud silt on sama silt, mis algselt müügitellimusega lähetati.
-- Mobiilse seadme menüükäsk, millel on toimingu kood **Materjali tarbimise registreerimine** , ei toeta praegu tegeliku kaalu siltide salvestamist.
+- Mobiilse seadme menüükäsk, millel on toimingu kood **Materjali tarbimise registreerimine**, ei toeta praegu tegeliku kaalu siltide salvestamist.
 - Ehkki inventuuri protsesse sildistatud tegeliku kaalu kaupade puhul toetatakse, on need piiratud. Näiteks saate kasutada mobiilse seadme suvandeid sildistatud tegeliku kaalu kaupade loendamiseks ja kasutatakse keskmist kaalu. Kuid tegeliku kaalu silte ei värskendata inventuuri kandega automaatselt. Pärast inventuuri kande lõpetamist tuleb tegeliku kaalu silte käsitsi värskendada, et need varusid kajastaksid. Kui kaubad, mida ei olnud algselt asukohas, loendatakse sellesse asukohta, kasutatakse nominaalkaalu.
 - Litsentsiplaadi konsolideerimine ei toeta praegu sildistatud tegeliku kaaluga tooteid.
 - Tühistatud töö funktsionaalsust ei toetata nende tegeliku kaalu kaupade puhul, mida jälgitakse sildi numbri järgi.
 
 > [!NOTE]
-> Tegeliku kaalu siltide eelnev teave kehtib ainult siis, kui tegeliku kaalu tootel on tegeliku kaalu sildi dimensiooni jälgimise meetod, mis on täielikult jälgitav (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käitlemise poliitikas on seatud olekusse **Tootedimensioonid, jälgimise dimensioonid ja laoala dimensioonid** ). Kui tegeliku kaalu üksus on ainult osaliselt sildiga jälitatud (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käsitsemise poliitikas on seatud olekusse **Tootedimensioonid, Jälgimise dimensioonid ja Varude olek** ), rakenduvad täiendavad piirangud. Kuna sildi ja varude vaheline nähtavus on sel juhul kadunud, ei toetata mõnda lisastsenaariumit.
+> Tegeliku kaalu siltide eelnev teave kehtib ainult siis, kui tegeliku kaalu tootel on tegeliku kaalu sildi dimensiooni jälgimise meetod, mis on täielikult jälgitav (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käitlemise poliitikas on seatud olekusse **Tootedimensioonid, jälgimise dimensioonid ja laoala dimensioonid**). Kui tegeliku kaalu üksus on ainult osaliselt sildiga jälitatud (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käsitsemise poliitikas on seatud olekusse **Tootedimensioonid, Jälgimise dimensioonid ja Varude olek**), rakenduvad täiendavad piirangud. Kuna sildi ja varude vaheline nähtavus on sel juhul kadunud, ei toetata mõnda lisastsenaariumit.

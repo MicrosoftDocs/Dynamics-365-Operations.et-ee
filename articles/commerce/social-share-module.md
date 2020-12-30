@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022072"
+ms.locfileid: "4411804"
 ---
 # <a name="social-share-module"></a>Suhtlussaidil jagamise moodul
 
@@ -53,7 +53,7 @@ Järgmisel illustratsioonil on toodud näide toote üksikasjade lehel kasutatava
 ## <a name="social-share-item-module-properties"></a>Suhtlussaidil jagatava üksuse mooduli atribuudid
 | Atribuudi nimi             | Väärtus                 | Kirjeldus |
 |---------------------------|-----------------------|-------------|
-| Suhtlusvõrgustik              | **Facebook** , **Twitter** , **Pinterest** , **LinkedIn** , **meilirakendus** | Rippmenüü suhtlusvõrgustiku platvormide nimekirjaga. |
+| Suhtlusvõrgustik              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **meilirakendus** | Rippmenüü suhtlusvõrgustiku platvormide nimekirjaga. |
 | Ikoon |Pilt    | See on pilt, mida kuvatakse vastava suhtlusvõrgustiku korral. Iga platvormi jaoks soovitatava pildi leiate suhtlusvõrgustiku platvormi SDK-st. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>Suhtlussaidil jagamise mooduli lisamine ostukasti moodulile
@@ -61,12 +61,12 @@ Järgmisel illustratsioonil on toodud näide toote üksikasjade lehel kasutatava
 Suhtlussaidil jagamise mooduli lisamiseks ostukasti moodulile tehke järgmist.
 
 1. Valige saidil Fabrikam **Lehed** ja seejärel tehke toote üksikasjade lehe avamiseks valik **Vaike-PDP**. 
-1. Valige pesas **Ostukast (nõutav)** kolmikpunkt ( **…** ) ja seejärel valige käsk **Lisa moodul**.
+1. Valige pesas **Ostukast (nõutav)** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Suhtlussait** ja klõpsake seejärel **OK**.
-1. Valige pesas **Suhtlussait** kolmikpunkt ( **…** ) ja seejärel käsk **Lisa moodul**.
+1. Valige pesas **Suhtlussait** kolmikpunkt (**…**) ja seejärel käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Suhtlussait** ja klõpsake seejärel **OK**.
 1. Tehke mooduli **Suhtlussait** atribuutide paani jaotises **Paigutus** valik **Horisontaalne**. Lisage pealdis vastavalt vajadusele.
-1. Valige pesas **Suhtlussait** kolmikpunkt ( **…** ) ja seejärel käsk **Lisa moodul**.
+1. Valige pesas **Suhtlussait** kolmikpunkt (**…**) ja seejärel käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Suhtlussaidil jagatav üksus** ja klõpsake seejärel **OK**.
 1. Tehke mooduli **Suhtlussaidil jagatav üksus** atribuutide paani jaotises **Suhtlussait** valik **Facebook**.
 1. Tehke mooduli **Suhtlussaidil jagatav üksus** atribuutide paani jaotises **Ikoon** valik **+ Lisa pilt**.

@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628449"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418164"
 ---
 # <a name="performance-management"></a>Jõudlushaldus
 
@@ -132,7 +132,7 @@ Saate kasutada töötaja ülevaate töövoogu ülevaate kinnitamise kontrollimis
 
 1.  Aruande loomisel määratakse selle olekuks **Alustamata**. Aruannet saavad kõik redigeerida.
 
-2.  Kui töövõtja vajutab nuppu **Alusta ülevaatust**, määratakse ülevaate olekuks**Pooleli**. Seejärel hakkab töövõtja sisu lisama. Selles punktis ei saa juhataja ülevaatedokumenti enam vaadata.
+2.  Kui töövõtja vajutab nuppu **Alusta ülevaatust**, määratakse ülevaate olekuks **Pooleli**. Seejärel hakkab töövõtja sisu lisama. Selles punktis ei saa juhataja ülevaatedokumenti enam vaadata.
 
 3.  Töövõtja muudab olekuks **Ülevaatamiseks valmis**.
 

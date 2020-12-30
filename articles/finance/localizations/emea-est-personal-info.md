@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 10c5e903ce5ffe802a7721e91659d1199162b539
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987403"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407854"
 ---
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 

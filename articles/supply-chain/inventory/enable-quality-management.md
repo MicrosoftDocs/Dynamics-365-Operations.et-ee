@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268812"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426330"
 ---
 # <a name="quality-management-overview"></a>Kvaliteedijuhtimise ülevaade
 
@@ -263,7 +263,7 @@ Järgmises tabelis on veel teavet kvaliteettellimuste loomise kohta konkreetset 
 <tr>
 <td>Vahelao order</td>
 <td>Enne või pärast vahelao tellimuse lõpetatuna kinnitamist või lõpetamist</td>
-<td>Purustavaid katseid nõudvaid kvaliteettellimusi ei saa koostada. Eeldatakse, et vahelao tellimuse funktsioon tegeleb rikutud materjali likvideerimisega.</td>
+<td>Purustavaid katseid nõudvaid kvaliteettellimusi ei saa koostada. Eeldatakse, et karantiinitellimuse funktsioon tegeleb rikutud materjali likvideerimisega.</td>
 <td>Kvaliteettellimuse vajadus võib kajastada konkreetset laoala, kaupa või hankijat või nende tingimuste kombinatsiooni.</td>
 <td>Käsitsi loodud vahelaoorderile viitav kvaliteettellimus saab kasutada kvaliteediseose kirje teavet (nt katse valimiplaani).</td>
 </tr>

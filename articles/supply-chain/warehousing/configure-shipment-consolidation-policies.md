@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016213"
+ms.locfileid: "4426602"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikate konfigureerimine
 
@@ -59,7 +59,7 @@ Selle protseduuri käivitamisel peaks funktsioon *Saadetise konsolideerimispolii
 Järgige neid etappe vaikimisi saadetiste konsolideerimispoliitikate seadistamiseks keskkonnas, kus laod on juba konfigureeritud risttellimuste konsolideerimiseks.
 
 1. Avage **Laohaldus \> Seadistus \> Ladu \> Laod**.
-1. Otsige loendist üles ja avage soovitud lao kirje (nt ladu *24* demoandmetes **USMF** ).
+1. Otsige loendist üles ja avage soovitud lao kirje (nt ladu *24* demoandmetes **USMF**).
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Määrake kiirkaardil **Ladu** suvandi **Konsolideeri saadetis lattu väljastamisel** väärtuseks *Jah*.
 1. Korrake etappe 2– 4 kõigi teiste ladude puhul, kus konsolideerimist nõutakse.
@@ -147,7 +147,7 @@ Saate kasutada funktsioonihaldust funktsiooni sisselülitamiseks, kui te pole se
 1. Valige toimingupaanil nupp **Salvesta**.
 
     > [!NOTE]
-    > Uue vedaja salvestamisel määratakse ruudustiku **Teenused** uue rea välja **Tarneviis** väärtuseks automaatselt *Airwa-Air*. Kui kasutate müügitellimuses tarneviisi *Airwa-Air* , kasutatakse seostatud saadetiste puhul transpordiliiki *Lennutransport*.
+    > Uue vedaja salvestamisel määratakse ruudustiku **Teenused** uue rea välja **Tarneviis** väärtuseks automaatselt *Airwa-Air*. Kui kasutate müügitellimuses tarneviisi *Airwa-Air*, kasutatakse seostatud saadetiste puhul transpordiliiki *Lennutransport*.
 
 #### <a name="create-an-order-pool"></a>Tellimuse kaustade loomine
 
@@ -164,9 +164,9 @@ Saate kasutada funktsioonihaldust funktsiooni sisselülitamiseks, kui te pole se
 
 ### <a name="create-example-policy-1"></a>Näidispoliitika 1 loomine
 
-Selles näites loote poliitika *Klient+režiim* , mida saab kasutada järgmise ärijuhtumi korral.
+Selles näites loote poliitika *Klient+režiim*, mida saab kasutada järgmise ärijuhtumi korral.
 
-- Poliitika esitab päringu konkreetse kliendi konto ( *US-001* ) ja kindla tarneviisi ( *Airwa-Air* ) kohta.
+- Poliitika esitab päringu konkreetse kliendi konto (*US-001*) ja kindla tarneviisi (*Airwa-Air*) kohta.
 - Avatud saadetistega konsolideerimine on välja lülitatud.
 - Konsolideerimist tehakse tellimuse ID põhiselt. (Teisisõnu tehakse eraldi saadetised tellimuse, lao jne kohta.)
 
@@ -174,7 +174,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Määrake välja **Poliitika tüüp** väärtuseks *Müügitellimused*.
-1. Valige Toimingupaanil suvand **Uus** , et luua järgmiste sätetega poliitika.
+1. Valige Toimingupaanil suvand **Uus**, et luua järgmiste sätetega poliitika.
 
     - **Poliitika nimi:** *CustomerMode*
     - **Poliitika kirjeldus:** *Kliendi konto ja tarneviis*
@@ -185,7 +185,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
 1. Otsige päringuredaktori dialoogiaknas vahekaardil **Vahemik** ruudustikust üles rida, kus välja **Väli** väärtuseks on seatud *Kliendi konto* ja seadke selle rea välja **Kriteeriumid** väärtuseks *US-001*.
-1. Valige **Lisa** , et lisada ruudustikule järgmiste sätetega rida.
+1. Valige **Lisa**, et lisada ruudustikule järgmiste sätetega rida.
 
     - **Tabel:** *Tellimuse read*
     - **Tuletatud tabel:** *Tellimuse read*
@@ -199,9 +199,9 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 
 ### <a name="create-example-policy-2"></a>Näidispoliitika 2 loomine
 
-Selles näites loote poliitika *Ohtlikud kaubad* , mida saab kasutada järgmise ärijuhtumi korral.
+Selles näites loote poliitika *Ohtlikud kaubad*, mida saab kasutada järgmise ärijuhtumi korral.
 
-- Poliitika esitab päringu konkreetse filtri koodi ( *ohtlik* ) ja kindla tarneviisi ( *Airwa-Air* ) kohta.
+- Poliitika esitab päringu konkreetse filtri koodi (*ohtlik*) ja kindla tarneviisi (*Airwa-Air*) kohta.
 - Avatud saadetistega konsolideerimine on sisse lülitatud.
 - Konsolideerimist tehakse kõigile tellimustele. (Teisisõnu luuakse eraldi saadetised konto, lao jne kohta, kuid ainult päringus määratletud kaubagrupi piires.)
 
@@ -209,7 +209,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Määrake välja **Poliitika tüüp** väärtuseks *Müügitellimused*.
-1. Valige Toimingupaanil suvand **Uus** , et luua järgmiste sätetega poliitika.
+1. Valige Toimingupaanil suvand **Uus**, et luua järgmiste sätetega poliitika.
 
     - **Poliitika nimi:** *Kauba tüüp*
     - **Poliitika kirjeldus:** *Sama tüüpi kauba konsolideerimine kõigis tellimustes*
@@ -222,7 +222,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Laiendage ja valige päringuredaktori dialoogiakna vahekaardil **Liitmised** puu valikut **Tabelid \> Koormuse üksikasjad**.
 1. Valige **Lisa tabeli liitmine**.
 1. Kuvatavate seoste ruudustikus otsige üles ja valige rida, kus välja **Seos** väärtuseks on seatud *Lao kaubakood (kaubakood)* ja seejärel valige **Vali**. 
-1. Valige vahekaardil **Vahemik** suvand **Lisa** , et lisada ruudustikule järgmiste sätetega rida.
+1. Valige vahekaardil **Vahemik** suvand **Lisa**, et lisada ruudustikule järgmiste sätetega rida.
 
     - **Tabel:** *Lao kaubakood*
     - **Tuletatud tabel:** *Lao kaubakood*
@@ -232,11 +232,11 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Valige dialoogiboksi sulgemiseks suvand **OK**.
 
 > [!NOTE]
-> Selle ärijuhtumi puhul konsolideeritakse kõik tellimuse read, kus kaubal on kindel filtri kood (st filtri kood, mille välja **Kood 4** väärtuseks on seatud *Kergsüttiv* ), koos teiste sama tüüpi kaupadega kõigis tellimustes. Kui samal kontol, laol ja kaupade grupil on avatud saadetis, lisatakse sellele uued read.
+> Selle ärijuhtumi puhul konsolideeritakse kõik tellimuse read, kus kaubal on kindel filtri kood (st filtri kood, mille välja **Kood 4** väärtuseks on seatud *Kergsüttiv*), koos teiste sama tüüpi kaupadega kõigis tellimustes. Kui samal kontol, laol ja kaupade grupil on avatud saadetis, lisatakse sellele uued read.
 
 ### <a name="create-example-policy-3"></a>Näidispoliitika 3 loomine
 
-Selles näites loote poliitika *Kliendi nõuded* , mida saab kasutada järgmise ärijuhtumi korral.
+Selles näites loote poliitika *Kliendi nõuded*, mida saab kasutada järgmise ärijuhtumi korral.
 
 - Poliitika esitab päringu konkreetse kliendi konto kohta.
 - Avatud saadetistega konsolideerimine on sisse lülitatud.
@@ -246,7 +246,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Määrake välja **Poliitika tüüp** väärtuseks *Müügitellimused*.
-1. Valige Toimingupaanil suvand **Uus** , et luua järgmiste sätetega poliitika.
+1. Valige Toimingupaanil suvand **Uus**, et luua järgmiste sätetega poliitika.
 
     - **Poliitika nimi:** *CustomerOrderNo*
     - **Poliitika kirjeldus:** *Ridade konsolideerimine kliendi OT alusel*
@@ -266,7 +266,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 
 ### <a name="create-example-policy-4"></a>Näidispoliitika 4 loomine
 
-Selles näites loote poliitika *Konsolideerimist lubavad kliendid* , mida saab kasutada järgmise ärijuhtumi korral.
+Selles näites loote poliitika *Konsolideerimist lubavad kliendid*, mida saab kasutada järgmise ärijuhtumi korral.
 
 - Poliitika esitab päringu kindla tellimuse kausta kohta, et tuvastada kliendid, kes lubavad konsolideeritud saadetisi.
 - Avatud saadetistega konsolideerimine on välja lülitatud.
@@ -278,7 +278,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Määrake välja **Poliitika tüüp** väärtuseks *Müügitellimused*.
-1. Valige Toimingupaanil suvand **Uus** , et luua järgmiste sätetega poliitika.
+1. Valige Toimingupaanil suvand **Uus**, et luua järgmiste sätetega poliitika.
 
     - **Poliitika nimi:** *Tellimuse kaust*
     - **Poliitika kirjeldus:** *Kõigi tellimuste konsolideerimine tellimuse kausta põhjal*
@@ -288,7 +288,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 1. Valige kiirkaardi **Konsolideerimise väljad** loendist **Järelejäänud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Tarneviis*.
 1. Valige nupp **Lisa** ![Paremanool](media/forward-button.png), et teisaldada väli loendisse **Valitud väljad**.
 1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
-1. Valige päringu redaktori dialoogiboksis vahekaardil **Vahemik** suvand  **Lisa** , et lisada järgmiste sätetega rida ruudustikule.
+1. Valige päringu redaktori dialoogiboksis vahekaardil **Vahemik** suvand  **Lisa**, et lisada järgmiste sätetega rida ruudustikule.
 
     - **Tabel:** *Müügitellimused*
     - **Tuletatud tabel:** *Müügitellimused*
@@ -302,7 +302,7 @@ Järgige neid etappe selle ärijuhtumi jaoks saadetise konsolideerimispoliitika 
 
 ### <a name="create-example-policy-5"></a>Näidispoliitika 5 loomine
 
-Selles näites loote poliitika *Konsolideerimist lubavad laod* , mida saab kasutada järgmise ärijuhtumi korral.
+Selles näites loote poliitika *Konsolideerimist lubavad laod*, mida saab kasutada järgmise ärijuhtumi korral.
 
 - Poliitika esitab päringu kindla tellimuse kausta kohta, et tuvastada laod, mis konsolideerivad saadetisi.
 - Avatud saadetistega konsolideerimine on välja lülitatud.
@@ -312,7 +312,7 @@ Tavaliselt saab seda ärijuhtumit lahendada [stsenaariumis 1](#scenario-1) loodu
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Määrake välja **Poliitika tüüp** väärtuseks *Müügitellimused*.
-1. Valige Toimingupaanil suvand **Uus** , et luua järgmiste sätetega poliitika.
+1. Valige Toimingupaanil suvand **Uus**, et luua järgmiste sätetega poliitika.
 
     - **Poliitika nimi:** *Risttellimus*
     - **Poliitika kirjeldus:** *ristttellimuste konsolideerimine konkreetsete ladude puhul*
@@ -331,7 +331,7 @@ Kui olete kõik oma poliitikad loonud, tuleb teil määrata nende rakendamise j�
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Lattu väljastamine \> Saadetise konsoldeerimispoliitika**.
 1. Määrake välja **Poliitika tüüp** väärtuseks *Müügitellimused*.
-1. Valige iga vasakus veerus loetletud poliitika ja seejärel kasutage Toimingupaani nuppe **Nihuta üles** ja **Nihuta alla** , et seada poliitikaid järgmisse järjestusse.
+1. Valige iga vasakus veerus loetletud poliitika ja seejärel kasutage Toimingupaani nuppe **Nihuta üles** ja **Nihuta alla**, et seada poliitikaid järgmisse järjestusse.
 
     1. CustomerMode
     1. Kauba tüüp

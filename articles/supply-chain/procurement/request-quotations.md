@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018395"
+ms.locfileid: "4426672"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pakkumiskutsete ülevaade
 
@@ -44,7 +44,7 @@ Järgmisel joonisel on näidatud ülevaade pakkumiskutse protsessist.
 
 Saate luua pakkumiskutse juhtumi plaanitud tellimustelt, ostutaotluselt või käsitsi sisestades. Pakkumiskutse juhtum on alusdokument, mida kasutate igale hankijale pakkumiskutse väljastamiseks.
 
-Kui olete pakkumiskutse ette valmistanud ja hankijad lisanud, valige pakkumiskutses **Saada** ( **Saada ja avalda** avaliku sektori korral). Iga hankija kohta, kellele pakkumiskutse saadate, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindisuvandeid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saate iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem uuesti. Samuti saate konfigureerida saatmistegevuse nii, et see loob vastuselehe, mille hankija saab täita.
+Kui olete pakkumiskutse ette valmistanud ja hankijad lisanud, valige pakkumiskutses **Saada** (**Saada ja avalda** avaliku sektori korral). Iga hankija kohta, kellele pakkumiskutse saadate, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindisuvandeid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saate iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem uuesti. Samuti saate konfigureerida saatmistegevuse nii, et see loob vastuselehe, mille hankija saab täita.
 
 Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Supply Chain Management. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
@@ -105,7 +105,7 @@ Mooduli Hanked lehel **Vormiseadistus** saate konfigureerida prinditud või salv
 
 > [!NOTE]
 > Avaliku sektori konfiguratsiooni puhul peate juba saadetud pakkumiskutse muutmiseks kasutama täiendamisprotsessi. Kui pakkumiskutse on saadetud, on väljad lukustatud.
-Seetõttu peate pakkumiskutse muutmiseks valima käsu **Loo** , et alustada täiendamisprotsessi, nagu on ülalpool kirjeldatud. Lukustuskäitumist juhitakse suvandiga **Lukusta saadetud pakkumiskutsed** lehel **Hankeparameetrid**. Vaikimisi on selle parameetri säte **Jah** ja avaliku sektori konfiguratsiooni puhul ei saa vaikesätet muuta. Kuigi täiendamisprotsessi saab mitteavaliku sektori konfiguratsioonis käsitsi käsitleda, tuleb seda kasutada avaliku sektori konfiguratsiooni puhul.
+Seetõttu peate pakkumiskutse muutmiseks valima käsu **Loo**, et alustada täiendamisprotsessi, nagu on ülalpool kirjeldatud. Lukustuskäitumist juhitakse suvandiga **Lukusta saadetud pakkumiskutsed** lehel **Hankeparameetrid**. Vaikimisi on selle parameetri säte **Jah** ja avaliku sektori konfiguratsiooni puhul ei saa vaikesätet muuta. Kuigi täiendamisprotsessi saab mitteavaliku sektori konfiguratsioonis käsitsi käsitleda, tuleb seda kasutada avaliku sektori konfiguratsiooni puhul.
 
 Kui loote ostutellimuse tüüpi pakkumiskutse juhtumi ja lisate pakkumiskutsele laokauba, luuakse ka laokanne, mille sissetuleku olek on **Saadud pakkumine**. Koondplaani abil varude arvutamisel arvestatakse vaid selle olekuga pakkumiskutse juhtumi ridu. Kui soovite, et koondplaan sisaldaks pakkumiskutse juhtumi ridu eeldatava sissetulekuna, peate konfigureerima selle käitumise koondplaneerimise seadistamisel.
 
@@ -120,7 +120,7 @@ Saate määratleda kindlat tüüpi teabe, mida soovite saada hankijatelt, kui na
 1. Avage vahekaart **Pakkumiskutse**.
 1. Valige vastuseväljade link **Vaikepakkumiskutsed** pealkirja **Vaikeväärtuste seadistamine pakkumiskutsete jaoks** alt.
 1. Avaneb dialoogiboks **Pakkumiskutse vastuse vaikeväljad**.
-1. Jaotis **Hankija pakkumiskutse vastusevormidesse kaasatud pakkumiskutse väljad** sisaldab liugurit iga välja jaoks, mis on saadaval pakkumiskutse vastusevormides kasutamiseks. Väljad, mille väärtuseks on selles jaotises seatud *Jah* , lisatakse (koos oma väärtustega) pakkumiskutse vastusevormidesse. Seadke liuguri väärtuseks *Ei* iga välja jaoks, mille puhul soovite, et hankijad ei näeks selle andmeid pakkumiste läbivaatamisel. See võimaldab teil sisestada pakkumiskutse sisestamise ajal ettevõttesisesteks eesmärkideks hinnangulisi või oodatud väärtuseid, ilma et hankija sisestatud andmeid näeks.
+1. Jaotis **Hankija pakkumiskutse vastusevormidesse kaasatud pakkumiskutse väljad** sisaldab liugurit iga välja jaoks, mis on saadaval pakkumiskutse vastusevormides kasutamiseks. Väljad, mille väärtuseks on selles jaotises seatud *Jah*, lisatakse (koos oma väärtustega) pakkumiskutse vastusevormidesse. Seadke liuguri väärtuseks *Ei* iga välja jaoks, mille puhul soovite, et hankijad ei näeks selle andmeid pakkumiste läbivaatamisel. See võimaldab teil sisestada pakkumiskutse sisestamise ajal ettevõttesisesteks eesmärkideks hinnangulisi või oodatud väärtuseid, ilma et hankija sisestatud andmeid näeks.
 
 Vajadusel saate need sätted üksikute pakkumiskutsete puhul alistada.
 
@@ -130,17 +130,17 @@ Looge pakkumiskutse juhtum, valige hankijad, kellelt soovite pakkumiskutse juhtu
 
 Saate käsitsi luua pakkumiskutse juhtumi kas ostutellimuse tüübile **Ostutellimus** või **Ostuleping**.
 
-Kui pakkumiskutse juhtumi tüüp on **Ostutellimus** , ilmneb järgmine käitumine, mis hälbib muud tüüpi pakkumiskutse juhtumitest:
+Kui pakkumiskutse juhtumi tüüp on **Ostutellimus**, ilmneb järgmine käitumine, mis hälbib muud tüüpi pakkumiskutse juhtumitest:
 
 - Pakkumiskutse juhtumi ridade loomisel luuakse laokanded, mille sissetuleku olek on **Pakkumise sissetulek**.
 - Pakkumise aktsepteerimisel luuakse ostutellimus.
 
-Kui pakkumiskutse tüüp on **Ostuleping** , ilmneb järgmine käitumine, mis hälbib muudest pakkumiskutse juhtumitest:
+Kui pakkumiskutse tüüp on **Ostuleping**, ilmneb järgmine käitumine, mis hälbib muudest pakkumiskutse juhtumitest:
 
 - Pakkumiskutse juhtumit kasutatakse hankijalt pikema aja vältel kindlas koguses või väärtuses toote ostmiseks. Peate valima ostulepingule kehtiva kuupäevavahemiku ja ostulepingut haldava isiku nime.
 - Pakkumise aktsepteerimisel luuakse ostuleping.
 
-Kui pakkumiskutse juhtum luuakse ostutellimuselt, määratakse automaatselt tüüp **Ostutaotluse**. Pakkumiskutse juhtumit, mille tüüp on **Ostutaotlus** , ei saa käsitsi luua.
+Kui pakkumiskutse juhtum luuakse ostutellimuselt, määratakse automaatselt tüüp **Ostutaotluse**. Pakkumiskutse juhtumit, mille tüüp on **Ostutaotlus**, ei saa käsitsi luua.
 
 Saate luua on pakkumiskutse juhtumi ostutaotluselt ainult siis, kui ostutaotluse olek on **Ülevaatusel** ja teile on määratud järgmine töövooülesanne. Ostutaotluse ridu värskendatakse automaatselt, kui aktsepteerite hankijalt saadud pakkumiste (pakkumiskutse vastuste) ridu. Te ei saa ostutaotlust lõpule viia, tagasi lükata, kinnitada ega sellega muid toiminguid teha, kuni tellimuserida on värskendatud kinnitatud pakkumiskutse reaga või pakkumiskutse juhtum on tühistatud.
 
@@ -148,7 +148,7 @@ Pakkumiskutse juhtumi loomisel saate valida kutsetüübi. Kutsetüüp määrab h
 
 Saate lisada pakkumiskutse juhtumile küsimustiku. Seejärel kuvatakse küsimustik pärast pakkumiskutse saatmist kõigil pakkumiskutse vastustel. Küsimustiku täitmine on kohustuslik ülesanne, enne kui pakkumise saab esitada.
 
-Ehkki vaikeväärtused on olemas, saate vajadusel muuta iga pakkumiskutse juhtumi puhul **hankija pakkumiskutse vastusevormidesse kaasatud pakkumiskutse väljade** sätteid. Selleks looge või avage pakkumiskutse juhtum. Seejärel avage toimingupaanil vahekaart **Pakkumine** ja valige jaotises **Vastused** suvand **Sea pakkumiskutse vastuse vaikeväärtused**. Avaneb dialoogiboks **Pakkumiskutse vastuse vaikeväljad** , mis toimib sama moodi nagu hankija pakkumiskutse vastusevormidele vaikeväärtuste seadmine, kuigi siin tehtud muudatused mõjutavad ainult praegust pakkumiskutse juhtumit. Lisateavet selle funktsiooni lubamise ja selle töötamise kohta leiate teemast [Vaikeväljade valimine hankija pakkumiskutse vastusevormidesse kaasamiseks](#default-reply-fields).
+Ehkki vaikeväärtused on olemas, saate vajadusel muuta iga pakkumiskutse juhtumi puhul **hankija pakkumiskutse vastusevormidesse kaasatud pakkumiskutse väljade** sätteid. Selleks looge või avage pakkumiskutse juhtum. Seejärel avage toimingupaanil vahekaart **Pakkumine** ja valige jaotises **Vastused** suvand **Sea pakkumiskutse vastuse vaikeväärtused**. Avaneb dialoogiboks **Pakkumiskutse vastuse vaikeväljad**, mis toimib sama moodi nagu hankija pakkumiskutse vastusevormidele vaikeväärtuste seadmine, kuigi siin tehtud muudatused mõjutavad ainult praegust pakkumiskutse juhtumit. Lisateavet selle funktsiooni lubamise ja selle töötamise kohta leiate teemast [Vaikeväljade valimine hankija pakkumiskutse vastusevormidesse kaasamiseks](#default-reply-fields).
 
 Hankijate lisamiseks pakkumiskutse juhtumile on kolm võimalust.
 
@@ -158,15 +158,15 @@ Hankijate lisamiseks pakkumiskutse juhtumile on kolm võimalust.
 
 Kui pakkumiskutse on valmis, valige käsk **Saada**. Saatmistegevus loob töölehed ja aruanded, mis prinditakse, arhiivitakse ja saadetakse teie prindisätete järgi.
 
-Kui valisite pakkumiskutse saatmisel hankijale lehel **Pakkumiskutse saatmine** suvandite **Kasuta hindade ümberarvutamiseks hankijat** ja **Kasuta hankijakohast kaubateavet** sätteks **Jah** , sisestatakse osa hankijakohast teavet automaatselt selle hankija pakkumiskutsesse.
+Kui valisite pakkumiskutse saatmisel hankijale lehel **Pakkumiskutse saatmine** suvandite **Kasuta hindade ümberarvutamiseks hankijat** ja **Kasuta hankijakohast kaubateavet** sätteks **Jah**, sisestatakse osa hankijakohast teavet automaatselt selle hankija pakkumiskutsesse.
 
 ## <a name="amending-an-rfq-case"></a>Pakkumiskutse juhtumi parandamine
 
 Mõnikord peate pakkumiskutse juhtumit pärast selle saatmist muutma. Pakkumiskutse juhtumi muutmine võib olla vajalik näiteks siis, kui tarnekuupäevad on muutunud või kui soovite täiendavaid tooteid või teistsuguseid tootekoguseid. Saate konfigureerida parandusprotsessi nii, et see oleks rohkem või vähem piirav.
 
-Kui konfigureerite täiendamisprotsessi nii, et see oleks rohkem piirav, siis enne, kui saate juba saadetud pakkumiskutse välju muuta, peate valima pakkumiskutse juhtumis käsu **Loo** , et käivitada täiendamine. Kui olete muudatuste tegemise lõpule viinud, peate valima käsu **Vii lõpule**. Seejärel juhendatakse teid läbi teabe lisamise protsessi, et saata hankijatele paranduse kohta meilisõnum. Värskendatud pakkumiskutse aruanne, mis sisaldab täienduse märkust, lisatakse meilile automaatselt.
+Kui konfigureerite täiendamisprotsessi nii, et see oleks rohkem piirav, siis enne, kui saate juba saadetud pakkumiskutse välju muuta, peate valima pakkumiskutse juhtumis käsu **Loo**, et käivitada täiendamine. Kui olete muudatuste tegemise lõpule viinud, peate valima käsu **Vii lõpule**. Seejärel juhendatakse teid läbi teabe lisamise protsessi, et saata hankijatele paranduse kohta meilisõnum. Värskendatud pakkumiskutse aruanne, mis sisaldab täienduse märkust, lisatakse meilile automaatselt.
 
-Kui konfigureerite täiendamisprotsessi nii, et see oleks vähem piirav, ei pea te enne saadetud pakkumiskutse juhtumi väljade muutmist käsku **Loo** valima. Siiski peate täiendamismärkuse käsitsi pakkumiskutsele lisama ja juhtumi uuesti saatma. Võtke arvesse, et seda lähenemisviisi saab kasutada ainult siis, kui ühtki vastust (pakkumist) pole redigeeritud. Kui olete vastuse sisestanud ja selle olek on **Vastu võetud** , pole nupp **Saada** saadaval. Sel juhul peate valima käsu **Loo** ja seejärel **VII lõpule** ning tegutsema rohkem piiravas protsessis. Seejärel saadetakse vastus pakkumiskutse juhtumi muudatuste kajastamiseks.
+Kui konfigureerite täiendamisprotsessi nii, et see oleks vähem piirav, ei pea te enne saadetud pakkumiskutse juhtumi väljade muutmist käsku **Loo** valima. Siiski peate täiendamismärkuse käsitsi pakkumiskutsele lisama ja juhtumi uuesti saatma. Võtke arvesse, et seda lähenemisviisi saab kasutada ainult siis, kui ühtki vastust (pakkumist) pole redigeeritud. Kui olete vastuse sisestanud ja selle olek on **Vastu võetud**, pole nupp **Saada** saadaval. Sel juhul peate valima käsu **Loo** ja seejärel **VII lõpule** ning tegutsema rohkem piiravas protsessis. Seejärel saadetakse vastus pakkumiskutse juhtumi muudatuste kajastamiseks.
 
 Kui hankijad kasutavad pakkumiste sisestamiseks hankija koostöö liidest, peate hankijaid pakkumiskutse juhtumi muudatustest teavitama alati täiendamisprotsessi kaudu. See protsess aitab vältida olukorda, kus hankijad teevad aegunud pakkumiskutsele pakkumise, kui nende pakkumine on veel pooleli. Lisateavet hankija koostöö kohta vt teemast [Hankija koostöö väliste hankijatega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
@@ -174,7 +174,7 @@ Kui soovite kutsuda pakkumist tegema täiendavaid hankijaid ja pakkumiskutse juh
 
 ## <a name="receiving-and-registering-rfq-replies"></a>Pakkumiskutse vastuste vastuvõtmine ja registreerimine
 
-Pakkumiskutse saatmisel luuakse automaatselt vastuseleht. Pakkumiste saamisel pakkumiskutses peate need sisestama lehe **Pakkumiskutse** kaudu, klõpsates tegevusel **Redigeeri pakkumiskutse vastust**. See võimaldab teil sisestada pakkumise teabe spetsiaalsel pakkumise vormil. Alguses on suvandi **Vastuse edenemine** olekuks **Alustamata**. Kui klõpsate valikul **Redigeeri pakkumiskutse vastust** , on edenemise olekuks **Ostja värskendab** kuni pakkumise esitamiseni. Klõpsake **Edasta** , kui olete pakkumise teabe sisestanud. Vastuse edenemisolekuks muutub **Ostja edastatud.** Sarnaselt, kui hankija koostöö on lubatud, värskendatakse suvandit **Vastuse edenemine** , kui hankija käsitleb pakkumist. Olek muutub väärtuselt **Hankija värskendab** väärtusele **Hankija edastatud**. Kui pakkumine on esitatud, luuakse tööleht olekuga **Vastu võetud**. Vastus (pakkumine) peab olema esitatud, et see registreeritaks vastuvõetuks ja alles seejärel saab seda edasi töödelda kinnitatuna või tagasi lükatuna.
+Pakkumiskutse saatmisel luuakse automaatselt vastuseleht. Pakkumiste saamisel pakkumiskutses peate need sisestama lehe **Pakkumiskutse** kaudu, klõpsates tegevusel **Redigeeri pakkumiskutse vastust**. See võimaldab teil sisestada pakkumise teabe spetsiaalsel pakkumise vormil. Alguses on suvandi **Vastuse edenemine** olekuks **Alustamata**. Kui klõpsate valikul **Redigeeri pakkumiskutse vastust**, on edenemise olekuks **Ostja värskendab** kuni pakkumise esitamiseni. Klõpsake **Edasta**, kui olete pakkumise teabe sisestanud. Vastuse edenemisolekuks muutub **Ostja edastatud.** Sarnaselt, kui hankija koostöö on lubatud, värskendatakse suvandit **Vastuse edenemine**, kui hankija käsitleb pakkumist. Olek muutub väärtuselt **Hankija värskendab** väärtusele **Hankija edastatud**. Kui pakkumine on esitatud, luuakse tööleht olekuga **Vastu võetud**. Vastus (pakkumine) peab olema esitatud, et see registreeritaks vastuvõetuks ja alles seejärel saab seda edasi töödelda kinnitatuna või tagasi lükatuna.
 
 Kui soovite pakkumist värskendada, peata läbima sama protsessi, mis on esitatud ülal, ja esitama selle uuesti.
 
@@ -197,7 +197,7 @@ Pakkumise või selle ühe või mitme rea aktsepteerimisel luuakse automaatselt o
 
 Saate vastusele lisada põhjusekoodi, millega selgitada pakkumise aktsepteerimist või tagasilükkamist.
 
-Kui aktsepteerite pakkumise tüübiga **Ostutaotlus** , värskendatakse ostutaotluse ridu järgmise teabega, mis kajastab aktsepteeritud pakkumise teavet:
+Kui aktsepteerite pakkumise tüübiga **Ostutaotlus**, värskendatakse ostutaotluse ridu järgmise teabega, mis kajastab aktsepteeritud pakkumise teavet:
 
 - Ühiku hind
 - Allahindlusprotsent

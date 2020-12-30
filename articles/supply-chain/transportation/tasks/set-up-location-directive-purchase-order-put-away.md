@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016489"
+ms.locfileid: "4426629"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
 
@@ -57,7 +57,7 @@ Selles teemas selgitatakse, kuidas seadistada lihtsat asukohadirektiivi. Toodud 
     - Ühikuna määratud kogus: kogu registreeritud kogus.  
     - Järelejäänud kogus: ostutellimuse realt veel registreeritav kogus.  
     - Oodatav kogus: kogu ostutellimuse real määratud kogus.  
-6. Valige või tühistage valik märkeruudus **Piira ühiku järgi**. Kui valite selle suvandi ja määrate üksuse lehel **Piira ühiku järgi** , saab asukohta panna ainult selle mõõtühikuga üksuseid. Näiteks kui mõõtühikuks on kaubaalused, saab määratud asukohta maha panna ainult kaubaalustel kaupu.  
+6. Valige või tühistage valik märkeruudus **Piira ühiku järgi**. Kui valite selle suvandi ja määrate üksuse lehel **Piira ühiku järgi**, saab asukohta panna ainult selle mõõtühikuga üksuseid. Näiteks kui mõõtühikuks on kaubaalused, saab määratud asukohta maha panna ainult kaubaalustel kaupu.  
 7. Valige või tühistage valik märkeruudus **Luba poolitamine**. See võimaldab korraldusel jaotada koguse mitme asukoha vahel.  
 8. Valige käsk **Salvesta**.
 

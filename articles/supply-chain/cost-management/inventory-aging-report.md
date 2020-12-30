@@ -20,11 +20,11 @@ ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a6e708e4dc818f20fc8d835053da75c2fe9c98f6
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759540"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426239"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Varude ajalise jaotuse aruande näited ja loogika
 
@@ -158,7 +158,7 @@ Pöörake selles näidisaruandes tähelepanu järgmistele üksikasjadele.
 
     - **Laoväärtuse koguse** väärtus on *14* (= 10 + 5 – 5 + 5 – 1).
     - **Laoväärtuse** väärtus on *1283,33* (= 1000 + 375 – 458,33 + 458,33 – 91,67).
-    - **Keskmine ühikukulu**on *91,67*.
+    - **Keskmine ühikukulu** on *91,67*.
     - Igas perioodis arvutatakse väärtused **Laoseisu väärtus** ja **Summa** väärtuse **Keskmine ühikukulu** alusel.
 
 - Aruandes määratletakse iga perioodi laos olev kogus sellel perioodil vastuvõetud varude koguste kokkuliitmise kaudu. Seejärel rakendatakse kogu väljastatud koguse lahutamiseks esimesena sisse, esimesena välja (FIFO) põhimõtet, sõltumata laomudelist, mida kaubad kasutavad.

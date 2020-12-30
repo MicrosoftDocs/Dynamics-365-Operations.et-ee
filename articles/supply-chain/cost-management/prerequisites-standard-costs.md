@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f66f7061c608379689016e3c0b9c5ba4ad23dc9e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214505"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426431"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Standardkulude eeltingimuste ülevaade
 
@@ -44,7 +44,7 @@ Kasutage lehte **Kontoplaan** standardkulude erinevustele vastavate pearaamatuko
 
 **3. Määrake pearaamatukontod kaubasisestustele, mis vastavad standardkulu erinevustele.** 
 
-Kasutage lehte **Sisestamine** standardkulu erinevustele vastavate pearaamatukontode määramiseks. Te saate erinevuste pearaamatukontod määrata kauba (või kaubagrupi) ja kulugrupi (või kulugrupi tüübi) alusel või et pearaamatukonto kohanduks kõigile kaupadele ja kulugruppidele. Need valikud vastavad kulusuhetele tabelites, gruppides ja mõlemas). 
+Kasutage lehte **Sisestamine** standardkulu erinevustele vastavate pearaamatukontode määramiseks. Te saate erinevuste pearaamatukontod määrata kauba (või kaubagrupi) ja kulugrupi (või kulugrupi tüübi) alusel või et pearaamatukonto kohanduks kõigile kaupadele ja kulugruppidele. Need valikud vastavad kulusuhetele tabelites, gruppides ja mõlemas. 
 
 Enne kauba sisestusreeglite määratlemist lubage lehel **Kandekombinatsioonid** kulusuhted (tabelites, gruppides ja mõlemas).
 
@@ -52,7 +52,7 @@ Enne kauba sisestusreeglite määratlemist lubage lehel **Kandekombinatsioonid**
 
 -  Kasutage lehel **Laoarvestuse poliitikate häälestus > Parameetrid** olevat vahekaarti **Laoarvestus**, et määrata kulujuhtimise parameetrid standardkuludele vastavate kahe parameetri määramiseks.
 
-    -  Valige väljalt **Kulujaotus** suvand **Puudub** või **Alammoodul**. Kui teete valiku **Alammoodul**, on kulude jaotamine*aktiivne*. Aktiivse kulu jaotamine on standardkulu kaubad mitmetasemelises tootmisstruktuuris kulugruppide segmentimise arvutamiseks, säilitamiseks ja vaatamiseks kriitiline toiming. Kui kulude jaotamine on aktiivne, saate kaubavaru, pooleliolevat tööd ja kulugrupi kohta müüdud kaupade kulu kinnitada ja analüüsida üksikul tasemel, mitmetasemeliselt või kogu vormingus. Aktiivne kulude jaotamine tähendab seda, et toodetud kauba kulu aktiveerimine põhjustab kulugrupi segmentimise talletamise kauba kulukirjes. 
+    -  Valige väljalt **Kulujaotus** suvand **Puudub** või **Alammoodul**. Kui teete valiku **Alammoodul**, on kulude jaotamine *aktiivne*. Aktiivse kulu jaotamine on standardkulu kaubad mitmetasemelises tootmisstruktuuris kulugruppide segmentimise arvutamiseks, säilitamiseks ja vaatamiseks kriitiline toiming. Kui kulude jaotamine on aktiivne, saate kaubavaru, pooleliolevat tööd ja kulugrupi kohta müüdud kaupade kulu kinnitada ja analüüsida üksikul tasemel, mitmetasemeliselt või kogu vormingus. Aktiivne kulude jaotamine tähendab seda, et toodetud kauba kulu aktiveerimine põhjustab kulugrupi segmentimise talletamise kauba kulukirjes. 
 
     -  Kui teete valiku **Puudub**, ei säilitada standardsete kuluüksuste kulugrupi segmentimist. Teiste sõnadega, toodetud kauba standardkulu arvutatakse ja säilitatakse ühe summana ilma kulugrupi segmentimiseta. Toodetud komponentide kulupanused koondatakse üheks summaks.
 

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3741482"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418140"
 ---
 # <a name="configure-life-event-types"></a>Elusündmuse tüüpide konfigureerimine
 
@@ -79,7 +79,7 @@ Elusündmuse tüübi loomisel saate valida järgmiste elusündmuste seast.
 | **Kohtuga määratud tugi** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuv > Kohtuga määratud tugi (QMSCO/QDRO) ja jõustumise kuupäevad | Automaatseid värskendusi ei käivita. See ei mõjuta sobivust; see registreerib elusündmuse. |
 | **Surnud** | Töötaja > Profiil > Isikuandmed > Surmakuupäev | Sisestatud on surmakuupäev |
 | **Kindlustustõend** | <ul><li>Töötaja > Töötaja > Versioonid > Tööhõive ajalugu > Kuupäevahaldur > Soodustuse üksikasjad</li><li> Töötaja > Tööhõive > Soodustuse üksikasjad > Kinnitamise kuupäev</li></ul> | <ul><li>Töötaja sisestab kontrollimise kuupäeva</li><li>Töötaja seab välja EvidenceOfInsurability väärtusele **Jah**</li></ul> |
-| **Kasusaaja** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid | Isiku kontakt lisatakse ja väljad **Kasusaaja** ja **Kehtivuse algus** on täidetud. Isiklik kontakt peab olema tüübiga **Laps**, **Abikaasa**, **Elukaaslane**, **Õde/vend**, **Perekondlik**, **Muu kontakt**, **Lapsevanem**, **Kasusaav kinnisvara**, **Kasusaav organisatsioon**või **Kasusaav kontsern**. |
+| **Kasusaaja** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid | Isiku kontakt lisatakse ja väljad **Kasusaaja** ja **Kehtivuse algus** on täidetud. Isiklik kontakt peab olema tüübiga **Laps**, **Abikaasa**, **Elukaaslane**, **Õde/vend**, **Perekondlik**, **Muu kontakt**, **Lapsevanem**, **Kasusaav kinnisvara**, **Kasusaav organisatsioon** või **Kasusaav kontsern**. |
 | **Töövõtja ravikindlustus** | Töötaja > Töötaja > Versioonid > Tööhõive ajalugu > Kuupäevahaldur > Soodustuse üksikasjad | <ul><li>Olem **EhrMedicareEligibilityDate** on muudetud</li><li>Olem **MedicareEligibile** on seatud väärtusele **Jah**</li></ul> |
 | **Sünnipäev** | Töötaja > Profiil > Isikuandmed > Isiklikud kontaktid > Sõltuva üksikasjad > Sünnikuupäev | Sünnikuupäev on lisatud või uuendatud (mitte pärast elusündmuse muudatuse töötlemist). Näide: kui lapse **Isikliku kontakti sobivuse valikud** suvandite väärtuseks on seatud Vanus: 26 suvandis Seadistus > Soodustused > Isikliku kontakti sobivuse suvandid ja kui personaliosakonna töötaja käitab elusündmuse muutmise töötluse mis tahes päeval pärast sõltuva 26-aastaseks saamist, kuvatakse neile teade, et sõltuv ei sobi enam katvuseks. |
 | **Töötaja sobivuse muudatus (mitte USA spetsiifiline)** | <ul><li>Töötaja > Tööhõive</li><li>Töötaja > Töötaja > Versioonid > Tööhõive ajalugu</li></ul> | <ul><li>Töövõtja tüüp, Tööhõive kategooria või viis kasutaja poolt määratletavat sobivuse välja muutuvad</li><li>Olem **HcmEmploymentDetail.EhrEmploymentType** muutub (töödeldakse ainult *muudetud* tööhõive üksikasjade kirjete jaoks, ei töödelda *uute* tööhõive kirjete jaoks, nagu uuesti palkamine ja lepingu lõpetamine)</li></ul> |

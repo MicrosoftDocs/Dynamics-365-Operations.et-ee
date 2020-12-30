@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979824"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426456"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Avaldisepiirangud ja tabelipiirangud toote konfiguratsioonimudelites
 
@@ -117,7 +117,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 </ul></td>
 </tr>
 <tr class="even">
-<td>Ja</td>
+<td>ja</td>
 <td>See on tõene ainult juhul, kui kõik tingimused on tõesed. Kui tingimuste arv on 0 (null), on vastus <strong>Tõene</strong>.</td>
 <td>Ja[argumendid], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
@@ -130,7 +130,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 <td>See on tõene, kui mis tahes tingimus on tõene. Kui tingimuste arv on 0 (null), on vastus <strong>Väär</strong>.</td>
 <td>Või[argumendid], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Tehtemärk:</strong> Või[x == 2, y &lt;= 2]</li>
+<li><strong>Tehtemärk:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>Infix-märk:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
@@ -169,7 +169,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 </tr>
 <tr class="even">
 <td>Võimsus</td>
-<td>See võtab astme. See rakendab paremalt vasakule astendamise. (See tähendab parempoolset seost) Seega on avaldis <strong>Aste[a, b, c]</strong> võrdne avaldisega <strong>Aste[a, Aste[b, c]]</strong>. <strong>Astet</strong> saab kasutada ainult siis, kui aste on positiivne konstant.</td>
+<td>See võtab astme. See rakendab paremalt vasakule astendamise. (See tähendab parempoolset seost.) Seega on avaldis <strong>Aste[a, b, c]</strong> võrdne avaldisega <strong>Aste[a, Aste[b, c]]</strong>. <strong>Astet</strong> saab kasutada ainult siis, kui aste on positiivne konstant.</td>
 <td>Aste[argumendid], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Tehtemärk:</strong> Power[x, 2] == y</li>
@@ -177,13 +177,13 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Suurim</td>
+<td>Max</td>
 <td>See annab vastuseks suurima tingimuse. Kui tingimuste arv on 0 (null), on vastus <strong>Lõpmatus</strong>.</td>
 <td>Max[argumendid]</td>
 <td><strong>Tehtemärk:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Väikseim</td>
+<td>Min</td>
 <td>See annab vastuseks vähima tingimuse. Kui tingimuste arv on 0 (null), on vastus <strong>Lõpmatus</strong>.</td>
 <td>Min[argumendid]</td>
 <td><strong>Tehtemärk:</strong> Min[x, y, 2] == z</td>
@@ -193,7 +193,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 <td>See annab vastuseks tingimuse loogilise pöördväärtuse. Sel peab olema täpselt üks tingimus.</td>
 <td>Pole[avaldis], infix: !avaldis</td>
 <td><ul>
-<li><strong>Tehtemärk:</strong> Pole[x] &amp; Pole[y == 3]</li>
+<li><strong>Tehtemärk:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Infix-märk:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>

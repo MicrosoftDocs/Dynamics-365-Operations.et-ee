@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017226"
+ms.locfileid: "4426603"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Koosluse- ja valemiridade lattu väljastamine
 
@@ -46,7 +46,7 @@ Kiiret demonstratsiooni selle kohta, kuidas väljastada koosluse- ja valemiridas
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Koosluse- ja valemiridade väljastamine pakett-töö abil
 
-Pakett-töö **Koosluse- ja valemiridade automaatne väljastamine** liigub läbi valitud koosluse- ja valemiridade, millel on väljastamiseks järelejäänud kogus. Töö võtab arvesse ainult tellimusi, mille olek on **Väljastatud** , **Alustatud** või **Lõpetatuna teatatud**. Kui koosluse- või valemireal on väljastamiseks järelejäänud kogus, väljastab töö kuni koguse, mille saab katta kogusega, mis on juba füüsiliselt reserveeritud, ja kogusega, mis on füüsiliselt saadaval.
+Pakett-töö **Koosluse- ja valemiridade automaatne väljastamine** liigub läbi valitud koosluse- ja valemiridade, millel on väljastamiseks järelejäänud kogus. Töö võtab arvesse ainult tellimusi, mille olek on **Väljastatud**, **Alustatud** või **Lõpetatuna teatatud**. Kui koosluse- või valemireal on väljastamiseks järelejäänud kogus, väljastab töö kuni koguse, mille saab katta kogusega, mis on juba füüsiliselt reserveeritud, ja kogusega, mis on füüsiliselt saadaval.
 
 ### <a name="example-of-a-batch-job-release"></a>Pakett-töö kaudu väljastamise näide
 
@@ -68,7 +68,7 @@ Järgmisel joonisel on kujutatud tootmistellimus, millel on kaks tööd, 10 ja 2
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Materjali väljastamine toimingu numbri järgi või proportsionaalselt lõpetatud kaupade hulgaga.
 
-Kui väljastate käsitsi väljastamise ajal materjale, kasutades parameetrisätet **Tootmistellimuse väljastamisel** , on teil materjali väljastamise juhtimiseks kaks võimalust.
+Kui väljastate käsitsi väljastamise ajal materjale, kasutades parameetrisätet **Tootmistellimuse väljastamisel**, on teil materjali väljastamise juhtimiseks kaks võimalust.
 
 - Materjali väljastamine toimingu numbri järgi.
 - Materjali väljastamine proportsionaalselt lõpetatud kaupade hulgaga.
@@ -77,7 +77,7 @@ Kui väljastate käsitsi väljastamise ajal materjale, kasutades parameetrisäte
 
 Toimingute juhtimiseks, millele tuleb materjali väljastada, kasutage lehte **Lattu väljastamine**.
 
-- Valige suvandid **Tootmise juhtimine** \> **Tootmistellimused** \> **Kõik tootmistellimused** , seejärel valige tootmistellimus ja siis valige vahekaardil **Ladu** suvand **Lattu väljastamine**. Seejärel kasutage välju **Toimingu nr-st** ja **Toimingu nr-ni** , et määrata toimingunumbrite vahemik.
+- Valige suvandid **Tootmise juhtimine** \> **Tootmistellimused** \> **Kõik tootmistellimused**, seejärel valige tootmistellimus ja siis valige vahekaardil **Ladu** suvand **Lattu väljastamine**. Seejärel kasutage välju **Toimingu nr-st** ja **Toimingu nr-ni**, et määrata toimingunumbrite vahemik.
 
 Järgmisel joonisel on kujutatud tootmistellimus, millel on kaks toimingut, 10 ja 20. Kui piirate selles näites väljastamise toiminguga 10, väljastatakse ainult materjal M9203.
 
@@ -89,11 +89,11 @@ Kiiret demonstratsiooni selle kohta, kuidas väljastada materjali proportsionaal
 
 Saate väljastada toormaterjali lõpetatud kaupade osalise koguse jaoks või kindlates ühikutes.
 
-- Toormaterjali väljastamiseks lõpetatud kaupade osalise koguse jaoks valige suvandid **Tootmise juhtimine** \> **Tootmistellimused** \> **Kõik tootmistellimused** , seejärel valige tootmistellimus ja siis valige vahekaardil **Ladu** suvand **Lattu väljastamine**. Seejärel sisestage kogus väljale **Kogus**.
+- Toormaterjali väljastamiseks lõpetatud kaupade osalise koguse jaoks valige suvandid **Tootmise juhtimine** \> **Tootmistellimused** \> **Kõik tootmistellimused**, seejärel valige tootmistellimus ja siis valige vahekaardil **Ladu** suvand **Lattu väljastamine**. Seejärel sisestage kogus väljale **Kogus**.
 
-    Näiteks luuakse tootmistellimus ja kavandatakse 1000 tükki (tk). Tööde juhtimise mooduli järelevaataja planeerib järgmises vahetuses 100 tk tootmist ja soovib väljastada materjale ainult selle vahetuse jaoks. Sel juhul saab ülevaataja kasutada välja **Kogus** , et väljastada 100 tk. materjale, mis on järgmise vahetuse jaoks planeeritud.
+    Näiteks luuakse tootmistellimus ja kavandatakse 1000 tükki (tk). Tööde juhtimise mooduli järelevaataja planeerib järgmises vahetuses 100 tk tootmist ja soovib väljastada materjale ainult selle vahetuse jaoks. Sel juhul saab ülevaataja kasutada välja **Kogus**, et väljastada 100 tk. materjale, mis on järgmise vahetuse jaoks planeeritud.
 
-- Toormaterjali väljastamiseks kindlates ühikutes valige suvandid **Tootmise juhtimine** \> **Tootmistellimused** \> **Kõik tootmistellimused** , seejärel valige tootmistellimus ja siis valige vahekaardil **Ladu** suvand **Lattu väljastamine**. Seejärel kasutage välja **Ühik** , et valida lõpetatud kaupade ühik, milles materjali väljastada.
+- Toormaterjali väljastamiseks kindlates ühikutes valige suvandid **Tootmise juhtimine** \> **Tootmistellimused** \> **Kõik tootmistellimused**, seejärel valige tootmistellimus ja siis valige vahekaardil **Ladu** suvand **Lattu väljastamine**. Seejärel kasutage välja **Ühik**, et valida lõpetatud kaupade ühik, milles materjali väljastada.
 
     Saadaolevad ühikud on määratletud lõpetatud kauba ühiku seeriagrupi ID-s.
 

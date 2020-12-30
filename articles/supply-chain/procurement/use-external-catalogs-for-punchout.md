@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cccd3517f31a82e502052f100e44322ac4cb344f
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018487"
+ms.locfileid: "4426680"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>Väliskataloogide kasutamine e-hanke väljaregistreerimiseks
 
@@ -37,7 +37,7 @@ Väliste kataloogide kasutamiseks peab töötaja looma ostutaotluse lehel **Minu
 
 Töötajat, kes ostutaotluse loob, nimetatakse ostutaotluse koostajaks. Koostajana võite teha järgmised toimingud.
 
-Kasutage reatoimingut **Välised kataloogid** , et avada leht, mis sisaldab kõiki konkreetse nõude esitaja, ostva juriidilise isiku ja vastuvõtva tootmisüksuse puhul saadaolevaid väliseid katalooge.
+Kasutage reatoimingut **Välised kataloogid**, et avada leht, mis sisaldab kõiki konkreetse nõude esitaja, ostva juriidilise isiku ja vastuvõtva tootmisüksuse puhul saadaolevaid väliseid katalooge.
 
 Olenevalt teie õigustest muutke nõude esitajat, ostvat juriidilist isikut ja vastuvõtvat tootmisüksust. Nende väärtuste muutmisel võib muutuda nõude esitajale kättesaadavate väliste kataloogide loend. Saadaolevad välised kataloogid olenevad ostva juriidilise isiku või vastuvõtva tootmisüksuse kehtivatest aktiivsetest ostupoliitikatest. Need poliitikad võivad lubada või keelata juurdepääsu konkreetsetele hankekategooriatele. Seetõttu võib see mõjutada nende hankekategooriatega vastendatud väliste kataloogide loendit.
 
@@ -49,7 +49,7 @@ Poliitikate seadistamise kohta leiate lisateavet jaotisest [Ostupoliitikate üle
 Kui hankekategooriate puhul on mitu valikut, siis valige enne ostutaotlusele ridade lisamist õige hankekategooria.
 Pärast ostutaotlusele ridade lisamist võite lisada veel ridu, väliseid katalooge kasutamata. Teise võimalusena võite jätkata väliste kataloogide kasutamist ridade lisamiseks.
 
-Kui ostutaotlus on valmis, kasutage toimingut **Töövoog** > **Edasta** , et edastada see kinnitamiseks.
+Kui ostutaotlus on valmis, kasutage toimingut **Töövoog** > **Edasta**, et edastada see kinnitamiseks.
 
 ### <a name="additional-resources"></a>Lisaressursid
 

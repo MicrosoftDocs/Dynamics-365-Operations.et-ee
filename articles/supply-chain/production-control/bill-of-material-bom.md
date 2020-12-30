@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b226dd61c758cf17c8e4784ec22d2628145c1836
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985605"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426326"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Kooslused ja valemid
 
@@ -108,7 +108,7 @@ Arvestage, et fiktiivseid üksusi kasutatakse tavaliselt tehnilise protsessi lih
 
 ### <a name="pegged-supply"></a>Kinnistatud tarne
 
-Valige rea tüüp**Kinnistatud tarne**, kui soovite luua alamtootmist, koosluse rea sündmuse kanbani või mõne tootevariandi otsest ostutellimust, millele koosluse rida viitab. Alamtootmine, sündmuse kanban või ostutellimus luuakse tootmistellimuse prognoosimisel. Tarbiva tootmistellimuse jaoks reserveeritakse automaatselt vajalikud kaubakogused.
+Valige rea tüüp **Kinnistatud tarne**, kui soovite luua alamtootmist, koosluse rea sündmuse kanbani või mõne tootevariandi otsest ostutellimust, millele koosluse rida viitab. Alamtootmine, sündmuse kanban või ostutellimus luuakse tootmistellimuse prognoosimisel. Tarbiva tootmistellimuse jaoks reserveeritakse automaatselt vajalikud kaubakogused.
 
 ### <a name="vendor"></a>Hankija
 

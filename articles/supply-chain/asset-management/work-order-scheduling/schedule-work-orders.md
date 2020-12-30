@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888901"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426361"
 ---
 # <a name="schedule-work-orders"></a>Töökäskude plaanimine
 
@@ -88,7 +88,7 @@ Allolevates näidetes on kriitilisuse skoor "2" ja teenindustaseme skoorid on "5
 | WO-00010817   | Kaks päeva alates tänasest   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Kaks päeva alates tänasest   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-Töökäsud ajastatakse järgmises järjekorras: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+Töökäsud ajastatakse järgmises järjekorras: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Näide 2.**
 
@@ -98,7 +98,7 @@ Töökäsud ajastatakse järgmises järjekorras: WO-000108**16**, WO-000108**18*
 | WO-00010817   | Kaks päeva alates tänasest   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Kaks päeva alates tänasest   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Kui teenindustaseme skoor on tõstetud "5" asemel "100" peale, on ajastamise järjekord: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Kui teenindustaseme skoor on tõstetud "5" asemel "100" peale, on ajastamise järjekord: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 Hinnangu skoorid seoses arvutamisega, millised hooldustöötajad peaksid töötama töökäskudega, on kõik seadistatud arvudena, mis lisatakse igale hooldustöötaja arvutusele töökäsu ajastamise käigus. Töökäsule valitakse kõrgeima skooriga hooldustöötaja. Siin on hooldustöötajate skooride lühike kirjeldus.
 

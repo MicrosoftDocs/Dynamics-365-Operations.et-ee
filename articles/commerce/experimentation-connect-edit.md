@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096963"
+ms.locfileid: "4411814"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Eksperimendi ühendamine ja variatsioonide redigeerimine
 
@@ -41,8 +41,8 @@ Enne kui ühendate oma eksperimendi rakenduses Commerce, peate tegema mõne otsu
 
 ### <a name="determine-the-scope-of-your-experiment"></a>Oma eksperimendi ulatuse määratlemine
 Eksperimendi ühendamisel palutakse teil määratleda eksperimendi ulatus. Eksperimentide ulatus võib olla **osaline** või **terve**.
-- Valige **osaline** , kui soovite teha eksperimenti lehe kindla osa põhjal. Selle suvandi valimisel peate määrama, millised moodulid eksperimenti kaasatakse. Eksperimendiga mitteseotud vaikelehe või fragmendi osade muudatused sünkroonitakse automaatselt kõikides variatsioonides.
-- Valige **terve** , kui soovite eksperimendis kasutada tervet lehte või fragmenti. Luuakse vaikelehe või fragmendi eraldi koopiad. Te ei pea valima, millised moodulid on eksperimenti kaasatud, kuna kogu redigeerimispind on muutmiseks saadaval. Saate mooduleid lisada, kustutada või järjekorda seada nii, nagu on vaja. Kui aga muudetakse eksperimendiga seotud vaikelehte või fragmenti, tuleb need muudatused kõigis variatsioonides käsitsi sünkroonida.
+- Valige **osaline**, kui soovite teha eksperimenti lehe kindla osa põhjal. Selle suvandi valimisel peate määrama, millised moodulid eksperimenti kaasatakse. Eksperimendiga mitteseotud vaikelehe või fragmendi osade muudatused sünkroonitakse automaatselt kõikides variatsioonides.
+- Valige **terve**, kui soovite eksperimendis kasutada tervet lehte või fragmenti. Luuakse vaikelehe või fragmendi eraldi koopiad. Te ei pea valima, millised moodulid on eksperimenti kaasatud, kuna kogu redigeerimispind on muutmiseks saadaval. Saate mooduleid lisada, kustutada või järjekorda seada nii, nagu on vaja. Kui aga muudetakse eksperimendiga seotud vaikelehte või fragmenti, tuleb need muudatused kõigis variatsioonides käsitsi sünkroonida.
 
 <!-- not to editors, we're adding an image here to illustrate the difference. it will help.) -->
 
@@ -66,7 +66,7 @@ Oma eksperimendi ühendamise alustamiseks Commerce'i saidiehitajaga, toimige jä
     > Lehe saab korraga ühendada ainult ühe eksperimendiga. Lehe ühendamiseks teise eksperimendiga kustutage esiteks see eksperiment, millega leht on praegu ühendatud.
 
 1. Valige leht või fragment, mida soovite eksperimendis kasutada.
-1. Seadistage eksperimendi ulatus **osaliseks** või **terveks** , lähtudes valikust, mille tegite ülaltoodud jaotises [Oma eksperimendi ulatuse määratlemine](#determine-the-scope-of-your-experiment).
+1. Seadistage eksperimendi ulatus **osaliseks** või **terveks**, lähtudes valikust, mille tegite ülaltoodud jaotises [Oma eksperimendi ulatuse määratlemine](#determine-the-scope-of-your-experiment).
     > [!NOTE]
     > Funktsiooni **Lehtede või fragmentide kasutamine eksperimentides** lipp peab olema lubatud, kui soovite eksperimendis kasutada tervet lehte või fragmenti. Lisateavet leiate teemast [Eksperimenteerimine rakenduses Dynamics 365 Commerce](experimentation-overview.md).
     
@@ -78,13 +78,13 @@ Viisardist väljumisel luuakse teie jaoks variatsioonid.
 Seejärel redigeerige variatsioone nii, et need peegeldaksid valikuid, mida te peate eksperimendi hüpoteesis kontrollima. Valige üks järgmistest meetoditest, mis vastab teie eksperimendi ulatusele, mille valisite ülaltoodud teemas [Oma eksperimendi ulatuse määratlemine](#determine-the-scope-of-your-experiment).
 
 ### <a name="edit-variations-for-experiments-with-partial-scope"></a>Variatsioonide redigeerimine osalise ulatusega eksperimentide puhul
-Kui määrasite viisardis **Eksperimendi ühendamine** oma eksperimendi ulatuseks **osaline** , toimige järgmiselt.
+Kui määrasite viisardis **Eksperimendi ühendamine** oma eksperimendi ulatuseks **osaline**, toimige järgmiselt.
 
 1. Kasutage redaktoris käsuriba all asuvat variatsioonide rippmenüüd, et redigeerida iga variatsiooni oma algse hüpoteesi alusel. Samuti võite tahta luua kontroll- või baasvariatsiooni, jättes ühe variatsiooni muutmata.
 1. Valige moodul, mida eksperimendis kasutada, valige kolmikpunkt (...) ja seejärel valige **Lisa eksperimendile**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Variatsioonide redigeerimine täisulatusega eksperimentide puhul
-Kui määrasite viisardis **Eksperimendi ühendamine** oma eksperimendi ulatuseks **terve** , kasutage käsuriba all olevat variatsioonide rippmenüüd, et redigeerida iga variatsiooni algse hüpoteesi alusel. 
+Kui määrasite viisardis **Eksperimendi ühendamine** oma eksperimendi ulatuseks **terve**, kasutage käsuriba all olevat variatsioonide rippmenüüd, et redigeerida iga variatsiooni algse hüpoteesi alusel. 
 
 > [!NOTE]
 > Mõlemal juhul võite tahta ka luua kontroll- või baasvariatsiooni, jättes ühe variatsiooni muutmata.

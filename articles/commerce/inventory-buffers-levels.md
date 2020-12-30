@@ -16,11 +16,11 @@ ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982596"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411702"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Varude puhvrite ja varude tasemete konfigureerimine
 
@@ -101,7 +101,7 @@ Varude taseme profiilide konfiguratsioonide kanalitega sünkroonimiseks toimige 
 
 ## <a name="configure-an-inventory-buffer"></a>Varude puhvri konfigureerimine
 
-*Varude puhver*on kasutaja määratletud väärtus, mis lahutab kauba täiendava koguse algkogusest, et arvutada välja eeldatav kogus. Eeldatav kogus annab jaemüüjatele ohutu puhvri, et nad ei müüks toodet rohkem kui on tegelikult vaba kaubavaru raames saadaval. Varude puhvri profiili saate konfigureerida tootekategooria tasemel või üksiktoote tasemel. Kui varude puhvrid ei ole täpsustatud, siis kasutatakse vaikeväärtust **0** (null).
+*Varude puhver* on kasutaja määratletud väärtus, mis lahutab kauba täiendava koguse algkogusest, et arvutada välja eeldatav kogus. Eeldatav kogus annab jaemüüjatele ohutu puhvri, et nad ei müüks toodet rohkem kui on tegelikult vaba kaubavaru raames saadaval. Varude puhvri profiili saate konfigureerida tootekategooria tasemel või üksiktoote tasemel. Kui varude puhvrid ei ole täpsustatud, siis kasutatakse vaikeväärtust **0** (null).
 
 Kategooria varude puhvri profiili konfigureerimiseks toimige järgmiselt.
 

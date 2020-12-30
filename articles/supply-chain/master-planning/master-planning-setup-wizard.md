@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213580"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4426388"
 ---
 # <a name="master-planning-setup-wizard"></a>Koondplaneerimise installiviisard
 
@@ -95,7 +95,7 @@ Lisateabe saamiseks lugege teemat [Tööde plaanimine](https://docs.microsoft.co
 
 ## <a name="scheduling-options"></a>Planeerimissuvandid
 
-Leht **Planeerimissuvandid** kuvatakse ainult siis, kui vastate**Jah** küsimusele "Kas te toodate mistahes plaanitud kaupu?" viisardi esimesel lehel.
+Leht **Planeerimissuvandid** kuvatakse ainult siis, kui vastate **Jah** küsimusele "Kas te toodate mistahes plaanitud kaupu?" viisardi esimesel lehel.
 
 Teie vastus esimesele küsimusele sellel lehel („Kas teil on vaja planeerida operatsioone üksikutele töödele?") määratleb lehe **Koondplaanid** vahekaardil **Üldine** planeerimismeetodi.
 

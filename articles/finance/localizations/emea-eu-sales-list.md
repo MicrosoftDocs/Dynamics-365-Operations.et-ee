@@ -18,11 +18,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183610"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407851"
 ---
 # <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
@@ -152,11 +152,11 @@ Kannet peetakse EL-i siseseks kaubanduskandeks, kui kande tarneaadress on EL-i l
 
 ### <a name="generating-the-eu-sales-list-report"></a>EL-i käibearuande loomine
 
-Saate luua aruande **EL-i käibearuanne**, kasutades funktsiooni **Aruandlus**lehel **EL-i käibearuanne**. Selle funktsiooniga saate valida aruandlusperioodi ja rakendada filtreid kaasatavate ESL-i kirjete määratlemiseks. Lisaks saate määrata muid parameetreid, mis on igas riigis/regioonis ainuomased. Saate luua ka eelvaate aruande, elektroonilise faili või mõlemad. Funktsioon **Aruandlus**kasutab aruande ja failivormingu sätteid, mis on määratud lehel **Väliskaubanduse parameetrid**. Üldiselt koosneb **EL-i käibearuanne** eraldi ridadest, mis loetlevad kaupade kogusummad vastaspoole riigi/regiooni, maksukohuslase koodi ja aruandluse tüübi (kaasatud on triangulatsioonkaubanduse kanded) kohta. Pärast konkreetse perioodi kohta **EL-i käibearuande** loomist saate märkida aruandesse kaasatud ESL-i kirjed, seadistades väärtuse **Aruandluse olek** olekuks **Esitatud**. Selle oleku seadistamiseks kasutage funktsiooni **Märgi esitatuks**lehel **EL-i käibearuanne**.
+Saate luua aruande **EL-i käibearuanne**, kasutades funktsiooni **Aruandlus** lehel **EL-i käibearuanne**. Selle funktsiooniga saate valida aruandlusperioodi ja rakendada filtreid kaasatavate ESL-i kirjete määratlemiseks. Lisaks saate määrata muid parameetreid, mis on igas riigis/regioonis ainuomased. Saate luua ka eelvaate aruande, elektroonilise faili või mõlemad. Funktsioon **Aruandlus** kasutab aruande ja failivormingu sätteid, mis on määratud lehel **Väliskaubanduse parameetrid**. Üldiselt koosneb **EL-i käibearuanne** eraldi ridadest, mis loetlevad kaupade kogusummad vastaspoole riigi/regiooni, maksukohuslase koodi ja aruandluse tüübi (kaasatud on triangulatsioonkaubanduse kanded) kohta. Pärast konkreetse perioodi kohta **EL-i käibearuande** loomist saate märkida aruandesse kaasatud ESL-i kirjed, seadistades väärtuse **Aruandluse olek** olekuks **Esitatud**. Selle oleku seadistamiseks kasutage funktsiooni **Märgi esitatuks** lehel **EL-i käibearuanne**.
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>EL-i käibearuande aruandlusperioodi sulgemine
 
-Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksuametnikud on **EL-i käibearuande** kinnitanud), saate märkida ESL-i kirjed, mis on perioodil aruandesse kaasatud, seadistades väärtuse **Aruandluse olek** olekuks **Suletud**. Kasutage selle oleku määramiseks funktsiooni **Märgi suletuks**lehel **EL-i käibearuanne**. Kui ennistate perioodi lõpetamise, saate märkida ESL-i kirjed, seadistades suvandi **Aruandluse olek** väärtuseks **Kaasatud**. Need kirjed saab siis uuesti **EL-i käibearuandesse** lisada. Selle oleku seadistamiseks kasutage funktsiooni **Märgi** **kaasatuks**lehel **EL-i käibearuanne**.
+Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksuametnikud on **EL-i käibearuande** kinnitanud), saate märkida ESL-i kirjed, mis on perioodil aruandesse kaasatud, seadistades väärtuse **Aruandluse olek** olekuks **Suletud**. Kasutage selle oleku määramiseks funktsiooni **Märgi suletuks** lehel **EL-i käibearuanne**. Kui ennistate perioodi lõpetamise, saate märkida ESL-i kirjed, seadistades suvandi **Aruandluse olek** väärtuseks **Kaasatud**. Need kirjed saab siis uuesti **EL-i käibearuandesse** lisada. Selle oleku seadistamiseks kasutage funktsiooni **Märgi** **kaasatuks** lehel **EL-i käibearuanne**.
 
 
 

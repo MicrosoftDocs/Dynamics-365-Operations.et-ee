@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018740"
+ms.locfileid: "4426660"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
@@ -71,7 +71,7 @@ Hankija koostööliidesese kaudu OT-de hinnateabe jagamiseks peate hankija konto
 
 ### <a name="sending-a-po-to-a-vendor"></a>OT saatmine hankijale
 
-Ostutellimused valmistatakse ette Supply Chain Managementis. Kui OT olek on **Kinnitatud** , saate selle hankijale saata, valides lehel **Ostutellimus** tegevuse **Kinnitamiseks saatmine**. Seejärel saab OT olekuks **Välisel ülevaatamisel**. Kui ostutellimus on saadetud, näeb hankija seda hankija koostöö liidese lehel **Ülevaatamist ootavad ostutellimused**. Seejärel võib hankija OT aktseptida, tagasi lükata või sellele muudatusi soovitada. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks. Kui soovite juhtida hankija tähelepanu uuele OT-le, võite prindihalduse süsteemi kasutades OT meiliga saata.
+Ostutellimused valmistatakse ette Supply Chain Managementis. Kui OT olek on **Kinnitatud**, saate selle hankijale saata, valides lehel **Ostutellimus** tegevuse **Kinnitamiseks saatmine**. Seejärel saab OT olekuks **Välisel ülevaatamisel**. Kui ostutellimus on saadetud, näeb hankija seda hankija koostöö liidese lehel **Ülevaatamist ootavad ostutellimused**. Seejärel võib hankija OT aktseptida, tagasi lükata või sellele muudatusi soovitada. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks. Kui soovite juhtida hankija tähelepanu uuele OT-le, võite prindihalduse süsteemi kasutades OT meiliga saata.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>OT kinnitamine ja vastuvõtmine hankijalt
 
@@ -168,7 +168,7 @@ Saate OT-d värskendada, valides vastusel või ühel real korraga tegevuse **Tö
 
 Kõiki soovituslikke muudatusi ei saa ostutellimusel muuta. OT-l saab automaatselt teha ainult päise värskendusi ning kuupäevade ja koguste värskendusi ridadel. Teiste muudatuste puhul tuleb ostutellimust käsitsi uuendada. Sel juhul on välja **Kas ostutellimuse värskendus on töödeldud?** väärtus **Käsitsi värskendamine**. Näiteks kui hankija soovib, et rida tükeldataks graafikuks, tuleb see muudatus teha käsitsi.
 
-Iga olekuga **Aktsepteeritud** rea tarnekuupäev on kinnitatud. Kui käitate tegevuse **Töötle ostutellimuse värskendust** , värskendatakse OT-l seda kuupäeva. Märkusi ja manuseid ei edastata automaatselt praegusse OT-sse. Peale selle ei hinnata ümber kaubandusleppeid OT ridadel, kui värskendate praegust OT-d toiminguga **Töötle ostutellimuse värskendust**.
+Iga olekuga **Aktsepteeritud** rea tarnekuupäev on kinnitatud. Kui käitate tegevuse **Töötle ostutellimuse värskendust**, värskendatakse OT-l seda kuupäeva. Märkusi ja manuseid ei edastata automaatselt praegusse OT-sse. Peale selle ei hinnata ümber kaubandusleppeid OT ridadel, kui värskendate praegust OT-d toiminguga **Töötle ostutellimuse värskendust**.
 
 ## <a name="po-statuses-and-versions"></a>Ostutellimuse olekud ja versioonid
 
@@ -185,7 +185,7 @@ Järgmises tabelis on näide oleku ja versiooni muudatuste kohta, mida ostutelli
 | Hankija saadab vastuse **Aktsepteeritud koos muudatustega** | Olek on ikka **Välisel ülevaatamisel**. |
 | Teete mõningaid hankija soovitud muudatusi. | Olekuks saab **Kinnitatud**. |
 | Saadate ostutellimuse uue versiooni hankijale. | Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**. |
-| Hankija aktsepteerib ostutellimuse uue versiooni. | Olek on endiselt **Välisel ülevaatamisel** , välja arvatud juhul, kui hankija konto konfigureeritakse OT-sid automaatselt olekusse **Kinnitatud** määrama, kui hankija need aktseptib. |
+| Hankija aktsepteerib ostutellimuse uue versiooni. | Olek on endiselt **Välisel ülevaatamisel**, välja arvatud juhul, kui hankija konto konfigureeritakse OT-sid automaatselt olekusse **Kinnitatud** määrama, kui hankija need aktseptib. |
 
 Hankijad ei pea OT-d hankija koostööliidese kaudu kinnitama. Nad võivad saata ka meili või teatada ostutellimuse vastuvõtmisest muude kanalite kaudu. Seejärel saate tellimuse käsitsi kinnitada. Sellisel juhul saate hoiatuse, et tellimus on kinnitatud, kuigi hankijalt puudub vastus. Seejärel kuvatakse ostutellimus kinnitusajaloos avatud kinnitatud tellimusena, millel puuduvad vastused. Nüüd pole hankijal enam võimalik ostutellimust kinnitada ega tagasi lükata.
 
@@ -201,12 +201,12 @@ Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimuss
 | Tegevus | Olek ja versioon |
 |--------|--------------------|
 | Ostutellimuse algne versioon luuakse rakenduses Supply Chain Management. | Olek on **Mustand**. |
-| Ostutellimus esitatakse kinnitusprotsessile. (Kinnitusprotsess on sisemine protsess, millesse hankija pole kaasatud.) | Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine** , kui ostutellimust kinnitamisprotsessi ajal tagasi ei lükata. Kinnitatud ostutellimus registreeritakse versioonina. | 
+| Ostutellimus esitatakse kinnitusprotsessile. (Kinnitusprotsess on sisemine protsess, millesse hankija pole kaasatud.) | Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine**, kui ostutellimust kinnitamisprotsessi ajal tagasi ei lükata. Kinnitatud ostutellimus registreeritakse versioonina. | 
 | Ostutellimus saadetakse hankijale. | Versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**. |
 | Vastuseks teete OT värskendamiseks muudatusi, mida hankija soovis, kas käsitsi või kasutades tegevust **Töötle ostutellimuse värskendust**. | Olekuks määratakse uuesti **Mustand**. |
-| Ostutellimus esitatakse uuesti kinnitusprotsessile. | Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine** , kui ostutellimust kinnitamisprotsessi ajal tagasi ei lükata. Teise võimalusena saab süsteemi konfigureerida nii, et konkreetsete välja muudatuste jaoks ei ole vaja uuesti kinnitamist. Sellisel juhul määratakse olekuks kõigepealt **Mustand** ja seejärel automaatselt **Kinnitatud**. Kinnitatud ostutellimus registreeritakse uue versioonina. |
+| Ostutellimus esitatakse uuesti kinnitusprotsessile. | Olek **Mustand** muutub olekuks **Ülevaatamisel** ja siis olekuks **Kinnitamine**, kui ostutellimust kinnitamisprotsessi ajal tagasi ei lükata. Teise võimalusena saab süsteemi konfigureerida nii, et konkreetsete välja muudatuste jaoks ei ole vaja uuesti kinnitamist. Sellisel juhul määratakse olekuks kõigepealt **Mustand** ja seejärel automaatselt **Kinnitatud**. Kinnitatud ostutellimus registreeritakse uue versioonina. |
 | Saadate ostutellimuse uue versiooni hankijale. | Uus versioon registreeritakse hankija koostöö liideses ja olekuks muudetakse **Välisel ülevaatamisel**. |
-| Hankija kinnitab ostutellimuse uue versiooni. | Olekuks määratakse **Kinnitatud** , kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse. |
+| Hankija kinnitab ostutellimuse uue versiooni. | Olekuks määratakse **Kinnitatud**, kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse. |
 
 ## <a name="sharing-information-about-consignment-inventory"></a>Veose varude kohta teabe jagamine
 

@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017824"
+ms.locfileid: "4426593"
 ---
 # <a name="put-to-wall---put-to-store"></a>Pane seinale – pane kauplusesse
 
@@ -40,7 +40,7 @@ Enne funktsiooni *Pane seinale – pane kauplusesse* kasutamist peab funktsioon 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Väljamineku sortimine*
 
-Funktsiooni *Väljamineku sortimine* saab kasutada koos funktsiooniga *Organisatsiooniülene vooetapi kood* , kui see on sisse lülitatud. Samuti peate selle funktsiooni sisse lülitama, kui kasutate eelmääratletud koode, mis seadistatakse vooetapi koodides. Tööruumis **Funktsioonihaldus** loetletakse seda funktsiooni järgneval viisil.
+Funktsiooni *Väljamineku sortimine* saab kasutada koos funktsiooniga *Organisatsiooniülene vooetapi kood*, kui see on sisse lülitatud. Samuti peate selle funktsiooni sisse lülitama, kui kasutate eelmääratletud koode, mis seadistatakse vooetapi koodides. Tööruumis **Funktsioonihaldus** loetletakse seda funktsiooni järgneval viisil.
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Organisatsiooniülene vooetapi kood*
@@ -52,7 +52,7 @@ Selle demo puhul kasutatakse standardseid Contoso andmeid ja ladu *62*. Samuti k
 ### <a name="location-type"></a>Asukoha tüüp
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Ladu \> Asukoha tüübid**.
-1. Valige toimingupaanil **Uus** , et luua asukoha tüüp sortimiseks.
+1. Valige toimingupaanil **Uus**, et luua asukoha tüüp sortimiseks.
 1. Määrake järgmised väärtused.
 
     - **Asukoha tüüp:** *SORTIMINE*
@@ -69,7 +69,7 @@ Selle demo puhul kasutatakse standardseid Contoso andmeid ja ladu *62*. Samuti k
 ### <a name="location-profile"></a>Asukohaprofiil
 
 1. Minge asukohta **Laohaldus \> Seadistus \> Ladu \> Asukohaprofiilid**.
-1. Valige toimingupaanil **Uus** , et luua asukohaprofiil sortimise asukoha jaoks.
+1. Valige toimingupaanil **Uus**, et luua asukohaprofiil sortimise asukoha jaoks.
 1. Määrake päises järgmised väärtused.
 
     - **Asukohaprofiili ID:** *Sortimine*
@@ -113,7 +113,7 @@ Selle demo puhul kasutatakse standardseid Contoso andmeid ja ladu *62*. Samuti k
 
 ### <a name="wave-step-codes"></a>Vooetapi koodid
 
-Kui lülitasite sisse funktsiooni *Organisatsiooniülene vooetapi kood* , seadistage järgmine kood.
+Kui lülitasite sisse funktsiooni *Organisatsiooniülene vooetapi kood*, seadistage järgmine kood.
 
 1. Avage jaotis **Laohaldus \> Seadistus \> Vood \> Vooetapi koodid**.
 1. Valige toimingupaanil **Uus** ja seejärel seadke järgmised väärtused.
@@ -156,7 +156,7 @@ Sortimismall juhib seda, kas sortimise asukohad luuakse, milliseid kriteeriume k
 
     - **Loo töö asukoha sulgemisel:** *Jah*
 
-        Kui selle suvandi väärtuseks on seatud *Jah* , kui asukoht on suletud, luuakse töö varude lõppsihtkohta teisaldamiseks. Kui väärtuseks on seatud *Ei* , komplekteeritakse varud asukoha sulgemisel kohe tellimusele.
+        Kui selle suvandi väärtuseks on seatud *Jah*, kui asukoht on suletud, luuakse töö varude lõppsihtkohta teisaldamiseks. Kui väärtuseks on seatud *Ei*, komplekteeritakse varud asukoha sulgemisel kohe tellimusele.
 
     - **Asukoha määramine:** *Käsitsi*
 
@@ -178,7 +178,7 @@ Sortimismall juhib seda, kas sortimise asukohad luuakse, milliseid kriteeriume k
 
     - **Sortimise asukoha automaatne sulgemine:** *Jah*
 
-        Selle suvandi väärtuseks on seatud *Jah* , suletakse sortimise asukoht automaatselt, kui kõik asukohta tulevad tööd on lõpule viidud.
+        Selle suvandi väärtuseks on seatud *Jah*, suletakse sortimise asukoht automaatselt, kui kõik asukohta tulevad tööd on lõpule viidud.
 
     - **Sortimise asukohtade arv:** *3*
 
@@ -190,14 +190,14 @@ Sortimismall juhib seda, kas sortimise asukohad luuakse, milliseid kriteeriume k
 
     - **Sortimise asukoha automaatne pakkimine:** *Jah*
 
-        Kui selle suvandi väärtuseks on määratud *Jah* , pakitakse sortimise asukoha varud konteinerisse, kui asukoht on suletud.
+        Kui selle suvandi väärtuseks on määratud *Jah*, pakitakse sortimise asukoha varud konteinerisse, kui asukoht on suletud.
 
     - **Pakkimisprofiili ID:** *Sortimine*
 
         See väli määratsel pakkimisprofiili, mida kasutatakse, kui sortimise asukoht pakitakse konteinerisse.
 
 1. Valige toimingupaanil **Redigeeri päringut** selle sortimismalli puhul kasutatavate kriteeriumide määramiseks.
-1. Valige päringu dialoogiboksis vahekaardil **Sortimine** suvand **Uus** , et lisada rida ja määrake siis järgmised väärtused.
+1. Valige päringu dialoogiboksis vahekaardil **Sortimine** suvand **Uus**, et lisada rida ja määrake siis järgmised väärtused.
 
     - **Tabel:** *Koormuse üksikasjad*
     - **Tuletatud tabel:** *Koormuse üksikasjad*
@@ -210,7 +210,7 @@ Sortimismall juhib seda, kas sortimise asukohad luuakse, milliseid kriteeriume k
     Toimingupaani nupp **Väljamineku sortimismalli piirid** muutub kättesaadavaks.
 
 1. Valige toimingupaanil **Väljamineku sortimismalli piirid**.
-1. Märkige ruut **Grupeeri välja alusel** , et grupeerida saadetise ID alusel.
+1. Märkige ruut **Grupeeri välja alusel**, et grupeerida saadetise ID alusel.
 
     Selle sättega luuakse üks sortimise asukoht saadetise kohta, milleks on voos olev konteiner.
 
@@ -293,20 +293,20 @@ Pärast sortimise lõpule viimist loodud töö suunamiseks peate looma asukohako
     - **Korralduse kood:** jätke see väli tühjaks.
     - **Mitu SKU-d:** *Ei*
 
-1. Valige **Salvesta** , et muuta kiirkaart **Read** kättesaadavaks.
+1. Valige **Salvesta**, et muuta kiirkaart **Read** kättesaadavaks.
 1. Valige kiirkaardil **Read** suvand **Uus** ja seejärel seadke järgmised väärtused. Võtke vastu kõigi teiste väljade vaikeväärtused.
 
     - **Järjekorranumber:** *1*
     - **Alates kogusest:** *0*
     - **Koguseni:** *1000000*
 
-1. Valige **Salvesta** , et muuta kiirkaart **Asukohakorralduse toimingud** kättesaadavaks.
+1. Valige **Salvesta**, et muuta kiirkaart **Asukohakorralduse toimingud** kättesaadavaks.
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** ja seejärel seadke järgmised väärtused. Võtke vastu kõigi teiste väljade vaikeväärtused.
 
     - **Järjekorranumber:** *1*
     - **Nimi:** *Baydoor*
 
-1. Valige **Salvesta** , et muuta kiirkaardi **Asukohakorralduse toimingud** nupp **Päringu redigeerimine** kättesaadavaks.
+1. Valige **Salvesta**, et muuta kiirkaardi **Asukohakorralduse toimingud** nupp **Päringu redigeerimine** kättesaadavaks.
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Päringu redigeerimine**.
 1. Otsige päringu dialoogiboksi vahekaardil **Vahemik** üles rida, kus välja **Väli** väärtuseks on seatud *Asukoht*. Määrake selle rea välja **Kriteeriumid** väärtuseks *Baydoor*.
 1. Valige redigeerimise kinnitamiseks **OK**.
@@ -330,7 +330,7 @@ Pärast sortimise lõpule viimist loodud töö suunamiseks peate looma asukohako
 1. Valige ruudustikus töömall **62 pakkimiseks komplekteerimine**.
 1. Valige toimingupaanilt suvand **Tööpäise piirid**.
 1. Valige Toimingupaanil nupp **Redigeeri**.
-1. Tühjendage real, kus välja **Välja nimi** väärtuseks on seatud *Saadetise ID* , märkeruut **Grupeeri selle välja alusel**.
+1. Tühjendage real, kus välja **Välja nimi** väärtuseks on seatud *Saadetise ID*, märkeruut **Grupeeri selle välja alusel**.
 1. Valige **Salvesta** ja seejärel sulgege dialoogiboks **Tööpäise piirid**.
 1. Valige väljal **Töökäsu tüüp** suvand *Sorditud varude komplekteerimine*.
 1. Valige töömalli loomiseks **Uus**.
@@ -339,17 +339,17 @@ Pärast sortimise lõpule viimist loodud töö suunamiseks peate looma asukohako
     - **Töömall:** *Sorditud komplekteerimine*
     - **Töömalli kirjeldus:** *Sorditud komplekteerimine*
 
-1. Valige **Salvesta** , et muuta jaotis **Töömalli üksikasjad** kättesaadavaks.
+1. Valige **Salvesta**, et muuta jaotis **Töömalli üksikasjad** kättesaadavaks.
 1. Loote kaks rida jaotises **Töömalli üksikasjad**. Valige **Uus** ja seejärel seadke järgmised väärtused 1. rea jaoks.
 
     - **Töö tüüp:** *Komplekteerimine*
-    - **Kohustuslik:** valitud (= *Jah* )
+    - **Kohustuslik:** valitud (= *Jah*)
     - **Töö klassi ID:** *Sortimine*
 
 1. Valige **Uus** uuesti ja seejärel seadke järgmised väärtused 2. rea jaoks.
 
     - **Töö tüüp:** *Ladustamine*
-    - **Kohustuslik:** valitud (= *Jah* )
+    - **Kohustuslik:** valitud (= *Jah*)
     - **Töö klassi ID:** *Sortimine*
 
 1. Valige käsk **Salvesta**.
@@ -379,7 +379,7 @@ Enne müügitellimuste ja saadetiste loomist veenduge, et komplekteerimise asuko
     - **Kauba kood:** *A0001*
     - **Kogus:** *5*
 
-1. Valige **Lisa rida** , et lisada teine rida ja seadke järgmised väärtused.
+1. Valige **Lisa rida**, et lisada teine rida ja seadke järgmised väärtused.
 
     - **Kauba kood:** *A0002*
     - **Kogus:** *10*
@@ -402,7 +402,7 @@ Enne müügitellimuste ja saadetiste loomist veenduge, et komplekteerimise asuko
     - **Kauba kood:** *A0001*
     - **Kogus:** *7*
 
-1. Valige **Lisa rida** , et lisada teine rida ja seadke järgmised väärtused.
+1. Valige **Lisa rida**, et lisada teine rida ja seadke järgmised väärtused.
 
     - **Kauba kood:** *A0002*
     - **Kogus:** *3*
@@ -449,7 +449,7 @@ Viige lõpule järgmine protseduur, et vabastada kõik müügitellimused lattu. 
 
     Voo töötlemisel kasutab sortimise meetod sortimismalli varude määrmiseks sortimise asukohtadesse. Kui voo töötlemine on lõpule viidud, kuvatakse teabesõnum, mis teatab, et voog on sisestatud ja töö on loodud.
 
-1. Valige toimingupaani vahekaardi **Voog** grupis **Seotud teave** suvand **Töö** , et kuvada loodud tööd. Märkige üles töö ID.
+1. Valige toimingupaani vahekaardi **Voog** grupis **Seotud teave** suvand **Töö**, et kuvada loodud tööd. Märkige üles töö ID.
 1. Avage jaotis **Laohaldus \> Pakkimine ja konteinerisse määramine \> Väljamineku sortimise asukoha määramised**.
 1. Vasakpoolses veerus saate kuvada iga saadetise jaoks loodud väljamineku sortimise asukohta.
 1. Kiirkaardil **Sortimise asukoha kriteeriumid** saate kuvada selle asukoha saadetise ID-d.
@@ -472,7 +472,7 @@ Loodi üks töö ID, et teisaldada varud komplekteerimise asukohtadest sortimise
 
 1. Kinnitage kirje.
 
-    Mobiilirakendus esitab nüüd lehtede kogumi **Komplekteerimine** , mis suunavad teid komplekteerimise asukohta ning komplekteerimiseks vajalikule kaubale ja kogusele. Pärast komplekteeritud kauba identifitseerimisnumbrile lisamist peate kinnitama komplekteerimise töö. Viimane leht on töö komplekteeritud kaupade panemiseks sortimise asukohta.
+    Mobiilirakendus esitab nüüd lehtede kogumi **Komplekteerimine**, mis suunavad teid komplekteerimise asukohta ning komplekteerimiseks vajalikule kaubale ja kogusele. Pärast komplekteeritud kauba identifitseerimisnumbrile lisamist peate kinnitama komplekteerimise töö. Viimane leht on töö komplekteeritud kaupade panemiseks sortimise asukohta.
 
 1. Kinnitage esimene komplekteerimise töö.
 1. Kuvatakse järgmine komplekteerimise töö. Kinnitage komplekteerimine.
@@ -489,12 +489,12 @@ Kui kõik varud on pandud sortimise asukohta, tuleb need sortida õigesse sortim
 
 1. Logige mobiilirakendusse sisse.
 1. Valige peamenüüs suvand **Väljaminev**.
-1. Valige menüüs **Väljaminev** suvand **Sortimine** , et alustada kaupade sortimist.
+1. Valige menüüs **Väljaminev** suvand **Sortimine**, et alustada kaupade sortimist.
 1. Sisestage väljale **LP/CON** komplekteeritud müügitellimuse töö sihtidentifitseerimisnumber.
 1. Kinnitage kirje.
 1. Sisestage esimesena sorditava kauba kood.
 1. Süsteem määratleb esimese sortimise asukoha, mida tuleks kuvada. Kinnitage sortimise asukoht.
-1. Teil palutakse määrata identifitseerimisnumber sortimise asukohale. Valige väli **LP** , sisestage identifitseerimisnumbr ja kinnitage kirje.
+1. Teil palutakse määrata identifitseerimisnumber sortimise asukohale. Valige väli **LP**, sisestage identifitseerimisnumbr ja kinnitage kirje.
 
     Kuna sortimise asukoht on seostatud saadetise ID-ga, sordite komplekteeritud kaubad väljaminevale saadetisele ja müügitellimusele omasele identifitseerimisnumbrile.
 
@@ -509,7 +509,7 @@ Kui kõik varud on pandud sortimise asukohta, tuleb need sortida õigesse sortim
     > [!NOTE]
     > Kui automaatne sortimine on sisse lülitatud, ei ole käsitsi alistamine saadaval.
 
-1. Kui olete lõpetanud, avage rakenduses Microsoft Dynamics 365 Supply Chain Management leht **Väljamineku sortimise asukoha määramised** , et vaadata üle asukohtade olek.
+1. Kui olete lõpetanud, avage rakenduses Microsoft Dynamics 365 Supply Chain Management leht **Väljamineku sortimise asukoha määramised**, et vaadata üle asukohtade olek.
 
     - Kui asukohad suletakse automaatselt, valige **Kuva suletud** suletud asukohtade kuvamiseks.
     - Pange tähele, et kuvataksesortimise asukoha kanded. Kuvatakse asukoha kaudu töödeldud kaup ja kogus.

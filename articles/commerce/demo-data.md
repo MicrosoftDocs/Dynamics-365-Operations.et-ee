@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014882"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4411830"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Demoandmete ekraanipaigutused kaasaegses kassas (MPOS) ja pilve kassas
 
@@ -64,6 +64,7 @@ Ekraanipaigutuse ID võib sisaldada kuni 10 märki. ID on string, mis koosneb ko
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Põhiversioon, mis toetab mitut ekraanisuurust eri seadmete ja kuvasuhete jaoks |
 | 3.1            | Põhiversioon, mis hõlmab paneeli **Soovitatud tooted** täiendavat tuge        |
+| 4              | Laiendatud Fabrikami värskendatud paigutuse laiendatud versioon                                  |
 
 ### <a name="persona"></a>Isik
 
@@ -75,9 +76,9 @@ Ekraanipaigutuse ID võib sisaldada kuni 10 märki. ID on string, mis koosneb ko
 
 ### <a name="example-layout"></a>Näidispaigutus
 
-Siin on ettevõtte Fabrikam ekraanipaigutuse ID, paigutuse 3. versiooni ja kaupluse juhataja isiku näide.
+Siin on ettevõtte Fabrikam ekraanipaigutuse ID, paigutuse 4. versiooni ja kaupluse juhataja isiku näide.
 
-F3MGR
+F4MGR
 
 Järgmisel joonisel on Fabrikami kaupluse juhataja tervitusekraani näide.
 
@@ -89,8 +90,8 @@ Järgmisel joonisel on Fabrikami kaupluse juhataja tervitusekraani näide.
 
 Ekraanipaigutus võib sisaldada ka nii täis- kui ka kompaktseadmete konfiguratsioone. Seetõttu saab kasutaja ühele ekraanipaigutusele, mis töötab kaupluses mitmesuguste suuruse ja vormi tegurite lõikes.
 
-- **Modern POS – täispaigutus** : täispaigutused sobivad tavaliselt kõige paremini suurematele ekraanidele, näiteks lauaarvuti kuvaritele või tahvelarvutitele. Kasutajad saavad valida paigutuses saadaolevaid kasutajaliidese elemente, määrata elementide suuruse ja paigutuse ning konfigureerida nende üksikasjalikke atribuute. Täispaigutused toetavad nii vertikaal- kui ka horisontaalkonfiguratsioone.
-- **Modern POS – kompaktne** : kompaktsed paigutused sobivad tavaliselt kõige paremini telefonidele või väikestele tahvelarvutitele. Kompaktsete seadmete puhul on kujundusvõimalused piiratud. Kasutajad saavad konfigureerida sissetuleku ja kogusummade paani veerge ja välju.
+- **Modern POS – täispaigutus**: täispaigutused sobivad tavaliselt kõige paremini suurematele ekraanidele, näiteks lauaarvuti kuvaritele või tahvelarvutitele. Kasutajad saavad valida paigutuses saadaolevaid kasutajaliidese elemente, määrata elementide suuruse ja paigutuse ning konfigureerida nende üksikasjalikke atribuute. Täispaigutused toetavad nii vertikaal- kui ka horisontaalkonfiguratsioone.
+- **Modern POS – kompaktne**: kompaktsed paigutused sobivad tavaliselt kõige paremini telefonidele või väikestele tahvelarvutitele. Kompaktsete seadmete puhul on kujundusvõimalused piiratud. Kasutajad saavad konfigureerida sissetuleku ja kogusummade paani veerge ja välju.
 
 ### <a name="screen-resolutions-that-are-provided"></a>Saadaolevad ekraani eraldusvõimed
 
@@ -103,6 +104,7 @@ Järgmine tabel näitab paigutuste suurusi, mis on saadaval ekraani tüüpiliste
 | Täielik\*      | 1280 × 720 | 16 : 9         | Tahvelarvutid                 |
 | Täielik        | 1366 × 768 | 16 : 9         | Tahvelarvutid, suuremad ekraanid |
 | Täielik        | 1440 × 960 | 3 : 2          | Tahvelarvutid, suuremad ekraanid |
+| Täielik\*      | 1536 × 864 | 16 : 9         | Tahvelarvutid, suuremad ekraanid |
 
 \*Need täiendavad suurused on saadaval ainult Adventure Worksi ja Fabrikami paigutustes.
 
@@ -120,7 +122,7 @@ Iga fiktiivne ettevõte sihib eri jaemüügisegmenti ja hõlmab tootekatalooge, 
 | Ettevõte         | Koht | Segment        | Rõhuvärv | Kujundus |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Sporditarbed | Sinine   | Tume  |
-| Fabrikam        | Houston  | Mood        | Roheline  | Hele |
+| Fabrikam        | San Francisco  | Mood        | Roheline  | Hele |
 | Contoso         | Boston   | Elektroonika    | Punane    | Tume  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Ekraanipaigutuste jaoks on lisatud kasutajad. Järgmise tabeli abil peaksite saa
 | Adventure Works | A3MGR            | Kaupluse juhataja | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Kassapidaja       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Kaupade väljapanija   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Kaupluse juhataja | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Kaupluse juhataja | 000160, 000713         |
 | Fabrikam        | F3CSH            | Kassapidaja       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Kaupade väljapanija   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Kaupluse juhataja | 000100, 000111         |

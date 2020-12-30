@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017066"
+ms.locfileid: "4426574"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Täiendamine tagastamiskanbanitega
 
@@ -54,7 +54,7 @@ Selles stsenaariumis tarbib tootmisprotsess (4) materjali toodangu sisestuskohas
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Laotöö konfigureerimine kanbani komplekteerimiseks väljavõtmise kanbani jaoks
 
-Väljavõtmise kanbani jaoks toormaterjali komplekteerimise lubamiseks tuleb konfigureerida voomallid, töömallid ja asukohakorraldused töötellimuse tüübiga **Kanbani komplekteerimine**. See töötellimuse tüüp ei toeta ainult väljavõtmise kanbani komplekteerimisprotsessi. See toetab ka tootmise kanbani komplekteerimisprotsessi. Kuid iga kanbani tüübi jaoks saab konfigureerida eraldi komplekteerimisprotsessi, eraldades voomallid, töömallid ja asukohadirektiivid. Voomallide, töömallide ja asukohadirektiivide eraldamiseks määrake nende üksuste päringutes kriteeriumid tegevuse tüübile ( **Töötlemine** või **Üleviimine** ).
+Väljavõtmise kanbani jaoks toormaterjali komplekteerimise lubamiseks tuleb konfigureerida voomallid, töömallid ja asukohakorraldused töötellimuse tüübiga **Kanbani komplekteerimine**. See töötellimuse tüüp ei toeta ainult väljavõtmise kanbani komplekteerimisprotsessi. See toetab ka tootmise kanbani komplekteerimisprotsessi. Kuid iga kanbani tüübi jaoks saab konfigureerida eraldi komplekteerimisprotsessi, eraldades voomallid, töömallid ja asukohadirektiivid. Voomallide, töömallide ja asukohadirektiivide eraldamiseks määrake nende üksuste päringutes kriteeriumid tegevuse tüübile (**Töötlemine** või **Üleviimine**).
 
 ## <a name="configure-the-withdrawal-kanban"></a>Väljavõtmise kanbani konfigureerimine
 
