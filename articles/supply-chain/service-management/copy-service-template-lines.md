@@ -60,3 +60,6 @@ Hooldusmalli read koos seostatud hooldusobjekti ja hooldustoimingu seostega on n
 [Hooldusmallid](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

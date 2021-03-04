@@ -40,3 +40,6 @@ Lehel **Vara atribuudi ülevaade** kuvatakse iga vara kohta eraldi rida. Real ku
 3. Valige nupp **OK**. Loendis kuvatakse kõik varad, mis kasutavad valitud vara tüüpi. Iga vara puhul kuvatakse kõik seotud vara atribuutide tüübid samal real.
 
 Lehel **Vara atribuut** kuvatakse iga vara tüübi kohta eraldi rida, mida kasutatakse vara puhul. Valige **Varahaldus**\>**Päringud**\>**Varad**\>**Vara atribuut**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

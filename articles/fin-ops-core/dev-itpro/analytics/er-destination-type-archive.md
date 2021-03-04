@@ -57,3 +57,6 @@ Kui dokumenditüübi asukohaks on määratud **Azure'i salvestusruum**, saate fa
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 - [Dokumendihalduse konfigureerimine](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

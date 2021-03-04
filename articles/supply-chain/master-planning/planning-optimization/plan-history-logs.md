@@ -47,3 +47,6 @@ Lisaks tööde algusaja ja oleku nägemisele saate vaadata konkreetse töö logi
 [Plaanile filtrite rakendamine](plan-filters.md)
 
 [Planeerimistöö tühistamine](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Toote arvustuste loendi moodul sisaldab pesa, kus saate lisada hinnangute histog
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

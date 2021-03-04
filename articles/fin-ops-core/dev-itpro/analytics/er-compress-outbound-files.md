@@ -94,3 +94,6 @@ Enne selles teemas kirjeldatud toimingute tegemist peavad järgmised sammud lõp
 [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 
 [Elektroonilise aruandluse vormingus XML-elementide käivitamise edasilükkamine](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

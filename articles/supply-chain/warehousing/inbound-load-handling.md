@@ -478,3 +478,6 @@ Selle stsenaariumi korral registreerib vastuvõtuametnik koguse, mis ületab koo
     - **Kogus** – sisestage väärtus _7_, mis on järelejäänud kogus, mille hankija saab tarnida osana kogu ostutellimuse kogusest 12 (milles 10 on algne tellimuse kogus ja 2 on 20 protsenti lubatud ületarne kogusest). Pidage meeles, et 5 tk on juba registreeritud esimese koorma järgi.
 
 Teist koormat on nüüd värskendatud kogusele 7 ja toote sissetulekut võidakse värskendada selle koguse põhjal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

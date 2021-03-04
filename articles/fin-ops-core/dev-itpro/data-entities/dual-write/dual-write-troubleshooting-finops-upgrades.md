@@ -91,3 +91,6 @@ Kui probleem endiselt ei lahene, toimige järgmiselt.
 4. Avage rakenduse Finance and Operations lehel **Topeltkirjutus** leht **Tabeli vastendamine**.
 5. Kui atribuuti ei asustata kaardil automaatselt, lisage see käsitsi, klõpsates nuppu **Lisa atribuut** ja seejärel käsku **Salvesta**. 
 6. Valige kaart ja klõpsake käsku **Käita**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

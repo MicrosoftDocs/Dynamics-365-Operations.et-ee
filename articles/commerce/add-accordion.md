@@ -87,3 +87,6 @@ KKK lehele akordionmooduli lisamiseks ja selle atribuutide seadistamiseks saidie
 [Vahekaardimoodul](add-tab.md)
 
 [Tekstiploki moodul](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

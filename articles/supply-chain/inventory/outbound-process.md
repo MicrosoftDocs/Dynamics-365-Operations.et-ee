@@ -85,3 +85,6 @@ Veel reserveerimata kaubavaru reserveeritakse komplekteerimislehe koostamise kä
 Kohe, kui kõik komplekteerimisread on lehel **Komplekteerimislehe registreerimine** komplekteeritud, lõpetatakse seotud saadetis. Müügitellimuse saatelehtede protsessi saab siis komplekteeritud varude põhjal lähtestada.
 
 [![Väljuvate saadetiste värskendamine](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

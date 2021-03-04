@@ -127,3 +127,6 @@ V채rv kuvatakse ainult Gantti diagrammi madalaimal tasemel. Koondplaneerimise t�
 1. Valige ruudustikus rida, kus v채li **V채li** on m채채ratud 체ksusele **Kaubakood**.
 1. Sisestage v채ljal **Kriteeriumid** v채채rtus.
 1. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

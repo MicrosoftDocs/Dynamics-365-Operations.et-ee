@@ -207,3 +207,6 @@ Alussätete importimiseks Microsoft SharePoint Serverisse salvestatud XML-failis
 
 - [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md)
 - [Tegevuse salvestaja ressursid](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -143,3 +143,6 @@ Laovarude grupi kalendri puhul on oluline arvestada, et sellel on seoses koondpl
 
 ### <a name="updating-scm-related-calendars"></a>SCM-iga seotud kalendrite värskendamine
 On küll oluline määrata kõik asjaomased kalendrid vastavasse kohta (hankija, klient, ladu, tarneviis või laovarude grupp), kuid samavõrra tähtis on neid värskendada muudatuste kajastamiseks. Süsteem määratleb tootmis-, üleviimis-, ostu- ja müügitellimuste kuupäevad määratud kalendrite kombinatsiooni põhjal. Hea tava on selgitada, kes vastutab oma valdkonna kalendrite määramise ja värskendamise eest. Liigenduse või mis tahes muu ebatavalise muudatuse korral tööpäevades on oluline selle kohaselt kalendreid värskendada. Kõik kalendritest sõltuvad ülesanded, nagu koondplaneerimine ja tootmisgraafiku koostamine, tuleb pärast kalendrite värskendamist uuesti käivitada. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ J채rgmises m체체gikuubis olevaid p천hidimensioone kasutatakse filtritena koondm�
 | Kuup채evad            | Kuup채evad                                                |
 
 Vaikimisi n채itab sisu jooksva kalendriaasta andmeid. Kuid kuup채evafiltrit saab muuta aruande filtrite jaotises. Saate muuta ka ettev천tte filtrit.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

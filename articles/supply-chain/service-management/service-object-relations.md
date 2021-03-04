@@ -78,3 +78,6 @@ Ligipääs koosluse koostajale hooldusobjekti seost kasutades
 
 Hooldusleppele automaatselt hooldustellimuste loomisel liiguvad ka lepete hooldusobjekti seosed loodud hooldustellimustesse.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

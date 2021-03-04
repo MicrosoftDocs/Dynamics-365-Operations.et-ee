@@ -64,3 +64,6 @@ Järgmine tabel näitab kokkuvõtet tingimustest, mida peaksite tundma, kui muud
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
 
 [Saidil navigeerimise kohandamine](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

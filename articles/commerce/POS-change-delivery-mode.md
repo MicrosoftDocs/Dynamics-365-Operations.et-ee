@@ -47,3 +47,6 @@ Pärast uue tarnerežiimi valimist kuvatakse kandeleht. Uute tarnerežiimi valik
 [Kõnekeskuse tellimuste loomine](tasks/create-call-center-orders.md)
 
 [Kandemeilide kohandamine tarneviisi järgi](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

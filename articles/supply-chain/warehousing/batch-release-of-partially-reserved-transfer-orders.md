@@ -64,3 +64,6 @@ Parameeter **Kogus** määrab, kas partiina tuleks väljastada terve kogus või 
 -   Parameetrite **Kogus** ja **Luba osaliselt väljastatud tellimuste väljastamine** määramiseks üleviimistellimustele klõpsake valikuid **Laohaldus** \> **Lattu väljastamine** \> **Üleviimistellimuste automaatne väljastamine**.
 
 -   Parameetrite **Kogus** ja **Luba osaliselt väljastatud tellimuste väljastamine** määramiseks müügitellimustele klõpsake valikuid **Laohaldus** \> **Lattu väljastamine** \> **Müügitellimuste automaatne väljastamine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

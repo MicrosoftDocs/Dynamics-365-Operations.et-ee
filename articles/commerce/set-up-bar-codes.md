@@ -47,3 +47,6 @@ Vöötkoode saate luua käsitsi või automaatselt. Vöötkoodide loomiseks tehke
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Vöötkoodi maskide häälestamine](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

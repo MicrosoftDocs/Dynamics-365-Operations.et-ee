@@ -98,3 +98,5 @@ Järgige neid etappe iga selle stsenaariumi jaoks loodud müügitellimuse välja
 
 - [Saadetise konsolideerimispoliitikad](about-shipment-consolidation-policies.md)
 - [Saadetise konsolideerimispoliitikate konfigureerimine](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

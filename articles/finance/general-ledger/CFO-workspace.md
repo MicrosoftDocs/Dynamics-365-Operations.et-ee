@@ -56,3 +56,6 @@ Selles teemas selgitatakse, kuidas lisada pearaamatupidaja tööruumi finantsdim
 16. Looge projekt ja seejärel avage tulemuste vaatamiseks rakendus.
 
     [![Valmis tööruum](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

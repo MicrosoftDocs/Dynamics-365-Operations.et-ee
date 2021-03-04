@@ -92,3 +92,6 @@ Protseduuri teise andmekogumiga käitamise eeltingimus on aktiivse valemi ja pro
 12. Sulgege leht.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

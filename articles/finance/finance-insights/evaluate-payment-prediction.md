@@ -101,3 +101,6 @@ Lisateavet prognooside mudelite hindamise kohta vt teemast [Masinõppemudelite t
 
 #### <a name="privacy-notice"></a>Privaatsusavaldus
 Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

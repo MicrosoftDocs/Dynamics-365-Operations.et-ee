@@ -111,3 +111,6 @@ Tootmise planeerija plaanib materjalinõudeid valemi kaastoodete kaupade puhul. 
 19. Valige väljal Keela kõik planeerimisprotsessid suvand Ei.
 20. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

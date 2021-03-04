@@ -227,3 +227,6 @@ Kui valite eelarvevajaduste vähendamise meetodiks **Kanded – planeerimise koe
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Koondplaanide ülevaade](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

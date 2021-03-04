@@ -105,3 +105,6 @@ Töölehe tagasivõtmise võimalus töövoos, mille olek on „taastamatu”, on
 
 ## <a name="delete-journal-lines"></a>Kustuta töölehe read
 Kõigi töölehe ridade kiire kustutamise võimalus on lubatud töölehe jaotises **Funktsioonid** > **Kustuta töölehe read**. Selle funktsiooni lubamiseks valige lehel **Funktsioonihaldus** käsk **Kustuta töölehe jõudluse optimeerimised**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

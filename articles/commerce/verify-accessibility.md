@@ -85,3 +85,6 @@ Integreeritud teenuse [Microsoft Accessibility Insights](https://accessibilityin
 [Tootelehe rikastamine](enrich-product-page.md)
 
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

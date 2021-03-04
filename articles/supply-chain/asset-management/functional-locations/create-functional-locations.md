@@ -132,3 +132,6 @@ Töö asukohta koos alamasukohtadega saab kustutada, kui ühtegi kustutavasse t�
 
 >[!NOTE]
 >Kui te ei saa töö asukohta kustutada, saate selle asemel kustutamiseks seadistada töö asukoha töötsükli oleku. Näiteks saate seadistada etapi "Mahakantud" või "Kustutatud", mis ei tohiks olla aktiivne etapp vormil **Töö asukoha töötsükli olekud**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

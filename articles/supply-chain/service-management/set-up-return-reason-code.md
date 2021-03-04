@@ -63,3 +63,6 @@ See protseduur aitab teil seadistada põhjusekoodid, mille abil saate näidata, 
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

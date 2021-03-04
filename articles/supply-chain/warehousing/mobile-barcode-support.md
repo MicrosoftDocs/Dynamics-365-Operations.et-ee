@@ -35,3 +35,6 @@ Dynamics 365 Supply Chain Management – laorakendust on katsetatud valiku Andro
 
 Enne kui otsustate, millist riistvara osta, soovitame teil testida lao skannimisrakendust valitud riistvaraga testida.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

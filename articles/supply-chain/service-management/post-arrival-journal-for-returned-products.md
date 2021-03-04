@@ -58,3 +58,6 @@ Pärast töölehe sisestamist registreeritakse tagastatud kaubad varudesse ja vo
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

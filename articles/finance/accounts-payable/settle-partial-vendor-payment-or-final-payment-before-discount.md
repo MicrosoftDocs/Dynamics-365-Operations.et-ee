@@ -142,3 +142,6 @@ April sisestab maksetöölehe ja vaatab üle hankija kanded lehel **Hankija kand
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

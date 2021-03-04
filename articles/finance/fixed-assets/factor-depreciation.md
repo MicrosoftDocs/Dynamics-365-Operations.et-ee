@@ -79,3 +79,6 @@ Välja **Tegur** väärtus võrdub **50**. Sellisel juhul on kulum igal perioodi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

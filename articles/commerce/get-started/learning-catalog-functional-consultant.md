@@ -55,3 +55,6 @@ Koolitused, milles käsitletakse funktsioone, mis on ka teistes Finance and Oper
 | Sisu  | Kirjeldus | Vorming  | Pikkus    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [E-kaubanduse konfigureerimine ja sellega töötamine Dynamics 365 Commerce'is](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Võrgukanalid ja Dynamics 365 Commerce'i e-kaubanduse sait võimaldavad jaemüüjatel oma kaubamärki internetis esindada. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

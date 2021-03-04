@@ -329,3 +329,6 @@ Suvandi **Optimeerimiskatsete ajalõpp** väärtus määrab, mitu sekundit saab 
 
 > [!NOTE]
 > Ajalõppudele määratud väärtusi rakendatakse MRP osana nii väljastatud tootmistellimuste kui ka plaanitud tellimuste ajastamisel. Selle tulemusena võivad väga kõrged väärtused MRP käitusaega oluliselt pikendada, kui käitatakse paljude plaanitud tootmistellimustega plaani.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

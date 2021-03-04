@@ -54,3 +54,6 @@ See protseduur kirjeldab keskuse lisade koondandmete loomist ja nende koondandme
 9. Klõpsake nuppu Salvesta.
 10. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

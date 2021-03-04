@@ -122,3 +122,6 @@ See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

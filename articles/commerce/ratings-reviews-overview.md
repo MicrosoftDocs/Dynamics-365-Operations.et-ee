@@ -59,3 +59,6 @@ Hinnangute ja arvustuste lahendus pakub ka ärianalüüsi (BI) malli, mis sisald
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

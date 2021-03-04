@@ -62,3 +62,6 @@ Saate tööpakkumise lõpetada kujul **Ametikoht on täidetud** pärast seda, ku
    > Saate tööpakkumise lõpetada vaid kujul **Ametikoht on täidetud**, kui vähemalt üks potentsiaalne töötaja on pakkumise etapi lõpule viinud. Kui tööle kandideerimisel ei ole valitud **Pakkumine vastu võetud** või kui avalduses pole pakkumise olekuks **Vastu võetud**, ei kuvata **Ametikoht on täidetud** suvandit ripploendis **Põhjus**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

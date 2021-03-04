@@ -109,3 +109,6 @@ Pärast eelmääratud paigutuse muudatuste vaatamist järgige üht alltoodud eta
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
 
 [Mallidega töötamine](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

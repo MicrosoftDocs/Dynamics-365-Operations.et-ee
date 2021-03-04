@@ -45,3 +45,6 @@ Lisateavet leiate jaotisest [Varade soetamine hankega](acquire-assets-procuremen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

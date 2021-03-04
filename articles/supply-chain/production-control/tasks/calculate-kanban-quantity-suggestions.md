@@ -85,3 +85,6 @@ See protseduur keskendub kanban-suuruse ja koguste optimeerimisele konkreetse ka
     * Pange tähele, et see on fikseeritud kanban-kogus 4 kanban-koguse arvutamisest.  
 5. Klõpsake vahekaarti ListPanel.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

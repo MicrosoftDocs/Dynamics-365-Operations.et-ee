@@ -249,3 +249,6 @@ Kui näiteks peate oma aruande päises esitama maksude väärtuste summa, saate 
 - [Vormingu konfigureerimine loendamiseks ja liitmiseks](./tasks/er-format-counting-summing-1.md)
 - [ER-vormingu täitmise jälitus jõudluse probleemide tõrkeotsinguks](trace-execution-er-troubleshoot-perf.md)
 - [XML-elementide käivitamise edasilükkamine ER-vormingus](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

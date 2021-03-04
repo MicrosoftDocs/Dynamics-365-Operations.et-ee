@@ -45,3 +45,6 @@ Enne selle protseduuri kasutamist veenduge, et loodud on vähemalt üks rendilep
 
 8. Töövoo peatamiseks valige lehel **Töövoo ajalugu** käsk **Tühista**. Sisestage kuvatavasse dialoogiaknasse kommentaar ja seejärel valige **OK**.
 9. Töövoo desaktiveerimiseks või eelnevalt loodud töövoo aktiveerimiseks avage jaotis **Vara rentimine \> Seadistamine \> Rendi töövoog**. Seejärel valige lehel **Tendi töövoog** jaotis **Töövoog \> Versioonid**. Praeguse töövoo passiivseks muutmiseks valige rendilepingu versiooni dialoogiaknas aktiivne rendileping ja seejärel valige **Muuda passiivseks**. Olemasoleva töövoo aktiivseks muutmiseks valige töövoog ja seejärel valige käsk **Muuda aktiivseks**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

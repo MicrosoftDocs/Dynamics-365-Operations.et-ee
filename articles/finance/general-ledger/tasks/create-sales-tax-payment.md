@@ -37,3 +37,6 @@ Käibemaksu tasakaalustamise ja sisestamise töö toiming tasakaalustab käibema
 5. Sisestage kuupäev väljale **Kande kuupäev**.
 6. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -148,3 +148,6 @@ Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

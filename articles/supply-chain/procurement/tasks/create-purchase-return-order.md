@@ -68,3 +68,6 @@ See protseduur näitab, kuidas koostada ostu tagastustellimust, kasutades kreedi
 4. Sisestage väärtus väljale **Toote sissetulek**. Seda välja kasutatakse viite sisestamiseks, mida kasutatakse toote sissetuleku töölehe kandena.  
 5. Klõpsake valikut **OK**. Kaup on nüüd ostu tagastustellimusel saadetuks registreeritud ja loodud on toote sissetuleku tööleht. Saate kasutada toimingut Toote sissetulek ostutellimuse juurde loodud töölehtede ülevaatamiseks, et näha, mis millal vastu võeti või tagastati.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

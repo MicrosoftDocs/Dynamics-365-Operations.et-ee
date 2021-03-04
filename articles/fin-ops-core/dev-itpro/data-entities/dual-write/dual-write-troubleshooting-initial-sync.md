@@ -211,3 +211,6 @@ Kui kliendi üksuses on read, mille väljad **ContactPersonID** ja **InvoiceAcco
     Ridade esmane sünkroonimine on nüüd lõpule viidud.
 
 8. Lülitage rakenduses Finance and Operations üksuse **Kliendid V3** muudatuste jälgimine tagasi sisse.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

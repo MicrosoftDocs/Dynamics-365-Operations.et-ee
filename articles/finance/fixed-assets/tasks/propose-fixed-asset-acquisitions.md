@@ -43,3 +43,6 @@ See protseduur näitab, kuidas soetada põhivara, kasutades põhivara töölehe 
 - Soetussoovitusse kaasatakse ainult põhivarad, mille soetamiskuupäev ja soetusmaksumus on raamatus seadistatud.  
 11. Looge raamatud lehel **Raamatud**.
 12. Valige **Sisesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

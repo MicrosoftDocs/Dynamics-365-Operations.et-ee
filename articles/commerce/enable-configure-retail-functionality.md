@@ -69,3 +69,6 @@ Pärast lähtestamise lõpule viimist peate konfigureerima täiendavad kaubandus
 - Kaubanduse kanalid
 - Registrid ja seadmed
 - Sortimendid
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

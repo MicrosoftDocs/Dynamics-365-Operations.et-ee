@@ -46,3 +46,6 @@ Seega saate luua eraldi eelarved summakonto intervalli olulisimate kandekontode 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

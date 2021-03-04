@@ -141,3 +141,6 @@ Kui kinnitaja taotleb dokumendi muutmist, saadetakse dokument tagasi algatajale.
 Näiteks Sam on esitanud kuluaruande väärtuses USD 12 000 ja see dokument on määratud Suele. Kui Sue soovib muutmist, saadetakse kuluaruanne tagasi Samile.
 
 Sam saab kuluaruande uuesti esitada. Ta võib teha esmalt soovitud muudatused või edastada uuesti kuluaruande algse versiooni. Kui Sam taasesitab kuluaruande, saadetakse see Frankile kinnitamiseks, sest Frank on selle kinnitamisprotsessi esimene kinnitaja.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

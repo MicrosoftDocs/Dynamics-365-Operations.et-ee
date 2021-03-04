@@ -57,3 +57,6 @@ Ligipääsmatute ER-mallidega seotud probleemide lahendamiseks järgige järgmis
 Sarnane probleem võib tekkida juhul, kui migreerite oma rakenduse eksemplari muude asukohta, mida on kasutatud migratsiooni sihtkohana enam kui üks kord ning mille kohta on bloobimälus juba ER-malli failid olemas.
 
 Kuna teil võib olla mitu ER-vormingu konfiguratsiooni, võib see protsess olla aeganõudev. Seega tuleks katkiste viidetega mallide automaatseks taastamiseks eelistada [ER-mallide varundusfunktsiooni](er-backup-storage-templates.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -243,3 +243,6 @@ Alus lisatakse vormingule **Vorming elektroonilise aruandluse aluste õppimiseks
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Elektroonilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

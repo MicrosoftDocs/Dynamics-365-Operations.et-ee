@@ -84,3 +84,6 @@ Saate konfigureerida põhjusekoode nii, et need on põhivara muudatuste või kin
 Viimasena saate vahekaardil **Numbriseeriad** määratleda põhivarade numbriseeriad. **Põhivara** numbriseeria saab tühistada üksuse **Põhivaragrupp** numbriseeriaga, kui see on määratud.
 
 Lisateavet leiate teemast [Põhivara loomine](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

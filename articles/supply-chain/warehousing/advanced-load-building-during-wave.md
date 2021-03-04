@@ -250,3 +250,6 @@ Selles stsenaariumis näidatakse, kuidas selles teemas eelnevalt kirjeldatud sä
 1. Valige äsja loodud müügitellimuses kiirkaardil **Müügitellimuse read** suvand **Lisa rida**, et lisada teine rida.
 1. Määrake uue rea välja **Kaubakood** väärtuseks *M9200*, välja **Kogus** väärtuseks *1*.
 1. Korrake ridu 6–9 rea reserveerimiseks ja lattu vabastamiseks. Nagu eelnevalt, loob süsteem teie lisatud reale **uue** saadetise. Kuid kuna kaup pärineb kaubagrupist **CarAudio**, ei **läbi see koormuse segagrupile määratud piiranguid**. Seetõttu **lisatakse see uuele koormusele**. Kui te pole koormuse loomise mallis määranud koormuse segagruppi, oleks see saadetis lisatud esimesele koormusele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

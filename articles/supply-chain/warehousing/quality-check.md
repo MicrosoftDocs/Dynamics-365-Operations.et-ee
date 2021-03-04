@@ -397,3 +397,6 @@ Selle stsenaariumi võetakse kaubaalus 3 vastu.
 1. Valige lehe ülaosas nupp Menüü (**≡**) ja seejärel tehke menüüsse naasmiseks valik **Tühista**.
 
 Nüüd saate mobiilirakenduse sulgeda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

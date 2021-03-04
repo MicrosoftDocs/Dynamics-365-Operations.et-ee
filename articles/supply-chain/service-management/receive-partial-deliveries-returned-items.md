@@ -51,3 +51,6 @@ Kui tagastussaadetise kogus on väiksem kui tagastustellimuse rea täiskogus, sa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

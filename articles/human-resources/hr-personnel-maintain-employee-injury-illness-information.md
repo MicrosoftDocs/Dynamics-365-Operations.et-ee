@@ -93,3 +93,6 @@ Soovitatav on esmalt järgida ülesande juhendit „Vigastuse ja haiguse hääle
 36. Klõpsake nuppu Salvesta.
     * Juhtumi olekut saab igal ajal värskendada.  Määrake juhtum pooleliolevaks, kui vigastuse või haiguse käsitlemine on pooleli.  Pärast juhtumi sulgemist saate ainult lisada ja eemaldada juhtumiga seotud kulusid, raviandmeid või sissekandeid.  Muu teabe muutmiseks avage juhtum uuesti.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

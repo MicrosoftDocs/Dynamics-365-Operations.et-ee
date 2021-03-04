@@ -41,3 +41,6 @@ Selles teemas selgitatakse, kuidas luua viitvõlaskeeme. See ülesanne kasutab d
 10. Väljale **Juhtumite arv perioodide kaupa** sisestage arv.
 11. Väljal **Sisesta kanded** valige, millal kandeid peaks postitama, näiteks **Iga kuu**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

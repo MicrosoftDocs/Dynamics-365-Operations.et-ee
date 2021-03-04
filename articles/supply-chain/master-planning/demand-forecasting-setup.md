@@ -102,3 +102,6 @@ Vahekaardil **Eraldamise võtmed** saate igale kauba eraldamisvõtmele seada **P
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

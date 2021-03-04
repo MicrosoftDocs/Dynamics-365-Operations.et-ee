@@ -117,3 +117,6 @@ Kui kavatsete kasutada seda meetodit suure hulga kandeandmete jaoks, peate võtm
 [ER-i funktsioon FIRSTORNULL](er-functions-list-firstornull.md)
 
 [ER-i funktsioon WHERE](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

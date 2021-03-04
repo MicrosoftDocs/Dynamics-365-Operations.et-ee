@@ -97,3 +97,6 @@ Järgmises näites on näha, kuidas saada loend kordumatutest kliendi kontonumbr
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

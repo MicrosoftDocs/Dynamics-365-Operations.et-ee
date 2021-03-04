@@ -85,3 +85,6 @@ Keskkonna taastamiseks tehke järgmist.
 
 > [!Warning]
 > Power Appsi keskkondi salvestatakse ainult seitse päeva pärast kustutamist. Peate taastama keskkonna seitsme päeva jooksul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

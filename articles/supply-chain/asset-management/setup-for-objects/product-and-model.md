@@ -60,3 +60,6 @@ Selles teemas selgitatakse, kuidas seadistada varade tootjaid ja seotud mudeleid
 2. Veerus **Vara** valige vara link. Kuvatakse leht **Üksikasjad**.
 3. Valige suvand **Redigeeri**.
 4. Kiirkaardil **Üldine** valige väärtused väljadel **Tootja** ja **Mudel**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Olemasolevad konfiguratsioonid jäävad konfiguratsioonireeglite hilisemal muutm
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

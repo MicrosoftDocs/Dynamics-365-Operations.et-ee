@@ -89,3 +89,6 @@ Kõigi hoolduskatkestuste registreeringute ülevaate vaatamiseks valige **Varaha
 >[!NOTE]
 >Kõik moodulis **Varahaldus** kasutatud kalendrid seadistatakse jaotises **Organisatsiooni haldus** > **Seadistus** > **Kalendrid** > **Kalendrid**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

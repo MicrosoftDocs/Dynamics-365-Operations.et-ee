@@ -131,3 +131,6 @@ See stsenaarium näitab, kuidas funktsioon töötab ladude puhul, kus on seatud 
 
 > [!NOTE]
 > Sama tulemus eeldatakse teise rea osalisel reserveerimisel. Sel juhul luuakse töö reserveeritud rea koguse jaoks, kuid mitte reserveerimata koguse jaoks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

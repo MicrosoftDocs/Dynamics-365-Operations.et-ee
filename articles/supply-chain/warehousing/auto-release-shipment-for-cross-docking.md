@@ -179,3 +179,6 @@ Pange tähele, et toimuvad järgmised sündmused:
 - Lattu vabastamine käivitatakse lingitud müügitellimuse puhul.
 - Vabastamise põhjal luuakse saadetis ja ristlaadimistöö. See töö käsib laooperaatoril komplekteerida müügitellimuse rea täitmiseks vajalikud kogused ja panna need väljaminevasse asukohta, mis on määratud ristlaadimise asukohakorralduses.
 - Kui tootmistellimuse kogus on suurem kui müügitellimuse nõutav kogus, luuakse tavapärane paigutustöö. See töö teeb laooperaatorile ülesandeks komplekteerida lõpetatud kaupade kogus, mis jääb järele pärast ristlaadimist ja teisaldada see tavalisse lattu vastavalt asukohakorraldusele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

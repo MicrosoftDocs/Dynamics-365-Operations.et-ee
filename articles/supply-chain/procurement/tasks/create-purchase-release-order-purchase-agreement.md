@@ -59,3 +59,6 @@ See protseduur selgitab, kuidas kasutada ostulepingut ostutellimuse loomisel. Os
 3. Sulgege leht.
 4. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

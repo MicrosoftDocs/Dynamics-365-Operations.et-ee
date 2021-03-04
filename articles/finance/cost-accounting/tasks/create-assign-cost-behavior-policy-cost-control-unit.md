@@ -86,3 +86,6 @@ Kulukäitumine on kulude liigitamine fikseerituks või muutuvaks. Poliitika ja v
 15. Sisestage või valige väärtus väljal Kulu juhtseade.
 16. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

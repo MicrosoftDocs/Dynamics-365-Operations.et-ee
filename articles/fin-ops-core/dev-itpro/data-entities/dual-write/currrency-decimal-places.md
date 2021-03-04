@@ -95,3 +95,6 @@ Kui teil on vaja, et konkreetse valuuta täpsus erineks hinnakujunduses kasutata
 ### <a name="tables-currency-field"></a>tabelid: valuutaväli
 
 Kindlate valuutaväljade jaoks konfigureeritav maksimaalne kümnendkohtade arv on neli.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

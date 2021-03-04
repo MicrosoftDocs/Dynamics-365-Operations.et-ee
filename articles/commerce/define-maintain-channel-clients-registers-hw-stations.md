@@ -205,3 +205,6 @@ Aktiveerimist puudutav lisateave hõlmab töötajat, kes seadme aktiveerimisolek
 ### <a name="client-data-synchronization"></a>Kliendi andmete sünkroonimine
 
 Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga avage **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**  ja käivitage vajalik jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud **Registrid** ja **Kanali konfiguratsioon**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

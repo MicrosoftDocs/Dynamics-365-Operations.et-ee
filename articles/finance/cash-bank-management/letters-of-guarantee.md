@@ -65,3 +65,6 @@ Lisateavet vt järgmistest teemadest:
 [Pangateenuste ja garantiikirjade sisestusreeglite seadistamine](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

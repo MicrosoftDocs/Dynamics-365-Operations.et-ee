@@ -128,3 +128,6 @@ Valides kassarakenduses **Kande suvandid \> Tasud \> Tasude haldamine** saate va
 [Omnikanali täpsemad automaatsed kulud](omni-auto-charges.md)
 
 [Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

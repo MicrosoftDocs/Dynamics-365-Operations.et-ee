@@ -114,3 +114,6 @@ Järgmistes teemades kirjeldatakse tulu tuvastamise erinevaid stsenaariume.
 - [Tulu tuvastamise ümberjaotamine – 2. stsenaarium](rev-rec-reallocation-scenario-2.md) – sisestatakse kaks müügitellimust ja seejärel lisab klient pärast esimese müügitellimuse arveldamist lepingule kauba.
 - [Tulu tuvastamise ümberjaotamine – 3. stsenaarium](rev-rec-reallocation-scenario-3.md) – olemasolevale arveldatud müügitellimusele lisatakse uus rida.
 - [Tulu tuvastamise ümberjaotamine – 4. stsenaarium](rev-rec-reallocation-scenario-4.md) – olemasolevalt osaliselt arveldatud müügitellimuselt eemaldatakse rida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

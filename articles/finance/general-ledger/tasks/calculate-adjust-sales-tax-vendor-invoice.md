@@ -44,3 +44,6 @@ Selles teemas selgitatakse, kuidas kohandada müügimaksu tarnija arvel. Kui alg
 13. Valige nupp **OK**.
 14. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

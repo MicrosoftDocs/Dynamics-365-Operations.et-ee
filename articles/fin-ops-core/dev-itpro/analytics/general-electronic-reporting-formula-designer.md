@@ -164,3 +164,6 @@ Osasid valemeid ei saa kujundamise ajal testida. Näiteks võib valem tagastada 
 
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse valemi keel](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

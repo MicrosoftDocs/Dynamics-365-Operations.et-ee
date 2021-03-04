@@ -53,3 +53,6 @@ See protseduur näitab, kuidas rakendada müügitellimusel tootele konfiguratsio
 
 ## <a name="select-the-product-configuration"></a>Valige toote konfiguratsioon.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Järgmine näide illustreerib kanali allahindluse seadistamiseks vajalikke toimi
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hinnakorrigeerimised ja allahindlused](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

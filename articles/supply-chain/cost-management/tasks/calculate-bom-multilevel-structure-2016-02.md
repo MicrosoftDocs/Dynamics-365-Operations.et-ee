@@ -49,3 +49,6 @@ See protseduur näitab, kuidas arvutada lõpetatud toote kulu, kasutades kuluarv
 11. Sulgege leht.
 12. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

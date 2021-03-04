@@ -104,3 +104,6 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

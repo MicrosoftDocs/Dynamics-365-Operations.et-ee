@@ -88,3 +88,6 @@ Töö analüüsi aruanded kuvavad andmeid valitud töö kohta. Analüüsi keskus
 ## <a name="export-to-excel"></a>Excelisse eksportimine
 
 Aruande andmete Excelis vaatamiseks klõpsake menüüs Suvandid (kolm punkti) visuaalil ja valige **Alusandmete eksportimine.** Eksporditud andmed eksporditakse filtreeritud kujul, austades kasutaja õigusi Attractis. Lisateavet vt teemast [Andmete eksportimine visualiseeringutest](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -259,3 +259,6 @@ Kasutaja, kes pakkumiskutse protsessi parameetreid määrab, saab luua mitu meil
 - %createddate%
 
 Kui parandus on vajalik ja saadetakse pärast pakkumiskutse saatmist, saadetakse pakkumiskutse kõigile kutsutud hankijatele uuesti. Samuti uuendatakse avaldatud dokumenti lehel **Avaldatud pakkumiskutsete avamine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

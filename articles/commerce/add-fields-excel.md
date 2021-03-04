@@ -55,3 +55,6 @@ Uus väli ja andmed peaksid nüüd olema Excelis redigeerimiseks saadaval.
 [Jaemüügikannete finantsdimensioonide redigeerimine](edit-financial-dim.md)
 
 [Exceli töövihiku loomine jaemüügikannete redigeerimiseks](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

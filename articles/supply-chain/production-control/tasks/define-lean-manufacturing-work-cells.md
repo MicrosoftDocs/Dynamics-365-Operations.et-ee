@@ -100,3 +100,6 @@ Töörakk on konkreetne ressursigruppide vorm, mida saab lean manufacturingi pro
 ## <a name="save"></a>Salvesta
 1. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

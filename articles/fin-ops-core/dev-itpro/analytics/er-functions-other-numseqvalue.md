@@ -105,3 +105,6 @@ Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria **Gene\_1** uu
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Muud (ettevõtte domeenipõhised) funktsioonid](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

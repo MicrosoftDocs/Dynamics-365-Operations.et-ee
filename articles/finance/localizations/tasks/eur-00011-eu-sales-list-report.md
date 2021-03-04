@@ -101,3 +101,6 @@ See protseduur on mõeldud raamatupidajatele.
 7. Klõpsake nuppu OK.
 8. Valige väljal Valik väärtus Suletud.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

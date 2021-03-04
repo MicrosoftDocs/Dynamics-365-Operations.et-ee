@@ -113,3 +113,6 @@ Vormi **Saabumise ülevaade** kasutamise alternatiivina võite kasutada vormi **
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

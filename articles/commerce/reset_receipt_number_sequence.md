@@ -68,3 +68,6 @@ Tulevaste lähtestamise kuupäevade tühjendamiseks saate kasutada funktsiooni *
 
 > [!NOTE]
 > Olenevalt teie valitud lähtestamise kuupäevast ja kviitungi vormingust, võivad esineda kviitungi numbrite duplikaadid. Kuigi kassasüsteem saab nende olukordadega hakkama, suurendavad need tagastuste töötlemiseks kuluvat aega, kuna müüjad peavad valima kviitungite duplikaatide seast. Kui kviitungite duplikaadid ei olnud plaanitud tagajärg, võivad ilmneda muud andmete korrastamisega seotud komplikatsioonid. Seetõttu soovitame teil kasutada dünaamilisi kuupäeva märke (nt **ddd**, **MM**, **DD** ja **YY**), et pärast lähtestamist aidata vältida kviitungi numbrite duplikaate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

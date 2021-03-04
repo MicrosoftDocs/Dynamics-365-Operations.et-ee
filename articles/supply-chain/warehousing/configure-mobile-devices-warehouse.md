@@ -439,3 +439,6 @@ Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinn
 [Varude olekud](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

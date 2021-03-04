@@ -107,3 +107,6 @@ Kui plaanite ja haldate oma Commerce'i juurutuse jaoks sortimente, arvestage jä
 - **Müük ja tagastused väljaspool sortimente** – see võimalus aitab jaemüüjatel oma sortimente tõhusalt hallata, võimaldades piirata saadaolevate toodete arvu toodetega, mis kuuluvad kaupluse peamisse tootevalikusse. See võimalus aitab jaemüüjatel käsitleda olukordi, kus toode jäeti ekslikult sortimendist välja või kus toode tagastati väljaspool sortimendi kehtivuskuupäevi.
 
 Kui toote andmeid pole kanali andmebaasis, teeb kassa vajaliku teabe hankimiseks reaalajas kõnesid peakontorisse, et toodet saaks müüa, tagastada või panna klienditellimusse. Sel viisil hangitav tooteteave on saadaval ainult selle kande käitlemise ajal. Seda toodet ei lisata sortimendi määratlusse. Seetõttu tehakse järgnevad reaalajas kõned vastavalt vajadusele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

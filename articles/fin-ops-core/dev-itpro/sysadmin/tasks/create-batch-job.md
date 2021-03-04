@@ -54,3 +54,6 @@ Pakett-töö on tööülesannete grupp, mis on edastatud rakendusobjekti serveri
     - **Kinnipeetud**: seadke pakett-töö olekuks **kinnipeetud** nii, et see on pakett-töö toiminguajastist kinni peetud. Sama kui *peatus*.
     - **Ootel**: seadistage pakett-töö olekuks **ootel**, et see ootaks pakett-töö ajasti poolt üleskorjamist. Sama kui *mine*.
 5. Klõpsake valikut **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

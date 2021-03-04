@@ -59,3 +59,6 @@ Kui katvuse valikud on määratud, lisage katvuse valikud soodustuse plaani tü�
    | **Luba töövõtja kindlustussumma määramine** | Määrab, kas lubada töötajatel soodustuste valimisel muuta soodustuste katvuse summat. Kui märgite selle ruudu, arvutab süsteem hüvitise plaani parameetrid, võttes aluseks katvuse summa, mille töötaja sisestab töövõtja iseteeninduses. |
 
 6. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

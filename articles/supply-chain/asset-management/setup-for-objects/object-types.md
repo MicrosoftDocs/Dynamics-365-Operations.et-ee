@@ -97,3 +97,6 @@ Lehel **Varuosad** saate luua ka uusi varuosi varatüübi, vara tootja ja varamu
 
 Et näha, kas valitud real olevat varuosa kasutatakse mujal moodulis Asset Management (nt seoses varade ja töökäskudega), tehke lehe **Kauba kasutuskoht** avamiseks valik **Kauba kasutuskoht**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

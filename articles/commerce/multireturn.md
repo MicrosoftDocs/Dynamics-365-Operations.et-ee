@@ -54,3 +54,6 @@ Tellimuste valimisel kuvatakse kõikide tellimuste arvete kõik tagastatavad too
 
 Kui tellimus on täielikult tagastatud, võrdub kliendile tagastatav maksude summa algselt tasutud maksusummaga.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

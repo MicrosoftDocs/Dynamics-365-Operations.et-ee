@@ -40,3 +40,6 @@ Selles teemas selgitatakse, kuidas seadistada individuaalseid numbriseeriaid. Nu
 8. Laiendage jaotist **Üldine**. Määrake kiirkaardil Üldine, kas numbriseeria on manuaalne ja pidev või katkev. Lisaks sisestage madalaimad ja kõrgeimad numbrid, mida numbriseerias saab kasutada. Me ei soovita katkevat numbriseeriat muuta pidevaks numbriseeriaks. Numbriseeria ei saa olla täiesti pidev. See muutus võib põhjustada ka dublikaatvõtme rikkumisi andmebaasis. Lisaks on pidevatel numbriseeriatel on suurem mõju tulemuslikkusele.   
 9. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

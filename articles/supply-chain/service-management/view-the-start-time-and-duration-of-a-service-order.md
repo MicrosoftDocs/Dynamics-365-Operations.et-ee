@@ -59,3 +59,6 @@ Saate ka vaadata, millal teenusetellimuse aja salvestamine alustati ja lõpetati
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

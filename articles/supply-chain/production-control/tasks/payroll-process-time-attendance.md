@@ -70,3 +70,6 @@ Selles protseduuris näitlikustatakse, kuidas aktiveerida palgaarvestuse protses
 7. Klõpsake nuppu Redigeeri.
 8. Sisestage või valige väärtus väljal Tasulepe.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

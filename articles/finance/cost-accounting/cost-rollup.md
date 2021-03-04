@@ -301,3 +301,6 @@ Selge eraldatud valikute **Kulude eraldamine** ja **Kulude ümberarvestuspoliiti
 -  [Kuluelemendi dimensioonid](cost-elements.md)
 -  [Dimensioonihierarhia](dimension-hierarchy.md)
 -  [Üldkulude arvutus](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

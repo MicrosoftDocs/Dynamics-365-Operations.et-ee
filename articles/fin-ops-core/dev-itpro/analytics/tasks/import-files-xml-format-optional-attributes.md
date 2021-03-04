@@ -123,3 +123,6 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 
 > [!NOTE]
 > Sama fail on imporditud, kuna vormingu kujundus võtab nüüd dokumendi elemendi ID atribuuti arvesse valikulisena.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

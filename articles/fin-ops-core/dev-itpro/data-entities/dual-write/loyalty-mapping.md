@@ -45,3 +45,6 @@ Ettevõtted liigitavad kliente ja pakuvad keerukaid teenuseid klientide ostu- ja
 [!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

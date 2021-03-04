@@ -43,3 +43,6 @@ Töökäskudega seotud planeeritud käivitamise seadistamine võib olla üldine 
 6. Valige käsk **Salvesta**.
 
 ![Plaanitud käivitamine](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

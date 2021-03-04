@@ -60,3 +60,6 @@ Vaadake kasutaja atribuuti **Kasutaja tüüp**. Kui atribuut **Kasutaja tüüp**
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

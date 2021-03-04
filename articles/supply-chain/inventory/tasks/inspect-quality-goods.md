@@ -51,3 +51,6 @@ Selles teemas selgitatakse, kuidas kvaliteettellimust töödelda. Saate selle ju
 4. Valige nupp **OK**.
 5. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

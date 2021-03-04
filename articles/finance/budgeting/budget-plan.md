@@ -247,3 +247,6 @@ C. Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

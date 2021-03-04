@@ -44,3 +44,6 @@ Hinnaaruande lubamiseks peab parameeter **Luba kaupluse hinnaaruanne** olema sis
 | Kuva hinnamuudatustega tooted | Kui valite selle suvandi sätteks **Jah**, kuvatakse hinnad ainult nende kuupäevade kohta, millal hind on muutunud. Hind *üks päev enne* valitud **alguskuupäeva** kuvatakse alati, nii et kaupluse juht saab hõlpsasti tuvastada tooted, mille hind pole kogu valitud ajaperioodi jooksul muutunud, ja kuvada ka praeguse hinna. |
 
 Kui aruanne on loodud, saab selle Exceli failina alla laadida, et kasutada täiendavaid filtreerimisvalikuid. Hinnaaruannet saab kasutada ka toodete varasemate hindade kontrollimiseks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

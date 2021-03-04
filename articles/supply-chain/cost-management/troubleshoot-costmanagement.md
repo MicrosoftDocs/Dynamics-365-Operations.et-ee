@@ -62,3 +62,6 @@ Microsoft kehtestas järgmised kinnitused, et vältida probleeme, mis on põhjus
 ## <a name="inventory-aging-report-discrepancies"></a>Varude ajalise jaotuse aruande lahknevused
 
 **Varude aegumise aruandes** kuvatakse erinevate ladustamise dimensioonide (nt saidi või lao) kuvamisel erinevad väärtused. Lisateavet aruandluse loogika kohta vt [Varude vananemise aruande näited ja loogika](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

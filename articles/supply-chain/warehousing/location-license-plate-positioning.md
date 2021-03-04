@@ -281,3 +281,6 @@ Nüüd, kui funktsioon *Asukoha identifitseerimisnumbri positsioneerimine* on se
     ![Positsiooni 1 asukoht](media/LocationLicensePlatePositioning.png "Positsiooni 1 asukoht")
 
 1. Sisestage selle asukoha jaoks loodud identifitseerimisnumbri ID ja seejärel järgige viipasid müügitellimuse komplekteerimiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

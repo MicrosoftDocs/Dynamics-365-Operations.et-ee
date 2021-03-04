@@ -204,3 +204,6 @@ Kontrollimissuvandi määramiseks tehke järgmist.
 1. Seadke vahekaardil **Üldine** suvandi **Tellimuse vaikekoguste kontrollimine** väärtuseks üks järgmistest.
     - **Range** – valige see suvand, et teha kindlaks, et kõik **Standardse tellimuse koguse** väärtused oleksid iga kiirkaardi puhul (**Ostutellimus**, **Varud** ja **Müügitellimus**) väärtuse **Tegur** korrutised.
     - **Standardne** – valige see suvand standardse kontrollimise kasutamiseks (mis toimib nii, nagu see funktsioon poleks lubatud).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

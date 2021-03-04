@@ -41,3 +41,6 @@ Seadistage rakenduses Dynamics 365 Human Resources teie töötajatega ühtivad t
    | **Kirjeldus** | Tööhõive tüübi kirjeldus. |
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

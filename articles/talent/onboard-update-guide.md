@@ -52,3 +52,6 @@ Onboard saadab automaatselt uuele töötajale meili, mis näitab, millised muuda
     ![[Sisseelamismalli muudatuste suunamine kõigile selle jaoks loodud juhenditele](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Muudatused on nähtavad uutele töötajatele, kes avavad sisseelamisjuhendid. Kuid Onboard ei saada meiliteateid uutele töötajatele, et anda neile teada, et nende sisseelamisjuhend on muutunud. Hõlpsaks tuvastamiseks ilmub iga muudatuse kõrvale punane **Uus** silt. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

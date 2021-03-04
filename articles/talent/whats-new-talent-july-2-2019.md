@@ -55,3 +55,6 @@ See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Tal
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 
 See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Core HR.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

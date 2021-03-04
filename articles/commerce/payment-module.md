@@ -118,3 +118,6 @@ Kui on vaja nii Adyeni kui ka PayPali maksekonnektoreid, lisage maksejaotisse m√
 [Dynamics 365 maksekonnektor PayPali jaoks](paypal.md)
 
 [Tugev kliendi autentimine Adyeni kaudu](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

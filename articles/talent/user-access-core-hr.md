@@ -46,3 +46,6 @@ Lisateavet vt jaotisest Keskkonnale juurdepääsu andmine lehel [Talenti etteval
 **Pikaajaline lahendus**
 
 Kui rakendusse Human Resources lisatakse kasutaja, kaalub Microsoft rakendustele Onboard ja Attract asjakohaste õiguste automaatset määramist.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

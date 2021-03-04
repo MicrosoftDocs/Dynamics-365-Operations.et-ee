@@ -194,3 +194,6 @@ Lisateabe saamiseks vaadake jaotiseid [Kolmepoolsed vastavusse viimise poliitika
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

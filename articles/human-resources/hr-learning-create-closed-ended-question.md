@@ -68,3 +68,6 @@ Kinnised küsimused võimaldavad teil pakkuda valikuid, mille hulgast vastaja sa
 5. Sisestage või valige väärtus väljal Vastustegrupp.
 6. Sisestage väärtus väljale Tekst.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

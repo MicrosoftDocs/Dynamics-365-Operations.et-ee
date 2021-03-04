@@ -73,3 +73,6 @@ Tootelehe rikastamiseks toimige järgmiselt.
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
 
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

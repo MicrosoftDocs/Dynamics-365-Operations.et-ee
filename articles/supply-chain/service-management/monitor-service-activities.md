@@ -60,3 +60,6 @@ Klõpsake valikuid **Teenuste halduse** \> **Perioodiline** \> **Lähetustahvel*
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

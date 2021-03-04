@@ -103,3 +103,6 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 21. Klõpsake valikut Ava.
     * Vaadake üle loodud XML-fail, mis sisaldab valitud konfiguratsiooni käitamise ajal kogutud loendamise ja liitmise üksikasju.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ See protseduur selgitab, kuidas määratleda dimensioonipõhise toote konfigurat
     * Sisestage konfiguratsiooni kirjeldus, mis selgitab, mida see sisaldab.  
 11. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

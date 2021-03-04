@@ -107,3 +107,6 @@ Pakkumise saate sisestada kas hankijana või hankespetsialistina. Lisateavet vaa
 ## <a name="view-the-purchase-order-that-is-generated"></a>Loodud ostutellimuse vaatamine
 
 Toimingupaani vahekaardil **Üldine** valige suvand **Ostutellimus**. Ilmuval lehel saate vaadata ostutellimust, mis loodi pakkumise aktsepteerimisel.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

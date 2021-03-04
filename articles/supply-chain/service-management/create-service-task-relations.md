@@ -75,3 +75,6 @@ Teenustellimusel loodavad teenustoimingute seosed on kättesaadavad konkreetse t
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

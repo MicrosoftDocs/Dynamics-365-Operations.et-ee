@@ -105,3 +105,6 @@ Lisateavet mobiilse seadme menüü üksuste kohta vt teemast [Mobiilsete seadmet
 Lisateavet tootestsenaariumi *Teata lõpetamisest* kohta vt teemast [Lao tööpoliitikate ülevaade](warehouse-work-policies.md).
 
 Lisateavet sissetuleva koormuse halduse kohta vt teemast [Ostutellimuste sissetulevate koormate laohaldus](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -255,3 +255,6 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 
 [Kiirklahvid puuduva konto analüüsi puhul](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

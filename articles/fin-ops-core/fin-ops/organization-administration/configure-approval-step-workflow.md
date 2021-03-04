@@ -276,3 +276,6 @@ Kui kasutaja ei reageeri dokumendile määratud aja jooksul, siis on dokument hi
 
 5. Korrake etappe 3 kuni 4 iga kasutaja puhul, kes tuleb laiendusteele lisada. Saate muuta kasutajate järjekorda.
 6. Kui kasutajad laiendusteel ei reageeri määratud aja jooksul, siis reageerib süsteem dokumendile automaatselt. Süsteemi tegevuse määramiseks valige rida **Tegevus** ja seejärel valige tegevus vahekaardi **Lõpptegevus**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

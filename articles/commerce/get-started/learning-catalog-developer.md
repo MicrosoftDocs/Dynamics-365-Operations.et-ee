@@ -42,3 +42,6 @@ Koolitused, milles käsitletakse funktsioone, mis on ka teistes Finance and Oper
 | Sisu  | Kirjeldus  | Vorming  | Pikkus    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Dynamics 365 Commerce'i juurutamine ja laiendamine](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Selles õppetees kirjeldatakse, kuidas juurutada Dynamics 365 Commerce'i keskkondasid ja toimida pärast ettevalmistust, et Commerce saaks edukalt juurutatud, kasutades iga jaemüüja ärivajaduste jaoks õiget topoloogiat. | Tasuta iseläbitav internetipõhine õppetee | 5 tundi |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

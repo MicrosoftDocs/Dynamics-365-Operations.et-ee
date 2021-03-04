@@ -45,3 +45,6 @@ ms.locfileid: "4683134"
 - [Hankija maksete tööruum](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Laojõudluse Power BI sisu](warehouse-power-bi-content.md)
 - [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

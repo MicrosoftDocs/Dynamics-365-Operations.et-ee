@@ -92,3 +92,6 @@ Kui olete registreerimise lõpetanud, siis valige **Valmis** töölehe sisestami
 -   Materjali saab üle tarbida. Näiteks kui eeldatav materjalitarbimise kogus on 100 naela, siis võib selle tarbida üle näiteks kogusega 105 naela.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

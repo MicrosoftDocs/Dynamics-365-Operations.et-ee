@@ -65,3 +65,6 @@ Need etapid saab l천pule viia 체ksk천ik millise andmekomplekti abil. Etappide l�
     * Intrastati n채idise vastendamine  
 5. Kl천psake Loo konfiguratsioon.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

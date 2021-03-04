@@ -74,3 +74,6 @@ See protseduur keskendub müügitellimuse loomise ajal käivitatava kanban-reegl
 2. Klõpsake suvandit Kuva sidumispuu.
     * Pange tähele, et luuakse kanban, mille kogus on sama mis müügireal. Samuti näete toote L0050 tootmiseks vajalikke materjaliväljastusi. See on selle protseduuri viimane etapp.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

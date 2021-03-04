@@ -54,3 +54,6 @@ Enne standardkulu teisendamise käivitamist toimige järgmiselt.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

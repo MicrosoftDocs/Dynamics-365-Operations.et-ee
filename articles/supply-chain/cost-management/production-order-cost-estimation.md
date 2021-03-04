@@ -65,3 +65,6 @@ Kuluhinnang annab ka järgmist teavet:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

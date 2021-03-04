@@ -115,3 +115,6 @@ Tulemused erinevad sõltuvalt teabest, mis on saadaval, kui loote töö. Kui tä
 [![Näide 2](media/ReplenTemp_example_2.png "Näide 2")](media/ReplenTemp_example_2_large.png)
 
 Selleks, et saada maksimaalset kogust täiendatud asukohtadesse, peaksite täiendamise komplekteerimise asukoha direktiivides seadistama suvandi **Luba poolitamine** väärtusele *Jah*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

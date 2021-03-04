@@ -40,3 +40,6 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protsedu
 8. Tühjendage märkeruut Asukoht.
 9. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

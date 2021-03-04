@@ -68,3 +68,6 @@ See protseduur kirjeldab viivisearvete loomist, printimist ja sisestamist. See �
 5. Klõpsake valikut **OK**.
 6. Valige väljal **Olek** suvand "Sisestatud".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

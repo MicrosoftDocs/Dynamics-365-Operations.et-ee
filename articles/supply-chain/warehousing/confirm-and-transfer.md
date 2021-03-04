@@ -230,3 +230,6 @@ Samuti saate kinnitada, et kannete seoseid on uuendatud järgmistel viisidel.
 - Suvand **Tükelda kogus uude koormusesse** toimib ka siis, kui osade järelejäänud tööpäiste oleksuks on *Töötlemisel*. Seega saate funktsiooni kasutada ka siis, kui töötajad juba käitavad tellimuste komplekteerimist.
 - Kui valite **Tühista täitmata kogus** samal ajal, kui on järelejäänud töid, mille olek on *Avatud* või *Käimas*, kuvatakse järgmine tõrketeade: „Koormuse järelejäänud kogust ei saa tühistada. Koormusel on olemasolev töö.”
 - Kui valite **Tühista täitmata kogus**, kui ei ole järelejäänud töid, kuid koormusel on vabastamata koormuseridu, kuvatakse järgmine tõrketeade: „Koormuse saadetist ei saanud kinnitada, kuna kauba kogus ületab tarnimiseks määratletud protsendimäära.” Tõrke vältimiseks saate määrata vabastamata koormuserea **Alatarne** protsendiks 100. Vabastamata ridu ei teisaldata uude koormusesse, kuid praegune koormus kinnitatakse alatarnega. Sel juhul ei saa te algset tellimust uuesti vabastada. Seetõttu tuleb teil seda mõnel muul viisil käsitleda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

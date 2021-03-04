@@ -43,3 +43,6 @@ See teema kirjeldab uue konfiguratsiooni loomist. Tavaliselt teeb seda toote koo
 3. Sisestage või valige väärtus väljal **Jälgimisdimensiooni rühm**. Jälgimisdimensiooni grupp määrab, millised jälgimisdimensioonid peate sisestama iga toote kande kohta ja kuidas seda varudes käsitletakse.  
 4. Valige nupp **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

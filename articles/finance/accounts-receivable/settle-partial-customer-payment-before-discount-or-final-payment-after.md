@@ -111,3 +111,6 @@ Arnie muudab välja **Kasuta skontot** väärtuseks uuesti **Tavaline**, kuna ta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

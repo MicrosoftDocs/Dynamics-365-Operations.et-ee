@@ -260,3 +260,6 @@ Eelnevas näites pääsesite ER-vormingu rakendusekohastele parameetritele ligi 
 [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 
 [ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

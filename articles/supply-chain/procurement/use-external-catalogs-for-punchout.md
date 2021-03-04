@@ -55,3 +55,5 @@ Kui ostutaotlus on valmis, kasutage toimingut **Töövoog** > **Edasta**, et eda
 
 - [Väliskataloogi häälestamine e-hanke väljaregistreerimiseks](set-up-external-catalog-for-punchout.md)
 - [cXML-i täiustuste ostmine](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

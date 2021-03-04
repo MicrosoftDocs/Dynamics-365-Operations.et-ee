@@ -78,3 +78,6 @@ Selles teemas selgitatakse, kuidas luua jõudluse ülevaadet ja kirjeldatakse ü
 34. Valige vahekaart **Ülevaade**. Kui ülevaade liigub olekute vahel, saavad töötaja ja juhataja lisada kommentaare iga eesmärgi või kompetentsuse kohta.  
 35. Valige vahekaart **Nõusolekud**. Töötaja ja juhataja saavad anda ülevaate nõusoleku. Kui kõik nõutud nõusolekud on lõpetatud, muudetakse olek **Lõpetatud** ja enam ei saa muudatusi teha.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

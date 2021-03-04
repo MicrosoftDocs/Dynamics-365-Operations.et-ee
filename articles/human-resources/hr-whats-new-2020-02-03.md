@@ -65,3 +65,6 @@ Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

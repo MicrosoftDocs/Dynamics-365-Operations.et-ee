@@ -78,3 +78,6 @@ Valitud hooldustellimused kas tühistatakse või pööratakse nende edenemise ol
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Kahel alloleval joonisel on kujutatud ajastamise töö dialoogis **Hoolduskordad
 - Kiirkaardil **Taustal käitamine** saate seadistada pakett-töö regulaarsete intervallidega hoolduskordade ajastamiseks.  
 - Kui hoolduskord sisaldub mitmes töökäsu kogumis (vt [Töökäskude kogumid](../work-orders/work-order-pools.md)), kuvatakse ühte kirjet igas jaotise **Avatud hooldusgraafiku kogumid** kogumis. Seda tehakse töökäsu kogumite filtreerimisvalikute optimeerimiseks.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

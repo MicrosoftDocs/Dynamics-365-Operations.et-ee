@@ -83,3 +83,6 @@ Kui seadistusandmed on saadaval, olete valmis vara looma.
 1. Veenduge lehel **Kõik töö asukohad**, et töö asukoht, kuhu soovite vara automaatselt luua, kasutab töö asukoha tüüpi, mille olete sel eesmärgil loonud.
 2. Valige loendist töö asukoht.
 3. Valige **Värskenda töö asukohta olekut** ja seejärel valige selleks otstarbeks loodud töötsükli olek. Üks vara installitakse nüüd automaatselt töö asukohta. Varal on töö asukohaga sama nimi.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

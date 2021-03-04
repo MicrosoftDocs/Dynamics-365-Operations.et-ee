@@ -83,3 +83,6 @@ See protseduur selgitab, kuidas muuta elektroonilise aruandluse (ER) vormingu ko
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Kasutage elektroonilise aruandluse muudetud mustandversiooni maksete töölehe töötlemiseks
 
 Vaadake üle loodud tööleht (sh makseridade uus üksikasi – maksekuupäev).  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

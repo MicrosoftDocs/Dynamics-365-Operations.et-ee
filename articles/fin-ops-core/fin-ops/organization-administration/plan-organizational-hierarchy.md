@@ -241,3 +241,6 @@ Arvestage organisatsiooni hierarhia juurutamisel järgmisi parimaid praktikaid.
 - Enne suuremate ümberstruktureerimise stsenaariumide mudeli kasutuselevõttu kasutage hierarhia kehtivuskuupäevi mõju analüüsi ja kontrolltesti sooritamiseks.
 - Kasutage mustandirežiimi hierarhia muutmiseks enne tootmiskeskkonnas uue versiooni avaldamist.
 - Piirake inimeste arvu, kes tohivad organisatsioone tootmiskeskkonnas hierarhiasse lisada või neid sealt eemaldada. Väiksem arv vähendab kulukate eksimuste tekkimise ohtu ja vajadust paranduste järele.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ See protseduur näitab, kuidas uut tootesortimenti luua ja avaldada ning kasutab
 1. Klõpsake Avalda.
 2. Klõpsake nuppu Jah.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

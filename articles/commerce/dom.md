@@ -256,3 +256,6 @@ Allpool on mõned asjad, mida DOM-i funktsiooni kasutades arvesse tuleb võtta.
 - Praegu vaatab DOM ainult tellimusi, mis on loodud kaubanduskanalitest. Müügitellimused tuvastatakse jaemüügitellimustena, kui suvand **Kaubanduse müük** on seatud valikule **Jah**.
 - Microsoft ei ole katsetanud DOM-i laohalduse täiustatud funktsioonidega. Kliendid ja partnerid peavad hoolikalt määratlema, kas DOM ühildub laohalduse täiustatud võimaluste ja protsessidega, mis on nende jaoks asjakohased.
 - DOM on saadaval ainult kaubanduse pilveversioonis. Seda ei toetata asutusesisestes juurutustes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

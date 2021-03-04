@@ -221,3 +221,6 @@ Kui dokument on olekus **Taotletud**, on see nähtav vahekaardil **Aktiivne**. S
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Varude väljamineku toiming kassas](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

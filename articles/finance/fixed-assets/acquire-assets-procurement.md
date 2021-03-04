@@ -109,3 +109,6 @@ Lisateavet leiate jaotisest [Põhivarade integreerimine](fixed-asset-integration
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

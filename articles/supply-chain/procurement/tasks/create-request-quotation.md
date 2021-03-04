@@ -81,3 +81,6 @@ Pärast pakkumiskutse põhiteabe määramist saate määrata kaubad või teenuse
 4. Sulgege leht.
 5. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

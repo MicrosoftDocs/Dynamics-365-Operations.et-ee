@@ -1233,3 +1233,6 @@ Pange tähele, et loodud aruande jalus ei sisalda aruande loomiseks kasutatud ER
 - [Funktsioon IF](er-functions-logical-if.md)
 - [Funktsioon ORDERBY](er-functions-list-orderby.md)
 - [Funktsioon SESSIONNOW](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

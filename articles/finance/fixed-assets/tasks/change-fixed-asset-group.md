@@ -46,3 +46,6 @@ Juhendis kasutatakse demoettevõtte USMF andmeid.
 6. Klõpsake nuppu OK.
 7. Klõpsake nuppu Jah.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

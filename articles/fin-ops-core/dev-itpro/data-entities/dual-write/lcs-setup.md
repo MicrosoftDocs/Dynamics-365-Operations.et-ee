@@ -90,3 +90,6 @@ Topeltkirjutuse ühenduse seadistamiseks tehke järgmist.
 
 > [!NOTE]
 > LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage tööruum **Andmete integratsioon** keskkonnas Finance and Operations ja seejärel valige käsk **Tühista linkimine**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

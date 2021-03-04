@@ -72,3 +72,6 @@ Järgmises tabelis kirjeldatakse, kuidas konfiguratsioonivõti on seotud teiste 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ See protseduur selgitab uue kassa visuaalse profiili loomist. Visuaalne profiil 
 17. Klõpsake loendis valitud real olevat linki.
 18. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

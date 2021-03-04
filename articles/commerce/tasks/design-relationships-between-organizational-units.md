@@ -63,3 +63,6 @@ Selles protseduuris näitlikustatakse, kuidas kujundada organisatsiooniüksuste 
 29. Klõpsake Avalda.
 30. Klõpsake valikut Sule.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

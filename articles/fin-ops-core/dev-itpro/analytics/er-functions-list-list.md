@@ -73,3 +73,6 @@ Sel juhul tagastab avaldis `LIST('Record 1', 'Record 2')` uue loendi, mis sisald
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

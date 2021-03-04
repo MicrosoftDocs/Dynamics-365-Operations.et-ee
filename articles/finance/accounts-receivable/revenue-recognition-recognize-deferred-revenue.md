@@ -108,3 +108,6 @@ Lepingu muudatused mõjutavad tulugraafiku üksikasju järgmiselt.
 - Kui toote kohta on tulu tuvastatud, siis tuvastati osa tulu valesti, sest tuvastamine põhines valel tulugraafikul. Need read tuleb tühistada ja uue graafiku alusel uuesti tuvastada. Selle stsenaariumi korral luuakse uued tulugraafiku read, millel on negatiivne summa algsel tuvastamise kuupäeval. Seejärel luuakse uued read, et tuvastada summad uue tulugraafiku alusel. Näiteks tuvastasite 8. augustil 2019 tulu 10,53 $. 8. septembril 2019 tuvastasite tulu 13,16 $. Seetõttu luuakse samade kuupäevadega kaks uut rida. Üks rida on -10,53 $ ja teine rida on -13,16 $ jaoks. Seejärel luuakse kakskümmend neli uut rida ja neile eraldatakse kogu edasilükatud tulu 160,61 $. Tühistamise ridu saate sisestada, käivitades protsessi **Loo tööleht**.
 
 [![Tulu tuvastamise graafik](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Ametikoha töö muutmisel on nüüd valitud töös vaikesätteks **Tööpere**.
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Jõudluse parendamised tööruumide renderdamisel.
 Tööruumide analüütika vahekaardid laaditakse nüüd ainult nende lehtede kasutamisel. Lehe algsel renderdamisel kuvatakse lehe vasakus ülanurgas indikaator.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

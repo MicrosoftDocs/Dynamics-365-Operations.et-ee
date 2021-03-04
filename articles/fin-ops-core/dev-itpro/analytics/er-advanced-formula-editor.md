@@ -171,3 +171,6 @@ Redaktorit toetavad praegu järgmised veebibrauserid:
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 - [Monaco redaktor](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Kui määrate **Sihtkoha sätte** lehel valiku **Lubatud** väärtuseks **Jah**,
 
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

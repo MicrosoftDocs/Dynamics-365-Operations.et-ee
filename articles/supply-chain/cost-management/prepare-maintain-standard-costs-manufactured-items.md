@@ -73,3 +73,6 @@ Kui soovite protsesside teavet kasutada kulueesmärkidel, peate tegema ettevalmi
 
 [Toodetavate või hangitavate toodete seadistamine](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -154,3 +154,6 @@ Kaupluse töötajad peavad valima riistvarajaama tehingu jooksul vaid ühe korra
 - [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Võrgu välistoe ülevaade](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

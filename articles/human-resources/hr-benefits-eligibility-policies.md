@@ -49,3 +49,6 @@ Määratlete poliitika reegli ulatuse. Näiteks kui loote soodustuse saamise õi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

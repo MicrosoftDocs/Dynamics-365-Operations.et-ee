@@ -96,3 +96,6 @@ Järgmises tabelis on näidatud, milliseid müügitellimusi iga veebirolli kasut
 
 > [!NOTE]
 > Kuigi nii Sam kui ka Jane on kliendi X jaoks töötavad kontaktid, näevad nad ainult iseenda esitatud tellimusi ja ei midagi muud. Kuigi Mayl on süsteemis tellimus, siis ei näe ta seda tellimust kliendiportaalis, kuna ta on volitamata kasutaja. (Lisaks peab ta olema esitanud tellimuse mõne muu kanali, mitte kliendiportaali kaudu.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

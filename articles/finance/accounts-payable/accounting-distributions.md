@@ -57,3 +57,6 @@ Arvestuse jaotused on programmiülene võimalus, mida kasutatakse ja laiendataks
 Versioonis 10.0.13 lisati funktsioon, mis kontrollib arvestuse jaotuse tabelit, et tagada uute väljade õigesti seadistamine. Selle funktsiooni nimi on **Luba andmete täiendav kontrollimine dokumentide puhul, mis kasutavad lähtedokumendi raamatupidamisraamistikku**. Funktsiooni kasutamiseks peate selle lubama tööruumis **Funktsioonihaldus**. Funktsiooni lubamiseks otsige funktsiooni nime väljal **Otsing**, mis asub lehel **Funktsioonihaldus**, ja seejärel valige **Luba kohe**.
 
 Lisateabe saamiseks vaadake jaotist [Arvestuse jaotus ja alammooduli töölehe kirjed hankija arvete jaoks](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

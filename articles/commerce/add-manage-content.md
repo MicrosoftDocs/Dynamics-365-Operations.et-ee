@@ -57,3 +57,6 @@ Alustamiseks valige üks järgmistest teemadest.
 [Dokumendi olekud ja töötsükkel](document-states-overview.md)
 
 [Kanaliülese ühiskasutuse lubamine ja kasutamine](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

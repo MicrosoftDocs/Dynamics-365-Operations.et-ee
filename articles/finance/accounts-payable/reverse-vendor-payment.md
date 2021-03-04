@@ -83,3 +83,6 @@ Kui storneeritud tšekk väljastati kliendi tagasimakseks, toimuvad ka järgmise
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Selleks et saaksite kiiresti mõõta hooldustellimuse pakilisust, toetab Gantti 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

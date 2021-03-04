@@ -34,3 +34,6 @@ Juriidiliste isikute puhul, kelle esmane aadress on Eestis, Leedus, Tšehhi Vaba
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

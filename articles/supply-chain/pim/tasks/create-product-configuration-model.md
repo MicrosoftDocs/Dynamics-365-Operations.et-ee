@@ -83,3 +83,6 @@ See protseduur kirjeldab, kuidas luua toote konfiguratsioonimudelit ja sisestada
 17. Sisestage number väljale Seeria kohta.
 18. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Teil tuleb ümber hinnata ja reguleerida pangakontosid, kui arvestusvaluuta ja a
 
 > [!NOTE]
 > Pearaamatus saate vaadata kahte eraldiseisvat kannet: üks on arvestusvaluuta ja teine aruandlusvaluuta jaoks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

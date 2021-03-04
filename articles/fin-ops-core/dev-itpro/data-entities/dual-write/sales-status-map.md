@@ -150,3 +150,6 @@ Atribuudi **isIntegrationUser** lubamiseks tehke järgmist.
     ![Integratsiooni kasutaja režiimi välja väärtuse muutmine](media/sales-map-user-mode-yes.png)
 
 Teie müügitellimused on nüüd vastendatud.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

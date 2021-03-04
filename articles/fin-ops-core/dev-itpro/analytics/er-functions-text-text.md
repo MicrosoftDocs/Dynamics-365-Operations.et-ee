@@ -59,3 +59,6 @@ Kui Microsoft Dynamics 365 Finance’i eksemplari serverilokaat on määratud ku
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

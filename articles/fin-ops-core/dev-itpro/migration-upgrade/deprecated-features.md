@@ -1373,3 +1373,6 @@ Windows 8 tahvelarvuti rakendus pakkus kulude sisestamise ja kinnitamise funktsi
 |     <strong>Mõjutatud tootealad</strong>     |                                              Pearaamat                                              |
 |             <strong>Olek</strong>             |                                      Eemaldatud alates rakendusest Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

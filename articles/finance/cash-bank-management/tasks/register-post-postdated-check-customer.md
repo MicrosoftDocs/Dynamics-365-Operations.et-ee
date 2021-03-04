@@ -50,3 +50,6 @@ Saate registreerida kliendilt saadud hilisema kuupäevaga tšeki üksikasjad. Sa
 15. Klõpsake valikut Sisesta.
 16. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

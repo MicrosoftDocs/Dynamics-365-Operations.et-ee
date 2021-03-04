@@ -72,3 +72,5 @@ Saate kasutada küsimustiku statistikat täidetud küsimustiku tulemuste analü�
 -   Valige või kinnitage kriteeriumid tulemuste analüüsimiseks vastaja või küsimustiku omaduste põhjal. Näiteks kui teete valiku **Sihtnumber**, saate analüüsida vastaja asukoha ja õigete vastuste seost.
 
 Teie määratud seaded salvestatakse ja saate neid tulemuste ümberarvutamiseks regulaarselt kasutada.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

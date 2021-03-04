@@ -54,3 +54,6 @@ Soovite luua 10-päevase hooldusintervalli.
 ## <a name="related-topics"></a>Seotud teemad
 
 [Hooldusintervallid](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

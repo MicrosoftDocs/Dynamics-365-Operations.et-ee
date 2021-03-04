@@ -104,3 +104,6 @@ See väljalase pakub nüüd võimalust rakendada kontroll-loendit töötajatele,
 See funktsioon on nüüd saadaval liivakasti keskkondades. Selle funktsiooni sisselülitamiseks liikuge valikule **Süsteemi administreerimine > Lingid > Häälestus > Süsteemiparameetrid > Eelvaate funktsioonid**. Valige **Täiustatud töötajate vorm ja navigeerimine**. See võimaldab neid muudatusi kõigile kasutajatele. Võite selle suvandi igal ajal välja lülitada.
 
 Lisateavet leiate teemast [Sujuv töötajate sisestamine ja navigeerimine](./streamlined-employee-entry.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

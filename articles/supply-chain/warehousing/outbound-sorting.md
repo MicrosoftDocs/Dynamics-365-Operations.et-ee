@@ -667,3 +667,6 @@ Peate viima lõpule sorditud varude komplekteerimistöö. Kui see on lõpule vii
     Töö on lõpule viidud.
 
 Sellest alates kehtivad kõik muud laoprotsessid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

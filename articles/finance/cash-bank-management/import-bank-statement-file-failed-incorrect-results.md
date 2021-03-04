@@ -108,3 +108,6 @@ Järgmises tabelis on esitatud näited tehnilise paigutuse määratlustest täiu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

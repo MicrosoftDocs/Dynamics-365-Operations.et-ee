@@ -243,3 +243,6 @@ Arhiveeritud käivitamise ajaloo allalaadimiseks minge dokumendihalduse tööruu
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

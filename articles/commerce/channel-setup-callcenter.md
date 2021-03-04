@@ -136,3 +136,6 @@ Hinnarühma seadistamiseks tehke järgmist.
 [Pettuseteatiste seadistamine ja nendega töötamine](set-up-fraud-alerts.md)
 
 [Kõnekeskuste järjepidevusprogrammide seadistamine](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Sa ei saa kasutada teisi rolle, välja arvatud administraator, et avada mobiilse
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 Mobiilse seadme rakenduse emulaator on seatud töötama ainult administraatori kontoga. Kõigi testimise ja otseste protsesside eesmärkide jaoks on soovitatav kasutada lao rakendust.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

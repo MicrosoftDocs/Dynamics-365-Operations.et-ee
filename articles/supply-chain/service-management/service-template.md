@@ -58,3 +58,6 @@ On lihtsam otsustada, millist hooldusmalli rida soovite kopeerida, kui olete gru
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Teenusemallide kopeerimine](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

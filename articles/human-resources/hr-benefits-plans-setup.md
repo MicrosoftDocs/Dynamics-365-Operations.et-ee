@@ -159,3 +159,6 @@ Saate sisestada plaani kirjelduse, et aidata töövõtjaid soodustuste valimisel
 1. Tööruumis **Soodustuste haldus** jaotises **Plaanid** valige suvand **Soodustuse plaanid**.
 
 2. Valige suvand **Paindliku krediidiga programmid**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

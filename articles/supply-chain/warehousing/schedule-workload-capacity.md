@@ -80,3 +80,6 @@ Kui seda teavet pole õigesti määratud, saate aruande **Töökoormuse võimsus
 3. Valige väljas **Tellimuse tüüp** suvand **Plaanitud ja kinnitatud**, **Plaanitud** või **Kinnitatud**, et näidata, mis tüüpi tellimusi aruandes kavandada.
 4. Valige väljal **Koondplaan** koormuse tüüp, et määrata, kas töökoormuse võimsus tuleb kavandada mahule või kaalule.
 5. Valige väljal **Koondplaan** töökoormuse võimsuse seadistus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

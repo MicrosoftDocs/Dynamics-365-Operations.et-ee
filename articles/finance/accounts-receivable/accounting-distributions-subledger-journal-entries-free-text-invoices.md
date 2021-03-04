@@ -136,3 +136,6 @@ Enne vabas vormis arve sisestamist saate vaadata arve täielikku raamatupidamisk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

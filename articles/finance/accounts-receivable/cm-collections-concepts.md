@@ -122,3 +122,6 @@ Saate töödelda NSF-makseid, klõpsates lehel **Sissenõuded** nuppu **NSF-maks
 [Müügitellimuste krediidi ootelolekud](./cm-sales-order-credit-holds.md)
 
 [Perioodilised kliendi krediidihalduse ülesanded](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

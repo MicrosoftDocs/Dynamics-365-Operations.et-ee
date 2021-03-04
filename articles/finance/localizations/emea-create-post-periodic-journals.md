@@ -48,3 +48,6 @@ Näiteks kvartalipõhiste sisestuste loomiseks sisestage väljale **Perioodide a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

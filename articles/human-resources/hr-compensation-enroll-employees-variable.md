@@ -41,3 +41,6 @@ Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanide
 8. Laiendage jaotise Organisatoorsed erandid laiendamist.
     * Kui arvestada tuleks töötaja jõudlust, eri osakondade või muu kui töötaja ametikohas määratud osakonna jõudlust, saab osakonna alistada. Protsendi veeru kogusummaks peab olema 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

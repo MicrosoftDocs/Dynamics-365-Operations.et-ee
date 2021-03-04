@@ -73,3 +73,6 @@ Loendileht **Kanban-töö plaanimine** sisaldab kiirinfot, mis näitab valitud t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

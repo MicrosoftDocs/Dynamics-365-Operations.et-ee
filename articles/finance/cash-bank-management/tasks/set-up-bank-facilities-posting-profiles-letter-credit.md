@@ -74,3 +74,6 @@ See protseduur selgitab panga süsteemiteenuse loomist ja akreditiivi töötlemi
     * Seda kontot debiteeritakse, kui avamarginaal sisestatakse ja krediteeritakse makse sisestamisel.  
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

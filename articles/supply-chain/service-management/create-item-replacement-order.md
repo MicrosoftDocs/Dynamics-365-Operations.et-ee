@@ -68,3 +68,6 @@ Kauba asendustellimused luuakse tavaliselt pärast toote tagastamist ja kontroll
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

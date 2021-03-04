@@ -40,3 +40,6 @@ Selles protseduuris näitlikustatakse, kuidas vaadata tootmistellimuse suure too
 6. Klõpsake käsku Kuva kulu võrdlus.
 7. Klõpsake valikut Sule.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

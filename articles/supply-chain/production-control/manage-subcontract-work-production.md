@@ -103,3 +103,6 @@ Tavaliselt on väljundladu ja allhanke ressursigrupi asukoht määratud otse pro
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

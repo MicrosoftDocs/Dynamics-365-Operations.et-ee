@@ -62,3 +62,6 @@ Väli **Kõrvalsaaduse kulu eraldamine** lehel **Kaastooted** on numeraatori vä
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

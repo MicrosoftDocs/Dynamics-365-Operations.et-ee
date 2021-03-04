@@ -55,3 +55,6 @@ Kasutage seda protseduuri, et seadistada mall, mis tähistab kliendi saidi objek
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

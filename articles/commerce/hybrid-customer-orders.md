@@ -41,3 +41,6 @@ Kui on valitud ostukorvi rida ja **Komplekteeri valitud**, **Saada valitud** võ
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kliendi tellimused Modern POS-is (MPOS-is)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

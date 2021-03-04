@@ -106,3 +106,6 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
 ## <a name="elearning-courses"></a>E-õppe kursused
 
 Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu v
     * Aruandlusasutused on asutused, mida tuleb juhtumist teavitada. Märkige ruut Vaikimisi asutuse juures, mida vaikimisi vigastustest ja haigustest teavitatakse.  
 23. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

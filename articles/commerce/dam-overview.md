@@ -60,3 +60,6 @@ Digitaalsed varad ja haldusfunktsioonid asuvad saidiehitaja **Meediumiteegis** s
 [Pildi keskpunktide kohandamine](dam-custom-focal-point.md)
 
 [Staatiliste failide üleslaadimine ja kasutamine](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

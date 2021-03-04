@@ -175,3 +175,6 @@ See juhend näitab, kuidas konfigureerida asukohaseadistust uue WMS-loaga lao pu
 6. Klõpsake loendis valitud real olevat linki.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

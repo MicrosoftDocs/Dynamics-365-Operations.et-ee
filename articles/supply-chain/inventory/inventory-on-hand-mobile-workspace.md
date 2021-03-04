@@ -130,3 +130,6 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
     -   Füüsiliste varude järgi (see vaade kajastab kogu summat).
     -   Füüsiliste reserveeritud kaupade järgi (see vaade kajastab reserveeritud summat).
     -   Vabade füüsiliste varude järgi (see vaade kajastab vaba kogust, millel puuduvad reserveeringud).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

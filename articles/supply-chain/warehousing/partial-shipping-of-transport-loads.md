@@ -66,3 +66,6 @@ Selle seadistuse abil saate kinnitada transpordikoorma, mis sisaldab saadetavat 
 
 1. Valige **Laohaldus** \> **Koormad** \> **Transpordikoormad**.
 2. Paani Tegumiriba vahekaardil **Läheta ja võta vastu** grupis **Kinnita** valige suvand **Transport**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

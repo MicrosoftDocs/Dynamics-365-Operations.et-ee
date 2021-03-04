@@ -245,3 +245,6 @@ Skaalaüksustes saate töökoormuse korral hallata järgmist kahte pakett-tööd
 
 - Vootabeli kirjete töötlemine
 - Töötle voo käitamise juhtimise edastussündmust
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

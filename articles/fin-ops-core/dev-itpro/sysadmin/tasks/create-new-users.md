@@ -55,3 +55,6 @@ Kasutajad, kes on väljaspool rentnikku, milles keskkond kasutusele on võetud, 
 4. Valige **Impordi kasutajad**.
 5. Valige suvand **Sule**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

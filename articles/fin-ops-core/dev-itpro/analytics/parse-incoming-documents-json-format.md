@@ -50,3 +50,6 @@ Lisaks peate läbima tegevuse juhise [Elektrooniline aruandlus. Nõutavate konfi
 | Tiitel                  | Faili nimi |
 |------------------------|-----------|
 | Elektroonilise aruandluse mudeli konfiguratsioon | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

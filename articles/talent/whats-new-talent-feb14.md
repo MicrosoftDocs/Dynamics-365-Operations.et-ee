@@ -52,3 +52,6 @@ Tehti muudatus, mis seab töötaja ametikoha määramise lõpetamisel vaikevää
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Töö hüvitustasemete jaoks loodud uus kirje
 Loodi uus andmehaldusraamistiku (DMF) üksus. Üksus tagab iga süsteemis määratletud töö hüvitustasemete, turuväärtuste ja uuringuteabe loomise ja värskendamise.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

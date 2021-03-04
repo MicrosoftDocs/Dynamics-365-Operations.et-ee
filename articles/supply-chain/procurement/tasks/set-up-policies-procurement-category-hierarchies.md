@@ -52,3 +52,6 @@ Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks.
 6. Valige suvand väljal **Hankia valik**. Valige reegel, et juhtida, milliseid hankijaid võib taotluste loomisel kategooriale valida.  
 7. Klõpsake valikut **Sule**. Teie määratletud poliitikareeglid on olnud taotlustele tüübiga Tarbimine. Kui soovite määratleda poliitikad taotlustele tüübiga Täiendamine, tuleb luua reegel poliitikareegli tüübile nimega „Täiendamise kategooria juurdepääsupoliitika reegel”.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

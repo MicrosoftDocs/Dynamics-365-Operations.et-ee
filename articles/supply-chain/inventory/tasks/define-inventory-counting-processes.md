@@ -85,3 +85,6 @@ Selles teemas kirjeldatakse peamiste inventuuriprotsesside konfigureerimist inve
 5. Välja **Inventuurigrupp** rippmenüüst valige inventuurigrupp. Saate valida konkreetse inventuurigrupi, mis peaks rakenduma kaubale konkreetses laos, mille olete valinud. Selles laos inventuuri tegemisel alistab see inventuuripoliitika kauba üldise inventuuripoliitika.  
 6. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

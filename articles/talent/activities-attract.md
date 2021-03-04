@@ -91,3 +91,6 @@ Värbamisprotsessi mall nõuab pakkumise tegevust. Integreeritud pakkumiste hald
 > Integreeritud pakkumiste haldamise rakendus on saadaval ainult tervikliku värbamise lisandmooduli korral. Lisateabe saamiseks vaadake jaotist [Milline rakenduse Microsoft Dynamics 365 Talent – Attract versioon?](./attract-comprehensive-hiring.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

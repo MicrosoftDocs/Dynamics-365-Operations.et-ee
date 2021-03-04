@@ -51,3 +51,6 @@ See protseduur näitab, kuidas teisendada kliendi kinnitatud ja töödeldud taga
     * Pange tähele, et kliendi saldole on lisatud negatiivse summa kanne, mis tähistab tagasimakse kogusummat ilma arve viiteta.   
 15. Klõpsake valikut Tühista.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

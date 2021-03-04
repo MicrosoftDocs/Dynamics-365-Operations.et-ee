@@ -68,3 +68,6 @@ Selle juhendava tutvustuse jaoks kasutage demoettevõtte USMF andmeid. See prots
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Vabas vormis arve salvestamine mallina
 Samuti saate salvestada olemasoleva vabas vormis arve mallina. Kui valite vahekaardil Arve suvandi Salvesta malli, lisage mallile nimi ja kirjeldus. Kui selle nimega mall on juba olemas, näete teatist, et selle nimega mall on juba olemas. Saate klõpsata nuppu OK malli asendamiseks. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

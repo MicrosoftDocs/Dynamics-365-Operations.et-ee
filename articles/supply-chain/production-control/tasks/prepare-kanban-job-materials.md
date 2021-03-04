@@ -42,3 +42,6 @@ See ülesanne keskendub protsessi kanban-töö ettevalmistamisele, kui kõik mat
 6. Klõpsake suvandit Valmista ette.
     * Ettevalmistamise protsess on nüüd lõpetatud. Kõigi komplekteerimislehe ridade puhul valitud märkeruut näitab, et tarneolek on komplekteeritud.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

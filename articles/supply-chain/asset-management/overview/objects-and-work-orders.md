@@ -55,3 +55,6 @@ Töökäsu hooldustöö plaanimisel ja käitamisel tuleb täita mitu etappi. Jä
 
 > [!NOTE]
 > Kui töötate rakenduses Dynamics 365 Supply Chain Management ja moodulis **Varahaldus** valite uue kirje loomiseks **Uus**, valige **Redigeeri** olemasoleva kirje värskendamiseks ja valige **Salvesta** uute või redigeeritud andmete salvestamiseks.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

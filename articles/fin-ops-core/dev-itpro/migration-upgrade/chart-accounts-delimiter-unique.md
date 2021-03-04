@@ -41,3 +41,6 @@ Kontoplaani konflikti korral saab muuta kontoplaani eraldaja ja projekti/alampro
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Kuidas teha kindlaks, kas teie keskkonna puhul on nõutud eraldajate värskendamine? 
 Kui täiendatud keskkonnas esineb eraldajatega seoses konflikte, võib segmenditud sisestamise või dimensiooni kirje juhtimises väärtuste sisestamisel ilmneda ebastabiilsus. See tähendab, et teil tuleb alati konto ja dimensiooni kombinatsioonide sisestamisel kasutada otsinguid või hüpikmenüüd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -192,3 +192,6 @@ Valitud töö olek ja sündmuse kanbanide mis tahes kinnistatud tööde olek mä
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

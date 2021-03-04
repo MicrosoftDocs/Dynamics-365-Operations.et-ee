@@ -536,3 +536,6 @@ Saate nüüd sõnumi oleku kas kustutada või seda värskendada. Sõnumi oleku v
 ![Sõnumi oleku värskendamine](media/update-status.png)
 
 Sõnumi olek värskendatakse väärtusele **Ettevalmistatud** ja te saate nüüd aruande luua, valides **Loo aruanne**. Aruanne luuakse ning sõnumi olekut ja tegevuste logi värskendatakse. Loodud aruande vaatamiseks valige lehe paremas ülanurgas nupp **Manus** (kirjaklambrisümbol).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

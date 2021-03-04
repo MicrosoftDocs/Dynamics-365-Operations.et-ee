@@ -64,3 +64,6 @@ See protseduur keskendub uue tootmisvoo versiooni loomisele. Selle protseduuri p
     * Sisestage väljale Tegeliku tsükliaja periood päevade arv. Tegeliku tsükliaja periood on tegelikust minutist tagasisuunas koondatud tööde päevade arv tegeliku tsükliaja arvutamiseks. Väärtust saab igal ajal muuta ja seda kasutatakse ainult tegelike tsükliaegade arvutamiseks.  
 13. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

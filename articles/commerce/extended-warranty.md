@@ -239,3 +239,6 @@ Garantii on teenus, mis on mõeldud kindla kordumatu toote jaoks. Rakenduses Dyn
 [Sortimentide häälestamine](set-up-assortments.md)
 
 [Numbriseeriate ülevaade](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

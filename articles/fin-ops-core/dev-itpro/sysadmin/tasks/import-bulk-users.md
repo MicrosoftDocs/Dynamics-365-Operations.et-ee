@@ -58,3 +58,6 @@ Pärast importimise lõpetamist on vaja kasutajatele määrata rollid.
 ## <a name="run-in-a-sandbox-environment"></a>Liivakastikeskkonna käitamine
 1. Valige **Partii import**.
 2. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

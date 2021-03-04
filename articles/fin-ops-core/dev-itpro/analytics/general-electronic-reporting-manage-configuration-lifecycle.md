@@ -87,3 +87,6 @@ Arenduskeskkonnas kujundatud ER-i konfiguratsioone saab üles laadida testkeskko
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

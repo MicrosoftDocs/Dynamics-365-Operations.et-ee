@@ -40,3 +40,6 @@ See protseduur näitab, kuidas seadistada tööklassi. Tööklassidega suunataks
     * Asukoha tüübi valimisel piirab see asukohta, kuhu kaubad saab pärast komplekteerimist panna. Seda sätet kasutatakse, kui asukohakorraldus püüab asukohta lahendada või kui laotöötaja esitab mobiilse seadme menüü-üksuse jaoks asukoha käsitsi.  
 8. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Kui parameeter **model.RoundOff** on seatud suvandile **RoundOffType.RoundUp**, 
 [Muud (ettevõtte domeenipõhised) funktsioonid](er-functions-category-other.md)
 
 [Matemaatilised funktsioonid](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

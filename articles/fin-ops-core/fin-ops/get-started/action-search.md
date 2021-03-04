@@ -75,3 +75,6 @@ Eelmises näites näitas tegevuse otsing tulemusi standardselt toimingupaanilt l
 ## <a name="action-search-vs-navigation-search"></a>Tegevuse otsing vs navigeerimisotsing
 
 Kui tegevuseotsing on mõeldud tegevuste otsimiseks ja käivitamiseks lehel, siis lehtede otsimiseks ja neil navigeerimiseks on eraldi otsingumehhanism. Lisateavet selle funktsiooni kohta vt artiklist [Navigeerimisotsing](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

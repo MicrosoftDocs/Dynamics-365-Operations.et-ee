@@ -55,3 +55,6 @@ See protseduur loob konfiguratsioonireeglid, mida saab kasutada dimensioonipõhi
     * Valige kaubakood, mis olenevalt valitud meetodist kas valitakse või mille valik tühistatakse.  
 18. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

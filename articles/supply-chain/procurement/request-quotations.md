@@ -247,3 +247,6 @@ All toodud näites näete kõrgeimat ja madalaimat olekut pakkumiskutse juhtumis
 | Aktsepteerige üks pakkumistest. (või vähemalt üks rida) |                          Vastu võetud                           |                           Aktsepteeritud                           |                    Vastu võetud                    |                    Aktsepteeritud                     |                   Vastu võetud                   |                   Aktsepteeritud                    |
 |           Lükake kõik teised pakkumised tagasi.           |                          Tagasi lükatud                           |                           Aktsepteeritud                           |                    Tagasi lükatud                    |                    Aktsepteeritud                     |                   Tagasi lükatud                   |                   Aktsepteeritud                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

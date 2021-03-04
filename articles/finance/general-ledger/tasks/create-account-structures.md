@@ -61,3 +61,6 @@ See ülesandejuhend kirjeldab konto struktuuri loomise etappe. Etapid kasutavad 
 29. Paanil **Toimingupaan** klõpsake käsku **Aktiveeri**.
 30. Klõpsake käsku **Aktiveeri**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

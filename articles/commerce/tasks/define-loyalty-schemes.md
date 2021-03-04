@@ -70,3 +70,6 @@ See protseduur selgitab, kuidas määratleda boonusskeemi. Boonusskeemid on püs
 27. Klõpsake nuppu Salvesta.
     * Boonusskeemi kanalite muutmisel peate käivitama boonusskeemide töötlemise. Nii värskendavad boonusskeemid kanaleid.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

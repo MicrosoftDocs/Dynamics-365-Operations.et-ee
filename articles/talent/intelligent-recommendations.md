@@ -56,3 +56,6 @@ Soovitused kuvatakse kaartidena vahekaardil **Potentsiaalselt sobivad kandidaadi
 > Kui hakkasite hiljuti Attracti kasutama, peate ootama, kuni teil on 10 või rohkem täisprofiili või elulooga kandidaati, et saaksite seda võimalust kasutada.
 
 Võimaliku kallutatuse vältimiseks soovitustes otsib Attract kandidaatide profiilidelt ainult töö kirjeldusele vastavaid oskusi, kvalifikatsioone ja muid märksõnu. Peale selle eemaldab Attract enne hindamist isiku tuvastamist võimaldavad andmed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

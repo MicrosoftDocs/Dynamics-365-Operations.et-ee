@@ -40,3 +40,6 @@ Toodetud kauba tasud sisalduvad alati standardkulude jaoks kauba ühiku hinnas. 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

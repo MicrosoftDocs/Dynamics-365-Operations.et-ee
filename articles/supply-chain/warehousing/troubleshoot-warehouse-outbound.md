@@ -62,3 +62,6 @@ Kaup lisatakse müügireal otsetarneks laost, mis on lubatud laohalduse jaoks (W
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 Microsoft on seda probleemi hinnanud ja on määranud, et see on funktsiooni piirang. Praegu ei toeta WMS otsetarnet. Seetõttu peate otsetarne kasutamiseks valima mitte-WMS kauba ja lao.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -199,3 +199,6 @@ Kui importimine õnnestub, saate teate, milles on öeldud, et teie väljavõte o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

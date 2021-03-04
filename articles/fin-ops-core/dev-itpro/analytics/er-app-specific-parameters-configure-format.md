@@ -309,3 +309,6 @@ Selleks et õppida konfigureeritud ER-vormingut **Vorming LE-andmete otsingu õp
 [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 
 [ER-vormingu parameetrite seadistamine juriidilise isiku kohta](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

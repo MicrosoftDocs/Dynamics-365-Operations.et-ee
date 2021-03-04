@@ -53,3 +53,6 @@ Uute toodetavate kaupade lisamiseks kogu külmutatud perioodi jooksul tehke jär
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

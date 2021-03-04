@@ -96,3 +96,6 @@ Kulumit on vähendatud 16,95 võrra (983,62 - 966,67).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

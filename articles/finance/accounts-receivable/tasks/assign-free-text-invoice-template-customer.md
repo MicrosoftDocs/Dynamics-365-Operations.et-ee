@@ -50,3 +50,6 @@ See ülesanne näitab, kuidas määrata kliendile vabas vormis arve mall. See ü
     + Iga aasta – valige see suvand ja sisestage aastate arv väljale Kohta. Näiteks kui sisestate 2, koostatakse arve sellele kliendile iga kahe aasta tagant.  
 14. Väljale **Kohta** sisestage arv.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

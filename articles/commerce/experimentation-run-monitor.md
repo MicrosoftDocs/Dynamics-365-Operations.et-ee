@@ -53,3 +53,6 @@ Kui peate mingil põhjusel variatsioone muutma, järgige alltoodud samme.
 
 ## <a name="next-step"></a>Järgmine etapp
 [Variatsiooni esiletõstmine ja eksperimendi lõpuleviimine](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -383,3 +383,6 @@ Prognoositud saldo (30) = juurdekasvu summa (10 × 1) – praegune saldo (40) �
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuste ja puudumiste tüüpide konfigureerimine](hr-leave-and-absence-types.md)
 - [Puhkuse ja puudumise plaanide koondamine](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

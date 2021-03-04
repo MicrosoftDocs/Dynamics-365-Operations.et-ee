@@ -157,3 +157,6 @@ Kandidaadid on inimesed, kes on lisatud talendikausta, kuid ei ole tööga seost
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profiil – kandidaadi andmed | Looge, lugege, värskendage ja kustutage | Looge, lugege, värskendage ja kustutage | Juurdepääs puudub   |
 | Dokumendid                   | Looge, lugege, värskendage ja kustutage | Looge, lugege, värskendage ja kustutage | Juurdepääs puudub   |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

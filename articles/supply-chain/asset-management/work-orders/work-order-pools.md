@@ -109,3 +109,6 @@ Nagu on kirjeldatud eelmises jaotises, saate töökäsu kaustale lisada töökä
 
 Töökäsukaustast mõne töökäsu eemaldamiseks korrake neid etappe, kuid valige 3. etapis **Eemalda**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

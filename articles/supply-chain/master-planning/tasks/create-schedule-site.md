@@ -56,3 +56,6 @@ See protseduur selgitab, kuidas ajastada tootmistellimusi, mida ei ole tegevusko
 4. Klõpsake suvandit Materjalid.
     * Sellel lehel saate vaadata tootmistellimuse toimingute eeldatavat materjalikulu ja praegust saadaolevat kaubavaru.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -203,3 +203,6 @@ Lisateavet Dynamics 365 Commerce'is meilide konfigureerimise kohta vt teemast [M
 [Seadistage meilisissetulekud](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Meilikviitungite saatmine kaasaegsest kassast ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

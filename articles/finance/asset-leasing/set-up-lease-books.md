@@ -53,3 +53,6 @@ Rendiraamatu loomiseks toimige järgmiselt.
     | Lühiajaline künnis                     | Sisestage kuude arv lühiajaliste rendilepingute lävena kasutamiseks. Kui rendileping on siin sisestatud kuude arvust lühem või sellega võrdne, klassifitseerib süsteem rendi lühiajalise rendina ja rakendatakse edasilükatud rendi käsitlust. |
     | Väikese väärtuse künnis                      | Sisestage summa, mida kasutatakse väikese väärtusega rendilepingute lävena. Kui vara õiglane väärtus on väiksem või võrdne siia sisestatud väärtusega, klassifitseerib süsteem rendi väikese väärtusega rendina ja rakendatakse edasilükatud rendi käsitlust. |
     | Tasumine hankijale                            | Seadke see suvand väärtusele **Jah**, et lubada rendimaksete sisestamist arvena igale rendilepingul määratud hankija kontole. Kui rendimakse sisestatakse, krediteeritakse hankija kontot. Kui see valik on seadistatud väärtusele **Ei**, krediteeritakse selle asemel konto, mis on määratud **Rendimakse** sisestustüübile lehel **Rendi sisestamise parameetrid**. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

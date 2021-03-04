@@ -45,3 +45,6 @@ Kui teil on vabatahtlikke või teisi mitte-töövõtjaid, võite soovida muuta t
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Töövõtja ja ülemuse iseteeninduse ülevaade](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

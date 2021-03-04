@@ -96,3 +96,6 @@ Enne e-kirjade saatmist peate konfigureerima oma väljamineva e-posti teenuse ja
 [Kanali seadistamise eeltingimused](channels-prerequisites.md)
 
 [Organisatsioonide ja organisatsioonihierarhiate ülevaade](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

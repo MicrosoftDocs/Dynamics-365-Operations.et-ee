@@ -54,3 +54,6 @@ Võib‑olla teete osalise makse, mille puhul tasakaalustamist vajav osa on väg
 
 
 Lisateabe saamiseks vt [Hankijamaksete ülevaade](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

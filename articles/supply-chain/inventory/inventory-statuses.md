@@ -65,3 +65,6 @@ Varude olekuid saate muuta kas lehel **Laoseis asukoha järgi** või kasutades p
 > - Lehel **Laoseis asukoha järgi** saate nuppu **Kuva dimensioonid** kasutades kuvatud dimensioonide põhjal ridu grupeerida ja muuta valitud ridade olekut.
 > - Lehel **Laoseis asukoha järgi** saate valida mitu kirjet ja seejärel kasutada nuppu **Varude oleku muutmine**, et neid kõiki korraga muuta.
 > - Perioodilise ülesande **Varude oleku muutmine** abil on võimalik filtreerida jälgimise dimensioonide järgi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

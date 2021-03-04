@@ -71,3 +71,6 @@ April saab vaadata üle hankija kanded lehel **Hankija kanded**, valides hankija
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Teenusetellimuste kaubavajadusi töödeldakse projekti kaudu. Teenusetellimusele
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

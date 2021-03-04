@@ -196,3 +196,6 @@ Seadistage integreerimine lahendusega Power BI. Lisateavet vt [Power BI integree
 [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

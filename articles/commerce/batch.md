@@ -45,3 +45,6 @@ Väljavõtete sisestamise kaudu tehtava müügitellimuste arvelduse jaoks kasuta
 
 > [!NOTE]
 > Partii jälgimisega kaupade täiustatud töötlemise tugi väljavõtte sisestamise ajal võeti täpsemat laohaldust mittekasutavates stsenaariumites kasutusele Retaili versioonis 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -197,3 +197,6 @@ Selles harjutuses loote uue aruande. Aruanne on osakondade kasumi kõrvutiaruann
 [Finantsaruannete vaatamine](../../../finance/general-ledger/view-financial-reports.md)
 
 [Rakenduse Dynamics 365 Finance ajaveeb](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

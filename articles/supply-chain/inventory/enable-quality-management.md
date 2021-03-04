@@ -504,3 +504,6 @@ Kvaliteediseos tuleb automaatset kvaliteettellimuse genereerimist nõudvas ärip
 [Mittevastavuse haldus](enable-nonconformance-management.md)
 
 [Kvaliteedijuhtimine laoprotsesside jaoks](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

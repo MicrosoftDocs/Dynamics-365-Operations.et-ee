@@ -165,3 +165,6 @@ Kaalutud keskmise allahindluse määra aruanne vastab USA raamatupidamispõhimõ
 |     Currency                          |     Tehingus kasutatava valuuta lühend. Kõik aruanded teisendavad ülekande valuuta aruandevaluutaks.  |
 |     Järelejäänud rendimaksed          |     Maksegraafikus olevate tasumisele kuuluvate rendimaksete kogusumma **alates** kuupäevast.            |
 |     Järelejäänud kaalutud maksed       |     Allesjäänud rendimaksed korrutatud kasutatud allahindluse määraga.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

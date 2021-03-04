@@ -125,3 +125,6 @@ Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonili
 > [!NOTE]
 > Selline rakenduste metaandmete info hankimine on ainuke saadaolev meetod kohapeal juurutatud rakendustele (kui kasutatakse kohalikke äriandmeid (LBD) või asutusesisese juurutuse mudelit).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

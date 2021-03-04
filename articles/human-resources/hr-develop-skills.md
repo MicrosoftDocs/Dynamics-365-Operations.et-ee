@@ -62,3 +62,6 @@ Oskuste kaardistamise profiilid võimaldavad leida praegused töötajad või kan
 Saate luua oskuste profiili analüüsi, et vaadata töötaja, kandidaadi või kontaktisiku pädevuste loendit alates kindlast kuupäevast. Oskuste vahe analüüsiga saate võrrelda isiku oskusi ja kindla töö jaoks vajalikke oskusi.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

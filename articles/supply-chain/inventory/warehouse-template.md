@@ -98,3 +98,6 @@ Rohkem teavet selle kohta, kuidas kasutada laomalli, et kopeerida lao konfigurat
 ## <a name="related-topic"></a>Seotud teema
 
 [Konfigureerimisandmete mallid](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

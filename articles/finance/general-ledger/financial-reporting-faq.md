@@ -88,3 +88,6 @@ Kui teil on aruanne, mis ei vasta D365-s eeldatud olukorrale, võivad järgmised
 2.  Eksportige aruanne Excelisse
 
 Nüüd saate kopeerida andmeid FR Exceli aruandest D365 proovibilansi aruandesse ja võrrelda veerge „Sulgemissaldo“.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

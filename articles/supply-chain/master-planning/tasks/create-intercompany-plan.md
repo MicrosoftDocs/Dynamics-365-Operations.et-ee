@@ -54,3 +54,6 @@ See protseduur näitab, kuidas luua kontsernisisest plaani. Selle protseduuri lo
 2. Klõpsake loendis valitud real olevat linki. Klõpsake valiku StaticPlan linki. Peate olema ettevõttes USMF.  
 3. Klõpsake **Plaanitud tellimused**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Järgmine tabel näitab igal aruandelehel olevaid visualiseeringuid.
 | Hindamiskaardid        | Põhivara üksikasjad |
 
 Analüüsi kuvamiseks koos andmetega peate esmalt värskendama atribuudi AssetTransactionMeasure koondmõõtmist lehel **Üksuse kauplus**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

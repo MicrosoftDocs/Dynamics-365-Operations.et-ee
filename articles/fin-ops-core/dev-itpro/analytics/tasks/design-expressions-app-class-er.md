@@ -157,3 +157,6 @@ Testimiseks käivitage vorminduse vastendamine allalaaditud failiga SampleIncomi
 2. Klõpsake nuppu OK.
     * Vaadake väljund üle XML-vormingus, mis tähistab valitud failist imporditud ja andmemudelisse porditud andmeid. Pange tähele, et töödeldi imporditud TXT-faili ainult 3 rida. 4. real olev kehtetu IBAN-kood jäeti vahele ja teabelogisse lisatakse tõrketeade.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Kui töötate protsessidega, tuleb määratleda iga tootmisprotsessi jaoks seadi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Võite sisestada ka kinnitusteate, mis kuvatakse, kui viisard on läbitud, samut
 4.  Riigi/regiooni puhul kasutatava konfiguratsiooni valimiseks avage vahekaart **Riik/regioon**.
 5.  Konfiguratsiooni lõpetamiseks järgige vaikekonfiguratsiooni juhiseid.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

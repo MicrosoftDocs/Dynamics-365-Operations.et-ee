@@ -41,3 +41,6 @@ Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõ
    | **Kirjeldus** | Põhjuse koodi kirjeldus. |
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

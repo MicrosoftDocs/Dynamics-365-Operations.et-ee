@@ -140,3 +140,6 @@ LIFO-strateegia leiab üles asukoha, mis sisaldab uusimat aegumiskuupäeva ja pl
 1. Pange tähele, et real, kus suvandi **Töö tüüp** väärtus on *Komplekteerimine*, kuvatakse suvandi **Asukoht** väärtuseks *FL-001*. See asukoht sisaldab identifitseerimisnumbrit, millel on uusim aegumiskuupäev (LIFO).
 
 Nendes stesaariumides näidati teile, kuidas asukoha aegumise strateegia suunab töö lao asukohta, millel on kas vanimad või uusimad varud, sõltuvalt valitud strateegiast.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

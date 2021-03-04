@@ -258,3 +258,6 @@ Pärast asukohakorralduste loomist saate töö loomiseks seostada iga korralduse
 
 - Video: [laohalduse konfiguratsiooni üksikasjalik juhis](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Spikriteema: [laotöö juhtimine töömallide ja asukohakorraldustega](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

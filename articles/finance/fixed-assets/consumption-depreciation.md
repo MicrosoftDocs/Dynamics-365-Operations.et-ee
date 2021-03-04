@@ -68,3 +68,6 @@ Kulumisoovitus on 31. jaanuaril järgmine: hinnanguline kogus × protsent × üh
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Hooldustellimuse ridade edasine grupeerimine hooldustellimustesse toimub hooldus
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

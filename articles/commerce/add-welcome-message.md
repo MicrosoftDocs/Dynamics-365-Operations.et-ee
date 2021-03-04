@@ -68,3 +68,6 @@ Iga valitud päise fragmenti kasutava saidi lehe ülaosas ilmub nüüd tervituss
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

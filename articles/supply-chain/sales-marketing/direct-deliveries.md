@@ -53,3 +53,6 @@ Kui loote otsetellimuse, ei saabu kaup, mida müüte, kunagi füüsiliselt teie 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

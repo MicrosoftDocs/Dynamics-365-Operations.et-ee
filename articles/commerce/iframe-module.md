@@ -77,3 +77,6 @@ Et lisada välise video kuvamiseks lehele iFrame-moodul, toimige järgmiselt.
 [Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Sisu turbepoliitika (CSP) haldamine](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

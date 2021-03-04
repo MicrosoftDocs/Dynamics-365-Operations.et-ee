@@ -69,3 +69,6 @@ Kui sisestate andmeallika **DS** tüübile *Arvutatud väli* ja see sisaldab ava
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

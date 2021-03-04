@@ -135,3 +135,6 @@ Järgmises tabelis võetakse kokku, kuidas saadetise konsolideerimine toimib, ku
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Saadetise konsolideerimispoliitikate konfigureerimine](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

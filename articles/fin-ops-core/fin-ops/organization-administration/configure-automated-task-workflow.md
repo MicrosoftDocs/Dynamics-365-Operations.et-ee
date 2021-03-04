@@ -110,3 +110,6 @@ Saate saate inimestele teatisi, kui automatiseeritud ülesannet käitatakse või
     </table>
 
 8. Korrake 3.–7. toimingut iga sündmuse puhul, mille 2. etapis valisite.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

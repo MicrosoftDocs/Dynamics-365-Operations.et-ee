@@ -54,3 +54,6 @@ Alltoodud illustratsioonil kuvatakse näidet hooldusgraafiku kulu arvutuse tulem
 
 ![Joonis 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

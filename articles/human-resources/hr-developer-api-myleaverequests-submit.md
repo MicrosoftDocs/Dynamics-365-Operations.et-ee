@@ -108,3 +108,5 @@ API esitamise kutsumise osana teostab rakendus Human Resources enne esitamist ä
 
 - [MyLeaveRequestsi ülevaade](hr-developer-api-myleaverequests-overview.md)
 - [Autentimine](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

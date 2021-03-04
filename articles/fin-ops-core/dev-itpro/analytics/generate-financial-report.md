@@ -156,3 +156,6 @@ Puuduva konto analüüsi käivitamisel on saadaval järgmised kiirklahvid.
 [Finantsaruandlus](financial-reporting-intro.md)
 
 [Aruandekoosturi liides](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

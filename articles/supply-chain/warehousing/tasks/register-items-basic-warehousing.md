@@ -58,3 +58,6 @@ Selle protseduuriga selgitatakse kaupade registreerimist, kasutades kauba saabum
 2. Klõpsake valikut Toote sissetulek.
 3. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

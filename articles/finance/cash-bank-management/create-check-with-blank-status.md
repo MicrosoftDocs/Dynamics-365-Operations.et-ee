@@ -38,3 +38,6 @@ Lehel **Tšekid** saate teha tšekkide hooldustoiminguid. Näiteks saate luua uu
 Lehe **Tšekid** avamiseks avage **Sularaha- ja pangahaldus \> Pangakontod \> Pangakontod** ning valige Tegumiribal vahekaardil **Maksete haldamine** grupis **Seostuv teave** üksus **Tšekid**. Teise variandina võite avada **Sularaha- ja pangahaldus \> Päringud ja aruanded \> Tšekid**.
 
 Seejärel valige olekuga **Tühi** tšeki loomiseks tegumiribal **Tühjade tšekkide loomine**. Kui süsteem loob tühja tšekki, on seotud pangakonto ajutiselt inaktiveeritud. See käitumismudel vähendab ohtu, et makse luuakse samaaegselt tühja tšeki loomisega. Kui töötlemine on lõpule viidud, aktiveeritakse seotud pangakonto uuesti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

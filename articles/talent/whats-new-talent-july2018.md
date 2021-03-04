@@ -57,3 +57,6 @@ Selles värskenduses laiendati tiitleid. Välja pikkus on nüüd 65 tähemärki.
 ## <a name="benefit-enrollment-status-report"></a>Soodustuse registreerimise olekuaruanne
 
 Integreeritud aruandlus soodustuste saamiseks avatud registreerimise kohta annab teile selge ülevaate, kus teie töövõtjad avatud registreerimise protsessis on. Saate teada, mitu töövõtjad on protsessi lõpule viinud, mitu töövõtjat seda praegu lõpule viivad ja mitu töövõtjat pole seda alustanud. Lisaks saate kiiresti vaadata võimalikke probleeme, mis tekitavad töövõtja registreerimise ajal, ja täielikku logi kõigi töövõtjate edastustest. Seetõttu saate hõlpsalt kinnitada ja auditeerida töövõtjate edastusi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

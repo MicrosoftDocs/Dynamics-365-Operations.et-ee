@@ -63,3 +63,6 @@ Sisestatud töölehe kandeid saab salvestada Kande mallidena ja rakendada uue t�
 29. Sisestage kandele rakendatav summa väljale **Summa**. Väli **Summa** kuvatakse ainult siis, kui kande malli tüüp on Protsent.  
 30. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -257,3 +257,6 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
 
     > [!NOTE]
     > Kui luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile toodetele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

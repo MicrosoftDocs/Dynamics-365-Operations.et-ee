@@ -187,3 +187,6 @@ Nende veergude vaatamise lihtsustamiseks, mille kallal readefinitsioonis tööta
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

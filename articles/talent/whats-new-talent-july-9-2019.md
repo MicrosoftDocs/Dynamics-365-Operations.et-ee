@@ -115,3 +115,6 @@ Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate 
 - **Puhkuse tüüp**
 - **Töötaja pangakonto**
 - **Tööaja kalender**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

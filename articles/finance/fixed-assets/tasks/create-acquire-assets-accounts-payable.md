@@ -56,3 +56,6 @@ See ülesande juhend annab ülevaate põhivara loomise ja soetamise kohta ostupr
 17. Klõpsake loendis valitud real olevat linki.
 18. Klõpsake käsku **Sisesta**. Põhivara luuakse ja soetatakse arve sisestamisel.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

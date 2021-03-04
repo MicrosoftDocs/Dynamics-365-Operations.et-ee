@@ -85,3 +85,6 @@ Eelvaatefunktsioonid on saadaval ainult keskkondades **Liivakast**.
 
 Vt [Jõudluse ülevaadete printimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews), rakenduse Dynamics 365 2019. aasta väljalaskevoo plaanis 2.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

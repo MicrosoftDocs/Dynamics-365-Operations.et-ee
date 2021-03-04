@@ -42,3 +42,6 @@ See teema näitab, kuidas seadistada finantsdimensiooni vaikemallid. Malle saab 
 11. Sisestage finantsdimensioonide väärtused, mis vastavad sisestatud protsendile.
 12. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Kasutage lehte **Topeltkasutuse sertifikaadid** iga toote ja riigi jaoks nõutav
     | Arvele printimine | Märkige see ruut, et printida sertifikaadi number arvetele, mis on adresseeritud määratud riigile kindlal kuupäevavahemikul. |
     | Saatelehele printimine | Märkige see ruut, et printida sertifikaadi number saatelehtedele, mis on adresseeritud määratud riigile kindlal kuupäevavahemikul. |
     | Müügitellimusele printimine | Märkige see ruut, et printida sertifikaadi number müügitellimustele, mis on adresseeritud määratud riigile kindlal kuupäevavahemikul. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

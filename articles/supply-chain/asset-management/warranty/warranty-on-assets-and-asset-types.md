@@ -54,3 +54,6 @@ Selles teemas selgitatakse, kuidas varahalduses seadistada varade ja varatüüpi
 
 > [!NOTE]
 > Hankija garantiiga kaetud varale töökäsu loomisel, kui töökäsul on garantiiaja jooksul eeldatav alguskuupäev, saate garantiilepingu kohta teatise. Seejärel saate töökäsu vastavalt vajadusele tühistada.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

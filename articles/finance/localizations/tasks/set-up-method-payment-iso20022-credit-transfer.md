@@ -48,3 +48,6 @@ See on kolmas viiest protseduurist, mis illustreerib hankija makseprotsessi, kas
 10. Täpsustage väljal Maksekonto väärtusi DEMF OPER.
 11. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

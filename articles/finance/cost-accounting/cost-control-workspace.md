@@ -158,3 +158,6 @@ Lisaressursid
 [Kuluobjekti kontrollijate pääsuõiguste määratlemine](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

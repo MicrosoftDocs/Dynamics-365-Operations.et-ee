@@ -54,3 +54,6 @@ See teema kirjeldab lähetustöörühma loomist. Pärast lähetustöörühma loo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

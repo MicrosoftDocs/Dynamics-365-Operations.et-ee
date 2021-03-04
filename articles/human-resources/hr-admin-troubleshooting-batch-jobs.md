@@ -65,3 +65,6 @@ Järgmised pakett-tööd peaksid töötama öösiti või töövälisel ajal. Kon
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Jõudluse optimeerimine automaatsete puhastamisülesannetega](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ See protseduur näitab, kuidas seadistada konfigureeritud tootevariantidele toot
 43. Sulgege leht.
 44. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

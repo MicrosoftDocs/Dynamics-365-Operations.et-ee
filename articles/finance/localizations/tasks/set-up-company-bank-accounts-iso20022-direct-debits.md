@@ -60,3 +60,6 @@ See on teine viiest protseduurist, mis näitab kliendi makseprotsessi, kasutades
     * Näiteks valige pangakonto DEMF OPER.  
 6. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

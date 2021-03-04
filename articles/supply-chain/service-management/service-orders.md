@@ -89,3 +89,6 @@ Aasta teisel poolel otsustab teie klient, et teenusekülastused on liiga harvad.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -242,3 +242,6 @@ Lisateavet <strong>SysQueryRangeUtil</strong>-kuupäevameetodite kohta ja mõne 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

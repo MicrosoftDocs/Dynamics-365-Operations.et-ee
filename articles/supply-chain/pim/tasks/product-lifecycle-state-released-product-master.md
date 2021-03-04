@@ -54,3 +54,6 @@ See protseduur näitab, kuidas määrata toote elutsükli olek väljastatud toot
 2. Märkige loendis valitud rida.
 3. Väljal Toote elutsükli olek sisestage või valige väärtus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

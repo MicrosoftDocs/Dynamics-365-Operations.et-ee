@@ -41,3 +41,6 @@ Selles teemas on loetletud Dynamics 365 for Unified Operationsi mobiilirakenduse
 | [Müügitellimused](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Saate olla oma müügitellimustega kursis igal ajal ja igal pool.                                                                                                                          |  2017. jaanuar                  |
 | [Hankija koostöö](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta. |2017. jaanuar    |
 | [Varahaldus](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | See tööruum võimaldab kasutajatel vaadata ja luua hooldusnõudeid ja töökäske. Kasutajad saavad määratud töökäsu töösid vaadata ka kalendri- või loendivaates. Samuti saab vaadata ja otsida varasid ja töö asukohti. |2019. oktoober    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

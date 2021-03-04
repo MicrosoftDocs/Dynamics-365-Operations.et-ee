@@ -78,3 +78,6 @@ Järgmine illustratsioon näitab andmevoogu.
 [Plaanile filtrite rakendamine](plan-filters.md)
 
 [Planeerimistöö tühistamine](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

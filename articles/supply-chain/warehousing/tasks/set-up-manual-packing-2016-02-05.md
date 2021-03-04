@@ -95,3 +95,6 @@ Pakkimisprotsess võimaldab toodete kinnitamist ja pakendamist konteineritesse. 
 8. Sisestage või valige väärtus väljal Kaaluühik.
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

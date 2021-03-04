@@ -53,3 +53,6 @@ See protseduur juhendab teid kaubanduse hinna korrigeerimisel. Hinna korrigeerim
 14. Sulgege leht.
 15. Värskendage lehte.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

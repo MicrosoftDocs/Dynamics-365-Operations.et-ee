@@ -123,3 +123,6 @@ See ülesande juhend seadistab Põhivara sisestusreeglid.  See kasutab USMF-i ju
 88. Määratlega väljal **Põhikonto** soovitud väärtused.
 89. Määratlega väljal **Vastaskonto** soovitud väärtused.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

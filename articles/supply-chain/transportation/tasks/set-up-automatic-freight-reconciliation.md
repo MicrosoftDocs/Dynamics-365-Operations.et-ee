@@ -72,3 +72,6 @@ See protseduur näitab, kuidas seadistada andmeid veose automaatseks vastavussev
 11. Valige või sisestage väärtus väljal Alamakse põhjuse kood.
 12. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Pakktöötluse akna seadistamisel saadetakse teatis teatisereegli töötlemise k
 
 1. Avage **Süsteemihaldus** &gt; **Perioodilised ülesanded** &gt; **Teatised** &gt; **Tähtajateatised**.
 2. Sisestage asjakohane teave dialoogiboksi **Tähtajateatised**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

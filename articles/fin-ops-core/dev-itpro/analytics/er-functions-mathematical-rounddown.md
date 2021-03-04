@@ -67,3 +67,6 @@ See funktsioon toimib nagu [ROUND](er-functions-mathematical-round.md), kuid see
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Matemaatilised funktsioonid](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

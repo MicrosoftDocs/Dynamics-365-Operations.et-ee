@@ -131,3 +131,6 @@ Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste hal
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

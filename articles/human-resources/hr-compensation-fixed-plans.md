@@ -98,3 +98,6 @@ Nüüd saate määrata põhipalga plaani juurde töötaja. Avage leht **Töötaj
 
 Süsteem kontrollib, kas klassi või astmiku tüüpi tasuplaani puhul on määratud tasusumma töötaja ametikohale kehtival tasutasemel minimaalse ja maksimaalse viitepunkti vahel. Kui tasusumma on lubatud vahemikust väljas, kuvatakse hoiatus või veateade, olenevalt põhipalga plaanile määratud tolerantsi tasemest.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

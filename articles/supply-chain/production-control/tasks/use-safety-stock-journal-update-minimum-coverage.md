@@ -66,3 +66,6 @@ See protseduur näitab, kuidas arvutada varasemate kannete põhjal minimaalse la
 5. Klõpsake **Toimingupaanil** valikut Plaan.
 6. Klõpsake valikut **Kauba laovarud**. Pange tähele, et väärtuseks **Miinimumkogus** on määratud uus miinimumkogus puhvervaru töölehelt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

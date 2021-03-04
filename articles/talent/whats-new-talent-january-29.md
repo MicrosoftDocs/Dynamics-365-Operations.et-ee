@@ -41,3 +41,6 @@ Puhkustele ja puudumistele (suvandi **Inimressursid** parameetrid) on lisatud uu
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Töötaja värbamistoimingud on kinni jäänud olekusse Töövoog on lõpetatud
 Tehtud on muudatused, et parandada probleem, milles väike hulk töövoogusid lõpevad olekuga Töövoog on lõpetatud. Uued töövood peaksid nüüd minema töövoo lõppemisel olekusse Lõpule viidud. Kõik töövood, mille olek on Töövoog on lõpetatud, viiakse tõrkeolekusse, et võimaldada selle värskendamist või eemaldamist. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

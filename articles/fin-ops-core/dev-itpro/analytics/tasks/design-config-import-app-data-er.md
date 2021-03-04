@@ -113,3 +113,6 @@ Käivitate loodud mudeli vastendamise testimise eesmärgil, et vaadata, kuidas k
     * Valige käsk Sirvi ja vali fail Response4.xml.
 16. Valige nupp OK.
     * Vaadake loodud väljundit. Vastusetüüpi on nüüd tuvastatud õigesti failiga Response1.xml võrdsena.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

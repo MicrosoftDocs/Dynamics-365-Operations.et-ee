@@ -149,3 +149,6 @@ Saate kasutada lehte **Töö üksikasjad** loodud töö kuvamiseks ja töökaust
 > Kui kuvatakse dialoogiboks **Muuda töökausta** võib väli **Töökausta ID** olla vaikimisi tühi. Kui väli on tühi ja valite siis muudatuste rakendamiseks **OK**, eemaldatakse töökaust tööst täielikult.
 >
 > Lisaks töökaustade vahetamisele, saate kasutada seda protseduuri töökausta lisamiseks mis tahes tööüksusele, millelt see puudub või töökausta eemaldamiseks tööüksusest, millel see on.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

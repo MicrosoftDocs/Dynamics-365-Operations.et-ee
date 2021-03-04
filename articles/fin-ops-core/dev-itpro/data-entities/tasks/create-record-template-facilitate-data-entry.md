@@ -43,3 +43,6 @@ Selles teemas näidatakse, kuidas luua kirje malli, nii et välja väärtusi, mi
 13. Valige nupp **OK**.
 14. Valige suvand **Sule**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

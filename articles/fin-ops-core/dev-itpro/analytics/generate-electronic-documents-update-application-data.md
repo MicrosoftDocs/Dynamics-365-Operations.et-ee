@@ -40,3 +40,6 @@ Lisateabe saamiseks selle funktsiooni kohta esitage tegevusjuhiste kogum Elektro
 - [Elektroonilise aruandluse andmemudeli konfiguratsioon: Intrastat (mudel)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Elektroonilise aruandluse mudeli vastendamise konfiguratsioon: Intrastat (vastendamine)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Elektroonilise aruandluse vormingu konfiguratsioon: Intrastat (vorming)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

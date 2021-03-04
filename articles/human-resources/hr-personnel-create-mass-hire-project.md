@@ -48,3 +48,6 @@ See protseduur annab ülevaate hulgivärbamisprojekti seadistamise protsessist. 
     * Lisaks saate valida uute ametikohtade osakonna.  
 13. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

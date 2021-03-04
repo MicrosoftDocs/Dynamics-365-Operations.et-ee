@@ -99,3 +99,6 @@ Transpordihalduse mootorite metaandmed konfigureeritakse erinevate mootori tüü
 | 3        | Sihtkoha alguse sihtnumber | Määramine | String    | Sihtnumber    | Valitud  |
 | 4        | Sihtkoha lõpu sihtnumber   | Määramine | String    | Sihtnumber    | Valitud  |
 | 5        | Sihtriik           | Määramine | String    | Riik/regioon |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

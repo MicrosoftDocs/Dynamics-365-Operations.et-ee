@@ -98,3 +98,6 @@ Selles versioonis sisaldub mitu täiendavat veaparandust.
 - Kui peatöövõtja on palgatud, pole vahekaart **Kompensatsioon** taotluse/toimingu lehel saadaval.
 - Taotluse lõpetamisprotsessi kestel ei saa te enne jätkata, kuni kõik nõutud väljad on täidetud.
 - Lahendatud on sortimisjärjestuse ja kuupäeva kuvamise probleemid personalijuhtimise analüüsis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

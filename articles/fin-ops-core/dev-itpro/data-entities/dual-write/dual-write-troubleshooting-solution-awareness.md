@@ -45,3 +45,6 @@ Teile võidakse kuvada lehel **Topeltkirjutus** tõrketeade, mis sarnaneb järgm
 *Üksust nimega „msdyn\_dualwriteentitymap” koos üksusega namemapping='Logical' ei leitud MetadataCache'is.*
 
 Probleemi lahendamiseks veenduge, et topeltkirjutuse tuumlahendus on installitud Dataverse'is. Topeltkirjutuse tuumlahendus on lahenduse teadlikkuse eeltingimus.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

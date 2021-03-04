@@ -51,3 +51,6 @@ Kui töö tüüp on komplekteerimine või inventuur, saab teha järgmisi valikui
 | Osa komplekteerimise kinnitus | Saadaval komplekteerimise ja inventuuri töötüüpide jaoks. Toote kinnitamine valitakse automaatselt. Võimaldab iga varude üksust mobiilsel seadmel skannides kinnitada. |
 |  Osade maksimaalne arv  |                   Komplekteerimistöö jaoks saadaval, kui osa komplekteerimise kinnitamine on lubatud. Määrab piirmäära ühikute arvule, mille peate kinnitama.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

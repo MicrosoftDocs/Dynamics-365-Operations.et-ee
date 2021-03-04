@@ -93,3 +93,6 @@ Järgmine protseduur aitab tagada, et loodud täiendamise mall rakendub voo mall
 6. Valige väljal **Voo etapikood** see voo etapikood, mille valisite täiendamise mallis.
 
 Sooritate need sammud iga juriidilise isiku puhul.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

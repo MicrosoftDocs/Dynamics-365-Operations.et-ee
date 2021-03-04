@@ -68,3 +68,6 @@ Selles näites kontrollige enne töötaja konto konfigureerimist, et „SHANNONI
 6. Väljal **Tootmisüksus** saate määrata töötajale vaikefiltri. See tagab, et kui töötaja seadmesse sisse logib, kuvatakse ainult valitud tootmisüksuse tootmistööd. Sisestage soovitud väärtus.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

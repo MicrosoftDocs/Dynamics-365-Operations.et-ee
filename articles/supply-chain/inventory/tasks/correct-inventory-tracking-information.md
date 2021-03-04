@@ -64,3 +64,6 @@ See protseduur juhib teid läbi varude üleviimistöölehe koostamise ja sisesta
 2. Klõpsake suvandit Kanded.
     * Siin näete kandeid, mis loodi, kui oma töölehe sisestasite.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

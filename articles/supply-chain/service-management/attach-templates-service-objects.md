@@ -55,3 +55,6 @@ Mallkoosluse saab lisada hooldusobjekti seotuse hulka. Hooldusobjekti seotuse sa
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

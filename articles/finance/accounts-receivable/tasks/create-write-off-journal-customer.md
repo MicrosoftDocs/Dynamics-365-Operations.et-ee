@@ -84,3 +84,6 @@ See ülesande juhend näitab, kuidas seadistada mahakandmiste parameetreid ja se
 5. Klõpsake valikut **OK**.
 6. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

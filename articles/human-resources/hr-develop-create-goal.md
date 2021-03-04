@@ -58,3 +58,6 @@ Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja sid
     * Sageli on mitu eesmärki, mis on töörühma liikmete või kõigi töötajate puhul samad või sarnased.     Teie inimressursside haldur või juht saab luua eesmärgigruppe, milles on vähemalt üks eesmärgimall. Saate lisada eesmärgigrupist eesmärke ja muuta neid siis nii, et need vastaksid teie ajaskaaladele.  
     * Hindamise loomisel saate sellele hindamisele eesmärke lisada. Vaadake hindamiste tegevuse juhisest, kuidas hindamistele eesmärke lisada.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

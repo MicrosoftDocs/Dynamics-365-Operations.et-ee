@@ -40,3 +40,6 @@ See protseduur näitab, kuidas sisestatud töölehe kandeid töölehele paigutad
 9. Klõpsake **OK**, et sulgeda filtrileht.
 10. Klõpsake **OK**, et alustada töölehele kandmist. Pärast protsessi lõpetamist koostatakse aruanne.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

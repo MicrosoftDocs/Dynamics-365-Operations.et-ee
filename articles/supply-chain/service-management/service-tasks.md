@@ -90,3 +90,6 @@ Kui loote automaatselt hooldustellimusi, siis saate kasutada hooldustoimingut gr
 2. Vahekaardil **Häälestus** valige väljal **Hooldustellimuste ühendamine** valik **Hooldustoimingu alusel**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

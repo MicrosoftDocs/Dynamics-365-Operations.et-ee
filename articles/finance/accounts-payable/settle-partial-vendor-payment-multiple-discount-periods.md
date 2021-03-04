@@ -140,3 +140,6 @@ Lehel **Hankija kanded** näeb April, et uus saldo on 200,00.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

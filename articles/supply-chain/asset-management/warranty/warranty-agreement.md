@@ -55,3 +55,6 @@ Garantiileping võib sisaldada mitut lepingurida, mis katavad tööaja, kulude j
     4. Sisestage väljale **Protsent** garantii rea laovarude protsent. Protsent näitab, kui palju teie ettevõte katab.
 
 ![Garantiileht](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

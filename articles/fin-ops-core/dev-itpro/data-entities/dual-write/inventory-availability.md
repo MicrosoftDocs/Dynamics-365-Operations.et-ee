@@ -57,3 +57,6 @@ Dialoogiboksis kuvatakse Supply Chain Managementist pärit ATP teave. See teave 
 - Sissetuleku kogus
 - Väljamineku kogus
 - Laos olev kogus
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

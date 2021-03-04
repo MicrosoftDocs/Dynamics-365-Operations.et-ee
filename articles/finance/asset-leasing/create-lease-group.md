@@ -50,3 +50,6 @@ Pärast rendigruppide loomist saate määrata igale grupile raamatu. Rendikirje 
 1. Avage **Vara rentimine \> Seadistus \> Rendigrupp**.
 2. Valige rendigrupp ja valige seejärel **Raamatud**.
 3. Valige **Uus** ja valige seejärel väljal **Raamatu tüüp** rendigrupile määramiseks raamat. Kui renti tuleb arvestada mitmel erineval viisil, saate määrata rendigrupile mitu raamatut.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

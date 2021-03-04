@@ -90,3 +90,6 @@ See protseduur näitab, kuidas müügilepingut täita, seostades sellega müügi
 23. Klõpsake valikut Manustatud müügileping.
 24. Klõpsake vahekaarti Täitmine.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

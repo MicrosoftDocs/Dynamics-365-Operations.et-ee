@@ -71,3 +71,6 @@ Pangaväljavõtte vastavusse viimise tühistamise funktsioon võimaldab tühista
 Pangaväljavõtte vastavusseviimise saab tühistada ainult selle sisestamise kronoloogilises järjestuses. Kui pangaväljavõtte vastavusseviimine tühistatakse, tühistatakse uued kanded ja parandused ning kõik muud kanded tähistatakse kui vastavusse viimata.
  
 Pangaväljavõtte vastavusseviimise tühistamiseks valige pangaväljavõte ja valige **Pangaväljavõte > Tühista panga vastavusseviimine**. Lehel **Tühista panga vastavusseviimine** sisestage **Põhjusekood**, **Põhjuse kommentaar** ja **Tühistamise kuupäev**. Tühistamise alustamiseks valige **OK**. Pange tähele, et pangaväljavõtte tühistamise kuupäev peab olema pangaväljavõtte kuupäeval või pärast seda. Pärast pangaväljavõtte vastavusseviimise tühistamist uuendatakse välja **Tühistamise kuupäev** panga väljavõtte jaoks sisestatud **Tühistamise kuupäevaga**. Klõpsake nuppu **Kanded**, et vaadata kandeid, mille vastavusseviimine tühistati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

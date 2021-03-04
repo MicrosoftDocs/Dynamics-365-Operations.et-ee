@@ -56,3 +56,6 @@ Tühistatud tehingu taastamiseks toimige järgmiselt.
 Kui valite käsu **Tühista jälitus**, kuvatakse dialoogiboks, kus kuvatakse nii algsed kui ka tühistatud kanded, koos lingitud jälgimisnumbriga.
 
 Saate tühistusi ka vastaval lehel **Graafikud** jälgida. Kustutatakse väli **Tühistatud**, samas kui valitakse väli **Töölehele sisestatud**. Lisaks värskendatakse väli **Viimane töölehe number** tühistamise kande töölehe numbriga ja väli **Töölehe number** värskendatakse tühistamise töölehe numbriga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

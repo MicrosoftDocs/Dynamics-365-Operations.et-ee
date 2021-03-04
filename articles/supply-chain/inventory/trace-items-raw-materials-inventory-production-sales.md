@@ -140,3 +140,6 @@ Saate luua aruande **Klientidele saadetud**, et tuvastada tarnitud kauba või to
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Kas ma saan jälgida kaastooteid ja kõrvalsaaduseid?
 Saate jälgida kaastooteid, kuid te ei saa jälgida kõrvalsaadusi, sest tavaliselt ei ole kõrvalsaadustele määratud jälgimisdimensioone. Kaupa jälgides lisatakse jälgimise üksikasjadele kõik seotud kaastooted. Kaastoodet sisaldava sõlme üksikasjadesse on lisatud sõna „kaastoode”. Saate vaadata ka kaastoote üksikasju, valides jälgimise üksikasjades sõlme ja klõpsates siis kiirkaarti **Tootmine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

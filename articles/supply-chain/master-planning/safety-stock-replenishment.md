@@ -116,3 +116,6 @@ Puhvervaru nõudekande täitmine kaotab oma tähtsuse, kui süsteem tuvastab, et
 Koondplaneerimise katvuse faasis ei deprioriseerita enam puhvervaru täiendamist. Enne mis tahes vajaduse tüüpi saab kasutada vaba kaubavaru. Viivituse arvutamisel lisatakse hilinenud müügiridade, kooslusridade nõuete ja kõigi muude nõudluse tüüpide ülevaatamisel uus loogika, et määrata, kas neid on võimalik puhvervaru kasutades õigeaegselt kätte toimetada. Kui süsteem tuvastab, et puhvervaru kasutamine võib viivitusi vähendada, siis asendatakse müügiridadel või koosluseridadel algne kate puhvervaruga ja süsteem käitab hoopis puhvervaru täiendamise.
 
 Kui plaani või kauba jaoks pole seatud hilinemise arvutamist, siis on puhvervaru piirangul samasugune tähtsus nagu mis tahes muul nõudluse tüübil. See tähendab, et vaba kaubavaru ja muud saadaolevad varud on reserveeritud enne muid nõudluse tüüpe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

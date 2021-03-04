@@ -53,3 +53,6 @@ See on kolmas protseduur kaheksast, mis selgitab kombinatsioonide loomist dimens
 20. Sulgege leht.
 21. Sulgege vorm **Väljastatud toote üksikasjad**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

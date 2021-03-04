@@ -224,3 +224,6 @@ ER-i näidisvormingu ER-avaldis **Emailing.TxtToUse.Body** on konfigureeritud ko
 
 ## <a name="additional-resources"></a>Lisaressursid
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

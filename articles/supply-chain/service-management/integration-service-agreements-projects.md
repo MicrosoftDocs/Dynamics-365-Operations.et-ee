@@ -83,3 +83,6 @@ Samuti saate lubada väljad **Algusaeg** ja **Lõppaeg** vahekaardil **Projekt**
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

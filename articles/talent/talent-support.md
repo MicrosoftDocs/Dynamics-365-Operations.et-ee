@@ -48,3 +48,6 @@ Eraldiseisva rakenduse Onboard toe hankimiseks kasutage järgmises tabelis oleva
 | Teatage probleemist. | Valige lehe ülemises parempoolses nurgas nupp **Spikker** (**?**) ja seejärel **Probleemist teatamine**. Sisestage probleemi kirjeldus ja lisage meiliaadress, kui soovite teatatava probleemi kohta tagasisidet saada. |
 | Abi saamine küsimuste korrral Talenti litsentsimise kohta. | Võtke ühendust partneri või Microsofti müügiesindajaga. |
 | Onboardis uute funktsioonide ja võimaluste taotlemine. | Valige nupp **Spikker** (**?**) ja seejärel **ideed**. Saate külastada [Dynamics 365 Talent: Onboard Ideid](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), et vaadata, otsida või hääletada olemasolevate ideede poolt või lisada uusi. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

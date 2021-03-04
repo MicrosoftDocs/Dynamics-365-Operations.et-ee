@@ -72,3 +72,6 @@ Lisateavet muudatuste avaldamise kohta vt teemast [Talenti ettevalmistamine](htt
 ### <a name="view-extended-information-for-performance-in-manager-self-service"></a>Halduri iseteeninduses jõudluse lisateabe kuvamine
 
 Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate jõudlust. Praegu saavad rea haldurid määrata ja uuendada jõudluse eesmärke ja väljastada uusi arvustusi. Lisaks saavad otsesed juhid ja nende töötajad hallata ja värskendada jõudluse töölehti, mis aitavad tagada sujuva jõudluse ülevaate protsessi. Selle muudatuse rakendamisel saavad juhid vaadata ja hallata lisaks otseste alluvate jõudlusega seotud teabele ka oma kaudsete alluvate jõudlusega seotud teavet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

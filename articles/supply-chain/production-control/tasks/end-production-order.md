@@ -46,3 +46,6 @@ See protseduur näitab, kuidas tootmistellimust lõpetada. Selle protseduuri loo
 1. Klõpsake toimingupaanil valikut Kulude haldamine.
 2. Klõpsake käsku Kuva kulu võrdlus.
     * Pärast seda, kui tootmistellimus on lõpetatud, saate võrrelda eeldatavat omahinda realiseeritud omahinnaga, et saada ülevaade tootmishälvetest.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Kui töötate limiteeritud materjalidega, sõltub plaanimine ka tootmiseks vajal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

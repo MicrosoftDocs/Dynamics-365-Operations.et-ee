@@ -38,3 +38,6 @@ Avatud küsimused võimaldavad vastajatel oma vastuse anda. Saate määrata, kas
     * Avatud küsimuse puhul kasutatakse sisendi tüüpi Tekst või Märkus.  
 6. Sisestage küsimus väljale Tekst.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

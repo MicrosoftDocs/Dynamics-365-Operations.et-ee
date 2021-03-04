@@ -60,3 +60,6 @@ Tööolek on **Tühistamine**, kuni Plaanimise optimeerimise teenus kinnitab, et
 [Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
 
 [Plaanile filtrite rakendamine](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -267,3 +267,6 @@ Varahalduses saate automaatselt värskendada hooldustöö tüübi prognoosides t
 2. Dialoogiboksis **Hooldustöö tüübi prognoosi värskendamine** vahekaardil **Kaasatavad kirjed** saate vastavalt vajadusele lisada konkreetsete hooldustööde tüüpide valikuid. Valige **Filter** ja siis valige valikute tegemiseks **Vali**.
 3. Vahekaardil **Taustal käitamine** saate vastavalt vajadusele seadistada automaatse värskenduse pakett-tööna.
 4. Valige **OK**, et alustada prognoosi värskendamist.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

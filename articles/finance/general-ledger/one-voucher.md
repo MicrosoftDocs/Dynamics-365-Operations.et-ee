@@ -186,3 +186,6 @@ Kui parandus on vaja teha Müügireskontro või Ostureskontro pearaamatukontole,
 ### <a name="the-system-allows-it"></a>„Süsteem lubab seda”
 
 Organisatsioonid kasutavad sageli ühe kande funktsiooni lihtsalt seetõttu, et süsteem lubab neil seda kasutada, mõistmata selle mõju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

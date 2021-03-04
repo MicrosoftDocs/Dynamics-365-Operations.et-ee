@@ -56,3 +56,6 @@ Kui loote töökäsu, võite soovida määratleda selle teenindustasemeid ja lis
 2. Valige suvand **Uus**.
 3. Sisestage kirjeldus väljale **Kirjeldus**.
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

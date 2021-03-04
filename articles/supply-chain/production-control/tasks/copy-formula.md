@@ -65,3 +65,6 @@ See protseduur keskendub valemi loomisele, mis sisaldab samu koostisosi kui olem
 5. Klõpsake Vali.
 6. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

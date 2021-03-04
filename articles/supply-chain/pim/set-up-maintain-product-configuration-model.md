@@ -53,3 +53,6 @@ See artikkel kirjeldab toote konfiguratsioonimudeli seadistamise ja loomise samm
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

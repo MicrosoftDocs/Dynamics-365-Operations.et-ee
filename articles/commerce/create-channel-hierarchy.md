@@ -107,3 +107,6 @@ Järgmine pilt näitab sõlme näidist koos lisatud toote atribuudigruppidega.
 [Sortimentide häälestamine](set-up-assortments.md)
 
 [Atribuutide ja atribuudigruppide haldamine](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonili
 - [Makseviisi seadistamine ISO20022 kreeditkorralduse jaoks](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Makseviisi seadistamine ISO20022 otsekorralduse puhul](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Hankijate ja hankija pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

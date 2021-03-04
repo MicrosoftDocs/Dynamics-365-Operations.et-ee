@@ -90,3 +90,6 @@ See ülesande juhend näitab, kuidas luua otsekorralduse luba ja seda arvel kasu
 3. Valige klient, kellele loa lisasite.
 4. Väljale **Otsedeebeti loa ID** sisestage või valige väärtus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

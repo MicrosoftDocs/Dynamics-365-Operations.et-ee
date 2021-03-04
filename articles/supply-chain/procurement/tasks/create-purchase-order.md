@@ -74,3 +74,6 @@ Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi. Koondplanee
 
 2. Valige nupp **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

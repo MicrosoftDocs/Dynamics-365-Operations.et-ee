@@ -64,3 +64,6 @@ Töö toormaterjalide komplekteerimiseks luuakse väljastamise ajal. Töö luuak
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

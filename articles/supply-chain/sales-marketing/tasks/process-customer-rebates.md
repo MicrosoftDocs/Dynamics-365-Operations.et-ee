@@ -82,3 +82,6 @@ See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest
     - Tagasimaksete juurdekasvukonto on krediteeritud, et kajastada kliendi tulevasi kohustusi.
     - Tagasimakse kulukonto on debiteeritud, et tuvastada müügiga kaasnevat kulu.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

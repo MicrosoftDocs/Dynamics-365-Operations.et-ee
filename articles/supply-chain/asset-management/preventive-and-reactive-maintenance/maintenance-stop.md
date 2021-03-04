@@ -97,3 +97,6 @@ Järgneval illustratsioonil kuvatakse näidet üksikasjade vaatest **Hoolduskatk
 - Võite kopeerida varasid ühest hoolduskatkestuse tegevusest teise. Valige jaotises **Kõik hoolduskatkestuse tegevused** nupp **Hoolduskatkestuse tegevuste kopeerimine** ja tehke oma valikud väljadel **Hoolduskatkestuse tegevustest** ja **Hoolduskatkestuse tegevuseni** ning klõpsake **OK**.
 - Klõpsake jaotises **Kõik hoolduskatkestuse tegevused** nuppu **Hooldusgraafiku read** või nuppu **Aktiivsed töökäsud**, et avata seotud loendeid ja vaadata valitud hoolduskatkestuse tegevusega seotud ridu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

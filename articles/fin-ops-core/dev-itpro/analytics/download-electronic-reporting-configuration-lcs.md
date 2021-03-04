@@ -76,3 +76,6 @@ Selles teemas selgitatakse, kuidas teenuse Microsoft Dynamics Lifecycle Services
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
 [Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

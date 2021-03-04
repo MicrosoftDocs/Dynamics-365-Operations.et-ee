@@ -45,3 +45,6 @@ Juriidiline isik on organisatsioon, mis on tuvastatav õigusliku asutusega regis
 15. Laiendage jaotist **Maksu registreerimine**. Sisestage jaotisesse **Maksu registreerimine** registreerimisnumbrid, mida kasutatakse maksuhalduritele teatamiseks.
 16. Laiendage jaotist **Maks 1099**. Sisestage jaotises **Maks 1099** juriidilisele isikule teave 1099.  
 17. Klõpsake valikut **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

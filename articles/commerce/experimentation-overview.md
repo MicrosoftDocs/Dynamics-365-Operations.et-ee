@@ -57,3 +57,6 @@ Lisateavet iga eksperimenteerimisprotsessi etapi kohta leiate järgmistest teema
 
 ## <a name="next-step"></a>Järgmine etapp
 [Hüpoteesi tuvastamine ja eksperimendi edumõõdikute määramine](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

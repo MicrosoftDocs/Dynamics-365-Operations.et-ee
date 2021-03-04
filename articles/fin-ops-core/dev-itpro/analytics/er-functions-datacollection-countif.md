@@ -69,3 +69,6 @@ Lisateavet selle funktsiooni kasutamise kohta vaadake tegevuse juhisest [ER-i lo
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Andmete kogumise funktsioonid](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Loote oma konfiguratsiooni kliendiarve mudelist, tuletades selle Microsofti antu
 3. Tippige väljale Nimi tekst Kliendiarve mudel (kohandatud).
 4. Klõpsake Loo konfiguratsioon.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

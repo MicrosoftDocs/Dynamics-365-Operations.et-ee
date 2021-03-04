@@ -31,3 +31,6 @@ Microsoft Dynamics AX 4.0 sisu TechNetis ja MSDN-is on kasutuselt kõrvaldatud. 
 
 - [Microsofti elutsüklipoliitika](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
 - [Dynamics AX 2012 toetatud täiendusteed](https://technet.microsoft.com/library/dd362093.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

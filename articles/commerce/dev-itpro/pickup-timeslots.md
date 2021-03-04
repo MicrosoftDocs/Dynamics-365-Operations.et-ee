@@ -123,3 +123,6 @@ Järgmisel joonisel on kujutatud e-kaubanduse tellimuse näide, kus järeletulem
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Järeletulemisteabe moodul](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

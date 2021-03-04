@@ -83,3 +83,6 @@ Lisaks toetab lean manufacturing alltöövõtu tegevustega viidatud teenuste ost
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Tegevuse juhise taasesitamiseks LCS-ist tehke järgmist.
 2. Valige **Ava LCS-ist**.
 3. Valige salvestatud tegevuse juhist omavad teek ja BPM-i sõlm.
 4. Avage tegevuse juhis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

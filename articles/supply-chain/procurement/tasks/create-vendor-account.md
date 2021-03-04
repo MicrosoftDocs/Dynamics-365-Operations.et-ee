@@ -59,3 +59,6 @@ See protseduur selgitab, kuidas luua hankijakontot ning lisada aadressi ja konta
 7. Sulgege leht.
 8. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

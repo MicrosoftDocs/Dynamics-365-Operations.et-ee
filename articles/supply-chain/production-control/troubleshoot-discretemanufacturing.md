@@ -142,3 +142,6 @@ Te ei saa tootmistellimuse tõrke kogusest teatada, kui te just ei teata heast k
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Kas ma saan jälgida lõpetatud kaupade seerianumbrit tarbitud kaupade seerianumbrite suhtes?
 
 Lõpetatud kaupade seerianumbrit ei saa jälgida materjali seerianumbrite suhtes, mida tootmistellimus tarbib nende lõpetatud kaupade valmistamiseks. Seda stsenaariumit praegu ei toetata. Vastukaaluks on tootmistellimuste loomine kogusele 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

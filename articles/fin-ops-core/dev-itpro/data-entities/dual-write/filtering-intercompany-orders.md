@@ -65,3 +65,6 @@ Kõiki standardsed teenuse Common Data Service üksused on laiendatud viidetega 
 7. Pärast olemi **Pakkumised** laiendamist rakendage filter koos atribuudiga `CUSTGROUP !=  "<company>"` päringu stringina.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Müügipakkumise päis, päringu redigeerimine":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

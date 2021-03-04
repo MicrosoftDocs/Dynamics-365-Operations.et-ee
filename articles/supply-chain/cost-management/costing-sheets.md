@@ -50,3 +50,6 @@ Kuluarvutustabel kuvatakse lehe **Kauba kulu arvutamine** osana. Kuluarvutustabe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

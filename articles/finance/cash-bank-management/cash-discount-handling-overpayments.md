@@ -139,3 +139,6 @@ Skonto summat 10,50 vähendatakse 10,00-ni. Makse ja arve loetakse tasakaalustat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

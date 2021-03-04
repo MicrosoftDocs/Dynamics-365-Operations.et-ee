@@ -88,3 +88,6 @@ Järgmised kaheksa tegevuse juhist on loetletud nende tegemise järjekorras.
 7.  [Konfiguratsioonireeglite loomine](tasks/create-configuration-rules.md)
 8.  [Dimensioonipõhiste konfiguratsioonide loomine](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

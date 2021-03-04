@@ -102,3 +102,6 @@ Kindlustuspoliise ja garantiisid saate luua lehel **Kõik kliendid** (**Müügir
     Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[B × C\]).
     
     Kui aga märgite ruudu **Kaasatud riski**, eemaldatakse **Värskenda krediidilimiiti** väärtus 50 000 (= 50.00 protsenti 100 000st) ja riski väärtus on 75 000 (= A + \[B × C\] – B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

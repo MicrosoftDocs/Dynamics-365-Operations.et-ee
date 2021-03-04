@@ -71,3 +71,6 @@ Hoolduse või parandustöö lõpule viimise korral saate vara registreerida kui 
 2. Saate valida vara või hooldustaotluse.
 3. Valige **Varade kohaletoimetus**.
 4. Väljale **Kohale toimetatud** sisestage kuupäev ja kellaaeg. Seejärel valige **OK**. Kirje eemaldatakse loendilehelt **Väljaminev varad**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

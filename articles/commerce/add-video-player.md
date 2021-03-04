@@ -106,3 +106,6 @@ Uuele lehele videopleieri mooduli lisamiseks ja vajalike atribuutide seadistamis
 [Tekstiploki moodul](add-content-rich-block.md)
 
 [Sisuploki moodul](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

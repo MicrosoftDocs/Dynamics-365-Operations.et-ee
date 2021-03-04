@@ -183,3 +183,6 @@ Kinnitusprotsess koosneb kinnitusetappidest. Kinnitusprotsessi etappide lisamise
 1. Topeltklõpsake töövooredaktoris kinnitusprotsessi. Töövooredaktoris kuvatakse kinnitusprotsessi etapid.
 2. Kinnitusetapi lisamiseks lohistage etapp alalt **Töövoo elemendid** lõuendile.
 3. Kinnitusetapi konfigureerimiseks vaadake jaotist [Töövoos kinnitusetappide konfigureerimine](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

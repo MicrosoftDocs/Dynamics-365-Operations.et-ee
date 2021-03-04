@@ -60,3 +60,6 @@ Kui teil on vähemalt üks pakutud muudatus, kuvatakse toimingupaanil kaks uut m
     Lehel on olekuks nüüd **Kinnitamise ootel muudatused**.
 
 Töövoog järgib rakenduses standardset töövooprotsessi. Kinnitaja suunatakse lehele **Klient**, kus ta saab lehel **Pakutud muudatused** tehtud muudatused üle vaadata ja seejärel valida töövoo kinnitamiseks **Töövoog \> Kinnita**. Kui kõik kinnitamised on lõpule viidud, värskendatakse väljasid teie pakutud muudatustega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

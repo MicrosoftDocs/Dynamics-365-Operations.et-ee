@@ -92,3 +92,6 @@ Numbriseeriate loomiseks ja redigeerimiseks toimige järgmiselt.
     | Kontrollnumber | See segmendi tüüp lisab kontrollnumbri, mis on modulo 10 arvutus. (See käitumine vastab identifitseerimisnumbri ID olemasolevale loogikale.) Selle segmendi tüübi puhul on välja **Väärtus** väärtuseks alati seatud nool (*^*) ja välja **Pikkus** väärtuseks alati *1*. |
 
 1. Oma lõpliku numbrivormingu näite kuvamiseks kontrollige välja **Vorming** kiirkaardi **Segmendid** allosas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

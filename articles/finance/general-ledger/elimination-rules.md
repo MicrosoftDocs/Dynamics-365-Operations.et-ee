@@ -155,3 +155,6 @@ Valige ettevõte, mis on konsolideeritud andmete allikas, ja seejärel valige re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

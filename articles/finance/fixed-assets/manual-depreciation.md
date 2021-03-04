@@ -76,3 +76,6 @@ Kõigi intervallide protsentide kogusumma ei pea olema 100. Kuid saate teate, ku
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ Järgmisel joonisel on näha näide tootehinnangutest kõnekeskuse kanalites.
 [Hinnangute ja arvustuste haldus](manage-reviews.md)
 
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

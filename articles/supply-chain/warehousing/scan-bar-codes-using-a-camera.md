@@ -55,3 +55,6 @@ Kui klõpsate kaameralehel kaamera nuppu, kuvatakse see vöötkoodi tuvastamise 
 
 Kaamerat vöötkoodile suunates hoidke parima tulemuse saavutamiseks vöötkood sulgudega joondatuna. Kui vöötkoodi skannimine õnnestub, läheb tulemus töötlemisele ja teid suunatakse järgmise etapi juurde. Kui järgmine etapp sisaldab järjekordset sisendvälja, mille eelistatud sisestusrežiim on seatud väärtusele Skannimine, käivitub kaameraleht uuesti. Kui järgmine etapp ei sisalda skannimisvälja, siis kaameraleht ei käivitu.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

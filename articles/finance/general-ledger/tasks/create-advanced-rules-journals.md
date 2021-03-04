@@ -58,3 +58,6 @@ See protseduur hõlmab töölehtedele täpsemate reeglite loomise etappe. Muu hu
 4. Märkige puul ruut „grupp, millel lubate selle töölehe nime puhul sisestamist”.
 5. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

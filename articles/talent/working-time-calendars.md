@@ -56,3 +56,6 @@ Kalendri seadistamiseks tehke järgmist.
 10. Töövõtjatele kalendri määramiseks valige toimingupaanil suvand **Määra töövõtjatele**. Valige töövõtja, kellele soovite selle kalendri määrata, seejärel klõpsake suvandit **Määra**.
 
 Töövõtjatele ei pea kalendrid olema määratud. Kui töögraafik on määratletud, välistatakse puhkepäevad automaatselt taotlusest. Summa (tundides või päevades) vaikesäte on kalendris määratletud tööajad. Kui töövõtjale pole kalendrit määratud, on puhkeajaks saadaval kõik päevad ja puhkeaja summa pole taotluse vaikesäte. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

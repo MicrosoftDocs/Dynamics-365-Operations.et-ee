@@ -109,3 +109,6 @@ Selleks, et võimaldada töötajatel seda muudatust teha, saate luua menüü-ük
 - **Kuva varude olek:** *Jah*
 
 Vajadusel saate seadistada lehel muid välju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

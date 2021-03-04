@@ -113,3 +113,6 @@ Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonili
 11. Sulgege leht. 
 
 Kui peate hindama seda mudeli vastendust, kasutades rakenduse teise versiooni metaandmeid, registreerige teine ühendatud rakendus, määrake see mudeli vastendamiseks ja kinnitage see uute metaandmetega.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

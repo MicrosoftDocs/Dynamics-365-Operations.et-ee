@@ -35,3 +35,6 @@ See protseduur kasutab USMF-i ettevõtet.
 3. Otsige loendist ja valige soovitud kirje.
 4. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

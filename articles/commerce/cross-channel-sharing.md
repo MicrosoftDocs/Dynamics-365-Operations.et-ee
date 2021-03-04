@@ -137,3 +137,6 @@ Kui te kasutate nüüd kanali baas-URL-i ja avate selle saidi kanaliülese lehe 
 [Dokumendi olekud ja töötsükkel](document-states-overview.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

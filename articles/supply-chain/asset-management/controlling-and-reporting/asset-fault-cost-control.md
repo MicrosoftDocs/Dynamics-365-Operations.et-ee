@@ -62,3 +62,6 @@ Selles näites kuvatakse vara vea kulujuhtimise arvutamist.
     ![Joonis 1](media/05-controlling-and-reporting.png)
 
 Teavet vigade häälestamise kohta vaadake teemast [Veahaldus](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

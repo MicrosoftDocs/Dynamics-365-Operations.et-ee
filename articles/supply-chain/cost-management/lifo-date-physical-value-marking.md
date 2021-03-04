@@ -157,3 +157,6 @@ Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse väljastu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

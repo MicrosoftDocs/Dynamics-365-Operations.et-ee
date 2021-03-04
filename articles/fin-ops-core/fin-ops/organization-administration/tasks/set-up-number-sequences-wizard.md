@@ -38,3 +38,6 @@ Numbriseeriaid kasutatakse loetavate ainuidentifikaatorite loomiseks koondandmet
 4. Valige suvand **Uus**.
 5. Valige **Lõpeta**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

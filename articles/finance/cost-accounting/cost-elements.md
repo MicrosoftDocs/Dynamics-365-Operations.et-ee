@@ -76,3 +76,6 @@ Kuna kuluelemendid tähistavad kulu üksikasjade madalaimat tasanit, peaksite ta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Selles teemas kirjeldatakse, kuidas klassifitseerida toodet kategooriahierarhiat
 11. Väljale **Kategooria** sisestage või valige väärtus.
 12. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

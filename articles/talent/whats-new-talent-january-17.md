@@ -45,3 +45,6 @@ Selle muudatusega on välja **Tegevuse taotleja** vaikesätteks nüüd muudatust
 ### <a name="ideas-portal-updated"></a>Värskendatud on ideede portaali
 Rakendusesisesed lingid idee edastamiseks Talenti on värskendatud uue ideede portaali. Kõik vanas portaalis sisestatud ideed on migreeritud, nii et kõik teie suurepärased ideed on alles ja teistele hääletamiseks saadaval.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

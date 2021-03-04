@@ -186,3 +186,6 @@ Lisateavet leiate jaotisest [Kogusumma ja intervalli arvutamise valikud käibema
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

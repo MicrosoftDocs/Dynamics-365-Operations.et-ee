@@ -37,3 +37,6 @@ Finants- ja maksuandmed integreeritakse järgmiste vastenduste abil:
 
 + [Integreeritud pearaamat](ledger-mapping.md)
 + [Integreeritud maksu koondandmed](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

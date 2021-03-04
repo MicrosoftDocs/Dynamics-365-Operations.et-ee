@@ -59,3 +59,6 @@ Märkige töötaja puhul, kellel peaks olema lubatud reserveeritud varusid teisa
 See funktsioon on toodud üle ka rakendusse Microsoft Dynamics AX 2012 R3 ja tehakse CU12 osana kättesaadavaks.
 Selle saab KB numbri 3192548 kaudu ka eraldi alla laadida. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Transpordi halduse allahindluste seadistamiseks minge jaotisse **Transpordi hald
 Saate valida, kas edastada allahindlus oma kliendile (seadistades allahindluse tüübi kliendile) või säilitada see ettevõttes (seadistades allahindluse tüübi vedajale). See võimaldab teil määratleda seadistuse, milles te teenite marginali arvutatud veokulude pealt.
 
 Iga allahindluse jaoks saate seadistada mitu täpsustust, nt vedaja, vedaja teenus, tarnetingimused, klient, sihtkoht ja muu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

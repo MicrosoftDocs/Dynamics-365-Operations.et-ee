@@ -60,3 +60,6 @@ Kliendid võivad teha osalise makse, mille puhul järelejäänud summat ei makst
 
 
 Lisateabe saamiseks vt [Kliendimaksete hoiustamine](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

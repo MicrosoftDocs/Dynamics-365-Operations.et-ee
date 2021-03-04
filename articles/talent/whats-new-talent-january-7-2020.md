@@ -53,3 +53,6 @@ See muudatus lisab vormi **Ilma töösuhteta töötajad** kustutamisvõimaluse. 
 5. Määrake luba **Kustuta** olekusse Luba.
 6. Valige vahekaart **Avaldamata objektid**.
 7. Valige **Avalda kõik**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

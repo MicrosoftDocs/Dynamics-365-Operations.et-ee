@@ -94,3 +94,6 @@ Juhiste saamiseks kinkekaardi mooduli lisamiseks kassa lehele ja nõutavate atri
 [Väliste kinkekaartide tugi](./dev-itpro/gift-card.md)
 
 [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

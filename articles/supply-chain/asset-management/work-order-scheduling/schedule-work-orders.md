@@ -138,3 +138,6 @@ Gantti diagrammi vaatamiseks ja sellega töötamiseks tehke järgmist.
     - Kuvatud töökäsu uuesti plaanimiseks valige ja lohistage see sobivale uuele kuupäevale ja kellaajale.
 
 1. Kui tegite muudatusi, valige nende salvestamiseks Toimingupaanil käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

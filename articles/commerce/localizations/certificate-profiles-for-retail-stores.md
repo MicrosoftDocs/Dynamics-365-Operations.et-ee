@@ -122,3 +122,6 @@ Kui kasutusele võetakse serdi uus versioon, kuid seda ei saa värskendada samal
 
 > [!NOTE]
 > Commerce Runtime'is kutsutakse serdi uut versiooni esimesena. Kui serti ei olda veel kindlas poes või terminalis värskendatud, kutsutakse eelmist versiooni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

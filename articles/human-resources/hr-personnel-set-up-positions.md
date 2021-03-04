@@ -67,3 +67,6 @@ Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoh
 30. Sisestage või valige väärtus väljal Osakond.
 31. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Selles protseduuris luuakse ja kinnitatakse töölehed ning tööleheread. Saate
 12. Klõpsake käsku **Sisesta**.
 13. Klõpsake suvandit **Kanne**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

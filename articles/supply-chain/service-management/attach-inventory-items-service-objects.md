@@ -51,3 +51,6 @@ Kaup on nüüd seotud hooldusobjektiga ja kõik kaubale määratud varude dimens
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

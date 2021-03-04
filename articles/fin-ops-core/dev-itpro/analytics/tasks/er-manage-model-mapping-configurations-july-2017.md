@@ -161,3 +161,6 @@ Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida 
 7. Klõpsake nuppu OK.
     * See vormingukonfiguratsioon kasutab mudelivastenduse vaikekonfiguratsioon elektroonilise dokumendi genereerimiseks (loodud väljund sisaldab ettevõtte koodi).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

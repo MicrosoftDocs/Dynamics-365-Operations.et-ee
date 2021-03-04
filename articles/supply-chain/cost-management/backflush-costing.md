@@ -126,3 +126,6 @@ Peaksite käivitama omahinna tagasiarvestuse, et perioodiliselt hinnata lõpetam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ Kui peate positiivse makse faili muutma, saate selle tagasi kutsuda. Valige lehe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

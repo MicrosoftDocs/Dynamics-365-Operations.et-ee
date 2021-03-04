@@ -83,3 +83,6 @@ Hankija arve jääb ootel olekusse, kuni saabub tegelik hankija arve.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

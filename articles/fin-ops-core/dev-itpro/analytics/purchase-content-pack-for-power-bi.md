@@ -154,3 +154,6 @@ Järgmisi sisu põhidimensioone kasutatakse filtritena koondmõõtmiste tükelda
 | Kuupäevad                  | Kuupäevad, Aasta vastaskonto                                    |
 
 Vaikimisi näitab sisu jooksva kalendriaasta andmeid. Kuid kuupäevafiltrit saab muuta aruande filtrite jaotises. Saate muuta ka ettevõtte filtrit.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

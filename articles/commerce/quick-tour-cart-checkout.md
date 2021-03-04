@@ -107,3 +107,6 @@ Lisateavet kassa lehe loomise kohta leiate teemast [Kassa mooduli lisamine lehel
 [Toote üksikasjade lehe ülevaade](quick-tour-pdp.md)
 
 [Kontohalduse lehtede ülevaade](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

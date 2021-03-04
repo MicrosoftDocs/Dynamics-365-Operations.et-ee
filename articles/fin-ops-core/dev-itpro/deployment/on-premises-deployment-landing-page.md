@@ -72,3 +72,6 @@ Saab juurutada rakendusele Dynamics 365 Finance  + Operations (on-premises). Asu
 - [Eemaldatud või aegunud funktsioonid rakenduses Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Tarkvara elutsükli poliitika ja asutusesisesed väljalasked](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

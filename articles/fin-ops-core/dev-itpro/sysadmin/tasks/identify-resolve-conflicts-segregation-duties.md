@@ -43,3 +43,6 @@ Selles teemas kirjeldatakse, kuidas tuvastada ja lahendada konflikte kohustuste 
 1. Avage **Navigeerimispaan > Moodulid > Süsteemiadministratsioon > Turvalisus > Kohustuste jagamine > Kohustuste reeglite jagamine**. Valige reegel.  
 2. Valige **Kohustuste ja rollide kinnitamine**. Kui mis tahes olemasolev roll rikub valitud reeglit, kuvatakse teade, mis sisaldab rolli nime ja konfliktsete kohustuste nimesid. Administraator peab kas näitama turberiski vähendamist või muutma rolli, nii et see ei rikuks kohustuste jagamise reegleid. Kui ükski roll valitud reeglit ei riku, kuvatakse teade, et kõik rollid on vastavuses.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

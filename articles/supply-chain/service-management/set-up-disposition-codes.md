@@ -57,3 +57,6 @@ Saate seadistada ka põhjuse koodi, et aidata selgitada, miks kaup tagastati. Li
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

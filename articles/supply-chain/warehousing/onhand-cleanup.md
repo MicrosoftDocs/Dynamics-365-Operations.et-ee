@@ -58,3 +58,6 @@ Kui puhastustöö käigus kustutatakse kõik puhastustöö vabade kirjete andmed
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Laohalduse vabade kirjete puhastustöö maksimaalne teostamisaeg*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

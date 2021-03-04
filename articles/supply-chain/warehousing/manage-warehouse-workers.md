@@ -57,3 +57,6 @@ Tööüksuste töötlemiseks kasutatav aja analüüs aitab täiustada laotööta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

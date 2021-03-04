@@ -44,3 +44,6 @@ See protseduur näitab, kuidas laenata kaupa töötajale ja kirjendada töötaja
 2. Klõpsake nuppu Redigeeri.
 3. Sisestage kuupäev väljale Tegelik tagastus.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

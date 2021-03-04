@@ -86,3 +86,6 @@ Enne Dynamics 365 Commerce'i kanali loomist tuleb täita mitu eeltingimuseks ole
 [Jaemüügikanali seadistamine](channel-setup-retail.md)
     
 [Veebikanali häälestamine](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Lisateavet töökäsu elutsükli olekute ja projekti etappide kohta vt [Töökä
 8. Valige käsk **Salvesta**.
 
 ![Töökäsu tüübid](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

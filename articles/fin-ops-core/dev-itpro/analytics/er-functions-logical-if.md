@@ -69,3 +69,6 @@ Kui esimene väärtus ja teine vöörtus on andmetüübi *Konteiner (kirje)* võ
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loogilised funktsioonid](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

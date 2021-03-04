@@ -92,3 +92,6 @@ Kõikide teile määratud ülesannete ülesandeloendi oleku jälgimiseks toimige
 [Ülesandeloendite loomine ja ülesannete lisamine](task-mgmt-create-lists.md)
 
 [Ülesannete haldus kassas](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

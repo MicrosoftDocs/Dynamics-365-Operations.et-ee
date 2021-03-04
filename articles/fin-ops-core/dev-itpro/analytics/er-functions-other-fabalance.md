@@ -67,3 +67,6 @@ Tulemuseks olev kirje väärtus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Muud (ettevõtte domeenipõhised) funktsioonid](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

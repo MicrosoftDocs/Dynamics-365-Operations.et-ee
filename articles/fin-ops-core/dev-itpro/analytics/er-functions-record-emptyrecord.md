@@ -60,3 +60,6 @@ Tulemuseks olev kirje väärtus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kirje funktsioonid](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Protseduur keskendub konkreetse kanbani kasutatud kanban-reegli muutmisele. See 
 7. Klõpsake Lõpeta.
     * Praegu kasutab kanban-töö muud kanban-reeglit. See võib olla kasulik töörakkude koormuse tasakaalustamiseks.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

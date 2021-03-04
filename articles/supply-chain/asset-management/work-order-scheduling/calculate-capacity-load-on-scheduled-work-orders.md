@@ -58,3 +58,6 @@ Kui valite oma arvutuse jaoks koormuse tüübid **Võimsus** või **Jääk**, ku
 
 Teavet selle kohta, kuidas arvutada täiskoormus hooldusgraafiku ridade ja planeerimata töökäskude kohta, leiate teemast [Täiskoormuse arvutamine](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Hooldusobjektid on kliendi varad ja tooted, millega seoses saab hooldust osutada
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

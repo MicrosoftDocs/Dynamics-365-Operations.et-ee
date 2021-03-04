@@ -51,3 +51,6 @@ Oluline on mõista, kuidas töötab ruut **Salvesta nõudluse alusprognoosis kä
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

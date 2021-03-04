@@ -53,3 +53,6 @@ Kuluelemendi dimensiooni vastendamise määratlusi saate igal ajal värskendada.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

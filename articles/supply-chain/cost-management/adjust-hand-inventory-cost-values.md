@@ -44,3 +44,6 @@ See kaup seadistati FIFO-laomudeliga (esimesena sisse, esimesena välja) ning la
 -   5. veebruar: kogus 1, hind 13.00 USD
 
 Et seadistada nende kahe kauba kulu 15,00 USD-le, kasutage vaba kaubavaru korrigeerimise valikut, et korrigeerida vabu kaubakoguseid alates viimasest lao sulgemise perioodist. **Märkus.** Vaba kaubavaru korrigeerimise kande kuupäeva sisestus on ka viimase lao sulgemise kuupäev. Seda kuupäeva ei saa muuta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Töövoos seadistatud kulu ülevaataja kasutamiseks peate asjakohase töövooele
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

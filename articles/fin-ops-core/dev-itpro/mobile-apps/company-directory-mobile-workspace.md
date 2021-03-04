@@ -89,3 +89,6 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 1.  Valige mobiilirakendusest tööruum **Ettevõtte kataloog**.
 2.  Otsingu alustamiseks sisestage väljale **Otsing** töötaja eesnimi, perekonnanimi, ametinimetus või osakond.
 3.  Valige töötaja. Avaneb leht **Töötaja profiil**. Sellel lehel oleva teabe hulgas on töötaja eesnimi, perekonnanimi, ametinimetus ja osakond.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

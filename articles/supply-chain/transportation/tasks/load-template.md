@@ -54,3 +54,6 @@ Teemas kirjeldatakse koormamallide häälestamist ja koormamalli seostamist uue 
 1. Valige toimingupaani vahekaardi **Pakkumine ja nõudlus** grupis **Lisa** suvand **Uuele koormusele**.
 1. Valige dialoogiboksi **Koormamall** väljal **Koormamalli ID** rakendatav mall.
 1. Malli rakendamiseks valige **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

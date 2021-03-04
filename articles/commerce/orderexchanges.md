@@ -50,3 +50,6 @@ Korvi eri summade paremaks nähtavuseks on korvi lisatud kolm uut summa välja. 
 - **Rakendatud deposiit** – deposiidi summa, mis on kohaldatud kandele, kui kasutaja teeb kliendi tellimuse pealevõtmise. Kui deposiidi alistamine puudub ja konfigureeritud on 10-protsendine deposiit, on summa selles väljas 90 protsenti kliendi tellimuse kogusummast.
 - **Realiseerimissumma** – kogusumma ridade kohta, kus tarneviis on seatud valikule **Tarne**, kui kliendi tellimus loodi või seda redigeeriti või kliendi tellimuse vahetuse ajal. Summa selles väljas sisaldab makse ja tasusid.
 - **Tagastussumma** – kogusumma ridade kohta, kus on kliendi tellimuse vahetuse ajal negatiivne kogus. Summa selles väljas sisaldab makse ja tasusid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

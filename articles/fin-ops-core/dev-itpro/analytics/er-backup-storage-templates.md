@@ -102,3 +102,6 @@ Finance and Operations-i versioonis 10.0.5 on ER-mallide varundusmälu funktsioo
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
 [Elektroonilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

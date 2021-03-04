@@ -85,3 +85,6 @@ Leheküljel **Nõudluse prognoosi üksikasjad** saate prognoosis käsitsi korrig
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,5 @@ Määrake talendi kasutajaroll talendisuhete meeskonnale.
 
    1. Logige karjääriportaali sisse uues brauseriaknas.
    2. Kandideerige karjääriportaalis tööle. 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

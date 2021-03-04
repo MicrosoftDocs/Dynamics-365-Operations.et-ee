@@ -147,3 +147,6 @@ Järgmises tabelis on varuobjekti arvutuse tulemus. Tulemust saab vaadata, klõp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

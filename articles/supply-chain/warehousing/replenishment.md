@@ -79,3 +79,6 @@ Selle asemel, et võtta nõudlus eraldamisprotsessi lõppemisel kokku ja täiend
 |   Asukoha korraldus   |                                                       Asukohakorraldusi on vaja selleks, et juhtida töö asukohtadesse, kus täiendamine on vajalik, ja asukohtadesse, kust varusid hangitakse.                                                        |
 |     Töömallid      |                                                   Töömallid tüübiga <strong>Täiendamine</strong> on vajalikud täiendamistöö loomiseks, et varud saaks soovitud asukohtadesse viia.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Värskendusi saab avaldada kas automaatselt või käsitsi olenevalt sellest, mil
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

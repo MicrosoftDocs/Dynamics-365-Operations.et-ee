@@ -55,3 +55,6 @@ See protseduur juhendab uue kulumiraamatu loomise protsessi ja selle seostamist 
 6. Sisestage number väljale Kasutusiga.
     * Pange tähele, et välja Kulumiperioodid väärtus arvutatakse pärast kasutusea seadistamist.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

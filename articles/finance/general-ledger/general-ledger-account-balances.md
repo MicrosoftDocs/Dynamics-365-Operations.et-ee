@@ -51,3 +51,6 @@ Lisateavet leiate jaotisest [Finantsaruannete vaatamine](view-financial-reports.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

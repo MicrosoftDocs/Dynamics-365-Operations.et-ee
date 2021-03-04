@@ -209,3 +209,6 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 § Kui kassa on ühenduseta, saab tagastamiseks kutsuda ainult praeguses ühenduseta andmebaasis olevaid kandeid.
 
 \*\* Kui kassa on ühenduseta, kuvatakse töölehel ainult praeguse võrguühenduseta kanali andmebaasi kanded.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

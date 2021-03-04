@@ -43,3 +43,6 @@ Järgmises tabelis on Power BI sisu, millest kopeeritakse aruandeid, ja aruanded
 | [Müük ja tulusus](sales-profitability-performance-content-pack.md) | <ul><li>Tulu piirkonna alusel</li><li>10 parimat klienti tulu alusel</li><li>10 parimat toodet tulu alusel</li></ul> |
 | [Krediidihaldus ja võlanõuded](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Tähtaja ületanud klient</li><li>Krediidilimiiti ületavad kliendid</li><li>Aegunud saldod</li></ul> |
 | [Ostukulutuste analüüs](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Ostud kuu/päeva kaupa</li><li>10 tipptarnijat ostude alusel</li><li>10 tipptoodet ostude alusel</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

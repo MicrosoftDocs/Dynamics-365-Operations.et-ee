@@ -71,3 +71,6 @@ Funktsioon Skaleeritav on saadaval ainult juhul, kui kõigile kauba komponentide
 
 ## <a name="use-step-consumption"></a>Etapiviisilise tarbimise kasutamine
 Etapiviisiline tarbimine eemaldab nõude, et koostisosa vahekaardile **Valemirida** tuleb sisestada kogus. Selle asemel on etapiviisiline tarbimine konfigureeritud nii, et sellel on väärtus **Lähteseeria** ja väärtus **Kogus**. Kirjest Etapi tarbimine seeria kohta valitakse teave, mis rahuldab koguse partiitellimusel. Etapiviisiline tarbimine on abiks, kui tarbimismäär ei ole partiitellimuse suuruse suhtes lineaarne ja ainult suurendab vajadust, kui konkreetne koguselävi saavutatakse. Selle funktsiooni lubamiseks uuele valemile muutke grupis **Tarbimise arvutamine** vastava koostisosa valemi sätteks väärtuse **Standard** asemel väärtus **Etapp**. Selle tarbimismeetodi saab määrata lehe **Valemirida** vahekaardil **Seadistus**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

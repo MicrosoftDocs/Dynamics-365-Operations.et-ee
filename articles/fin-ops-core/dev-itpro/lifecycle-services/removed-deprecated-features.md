@@ -65,3 +65,6 @@ See loend on esitatud nii, et saaksite oma plaanide tegemisel võtta neid eemald
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

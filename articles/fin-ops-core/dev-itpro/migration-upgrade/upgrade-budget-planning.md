@@ -162,3 +162,6 @@ Lisatud on mitu andmeüksust, et võimaldada eelarve plaanimist kiiresti rakenda
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

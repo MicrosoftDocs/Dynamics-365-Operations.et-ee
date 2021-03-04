@@ -227,3 +227,6 @@ Täitmisaeg + negatiivsed päevad + tänane kuupäev – vajaduse kuupäev
 Süsteem kasutab ainult selle ajapiiri piires olevaid plaanitud hanketellimusi ja loob uue plaanitud tellimuse sellest väljaspool. Dünaamilise negatiivsete päevade eeliseks on see, et need hõlmavad individuaalse toote täitmisaega, et taaskasutada olemasolevaid tellimusi ja vältida uute plaanitud tellimuste loomist, mis lõpevad täitmisaja põhjustatud hilinemise tõttu hilisema päevaga. 
 
 Lisateavet vt teemast [Negatiivsed päevad ja dünaamilised negatiivsed päevad](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

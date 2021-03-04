@@ -59,3 +59,6 @@ Samuti saate luua uue hoolduseelarve olemasoleva eelarve kopeerimisega. Lehel **
 
 > [!NOTE]
 > Hoolduseelarve arvutab ainult hooldusgraafiku ridadel põhinevad eelarvekulud. Sama perioodi tegelike kulude arvutamiseks saate teha arvutuse lehel **Vara kulu juhtimine**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

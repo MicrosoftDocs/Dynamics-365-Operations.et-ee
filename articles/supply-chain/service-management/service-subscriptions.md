@@ -38,3 +38,6 @@ Perioodi kood näitab kordustelimuse tasu perioodi ulatust või intervalle, mill
 Perioodi kood on määratud teenuse kordustellimuse grupis. See on kordustellimustele määratud teenuse kordustellimuse grupi kaudu. Igal uuel kordustellimuse tasul, mille loote, on pakutav alguskuupäev. Selleks on perioodi alguskuupäev, kui see on esimene loodud periood, või eelmise perioodi lõpp, kui see on teine või hilisem periood.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

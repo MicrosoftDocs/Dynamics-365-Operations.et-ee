@@ -101,3 +101,6 @@ Seejärel määrake järgmised väljad.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

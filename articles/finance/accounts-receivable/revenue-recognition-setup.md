@@ -193,3 +193,6 @@ Tulu tuvastamist saab kasutada ka müügitellimustel, mis luuakse aja- ja materj
 
 - **Edasilükatud arve tulu** (**Tulukontod** all) – sisestage põhikonto tulu hinnale, mis sisestatakse edasilükatud tulule (tulu asemel). Tulu hind lükatakse edasi, kui müügitellimuse real on tulugraafik.
 - **Edasilükatud tulu** (**Kulukontod** all) – sisestage põhikonto tuletusreegli summale, mis sisestatakse edasilükatud tuletusreeglile, kui tulu on samuti edasi lükatud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

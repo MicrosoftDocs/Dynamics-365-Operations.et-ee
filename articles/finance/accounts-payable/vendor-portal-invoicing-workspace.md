@@ -62,3 +62,6 @@ Lisateabe saamiseks vaadake teemat [Hankija koostöö väliste hankijatega](../.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

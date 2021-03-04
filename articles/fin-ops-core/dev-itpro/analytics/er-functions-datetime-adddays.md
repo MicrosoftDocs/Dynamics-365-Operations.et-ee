@@ -67,3 +67,6 @@ Suvandi `days` positiivne väärtus annab tulemuseks kuupäeva tulevikus. Negati
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kuupäeva ja kellaaja funktsioonid](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

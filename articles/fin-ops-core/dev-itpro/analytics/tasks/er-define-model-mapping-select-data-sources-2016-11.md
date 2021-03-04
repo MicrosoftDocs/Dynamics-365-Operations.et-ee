@@ -157,3 +157,6 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 71. Sulgege leht.
 72. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

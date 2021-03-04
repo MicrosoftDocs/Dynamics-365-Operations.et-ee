@@ -309,3 +309,6 @@ Funktsiooni BR-00053 (NF-e Federal) lubamise korral on võimalik, et saata tuleb
 - [Elektroonilise arvelduse lisandmooduli ülevaade](e-invoicing-service-overview.md)
 - [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md)
 - [Elektroonilise arvelduse lisandmooduli seadistamine](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Kulujaotuse reeglite abil jaotatakse kulusid, mis on finantsiliselt koondkulukes
 5. Sisestage või valige väärtus väljal Kulu juhtseade.
 6. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

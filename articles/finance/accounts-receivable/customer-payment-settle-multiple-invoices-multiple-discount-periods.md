@@ -101,3 +101,6 @@ Arnie vaatab seda teavet lehel **Kliendi kanded**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ See protseduur näitab, kuidas juhti sisse ja välja registreerida. Seda teeb ü
 1. Klõpsake valikut Juhi väljaregistreerimine
 2. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Tootmistellimuse oleku ennistamisel väärtuselt **Alustatud** väärtusele **V�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

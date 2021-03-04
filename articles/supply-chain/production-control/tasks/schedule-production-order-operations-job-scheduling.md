@@ -56,3 +56,6 @@ Selles teemas keskendutakse tootmistellimuse plaanimisele koos toimingute ja tö
 6. Toimingupaanil valige **Tootmistellimus**.
 7. Valige **Kõik tööd**. Pange tähele, et aktiivses protsessis luuakse tööde planeerimisel 5 tööd.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

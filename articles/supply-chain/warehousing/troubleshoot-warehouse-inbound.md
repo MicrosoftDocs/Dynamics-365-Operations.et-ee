@@ -65,3 +65,6 @@ Uus sissetuleva koorma käitlemise funktsioon *Koorma koguste ülelaekumine* lah
 1. Koorma koguste liigne vastuvõtt
 
 Lisateavet vt teemast [Registreeritud toodete koguste sisestamine ostutellimuste eest](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

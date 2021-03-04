@@ -133,3 +133,6 @@ Lisateabe saamiseks vt [Spikrisüsteem](../../fin-ops/get-started/help-overview.
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

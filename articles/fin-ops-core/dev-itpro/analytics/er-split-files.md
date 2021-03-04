@@ -47,3 +47,6 @@ Selle funktsiooni kohta lisateabe saamiseks vaadake tegevusejuhist **Elektroonil
 [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 
 [Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

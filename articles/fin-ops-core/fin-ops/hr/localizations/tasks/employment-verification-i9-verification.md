@@ -54,3 +54,6 @@ Immigratsiooni reformi ja kontrollimise seadus nõuab USA tööandjatelt uute pa
 22. Sisestage või valige väärtus väljal Dokumendi number.
 23. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

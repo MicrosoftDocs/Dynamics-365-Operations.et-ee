@@ -77,3 +77,6 @@ Kui valite **Kanne**, näidatakse arve töölehel algset raamatupidamise kirjet.
 Järgmiseks avage leht **Kõik kliendid** (**Müügireskontro \> Kliendid \> Kõik kliendid**), valige klient **US\_SI\_0003** ja seejärel valige **Kanded**. Lehel **Kliendi kanded** näidatakse ainult algne arve (000008) koos algse raamatupidamise kirjega. Kuna lehel **Pearaamatu parameetrid** on suvand **Arvete korrigeerimiste sisestamine müügireskontrole** määratud olekusse **Ei**, uuendatakse ainult pearaamatut. Seetõttu ei näidata tühistatud ja uuendatud raamatupidamise kirjeid. Arvestage, et näidatakse [3. stsenaariumis](rev-rec-reallocation-scenario-3.md) loodud tulu korrigeerimise kandeid.
 
 [![Algne raamatupidamise kirje lehel Kliendi kanded](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

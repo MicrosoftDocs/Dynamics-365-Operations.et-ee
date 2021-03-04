@@ -214,3 +214,5 @@ Vahekaart **Jõudluse eesmärgid** summeerib jõudluse eesmärgid oleku järgi. 
 Vahekaart **Ülevaatused** summeerib töövõtjaja ülevaatuseid kõigis olekutes: **Pooleli**, **Ülevaatamiseks valmis** ja **Lõplik ülevaatus**. Töövõtja ülevaatuse juurde pääsemiseks valige nupp **Üksikasjad** ja seejärel valige ülevaateid, millega koostööd teha. Olenevalt sellest, kus ülevaatus paikneb töövooprotsessis, saate vaadata kas ülevaatus on värskendamiseks saadaval. 
 
 Saate vaadata oma meeskonna kõiki ülevaatuseid menüü **Minu meeskond** paani **Meeskonna jõudluse ülevaatused** jaotises **Kokkuvõte**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

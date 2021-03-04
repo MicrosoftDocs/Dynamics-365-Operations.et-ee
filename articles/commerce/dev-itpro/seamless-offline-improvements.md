@@ -56,3 +56,6 @@ Commerce’i parameetrid on tavaliselt vahemällu talletatud. Seega pärast seda
 
 - [Võrguühenduseta kassa funktsioonid](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Ühendusega ja ühenduseta kassatoimingud](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

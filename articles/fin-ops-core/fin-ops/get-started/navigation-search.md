@@ -62,3 +62,6 @@ Otsingutulemuste loend on piiratud 10 üksusega. Kui te ei leia tulemustest seda
 ## <a name="development"></a>Arendus
 
 Arenduse vaatepunktist on navigeerimise otsingufunktsiooni väga lihtne kasutada, kuna menüüelementide juurutamise ja nende kuvamise vahel otsingutulemustes puudub praktiliselt igasugune viivitus. Kui menüüelemendid on seotud navigeerimispaani või armatuurlauaga, muutuvad need automaatselt otsitavaks.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

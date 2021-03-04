@@ -44,3 +44,6 @@ Selles teemas selgitatakse eraldamise taotluse töötlemist. Kasutage lehte Eral
 9. Valige **Sisesta**.
 10. Valige **Sisesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -376,3 +376,6 @@ Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisalda
 
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [Saate parandada ER-lahenduste jõudlust, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

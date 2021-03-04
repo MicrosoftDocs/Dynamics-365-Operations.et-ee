@@ -112,3 +112,6 @@ Lisateavet registreerimise ID-de töötlemise kohta, sealhulgas nõutavad eeltin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

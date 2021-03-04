@@ -59,3 +59,6 @@ Selle funktsiooni tagastatud string sõltub vormingu **FILE** ülemelemendis val
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

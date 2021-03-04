@@ -96,3 +96,6 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 
 ## <a name="additional-resources"></a>Lisaressursid
 [Finantsaruannete loomine](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

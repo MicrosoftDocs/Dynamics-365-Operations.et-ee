@@ -55,3 +55,6 @@ See protseduur näitab, kuidas luua partii atribuuti, määrata vaikeväärtuse 
 22. Klõpsake nuppu Salvesta.
 23. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

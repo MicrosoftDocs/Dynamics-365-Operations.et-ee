@@ -145,3 +145,6 @@ Selle aruande loomisel kuvatakse järgmised vaikeparameetrid. Neid parameetreid 
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

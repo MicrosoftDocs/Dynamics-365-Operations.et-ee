@@ -1415,3 +1415,6 @@ Finantsaruandluses sisestatakse elektrikulu 10 000,00 fiktiivse kulukeskuse ID-l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

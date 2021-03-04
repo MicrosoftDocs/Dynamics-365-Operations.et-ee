@@ -131,3 +131,6 @@ Isikupärastamise rakendamiseks olemasolevale soovituste loendile rakenduse Comm
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

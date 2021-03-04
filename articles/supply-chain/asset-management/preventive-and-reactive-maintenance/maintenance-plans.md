@@ -194,3 +194,6 @@ Järgmisel joonisel on vara alusel seadistatud hoolduskava näide lehel **Kõik 
 
 ![Joonis 7](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

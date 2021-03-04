@@ -122,3 +122,6 @@ Kui teil pole juurdepääsu lehtedele, mida selles artiklis nimetatud ülesannet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Püsikliendiprogrammiga liitumiseks saab luua püsikliendiprogrammi registreerum
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

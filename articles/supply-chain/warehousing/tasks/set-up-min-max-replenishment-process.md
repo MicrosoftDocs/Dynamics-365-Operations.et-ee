@@ -120,3 +120,6 @@ Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, m
 11. Klõpsake valikut **OK**.
 12. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

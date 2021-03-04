@@ -854,3 +854,6 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
     - Üleviimistellimuste ja toormaterjalide komplekteerimine
 
 - Konteineri konsolideerimise reeglil on direktiivi ühiku alusel pakkimisel piirangud. Tellimusega kooskõlastatud reserveeringute puhul on soovitatav mitte kasutada konteineri loomise malle, mille puhul väli **Pakk direktiiviühiku järgi** on lubatud. Praeguses kujunduses ei kasutata asukoha direktiive laotöö loomisel. Seetõttu rakendatakse konteinerite voo etapis ainult madalaimat ühikut ühikute seeriagrupis (laoühikutes).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

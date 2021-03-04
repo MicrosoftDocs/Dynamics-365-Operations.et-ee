@@ -39,3 +39,6 @@ Salvestamisel kasutatakse demoettevõtet DEMF.
 6. Sisestage kirjeldus asutusesiseseks kasutamiseks väljale **Lühikirjeldus**.
 7. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

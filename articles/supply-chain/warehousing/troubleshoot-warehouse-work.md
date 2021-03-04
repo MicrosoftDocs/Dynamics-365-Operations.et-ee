@@ -50,3 +50,6 @@ See probleem parandatakse muudatustega, mida kasutatakse [KB 4571546](https://fi
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 Microsoft on seda probleemi hinnanud ja on määranud, et see on funktsiooni piirang. Praegu toetavad laohalduse protsessid ainult selle juriidilise isiku omanduses olevat laovaru.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

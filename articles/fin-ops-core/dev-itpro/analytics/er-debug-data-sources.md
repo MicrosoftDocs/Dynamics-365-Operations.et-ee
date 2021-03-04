@@ -281,3 +281,6 @@ Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis
 6. Valige väljal **Pangakonto** suvand **DEMF OPER**.
 7. Valige dialoogiaknas **Maksete loomine** suvand **OK**.
 8. Valige dialoogiaknas **Elektroonilise aruandluse parameetrid** suvand **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

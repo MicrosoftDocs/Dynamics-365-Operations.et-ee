@@ -64,3 +64,6 @@ Saidi valija moodulit saab lisada saidi valija pesa [päise moodulisse](author-h
 [Lingireamoodul](add-breadcrumb.md)
 
 [Navigeerimismenüü moodul](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

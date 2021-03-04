@@ -69,3 +69,6 @@ See protseduur loob kanban-reegli, kasutades kanban-rea sündmuste seadistust pr
     * Pange tähele, et 27 jaoks loodi kanban selleks, et töödelda loodud kanban-reeglil põhinevat tegevust.  
     * See on viimane etapp.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

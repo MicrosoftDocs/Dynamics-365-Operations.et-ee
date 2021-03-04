@@ -200,3 +200,6 @@ Kampaania mitmesugustest jõudlusmeetmetest analüütilisema ülevaate saamiseks
 
 Kampaania mitmesugustest jõudlusmeetmetest analüütilisema ülevaate saamiseks võite kasutada vaadet Analüüs. Analüüsi vaatesse minemiseks klõpsake suvandeid **Müük ja turundus** \> **Kaubandushüvitised** \> **Kaubandushüvitise lepingud**. Klõpsake toimingupaanil valikut **Analüüs**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

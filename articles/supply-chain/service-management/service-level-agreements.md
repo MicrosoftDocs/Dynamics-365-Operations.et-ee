@@ -81,3 +81,6 @@ Kui loote uue hooldustellimuse teenuseleppele, millele on määratud teenindusta
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

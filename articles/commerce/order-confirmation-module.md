@@ -87,3 +87,6 @@ Uuele lehele tellimuse kinnitamise mooduli lisamiseks ja vajalike atribuutide h√
 [J√§reletulemise teabe moodul](pickup-info-module.md)
 
 [Kinkekaardi moodul](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

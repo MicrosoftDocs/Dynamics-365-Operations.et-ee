@@ -64,3 +64,6 @@ Järgmine illustratsioon näitab vahekaarti **Ülesandeloendid**.
 [Ülesandeloendite loomine ja ülesannete lisamine](task-mgmt-create-lists.md)
 
 [Ülesandeloendite määramine poodidele või töötajatele](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ See protseduur näitab, kuidas koostada ja muuta müügipakkumist. Saate seda pr
 13. Klõpsake valikut **Müügitellimused**.
 14. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

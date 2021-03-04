@@ -47,3 +47,6 @@ Igat esinemist saab muuta, mõjutamata teisi määratletud esinemisi, mis pärin
 ## <a name="developer-documentation"></a>Arendaja dokumentatsioon
 
 Protsessi automatiseerimise raamistik võimaldab arendajatel laiendada protsessi automatiseerimise raamistikku. [Protsessi automatiseerimise raamistiku](../process-automation/process-automation-framework.md) dokumentatsioonis antakse teavet selle kohta, kuidas saate luua kohandatud protsesse, mida on vaja pakktöötlusserveris käitamiseks, mis on plaanitud protsessi automatiseerimise viisardis ja kuvatakse automaatselt kalendri vaates.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ Integratsiooni seadistamiseks läbige need etapid.
     4. Customer Insightsis võib olla mitu keskkonda, nagu katse- ja tootmisprotsess. Väljale **Keskkonna eksemplari ID** sisestage sobiv keskkond.
     5. Väljale **Alternatiivne kliendi ID** sisestage atribuut Customer Insightsis, mis on vastendatud kliendi konto numbriga. (Commerce'is on kliendi konto number kliendi ID.)
     6. Ülejäänud kolm atribuuti on meetmed, mis kuvatakse kliendi kaardil kliendi raamatus. Kliendikaardi kuvamiseks saate valida kuni kolm meedet. (Kuid te ei pea ühtegi meedet valima.) Nagu varem mainitud, kuvab süsteem need väärtused esmalt ja seejärel kuvab kliendi raamatu atribuudirühma väärtused.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

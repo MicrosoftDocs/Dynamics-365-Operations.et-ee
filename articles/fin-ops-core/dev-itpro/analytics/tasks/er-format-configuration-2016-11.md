@@ -158,3 +158,6 @@ Selles teemas kirjeldatakse, kuidas rollis „Süsteemi administraator“ või �
 42. Klõpsake nuppu **Salvesta**.
 43. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

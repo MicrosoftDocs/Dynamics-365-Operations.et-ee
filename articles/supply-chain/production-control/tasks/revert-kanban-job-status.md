@@ -55,3 +55,6 @@ Protseduur keskendub vale kanban-töö oleku ennistamisele. See on kasulik juhul
     * Valige sama töö.  
     * Pange tähele, et ennistatakse kanban-töö olek Plaanitud, mida tähistab kanbani tühi ikoon.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -162,3 +162,6 @@ Enne laovarude etapi käivitamist on laovarude eelne etapp, mille ajal töödeld
 - **Üks mahukas töö korraga** – ärge käitage koondplaneerimist koos teiste mahukate töödega.
 - **Seansilogi läbivaatus.**
 - **Kaupade filtreerimine** – kasutage töötsükli olekut kaupade väljajätmiseks koondplaneerimise käitusest. (Ärge kasutage kaubakoode.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Seadistage iga reeglistiku korral järgmine väli.
 - **Raskusaste** – valige raskusaste, mille jaoks reeglid luuakse. Astmete loomiseks ja neile nime panemiseks saate kasutada lehte **Tehnilise muudatuse raskusastmed**. (Lisateavet leiate eelmisest jaotisest.)
 
 Kasutage kiirkaardil **Reeglid** olevaid nuppe, et lisada või eemaldada reegel praeguse raskusastme sätte jaoks. Igal reeglil on väljad **Reegel** ja **Nimi**. Reeglid kehtestab süsteem ja need näitavad muudatuste tüüpe, mida toode võib hõlmata. Nimi näitab muudatuse tüüpi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

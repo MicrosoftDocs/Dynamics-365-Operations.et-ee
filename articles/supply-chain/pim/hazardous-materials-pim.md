@@ -61,3 +61,6 @@ Selle teabe konfigureerimise alustamiseks looge määrus, mida saate kasutada al
 ## <a name="warehouse-management"></a>Laohaldus
 
 Kui saadetis on ette valmistatud, saab printida mitu uut aruannet. Need aruanded kasutavad teavet, mida olete toote teabehalduses seadistanud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

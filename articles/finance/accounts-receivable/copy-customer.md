@@ -64,3 +64,6 @@ Kliente saab kopeerida ka maksuvabastuse numbri otsingu funktsiooni abil lehe **
 
 1. Kuvatakse suvand **Kliendi kopeerimine**. Vaikimisi on selle suvandi säte **Ei**. Kliendi kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks **Jah**. 
 2. Valige käsk **Vali**. Luuakse uus klient.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

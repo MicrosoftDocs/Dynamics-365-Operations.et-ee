@@ -64,3 +64,6 @@ Järgmisel pildil on näidatud funktsiooniprofiili näide.
 [Ekraani paigutuse ülevaade](pos-screen-layouts.md)       
 
 [Retail Hardware Stationi konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

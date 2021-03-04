@@ -54,3 +54,6 @@ Edumõõdikute häälestamiseks järgige neid toiminguid.
 
 ## <a name="next-step"></a>Järgmine etapp
 [Eksperimendi ühendamine ja redigeerimine](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

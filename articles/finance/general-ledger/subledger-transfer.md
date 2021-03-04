@@ -42,3 +42,6 @@ Alampearaamatu partiide edastamiseks on saadaval järgmised valikud.
 Versioonil 10.0.8 tehti parandusi asünkroonse valiku jõudluse suurendamiseks. See funktsioon on lubatud selle funktsiooni nimega **Alampearaamatu edastamine pearaamatu jõudluse optimeerimiseks**. 
  
 See funktsioon parandab andmeedastust alampearaamatust pearaamatusse. See võimaldab protsessi tõhustada ja see rühmitab edastamiseks väiksemate kannete kogumid. See võimaldab pakktöötlusserveri tõhusamat kasutamist. Selle funktsiooni kasutamiseks peab pakktöötlusserver olema seadistatud, võrgus ja toimima, et asünkroonse edastamise valik töötaks. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

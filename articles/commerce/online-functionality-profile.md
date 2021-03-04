@@ -67,3 +67,6 @@ Järgmisel pildil on näidatud veebipõhise funktsiooniprofiili näide.
 [Jaemüügikanali seadistamine](channel-setup-retail.md)
 
 [Kõnekeskuse kanali seadistamine](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

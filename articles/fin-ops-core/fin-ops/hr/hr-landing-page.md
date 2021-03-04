@@ -93,3 +93,6 @@ Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmär
 - [Küsimustike kujundamine](../../../talent/design-questionnaires.md)
 - [Küsimustike jaotamine ja kavandamine](../../../talent/distribute-questionnaires.md)
 - [Küsimustike tulemuste vaatamine ja hindamine](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Standardkulude kaubakulu andmeid saab kopeerida muusse kuluversiooni, mis sisald
 
 [Toodetud kaupade standardkulude säilitamise ettevalmistus](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

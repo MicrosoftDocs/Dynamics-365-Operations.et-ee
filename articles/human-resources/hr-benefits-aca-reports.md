@@ -68,3 +68,6 @@ Saate koostatud töötajate nimekirju eksportida, kasutades mis tahes Exceli fil
 Kui teil on vaja kindlustuskaitsega inimesi aruandesse lisada, kuna pakute tööandjana oma kindlustust, siis saate vaadata ka kõiki soodustusplaanidega kaetud ülalpeetavaid, kellel on märge **ACA-le esitatav**, valides toimingupaanilt toimingu Kuva ülalpeetava kindlustus.
 
 **Märkus:** päringuaknas kuvatakse ainult need soodustused, mille plaanil on märge **ACA-le esitatav**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

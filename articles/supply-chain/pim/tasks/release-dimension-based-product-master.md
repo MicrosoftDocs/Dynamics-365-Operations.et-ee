@@ -41,3 +41,6 @@ See protseduur selgitab, kuidas väljastada tooteetaloni, mida hakatakse kasutam
 7. Klõpsake käsku Edasi.
 8. Klõpsake Lõpeta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

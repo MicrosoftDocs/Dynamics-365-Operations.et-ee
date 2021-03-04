@@ -82,3 +82,6 @@ Lahenduse Potentsiaalne klient sularahaks kasutamiseks tuleb installida järgmis
 
 - Rakenduse Dynamics 365 Sales versiooni 1612 (8.2.1.207) (DB 8.2.1.207) veebiversioon või hilisem versioon
 - Lahendus Prospect to cash (P2C) rakendusele Dynamics 365, versioon 1.15.0.0 või hilisem versioon. Lahendus on allalaadimiseks saadaval AppSource’is. [Lahenduse Dynamics 365, Potentsiaalne klient sularahaks allalaadimine](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

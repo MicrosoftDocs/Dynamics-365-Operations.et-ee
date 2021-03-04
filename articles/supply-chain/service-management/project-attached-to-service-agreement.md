@@ -37,3 +37,6 @@ Saate registreerida ja sisestada kõik hooldustellimuse kanded hooldusleppele ki
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

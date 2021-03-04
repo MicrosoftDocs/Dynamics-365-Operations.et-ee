@@ -48,3 +48,6 @@ See tegevuse juhis kannab põhivara raamatu finantsteabe ühest finantsdimensioo
     * Enne põhivara raamatu ülekandmist vaadake tulemusi.  
 10. Klõpsake **Edasta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

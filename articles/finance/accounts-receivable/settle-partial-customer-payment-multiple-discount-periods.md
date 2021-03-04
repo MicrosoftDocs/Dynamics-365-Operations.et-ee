@@ -98,3 +98,6 @@ Arve saldo on nüüd 0,00. Arnie vaatab seda teavet lehel **Kliendi kanded**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ See protseduur selgitab, kuidas alustada tootmistellimust tööde juhtimisel. Se
 7. Klõpsake valikut Sisesta.
 8. Klõpsake nuppu OK.
     * Protsessikaardi töölehele kantakse üksikutele toimingutele kulunud aeg. Saate esitada ka õige ja veakoguse.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

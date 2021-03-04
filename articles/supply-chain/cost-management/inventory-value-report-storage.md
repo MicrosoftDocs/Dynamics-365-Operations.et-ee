@@ -106,3 +106,6 @@ Järgnevas näites on näha, kuidas eksportida **Varude väärtuse aruande** aru
 1. Avanenud lehel **Käivitamise kokkuvõtte** saate vaadata oma ekspordi töö olekut ja eksporditud üksuste loendit. Valige jaotises **Üksuse töötlemise olek** loendist üksus **Varude väärtus** ja seejärel valige suvand **Laadi fail alla**, et laadida alla sellest üksusest eksporditud andmed.
 
 Lisateavet andmete eksportimiseks andmehalduse kasutamise kohta vt [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

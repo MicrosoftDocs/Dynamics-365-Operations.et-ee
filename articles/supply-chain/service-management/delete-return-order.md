@@ -44,3 +44,6 @@ Mitu tagastustellimust saate üheaegselt kustutada vormi **Tagastustellimuse kus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Tarneaadressi moodulit saab lisada ainult maksmise moodulisse. Lisateavet selle 
 [Tellimuse üksikasjade moodul](order-confirmation-module.md)
 
 [Kinkekaardi moodul](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

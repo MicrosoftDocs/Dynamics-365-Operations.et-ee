@@ -55,3 +55,6 @@ Tulemiks saadud numbriline väärtus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Matemaatilised funktsioonid](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

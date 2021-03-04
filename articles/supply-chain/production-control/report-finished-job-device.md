@@ -239,3 +239,6 @@ Selleks, et kontrollida, kas töötajad peaksid koguste lõpetamisest teatamisel
 
 > [!NOTE]
 > Sildi konfigureerimiseks avage **Laohaldus \> Seadistus \> Dokumendi marsruudivalik \> Dokumendi marsruudivalik**. Lisateavet vt teemast [Litsentsiplaadi printimise lubamine](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ See juhis aitab teil aegumisperioodi määratlust seadistada, kliendi saldosid a
 2. Valige saldoga klient.
 3. Laiendage kasti **Aegumise fakt** ala, et näha aegunud saldosid. Kiirinfo aegumisperioodi määratluse kohta võetakse parameetrites määratud aegumisperioodi vaikemääratlusest. Saate seda muuta menüüd Sissenõue kasutades.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

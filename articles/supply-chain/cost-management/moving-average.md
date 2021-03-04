@@ -155,3 +155,6 @@ Selles liikuva keskmise näites prinditakse varude väärtuse aruanne, et toetad
 
 > [!NOTE]
 > Pearaamatut ei saa varudega vastavusse viia, kasutades suvandit **Kande kellaaja järgi sortimine**. Aruanne tuleb printida, kasutades suvandit **Sisestuskuupäev**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

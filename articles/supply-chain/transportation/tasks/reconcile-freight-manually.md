@@ -61,3 +61,6 @@ Vedaja arve ja veoarve tasakaalustamisel tehakse seda reakaupa.
 5. Klõpsake linki väljal Viitetöölehe number.
 6. Klõpsake valikut Read.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

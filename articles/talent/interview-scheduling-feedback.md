@@ -102,3 +102,6 @@ Kui valite välja **Tuleta tagasisides osalejad värbamistöörühmast**, sisest
 Vestlustegevus on valikuline ja koosneb kolmest osast: **kandidaadi saadavuspäring**, **graafik** ja **tagasiside**. Kasutage vestluse tegevust töömallis, kui soovite kõiki kandidaadi saadavuspäringuid, graafikuid ja tagasisidet protsessi osana, mitte kasutada neid eraldi tegevustena.
 
 Intervjueeritavate kandidaatide lisamiseks või piiramiseks valige väärtus väljas **Intervjueeritavad**. Saadaval on valikud **Kõik kandidaadid**, **Väliskandidaadid** ja **Sisekandidaadid**. Näiteks kui soovite intervjueerimise esimeses etapis jätta vahele sisekandidaadid, määrake väli **Intervjueeritavad** väärtusele **Väliskandidaadid**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

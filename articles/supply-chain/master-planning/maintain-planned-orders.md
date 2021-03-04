@@ -68,3 +68,6 @@ Kui plaanite kinnitada korraga mitu tellimust, võib käituse paralleelimine par
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

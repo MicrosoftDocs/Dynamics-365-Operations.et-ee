@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Kui olete juurdepääsuloa juba hankinud, edastate loa autoriseerimise päises vastutaja loana koos iga taotlusega, mille saadate andmete API-le, nagu eespool kirjeldatud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

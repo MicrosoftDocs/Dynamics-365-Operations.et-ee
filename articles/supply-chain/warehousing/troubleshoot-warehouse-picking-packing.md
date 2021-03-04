@@ -110,3 +110,6 @@ Kui kasutate *Süsteemi suunatud kogumi komplekteerimise* protsessi, kui konfigu
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 Probleemi lahendamiseks redigeerige kogumi profiili ja seadke suvandi **Aktiveeri positsioone** väärtuseks *Ei*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

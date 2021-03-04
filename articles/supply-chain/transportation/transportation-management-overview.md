@@ -87,3 +87,6 @@ Supply Chain Management pakub koorma koostamise strateegiat, mille nimi on Mahup
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

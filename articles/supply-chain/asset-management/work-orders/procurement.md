@@ -100,3 +100,6 @@ Alltoodud illustratsioon kujutab lehe **Ostutellimus** näidet, millel on fookus
 
 Töökäsu ostutaotluse reaga seotud tegevuse numbri vaatamiseks või sisestamiseks toimiga sarnaselt ning valige loendilehel **Töökäsu ostutaotlus** ostutaotluse kirje ja seejärel valige veerus **Ostutaotlus** ostutaotluse link. Välja **Tegevuse number** leiate kiirkaardi **Rea üksikasjad** vahekaardilt **Projekt**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Teie juriidilise isiku arvestusvaluuta on euro ja USA dollarile on m채채ratud j�
 > [!NOTE]
 > Kui lehel M체체gireskontro parameetrid v천i Ostureskontro parameetrid on tehtud valik Arvuta skontod osaliste maksete jaoks, kasutatakse iga osamakse kuup채eval kehtivat vahetuskurssi. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

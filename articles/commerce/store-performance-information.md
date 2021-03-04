@@ -45,3 +45,6 @@ See aruanne pakub kaupluse jõudluse osana järgmiste kokkuvõtete hetketõmmise
 - Maksu kokkuvõte
 - hinna tühistamiste kokkuvõte,
 - allahindluste kokkuvõte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

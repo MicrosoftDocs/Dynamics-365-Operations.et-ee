@@ -60,3 +60,6 @@ Puu ülemine sõlm kajastab valitud kauba ja partii laos olevat kogust. Peate la
 9. Klõpsake nuppu **Saadetud müügitellimused**.
 10. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

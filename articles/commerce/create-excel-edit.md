@@ -78,3 +78,6 @@ Jaemüügikannete redigeerimiseks Exceli töövihiku loomiseks ja konfigureerimi
 [Jaemüügikannete finantsdimensioonide redigeerimine](edit-financial-dim.md)
 
 [Väljade lisamine Exceli töövihikusse jaemüügikannete redigeerimiseks](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

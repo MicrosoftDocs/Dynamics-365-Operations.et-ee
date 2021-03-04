@@ -54,3 +54,6 @@ See teema selgitab, kuidas kasutada arveregistrit arvete loomiseks ja seejärel 
 10. Valige **Sisesta**.
 11. Postitatud kirjete vaatamiseks valige **Vautšer**. Kinnituse ootel arvete konto tühistatakse ja asendatakse tegeliku kulukontoga.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Uudse jaemüügikassa (MPOS) või pilve kassa graafilist kujundust juhib kassasa
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

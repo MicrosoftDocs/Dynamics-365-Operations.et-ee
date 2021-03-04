@@ -57,3 +57,6 @@ Järgmine tabel kirjeldab välju, mis on saadaval lehe **Tehnilise muudatuse hal
 | Raskusastme reegel | Valige, kuidas tuleks kindlaks määrata tehnilise muudatuse tellimuse raskusaste. Valige *Käsitsi*, kui kasutaja peaks sisestama väärtuse väljale **Raskusaste**. Valige *Arvuta*, et süsteem arvutaks välja **Raskusaste** väärtuse, kui valite tehnilise muudatuse tellimuse toimingupaanil suvandi **Arvuta raskusaste**. Sel juhul kasutab süsteem raskusastme reegleid, mis on määratud lehel **Raskusastme reeglid**. Valige *Arvuta automaatselt*, et välja **Raskusaste** väärtus arvutataks automaatselt ja täidetaks raskusastme reeglite järgi. |
 | Mõjutatud toodete uuesti väljastamine | See väli on asjakohane, kui te väljastate tooteid uuesti tehnilise muudatuse tellimuse kaudu. Saate valida, kas dialoogiboksis **Väljastamised** pakutakse kõiki tooteid või ainult mõjutatud tooteid. |
 | Väljastatavad kooslusetasemed | Väljastatava kooslusetaseme sügavus. Kui kooslusel on siin määratletud väärtusest rohkem tasemeid (st kui see on sügavam), väljastatakse tasemed ainult määratletud väärtuseni. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

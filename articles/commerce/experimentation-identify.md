@@ -40,3 +40,6 @@ Hüpoteesi kontrollimiseks peab eksperimendi edukus või nurjumine olema vahetul
 
 ## <a name="next-step"></a>Järgmine etapp
 [Katse seadistamine](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

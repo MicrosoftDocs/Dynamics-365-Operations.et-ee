@@ -46,3 +46,6 @@ See protseduur juhendab püsikliendi preemiapunktide määratlemisel. Püsiklien
 10. Valige suvand väljal Expiration time unit (Realiseerimisaja ühik).
 11. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

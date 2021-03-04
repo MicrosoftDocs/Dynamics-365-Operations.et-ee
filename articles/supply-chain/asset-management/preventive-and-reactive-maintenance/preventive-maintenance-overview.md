@@ -39,3 +39,6 @@ Alltoodud joonis annab ülevaate töövoogudest alates hoolduskavade ja hooldusk
 
 ![Joonis 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

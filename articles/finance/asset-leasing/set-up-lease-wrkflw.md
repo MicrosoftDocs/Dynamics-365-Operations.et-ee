@@ -53,3 +53,6 @@ Selles teemas selgitatakse, kuidas seadistada kinnitamise töövoogu, mis käivi
 14. Valige lehel **Loo töövoog** suvand **Sule**.
 14. Valige uus töövoog ja seejärel valige **Versioonid**. Tagamaks, et töövoog oleks aktiivne, valige **Tee aktiivseks**.
 15. Valige suvand **Sule**. Kuvatakse uus aktiivne versioon.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

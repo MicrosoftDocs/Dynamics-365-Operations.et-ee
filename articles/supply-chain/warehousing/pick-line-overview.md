@@ -69,3 +69,6 @@ Mobiilse seadme menüüelemendi seadistamiseks komplekteerimisrea ülevaate kuva
     - Kasutage ülejäänud välju **Kuvaväli**, et lisada vajaduse järgi kuni seitse täiendavat kuvavälja. Valige igal väljal **Kuvaväli** töörea välja nimi. Igal real kuvatakse seejärel selle välja väärtus. Väärtused kuvatakse siin valitud järjekorras. Võite jätta mõned väljad **Kuvaväli** tühjaks, kui teil pole kõiki seitset väärtust vaja.
 
 1. Valige toimingupaanil **Salvesta** ja sulgege siis leht **Väljaloend**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

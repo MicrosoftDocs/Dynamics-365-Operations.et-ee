@@ -109,3 +109,6 @@ Väljastatud toodete ja tootevariantide valimiseks ja värskendamiseks saate kas
 - [Toote elutsükli oleku määramine väljastatud tootele](tasks/product-lifecycle-state-released-product.md)
 - [Aegunud tootevariantide leidmine ja neile toote elutsükli oleku määramine](tasks/obsolete-product-variants.md)
 - [Toote elutsükli oleku loomine toodete välistamiseks koondplaneerimisest](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Komplekteerimise töö on blokeeritud sõltuva täiendamistöö tõttu.
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 Kui kasutate voo nõudluse täiendamist, kui komplekteerimise asukoht tuleb komplekteerida, et täita allika tellimuse nõudlust, loob süsteem nii täiendamise töö kui ka komplekteerimise töö. Kuid see blokeerib komplekteerimise töö seni, kuni täiendamise töö on lõpetatud. Selline käitumine on tahtlik, sest komplekteerimise asukohas ei ole piisavalt varusid, kui täiendamise töö on lõpule viidud. Täitke täiendamise töö ja seejärel töödelge komplekteerimise töö.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

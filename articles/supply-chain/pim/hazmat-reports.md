@@ -110,3 +110,6 @@ Kui ohtlike materjalide funktsioon on süsteemis sisse lülitatud, sisaldab arua
 ## <a name="packing-list-report"></a>Saatelehe aruanne
 
 Kui ohtlike materjalide funktsioon on süsteemis sisse lülitatud, sisaldab saateleht lisateavet, mis on seotud kaubasaadetisse prinditava tekstiga. See aruanne on saadaval lehel **Kõik koormad**, nagu tavaliselt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

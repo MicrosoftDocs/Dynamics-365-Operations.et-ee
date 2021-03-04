@@ -39,3 +39,6 @@ See protseduur näitab, kuidas lisada toote konfiguratsioonimudelile uut arvutus
 4. Klõpsake valikut Sule.
 5. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

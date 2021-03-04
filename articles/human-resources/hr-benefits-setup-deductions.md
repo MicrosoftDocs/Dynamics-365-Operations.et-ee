@@ -52,3 +52,6 @@ Kasutage rakenduses Microsoft Dynamics 365 Human Resources mahaarvamisi, et m채�
 4. Soodustuse m채채ra h채채lestuse muudatuste j채lgimiseks ja s채ilitamiseks valige suvand **Tegevused** ning seej채rel valige suvand **Versioonide haldamine**.
 
 5. Valige k채sk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

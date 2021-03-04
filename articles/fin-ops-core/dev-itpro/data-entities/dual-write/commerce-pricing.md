@@ -53,3 +53,6 @@ Kui kasutajad teevad Salesis müügipakkumisega algust, kopeerib topeltkirjutami
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Potentsiaalne klient-raha ja kaksikkirjutamine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

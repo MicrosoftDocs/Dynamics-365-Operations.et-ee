@@ -66,3 +66,6 @@ Eeltingimused:
 12. Sulgege leht.
 13. Värskendage lehte.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

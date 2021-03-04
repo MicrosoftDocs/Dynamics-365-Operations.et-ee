@@ -296,3 +296,6 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 | Müügireskontro (Lääne Fabrikam)    |              | 75,00         |
 | Võlg Ida Fabrikamilt (Lääne Fabrikam) | 25,00        |               |
 | Müügireskontro (Lääne Fabrikam)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

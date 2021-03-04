@@ -57,3 +57,6 @@ Kui teie tööpakkumine pole pärast 24 tunni möödumist LinkedInis ilmunud, pr
 [Tööde loomine, kinnitamine ja sisestamine Attractis](./creating-jobs-attract.md)
 
 [Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

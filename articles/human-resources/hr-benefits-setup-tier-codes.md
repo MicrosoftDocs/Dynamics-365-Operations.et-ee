@@ -41,3 +41,6 @@ Dynamics 365 Human Resources kasutab taseme koode koos soodustuse määraga, mid
    | **Kirjeldus** | Soodustuse taseme koodi kirjeldus. |
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

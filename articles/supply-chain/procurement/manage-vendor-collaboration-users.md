@@ -94,3 +94,6 @@ Kasutaja turberollide muutmise taotlemiseks tehke järgmist.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

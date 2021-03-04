@@ -39,3 +39,6 @@ Enne keskusse konsolideerimise kasutamist peate lubama valiku **Transiidi plaani
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

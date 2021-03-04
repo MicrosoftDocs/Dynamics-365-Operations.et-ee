@@ -113,3 +113,6 @@ Elektroonilise arvelduse lubamise ja kasutamise korral on võimalik, et saata tu
 - [Mehhiko elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-mex-get-started.md)
 - [Itaalia elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-ita-get-started.md)
 - [Elektroonilise arvelduse lisandmooduli seadistamine](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Saate valida dokumentide tüübid, mis peaksid olema saadaval töökäsu aruande
 Link **Numbriseeriad**
 
 Valige selles jaotises nõutavad numbriseeriad. Varade jaoks on kaks numbriseeriat: üks käsitsi loodud varadele ja üks ootel varade kaudu loodud varadele.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

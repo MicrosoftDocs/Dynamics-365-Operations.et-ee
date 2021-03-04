@@ -60,3 +60,6 @@ Selles näites kasutatav vorming on ISO20022 kreeditiülekanne, kuid saate kasut
 21. Sisestage väärtus väljale Teema.
 22. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

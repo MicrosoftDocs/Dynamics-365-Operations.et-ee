@@ -113,3 +113,6 @@ Kui parandusprobleem on lahendatud, võite parandusrea sulgeda. Määrake parand
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

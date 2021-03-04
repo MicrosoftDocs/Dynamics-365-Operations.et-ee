@@ -64,3 +64,6 @@ Rakendusepaanilt saab kasutaja valida toimingu. Sõltuvalt tellimuse olekust ei 
 - **Redigeeri** – lubab kasutajatel valitud klienditellimust muuta.
 
 - **Pealevõtmine** – käivitab pealevõtmise voo, mis võimaldab kasutajal valida peale võtavad tooted ning loob pealevõtmise müügitehingu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

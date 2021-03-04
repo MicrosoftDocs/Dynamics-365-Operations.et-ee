@@ -40,3 +40,6 @@ Lisasime kiirimpordi/-ekspordi funktsiooni, et kasutajad saaksid importida või 
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

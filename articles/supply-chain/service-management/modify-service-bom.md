@@ -72,3 +72,6 @@ Saate kirjendada elemendi ajaloo teenuskoosluses. Iga kord, kui värskendate koo
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

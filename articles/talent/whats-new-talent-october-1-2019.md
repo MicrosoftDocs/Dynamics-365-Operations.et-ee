@@ -84,3 +84,6 @@ Sellel nädalal kuvatakse kirjeldust töö valimisel lehel **Oskuste vahe analü
 ### <a name="print-performance-reviews"></a>Jõudluse ülevaadete printimine
 
 Töötajad, juhid ja personalijuhid saavad töötaja jõudluse ülevaate välja printida.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -153,3 +153,6 @@ Sellel vahekaardil on toodud esile valitud tarnealternatiivi mõju. Kui klõpsat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

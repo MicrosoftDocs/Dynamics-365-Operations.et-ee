@@ -121,3 +121,6 @@ Klõpsake suvandit **Seadistus**, et kohandada teavet, mida näidatakse koosluse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

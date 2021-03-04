@@ -171,3 +171,6 @@ Selle kombinatsiooni jaoks peate seadistama järgmised väljad.
 
 > [!IMPORTANT]
 > Et DOM võtaks neid kulusid käitamisel arvesse, peate lisama kuluteguri asjakohasele täitmisprofiilile.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

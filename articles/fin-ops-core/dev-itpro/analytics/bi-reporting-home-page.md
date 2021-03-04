@@ -89,3 +89,6 @@ Järgmised aruanded sisaldavad nende objektide kohta viiteteavet.
 - [Litsentsi koodide ja konfiguratsioonivõtmete aruanne](../sysadmin/license-codes-configuration-keys-report.md)
 - [Saadaolevad SQL Serveri aruandlusteenuste (SSRS) aruanded](SSRS-report.md)
 - [Töövoo tüüpide aruanne](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

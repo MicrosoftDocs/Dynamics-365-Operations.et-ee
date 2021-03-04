@@ -74,3 +74,6 @@ See protseduur keskendub teisendustegevuste käivitamise eesmärgil fikseeritud 
     * See loob 5 kanbani.  
     * Pange tähele, et selle tootmise kanban-reegli puhul loodi 5 kanbani, igaühe kohta 10. See on selle protseduuri viimane etapp.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

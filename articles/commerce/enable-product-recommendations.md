@@ -114,3 +114,6 @@ Lisateavet isikupärastatud soovituste kohta vaadake jaotisest [Isikupärastatud
 
 [Tootesoovituste KKK](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

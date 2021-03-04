@@ -255,3 +255,5 @@ Töötaja aadressi jaoks kasutatav asukoha ID ei ole numbriseeria osa. Töötaja
 Järgmisel joonisel on toodud andmete integreerimise malli vastenduste näide. 
 
 ![Malli vastendamine](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

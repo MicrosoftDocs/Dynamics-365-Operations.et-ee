@@ -84,3 +84,6 @@ Järgmine pilt näitab, kuidas kanali värskendusi avaldada.
 [Kanali navigeerimishierarhia loomine](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

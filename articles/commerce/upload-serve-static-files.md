@@ -107,3 +107,6 @@ URL-i tee muutmiseks tehke järgmist.
 [Piltide kärpimine](dam-crop-images.md)
 
 [Pildi keskpunktide kohandamine](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Nutitelefonid ja muud väikesed ekraanid, juhtelemendid ja vormi kavandid kohand
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Juhendid, mis aitavad arendajatel ja klientidel oma kohandamistesse kaasata hõlbustavat mõtteviisi
 
 Lisateabe saamiseks parimate tavade kohta, mida Microsoft kasutab hõlbustatuse lihtsustamiseks, vt teemat [Vormide, toodete ja juhtelementide hõlbustatus](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

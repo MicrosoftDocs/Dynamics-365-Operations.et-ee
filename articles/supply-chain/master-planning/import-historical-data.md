@@ -59,3 +59,6 @@ Pärast ajalooliste andmete importimist saate nõudluse prognoosi koostada.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

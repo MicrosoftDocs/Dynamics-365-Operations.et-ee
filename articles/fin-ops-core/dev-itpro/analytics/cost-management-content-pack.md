@@ -207,3 +207,6 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Juriidilised isikud                                          | Juriidilise isiku nimed                              |
 | Rahandussaasta kalendrid                                        | Rahanduskalender, aasta, kvartal, periood, kuu   |
 | Sait                                                    | ID, nimi, aadress, maakond, riik               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Kataloogi, kategooria, töötaja ja kliendi pildid, mida on vaja kasutada võrgu
 5. Järgige muude üksuste (nt Kategooria, Töötaja ja Klient) puhul sama protsessi.
 
     [![Ühenduseta pilt](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

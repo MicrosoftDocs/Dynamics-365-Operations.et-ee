@@ -43,3 +43,6 @@ Kasutajad saavad uurida ka müügitrende ja -mustreid tundide kaupa organisatsio
 - Tööruum **Kaupluse haldus** &gt; **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Kaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide järgi**
 - Tööruum **Kaupluse rahandus** &gt; **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Kaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide järgi**
 - Jaotis **Päringud ja aruanded** &gt; **Jaemüük ja kaubandus** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne tundide alusel**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

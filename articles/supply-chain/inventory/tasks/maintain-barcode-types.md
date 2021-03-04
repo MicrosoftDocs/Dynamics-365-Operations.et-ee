@@ -46,3 +46,6 @@ See protseduur selgitab, kuidas seadistada uut vöötkoodi määratlust, mida sa
 12. Klõpsake nuppu Salvesta.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

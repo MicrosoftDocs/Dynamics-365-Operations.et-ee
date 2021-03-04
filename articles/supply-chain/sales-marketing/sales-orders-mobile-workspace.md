@@ -142,3 +142,6 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 4.  Valige klient.
 5.  Valige **Kontaktandmed** või **Müügitellimused**. Kui valite suvandi **Müügitellimused**, kuvatakse kliendi müügitellimuste loend.
 6.  Valige **Müügitellimus**. Nüüd saate vaadata teavet müügitellimuste ja saadetiste kohta ning kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

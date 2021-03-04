@@ -60,3 +60,5 @@ Malli **Power Automate – SQL-i ühendamine ja käivitamine** allalaadimiseks a
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

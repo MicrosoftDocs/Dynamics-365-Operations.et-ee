@@ -122,3 +122,6 @@ Vormisuvandi **Teave** uuesti lubamiseks tehke järgmist.
 2. Leidke vormide sõlme alt vorm **Teave**. 
 3. Valige vorm **Teave** ja klõpsake **Luba turberollid**. 
 4. Seadke turbesäte väärtusele **Kuva kõigile**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

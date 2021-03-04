@@ -128,3 +128,6 @@ Eelseadistuse stiiliväärtused muudetakse aktiivseks üle kogu avalikkusele suu
 [Saidile keelte lisamine](add-languages-to-site.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

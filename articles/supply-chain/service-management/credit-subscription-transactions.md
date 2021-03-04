@@ -56,3 +56,6 @@ Kui väli **Tühista viitvõlad krediteerimisel** vormis **Teenuste halduse para
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

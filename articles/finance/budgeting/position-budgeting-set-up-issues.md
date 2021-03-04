@@ -64,3 +64,6 @@ Prognoositava ametikoha kuluelemendi real olevad kuupäevad peavad jääma järg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

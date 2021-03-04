@@ -45,3 +45,6 @@ See artikkel näitab, kuidas konfigureerida soodustuste kasutamiseks isiklike ko
    | **Vanus** | Soodustuse plaani sobiva isikliku kontakti maksimaalne vanus. See väli on aktiivne ainult siis, kui valite seose. Seda vanust võrreldakse isikliku kontakti arvutatud vanusega. Arvutatud vanus on: (katvuse kuupäev – isiklik kontakti sünnikuupäev / 365). See number on alati täisarv. |
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

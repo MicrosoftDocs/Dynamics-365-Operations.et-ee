@@ -57,3 +57,6 @@ See protseduur näitab, kuidas luua ostupoliitikaid, mis sobiksid teie ostu äri
 4. Valige suvand **Sule**.
 - Nüüd saate seadistada ostupoliitikale teisi poliitikareegleid. Pange tähele, et poliitikareegli tüübil ei saa olla kattuvaid reegleid, mis on ühes hankepoliitikas korraga aktiivsed.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

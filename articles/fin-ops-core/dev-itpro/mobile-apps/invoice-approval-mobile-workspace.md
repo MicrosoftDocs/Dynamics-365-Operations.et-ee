@@ -86,3 +86,6 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 7.  Valige **Manused** kõigi arvele manustatud märkmete või failide kuvamiseks.
 8.  Valige lehelt **Arve üksikasjad** sobiv töövoog ülevaatuse protsessi lõpuleviimiseks.
 9.  Valige suvand **Valmis**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

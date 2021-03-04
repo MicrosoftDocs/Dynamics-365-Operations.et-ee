@@ -49,3 +49,6 @@ Selle protseduuri käitamine nõuab vähemalt ühe toote konfiguratsioonimudeli 
     * Aktiveerige tootemudeli versioon. Korraga saab ühel tootemudelil olla aktiivne üks toode.  
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

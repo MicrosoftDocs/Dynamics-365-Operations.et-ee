@@ -51,3 +51,6 @@ See protseduur näitab, kuidas saate lisada toote konfiguratsioonimudelile uue p
 4. Klõpsake valikut Sule.
 5. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

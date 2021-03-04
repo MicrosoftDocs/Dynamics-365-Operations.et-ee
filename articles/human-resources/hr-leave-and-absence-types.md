@@ -82,3 +82,6 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
 - [Looge töögraafik](hr-leave-and-absence-working-time-calendar.md)
 - [Puhkuse katkestamine](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

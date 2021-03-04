@@ -68,3 +68,6 @@ Selles artiklis näidatakse, kuidas luua soodustuse elemente, mida uue soodustus
 16. Valige suvand väljal Alus.
 17. Sisestage arv väljale Summa või määr.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

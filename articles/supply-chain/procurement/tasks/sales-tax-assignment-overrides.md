@@ -57,3 +57,6 @@ See protseduur näitab, kuidas kaubanduse kanalitele käibemaksugruppe määrata
 21. Klõpsake loendis valitud real olevat linki.
 22. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

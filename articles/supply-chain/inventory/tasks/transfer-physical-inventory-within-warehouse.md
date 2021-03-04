@@ -59,3 +59,6 @@ See protseduur juhatab teid läbi lao üleviimistöölehe loomise ja sisestamise
 1. Klõpsake **Varu**.
 2. Klõpsake **Kanded**. Siin näete kandeid, mis loodi, kui oma töölehe sisestasite.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

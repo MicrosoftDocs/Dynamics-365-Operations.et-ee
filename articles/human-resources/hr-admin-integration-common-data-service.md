@@ -118,3 +118,6 @@ Rakenduse Human Resources ja Common Data Service'i vahelise olemi täieliku sün
 [![Täieliku sünkroonimise käivitamine](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

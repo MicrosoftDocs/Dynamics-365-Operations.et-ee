@@ -115,3 +115,6 @@ Olemasoleva seose eemaldamiseks varahoolduse ja põhivara vahelt toimige järgmi
 1. Leidke ja avage põhivara.
 1. Eemaldage kiirkaardil **Põhivara** välja **Töö asukoht** väärtus.
 1. Valige toimingupaanil nupp **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

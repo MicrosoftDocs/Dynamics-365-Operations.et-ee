@@ -72,3 +72,6 @@ Rakenduses Microsoft Dynamics 365 Human Resources saate konfigureerida töövõt
    | **Lõpp** | Paani saadaval olemise lõpukuupäev ja -kellaaeg. |
 
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

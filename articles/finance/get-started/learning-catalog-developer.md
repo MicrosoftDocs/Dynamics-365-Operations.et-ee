@@ -94,3 +94,6 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | Sisu | Kirjeldus  | Vorming  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Eksam MB-500: Microsoft Dynamics 365: Finance and Operationsi rakenduste arendaja](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Selles eksamis kontrollitakse teie võimet täita järgmisi tehnilisi ülesandeid: planeerida arhitektuuri ja lahenduse kujundust; rakendada arendustööriistu; kujundada ja arendada AOT-elemente; kirjutada ja testida koodi; rakendada aruandlust; integreerida ja hallata andmelahendusi; ning rakendada turvet ja optimeerida jõudlust. | Eksam, hind varieerub piirkonniti |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

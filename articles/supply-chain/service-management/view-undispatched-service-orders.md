@@ -61,3 +61,6 @@ Selles teemas kirjeldatakse, kuidas vaadata hooldustellimuse toiminguid, millele
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

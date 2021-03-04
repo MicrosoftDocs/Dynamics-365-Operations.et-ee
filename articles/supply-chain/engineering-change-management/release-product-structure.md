@@ -160,3 +160,6 @@ Selline käitumine rakendub ainult siis, kui toode on otseselt väljastamiseks v
 Näiteks toode X on määratud *Disainkappide* toote omaniku grupile. Toode X on ühtlasi osa toote Y kooslusest, mis on määratud *Disainkõlarid* toote omaniku grupile. Kui tooteomaniku grupi *Disainkõlarid* kasutaja väljastab toote Y ja selle koosluse, väljastatakse toode X koos tootega Y.
 
 Lisateavet vt jaotisest [Toote omanikud](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

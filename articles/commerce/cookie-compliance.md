@@ -73,3 +73,6 @@ Kui e-kaubanduse saidi funktsioon või moodul kasutab ebaolulist küpsist, tuleb
 [Küpsistega nõustumise moodul](cookie-consent-module.md) 
  
 [Päisemoodul](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

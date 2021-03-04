@@ -45,3 +45,6 @@ See teema selgitab, kuidas anda töötajatele õigus teiste töötajate nimel os
 2. Otsige kiirfiltri abil üles töötaja, kelle just nõude esitajana lisasite.
 3. Valige nõude esitaja. Loendis Ettevalmistaja on inimesed, kellel on õigus tellida kaupu vasakul paanil valitud nõude esitaja nimel.  Siin saate lisada veel ettevalmistajaid. Selles vaates saate anda nõude esitajale ka õiguse koostada taotlusi juriidilistes isikutes ja tootmisüksustes, mis ei ole selle inimese peamised juriidilised isikud või tootmisüksused.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

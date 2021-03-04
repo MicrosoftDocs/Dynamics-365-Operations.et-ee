@@ -73,3 +73,6 @@ Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse 
 | Saada laenuvara                  | Saate valida laenuvara, mis peaks olema valitud hooldustaotluses valitud vara ajutiseks asenduseks. |
 | Tagastuslaenu vara                | Registreeri laenuvarad tagastatud |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Lisateave siltide printimise kohta
 
 Lisateavet siltide seadistamise ja printimise kohta leiate teemast [Identifitseerimisnumbri sildi printimise lubamine](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

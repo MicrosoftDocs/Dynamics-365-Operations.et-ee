@@ -90,3 +90,6 @@ Nüüd arveldatakse teine müügitellimus. Kliendile esitatav koguarve on 1099.0
 [![Kande kannete leht sisestatud raamatupidamise kirjega](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Kuna tulu ja müügi summa on suurem kui 1170.44 $, sisestatakse erinevus -130.17 $. See summa tühjendab osalise arve tulu kliiringu konto saldo. Pärast ümberjaotamist sisestatakse see saldo uude raamatupidamise kirjesse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

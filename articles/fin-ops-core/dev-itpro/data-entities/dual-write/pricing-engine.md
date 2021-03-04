@@ -69,3 +69,6 @@ Kui Salesi väljad on täidetud, kehtivad järgmised piirangud.
 + Supply Chain Managementi tasude ja tasu eraldamise seadistusi ei kopeerita Salesi.
 + Hinnakujundus ei arvesta Supply Chain Managementi müügitellimuse rea lehe väljal **Jaemüügi kanal** määratletud jaemüügi erihinnakujundust.
 + Supply Chain Managementi jaotises **Kaubandushüvitise haldus** määratletud allahindlusi ei arvestata.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

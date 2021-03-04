@@ -49,3 +49,6 @@ Ajaskaala värskendatakse iga kord, kui leht avatakse. See sisaldab järgmisi te
 - Töökäsud, sh konteeritud kaup ja märkmed
 - Tõrge
 - Seisundi hindamine
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

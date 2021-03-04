@@ -50,3 +50,6 @@ Supply Chain Management arvutab järgmised prognoosi täpsuse tüübid.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

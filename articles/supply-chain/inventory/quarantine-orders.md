@@ -67,3 +67,6 @@ Vahelaoorderi protsessi osana on võimalik ka varusid praakida. Praagi töötlem
 --------
 
 [Varude blokeerimine](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 [Mobiiliplatvormi ressursid](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -223,3 +223,6 @@ Kui seejärel sünkroonimine lubatakse ja see toimub, sünkroonitakse tooteid Fi
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Toote andmete migreerimine teistest Dynamics 365 rakendustest rakendusse Finance and Operations
 
 Kui teistes Dynamics 365 rakendustes on tooteid, mida ei esine rakenduses Finance and Operations, võib administraator kõigepealt kasutada üksust **EcoResReleasedProductCreationV2Entity** nende toodete importimiseks Finance and Operationsis. Järgmiseks tuleb viia vastavusse toote andmed Finance and Operationsist ja teistest Dynamics 365 rakendustest, nagu on kirjeldatud üleval. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

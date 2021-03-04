@@ -45,3 +45,6 @@ Olenevalt ettevõtte poliitikast saab tagastussaadetises olevaid kaupu saata tä
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

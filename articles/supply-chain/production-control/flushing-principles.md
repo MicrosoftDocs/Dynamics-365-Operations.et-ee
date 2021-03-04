@@ -63,3 +63,6 @@ Automaatse tarbimise põhimõte Lõpp näitab, et materjali tarbitakse automaats
 
 ### <a name="available-at-location"></a>Asukohas saadaval
 Automaatse tarbimise põhimõte Saadaval asukohas näitab, et materjali tarbitakse automaatselt, kui see registreeritakse tootmiseks komplekteerituna. Materjal registreeritakse asukohast komplekteerituks, kui töö toormaterjali komplekteerimiseks on lõpule viidud või kui materjal on saadaval tootmise sisendasukohas ja materjalirida on lattu vabastatud. Protsessi käigus loodud komplekteerimisleht sisestatakse pakett-tööna. See põhimõte on asjakohane näiteks juhul, kui teil on ühe tootmistellimusega seotud palju komplekteerimistegevusi. Sel juhul ei pea te komplekteerimislehte käsitsi värskendama ja saate WIP-saldost ajakohase ülevaate.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

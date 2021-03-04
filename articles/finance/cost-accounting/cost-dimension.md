@@ -55,3 +55,6 @@ Kui andmed on kuluarvestusse imporditud, saab neid kasutada mitmesuguste vaatenu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

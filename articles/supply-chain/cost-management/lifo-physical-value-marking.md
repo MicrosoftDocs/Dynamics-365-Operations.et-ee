@@ -151,3 +151,6 @@ Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale v
 - Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 - Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

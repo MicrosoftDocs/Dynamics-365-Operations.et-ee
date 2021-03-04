@@ -46,3 +46,6 @@ Selles teemas kirjeldatakse, kuidas luua kliendi makseviisi. See ülesanne kasut
 15. Kasutage vahekaarti **Makse atribuudid**, määratlemaks, milliseid makse atribuute soovite selle makseviisi puhul kasutada.
 16. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

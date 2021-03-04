@@ -42,3 +42,6 @@ Kauba kontrollimine kogumi komplekteerimiseks toimib samamoodi, nagu kaupade kon
 |        Suvand        |                                    Kirjeldus                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Toote kinnitus | Võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

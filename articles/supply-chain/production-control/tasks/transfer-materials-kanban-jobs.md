@@ -66,3 +66,6 @@ See protseduur keskendub tagastamise kanban-tööle materjalide ülekandeks. Sel
 2. Klõpsake valikut Valmis.
     * See lõpetab mõlema töö ülekande.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

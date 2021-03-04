@@ -87,3 +87,6 @@ Selle tõrke parandus sõltub tõrke põhjusest.
 
 + Kui vastendusel on sõltuvaid vastendusi, siis veenduge, et selle tabeli vastendusest sõltuvad vastendused oleksid lubatud.
 + Vastendusel võivad puududa lähte- või sihtväljad. Kui väli on puudu Finance and Operationsi rakenduses, järgige jaotises [Puuduva üksuse välja probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps) toodud samme. Kui väli on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et väljad täidetaks vastenduses automaatselt.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Selle kirje loomisel kasutati demoettevõtte USMF-i andmeid.
 10. Klõpsake nuppu Salvesta.
 11. Sulgege vorm.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

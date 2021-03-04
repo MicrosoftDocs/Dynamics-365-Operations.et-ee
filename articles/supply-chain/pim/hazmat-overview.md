@@ -62,3 +62,6 @@ Lisateabe saamiseks ohtlike materjalide määruste ja väärtuste häälestamise
 ## <a name="warehouse-management"></a>Laohaldus
 
 Kui valmistate saadetist ette laohalduses, saate printida mitu uut aruannet, mis kasutavad tooteteabe halduses häälestatud teavet. Lisateavet saadaolevate aruannete ja nende kasutamise kohta leiate teemast [Ohtlike materjalide päringud ja aruanded](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

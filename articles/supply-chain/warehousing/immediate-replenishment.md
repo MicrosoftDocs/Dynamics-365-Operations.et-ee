@@ -57,3 +57,6 @@ Kui asukohakorralduse rea jaoks on viivitamatu täiendamine valitud, kuid kui n�
 
 - Veenduge, et rakendatav nõudluse täiendamismall on seadistatud kasutama õigeid tüübi **Täiendamine** asukoha- ja töömalle.
 - Veenduge, et asukohtades, kus nõudluse täiendamismall otsib täiendamiseks vaba kaubavaru, oleks piisavalt vaba kaubavaru.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

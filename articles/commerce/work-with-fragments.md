@@ -136,3 +136,6 @@ Saate fragmenti redigeerida ka nii, et valite selle lehelt, mallist või ülemfr
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

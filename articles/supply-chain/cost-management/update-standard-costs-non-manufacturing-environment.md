@@ -52,3 +52,6 @@ Uute kaupade standardsete kulude parandamiseks, korrigeerimiseks või värskenda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Lisateabe saamiseks vt [Pearaamatu sulgemine perioodi lõpus](close-general-ledg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

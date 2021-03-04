@@ -46,3 +46,6 @@ Saate rakenduses Dynamics 365 Human Resources ajastada tulevasi elusündmuseid.
    | Liin | Tulevase elusündmuse reanumber. |
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

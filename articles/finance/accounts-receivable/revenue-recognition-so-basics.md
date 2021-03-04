@@ -97,3 +97,6 @@ Nupp **Tulu hinna eraldamine** on endiselt kättesaadav, et saaksite vaadata tul
 Eeldatav tulu tuvastamise graafik eemaldatakse ja asendatakse lõpliku tulu tuvastamise graafikuga. Tulugraafiku üksikasjad säilitatakse iga müügitellimuse rea kohta ja neid kasutatakse edasilükatud tulu vabastamiseks tegelikule tulule, kui lepingujärgsed kohustused on täidetud.
 
 [![Lõplik tulu tuvastamise graafik](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

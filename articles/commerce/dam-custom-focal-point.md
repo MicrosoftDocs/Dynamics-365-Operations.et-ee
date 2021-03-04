@@ -60,3 +60,6 @@ Pildi kohandatud fokaalpunkti määramiseks toimige järgmiselt.
 [Piltide kärpimine](dam-crop-images.md)
 
 [Staatiliste failide üleslaadimine ja kasutamine](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

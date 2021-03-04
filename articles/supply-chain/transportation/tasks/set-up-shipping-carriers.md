@@ -73,3 +73,6 @@ See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, n
 9. Valige väljal **Transiidiaja mootor** ripploendist suvand.
 10. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, 
 16. Sisestage väärtus väljale Kirjelda muudatusi.
 17. Klõpsake Avalda.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

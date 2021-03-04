@@ -118,3 +118,6 @@ Järgmistes tabelites on loetletud leheküljed ja väljad, millele määratud ki
 |     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Postita märgukirjad automaatselt           |     Märgukirja tegevuse tüübid postitavad kirja automatiseerimise ajal.                                      |
 |     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Automatiseerimise tegevuste loomine                |     Saate luua ja sulgeda tegevusi mitteaktiivsetele tegevuse tüüpide kohta, et vaadata kõiki kontol tehtud automatiseeritud etappe.        |
 |     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Võlanõudmise protsessi automatiseerimise säilitamise päevade arv     |     Määratleb päevade arvu, mille jooksul kogumite ajalugu talletatakse.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

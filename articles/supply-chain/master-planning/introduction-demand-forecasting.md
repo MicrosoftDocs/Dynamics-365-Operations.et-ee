@@ -100,3 +100,6 @@ Pange tähele, et nõudluse prognoosi mõõtühikul ei pea olema mingit kindlat 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

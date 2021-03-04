@@ -88,3 +88,6 @@ Funktsiooni Eelarve planeerimine kasutav ettevõte saab luua *eelarveprognoose* 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Partii ja litsentsiplaadi kinnitust saab konfigureerida mobiilse seadme menüüe
 
 1. Sisenege mobiilse seadme menüüelementidest töö kinnitamise seadistusse.  
 1. Valige partii või litsentsiplaadi kinnitamine. Mõlemad valikud on saadaval töö tüübi komplekteerimiste puhul, millel pole automaatne kinnitamine lubatud.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Kui olete kõik vajalikud vahekaardid loonud, saate need konfiguratsiooniga seos
 1. Jätkake täiendavate vahekaartide lisamist vastavalt vajadusele.
 
 1. Vahekaartide korraldamiseks vastavalt vajadusele kasutage nuppe **Nihuta üles** ja **Nihuta alla**. Vahekaardid kuvatakse ülaltoodud kuvatõmmisel kuvatud järjekorras vasakult paremale (ülemine vahekaart kuvatakse vasakul).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

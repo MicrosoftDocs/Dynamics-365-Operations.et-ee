@@ -142,3 +142,6 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 [Rakenduse Supply Chain Management arve päiste ja ridade sünkroonimine otse rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

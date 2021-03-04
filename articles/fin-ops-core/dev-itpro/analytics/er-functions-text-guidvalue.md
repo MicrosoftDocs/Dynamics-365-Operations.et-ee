@@ -64,3 +64,6 @@ Seejärel saate kasutada avaldist, näiteks `FILTER (Users, Users.objectId = myI
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Näiteks saate määratleda, kes eelarve koostab, mille kohta eelarve koostataks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

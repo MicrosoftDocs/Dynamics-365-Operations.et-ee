@@ -53,3 +53,6 @@ Lehel **Laovarude grupid** saate valida tegevusteated, mida süsteem peaks koost
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

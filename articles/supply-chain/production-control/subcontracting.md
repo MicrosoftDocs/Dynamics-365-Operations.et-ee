@@ -303,3 +303,6 @@ Tootele D8100, kaetud korpus, luuakse tootmistellimus 10 ühikuga. Korpuste katm
     ![Kuluvõrdluse diagrammid](./media/subcontract35_cost-comparison-charts.png)
 
 Puuduv seadistus andmetes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

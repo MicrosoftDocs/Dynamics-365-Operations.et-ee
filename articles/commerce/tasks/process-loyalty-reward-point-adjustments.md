@@ -50,3 +50,6 @@ See protseduur selgitab, kuidas otsida kliendikaardi teavet ja korrigeerida püs
 15. Klõpsake suvandit Kaardi kanded.
 16. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

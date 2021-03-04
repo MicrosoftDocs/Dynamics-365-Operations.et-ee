@@ -140,3 +140,6 @@ Lisateavet vt järgmistest teemadest:
 
 - [Finantsdimensioonide määratlemine](tasks/define-financial-dimensions.md)
 - [Finantsdimensiooni vaikemallide haldamine](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

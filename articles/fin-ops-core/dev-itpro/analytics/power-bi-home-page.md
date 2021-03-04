@@ -65,3 +65,6 @@ LCS-i ühiste vahendite teegis on saadaval järgmised PowerBI.com’i lahendused
 - Kuluhaldus
 - [Finantstulemused](financial-performance-power-bi-content-pack.md)
 - [Jaemüügikanali jõudlus ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

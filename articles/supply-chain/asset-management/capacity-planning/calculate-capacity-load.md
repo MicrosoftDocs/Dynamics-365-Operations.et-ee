@@ -61,3 +61,6 @@ See on kasulik, kui soovite saada ülevaate konkreetse perioodi oodatavast täis
 >[!NOTE]
 >Kui soovite keskenduda ainult planeeritud töökäskude võimsuse planeerimisele, vaadake teemat [Täiskoormuse arvutamine plaanitud töökäskude kohta](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

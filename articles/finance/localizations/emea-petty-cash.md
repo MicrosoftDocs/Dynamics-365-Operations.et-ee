@@ -479,3 +479,6 @@ Tasakaalustatud summa kajastub lehe <strong>Sularahakanne</strong> väljal <stro
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

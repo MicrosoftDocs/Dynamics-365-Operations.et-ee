@@ -541,3 +541,6 @@ Kui sortimise asukohti on vaja käsitsi sulgeda, peab väljamineku sortimismalli
 
 > [!IMPORTANT]
 > Kui liikumise töö on loodud sortimise asukohast, ei tohi tööd tühistada. Vastasel juhul kustutatakse asukoht ja selles olevad konteinerid süsteemist ja need pole edasiseks töötlemiseks saadaval. Samuti eemaldatakse varud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

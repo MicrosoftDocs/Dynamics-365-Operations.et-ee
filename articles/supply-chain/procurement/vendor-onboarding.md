@@ -175,3 +175,6 @@ Loodud kirjete ahela saate korrastada ja eemaldada ning kasutajakonto inaktiveer
 |         Kinnitatud         |                                                                               Hankija taotlus on kinnitatud.                                                                               |                                                                                                   Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse.                                                                                                    |
 |         Tagasi lükatud         |                                                                               Hankija taotlus on tagasi lükatud.                                                                               |                                                                                                   Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

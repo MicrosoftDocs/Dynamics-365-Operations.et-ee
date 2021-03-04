@@ -67,3 +67,6 @@ Selle protseduuri abil saate luua ja määrata kulude eraldamise poliitika ja va
 5. Sisestage või valige väärtus väljal Kulu juhtseade.
 6. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

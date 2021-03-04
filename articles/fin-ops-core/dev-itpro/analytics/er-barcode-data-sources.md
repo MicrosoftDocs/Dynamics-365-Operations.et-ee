@@ -303,3 +303,6 @@ Kui aga kasutate vöötkoodide loomiseks **Vöötkoodi** andmeallikat, ei sõltu
 - [Elektroonilise aruandluse sihtkohad](electronic-reporting-destinations.md)
 - [Elektroonilise aruandluse valemi keel](er-formula-language.md)
 - [Funktsioon NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

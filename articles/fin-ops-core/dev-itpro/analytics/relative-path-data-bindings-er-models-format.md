@@ -57,3 +57,6 @@ See funktsioon ei lõhu ER-i raamistiku tagasiühilduvust. Selle uue funktsiooni
 ## <a name="additional-resources"></a>Lisaressursid
 
 [ER-i valemi keel](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Välja **Kinnitamise olek** kasutatakse, kui ostutellimus läbib töövoo üleva
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

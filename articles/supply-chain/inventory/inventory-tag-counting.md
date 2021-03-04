@@ -36,3 +36,6 @@ Lehel **Märgistusega inventuur** lisatakse igale laokaubale märgistuse number,
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tsükliline inventuur](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

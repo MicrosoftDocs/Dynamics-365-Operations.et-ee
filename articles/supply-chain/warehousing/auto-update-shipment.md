@@ -140,3 +140,6 @@ Voog töödeldakse ja luuakse töö koormusrea reserveeritud kogustele. Saadetis
 Kui saadetise olekuks on **Voog moodustatud** või kõrgem, ei kajastu müügitellimuse rea koguse värskendused ega ole valideeritud selle saadetisega seostatud koormusrea suhtes. Koormusrea koguse muudatused tuleb teha otse koormusreal.
 
 Valideerimine toimub pärast koormusreale töö loomist ja reserveering on tehtud. Müügitellimuse rea koguse vähendamine valideeritakse seejärel töörea reserveeringu suhtes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

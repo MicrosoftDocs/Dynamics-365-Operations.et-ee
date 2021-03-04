@@ -43,3 +43,6 @@ Alloleval joonisel kuvatakse loendilehe **Aktiivse töökäsu hooldustööd** n�
 
 Loendilehel **Aktiivse töökäsu hooldustööd** asuvate nuppude lühikirjelduse leiate teemast [Sissejuhatus töökäskudesse](../work-orders/introduction-to-work-orders.md), milles kirjeldatakse identseid nuppe.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

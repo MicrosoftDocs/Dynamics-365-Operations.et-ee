@@ -83,3 +83,6 @@ Kui kasutaja määratletud tasakaalustuse prioriteet puudub, valitakse kanded ta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

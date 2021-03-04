@@ -48,3 +48,6 @@ Hoiustage kliendimaksed. See ülesanne kasutab demoettevõtte USMF andmeid.
 17. Valige nupp **OK**. Esimest lehte kasutatakse deposiitkviitungi loomiseks.  
 18. Valige nupp **OK**. Teise etapina tuleb deposiitkviitung printida, kuid see etapp pole nõutav.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

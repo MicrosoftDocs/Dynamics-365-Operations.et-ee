@@ -46,3 +46,6 @@ Põhivara ümberklassifitseerimiseks toimige järgmiselt.
 5. Sisestage kuupäev väljale **Ümberklassifitseerimise kuupäev**.
 6. Sisestage või valige väärtus väljal **Kande seeria**.
 7. Klõpsake valikut **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

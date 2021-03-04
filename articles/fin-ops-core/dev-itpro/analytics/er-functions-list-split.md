@@ -85,3 +85,6 @@ Kui argument `input` on tühi, tagastatakse uus tühi loend. Kui argument `input
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

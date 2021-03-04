@@ -39,3 +39,5 @@ Haldurid saavad hallata eemaloleku taotlusi tööruumis **Töövõtja iseteenind
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuse ja puudumise plaani loomine](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

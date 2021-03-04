@@ -48,3 +48,6 @@ Lisateavet leiate teemast [Postitage tuletatud raamatutega](post-derived-value-m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

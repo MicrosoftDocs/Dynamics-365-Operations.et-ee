@@ -151,3 +151,6 @@ Värskendatud vastendused peaksid välja nägema nagu järgmistel piltidel.
 ![Töötajatelt töötajale ülesanne](./media/WorkerMapping.png)
 
 ![Soo välja muutumine](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

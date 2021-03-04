@@ -63,3 +63,6 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Field Service’i laoühikuga tooted (Supply Chain Managementist Field Service’isse): tooted
 
 [![Malli vastendamine andmete integratsioonis](./media/FSProduct1.png)](./media/FSProduct1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

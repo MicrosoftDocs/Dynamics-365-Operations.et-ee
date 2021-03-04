@@ -110,3 +110,6 @@ Pärast sisestamist loodud arvete tööleht ei sisalda kogumi emakaupa, kuna sel
 On oluline, et arvete tööleht ei sisaldaks kogumi emakaupa, sest kõik pärast arve sisestamist tehtavad protsessid põhinevad sellel arvete töölehel. Näiteks kui loote toimingupaani vahekaardil **Müük** kreeditarve, sisaldab loodav kreeditarve koostiskaupu, kuid mitte emakaupa.
 
 [![Kreeditarve, mis näitab koostiskaupu, kuid mitte emakaupa](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

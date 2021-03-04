@@ -96,3 +96,6 @@ Ostutellimuse täitmist võib olla vaja edasi lükata. Näiteks võib olla toode
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Konfiguratsiooni taaskasutuse lähtestamisel ei võeta varem loodud konfiguratsi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

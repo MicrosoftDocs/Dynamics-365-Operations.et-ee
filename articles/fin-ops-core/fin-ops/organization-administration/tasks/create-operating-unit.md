@@ -41,3 +41,6 @@ Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja t�
     + Sisestage teave selliste sidepidamisviiside kohta nagu meiliaadressid, URL-id ja telefoninumbrid. Uue sidekirje sisestamiseks klõpsake suvandit Uus. Olemasoleva sidekirje muutmiseks klõpsake suvandeid **Rohkem suvandeid > Täpsem**.   
 6. Muutke valikut **Tootmisüksuse number** vastavalt vajadusele. Pange tähele, et see number on ainuidentifikaator, mis vastab kirjele **Osapool** ja see ei saa olla sama ühegi teise tootmisüksusega.
 7. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

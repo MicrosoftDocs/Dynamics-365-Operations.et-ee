@@ -72,3 +72,6 @@ Kalendreid saate filtreerida ka halduri või osakonna alusel. Esmase ametikoha m
 
 Lisateavet kalendri sätete kohta vt teemast [Kalendri parameetrite konfigureerimine](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

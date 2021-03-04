@@ -44,3 +44,6 @@ Pärast lahknevuse tuvastamist peate vajaduse korral võtma ühendust hankijaga,
 Lisateabe saamiseks vt [Erandite uurimine/lahendamine](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

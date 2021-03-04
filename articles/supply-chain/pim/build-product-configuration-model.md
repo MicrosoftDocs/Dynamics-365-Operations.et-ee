@@ -163,3 +163,6 @@ Kui konfiguratsioon tehakse laoalal või ettevõttes, mis ei ole laoala või ett
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

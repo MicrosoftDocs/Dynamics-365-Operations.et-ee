@@ -60,3 +60,6 @@ Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate 
 ### <a name="platform-update-29-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 29
 
 Teenuse Finance and Operations platvormivärskenduse 29 kohta lisateave saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 29 (oktoober 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

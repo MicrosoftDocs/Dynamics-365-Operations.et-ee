@@ -227,3 +227,6 @@ Aruandekoosturi tööriistariba võimaldab kiiret juurdepääsu käskudele aruan
 [Finantsaruandlus](financial-reporting-intro.md)
 
 [Finantsaruannete loomine](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

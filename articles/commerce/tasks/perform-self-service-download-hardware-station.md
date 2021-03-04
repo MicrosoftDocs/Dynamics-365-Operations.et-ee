@@ -37,3 +37,6 @@ See protseduur selgitab, kuidas alla laadida eelmääratletud riistvarajaama. Se
 5. Otsige loendist ja valige soovitud kirje.
 6. Klõpsake suvandit Allalaadimine.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

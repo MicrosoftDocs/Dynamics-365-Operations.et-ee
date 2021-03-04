@@ -48,3 +48,6 @@ Selle funktsiooni kasutamiseks lubage **Kohandatud lingid halduri iseteeninduses
 ## <a name="see-also"></a>Vt ka
 
 [Töövõtja ja ülemuse iseteeninduse ülevaade](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

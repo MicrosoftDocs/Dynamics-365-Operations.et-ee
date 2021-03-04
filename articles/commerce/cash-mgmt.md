@@ -62,3 +62,6 @@ Retaili versioonis 10.0.3 ja uuemates versioonides on saadaval ka järgmised sul
 - Kui vastavusse viimise ajal valitud kanne tasakaalu ei lähe, peab kasutaja sisestama tasakaalustamata vastavusse viimise põhjuse kirjelduse. Kasutajad saavad valida ühe kande ja viia selle vajaduse järgi vastavusse vastava põhjuse kirjeldusega.
 - Kasutajad saavad jätkata kannete vastavusse ja vastavusest välja viimist, kuni vahetus suletakse. Kui vahetus on suletud, ei saa kandeid vastavusest välja viia.
 - Kui kasutaja otsustab vahetuse sulgeda, kontrollib Commerce, et vahetuses poleks vastavusse viimata sularahahalduse kandeid. Kasutajad ei saa vahetust sulgeda, kui selles on vastavusse viimata kandeid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

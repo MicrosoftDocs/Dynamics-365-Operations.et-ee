@@ -78,3 +78,6 @@ Ainus viis valideerimistõrke lahendamiseks on võtta ühendust Microsofti toega
 
 > [!NOTE]
 > Tulevases versioonis lisatakse täiendavad kinnitusreeglid, mis toetavad rohkem stsenaariume.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

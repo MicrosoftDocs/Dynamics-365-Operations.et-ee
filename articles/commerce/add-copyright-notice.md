@@ -75,3 +75,6 @@ Autoriõiguse teatist sisaldav jalus kuvatakse automaatselt kõigi valitud malli
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

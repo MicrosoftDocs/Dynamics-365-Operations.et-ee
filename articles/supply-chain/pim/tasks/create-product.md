@@ -39,3 +39,6 @@ See protseduur tutvustab uue toote loomist kaubanduse tootehierarhiasse. Selles 
 8. Sisestage väärtus väljale Toote number.
 9. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

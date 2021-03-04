@@ -75,3 +75,6 @@ Konfiguratsioon on antud ühiskasutusse välise organisatsiooniga ja saadaval gl
 ![Välise organisatsiooniga ühiskasutusse antud konfiguratsioon](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Välise organisatsiooniga varasemalt ühiskasutusse antud konfiguratsiooni ühiskasutusest eemaldamiseks, valige see konfiguratsioon ja klõpsake suvandit **Eemalda ühiskasutusest** ning seejärel valige **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

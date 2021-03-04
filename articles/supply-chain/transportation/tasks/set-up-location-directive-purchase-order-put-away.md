@@ -86,3 +86,6 @@ Selles teemas selgitatakse, kuidas seadistada lihtsat asukohadirektiivi. Toodud 
 4. Sisestage väärtus väljale **Kriteerium**.
 5. Valige nupp **OK**. Saate jätkata korralduseridade ja korraldusetegevuste lisamist, kuni olete katnud kõik oma lao võimalikud stsenaariumid.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

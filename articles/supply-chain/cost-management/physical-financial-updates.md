@@ -74,3 +74,6 @@ Kui finantsiline kanne on sisestatud, on kande kirje olek **Müüdud**. Järgmis
 -   Negatiivse koguse laotöölehed, nt liikumine, kasum ja kaotus, inventuur, kooslus ja üleviimine
 
 Kogust vähendavad kanded sisestatakse jooksva keskmise omahinnaga. Seega on vajalik laosulgemisprotseduur väljaminekukannete tasakaalustamiseks sissetulekukannetega igale kaubale määratud laomudeli alusel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

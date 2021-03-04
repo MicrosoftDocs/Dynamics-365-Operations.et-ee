@@ -87,3 +87,6 @@ Lisades lehe mallidele fragmendi, aitate tagada, et jalus renderdatakse igal leh
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

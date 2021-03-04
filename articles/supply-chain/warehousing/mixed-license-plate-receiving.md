@@ -49,3 +49,6 @@ Peate looma uue menüüelemendi sellise töörežiimiga, mis ei kasuta olemasole
 - Kombineeritud litsentsiplaadi vastuvõtt ja kõrvaleseadmine
 
 Valikud lähtedokumendi ridade tuvastamiseks on ostutellimuse kaup, ostutellimuse rida, tagastustellimus, üleviimistellimuse kaup ja üleviimistellimuse rida. Nende valikutega saab vastuvõetavat tellimust ühel litsentsiplaadil muuta. Viimane valik on koormakauba järgi. Litsentsiplaadile saab lisada mitu kaupa, kuid mitme koorma vahel ei saa liikuda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

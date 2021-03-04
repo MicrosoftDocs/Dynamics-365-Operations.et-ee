@@ -179,3 +179,6 @@ Leidke oma rollile (rakenduse Dynamics 365 Finance kasutajale) õige võrgukooli
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Süsteemi käitumine on sama, olenemata sellest, kas lehe **Pearaamatu parameetr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

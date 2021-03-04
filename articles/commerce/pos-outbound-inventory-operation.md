@@ -193,3 +193,6 @@ Täielikult saadetud üleviimistellimused liigutatakse vahekaardile **Lõpetatud
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Varude sissetuleku toiming kassas](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

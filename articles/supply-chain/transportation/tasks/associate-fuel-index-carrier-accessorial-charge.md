@@ -78,3 +78,6 @@ See juhend näitab, kuidas luua lisade määramist, vedaja lisatasu, lisade koon
 6. Klõpsake loendis valitud real olevat linki.
 7. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

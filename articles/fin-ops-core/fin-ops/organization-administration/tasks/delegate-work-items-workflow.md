@@ -60,3 +60,6 @@ Kui plaanite minna kontorist välja või olla muul moel kättesaamatu teatud aja
 8. Väljale **Lõppkuupäev/kellaaeg** sisestage kuupäev ja kellaaeg.
 9. Valige märkeruut **Lubatud**, et aktiveerida delegeerimise reegel. 
 10. Väljale **Kommentaar** sisestage kommentaar, mis selgitab, miks te tööüksusi delegeerite.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

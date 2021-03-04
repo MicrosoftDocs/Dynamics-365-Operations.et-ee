@@ -300,3 +300,6 @@ Lisateabe saamiseks ER-konfiguratsiooni pakkujate kohta vaadake teemat [Konfigur
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks](trace-execution-er-troubleshoot-perf.md)
 - [Arvutatud väljatüübi ER-andmeallikate parameetritega kõned](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

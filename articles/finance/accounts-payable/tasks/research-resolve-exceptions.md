@@ -86,3 +86,6 @@ Salvestamisel kasutatakse demoettevõtte USMF-i. Järgmiste sammude tegemiseks o
 24. Sulgege leht.
 25. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

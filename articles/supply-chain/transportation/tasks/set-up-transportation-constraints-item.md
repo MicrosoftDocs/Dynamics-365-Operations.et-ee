@@ -44,3 +44,6 @@ Selle protseduuri saab seadistada transpordipiirangu, et vältida valitud kauba 
 10. Klõpsake nuppu Salvesta.
 11. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

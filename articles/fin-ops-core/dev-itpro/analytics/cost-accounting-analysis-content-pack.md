@@ -123,3 +123,6 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Rahandussaasta kalendrid                   | Kalender, kalendri kirjeldus                                                                                       |
 | Finantsaastad                       | Kalendriaasta                                                                                                        |
 | Rahandusperioodid                     | Kalendriaasta periood                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

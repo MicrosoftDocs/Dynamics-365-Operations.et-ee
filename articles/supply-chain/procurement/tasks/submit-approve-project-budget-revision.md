@@ -46,3 +46,6 @@ See ülesanne kasutab SSI andmekogumit.
 12. Sisestage väärtus väljale Kommentaar.
 13. Klõpsake Edasta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

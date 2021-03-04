@@ -423,3 +423,6 @@ Tõenäoliselt logisite sisse Azure AD domeeni praegusesse rakenduse eksemplari,
 
 [Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

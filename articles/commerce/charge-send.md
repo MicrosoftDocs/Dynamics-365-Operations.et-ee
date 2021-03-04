@@ -42,3 +42,6 @@ Tasu saatmise funktsioon kasutab järgmisi kassa operatsioone: Läheta kõik too
 See ei mõjuta sihtaadresside valimise võimalust.
 
 Tarneviisid, mida saab tellimuse rea täitmiseks kasutada, põhinevad toodete ja aadresside jaoks sobivatel tarneviisidel. Kuna sobivate tarneviiside reegleid talletatakse ainult Headquarteris (HQ), teeb kassaklient reaalajas kõne tarnerea jaoks sobivate tarneviiside toomiseks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

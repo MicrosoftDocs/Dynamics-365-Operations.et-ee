@@ -93,3 +93,6 @@ Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist,
 | Töövõtja statistika | Kuluaruanded kulutüübi järgi            |
 |                     | Isiklikud kulud                       |
 |                     | Kuluaruanded statistikagrupi järgi     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

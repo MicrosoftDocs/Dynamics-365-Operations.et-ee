@@ -80,3 +80,6 @@ Saate määrata kinnitamisetapi järgmistele osalejate gruppidele.
 - [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Ostutaotluse töövoog](purchase-requisitions-workflow.md)
 - [Hankijate vastuvõtmine](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

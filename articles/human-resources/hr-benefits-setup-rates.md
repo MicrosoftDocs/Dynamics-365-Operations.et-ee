@@ -93,3 +93,6 @@ Saate kasutada ka topelttasemeid. Kui valite suvandi **Topelttase** väärtuse *
    | **Paindliku krediidi suitsetajate määr** | Soodustusele kuluv paindliku krediidi hulk, mis põhineb suitsetajate tasemete jaoks määratletud arvutusel. |
 
 5. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

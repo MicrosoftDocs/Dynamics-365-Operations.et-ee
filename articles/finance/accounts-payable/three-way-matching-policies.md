@@ -145,3 +145,6 @@ Lisateabe saamiseks vaadake teemat [Ostureskontro arvete võrdlemise ülevaade](
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

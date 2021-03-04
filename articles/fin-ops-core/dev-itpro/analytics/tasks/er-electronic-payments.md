@@ -81,3 +81,6 @@ Etappide lõpuleviimiseks peate esmalt läbima etapid protseduuris Maksedokumend
 25. Klõpsake nuppu OK.
     * Analüüsige loodud maksefaili XML-vormingus. Võrrelge seda koostatud dokumendi paigutusega ja määratletud maksekande atribuutidega.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

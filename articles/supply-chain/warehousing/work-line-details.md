@@ -128,3 +128,6 @@ Komplekteerimistöö loomiseks järgige neid etappe.
 
 > [!IMPORTANT]
 > Kui tühistate ainult osa töörea kogusest, peate eemaldama aegunud koguse ka koormuse realt. Vastasel juhul, kui alatarne on õigesti seadistatud, ei saa koormuse rida kinnitada saatmiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

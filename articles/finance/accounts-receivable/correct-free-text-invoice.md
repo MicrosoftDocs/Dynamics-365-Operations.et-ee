@@ -51,3 +51,6 @@ Tühistamis- ja parandamisarveid saab tuvastada kahel moel.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

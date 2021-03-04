@@ -64,3 +64,6 @@ Commerce'i hindamiskeskkonna ettevalmistamiseks vaadake teemat [Commerce'i hinda
 [Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
 
 [Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

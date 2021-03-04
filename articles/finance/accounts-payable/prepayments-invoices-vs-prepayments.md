@@ -66,3 +66,6 @@ Ettemaksuarved on levinud äritava. Hankija väljastab ettemaksuarved, et nõuda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -813,3 +813,6 @@ Lisateavet selle kohta, kuidas vormingu struktuuri saab ER-i malliga [äridokume
 [Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks](trace-execution-er-troubleshoot-perf.md)
 
 [Äridokumentide halduse ülevaade](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

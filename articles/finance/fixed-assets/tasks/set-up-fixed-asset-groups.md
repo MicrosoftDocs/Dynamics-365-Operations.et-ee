@@ -39,3 +39,6 @@ Selles teemas tutvustatakse, kuidas luua uut põhivara rühma. See kasutab USMF-
 8. Valige suvand väljal **Kulukonventsioon**.
 9. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

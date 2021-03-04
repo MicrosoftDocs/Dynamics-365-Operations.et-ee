@@ -47,3 +47,6 @@ Automaatse vastavusseviimise kasutamiseks tuleb määrata vastavusseviimise graa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

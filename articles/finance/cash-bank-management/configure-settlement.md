@@ -67,3 +67,6 @@ Selleks, et vältida täiendavate raamatupidamiskirjete ning deebeti ja kreediti
 
 -   Organisatsioonid kasutavad sageli fikseeritud dimensioone, et täita mittevajalikke finantsdimensioone nullidega. Nii on tavapäraselt bilansikontode puhul, näiteks müügireskontrod/ostureskontrod. Konto struktuure saab kasutada tavaliselt nullidega täidetud finantsdimensioonide jälgimise välistamiseks.  Saate finantsdimensiooni bilansikontode jaoks eemaldada, kõrvaldades sellega vajaduse fikseeritud dimensioonide kasutamise järele.
 -   Kui teie organisatsioon nõuab müügireskontro/ostureskontro põhikonto jaoks fikseeritud dimensioone, siis proovige leida viis, kuidas fikseeritud dimensioon vaikimisi maksele sisestada, nii et fikseeritud dimensiooni väärtus on salvestatud makse hankija kandel. See võimaldab süsteemil rekonstrueerida müügireskontro/ostureskontro põhikonto nii, et fikseeritud dimensiooni väärtused oleks hõlmatud. Fikseeritud dimensiooni väärtust saab määratleda vaikeväärtuseks hankijate jaoks või makse töölehe nimel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

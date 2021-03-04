@@ -89,3 +89,6 @@ See on teadaolev probleem sisseehitatud koondplaneerimise mootoriga. Selle põhj
 
 > [!NOTE]
 > See piirab selle koondplaani jaoks teostatavate tükeldamiste perioodi ühele päevale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ See protseduur selgitab varude korrigeerimise töölehe loomise ja sisestamise p
 5. Sulgege vorm.
 6. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

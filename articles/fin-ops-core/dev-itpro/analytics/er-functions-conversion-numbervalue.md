@@ -63,3 +63,6 @@ Tulemiks saadud numbriline väärtus.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tüübiteisenduse funktsioonid](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

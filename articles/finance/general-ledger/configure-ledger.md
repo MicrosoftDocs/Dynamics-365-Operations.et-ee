@@ -82,3 +82,6 @@ Kui kasutate kahte valuutat või kui kasutate ühte valuutat, kuid kanded sisest
 Realiseeritud kasumid ja kahjumid on lõpetatud kannetest saadud kasumid ja kahjumid. Need kirjendatakse kasumi- ja kahjumiaruannetes. Realiseerimata kasumid ja kahjumid on teoks saanud kasumid ja kahjumid, kuid kanne pole lõpetatud. Teisisõnu olete näiteks sisestanud arve, kuid arvet pole veel tasutud. Realiseerimata kasumid ja kahjumid kirjendatakse bilansis.
 
 Lisateavet kahe valuuta kasutamise kohta vt teemast [Topeltvaluuta](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

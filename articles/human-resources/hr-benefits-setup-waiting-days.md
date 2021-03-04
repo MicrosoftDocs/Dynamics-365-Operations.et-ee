@@ -42,3 +42,6 @@ Rakenduses Microsoft Dynamics 365 Human Resources moodustavad ootepäevad igakui
    | **Päev** | Kuupäev, millele süsteem peaks määrama ooteaja kuupäeva. |
    
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

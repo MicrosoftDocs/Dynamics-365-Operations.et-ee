@@ -170,3 +170,6 @@ Kui suvandi **Klienditellimuse loomine asünkroonses režiimis** sätteks on val
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hübriidkliendi tellimused](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

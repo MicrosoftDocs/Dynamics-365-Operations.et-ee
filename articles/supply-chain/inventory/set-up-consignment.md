@@ -50,3 +50,6 @@ Töölehte **Varude omandiõiguse muutmine** kasutatakse, et kirjendada veose va
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Hankija koostöö veoseprotsessides
 Kui hankijad kasutavad hankija koostööliidest, saavad nad seda kasutada varude tarbimise jälgimiseks teie tegevuskohas. Lisateavet hankijate koostööks tarnijate seadistamise kohta leiate jaotisest [Hankijaportaali kasutaja turvalisus](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

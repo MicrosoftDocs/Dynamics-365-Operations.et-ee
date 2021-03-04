@@ -53,3 +53,6 @@ Saate otsida partii atribuute, kui reserveerite partiisid müügitellimuse jaoks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

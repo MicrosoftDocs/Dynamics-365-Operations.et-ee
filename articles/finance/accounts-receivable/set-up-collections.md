@@ -115,3 +115,6 @@ Lisateavet vt järgmistest teemadest:
 
  - [Sissenõuete teabe ülevaatamine](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

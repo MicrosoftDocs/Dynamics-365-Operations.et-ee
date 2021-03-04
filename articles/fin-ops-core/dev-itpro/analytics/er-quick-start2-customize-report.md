@@ -514,3 +514,6 @@ Oma kohanduses vormingu **BACS (UK)** versiooni 3.3 uue funktsiooni kasutamiseks
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [ER-konfiguratsioonide allalaadimine teenusest Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [ER-konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

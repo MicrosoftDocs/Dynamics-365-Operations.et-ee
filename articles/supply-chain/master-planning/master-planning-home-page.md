@@ -86,3 +86,6 @@ Täiendav spikker on saadaval ülesandejuhistena. Tegevuse juhistele juurdepää
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

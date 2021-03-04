@@ -40,3 +40,6 @@ See protseduur selgitab toote konfiguratsioonigruppide määratlemist, luues dem
 7. Sisestage väärtus väljale Nimi.
 8. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

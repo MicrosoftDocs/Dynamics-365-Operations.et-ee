@@ -41,3 +41,6 @@ Kui kasutate varasemat versiooni kui 10.0.13, siis kui te ei kasuta minimaalsete
 > Olete käivitamas lao sulgemist kuupäevaga %1. Perioodi lõpukuupäevaga %1 sobivat omahinna tagasiarvestust ei ole registreeritud. Palun teostage perioodi lõpukuupäevaga %1 sobiv omahinna tagasiarvestus. Varude hindamine, müüdud kaupade kulu ja erinevused ei pruugi olla abiraamatu või pearaamatu puhul õiged, kuni see on teostatud.
 
 See probleem on parandatud versioonis 10.0.13 ja hilisemates versioonides. Lisateavet leiad teemast [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

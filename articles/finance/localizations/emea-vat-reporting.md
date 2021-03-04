@@ -277,3 +277,6 @@ Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tab
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Tootmistellimust saab luua järgmiste stsenaariumide korral.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

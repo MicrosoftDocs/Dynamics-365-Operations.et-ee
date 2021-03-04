@@ -238,3 +238,6 @@ Kui järele minnakse tellimusele, millel on mitu maksevahendid ja mitu rida, esi
 - [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

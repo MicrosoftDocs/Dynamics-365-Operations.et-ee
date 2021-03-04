@@ -64,3 +64,6 @@ Planeerige automaatne ülesanne oma pakett-töö ajaloo puhastamiseks. Soovitame
 
 8. Muutke vajadusel mistahes teisi parameetreid jaotises **Käivita taustal** ja seejärel valige **OK**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Täiendavad saadaolevad aruanded hõlmavad aruannet **Prognoositavad ametikohad 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

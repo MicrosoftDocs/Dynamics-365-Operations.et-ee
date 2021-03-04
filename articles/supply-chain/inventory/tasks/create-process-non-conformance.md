@@ -67,3 +67,6 @@ Selles teemas tutvustatakse, kuidas teha mittevastavuse haldust olemasoleva kval
 2. Valige **Sulge mittevastavus**.
 3. Valige **Jah**.
 4. Sulgege lehed.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

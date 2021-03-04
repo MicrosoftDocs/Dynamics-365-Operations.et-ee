@@ -41,3 +41,6 @@ Lisateavet vt teemast [Põhikonto kategooriate seadistamine](tasks/set-up-main-a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

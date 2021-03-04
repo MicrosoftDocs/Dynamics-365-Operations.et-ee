@@ -111,3 +111,6 @@ Kuluarvestuse teenuse ja Dynamics 365 Supply Chain Managementi vahel integratsio
 ## <a name="related-resources"></a>Seotud ressursid
 
 [Kuluarvestuse teenuse avaleht](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Te võite töötaja puhkusesaldot korrigeerides lisada põhjusekoodi ja kommenta
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

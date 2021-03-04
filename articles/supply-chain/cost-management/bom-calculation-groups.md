@@ -98,3 +98,6 @@ Saate määratleda mitu koosluse arvutusgruppi, olenevalt hoiatusteadete variats
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

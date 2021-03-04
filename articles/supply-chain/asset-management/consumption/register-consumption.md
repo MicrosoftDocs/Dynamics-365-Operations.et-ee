@@ -95,3 +95,6 @@ Kui teete tarbimise registreeringuid, lisatakse eri registreerimise tüüpidega 
 >[!NOTE]
 >Kõigi kolme registreerimise tüübi puhul on finantsdimensioonide kombinatsioon valideeritud ja kehtetud kombinatsioonid jäetakse tühjaks. See on standardne seadistus koos teiste lahenduse Finance and Operations rakendustega.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Teavet mitmesuguste võimaluste kohta lehtede otsimiseks leiate selle artikli va
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Välja kirjelduste kohandamine](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

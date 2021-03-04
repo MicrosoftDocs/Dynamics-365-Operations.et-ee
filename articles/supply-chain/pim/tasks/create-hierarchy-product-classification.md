@@ -67,3 +67,6 @@ See protseduur selgitab, kuidas luua uut kategooriahierarhiat ja määrata kauba
 8. Klõpsake loendis valitud real olevat linki.
 9. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

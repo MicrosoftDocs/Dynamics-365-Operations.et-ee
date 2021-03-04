@@ -125,3 +125,6 @@ Esialgne arve on arve, mis on vormistatud hinnangulise arvesummaga enne arve sis
 #### <a name="blogs"></a>Ajaveebid
 
 Müügiprotsessi ülevaate leiate postitusest [Kuidas toimub müük rakenduses Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

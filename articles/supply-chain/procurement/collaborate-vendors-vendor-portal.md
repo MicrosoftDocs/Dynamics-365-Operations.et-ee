@@ -104,3 +104,6 @@ Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimuss
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

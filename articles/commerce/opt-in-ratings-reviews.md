@@ -64,3 +64,6 @@ Oma saidil hinnangute ja arvustuste kasutamisega nõustumiseks järgige neid sam
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

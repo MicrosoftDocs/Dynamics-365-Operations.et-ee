@@ -73,3 +73,6 @@ Järgmine pilt näitab "vabaajasärkide suuruste" suuruse grupi näidet.
 [Jaemüügitoodete häälestamine](set-up-retail-products.md)
 
 [Tootedimensioonid](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

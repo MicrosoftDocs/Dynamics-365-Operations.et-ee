@@ -70,3 +70,6 @@ Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmete
     - Toiming **Eemalda ja saada** on kohaldatav ainult siis, kui kasutate kõnekeskuse funktsiooni.  
 8. Klõpsake nuppu **Tühjenda ootelolekud**. Ootelolek on nüüd tellimusest ja aktiivsete ootelolekute loendist eemaldatud. Nägemaks kõiki ootelolekuid ja nende alamkogumit konkreetse oleku järgi, muutke välja Kuva väärtust.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

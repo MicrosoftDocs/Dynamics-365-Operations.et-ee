@@ -90,3 +90,6 @@ Eeltingimused:
 12. Klõpsake Lõpeta.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

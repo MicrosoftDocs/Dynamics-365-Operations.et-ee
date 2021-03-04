@@ -58,3 +58,6 @@ Enne funktsiooni *Täiendav asukohatsoon* kasutamist peate selle oma süsteemis 
 7. Valige **Loo**.
 8. Teile kuvatakse teateid selle kohta, et uued asukohad on lisatud. Teadete nägemiseks valige nupp **Kuva sõnumid**.
 9. Avage **Laohaldus \> Seadistus \> Ladu \> Asukohad**. Uued asukohad kuvatakse loendis ja kõik tsooniväljad on saadaval (st olemasolev tsooniväli ja uued täiendavad tsooniväljad).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

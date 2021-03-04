@@ -66,3 +66,6 @@ Saate määrata teenusegruppi objekte, kasutades vormi **Teenuseobjektid**.
 [Teenuseobjektide loomine](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

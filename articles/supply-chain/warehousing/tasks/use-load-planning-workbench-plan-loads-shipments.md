@@ -61,3 +61,6 @@ Selles teemas näidatakse, kuidas kasutada koormuse planeerimise töölauda mü�
 5. Valige **Määra**.
 6. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

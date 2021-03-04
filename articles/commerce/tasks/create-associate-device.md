@@ -41,3 +41,6 @@ See protseduur selgitab uue seadme loomist ja registriga seostamist. Eeldatakse,
 9. Klõpsake loendis valitud real olevat linki.
 10. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

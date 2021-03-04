@@ -121,3 +121,6 @@ Lähteväärtus toote tulemuste käsitsi lisamiseks või eemaldamiseks tehke jä
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

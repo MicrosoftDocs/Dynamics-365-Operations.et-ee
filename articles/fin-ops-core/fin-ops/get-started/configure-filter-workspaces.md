@@ -63,3 +63,6 @@ Kui tööruumis üksikutel osadel on filtrid, saate filtreerida igat osa eraldi.
 [![tööruumi-osa-filtrid](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Nagu tööruumiülese filtri puhul, saate valida või sisestada väljale väärtuse, et selle osa sisu filtreerida.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

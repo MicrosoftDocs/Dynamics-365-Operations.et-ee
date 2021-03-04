@@ -177,3 +177,6 @@ Järgmises protseduuris näidatakse kuidas eraldada päisetaseme tasusid reale. 
         > Kui töötate ruudustikuga **Eraldamisest välja arvatud ridade valimine**, jätke kindlasti ruudustik senikaua avatuks, kuni valite **Eralda**. Kui sulgete ruudustiku enne valiku **Eralda** tegemist, lähevad teie ruudustiku sätted kaotsi. Seega tasud eraldatakse vastavalt eelnevalt määratletud kriteeriumitele.
 
 1. Valige **Eralda**, et rakendada oma sätted ja sulgeda päringu dialoogiboks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

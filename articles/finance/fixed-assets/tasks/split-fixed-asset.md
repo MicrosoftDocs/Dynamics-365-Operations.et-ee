@@ -63,3 +63,6 @@ Enne täielikult amortiseeritud vara tükeldamist tuleb vara raamatu olek **Sule
     - Soetamiskanne luuakse uue vara puhul samas summas.
 
 4. Valige **Sisesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Vormilt **Müügitellimused** saate hooldustellimuse luua viisardi **Loo müügi
 
 [Teenusetellimuste loomine (klass Vormid)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

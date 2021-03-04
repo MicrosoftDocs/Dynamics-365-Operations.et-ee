@@ -68,3 +68,6 @@ Alloleval kuvatõmmisel on lisatud info töö asukohtade kohta. Nüüd on võima
 
 ![Igakuise töökoormuse näide töö asukohtadega](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

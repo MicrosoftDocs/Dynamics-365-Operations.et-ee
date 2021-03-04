@@ -100,3 +100,6 @@ Tasuprotsesse kasutatakse uute tasusummade ja preemiate määramiseks põhipalga
 10. Klõpsake nuppu Kinnitatud.
     * Pärast kirje kinnitamist saab selle laadida töötaja ametlikku tasukirjesse. Uus tasu jõustub tasuprotsessis määratud kande kuupäevast.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

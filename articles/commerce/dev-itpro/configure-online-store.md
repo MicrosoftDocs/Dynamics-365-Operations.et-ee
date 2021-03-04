@@ -62,3 +62,6 @@ Järgmises tabelis loetletud teemad aitavad teil kaubanduse komponente ja jaemü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

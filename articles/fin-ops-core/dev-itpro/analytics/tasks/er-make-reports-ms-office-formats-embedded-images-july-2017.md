@@ -90,3 +90,6 @@ Selle protseduuri toimingute lõpule viimiseks peate esmalt läbima protseduuri 
  30. Väljal „Luba eelpäringu loomine passiivsetel pangakontodel:” valige Jah.  
  31. Klõpsake nuppu Salvesta.  
  32. Sulgege leht.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

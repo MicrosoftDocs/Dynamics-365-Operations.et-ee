@@ -163,3 +163,5 @@ Jõudluse töölehe allikatüübid kirjeldavad, kust jõudluse töölehed tuleva
 ### <a name="review-types"></a>Ülevaate tüübid
 
 Jõudluse ülevaate tüübid aitavad teil kontrollida ülevaate käitumist. Saate lubada või keelata ülevaate töövoo. Kui ülevaade ei kasuta töövoogu, saate määrata vaikeoleku, mida kasutatakse ülevaate loomisel. Samuti saate otsustada, kas ülevaatele peavad nõusoleku andma töövõtja, juhataja või mõlemad.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

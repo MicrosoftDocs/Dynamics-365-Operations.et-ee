@@ -58,3 +58,6 @@ Lehel **Aktiivsed varalaenud** saate vaadata loendit kõigist laenuvaradest, mis
 3. Väljale **Tagastatud** sisestage kuupäev ja kellaaeg.
 4. Valige nupp **OK**.
 5. Värskendage loendilehte **Aktiivsed varalaenud** ja märkate, et varalaenu ei kuvata enam loendis.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

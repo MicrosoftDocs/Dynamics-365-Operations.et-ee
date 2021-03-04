@@ -54,3 +54,6 @@ Teie töövõtjad võivad esitada eemaloleku aja taotlusi ja saate neid hallata 
 [Vaba aja taotlemine](hr-employee-self-service-request-time-off.md)
 [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

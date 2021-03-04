@@ -144,3 +144,6 @@ Saadaval on palju erinevaid integratsioonitehnoloogiaid, nii et otsustamine, mil
 <sup>2</sup>Microsoft keskendub oluliselt Common Data Service'i üksuste andmekogumise suurendamisele. Soovitame Common Data Service'i kasutamist, kui andmekogumine on saadaval. Praegu on Common Data Service’i andmekogumine väike DMF- ja OData toega üksustega võrreldes.
 
 <sup>3</sup> SQL-i andmebaasil on programmiline juurdepääs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

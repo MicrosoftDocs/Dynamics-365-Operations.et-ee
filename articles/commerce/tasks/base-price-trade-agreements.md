@@ -70,3 +70,6 @@ See protseduur juhendab kanalispetsiifiliste müügihinna kaubanduslepete loomis
 38. Klõpsake paanil **Toimingupaan** nuppu Müük.
 39. Klõpsake valikut **Müügihinnad**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

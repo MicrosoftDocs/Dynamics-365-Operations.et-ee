@@ -46,3 +46,6 @@ See protseduur keskendub konfiguratsiooniprotsessi määratlemisele, mis määra
 15. Klõpsake loendis valitud real olevat linki.
 16. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

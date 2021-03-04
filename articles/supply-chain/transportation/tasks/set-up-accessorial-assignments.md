@@ -50,3 +50,6 @@ See protseduur näitab, kuidas seadistada lisade määranguid. Seda teeb üldjuh
 14. Sisestage number väljale Lisatasu.
 15. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

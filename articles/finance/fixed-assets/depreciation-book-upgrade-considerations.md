@@ -83,3 +83,6 @@ Mõlema lähenemisega kasutab andmete täiendamisskript ka numbriseeriat uue pea
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

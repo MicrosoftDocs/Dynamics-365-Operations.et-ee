@@ -106,3 +106,6 @@ Lisaressursid
 - [Kulujuhtimise tööruum](cost-control-workspace.md)
 - [Dimensioonihierarhia](dimension-hierarchy.md)
 - [Kuluarvestuse sisupaketi turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

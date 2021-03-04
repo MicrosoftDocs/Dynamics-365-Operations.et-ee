@@ -44,3 +44,6 @@ Kehtiv koosluse versioon, laoalapõhine või üldine, peab vastama nõutavatele 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

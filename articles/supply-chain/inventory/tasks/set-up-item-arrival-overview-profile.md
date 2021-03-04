@@ -54,3 +54,6 @@ Selles teemas keskendutakse saabumise ülevaate profiilile. Saabumisülevaate pr
 17. Valige käsk **Salvesta**.
 18. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

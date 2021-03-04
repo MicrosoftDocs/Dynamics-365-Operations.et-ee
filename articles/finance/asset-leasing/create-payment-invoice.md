@@ -49,3 +49,6 @@ Saate luua igakuised arved üksikutele rendikirjetele või saate kasutada partii
 6. Pärast kande sisestamist saate vaadata kande teavet ja rendikohustise bilansilist väärtust, valides rendi raamatus suvandi **Kohustise tehingud**.
 
     Maksegraafikus valitakse märkeruut **Tööleht on sisestatud** ja rida kuvab arve töölehe numbri. Pärast makse töölehe ja selle töölehe kirje on loodud, peate kirje enne selle uuesti loomist ümber pöörama.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

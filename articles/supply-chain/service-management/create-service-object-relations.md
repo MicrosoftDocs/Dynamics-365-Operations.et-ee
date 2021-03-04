@@ -72,3 +72,6 @@ Teenusetellimuse jaoks teenuseobjekti seose loomiseks tehke järgmist.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

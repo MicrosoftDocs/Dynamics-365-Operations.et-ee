@@ -97,3 +97,6 @@ Igal väljal on kandele selle redigeerimisel erinev mõju.
 - **Skonto tingimuste redigeerimine** – skontosid muudetakse aluskuupäeva ja skonto tingimuste alusel.
 
 Kui olete maksesätete redigeerimise lõpetanud, valige muudatuste salvestamiseks käsk **Sule**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Organisatsiooni kasvades talentide kasvatamisele mõtlema hakates võite soovida
 28. Klõpsake vahekaarti Aruanne.
     * Parimad vasted loetletakse aruande ülaosas.  Loetelus näete vaheelementi.  See on näitab erinevust oskuste kaardistamisel üles loetletud ja isikule määratud oskuste taseme vahel.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

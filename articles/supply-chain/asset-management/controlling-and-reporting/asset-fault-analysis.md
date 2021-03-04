@@ -109,3 +109,6 @@ Alltoodud ekraanipildil lisati **Tüüp** ja on näidatud kõige üksikasjalikum
 >[!NOTE]
 >Töökäskudele ja hooldusnõuetele loodud kõigi vigade registreerimiste ülevaate jaoks klõpsake **Varahaldus** > **Päringud** > **Vara viga** > **Vara vead**. Lehel **Vara vead** valige vara vea registreerimine ja laiendage **Seotud teabe** paani, et näha teavet seotud töökäsu või hooldusnõude kohta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

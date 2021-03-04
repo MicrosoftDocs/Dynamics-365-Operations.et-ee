@@ -91,3 +91,6 @@ Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

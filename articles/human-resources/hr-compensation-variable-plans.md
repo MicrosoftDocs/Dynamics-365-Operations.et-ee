@@ -99,3 +99,6 @@ Valikut **Organisatoorsed erandid** kasutatakse töötaja preemia arvestamiseks 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

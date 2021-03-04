@@ -52,3 +52,6 @@ Selles teemas selgitatakse, kuidas seadistada atribuutidepõhist hinnastamist. E
 8. Sisestage väärtus väljale **Avaldis**. Sisestage näiteks `50`. 
 9. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

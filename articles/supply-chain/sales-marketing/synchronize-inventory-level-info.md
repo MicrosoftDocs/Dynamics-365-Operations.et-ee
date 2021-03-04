@@ -91,3 +91,6 @@ Saate rakendada filtreid täpsema päringu ja filtreerimise abil, nii et ainult 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Tootevarud (rakendusest Supply Chain Management rakendusse Field Service): tootevarud
 
 [![Malli vastendamine andmete integratsioonis](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

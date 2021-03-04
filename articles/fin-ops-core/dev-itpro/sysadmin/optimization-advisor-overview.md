@@ -94,3 +94,6 @@ Konkreetsete reeglite hindamise inaktiveerimiseks valige võimalus, mis reegliga
 [Optimeerimisnõustaja reeglite loomine](./create-rules-optimization-advisor.md)
 
 [Optimeerimise nõustaja rakenduses Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -162,3 +162,6 @@ Tehnilised kooslused ja protsessid luuakse tehnilisest versioonist, kus neid rak
 Toodete puhul, kus kasutate *versiooni* tootedimensiooni (koos kannete logistilise mõjuga), lisatakse versioon ka kooslustele ja protsessidele. Selline käitumine aitab eristada järjestikuste versioonide kooslusi ja protsesse, vaatamata suvandi **Kehtivuse jõustamine** määramisest.
 
 Toodete puhul, kus ei kasutata *versiooni* tootedimensiooni (ilma kannete logistilise mõjuga), ei lisata versiooni kooslustele või protsessidele. Seetõttu ei ole järjestikuste versioonide koosluste ja protsesside vahel erinevust. Sellisel juhul soovitame tungivalt määrata suvandi **Kehtivuse jõustamine** väärtuseks *Jah*. Sel viisil aitate vältida tehniliste versioonide kattumist ja saate aktiveerida ka uuema versiooni koosluse ja protsessi, ilma et peaksite esmalt aktiveerima eelmise versiooni koosluse ja protsessi. Kui määrate suvandi **Kehtivuse jõustamine** väärtuseks *Jah*, peate enne uusima versiooni aktiveerimist käsitsi aktiveerima vanemate versioonide kooslused ja protsessid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

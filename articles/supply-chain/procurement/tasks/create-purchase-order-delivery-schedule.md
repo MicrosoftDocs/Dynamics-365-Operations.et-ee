@@ -74,3 +74,6 @@ Ostutellimus tuleb enne toote sissetuleku töötlemist kinnitada. Selles näites
 6. **Ahendage jaotist Read.**
 7. **Klõpsake sissetuleku sisestamiseks nuppu OK.**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 10. Klõpsake nuppu Salvesta.
 11. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

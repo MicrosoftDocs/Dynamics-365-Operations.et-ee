@@ -86,3 +86,6 @@ Järgmine pilt näitab näitliku juriidilise isiku üksikasju.
 [Kanalite ülevaade](channels-overview.md)
 
 [Kanali seadistamise eeltingimused](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

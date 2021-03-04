@@ -58,3 +58,6 @@ Kui valite **Eeldatav kanne**, siis ei näidata midagi, sest ühtegi arvet pole 
 > Nende lisakaupade näitamisele konteksti andmiseks saate ruudustikku lisada täiendavaid veerge, näiteks **Ümberjaotamise ID** ja **Müügitellimus**.
 > 
 > [![Täiendavad veerud tulu hinna eraldamiste lehel](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

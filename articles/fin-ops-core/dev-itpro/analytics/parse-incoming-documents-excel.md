@@ -46,3 +46,6 @@ Kui te pole järgmist tegevusejuhist, [Elektrooniline aruandlus: nõutud konfigu
 | Sisu kirjeldus    | Fail                                                            |
 |------------------------|-----------------------------------------------------------------|
 | Elektroonilise aruandluse mudeli konfiguratsioon | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

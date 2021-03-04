@@ -49,3 +49,6 @@ Onboardi rakenduse hankimise ja kasutamise kohta leiate teavet järgmistest teem
 - [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
 - [Väljaandmisplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

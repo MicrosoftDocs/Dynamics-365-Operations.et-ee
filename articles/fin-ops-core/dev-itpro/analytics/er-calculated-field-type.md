@@ -342,3 +342,6 @@ Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla
 - [Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)
 - [Saate parandada ER-lahenduste jõudlust, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

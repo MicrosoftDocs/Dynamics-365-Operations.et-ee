@@ -62,3 +62,6 @@ See protseduur keskendub plaanitud protsessi kanban-tööde teise perioodi teisa
 2. Klõpsake nuppu **Edasi**. Pange tähele, et tööd teisaldatakse loendis üks rida alla. 
 
 3. Klõpsake nuppu **Tagasi**. Pange tähele, et tööd teisaldatakse loendis üks rida üles.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

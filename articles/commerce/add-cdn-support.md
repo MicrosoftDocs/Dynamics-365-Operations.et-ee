@@ -163,3 +163,6 @@ Teie CDN peaks nüüd olema õigesti konfigureeritud, et seda saaks teie Commerc
 [Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas](configure-multi-B2C-tenants.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

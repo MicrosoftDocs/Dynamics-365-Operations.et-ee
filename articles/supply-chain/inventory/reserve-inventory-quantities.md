@@ -83,3 +83,6 @@ Lehel **Varude ja laohalduse parameetrid** on kaks suvandit seotud reserveerimis
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Varude reserveerimispoliitikad tootmisparameetrite lehel
 
 Välja **Reserveerimine** väärtus vahekaardil **Üldine** lehel **Tootmise parameetrid** määrab tootmisprotsessi vaikepunkti, kus varud tuleb reserveerida. Näiteks saab varud reserveerida, kui tö planeeritakse või kui töö käivitatakse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

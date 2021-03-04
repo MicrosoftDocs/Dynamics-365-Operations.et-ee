@@ -51,3 +51,6 @@ April sisestab maksetöölehe. Arve on täielikult tasakaalustatud maksega summa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

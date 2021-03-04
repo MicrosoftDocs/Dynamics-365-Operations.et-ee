@@ -210,3 +210,6 @@ Nagu selles teemas eespool kirjeldatud, saab asjakohases ER-i komponendis kätte
 
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse funktsioonid](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

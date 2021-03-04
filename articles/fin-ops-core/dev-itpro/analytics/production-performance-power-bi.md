@@ -128,3 +128,6 @@ Järgmises tabelis olevaid põhidimensioone kasutatakse filtritena koondmõõtmi
 | Üksused                  | ID ja nimi                                                   |
 | Ressursid                 | Ressursi ID, ressursi nimi, ressursitüüp ja ressursigrupp |
 | Tooted                  | Tootenumber, toote nimi, kauba ID ja kaubagrupp         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

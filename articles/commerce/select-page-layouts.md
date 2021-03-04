@@ -78,3 +78,6 @@ Muu paigutuse valimiseks olemasoleva lehe jaoks toimige järgmiselt.
 
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

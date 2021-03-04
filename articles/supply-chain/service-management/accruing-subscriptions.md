@@ -152,3 +152,6 @@ Saate määrata pearaamatukannete arvu, mis luuakse viittulu sisestamisel. Kordu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

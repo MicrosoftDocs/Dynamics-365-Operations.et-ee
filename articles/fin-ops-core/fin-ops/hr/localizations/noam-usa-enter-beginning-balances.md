@@ -166,3 +166,6 @@ on võimalik kandeid tühistada ja uuesti sisestada. Kande tühistamiseks peate 
 2. Klõpsake **Jah**, kui kuvatakse teade „Selle palgaväljavõtte tühistamisel luuakse tühistav palgaväljavõte selle palgaväljavõtte tasakaalustamiseks. Kumbagi palgaväljavõtet ei saa muuta. Kas soovite selle palgaväljavõtte tühistada?” . 
 
 Kui olete palgaväljavõtte tühistanud, saate luua uue palgaväljavõtte töötaja jaoks varem loodud tuluväljavõtte põhjal. Korrigeerige kindlasti kõik tuluväljavõtte valed read, enne kui loote uue palgaväljavõtte, ja seejärel looge uued palgaväljavõtted õigete summadega. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Kui suvandi **Keela kviitungita tagasimaksed** sätteks on valitud **Jah**, ei l
 
 Kui kandel on nii kviitungiga tagastus kui ka kviitungita tagastus, siis piirangutingimusi ei rakendata, kuna kanne on kviitungiga tagastusvoog. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

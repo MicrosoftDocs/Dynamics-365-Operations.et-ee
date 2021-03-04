@@ -94,3 +94,6 @@ Pärast konfiguratsioonivõtmete täieliku mõju mõistmist andmeüksustele, mid
 Konfiguratsioonivõtmete värskendamisel üksuse, tabeli või välja tasemel tuleb värskendada andmehaldusraamistiku üksuste loendit. See tagab, et raamistik komplekteerib konfiguratsioonivõtme uusimad sätted. Kuni üksuste loendit värskendatakse, kuvatakse üksuste loendi lehel järgmine hoiatus. Värskendatud konfiguratsioonivõtme muudatused jõustuvad kohe pärast üksuste loendi värskendamist. Soovitame olemasoleva andmeprojektid ja tööd kinnitada, veendumaks et need toimiksid pärast konfiguratsioonivõtmete muudatuste rakendamist õigesti.
 
 ![Sihtväljad](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

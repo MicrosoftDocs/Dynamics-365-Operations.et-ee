@@ -103,3 +103,6 @@ Selles näites valite soovitud ER-i konfiguratsiooni ja impordite selle näidise
     Valige selles näites selle konfiguratsiooni versioon, mille olek on **Ühiskasutuses**.
 
     Pange tähele, et nüüd on saadaval ka valitud andmemudeli konfiguratsiooni ühiskasutatav versioon 1.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

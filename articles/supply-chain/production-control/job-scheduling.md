@@ -77,3 +77,6 @@ Töö planeerimine võtab arvesse ressurssidele määratud efektiivsusprotsente.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

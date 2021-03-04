@@ -84,3 +84,6 @@ Loodud rendiraamatutele ja rühmadele kontode määramiseks peate konfigureerima
     > [!NOTE]
     > Valitud finants- või kasutusel olev konto debiteeritakse, kui plaanitud kulu arve sisestatakse.
     > **Rendikulu vastaskontot** kasutatakse täitekulude kannete sisestamistüübina, aga sisestatakse määratletud **Vastaskontole** **Täitekulude maksegraafikute ridadel** rendi üksikasjade juures või rendiraamatu vormil.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Oma saidile uue saidi lehe lisamiseks toimige järgmiselt.
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
 
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

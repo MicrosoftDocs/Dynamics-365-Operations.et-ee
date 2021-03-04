@@ -112,3 +112,6 @@ Saate printida arvele pakkematerjali kaalu ja näidata, kes maksab seotud tasud.
 
 1. Minge jaotisse **Müügireskontro \> Seadistus \> Müügireskontro parameetrid**.
 1. Vahekaardil **Uuendused** kiirkaardil **Arve** määrake suvand **Pakkematerjali kaalu printimine** valikule **Jah**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Kuluarvestuse pearaamat tähistab üldist aruandlusüksust. See on määratletud
 8. Sisestage või valige väärtus väljal Statistiline dimensioon.
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

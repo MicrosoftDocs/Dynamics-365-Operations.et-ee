@@ -354,3 +354,6 @@ JÃ¤rgmised stsenaariumid illustreerivad, kuidas kasutada selle teema lugemise kÃ
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Saadetise konsolideerimispoliitikad](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

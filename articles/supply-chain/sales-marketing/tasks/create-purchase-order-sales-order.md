@@ -69,3 +69,6 @@ See protseduur näitab, kuidas koostada müügitellimusel põhinevat ostutellimu
     - **Viitepartii** tagab, et selle ostu kulud kantakse manustatud müügitellimusele.  
     - Saate liikuda algse müügitellimuse juurde, avades lingi väljal **Viitenumber**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

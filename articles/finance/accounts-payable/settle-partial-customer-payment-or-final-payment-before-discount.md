@@ -149,3 +149,6 @@ Arnie sisestab töölehe ja vaatab üle kliendi kanded leheküljel **Kliendikand
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

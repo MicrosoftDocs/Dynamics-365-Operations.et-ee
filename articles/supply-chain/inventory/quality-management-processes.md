@@ -101,3 +101,6 @@ On mõistlik määrata parandustele kordumatu dokumenditüüp, kasutades lehte *
 [Kvaliteettellimuste seadistamine](tasks/set-up-quality-orders.md)
 
 [Kaupade kvaliteedi kontrollimine](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

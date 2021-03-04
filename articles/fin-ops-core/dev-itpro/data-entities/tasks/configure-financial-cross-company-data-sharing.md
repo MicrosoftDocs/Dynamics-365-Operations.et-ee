@@ -59,3 +59,6 @@ Selle tegevusjuhise jaoks on nõutav Dynamics AX-i platvorm 7.1 või uuem.
 27. Värskendage lehte.
 28. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

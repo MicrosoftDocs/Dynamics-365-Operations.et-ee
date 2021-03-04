@@ -129,3 +129,6 @@ Need ülesanded on mõeldud süsteemi administraatoritele.
 8. Valige väljal Riik/piirkond tüüp PRT.
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

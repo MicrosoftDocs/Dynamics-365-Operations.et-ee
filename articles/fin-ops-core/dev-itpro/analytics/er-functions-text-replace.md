@@ -81,3 +81,6 @@ Kui argument `regular expression flag` on **VÄÄR**, tagastab see funktsioon m�
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

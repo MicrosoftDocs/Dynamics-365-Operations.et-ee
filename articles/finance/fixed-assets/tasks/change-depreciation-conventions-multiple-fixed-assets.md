@@ -49,3 +49,6 @@ See 체lesanne v채rskendab konkreetse p천hivara grupi kulumiarvestusreegli. See �
 15. Kl천psake nuppu OK.
     *  Protsessi tulemused kuvatakse aruandel Hulgiv채rskendamine.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

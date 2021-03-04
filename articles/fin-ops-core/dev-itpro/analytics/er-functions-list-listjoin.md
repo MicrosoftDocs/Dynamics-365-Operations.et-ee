@@ -83,3 +83,6 @@ Selle loendi struktuur koosneb ühest tüübi `Real` väljast **Summa**, kuna se
 [Loendi funktsioonid](er-functions-category-list.md)
 
 [Käivitatud ER-vormingu andmeallikate silumine andmevoo ja teisenduse analüüsimiseks](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

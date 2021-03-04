@@ -45,3 +45,6 @@ Kogu andmete töötlust käitavad tööd. Iga töö ja andmepakkuja jaoks luuaks
     * Näiteks saate valida rahandusaasta 2017 perioodi 9.  
 14. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

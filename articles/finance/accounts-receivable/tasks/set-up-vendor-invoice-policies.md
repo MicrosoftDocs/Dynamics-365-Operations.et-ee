@@ -73,3 +73,6 @@ Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hanki
 16. Valige nupp **OK**.
 17. Avalehele naasmiseks sulgege leheküljed.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Töödelge rakenduses Microsoft Dynamics 365 Human Resources soodustuse määrad
    4. Valige nupp **OK**. Protsess töötab teie määratud parameetritega.
 
 4. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Elektroonilise aruandluse (ER) kuupäeva ja kellaaja funktsioone saab kasutada k
 [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 
 [Elektroonilise aruandluse valemi keel](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

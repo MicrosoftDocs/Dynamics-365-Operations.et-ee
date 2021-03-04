@@ -130,3 +130,6 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 3. Klõpsake nuppu **Sirvi** ja valige fail **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Klõpsake valikut **OK**.
 5. Vaadake genereeritud fail üle. Pange tähele, et sama fail on imporditud, kuna vormingu kujundus arvestab nüüd „dokumendi” elemendi „ID” atribuuti valikulisena.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

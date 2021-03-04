@@ -49,3 +49,6 @@ Selles näites on aasta 2016 värskenduste haldamisel kasutatud täiendavat üht
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

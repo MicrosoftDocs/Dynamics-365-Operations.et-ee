@@ -141,3 +141,6 @@ Viimane samm on määrata tootemudeli versiooni jaoks atribuudipõhised müügih
 1. Valige toimingupaanil vahekaart **Mudel** ning valige rühmas **Hinnamudeli üksikasjad** suvand **Versioonid**.
 1. Avaneb leht **Versioonid**. Veenduge, et suvandi **Hinnakujundusmeetod** väärtuseks oleks seatud **Atribuudipõhine**.
     ![Hinnakujundusmeetodi seadmine atribuudipõhiseks](media/prod-config-versions.png "Hinnakujundusmeetodi seadmine atribuudipõhiseks")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

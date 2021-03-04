@@ -122,3 +122,6 @@ Seejärel sisestab April makse. Kui ta avab lehe **Hankija kanded**, näeb ta, e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

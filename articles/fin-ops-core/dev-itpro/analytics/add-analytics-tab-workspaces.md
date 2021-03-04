@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Kahendmuutuja väärtus, mis näitab, kas filtripaan tuleb kuvada (**tõene**) või peita (**väär**).     |
 | showNavPane      | Kahendmuutuja väärtus, mis näitab, kas navigeerimispaan tuleb kuvada (**tõene**) või peita (**väär**). |
 | defaultFilters   | Power BI aruande vaikefiltrid.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

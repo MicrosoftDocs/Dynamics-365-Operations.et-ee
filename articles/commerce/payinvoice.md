@@ -45,3 +45,6 @@ Nende stsenaariumide lubamiseks tuleb kaupluste funktsiooniprofiili konfigureeri
 
 > [!NOTE]
 > Osaliste summade makset või tasakaalustamist veel ei toetata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

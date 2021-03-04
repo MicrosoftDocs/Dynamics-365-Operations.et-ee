@@ -65,3 +65,6 @@ See protsess kasutab demoettevõtte USMF-i andmeid. Järgmiste sammude tegemisek
 10. Klõpsake toimingupaanil valikut Vaata üle.
 11. Klõpsake valikut Vastanduvad üksikasjad.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

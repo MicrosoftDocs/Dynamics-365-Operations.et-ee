@@ -49,3 +49,6 @@ Numbriseeria linkimiseks vedajaga tehke järgmist:
 1. Valige suvand **Redigeeri**.
 1. **Ülevaade** FastTab-is tehke valik **Pro-numbriseeria** väljal.
 1. Sulgege leht.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

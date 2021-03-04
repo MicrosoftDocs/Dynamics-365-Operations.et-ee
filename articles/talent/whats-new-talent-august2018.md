@@ -85,3 +85,6 @@ Lisateavet selle funktsiooni kohta leiate teemast [Office’i integreerimise õp
 ## <a name="other-fixes"></a>Muud parandused
 
 Selles versioonis on ka hulk programmivigade parandusi, lisatud on uus üksusi, parandatud on olemasolevaid üksus ja muudetud on lokaliseeritud silte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

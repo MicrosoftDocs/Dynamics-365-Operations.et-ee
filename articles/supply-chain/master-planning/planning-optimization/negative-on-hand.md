@@ -87,3 +87,6 @@ Tulemuseks on plaanitud tellimus 25 tk (= 25 tk &minus; 0 tk), et täita ladu 13
 [Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
 
 [Planeerimistöö tühistamine](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

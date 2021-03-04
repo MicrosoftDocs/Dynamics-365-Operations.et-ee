@@ -253,3 +253,6 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 ![Joonis 10](media/am-mobile-10.png)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

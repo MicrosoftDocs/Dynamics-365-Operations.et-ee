@@ -139,3 +139,6 @@ Pärast seda, kui olete loonud oma töökäskude jaoks nõutavad tääkäsu tö�
 9. Salvestage töökäsu töötsükli mudel.
 
 ![Töökäsu töötsükli mudelite leht](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

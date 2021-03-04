@@ -52,3 +52,6 @@ See protseduur keskendub protsessi kanban-töö ettevalmistamisele, kui mõned m
 6. Klõpsake suvandit Valmista ette.
     * Pange tähele, et töö oleku ikoon näitab, et töö on nüüd valmis.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

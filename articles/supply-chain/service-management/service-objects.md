@@ -47,3 +47,6 @@ Ettevõte A haldab mitme väikeettevõtte finantsandmeid. Üks ettevõtte A klie
 
 [Hooldusobjektide loomine](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

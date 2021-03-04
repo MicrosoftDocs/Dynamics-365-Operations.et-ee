@@ -82,3 +82,6 @@ Rakenduse Dynamics 365 Commerce täiustatud sortimine võimaldab klientidel sort
 [Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade](category-search-page-overview.md)
 
 [SEO metaandmete haldamine](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

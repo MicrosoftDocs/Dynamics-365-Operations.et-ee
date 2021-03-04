@@ -57,3 +57,6 @@ Administraator peab käsitsi turberollidesse määratud kasutajad ka käsitsi ee
 2. Valige puus roll ja menüüs **Rollile määratud kasutajad** suvand **Määra käsitsi / välista kasutajad**.
 4. Jaotises **Kasutajate rolli määramine või eemaldamine** on kasutajad, kellele ei ole rolli määratud, loetletud nii, et suvandi **Määrangurežiim** väärtus on **Puudub**. Valige üks või mitu kasutajat, kellele tuleb roll määrata.
 5. Valige suvandis **Toimingupaan** valik **Määra rollile**. Suvandis **Määrangurežiim** uuendatakse väärtuseks **Käsitsi** ja kasutajatele on nüüd määratud uus roll.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

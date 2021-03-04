@@ -229,3 +229,6 @@ Et piirata oma organisatsiooni või selles olevate kasutajate juurdepääsu rake
 [Microsoft Teamsi allalaadimine ja installimine](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams spikrikeskus](https://support.office.com/teams)</br>
 [Rakendus Human Resources Teamsis](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

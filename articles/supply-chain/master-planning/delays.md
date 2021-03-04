@@ -59,3 +59,6 @@ Lehe **Plaanitud tellimus** vahekaardil **Viivitused** on planeeritud kuupäeva 
 --------
 
 [Laovarude sätted](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

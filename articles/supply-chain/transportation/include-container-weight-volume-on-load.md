@@ -45,3 +45,6 @@ Koorma puhul arvestatav konteinerite arv arvutatakse konteineri kaalu ja mahu ni
 -   Konteineri kaalu ja mahu määramiseks klõpsake valikuid **Laohaldus** \> **Seadistus** \> **Konteinerid** \> **Konteineritüübid**.
 
 -   Konteineri kasutamise protsendi seadistamiseks klõpsake valikuid **Laohaldus** \> **Seadistus** \> **Konteinerid** \> **Konteinerigrupid** ja sisestage siis väärtus väljale **Konteineri kasutamise protsent**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

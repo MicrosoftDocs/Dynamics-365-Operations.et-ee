@@ -55,3 +55,6 @@ Kui väljal **Alates kuupäevast** on vähendusperiood 21. jaanuar (31 miinus 10
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

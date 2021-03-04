@@ -55,3 +55,6 @@ Nüüd saate teha tellimuse kohta kandeid.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

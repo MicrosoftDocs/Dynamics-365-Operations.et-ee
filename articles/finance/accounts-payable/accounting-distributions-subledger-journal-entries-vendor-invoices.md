@@ -250,3 +250,6 @@ Kui alammooduli töölehe kirje on enne hankija arve töölehele paigutamist val
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

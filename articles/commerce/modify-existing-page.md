@@ -87,3 +87,6 @@ Järgmine näide selgitab, kuidas muuta avalehte, muutes videopleieri moodulis i
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
 
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

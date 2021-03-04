@@ -114,3 +114,6 @@ Järgmises tabelis on kirjeldatud klaviatuuri otseteed, mida saab kasutada, kui 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

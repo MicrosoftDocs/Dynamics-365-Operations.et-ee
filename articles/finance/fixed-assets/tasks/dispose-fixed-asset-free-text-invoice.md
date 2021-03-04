@@ -41,3 +41,6 @@ Siin peatükis selgitatakse, kuidas käibelt kõrvaldada põhivara vabas vormis 
 10. Sisestage väärtus välja **Põhivara** või valige sealne väärtus.
 11. Valige **Sisesta**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

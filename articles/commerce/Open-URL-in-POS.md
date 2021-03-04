@@ -83,3 +83,6 @@ URL-i konfigureerimiseks kassas avamise jaoks toimige järgmiselt.
 5. Valige tegevuseks **Ava URL**.
 6. Sisestage URL, mida soovite kasutada.
 7. Konfigureerige, kas URL uues aknas avada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

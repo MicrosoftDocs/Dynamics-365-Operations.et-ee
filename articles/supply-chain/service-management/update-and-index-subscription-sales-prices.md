@@ -55,3 +55,6 @@ Kordustellimuse baashinda värskendatakse määratud väärtusega.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

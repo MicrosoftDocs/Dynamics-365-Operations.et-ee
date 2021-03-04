@@ -145,3 +145,6 @@ Lisateavet vt järgmistest teemadest:
 - [Topeltvaluuta](dual-currency.md)
 - [Käibemaksu ülevaade](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

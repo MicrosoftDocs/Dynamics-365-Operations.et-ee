@@ -104,3 +104,6 @@ Meediumigalerii mooduli lisamiseks turunduslehel tehke järgmist.
 [Konteinermoodul](add-container-module.md)
 
 [Piltide üleslaadimine](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Töötajad saavad teha tootmisel mitmesuguseid registreerimisi tootmistööde te
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

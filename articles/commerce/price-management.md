@@ -240,3 +240,6 @@ Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** hinnakujundus
 Hind on üks kõige tähtsamaid tegureid, mis juhivad klientide ostuotsuseid, ja paljud kliendid võrdlevad enne ostu sooritamist hindu eri veebisaitidel. Selleks, et tagada konkurentsivõimeliste hindade pakkumine, jälgivad jaemüüjad hoolikalt oma konkurente ning korraldavad sageli kampaaniaid. Aitamaks jaemüüjatel kliente ligi meelitada, on seega väga oluline, et toote otsingu lehel, sirvimise funktsiooni puhul ning toote üksikasjade lehel kuvataks kõige täpsemaid hindu.
 
 Rakenduse Commerce tulevases väljalaskes esitab rakenduse programmeerimisliides (API) **GetActivePrices** hindu, mis kaasavad lihtsaid allahindlusi (näiteks ühe rea allahindlused, mis ei sõltu muudest ostukorvis olevatest kaupadest). Sellisel moel on kuvatud hinnad sarnasemad tegeliku summaga, mida kliendid kaupade eest maksavad. See API kaasab kõiki lihtsate allahindluste tüüpe: alluvus-, püsikliendi-, kataloogi- ja kanalipõhised allahindlused. Peale selle esitab see API rakendatud allahindluste nimed ja kehtivusteabe, nii et jaemüüjad saavad pakkuda üksiksasjalikumat hinnakirjeldust ning rõhutada kiireloomulisust, kui allahindluse kehtivus peagi aegub.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

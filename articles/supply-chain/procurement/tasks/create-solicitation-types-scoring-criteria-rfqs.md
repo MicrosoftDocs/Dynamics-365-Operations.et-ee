@@ -52,3 +52,6 @@ See juhend näitab, kuidas kutse tüüpi luua ja seda hindamismeetodiga seostada
 8. Klõpsake nuppu OK.
 9. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

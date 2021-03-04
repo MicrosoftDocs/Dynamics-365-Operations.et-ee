@@ -67,3 +67,6 @@ Luuakse ainult töö vaikeasukohas kasutatav töö vaikeasukoha tüüp. Sellele 
 
 >[!NOTE] 
 >Kiirkaardil **Üldine** saate ülevaate töö asukoha tüübi jaoks seadistatud varatüüpide, hoolduskavade, vara atribuudinõuete, lubatud tüüpide, atribuutide ja töö asukohtade arvust. Väljal **Töö asukohad** kuvatakse töö asukoha tüübi töö asukohtade arv. Nupu **Kopeeri** abil saate kopeerida sätted töö asukoha tüübist valitud töö asukoha tüüpi.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

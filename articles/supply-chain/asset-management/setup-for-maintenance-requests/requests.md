@@ -42,3 +42,6 @@ Saate seadistada teie eri tüüpi taotlusi oma ettevõttes kasutamiseks. Hooldus
 Järgneval illustratsioonil kuvatakse näidet loendilehest **Kõik hooldustaotlused**.
 
 ![Kõigi hooldusnõuete loendileht](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

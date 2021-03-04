@@ -45,3 +45,6 @@ Hooldustaotluse tüüpe kasutatakse hooldustaotluste kategoriseerimiseks. Näite
 Järgnev illustratsioon näitab lehe **Hooldustaotluse tüübid** näidet.
 
 ![Hooldusnõuete tüüpide leht](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Siin on mõned tavalised **tootmise asendamise** hälvete põhjused.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

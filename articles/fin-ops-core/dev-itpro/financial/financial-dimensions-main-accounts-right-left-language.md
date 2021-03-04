@@ -38,3 +38,6 @@ Finantsdimensioonid ja põhikontod on juurutamise plaanimisfaasi põhikomponendi
 - Vältige valitud kontoplaani eraldaja kasutamist finantsdimensiooni ja põhikonto väärtustes.
 
 Neid parimaid tavasid järgides saate tagada kasutaja määratletud tellimuse pideva tähistamise kogu süsteemis.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

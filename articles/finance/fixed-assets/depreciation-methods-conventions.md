@@ -91,3 +91,6 @@ Saate valida järgmiste kulumimeetodite hulgast.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

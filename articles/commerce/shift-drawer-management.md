@@ -158,3 +158,6 @@ Avage **Jaemüük ja kaubandus \> Kanalid \> Kauplused \> Kõik kauplused \> Vä
 See häälestus aitab tagada, et kontori väljevõtted sisaldavad samu kandeid, mis vahetused kassas ja et selle vahetuse andmed summeeritakse.
 
 Lisateavet väljavõtte ja sulgemisviiside kohta vt [Jaemüügi väljavõtete kauplusekonfiguratsioonid](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

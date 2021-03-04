@@ -206,3 +206,6 @@ Vaadake kood läbi klassi `BankImport_RU` mudelis `Application Suite`, et näha,
 
 [ER-i raamistiku API muudatused rakenduse värskenduse 7.3 puhul](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

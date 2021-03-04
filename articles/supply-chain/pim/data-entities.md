@@ -50,3 +50,6 @@ Toote andmete importimiseks ja eksportimiseks peate kasutama andmeüksuseid. Jä
 
 > [!NOTE]
 > Saate kasutada andmeüksust **Väljastatud tooted V2** toodete süsteemi importimiseks ainult siis, kui ühiskasutuses toode on juba loodud. Vastasel juhul tuleb toodete süsteemi importimiseks kasutada andmeüksust **Toote loomine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

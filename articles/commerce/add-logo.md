@@ -74,3 +74,6 @@ Pärast värskendatud päise fragmenti avaldamist kuvatakse kõik saidi lehed, m
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -183,3 +183,6 @@ Iga määratletava likvideerimistähise jaoks peate valima likvideerimistegevuse
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

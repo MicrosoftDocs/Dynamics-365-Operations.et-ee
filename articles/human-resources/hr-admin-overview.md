@@ -102,3 +102,5 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
 - [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)
 - [Arendaja juhend](hr-developer-overview.md)
 - [Kasutusjuhend](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

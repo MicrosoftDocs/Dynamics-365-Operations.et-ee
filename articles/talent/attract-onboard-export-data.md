@@ -113,3 +113,5 @@ Allalaadimine on zip-fail, mis sisaldab järgmist.
 ## <a name="see-also"></a>Vt ka
 
 [Dynamics 365 Talent: Attracti ja Dynamics 365 Talent: Onboardi pensionile saatmine](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

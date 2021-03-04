@@ -76,3 +76,6 @@ Tegevusejuhise lõpuleviimiseks laadige alla järgmised failid.
 
 - [Elektroonilise aruandluse mudeli konfiguratsioon – CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [Elektroonilise aruandluse vormingu konfiguratsioon – CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

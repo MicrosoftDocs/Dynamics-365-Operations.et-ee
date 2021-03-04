@@ -62,3 +62,6 @@ Selles protseduuris selgitatakse, kuidas kinnitada hankijaid kindlate toodete pu
 31. Sulgege leht.
 32. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

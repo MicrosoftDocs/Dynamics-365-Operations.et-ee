@@ -73,3 +73,6 @@ See protseduur näitab, kuidas luua kaubanduslepet, kus saate registreerida uue 
 ## <a name="additional-resources"></a>Lisaressursid
 ### <a name="community-blogs"></a>Kogukonna ajaveebid
 - [Müügihinnad rakenduses Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

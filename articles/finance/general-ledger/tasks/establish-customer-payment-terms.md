@@ -57,3 +57,6 @@ See protseduur määratleb skonto ja tähtaja seadistamise. See ülesande juhend
 26. **Hankija allahindluste põhikonto** väljal sisestage põhikonto, kuhu sisestatakse skonto hankija arvete jaoks.
 27. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

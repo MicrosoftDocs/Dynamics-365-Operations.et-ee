@@ -146,3 +146,6 @@ Kaupluse valija mooduli konfigureerimiseks, et näidata kaupluse asukohtade lehe
 [Bing Maps REST API-d](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Kaardimoodul](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

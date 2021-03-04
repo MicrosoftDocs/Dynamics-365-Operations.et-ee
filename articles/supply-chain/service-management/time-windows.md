@@ -45,3 +45,6 @@ Kui hooldusleppe rea jaoks ei ole kellaaja akent määratud, tuleb hooldusleppes
 
 [Kellaaja akende loomine](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

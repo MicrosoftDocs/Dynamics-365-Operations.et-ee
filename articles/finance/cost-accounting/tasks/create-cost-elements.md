@@ -58,3 +58,6 @@ Kuluarvestuses on kuluelementide loomiseks mitu võimalust. See protseduur näit
 1. Klõpsake valikut Dimensiooniliikmete kuvamine.
     * Kuva imporditud pearaamatukontod kuluelementidena oma ettevõttes, kuhu kuluvoo saab suunata.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

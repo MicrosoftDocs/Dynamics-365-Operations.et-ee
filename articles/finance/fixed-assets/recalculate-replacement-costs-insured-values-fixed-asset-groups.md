@@ -78,3 +78,6 @@ Järgmisel päeval aga teavitab teie juht, et arvutid langesid 10% asemel 8%, se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

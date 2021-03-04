@@ -170,3 +170,6 @@ Kuvatakse tellimuse rea vastuses tehtud muudatused. Kuid üles laaditud märkusi
 
 ### <a name="open-confirmed-orders"></a>Avatud kinnitatud tellimused
 Kui klient kinnitab ostutellimuse (st ostutellimuse olekuks määratakse **Kinnitatud**), kuvatakse see avatud kinnitatud tellimuses. See jääb loendisse, kuni registreeritakse, et klient on selle vastu võtnud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

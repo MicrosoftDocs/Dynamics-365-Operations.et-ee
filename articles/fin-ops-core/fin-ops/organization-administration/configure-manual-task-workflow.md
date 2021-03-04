@@ -381,3 +381,6 @@ Kui kasutajale määratakse käsitsi ülesanne, tuleb kasutajal teha sellega teg
 5. Märkige ruut **Delegeeri**, kui soovite anda kasutajale õiguse delegeerida ülesanne teisele kasutajale.
 6. Märkige ruut **Määra ümber**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras.
 7. Märkige ruut **Vabasta**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras. Muu kasutaja saab ülesande täita.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

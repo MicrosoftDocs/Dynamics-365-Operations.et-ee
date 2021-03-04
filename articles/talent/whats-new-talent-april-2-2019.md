@@ -80,3 +80,6 @@ Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek nä
 
 ###  <a name="email-support-for-alerts"></a>E-posti tugi teatistele
 Finance and Operationsi platvormi värskendusega 25 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

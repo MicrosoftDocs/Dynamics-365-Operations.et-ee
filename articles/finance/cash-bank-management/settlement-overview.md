@@ -78,3 +78,6 @@ Kui proovite tasakaalustada kannet, siis võite märgata sümbolit, mis viitab s
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Jäägi tasakaalustus](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

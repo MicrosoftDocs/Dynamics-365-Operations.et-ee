@@ -48,3 +48,6 @@ See protseduur näitab, kuidas vaadata üle lehtede Töötaja iseteenindus kaudu
 2. Klõpsake loendis valitud real olevat linki.
 3. Laiendage jaotist Manused.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Lisateabe saamiseks häälestuse kohta, mis on seotud töötellimuse planeerimis
 
 > [!NOTE]
 > Kui muudate vara teenindustaseme kirjet lehel **Vara teenindustase** pärast seda, kui olete seda töökäsul juba kasutanud, ei värskendata seda teenindustaset hooldustaotlustel ja töökäskudel vastavalt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

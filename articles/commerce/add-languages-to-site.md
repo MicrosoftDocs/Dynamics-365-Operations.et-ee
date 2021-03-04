@@ -176,3 +176,6 @@ Lisatud keel on nüüd saadaval, et saaksite oma saiti konfigureerida kasutama s
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

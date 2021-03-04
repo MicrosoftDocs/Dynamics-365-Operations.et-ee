@@ -55,3 +55,6 @@ Kasutajale peab Microsoft Power Appsis olema keskkonna jaoks lisatud roll Keskko
     ![Nupp Sünkrooni](media/get-more.png)
 
     Pärast sünkroonimise lõpuleviimist ilmub rakendus Human Resources avalehel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

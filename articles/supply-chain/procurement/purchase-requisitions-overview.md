@@ -202,3 +202,6 @@ Kinnitatud ostutaotluse ridade konsolideerimiseks tehke järgmist.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

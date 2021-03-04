@@ -115,3 +115,6 @@ Kui te ei pea eeskirjade kohaselt kasutama pidevaid numbriseeriaid, soovitame pa
 Toitekatkestuse, rakenduse tõrke või muu ootamatu vea puhul ei saa süsteem pidevate numbriseeriate numbreid automaatselt taaskasutada. Kaotsiläinud numbrite taastamiseks saate puhastamisprotsessi käsitsi või automaatselt käitada.
 
 Puhastamisprotsessi plaanimisel võtke kindlasti arvesse serveri koormust. Soovitame puhastamist teha pakett-tööna tipptundidevälisel ajal.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

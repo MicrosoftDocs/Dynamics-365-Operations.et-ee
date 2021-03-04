@@ -41,3 +41,6 @@ Kui teilt küsitakse hooldustellimuse etapi värskendamise põhjuskoodi, saate v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

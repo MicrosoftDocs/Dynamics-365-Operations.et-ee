@@ -57,3 +57,6 @@ Iga kuu lõpus saate koguda ühe kuu tulu kliendi kordustellimuselt kasumi- ja k
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

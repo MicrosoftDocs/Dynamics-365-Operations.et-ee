@@ -100,3 +100,6 @@ Pärast tootesoovituste lubamist peate lisama soovituste paneeli juhtelemendi ka
 [Loo kuraatorite soovitused käsitsi](create-editorial-recommendation-lists.md)
 
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

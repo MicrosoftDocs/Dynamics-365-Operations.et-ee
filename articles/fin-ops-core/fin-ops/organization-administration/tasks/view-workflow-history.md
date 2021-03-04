@@ -46,3 +46,6 @@ Selles teemas kirjeldatakse, kuidas vaadata töövoo süsteemi töötlemiseks ja
     - Nupp **Määra uuesti** avab dialoogiboksi, kus saate tööüksuse määrata ümber teisele kasutajale.  
     - Veenduge, et jaotis **Jälgimise üksikasjad** oleks laiendatud. Selles jaotises saate vaadata valitud dokumendi töövoo ajalugu.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

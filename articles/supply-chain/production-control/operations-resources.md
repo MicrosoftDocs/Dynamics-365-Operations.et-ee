@@ -85,3 +85,6 @@ Kui määrtlete tegevuse, nagu protsessioperatsioon või projekti tunnieelarve, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

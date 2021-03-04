@@ -47,3 +47,6 @@ Selles protseduuris näidatakse, kuidas hindamismeetodit luua. Hindamismeetod on
 14. Sisestage number väljale Vahemik alates.
 15. Sisestage number väljale Vahemik kuni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

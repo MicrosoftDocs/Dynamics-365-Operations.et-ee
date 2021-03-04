@@ -69,3 +69,6 @@ Kliendiportaali pakutakse Power Appsi portaalide mallina. See sõltub Power Apps
 ![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
 
 Kliendiportaal toimib lähtepunktina organisatsioonide jaoks, mis soovivad kasutada Power Appsi portaale, et ehitada väljapoole suunatud veebisait, mis kasutab nende Supply Chain Managementist pärinevaid andmeid. See aitab organisatsioonidel ühendada topeltkirjutuse, Supply Chain Managementi ja Power Appsi portaalid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

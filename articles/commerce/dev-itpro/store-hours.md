@@ -78,3 +78,6 @@ Järgige neid samme, et lisada kaupluse lahtiolekuajad prinditud kassa kviitungi
 Kassa kviitungid sisaldavad nüüd kaupluse lahtiolekuaegu. Kui malli kaasatakse kõik pühad, kuvatakse need kviitungil.
 
 ![Kviitungi näide](../dev-itpro/media/Storehours3.png "Kviitungi näide")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Loogiliste funktsioonide argumentides saate kasutada andmeallika viiteid, numbri
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loogilised funktsioonid](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

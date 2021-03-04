@@ -56,3 +56,6 @@ Jooksev keskmine omahind lao GW ja partii AAA puhul on 11,20 USA dollarit ning j
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

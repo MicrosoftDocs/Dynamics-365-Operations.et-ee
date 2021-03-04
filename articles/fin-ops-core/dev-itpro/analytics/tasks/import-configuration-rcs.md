@@ -55,3 +55,6 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 5. Valige suvand **Sule**. 
 6. Valige elektroonilise aruandluse konfiguratsiooni sobiv versioon ja valige nupp **Impordi**, et viia see praegusesse eksemplari.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

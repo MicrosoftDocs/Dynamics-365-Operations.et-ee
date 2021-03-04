@@ -42,3 +42,6 @@ GTIN-koodid määrab GS1 organisatsioon. Selles näites sisestate demoettevõtte
 11. Sisestage väärtus väljale GTIN.
 12. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

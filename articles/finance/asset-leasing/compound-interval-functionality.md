@@ -160,3 +160,6 @@ Järgmises tabelis on loetletud maksegraafiku esimesed 12 kuud. Arvestage järgm
 
 > [!NOTE]
 > Kui annuiteedi tüüp muudetakse valikule **Annuiteedi tähtaeg**, tehakse maksed detsembri asemel jaanuaris.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

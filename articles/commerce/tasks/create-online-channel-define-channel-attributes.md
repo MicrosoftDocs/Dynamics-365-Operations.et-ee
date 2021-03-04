@@ -67,3 +67,6 @@ See protseduur juhendab uue võrgukanali loomisel ja selle lisamisel organisatsi
 3. Kävitage jaotusgraafik 1070 muudatuste sünkroonimiseks kanali andmebaasiga. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

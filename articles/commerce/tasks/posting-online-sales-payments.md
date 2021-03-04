@@ -109,3 +109,6 @@ See protseduur selgitab korduva pakett-töö konfigureerimist ja käitamist veeb
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

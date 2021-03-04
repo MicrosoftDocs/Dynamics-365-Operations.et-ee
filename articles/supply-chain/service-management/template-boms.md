@@ -134,3 +134,6 @@ Mallkoosluste kasutamiseks peate seadistama kaks numbriseeriat. Seadistage üks 
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

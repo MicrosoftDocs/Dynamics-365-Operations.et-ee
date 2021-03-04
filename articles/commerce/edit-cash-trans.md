@@ -120,3 +120,6 @@ Commerce'i peakontori väljavõttega mitteseotud kannete hulgiredigeerimiseks to
 [Exceli töövihiku loomine jaemüügikannete redigeerimiseks](create-excel-edit.md)
 
 [Väljade lisamine Exceli töövihikusse jaemüügikannete redigeerimiseks](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

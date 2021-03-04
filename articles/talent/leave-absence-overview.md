@@ -66,3 +66,6 @@ Puhkuste ja puudumiste haldusmoodulis on järgmised funktsioonid.
 - **Puhkusetaotlused.**
 
     Töötajad saavad taotleda kogunenud puhkuseaja kasutamist. Taotleda võib ühte või mitut erinevat tüüpi puhkuse- või puudumispäeva. Kui töövoog ei ole lubatud, kinnitatakse taotlused automaatselt. Kui töövoog on lubatud, võib kinnitamine olla automaatne või eeldada loa andmist sõltuvalt töövoo konfiguratsioonist.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

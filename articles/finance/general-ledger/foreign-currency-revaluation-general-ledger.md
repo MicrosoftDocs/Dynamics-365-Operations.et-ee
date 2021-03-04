@@ -113,3 +113,6 @@ Saate tühistada ümberarvutuste tulemused aegumisjärjestuses, kuid samuti on t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

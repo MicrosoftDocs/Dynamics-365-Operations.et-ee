@@ -112,3 +112,6 @@ Töölehe töövoo ajaloo vaatamiseks tehke järgmist.
 1. Laiendage navigeerimispaanis **Varude haldus \> Töölehekirjed \> Kaubad** ja seejärel valige varude töölehe tüüp.
 1. Avage asjakohane tööleht.
 1. Valige toimingupaanilt nupp **Töövoog**, et avada rippdialoogiboks. Valige **Töövoo ajalugu**. Lisateavet leiate teemast [Töövoo ajaloo vaatamine](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Vaadake genereeritud XML-fail üle.
 6. Sulgege leht.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

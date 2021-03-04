@@ -334,3 +334,6 @@ Seda saate vaadata ja hallata lehel **Laorakenduse sündmused**. Lisateavet leia
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Kas ma saan kasutada litsentsiplaati, millel on füüsiline negatiivne vaba kaubavaru?
 
 Funktsioon toetab ainult positiivseid füüsilisi vaba kaubavaru koguseid. Enne litsentsiplaatide määramist üleviimistellimusele veenduge, et teil oleks laos ja varude oleku tasemel positiivne füüsiline vaba kaubavaru kogus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

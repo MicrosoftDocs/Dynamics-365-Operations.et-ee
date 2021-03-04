@@ -54,3 +54,6 @@ Lisateabe saamiseks vt [Konsolideerimisgruppide ja täiendavate konsolideerimisk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -182,3 +182,6 @@ Siin on mõned konsolideerimisstsenaariumid, mida finantsaruandlus toetab:
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 Lisateavet stsenaariumide kohta, kus võite luua konsolideeritud finantsaruandeid, vt teemast [Konsolideeritud finantsaruannete loomine](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

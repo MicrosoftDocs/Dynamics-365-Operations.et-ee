@@ -46,3 +46,6 @@ Selles protseduuris näitlikustatakse, kuidas luua töötaja puhkusekirjeid. Saa
     * Näide: adopteerimispuhkus  
 12. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

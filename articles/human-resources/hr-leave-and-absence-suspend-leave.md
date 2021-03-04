@@ -49,3 +49,6 @@ Kui viitvõlgu töödeldakse töötaja puhkuse katkestamise ajal, ei arvestata v
 - [Puhkuste ja puudumiste tüüpide konfigureerimine](hr-leave-and-absence-types.md)
 - [Puhkuse ja puudumise plaanide koondamine](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

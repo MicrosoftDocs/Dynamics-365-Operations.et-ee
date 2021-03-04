@@ -47,3 +47,6 @@ Pakett-töötluse töö välistab suletud raamatud. Näiteks pakett-töös kulum
 Kui dubleeritud vara ID-d ei ole samas töölehel, rakendatakse raamatute arvu limiiti. Kui aga vara ID on sama, mis raamatu ID, siis on võimalik ületada raamatute arv töölehe kohta, et hoida vara ID samas töölehel.
 
 Näiteks on 5001 põhivara ID-d, kolm raamatut on seostatud iga põhivara ID-ga ja iga vararaamat sisestatakse samasse sisestamiskihti. Käivitate kulumi kolmel järestikusel kuul ilma summeerimata. Kulumi tööleht luuakse pakett-töö kaudu ja süsteem loob seitse töölehte, millel on 667 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Tulemuseks on 2001 raamatut. Seetõttu on kolme kuu järel samal töölehel sama vara ID-ga 6003 töölehe rida. Süsteem loob ka ühe töölehe, millel on 332 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Kolme kuu pärast on kokku 2988 rida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

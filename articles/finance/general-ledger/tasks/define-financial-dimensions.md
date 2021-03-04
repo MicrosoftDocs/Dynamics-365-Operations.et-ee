@@ -55,3 +55,6 @@ Selles ülesandejuhendis selgitatakse üksuse tagatud finantsdimensiooni ja koha
 9. Sisestage väljale **Dimensiooni väärtus** oma finantsdimensiooni väärtust kirjeldav nimi.
 10. Sisestage väljale **Kirjeldus** oma finantsdimensiooni väärtuse kirjeldus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

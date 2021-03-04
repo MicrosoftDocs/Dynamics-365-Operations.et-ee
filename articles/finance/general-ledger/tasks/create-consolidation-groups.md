@@ -47,3 +47,6 @@ Selles protseduuris kirjeldatakse konsolideerimiskontode grupi loomist ja seejä
 8. Sisestage väärtus väljale Konsolideerimiskonto.
 9. Sisestage väärtus väljale Konsolideerimiskonto nimi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

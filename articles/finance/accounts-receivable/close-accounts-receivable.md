@@ -62,3 +62,6 @@ ELi käibearuande koostamine ja edastamine
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

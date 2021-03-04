@@ -73,3 +73,6 @@ Sisestate tüübi *Arvutatud väli* andmeallika **DS** ja see sisaldab avaldist 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loendi funktsioonid](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

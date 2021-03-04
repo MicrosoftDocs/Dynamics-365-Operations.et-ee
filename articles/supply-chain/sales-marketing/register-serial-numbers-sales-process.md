@@ -80,3 +80,6 @@ See funktsioon on saadaval kõigile rollidele, kes saavad hallata müügi saatel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

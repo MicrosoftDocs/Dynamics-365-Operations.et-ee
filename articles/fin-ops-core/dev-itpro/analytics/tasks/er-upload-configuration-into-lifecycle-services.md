@@ -145,3 +145,6 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. ja laadi
     Teie üleslaaditud ER-konfiguratsioon peaks olema loetletud.
 
     Pange tähele, et üleslaaditud LCS-i konfiguratsiooni saab importida teise eksemplari, kui teenuse pakkujatel on juurdepääs sellele LCS-i projektile.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

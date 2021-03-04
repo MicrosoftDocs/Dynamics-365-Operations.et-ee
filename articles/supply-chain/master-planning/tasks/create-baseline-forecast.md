@@ -82,3 +82,6 @@ Tootmise planeerija saab luua alusprognoosi, kasutades kas ajaseeria prognoosimu
 5. Klõpsake suvandit Prognoosi rea andmed.
     * Sellel lehel näete täpsuse väärtusi, ajaloolist nõudlust ja prognoosi. Saate ka prognoosi muuta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

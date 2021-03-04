@@ -54,3 +54,6 @@ Retaili versioonis 10.0.5 kasutusele võetud vähehaaval toimuva tellimuse loomi
 > Menüükäsud **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Väljavõtete arvutamine partiina** ja **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Väljavõtete sisestamine partiina** eemaldatakse selle uue funktsiooniga.
 
 Lisaks saab kandeväljavõtte ja finantsaruande tüüpe luua käsitsi. Avage **Retail ja Commerce > Kanalid > Kauplused** ja klõpsake valikut **Väljavõtted**. Klõpsake valikut **Uus** ja valige, millist tüüpi väljavõtte soovite luua. Lehel **Väljavõtted** olevad väljad ja lehe jaotises **Väljavõttegrupp** olevad tegevused kuvavad valitud väljavõttetüübi põhjal asjakohased andmed ja tegevused.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

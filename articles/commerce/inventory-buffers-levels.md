@@ -149,3 +149,6 @@ Toote kättesaadavuse API-de vastuse konfigureerimiseks toimige järgmiselt.
 [Varude sätete rakendamine](inventory-settings.md)
 
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

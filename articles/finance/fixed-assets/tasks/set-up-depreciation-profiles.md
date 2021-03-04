@@ -40,3 +40,6 @@ Kulumireeglid määratlevad vara kulumi tüübi ja sageduse.   Salvestamine kasu
 7. Valige suvand väljal **Perioodi sagedus**.
 8. Sulgege vorm.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

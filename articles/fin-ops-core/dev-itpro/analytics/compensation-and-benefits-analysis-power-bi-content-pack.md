@@ -66,3 +66,6 @@ Kompensatsiooni ja eeliste sisupaketi aruannete täitmiseks kasutatakse rakendus
 | Tööjõud\_WorkerName             | Eesnimi, perekonnanimi ja täielik nimi                                                                       | Tööjõud\_CurrentWorker, Tööjõud\_TerminatedWorker, Tööjõud\_WorkerTrend |
 | Tööjõud\_WorkerTitle            | Ametinimetus ja staaži kuupäev                                                                                   | Tööjõud\_CurrentWorker, Tööjõud\_TerminatedWorker, Tööjõud\_WorkerTrend |
 | Tööjõud\_WorkerTrend            | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Tööjõud\_Ettevõte, Tööjõud\_Hüvitis, Tööjõud\_GeographicLocation, Tööjõud\_Tulemus, Tööjõud\_WorkerName, Tööjõud\_ReportsToWorkerName, Tööjõud\_CalendarOffset, Tööjõud\_Kuupäev, Tööjõud\_WorkerTitle, Tööjõud\_Demograafia, Tööjõud\_Tööhõive, Tööjõud\_Töö, Tööjõud\_WorkerBenefit |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

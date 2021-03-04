@@ -59,3 +59,6 @@ Vaikimisi välja väärtus suvandile **Töövoo üksuste arv partii kohta** lehe
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Mis on töövoo täiustatud tõrgete funktsioon?
 Töövoo täiustatud tõrgete funktsiooni versioonis 10.0.13 lisati tõrkekoodid, et eristada töövootõrgete eri klasse. Kuvatavad tõrketeated on enamasti tuttavad, välja arvatud väikeste erinevuste poolest, et neid selgemaks teha.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

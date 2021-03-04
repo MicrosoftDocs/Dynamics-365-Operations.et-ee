@@ -50,3 +50,6 @@ Kui sama isik taotleb mitme hankijakonto juurdepääsu hankija portaalile (võib
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

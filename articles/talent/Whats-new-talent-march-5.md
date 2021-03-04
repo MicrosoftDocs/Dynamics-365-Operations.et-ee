@@ -80,3 +80,6 @@ Paljudes ettevõtetes pääsevad hüvitise ja eeliste haldurid juurde ainult tea
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 24
 Lisateavet Finance and Operations platvormivärskenduse 24 kohta vt jaotisest [Mis on rakenduse Finance and Operations platvormivärskenduses 24 uut või mida on muudetud (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

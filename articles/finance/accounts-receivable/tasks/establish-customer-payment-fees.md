@@ -51,3 +51,6 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 18. Valige väljas **Maksu valuuta** maksu valuuta. See on valuuta, milles tasu luuakse.  
 19. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

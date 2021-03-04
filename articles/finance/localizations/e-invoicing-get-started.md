@@ -344,3 +344,6 @@ Edastuslogis kuvatavad tulemused sõltuvad sellest, kuidas e-arvelduse funktsioo
 - [Mehhiko elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-mex-get-started.md)
 - [Itaalia elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-ita-get-started.md)
 - [Elektroonilise arvelduse lisandmooduli seadistamine](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

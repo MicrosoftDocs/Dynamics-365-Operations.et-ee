@@ -59,3 +59,6 @@ Kasutage seda ülesande juhendit märgukirjaseeria loomiseks. See ülesanne kasu
 26. Laiendage kiirkaarti **Märkus**.
 27. Sisestage valitud märgukirjakoodi puhul märgukirjas kuvatav tekst. Saate selle teksti tõlkida mitmesse keelde, kasutades märkuse kasti kohal olevat menüüd Tõlked.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

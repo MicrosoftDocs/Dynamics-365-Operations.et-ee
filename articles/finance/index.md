@@ -73,3 +73,6 @@ Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid val
 
 Supply Chain Managementi funktsioonid sisaldavad protsessi Procure-to-Pay osi, mis hõlmavad teie organisatsiooni ostetavate kaupade ja teenuste taotlemist, tellimist, vastuvõtmist, arveldamist ja nende eest maksmist. Teavet ostude, varude ja tootmise haldamise funktsioonide kohta leiate [!Supply Chain Managementi avalehelt](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

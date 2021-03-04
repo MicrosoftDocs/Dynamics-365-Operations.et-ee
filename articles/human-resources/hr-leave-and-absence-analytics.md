@@ -45,3 +45,5 @@ Dynamics 365 Human Resources pakub analüüsi, mis aitab teil saada oma organisa
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuse ja puudumise plaani loomine](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

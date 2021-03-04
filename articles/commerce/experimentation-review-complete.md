@@ -61,3 +61,6 @@ Eksperimendi kustutamiseks Commerce'i saidiehitajas, toimige järgmiselt.
 
 ## <a name="previous-step"></a>Eelmine etapp
 [Katse käitamine ja jälgimine](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

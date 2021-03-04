@@ -84,3 +84,6 @@ Mitmed teabeallikaid saab määrata koosluse kalkulatsiooni algatamisel. See sis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

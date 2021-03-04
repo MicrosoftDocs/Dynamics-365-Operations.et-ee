@@ -45,3 +45,6 @@ Sarnaselt võidakse veerus **kolmanda osapoole olek** kuvada järgmiseid väärt
 Allolevas diagrammis on toodud mõlemat olekute kogumid ja see, kuidas need üksteisega seotud on.
 
 [ ![Eksperimenteerimise olekud](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Järgnevast tabelist leiate lisateavet võimalike lisatoimingute kohta.
 | Kättesaadavus         | Näidake ATP teavet valitud variandi kombinatsiooni kohta valitud asukoha jaoks. |
 | Kõigi asukohtade kuvamine   | Valige standardne varudest otsimise vaade ja tõstke esile varude saadavuse teave kaubavariandi kohta kõigis kauplustes kaupluselokaatori grupis ja ka jaotuskeskustes, mille tüüp on **Standardne/Vaikimisi**. |
 | Kuva toote üksikasjad | Suunake kasutaja seostatud tooteetaloni lehele **Toote üksikasjad**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

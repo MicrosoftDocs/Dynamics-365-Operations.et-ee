@@ -51,3 +51,6 @@ Kui luuakse algse eelarve kande ja mida kasutatakse eelarve mudel ja dimensiooni
     * Lisavalikute tegemiseks klõpsake lehe ülaosas ikooni Unlock (Vabasta lukust).  
 18. Klõpsake käsku Uuenda.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

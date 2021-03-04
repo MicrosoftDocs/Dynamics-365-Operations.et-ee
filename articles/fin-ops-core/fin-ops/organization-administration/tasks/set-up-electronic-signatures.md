@@ -77,3 +77,6 @@ Kasutage seda protseduuri digitaalallkirjade seadistamiseks. Elektronallkiri kin
 10. Klõpsake nuppu Salvesta.
 11. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Vahekaardil **Kataloogid** on olemas ka võimalused suvandite **Maksegraafik** j
 ## <a name="additional-notes"></a>Lisamärkmed
 
 Kui kõnekeskuses kasutatakse müügitellimuse koostamisel lähtekoodi ID-d, siis edastatakse sellega praegu konkreetse kataloogi hindu, kampaaniaid, skripte ja üles-/kaasmüüke. Süsteem ei keela ega takista müügitellimuse kaudu toote tellimist, mis ei ole kataloogis. Kui tellitakse kaup, mida kataloogis pole, siis kasutab süsteem esmalt **hinnagruppi**, mis on määratletud kõnekeskuse kanalis (**Jaemüük ja kaubandus** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused**) kauba hinna või kampaaniate jaoks. Kui ei leita konkreetset kanali hinda, siis kasutatakse kauba põhihinda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

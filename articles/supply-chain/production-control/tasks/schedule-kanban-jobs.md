@@ -62,3 +62,6 @@ See protseduur keskendub protsessi kanban-tööde plaanimisele kindla tööraku 
     * Pange tähele, et mõlemad tööd lisatakse soovitud perioodi.  
     * Jaotises Perioodi võimsus saate vaadata iga perioodi koormust. Väli Tarbimine kuvab plaanitud tarbimise sellel perioodil. Kui plaanitud tarbimine selles perioodis on saadaolevast võimsusest suurem, valitakse ülekoormatud tarbimine.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Väljastatud toodete loomise osana peate valima vaikeühikud ostude, müükide j
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ See on neljas viiest protseduurist, mis näitab kliendi makseprotsessi, kasutade
 8. Klõpsake nuppu OK.
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

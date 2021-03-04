@@ -36,3 +36,6 @@ See teema selgitab, kuidas luua rendi ID-de jaoks numbriseeriaid. Lisaks selgita
 3. Valige külgmisel ribal **Numbriseeriad**.
 4. Valige viite **Rendi ID** jaoks numbriseeria. Seda numbriseeriat kasutatakse iga rendi jaoks kordumatu ID loomiseks.
 5. Valige viite **Protsessi ID** jaoks numbriseeria. Seda numbriseeriat kasutatakse iga indeksi uuesti hindamise protsessi jaoks kordumatu ID loomiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

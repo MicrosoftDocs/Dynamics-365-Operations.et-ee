@@ -218,3 +218,6 @@ Töö erandid juhivad kiire komplekteerimise käitumist. Töö erandi seadistami
 1. Valige **Kiire komplekteerimine**.
 1. Valige selle stsenaariumi jaoks loodud töö erandi kood.
 1. Kui valisite õige erandi, peaks olema märkeruut **Tühista ja prindi uuesti** saadaval. Valige see märkeruut ja kinnitage. Kui see on kinnitatud, arvutatakse välja **Sildi kooste ID** abil tuvastatud rulli seeria uuesti muudetud töörea koguse põhjal. Seejärel prinditakse see uuesti määratud printeriga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

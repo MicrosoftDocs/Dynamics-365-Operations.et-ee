@@ -220,3 +220,6 @@ Järgmistes näidetes on võimalik teave, mida koondatavate andmete aruandluspuu
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

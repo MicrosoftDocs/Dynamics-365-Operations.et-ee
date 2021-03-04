@@ -103,3 +103,6 @@ Kui hankijad kasutavad hankija koostööliidest, saavad nad seda kasutada varude
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

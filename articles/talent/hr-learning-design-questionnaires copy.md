@@ -246,3 +246,6 @@ Teine võimalus on seadistada küsimustik nii, et kui vastaja valib küsimusele 
 
 [Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

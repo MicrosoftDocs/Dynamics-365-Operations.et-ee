@@ -61,3 +61,6 @@ Siin antud teave kohaldub kõigile Euroopa riikidele/piirkondadele. Ülesande lo
     * Määrake loodud registreerimistüüp eelmääratletud registreerimiskategooriale.  
 22. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

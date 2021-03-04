@@ -102,3 +102,6 @@ Kasutajaliidese kahjustamise vältimiseks ärge redigeerige ega muutke olemi **T
 - **Muud**
 
 Selle asemel saate laiendada olemi **TalentSource** loetelu (enum), et lisada muid allika tüüpe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

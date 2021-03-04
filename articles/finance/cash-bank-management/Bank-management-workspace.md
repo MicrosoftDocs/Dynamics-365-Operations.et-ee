@@ -64,3 +64,6 @@ Lehel **Analüüs** on olulised mõõdikud pangakontode kohta praeguses ettevõt
 -   Saldo valuuta järgi
 
 Pangaanalüüsi saab vaadata kõigi ettevõtete lõikes tööruumis **Kassa ülevaade – kõik ettevõtted**. Lisateabe saamiseks vt [Sularaha ülevaate Power BI sisu](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet k
     - Otsetarne leht toimib töölauana, mis annab ostuagendile ülevaate kõigist müügitellimuse ridadest, mis tuleb otse tarnida, ja võimaldab tal koostada vastavaid ostutellimusi. Lisaks saab ta vaadata avatud otsetarne tellimusi ja kinnitatud tellimusi vahekaartidel Kinnitus ja Tarne.  
     - Pärast otsetarne tellimuse koostamist teisaldatakse see automaatselt vahekaardile Kinnitus. Saate kinnitada tellimuse otse sellelt lehelt. Kui ost on kinnitatud, teisaldatakse see automaatselt vahekaardile Tarne, millelt saate registreerida selle sissetuleku.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

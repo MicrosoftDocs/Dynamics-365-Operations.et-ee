@@ -111,3 +111,6 @@ Korrigeeritud kulu tunni kohta ja töö aeg sisestatakse tootmise töölehele. *
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

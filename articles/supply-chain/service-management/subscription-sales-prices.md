@@ -380,3 +380,6 @@ Esimeses tehingus kordustellimusele 00020\_135 tuletatakse 550 euro suurune m√º√
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

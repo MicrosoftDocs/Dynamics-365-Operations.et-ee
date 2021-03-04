@@ -49,3 +49,6 @@ Kui ERP-rakenduse funktsionaalne valideerimine ei saa olla täielikult agnostili
     - Kinnitage ainult pärast kindla kande filtreerimist üldise kinnitamise asemel. Näiteks kirjete arvu puhul filtreerige kande number või kande kuupäev nii, et kontroll välistab kõik muud kanded. 
     - Kui kontrollite kliendi saldot või eelarvet, salvestage esmalt väärtus ja lisage seejärel oma tehinguväärtus, et kontrollida oodatavat tulemust, kindla eeldatava väärtuse kinnitamise asemel. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

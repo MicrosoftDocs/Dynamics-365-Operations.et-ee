@@ -68,3 +68,6 @@ See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teen
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

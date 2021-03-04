@@ -151,3 +151,6 @@ Ostutellimuse loomise ja nõude konsolideerimise reegel määratleb poliitikaree
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

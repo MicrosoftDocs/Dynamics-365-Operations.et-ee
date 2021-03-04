@@ -57,3 +57,6 @@ Näiteks, kui täna on 1. veebruar ja 14. veebruaril töötaja Erki Sepal on pla
    4. Valige nupp **OK**. Protsess töötab teie määratud parameetritega.
 
 4. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

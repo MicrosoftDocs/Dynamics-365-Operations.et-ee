@@ -131,3 +131,6 @@ Enne kogumi komplekteerimise seadistamist peate looma mõne sobiliku väljaminev
 >    - Töö read, millel on lõpetamata täiendamise töö.
 >    - Ülekomplekteerimine.
 >    - Kiirelt komplekteeritava kauba ümberjaotamine
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

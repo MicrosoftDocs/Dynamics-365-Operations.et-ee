@@ -65,3 +65,6 @@ Lisakulum sisestatakse protsendina või kindla summana. Kui sisestate kulumisoov
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

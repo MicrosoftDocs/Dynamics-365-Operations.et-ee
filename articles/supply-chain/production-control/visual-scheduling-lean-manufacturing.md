@@ -95,3 +95,6 @@ Kanbani plaanimistahvli saab avada menüüelemendi abil järgmistel lehtedel.
 
 [Lean manufacturingi kanban-töö plaanimine](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

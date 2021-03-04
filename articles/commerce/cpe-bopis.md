@@ -164,3 +164,6 @@ Kõigi üldiste probleemide puhul peaksite alati esimesena uurima Modern POS-i v
 [Veebimaksevahendite salvestamine Adyeni konnektori abil](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Omnikanali maksete ülevaade](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Arveldatud ostutellimused salvestavad ostureskontros kohustuse hankija kontole, 
 ## <a name="vendor-performance"></a>Hankija jõudlus
 
 Ostmise jõudlust ja ülevaatust toetatakse *hanke ja ostureskontro aruannete* kaudu, mis hõlmavad kulutuse analüüsi ja hankija jõudluse analüüsi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

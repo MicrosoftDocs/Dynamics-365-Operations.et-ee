@@ -83,3 +83,6 @@ See toiming keskendub seadistusele, mida on vaja sündmuse kanban-reegli loomise
     * Pange tähele kanbani, mis on loodud M0001 tarneks hinnangulise tootmistellimuse jaoks.  
     * See on viimane etapp!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

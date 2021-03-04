@@ -49,3 +49,6 @@ See teema kirjeldab mõningaid sisestatud käibemaksu kannete vaatamise viise. S
 2. Klõpsake toimingupaneelil suvandit **Käibemaksukood**.
 3. Valige **Sisestatud käibemaks**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

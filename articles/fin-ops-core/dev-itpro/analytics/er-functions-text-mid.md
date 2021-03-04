@@ -69,3 +69,6 @@ Kui argumendi `starting position` väärtus ületab määratud stringi pikkust, 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

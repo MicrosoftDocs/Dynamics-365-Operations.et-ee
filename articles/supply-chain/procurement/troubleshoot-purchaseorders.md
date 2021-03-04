@@ -145,3 +145,6 @@ Selline käitumine on nii kavandatud. Valitud aadress tuleb märkida tarneaadres
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Kas ma saan otsida üles ostutellimuse tühistanud kasutaja?
 
 Seda teavet jälgitakse ainult siis, kui ostutellimuse puhul kasutatakse muudatuste haldust. Kui kasutate muudatuste haldust, saate vaadata, kes esitas muudatuse (tühistamise) ja kes selle kinnitas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

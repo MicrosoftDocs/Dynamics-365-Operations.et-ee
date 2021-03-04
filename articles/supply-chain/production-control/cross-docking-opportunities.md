@@ -127,3 +127,6 @@ Kui toode on tootmisliinil lõpetatuks märgitud, viiakse see laadimisukse asuko
 -   Ristlaadimise stsenaariumi toetatakse partii ja seeriaga juhitavate kaupade puhul, nii ülal määratletud partii- ja seerianumbri dimensioonidega kui ka allpool antud asukohaga reserveerimishierarhias. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris s
     * Vaadake üle Intrastat-aruande genereerimiseks kasutatud vormingu struktuur. Pange tähele, et see on mõeldud XML-faili genereerimiseks andmete asustamise abil andmemudelist, mille aluseks on juurkaup „Väljamineva dokumendi jaoks”. Kontrollige, kas genereeritud faili nimi on määratud kasutaja dialoogi vormil (selle jaoks kasutatakse andmeallikat „fn”).   
 30. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

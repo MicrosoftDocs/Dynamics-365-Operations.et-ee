@@ -49,3 +49,6 @@ See on esimene viiest protseduurist, mis näitab kliendi makseprotsessi, kasutad
     * Kui nupp Impordi pole saadaval, tähendab see, et see konfiguratsioon on juba imporditud.  
 9. Klõpsake nuppu Jah.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

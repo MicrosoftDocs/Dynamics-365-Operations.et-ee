@@ -157,3 +157,6 @@ Järgmine tabel näitab üldist reeglit.
 | Saadaolev käibemaks | Negatiivne              | Saadaoleva käibemaksu konto | Negatiivne (kreedit)  |
 | Tasumisele kuuluv käibemaks    | Positiivne              | Tasumisele kuuluva käibemaksu konto    | Negatiivne (kreedit)  |
 | Tasumisele kuuluv käibemaks    | Negatiivne              | Tasumisele kuuluva käibemaksu konto    | Positiivne (deebet)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

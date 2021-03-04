@@ -44,3 +44,6 @@ Selle hinnangu jaoks saate kasutada **peamiste toodete** valmisaruandeid, mille 
 - Tööruum **Kaupluse haldus** &gt; **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Kaupluse haldus** &gt; **Aruanded** &gt; **Parimate toodete aruanne**
 - Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Kaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
 - **Päringud ja aruanded** jaotis &gt; **Jaemüük ja kaubandus** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Parimate toodete aruanne**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

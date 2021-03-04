@@ -84,3 +84,6 @@ Lehele vahekaardi mooduli lisamiseks ja atribuutide seadistamiseks toimige järg
 [Akordionmoodul](add-accordion.md)
 
 [Tekstiploki moodul](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

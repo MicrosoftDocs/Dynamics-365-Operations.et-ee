@@ -83,3 +83,6 @@ Kohandatud seisundikontrolle saab luua ka nende seadmete testimiseks, mille jaok
 ## <a name="related-articles"></a>Seotud artiklid
 
 [Kaasaegse kassa (MPOS) päästikud ja printimine](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

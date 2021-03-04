@@ -48,3 +48,6 @@ Saate vaadata tulevaste üksuste üksikasju ja valitud tellimuse toiminguid. Leh
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

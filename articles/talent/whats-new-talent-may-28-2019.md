@@ -74,3 +74,6 @@ Organisatsioonid võivad nõuda teatud puhkusetüüpide korral töötajate esita
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Personaliosakonnale puhkuse ja puudumise kannete nimekirja esitamine
 
 Võimalus jägida töötaja puhkuseaega ja mõista, kuidas puhkus on arvestatud, mitte ainult ei aita personaliosakonnal vastata töötajate küsimustele, vaid võimaldab ka töötajatele tagada täpse puhkusehüvitise. Personaliosakonnal on nüüd uus tehingute vaade (hüvitused, viitvõlad, korrigeerimised ja taotlused), et personaliosakond näeks puhkuse saldode taga olevaid põhjuseid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

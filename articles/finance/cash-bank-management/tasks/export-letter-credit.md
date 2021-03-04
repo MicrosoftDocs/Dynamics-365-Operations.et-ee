@@ -140,3 +140,6 @@ Enne seda protseduuri käitage protseduuri „Pangateenuste ja sisestusreeglite 
 3. Klõpsake loendis valitud real olevat linki.
     * Veenduge, et tarne olek oleks Makse vastu võetud ja saldo summa oleks 0.00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

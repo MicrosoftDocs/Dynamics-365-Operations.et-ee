@@ -140,3 +140,6 @@ Saate korrigeerida loendatud väärtuse erinevusi ja kinnitada siis loendatud v�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

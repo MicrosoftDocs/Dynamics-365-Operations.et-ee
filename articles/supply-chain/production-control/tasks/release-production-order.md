@@ -41,3 +41,6 @@ See protseduur näitab, kuidas tootmistellimust väljastada. Selle protseduuri l
 6. Klõpsake nuppu OK.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

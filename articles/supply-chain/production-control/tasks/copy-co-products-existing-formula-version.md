@@ -54,3 +54,6 @@ See protseduur näitab, kuidas kopeerida kaastooteid olemasolevalt valemiversioo
 6. Klõpsake nuppu OK.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

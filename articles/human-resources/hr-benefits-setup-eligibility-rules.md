@@ -176,3 +176,6 @@ Programmid on soodustuste plaanide komplektid, mis jagavad ühiseid sobivusreegl
    | **Sobivusreeglid** | Valige soodustusprogrammidele kehtivad sobivusreeglid. Sobivusreeglid määratlete selle lehe vahekaardil **Sobivusreeglid**. |
    
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

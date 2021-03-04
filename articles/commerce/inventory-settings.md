@@ -93,3 +93,6 @@ Järgmisel pildil on toodud ostukorvi näide, kus kuvatakse teadet laos olemas (
 [Kaupluse valimise moodul](store-selector.md)
 
 [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

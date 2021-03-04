@@ -90,3 +90,6 @@ Vaikimisi pannakse tellimused pärast nende edukat sünkroonimist ootele ootelol
 [Exceli töövihiku loomine jaemüügikannete redigeerimiseks](create-excel-edit.md)
 
 [Väljade lisamine Exceli töövihikusse jaemüügikannete redigeerimiseks](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

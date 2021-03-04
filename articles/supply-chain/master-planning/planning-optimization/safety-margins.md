@@ -183,3 +183,6 @@ Näiteks on kaubal tarneaeg üks päev ja sissetuleku ohutusvaru kolm päeva. Se
 [Planeerimise optimeerimisega alustamine](get-started.md)
 
 [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

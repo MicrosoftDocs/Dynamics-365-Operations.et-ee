@@ -99,3 +99,6 @@ Avage see dokument Wordis ja tehke järgmist:
 16. Klõpsake valikut **OK**.
 17. Klõpsake valikut **OK**. Analüüsige loodud väljundit. Pange tähele, et loodud väljundit esitatakse Wordi vormingus ja sisaldab töödeldud maksete üksikasju.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

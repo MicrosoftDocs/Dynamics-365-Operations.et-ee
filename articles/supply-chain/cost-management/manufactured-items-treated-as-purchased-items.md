@@ -42,3 +42,6 @@ Arvutamise vältimiseks valige lipp **Peata koosnevusarvutus**, mis on manustatu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

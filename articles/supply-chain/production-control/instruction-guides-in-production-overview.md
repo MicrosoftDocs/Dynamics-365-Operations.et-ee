@@ -410,3 +410,6 @@ Kui rakendus Supply Chain Management loob tootmisjaoskonna jaoks töid, kogub se
 - Kui määratlete mitu protsessi toiminguseost, mis sisaldavad seost *Kõik*, ja määrate neile juhendid, kuvatakse töö juures ainult kõige täpsema seose juhendid.  
 
 ![Asjakohaste juhendite lahendamise diagramm](media/instruction-guides-Resolve.png "Asjakohaste juhendite lahendamise diagramm")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

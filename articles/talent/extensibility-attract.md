@@ -91,3 +91,6 @@ Veebisisu (IFRAME'i) tegevus võimaldab teil kaasatada kohandatud veebilahenduse
 
 > [!NOTE]
 > Tegevus Veebisisu on saadaval ainult tervikliku värbamise lisandmooduli korral.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -380,3 +380,6 @@ Seetõttu, nagu olete näinud, saab mis tahes ER-vormingu toimimist hinnata auto
 - [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md)
 - [Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga](tasks/er-upgrade-format.md)
 - [Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

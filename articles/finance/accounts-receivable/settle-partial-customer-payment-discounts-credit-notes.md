@@ -61,3 +61,6 @@ Tasakaalustus on 100,00 ning sisaldab makset summas 99,00 ja allahindlust summas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Töökeskkonna katkestusest teatamiseks järgige juhiseid jaotises  [Töökesk
  ## <a name="see-also"></a>Vt ka
 
  [Ettevalmistamine süsteemi Go-Live jaoks](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

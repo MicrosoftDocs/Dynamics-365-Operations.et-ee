@@ -88,3 +88,6 @@ Tootmistsükli järgmised etapid võivad esineda kõigi tellimusetüüpide või 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

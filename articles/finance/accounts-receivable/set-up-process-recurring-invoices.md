@@ -67,3 +67,6 @@ Kui korduvad arved on sisestatud, saate printida arved vabas vormis arvete loend
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

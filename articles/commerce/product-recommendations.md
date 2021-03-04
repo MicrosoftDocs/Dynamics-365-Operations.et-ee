@@ -88,3 +88,6 @@ Järgmine tabel kirjeldab erinevaid automatiseeritud tootesoovituste tüüpe, mi
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

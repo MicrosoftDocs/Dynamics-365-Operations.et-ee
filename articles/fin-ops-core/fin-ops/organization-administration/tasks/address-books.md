@@ -41,3 +41,6 @@ Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See salvestis on
 7. Klõpsake noolt, et lisada valitud saadaolevad töörühmad aadressiraamatusse.
 8. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Kulu kontrollija saab selle protseduuri abil vastendada kuluelemendi dimensiooni
     * Näiteks saate valida dimensiooniliikme 6001004 Telefon.  
 11. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

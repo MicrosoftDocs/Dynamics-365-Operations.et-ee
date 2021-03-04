@@ -67,3 +67,6 @@ Kui kasutaja esmase käivituslehena on valitud tööruum **Töötaja iseteenindu
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Lõpetamise põhjusekood värskendab ametikoha määramise kirjet
 Lõpetamise põhjusekood värskendab nüüd ametikoha määramist töövõtjaga töösuhte lõpetamisel ja ametikoha sulgemisel. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

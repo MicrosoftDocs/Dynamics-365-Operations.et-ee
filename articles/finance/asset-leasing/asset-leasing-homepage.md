@@ -96,3 +96,6 @@ Arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https
 ### <a name="videos"></a>Videod
 
 Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

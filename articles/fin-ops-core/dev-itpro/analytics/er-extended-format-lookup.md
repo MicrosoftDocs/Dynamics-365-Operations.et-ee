@@ -91,3 +91,6 @@ Kui teil on lubatud funktsioon **ER vormingu konfiguratsioonide laiendatud otsin
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) raamistiku API](er-apis-app73.md)
 - [Elektroonilise aruandluse (ER) konfiguratsioonide elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

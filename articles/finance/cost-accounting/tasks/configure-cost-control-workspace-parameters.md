@@ -59,3 +59,6 @@ Selle protseduuri abil saate konfigureerida kulude juhtimise tööruumi nii, et 
 27. Sisestage või valige väärtus väljal Kuluobjekti dimensioonihierarhia sõlm.
     * Pärast kuluobjekti dimensiooni hierarhia valimist laiendage kuluelemendi dimensioon, et vaadata soovitud kuluväärtusi. Näiteks saate väärtuse kuvamiseks laiendada hierarhiat tootmise üldkuluni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

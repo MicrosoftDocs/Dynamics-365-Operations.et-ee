@@ -54,3 +54,6 @@ Arve rida eemaldatakse automatiseeritud töötlusest, kui kehtib mõni järgmist
 - Arve rea väärtus **Automatiseeritud sissetuleku vastavusseviimise olek** on **Nurjunud**.
 - Arvet kasutatakse.
 - Arve on töövoosüsteemis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

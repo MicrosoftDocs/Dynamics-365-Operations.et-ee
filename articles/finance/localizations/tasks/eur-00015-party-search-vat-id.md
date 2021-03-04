@@ -42,3 +42,6 @@ See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Protseduuri lo
 7. Klõpsake käsku Otsi.
     * Kuvatakse kõik selle registreerimise ID-ga osapooled.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

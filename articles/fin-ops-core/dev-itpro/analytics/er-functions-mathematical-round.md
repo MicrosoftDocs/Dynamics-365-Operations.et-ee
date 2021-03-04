@@ -75,3 +75,6 @@ Kui argumendi `decimals` väärtus on väiksem kui 0 (null), ümardatakse määr
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Matemaatilised funktsioonid](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Lisateavet kontohalduse moodulite ja nende autori kohta vt jaotisest [Kontohaldu
 
 [Ostukorvi ja väljaregistreerimise ülevaade](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

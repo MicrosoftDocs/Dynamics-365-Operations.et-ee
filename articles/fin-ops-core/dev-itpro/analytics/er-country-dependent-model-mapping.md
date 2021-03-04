@@ -496,3 +496,6 @@ Veenduge, et jagatud mudelivastenduse konfiguratsioon ei oleks märgitud vaikimi
 - Vähemalt üks ER-i mudelivastenduse konfiguratsiooni versioon on olekus **Lõpetatud** või **Jagatud**. Sel juhul kasutatakse ER-vormingu käivitamiseks versiooni, millel on kõrgem versiooninumber.
 - ER-i mudelivastenduse konfiguratsiooni suvand **Käivita mustand** on sisse lülitatud. Sel juhul kasutatakse ER-vormingu käivitamiseks versiooni, mille olek on **Mustand**.
 > Suvand **Käivita mustand** muutub lehel **Konfiguratsioonid** iga ER-i mudelivastenduse konfiguratsiooni jaoks kättesaadavaks siis, kui elektroonilise aruandluse kasutaja parameeter **Käivita säte** on sisse lülitatud.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

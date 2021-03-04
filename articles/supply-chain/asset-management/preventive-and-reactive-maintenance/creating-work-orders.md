@@ -52,3 +52,6 @@ Kui olete plaaninud ennetavaid hooldustöid, on järgmine etapp luua tööde jao
 
 5. Klõpsake valikut **OK**. Luuakse üks või mitu töökäsku.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

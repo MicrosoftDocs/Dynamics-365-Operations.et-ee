@@ -53,3 +53,6 @@ Selle paralleeltegevuse harude lisamiseks ja konfigureerimiseks tehke järgmist.
     > Harude järjestus pole oluline, kuna kõik paralleeltegevuse harud töötavad samal ajal.
 
 3. Iga haru konfigureerimiseks vaadake jaotist [Töövoo paralleelsete harude konfigureerimine](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

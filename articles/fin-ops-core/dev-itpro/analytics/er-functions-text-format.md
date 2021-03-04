@@ -101,3 +101,6 @@ Kui sama aruannet töödeldakse kliendi **Litware Retail** jaoks 17. detsembril 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tekstifunktsioonid](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

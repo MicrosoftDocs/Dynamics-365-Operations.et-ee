@@ -51,3 +51,6 @@ Igal eraldamisreeglil on neli komponenti: üldine, allikas, sihtkoht ja vastasko
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Laorakenduse nurjunud sündmuseteate lähtestamiseks toimige järgmiselt.
 1. Jätkake tööd seni, kuni kõik asjakohased teated on lähtestatud.
 
 Saate samuti eemaldada **nurjunud** sündmuseteate, kasutades lehe **Laorakenduse sündmusteated** tööriistaribal suvandit **Kustuta**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

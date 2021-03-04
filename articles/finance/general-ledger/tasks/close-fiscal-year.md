@@ -83,3 +83,6 @@ See protseduur kirjeldab rahandusaasta sulgemise protsessi etappe, millega kanta
 23. Aastalõpu sulgemine käivitub vaikimisi partiina. Aeganõudvate protsesside puhul on mõistlik kasutada partiirežiimi. See on tavaliselt üks neist protsessidest, seetõttu on vaikesäte partiirežiimi kasutamine.  
 24. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

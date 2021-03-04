@@ -162,3 +162,6 @@ Redis-vahemälu ühenduse stringi saladuse salvestamiseks toimige järgmiselt.
 > Kui värskendate ühte neist ühenduse stringidest, peate värskendama ka salajasi väärtusi.
 
 Olete nüüd lõpetanud nõutavate Azure'i ressursside ettevalmistamise. Järgmine etapp on [IoT iseõppimisvõime lisandmooduli installimine teenuses Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

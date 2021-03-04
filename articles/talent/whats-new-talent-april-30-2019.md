@@ -101,3 +101,6 @@ Võimalus jägida töötaja puhkuseaega ja mõista, kuidas puhkus on arvestatud,
 ### <a name="email-support-for-alerts"></a>E-posti tugi teatistele
 
 Finance and Operations platvormi värskendusega 26 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

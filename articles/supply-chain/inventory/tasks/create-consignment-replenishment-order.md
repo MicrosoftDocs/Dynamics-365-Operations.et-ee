@@ -62,3 +62,6 @@ Selles teemas selgitatakse, kuidas luua veose täiendustellimust, kus saate jäl
 3. Valige **Ülevaade**. Kaubad, mis on saadud hankijale kuuluva veose kaubavaruna, on vaba varuna saadaval. Veose täiendustellimuse järelejäänud kogus kuvatakse väljal **Tellitud kokku**.  
 4. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

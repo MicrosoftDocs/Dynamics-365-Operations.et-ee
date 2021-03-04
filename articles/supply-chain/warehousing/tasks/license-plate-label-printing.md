@@ -101,3 +101,6 @@ Selles teemas näidatakse, kuidas lubada SSCC (serial shipping conteiner code) s
 7. Valige käsk **Salvesta**.
 8. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

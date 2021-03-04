@@ -147,3 +147,6 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 4. Klõpsake valikut Valmis.
 5. Klõpsake nuppu OK.
 ![ER-i mudelivastenduse koostaja leht](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

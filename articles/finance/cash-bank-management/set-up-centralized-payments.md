@@ -58,3 +58,6 @@ Saate määrata vaikekirjeldused kontsernisisestele tasakaalustuskannetele. Vaik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

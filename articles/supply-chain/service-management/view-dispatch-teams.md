@@ -53,3 +53,6 @@ Jaotisest [Eelistatud tehniku seadistamine](set-up-preferred-technician.md) leia
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

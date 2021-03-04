@@ -68,3 +68,6 @@ Alloleval joonisel on kujutatud jaotise **Kõik hooldusgraafikud** loendi lehte.
 
 ![Joonis 1](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

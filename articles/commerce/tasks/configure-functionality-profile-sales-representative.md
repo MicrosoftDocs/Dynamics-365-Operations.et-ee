@@ -37,3 +37,6 @@ See protseduur näitab, kuidas konfigureerida müügiesindajatele kehtivaid kaup
 4. Tehke valik väljal Müügiesindaja määramine.
 5. Valige Jah väljal Nõua müügiesindajat.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

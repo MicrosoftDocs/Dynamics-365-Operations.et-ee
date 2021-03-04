@@ -109,3 +109,6 @@ Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali too
 [Ostukasti moodul](add-buy-box.md)
 
 [Tootesoovituste ülevaade](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

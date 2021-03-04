@@ -180,3 +180,6 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 
 [Andme integratsioonitehnoloogia valimine](hr-admin-integration-choose-technology.md)</br>
 [Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

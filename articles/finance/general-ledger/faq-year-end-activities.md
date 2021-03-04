@@ -137,3 +137,6 @@ Dynamics 365 Finance ei prindi 1096 aastakokkuvõtte ja USA teabetagastuste edas
 Lisatud on uus avaliku sektori funktsioon **1099-teabe uuendamine põhikonto järgi**, mille saate lubada **funktsioonihalduse** tööruumis. See funktsioon võimaldab arvestuse jaotuses seostada hankija 1099-väärtused põhikonto järgi, mitte hankija kirje vaikekonto järgi.
 
 Lisateavet vt teemast [Hankijate häälestamine aruande 1099 jaoks](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

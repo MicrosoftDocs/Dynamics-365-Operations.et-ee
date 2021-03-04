@@ -79,3 +79,6 @@ Tööajamallid määratlevad kogu nädala tööaja ja neid kasutatakse ajavahemi
 3. Laiendage jaotist Pühapäev.
 4. Valige Jah väljal Komplekteerimiseks suletud.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

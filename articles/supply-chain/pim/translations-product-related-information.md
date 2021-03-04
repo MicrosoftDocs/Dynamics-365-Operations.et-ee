@@ -128,3 +128,6 @@ Tootega seotud teabe tõlkeid saab mis tahes ajal hallata. Dimensiooniväärtuse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

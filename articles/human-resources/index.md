@@ -78,3 +78,6 @@ Human Resources ühendab inimesed ja tööandmed, et aidata teil optimeerida tö
 [Puhkuste ja puudumiste haldamine](hr-leave-and-absence-overview.md)</br>
 [Töövõtjate arendamine](hr-develop-performance-management-overview.md)</br>
 [Kursuste loomine](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

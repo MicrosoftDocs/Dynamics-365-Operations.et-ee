@@ -54,3 +54,6 @@ Päevaraamatust kontsernisisese kande sisestamisel kuvatakse seotud kandeaknas v
 3. Märkige loendis valitud rida.
 4. Klõpsake suvandit Kanne.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

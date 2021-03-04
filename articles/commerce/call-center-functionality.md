@@ -69,3 +69,6 @@ Sellelt leheküljelt leiate lingid asjakohasele kõnekeskuse seadistuse, konfigu
 ## <a name="configure-continuity-programs"></a>Järjepidevusprogrammide konfigureerimine
 
 [Kõnekeskuste järjepidevusprogrammide seadistamine](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

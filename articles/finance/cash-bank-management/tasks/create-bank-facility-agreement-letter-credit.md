@@ -51,3 +51,6 @@ Selles ülesandes näitlikustatakse, kuidas luua akreditiivi töötlemiseks pang
 18. Klõpsake Laienda.
 19. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

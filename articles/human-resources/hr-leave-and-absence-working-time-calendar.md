@@ -75,3 +75,6 @@ Kui olete kuvanud puhkuste ja puudumiste riigipühade korrigeerimiste eelvaatefu
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuste ja puudumiste tüüpide konfigureerimine](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

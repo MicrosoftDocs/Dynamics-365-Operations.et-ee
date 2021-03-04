@@ -53,3 +53,6 @@ See protseduur tutvustab, kuidas luua ja töödelda jaotust kesklaost toodete la
 19. Klõpsake valikut Create order (Loo tellimus).
 20. Klõpsake nuppu Jah.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Selles teemas selgitatakse, kuidas värskendada müügitellimust, kui tooted on 
 19. Klõpsake tegevuspaneelil valikut **Komplekteerimine ja pakkimine.**
 20. Vali **Saateleht**. Leht **Saatelehe tööleht** sisaldab kõiki teie tellimuse jaoks loodud saatelehedokumente. Saate iga dokumendi üksikasjad soovi korral üle vaadata ja välja printida.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

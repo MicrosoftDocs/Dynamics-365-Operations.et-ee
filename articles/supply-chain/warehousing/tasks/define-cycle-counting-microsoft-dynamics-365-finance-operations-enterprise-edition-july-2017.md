@@ -96,3 +96,6 @@ Tsükliline inventuur on laoprotsess, mida saate kaupade laovaru kontrollimiseks
 21. Klõpsake valikut **OK**.
 22. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Töötaja pädevuste ja arengu sisupaketi aruannete täitmiseks kasutatakse rake
 | Tööjõud\_WorkerName             | Eesnimi, perekonnanimi ja täielik nimi                                                                       | |
 | Tööjõud\_WorkerTitle            | Ametinimetus ja staaži kuupäev                                                                                   | |
 | Tööjõud\_WorkerTrend             | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Tööjõud\_Ettevõte, Tööjõud\_Tasu, Tööjõud\_GeographicLocation, Tööjõud\_Tulemus, Tööjõud\_WorkerName, Tööjõud\_ReportsToWorkerName, Tööjõud\_CalendarOffset, Tööjõud\_Kuupäev, Tööjõud\_WorkerTitle, Tööjõud\_Demograafilised andmed, Tööjõud\_Töösuhe, Tööjõud\_Töö |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

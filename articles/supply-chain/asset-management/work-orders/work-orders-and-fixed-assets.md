@@ -65,3 +65,6 @@ Järgmises toimingus kirjeldatakse varade, töökäskude, töökäskude tööpro
 
 7. Põhivaraga seotud projektide ülevaate vaatamiseks valige **Põhivarad** > **Põhivarad** > **Põhivarad**, seejärel valige väljal **Põhivara kood** üksikasjade vaate avamiseks soovitud põhivara link. Laiendage lehe paremas servas paan **Seostuv teave** ja valige kiirkaart **Seotud projektid**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

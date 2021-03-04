@@ -57,3 +57,6 @@ Müügipakkumiste kinnitamisel kuvatakse tulemuseks saadavatel müügitellimuste
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

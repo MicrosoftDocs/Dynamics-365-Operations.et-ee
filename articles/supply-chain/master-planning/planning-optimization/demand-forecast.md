@@ -274,3 +274,6 @@ Planeerimise koefitsient peab olema määratud kauba laovarude grupile. Järgige
 ### <a name="reduce-a-forecast-by-transactions"></a>Eelarve vähendamine kannetega
 
 Kui valite eelarvevajaduste vähendamise meetodiks **Kanded – planeerimise koefitsient** või **Kanded – dünaamiline periood**, siis saate määrata, millised kanded eelarvet vähendavad. Valige lehe **Laovarude grupid** kiirkaardi **Muud** väljal **Prognoosi vähendamisalus:** suvand **Kõik kanded**, kui prognoosi peaks vähendama kõik kanded, või **Tellimused**, kui prognoosi peaks vähendama ainult müügitellimused.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

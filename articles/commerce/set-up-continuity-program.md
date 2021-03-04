@@ -50,3 +50,6 @@ Kui olete järjepidevusprogrammi seadistanud, nagu eespool kirjeldatud, saate kl
 - **Järjepidevuse ridade pikendamine** (vajaduse korral) – pikendage nii mitu korda, kui järjepidevat sündmust saab korrata. Saadetiste kordamine võib siis ületada kõnekeskuse parameetrite väljal **Järjepidevuse kordumise lävi** seadistatud limiidi.
 - **Järjepidevuse värskendamine** (vajaduse korral) – sünkroonige muudatusi järjepidevusprogrammi ja järjepidevuse emamüügitellimuste vahel.
 - **Järjepidevuse põhiridade ja tellimuste sulgemine** – sulgege järjepidevad tellimused.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

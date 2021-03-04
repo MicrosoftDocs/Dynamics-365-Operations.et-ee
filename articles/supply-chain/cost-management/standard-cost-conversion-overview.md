@@ -102,3 +102,6 @@ Aruanne **Hälbe analüüsi väljavõte** võimaldab analüüsida ümberhindluse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

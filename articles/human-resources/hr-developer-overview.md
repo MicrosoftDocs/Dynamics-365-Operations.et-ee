@@ -62,3 +62,6 @@ See arendaja juhend pakub API ja kohandatud väljade viiteid. Lisaks antakse tea
 - [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)
 - [Administraatori juhend](hr-admin-overview.md)
 - [Kasutusjuhend](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Selles artiklis selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
    | **Tulemi olek** | See on Sobilik või Sobimatu. Tulemuse olek on Sobimatu, kui töötaja ei vastanud sobivusreegli kriteeriumidele, kui töötaja kohta puudub nõutav teave (nt maksesagedus või põhipalk) või kui puudub teave soodustusplaani kohta, mis takistab töötajate registreerimist. |
    | **Tulemusteade** | Näitab, miks töötaja on soodustusplaani jaoks sobimatu või kui sobivusreegel on edastatud. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

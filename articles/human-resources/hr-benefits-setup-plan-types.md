@@ -63,3 +63,6 @@ Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletaks
    | **Aruandlusaken** | Määrab elusündmuse aruandlusakna, päevades. **Märge**: kui te summat ei sisesta, siis süsteem eeldab, et aruandlusaken on null ja ei töötle elusündmust. |
 
 5. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

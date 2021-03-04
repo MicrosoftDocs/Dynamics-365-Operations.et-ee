@@ -193,3 +193,6 @@ Olemas on üks erand reeglile, et partiitellimused on sobilikud partii tasakaalu
 Kui valem sisaldab laohaldusprotsesside jaoks lubatud toote toimeainet, kuid partii number on reserveerimishierarhias allpool asukohta, ei ole partiitellimus partii tasakaalustamiseks sobilik.
 
 Partiitellimus, mis ei ole partii tasakaalustamiseks sobilik, läbib partiitellimuste tavapärase protsessitsükli.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

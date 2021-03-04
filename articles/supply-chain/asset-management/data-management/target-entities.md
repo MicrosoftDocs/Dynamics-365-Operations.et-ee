@@ -53,3 +53,6 @@ Tööruumis **Andmehaldus** saate ülevaate sihtüksustest, seotud üksuste tü�
 
     ![Joonis 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

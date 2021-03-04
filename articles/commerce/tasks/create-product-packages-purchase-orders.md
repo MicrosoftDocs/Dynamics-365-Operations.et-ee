@@ -73,3 +73,6 @@ See protseduur selgitab tootepaketi loomist ja ostutellimusel kasutamist. Ostute
 17. Klõpsake käsku Loo.
 18. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

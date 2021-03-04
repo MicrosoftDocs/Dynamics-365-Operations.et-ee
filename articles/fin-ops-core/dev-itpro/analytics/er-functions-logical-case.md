@@ -83,3 +83,6 @@ Kui esimese tulemuse väärtus ja *N*. tulemuse väärtus on andmetüübi *Konte
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loogilised funktsioonid](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

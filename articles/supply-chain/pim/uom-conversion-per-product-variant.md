@@ -107,3 +107,6 @@ Kui tootel on palju erinevate ühiku teisendustega tootevariante, oleks hea eksp
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mõõtühiku haldamine](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

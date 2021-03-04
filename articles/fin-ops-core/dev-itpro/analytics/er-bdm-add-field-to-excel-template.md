@@ -169,3 +169,6 @@ Muudetud malliga luuakse valitud üksuse vabas tekstis arve aruanne. Selleks, et
 [Äridokumentide halduse ülevaade](er-business-document-management.md)
 
 [OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

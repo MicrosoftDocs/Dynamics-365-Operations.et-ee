@@ -39,3 +39,6 @@ Kõik ettevõtted peavad koguma teavet töötajate, klientide ja hankijate kohta
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Ressursid GDPR-i andmetaotlusele vastamiseks](../../dev-itpro/gdpr/gdpr-home-page.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

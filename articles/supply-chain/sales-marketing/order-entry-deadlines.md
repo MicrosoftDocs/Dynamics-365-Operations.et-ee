@@ -109,3 +109,6 @@ Järgmine tabel näitab, kuidas on tellimuse sisestamise tähtajad tegevuskohtad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

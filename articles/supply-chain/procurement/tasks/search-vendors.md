@@ -39,3 +39,6 @@ Saate uurida, kuidas otsida hankijaid kindlate kriteeriumite järgi. See näide 
 6. Sisestage väärtus väljale Riik/regioon.
 7. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

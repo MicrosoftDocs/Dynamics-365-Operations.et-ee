@@ -40,3 +40,6 @@ Konfiguratsioon **Laos olevate vanemate partiide kuvamine** on saadaval mobiilse
 
 - Valige menüüs **Laohaldus** > **Seadistus** > **Mobiilne seade** > **Mobiilse seadme menüüelemendid** suvandi **Kasuta olemasolevat tööd** sätteks menüüelemendi puhul **Jah** ja valige väljal **Komplekteeri vanim partii** säte **Hoiata**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

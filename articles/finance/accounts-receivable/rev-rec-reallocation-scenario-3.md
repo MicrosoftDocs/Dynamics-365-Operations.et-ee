@@ -81,3 +81,6 @@ Müügitellimus arveldatakse uuesti lisatud kauba kohta. Kliendile esitatav kogu
 [![Kande kannete leht sisestatud raamatupidamise kirjega](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Kuna tulu ja müügi summa on suurem kui 319.50 $, sisestatakse erinevus 14.48 $. See summa tühjendab osalise arve tulu kliiringu konto saldo. See saldo uuendati uues raamatupidamise kirjes, mis sisestati pärast ümberjaotamist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

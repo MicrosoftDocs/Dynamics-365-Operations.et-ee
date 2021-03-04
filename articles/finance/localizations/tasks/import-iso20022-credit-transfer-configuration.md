@@ -45,3 +45,6 @@ See on esimene viiest ülesandest, mis illustreerivad koos hankija makseprotsess
     * Kui nupp Impordi pole saadaval, tähendab see, et see konfiguratsioon on juba imporditud.  
 9. Klõpsake nuppu Jah.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

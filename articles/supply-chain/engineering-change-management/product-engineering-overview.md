@@ -59,3 +59,6 @@ Järgmiseks lülitage sisse **tehniliste muudatuste halduse** konfiguratsiooniv�
 1. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
 1. Laiendage sõlme **Kaubandus** ja märkige ruut **Tehniliste muudatuste haldus**.
 1. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | Sisu  | Kirjeldus  | Vorming  |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------|
 | [Dynamics 365 põhisätted](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Kinnitage, et olete tutvunud teenusekomplekti Microsoft Dynamics 365, Power Platformi, pilvkeskkonna kontseptsioonide, litsentsimisvõimaluste ning juurutus- ja väljastusvalikutega. | Eksam, hind varieerub piirkonniti |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Etappide lõpule viimiseks, peate esmalt läbima protseduuri „Pakkuja konfigur
 
 ![ER-i andmemudeli kujundaja leht](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

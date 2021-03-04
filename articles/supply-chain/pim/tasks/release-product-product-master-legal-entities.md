@@ -37,3 +37,6 @@ See protseduur juhendab, toodet või tooteetaloni ühele või mitmele juriidilis
 6. Klõpsake käsku Edasi.
 7. Klõpsake Lõpeta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

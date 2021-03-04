@@ -66,3 +66,6 @@ Värbamisprojektid aitavad värbamisprotsessi hallata. Igale värbamisprojektile
     * Olek Alustatud tähendab, et projekt on valmis avaldusi vastu võtma.  
 33. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

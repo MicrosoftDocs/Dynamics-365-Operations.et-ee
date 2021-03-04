@@ -61,3 +61,6 @@ Lehel **Hinnanguprofiilid** saate vaadata kõiki saadaolevaid hinnangu reegleid.
 
 > [!NOTE]
 > Lehel **Saadetise vedajad** loodud profiilid kuvatakse ka lehel **Hinnanguprofiilid**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

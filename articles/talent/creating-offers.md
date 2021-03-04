@@ -153,3 +153,6 @@ Pakkumise võib kandidaadilt igal ajahetkel erinevatel põhjustel tagasi võtta.
 ## <a name="closing-an-offer"></a>Pakkumise sulgemine 
 
 Kui pakkumine on vastu võetud, tagasi lükatud või tagasi võetud, võite lisatoiminguid teostamata pakkumise sulgeda nii, et sellele pakkumise paketile ei saa enam lisanduvaid muudatusi teha.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

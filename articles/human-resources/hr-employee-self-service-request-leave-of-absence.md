@@ -53,3 +53,6 @@ Saate esitada puhkusetaotluse ja näha oma puhkusetaotluste olekut rakenduses Dy
 ## <a name="see-also"></a>Vt ka
 
 [Puhkuse katkestamine](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

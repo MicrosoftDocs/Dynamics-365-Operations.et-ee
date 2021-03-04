@@ -65,3 +65,6 @@ Kategooria lehe rikastamiseks tehke järgmist.
 [Tootelehe rikastamine](enrich-product-page.md)
 
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
