@@ -72,12 +72,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Managementi 10.0.17 (aprill 2021)
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (veebruar 2021)
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15 (jaanuar 2021)
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: Supply Chain Management 10.0.14 (november 2020)
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
@@ -150,10 +150,12 @@
                   href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Navigeerimisotsing
                   href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kasutuskogemuse isikupärastamine
+                - name: Kasutusfunktsionaalsuse isikupärastamine
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Salvestatud vaated
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Supply Chain Managementi standardsed salvestatud vaated
+                  href: get-started/saved-views-scm.md
                 - name: Ruudustiku võimalused
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finance and Operationsi rakenduste arhitektuur
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: Juurutusprojekti kasutuselevõtt
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Keskkonna planeerimine
@@ -224,6 +226,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Laotellimused pilv- ja perimeeterskaalaüksuste jaoks
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: Varahaldus
           items:
             - name: Varahalduse ülevaade
@@ -363,6 +367,8 @@
               items:
                 - name: 'Prognoosid, töökäsud ja projektid'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: Kliendile kuuluvate varade hooldusarve
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: Varahalduse integreerimine põhivaradega
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Ennetav ja reaktiivne hooldus
@@ -439,10 +445,14 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Hooldusolek
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Varahaldus mobiilirakendusest
+              items:
+                - name: Varahalduse mobiilse tööruumi häälestamine
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: Varahalduse mobiilse tööruumi kasutamine
+                  href: asset-management/asset-management-mobile-workspace.md
             - name: Varahalduse integreerimine Dynamics 365 Guidesiga
               href: asset-management/asset-management-guides-integration.md
-            - name: Varahalduse mobiilne tööruum
-              href: asset-management/asset-management-mobile-workspace.md
         - name: Andmehaldus
           items:
             - name: Sihtüksused
@@ -1319,6 +1329,8 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Mobiilse tööruumi varude laoseis
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: Varude toimingute tõrkeotsing
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: Väljaminev protsess
               items:
                 - name: Väljamineva protsessi ülevaade
@@ -1377,15 +1389,21 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Ohutuspiirid
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Ostutaotlused
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: Tootmise planeerimine
+                  href: master-planning/planning-optimization/production-planning.md
                 - name: Varude märkimine planeerimise optimeerimise käigus
                   href: master-planning/planning-optimization/marking.md
                 - name: Kontsernisisene planeerimine
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Konkreetsete toote töötsükli olekutega toodete väljajätmine
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Laovarude ajapiirid
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Plaanitud tellimuste kinnitamine
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Automaatne kinnitamine planeerimise optimeerimise käigus
+                - name: Automaatne kinnitamine planeerimise optimeerimisega
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Negatiivsete vabade kogustega plaanimine
                   href: master-planning/planning-optimization/negative-on-hand.md
@@ -1909,6 +1927,8 @@
                   href: production-control/bom-designer-functionality.md
                 - name: Valemikoostaja kasutamine
                   href: production-control/formula-designer.md
+                - name: Tootmismaterjalide reserveerimise vaikepõhimõtte alistamine
+                  href: production-control/override-default-reservation-principle.md
                 - name: 'Varianditoodete lisamine ostutellimustele, kasutades variandi kaalu'
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: Müügitellimuse loomine konfigureeritava toote jaoks
@@ -2027,6 +2047,8 @@
                       href: production-control/bill-of-material-bom.md
                     - name: Koosluse koostaja funktsioon
                       href: production-control/bom-designer-functionality.md
+                    - name: Tootmismaterjalide reserveerimise vaikepõhimõtte alistamine
+                      href: production-control/override-default-reservation-principle.md
                     - name: Fiktiivsed kaubad
                       href: production-control/phantom-items.md
                     - name: Koosluse kalkulatsioonid
@@ -2757,6 +2779,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Süsteemi suunatud kogumi komplekteerimine
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Pakkimisele ja ladustamisele erinevate dimensioonide määramine
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: Konteinerisse määramise häälestus
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Partii ja litsentsiplaadi kinnitus
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Voosiltide uuesti printimine ja tühistamine
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Väikepaki saatmine
+                      href: warehousing/small-parcel-shipping.md
                     - name: Koorma koostamise ja saadetiste tõrkeotsing
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Saadetise konsolideerimispoliitikad
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Asukohakorraldustega töötamine
                       href: warehousing/create-location-directive.md
+                    - name: Laokannete tootefiltrite konfigureerimine
+                      href: warehousing/filters-and-filter-codes.md
                     - name: Asukoha ladustamispiirangud
                       href: warehousing/location-stocking-limits.md
                     - name: Vooetapi koodid
                       href: warehousing/wave-step-codes.md
                     - name: Vootöötluse konfigureerimine
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Voo ajal töö loomise plaanimine
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: Voosildi printimise seadistamine ja kasutamine
                       href: warehousing/configure-wave-label-printing.md
                     - name: Saadetiste automaatne värskendamine
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Laorakenduse installimine ja konfigureerimine
                   items:
+                    - name: Laohalduse mobiilirakenduse installimine ja ühendamine
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: Laorakenduse installimine ja ühendamine
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Vöötkoodide skannimine kaamera abil laorakenduses

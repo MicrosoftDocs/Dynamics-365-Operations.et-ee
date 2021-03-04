@@ -3,14 +3,13 @@ title: Hajutatud tellimuste haldamine (DOM)
 description: Selles teemas kirjeldatakse hajutatud tellimuste haldamise (DOM) funktsiooni rakenduses Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4458876"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982587"
 ---
 # <a name="distributed-order-management-dom"></a>Hajutatud tellimuste haldamine (DOM)
 
@@ -49,8 +48,12 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
     - **Luba hajutatud tellimuste haldamine** – määrake see suvand väärtusele **Jah**.
     - **Kinnita Bingi kaartide kasutamine DOM-i jaoks** – määrake see suvand väärtusele **Jah**.
 
+
         > [!NOTE]
         > Saate selle suvandi määrata väärtusele **Jah** ainult siis, kui suvand **Luba Bingi kaardid** vahekaardil **Bingi kaardid** lehel **Kaubanduse ühisparameetrid** (**Retail ja Commerce \> Peakontori häälestus \> Parameetrid \> Kaubanduse ühisparameetrid**) on samuti seatud valikule **Jah** ja välja **Bingi kaartide võti** on sisestatud kehtiv võti.
+        >
+        > Portaal [Bing Maps Dev Center](https://www.bingmapsportal.com/) võimaldab teil piirata juurdepääsu Bing Mapsi API võtmetel määratletud domeenikomplektiga. Selle funktsiooni abil saavad kliendid määratleda täpse viitajaväärtuste või IP-aadresside komplekti, mille suhtes võti valideeritakse. Teie lubatute loendis olevaid taotlusi töödeldakse tavapäraselt, kuid loendisse mittekuuluvad taotlused saavad vastuse, et juurdepääs on keelatud. Domeeniturbe lisamine API-võtmele on valikuline ja senisesse olekusse jäävad võtmed toimivad edasi. Iga võtme lubatute loend on teistest võtmetest sõltumatu, võimaldades teil määrata igale võtmele eraldi reeglid. Hajutatud tellimuste haldamine ei toeta domeenile viitavate atribuutide seadistamist.
+
 
     - **Kinnipidamise perioodi kestus päevades** – määrake, kui kaua hoitakse süsteemis täitmisplaane, mida DOM-i käitused loovad. Pakett-töö **DOM-i täitmisandmete kustutamise töö häälestus** kustutab kõik täitmisplaanid, mis on vanemad, kui siin määratud päevade arv.
     - **Tagasilükkamise periood (päevades)** – määrake, kui palju aega peab mööduma, enne tagasi lükatud tellimuse rida saab määrata samasse asukohta.
@@ -62,14 +65,15 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
     - **Lahendaja tüüp** – valige väärtus. Kaubandusega väljastatakse kaks lahendaja tüüpi: **Tootmise lahendaja** ja **Lihtsustatud lahendaja**. Kõikide masinate kohta, mis käitavad DOM-i (ehk kõikide serverite kohta, mis on osa grupist DOMBatch), tuleb valida suvand **Tootmise lahendaja**. Tootmise lahendaja jaoks on vaja spetsiaalset litsentsivõtit, mis vaikimisi litsentsitakse ja juurutatakse tootmiskeskkondades. Mittetootmiskeskkondade jaoks tuleb see litsentsivõti tuleb käsitsi juurutada. Litsentsivõtme käsitsi juurutamiseks järgige allolevaid etappe.
 
         1. Avage Microsoft Dynamicsi teenuses Lifecycle Services ühiste vahendite teek, valige vahendi tüübiks **Mudel** ja laadige alla fail **DOM-i litsents**.
-        2. Käivitage Microsofti Internet Information Servicese (IIS) haldur, paremklõpsake valikut **AOSService’i veebisait** ja seejärel valige suvand **Uuri**. Windows Exploreri aken avaneb veebijuures **\<AOS service root\>\\webroot**. Märkige \<AOS Service root\> tee üles, kuna kasutate seda järgmises etapis.
-        3. Kopeerige konfiguratsioonifail kausta **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Minge kaupluse halduse kaubanduse peakontori klientrakendusse ja avage leht **DOM-i parameetrid**. Vahekaardil **Lahendaja** väljal **Lahendaja tüüp** valige suvand **Tootmise lahendaja** ja kinnitage, et tõrketeateid ei kuvataks.
+        1. Käivitage Microsofti Internet Information Servicese (IIS) haldur, paremklõpsake valikut **AOSService’i veebisait** ja seejärel valige suvand **Uuri**. Windows Exploreri aken avaneb veebijuures **\<AOS service root\>\\webroot**. Märkige \<AOS Service root\> tee üles, kuna kasutate seda järgmises etapis.
+        1. Kopeerige konfiguratsioonifail kausta **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        1. Minge kaupluse halduse kaubanduse peakontori klientrakendusse ja avage leht **DOM-i parameetrid**. Vahekaardil **Lahendaja** väljal **Lahendaja tüüp** valige suvand **Tootmise lahendaja** ja kinnitage, et tõrketeateid ei kuvataks.
+
 
         > [!NOTE]
         > Lihtsustatud lahendaja on selleks, et jaemüüjad saaksid katsetada DOM-i funktsiooni spetsiaalset litsentsi juurutamata. Organisatsioonid ei tohi lihtsustatud lahendajat kasutada tootmiskeskkondades.
         >
-        > Kuigi lihtsustatud lahendaja pakub samasuguseid võimalusi kui tootmise lahendaja, on selles jõudluse (käituses käsitletavate tellimuste ja tellimuse ridade arv) ja tulemuste ühitamise (tellimuste partiid ei pruugi anda mõnes stsenaariumis parimat tulemust) osas piirangud.
+        > Tootmise lahendaja parendab jõudlust (nt käituses käsitletavate tellimuste ja tellimuse ridade arv) ja tulemuste ühitamist (kuna tellimuste partii ei pruugi anda mõnes stsenaariumis parimat tulemust). Mõned reeglid, nt **osaliste tellimuste reegel** ja **asukohtade maksimumarvu reegel**, vajavad tootmise lahendajat.
      
 6. Minge tagasi suvandisse **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Häälestus \> DOM-i parameetrid**.
 7. Vahekaardil **Numbriseeriad** määrake mitmesugustele DOM-i üksustele vajalikud numbriseeriad.
@@ -121,7 +125,7 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
         \* Kui valik **Osaliste tellimuste täitmine** on seatud väärtusele **Ei**, arvestatakse alati, et valik **Osaliste ridade täitmine** on seatud väärtusele **Ei**, olenemata sellest, kuidas see tegelikult seatud on.
 
         > [!NOTE]
-        > Retaili versioonis 10.0.5 on parameeter **Tellimuse täitmine ainult ühest asukohast** asendatud parameetriga **Täitmise asukohtade maksimumarv**. Selle asemel et võimaldada kasutajal konfigureerida, kas tellimused tuleb täita ainult ühest asukohast või nii paljudest asukohtadest kui võimalik, saavad kasutajad nüüd määrata, kas täitmine toimub määratud hulgast asukohtadest (kuni 5) või nii paljudest asukohtadest kui võimalik. See võimaldab olla tellimuse täitmise asukohtade arvu osas paindlikum.
+        > Retaili versioonis 10.0.5 on parameeter **Tellimuse täitmine ainult ühest asukohast** asendatud parameetriga **Täitmise asukohtade maksimumarv**. Selle asemel et võimaldada kasutajal konfigureerida, kas tellimused tuleb täita ainult ühest asukohast või nii paljudest asukohtadest kui võimalik, saavad kasutajad nüüd määrata, kas täitmine toimub määratud hulgast asukohtadest (kuni 5) või nii paljudest asukohtadest kui võimalik. See võimaldab olla tellimuse täitmise asukohtade arvu osas paindlikum. See reegel töötab ainult tootmise lahendajaga. 
 
    - **Võrguühenduseta täitmisasukoha reegel** – see reegel laseb organisatsioonidel määratleda DOM-is asukoha või asukohtade grupi võrguühenduseta või mittesaadavana, nii et tellimusi ei saa nendes asukohtades täitmiseks määrata.
     - **Maksimaalse tagasilükkamiste arvu reegel** – see reegel laseb organisatsioonidel määratleda tagasilükkamiste läve. Kui lävi saavutatakse, märgib DOM-i protsessor tellimuse või tellimuse rea erandina ja arvab selle edaspidisest töötlusest välja.

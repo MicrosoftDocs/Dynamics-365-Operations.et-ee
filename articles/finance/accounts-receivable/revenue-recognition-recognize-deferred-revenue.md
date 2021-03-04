@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458853"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115916"
 ---
 # <a name="recognize-deferred-revenue"></a>Edasilükkunud tulu tuvastamine
 
@@ -39,7 +38,7 @@ Tulu tuvastamise graafiku üksikasjade vaatamiseks on kaks võimalust.
 - Saate avada tulu tuvastamise graafiku otse arveldatud müügitellimusest. Sel juhul filtreeritakse tulugraafikus olev teave nii, et kuvatakse ainult valitud müügitellimuse üksikasjad. See variant on kasulik müügitellimuse graafiku üksikasjade kontrollimiseks.
 - Saate avada tulu tuvastamise graafiku lehelt **Tulu tuvastamine \> Perioodilised ülesanded**. Seda varianti kasutatakse sageli siis, kui tulu tuvastatakse perioodi lõpus. Lehe esmakordsel avamisel teavet ei kuvata. Kasutage ruudustiku kohal olevaid filtreid, et määratleda graafiku kuvatavate üksikasjade kriteeriumid. Saate filtreerida arve kuupäevade alusel, sisestades kuupäevavahemiku, müügitellimuse, kliendi, projekti ID või oleku.
 
-[![Tulugraafikute leht](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Tulugraafikute lehe illustratsioon](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 Ruudustiku all olev kiirkaart **Finantsdimensioon** kuvab müügitellimuse rea finantsdimensiooni. Neid dimensioone arvestati edasilükatud tulu sisestamisel. Neid arvestatakse ka tulu tuvastamisel. Kasutatavad dimensiooniväärtused sõltuvad tulu ja edasilükatud tulu põhikontodele omistatud konto struktuurist.
 
