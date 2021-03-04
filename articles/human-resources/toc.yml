@@ -5,6 +5,10 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 28. jaanuar 2021
+          href: hr-whats-new-2021-01-28.md
+        - name: 21. jaanuar 2021
+          href: hr-whats-new-2021-01-21.md
         - name: 2. detsember 2020
           href: hr-whats-new-2020-12-02.md
         - name: 22. oktoober 2020
@@ -79,12 +83,16 @@
           items:
             - name: Andme integratsioonitehnoloogia valimine
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service'i integratsiooni konfigureerimine
+            - name: Ahendamise KKK
+              href: hr-admin-integration-throttling-faq.md
+            - name: Dataverse'i integratsiooni konfigureerimine
               href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service'i üksused
+            - name: Dataverse'i tabelid
               href: hr-developer-entities.md
-            - name: Common Data Service'i virtuaalüksuste konfigureerimine
+            - name: Dataverse'i virtuaalüksuste konfigureerimine
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Human Resourcesi virtuaalsete olemite KKK
+              href: hr-admin-virtual-entity-faq.md
             - name: Integratsiooni konfigureerimine Finance’iga
               href: hr-admin-integration-finance.md
             - name: Integratsiooni konfigureerimine Dayforce’iga
@@ -279,7 +287,7 @@
           href: hr-developer-overview.md
         - name: Laiendamine Power Appsi ja Power Automate’iga
           href: hr-developer-power-apps.md
-        - name: Common Data Service'i üksused
+        - name: Dataverse'i tabelid
           href: hr-developer-entities.md
         - name: Kohandatud väljad
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: Andme integratsioonitehnoloogia valimine
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service'i integratsiooni konfigureerimine
+            - name: Dataverse'i integratsiooni konfigureerimine
               href: hr-admin-integration-common-data-service.md
             - name: Integratsiooni konfigureerimine Finance’iga
               href: hr-admin-integration-finance.md
@@ -317,6 +325,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Puhkusetaotluse edastamine töövoogu
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: ATS-i integratsiooni API
+          items:
+            - name: Sissejuhatus
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Värbamistaotlus ja seotud üksused
+              items:
+                - name: Värbamistaotlus
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Värbamistaotluse haridus
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Värbamistaotluse asukoht
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Värbamistaotluse ametikoht
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Värbamistaotluse oskus
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Näidispäring värbamistaotlusele
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Värbamistaotluse valikute komplektid
+              items:
+                - name: Töö vabastuse olek
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Värbamistaotluse ametikoha olek
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Värbamistaotluse olek
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Regulatiivse töö kategooria
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Palgatav kandidaat ja seotud üksused
+              items:
+                - name: Palgatav kandidaat
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Tunnistuse tüüp
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Osapoole kontakt
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Isik
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Isiku aadress
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Isiku tunnistus
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Isiku haridus
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Isiku isikukood.
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Isiku töökogemus
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Isiku skriining
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Isiku oskus
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Hindamise tase
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Skriiningu tüübid
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Näidispäring palgatavale kandidaadile
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Kandidaadi valikute komplektid
+              items:
+                - name: Kandidaadi integratsiooni tulemus
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Tühi Jah Ei
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Lõpuleviimise olek
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Kontakti tüüp
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Hariduskrediidi alus
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Sugu
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Perekonnaseis
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Kuud aastast
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Ei Jah
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Perioodi ühik
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Skriiningu sagedus
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Skriiningu sageduse loomine
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Oskuse taseme tüüp
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Kasutusjuhend
       items:
         - name: Ülevaade
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Kliendi teatiste teatamine meili teel
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Digitaalallkirjad
-              items:
-                - name: Digitaalallkirjade ülevaade
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Digitaalallkirjade häälestus
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Juhtumihaldus
               items:
                 - name: Juhtumihalduse ülevaade
@@ -591,9 +679,11 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Määra muudatuste töötlemine
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA aruandlus
+                  href: hr-benefits-management-aca-reports.md
             - name: Soodustusprogrammi määratlemine ja haldamine
               href: hr-benefits-manage-program.md
-            - name: Soodustuse saamise õiguse poliitika
+            - name: Soodustuse saamise õiguse eeskirjad
               href: hr-benefits-eligibility-policies.md
             - name: Soodustuse sobivuse töötlemine
               href: hr-benefits-eligibility-process.md

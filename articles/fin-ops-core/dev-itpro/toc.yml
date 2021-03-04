@@ -14,12 +14,12 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormi versiooni 10.0.17 värskendused (aprill 2021)
+                  href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platvormi versiooni 10.0.16 värskendused (veebruar 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platvormi versiooni 10.0.15 värskendused (jaanuar 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: Platvormi versiooni 10.0.14 värskendused (november 2020)
-                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud platvormifunktsioonid
@@ -122,9 +122,9 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Kirjete loomine kirjemallide abil
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Andmeintegratsioon Common Data Service’i abil
+                - name: Andmeintegratsioon Dataverse’i abil
                   items:
-                    - name: Andmeintegratsioon Common Data Service'i abil – ülevaade
+                    - name: Andmeintegratsioon Dataverse'i abil – ülevaade
                       href: data-entities/data-integration-cds.md
                     - name: Topeltkirjutuse integratsioon
                       items:
@@ -192,11 +192,11 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: Ettevõtte integratsioon
                               items:
-                                - name: Ettevõtte kontseptsioon Common Data Servicesis
+                                - name: Ettevõtte kontseptsioon Dataverseis
                                   href: data-entities/dual-write/company-data.md
-                                - name: Alglaadimine ettevõtte andmetega
+                                - name: Ettevõtte andmete lähtestamine
                                   href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Common Data Service'i organisatsiooni hierarhia
+                            - name: Dataverse'i organisatsiooni hierarhia
                               href: data-entities/dual-write/organization-mapping.md
                             - name: Finants-ja maksuandmed
                               items:
@@ -206,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Integreeritud koondmaksuandmed
                                   href: data-entities/dual-write/tax-mapping.md
+                            - name: Hanke integreerimine Supply Chain Managementis Field Service'iga
+                              href: data-entities/dual-write/scm-field-service-procurement.md
+                            - name: Vajaduse korral sünkroonimine Supply Chain Managementi hinnakujunduse mootoriga
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Potentsiaalne klient sularahaks topeltkirjutus
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Sünkroonimine Dynamics 365 Supply Chain Management hinnakujunduse mootoriga vajaduse korral
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Dynamics 365 Commerce'i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Ettevõttesisesed varad teenindamiseks
@@ -220,23 +222,25 @@
                               href: data-entities/dual-write/inventory-availability.md
                         - name: Topeltkirjutuse tugi
                           items:
-                            - name: Field Service'i lahenduste tugi ja Project Service Automationi lahendused
+                            - name: Field Service'i ja Project Service Automationi lahenduste tugi
                               href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Potentsiaalse klient sularahaks andmete migreerimine andmeintegraatorist topeltkirjutusse
+                              href: data-entities/dual-write/migrate-prospect-to-cash.md
                             - name: Tõrkeotsing
                               items:
-                                - name: 'Kontrollige, et topeltkirjutamine on konfigureeritud Finance and Operationsi rakendustes ja Common Data Service''is'
+                                - name: Topeltkirjutuse konfiguratsiooni kontrollimine Finance and Operationsi rakendustes ja Dataverse'is
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                                 - name: Tõrkeotsingu probleemid algse häälestuse ajal
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Topeltkirjutamise mooduli tõrkeotsingu probleemid Finance and Operationsi rakendustes
+                                - name: Finance and Operationsi rakendustes topeltkirjutuse probleemide tõrkeotsing
                                   href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                                 - name: Reaalajas sünkroonimise probleemide tõrkeotsing
                                   href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                                 - name: Lahenduse teadlikkusega seotud probleemide tõrkeotsing
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Finance and Operationsi rakenduste värskendustega seotud probleemide tõrkeotsing
+                                - name: Finance and Operationsi rakenduste värskenduste probleemide tõrkeotsing
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Üldine tõrkeotsing
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
@@ -338,8 +342,12 @@
               items:
                 - name: Andmete importimis- ja eksportimistööde ülevaade
                   href: data-entities/data-import-export-job.md
-                - name: Üldise töölehe üksuse abil kannete importimise head tavad
+                - name: Kuupäeva ja kellaaja sünkroonimine importimistöödes
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: Üldise töölehe üksuse abil kannete importimine
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: Finance and Operationsi rakenduste andmete migreerimise optimeerimine
+                  href: sysadmin/optimize-data-migration.md
             - name: Andmeüksuste arendamine
               items:
                 - name: Andmeüksuste kujundamise põhimõtted ja parimad tavad
@@ -442,6 +450,8 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Toimingu/tegevuse oleku toomine
                       href: database/api/v1/reference-get-status.md
+                    - name: Keskkondade käivitamine ja lõpetamine
+                      href: database/api/v1/reference-start-stop-environments.md
         - name: Demoandmed
           items:
             - name: Demoandmete ülevaade
@@ -808,60 +818,6 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Süsteemitabelid
                   href: dev-ref/system-tables.md
-                - name: Süsteemiklassid
-                  items:
-                    - name: Süsteemiklassi loend
-                      href: dev-ref/system-classes/toc.yml
-                    - name: Tähestikuliselt rühmitatud süsteemiklassid
-                      items:
-                        - name: A klassid
-                          href: dev-ref/a-classes.md
-                        - name: B klassid
-                          href: dev-ref/b-classes.md
-                        - name: C klassid
-                          href: dev-ref/c-classes.md
-                        - name: D klassid
-                          href: dev-ref/d-classes.md
-                        - name: E klassid
-                          href: dev-ref/e-classes.md
-                        - name: F klassid
-                          href: dev-ref/f-classes.md
-                        - name: G klassid
-                          href: dev-ref/g-classes.md
-                        - name: H klassid
-                          href: dev-ref/h-classes.md
-                        - name: I klassid
-                          href: dev-ref/i-classes.md
-                        - name: J klassid
-                          href: dev-ref/j-classes.md
-                        - name: K klassid
-                          href: dev-ref/k-classes.md
-                        - name: L klassid
-                          href: dev-ref/l-classes.md
-                        - name: M klassid
-                          href: dev-ref/m-classes.md
-                        - name: N klassid
-                          href: dev-ref/n-classes.md
-                        - name: O klassid
-                          href: dev-ref/o-classes.md
-                        - name: P klassid
-                          href: dev-ref/p-classes.md
-                        - name: Q klassid
-                          href: dev-ref/q-classes.md
-                        - name: R klassid
-                          href: dev-ref/r-classes.md
-                        - name: S klassid
-                          href: dev-ref/s-classes.md
-                        - name: T klassid
-                          href: dev-ref/t-classes.md
-                        - name: U klassid
-                          href: dev-ref/u-classes.md
-                        - name: V klassid
-                          href: dev-ref/v-classes.md
-                        - name: W klassid
-                          href: dev-ref/w-classes.md
-                        - name: X klassid
-                          href: dev-ref/x-classes.md
             - name: Laiendatavus
               items:
                 - name: Laiendatavuse avaleht
@@ -1004,11 +960,11 @@
                   href: perf-test/trace-trace-tutorial.md
                 - name: Ühe kasutajaga testimine tegevuse salvestaja ja Performance SDK abil
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Mitme kasutajaga testimine Performance SDK ja kohaliku testimiskontrolleri abil
+                - name: Mitme kasutajaga Performance SDK testimine kohaliku testimiskontrolleri abil
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: Mitme kasutajaga testimine Performance SDK ja Azure DevOpsi kaudu
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Ühe või mitme kasutajaga testimine Performance SDK abil – tõrkeotsingujuhend
+                - name: Tõrkeotsingujuhend testimisel Performance SDK abil
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK ja mitme kasutajaga testimine kohapealsetes keskkondades
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,7 +978,7 @@
                   href: perf-test/testing-validation.md
                 - name: Testprojektid Visual Studios
                   href: perf-test/testing-support.md
-                - name: Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine
+                - name: Pideva koostamise ning testimise automaatkeskkonna juurutamine ja kasutamine
                   href: perf-test/continuous-build-test-automation.md
                 - name: SysTesti filtreerimine klassi- ja meetodiatribuutidega
                   href: perf-test/systest-filtering.md
@@ -1168,15 +1124,17 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tõlkemälu failid
                   href: lifecycle-services/use-translation-service-tm.md
-        - name: Microsoft Power Platform’i integratsioon
+        - name: Microsoft Power Platformi integratsioon
           items:
             - name: Microsoft Power Platform integreerimine Finance and Operations'iga
               href: power-platform/overview.md
-            - name: Olemi modelleerimine
+            - name: Lisandmoodulite ülevaade
+              href: power-platform/add-ins-overview.md
+            - name: Üksuse modelleerimine
               href: power-platform/entity-modeling.md
             - name: Rakenduse elutsüklihaldus
               href: power-platform/application-lifecycle-management.md
-            - name: Finance and Operations ja Common Data Service'i administraatori viide
+            - name: Finance and Operations ja Dataverse'i administraatori viide
               href: power-platform/admin-reference.md
             - name: Power Appsi portaalid Finance and Operationsiga
               href: power-platform/power-portal-reference.md
@@ -1420,8 +1378,8 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Tuletatud testjuhtumid
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression Suite Automation Tooli õppetükk ja muud funktsioonid
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: Regression Suite Automation Tooli õppemaetrjal
+              href: perf-test/rsat/rsat-tutorial.md
             - name: Head tavad
               href: perf-test/rsat/rsat-best-practices.md
             - name: Andmete sõltumatu testimine tööriistaga Regression Suite Automation Tool
@@ -1467,7 +1425,7 @@
             - name: Rakenduste Finance and Operations ja Lifecycle Services tugi
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 toe ülevaade
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
             - name: Tehnilise toe häälestus Finance and Operationsi rakenduste jaoks
@@ -1506,6 +1464,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Kasutaja seansi haldus
                   href: sysadmin/user-session-management.md
+                - name: Juurdepääsu blokeerimine asukoha järgi Azure AD tingimusjuurdepääsuga
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Kasutajate hulgiimport
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Kohustuste jagamise häälestus
@@ -1524,6 +1484,8 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: Litsentsimisnõuete täitmine
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: Sõltumatu tarkvaratootja litsentsi oleku vaatamine
+              href: sysadmin/view-isv-license-status.md
             - name: Protsessi automatiseerimine
               href: sysadmin/process-automation.md
             - name: Pakktöötlus
@@ -1542,19 +1504,17 @@
                   href: sysadmin/batch-active-period-dst.md
                 - name: Partii halduri turberoll
                   href: sysadmin/runby.md
-                - name: Pakett-töö SQL-indeksi defragmentimise käsitsemiseks
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Partiiteatiste konfigureerimine
                   href: sysadmin/alerts.md
                 - name: Täiustatud partiivormid
                   href: sysadmin/enhanced-forms.md
                 - name: Partii ajaloo puhastamine
                   href: sysadmin/batch-history-cleanup.md
-                - name: Pakett-töö täitmise katkestamine
+                - name: Pakett-töö täitmise tühistamine
                   href: sysadmin/batch-abort.md
-            - name: Optimeerimisnõustaja
+            - name: Optimeerimisnõunik
               items:
-                - name: Nõustaja ülevaate optimeerimine
+                - name: Optimeerimisnõuniku ülevaate
                   href: sysadmin/optimization-advisor-overview.md
                 - name: Reeglite loomine optimeerimisnõustaja jaoks
                   href: sysadmin/create-rules-optimization-advisor.md
