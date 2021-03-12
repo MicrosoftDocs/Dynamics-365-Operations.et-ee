@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a0c8dabc91d4d69d3f7098672611610a4ec73ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09f7efbfa0b4b96b52350afb961710057d6a2f92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442471"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984905"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Õppekataloog Dynamics 365 Finance'iga töötavatele juurutusprojekti juhtidele
 
@@ -95,6 +94,3 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Eksam MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: kasutada ühiseid funktsioone ja juurutustööriistu; konfigureerida turvalisust, protsesse ja suvandeid; migreerida andmeid ning kontrollida lahendust ja pakkuda selle tuge. | Eksam, hind varieerub piirkonniti | |
 | [Eksam MB-310: Microsoft Dynamics 365 for Finance and Operations, finantsid](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: finantshalduse seadistamine ja konfigureerimine, ühiste protsesside haldamine ja rakendamine, ostu- ja müügireskontro juurutamine ja haldamine, eelarve ja põhivarade haldamine. | Eksam, hind varieerub piirkonniti | |
 | [Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalse konsultandi seostamine](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalsed konsultandid ühendavad globaalsed finantsid ja toimingud ning automatiseerivad ülesandeid ja töövooge, hõlbustavad kliendil tellimist, müüki, arveldamist ja aruandlust. | Sert, hind varieerub piirkonniti |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b7d2e33c1edb36227a76453d1981aec5babbf75
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442462"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985358"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Panga välisvaluuta ümberarvutamine
 
@@ -88,6 +87,3 @@ Samuti jagatakse välisvaluuta ümberarvutamise kanne pangakannete kohta leitud 
 Kui peate ümberarvutuskande tühistama, valige lehe **Välisvaluuta ümberarvutamine** toimingupaanilt nupp **Tühista kanne**. Luuakse uue välisvaluuta ümberarvutamise ajalooline kirje, et säilitada ajalooline kontrolljälg ümberarvutamise toimumise või tühistamise ajast.
 
 Mitme ümberarvutuse tühistamiseks peate tühistama kõige värskema ümberarvutuse. Seejärel jätkake vanemate ümberarvutuste tühistamist kuupäevalises järjestuses. Seejärel saate töödelda uusi ümberarvutusi tühistatud perioodide kohta.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528740"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984980"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Õppekataloog Dynamics 365 Finance'i arendajatele
 
@@ -49,8 +48,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Finance and Operations: rakenduse Dynamics 365 for Finance and Operations laiendamine PowerAppsi abil (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Saate ülevaate Microsoft PowerAppsi lihtsusest ja sellest, kuidas seda saab integreerida Dynamics 365 for Finance and Operationsiga, et muuta digitaalselt ettevõtteid ja suurendada kasutaja tootlikkust. | Veebikonverentsi tasuta salvestamine | 43 minutit |
 | [Finance and Operations: laiendatavus (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Anname ülevaate ja uut teavet Microsofti laiendatavuse plaanide kohta. Me arutame üksikasjalikult lahenduse laiendamise erinevate viiside üle, uurides põhjalikult metaandmete laiendamisfunktsioone ning koodi suurendamise ja laiendamise võimet, sealhulgas võimsa käsuliini funktsiooni kaudu. | Veebikonverentsi tasuta salvestamine | 50 minutit |
 | [Visual Studio Team Servicesi (VSTS) seadistamine (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Selle arutelu käigus tutvustame vajalikke samme VSTS-i eksemplari ja projekti konfigureerimiseks, et luua ühendus LCS-i juurutusprojektiga arendamis-/testimiskeskkonna konfiguratsiooni jaoks. | Veebikonverentsi tasuta salvestus | 41 minutit |
-| [CDS-i andmeintegraator (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Ühinege selle aruteluga, et arutada teenuse Common Data Service (CDS) andmeintegraatori võimaluste üle. Me arutleme integratsioonivõimaluste üle Dynamics 365 Customer Engagementi ja Dynamics 365 Finance and Operationsi vahel, samuti integratsiooni üle teiste, kolmandate isikute lahendustega. | Veebikonverentsi tasuta salvestamine | 61 minutit |
-| [Integratsioon rakenduste Dynamics 365 for Sales ja Dynamics 365 for Finance & Operations vahel CDS-i kaudu (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Selle arutelu käigus tutvustame integratsioonistsenaariumi „Potentsiaalne klient sularahaks” ja rakenduse Dynamics 365 for Sales müügi- ja turundustegevusi ja täitmise tegevusi rakenduses Dynamics 365 for Finance and Operations. Räägime ka andmeintegraatorist ja sellest, kuidas integratsiooni muuta. | Veebikonverentsi tasuta salvestus | 54 minutit |
+| [Dataverse'i andmeintegraator (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Ühinege selle aruteluga, et arutada teenuse Dataverse andmeintegraatori võimaluste üle. Me arutleme integratsioonivõimaluste üle Dynamics 365 Customer Engagementi ja Dynamics 365 Finance and Operationsi vahel, samuti integratsiooni üle teiste, kolmandate isikute lahendustega. | Veebikonverentsi tasuta salvestamine | 61 minutit |
+| [Integratsioon rakenduste Dynamics 365 for Sales ja Dynamics 365 for Finance & Operations vahel Dataverse'i (DYN340PAL) kaudu](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Selle arutelu käigus tutvustame integratsioonistsenaariumi „Potentsiaalne klient sularahaks” ja rakenduse Dynamics 365 for Sales müügi- ja turundustegevusi ja täitmise tegevusi rakenduses Dynamics 365 for Finance and Operations. Räägime ka andmeintegraatorist ja sellest, kuidas integratsiooni muuta. | Veebikonverentsi tasuta salvestus | 54 minutit |
 | [Andmehaldus (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Liituge meie aruteluga, et rääkida andmehaldusest. Siit leiate teavet saadaolevate suvandite ja nende soovitatavate stsenaariumide kohta. Käsitleme teemasid nagu andmehaldusraamistik, mallid, andmebaasi kopeerimine, ettevõttesisene andmete ühiskasutus ja jõudluse arvesse võtmine. | Veebikonverentsi tasuta salvestamine | 58 minutit |
 | [Azure’i integratsioonitööriistad rakendusele Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Selles arutelus räägitakse seda tüüpi tööriistadest, mida võiks kasutada rakendusega Dynamics 365 for Finance & Operations integreerimisel ja millal teatud tüüpi integratsioonitööriista valida. Seansi käigus räägitakse ka mõnedest integratsioonistsenaariumidest, mida juhitakse Azure'i integreerimisteenuste abil. | Veebikonverentsi tasuta salvestamine | 63 minutit |
 | [Integreerimisraamistikud rakenduses Dynamics 365 for Finance & Operations (DYN385PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | See seanss annab ülevaate rakenduse Dynamics 365 for Finance & Operations integreerimisraamistikest ja nende raamistike kasutamisvõimalustest. | Veebikonverentsi tasuta salvestamine | 64 minutit |
@@ -94,6 +93,3 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | Sisu | Kirjeldus  | Vorming  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Eksam MB-500: Microsoft Dynamics 365: Finance and Operationsi rakenduste arendaja](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Selles eksamis kontrollitakse teie võimet täita järgmisi tehnilisi ülesandeid: planeerida arhitektuuri ja lahenduse kujundust; rakendada arendustööriistu; kujundada ja arendada AOT-elemente; kirjutada ja testida koodi; rakendada aruandlust; integreerida ja hallata andmelahendusi; ning rakendada turvet ja optimeerida jõudlust. | Eksam, hind varieerub piirkonniti |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

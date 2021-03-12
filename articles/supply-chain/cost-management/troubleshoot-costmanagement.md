@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4426703"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983846"
 ---
 # <a name="troubleshoot-cost-management"></a>Kuluhalduse tõrkeotsing
 
@@ -63,5 +62,22 @@ Microsoft kehtestas järgmised kinnitused, et vältida probleeme, mis on põhjus
 
 **Varude aegumise aruandes** kuvatakse erinevate ladustamise dimensioonide (nt saidi või lao) kuvamisel erinevad väärtused. Lisateavet aruandluse loogika kohta vt [Varude vananemise aruande näited ja loogika](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Uuenduse vastuolu ilmneb, kui varude hinna määramise meetod on kas standardne kulu või libisev keskmine
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Kui sisestate dokumente, nt laotöölehti, ostutellimuse arveid või müügitellimuste arveid paralleelselt skaleeritavuse ja jõudluse huvides, võite saada tõrketeate uuenduse vastuolu kohta ja mõningaid dokumente ei pruugita sisestada. See probleem võib ilmneda, kui varude hinna määramise meetod on kas *standardne kulu* või *libisev keskmine*. Mõlemad meetodid on pideva keskmise põhimõttel tuginevad kuluarvestusmeetodid. Teisisõnu määratletakse lõplik kulu sisestamise ajal.
+
+Kui kasutate meetodit *Liikuv keskmine*, sarnaneb veateade järgmisele näitele.
+
+> Laoväärtust xx.xx ei oodata pärast proportsionaalse kulu arvutamist
+
+Kui kasutate meetodit *Standardkulu*, sarnaneb veateade järgmisele näitele.
+
+> Standardkulu ei kattu pärast uuendamist finantsilise laovaru väärtusega. Väärtus = xx,xx, kogus = yy,yy, standardkulu = zz,zz
+
+Kuni Microsoft annab probleemi lahendamiseks välja lahenduse, kaaluge järgmiste lahenduste kasutamist nende tõrgete vältimiseks või vähendamiseks.
+
+- Postitage nurjunud dokumendid uuesti.
+- Looge dokumente, millel on vähem ridu.
+- Vältige standardkulus kümnendkohaga väärtusi. Proovige määratleda standardnkulu nii, et välja **Hinna kogus** väärtuseks oleks seatud *1*. Kui peate määrama **hinna koguse** väärtuseks üle *1*, proovige vähendada kümnendkohtade arvu ühiku standardkulus. (Ideaaljuhul peaks see olema alla kahe komakoha.) Näiteks vältige standardsete kulusätete, näiteks **Hind** = *10* ja **Hinna kogus** = *3*, kuna need tekitavad ühiku standardkulu 3,333333 (kus kümnendväärtus kordub).
+- Vältige enamikes dokumentides mitme rea omamist, millel on sama tootekombinatsioon ja finantsiliste varude dimensioon.
+- Vähendage paralleelsuse astet. (Sel juhul võib süsteem muutuda kiiremaks, sest tekib vähem uuenduse vastuolusid ja uuesti tegemist.)
