@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426234"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987549"
 ---
 # <a name="inventory-close"></a>Lao sulgemine
 
@@ -60,7 +59,7 @@ Mitmed tööülesanded, mida saate teha lehel **Sulgemine ja korrigeerimine**, t
 Nende tööülesannete tõttu värskendatud pearaamatukontod on sellised, mis on seotud algsete laokannetega. Kui näiteks müügitellimus tasakaalustatakse ostutellimusega, siis korrigeeritakse algse müügitellimuse jaoks kasutatud pearaamatukontosid. See toimub ka juhul, kui sellele kaubale määratud kaubagrupi pearaamatukontod on pärast müügitellimuse sisestamist muutunud. Kui varude sulgemine on loonud tasakaalustussumma, sisestatakse tasakaalustussumma ikkagi algsetele pearaamatukontodele, mitte kaubale määratud uutele pearaamatukontodele. Pearaamatut võidakse värskendada ka varude sulgemise tagasivõtmisel. 
 
 > [!NOTE] 
-> - Varud tuleb sulgeda kuu lõpus toimuva protsessi käigus kõikide laomudelite korral. See hõlmab standardset ja liikuvat keskmist kuluarvestust. Te ei saa finantsperioodi sulgeda seni, kuni varude sulgemine pole perioodi lõppkuupäeva seisuga lõpule viidud.
+> - Varud tuleb sulgeda kuu lõpus toimuva protsessi käigus kõikide laomudelite korral, v.a libisev keskmine.  Teid hoiatatakse, kui proovite finantsperioodi sulgeda, sooritamata esmalt lao sulgemist perioodi lõpukuupäeval.
 > - Enne sulgemisprotseduuri käitamist saate vaadata loendit kaupadest, mida ei saa värskenduse käigus tasakaalustada.
 > - Soovitame andmetöötlusressursside ühtlasemaks jaotamiseks käitada lao sulgemist väljaspool tipptunni kellaaegu.
 
@@ -87,6 +86,3 @@ Vahel võib olla vaja lõpule viidud varude sulgemine ümber pöörata, et taast
 > [!NOTE] 
 > Uuesti saab avada ainult viimasena suletud varude perioodi. Varasema lao sulgemise tühistamiseks tuleb tühistada ühekaupa kõik järgnevad lao sulgemised, alustades kõige viimasest sulgemisest.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

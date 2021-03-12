@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, SysClientPolymorphicCreateSelector, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411e20bd8631b70df981c5785f502693d5ba3705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426272"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987125"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Avaldise piirangu lisamine toote konfiguratsioonimudelile
 
@@ -44,13 +43,10 @@ See protseduur näitab, kuidas saate lisada toote konfiguratsioonimudelile uue p
 ## <a name="enter-expression"></a>Sisesta avaldis
 1. Klõpsake käsku Muuda avaldist.
     * Kui avate selles etapis ülesande salvestises kasutajaliidese, saate kasutada piiranguavaldise koostamiseks IntelliSense’i ja sümbolite loendit.  
-2. Sisestage väljale ConstraintBody tekst 'Implies[FrontGrill=="Metal", CornerProtection]'.
+2. Sisestage väljale ConstraintBody tekst Implies[FrontGrill=="Metal", CornerProtection].
     * See avaldise loogika väidab: kui esivõre on metallist, tuleb valida nurkade kaitse suvand.  
 3. Klõpsake suvandit Kinnita.
     * Kontrollimisfunktsioon vaatab piiranguavaldise läbi ja kontrollib süntaksivigu.  
 4. Klõpsake valikut Sule.
 5. Klõpsake nuppu OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

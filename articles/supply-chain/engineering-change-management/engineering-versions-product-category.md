@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426705"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987475"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehnilised versioonid ja tehniliste toodete kategooriad
 
@@ -162,6 +161,3 @@ Tehnilised kooslused ja protsessid luuakse tehnilisest versioonist, kus neid rak
 Toodete puhul, kus kasutate *versiooni* tootedimensiooni (koos kannete logistilise mõjuga), lisatakse versioon ka kooslustele ja protsessidele. Selline käitumine aitab eristada järjestikuste versioonide kooslusi ja protsesse, vaatamata suvandi **Kehtivuse jõustamine** määramisest.
 
 Toodete puhul, kus ei kasutata *versiooni* tootedimensiooni (ilma kannete logistilise mõjuga), ei lisata versiooni kooslustele või protsessidele. Seetõttu ei ole järjestikuste versioonide koosluste ja protsesside vahel erinevust. Sellisel juhul soovitame tungivalt määrata suvandi **Kehtivuse jõustamine** väärtuseks *Jah*. Sel viisil aitate vältida tehniliste versioonide kattumist ja saate aktiveerida ka uuema versiooni koosluse ja protsessi, ilma et peaksite esmalt aktiveerima eelmise versiooni koosluse ja protsessi. Kui määrate suvandi **Kehtivuse jõustamine** väärtuseks *Jah*, peate enne uusima versiooni aktiveerimist käsitsi aktiveerima vanemate versioonide kooslused ja protsessid.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

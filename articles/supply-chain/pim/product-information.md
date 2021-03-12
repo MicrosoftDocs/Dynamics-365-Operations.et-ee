@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527382"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987200"
 ---
 # <a name="product-information-overview"></a>Tooteteabe ülevaade
 
@@ -59,7 +58,7 @@ Toodet defineeritakse peamiselt toote numbri, nime ja kirjeldusega. Kuid toote v
 
 Tootedefinitsiooni saab luua rakenduses Supply Chain Management. Selle saab importida ka toote töötsükli halduse (PLM), toote andmehalduse (PDM) või toote teabehalduse (PIM) süsteemidest. Kui kasutatakse mitut Supply Chain Managementi eksemplari, siis kasutatakse ühte eksemplari tavaliselt kõigi teiste eksemplaride tooteandmete etalonina. Seda lähenemist toetab suur kogum andmeüksusi, mis võimaldavad tootedefinitsiooni andmete eksportimist ja importimist ühest eksemplarist teise.
 
-Tooteandmete jaotuse toetamiseks paljudesse eksemplaridesse võimaldab Supply Chain Management kasutada teenust Common Data Service. Tootedefinitsioonid saab eksportida Supply Chain Managementi eksemplarist teenusesse Common Data Service. Seejärel saab tootedefinitsioone kasutada teiste ärirakenduste (nt Dynamics 365 Sales) varustamiseks tooteandmetega.
+Tooteandmete jaotuse toetamiseks paljudesse eksemplaridesse võimaldab Supply Chain Management kasutada teenust Microsoft Dataverse. Tootedefinitsioonid saab eksportida Supply Chain Managementi eksemplarist teenusesse Microsoft Dataverse. Seejärel saab tootedefinitsioone kasutada teiste ärirakenduste (nt Dynamics 365 Sales) varustamiseks tooteandmetega.
 
 Pange tähele, et dünaamilistes ja kiirelt arenevates organisatsioonides muutuvad tooteteabe andmed iga päev. Seega on täpsete ja aktuaalsete tooteandmete säilitamine iseenesest väga oluline äriprotsess.
 
@@ -96,6 +95,3 @@ Tööruum koosneb paanide ja kahe loendi kokkuvõttest. Loendis **Avatud juhtumi
 ### <a name="manually-creating-a-new-released-product"></a>Uue väljastatud toote käsitsi loomine
 
 Saate luua väljastatud toote käsitsi ühes tsüklis, olenevalt organisatsiooni äriprotsessidest ja reeglitest selle kohta, kas seda funktsiooni tuleks kasutada. See funktsioon loob uue toote ja vabastab selle automaatselt praegusele juriidilisele isikule. Uue toote loomiseks klõpsake nuppu **Väljastatud tooted** tööruumis **Väljastatud toote haldus** või loendilehel **Väljastatud toode**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

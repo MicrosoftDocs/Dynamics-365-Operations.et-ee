@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f881e8715d4a62bc753aefa0beebaf0cceafcc77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411751"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985707"
 ---
 # <a name="set-up-retail-products"></a>Jaemüügitoodete häälestamine
 
@@ -40,6 +39,3 @@ Enne kui saate oma kaubanduse kanalites hakata tooteid müügiks pakkuma, peate 
 4. **Lisage tooted sortimentidesse.** Sortiment kujutab endast teie kanalites pakutavate toodete kogumit. Saate määratleda ühe või mitu sortimenti ja iga toote saab määrata ühte või mitmesse sortimenti. Toodete kanalitele määramiseks määrake sortimentid nendele müügikanalitele. Sortimendi loomisel saate lisada tooteid, mida pole veel juriidilisele isikule väljastatud. Siiski peate tooted väljastama juriidilisele isikule enne, kui need saab kanalitele kättesaadavaks teha.
 5. **Lisage tooted navigeerimishierarhiatele.** Enne kui tooteid saab võrgus või kassas sirvida, tuleb need kategoriseerida Commerce’i navigeerimishierarhias.
 6. **Lisage kataloogidesse tooted.** Kuigi see juhis on kassa jaoks valikuline, nõuavad võrgupoed, et tooteid kaasataks vähemalt ühte kataloogi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
