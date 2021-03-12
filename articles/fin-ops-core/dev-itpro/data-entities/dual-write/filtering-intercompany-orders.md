@@ -1,6 +1,6 @@
 ---
-title: Kontsernisiseste tellimuste filtreerimine üksuste Orders ja OrderLines sünkroonimise vältimiseks
-description: See teema kirjeldab, kuidas filtreerida kontsernisiseseid tellimusi üksuste Orders (Tellimused) ja OrderLines (Tellimuse read) sünkroonimise vältimiseks.
+title: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
+description: See teema kirjeldab, kuidas filtreerida kontsernisiseseid tellimusi nii, et tellimuste ja tellimuseridade üksused ei oleks sünkroonitud.
 author: negudava
 manager: tfehr
 ms.date: 11/09/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,49 +18,51 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6c5e1e2467673badd20366d3bd8e1b93b8078b26
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4701029"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796602"
 ---
-# <a name="filter-intercompany-orders-to-avoid-synchronizing-orders-and-orderlines"></a><span data-ttu-id="40e3a-103">Kontsernisiseste tellimuste filtreerimine üksuste Orders ja OrderLines sünkroonimise vältimiseks</span><span class="sxs-lookup"><span data-stu-id="40e3a-103">Filter intercompany orders to avoid synchronizing Orders and OrderLines</span></span>
+# <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a><span data-ttu-id="f7517-103">Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks</span><span class="sxs-lookup"><span data-stu-id="f7517-103">Filter intercompany orders to avoid syncing Orders and OrderLines</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="40e3a-104">Saate filtreerida kontsernisiseseid tellimusi, et vältida üksuste **Orders** ja **OrderLines** sünkroonimist.</span><span class="sxs-lookup"><span data-stu-id="40e3a-104">You can filter intercompany orders to avoid synchronizing the **Orders** and **OrderLines** entities.</span></span> <span data-ttu-id="40e3a-105">Mõningatel juhtudel ei ole kontsernisiseste tellimuste üksikasjad klientide kaasamise rakenduses vajalikud.</span><span class="sxs-lookup"><span data-stu-id="40e3a-105">In some scenarios, the intercompany order details are not necessary in customer engagement app.</span></span>
+<span data-ttu-id="f7517-104">Saate filtreerida kontsernisiseseid tellimusi nii, et tabeleid **Tellimused** ja **Tellimuseread** ei sünkroonita.</span><span class="sxs-lookup"><span data-stu-id="f7517-104">You can filter intercompany orders so that the **Orders** and **OrderLines** tables aren't synced.</span></span> <span data-ttu-id="f7517-105">Mõningatel juhtudel ei ole kontsernisiseste tellimuste üksikasjad klientide kaasamise rakenduses nõutavad.</span><span class="sxs-lookup"><span data-stu-id="f7517-105">In some scenarios, the intercompany order details aren't required in a customer engagement app.</span></span>
 
-<span data-ttu-id="40e3a-106">Kõiki standardsed teenuse Common Data Service üksused on laiendatud viidetega väljale **IntercompanyOrder** ja topeltkirjutamise kaardid on muudetud, et need viitaksid filtrites täiendavatele väljadele.</span><span class="sxs-lookup"><span data-stu-id="40e3a-106">Each of the standard Common Data Service entities is extended with references to the **IntercompanyOrder** field, and the dual-write maps are modified to refer to the additional fields in the filters.</span></span> <span data-ttu-id="40e3a-107">Selle tulemuseks on, et kontsernisiseseid tellimusi enam ei sünkroonita.</span><span class="sxs-lookup"><span data-stu-id="40e3a-107">The result is that the intercompany orders are no longer synchronized.</span></span> <span data-ttu-id="40e3a-108">See protsess väldib tarbetuid andmeid klientide kaasamise rakenduses.</span><span class="sxs-lookup"><span data-stu-id="40e3a-108">This process avoids unnecessary data in the customer engagement app.</span></span>
+<span data-ttu-id="f7517-106">Kõik standardsed teenuse Dataverse tabelid on laiendatud viidetega veerule **IntercompanyOrder** ja topeltkirjutamise kaardid on muudetud, et need viitaksid filtrites täiendavatele veergudele.</span><span class="sxs-lookup"><span data-stu-id="f7517-106">Each standard Dataverse table is extended through references to the **IntercompanyOrder** column, and the dual-write maps are modified so that they refer to the additional columns in the filters.</span></span> <span data-ttu-id="f7517-107">Seega kontsernisiseseid tellimusi enam ei sünkroonita.</span><span class="sxs-lookup"><span data-stu-id="f7517-107">Therefore, the intercompany orders are no longer synced.</span></span> <span data-ttu-id="f7517-108">See protsess aitab ennetada tarbetuid andmeid klientide kaasamise rakenduses.</span><span class="sxs-lookup"><span data-stu-id="f7517-108">This process helps prevent unnecessary data in the customer engagement app.</span></span>
 
-1. <span data-ttu-id="40e3a-109">Lisage üksuse **IntercompanyOrder** viide suvandile **CDS-i müügitellimuse päised**.</span><span class="sxs-lookup"><span data-stu-id="40e3a-109">Add a reference to **IntercompanyOrder** to **CDS Sales Order Headers**.</span></span> <span data-ttu-id="40e3a-110">See on täidetud ainult kontsernisiseste tellimuste puhul.</span><span class="sxs-lookup"><span data-stu-id="40e3a-110">It is populated on only intercompany orders.</span></span> <span data-ttu-id="40e3a-111">Väli **IntercompanyOrder** on saadaval üksuses **SalesTable**.</span><span class="sxs-lookup"><span data-stu-id="40e3a-111">The field **IntercompanyOrder** is available in **SalesTable**.</span></span>
+1. <span data-ttu-id="f7517-109">Laiendage tabelit **CDS-i müügitellimuse päised**, lisades viite veerule **IntercompanyOrder**.</span><span class="sxs-lookup"><span data-stu-id="f7517-109">Extend the **CDS Sales Order Headers** table by adding a reference to the **IntercompanyOrder** column.</span></span> <span data-ttu-id="f7517-110">See veerg täidetakse ainult kontsernisiseste tellimuste puhul.</span><span class="sxs-lookup"><span data-stu-id="f7517-110">This column is filled in only on intercompany orders.</span></span> <span data-ttu-id="f7517-111">Veerg **IntercompanyOrder** on saadaval tabelis **SalesTable**.</span><span class="sxs-lookup"><span data-stu-id="f7517-111">The **IntercompanyOrder** column is available in the **SalesTable** table.</span></span>
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Sihtmärgini ajastamise kaardistamine, SalesOrderHeader":::
-    
-2. <span data-ttu-id="40e3a-113">Pärast suvandi **CDS-i müügitellimuse päised** laiendamist on väli **IntercompanyOrder** vastendamiseks saadaval.</span><span class="sxs-lookup"><span data-stu-id="40e3a-113">After **CDS Sales Order Headers** is extended, the **IntercompanyOrder** field is available in the mapping.</span></span> <span data-ttu-id="40e3a-114">Rakendage filter atribuudiga `INTERCOMPANYORDER == ""` päringu stringina.</span><span class="sxs-lookup"><span data-stu-id="40e3a-114">Apply a filter with `INTERCOMPANYORDER == ""` as the query string.</span></span>
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="CDS-i müügitellimuse päisete vastendamine kaardil sihtkohaks":::
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Müügitellimuste päised, päringu redigeerimine":::
+2. <span data-ttu-id="f7517-113">Pärast suvandi **CDS-i müügitellimuse päised** laiendamist on veerg **IntercompanyOrder** vastendamiseks saadaval.</span><span class="sxs-lookup"><span data-stu-id="f7517-113">After **CDS Sales Order Headers** is extended, the **IntercompanyOrder** column is available in the mapping.</span></span> <span data-ttu-id="f7517-114">Rakendage filter, millel on `INTERCOMPANYORDER == ""`, päringu stringina.</span><span class="sxs-lookup"><span data-stu-id="f7517-114">Apply a filter that has `INTERCOMPANYORDER == ""` as the query string.</span></span>
 
-3. <span data-ttu-id="40e3a-116">Lisage viide üksusest **IntercompanyInventTransId** suvandisse **CDS-i müügitellimuste read**.</span><span class="sxs-lookup"><span data-stu-id="40e3a-116">Add a reference to **IntercompanyInventTransId** to **CDS Sales Order Lines**.</span></span>  <span data-ttu-id="40e3a-117">See on täidetud ainult kontsernisiseste tellimuste puhul.</span><span class="sxs-lookup"><span data-stu-id="40e3a-117">It is populated on only intercompany orders.</span></span> <span data-ttu-id="40e3a-118">Väli **InterCompanyInventTransID** on saadaval üksuses **SalesLine**.</span><span class="sxs-lookup"><span data-stu-id="40e3a-118">The field **InterCompanyInventTransID** is available in **SalesLine**.</span></span>
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="CDS-i müügitellimuse päisete päringu dialoogiboksi redigeerimine":::
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Sihtmärgini ajastamise kaardistamine, SalesOrderLine":::
+3. <span data-ttu-id="f7517-116">Laiendage tabelit **CDS-i müügitellimuse read**, lisades viite veerule **IntercompanyInventTransId**.</span><span class="sxs-lookup"><span data-stu-id="f7517-116">Extend the **CDS Sales Order Lines** table by adding a reference to the **IntercompanyInventTransId** column.</span></span> <span data-ttu-id="f7517-117">See veerg täidetakse ainult kontsernisiseste tellimuste puhul.</span><span class="sxs-lookup"><span data-stu-id="f7517-117">This column is filled in only on intercompany orders.</span></span> <span data-ttu-id="f7517-118">Veerg **InterCompanyInventTransId** on saadaval tabelis **SalesLine**.</span><span class="sxs-lookup"><span data-stu-id="f7517-118">The **InterCompanyInventTransId** column is available in the **SalesLine** table.</span></span>
 
-4. <span data-ttu-id="40e3a-120">Pärast suvandi **CDS-i müügitellimuse read** laiendamist on väli **IntercompanyInventTransId** vastendamiseks saadaval.</span><span class="sxs-lookup"><span data-stu-id="40e3a-120">After **CDS Sales Order Lines** is extended, the **IntercompanyInventTransId** field is available in the mapping.</span></span> <span data-ttu-id="40e3a-121">Rakendage filter atribuudiga `INTERCOMPANYINVENTTRANSID == ""` päringu stringina.</span><span class="sxs-lookup"><span data-stu-id="40e3a-121">Apply a filter with `INTERCOMPANYINVENTTRANSID == ""` as the query string.</span></span>
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="CDS-i müügitellimuse ridade vastendamine kaardil sihtkohaks":::
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Müügitellimuse read, päringu redigeerimine":::
+4. <span data-ttu-id="f7517-120">Pärast suvandi **CDS-i müügitellimuse read** laiendamist on veerg **IntercompanyInventTransId** vastendamiseks saadaval.</span><span class="sxs-lookup"><span data-stu-id="f7517-120">After **CDS Sales Order Lines** is extended, the **IntercompanyInventTransId** column is available in the mapping.</span></span> <span data-ttu-id="f7517-121">Rakendage filter, millel on `INTERCOMPANYINVENTTRANSID == ""`, päringu stringina.</span><span class="sxs-lookup"><span data-stu-id="f7517-121">Apply a filter that has `INTERCOMPANYINVENTTRANSID == ""` as the query string.</span></span>
 
-5. <span data-ttu-id="40e3a-123">Laiendage suvandid **müügitellimuse päis V2** ja **müügiarve read V2** samal viisil, nagu laiendasite teenuse Common Data Service olemid etappides 1 ja 2.</span><span class="sxs-lookup"><span data-stu-id="40e3a-123">Extend **Sales Invoice Header V2** and **Sales Invoice Lines V2** in the same way you extended the Common Data Service entities in steps 1 and 2.</span></span> <span data-ttu-id="40e3a-124">Seejärel lisage filtri päringud.</span><span class="sxs-lookup"><span data-stu-id="40e3a-124">Then add the filter queries.</span></span> <span data-ttu-id="40e3a-125">Filtri string suvandi **müügiarve päis V2** jaoks on `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`.</span><span class="sxs-lookup"><span data-stu-id="40e3a-125">The filter string for **Sales Invoice Header V2** is `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`.</span></span> <span data-ttu-id="40e3a-126">Filtri string suvandi **müügiarve read V2** jaoks on `INTERCOMPANYINVENTTRANSID == ""`.</span><span class="sxs-lookup"><span data-stu-id="40e3a-126">The filter string for **Sales Invoice Lines V2** is `INTERCOMPANYINVENTTRANSID == ""`.</span></span>
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="CDS-i müügitellimuse ridade päringu dialoogiboksi redigeerimine":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Sihtmärgini ajastamise kaardistamine, müügiarve päised":::
+5. <span data-ttu-id="f7517-123">Korrake samme 1 ja 2, et laiendada tabelit **Müügiarve päis V2**, ja lisage filtripäring.</span><span class="sxs-lookup"><span data-stu-id="f7517-123">Repeat steps 1 and 2 to extend the **Sales Invoice Header V2** table and add a filter query.</span></span> <span data-ttu-id="f7517-124">Sellisel juhul kasutage filtri päringustringina atribuuti `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`.</span><span class="sxs-lookup"><span data-stu-id="f7517-124">In this case, use `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` as the query string for the filter.</span></span>
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Müügiarve päised, päringu redigeerimine":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Müügiarve päise V2 vastendamine kaardil sihtkoha lehele":::
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Müügiarve read, päringu redigeerimine":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Müügiarve päise V2 päringu dialoogiboksi redigeerimine":::
 
-6. <span data-ttu-id="40e3a-130">Olemil **Pakkumised** puudub kontsernisisene suhe.</span><span class="sxs-lookup"><span data-stu-id="40e3a-130">The **Quotations** entity doesn't have an intercompany relationship.</span></span> <span data-ttu-id="40e3a-131">Kui keegi loob ühe teie kontsernisisese kliendi jaoks pakkumise, saate panna kõik need kliendid ühte kliendigrupi, kasutades välja **CustGroup**.</span><span class="sxs-lookup"><span data-stu-id="40e3a-131">If someone creates a quote for one of your intercompany customers, you can put all of these customers in one customer group by using the **CustGroup** field.</span></span>  <span data-ttu-id="40e3a-132">Päist ja ridu saab laiendada, et lisada väli **CustGroup** ja seejärel filtreerida, et see grupp ei oleks kaasatud.</span><span class="sxs-lookup"><span data-stu-id="40e3a-132">Header and lines can be extended to add the **CustGroup** field and then filter to not include this group.</span></span>
+6. <span data-ttu-id="f7517-127">Korrake samme 3 ja 4, et laiendada tabelit **Müügiarve read V2**, ja lisage filtripäring.</span><span class="sxs-lookup"><span data-stu-id="f7517-127">Repeat steps 3 and 4 to extend the **Sales Invoice Lines V2** table and add a filter query.</span></span> <span data-ttu-id="f7517-128">Sellisel juhul kasutage filtri päringustringina atribuuti `INTERCOMPANYINVENTTRANSID == ""`.</span><span class="sxs-lookup"><span data-stu-id="f7517-128">In this case, use `INTERCOMPANYINVENTTRANSID == ""` as the query string for the filter.</span></span>
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="Sihtmärgini ajastamise kaardistamine, müügipakkumise päis":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Müügiarve read V2 päringu dialoogiboksi redigeerimine":::
 
-7. <span data-ttu-id="40e3a-134">Pärast olemi **Pakkumised** laiendamist rakendage filter koos atribuudiga `CUSTGROUP !=  "<company>"` päringu stringina.</span><span class="sxs-lookup"><span data-stu-id="40e3a-134">After you extent the **Quotations** entity, apply a filter with `CUSTGROUP !=  "<company>"` as the query string.</span></span>
+7. <span data-ttu-id="f7517-130">Tabelil **Pakkumised** puudub kontsernisisene suhe.</span><span class="sxs-lookup"><span data-stu-id="f7517-130">The **Quotations** table doesn't have an intercompany relationship.</span></span> <span data-ttu-id="f7517-131">Kui keegi loob ühe teie kontsernisisese kliendi jaoks pakkumise, saate kasutada veergu **CustGroup**, et panna kõik need kliendid ühte kliendigruppi.</span><span class="sxs-lookup"><span data-stu-id="f7517-131">If someone creates a quotation for one of your intercompany customers, you can use the **CustGroup** column to put all those customers into one customer group.</span></span> <span data-ttu-id="f7517-132">Saate laiendada päist ja ridu, lisades veeru **CustGroup** ja seejärel filtreerida nii, et gruppi ei kaasata.</span><span class="sxs-lookup"><span data-stu-id="f7517-132">You can extend the header and lines by adding the **CustGroup** column, and then filter so that the group isn't included.</span></span>
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Müügipakkumise päis, päringu redigeerimine":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="CDS-i müügipakkumise päise vastendamine kaardil sihtkoha lehele":::
+
+8. <span data-ttu-id="f7517-134">Pärast olemi **Pakkumised** laiendamist rakendage filter, millel on atribuut `CUSTGROUP != "<company>"`, päringu stringina.</span><span class="sxs-lookup"><span data-stu-id="f7517-134">After **Quotations** is extended, apply a filter that has `CUSTGROUP != "<company>"` as the query string.</span></span>
+
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS-i müügipakkumise päise päringu dialoogiboksi redigeerimine":::
