@@ -11,44 +11,43 @@ ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 276f918e5f86ba8bef3144a476ae72192829cf7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442269"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978591"
 ---
-# <a name="create-a-main-account"></a><span data-ttu-id="3648b-103">Põhikonto loomine</span><span class="sxs-lookup"><span data-stu-id="3648b-103">Create a main account</span></span>
+# <a name="create-a-main-account"></a><span data-ttu-id="0aa11-103">Põhikonto loomine</span><span class="sxs-lookup"><span data-stu-id="0aa11-103">Create a main account</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3648b-104">See ülesandejuhend kirjeldab olemasolevale kontoplaanile põhikonto lisamise etappe.</span><span class="sxs-lookup"><span data-stu-id="3648b-104">This task guide steps through adding a main account to an existing chart of accounts.</span></span> <span data-ttu-id="3648b-105">Salvestamisel kasutatakse demoettevõtte USMF-i.</span><span class="sxs-lookup"><span data-stu-id="3648b-105">This recording uses the USMF demo company.</span></span>  
+<span data-ttu-id="0aa11-104">See ülesandejuhend kirjeldab olemasolevale kontoplaanile põhikonto lisamise etappe.</span><span class="sxs-lookup"><span data-stu-id="0aa11-104">This task guide steps through adding a main account to an existing chart of accounts.</span></span> <span data-ttu-id="0aa11-105">Salvestamisel kasutatakse demoettevõtte USMF-i.</span><span class="sxs-lookup"><span data-stu-id="0aa11-105">This recording uses the USMF demo company.</span></span>  
 
-1. <span data-ttu-id="3648b-106">Avage **Navigeerimispaan > Moodulid > Pearaamat > Kontoplaan > Kontdd > Põhikontod**.</span><span class="sxs-lookup"><span data-stu-id="3648b-106">Go to **Navigation pane > Modules > General ledger > Chart of accounts > Accounts > Main accounts**.</span></span>
-2. <span data-ttu-id="3648b-107">Klõpsake valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="3648b-107">Click **New**.</span></span>
-3. <span data-ttu-id="3648b-108">Sisestage väärtus väljale **Põhikonto**.</span><span class="sxs-lookup"><span data-stu-id="3648b-108">In the **Main account** field, type a value.</span></span>
-4. <span data-ttu-id="3648b-109">Sisestage väärtus väljale **Nimi**.</span><span class="sxs-lookup"><span data-stu-id="3648b-109">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="3648b-110">Väljal **Põhikonto tüüp** valige kontode saldot ja asukohta finantsaruannetes kõige paremini kirjeldav tüüp.</span><span class="sxs-lookup"><span data-stu-id="3648b-110">In the **Main account type** field, select the type that best represents the accounts balance and location on financial statements.</span></span>
-6. <span data-ttu-id="3648b-111">Valige loendist kontokategooria, millesse põhikonto kuulub.</span><span class="sxs-lookup"><span data-stu-id="3648b-111">In the list, select the account category the main account belongs to.</span></span> <span data-ttu-id="3648b-112">Kontokategooriat kasutatakse vaikefinantsaruannete ja Power BI armatuurlaua sisu jaoks.</span><span class="sxs-lookup"><span data-stu-id="3648b-112">Account category is used for default financial reports and Power BI dashboard content.</span></span>  
-7. <span data-ttu-id="3648b-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="3648b-113">In the list, click the link in the selected row.</span></span> <span data-ttu-id="3648b-114">Saate muuta deebet- või kreeditsaldo vaikeväärtust.</span><span class="sxs-lookup"><span data-stu-id="3648b-114">Change the default debit or credit balance.</span></span>  
-8. <span data-ttu-id="3648b-115">Väljal **Vaikevaluuta** valige valuutade loendist soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="3648b-115">In the **Default currency** field, select a value from the list of currencies.</span></span>
-9. <span data-ttu-id="3648b-116">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="3648b-116">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="3648b-117">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="3648b-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="3648b-118">Lülitage ümber jaotise **Juriidilise isiku tühistamised** laienduses.</span><span class="sxs-lookup"><span data-stu-id="3648b-118">Toggle the expansion of the **Legal entity overrides** section.</span></span>
-12. <span data-ttu-id="3648b-119">Juriidilise isiku valimiseks klõpsake **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="3648b-119">Click **Add** to select a legal entity.</span></span>
-13. <span data-ttu-id="3648b-120">Valige loendist suvand Juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="3648b-120">In the list, select the Legal entity.</span></span>
-14. <span data-ttu-id="3648b-121">Klõpsake käsku **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="3648b-121">Click **Add**.</span></span>
-15. <span data-ttu-id="3648b-122">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="3648b-122">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="3648b-123">Märkige või tühjendage märkeruut **Peatatud**.</span><span class="sxs-lookup"><span data-stu-id="3648b-123">Check or uncheck the **Suspended** checkbox.</span></span>
-17. <span data-ttu-id="3648b-124">Laiendage jaotist **Rahanduse aruandlus**.</span><span class="sxs-lookup"><span data-stu-id="3648b-124">Expand the **Financial reporting** section.</span></span>
-18. <span data-ttu-id="3648b-125">Klõpsake väljal **Vahetuskursi tüüp** otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="3648b-125">In the **Exchange rate type** field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="3648b-126">Valige loendist **Konto vahetuskursi tüüp**.</span><span class="sxs-lookup"><span data-stu-id="3648b-126">In the list, select the **Exchange rate type for the account**.</span></span>
-20. <span data-ttu-id="3648b-127">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="3648b-127">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="3648b-128">Väljal **Valuutateisenduse tüüp** valige konto vahetuskursside arvutamise meetod.</span><span class="sxs-lookup"><span data-stu-id="3648b-128">In the **Currency translation type** field, select the method for calculating exchange rates for the account.</span></span>
-22. <span data-ttu-id="3648b-129">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="3648b-129">Close the page.</span></span>
+1. <span data-ttu-id="0aa11-106">Avage **Navigeerimispaan > Moodulid > Pearaamat > Kontoplaan > Kontdd > Põhikontod**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-106">Go to **Navigation pane > Modules > General ledger > Chart of accounts > Accounts > Main accounts**.</span></span>
+2. <span data-ttu-id="0aa11-107">Klõpsake valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-107">Click **New**.</span></span>
+3. <span data-ttu-id="0aa11-108">Sisestage väärtus väljale **Põhikonto**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-108">In the **Main account** field, type a value.</span></span>
+4. <span data-ttu-id="0aa11-109">Sisestage väärtus väljale **Nimi**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-109">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="0aa11-110">Väljal **Põhikonto tüüp** valige kontode saldot ja asukohta finantsaruannetes kõige paremini kirjeldav tüüp.</span><span class="sxs-lookup"><span data-stu-id="0aa11-110">In the **Main account type** field, select the type that best represents the accounts balance and location on financial statements.</span></span>
+6. <span data-ttu-id="0aa11-111">Valige loendist kontokategooria, millesse põhikonto kuulub.</span><span class="sxs-lookup"><span data-stu-id="0aa11-111">In the list, select the account category the main account belongs to.</span></span> <span data-ttu-id="0aa11-112">Kontokategooriat kasutatakse vaikefinantsaruannete ja Power BI armatuurlaua sisu jaoks.</span><span class="sxs-lookup"><span data-stu-id="0aa11-112">Account category is used for default financial reports and Power BI dashboard content.</span></span>  
+7. <span data-ttu-id="0aa11-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0aa11-113">In the list, click the link in the selected row.</span></span> <span data-ttu-id="0aa11-114">Saate muuta deebet- või kreeditsaldo vaikeväärtust.</span><span class="sxs-lookup"><span data-stu-id="0aa11-114">Change the default debit or credit balance.</span></span>  
+8. <span data-ttu-id="0aa11-115">Väljal **Vaikevaluuta** valige valuutade loendist soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="0aa11-115">In the **Default currency** field, select a value from the list of currencies.</span></span>
+9. <span data-ttu-id="0aa11-116">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="0aa11-116">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="0aa11-117">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0aa11-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="0aa11-118">Lülitage ümber jaotise **Juriidilise isiku tühistamised** laienduses.</span><span class="sxs-lookup"><span data-stu-id="0aa11-118">Toggle the expansion of the **Legal entity overrides** section.</span></span>
+12. <span data-ttu-id="0aa11-119">Juriidilise isiku valimiseks klõpsake **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-119">Click **Add** to select a legal entity.</span></span>
+13. <span data-ttu-id="0aa11-120">Valige loendist suvand Juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="0aa11-120">In the list, select the Legal entity.</span></span>
+14. <span data-ttu-id="0aa11-121">Klõpsake käsku **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-121">Click **Add**.</span></span>
+15. <span data-ttu-id="0aa11-122">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="0aa11-122">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="0aa11-123">Märkige või tühjendage märkeruut **Peatatud**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-123">Check or uncheck the **Suspended** checkbox.</span></span>
+17. <span data-ttu-id="0aa11-124">Laiendage jaotist **Rahanduse aruandlus**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-124">Expand the **Financial reporting** section.</span></span>
+18. <span data-ttu-id="0aa11-125">Klõpsake väljal **Vahetuskursi tüüp** otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="0aa11-125">In the **Exchange rate type** field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="0aa11-126">Valige loendist **Konto vahetuskursi tüüp**.</span><span class="sxs-lookup"><span data-stu-id="0aa11-126">In the list, select the **Exchange rate type for the account**.</span></span>
+20. <span data-ttu-id="0aa11-127">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="0aa11-127">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="0aa11-128">Väljal **Valuutateisenduse tüüp** valige konto vahetuskursside arvutamise meetod.</span><span class="sxs-lookup"><span data-stu-id="0aa11-128">In the **Currency translation type** field, select the method for calculating exchange rates for the account.</span></span>
+22. <span data-ttu-id="0aa11-129">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="0aa11-129">Close the page.</span></span>
 
