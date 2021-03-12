@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e71cfd451a51a5dabd12419541202ecc39df631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426072"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999952"
 ---
 # <a name="set-up-master-planning"></a>Koondplaneerimise seadistamine
 
@@ -227,6 +226,3 @@ Täitmisaeg + negatiivsed päevad + tänane kuupäev – vajaduse kuupäev
 Süsteem kasutab ainult selle ajapiiri piires olevaid plaanitud hanketellimusi ja loob uue plaanitud tellimuse sellest väljaspool. Dünaamilise negatiivsete päevade eeliseks on see, et need hõlmavad individuaalse toote täitmisaega, et taaskasutada olemasolevaid tellimusi ja vältida uute plaanitud tellimuste loomist, mis lõpevad täitmisaja põhjustatud hilinemise tõttu hilisema päevaga. 
 
 Lisateavet vt teemast [Negatiivsed päevad ja dünaamilised negatiivsed päevad](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

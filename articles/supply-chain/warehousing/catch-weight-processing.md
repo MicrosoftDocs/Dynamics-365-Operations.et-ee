@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426619"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001170"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -210,6 +209,3 @@ Lisaks piirangutele, mis praegu kehtivad tegeliku kaalu toodete puhul, on sildis
 
 > [!NOTE]
 > Tegeliku kaalu siltide eelnev teave kehtib ainult siis, kui tegeliku kaalu tootel on tegeliku kaalu sildi dimensiooni jälgimise meetod, mis on täielikult jälgitav (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käitlemise poliitikas on seatud olekusse **Tootedimensioonid, jälgimise dimensioonid ja laoala dimensioonid**). Kui tegeliku kaalu üksus on ainult osaliselt sildiga jälitatud (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käsitsemise poliitikas on seatud olekusse **Tootedimensioonid, Jälgimise dimensioonid ja Varude olek**), rakenduvad täiendavad piirangud. Kuna sildi ja varude vaheline nähtavus on sel juhul kadunud, ei toetata mõnda lisastsenaariumit.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

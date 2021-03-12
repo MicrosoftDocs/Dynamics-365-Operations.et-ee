@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelSelectionCriteria, SysQueryForm, SysQueryTableLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ae444008e550d808a02d55dad02cc1b52874f0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 60a7c7230d4eb57d840121f6ee490bf829e0dc8f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426249"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999652"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Müügihinna valikukriteeriumide loomine
 
@@ -54,6 +53,3 @@ See protseduur näitab, kuidas luua atribuudipõhistele hinnamudelitele müügih
 4. Valige Kliendigrupp 10 väljalt Kriteerium. 
 5. Klõpsake nuppu OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40779d1f8bc14072928767ae1c83fdda47476871
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998874"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materjalitarbe registreerimine mobiilse seadmega
 
@@ -40,7 +39,7 @@ See töövoog on vajalik juhul, kui materjali jälgitavus on rangelt nõutav. Se
 
 Pidev tootmisprotsess (5) tarbib partii kaudu juhitud toormaterjali RM-100. Materjali vaba varu on asukohas Bulk-001 (1) litsentsiplaadil PL-1 kahe partiina B1 ja B2, mõlema kogus 100 naela. RM-100 puhul väljastatakse ja töödeldakse laotöö (2) ja materjal komplekteeritakse asukohast Bulk-001 ning viiakse sisendasukohta PIL-01 (3), mis on määratletud mitte litsentsiplaadiga juhitavana. Masina operaator kaalub tootmise sisendasukohast (3) pärineva materjali ja registreerib kaalu ning partiinumbri tarbituks (4). Tootmise sisendasukohast lisatakse materjali osa kindlate ajavahemike järel käsitsi tootmisprotsessi. Kui masina operaator materjali lisab, siis see kaalutakse ja partiinumber registreeritakse.
 
-## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Töövoo seadistamine tarbimise registreerimiseks pihuseadme abil
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Töövoo seadistamine tarbimise registreerimiseks pihuseadme abil
 Looge valmiskauba toode FG-100, mille materjalikoosluses on partii kaudu juhitav toormaterjal RM-100. Lisage kaks partiid RM-100 (B1 ja B2) koguses 100 asukohta Bulk-001 litsentsiplaadil PL-1. RM-100 koosluse rea automaatse tarbimise põhimõtteks määratakse **Käsitsi**. Määrake toodangu sisendasukohaks PIL-01. Seda saab teha, valides selle asukoha laos 51 toodangu vaike-sisendasukohaks.
 
 1.  Uue mobiilse seadme menüüelemendi loomine. 
@@ -68,7 +67,7 @@ See toob materjali hulgiasukohast tootmise sisendasukohta PIL-01. Kui töö on l
 
 Pärast tootmistellimuse alustamist võite registreerida materjali tarbimise pihuseadme töövoo abil. Alustame 25 naela partii B1 tarbimise registreerimisega.
 
-6.  Valige pihuseadme menüüst menüüelement  **Registreeri materjali** **tarbimine**, sisestage järgmised andmed. 
+6.  Valige pihuseadme menüüst menüüelement **Registreeri materjali** **tarbimine**, sisestage järgmised andmed. 
 
 -    Toote tellimisnumber. 
 -    Asukoht, kust materjali tarbitakse, praegusel juhul PIL-01. 
@@ -92,6 +91,3 @@ Kui olete registreerimise lõpetanud, siis valige **Valmis** töölehe sisestami
 -   Materjali saab üle tarbida. Näiteks kui eeldatav materjalitarbimise kogus on 100 naela, siis võib selle tarbida üle näiteks kogusega 105 naela.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

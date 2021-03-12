@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 989dcca499f6d27ae9680f184978d5500397fa57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e4f5a04e85d3cc34111b7421fbff6cbde413b7c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426185"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001520"
 ---
 # <a name="working-with-serialized-items"></a>Järjestatud kaupadega töötamine
 
@@ -55,8 +54,8 @@ Kui seerianumbrit ei saa lugeda ega skannida, saate luua kaubale tühja rea, kl�
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Kas saan müügitellimusele registreeritud seerianumbreid parandada või muuta?
 Jah, saate seerianumbreid parandada, kui täidetud on järgmised tingimused.
--   **Arved** – saate muuta seerianumbreid kaupade puhul, mille eest te pole veel arvet esitanud. Sellega uuendatakse ka saatelehte. Kui müügitellimuse rida on parandatud negatiivse koguse registreerimisega, ei saa müügitellimuse rea seerianumbreid muuta.
--   **Saatelehed** – te ei saa osaliselt parandada järjestatud kaupu sisaldavat saatelehe rida. Peate tühistama terve rea koguse. Kui saateleht on tühistatud või parandatud, ei pea te samade järjestatud kaupade jaoks uut saatelehte luues tühistatud seerianumbreid uuesti registreerima. Kasutatakse registreeritud numbreid.
+-   **Arved** – saate muuta seerianumbreid kaupade puhul, mille eest te pole veel arvet esitanud. Sellega uuendatakse ka saatelehte. Kui müügitellimuse rida on parandatud negatiivse koguse registreerimisega, ei saa müügitellimuse rea seerianumbreid muuta.
+-   **Saatelehed** – te ei saa osaliselt parandada järjestatud kaupu sisaldavat saatelehe rida. Peate tühistama terve rea koguse. Kui saateleht on tühistatud või parandatud, ei pea te samade järjestatud kaupade jaoks uut saatelehte luues tühistatud seerianumbreid uuesti registreerima. Kasutatakse registreeritud numbreid.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Kas saan vaadata kindla saatelehega koos lähetatud või teatud arvel olevaid seerianumbreid?
 Jah, saate käivitada päringu saatelehe töölehe rea või arve töölehe rea kohta, et vaadata kõiki dokumendis sisalduvaid seerianumbreid.
@@ -69,7 +68,7 @@ Ei, müügiprotsessi ajal ei saa te tegeliku kaaluga kaupade seerianumbreid regi
 
 ## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Kas saan seerianumbreid jaemüügikohas registreerida?
 
-Jah, jaemüügimüügikohas (POS) palutakse kasutajal seerianumber sisestada, kui kasutaja müüb kauba, mis on määratud ainult müügiprotsessi ajal seerianumbreid kasutavasse jälgimisdimensiooni gruppi.
+Jah, kassas (POS) palutakse kasutajal seerianumber sisestada, kui kasutaja müüb kauba, mis on määratud ainult müügiprotsessi ajal seerianumbreid kasutavasse jälgimisdimensiooni gruppi.
 
 ## <a name="what-security-roles-are-required-in-order-to-register-serial-numbers-during-the-sales-process"></a>Millised turberollid on müügiprotsessi ajal seerianumbrite registreerimisel nõutavad?
 See funktsioon on saadaval kõigile rollidele, kes saavad hallata müügi saatelehti ja arveid. Järgmised ülesanded lasevad töötajatel seerianumbreid parandada ja loetamatuid või skannimatuid seerianumbreid tühjade kirjetena registreerida.
@@ -80,6 +79,3 @@ See funktsioon on saadaval kõigile rollidele, kes saavad hallata müügi saatel
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

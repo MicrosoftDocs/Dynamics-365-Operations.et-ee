@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34013783bab79d80f1dac9a7806042608635e617
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a7f85cb91f36004a6bd6da714e7baa460a83a66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426525"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000087"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Varude loendamine laos
 
@@ -56,6 +55,3 @@ Selles teemas kirjeldatakse protsessi, kuidas luua ja sisestada varude inventuur
 1. Valige **Laoseis**.
 2. Valige **Kanded**. Siin saate vaadata kõiki seotud kandeid, mis teie laoinventuuri töölehe sisestamisel luuakse.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
