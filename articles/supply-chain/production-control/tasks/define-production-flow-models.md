@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425959"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977859"
 ---
 # <a name="define-production-flow-models"></a>Tootmisvoo mudelite määratlemine
 
@@ -46,6 +45,3 @@ Tootmisvoo mudelid kirjeldavad, kuidas lean manufacturingi töörakkude võimsus
 8. Valige suvand väljal Võimsuse puudujäägi reaktsioon.
     * Suvandid on järgmised. Lükka edasi – plaanitud sündmuse kogunõudlus lükatakse edasi järgmisesse saadaoleva jõudlusega tootmispäeva. Tühista – plaanitud sündmuse automaatne plaanimine lõpetatakse ja seotud tööd jäetakse plaanimata.   Lisa taotletud päevale – valitud tööd plaanitakse valitud ajavahemikule. See koormab tööraku antud päevaks üle ja eeldab, et plaanija vaatab toimingu üle ja tegutseb käsitsi.   Jaota saadaolevatele perioodidele – plaanitud sündmuse erinevad tööd jagatakse kõiki saadaolevate tootmispäevade vahel alates esimesest saadaolevast päevast. Minimaalne jaotuskogus on kanban-töö kogus. Jaotus määrab igale piisavalt suure saadaoleva jõudlusega päevale minimaalse plaanimiskoguse (kanban-koguse).  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

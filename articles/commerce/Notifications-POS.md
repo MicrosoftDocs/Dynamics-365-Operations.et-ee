@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e663a5dca76d570217b7e02444689a2e2d312c41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c3b8e2774a189f2afefa757e7c4f3885b674918c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411583"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976784"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Kassa tellimuse teatiste kuvamine
 
@@ -77,6 +76,3 @@ Nupul teatiste arvu kuvamiseks peate veenduma, et uuendatakse õiget ekraani pai
 Järgmisel joonisel on näidatud, mis on vahet valikul **Üleval paremal** ja **Keskel** väljal **Sisu joondamine** erinevates suurustes nuppude korral.
 
 ![Reaalajas sisu kassa nuppudel](./media/ButtonsWithLiveContent.png "Reaalajas sisu kassa nuppudel")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

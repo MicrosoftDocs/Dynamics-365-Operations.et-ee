@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59835d28afc6f855f109cf9b875624f8fd11191a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426125"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977310"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Asukohtade konfigureerimine WMS-loaga laos
 
@@ -175,6 +174,3 @@ See juhend näitab, kuidas konfigureerida asukohaseadistust uue WMS-loaga lao pu
 6. Klõpsake loendis valitud real olevat linki.
 7. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 826920980bdd2d30337c92553bd0367b119f676c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426122"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977334"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Süsteemi rühmitamine avatud tööloendis
 
@@ -42,6 +41,3 @@ Süsteemi rühmitamise seadistamiseks avatud tööloendis tehke järgmist.
 | Süsteemi rühmitusväli | Saadaval ainult juhul, kui valiku <strong>Luba süsteemi töö</strong> olekuks on määratud <strong>Jah</strong>. Valige väli, mis määrab, kuidas komplekteerimistöö töötajate puhul rühmitatakse. Kui valite näiteks välja <strong>ShipmentId</strong>, skannib töötaja komplekteerimistöö rühmitamiseks saadetise ID. Seejärel määratakse kogu saadetisega seotud töö töötajale. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Kasutage välja <strong>Süsteemi rühmitussilt</strong> töötaja teavitamiseks sellest, mida skannida. |
 | Süsteemi rühmitussilt |                       Saadaval ainult juhul, kui valiku <strong>Luba süsteemi töö</strong> olekuks on määratud <strong>Jah</strong>. Sisestage töötaja jaoks teave selle kohta, mida skannida, kui komplekteerimistöö rühmitatakse. Kui kasutate näiteks komplekteerimistöö rühmitamiseks saadetise järgi välja <strong>ShipmentId</strong>, võib vajalik olla väljale Saadetise ID sisestamine. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peale selle peate valima väljal <strong>Süsteemi rühmitamine</strong> rühmitamise aluseks oleva välja.                       |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

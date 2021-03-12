@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9acf6db9138a009527c6662f1cbb7e5fedc8778
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426469"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976859"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Ostutellimuste jaoks töömalli seadistamine
 
@@ -61,6 +60,3 @@ See teema keskendub lihtsa töömalli seadistamisele, mida saab kasutada saadud 
 6. Väljale **Tööklassi ID** sisestage väärtus. Komplekteerimise ja asetamise juhised on üks kogum. Igal komplekteerimise ja asetamise kogumil peab olema sama töö klass. Kasutage sama töö klassi, mille komplekteerimisjuhise jaoks andsite.  
 7. Valige käsk **Salvesta**. Pange tähele, et märkeruut **Kehtiv** on nüüd märgitud.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7dfb215683b4ee5d186626492bd90116d1a06a1d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426640"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976834"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Ladude seadistamine üleviimistellimuste jaoks 
 
@@ -53,6 +52,3 @@ Peate ka seadistama transpordi täitmisaja ladude vahel lehel **Transpordipäeva
 2. Valige väljal **Vastuvõtupunkt** säte **ladu**.
 3. Valige **Lähetav ladu**, **Vastuvõttev ladu** ja **Transpordi päevas**. 
 4. (Valikuline) Saate määrata ka tarneviisist oleneva transpordiaja vahekaardil **Transpordipäevi tarneviisi kohta**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

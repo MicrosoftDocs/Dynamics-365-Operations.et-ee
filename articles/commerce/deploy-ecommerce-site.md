@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 3b750ee89a85688dcebe673f9c3ff13693e9fcad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517278"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976734"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uue e-kaubanduse rentniku juurutamine
 
@@ -99,7 +98,7 @@ Commerce'i saidiehitajale juurdepääsuks avage vahekaart **E-kaubandus** LCS-i 
 
 [Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
 
-[robots.txt-failide haldamine](manage-robots-txt-files.md)
+[Robots.txt-failide haldamine](manage-robots-txt-files.md)
 
 [Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
 
@@ -112,6 +111,3 @@ Commerce'i saidiehitajale juurdepääsuks avage vahekaart **E-kaubandus** LCS-i 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

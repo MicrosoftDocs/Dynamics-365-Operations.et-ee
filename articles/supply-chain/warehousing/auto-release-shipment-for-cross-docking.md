@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426057"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977484"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Saadetise automaatne vabastamine ristlaadimiseks
 
@@ -179,6 +178,3 @@ Pange tähele, et toimuvad järgmised sündmused:
 - Lattu vabastamine käivitatakse lingitud müügitellimuse puhul.
 - Vabastamise põhjal luuakse saadetis ja ristlaadimistöö. See töö käsib laooperaatoril komplekteerida müügitellimuse rea täitmiseks vajalikud kogused ja panna need väljaminevasse asukohta, mis on määratud ristlaadimise asukohakorralduses.
 - Kui tootmistellimuse kogus on suurem kui müügitellimuse nõutav kogus, luuakse tavapärane paigutustöö. See töö teeb laooperaatorile ülesandeks komplekteerida lõpetatud kaupade kogus, mis jääb järele pärast ristlaadimist ja teisaldada see tavalisse lattu vastavalt asukohakorraldusele.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

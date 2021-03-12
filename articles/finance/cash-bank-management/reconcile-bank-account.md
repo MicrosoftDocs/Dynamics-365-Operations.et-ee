@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442439"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976362"
 ---
 # <a name="reconcile-a-bank-account"></a>Pangakonto vastavusseviimine
 
@@ -71,6 +70,3 @@ Pangaväljavõtte vastavusse viimise tühistamise funktsioon võimaldab tühista
 Pangaväljavõtte vastavusseviimise saab tühistada ainult selle sisestamise kronoloogilises järjestuses. Kui pangaväljavõtte vastavusseviimine tühistatakse, tühistatakse uued kanded ja parandused ning kõik muud kanded tähistatakse kui vastavusse viimata.
  
 Pangaväljavõtte vastavusseviimise tühistamiseks valige pangaväljavõte ja valige **Pangaväljavõte > Tühista panga vastavusseviimine**. Lehel **Tühista panga vastavusseviimine** sisestage **Põhjusekood**, **Põhjuse kommentaar** ja **Tühistamise kuupäev**. Tühistamise alustamiseks valige **OK**. Pange tähele, et pangaväljavõtte tühistamise kuupäev peab olema pangaväljavõtte kuupäeval või pärast seda. Pärast pangaväljavõtte vastavusseviimise tühistamist uuendatakse välja **Tühistamise kuupäev** panga väljavõtte jaoks sisestatud **Tühistamise kuupäevaga**. Klõpsake nuppu **Kanded**, et vaadata kandeid, mille vastavusseviimine tühistati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

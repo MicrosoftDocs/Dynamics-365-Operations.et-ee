@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442505"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976441"
 ---
 # <a name="configure-settlement"></a>Tasakaalustuse konfigureerimine
 
@@ -67,6 +66,3 @@ Selleks, et vältida täiendavate raamatupidamiskirjete ning deebeti ja kreediti
 
 -   Organisatsioonid kasutavad sageli fikseeritud dimensioone, et täita mittevajalikke finantsdimensioone nullidega. Nii on tavapäraselt bilansikontode puhul, näiteks müügireskontrod/ostureskontrod. Konto struktuure saab kasutada tavaliselt nullidega täidetud finantsdimensioonide jälgimise välistamiseks.  Saate finantsdimensiooni bilansikontode jaoks eemaldada, kõrvaldades sellega vajaduse fikseeritud dimensioonide kasutamise järele.
 -   Kui teie organisatsioon nõuab müügireskontro/ostureskontro põhikonto jaoks fikseeritud dimensioone, siis proovige leida viis, kuidas fikseeritud dimensioon vaikimisi maksele sisestada, nii et fikseeritud dimensiooni väärtus on salvestatud makse hankija kandel. See võimaldab süsteemil rekonstrueerida müügireskontro/ostureskontro põhikonto nii, et fikseeritud dimensiooni väärtused oleks hõlmatud. Fikseeritud dimensiooni väärtust saab määratleda vaikeväärtuseks hankijate jaoks või makse töölehe nimel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

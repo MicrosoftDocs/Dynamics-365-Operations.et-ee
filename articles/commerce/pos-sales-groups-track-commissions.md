@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411559"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976585"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Komisjonitasude jälgimine kassas müügigruppide abil
 
@@ -72,7 +71,7 @@ Kauplusel on mitmesuguseid funktsiooniprofiili sätteid, mis määravad kassas m
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Müügiesindaja andmete kuvamine kassa kannete ekraanil
 
-Kassa kannete ekraani paigutust ja sisu saab konfigureerida, kasutades ekraanipaigutuse kujundajat ja kauplustele, registritele või töötajatele määratud ekraanipaigutusi. Välja **Müügiesindaja** saab lisada vahekaardile Read paanil Sissetulek.  Siis kuvatakse iga kande ekraani rea puhul määratud müügigrupi ID.
+Kassa kannete ekraani paigutust ja sisu saab konfigureerida, kasutades ekraanipaigutuse kujundajat ja kauplustele, registritele või töötajatele määratud ekraanipaigutusi. Välja **Müügiesindaja** saab lisada vahekaardile Read paanil Sissetulek.  Siis kuvatakse iga kande ekraani rea puhul määratud müügigrupi ID.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Müügiesindaja toimingute lisamine kassa nupupaneelidele
 
@@ -80,14 +79,11 @@ Kassa võimaldab kasutajatel konfigureerida ekraanipaigutustes sisalduvaid nupup
 
 | Toiming                                 | Kirjeldus |
 |-------------------------------------------|-------------|
-| Määra reale müügiesindaja          | See kassatoiming kuvab loendi vastavatest kaupluse müügigruppidest (ID : Nimi). Müügigrupi valimisel sellest loendist määratakse praegusel kande real väärtus. |
+| Määra reale müügiesindaja          | See kassatoiming kuvab loendi vastavatest kaupluse müügigruppidest (ID : Nimi). Müügigrupi valimisel sellest loendist määratakse praegusel kande real väärtus. |
 | Tühjenda realt müügiesindaja        | See kassatoiming eemaldab praeguse müügigrupi väärtuse praeguselt kande realt. |
-| Kande müügiesindaja määramine   | See kassatoiming kuvab loendi vastavatest kaupluse müügigruppidest (ID : Nimi). Müügigrupi valimisel sellest loendist määratakse praeguse kande vaikeväärtus. Määratakse mis tahes olemasolevad read ilma määratud müügigrupita ning kõik hiljem lisatud read. |
+| Kande müügiesindaja määramine   | See kassatoiming kuvab loendi vastavatest kaupluse müügigruppidest (ID : Nimi). Müügigrupi valimisel sellest loendist määratakse praeguse kande vaikeväärtus. Määratakse mis tahes olemasolevad read ilma määratud müügigrupita ning kõik hiljem lisatud read. |
 | Kandest müügiesindaja kustutamine | See kassatoiming eemaldab praeguse vaike-müügigrupi väärtuse praeguselt kandelt. See ei mõjuta kandes juba olemasolevaid ridu. |
 
 ## <a name="calculating-commissions"></a>Komisjonitasu arvutamine
 
-Komisjonitasu arvutatakse määratud müügigruppide töötajatele väljavõtte või müügitellimuse sisestamise ajal. Komisjonitasu summa määratakse kliendi ja/või kande toodete puhul müügigrupis määratletud töötaja komisjonitasu osakaalu ja seotud komisjonitasu arvutamise sätete alusel.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Komisjonitasu arvutatakse määratud müügigruppide töötajatele väljavõtte või müügitellimuse sisestamise ajal. Komisjonitasu summa määratakse kliendi ja/või kande toodete puhul müügigrupis määratletud töötaja komisjonitasu osakaalu ja seotud komisjonitasu arvutamise sätete alusel.

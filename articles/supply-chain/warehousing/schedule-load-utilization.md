@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87455077c69834c9ace6409f4cc611ae6e14beb4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac4dcba153b8da3d62261326c3c4e169325c2210
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977384"
 ---
 # <a name="schedule-load-utilization"></a>Koormuse tulususe planeerimine
 
@@ -72,6 +71,3 @@ Saate kavandada ruumikasutuse, luues aruande **Lao koormuse kasutus**. Selle aru
 
 4. Valige väljal **Koormuse tüüp** suvand **Maht** või **Kaal**, et määrata lao tootmisüksus, mille jaoks ruumi kavandatakse.
 5. Väljal **Ruumikasutuse seadistamine** valige ruumikasutuse seadistus, mille alusel prognoos tuleb teha.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
