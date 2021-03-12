@@ -11,60 +11,59 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b295000e132b8551045520df1af55a37673f131d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19b4f80c6afa2634c469a23dfcd8dd8f151dd6cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425979"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998699"
 ---
-# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="bedda-103">Minimaalsete laovarude sündmuse abil kanban-reegli loomine</span><span class="sxs-lookup"><span data-stu-id="bedda-103">Create a kanban rule using a minimum stock event</span></span>
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="22184-103">Minimaalsete laovarude sündmuse abil kanban-reegli loomine</span><span class="sxs-lookup"><span data-stu-id="22184-103">Create a kanban rule using a minimum stock event</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bedda-104">See protseduur keskendub seadistusele, mis on vajalik kanban-reegli loomiseks, kasutades minimaalset laosündmust tagamiseks, et konkreetne toode oleks alati konkreetses asukohas saadaval.</span><span class="sxs-lookup"><span data-stu-id="bedda-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="bedda-105">Luuakse kanban-reegel materjali üleviimiseks asukohta, kui varude tase langeb alla 200 ühiku.</span><span class="sxs-lookup"><span data-stu-id="bedda-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="bedda-106">Sidumissündmuse töötlemise käivitamisega luuakse vajalikud kanbanid.</span><span class="sxs-lookup"><span data-stu-id="bedda-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="bedda-107">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="bedda-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="bedda-108">See toiming on mõeldud protsessiinsenerile või väärtuse voo haldurile, kuna nad valmistavad ette uue või muudetud toote tootmist säästlikus keskkonnas.</span><span class="sxs-lookup"><span data-stu-id="bedda-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
+<span data-ttu-id="22184-104">See protseduur keskendub seadistusele, mis on vajalik kanban-reegli loomiseks, kasutades minimaalset laosündmust tagamiseks, et konkreetne toode oleks alati konkreetses asukohas saadaval.</span><span class="sxs-lookup"><span data-stu-id="22184-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="22184-105">Luuakse kanban-reegel materjali üleviimiseks asukohta, kui varude tase langeb alla 200 ühiku.</span><span class="sxs-lookup"><span data-stu-id="22184-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="22184-106">Sidumissündmuse töötlemise käivitamisega luuakse vajalikud kanbanid.</span><span class="sxs-lookup"><span data-stu-id="22184-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="22184-107">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="22184-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="22184-108">See toiming on mõeldud protsessiinsenerile või väärtuse voo haldurile, kuna nad valmistavad ette uue või muudetud toote tootmist säästlikus keskkonnas.</span><span class="sxs-lookup"><span data-stu-id="22184-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="bedda-109">Looge uus kanban-reegel.</span><span class="sxs-lookup"><span data-stu-id="bedda-109">Create a new kanban rule</span></span>
-1. <span data-ttu-id="bedda-110">Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.</span><span class="sxs-lookup"><span data-stu-id="bedda-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-2. <span data-ttu-id="bedda-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="bedda-111">Click New.</span></span>
-3. <span data-ttu-id="bedda-112">Tehke väljal Tüüp vali Tühistamine.</span><span class="sxs-lookup"><span data-stu-id="bedda-112">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="bedda-113">Seda tüüpi kasutatakse ülekande-kanbanide loomiseks.</span><span class="sxs-lookup"><span data-stu-id="bedda-113">This type is used to create transfer kanbans.</span></span>  
-4. <span data-ttu-id="bedda-114">Valige väljal Täiendusstrateegia suvand Sündmus.</span><span class="sxs-lookup"><span data-stu-id="bedda-114">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="bedda-115">Sündmusel põhinevate kanbanide ülekandmise loomiseks kasutatakse sündmuse strateegiat.</span><span class="sxs-lookup"><span data-stu-id="bedda-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="bedda-116">Edaspidi käivitate protseduuris üleviimise kanbanid, kasutades varude täiendamist.</span><span class="sxs-lookup"><span data-stu-id="bedda-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
-5. <span data-ttu-id="bedda-117">Sisestage või valige väärtus väljal Esimene plaanitegevus.</span><span class="sxs-lookup"><span data-stu-id="bedda-117">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="bedda-118">Sisestage või valige väärtus ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="bedda-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="bedda-119">Sellel ülekandmistegevusel on sissetulev (väljund) ladu ja asukoht 12, mis tähendab, et materjalid teisaldatakse asukohta 12 laos 12.</span><span class="sxs-lookup"><span data-stu-id="bedda-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
-6. <span data-ttu-id="bedda-120">Laiendage jaotist Üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="bedda-120">Expand the Details section.</span></span>
-7. <span data-ttu-id="bedda-121">Sisestage või valige väärtus väljal Toode.</span><span class="sxs-lookup"><span data-stu-id="bedda-121">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="bedda-122">Valige suvand M0007.</span><span class="sxs-lookup"><span data-stu-id="bedda-122">Select M0007.</span></span>  
-8. <span data-ttu-id="bedda-123">Laiendage jaotist Sündmused.</span><span class="sxs-lookup"><span data-stu-id="bedda-123">Expand the Events section.</span></span>
-9. <span data-ttu-id="bedda-124">Valige väljalt Varude täiendamise sündmus väärtus Partii.</span><span class="sxs-lookup"><span data-stu-id="bedda-124">In the Stock replenishment event field, select 'Batch'.</span></span>
-    * <span data-ttu-id="bedda-125">See loob kanbanid materjalivajaduste rahuldamiseks seotud asukohas sidumissündmuse töötlemise ajal.</span><span class="sxs-lookup"><span data-stu-id="bedda-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="22184-109">Looge uus kanban-reegel.</span><span class="sxs-lookup"><span data-stu-id="22184-109">Create a new kanban rule</span></span>
+1. <span data-ttu-id="22184-110">Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.</span><span class="sxs-lookup"><span data-stu-id="22184-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="22184-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="22184-111">Click New.</span></span>
+3. <span data-ttu-id="22184-112">Tehke väljal Tüüp vali Tühistamine.</span><span class="sxs-lookup"><span data-stu-id="22184-112">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="22184-113">Seda tüüpi kasutatakse ülekande-kanbanide loomiseks.</span><span class="sxs-lookup"><span data-stu-id="22184-113">This type is used to create transfer kanbans.</span></span>  
+4. <span data-ttu-id="22184-114">Valige väljal Täiendusstrateegia suvand Sündmus.</span><span class="sxs-lookup"><span data-stu-id="22184-114">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="22184-115">Sündmusel põhinevate kanbanide ülekandmise loomiseks kasutatakse sündmuse strateegiat.</span><span class="sxs-lookup"><span data-stu-id="22184-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="22184-116">Edaspidi käivitate protseduuris üleviimise kanbanid, kasutades varude täiendamist.</span><span class="sxs-lookup"><span data-stu-id="22184-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
+5. <span data-ttu-id="22184-117">Sisestage või valige väärtus väljal Esimene plaanitegevus.</span><span class="sxs-lookup"><span data-stu-id="22184-117">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="22184-118">Sisestage või valige väärtus ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="22184-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="22184-119">Sellel ülekandmistegevusel on sissetulev (väljund) ladu ja asukoht 12, mis tähendab, et materjalid teisaldatakse asukohta 12 laos 12.</span><span class="sxs-lookup"><span data-stu-id="22184-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
+6. <span data-ttu-id="22184-120">Laiendage jaotist Üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="22184-120">Expand the Details section.</span></span>
+7. <span data-ttu-id="22184-121">Sisestage või valige väärtus väljal Toode.</span><span class="sxs-lookup"><span data-stu-id="22184-121">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="22184-122">Valige suvand M0007.</span><span class="sxs-lookup"><span data-stu-id="22184-122">Select M0007.</span></span>  
+8. <span data-ttu-id="22184-123">Laiendage jaotist Sündmused.</span><span class="sxs-lookup"><span data-stu-id="22184-123">Expand the Events section.</span></span>
+9. <span data-ttu-id="22184-124">Valige väljalt Varude täiendamise sündmus väärtus Partii.</span><span class="sxs-lookup"><span data-stu-id="22184-124">In the Stock replenishment event field, select 'Batch'.</span></span>
+    * <span data-ttu-id="22184-125">See loob kanbanid materjalivajaduste rahuldamiseks seotud asukohas sidumissündmuse töötlemise ajal.</span><span class="sxs-lookup"><span data-stu-id="22184-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
 
-## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="bedda-126">Määrake kauba miinimumkogus</span><span class="sxs-lookup"><span data-stu-id="bedda-126">Set the minimum quantity for the item</span></span>
-1. <span data-ttu-id="bedda-127">Klõpsake, et järgida linki väljal Toode.</span><span class="sxs-lookup"><span data-stu-id="bedda-127">Click to follow the link in the Product field.</span></span>
-2. <span data-ttu-id="bedda-128">Klõpsake, et järgida linki väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="bedda-128">Click to follow the link in the Item number field.</span></span>
-3. <span data-ttu-id="bedda-129">Laiendage toote pildi kiirinfot.</span><span class="sxs-lookup"><span data-stu-id="bedda-129">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="bedda-130">Klõpsake toimingupaanil valikut Plaan.</span><span class="sxs-lookup"><span data-stu-id="bedda-130">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="bedda-131">Klõpsake valikut Kauba laovarud.</span><span class="sxs-lookup"><span data-stu-id="bedda-131">Click Item coverage.</span></span>
-6. <span data-ttu-id="bedda-132">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="bedda-132">Click New.</span></span>
-7. <span data-ttu-id="bedda-133">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="bedda-133">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="bedda-134">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="bedda-134">In the Warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="bedda-135">Valige välja Ladu väärtuseks 12.</span><span class="sxs-lookup"><span data-stu-id="bedda-135">Set Warehouse to 12.</span></span>  
-9. <span data-ttu-id="bedda-136">Määra valiku Miinimum väärtuseks 200.</span><span class="sxs-lookup"><span data-stu-id="bedda-136">Set Minimum to '200'.</span></span>
+## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="22184-126">Määrake kauba miinimumkogus</span><span class="sxs-lookup"><span data-stu-id="22184-126">Set the minimum quantity for the item</span></span>
+1. <span data-ttu-id="22184-127">Klõpsake, et järgida linki väljal Toode.</span><span class="sxs-lookup"><span data-stu-id="22184-127">Click to follow the link in the Product field.</span></span>
+2. <span data-ttu-id="22184-128">Klõpsake, et järgida linki väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="22184-128">Click to follow the link in the Item number field.</span></span>
+3. <span data-ttu-id="22184-129">Laiendage toote pildi kiirinfot.</span><span class="sxs-lookup"><span data-stu-id="22184-129">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="22184-130">Klõpsake toimingupaanil valikut Plaan.</span><span class="sxs-lookup"><span data-stu-id="22184-130">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="22184-131">Klõpsake valikut Kauba laovarud.</span><span class="sxs-lookup"><span data-stu-id="22184-131">Click Item coverage.</span></span>
+6. <span data-ttu-id="22184-132">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="22184-132">Click New.</span></span>
+7. <span data-ttu-id="22184-133">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="22184-133">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="22184-134">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="22184-134">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="22184-135">Valige välja Ladu väärtuseks 12.</span><span class="sxs-lookup"><span data-stu-id="22184-135">Set Warehouse to 12.</span></span>  
+9. <span data-ttu-id="22184-136">Määra valiku Miinimum väärtuseks 200.</span><span class="sxs-lookup"><span data-stu-id="22184-136">Set Minimum to '200'.</span></span>
 
-## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="bedda-137">Käivitage pakettsündmuse loomise töö</span><span class="sxs-lookup"><span data-stu-id="bedda-137">Run the batch event creation job</span></span>
-1. <span data-ttu-id="bedda-138">Avage Tootmise juhtimine > Perioodilised ülesanded > Kanban-töö pakktöötlus > Sidumissündmuse töötlemine.</span><span class="sxs-lookup"><span data-stu-id="bedda-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
-2. <span data-ttu-id="bedda-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="bedda-139">Click OK.</span></span>
-3. <span data-ttu-id="bedda-140">Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.</span><span class="sxs-lookup"><span data-stu-id="bedda-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-4. <span data-ttu-id="bedda-141">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bedda-141">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="bedda-142">Valige varem loodud kanban-reegel.</span><span class="sxs-lookup"><span data-stu-id="bedda-142">Select the kanban rule that you created earlier.</span></span>  
-5. <span data-ttu-id="bedda-143">Laiendage jaotist Kanbanid.</span><span class="sxs-lookup"><span data-stu-id="bedda-143">Expand the Kanbans section.</span></span>
-    * <span data-ttu-id="bedda-144">Pange tähele, et kanban loodi vajaliku materjali üleviimiseks lattu 12.</span><span class="sxs-lookup"><span data-stu-id="bedda-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
+## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="22184-137">Käivitage pakettsündmuse loomise töö</span><span class="sxs-lookup"><span data-stu-id="22184-137">Run the batch event creation job</span></span>
+1. <span data-ttu-id="22184-138">Avage Tootmise juhtimine > Perioodilised ülesanded > Kanban-töö pakktöötlus > Sidumissündmuse töötlemine.</span><span class="sxs-lookup"><span data-stu-id="22184-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
+2. <span data-ttu-id="22184-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="22184-139">Click OK.</span></span>
+3. <span data-ttu-id="22184-140">Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.</span><span class="sxs-lookup"><span data-stu-id="22184-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+4. <span data-ttu-id="22184-141">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="22184-141">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="22184-142">Valige varem loodud kanban-reegel.</span><span class="sxs-lookup"><span data-stu-id="22184-142">Select the kanban rule that you created earlier.</span></span>  
+5. <span data-ttu-id="22184-143">Laiendage jaotist Kanbanid.</span><span class="sxs-lookup"><span data-stu-id="22184-143">Expand the Kanbans section.</span></span>
+    * <span data-ttu-id="22184-144">Pange tähele, et kanban loodi vajaliku materjali üleviimiseks lattu 12.</span><span class="sxs-lookup"><span data-stu-id="22184-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
 

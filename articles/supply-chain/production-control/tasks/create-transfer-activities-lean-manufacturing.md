@@ -11,82 +11,81 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2925833aceba0cffe46b3a44c5d19c87cd3736e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 629acdebd321154873feddcdfd8555d33e931f4f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425969"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996822"
 ---
-# <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="f7897-103">Ülekandmistegevuste loomine: lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="f7897-103">Create transfer activities for lean manufacturing</span></span>
+# <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="beccf-103">Ülekandmistegevuste loomine: lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="beccf-103">Create transfer activities for lean manufacturing</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f7897-104">Ülekandetegevuse loomine lean manufacturingi jaoks.</span><span class="sxs-lookup"><span data-stu-id="f7897-104">Create a transfer activity for lean manufacturing.</span></span> 
+<span data-ttu-id="beccf-104">Ülekandetegevuse loomine lean manufacturingi jaoks.</span><span class="sxs-lookup"><span data-stu-id="beccf-104">Create a transfer activity for lean manufacturing.</span></span> 
 
-<span data-ttu-id="f7897-105">Eeltingimused:</span><span class="sxs-lookup"><span data-stu-id="f7897-105">Prerequisites:</span></span> 
+<span data-ttu-id="beccf-105">Eeltingimused:</span><span class="sxs-lookup"><span data-stu-id="beccf-105">Prerequisites:</span></span> 
 
-1. <span data-ttu-id="f7897-106">Tuleb luua tootmisvoog ja mitteaktiivne versioon.</span><span class="sxs-lookup"><span data-stu-id="f7897-106">A production flow and version that is not active must be created.</span></span>
+1. <span data-ttu-id="beccf-106">Tuleb luua tootmisvoog ja mitteaktiivne versioon.</span><span class="sxs-lookup"><span data-stu-id="beccf-106">A production flow and version that is not active must be created.</span></span>
 
-2. <span data-ttu-id="f7897-107">Tuleb luua saate- ja vastuvõtulaod ja asukohad.</span><span class="sxs-lookup"><span data-stu-id="f7897-107">The from and to warehouse and locations must be created.</span></span> <span data-ttu-id="f7897-108">Soovi korral saate luua täiendava või täiendatud tööraku.</span><span class="sxs-lookup"><span data-stu-id="f7897-108">Optionally, the replenishing or the replenished work cell should be created.</span></span>
+2. <span data-ttu-id="beccf-107">Tuleb luua saate- ja vastuvõtulaod ja asukohad.</span><span class="sxs-lookup"><span data-stu-id="beccf-107">The from and to warehouse and locations must be created.</span></span> <span data-ttu-id="beccf-108">Soovi korral saate luua täiendava või täiendatud tööraku.</span><span class="sxs-lookup"><span data-stu-id="beccf-108">Optionally, the replenishing or the replenished work cell should be created.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a><span data-ttu-id="f7897-109">Tootmisvoo versiooni leidmine</span><span class="sxs-lookup"><span data-stu-id="f7897-109">Find the production flow version</span></span>
-1. <span data-ttu-id="f7897-110">Minge jaotisse Tootmise juhtimine > Seadistus > Kulusäästlik tootmisvoog > Tootmisvood.</span><span class="sxs-lookup"><span data-stu-id="f7897-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="f7897-111">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="f7897-111">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f7897-112">Pange tähele, et tootmisvool peab olema mustandolekus versioon.</span><span class="sxs-lookup"><span data-stu-id="f7897-112">Note that the production flow must have a version in draft status.</span></span>  
-3. <span data-ttu-id="f7897-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f7897-113">In the list, click the link in the selected row.</span></span>
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="beccf-109">Tootmisvoo versiooni leidmine</span><span class="sxs-lookup"><span data-stu-id="beccf-109">Find the production flow version</span></span>
+1. <span data-ttu-id="beccf-110">Minge jaotisse Tootmise juhtimine > Seadistus > Kulusäästlik tootmisvoog > Tootmisvood.</span><span class="sxs-lookup"><span data-stu-id="beccf-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="beccf-111">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="beccf-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="beccf-112">Pange tähele, et tootmisvool peab olema mustandolekus versioon.</span><span class="sxs-lookup"><span data-stu-id="beccf-112">Note that the production flow must have a version in draft status.</span></span>  
+3. <span data-ttu-id="beccf-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="beccf-113">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-a-new-activity"></a><span data-ttu-id="f7897-114">Uue tegevuse loomine</span><span class="sxs-lookup"><span data-stu-id="f7897-114">Create a new activity</span></span>
-1. <span data-ttu-id="f7897-115">Klõpsake suvandit Tegevused.</span><span class="sxs-lookup"><span data-stu-id="f7897-115">Click Activities.</span></span>
-    * <span data-ttu-id="f7897-116">Veenduge, et valitud tootmisvool oleks mustandversioon, ja valige see versioon.</span><span class="sxs-lookup"><span data-stu-id="f7897-116">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
-2. <span data-ttu-id="f7897-117">Klõpsake suvandit Uue plaanitegevuse loomine.</span><span class="sxs-lookup"><span data-stu-id="f7897-117">Click Create new plan activity.</span></span>
-3. <span data-ttu-id="f7897-118">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="f7897-118">Click Next.</span></span>
-4. <span data-ttu-id="f7897-119">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="f7897-119">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="f7897-120">Valige väljal Tegevuse tüüp suvand Ülekanne.</span><span class="sxs-lookup"><span data-stu-id="f7897-120">In the Activity type field, select 'Transfer'.</span></span>
-6. <span data-ttu-id="f7897-121">Sisestage number väljale Protsessikogus.</span><span class="sxs-lookup"><span data-stu-id="f7897-121">In the Process quantity field, enter a number.</span></span>
-7. <span data-ttu-id="f7897-122">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="f7897-122">Click Next.</span></span>
+## <a name="create-a-new-activity"></a><span data-ttu-id="beccf-114">Uue tegevuse loomine</span><span class="sxs-lookup"><span data-stu-id="beccf-114">Create a new activity</span></span>
+1. <span data-ttu-id="beccf-115">Klõpsake suvandit Tegevused.</span><span class="sxs-lookup"><span data-stu-id="beccf-115">Click Activities.</span></span>
+    * <span data-ttu-id="beccf-116">Veenduge, et valitud tootmisvool oleks mustandversioon, ja valige see versioon.</span><span class="sxs-lookup"><span data-stu-id="beccf-116">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
+2. <span data-ttu-id="beccf-117">Klõpsake suvandit Uue plaanitegevuse loomine.</span><span class="sxs-lookup"><span data-stu-id="beccf-117">Click Create new plan activity.</span></span>
+3. <span data-ttu-id="beccf-118">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="beccf-118">Click Next.</span></span>
+4. <span data-ttu-id="beccf-119">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="beccf-119">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="beccf-120">Valige väljal Tegevuse tüüp suvand Ülekanne.</span><span class="sxs-lookup"><span data-stu-id="beccf-120">In the Activity type field, select 'Transfer'.</span></span>
+6. <span data-ttu-id="beccf-121">Sisestage number väljale Protsessikogus.</span><span class="sxs-lookup"><span data-stu-id="beccf-121">In the Process quantity field, enter a number.</span></span>
+7. <span data-ttu-id="beccf-122">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="beccf-122">Click Next.</span></span>
 
-## <a name="select-the-work-cells"></a><span data-ttu-id="f7897-123">Töörakkude valimine</span><span class="sxs-lookup"><span data-stu-id="f7897-123">Select the Work cells</span></span>
-1. <span data-ttu-id="f7897-124">Klõpsake väljal Täiendamine otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="f7897-124">In the Replenishing field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="f7897-125">Tööraku väljundasukoha kasutamiseks ülekandetegevuse lähteasukohana valige töörakk.</span><span class="sxs-lookup"><span data-stu-id="f7897-125">To use the work cell output location as the from location in the transfer activity, select a work cell.</span></span> <span data-ttu-id="f7897-126">Sama saab teha täiendatud töörakuga, mis määrab ülekandetegevuse sihtasukoha.</span><span class="sxs-lookup"><span data-stu-id="f7897-126">The same can be done with the replenished work cell, which sets the target location of the transfer activity.</span></span>  
-2. <span data-ttu-id="f7897-127">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f7897-127">In the list, click the link in the selected row.</span></span>
+## <a name="select-the-work-cells"></a><span data-ttu-id="beccf-123">Töörakkude valimine</span><span class="sxs-lookup"><span data-stu-id="beccf-123">Select the Work cells</span></span>
+1. <span data-ttu-id="beccf-124">Klõpsake väljal Täiendamine otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="beccf-124">In the Replenishing field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="beccf-125">Tööraku väljundasukoha kasutamiseks ülekandetegevuse lähteasukohana valige töörakk.</span><span class="sxs-lookup"><span data-stu-id="beccf-125">To use the work cell output location as the from location in the transfer activity, select a work cell.</span></span> <span data-ttu-id="beccf-126">Sama saab teha täiendatud töörakuga, mis määrab ülekandetegevuse sihtasukoha.</span><span class="sxs-lookup"><span data-stu-id="beccf-126">The same can be done with the replenished work cell, which sets the target location of the transfer activity.</span></span>  
+2. <span data-ttu-id="beccf-127">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="beccf-127">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-the-inventory-updates"></a><span data-ttu-id="f7897-128">Laovarude värskenduste määratlemine</span><span class="sxs-lookup"><span data-stu-id="f7897-128">Define the inventory updates</span></span>
-1. <span data-ttu-id="f7897-129">Valige suvand väljal Toote tüüp.</span><span class="sxs-lookup"><span data-stu-id="f7897-129">In the Product type field, select an option.</span></span>
-    * <span data-ttu-id="f7897-130">Pange tähele, et ülekanne ei muuda toote tüüpi.</span><span class="sxs-lookup"><span data-stu-id="f7897-130">Note that a transfer does not change the type of product.</span></span> <span data-ttu-id="f7897-131">Saate valmistooted või pooltooted üle kanda (ülekanne tootmisvoo ja võib-olla ka kanban-voo kahe tegevuse vahel).</span><span class="sxs-lookup"><span data-stu-id="f7897-131">You can transfer finished products or semi-finished products (transfer between two activities of a production flow and possibly a kanban flow).</span></span>     <span data-ttu-id="f7897-132">Valmistoodete ülekandmisel saate valida varude ülekandes komplekteerimise või vastuvõtmise tulemused.</span><span class="sxs-lookup"><span data-stu-id="f7897-132">When transferring finished products, you can select if picking or receiving results in an inventory transaction.</span></span>  
+## <a name="define-the-inventory-updates"></a><span data-ttu-id="beccf-128">Laovarude värskenduste määratlemine</span><span class="sxs-lookup"><span data-stu-id="beccf-128">Define the inventory updates</span></span>
+1. <span data-ttu-id="beccf-129">Valige suvand väljal Toote tüüp.</span><span class="sxs-lookup"><span data-stu-id="beccf-129">In the Product type field, select an option.</span></span>
+    * <span data-ttu-id="beccf-130">Pange tähele, et ülekanne ei muuda toote tüüpi.</span><span class="sxs-lookup"><span data-stu-id="beccf-130">Note that a transfer does not change the type of product.</span></span> <span data-ttu-id="beccf-131">Saate valmistooted või pooltooted üle kanda (ülekanne tootmisvoo ja võib-olla ka kanban-voo kahe tegevuse vahel).</span><span class="sxs-lookup"><span data-stu-id="beccf-131">You can transfer finished products or semi-finished products (transfer between two activities of a production flow and possibly a kanban flow).</span></span>     <span data-ttu-id="beccf-132">Valmistoodete ülekandmisel saate valida varude ülekandes komplekteerimise või vastuvõtmise tulemused.</span><span class="sxs-lookup"><span data-stu-id="beccf-132">When transferring finished products, you can select if picking or receiving results in an inventory transaction.</span></span>  
 
-## <a name="define-the-transfer-locations"></a><span data-ttu-id="f7897-133">Ülekande asukohtade määratlemine</span><span class="sxs-lookup"><span data-stu-id="f7897-133">Define the transfer locations</span></span>
-1. <span data-ttu-id="f7897-134">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="f7897-134">Click Next.</span></span>
-2. <span data-ttu-id="f7897-135">Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="f7897-135">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="f7897-136">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="f7897-136">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="f7897-137">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f7897-137">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="f7897-138">Klõpsake väljal Asukoht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="f7897-138">In the Location field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="f7897-139">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f7897-139">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="f7897-140">Valige väljal Lastija suvand Saatja.</span><span class="sxs-lookup"><span data-stu-id="f7897-140">In the Freighted by field, select 'Shipper'.</span></span>
-    * <span data-ttu-id="f7897-141">Suvandid hõlmavad järgmist: saatja – tarneladu juhtiv organisatsioon, saaja – vastuvõtvat ladu juhtiv organisatsioon, vedaja – muu osapoole hankija.</span><span class="sxs-lookup"><span data-stu-id="f7897-141">Options include: Shipper - the organization operating the shipping warehouse, Recipient -  the organization operating the receiving warehouse, Carrier - a third party vendor.</span></span> <span data-ttu-id="f7897-142">Kui juhtiv organisatsioon on hankija, nõuab ülekandetegevus allhankelepingut.</span><span class="sxs-lookup"><span data-stu-id="f7897-142">If the operating organization is a vendor, the transfer activity requires a subcontracting agreement.</span></span>  
-8. <span data-ttu-id="f7897-143">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="f7897-143">Click Next.</span></span>
+## <a name="define-the-transfer-locations"></a><span data-ttu-id="beccf-133">Ülekande asukohtade määratlemine</span><span class="sxs-lookup"><span data-stu-id="beccf-133">Define the transfer locations</span></span>
+1. <span data-ttu-id="beccf-134">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="beccf-134">Click Next.</span></span>
+2. <span data-ttu-id="beccf-135">Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="beccf-135">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="beccf-136">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="beccf-136">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="beccf-137">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="beccf-137">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="beccf-138">Klõpsake väljal Asukoht otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="beccf-138">In the Location field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="beccf-139">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="beccf-139">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="beccf-140">Valige väljal Lastija suvand Saatja.</span><span class="sxs-lookup"><span data-stu-id="beccf-140">In the Freighted by field, select 'Shipper'.</span></span>
+    * <span data-ttu-id="beccf-141">Suvandid hõlmavad järgmist: saatja – tarneladu juhtiv organisatsioon, saaja – vastuvõtvat ladu juhtiv organisatsioon, vedaja – muu osapoole hankija.</span><span class="sxs-lookup"><span data-stu-id="beccf-141">Options include: Shipper - the organization operating the shipping warehouse, Recipient -  the organization operating the receiving warehouse, Carrier - a third party vendor.</span></span> <span data-ttu-id="beccf-142">Kui juhtiv organisatsioon on hankija, nõuab ülekandetegevus allhankelepingut.</span><span class="sxs-lookup"><span data-stu-id="beccf-142">If the operating organization is a vendor, the transfer activity requires a subcontracting agreement.</span></span>  
+8. <span data-ttu-id="beccf-143">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="beccf-143">Click Next.</span></span>
 
-## <a name="define-the-activity-times"></a><span data-ttu-id="f7897-144">Tegevusaegade määratlemine</span><span class="sxs-lookup"><span data-stu-id="f7897-144">Define the activity times</span></span>
-1. <span data-ttu-id="f7897-145">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="f7897-145">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f7897-146">Vajalik on Käitusaja määratlus.</span><span class="sxs-lookup"><span data-stu-id="f7897-146">The definition of a Runtime is required.</span></span> <span data-ttu-id="f7897-147">Käitusaega kasutatakse kanban-tööde maksumuse ja läbilaskeaegade arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="f7897-147">The Runtime is used to calculate cost and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="f7897-148">Käitusaegu ei kasutata täiskoormuse ja tarbimise arvutamiseks; neid arvutatakse tsükliaja järgi, mis saadakse tootmisvoo versiooni ülesandest.</span><span class="sxs-lookup"><span data-stu-id="f7897-148">Runtimes are not used to calculate capacity load and consumption, which is calculated by cycle time, derived from the production flow version task.</span></span>  
-2. <span data-ttu-id="f7897-149">Sisestage number väljale Kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="f7897-149">In the Time field, enter a number.</span></span>
-3. <span data-ttu-id="f7897-150">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="f7897-150">In the Unit field, type a value.</span></span>
-4. <span data-ttu-id="f7897-151">Valige ajaühik.</span><span class="sxs-lookup"><span data-stu-id="f7897-151">Select the Time unit.</span></span>
-5. <span data-ttu-id="f7897-152">Sisestage number väljale Koguse kohta.</span><span class="sxs-lookup"><span data-stu-id="f7897-152">In the Per quantity field, enter a number.</span></span>
-6. <span data-ttu-id="f7897-153">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="f7897-153">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f7897-154">Ooteajad on valikulised.</span><span class="sxs-lookup"><span data-stu-id="f7897-154">Queue times are optional.</span></span>  
-7. <span data-ttu-id="f7897-155">Sisestage number väljale Kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="f7897-155">In the Time field, enter a number.</span></span>
-8. <span data-ttu-id="f7897-156">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="f7897-156">In the Unit field, type a value.</span></span>
-9. <span data-ttu-id="f7897-157">Valige ajaühik.</span><span class="sxs-lookup"><span data-stu-id="f7897-157">Select the Time unit.</span></span>
-10. <span data-ttu-id="f7897-158">Sisestage number väljale Koguse kohta.</span><span class="sxs-lookup"><span data-stu-id="f7897-158">In the Per quantity field, enter a number.</span></span>
-11. <span data-ttu-id="f7897-159">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="f7897-159">Click Next.</span></span>
-12. <span data-ttu-id="f7897-160">Klõpsake Lõpeta.</span><span class="sxs-lookup"><span data-stu-id="f7897-160">Click Finish.</span></span>
-13. <span data-ttu-id="f7897-161">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="f7897-161">Close the page.</span></span>
+## <a name="define-the-activity-times"></a><span data-ttu-id="beccf-144">Tegevusaegade määratlemine</span><span class="sxs-lookup"><span data-stu-id="beccf-144">Define the activity times</span></span>
+1. <span data-ttu-id="beccf-145">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="beccf-145">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="beccf-146">Vajalik on Käitusaja määratlus.</span><span class="sxs-lookup"><span data-stu-id="beccf-146">The definition of a Runtime is required.</span></span> <span data-ttu-id="beccf-147">Käitusaega kasutatakse kanban-tööde maksumuse ja läbilaskeaegade arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="beccf-147">The Runtime is used to calculate cost and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="beccf-148">Käitusaegu ei kasutata täiskoormuse ja tarbimise arvutamiseks; neid arvutatakse tsükliaja järgi, mis saadakse tootmisvoo versiooni ülesandest.</span><span class="sxs-lookup"><span data-stu-id="beccf-148">Runtimes are not used to calculate capacity load and consumption, which is calculated by cycle time, derived from the production flow version task.</span></span>  
+2. <span data-ttu-id="beccf-149">Sisestage number väljale Kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="beccf-149">In the Time field, enter a number.</span></span>
+3. <span data-ttu-id="beccf-150">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="beccf-150">In the Unit field, type a value.</span></span>
+4. <span data-ttu-id="beccf-151">Valige ajaühik.</span><span class="sxs-lookup"><span data-stu-id="beccf-151">Select the Time unit.</span></span>
+5. <span data-ttu-id="beccf-152">Sisestage number väljale Koguse kohta.</span><span class="sxs-lookup"><span data-stu-id="beccf-152">In the Per quantity field, enter a number.</span></span>
+6. <span data-ttu-id="beccf-153">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="beccf-153">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="beccf-154">Ooteajad on valikulised.</span><span class="sxs-lookup"><span data-stu-id="beccf-154">Queue times are optional.</span></span>  
+7. <span data-ttu-id="beccf-155">Sisestage number väljale Kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="beccf-155">In the Time field, enter a number.</span></span>
+8. <span data-ttu-id="beccf-156">Sisestage väärtus väljale Ühik.</span><span class="sxs-lookup"><span data-stu-id="beccf-156">In the Unit field, type a value.</span></span>
+9. <span data-ttu-id="beccf-157">Valige ajaühik.</span><span class="sxs-lookup"><span data-stu-id="beccf-157">Select the Time unit.</span></span>
+10. <span data-ttu-id="beccf-158">Sisestage number väljale Koguse kohta.</span><span class="sxs-lookup"><span data-stu-id="beccf-158">In the Per quantity field, enter a number.</span></span>
+11. <span data-ttu-id="beccf-159">Klõpsake käsku Edasi.</span><span class="sxs-lookup"><span data-stu-id="beccf-159">Click Next.</span></span>
+12. <span data-ttu-id="beccf-160">Klõpsake Lõpeta.</span><span class="sxs-lookup"><span data-stu-id="beccf-160">Click Finish.</span></span>
+13. <span data-ttu-id="beccf-161">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="beccf-161">Close the page.</span></span>
 
