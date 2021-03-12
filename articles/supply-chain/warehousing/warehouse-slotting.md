@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: fb39daba393944471ee5d412b1eb61754843926f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4627745"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993749"
 ---
 # <a name="warehouse-slotting"></a>Lao ruumi leidmine
 
@@ -384,6 +383,3 @@ Kui kõik vajalikud elemendid on paigas, saate häälestada ruumi leidmise autom
 1. Soovi korral saate määrata kordumise automaatselt käivituma.
 
 Selle stsenaariumi harjutuste jaoks **ärge** seadistage automaatset ruumi leidmist.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

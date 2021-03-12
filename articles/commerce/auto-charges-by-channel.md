@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411652"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993724"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automaatsete tasude lubamine ja konfigureerimine kanali kaupa
 
@@ -77,7 +76,7 @@ Pärast funktsiooni **Luba automaatsete tasude filtreerimine kanali järgi** sis
 
 Commerce'is automaatsete tasude määratlemiseks kanali järgi toimige järgnevalt.
 
-1. Minge jaotisse **Müügireskontro \> Kulude seadistus \> Automaatsed kulud**.
+1. Minge jaotisse **Müügireskontro \> Kulude seadistus \> Automaatsed kulud**.
 1. Valige vasakpoolse paani väljlal **Tase** kas **Päis** või **Rida**, sõltuvalt teie ettevõtte vajadusest.
 1. Valige väljal **Jaemüügikanali kood** sobiv kanali kood (nt **Tabel** või **Grupp**). Kui kasutate vaikesätet **Kõik**, rakendatakse tasude reeglid kõigile kanalitele.
 
@@ -128,6 +127,3 @@ Valides kassarakenduses **Kande suvandid \> Tasud \> Tasude haldamine** saate va
 [Omnikanali täpsemad automaatsed kulud](omni-auto-charges.md)
 
 [Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

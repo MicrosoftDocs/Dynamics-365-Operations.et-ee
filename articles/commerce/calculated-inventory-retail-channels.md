@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411661"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995816"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Jaemüügikanalite varude saadavuse arvutamine
 
@@ -114,6 +113,3 @@ On soovitatav, et te ei käitaks neid pakett-töid liiga sageli (iga paari minut
 > Jõudluse huvides, kui kanalipoolse varude saadvuse arvutusi kasutatakse e-Commerce’i API-sid või uut kassa kanalipoolset varude loogikat kasutades varude saadavuse taotluse tegemiseks, kasutab arvutus vahemälu, et teha kindlaks, kas arvutuse loogika uuesti käitamise õigustamiseks on möödas piisavalt aega. Vaikimisi vahemäluks on määratud 60 sekundit. Näiteks lülitasite oma poe jaoks sisse kanalipoolse arvutuse ja vaatasite toote vabasid varusid lehel **Varude otsing**. Kui seejärel müüakse üks toote ühik, ei näita leht **Varude otsing** vähendatud varusid enne, kui vahemälu on tühjendatud. Pärast seda, kui kasutajad sisestavad kanded kassas, peaksid nad ootama 60 sekundit enne, kui kontrollivad, kas vabad varud on vähendatud.
 
 Kui teie ettevõtte stsenaarium nõuab väiksemat vahemälu aega, pöörduge abi saamiseks oma tootetoe esindaja poole.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

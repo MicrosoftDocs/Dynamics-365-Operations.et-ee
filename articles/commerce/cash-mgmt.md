@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 86cdd70919926243bbf2cb5cc2f26690accdac80
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411639"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993675"
 ---
 # <a name="cash-management-improvements"></a>Sularahahalduse parandused
 
@@ -62,6 +61,3 @@ Retaili versioonis 10.0.3 ja uuemates versioonides on saadaval ka järgmised sul
 - Kui vastavusse viimise ajal valitud kanne tasakaalu ei lähe, peab kasutaja sisestama tasakaalustamata vastavusse viimise põhjuse kirjelduse. Kasutajad saavad valida ühe kande ja viia selle vajaduse järgi vastavusse vastava põhjuse kirjeldusega.
 - Kasutajad saavad jätkata kannete vastavusse ja vastavusest välja viimist, kuni vahetus suletakse. Kui vahetus on suletud, ei saa kandeid vastavusest välja viia.
 - Kui kasutaja otsustab vahetuse sulgeda, kontrollib Commerce, et vahetuses poleks vastavusse viimata sularahahalduse kandeid. Kasutajad ei saa vahetust sulgeda, kui selles on vastavusse viimata kandeid.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

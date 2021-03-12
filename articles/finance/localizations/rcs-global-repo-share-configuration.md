@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442426"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994299"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Elektroonilise aruandluse (ER) konfiguratsioonide ühiskasutusse andmine Regulatory Configuration Servicesi (RCS) globaalses hoidlas väliste organisatsioonidega
 
@@ -50,7 +49,7 @@ Järgige neid etappe, et kinnitada, kas konfiguratsioon, mida soovite ühiskasut
 
 1. Valige tööruumis **Elektrooniline aruandlus** suvand **Hoidlad** oma konfiguratsioonipakkuja jaoks.
 
-    ![Konfiguratsiooni pakkujad](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![Konfiguratsiooni pakkujad](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Valige **Globaalne hoidla** \> **Ava**.
 3. Otsige konfiguratsiooni, mida soovite ühiskasutusse anda. Otsingu kitsendamiseks saate kasutada filtri välja. Kui konfiguratsiooni ei kuvata globaalses hoidlas, järgige juhiseid teemas [Elektroonilise aruandluse (ER) konfiguratsiooni uue versiooni loomine ja üleslaadimine](rcs-global-repo-upload.md).
@@ -64,17 +63,12 @@ Pärast konfiguratsiooni loomist teie konfiguratsioonipakkujas, saate anda seda 
 3. Valige konfiguratsioon, mida soovite ühiskasutusse anda.
 4. Valige kiirkaardil **Ühiskasutuses kasutajaga** suvand **Organisatsioon**.
 
-    ![Kiirkaart Ühiskasutuses kasutajaga](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Kiirkaart Ühiskasutuses kasutajaga](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Sisestage dialoogiboksis välise organisatsiooni domeeninimi ja seejärel valige **OK**.
 
-    ![Konfiguratsiooni versiooni ühiskasutusse andmine välise organisatsiooni dialoogiboksiga](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Konfiguratsiooni versiooni ühiskasutusse andmine välise organisatsiooni dialoogiboksiga](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Konfiguratsioon on antud ühiskasutusse välise organisatsiooniga ja saadaval globaalses hoidlas selle organisatsiooni jaoks. Sealt saab importida selle organisatsiooni RCS-i eksemplari või rakenduste Finance and Operations eksemplaridesse.
 
-![Välise organisatsiooniga ühiskasutusse antud konfiguratsioon](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. Välise organisatsiooniga varasemalt ühiskasutusse antud konfiguratsiooni ühiskasutusest eemaldamiseks, valige see konfiguratsioon ja klõpsake suvandit **Eemalda ühiskasutusest** ning seejärel valige **OK**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

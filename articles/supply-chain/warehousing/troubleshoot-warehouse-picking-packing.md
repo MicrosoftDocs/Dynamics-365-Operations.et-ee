@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 74854fa95837dd8a133860e2a017be4c92ff84a3
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2cce1038ed393fc8a7bb489a37fc0921b0ac755e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645473"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993925"
 ---
 # <a name="troubleshoot-picking-and-packing"></a>Komplekteerimise ja pakkimise tõrkeotsing
 
@@ -110,6 +109,3 @@ Kui kasutate *Süsteemi suunatud kogumi komplekteerimise* protsessi, kui konfigu
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 Probleemi lahendamiseks redigeerige kogumi profiili ja seadke suvandi **Aktiveeri positsioone** väärtuseks *Ei*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
