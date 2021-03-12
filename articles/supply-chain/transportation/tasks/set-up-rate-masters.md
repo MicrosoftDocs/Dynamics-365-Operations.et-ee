@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cca9fd47a5d8c81d7b8a913d0a467bc113b584
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: 47fa7edeba81d826a00668a2da74113f552437f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426720"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974256"
 ---
 # <a name="set-up-rate-masters"></a>Määrade koondandmete seadistamine
 
@@ -97,6 +96,3 @@ See protseduur näitab, kuidas seadistada koondmäära. Koondmäärad seadistab 
     * Määrake, milline sihtnumber peaks selle alusmäära määramise puhul kehtima.
 10. Sisestage väljale **Peale võtmise riik/regioon** "USA".
 11. Valige käsk **Salvesta**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

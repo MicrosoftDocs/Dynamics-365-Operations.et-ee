@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426215"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974781"
 ---
 # <a name="troubleshoot-sales-orders"></a>Müügitellimuste tõrkeotsing
 
@@ -59,6 +58,8 @@ Te saate luua ostutellimuse müügitellimuse põhjal. Lisateavet leiate teemast 
 Saate tühistada ainult müügitellimusi ja tagastustellimusi, mille olek on *Loodud*. Lisateavet vt teemast [Tagastustellimuse tühistamine](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>Kui proovin müügitellimust tühistada, kuvatakse tõrge „Reserveeringuid ei saa eemaldada, kuna loodud on töö, mis sõltub nendest reserveeringutest”.
+
+Tõrkekood: WAX4661
 
 Kui töö on seotud müügitellimusega, ei saa müügitellimust tühistada enne töö tühistamist. See nõue kehtib ka juhul, kui müügitellimusega seotud töö on suletud.
 
@@ -110,7 +111,4 @@ Rakendus Supply Chain Management ei toeta praegu sisestatud arvete puhul komisjo
 
 Kogumiüksus pole ostutellimuse jaoks saadaval, sest kogumiüksuse müügitellimuse ridu uurides võib märgata, et kogus on *0* (null) ja olek on *Tühistatud*. Selline käitumine on nii kavandatud. Müügitellimus ostab ainult kogumiüksuse komponente. See ei osta kogumiüksust ennast.
 
-Kui peate kogumi ostma, kaaluge, kas peate selle märkima kogumiüksusena, kuna see funktsioon on tegelikult mõeldud tulu tuvastamise stsenaariumide jaoks. Lisateavet kogumiüksuste kohta leiate teemast [Kogumid](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Kui peate kogumi ostma, kaaluge, kas peate selle märkima kogumiüksusena, kuna see funktsioon on mõeldud tulu tuvastamise stsenaariumide jaoks. Lisateavet kogumiüksuste kohta leiate teemast [Kogumid](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).

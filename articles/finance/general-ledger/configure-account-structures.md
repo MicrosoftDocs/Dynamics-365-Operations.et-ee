@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55c3d6c0f2cddb4da8fd82f26ca3184b194e174b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442436"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975887"
 ---
 # <a name="configure-account-structures"></a>Konto struktuuride konfigureerimine
 
@@ -107,6 +106,3 @@ Konto struktuuride ülesseadmisel on välja kujunenud mõned head tavad, mida j�
 Kui olete konto struktuuri häälestuse või muudatusega rahul, tuleb see aktiveerida. Kui konto struktuur on määratud pearaamatule, siis võib aktiveerimine võtta kaua aega, kuna kõik süsteemi sisestamata kanded tuleb sünkroonida uue struktuuriga. Konto struktuuri muudatused ei mõjuta sisestatud kandeid.
 
 Lisateabe saamiseks vaadake jaotisi [Kontoplaanide plaanimine](plan-chart-of-accounts.md), [Finantsdimensioonid](financial-dimensions.md) ja [Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)](enter-account-dimension-combinations-segmented-entry-control.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

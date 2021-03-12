@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442483"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975760"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finantskonsolideerimiste ja valuutateisenduse ülevaade
 
@@ -125,7 +124,7 @@ Saate enda vajaduste järgi määrata kuupäeva, millal eemaldamisreegel toimima
 
 Kui olete põhiatribuudid määratlenud, valige suvand **Read**, et määratleda tegelikud töötlusreeglid. Eemaldamiseks on kaks võimalust: võite eemaldada netomuutuse summa või määrata fikseeritud summa.
 
-Valige lähtekontod. Saate kasutada metamärgina tärni (\*). Näiteks väärtuse **1\*** korral valitakse eralduse andmeallikana kõik kontod, mis algavad numbriga **1**.
+Valige lähtekontod. Saate kasutada metamärgina tärni (\*). Näiteks väärtuse **1\**_ korral valitakse eralduse andmeallikana kõik kontod, mis algavad numbriga _* 1**.
 
 Kui olete lähtekontod valinud, kasutage välja **Konto täpsustus**, et määrata konto, mida kasutatakse sihtettevõttest. Valige suvand **Allikas**, et kasutada sama põhikontot, mis on määratletud lähtekontol. Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtkonto.
 
@@ -182,6 +181,3 @@ Siin on mõned konsolideerimisstsenaariumid, mida finantsaruandlus toetab:
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 Lisateavet stsenaariumide kohta, kus võite luua konsolideeritud finantsaruandeid, vt teemast [Konsolideeritud finantsaruannete loomine](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

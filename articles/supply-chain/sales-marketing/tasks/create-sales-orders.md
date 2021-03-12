@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426062"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974806"
 ---
 # <a name="create-sales-orders"></a>luua müügitellimusi;
 
@@ -39,7 +38,7 @@ Selles protseduuris näitlikustatakse, kuidas luua müügitellimust. Saate selle
 
 ## <a name="enter-sales-order-line-details"></a>Müügitellimuse rea üksikasjade sisestamine
     
-Organisatsiooni müüdavate toodete variante saate eristada dimensioonide, nagu konfiguratsioon, värv, suurus ja stiil, kaupa. Tooted võivad olla seadistatud kasutama ladustamisdimensioone, nagu koht, ladu ja kaubaalus, või jälgimisdimensioone, nagu partii- ja seerianumbrid. Kui need dimensioonid on määratud, tuleks neile tellimuse real väärtused valida. Tellimuse sisestamise efektiivsuse parandamiseks võite lisada vastavad dimensiooniväljad tellimuse ruudustikule.
+Organisatsiooni müüdavate toodete variante saate eristada dimensioonide, nagu konfiguratsioon, värv, suurus ja stiil, kaupa. Tooted võivad olla seadistatud ka kasutama laoala dimensioone, nagu koht, ladu ja kaubaalus, või jälgimisdimensioone, nagu partii- ja seerianumbrid. Kui need dimensioonid on määratud, tuleks neile tellimuse real väärtused valida. Tellimuse sisestamise efektiivsuse parandamiseks võite lisada vastavad dimensiooniväljad tellimuse ruudustikule.
     
 1. Valige jaotises **Müügitellimuse read** suvand **Müügitellimuse rida**.
 2. Valige **Dimensioonid**.
@@ -68,6 +67,3 @@ Organisatsiooni müüdavate toodete variante saate eristada dimensioonide, nagu 
     Leheküljel **Kogusummad** kuvatakse kogu tellimuse üksikasjad. See sisaldab vahesummat, mis on kõigi lõplike rea allahindluste võrra korrigeeritud rea netosummade summa, ning arve kogusummat, mis on lõpliku tellimuse taseme allahindluse, tasude, käibemaksu, kliendi krediidilimiidi jms alusel korrigeeritud vahesumma. Arve summa on summa, mis kuvatakse kliendi arvedokumendil.  
     
 3. Valige nupp **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

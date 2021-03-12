@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426452"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974981"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Müügitellimuste vahetu sünkroonimine rakenduse Sales ja rakenduse Supply Chain Management vahel
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügitellimuste sünkroonimise käivitamiseks rakenduste Dynamics 365 Sales ja Dynamics 365 Supply Chain Management vahel.
 
@@ -64,8 +65,8 @@ Enne müügiarvete päiste ja ridade sünkroonimist on nõutavad järgmised sün
 
 | Supply Chain Management  | Müük             |
 |-------------------------|-------------------|
-| CDS-i müügitellimuse päised | SalesOrders       |
-| CDS-i müügitellimuse read   | SalesOrderDetails |
+| Dataverse’i müügitellimuse päised | SalesOrders       |
+| Dataverse’i müügitellimuse read   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Üksuse voog
 
@@ -75,7 +76,7 @@ Te ei pea rakenduses Sales tellimusi looma. Võite selle asemel luua uued müüg
 
 Malli filtrid aitavad rakenduses Supply Chain Management tagada ainult asjakohaste müügitellimuste kaasamise sünkroonimisse.
 
-- Müügitellimuse puhul peavad nii müügitellimuse esitanud klient kui ka arvelduse klient pärinema rakendusest Sales, et nad lisataks sünkroonimisse. Rakenduses Supply Chain Management kasutatakse välju **OrderingCustomerIsExternallyMaintained** ja **InvoiceCustomerIsExternallyMaintained** andmeüksustes müügitellimuste filtreerimiseks.
+- Müügitellimuse puhul peavad nii müügitellimuse esitanud klient kui ka arvelduse klient pärinema rakendusest Sales, et nad lisataks sünkroonimisse. Rakenduses Supply Chain Management kasutatakse veerge **OrderingCustomerIsExternallyMaintained** ja **InvoiceCustomerIsExternallyMaintained** andmetabelitest müügitellimuste filtreerimiseks.
 - Rakenduses Supply Chain Management olev müügitellimus tuleb kinnitada. Rakendusega Sales sünkroonitakse ainult kõrgema töötlemisolekuga kinnitatud müügitellimused, nt olekuga **Saadetud** või **Arveldatud**.
 - Pärast müügitellimuse loomist või muutmist tuleb käitada pakett-töö **Müügi kogusummade arvutamine** rakenduses Supply Chain Management. Rakendusega Sales sünkroonitakse vaid need müügitellimused, mille müügi kogusummad on arvutatud.
 
@@ -103,10 +104,10 @@ Kui müügitellimus sünkroonitakse rakendusest Sales rakendusega Supply Chain M
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Lahendus Potentsiaalne klient sularahaks rakendusele Sales
 
-Üksusele **Tellimus** lisati uued väljad ja need kuvatakse järgmisel lehel.
+Tabelile **Tellimus** lisati uued veerud ja need kuvatakse lehel:
 
 - **Hallatakse väliselt**: seadke see valik väärtusele **Jah**, kui tellimus tuleb rakendusest Supply Chain Management.
-- **Töötlemise olek**: sellel väljal kuvatakse tellimuse töötlemise olek rakenduses Supply Chain Management. Saadaval on järgmised väärtused:
+- **Töötlemise olek**: selles veerus kuvatakse tellimuse töötlemise olek rakenduses Supply Chain Management. Saadaval on järgmised väärtused:
 
     - **Mustand**: vaikeolek rakenduses Sales tellimuse loomisel. Rakenduses Sales saab muuta ainult selle töötlemisolekuga tellimusi.
     - **Aktiivne**: olek pärast rakenduses Sales tellimuse aktiveerimist nupuga **Aktiveeri**.
@@ -141,7 +142,7 @@ Enne müügitellimuste sünkroonimist on oluline värskendada süsteemides järg
 - Avage jaotis **Sätted** &gt; **Administreerimine** &gt; **Süsteemisätted** &gt; **Sales** ja veenduge, et kasutusel oleks järgmised sätted.
 
     - Suvand **Kasuta süsteemi hinna arvutamise süsteemi** on seatud väärtusele **Jah**.
-    - Väli **Allahindluse arvutamise meetod** on seatud väärtusele **Rea kaup**.
+    - Veerg **Allahindluse arvutamise meetod** on seatud väärtusele **Rea kaup**.
 
 ### <a name="setup-in-supply-chain-management"></a>Seadistamine rakenduses Supply Chain Management
 
@@ -151,10 +152,10 @@ Kui kasutate ka töötellimuse integratsiooni, peate seadistama müügiallika. M
 
 1. Avage **Müük ja turundus** \> **Seadistus** \> **Müügitellimused** \> **Müügiallikas**.
 2. Uue müügiallika loomiseks valige **Uus**.
-3. Sisestage väljal **Müügiallikas** müügiallika nimi, näiteks **Müügitellimus**.
-4. Sisestage väljale **Kirjeldus** kirjeldus, näiteks **Müügitellimus müügist**.
+3. Sisestage veerus **Müügiallikas** müügiallika nimi, näiteks **Müügitellimus**.
+4. Sisestage veergu **Kirjeldus** kirjeldus, näiteks **Müügitellimus müügist**.
 5. Valige märkeruut **Päritolu tüübi määramine**.
-6. Seadke välja **Müügi päritolu tüüp** väärtuseks **Müügitellimuse integratsioon**.
+6. Seadke veeru **Müügi päritolu tüüp** väärtuseks **Müügitellimuse integratsioon**.
 7. Valige käsk **Salvesta**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Seadistamine müügitellimustes (rakendusest Sales rakendusse Supply Chain Management) – andmete integratsiooni otseprojekt
@@ -181,12 +182,12 @@ Kui kasutate ka töötellimuse integratsiooni, peate seadistama müügiallika. M
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 
 > [!NOTE]
-> Väljad **Maksetingimused**, **Veosetingimused**, **Tarnetingimused**, **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtuskaardi, mis on kohane neis organisatsioonides olevatele andmetele, mille vahel üksust sünkroonitakse.
+> Veerud **Maksetingimused**, **Veosetingimused**, **Tarnetingimused**, **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende veergude vastendamiseks peate seadistama väärtuskaardi, mis on kohane neis organisatsioonides olevatele andmetele, mille vahel tabelit sünkroonitakse.
 
 Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 > [!NOTE]
-> Vastendamine näitab, millise välja teave sünkroonitakse rakendusest Sales rakendusse Supply Chain Management või vastupidi.
+> Vastendamine näitab, millise veeru teave sünkroonitakse rakendusest Sales rakendusse Supply Chain Management või vastupidi.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Müügitellimused (Supply Chain Managementist Salesi) – otse: OrderHeader
 
@@ -207,6 +208,3 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Potentsiaalne klient sularahaks](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
