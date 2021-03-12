@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 55021
 ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c6f59f5bb0d19c32e07b15141c12066948b7a6f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 35650dc02ec923994026a3ab7f66dea5a81ed20d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426312"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967604"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO füüsilise väärtuse ja märkimisega
 
@@ -151,6 +150,3 @@ Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale v
 - Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 - Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

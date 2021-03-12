@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442482"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969000"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Allesjäänud eluea lineaarne kulum
 
@@ -38,7 +37,7 @@ Saate teha valiku **Kalendriaasta** või **Rahandusaasta** väljalt **Kulumiarve
 
 ### <a name="calendar"></a>Kalender
 
-Kui valite suvandi **Kalender** väljal ***Kulumiaasta***, arvestatakse aastana perioodi 1. jaanuarist kuni 31. detsembrini, isegi kui olete rahanduskalendri teisiti määratlenud. Valik **Kalendriaasta** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestuse alus on tavaliselt raamatupidamislik jääkväärtus miinus jääkväärtus. Selle teema edasistes näidetes on kulumiarvestuse alus arvutuste veeru esimese avaldise esimene liige. Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
+Kui teete valiku **Kalender** väljal **_Kuluaasta_*_, eeldatakse, et aasta on 1. jaanuar kuni 31. detsember, isegu kui olete määratlendu finantsaasta teisiti. Suvand _* Kalender** värskendab kulumiarvestuse alust iga aasta 1. jaanuaril. Kulumiarvestuse alus on tavaliselt raamatupidamislik jääkväärtus miinus jääkväärtus. Selle teema edasistes näidetes on kulumiarvestuse alus arvutuste veeru esimese avaldise esimene liige. Kui valite kulumiarvestusaasta **Kalendriaasta**, on väljal **Perioodi sagedus** saadaval järgmised valikud.
 
 -   **Kord aastas** sisestab summa 31. detsembril.
 -   **Kord kuus** sisestab igakuise summa iga kalendrikuu lõpus.
@@ -80,6 +79,3 @@ Kulumisumma on igal aastal sama: (soetusmaksumus – jääkväärtus) ÷ kasulik
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

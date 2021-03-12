@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 799c479c750fcaf296f3e2787fa38416af51963c
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516770"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967756"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -110,6 +109,3 @@ Skaala ühikus töödeldud tööde ajaloo ülevaatamiseks logige sisse skaala ü
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Tootmiskeskus skaala ühiku teade protsessori töö jaoks
 
 _Tootmise keskus skaala ühiku teade protsessori_ töö töötleb andmeid keskusest skaala ühikule. See töö käivitatakse automaatselt, kui tootmise käivitamise töökoormus on kasutusel. Kuid saate seda käitada käsitsi igal ajal, minnes **Tootmise juhtimise \> Perioodiliste ülesannete \> BackOffice töökoormuse halduse \> Tootmise keskusestt skaala ühiku teate protsessorisse**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

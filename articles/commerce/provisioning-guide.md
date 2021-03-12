@@ -3,14 +3,13 @@ title: Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
 description: Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i hindamiskeskkond.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4411829"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969897"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine
 
@@ -117,7 +116,7 @@ Keskkonna juurutamiseks tehke järgmist.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Commerce Scale Uniti (pilv) lähtestamine
 
-CSU-i lähtestamiseks tehke järgmist.
+CSU lähtestamiseks tehke järgmist.
 
 1. Vaates **Pilve majutatud keskkonnad** valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna vaatest **Täielik teave**. Ilmub keskkonna üksikasjade vaade.
@@ -130,6 +129,22 @@ CSU-i lähtestamiseks tehke järgmist.
 1. Enne jätkamist veenduge, et teie CSU olek oleks **Õnnestus**. Lähtestamiseks kulub umbes kaks kuni viis tundi.
 
 Kui te ei leia keskkonna üksikasjade vaates linki **Halda**, võtke abi saamiseks ühendust oma Microsofti kontaktiga.
+
+Juurutamisprotsessi käigus võite saada järgmise tõrketeate.
+
+> Hindamiskeskkonnad (demo/test) peavad peakontoris registreerima skaalaüksuse konnektori rakenduse \<application ID\>.
+
+Kui CSU lähtestamine nurjub ja te saate selle tõrketeate, tehke märkus rakenduse ID kohta, mis on globaalne ainuidentifikaator (GUID) ja seejärel järgige järgmise jaotise etappe CSU juurutamise rakenduse registreerimiseks Commerce'i peakontoris.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>CSU juurutuse rakenduse registreerimine Commerce peakontoris (vajadusel)
+
+CSU juurutuse rakenduse registreerimiseks Commerce'i peakontoris toimige järgmiselt.
+
+1. Avage Commerce'i peakontoris **Süsteemihaldus \> Seadistus \> Azure Active Directory rakendused**.
+1. Sisestage veergu **Kliendi ID** rakenduse ID saadud CSU lähtestamise tõrketeatest.
+1. Sisestage veergu **Nimi** mistahes kirjeldav tekst (nt **CSU hinnang**).
+1. Sisestage veergu **Kasutaja ID** väärtus **RetailServiceAccount**.
+1. Proovige CSU lähtestamist ja LCS-i juurutamist uuesti.
 
 ### <a name="initialize-e-commerce"></a>E-kaubanduse lähtestamine
 
@@ -176,6 +191,3 @@ Oma Commerce’i hindamiskeskkonna ettevalmistamise ja konfigueerimise protsessi
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

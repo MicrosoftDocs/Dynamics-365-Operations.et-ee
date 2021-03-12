@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15811
 ms.assetid: d2580048-e798-4b33-85f9-d1bad7d262fc
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 26614d319453041177e8072793f09f52ebfd51fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411773"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969822"
 ---
 # <a name="set-up-assortments"></a>Sortimentide häälestamine
 
@@ -55,6 +54,3 @@ Pärast eeltingimuste täitmist saate luua sortimendi ja määrata selle oma kan
 2. Valige kanalid või kanalite kõrgema taseme grupid, millele sortiment kohaldub.
 3. Lisage sortimendile tootekategooriad, üksikud tooted või tootevariandid. Saate kaasata kõik kindla kategooria tooted või välistada valitud tooteid sortimenti kaasatud kategooriast.
 4. Avaldage sortiment. Sortimendi avaldamisel käivitatakse sortimendi ajasti automaatselt. See protsess loob toodete loendi. Kui see protsess on lõpule viidud, muutuvad tooted kättesaadavaks kanalitele, millele on tootesortiment määratud. Avaldatud sortimendi või kanalite, millele sortiment on määratud, muutmisel tuleb sortimenti värskendada. Sortimendi värskendamiseks pärast muudatuste tegemist saate käivitada sortimendi ajasti pakett-tööna.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

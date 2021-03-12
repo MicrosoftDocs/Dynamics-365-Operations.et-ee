@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4315f70e7959e2576e9b87dfb3898318f47aa46d
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: bd0153b5d735e1d565b67db6c66c854ff738509c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4442526"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969199"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Põhivara kulumiarvestusreeglid
 
@@ -43,6 +42,3 @@ Kulumiarvestusreegleid saab määrata põhivaragrupi raamatu häälestuseks. Kul
 | Kuu keskel (kuu 15. päev) | Vara kasutuselevõtmise aasta kohta kulumi mahaarvamiseks korrutage täisaasta kulum murruga. Selle murru lugeja (Ülemine number) on täis, pluss 1/2 või (0,5) paikneb aasta kuude arv. Nimetaja (alumine number) on 12. Kui likvideerite vara enne taasteperioodi lõppu, kasutage sama meetodit likvideerimise aastal kulumi mahaarvestamiseks. |
 | Poolaasta (aasta algus) | Aasta esimesel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab aasta (täisaasta) esimesel päeval. Aasta teisel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab aasta keskel. |
 | Poolaasta (järgmine aasta)     | Aasta esimesel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab aasta (täisaasta) esimesel päeval. Aasta teisel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab järgmise aasta esimesel päeval. Aasta esimesel poolel tühistatavate varade kulumiarvestus tühistatakse eelmise aasta viimasel päeval. Käesoleval aastal postitatud kulumiarvestus peab olema tühistatud või korrigeeritud. Aasta teisel poolel tühistatavate varade kulumiarvestus tühistatakse aasta viimasel päeval. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
