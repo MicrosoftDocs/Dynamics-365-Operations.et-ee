@@ -10,58 +10,57 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 099ccd9f769ea5c431c1a82532d8654cbbd082b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e060fe2a578296f079653244ed4d5676313e5ea8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411634"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963056"
 ---
-# <a name="channels-overview"></a><span data-ttu-id="0178a-103">Kanalite ülevaade</span><span class="sxs-lookup"><span data-stu-id="0178a-103">Channels overview</span></span>
+# <a name="channels-overview"></a><span data-ttu-id="5c213-103">Kanalite ülevaade</span><span class="sxs-lookup"><span data-stu-id="5c213-103">Channels overview</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="0178a-104">Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce kanalitest.</span><span class="sxs-lookup"><span data-stu-id="0178a-104">This topic presents an overview of channels in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="0178a-105">See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast iga kanali seadistamist.</span><span class="sxs-lookup"><span data-stu-id="0178a-105">It includes information about the tasks that you must complete both before and after you set up each channel.</span></span>
+<span data-ttu-id="5c213-104">Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce kanalitest.</span><span class="sxs-lookup"><span data-stu-id="5c213-104">This topic presents an overview of channels in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="5c213-105">See sisaldab teavet ülesannete kohta, mis tuleb lõpule viia enne ja pärast iga kanali seadistamist.</span><span class="sxs-lookup"><span data-stu-id="5c213-105">It includes information about the tasks that you must complete both before and after you set up each channel.</span></span>
 
-## <a name="types-of-channels"></a><span data-ttu-id="0178a-106">Kanalite tüübid</span><span class="sxs-lookup"><span data-stu-id="0178a-106">Types of Channels</span></span>
+## <a name="types-of-channels"></a><span data-ttu-id="5c213-106">Kanalite tüübid</span><span class="sxs-lookup"><span data-stu-id="5c213-106">Types of Channels</span></span>
 
-<span data-ttu-id="0178a-107">Dynamics 365 Commerce toetab kolme erinevat kanali tüüpi: jae-, kõnekeskuse- ja veebikanalid.</span><span class="sxs-lookup"><span data-stu-id="0178a-107">Dynamics 365 Commerce supports three different channel types: retail, call center, and online channels.</span></span>
+<span data-ttu-id="5c213-107">Dynamics 365 Commerce toetab kolme erinevat kanali tüüpi: jae-, kõnekeskuse- ja veebikanalid.</span><span class="sxs-lookup"><span data-stu-id="5c213-107">Dynamics 365 Commerce supports three different channel types: retail, call center, and online channels.</span></span>
 
-### <a name="retail-channels"></a><span data-ttu-id="0178a-108">Jaemüügikanalid</span><span class="sxs-lookup"><span data-stu-id="0178a-108">Retail channels</span></span>
+### <a name="retail-channels"></a><span data-ttu-id="5c213-108">Jaemüügikanalid</span><span class="sxs-lookup"><span data-stu-id="5c213-108">Retail channels</span></span>
 
-<span data-ttu-id="0178a-109">Jaemüügi kanalid tähistavad standardseid füüsilisi kauplusi.</span><span class="sxs-lookup"><span data-stu-id="0178a-109">Retail channels represent standard brick-and-mortar stores.</span></span> <span data-ttu-id="0178a-110">Igal kauplusel võivad olla kassaregistrid, tulu- ja kulukontod ning personal.</span><span class="sxs-lookup"><span data-stu-id="0178a-110">Each store can have its own point of sale (POS) registers, income and expense accounts, and staff.</span></span> 
+<span data-ttu-id="5c213-109">Jaemüügi kanalid tähistavad standardseid füüsilisi kauplusi.</span><span class="sxs-lookup"><span data-stu-id="5c213-109">Retail channels represent standard brick-and-mortar stores.</span></span> <span data-ttu-id="5c213-110">Igal kauplusel võivad olla kassaregistrid, tulu- ja kulukontod ning personal.</span><span class="sxs-lookup"><span data-stu-id="5c213-110">Each store can have its own point of sale (POS) registers, income and expense accounts, and staff.</span></span> 
 
-### <a name="call-center-channels"></a><span data-ttu-id="0178a-111">Kõnekeskuse kanalid</span><span class="sxs-lookup"><span data-stu-id="0178a-111">Call center channels</span></span>
+### <a name="call-center-channels"></a><span data-ttu-id="5c213-111">Kõnekeskuse kanalid</span><span class="sxs-lookup"><span data-stu-id="5c213-111">Call center channels</span></span>
 
-<span data-ttu-id="0178a-112">Kõnekeskuse kanalid esindavad kõnekeskuse tellimuste ja klientide haldust.</span><span class="sxs-lookup"><span data-stu-id="0178a-112">Call center channels represent call center order and customer management.</span></span>
+<span data-ttu-id="5c213-112">Kõnekeskuse kanalid esindavad kõnekeskuse tellimuste ja klientide haldust.</span><span class="sxs-lookup"><span data-stu-id="5c213-112">Call center channels represent call center order and customer management.</span></span>
 
-### <a name="online-channels"></a><span data-ttu-id="0178a-113">Võrgukanalid</span><span class="sxs-lookup"><span data-stu-id="0178a-113">Online channels</span></span>
+### <a name="online-channels"></a><span data-ttu-id="5c213-113">Võrgukanalid</span><span class="sxs-lookup"><span data-stu-id="5c213-113">Online channels</span></span>
 
-<span data-ttu-id="0178a-114">Veebikanalid esindavad e-kaubanduse poode.</span><span class="sxs-lookup"><span data-stu-id="0178a-114">Online channels represent online e-Commerce storefronts.</span></span> <span data-ttu-id="0178a-115">Kui veebikanal on loodud, tuleb luua Microsoft Dynamics 365 Commerce'i saidiehitustööriista või kolmanda osapoole e-kaubanduse lahenduse abil sait.</span><span class="sxs-lookup"><span data-stu-id="0178a-115">Once an online channel is created, a site must be created using the Microsoft Dynamics 365 Commerce Site Builder tool or other third-party e-Commerce solution.</span></span>
+<span data-ttu-id="5c213-114">Veebikanalid esindavad e-kaubanduse poode.</span><span class="sxs-lookup"><span data-stu-id="5c213-114">Online channels represent online e-Commerce storefronts.</span></span> <span data-ttu-id="5c213-115">Kui veebikanal on loodud, tuleb luua Microsoft Dynamics 365 Commerce'i saidiehitustööriista või kolmanda osapoole e-kaubanduse lahenduse abil sait.</span><span class="sxs-lookup"><span data-stu-id="5c213-115">Once an online channel is created, a site must be created using the Microsoft Dynamics 365 Commerce Site Builder tool or other third-party e-Commerce solution.</span></span>
 
-## <a name="channel-setup-basics"></a><span data-ttu-id="0178a-116">Kanali seadistuse põhitõed</span><span class="sxs-lookup"><span data-stu-id="0178a-116">Channel setup basics</span></span>
+## <a name="channel-setup-basics"></a><span data-ttu-id="5c213-116">Kanali seadistuse põhitõed</span><span class="sxs-lookup"><span data-stu-id="5c213-116">Channel setup basics</span></span>
 
-<span data-ttu-id="0178a-117">Kanali seadistus teostatakse tööriistas Commerce.</span><span class="sxs-lookup"><span data-stu-id="0178a-117">Channel set up is performed in the Commerce tool.</span></span> <span data-ttu-id="0178a-118">Igal kanalil võivad olla oma makseviisid, hinnagrupid, toote hierarhiad, sortimendid ja toodete kogumid.</span><span class="sxs-lookup"><span data-stu-id="0178a-118">Each channel can have its own payment methods, price groups, product hierarchies, assortments, and set of products.</span></span> <span data-ttu-id="0178a-119">Kui olete kanali loonud, saate määrata seal müüdavad tooted.</span><span class="sxs-lookup"><span data-stu-id="0178a-119">After you create a channel, you assign the products that you want it to carry and sell.</span></span> <span data-ttu-id="0178a-120">Igal kanali tüübil on ainulaadne funktsioonide kogum, mida võib olla vajalik konfigureerida.</span><span class="sxs-lookup"><span data-stu-id="0178a-120">Each channel type has a unique set of features that may need to be configured.</span></span> <span data-ttu-id="0178a-121">Näiteks vajab jaemüügi kanal määratud töötajaid, registreid ja kliente.</span><span class="sxs-lookup"><span data-stu-id="0178a-121">For example, a retail channel needs assigned employees, registers, and customers.</span></span> <span data-ttu-id="0178a-122">Kui uus kanal on loodud, tuleb see määrata organisatsiooni hierarhiale.</span><span class="sxs-lookup"><span data-stu-id="0178a-122">Once a new channel is created, it needs to be assigned to an organization hierarchy.</span></span>
+<span data-ttu-id="5c213-117">Kanali seadistus teostatakse tööriistas Commerce.</span><span class="sxs-lookup"><span data-stu-id="5c213-117">Channel set up is performed in the Commerce tool.</span></span> <span data-ttu-id="5c213-118">Igal kanalil võivad olla oma makseviisid, hinnagrupid, toote hierarhiad, sortimendid ja toodete kogumid.</span><span class="sxs-lookup"><span data-stu-id="5c213-118">Each channel can have its own payment methods, price groups, product hierarchies, assortments, and set of products.</span></span> <span data-ttu-id="5c213-119">Kui olete kanali loonud, saate määrata seal müüdavad tooted.</span><span class="sxs-lookup"><span data-stu-id="5c213-119">After you create a channel, you assign the products that you want it to carry and sell.</span></span> <span data-ttu-id="5c213-120">Igal kanali tüübil on ainulaadne funktsioonide kogum, mida võib olla vajalik konfigureerida.</span><span class="sxs-lookup"><span data-stu-id="5c213-120">Each channel type has a unique set of features that may need to be configured.</span></span> <span data-ttu-id="5c213-121">Näiteks vajab jaemüügi kanal määratud töötajaid, registreid ja kliente.</span><span class="sxs-lookup"><span data-stu-id="5c213-121">For example, a retail channel needs assigned employees, registers, and customers.</span></span> <span data-ttu-id="5c213-122">Kui uus kanal on loodud, tuleb see määrata organisatsiooni hierarhiale.</span><span class="sxs-lookup"><span data-stu-id="5c213-122">Once a new channel is created, it needs to be assigned to an organization hierarchy.</span></span>
 
-## <a name="channel-setup-prerequisites"></a><span data-ttu-id="0178a-123">Kanali seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="0178a-123">Channel setup prerequisites</span></span>
+## <a name="channel-setup-prerequisites"></a><span data-ttu-id="5c213-123">Kanali seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="5c213-123">Channel setup prerequisites</span></span>
 
-<span data-ttu-id="0178a-124">Enne kanali seadistamist peate täitma mõned eeltingimuseks olevad ülesanded, mis põhinevad kanali tüübil.</span><span class="sxs-lookup"><span data-stu-id="0178a-124">Before you can set up a channel, you must complete some prerequisite tasks based on the channel type.</span></span> <span data-ttu-id="0178a-125">Lisateavet vaadake jaotisest [Kanali seadistuse eeltingimused](channels-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="0178a-125">For more information, see [Channel setup prerequisites](channels-prerequisites.md).</span></span>
+<span data-ttu-id="5c213-124">Enne kanali seadistamist peate täitma mõned eeltingimuseks olevad ülesanded, mis põhinevad kanali tüübil.</span><span class="sxs-lookup"><span data-stu-id="5c213-124">Before you can set up a channel, you must complete some prerequisite tasks based on the channel type.</span></span> <span data-ttu-id="5c213-125">Lisateavet vaadake jaotisest [Kanali seadistuse eeltingimused](channels-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="5c213-125">For more information, see [Channel setup prerequisites](channels-prerequisites.md).</span></span>
 
-## <a name="set-up-a-channel"></a><span data-ttu-id="0178a-126">Kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="0178a-126">Set up a channel</span></span>
+## <a name="set-up-a-channel"></a><span data-ttu-id="5c213-126">Kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="5c213-126">Set up a channel</span></span>
 
-<span data-ttu-id="0178a-127">Pärast eeltingimuseks olevate ülesannete täitmist kasutage järgmisi linke edasiste seadistamise juhiste saamiseks.</span><span class="sxs-lookup"><span data-stu-id="0178a-127">After you complete the prerequisite tasks, for further setup instructions, use the following links.</span></span>
+<span data-ttu-id="5c213-127">Pärast eeltingimuseks olevate ülesannete täitmist kasutage järgmisi linke edasiste seadistamise juhiste saamiseks.</span><span class="sxs-lookup"><span data-stu-id="5c213-127">After you complete the prerequisite tasks, for further setup instructions, use the following links.</span></span>
 
-- [<span data-ttu-id="0178a-128">Jaemüügikanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="0178a-128">Set up a retail channel</span></span>](channel-setup-retail.md)
-- [<span data-ttu-id="0178a-129">Kõnekeskuse kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="0178a-129">Set up a call center channel</span></span>](channel-setup-callcenter.md)
-- [<span data-ttu-id="0178a-130">Veebikanali häälestamine</span><span class="sxs-lookup"><span data-stu-id="0178a-130">Set up an online channel</span></span>](channel-setup-online.md)
+- [<span data-ttu-id="5c213-128">Jaemüügikanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="5c213-128">Set up a retail channel</span></span>](channel-setup-retail.md)
+- [<span data-ttu-id="5c213-129">Kõnekeskuse kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="5c213-129">Set up a call center channel</span></span>](channel-setup-callcenter.md)
+- [<span data-ttu-id="5c213-130">Veebikanali häälestamine</span><span class="sxs-lookup"><span data-stu-id="5c213-130">Set up an online channel</span></span>](channel-setup-online.md)
 
 <!--
 ## Post-channel configuration
@@ -78,14 +77,14 @@ After you create a channel, you may need to complete some of the below tasks:
 - Run the jobs to send the store data to Retail POS. (LINK TBD)
 -->
 
-## <a name="additional-resources"></a><span data-ttu-id="0178a-131">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="0178a-131">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5c213-131">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="5c213-131">Additional resources</span></span>
 
-[<span data-ttu-id="0178a-132">Kanali seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="0178a-132">Channel setup prerequisites</span></span>](channels-prerequisites.md)
+[<span data-ttu-id="5c213-132">Kanali seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="5c213-132">Channel setup prerequisites</span></span>](channels-prerequisites.md)
 
-[<span data-ttu-id="0178a-133">Jaemüügikanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="0178a-133">Set up a retail channel</span></span>](channel-setup-retail.md)
+[<span data-ttu-id="5c213-133">Jaemüügikanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="5c213-133">Set up a retail channel</span></span>](channel-setup-retail.md)
     
-[<span data-ttu-id="0178a-134">Veebikanali häälestamine</span><span class="sxs-lookup"><span data-stu-id="0178a-134">Set up an online channel</span></span>](channel-setup-online.md)
+[<span data-ttu-id="5c213-134">Veebikanali häälestamine</span><span class="sxs-lookup"><span data-stu-id="5c213-134">Set up an online channel</span></span>](channel-setup-online.md)
 
-[<span data-ttu-id="0178a-135">Kõnekeskuse kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="0178a-135">Set up a call center channel</span></span>](channel-setup-callcenter.md)
+[<span data-ttu-id="5c213-135">Kõnekeskuse kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="5c213-135">Set up a call center channel</span></span>](channel-setup-callcenter.md)
 
-[<span data-ttu-id="0178a-136">Organisatsiooni hierarhiate seadistamine</span><span class="sxs-lookup"><span data-stu-id="0178a-136">Set up organization hierarchies</span></span>](channels-org-hierarchies.md)
+[<span data-ttu-id="5c213-136">Organisatsiooni hierarhiate seadistamine</span><span class="sxs-lookup"><span data-stu-id="5c213-136">Set up organization hierarchies</span></span>](channels-org-hierarchies.md)

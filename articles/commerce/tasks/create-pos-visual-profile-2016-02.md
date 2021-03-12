@@ -10,41 +10,40 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b265a94c6d8f9e2534e1509e4f33c6f8a05eded0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e1604c12a52e85a73060c6c25e71026fe9ccc18
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411721"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964716"
 ---
-# <a name="create-point-of-sale-pos-visual-profiles"></a><span data-ttu-id="be912-103">Kassa visuaalsete profiilide loomine</span><span class="sxs-lookup"><span data-stu-id="be912-103">Create point of sale (POS) visual profiles</span></span>
+# <a name="create-point-of-sale-pos-visual-profiles"></a><span data-ttu-id="f8af7-103">Kassa visuaalsete profiilide loomine</span><span class="sxs-lookup"><span data-stu-id="f8af7-103">Create point of sale (POS) visual profiles</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="be912-104">See protseduur selgitab uue kassa visuaalse profiili loomist.</span><span class="sxs-lookup"><span data-stu-id="be912-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="be912-105">Visuaalne profiil sisaldab põhiteavet, mis määratleb kassaregistrite välimuse.</span><span class="sxs-lookup"><span data-stu-id="be912-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="be912-106">Saate luua mitu visuaalset profiili ja määrata kindlates registrites käitatavad konkreetsed profiilid.</span><span class="sxs-lookup"><span data-stu-id="be912-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="be912-107">Protseduur kasutab demoettevõtte USRT andmeid.</span><span class="sxs-lookup"><span data-stu-id="be912-107">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="f8af7-104">See protseduur selgitab uue kassa visuaalse profiili loomist.</span><span class="sxs-lookup"><span data-stu-id="f8af7-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="f8af7-105">Visuaalne profiil sisaldab põhiteavet, mis määratleb kassaregistrite välimuse.</span><span class="sxs-lookup"><span data-stu-id="f8af7-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="f8af7-106">Saate luua mitu visuaalset profiili ja määrata kindlates registrites käitatavad konkreetsed profiilid.</span><span class="sxs-lookup"><span data-stu-id="f8af7-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="f8af7-107">Protseduur kasutab demoettevõtte USRT andmeid.</span><span class="sxs-lookup"><span data-stu-id="f8af7-107">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="be912-108">Avage Jaemüük ja kaubandus > Kanali seadistus > Kassa seadistus > Kassaprofiilid > Visuaalsed profiilid.</span><span class="sxs-lookup"><span data-stu-id="be912-108">Go to Retail and Commerce > Channel setup > POS setup > POS profiles > Visual profiles.</span></span>
-2. <span data-ttu-id="be912-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="be912-109">Click New.</span></span>
-3. <span data-ttu-id="be912-110">Sisestage väärtus väljale Profiili number.</span><span class="sxs-lookup"><span data-stu-id="be912-110">In the Profile number field, type a value.</span></span>
-4. <span data-ttu-id="be912-111">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="be912-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="be912-112">Klõpsake väljal Rakenduse tüüp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="be912-112">In the Application type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="be912-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="be912-113">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="be912-114">Klõpsake väljal Kujundus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="be912-114">In the Theme field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="be912-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="be912-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="be912-116">Klõpsake väljal Rõhuvärv otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="be912-116">In the Accent color field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="be912-117">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="be912-117">In the list, find and select the desired record.</span></span>
-11. <span data-ttu-id="be912-118">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="be912-118">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="be912-119">Laiendage jaotist Sisselogimise taust.</span><span class="sxs-lookup"><span data-stu-id="be912-119">Toggle the expansion of the Login background section.</span></span>
-13. <span data-ttu-id="be912-120">Valige või sisestage pildi ID väljale Horisontaalpildi ID.</span><span class="sxs-lookup"><span data-stu-id="be912-120">In the Landscape image ID field, select or enter an image ID.</span></span>
-14. <span data-ttu-id="be912-121">Valige või sisestage pildi ID väljale Vertikaalpildi ID.</span><span class="sxs-lookup"><span data-stu-id="be912-121">In the Portrait image ID field, select or enter an image ID.</span></span>
-15. <span data-ttu-id="be912-122">Laiendage jaotist Taust.</span><span class="sxs-lookup"><span data-stu-id="be912-122">Toggle the expansion of the Background section.</span></span>
-16. <span data-ttu-id="be912-123">Tehke pildi ID toiming RequestPopup.</span><span class="sxs-lookup"><span data-stu-id="be912-123">RequestPopup the Image ID.</span></span>
-17. <span data-ttu-id="be912-124">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="be912-124">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="be912-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="be912-125">Click Save.</span></span>
+1. <span data-ttu-id="f8af7-108">Avage Jaemüük ja kaubandus > Kanali seadistus > Kassa seadistus > Kassaprofiilid > Visuaalsed profiilid.</span><span class="sxs-lookup"><span data-stu-id="f8af7-108">Go to Retail and Commerce > Channel setup > POS setup > POS profiles > Visual profiles.</span></span>
+2. <span data-ttu-id="f8af7-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="f8af7-109">Click New.</span></span>
+3. <span data-ttu-id="f8af7-110">Sisestage väärtus väljale Profiili number.</span><span class="sxs-lookup"><span data-stu-id="f8af7-110">In the Profile number field, type a value.</span></span>
+4. <span data-ttu-id="f8af7-111">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="f8af7-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f8af7-112">Klõpsake väljal Rakenduse tüüp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="f8af7-112">In the Application type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="f8af7-113">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f8af7-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="f8af7-114">Klõpsake väljal Kujundus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="f8af7-114">In the Theme field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="f8af7-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f8af7-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="f8af7-116">Klõpsake väljal Rõhuvärv otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="f8af7-116">In the Accent color field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="f8af7-117">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="f8af7-117">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="f8af7-118">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f8af7-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="f8af7-119">Laiendage jaotist Sisselogimise taust.</span><span class="sxs-lookup"><span data-stu-id="f8af7-119">Toggle the expansion of the Login background section.</span></span>
+13. <span data-ttu-id="f8af7-120">Valige või sisestage pildi ID väljale Horisontaalpildi ID.</span><span class="sxs-lookup"><span data-stu-id="f8af7-120">In the Landscape image ID field, select or enter an image ID.</span></span>
+14. <span data-ttu-id="f8af7-121">Valige või sisestage pildi ID väljale Vertikaalpildi ID.</span><span class="sxs-lookup"><span data-stu-id="f8af7-121">In the Portrait image ID field, select or enter an image ID.</span></span>
+15. <span data-ttu-id="f8af7-122">Laiendage jaotist Taust.</span><span class="sxs-lookup"><span data-stu-id="f8af7-122">Toggle the expansion of the Background section.</span></span>
+16. <span data-ttu-id="f8af7-123">Tehke pildi ID toiming RequestPopup.</span><span class="sxs-lookup"><span data-stu-id="f8af7-123">RequestPopup the Image ID.</span></span>
+17. <span data-ttu-id="f8af7-124">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="f8af7-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="f8af7-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="f8af7-125">Click Save.</span></span>
 
