@@ -11,43 +11,42 @@ ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56f063e24e2c332889191638b4f6ffcb2c08500d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442258"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990988"
 ---
-# <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="6a8ab-103">Vahemikuga intressikoodi loomine</span><span class="sxs-lookup"><span data-stu-id="6a8ab-103">Create an interest code with a range</span></span>
+# <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="a240e-103">Vahemikuga intressikoodi loomine</span><span class="sxs-lookup"><span data-stu-id="a240e-103">Create an interest code with a range</span></span>
 
 [!include [banner](../../includes/banner.md)]
-<span data-ttu-id="6a8ab-104">Viivisekoodid saab seadistada nii, et arvutatakse erinevad viivisesummad väärtuste vahemiku põhjal.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="6a8ab-105">See protseduur näitab, kuidas viivisekoodi ja sellele vahemikku lisada.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
+<span data-ttu-id="a240e-104">Viivisekoodid saab seadistada nii, et arvutatakse erinevad viivisesummad väärtuste vahemiku põhjal.</span><span class="sxs-lookup"><span data-stu-id="a240e-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="a240e-105">See protseduur näitab, kuidas viivisekoodi ja sellele vahemikku lisada.</span><span class="sxs-lookup"><span data-stu-id="a240e-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
 
-1. <span data-ttu-id="6a8ab-106">Avage Krediit ja sissenõuded > Intress > Intressikoodide seadistamine.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-106">Go to Credit and collections > Interest > Set up interest codes.</span></span>
-2. <span data-ttu-id="6a8ab-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-107">Click New.</span></span>
-3. <span data-ttu-id="6a8ab-108">Sisestage väljale Viivisekood viivisekoodi nimi.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-108">In the Interest code field, enter the name of the interest code.</span></span>
-4. <span data-ttu-id="6a8ab-109">Sisestage väljale Kirjeldus viivisekoodi kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-109">In the Description field, enter a description for the interest code.</span></span>
-5. <span data-ttu-id="6a8ab-110">Valige kuu.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-110">Select Month.</span></span>
-6. <span data-ttu-id="6a8ab-111">Laiendage jaotist Tulud.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-111">Expand the Earnings section.</span></span>
-7. <span data-ttu-id="6a8ab-112">Laiendage jaotist Tulud valuuta jaotisega.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-112">Expand the Earnings by currency section.</span></span>
-8. <span data-ttu-id="6a8ab-113">Määrake väljal Pearaamatu sisestuskonto soovitud väärtused.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-113">In the Ledger posting account field, specify the desired values.</span></span>
-9. <span data-ttu-id="6a8ab-114">Tehke väljal Intress vahemiku järgi valik Kuud.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-114">In the Interest by range field, select 'Months'.</span></span>
-10. <span data-ttu-id="6a8ab-115">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-115">Click Add.</span></span>
-11. <span data-ttu-id="6a8ab-116">Sisestage väljale Kirjeldus selle valuuta ja vahemiku kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-116">In the Description field, enter a description for this currency and range.</span></span>
-12. <span data-ttu-id="6a8ab-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-117">Click Save.</span></span>
-13. <span data-ttu-id="6a8ab-118">Klõpsake valikut Vahemikud.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-118">Click Ranges.</span></span>
-14. <span data-ttu-id="6a8ab-119">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-119">Click New.</span></span>
-15. <span data-ttu-id="6a8ab-120">Sisestage algväärtuseks 0 ja seejärel viiviseprotsent kuus, mida viivise arvutamiseks kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-120">Enter the From value as 0 and then enter the interest percent per month that will be used to calculate the interest.</span></span> <span data-ttu-id="6a8ab-121">Meie näites on see 1,5.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-121">For our example, it is 1.5.</span></span>
-16. <span data-ttu-id="6a8ab-122">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-122">Click New.</span></span>
-17. <span data-ttu-id="6a8ab-123">Sisestage järgmiseks algväärtuseks 4, mis on esimene kuu, millest alates uut viivisesummat arvutatakse.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-123">Enter the next From value as 4, which is the first month that you will be calculating a new interest amount.</span></span>
-18. <span data-ttu-id="6a8ab-124">Sisestage viiviseprotsent kuus, mida kasutatakse viivise arvutamiseks alates 4. kuust.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-124">Enter the interest percent per month that will be used to calculate the interest starting in month 4.</span></span> <span data-ttu-id="6a8ab-125">Selles näites on viiviseprotsent 2,0.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-125">For this example, it is 2.0.</span></span>
-19. <span data-ttu-id="6a8ab-126">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-126">Click New.</span></span>
-20. <span data-ttu-id="6a8ab-127">Sisestage järgmiseks algväärtuseks 7, mis on järgmine kuu, millest alates uut viivisesummat arvutatakse.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-127">Enter the next From value as 7, which is the next month that you will be calculating a new interest amount.</span></span>
-21. <span data-ttu-id="6a8ab-128">Sisestage viiviseprotsent kuus, mida kasutatakse viivise arvutamiseks alates 7. kuust.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-128">Enter the interest percent per month that will be used to calculate the interest starting in month 7.</span></span> <span data-ttu-id="6a8ab-129">Selles näites on viiviseprotsent 2,5.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-129">For this example, it is 2.5.</span></span>
-22. <span data-ttu-id="6a8ab-130">Seadistuse lõpuleviimiseks klõpsake nuppu Sule.</span><span class="sxs-lookup"><span data-stu-id="6a8ab-130">Click Close to complete the setup.</span></span>
+1. <span data-ttu-id="a240e-106">Avage Krediit ja sissenõuded > Intress > Intressikoodide seadistamine.</span><span class="sxs-lookup"><span data-stu-id="a240e-106">Go to Credit and collections > Interest > Set up interest codes.</span></span>
+2. <span data-ttu-id="a240e-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="a240e-107">Click New.</span></span>
+3. <span data-ttu-id="a240e-108">Sisestage väljale Viivisekood viivisekoodi nimi.</span><span class="sxs-lookup"><span data-stu-id="a240e-108">In the Interest code field, enter the name of the interest code.</span></span>
+4. <span data-ttu-id="a240e-109">Sisestage väljale Kirjeldus viivisekoodi kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="a240e-109">In the Description field, enter a description for the interest code.</span></span>
+5. <span data-ttu-id="a240e-110">Valige kuu.</span><span class="sxs-lookup"><span data-stu-id="a240e-110">Select Month.</span></span>
+6. <span data-ttu-id="a240e-111">Laiendage jaotist Tulud.</span><span class="sxs-lookup"><span data-stu-id="a240e-111">Expand the Earnings section.</span></span>
+7. <span data-ttu-id="a240e-112">Laiendage jaotist Tulud valuuta jaotisega.</span><span class="sxs-lookup"><span data-stu-id="a240e-112">Expand the Earnings by currency section.</span></span>
+8. <span data-ttu-id="a240e-113">Määrake väljal Pearaamatu sisestuskonto soovitud väärtused.</span><span class="sxs-lookup"><span data-stu-id="a240e-113">In the Ledger posting account field, specify the desired values.</span></span>
+9. <span data-ttu-id="a240e-114">Tehke väljal Intress vahemiku järgi valik Kuud.</span><span class="sxs-lookup"><span data-stu-id="a240e-114">In the Interest by range field, select 'Months'.</span></span>
+10. <span data-ttu-id="a240e-115">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="a240e-115">Click Add.</span></span>
+11. <span data-ttu-id="a240e-116">Sisestage väljale Kirjeldus selle valuuta ja vahemiku kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="a240e-116">In the Description field, enter a description for this currency and range.</span></span>
+12. <span data-ttu-id="a240e-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="a240e-117">Click Save.</span></span>
+13. <span data-ttu-id="a240e-118">Klõpsake valikut Vahemikud.</span><span class="sxs-lookup"><span data-stu-id="a240e-118">Click Ranges.</span></span>
+14. <span data-ttu-id="a240e-119">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="a240e-119">Click New.</span></span>
+15. <span data-ttu-id="a240e-120">Sisestage algväärtuseks 0 ja seejärel viiviseprotsent kuus, mida viivise arvutamiseks kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="a240e-120">Enter the From value as 0 and then enter the interest percent per month that will be used to calculate the interest.</span></span> <span data-ttu-id="a240e-121">Meie näites on see 1,5.</span><span class="sxs-lookup"><span data-stu-id="a240e-121">For our example, it is 1.5.</span></span>
+16. <span data-ttu-id="a240e-122">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="a240e-122">Click New.</span></span>
+17. <span data-ttu-id="a240e-123">Sisestage järgmiseks algväärtuseks 4, mis on esimene kuu, millest alates uut viivisesummat arvutatakse.</span><span class="sxs-lookup"><span data-stu-id="a240e-123">Enter the next From value as 4, which is the first month that you will be calculating a new interest amount.</span></span>
+18. <span data-ttu-id="a240e-124">Sisestage viiviseprotsent kuus, mida kasutatakse viivise arvutamiseks alates 4. kuust.</span><span class="sxs-lookup"><span data-stu-id="a240e-124">Enter the interest percent per month that will be used to calculate the interest starting in month 4.</span></span> <span data-ttu-id="a240e-125">Selles näites on viiviseprotsent 2,0.</span><span class="sxs-lookup"><span data-stu-id="a240e-125">For this example, it is 2.0.</span></span>
+19. <span data-ttu-id="a240e-126">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="a240e-126">Click New.</span></span>
+20. <span data-ttu-id="a240e-127">Sisestage järgmiseks algväärtuseks 7, mis on järgmine kuu, millest alates uut viivisesummat arvutatakse.</span><span class="sxs-lookup"><span data-stu-id="a240e-127">Enter the next From value as 7, which is the next month that you will be calculating a new interest amount.</span></span>
+21. <span data-ttu-id="a240e-128">Sisestage viiviseprotsent kuus, mida kasutatakse viivise arvutamiseks alates 7. kuust.</span><span class="sxs-lookup"><span data-stu-id="a240e-128">Enter the interest percent per month that will be used to calculate the interest starting in month 7.</span></span> <span data-ttu-id="a240e-129">Selles näites on viiviseprotsent 2,5.</span><span class="sxs-lookup"><span data-stu-id="a240e-129">For this example, it is 2.5.</span></span>
+22. <span data-ttu-id="a240e-130">Seadistuse lõpuleviimiseks klõpsake nuppu Sule.</span><span class="sxs-lookup"><span data-stu-id="a240e-130">Click Close to complete the setup.</span></span>
 
