@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Estonia
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 10c5e903ce5ffe802a7721e91659d1199162b539
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0464f5373c694adeacc4b46eb1b0d7e9b2a8b0e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407854"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003034"
 ---
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 
@@ -39,6 +38,3 @@ Kõik ettevõtted peavad koguma teavet töötajate, klientide ja hankijate kohta
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Ressursid GDPR-i andmetaotlusele vastamiseks](../../dev-itpro/gdpr/gdpr-home-page.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

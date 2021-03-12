@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 3173e44df4ab95d77cf4e8227d95fe9cff34af00
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: dd692c7a25673783f9a3586a1527b3d36058245d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426727"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004848"
 ---
 # <a name="transportation-management-discounts"></a>Transpordihalduse allahindlused
 
@@ -33,6 +32,3 @@ Transpordi halduse allahindluste seadistamiseks minge jaotisse **Transpordi hald
 Saate valida, kas edastada allahindlus oma kliendile (seadistades allahindluse tüübi kliendile) või säilitada see ettevõttes (seadistades allahindluse tüübi vedajale). See võimaldab teil määratleda seadistuse, milles te teenite marginali arvutatud veokulude pealt.
 
 Iga allahindluse jaoks saate seadistada mitu täpsustust, nt vedaja, vedaja teenus, tarnetingimused, klient, sihtkoht ja muu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

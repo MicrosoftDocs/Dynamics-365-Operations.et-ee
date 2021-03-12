@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426711"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005373"
 ---
 # <a name="engineering-change-management-parameters"></a>Tehnilise muudatuse haldamise parameetrid
 
@@ -57,6 +56,3 @@ Järgmine tabel kirjeldab välju, mis on saadaval lehe **Tehnilise muudatuse hal
 | Raskusastme reegel | Valige, kuidas tuleks kindlaks määrata tehnilise muudatuse tellimuse raskusaste. Valige *Käsitsi*, kui kasutaja peaks sisestama väärtuse väljale **Raskusaste**. Valige *Arvuta*, et süsteem arvutaks välja **Raskusaste** väärtuse, kui valite tehnilise muudatuse tellimuse toimingupaanil suvandi **Arvuta raskusaste**. Sel juhul kasutab süsteem raskusastme reegleid, mis on määratud lehel **Raskusastme reeglid**. Valige *Arvuta automaatselt*, et välja **Raskusaste** väärtus arvutataks automaatselt ja täidetaks raskusastme reeglite järgi. |
 | Mõjutatud toodete uuesti väljastamine | See väli on asjakohane, kui te väljastate tooteid uuesti tehnilise muudatuse tellimuse kaudu. Saate valida, kas dialoogiboksis **Väljastamised** pakutakse kõiki tooteid või ainult mõjutatud tooteid. |
 | Väljastatavad kooslusetasemed | Väljastatava kooslusetaseme sügavus. Kui kooslusel on siin määratletud väärtusest rohkem tasemeid (st kui see on sügavam), väljastatakse tasemed ainult määratletud väärtuseni. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

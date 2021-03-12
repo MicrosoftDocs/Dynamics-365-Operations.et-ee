@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f2ec94b8d3bce9ca9fb565fe06b268f5c7458fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426388"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005023"
 ---
 # <a name="master-planning-setup-wizard"></a>Koondplaneerimise installiviisard
 
@@ -102,7 +101,7 @@ Teie vastus esimesele küsimusele sellel lehel („Kas teil on vaja planeerida o
 - **Jah** – kasutatakse tööde planeerimist.
 - **Ei** – kasutatakse operatsioonide planeerimist.
 
-For more information, see [Operations scheduling](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) and [Job scheduling](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Lisateabe saamiseks vt [Operatsioonide plaanimine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) ja [Tööde plaanimine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Nõudluse ja pakkumise värskendused
 
@@ -209,6 +208,3 @@ Viisardis sisestatakse Contoso Retaileri jaoks järgmised väärtused.
     - **Vastus:** „Jah, nagu on määratletud selles koondplaanis.” Sisestatakse **1 päev**.
 
     Contoso kasutab oma kauplustes kinnitatud ostutaotlusi, et luua nende poodide täiendamiseks plaanitud ostutellimused. Kuna koondplaneerimist kasutatakse iga päev, kaasatakse planeerimisse viimase päeva ostutaotlused.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

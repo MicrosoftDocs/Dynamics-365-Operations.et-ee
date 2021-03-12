@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c4e42864bfde9ed0650a88961b5a71b33b34c89d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426581"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004598"
 ---
 # <a name="location-product-dimension-mixing"></a>Asukoha tootedimensioonide segamine
 
@@ -239,5 +238,3 @@ Loote ostutellimuse, millel on kolm rida: kaks rida sama tootenumbriga, kuid eri
 
 > [!TIP]
 > Võite seda stsenaariumi korrata, kuid määrake seekord jaotise *HULGI* **Asukohaprofiilid** kiirkaardil **Luba tootedimensioonide segamine** suvandi väärtuseks **Suurus** - *Ei*, et ühtegi tootedimensiooni ei saaks segada. Sellisel juhul pannakse ostutellimuse vastuvõtmisel iga tootevariant uude asukohta.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

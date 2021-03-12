@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426281"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001795"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendrid ja koondplaneerimine
 
@@ -143,6 +142,3 @@ Laovarude grupi kalendri puhul on oluline arvestada, et sellel on seoses koondpl
 
 ### <a name="updating-scm-related-calendars"></a>SCM-iga seotud kalendrite värskendamine
 On küll oluline määrata kõik asjaomased kalendrid vastavasse kohta (hankija, klient, ladu, tarneviis või laovarude grupp), kuid samavõrra tähtis on neid värskendada muudatuste kajastamiseks. Süsteem määratleb tootmis-, üleviimis-, ostu- ja müügitellimuste kuupäevad määratud kalendrite kombinatsiooni põhjal. Hea tava on selgitada, kes vastutab oma valdkonna kalendrite määramise ja värskendamise eest. Liigenduse või mis tahes muu ebatavalise muudatuse korral tööpäevades on oluline selle kohaselt kalendreid värskendada. Kõik kalendritest sõltuvad ülesanded, nagu koondplaneerimine ja tootmisgraafiku koostamine, tuleb pärast kalendrite värskendamist uuesti käivitada. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

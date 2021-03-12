@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426710"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005323"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Toote töötsükli olekud ja kanded
 
@@ -76,6 +75,3 @@ Kiirkaardil **Lubatud äriprotsessid** loetletud protsesside kohta on saadaval j
 | Poliis | Valige üks järgmistest väärtustest, et kontrollida, kas ja kuidas see protsess on lubatud selle töötsükliga toodete puhul.<ul><li>**Lubatud** – äriprotsess on lubatud.</li><li>**Blokeeritud** – protsess pole lubatud. Kui kasutaja püüab selle töötsükli olekuga toote korral protsessi kasutada, blokeerib süsteem katse ja kuvab selle asemel tõrketeate. Näiteks saate blokeerida tööea lõpus olevate toodete ostmise.</li><li>**Lubatud hoiatusega** – protsess on lubatud, aga kuvatakse hoiatus. Näiteks soovitakse tooteprototüüp lisada tootmistellimusele, mis on loodud uurimistöö ja arenduse osakonnas. Teistes osakonnas peaksid inimesed siiski teadma, et seda toodet ei tohi veel toota.</li></ul> |
 
 Kui lisate kohandades veel töötsükli oleku reegleid, saate neid reegleid vaadata kasutajaliideses (UI), valides ülemisel paanil nupu **Värskenda protsessid**. Nupp **Värskenda protsessid** on saadaval ainult administraatoritele.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

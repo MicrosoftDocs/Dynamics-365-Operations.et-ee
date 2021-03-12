@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b047a1abaa6b19096740f589281c837643d796b9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442343"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003524"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Hankija maksete loomine maksesoovituse abil
 
@@ -69,19 +68,19 @@ April maksab hankijatele 1. juulil. Ta kasutab ülesande tõhusamaks täitmiseks
 
 ### <a name="option-1-by-cash-discount"></a>1. võimalus: skonto järgi
 
-April valib soovituse tüübik **Skonto**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
+April valib soovituse tüübiks **Skonto**. Ta sisestab kuupäevavahemiku 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
 
 -   1002, kuna skonto kuupäev, 4. juuli, jääb maksekuupäevade vahemikku;
 -   1004, kuna skonto kuupäev, 1. juuli, jääb maksekuupäevade vahemikku.
 
 Soovitusse ei kaasata järgmisi arveid:
 
--   1001, kuna skonto kuupäev, 29. juuni, on juba möödunud, seega ei ole arve enam skontoks sobilik;
+-   1001, kuna skonto kuupäev 29. juuni on juba möödunud, seega ei ole see arve enam skonto jaoks sobilik;
 -   1003, kuna arvel ei ole skonto kuupäeva.
 
 ### <a name="option-2-by-due-date"></a>2. võimalus: tähtaja järgi
 
-April valib soovituse tüübiks **Tähtaja järgi**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
+April valib soovituse tüübiks **Tähtaja järgi**. Ta sisestab kuupäevavahemiku 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
 
 -   1003, kuna tähtaeg, 29. juuni, jääb maksekuupäevade vahemikku.
 
@@ -93,7 +92,7 @@ Soovitusse ei kaasata järgmisi arveid:
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>3. võimalus: tähtaja ja skonto järgi
 
-April valib soovituse tüübiks **Tähtaeg ja skonto**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
+April valib soovituse tüübiks **Tähtaeg ja skonto**. Ta sisestab kuupäevavahemiku 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
 
 -   1003, kuna tähtaeg, 29. juuni, jääb maksekuupäevade vahemikku.
 -   1002, kuna skonto kuupäev, 4. juuli, jääb maksekuupäevade vahemikku;
@@ -101,14 +100,14 @@ April valib soovituse tüübiks **Tähtaeg ja skonto**. Ta sisestab kuupäevavah
 
 Soovitusse ei kaasata järgmisi arveid:
 
--   1001, kuna skonto kuupäev, 29. juuni, on juba möödunud, seega arve ei ole enam skontoks sobilik, ning tähtaeg, 15. juuli, jääb kuupäevavahemikust välja.
+-   1001, kuna skonto kuupäev 29. juuni on juba möödunud, seega ei ole see arve enam skonto jaoks sobilik, ning tähtaeg 15. juuli jääb kuupäevavahemikust välja.
 
 ## <a name="country-specific-considerations"></a>Riigi-/regioonikohased kaalutlused
 ### <a name="norway"></a>Norra
 
 #### <a name="dimension-control"></a>Dimensiooni juhtimine
 
-Dimensioonide juhtimine võimaldab teil juhtida loodud ridade rühmitamist maksesoovituse alusel ja määrata vaikedimensioone, võttes aluseks rakendatud arvete jaoks kasutatud finantsdimensioonid. Norra riigi kontekstis on iga makseviisi all finantsdimensiooni vahekaart, kus saate dimensiooni juhtimise aktiveerida ning lubada ka iga dimensiooni puhul rühmitamise. Võimalikud on järgmised valikud.
+Dimensioonide juhtimine võimaldab teil juhtida loodud ridade rühmitamist maksesoovituse alusel ja määrata vaikedimensioone, võttes aluseks rakendatud arvete jaoks kasutatud finantsdimensioonid. Norra riigi kontekstis on iga makseviisi all finantsdimensiooni vahekaart, kus saate aktiveerida dimensiooni juhtimise ning lubada iga dimensiooni puhul rühmitamise. Võimalikud on järgmised valikud.
 
 -   Väli **Dimensiooni juhtimine** keelatakse. Maksesoovitus käitub nagu mis tahes muu riigi puhul.
 -   Väli **Dimensiooni juhtimine** aktiveeritakse ilma dimensioone täpsemalt määratlemata. Maksesoovitus luuakse ilma dimensioone arvesse võtmata. Loodud kanne ei päri rakendatud kirjest ühtki dimensiooni.
@@ -119,10 +118,7 @@ Dimensioonide juhtimine võimaldab teil juhtida loodud ridade rühmitamist makse
 
 #### <a name="bank-account-selection"></a>Pangakonto valimine
 
-Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Saate seadistada need kombinatsioonid lehel **Makseviisid**, kasutades nuppu  **Pangakontod**, mis on saadaval iga makseviisi puhul, mille **Sisestuskonto tüüp** = **Pank**.
+Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Saate seadistada need kombinatsioonid lehel **Makseviisid**, kasutades nuppu **Pangakontod**, mis on saadaval iga makseviisi puhul, mille **Sisestuskonto tüüp** = **Pank**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

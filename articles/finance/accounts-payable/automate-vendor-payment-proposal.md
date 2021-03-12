@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4442587"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003574"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Hankija maksesoovituste automatiseerimine
 
@@ -144,6 +143,3 @@ Hankija maksesoovituste automatiseerimistele on lisatud järgmised kohustused ja
 | Graafiku sündmusi puudutav päring | Ostureskontro makseametnik, ostureskontro tsentraliseeritud makseametnik | See kohustus annab õiguse kuvada maksesoovituse automatiseerimise sündmusi järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste kuvamine</li><li>Sündmuse nädalavaate kuvamine</li></ul> |
 | Graafiku seeriaid puudutav päring      | None                                                                       | See kohustus annab õiguse kuvada seeriate ja sündmuste sätteid järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste kuvamine</li><li>Sündmuste loendi lehe kuvamine</li><li>Sündmuse nädalavaate kuvamine</li></ul>|
 | Graafiku sündmuste haldamine     | None                                                                       | See kohustus annab õiguse luua ja hallata sündmusi järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste haldamine</li><li>Sündmuse nädalavaate kuvamine</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

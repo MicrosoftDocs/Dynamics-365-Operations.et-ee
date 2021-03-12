@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426579"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004623"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Asukohakorralduse varude komplekteerimise ajaline jaotus
 
@@ -120,7 +119,7 @@ FIFO-strateegia leiab üles asukoha, mis sisaldab vanimat aegumiskuupäeva ja pl
 1. Valige toimingupaani lehe **Müügitellimus** vahekaardi **Ladu** grupist **Tegevused** suvand **Vabasta lattu**. Teile kuvatakse teated. Süsteem loob saadetise, lisab selle uuele koormusele ja loob vajaliku töö.
 1. Valige kiirkaardi **Müügitellimuse read** menüüst **Ladu** suvand **Töö üksikasjad**, et avada selle müügitellimuse jaoks loodud töö. Pange tähele, et real, kus suvandi **Töö tüüp** väärtus on *Komplekteerimine*, kuvatakse suvandi **Asukoht** väärtuseks *FL-002*. See asukoht sisaldab identifitseerimisnumbrit, millel on vanim aegumiskuupäev (FIFO).
 1. Valige **Ladu \> Saadetise üksikasjad**.
-1. Märkige kiirkaardil **Üldine** üles voo ID, et saaksite seda kasutada 2. stsenaariumis.
+1. Märkige kiirkaardil **_Üldine_* üles voo ID, et saaksite seda kasutada 2. stsenaariumis.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>2. stsenaarium: LIFO asukoha aegumise seadistamine ja kasutamine
 
@@ -140,6 +139,3 @@ LIFO-strateegia leiab üles asukoha, mis sisaldab uusimat aegumiskuupäeva ja pl
 1. Pange tähele, et real, kus suvandi **Töö tüüp** väärtus on *Komplekteerimine*, kuvatakse suvandi **Asukoht** väärtuseks *FL-001*. See asukoht sisaldab identifitseerimisnumbrit, millel on uusim aegumiskuupäev (LIFO).
 
 Nendes stesaariumides näidati teile, kuidas asukoha aegumise strateegia suunab töö lao asukohta, millel on kas vanimad või uusimad varud, sõltuvalt valitud strateegiast.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

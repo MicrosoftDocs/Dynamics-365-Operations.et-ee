@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6d94d37368b8fc3ff7dbe4c1845acd52bf2a64ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426580"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004673"
 ---
 # <a name="location-license-plate-positioning"></a>Asukoha litsentsiplaadi paigutus
 
@@ -281,6 +280,3 @@ Nüüd, kui funktsioon *Asukoha identifitseerimisnumbri positsioneerimine* on se
     ![Positsiooni 1 asukoht](media/LocationLicensePlatePositioning.png "Positsiooni 1 asukoht")
 
 1. Sisestage selle asukoha jaoks loodud identifitseerimisnumbri ID ja seejärel järgige viipasid müügitellimuse komplekteerimiseks.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
