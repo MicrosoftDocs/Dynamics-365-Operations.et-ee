@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb95bab2173cb45300560f59c394cd2d558fe69f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2769a7d519e12613796025b658db0b08cdfc4fde
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426226"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961636"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Ajastatud kanban-tööde teisaldamine
 
@@ -62,6 +61,3 @@ See protseduur keskendub plaanitud protsessi kanban-tööde teise perioodi teisa
 2. Klõpsake nuppu **Edasi**. Pange tähele, et tööd teisaldatakse loendis üks rida alla. 
 
 3. Klõpsake nuppu **Tagasi**. Pange tähele, et tööd teisaldatakse loendis üks rida üles.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

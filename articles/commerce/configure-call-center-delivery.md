@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411579"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963106"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Kõnekeskuse tarneviiside ja -tasude konfigureerimine
 
@@ -95,6 +94,3 @@ Saate iga tarneviisiga, mida konfigureerite, valikuliselt siduda kiirsaadetise k
 Näiteks tellimuste puhul, mis tarnitakse järgmisel päeval õhutranspordiga, peab komplekteerimine toimuma laos iga päev kell 13. Sellisel juhul saab luua kiirsaadetise koodi, mille saab siduda ükskõik millise järgmise päeva tarneviisiga, mis on süsteemis konfigureeritud. Kui laos koostatakse komplekteerimisvoog, siis saab väljal **Kiirsaadetis** olevat koodi kasutada filtrina, nii et komplekteeritakse vaid tellimusi, millel on selle koodiga seotud tarneviisid.
 
 Peale selle, kui sisestatud on kõnekeskuse tellimus, saab müügitellimuse päisesse või üksikule müügitellimuse reale käsitsi sisestada kiirsaadetise koodi. Ka sellel puhul saab koodi kasutada sortimiseks ja aruandluseks. Mõnikord on vaja klienditeeninduse vea tõttu tellimust hoolikalt käsitleda. Sellisel juhul saab tellimuse päisesse või ridadele sisestada kiirsaadetise koodi, mis aitab tellimust täitmise käigus tuvastada ja prioriseerida.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

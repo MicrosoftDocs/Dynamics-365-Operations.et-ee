@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: a91f7b0ed715c383930db319de08fa37e6bbca37
-ms.sourcegitcommit: ce34e1ac6ce3a7033618bb9fd2983b11d63d3112
+ms.openlocfilehash: 4da0c95d753685cc9cce774dc63309a53bd2fbd0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4597102"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963531"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.7. (jaanuar 2020)
 
@@ -65,5 +64,3 @@ Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioon
 Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

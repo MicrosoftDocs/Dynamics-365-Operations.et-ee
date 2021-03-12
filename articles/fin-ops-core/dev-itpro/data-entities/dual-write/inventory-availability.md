@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4451787"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839545"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Varude saadavus topeltkirjutuses
 
@@ -58,5 +58,63 @@ Dialoogiboksis kuvatakse Supply Chain Managementist pärit ATP teave. See teave 
 - Väljamineku kogus
 - Laos olev kogus
 
+## <a name="how-it-works"></a>Toimimisviis
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Kui valite **Pakkumised**, **Tellimused** või **Arved** nupu **Vaba kaubavaru**, tehakse **vaba kaubavaru** API-le reaalajas topeltkirjutuse kutse. API arvutab selle toote vaba kaubavaru. Tulemus talletatakse tabelites **InventCDSInventoryOnHandRequestEntity** ja **InventCDSInventoryOnHandEntryEntity** ning seejärel kirjutatakse see topeltkirjutuse abil Dataverse’i. Selle funktsiooni kasutamiseks peate käivitama järgmised topeltkirjutuse kaardid. Jätke kaartide käivitamisel esialgne sünkroonimine vahele.
+
+- CDS-i vaba kaubavaru kirjed (msdyn_inventoryonhandentries)
+- CDS-i vaba kaubavaru taotlused (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>Mallid
+Vaba kaubavaru andmete näitamiseks on saadaval järgmised mallid.
+
+Finance and Operations rakendused | Klientide kaasamise rakendus | Kirjeldus 
+---|---|---
+[CDS-i vaba kaubavaru kirjed](#145) | msdyn_inventoryonhandentries |
+[CDS-i vaba kaubavaru kirjete taotlused](#147) | msdyn_inventoryonhandrequests |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>CDS-i vaba kaubavaru kirjed (msdyn_inventoryonhandentries)
+
+See mall sünkroonib andmeid rakenduste Finance and Operations ja Dataverse'i vahel.
+
+Finance and Operationsi väli | Kaardi tüüp | Klientide kaasamise väli | Vaikeväärtus
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>CDS-i vaba kaubavaru taotlused (msdyn_inventoryonhandrequests)
+
+See mall sünkroonib andmeid rakenduste Finance and Operations ja Dataverse'i vahel.
+
+Finance and Operationsi väli | Kaardi tüüp | Klientide kaasamise väli | Vaikeväärtus
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a4f31af3f76c1af6a0f5546955e810bd1cca375
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426716"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963684"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Tehnilised atribuudid ja tehnilise atribuudi otsimine
 
@@ -94,6 +93,3 @@ Peate määrama tehnilise kategooria, kuhu toode kuulub. Kategooria seab kõik t
 Saate kasutada tehnilise atribuudi otsingut toodete otsimiseks nende tehniliste atribuutide väärtuste järgi. Seetõttu saate hõlpsalt leida tehnilisi tooteid nende omaduste järgi. Saate otsida toodete seast, mis kuuluvad tehnilise toote kategooriasse, või otsida kõigi tehniliste toodete hulgast.
 
 Otsing on saadaval toote koondandmete lehtedel ja süsteemi kandeüksustes, nt müügitellimustes. Kandeüksuse puhul saate kasutada toote otsimiseks lehte **Tehnilise atribuudi otsing**. Seejärel saate kasutada nuppu **Lisa uue reana**, et lisada toode müügitellimuse ridadele. Otsingutulemustes olevaid tooteid saab lisada ka otse tellimusele.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

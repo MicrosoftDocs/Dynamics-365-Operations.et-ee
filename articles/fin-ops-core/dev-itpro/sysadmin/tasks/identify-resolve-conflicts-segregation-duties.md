@@ -3,7 +3,7 @@ title: Kohustuste jagamise konfliktide tuvastamine ja lahendamine
 description: Selles teemas kirjeldatakse, kuidas tuvastada ja lahendada konflikte kohustuste jagamisel.
 author: peakerbl
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,34 +15,47 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7e25a568b86ce3161e2c52045ff2361c0bc4a0e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: deff97c7728db91089d3ea834d15de738da500fa
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681590"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826364"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Kohustuste jagamise konfliktide tuvastamine ja lahendamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas tuvastada ja lahendada konflikte kohustuste jagamisel. Saate seadistada reeglid nende ülesannete eraldamiseks, mille peavad täitma erinevad kasutajad. Seda põhimõtet nimetatakse kohustuste jagamiseks. Kui turberolli määratlus või kasutaja rollimäärangud rikuvad reegleid, logitakse konflikt. Administraator peab kõik konfliktid lahendama. Konfliktide tuvastamiseks ja lahendamiseks kasutage järgmist protseduuri. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+Selles teemas kirjeldatakse, kuidas tuvastada ja lahendada konflikte kohustuste jagamisel. Saate seadistada reeglid nende kohustuste eraldamiseks, mille peavad täitma erinevad kasutajad. Seda põhimõtet nimetatakse kohustuste jagamiseks. Kui turberolli määratlus või kasutaja rollimäärangud rikuvad reegleid, logitakse konflikt. Administraator peab kõik konfliktid lahendama. Konfliktide tuvastamiseks ja lahendamiseks kasutage järgmist protseduuri.
 
+Pärast reegli lisamist kontrollige, kas kõik olemasolevad rollid ühilduvad. 
 
-## <a name="verify-whether-user-role-assignments-comply-with-new-rules-for-segregation-of-duties"></a>Kontrollige, kas kasutajarolli määramised vastavad uutele kohustuste jagamise reeglitele.
-1. Avage **Navigeerimispaan > Moodulid > Süsteemiadministratsioon > Turvalisus > Kohustuste jagamine > Kinnita kasutajarollide rollimääramise vastavuse**.
-2. Valige nupp **OK**. Kuvatakse teade kinnitamise tulemustega. Konflikti korral saate avada lehe **Kasutajad** ja muuta kasutaja rollimääranguid. Konfliktid logitakse ka lehele **Kohustuste jagamise konfliktid**. Kinnitusprotsessi käitamiseks pakett-tööna valige suvand **Pakktöötlus** ja seejärel seadistage muud partii parameetrid. Pärast pakett-töö käitamist saate konfliktid üle vaadata lehel **Kohustuste jagamise konfliktid**.  
+## <a name="verify-that-existing-roles-and-duties-comply-with-new-rules-for-segregation-of-duties"></a>Kontrollige, kas olemasolevad rollid ja kohustused vastavad uutele kohustuste jagamise reeglitele
+1. Avage **Süsteemihaldus** > **Turve** > **Kohustuste jagamine** > **Kohustuste jagamise reeglid**.
+3. Valige **Kohustuste ja rollide kinnitamine**. Kui mis tahes roll rikub reegleid, kuvatakse teade, mis sisaldab reegli nime, rolli ja konfliktsete kohustuste nimesid. Konfliktsed rollid peavad olema muudetud suvandi **Turvakonfiguratsioon** abil ja need ei tohi sisaldada vastuolulisi kohustusi. Kui ükski roll valitud reeglit ei riku, kuvatakse teade, et kõik rollid vastavad.   
+
+> [!NOTE]
+> Kinnitamine tehakse ainult valitud reeglile. Oluline on kontrollida vastavust iga reegli puhul.   
+
+Rolli loomisel või muutmisel jõustatakse kohustuste jagamise reeglid automaatselt. Rollile ei saa määrata vastuolulisi kohustusi.
+
+Järgmisena kontrollige, kas kõik olemasolevad rollimäärangud ühilduvad.
+
+## <a name="verify-that-user-role-assignments-comply-with-new-rules-for-segregation-of-duties"></a>Kontrollige, kas kasutajarolli määramised vastavad uutele kohustuste jagamise reeglitele
+1. Avage **Süsteemihaldus > Turve > Kohustuste jagamine > Kasutaja rollimäärangute vastavuse kontrollimine**.
+2. Valige nupp **OK**. Kuvatakse teade kinnitamise tulemustega. Konfliktid logitakse lehel **Kohustuste jagamise lahendamata konfliktid**.   
+
+Kasutajate rollide määramisel jõustatakse kohustuste jagamise reeglid automaatselt. Kui proovite määrata kasutajat rollidele, mis sisaldavad vastuolulisi kohustusi, kuvatakse tõrketeade. Seejärel peate konflikti lahendama, keelates või lubades täiendava rollimäärangu. Lisaroll määratakse pärast määramise lubamist. 
+
+> [!NOTE]
+> Vastuolusid ei kontrollita praegu kasutajatele, kellele on Active Directory domeenigruppide alusel määratud rollid.
 
 ## <a name="view-and-resolve-conflicting-user-role-assignments"></a>Konfliktsete kasutaja rollimäärangute kuvamine ja lahendamine
-1. Avage **Navigeerimispaan > Moodulid > Süsteemiadministratsioon > Turvalisus > Kohustuste jagamine > Kohustuste konfliktide jagamine**. Valige konflikt ja seejärel klõpsake ühte järgmistest nuppudest: **määrangu keelamine – kasutajale täiendava turberolli määrangu keelamine**. Automaatse Rollimäärangu keelamisel märgitakse kasutaja rollist välistatuks. Välistatud kasutajale ei anda rolliga seotud juurdepääsu ja kasutajat ei saa sellesse rolli määrata seni, kuni administraator välistuse eemaldab. Luba määramine – **Alista** konflikt ja kasutajale on võimalik määrata mõlemad turberollid. Kui alistate konflikti, siis peate sisestama põhjuse väljale **Alistamise põhjus**.  
-2. Sulgege leht.
-3. Avage **Navigeerimispaan > Moodulid > Süsteemiadministratsioon > Turvalisus > Kohustuste jagamine > Kohustuste lahendamata konfliktide jagamine**. Valige konflikt ja seejärel klõpsake ühte järgmistest nuppudest: **määrangu keelamine – kasutajale täiendava turberolli määrangu keelamine**. Automaatse Rollimäärangu keelamisel märgitakse kasutaja rollist välistatuks. Välistatud kasutajale ei anda rolliga seotud juurdepääsu ja kasutajat ei saa sellesse rolli määrata seni, kuni administraator välistuse eemaldab. Luba määramine – **Alista** konflikt ja kasutajale on võimalik määrata mõlemad turberollid. Kui alistate konflikti, siis peate sisestama põhjuse väljale **Alistamise põhjus**.    
-4. Sulgege leht.
+1. Avage **Süsteemihaldus** > **Turve** > **Kohustuste jagamine** > **Kohustuste jagamise lahendamata konfliktid**. 
+2. Valige vastuolu ja valige seejärel üks järgmistest tegevustest. 
 
-## <a name="verify-whether-existing-roles-comply-with-new-rules-for-segregation-of-duties"></a>Kontrollige, kas olemasolevad rollid vastavad uutele kohustuste jagamise reeglitele.
-1. Avage **Navigeerimispaan > Moodulid > Süsteemiadministratsioon > Turvalisus > Kohustuste jagamine > Kohustuste reeglite jagamine**. Valige reegel.  
-2. Valige **Kohustuste ja rollide kinnitamine**. Kui mis tahes olemasolev roll rikub valitud reeglit, kuvatakse teade, mis sisaldab rolli nime ja konfliktsete kohustuste nimesid. Administraator peab kas näitama turberiski vähendamist või muutma rolli, nii et see ei rikuks kohustuste jagamise reegleid. Kui ükski roll valitud reeglit ei riku, kuvatakse teade, et kõik rollid on vastavuses.  
+  - **Määrangu keelamine**: sellega keelatakse kasutaja määramine täiendavale turberollile. Automaatse Rollimäärangu keelamisel märgitakse kasutaja rollist välistatuks. Välistatud kasutajale ei anta rolliga seotud juurdepääsu ja teda ei saa sellesse rolli määrata seni, kuni administraator välistuse eemaldab. 
+-  **Luba määramine**: see alistab vastuolu ja kasutajale on võimalik määrata täiendav turberoll. Kui alistate konflikti, siis peate sisestama põhjuse väljale **Alistamise põhjus**. Kõiki alistatud rollimääranguid saab vaadata lehel **Kohustuste jagamise konfliktid**.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> [!NOTE]
+> Kui sama kasutaja kohta on loetletud mitu konflikti, valige kasutajakirje ja hinnake lehel **Kasutajad** määratud rolle. Konflikti vältimiseks kontrollige iga reeglit pärast selle lisamist või muutmist.

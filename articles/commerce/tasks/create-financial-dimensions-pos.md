@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7be50eba098b7b28594c8e18c721579f4bb2e879
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c51c77f4b9f411ae45fb955032aa40cb34738e9a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411726"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964766"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine
 
@@ -48,6 +47,3 @@ See protseduur selgitab finantsdimensioonide loomist kassaregistritele ja näita
 17. Leidke ja valige loendist värskendatava registri dimensiooniväärtus.
 18. Klõpsake nuppu Salvesta.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

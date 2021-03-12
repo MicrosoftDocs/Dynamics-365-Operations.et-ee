@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b7a953ea54286a7e48b392728d2cc9bb2902072
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 221e38cbe31e2ad24a56cb2e71206a1ebcdd619e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692814"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799000"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Luba kasutajatel töövooga seotud e-kirju vastu võtta
 
@@ -41,6 +41,3 @@ Saate konfigureerida süsteemi saatma kasutajatele meilisõnumeid töövooga seo
 
 > [!NOTE]
 > Töövoo meilimallid hangitakse süsteemi meilimallidest või organisatsiooni meilimallidest, sõltuvalt sellest, kas tegemist on süsteemitasandi (mitte ettevõttepõhise) või organisatsioonitasandi (ettevõttepõhise) töövooga.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

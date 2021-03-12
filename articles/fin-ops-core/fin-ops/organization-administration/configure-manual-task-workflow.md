@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 109c047a35154f6d4c0ebcd71e1c72990d0f4971
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693374"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798801"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Töövoos käsitsi ülesannete konfigureerimine
 
@@ -381,6 +381,3 @@ Kui kasutajale määratakse käsitsi ülesanne, tuleb kasutajal teha sellega teg
 5. Märkige ruut **Delegeeri**, kui soovite anda kasutajale õiguse delegeerida ülesanne teisele kasutajale.
 6. Märkige ruut **Määra ümber**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras.
 7. Märkige ruut **Vabasta**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras. Muu kasutaja saab ülesande täita.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

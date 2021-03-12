@@ -3,7 +3,7 @@ title: ER-i funktsioon DATEFORMAT
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni DATEFORMAT.
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684927"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826007"
 ---
 # <a name="dateformat-er-function"></a>ER-i funktsioon DATEFORMAT
 
@@ -52,6 +52,9 @@ Kuupäeva väärtus, mis tähistab vormindatavat kuupäeva.
 
 Väljundstringi vorming.
 
+> [!NOTE]
+> Vormingu string on tõstutundlik, kui kasutate kas standardvormingut või kohandatud vormingut. Näiteks [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) vormingu määraja „d” tagastab kuupäeva, kasutades lühikest kuupäeva mustrit, samas kui standardne vormingu määraja „D” tagastab kuupäeva pikka kuupäeva mustrit kasutades. Lisaks tagastab [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) vormingu määraja „M” kuu vahemikus 1 kuni 12, samas kui kohandatud vormingu määraja „m” tagastab minuti vahemikus 0 kuni 59.
+
 `culture`: *string*
 
 Vormindamiseks kasutatav kultuur.
@@ -77,6 +80,3 @@ Kui kultuur pole määratletud kutsutud funktsiooni argumendina, määratleb ole
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kuupäeva ja kellaaja funktsioonid](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

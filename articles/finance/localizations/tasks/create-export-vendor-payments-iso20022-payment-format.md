@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff8a2858bfa96eb1d4b0afa1e48ebd1b578a4431
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1df738e3925dc23e7723d93f33acf6a9d811b113
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442465"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964537"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil
 
@@ -50,6 +49,3 @@ See on viies viiest protseduurist, mis illustreerib hankija makseprotsessi, kasu
     3.    Sisestage väärtus väljale **Faili nimi**. Selles näites on loodud fail euromakse tõttu SEPA-ga ühilduv. Maksete loomiseks muudes valuutades saab kasutada ni ISO20022 krediidiedastust kui ka muid hankija maksevorminguid.
     4.    Sisestage või valige väärtus väljal **Pangakonto**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

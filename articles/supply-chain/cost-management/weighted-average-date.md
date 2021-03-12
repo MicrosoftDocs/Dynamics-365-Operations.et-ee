@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426073"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963734"
 ---
 # <a name="weighted-average-date"></a>Kaalutud keskmine kuupäev
 
@@ -32,13 +31,13 @@ ms.locfileid: "4426073"
 
 Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel. Kaalutud keskmise põhimõtte järgi hinnatakse varude väljaminekuid lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes. 
 
-Kui käitate lao sulgemist kaalutud keskmist kuupäeva kasutades, tasakaalustatakse kõik igapäevased sissetulekud virtuaalse väljaminekuga. See virtuaalne väljamineku hoiab kogu vastuvõetud kogust ja väärtust. Sel virtuaalsel väljaminekul on vastav virtuaalne sissetulek, millega väljaminekud tasakaalustatakse. Seega on kõigil väljaminekutel sama keskmine kulu. Virtuaalset väljaminekut ja sissetulekut saab vaadelda kui virtuaalset ülekannet nimega *kaalutud keskmise lao sulgemise ülekanne*. 
+Kui käitate lao sulgemist kaalutud keskmist kuupäeva kasutades, tasakaalustatakse kõik igapäevased sissetulekud virtuaalse väljaminekuga. See virtuaalne väljastus hoiab kogu vastuvõetud kogust ja väärtust. Sel virtuaalsel väljaminekul on vastav virtuaalne sissetulek, millega väljaminekud tasakaalustatakse. Seega on kõigil väljaminekutel sama keskmine kulu. Virtuaalset väljaminekut ja sissetulekut saab vaadelda kui virtuaalset ülekannet nimega *kaalutud keskmise lao sulgemise ülekanne*. 
 
 Kui sellel kuupäeval või enne seda on toimunud ainult üks sissetulek, ei ole keskmist tarvis hinnata. kõik kaubad on sealt tasakaalustatud ja virtuaalset ülekannet ei looda. Juhul kui antud kuupäeval toimuvad ainult väljaminekud, ei ole ühtegi sissetulekut, mille alusel keskmist hinnata ja virtuaalset ülekannet ei looda. Kaalutud keskmist kuupäeva kasutades saate märkida laokanded nii, et konkreetse kauba sissetulek tasakaalustatakse konkreetse väljamineku suhtes. Sel juhul ei kasutata kaalutud keskmise kuupäeva reeglit. Kui kasutate kaalutud keskmise kuupäeva laomudelit, soovitame igakuist lao sulgemist. 
 
 Kaalutud keskmise kuupäeva kuluarvutusmeetodi arvutamiseks kasutatakse järgmist valemit. 
 
-Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Varude sulgemise ajal tehakse arvutus iga päev sulgemisperioodi kaudu, nagu on näidatud järgmisel joonisel. 
 
@@ -51,7 +50,7 @@ Laokanded, millest jäävad varud, nagu müügitellimused, varude töölehed ja 
 
 Tasakaalustused on lao sulgemissisestused, mis korrigeerivad väljaminekud sulgemiskuupäeva seisuga õigele kaalutud keskmisele. 
 
-**Märkus.** Tasakaalustuste kohta lisateabe saamiseks vaadake artiklit varude sulgemise kohta. Järgmised näited illustreerivad kaalutud keskmise kasutamise mõju viie konfiguratsiooniga:
+**Märkus.** Tasakaalustuste kohta lisateabe jaoks vaadake artiklit varude sulgemise kohta. Järgmised näited illustreerivad kaalutud keskmise kasutamise mõju viie konfiguratsiooniga:
 
 -   kaalutud keskmise kuupäeva otsene tasakaalustus valikut **Kaasa füüsiline väärtus** kasutamata;
 -   kaalutud keskmise kuupäeva summeeritud tasakaalustus valikut **Kaasa füüsiline väärtus** kasutamata;
@@ -127,7 +126,7 @@ Teostatakse lao sulgemine. Kasutada tuleb otsest tasakaalustust, sest mitu sisse
 
 Süsteem loob ja sisestab summeeritud laoülekande kande. Peale selle tasakaalustab süsteem kõik päeva sissetulekud ja eelmiste päevade vaba kaubavaru summeeritud laoülekande väljaminekukandega. Kõik päeva väljaminekud tasakaalustatakse summeeritud laoülekande sissetulekukandega. Kaalutud keskmiseks omahinnaks arvutatakse 16,00 USA dollarit. Väljaminekul on kaalutud keskmise hinna korrigeerimiseks korrigeering 1,00 USA dollarit. Uus keskmine jooksevomahind on 16,00 USA dollarit. 
 
-Järgmine illustratsioon näitab seda kannete seeriat koos kaalutud keskmise laomudeli valimise mõjudega ja summeeritud põhimõtet ilma valikuta **Kaasa füüsiline väärtus**. 
+Järgmine joonis näitab seda kannete seeriat koos kaalutud keskmise laomudeli valimise mõjudega ja summeeritud põhimõtet ilma valikuta **Kaasa füüsiline väärtus**. 
 
 ![Kaalutud keskmise kuupäeva summeeritud tasakaalustus ilma valikuta Kaasa füüsiline väärtus](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
@@ -176,7 +175,7 @@ Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Seda saat
 -   6a. Varude füüsiline väljastus, kogus 1, omahind 21,25 USA dollarit.
 -   7. Teostatakse lao sulgemine. Kuna finantsiliselt värskendatud kanne märgiti olemasolevale sissetulekule, tasakaalustatakse need kanded üksteisega ja korrigeerimisi ei tehta.
 
-Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USD. Järgnev illustratsioon näitab seda kannete seeriat, kaalutud keskmise kuupäeva laomudeli valiku mõju ja märkimist.
+Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USD. Järgnev joonis näitab seda kannete seeriat, kaalutud keskmise kuupäeva laomudeli valiku mõju ja märkimist.
 
 ![Kaalutud keskmise kuupäev koos märkimisega](./media/weightedaveragedatewithmarking.gif) 
 
@@ -196,6 +195,3 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

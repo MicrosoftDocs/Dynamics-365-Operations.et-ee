@@ -3,7 +3,7 @@ title: Intrastati ülevaade
 description: Selles teemas antakse teavet Euroopa Liidu riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a70108696d6187126c23eca1779553210cd4a9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407864"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962722"
 ---
 # <a name="intrastat-overview"></a>Intrastati ülevaade
 
@@ -197,7 +196,7 @@ Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks jär
 <td><ul>
 <li><strong>Üldine</strong> – määrake järgmised andmed.
 <ul>
-<li>Müügi- ja ostutellimuste, kreeditarvete ja üleviimistellimuste kandekoodide vaikeväärtus. Kreeditarvetele seadistatud kandekoodi kasutatakse ka füüsiliste kaupade tagastamise koodina ning seda kasutatakse füüsiliste tagastuste ja parandamise kreeditarvete hälbe puhul.</li>
+<li>Müügi- ja ostutellimuste, kreeditarvete ja üleviimistellimuste kandekoodide vaikeväärtus. Kreeditarvetele seadistatud kandekoodi kasutatakse ka füüsiliste kaupade tagastamise koodina ning seda kasutatakse füüsiliste tagastuste ja parandamise kreeditarvete hälbe puhul. Füüsiliste kaupade tagastused esitatakse Intrastati kannetes erineva suunaga. Tagastustellimust kirjendatakse kui lähetust ja lähetust kirjendatakse saabumisena.</li>
 <li>Töötaja, kes vastutab Intrastati aruannete koostamise eest.</li>
 </ul></li>
 <li><strong>Alampiir</strong> – määrake lävest allapoole jäävate kannete muutmise sätted.
@@ -240,6 +239,3 @@ Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks jär
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

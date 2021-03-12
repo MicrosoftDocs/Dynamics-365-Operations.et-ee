@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d7118e85ff56f8c935c24a91dc84c6cc09641e0
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694307"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798976"
 ---
 # <a name="view-workflow-history"></a>Töövooajaloo kuvamine
 
@@ -46,6 +46,3 @@ Selles teemas kirjeldatakse, kuidas vaadata töövoo süsteemi töötlemiseks ja
     - Nupp **Määra uuesti** avab dialoogiboksi, kus saate tööüksuse määrata ümber teisele kasutajale.  
     - Veenduge, et jaotis **Jälgimise üksikasjad** oleks laiendatud. Selles jaotises saate vaadata valitud dokumendi töövoo ajalugu.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
