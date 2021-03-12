@@ -11,74 +11,73 @@ ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d249172c2bc4241a47502b57f2ac20b29111eeba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442435"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985008"
 ---
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="30e3d-104">Bilansi finantsaruanded</span><span class="sxs-lookup"><span data-stu-id="30e3d-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="b034f-104">Bilansi finantsaruanded</span><span class="sxs-lookup"><span data-stu-id="b034f-104">Balance sheet financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="30e3d-105">Selles artiklis kirjeldatakse bilansside vaikearuandeid.</span><span class="sxs-lookup"><span data-stu-id="30e3d-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="30e3d-106">Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.</span><span class="sxs-lookup"><span data-stu-id="30e3d-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="b034f-105">Selles artiklis kirjeldatakse bilansside vaikearuandeid.</span><span class="sxs-lookup"><span data-stu-id="b034f-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="b034f-106">Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.</span><span class="sxs-lookup"><span data-stu-id="b034f-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="30e3d-107">Bilansi vaikearuanded</span><span class="sxs-lookup"><span data-stu-id="30e3d-107">Default balance sheet reports</span></span>
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="b034f-107">Bilansi vaikearuanded</span><span class="sxs-lookup"><span data-stu-id="b034f-107">Default balance sheet reports</span></span>
 -----------------------------
 
-<span data-ttu-id="30e3d-108">Bilansi vaikearuandeid on kaks.</span><span class="sxs-lookup"><span data-stu-id="30e3d-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="30e3d-109">Ühes aruandes on jaotised virnastatud.</span><span class="sxs-lookup"><span data-stu-id="30e3d-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="30e3d-110">Teises aruandes on jaotised kõrvuti.</span><span class="sxs-lookup"><span data-stu-id="30e3d-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="b034f-108">Bilansi vaikearuandeid on kaks.</span><span class="sxs-lookup"><span data-stu-id="b034f-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="b034f-109">Ühes aruandes on jaotised virnastatud.</span><span class="sxs-lookup"><span data-stu-id="b034f-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="b034f-110">Teises aruandes on jaotised kõrvuti.</span><span class="sxs-lookup"><span data-stu-id="b034f-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="30e3d-111">Vaikearuanne</span><span class="sxs-lookup"><span data-stu-id="30e3d-111">Default report</span></span>                       | <span data-ttu-id="30e3d-112">Selle funktsioon</span><span class="sxs-lookup"><span data-stu-id="30e3d-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="b034f-111">Vaikearuanne</span><span class="sxs-lookup"><span data-stu-id="b034f-111">Default report</span></span>                       | <span data-ttu-id="b034f-112">Selle funktsioon</span><span class="sxs-lookup"><span data-stu-id="b034f-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="30e3d-113">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="30e3d-114">Annab ülevaate organisatsiooni aasta rahalisest seisust.</span><span class="sxs-lookup"><span data-stu-id="30e3d-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="30e3d-115">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="30e3d-116">Annab ülevaate organisatsiooni aasta rahalisest seisust.</span><span class="sxs-lookup"><span data-stu-id="30e3d-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="30e3d-117">Varad ja kohustused ja omakapital on kõrvuti.</span><span class="sxs-lookup"><span data-stu-id="30e3d-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="b034f-113">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="b034f-114">Annab ülevaate organisatsiooni aasta rahalisest seisust.</span><span class="sxs-lookup"><span data-stu-id="b034f-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="b034f-115">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="b034f-116">Annab ülevaate organisatsiooni aasta rahalisest seisust.</span><span class="sxs-lookup"><span data-stu-id="b034f-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="b034f-117">Varad ja kohustused ja omakapital on kõrvuti.</span><span class="sxs-lookup"><span data-stu-id="b034f-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="30e3d-118">Koosteüksused</span><span class="sxs-lookup"><span data-stu-id="30e3d-118">Building blocks</span></span>
-<span data-ttu-id="30e3d-119">Bilansi finantsaruanded kasutavad järgmisi koosteüksusi.</span><span class="sxs-lookup"><span data-stu-id="30e3d-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="b034f-118">Koosteüksused</span><span class="sxs-lookup"><span data-stu-id="b034f-118">Building blocks</span></span>
+<span data-ttu-id="b034f-119">Bilansi finantsaruanded kasutavad järgmisi koosteüksusi.</span><span class="sxs-lookup"><span data-stu-id="b034f-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="30e3d-120">Vaikearuanne</span><span class="sxs-lookup"><span data-stu-id="30e3d-120">Default report</span></span>                       | <span data-ttu-id="30e3d-121">Rea definitsioon</span><span class="sxs-lookup"><span data-stu-id="30e3d-121">Row definition</span></span>                       | <span data-ttu-id="30e3d-122">Veeru määratlus</span><span class="sxs-lookup"><span data-stu-id="30e3d-122">Column definition</span></span>             |
+| <span data-ttu-id="b034f-120">Vaikearuanne</span><span class="sxs-lookup"><span data-stu-id="b034f-120">Default report</span></span>                       | <span data-ttu-id="b034f-121">Rea definitsioon</span><span class="sxs-lookup"><span data-stu-id="b034f-121">Row definition</span></span>                       | <span data-ttu-id="b034f-122">Veeru määratlus</span><span class="sxs-lookup"><span data-stu-id="b034f-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="30e3d-123">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="30e3d-124">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="30e3d-125">YTD ja hälve – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="30e3d-126">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="30e3d-127">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="30e3d-128">Veerg Aasta tänaseni – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="30e3d-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="b034f-123">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="b034f-124">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="b034f-125">YTD ja hälve – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="b034f-126">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="b034f-127">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="b034f-128">Veerg Aasta tänaseni – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="b034f-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="30e3d-129">Rea definitsioon</span><span class="sxs-lookup"><span data-stu-id="30e3d-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="b034f-129">Rea definitsioon</span><span class="sxs-lookup"><span data-stu-id="b034f-129">Row definition</span></span>
 
-<span data-ttu-id="30e3d-130">Mõlema bilansiaruande rea definitsioonid sisaldavad jaotisi iga tavalise bilansi osa puhul.</span><span class="sxs-lookup"><span data-stu-id="30e3d-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="30e3d-131">Kõrvutiaruanne sisaldab veerupiiri, nii et kohustus ja omakapital kuvatakse varade kõrval.</span><span class="sxs-lookup"><span data-stu-id="30e3d-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="30e3d-132">Põhikonto kategooria dimensiooni kasutatakse mõlema readefinitsiooni loomiseks.</span><span class="sxs-lookup"><span data-stu-id="30e3d-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="30e3d-133">Seega saab igaüks luua aruanded ilma muudatusi tegemata.</span><span class="sxs-lookup"><span data-stu-id="30e3d-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="b034f-130">Mõlema bilansiaruande rea definitsioonid sisaldavad jaotisi iga tavalise bilansi osa puhul.</span><span class="sxs-lookup"><span data-stu-id="b034f-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="b034f-131">Kõrvutiaruanne sisaldab veerupiiri, nii et kohustus ja omakapital kuvatakse varade kõrval.</span><span class="sxs-lookup"><span data-stu-id="b034f-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="b034f-132">Põhikonto kategooria dimensiooni kasutatakse mõlema readefinitsiooni loomiseks.</span><span class="sxs-lookup"><span data-stu-id="b034f-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="b034f-133">Seega saab igaüks luua aruanded ilma muudatusi tegemata.</span><span class="sxs-lookup"><span data-stu-id="b034f-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="30e3d-134">Veeru määratlus</span><span class="sxs-lookup"><span data-stu-id="30e3d-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="b034f-134">Veeru määratlus</span><span class="sxs-lookup"><span data-stu-id="b034f-134">Column definition</span></span>
 
-<span data-ttu-id="30e3d-135">Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmete eri tasemete pakkumiseks.</span><span class="sxs-lookup"><span data-stu-id="30e3d-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="b034f-135">Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmete eri tasemete pakkumiseks.</span><span class="sxs-lookup"><span data-stu-id="b034f-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="30e3d-136">**YTD ja hälve – vaikimisi veerutüübid:**</span><span class="sxs-lookup"><span data-stu-id="30e3d-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="30e3d-137">**DESC** – kirjeldus readefinitsioonist</span><span class="sxs-lookup"><span data-stu-id="30e3d-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="30e3d-138">**FD** – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="30e3d-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="30e3d-139">**FD** – möödunud aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="30e3d-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="30e3d-140">**CALC** – hälve möödunud aasta jooksvast aastast lahutamisest</span><span class="sxs-lookup"><span data-stu-id="30e3d-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="b034f-136">**YTD ja hälve – vaikimisi veerutüübid:**</span><span class="sxs-lookup"><span data-stu-id="b034f-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="b034f-137">**DESC** – kirjeldus readefinitsioonist</span><span class="sxs-lookup"><span data-stu-id="b034f-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="b034f-138">**FD** – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="b034f-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="b034f-139">**FD** – möödunud aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="b034f-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="b034f-140">**CALC** – hälve möödunud aasta jooksvast aastast lahutamisest</span><span class="sxs-lookup"><span data-stu-id="b034f-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="30e3d-141">**Veerg Aasta tänaseni – vaikimisi:**</span><span class="sxs-lookup"><span data-stu-id="30e3d-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="30e3d-142">**DESC** – kirjeldus readefinitsioonist</span><span class="sxs-lookup"><span data-stu-id="30e3d-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="30e3d-143">**FD** – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="30e3d-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="b034f-141">**Veerg Aasta tänaseni – vaikimisi:**</span><span class="sxs-lookup"><span data-stu-id="b034f-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="b034f-142">**DESC** – kirjeldus readefinitsioonist</span><span class="sxs-lookup"><span data-stu-id="b034f-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="b034f-143">**FD** – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="b034f-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="30e3d-144">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="30e3d-144">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="b034f-144">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="b034f-144">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="30e3d-145">Finantsaruandluse ülevaade</span><span class="sxs-lookup"><span data-stu-id="30e3d-145">Financial reporting overview</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="b034f-145">Finantsaruandluse ülevaade</span><span class="sxs-lookup"><span data-stu-id="b034f-145">Financial reporting overview</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="30e3d-146">Finantsaruannete vaatamine</span><span class="sxs-lookup"><span data-stu-id="30e3d-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="b034f-146">Finantsaruannete vaatamine</span><span class="sxs-lookup"><span data-stu-id="b034f-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="30e3d-147">Dynamicsi finantsaruandluse ajaveeb</span><span class="sxs-lookup"><span data-stu-id="30e3d-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="b034f-147">Dynamicsi finantsaruandluse ajaveeb</span><span class="sxs-lookup"><span data-stu-id="b034f-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
