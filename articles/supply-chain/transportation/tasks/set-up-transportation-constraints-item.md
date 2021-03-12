@@ -11,36 +11,35 @@ ms.technology: ''
 ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f351da832f8fa62935d09c6ce6ede277971dbbbc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 244cf7337ec856f7517a3c0c3e055a90ab65b13f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426042"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973931"
 ---
-# <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="75e2f-103">Kauba transpordipiirangute seadistamine</span><span class="sxs-lookup"><span data-stu-id="75e2f-103">Set up transportation constraints for an item</span></span>
+# <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="fd064-103">Kauba transpordipiirangute seadistamine</span><span class="sxs-lookup"><span data-stu-id="fd064-103">Set up transportation constraints for an item</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="75e2f-104">Selle protseduuri saab seadistada transpordipiirangu, et vältida valitud kauba transportimist valitud keskuse kaudu.</span><span class="sxs-lookup"><span data-stu-id="75e2f-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="75e2f-105">Seda ülesannet täidab tavaliselt transpordi koordinaator.</span><span class="sxs-lookup"><span data-stu-id="75e2f-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="75e2f-106">Saate seda protseduuri kasutada demoettevõttes USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="75e2f-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
+<span data-ttu-id="fd064-104">Selle protseduuri saab seadistada transpordipiirangu, et vältida valitud kauba transportimist valitud keskuse kaudu.</span><span class="sxs-lookup"><span data-stu-id="fd064-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="fd064-105">Seda ülesannet täidab tavaliselt transpordi koordinaator.</span><span class="sxs-lookup"><span data-stu-id="fd064-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="fd064-106">Saate seda protseduuri kasutada demoettevõttes USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="fd064-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
 
 
-## <a name="create-an-item-constaint"></a><span data-ttu-id="75e2f-107">Kauba piirangu loomine</span><span class="sxs-lookup"><span data-stu-id="75e2f-107">Create an item constaint</span></span>
-1. <span data-ttu-id="75e2f-108">Minge asukohta Piirangud.</span><span class="sxs-lookup"><span data-stu-id="75e2f-108">Go to Constraints.</span></span>
-2. <span data-ttu-id="75e2f-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="75e2f-109">Click New.</span></span>
-3. <span data-ttu-id="75e2f-110">Tippige väärtus väljale Kauba piirang.</span><span class="sxs-lookup"><span data-stu-id="75e2f-110">In the Item constraint field, type a value.</span></span>
-4. <span data-ttu-id="75e2f-111">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="75e2f-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="75e2f-112">Sisestage või valige väärtus väljal Koht.</span><span class="sxs-lookup"><span data-stu-id="75e2f-112">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="75e2f-113">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="75e2f-113">In the Warehouse field, enter or select a value.</span></span>
-7. <span data-ttu-id="75e2f-114">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="75e2f-114">In the Item number field, enter or select a value.</span></span>
-8. <span data-ttu-id="75e2f-115">Sisestage või valige väärtus väljal Keskus.</span><span class="sxs-lookup"><span data-stu-id="75e2f-115">In the Hub field, enter or select a value.</span></span>
-9. <span data-ttu-id="75e2f-116">Valige suvand väljal Piirangu tegevus.</span><span class="sxs-lookup"><span data-stu-id="75e2f-116">In the Constraint action field, select an option.</span></span>
-10. <span data-ttu-id="75e2f-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="75e2f-117">Click Save.</span></span>
-11. <span data-ttu-id="75e2f-118">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="75e2f-118">Close the page.</span></span>
+## <a name="create-an-item-constaint"></a><span data-ttu-id="fd064-107">Kauba piirangu loomine</span><span class="sxs-lookup"><span data-stu-id="fd064-107">Create an item constaint</span></span>
+1. <span data-ttu-id="fd064-108">Minge asukohta Piirangud.</span><span class="sxs-lookup"><span data-stu-id="fd064-108">Go to Constraints.</span></span>
+2. <span data-ttu-id="fd064-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="fd064-109">Click New.</span></span>
+3. <span data-ttu-id="fd064-110">Tippige väärtus väljale Kauba piirang.</span><span class="sxs-lookup"><span data-stu-id="fd064-110">In the Item constraint field, type a value.</span></span>
+4. <span data-ttu-id="fd064-111">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="fd064-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="fd064-112">Sisestage või valige väärtus väljal Koht.</span><span class="sxs-lookup"><span data-stu-id="fd064-112">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="fd064-113">Sisestage või valige väärtus väljal Ladu.</span><span class="sxs-lookup"><span data-stu-id="fd064-113">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="fd064-114">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="fd064-114">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="fd064-115">Sisestage või valige väärtus väljal Keskus.</span><span class="sxs-lookup"><span data-stu-id="fd064-115">In the Hub field, enter or select a value.</span></span>
+9. <span data-ttu-id="fd064-116">Valige suvand väljal Piirangu tegevus.</span><span class="sxs-lookup"><span data-stu-id="fd064-116">In the Constraint action field, select an option.</span></span>
+10. <span data-ttu-id="fd064-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="fd064-117">Click Save.</span></span>
+11. <span data-ttu-id="fd064-118">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="fd064-118">Close the page.</span></span>
 
