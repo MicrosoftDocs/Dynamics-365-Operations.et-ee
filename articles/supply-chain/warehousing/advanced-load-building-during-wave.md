@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654194"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006387"
 ---
 # <a name="advanced-load-building-during-wave"></a>Täiustatud koormuse koostamine voo ajal
 
@@ -250,6 +249,3 @@ Selles stsenaariumis näidatakse, kuidas selles teemas eelnevalt kirjeldatud sä
 1. Valige äsja loodud müügitellimuses kiirkaardil **Müügitellimuse read** suvand **Lisa rida**, et lisada teine rida.
 1. Määrake uue rea välja **Kaubakood** väärtuseks *M9200*, välja **Kogus** väärtuseks *1*.
 1. Korrake ridu 6–9 rea reserveerimiseks ja lattu vabastamiseks. Nagu eelnevalt, loob süsteem teie lisatud reale **uue** saadetise. Kuid kuna kaup pärineb kaubagrupist **CarAudio**, ei **läbi see koormuse segagrupile määratud piiranguid**. Seetõttu **lisatakse see uuele koormusele**. Kui te pole koormuse loomise mallis määranud koormuse segagruppi, oleks see saadetis lisatud esimesele koormusele.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d513e6898827de9a3fb1ed59006b817fb9006019
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 115463c57b28e681d4c6bdc227e35272861779aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425974"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006912"
 ---
 # <a name="create-a-production-flow-version"></a>Tootmisvoo versiooni loomine
 
@@ -64,6 +63,3 @@ See protseduur keskendub uue tootmisvoo versiooni loomisele. Selle protseduuri p
     * Sisestage väljale Tegeliku tsükliaja periood päevade arv. Tegeliku tsükliaja periood on tegelikust minutist tagasisuunas koondatud tööde päevade arv tegeliku tsükliaja arvutamiseks. Väärtust saab igal ajal muuta ja seda kasutatakse ainult tegelike tsükliaegade arvutamiseks.  
 13. Klõpsake nuppu Salvesta.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
