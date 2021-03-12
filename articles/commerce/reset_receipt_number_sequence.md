@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7242ed830d09a29a4b01e20ce5070c3aaeca62b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411606"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979710"
 ---
 # <a name="reset-receipt-numbers"></a>Kviitunginumbrite lähtestamine 
 
@@ -68,6 +67,3 @@ Tulevaste lähtestamise kuupäevade tühjendamiseks saate kasutada funktsiooni *
 
 > [!NOTE]
 > Olenevalt teie valitud lähtestamise kuupäevast ja kviitungi vormingust, võivad esineda kviitungi numbrite duplikaadid. Kuigi kassasüsteem saab nende olukordadega hakkama, suurendavad need tagastuste töötlemiseks kuluvat aega, kuna müüjad peavad valima kviitungite duplikaatide seast. Kui kviitungite duplikaadid ei olnud plaanitud tagajärg, võivad ilmneda muud andmete korrastamisega seotud komplikatsioonid. Seetõttu soovitame teil kasutada dünaamilisi kuupäeva märke (nt **ddd**, **MM**, **DD** ja **YY**), et pärast lähtestamist aidata vältida kviitungi numbrite duplikaate.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

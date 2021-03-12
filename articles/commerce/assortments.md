@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411600"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979994"
 ---
 # <a name="assortment-management"></a>Sortimendi haldus
 
@@ -107,6 +106,3 @@ Kui plaanite ja haldate oma Commerce'i juurutuse jaoks sortimente, arvestage jä
 - **Müük ja tagastused väljaspool sortimente** – see võimalus aitab jaemüüjatel oma sortimente tõhusalt hallata, võimaldades piirata saadaolevate toodete arvu toodetega, mis kuuluvad kaupluse peamisse tootevalikusse. See võimalus aitab jaemüüjatel käsitleda olukordi, kus toode jäeti ekslikult sortimendist välja või kus toode tagastati väljaspool sortimendi kehtivuskuupäevi.
 
 Kui toote andmeid pole kanali andmebaasis, teeb kassa vajaliku teabe hankimiseks reaalajas kõnesid peakontorisse, et toodet saaks müüa, tagastada või panna klienditellimusse. Sel viisil hangitav tooteteave on saadaval ainult selle kande käitlemise ajal. Seda toodet ei lisata sortimendi määratlusse. Seetõttu tehakse järgnevad reaalajas kõned vastavalt vajadusele.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

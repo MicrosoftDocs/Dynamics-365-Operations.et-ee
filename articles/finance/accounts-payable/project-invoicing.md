@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442318"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979583"
 ---
 # <a name="project-invoicing"></a>Projekti arveldamine
 
@@ -75,7 +74,7 @@ Kui teie organisatsioon nõuab arvesoovituste ülevaatamist enne nende sisestami
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Projektiarvete loendi lehekülgedel antava hüvitiste teabe kuvamine
 
-Avaliku sektori kasutajad saavad lisada **Hüvitise ID** ja **Hüvitise nime** loendite **Projekti arvesoovituste** ja **Projektiarvete** lehtedele. Need veerud on lubatud funktsiooni **Hüvitiste teabe lisamine projektiarvete loendi lehtedele** kasutamisel. See funktsioon on vaikimisi välja lülitatud ja seda saab lubada jaotises **Tööruumid > Funktsioonihaldus**. Selle funktsiooni lubamiseks abi saamiseks võtke ühendust oma süsteemiadministraatoriga.
+Avaliku sektori kasutajad saavad lisada **Hüvitise ID** ja **Hüvitise nime** loendite **Projekti arvesoovituste** ja **Projektiarvete** lehtedele. Need veerud on lubatud funktsiooni **Hüvitiste teabe lisamine projektiarvete loendi lehtedele** kasutamisel. See funktsioon on vaikimisi välja lülitatud ja seda saab lubada jaotises **Tööruumid > Funktsioonihaldus**. Selle funktsiooni lubamiseks abi saamiseks võtke ühendust oma süsteemiadministraatoriga.
 
 ## <a name="on-account-invoicing"></a>Ettemaksu arveldus
 Ettemaksuarvele projekti kohta sisestatav summa põhineb ajastusel, valmimisprotsendil ja muudel seotud projektilepingus sätestatud arveldustingimustel. Summat ei arvutata tundide, kaupade, kulude ega projektile sisestatud tasude põhjal. 
@@ -132,6 +131,3 @@ Saate koostada negatiivse summaga arve, mis klassifitseeritakse kreeditarveks. K
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

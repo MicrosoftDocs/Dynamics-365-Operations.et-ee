@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411778"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979749"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Kviitungivormingute häälestamine ja kujundamine
 
@@ -46,6 +45,10 @@ See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kvii
     - **Ära prindi** – kviitungit ei prindita.
     - **Küsi kasutajalt** – kasutajalt küsitakse kviitungi printimise kohta.
     - **Nagu on nõutud** – seda valikut kasutatakse ainult ostukviitungite puhul. Kui see suvand on valitud, saab kasutaja vajadusel ostukviitungi leheküljelt **Muuda** printida.
+
+## <a name="print-images"></a>Piltide printimine
+
+Kviitungi kujundaja sisaldab muutujat **Logo**, mida saab kasutada kviitungile prinditavate piltide määratlemiseks. Pildid, mis muutuja **Logo** abil kviitungitele trükitakse peaksid olema monokroomise bitmapi (.bmp) failitüübiga. Kui kviitungi kujundajas on määratud .bmp-pilt, kuid printerisse saatmisel seda ei prindita, võib faili suurus olla liiga suur või pildi pikslite mõõdud ei ole printeriga ühilduvad. Kui nii juhtub, proovige vähendada pildifaili eraldusvõimet.   
 
 ## <a name="design-a-receipt-format"></a>Kviitungi vormingu kujundamine
 
@@ -82,6 +85,3 @@ Kviitungi profiilid määratakse riistvaraprofiili abil otse printeritele.
 
 > [!NOTE]
 > Kui kasutate kahte printerit, saate üht printerit standardsete 40-veeruliste termoparberil kviitungite printimiseks kasutada. Teist printerit kasutatakse tavaliselt rohkem teavet nõudvate kogu lehe suuruste kviitungi tüüpide puhul. Selliste kviitungite hulka kuuluvad kliendi tellimuse kviitungid ja kliendiarved.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

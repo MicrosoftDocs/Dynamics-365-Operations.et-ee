@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411603"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979671"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Kupongide seadistamine jaemüügi jaoks
 
@@ -82,6 +81,3 @@ Kupongi funktsioon hõlmab mitut eraldi funktsiooni. Commerce’i komponenti Hea
 - **HQ-d uuendatakse osaliselt, kuid Commerce’i skaala üksust ja kassat ei uuendata.** HQ uuendamisel uuendatakse kupongi ja allahindluse lehti ning kaubanduse hinnamootorit uuendatakse samuti. Kui uuendada ainult ühte neist kahest komponendist, ei vasta mõned Commerce’i lehed hinna arvutamise andmetele. Seetõttu võib allahindluse arvutamisel ilmneda ootamatuid allahindluse arvutusi või tõrkeid.
 - **HQ-d uuendatakse, kuid Commerce’i skaala üksust ja kassat ei uuendata (N-1).** Kuna kõiki kauplusi ei saa korraga uuendada, siis soovitame enne kaupluste uuendamist HQ-d uuendada. Stsenaariumi N-1 puhul ei ole kupongidega seotud uued funktsioonid saadaval kauplustes, mida pole veel uuendatud. Näiteks pakub kupongi funktsioon ridade „väljajätmist”. Kui kasutate allahindlusel ridade väljajätmist, siis ei rakendata neid varasemat versiooni kasutavas kaupluses.
 - **HQ-d ei uuendata, kuid Commerce’i skaala üksust ja kassat uuendatakse (N+1).** Kuna uuendatud hinnamootor Commerce’i skaala üksuses suudab tulla hindade arvutamisel toime pärand-allahindluskoodidega, ei tohiks uuendusel olla selles stsenaariumis funktsioonidele mingit mõju.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

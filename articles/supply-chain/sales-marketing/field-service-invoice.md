@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f1790366cebf317472bc1ef9a5ecd2a19fe755d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528241"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980827"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sünkroonige leppe arved rakenduses Field Service vabas vormis arveteks rakenduses Supply Chain Management
 
@@ -55,23 +54,23 @@ Enne lepingu arvete sünkroonimist on nõutav järgmine sünkroonimine.
 
 | Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
-| arved       | CDS-i kliendi vabas vormis arve päised |
-| invoicedetails | CDS-i kliendi vabas vormis arve read   |
+| arved       | Dataverse’i kliendi vabas vormis arve päised |
+| invoicedetails | Dataverse’i kliendi vabas vormis arve read   |
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Field Service’i leppe arveid saab teenuse Common Data Service andmeintegratsiooni projekti kaudu sünkroonida rakendusega Supply Chain Management. Nende arvete värskendused sünkroonitakse rakenduses Supply Chain Management vabas vormis arvetega, kui vabas vormis arvete raamatupidamisolek on **Pooleli**. Pärast vabas vormis arvete sisestamist rakenduses Supply Chain Management värskendatakse raamatupidamisolekuks **Lõpetatud**, mis tähendab, et enam ei saa sünkroonida värskendusi rakendusest Field Service.
+Field Service’i leppe arveid saab teenuse Microsoft Dataverse andmeintegratsiooni projekti kaudu sünkroonida rakendusega Supply Chain Management. Nende arvete värskendused sünkroonitakse rakenduses Supply Chain Management vabas vormis arvetega, kui vabas vormis arvete raamatupidamisolek on **Pooleli**. Pärast vabas vormis arvete sisestamist rakenduses Supply Chain Management värskendatakse raamatupidamisolekuks **Lõpetatud**, mis tähendab, et enam ei saa sünkroonida värskendusi rakendusest Field Service.
 
 ## <a name="field-service-crm-solution"></a>Rakenduse Field Service CRM lahendus
 
-Olemile **Arve** on lisatud väli **Lepingust pärinevate ridadega**. See väli aitab tagada, et sünkroonitakse ainult lepingu arved. Väärtus on **tõene**, kui arve sisaldab vähemalt ühte lepingust pärinevat arverida.
+Tabelile **Arve** on lisatud veerg **Lepingust pärinevate ridadega**. See veerg aitab tagada, et sünkroonitakse ainult lepingu arved. Väärtus on **tõene**, kui arve sisaldab vähemalt ühte lepingust pärinevat arverida.
 
-Olemile **Arve rida** on lisatud väli **Lepingust pärinevate ridadega**. See väli aitab tagada, et sünkroonitakse ainult lepingust loodud arve read. Väärtus on **tõene**, kui arve rida pärineb lepingust.
+Tabelile **Arverida** on lisatud veerg **Lepingust pärinev**. See veerg aitab tagada, et sünkroonitakse ainult lepingust loodud arveread. Väärtus on **tõene**, kui arve rida pärineb lepingust.
 
-**Arve kuupäev** on kohustuslik väli rakenduses Supply Chain Management. Seetõttu peab väljal rakenduses Field Service enne sünkroonimist olema väärtus. Selle nõudega kooskõlla viimiseks lisatakse järgmine loogika.
+**Arve kuupäev** on kohustuslik väli rakenduses Supply Chain Management. Seetõttu peab veerul rakenduses Field Service enne sünkroonimist olema väärtus. Selle nõudega kooskõlla viimiseks lisatakse järgmine loogika.
 
-- Kui väli **Arve kuupäev** on olemil **Arve** tühi (st kui sel puudub väärtus), seatakse selleks tänane kuupäev, kui lisatakse lepingust pärinev arve rida.
-- Kasutaja saab välja **Arve kuupäev** muuta. Ent kui kasutaja üritab lepingu arvet salvestada, saab ta äriprotsessi tõrke, kui arvel on väli **Arve kuupäev** tühi.
+- Kui veerg **Arve kuupäev** on tabelis **Arve** tühi (st kui sel puudub väärtus), seatakse selleks tänane kuupäev, kui lisatakse lepingust pärinev arve rida.
+- Kasutaja saab veergu **Arve kuupäev** muuta. Ent kui kasutaja üritab lepingu arvet salvestada, saab ta äriprotsessi tõrke, kui arvel on veerg **Arve kuupäev** tühi.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
@@ -108,6 +107,3 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Leppe arved (rakendus Field Service rakendusele Supply Chain Management): arve read
 
 [![Malli vastendamine andmete integratsioonis](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

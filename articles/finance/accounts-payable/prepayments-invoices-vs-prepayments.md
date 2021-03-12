@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442320"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979534"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
@@ -51,7 +50,7 @@ Paljude riikide/piirkondade raamatupidamistava nõuab, et ettemakseid klientidel
 3.  Looge maksetööleht ja seejärel uus makse.
 4.  Saate tähistada makse ettemaksena. Kui makse on tähistatud ettemaksena, sisestatakse makse etappides 1 ja 2 seadistatud sisestusreeglis määratletud pearaamatukontodele. Kui makse on tähistatud ettemaksena, arvutatakse ka maksud. Mõnes riigis on nõutav, et maksud tuleb tasuda ettemakse registreerimisel, isegi kui arve puudub.
 5.  Sisestage ettemakse.
-6.  Valikuline: saate enne arve loomist makse ostutellimuse või müügitellimuse suhtes tasakaalustada. Kasutage müügitellimuse või ostutellimuse lehe tegevuspaanil valikut **Kannete tasakaalustamine**.
+6.  Valikuline: saate enne arve loomist makse ostutellimuse või müügitellimuse suhtes tasakaalustada. Kasutage müügitellimuse või ostutellimuse lehe tegevuspaanil valikut **Kannete tasakaalustamine**.
 7.  Kui hankija on kaubad või teenused tarninud, registreerige arve. Kui tasakaalustasite ettemakse 6. etapis ostutellimuse või müügitellimuse suhtes, tasakaalustatakse ettemakse automaatselt teie loodud arve suhtes. Kui te ettemakset ostutellimuse või müügitellimuse suhtes ei tasakaalsutanud, saate selle arve suhtes käsitsi tasakaalustada, kasutades kliendi või hankija lehel jaotist **Kannete tasakaalustamine**. Ettemakse summa tühistatakse ajutiselt AP-/AR-pearaamatukontolt. Peale selle tühistatakse ka maksud, kui need on arvutatud, kuna arvel on tegelikud maksud.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Ettemaksuarvelduse protsessi ülevaade
@@ -66,6 +65,3 @@ Ettemaksuarved on levinud äritava. Hankija väljastab ettemaksuarved, et nõuda
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

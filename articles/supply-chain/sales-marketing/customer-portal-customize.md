@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527359"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980852"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliendiportaali kohandamine ja kasutamine
 
@@ -40,9 +39,9 @@ Järgmised teemad aitavad teil õppida Power Appsi portaalide põhitõdesid ning
 - [Portaali sisu haldamine](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – selles teemas selgitatakse, kuidas saate hallata ja kohandada sisu, mida oma portaalis kasutate.
 - [CSS-i redigeerimine](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – see teema aitab teil teha oma portaali kasutajaliidese keerukamaid kohandusi.
 - [Portaali jaoks teema loomine](https://docs.microsoft.com/dynamics365/portals/create-theme) – selles teemas aidatakse teil luua oma portaali kasutajaliidese teema.
-- [Portaali sisu lihtne loomine ja esitamine](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – selles teemas aidatakse teil hallata alusandmeid ja -üksuseid, mida oma portaalis kasutate.
+- [Portaali sisu lihtne loomine ja esitamine](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – selles teemas aidatakse teil hallata alusandmeid ja -tabeleid, mida oma portaalis kasutate.
 - [Kontakti konfigureerimine portaalis kasutamiseks](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – selles teemas selgitatakse, kuidas luua ja kohandada kasutajarolle ning kuidas toimivad Power Appsi portaalide turve ja autentimine.
-- [Teadete konfigureerimine portaalide üksuse- ja veebivormide jaoks](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – selles teemas selgitatakse, kuidas lisada portaali dokumente ja täiendavat mäluruumi.
+- [Teadete konfigureerimine portaalide tabeli- ja veebivormide jaoks](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – selles teemas selgitatakse, kuidas lisada portaali dokumente ja täiendavat mäluruumi.
 - [Portaali veebisaidi tõrketöötlus](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – selles teemas selgitatakse, kuidas kuvada portaali tõrkelogisid ja salvestada neid oma Microsoft Azure'i bloobimälu kontol.
 
 ## <a name="customize-the-order-creation-process"></a>Tellimuse loomise protsessi kohandamine
@@ -91,7 +90,7 @@ Siit leiate standardetapid tellimuse esitamiseks kliendiportaali kaudu.
 
 Sujuva kasutajakogemuse tagamise otstarbel täidab kliendiportaal mitme nõutava välja väärtused automaatselt. Need väärtused põhinevad tellimust esitava kliendi kontaktikirjes toodud teabel.
 
-Kliendiportaali tellimuste esitamiseks kasutava kliendi iga [kontaktikirje](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) kohta tuleb täpsustada järgmiste nõutud väljade väärtused. Vastasel juhul ilmnevad tõrked.
+Kliendiportaali tellimuste esitamiseks kasutava kliendi iga [kontaktirida](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) kohta tuleb täpsustada järgmiste nõutud väljade väärtused. Vastasel juhul ilmnevad tõrked.
 
 - **Ettevõte** – juriidiline isik, kellele tellimus kuulub
 - **Potentsiaalne klient** – tellimusega seotud kliendikonto
@@ -99,7 +98,7 @@ Kliendiportaali tellimuste esitamiseks kasutava kliendi iga [kontaktikirje](http
 - **Valuuta** – hinna valuuta
 - **Tarni riiki/piirkonda** – riik või piirkond, kuhu kaubad tarnitakse
 
-Müügitellimuse üksuse jaoks on automaatselt täidetud järgmised väljad.
+Müügitellimuse tabeli jaoks on automaatselt täidetud järgmised väljad.
 
 - **Keel** – tellimuse keel (väärtus võetakse vaikimisi kontaktikirjest).
 - **Tarni riiki/piirkonda** – riik või piirkond, kuhu kaubad tarnitakse (väärtus võetakse vaikimisi kontaktikirjest).
@@ -116,7 +115,7 @@ Müügitellimuse üksuse jaoks on automaatselt täidetud järgmised väljad.
 
 Te saate vabalt muuta kliendiportaali välimust ja kasutajaliidest, kui te ei muuda tellimuse loomise põhiprotsessi. Kui soovite muuta tellimuse loomise protsessi, siis tuleb meeles pidada mõned asjad.
 
-Ärge eemaldage Common Data Service'is müügitellimuse üksuselt järgmisi välju, kuna need on vajalikud müügitellimuse loomisel topeltkirjutuse jaoks.
+Ärge eemaldage Microsoft Dataverse’is müügitellimuse tabelist järgmisi veerge, kuna need on vajalikud müügitellimuse loomisel topeltkirjutuse jaoks.
 
 - **Ettevõte** – juriidiline isik, kellele tellimus kuulub
 - **Nimi** – müügitellimuse nimi
@@ -127,7 +126,7 @@ Te saate vabalt muuta kliendiportaali välimust ja kasutajaliidest, kui te ei mu
 - **Keel** – tellimuse keel (tavaliselt on see potentsiaalse kliendi keel).
 - **Tarneaadressi kirjeldus** – müügitellimuse tarneaadress
 
-Kaupade puhul on järgmised väljad kohustuslikud.
+Kaupade puhul on järgmised veerud kohustuslikud.
 
 - **Toode** – tellitav toode
 - **Kogus** – valitud toote kogus
@@ -135,11 +134,11 @@ Kaupade puhul on järgmised väljad kohustuslikud.
 - **Tarni riiki/piirkonda** – tarneriik või -piirkond
 - **Tarneaadressi kirjeldus** – tellimuse tarneaadress
 
-Peate veenduma, et kliendiportaal esitaks kuidagi kõigi nende väljade väärtused.
+Peate veenduma, et kliendiportaal esitaks kuidagi kõigi nende veergude väärtused.
 
-Kui soovite lehele välju lisada või neid eemaldada, vt teemat [Kiirloomise vormide loomine või redigeerimine sujuvaks andmesisestuseks](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Kui soovite lehele veerge lisada või neid eemaldada, vt teemat [Kiirloomise vormide loomine või redigeerimine sujuvaks andmesisestuseks](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Kui soovita muuta väljade eelseadistust ning seda, kuidas väljad lehe salvestamisel seadistatakse, siis tutvuge Power Appsi portaalide dokumentatsioonis järgmise teabega.
+Kui soovita muuta veergude eelseadistust ning seda, kuidas väärtused lehe salvestamisel seadistatakse, siis tutvuge Power Appsi portaalide dokumentatsioonis järgmise teabega.
 
 - [Välja eeltäitmine](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Määra väärtus salvestamisel](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ Lisateavet kliendiportaali seadistamise ja kohandamise kohta leiate järgmistest
 - [Portaali uuendamine](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Portaali konfiguratsiooni migreerimine](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Lahenduse töötsükli haldus: Dynamics 365 for Customer Engagementi rakendused](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

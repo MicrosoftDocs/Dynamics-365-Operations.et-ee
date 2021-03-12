@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529574"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980802"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Kliendiportaal Dynamics 365 Supply Chain Managementi ülevaate jaoks
 
@@ -64,11 +63,8 @@ Kliendiportaali pakutakse Power Appsi portaalide mallina. See sõltub Power Apps
 
 [Power Appsi portaalid](https://docs.microsoft.com/powerapps/maker/portals/overview) kujutavad endast funktsiooni, mis võimaldab kasutajatel luua väljapoole suunatud veebisaidi, millesse saavad sisse logida organisatsioonivälised inimesed. Portaalide tegemiseks pole enamasti vaja koodi kirjutada. Kliendiportaal on üks paljudest Microsofti pakutavatest kättesaadavatest [Dynamics 365 portaalimallidest](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365).
 
-[Topeltkirjutus](https://docs.microsoft.com/powerapps/maker/portals/overview) on valmiskujul taristutoode, mis pakub reaalaja lähedast suhtlust Dynamics 365 mudelipõhiste rakenduste ja Finance and Operationsi rakenduste vahel. Topeltkirjutus pakub kahesuunalist integratsiooni Finance and Operationsi rakenduste ja teenuse Common Data Service vahel. Seega pakub see rakenduste vahel integreeritud kasutuskogemust. Kliendiportaal sõltub topeltkirjutusega sünkroonitud üksustest. Enne Supply Chain Managementist pärinevate andmete esitamist kliendiportaalis peab olema topeltkirjutuse funktsioon kõikide asjakohaste üksuste jaoks lubatud.
+[Topeltkirjutus](https://docs.microsoft.com/powerapps/maker/portals/overview) on valmiskujul infrastruktuuri toode, mis pakub reaalaja lähedast suhtlust klientide kaasamise rakenduste ja Finance and Operationsi rakenduste vahel. Topeltkirjutus pakub kahesuunalist integratsiooni Finance and Operationsi rakenduste ja teenuse Microsoft Dataverse vahel. Seega pakub see rakenduste vahel integreeritud kasutuskogemust. Kliendiportaal sõltub topeltkirjutusega sünkroonitud tabelitest. Enne Supply Chain Managementist pärinevate andmete esitamist kliendiportaalis peab olema topeltkirjutuse funktsioon kõikide asjakohaste tabelite jaoks lubatud.
 
 ![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
 
 Kliendiportaal toimib lähtepunktina organisatsioonide jaoks, mis soovivad kasutada Power Appsi portaale, et ehitada väljapoole suunatud veebisait, mis kasutab nende Supply Chain Managementist pärinevaid andmeid. See aitab organisatsioonidel ühendada topeltkirjutuse, Supply Chain Managementi ja Power Appsi portaalid.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
