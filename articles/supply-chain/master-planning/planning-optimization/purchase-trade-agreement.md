@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426036"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992241"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Koondplaneerimine ostulepingutega
 
@@ -74,22 +73,19 @@ Pärast seda, kui teie süsteem on eelmises jaotises kirjeldatu kohaselt ette va
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Näited, kuidas planeerimise optimeerimisel tuvastatakse hankija ja täitmisajad
 
-Järgmises tabelis on toodud näited, kuidas väljastatud toote ja sellega seotud ostulepingute mitmesugused sätted mõjutavad saadud plaanitud ostutellimuses leitavaid väärtusi. Kahe parempoolse veeru **paksud** väärtused on planeerimise optimeerimise käigus valitud väärtused. Muude veergude ***paksud ja kaldkirjas*** väärtused näitavad sätteid, mille tulemusel iga rea tulemused loodi.
+Järgmises tabelis on toodud näited, kuidas väljastatud toote ja sellega seotud ostulepingute mitmesugused sätted mõjutavad saadud plaanitud ostutellimuses leitavaid väärtusi. Kahe parempoolse veeru **paksud** väärtused on planeerimise optimeerimise käigus valitud väärtused. Muude veergude **_paksud ja kaldkirjas_* _ väärtused näitavad sätteid, mille tulemusel iga rea tulemused loodi.
 
 | Väljastatud toode: hankija | Tellimuse vaikesätted: täitmisaeg | Kauba laovarud: alista hankija | Kauba laovarud: alista täitmisaeg | Kaubandusleping: hankija | Kaubandusleping: täitmisaeg | Kaubandusleping: täitmisaja eiramine | Saadud hankija | Saadud täitmisaeg |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | Ei | Ei | US003 | 3 | Ei | **US001** | **1** |
-| US001 | 1 | ***Jah: US002*** | ***Jah: 2*** | US003 | 3 | Ei | **US002** | **2** |
-| *(tühi)* | 1 | Ei | Ei | ***US003*** | ***3*** | Ei | **US003** | **3** |
-| *(tühi)* | ***1*** | Ei | Ei | ***US003*** | 3 | Jah | **US003** | **1** |
-| *(tühi)* | ***1*** | ***Jah: US002*** | Ei | US003 | 3 | Ei | **US002** | **1** |
-| *(tühi)* | ***1*** | ***Jah: US002*** | Ei | US003 | 3 | Ei | **US002** | **1** |
-| *(tühi)* | 1 | Ei | Jah: 2 | ***US003*** | ***3*** | Ei | **US003** | **3** |
-| *(tühi)* | 1 | Ei | ***Jah: 2*** | ***US003*** | 3 | Jah | **US003** | **2** |
+| _*_US001_*_ | _*_1_*_ | Ei | Ei | US003 | 3 | Ei | _ *US001** | **1** |
+| US001 | 1 | **_Jah: US002_* _ | _*_Jah: 2_*_ | US003 | 3 | Ei | _ *US002** | **2** |
+| *(tühi)* | 1 | Ei | Ei | ***US003** _ | _*_3_*_ | Ei | _ *US003** | **3** |
+| *(tühi)* | ***1** _ | Ei | Ei | _*_US003_*_ | 3 | Jah | _ *US003** | **1** |
+| *(tühi)* | ***1** _ | _*_Jah: US002_*_ | Ei | US003 | 3 | Ei | _ *US002** | **1** |
+| *(tühi)* | ***1** _ | _*_Jah: US002_*_ | Ei | US003 | 3 | Ei | _ *US002** | **1** |
+| *(tühi)* | 1 | Ei | Jah: 2 | ***US003** _ | _*_3_*_ | Ei | _ *US003** | **3** |
+| *(tühi)* | 1 | Ei | ***Jah: 2** _ | _*_US003_*_ | 3 | Jah | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Ostulepingud](../../procurement/purchase-agreements.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

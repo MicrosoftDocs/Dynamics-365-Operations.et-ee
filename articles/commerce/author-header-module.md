@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
-ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
+ms.openlocfilehash: 1373397c4499ed65835bcc71c6fc628ff356e4e7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4411809"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991511"
 ---
 # <a name="header-module"></a>Päise moodul
 
@@ -119,6 +118,3 @@ Päise igal lehel kuvamise tagamiseks järgige neid samme iga malli jaoks, mis o
 [Saidi valija moodul](site-selector.md)
 
 [Kaupluse valimise moodul](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

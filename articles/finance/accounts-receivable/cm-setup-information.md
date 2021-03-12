@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442237"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991236"
 ---
 # <a name="credit-management-setup"></a>Krediidihalduse seadistamine 
 
@@ -153,6 +152,3 @@ Järgige neid samme, et lisada ridu, mis esindavad krediidilimiiti, mis valitud 
 2. Valige võrdlemise tehtemärk, mis määratleb, kuidas punktigrupi andmeid tuleks hinnata.
 3. Sisestage väärtus, mida tuleks võrrelda punktigrupile määratletud väärtusega.
 4. Sisestage krediidilimiit, mis tuleb määrata, kui kliendi andmed vastavad punktigrupile määratletud väärtusele. Näiteks loote automaatse krediidilimiidi punktigrupile **Madal**. Kui ettevõtluses tegutsemise aastad on üks punktigruppidest, saate määratleda rea, mis määrab krediidilimiidi 100 000, kui klient on tegutsenud viis aastat ja teise rea, mis määrab krediidilimiidi 200 000, kui klient on tegutsenud 10 aastat.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
