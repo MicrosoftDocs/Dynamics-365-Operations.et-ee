@@ -11,64 +11,63 @@ ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6fa9c6d4862a49bbf0b5ecbb8c0c3d573e0f49e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d07a090dbd41eb17e8d604887435bbb8b07e8d9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426258"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966926"
 ---
-# <a name="create-predefined-product-variants"></a><span data-ttu-id="2d643-103">Eelmääratletud tootevariantide loomine</span><span class="sxs-lookup"><span data-stu-id="2d643-103">Create predefined product variants</span></span>
+# <a name="create-predefined-product-variants"></a><span data-ttu-id="5fd12-103">Eelmääratletud tootevariantide loomine</span><span class="sxs-lookup"><span data-stu-id="5fd12-103">Create predefined product variants</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2d643-104">Selles protseduuris juhendatakse teid looma tooteetalonidele tootevariante, kasutades tootedimensioonide kombinatsioone.</span><span class="sxs-lookup"><span data-stu-id="2d643-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="2d643-105">Selle protseduuri jaoks kasutati demoettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="2d643-105">The demo company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="5fd12-104">Selles protseduuris juhendatakse teid looma tooteetalonidele tootevariante, kasutades tootedimensioonide kombinatsioone.</span><span class="sxs-lookup"><span data-stu-id="5fd12-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="5fd12-105">Selle protseduuri jaoks kasutati demoettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="5fd12-105">The demo company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-product-master"></a><span data-ttu-id="2d643-106">Tooteetaloni loomine</span><span class="sxs-lookup"><span data-stu-id="2d643-106">Create a product master</span></span>
-1. <span data-ttu-id="2d643-107">Avage Tooteteabe haldus > Tooted > Tooteetalonid.</span><span class="sxs-lookup"><span data-stu-id="2d643-107">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="2d643-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2d643-108">Click New.</span></span>
-3. <span data-ttu-id="2d643-109">Sisestage väärtus väljale Toote number.</span><span class="sxs-lookup"><span data-stu-id="2d643-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="2d643-110">Tootenumbri sisestamine käsitsi on kohustuslik ainult siis, kui tootenumbri välja jaoks pole numbriseeriat seadistatud.</span><span class="sxs-lookup"><span data-stu-id="2d643-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="2d643-111">Teisisõnu, jätke see etapp vahele, kui väljale on numbriseeria määratud.</span><span class="sxs-lookup"><span data-stu-id="2d643-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
-4. <span data-ttu-id="2d643-112">Sisestage väärtus väljale Toote nimi.</span><span class="sxs-lookup"><span data-stu-id="2d643-112">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="2d643-113">Sisestage või valige väärtus väljal Tootedimensioonigrupp.</span><span class="sxs-lookup"><span data-stu-id="2d643-113">In the Product dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="2d643-114">Valige tootedimensioonigrupp SizeCol (suurus ja värv).</span><span class="sxs-lookup"><span data-stu-id="2d643-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
-6. <span data-ttu-id="2d643-115">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="2d643-115">Click OK.</span></span>
+## <a name="create-a-product-master"></a><span data-ttu-id="5fd12-106">Tooteetaloni loomine</span><span class="sxs-lookup"><span data-stu-id="5fd12-106">Create a product master</span></span>
+1. <span data-ttu-id="5fd12-107">Avage Tooteteabe haldus > Tooted > Tooteetalonid.</span><span class="sxs-lookup"><span data-stu-id="5fd12-107">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="5fd12-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="5fd12-108">Click New.</span></span>
+3. <span data-ttu-id="5fd12-109">Sisestage väärtus väljale Toote number.</span><span class="sxs-lookup"><span data-stu-id="5fd12-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="5fd12-110">Tootenumbri sisestamine käsitsi on kohustuslik ainult siis, kui tootenumbri välja jaoks pole numbriseeriat seadistatud.</span><span class="sxs-lookup"><span data-stu-id="5fd12-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="5fd12-111">Teisisõnu, jätke see etapp vahele, kui väljale on numbriseeria määratud.</span><span class="sxs-lookup"><span data-stu-id="5fd12-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
+4. <span data-ttu-id="5fd12-112">Sisestage väärtus väljale Toote nimi.</span><span class="sxs-lookup"><span data-stu-id="5fd12-112">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="5fd12-113">Sisestage või valige väärtus väljal Tootedimensioonigrupp.</span><span class="sxs-lookup"><span data-stu-id="5fd12-113">In the Product dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="5fd12-114">Valige tootedimensioonigrupp SizeCol (suurus ja värv).</span><span class="sxs-lookup"><span data-stu-id="5fd12-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
+6. <span data-ttu-id="5fd12-115">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="5fd12-115">Click OK.</span></span>
 
-## <a name="add-product-dimensions"></a><span data-ttu-id="2d643-116">Tootedimensioonide lisamine</span><span class="sxs-lookup"><span data-stu-id="2d643-116">Add product dimensions</span></span>
-1. <span data-ttu-id="2d643-117">Klõpsake suvandit Tootedimensioonid.</span><span class="sxs-lookup"><span data-stu-id="2d643-117">Click Product dimensions.</span></span>
-    * <span data-ttu-id="2d643-118">Selles näites kirjeldatakse, kuidas sisestada käsitsi tootedimensioone.</span><span class="sxs-lookup"><span data-stu-id="2d643-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="2d643-119">Samuti saate valida suuruse, värvi või laadi grupi, mis sisaldab tootedimensioon iväärtusi, mida soovite kasutada.</span><span class="sxs-lookup"><span data-stu-id="2d643-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
-2. <span data-ttu-id="2d643-120">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2d643-120">Click New.</span></span>
-3. <span data-ttu-id="2d643-121">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2d643-121">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="2d643-122">Sisestage või valige väärtus väljal Suurus.</span><span class="sxs-lookup"><span data-stu-id="2d643-122">In the Size field, enter or select a value.</span></span>
-5. <span data-ttu-id="2d643-123">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="2d643-123">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="2d643-124">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="2d643-124">Click New.</span></span>
-7. <span data-ttu-id="2d643-125">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2d643-125">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="2d643-126">Sisestage või valige väärtus väljal Suurus.</span><span class="sxs-lookup"><span data-stu-id="2d643-126">In the Size field, enter or select a value.</span></span>
-9. <span data-ttu-id="2d643-127">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="2d643-127">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="2d643-128">Klõpsake vahekaarti Värvid.</span><span class="sxs-lookup"><span data-stu-id="2d643-128">Click the Colors tab.</span></span>
-11. <span data-ttu-id="2d643-129">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2d643-129">Click New.</span></span>
-12. <span data-ttu-id="2d643-130">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2d643-130">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="2d643-131">Sisestage või valige väärtus väljal Värv.</span><span class="sxs-lookup"><span data-stu-id="2d643-131">In the Color field, enter or select a value.</span></span>
-14. <span data-ttu-id="2d643-132">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="2d643-132">In the Name field, type a value.</span></span>
-15. <span data-ttu-id="2d643-133">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="2d643-133">Click New.</span></span>
-16. <span data-ttu-id="2d643-134">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2d643-134">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="2d643-135">Sisestage või valige väärtus väljal Värv.</span><span class="sxs-lookup"><span data-stu-id="2d643-135">In the Color field, enter or select a value.</span></span>
-18. <span data-ttu-id="2d643-136">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="2d643-136">In the Name field, type a value.</span></span>
-19. <span data-ttu-id="2d643-137">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2d643-137">Click Save.</span></span>
-20. <span data-ttu-id="2d643-138">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2d643-138">Close the page.</span></span>
+## <a name="add-product-dimensions"></a><span data-ttu-id="5fd12-116">Tootedimensioonide lisamine</span><span class="sxs-lookup"><span data-stu-id="5fd12-116">Add product dimensions</span></span>
+1. <span data-ttu-id="5fd12-117">Klõpsake suvandit Tootedimensioonid.</span><span class="sxs-lookup"><span data-stu-id="5fd12-117">Click Product dimensions.</span></span>
+    * <span data-ttu-id="5fd12-118">Selles näites kirjeldatakse, kuidas sisestada käsitsi tootedimensioone.</span><span class="sxs-lookup"><span data-stu-id="5fd12-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="5fd12-119">Samuti saate valida suuruse, värvi või laadi grupi, mis sisaldab tootedimensioon iväärtusi, mida soovite kasutada.</span><span class="sxs-lookup"><span data-stu-id="5fd12-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
+2. <span data-ttu-id="5fd12-120">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="5fd12-120">Click New.</span></span>
+3. <span data-ttu-id="5fd12-121">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5fd12-121">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="5fd12-122">Sisestage või valige väärtus väljal Suurus.</span><span class="sxs-lookup"><span data-stu-id="5fd12-122">In the Size field, enter or select a value.</span></span>
+5. <span data-ttu-id="5fd12-123">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="5fd12-123">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="5fd12-124">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="5fd12-124">Click New.</span></span>
+7. <span data-ttu-id="5fd12-125">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5fd12-125">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="5fd12-126">Sisestage või valige väärtus väljal Suurus.</span><span class="sxs-lookup"><span data-stu-id="5fd12-126">In the Size field, enter or select a value.</span></span>
+9. <span data-ttu-id="5fd12-127">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="5fd12-127">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="5fd12-128">Klõpsake vahekaarti Värvid.</span><span class="sxs-lookup"><span data-stu-id="5fd12-128">Click the Colors tab.</span></span>
+11. <span data-ttu-id="5fd12-129">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="5fd12-129">Click New.</span></span>
+12. <span data-ttu-id="5fd12-130">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5fd12-130">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="5fd12-131">Sisestage või valige väärtus väljal Värv.</span><span class="sxs-lookup"><span data-stu-id="5fd12-131">In the Color field, enter or select a value.</span></span>
+14. <span data-ttu-id="5fd12-132">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="5fd12-132">In the Name field, type a value.</span></span>
+15. <span data-ttu-id="5fd12-133">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="5fd12-133">Click New.</span></span>
+16. <span data-ttu-id="5fd12-134">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5fd12-134">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="5fd12-135">Sisestage või valige väärtus väljal Värv.</span><span class="sxs-lookup"><span data-stu-id="5fd12-135">In the Color field, enter or select a value.</span></span>
+18. <span data-ttu-id="5fd12-136">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="5fd12-136">In the Name field, type a value.</span></span>
+19. <span data-ttu-id="5fd12-137">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="5fd12-137">Click Save.</span></span>
+20. <span data-ttu-id="5fd12-138">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="5fd12-138">Close the page.</span></span>
 
-## <a name="generate-product-variants"></a><span data-ttu-id="2d643-139">Tootevariantide loomine</span><span class="sxs-lookup"><span data-stu-id="2d643-139">Generate product variants</span></span>
-1. <span data-ttu-id="2d643-140">Klõpsake suvandit Tootevariandid.</span><span class="sxs-lookup"><span data-stu-id="2d643-140">Click Product variants.</span></span>
-2. <span data-ttu-id="2d643-141">Klõpsake suvandit Variandisoovitused.</span><span class="sxs-lookup"><span data-stu-id="2d643-141">Click Variant suggestions.</span></span>
-3. <span data-ttu-id="2d643-142">Klõpsake nuppu Vali kõik.</span><span class="sxs-lookup"><span data-stu-id="2d643-142">Click Select all.</span></span>
-    * <span data-ttu-id="2d643-143">Selles näites on valitud kõik võimalikud variandid.</span><span class="sxs-lookup"><span data-stu-id="2d643-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="2d643-144">K variantide loomiseks kasutatakse ainult alamkogumit võimalikest tootedimensioonide kombinatsioonidest, saate valida üksikuid kirjeid.</span><span class="sxs-lookup"><span data-stu-id="2d643-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
-4. <span data-ttu-id="2d643-145">Klõpsake käsku Loo.</span><span class="sxs-lookup"><span data-stu-id="2d643-145">Click Create.</span></span>
-    * <span data-ttu-id="2d643-146">Saate luua kirjeldused kõikidele oma variantidele tootedimensiooni väärtuste kombinatsiooni alusel.</span><span class="sxs-lookup"><span data-stu-id="2d643-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="2d643-147">Kirjeldused on valikulised.</span><span class="sxs-lookup"><span data-stu-id="2d643-147">The descriptions are optional.</span></span>  
-5. <span data-ttu-id="2d643-148">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2d643-148">Click Save.</span></span>
+## <a name="generate-product-variants"></a><span data-ttu-id="5fd12-139">Tootevariantide loomine</span><span class="sxs-lookup"><span data-stu-id="5fd12-139">Generate product variants</span></span>
+1. <span data-ttu-id="5fd12-140">Klõpsake suvandit Tootevariandid.</span><span class="sxs-lookup"><span data-stu-id="5fd12-140">Click Product variants.</span></span>
+2. <span data-ttu-id="5fd12-141">Klõpsake suvandit Variandisoovitused.</span><span class="sxs-lookup"><span data-stu-id="5fd12-141">Click Variant suggestions.</span></span>
+3. <span data-ttu-id="5fd12-142">Klõpsake nuppu Vali kõik.</span><span class="sxs-lookup"><span data-stu-id="5fd12-142">Click Select all.</span></span>
+    * <span data-ttu-id="5fd12-143">Selles näites on valitud kõik võimalikud variandid.</span><span class="sxs-lookup"><span data-stu-id="5fd12-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="5fd12-144">K variantide loomiseks kasutatakse ainult alamkogumit võimalikest tootedimensioonide kombinatsioonidest, saate valida üksikuid kirjeid.</span><span class="sxs-lookup"><span data-stu-id="5fd12-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
+4. <span data-ttu-id="5fd12-145">Klõpsake käsku Loo.</span><span class="sxs-lookup"><span data-stu-id="5fd12-145">Click Create.</span></span>
+    * <span data-ttu-id="5fd12-146">Saate luua kirjeldused kõikidele oma variantidele tootedimensiooni väärtuste kombinatsiooni alusel.</span><span class="sxs-lookup"><span data-stu-id="5fd12-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="5fd12-147">Kirjeldused on valikulised.</span><span class="sxs-lookup"><span data-stu-id="5fd12-147">The descriptions are optional.</span></span>  
+5. <span data-ttu-id="5fd12-148">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="5fd12-148">Click Save.</span></span>
 
