@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426714"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967254"
 ---
 # <a name="product-readiness"></a>Toote valmisolek
 
@@ -148,6 +147,3 @@ Iga lisatava rea jaoks määrake järgmised väljad.
 | Küsimustik | Valige küsimustik, mida tuleks kontroll-loendi puhul kasutada. Kontroll-loend on kohalik kontroll-loend ettevõttes, kus valmisoleku kontroll on teostatud. Süsteem peab saama hinnata, kas kontroll-loendile on õigesti vastatud. Seetõttu peab kontroll-loend olema seadistatud nii, et hinnang tehakse õigete vastuste põhjal. Lisateavet küsimustike loomise kohta vt teemast [Küsimustike kasutamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ja sellega seotud teemasid. |
 | Automaatne kinnitamine | Valmisoleku kontrollimise kirjed sisaldavad märkeruutu **Kinnitatud**, mis näitab kinnituse olekut. Märkige **Automaatne kinnitamine** valikruut kontrollidele, mis tuleb kinnitada kohe pärast seda, kui määratud kasutaja on need täitnud. Tühjendage see märkeruut, et nõuda selgesõnalist kinnitust lisasammuna. |
 | Kohustuslik | Märkige see ruut kontrollide jaoks, mida määratud kasutaja peab täitma. Kohustuslikke kontrolle ei saa vahele jätta. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

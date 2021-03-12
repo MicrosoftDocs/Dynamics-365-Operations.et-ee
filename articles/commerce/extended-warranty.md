@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411565"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965111"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Laiendatud garantiide loomine ja konfigureerimine
 
@@ -142,7 +141,7 @@ Garantiigrupp on seos kaubagarantiide ja garantiikõlblike kaupade vahel. Kassa 
 
 Commerce'is garantiigrupi seadistamiseks tehke järgmist.
 
-1. Avage **Jaemüük ja kaubandus \> Tooted ja kategooriad \> Garantii \> Garantiigrupid**.
+1. Avage **Jaemüük ja kaubandus \> Tooted ja kategooriad \> Garantii \> Garantiigrupid**.
 1. Valige uue garantiigrupi loomiseks **Uus**.
 1. Sisestage väljale **Nimi** uue grupi nimi.
 1. Sisestage grupi kirjeldus kiirkaardi **Üldine** väljale **Kirjeldus**.
@@ -239,6 +238,3 @@ Garantii on teenus, mis on mõeldud kindla kordumatu toote jaoks. Rakenduses Dyn
 [Sortimentide häälestamine](set-up-assortments.md)
 
 [Numbriseeriate ülevaade](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
