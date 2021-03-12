@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 948beb7baa19c69530dca52b5d4c119b69f8f011
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2bd821fdfe62475849e6d3b80d3a2c377bbabf4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990613"
 ---
 # <a name="cost-accounting-terminology"></a>Kuluarvestuse terminoloogia
 
@@ -205,6 +204,3 @@ Väljavõtted on vaated juhtidele, kes vastutavad kulude kontrollimise eest. Vä
 Versioone kasutatakse erinevate väljundite stimuleerimiseks, kuvamiseks ja võrdlemiseks. Vaikimisi kuvatakse kõik tegelikud kulud ühes alusversioonis, mis on tuntud kui *tegelik*. Eelarvete ja arvutuste jaoks saate töötada nii paljude versioonidega kui vaja. Näiteks saate importida eelarve andmed originaalversiooni ja seejärel muuta eelarvet muudetud versioonis. Arvutuste puhul saate luua mitu versiooni. Nendes erinevates versioonides saate seejärel luua arvutused, kasutades erinevaid arvutusreegleid, mis rakendatakse kulueraldamisele.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

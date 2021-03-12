@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Estonia
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b07fd531bce8b29376dbdd3f89030a581d428a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 545387f45c6ec5009ce8bf6e8eefa069939d2415
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407867"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990006"
 ---
 # <a name="ee-00015-payment-reference-generation-tool"></a>EE-00015 Makseviite loomise tööriist
 
@@ -44,6 +43,3 @@ See protseduur juhatab teid läbi makseviidete koostamise protseduuri. Ülesande
     * Juba klientidele määratud viitenumbrite kustutamiseks valige käsk "Kustuta maksete viitenumbrid". Võite piirata klientide hulka, kellelt soovite eemaldada või kellele lisada viitenumbri. Selleks kasutage jaotist "Kirjenda kaasamiseks" ja määrake klientidele või kliendirühmadele kriteeriumid.  
 3. Klõpsake nuppu OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

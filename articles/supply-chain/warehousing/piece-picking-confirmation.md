@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed63245066799d7d8f14362ab6c9193c0cda7c4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66903d142ecb7228e4fdec56dbd45472acbdeb69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426137"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989639"
 ---
 # <a name="piece-picking-confirmation"></a>Osa komplekteerimise kinnitus
 
@@ -51,6 +50,3 @@ Kui töö tüüp on komplekteerimine või inventuur, saab teha järgmisi valikui
 | Osa komplekteerimise kinnitus | Saadaval komplekteerimise ja inventuuri töötüüpide jaoks. Toote kinnitamine valitakse automaatselt. Võimaldab iga varude üksust mobiilsel seadmel skannides kinnitada. |
 |  Osade maksimaalne arv  |                   Komplekteerimistöö jaoks saadaval, kui osa komplekteerimise kinnitamine on lubatud. Määrab piirmäära ühikute arvule, mille peate kinnitama.                   |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

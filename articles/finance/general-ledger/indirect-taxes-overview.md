@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91ec6e1610c472d9c16020e4a7c38705059f0331
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442418"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988791"
 ---
 # <a name="sales-tax-overview"></a>Käibemaksu ülevaade
 
@@ -97,6 +96,3 @@ Kuid kui kasutate tingimuslikku käibemaksu, siis tasakaalustatakse summa maksuh
 Kui kasutate makse loomisel makseviisina hilisema kuupäevaga dateeritud tšekki, siis pangakontot ei seota. Mõnes riigis muutub käibemaks "realiseeritud" kohustiseks, kui makse seob panga, mis tähendab, et hilisema kuupäevaga dateeritud tšekk on tasakaalustatud. Saate selle lubada, kui valite **Tingimusliku maksu realiseerimine hilisema kuupäevaga dateeritud tšeki mahaarvamisel** asukohas **Sularaha- ja pangahaldus > Seadistus > Sularaha- ja pangahalduse parameetrid > Hilisema kuupäevaga dateeritud tšekid**.
 
 Lisateavet leiate teemast [Kinnipeetava maksu määramine](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442406"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990235"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Õppekataloog Dynamics 365 Finance'i kasutajatele
 
@@ -54,12 +53,10 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Eelarvete koostamise konfigureerimine ja eelarvestamine Dynamics 365 Financeis](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Kõik era- ja avalikud organisatsioonid seavad eelarvete loomisega finants- ja tegevuse eesmärke. Kuna eelarve plaanimine on koostööd võimaldav ja protsessipõhine, saate oma eelarveprotsessi tõhusamaks muuta. | Tasuta iseläbitav internetipõhine õppetee | 3.5 tundi |
 | [Põhivara konfigureerimine ja haldamine Dynamics 365 Financeis](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Põhivarade jaoks saate seadistada ja sisestada soetusteavet ning seejärel hallata oma varasid kulumiarvestuse ja kulumisumma määramiseks. Põhivarade käsitsemise viis peab vastama nii rahvusvahelistele raamatupidamisstandarditele kui ka iga riigi või regiooni maksuseadusandlusele. | Tasuta iseläbitav internetipõhine õppetee | 4.5 tundi |
 | [Alustage tarneahelate kuluarvestuse kasutamist Dynamics 365 Finance'is](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Kuluarvestus võimaldab koguda andmeid erinevatest allikatest, näiteks pearaamatust, alammoodulist, eelarvetest ja statistilisest teabest. Seejärel saate analüüsida, summeerida ja hinnata kuluandmeid, et haldus saaks teha parimad võimalikud otsused hinnavärskenduste, eelarvete, kulude kontrolli jne jaoks.  | Tasuta iseläbitav internetipõhine õppetee | 1 tund  |
+| [Kuluhaldusega töötamine rakenduses Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Kasumlikkuse maksimeerimine ja kulude minimeerimine täpsete kuluhaldusvõimalustega rakenduses Dynamics 365 Project Operations. Teave süsteemi konfigureerimise ja kuluaruannete loomise ning kinnitamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi  |
 
 ## <a name="exam"></a>Eksam<a name="exam"></a>
 
 | Sisu | Kirjeldus  | Vorming  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 põhisätted](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Kinnitage, et olete tutvunud teenusekomplekti Microsoft Dynamics 365, Power Platformi, pilvkeskkonna kontseptsioonide, litsentsimisvõimaluste ning juurutus- ja väljastusvalikutega. | Eksam, hind varieerub piirkonniti |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

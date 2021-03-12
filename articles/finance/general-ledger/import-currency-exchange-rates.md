@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a5dbe0d822f7bdb1a62a99c43ef9f7170c889676
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442448"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988873"
 ---
 # <a name="import-currency-exchange-rates"></a>Valuutavahetuskursside importimine
 
@@ -56,6 +55,3 @@ Saate importida vahetuskursse vahetuskursi pakkujate allikast ja lisada neid leh
 | **Alista olemasolevad vahetuskursid**   | See märkeruut juhib olemasoleva vahetuskursi uuendamist valuutapaari puhul, kui konkreetse kuupäeva kohta on valuutakurss juba olemas. Kui te seda ruutu ei märgi, ei impordita konkreetsete kuupäevade valuutakurssi, kui teine valuutakurss on juba olemas.                                                                                       |
 | **Vältida importimist riiklikel pühadel** | See märkeruut juhib valuutakursi importimist riigipüha kuupäeval. Näiteks kui märgite selle ruudu ja kasutate vahetuskursi pakkujana Euroopa Keskpanka, ei muuda süsteem vahetuskurssi praeguse juriidilise isikuga seotud riigipühal. Mõne pakkuja puhul ei pruugi see valik saadaval olla. |
 | **Eelmise päeva kurss** | See märkeruut on saadaval, kui lubate funktsiooni **Praeguse või eelmise kuupäeva valuutavahetuskursi importimine** lehel **Funktsioonihaldus**. See märkeruut on saadaval ainult pakkujale, *Euroopa Keskpangale*. Valige see ruut, et importida valuuta vahetuskurss, mille Euroopa Keskpank avaldas eelmisel tööpäeval umbes kell 16:00 Kesk-Euroopa aja järgi. Vaikimisi on märkeruut valitud. Tühjendage see märkeruut, et importida samal tööpäeval avaldatud valuutavahetuskurss.  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

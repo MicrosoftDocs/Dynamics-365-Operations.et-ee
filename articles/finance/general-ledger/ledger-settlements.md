@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: d41a69bed3d1340736cc7df35aa3ded032d4d79d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 185a95cfebef0e9d6e7914f3102aa5ecb40a877a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442278"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988696"
 ---
 # <a name="ledger-settlements"></a>Pearaamatu tasakaalustused
 
@@ -75,6 +74,3 @@ Saate tühistada ekslikult tehtud tasakaalustuse.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Värskendage kannete loendisse kaasatud kontode loendit
 
 Valige **Pearaamatu tasakaalustuskonto**, et avada dialoogiboks, kui saate redigeerida kannete loendisse kaasatud kontosid. Valige loendisse uue konto lisamiseks **Uus**. Seda loendit kasutatakse kannete loendi filtreerimiseks, mis kuvatakse **Pearaamatu tasakaalustuste** leheküljel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

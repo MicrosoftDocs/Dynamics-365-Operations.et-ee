@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: cfb9a9e1456a7d9067e3c4369a7eb7150326655d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650656"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988948"
 ---
 # <a name="number-of-books-per-journal"></a>Raamatute arv töölehe kohta
 
@@ -46,7 +45,7 @@ Pakett-töötluse töö välistab suletud raamatud. Näiteks pakett-töös kulum
 
 Kui dubleeritud vara ID-d ei ole samas töölehel, rakendatakse raamatute arvu limiiti. Kui aga vara ID on sama, mis raamatu ID, siis on võimalik ületada raamatute arv töölehe kohta, et hoida vara ID samas töölehel.
 
-Näiteks on 5001 põhivara ID-d, kolm raamatut on seostatud iga põhivara ID-ga ja iga vararaamat sisestatakse samasse sisestamiskihti. Käivitate kulumi kolmel järestikusel kuul ilma summeerimata. Kulumi tööleht luuakse pakett-töö kaudu ja süsteem loob seitse töölehte, millel on 667 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Tulemuseks on 2001 raamatut. Seetõttu on kolme kuu järel samal töölehel sama vara ID-ga 6003 töölehe rida. Süsteem loob ka ühe töölehe, millel on 332 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Kolme kuu pärast on kokku 2988 rida.
+Näiteks on 5001 põhivara ID-d, kolm raamatut on seostatud iga põhivara ID-ga ja iga vararaamat sisestatakse samasse sisestamiskihti. Käivitate kulumi kolmel järestikusel kuul ilma summeerimata.  Kulumi tööleht luuakse pakett-töö kaudu ja süsteem loob seitse töölehte, millel on 667 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Tulemuseks on 2001 raamatut. Seetõttu on kolme kuu järel samal töölehel sama vara ID-ga 6003 töölehe rida. Süsteem loob ka ühe töölehe, millel on 332 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Kolme kuu pärast on kokku 2988 rida.
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> [!Note] 
+> Kui parameeter **Summeri kulum** on kulumisoovituse loomisel sisse lülitatud, ei ole välja **Raamatute arv töölehe kohta - kulumisoovitus** väärtusel mingit mõju. Sel juhul on raamatute arv töölehe kohta 6000, mis on sisemine määratletud piir.
