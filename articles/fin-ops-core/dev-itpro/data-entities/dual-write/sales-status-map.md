@@ -1,6 +1,6 @@
 ---
-title: Müügitellimuse olekuväljade vastendamise seadistamine
-description: Selles teemas selgitatakse, kuidas seadistada müügitellimuse olekuvälju topeltkirjutamiseks.
+title: Müügitellimuse olekuveergude vastendamise seadistamine
+description: Selles teemas selgitatakse, kuidas seadistada müügitellimuse olekuveerge topeltkirjutamiseks.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4451749"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744295"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Müügitellimuse olekuväljade vastendamise seadistamine
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Müügitellimuse olekuveergude vastendamise seadistamine
 
 [!include [banner](../../includes/banner.md)]
 
-Müügitellimuse olekut näitavate väljadel on rakendustes Microsoft Dynamics 365 Supply Chain Management ja Dynamics 365 Sales erinevad loetelu väärtused. Nende väljade vastendamiseks topeltkirjutamises on vajalik lisaseadistus.
+Müügitellimuse olekut näitavatel veergudel on rakendustes Microsoft Dynamics 365 Supply Chain Management ja Dynamics 365 Sales erinevad loetelu väärtused. Nende veergude vastendamiseks topeltkirjutamises on vajalik lisaseadistus.
 
-## <a name="fields-in-supply-chain-management"></a>Väljad rakenduses Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>veerud rakenduses Supply Chain Management
 
-Rakenduses Supply Chain Management näitavad müügitellimuse olekut kaks välja. Väljad, mida peate vastendama, on **Olek** ja **Dokumendi olek**.
+Rakenduses Supply Chain Management näitavad müügitellimuse olekut kaks veergu. Veerud, mida peate vastendama, on **Olek** ja **Dokumendi olek**.
 
 Loetelu **Olek** näitab tellimuse üldist olekut. See olek kuvatakse tellimuse päises.
 
@@ -53,9 +53,9 @@ Loetelul **Dokumendi olek** on järgmised väärtused.
 - Saateleht
 - Arve
 
-## <a name="fields-in-sales"></a>Väljad rakenduses Sales
+## <a name="columns-in-sales"></a>veerud rakenduses Sales
 
-Rakenduses Sales näitavad tellimuse olekut kaks välja. Väljad, mida peate vastendama, on **Olek** ja **Töötlemise olek**.
+Rakenduses Sales näitavad tellimuse olekut kaks veergu. Veerud, mida peate vastendama, on **Olek** ja **Töötlemise olek**.
 
 Loetelu **Olek** näitab tellimuse üldist olekut. Sellel on järgmised väärtused.
 
@@ -95,7 +95,7 @@ Järgmises tabelis on toodud suvandi **Töötlemise olek** vastendus rakendustes
 
 ## <a name="setup"></a>Seadistus
 
-Müügitellimuse olekuväljade vastendamise seadistamiseks peate lubama atribuudid **IsSOPIntegrationEnabled** ja **isIntegrationUser**.
+Müügitellimuse olekuveergude vastendamise seadistamiseks peate lubama atribuudid **IsSOPIntegrationEnabled** ja **isIntegrationUser**.
 
 Atribuudi **IsSOPIntegrationEnabled** lubamiseks tehke järgmist.
 
@@ -110,14 +110,14 @@ Atribuudi **IsSOPIntegrationEnabled** lubamiseks tehke järgmist.
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Atribuudi **IsSOPIntegrationEnabled** lubamiseks tehke järgmist.
 
 Atribuudi **isIntegrationUser** lubamiseks tehke järgmist.
 
-1. Valige rakenduses Sales **Sätted \> Kohandamine \> Kohanda süsteemi**, valige **Kasutajaüksus** ja seejärel avage **Vorm \> Kasutaja**.
+1. Valige rakenduses Sales **Sätted \> Kohandamine \> Kohanda süsteemi**, valige **Kasutaja tabel** ja seejärel avage **Vorm \> Kasutaja**.
 
     ![Kasutaja vormi avamine](media/sales-map-user.png)
 
 2. Leidke väljauurijas üles **Integratsiooni kasutaja režiim** ja topeltklõpsake sellel, et lisada see vormile. Salvestage muudatus.
 
-    ![Integratsiooni kasutaja režiimi välja lisamine vormile](media/sales-map-field-explorer.png)
+    ![Integratsiooni kasutaja režiimi veeru lisamine vormile](media/sales-map-field-explorer.png)
 
 3. Valige rakenduses Sales **Sätted \> Turve \> Kasutajad** ja muutke vaade väärtuselt **Lubatud kasutajad** väärtusele **Rakenduse kasutajad**.
 
@@ -145,11 +145,8 @@ Atribuudi **isIntegrationUser** lubamiseks tehke järgmist.
 
     ![Rakenduse kasutajate loend](media/sales-map-user-mode.png)
 
-5. Muutke välja **Integratsiooni kasutaja režiim** väärtuseks **Jah**.
+5. Muutke veeru **Integratsiooni kasutaja režiim** väärtuseks **Jah**.
 
-    ![Integratsiooni kasutaja režiimi välja väärtuse muutmine](media/sales-map-user-mode-yes.png)
+    ![Integratsiooni kasutaja režiimi veeru väärtuse muutmine](media/sales-map-user-mode-yes.png)
 
 Teie müügitellimused on nüüd vastendatud.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

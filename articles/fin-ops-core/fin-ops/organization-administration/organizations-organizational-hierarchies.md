@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3d0e414b12043a72a447f62bf353e84654b0df1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694331"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797041"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organisatsioonide ja organisatsiooniliste hierarhiate ülevaade
 
@@ -67,6 +67,3 @@ Organisatsiooni hierarhiate seadistamine võimaldab teil oma äri vaadata ja sel
 Igale hierarhiale määratakse eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada.
 
 Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Oma organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

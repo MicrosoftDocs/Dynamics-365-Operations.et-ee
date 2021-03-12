@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692962"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798348"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -32,7 +32,7 @@ Igale väljalaskele lisatakse funktsioone ja nende uuendusi. Funktsioonihalduse 
 
 ## <a name="the-feature-management-workspace"></a>Funktsioonihalduse tööruum
 
-Saate avada **Funktsioonihalduse** tööruumi, valides armatuurlaual vastava paani. Näete lehte, kus kuvatakse funktsioonide loend kõigi väljalasete jaoks, mida funktsioohalduse kogemus toetab. Aja jooksul parandab Microsoft funktsioonihalduse kogemust, et see sisaldaks lisafunktsioone funktsioonide haldamiseks.
+Saate avada **Funktsioonihalduse** tööruumi, valides armatuurlaual vastava paani. Näete lehte, kus kuvatakse funktsioonide loend kõigi väljalasete jaoks, mida funktsioohalduse kogemus toetab. Aja jooksul parandab Microsoft funktsioonihalduse kogemust, et see sisaldaks rohkem funktsioone funktsioonide haldamiseks.
 
 Funktsioonide loend sisaldab järgmist teavet.
 
@@ -63,7 +63,7 @@ Mõni funktsioon kuvab sõnumi, mis annab lisateavet enne nende sisselülitamist
 
 Mõni funktsioon kuvab sõnum, et funktsiooni ei saa enne toimingu tegemist lubada. Need omadused on tähistatud punane X hoiatussümboliga. Enne funktsiooni lubamist peate täitma kirjelduses kirjeldatud toimingud. Näiteks kui te ei saa kasutada funktsiooni kuni konfiguratsioonivõti on keelatud, siis peate esmalt keelama konfiguratsioonivõtme ja seejärel naasma funktsiooni haldusesse funktsiooni lubamiseks.
 
-Kui funktsioon on sisse lülitatud, kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade kas ütleb, et funktsioon lülitati sisse, või näitab kuupäeva, millal on funktsioon plaanitud sisse lülitada. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
+Kui funktsioon on sisse lülitatud, kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade kas ütleb, et funktsioon lülitati sisse, või näitab see kuupäeva tulevikus, millal funktsioon on plaanitud sisse lülitada. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
 
 Funktsioonid, mis on plaanitud tulevikus sisse lülitada, kuvatakse vahekaardil **Plaanitud**. Pakktöötlus lülitab need määratud kuupäeval keskööl sisse, lähtudes süsteemi kuupäevaga tähistatud ajavööndist.
 
@@ -101,8 +101,8 @@ Kõik funktsioonid, mida saab lubada, on lubatud. Kui funktsioon on juba plaanit
 
 Vaikimisi lülitatakse kõik teie keskkonda lisatavad funktsioonid välja, kui need pole kohustuslikud funktsioonid. Kuid kui soovite kõiki uusi funktsioone automaatselt sisse lülitada, saate kasutada ripploendit tööruumi nime all, et muuta, mis juhtub uute funktsioonide lisamisel.
 
-- Kõikide uute funktsioonide automaatseks lubamiseks keskkonda lisandumisel valige **Luba uued funktsioonid automaatselt**.
-- Kõikide uute funktsioonide automaatseks keelamiseks keskkonda lisandumisel valige **Keela uued funktsioonid automaatselt**.
+- Kõikide uute funktsioonide automaatseks lubamiseks keskkonda lisandumisel valige `Enable new features automatically`.
+- Kõikide uute funktsioonide automaatseks keelamiseks keskkonda lisandumisel valige `Do not enable new features automatically`.
 
 
 Kui lubate kõik funktsioonid automaatselt, lubab see kõik funktsioonid, mis oleks lubatud, kui klõpsate nuppu **Luba kõik**. See ei luba kinnitamist nõudvaid funktsioone või funktsioone, mida ei saa enne toimingu tegemist lubada.
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Mis on IFeatureLifecycle, mida rakendavad mõned funktsiooniklassid?
 IFeatureLifecycle on Microsofti-sisene mehhanism, mis näitab funktsiooni elutsükli etappi. Funktsioonid võivad olla järgmised.
-- PrivatePreview – vajab eelväljaannet, et olla nähtav.
-- PublicPreview – kuvatakse vaikimisi, kuid koos hoiatusega, et tegemist on funktsiooni eelversiooniga.
-- Väljaantud – täielikult väljaantud.
+- `PrivatePreview` – vajab eelväljaannet, et olla nähtav.
+- `PublicPreview` – kuvatakse vaikimisi, kuid koos hoiatusega, et tegemist on funktsiooni eelversiooniga.
+- `Released`– täielikult väljastatud.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

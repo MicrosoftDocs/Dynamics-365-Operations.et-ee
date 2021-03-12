@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681324"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728085"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Äridokumendimalli struktuuri värskendamine 
 
@@ -56,7 +56,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 5. Valige uue malli loomiseks **OK**.
 
     > [!NOTE]
-    > Kui te pole veel Office Online’i sisse loginud, [suunatakse teid Office 365 sisselogimise lehele](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Rakenduse Finance keskkonda naasmiseks valige brauseris nupp **Tagasi**.
+    > Kui te pole veel Office Online’i sisse loginud, [suunatakse teid Office 365 sisselogimise lehele](er-business-document-management.md#frequently-asked-questions). Rakenduse Finance keskkonda naasmiseks valige brauseris nupp **Tagasi**.
 
     Uus mall on redigeerimiseks avatud Excel Online’i malli redaktori lehel manustatud juhtelemendis.
 
@@ -106,6 +106,3 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
 [Äridokumentide halduse ülevaade](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

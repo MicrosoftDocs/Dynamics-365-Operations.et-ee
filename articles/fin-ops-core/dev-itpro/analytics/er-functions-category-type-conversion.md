@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686070"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740804"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>ER-i funktsioonide loend tüübiteisenduse kategoorias
 
@@ -38,6 +38,14 @@ Elektroonilise aruandluse (ER) tüübiteisenduse funktsioone saab kasutada vää
 | [IntValue](er-functions-conversion-intvalue.md)       | See funktsioon tagastab väärtuse *Int*, mis tähistab määratud stringi. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | See funktsioon tagastab *tegeliku* väärtuse, mis konverteeritakse määratud *stringi* väärtusest. Teisendamise käigus arvestatakse määratud kümnendkoha ja arvu rühmitamise eraldajaga. |
 | [Väärtus](er-functions-conversion-value.md)             | See funktsioon tagastab *tegeliku* väärtuse, mis konverteeritakse määratud *stringi* väärtusest. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Tüübiteisenduse funktsioonid konteineri kategoorias
+
+Järgmises tabelis kirjeldatakse tüübiteisenduse funktsioone [konteineri](er-functions-category-container.md) kategoorias.
+
+| Funktsioon | Kirjeldus |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | See funktsioon teisendab *stringi* tüübi määratud sisendi andmeüksuseks tüübiga *Konteiner*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Tüübiteisenduse funktsioonid kuupäeva ja kellaaja kategoorias
 
@@ -79,6 +87,3 @@ Järgmises tabelis kirjeldatakse tüübiteisenduse funktsioone [teksti kategoori
 [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 
 [Elektroonilise aruandluse valemi keel](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

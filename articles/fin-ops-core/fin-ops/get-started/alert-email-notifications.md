@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693818"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798619"
 ---
 # <a name="client-alert-notifications-by-email"></a>Kliendi teatiste teatamine meili teel
 
 [!include [banner](../includes/banner.md)]
 
-Saate määratleda kohandatud teatiste reeglid, mis jälgivad andmete filtreeritud vaateid ja saadavad eelmääratletud sündmuste toimumisel meiliteatise. Meiliteatiste saatmise suvand on saadaval kõigi toetatud teatisetüüpide puhul ja selle saab sisse lülitada ka olemasolevate teatisereeglite puhul.
+Saate määratleda kohandatud teatiste reeglid, mis jälgivad andmete filtreeritud vaateid ja saadavad eelmääratletud sündmuste toimumisel meiliteatise. Meiliteatiste saatmise suvand on saadaval kõigi toetatud teatisetüüpide puhul ja saate need sisse lülitada ka olemasolevate teatisereeglite puhul.
 
 Saate sisseehitatud juhtelementide abil luua teatisereeglid, mis jälgivad süsteemi pakett-tööde filtreeritud vaateid. Jälgides välja **Olek** väärtust, saate konfigureerida ka teatisereeglid, mis saadavad meili pakett-töö nurjumise korral. Pärast nende teatisereeglite loomist ei pea te äriandmete muudatuste leidmiseks enam aruandeid kontrollima. Selle asemel saate lasta arukal muudatuste tuvastamise teenusel lasta neid enda eest jälgida.
 
@@ -50,6 +50,3 @@ Teenus saadab meiliteatised eelmääratletud meilimalle kasutades, mis edastavad
 Järgmisel pildil on näidatud teatiste struktuur, kui need on meili teel vastu võetud.
 
 [![Mallipõhised teatised kirje loomise, välja muutmise ja malli kustutamise kohta](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

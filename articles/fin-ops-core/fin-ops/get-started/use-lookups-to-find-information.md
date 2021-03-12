@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a555db8ced5981abf1f3f58f16b77e1c263dcfa2
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693637"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798138"
 ---
 # <a name="find-information-by-using-lookups"></a>Teabe leidmiseks otsingute abil
 
@@ -83,6 +83,3 @@ Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsi
 Pärast filtri rakendamist (vaadake allolevat pilti) saab kasutaja leida ja valida rea tavapärasel viisil.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

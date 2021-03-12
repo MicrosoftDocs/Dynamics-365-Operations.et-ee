@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688255"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744537"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -65,23 +65,23 @@ Jälituslogi sisselülitamiseks toimige järgmiselt.
 
 1. Logige sisse mudelipõhisesse rakendusse Dynamics 365, avage leht **Sätted** ja valige seejärel jaotises **Süsteem** suvand **Haldus**.
 2. Valige lehelt **Haldus** suvand **Süsteemisätted**.
-3. Lisandmooduli jälituslogi lubamiseks valige vahekaardil **Kohandamine** väljal **Lisandmooduli ja kohandatud töövoo tegevuse jälgimine** suvand **Kõik**. Kui soovite logida jälituslogisid ainult erandite ilmnemisel, saate teha valiku **Erand**.
+3. Lisandmooduli jälituslogi lubamiseks valige vahekaardil **Kohandamine** veerus **Lisandmooduli ja kohandatud töövoo tegevuse jälgimine** suvand **Kõik**. Kui soovite logida jälituslogisid ainult erandite ilmnemisel, saate teha valiku **Erand**.
 
 
 Jälituslogi kuvamiseks toimige järgmiselt.
 
 1. Logige sisse mudelipõhisesse rakendusse Dynamics 365, avage leht **Sätted** ja valige seejärel jaotises **Kohandamine** suvand **Lisandmooduli jälituslogi**.
-2. Leiate jälituslogid siis, kui välja **Tüübi nimi** väärtuseks on seatud **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Leiate jälituslogid siis, kui veeru **Tüübi nimi** väärtuseks on seatud **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Täieliku logi vaatamiseks topeltklõpsake üksust ja seejärel vaadake üle kiirkaardil **Käivitamine** tekst **Teateplokk**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Silumisrežiim lubamine tõrkeotsingu reaalajas sünkroonimise probleemide korral Finance and Operationsi rakendustes
 
 **Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator. Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Mõnel juhul ei ole tõrketeate täistekst saadaval, kuna sõnum on liiga pikk või sisaldab tuvastamist võimaldavaid andmeid (PII). Verbose tõrgete logimise saate sisse lülitada järgmiste juhiste abil.
 
-1. Kõigil Finance and Operationsi rakenduste projekti konfiguratsioonidel on atribuut **IsDebugMode** üksusel **DualWriteProjectConfiguration**. Üksuse **DualWriteProjectConfiguration** avamine Exceli lisandmooduliga.
+1. Kõigil Finance and Operationsi rakenduste projekti konfiguratsioonidel on atribuut **IsDebugMode** tabelis **DualWriteProjectConfiguration**. Tabeli **DualWriteProjectConfiguration** avamine Exceli lisandmooduliga.
 
     > [!TIP]
-    > Kõige lihtsam on üksust avada režiimi **Kujundus** sisselülitamisel Exceli lisandmoodulis ja seejärel lisada töölehele üksus **DualWriteProjectConfigurationEntity**. Lisateabe saamiseks vt [Üksuse andmete avamine Excelis ja andmete värskendamine Exceli lisandmooduliga](../../office-integration/use-excel-add-in.md).
+    > Kõige lihtsam on tabelit avada režiimi **Kujundus** sisselülitamisel Exceli lisandmoodulis ja seejärel lisada töölehele üksus **DualWriteProjectConfigurationEntity**. Lisateabe saamiseks vt [Tabeli andmete avamine Excelis ja andmete värskendamine Exceli lisandmooduliga](../../office-integration/use-excel-add-in.md).
 
 2. Seadke projekti atribuudi **IsDebugMode** väärtuseks **Jah**.
 3. Käivitage stsenaarium, mis tekitab tõrkeid.
@@ -118,10 +118,7 @@ Nüüd saate linkida uue keskkonna.
 Kui loote müügitellimuse rakenduses Dynamics 365 Sales, võib nupu **+ Lisa tooted** klõpsamine suunata teid rakenduse Dynamics 365 Project Operations tellimuserea vormile. Sellel vormil ei saa vaadata müügitellimuse rea vormi **Teave**. Ripploendis ei kuvata suvandi **Uus tellimuse rida** all suvandit **Teave**. See juhtub, kuna teie keskkonnas on installitud rakendus Project Operations.
 
 Vormisuvandi **Teave** uuesti lubamiseks tehke järgmist.
-1. Avage üksus **Tellimuse rida**.
+1. Avage tabel **Tellimuse rida**.
 2. Leidke vormide sõlme alt vorm **Teave**. 
 3. Valige vorm **Teave** ja klõpsake **Luba turberollid**. 
 4. Seadke turbesäte väärtusele **Kuva kõigile**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

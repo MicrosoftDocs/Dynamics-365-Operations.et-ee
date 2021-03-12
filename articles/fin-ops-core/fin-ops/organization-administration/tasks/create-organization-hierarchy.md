@@ -3,7 +3,7 @@ title: Organisatsiooni hierarhia loomine
 description: Kasutage järgmist protseduuri, et luua organisatsiooni hierarhia.
 author: sericks007
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 12/15/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 673403680525eff57c5886bb4f430a33efd76250
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8627c1aa0ce9ec011b568224040b1143f0f54c31
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694785"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796918"
 ---
 # <a name="create-an-organization-hierarchy"></a>Organisatsiooni hierarhia loomine
 
@@ -38,7 +38,7 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 3. Sisestage väärtus väljale **Nimi**.
 4. Jaotises **Eesmärk** klõpsake **Määra eesmärk**.
 5. Otsige loendist ja valige soovitud kirje. Valige organisatsiooni hierarhiale määratav eesmärk.  
-6. Jaotises **Määratud hierarhiad** klõpsake **Lisa**.
+6. Jaotises **Määratud hierarhiad** klõpsake suvandit **Lisa**.
 7. Märkige loendis valitud rida. Otsige äsja loodud hierarhia üles.  
 8. Klõpsake valikut **OK**.
 
@@ -48,6 +48,3 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
     - Vajaduse korral lisage organisatsioone.  
     - Organisatsiooni lisamiseks klõpsake **Redigeeri** ja seejärel **Sisesta**, et lisada organisatsioon. Kui olete muudatuste tegemise lõpetanud, saate mustandi **salvestada** ja/või muudatused **avaldada**.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

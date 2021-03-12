@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2460d8c641a7e7b98b4fa5511636a1f0a47d372
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693974"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797066"
 ---
 # <a name="number-sequences-overview"></a>Numbriseeriate ülevaade
 
@@ -115,6 +115,3 @@ Kui te ei pea eeskirjade kohaselt kasutama pidevaid numbriseeriaid, soovitame pa
 Toitekatkestuse, rakenduse tõrke või muu ootamatu vea puhul ei saa süsteem pidevate numbriseeriate numbreid automaatselt taaskasutada. Kaotsiläinud numbrite taastamiseks saate puhastamisprotsessi käsitsi või automaatselt käitada.
 
 Puhastamisprotsessi plaanimisel võtke kindlasti arvesse serveri koormust. Soovitame puhastamist teha pakett-tööna tipptundidevälisel ajal.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

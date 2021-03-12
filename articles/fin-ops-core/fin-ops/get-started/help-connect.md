@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0495bbc008ed1760b98c2c1ace63fc4a8b1ab5cc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694417"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798276"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Spikri kasutuskogemuse konfigureerimine Finance and Operationsi rakendustes
 
@@ -99,6 +99,3 @@ Kui soovite teha Microsoftiga koostööd spikri kohandamiseks vajalike tööriis
 [Tegevuse salvestaja ressursid](../../dev-itpro/user-interface/task-recorder.md)  
 [Dokumentide või koolituse loomine tegevuse salvestaja abil](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Kohandatud spikri GitHubi hoidla](https://github.com/microsoft/dynamics356f-o-custom-help)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

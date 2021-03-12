@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680068"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744689"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organisatsiooni hierarhia teenusesDataverse
 
@@ -49,9 +49,9 @@ Toote teave sisaldab kogu teavet, mis on seotud tootega ja selle määratlusega,
 
 Finance and Operations rakendused | Muud Dynamics 365 rakendused | Kirjeldus
 -----------------------|--------------------------------|---
-Organisatsiooni hierarhia eesmärgid | msdyn_internalorganizationhierarchypurposes | See mall tagab organisatsiooni hierarhia eesmärgi üksuse ühesuunalise sünkroonimise.
-Organisatsiooni hierarhia tüüp | msdyn_internalorganizationhierarchytypes | See mall tagab organisatsiooni hierarhia tüübi üksuse ühesuunalise sünkroonimise.
-Organisatsiooni hierarhia – avaldatud | msdyn_internalorganizationhierarchies | See mall tagab avaldatud organisatsiooni hierarhia üksuse ühesuunalise sünkroonimise.
+Organisatsiooni hierarhia eesmärgid | msdyn_internalorganizationhierarchypurposes | See mall tagab organisatsiooni hierarhia eesmärgi tabeli ühesuunalise sünkroonimise.
+Organisatsiooni hierarhia tüüp | msdyn_internalorganizationhierarchytypes | See mall tagab organisatsiooni hierarhia tüübi tabeli ühesuunalise sünkroonimise.
+Organisatsioonihierarhia – avaldatud | msdyn_internalorganizationhierarchies | See mall tagab avaldatud organisatsiooni hierarhia tabeli ühesuunalise sünkroonimise.
 Tootmisüksus | msdyn_internalorganizations |
 Juriidilised isikud | msdyn_internalorganizations |
 Juriidilised isikud | cdm_companies | Tagab juriidilise isiku (ettevõtte) teabe kahesuunalise sünkroonimise.
@@ -73,6 +73,3 @@ Sisemine organisatsiooniteave Dataverse’is pärineb kahest tabelist: **tootmis
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

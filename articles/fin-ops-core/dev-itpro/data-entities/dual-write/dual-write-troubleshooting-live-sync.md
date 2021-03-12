@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685559"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744609"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Reaalajas sünkroonimise probleemide tõrkeotsing
 
@@ -46,11 +46,11 @@ Kui proovite luua rakenduses Finance and Operations rida, võidakse kuvada järg
 
 Probleemi lahendamiseks järgige juhiseid teemas [Süsteemi nõuded ja eeltingimused](requirements-and-prerequisites.md). Nende sammude lõpule viimiseks peab rakenduses Dataverse loodud topeltkirjutuse kasutajatel olema süsteemiadministraatori roll. Vaikeomanikust meeskonnal peab samuti olema süsteemiadministraatori roll.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Mis tahes üksuse reaalajas sünkroonimine põhjustab sarnase tõrke, kui loote rea Finance and Operationsi rakenduses
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Mis tahes tabeli reaalajas sünkroonimine põhjustab sarnase tõrke, kui loote rea rakenduses Finance and Operations
 
 **Tõrke parandamiseks nõutav roll:** süsteemiadministraator
 
-Teile võidakse kuvada järgnev tõrketeate iga kord, kui proovite üksuse andmeid Finance and Operationsi rakenduses salvestada.
+Teile võidakse kuvada järgnev tõrketeade iga kord, kui proovite tabeli andmeid rakenduses Finance and Operations salvestada.
 
 *Andmebaasi muudatusi ei saa salvestada. Tööüksus ei saa kannet kinnitada. Üksuse uoms-i ei saa andmeid kirjutada. Üksusesse UnitOfMeasureEntity kirjutamine nurjus, kuna tõrketeade ei saa sünkroonida üksuse uoms-i.*
 
@@ -58,8 +58,8 @@ Probleemi lahendamiseks peate veenduma, et eeltingimuseks olevad viiteandmed on 
 
 Kui andmed on olemas kummalgi poolel ja olete teinud kindlaks, et probleem ei ole seotud andmetega, toimige järgmiselt.
 
-1. Peatage seostatud üksus.
-2. Logige sisse rakendusse Finance and Operations ja veenduge, et nurjuva üksuse read oleks olemas tabelites DualWriteProjectConfiguration ja DualWriteProjectFieldConfiguration. Näiteks selline näeb välja päring, kui üksus **Kliendid** nurjub.
+1. Peatage seotud tabel.
+2. Logige sisse rakendusse Finance and Operations ja veenduge, et nurjuva tabeli read oleks olemas tabelites DualWriteProjectConfiguration ja DualWriteProjectFieldConfiguration. Näiteks selline näeb välja päring, kui tabel **Kliendid** nurjub.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Kui andmed on olemas kummalgi poolel ja olete teinud kindlaks, et probleem ei ol
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Kui nurjunud üksusel on ridu ka pärast tabeli vastendamise peatamist, kustutage nurjunud üksusega seotud read. Märkige tabelis DualWriteProjectConfiguration veerg **projectname** ja tooge tabelist DualWriteProjectFieldConfiguration kirje, kasutades rea kustutamiseks projekti nime.
+3. Kui nurjunud tabelil on ridu ka pärast tabeli vastendamise peatamist, kustutage nurjunud tabeliga seotud read. Märkige tabelis DualWriteProjectConfiguration veerg **projectname** ja tooge tabelist DualWriteProjectFieldConfiguration rida, kasutades rea kustutamiseks projekti nime.
 4. Käivitage tabeli vastendamine. Kontrollige, kas andmed sünkroonitakse tõrgeteta.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Lugemis- või kirjutusprivileegide tõrgete käsitlemine rakenduses Finance and Operations andmete loomisel
@@ -127,6 +127,3 @@ Probleemi lahendamiseks tehke järgmist.
 
 3. Veenduge, et veerul **externalenvironmentURL** oleks õige Dataverse'i või rakenduse URL. Kustutage kõik duplikaatread, mis osutavad valele Dataverse'i URL-ile. Kustutage vastavad read tabelitest DUALWRITEPROJECTFIELDCONFIGURATION and DUALWRITEPROJECTCONFIGURATION.
 4. Peatage tabeli vastendamine ja taaskäivitage see
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0b55046e6c523398b4a30e674dc9f77bb6fedf3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ca9ddaed0c4aad6aeb3877384778d33f83e6e4aa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693204"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796846"
 ---
 # <a name="record-templates-overview"></a>Kirjemallide ülevaade
 
@@ -37,6 +37,3 @@ Näiteks kujutage ette, et sisestate renditeavet autorendiettevõtte puhul, mis 
 > Saate malle rakendada ainult nendes tarkvara osades, millele teil juurdepääs on. Siiski on kõik mallipealkirjad teile uue kirje loomisel nähtavad, ja ka teistele kasutajatele, kui loote mallid, mis on saadaval kõigile kasutajatele. Võtke seda mallide nimetamisel arvesse. Vältige näiteks nimesid, mis sisaldavad selliseid sõnu, nagu „komisjonitasu”, kui see on konfidentsiaalne teave, et osa ettevõtte töötajatest saab komisjonitasul põhinevat palka.
 
 Kui teil on juurdepääs ühele või mitmele mallile, mis on loodud konkreetse vormi jaoks, ja proovite luua sellesse vormi uut kirjet, kuvatakse leht **Malli valimine üksusele**. Kui valite malli loendist, luuakse uus kirje, mis sisaldab valitud mallil põhinevat vaiketeavet. Kui te ei soovi uute kirjete loomisel malle kasutada, märkige ruut **Ära edaspidi küsi** lehel **Malli valimine üksusele**. Mallivaliku uuesti kuvamiseks paremklõpsake suvalisel kirjel, klõpsake valikut **Kirje teave** ning seejärel klõpsake valikut **Näita mallivalikut**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

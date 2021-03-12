@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685481"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744511"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
@@ -33,17 +33,17 @@ ms.locfileid: "4685481"
 
 
 
-Termin *hankija* viitab tarnijariigi organisatsioonile või ainuomanikule, kes tarnib ettevõttele kaupu või teenuseid. Kuigi *hankija* on loodud mõiste teenusekomplektis Microsoft Dynamics 365 Supply Chain Management, pole teistes Dynamics 365 mudeljuhitud rakendustes mõistet hankija olemas. Kuid hankija teabe talletamiseks saate ülekoormata üksuse **Konto/kontakt**. Integreeritud hankija koondandmed tutvustavad Dynamics 365 mudeljuhitud rakendustes selgesõnalist hankija mõistet. Saate kasutada kas uut hankija kujundust või talletada hankija andmeid üksuses **Konto/kontakt**. Topeltkirjutus toetab mõlemat lähenemist.
+Termin *hankija* viitab tarnijariigi organisatsioonile või ainuomanikule, kes tarnib ettevõttele kaupu või teenuseid. Kuigi *hankija* on loodud mõiste teenusekomplektis Microsoft Dynamics 365 Supply Chain Management, pole teistes Dynamics 365 mudeljuhitud rakendustes mõistet hankija olemas. Kuid hankija teabe talletamiseks saate ülekoormata tabeli **Konto/kontakt**. Integreeritud hankija koondandmed tutvustavad Dynamics 365 mudeljuhitud rakendustes selgesõnalist hankija mõistet. Saate kasutada kas uut hankija kujundust või talletada hankija andmeid tabelis **Konto/kontakt**. Topeltkirjutus toetab mõlemat lähenemist.
 
 Mõlemas lähenemisviisis on hankija andmed integreeritud Dynamics 365 Supply Chain Managementi, Dynamics 365 Salesi, Dynamics 365 Field Service'i ja Power Appsi portaalide vahel. Supply Chain Managementis on andmed saadaval töövoogudele (nt ostutaotlused ja ostutellimused).
 
 ## <a name="vendor-data-flow"></a>Hankijaandmete voog
 
-Kui te ei soovi talletada hankija andmeid Dataverse'i üksuses **Konto/kontakt**, saate kasutada uut hankija kujundust.
+Kui te ei soovi talletada hankija andmeid Dataverse’i tabelis **Konto/kontakt**, saate kasutada uut hankija kujundust.
 
 ![Hankijaandmete voog](media/dual-write-vendor-data-flow.png)
 
-Kui soovite jätkata hankija andmete talletamist üksuses **Konto/kontakt**, saate kasutada laiendatud hankija kujundust. Laiendatud hankija kujunduse kasutamiseks peate konfigureerima hankija töövood topeltkirjutuse lahendusepaketis. Lisateavet vaadake teemast [Hankija kujunduste vahel vahetamine](vendor-switch.md).
+Kui soovite jätkata hankija andmete talletamist tabelis **Konto/kontakt**, saate kasutada laiendatud hankija kujundust. Laiendatud hankija kujunduse kasutamiseks peate konfigureerima hankija töövood topeltkirjutuse lahendusepaketis. Lisateavet vaadake teemast [Hankija kujunduste vahel vahetamine](vendor-switch.md).
 
 ![Hankijaandmete laiendatud voog](media/dual-write-vendor-detail.jpg)
 
@@ -56,7 +56,7 @@ Hankijaandmed sisaldavad kogu teavet hankija kohta (nt hankijagrupp, aadressid, 
 
 Finance and Operations rakendused | Muud Dynamics 365 rakendused     | Kirjeldus
 ----------------------------|-----------------------------|------------
-Hankija V2                   | Konto                     | Ettevõtted, mis kasutavad hankija teabe talletamiseks olemit Konto, saavad jätkata selle kasutamist samal viisil. Nad saavad Finance and Operationsi rakenduste integratsiooni tõttu kasutada ka konkreetseid hankijafunktsioone.
+Hankija V2                   | Konto                     | Ettevõtted, mis kasutavad hankija teabe talletamiseks tabelit Konto, saavad jätkata selle kasutamist samal viisil. Nad saavad Finance and Operationsi rakenduste integratsiooni tõttu kasutada ka konkreetseid hankijafunktsioone.
 Hankija V2                   | Msdyn\_vendors              | Ettevõtted, mis kasutavad hankijate jaoks kohandatud lahendusi, saavad kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni tõttu juurutatud teenuses Dataverse. 
 Hankijagrupid               | msdyn\_vendorgroups         | See mall sünkroonib hankijagrupi teabe.
 Tarnija makseviis       | msdyn\_vendorpaymentmethods | See mall sünkroonib hankija makseviisi teabe.
@@ -75,6 +75,3 @@ Nime liited                | msdyn\_nameaffixes          | [Nimeliidete](custome
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

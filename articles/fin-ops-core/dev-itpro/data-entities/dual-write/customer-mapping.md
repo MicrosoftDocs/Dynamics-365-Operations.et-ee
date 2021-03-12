@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 801538e320ca78b0cc55bb4e4b8a80d38b9b48d6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b7e9cd27bb918dc3a6088b45803329deb01a864e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685635"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744397"
 ---
 # <a name="integrated-customer-master"></a>Integreeritud kliendi koondandmed
 
@@ -42,9 +42,9 @@ Kliendiandmeid saab luua rohkem kui ühes Dynamics 365 rakenduses. Näiteks klie
 
 Kliente saab laias laastus liigitada kahte tüüpi: äri-/organisatsioonikliendid ning tarbijad/lõppkasutajad. Neid kahte tüüpi kliente talletatakse ja käsitletakse rakendustes Finance and Operations ja Dataverse erinevalt.
 
-Rakenduses Finance and Operations luuakse nii äri-/organisatsioonikliendid kui ka tarbijad/lõppkasutajad ühed tabelis nimetusega **CustTable** (CustCustomerV3Entity) ja neid liigitatakse atribuudi **Tüüp** järgi. (Kui atribuudiks **Tüüp** on määratud **Organisatsioon**, on klient äri-/organisatsiooniklient ja kui atribuudiks **Tüüp** on määratud **Isik**, on klient tarbija/lõppkasutaja.) Esmase kontaktisiku teavet töödeldakse olemi SMMContactPersonEntity kaudu.
+Rakenduses Finance and Operations luuakse nii äri-/organisatsioonikliendid kui ka tarbijad/lõppkasutajad ühed tabelis nimetusega **CustTable** (CustCustomerV3Entity) ja neid liigitatakse atribuudi **Tüüp** järgi. (Kui atribuudiks **Tüüp** on määratud **Organisatsioon**, on klient äri-/organisatsiooniklient, ja kui atribuudiks **Tüüp** on määratud **Isik**, on klient tarbija/lõppkasutaja.) Esmase kontaktisiku teavet töödeldakse tabeli SMMContactPersonEntity kaudu.
 
-Rakenduses Dataverse luuakse äri-/organisatsioonikliendid olemis Konto ja tuvastatakse klientidena, kui atribuudiks **Seose tüüp** on määratud **Klient**. Nii tarbijaid/lõppkasutajaid kui ka kontaktisikut esindab olem Kontakt. Et tagada tarbija/lõppkasutaja ja kontaktisiku selge eristamine, on olemil **Kontakt** loogikalipp nimega **Müüdav**. Kui **Müüdav** on **Tõene**, on kontakt tarbija/lõppkasutaja ja selle kontakt jaoks saab luua pakkumisi ja tellimusi. Kui **Müüdav** on **Väär**, on kontakt vaid kliendi esmane kontaktisik.
+Rakenduses Dataverse luuakse äri-/organisatsioonikliendid tabelis Konto ja tuvastatakse klientidena, kui atribuudiks **Seose tüüp** on määratud **Klient**. Nii tarbijaid/lõppkasutajaid kui ka kontaktisikut esindab tabel Kontakt. Et tagada tarbija/lõppkasutaja ja kontaktisiku selge eristamine, on tabelil **Kontakt** loogikalipp nimega **Müüdav**. Kui **Müüdav** on **Tõene**, on kontakt tarbija/lõppkasutaja ja selle kontakt jaoks saab luua pakkumisi ja tellimusi. Kui **Müüdav** on **Väär**, on kontakt vaid kliendi esmane kontaktisik.
 
 Kui mittemüüdav kontakt osaleb pakkumise või tellimuse toimingus, on atribuudiks **Müüdav** määratud **Tõene**, et märkida kontakt lipuga müüdava kontaktina. Kontakt, kes on saanud müüdavaks kontaktiks, jääb müüdavaks kontaktiks.
 
@@ -89,6 +89,3 @@ Maksetingimused            | msdyn_paymentterms              | See mall sünkroo
 [!include [mapping payment schedules](includes/PaymentSchedules-msdyn-paymentschedules.md)]
 
 [!include [mapping terms of payment](includes/TermsofPayment-msdyn-paymentterms.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

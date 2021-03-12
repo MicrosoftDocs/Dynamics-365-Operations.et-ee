@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683724"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744371"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valuuta andmetüübi migreerimine topeltkirjutamise jaoks
 
@@ -44,11 +44,11 @@ Migreerimine on valikuline. Kui rohkemate kümnendkohtade tugi võib teile kasuk
 
 ## <a name="requesting-migration-from-microsoft"></a>Microsoftilt migreerimise taotlemine
 
-Olemasolevate valuutaväljade talletamise puhul teenuses Dataverse ei toetata rohkem kui nelja kümnendkohta. Seetõttu kopeeritakse valuutaväärtused migreerimise käigus andmebaasi uutele sisemistele väljadele. See protsess jätkub, kuni kõik andmed on migreeritud. Migreerimise lõpus asendatakse vanad talletustüübid sisemiselt uute talletustüüpidega, kuid andmeväärtused ei muutu. Valuutaväljad toetavad seejärel kuni kümmet kümnendkohta. Migreerimise käigus saab jätkata teenuse Dataverse kasutamist häirimatult.
+Olemasolevate valuutaveergude talletamise puhul teenuses Dataverse ei toetata rohkem kui nelja kümnendkohta. Seetõttu kopeeritakse valuutaväärtused migreerimise käigus andmebaasi uutele sisemistele veergudele. See protsess jätkub, kuni kõik andmed on migreeritud. Migreerimise lõpus asendatakse vanad talletustüübid sisemiselt uute talletustüüpidega, kuid andmeväärtused ei muutu. Valuutaveerud toetavad seejärel kuni kümmet kümnendkohta. Migreerimise käigus saab jätkata teenuse Dataverse kasutamist häirimatult.
 
 Samal ajal muudetakse vahetuskursse nii, et need toetaks kuni 12 kümnendkohta praeguse kümnese piirangu asemel. See muudatus on vajalik selleks, et kümnendkohtade arv oleks sama nii rakenduses Finance and Operations kui ka teenuses Dataverse.
 
-Migreerimine ei muuda andmeid. Pärast valuuta- ja vahetuskursiväljade teisendamist saavad administraatorid seadistada süsteemi kasutama valuutaväljade puhul kuni kümmet kümnendkohta, määrates kümnendkohtade arvu iga kande valuuta ning hinnakujunduse jaoks.
+Migreerimine ei muuda andmeid. Pärast valuuta- ja vahetuskursivveergude teisendamist saavad administraatorid seadistada süsteemi kasutama valuutaveergude puhul kuni kümmet kümnendkohta, määrates kümnendkohtade arvu iga kande valuuta ning hinnakujunduse jaoks.
 
 ### <a name="request-a-migration"></a>Migreerimise taotlemine
 
@@ -72,29 +72,26 @@ Kui migreerimine on lõpule viidud, saab teenus Dataverse talletada numbreid, mi
 
 Selle muudatuse tegemiseks peate värskendama Power Appsis järgmised sätted.
 
-+ **Süsteemisätted: valuuta täpsus hinnakujunduse puhul** – väli **Määra valuuta täpsus, mida kasutatakse hinnakujunduse jaoks terves süsteemis** määratleb, kuidas valuuta organisatsiooni puhul käitub, kui valitud on **Hinnakujunduse täpsus**.
-+ **Ärihaldus: valuutad** – väli **Valuuta täpsus** võimaldab teil määrata kindla valuuta jaoks kohandatud kümnendkohtade arvu. Tervet organisatsiooni hõlmav säte pole ideaalne.
++ **Süsteemisätted: valuuta täpsus hinnakujunduse puhul** – veerg **Määra valuuta täpsus, mida kasutatakse hinnakujunduse jaoks terves süsteemis** määratleb, kuidas valuuta organisatsiooni puhul käitub, kui valitud on **Hinnakujunduse täpsus**.
++ **Ärihaldus: valuutad** – veerg **Valuuta täpsus** võimaldab teil määrata kindla valuuta jaoks kohandatud kümnendkohtade arvu. Tervet organisatsiooni hõlmav säte pole ideaalne.
 
 Sellel on mõned piirangud.
 
-+ Te ei saa üksuses valuutavälja konfigureerida.
++ Te ei saa tabelis valuutaveergu konfigureerida.
 + Saate määrata rohkem kui neli kümnendkohta ainult **Hinnakujunduse** ja **Kande valuuta** tasemetes.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Süsteemisätted: valuuta täpsus hinnakujunduse puhul
 
-Pärast migreerimise lõpule viimist saavad administraatorid määrata valuuta täpsuse. Avage **Sätted \> Haldus** ja valige **Süsteemisätted**. Seejärel muutke vahekaardil **Üldine** välja **Määra valuuta täpsus, mida kasutatakse hinnakujunduse jaoks terves süsteemis** väärtust, nagu on näidatud järgmisel illustratsioonil.
+Pärast migreerimise lõpule viimist saavad administraatorid määrata valuuta täpsuse. Avage **Sätted \> Haldus** ja valige **Süsteemisätted**. Seejärel muutke vahekaardil **Üldine** veergu **Määra valuuta täpsus, mida kasutatakse hinnakujunduse jaoks terves süsteemis** väärtust, nagu on näidatud järgmisel illustratsioonil.
 
 ![Valuuta süsteemisätted](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Ärihaldus: valuutad
 
-Kui teil on vaja, et konkreetse valuuta täpsus erineks hinnakujunduses kasutatavast valuuta täpsusest, saate seda muuta. Avage **Sätted \> Ärihaldus**, valige **Valuutad** ja seejärel valuuta, mida soovite muuta. Seejärel seadke välja **Valuuta täpsus** väärtuseks soovitud kümnendkohtade arv, nagu on näidatud järgmisel illustratsioonil.
+Kui teil on vaja, et konkreetse valuuta täpsus erineks hinnakujunduses kasutatavast valuuta täpsusest, saate seda muuta. Avage **Sätted \> Ärihaldus**, valige **Valuutad** ja seejärel valuuta, mida soovite muuta. Seejärel seadke veeru **Valuuta täpsus** väärtuseks soovitud kümnendkohtade arv, nagu on näidatud järgmisel illustratsioonil.
 
 ![Konkreetse lokaadi valuutasätted](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>tabelid: valuutaväli
+### <a name="tables-currency-column"></a>tabelid: valuutaveerg
 
-Kindlate valuutaväljade jaoks konfigureeritav maksimaalne kümnendkohtade arv on neli.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Kindlate valuutaveergude jaoks konfigureeritav maksimaalne kümnendkohtade arv on neli.

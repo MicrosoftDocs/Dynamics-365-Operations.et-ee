@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71d51f137cc0e0fcc18b39f8b92ab5c44b359609
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694072"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797092"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Töövoo kinnitusetappide konfigureerimine
 
@@ -276,6 +276,3 @@ Kui kasutaja ei reageeri dokumendile määratud aja jooksul, siis on dokument hi
 
 5. Korrake etappe 3 kuni 4 iga kasutaja puhul, kes tuleb laiendusteele lisada. Saate muuta kasutajate järjekorda.
 6. Kui kasutajad laiendusteel ei reageeri määratud aja jooksul, siis reageerib süsteem dokumendile automaatselt. Süsteemi tegevuse määramiseks valige rida **Tegevus** ja seejärel valige tegevus vahekaardi **Lõpptegevus**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

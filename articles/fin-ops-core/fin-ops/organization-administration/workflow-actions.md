@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694283"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797598"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Toimingud töövoo kinnitusprotsessides
 
@@ -141,6 +141,3 @@ Kui kinnitaja taotleb dokumendi muutmist, saadetakse dokument tagasi algatajale.
 Näiteks Sam on esitanud kuluaruande väärtuses USD 12 000 ja see dokument on määratud Suele. Kui Sue soovib muutmist, saadetakse kuluaruanne tagasi Samile.
 
 Sam saab kuluaruande uuesti esitada. Ta võib teha esmalt soovitud muudatused või edastada uuesti kuluaruande algse versiooni. Kui Sam taasesitab kuluaruande, saadetakse see Frankile kinnitamiseks, sest Frank on selle kinnitamisprotsessi esimene kinnitaja.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

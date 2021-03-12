@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f440a42ea475a42c803475d82e3027625bf4db
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694905"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798039"
 ---
 # <a name="manage-recruiting-processes"></a>Värbamisprotsesside haldus
 
@@ -103,6 +103,3 @@ Vabale töökohale sobiva kandidaadi tuvastamiseks saate kasutada vorme **Oskust
 ## <a name="hiring-applicants"></a>Kandidaatide palkamine
 
 Kandidaadi palkamiseks kasutage lehekülge **Avaldused**. Kandidaadi palkamisel muudetakse avalduse kirje olekuks **Tööle võetud** ja kandidaadi isikukirje globaalses aadressiraamatus seostatakse uue töötaja kirjega. Globaalses aadressiraamatus uue töötaja kirjes tehtud muudatused kuvatakse ka kandidaadi kirjes. See aitab vähendada andmete sisestamiseks kuluvat aega, kui uus töötaja tulevikus ettevõttesiseselt teisele töökohale kandideerib. Olemasoleva töötaja uuele ametikohale palkamiseks avage lehekülg **Avalduse olek** ja klõpsake üleviimisprotsessi käivitamiseks valikut **Ametikoha muutmine**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

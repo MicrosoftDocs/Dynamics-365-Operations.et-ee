@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60e6fb7d38bd3ca78538ca10a15f6fb09bba52a3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693900"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796894"
 ---
 # <a name="address-books-faq"></a>Aadressiraamatute KKK
 
@@ -67,6 +67,3 @@ Saate sisestada osapoole kirjeid globaalsesse aadressiraamatusse või vastava ü
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kas saan tõlkida osapoole kirjete aadressiteavet?
 
 Saate seadistada aadressiteabe tõlkeid, nii et teave kuvatakse programmis teie kasutajakeeles (süsteemikeeles), kuid dokumentidel (nt müügitellimustel) muus keeles. Saate sisestada riigi/piirkonna nimede, aadressi eesmärkide ja nimeseeriate tõlkeid. Näiteks oletame, et teie süsteemikeel on taani keel ja loote müügitellimuse Prantsusmaal asuvale kliendile. Sel juhul saate vaadata kliendikirjet programmis taani keeles, kuid kuvada prinditud müügitellimusel aadressiteabe prantsuse keeles. Tõlgete seadistamisel tuleb sisestada iga loendis oleva üksuse tõlke. Kõik üksused, millele te tõlget ei sisesta, kuvatakse süsteemikeeles. Näiteks oletame, et teie süsteemikeel on taani keel ja saadate dokumendi Hispaanias asuvale kliendile. Kui te pole sisestanud aadressiteabele hispaaniakeelseid (ESP) tõlkeid, kuvatakse see teave taani keeles nii programmis kui ka prinditud dokumendil.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

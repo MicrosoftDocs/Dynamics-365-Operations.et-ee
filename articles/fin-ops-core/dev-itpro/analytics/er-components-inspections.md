@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688563"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797337"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 
 [!include[banner](../includes/banner.md)]
 
-Kõik konfigureeritud [elektroonilise aruandluse (ER)](general-electronic-reporting.md) [vormingu](general-electronic-reporting.md#FormatComponentOutbound) ja [mudeli vastendamise](general-electronic-reporting.md#data-model-and-model-mapping-components) komponendid saab kujundamise ajal [kontrollida](er-fillable-excel.md#validate-an-er-format). Selle kontrollimise ajal viiakse läbi järjepidevuse kontroll, et aidata ennetada esineda võivaid käitusaja probleeme, nt käivitustõrked ja jõudluse halvenemine. Iga leitud probleemi puhul esitatakse probleemse elemendi tee. Osade probleemide puhul on saadaval automaatne parandus.
+Kõik konfigureeritud [elektroonilise aruandluse (ER)](general-electronic-reporting.md) [vormingu](general-electronic-reporting.md#FormatComponentOutbound) ja [mudeli vastendamise](general-electronic-reporting.md#data-model-and-model-mapping-components) komponendid saab kujundamise ajal [kontrollida](er-fillable-excel.md#validate-an-er-format). Selle kinnitamise ajal töötab järjepidevuse kontroll, et aidata ennetada esineda võivaid käitusaja probleeme, nt käivitustõrked ja jõudluse halvenemine. Iga leitud probleemi puhul esitab kontroll probleemse elemendi tee. Osade probleemide puhul on saadaval automaatne parandus.
 
 Vaikimisi rakendatakse ER-i konfiguratsioonile automaatselt kontroll järgmistel juhtudel, mis sisaldab eelnevalt nimetatud ER-i komponente.
 
@@ -224,7 +223,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 4. Pange uue andmeallika nimeks **Y** ja konfigureerige see nii, et see sisaldaks avaldist `INTVALUE(100)`.
 5. Siduge omavahel **X** ja **Y**.
 6. Muutke andmemudeli kujundajas välja **X** andmetüüp väärtusest **Täisarv** valikule **Int64**.
-7. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
+7. Valige nupp **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
     ![redigeeritava mudeli vastendamise komponendi kinnitamine lehel Mudeli vastendamise kujundaja](./media/er-components-inspections-01.gif)
 
@@ -299,7 +298,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 4. Pange uue andmeallika nimeks **Y** ja konfigureerige see nii, et see sisaldaks avaldist `INTVALUE(100)`.
 5. Siduge omavahel **X** ja **Y**.
 6. Kustutage mudeli vastendamise kujundajas andmeallikate paanil andmeallikas **Y**.
-7. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
+7. Valige nupp **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
     ![Kontrollige redigeeritava ER-i mudeli vastendamise komponendi kinnitamist lehel Mudeli vastendamise kujundaja](./media/er-components-inspections-03.gif)
 
@@ -330,10 +329,10 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 3. Pange uuele andmeallikale nimeks **Hankija**. Valige väljal **Tabel** suvand **VendTable**, et määratleda, et see andmeallikas taotleb tabelit VendTable.
 4. Lisage tüübi **Arvutatud väli** andmeallikas.
 5. Pange uue andmeallika nimeks **FilteredVendor** ja konfigureerige see nii, et see sisaldaks avaldist `FILTER(Vendor, Vendor.AccountNum="US-101")`.
-6. Valige suvand **Kontrolli**, et kontrollida mudeli vastendamise kujundaja lehel **Mudeli vastendamise kujundaja** redigeeritud mudeli vastendamise komponenti ja kinnitada, et avaldisele `FILTER(Vendor, Vendor.AccountNum="US-101")` on võimalik andmeallikas **Hankija** saata päring.
+6. Valige suvand **Kinnita**, et kontrollida lehel **Mudeli vastendamise kujundaja** redigeeritud mudeli vastendamise komponenti ja kinnitada, et avaldisele `FILTER(Vendor, Vendor.AccountNum="US-101")` on võimalik andmeallikas **Hankija** saata päring.
 7. Muutke andmeallikat **Hankija**, lisades tüübi **Arvutatud väli** pesastatud väli, et hankida kärbitud hankija konto number.
 8. Pange uue pesastatud välja nimeks **$AccNumber** ja konfigureerige see nii, et see sisaldaks avaldist `TRIM(Vendor.AccountNum)`.
-9. Valige suvand **Kontrolli**, et kontrollida mudeli vastendamise kujundaja lehel **Mudeli vastendamise kujundaja** redigeeritud mudeli vastendamise komponenti ja kinnitada, et avaldisele `FILTER(Vendor, Vendor.AccountNum="US-101")` on võimalik andmeallikas **Hankija** saata päring.
+9. Valige suvand **Kinnita**, et kontrollida lehel **Mudeli vastendamise kujundaja** redigeeritud mudeli vastendamise komponenti ja kinnitada, et avaldisele `FILTER(Vendor, Vendor.AccountNum="US-101")` on võimalik andmeallikas **Hankija** saata päring.
 
     ![Avaldise kontrollimise osas on võimalik saata päring mudeli vastendamise kujundaja lehel](./media/er-components-inspections-04.gif)
 
@@ -374,13 +373,13 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
     ![Andmeallika konfigureerimine lehel Rühmitamisaluse parameetrite redigeerimine](./media/er-components-inspections-05a.gif)
 
-6. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **GroupedTrans** saab päringusse kaasata.
+6. Valige suvand **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**, ja kinnitada, et konfigureeritud andmeallika **GroupedTrans** saab päringusse kaasata.
 7. Muutke andmeallikat **Kanne**, lisades tüübi **Arvutatud väli** pesastatud väli, et hankida kärbitud hankija konto number.
 8. Pange uue andmeallika nimeks **$AccNumber** ja konfigureerige see nii, et see sisaldaks avaldist `TRIM(Trans.AccountNum)`.
 
     ![Andmeallikas konfigureerimine mudeli vastenduse koostaja lehel](./media/er-components-inspections-05a.png)
 
-9. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **GroupedTrans** saab päringusse kaasata.
+9. Valige suvand **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**, ja kinnitada, et konfigureeritud andmeallika **GroupedTrans** saab päringusse kaasata.
 
     ![Kinnitage ER-i mudeli vastendamise komponent ja veenduge, et konfigureeritud andmeallika GroupedTrans saaks mudeli vastendamise kujundaja lehel päringusse kaasata](./media/er-components-inspections-05b.png)
 
@@ -426,9 +425,9 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
     ![Andmeallikas konfigureerimine liitumise koostaja lehel](./media/er-components-inspections-06a.gif)
 
-10. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **JoinedList** saab päringusse kaasata.
+10. Valige suvand **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**, ja kinnitada, et konfigureeritud andmeallika **JoinedList** saab päringusse kaasata.
 11. Muutke andmeallika **Vendor.FilteredTrans** avaldis valikult `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` valikule `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
-12. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **JoinedList** saab päringusse kaasata.
+12. Valige suvand **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**, ja kinnitada, et konfigureeritud andmeallika **JoinedList** saab päringusse kaasata.
 
     ![Valige redigeeritava mudeli vastendamise komponent ja veenduge, et andmeallikale JoinedList saab esitada päringu mudeli vastendamise kujundaja lehel](./media/er-components-inspections-06b.png)
 
@@ -454,7 +453,7 @@ Muutke andmeallika **Vendor.FilteredTrans** avaldis suvandilt `WHERE(Trans, Tran
 
 #### <a name="option-2"></a>Suvand 2
 
-Muutke välja **Täitmine** väärtust andmeallika **JoinedList** jaoks valikult **Päring** valikule **Mälus**. Me ei soovita teil muuta tabeli väärtust, millel on suur hulk andmeid (ülekande tabel), sest tuuakse kõik kirjed ning liitumine toimub mälus. Seetõttu võib selline lähenemine põhjustada kehva jõudluse. Kuvatakse kinnitamise hoiatus, mis teavitab teid sellest ohust.
+Muutke välja **Täitmine** väärtust andmeallika **JoinedList** jaoks valikult **Päring** valikule **Mälus**. Me ei soovita teil muuta tabeli väärtust, millel on suur hulk andmeid (ülekande tabel), sest tuuakse kõik kirjed ning liitumine leiab aset mälus. Seetõttu võib selline lähenemine põhjustada kehva jõudluse. Kuvatakse kinnitamise hoiatus, mis teavitab teid sellest ohust.
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>Funktsiooni FILTER vs WHERE eelistatavus
 
@@ -471,7 +470,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 7. Pange uuele andmeallikale nimeks **Hankija**. Valige väljal **Tabel** suvand **VendTable**, et määratleda, et see andmeallikas taotleb tabelit VendTable.
 8. Lisage tüübi **Arvutatud väli** andmeallikas.
 9. Pange uue andmeallika nimeks **FilteredVendor** ja konfigureerige see nii, et see sisaldaks avaldist `WHERE(Vendor, Vendor.AccountNum="US-101")`.
-10. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
+10. Valige nupp **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
     ![Kinnitage, et kontrollida redigeeritava mudeli vastendamise komponenti lehel Mudeli vastendamise kujundaja.](./media/er-components-inspections-07a.png)
 
@@ -489,11 +488,11 @@ Teise võimalusena saate valida ruudustikus üksiku rea hoiatuse ja valida seej�
 
 ### <a name="manual-resolution"></a>Käsitsi lahendamine
 
-Saate käsitsi korrigeerida kõigi andmeallikate avaldisi, mis on märgitud kinnitamise ruudustikus, asendades funktsiooni **WHERE** funktsiooniga **FILTER**.
+Saate käsitsi korrigeerida kõigi andmeallikate avaldisi kinnitamise ruudustikus, asendades funktsiooni **WHERE** funktsiooniga **FILTER**.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Funktsiooni ALLITEMSQUERY vs ALLITEMS eelistatavus
 
-Sisseehitatud ER-i funktsioone [ALLITEMS](er-functions-list-allitems.md) ja [ALLITEMSQUERY](er-functions-list-allitemsquery.md) kasutatakse tasandatud väärtuse **Kirje loend** hankimiseks, mis koosneb kirjete loendist, mis esindavad kõiki määratud teega ühtivaid üksusi. ER kontrollib, kas võimalik on luua otsene SQL-i kõne andmeallikale, millele viidatakse funktsioonis **ALLITEMS**. Kui otsest kõnet ei saa luua, kuvatakse ER-i mudeli vastendamise kujundajas valideerimise hoiatus. Teile kuvatav teade soovitab teil kasutada tõhususe parandamiseks funktsiooni **ALLITEMS** asemel funktsiooni **ALLITEMSQUERY**.
+Sisseehitatud ER-i funktsioonid [ALLITEMS](er-functions-list-allitems.md) ja [ALLITEMSQUERY](er-functions-list-allitemsquery.md) tagastavad tasandatud väärtuse **Kirje loend** hankimiseks, mis koosneb kirjete loendist, mis esindavad kõiki määratud teega ühtivaid üksusi. ER kontrollib, kas võimalik on luua otsene SQL-i kõne andmeallikale, millele viidatakse funktsioonis **ALLITEMS**. Kui otsest kõnet ei saa luua, kuvatakse ER-i mudeli vastendamise kujundajas valideerimise hoiatus. Teile kuvatav teade soovitab teil kasutada tõhususe parandamiseks funktsiooni **ALLITEMS** asemel funktsiooni **ALLITEMSQUERY**.
 
 Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
@@ -504,7 +503,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 5. Pange uue andmeallika nimeks **FilteredVendor** ja konfigureerige see nii, et see sisaldaks avaldist `FILTER(Vendor, OR(Vendor.AccountNum="US-101",Vendor.AccountNum="US-102"))`.
 6. Lisage tüübi **Arvutatud väli** andmeallikas, et hankida kõikide filtreeritud hankijate kanded.
 7. Pange uue andmeallika nimeks **FilteredVendorTrans** ja konfigureerige see nii, et see sisaldaks avaldist `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
-8. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
+8. Valige nupp **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
     ![Mudeli vastendamise kujundaja leht, nupp Kinnita](./media/er-components-inspections-08a.png)
 
@@ -526,7 +525,7 @@ Saate käsitsi korrigeerida kõigi andmeallikate avaldisi, mis on märgitud kinn
 
 ## <a name="consideration-of-empty-list-cases"></a><a id="i9"></a>Tühja loendiga juhtumite arvesse võtmine
 
-Saate konfigureerida oma ER-i vormingu või mudeli vastendades komponendi, et hankida tüübi **Kirje loend** andmeallika välja väärtus. ER kontrollib, kas teie disainilahendus leiab, et kutsutud andmeallikas ei sisalda kirjeid (st see on tühi), et vältida käitusaja tõrkeid, kui väärtus tuuakse olematu kirje väljalt.
+Saate konfigureerida oma ER-i vormingu või mudeli vastendamise komponendi, et hankida tüübi **Kirje loend** andmeallika välja väärtus. ER kontrollib, kas teie disainilahendus leiab, et kutsutud andmeallikas ei sisalda kirjeid (st see on tühi), et vältida käitusaja tõrkeid, kui väärtus tuuakse olematu kirje väljalt.
 
 Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
@@ -573,11 +572,11 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
     ![Vormingu elementide kinnitamine, mis on vormingu kujundaja lehel seotud andmeallikatega](./media/er-components-inspections-09c.png)
 
-16. Pange tähele, et kuvatakse valideerimise tõrked. Sõnumis on kirjas, et konfigureeritud vormingu komponentidele **Avaldis\\Osapool\\Nimi** ja **Avaldis\\Osapool\\AccountNum** võidakse käitusajal kuvada tõrge, kui loend **model.Vendor** on tühi.
+16. Pange tähele, et kuvatakse valideerimise tõrge. Sõnumis on kirjas, et konfigureeritud vormingu komponentidele **Avaldis\\Osapool\\Nimi** ja **Avaldis\\Osapool\\AccountNum** võidakse käitusajal kuvada tõrge, kui loend `model.Vendor` on tühi.
 
     ![Kinnitamise tõrge, mis teavitab konfigureeritud vormingu komponentide võimalikust tõrkest](./media/er-components-inspections-09d.png)
 
-Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust, valite suvandi **Käivita**, et käitada vormingut, ja valite olematu hankija kontonumbri. Kuna taotletud hankijat pole, siis on loend **model.Vendor** tühi (st see ei sisalda kirjeid).
+Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust, valite suvandi **Käivita**, et käitada vormingut, ja valite olematu hankija kontonumbri. Kuna taotletud hankijat pole, siis on loend `model.Vendor` tühi (st see ei sisalda kirjeid).
 
 ![Käitusaja tõrked, kuna need ilmnesid vormingu vastendamise ajal](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ Saate vahekaardil **Hoiatused** ruudustiku valitud real valida suvandi **Tühist
 
 #### <a name="option-1"></a>Suvand 1
 
-Saate siduda vormingu elemendi **Avaldis\\Osapool\\Nimi** andmeallika üksusega **model.Vendor**. Käitusaja korral nõuab see sidumine esmalt andmeallikat **model.Vendor**. Kui **model.Vendor** tagastab tühja kirje loendi, pesastatud vormingu elemente ei tööta. Seega selle vormingu konfiguratsiooni puhul kinnituse hoiatusi ei esine.
+Saate siduda vormingu elemendi **Avaldis\\Osapool\\Nimi** andmeallika üksusega `model.Vendor`. Käitusaja korral nõuab see sidumine esmalt andmeallikat `model.Vendor`. Kui `model.Vendor` tagastab tühja kirje loendi, pesastatud vormingu elemendid ei tööta. Seega selle vormingu konfiguratsiooni puhul kinnituse hoiatusi ei esine.
 
 ![Siduge vormingu element vormingu kujundaja lehel üksuse andmeallikaga](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Suvand 2
 
-Muutke vormingu elemendi **Avaldis\\Osapool\\Nimi** sidumine valikult `model.Vendor.Name` valikule `FIRSTORNULL(model.Vendor).Name`. Uuendatud sidumine teisendab tingimuslikult andmeallika **model.Vendor** esimese kirje tüübis **Kirje loend** uuele tüübi **Kirje** andmeallikale. See uus andmeallikas sisaldab sama väljade kogumit.
+Muutke vormingu elemendi **Avaldis\\Osapool\\Nimi** sidumine valikult `model.Vendor.Name` valikule `FIRSTORNULL(model.Vendor).Name`. Uuendatud sidumine teisendab tingimuslikult andmeallika `model.Vendor` esimese kirje tüübis **Kirje loend** uuele tüübi **Kirje** andmeallikale. See uus andmeallikas sisaldab sama väljade kogumit.
 
-- Kui andmeallikas **model.Vendor** on saadaval vähemalt üks kirje, on selle kirje väljad täidetud andmeallika **model.Vendor** mudeli esimese kirje väljade väärtustega. Sel juhul tagastab uuendatud sidumine hankija nime.
+- Kui andmeallikas `model.Vendor` on saadaval vähemalt üks kirje, on selle kirje väljad täidetud andmeallika `model.Vendor` mudeli esimese kirje väljade väärtustega. Sel juhul tagastab uuendatud sidumine hankija nime.
 - Vastasel juhul täidetakse iga looda kirje väli selle välja andmetüübi vaikeväärtusega. Sellisel juhul tagastatakse andmetüübi **String** vaikeväärtusena tühi string.
 
 Seetõttu ei esine kinnitamise hoiatusi vormingu elemendis **Avaldis\\Osapool\\Nimi**, kui see on seotud avaldisega `FIRSTORNULL(model.Vendor).Name`.
@@ -606,13 +605,13 @@ Seetõttu ei esine kinnitamise hoiatusi vormingu elemendis **Avaldis\\Osapool\\N
 
 #### <a name="option-3"></a>Suvand 3
 
-Kui soovite luua selgesõnaliselt andmed, mis sisestatakse loodud dokumenti, kui andmeallikas **model.Vendor** tüübis **Kirje loend** ei tagasta ühtegi kirjet (selles näites tekst **Pole saadaval**), muutke vormingu elemendi **Avaldis\\Osapool\\Nimi** sidumine valikult `model.Vendor.Name` valikule `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Samuti võite kasutada avaldist `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Kui soovite luua selgesõnaliselt andmed, mis sisestatakse loodud dokumenti, kui andmeallikas `model.Vendor` tüübis **Kirje loend** ei tagasta ühtegi kirjet (selles näites tekst **Pole saadaval**), muutke vormingu elemendi **Avaldis\\Osapool\\Nimi** sidumine valikult `model.Vendor.Name` valikule `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Samuti võite kasutada avaldist `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Täiendav arvestamine
 
-Kontroll hoiatab teid ka teise võimaliku probleemi eest. Kui te vaikimisi seote vormingu elemendid **Avaldis\\Osapool\\Nimi** ja **Avaldis\\Osapool\\AccountNum** vastavate väljadega andmeallikas **model.Vendor** tüübis **Kirje loend**, need seosed käitatakse ja need hangivad väärtused andmeallika **model.Vendor** esimese kirje vastavate väljade väärtustelt, kui see loend ei ole tühi.
+Kontroll hoiatab teid ka teise võimaliku probleemi eest. Kui te vaikimisi seote vormingu elemendid **Avaldis\\Osapool\\Nimi** ja **Avaldis\\Osapool\\AccountNum** vastavate väljadega andmeallikas `model.Vendor` tüübis **Kirje loend**, need seosed käitatakse ja need hangivad väärtused andmeallika `model.Vendor` esimese kirje vastavate väljade väärtustelt, kui see loend ei ole tühi.
 
-Kuna te pole sidunud vormingu elementi **Avaldis\\Osapool** andmeallikaga **model.Vendor**, siis elementi **Avaldis\\Osapool** ei saa andmeallikat **model.Vendor** vormindamise teostamise ajal iga kirje jaoks itereerida. Selle asemel täidetakse loodud dokument teabega kirjete loendi esimese kirjega, kui see loend sisaldab mitut kirjet. Seetõttu võib tekkida probleem, kui vorming on mõeldud täitma loodud dokumendi koos teabega kõigi hankijate kohta andmeallikast **model.Vendor**. Probleemi lahendamiseks siduge element **Avaldis\\Osapool** andmeallikaga **model.Vendor**.
+Kuna te pole sidunud vormingu elementi **Avaldis\\Osapool** andmeallikaga `model.Vendor`, siis elementi **Avaldis\\Osapool** ei saa andmeallikat `model.Vendor` vormindamise teostamise ajal iga kirje jaoks itereerida. Selle asemel täidetakse loodud dokument teabega kirjete loendi esimese kirjega, kui see loend sisaldab mitut kirjet. Seetõttu võib tekkida probleem, kui vorming on mõeldud täitma loodud dokumendi koos teabega kõigi hankijate kohta andmeallikast `model.Vendor`. Probleemi lahendamiseks siduge element **Avaldis\\Osapool** andmeallikaga `model.Vendor`.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>Funktsiooniga FILTER avaldise täidetavus (vahemällu salvestamine)
 
@@ -631,7 +630,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
     ![Mudeli vastendamise komponendi konfigureerimine lehel Mudeli vastendamise kujundaja](./media/er-components-inspections-10a.gif)
 
-9. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
+9. Valige nupp **Kinnita**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
     ![Mudeli vastendamise kujundaja lehel vahemällu salvestatud hankijale rakendatud filtri funktsioon kinnitamine](./media/er-components-inspections-10a.png)
 
@@ -699,7 +698,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
 14. Siduge vormingu elemendid, et esitada andmeallikad järgmisel viisil.
 
-    - Siduge vormingu elemendi **Avaldis\\Osapool** andmeallika üksusega **model.Vendor**.
+    - Siduge vormingu elemendi **Avaldis\\Osapool** andmeallika üksusega `model.Vendor`.
     - Siduge vormingu element **Avaldis\\Osapool\\Nimi** andmeallika väljaga **model.Vendor.Name**.
     - Siduge vormingu element **Avaldis\\Osapool\\AccountNum** andmeallika väljaga **model.Vendor.AccountNumber**.
 
@@ -813,6 +812,3 @@ Lisateavet selle kohta, kuidas vormingu struktuuri saab ER-i malliga [äridokume
 [Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks](trace-execution-er-troubleshoot-perf.md)
 
 [Äridokumentide halduse ülevaade](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
