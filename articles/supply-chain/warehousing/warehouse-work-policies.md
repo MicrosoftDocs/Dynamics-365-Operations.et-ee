@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 530abffb4c80a2d2f0e58e0c5a34294f7cba0b1a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426669"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998449"
 ---
 # <a name="work-policies"></a>Tööpoliitikad
 
@@ -301,6 +300,3 @@ Lisateavet mobiilse seadme menüü üksuste kohta vt teemast [Mobiilsete seadmet
 Lisateavet, mis on seotud litsentsiplaadi vastuvõtmisega ja tööpoliitikatega, leiate teemast [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Lisateavet sissetuleva koormuse halduse kohta vt teemast [Ostutellimuste sissetulevate koormate laohaldus](inbound-load-handling.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

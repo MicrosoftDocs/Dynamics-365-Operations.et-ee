@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd8d55619f52fcd1beff7a27ff814b3dc00dd25a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425971"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998624"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Müügisündmuse kanban-reegli loomine
 
@@ -74,6 +73,3 @@ See protseduur keskendub müügitellimuse loomise ajal käivitatava kanban-reegl
 2. Klõpsake suvandit Kuva sidumispuu.
     * Pange tähele, et luuakse kanban, mille kogus on sama mis müügireal. Samuti näete toote L0050 tootmiseks vajalikke materjaliväljastusi. See on selle protseduuri viimane etapp.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

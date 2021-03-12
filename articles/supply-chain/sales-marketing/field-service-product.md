@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ffa0616d51127a024bea526c5926a182c0449971
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426420"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996723"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Rakenduses Supply Chain Management toodete sünkroonimine rakenduse Field Service toodetega
 
@@ -73,6 +72,3 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Rakenduse Field Service tooted (Supply Chain Managementist Field Service'isse): tooted – tooted
 
 [![Malli vastendamine andmete integratsioonis](./media/FSProduct.png)](./media/FSProduct.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

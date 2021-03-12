@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426025"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996322"
 ---
 # <a name="confirm-and-transfer"></a>Kinnitamine ja üleviimine
 
@@ -230,6 +229,3 @@ Samuti saate kinnitada, et kannete seoseid on uuendatud järgmistel viisidel.
 - Suvand **Tükelda kogus uude koormusesse** toimib ka siis, kui osade järelejäänud tööpäiste oleksuks on *Töötlemisel*. Seega saate funktsiooni kasutada ka siis, kui töötajad juba käitavad tellimuste komplekteerimist.
 - Kui valite **Tühista täitmata kogus** samal ajal, kui on järelejäänud töid, mille olek on *Avatud* või *Käimas*, kuvatakse järgmine tõrketeade: „Koormuse järelejäänud kogust ei saa tühistada. Koormusel on olemasolev töö.”
 - Kui valite **Tühista täitmata kogus**, kui ei ole järelejäänud töid, kuid koormusel on vabastamata koormuseridu, kuvatakse järgmine tõrketeade: „Koormuse saadetist ei saanud kinnitada, kuna kauba kogus ületab tarnimiseks määratletud protsendimäära.” Tõrke vältimiseks saate määrata vabastamata koormuserea **Alatarne** protsendiks 100. Vabastamata ridu ei teisaldata uude koormusesse, kuid praegune koormus kinnitatakse alatarnega. Sel juhul ei saa te algset tellimust uuesti vabastada. Seetõttu tuleb teil seda mõnel muul viisil käsitleda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

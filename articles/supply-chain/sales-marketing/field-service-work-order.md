@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528919"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998499"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
 
@@ -62,13 +61,13 @@ Enne müügitellimuse päiste ja ridade sünkroonimist on nõutavad järgmised s
 
 | **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | CDS-i müügitellimuse päised |
-| msdyn_workorderservices | CDS-i müügitellimuse read   |
-| msdyn_workorderproducts | CDS-i müügitellimuse read   |
+| msdyn_workorders        | Dataverse’i müügitellimuse päised |
+| msdyn_workorderservices | Dataverse’i müügitellimuse read   |
+| msdyn_workorderproducts | Dataverse’i müügitellimuse read   |
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Töökäsud luuakse rakenduses Field Service. Kui töökäsud sisaldavad ainult väliselt hallatavaid tooteid ja kui välja **Töökäsu olek** väärtuseks ei ole **Avatud – ajastamata** ja **Suletud – tühistatud**, saab töökäsud rakenduse Common Data Service andmeintegratsiooni projekti kaudu rakendusega Supply Chain Management sünkroonida. Töökäskude värskendused sünkroonitakse rakendusse Supply Chain Management müügitellimustena. Need värskendused sisaldavad päritolu tüübi ja oleku teavet.
+Töökäsud luuakse rakenduses Field Service. Kui töökäsud sisaldavad ainult väliselt hallatavaid tooteid ja kui välja **Töökäsu olek** väärtuseks ei ole **Avatud – ajastamata** ja **Suletud – tühistatud**, saab töökäsud rakenduse Microsoft Dataverse andmeintegratsiooni projekti kaudu rakendusega Supply Chain Management sünkroonida. Töökäskude värskendused sünkroonitakse rakendusse Supply Chain Management müügitellimustena. Need värskendused sisaldavad päritolu tüübi ja oleku teavet.
 
 ## <a name="estimated-versus-used"></a>Eeldatav vs kasutatud
 
@@ -273,6 +272,3 @@ Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja ((msdyn_linestatus eq 690970001) või (msdynce_headersystemstatus eq 690970004) või (msdyn_allocated ne true))
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 662725edf5bf8d95be038f7c989b73d8d05fa0df
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426624"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996422"
 ---
 # <a name="additional-location-zones"></a>Täiendavad asukohatsoonid
 
@@ -58,6 +57,3 @@ Enne funktsiooni *Täiendav asukohatsoon* kasutamist peate selle oma süsteemis 
 7. Valige **Loo**.
 8. Teile kuvatakse teateid selle kohta, et uued asukohad on lisatud. Teadete nägemiseks valige nupp **Kuva sõnumid**.
 9. Avage **Laohaldus \> Seadistus \> Ladu \> Asukohad**. Uued asukohad kuvatakse loendis ja kõik tsooniväljad on saadaval (st olemasolev tsooniväli ja uued täiendavad tsooniväljad).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528289"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996772"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliendiportaali kasutajate loomine ja haldamine
 
@@ -39,11 +38,11 @@ Video [Klientide kutsumine registreeruma ja kliendiportaali kasutama](https://yo
 
 ## <a name="prerequisite-setup"></a>Eeltingimuste seadistamine
 
-Power Appsi portaalides salvestatakse kontaktid Common Data Service'is kirjetena üksuses **Kontaktid**. Seejärel sünkroonib topeltkirjutus need kirjed vajaduse järgi teenuses Microsoft Dynamics 365 Supply Chain Management.
+Power Appsi portaalides salvestatakse kontaktid Microsoft Dataverse’is tabelina üksuses **Kontaktid**. Seejärel sünkroonib topeltkirjutus need kirjed vajaduse järgi teenuses Microsoft Dynamics 365 Supply Chain Management.
 
 ![Süsteemi diagramm kliendiportaali kontaktide jaoks](media/customer-portal-contacts.png "Süsteemi diagramm kliendiportaali kontaktide jaoks")
 
-Enne uute klientide kutsumist veenduge, et oleksite lubanud topeltkirjutuses üksuse **Kontakt** vastendamise.
+Enne uute klientide kutsumist veenduge, et oleksite lubanud topeltkirjutuses tabeli **Kontakt** vastendamise.
 
 ## <a name="the-invitation-process"></a>Kutseprotsess
 
@@ -58,15 +57,15 @@ Pärast kontakti loomist peaksite nägema seda rakenduses Supply Chain Managemen
 
 Lisateavet leiate teemast [Kontakti konfigureerimine portaalis kasutamiseks](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) Power Appsi portaalide dokumentatsioonis.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Valmiskujul veebirollid ja üksuse load
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Valmiskujul veebirollid ja tabeli load
 
-Power Appsi portaalides määratletakse kasutajarollid [veebirollide](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [üksuse lubade](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) alusel. Mõned kliendiportaali rollid on määratletud valmiskujul. Te saate luua uusi rolle ja muuta või eemaldada olemasolevaid rolle.
+Power Appsi portaalides määratletakse kasutajarollid [veebirollide](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [tabeli lubade](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) alusel. Mõned kliendiportaali rollid on määratletud valmiskujul. Te saate luua uusi rolle ja muuta või eemaldada olemasolevaid rolle.
 
 ### <a name="out-of-box-web-roles"></a>Valmiskujul veebirollid
 
 Selles jaotises kirjeldatakse kliendiportaaliga kaasatulevaid veebirolle.
 
-Lisateavet valmiskujul kasutajarollide muutmise kohta vt teemadest [Portaalidele veebirollide loomine](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [Portaalidele kirjepõhise turbe lisamine üksuste lubade abil](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) Power Appsi portaalide dokumentatsioonis.
+Lisateavet valmiskujul kasutajarollide muutmise kohta vt teemadest [Portaalidele veebirollide loomine](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [Portaalidele kirjepõhise turbe lisamine tabeli lubade abil](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) Power Appsi portaalide dokumentatsioonis.
 
 #### <a name="administrator"></a>Administraator
 
@@ -96,6 +95,3 @@ Järgmises tabelis on näidatud, milliseid müügitellimusi iga veebirolli kasut
 
 > [!NOTE]
 > Kuigi nii Sam kui ka Jane on kliendi X jaoks töötavad kontaktid, näevad nad ainult iseenda esitatud tellimusi ja ei midagi muud. Kuigi Mayl on süsteemis tellimus, siis ei näe ta seda tellimust kliendiportaalis, kuna ta on volitamata kasutaja. (Lisaks peab ta olema esitanud tellimuse mõne muu kanali, mitte kliendiportaali kaudu.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
