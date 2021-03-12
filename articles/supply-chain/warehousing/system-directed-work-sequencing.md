@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426647"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970202"
 ---
 # <a name="system-directed-work-sequencing"></a>Süsteemi suunatud tööde järjestus
 
@@ -305,6 +304,3 @@ Süsteemi suunatud tööde järjestuse päringud on *kaasa arvatud*. Seda on olu
 Seetõttu hõivas päring selle stsenaariumi näites ka töö ID *4*. Selle loomise ajal lisati kaks rida: üks 25 ea kohta ja teine 10 ea kohta. Töö esitati ikkagi kasutajale, sest vähemalt ühe töörea kogus on väiksem kui 20 ea.
 
 Sõltuvalt stsenaariumist saate seda käitumist vältida tööpauside abil.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

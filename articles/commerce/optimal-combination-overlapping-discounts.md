@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411686"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972703"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Kattuvate allahindluste optimaalse kombinatsiooni määratlemine
 
@@ -84,6 +83,3 @@ Astmeliselt suureneva hinnatavate kombinatsioonide arvu probleemi lahendamiseks 
 ![Valem marginaali väärtuse arvutamiseks](./media/overlapping-discount-combo-06.jpg)
 
 Pärast seda, kui on arvutatud jagatud tootekogumi iga allahindluse marginaali väärtus, rakendatakse allahindlused jagatud toodetele alates kõrgeimast marginaaliväärtusest kuni madalaima marginaaliväärtuseni (ammendavalt). Selle meetodi puhul ei võrrelda kõiki järelejäänud allahindluse võimalusi iga kord pärast üksiku allahindluse rakendamist. Selle asemel võrreldakse kattuvaid allahindlusi üks kord ja seejärel rakendatakse need järjekorras. Lisavõrdlusi ei tehta. Saate läve konfigureerida, et minna üle marginaali väärtuse meetodile lehe **Kaubanduse parameetrid** vahekaardil **Allahindlus**. Koondallahindluse arvutamiseks vastuvõetav aeg erineb jaemüügivaldkondade lõikes. Kuid see aeg jääb üldjuhul kümnete millisekundite ja ühe sekundi vahele.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

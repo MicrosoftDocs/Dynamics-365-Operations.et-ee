@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d0de588d54948d89f636cadeb66c3d9e6878015
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b7b0976494a8bb128ae6bb40cbcdf7c691185f23
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426502"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970502"
 ---
 # <a name="demand-forecasting-setup"></a>Nõudluse prognoosi seadistus
 
@@ -84,8 +83,8 @@ Vahekaardil **Eraldamise võtmed** saate igale kauba eraldamisvõtmele seada **P
 - **Usaldusväärsuse taseme protsent**: usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et tulev nõudlus jääb usaldusväärsusintervalli vahemikust välja.
 - **Sundhooajalisus**: määrab, kas sundida mudelit kasutama teatud hooajalisuse tüüpi. See rakendub ainult üksustele ARIMA ja ETS. Valikud: AUTOMAATNE (vaikimisi), PUUDUB, LISAND, KORRUTAV.
 - **Prognoosimise mudel**: valikud: ARIMA, ETS, STL, ETS + ARIMA, ETS + STL, KÕIK. Kõige sobivama mudeli valimiseks kasutage valikut **KÕIK**.
-- **Maksimaalne prognoositav väärtus**: määrab prognoosimiseks kasutatava maksimaalse väärtuse. Vorming: +1E[n] või arvuline konstant.
-- **Minimaalne prognoositav väärtus**: määrab prognoosimiseks kasutatava minimaalse väärtuse. Vorming: -1E[n] või arvuline konstant.
+- **Maksimaalne prognoositav väärtus**: määrab prognoosimiseks kasutatava maksimaalse väärtuse. Vorming: +1E [n] või arvuline konstant.
+- **Minimaalne prognoositav väärtus**: määrab prognoosimiseks kasutatava minimaalse väärtuse. Vorming: -1E [n] või arvuline konstant.
 - **Puuduva väärtuse asendamine**: määrab, kuidas varasemate andmete lüngad täidetakse. Valikud: arvuline väärtus, KESKMINE, EELMINE, JAGATUD LINEAARNE, JAGATUD POLÜNOOM.
 - **Puuduva väärtuse asendamise ulatus**: määrab, kas väärtuse asendus rakendub ainult iga üksiku granuleeritud atribuudi või tervele andmekomplektile. Valikud: GRANULAARSUSE_ATTRIBUUT (vaikimisi), GLOBAALNE.
 - **Hooajalisuse vihje**: hooajaliste andmete puhul saate prognoosi täpsuse parandamiseks lisada vihje prognoosimise mudelile. Vorming: täisarv, mis tähistab vahemike arvu, mille järel nõudluse muster kordub. Näiteks sisestage „6”, et näha andmeid, mis korduvad iga 6 kuu järel.
@@ -102,6 +101,3 @@ Vahekaardil **Eraldamise võtmed** saate igale kauba eraldamisvõtmele seada **P
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

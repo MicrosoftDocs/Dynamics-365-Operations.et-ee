@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfa8b2bdc03e3698feda26932db757421097140d
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 77a3bde12fd047e15d7730903416cdb5263a8cd9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517060"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972805"
 ---
 # <a name="apply-inventory-settings"></a>Varude sätete rakendamine
 
@@ -93,6 +92,3 @@ Järgmisel pildil on toodud ostukorvi näide, kus kuvatakse teadet laos olemas (
 [Kaupluse valimise moodul](store-selector.md)
 
 [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

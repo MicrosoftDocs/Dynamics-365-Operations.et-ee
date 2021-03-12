@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89e24496d35ea0a02bd985f76d7579e1914d9290
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411570"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972978"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Kanali navigeerimishierarhia loomine
 
@@ -107,6 +106,3 @@ Järgmine pilt näitab sõlme näidist koos lisatud toote atribuudigruppidega.
 [Sortimentide häälestamine](set-up-assortments.md)
 
 [Atribuutide ja atribuudigruppide haldamine](attribute-attributegroups-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

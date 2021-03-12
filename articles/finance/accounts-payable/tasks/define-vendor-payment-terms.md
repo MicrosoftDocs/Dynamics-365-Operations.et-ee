@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b69b505996b5536088578885c11a7e8c27f4975
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442204"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971849"
 ---
 # <a name="define-vendor-payment-terms"></a>Hankija maksetingimuste määratlemine
 
@@ -47,6 +46,3 @@ Selles teemas selgitatakse, kuidas sätestada maksetingimusi tarnija arvete jaok
 16. Sisestage põhikonto, kuhu skonto sisestatakse kliendiarvete puhul, seejärel sisestage põhikonto, kuhu skonto sisestatakse hankija arvete puhul. Kui suvand **Allahindluse vastaskontod** on seatud valikule **Kasuta hankija allahindluse jaoks põhikontot**, siis kasutatakse põhikontot. Kui suvand on seatud valikule **Kontod arve real**, sisestatakse skonto arve ridadel vara/kulu kontodele.  
 17. Valige käsk **Salvesta**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
