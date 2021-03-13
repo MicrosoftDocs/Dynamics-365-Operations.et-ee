@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426365"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020649"
 ---
 # <a name="asset-management-parameters"></a>Rakenduse Asset Management parameetrid
 
@@ -34,25 +33,24 @@ Rakenduses Asset Management tuleb seadistada varade, töökäskude ja töökäsu
 > [!NOTE]
 > Kui soovite häälestada süsteemi, mis sisaldab varahalduse funktsioonide katsetamiseks demoandmeid, vt juhiseid teemast [Demokeskkonna juurutamine](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md).
 
-Link **Varad**
+## <a name="the-assets-tab"></a>Vahekaart Varad
+
+Vahekaart **Varad** sisaldab järgmisi sätteid.
 
 - **Töö vaikeasukoht** on standardne töö asukoht, mis uute varade loomisel valitakse varades automaatselt.  
 - Valige väljal **Standardne kalender** kalender, mida kasutatakse varade KPI-de arvutamiseks, kui varas pole ressurssi valitud.  
 - Valige väljal **Vaade** standardne vaade, mis kuvatakse, kui avate suvandi **Varade vaade** (**Varahaldus** > **Ühine** > **Varad** > **Varade vaade**).
 - **Taotluse vaiketüüp** on standardne hooldusnõude tüüp, mis valitakse automaatselt uue taotluse loomisel.  
-- Kui soovite luua varadega seotud projekte, luuakse valikus **Rakenduse Asset Management parameetrid** valikuid **Põhiprojekt**, **Projektihierarhia** ja suvandit **Projektide automaatne loomine** puudutavad projektiseosed.  
-- Väljal **Töökäsu projekti mask** saate määratleda töötellimuste ja alamvarade jaoks lubatud alamprojektide arvu. Töökäsu maski kasutatakse selleks, et määratleda, kui palju töötellimusi saab põhivarale luua ja seotud töökäskude töö projektis kasutada. Töökäsu mask seadistataks väljal **Seotud töökäsu mask** valikus **Rakenduse Asset Management parameetrid** (**Asset Management** > **Seadistus** > **Rakenduse Asset Management parameetrid** > **Töökäsud**).  
-    >[!NOTE]
-    >Seostuva töökäsu maski vorming on räsimärkide (#) arv olenevalt teie loodavate töökäskude maksimumarvust. Näide: # # võimaldab teil luua kuni 99 alamprojektid.  
 - Töötüüpide eelarved talletatakse väljal **Eelarveprojekt** valitud projektis. Iga töötüübi puhul luuakse eelarveprojektis automaatselt uus tegevus. Töötüübi eelarved salvestatakse seejärel eelarveprojektis.  
-- Valige väljal **Mudel** töötüübi ja töökäsu eelarvetes kasutatav eelarvemudel.  
+- Valige väljal **Mudel** töötüübi ja töökäsu eelarvetes kasutatav eelarvemudel.
 
+## <a name="the-work-orders-tab"></a>Vahekaart Töökäsud
 
-Link **Töökäsud**
+Vahekaart **Töökäsud** sisaldab järgmisi sätteid.
 
 - **Töökäsu vaiketüüp** määratleb standardsätted töökäsu loomisel.  
 - **Ennetava töökäsu tüüp** määratleb töökäsu tüübi, mida kasutatakse töökäskude loomisel hoolduskavadest. Kui see väli jäetakse tühjaks, kasutatakse välja **Töökäsu vaiketüüp** töökäsu tüüpi.  
-- Väljal **Seotud töökäsu mask** saate määratleda töökäskude maksimumarvu, mida saa töökäsuga siduda. Näiteks ## võimaldab teil siduda kuni 99 töökäsku. Kui määratlete siin kirjeldatud maski, nummerdatakse seotud töökäsud [töökäsuga seotud töökäsu töökäsu ID] -01,-02,-03 jne. Kui te sellel väljal maski ei määratle, saab seostuv töökäsk järgmise järjestikuste töökäsu ID.  
+- Väljal **Seotud töökäsu mask** saate määratleda töökäskude maksimumarvu, mida saa töökäsuga siduda. Näiteks ## võimaldab teil siduda kuni 99 töökäsku. Kui määratlete siin kirjeldatud maski, nummerdatakse seotud töökäsud [töökäsuga seotud töökäsu töökäsu ID]-01,-02,-03 jne. Kui te sellel väljal maski ei määratle, saab seostuv töökäsk järgmise järjestikuste töökäsu ID.  
 - Valige **Jah** suvandis **Kopeeri vead**, kui soovite automaatselt kopeerida töökäskudes registreeritud vead seotud hooldusnõuetesse. 
 - Väljal **Tase** saate määratleda töö asukoha taseme, mis sisestatakse automaatselt töökäsku, kui kõik seotud töökäsu tööd viitavad samale töö asukohale. Kui kõik töökäsu tööd pole määratletud tasemel seotud sama töö asukohaga, jäetakse väli **Töö asukoht** töökäsul tühjaks. Näiteks kui sisestate sellele väljale numbri „1”, on see töö asukoha struktuuris ülemine tase. Kui sisestate sellele väljale numbri „0”, ei ole te määratlenud kindlat töö asukoha taset, vaid töökäsu kõik töökäsu tööd peavad olema seotud töökäsule lisatava töö asukoha sama töö asukoht.  
 - Töökäsule tarbimise sisestamisel kasutatavaid töölehti saab valida kiirkaardi **Üldine** väljadel **Tund**, **Üksus** ja **Kulu**.  
@@ -67,8 +65,9 @@ Link **Töökäsud**
     - Hoolduskordade seadistus  
 - Kiirkaardil **Kategooria** saab määratleda töökäskude kasutamisega seotud vaikekategooriaid.  
 
+## <a name="the-work-order-scheduling-tab"></a>Vahekaart Töökäsu plaanimine
 
-Link **Töökäsu planeerimine**
+Vahekaart **Töökäsu plaanimine** sisaldab kiirkaardi **Üldine** järgmisi sätteid.
 
 - **Graafiku ajapiir** määratleb perioodi päevades, mis arvutatakse töökäsu eeldatavast alguskuupäevast, mille jooksul töökäsu töid planeeritakse.  
 - **Koondplaan** on seotud mooduli **Organisatsiooni haldus** ressurssidega. Kui valite sellel väljal koondplaani, saate vaadata töökäskudega seotud võimsuse reserveerimisi valikus **Võimsuse reserveerimised** (**Organisatsiooni haldus** > **Ressursid** > **Ressursid** > valige ressurss vahekaardil > **Ressurss** nupp > **Võimsuse reserveerimised**). Kui jätate selle välja tühjaks, saate vaadata töökäskude täiskoormusi valikus **Täiskoormus** (**Organisatsiooni haldus** \> **Ressursid** \> **Ressursid** \> valige ressursi vahekaart  \> **Ressurss** \> **Täiskoormus** nupp).  
@@ -100,13 +99,10 @@ Järgmises loendis kirjeldatud väljad on seotud arvutatud hinnanguskooridega, m
   - Eeldades, et ükski vastutav töötaja ja vastutav töötajate grupp pole planeeritava töökäsu jaoks valitud, peate lisama ja lahutama reitinguskoori väärtused näidete eespool toodud väljadel **Eelistatud töötaja**, **Eelistatud töötajate grupp**, **Varade asukoht** ja **Alguskuupäev** saate koguväärtuseks 3010,00. See tähendab, et töötaja, kes on juba valitud nii eelistatud töötajaks kui ka kaasatud töökäsu eelistatud töötajate gruppi on saanud suure skoori ja töötaja asub ka samas rajatises kui vara, mille jaoks tuleb töö planeerida. See tähendab, et on hea võimalus, et kõnealune töötaja valitakse töökäsu planeerimisel töö täitmiseks.  
   - Kui eespool toodud kaheksast väljast ühele sisestatakse väärtus „0,00”, siis seda reitinguskoori ei arvestata töökäsu planeerimisel.  
 
-Link **Dokumentide tüübid**
+## <a name="the-document-types-tab"></a>Vahekaart Dokumendi tüübid
 
 Saate valida dokumentide tüübid, mis peaksid olema saadaval töökäsu aruandega seotud manuste printimiseks. Selleks valige jaotises **Saadaolevad** dokumendi tüüpi ja valige ![edasinoole](media/15-setup-for-objects.png). Kui soovite valitud dokumenditüübi eemaldada, valige dokumenditüüp jaotises **Valitud** ja valige ![tagasinool](media/16-setup-for-objects.png) nuppu.
 
-Link **Numbriseeriad**
+## <a name="the-number-sequences-tab"></a>Vahekaart Numbriseeriad
 
 Valige selles jaotises nõutavad numbriseeriad. Varade jaoks on kaks numbriseeriat: üks käsitsi loodud varadele ja üks ootel varade kaudu loodud varadele.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

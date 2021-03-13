@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29fb487f02c28dbe940a1e00891f1e7ed20135b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426162"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017388"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Hooldustöötajad ja töötajate rühmad
 
@@ -64,6 +63,3 @@ Saate luua ka hooldustöötajate rühmi ja seostada nendega hooldustöötajaid. 
 6. Kui valitud hooldustöötajate rühmaga peaks olema seotud ressursirühm, valige **Kopeeri ressursirühmast**. Väljal **Rühjm** valige ressursirühm kalendri sätete kopeerimiseks. Seejärel valige väljal **Töötajate rühm** töötajate rühm ressursirühma kalendri sätete kopeerimiseks. See etapp on asjakohane ainult siis, kui soovite, et hooldustöötajad kasutaksid töökäsu plaanimisel ressursiga (töökeskus) seotud kalendrit.
 
     Kiirkaart **Üksikasjad** kuvab nende hooldustöötajate arvu, kes on määratud valitud hooldustöötajate rühma.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

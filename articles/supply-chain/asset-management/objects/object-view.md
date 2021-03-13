@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc4cd9ada9c1f64b434cd657eb5f5654c1328ef4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426393"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019400"
 ---
 # <a name="asset-view"></a>Vara vaade
 
@@ -48,6 +47,3 @@ Funktsionaalse asukoha ID / funktsionaalse asukoha ID (kui on rohkem kui üks fu
 Kui valisite vara puuvaates, saate valida kas **Aktiivsed taotlused** või **Aktiivsed töökäsud**, et vaadata varaga seotud hooldustaotlusi või töökäske. Seotud vaate avamiseks saate valida **Ava**\>**Funktsionaalne asukoht**, **Vara** või **Vara kooslus**.
 
 Suvand **Vara funktsionaalsed asukohad**, mille saate valida väljal **Vaade**, on saadaval ka mis tahes vara otsingus, kus saate valida vara. Puuvaade kuvatakse vahekaardil **Vara vaade**, näiteks kui [loote vara](../objects/create-an-object.md), loote hooldustaotluse või loote töökäsu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

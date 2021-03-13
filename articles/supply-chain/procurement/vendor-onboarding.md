@@ -1,7 +1,7 @@
 ---
 title: Hankijate vastuvõtmine
 description: Selles teemas kirjeldatakse, kuidas uusi hankijaid vastu võtta. See kirjeldab mitmesuguste rollide puhul nõutavaid tegevusi selle protsessi käigus.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426659"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019875"
 ---
 # <a name="onboard-vendors"></a>Hankijate vastuvõtmine
 
@@ -175,6 +174,3 @@ Loodud kirjete ahela saate korrastada ja eemaldada ning kasutajakonto inaktiveer
 |         Kinnitatud         |                                                                               Hankija taotlus on kinnitatud.                                                                               |                                                                                                   Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse.                                                                                                    |
 |         Tagasi lükatud         |                                                                               Hankija taotlus on tagasi lükatud.                                                                               |                                                                                                   Potentsiaalse hankija registreerimistaotlus, hankija registreerimisviisardis sisestatud andmed ja hankija taotlus kustutatakse.                                                                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
