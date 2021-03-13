@@ -2,8 +2,8 @@
 title: Põhjusekoodide häälestamine
 description: Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõtja soodustused muutuvad.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,64 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83923eecf7eb23a21b8dbbd39491014fa2bc20d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ae82c8312d344f5380adec8413766304681a0a05
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418183"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112205"
 ---
-# <a name="set-up-reason-codes"></a><span data-ttu-id="f5ceb-103">Põhjusekoodide häälestamine</span><span class="sxs-lookup"><span data-stu-id="f5ceb-103">Set up reason codes</span></span>
+# <a name="set-up-reason-codes"></a><span data-ttu-id="af240-103">Põhjusekoodide häälestamine</span><span class="sxs-lookup"><span data-stu-id="af240-103">Set up reason codes</span></span>
 
-<span data-ttu-id="f5ceb-104">Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõtja soodustused muutuvad.</span><span class="sxs-lookup"><span data-stu-id="f5ceb-104">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span> 
+<span data-ttu-id="af240-104">Dynamics 365 Human Resources kasutab põhjuse koode, et selgitada, miks töövõtja soodustused muutuvad.</span><span class="sxs-lookup"><span data-stu-id="af240-104">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span>
 
-1. <span data-ttu-id="f5ceb-105">Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Põhjuse koodid**.</span><span class="sxs-lookup"><span data-stu-id="f5ceb-105">In the **Benefits management** workspace, under **Setup**, select **Reason codes**.</span></span>
+> [!NOTE]
+> <span data-ttu-id="af240-105">Alates 2021. jaanuarist migreeritakse põhjusekoodid tööruumi **Personalihaldus** mitte tööruumi **Soodustuste haldus**.</span><span class="sxs-lookup"><span data-stu-id="af240-105">As of January 2021, reason codes are migrating to the **Personnel management** workspace instead of the **Benefits management** workspace.</span></span> <span data-ttu-id="af240-106">Lisateavet vt teemast [Põhjusekoodide käsitsi migreerimine personalihaldusesse](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).</span><span class="sxs-lookup"><span data-stu-id="af240-106">For more information, see [Manually migrate reason codes to Personnel management](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).</span></span>
 
-2. <span data-ttu-id="f5ceb-106">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="f5ceb-106">Select **New**.</span></span>
+## <a name="create-reason-codes"></a><span data-ttu-id="af240-107">Põhjusekoodide loomine</span><span class="sxs-lookup"><span data-stu-id="af240-107">Create reason codes</span></span>
 
-3. <span data-ttu-id="f5ceb-107">Määrake järgmiste väljade väärtused.</span><span class="sxs-lookup"><span data-stu-id="f5ceb-107">Specify values for the following fields:</span></span>
+1. <span data-ttu-id="af240-108">Kui teie põhjusekoodid ei ole veel migreeritud valige tööruumis **Personalihaldus** (või tööruumis **Soodustuste haldus**, kui teie põhjusekoodid ei ole veel migreeritud) jaotis **Lingid** ja seejärel valige **Põhjusekoodid**.</span><span class="sxs-lookup"><span data-stu-id="af240-108">In the **Personnel management** workspace (or **Benefits management** workspace if your reason codes haven't yet migrated), select **Links**, and then select **Reason codes**.</span></span>
 
-   | <span data-ttu-id="f5ceb-108">Väli</span><span class="sxs-lookup"><span data-stu-id="f5ceb-108">Field</span></span> | <span data-ttu-id="f5ceb-109">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="f5ceb-109">Description</span></span> |
+2. <span data-ttu-id="af240-109">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="af240-109">Select **New**.</span></span>
+
+3. <span data-ttu-id="af240-110">Määrake järgmiste väljade väärtused.</span><span class="sxs-lookup"><span data-stu-id="af240-110">Specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="af240-111">Väli</span><span class="sxs-lookup"><span data-stu-id="af240-111">Field</span></span> | <span data-ttu-id="af240-112">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="af240-112">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="f5ceb-110">**Põhjuse kood**</span><span class="sxs-lookup"><span data-stu-id="f5ceb-110">**Reason code**</span></span> | <span data-ttu-id="f5ceb-111">Kordumatu nimi, et tuvastada põhjus, miks töövõtja muudaks soodustuse plaani registreerimist.</span><span class="sxs-lookup"><span data-stu-id="f5ceb-111">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
-   | <span data-ttu-id="f5ceb-112">**Kirjeldus**</span><span class="sxs-lookup"><span data-stu-id="f5ceb-112">**Description**</span></span> | <span data-ttu-id="f5ceb-113">Põhjuse koodi kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="f5ceb-113">A description of the reason code.</span></span> |
+   | <span data-ttu-id="af240-113">**Põhjuse kood**</span><span class="sxs-lookup"><span data-stu-id="af240-113">**Reason code**</span></span> | <span data-ttu-id="af240-114">Kordumatu nimi, et tuvastada põhjus, miks töövõtja muudaks soodustuse plaani registreerimist.</span><span class="sxs-lookup"><span data-stu-id="af240-114">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
+   | <span data-ttu-id="af240-115">**Kirjeldus**</span><span class="sxs-lookup"><span data-stu-id="af240-115">**Description**</span></span> | <span data-ttu-id="af240-116">Põhjuse koodi kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="af240-116">A description of the reason code.</span></span> |
 
-4. <span data-ttu-id="f5ceb-114">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="f5ceb-114">Select **Save**.</span></span> 
+4. <span data-ttu-id="af240-117">Seadke jaotises **Rakendatavad stsenaariumid** suvand **Soodustuste haldus** väärtusele **Jah**.</span><span class="sxs-lookup"><span data-stu-id="af240-117">Under **Applicable scenarios**, set **Benefits management** to **Yes**.</span></span> <span data-ttu-id="af240-118">(Pole kohaldatav, kui põhjusekoode pole veel tööruumi **Personalihaldus** migreeritud.)</span><span class="sxs-lookup"><span data-stu-id="af240-118">(Not applicable if your reason codes haven't yet migrated to the **Personnel management** workspace.)</span></span>
+
+5. <span data-ttu-id="af240-119">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="af240-119">Select **Save**.</span></span>
+
+## <a name="manually-migrate-reason-codes-to-personnel-management"></a><span data-ttu-id="af240-120">Põhjusekoodide käsitsi migreerimine Personalihaldusesse</span><span class="sxs-lookup"><span data-stu-id="af240-120">Manually migrate reason codes to Personnel management</span></span>
+
+<span data-ttu-id="af240-121">Alates 2021. jaanuarist migreeritakse põhjusekoodid tööruumi **Personalihaldus** mitte tööruumi **Soodustuste haldus**.</span><span class="sxs-lookup"><span data-stu-id="af240-121">In January 2021, reason codes are migrating to the **Personnel management** workspace instead of the **Benefits management** workspace.</span></span> <span data-ttu-id="af240-122">Enamik põhjusekoodide andmeid migreeritakse automaatselt teie keskkonda.</span><span class="sxs-lookup"><span data-stu-id="af240-122">Most reason code data will automatically migrate in your environment.</span></span> <span data-ttu-id="af240-123">Mõned põhjusekoodide andmed ei pruugi migreeruda.</span><span class="sxs-lookup"><span data-stu-id="af240-123">Some reason code data might not migrate.</span></span> <span data-ttu-id="af240-124">Näiteks on põhjusekoodide suurim lubatud tähemärkide arv 15 märki, seega ei migreerita ühtegi üle 15-tähemärgilist põhjusekoodi automaatselt.</span><span class="sxs-lookup"><span data-stu-id="af240-124">For example, reason codes now have a 15-character maximum, so any reason codes longer than 15 characters won't migrate automatically.</span></span>
+
+<span data-ttu-id="af240-125">Näete bännerit lehel **Lingid** tööruumis **Soodustuste haldus**, mis teavitab teid migratsioonist ja sellest, kas mõni põhjusekood ei migreerunud.</span><span class="sxs-lookup"><span data-stu-id="af240-125">You'll see a banner on the **Links** page of the **Benefits management** workspace informing you about the migration and whether any reason codes didn't migrate.</span></span>
+
+1. <span data-ttu-id="af240-126">Valige migatsiooni oleku kohta üksikasjade saamiseks **Põhjusekoodid**.</span><span class="sxs-lookup"><span data-stu-id="af240-126">Select **Reason codes** for details about migration status.</span></span>
+
+   <span data-ttu-id="af240-127">[![Põhjuse koodid](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)</span><span class="sxs-lookup"><span data-stu-id="af240-127">[![Reason codes](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)</span></span>
+
+2. <span data-ttu-id="af240-128">Valige põhjusekood, mida ei saanud migreerida.</span><span class="sxs-lookup"><span data-stu-id="af240-128">Select a reason code that failed to migrate.</span></span>
+
+   <span data-ttu-id="af240-129">[![Põhjusekoodi migreerimise olek](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)</span><span class="sxs-lookup"><span data-stu-id="af240-129">[![Reason code migration status](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)</span></span>
+
+3. <span data-ttu-id="af240-130">Valige **Migreeri põhjusekood**.</span><span class="sxs-lookup"><span data-stu-id="af240-130">Select **Migrate reason code**.</span></span>
+
+   <span data-ttu-id="af240-131">[![Migreeri põhjusekood](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)</span><span class="sxs-lookup"><span data-stu-id="af240-131">[![Migrate reason code](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)</span></span>
+
+4. <span data-ttu-id="af240-132">Teil on paanil **Soodustuse põhjusekoodide migreerimine** kaks võimalust Personalihalduse põhjusekoodi vastendamiseks.</span><span class="sxs-lookup"><span data-stu-id="af240-132">In the **Benefit reason code migration** pane, you have two options for mapping to a Personnel management reason code:</span></span>
+
+   - <span data-ttu-id="af240-133">Olemasoleva põhjusekoodi kasutamiseks Personalihalduses valige üks ripploendist **Kasuta olemasolevat põhjusekoodi**.</span><span class="sxs-lookup"><span data-stu-id="af240-133">To use an existing reason code in Personnel management, choose one from the **Use existing reason code** dropdown.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="af240-134">Personalihalduses saate kasutada olemasolevat põhjusekoodi ainult siis, kui mõnda muud Soodustuste halduse põhjusekoodi pole juba sinna migreeritud.</span><span class="sxs-lookup"><span data-stu-id="af240-134">You can only use an existing reason code in Personnel management if another Benefits management reason code hasn't already migrated to it.</span></span>
+   - <span data-ttu-id="af240-135">Personalihalduses uue põhjusekoodi loomiseks sisestage uus põhjusekood väljale **Uus põhjusekood** ja seejärel sisestage kirjeldus väljale **Uus kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="af240-135">To create a new reason code in Personnel management, enter a new one in **New reason code**, and then enter a description in **New description**.</span></span>
+
+   <span data-ttu-id="af240-136">[![Personalihalduse põhjusekoodile vastendamine](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)</span><span class="sxs-lookup"><span data-stu-id="af240-136">[![Map to a Personnel management reason code](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)</span></span>
+
+<span data-ttu-id="af240-137">Kui põhjusekoodid on Personalihaldusse migreeritud, seadistatakse nende kasutamise valiku Soodustuste halduses automaatselt väärtusele **Jah**.</span><span class="sxs-lookup"><span data-stu-id="af240-137">After reason codes migrate to Personnel management, the option for using them in Benefits management is automatically set to **Yes**.</span></span>
+
+<span data-ttu-id="af240-138">[![Põhjusekoodi kasutamine Soodustuste halduses](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)</span><span class="sxs-lookup"><span data-stu-id="af240-138">[![Use reason code in Benefits management](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)</span></span>
