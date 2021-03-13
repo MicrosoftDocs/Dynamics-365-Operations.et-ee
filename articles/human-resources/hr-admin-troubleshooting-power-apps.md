@@ -2,7 +2,7 @@
 title: Power Appsi halduskeskuses ei saa keskkonda luua
 description: Selles artiklis selgitatakse, mida teha, kui administraator ei saa Microsoft Power Appsi halduskeskuses keskkonda luua.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68e6dbcbbc9811211570e968047f5faa8a2c8bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 664c644c9b34e3489b4134040e165d26202dbd38
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418131"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112225"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Power Appsi halduskeskuses ei saa keskkonda luua
 
 **Väljastamine**
 
 - Rentniku/keskkonna administraator ei saa Microsoft Power Appsi halduskeskuses keskkonda luua.
-- Litsents, mis annab kasutajatele õiguse teostada keskkonna loomise etappi, ei ole määratud otse seda etappi teostavale kasutajale.
+- Kasutajal pole litsentsi, mis annab õiguse keskkondi luua.
 
 **Lahendus**
 
-Veenduge, et rentniku administraator oleks määranud kehtiva Power Apps P2 litsentsi otse kasutajale, kes teostab keskkonna loomise etappi. Siit leiate Microsoft Dynamicsi teenuseplaanid, mis annavad selle õiguse.
+Veenduge, et rentniku administraator on keskkonda loovale kasutajale määranud kehtiva Power Apps P2 litsentsi. Keskkondade loomiseks pakuvad õigusi järgmised Microsoft Dynamicsi teenuseplaanid.
 
 | Üldine toote varude arvestusühik (SKU)       | Power Apps P2 teenusepakett  |
 |------------------------------------------------|----------------------------|
@@ -44,6 +44,3 @@ Pange tähele, et erinevad Microsoft Office’i SKU-d annavad samuti selle õigu
 
 1. Avage [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Looge keskkondi, järgides juhiseid teemas [Rakenduse Human Resources ettevalmistamine](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

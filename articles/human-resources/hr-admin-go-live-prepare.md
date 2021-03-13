@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4418229"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112181"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Ettevalmistamine Human Resourcesi kasutuselevõtmiseks
 
@@ -53,28 +53,36 @@ Järgmises tabelis loetletakse kõik protsessi etapid, eeldatav kestus ja tegevu
 
 ## <a name="completing-the-lcs-methodology"></a>LCS-i metoodika lõpule viimine
 
-Iga juurutusprojekti oluline vahe-eesmärk on üleminek töökeskkonda. 
-
-Selleks, et töökeskkonda kasutataks reaalajatoiminguteks, valmistab Microsoft tootmiseksemplari ette ainult siis, kui juurutus läheneb **kasutamise** faasile, kui LCS-i metodoloogia nõutavad tegevused on lõpule viidud. Lisateavet teie kordustellimuse keskkondade kohta vt  [Dynamics 365 litsentsimisjuhendist](https://go.microsoft.com/fwlink/?LinkId=866544). 
-
-Kliendid peavad viima lõpule LCS-i metodoloogia faasid **Analüüs**, **Kujundus ja arendus** ja **Testimine** enne, kui töökeskkonna taotlemise nupp  **Konfigureeri**  saab kättesaadavaks. LCS-is etapi lõpule viimiseks peate esmalt viima lõpule kõik selles faasis nõutavad etapid. Kui faasi kõik etapid on lõpule viidud, saate kogu faasi lõpule viia. Faasi saab alati hiljem uuesti avada, kui peate muudatusi tegema. Lisateavet leiate teemast  [Lifecycle Services (LCS) for Finance and Operationsi rakenduste kliendid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-Etapi lõpule viimise protsess koosneb kahest osast. 
+Iga juurutusprojekti oluline vahe-eesmärk on üleminek töökeskkonda. Etapi lõpule viimise protsess koosneb kahest osast. 
 
 - Tegelik töö, nt sobivuse-erinevuse analüüs või kasutaja nõusoleku testimine (UAT). 
 - Vastava etapi lõpetatuks märkimine LCS-i metoodikas. 
 
-Metodoloogia etappide lõpule viimine on hea tava, kuna edenete rakendamisel. Ärge oodake viimase minutini. Ärge klõpsake kõiki etappe niisama läbi, et saaksite töökeskkonna. Töökindla juurutuse saamine on kliendi huvides. 
+Metodoloogia etappide lõpule viimine on hea tava, kuna edenete rakendamisel. Ärge oodake viimase minutini. Töökindla juurutuse saamine on kliendi huvides. 
 
 ## <a name="uat-for-your-solution"></a>UAT teie lahenduse jaoks
 
 UAT faasis peate katsetama kõiki juurutatud äriprotsesse ja tehtud kohandusi juurutusprojekti liivakastikeskkonnas. Edukaks kasutuselevõtuks peaksite UAT faasi lõpule viimisel võtma arvesse järgmist. 
 
+- Soovitame teil UAT-protsess alustada puhtast ja värskest keskkonnast, milles GOLD-konfiguratsiooni andmed kopeeritakse keskkonda enne UAT-protsessi alustamist. Soovitame teil kasutada tootmiskeskkonda GOLD-keskkonnana seni, kuni hakkate tööle, mis hetkel saab keskkonnaks tootmine.
 - Testjuhtumid hõlmavad kogu nõuete ulatust. 
 - Testige migreeritud andmete abil. Need andmed peaksid sisaldama koondandmeid, nagu töötajad, töökohad ja ametikohad. Lisage ka algsaldo, nt puhkuste ja puudumiste viitvõlad. Viimaks lisage ka avatud kanded, nt praegused soodustuste registreerimised. Viige testimine lõpule kõigi andmetüüpidega, isegi kui andmekogum pole lõpetatud. 
 - Testige kasutades õigeid turberolle (vaikerollid ja kohandatud rollid), mis on kasutajatele määratud. 
 - Veenduge, et lahendus vastaks mis tahes ettevõtte- ja valdkonnapõhistele regulatiivsetele nõuetele. 
 - Dokumenteerige kõik funktsioonid ja hankige kliendilt kinnitus ning nõusolek. 
+
+## <a name="mock-go-live"></a>Go-live'i mudeldamine
+
+Enne töösse minekut peate teostama go-live mudeldamise, et testida samme, mida on vaja pärandsüsteemilt uuele süsteemile üleminekuks. Te peaksite oma go-live mudeldamise teostama liivakastikeskkonnas ja kaasama kõik üleminekuplaani sammud.
+
+- Soovitame teil kasutada GOLD konfiguratsioonikeskkonnana tootmiskeskkonda kuni go-live'ini.
+- Tagage, et teil on kindel haldusprotsess, et kaitsta tootmiskeskkonda juhuslike kannete või uuenduste eest enne käikuvõtmist.
+- Kui olete valmis teostama UAT-d või go-live mudeldamist, värskendage liivakastikeskkonda töökeskkonnast. Lisateavet leiate artiklist [Eksemplari kopeerimine](hr-admin-setup-copy-instance.md).
+- Testige kõiki oma üleminekuplaani etappe liivakastikeskkonnas ja seejärel valideerige liivakasikeskkond pistekontrollide või UAT-skriptide kaudu keskkonnas testide tegemisega.
+  - Katsed peaksid hõlmama kõiki kasutuselevõtu jaoks vajalike andmete migratsioone, k.a üleminekuid.
+  - Protsess peaks hõlmama pärandsüsteemide äralõikamise proovi.
+  - Lisage kindlasti kõik integratsiooni ülemineku etapid või välised süsteemi etapid oma ülemineku mudelisse.
+- Kui ülemineku mudeldamise ajal ilmneb mis tahes probleeme, võib olla vaja ka teist ülemineku mudeldamist. Seetõttu on soovitatav planeerida oma projektiplaani kaks ülemineku mudeldamist.
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTracki kasutuselevõtu hindamine
 
@@ -91,5 +99,3 @@ Pärast kontroll-loendi esitamist vaatab teie FastTracki lahenduse arhitekt proj
 ## <a name="see-also"></a>Vt ka
 
 [Süsteemi Go-live KKK](hr-admin-go-live-faq.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

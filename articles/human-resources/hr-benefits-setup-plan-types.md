@@ -2,7 +2,7 @@
 title: Plaani tüüpide loomine
 description: Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418177"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112219"
 ---
 # <a name="create-plan-types"></a>Plaani tüüpide loomine
 
@@ -63,6 +63,3 @@ Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletaks
    | **Aruandlusaken** | Määrab elusündmuse aruandlusakna, päevades. **Märge**: kui te summat ei sisesta, siis süsteem eeldab, et aruandlusaken on null ja ei töötle elusündmust. |
 
 5. Valige käsk **Salvesta**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

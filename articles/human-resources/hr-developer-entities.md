@@ -1,9 +1,9 @@
 ---
-title: Common Data Service’i üksused
-description: Microsoft Dynamics 365 Human Resources kasutab teenust Common Data Service, et lubada laiendatavus ja integreerimise stsenaariumid.
+title: Dataverse'i tabelid
+description: Microsoft Dynamics 365 Human Resources kasutab teenust Dataverse, et lubada laiendatavus ja integreerimise stsenaariumid.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,28 +18,27 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2f075a8e96af55b1363d2d51db377c5b25c38775
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530002"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112262"
 ---
-# <a name="common-data-service-entities"></a>Common Data Service’i üksused
+# <a name="dataverse-tables"></a>Dataverse'i tabelid
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+Microsoft Dynamics 365 Human Resources kasutab teenust Dataverse, et lubada laiendatavus ja integreerimise stsenaariumid.
 
-Microsoft Dynamics 365 Human Resources kasutab teenust Common Data Service, et lubada laiendatavus ja integreerimise stsenaariumid.
+> [!NOTE]
+> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
-Teenuse Common Data Service kohta lisateabe saamiseks vt teemat [Mis on Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Järgmised Dataverse'i tabelid on saadaval Human Resources'i olemite põhjal.
 
-Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources üksused.
+## <a name="benefit-tables"></a>Soodustustabelid
 
-## <a name="benefit-entities"></a>Soodustuse üksused
-
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
-| Soodustuse arvutamise sagedus | cdm_benefitcalculationfrequency |
+| Hüvitise arvutamise sagedus | cdm_benefitcalculationfrequency |
 | Soodustuse arvutamise sagedus makseperioodil | cdm_benefitcalculationfrequencypayperiod |
 | Soodustuse arvutamise määr | cdm_benefitcalculationrate |
 | Soodustuse arvutamise määra üksikasjad | cdm_benefitcalculationratedetail |
@@ -47,9 +46,9 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 | Soodustuse plaan | cdm_benefitplan (kohandatud väljade toeks pole lubatud) |
 | Hüvitise liik | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>Äriprotsessi ülesannete üksused
+## <a name="business-process-tasks-tables"></a>Äriprotsessi ülesannete tabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
 | Äriprotsessi kalender | cdm_businessprocesscalendar |
 | Äriprotsessi grupimäärang | cdm_businessprocessgroupassignment |
@@ -58,11 +57,11 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 | Kontroll-loendi malli päis | cdm_businessprocesstemplateheader |
 | Kontroll-loendi malli ülesanne | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>Hüvitise üksused
+## <a name="compensation-tables"></a>Hüvitise tabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
-| Palga põhiplaan | cdm_compensationfixedplan |
+| Tasu fikseeritud plaan | cdm_compensationfixedplan |
 | Kogupalga tabel | cdm_compensationgrid |
 | Hüvitustase | cdm_compensationlevel |
 | Palga tasumissagedus | cdm_compensationpayfrequency |
@@ -77,9 +76,9 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 | Pensionireegel | cdm_vestingrule |
 | Töötaja põhipalk | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>Organisatsiooni üksused
+## <a name="organization-tables"></a>Organisatsiooni tabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
 | Osakond | cdm_department |
 | Töösuhe | cdm_employment |
@@ -95,23 +94,23 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 | Pealkiri | cdm_title |
 
 > [!NOTE]
-> Üksuste **Ametikoha tüüp** **Töötaja ametikoha määramine** ja **Töölevõtt** finantsdimensioonid pakuvad ühesuunalist integratsiooni Common Data Service'iga. Finantsdimensioonide värskendusi ei saa praegu sünkroonida Common Data Service'ist Human Resourcesisse. 
+> Üksuste **Ametikoha tüüp** **Töötaja ametikoha määramine** ja **Töölevõtt** finantsdimensioonid pakuvad ühesuunalist integratsiooni Dataverse'iga. Finantsdimensioonide värskendusi ei saa praegu sünkroonida Dataverse'ist Human Resourcesisse. 
 
-## <a name="leave-and-absence-entities"></a>Puhkuste ja puudumiste üksused
+## <a name="leave-and-absence-tables"></a>Puhkuste ja puudumiste tabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
 | Puhkuste panga kanne | cdm_leavebanktransaction |
-| Puhkuse registreerimine | cdm_leaveenrollment |
+| Puhkuste registreerimine | cdm_leaveenrollment |
 | Puhkuseplaan | cdm_leaveplan |
 | Puhkusetaotlus | cdm_leaverequest |
 | Puhkuse taotluse üksikasjad | cdm_leaverequestdetail |
 | Puhkuse tüüp | cdm_leavetype |
 | Puhkusetüübi põhjusekood | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>Palgaolemid
+## <a name="payroll-tables"></a>Palgatabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
 | Palgatsükkel | cdm_paycycle |
 | Makseperiood | cdm_payperiod |
@@ -119,9 +118,9 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 | Pangakonto väljamakse | cdm_bankaccountdisbursement |
 | Maksuregioon | cdm_taxregion |
 
-## <a name="worker-entities"></a>Töötaja üksused
+## <a name="worker-tables"></a>Töötajatabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
 | Töötaja | cdm_worker |
 | Töötaja aadress | cdm_workeraddress |
@@ -135,22 +134,22 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 | Töökalendri ajaintervall | cdm_workcalendartimeinterval (kohandatud väljade toeks pole lubatud) |
 | Töötaja pangakonto | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>Töötaja seadistuse üksused
+## <a name="worker-setup-tables"></a>Töötaja seadistamise tabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
-| Veterani staatus | cdm_veteranstatus |
+| Veterani olek | cdm_veteranstatus |
 | Etniline päritolu | cdm_ethnicorigin |
 | Põhjuse kood | cdm_reasoncode |
-| Isikut ID väljastanud asutus | cdm_personidentificationissuingagency |
+| Isiku ID-d väljaandev asutus | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>Pädevuse üksused
+## <a name="competency-tables"></a>Kompetentsitabelid
 
-| Nimi | Üksus |
+| Nimi | Tabel |
 | --- | --- |
 | Oskuse tüüp | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>Üksuse seose mudelid
+## <a name="table-relationship-models"></a>Tabelite seose mudelid
 
 ### <a name="worker"></a>Töötaja
 
@@ -178,8 +177,9 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 
 ## <a name="see-also"></a>Vt ka
 
-[Andme integratsioonitehnoloogia valimine](hr-admin-integration-choose-technology.md)</br>
-[Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Andme integratsioonitehnoloogia valimine](hr-admin-integration-choose-technology.md)<br>
+[Dataverse’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)<br>
+[Dataverse'i virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Human Resourcesi virtuaaltabelite KKK](hr-admin-virtual-entity-faq.md)<br>
+[Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloogia uuendused](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)

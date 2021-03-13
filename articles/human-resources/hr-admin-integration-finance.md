@@ -2,7 +2,7 @@
 title: Finance’iga integreerimise konfigureerimine
 description: Selles artiklis kirjeldatakse funktsioone, mis on saadaval integratsiooniks rakendustest Dynamics 365 Human Resources ja Dynamics 365 Finance.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6587b2ced1fdd7a16c6b3f28a34d4a303af9cee5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527907"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112238"
 ---
 # <a name="configure-integration-with-finance"></a>Integratsiooni konfigureerimine Finance’iga
 
@@ -44,7 +44,7 @@ Rakendusest Human Resources rakendusse Finance lahendus pakub järgmist tüüpi 
 
 Integratsioonilahenduse jaoks on vaja rakenduste Human Resources ja Finance järgmisi versioone. 
 
-- Dynamics 365 Human Resources kuupäeval Common Data Service
+- Dynamics 365 Human Resources kuupäeval Dataverse
 - Dynamics 365 Finance’i versioon 7.2 või uuem
 
 ## <a name="template-and-tasks"></a>Mall ja ülesanded
@@ -55,7 +55,7 @@ Rakendusest Human Resources rakendusse Finance malli juurde pääsemine.
 
 2. Valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**. Looge iga juriidilise isiku jaoks uus projekt, mida soovite Finance’i integreerida.
 
-3. Rakendusest Human Resources rakendusse Finance andmete sünkroonimiseks valige **Human Resources (Human Resources Common Data Service rakendusse Finance)**.
+3. Rakendusest Human Resources rakendusse Finance andmete sünkroonimiseks valige **Human Resources (Human Resources Dataverse rakendusse Finance)**.
 
 Mall kasutab järgmisi ülesandeid kirjete sünkroonimiseks rakendusest Human Resources rakendusse Finance.
 
@@ -81,14 +81,14 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="job-functions-to-compensation-job-function"></a>Tööfunktsioonidest tööfunktsioonide kompensatsioonile
 
-| Common Data Service’i üksus (allikas) | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas) | Finance'i üksus (sihtkoht) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Funktsiooni nimi)  | TÖÖ FUNKTSIOONI ID   (TÖÖ FUNKTSIOONI ID)            |
 | cdm_description   (cdm_description) | KIRJELDUS   (KIRJELDUS)                 |
 
 ### <a name="departments-to-operating-unit"></a>Osakondadest tootmisüksusele
 
-| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)           | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NIMI (NIMI)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | TÖÖÜKSUSE NUMBER   (TÖÖÜKSUSE NUMBER) |
@@ -97,7 +97,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="job-types-to-compensation-job-type"></a>Töötüüpidest töötüübi kompensatsioonile
 
-| Common Data Service’i üksus (allikas)   | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)   | Finance'i üksus (sihtkoht) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | TÖÖTÜÜBI ID   (TÖÖTÜÜBI ID)                     |
 | cdm_description   (cdm_description)   | KIRJELDUS   (KIRJELDUS)                 |
@@ -105,7 +105,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="jobs-to-jobs"></a>Töödest töökohtadele
 
-| Common Data Service’i üksus (allikas)                           | Finance'i üksus (sihtkoht)           |
+| Dataverse'i tabel (allikas)                           | Finance'i üksus (sihtkoht)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | TÖÖ ID (TÖÖ ID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | AMETIKOHTADE MAX ARV   (AMETIKOHTADE MAX ARV) |
@@ -115,7 +115,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="jobs-to-job-detail"></a>Töödest töö üksikasjadele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | TÖÖ ID (TÖÖ ID)                               |
 | cdm_jobtypeid.cdm_name   (Töö tüüp (töö tüübi nimi))             | TÖÖTÜÜBI ID   (TÖÖTÜÜBI ID)                     |
@@ -126,7 +126,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="position-types-to-position-type"></a>Positsiooni tüüpidest positsiooni tüübile
 
-| Common Data Service’i üksus (allikas)       | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)       | Finance'i üksus (sihtkoht) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | AMETIKOHA TÜÜBI ID   (AMETIKOHA TÜÜBI ID)           |
 | cdm_description   (cdm_description)       | KIRJELDUS   (KIRJELDUS)                 |
@@ -134,13 +134,13 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="job-positions-to-base-position"></a>Ametikohtadest peamise ametikoha jaoks
 
-| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)           | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Ametikoha number) | AMETIKOHA ID (AMETIKOHA ID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Ametikohast ametikoha üksikasjadele
 
-| Common Data Service’i üksus (allikas)              | Finance'i üksus (sihtkoht)       |
+| Dataverse'i tabel (allikas)              | Finance'i üksus (sihtkoht)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Ametikoha number)                            | AMETIKOHA ID (AMETIKOHA ID)                             |
 | cdm_jobid.cdm_name   (Töö (nimi))                                        | TÖÖ ID (TÖÖ ID)                                    |
@@ -154,7 +154,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="job-positions-to-position-durations"></a>Ametikohast ametikoha kestustele
 
-| Common Data Service’i üksus (allikas)             | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)             | Finance'i üksus (sihtkoht) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Ametikoha number)   | AMETIKOHA ID (AMETIKOHA ID)                      |
 | Arvutatud aktiveerimine (arvutatud aktiveerimine) | KEHTIV ALATES (KEHTIV ALATES)                        |
@@ -162,7 +162,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="job-positions-to-position-hierarchies"></a>Ametikohast ametikoha hierarhiatele
 
-| Common Data Service’i üksus (allikas)        | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)        | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Ametikoha number)                                                 | AMETIKOHA ID (AMETIKOHA ID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | ÜLEMAMETIKOHA ID (ÜLEMAMETIKOHA ID)         |
@@ -172,7 +172,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 
 ### <a name="workers-to-worker"></a>Töötajatelt töötajale
-| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht)       |
+| Dataverse'i tabel (allikas)           | Finance'i üksus (sihtkoht)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | SÜNNIKUUPÄEV   (SÜNNIKUUPÄEV)                           |
 | cdm_gender   (cdm_gender)                     | SUGU (SUGU)                                   |
@@ -191,7 +191,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="employments-to-employment"></a>Tööhõivetest tööhõivele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht) |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV   (TÖÖHÕIVE ALGUSKUUPÄEV) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV   (TÖÖHÕIVE LÕPPKUUPÄEV)     |
@@ -201,7 +201,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="employments-to-employment-detail"></a>Tööhõivetest tööhõive üksikasjadele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV   (TÖÖHÕIVE ALGUSKUUPÄEV)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV   (TÖÖHÕIVE LÕPPKUUPÄEV)       |
@@ -219,7 +219,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Töötaja ametikoha määramisest töötaja ametikoha määrangutele
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)           |
 | cdm_jobpositionnumber   (Ametikoha number)                   | AMETIKOHA ID (AMETIKOHA ID)                        |
@@ -228,7 +228,7 @@ Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses k
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Töötaja aadressitest töötaja postiaadressi v2-le
 
-| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
+| Dataverse'i tabel (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | AADRESSI ASUKOHA ROLLID   (AADRESSI ASUKOHA ROLLID) |
@@ -255,5 +255,3 @@ Töötaja aadressi jaoks kasutatav asukoha ID ei ole numbriseeria osa. Töötaja
 Järgmisel joonisel on toodud andmete integreerimise malli vastenduste näide. 
 
 ![Malli vastendamine](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

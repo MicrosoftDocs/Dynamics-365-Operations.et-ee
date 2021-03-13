@@ -2,7 +2,7 @@
 title: Finance’i KKK-ga integreerimine
 description: Selles artiklis selgitatakse, millised andmed sünkroonitakse rakenduste Human Resources ja Finance integratsioonis.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589059"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112226"
 ---
 # <a name="integration-with-finance-faq"></a>Finance’i KKK-ga integreerimine
 
@@ -32,7 +32,7 @@ Teemas on toodud vastused peamistele küsimustele selle kohta, milliseid andmeid
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Kas ma saan rakenduse Dynamics 365 Talent kasutajat muuta rakenduses Power Apps?
 
-Nr Kui redigeerite rakenduse Talent kasutajat, võib integreerimine rakenduse Human Resources ja rakenduse Common Data Service vahel nurjuda. Järgmine tabel näitab rakenduse Talent kasutaja vaikesätteid.
+Nr Kui redigeerite rakenduse Human Resources kasutajat, võib integreerimine rakenduse Human Resources ja rakenduse Dataverse vahel nurjuda. Järgmine tabel näitab rakenduse Talent kasutaja vaikesätteid.
 
 | Täisnimi | Rakenduse ID | Azure AD Objekti ID | Rakenduse ID URI |
 | --- | --- | --- | --- |
@@ -44,17 +44,17 @@ Nr Kui redigeerite rakenduse Talent kasutajat, võib integreerimine rakenduse Hu
 
 Sünkroonitakse andmete alamkogum. Kõigi üksuste loendi leiate teemast [Rakendusega Dynamics 365 Finance integreerimine](hr-admin-integration-finance.md).
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Miks ei kuvata andmeid, mis on sünkroonitud teenusega Common Data Service?
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Miks ei kuvata andmeid, mis on sünkroonitud teenusega Dataverse?
 
-Vaikimisi lülitatakse teenuse Common Data Service integratsioon välja uutes keskkondades, mis ei sisalda esitatud demoandmeid. Vaikimisi on see sisse lülitatud uutes keskkondades, mis sisaldavad demoandmeid, ja andmete sünkroonimine algab siis, kui keskkond on ette valmistatud. Pärast seda, kui teie keskkond on andmete sünkroonimiseks valmis, saate integratsiooni sisse lülitada. Lisateavet vt [Teenuse Common Data Service integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md).
+Vaikimisi lülitatakse teenuse Dataverse integratsioon välja uutes keskkondades, mis ei sisalda esitatud demoandmeid. Vaikimisi on see sisse lülitatud uutes keskkondades, mis sisaldavad demoandmeid, ja andmete sünkroonimine algab siis, kui keskkond on ette valmistatud. Pärast seda, kui teie keskkond on andmete sünkroonimiseks valmis, saate integratsiooni sisse lülitada. Lisateavet vt [Teenuse Dataverse integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kas uue vastenduse saab luua malle kasutamata?
 
-Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Kas ma saan vastendada finantsdimensioonide edastamise rakenduste Human Resources ja Finance vahel?
 
-Finantsdimensioonid puuduvad praegu teenusest Common Data Service ja seetõttu ei ole need ka vaikemalli osa. See üksus on kavas, kuid praegu pole väljastamise ajakava saadaval.
+Finantsdimensioonid puuduvad praegu teenusest Dataverse ja seetõttu ei ole need ka vaikemalli osa. See üksus on kavas, kuid praegu pole väljastamise ajakava saadaval.
 
 Andmete puhul, mis on olemas rakenduses Finance, kuid puuduvad rakendusest Human Resources, linkige kaks süsteemi kokku, kasutades Human Resourcesi funktsiooni **Linkide konfigureerimine**.
 
@@ -76,7 +76,7 @@ Kasutades täpsemat päringut, saate lähteandmeid filtreerida ja ümber kujunda
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kas saan määrata, millised väljad saadetakse rakendusse Finance kindla üksuse puhul?
 
-Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse Common Data Service üksuses olemas, ei asustata rakendusest Human Resources.
+Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse Dataverse tabelis olemas, ei asustata rakendusest Human Resources.
 Lisaandmeid saab asustada Power Appsi kaudu.
 
 ![Integratsiooniülesandele väljade lisamine ja nende eemaldamine](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +95,7 @@ Ei, andmeintegraator ei talleta kustutatud kirjeid andmeedastuseks. Praegu hõlm
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Kas tõrkega käituse saab uuesti käivitada? Kui jah, siis kas see saadab kogu faili või ainult muudatused?
 
-Andmeintegraatori esmane käitamine on alati täielik. Järgmised käitused põhinevad muudatuste jälgimisel. Tõrkega käituse korral eraldab see kõnealused kirjed käitusest ja saadab teenusest Common Data Service välja uusimad muudatused.
+Andmeintegraatori esmane käitamine on alati täielik. Järgmised käitused põhinevad muudatuste jälgimisel. Tõrkega käituse korral eraldab see kõnealused kirjed käitusest ja saadab teenusest Dataverse välja uusimad muudatused.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Saan projekti salvestamisel tõrketeate „Projektil on vastendustõrked”. Mida teha?
 
@@ -109,15 +109,15 @@ Jah, rakenduses Finance peab iga juriidilise isiku kohta olema andmeintegratsioo
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Pean edastama andmeid, mis ei ole Microsofti vaikemalli osa. Kas saan seda teha?
 
-Jah, olemasolevale mallile saab välju lisada või neid eemaldada. Malli saab muuta, kaasates lisaandmeid teistest teenuse Common Data Service üksustest. Malli kaasamiseks peab üksus olema teenuses Common Data Service. 
+Jah, olemasolevale mallile saab välju lisada või neid eemaldada. Malli saab muuta, kaasates lisaandmeid teistest teenuse Dataverse tabelitest. Malli kaasamiseks peab üksus olema teenuses Dataverse. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Lõin äsja uued Finance’i ja Human Resourcesi keskkonnad ning saan tõrketeate „Andmete väärtus rikub tervikluse piiranguid”. Miks?
 
 Tõrke põhjused võivad olla järgmised.
 
-- Andmeedastuse tulemuseks on topeltkirjete eraldamine lähtekohas (Common Data Service).
+- Andmeedastuse tulemuseks on topeltkirjete eraldamine lähtekohas (Dataverse).
 
-- Andmeedastusel on Finance and Operationsis vajalike väljade puhul nullväärtused. Kontrollige, kas teenuses Common Data Service olevad andmed vastavad rakenduse Finance and Operations nõuetele.
+- Andmeedastusel on Finance and Operationsis vajalike väljade puhul nullväärtused. Kontrollige, kas teenuses Dataverse olevad andmed vastavad rakenduse Finance and Operations nõuetele.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Kui esineb käivitustõrkeid ja töövõtja ID-d ei sünkroonita, siis kuidas leida ajalooline töö, milles on nurjunud töövõtja kirje?
 
@@ -139,27 +139,27 @@ Jälgige aega andmeintegraatori käivitusajaloost ja leidke rakenduses Finance p
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Pärast rakenduste Human Resources ja Finance integreerimist ei näe ma Human Resourcesi andmeid Finance’is. Mida teha?
 
-Integratsioon rakendusse Finance on kaheetapiline protsess. Esmalt kontrollige, kas rakenduse Human Resources andmed on värskendatud ja teenuses Common Data Service saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida Power Appsis, vaadates andmeüksustes olevaid andmeid.
+Integratsioon rakendusse Finance on kaheetapiline protsess. Esmalt kontrollige, kas rakenduse Human Resources andmed on värskendatud ja teenuses Dataverse saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida Power Appsis, vaadates andmetabelites olevaid andmeid.
 
-![Andmed teenuses Common Data Service](media/DataInCDS.png)
+![Andmed teenuses Dataverse](media/DataInCDS.png)
 
-Kui andmeid ei kuvata teenuses Common Data Service oodatud viisil, siis kontrollige, kas integratsioon toetab üksust. Teenuse Common Data Service lisaandmete kaasamiseks on vajalik muudatus Microsofti poolel.
+Kui andmeid ei kuvata teenuses Dataverse oodatud viisil, siis kontrollige, kas integratsioon toetab üksust. Teenuse Dataverse lisaandmete kaasamiseks on vajalik muudatus Microsofti poolel.
 
-Kui üksust toetatakse ja andmed on teenuses Common Data Service saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Kui üksust toetatakse ja andmed on teenuses Dataverse saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Pärast töövõtjate importimist rakendusse Finance, on nende aadressid valed. Mida teha?
 
-**Asukoha ID** numbriseeria kasutab rakendustes Human Resources ja Finance sama mustrit. Numbriseeria peab olema mõlemal poolel kordumatu, et andmete integreerimisel teenusest Common Data Service rakendusse Finance and Operations ei tekiks aadressivastuolusid.
+**Asukoha ID** numbriseeria kasutab rakendustes Human Resources ja Finance sama mustrit. Numbriseeria peab olema mõlemal poolel kordumatu, et andmete integreerimisel teenusest Dataverse rakendusse Finance and Operations ei tekiks aadressivastuolusid.
 
 Human Resourcesi juurutamise ajal kontrollige, et numbriseeriad poleks rakendustes Human Resources ja Finance and Operations samad. Veenduge, et ükski numbriseeria poleks identne, kui andmeid võidakse hallata mõlemas süsteemis.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Ühendusekogumi loomisel ei näe ma ühendust ripploendis Ühendus. Mida teha?
 
-Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 Finance ja Common Data Service.
+Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 Finance ja Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Saan töösuhete sünkroonimisel tõrketeate „Atribuuti CompanyInfo_FK pole olemas” või „Väärtust 12/31/2154 23:59:59 väljal Töösuhte lõppkuupäev ei leitud seotud tabelist Töösuhe”. Mida teha?
 
-Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Human Resourcesis ja teenuses Common Data Service olev juriidiline isik olemas olema ka Finance’is.
+Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Human Resourcesis ja teenuses Dataverse olev juriidiline isik olemas olema ka Finance’is.
 Veenduge ka, et valiksite seostatud ühendusekogumi jaoks õiged juriidilised isikud.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Pärast projekti seadistamist kuvatakse väljavastendus Finance’i puhul tühjana. Mida teha?
@@ -172,15 +172,12 @@ Värskendage andmeüksuseid rakenduses Finance, minnes jaotisse **Andmehaldus \>
 
 - Andmeintegraator (DI): 
 
-  - [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Andmete integreerimine teenusesse Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
   - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes Power Apps, Microsoft Power Automate ja Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes Power Apps, Microsoft Power Automate ja Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Andmehaldus
 
   - [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

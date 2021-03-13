@@ -1,9 +1,9 @@
 ---
-title: Common Data Service'i virtuaalüksuste konfigureerimine
-description: Selles teemas kirjeldatakse virtuaalüksuste konfigureerimist rakenduse Dynamics 365 Human Resources jaoks. Looge ja värskendage olemasolevaid virtuaalüksusi ning analüüsige loodud ja saadaolevaid üksusi.
+title: Dataverse'i virtuaalsete tabelite konfigureerimine
+description: Selles teemas kirjeldatakse virtuaalsete tabelite konfigureerimist rakenduse Dynamics 365 Human Resources jaoks. Looge ja värskendage olemasolevaid virtuaalseid tabeleid ning analüüsige loodud ja saadaolevaid tabeleid.
 author: andreabichsel
 manager: tfehr
-ms.date: 11/02/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,49 +18,54 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd299b51e38cc30c3e18f3ef9de1f43fa817b840
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645597"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112271"
 ---
-# <a name="configure-common-data-service-virtual-entities"></a>Common Data Service'i virtuaalüksuste konfigureerimine
+# <a name="configure-dataverse-virtual-tables"></a>Dataverse'i virtuaalsete tabelite konfigureerimine
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources on virtuaalne andmeallikas teenuses Common Data Service. See pakub täielikke loomise, lugemise, värskendamise ja kustutamise (CRUD) toiminguid lahendustes Common Data Service ning Microsoft Power Platform. Virtuaalüksuste andmeid ei talletata teenuses Common Data Service, vaid rakenduse andmebaasis. 
+Dynamics 365 Human Resources on virtuaalne andmeallikas teenuses Microsoft Dataverse. See pakub täielikke loomise, lugemise, värskendamise ja kustutamise (CRUD) toiminguid lahendustes Dataverse ning Microsoft Power Platform. Virtuaalsete tabelite andmeid ei talletata teenuses Dataverse, vaid rakenduse andmebaasis.
 
-Selleks, et lubada rakenduse Human Resources üksuste korral CRUD-toimingud teenuses Common Data Service, peate tegema üksused teenuses Common Data Service virtuaalüksustena kättesaadavaks. See võimaldab teil teha lahendustes Common Data Service ja Microsoft Power Platform CRUD-toiminguid andmetega, mis on rakenduses Human Resources. Toimingute puhul toetatakse ka rakenduse Human Resources täielikku äriloogika kontrollimist, et tagada andmete terviklikkus andmete kirjutamisel üksustesse.
-
-## <a name="available-virtual-entities-for-human-resources"></a>Rakenduses Human Resources saadaolevad virtuaalüksused
-
-Kõik avatud andmeprotokolli (OData) üksused rakenduses Human Resources on saadaval virtuaalüksustena teenuses Common Data Service. Need on saadaval ka rakenduses Power Platform. Nüüd saate luua rakendusi ja kogemusi otse rakendusest Human Resources pärit andmetega, mille puhul saate kasutada kõiki CRUD-toiminguid ilma andmete kopeerimise või sünkroonimise vajaduseta teenusega Common Data Service. Saate kasutada Power Appsi portaale, et luua väljapoole suunatud veebisaite, mis võimaldavad teha äritoimingute puhul rakenduses Human Resources koostööd.
-
-Saate vaadata keskkonnas lubatud virtuaalüksuste loendit ja alustada üksustega tööd rakenduses [Power Apps](https://make.powerapps.com) lahenduses **Dynamics 365 HR-i virtuaalüksused**.
-
-![Dynamics 365 HR-i virtuaalüksused Power Appsis](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-entities-versus-natural-entities"></a>Virtuaal- ja tavaliste üksuste võrdlus
-
-Rakenduse Human Resources virtuaalüksused pole samad, mis tavalised teenuse Common Data Service üksused, mis on loodud rakenduse Human Resources jaoks. Rakenduse Human Resources tavalised üksused luuakse eraldi ja neid hallatakse lahenduses HCM Common teenuses Common Data Service. Tavaliste üksuste puhul talletatakse andmed teenuses Common Data Service ja selle puhul on vajalik sünkroonimine rakenduse Human Resources andmebaasiga.
+Selleks, et lubada rakenduse Human Resources üksuste korral CRUD-toimingud teenuses Dataverse, peate tegema tabelid teenuses Dataverse virtuaalüksustena kättesaadavaks. See võimaldab teil teha lahendustes Dataverse ja Microsoft Power Platform CRUD-toiminguid andmetega, mis on rakenduses Human Resources. Toimingute puhul toetatakse ka rakenduse Human Resources täielikku äriloogika kontrollimist, et tagada andmete terviklikkus andmete kirjutamisel üksustesse.
 
 > [!NOTE]
-> Rakenduse Human Resources jaoks mõeldud teenuse Common Data Service tavaliste üksuste loendi leiate teemast [Common Data Service'i üksused](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+## <a name="available-virtual-tables-for-human-resources"></a>Rakenduses Human Resources saadaolevad virtuaalsed tabelid
+
+Kõik avatud andmeprotokolli (OData) üksused rakenduses Human Resources on saadaval virtuaalsete tabelitena teenuses Dataverse. Need on saadaval ka rakenduses Power Platform. Nüüd saate luua rakendusi ja kogemusi otse rakendusest Human Resources pärit andmetega, mille puhul saate kasutada kõiki CRUD-toiminguid ilma andmete kopeerimise või sünkroonimise vajaduseta teenusega Dataverse. Saate kasutada Power Appsi portaale, et luua väljapoole suunatud veebisaite, mis võimaldavad teha äritoimingute puhul rakenduses Human Resources koostööd.
+
+Saate vaadata keskkonnas lubatud virtuaalsete tabelite loendit ja alustada tabelitega tööd rakenduses [Power Apps](https://make.powerapps.com) lahenduses **Dynamics 365 HR-i virtuaalsed tabelid**.
+
+![Dynamics 365 HR-i virtuaalsed tabelid Power Appsis](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+
+## <a name="virtual-tables-versus-native-tables"></a>Virtuaalsed tabelid vs. ematabelid
+
+Rakenduse Human Resources virtuaalsed tabelid pole samad, mis teenuse Dataverse ematabelid, mis on loodud rakenduse Human Resources jaoks. 
+
+Rakenduse Human Resources ematabelid luuakse eraldi ja neid hallatakse lahenduses HCM Common teenuses Dataverse. Ematabelite puhul talletatakse andmed teenuses Dataverse ja selle puhul on vajalik sünkroonimine rakenduse Human Resources andmebaasiga.
+
+> [!NOTE]
+> Rakenduse Human Resources jaoks mõeldud teenuse Dataverse ematabelite loendi leiate teemast [Dataverse'i tabelid](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
 
 ## <a name="setup"></a>Seadistus
 
-Järgige neid seadistussamme, et lubada oma keskkonnas virtuaalüksused.
+Järgige neid seadistussamme, et lubada oma keskkonnas virtuaalsed tabelid.
 
-### <a name="enable-virtual-entities-in-human-resources"></a>Virtuaalüksuste lubamine rakenduses Human Resources
+### <a name="enable-virtual-tables-in-human-resources"></a>Virtuaalsete tabelite lubamine rakenduses Human Resources
 
-Esmalt peate lubama tööruumi **Funktsioonihaldus** kaudu virtuaalüksused lubama.
+Esmalt peate lubama tööruumi **Funktsioonihaldus** kaudu virtuaalsed tabelid lubama.
 
 1. Valige rakenduses Human Resources suvand **Süsteemihaldus**.
 
 2. Valige paan **Funktsioonihaldus**.
 
-3. Valige **Virtuaalüksuse tugi rakenduses HR/CDS** ja seejärel valige **Luba**.
+3. Valige **Virtuaalsete tabelite tugi HR-le rakenduses Dataverse** ja seejärel valige **Luba**.
 
 Lisateavet eelvaatefunktsioonide lubamise ja keelamise kohta vt jaotisest [Funktsioonide haldus](hr-admin-manage-features.md).
 
@@ -74,13 +79,13 @@ Peate Human Resourcesi eksemplari Azure'i portaalis registreerima, et Microsofti
 
 3. Valige **Uus registreerimine**.
 
-4. Sisestage väljale **Nimi** rakendust kirjeldav nimi. Näiteks **Dynamics 365 Human Resources'i virtuaalüksused**.
+4. Sisestage väljale **Nimi** rakendust kirjeldav nimi. Näiteks **Dynamics 365 Human Resources'i virtuaalsed tabelid**.
 
 5. Sisestage väljale **Ümbersuunamis-URI** oma rakenduse Human Resources eksemplari nimeruumi URL.
 
 6. Valige suvand **Registreeri**.
 
-7. Registreerimise lõpetamisel kuvatakse Azure'i portaalis rakenduse registreerimise kohta paan **Ülevaade**, mis sisaldab väärtust **Rakenduse (kliendi) ID**. Kirjutage väärtus **Rakenduse (kliendi) ID** endale üles. Te sisestate selle teabe [virtuaalüksuse andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+7. Registreerimise lõpetamisel kuvatakse Azure'i portaalis rakenduse registreerimise kohta paan **Ülevaade**, mis sisaldab väärtust **Rakenduse (kliendi) ID**. Kirjutage väärtus **Rakenduse (kliendi) ID** endale üles. Te sisestate selle teabe [virtuaalsete tabelite andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
 8. Valige vasakpoolsel navigeerimispaanil **Serdid ja saladused**.
 
@@ -88,14 +93,14 @@ Peate Human Resourcesi eksemplari Azure'i portaalis registreerima, et Microsofti
 
 10. Sisestage kirjeldus, valige kestus ja valige **Lisa**.
 
-11. Kirjutage saladuse väärtus üles. Te sisestate selle teabe [virtuaalüksuse andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+11. Kirjutage saladuse väärtus üles. Te sisestate selle teabe [virtuaalsete tabelite andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Kirjutage saladuse väärtus kindlasti praegu üles. Pärast sellelt lehelt lahkumist ei kuvata saladust enam kunagi.
 
-### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a>Dynamics 365 HR Virtual Entity rakenduse installimine
+### <a name="install-the-dynamics-365-hr-virtual-table-app"></a>Dynamics 365 HR Virtuaalsete tabelite rakenduse installimine
 
-Installige Dynamics 365 HR Virtual Entity rakendus oma Power Appsi keskkonda, et juurutada virtuaalüksuse lahenduse pakett teenuses Common Data Service.
+Installige Dynamics 365 HR Virtuaalse tabeli rakendus oma Power Appsi keskkonda, et juurutada virtuaalse tabeli lahenduse pakett teenuses Dataverse.
 
 1. Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com).
 
@@ -105,7 +110,7 @@ Installige Dynamics 365 HR Virtual Entity rakendus oma Power Appsi keskkonda, et
 
 4. Valige tegevus **Installi rakendus**.
 
-5. Valige **Dynamics 365 HR Virtual Entity** ja valige **Edasi**.
+5. Valige **Dynamics 365 HR Virtuaalne tabel** ja valige **Edasi**.
 
 6. Vaadake teenusetingimused üle ja märkige, et te nõustute nendega.
 
@@ -113,11 +118,11 @@ Installige Dynamics 365 HR Virtual Entity rakendus oma Power Appsi keskkonda, et
 
 Installimine võtab mõne minuti. Kui see on lõpule viidud, jätkake järgmiste sammudega.
 
-![Dynamics 365 HR Virtual Entity rakenduse installimine Power Platformi halduskeskusest](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
+![Dynamics 365 HR Virtuaalse tabeli rakenduse installimine Power Platformi halduskeskusest](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
 
-### <a name="configure-the-virtual-entity-data-source"></a>Virtuaalüksuse andmeallika konfigureerimine 
+### <a name="configure-the-virtual-table-data-source"></a>Virtuaalse tabeli andmeallika konfigureerimine 
 
-Järgmine samm on konfigureerida virtuaalüksuse andmeallikas Power Appsi keskkonnas. 
+Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi keskkonnas. 
 
 1. Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com).
 
@@ -161,7 +166,7 @@ Järgmine samm on konfigureerida virtuaalüksuse andmeallikas Power Appsi keskko
 Andke rakenduses Human Resources õigused kahe Azure AD rakenduse jaoks.
 
 - Rakendus, mis loodi teie rentniku jaoks Microsoft Azure'i portaalis
-- Dynamics 365 HR Virtual Entity rakendus, mis on installitud Power Appsi keskkonnas 
+- Dynamics 365 HR Virtuaalse tabeli rakendus, mis on installitud Power Appsi keskkonnas 
 
 1. Avage rakenduses Human Resources leht **Azure Active Directory rakendused**.
 
@@ -174,48 +179,45 @@ Andke rakenduses Human Resources õigused kahe Azure AD rakenduse jaoks.
 3. Valige teise rakenduse kirje loomiseks **Uus**.
 
     - **Kliendi ID**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Nimi**: Dynamics 365 HR Virtual Entity
+    - **Nimi**: Dynamics 365 HR Virtuaalne tabel
     - Valige väljal **Kasutaja ID** sellise kasutaja ID, kellel rakenduses Human Resources ja Power Appsi keskkonnas administraatoriõigused.
 
-## <a name="generate-virtual-entities"></a>Virtuaalüksuste loomine
+## <a name="generate-virtual-tables"></a>Virtuaalsete tabelite loomine
 
-Kui seadistus on lõpule viidud, saate valida virtuaalüksused, mille soovite luua ja lubada oma Common Data Service'i eksemplaris.
+Kui seadistus on lõpule viidud, saate valida virtuaalsed tabelid, mille soovite luua ja lubada oma Dataverse'i eksemplaris.
 
-1. Avage rakenduses Human Resources leht **Common Data Service (CDS) integratsioon**.
+1. Avage rakenduses Human Resources leht **Dataverse integratsioon**.
 
-2. Valige vahekaart **Virtuaalsed üksused**.
+2. Valige vahekaart **Virtuaalsed tabelid**.
 
 > [!NOTE]
-> Lüliti **Virtuaalse üksuse lubamine** olekuks seatakse automaatselt **Jah**, kui kogu nõutav seadistus on lõpule viidud. Kui lüliti olekuks on seatud **Ei**, vaadake läbi selle dokumendi eelmiste jaotiste etapid, et kogu eeltingimuste häälestus oleks lõpule viidud.
+> Lüliti **Virtuaalse tabelite lubamine** olekuks seatakse automaatselt **Jah**, kui kogu nõutav seadistus on lõpule viidud. Kui lüliti olekuks on seatud **Ei**, vaadake läbi selle dokumendi eelmiste jaotiste etapid, et kogu eeltingimuste häälestus oleks lõpule viidud.
 
-3. Valige üksus või üksused, mida soovite luua Common Data Service'is.
+3. Valige tabel või tabelid, mida soovite luua Dataverse'is.
 
 4. Valige **Loo/värskenda**.
 
-![Common Data Service’i integratsioon](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse’i integratsioon](./media/hr-admin-integration-common-data-service-integration.jpg)
 
-## <a name="check-entity-generation-status"></a>Üksuse loomise oleku kontrollimine
+## <a name="check-table-generation-status"></a>Tabeli loomise oleku kontrollimine
 
-Virtuaalseid üksusi luuakse Common Data Service'i asünkroonse taustal töötlemise abil. Protsessi uuendusi kuvatakse tegevuskeskuses. Protsessi üksikasju, sh tõrkelogisid, kuvatakse lehel **Protsessi automatiseerimised**.
+Virtuaalseid tabeleid luuakse Dataverse'i asünkroonse taustal töötlemise abil. Protsessi uuendusi kuvatakse tegevuskeskuses. Protsessi üksikasju, sh tõrkelogisid, kuvatakse lehel **Protsessi automatiseerimised**.
 
 1. Avage rakenduses Human Resources loendi **Protsessi automatiseerimised** leht.
 
 2. Valige vahekaart **Taustaprotsessid**.
 
-3. Valige **Virtuaalse üksuse pollimise asünkroonse toimingu taustaprotsess**.
+3. Valige **Virtuaalse tabeli pollimise asünkroonse toimingu taustaprotsess**.
 
 4. Valige **Kuva viimased tulemused**.
 
-Liuguripaan kuvab protsessi kõige viimased käivitamise tulemused. Saate kuvada protsessi logi, sh kõiki tagastatud tõrkeid Common Data Service'is.
+Liuguripaan kuvab protsessi kõige viimased käivitamise tulemused. Saate kuvada protsessi logi, sh kõiki tagastatud tõrkeid Dataverse'is.
 
 ## <a name="see-also"></a>Vt ka
 
-[Mis on Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Üksuse ülevaade](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Üksuse seoste ülevaade](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Välistest andmeallikatest pärit andmeid sisaldavate virtuaalüksuste loomine ja redigeerimine](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Mis on Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tabelid rakenduses Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
+[Tabelite seoste ülevaade](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
+[Välistest andmeallikatest pärit andmeid sisaldavate virtuaalsete tabelite loomine ja redigeerimine](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Mis on Power Appsi portaalid?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Rakenduste loomise ülevaade Power Appsis](https://docs.microsoft.com/powerapps/maker/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

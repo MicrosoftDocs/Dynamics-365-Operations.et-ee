@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527881"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112291"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn talent Hubiga integreerimine
 
@@ -127,14 +127,14 @@ Pärast eelmises jaotises uue rakenduse kasutaja salvestamist ja sulgemist naase
     - **Nimi**: sisestage Power Appsi turberolli nimi, mille eelnevalt lõite, nt **LinkedIn Talent Hub HRIS-i integratsioon**.
     - **Kasutaja ID**: valige kasutaja, kellel on õigus kirjutada andmeid personalihalduses.
 
-### <a name="create-the-entity-in-common-data-service"></a>Üksuse loomine Common Data Service'is
+### <a name="create-the-table-in-dataverse"></a>Tabeli loomine Dataverse'is
 
 > [!IMPORTANT]
-> LinkedIn Talent Hubiga integreerimine sõltub Common Data Service for Human Resourcesi virtuaalsetest üksustest. Selle seadistamisetapi eeltingimusena peate konfigureerima virtuaalsed üksused. Lisateavet virtuaalsete üksuste konfigureerimise kohta leiate teemast [Common Data Service'i virtuaalsete üksuste konfigureerimine](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> LinkedIn Talent Hubiga integreerimine sõltub Dataverse for Human Resourcesi virtuaalsetest tabelites. Selle seadistamisetapi eeltingimusena peate konfigureerima virtuaalsed tabeleid. Lisateavet virtuaalsete tabelite konfigureerimise kohta leiate teemast [Dataverse'i virtuaalsete tabelite konfigureerimine](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. Avage rakenduses Human Resources leht **Common Data Service (CDS) integratsioon**.
+1. Avage rakenduses Human Resources leht **Dataverse integratsioon**.
 
-2. Valige vahekaart **Virtuaalsed üksused**.
+2. Valige vahekaart **Virtuaalsed tabelid**.
 
 3. Filtreerige üksuste loendit üksuse sildi järgi, et leida **LinkedIni ekspoditud kandidaat**.
 
@@ -188,8 +188,5 @@ Imporditakse järgmised üksikasjad ja lisatakse uue töötaja kirjesse.
 
 ## <a name="see-also"></a>Vt ka
 
-[Common Data Service'i virtuaalüksuste konfigureerimine](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Mis on Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Dataverse'i virtuaalsete tabelite konfigureerimine](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

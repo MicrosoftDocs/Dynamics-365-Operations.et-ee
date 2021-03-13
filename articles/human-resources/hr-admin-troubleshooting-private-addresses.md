@@ -2,7 +2,7 @@
 title: Juurdepääs privaatsetele aadressidele turberolli järgi
 description: Selles artiklis selgitatakse, kuidas lahendada probleemi, mille käigus kliendil puudub juurdepääs privaatsetele aadressidele.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/02/2018
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fbe0e8acc1b879e4d7982b33413236432f25f630
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6598094e7877a30c35e1b03794f82c8a4ec001a7
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418130"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112197"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>Juurdepääs privaatsetele aadressidele turberolli alusel
 
@@ -39,6 +39,3 @@ Probleemi lahendamiseks peab klient toimima topeltturberolli korral järgmiselt.
 3. Valige **Salvesta**.
 
 ![Globaalse aadressiraamatu parameetrite leht](media/GAD-parameters.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

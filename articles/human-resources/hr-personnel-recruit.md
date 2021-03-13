@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669163"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112149"
 ---
 # <a name="recruit-job-candidates"></a>Kandidaatide värbamine
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources aitab teil värbamistaotlusi hallata. Samuti aitab 
 Kui te ei kasuta eraldi värbamisrakendust, saate rakenduses Human Resources kandidaate ka käsitsi hallata.
 
 >[!NOTE]
->Kui olete administraator või arendaja ja soovite integreerida Human Resourcesi kolmanda osapoole värbamisrakendusega, vaadake jaotist [Teenuse Common Data Service integreerimise konfigureerimine](hr-admin-integration-common-data-service.md) ja [Teenuse Common Data Service virtuaalsetüksuste konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)
+>Kui olete administraator või arendaja ja soovite integreerida Human Resourcesi kolmanda osapoole värbamisrakendusega, vaadake jaotist [Teenuse Dataverse integreerimise konfigureerimine](hr-admin-integration-common-data-service.md) ja [Teenuse Dataverse virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Lisaks saate otsida värbamisrakendusi siit: [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Kui te ei kasuta eraldi värbamisrakendust, saate rakenduses Human Resources kan
 
 ## <a name="enable-recruiting-requests"></a>Luba värbamistaotlused
 
-Kui soovite Human Resourcesi kaudu esitada töötajate värbamiskutseid, peate esmalt lubama funktsioonid jaotises **Human resourcesi parameetrid**.
+Kui soovite Human Resourcesi kaudu esitada töötajate värbamiskutseid, peate esmalt lubama funktsioonid jaotises **Human Resourcesi ühiskasutuses olevad parameetrid**.
 
 1. Tööruumis **Personalihaldus** valige **Lingid**.
 
-2. Jaotises **Seadistus** valige suvand **Inimressursside parameetrid**.
+2. Jaotises **Häälestus** valige suvand **Human Resourcesi ühiskasutuses parameetrid**.
 
-3. Määrake jaotise **VÄRBAMINE** vahekaardil **Üldine** suvandi **Luba värbamistaotlused** väärtuseks **Jah**.
-
-   ![Luba värbamistaotlused](./media/hr-recruit-0-enable-requests.png)
+3. Määrake jaotise **VÄRBAMINE** vahekaardil **Värbamine** suvandi **Luba värbamistaotlused** väärtuseks **Jah**.
 
 ## <a name="add-a-recruiting-request-location"></a>Värbamistaotluse asukoha lisamine
 
@@ -224,8 +222,6 @@ Vajaduse korral saate kandidaadist pärast tema palkamist loobuda. Näiteks või
 
 ## <a name="see-also"></a>Vt ka
 
-[Common Data Service'i virtuaalüksuste konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Dataverse'i virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Tööjõu korraldamine](hr-personnel-departments-jobs-positions.md)<br>
 [Töö komponentide häälestus](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

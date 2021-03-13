@@ -1,9 +1,9 @@
 ---
-title: Common Data Service'i integratsiooni konfigureerimine
-description: Saate Common Data Service’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja üksust uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
+title: Dataverse'i integratsiooni konfigureerimine
+description: Saate Microsoft Dataverse’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja tabelit uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
 author: andreabichsel
-manager: AnnBe
-ms.date: 07/27/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,35 +18,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9ee4715526e18b33ae4b7e90b081ed5868bb19c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38c42469e62bf5457d0281540325a6c56a5f930f
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527916"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112270"
 ---
-# <a name="configure-common-data-service-integration"></a>Common Data Service'i integratsiooni konfigureerimine
+# <a name="configure-dataverse-integration"></a>Dataverse'i integratsiooni konfigureerimine
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+Saate Microsoft Dataverse’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja tabelit uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
 
-Saate Common Data Service’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja üksust uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
+> [!NOTE]
+> Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
-Kui lülitate integratsiooni välja, saavad kasutajad teha muudatusi rakenduses Human Resources või Common Data Service, kuid neid muudatusi ei sünkroonita kahe keskkonna vahel.
+Kui lülitate integratsiooni välja, saavad kasutajad teha muudatusi rakenduses Human Resources või Dataverse, kuid neid muudatusi ei sünkroonita kahe keskkonna vahel.
 
-Rakenduste Human Resources ja Common Data Service vahelise andmete integratsioon on vaikimisi välja lülitatud.
+Rakenduste Human Resources ja Dataverse vahelise andmete integratsioon on vaikimisi välja lülitatud.
 
 Võib-olla soovite integratsiooni välja lülitada järgmistes olukordades.
 
 - Te täidate andmeid andmete halduse raamistiku kaudu ja peate andmeid õige oleku saavutamiseks mitu korda importima.
 
-- Andmed on seotud kas rakendusega Human Resources või Common Data Service. Kui lülitate integratsiooni välja, saate kustutada kirje ühes keskkonnas, kustutamata seda teises. Kui lülitate integratsiooni tagasi sisse, sünkroonitakse kirje keskkonnas, kus seda ei kustutatud, tagasi keskkonda, kus see kustutati. Sünkroonimine algab järgmisel korral, kui käivitub rakenduse **Common Data Service integratsioon vastamata nõude sünkroonimise** pakett-töö.
+- Andmed on seotud kas rakendusega Human Resources või Dataverse. Kui lülitate integratsiooni välja, saate kustutada kirje ühes keskkonnas, kustutamata seda teises. Kui lülitate integratsiooni tagasi sisse, sünkroonitakse kirje keskkonnas, kus seda ei kustutatud, tagasi keskkonda, kus see kustutati. Sünkroonimine algab järgmisel korral, kui käivitub rakenduse **Dataverse integratsioon vastamata nõude sünkroonimise** pakett-töö.
 
 > [!WARNING]
 > Kui lülitate andmete integreerimise välja, veenduge, et te ei redigeeriks sama kirjet mõlemas keskkonnas. Kui lülitate integratsiooni uuesti sisse, sünkroonitakse viimati redigeeritud kirje. Seega, kui te ei teinud mõlemas keskkonnas kirjes samu muudatusi, võib esineda andmekadu.
 
-## <a name="access-the-common-data-service-integration-page"></a>Juurdepääs rakenduse Common Data Service integratsiooni lehele
+## <a name="access-the-dataverse-integration-page"></a>Juurdepääs rakenduse Dataverse integratsiooni lehele
 
-1. Valige rakenduse Human Resources eksemplaris, kus soovite integratsiooni sätteid rakendusega Common Data Service vaadata või konfigureerida, paan **Süsteemihaldus**.
+1. Valige rakenduse Human Resources eksemplaris, kus soovite integratsiooni sätteid rakendusega Dataverse vaadata või konfigureerida, paan **Süsteemihaldus**.
 
     [![Süsteemihalduse paan](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
@@ -54,70 +55,74 @@ Võib-olla soovite integratsiooni välja lülitada järgmistes olukordades.
 
     [![Vahekaart Lingid](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
-3. Valige jaotises **Integratsioonid** rakenduse **Common Data Service konfiguratsioon**.
+3. Valige jaotises **Integratsioonid** rakenduse **Dataverse konfiguratsioon**.
 
-    [![Common Data Service’i konfiguratsiooni link](./media/hr-select-common-data-service-configuration.png)](./media/hr-select-common-data-service-configuration.png)
+    [![Dataverse’i konfiguratsiooni link](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
-## <a name="turn-data-integration-between-human-resources-and-common-data-service-on-or-off"></a>Rakenduste Human Resources ja Common Data Service vahelise andmete integratsiooni sisse ja välja lülitamine
+## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Rakenduste Human Resources ja Dataverse vahelise andmete integratsiooni sisse ja välja lülitamine
 
-- Integratsiooni sisselülitamiseks seadke **Luba integreerimine rakendusele Common Data Service** valikule **Jah**.
+- Integratsiooni sisselülitamiseks määrake suvand **Luba Dataverse'i integratsioon** väärtusele **Jah** lehel **Microsoft Dataverse'i integratsioon**.
 
     > [!NOTE]
-    > Kui lülitate integratsiooni sisse, sünkroonitakse andmed järgmisel korral, kui **Common Data Service’i integratsiooni vastamata nõude sünkroonimise** pakett-töö käivitub. Kõik andmed peaksid olema kättesaadavad pärast pakett-töö lõpetamist.
+    > Kui lülitate integratsiooni sisse, sünkroonitakse andmed järgmisel korral, kui **Dataverse’i integratsiooni vastamata nõude sünkroonimise** pakett-töö käivitub. Kõik andmed peaksid olema kättesaadavad pärast pakett-töö lõpetamist.
 
 - Integratsiooni väljalülitamiseks seadke suvandi väärtuseks **Ei**.
 
-[![Rakenduse Common Data Service integratsiooni sisse või välja lülitamine](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+[![Rakenduse Dataverse integratsiooni sisse või välja lülitamine](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
-> Soovitame andmete migreerimisega tegeledes tungivalt Common Data Service'i integratsiooni välja lülitada. Mahukate andmete üleslaadimine võib jõudlust oluliselt mõjutada. Näiteks võib 2000 töötaja üleslaadimine võtta mitu tundi, kui integratsioon on lubatud, ja vähem kui üks tund, kui see on keelatud. Näites toodud numbrid on mõeldud ainult selgitamiseks. Kirjete importimiseks kuluv täpne aeg võib mitme teguri põhjal olla väga erinev.
+> Soovitame andmete migreerimisega tegeledes tungivalt Dataverse'i integratsiooni välja lülitada. Mahukate andmete üleslaadimine võib jõudlust oluliselt mõjutada. Näiteks võib 2000 töötaja üleslaadimine võtta mitu tundi, kui integratsioon on lubatud, ja vähem kui üks tund, kui see on keelatud. Näites toodud numbrid on mõeldud ainult selgitamiseks. Kirjete importimiseks kuluv täpne aeg võib mitme teguri põhjal olla väga erinev.
 
 ## <a name="view-data-integration-details"></a>Andmete integratsiooni üksikasjade ülevaade
 
-Rakenduse **Common Data Service integratsiooni** lehe kiirkaardil **Haldamine** saate vaadata, kuidas on rakenduste Human Resources ja Common Data Service kirjed ühendatud.
+Rakenduse **Microsoft Dataverse integratsiooni** lehe kiirkaardil **Haldamine** saate vaadata, kuidas on rakenduste Human Resources ja Dataverse read ühendatud.
 
-- Üksuse kirjete vaatamiseks valige väljal **CDS-üksuse nimi** olev üksus. Ruudustik kuvab kõik kirjed, mis on seotud valitud üksusega.
-
-[![Üksuse kirjete vaatamine](./media/hr-common-data-service-configuration-view-entity.png)](./media/hr-common-data-service-configuration-view-entity.png)
+- Tabeliridade vaatamiseks valige tabel väljalt **Dataverse'i tabel**. Ruudustik kuvab kõik read, mis on seotud valitud tabeliga.
 
 > [!NOTE]
-> Kõik Common Data Service’i üksused pole praegu loetletud. Ruudustikus kuvatakse ainult üksused, mis toetavad kohandatud väljade kasutamist. Uued üksused muutuvad kättesaadavaks rakenduse Human Resources jätkuväljaannetes.
+> Kõik Dataverse’i tabelid pole praegu loetletud. Ruudustikus kuvatakse ainult tabelid, mis toetavad kohandatud väljade kasutamist. Uued tabelid muutuvad kättesaadavaks rakenduse Human Resources jätkuväljaannetes.
 
 Ruudustik sisaldab järgmisi välju.
 
-- **CDS-üksuse nimi** – üksuse nimi rakenduses Common Data Service.
-- **CDS-üksuse viide** – identifikaator, mida Common Data Service kasutab kirje tuvastamiseks. See väärtus võrdub rakenduse Human Resources väärtusega **RecId**. Selle identifikaatori leiate, avades rakenduse Common Data Service üksuse Microsoft Excelis.
-- **Rakenduse Human Resources üksuse nimi** – üksus, mis viimasena sünkroonis andmeid rakendusega Common Data Service. Üksusel võib olla kas Common Data Service’i eesliide või muu eesliide.
+- **Dataverse'i tabel** - tabeli nimi Dataverse'is.
+- **Dataverse'i tabeli viide** - identifikaator, mida Dataverse kasutab kirje tuvastamiseks. See väärtus võrdub rakenduse Human Resources väärtusega **RecId**. Selle identifikaatori leiate, avades rakenduse Dataverse tabeli Microsoft Excelis.
+- **Rakenduse Human Resources üksuse nimi** - Human Resourcesi üksus, mis viimasena sünkroonis andmeid rakendusega Dataverse. Üksusel võib olla kas Dataverse’i eesliide või muu eesliide.
 - **Rakenduse Human Resources viide** – väärtus **RecId**, mis on seotud kirjega rakenduses Human Resources.
-- **Kustutati CDS-ist** – väärtus, mis näitab, kas kirje kustutati rakendusest Common Data Service.
+- **Kustutati Dataverse'ist** - väärtus, mis näitab, kas rida kustutati Dataverse'ist.
 
-## <a name="remove-the-association-of-a-record-in-human-resources-from-common-data-service"></a>Eemaldage rakendusest Common Data Service kirje seos rakendusega Human Resources
+> [!NOTE]
+> Rakenduse Human Resources kirjed vastavad ridadele Dataverse'is.
 
-Kui teil tekib probleeme rakenduste Human Resources ja Common Data Service vahelise sünkroonimise ajal, saate neid lahendada, tühjendades jälgimise ja lastes jälgimise tabeli uuesti sünkroonimise. Kui eemaldate seose ja seejärel muudate või kustutate kirje rakenduses Common Data Service, ei sünkroonita muudatusi rakendusega Human Resources. Kui teete muudatusi rakenduses Human Resources, luuakse uus jälgimise kirje ja kirje uuendatakse rakenduses Common Data Service.
+## <a name="remove-the-association-of-a-human-resources-record-from-a-dataverse-row"></a>Eemaldage rakenduse Dataverse realt kirje seos rakendusega Human Resources
 
-- Kirje seose eemaldamiseks rakenduste Human Resources ja Common Data Service vahel, valige üksus väljal **CDS-üksuse nimi** ja seejärel käsk **Tühjenda jälgimise teave**.
+Kui teil tekib probleeme rakenduste Human Resources ja Dataverse vahelise sünkroonimise ajal, saate neid lahendada, tühjendades jälgimise ja lastes jälgimise tabeli uuesti sünkroonimise. Kui eemaldate seose ja seejärel muudate või kustutate rea rakenduses Dataverse, ei sünkroonita muudatusi rakendusega Human Resources. Kui teete muudatusi rakenduses Human Resources, luuakse uus jälgimise kirje ja rida uuendatakse rakenduses Dataverse.
 
-[![Jälgimisteabe kustutamine](./media/hr-common-data-service-configuration-clear-tracking.png)](./media/hr-common-data-service-configuration-clear-tracking.png)
+- Kirje seose eemaldamiseks rakenduste Human Resources ja Dataverse'i rea vahel, valige tabel väljal **Dataverse'i tabel** ja seejärel valige käsk **Tühjenda jälgimise teave**.
 
-Üksuse täieliku sünkroonimise käivitamiseks pärast jälgimise tühjendamist vaadake järgmist protseduuri.
+[![Jälgimisteabe kustutamine](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
-## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Sünkroonige üksus rakenduste Human Resources ja Common Data Service vahel
+Tabeli täieliku sünkroonimise käivitamiseks pärast jälgimise tühjendamist vaadake järgmist protseduuri.
+
+## <a name="sync-a-table-between-human-resources-and-dataverse"></a>Sünkroonige tabel rakenduste Human Resources ja Dataverse vahel
 
 Kasutage seda protseduuri, kui:
 
-- Common Data Service'i muudatuste kuvamine rakenduses Human Resources võtab liiga kaua aega;
+- Dataverse'i muudatuste kuvamine rakenduses Human Resources võtab liiga kaua aega;
 
 - pärast jälitamise tühjendamist peate värskendama jälgimise tabelit.
 
-Rakenduse Human Resources ja Common Data Service'i vahelise olemi täieliku sünkroonimise käivitamiseks tehke järgmist.
+Rakenduse Human Resources ja Dataverse'i vahelise tabeli täieliku sünkroonimise käivitamiseks tehke järgmist.
 
-1. Valige olem väljal **CDS-üksuse nimi**.
+1. Valige tabel väljal **Dataverse'i tabel**.
 
 2. Valige **Sünkrooni kohe**.
 
-[![Täieliku sünkroonimise käivitamine](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
+[![Täieliku sünkroonimise käivitamine](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
+## <a name="see-also"></a>Vt ka
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Dataverse'i tabelid](hr-developer-entities.md)<br>
+[Dataverse'i virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Human Resourcesi virtuaaltabelite KKK](hr-admin-virtual-entity-faq.md)<br>
+[Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloogia uuendused](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)

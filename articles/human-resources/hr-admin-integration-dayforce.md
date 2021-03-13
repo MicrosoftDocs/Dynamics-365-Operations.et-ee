@@ -2,7 +2,7 @@
 title: Dayforce’iga integreerimise konfigureerimine
 description: Rakenduste Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce vaheline integratsioon oleneb mitmest selles teemas kirjeldatavast konfiguratsioonietapist. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Human Resources kui ka Dayforce.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 044a2d2f632b2c98ce94b6d61c2582a861640b68
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418077"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112216"
 ---
 # <a name="configure-integration-with-dayforce"></a>Dayforce’iga integreerimise konfigureerimine
 
@@ -676,6 +676,3 @@ Töötajad saavad deklareerida passi teavet. See teave on identifitseerimistüü
 
 Töövõtjad saavad deklareerida mitu **Pass**-identifitseerimistüüpi ID-numbrit. Dayforce’i integreeritakse siiski ainult praegune aktiivne passikirje. Kui kõik passikirjed on aegunud, siis integreeritakse Dayforce’i pass, mis väljastati viimasena.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

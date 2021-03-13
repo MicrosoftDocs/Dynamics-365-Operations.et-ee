@@ -1,8 +1,8 @@
 ---
-title: Ülevaade
+title: Halduse ülevaade
 description: See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsingut rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527857"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112284"
 ---
-# <a name="overview"></a>Ülevaade
+# <a name="administration-overview"></a>Halduse ülevaade
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
 
 - Andmete integratsiooni häälestamine
   - [Andmete integreerimise tehnoloogia valimine](hr-admin-integration-choose-technology.md)
-  - [Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
+  - [Dataverse’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
   - [Integratsiooni konfigureerimine Finance’iga](hr-admin-integration-finance.md)
   - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
 - [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)
 - [Arendaja juhend](hr-developer-overview.md)
 - [Kasutusjuhend](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

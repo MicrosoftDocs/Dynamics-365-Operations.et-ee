@@ -2,7 +2,7 @@
 title: Elusündmuse tüüpide konfigureerimine
 description: Microsoft Dynamics 365 Human Resources kasutab elusündmuse tüüpe sündmuste määratlemiseks, kus kehtib töövõtja soodustuste registreerimise värskendamine.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418140"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112250"
 ---
 # <a name="configure-life-event-types"></a>Elusündmuse tüüpide konfigureerimine
 
@@ -88,6 +88,3 @@ Elusündmuse tüübi loomisel saate valida järgmiste elusündmuste seast.
 | **Sobivusreegli tühistamise aegumine (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Plaanid > Soodustused > Sobivusreegli tühistamine | Elusündmuse muutuse töötlemise kasutamine. Näiteks kui redigeerite plaani sobivusreegli tühistamise aegumiskuupäeva, et see oleks täna kl 17.00, mis tahes ajal pärast kl 17.00 või järgmistel päevadel ning seejärel käivitate elusündmuse muutmise töötluse, kuvatakse teade, et sobivusreegli tühistamine on aegunud. |
 | **Uus soodustuse plaan (mitte USA-spetsiifiline)** | Täiustatud inimressursid > Soodustused > Plaanid > Uus | <ul><li>Sobivuse suvandid lisatakse praegusele plaanile</li><li>Lisatakse uus plaan, millele on lisatud sobivuse suvandid</li></ul></br></br>Inimressursside töötajad peaksid käitama selles eksemplaris elusündmuse sobivuse töötlemise. |
 | **Sobivusreegli muudatus (mitte USA-spetsiifiline)** | Täpsustatud inimressursid > Soodustused > Reeglid/suvandid > Sobivusreeglid | Elusündmuse sobivuse töötlemise kasutamine. Logitakse, kui kirjetel **EhrBenefitEligibilityRule** muudetakse järgmisi väärtusi: **UseEmplCategory**, **UseEmplStatus** või **UseEmplType**. Värskendab ainult elusündmuste kandeid, mis on muudetud reegli või sobivuse kriteeriumide jaoks juba olemas. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Tegevuse juhiste salvestamine LCS-i ja nende taasesitamine
 description: Selles artiklis selgitatakse, kuidas salvestada tegevusjuhiseid teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja neid seejärel taasesitada.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c81c345932e0e3dce4b13104222ed9f668a3c460
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418161"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112290"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Tegevuse juhiste salvestamine LCS-i ja nende taasesitamine
 
@@ -63,6 +63,3 @@ Tegevuse juhise taasesitamiseks LCS-ist tehke järgmist.
 2. Valige **Ava LCS-ist**.
 3. Valige salvestatud tegevuse juhist omavad teek ja BPM-i sõlm.
 4. Avage tegevuse juhis.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
