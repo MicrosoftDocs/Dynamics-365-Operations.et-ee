@@ -1,8 +1,8 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (23. juuli 2020)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 23. juuli 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f5e10d6d1dedfc251a1a00110b50c9096314d75b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528445"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127517"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (23. juuli 2020)
 
@@ -33,7 +33,7 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud fun
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>Finantsdimensioonide kustutamine positsioonil ei tööta ootuspäraselt (445476)
 
-Dimensioonide eemaldamine positsioonilt eemaldab nüüd need samad positsioonid Common Data Service'ist.
+Dimensioonide eemaldamine positsioonilt eemaldab nüüd need samad positsioonid Dataverse'ist.
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>Positsioonide puhul, mis pole hierarhias, näidatakse passiivseid positsioone (397257)
 
@@ -94,9 +94,9 @@ Nüüdsest on lisandumise peatamiseks saadaval DMF-üksus.
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'is kaasatud kontroll-loendi üksused
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'is kaasatud kontroll-loendi üksused
 
-Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Common Data Service'is.
+Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Dataverse'is.
 
 ## <a name="platform-changes"></a>Platvormi muudatused
 
@@ -108,6 +108,3 @@ Platvormi värskendus 10.0.12 (36)
 [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

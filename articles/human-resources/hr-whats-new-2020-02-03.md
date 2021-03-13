@@ -1,8 +1,8 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (03. veebruar 2020)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 3. veebruari 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526997"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128133"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (3. veebruar 2020)
 
@@ -45,7 +45,7 @@ Nüüd saate valitud tegevused kustutada, kasutades nupu **Eemalda** vormil **Tu
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
+Uus lahendus Dataverse on varsti saadaval järgmiste muudatustega.
 
 | Kirjeldus | Muutmine |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
 | Uued ergutussüsteemi seadistuse üksused | **Muutuva hüvitisplaani tüüp**</br>**Kompensatsiooni tulemusplaan**</br>**Pensionireeglid**</br>**Muutuva hüvitisplaani tase** |
 | Uus olem **Töötaja kalendri tööhõive** | Lisatud **Töökalendri üksus** |
 | Uus olem **Palgaarvestuse ametikoha üksikasjad** | Lisatud **Palgaarvestuse ametikoha üksikasjad** |
-| Uus üksus **Ametinimetus** | Lisatud **Ametinimetus**. Uus üksus **Pealkiri** kaasatakse sünkroonimisprotsessi rakenduse Human Resources ja teenuse Common Data Service vahel. Kuid algselt ei viidata sellele üksustelt **Ametikoht** või **Töö**. |
+| Uus üksus **Ametinimetus** | Lisatud **Ametinimetus**. Uus üksus **Pealkiri** kaasatakse sünkroonimisprotsessi rakenduse Human Resources ja teenuse Dataverse vahel. Kuid algselt ei viidata sellele üksustelt **Ametikoht** või **Töö**. |
 
 ## <a name="see-also"></a>Vt ka
 
@@ -65,6 +65,3 @@ Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

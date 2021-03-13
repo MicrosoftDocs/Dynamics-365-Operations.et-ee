@@ -1,8 +1,8 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (3. aprill, 2020)?
 description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 3. aprilli 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b00ef61cdd7ceac6c6f57187a0e6c98e94c8cb71
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526782"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127917"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (3. aprill, 2020)?
 
@@ -64,7 +64,7 @@ Järgmised üksused on nüüd saadaval. Kui te ei näe neid üksuseid üksuste l
  - Puhkuse ja puudumise plaani järk V2
  - Puhkuse ja puudumise plaan V2
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service' lahendus on nüüd saadaval, sisaldades järgmisi muudatusi:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse' lahendus on nüüd saadaval, sisaldades järgmisi muudatusi:
 
 | Kirjeldus | Muutmine |
 | --- | --- |
@@ -76,18 +76,18 @@ Järgmised üksused on nüüd saadaval. Kui te ei näe neid üksuseid üksuste l
 | Uued ergutussüsteemi seadistuse üksused | <ul><li>**Muutuva hüvitisplaani tüüp**</li><li>**Kompensatsiooni tulemusplaan**</li><li>**Pensionireeglid**</li><li>**Muutuva hüvitisplaani tase**</li></ul> |
 | Uus olem **Töötaja kalendri tööhõive** | <ul><li>Lisatud **Töökalendri üksus**</li></ul> |
 | Uus olem **Palgaarvestuse ametikoha üksikasjad** | <ul><li>Lisatud **Palgaarvestuse ametikoha üksikasjad**</li></ul> |
-| Uus üksus **Ametinimetus** | <ul><li>Lisatud **Ametinimetus**</li></ul>Uus üksus **Ametinimetus** on lisatud Common Data Service'isse, kuid seda ei viidata praegu üksustes **Ametikoht** või **Töö**. |
+| Uus üksus **Ametinimetus** | <ul><li>Lisatud **Ametinimetus**</li></ul>Uus üksus **Ametinimetus** on lisatud Dataverse'isse, kuid seda ei viidata praegu üksustes **Ametikoht** või **Töö**. |
 
 > [!NOTE]
-> Ametikoha ja tööhõive finantsdimensioonid loovad ühesuunalise integratsiooni Human Resourcesi värskendamiseks Common Data Service'isse. Finantsdimensioonide värskendusi ei sünkroonita praegu Common Data Service'ist Human Resourcesisse.
+> Ametikoha ja tööhõive finantsdimensioonid loovad ühesuunalise integratsiooni Human Resourcesi värskendamiseks Dataverse'isse. Finantsdimensioonide värskendusi ei sünkroonita praegu Dataverse'ist Human Resourcesisse.
 
-Paari järgneva nädala jooksul on need üksusemuudatused saadaval kõikides keskkondades. Human Resourcesi uusima Common Data Service'i lahenduse käsitsi installimiseks tehke järgmist.
+Paari järgneva nädala jooksul on need üksusemuudatused saadaval kõikides keskkondades. Human Resourcesi uusima Dataverse'i lahenduse käsitsi installimiseks tehke järgmist.
 
 1.  Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com).
 
 2.  Valige **Keskkonnad**.
 
-3.  Otsige üles keskkond, mida soovite uuendada. Keskkond peab vastama **Keskkonna nimele** jaotises **Common Data Service'i teave** Human Resourcesi vormil **Teave**.
+3.  Otsige üles keskkond, mida soovite uuendada. Keskkond peab vastama **Keskkonna nimele** jaotises **Dataverse'i teave** Human Resourcesi vormil **Teave**.
 
 4.  Keskkonna üksikasjade vaatamiseks valige keskkond.
 
@@ -137,5 +137,3 @@ Kui SharePointi talletatud dokumentide dokumendieelvaade ei tööta, proovige j�
 [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

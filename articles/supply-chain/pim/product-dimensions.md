@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426031"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118677"
 ---
 # <a name="product-dimensions"></a>Tootedimensioonid
 
@@ -122,7 +121,7 @@ Enne versioonidimensiooni kasutamist peate selle oma süsteemis sisse lülitama.
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Valdkonnad, kus versioonidimensiooni ei toetata
 
-Järgmistes valdkondades ei toetata versioonidimensiooni, kuna selle dimensiooni juurutamine põhjustaks kahjutoovaid muudatusi.
+Järgmised alad ei toeta versioonidimensiooni (neid alasid saate siiski kasutada, kuid te ei saa neile lisada versioonitud tooteid (tooteid, mille puhul kasutatakse versioonidimensiooni)). Näiteks ei saa te versioonitud kaupa lisada hankija kataloogi. Põhjus on selles, et versioonidimensiooniga toodete lisamine nendele aladele põhjustaks murrangulised muudatused.
 
 - Kuluobjekti kuuaruanne
 - Kuluobjekti aruande vahemälu
@@ -146,6 +145,3 @@ Versioonidimensioon toimib samamoodi nagu teised tootedimensioonid. Kuid selle e
 
 > [!IMPORTANT]
 > Kui lülitate versioonidimensiooni sisse ja kasutate seda, võivad mõned lahendused, mis viitavad varude dimensioonidele, lõpetada ootuspärase töötamise. Nende probleemide kinnitamiseks ja lahendamiseks võtke mõjutatud lahendustega seoses ühendust oma sõltumatu tarkvaratarnijaga (ISV). Lisateavet leiate teemast [Versioonidimensiooni lubamine](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

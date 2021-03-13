@@ -1,6 +1,6 @@
 ---
-title: Topeltkirjutuse seadistamine teenuses Lifecycle Services
-description: Selles teemas kirjeldatakse, kuidas seadistada topeltkirjutust uue Finance and Operationsi ja uue Dataverse'i keskkonna vahel teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
+title: Topeltkirjutuse häälestus teenustest Lifecycle Services
+description: Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683520"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127589"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse seadistamine teenuses Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Topeltkirjutuse ühenduse seadistamiseks tehke järgmist.
     - Kui teie rentniku jaoks on Dataverse'i keskkond juba ette valmistatud, saate selle valida.
 
         1. Määrake suvandi **Dataverse'i konfigureerimine** väärtuseks **Jah**.
-        2. Väljal **Saadaolevad keskkonnad** valige oma Finance and Operationsi andmetega integreeritav keskkond. Loend hõlmab kõiki keskkondi, kus teil on administraatori privileegid.
+        2. Veerus **Saadaolevad keskkonnad** valige oma Finance and Operationsi andmetega integreeritav keskkond. Loend hõlmab kõiki keskkondi, kus teil on administraatori privileegid.
         3. Tingimustega nõustumise näitamiseks märkige ruut **Nõustu**.
 
         ![Vahekaart Dataverse, kui teie rentniku jaoks on 'Dataversei keskkond juba ette valmistatud](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Topeltkirjutuse ühenduse seadistamiseks tehke järgmist.
         ![Vahekaart Dataverse, kui teie rentnikul ei ole veel Dataverse'i keskkonda](../dual-write/media/lcs_setup_2.png)
 
 7. Viige lõpule järelejäänud toimingud viisardis **Juurutussätted**.
-8. Kui keskkonna olekuks on **Juurutatud**, avage keskkonna üksikasjade leht. Jaotises **Dataverse'i keskkonna teave** kuvatakse lingitud Finance and Operationsi ja Dataverse'i keskkonna nimed.
+8. Kui keskkonna olekuks on **Juurutatud**, avage keskkonna üksikasjade leht. Jaotises **Power Platformi integreerimine** kuvatakse lingitud Finance and Operationsi ja Dataverse’i keskkonna nimed.
 
-    ![Dataverse keskkonna teabe jaotis](../dual-write/media/lcs_setup_3.png)
+    ![Power Platformi integreerimise jaotis](../dual-write/media/lcs_setup_3.png)
 
 9. Keskkonna Finance and Operations administraator peab linkimise lõpule viimiseks logima sisse LCS-i ja valima **Lingi CDS rakendustele**. Keskkonna üksikasjade lehel kuvatakse administraatori kontaktteave.
 
@@ -86,10 +84,8 @@ Topeltkirjutuse ühenduse seadistamiseks tehke järgmist.
 
 10. Tööruumi **Andmete integratsioon** avamiseks Finance and Operationsi keskkonnas ja saadaolevate mallide juhtimiseks valige **Lingi CDS rakendustele**.
 
-    ![Nupp Lingi CDS rakendusele keskkonna Dataverse teabe jaotises](../dual-write/media/lcs_setup_4.png)
+    ![Nupp Lingi CDS rakendustele Power Platformi teabe jaotises](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage tööruum **Andmete integratsioon** keskkonnas Finance and Operations ja seejärel valige käsk **Tühista linkimine**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

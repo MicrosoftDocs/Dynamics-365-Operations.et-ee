@@ -1,6 +1,6 @@
 ---
 title: Finantsdimensioonid ja põhikontod paremalt vasakule loetavates keeltes
-description: See teema kirjeldab mõningaid juurutamisotsuseid, mida tuleb arvestada, kui kasutate paremalt vasakule keelt, ja peate seadistama finantsdimensioonid ja põhikontod.
+description: See teema kirjeldab otsuseid, mida tuleb teha, kui kasutate paremalt vasakule keelt ja peate seadistama finantsdimensioonid ning põhikontod.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680478"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127643"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Finantsdimensioonid ja põhikontod paremalt vasakule loetavates keeltes
 
@@ -38,6 +38,3 @@ Finantsdimensioonid ja põhikontod on juurutamise plaanimisfaasi põhikomponendi
 - Vältige valitud kontoplaani eraldaja kasutamist finantsdimensiooni ja põhikonto väärtustes.
 
 Neid parimaid tavasid järgides saate tagada kasutaja määratletud tellimuse pideva tähistamise kogu süsteemis.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

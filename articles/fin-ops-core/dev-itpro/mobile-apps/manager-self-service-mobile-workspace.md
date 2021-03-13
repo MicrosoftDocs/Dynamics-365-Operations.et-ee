@@ -1,6 +1,6 @@
 ---
 title: Mobiilne tööruum Minu töörühm
-description: Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata. Kasutajad saavad ka oma aruandlusahela inimestele tänu saata.
+description: Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 79678c42545a07054af00cd408e04e9d1a42caed
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680966"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127541"
 ---
-# <a name="my-team-mobile-workspace"></a>Mobiilne tööruum Minu töörühm
+# <a name="my-team-mobile-workspace"></a>Minu töörühma mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,6 +97,3 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 1.  Valige **Saada tänu**. 
 1. Sisestage tänu tekst, mille saata soovite. 
 1. Valige suvand **Valmis**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

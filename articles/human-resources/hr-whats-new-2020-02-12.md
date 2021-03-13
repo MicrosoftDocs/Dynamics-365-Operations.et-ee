@@ -1,8 +1,8 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (12. veebruar 2020)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 12. veebruari 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b89e022441f69825d9c9c56ecdbca2e09e461b9e
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d9d5d88d1d2bc1d6f3ff737b79e6a323e6a5c947
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526884"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128085"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (12. veebruar 2020)
 
@@ -35,9 +35,9 @@ Selles artiklis kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud f
 
 Selle nädala väljalaskega on üksused **CompFixedEmpls** ja **HcmPersonImage** nüüd avalikud ja OData kaudu saadaval.
 
-## <a name="delete-employment-from-common-data-service-doesnt-work-when-employment-details-arent-active-403193"></a>Tööhõive kustutamine teenusest Common Data Service ei tööta, kui töötamise üksikasjad pole aktiivsed (403193)
+## <a name="delete-employment-from-dataverse-doesnt-work-when-employment-details-arent-active-403193"></a>Tööhõive kustutamine teenusest Dataverse ei tööta, kui töötamise üksikasjad pole aktiivsed (403193)
 
-See muudatus võimaldab nüüd töösuhte teenuse Common Data Service kaudu kustutada, kui aktiivseid tööhõive üksikasju pole.
+See muudatus võimaldab nüüd töösuhte teenuse Dataverse kaudu kustutada, kui aktiivseid tööhõive üksikasju pole.
 
 ## <a name="course-registration-workflow-changes-status-to-complete-and-errors-after-second-approval-409749"></a>Kursuse registreerimise töövoog muudab oleku lõpetatuks ja pärast teist kinnitamist esineb tõrge (409749)
 
@@ -57,9 +57,9 @@ Kursuse registreerimise töövoogu on värskendatud, et lubada mitu kinnitajat.
 
 Platvormivärskendus 32 on peagi saadaval. [Lisateavet platvormivärskenduse 32 kohta leiate siit](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
-### <a name="updated-common-data-service-solution"></a>Värskendatud lahendus Common Data Service
+### <a name="updated-dataverse-solution"></a>Värskendatud lahendus Dataverse
 
-Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
+Uus lahendus Dataverse on varsti saadaval järgmiste muudatustega.
 
 | Kirjeldus | Muutmine |
 | ----------------------------------------- | --- |
@@ -70,7 +70,7 @@ Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
 | Uued ergutussüsteemi seadistuse üksused | **Muutuva hüvitisplaani tüüp**</br>**Kompensatsiooni tulemusplaan**</br>**Pensionireeglid**</br>**Muutuva hüvitisplaani tase** |
 | Uus olem **Töötaja kalendri tööhõive** | Lisatud **Töökalendri üksus** |
 | Uus olem **Palgaarvestuse ametikoha üksikasjad** | Lisatud **Palgaarvestuse ametikoha üksikasjad** |
-| Uus üksus **Ametinimetus** | Lisatud **Ametinimetus**. Uus üksus **Pealkiri** kaasatakse sünkroonimisprotsessi rakenduse Human Resources ja teenuse Common Data Service vahel. Kuid algselt ei viidata sellele üksustelt **Ametikoht** või **Töö**. |
+| Uus üksus **Ametinimetus** | Lisatud **Ametinimetus**. Uus üksus **Pealkiri** kaasatakse sünkroonimisprotsessi rakenduse Human Resources ja teenuse Dataverse vahel. Kuid algselt ei viidata sellele üksustelt **Ametikoht** või **Töö**. |
 
 ## <a name="see-also"></a>Vt ka
 
@@ -78,5 +78,3 @@ Uus lahendus Common Data Service on varsti saadaval järgmiste muudatustega.
 [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

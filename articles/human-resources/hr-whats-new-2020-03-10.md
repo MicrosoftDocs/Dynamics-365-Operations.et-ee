@@ -1,8 +1,8 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (10. märts 2020)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 20. märtsi 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b1819ddb996d83b03151eb228ec740f603f98409
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526907"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127989"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (10. märts 2020)
 
@@ -45,7 +45,7 @@ Töötaja ülesandehalduse vorm loetleb töövõtja kõik ülesanded sisseelamis
 
 Näide: Benjamin Martin on soodustuste haldur. Töövõtja sisseelamise ajal luuakse Benjamini jaoks ülesandeid, et vaadata üle uue töötaja soodustuste valik. Benjamin on möödunud ülesanded lõpule viinud ja tulevasi ülesandeid, mida ta veel peab täitma. Benjamin otsustab ettevõttest lahkuda, nii et tema ülesanded tuleb kas ümber määrata või eemaldada. Ülesandehalduse vorm (Vormi **Töötaja** tegevuse paanil) võimaldab kõik Benjamini ülesanded teisele töötajale ümber määrata või eemaldada.  
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service' lahendus on nüüd saadaval, sisaldades järgmisi muudatusi:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse' lahendus on nüüd saadaval, sisaldades järgmisi muudatusi:
 
 | Kirjeldus | Muutmine |
 | --- | --- |
@@ -57,18 +57,18 @@ Näide: Benjamin Martin on soodustuste haldur. Töövõtja sisseelamise ajal luu
 | Uued ergutussüsteemi seadistuse üksused | <ul><li>**Muutuva hüvitisplaani tüüp**</li><li>**Kompensatsiooni tulemusplaan**</li><li>**Pensionireeglid**</li><li>**Muutuva hüvitisplaani tase**</li></ul> |
 | Uus olem **Töötaja kalendri tööhõive** | <ul><li>Lisatud **Töökalendri üksus**</li></ul> |
 | Uus olem **Palgaarvestuse ametikoha üksikasjad** | <ul><li>Lisatud **Palgaarvestuse ametikoha üksikasjad**</li></ul> |
-| Uus üksus **Ametinimetus** | <ul><li>Lisatud **Ametinimetus**</li></ul> Uus üksus **Ametinimetus** on lisatud Common Data Service'isse, kuid seda ei viidata praegu üksustes **Ametikoht** või **Töö**. |
+| Uus üksus **Ametinimetus** | <ul><li>Lisatud **Ametinimetus**</li></ul> Uus üksus **Ametinimetus** on lisatud Dataverse'isse, kuid seda ei viidata praegu üksustes **Ametikoht** või **Töö**. |
 
 > [!NOTE]
-> Ametikoha ja tööhõive finantsdimensioonid loovad ühesuunalise integratsiooni Human Resourcesi värskendamiseks Common Data Service'isse. Finantsdimensioonide värskendusi ei sünkroonita praegu Common Data Service'ist Human Resourcesisse.
+> Ametikoha ja tööhõive finantsdimensioonid loovad ühesuunalise integratsiooni Human Resourcesi värskendamiseks Dataverse'isse. Finantsdimensioonide värskendusi ei sünkroonita praegu Dataverse'ist Human Resourcesisse.
 
-Paari järgneva nädala jooksul on need üksusemuudatused saadaval kõikides keskkondades. Human Resourcesi uusima Common Data Service'i lahenduse käsitsi installimiseks tehke järgmist.
+Paari järgneva nädala jooksul on need üksusemuudatused saadaval kõikides keskkondades. Human Resourcesi uusima Dataverse'i lahenduse käsitsi installimiseks tehke järgmist.
 
 1.  Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com).
 
 2.  Valige **Keskkonnad**.
 
-3.  Otsige üles keskkond, mida soovite uuendada. Keskkond peab vastama **Keskkonna nimele** jaotises **Common Data Service'i teave** Human Resourcesi vormil **Teave**.
+3.  Otsige üles keskkond, mida soovite uuendada. Keskkond peab vastama **Keskkonna nimele** jaotises **Dataverse'i teave** Human Resourcesi vormil **Teave**.
 
 4.  Keskkonna üksikasjade vaatamiseks valige keskkond.
 
@@ -106,5 +106,3 @@ Paari järgneva nädala jooksul on need üksusemuudatused saadaval kõikides kes
 [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

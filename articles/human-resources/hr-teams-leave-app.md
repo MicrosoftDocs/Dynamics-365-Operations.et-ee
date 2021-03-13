@@ -2,7 +2,7 @@
 title: Puhkusetaotluste haldamine Teamsis
 description: Selles teemas kirjeldatakse, kuidas esitada puhkusetaotlust Microsoft Teamsi rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4418240"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128157"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
@@ -196,7 +196,6 @@ Teamsi rakendusel Human Resources on järgmised hõlbustusprobleemid, mille lahe
 | --- | --- |
 | 400% suumimine töölaual peidab vaates mõned tegevusnupud. | Selle asemel soovitame kasutada luupi, kuni saame sellel tasemel suumi toetada. |
 | VoiceOver teatab vahekaardil **Vaba aeg** nuputoimingust, lugedes ette vaba aja ruudustiku päist. | Ruudustiku päis ja elemendid rühmitatakse aasta kaupa ja need on ahendatavad. VoiceOver tõlgendab seda kui tegevusüksust, kuid see pole seda. |
-| Kui avatud hüpikakna või menüü ajal nipsate, jätab VoiceOver hüpikakna või menüü sisu lugemise vahele. | Saate sisu sõrme skännimise abil uurida. |
 | Vahekaardil **Vaba aeg** saab teha lisaks veel ühe nipsamise, kui valitakse uue taotluse **põhjuse kood**. | See nipsamine ei ava siiski ühtki peidetud juhtelementi. |
 | Kui nipsate vahekaardil **Vaba aeg** avatud kalendri korral, liigutakse uue taotluse korral või taotluse redigeerimisel ülaosa asemel hoopis juhtelemendist välja. | Kui jõuate valikuni **Liigu tänase juurde**, võtke arvesse, et see on juhtelemendi lõpp ja nipske vastassuunas, et tagasi algusse saada. |
 | VoiceOver ei loe ette kuupäevasilte. | Paarides esinevad kuupäevad on alati **alguskuupäev** ja **lõppkuupäev**. |
@@ -229,6 +228,3 @@ Et piirata oma organisatsiooni või selles olevate kasutajate juurdepääsu rake
 [Microsoft Teamsi allalaadimine ja installimine](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams spikrikeskus](https://support.office.com/teams)</br>
 [Rakendus Human Resources Teamsis](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

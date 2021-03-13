@@ -2,7 +2,7 @@
 title: Küsimustike tulemuste vaatamine ja hindamine
 description: See artikkel selgitab, kuidas saate vaadata ja hinnata vastajate täidetavate küsimustike tulemusi.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418213"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116112"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Küsimustike tulemuste vaatamine ja hindamine
 
@@ -72,5 +72,3 @@ Saate kasutada küsimustiku statistikat täidetud küsimustiku tulemuste analü�
 -   Valige või kinnitage kriteeriumid tulemuste analüüsimiseks vastaja või küsimustiku omaduste põhjal. Näiteks kui teete valiku **Sihtnumber**, saate analüüsida vastaja asukoha ja õigete vastuste seost.
 
 Teie määratud seaded salvestatakse ja saate neid tulemuste ümberarvutamiseks regulaarselt kasutada.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
