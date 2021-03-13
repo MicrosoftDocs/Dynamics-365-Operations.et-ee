@@ -1,6 +1,6 @@
 ---
 title: Vormingute muutmine rakendusandmetega dokumentide loomiseks
-description: Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (3. osa – mudeli ja vastendamise muutmine)“.
+description: Selles teemas kirjeldatakse, kuidas kujundada aruandluse konfiguratsioone elektroonilise dokumendi loomiseks ja värskendada rakenduse andmeid.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684543"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129393"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Vormingute muutmine rakendusandmetega dokumentide loomiseks
 
@@ -149,6 +149,3 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 46. Sulgege leht.
 47. Sulgege leht.
 48. Sulgege leht.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

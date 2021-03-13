@@ -1,5 +1,5 @@
 ---
-title: Nõudmisel sünkroonimine Dynamics 365 Supply Chain Managementi hinnakujunduse mootoriga
+title: Nõudmisel sünkroonimine Supply Chain Managementi hinnakujunduse mootoriga
 description: Selles teemas kirjeldatakse, kuidas kasutada Dynamics 365 Salesi Microsoft Dynamics 365 Supply Chain Managementi hinnakujunduse mootorit.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4451815"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130649"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Nõudmisel sünkroonimine Dynamics 365 Supply Chain Managementi hinnakujunduse mootoriga
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Nõudmisel sünkroonimine Supply Chain Managementi hinnakujunduse mootoriga
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management sisaldab hinnakujunduse mootorit,
 3. Uue tellimusrea lisamine.
 4. Kui loote uut tellimust, valige tegevuse paanil suvand **Hinnajärjestus**. Kui värskendate olemasolevat tellimust, valige tegevuse paanil suvand **Uuestiarvutamine**.
 
-    Järgmised väljad täidetakse automaatselt.
+    Järgmised veerud täidetakse automaatselt.
 
     + Üksikasjalik summa
     + Allahindlus %
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management sisaldab hinnakujunduse mootorit,
 
 ## <a name="how-it-works"></a>Toimimisviis
 
-Kui teete Salesis valiku **Hinnajärjestus**, kutsutakse seostatud müügitellimuse jaoks Supply Chain Managementi vahekaardil **Müügitellimus \> Kuva** funktsioon **Kogusummad**. Tellimuse kogusumma väärtusi kasutatakse Salesis vastavate Supply Chain Managementi väljade täitmiseks.
+Kui teete Salesis valiku **Hinnajärjestus**, kutsutakse seostatud müügitellimuse jaoks Supply Chain Managementi vahekaardil **Müügitellimus \> Kuva** funktsioon **Kogusummad**. Tellimuse kogusumma väärtusi kasutatakse Salesis vastavate Supply Chain Managementi veergude täitmiseks.
 
 Kui Supply Chain Managementis avutatakse müügitellimuse kogusumma, hindab arvutus kliendi ja müügitellimuse jaoks loetletud toodete kehtivaid kaubandusleppeid ja müügilepinguid. Seda teavet kasutatakse kogusummade arvutamiseks. Kui valitud on **Hinnajärjestus**, kajastab Sales automaatselt kõiki Supply Chain Managementis tehtud seadistusi.
 
 ## <a name="limitations"></a>Kitsendused
 
-Kui Salesi väljad on täidetud, kehtivad järgmised piirangud.
+Kui Salesi veerud on täidetud, kehtivad järgmised piirangud.
 
 + Supply Chain Managementi tasude ja tasu eraldamise seadistusi ei kopeerita Salesi.
-+ Hinnakujundus ei arvesta Supply Chain Managementi müügitellimuse rea lehe väljal **Jaemüügi kanal** määratletud jaemüügi erihinnakujundust.
++ Hinnakujundus ei arvesta Supply Chain Managementi müügitellimuse rea lehe veerus **Jaemüügi kanal** määratletud jaemüügi erihinnakujundust.
 + Supply Chain Managementi jaotises **Kaubandushüvitise haldus** määratletud allahindlusi ei arvestata.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (08. juuli 2020)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 8. juuli 2020 uusi või muutunud funktsioone.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528469"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130393"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (8. juuli 2020)
 
@@ -71,9 +71,9 @@ Loodud ja muudetud süsteemi väljad on nüüd lubatud Human Resourcesi tabelis 
 
 Selles väljalaskes on parandatud tõrge (tühi viide) sujuvamas töövõtjate sisestamises, kui palkate töövõtja suvandi **Palkamise ja üksikasjade lisamine** abil.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Common Data Service'i töövõtja üksuses tehtud muudatused ei kajastu Human Resourcesis (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Dataverse'i töövõtja üksuses tehtud muudatused ei kajastu Human Resourcesis (455652)
 
-Common Data Service'i üksuse **Töövõtja** järgmistel väljadel tehtud muudatused kuvatakse nüüd Human Resourcesis.
+Dataverse'i üksuse **Töövõtja** järgmistel väljadel tehtud muudatused kuvatakse nüüd Human Resourcesis.
 
 - **Töötab kodus**
 - **Staaž kuupäeval**
@@ -131,9 +131,9 @@ Nüüdsest on lisandumise peatamiseks saadaval DMF-üksus.
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'is kaasatud kontroll-loendi üksused
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'is kaasatud kontroll-loendi üksused
 
-Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Common Data Service'is.
+Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Dataverse'is.
 
 ## <a name="see-also"></a>Vt ka
 
@@ -141,6 +141,3 @@ Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprots
 [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

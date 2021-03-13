@@ -1,5 +1,5 @@
 ---
-title: Andmete importimine mitme töölehega Exceli andmeüksuse mallidest
+title: Mitme töölehe andmemallid
 description: Selles teemas kirjeldatakse andmete importimist Exceli andmeüksuse mallidest rakendusse Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688075"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130577"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Andmete importimine mitme töölehega Exceli andmeüksuse mallidest
+# <a name="data-templates-with-multiple-worksheets"></a>Mitme töölehe andmemallid
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ Juhul kui andmeprojekti olemasolevate üksuste puhul tuleb üles laadida sama fa
 ## <a name="upload-a-file-using-run-project"></a>Faili üleslaadimine suvandiga Projekti käivitamine
 
 Impordiprojekti käivitamiseks saate Exceli faili üles laadida suvandiga **Projekti käivitamine**. Jälgige hoolikalt, et laadiksite üles ainult failid, millel on samad töölehed kui andmeprojekti andmeüksuste olemasolevatel vastendustel. Kui äsja üleslaaditud failist töölehte ei leita, kuvab süsteem tõrke ja peatab importimise. Kui mõne üksuse puhul tuleb töölehega vastendust muuta, tuleb vastendusi andmeprojektis kõigepealt andmeprojekti sees värskendada, enne kui kasutate faili funktsioonis **Projekti käivitamine**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

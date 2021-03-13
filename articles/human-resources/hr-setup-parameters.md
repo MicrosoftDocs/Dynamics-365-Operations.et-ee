@@ -2,7 +2,7 @@
 title: Inimressursside parameetrite konfigureerimine
 description: Mõne inimressursside parameetri sätteid jagatakse ettevõtete vahel, samas kui teiste parameetrite sätted on täiesti ettevõttepõhised. See artikkel selgitab, ettevõttepõhiste inimressursside parameetrite seadistamist.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bac50c5f302797e28df2bc792893c8a682899a93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 131606ebaff49a2c63d22bcfdb5e523f4df87ec6
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418097"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129121"
 ---
 # <a name="configure-human-resources-parameters"></a>Inimressursside parameetrite konfigureerimine
 
@@ -50,6 +50,3 @@ Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jao
 
 > [!NOTE]
 > Töötundide arv ei tohi ületada 1250 tundi ja töösuhte pikkus ei saa olla pikem kui 12 kuud. Need maksimumväärtused on kooskõlas USA föderaalseadustega. Lõpuks määravad vahekaardi **Töövõtja iseteenindus** sätted teabe, mille juhid saavad oma töövõtjate nimel sisestada.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

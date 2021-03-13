@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 28518341544327f1983e563b719b0f455b6e1c43
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 948860bb064dde1085fef4a74da2d9a600892294
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442564"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131001"
 ---
 # <a name="set-up-lease-books"></a>Rendiraamatute seadistamine
 
@@ -53,6 +52,4 @@ Rendiraamatu loomiseks toimige järgmiselt.
     | Lühiajaline künnis                     | Sisestage kuude arv lühiajaliste rendilepingute lävena kasutamiseks. Kui rendileping on siin sisestatud kuude arvust lühem või sellega võrdne, klassifitseerib süsteem rendi lühiajalise rendina ja rakendatakse edasilükatud rendi käsitlust. |
     | Väikese väärtuse künnis                      | Sisestage summa, mida kasutatakse väikese väärtusega rendilepingute lävena. Kui vara õiglane väärtus on väiksem või võrdne siia sisestatud väärtusega, klassifitseerib süsteem rendi väikese väärtusega rendina ja rakendatakse edasilükatud rendi käsitlust. |
     | Tasumine hankijale                            | Seadke see suvand väärtusele **Jah**, et lubada rendimaksete sisestamist arvena igale rendilepingul määratud hankija kontole. Kui rendimakse sisestatakse, krediteeritakse hankija kontot. Kui see valik on seadistatud väärtusele **Ei**, krediteeritakse selle asemel konto, mis on määratud **Rendimakse** sisestustüübile lehel **Rendi sisestamise parameetrid**. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    | Rentimise reegel                       | Valige rentimise varaseima kuupäeva konventsioon.<ul><li><b>Puudub</b> - kasutage alguskuupäevana rendi alguskuupäeva.</li><li><b>Täiskuu</b> - kasutage alguskuupäevana selle kuu esimest päeva, millesse langeb rendi alguskuupäev.</li></ul><p>Kui valite <b>Puudub</b>, on oht, et kohustuse amortisatsiooni ja varade kulumi graafikud arvestavad ja sisestavad kulud kuu keskel, mitte kuu lõpus. Valides <b>Täiskuu</b> tagate, et süsteem hakkab renti arvestama kuu esimesest kuupäevast ja kogu kuu kulu arvestatakse ja sisestatakse kuu viimasel päeval.</p><p><strong>Märkus:</strong> rentimise konventsioonide funktsioon tuleb sisse lülitada funktsioonide halduse alt. Otsige tööruumis <b>Funktsioonihaldus</b> üles funktsioon nimega <b>Vara rentimise rentimisreegel</b> ja seejärel tehke valik <b>Luba kohe</b>.</p> |

@@ -1,5 +1,5 @@
 ---
-title: Topeltkirjutuse mooduli tõrkeotsingu probleemid Finance and Operationsi rakendustes
+title: Topeltkirjutamise probleemide tõrkeotsing Finance and Operationsi rakendustes
 description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada Finance and Operationsi rakenduste topelkirjutuse mooduliga seotud probleeme.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683619"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131241"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Topeltkirjutuse mooduli tõrkeotsingu probleemid Finance and Operationsi rakendustes
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Topeltkirjutamise probleemide tõrkeotsing Finance and Operationsi rakendustes
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Kui te ei saa avada lehte **Topeltkirjutus**, valides tööruumis **Andmehaldus*
 
 **Probleemi lahendamiseks nõutav identimisteave:** sama kasutaja, kes topeltkirjutuse seadistas.
 
-Teile võidakse kuvada järgmine tõrketeade, kui proovite konfigureerida uut üksust topeltkirjutuse jaoks. Vastendust võib luua ainult kasutaja, kes seadistas topeltkirjutuse ühenduse.
+Teile võidakse kuvada järgmine tõrketeade, kui proovite konfigureerida uut tabelit topeltkirjutuse jaoks. Vastendust võib luua ainult kasutaja, kes seadistas topeltkirjutuse ühenduse.
 
 *Vastuse oleku kood ei näita edu: 401 (autoriseerimata)*
 
@@ -77,7 +77,7 @@ See tõrge ilmneb siis, kui lingitud Dataverse'i keskkond ei ole saadaval.
 
 Probleemi lahendamiseks looge andmeintegratsiooni meeskonnale pilet. Manustage võrgujälitus, et andmeintegratsiooni meeskond saaks märgistada vastendused olekusse **Ei tööta** tagaserveris.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Tabeli vastendamise alustamise katsel ilmnes tõrge
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Tabeli vastendamise alustamise katsel ilmnes tõrge
 
 Kui proovite seada vastenduse olekut väärtusele **Töötab**, võite saada järgmise tõrketeate.
 
@@ -86,7 +86,4 @@ Kui proovite seada vastenduse olekut väärtusele **Töötab**, võite saada jä
 Selle tõrke parandus sõltub tõrke põhjusest.
 
 + Kui vastendusel on sõltuvaid vastendusi, siis veenduge, et selle tabeli vastendusest sõltuvad vastendused oleksid lubatud.
-+ Vastendusel võivad puududa lähte- või sihtväljad. Kui väli on puudu Finance and Operationsi rakenduses, järgige jaotises [Puuduva üksuse välja probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps) toodud samme. Kui väli on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et väljad täidetaks vastenduses automaatselt.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Vastendusel võivad puududa lähte- või sihtveerud. Kui veerg Finance and Operationsi rakenduses puuudb, järgige jaotises [Puuduva tabeli veeru probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) toodud samme. Kui veerg on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et veerud täidetaks vastenduses automaatselt.

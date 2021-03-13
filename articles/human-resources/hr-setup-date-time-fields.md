@@ -1,8 +1,8 @@
 ---
 title: Kuupäeva ja kellaaja väljade mõistmine
-description: Saate teada, mida oodata kuupäeva ja kellaaja väljade kasutamisel rakenduses Microsoft Dynamics 365 Human Resources. Saate selgust, mida oodata kuupäeva ja kellaaja andmetega suhtlemisel rakenduses Human Resources, välises allikas või teenuses Common Data Service.
-author: Darinkramer
-manager: AnnBe
+description: Saate teada, mida oodata kuupäeva ja kellaaja väljade kasutamisel rakenduses Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,21 +15,21 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d843eb8cefcd0f2f45c8956cd451f88ca6336efb
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529848"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130443"
 ---
-# <a name="understand-date-and-time-fields"></a>Kuupäeva ja kellaaja väljade mõistmine
+# <a name="understand-date-and-time-fields"></a>Kuupäeva ja kellaaja väljade ülevaade
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-**Kuupäeva ja kellaaja** väljad on põhimõiste rakenduses Dynamics 365 Human Resources. Oluline on mõista, kuidas töötada **kuupäeva ja kellaaja** andmetega rakenduse Dynamics 365 Human Resources vormidel, teenuses Common Data Service ja välistes allikates.
+**Kuupäeva ja kellaaja** väljad on põhimõiste rakenduses Dynamics 365 Human Resources. Oluline on mõista, kuidas töötada **Kuupäeva ja kellaaja** andmetega rakenduse Dataverse vormidel, teenuses ja välistes allikates.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Kuupäeva ja kuupäeva ning kellaaja andmetüüpide erinevuse mõistmine
 
@@ -41,39 +41,39 @@ Kui kuvate andmeid väljal **Kuupäev ja kellaaeg**, kohandab Human Resources ku
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Kuupäeva ja kellaaja väljadest arusaamine vormides 
 
-Andmete sisestamisel väljale **kuupäev ja kellaaeg** ei ole ekraanil kuvatavad andmed andmebaasi salvestatud andmetega samad, kui kasutaja ajavööndiks ei ole seatud UTC. **Kuupäeva ja kellaaja** väljade andmed talletatakse alati UTC-s.
+Ekraanil kuvatavad **kuupäev ja kellaaeg** ei ole andmebaasi salvestatud andmetega samad, kui kasutaja ajavööndiks ei ole seatud UTC. **Kuupäeva ja kellaaja** väljade andmed talletatakse alati UTC-s.
 
-[![Töötaja vorm](./media/worker-form.png)](./media/worker-form.png)
+[![Töötaja vormi UTC](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Kuupäeva ja kellaaja väljadest arusaamine andmebaasis 
 
 Kui Human Resources kirjutab andmebaasi **kuupäeva ja kellaaja** väärtuse, talletatakse andmed UTC-s. See võimaldab kasutajatel näha mis tahes **kuupäeva ja kellaaja** andmeid võrreldes nende kasutaja valikutes määratletud ajavööndiga.
  
-Ülaltoodud näites on algusaeg ajahetk, mitte konkreetne kuupäev. Muutes sisselogitud kasutaja ajavööndit GMT + 12:00 kuni GMT UTC, näitab just loodud kirje 05/01/2019 12:00:00 asemel 04/30/2019 12:00:00.
+Ülaltoodud näites on algusaeg ajahetk, mitte konkreetne kuupäev. Muutes sisselogitud kasutaja ajavööndit GMT + 12:00 kuni GMT UTC, näitab kirje 05/01/2019 12:00:00 asemel 04/30/2019 12:00:00.
   
 Alltoodud näites muutub töötaja 000724 töösuhe aktiivseks samal ajal, sõltumata ajavööndist. Töötaja on aktiivne 04/30/2019 GMT ajavööndis, mis on sama, mis 05/01/2019 GMT + 12:00-ajavöönd. Mõlemad viitavad samale ajale ja mitte kindlale kuupäevale. 
 
-[![Töötaja vorm](./media/worker-form2.png)](./media/worker-form2.png)
+[![Töötaja vormi GMT](./media/worker-form2.png)](./media/worker-form2.png)
 
-## <a name="date-and-time-data-in-data-management-framework-excel-common-data-service-and-power-bi"></a>Kuupäeva ja kellaaja andmed andmehaldusraamistikus, Excelis, ühises andmeteenuses Common Data Service ja teenuses Power BI. 
+## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Kuupäeva ja kellaaja andmed andmehaldusraamistikus, Excelis, ühises andmeteenuses Dataverse ja teenuses Power BI. 
 
-Andmete halduse raamistik, Exceli lisandmoodul, Common Data Service ja Power BI aruandlus on kõik loodud, et suhelda andmetega otse andmebaasi tasemel. Kuna puudub klient, kelle jaoks **kuupäeva ja kellaaja** andmeid kasutaja ajavööndiga korrigeerida, on kõik **kuupäeva ja kellaaja** väärtused UTC-s, mis võib põhjustada mõningaid valesid oletusi, kui sisestate või vaatate andmeid.  
+Andmete halduse raamistik, Exceli lisandmoodul, Dataverse ja Power BI aruandlus on kõik loodud, et suhelda andmetega otse andmebaasi tasemel. Kuna puudub klient, kelle jaoks **kuupäeva ja kellaaja** andmeid kasutaja ajavööndiga korrigeerida, on kõik **kuupäeva ja kellaaja** väärtused UTC-s, mis võib põhjustada mõningaid valesid oletusi, kui sisestate või vaatate andmeid.  
  
-**Kuupäeva ja kellaaja** andmete puhul, mis esitatakse DMFi kaudu, Excelis või teenuses Common Data Service, eeldatakse, et andmebaas on UTC-s. See võib tekitada segadust, kui esitatud **kuupäeva ja kellaaja** väärtust ei kuvata ootuspäraselt, kuna andmeid vaataval kasutajal pole kasutaja ajavööndiks seatud UTC. 
+**Kuupäeva ja kellaaja** andmete puhul, mis esitatakse DMFi kaudu, Excelis või teenuses Dataverse, eeldatakse, et andmebaas on UTC-s. See võib tekitada segadust, kui esitatud **kuupäeva ja kellaaja** väärtust ei kuvata ootuspäraselt, kuna andmeid vaataval kasutajal pole kasutaja ajavööndiks seatud UTC. 
  
 Sama asi võib juhtuda, kui andmeid eksporditakse vastupidiselt. Eksporditud DMF-üksuse **kuupäeva ja kellaaga** andmed võivad olla erinevad sellest, mis kuvatakse Dynamics clientis. 
  
-Kui kasutate välisallikaid, nagu DMF, et vaadata või luua andmeid, on oluline meeles pidada, et **kuupäeva ja kellaaja** väärtusi arvestatakse vaikimisi UTC-s, hoolimata kasutaja arvuti või selle praeguse kasutaja ajavööndi sätete ajavööndist. 
+Kui kasutate välisallikaid, nagu DMF, et vaadata või luua andmeid, pidage meeles, et **kuupäeva ja kellaaja** väärtusi arvestatakse vaikimisi UTC-s, hoolimata kasutaja arvuti või selle praeguse kasutaja ajavööndi sätete ajavööndist. 
 
 ## <a name="examples-of-the-same-record-being-displayed-in-different-product-areas"></a>Erinevates tootepiirkondades kuvatud sama kirje näited 
 
 **Rakenduse Human Resources kasutaja ajavööndiks on seatud UTC**
 
-[![Töötaja vorm](./media/worker-form3.png)](./media/worker-form3.png)
+[![Töötaja vorm seatud UTC-le](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Rakenduse Human Resources kasutaja ajavööndiks on seatud GMT +12.00** 
 
-[![Töötaja vorm](./media/worker-form4.png)](./media/worker-form4.png)
+[![Töötaja vorm seatud GMT-le](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel OData kaudu**
 
@@ -85,16 +85,13 @@ Kui kasutate välisallikaid, nagu DMF, et vaadata või luua andmeid, on oluline 
 
 **DMFi eksport**
 
-[![DMFi ajastamine](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF eksport](./media/DMFexport.png)](./media/DMFexport.png)
 
-**Excel läbi Common Data Service**
+**Excel läbi Dataverse**
 
-[![Excel läbi Common Data Service](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel läbi Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Vt ka
 
 [Kuupäev ja kellaaeg](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Kasutaja eelistatud ajavöönd](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

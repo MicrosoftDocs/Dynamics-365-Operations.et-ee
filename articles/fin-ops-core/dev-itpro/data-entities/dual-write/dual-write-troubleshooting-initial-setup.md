@@ -1,6 +1,6 @@
 ---
-title: Probleemide tõrkeotsing esmase häälestamise ajal
-description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada topeltkirjutuse esmasel häälestamisel ilmnevaid probleeme Finance and Operationsi rakenduste ja Dataverse'i vahel.
+title: Tõrkeotsingu probleemid algse häälestuse ajal
+description: See teema annab teavet, mis võib aidata lahendada probleeme, mis ilmnevad topeltkirjutuse esialgse häälestamise käigus.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685582"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129977"
 ---
-# <a name="troubleshoot-issues-during-initial-setup"></a>Probleemide tõrkeotsing esmase häälestamise ajal
+# <a name="troubleshoot-issues-during-initial-setup"></a>Tõrkeotsingu probleemid algse häälestuse ajal
 
 [!include [banner](../../includes/banner.md)]
 
@@ -71,13 +71,13 @@ Rakenduse nõusoleku andmiseks toimige järgmiselt.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Veenduge, et ettevõtte andmed ja topeltkirjutuse meeskonnad on linkimisel õigesti häälestatud
 
-Tagamaks, et topeltkirjutus töötaks õigesti, luuakse konfiguratsiooni ajal valitud ettevõtted Dataverse'i keskkonnas. Vaikimisi on need ettevõtted kirjutuskaitstud ja atribuudi **IsDualWriteEnable** väärtuseks on seatud **Tõene**. Lisaks luuakse vaikimisi omanikust äriüksuse omanik ja meeskond ning kaasatakse ettevõtte nimi. Enne vastenduste lubamist kontrollige, kas meeskonna vaikeomanik on määratud. Üksuse **Ettevõtted (CDM\_Company)** leidmiseks toimige järgmiselt.
+Tagamaks, et topeltkirjutus töötaks õigesti, luuakse konfiguratsiooni ajal valitud ettevõtted Dataverse'i keskkonnas. Vaikimisi on need ettevõtted kirjutuskaitstud ja atribuudi **IsDualWriteEnable** väärtuseks on seatud **Tõene**. Lisaks luuakse vaikimisi omanikust äriüksuse omanik ja meeskond ning kaasatakse ettevõtte nimi. Enne vastenduste lubamist kontrollige, kas meeskonna vaikeomanik on määratud. Tabeli **Ettevõtted (CDM\_Company)** leidmiseks toimige järgmiselt.
 
 1. Valige filter Dynamics 365 mudeljuhitud rakenduse paremas ülanurgas.
 2. Valige ripploendist **Ettevõte**.
 3. Tulemuste nägemiseks valige **Käivita**.
 4. Valige ettevõte, mis oli topeltkirjutuse konfigureerimisel lingitud.
-5. Veenduge, et väljal **Vaikeomanikust meeskond** oleks väärtus. Järgmisel joonisel on välja **Vaikeomanikust meeskond** väärtuseks seatud **USMF topeltkirjutus**.
+5. Veenduge, et veerus **Vaikeomanikust meeskond** oleks väärtus. Järgmisel joonisel on veeru **Vaikeomanikust meeskond** väärtuseks seatud **USMF topeltkirjutus**.
 
     ![Vaikeomanikust meeskonna kontrollimine](media/default_owning_team.png)
 
@@ -88,6 +88,3 @@ Kui proovite lubada vastendusi, võidakse kuvada järgmine tõrketeade.
 *Topeltkirjutuse tõrge – lisandmooduli registreerimine nurjus: \[(Osavastendust ei saanud tuua projektile DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Tõrge ületab maksimaalse lubatud psade arvu vastendusele DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Ilmnes üks või mitu tõrget.*
 
 Praegune piirang keskkondade linkimiseks on umbes 40 juriidilist tabelit. See tõrge ilmneb, kui proovite lubada vastendusi ja rohkem kui 40 juriidilist tabelit on lingitud keskkondade vahel.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
