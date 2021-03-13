@@ -2,7 +2,7 @@
 title: Puhkuse ostmine ja müümine
 description: Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -18,38 +18,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab97803f1c961e3edd298b483cbea5345ef093f5
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418228"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115314"
 ---
-# <a name="buy-and-sell-leave"></a><span data-ttu-id="d88c6-103">Puhkuse ostmine ja müümine</span><span class="sxs-lookup"><span data-stu-id="d88c6-103">Buy and sell leave</span></span>
+# <a name="buy-and-sell-leave"></a><span data-ttu-id="e236c-103">Puhkuse ostmine ja müümine</span><span class="sxs-lookup"><span data-stu-id="e236c-103">Buy and sell leave</span></span>
 
-<span data-ttu-id="d88c6-104">Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.</span><span class="sxs-lookup"><span data-stu-id="d88c6-104">In Dynamics 365 Human Resources, you can submit requests to buy and sell leave based on the buy and sell leave policies set up by your company.</span></span>  
+<span data-ttu-id="e236c-104">Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.</span><span class="sxs-lookup"><span data-stu-id="e236c-104">In Dynamics 365 Human Resources, you can submit requests to buy and sell leave based on the buy and sell leave policies set up by your company.</span></span>  
 
-## <a name="request-to-buy-leave"></a><span data-ttu-id="d88c6-105">Puhkuse ostmise taotlus</span><span class="sxs-lookup"><span data-stu-id="d88c6-105">Request to buy leave</span></span>
+## <a name="request-to-buy-leave"></a><span data-ttu-id="e236c-105">Puhkuse ostmise taotlus</span><span class="sxs-lookup"><span data-stu-id="e236c-105">Request to buy leave</span></span>
 
-1. <span data-ttu-id="d88c6-106">Tööruumis **Töövõtja iseteenindus** valige suvand **Puhkuse ostmise taotlemine** paanil **Vaba aja saldod**.</span><span class="sxs-lookup"><span data-stu-id="d88c6-106">In the **Employee self service** workspace, select **Buy leave request** in the **Time Off Balances** tile.</span></span> 
+1. <span data-ttu-id="e236c-106">Tööruumis **Töövõtja iseteenindus** valige suvand **Puhkuse ostmise taotlemine** paanil **Vaba aja saldod**.</span><span class="sxs-lookup"><span data-stu-id="e236c-106">In the **Employee self service** workspace, select **Buy leave request** in the **Time Off Balances** tile.</span></span> 
 
-2. <span data-ttu-id="d88c6-107">Lisage **Puhkuse tüüp** ja sisestage **Summa**, mille eest soovite puhkust osta.</span><span class="sxs-lookup"><span data-stu-id="d88c6-107">Add a **Leave type** and enter an **Amount** for the amount of leave you'd like to buy.</span></span> 
+2. <span data-ttu-id="e236c-107">Lisage **Puhkuse tüüp** ja sisestage **Summa**, mille eest soovite puhkust osta.</span><span class="sxs-lookup"><span data-stu-id="e236c-107">Add a **Leave type** and enter an **Amount** for the amount of leave you'd like to buy.</span></span> 
 
-3. <span data-ttu-id="d88c6-108">Kui olete taotluse esitamiseks valmis, valige suvand **Esita**.</span><span class="sxs-lookup"><span data-stu-id="d88c6-108">Select **Submit** when you're ready to submit your request.</span></span> 
+3. <span data-ttu-id="e236c-108">Kui olete taotluse esitamiseks valmis, valige suvand **Esita**.</span><span class="sxs-lookup"><span data-stu-id="e236c-108">Select **Submit** when you're ready to submit your request.</span></span> 
 
-<span data-ttu-id="d88c6-109">Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendamist kinnitustoimingu.</span><span class="sxs-lookup"><span data-stu-id="d88c6-109">Your balances will either automatically update or go through an approval process before updating.</span></span> <span data-ttu-id="d88c6-110">See oleneb sellest, kuidas on ostupoliitika konfigureeritud.</span><span class="sxs-lookup"><span data-stu-id="d88c6-110">This depends on how the buy policy has been configured.</span></span>
+<span data-ttu-id="e236c-109">Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendamist kinnitustoimingu.</span><span class="sxs-lookup"><span data-stu-id="e236c-109">Your balances will either automatically update or go through an approval process before updating.</span></span> <span data-ttu-id="e236c-110">See oleneb sellest, kuidas on ostupoliitika konfigureeritud.</span><span class="sxs-lookup"><span data-stu-id="e236c-110">This depends on how the buy policy has been configured.</span></span>
 
-## <a name="request-to-sell-leave"></a><span data-ttu-id="d88c6-111">Puhkuse müümise taotlus</span><span class="sxs-lookup"><span data-stu-id="d88c6-111">Request to sell leave</span></span>
+## <a name="request-to-sell-leave"></a><span data-ttu-id="e236c-111">Puhkuse müümise taotlus</span><span class="sxs-lookup"><span data-stu-id="e236c-111">Request to sell leave</span></span>
 
-1. <span data-ttu-id="d88c6-112">Tööruumis **Töövõtja iseteenindus** valige suvand **Puhkuse müümise taotlemine** paanil **Vaba aja saldod**.</span><span class="sxs-lookup"><span data-stu-id="d88c6-112">In the **Employee self service** workspace, select **Sell leave request** in the **Time Off Balances** tile.</span></span> 
+1. <span data-ttu-id="e236c-112">Tööruumis **Töövõtja iseteenindus** valige suvand **Puhkuse müümise taotlemine** paanil **Vaba aja saldod**.</span><span class="sxs-lookup"><span data-stu-id="e236c-112">In the **Employee self service** workspace, select **Sell leave request** in the **Time Off Balances** tile.</span></span> 
 
-2. <span data-ttu-id="d88c6-113">Lisage **Puhkuse tüüp** ja sisestage **Summa**, mille eest soovite puhkust müüa.</span><span class="sxs-lookup"><span data-stu-id="d88c6-113">Add a **Leave type** and enter an **Amount** for the amount of leave you'd like to sell.</span></span> 
+2. <span data-ttu-id="e236c-113">Lisage **Puhkuse tüüp** ja sisestage **Summa**, mille eest soovite puhkust müüa.</span><span class="sxs-lookup"><span data-stu-id="e236c-113">Add a **Leave type** and enter an **Amount** for the amount of leave you'd like to sell.</span></span> 
 
-3. <span data-ttu-id="d88c6-114">Kui olete taotluse esitamiseks valmis, valige suvand **Esita**.</span><span class="sxs-lookup"><span data-stu-id="d88c6-114">Select **Submit** when you're ready to submit your request.</span></span>
+3. <span data-ttu-id="e236c-114">Kui olete taotluse esitamiseks valmis, valige suvand **Esita**.</span><span class="sxs-lookup"><span data-stu-id="e236c-114">Select **Submit** when you're ready to submit your request.</span></span>
 
-<span data-ttu-id="d88c6-115">Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendamist kinnitustoimingu.</span><span class="sxs-lookup"><span data-stu-id="d88c6-115">Your balances will either automatically update or go through an approval process before updating.</span></span> <span data-ttu-id="d88c6-116">See oleneb sellest, kuidas on ostupoliitika konfigureeritud.</span><span class="sxs-lookup"><span data-stu-id="d88c6-116">This depends on how the buy policy has been configured.</span></span>
+<span data-ttu-id="e236c-115">Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendamist kinnitustoimingu.</span><span class="sxs-lookup"><span data-stu-id="e236c-115">Your balances will either automatically update or go through an approval process before updating.</span></span> <span data-ttu-id="e236c-116">See oleneb sellest, kuidas on ostupoliitika konfigureeritud.</span><span class="sxs-lookup"><span data-stu-id="e236c-116">This depends on how the buy policy has been configured.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d88c6-117">Vt ka</span><span class="sxs-lookup"><span data-stu-id="d88c6-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e236c-117">Vt ka</span><span class="sxs-lookup"><span data-stu-id="e236c-117">See also</span></span>
 
-[<span data-ttu-id="d88c6-118">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="d88c6-118">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)</br>
-[<span data-ttu-id="d88c6-119">Puhkuse ostu ja müügi poliitikate haldamine</span><span class="sxs-lookup"><span data-stu-id="d88c6-119">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[<span data-ttu-id="e236c-118">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="e236c-118">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)</br>
+[<span data-ttu-id="e236c-119">Puhkuse ostu ja müügi poliitikate haldamine</span><span class="sxs-lookup"><span data-stu-id="e236c-119">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)

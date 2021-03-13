@@ -2,7 +2,7 @@
 title: Eelmise küsimuse vastusest sõltuva küsimuse koostamine
 description: Tingimuslike küsimuste abil saate määrata, milliseid järelküsimusi vastajale eelmise küsimuse vastuse põhjal esitatakse.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,48 +11,48 @@ ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67dac872d6dc3a5046f5d554b1f185aa6607d193
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418223"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115000"
 ---
-# <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a><span data-ttu-id="9b870-103">Eelmise küsimuse vastusest sõltuva küsimuse koostamine</span><span class="sxs-lookup"><span data-stu-id="9b870-103">Make a question dependent on the answer of the previous question</span></span>
+# <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a><span data-ttu-id="be287-103">Eelmise küsimuse vastusest sõltuva küsimuse koostamine</span><span class="sxs-lookup"><span data-stu-id="be287-103">Make a question dependent on the answer of the previous question</span></span>
 
 
 
-<span data-ttu-id="9b870-104">Tingimuslike küsimuste abil saate määrata, milliseid järelküsimusi vastajale eelmise küsimuse vastuse põhjal esitatakse.</span><span class="sxs-lookup"><span data-stu-id="9b870-104">Conditional questions allow you to specify what follow-up question will be presented to a respondent, based on the answer to the preceding question.</span></span> <span data-ttu-id="9b870-105">Näiteks kui küsite Kas eelistate kohvi või teed?, saab loogilise järelküsimuse määrata olenevalt sellest, kas vastaja valib vastuseks kohvi või tee.</span><span class="sxs-lookup"><span data-stu-id="9b870-105">For example, if you ask "Do you prefer coffee or tea," a logical follow-up question can be determined depending on whether the respondent selects coffee or tea as their answer.</span></span> <span data-ttu-id="9b870-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="9b870-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="be287-104">Tingimuslike küsimuste abil saate määrata, milliseid järelküsimusi vastajale eelmise küsimuse vastuse põhjal esitatakse.</span><span class="sxs-lookup"><span data-stu-id="be287-104">Conditional questions allow you to specify what follow-up question will be presented to a respondent, based on the answer to the preceding question.</span></span> <span data-ttu-id="be287-105">Näiteks kui küsite Kas eelistate kohvi või teed?, saab loogilise järelküsimuse määrata olenevalt sellest, kas vastaja valib vastuseks kohvi või tee.</span><span class="sxs-lookup"><span data-stu-id="be287-105">For example, if you ask "Do you prefer coffee or tea," a logical follow-up question can be determined depending on whether the respondent selects coffee or tea as their answer.</span></span> <span data-ttu-id="be287-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="be287-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="find-the-existing-questionnaire"></a><span data-ttu-id="9b870-107">Olemasoleva küsimustiku leidmine</span><span class="sxs-lookup"><span data-stu-id="9b870-107">Find the existing questionnaire</span></span>
-1. <span data-ttu-id="9b870-108">Avage Küsimustik > Kujundus > Küsimustikud.</span><span class="sxs-lookup"><span data-stu-id="9b870-108">Go to Questionnaire > Design > Questionnaires.</span></span>
-2. <span data-ttu-id="9b870-109">Valige loendist küsimustik WorkFH.</span><span class="sxs-lookup"><span data-stu-id="9b870-109">In the list, select the WorkFH questionnaire.</span></span>
+## <a name="find-the-existing-questionnaire"></a><span data-ttu-id="be287-107">Olemasoleva küsimustiku leidmine</span><span class="sxs-lookup"><span data-stu-id="be287-107">Find the existing questionnaire</span></span>
+1. <span data-ttu-id="be287-108">Avage Küsimustik > Kujundus > Küsimustikud.</span><span class="sxs-lookup"><span data-stu-id="be287-108">Go to Questionnaire > Design > Questionnaires.</span></span>
+2. <span data-ttu-id="be287-109">Valige loendist küsimustik WorkFH.</span><span class="sxs-lookup"><span data-stu-id="be287-109">In the list, select the WorkFH questionnaire.</span></span>
 
-## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a><span data-ttu-id="9b870-110">Kõikide küsimuste ja alamküsimuste lisamine küsimustikku</span><span class="sxs-lookup"><span data-stu-id="9b870-110">Add all questions and sub-questions to the Questionnaire</span></span>
-1. <span data-ttu-id="9b870-111">Klõpsake suvandit Küsimused.</span><span class="sxs-lookup"><span data-stu-id="9b870-111">Click Questions.</span></span>
-2. <span data-ttu-id="9b870-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9b870-112">Click New.</span></span>
-3. <span data-ttu-id="9b870-113">Valige küsimus number 00016 väljalt Küsimus.</span><span class="sxs-lookup"><span data-stu-id="9b870-113">In the Question field, select question number 00016.</span></span>
-4. <span data-ttu-id="9b870-114">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="9b870-114">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="9b870-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="9b870-115">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="9b870-116">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9b870-116">Click Save.</span></span>
-7. <span data-ttu-id="9b870-117">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="9b870-117">Close the page.</span></span>
+## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a><span data-ttu-id="be287-110">Kõikide küsimuste ja alamküsimuste lisamine küsimustikku</span><span class="sxs-lookup"><span data-stu-id="be287-110">Add all questions and sub-questions to the Questionnaire</span></span>
+1. <span data-ttu-id="be287-111">Klõpsake suvandit Küsimused.</span><span class="sxs-lookup"><span data-stu-id="be287-111">Click Questions.</span></span>
+2. <span data-ttu-id="be287-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="be287-112">Click New.</span></span>
+3. <span data-ttu-id="be287-113">Valige küsimus number 00016 väljalt Küsimus.</span><span class="sxs-lookup"><span data-stu-id="be287-113">In the Question field, select question number 00016.</span></span>
+4. <span data-ttu-id="be287-114">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="be287-114">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="be287-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="be287-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="be287-116">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="be287-116">Click Save.</span></span>
+7. <span data-ttu-id="be287-117">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="be287-117">Close the page.</span></span>
 
-## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a><span data-ttu-id="9b870-118">Küsimustiku järjestuse määramine tingimuslikuks ja küsimuse muutmine asjakohasest küsimusest sõltuvaks</span><span class="sxs-lookup"><span data-stu-id="9b870-118">Set the Questionnaire Sequence to Conditional and make the question dependent on the appropriate question</span></span>
-1. <span data-ttu-id="9b870-119">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="9b870-119">Click Edit.</span></span>
-2. <span data-ttu-id="9b870-120">Laiendage jaotist Seadistus.</span><span class="sxs-lookup"><span data-stu-id="9b870-120">Expand the Setup section.</span></span>
-3. <span data-ttu-id="9b870-121">Valige väljalt Küsimuste järjekord suvand Tingimuslik.</span><span class="sxs-lookup"><span data-stu-id="9b870-121">In the Question order field, select 'Conditional'.</span></span>
-4. <span data-ttu-id="9b870-122">Klõpsake suvandit Tinglik küsimus.</span><span class="sxs-lookup"><span data-stu-id="9b870-122">Click Conditional question.</span></span>
-5. <span data-ttu-id="9b870-123">Valige puult suvand Küsimused\selgitage, miks vastasite eelmisele küsimusele selliselt?.</span><span class="sxs-lookup"><span data-stu-id="9b870-123">In the tree, select 'Questions\Explain why you answered the previous question the way you did?'.</span></span>
-6. <span data-ttu-id="9b870-124">Valige küsimus 00009 väljalt Esmane küsimus.</span><span class="sxs-lookup"><span data-stu-id="9b870-124">In the Primary question field, select question 00009</span></span>
-7. <span data-ttu-id="9b870-125">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="9b870-125">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="9b870-126">Sisestage väljale Vastus see vastuse suvandi vastuse seeria ID, millest soovite küsimuse sõltuvaks teha.</span><span class="sxs-lookup"><span data-stu-id="9b870-126">In the Answer field, enter the answer sequence ID of the answer option you want to make the question dependent on.</span></span> <span data-ttu-id="9b870-127">Näiteks sisestage esimese vastuse suvandi puhul 1.</span><span class="sxs-lookup"><span data-stu-id="9b870-127">For example, enter 1 for the first answer option.</span></span>
-9. <span data-ttu-id="9b870-128">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9b870-128">Click Save.</span></span>
-10. <span data-ttu-id="9b870-129">Valige puul suvand Küsimused\mulle makstakse tehtava töö eest õiglast tasu.</span><span class="sxs-lookup"><span data-stu-id="9b870-129">In the tree, select 'Questions\I am paid fairly for the work I do.'.</span></span>
-    * <span data-ttu-id="9b870-130">Pange tähele, et küsimuse puud värskendatakse sõltuvuse näitamiseks.</span><span class="sxs-lookup"><span data-stu-id="9b870-130">Note that the question tree updated to show the dependency.</span></span>  
+## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a><span data-ttu-id="be287-118">Küsimustiku järjestuse määramine tingimuslikuks ja küsimuse muutmine asjakohasest küsimusest sõltuvaks</span><span class="sxs-lookup"><span data-stu-id="be287-118">Set the Questionnaire Sequence to Conditional and make the question dependent on the appropriate question</span></span>
+1. <span data-ttu-id="be287-119">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="be287-119">Click Edit.</span></span>
+2. <span data-ttu-id="be287-120">Laiendage jaotist Seadistus.</span><span class="sxs-lookup"><span data-stu-id="be287-120">Expand the Setup section.</span></span>
+3. <span data-ttu-id="be287-121">Valige väljalt Küsimuste järjekord suvand Tingimuslik.</span><span class="sxs-lookup"><span data-stu-id="be287-121">In the Question order field, select 'Conditional'.</span></span>
+4. <span data-ttu-id="be287-122">Klõpsake suvandit Tinglik küsimus.</span><span class="sxs-lookup"><span data-stu-id="be287-122">Click Conditional question.</span></span>
+5. <span data-ttu-id="be287-123">Valige puult suvand Küsimused\selgitage, miks vastasite eelmisele küsimusele selliselt?.</span><span class="sxs-lookup"><span data-stu-id="be287-123">In the tree, select 'Questions\Explain why you answered the previous question the way you did?'.</span></span>
+6. <span data-ttu-id="be287-124">Valige küsimus 00009 väljalt Esmane küsimus.</span><span class="sxs-lookup"><span data-stu-id="be287-124">In the Primary question field, select question 00009</span></span>
+7. <span data-ttu-id="be287-125">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="be287-125">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="be287-126">Sisestage väljale Vastus see vastuse suvandi vastuse seeria ID, millest soovite küsimuse sõltuvaks teha.</span><span class="sxs-lookup"><span data-stu-id="be287-126">In the Answer field, enter the answer sequence ID of the answer option you want to make the question dependent on.</span></span> <span data-ttu-id="be287-127">Näiteks sisestage esimese vastuse suvandi puhul 1.</span><span class="sxs-lookup"><span data-stu-id="be287-127">For example, enter 1 for the first answer option.</span></span>
+9. <span data-ttu-id="be287-128">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="be287-128">Click Save.</span></span>
+10. <span data-ttu-id="be287-129">Valige puul suvand Küsimused\mulle makstakse tehtava töö eest õiglast tasu.</span><span class="sxs-lookup"><span data-stu-id="be287-129">In the tree, select 'Questions\I am paid fairly for the work I do.'.</span></span>
+    * <span data-ttu-id="be287-130">Pange tähele, et küsimuse puud värskendatakse sõltuvuse näitamiseks.</span><span class="sxs-lookup"><span data-stu-id="be287-130">Note that the question tree updated to show the dependency.</span></span>  
 
