@@ -1,6 +1,6 @@
 ---
 title: Kasutaja eelistused finantsaruannete koosturis
-description: Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toimingute kohandamiseks finantsaruande koosturis ja juhtida algset sisselogimiskogemust. Saate juhtida ka eraldi aruannete, aruannete teegi ja failide vaikeasukohtade kuvamisviisi.
+description: Selles teemas kirjeldatakse, kuidas seadistada kasutaja eelistusi kasutaja toimingute kohandamiseks finantsaruande koosturis ja juhtida algset sisselogimiskogemust.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 46a681b3a783b4f76946d2a972d73a11254ec56c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687373"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093183"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>Kasutaja eelistused finantsaruannete koosturis
 
@@ -72,6 +72,3 @@ Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toim
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

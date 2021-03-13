@@ -3,14 +3,13 @@ title: Navigeerimismenüü moodul
 description: See teema hõlmab navigeerimismenüü mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
+ms.openlocfilehash: 65f8b6128b140f3fa776659d8920dfc5e095213f
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4411810"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097386"
 ---
 # <a name="navigation-menu-module"></a>Navigeerimismenüü moodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab navigeerimismenüü mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
 
 Navigeerimismenüü moodulite peamine eesmärk on võimaldada saidi kasutajatel sirvida tooteid ja saite vastavalt Dynamics 365 Commerce'i peakontoris määratletud kanali navigeerimishierarhiale. Navigeerimismenüü moodulis konfigureeritud üksused ilmuvad saidi päise navigeerimises. Navigeerimismenüü moodulid toetavad ka staatilisi menüü-üksusi, mis lingivad e-kaubanduse saidi muudele lehtedele.
 
@@ -46,7 +44,9 @@ Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüü näide, mil
 |---------------------------|-----------------------|-------------|
 | Allikas                  | **Jaemüük**, **Käsitsi koostamine**, **Jaemüük ja käsitsi koostamine** | Väärtus **Jaemüük** võimaldab navigeerimismenüüs kuvada kanali navigeerimishierarhia Commerce'i peakontorist. Väärtus **Käsitsi koostamine** võimaldab staatiliste menüüde üksusi kureerida. Väärtus **Jaemüük ja käsitsi koostamine** võimaldab mõlemat. |
 | Kategooria piltide kuvamine | **Tõene** või **Väär**    | Kui see on lubatud, kuvatakse navigeerimismenüüs kategooria pildid, nagu on määratletud iga kategooria kohta Commerce’i peakontoris. Lisatud Commerce'i väljalaskesse 10.0.14. |
-| Mitme tasemega navigeerimismenüü lubamine | **Tõene** või **Väär** | Kui see atribuut on lubatud, võib navigeerimismenüü kuvada navigeerimise hierarhia mitut taset. See funktsioon on saadaval Dynamics 365 Commerce'i versioonis 10.0.15. |
+| Kuva kampaaniad | **Tõene** või **Väär** | Kui see atribuut on lubatud, saab kampaaniaid konfigureerida piltide, linkide ja teksti abil. See atribuut lisati Commerce'i versiooni 10.0.17 väljalaskesse. |
+| Kampaaniate lisamine | Tekst, pilt või link | Kui atribuut **Kuva kampaaniad** on lubatud, saate lisada navigeerimismenüüst kampaaniasisuna teksti, pildi või lingi. |
+| Mitme tasemega navigeerimismenüü lubamine | **Tõene** või **Väär** | Kui see atribuut on lubatud, võib navigeerimismenüü kuvada navigeerimise hierarhia mitut taset. See funktsioon on saadaval Commerce'i versiooni 10.0.15 väljalaskes. |
 | Tasemete arv | täisarv | See atribuut määratleb tasemete numbrid, mis tuleb kuvada, kui atribuudi **Luba mitmetasandiline navigeerimismenüü** väärtuseks on seatud **Tõene**. |
 | Staatiline menüü-üksus| Väärtuste massiiv| Staatilised menüü-üksused, mis seostavad menüü-üksuse nime staatilise saidi lingiga. Menüü-üksusi saate luua muude menüü-üksuste all. Vaikimisi kuvatakse staatilised menüüd juuretasandil ja need lisatakse kanali navigeerimishierarhiasse, kui see on olemas. |
 | Juurmenüü kuvamine | **Tõene** või **Väär** | Kui see atribuut on lubatud, saab navigeerimismenüü määratleda kohandatud juure alusel (nt **Osta kohe**). See funktsioon on saadaval Dynamics 365 Commerce'i versioonis 10.0.15. |
@@ -72,6 +72,3 @@ Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüüs kuvatav ka
 [Küpsise vastavus](cookie-compliance.md)
 
 [Päisemoodul](author-header-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

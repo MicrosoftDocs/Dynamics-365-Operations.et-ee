@@ -3,7 +3,7 @@ title: Elektroonilise arvelduse lisandmooduli ülevaade
 description: See teema sisaldab teavet selle kohta, kuidas seadistada rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmoodulit.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4442542"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104204"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Elektroonilise arvelduse lisandmooduli ülevaade
 
@@ -45,9 +44,9 @@ Elektroonilise arvelduse lisandmoodul aitab teil saavutada järgmisi eesmärke.
 
 Elektroonilise arvelduse lisandmooduli kasutamiseks peate selle installima oma projektis rakenduses Microsoft Dynamics Lifecycle Services (LCS). Järgmiseks järgige seadistusjuhiseid, et lülitada sisse integratsioon rakendusega Finance või Supply Chain Management. Lisateavet leiate teemast [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Kättesaadavus
+## <a name="service-availability"></a><a name="availability"></a>Teenuse saadavus
 
-Esialgu on elektroonilise arvelduse lisandmoodul saadaval valitud klientidele eelversiooniprogrammi kaudu. Hiljem avatakse eelversioon rohkematele klientidele. Lõpuks muutub teenus üldiselt kättesaadavaks. Kuna riigi-/regioonipõhiste nõuetega seotud funktsioonid võivad olla väljalaske eri faasides piiratud, peaksite alati lugema kõige ajakohasemat dokumentatsiooni, milles käsitletakse toetatud riigi-/regioonipõhiste lahenduste ulatust.
+Praegu on elektroonilise arvelduse lisandmoodul saadaval klientidele eelvaateprogrammi kaudu ja järgmises faasis muutub teenus üldiselt kättesaadavaks. Kuna riigi-/regioonipõhiste nõuetega seotud funktsioonid võivad olla väljalaske eri faasides piiratud, peaksite alati lugema kõige ajakohasemat dokumentatsiooni, milles käsitletakse toetatud riigi-/regioonipõhiste lahenduste ulatust.
 
 Elektroonilise arvelduse lisandmoodul juurutatakse järgmistes Azure'i geograafilistes piirkondades.
 
@@ -76,7 +75,7 @@ Elektroonilise arvelduse lisandmoodulit saab kasutada olukordades, kus te peate 
     - Sisseehitatud, kergesti laiendatav ja konfigureeritav integratsioon täiendava sisuga mitme riigi jaoks
 
     > [!NOTE]
-    > Praegu toetatakse piiratud arvu otseedastusi. Lisateavet leiate selle teema varasemast jaotisest [Kättesaadavus](#availability). Toetust laiendatakse tulevikus.
+    > Praegu toetatakse piiratud arvu otseedastusi. Lisateavet leiate selle teema varasemast jaotisest [Teenuse saadavus](#availability). Toetust laiendatakse tulevikus.
 
 - Veebiteenuste vastuste haldamine, sh konfigureeritav eranditeadete haldamine
 - Elektrooniliste allkirjade tugi (nt allkirjastamise algoritmi XMLDSig abil)
@@ -104,15 +103,9 @@ Järgmisel illustratsioonil on kujutatud, kuidas andmed elektroonilise arvelduse
 ![Elektroonilise arvelduse lisandmooduli andmevoog](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
-Elektroonilise arvelduse lubamise ja kasutamise korral on võimalik, et saata tuleb piiratud andmeid, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata elektroonilisi arveid eelmääratletud vormingutes, mis on vajalikud integratsiooniks valitsuse veebiteenustega. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
+Elektroonilise arvelduse lisandmooduli lubamise ja kasutamise korral on võimalik, et saata tuleb piiratud andmeid, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata elektroonilisi arveid eelmääratletud vormingutes, mis on vajalikud integratsiooniks valitsuse veebiteenustega. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
 
 ## <a name="additional-resources"></a>Lisaressursid
-
-- [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md)
-- [Brasiilia elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-bra-get-started.md)
-- [Mehhiko elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-mex-get-started.md)
-- [Itaalia elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-ita-get-started.md)
-- [Elektroonilise arvelduse lisandmooduli seadistamine](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Teenuse haldus](e-invoicing-service-administration.md)
+- [Elektrooniliste arvete konfigureerimine RCS-is](e-invoicing-configuration-rcs.md)
+- [Elektroonilise arvete väljastamine teenustes Finance ja Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

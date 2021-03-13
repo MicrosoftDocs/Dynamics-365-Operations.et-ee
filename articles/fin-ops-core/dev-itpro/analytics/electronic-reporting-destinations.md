@@ -1,9 +1,9 @@
 ---
 title: Elektroonilise aruandluse (ER) sihtkohad
-description: See teema annab teavet elektroonilise aruandluse (ER) sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
+description: See teema annab teavet elektroonilise aruandluse sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687154"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097277"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -62,7 +62,7 @@ Kui seate kiirkaardi **Käivita taustal** dialoogiaknas **Intrastat-aruanne** su
 Kui seate suvandi **Partiitöötlus** väärtuseks **Jah**, siis käivitatakse ER-vorming [partiirežiimis](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Luuakse partiitöö, mis vastab parameetritele, mille olete sätestanud dialoogiakna **ER-parameetrid** vahekaardil **Käivita taustal**.
 
 > [!NOTE]
-> Käivitatakse töö kirjeldus, et anda teile teavet ER-vorminguvastenduse käitamise kohta. Samuti sisaldab see käivitatud ER komponendi nime.
+> Töö kirjeldus teavitab teid ER-vorminguvastenduse käitamise kohta. Samuti sisaldab see käitatud ER-i komponendi nime.
 
 [![ER-vormingu käitamine](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ Finance'i versioonides **enne versiooni 10.0.9** saate luua **ühe faili sihtkoh
 Näiteks saate kasutada seda võimalust failide sihtkohtade konfigureerimiseks sellise faili komponendi jaoks, mida kasutatakse väljamineva dokumendi loomiseks Exceli vormingus. Ühte sihtkohta ([arhiivi](er-destination-type-archive.md)) saab konfigureerida salvestama algse Exceli faili ER-tööde arhiivi ja teise sihtkohta ([meili](er-destination-type-email.md)) saab konfigureerida samaaegselt [teisendama](#OutputConversionToPDF) Exceli faili PDF-vormingusse ja saatma PDF-faili e-postiga.
 
 [![Ühele vormingu elemendile mitme sihtkoha konfigureerimine](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+ER-i vormingu käivitamisel käitatakse alati kõik vormingu komponentide jaoks konfigureeritud sihtkohad. Lisaks on rakenduse Finance **versioonis 10.0.17 ja uuemas** ER-i sihtkohtade funktsiooni parandatud ja nüüd võimaldab see ühe ER-i vormingu jaoks erinevad sihtkohtade komplektid. See konfiguratsioonimärk märgib iga komplekti konkreetse kasutaja tegevuseks konfigureerituks. ER-i API on [laiendatud](er-apis-app10-0-17.md), et võimalik oleks esitada kasutaja tehtav tegevus ER-i vormingut käitades. Esitatud tegevuse kood edastatakse ER-i sihtkohtadele. Olenevalt esitatud tegevuse koodist saate käitada ER-i vormingu jaoks erinevad sihtkohad. Lisateavet vt [Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine](er-action-dependent-destinations.md).
 
 ## <a name="destination-types"></a>Sihtkoha tüübid
 
@@ -154,7 +156,7 @@ Kui tühjendate märkeruudu **Lõpeta tõrke korral töötlemine** sihtkohas kom
 
 ## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Väljundi teisendamine PDF-iks
 
-Saate kasutada PDF-vormingu valikut väljundi teisendamiseks Microsoft Office'i vormingust (Excel/Word) PDF-vormingusse.
+Saate kasutada PDF-i teisendamise valikut väljundi teisendamiseks Microsoft Office’i (Excel või Word) vormingust PDF-vormingusse.
 
 ### <a name="make-pdf-conversion-available"></a>PDF-i teisendamise kättesaadavaks tegemine
 
@@ -164,21 +166,20 @@ PDF-i teisenduse võimaluse kättesaadavaks tegemiseks praeguses Finance'i eksem
 
 ### <a name="applicability"></a>Kohaldatavus
 
-PDF-i teisenduse valikut saab sisse lülitada ainult faili komponentide puhul, mida kasutatakse väljundi loomiseks Microsoft Office Exceli või Wordi vormingus (**Exceli fail**). Kui see võimalus on sisse lülitatud, teisendatakse Office'i vormingus loodud väljund automaatselt PDF-vormingusse.
+PDF-i teisenduse valikut saab sisse lülitada ainult faili komponentide puhul, mida kasutatakse väljundi loomiseks Office’i (Excel või Word) vormingus (**Exceli fail**). Kui see võimalus on sisse lülitatud, teisendatakse Office'i vormingus loodud väljund automaatselt PDF-vormingusse.
 
 ### <a name="limitations"></a>Kitsendused
 
 > [!NOTE]
 > See funktsioon on eelvaate funktsioon ja seda kasutatakse tingimustes, mida on kirjeldatud teemas [Microsoft Dynamics 365 eelvaadete kasutamise täiendavad tingimused](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> PDF-i teisenduse valik on saadaval ainult pilvejuurutustes.
->
-> Toodetud PDF-fail on piiratud maksimaalselt 300 leheküljega.
->
-> Microsoft Dynamics 365 Finance'i versioonis 10.0.9 (aprill 2020) toetatakse Exceli väljundist loodud PDF-dokumendi juures ainult horisontaalpaigutust. Dynamics 365 Finance'i versiooni 10.0.10 (mai 2020) väljalaskega saate [sätestada lehe paigutuse](#SelectPdfPageOrientation) PDF-dokumendis, mis on loodud ER-i sihtkoha konfigureerimisel Exceli väljundi põhjal.
->
-> Väljundi teisendamisel kasutatakse ainult tavalisi Windowsi operatsioonisüsteemi süsteemifonte, mis ei sisalda manustatud fonte.
+PDF-i teisenduse valik on saadaval ainult pilvejuurutustes.
+
+Toodetud PDF-dokument on piiratud maksimaalsele pikkusele 300 lehekülge.
+
+Rakenduse Finance **versioonis 10.0.9** toetatakse Exceli väljundist loodud PDF-dokumendi juures ainult horisontaalpaigutust. Rakenduse Finance **versioonis 10.0.10 (mai 2020) ja uuemas** saate PDF-dokumendis [määrata lehepaigutuse](#SelectPdfPageOrientation), mis on loodud ER-i sihtkoha konfigureerimisel Exceli väljundi põhjal.
+
+Väljundi teisendamisel kasutatakse ainult tavalisi Windowsi operatsioonisüsteemi süsteemifonte, mis ei sisalda manustatud fonte.
 
 ### <a name="use-the-pdf-conversion-option"></a>PDF-teisenduse suvandi kasutamine
 
@@ -188,16 +189,16 @@ Faili sihtkoha jaoks PDF-teisenduse sisselülitamiseks valige märkeruut **Teise
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">PDF-i teisenduse lehe paigutuse valimine</a>
 
-Kui loote Exceli vormingus ER-konfiguratsiooni ja soovite selle teisendada PDF-vormingusse, saate määrata PDF-i lehe paigutuse. Kui märgite ruudu **Teisenda PDF-iks**, et lülitada sisse PDF-faili teisendamine faili sihtkoha jaoks, mis toodab väljundfaili Exceli vormingus, on väli **Lehe paigutus** saadaval kiirkaardil **PDF-i teisenduse sätted**. Valige väljal **Lehe paigutus** soovitud lehe paigutus.
+Kui loote Exceli vormingus ER-konfiguratsiooni ja soovite selle teisendada PDF-vormingusse, saate määrata PDF-dokumendi paigutuse. Kui märgite ruudu **Teisenda PDF-iks**, et lülitada sisse PDF-faili teisendamine faili sihtkoha jaoks, mis toodab väljundfaili Exceli vormingus, on väli **Lehe paigutus** saadaval kiirkaardil **PDF-i teisenduse sätted**. Valige väljal **Lehe paigutus** soovitud lehe paigutus.
 
 [![PDF-i teisenduse lehe paigutuse valimine](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Selleks, et saaksite valida PDF-i lehe paigutust, peate installima Microsoft Dynamics 365 Finance'i versiooni 10.0.10 (mai 2020) või uuema.
+> Selleks, et saaksite valida PDF-i lehe paigutust, peate installima rakenduse Finance versiooni 10.0.10 või uuema.
 >
 > Valitud lehe paigutus rakendatakse kõigile ER-konfiguratsioonidele, mis luuakse Exceli vormingus ja seejärel teisendatakse PDF-vormingusse.
 >
-> Kui teisendatud PDF luuakse Wordi vormingus ER-konfiguratsioonist, võetakse PDF-i lehe paigutus Wordi dokumendist.
+> Kui Wordi vormingus ER-i konkonfiguratsioon teisendatakse PDF-vormingusse, võetakse PDF-dokumendi lehe paigutus Wordi dokumendist.
 
 ## <a name="security-considerations"></a>Turbemeetmed
 
@@ -225,7 +226,7 @@ Nr Kasutatakse Microsoft Azurei bloobimälu vaikeväärtust, mis on dokumendihal
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Mis on failisihtkoha otstarve sihtkoha sätetes? Mida see seadistus teeb?
 
-Sihtkohta **Fail** kasutatakse dialoogiboksi juhtimiseks. Kui lubate selle sihtkoha või kui konfiguratsioonile pole määratletud ühtki sihtkohta, näete pärast väljundfaili loomist salvestamise või avamise dialoogiboksi.
+Sihtkohta **Fail** kasutatakse teie veebibrauseri dialoogiboksi juhtimiseks, kui käitate ER-vormingu interaktiivses režiimis. Kui lubate selle sihtkoha või kui konfiguratsioonile pole määratletud ühtki sihtkohta, näete pärast väljundfaili loomist oma veebibrauseris salvestamise või avamise dialoogiboksi.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Kas oskate tuua näite valemi kohta, mis viitab hankija kontole, kuhu saan meili saata?
 
@@ -239,5 +240,4 @@ Teie vorming peab kõigepealt olema ER-i konfiguratsioonide hulgas kättesaadav.
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine](er-action-dependent-destinations.md)

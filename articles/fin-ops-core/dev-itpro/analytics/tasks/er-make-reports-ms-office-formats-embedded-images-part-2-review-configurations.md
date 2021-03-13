@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsioonide ülevaatamine aruannete loomiseks Office’i vormingus koos manuspiltidega
-description: "Toimingute teostamiseks peab esmalt täitma juhendis „ER MS Office'i vormingutes manuspiltidega aruannete koostamine (1. osa: parameetrite häälestamine)” toodud toimingud."
+description: Selles teemas kirjeldatakse, kuidas kujundada aruandluse konfiguratsioone elektrooniliste dokumentide loomiseks, mis sisaldavad manuspilte. (1. osa – näitajate häälestamine).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3eee6300350dd96c34f2eab44704d1895e6171ff
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684351"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093641"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Konfiguratsioonide ülevaatamine aruannete loomiseks Office’i vormingus koos manuspiltidega
 
@@ -91,6 +91,3 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
     * Mõned eelprinditud tšekivormidel olevad sildid kaasatakse aruandesse selle testimise eesmärgil loomisel. Neid silte aga ei prindita reaalse printimise ajal, kuna eelprinditud vorm juba sisaldab neid.  
 15. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

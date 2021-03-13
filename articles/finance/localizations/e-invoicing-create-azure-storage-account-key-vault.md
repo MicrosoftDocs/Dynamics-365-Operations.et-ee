@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4442543"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104225"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure'i salvestusruumi konto ja võtmehoidla loomine
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Elektroonilise arvelduse lisandmooduli teenus vastutab kõigi teie äriandmete talletamise eest Microsoft Azure'i ressurssides, mis kuuluvad teie ettevõttele. Et teenus töötaks korrektselt ning kõikidele äriandmetele, mida elektroonilise arvelduse lisandmoodul vajab ja kasutab, pääseks juurde vaid see lisandmoodul, peate looma kaks peamist Azure'i ressurssi.
-
-- Azure'i salvestusruumi konto (bloobimälu) elektrooniliste arvete talletamiseks
-- Azure'i võtmehoidla sertide ja salvestusruumi konto ühtse ressursi-indikaatori (URI) talletamiseks
-
-> [!NOTE]
-> Elektroonilise arvelduse lisandmooduli jaoks tuleb määrata sihtotstarbeline võtmehoidla ressurss ja kliendi bloobimälu.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -91,6 +80,3 @@ Selles teemas läbite kaks peamist sammu.
 9. Valige subjekt dialoogiboksis **Subjekt** **elektroonilise arvelduse lisandmooduli** lisamise kaudu.
 10. Valige **Lisa** ja seejärel valige **Salvesta võtmehoidla muudatused**.
 11. Kopeerige lehel **Ülevaade** võtmehoidla väärtus **DNS-i nimi**. Seda väärtust kasutatakse teenuse seadistamisel RCS-is ja sellele viidatakse kui *võtmehoidla URI-le*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

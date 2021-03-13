@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. Vormingu konfigureerimine loendamiseks ja liitmiseks (1. osa – vormingu loomine)
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu loendamiseks ja liitmiseks juba loodud tekstiväljundi andmete põhjal.
+description: Selles teemas kirjeldatakse, kuidas konfigureerida elektroonilise aruandluse vormingut juba loodud tekstiväljundi andmete põhjal loendama ja liitma. (1. osa)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1742582057cc912d8e6f90eb14e9e4cdcd193608
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7a3639b5ac28f8a571642e983906d658dabf05b1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684711"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093018"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>Elektrooniline aruandlus. Vormingu konfigureerimine loendamiseks ja liitmiseks (1. osa – vormingu loomine)
 
@@ -56,6 +56,3 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 8. Laiendage puul valikut Intrastati mudel.
 9. Valige puult Intrastati mudel \ Intrastat (DE).
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

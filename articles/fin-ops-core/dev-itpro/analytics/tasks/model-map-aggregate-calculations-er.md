@@ -1,6 +1,6 @@
 ---
 title: Mudelivastenduse konfiguratsioonide kasutamine koondarvutusteks andmebaasi tasemel
-description: See protseduur annab teavet selle kohta, kuidas kujundada uue elektroonilise aruandluse (ER) mudeli vastendamise konfiguratsiooni ja kasutada sisseehitatud ER-i funktsioone tõhusate koondarvutuste jaoks.
+description: Selles teemas kirjeldatakse, kuidas kujundada uue elektroonilise aruandluse mudeli vastendamise konfiguratsiooni ja kasutada sisseehitatud ER-i funktsioone tõhusate koondarvutuste jaoks.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6a392697f6b91bc6555d0d72d09ecd7da32e1a3f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684111"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094261"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Mudelivastenduse konfiguratsioonide kasutamine koondarvutusteks andmebaasi tasemel
 
@@ -116,6 +116,3 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 68. Klõpsake nuppu Salvesta.
     * Pange tähele, et väli „Käivitamine:” näitab, et grupeerimine toimub käitusajal mälus, isegi kui ükski kogum ei ole määratud ja valitud andmeallikas tüübiga „Tabeli kirjed” viitab samale tabelile „Intrastat”. Põhjuseks on see, et andmeallikas sisaldab mõningaid arvutatud välju, mida ei saa veel SQL-i andmebaasi tasemele üle kanda.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

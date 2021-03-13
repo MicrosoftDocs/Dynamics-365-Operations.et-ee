@@ -3,35 +3,32 @@ title: Tootekogumi moodulid
 description: See teema annab ülevaate tootekogumi moodulitest rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411545"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097099"
 ---
 # <a name="product-collection-modules"></a>Tootekogumi moodulid
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema annab ülevaate tootekogumi moodulitest rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Toote tuvastus on esmane tööriist, mida jaemüüjad kasutavad oma klientidega suhtlemiseks e-kaubanduse veebisaidil. Tootekogumi moodulid aitavad jaemüüjatel luua meeldejäävaid ostlemise kogemusi, pakkudes intuitiivset visuaalset liidest, mida saab kasutada tootekogumite kiireks loomiseks.
 
@@ -67,6 +64,10 @@ Järgmises tabelis kirjeldatakse erinevate tootekogumi moodulite tüüpe rakendu
 | Kliendid ostavad sageli koos | Tehisintellekt/masina õppimine | See moodul kasutab masinõpet, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mida sageli ostetakse koos valitud tootega. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
 | Inimestele meeldib ka           | Tehisintellekt/masina õppimine | See moodul kasutab masinõpet, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mis on seotud valitud tootega. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
 | Valib teile              | Tehisintellekt/masina õppimine | See moodul kasutab masinõpet, et analüüsida sisselogitud kasutaja ostumustreid ja pakkuda isikupärastatud soovitusi, mis põhinevad nendel ostumustritel. Külalisekasutaja jaoks on see loend ahendatud. |
+
+## <a name="supported-modules"></a>Toetatud moodulid 
+
+Tootekogum toetab [kiirvaate moodulit](quick-view-module.md), mis võimaldab kasutajatel tootekogeumi lehelt tooteteavet vaadata ja lisada asju ostukorvi.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Tootekogumi mooduli lisamine kategooria lehele
 
@@ -106,9 +107,8 @@ Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali too
 
 [Konteinermoodul](add-container-module.md)
 
-[Ostukasti moodul](add-buy-box.md)
+[Ostukastimoodul](add-buy-box.md)
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Kiirvaatemoodul](quick-view-module.md)

@@ -1,6 +1,6 @@
 ---
 title: Tasu Power BI sisu
-description: Selles teemas kirjeldatakse tasu Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+description: Selles teemas kirjeldatakse tasu Power BI sisu. See selgitab, kuidas aruannetele juurde pääseda, ja annab kasutatud andmemudeli kohta teavet.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64b4f27b4a1fa3762169a18746c6b0933bddf3ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b625ea7dcbb6bd8b80cbcdcc544c59b9839fc19d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687177"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093052"
 ---
 # <a name="compensation-power-bi-content"></a>Tasu Power BI sisu
 
@@ -71,6 +71,3 @@ Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada arma
 | Töövõtja nimi            | Eesnimi, perekonnanimi ja täielik nimi                                                                       | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
 | Töötaja ametinimetus           | Ametinimetus ja staaži kuupäev                                                                                   | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
 | Töötaja trend           | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Ettevõte, tasu, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töö, soodustused |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: ER-i sihtkoha tüübi e-post
-description: Sellest teemast selgitatakse, kuidas konfigureerida meili sihtkoht iga väljamineva dokumendi loomiseks konfigureeritud elektroonilise aruandluse (ER) vormingu iga kausta või faili komponendi jaoks.
+description: Selles teemas selgitatakse, kuidas konfigureerida meilisihtkohta iga elektroonilise aruandluse (ER) vormingu komponendi FOLDER või FILE jaoks.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690122"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094100"
 ---
 # <a name="email-er-destination-type"></a>ER-i sihtkoha tüübi e-post
 
@@ -65,8 +65,6 @@ Kui valite meiliaadressi tüübiks **Prindihalduse meiliaadress**, saate sisesta
 - Valige väljal **Meilisõnumi allikas** suvand **Puudub**.
 - Sisestage parandatud meiliaadressid väljale **Täiendavad meiliaadressid, eraldatud semikooloniga**.
 
-![Parandatud meiliaadressi konfigureerimine](./media/er_destinations-emailfixedaddress.png)
-
 Teise võimalusena saate hankida meiliaadresse selle osapoole kontaktandmetest, kelle jaoks väljamineva dokumendi loote. Parandamata meiliaadresside kasutamiseks väljal **Meili allikas** valige faili sihtkoha jaoks osapoole [roll](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles). Toetatud on järgmised rollid.
 
 - Klient
@@ -92,8 +90,6 @@ Sisestage lehe **Valemi kujundaja** väljale **Valem** dokumendile vastav toetat
 
 Kui konfigureeritud rolli kontonumbrid on kordumatud kogu Microsoft Dynamics 365 Finance’i eksemplari jaoks, võib välja **Meili allika ettevõte** dialoogiboks **Meili saaja** jääda tühjaks.
 
-![Tühi meili allika välja ettevõte](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Teise võimalusena võib teil olla olukord, kus erinevates ettevõtetes on registreeritud [globaalse aadressiraamatu](../../fin-ops/organization-administration/overview-global-address-book.md) erinevad osapooled ([juriidilised isikud](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) nii, et nad kõik kasutavad konfigureeritud rolli täitmiseks sama kontonumbrit. Sel juhul ei ole konfigureeritud rolli kontonumbrid kogu rakenduse Finance eksemplari jaoks kordumatud. Seetõttu ei saa te osapoole selgeks valimiseks määrata ainult kontonumbri. Samuti peate määrama ettevõtte, kus osapool on konfigureeritud rolli täitmiseks registreerinud. Valige nupp **Seo** (keti sümbol) välja **Meili allika ettevõte** kõrval dialoogiboksis **Meili saaja**, et avada leht [Valemi disainija](general-electronic-reporting-formula-designer.md). Seejärel saate kasutada lehekülge, et konfigureerida valemi, mis tagastab käitusajal ettevõtte koodi, mille ulatuses tuleb leida soovitud allikas.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Käitusajal kasutatava meiliaadressi tüübi määramiseks valige dialoogiboksis
 
 > [!NOTE]
 > Kui eesmärgid on väljal **Eesmärk** valitud ja suvand **Peamine kontakt** on samal ajal määratud valikule **Jah**, kasutatakse käitusajal kõike meile, kus vähemalt üks konfiguratsioon vastab kriteeriumile.
-
-![Meili allika atribuutide konto konfigureerimine](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Konfigureerimismeil
 
@@ -145,6 +139,3 @@ Järgmisel joonisel on kujutatud selles teemas kirjeldatud protsessi üksikute k
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 - [Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Soodustuste Power BI sisu
-description: Selles teemas kirjeldatakse soodustuste Power BI sisu. See selgitab ka seda, kuidas sisalduvatele aruannetele juurde pääseda, ning annab teavet sisu loomiseks kasutatud andmemudeli ja üksuste kohta.
+description: Selles teemas kirjeldatakse soodustuste Power BI sisu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687250"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093077"
 ---
 # <a name="benefits-power-bi-content"></a>Soodustuste Power BI sisu
 
@@ -69,6 +69,3 @@ Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada arma
 | Töövõtja nimi            | Eesnimi, perekonnanimi ja täielik nimi                                                                       | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
 | Töötaja ametinimetus           | Ametinimetus ja staaži kuupäev                                                                                   | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
 | Töötaja trend           | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Ettevõte, tasu, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töö, soodustused |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

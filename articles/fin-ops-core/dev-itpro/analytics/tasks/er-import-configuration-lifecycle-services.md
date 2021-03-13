@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsiooni importimine teenusest Lifecycle Services
-description: Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad importida elektroonilise aruandluse (ER) konfiguratsiooni uue versiooni teenusest Microsoft Dynamics Lifecycle Services (LCS).
+description: Selles teemas kirjeldatakse, kuidas importida elektroonilise aruandluse (ER) konfiguratsiooni uus versioon teenusest Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684447"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093691"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Konfiguratsiooni importimine teenusest Lifecycle Services
 
@@ -103,6 +103,3 @@ Selles näites valite soovitud ER-i konfiguratsiooni ja impordite selle näidise
     Valige selles näites selle konfiguratsiooni versioon, mille olek on **Ühiskasutuses**.
 
     Pange tähele, et nüüd on saadaval ka valitud andmemudeli konfiguratsiooni ühiskasutatav versioon 1.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

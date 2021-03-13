@@ -1,6 +1,6 @@
 ---
 title: Veerudefinitsioonid finantsaruannetes
-description: See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.
+description: See artikkel käsitleb veerudefinitsioone. Veeru määratlus on aruande komponent, mis määrab aruande veergude sisu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687226"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093105"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
@@ -226,7 +226,7 @@ Kasutaja loob dünaamilise kuue kuu eelarve aruande. Kasutaja soovib, et tegelik
 | Veeru laius        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Printimise juhtelement       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Kasutaja topeltklõpsab veerupäise lahtrit dialoogiboksi **Veerupäis** avamiseks ja sisestab järgmise teabe.
+Kasutaja topeltklõpsab veerus B veerupäise lahtrit dialoogiboksi avamiseks suvandit **Veerupäis** ja sisestab järgmise teabe.
 
 | Field              | Väärtus                 |
 |--------------------|-----------------------|
@@ -236,7 +236,6 @@ Kasutaja topeltklõpsab veerupäise lahtrit dialoogiboksi **Veerupäis** avamise
 | Põhjendus      | Valik puudub. |
 | Algusvahemik        | B                     |
 | Lõppvahemik          | BASE                  |
-| Eelarve päis      | BASE+1 kuni lõppveerg  |
 
 Pärast teabe sisestamist klõpsab kasutaja nuppu **OK**. Seejärel topeltklõpsab kasutaja veerus C veerupäise lahtrit dialoogiboksi **Veerupäis** avamiseks ja sisestab järgmise teabe.
 
@@ -246,8 +245,8 @@ Pärast teabe sisestamist klõpsab kasutaja nuppu **OK**. Seejärel topeltklõps
 | Sisesta automaattekst    | Valik puudub. |
 | Vormingusuvandid     | Väli                   |
 | Põhjendus      | Valik puudub. |
-| Algusvahemik        | C                     |
-| Lõppvahemik          | BASE+2                |
+| Algusvahemik        | BASE+1                |
+| Lõppvahemik          | E                     |
 
 Nüüd prinditakse iga kord selle aruande loomisel tegelikke andmeid sisaldavatele veergudele sõna „Tegelik” ja eelarveprognoose sisaldavatele veergudele sõna „Eelarve”. Lisaks korrigeeritakse iga kuu veergude arvu.
 
@@ -599,6 +598,3 @@ Saate veeru summa jagada määratud perioodide arvuga. Näiteks valem **B/Period
 [Readefinitsioonid finantsaruande koosturis](row-definitions-financial-reporting.md)
 
 [Täpsemad vormingusuvandid finantsaruandluses](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

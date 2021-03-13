@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Managementi versiooni 10.0.16 eelversioon (veebruar 2021)
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.16. (veebruar 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.16 uusi või muutunud funktsioone.
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626798"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104985"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Managementi versiooni 10.0.16 eelversioon (veebruar 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.16. (veebruar 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.16 uued või muutunud funktsioonid. Selle versiooni number on 10.0.689 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.16 uusi või muutunud funktsioone. Selle versiooni number on 10.0.689 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** november 2020
 - **Väljalaske üldine kättesaadavus (iseseisev värskendamine):** jaanuar 2021
@@ -40,8 +38,11 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 See väljalase hõlmab järgmisi funktsioone. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
 - [Kohandatav müügisaali liides](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Lisateavet leiate [Kuidas seadistada tootmisosakonna käivitusliidese seade](../production-control/production-floor-execution-setup.md).
+
 - [Varude nähtavuse lisandmoodul Dynamics 365 Supply Chain Management rakendusele](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Lisateavet vt teemast [Varude nähtavuse lisandmoodul](../inventory/inventory-visibility.md)
+
 - [Kontrollige lähtedokumendi ridadel olevaid identifitseerimisnumbreid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Lisateavet leiate teemast [Laorakenduse konfiguratsiooni ülevaade](../warehousing/warehouse-configuration.md).
+
 - [Laohalduse väljamineva töökoormuse visualiseerimine](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Lisateavet vt teemast [Väljastuste töökoormuse visualiseerimine](../warehousing/outbound-workload-visualization.md).
 
 Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
@@ -88,7 +89,7 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ol
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.16 platvormivärskendused (oktoober 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.16 platvormivärskendused (veebruar 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -110,6 +111,3 @@ Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioon
 Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatele
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis kasutaja saab elektroonilise aruandluse (ER) andmemudeli vastendada valitud rakenduse Microsoft Dynamics 365 Finance andmeallikatega.
+description: Selles teemas kirjeldatakse, kuidas vastendada elektroonilise aruandluse (ER) andmemudel valitud rakenduse Microsoft Dynamics 365 Finance andmeallikatega.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3e2ba94c9ec3ecc33f0c697d9f18f763749e4ba1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684303"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093744"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatele
 
@@ -146,6 +146,3 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 5. Valige praeguse konfiguratsiooni lõpetatud versioon.
     * Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Täiustused loodud elektroonilise aruandluse aruannete tulemuste jälgimises ja nende võrdlemises alusväärtustega
-description: Selles teemas kirjeldatakse, kuidas elektroonilise aruandluse alusfunktsiooni on täiustatud rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019).
+description: Selles teemas kirjeldatakse ER-i põhifunktsiooni täiustusi rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682843"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094000"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Täiustused loodud elektroonilise aruandluse aruannete tulemuste jälgimises ja nende võrdlemises alusväärtustega
 
@@ -59,7 +59,7 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 
 Alus on lisatud valitud vormingu **Vorming elektroonilise aruandluse aluste õppimiseks** jaoks, aga alusreegleid pole veel selle aluse jaoks lisatud.
 
-![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-AddBaseline2.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht, ühtegi reeglit veel pole](media/GER-BaselineSample-AddBaseline2.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 ### <a name="make-a-new-baseline-rule"></a>Uue alusreegli tegemine
 
@@ -72,7 +72,7 @@ Alus on lisatud valitud vormingu **Vorming elektroonilise aruandluse aluste õpp
 7. Valige nupp **OK**.
 8. Valige suvand **Alused**.
 
-    ![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+    ![Elektroonilise aruandluse vormingu alusleht, alusväärtused on valitud](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
     Loodud väljaminev fail manustatakse automaatselt käivitatud elektroonilise aruandluse vormingu alusele. Alusreegel on sellele alusele automaatselt lisatud ja sisaldab ka viidet manustatud failile.
 
@@ -130,7 +130,7 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 3. Aluste loendist valige alus, mis on konfigureeritud vormingu **Vorming elektroonilise aruandluse aluste õppimiseks** jaoks.
 4. Kiirkaardilt **Alused** valige käsk **Kustuta**, et eemaldada varem konfigureeritud alusreegel.
 
-![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-AddBaseline3.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht, kustutatud](media/GER-BaselineSample-AddBaseline3.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Kujundatud elektroonilise aruandluse vormingu sidumiste asenduste määratlemine
 
@@ -138,7 +138,7 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 2. Laiendage Vormingu komponentide puul suvandit **Väljund**, laiendage suvandeid **Väljund\\Dokument** ja seejärel valige suvandi **Väljund\\Dokument\\ProcessingDateTime** märkeruut.
 3. Valige nupp **OK**.
 
-![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-AddBaseline4.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht, komponendid](media/GER-BaselineSample-AddBaseline4.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 Valitud elektroonilise aruandluse vormingu komponent on lisatud komponentide loendisse kiirkaardil **Asendused**. Kui aluse elektroonilise aruandluse vorming käivitatakse silumisrežiimis, asendatakse vormingu sidumine iga komponendi jaoks veerus **Sidumine** kuvatud sidumisega. Kiirkaardil **Asendused** loendatud komponendi vaikesidumise muutmiseks valige nupp **Redigeeri**.
 
@@ -207,6 +207,3 @@ Alussätete importimiseks Microsoft SharePoint Serverisse salvestatud XML-failis
 
 - [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md)
 - [Tegevuse salvestaja ressursid](../user-interface/task-recorder.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

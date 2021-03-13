@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
-description: Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse Microsoft Dynamics 365 Finance.
+description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse konfiguratsioone andmete importimiseks välisest failist rakendusse Microsoft Dynamics 365 Finance.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0492fae6cfad505fc9fee5cd20f483c9c6d2a061
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684278"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093719"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
 
@@ -254,6 +254,3 @@ Käivitage selle vormingu vastendamine testimisotstarbel. Kasutage varsemalt all
 27. Sulgege leht.
 28. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

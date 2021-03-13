@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
-description: Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses väljaminevate elektrooniliste dokumentide loomiseks kasutada. Saate kujundada ka ER-vorminguid, mis sõeluvad sissetulevaid elektroonilisi dokumente ja kasutavad nende dokumentide sisu rakenduse andmete uuendamiseks.
+description: Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses väljaminevate elektrooniliste dokumentide loomiseks kasutada.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688381"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093869"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine ER-i abil
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ Lisateabe saamiseks selle funktsiooni kohta esitage tegevusjuhiste kogum Elektro
 - [Elektroonilise aruandluse andmemudeli konfiguratsioon: Intrastat (mudel)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Elektroonilise aruandluse mudeli vastendamise konfiguratsioon: Intrastat (vastendamine)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Elektroonilise aruandluse vormingu konfiguratsioon: Intrastat (vorming)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

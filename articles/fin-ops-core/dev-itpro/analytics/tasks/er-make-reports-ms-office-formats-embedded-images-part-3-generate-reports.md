@@ -1,6 +1,6 @@
 ---
 title: Manuspiltidega aruannete loomine Office’i vormingus
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua elektroonilise aruandluse (ER) konfiguratsioone manuspilte sisaldavate elektrooniliste dokumentide loomiseks MS Office'i vormingutes (Excel ja Word).
+description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone luues Excelis ja Wordis manuspilte sisaldavaid elektroonilisi dokumente.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684375"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093819"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Manuspiltidega aruannete loomine Office’i vormingus
 
@@ -119,6 +119,3 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 23. Klõpsake nuppu OK.
     * Vaadake loodud väljund üle. Väljund on loodud manuspiltidega Wordi dokumendina, kus on ettevõtte logo, volitatud isiku allkiri ning vesimärgi jaoks valitud tekst.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

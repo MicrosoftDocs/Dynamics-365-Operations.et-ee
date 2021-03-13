@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. Loodud vormingu komponentide vastendamine andmemudeli elementidega (november 2016)
-description: Järgmine protseduur näitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab vastendada andmemudeli elemente loodud elektroonilise aruandluse (ER) konfiguratsiooni komponentidega, mis määratleb maksete äridomeeni elektroonilise dokumendi.
+description: Selles teemas kirjeldatakse, kuidas vastendada andmemudeli elemente loodud elektroonilise aruandluse (ER) konfiguratsiooni komponentidega.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 043c66cf3345678aa7750ef50323700384579299
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684327"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093769"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>Elektrooniline aruandlus. Loodud vormingu komponentide vastendamine andmemudeli elementidega (november 2016)
 
@@ -113,6 +113,3 @@ Iga vormingu versiooni saab konfigureerida kasutamiseks kättesaadavaks teatud k
 1. Laiendage jaotist ISO-riigi-/regioonikoodid.
     * Iga vormingu juurdepääsu saab piirata, tuvastades teatud riigid/regioonid, kus vormingut rakendatakse. Kui teatud vormingu puhul on riikide/regioonide loend tühi, saab seda vormingut kasutada mis tahes ettevõttes. Kui riikide/regioonide loendisse sisestatakse mõni ISO-riigi/-regiooni kood, saab seda vormingut kasutada ainult ettevõtetes, mille peamine aadress on riigis/regioonis.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
