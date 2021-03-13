@@ -1,7 +1,7 @@
 ---
 title: Hankija konto loomine
 description: See protseduur selgitab, kuidas luua hankijakontot ning lisada aadressi ja kontaktteavet.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddressGrid, DirPartyLookup, LogisticsPostalAddress, SysLookupMultiSelectGrid, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd8cd2bb7b03c0415a5c5656f0e3ffada961973e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e7f5723fc2aa50fc66c825eb09a01e45833b817e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426688"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022127"
 ---
 # <a name="create-a-vendor-account"></a>Hankija konto loomine
 
@@ -59,6 +58,3 @@ See protseduur selgitab, kuidas luua hankijakontot ning lisada aadressi ja konta
 7. Sulgege leht.
 8. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

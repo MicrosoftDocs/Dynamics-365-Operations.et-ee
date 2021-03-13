@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b9f473cc725896a00501510eea02d7cfb21782
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426150"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022026"
 ---
 # <a name="install-assets-on-functional-locations"></a>Varade installimine töö asukohtades
 
@@ -83,6 +82,3 @@ Kui seadistusandmed on saadaval, olete valmis vara looma.
 1. Veenduge lehel **Kõik töö asukohad**, et töö asukoht, kuhu soovite vara automaatselt luua, kasutab töö asukoha tüüpi, mille olete sel eesmärgil loonud.
 2. Valige loendist töö asukoht.
 3. Valige **Värskenda töö asukohta olekut** ja seejärel valige selleks otstarbeks loodud töötsükli olek. Üks vara installitakse nüüd automaatselt töö asukohta. Varal on töö asukohaga sama nimi.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
