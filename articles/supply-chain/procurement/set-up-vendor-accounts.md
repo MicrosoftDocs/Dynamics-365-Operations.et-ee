@@ -1,7 +1,7 @@
 ---
 title: Hankijakontode seadistamine
 description: See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426634"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016573"
 ---
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
@@ -118,6 +117,3 @@ Valite vaikekontod lehel **Kontode vaikeseadistus**, mille saate avada hankija k
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
