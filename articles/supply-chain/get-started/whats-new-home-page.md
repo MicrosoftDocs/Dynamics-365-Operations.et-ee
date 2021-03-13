@@ -3,26 +3,25 @@ title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Man
 description: See teema viitab teemadele, mis kirjeldavad uusi ja muudetud funktsioone igas Dynamics 365 Supply Chain Managementi väljalaskes.
 author: kamaybac
 manager: tfehr
-ms.date: 07/23/2020
+ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77649e310be218fdea8578e974885101c5587722
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 3350afc5f9537a0bd97b9c5257a66039b9dcb55c
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700977"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014554"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management
 
@@ -34,6 +33,7 @@ Et näha, mis on teenuse Dynamics 365 Supply Chain Management igas väljalaskes 
 
 | Versioon | Loo number | Automaatvärskenduse kättesaadavus | Lisateave |
 |---|---|---|---|
+| 10.0.16 | 10.0.689 | 2021. veebruar | [Mis on uut ja mida on muudetud Dynamics 365 Supply Chain Management rakenduse versioonis 10.0.16](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | 2021. jaanuar | [Mis on uut ja mida on muudetud Dynamics 365 Supply Chain Management rakenduse versioonis 10.0.15](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | November 2020 | [Mis on uut ja mida on muudetud Dynamics 365 Supply Chain Management rakenduse versioonis 10.0.14](whats-new-scm-10-0-14.md) |
 | 10.0.13 | 10.0.569 | 2020. oktoober | [Mis on uut ja mida on muudetud Dynamics 365 Supply Chain Management rakenduse versioonis 10.0.13](whats-new-scm-10-0-13.md) |
@@ -67,6 +67,3 @@ Et enne 2019. aasta novembrit näha, mis on väljalasetes uut või muudetud, vaa
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | November 2016    | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016. mai         | [Mis on uut või mida on muudetud rakenduse Dynamics AX versioonis 7.0.1 (mai 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016. veebruar    | [Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

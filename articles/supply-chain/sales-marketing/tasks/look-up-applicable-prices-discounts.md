@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426059"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010768"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Kohaldatavate hindade ja allahindluste otsimine
 
@@ -60,6 +59,3 @@ Veenduge, et väli Kliendi konto sisaldab kliendinumbrit US-001.
     * Tootel T0012 on kaks rea allahindluse lepet, mis määrab 5-protsendise allahindluse tellimuserea kogusele 1 kuni 10 ja 7-protsendise allahindluse tellimuse kogustele üle 10. Pange tähele, et allahindlused rakenduvad tootegrupile, siinses näiteks grupile koodiga 01, millesse toode T0012 kuulub.  
 4. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

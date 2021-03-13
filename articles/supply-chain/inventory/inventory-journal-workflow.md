@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426016"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011668"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Varude töölehe kinnitamise töövood
 
@@ -31,6 +30,13 @@ Selles teemas kirjeldatakse, kuidas seadistada ja kasutada varude töölehe kinn
 
 > [!NOTE]
 > Varude töölehe kinnitamise töövood rakenduvad ainult kannete puhul, mis on salvestatud varude halduse mooduli abil. Need ei tööta laohalduse moodulist käivitatud varude töölehtedega.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Varude töölehe kinnitustöövoogude funktsiooni sisselülitamine
+
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+
+- **Moodul:** *varude ja laohaldus*
+- **Funktsiooni nimi**: *Varude töölehe kinnitamise töövoog*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Varude töölehe kinnitamise töövoogude loomine
 
@@ -112,6 +118,3 @@ Töölehe töövoo ajaloo vaatamiseks tehke järgmist.
 1. Laiendage navigeerimispaanis **Varude haldus \> Töölehekirjed \> Kaubad** ja seejärel valige varude töölehe tüüp.
 1. Avage asjakohane tööleht.
 1. Valige toimingupaanilt nupp **Töövoog**, et avada rippdialoogiboks. Valige **Töövoo ajalugu**. Lisateavet leiate teemast [Töövoo ajaloo vaatamine](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426643"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014479"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Laohalduse vabade kirjete puhastustöö
 
@@ -50,7 +49,12 @@ Töö käitamisel on selle kinnitustase 100. Teisisõnu püütakse iga 100 kustu
 
 ## <a name="possible-user-impact"></a>Võimalik mõju kasutajale
 
-Kui puhastustöö käigus kustutatakse kõik puhastustöö vabade kirjete andmed konkreetse taseme kohta (nt litsentsiplaadi tase), siis võib see mõjutada ka kasutajaid. Sellisel juhul ei pruugi antud varude nägemiseks varasemalt litsentsiplaadil saadaolev funktsioon õigesti töötada, kuna asjakohased vabad kirjed ei ole enam saadaval. (Kui töötaja vaatab vabade varude teavet, siis kontrollib see funktsioon sätete **Dimensiooni kuvamine** all tingimust **Kogus \<\> 0**). Samas peaks puhastustööst tulenevalt paranenud jõudlus selle väikse funktsionaalsuskao tasa tegema.
+Kui puhastustöö käigus kustutatakse kõik puhastustöö vabade kirjete andmed konkreetse taseme kohta (nt litsentsiplaadi tase), siis võib see mõjutada ka kasutajaid. Sellisel juhul ei pruugi antud varude nägemiseks varasemalt litsentsiplaadil saadaolev funktsioon õigesti töötada, kuna asjakohased vabad kirjed ei ole enam saadaval. See võib näiteks esineda järgmistes olukordades.
+
+- **Vaba kaubavaru loendis**, kui kasutaja tühistab tingimuse **Kogus \<\> 0** või valib tingimus **Suletud kanded** sätetes **Dimensioonide kuva**.
+- Möödunud perioodide aruandes **Füüsilised laovarud varude dimensiooni alusel**, kui kasutaja määrab parameetri **Kuupäeva järgi**.
+
+Samas jõudluse parandamine, mida puhastustöö pakub, peaks need väikesed funktsionaalsuse kahjumid hüvitama.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimaalse teostamisaja kättesaadavaks muutmine
 
@@ -58,6 +62,3 @@ Kui puhastustöö käigus kustutatakse kõik puhastustöö vabade kirjete andmed
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Laohalduse vabade kirjete puhastustöö maksimaalne teostamisaeg*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

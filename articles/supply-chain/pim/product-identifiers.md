@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529182"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011361"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid
 
@@ -44,7 +43,7 @@ Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply
 
 Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator sisaldab kuni 15 tähemärki. Ideaaljuhul sisaldab see vähem kui 10 tähemärki ja kuni viis liigitavat tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
-Kui kasutate Common Data Service, siis on ka toote number Tarneahela halduses ka toote number Common Data Service-is. Tootevariandid sünkroonitakse Common Data Service-iga eristatavate toodetena.
+Kui kasutate teenust Microsoft Dataverse, siis on ka toote number Supply Chain Managementis ka toote number teenuses Microsoft Dataverse. Tootevariandid sünkroonitakse Dataverse’iga eristatavate toodetena.
 
 ## <a name="item-number-and-product-dimensions"></a>Kaubakood ja tootedimensioonid
 
@@ -167,7 +166,7 @@ Järgmine tabel annab ülevaate importimise ja käsitsi loomise tulemustest, kui
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Tooteüksuse identifikaator (kõigi tooteidentifikaatorite eksportimine)
 
-Tooteüksuse identifikaatori mudel loodi selleks, et lubada CDS-i versiooni 1.0 ettevalmistamist kõigi identifikaatoritega, mida kasutatakse tootele viitamiseks. Ülesande lihtsustamiseks koondatakse kõik identifikaatorid ühte globaalsesse identifikaatorite tabelisse, et neid saaks eksportida ühe mudelina. Pange tähele, et CDS-i see versioon ei kasutada tooteidentifikaatorite mudelit. Seetõttu on üksuse **Tooteüksuse common data service’i identifikaatori üksus** ja selle protsessi praktilisus piiratud ja see võib tulevikus muutuda.
+Tooteüksuse identifikaatori mudel loodi selleks, et lubada Dataverse’i versiooni 1.0 ettevalmistamist kõigi identifikaatoritega, mida kasutatakse tootele viitamiseks. Ülesande lihtsustamiseks koondatakse kõik identifikaatorid ühte globaalsesse identifikaatorite tabelisse, et neid saaks eksportida ühe mudelina. Pange tähele, et Dataverse’i see versioon ei kasutada tooteidentifikaatorite mudelit. Seetõttu on üksuse **Tooteüksuse common data service’i identifikaatori üksus** ja selle protsessi praktilisus piiratud ja see võib tulevikus muutuda.
 
 Tooteidentifikaatorite tabel on globaalne tabel, kuhu lisatakse korduva pakett-töö kaudu andmeid kõigist peamise juriidilise isiku viitetabelitest. Peate globaalse tooteetaloni ulatuse määratlusena valima juriidilise isiku ja tootekategooria hierarhia. Globaalse tooteidentifikaatorite tabeli loomine on piiratud toodetega, mis on väljastatud valitud juriidilisse isikusse, ja toodetega, mis on tootekategooria hierarhias oleva rolli **common data service'i** jaoks valitud tootehierarhia liikmed.
 
@@ -175,7 +174,7 @@ See protsess eeldab, et toote koondandmeid hallatakse peamiselt ühes keskses ju
 
 Keskkonna konfigureerimiseks tehke järgmist.
 
-1. Valige CDS-i jaoks kategooriahierarhia. Kui lehel **Kategooriahierarhia rolli seosed** pole rolliga **common data service** seostatud ühtegi hierarhiat, peate looma uue seose. Valige roll **common data service** ja seejärel seostage kategooriahierarhia, mis esindab tooteportfooliot, mis tuleb CDS-iga sünkroonida.
+1. Valige Dataverse’i jaoks kategooriahierarhia. Kui lehel **Kategooriahierarhia rolli seosed** pole rolliga **common data service** seostatud ühtegi hierarhiat, peate looma uue seose. Valige roll **Common data service** ja seejärel seostage kategooriahierarhia, mis esindab tooteportfooliot, mis tuleb Dataverse’iga sünkroonida.
 2. Valige globaalsete toote koondandmete jaoks juriidiline isik. Lehel **Tooteteabe halduse parameetrid** vahekaardil **Toote atribuudid** valige peaettevõte, kus toote ja kauba identifikaatoreid peamiselt hallatakse.
 3. Määratlege identifitseerimiskoodide tüübid ja koodid, mis tuleb eksportida. Avage **Tooteteabe haldus** &gt; **Häälestus** &gt; **Toote identifitseerimiskoodid**. Identifitseerimiskoodide tüüpide loomiseks valige **Loo koodid**. Koodi tüübi kirje luuakse iga identifikaatoritüübi jaoks, mis leitakse valitud juriidilisest isikust.
 
@@ -190,6 +189,3 @@ Nüüd saate kasutada andmeüksuseid **Tooteüksuse common data service’i iden
 ## <a name="related-topic"></a>Seotud teema
 
 [Toodete ja tootevariantide otsimine tellimuse sisestamise käigus](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Arvestuse jaotused ja alammooduli töölehe kirjed hankijaarvete puhul
+title: Arvestuse jaotused ja töölehekirjed hankija arvete puhul
 description: Arvestuse jaotuste abil saate määratleda, kuidas summat arvestatakse, näiteks kulude, maksude või tasude arvestamisel hankija arvel. Igal summal, mida tuleb hankija arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da15f27c7fef6367eacc83271419b633c0cbb245
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442510"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012284"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja alammooduli töölehe kirjed hankijaarvete puhul
+# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja töölehekirjed hankija arvete puhul
 
 [!include [banner](../includes/banner.md)]
 
@@ -250,6 +249,3 @@ Kui alammooduli töölehe kirje on enne hankija arve töölehele paigutamist val
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

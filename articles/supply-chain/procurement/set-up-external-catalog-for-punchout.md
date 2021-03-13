@@ -1,7 +1,7 @@
 ---
 title: Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 description: Selles teemas kirjeldatakse välise kataloogi või väljaregistreeritava kataloogi kasutamist hankijalt hinnapakkumise teabe kogumiseks ja selle lisamiseks ostutaotlusele.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426635"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016373"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
@@ -54,19 +53,18 @@ Väline kataloog peaks võimaldama suunata ostutaotlusse siseneva töötaja tood
 Selles jaotises antakse lisateavet eelmise jaotise ülesande 4 kohta.
 
 1. Sisestage hankija välise kataloogi nimi ja kirjeldus. Sisestatud nimi kuvatakse diagrammil, mis kajastab välist kataloogi, mis ostutaotlust koostavale töötajale kuvatakse. Töötajad võivad klõpsata ostukorvil, et avada kataloog hankija välisel kataloogisaidil.
-2. Lisage pilt, kasutades toimingut **Välise kataloogi pilt**. Pilt kuvatakse diagrammil, mis kajastab välist kataloogi, mis ostutaotlust koostavatele töötajatele kuvatakse. Pange tähele, et pildi laius ja kõrgus peavad olema võrdsed. Muidu ei kuvata pilti õigesti.
+2. Lisage pilt, kasutades tegevust **Välise kataloogi pilt**. Pilt kuvatakse diagrammil, mis kajastab välist kataloogi, mis ostutaotlust koostavatele töötajatele kuvatakse. Pange tähele, et pildi laius ja kõrgus peavad olema võrdsed. Muidu ei kuvata pilti õigesti.
 3. Valige, kas hankija välise kataloogi veebisait peab ilmuma samasse brauseriaknasse, kus töövõtja on ostutaotluse koostanud, või tuleb see kuvada uues aknas.
 4. Valige kataloogi jaoks hankija. Loendis **Juriidilised isikud** on rida iga juriidilise isiku jaoks, kus hankija on seadistatud. Selleks et võimaldada kasutajatel tellida tooteid otse hankija kataloogist mõne juriidilise isiku, kuid mitte teiste, puhul, võite kasutada nuppu **Takista juurdepääsu** või **Luba juurdepääs** iga juriidilise isiku puhul, kelle kataloogi soovite kättesaadavaks teha või mitte.
 5. Sisestage väljale **Vaikimisi aegumine (päevades)** päevade arv, mille jooksul välisest kataloogist saadud pakkumine kehtib ja seda saab kasutada väliselt hankijalt ostmiseks. Kui pakkumine on loodud ja toodud hankija väliselt kataloogisaidilt, kehtib pakkumine praeguse süsteemikuupäeva seisuga ja jääb kehtivaks sellele väljale sisestatud päevade jooksul.
-6. Klõpsake nuppu **Lisa** hankekategooriate vastendamise alustamiseks välise kataloogiga. Siis valige kategooria loendist Kategooria nimi. Kategooriate loend on hankekategooriate ülemhulk, millega hankija on kõigis hankijale seadistatud juriidilistes isikutes vastendatud.
+6. Klõpsake nuppu **Lisa** hankekategooriate vastendamise alustamiseks välise kataloogiga. Seejärel valige kategooria loendist Kategooria nimi. Kategooriate loend on hankekategooriate ülemhulk, millega hankija on kõigis hankijale seadistatud juriidilistes isikutes vastendatud.
 
     > [!NOTE]
-    > Hankepoliitikaid kasutatakse ostva juriidilise isiku või vastuvõtva tootmisüksuse kategooriatele juurdepääsu lubamiseks või piiramiseks. Väljaregistreerimine välisesse kataloogi nõuab, et oleks lubatud juurdepääs vähemalt ühele kataloogiga vastendatud hankekategooriale.
+    > Hankepoliitikaid kasutatakse ostva juriidilise isiku või vastuvõtva tootmisüksuse kategooriatele juurdepääsu lubamiseks või piiramiseks. Väljaregistreerimine välisesse kataloogi nõuab, et oleks lubatud juurdepääs vähemalt ühele kataloogiga vastendatud hankekategooriale.
 
 7. Seadistage cXML-i seadistustaotluse sõnum, mis hankijale saadetakse. Automaatselt loodava sõnumi vorming on minimaalne mall, mis on seansi alustamiseks nõutav. Sisestage siltide väärtused.
 
-Saate igal ajal süsteemi loodud sõnumimalli uuesti laadida, klõpsates nuppu **Taasta sõnumivorming**. 
-Pange tähele, et sõnumivormingu taastamisel asendatakse praegune sõnum automaatselt loodud sõnumivorminguga, millel on tühjad sildid.
+Saate igal ajal süsteemi loodud sõnumimalli uuesti laadida, klõpsates nuppu **Taasta sõnumivorming**. Pange tähele, et sõnumivormingu taastamisel asendatakse praegune sõnum automaatselt loodud sõnumivorminguga, millel on tühjad sildid.
 
 ### <a name="cxml-setup-message"></a>cXML-i seadistussõnum
 Allpool leiate mallis sisalduvate siltide kirjelduse.
@@ -85,13 +83,13 @@ Allpool leiate mallis sisalduvate siltide kirjelduse.
 
 ### <a name="extrinsic-elements"></a>Välised elemendid
 
-Väline element on lisateave, nt kasutajanimi, mis põhineb väljaregistreerival kasutajal. Väline element määratakse väljaregistreerimise toimumisel ja selle saab saata taotluse seadistusteates.
+Väline element on lisateave (nt kasutajanimi), mis põhineb väljaregistreerival kasutajal. Väline element määratakse väljaregistreerimise toimumisel ja selle saab saata taotluse seadistusteates.
 Teie hankijal võib olla nõue välise elemendi vastuvõtmise kohta seadistustaotluses. Sel juhul tuleb lisada väline element väliste elementide loendisse lehe **Väline kataloog** jaotises **Sõnumivorming**.
 Määrake välisele elemendile nimi, mille hankija ära tunneb, ja vastendage see väärtusega. Väärtuste valikud on: kasutaja nimi, kasutaja meil või juhuslik väärtus.
 Lisateavet cXML-protokolli kohta leiate [veebisaidilt cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Tagasisisestamise teade
-Tagasisisestamise teade on teade, mis saadakse hankijalt, kui kasutaja logib väliselt saidilt välja ja naaseb rakendusse Supply Chain Management. Tagasisisestamise teateid ei saa konfigureerida. Need teated põhinevad cXML-protokolli definitsioonil.Siin on teave, mis võib kuuluda ostutaotluse real saadud tagasisisestuse teatesse.
+Tagasisisestamise teade on teade, mis saadakse hankijalt, kui kasutaja logib väliselt saidilt välja ja naaseb rakendusse Supply Chain Management. Tagasisisestamise teateid ei saa konfigureerida. Need teated põhinevad cXML-protokolli definitsioonil. Siin on teave, mis võib kuuluda ostutaotluse real saadud tagasisisestuse teatesse.
 
 | Hankijalt saadud teade | Kopeeritud taotluse reale|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ Kui välises hankija kataloogis olev toode on taotletud, siis ei saa välist han
 
 - [cXML-i täiustuste ostmine](purchasing-cxml-enhancements.md)
 - [Väliskataloogide kasutamine e-hanke väljaregistreerimiseks](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
