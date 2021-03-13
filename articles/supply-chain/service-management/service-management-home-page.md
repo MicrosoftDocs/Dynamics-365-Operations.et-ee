@@ -11,63 +11,62 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 451aeebd46d60251eed940016486509c4aa3f458
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 70c0a6c82e0227319c4e95ad7b60a97c7b03401a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425948"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010493"
 ---
-# <a name="service-management-overview"></a><span data-ttu-id="c50f6-103">Teeninduse halduse ülevaade</span><span class="sxs-lookup"><span data-stu-id="c50f6-103">Service management overview</span></span>
+# <a name="service-management-overview"></a><span data-ttu-id="d2227-103">Teeninduse halduse ülevaade</span><span class="sxs-lookup"><span data-stu-id="d2227-103">Service management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c50f6-104">**Teenuste haldusega** saate luua teenuseleppeid ja hooldustellimusi, hallata hooldustellimusi ja kliendi päringuid ning hallata ja analüüsida teenuste pakkumist klientidele.</span><span class="sxs-lookup"><span data-stu-id="c50f6-104">Use **Service management** to establish service agreements and service subscriptions, handle service orders and customer inquiries, and to manage and analyze the delivery of services to customers.</span></span> <span data-ttu-id="c50f6-105">Hoolduslepingutega saate määrata ressursid, mida kasutatakse tüüpilisel teenusekülastusel.</span><span class="sxs-lookup"><span data-stu-id="c50f6-105">You can use service agreements to define the resources that are used in a typical service visit.</span></span> <span data-ttu-id="c50f6-106">Hoolduslepingutega saate ka vaadata, kuidas neid ressursse kliendile arveldatakse.</span><span class="sxs-lookup"><span data-stu-id="c50f6-106">You can also use service agreements to view how those resources are invoiced to the customer.</span></span> <span data-ttu-id="c50f6-107">Hooldusleping võib sisaldada ka teenustaseme lepingut, millega määratakse reageerimisaeg ja pakutakse võimalusi tegelikult kulunud aega salvestada.</span><span class="sxs-lookup"><span data-stu-id="c50f6-107">A service agreement can also include a service level agreement that specifies standard response times, and offers tools to record the actual time.</span></span>
+<span data-ttu-id="d2227-104">**Teenuste haldusega** saate luua teenuseleppeid ja hooldustellimusi, hallata hooldustellimusi ja kliendi päringuid ning hallata ja analüüsida teenuste pakkumist klientidele.</span><span class="sxs-lookup"><span data-stu-id="d2227-104">Use **Service management** to establish service agreements and service subscriptions, handle service orders and customer inquiries, and to manage and analyze the delivery of services to customers.</span></span> <span data-ttu-id="d2227-105">Hoolduslepingutega saate määrata ressursid, mida kasutatakse tüüpilisel teenusekülastusel.</span><span class="sxs-lookup"><span data-stu-id="d2227-105">You can use service agreements to define the resources that are used in a typical service visit.</span></span> <span data-ttu-id="d2227-106">Hoolduslepingutega saate ka vaadata, kuidas neid ressursse kliendile arveldatakse.</span><span class="sxs-lookup"><span data-stu-id="d2227-106">You can also use service agreements to view how those resources are invoiced to the customer.</span></span> <span data-ttu-id="d2227-107">Hooldusleping võib sisaldada ka teenustaseme lepingut, millega määratakse reageerimisaeg ja pakutakse võimalusi tegelikult kulunud aega salvestada.</span><span class="sxs-lookup"><span data-stu-id="d2227-107">A service agreement can also include a service level agreement that specifies standard response times, and offers tools to record the actual time.</span></span>
 
-<span data-ttu-id="c50f6-108">Saate luua hooldustellimusi, et hallata teavet hooldustehniku plaanitud ja plaanimata külastuste kohta kliendi asukohta.</span><span class="sxs-lookup"><span data-stu-id="c50f6-108">You can create service orders to manage information about scheduled and unscheduled visits by a service technician to a customer site.</span></span> <span data-ttu-id="c50f6-109">Hooldustellimustes on näiteks järgmist teavet.</span><span class="sxs-lookup"><span data-stu-id="c50f6-109">Service orders include information such as:</span></span>
+<span data-ttu-id="d2227-108">Saate luua hooldustellimusi, et hallata teavet hooldustehniku plaanitud ja plaanimata külastuste kohta kliendi asukohta.</span><span class="sxs-lookup"><span data-stu-id="d2227-108">You can create service orders to manage information about scheduled and unscheduled visits by a service technician to a customer site.</span></span> <span data-ttu-id="d2227-109">Hooldustellimustes on näiteks järgmist teavet.</span><span class="sxs-lookup"><span data-stu-id="d2227-109">Service orders include information such as:</span></span>
 
-1.  <span data-ttu-id="c50f6-110">Hooldustehniku kulutatav töötundide arv</span><span class="sxs-lookup"><span data-stu-id="c50f6-110">The hours of work that the service technician will perform</span></span>
+1.  <span data-ttu-id="d2227-110">Hooldustehniku kulutatav töötundide arv</span><span class="sxs-lookup"><span data-stu-id="d2227-110">The hours of work that the service technician will perform</span></span>
 
-2.  <span data-ttu-id="c50f6-111">Teenuse või parandustöö tüüp</span><span class="sxs-lookup"><span data-stu-id="c50f6-111">The type of service or repair</span></span>
+2.  <span data-ttu-id="d2227-111">Teenuse või parandustöö tüüp</span><span class="sxs-lookup"><span data-stu-id="d2227-111">The type of service or repair</span></span>
 
-3.  <span data-ttu-id="c50f6-112">Parandatav kaup, sh sümptomite ja diagnoosi üksikasjad</span><span class="sxs-lookup"><span data-stu-id="c50f6-112">The item to repair, including details about the symptoms and diagnosis</span></span>
+3.  <span data-ttu-id="d2227-112">Parandatav kaup, sh sümptomite ja diagnoosi üksikasjad</span><span class="sxs-lookup"><span data-stu-id="d2227-112">The item to repair, including details about the symptoms and diagnosis</span></span>
 
-4.  <span data-ttu-id="c50f6-113">Hooldamise või parandamisega seotud kulud ja tasud</span><span class="sxs-lookup"><span data-stu-id="c50f6-113">Any expenses and fees related to the service or repair</span></span>
+4.  <span data-ttu-id="d2227-113">Hooldamise või parandamisega seotud kulud ja tasud</span><span class="sxs-lookup"><span data-stu-id="d2227-113">Any expenses and fees related to the service or repair</span></span>
 
-<span data-ttu-id="c50f6-114">Saate teenusetaotlusi vastu võtta, käidelda ja edasi saata.</span><span class="sxs-lookup"><span data-stu-id="c50f6-114">You can receive, process, and dispatch service requests.</span></span> <span data-ttu-id="c50f6-115">Pärast hooldustellimuse loomist saate kasutada edenemise jälgimiseks hoolduse etappe ning määrata reegleid igas etapis tehtavate toimingute kohta.</span><span class="sxs-lookup"><span data-stu-id="c50f6-115">After you have created a service order, you can use service stages to monitor progress and specify rules that control what actions are enabled in each stage.</span></span> <span data-ttu-id="c50f6-116">Kui hooldustellimus on lõpetatud, saate tellimuse lõpetatuks märkida ja seejärel arveldusprotsessi alustamiseks sisestada.</span><span class="sxs-lookup"><span data-stu-id="c50f6-116">When a service order is complete, you can sign off on the order to confirm that it is complete, and then post the order to start the invoice process.</span></span>
+<span data-ttu-id="d2227-114">Saate teenusetaotlusi vastu võtta, käidelda ja edasi saata.</span><span class="sxs-lookup"><span data-stu-id="d2227-114">You can receive, process, and dispatch service requests.</span></span> <span data-ttu-id="d2227-115">Pärast hooldustellimuse loomist saate kasutada edenemise jälgimiseks hoolduse etappe ning määrata reegleid igas etapis tehtavate toimingute kohta.</span><span class="sxs-lookup"><span data-stu-id="d2227-115">After you have created a service order, you can use service stages to monitor progress and specify rules that control what actions are enabled in each stage.</span></span> <span data-ttu-id="d2227-116">Kui hooldustellimus on lõpetatud, saate tellimuse lõpetatuks märkida ja seejärel arveldusprotsessi alustamiseks sisestada.</span><span class="sxs-lookup"><span data-stu-id="d2227-116">When a service order is complete, you can sign off on the order to confirm that it is complete, and then post the order to start the invoice process.</span></span>
 
-<span data-ttu-id="c50f6-117">Aruandlustarvikutega saate jälgida hooldustellimuse veeriseid ja tellimuste kandeid ning printida töökirjeldusi ja sissetulekuid.</span><span class="sxs-lookup"><span data-stu-id="c50f6-117">Use the reporting tools to monitor service order margins and subscription transactions, and print work descriptions and work receipts.</span></span>
+<span data-ttu-id="d2227-117">Aruandlustarvikutega saate jälgida hooldustellimuse veeriseid ja tellimuste kandeid ning printida töökirjeldusi ja sissetulekuid.</span><span class="sxs-lookup"><span data-stu-id="d2227-117">Use the reporting tools to monitor service order margins and subscription transactions, and print work descriptions and work receipts.</span></span>
 
-## <a name="business-processes"></a><span data-ttu-id="c50f6-118">Äriprotsessid</span><span class="sxs-lookup"><span data-stu-id="c50f6-118">Business processes</span></span>
+## <a name="business-processes"></a><span data-ttu-id="d2227-118">Äriprotsessid</span><span class="sxs-lookup"><span data-stu-id="d2227-118">Business processes</span></span>
 
-<span data-ttu-id="c50f6-119">Järgmisel joonisel on funktsiooni **Teenuste haldus** kõrge taseme äriprotsesside kasutamise näide ja näidatakse ka, kus hooldusprotsessid muude moodulitega integreeruvad.</span><span class="sxs-lookup"><span data-stu-id="c50f6-119">The following diagram illustrates the high level business processes for **Service management**, and shows where service processes integrate with other modules.</span></span>
+<span data-ttu-id="d2227-119">Järgmisel joonisel on funktsiooni **Teenuste haldus** kõrge taseme äriprotsesside kasutamise näide ja näidatakse ka, kus hooldusprotsessid muude moodulitega integreeruvad.</span><span class="sxs-lookup"><span data-stu-id="d2227-119">The following diagram illustrates the high level business processes for **Service management**, and shows where service processes integrate with other modules.</span></span>
 
-<span data-ttu-id="c50f6-120">[![Teenuste halduse äriprotsessi diagramm](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span><span class="sxs-lookup"><span data-stu-id="c50f6-120">[![Service management business process diagram](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span></span>
+<span data-ttu-id="d2227-120">[![Teenuste halduse äriprotsessi diagramm](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span><span class="sxs-lookup"><span data-stu-id="d2227-120">[![Service management business process diagram](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span></span>
 
-## <a name="service-management-at-a-glance"></a><span data-ttu-id="c50f6-121">Hoolduse halduse ülevaade</span><span class="sxs-lookup"><span data-stu-id="c50f6-121">Service management at a glance</span></span>
+## <a name="service-management-at-a-glance"></a><span data-ttu-id="d2227-121">Hoolduse halduse ülevaade</span><span class="sxs-lookup"><span data-stu-id="d2227-121">Service management at a glance</span></span>
 
-|<span data-ttu-id="c50f6-122">Olulised ülesanded</span><span class="sxs-lookup"><span data-stu-id="c50f6-122">Important tasks</span></span>           | <span data-ttu-id="c50f6-123">Esmased lehed</span><span class="sxs-lookup"><span data-stu-id="c50f6-123">Primary pages</span></span>                         |<span data-ttu-id="c50f6-124">Levinud aruanded</span><span class="sxs-lookup"><span data-stu-id="c50f6-124">Popular reports</span></span>              |
+|<span data-ttu-id="d2227-122">Olulised ülesanded</span><span class="sxs-lookup"><span data-stu-id="d2227-122">Important tasks</span></span>           | <span data-ttu-id="d2227-123">Esmased lehed</span><span class="sxs-lookup"><span data-stu-id="d2227-123">Primary pages</span></span>                         |<span data-ttu-id="d2227-124">Levinud aruanded</span><span class="sxs-lookup"><span data-stu-id="d2227-124">Popular reports</span></span>              |
 |--------------------------|---------------------------------------|-----------------------------|
-|<span data-ttu-id="c50f6-125">Hoolduslepete täitmine</span><span class="sxs-lookup"><span data-stu-id="c50f6-125">Fulfill service agreements</span></span>|<span data-ttu-id="c50f6-126">Hoolduslepped</span><span class="sxs-lookup"><span data-stu-id="c50f6-126">Service agreements</span></span>                     |<span data-ttu-id="c50f6-127">Teenuse tellimuse kasum</span><span class="sxs-lookup"><span data-stu-id="c50f6-127">Service order margin</span></span>         |
-|<span data-ttu-id="c50f6-128">Kliendipäringute käsitlemine</span><span class="sxs-lookup"><span data-stu-id="c50f6-128">Handle customer inquiries</span></span> |<span data-ttu-id="c50f6-129">Teenuse tellimused</span><span class="sxs-lookup"><span data-stu-id="c50f6-129">Service orders</span></span>                         |<span data-ttu-id="c50f6-130">Töö kirjeldus</span><span class="sxs-lookup"><span data-stu-id="c50f6-130">Work description</span></span>             |
-|                          |<span data-ttu-id="c50f6-131">Lähetustahvel</span><span class="sxs-lookup"><span data-stu-id="c50f6-131">Dispatch board</span></span>                         |<span data-ttu-id="c50f6-132">Kanne – kordustellimus</span><span class="sxs-lookup"><span data-stu-id="c50f6-132">Transaction - subscription</span></span>   |
-|                          |                                       |<span data-ttu-id="c50f6-133">Kordustellimuse tasu kanded</span><span class="sxs-lookup"><span data-stu-id="c50f6-133">Subscription fee transactions</span></span>|
+|<span data-ttu-id="d2227-125">Hoolduslepete täitmine</span><span class="sxs-lookup"><span data-stu-id="d2227-125">Fulfill service agreements</span></span>|<span data-ttu-id="d2227-126">Hoolduslepped</span><span class="sxs-lookup"><span data-stu-id="d2227-126">Service agreements</span></span>                     |<span data-ttu-id="d2227-127">Teenuse tellimuse kasum</span><span class="sxs-lookup"><span data-stu-id="d2227-127">Service order margin</span></span>         |
+|<span data-ttu-id="d2227-128">Kliendipäringute käsitlemine</span><span class="sxs-lookup"><span data-stu-id="d2227-128">Handle customer inquiries</span></span> |<span data-ttu-id="d2227-129">Teenuse tellimused</span><span class="sxs-lookup"><span data-stu-id="d2227-129">Service orders</span></span>                         |<span data-ttu-id="d2227-130">Töö kirjeldus</span><span class="sxs-lookup"><span data-stu-id="d2227-130">Work description</span></span>             |
+|                          |<span data-ttu-id="d2227-131">Lähetustahvel</span><span class="sxs-lookup"><span data-stu-id="d2227-131">Dispatch board</span></span>                         |<span data-ttu-id="d2227-132">Kanne – kordustellimus</span><span class="sxs-lookup"><span data-stu-id="d2227-132">Transaction - subscription</span></span>   |
+|                          |                                       |<span data-ttu-id="d2227-133">Kordustellimuse tasu kanded</span><span class="sxs-lookup"><span data-stu-id="d2227-133">Subscription fee transactions</span></span>|
 
 
-## <a name="integration-of-service-management"></a><span data-ttu-id="c50f6-134">Teenusehalduse ühendamine</span><span class="sxs-lookup"><span data-stu-id="c50f6-134">Integration of Service management</span></span>
+## <a name="integration-of-service-management"></a><span data-ttu-id="d2227-134">Teenusehalduse ühendamine</span><span class="sxs-lookup"><span data-stu-id="d2227-134">Integration of Service management</span></span>
 
-<span data-ttu-id="c50f6-135">Teenusehalduse saab ühendada järgmiste moodulitega:</span><span class="sxs-lookup"><span data-stu-id="c50f6-135">Service management can be integrated with the following modules:</span></span>
+<span data-ttu-id="d2227-135">Teenusehalduse saab ühendada järgmiste moodulitega:</span><span class="sxs-lookup"><span data-stu-id="d2227-135">Service management can be integrated with the following modules:</span></span>
 
-  - [<span data-ttu-id="c50f6-136">Müügi ja turunduse ülevaade</span><span class="sxs-lookup"><span data-stu-id="c50f6-136">Sales and marketing overview</span></span>](../sales-marketing/overview-sales-marketing.md)
-  - [<span data-ttu-id="c50f6-137">Inimressursid</span><span class="sxs-lookup"><span data-stu-id="c50f6-137">Human resources</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
+  - [<span data-ttu-id="d2227-136">Müügi ja turunduse ülevaade</span><span class="sxs-lookup"><span data-stu-id="d2227-136">Sales and marketing overview</span></span>](../sales-marketing/overview-sales-marketing.md)
+  - [<span data-ttu-id="d2227-137">Inimressursid</span><span class="sxs-lookup"><span data-stu-id="d2227-137">Human resources</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   
 
