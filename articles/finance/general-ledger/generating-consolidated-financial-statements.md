@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442417"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044017"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 
@@ -74,7 +73,7 @@ Organisatsiooni hierarhiad, mis sisaldavad dimensioone või juriidilisi isikuid,
 ## <a name="consolidations-that-involve-eliminations"></a>Eemaldamisi sisaldavad konsolideerimised
 Eemaldamiskanded on konsolideerimisprotsessi tavaline osa. Selles näites eemaldatakse konsolideerimise ajal viis kontot: 142600, 211400, 401420, 401180 ja 510820. Ettevõtted võivad oma ettevõtete vahelised kontod erinevalt seadistada. Näiteks mõni ettevõte määrab viimaseks numbriks 9, kui kontot kasutatakse ettevõtete vahelistes kannetes. Meetodist olenemata saab eemaldamise kuvada konsolideeritud finantsaruannetel, kui teate ettevõtete vahelisi kontosid.
 
-Järgmisel joonisel on näha veerudefinitsioon konsolideeritud kasumiaruande jaoks. Iga ettevõtte jaoks määratakse kolm ettevõtete vahelist kasumi ja kahju kontot, kasutades dimensioonifiltrit. Veerg D sisaldab ainult USMF-i ettevõtte eemaldamiskontosid ja veerg E sisaldab ainult DEMF-i ettevõtte eemaldamiskontosid. Nii veerg D kui ka veerg E on seadistatud nii, et neid **ei** prindita finantsaruandele.
+Järgmisel joonisel on näha veerudefinitsioon konsolideeritud kasumiaruande jaoks. Iga ettevõtte jaoks määratakse kolm ettevõtete vahelist kasumi ja kahju kontot, kasutades dimensioonifiltrit. Veerud F, G ja H sisaldavad eemaldamiskontosid ainult USMF-, USRT- ja DEMF-ettevõtete jaoks. Need veerud on seadistatud nii, et neid **ei** prindita finantsaruandele.
 
 ![Veerudefinitsiooni konsolideeritud kasumiaruanne](./media/column-definition-consolidated-income-statement.png "Veerudefinitsiooni konsolideeritud kasumiaruanne")
 
@@ -224,6 +223,3 @@ Valuutade kasutamisel õigesti teisendatud summade saamiseks kasutab finantsarua
 Lisateavet konsolideerimise ja valuuta teisendamise kohta vaadake selle teema ülemteemast [Finantskonsolideerimiste ja valuutateisenduse ülevaade](./financial-consolidations-currency-translation.md).
 
 Lisateavet konsolideerimise üksikasjade sisestamise kohta võrgus vt teemast [Finantskonsolideerimised võrgus](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

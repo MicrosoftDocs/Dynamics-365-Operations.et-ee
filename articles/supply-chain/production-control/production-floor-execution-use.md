@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4426568"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077627"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -41,11 +40,11 @@ Selle teema järgnevates jaotistes kirjeldatakse, kuidas töötajad liidesega su
 
 ## <a name="all-jobs-tab"></a>Vahekaart Kõik tööd
 
-Vahekaardil **Kõik tööd** kuvatakse tööde loend, kus on kõik tootmistööd, mille olek on *Pole alustatud*, *Peatatud* või *Käivitatud*.
+Vahekaardil **Kõik tööd** kuvatakse tööde loend, kus on kõik tootmistööd, mille olek on *Pole alustatud*, *Peatatud* või *Käivitatud*. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
 
 ![Vahekaart Kõik tööd](media/pfei-all-jobs-tab.png "Vahekaart Kõik tööd")
 
-Tööde loendis on järgmised veerud. (Numbrid vastavad eelmisel joonisel kujutatud numbritele.)
+Tööde loendis on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutatud numbritele.
 
 1. **Valimise veerg** – kõige vasakpoolsem veerg kasutab märkeid, mis viitavad töödele, mille töötaja on valinud. Töötajad saavad loendist valida korraga mitu tööd. Kõigi loendis olevate tööde valimiseks märkige veerupäises ruut. Kui valitud on üks töö, kuvatakse selle töö üksikasjad lehe alumises osas.
 1. **Töö oleku veerg** – see veerg kasutab iga töö oleku kuvamiseks sümboleid. Tööde, millel pole selles veerus sümbolit, olek on *Pole alustatud*. Roheline kolmnurk tähistab töid, mille olek on *Alustatud*. Kaks kollast vertikaalset rida tähistavad töid, mille olek on *Peatatud*.
@@ -60,9 +59,11 @@ Tööde loendis on järgmised veerud. (Numbrid vastavad eelmisel joonisel kujuta
 
 ## <a name="active-jobs-tab"></a>Vahekaart Aktiivsed tööd
 
+**Aktiivsete tööde** vahekaardid kuvavad kõikide tööde loendi, mida sisse logitud töötaja on juba alustanud. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
+
 ![Vahekaart Aktiivsed tööd](media/pfei-active-jobs-tab.png "Vahekaart Aktiivsed tööd")
 
-Vahekaardi **Aktiivsed tööd** tööde loendis on järgmised veerud.
+Aktiivsete tööde loendis on järgmised veerud.
 
 - **Valimise veerg** – kõige vasakpoolsem veerg kasutab märkeid, mis viitavad töödele, mille töötaja on valinud. Töötajad saavad loendist valida korraga mitu tööd. Kõigi loendis olevate tööde valimiseks märkige veerupäises ruut. Kui valitud on üks töö, kuvatakse selle töö üksikasjad lehe alumises osas.
 - **Tellimus** – selles veerus kuvatakse töö tootmistellimuse number.
@@ -72,6 +73,28 @@ Vahekaardi **Aktiivsed tööd** tööde loendis on järgmised veerud.
 - **Lõpetatud** – selles veerus kuvatakse kogus, mis on selle töö jaoks juba lõpetatud.
 - **Maha kantud** – selles veerus kuvatakse kogus, mis on selle töö jaoks juba maha kantud.
 - **Järelejäänud** – selles veerus kuvatakse selle töö veel lõpetamata kogus.
+
+## <a name="my-machine-tab"></a>Vahekaart Minu masin
+
+Vahekaart **Minu masin** lubab töötajatel valida vara, mis on ühendatud masina ressursiga vahekaardil **Kõik tööd** seatud filtri sees. Siis saab töötaja vaadata valitud vara olekut ja seisundit, lugedes kuni nelja valitud loenduri ning viimaste hooldustaotluste ja registreeritud ületunnitöö väärtused. Töötaja saab nõuda ka valitud vara hooldust ning registreerida ja redigeerida masina töötunde. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
+ 
+![Vahekaart Minu masin](media/pfei-my-machine-tab.png "Vahekaart Minu masin")
+
+Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutatud numbritele.
+
+1. **Masina vara** – valige masina vara, mida soovite jälgida. Alustage nime tippimist, et valida ühtivate varade loendist, või valige tööloendi filtris olevatest ressurssidest kõigi varade loendist valimiseks suurendav ikoon.
+
+    > [!NOTE]
+    > Supply Chain Managementi kasutajad saavad määrata ressursi igale varale vastavalt vajadusele, kasutades lehekülge **Kõik varad** (vahekaardil **Põhivara**, kasutades ripploendit **Ressurss**). Lisateavet leiate teemast [Vara loomine](../asset-management/objects/create-an-object.md).
+
+1. **Sätted** – valige hammasrattaikoon, et avada dialoogiboks, kus saate valida, milliseid loendureid valitud masina vara puhul vaadata. Nende loendurite väärtused kuvatakse vahekaardil **Varahaldus**. Menüü **Sätted** (kuvatakse järgmisel kuvatõmmisel) võimaldab teil lubada kuni neli loendurit. Iga lubatava loenduri puhul kasutage loenduri valimiseks paani ülaosas otsinguvälja. Otsinguväljal loetletakse kõik lehe **Varahaldus** ülaosas valitud varaga seotud loendurid. Määrake iga loendur nii, et see jälgiks kas **koondväärtust** või loenduri viimast **tegelikku** väärtust. Näiteks kui seadistate loenduri, mis jälgib, kui palju tunde on masin töötanud, peaksite selle seadistama väärtusele **Liidetud**. Kui määrate loenduri viimati uuendatud temperatuuri või rühu mõõtmiseks, peaksite selle häälestama väärtusele **Tegelik**. Valige **OK**, et salvestada oma sätted ja sulgeda dialoogiboks.
+
+    ![Vahekaart Minu masin](media/pfei-my-machine-tab-settings.png "Vahekaart Minu masin")
+
+1. **Hooldustaotlus** – valige see nupp dialoogiboksi avamiseks, kus saate luua hooldusnõude. Saate sisestada kirjelduse ja märkuse. Supply Chain Managementi kasutaja tähelepanu juhitakse sellele, kes siis saab seejärel teisendada hooldusnõude hooldustöötellimuseks.
+1. **Seisaku registreerimine** – valige see nupp, et avada dialoogiboks, kus saate registreerida masina seisuaja. Saate valida põhjuse koodi ja sisestada seisakule kuupäeva/ajavahemiku. Masina seisuaja registreerimist kasutatakse masina vara tõhususe arvutamiseks.
+1. **Vaatamine või redigeerimine** – valige see nupp, et avada dialoogiboks, kus saate redigeerida või vaadata olemasolevaid seisuaja kirjeid.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Tootmistööde alustamine ja lõpetamine
 
@@ -124,7 +147,7 @@ Näiteks Contoso töökoja töötaja Shannon soovib osaleda ettevõtte koosoleku
 
 Mõlemal juhul läheb Shannon pärast valiku kinnitamist kas sisselogimislehele või lehele, mis ootab tema kinnitust, et ta on oma kaudselt tegevuselt naasnud. Kuvatav leht sõltub tootmisosakonna käivitusliidese konfiguratsioonist. (Lisateavet leiate teemast [Tootmisosakonna käivitusliidese konfigureerimine](production-floor-execution-configure.md).)
 
-## <a name="working-on-breaks"></a>Pausidega töötamine
+## <a name="registering-breaks"></a>Puhkepauside registreerimine
 
 Töötajad saavad pause registreerida. Pause saab paindlikult määratleda, nagu on kirjeldatud teemas [Tasu registreerimiste põhjal](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ Töötajad saavad avada tööga seotud dokumenti, valides **Juhised**. Nupp **Ju
 1. Töötaja teeb juhendi läbi, et õppida ülesannet.
 
 Lisateavet selle kohta, kuidas luua, määrata ja kasutada HoloLensi juhendeid, vt teemast [Tootmisosakonna töötajatele mõeldud hübriidreaalsuse juhendite tegemine](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

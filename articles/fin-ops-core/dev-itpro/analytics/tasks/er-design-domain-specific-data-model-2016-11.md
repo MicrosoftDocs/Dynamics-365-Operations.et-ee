@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse domeenispetsiifilise andmemudeli kujundamine
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab andmemudelit elektrooniliste maksedokumentide jaoks.
+description: Selles teemas kirjeldatakse, kuidas luua uut elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab elektrooniliste maksedokumentide andmemudelit.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681945"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092687"
 ---
 # <a name="er-design-domain-specific-data-model"></a>Elektroonilise aruandluse domeenispetsiifilise andmemudeli kujundamine
 
@@ -187,6 +187,3 @@ Loote valitud konfiguratsioonile uut andmemudelit. Selle konfiguratsiooni versio
 65. Klõpsake nuppu Salvesta.
 66. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: a41f69958d84fb67b7cd8b6b4c7de38da23552f3
+ms.sourcegitcommit: 2b76d4443b2867205db156648125a894f395a495
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4426704"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5091081"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
@@ -41,21 +40,42 @@ Planeerimise optimeerimise funktsioon ei toeta hetkel kõiki funktsioone, mis on
 
 Enne planeerimise optimeerimise sisselülitamist soovitame teil hinnata planeerimise optimeerimise sobivuse analüüsi tulemusi. Lisateavet vt [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md).
 
-### <a name="availability"></a>Kättesaadavus
-Planeerimise optimeerimine on hetkel kättesaadav järgmistes Azure'i geograafilistes piirkondades: Ameerika Ühendriigid, Kanada, Euroopa, Ühendkuningriik ja Austraalia. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata.
+## <a name="availability"></a>Kättesaadavus
+
+Planeerimise optimeerimine on hetkel kättesaadav järgmistes Azure’i geograafilistes piirkondades: Ameerika Ühendriigid, Kanada, Euroopa, Ühendkuningriik, Austraalia ning Aasia ja Vaikse ookeani piirkond. Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab LCS teate, et seda geograafilist piirkonda ei toetata.
 
 Pange tähele, et planeerimise optimeerimine ei toeta Dynamics 365 Supply Chain Management-i kohapealseid juurutusi.
 
-### <a name="licensing"></a>Litsentsimine
+## <a name="licensing"></a>Litsentsimine
 
 Kui saate käivitada koondplaneerimise oma praegust litsentsi kasutades, ei pea te täiendavat litsentsi ostma, et hakata planeerimise optimeerimist kasutama.
 
-### <a name="install-the-add-in"></a>Lisandmooduli installimine
+## <a name="install-and-enable-planning-optimization"></a>Planning Optimizationi installimine ja lubamine
 
-Planeerimise optimeerimise kasutamiseks installige Dynamics 365 Supply Chain Managementi planeerimise optimeerimise lisandmoodul. Saate kasutada lisandmoodulit oma LCS projektist ja lülitada planeerimise optimeerimise funktsiooni sisse tarneahela halduse kasutajaliidesest.
+Rakenduse Planning Optimization asutamiseks peate veenduma, et teie süsteemil oleksid kõik eeltingimused olemas, ja seejärel lubama selle litsentsivõtme ja installima rakenduse Planning Optimization lisandmooduli rakendusele Dynamics 365 Supply Chain Management.
 
-> [!NOTE]
-> Planeerimise optimeerimise nõue on LCS-i loaga suure kättesaadavusega keskkond, järk 2 või kõrgem, (mitte OneBoxi keskkond) koos Dynamics 365 Supply Chain Management-i versiooniga 10.0.7 või hilisem. Kui proovite paigaldada moodulit OneBoxi keskkonnas, siis ei viida paigaldust lõpule ja te peate paigalduse tühistama.
+### <a name="prerequisites"></a>Eeltingimused
+
+Enne rakenduse Planning Optimization lisandmooduli installimist peavad olema täidetud järgmised eeltingimused.
+
+- Supply Chain Management peab teil töötama LCS-i loaga suure kättesaadavusega keskkonnas, järk 2 või kõrgem, (mitte OneBoxi keskkond) koos rakenduse Dynamics 365 Supply Chain Management versiooniga 10.0.7 või hilisem. Kui proovite paigaldada moodulit OneBoxi keskkonnas, siis ei viida paigaldust lõpule ja te peate paigalduse tühistama.
+
+- Teie süsteem peab olema seadistatud Power Platformi integreerimiseks. Lisateavet vt [Lisandmoodulite seadistamise eeltingimused](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) ja [Lisandmoodulite häälestamine](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+
+### <a name="enable-the-planning-optimization-license"></a>Planning Optimizationi litsentside lubamine
+
+Planning Optimizationi kasutamiseks peate lubama selle konfiguratsioonivõtme. Selleks tehke järgmist.
+
+1. Pange oma süsteem hooldusrežiimi, nagu on kirjeldatud teemas [Hooldusrežiim](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
+1. Valige vahekaardil **Konfiguratsioonivõtmed** märkeruut **Planning Optimization**.
+1. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+### <a name="install-the-planning-optimization-add-in"></a>Planning Optimizationi lisandmooduli installimine
+
+Peate installima lisandmooduli oma LCS projektist ja lülitama seejärel Planning Optimizationi funktsiooni Supply Chain Managementi kasutajaliidesest sisse.
+
+Planning Optimizationi lisandmooduli installimiseks tehke järgmist.
 
 1. Logige LCS-i sisse ja avage soovitud keskkond.
 1. Avage **Kõik üksikasjad**.
@@ -64,16 +84,16 @@ Planeerimise optimeerimise kasutamiseks installige Dynamics 365 Supply Chain Man
 1. Valige **Planeerimise optimeerimine**.
 1. Täitke paigaldusjuhendit ja nõustuge nõuete ja tingimustega.
 1. Valige **Installi**.
-1. Kiirkaardil **Keskkonna lisandmoodulid** peaksite nägema, et planeerimise optimeerimine on installitud.
+1. Kiirkaardil **Keskkonna lisandmoodulid** peaksite nägema, et Planning Optimization on installitud.
 1. Mõne minuti pärast peaks olek **Installimine** muutuma olekuks **Installitud** (võimalik, et peate lehte värskendama). Kui installimine on lõpetatud, olete valmis aktiveerima optimeerimise plaanimise rakenduses Dynamics 365 Supply Chain Management.
 
-Planeerimise optimeerimise lisandmooduli installimise peamine eesmärk on ühendada teenus ja keskkond. Seetõttu peate installima lisandmooduli eraldi igasse keskkonda, kus te kasutate planeerimise optimeerimist, olenemata mis tahes koodist, mis on teisaldatud keskkondade vahel.
+Planning Optimizationi lisandmooduli installimise peamine eesmärk on ühendada teenus ja keskkond. Seetõttu peate installima lisandmooduli eraldi igasse keskkonda, kus te kasutate planeerimise optimeerimist, olenemata mis tahes koodist, mis on teisaldatud keskkondade vahel.
 
-### <a name="planning-optimization-integration"></a>Planeerimise optimeerimise integreerimine
+## <a name="integrate-planning-optimization-with-your-system"></a>Planning Optimizationi integreerimine süsteemiga
 
 Konfigureerimaks, kas planeerimise optimeerimise lisandmoodulit peaks koondplaneerimise jaoks kasutama, avage **Koondplaneerimine** \> **Seadistamine** \> **Optimeerimise parameetrite plaanimine**.
 
-#### <a name="connection-status"></a>Ühenduse olek
+### <a name="connection-status"></a>Ühenduse olek
 
 Ühenduse olek näitab tarneahela halduse ja planeerimise optimeerimise teenuse vahelise ühenduse hetkeolekut. Järgmine tabel näitab võimalikke väärtuseid.
 
@@ -85,7 +105,7 @@ Konfigureerimaks, kas planeerimise optimeerimise lisandmoodulit peaks koondplane
 | Ühenduse katkestamine | Planeerimise optimeerimise teenuse ühendamise väljalülitamise taotlus on praegu tööd. | Ei |
 | Oleku hankimine | Süsteem ootab planeerimise optimeerimise teenuselt oleku teavet. | Ei |
 
-#### <a name="the-use-planning-optimization-option"></a>Planeerimise optimeerimise kasutamise suvand
+### <a name="the-use-planning-optimization-option"></a>Planeerimise optimeerimise kasutamise suvand
 
 Suvandi **Planeerimise optimeerimise kasutamine** säte määrab, millist planeerimismootorit koondplaneerimiseks kasutatakse.
 
@@ -112,6 +132,3 @@ Kui planeerimise optimeerimine on sisse lülitatud, tehakse koondplaneerimine pl
 [Plaanile filtrite rakendamine](plan-filters.md)
 
 [Planeerimistöö tühistamine](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669162"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080034"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (2. detsember 2020)
 
@@ -61,7 +60,7 @@ See väljalase hõlmab järgmisi veaparandusi.
 | 514087 | BenefitEligibilityProcessResult peaks sisaldama kuupäeva ja kellaaega, mida kasutati töötlemisel. | BenefitEligibity töötlemise tulemuses on nüüd viimase töötluse datetimestamp, mis varem puudus. |
 | 526903 | Soodustuste registreerimine nurjub sõltuvate isikutega lepingute puhul, kui jaotises **Human Resourcesi ühiskasutuses parameetrid** lülitatakse sisse suvand **Volitatud isikute automaatne valimine**. | Lahendati probleem, kus soodustuste registreerimine nurjus sültuvate isikute puhul, kui suvand **Volitatud isikute automaatne valimine** oli volitatud isikute korral vaikimisi sisse lülitatud. |
 | 521922 | Parameeter **Kuva puudumine ilma üksikasjadeta** näitab vaba aja taotlusi töörühma puudumiste kalendris. | Puhkuse tüüp, puhkuse tüübi värv ja päeva üksikasjad kuvatakse töörühma puudumiste kalendris, kui jaotise **Puhkuste ja puudumiste parameetrid** parameetri **Kuva puudumine ilma üksikasjadeta** väärtuseks määrati **Jah**. See probleem lahendati ja nüüd puhkuse tüüpi ei kuvata ja vaikimisi puhkuse tüübi värvi (tumesinist) kasutatakse kõigi puhkuse tüüpide jaoks töörühma puudumiste kalendris. |
-| 527316 | Töö, ametikoha ja töötaja teatise pealkirju ei sünkroonita. | Pealkirjaseos lisati varem töö-, ametikoha- ja töötajaüksusele. Selle seose sünkroonimine töötab Human Resourcesi sünkroonimisel teenusega Common Data Service, kuid ei töötanud teenuse Common Data Service saadetud teatiste korral. See probleem lahendati. |
+| 527316 | Töö, ametikoha ja töötaja teatise pealkirju ei sünkroonita. | Pealkirjaseos lisati varem töö-, ametikoha- ja töötajaüksusele. Selle seose sünkroonimine töötab Human Resourcesi sünkroonimisel teenusega Dataverse, kuid ei töötanud teenuse Dataverse saadetud teatiste korral. See probleem lahendati. |
 | 512275 | Jaotisest **Puhkuste ja puudumiste parameetrid** eemaldati värvivalikud. | Nüüd, kui värve määratletakse puhkusetüübiga, ei ole värvivalik enam jaotises **Puhkuste ja puudumiste parameetrid** vajalik, mistõttu see eemaldati. |
 | 437112 | Töötaja ametikoha määramisel kuvatakse eksitav tõrketeade. | Värskendati tõrketeadet, mis kuvatakse töötaja palkamisel ja kui töötajat püütakse määrata ametikohale, mis pole aktiivne. Teadet värskendati: „**Määratud ametikoht pole töösuhte alguskuupäeval aktiivne. Kontrollige ametikoha kestust.**“ |
 | 527816 | Jõudlusprobleemid lehel **Vaba aeg**. | Lehe **Vaba aeg** jõudlust parandati. |
@@ -92,6 +91,3 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Dynamics 365 Human Resourcesi 2020. aasta väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

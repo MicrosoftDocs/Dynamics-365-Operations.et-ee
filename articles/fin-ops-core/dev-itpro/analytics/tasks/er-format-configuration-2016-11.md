@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)
-description: Selles teemas kirjeldatakse, kuidas rollis „Süsteemi administraator“ või „Elektroonilise aruandluse arendaja“ olev kasutaja saab luua elektroonilise aruandluse (ER) vormingu seadistuse.
+description: Selles teemas selgitatakse, kuidas luua elektroonilise aruandluse (ER) vormingu konfiguratsiooni.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/02/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4cd3960594ab37ca867792c655cfd28dc332fa9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9404d1e242c83d2103d1f24c42589c33b9f57f02
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684759"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092246"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)
 
@@ -158,6 +158,3 @@ Selles teemas kirjeldatakse, kuidas rollis „Süsteemi administraator“ või �
 42. Klõpsake nuppu **Salvesta**.
 43. Sulgege leht.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6a1620c33ee1e23a79ef5413afebdee332aa82b6
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 5223bdfbc0f5828b5dccac30362783075ce8157f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645013"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044368"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Masinõppemudelite tulemused (eelversioon)
 
@@ -37,7 +36,7 @@ Pärast seda kui jälgitav ML-i probleem on ajalooliste andmete komplekti põhja
 
 Näiteks teie eesmärk on ennustada, kas lemmikloom on koer või kass, mis põhineb osadel füüsilistel ja käitumuslikel atribuutidel. Kui teil on testimise andmekomplektis 30 koera ja 20 kassi, võib segaduse maatriks sarnaneda järgmise illustratsiooniga.
 
-[![Liikide prognoosimise näide](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+![Liikide prognoosimise näide](media/species-prediction-matrix.png)
 
 Roheliste lahtrite numbrid tähistavad õigeid prognoose. Nagu näete, mudel ennustas protsentuaalselt suurema osa kassidest õigesti. Mudeli üldist täpsust on lihtne arvutada. Sel juhul on see 42 ÷ 50 või 0,84.
 
@@ -47,7 +46,7 @@ Enamik arutelusid segaduse maatriksis on keskendunud binaarsetele klassifikaator
 
 Järgmiseks vaatleme kolme olekuga finantsstsenaariumi klassifitseerimisprobleemi. Mudel ennustab, kas kliendiarve tasutakse õigel ajal, hilja või väga hilja. Näiteks 100 testarve seast 50 tasuti õigeaegselt, 35 tasuti hilja ja 15 tasuti väga hilja. Sel juhul võib mudel tekitada segaduse maatriksi, mis sarnaneb järgmise illustratsiooniga.
 
-[![Mudel 1](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png) Mudel 1
+![Mudel 1](media/payment-prediction-matrix.png)]
 
 Segaduse maatriks annab oluliselt rohkem teavet kui lihtne täpsusmõõdik. Samas see on seda suhteliselt lihtne mõista. Segaduse maatriks näitab, kas teil on tasakaalustatud andmekogum, kus väljundklassidel on sarnased arvud. Mitmeklassilise stsenaariumi puhul näitab see, kui kaugel võib ennustus olla, kui väljundklassid on järgklassid, nagu eelmises näites kliendimaksete kohta.
 
@@ -58,7 +57,7 @@ Kuna täpsus on kergesti mõistetav, on see hea lähtepunkt mudeli selgitamiseks
 
 Samas põhjalikuma arusaamise huvides tuleks siiski pöörata tähelepanu mitmetele täpsusega seotud probleemile. Mõõdik sõltub probleemi kontekstist. Küsimus, mis sageli tekib seoses mudeli tulemuslikkusega, on: „Kui hea mudel on?” Kuid vastata sellele küsimusele ei ole tingimata lihtne. Kaaluge järgmist segiajamise maatriksit (mudel 2).
 
-[![Makse ennustamise näide suurema näidisega](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
+![Makse ennustamise näide suurema näidisega](media/payment-prediction-matrix-2.png)
 
 Kiire kalkulatsioon näitab, et selle mudeli täpsus on (70 + 10 + 3) ÷ 100 või 0,83. Eemalt vaadates tundub, et tulemus on parem kui eelmise mitme klassi mudeli tulemus (mudel 1), mis oli 0,73 täpsusega. Aga kas see on parem?
 
@@ -103,7 +102,7 @@ F1 mõõt ühendab täpsust ja tagasikutsumist. Tulemuseks on kahe väärtuse ha
 
 Vaatame konkreetset näidet. Selle teema alguses oli näide mudelist, mis ennustas, kas loom on koer või kass. Illustratsiooni korratakse siin.
 
-[![Liikide prognoosimise näide](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Liikide prognoosi näide (korduv)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Siin on tulemused, kui positiivse vastusena kasutatakse valikut „koer”.
 
@@ -115,11 +114,11 @@ Nagu näete, on F1 väärtus täpsuse ja tagasikutsumise väärtuste vahel.
 
 Kuigi F1 täpsust ei ole nii lihtne mõista, lisab see nüansse täpsuse üldise täpsuse numbrile. Samuti võib see aidata tasakaalustamata andmekogumite puhul, kuna kuvatakse järgmine arutelu.
 
-Selle teema jaotises [Mudeli täpsus](#classify-machine-learning-accuracy) võrreldi järgmisi kahte segiajamise maatriksit. Kuigi esimesel mudelil oli madalam täpsus, peeti seda kasulikumaks mudeliks, sest see näitas suuremat paranemist, kui õigeaegselt tasumine.
+Selle teema jaotises [Mudeli täpsus](#model-accuracy) võrreldi järgmisi kahte segiajamise maatriksit. Kuigi esimesel mudelil oli madalam täpsus, peeti seda kasulikumaks mudeliks, sest see näitas suuremat paranemist, kui õigeaegselt tasumine.
 
-[![Makse ennustus vs. tegelike näide](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png)
+![Makse ennustus vs. tegelike näide](media/payment-prediction-matrix.png)
 
-[![Makse ennustamise näide suurema näidisega](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
+![Makseprognoosi näide suurema valimiga (korduv)](media/payment-prediction-matrix-2.png)
 
 Vaatame, kuidas neid kahte mudelit võrreldakse, kui kasutatakse F1 skoori. F1 skoori koefitsiendi täpsusega ja tagasikutsumisega on iga oleku jaoks ja F1 makro arvutamine seejärel keskmiselt F1 skoor kõikide olekute üleselt, et määrata üldine F1 skoor. On ka teisi F1 variante, kuid suurem huvi on kasutada makro versiooni, arvestades kõigi kolme oleku võrdset kaalumist.
 
@@ -142,6 +141,3 @@ Need tulemused näitavad, et kahel mudelil on peaaegu identne F1 makro täpsuse 
 
 #### <a name="privacy-notice"></a>Privaatsusavaldus
 Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

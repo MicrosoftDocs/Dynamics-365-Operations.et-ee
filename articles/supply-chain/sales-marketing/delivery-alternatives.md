@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 271623
 ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 48cc8974cc8a8769b3d05f47f82166164e877ae5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 829775e36a2d49ebbab5c719436cff4c92984635
+ms.sourcegitcommit: ca7fc46607ae9d07725e1486b43c66d39ec5cdb5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426301"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035262"
 ---
 # <a name="delivery-alternatives"></a>Tarne alternatiivid
 
@@ -35,18 +34,20 @@ Müügitellimuse vastuvõtjad saavad alternatiivsete tellimuse täitmise valikut
 Lehepaigutus **Tarne alternatiivid** annab ülevaate alternatiivsetest valikutest. See võimaldab tellimuse vastuvõtjatel vaadata täitmise võimalusi ka praegusest ettevõttest väljaspool. Nüüd saavad nad vaadata nii kontsernisiseseid kui ka väliste hankijate pakutavaid võimalusi. Valikute sortimiseks tarnekuupäeva järgi saavad müügitellimuste vastuvõtjad vaadata tarnealternatiivide arukat loendit. Peale selle aitavad parameetrid neil soovitatud tarneid paremini hallata. Kuna transpordiaeg võib mõjutada tarnekuupäevi, saavad müügitellimuse vastuvõtjad uurida vedajate pakutavaid erinevaid transpordivalikuid. Kuna iga soovituse kohta kuvatakse üksikasjalikku teavet, saavad tellimuste vastuvõtjad teha teadlikke otsuseid otse lehel **Tarnealternatiivid**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Lehe Tarnealternatiivid avamine
+
 Lehe **Tarne alternatiivid** saate avada müügitellimuse realt.
 
-1.  Klõpsake valikuid **Tooted ja tarne** &gt; **Tarnealternatiivid**.
-2.  Klõpsake valikuid **Rea üksikasjad** &gt; **Tarne** &gt; **Tarnealternatiivid**.
+1. Valige **Tooted ja tarne \> Tarnealternatiivid**.
+1. Valige **Rea üksikasjad \> Tarne \> Tarne alternatiivid.**
 
-Saate lehe **Tarnealternatiivid** avada ka tööruumist **Müügitellimuse töötlemine ja päring**, klõpsates valikuid **Tellimused ja lemmikud** &gt; **Hilinenud tellimuse read** &gt; **Tarnealternatiivid**. **Märkus.** Saate avada lehe **Tarnealternatiivid** ainult siis, kui mõlemad järgmised tingimused on täidetud.
+Saate lehe **Tarnealternatiivid** avada ka tööruumist **Müügitellimuse töötlemine ja päring**, valides suvandi **Tellimused ja lemmikud \> Hilinenud tellimuse read \> Tarnealternatiivid**. **Märkus.** Saate avada lehe **Tarnealternatiivid** ainult siis, kui mõlemad järgmised tingimused on täidetud.
 
--   Kogu kohustuslik müügireateave on sisestatud.
--   Välja **Tarnekuupäeva kontroll** väärtuseks on valitud muu väärtus kui **Pole**.
+- Kogu kohustuslik müügireateave on sisestatud.
+- Välja **Tarnekuupäeva kontroll** väärtuseks on valitud muu väärtus kui **Pole**.
 
 ## <a name="delivery-date-control-methods"></a>Tarnekuupäeva kontrollimeetodid
-Tarnekuupäeva kontrollimeetod määrab, kuidas süsteem loob tarnekuupäevi, kuidas tarnekuupäevi arvutatakse ja millist teavet kuvatakse. Pange tähele, et tarne andmete kontroll võtab arvesse kalendreid. Seetõttu võivad soovitatud vastuvõtukuupäeva mõjutada järgmised kalendrid: laokalender, transpordikalender, hankija kalender ja kliendi kalender. Järgmises tabelis kirjeldatakse iga tarnekuupäeva kontrollimeetodit.
+
+Tarnekuupäeva kontrollimeetod määrab, kuidas süsteem loob tarnekuupäevi, kuidas tarnekuupäevi arvutatakse ja millist teavet kuvatakse. Pange tähele, et tarne kuupäeva kontroll võtab arvesse kalendreid. Seetõttu võivad soovitatud vastuvõtukuupäeva mõjutada järgmised kalendrid: laokalender, transpordikalender, hankija kalender ja kliendi kalender. Järgmises tabelis kirjeldatakse iga tarnekuupäeva kontrollimeetodit.
 
 <table>
 <colgroup>
@@ -59,9 +60,9 @@ Tarnekuupäeva kontrollimeetod määrab, kuidas süsteem loob tarnekuupäevi, ku
 <td><strong>Kirjeldus</strong></td>
 </tr>
 <tr class="even">
-<td><strong>pole</strong></td>
+<td><strong>None</strong></td>
 <td><ul>
-<li>Tarnealternatiive müügiridade puhul ei toetata. See suvand lülitab tarne andmete kontrolli välja.</li>
+<li>Tarnealternatiive müügiridade puhul ei toetata. See suvand lülitab tarne kuupäeva kontrolli välja.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -102,57 +103,50 @@ Tarnekuupäeva kontrollimeetod määrab, kuidas süsteem loob tarnekuupäevi, ku
 </table>
 
 ## <a name="view-information-about-delivery-alternatives"></a>Tarnealternatiivide teabe kuvamine
-Selles jaotises kirjeldatakse teavet saadaolevate tarnealternatiivide kohta igal lehe **Tarnealternatiivid** lehel.
 
-### <a name="products"></a>Tooted
+Selles jaotises kirjeldatakse teavet saadaolevate tarnealternatiivide kohta igal lehe **Tarnealternatiivid** kiirkaardil.
 
-Sellel vahekaardil kuvatakse toote kokkuvõte ja praeguse müügirea üksikasjad.
+### <a name="the-product-fasttab"></a>Toote kiirkaart
 
-### <a name="delivery-alternatives"></a>Tarne alternatiivid
+Sellel kiirkaardil kuvatakse toote kokkuvõte ja praeguse müügirea üksikasjad.
 
-Sellel vahekaardil kuvatakse tarnealternatiivide loend, mis on sorditud andmete vastuvõtu järgi. Loendi kohal saate valida, millistel valikutel peaksid soovitused põhinema. Saate valida ka tarneviisi, mis määrab ära transpordipäevad. Valikud on järgmised:
+### <a name="the-delivery-alternatives-fasttab"></a>Kiirkaart Tarnealternatiivid
 
--   **Kaasa muud tootevariandid** – see valik on saadaval tootevariantidega toodete puhul. See hõlmab toote muude variantide tarnealternatiive. See valik pole CTP puhul saadaval.
--   **Kaasa osaline kogus** – vaikimisi kaasatakse ainult soovitused, mis täidavad müügirea täieliku koguse. Valige see suvand soovituste kaasamiseks, mis täidavad tellimuserea ainult osaliselt. See valik on kasulik, kui klient nõuab varasemat tarnekuupäeva ja nõustub osalise tarnega.
--   **Kaasa hilisemad kuupäevad** – vaikimisi kuvatakse ainult soovitused, mis on paremad (varasemad) kui praegused kuupäevad müügireal. Valige see suvand hilisemate kuupäevade kaasamiseks. See suvand võib olla kasulik olukordades, kus prioriteet on muudel parameetritel kui kuupäev. Näiteks võib eelistatud olla kindel hankija või ladu.
--   **Tarneviis** – saate valida transpordiaja ja -kulu optimeerimiseks eelistatud tarneviisi. Näete mõju soovitatud tarnealternatiividele kohe. Seega on alternatiive lihtne võrrelda.
--   **Kaasa hange** – hanke valimisel hõlmavad soovitatud tarnealternatiivid valikuid hankimiseks nii välistelt hankijatelt kui ka teistelt kontserni ettevõtetelt (kontsernisiseselt). Valikut **Kaasa hange** toetatakse ATP ja ATP + väljamineku ohutusvaru tarnekuupäeva kontrolli puhul. Kaasatakse kõik hankevalikud toote vaike-ostuhankijalt ja kõigilt toote kinnitatud hankijatelt.
--   Väliste hankijate puhul põhineb arvutus ostu täitmisajal.
--   Kontsernisisese valiku puhul võtab arvutus arvesse, mis on hankeettevõttelt saadaval, arvestades hankeettevõtte tarnekuupäeva kontrolli.
--   **Tarnetüüp** (hankimisel)
-    -   **Varud** – tooted saadetakse hankelaost müügireal toodud tegevuskohta/lattu. Seejärel saadetakse need laost kliendile.
-    -   **Otsetarne** – -tooted saadetakse hankelaost otse kliendile.
+Sellel kiirkaardil kuvatakse tarnealternatiivide loend, mis on sorditud vastuvõtu kuupäeva järgi. Loendi kohal saate valida, millistel valikutel peaksid soovitused põhinema. Saate valida ka tarneviisi, mis määrab ära transpordipäevad. Valikud on järgmised:
 
-### <a name="availability-information"></a>Saadavusteave
+- **Kaasa muud tootevariandid** – see valik on saadaval tootevariantidega toodete puhul. See hõlmab toote muude variantide tarnealternatiive. See valik pole CTP puhul saadaval.
+- **Kaasa osaline kogus** – vaikimisi kaasatakse ainult soovitused, mis täidavad müügirea täieliku koguse. Valige see suvand soovituste kaasamiseks, mis täidavad tellimuserea ainult osaliselt. See valik on kasulik, kui klient nõuab varasemat tarnekuupäeva ja nõustub osalise tarnega.
+- **Kaasa hilisemad kuupäevad** – vaikimisi kuvatakse ainult soovitused, mis on paremad (varasemad) kui praegused kuupäevad müügireal. Valige see suvand hilisemate kuupäevade kaasamiseks. See suvand võib olla kasulik olukordades, kus prioriteet on muudel parameetritel kui kuupäev. Näiteks võib eelistatud olla kindel hankija või ladu.
+- **Tarneviis** – saate valida transpordiaja ja -kulu optimeerimiseks eelistatud tarneviisi. Näete mõju soovitatud tarnealternatiividele kohe. Seega on alternatiive lihtne võrrelda.
+- **Kaasa hange** – hanke valimisel hõlmavad soovitatud tarnealternatiivid valikuid hankimiseks nii välistelt hankijatelt kui ka teistelt kontserni ettevõtetelt (kontsernisiseselt). Valikut **Kaasa hange** toetatakse ATP ja ATP + väljamineku ohutusvaru tarnekuupäeva kontrolli puhul. Kaasatakse kõik hankevalikud toote vaike-ostuhankijalt ja kõigilt toote kinnitatud hankijatelt.
+- Väliste hankijate puhul põhineb arvutus ostu täitmisajal.
+- Kontsernisisese valiku puhul võtab arvutus arvesse, mis on hankeettevõttelt saadaval, arvestades hankeettevõtte tarnekuupäeva kontrolli.
+- **Tarnetüüp** (hankimisel)
+  - **Varud** – tooted saadetakse hankelaost müügireal toodud tegevuskohta/lattu. Seejärel saadetakse need laost kliendile.
+  - **Otsetarne** – -tooted saadetakse hankelaost otse kliendile.
 
-Selle vahekaardi teave on seotud valitud tarnealternatiivi reaga. Olenevalt müügitellimuse tarnekuupäeva kontrollist kuvatakse järgmine teave.
+### <a name="the-availability-information-fasttab"></a>Kiirkaart Kättesaadavuse teave
 
--   **Müügi täitmisaeg**
-    -   **Saadaval täna** – kuvatakse praegune füüsiliselt vaba kaubavaru, füüsiliselt reserveeritud ja füüsiliselt saadaolevad varud.
-    -   **Parameetrid** – kuvatakse varude ühik ja müügi täitmisaeg.
+Selle kiirkaardi teave on seotud valitud tarnealternatiivi reaga. Olenevalt müügitellimuse tarnekuupäeva kontrollist kuvatakse järgmine teave.
 
--   **ATP ja ATP + väljamineku ohutusvaru**
-    -   **Saadaval täna** – kuvatakse praegune füüsiliselt vaba kaubavaru, füüsiliselt reserveeritud ja füüsiliselt saadaolevad varud.
-    -   **Parameetrid** – kuvatakse varude ühik ja müügi täitmisaeg.
-    -   **Kättesaadavus tulevikus** – kuvatakse graafilisel kujul praegune ja tulevane kättesaadavus jaotises **Tarnealternatiivid** valitud tegevukoha ning lao kohta. Toote tulevikus saadavuse kohta üksikasjalikuma teabe nägemiseks klõpsake diagrammi veerge. Liugur näitab asjakohaste nõudlus- ja tarnetellimuste loendit ATP ajavahemikus.
+- **Müügi täitmisaeg**
+  - **Saadaval täna** – kuvatakse praegune füüsiliselt vaba kaubavaru, füüsiliselt reserveeritud ja füüsiliselt saadaolevad varud.
+  - **Parameetrid** – kuvatakse varude ühik ja müügi täitmisaeg.
 
--   **CTP**
-    -   **Saadaval täna** – kuvatakse praegune füüsiliselt vaba kaubavaru, füüsiliselt reserveeritud ja füüsiliselt saadaolevad varud.
-    -   **Parameetrid** – kuvatakse varude ühik ja müügi täitmisaeg.
-    -   **Koosnevusarvutus** – kuvatakse koosnevusarvutus valitud tarnealternatiivi kohta. Koosnevusarvutuses kuvatavate väljade ja varude dimensioonide muutmiseks saate kasutada jaotist **Seadistus**.
+- **ATP ja ATP + väljamineku ohutusvaru**
+  - **Saadaval täna** – kuvatakse praegune füüsiliselt vaba kaubavaru, füüsiliselt reserveeritud ja füüsiliselt saadaolevad varud.
+  - **Parameetrid** – kuvatakse varude ühik ja müügi täitmisaeg.
+  - **Kättesaadavus tulevikus** – kuvatakse graafilisel kujul praegune ja tulevane kättesaadavus jaotises **Tarnealternatiivid** valitud tegevukoha ning lao kohta. Toote tulevikus saadavuse kohta üksikasjalikuma teabe nägemiseks valige diagrammi veerud. Liugur näitab asjakohaste nõudlus- ja tarnetellimuste loendit ATP ajavahemikus.
 
-### <a name="impact-of-selected-alternative"></a>Valitud alternatiivi mõju
+- **CTP**
+  - **Saadaval täna** – kuvatakse praegune füüsiliselt vaba kaubavaru, füüsiliselt reserveeritud ja füüsiliselt saadaolevad varud.
+  - **Parameetrid** – kuvatakse varude ühik ja müügi täitmisaeg.
+  - **Koosnevusarvutus** – kuvatakse koosnevusarvutus valitud tarnealternatiivi kohta. Koosnevusarvutuses kuvatavate väljade ja varude dimensioonide muutmiseks saate kasutada jaotist **Seadistus**.
 
-Sellel vahekaardil on toodud esile valitud tarnealternatiivi mõju. Kui klõpsate **OK**, värskendatakse müügirida VALITUD veergudel esiletõstetud väärtustega. Pange tähele, et kui valitud tarnealternatiivi kogus on väiksem kui müügirea kogus, luuakse tarnegraafik ja tellimuserida tükeldatakse kaheks reaks: üks rida valitud koguse jaoks ja teine rida ülejäänud koguse jaoks. Saate värskendada ka äriandmete rida, et see vastaks graafiku ridadele ja mõjutaks hinda.
+### <a name="the-impact-of-selected-alternative-fasttab"></a>Kiirkaart Valitud alternatiivi mõju
 
-<a name="additional-resources"></a>Lisaressursid
---------
+Sellel kiirkaardil on toodud esile valitud tarnealternatiivi mõju. Kui valite **OK**, värskendatakse müügirida VALITUD veergudel esiletõstetud väärtustega. Pange tähele, et kui valitud tarnealternatiivi kogus on väiksem kui müügirea kogus, luuakse tarnegraafik ja tellimuserida tükeldatakse kaheks reaks: üks rida valitud koguse jaoks ja teine rida ülejäänud koguse jaoks. Saate värskendada ka äriandmete rida, et see vastaks graafiku ridadele ja mõjutaks hinda.
+
+## <a name="additional-resources"></a>Lisaressursid
 
 [Tellimuse lubamine](delivery-dates-available-promise-calculations.md)
-
-
-
-
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

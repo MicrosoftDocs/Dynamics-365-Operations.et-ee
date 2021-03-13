@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus Elektrooniliste dokumentide loomine vormingu konfiguratsiooni kasutavate maksete jaoks
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad kasutada uue elektroonilise aruandluse (ER) vormingu konfiguratsiooni elektrooniliste dokumentide loomiseks maksete töötlemise puhul.
+description: Selles teemas kirjeldatakse, kuidas kasutada uut elektroonilise aruandluse (ER) vormingu konfiguratsiooni, et luua maksete töötlemiseks elektrooniline dokument.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 816f98660a5508ada203f49a71e0785548fb9a31
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681729"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092196"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Elektrooniline aruandlus Elektrooniliste dokumentide loomine vormingu konfiguratsiooni kasutavate maksete jaoks
 
@@ -81,6 +81,3 @@ Etappide lõpuleviimiseks peate esmalt läbima etapid protseduuris Maksedokumend
 25. Klõpsake nuppu OK.
     * Analüüsige loodud maksefaili XML-vormingus. Võrrelge seda koostatud dokumendi paigutusega ja määratletud maksekande atribuutidega.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

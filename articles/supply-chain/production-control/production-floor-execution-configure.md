@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664292"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077473"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -65,6 +64,12 @@ See funktsioon lisab nupu ootmisosakonna käivitusliidesele, mis võimaldab tö�
 
 - Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Tootmisosakonna täideviimisliidese varahoolduse funktsioon
+
+See funktsioon lisab tootmisosakonna täideviimisliidesele varahalduse vahekaardi. Töötajad saavad kasutada seda vahekaarti, et valida vara, mis on ühendatud tööloendi valitud filtriga masinaressursiga. Valitud masina vara puhul saab töötaja vaadata vara olekut ja seisundit loenduri väärtustest kuni nelja valitud loenduri puhul. Kui soovite seda funktsiooni kasutada, lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.
+
+- Tootmisosakonna täideviimisliidese varahoolduse funktsioon
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Tootmisosakonna käivituskonfiguratsioonidega töötamine
 
 Seadme konfiguratsioonide loomiseks ja haldamiseks avage **Tootmise juhtimine \> Seadistus \> Tootmise käivitamine \> Tootmisosakonna käivituse konfigureerimine**. Lehel **Tootmisosakonna käivituste konfigureerimine** kuvatakse olemasolevate konfiguratsioonide loend. Sellel lehel saate teha järgmisi toiminguid.
@@ -94,6 +99,3 @@ Pakett-töö puhastab regulaarselt viitetabeli kirjeid seadmetel, kus pole viima
 1. Valige toimingupaanil **Kliendi konfiguratsioonide puhastamine**.
 1. Määrake dialoogiboksis **Kliendi konfiguratsioonide puhastamine** väljale **Päevade arv** passiivsete päevade arv (enne tänast), mida arvesse võtta. Saate eemaldada kõik konfiguratsioonid ja sisselogimise kirjed seadmetel, mis pole olnud selle aja jooksul aktiivsed.
 1. Valige **OK**, et puhastada asjakohased konfiguratsioonid sätte **Päevade arv** põhjal.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Elektroonilise aruandluse avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid
-description: Juhendis kirjeldatakse, kuidas taaskasutada olemasolevat rakendusloogikat elektroonilise aruandluse (ER) konfiguratsioonides, kutsudes ER-i rakendusklasside vajalikke meetodeid.
+description: Selles teemas kirjeldatakse, kuidas taaskasutada olemasolevat rakendusloogikat elektroonilise aruandluse konfiguratsioonides, kutsudes rakendusklasside vajalikke meetodeid.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682017"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092081"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Elektroonilise aruandluse avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid
 
@@ -157,6 +157,3 @@ Testimiseks käivitage vorminduse vastendamine allalaaditud failiga SampleIncomi
 2. Klõpsake nuppu OK.
     * Vaadake väljund üle XML-vormingus, mis tähistab valitud failist imporditud ja andmemudelisse porditud andmeid. Pange tähele, et töödeldi imporditud TXT-faili ainult 3 rida. 4. real olev kehtetu IBAN-kood jäeti vahele ja teabelogisse lisatakse tõrketeade.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

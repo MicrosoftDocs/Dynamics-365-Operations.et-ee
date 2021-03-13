@@ -1,6 +1,6 @@
 ---
 title: Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
-description: See teema selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide genereerimiseks OPENXML-vormingus.
+description: Selles teemas kirjeldatakse, kuidas luua uut elektroonilise aruandluse konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide OPENXML-vormingus loomiseks.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/12/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b832961061d05e3f1ae046f820bc7a37baaf90c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681897"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092662"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
 
@@ -150,6 +150,3 @@ Etappide lõpuleviimiseks, peate esmalt läbima teemas „Pakkuja konfiguratsioo
 17. Kirjutage välja **Pangakonto** järgmist: `GBSI OPER`.
 18. Valige **OK** ja seejärel taas **OK**. Vaadake loodud tööleht üle, sh makseridade üksikasjad kui ka selles makseteates kasutatud iga valuutakoodi summad.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,36 +1,33 @@
 ---
-title: Varahalduse mobiilne tööruum
+title: Varahalduse mobiilse tööruumi kasutamine
 description: See teema annab teavet varahalduse tööruumi kohta.
 author: josaw1
 manager: tfehr
-ms.date: 10/01/2019
+ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 525f21d076027f1bf339e59fd0e346706044839c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: afda807714f14efb1cbab4ecfdd273aac52f4558
+ms.sourcegitcommit: 995c678b4715be267f1f97148902a6b3dde3bcab
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426086"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5033148"
 ---
-# <a name="asset-management-mobile-workspace"></a>Varahalduse mobiilne tööruum
+# <a name="use-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumi kasutamine
 
 [!include [banner](../../includes/banner.md)]
 
-
-See teema annab teavet varahalduse tööruumi kohta. See tööruum võimaldab kasutajatel vaadata ja luua hooldusnõudeid ja töökäske. Kasutajad saavad määratud töökäsu töösid vaadata ka kalendri- või loendivaates. Samuti saab vaadata ja otsida varasid ja töö asukohti.
-
+See teema annab teavet mobiilse tööruumi **Varahaldus** kohta. See tööruum võimaldab kasutajatel vaadata ja luua hooldusnõudeid ja töökäske. Kasutajad saavad määratud töökäsu töösid vaadata ka kalendri- või loendivaates. Samuti saab vaadata ja otsida varasid ja töö asukohti.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -44,215 +41,201 @@ Täpsemalt võimaldab mobiilne tööruum **Varade haldamine** teha kasutajatel j
 - Luua, vaadata ja redigeerida töökäsu töid, uuendada varaloendureid, vaadata hoolduse kontrollnimekirja, vaadata ja redigeerida töökäsu töö märkmeid, vaadata töökäsu töö jaoks vajalikke tööriistu.
 - Vaadata või otsida kindlat vara või töö asukohta.
 
-
 ## <a name="prerequisites"></a>Eeltingimused
 
-Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Dynamics 365 Supply Chain Managementi versioonist.
-
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-supply-chain-management"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 Supply Chain Management 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 Supply Chain Management, peab süsteemiadministraator avaldama mobiilse tööruumi **Varade haldus**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Enne kui saate mobiilset tööruumi **Varahaldus** kasutada, peab teie administraator häälestama nõutavad kasutaja- ja töötajakontod ning avaldama tööruumi. Lisateavet vt [Varahalduse mobiilse tööruumi häälestamine](set-up-asset-management-mobile.md).
 
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
+
 Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 - [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
+
 1. Käivitage rakendus oma mobiilses seadmes.
 
-2. Sisestage Dynamics 365 URL.
+1. Sisestage Dynamics 365 URL.
 
-3. Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
+1. Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 
-4. Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
+1. Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-![Joonis 1](media/am-mobile-01.png)
-
+    ![Tööruumi valimine](media/am-mobile-01.png "Tööruumi valimine")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Määratud töökäsu tööde vaatamine kalendrivaates
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Minu töökäsu tööde kalender**.
+1. Valige **Minu töökäsu tööde kalender**.
 
-3. Valige kuupäev, mille kohta soovite vaadata töökäsu töid. Loendis näete iga töökäsu töö vara ID-d ja töö asukoha ID-d.
+1. Valige kuupäev, mille kohta soovite vaadata töökäsu töid. Loendis näete iga töökäsu töö vara ID-d ja töö asukoha ID-d.
 
-4. Valige loendist töökäsu töö, et näha töödetaile: vara ja töö asukoha üksikasju, samuti muid navigeerimislinke, et vaadata **Manuseid**, **Kontrollnimekirju**, **Tööriistu**, **Varaloendureid**, **Märkmeid**, **Töölehti**.
+1. Valige loendist töökäsu töö, et näha töödetaile: vara ja töö asukoha üksikasju, samuti muid navigeerimislinke, et vaadata **Manuseid**, **Kontrollnimekirju**, **Tööriistu**, **Varaloendureid**, **Märkmeid**, **Töölehti**.
 
-![Joonis 2](media/am-mobile-02.png)
-
+    ![Määratud töökäsu tööde vaatamine kalendrivaates](media/am-mobile-02.png "Määratud töökäsu tööde vaatamine kalendrivaates")
 
 ## <a name="create-a-work-order-job"></a>Töökäsu töö loomine
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hoolduse töökäsud**.
+1. Valige **Kõik hoolduse töökäsud**.
 
-3. Valige töökäsk, mille jaoks soovite uut töökäsu tööd luua.
+1. Valige töökäsk, mille jaoks soovite uut töökäsu tööd luua.
 
-4. Valige nupp **Lisa rida**.
+1. Valige nupp **Lisa rida**.
 
-5. Valige **Vara**, mille jaoks soovite töökäsu tööd luua.
+1. Valige **Vara**, mille jaoks soovite töökäsu tööd luua.
 
-6. Valige **Hooldustöö tüüp**, **Hooldustöö tüübi variant** ja **Müük**.
+1. Valige **Hooldustöö tüüp**, **Hooldustöö tüübi variant** ja **Müük**.
 
-7. Valige suvand **Valmis**.
+1. Valige suvand **Valmis**.
 
-![Joonis 3](media/am-mobile-03.png)
+    ![Kuva Lisa rida](media/am-mobile-03.png "Kuva Lisa rida")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Töökäsu tööle manuse lisamine
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hoolduse töökäsud**.
+1. Valige **Kõik hoolduse töökäsud**.
 
-3. Valige töökäsk > töökäsu töö, millele soovite manust lisada.
+1. Valige töökäsk > töökäsu töö, millele soovite manust lisada.
     - Teise võimalusena saate valida avalehel ka **Minu töökäsu tööde kalendri** või **Minu töökäsu tööde loendi**, et navigeerida lehele **Töökäsu töö üksikasjad**.
 
-4. Tehke lehel **Töökäsu töö üksikasjad** valik **Manused**.
+1. Tehke lehel **Töökäsu töö üksikasjad** valik **Manused**.
 
-5. Näete töökäsu tööde olemasolevaid manuseid. Valige **Lisa manus**.
+1. Näete töökäsu tööde olemasolevaid manuseid. Valige **Lisa manus**.
 
-6. Sisestage manusele **Nimi** ja **Märkmed**.
+1. Sisestage manusele **Nimi** ja **Märkmed**.
 
-7. Valige **Vali pilt**, et valida pilt mobiili galeriist või **Tee foto**, et pildistada.
+1. Valige **Vali pilt**, et valida pilt mobiili galeriist või **Tee foto**, et pildistada.
 
-8. Valige suvand **Valmis**.
+1. Valige suvand **Valmis**.
 
-![Joonis 4](media/am-mobile-04.png)
-
+    ![Töökäsu töö manuste vaatamine ja nende lisamine](media/am-mobile-04.png "Töökäsu töö manuste vaatamine ja nende lisamine")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Töökäsu töö hoolduse kontrollnimekirja kuvamine
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hoolduse töökäsud**.
+1. Valige **Kõik hoolduse töökäsud**.
 
-3. Valige töökäsk > töökäsu töö, mille nimekirja soovite kuvada.
+1. Valige töökäsk > töökäsu töö, mille nimekirja soovite kuvada.
     - Teise võimalusena saate valida avalehel ka **Minu töökäsu tööde kalendri** või **Minu töökäsu tööde loendi**, et navigeerida lehele **Töökäsu töö üksikasjad**.
 
-4. Tehke lehel **Töökäsu töö üksikasjad** valik **Nimekirjad**.
+1. Tehke lehel **Töökäsu töö üksikasjad** valik **Nimekirjad**.
 
-5. Kuvatakse töökäsu tööga seotud kontrollnimekirja ridade loend. **Juhiste** vaatamiseks ja **Märkmete** lisamiseks valige kontrollnimekirja rida.
+1. Kuvatakse töökäsu tööga seotud kontrollnimekirja ridade loend. **Juhiste** vaatamiseks ja **Märkmete** lisamiseks valige kontrollnimekirja rida.
 
-6. Valige eelmisele lehele naasmiseks nupp tagasi (**<**).
+1. Valige eelmisele lehele naasmiseks nupp tagasi (**<**).
 
-![Joonis 5](media/am-mobile-05.png)
-
+    ![Hoolduse kontrollnimekiri ja rea üksikasjad](media/am-mobile-05.png "Hoolduse kontrollnimekiri ja rea üksikasjad")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Töökäsu tööde varaloendurite vaatamine ja uuendamine
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hoolduse töökäsud**.
+1. Valige **Kõik hoolduse töökäsud**.
 
-3. Valige töökäsk > töökäsu töö, mille varaloendurit soovite kuvada.
+1. Valige töökäsk > töökäsu töö, mille varaloendurit soovite kuvada.
     - Teise võimalusena saate valida avalehel ka **Minu töökäsu tööde kalendri** või **Minu töökäsu tööde loendi**, et navigeerida lehele **Töökäsu töö üksikasjad**.
 
-4. Tehke lehel **Töökäsu töö üksikasjad** valik **Varaloendurid**.
+1. Tehke lehel **Töökäsu töö üksikasjad** valik **Varaloendurid**.
 
-5. Kuvatakse töökäsu tööga seotud varaloendurite loend. Loenduri väärtuse värskendamiseks valige varaloenduri real olev pliiatsiikoon.
+1. Kuvatakse töökäsu tööga seotud varaloendurite loend. Loenduri väärtuse värskendamiseks valige varaloenduri real olev pliiatsiikoon.
 
-6. Sisestage uus loenduri väärtus ja valige **Valmis**.
+1. Sisestage uus loenduri väärtus ja valige **Valmis**.
 
-![Joonis 6](media/am-mobile-06.png)
-
+    ![Varaloendurite vaatamine ja uuendamine](media/am-mobile-06.png "Varaloendurite vaatamine ja uuendamine")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Töökäsu töö tarbimise registreerimine
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hoolduse töökäsud**.
+1. Valige **Kõik hoolduse töökäsud**.
 
-3. Valige töökäsk > töökäsu töö, millele soovite tarbimise registreerimisi lisada.
+1. Valige töökäsk > töökäsu töö, millele soovite tarbimise registreerimisi lisada.
     - Teise võimalusena saate valida avalehel ka **Minu töökäsu tööde kalendri** või **Minu töökäsu tööde loendi**, et navigeerida lehele **Töökäsu töö üksikasjad**.
 
-4. Tehke lehel **Töökäsu töö üksikasjad** valik **Töölehed**.
+1. Tehke lehel **Töökäsu töö üksikasjad** valik **Töölehed**.
 
-5. Tööaja registreerimiste loomiseks valige **Lisa tunnid**.
+1. Tööaja registreerimiste loomiseks valige **Lisa tunnid**.
     1. Valige otsingust **Kategooria**.
-    2. Sisestage väljale **Tunnid** töökäsu töö peale kulutatud töötundide arv.
-    3. Valige vajalik **Rea atribuut**.
-    4. Valige suvand **Valmis**.
+    1. Sisestage väljale **Tunnid** töökäsu töö peale kulutatud töötundide arv.
+    1. Valige vajalik **Rea atribuut**.
+    1. Valige suvand **Valmis**.
 
-6. Kaupade registreerimiste loomiseks valige **Lisa kaupu**.
+1. Kaupade registreerimiste loomiseks valige **Lisa kaupu**.
     1. Valige otsingust **Kaubakood**.
-    2. Valige otsingust **Sait**.
-    3. Sisestage tarbitud kaubad valikusse **Kogus**.
-    4. Valige suvand **Valmis**.
+    1. Valige otsingust **Sait**.
+    1. Sisestage tarbitud kaubad valikusse **Kogus**.
+    1. Valige suvand **Valmis**.
 
-7. Kulu registreerimiste loomiseks valige **Lisa kulu**.
+1. Kulu registreerimiste loomiseks valige **Lisa kulu**.
     1. Valige otsingust **Kategooria**.
-    2. Sisestage registreeritav kulukogus.
-    3. Valige otsingust **Müügivaluuta**.
-    4. Kulu registreerimiseks sisestage **Kulu hind**.
-    5. Valige suvand **Valmis**.
+    1. Sisestage registreeritav kulukogus.
+    1. Valige otsingust **Müügivaluuta**.
+    1. Kulu registreerimiseks sisestage **Kulu hind**.
+    1. Valige suvand **Valmis**.
 
-![Joonis 7](media/am-mobile-07.png)
-
+    ![Töökäsu töölehe uuendamine](media/am-mobile-07.png "Töökäsu töölehe uuendamine")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Töökäsu töötsükli oleku värskendamine
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hoolduse töökäsud**.
+1. Valige **Kõik hoolduse töökäsud**.
 
-3. Valige töökäsk, mille töötsükli olekut soovite värskendada.
+1. Valige töökäsk, mille töötsükli olekut soovite värskendada.
 
-4. Valige ekraani allosas nupp **Värskenda olekut**.
+1. Valige ekraani allosas nupp **Värskenda olekut**.
 
-5. Valige loendist uus töötsükli olek.
+1. Valige loendist uus töötsükli olek.
 
-6. Valige suvand **Valmis**.
+1. Valige suvand **Valmis**.
 
-![Joonis 8](media/am-mobile-08.png)
-
+    ![Töökäsu töötsükli oleku värskendamine](media/am-mobile-08.png "Töökäsu töötsükli oleku värskendamine")
 
 ## <a name="create-a-maintenance-request"></a>Hooldusnõude loomine
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hooldusnõuded**.
+1. Valige **Kõik hooldusnõuded**.
 
-3. Valige ekraani allosas **Toimingud** ja seejärel **Loo hooldusnõue**.
+1. Valige ekraani allosas **Toimingud** ja seejärel **Loo hooldusnõue**.
 
-4. Kui hooldusnõuete numbriseeria on valikus **Varahaldus** lubatud, on väli **Hooldusnõue** peidetud, kuna see täidetakse automaatselt. Kui väli **Hooldusnõue** on nähtav, sisestage hooldusnõude ID.
+1. Kui hooldusnõuete numbriseeria on valikus **Varahaldus** lubatud, on väli **Hooldusnõue** peidetud, kuna see täidetakse automaatselt. Kui väli **Hooldusnõue** on nähtav, sisestage hooldusnõude ID.
 
-5. Valige **Hooldusnõude tüüp**.
+1. Valige **Hooldusnõude tüüp**.
 
-6. Sisestage hooldusnõude **Kirjeldus**.
+1. Sisestage hooldusnõude **Kirjeldus**.
 
-7. Valige **Vara**, millele soovite nõuet luua.
+1. Valige **Vara**, millele soovite nõuet luua.
 
-8. Valige hooldusnõude **Teenuse tasu**.
+1. Valige hooldusnõude **Teenuse tasu**.
 
-9. Valige suvand **Valmis**.
+1. Valige suvand **Valmis**.
 
-![Joonis 9](media/am-mobile-09.png)
-
+    ![Hooldusnõude loomine](media/am-mobile-09.png "Hooldusnõude loomine")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Manuse lisamine hooldusnõudele
 
 1. Avage oma mobiilses seadmes tööruum **Varade haldamine**.
 
-2. Valige **Kõik hooldusnõuded**.
+1. Valige **Kõik hooldusnõuded**.
 
-3. Valige hooldusnõue, millele soovite manust lisada.
+1. Valige hooldusnõue, millele soovite manust lisada.
 
-4. Valige ekraani allosas **Manused**.
+1. Valige ekraani allosas **Manused**.
 
-5. Valige **Lisa manused**.
+1. Valige **Lisa manused**.
 
-6. Sisestage manusele **Nimi** ja **Märkmed**.
+1. Sisestage manusele **Nimi** ja **Märkmed**.
 
-7. Valige **Vali pilt**, et valida pilt mobiili galeriist või **Tee foto**, et pildistada.
+1. Valige suvand **Vali pilt**, et valida pilt mobiili galeriist või **Tee foto**, et pildistada.
 
-8. Valige suvand **Valmis**.
+1. Valige suvand **Valmis**.
 
-![Joonis 10](media/am-mobile-10.png)
-
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    ![Manuse lisamine hooldusnõudele](media/am-mobile-10.png "Manuse lisamine hooldusnõudele")

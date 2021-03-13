@@ -1,6 +1,6 @@
 ---
 title: Tööjõu mõõdikute Power BI sisu
-description: Selles teemas kirjeldatakse tööjõu mõõdikute Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+description: Selles teemas kirjeldatakse tööjõu mõõdikute Power BI sisu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687347"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092787"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Tööjõu mõõdikute Power BI sisu
 
@@ -86,6 +86,3 @@ Järgmises tabelis on toodud sisu aluseks olevad üksused.
 | Töötaja trend           | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                 | Ettevõte, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töösuhe, töö |
 | Hulgivärbamisprojekt        | Hulgivärbamisprojektide arv, projekti omanik ja projekti olek                     | Ettevõte, hulgivärbamise rida |
 | Hulgivärbamise rida           | Osakond, töösuhte tüüp ja amet                                           | Kuupäev, töö, hulgivärbamisprojekt |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

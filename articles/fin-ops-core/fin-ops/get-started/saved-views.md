@@ -3,7 +3,7 @@ title: Salvestatud vaated
 description: Selles teemas kirjeldatakse, kuidas kasutada salvestatud vaadete funktsioone.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 54f8c4bcac53f7cceb25f73b24311e93884be95d
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693697"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077445"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Sissejuhatus
 
@@ -123,12 +124,14 @@ Vaate avaldamiseks tehke järgmist.
 1. Looge ja salvestage isiklik koopia vaatest, mida soovite avaldada. 
 2. Kui see vaade on laaditud, valige vaate nimi, et avada rippmenüüst vaate valija. 
 3. Valige nupp **Veel** ja seejärel käsk **Avalda**. Avaneb dialoogiboks Avaldamine.
-4. Sisestage vaate nimi ja (valikuliselt) kirjeldus. Sisestatud nimi on nimi, mida selle vaate saanud kasutajad näevad oma vaate valijates. Lehekülje avaldatud vaadete nimed peavad olema kordumatud. Korduvad nimed lubatud isegi juhul, kui rollide või juriidiliste isikute loendid, millele vaated on rakendatud, on erinevad.
-5. **Versioon 10.0.9 või uuem:** määratlege, kas vaade tuleks valitud kasutajatele vaikevaatena avaldada. Vaate vaikimisi vaateks muutmine tähendab, et kasutajad näevad seda vaadet järgmine kord, kui nad sihtlehe avavad. Muudaetakse kõigi sihtkasutajate ühtset globaalset vaikevaadet. Kasutajad saavad endiselt muuta oma vaikevaadet pärast avaldamist.
-6. Lisage turberollid, mis kehtivad kasutajatele, kellele see vaade mõeldud on. 
-7. **Versiooni 10.0.13 ja uuem:** määratlege, kas soovite avaldada vaate iga valitud turberolli alamrollile. Kui te seda teete, märkige ruut **Lisa alamrollid** vastava turberollide real. Võtke arvesse, et see märkeruut ei ole saadaval rollidel, millel pole alamrolle.
-7. Lisage juriidilised isikud, kellele see vaade peaks kättesaadav olema. 
-8. Valige **Avalda**.
+4. Sisestage vaate nimi. Sisestatud nimi on nimi, mida selle vaate saanud kasutajad näevad oma vaate valijates. Lehekülje avaldatud vaadete nimed peavad olema kordumatud. Korduvad nimed lubatud isegi juhul, kui rollide või juriidiliste isikute loendid, millele vaated on rakendatud, on erinevad.
+5. **Uuendus 10.0.17 või hilisem:** kui funktsioon **(Eelversioon) Organisatsiooni vaadete tõlketugi** on sisse lülitatud, saate lisada oma vaate nime tõlked nii paljudes keeltes, kui teie organisatsioon vajab, valides nupu **Tõlked** välja **Nimi** kõrval. Sel juhul kuvatakse vaate nimi kasutajatele nende praeguses keeles. Saate määrata ka vaikekeele, et määratleda tõlge, mis kuvatakse näidatakse kasutajatele, kes kasutavad keeli, mille jaoks pole tõlget olemas.
+5. Valikuline: sisestage vaate kirjeldus, et seda vaadet nägevad kasutajad mõistaks vaate eesmärki paremini. 
+6. Määratlege, kas vaade tuleks valitud kasutajatele vaikevaatena avaldada. Vaate vaikimisi vaateks muutmine tähendab, et kasutajad näevad seda vaadet järgmine kord, kui nad sihtlehe avavad. Muudaetakse kõigi sihtkasutajate ühtset globaalset vaikevaadet. Kasutajad saavad endiselt muuta oma vaikevaadet pärast avaldamist.
+7. Lisage turberollid, mis kehtivad kasutajatele, kellele see vaade mõeldud on. 
+8. Määratlege, kas soovite avaldada vaate iga valitud turberolli alamrollile. Kui te seda teete, märkige ruut **Lisa alamrollid** vastava turberollide real. Võtke arvesse, et see märkeruut ei ole saadaval rollidel, millel pole alamrolle.
+9. Lisage juriidilised isikud, kellele see vaade peaks kättesaadav olema. 
+10. Valige **Avalda**.
 
 Arvestage sellega, et teatud keskkondades võib aega kuluda (kuni tund), enne kui kasutajad avaldatud vaadet näevad.
 
@@ -146,27 +149,15 @@ Kui muudatused, mida soovite avaldatud vaates teha, hõlmavad ainult avaldamise 
 1. Avage nende parameetrite avaldatud vaade, mida soovite värskendada. 
 2. Valige vaate valija rippmenüüst käsk **Avalda uuesti**. Kui kasutate versiooni 10.0.12 või varasemat, peate olemasoleva vaate värskendamiseks valima käsud **Avalda** ja **Jah**.
 3. Värskendage vaate nime, kirjeldust, turberolle ja juriidilisi isikuid. 
-4. Valige **Avalda**. 
-5. **Versioon 10.0.8 või varasem:** kui olete publitseeritud vaate nime värskendanud, peate kustutama ka vana nimega avaldatud vaate. (Lisateavet vaadake jaotisest [Avaldatud vaadete haldamine](saved-views.md#managing-published-views).)
+4. Valige **Avalda**. Kui valisite selle avaldatud vaate vaikevaatena, on see kasutajate vaikevaade pärast uuesti avaldamist. 
 
-**Versioon 10.0.9 või uuem:** kui valisite selle avaldatud vaate vaikevaatena, on see kasutajate vaikevaade pärast uuesti avaldamist.
-
-Kui avaldatud vaate muudatused hõlmavad vaatega seostatud isikupärastamiste või filtrite muutmist, toimige järgmiselt. 
-
-**Versioon 10.0.13 või uuem:** tehke vajalikud muudatused otse vaatel. Tärn (\*) peaks olema vaate nime kõrval.
+Kui avaldatud vaate muudatused hõlmavad vaatega seostatud isikupärastamiste või filtrite muudatusi, toimige järgmiselt.
 
 1. Laadige avaldatud vaade, mida soovite muuta. 
 2. Tehke kohaliku mustandi vajalikud muudatused.
 3. Valige vaate valija rippmenüüst käsk **Avalda uuesti**.
 4. Valige **Jah**, kui soovite vaadet koos salvestamata muudatustega avaldada. 
 5. Korrigeerige muutmist vajavaid avaldamise parameetreid ja seejärel valige käsk **Avalda**. 
-
-**Versioon 10.0.12 või varasem**
-
-1. Laadige avaldatud vaade, mida soovite muuta. 
-2. Salvestage avaldatud vaate koopia, et luua avaldatud vaate kohalik mustand. 
-3. Muutke kohalikku mustandit vajaduse kohaselt.
-4. Avaldage vaade esialgse nimega. 
 
 ## <a name="managing-published-views"></a>Avaldatud vaadete haldamine
 
@@ -179,20 +170,20 @@ Lehe kõikide avaldatud vaadete loendi jaoks on olemas järgmised tegevused.
 - **Avalda uuesti** — kasutage tegevust **Avalda uuesti**, et avaldada vaade uuesti pärast avaldamise parameetrite (nimi, kirjeldus, turberollid või juriidilised isikud) muutmist.
 - **Avalda** — kasutage tegevust **Avalda** hetkel avaldamata vaate avaldamiseks. 
 - **Tühista avaldamine** — kasutage tegevust **Tühista avaldamine**, et teha vaade passiivseks. Vaade on endiselt süsteemis saadaval, kuid kasutajad ei näe seda vaate valijas enne, kui vaade on uuesti avaldatud.
-- **Salvesta isiklikuna** – kasutage tegevust **Salvesta isiklikuna** avaldatud vaatest isikliku mustandkoopia loomiseks. See võimalus aitab teil mõista teile avaldamata või veel avaldamata vaate sisu. Samuti saate seda kasutada vaate redigeerimiseks ja uuesti avaldamiseks. See võimalus lisati versioonis 10.0.12.
+- **Salvesta isiklikuna** – kasutage tegevust **Salvesta isiklikuna** avaldatud vaatest isikliku mustandkoopia loomiseks. See võimalus aitab teil mõista teile avaldamata või veel avaldamata vaate sisu. Samuti saate seda kasutada vaate redigeerimiseks ja uuesti avaldamiseks.
 - **Kustuta** – kasutage tegevust **Kustuta**, et avaldatud või avaldamata vaade jäädavalt kustutada. See tegevus eemaldab vaate kõikidelt süsteemis olevatelt kasutajatelt. Avaldatud vaadete eemaldamine jõustub pärast nupu **Salvesta** valimist. Pärast vaate kustutamist ei saa seda taastada. 
 
 ## <a name="managing-views-globally"></a>Vaadete globaalne haldamine
 
 Kuigi vastavalt käesolevas teemas mainitule esitatakse mõned haldusvõimalused igal lehel, siis saavad **süsteemi administraatorid** ja **salvestatud süsteemi administraatorid** hallata vaateid ka terviklikumalt lehel **Isikupärastamine**. Lehel on eelkõige järgmised jaotised ja võimalused. 
 
-- **Avaldatud vaated** – jaotises on loetletud kõik teie organisatsiooni jaoks avaldatud vaated. Siin saate pärast sihtkohti kuvavate turberollide või juriidiliste isikute muutmist vaate uuesti avaldada. Saate neid vaateid ka eksportida, kustutada või avaldamise tühistada. Versioonis 10.0.12 või hilisemates versioonides saate vaatest isikliku koopia loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite vaadet uuendada või saada selle sisust parema ülevaate. 
-- **Avaldamata vaated** — selles jaotises loetletakse kõik teie süsteemi organisatsiooni vaated, mis pole praegu avaldatud. Need vaated tulevad enamasti süsteemi läbi impordi valiku. Saate neid vaateid avaldada, eksportida või kustutada. Versioonis 10.0.12 lisatud tegevus **Kiiravaldamine** võimaldab avaldada ühe tegevuse raames mitu antud jaotise vaadet, kasutades olemasolevaid turberolli ja juriidilise isiku konfiguratsioone. Versioonis 10.0.12 ja hilisemates versioonides saate nendest vaadetest isiklike koopiate loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite nende sisust parema ülevaate.
+- **Avaldatud vaated** – jaotises on loetletud kõik teie organisatsiooni jaoks avaldatud vaated. Siin saate pärast sihtkohti kuvavate turberollide või juriidiliste isikute muutmist vaate uuesti avaldada. Saate neid vaateid ka eksportida, kustutada või avaldamise tühistada. Saate vaatest isikliku koopia loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite vaadet uuendada või saada selle sisust parema ülevaate. 
+- **Avaldamata vaated** — selles jaotises loetletakse kõik teie süsteemi organisatsiooni vaated, mis pole praegu avaldatud. Need vaated tulevad enamasti süsteemi läbi impordi valiku. Saate neid vaateid avaldada, eksportida või kustutada. Versioonis 10.0.12 lisatud tegevus **Kiiravaldamine** võimaldab avaldada ühe tegevuse raames mitu antud jaotise vaadet, kasutades olemasolevaid turberolli ja juriidilise isiku konfiguratsioone. Saate nendest vaadetest isiklike koopiate loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite nende sisust parema ülevaate.
 - **Isiklikud vaated** – jaotises on loetletud kõik vaated, mis on loodud süsteemi kasutajate poolt. Siin saate avaldada organisatsioonile isikliku vaate või kopeerida ühe või mitu neist vaadetest teistele kasutajatele. Saate neid vaateid vajadusel ka eksportida või kustutada.
 - **Kasutaja sätted** — valige kasutaja, kes saab vaadata või kohandada kasutaja võimalust kasutada isikupärastamist kas kogu süsteemis või kindlatel lehtedel, mida kasutaja on külastanud. Saate vaadata ja suhelda kasutaja süsteemi isikupärastatud osadega. Saate kustutada kõik selle kasutaja isikupärastatud osad või lähtestada kasutaja viiktekstid. Kui viikteksti funktsioon lähtestatakse, kõik hüpikaknad, mis juurutasid uusi funktsioone ja mida kasutajad on varem välja lülitanud, kuvatakse uuesti järgmisel korral, kui kasutaja nende funktsioonidega kokku puutub.
 - **Süsteemi sätted** — saate ajutiselt välja lülitada süsteemis olevad kõigi kasutajate kõik isikupärastamised. Sel juhul ei rakendata ühtegi isikupärastamist ühtegi kasutaja jaoks ja kõik lehed lähtestatakse nende vaikeolekusse. Kui lülitate isikupärastamise hiljem uuesti sisse, rakendatakse kõik isikupärastamised uuesti. Saate ka kõigi kasutajate isikupärastamised süsteemist jäädavalt kustutada. Kustutatud isikupärastamisi ei ole võimalik taastada. Seega veenduge enne seda ülesannet, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
 
-Kasutajad, kellel on juurdepääs lehele **Isikupärastamine**, saavad tegumiriba nupu **Impordi vaated** abil ka isiklikke ja organisatsiooni vaateid importida. Versioonis 10.0.12 ja hilisemates versioonides on lisatud mehhanism vaadete koheseks avaldamiseks nende importimisel.
+Kasutajad, kellel on juurdepääs lehele **Isikupärastamine**, saavad tegumiriba nupu **Impordi vaated** abil ka isiklikke ja organisatsiooni vaateid importida. Organisatsiooni vaadete jaoks saate valida suvandi **Avalda kohe**, et teha vaated kasutajatele kättesaadavaks ilma täiendava selgesõnalise avaldamiseta.
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
 Salvestatud vaadetega teadaolevate probleemide loendi leiate jaotisest [Koostevormid, mis kasutavad täielikult salvestatud vaateid](../../dev-itpro/user-interface/understanding-saved-views.md).
@@ -204,27 +195,7 @@ Salvestatud vaadetega teadaolevate probleemide loendi leiate jaotisest [Koostevo
 > [!NOTE]
 > Funktsioon **Salvestatud vaated** nõuab, et rakenduses Finance and Operations oleks isikustamise süsteem lubatud. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
 
-**Versioon 10.0.13 või uuem**
-
-**Salvestatud vaadete** funktsioon ei ole enam eelvaates. Nüüd on see saadaval otse funktsioonide halduse kaudu mis tahes keskkonnas.
-
-**Versioonid 10.0.9 - 10.0.12**
-
-Funktsioon **Salvestatud vaated** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](https://go.microsoft.com/fwlink/?linkid=2105274).
-
-**10.0.8 / Platformi värskendus 32 või varasem**
-
-Funktsiooni **Salvestatud vaated** saab lubada 1. taseme (arendamine/testimine) ja 2. taseme (liivakast) keskkondades, et pakkuda täiendavat testimist ja kujundusmuudatusi, järgides alltoodud juhiseid.
-
-1. **Luba lend**: Käivitage järgmine SQL-lause: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. **Lähtesta IIS**, et tühjendada staatilise eelväljaande vahemälu. 
-3. **Leia funktsioon**: avage tööruum **Funktsiooni haldus**. Kui **Salvestatud vaated** ei ilmu loendis, valige **Kontrolli värskendusi**.
-4. **Luba funktsioon**: leidke funktsioon **Salvestatud vaated** funktsioonide loendist ja valige üksikasjade paanilt suvand **Luba nüüd**.
-
-Kõik järgmised kasutajaseansid algavad lubatud salvestatud vaadetega.
+Saate funktsiooni **Salvestatud vaade** sisse ja välja lülitada mis tahes keskkonna funktsioonihalduses. Kui see on sisse lülitatud, on salvestatud vaated kõigil järgnevatel kasutajaseanssidele kättesaadavad.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Mis juhtub olemasolevate isikupärastamistega, kui vaated on lubatud? 
 
@@ -253,6 +224,3 @@ Suurte vaate valijatega lehtedel (vaatamiseks saab salvestada nii isikupärastam
 
 - Kui liigute paanilt lehele, käivitub paani päring hoolimata vaikevaatega seotud päringust. Kui lõite selle paani pärast vaadete lubamist, paani valimine avab lehe koos selle paaniga seostatud vaatega.
 - Kui liigute lehele ja sisenemiskoht hõlmab päringut, käivitub algne päring esimesena vaikevaate päringu asemel. Kui selline olukord esineb, kuvatakse teile tavaliselt vaate laadimise ajal asjakohane teade. Samuti saate kinnitada, kui lülitate sellele vaatele pärast lehe laadimist, kuna see peaks sellegipoolest võimaldama vaate päringu käivitumise.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

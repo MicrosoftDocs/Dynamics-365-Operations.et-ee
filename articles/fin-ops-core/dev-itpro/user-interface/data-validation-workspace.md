@@ -1,6 +1,6 @@
 ---
 title: Andmete valideerimise kontroll-loendi tööruum
-description: Andmete valideerimise kontroll-loendi tööruum võimaldab jälgida andmete valideerimisprotsesse ettevõtete, valdkondade ja inimeste lõikes. Kontroll-loendit saab kasutada uue juurutuse käigus, pärast versioonitäiendust või migreerimist.
+description: Andmete valideerimise kontroll-loendi tööruum võimaldab jälgida andmete valideerimisprotsesse ettevõtete, valdkondade ja inimeste lõikes.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,12 +14,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687571"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092327"
 ---
 # <a name="data-validation-checklist-workspace"></a>Andmete valideerimise kontroll-loendi tööruum
 
@@ -39,8 +39,7 @@ Paanid **Kokkuvõte** annavad ülevaate protsessist ja näidikud aitavad teil an
 
 Jaotises **Ülesanded ja olek** on kuvatud mitmesugusel moel üldine andmete valideerimise projekt: olek juriidilise isiku, valdkonna ja ülesannete loendi järgi. Konkreetse ettevõtte oleku vaatamiseks saate valida filtri. Iga oleku vahekaart annab jaotuse nii lõpetatud ülesannete protsendi kui ka järelejäävate ülesannete arvu järgi.
 
-Viimane vahekaart on ülesannete üksikasjalikuks loendiks. See loend kuvab täieliku ülesannete loendi.
-Saate loendit filtrida mitmel viisil. Klõpsake nuppu **Redigeeri ülesannet** ülesande oleku muutmiseks või ülesande määramiseks. Klõpsake nuppu **Manused** ülesande manuste vaatamiseks.
+Viimane vahekaart on ülesannete üksikasjalikuks loendiks. See loend kuvab täieliku ülesannete loendi. Saate loendit filtrida mitmel viisil. Klõpsake nuppu **Redigeeri ülesannet** ülesande oleku muutmiseks või ülesande määramiseks. Klõpsake nuppu **Manused** ülesande manuste vaatamiseks.
 
 Ülesande nimi on hüperlink lehele, kuhu kasutaja peab töö lõpuleviimiseks minema. Selle hüperlingi saab määrata välja **Menüüelemendi nimi** abil, kui redigeerite ülesannet või loote selle vormil **Andmete valideerimise projekti konfigureerimine**.
 
@@ -57,6 +56,3 @@ Enne tööruumi **Andmete valideerimise kontroll-loend** kasutamist tuleb protse
 Kasutate ülesande alasid andmete valideerimise ülesannete grupeerimiseks teie organisatsiooni omandiõiguse loogilistesse aladesse. Näiteks võib ülesande aladena kasutada suvandeid Ostureskontro, Müügireskontro või Pearaamat.
 
 Üksus **Menüüelemendi nimi** on seostatud ülesande tööpanusega ja seda saab kasutada tööruumis ülesande lingilt otse seotud lehele liikumiseks. Näiteks andmete valideerimise ülesande aruande **Ostureskontro aegumine** käivitamiseks ostureskontro jaoks saab linkida lehega **Ostureskontro aegumisaruanne**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

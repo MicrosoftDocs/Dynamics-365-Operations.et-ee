@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411806"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032929"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Kassa kasutajaliidese visuaalsed konfiguratsioonid
 
@@ -117,6 +116,9 @@ Kassa kompaktsetes paigutustes paigutatakse nupupaneelid automaatselt ülevalt a
 
 ![Kompaktse paigutuse nupupaneelid](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Nupu suurused kujundajas sobituvad akna suurusega, seega ei pruugi nad tegelikke kassa nuppe täpselt peegeldada. Nupupaneeli paigutust saate kõige paremini simuleerida kohandades kujundaja akna sama suures, kui kassa.
+
 ### <a name="images"></a>Pildid
 
 Saate iga paigutuse suuruse jaoks ekraani paigutuses määrata pildid, mis kaasata kassa kasutajaliideses. Kassa täispaigutuste korral saab tervituskuva jaoks määrata ühe pildi. See pilt kuvatakse kasutajaliidese esimese elemendina vasakul. Ekraanil **Kanne** saab pilte kasutada vahekaardi piltide või logona. Kompaktsetes kassa paigutustes ei kasutata neid pilte.
@@ -205,6 +207,3 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Jaemüügikassa paigutuse kujundaja installimine](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

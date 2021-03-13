@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsiooni üleslaadimine teenusesse Lifecycle Services
-description: Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue elektroonilise aruandluse (ER) konfiguratsiooni ja laadida selle teenusesse Microsoft Dynamics Lifecycle Services (LCS).
+description: Selles teemas selgitatakse, kuidas luua uus elektroonilise aruandluse (ER) konfiguratsioon ja laadida see üles teenusesse Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684159"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092537"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Konfiguratsiooni üleslaadimine teenusesse Lifecycle Services
 
@@ -145,6 +145,3 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. ja laadi
     Teie üleslaaditud ER-konfiguratsioon peaks olema loetletud.
 
     Pange tähele, et üleslaaditud LCS-i konfiguratsiooni saab importida teise eksemplari, kui teenuse pakkujatel on juurdepääs sellele LCS-i projektile.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

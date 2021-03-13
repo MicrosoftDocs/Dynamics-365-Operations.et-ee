@@ -1,6 +1,6 @@
 ---
-title: ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
-description: Toimingute teostamiseks peate esmalt läbima tegevusjuhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid ning teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
+title: ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
+description: Selles teemas kirjeldatase, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsiooni ja määrata selle sõltuvus teistest tarkvarakomponentidest.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dd9516ac68c46649ebc50711357b97179bfc1b2c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681969"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092146"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
 
 [!include [banner](../../includes/banner.md)]
 
@@ -139,6 +139,3 @@ Kustutame süsteemist loodud konfiguratsioonid ja laadime need uuesti alla LCS-i
 26. Laiendage puul valikut „Sample data model".
     * Pange tähele, et mudeli „Näidisvastendamine" vastenduskonfiguratsioon on alla laaditud koos valitud andmemudeli konfiguratsiooniga. Kaks faili laaditi koos alla, kuna „Näidisvastendus" on määratletud valitud andmemudeli juurutamisena ja kuna see kehtib rakenduse kohta. Konfiguratsiooni „Näidisvastendus (alternatiivne)” pole alla laaditud, kuna nõutava avalduse versiooni tingimust pole täidetud.   
     * Kui logite sisse Finance and Operationsi, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
