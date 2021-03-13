@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689562"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154083"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -32,7 +32,55 @@ See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Fi
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://docs.microsoft.com/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Funktsioon eemaldati 28. jaanuaril 2021
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Pakett-töö SQL-indeksi defragmentimise käsitsemiseks
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Töö, seire ja halduse üldkulude vähendamiseks ja klientide indeksihalduse säilitamiseks on see funktsioon eemaldatud. |
+| **Asendatud teise funktsiooniga?**   | Tulevikus teevad indeksihooldust Microsofti teenused. See toimub pidevalt ilma kasutaja töökoormusi mõjutamata. |
+| **Mõjutatud tootealad**         | Finance and Operations rakendused|
+| **Juurutamissuvand**              | Pilve juurutamine – mõjutab Microsofti hallatud töökeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
+| **Olek**                         | See funktsioon on eemaldatud. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.17 värskendused
+
+> [!IMPORTANT]
+> Versioon 10.0.17 on saadaval eelversiooni väljalaske osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Ühe versiooni teenuse värskenduste KKK](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio 2015
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Uusimate Visual Studio versioonide toetamiseks tuleb Visual Studio X++ laiendites teha teatud muudatusi. Need muudatused ei ühildu Visual Studioga 2015. |
+| **Asendatud teise funktsiooniga?**   | Visual Studio 2015 asemel saab kasutatavaks ja nõutavaks versiooniks Visual Studio 2017. |
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Värskendamisel eemaldatakse eelmised X++ tööriistad Visual Studio 2015-st ja värskendatud tööriistu ei installita Visual Studio 2015-de. See ei mõjuta majutatud järke. Virtuaalmasinaid koostades tuleb konveieri (koostamisdefinitsioon) käsitsi uuendada, et muuta sõltuvus MSBuild 14.0-st (Visual Studio 2015) variandile MSBuild 15.0 (Visual Studio 2017), nagu kirjeldatud jaotises [Pärandkonveieri värskendamine lahenduses Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Kasutaja avatar 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kasutaja avatar, mis kuvatakse navigeerimisriba paremal küljel, toodi Dynamics 365 päise juhtelemendi API-d kasutades, mis on aegunud. |
+| **Asendatud teise funktsiooniga?**   | Selle asemel näevad kasutajad navigeerimisribal ringis oma initsiaale. See on sama visuaal, mida praegu kasutatakse arendusmasinates. |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Eemaldatud alates versioonist 10.0.17 |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Ettevõtteportaali (EP) amortiseerumine  
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Dynamics AX 2012 ettevõtteportaaliga (EP) seostatud metaandmete artefaktid on aegunud, kuna EP-d pole kunagi Finance and Operationsi rakendustes toetatud. |
+| **Asendatud teise funktsiooniga?**   | Ei |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Kogu EP kood plaanitakse eemaldada 2021. aasta oktoobri väljalaskes. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.15 värskendused
 
@@ -192,6 +240,3 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Varasemad teatised eemaldatud või aegunud funktsioonidest
 Lisateavet funktsioonide kohta, mis on eelnevatest versioonidest eemaldatud või aegunud, vt teemat [Varasematest versioonidest eemaldatud või aegunud funktsioonid](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

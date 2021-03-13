@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694685"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154405"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organisatsiooni hierarhia kavandamine
 
@@ -166,7 +166,7 @@ Tootmisüksused kasutavad peamise juriidilise isiku riigi konteksti. Sama juriid
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Kui organisatsiooni mudel on juriidiline isik
 
-Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke aruandeid. Teavet selle kohta, millised aruanded iga riigi/piirkonna puhul saadaval on, leiate rakenduse [Microsoft Dynamics lokaliseerimisportaalist](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Nõutav on CustomerSource’i sisselogimine.)
+Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke aruandeid. Teavet selle kohta, millised aruanded iga riigi/piirkonna puhul saadaval on, leiate rakenduse [Microsoft Dynamics lokaliseerimisportaalist](https://docs.microsoft.com/dynamics/s-e/). (Nõutav on CustomerSource’i sisselogimine.)
 
 > [!NOTE]
 > Pearaamatu sisestamiskiht võimaldab teha korrigeerimiskirjeid emaettevõttele, mis kasutab tütarettevõttest erinevat raamatupidamisstandardit. Näiteks ettevõtte puhul, mis kasutab Ühendkuningriigis üldiselt aktsepteeritud raamatupidamispõhimõtteid (UK GAAP), saate teha korrigeerimiskirjeid sisestamiskihis. Need kirjed saab konsolideerida emaettevõttesse, mis kasutab Ameerika Ühendriikides üldiselt aktsepteeritud raamatupidamispõhimõtteid (GAAP). Korrigeerimiskirjed ei mõjuta UK GAAP aruandlust.
@@ -241,6 +241,3 @@ Arvestage organisatsiooni hierarhia juurutamisel järgmisi parimaid praktikaid.
 - Enne suuremate ümberstruktureerimise stsenaariumide mudeli kasutuselevõttu kasutage hierarhia kehtivuskuupäevi mõju analüüsi ja kontrolltesti sooritamiseks.
 - Kasutage mustandirežiimi hierarhia muutmiseks enne tootmiskeskkonnas uue versiooni avaldamist.
 - Piirake inimeste arvu, kes tohivad organisatsioone tootmiskeskkonnas hierarhiasse lisada või neid sealt eemaldada. Väiksem arv vähendab kulukate eksimuste tekkimise ohtu ja vajadust paranduste järele.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

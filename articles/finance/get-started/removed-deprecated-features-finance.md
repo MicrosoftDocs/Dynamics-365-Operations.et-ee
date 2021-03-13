@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689490"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154173"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Financei eemaldatud või aegunud funktsioonid
 
@@ -34,9 +33,19 @@ See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dy
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 > [!NOTE]
-> Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+> Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://docs.microsoft.com/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Finance'i väljalaskest 10.0.16 eemaldatud või aegunud funktsioonid
+
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Elektroonilised aruandlusvormingud "Km-i deklaratsioon (CZ)" ja "Kontrolldeklaratsiooni eksport (CZ)" Tšehhi Vabariigile
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Asendatud uute vormingutega |
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Avaldus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Iganenud: 22. jaanuarist 2022 ei plaani me enam toetada "KM-i deklaratsiooni (CZ)", "Kontrolldeklaratsiooni ekspordi (CZ)" elektroonilis aruandlusvorminguid (ER). Selle asemel võetakse "Maksudeklaratsiooni" mudeli all kasutusele uued KM-i deklaratsiooni XML (CZ), Käibemaksudeklaratsiooni Excel (CZ), Käibemaksu kontrolldeklaratsioon XML (CZ) vormingud. |
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Pearaamatu kannete ekspordi vorming (BE)" Elektroonilise aruandluse vorming ja vastava "Pearaamatu kannete ekspordi (BE)" Belgia mudel
 
@@ -107,6 +116,3 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Varasemad teatised eemaldatud või aegunud funktsioonidest
 Lisateavet funktsioonide kohta, mis on eelnevatest versioonidest eemaldatud või aegunud, vt teemat [Varasematest versioonidest eemaldatud või aegunud funktsioonid](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527406"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152193"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Mis on Dynamics 365 Human Resourcesis uut või mida on muudetud (26. september 2020)
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527406"
 
 Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või peatselt tulevaid funktsioone. Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
-Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Selles väljalaskes
 
@@ -58,7 +57,7 @@ See väljalase hõlmab järgmisi veaparandusi.
 | 481401 | Viitvõlgade töötlus hangub, kui viitvõlgade kuupäeva alus on viitvõlgade alguskuupäevast hilisem ja kuu lõpus | Viitvõlgade töötlust värskendati, et ei oleks viivitust, kui viitvõlgade kuupäeva alus on viitvõlgade alguskuupäevast hilisem ja kuu lõpus. |
 | 447167 | Aeguvate kirjete loendites on passiivseid töötajaid | Jaotise **Personalihaldus** vahekaardil **Aeguvad kirjed** oli passiivseid töötajaid. Nüüd sisaldab see ainult aktiivseid töötajaid. |
 | 486840 | Jaotises **Mulle määratud tööüksused** avaneb vale puhkusetaotlus | Puhkusetaotluse valimine jaotises **Mulle määratud tööüksused** ei ava enam praegusele kasutajale määratud kõige uuemat puudumise taotlust. |
-| 506868 | Common Data Service'i välja **Amet** pole määratud üksusele **Ametikoht** | Väli **Amet** on määramata üksustes **Töö** ja **Ametikoht**. Välja **Amet** kuvatakse nüüd. |
+| 506868 | Dataverse'i välja **Amet** pole määratud üksusele **Ametikoht** | Väli **Amet** on määramata üksustes **Töö** ja **Ametikoht**. Välja **Amet** kuvatakse nüüd. |
 | 430359 | Määratud juhi ja töövõtja rollidega ei pääse juurde kontroll-loendi ülesannetele | Tulevase lepingu lõpetamise kuupäevaga töötajad ei pääsenud kontroll-loendi ülesannete juurde, kui neil oli ainult töövõtja või juhi roll. Nüüd saavad tulevase lepingu lõpetamise kuupäevaga kasutajad, kellel on ainult töövõtja või juhi roll, juurdepääsu kontroll-loendi ülesannetele. |
 | 458102 | Uut töövõtjat ei kuvata loomisel üksusel **Töötaja palgateave** | Uued töövõtjad lisatakse töötaja palgateabe üksusesse, ilma et peaksite enne üksuse eksportimist töövõtja palgateavet avama. |
 
@@ -85,6 +84,3 @@ Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta 
 [Dynamics 365 Human Resourcesi 2020. aasta 2. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Värskendamisprotsess](hr-admin-setup-update-process.md)
 [Funktsioonide haldus](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695135"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154149"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -163,7 +163,4 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 | [Docs.microsoft.com/previous versioonid](/previous-versions/dynamics/) | See sait majutab varasemate väljaannete sisu. |
 | [Dynamicsi kogukond](https://community.dynamics.com/) | See sait majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | See sait pakub hinnanguid ja müügiteavet. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | See sait majutab koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait. Mõndadele saidil olevatele ressurssidele juurde pääsemiseks võib olla nõutav hooldusplaan. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | See sait majutab koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait. Mõndadele saidil olevatele ressurssidele juurde pääsemiseks võib olla nõutav hooldusplaan. |

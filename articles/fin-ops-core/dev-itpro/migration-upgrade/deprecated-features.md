@@ -1,6 +1,6 @@
 ---
 title: Varasematest versioonidest eemaldatud või aegunud funktsioonid
-description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks tootest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
+description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks teenusest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679952"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154381"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasematest versioonidest eemaldatud või aegunud funktsioonid
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasemate versioonide eemaldatud või iganenud funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid plane
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://docs.microsoft.com/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 koos platvormivärskendusega 31
 
@@ -970,7 +970,7 @@ Seda tööriista kasutati võtmeandmete integreerimiseks Microsoft Dynamics CRM-
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | See funktsioon on asendatud teise funktsiooniga. |
-| **Asendatud teise funktsiooniga?**   | Common data service                                      |
+| **Asendatud teise funktsiooniga?**   | Dataverse                                      |
 | **Mõjutatud tootealad**         | Dynamics -i konnektor                         |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ Windows 8 tahvelarvuti rakendus pakkus kulude sisestamise ja kinnitamise funktsi
 |     <strong>Mõjutatud tootealad</strong>     |                                              Pearaamat                                              |
 |             <strong>Olek</strong>             |                                      Eemaldatud alates rakendusest Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
