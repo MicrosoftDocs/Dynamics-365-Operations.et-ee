@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426681"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007487"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Ostutellimuste tõrkeotsing
 
@@ -132,7 +131,7 @@ Saate pikendada ainult perioodi, mille jooksul on hankija kinnitatud. Kehtivad j
 
 Probleemi kirjelduses kirjeldatud näidisstsenaariumi puhul, kus kirje jõustumiskuupäev on *01/11/2018* ja aegumiskuupäev *Mitte kunagi*, saate importida uue kirje, mille jõustumiskuupäev on *01/10/2018* ja aegumiskuupäev *Mitte kunagi*. Kuid te ei saa perioodi vähendada nii, et jõustumiskuupäev muudetaks andmehalduse kaudu kuupäevaks *01/12/2018*. Selle muudatuse peate tegema kasutajaliidese kaudu.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Pärast tarneaadressi muutmist ostutellimuse päisel ei sünkroonita tarne nime.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Pärast tarneaadressi muutmist ostutellimuse päisel ei sünkroonita tarne nime.
 
 ### <a name="issue-description"></a>Probleemi kirjeldus
 
@@ -145,6 +144,3 @@ Selline käitumine on nii kavandatud. Valitud aadress tuleb märkida tarneaadres
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Kas ma saan otsida üles ostutellimuse tühistanud kasutaja?
 
 Seda teavet jälgitakse ainult siis, kui ostutellimuse puhul kasutatakse muudatuste haldust. Kui kasutate muudatuste haldust, saate vaadata, kes esitas muudatuse (tühistamise) ja kes selle kinnitas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

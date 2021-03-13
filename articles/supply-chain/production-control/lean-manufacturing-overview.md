@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5ba514a6af360074696814278b51ba41327a294d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426604"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006987"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturingi ülevaade
 
@@ -51,7 +50,7 @@ Lean manufacturingi aluse loomiseks modelleerige tootmis- ja logistikaprotsessid
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a> Kanbanide kasutamine nõudluse nõuete tähistamiseks
 Tõmbesüsteem toodab kaupu ainult siis, kui kaupu on vaja. Selline süsteem lühendab tarneaegu ja vähendab liigseid varusid. Saate kasutada kanbane tootmisvoogudel põhinevate nõuete plaanimiseks, jälgimiseks ja töötlemiseks. Kanban-raamistiku loomiseks saate luua kanban-reegleid, mis määratlevad, millal kanbanid luuakse ja kuidas nõudeid täidetakse. Saate luua kahte tüüpi kanban-reegleid. Tootmisreeglid loovad protsessi kanban-tööd ja tagastamise kanban-reeglid loovad üleviimise kanban-tööd. Saate seadistada järgmised täiendamisstrateegiad.
--   **Fikseeritud kogusega** kanban-reeglid on seotud fikseeritud arvu materjali käsitlemisühikuid, mis tähendab, et aktiivsete kanbanide arv on konstantne. Alati, kui kõik kanbani tooted on tarbitud ja materjali käsitlemisühikud käsitsi tühjendatud, luuakse uus sama tüüpi kanban. Kui loote fikseeritud kogusega kanbani reeglid, saate arvutada optimaalsed kanbani kogused ja tootekogused, mida kasutatakse. Arvutamisel võetakse arvesse prognoosi, tegelikku nõudlust avatud tellimustest, kaupade täiendamiseks vajalikku aega ja varasemaid nõudlusi.
+-   **Fikseeritud kogusega** kanban-reeglid on seotud fikseeritud arvu materjali käsitlemisühikuid, mis tähendab, et aktiivsete kanbanide arv on konstantne. Alati, kui kõik kanbani tooted on tarbitud ja materjali käsitlemisühikud käsitsi tühjendatud, luuakse uus sama tüüpi kanban. Kui loote fikseeritud kogusega kanbani reeglid, saate arvutada optimaalsed kanbani kogused ja tootekogused, mida kasutatakse. Arvutamisel võetakse arvesse prognoosi, tegelikku nõudlust avatud tellimustest, kaupade täiendamiseks vajalikku aega ja varasemaid nõudlusi.
 -   **Plaanitud** kanban-reeglid täiendavad koondplaneerimisega arvutatud nõudeid. Koondplaneerimine loob plaanitud kanbanid, mille saab kanbanideks kinnitada.
 -   **Sündmuse** kanban-reeglid täiendavad nõudeid, mis pärinevad müügitellimuse ridadelt, tootmise koosluse ridadelt, kanbani ridadelt või minimaalsetest varude sätetest. Sündmuse kanbanide loomisel seotakse need lähtetingimustega.
 
@@ -67,7 +66,7 @@ Lean manufacturing annab ülevaate kanban-reeglitega hallatavate tootmis- ja log
 Järgmises loendis kirjeldatakse spetsiaalseid kanban-tahvleid.
 -   Kanban-töö plaanimine – annab ülevaate kanban-töödest. Plaadil kuvatakse kanban-tööd ja nende olek ühe või mitme tööraku puhul. Tööd on loetletud tootmisvoo mudelis määratletud plaanimisperioodide järgi (päevad või nädalad). Plaadil on kuvatud ka iga plaanimisperioodi võimsuse tarbimine, et saaksite plaanitud koormust jälgida. Saate kanban-tööde olekut muuta, neid teistesse plaanimisperioodidesse ümber plaanida ja teha muid toiminguid.
 -   Kanban-tahvel ülekandetööde jaoks – see tahvel annab ülevaate jooksvatest ülekandetöödest. Saate komplekteerimislehti uuendada ja registreerida, ülekandetöid käivitada ja lõpetada ning teha muid toiminguid.
--   Kanban-tahvel protsessitööde jaoks – see tahvel on mõeldud tavalise tootmisvoo toetamiseks ja ülevaate andmiseks jooksvast olukorrast ühes või mitmes töörakus. Sellelt tahvlilt saab Kanbane prioritiseerida, komplekteerida või toota. Tahvel on mõeldud ka vöötkoodi skannimise toetamiseks Kanbanide aruande koostamisel.
+-   Kanban-tahvel protsessitööde jaoks – see tahvel on mõeldud tavalise tootmisvoo toetamiseks ja ülevaate andmiseks jooksvast olukorrast ühes või mitmes töörakus. Sellelt tahvlilt saab kanbane prioriseerida, komplekteerida või toota. Tahvel on mõeldud ka vöötkoodi skannimise toetamiseks Kanbanide aruande koostamisel.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanban-tööd ja integreerimine Supply Chain Managementi protsessidega
 Kanban-tööd on täielikult integreeritud praeguste laokannete protsessidega Supply Chain Managementis.
@@ -83,6 +82,3 @@ Lisaks toetab lean manufacturing alltöövõtu tegevustega viidatud teenuste ost
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4426456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007696"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Avaldisepiirangud ja tabelipiirangud toote konfiguratsioonimudelites
 
@@ -117,7 +116,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 </ul></td>
 </tr>
 <tr class="even">
-<td>ja</td>
+<td>Ja</td>
 <td>See on tõene ainult juhul, kui kõik tingimused on tõesed. Kui tingimuste arv on 0 (null), on vastus <strong>Tõene</strong>.</td>
 <td>Ja[argumendid], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
@@ -130,7 +129,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 <td>See on tõene, kui mis tahes tingimus on tõene. Kui tingimuste arv on 0 (null), on vastus <strong>Väär</strong>.</td>
 <td>Või[argumendid], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Tehtemärk:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Tehtemärk:</strong> Või[x == 2, y &lt;= 2]</li>
 <li><strong>Infix-märk:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
@@ -169,7 +168,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 </tr>
 <tr class="even">
 <td>Võimsus</td>
-<td>See võtab astme. See rakendab paremalt vasakule astendamise. (See tähendab parempoolset seost.) Seega on avaldis <strong>Aste[a, b, c]</strong> võrdne avaldisega <strong>Aste[a, Aste[b, c]]</strong>. <strong>Astet</strong> saab kasutada ainult siis, kui aste on positiivne konstant.</td>
+<td>See võtab astme. See rakendab paremalt vasakule astendamise. (See tähendab parempoolset seost) Seega on avaldis <strong>Aste[a, b, c]</strong> võrdne avaldisega <strong>Aste[a, Aste[b, c]]</strong>. <strong>Astet</strong> saab kasutada ainult siis, kui aste on positiivne konstant.</td>
 <td>Aste[argumendid], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Tehtemärk:</strong> Power[x, 2] == y</li>
@@ -177,13 +176,13 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Max</td>
+<td>Suurim</td>
 <td>See annab vastuseks suurima tingimuse. Kui tingimuste arv on 0 (null), on vastus <strong>Lõpmatus</strong>.</td>
 <td>Max[argumendid]</td>
 <td><strong>Tehtemärk:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Min</td>
+<td>Väikseim</td>
 <td>See annab vastuseks vähima tingimuse. Kui tingimuste arv on 0 (null), on vastus <strong>Lõpmatus</strong>.</td>
 <td>Min[argumendid]</td>
 <td><strong>Tehtemärk:</strong> Min[x, y, 2] == z</td>
@@ -193,7 +192,7 @@ Järgmistes tabelites on tehtemärkide ja infix-märkide loend, mida saate toote
 <td>See annab vastuseks tingimuse loogilise pöördväärtuse. Sel peab olema täpselt üks tingimus.</td>
 <td>Pole[avaldis], infix: !avaldis</td>
 <td><ul>
-<li><strong>Tehtemärk:</strong> Not[x] &amp; Not[y == 3]</li>
+<li><strong>Tehtemärk:</strong> Pole[x] &amp; Pole[y == 3]</li>
 <li><strong>Infix-märk:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -222,7 +221,7 @@ Järgmise tabeli näited selgitavad, kuidas kirjutada infix-märke.
 |        (x)        |                           Sulud alistavad vaikejärjestuse.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Miks minu avaldisepiiranguid õigesti ei kinnitata?
-Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või alamkomponentide nimena lahendaja nimena reserveeritud märksõnu. Siin on loend reserveeritud märksõnadest, mida ei saa kasutada.
+Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või alamkomponentide nimena lahendaja nimena reserveeritud märksõnu. Siin on loend reserveeritud märksõnadest, mida ei saa kasutada.
 
 -   Ülempiir
 -   Element
@@ -254,6 +253,3 @@ Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või ala
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

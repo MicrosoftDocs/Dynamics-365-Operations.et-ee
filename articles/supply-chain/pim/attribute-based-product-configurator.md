@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cba4b1eac33ae53e214297728c1cdf2710ebd9d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425923"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007912"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Atribuudipõhised müügihinnad piirangupõhistele tootekonfiguratsioonidele
 
@@ -141,6 +140,3 @@ Viimane samm on määrata tootemudeli versiooni jaoks atribuudipõhised müügih
 1. Valige toimingupaanil vahekaart **Mudel** ning valige rühmas **Hinnamudeli üksikasjad** suvand **Versioonid**.
 1. Avaneb leht **Versioonid**. Veenduge, et suvandi **Hinnakujundusmeetod** väärtuseks oleks seatud **Atribuudipõhine**.
     ![Hinnakujundusmeetodi seadmine atribuudipõhiseks](media/prod-config-versions.png "Hinnakujundusmeetodi seadmine atribuudipõhiseks")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

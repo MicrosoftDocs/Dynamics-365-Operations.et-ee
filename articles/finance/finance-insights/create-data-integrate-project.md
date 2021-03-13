@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: fb17d5e82709a34ff088774d9e9034adb714b58c
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 0029e093f524c61ff17a480ee3b881b3994ba95a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646249"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009439"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Andmeintegraatori projekti loomine (eelversioon)
 
@@ -73,6 +72,3 @@ See teema selgitab, kuidas luua andmeintegraatori projekti.
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 
 Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

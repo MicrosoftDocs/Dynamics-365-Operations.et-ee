@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442356"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009564"
 ---
 # <a name="settle-remainder"></a>Jäägi tasakaalustus
 
@@ -70,6 +69,3 @@ Jäägi tasakaalustamiseks toimige järgmiselt.
 7)  Võita ka luua tasakaalustamise jäägiga maksetöölehe või lihtsalt sisestada selle ilma tööleheta. Valige **Yes** **Redigeeri töölehel** jaoks, et luua maksetööleht. Saate redigeerida oma loodud maksetöölehte.
 8)  Klõpsake valikul **Jäägi tasakaalustamine**. Kui valisite töölehe loomise, muutub nupp nupuks **Töölehe loomine**. Klõpsake selle asemel nuppu **Töölehe loomine**.
 9)  Kui kõite maksetöölehe, avaneb töölehe lehekülg pärast seda, kui klõpsate nupul **Jäägi tasakaalustus**. Töölehele lisatakse töölehe rida, kus summaks on tasakaalustamise jäägi summa ja vastaskontoks on jäägi tasakaalustamise konto. Kui lisasite kliendile või hankija, et saaksite liigutada tasakaalustussumma teisele kliendile või hankijale, siis lisatakse töölehele lisanduv rida jäägi summa liigutamiseks sellele kliendile või hankijale.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

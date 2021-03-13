@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c408c0b0c32292c074bcabf3822a50a24bbdd301
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4426606"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007287"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Ristlaadimine tootmistellimustest lähetusaladesse
 
@@ -104,7 +103,7 @@ Kui toode on tootmisliinil lõpetatuks registreeritud, edastatakse see laadimisu
 6.  Looge üleviimistellimus. Looge üleviimistellimus kaubale numbriga L0101. Kogus = 20.
 7.  Väljastage üleviimistellimuse koorma plaanimise töölaualt. Valige vahekaardilt **Läheta** menüüelement koorma plaanimise töölaua jaoks ja tehke koorma rea menüüs **Väljasta** valik **Väljasta lattu**. Nüüd on üleviimistellimuse puhul olemas avatud voo rida tüübiga **Edastuse väljaminek**.
 8.  Tootmistellimuse loomine. Minge loendilehele **Tootmistellimus** ja looge tootele L0101 tootmistellimus. Kogus = 20. Hinnake ja alustage tootmistellimust. Pange tähele, et välja **Sisesta komplekteerimisleht kohe** olek on endiselt **Ei**.
-9.  Registreerige mobiilselt seadmelt lõpetatuks. Minge mobiilse seadme portaali ja valige menüüelement **Teata lõpetamisest ja pane kõrvale**. Nüüd registreerige L0101 pihuseadmel lõpetatuks. Kogus = 10. Pange tähele, et asetamise koht on **BAYDOOR**. Selle asukoha leiate töötellimuse tüübi **Asetamine** asukohakorraldusest **Edastuse väljaminek**. Pange tähele ka seda, et töö tüübiga **Edastuse väljaminek** on loodud ja lõpetatud. Minge töö kontrollimiseks üleviimistellimuse töö üksikasjadesse.
+9.  Registreerige mobiilselt seadmelt lõpetatuks. Minge mobiilse seadme portaali ja valige menüüelement **Teata lõpetamisest ja pane kõrvale**. Nüüd registreerige L0101 pihuseadmel lõpetatuks. Kogus = 10. Pange tähele, et asetamise koht on **BAYDOOR**. Selle asukoha leiate töötellimuse tüübi **Asetamine** asukohakorraldusest **Edastuse väljaminek**. Pange tähele ka seda, kas töö tüübiga **Edastuse väljaminek** on loodud ja lõpetatud. Minge töö kontrollimiseks üleviimistellimuse töö üksikasjadesse.
 10. Nüüd saab mobiilsest seadmest aruannetes esitada 10 lisaüksust. Pange tähele, et uuesti asetamise koht on **BAYDOOR**. Pange tähele ka seda, et uus töö tüübiga **Edastuse väljaminek** on loodud 10 üksuse jaoks.
 11. Nüüd proovige alustada tootmistellimusel veel 20 ühikut ja siis proovige registreerida 20 ühikut pihuseadmes lõpetatuks. Seekord soovitatakse asetamise kohaks **LP-001**. Selle asukoha leiate **lõpetatud kaupade kõrvalepaneku** asukohakorraldusest. Seda asukohakorraldust kasutatakse sellepärast, et ristlaadimise võimalust enam pole. LP-001 üleviimistellimus täideti täielikult kahe ristlaadimistegevusega etappides 9 ja 10. Pange tähele, et loodi ja töödeldi töö tüübiga **Lõpetatud kaupade kõrvalepanek**.
 
@@ -127,6 +126,3 @@ Kui toode on tootmisliinil lõpetatuks märgitud, viiakse see laadimisukse asuko
 -   Ristlaadimise stsenaariumi toetatakse partii ja seeriaga juhitavate kaupade puhul, nii ülal määratletud partii- ja seerianumbri dimensioonidega kui ka allpool antud asukohaga reserveerimishierarhias. 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 801327dc54f6d4cfef7a9f062395e29846783e8f
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: ae0eba6d397725cf425d9781a597d904e1958d44
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644941"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009387"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Rahavoo prognoosimises välisandmete kasutamine (eelversioon)
 
@@ -63,6 +62,3 @@ Lisaks kui peate teisaldama häälestuse andmed ühest keskkonnast teise, siis o
 
 #### <a name="privacy-notice"></a>Privaatsusavaldus
 Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
