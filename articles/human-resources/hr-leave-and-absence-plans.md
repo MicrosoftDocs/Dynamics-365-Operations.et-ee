@@ -2,7 +2,7 @@
 title: Puhkuse ja puudumise plaani loomine
 description: Looge rakenduses Dynamics 365 Human Resources erinevat tüüpi puhkuste jaoks puhkuseplaane.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 90a3d624dac6c78dfbf2479c5ac7eab76dd4b542
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418205"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115944"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Puhkuse ja puudumise plaani loomine
 
@@ -383,6 +383,3 @@ Prognoositud saldo (30) = juurdekasvu summa (10 × 1) – praegune saldo (40) �
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuste ja puudumiste tüüpide konfigureerimine](hr-leave-and-absence-types.md)
 - [Puhkuse ja puudumise plaanide koondamine](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

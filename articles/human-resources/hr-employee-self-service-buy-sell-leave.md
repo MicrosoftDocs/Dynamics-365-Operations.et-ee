@@ -2,7 +2,7 @@
 title: Puhkuse ostmine ja müümine
 description: Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab97803f1c961e3edd298b483cbea5345ef093f5
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418228"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115314"
 ---
 # <a name="buy-and-sell-leave"></a>Puhkuse ostmine ja müümine
 
@@ -53,6 +53,3 @@ Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendam
 
 [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)</br>
 [Puhkuse ostu ja müügi poliitikate haldamine](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

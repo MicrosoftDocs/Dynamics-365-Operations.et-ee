@@ -1,8 +1,8 @@
 ---
-title: Küsimustike kujundamine
+title: Küsimustike loomine
 description: See artikkel kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f7f7d68caf12c33059d2f871fe3f4a036c89f35
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418217"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115122"
 ---
-# <a name="design-questionnaires"></a>Küsimustike kujundamine
+# <a name="create-questionnaires"></a>Küsimustike loomine
 
 See artikkel kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
 
@@ -91,7 +91,7 @@ Küsimuste ja vastuste korraldamiseks kasutatakse numbriseeriakoode. Nende numbr
 Kõik parameetrid tuleks määratleda enne andmete loomise alustamist. Küsimustiku parameetri sätteid saab igal ajal muuta.
 
 ## <a name="questionnaire-components"></a>Küsimustiku osad
-Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast.  Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
+Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast. Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -236,5 +236,3 @@ Tingimuslike küsimuste kasutamiseks küsimustikus küsimuste hierarhia loomisek
 Juriidiline isik pakub oma klientidele nii kaupu kui ka teenuseid. Nagu sellistel puhkudel tavaliselt juhtub, ostavad mõned kliendid ainult kaupu, mõned ainult teenuseid ja mõned nii kaupu kui ka teenuseid. Seega, kui juriidiline isik saadab laiali kliendirahulolu uuringu, rakendatakse küsimustikus tingimuslikku struktuuri, et kliendid, kes ostavad ainult teenuseid, ei peaks vastama kaupu puudutavatele küsimustele. 
 
 Teine võimalus on seadistada küsimustik nii, et kui vastaja valib küsimusele 1 vastuse A, on küsimus 2 küsimuste järjekorras järgmine. Kuid kui vastaja valib küsimuse 1 puhul vastuse B, on järgmine küsimus 5.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

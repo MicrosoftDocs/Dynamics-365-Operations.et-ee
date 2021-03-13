@@ -2,7 +2,7 @@
 title: Autentimine
 description: See artikkel annab ülevaate teabest, kuidas autentida rakenduse Microsoft Dynamics 365 Human Resources andmete rakenduse programmeerimisliidese (API) abil.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 963bec2b817c59e3b5860c5ff5885e165ec8656a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418086"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115556"
 ---
 # <a name="authentication"></a>Autentimine
 
@@ -185,6 +185,3 @@ namespace TalentODataPoC
 ```
 
 Kui olete juurdepääsuloa juba hankinud, edastate loa autoriseerimise päises vastutaja loana koos iga taotlusega, mille saadate andmete API-le, nagu eespool kirjeldatud.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

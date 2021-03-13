@@ -2,7 +2,7 @@
 title: Kohandatud väljad
 description: Saate rakenduses Dynamics 365 Human Resources lisada lehtedele kohandatud väljasid.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 583e29d9b0bae34ffc2f519bb775b9e099682fe0
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: eb27808d72728e2e2ac98fdfb8fa0643ad8f3219
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529550"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115484"
 ---
 # <a name="custom-fields"></a>Kohandatud väljad
 
@@ -31,14 +31,12 @@ ms.locfileid: "4529550"
 
 Saate rakenduses Dynamics 365 Human Resources lisada lehtedele kohandatud väljasid. Lisateavet kohandatud väljade loomise kohta leiate teemast [Kohandatud väljade loomine ja nendega töötamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-Kohandatud välju toetavad paljud Common Data Service'i üksused. Common Data Service'i üksuste täieliku loendi leiate teemast [Common Data Service'i üksused](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
+Enamikud Dataverse'i tabelid toetavad kohandatud välju. Dataverse'i tabelite täieliku loendi leiate teemast [Dataverse'i tabelid](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
 
-Lubage kindlasti kõik loodavad kohandatud väljad, et neid rakenduses Common Data Service kasutada. Lisateavet vt teemast [Kohandatud väljade esitamine andmeüksustele](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+Lubage kindlasti kõik loodavad kohandatud väljad, et neid rakenduses Dataverse kasutada. Lisateavet vt teemast [Kohandatud väljade esitamine andmeüksustele](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
 
 ## <a name="see-also"></a>Vt ka
 
-[Common Data Service'i üksused](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[Dataverse'i tabelid](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Kohandatud väljade loomine ja nendega töötamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Kohandatud väljade esitamine andmeüksustele](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

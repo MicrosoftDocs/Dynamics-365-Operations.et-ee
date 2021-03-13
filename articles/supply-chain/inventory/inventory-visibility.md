@@ -1,7 +1,7 @@
 ---
 title: Varude nähtavuse lisandmoodul
 description: See teema kirjeldab varude nähtavuse lisandmooduli installimist ja konfigureerimist Dynamics 365 Supply Chain Managementi jaoks.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625061"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114666"
 ---
 # <a name="inventory-visibility-add-in"></a>Varude nähtavuse lisandmoodul
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Varude nähtavuse lisandmoodul on sõltumatu ja väga muutuv mikroteenus, mis võimaldab reaalajas vaba kaubavaru jälgimist, andes seega ülevaate varude nähtavuse kohta.
 
 Kogu vaba kaubavaruga seotud teave eksporditakse teenusesse peaaegu reaalajas madalama taseme SQL-i integratsiooni kaudu. Välised süsteemid pääsevad teenusele juurde avatud API-de kaudu, et teha päringuid antud dimensioonide kogumi kohta, seega hankides saadaolevate vabade ametikohtade loendi.
 
-Varude nähtavus on teenusel Common Data Service rajanev mikroteenus, mis tähendab, et saate seda laiendada, luues rakendusi Power Apps ja rakendades Power BI, et võimaldada ärivajaduste täitmiseks kohandatud funktsioone. Samuti on võimalik uuendada indeksit laopäringute tegemiseks.
+Varude nähtavus on teenusel Microsoft Dataverse rajanev mikroteenus, mis tähendab, et saate seda laiendada, luues rakendusi Power Apps ja rakendades Power BI, et võimaldada ärivajaduste täitmiseks kohandatud funktsioone. Samuti on võimalik uuendada indeksit laopäringute tegemiseks.
 
 Varude nähtavus pakub konfigureerimisvõimalusi, mis võimaldavad seda integreerida mitme kolmanda osapoole süsteemidega. See toetab standardset varude dimensiooni, kohandatud laiendatavust ning standardiseeritud konfigureeritavaid ja arvutatavaid koguseid.
 
@@ -78,30 +78,57 @@ Varude nähtavuse lisandmooduli installimiseks tehke järgmist.
 
 ### <a name="get-a-security-service-token"></a>Turbeteenusetõendi hankimine
 
-Turbeteenusetõendi hankimiseks tehke järgmist.
+Hankige turbeteenusetõend, tehes järgmist.
 
-1. Hankige `aadToken` ja kutsuge lõpp-punkt: https://securityservice.operations365.dynamics.com/token.
-1. Asendage sisus `client_assertion` tõendiga `aadToken`.
-1. Asendage sisu kontekst keskkonnas, kus soovite lisandmoodulit kasutada.
-1. Asendage ulatus sisus järgmisega.
+1. Logige Azure’i portaali sisse ja kasutage seda rakenduse Supply Chain Management atribuutide `clientId` ja `clientSecret` leidmiseks.
+1. Tooge Azure Active Directory luba (`aadToken`), edastades HTTP-taotluse järgmiste atribuutidega:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Meetod** - `GET`
+    - **Sisu (vormi andmed)**:
 
-    - MCK ulatus – „https://inventoryservice.operations365.dynamics.cn/.default“  
-    (Azure Active Directory MCK rakenduse ID ja rentniku ID leiate failist `appsettings.mck.json` .)
-    - PROD-i ulatus – „https://inventoryservice.operations365.dynamics.com/.default“  
-    (Azure Active Directory PROD-i rakenduse ID ja rentniku ID leiate failist `appsettings.prod.json`.)
+        | key | väärtus |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Peaksite saama vastuseks atribuudi `aadToken`, mis sarnaneb järgmise näitega.
 
-    Tulemus peals sarnanema järgmise näitega.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Vormindage JSON-i taotlus, mis sarnaneb järgmisele:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Kus
+    - Väärtus `client_assertion` peab olema `aadToken`, mille eelmises sammus saite.
+    - Väärtus `context` peab olema keskkonna ID, kus soovite lisandmooduli juurutada.
+    - Häälestage kõik muud väärtused, nagu näites näidatud.
+
+1. Edastage HTTP-taotlus järgmiste atribuutidega:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Meetod** - `POST`
+    - **HTTP päis** – lisage API versioon (võti on `Api-Version` ja väärtus on`1.0`)
+    - **Sisu** – lisage eelmises sammus loodud JSON-i taotlus.
 
 1. Saate vastuseks tõendi `access_token`. Seda on teil vaja juurepääsuloaks, et kutsuda nähtavuse API. Siin on näide.
 
@@ -500,6 +527,3 @@ Eelmistes näidetes kuvatud päringud võivad tagastada sellise tulemuse.
 ```
 
 Võtke arvesse, et koguseväljad on struktuurilt justkui meetmete ja nendega seotud väärtuste sõnastikud.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

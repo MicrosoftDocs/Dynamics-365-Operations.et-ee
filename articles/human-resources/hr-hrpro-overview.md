@@ -2,7 +2,7 @@
 title: Ülevaade
 description: Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse Human Resources seadistamise, töötajate hüvitiste ja soodustuste seadistamise ning tööjõu haldamise kohta.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418221"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115242"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -59,10 +59,9 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 [Töövoogude kasutamine töövõtja teabe haldamiseks](hr-workflow-manage-employee-information.md)</br>
 [Ametikoha aruandlusseoste muutmine](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Töötaja andmete sisestamine](hr-personnel-enter-worker-information.md)</br>
-[Töötajatele asjade laenamine](hr-personnel-loan-item-worker.md)</br>
-[Projekti ajatabelite sisestamine](hr-personnel-enter-project-timesheets.md)</br>
+[Töötajatele kaupade laenamine](hr-personnel-loan-item-worker.md)</br>
 [Hulgivärbamisprojektid](hr-personnel-mass-hire-projects.md)</br>
-[Ametikohtade seadistamine](hr-personnel-set-up-positions.md)</br>
+[Saate häälestada ametikohti](hr-personnel-set-up-positions.md)</br>
 [Saate häälestada vigastuste ja haiguste teavet.](hr-personnel-set-up-injury-illness-information.md)</br>
 
 ## <a name="set-up-compensation-plans"></a>Kompensatsiooniplaanide häälestamine
@@ -128,6 +127,3 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

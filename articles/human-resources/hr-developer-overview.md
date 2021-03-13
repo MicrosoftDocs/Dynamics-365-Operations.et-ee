@@ -1,8 +1,8 @@
 ---
-title: Ülevaade
+title: Arenduse ülevaade
 description: See arendaja juhend pakub API ja kohandatud väljade viiteid. Lisaks antakse teavet teiste rakendustega integreerimise kohta.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 517febd7967350956a28dfd9d11e4042456c7da0
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528313"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115386"
 ---
-# <a name="overview"></a>Ülevaade
+# <a name="development-overview"></a>Arenduse ülevaade
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ See arendaja juhend pakub API ja kohandatud väljade viiteid. Lisaks antakse tea
 
 - [Laiendamine Power Appsi ja Power Automate’iga](hr-developer-power-apps.md)
 
-- [Rakenduse Human Resources üksused teenuses Common Data Service](hr-developer-entities.md)
+- [Rakenduse Human Resources üksused teenuses Dataverse](hr-developer-entities.md)
 
 - [Kohandatud väljad](hr-developer-custom-fields.md)
 
 - Andmete integreerimise häälestamine
   - [Andmete integreerimise tehnoloogia valimine](hr-admin-integration-choose-technology.md)
-  - [Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
+  - [Dataverse’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
   - [Integratsiooni konfigureerimine Finance’iga](hr-admin-integration-finance.md)
   - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
@@ -62,6 +62,3 @@ See arendaja juhend pakub API ja kohandatud väljade viiteid. Lisaks antakse tea
 - [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)
 - [Administraatori juhend](hr-admin-overview.md)
 - [Kasutusjuhend](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
