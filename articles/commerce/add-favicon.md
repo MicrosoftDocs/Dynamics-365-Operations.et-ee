@@ -98,3 +98,6 @@ Kui vaatate nende lehtede eelversiooni, mis põhinevad mallil, millele lisasite 
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

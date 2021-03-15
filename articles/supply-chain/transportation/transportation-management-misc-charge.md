@@ -30,3 +30,6 @@ Nii nagu kõigi teiste lisatasude puhul, tuleb transpordi loodud tasusid seostad
 Minge **Transpordi haldus > Seadistus > Hinnang > Lisakulud**, et määratleda kvalifitseeruvad kriteeriumid, mis määravad, millal kindlat **Tasu koodi** rakendatakse tasule.
 
 Teil peaks olema vähemalt üks seadistus iga vastava **Tasumooduli** sätte jaoks (*Klient* ja *Hankija*), kus **Lisakulude tüüp** on seatud väärtusele *Ei ole*. Kui see puudub, siis lisakulu *ei* lisata tellimusele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

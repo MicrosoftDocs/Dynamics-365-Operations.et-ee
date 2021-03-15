@@ -125,3 +125,6 @@ Maksete loomisel luuakse maksefail ja teil palutakse salvestada see veebibrauser
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

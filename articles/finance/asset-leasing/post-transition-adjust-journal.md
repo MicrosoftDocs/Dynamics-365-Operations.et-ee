@@ -46,3 +46,6 @@ Lisateavet selle kohta, kuidas seadistada raamat uuele standardile üleminekuks,
 
 5. Töölehe kirje vaatamiseks valige **Vara rentimise töölehed**.
 6. Valige uus tööleht ja seejärel valige käsk **Sisesta**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

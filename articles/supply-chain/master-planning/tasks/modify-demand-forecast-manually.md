@@ -42,3 +42,6 @@ See protseduur näitab, kuidas kauba prognoosi muuta. Selle protseduuri loomisek
 1. Klõpsake **Ava** lahenduses Microsoft Office.
 2. Klõpsake Excelis **Nõudluse prognoosi redigeerimine**. Excelis saate nõudluse prognoosi ridu lisada, kustutada ja muuta. Kui te andmeid Excelis ei näe, peate sisse logima, nii et suvand Hoia mind sisselogituna on lubatud ja peate andmeühenduse rakendust usaldama.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

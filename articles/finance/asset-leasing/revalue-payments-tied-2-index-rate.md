@@ -67,3 +67,6 @@ IFRS 16 rendilepingute ümberhindamise mõju vaatamiseks avage korrigeeritud ren
 Saate vaadata värskeltloodud maksegraafikut, mis algab ümberhindamise kuupäevast ja näitab värskendatud makse kogusummat. Loodud on ka uus rendikohustise amortisatsioonigraafik ja vara kulumigraafik, mis peegeldavad korrigeeritud maksegraafikut.
 
 Töölehe kirje sisestas korrigeerimise töölehe kirje automaatselt kontole indeksi ümberhindamisega seotud rendimaksete muutmiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

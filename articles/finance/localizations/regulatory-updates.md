@@ -77,3 +77,6 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 - Kõik plaanitud ja väljaantud regulatiivsed värskendused leiate jaotisest [Lifecycle Service – väljaande otsing](https://lcs.dynamics.com/Logon/Index) (vajalik on sisselogimine).
 - Toetatavate lokaliseeringute loendi leiate [Rahvusvahelise saadavuse juhendist](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

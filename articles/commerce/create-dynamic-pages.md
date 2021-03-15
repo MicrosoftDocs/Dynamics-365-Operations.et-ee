@@ -96,3 +96,6 @@ Pärast kohandatud lehe avaldamist esitatakse see parametriseeritud sisuga düna
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
 
 [Võrgukanali laiendatavus](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

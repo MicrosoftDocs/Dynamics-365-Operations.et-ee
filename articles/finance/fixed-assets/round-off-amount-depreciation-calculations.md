@@ -49,3 +49,6 @@ Kulum ilma ümardamiseta arvutatakse kui 2444,44. Nagu tabelist näha, varieeruv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

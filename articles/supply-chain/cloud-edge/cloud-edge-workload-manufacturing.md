@@ -109,3 +109,6 @@ Skaala ühikus töödeldud tööde ajaloo ülevaatamiseks logige sisse skaala ü
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Tootmiskeskus skaala ühiku teade protsessori töö jaoks
 
 _Tootmise keskus skaala ühiku teade protsessori_ töö töötleb andmeid keskusest skaala ühikule. See töö käivitatakse automaatselt, kui tootmise käivitamise töökoormus on kasutusel. Kuid saate seda käitada käsitsi igal ajal, minnes **Tootmise juhtimise \> Perioodiliste ülesannete \> BackOffice töökoormuse halduse \> Tootmise keskusestt skaala ühiku teate protsessorisse**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

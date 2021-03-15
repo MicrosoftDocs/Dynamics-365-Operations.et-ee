@@ -220,3 +220,6 @@ Süsteem saab hinnata, kas kõik koormasse kaasatud ohtlikud materjalid sobivad 
 1. Tehke jaotise **Tegevused** vahekaardi **Koormad** toimingupaanil valik **Ühilduvuskontroll**.
 
 Kuvatakse teade, mis teavitab teid kontrolli tulemustest.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

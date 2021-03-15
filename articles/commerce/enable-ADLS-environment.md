@@ -114,3 +114,6 @@ Kui see ei ole juba lõpule viidud, järgige juhiseid keskkonna [tootesoovituste
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

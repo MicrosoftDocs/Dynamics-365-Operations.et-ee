@@ -87,3 +87,6 @@ Kassa võimaldab kasutajatel konfigureerida ekraanipaigutustes sisalduvaid nupup
 ## <a name="calculating-commissions"></a>Komisjonitasu arvutamine
 
 Komisjonitasu arvutatakse määratud müügigruppide töötajatele väljavõtte või müügitellimuse sisestamise ajal. Komisjonitasu summa määratakse kliendi ja/või kande toodete puhul müügigrupis määratletud töötaja komisjonitasu osakaalu ja seotud komisjonitasu arvutamise sätete alusel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

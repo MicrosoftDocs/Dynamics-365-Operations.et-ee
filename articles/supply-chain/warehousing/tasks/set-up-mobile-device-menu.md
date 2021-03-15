@@ -68,3 +68,6 @@ Selles teemas näidatakse, kuidas seadistada mobiiliseadme menüü-üksust. Sell
 5. Klõpsake paremale suunatud noolt.
 6. Valige käsk **Salvesta**.
 7. Sulgege leht.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

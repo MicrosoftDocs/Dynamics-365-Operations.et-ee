@@ -39,3 +39,6 @@ Järgmine protseduur loetleb toimingud, mida süsteemiadministraatorid saavad ka
 6. Avage **Navigeerimispaan > Moodulid > Üldine > Üldine > Vaikearmatuurlaud**. Näete uut ribareklaami või logopilti armatuurlaual.  
     
     Võib-olla peate ettevõtte valija abiga valima praeguse ettevõtte asemel selle, mille jaoks ribareklaami üles laadisite.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

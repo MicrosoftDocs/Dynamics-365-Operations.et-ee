@@ -275,3 +275,6 @@ Selle stsenaariumi korral on kogumi komplekteerimine lõpule viidud ja kasutaja 
     Teile kuvatakse teade „Kogum on lõpule viidud”.
 
 Ülejäänud koguse komplekteerimiseks saate nüüd kasutada menüükäsku **Müügi komplekteerimine**. Seejärel saate kasutada menüükäsku **Müügi laadimine**, et teisaldada kaubad vaheasukohast kuni laadimisdokki.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

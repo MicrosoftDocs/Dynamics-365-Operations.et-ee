@@ -101,3 +101,6 @@ Kirjemallid võivad aidata kiiremini kirjeid luua. Saate luua kirje malli nii, e
 - [Dokumendihalduse konfigureerimine](configure-document-management.md)
 - [Meilisõnumi konfigureerimine ja saatmine](configure-email.md)
 - [Kuupäeva/kellaaja andmed ja ajavööndid](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

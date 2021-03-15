@@ -88,3 +88,6 @@ Uuele lehele tekstiploki mooduli lisamiseks ja vajalike atribuutide seadistamise
 
 [Videopleierimoodul](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Asukohapõhise poetuvastuse sisselülitamiseks Commerce’is toimige järgmiselt
 [Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas](configure-multi-B2C-tenants.md)
 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

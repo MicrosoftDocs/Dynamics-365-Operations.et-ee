@@ -53,3 +53,6 @@ Mittevastavuse haldamise võimaldamiseks tehke järgmist.
 [Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
 [Eeltingimuste seadistamine mittevastavuse halduseks](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ See protseduur juhendab kliendi otsimisel, uue tellimuse loomisel, toote otsimis
 
 [Kassas tarneviisi muutmine](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

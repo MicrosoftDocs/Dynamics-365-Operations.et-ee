@@ -102,3 +102,6 @@ See protseduur annab ülevaate üksiku väljastatud toote loomise kohta ühe jur
 12. Otsige loendist ja valige soovitud kirje.
 13. Klõpsake loendis valitud real olevat linki.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

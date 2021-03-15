@@ -383,3 +383,6 @@ Kui kõik vajalikud elemendid on paigas, saate häälestada ruumi leidmise autom
 1. Soovi korral saate määrata kordumise automaatselt käivituma.
 
 Selle stsenaariumi harjutuste jaoks **ärge** seadistage automaatset ruumi leidmist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

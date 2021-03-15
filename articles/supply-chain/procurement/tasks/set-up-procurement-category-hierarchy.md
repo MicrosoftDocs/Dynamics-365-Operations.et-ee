@@ -44,3 +44,6 @@ See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja ko
 4. Valige tooted, mille soovite lisada hankekategooriasse.
 5. Toodete lisamiseks tabelisse **Valitud** valige nool.
 6. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

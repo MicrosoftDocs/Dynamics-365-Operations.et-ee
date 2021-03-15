@@ -52,3 +52,6 @@ Kontrollige, et üksuse kaupluse mõõtmised „Cash flow measure V2“ ja „Le
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Kas üksuse kaupluse üksused on värskendatud?
 
 Andmete ajakohasuse ja täpsuse tagamiseks peate üksusi aeg-ajalt värskendama. Konkreetse üksuse käsitsi värskendamiseks avage jaotis **Süsteemihaldus \> Häälestus \> Üksuse kauplus**, valige üksus ja seejärel tehke valik **Värskenda**. Andmeid saab värskendada ka automaatselt. Määrake lehe **Üksuse kauplus** suvandi **Automaatne värskendamine lubatud** väärtuseks **Jah**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

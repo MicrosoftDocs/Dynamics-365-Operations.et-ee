@@ -241,3 +241,6 @@ Teie vorming peab kõigepealt olema ER-i konfiguratsioonide hulgas kättesaadav.
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
 [Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

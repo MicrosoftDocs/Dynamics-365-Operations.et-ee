@@ -106,3 +106,6 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
 [Äridokumentide halduse ülevaade](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

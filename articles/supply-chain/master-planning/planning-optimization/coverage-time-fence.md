@@ -85,3 +85,6 @@ Laovarude ajapiiride häälestamisel arvestage järgmiste punktidega.
 - Kontsernisisest nõudlust eiratakse, kui arvutatud taotletud lähetuskuupäev ei jää laovarude ajapiiri sisse. Pange tähele, et integreeritud koondplaneerimise puhul ei piira laovarude ajapiir kontsernisisest nõudlust.
 - Nõudluse prognoose eiratakse, kui eelarvekuupäev ei ole laovarude ajapiiri sees. Pange tähele, et integreeritud koondplaneerimise nõudluse prognoosid pole laovarude ajapiiridega piiratud.
 - Planeerimise optimeerimine arvestab ajavööndiga. See arvestab pakkumise ja nõudluse saitid ajavööndiga ning planeerimise käitamise ajaga. Näiteks käivitatakse koondplaneerimine 15. oktoobril kell 11 Taani saidilt (ajavööd GMT +1) ja kasutatakse kümnepäevast laovarude ajapiiri. Sel juhul kaasatakse pakkumise ja nõudluse nõue saidilt Seattle’is (ajavöönd GMT –8) kuni kl 14.00 25. oktoobrini (= kümme 24-tunnist päeva pärast koondplaneerimise käivitamist, miinus ajavööndi erinevus üheksa tundi). Pange tähele, et integreeritud koondplaneerimise mootor arvestab ainult ajapiiri kupäevaga. Seega võivad tulemused erineda.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ See protseduur selgitab kaupluse konfiguratsioone, mis mõjutavad Commerce’i v
 17. Valige suvand Jah väljal **Poolitatud väjavõttemeetodi järgi**, kui soovite määratleda iga väljavõttemeetodi jaoks loodavaid väljavõtteid. Sellest tegevusest on abi, kui sisestusjõudlust tuleb suurte kandemahtudega kaupluste puhul suurendada, kuna see loob palju väiksemaid väljavõtteid, mida saab korraga töödelda.  
 18. Saate kiirkaardi **Üldine** väljal **Vaikeklient** valida kliendikonto, mida kasutada kohale tulevatele klientidele müümisel.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

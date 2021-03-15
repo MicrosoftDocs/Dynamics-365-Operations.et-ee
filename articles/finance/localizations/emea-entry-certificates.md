@@ -125,3 +125,6 @@ Kui teil pole juurdepääsu lehtedele, mida kasutatakse selle ülesande täitmis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

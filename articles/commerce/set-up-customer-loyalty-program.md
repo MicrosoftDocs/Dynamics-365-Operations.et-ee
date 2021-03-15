@@ -150,3 +150,6 @@ Lisaks saavad jaemüüjad määratleda maksimaalse püsikliendiprogrammi preemia
 
     > [!NOTE]
     > Erinevalt muudest perioodilistest allahindlustest, nagu koguse, liht-, segamise ja sobitamise ning läveallahindlused, ei loo saateallahindlus allahindlusridu, pigem redigeerib saatekulu otse ja lisab allahindluse nime kulu kirjeldusele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

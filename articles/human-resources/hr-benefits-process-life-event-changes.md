@@ -52,3 +52,6 @@ Elusündmuste muutuste töötlemine rakenduses Microsoft Dynamics 365 Human Reso
    4. Valige nupp **OK**. Protsess töötab teie määratud parameetritega.
 
 4. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

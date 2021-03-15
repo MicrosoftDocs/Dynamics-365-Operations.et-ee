@@ -120,3 +120,6 @@ Saidi sisu haldamise kohta lisateabe saamiseks vaadake järgmisi teemasid.
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
 
 [Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

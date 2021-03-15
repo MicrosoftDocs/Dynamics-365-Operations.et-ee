@@ -177,3 +177,6 @@ Selles jaotises jätkate töötamist töökäsuga, mille kallal eelmises jaotise
 1. Toimingupaanil vahekaardil **Arveldamine** valige suvand **Uus arve soovitus**.
 1. Dialoogiboksis **Arve soovituse loomine** jaotises **Projektitehingud** valige märkeruut **Valimine** iga rea jaoks, mille kohta arve soovite esitada.
 1. Dialoogiboksi sulgemiseks ja uue arve soovituse vaatamiseks valige **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

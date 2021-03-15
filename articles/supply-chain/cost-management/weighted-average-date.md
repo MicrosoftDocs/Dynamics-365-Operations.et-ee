@@ -195,3 +195,6 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Selle toimingu abil saate hallata kuluarvestuse pearaamatu andmeallikat. Enne se
 14. Valige väljal Sisestamiskiht väärtus Praegune.
 15. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

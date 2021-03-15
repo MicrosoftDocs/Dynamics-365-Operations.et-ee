@@ -47,3 +47,6 @@ See protseduur näitab, kuidas seadistada transpordi maksevahendit. Seda teeb ü
 7. Klõpsake Edasta.
 8. Valige protsess.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Siin on selle tulemus.
 | IA0001 | 1 | 2 | 2 |
 
 Pange tähele, et paani **Filtrid** sätted rakenduvad üksikasjalikule (koondamata) varude tabelile, mis on toodud selle jaotise alguses. Seetõttu leiab kriteerium **Füüsiliselt vaba** \| **väiksem kui või võrdne** \| _1_ sellest tabelist kaks rida (esimese ja kolmanda rea, sest mõlema suvandi **Füüsiliselt vaba** väärtus on _1_). Kuid selles olukorras pole lehte **Vaba kaubavaru loend** seadistatud kuvama dimensiooni **Ladu**. Seetõttu koondab see kaks algset rida üheks reaks, kuna mõlemal real on identsed väärtused kõiki kuvatud dimensioone arvestades. See rida näib olevat vastuolus filtreerimiskriteeriumiga, kuna suvandi **Füüsiliselt vaba** väärtus on _2_. Kuid tulemus on õige, kuna paani **Filtrid** sätted rakenduvad lähtetabelile, mitte tabelile, mis on kuvatud lehel **Vaba kaubavaru loend**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

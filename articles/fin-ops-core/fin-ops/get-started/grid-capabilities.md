@@ -293,3 +293,6 @@ See jaotis sisaldab uue ruudustiku juhtelemendi teadaolevate probleemide loendit
 ### <a name="quality-update-for-1009platform-update-33"></a>Versiooni 10.0.9 kvaliteedivärskendus / platvormivärskendus 33
 
 - [KB 4550367] Kellaajaväärtused ei ole õigesti vormindatud.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

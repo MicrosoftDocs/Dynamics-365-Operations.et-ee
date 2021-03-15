@@ -61,3 +61,6 @@ Pärast ajalooliste andmete importimist saate nõudluse prognoosi koostada.
 
 [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)  
 [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

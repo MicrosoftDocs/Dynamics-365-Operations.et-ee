@@ -38,3 +38,6 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protsedu
 7. Sisestage kuupäev väljale Alguskuupäev.
 8. Sisestage kuupäev väljale Lõpukuupäev.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

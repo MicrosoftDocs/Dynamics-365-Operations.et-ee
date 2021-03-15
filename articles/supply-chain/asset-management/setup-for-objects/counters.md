@@ -66,3 +66,6 @@ Kui väljale **Loendurid** on varade tüübid lisatud loenduri tüübile, siis l
 
 ![Joonis 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

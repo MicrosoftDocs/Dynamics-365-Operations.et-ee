@@ -94,3 +94,6 @@ Saate iga tarneviisiga, mida konfigureerite, valikuliselt siduda kiirsaadetise k
 Näiteks tellimuste puhul, mis tarnitakse järgmisel päeval õhutranspordiga, peab komplekteerimine toimuma laos iga päev kell 13. Sellisel juhul saab luua kiirsaadetise koodi, mille saab siduda ükskõik millise järgmise päeva tarneviisiga, mis on süsteemis konfigureeritud. Kui laos koostatakse komplekteerimisvoog, siis saab väljal **Kiirsaadetis** olevat koodi kasutada filtrina, nii et komplekteeritakse vaid tellimusi, millel on selle koodiga seotud tarneviisid.
 
 Peale selle, kui sisestatud on kõnekeskuse tellimus, saab müügitellimuse päisesse või üksikule müügitellimuse reale käsitsi sisestada kiirsaadetise koodi. Ka sellel puhul saab koodi kasutada sortimiseks ja aruandluseks. Mõnikord on vaja klienditeeninduse vea tõttu tellimust hoolikalt käsitleda. Sellisel juhul saab tellimuse päisesse või ridadele sisestada kiirsaadetise koodi, mis aitab tellimust täitmise käigus tuvastada ja prioriseerida.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

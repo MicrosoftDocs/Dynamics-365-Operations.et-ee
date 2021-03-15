@@ -80,3 +80,6 @@ Selles teemas läbite kaks peamist sammu.
 9. Valige subjekt dialoogiboksis **Subjekt** **elektroonilise arvelduse lisandmooduli** lisamise kaudu.
 10. Valige **Lisa** ja seejärel valige **Salvesta võtmehoidla muudatused**.
 11. Kopeerige lehel **Ülevaade** võtmehoidla väärtus **DNS-i nimi**. Seda väärtust kasutatakse teenuse seadistamisel RCS-is ja sellele viidatakse kui *võtmehoidla URI-le*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

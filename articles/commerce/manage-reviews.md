@@ -131,3 +131,6 @@ Arvustuste ja hinnangute suundumuste vaatamiseks rakenduse Commerce saidiehitaja
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

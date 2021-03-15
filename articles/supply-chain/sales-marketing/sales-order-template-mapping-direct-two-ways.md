@@ -208,3 +208,6 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Potentsiaalne klient sularahaks](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

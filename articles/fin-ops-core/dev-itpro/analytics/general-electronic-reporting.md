@@ -298,3 +298,6 @@ Rakenduse Finance ER-i konfiguratsioonide loendit värskendatakse pidevalt. Avag
 
 - [Elektroonilise aruandluse (ER) konfiguratsioonide loomine](electronic-reporting-configuration.md)
 - [Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

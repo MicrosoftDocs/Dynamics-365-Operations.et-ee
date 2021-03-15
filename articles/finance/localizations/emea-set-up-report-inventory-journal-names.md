@@ -47,3 +47,6 @@ Konkreetse aruande ja töölehe tüübi vahelise seose seadistamiseks sisestage 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

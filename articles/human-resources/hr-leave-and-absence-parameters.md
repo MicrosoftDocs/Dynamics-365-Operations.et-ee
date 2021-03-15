@@ -92,3 +92,6 @@ Enne puhkuste ja puudumiste plaanide seadistamist rakenduses Dynamics 365 Human 
 ## <a name="see-also"></a>Vt ka
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

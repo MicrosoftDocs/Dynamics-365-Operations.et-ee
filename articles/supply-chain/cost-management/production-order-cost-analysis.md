@@ -64,3 +64,6 @@ Eraldiolevad aruanded kajastavad iga kandetüübi teavet. Kasutage neid aruandei
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

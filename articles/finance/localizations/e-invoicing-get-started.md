@@ -235,3 +235,6 @@ Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vaja
 - [Mehhiko elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-mex-get-started.md)
 - [Itaalia elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-ita-get-started.md)
 - [Kliendi elektroonilised arved Egiptuses](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

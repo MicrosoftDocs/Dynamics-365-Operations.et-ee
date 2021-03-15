@@ -40,3 +40,6 @@ Hooldustellimuse viimiseks hoolduse töövoos järgmisesse või eelmisesse etapp
 4.  Valige sobiv etapp vormil **Muuda teenuse etappi**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

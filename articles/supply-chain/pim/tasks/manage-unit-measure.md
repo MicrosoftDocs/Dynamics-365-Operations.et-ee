@@ -62,3 +62,6 @@ See protseduur näitab, kuidas määratleda mõõtühikut, pakkuda üksuse ja se
 6. Klõpsake valikut **OK**.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

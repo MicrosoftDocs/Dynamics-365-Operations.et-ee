@@ -80,3 +80,6 @@ Operatsiooniressurss sooritab projekti või tootmisprotsessi tegevusi. Selles pr
 4. Sisestage või valige väärtus väljal Sisendasukoht.
     * Määrake operatsiooniressursi tarbitavate materjalide lao asukoht.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

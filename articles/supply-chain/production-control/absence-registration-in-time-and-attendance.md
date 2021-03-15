@@ -108,3 +108,6 @@ Näiteks teeb töötaja sisseregistreerimise kell 10:00 ja valib puudumiskood, m
 ### <a name="calculate-and-approve-absence"></a>Puudumisaja arvutamine ja kinnitamine
 
 - Valige **Tööajaarvestus** &gt; **Ülevaatamine ja kinnitamine** &gt; **Kinnitamine või arvutamine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

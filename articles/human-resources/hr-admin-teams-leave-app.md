@@ -134,3 +134,6 @@ Et piirata oma organisatsiooni või selles olevate kasutajate juurdepääsu rake
 [Microsoft Teams spikrikeskus](https://support.office.com/teams)</br>
 [Puhkusetaotluste haldamine Teamsis](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

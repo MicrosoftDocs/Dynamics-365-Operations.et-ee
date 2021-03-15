@@ -57,3 +57,6 @@ Selles protseduuris kirjeldatakse, kuidas luua hankijale pangakontot. Saate seda
 25. Väljale **Pangakonto** valige äsja loodud konto.
 26. Klõpsake valikut **Salvesta**. Aadress võib pärineda pangagrupist, kui see on määratud, või võite selle siin lisada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

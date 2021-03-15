@@ -87,3 +87,6 @@ Selles näites luuakse plaanitud ostutellimus ettevõttes USMF, et katta müügi
 Järgmine illustratsioon näitab, kuidas see näide võidakse kuvada plaanitud tootmistellimuse lehel **Mitmetasandiline sidumine**.
 
 ![Kontsernisisene näide, mis hõlmab kolme ettevõtet](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

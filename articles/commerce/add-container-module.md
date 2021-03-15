@@ -141,3 +141,6 @@ Uuele lehele konteineri esitamise mooduli lisamiseks ja vajalike atribuutide sea
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

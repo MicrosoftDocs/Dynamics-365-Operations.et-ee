@@ -317,3 +317,6 @@ Kui olete lõpetanud, peaksite nägema, et loodi neli saadetist.
 
 - [Saadetise konsolideerimispoliitikad](about-shipment-consolidation-policies.md)
 - [Saadetise konsolideerimispoliitikate konfigureerimine](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ Seerianumbrite kontrollid tehakse ka siis, kui kasutaja teeb kassas klienditelli
 [Sissetulev laooperatsioon kassas](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Väljaminev laooperatsioon kassas](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

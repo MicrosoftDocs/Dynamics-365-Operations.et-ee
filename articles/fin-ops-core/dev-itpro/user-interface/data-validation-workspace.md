@@ -56,3 +56,6 @@ Enne tööruumi **Andmete valideerimise kontroll-loend** kasutamist tuleb protse
 Kasutate ülesande alasid andmete valideerimise ülesannete grupeerimiseks teie organisatsiooni omandiõiguse loogilistesse aladesse. Näiteks võib ülesande aladena kasutada suvandeid Ostureskontro, Müügireskontro või Pearaamat.
 
 Üksus **Menüüelemendi nimi** on seostatud ülesande tööpanusega ja seda saab kasutada tööruumis ülesande lingilt otse seotud lehele liikumiseks. Näiteks andmete valideerimise ülesande aruande **Ostureskontro aegumine** käivitamiseks ostureskontro jaoks saab linkida lehega **Ostureskontro aegumisaruanne**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Välisvaluuta ümberarvutamise käitamisel luuakse alati seda kajastav kirje. Ü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

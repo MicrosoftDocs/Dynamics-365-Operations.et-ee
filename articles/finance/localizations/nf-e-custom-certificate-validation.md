@@ -35,3 +35,6 @@ Serdi V5 atribuudi **Serveri autentimise eesmärk** väljastab Brasiilia juurser
 See värskendus võimaldab serte kontrollida teisel viisil, mis tähendab, et on võimalik luua turvaline ühendus.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

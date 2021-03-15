@@ -79,3 +79,6 @@ Krediitkaardi autoriseerimise tühistamiseks saate muuta makseviisi teise meetod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

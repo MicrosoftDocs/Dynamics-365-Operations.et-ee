@@ -111,3 +111,6 @@ Commerce'i saidiehitajale juurdepääsuks avage vahekaart **E-kaubandus** LCS-i 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

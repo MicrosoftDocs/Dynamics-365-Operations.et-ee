@@ -147,3 +147,6 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
     * Kontrollige sisestatud töölehekandeid.  
 16. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Mitme juriidilise isiku põhivara kulumit saab käitada ühe etapina. See protse
 5. Klõpsake suvandit Loo tööleht.
 6. Avage Põhivarad > Töölehe sisestused > Põhivarade tööleht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

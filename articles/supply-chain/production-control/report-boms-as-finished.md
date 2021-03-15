@@ -88,3 +88,6 @@ Sellisel juhul arvestatakse kaubakoodi KOMP kahte laoühikut. Kuid kuna kaubakoo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

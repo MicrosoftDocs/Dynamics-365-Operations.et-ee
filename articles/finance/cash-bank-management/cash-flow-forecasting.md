@@ -149,3 +149,6 @@ Lisaks saate vaadata likviidsuse plaanimise andmeid konkreetsete kontode, tellim
 - **Pakkumise prognoos**: valige **Likviidsuse plaanid** valitud üksuse pakkumise prognoosiga seotud tulevaste rahavoogude vaatamiseks.
 - **Nõudluse prognoos**: valige **Likviidsuse plaanid** valitud üksuse nõudluse prognoosiga seotud tulevaste rahavoogude vaatamiseks.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

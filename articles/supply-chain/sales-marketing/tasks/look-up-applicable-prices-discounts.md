@@ -59,3 +59,6 @@ Veenduge, et väli Kliendi konto sisaldab kliendinumbrit US-001.
     * Tootel T0012 on kaks rea allahindluse lepet, mis määrab 5-protsendise allahindluse tellimuserea kogusele 1 kuni 10 ja 7-protsendise allahindluse tellimuse kogustele üle 10. Pange tähele, et allahindlused rakenduvad tootegrupile, siinses näiteks grupile koodiga 01, millesse toode T0012 kuulub.  
 4. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

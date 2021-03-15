@@ -48,3 +48,6 @@ Arvestage järgmist stsenaariumi: keevitustööks on vaja metallplaadi tükki. T
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ Kui summa väljal **Ülekantav summa** on negatiivne. luuakse pärast saatelehe 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

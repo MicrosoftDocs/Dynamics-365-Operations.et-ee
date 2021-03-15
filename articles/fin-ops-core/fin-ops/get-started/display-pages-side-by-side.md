@@ -48,3 +48,6 @@ Enne funktsiooni **Ava uues aknas** kasutamist tuleb konfigureerida brauseri hü
 Funktsioon **Ava uues aknas** on saadaval ainult siis, kui aknas on avatud mitu lehte. Samuti suletakse hüpikaken automaatselt, kui rohkem lehti pole avatud (st selle akna viimase lehe sulgemisel). Süsteem suleb avatud lehed ka siis, kui lähete rakenduses teisele alale. Seetõttu, kui teil on hüpikaknad avatud ja lähete rakenduses teisele alale, sulguvad hüpikaknad automaatselt, kuna süsteem sulges nendes akendes olevad lehed.
 
 Hüpikakende ülaribal on kuvatud teave ettevõtte kohta, mille all leht avati, ja see on kirjutuskaitstud. Hüpikaknad sõltuvad ka peamisest brauseriaknast. Kui peamine aken suletakse või seda värskendatakse, muutuvad kõik hüpikaknad kirjutuskaitstuks. Selle olukorra ilmnemisel saate neis akendes siiski teavet vaadata, kuid ei saa sellega midagi teha.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

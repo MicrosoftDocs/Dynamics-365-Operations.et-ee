@@ -193,3 +193,6 @@ Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljast
 [Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

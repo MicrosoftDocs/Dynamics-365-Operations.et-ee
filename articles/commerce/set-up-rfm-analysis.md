@@ -96,3 +96,6 @@ Kasutage seda protseduuri RFM-i analüüsi kirje vaatamiseks või kustutamiseks.
 2. Valige lehel **RFM-analüüs** kirje, mida soovite vaadata.
 3. Kirje ajaloo vaatamiseks klõpsake kiirkaarti **Ajalugu**.
 4. Kirje ajaloo kustutamiseks klõpsake käsku **Kustuta ajalugu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

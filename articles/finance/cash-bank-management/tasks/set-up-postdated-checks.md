@@ -56,3 +56,6 @@ Selle protseduuri roll on Kassiir. See protsess kasutab demoettevõtte USMF-i an
 18. Klõpsake nuppu Salvesta.
 19. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

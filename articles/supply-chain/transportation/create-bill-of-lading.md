@@ -42,3 +42,6 @@ Kui koormas on rohkem kui üks saadetis, saate luua koondveokirja. Sellel on sam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

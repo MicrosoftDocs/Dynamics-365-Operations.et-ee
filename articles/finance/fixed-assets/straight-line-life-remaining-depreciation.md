@@ -79,3 +79,6 @@ Kulumisumma on igal aastal sama: (soetusmaksumus – jääkväärtus) ÷ kasulik
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

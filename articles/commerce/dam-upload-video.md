@@ -72,3 +72,6 @@ Kui sisestate mitut tüüpi varad üheaegselt (nt pildid ja videod), saate mää
 [Pildi keskpunktide kohandamine](dam-custom-focal-point.md)
 
 [Staatiliste failide üleslaadimine ja kasutamine](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

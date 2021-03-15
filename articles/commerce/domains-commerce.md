@@ -172,3 +172,6 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
   [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
   [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

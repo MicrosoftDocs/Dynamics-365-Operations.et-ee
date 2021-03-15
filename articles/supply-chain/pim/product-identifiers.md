@@ -189,3 +189,6 @@ Nüüd saate kasutada andmeüksuseid **Tooteüksuse common data service’i iden
 ## <a name="related-topic"></a>Seotud teema
 
 [Toodete ja tootevariantide otsimine tellimuse sisestamise käigus](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

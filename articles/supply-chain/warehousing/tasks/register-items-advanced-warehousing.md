@@ -75,3 +75,6 @@ Märkige üles loodava ostutellimuse number ning ostutellimuse rea jaoks kasutat
     * Pärast OK klõpsamist kontrollige teateriba. Kuvatama peaks teade, et toiming on lõpule viidud.  
 5. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

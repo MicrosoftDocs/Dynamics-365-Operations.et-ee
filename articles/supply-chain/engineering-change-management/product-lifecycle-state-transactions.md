@@ -75,3 +75,6 @@ Kiirkaardil **Lubatud äriprotsessid** loetletud protsesside kohta on saadaval j
 | Poliis | Valige üks järgmistest väärtustest, et kontrollida, kas ja kuidas see protsess on lubatud selle töötsükliga toodete puhul.<ul><li>**Lubatud** – äriprotsess on lubatud.</li><li>**Blokeeritud** – protsess pole lubatud. Kui kasutaja püüab selle töötsükli olekuga toote korral protsessi kasutada, blokeerib süsteem katse ja kuvab selle asemel tõrketeate. Näiteks saate blokeerida tööea lõpus olevate toodete ostmise.</li><li>**Lubatud hoiatusega** – protsess on lubatud, aga kuvatakse hoiatus. Näiteks soovitakse tooteprototüüp lisada tootmistellimusele, mis on loodud uurimistöö ja arenduse osakonnas. Teistes osakonnas peaksid inimesed siiski teadma, et seda toodet ei tohi veel toota.</li></ul> |
 
 Kui lisate kohandades veel töötsükli oleku reegleid, saate neid reegleid vaadata kasutajaliideses (UI), valides ülemisel paanil nupu **Värskenda protsessid**. Nupp **Värskenda protsessid** on saadaval ainult administraatoritele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

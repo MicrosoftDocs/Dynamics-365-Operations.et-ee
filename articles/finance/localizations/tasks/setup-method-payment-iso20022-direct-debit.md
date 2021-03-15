@@ -52,3 +52,6 @@ See on kolmas viiest protseduurist, mis näitab kliendi makseprotsessi, kasutade
     * Valige parameeter Nõua luba kliendi maksevormingutele, mis nõuavad loa teabe lisamist makseteatele (nt SEPA otsekorraldus).  
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

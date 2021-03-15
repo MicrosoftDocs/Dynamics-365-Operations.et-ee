@@ -97,3 +97,6 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 1.  Valige **Saada tänu**. 
 1. Sisestage tänu tekst, mille saata soovite. 
 1. Valige suvand **Valmis**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

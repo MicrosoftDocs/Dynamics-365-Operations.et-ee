@@ -96,3 +96,6 @@ See protseduur näitab, kuidas seadistada koondmäära. Koondmäärad seadistab 
     * Määrake, milline sihtnumber peaks selle alusmäära määramise puhul kehtima.
 10. Sisestage väljale **Peale võtmise riik/regioon** "USA".
 11. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

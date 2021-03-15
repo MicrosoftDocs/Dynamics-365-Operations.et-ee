@@ -93,3 +93,6 @@ Edastuslogide hulka kuuluvad järgmised lisafunktsioonid.
 - **Edastuste tühistamine** – see funktsioon lubab spetsiaalse edastusprotsessi olukordades, kus väline veebiteenus peab elektroonilise arve kinnitama. See juhendab elektroonilise arvelduse lisandmoodulit saatma veebiteenusele kindla sõnumi, mis käseb veebiteenuse andmebaasis kinnitatud elektroonilise arve oleku tühistada.
 - **Dokumendi taasedastamine** – saate taasedasta elektroonilise dokumendi, mis on juba elektroonilise arvelduse lisandmoodulile edastatud. Lehel **Edastuse üksikasjad** luuakse täiesti uus logi.
 - **Saatke seotud edastus**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

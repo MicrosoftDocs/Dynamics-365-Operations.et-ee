@@ -97,3 +97,6 @@ Faili üleslaadimiseks Kaubanduse saidiehitajasse toimige järgmiselt.
 [Pildi keskpunktide kohandamine](dam-custom-focal-point.md)
 
 [Staatiliste failide üleslaadimine ja kasutamine](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Astmeliselt suureneva hinnatavate kombinatsioonide arvu probleemi lahendamiseks 
 ![Valem marginaali väärtuse arvutamiseks](./media/overlapping-discount-combo-06.jpg)
 
 Pärast seda, kui on arvutatud jagatud tootekogumi iga allahindluse marginaali väärtus, rakendatakse allahindlused jagatud toodetele alates kõrgeimast marginaaliväärtusest kuni madalaima marginaaliväärtuseni (ammendavalt). Selle meetodi puhul ei võrrelda kõiki järelejäänud allahindluse võimalusi iga kord pärast üksiku allahindluse rakendamist. Selle asemel võrreldakse kattuvaid allahindlusi üks kord ja seejärel rakendatakse need järjekorras. Lisavõrdlusi ei tehta. Saate läve konfigureerida, et minna üle marginaali väärtuse meetodile lehe **Kaubanduse parameetrid** vahekaardil **Allahindlus**. Koondallahindluse arvutamiseks vastuvõetav aeg erineb jaemüügivaldkondade lõikes. Kuid see aeg jääb üldjuhul kümnete millisekundite ja ühe sekundi vahele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

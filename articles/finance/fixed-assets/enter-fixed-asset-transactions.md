@@ -67,3 +67,6 @@ Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate p
 Kulumiperioodide põhivara järelejäänud väärtust ei värskendata kulumikande tüüpi tööleherea käsitsi loomisel või importimisel andmeüksuse kaudu. Seda väärtust värskendatakse, kui töölehe rea loomiseks kasutatakse kulumisoovituste protsessi.
 
 Lisateavet leiate jaotisest [Põhivarade integreerimine](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

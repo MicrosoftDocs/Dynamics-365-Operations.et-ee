@@ -92,3 +92,6 @@ Oma saidile uue saidi lehe lisamiseks toimige järgmiselt.
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
 
 [Dünaamiliste e-kaubanduse lehtede loomine URL-parameetrite põhjal](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

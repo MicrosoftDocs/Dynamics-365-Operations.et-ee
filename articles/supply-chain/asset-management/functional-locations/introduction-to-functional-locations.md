@@ -82,3 +82,6 @@ Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse 
 | Tõrge                              | Avage leht **Vara tõrked**, kus saate vaadata valitud funktsionaalse asukohaga seotud tõrke registreeringute loendit. |
 | Funktsionaalse asukoha värskendamine    | Valitud funktsionaalse asukoha etapi värskendamine                                                                                        |
 | Elutsükli oleku logi                 | Saate vaadata logi, mis näitab valitud funktsionaalse asukoha etappe.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

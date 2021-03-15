@@ -69,3 +69,6 @@ Pärast nõutavate vara elutsükli mudelite loomist saate seadistada elutsükli 
 
 6. Valige **Elutsükli oleku värskendused**, et määratleda, millised elutsükli olekud saavad valitud elutsükli olekut järgida.
 7. Kasutage kiirkaarti **Vara olek**, kui käsitlete remondiks saadud varasid. Jaotises **Sissetulev/väljaminev** saate valida vara elutsükli olekud, et näidata vara töövoogu, mille olete paranduseks saanud. Kui pakute klientidele või osakondadele laenuvarasid, saate jaotises **Laen** valida laenuvaradele elutsükli olekud.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Tegevuse ümber määramiseks teisele töötajale kasutage allolevaid samme.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

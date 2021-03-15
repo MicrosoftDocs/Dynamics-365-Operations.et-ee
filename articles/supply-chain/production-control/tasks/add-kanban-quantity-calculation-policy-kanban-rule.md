@@ -62,3 +62,6 @@ See protseduur keskendub kanban-koguse arvutamise poliitika loomisele ja selle l
 8. Klõpsake loendis valitud real olevat linki.
     * Valige poliitika Speaker2016, mille olete eelmises alamülesandes äsja loonud.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

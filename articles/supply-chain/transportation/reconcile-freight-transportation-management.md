@@ -105,3 +105,6 @@ Teine moodus käsitsi vastendamiseks on jätkata järgmiselt.
 1. Vastendage Inv1 ja Inv2 FB-ga üksteise järel. FB on täielikult vastendatud.
 
 Nagu see näide näitab, tuleks veose arveid vastendada negatiivsete summadega ainult käsitsi. See tagab, et veose arveid ja negatiivseid summasid oleks võimalik vastendada veose arvega, mis ei ole täielikult vastendatud, kuna see võimaldab teil kontrollida sobiva järjestuse järjekorda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -181,3 +181,6 @@ Seifide seadistamiseks läbige need etapid.
 
 [Kõnekeskuse kanali seadistamine](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

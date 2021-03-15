@@ -52,3 +52,6 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protsedu
 3. Valige nupp **OK**.
 4. Valige **Plaanitud tellimused**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

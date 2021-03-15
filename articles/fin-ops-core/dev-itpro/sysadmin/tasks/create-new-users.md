@@ -81,3 +81,6 @@ Kasutaja ID muutmiseks peate võtme andmebaasis ümber nimetama. Kui muudate sed
 Lisateavet B2B kasutajate juurutamiseks vt [B2B kasutajate eksportimine Azure AD-sse](../implement-b2b.md).
 
 Lisateavet eelkonfigureeritud süsteemikontode kohta vt [Eelkonfigureeritud süsteemikontod](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

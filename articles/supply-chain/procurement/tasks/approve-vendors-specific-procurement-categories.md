@@ -43,3 +43,6 @@ Selles teemas selgitatakse, kuidas kinnitada hankijaid konkreetsetele hanke kate
 13. Valige väljalt **Tuleta hankijad põhikategooriast:** väärtus **Ei**.
 14. Valige väljalt **Tuleta hankijad põhikategooriast:** väärtus **Jah**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

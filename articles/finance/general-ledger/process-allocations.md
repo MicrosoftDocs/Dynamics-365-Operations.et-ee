@@ -43,3 +43,6 @@ Pearaamatu eraldamisreegleid saab kasutada eelarveplaanide puhul. Eelarve plaani
 > [!NOTE]
 > Eelarve plaanimiseks ei saa kasutada kontsernisiseseid pearaamatu eraldamisreegleid.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

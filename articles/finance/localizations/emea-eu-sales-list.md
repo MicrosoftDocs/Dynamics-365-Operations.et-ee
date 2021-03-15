@@ -159,3 +159,6 @@ Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksua
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

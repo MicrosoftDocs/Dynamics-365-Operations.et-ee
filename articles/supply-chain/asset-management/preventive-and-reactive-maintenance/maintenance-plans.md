@@ -238,3 +238,6 @@ Saate konfigureerida süsteemi automaatselt lähtestama loenduri iga kord, kui v
 1. Avage **Varahaldus \> Seadistus \> Töökäsud \> Töötsükli olekud**.
 1. Valige loendipaanil töötellimuse töötsükli olek, mille juures asjakohane loendur tuleks lähtestada.
 1. Määrake kiirkaardil **Üldine** suvandi **Lähtesta loendur** olekuks *Jah*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

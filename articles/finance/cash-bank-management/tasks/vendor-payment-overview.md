@@ -62,3 +62,6 @@ See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri 
 33. Maksete loomiseks klõpsake nuppu **OK**.
 34. Kui kõik maksed on kinnitatud ja loodud, klõpsake käsku **Sisesta**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

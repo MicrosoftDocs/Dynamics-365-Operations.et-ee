@@ -90,3 +90,6 @@ Kui loote koosluse aruande, saate lisada päritoluriigi igale osale, millele mä
 Luuakse ja kuvatakse aruanne teabega iga osa päritoluriigi kohta. Siin on aruande näide.
 
 ![Päritoluriigi aruanne](media/country-of-origin-report.png "Päritoluriigi aruanne")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

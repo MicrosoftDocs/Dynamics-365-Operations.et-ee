@@ -48,3 +48,6 @@ Lisaks võimaldavad kaks ainulaadset aruannet, milles kasutatakse hierarhilist r
 - Tööruum **Kategooria ja tootehaldus** &gt; **Jaemüük ja kaubandus** &gt; **Tooted ja kategooriad** &gt; **kaupluse haldus** &gt; **Aruanded**
 - Tööruum **Hinnakujunduse ja allahindluste haldamine** &gt; **Jaemüük ja kaubandus** &gt; **Hinnad ja allahindlused** &gt; **Kaupluse haldus** &gt; **Aruanded**
 - Jaotis **Päringud ja aruanded** &gt; **Jaemüük ja kaubandus** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

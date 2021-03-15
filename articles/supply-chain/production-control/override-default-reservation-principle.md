@@ -58,3 +58,6 @@ Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Ad
 Suur hulk määrdematerjali toodetakse 1000-liitrises segajas. Pärast seda, kui materjalihulk on valmis, pumbatakse see mitmesse täitmisjaama, kus täidetakse erineva mõõduga pudeleid. Pärast täitmise lõpetamist pakitakse pudelid kastidesse. Seejärel pakitakse need kastid kaubaalustele.
 
 Selles stsenaariumis luuakse partiitellimus 1000 liitmiseks materjalihulgaks. (See tellimus on hulgitellimus.) Kui see partiitellimus on lõpetatud, siis on see kinnitatud lõpetatuna materjali sisestamise asukohas, kus tellimus täidetakse. Seejärel luuakse iga pudeli suuruse täitmiseks ja pakkimiseks partii tellimus. (Need tellimused on pakkimistellimused.) Pakkimistellimustel on valem, mis koosneb hulgimaterjalist, tühjast pudelist, sildist ja teistest pakkematerjalidest. Kuna materjalihulk voolab otse segajast täitmisjaamadesse, ei ole koostisosa komplekteerimiseks laotöö vajalik ja materjalihulk tarbitakse tse sisestuskohast. Seetõttu seatakse reserveerimise põhimõtte väärtuseks *Käsitsi*. Muud materjalid viiakse etapiviisiliselt täitmisejaama komplekteerimise töö abil. Seega on nende ridade reserveerimise põhimõtteks määratud *vabastamine* näiteks nii, et reserveering toimub automaatselt, kui pakkimistellimus vabastatakse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

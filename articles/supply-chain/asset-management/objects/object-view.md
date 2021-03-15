@@ -47,3 +47,6 @@ Funktsionaalse asukoha ID / funktsionaalse asukoha ID (kui on rohkem kui üks fu
 Kui valisite vara puuvaates, saate valida kas **Aktiivsed taotlused** või **Aktiivsed töökäsud**, et vaadata varaga seotud hooldustaotlusi või töökäske. Seotud vaate avamiseks saate valida **Ava**\>**Funktsionaalne asukoht**, **Vara** või **Vara kooslus**.
 
 Suvand **Vara funktsionaalsed asukohad**, mille saate valida väljal **Vaade**, on saadaval ka mis tahes vara otsingus, kus saate valida vara. Puuvaade kuvatakse vahekaardil **Vara vaade**, näiteks kui [loote vara](../objects/create-an-object.md), loote hooldustaotluse või loote töökäsu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

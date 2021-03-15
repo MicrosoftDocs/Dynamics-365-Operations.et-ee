@@ -64,3 +64,6 @@ Kõigi juriidiliste isikute jaoks selle funktsiooni sisselülitamiseks toimige j
 **Uue dokumendi** nuppu kasutatakse malli loomiseks ja redigeerimiseks elektroonilise aruandluse (ER) vormingu konfiguratsioonis, mida pakub teine pakkuja. Selles näites on pakkuja Microsoft. Kui valite suvandi **Uus dokument**, saate vaadata kõiki praeguse ja teiste pakkujate omanduses olevaid malle. Pärast malli valimist avatakse see redigeerimiseks. Muudetud malli saab seejärel muuta uues ise loodavas ER-vormingus seadistusega.
 
 Lisateavet vt [Äridokumendi halduse ülevaatest](er-business-document-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

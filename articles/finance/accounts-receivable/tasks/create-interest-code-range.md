@@ -50,3 +50,6 @@ Viivisekoodid saab seadistada nii, et arvutatakse erinevad viivisesummad väärt
 21. Sisestage viiviseprotsent kuus, mida kasutatakse viivise arvutamiseks alates 7. kuust. Selles näites on viiviseprotsent 2,5.
 22. Seadistuse lõpuleviimiseks klõpsake nuppu Sule.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ See on teine viiest protseduurist, mis illustreerib hankija makseprotsessi, kasu
 4. Sisestage väärtus väljale Pangakonto või valige see.
 5. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

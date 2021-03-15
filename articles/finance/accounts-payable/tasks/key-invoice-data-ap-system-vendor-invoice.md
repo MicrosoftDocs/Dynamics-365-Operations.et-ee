@@ -72,3 +72,6 @@ Selle tegevusejuhise abil saate ostutellimuse põhjal luua hankija arve ja vaada
 19. Klõpsake käsku **Sisesta**.
 20. Sulgege vorm. Võtke arvesse, et ostutellimus pole loendis enam „vastu võetud“, vaid „arveldamata“.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

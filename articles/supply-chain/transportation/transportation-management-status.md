@@ -48,3 +48,6 @@ Transpordi oleku vastendamiseks vedaja olekuga järgige järgmisi samme:
 1. Valige transpordi oleku kood, mida soovite vastendada valitud vedaja koodiga.
 1. Sisestage kättetoimetaja kasutatav väliskood.
 1. Sulgege leht.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

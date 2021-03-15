@@ -48,3 +48,6 @@ See protseduur tutvustab, kuidas luua ja töödelda ristplatvormi toodete laiali
 15. Leidke loendist ladu, mis tooted vastu võttis ja valige see
 16. Klõpsake valitud lao jaoks loodud tellimuste vaatamiseks valikut Order (Tellimus)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

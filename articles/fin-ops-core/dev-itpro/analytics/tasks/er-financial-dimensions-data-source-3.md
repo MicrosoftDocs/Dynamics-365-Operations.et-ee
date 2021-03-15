@@ -145,3 +145,6 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 46. Sulgege leht.
 ![ER-i toimingute koostaja leht](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

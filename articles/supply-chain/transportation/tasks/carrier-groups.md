@@ -37,3 +37,6 @@ Kui sama marsruudi segmendi jaoks on olemas mitu kättetoimetajat ja kättetoime
 1. Sisestage väljale **Nimi** gruppi kirjeldav nimi.
 1. Lisage kiirkaardil **Üksikasjad** rida ja valige selle jaoks kättetoimetaja ja kättetoimetamisteenus. Korrake seda sammu seni, kuni olete lisanud nii palju vedajaid, kui teil grupi jaoks vaja on.
 1. Sulgege leht.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

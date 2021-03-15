@@ -62,3 +62,6 @@ Commerce peakontori kasutajad saavad hierarhia kõikide kliendikirjete atribuudi
 [Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks](payment-method.md)
 
 [Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

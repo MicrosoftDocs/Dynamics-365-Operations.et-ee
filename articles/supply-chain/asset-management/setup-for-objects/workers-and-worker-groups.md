@@ -63,3 +63,6 @@ Saate luua ka hooldustöötajate rühmi ja seostada nendega hooldustöötajaid. 
 6. Kui valitud hooldustöötajate rühmaga peaks olema seotud ressursirühm, valige **Kopeeri ressursirühmast**. Väljal **Rühjm** valige ressursirühm kalendri sätete kopeerimiseks. Seejärel valige väljal **Töötajate rühm** töötajate rühm ressursirühma kalendri sätete kopeerimiseks. See etapp on asjakohane ainult siis, kui soovite, et hooldustöötajad kasutaksid töökäsu plaanimisel ressursiga (töökeskus) seotud kalendrit.
 
     Kiirkaart **Üksikasjad** kuvab nende hooldustöötajate arvu, kes on määratud valitud hooldustöötajate rühma.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

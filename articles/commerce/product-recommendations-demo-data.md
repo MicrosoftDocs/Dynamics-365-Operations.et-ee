@@ -89,3 +89,6 @@ Laiend sisaldab andmefaili, mida nimetatakse RecoMockDataset.csv, mis võimaldab
 [Loo kuraatorite soovitused käsitsi](create-editorial-recommendation-lists.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

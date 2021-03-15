@@ -52,3 +52,6 @@ Kui loote kulumiarvestuse kulu töölehe kanded välisvaluutas nomineeritud rend
 Lõpliku kulumi summa saab arvutada veidi erineva vahetuskursi abil, nii et kasutamisõiguse esemeks olev vara amortiseeritakse täielikult nii arvestusvaluuta kui ka aruandevaluuta puhul.
 
 Kui rendileping on ümberklassifitseeritud kui **Edasilükatud rent**, tühjendab süsteem automaatselt arvestus- ja aruandlusvaluutad, kui need on juba määratletud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

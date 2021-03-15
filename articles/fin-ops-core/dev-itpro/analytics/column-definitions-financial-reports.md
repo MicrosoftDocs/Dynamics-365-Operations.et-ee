@@ -598,3 +598,6 @@ Saate veeru summa jagada määratud perioodide arvuga. Näiteks valem **B/Period
 [Readefinitsioonid finantsaruande koosturis](row-definitions-financial-reporting.md)
 
 [Täpsemad vormingusuvandid finantsaruandluses](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

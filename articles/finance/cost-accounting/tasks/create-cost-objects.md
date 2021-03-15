@@ -50,3 +50,6 @@ See protseduur näitab, kuidas luua kuluobjekte, importides kulukeskuse finantsd
 ## <a name="view-the-imported-cost-centers"></a>Imporditud kulukeskuste vaatamine
 1. Klõpsake valikut Dimensiooniliikmete kuvamine.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

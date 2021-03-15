@@ -47,3 +47,6 @@ Hõivatakse tasakaalustamisega seotud andmed ja need saab kuvada lehel **Kanded 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

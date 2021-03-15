@@ -62,3 +62,6 @@ Samas jõudluse parandamine, mida puhastustöö pakub, peaks need väikesed funk
 
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Laohalduse vabade kirjete puhastustöö maksimaalne teostamisaeg*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

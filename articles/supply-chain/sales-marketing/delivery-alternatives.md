@@ -150,3 +150,6 @@ Sellel kiirkaardil on toodud esile valitud tarnealternatiivi mõju. Kui valite *
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tellimuse lubamine](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

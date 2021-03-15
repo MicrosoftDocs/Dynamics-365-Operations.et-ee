@@ -94,3 +94,6 @@ Toote üksikasjade lehele lingirea mooduli lisamiseks ja vajalike atribuutide se
 [Ostukastimoodul](add-buy-box.md)
 
 [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

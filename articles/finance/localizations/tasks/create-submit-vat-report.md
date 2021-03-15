@@ -34,3 +34,6 @@ See protseduur kirjeldab, kuidas luua ja edastada käibemaksuaruannet Saksa maks
 5. Valige väljal Loo elektrooniline maksudokument suvand Jah.
 6. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

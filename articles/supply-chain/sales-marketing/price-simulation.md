@@ -144,3 +144,6 @@ Hinnasimulatsioon mõjutab ainult rida, millele see on rakendatud, ja vähendab 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

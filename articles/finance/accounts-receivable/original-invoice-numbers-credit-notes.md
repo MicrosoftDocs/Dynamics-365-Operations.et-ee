@@ -97,3 +97,6 @@ Kui prindite vaba teksti, kliendi ja projekti kreeditarved, sisaldavad need viid
 
 > [!NOTE]
 > Veenduge, et dokumentide prinditavad vormingud on õigesti konfigureeritud, eeldusel, et prinditakse viited originaalarvetele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

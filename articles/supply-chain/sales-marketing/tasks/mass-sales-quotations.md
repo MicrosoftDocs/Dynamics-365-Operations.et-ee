@@ -100,3 +100,6 @@ See protseduur näitab, kuidas tõhusalt pakkumisi koostada, pakkudes mitmele kl
 11. Avage Müük ja turundus > Müügipakkumised > Kõik hinnapakkumised.
     * Kontrollige, et pakkumised on koostatud valitud malli põhjal kõigile klientidele, kes on hulgiuuendamise protseduuris määratud.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

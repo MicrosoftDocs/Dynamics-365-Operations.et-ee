@@ -47,3 +47,6 @@ Dynamics 365 Commerce'i saite toetavad kõige paremini järgmised veebibrauserid
 [Robots.txt-failide haldamine](manage-robots-txt-files.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

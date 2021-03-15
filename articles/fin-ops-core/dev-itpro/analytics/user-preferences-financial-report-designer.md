@@ -72,3 +72,6 @@ Selles artiklis selgitatakse, kuidas seadistada kasutaja eelistusi kasutaja toim
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

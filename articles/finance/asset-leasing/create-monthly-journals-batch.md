@@ -36,3 +36,6 @@ Pakett-töö häälestamiseks või mitme rendikirje maksuarvete, kulumi või int
 > Järgmised kanded (nt kohustise amortiseerimise graafikud, maksed, kulum ja kulud) sisestatakse alles pärast seda, kui sisestatakse vastava rendikirje esialgne tuvastamine.
 >
 > Töölehe kirjed luuakse, kuid neid ei sisestata enne, kui valite käsu **Käivita**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

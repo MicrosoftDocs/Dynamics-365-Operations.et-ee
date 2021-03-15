@@ -127,3 +127,6 @@ Probleemi lahendamiseks tehke järgmist.
 
 3. Veenduge, et veerul **externalenvironmentURL** oleks õige Dataverse'i või rakenduse URL. Kustutage kõik duplikaatread, mis osutavad valele Dataverse'i URL-ile. Kustutage vastavad read tabelitest DUALWRITEPROJECTFIELDCONFIGURATION and DUALWRITEPROJECTCONFIGURATION.
 4. Peatage tabeli vastendamine ja taaskäivitage see
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

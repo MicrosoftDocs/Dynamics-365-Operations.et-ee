@@ -117,3 +117,6 @@ Järgmistes jaotistes kirjeldatakse igas üksuses kasutatavaid koondmõõtmisi.
 | Peamine koondmõõtmine       | Väli               | Kirjeldus |
 |---------------------------------|---------------------|-------------|
 | Lõpetatud tegevuse plaanitud kulu | Sum(TotalCostPrice) | Kogu omahinna prognoos kõigi lõpetatud ülesannetega projektikannete tüüpide kohta. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

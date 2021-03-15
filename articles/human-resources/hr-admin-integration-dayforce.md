@@ -676,3 +676,6 @@ Töötajad saavad deklareerida passi teavet. See teave on identifitseerimistüü
 
 Töövõtjad saavad deklareerida mitu **Pass**-identifitseerimistüüpi ID-numbrit. Dayforce’i integreeritakse siiski ainult praegune aktiivne passikirje. Kui kõik passikirjed on aegunud, siis integreeritakse Dayforce’i pass, mis väljastati viimasena.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

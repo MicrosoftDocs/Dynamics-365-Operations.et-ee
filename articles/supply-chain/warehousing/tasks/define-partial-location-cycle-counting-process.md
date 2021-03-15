@@ -72,3 +72,6 @@ Kui kasutate inventuuri jaoks tsüklilise inventuuri plaane, saate juhtida tegel
 14. Klõpsake nuppu OK.
 15. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Konsolideeritud juriidiline isik on nüüd perioodilise töö **Konsolideerimise
 
 > [!NOTE]
 > Enne konsolideerimist valmistage tütarettevõtte juriidilised isikud konsolideerimiseks ette. Lisateavet vt jaotisest [Allettevõte juriidilise isiku konsolideerimiseks seadistamine](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

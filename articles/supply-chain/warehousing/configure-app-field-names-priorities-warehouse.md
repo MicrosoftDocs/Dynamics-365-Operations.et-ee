@@ -143,3 +143,6 @@ Näiteks kui laotöötaja täidab ülesannet mobiilses seadmes, sisaldavad raken
 --------
 
 [Laorakenduse installimise ja konfigureerimise ülevaade](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

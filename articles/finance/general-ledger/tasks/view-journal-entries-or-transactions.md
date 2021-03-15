@@ -42,3 +42,6 @@ See näitab, kuidas kasutada pearaamatu kannete päringut töölehe kirjete või
 12. Klõpsake toimingupaanil valikut **Algdokument**.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

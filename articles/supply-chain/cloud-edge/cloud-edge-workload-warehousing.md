@@ -292,3 +292,6 @@ Skaalaüksustes saate töökoormuse korral hallata järgmisi pakett-töösid suv
 - Vootabeli kirjete töötlemine
 - Lao keskusest skaalaüksusesse sõnumiprotsessor
 - Laotellimuse ridade töötlemise koguse värskendustaotlused
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

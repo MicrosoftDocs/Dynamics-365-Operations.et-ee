@@ -54,3 +54,6 @@ See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab. Kui prot
 25. Avage oleku veeru filter.
 26. Sordi A-st Z-ni
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

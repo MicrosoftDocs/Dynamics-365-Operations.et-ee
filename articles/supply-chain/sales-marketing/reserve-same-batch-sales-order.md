@@ -44,3 +44,6 @@ Kui reserveerite sama partii valikuga müügitellimuse real olevale tootele varu
 - Partiil pole jäänud järele piisavalt kõlblikkusaja päevi, tuginedes aegumiskuupäevale ja parim-enne kuupäevale, millele on liidetud kliendi müümispäevad.
 
 Laoala dimensiooni grupiga seostatud kaupade puhul, millel on lubatud suvand **Kasuta laohaldusprotsesse**, saate reserveerida kindlaid partiinumbreid, kasutades reserveerimishierarhiat, kus partiinumbri varude dimensioon on määratletud asukohadimensiooni kohal. Müügi ja ülekandetellimuse ridade lehel **Partii reserveerimine** saate ka valida ja reserveerida mitu rida saadaolevate partiinumbrite põhjal. Lisateabe saamiseks selle kohta, mida teha, kui kasutate reserveerimishierarhiat, kus partiinumbri dimensioon on asukoha all, vaadake teemat [Paindlik dimensiooni reserveerimise poliitika laotaseme](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

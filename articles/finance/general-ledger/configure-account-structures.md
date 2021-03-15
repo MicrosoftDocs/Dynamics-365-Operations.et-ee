@@ -106,3 +106,6 @@ Konto struktuuride ülesseadmisel on välja kujunenud mõned head tavad, mida j�
 Kui olete konto struktuuri häälestuse või muudatusega rahul, tuleb see aktiveerida. Kui konto struktuur on määratud pearaamatule, siis võib aktiveerimine võtta kaua aega, kuna kõik süsteemi sisestamata kanded tuleb sünkroonida uue struktuuriga. Konto struktuuri muudatused ei mõjuta sisestatud kandeid.
 
 Lisateabe saamiseks vaadake jaotisi [Kontoplaanide plaanimine](plan-chart-of-accounts.md), [Finantsdimensioonid](financial-dimensions.md) ja [Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

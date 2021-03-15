@@ -42,3 +42,5 @@ Iga soodustust pakkuva organisatsiooni jaoks peate konfigureerima soodustuste ki
    | **Vaikimisi meilisõnumi saatja aadress** | Meiliaadress, mida kasutada kinnitusmeili saatmisel. |
 
 3. Valige käsk **Salvesta**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

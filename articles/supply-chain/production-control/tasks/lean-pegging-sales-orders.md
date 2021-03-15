@@ -56,3 +56,6 @@ Protseduur keskendub müügirea sidumispuu kinnitamisele, kui kaup on toodetud k
 5. Valige puus suvand „Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559”.
     * Teise kanbani töö on samuti plaanitud, kuna kogu sidumispuu on plaanitud. Pange tähele, et kanban-töö olek Plaanimata asendatakse olekuga Plaanitud.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

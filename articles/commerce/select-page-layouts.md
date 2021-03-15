@@ -79,3 +79,6 @@ Muu paigutuse valimiseks olemasoleva lehe jaoks toimige järgmiselt.
 
 [Dünaamiliste e-kaubanduse lehtede loomine URL-parameetrite põhjal](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

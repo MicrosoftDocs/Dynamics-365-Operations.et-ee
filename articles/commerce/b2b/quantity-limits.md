@@ -84,3 +84,6 @@ Commerce'i saidiehitajas B2B toote koguse piirangute funktsiooni sisse lülitami
 [Äripartnerist kasutajate haldamine B2B e-kaubanduse saitidel](manage-b2b-users.md)
 
 [Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

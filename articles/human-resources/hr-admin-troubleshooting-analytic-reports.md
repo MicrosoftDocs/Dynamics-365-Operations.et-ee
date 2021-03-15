@@ -43,3 +43,6 @@ Probleem võib olla ainult ajastuse küsimus. Järgige neid samme, et alustada p
 1. Valige lehe ülaosas **Redigeeri** ja määrake planeeritud alguskuupäevaks/-kellaajaks väärtus, mis värskendab analüütika praegusele ajale lähemal.
 
 ![Pakett-tööd](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

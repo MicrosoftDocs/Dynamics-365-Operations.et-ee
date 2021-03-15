@@ -79,3 +79,6 @@ Kasutage seda teemat, et lubada mittevastavuse haldamise protsessid. Mittevastav
 4. Sisestage väärtus väljale **Kirjeldus**.
 5. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

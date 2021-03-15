@@ -264,3 +264,6 @@ Müügitellimusi, millel on sunnitud ootelepaneku põhjus, ei saa automaatselt v
 Krediidihaldust saab praegu kasutada ainult müügitellimuste puhul. Vabas vormis arved, kassapõhised tellimused ja kõnekeskuse tellimused kasutavad ajutisi krediidilimiite ja kindlustusi/garantiisid, mille krediidilimiidi kohandamiseks lisate. Need ei kasuta blokeerimise reegleid ja neid ei panda ootele, kui krediidilimiidiga probleeme on.
 
 Krediidihaldus ei toeta projektiarveid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

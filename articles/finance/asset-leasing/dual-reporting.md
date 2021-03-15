@@ -522,3 +522,6 @@ Pärast kõikide nende töölehe kirjete loomist ja sisestamist näete järgmist
 | 11         | Akumuleeritud kulum |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

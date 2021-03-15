@@ -111,3 +111,6 @@ Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
 | Lähetusjõudlus        | Lähetatud toote järgi                       | CustPackingSlipOnTimeStatus           | Vara, Õigel ajal ja Hilja (vt kirjeldusi tabelis eestpoolt). |
 | Lähetusjõudlus        | Lähetatud kliendi järgi                      | CustPackingSlipOnTimeStatus           | Vara, Õigel ajal ja Hilja (vt kirjeldusi tabelis eestpoolt). |
 | Lähetusjõudlus        | Lähetatud tegevuskoha/lao järgi              | CustPackingSlipOnTimeStatus           | Vara, Õigel ajal ja Hilja (vt kirjeldusi tabelis eestpoolt). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

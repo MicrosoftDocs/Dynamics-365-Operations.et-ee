@@ -186,3 +186,6 @@ Leidke oma rollile (rakenduse Dynamics 365 Supply Chain kasutajale) õige võrgu
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

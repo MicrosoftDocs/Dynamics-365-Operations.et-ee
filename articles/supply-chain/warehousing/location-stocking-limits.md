@@ -103,3 +103,6 @@ Selle ilmse nurjumise selgitamiseks peate mõistma asukoha ladustamispiirangute 
 
 > [!NOTE]
 > Te ei saa kasutada asukoha ladustamispiiranguid, et juhtida näiteks nende kaubavarude täiendamist, mida on samas asukohas erinevas koguses. Sel juhul kasutage *täiendamise malli*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

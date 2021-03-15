@@ -149,3 +149,6 @@ Retail SDK-s on saadaval ka järgmised fiskaalüksuse integratsiooni funktsiooni
 Järgmine pärandi fiskaalüksuse integreerimise funktsioon, mis on saadaval Retail SDK-s, ei kasuta fiskaalüksuse integreerimise raamistikku ja on hilisemates värskendustes aegunud.
 
 - [Juhtseadme integratsiooni näidis Rootsi jaoks (pärand)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

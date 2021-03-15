@@ -48,3 +48,6 @@ Korvamiskannete loomisel luuakse kreeditsaldo summa kohta hankija arve. Korvamis
 
 5. Loodud hüvitamiskannete vaatamiseks kasutage **Tagasimakse** aruannet (**Müügireskontro \> Päringud ja aruanded \> Tagasimakse aruanne**).
 6. Looge ostureskontros korvamisprotsessi tulemusena loodud hankija arvete makse. Lisateavet hankijatele maksmise kohta vt teemast [Hankija maksete ülevaade](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

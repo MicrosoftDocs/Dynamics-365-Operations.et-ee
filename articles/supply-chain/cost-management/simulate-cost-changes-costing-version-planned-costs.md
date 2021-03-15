@@ -58,3 +58,6 @@ Pärast kulumuudatuste simulatsiooni sisestamist arvutage toodetavate kaupade ku
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

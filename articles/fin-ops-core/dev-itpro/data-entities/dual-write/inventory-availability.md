@@ -118,3 +118,6 @@ Finance and Operationsi väli | Kaardi tüüp | Klientide kaasamise väli | Vaik
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

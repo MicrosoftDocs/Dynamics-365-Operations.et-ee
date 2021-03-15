@@ -60,3 +60,6 @@ Näiteks toode X on määratud *Disainkappide* toote omaniku grupile. Toode X on
 ## <a name="product-owners-and-approvals"></a>Tooteomanikud ja kinnitused
 
 Kuna tooteomanikud teavad, kas konkreetsetest tehnilistest muudatustest on toodetele kasu, on sageli mõistlik kaasata need tehniliste muudatuste halduses kinnitamise protsessi osana. Saate selle lähenemise rakendada, häälestades tooteomanikud osalevate pakkujatena töövoogudes, mida kasutatakse tehniliste muudatuste haldamiseks. Süsteem määrab seejärel töövoodes kinnitamise ülesanded, mis põhinevad tehniliste muudatuste taotlustes ja tehnilise muudatuste tellimustes olevatel toodetel. Lisateavet vt teemast [Tehniliste toodete muudatuste haldamine](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

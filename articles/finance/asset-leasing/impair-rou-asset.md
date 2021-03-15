@@ -101,3 +101,6 @@ Järgmistes tabelites on toodud väärtused, mis on määratud vahekaartidel **�
 7. Väärtuse languse netomõju vaatamiseks minge tabelitesse kohustise ja varade kanded. Pange tähele, et väärtuse languse kulu on vähendanud kasutamisõiguse esemeks olevat vara, kuid rendikohustise bilansiline maksumus pole muutunud.
 
 Väärtuse langusel on veel üks mõju, millega peate arvestama. Kuna kasutamisõiguse esemeks oleva vara summa on nüüd rendikohustisest palju väiksem, tuleb summat amortiseerida varasemast erinevalt. Täpsemalt on põhivara nüüd amortiseeritud lineaarselt kogu järelejäänud 84 kuu jooksul, alates kande kuupäevast.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

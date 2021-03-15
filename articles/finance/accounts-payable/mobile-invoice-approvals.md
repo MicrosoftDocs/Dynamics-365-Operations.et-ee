@@ -534,3 +534,6 @@ Avage rakendus oma mobiilses seadmes ja looge ühendus oma eksemplariga. Veendug
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

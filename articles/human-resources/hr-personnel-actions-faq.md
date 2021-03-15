@@ -92,3 +92,6 @@ Näide.
 - Toimingu **Töötaja palkamine** päises olev kehtiv kuupäev kattub väljale **Töösuhte alguskuupäev** sisestatud kuupäevaga.
 - Toimingu **Töötaja üleviimine** päises olev kehtiv kuupäev kattub töötaja väljale **Määramise alguskuupäev** sisestatud kuupäevaga.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

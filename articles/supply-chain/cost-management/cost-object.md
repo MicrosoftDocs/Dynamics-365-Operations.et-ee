@@ -81,3 +81,6 @@ Järgmine tabel näitab, milline on kuluobjekt ja milline on varuobjekt.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Saidiehitajas tekstivälise skripti otse malli lisamiseks järgige neid juhiseid
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

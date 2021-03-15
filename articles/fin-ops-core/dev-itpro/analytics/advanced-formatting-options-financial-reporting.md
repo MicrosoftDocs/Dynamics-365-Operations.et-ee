@@ -310,3 +310,6 @@ Lause **IF/THEN/ELSE** võimaldab mis tahes arvutuse sõltumise teiste veergude 
 Saate koostada aruandeid, kasutades dimensiooniväärtusi, mis sisaldavad ja-märki (&).
 
 Mis tahes väljal **Link finantsdimensioonidele** saate sisestada väärtuse nagu **"P & L"**. Ühekordsete jutumärkide (' ') kasutamine dimensiooniväärtuse mõlemal küljel näitab, et kasutate literaalväärtust, sh ja-märk (&).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

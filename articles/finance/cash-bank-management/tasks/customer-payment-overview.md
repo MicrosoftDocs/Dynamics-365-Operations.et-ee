@@ -51,3 +51,6 @@ Sellest tegevusejuhisest leiate ülevaate klindimaksete sisestamiseks kasutatava
 21. Sisestage makseviide väljale **Makseviide**. Makseviide on vajalik vaid juhul, kui märgite makse kaasamise deposiidikviitungile.  
 22. Kliendi maksete sisestamiseks klõpsake **Toimingupaanil** valikut **Sisesta**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

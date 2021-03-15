@@ -95,3 +95,6 @@ Automaatselt loodud töökäskude rühmitamise häälestamiseks tehke järgmist.
 1. Kui soovite valikuid rakendada siis, kui käivitate ainult mõned oma hoolduskavad, lisage kiirkaardil **Kaasatavad kirjed** vastavalt vajadusele filtrid, nagu võite teha Microsoft Dynamics 365 Supply Chain Managementi teiste pakett-tööde puhul.
 1. Häälestage kiirkaardil **Käivita taustal** vastavalt vajadusele partii ja plaanimise valikud, nagu võite teha teiste rakenduse Supply Chain Management pakett-töödes.
 1. Valitud hoolduskavade käivitamiseks ja/või plaanimiseks valige **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

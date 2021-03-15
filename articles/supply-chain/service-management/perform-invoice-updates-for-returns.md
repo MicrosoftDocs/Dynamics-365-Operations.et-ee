@@ -56,3 +56,6 @@ Kui seadistate pakktöötluse jaoks arve värskendamise, peab **tagastatud telli
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -206,3 +206,6 @@ Enne süsteemi suunatud kogumi komplekteerimise seadistamist peate looma sobilik
 1. Mobiilse seadme viimane etapp on suvand **Pane**, millega pannakse kogum lõplikku asukohta. Valige **OK**
     - Kui see panemise toiming kinnitatakse, kogum suletakse ja tükeldatakse vastavalt väärtusele, mille määrasite kogumiprofiilis väljale **Tükelda kogum asukohas**. Töö ID-d on samuti suletud.
 1. Mobiilsel seadmel kuvatakse teade „Kogum lõpetatud”.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

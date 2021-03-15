@@ -113,3 +113,6 @@ Saate kopeerida finantsdimensioonid dokumentide päistesse või ostutellimuse ü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

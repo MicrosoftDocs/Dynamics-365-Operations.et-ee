@@ -41,3 +41,6 @@ Selles teemas näidatakse, kuidas panna periood ootele või sulgeda periood lõp
 11. Valige suvand **Värskenda perioodi olek** ja seadistage olekuks kas **Ootel**, **Avatud** või **Jäädavalt suletud**. **Avatud** näitab, et perioodi saab sisestada, kui kasutajal on juurdepääs. **Ootel** tähendab, et perioodi ei saa sisestada, aga perioodi saab uuesti avada. **Jäädavalt suletud** tähendab, et periood on suletud ja seda ei saa kunagi avada. Korrigeerimisi ei saa sisestada. Me ei soovita seadistada perioodi olekuks **Jäädavalt suletud** enne, kui kõik kohandused ja auditid on lõpetatud.  
 12. Tehke valik **Värskenda**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

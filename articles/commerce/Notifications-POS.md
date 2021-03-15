@@ -76,3 +76,6 @@ Nupul teatiste arvu kuvamiseks peate veenduma, et uuendatakse õiget ekraani pai
 Järgmisel joonisel on näidatud, mis on vahet valikul **Üleval paremal** ja **Keskel** väljal **Sisu joondamine** erinevates suurustes nuppude korral.
 
 ![Reaalajas sisu kassa nuppudel](./media/ButtonsWithLiveContent.png "Reaalajas sisu kassa nuppudel")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

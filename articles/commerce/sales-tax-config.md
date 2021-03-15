@@ -81,3 +81,6 @@ Kauplusesse järgi tulemise või tellimuse peale võtmise tellimuseridade puhul 
 
 [Maksuvabastuse arvutamine](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

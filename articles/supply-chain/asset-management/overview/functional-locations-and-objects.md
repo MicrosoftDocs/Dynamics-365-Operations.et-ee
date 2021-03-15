@@ -57,3 +57,6 @@ Funktsionaalsete asukohtade hierarhia ehitamine sõltub teie ettevõtte nõuetes
 Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad kliendid.
 
 ![Diagramm, mis näitab töö asukohti klientide põhjal](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

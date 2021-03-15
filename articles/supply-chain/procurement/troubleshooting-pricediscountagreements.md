@@ -124,3 +124,6 @@ Selline käitumine on oodatud. Kuna taotlusi ei kinnitata alati, ei tohi ostulep
 
 Saate luua kaubandusleppeid pakkumiskutsete (RFQ) kõigi vastuste puhul olenemata sellest, kas need on aktsepteeritud või tagasi lükatud. Lisateavet leiate teemast [Pakkumiskutsete (RFQ-de) ülevaade](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

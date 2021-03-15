@@ -645,3 +645,6 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 [Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

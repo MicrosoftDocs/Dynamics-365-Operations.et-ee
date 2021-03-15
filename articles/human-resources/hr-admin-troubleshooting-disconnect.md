@@ -52,3 +52,6 @@ Rakendus Microsoft Dynamics 365 Human Resources katkestab kasutajate ühendused,
 Veenduge, et korraga oleks ühes brauseritüübis avatud ainult üks keskkond. Kasutajad saavad samas keskkonnas avada mitu seanssi (s.t samas brauseris mitu vahekaarti).
 
 Kasutajad, kes soovivad korraga hüpata kahe keskkonna vahel, peavad kummagi keskkonna avama erinevas brauseritüübis. (Nt, kasutaja A saab vaadata keskkonda 1 Chrome’is ja keskkonda 2 Microsoft Edge’is.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

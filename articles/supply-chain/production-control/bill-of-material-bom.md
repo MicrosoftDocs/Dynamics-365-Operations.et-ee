@@ -117,3 +117,6 @@ Valige rea tüüp **Hankija**, kui tootmisprotsess kasutab allhankijat ja kui so
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

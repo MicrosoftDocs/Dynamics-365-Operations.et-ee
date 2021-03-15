@@ -52,3 +52,6 @@ Süsteem määrab, haru kasutada, hinnates edastatud dokumenti ja otsustades, ka
     2. Valige vormi alal kirje **Kontrolli tingimust**.
     3. Klõpsake nuppu **Test**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.
     4. Klõpsake valikut **OK** või **Tühista**, et naasta vormile **Atribuudid**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Väljavõtte sisestamisel luuakse väljavõtte müügitellimused ja arved.
 - Müük, mille puhul klient lisati kandele kassas, loob eraldi müügitellimused ja arved, üks iga kordumatu kliendi jaoks.
 
 Makse töölehed luuakse väljavõtte maksetele automaatselt ja kassa kaupluse varud uuendatakse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

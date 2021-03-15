@@ -63,3 +63,6 @@ Selle salvestise loomisel kasutati demoettevõtte USRT-i andmeid. See salvestis 
 5. Klõpsake suvandit Ekspordi.
 6. Klõpsake suvandit PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

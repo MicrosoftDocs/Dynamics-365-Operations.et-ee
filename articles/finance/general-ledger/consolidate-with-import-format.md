@@ -42,3 +42,6 @@ Järgmises tabelis on toodud impordivorming, mida peate kasutama impordi ajal ko
 | 6            | BusinessUnit, 1 osakond, 2 | Finantsdimensiooni atribuudid, mis on määratletud segmendi järjestuses.<p>Saate kasutada lehte **Eksport**, et kontrollida atribuutide määratlemist.</p> |
 | 7            | 002,1,658 | <ul><li>Finantsdimensiooni väärtus</li><li>Finantsdimensioon kui indeks, mis on esitatud väljal RecordDimensions</li><li>Mitmetähenduslik, kordumatu kirje ID, mis on seotud kordumatu kirje ID-ga väljal RecordTrans või RecordTrans2</li></ul> |
 | 8            | 002,1,1 | <ul><li>Dimensiooniväärtused, mis on seotud kandega väljal RecordBudget</li><li>Finantsdimensioon kui indeks, mis on esitatud väljal RecordDimensions</li><li>Mitmetähenduslik reakirje ID, mis on vastavuses faili kanderidade järjestusega</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

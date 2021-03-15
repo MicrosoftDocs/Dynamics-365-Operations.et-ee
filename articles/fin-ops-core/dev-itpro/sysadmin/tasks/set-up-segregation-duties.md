@@ -42,3 +42,6 @@ Saate seadistada reeglid nende ülesannete eraldamiseks, mille peavad täitma er
 
 > [!IMPORTANT] 
 > Kohustuste jagamise reeglite järgimist ei kontrollita, kui loote reegli. Saate luua reegli, mis loob olemasolevatele rollidele vastuolu. Olemasolevad kasutajarolli määramised võivad olla vastuolus ka uue reegliga. Vastavust peate kontrollima pärast reegli loomist või muutmist. Lisateavet vt [Kohustuste jagamise konfliktide tuvastamine ja lahendamine](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

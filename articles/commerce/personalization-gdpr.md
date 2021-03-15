@@ -103,3 +103,6 @@ Järgmine näide näitab, kuidas jaemüüja saab seda ülesannet täita.
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

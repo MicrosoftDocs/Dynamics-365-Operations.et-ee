@@ -84,3 +84,6 @@ Varahalduse funktsioonide mobiilirakenduses Finance and Operations (Dynamics 365
 Lisateavet selle kohta, kuidas mobiilse tööruumiga **Varahaldus** töötada, vt teemat [Varahalduse mobiilse tööruumi kasutamine](asset-management-mobile-workspace.md).
 
 Lisateavet mobiilirakenduse Finance and Operations (Dynamics 365) kohta vt [mobiilirakenduse kodulehelt](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

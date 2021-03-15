@@ -169,3 +169,6 @@ Töötajad saavad avada tööga seotud dokumenti, valides **Juhised**. Nupp **Ju
 1. Töötaja teeb juhendi läbi, et õppida ülesannet.
 
 Lisateavet selle kohta, kuidas luua, määrata ja kasutada HoloLensi juhendeid, vt teemast [Tootmisosakonna töötajatele mõeldud hübriidreaalsuse juhendite tegemine](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

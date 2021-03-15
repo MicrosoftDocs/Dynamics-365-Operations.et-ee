@@ -106,3 +106,6 @@ URL-i erinevale URL-i ümbersuunamiseks toimige järgmiselt.
 [Domeeninime konfigureerimine](configure-your-domain-name.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

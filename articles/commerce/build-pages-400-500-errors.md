@@ -82,3 +82,6 @@ Olekukoodi tõrkevastuse lehe ümbersuunamise määramiseks toimige järgmiselt.
 [Uue saidilehe lisamine](add-new-page.md)
 
 [Lehe URL-i loomine](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

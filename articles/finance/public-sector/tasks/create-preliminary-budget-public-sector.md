@@ -52,3 +52,6 @@ Saate luua esialgsed eelarve registreerimiskanded kindla eelarvemudeli jaoks ja 
 19. Klõpsake käsku Uuenda.
     * Uuendamise tulemuste vaatamiseks klõpsake sinisel ribal valikut Message details (Teate üksikasjad).  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

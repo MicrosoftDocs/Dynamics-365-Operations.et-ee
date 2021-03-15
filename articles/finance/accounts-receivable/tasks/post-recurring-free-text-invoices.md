@@ -45,3 +45,6 @@ Korduvaid arveid kasutatakse klientidele regulaarselt sama summa arveldamiseks. 
 6. Klõpsake valikut Sisesta.
     * Sisestage valitud arved.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

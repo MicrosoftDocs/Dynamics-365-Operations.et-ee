@@ -67,3 +67,6 @@ See protseduur näitab, kuidas luua kulukomplekti poliitikat ja selle jaoks reeg
     * Jätkake, kuni kõik kulukeskused on vastendatud vastavate teiseste kuluelementidega.  
 16. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

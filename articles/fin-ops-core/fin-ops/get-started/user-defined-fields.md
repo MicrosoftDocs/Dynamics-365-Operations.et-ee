@@ -162,3 +162,6 @@ Jõudluse tõttu ja tehnilistel põhjustel võimaldavad praegu kohandatud välja
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Kas ma saan arendustööriistades viidata kohandatud väljadele?  
 
 Kohandatud välju saab hallata ainult kasutajaliidese kaudu ja neile ei saa koodi alusel viidata. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

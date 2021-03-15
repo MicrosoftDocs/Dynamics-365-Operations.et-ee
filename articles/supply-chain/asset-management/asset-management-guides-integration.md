@@ -113,3 +113,6 @@ Juhendi seostamiseks hoolduse kontrollnimekirja malliga toimige järgmiselt.
 
 - [Topeltkirjutusega ülevaade](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Varahalduse ülevaade](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

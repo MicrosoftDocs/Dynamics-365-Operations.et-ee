@@ -37,3 +37,6 @@ Allolev pilt on näide liidestest Finance and Operationsis teistele moodulitele.
 ![Ülevaade varahalduse integreerimisest](media/overview-integrate2.jpg)
 
 Varahaldus võimaldab teil tõhusalt hallata ja täita ülesandeid, mis on seotud paljude eri tüüpi seadmete, näiteks masinate, tootmisseadmete ja sõidukite, haldamise ja hooldamisega teie ettevõttes. Varahaldus toetab lahendusi paljudes tööstusharudes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

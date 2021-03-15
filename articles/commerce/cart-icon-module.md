@@ -65,3 +65,6 @@ Ostukorvi ikooni mooduli lisamiseks vaadake teemat [Päise moodul](author-header
 [Tellimuse üksikasjade moodul](order-confirmation-module.md)
 
 [Kinkekaardi moodul](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

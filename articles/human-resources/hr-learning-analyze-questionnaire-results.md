@@ -69,3 +69,6 @@ Küsimustiku statistikat saab kasutada keskmiste, summade ja protsentide arvutam
 2. Klõpsake vahekaarti Tulemus.
 3. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -621,3 +621,6 @@ Olete seadistanud töö ja asukoha andmed lao 51 jaoks, et tagada töö loomine 
 
 > [!NOTE]
 > Kaaluge kvaliteedikontrollist tuleva kauba kirje lisamist mobiilse seadme menüüelemendile, mille tegevuse kood on *Kuva avatud tööloend*. Vaadake näiteks demo-andmetes mobiilse seadme menüüelementi, mille nimetus on **Tööloend**. Esmalt lisage kasutaja suunatud menüüelementi töö klass *Kvaliteettellimus*, kuna seda töö klassi on vaja tööde kuvamiseks tööloendis. Seejärel lisage töö klass *Kvaliteettellimus* menüüelemendile **Tööloend**. Tööloendile ligi pääsevad kasutajad saavad seejärel valida ja töödelda tööd, mis luuakse automaatselt kvaliteettellimuse kinnitamisel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

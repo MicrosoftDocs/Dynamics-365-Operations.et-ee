@@ -93,3 +93,6 @@ Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldu
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Kui täiendate rakenduselt Dynamics AX 2012 või migreerite rakenduselt AX 2009
 
 Kui olete klient, kes täiendab rakenduselt Microsoft Dynamics AX 2012 või migreerib rakenduselt Microsoft Dynamics AX 2009, võite olla sobilik pikema prooviperioodi saamiseks. Lisateabe saamiseks võtke ühendust meiliaadressil <daxcf@microsoft.com>.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

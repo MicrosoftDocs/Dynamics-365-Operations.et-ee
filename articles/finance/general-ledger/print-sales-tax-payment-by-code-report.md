@@ -47,3 +47,6 @@ Lülitage tööruumis **Funktsioonihaldus** sisse järgmine funktsioon: **Loo k�
 Järgnev illustratsioon näitab aruande loodud näidet. Aruanne näitab, et aruandluskoodil **101** on valuuta **EUR**, kui selle määratud aruandluskoodiga käibemaksukoodi jaoks on välja **Käibemaksu valuuta** väärtuseks määratud **EUR**.
 
 ![Näide käibemaksu tasumisest koodide aruande järgi](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

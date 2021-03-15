@@ -38,3 +38,6 @@ Võite kasutada hooldusmalligruppe hooldusmallide sorteerimiseks ja filtreerimis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

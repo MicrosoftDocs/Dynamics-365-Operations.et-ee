@@ -54,3 +54,6 @@ Osakonna lisamiseks osakonnahierarhiasse toimige järgmiselt.
 
 ## <a name="steps-for-creating-a-department"></a>Osakonna loomise juhised
 Uue osakonna loomise etapiviisilise protseduuri leiate artiklist [Uute osakondade määratlemine](../fin-and-ops/hr/tasks/define-new-departments.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

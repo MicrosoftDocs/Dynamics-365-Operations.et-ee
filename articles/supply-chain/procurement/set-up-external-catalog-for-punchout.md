@@ -112,3 +112,5 @@ Kui välises hankija kataloogis olev toode on taotletud, siis ei saa välist han
 
 - [cXML-i täiustuste ostmine](purchasing-cxml-enhancements.md)
 - [Väliskataloogide kasutamine e-hanke väljaregistreerimiseks](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

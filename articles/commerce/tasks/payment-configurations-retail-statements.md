@@ -52,3 +52,6 @@ Salvestamisel kasutatakse demoettevõtte USRT-i.
     * Valige konto, millele tuleks seifi viidava raha summad sisestada.  
 8. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

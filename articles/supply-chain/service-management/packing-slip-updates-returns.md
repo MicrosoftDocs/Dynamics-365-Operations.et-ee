@@ -48,3 +48,6 @@ Kui värskendate müügilepingust pärineva tagastatud kauba saatelehte, värske
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Kui proovite lubada vastendusi, võidakse kuvada järgmine tõrketeade.
 *Topeltkirjutuse tõrge – lisandmooduli registreerimine nurjus: \[(Osavastendust ei saanud tuua projektile DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Tõrge ületab maksimaalse lubatud psade arvu vastendusele DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Ilmnes üks või mitu tõrget.*
 
 Praegune piirang keskkondade linkimiseks on umbes 40 juriidilist tabelit. See tõrge ilmneb, kui proovite lubada vastendusi ja rohkem kui 40 juriidilist tabelit on lingitud keskkondade vahel.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

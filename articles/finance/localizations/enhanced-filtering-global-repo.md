@@ -45,3 +45,6 @@ Otsingut saate täpsemalt piiritleda, valides dokumendi tüübi, näiteks „han
 [![Äridokumendi tüübi rakendatud filter ja importimine](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Filtreeritud tulemusi saab importida kasutajate RCS-i hoidlasse või Dynamics 365 Finance'i keskkonda nii eraldi kui ka komplektina. Selleks valige konfiguratsioonide grupp ja klõpsake käsku **Impordi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Märgukirja koodi arvutamisel maksete ja kreeditarvete eiramiseks tehke järgmis
 
 1. Minge **Navigatsioonipaan > Moodulid > Krediit ja sissenõuded > Seadistus > Müügireskontro parameetrid** ja klõpsake vahekaardil **Sissenõuded**. 
 2. Muutke suvandi **Märgukirja koodi arvutamisel maksete ja kreeditarvete eiramine** väärtuseks **Jah**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

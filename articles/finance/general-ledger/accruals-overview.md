@@ -45,3 +45,6 @@ Töölehe sisestamisel saate klõpsata suvandit **Pearaamatu viitvõlad** menü�
 
 
 Lisateabe saamiseks vt [Viitvõlaskeemide loomine](tasks/create-accrual-schemes.md) ja [Pearaamatusse tekkepõhiste kannete loomine](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

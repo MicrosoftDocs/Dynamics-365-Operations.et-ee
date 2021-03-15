@@ -57,3 +57,6 @@ Aruande loomisel on saadaval järgmised vaikeväljad. Saate neid välju kasutada
 Aruandes ainult mitte-maksukontode kuvamiseks seadistage filtri tingimus, nt asterisk (\*), nii nagu näidatud järgmisel joonisel.
 
 ![Mitte-maksukontosid näitav aruanne](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

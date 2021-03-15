@@ -45,3 +45,6 @@ Need üldised stsenaariumid on saadaval jaemüüjate puhul, kes kasutavad rakend
 + Võtta tooteid peale praegusest või mõnest muust kauplusest.
 + Tühistada tellimuse praeguses kaupluses või mõnes muus kaupluses.
 + Tagastada tellimuse kviitungiga või ilma praegusesse või teise kauplusse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

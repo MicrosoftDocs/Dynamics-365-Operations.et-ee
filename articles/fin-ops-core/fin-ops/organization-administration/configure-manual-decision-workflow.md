@@ -350,3 +350,6 @@ Kui otsus tuleb teha teatud ajaks, tehke järgmist.
     - **Aastad** – valige päev, nädal ja kuu, mis ajaks kasutaja peab otsuse tegema. Näiteks soovite võib-olla, et otsus oleks tehtud detsembri kolmanda nädala reedeks.
 
 4. Ajalimiidi ületamisel langetab otsuse süsteem. Loendist **Tegevus** valige suvand, mille süsteem peaks valima.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ See ülesande salvestis annab teile ülevaate käibemaksu ja kauba käibemaksugr
 19. Klõpsake loendis valitud real olevat linki.
 20. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Kui turunduse sisu on konkreetse toote puhul unikaalne, saab mis tahes turunduse
 [Kontohalduse lehtede ülevaade](quick-tour-account-management.md)
 
 [Toote üksikasjade lehe rikastamine](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

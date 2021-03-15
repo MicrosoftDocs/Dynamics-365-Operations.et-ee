@@ -97,3 +97,6 @@ Avage **Ostusreskontro > Seadistus > Arvete võrdlemise seadistus > Arvesummade 
 
 1. Üksikhankijatele vaikeseadistatud kõikumisi ületavate hankimiste määramiseks valige **Hankija konto**
 2. Sisestage hälbe protsent, mida olete nõus aktsepteerima selle hankija puhul.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

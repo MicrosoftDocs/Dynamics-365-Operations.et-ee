@@ -68,3 +68,6 @@ Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindlus
 Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindluse konkureerimiskontroll on seatud **Parimale hinnale ainult prioriteedi piires, alati seos üle prioriteedi**.
 
 ![Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi](./media/Model_2.png "Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

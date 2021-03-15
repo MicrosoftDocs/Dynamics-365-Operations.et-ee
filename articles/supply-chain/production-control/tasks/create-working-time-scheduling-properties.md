@@ -43,3 +43,6 @@ Tööaja planeerimisatribuute kasutatakse tööaja intervallide kategoriseerimis
 3. Sisestage väärtus väljale Väärtus.
 4. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

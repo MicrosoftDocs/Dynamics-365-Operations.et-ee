@@ -65,3 +65,6 @@ Asukohad saab kopeerida ühest laost teise ja asukohti luua viisardi abil. Enne 
 --------
 
 [Uue laopaigutuse loomine](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

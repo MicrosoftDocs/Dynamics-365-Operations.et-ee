@@ -48,3 +48,6 @@ Selle asemel, et kustutada, võite tagastustellimuse tühistada, kui soovite sä
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

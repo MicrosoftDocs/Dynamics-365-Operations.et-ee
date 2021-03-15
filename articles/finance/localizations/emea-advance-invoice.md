@@ -152,3 +152,6 @@ Looge ostutellimus või valige olemasolev ostutellimus. Klõpsake valikut **Arve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

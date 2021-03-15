@@ -32,3 +32,6 @@ Selles teemas tutvustatakse, kuidas muuta seansi kuupäeva. Vaikimisi kasutataks
 2. Väljale **Kuupäev** sisestage kuupäev.
 3. Valige nupp **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

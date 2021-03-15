@@ -59,3 +59,6 @@ See protseduur näitab, kuidas värskendada vabu kaubavarusid käsitsi, kasutade
 25. Sulgege leht.
 26. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

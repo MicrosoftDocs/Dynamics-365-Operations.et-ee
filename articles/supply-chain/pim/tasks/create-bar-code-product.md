@@ -42,3 +42,6 @@ Selles teemas näidatakse, kuidas käsitsi luua vöötkoodi, kasutades näitena 
 12. Valige käsk **Salvesta**.
 13. Sulgege leht. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

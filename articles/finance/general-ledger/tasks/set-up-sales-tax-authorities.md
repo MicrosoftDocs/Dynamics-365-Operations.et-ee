@@ -40,3 +40,6 @@ Käibemaksuhaldurid on üksused, kellele tuleb kogutud käibemaks esitada ja mak
 10. Sisestage number väljale Ümardus.
 11. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

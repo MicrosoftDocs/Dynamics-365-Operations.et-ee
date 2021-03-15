@@ -79,3 +79,6 @@ Kliendid, kes soovivad oma olemasolevaid kaupu muuta standardkulu laomudeliks pe
 
 - [Otseste materjalikulude standardkulude seadistamine rakenduses Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Standardsed otsesed tööjõukulud rakenduses Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ See protseduur selgitab kahe püsikliendijärguga püsikliendiprogrammi seadista
 39. Sulgege leht.
 40. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

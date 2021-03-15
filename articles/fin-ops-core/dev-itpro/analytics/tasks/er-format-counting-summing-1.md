@@ -56,3 +56,6 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 8. Laiendage puul valikut Intrastati mudel.
 9. Valige puult Intrastati mudel \ Intrastat (DE).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

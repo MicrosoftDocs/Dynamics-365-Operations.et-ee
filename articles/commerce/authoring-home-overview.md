@@ -121,3 +121,6 @@ Pärast autorluse tööriista laadimist saate valida suvandi **Avaleht**, et naa
 [Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused](search-engine-optimization-considerations.md)
 
 [Sisu turbepoliitika (CSP) haldamine](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

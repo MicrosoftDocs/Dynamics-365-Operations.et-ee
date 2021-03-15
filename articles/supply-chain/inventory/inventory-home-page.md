@@ -57,3 +57,6 @@ Lisateavet vt [Laoseisu sulgemine](../cost-management/inventory-close.md).
 
 ### <a name="task-guides"></a>Tegevusjuhised
 Täiendav spikker on saadaval ülesandejuhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu **Spikker**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

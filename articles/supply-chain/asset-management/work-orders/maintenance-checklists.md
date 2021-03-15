@@ -79,3 +79,6 @@ Alljärgneval joonisel on esitatud hoolduse kontrollnimekirja näide.
 
 ![Joonis 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

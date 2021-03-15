@@ -50,3 +50,6 @@ Pangakonto täpsema vastavusseviimise funktsioon võimaldab teil pangaväljavõt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

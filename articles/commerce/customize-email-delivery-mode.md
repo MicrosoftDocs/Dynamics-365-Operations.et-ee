@@ -71,3 +71,6 @@ Meilimallide konfigureerimiseks kindlate tarneviiside jaoks Commerce'i peakontor
 [Kõnekeskuse tellimuste loomine](tasks/create-call-center-orders.md)
 
 [Kassas tarneviisi muutmine](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

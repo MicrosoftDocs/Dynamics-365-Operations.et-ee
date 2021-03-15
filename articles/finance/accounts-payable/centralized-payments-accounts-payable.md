@@ -300,3 +300,6 @@ Fabrikam loob 75,00 summa suuruse makse hankijale 3004, Fourth Coffee. See makse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

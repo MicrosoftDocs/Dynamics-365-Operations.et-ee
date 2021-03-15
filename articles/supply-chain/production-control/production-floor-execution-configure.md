@@ -99,3 +99,6 @@ Pakett-töö puhastab regulaarselt viitetabeli kirjeid seadmetel, kus pole viima
 1. Valige toimingupaanil **Kliendi konfiguratsioonide puhastamine**.
 1. Määrake dialoogiboksis **Kliendi konfiguratsioonide puhastamine** väljale **Päevade arv** passiivsete päevade arv (enne tänast), mida arvesse võtta. Saate eemaldada kõik konfiguratsioonid ja sisselogimise kirjed seadmetel, mis pole olnud selle aja jooksul aktiivsed.
 1. Valige **OK**, et puhastada asjakohased konfiguratsioonid sätte **Päevade arv** põhjal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ See protseduur näitab, kuidas koostada maksu vastavusseviimise aruannet, mis on
 6. Tehke väljal Näita üksikasju valik Jah.
 7. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

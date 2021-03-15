@@ -79,3 +79,6 @@ Järgmise illustratsiooni ülemises on kuvatud, kuidas kasutajaliides vaikimisi 
 Vaikimisi logib tootmisosakonna juhtimise liides automaatselt välja, kui keegi seda 12 tunni jooksul ei kasuta. Supply Chain Managementi kasutaja peab seejärel uuesti sisse logima. Kuid ajalõpu limiiti saate pikendada kuni 90 päevani.
 
 Ajalõpu limiidi pikendamiseks logige Supply Chain Managementi sisse ja avage **Süsteemihaldus \> Kasutajad \> Seansi pikendused**. Määrake Supply Chain Managementi kasutajakonto, mida kasutatakse seadmesse sisse logimiseks ja tundide arv, mille jooksul peaks seanss aktiivseks jääma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

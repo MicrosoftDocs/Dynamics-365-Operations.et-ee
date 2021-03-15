@@ -123,3 +123,6 @@ Järgmistel joonistel on toodud näide malli vastendusest andmete integreerimise
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

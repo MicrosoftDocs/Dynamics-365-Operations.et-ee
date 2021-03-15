@@ -69,3 +69,6 @@ Ootel varade kontrollimiseks käivitage **Ootel varade loendus**. Näiteks saab 
 3. Selle töö saate seadistada pakett-tööna, nt üks kord päevas.
 
 **Ettevaatust:** kui andmeid muudetakse ostutellimusel *pärast* seda, kui olete loonud seotud kauba põhjal vara, ei kajastu need muudatused varas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

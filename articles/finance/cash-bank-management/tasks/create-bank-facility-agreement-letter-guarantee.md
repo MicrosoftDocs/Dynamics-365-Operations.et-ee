@@ -56,3 +56,6 @@ See ülesanne loob panga süsteemiteenuse leppe garantiikirja töötlemiseks. Se
 5. Klõpsake nuppu Salvesta.
 6. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

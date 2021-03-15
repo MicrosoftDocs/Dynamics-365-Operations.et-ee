@@ -113,3 +113,6 @@ Iga vormingu versiooni saab konfigureerida kasutamiseks kättesaadavaks teatud k
 1. Laiendage jaotist ISO-riigi-/regioonikoodid.
     * Iga vormingu juurdepääsu saab piirata, tuvastades teatud riigid/regioonid, kus vormingut rakendatakse. Kui teatud vormingu puhul on riikide/regioonide loend tühi, saab seda vormingut kasutada mis tahes ettevõttes. Kui riikide/regioonide loendisse sisestatakse mõni ISO-riigi/-regiooni kood, saab seda vormingut kasutada ainult ettevõtetes, mille peamine aadress on riigis/regioonis.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

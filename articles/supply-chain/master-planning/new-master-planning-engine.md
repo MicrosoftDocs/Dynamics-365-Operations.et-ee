@@ -115,3 +115,6 @@ Kasutan versiooni 10.0.16 või uuemat versiooni ja koondplaneerimise käitamisel
 > Alustamiseks täitke järgmine küsimustik ja vajaduse korral paluge erandit planeerimise optimeerimisele üleminekul.
 
 **Vastus:** ei, koondplaneerimine ei ole blokeeritud. Teie koondplaneerimine viidi edukalt lõpule ja saate tulemust kasutada tavalisel viisil. Kuid selleks, et välistada edaspidi selle tõrketeate kuvamine koondplaneerimise käitamise ajal, peate kohe planeerimise optimeerimisele üle minema või taotlema erandit, kasutades tõrketeates olevat linki.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

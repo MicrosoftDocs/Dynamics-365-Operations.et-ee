@@ -229,3 +229,6 @@ Järgnev diagramm illustreerib seda kannete seeriat Kaalutud keskmise laomudeli 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

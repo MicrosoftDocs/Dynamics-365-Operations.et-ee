@@ -80,3 +80,6 @@ Lisasime Intrastati kirjetabeli metaandmete teabe.
 3.    Klõpsake valikut **OK**. 
     
 Loodud ER-i metaandmete konfiguratsioon salvestati XML-failina, mida saab importida RCS-i ja kasutada väliskaubanduse äritegevuse domeeni metaandmete teabe allikana. Selle teabe põhjal saame määratleda vastendamise rakenduse metaandmete ja ER-i andmemudeli vahel.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

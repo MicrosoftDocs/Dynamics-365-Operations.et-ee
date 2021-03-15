@@ -86,3 +86,6 @@ See protseduur selgitab EL-i kandesertifikaadi lubamist, kliendikonto konfiguree
 4. Klõpsake toimingupaanil valikut Arve.
 5. Klõpsake suvandit Kuva väljastatud kandesertifikaadid.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

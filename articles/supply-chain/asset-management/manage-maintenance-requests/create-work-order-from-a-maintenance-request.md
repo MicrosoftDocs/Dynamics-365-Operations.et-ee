@@ -54,3 +54,6 @@ Pärast hoolduspäringute loomist saate need hõlpsalt töötellimusteks teisend
 
     ![Uue töökäsu avamine](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

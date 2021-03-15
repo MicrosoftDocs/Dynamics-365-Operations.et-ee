@@ -82,3 +82,6 @@ Kui kasutate rendilepingute uuendamiseks rendilepingute importimise raamistikku 
 
 1. Avage **Vara rentimine \> Rendilepingu importimise raamistik \> Seadistus \> Uuendatava välja valik**.
 2. Valige kuvataval leheküljel väljad, mida uuendada, ja seejärel valige roheline nool, et teisaldada need loendisse **Valitud väljad**. Ainult loendis **Valitud väljad** olevaid välju saab rendilepingu importimise komplektiga uuendada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

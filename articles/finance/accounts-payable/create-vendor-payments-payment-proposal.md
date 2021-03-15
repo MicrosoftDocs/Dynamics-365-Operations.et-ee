@@ -122,3 +122,6 @@ Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltuma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

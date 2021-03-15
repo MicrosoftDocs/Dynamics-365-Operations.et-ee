@@ -164,3 +164,6 @@ Redigeeritava vormingu mustandi versiooni käivitamiseks peate muutma selle [kä
 
 - [Uue ER-i konfiguratsiooni loomine Wordi vormingus aruannete loomiseks](../er-design-configuration-word.md)
 - [Manustatud pildid ja kujutised ER-iga loodud dokumentides](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

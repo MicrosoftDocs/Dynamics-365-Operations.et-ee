@@ -80,3 +80,6 @@ Selles näites kodeerib andmeallikas **\#MediaAsBase64String** praeguse meediumi
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Konteineri funktsioonid](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

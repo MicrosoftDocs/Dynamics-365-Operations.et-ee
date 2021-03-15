@@ -87,3 +87,6 @@ Riistvarajaamaga ühendatud Windowsi printeriga dokumentide kassast printimise v
 
 4. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
 5. Valige töö **1090** ja seejärel **Käivita kohe**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

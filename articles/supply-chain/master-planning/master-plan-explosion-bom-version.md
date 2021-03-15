@@ -47,3 +47,6 @@ Järgmisel joonisel on toodud koondplaneerimise nõudluskoosnevusarvutuse protse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -174,3 +174,6 @@ Kui seda arvutamismeetodit kasutatakse osalise tagastuse stsenaariumi korral, ku
 [Omnikanali täpsemad automaatsed kulud](omni-auto-charges.md)
 
 [Automaatsete tasude lubamine ja konfigureerimine kanali kaupa](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Pärast globaalse aadressiraamatu loomist, saate luua vajaduse järgi täiendava
 **Otsus.**
 
 - Mitu täiendavat aadressiraamatut loote?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

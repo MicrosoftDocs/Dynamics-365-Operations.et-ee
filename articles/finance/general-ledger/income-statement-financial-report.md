@@ -70,3 +70,6 @@ Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Küsimustiku planeerimine võimaldab plaanida ja jaotada küsimustikke mitmele v
 2. Klõpsake suvandit Lõpeta.
 3. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

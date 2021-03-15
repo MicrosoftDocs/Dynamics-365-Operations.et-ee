@@ -579,3 +579,6 @@ Järgmises tabelis on toodud ER-i konfiguratsioonide loend, mis toetavad konfigu
 |                             | Müügitellimuse saateleht (LT) (Excel)           |
 |                             | Müügitellimuse saateleht (PL) (Excel)           |
 |                             | Müügitellimuse saateleht (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

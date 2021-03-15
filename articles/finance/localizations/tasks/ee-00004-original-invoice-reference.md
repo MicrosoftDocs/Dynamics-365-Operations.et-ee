@@ -69,3 +69,6 @@ See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditar
 19. Klõpsake nuppu OK.
 20. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

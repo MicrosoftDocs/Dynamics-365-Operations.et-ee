@@ -60,3 +60,6 @@ Lisateavet vt teemast [Auditipoliitika reeglid](audit-policy-rules.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

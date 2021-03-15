@@ -66,3 +66,6 @@ Paani valimisel avaneb leht **Kõik tootmisvood**. See leht on filtreeritud avat
 Paanil **Tähelepanu vajav avatud laotöö** kuvatakse koosluse- ja valemiridade arv, mis on väljastatud lattu töötlemata voogudes, mis sisaldavad töötlemata tööd ja mille toormaterjali kuupäev on varasem või sama kui tööruumi kuupäev. Ridu peab tarbima ka toiminguressurss, kes rakendab tööruumile filtri.
 
 Paani valimisel avaneb leht **Kõik tööd**. See leht on filtreeritud avatud tööpäiste arvu järgi, mis sisaldavad tööridu paani kriteeriumidele vastavatelt väljastatud koosluse- ja valemiridadelt. Lehel **Kõik tööd** saate tööd käsitsi töödelda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

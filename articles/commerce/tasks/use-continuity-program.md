@@ -61,3 +61,6 @@ See protseduur selgitab järjepidevusprogrammi müüki ja seotud müügitellimus
     * Sisestage müügitellimuse number, mille protseduuris enne üles märkisite. See tagab sellele protseduurile minimaalse töötlemisaja. Müügitellimuse väli on valikuline – töödelda saab mis tahes programmi kõiki tellimusi.  
 21. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

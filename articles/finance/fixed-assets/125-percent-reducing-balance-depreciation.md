@@ -87,3 +87,6 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

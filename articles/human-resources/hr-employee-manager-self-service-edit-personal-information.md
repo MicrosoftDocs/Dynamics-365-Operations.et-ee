@@ -72,3 +72,6 @@ Globaalses aadressiraamatus seatud parameetrid määratlevad rollid, mis näevad
     - Pildi üleslaadimiseks valige **Laadi üles uus pilt**.
     - Pildi eemaldamiseks valige pilt ja seejärel valige **Eemalda**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

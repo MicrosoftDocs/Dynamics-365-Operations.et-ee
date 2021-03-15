@@ -88,3 +88,6 @@ Näete aruandlusvaluuta summade puhul lisakandeid.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

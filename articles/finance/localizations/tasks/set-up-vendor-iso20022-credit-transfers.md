@@ -51,3 +51,6 @@ See on neljas viiest protseduurist, mis illustreerib hankija makseprotsessi, kas
 4. Klõpsake loendis valitud real SEPA CT olevat linki.
 5. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

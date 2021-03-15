@@ -54,3 +54,6 @@ Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke
 20. Sisestage väljale Kirjeldus tekst „Aitäh abi eest konverentsil!”.
 21. Klõpsake käsku Saada.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

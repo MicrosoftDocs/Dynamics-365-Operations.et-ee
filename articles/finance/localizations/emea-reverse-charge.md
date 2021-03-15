@@ -136,3 +136,6 @@ Saadaval on järgmised funktsiooni häälestusega seotud lehed ja menüükäsud.
  - **Väliskaubanduse parameetrid** (**Maks** > **Seadistus** > **Müügimaks** > **Väliskaubandus** > **Väliskaubanduse parameetrid**). Vt teemat [Riigi/regiooni atribuutide häälestamine](#Set-up-Country/region-properties).
 
 Saadabal on märkeruut **Pöördmaksustamine** lehtedel **Käibemaksu grupp** ja **Sisestatud käibemaks**. Lisateavet vt jaotistest [Käibemaksugruppide ja kauba käibemaksugruppide häälestus](#sales-tax-item-sales-tax-groups), [Pöördmaks müügiarvel](#reverse-charge-sale) ja [Pöördmaks ostuarvel](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

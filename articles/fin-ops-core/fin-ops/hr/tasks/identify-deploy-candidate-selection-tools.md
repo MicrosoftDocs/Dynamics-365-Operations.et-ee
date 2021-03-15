@@ -57,3 +57,6 @@ Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine 
 24. Sulgege leht.
 25. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

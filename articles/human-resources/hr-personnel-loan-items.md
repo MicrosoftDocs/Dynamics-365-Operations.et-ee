@@ -55,3 +55,6 @@ Kui artikkel on kahjustatud või kadunud, sisestage fiktiivne tagastuskirje. See
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

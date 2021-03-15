@@ -88,3 +88,6 @@ Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinni
 - ChartofAccounts
 
 Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Arvutatud mõõtusid kasutatakse sisus kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Vaikimisi toob sisu sisse viimase kolme aasta ja ühe tulevase aasta andmed. Aruannetesse ja armatuurlauale lisaarvutuste kaasamiseks saate muuta [Microsoft Exceli töövihikut](https://docs.microsoft.com/dynamics/s-e/). See töövihik on vaikimisi andmemudel, mida kasutati sisu loomiseks.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

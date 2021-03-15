@@ -290,3 +290,6 @@ Kui ühest elektroonilise arvelduse funktsioonist tuletatakse teine, värskendab
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Elektroonilise arvete väljastamine teenustes Finance ja Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

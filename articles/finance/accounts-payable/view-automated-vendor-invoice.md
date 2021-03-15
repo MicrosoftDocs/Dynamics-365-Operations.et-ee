@@ -37,3 +37,6 @@ Kui imporditud arve puhul rakendatakse töövoole edastamise protsessi, saate va
 - **Peatatud** – automatiseeritud protsessid, mis on määratud lehel **Ostureskontro parameetrid**, on käivitatud, kuid vähemalt üks etapp protsessis nurjus. Olekut **Peatatud** rakendatakse ka juhul, kui välja **Kaasa automatiseeritud töötlemisse** väärtuseks on seatud **Ei**. Nurjumisi saate kuvada, kui valite **Kuva kõige viimased tulemused**.
 - **Töövoos** – imporditud arve on edastatud töövoosüsteemi kas automatiseeritud töövoole edastamise protsessi kaudu või käsitsi.
 - **Töövoog lõpetatud** – töövooprotsess on imporditud arve jaoks lõpetatud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

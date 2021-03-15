@@ -51,3 +51,6 @@ See protseduur laseb teil luua ajatabeli, kasutades tühja ajatabelivormi. Uue a
 21. Klõpsake **Edasta**.
 22. Klõpsake **Edasta**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

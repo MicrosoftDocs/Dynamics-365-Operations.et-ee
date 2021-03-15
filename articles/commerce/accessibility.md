@@ -113,3 +113,6 @@ Video vara **vanuse alampiiri** atribuudi määramiseks järgige neid samme.
 [Privaatsuspoliitika lehe lisamine](add-privacy-page.md)
 
 [Jälgitud sisumuudatustega seostatud kasutaja ID-de asendamine](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

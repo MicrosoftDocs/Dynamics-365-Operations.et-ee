@@ -55,3 +55,6 @@ See toiming nõuab tootmisvoogu, millele on juba loodud versioon ja tegevused.
 3. Valige või sisestage väärtus väljal Tegevus.
 4. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

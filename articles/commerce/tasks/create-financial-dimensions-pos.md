@@ -47,3 +47,6 @@ See protseduur selgitab finantsdimensioonide loomist kassaregistritele ja näita
 17. Leidke ja valige loendist värskendatava registri dimensiooniväärtus.
 18. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

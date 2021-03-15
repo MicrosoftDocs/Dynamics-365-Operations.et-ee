@@ -50,3 +50,6 @@ Prognoosi täpsuse suurendamiseks saab võõrväärtused välistada. See on vali
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

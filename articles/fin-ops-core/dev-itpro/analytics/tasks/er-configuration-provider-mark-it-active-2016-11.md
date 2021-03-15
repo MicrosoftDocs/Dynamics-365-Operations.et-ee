@@ -44,3 +44,6 @@ Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise 
 2. Valige **Määra aktiivseks**.
 
 ![Elektroonilise aruandluse tööruumi leht](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

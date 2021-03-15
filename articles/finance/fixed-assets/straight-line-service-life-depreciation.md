@@ -107,3 +107,6 @@ Soetuse korrigeerimise tööiga on sama mis põhivaral ning algab põhivara soet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

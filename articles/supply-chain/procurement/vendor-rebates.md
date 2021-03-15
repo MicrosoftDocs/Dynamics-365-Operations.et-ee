@@ -166,3 +166,6 @@ Hankija tagasimaksete käsitsemise protsess hõlmab mitmeid sageli tüütuid kä
 - Täpsete tagasimaksenõuete loomine
 - Eeldatava tulu ja vahekasumi koondamine pearaamatus
 - Hankija saldo ja kasumiaruande värskendamine tasumisele kuuluva hüvitisega
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

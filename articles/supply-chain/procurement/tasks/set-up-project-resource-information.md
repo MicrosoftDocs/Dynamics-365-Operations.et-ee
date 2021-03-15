@@ -51,3 +51,6 @@ See protseduur näitab, kuidas häälestada projekti ressurssi. Selles ülesande
 20. Klõpsake nuppu Salvesta.
 21. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

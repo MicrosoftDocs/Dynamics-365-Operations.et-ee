@@ -60,3 +60,6 @@ Lisaks finantsaruannetele saate pearaamatu kannete vaatamiseks kasutada järgmis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

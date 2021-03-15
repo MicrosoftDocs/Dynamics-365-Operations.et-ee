@@ -146,3 +146,6 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 5. Valige praeguse konfiguratsiooni lõpetatud versioon.
     * Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

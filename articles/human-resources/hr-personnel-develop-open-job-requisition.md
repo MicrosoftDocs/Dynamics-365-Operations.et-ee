@@ -66,3 +66,5 @@ Värbamisprojektid aitavad värbamisprotsessi hallata. Pärast värbamisprojekti
 32. Valige **Värbamisprojekti olek**.
 33. Valige nupp **Alusta**. Olek **Alustatud** tähendab, et projekt on valmis avaldusi vastu võtma.  
 34. Valige nupp **OK**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

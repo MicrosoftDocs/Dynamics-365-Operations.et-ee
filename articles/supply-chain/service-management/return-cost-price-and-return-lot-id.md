@@ -111,3 +111,6 @@ Kui kasutate välja **Tagastuse partii ID** tagastustellimuse real tagastuse oma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

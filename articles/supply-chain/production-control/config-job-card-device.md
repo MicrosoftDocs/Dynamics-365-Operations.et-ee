@@ -94,3 +94,6 @@ Kuid nagu varem mainitud, siis logivad töötajad suvandi **Üksik töötaja** k
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Töökaardi seadmes lõpetamisest teatamine](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

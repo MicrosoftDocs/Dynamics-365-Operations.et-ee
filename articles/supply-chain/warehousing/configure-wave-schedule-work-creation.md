@@ -110,3 +110,6 @@ Leht **Plaanitud töö üksikasjad** (**Laohaldus \> Töö \> Plaanitud töö ü
 Töötlemise voogude pakett-tööde vaatamiseks valige tegevuspaanil **Pakett-tööd** lehel **Kõik vood**.
 
 Siit saate vaadata iga pakett-töö ID kohta kõiki partii ülesande üksikasju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

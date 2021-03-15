@@ -69,3 +69,6 @@ Järgmisel joonisel on kujutatud näide e-kaubanduse maksmise lehest, mis sisald
 [Tellimuse kinnituse moodul](order-confirmation-module.md)
 
 [Tellimuse üksikasjade moodul](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

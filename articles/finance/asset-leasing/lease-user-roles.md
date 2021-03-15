@@ -43,3 +43,6 @@ Järgige järgmisi etappe, et määrata kasutajatele rollid, mida vara rentimise
 1. Minge jaotisesse **Süsteemihaldus \> Turve \> Kasutajate rollidesse määramine**.
 2. Valige roll **Rendi haldamine**, **Rentnik** või **Rendi vaatamine** ja valige seejärel **Kasutajate käsitsi määramine/välistamine**.
 3. Valige kasutaja, kes rollile määrata ja valige seejärel käsk **Määra rollile**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

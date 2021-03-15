@@ -165,3 +165,6 @@ Hankija filtrikoodide seadistamiseks toimige järgmiselt.
 ## <a name="see-also"></a>Vt ka
 
 [Lisateavet vt ajaveebipostitusest WMS – Laofiltri koodid](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

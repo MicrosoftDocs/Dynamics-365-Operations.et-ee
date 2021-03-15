@@ -110,3 +110,6 @@ Uus mallkooslus on loodud kasutades ridu, mis vastavad tabelis **Kooslus** loend
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

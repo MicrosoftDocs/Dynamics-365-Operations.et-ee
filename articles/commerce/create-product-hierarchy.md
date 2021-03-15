@@ -79,3 +79,6 @@ Kategooria atribuudigruppe saab vajadusel määrata ka igale grupile.
 [Tootekategooriate ja toodete haldamine](category-management-product-creation.md)
 
 [Kaubastatavate üksuste sortimisjärjestuse muutmine](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

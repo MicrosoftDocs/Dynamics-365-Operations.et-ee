@@ -239,3 +239,6 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 1. Valige suvand **Valmis**.
 
     ![Manuse lisamine hooldusnõudele](media/am-mobile-10.png "Manuse lisamine hooldusnõudele")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Päise igal lehel kuvamise tagamiseks järgige neid samme iga malli jaoks, mis o
 [Saidi valija moodul](site-selector.md)
 
 [Kaupluse valimise moodul](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

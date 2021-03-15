@@ -56,3 +56,6 @@ Alustava dünaamilise plaani saate seadistada ka nii, et seda värskendatakse ko
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Lehel **Hoolduse eelarveread** saate uue eelarverea käsitsi lisada, valides **U
 
 - Te teate, et mõnede varade renoveerimine on praegu planeerimise faasis, kuid seotud tööd pole veel varahalduses loodud. Siiski soovite nende tööde eelarvete kulusid kaasata hoolduse eelarvesse.
 - Pärast hoolduse eelarvet on loodud uusi varasid või varatüüpe, kuid hoolduse plaane pole nende varade või varatüüpide puhul veel seadistatud. Siiski soovite nende varatüüpide eelarvete kulusid kaasata hoolduse eelarvesse.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Kui kasutajad soovivad ooteloleku tühjendada, kuid teevad tellimusele enne sell
 ## <a name="reporting-options"></a>Aruandlusvalikud
 
 Avage **Jaemüük ja kaubandus** \> **Päringud ja aruanded** \> **Kõnekeskuse aruanded** \> **Tellimuse ootelolekute aruanne**, et käivitada aruanne tellimuste ooteloleku kohta kuupäevavahemiku, ooteloleku koodi või muude valitud kriteeriumide alusel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

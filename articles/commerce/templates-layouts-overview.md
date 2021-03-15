@@ -111,3 +111,6 @@ Eelseadistatud paigutuste kasutamisega alustamiseks vt teemat [Eelseadistatud pa
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

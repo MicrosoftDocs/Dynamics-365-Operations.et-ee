@@ -55,3 +55,6 @@ Selle ülesandejuhendi roll on Kassiir. See ülesanne kasutab demoettevõtte USM
 16. Sulgege leht.
 17. Klõpsake vahekaarti Hilisema kuupäevaga dateeritud tšekid.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

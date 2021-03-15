@@ -315,3 +315,6 @@ Praegu on mõlemal töö ID-l sama sihtkoha identifitseerimisnumber. Järgmiste 
 Järgmine illustratsioon näitab, kuidas lõpule viidud ristlaadimise tööd kuvatakse Microsoftis Dynamics 365 Supply Chain Managementis.
 
 ![Lõpule viidud ristlaadimise töö](media/PlannedCrossDockingWork.png "Lõpule viidud ristlaadimise töö")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

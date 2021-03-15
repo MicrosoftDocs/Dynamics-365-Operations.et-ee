@@ -108,3 +108,6 @@ Nüüd saab fragmenti viidata teiste saidi lehtede mallis. Kui seda fragmenti vi
 [Küpsise vastavus](cookie-compliance.md)
 
 [Jälgitud sisumuudatustega seostatud kasutaja ID-de asendamine](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

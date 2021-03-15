@@ -221,3 +221,6 @@ Liuguripaan kuvab protsessi kõige viimased käivitamise tulemused. Saate kuvada
 [Välistest andmeallikatest pärit andmeid sisaldavate virtuaalsete tabelite loomine ja redigeerimine](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Mis on Power Appsi portaalid?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Rakenduste loomise ülevaade Power Appsis](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

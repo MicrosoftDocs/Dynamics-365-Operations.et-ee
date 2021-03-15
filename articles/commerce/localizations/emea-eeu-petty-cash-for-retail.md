@@ -92,3 +92,6 @@ Kaupluses sularahamaksete kasutamiseks maksemeetodi häälestamiseks tehke järg
 
 > [!NOTE]
 > Kauplusele tuleb seadistada vastaskontod nii sularaha maksemeetodi jaoks kui ka väljamakse või vahetusraha maksemeetodi jaoks. See loob tasakaalus pearaamatu sissekanded maksemeetodi väljamakse või vahetusraha kannetele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

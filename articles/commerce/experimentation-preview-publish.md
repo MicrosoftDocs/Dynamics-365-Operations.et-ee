@@ -59,3 +59,6 @@ Kui kasutate eksperimentidega koos avaldamisrühmi, tuleb arvestada mõnda oluli
 
 ## <a name="next-step"></a>Järgmine etapp
 [Eksperimendi käitamine ja jälgimine](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

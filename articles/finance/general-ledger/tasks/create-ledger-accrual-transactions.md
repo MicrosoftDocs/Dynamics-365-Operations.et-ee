@@ -48,3 +48,6 @@ See ülesandejuhend hõlmab pearaamatu tekkepõhiste kannete, mille aluseks on v
 17. Klõpsake nuppu OK.
 18. Klõpsake valikut Sisesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

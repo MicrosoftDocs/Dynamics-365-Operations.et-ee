@@ -116,3 +116,6 @@ Need kaks laotöölehte toetavad andmehalduse importimisprojekti osana ainult st
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Andmeüksused](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

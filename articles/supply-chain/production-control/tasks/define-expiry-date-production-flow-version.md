@@ -40,3 +40,6 @@ Tootmisvoo kehtivuse ja töötlemise lõpetamiseks antud kuupäeval või aktiivs
 6. Sisestage kuupäev ja kellaaeg väljale Aegumiskuupäev.
     * Selle aegumiskuupäeva puhul ei käivitu ega aktiveeru uus versioon. Samuti ei saa sellele tootmisvoole enam töid luua ega käivitada. Alustatud töid saab siiski pärast aegumiskuupäeva lõpetada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

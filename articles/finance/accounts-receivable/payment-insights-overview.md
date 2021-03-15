@@ -72,3 +72,6 @@ Kui olete huvitatud funktsiooni Kliendi makse ülevaated (eelversioon) proovimis
 Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus, 2) ei ole hõlmatud selle teenuse teenusetaseme leppes, 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud, ja 4) on piiratud toega.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

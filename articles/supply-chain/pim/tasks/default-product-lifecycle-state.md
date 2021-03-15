@@ -61,3 +61,6 @@ See protseduur näitab, kuidas luua toote elutsükli vaikeolekut ja kuidas seost
 > [!NOTE]
 > Oletame, et aktiivne olek on seadistatud, mis tähendab, et saate nüüd aktiivse oleku valida ja lubada toodet kasutada koondplaneerimisel ja koosluse taseme arvutamisel. See on loogiline ainult juhul, kui kõik ühtse planeerimise jaoks vajalikud toodete üksikasjad on määratud.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

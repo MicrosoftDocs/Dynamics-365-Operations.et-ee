@@ -66,3 +66,6 @@ Käitusajal funktsioonide läbivaatamiseks läbige vastav protseduur. Näiteks v
 ## <a name="see-also"></a>Vt ka
 
 - [Elektroonilise aruandluse vormingus XML-elementide käivitamise edasilükkamine](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

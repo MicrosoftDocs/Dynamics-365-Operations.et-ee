@@ -85,3 +85,6 @@ Lehe **Kliendid** vahekaardil **Makse vaikeandmed** saate iga kliendi jaoks, kes
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

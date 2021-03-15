@@ -59,3 +59,6 @@ See on kasulik, kui soovite saada ülevaadet konkreetse perioodi oodatavast kaub
 8. Klõpsake nuppu **Kuva dimensioonid**, kui soovite näha kaubaga seotud toote, lao ja jälgimise dimensioone. Valige sobivad märkeruudud ja klõpsake nuppu **OK**.
 
 ![Joonis 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

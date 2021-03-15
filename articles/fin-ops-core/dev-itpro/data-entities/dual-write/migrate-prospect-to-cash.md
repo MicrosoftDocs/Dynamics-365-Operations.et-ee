@@ -98,3 +98,6 @@ Kuna tabeli **Tooted** andmed on mõeldud liikuma ühes suunas, rakenduses Finan
 ## <a name="quote-and-quote-product-tables"></a>Hinnapakkumise ja hinnapakkumise toodete tabel
 
 Tabeli **Hinnapakkumine** puhul järgige juhiseid selle teema varasemas jaotises [Tellimuse tabel](#order-table). Tabeli **Hinnapakkumise toode** puhul järgige juhiseid jaotises [Tellimuse toodete tabel](#order-products-table).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

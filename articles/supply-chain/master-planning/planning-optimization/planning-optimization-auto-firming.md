@@ -66,3 +66,6 @@ Nii planeerimise optimeerimine kui ka rakendusse Microsoft Dynamics 365 Supply C
 - Automaatne kinnitamine põhineb nõude kuupäeval (lõppkuupäev).
 - Tellimuste tähtajaks kinnitamise tagamiseks peab kinnitamise ajapiir olema pikem kui täitmisaeg.
 - Kui soovite kinnitada kõik tellimused, mis peavad jooksval nädalal algama, peab kinnitamise ajapiir olema täitmisaeg pluss üks nädal.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -361,3 +361,6 @@ Teie B2C rentnikku on valikuliselt võimalik lisada teisene administraatorikonto
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

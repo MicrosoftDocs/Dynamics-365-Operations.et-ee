@@ -94,3 +94,6 @@ Kui määrasite viisardis **Eksperimendi ühendamine** oma eksperimendi ulatusek
 
 ## <a name="next-step"></a>Järgmine etapp
 [Eksperimendi eelversioon ja avaldamine](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

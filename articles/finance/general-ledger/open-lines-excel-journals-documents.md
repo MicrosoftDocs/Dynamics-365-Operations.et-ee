@@ -54,3 +54,6 @@ Finantsdimensioonide lisamiseks mallile on vajalikud täiendavad muudatused. Lis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Mõnikord tuleb kliendi krediidilimiiti käsitsi kontrollida. Näiteks võite en
 1.  Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Müügitellimused** \> **Kõik müügitellimused**. Topeltklõpsake müügitellimust.
 
 2.  Klõpsake tegumiriba vormi **Müügitellimus** vahekaardil **Halda** valikut **Kontrolli krediidilimiiti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

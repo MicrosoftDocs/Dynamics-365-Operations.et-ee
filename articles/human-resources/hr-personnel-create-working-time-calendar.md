@@ -43,3 +43,6 @@ Kalendrid kirjeldavad operatsiooniressursside võimsust ja tööaegu. Selles art
 12. Valige nupp **OK**.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

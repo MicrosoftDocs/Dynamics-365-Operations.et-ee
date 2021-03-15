@@ -76,3 +76,6 @@ Kinnitamiseks, et kliendikonto makseviis on lubatud ja avaldatud, toimige järgm
 [Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks](quantity-limits.md)
 
 [SDK ja mooduliteegi värskendused](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

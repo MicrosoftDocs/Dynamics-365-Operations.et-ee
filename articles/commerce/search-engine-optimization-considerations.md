@@ -55,3 +55,6 @@ Kuna rakendus Dynamics 365 Commerce toetab „mida sa näed on see, mida sa saad
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
 
 [Sisu turbepoliitika (CSP) haldamine](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

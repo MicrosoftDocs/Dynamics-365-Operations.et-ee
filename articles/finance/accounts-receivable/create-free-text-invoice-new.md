@@ -84,3 +84,6 @@ Pärast ridade kopeerimist saate redigeerida teavet vajaduse järgi.
 Saate luua vabas vormis arve mallist. Kui valite suvandi **Uus mallist** vahekaardil **Arve**, saate uue vabas vormis malli jaoks valida malli nime ja kliendikonto. Vaikeväärtusi, nt maksetingimused ja makseviisi, saab automaatselt kliendi põhjal täita või võite kasutada malli salvestatud väärtusi.
 
 Luuakse uus vabas vormis arve, mille väärtusi saate vajaduse järgi redigeerida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

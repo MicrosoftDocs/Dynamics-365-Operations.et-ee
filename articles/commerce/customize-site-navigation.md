@@ -109,3 +109,6 @@ Navigeerimismenüüsse kohandatud navigeerimisesuvandite lisamiseks toimige jär
 [Lehe URL-i loomine](create-page-url.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

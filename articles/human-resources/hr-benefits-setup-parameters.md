@@ -68,3 +68,6 @@ Enne rakenduses Microsoft Dynamics 365 Human Resources soodustusplaanide hääle
 3. Valige käsk **Salvesta**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

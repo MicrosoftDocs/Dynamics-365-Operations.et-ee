@@ -48,3 +48,6 @@ See protseduur kirjeldab kulumi erihüvitise loomist ja selle seostamist põhiva
     * Protsendi või Summa vaikeväärtus tuleb kulumi erihüvitise seadistusest.  
 8. Sisestage arv väljale Prioriteet.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

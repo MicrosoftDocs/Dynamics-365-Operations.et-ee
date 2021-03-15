@@ -56,3 +56,6 @@ Enne selle funktsiooni kasutamist peate selle oma süsteemis lubama. Administraa
     > Vorm ei sisalda aruande paigutuses määratletud vahesummasid.
 
 Andmeüksus **Varude ajalise jaotuse aruanne** võimaldab teil eksportida **Varude ajalise jaotuse aruande talletamise** aruande väljundi, rakendades välja **Protsessi ID – nimi** filtri mis tahes vormile, mida andmehaldus toetab.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

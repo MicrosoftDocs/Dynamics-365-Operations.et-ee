@@ -44,3 +44,6 @@ Vaadake ja muutke hooldustellimuse etapi põhjuste nimekirja. Kasutage etapi põ
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

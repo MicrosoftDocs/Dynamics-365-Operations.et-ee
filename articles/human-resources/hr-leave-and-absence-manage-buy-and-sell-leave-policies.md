@@ -80,3 +80,6 @@ Saate lubada töötajatel osta ja müüa puhkust, luues puhkuse ostmise ja müü
 [Puhkuse ja puudumise plaanide juurdekasv](hr-leave-and-absence-accrue.md)</br>
 [Puhkuse ostmine ja müümine](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

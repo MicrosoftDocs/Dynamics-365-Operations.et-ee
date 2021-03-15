@@ -56,3 +56,6 @@ Tingimuslike küsimuste abil saate määrata, milliseid järelküsimusi vastajal
 10. Valige puul suvand Küsimused\mulle makstakse tehtava töö eest õiglast tasu.
     * Pange tähele, et küsimuse puud värskendatakse sõltuvuse näitamiseks.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

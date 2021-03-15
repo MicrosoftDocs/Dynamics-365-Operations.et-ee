@@ -59,3 +59,6 @@ Müügitellimuse sisestamisel sisestatakse kulusumma 10.00 USD kulusumma, sest j
 
 > [!NOTE]
 > Võrdluseks, kui märgite selle kauba puhul müügitellimuse sisestamisel ruudu **Kaasa füüsiline väärtus**, on sisestatav kulusumma 12,00 USA dollarit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

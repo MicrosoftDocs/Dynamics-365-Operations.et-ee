@@ -71,3 +71,6 @@ Lehel **Kulukirjed** saab filtreerida dokumendi ID ja dokumendi kuupäeva alusel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

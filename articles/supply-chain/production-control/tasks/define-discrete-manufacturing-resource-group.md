@@ -57,3 +57,6 @@ Ressursigrupp on operatsiooniressursside kogum, mis tavaliselt vastab tootmistö
 6. Otsige loendist ja valige soovitud kirje.
 7. Klõpsake loendis valitud real olevat linki.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Põhjusekoodid on valikulised. Saate otsustada, kas nõuda põhjusekoodi, kui v�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

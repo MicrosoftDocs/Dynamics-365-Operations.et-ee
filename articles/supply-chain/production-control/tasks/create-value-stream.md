@@ -48,3 +48,6 @@ Väärtuse vood on tootmisüksused, mis grupeerivad ühe või mitu tootmisvoogu.
 2. Sulgege leht.
 3. Värskendage lehte.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

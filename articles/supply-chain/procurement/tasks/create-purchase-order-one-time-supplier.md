@@ -38,3 +38,6 @@ Selles protseduuris selgitatakse, kuidas luua ostutellimus ühekordsele hankijal
 5. Klõpsake nuppu OK.
     * Ostutellimuse saab nüüd lõpetada ja seda saab töödelda, nagu iga teist tellimust. Selle tegemiseks pole mingeid erijuhiseid. Arvel kajastub tellimusega koos loodud hankija kontol toimuv kanne ja seejärel töödeldakse makse.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

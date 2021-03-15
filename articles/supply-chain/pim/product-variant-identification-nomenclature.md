@@ -197,3 +197,6 @@ Olenevalt nomenklatuurist võib süsteem püüda määrata konfiguratsioonile mi
 
 [Kaubakoodi nomenklatuuri loomine konfigureeritud tootevariantidele](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

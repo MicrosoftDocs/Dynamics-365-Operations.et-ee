@@ -52,3 +52,6 @@ Peate ka seadistama transpordi täitmisaja ladude vahel lehel **Transpordipäeva
 2. Valige väljal **Vastuvõtupunkt** säte **ladu**.
 3. Valige **Lähetav ladu**, **Vastuvõttev ladu** ja **Transpordi päevas**. 
 4. (Valikuline) Saate määrata ka tarneviisist oleneva transpordiaja vahekaardil **Transpordipäevi tarneviisi kohta**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

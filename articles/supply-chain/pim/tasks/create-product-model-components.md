@@ -37,3 +37,6 @@ Piirangupõhised tootekonfiguratsiooni mudelid kasutavad komponente ehitusklotsi
 7. Sisestage väljale Kirjeldus soovitud väärtus.
 8. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

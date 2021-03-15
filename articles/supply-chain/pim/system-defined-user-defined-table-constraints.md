@@ -66,3 +66,6 @@ Enne kui tabeli piirang saab toote konfiguratsioonimudelis jõustuda, tuleb tabe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

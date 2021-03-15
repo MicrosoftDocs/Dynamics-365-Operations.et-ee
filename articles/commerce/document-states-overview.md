@@ -60,3 +60,6 @@ Järgmises tabelis on toodud Commerce’i leheelementide võimalikud dokumentide
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
 
 [Saidil navigeerimise kohandamine](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

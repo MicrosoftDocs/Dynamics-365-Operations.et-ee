@@ -50,3 +50,6 @@ Lähetustahvlil olevate salvestamata muudatuste tagasipööramiseks tehke järgm
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

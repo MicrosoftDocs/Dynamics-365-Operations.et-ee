@@ -78,3 +78,6 @@ Te ei saa määrata ajapikenduse päevi ainult osadele sisestamise kontrollpunkt
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numbriseeriad ja jagatud numbriseeria parameetrid
 
 Krediidilimiidi korrektsioonide töötlemiseks on vajalik töölehe ID. Peate lisama krediidilimiidi korrigeerimise numbri, mida tuleks kasutada töölehe ID loomiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

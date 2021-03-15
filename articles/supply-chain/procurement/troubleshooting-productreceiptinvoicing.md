@@ -109,3 +109,6 @@ Järgmine protsess näitab üht viisi probleemi taastekitamiseks.
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 See sõltub arvete ja arvegruppide parameetrite seadistusest. Lisateavet leiate ajaveebipostitusest [Raamatupidamine ostukulu ja varude muudatuste puhul](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

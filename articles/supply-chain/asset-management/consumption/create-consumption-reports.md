@@ -77,3 +77,6 @@ Kui olete sisestanud töökäskude tarbimise, saate töökäsu tarbimise aruande
 >[!NOTE]
 >Samuti saate luua [töökäsu aruande](../work-orders/work-order-report.md), mis sisaldab rohkem töökäsu üksikasju.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

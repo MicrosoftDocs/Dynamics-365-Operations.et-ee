@@ -71,3 +71,6 @@ Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 + [Paralleelharude konfigureerimine töövoos](configure-parallel-branch-workflow.md)
 + [Reakauba töövoogude konfigureerimine](configure-line-item-workflow.md)
 + [Töövoo KKK](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

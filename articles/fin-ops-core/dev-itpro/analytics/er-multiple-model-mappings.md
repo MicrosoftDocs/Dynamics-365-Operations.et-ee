@@ -182,3 +182,6 @@ Mudelivastendus **InvoiceProjecti koopia** konfiguratsioonis **Projekti arve mud
 - [Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine](er-country-dependent-model-mapping.md)
 - [Elektroonilise aruandluse raamistiku API muudatused](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

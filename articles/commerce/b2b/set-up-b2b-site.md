@@ -302,3 +302,6 @@ Saidiehitajas arve üksikasjade lehe loomiseks toimige järgmiselt.
 [Sisuploki moodul](../add-hero-module.md)
 
 [Tootekogum](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

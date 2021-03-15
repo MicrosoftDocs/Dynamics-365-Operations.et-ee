@@ -67,3 +67,6 @@ See on viies viiest protseduurist, mis näitab kliendi makseprotsessi, kasutades
 11. Klõpsake nuppu OK.
 12. Klõpsake nuppu OK.
 13. Klõpsake suvandit Maksete loomine.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

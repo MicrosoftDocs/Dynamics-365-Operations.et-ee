@@ -138,3 +138,6 @@ Keskkond tuleb konfigureerida lehe **Elektroonilise dokumendi parameetrid** vahe
 
 - [Elektrooniliste arvete konfigureerimine RCS-is](e-invoicing-configuration-rcs.md)
 - [Elektroonilise arvete väljastamine teenustes Finance ja Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

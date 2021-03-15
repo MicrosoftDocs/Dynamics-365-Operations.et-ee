@@ -54,3 +54,6 @@ Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitük
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Kõigil kindla auditipoliitika poliitikareeglitel on samad partiiparameetrid ja 
 [Lähtedokumentide jaoks auditipoliitikate määratlemine](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

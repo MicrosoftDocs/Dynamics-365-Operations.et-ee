@@ -61,3 +61,6 @@ Saate simuleerida tehase masina signaale. Vaadake lisateavet järgmistest teemad
 + [IoT DevKit AZ3166 ühendamine Azure IoT Hubiga](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Vaarika Pi veebisimulaatori ühendamine Azure IoT Hubiga (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Seadme simulatsiooni lahenduse kiirendi ülevaade](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

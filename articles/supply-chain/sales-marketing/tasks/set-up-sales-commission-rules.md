@@ -95,3 +95,6 @@ See protseduur selgitab, kuidas seadistada ja lubada müügi komisjonitasu arvut
 17. Valige loendist varem loodud komisjonitasu grupp.
 18. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

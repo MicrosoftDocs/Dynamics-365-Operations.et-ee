@@ -83,3 +83,6 @@ Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsi
 Pärast filtri rakendamist (vaadake allolevat pilti) saab kasutaja leida ja valida rea tavapärasel viisil.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

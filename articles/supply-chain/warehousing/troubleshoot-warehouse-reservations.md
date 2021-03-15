@@ -77,3 +77,6 @@ Kui aga kasutate kaupa, millel on "partii allpool" broneerimise hierarhia (mille
 Selline käitumine on nii kavandatud. Kui asetate broneerimise hierarhias dimensiooni **Asukoha** dimensioonist ettepoole, peab see olema määratud enne lattu väljastamist. Microsoft on seda probleemi hinnanud ja on määranud, et see on funktsiooni piirang koorma planeerimise töölaualt lattu väljastamise ajal. Osalisi koguseid ei saa väljastada, kui ühe või mitme dimensiooni **Asukoht** on määramata.
 
 Lisateavet vt [Paindlik dimensiooni broneerimise poliitika laotasemel](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

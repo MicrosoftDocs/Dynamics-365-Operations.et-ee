@@ -63,3 +63,6 @@ See protseduur näitab, kuidas kinnitada müügitellimusi. Teile selgitatakse ü
 11. Klõpsake valikut **OK**.
 12. Klõpsake valikut **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Mitme maksegraafiku kinnitamiseks toimige järgmiselt.
     - Kõigi raamatute kinnitamiseks lülitage sisse parameeter **Kõigi raamatute jaoks**.
 
 Teave äsja kinnitatud raamatute kohta kuvatakse lehel **Kinnitatud raamatud**. Pärast maksegraafikute kinnitamist saab algse tuvastamise töölehtede kirjed sisestada vastavate rendikirjete suhtes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

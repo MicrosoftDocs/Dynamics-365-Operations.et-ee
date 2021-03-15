@@ -46,3 +46,6 @@ See protseduur näitab, kuidas saate soodustust aegunuks märkida või pikendada
 15. Klõpsake suvandit Soodustused.
 16. Leidke loendist soodustus ja valige kirje. Pöörake tähelepanu uue perioodi lõppkuupäevale.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

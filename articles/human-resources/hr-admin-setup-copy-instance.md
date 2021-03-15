@@ -150,3 +150,6 @@ Lisateavet kohandatud väljade kohta leiate teemast [Kohandatud väljade loomine
 [Eemalda eksemplar](hr-admin-setup-remove-instance.md)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

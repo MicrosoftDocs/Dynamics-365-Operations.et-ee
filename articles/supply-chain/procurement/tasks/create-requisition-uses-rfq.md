@@ -98,3 +98,6 @@ Järgmine ülesanne on luua pakkumiskutse hankijatelt tootele pakkumiste saamise
 8. Valige leht.
 9. Valige Lõpeta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

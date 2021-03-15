@@ -60,3 +60,6 @@ Selles teemas kirjeldatakse, kuidas ette valmistada andmeid välissüsteemidest,
 8. Seadistage suvand **Pakett-töötlus** valikule **Jah**, et käivitada konsolideerimine pakett-tööna määratud ajal. Konsolideerimise koheseks käivitamiseks valige **OK**. 
 
 Kanded ja saldod, mis olid tütarettevõtetes konsolideerimiseks määratud, lisatakse vastavatele konsolideeritud juriidilise isiku kontodele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

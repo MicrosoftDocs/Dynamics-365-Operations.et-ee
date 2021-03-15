@@ -43,3 +43,6 @@ Täiendavad nupud lehel **Kulukategooriad** pakuvad juurdepääsu projektiga seo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

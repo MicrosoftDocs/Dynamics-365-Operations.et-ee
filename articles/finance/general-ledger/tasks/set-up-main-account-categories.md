@@ -41,3 +41,6 @@ Selles teemas selgitatakse, kuidas seadistada põhikonto kategooriaid. Põhikont
 3. Põhikontode valimiseks märkige või tühjendage suvand **Lingitud.**
 4. Valige nupp **OK**.
 5. Valige **Jah**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

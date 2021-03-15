@@ -93,3 +93,6 @@ Dialoogiaknas **Hooldustellimuste loomine** määratud ajavahemikus on loodud ko
 
 [Hooldusintervallide seadistamine](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

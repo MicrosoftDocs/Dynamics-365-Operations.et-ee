@@ -80,3 +80,6 @@ Järgmistel joonistel on näidatud malli vastendamine andmeintegratsioonis.
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Laod (rakendusest Supply Chain Management rakendusse Field Service): ladu
 
 [![Malli vastendamine andmete integratsioonis](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Kui soovite teha Microsoftiga koostööd spikri kohandamiseks vajalike tööriis
 [Tegevuse salvestaja ressursid](../../dev-itpro/user-interface/task-recorder.md)  
 [Dokumentide või koolituse loomine tegevuse salvestaja abil](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Kohandatud spikri GitHubi hoidla](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

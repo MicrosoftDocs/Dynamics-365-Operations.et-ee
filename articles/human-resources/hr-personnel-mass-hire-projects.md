@@ -82,3 +82,6 @@ Hulgivärbamisprojekti oleku muutmiseks avage lehekülg **Hulgivärbamisprojekt*
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

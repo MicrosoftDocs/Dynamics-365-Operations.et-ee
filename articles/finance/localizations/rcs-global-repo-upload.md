@@ -97,3 +97,6 @@ Konfiguratsiooni versioon kustutatakse ja kuvatakse kinnitusteade.
 > [!NOTE]
 > Konfiguratsiooni saab kustutada ainult konfiguratsiooni loonud konfiguratsioonipakkuja. Kui konfiguratsiooni on jagatud mõne muu organisatsiooniga, tuleb jagamine enne konfiguratsiooni kustutamist tühistada.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

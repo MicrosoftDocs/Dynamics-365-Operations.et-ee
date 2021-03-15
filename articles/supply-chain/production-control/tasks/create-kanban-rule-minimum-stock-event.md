@@ -67,3 +67,6 @@ See protseduur keskendub seadistusele, mis on vajalik kanban-reegli loomiseks, k
 5. Laiendage jaotist Kanbanid.
     * Pange tähele, et kanban loodi vajaliku materjali üleviimiseks lattu 12.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

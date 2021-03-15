@@ -120,3 +120,6 @@ Klõpsake suvandit **Seadistus**, et kohandada teavet, mida näidatakse valemiko
 |     Kooslus     | Kasutage märkeruute, et valida puustruktuuris näidatud kriteerium. Valemikoostaja kuvab valitud kriteeriumi mõlema vahekaardi allosas. |
 |    Protsess    |                                           Kasutage märkeruute, et valida protsesside puhul näidatav kriteerium.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

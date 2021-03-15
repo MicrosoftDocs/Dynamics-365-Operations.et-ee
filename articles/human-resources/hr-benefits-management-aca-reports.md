@@ -207,3 +207,6 @@ Kuvatakse töötaja ülalpeetavate kindlustuskaitse teave.
 
 > [!NOTE]
 > Lehel kuvatakse ainult soodustusplaanid, mis on märgitud kui **ACA-aruandele lisatavad**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

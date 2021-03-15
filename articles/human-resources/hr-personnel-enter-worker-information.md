@@ -45,3 +45,6 @@ Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks e
 8. Eemaldage loendis valitud realt märge.
     * Valige projekti järgmine ametikoht ja jätkake iga värvatava inimese puhul töötaja teabe sisestamist.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

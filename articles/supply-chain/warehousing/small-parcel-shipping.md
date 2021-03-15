@@ -279,3 +279,6 @@ Saadetise pakkimiseks tehke järgmist.
     ![Saadetise sildi näide](media/sps-label-example.png "Saadetise sildi näide")
 
 1. Pange tähele, et **Konteineri manifesti ID** ja **Veose koguväärtus** on vedajalt saadud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

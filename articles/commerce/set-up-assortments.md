@@ -54,3 +54,6 @@ Pärast eeltingimuste täitmist saate luua sortimendi ja määrata selle oma kan
 2. Valige kanalid või kanalite kõrgema taseme grupid, millele sortiment kohaldub.
 3. Lisage sortimendile tootekategooriad, üksikud tooted või tootevariandid. Saate kaasata kõik kindla kategooria tooted või välistada valitud tooteid sortimenti kaasatud kategooriast.
 4. Avaldage sortiment. Sortimendi avaldamisel käivitatakse sortimendi ajasti automaatselt. See protsess loob toodete loendi. Kui see protsess on lõpule viidud, muutuvad tooted kättesaadavaks kanalitele, millele on tootesortiment määratud. Avaldatud sortimendi või kanalite, millele sortiment on määratud, muutmisel tuleb sortimenti värskendada. Sortimendi värskendamiseks pärast muudatuste tegemist saate käivitada sortimendi ajasti pakett-tööna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

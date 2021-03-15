@@ -68,3 +68,6 @@ Tellimus on salvestatud, kuid sellele on märgitud lipp **Ära töötle**. See l
 Pettuse tõttu ülevaatamisel olevate tellimuste vaatamiseks ja haldamiseks avage **Jaemüük ja kaubandus** \> **Kliendid** \> **Ootel olevad tellimused**. Lehel **Ootelolevad tellimused** valige loendist kirje ja klõpsake nuppu **Ootelolev tellimus**, et näha üksikasjalikumat vaadet, mis sisaldab teavet ooteloleku põhjuse kohta. Kiirkaardil **Pettuse üksikasjad** saate vaadata süstemaatilisi pettuse kriteeriume, mis leiti olevat tellimuse vasted ja millele rakendati skoorid. Kui tellimus pandi käsitsi ootele, saate vaadata üle tellimuse ootele pannud kasutaja kommentaarid vaadates jaotist **Pettusemärkmed** kiirkaardil **Märkused**.
 
 Lisateavet selle kohta, kuidas töötada ootel olevate tellimustega, vt teemast [Ootelolevad tellimused](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

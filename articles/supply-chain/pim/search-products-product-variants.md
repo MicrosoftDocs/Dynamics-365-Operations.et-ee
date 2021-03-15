@@ -86,3 +86,6 @@ Müügitellimuse rea sisestuse puhul on vaikekäitumine lehe **Tooteotsing** ava
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

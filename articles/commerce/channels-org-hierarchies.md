@@ -87,3 +87,6 @@ Järgmine pilt näitab hierarhia juurele lisatud juriidilist isikut nelja lisatu
 [Kanalite ülevaade](channels-overview.md)
 
 [Kanali seadistamise eeltingimused](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Järgmised elemendid võimaldavad teil kujundada töövood, mis on alternatiivse
 ### <a name="subworkflow"></a>Alamtöövoog
 
 *Alamtöövoog* on teise töövoo kontekstis käitatav töövoog.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

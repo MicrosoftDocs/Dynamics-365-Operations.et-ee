@@ -73,3 +73,6 @@ See protseduur näitab, kuidas koostada üleviimisdokumente kaupade liikumisel e
 10. Klõpsake suvandit Saateleht.
 11. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

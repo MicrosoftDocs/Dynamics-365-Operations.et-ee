@@ -48,3 +48,6 @@ Lisateavet vt jaotisest [Positiivse makse failide seadistamine ja loomine](set-u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

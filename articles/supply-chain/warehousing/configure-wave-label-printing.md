@@ -931,3 +931,6 @@ Saate kuvada ja uuesti printida järgmiste lehtede voo silte.
 - Voosildi ajalugu
 
 Enamiku nende lehtede puhul leiate vastava funktsiooni, valides toimingupaani vahekaardi **Saadetised** grupis **Seotud teave** suvandi **Voo sildid**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Näiteks kehtivad järgmised tingimused.
 Algse vara kulumi summa on $1822.25. See summa võrdub raamatupidamisliku jääkväärtusega enne tükeldatud kande sisestamist (9111.25 USD), pluss soetuse korrigeerimine, mis luuakse tükeldatud kande (8000 USD) sisestamisel, pluss kulumi korrigeerimine, mis luuakse tükeldatud kande (711 USD) jooksul. Seetõttu on teise aasta kulum (1822.25 × 18 protsenti) ÷ 12 = 27.33 USD.
 
 Uue põhivara kulumiarvestuse summa esimesel aastal on (8000 × 18 protsenti) ÷ 12 = 120 USD.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

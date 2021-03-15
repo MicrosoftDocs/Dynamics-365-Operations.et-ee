@@ -221,3 +221,6 @@ Kui kasutajad tühistavad arvutatud kulud käsitsi või lisavad kulu kandele kä
 
 [Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

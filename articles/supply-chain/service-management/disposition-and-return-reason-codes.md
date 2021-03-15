@@ -53,3 +53,6 @@ Määrake likvideerimiskood kauba vastuvõtmisel või tagastatud kauba füüsili
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

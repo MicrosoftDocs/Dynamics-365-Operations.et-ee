@@ -40,3 +40,6 @@ Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõ
 9. Klõpsake suvandit Muuda ametikohta.
     * Võite sel ajal muuta ka lisatasu. Kui te sel ajal lisatasu ei määra, saate seda muuta, minnes töötaja vormi, valides vahekaardi Lisatasu ja valides suvandi Fikseeritud plaan. Pärast suvandi Muuda ametikohta valimist värskendatakse avaldus olekule Tööle võetud.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

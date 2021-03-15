@@ -65,3 +65,6 @@ Pärast seda, kui olete teinud seisundi hindamise registreerimise, saate seisund
 
 >[!NOTE]
 >Samuti saate registreerida seisundi hindamise töökäsul (**Varahaldus** > **Ühised** > **Töökäsud** > **Kõik töökäsud** > **Seisundi hindamise** nupp.)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

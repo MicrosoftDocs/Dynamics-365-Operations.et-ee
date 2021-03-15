@@ -116,3 +116,6 @@ Järgmine tabel näitab igal aruandelehel olevaid visualiseeringuid.
 | Arved, mille importimine nurjus | <ul><li>Arved, mille importimine nurjus</li><li>Arved, mille importimine nurjus, ettevõtte järgi</li></ul> |
 | Automatiseerimise nurjumise põhjused | <ul><li>Nurjunud arved</li><li>Nurjunud arved ettevõtte järgi</li><li>Nurjunud arved hankija grupi järgi</li></ul> |
 | Töövoo olek                | <ul><li>Töövoos olevad arved</li><li>Hankija arve töövooeksemplarid</li><li>Määramine kinnitaja kohta</li><li>Hankija arve töövoog ettevõtte kohta</li><li>Keskmine töövoo päevade arv kinnitaja kohta</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

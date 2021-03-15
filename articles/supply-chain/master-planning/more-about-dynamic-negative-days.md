@@ -250,3 +250,6 @@ Teie ettevõtte jaoks õigete väärtuste sisestamise tagamiseks peate mõtlema 
 ## <a name="see-also"></a>Vt ka
 
 Täiendavat arutelu vt algsest ajaveebipostitusest [(Dünaamiliste) negatiivsete päevade lisateave](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

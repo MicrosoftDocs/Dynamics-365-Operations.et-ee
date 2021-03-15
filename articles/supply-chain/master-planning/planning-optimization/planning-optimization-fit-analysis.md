@@ -113,3 +113,6 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 [Plaanile filtrite rakendamine](plan-filters.md)
 
 [Planeerimistöö tühistamine](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

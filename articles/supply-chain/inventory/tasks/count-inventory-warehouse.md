@@ -55,3 +55,6 @@ Selles teemas kirjeldatakse protsessi, kuidas luua ja sisestada varude inventuur
 1. Valige **Laoseis**.
 2. Valige **Kanded**. Siin saate vaadata kõiki seotud kandeid, mis teie laoinventuuri töölehe sisestamisel luuakse.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

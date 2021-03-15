@@ -236,3 +236,5 @@ Tingimuslike küsimuste kasutamiseks küsimustikus küsimuste hierarhia loomisek
 Juriidiline isik pakub oma klientidele nii kaupu kui ka teenuseid. Nagu sellistel puhkudel tavaliselt juhtub, ostavad mõned kliendid ainult kaupu, mõned ainult teenuseid ja mõned nii kaupu kui ka teenuseid. Seega, kui juriidiline isik saadab laiali kliendirahulolu uuringu, rakendatakse küsimustikus tingimuslikku struktuuri, et kliendid, kes ostavad ainult teenuseid, ei peaks vastama kaupu puudutavatele küsimustele. 
 
 Teine võimalus on seadistada küsimustik nii, et kui vastaja valib küsimusele 1 vastuse A, on küsimus 2 küsimuste järjekorras järgmine. Kuid kui vastaja valib küsimuse 1 puhul vastuse B, on järgmine küsimus 5.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

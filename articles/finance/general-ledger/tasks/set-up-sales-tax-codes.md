@@ -45,3 +45,6 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 12. Sulgege leht.
 13. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

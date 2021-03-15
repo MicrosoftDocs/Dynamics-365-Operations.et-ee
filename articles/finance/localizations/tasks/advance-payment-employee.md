@@ -170,3 +170,6 @@ See protseduur näitab, kuidas seadistada ja registreerida avansisaaja kandeid. 
 12. Sulgege leht.
 13. Klõpsake suvandit Kanded.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

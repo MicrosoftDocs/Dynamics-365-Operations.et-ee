@@ -187,3 +187,6 @@ Loote valitud konfiguratsioonile uut andmemudelit. Selle konfiguratsiooni versio
 65. Klõpsake nuppu Salvesta.
 66. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

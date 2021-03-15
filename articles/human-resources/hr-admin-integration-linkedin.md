@@ -190,3 +190,6 @@ Imporditakse järgmised üksikasjad ja lisatakse uue töötaja kirjesse.
 
 [Dataverse'i virtuaalsete tabelite konfigureerimine](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

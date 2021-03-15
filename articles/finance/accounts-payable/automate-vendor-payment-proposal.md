@@ -143,3 +143,6 @@ Hankija maksesoovituste automatiseerimistele on lisatud järgmised kohustused ja
 | Graafiku sündmusi puudutav päring | Ostureskontro makseametnik, ostureskontro tsentraliseeritud makseametnik | See kohustus annab õiguse kuvada maksesoovituse automatiseerimise sündmusi järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste kuvamine</li><li>Sündmuse nädalavaate kuvamine</li></ul> |
 | Graafiku seeriaid puudutav päring      | None                                                                       | See kohustus annab õiguse kuvada seeriate ja sündmuste sätteid järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste kuvamine</li><li>Sündmuste loendi lehe kuvamine</li><li>Sündmuse nädalavaate kuvamine</li></ul>|
 | Graafiku sündmuste haldamine     | None                                                                       | See kohustus annab õiguse luua ja hallata sündmusi järgmiste privileegide kaudu.<ul><li>Graafiku sündmuste haldamine</li><li>Sündmuse nädalavaate kuvamine</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

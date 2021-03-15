@@ -58,3 +58,6 @@ Selles teemas selgitatakse, kuidas luua ja määrata täpsustatud reegli struktu
 17. Sulgege leht.
 18. Valige **Aktiveeri**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

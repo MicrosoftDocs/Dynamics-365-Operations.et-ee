@@ -186,3 +186,6 @@ Olemas on kaks erandit reeglile, et partiitellimused on sobilikud partii tasakaa
 1. Kui valemi mõõtühik erineb toimeaine varude mõõtühikust, ei saa partiitellimust partii tasakaalustamiseks rakendada.
 
 Partiitellimus, mis ei ole partii tasakaalustamiseks sobilik, läbib partiitellimuste tavapärase protsessitsükli.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

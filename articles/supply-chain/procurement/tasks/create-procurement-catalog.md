@@ -65,3 +65,6 @@ Selles teemas selgitatakse, kuidas luua hankekataloogi. Seda ülesannet täidab 
 7. Valige **Lisa ridadele**.
 8. Valige nupp **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

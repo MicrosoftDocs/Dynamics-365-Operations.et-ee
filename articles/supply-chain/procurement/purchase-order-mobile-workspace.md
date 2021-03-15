@@ -112,3 +112,6 @@ Kui olete endale määratud ostutellimust vaadanud ja töövoo juhiseid lugenud,
 5. Valige sobiv tegevus.
 6. Sisestage lehele **Ülesande täitmine** kommentaar. Pange tähele, et kui valite tegevuse **Delegeeri**, siis peate valima kasutaja, kellele ülesanne delegeerida.
 7. Valige suvand **Valmis**. Kui olete tööruumi uuendanud, ei ole ostutellimust enam teie loendis. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

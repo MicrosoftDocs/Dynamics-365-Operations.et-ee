@@ -66,3 +66,6 @@ Lean manufacturingi juurutamisel valime tootmisvoo ja tegevuse lähenemise, mis 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

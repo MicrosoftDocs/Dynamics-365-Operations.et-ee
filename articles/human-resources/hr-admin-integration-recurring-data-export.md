@@ -205,3 +205,6 @@ Järgmisel joonisel on näha, kuidas Logic Apps Designer välja näeb, kui kõik
 Selles õpetuses saite teada, kuidas kasutada loogikarakendusi, et eksportida andmeid rakendusest Human Resources, ja salvestada eksporditud andmed OneDrive for Businessi kausta. Saate selle õpetuse etappe vastavalt vajadusele muuta, et need vastaksid teie ettevõtte vajadustele.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

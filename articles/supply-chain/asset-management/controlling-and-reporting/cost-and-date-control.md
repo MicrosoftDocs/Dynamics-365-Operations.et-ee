@@ -107,3 +107,6 @@ Alloleval kuvatõmmisel kuvatakse näide arvutustulemuste kohta dialoogiboksis *
 ![Arvutustulemuste näide lehel Töökäsu kuupäeva juhtimine](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

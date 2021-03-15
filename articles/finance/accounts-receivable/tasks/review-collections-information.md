@@ -142,3 +142,6 @@ Selles teemas selgitatakse, kuidas vaadata üle sissenõuete teavet ja eri hää
 5. Valige **Näita loendit**.
 - Valige kliendi konto või nõustuge vaikesisestusega. Vaikimisi on see loendilehel või vormil, millelt avasite selle vormi, valitud kliendi konto. Kui avasite vormi loendilehelt, on loendis kliendid, kes on kaasatud loendilehel kasutatavasse kliendikausta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

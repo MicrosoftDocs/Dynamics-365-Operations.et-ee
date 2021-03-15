@@ -50,3 +50,6 @@ Järgige neid juhiseid, et kujundada ja konfigureerida paralleelharu elemendid.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Töövoogude loomise ülevaade](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

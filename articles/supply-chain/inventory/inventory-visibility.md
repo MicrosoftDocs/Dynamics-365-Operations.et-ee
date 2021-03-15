@@ -527,3 +527,6 @@ Eelmistes näidetes kuvatud päringud võivad tagastada sellise tulemuse.
 ```
 
 Võtke arvesse, et koguseväljad on struktuurilt justkui meetmete ja nendega seotud väärtuste sõnastikud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

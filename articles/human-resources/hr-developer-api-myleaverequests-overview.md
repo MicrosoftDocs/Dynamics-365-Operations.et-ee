@@ -64,3 +64,5 @@ ms.locfileid: "5115532"
 
 - [Puhkusetaotluse edastamine töövoogu](hr-developer-api-myleaverequests-submit.md)
 - [Autentimine](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

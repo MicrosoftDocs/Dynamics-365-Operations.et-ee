@@ -104,3 +104,6 @@ Väljade põhjal, mille valisite, et soovite diagrammi lisada, kuvab iga sõlm V
 **Lisasuvand**
 
 Rakenduses Human Resources saate võib-olla kasutada ka tööruumi **Inimesed**, et vaadata hierarhiaga seotud teavet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

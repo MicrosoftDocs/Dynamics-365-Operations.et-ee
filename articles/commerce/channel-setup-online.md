@@ -133,3 +133,6 @@ Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.
 [Kõnekeskuse kanali seadistamine](channel-setup-callcenter.md)
 
 [Dynamics 365 maksekonnektor Adyeni jaoks](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Protseduur näitab, kuidas luua müügihinna kaubandusleppeid kategooria hinnaku
 24. Klõpsake vahekaarti Kategooria hinna reeglid.
     * Loend hõlmab kanalipõhiseid kategooria hinnakujunduse reeglid.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

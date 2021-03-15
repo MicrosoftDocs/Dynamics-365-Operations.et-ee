@@ -53,3 +53,6 @@ Kulugrupile saab määrata kulugrupi tüübi ja toimimise täiendavate segmentim
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

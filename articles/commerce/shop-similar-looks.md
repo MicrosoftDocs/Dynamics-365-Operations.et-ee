@@ -115,3 +115,6 @@ Järgmisel illustratsioonil on näha saidiehitajas toodete üksikasjade näidisl
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

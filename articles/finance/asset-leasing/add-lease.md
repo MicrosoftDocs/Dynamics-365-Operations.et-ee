@@ -88,3 +88,6 @@ Kõik vara rentimises loodavad töölehe kanded sisalduvad vara rentimise tööl
 
 > [!NOTE]
 > Vara rentimise töölehte ei saa käsitsi luua. See luuakse rendiajakavade loomise ajal automaatselt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

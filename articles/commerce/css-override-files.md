@@ -113,3 +113,6 @@ Oma saidil CSS-i alistamisfaili desaktiveerimiseks toimige järgmiselt.
 [Saidile keelte lisamine](add-languages-to-site.md)
 
 [Telemeetria toetamiseks saidile skriptikoodi lisamine](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

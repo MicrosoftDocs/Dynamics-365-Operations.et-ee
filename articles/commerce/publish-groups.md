@@ -154,3 +154,6 @@ Praegu toetab avaldamisrühmade funktsioon ainult veebisaidi sisu. Kuid Microsof
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
 
 [Saidil navigeerimise kohandamine](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

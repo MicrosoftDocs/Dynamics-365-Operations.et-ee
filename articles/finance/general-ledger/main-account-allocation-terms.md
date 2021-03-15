@@ -69,3 +69,6 @@ Kiirkaardil **Sihtpearaamatukohto** on põhikontoks sama kommunaalkulude konto n
 > Te võite kasutada nuppu **Kopeeri**, et valitud eraldus dubleerida.
 
 Kui põhikonto jaoks luuakse eraldustingimus, sisestab süsteem automaatselt uue kande, kui sisestatakse kanne, mis ühtib eraldustingimuste lähtefinantsdimensioonidega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

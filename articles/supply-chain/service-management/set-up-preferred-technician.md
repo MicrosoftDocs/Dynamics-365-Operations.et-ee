@@ -67,3 +67,6 @@ Saate teenusleppe või teenuse tellimuse jaoks eelistatud tehnikuna valida mis t
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

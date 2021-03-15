@@ -64,3 +64,6 @@ Kasutage seda protseduuri, et käivitada ja peatada aja kirjendamine teenuse tel
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

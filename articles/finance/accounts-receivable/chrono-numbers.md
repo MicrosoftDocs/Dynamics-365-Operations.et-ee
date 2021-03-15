@@ -105,3 +105,6 @@ Dokumendi sisestamisel määratakse dokumendile selle sisestuskuupäeval põhine
 
 > [!NOTE]
 > Mõnes riigis on dokumentide nummerdamiseks juba rakendatud kindel loogika. Sellisel juhul alistab riigipõhine loogika funktsiooni **Kronoloogiline nummerdamine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

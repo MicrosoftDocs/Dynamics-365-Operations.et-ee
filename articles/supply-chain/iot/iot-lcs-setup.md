@@ -55,3 +55,6 @@ LCS-i seadistamine on nüüd lõpule viidud. Järgmine etapp on [stsenaariumide 
 2. Avage LCS-is teenuse Supply Chain Management keskkonna üksikasjad.
 3. Kerige alla jaotiseni **Keskkonna lisandmoodulid**.
 4. Valige **Desinstalli** IoT iseõppimisvõime lisandmooduli jaoks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

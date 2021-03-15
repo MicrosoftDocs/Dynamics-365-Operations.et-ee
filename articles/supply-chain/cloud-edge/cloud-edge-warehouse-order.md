@@ -72,3 +72,6 @@ Vaates **Laotellimuse read** saate jälgida sissetuleva vastuvõtu edenemist, va
 
 - Avage **Laohaldus \> Päringud ja aruanded \> Laotellimuse read** ja kasutage otsitavate ridade leidmiseks filtrit.
 - Avage **Hanked \> Ostutellimused \> Kõik ostutellimused** ja avage seotud ostutellimus. Jaotises **Ostutelimuse read** valige üks või mitu rida ja seejärel valige tööriistaribal **Ladu \> Lao sissetuleku kirjed**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

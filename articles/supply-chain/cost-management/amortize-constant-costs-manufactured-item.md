@@ -46,3 +46,6 @@ Toodetud kauba amortiseeritud püsikulude arvutatud kogust nimetatakse terminiga
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

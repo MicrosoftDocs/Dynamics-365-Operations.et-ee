@@ -94,3 +94,6 @@ Kui teenustellimuse kõik read on märgitud kui **Sisestatud**, on edenemisel ol
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

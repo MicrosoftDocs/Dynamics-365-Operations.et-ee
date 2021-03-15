@@ -172,3 +172,6 @@ Konteineri mooduli konfigureerimiseks lehel tehke järgmist.
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

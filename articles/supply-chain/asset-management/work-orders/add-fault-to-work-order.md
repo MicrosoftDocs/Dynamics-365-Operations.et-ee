@@ -79,3 +79,6 @@ Loendilehelt **Kõik varad** saate printida vara vea aruande, kus kuvatakse kõi
 >[!NOTE]
 >Veaaruande printimiseks mitme vara või varatüübi kohta valige **Varahaldus** > **Aruanded** > **Varad** > **Vara viga**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

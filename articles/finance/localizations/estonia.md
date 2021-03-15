@@ -34,3 +34,6 @@ See teema sisaldab teavet ja linke ressurssidele, mida tuleb arvesse võtta juri
 - [Microsoft Dynamics Lokaliseerimisportaal: Eesti aruanne](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/Estonia.html)
 - [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

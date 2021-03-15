@@ -54,3 +54,6 @@ Valik **Kuva üksikasjad** on kättesaadav mitmel viisil.
 
 - Kui juhtelemendil on **üksikasjade kuvamise** võimalused ja kui juhtelemendil on väärtus, kuvatakse väärtus hüperlingina. Võite klõpsata hüperlinki täiendavaid üksikasju sisaldava lehe avamiseks.
 - **Kuva üksikasjad** on ka kiirmenüüde valik. Lisateavet selle kohta, millal kiirmenüüd paremklõpsamisel kuvatakse, leiate eelmisest jaotisest.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ See protseduur võimaldab värbajal palgata kandidaadi, kes esitas avalduse konk
 15. Laiendage või ahendage jaotist Kontaktteave.
 16. Laiendage või ahendage jaotist Isikuandmed.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

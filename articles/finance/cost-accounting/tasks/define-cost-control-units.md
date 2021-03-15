@@ -40,3 +40,6 @@ See toiming näitab, kuidas määratleda kuluarvestuse pearaamatus kulu juhtsead
 10. Sisestage või valige väärtus väljal Dimensioon.
 11. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

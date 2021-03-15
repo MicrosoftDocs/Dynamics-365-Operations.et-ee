@@ -130,3 +130,6 @@ Erinevate versioonide vaatamiseks võite kasutada kuupäeva valimiseks menüüva
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

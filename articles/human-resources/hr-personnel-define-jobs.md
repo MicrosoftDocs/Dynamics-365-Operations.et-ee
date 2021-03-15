@@ -71,3 +71,6 @@ See ülesanne keskendub uue töö loomisele. See lõpetatakse käsitsi sisestami
 33. Lülitage jaotise Haridus laiendamist.
 34. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

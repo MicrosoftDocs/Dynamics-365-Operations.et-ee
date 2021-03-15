@@ -102,3 +102,6 @@ Saate luua teatisi osade vormi teisaste andmeallikate jaoks. Näiteks kui teatis
     ```
 2. Looge teatis vormis SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

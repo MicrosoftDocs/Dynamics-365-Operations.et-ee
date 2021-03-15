@@ -360,3 +360,6 @@ Järgige neid samme, et hallata elektroonilise arvelduse lisandmooduli funktsioo
 
     > [!NOTE]
     > Kui valite **Jah**, muudetakse konfiguratsiooni versioonide olek automaatselt olekust **Lõpetatud** olekuks **Jagatud**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

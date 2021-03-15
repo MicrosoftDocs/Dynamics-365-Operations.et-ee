@@ -80,3 +80,6 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Varude üleviimine (rakendusest Field Service rakendusse Supply Chain Management): Varude üleviimine
 
 [![Malli vastendamine andmete integratsioonis](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

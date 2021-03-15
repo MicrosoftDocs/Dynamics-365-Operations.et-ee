@@ -49,3 +49,6 @@ Kasutaja ei saa kohandada manustatud Microsoft Power BI aruandeid.
 **Pikaajaline lahendus**
 
 Saadaval on Power BI lisasuvandid ning teenusesse Dataverse kuulub rohkem andmeid ja üksuseid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

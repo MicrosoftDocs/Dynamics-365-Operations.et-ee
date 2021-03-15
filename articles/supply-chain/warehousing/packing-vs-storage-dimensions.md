@@ -133,3 +133,6 @@ Selles protsessis loote saadetise kauba *pakendamise* dimensioonide põhjal, mil
 1. Avage mobiilne seade, logige sisse lattu 63 ja avage **Varud \> Korrigeeri üksuses**.
 1. Sisestage **Loc** = *SHORT-01*. Tehke uus registreerimismärk näitajatega **Kaup** = *A0001* ja **Kogus** = *1 tk*.
 1. Valige nupp **OK**. Teile kuvatakse tõrge „Asukoha SHORT-01 valimine nurjus, sest kaup A0001 ei mahu asukoha määratud mõõtmesse.” Seda seetõttu, et toote tüübi *Ladu* dimensioonid on suuremad kui asukoha profiilis määratletud dimensioonid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

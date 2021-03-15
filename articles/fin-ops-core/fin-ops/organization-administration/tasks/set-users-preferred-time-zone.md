@@ -35,3 +35,6 @@ Järgmises teemas selgitatakse, kuidas saab süsteemiadministraatori rolliga kas
 5. Valige väljal **Ajavöönd** ripploendist suvand.
 6. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

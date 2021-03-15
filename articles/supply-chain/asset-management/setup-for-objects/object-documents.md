@@ -49,3 +49,6 @@ Varahalduses saate seadistada dokumente nii, et need oleksid automaatselt seotud
 
 4. Valige suvand **Manused**. Kuvatakse standardse **dokumenditöötluse** leht.
 5. Seadistage dokumendid või märkmed, mis tuleks varadokumendi kirjega siduda. Pärast dokumentide sidumist kuvatakse väljal **Manused** kirjega seotud dokumentide arv.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

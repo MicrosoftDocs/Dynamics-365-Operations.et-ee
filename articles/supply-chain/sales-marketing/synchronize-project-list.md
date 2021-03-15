@@ -66,3 +66,6 @@ Muudatuste jälgimise lubamine andmeüksuse projektide jaoks.
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projektid (rakendusest Supply Chain Management rakendusse Field Service): projektid
 
 [![Malli vastendamine andmete integratsioonis](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

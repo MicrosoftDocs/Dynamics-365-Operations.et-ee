@@ -207,3 +207,6 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Jaemüügikassa paigutuse kujundaja installimine](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

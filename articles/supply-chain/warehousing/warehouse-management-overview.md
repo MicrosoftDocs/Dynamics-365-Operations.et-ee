@@ -73,3 +73,6 @@ Laohalduse ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

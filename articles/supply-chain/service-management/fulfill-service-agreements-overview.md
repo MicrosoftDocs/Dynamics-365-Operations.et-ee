@@ -106,3 +106,6 @@ Järgmises tabelis loetletakse vormid, mis toetavad hoolduslepete täitmise äri
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

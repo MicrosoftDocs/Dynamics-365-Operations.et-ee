@@ -142,3 +142,6 @@ Stsenaariumi keelamiseks järgige neid toiminguid.
 2. Stsenaariumi paanil valige **Konfigureeri**.
 3. Valige **Edasi**, et minna viimasele viisardilehele.
 4. Seadistage suvand stsenaariumi keelamiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

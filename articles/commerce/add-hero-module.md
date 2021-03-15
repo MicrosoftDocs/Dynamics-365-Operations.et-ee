@@ -106,3 +106,6 @@ Uuele lehele pannoomooduli lisamiseks ja vajalike atribuutide seadistamiseks toi
 [Tekstiploki moodul](add-content-rich-block.md)
 
 [Videopleierimoodul](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

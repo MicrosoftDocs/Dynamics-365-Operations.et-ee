@@ -70,3 +70,6 @@ Märkige üles komisjonitasu töötlemiseks valitud kliendi ja kauba koodid ning
 3. Sulgege leht.
 4. Valige **Kanne**. Saate üle vaadata komisjonitasu summade kandeid, mis on sisestatud eelmääratletud komisjonitasu kulukontodele ja komisjonitasu ostureskontrotele.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

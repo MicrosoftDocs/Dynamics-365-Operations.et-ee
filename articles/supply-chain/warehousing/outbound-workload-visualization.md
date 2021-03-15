@@ -97,3 +97,6 @@ Järgnev illustratsioon näitab tulemuseks oleva diagrammi näidet.
 ![Tsooni versus töö oleku visualiseerimine](media/work-viz-chart.png "Tsooni versus töö oleku visualiseerimine")
 
 Sellel diagrammil kuvatakse kaks tsooni, mille nimeks on **PÕRAND** ja **HULGI**, ning tsoon, mille nimi on **Tühi**. **Tühi** tsoon tähistab kõiki tööridu, mis ei kuulu tsooni. Diagrammis kuvatakse alati kõik sõltumatud filtreeritud andmed **tühjana**, et pakkuda võimalikult palju nähtavust. Tsooni **PÕRAND** kohta kuvab diagramm kolm suletud rida ja neli avatud rida. Tsooni **HULGI** kohta kuvab diagramm neli suletud rida, ühe avatud rea ja 24 tühistatud rida. Lõpuks näitab diagramm kaheksat suletud rida, mis pole üheski tsoonis ja on seetõttu loetletud **tühjana**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

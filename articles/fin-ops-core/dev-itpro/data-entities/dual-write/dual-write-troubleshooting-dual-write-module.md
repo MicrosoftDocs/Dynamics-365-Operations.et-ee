@@ -87,3 +87,6 @@ Selle tõrke parandus sõltub tõrke põhjusest.
 
 + Kui vastendusel on sõltuvaid vastendusi, siis veenduge, et selle tabeli vastendusest sõltuvad vastendused oleksid lubatud.
 + Vastendusel võivad puududa lähte- või sihtveerud. Kui veerg Finance and Operationsi rakenduses puuudb, järgige jaotises [Puuduva tabeli veeru probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) toodud samme. Kui veerg on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et veerud täidetaks vastenduses automaatselt.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

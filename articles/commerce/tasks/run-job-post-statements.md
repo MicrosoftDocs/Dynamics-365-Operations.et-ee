@@ -43,3 +43,6 @@ See protseduur selgitab korduva pakett-töö konfigureerimist ja käitamist vali
 8. Klõpsake nuppu OK.
 9. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

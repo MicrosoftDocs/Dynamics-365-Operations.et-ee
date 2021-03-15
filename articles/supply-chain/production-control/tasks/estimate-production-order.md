@@ -41,3 +41,6 @@ Saate seda protseduuri käitada demoettevõtte USMF või oma andmeid kasutades. 
 1. Klõpsake toimingupaanil valikut Kulude haldamine.
 2. Klõpsake suvandit Kuva arvutamise üksikasjad.
     * Sellel lehel kuvatakse kulude jaotus. Näiteks saate vaadata esimese rea valmistoote kogu omahinda ühiku kohta. Järgnevad read sisaldavad vastavalt kooslusel, tootmisprotsessi ja kaudsete kulude kulusid.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

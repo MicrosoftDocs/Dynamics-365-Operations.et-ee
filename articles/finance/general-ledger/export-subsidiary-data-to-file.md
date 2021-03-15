@@ -70,3 +70,6 @@ Kasutage lehte **Eksport** (**Süsteemihaldus \> Tööruumid \> Import/Eksport**
 5. Ekspordi käivitamiseks valige **OK**.
 
 Kui eksport on lõpetatud, saate sõnumi, mis loetleb kirjete arvu, mis igasse faili salvestati. Seejärel saate importida failid konsolideeritud juriidilisele isikule.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

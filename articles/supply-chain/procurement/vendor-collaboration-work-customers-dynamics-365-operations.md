@@ -146,3 +146,6 @@ Juurdepääsetav teave on järgmine: hankija nimi; aadress; kontaktandmed; konta
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

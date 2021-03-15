@@ -67,3 +67,6 @@ Selles tegevuse juhises kirjeldatakse müügitellimuse arveldust, sh arvete ühe
 10. Klõpsake **Tühista**.
 11. Klõpsake nuppu **Jah**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

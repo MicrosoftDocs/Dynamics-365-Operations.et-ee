@@ -164,3 +164,6 @@ Ametiisikute funktsioon näitab vaikimisi eelmääratud allkirjastajaid tabelis 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

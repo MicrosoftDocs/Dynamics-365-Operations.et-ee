@@ -158,3 +158,6 @@ Järgmistes tabelites on toodud väärtused, mis on määratud vahekaartidel **�
 11. Lepingu lõpetamise netomõju vaatamiseks, kus kasutamisõiguse esemeks oleva vara ja rendikohustise väärtuseks on 0 (null), avage kohustuste ja varade kannete tabelid.
 
 Rendi olek peaks nüüd olema **Lõpetatud**. Selle rendi suhtes ei sisestata rohkem töölehe kirjeid, välja arvatud juhul, kui lõpetamine tühistatakse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

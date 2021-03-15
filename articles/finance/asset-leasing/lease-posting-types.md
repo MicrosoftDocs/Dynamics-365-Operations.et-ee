@@ -153,3 +153,6 @@ Iga kulutüübi jaoks valitud konto debiteeritakse, kui selle kulu tüübi jaoks
 
 > [!NOTE]
 > Nihkekonto valitakse täitekulu maksegraafikule rendi tasemel. Selle nihkekonto saab seostada hankija või pearaamatu konto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

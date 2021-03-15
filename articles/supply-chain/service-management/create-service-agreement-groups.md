@@ -42,3 +42,6 @@ Hooldusleppe grupid on kasulikud hoolduslepete sortimisel ja filtreerimisel.
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Teenuseleppe ülevaade](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

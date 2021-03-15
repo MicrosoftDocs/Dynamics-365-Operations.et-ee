@@ -45,3 +45,6 @@ Protseduur kasutab raamatupidaja rolli ja demoandmeid USMF-i juriidilise isiku p
     * Märkige **Pikendab kasutusiga**, **Jah** kui lisamine pikendab vara kasutusiga.  
     * See väli on üksnes teavituslik. Kasutusea pikendamiseks muutke kasutusiga väärtusmudelitel ja/või vara kulumiraamatutes.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Allolev joonisel on näha kuvatõmmis nelja vara KPI-de arvutusest.
 - Saate mitmikvaliku abil valida mitu vara suvandis **Kõik varad** ja klõpsata nuppu **Vara KPI-d** vahekaardil **Üldine**. Seejärel klõpsake **OK** dialoogiboksis **Arvuta vara KPI-d**, et arvutada valitud varade KPI-d.  
 - KPI arvutuse tulemuste hulgas võib sisalduda või mitte sisalduda [hoolduskatkestuste registreeringud](../work-orders/maintenance-downtime.md), sõltuvalt hoolduskatkestuse põhjuse koodide seadistusest ja kasutusest. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

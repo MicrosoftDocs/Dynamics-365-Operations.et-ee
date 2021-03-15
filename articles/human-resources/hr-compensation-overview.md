@@ -132,3 +132,6 @@ Pärast protsessisündmuse käitamist võite soovitada korrigeerimisi töötaja 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

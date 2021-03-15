@@ -61,3 +61,6 @@ Kriitilisuse seadistamiseks looge esmalt kriitilisuse tüübid, mida tuleks kasu
 - Töökäsu kriitilisus arvutatakse ümber iga kord, kui töökäsu rida lisatakse või kustutatakse töökäsult.
 - Kui töökäsk sisaldab mitut töökäsu tööd, kasutatakse töökäsu puhul alati kõrgeimat kriitilisust vastavalt väljale **Faktor** lehel **Kriitilisuse tüübid**.
 - Üldiselt võib vara kriitilisus perioodi jooksul muutuda. Kriitilisust võivad mõjutada uute seadmete ostmine, renoveerimine jne. Kaaluge oma varade kriitilisuse ümberhindamist regulaarsete ajavahemike järel (näiteks kord aastas või igal teisel aastal), et veenduda, kas teie kriitilisuse määratlused vastavad teie praegusele tootmisseadistusele.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

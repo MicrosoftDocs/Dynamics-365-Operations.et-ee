@@ -53,3 +53,6 @@ Põhivara saab nüüd amortiseerida põhivarade standardse kulumi funktsiooni ab
 
 > [!NOTE]
 > Kui seostate põhivara rendiga, on nupud **Vara kulum** ja **Rendi väärtuse langus** põhivara rentimises keelatud. Vara kulumist ja rendi väärtuse languse tehinguid saate vaadata püsivaradest. Nupp **Vara kanded**, mis avab päringu vormi, on samuti keelatud. Saate avada päringu **Vara tehingud** ka põhivaradest.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -120,3 +120,6 @@ Kui 2011. aasta märtsi kanded arveldatakse, vähendatakse müügihinda 200 euro
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

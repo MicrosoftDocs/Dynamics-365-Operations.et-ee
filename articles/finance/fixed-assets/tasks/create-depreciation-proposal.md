@@ -47,3 +47,6 @@ Teemas kirjeldatakse, kuidas töötavad kulumi pakettsoovitused, ja selgitatakse
 3. Valige **Read**.
 4. Valige **Sisesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

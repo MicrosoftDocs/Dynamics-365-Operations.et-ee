@@ -58,3 +58,6 @@ Hooldusleping kestab 1. jaanuarist 2012 kuni 31. detsembrini 2012. Hooldusleping
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ See protseduur selgitab, kuidas tasakaalustada kandeid pearaamatu kontode vahel 
 7. Klõpsake suvandit Pearaamatu tasakaalustused.
 8. Märkige loendis valitud rida.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

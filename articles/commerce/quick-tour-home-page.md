@@ -72,3 +72,6 @@ Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, k
 [Ostukorvi ja väljaregistreerimise ülevaade](quick-tour-cart-checkout.md)
 
 [Kontohalduse lehtede ülevaade](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

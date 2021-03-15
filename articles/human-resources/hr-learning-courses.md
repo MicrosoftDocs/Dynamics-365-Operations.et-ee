@@ -137,3 +137,6 @@ Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

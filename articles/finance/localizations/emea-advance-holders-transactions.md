@@ -63,3 +63,6 @@ Kui summa väljal **Ülekantav summa** on negatiivne. luuakse pärast saatelehe 
 
 - [Avansimakse töötajale (Ida-Euroopa)](tasks/advance-payment-employee.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

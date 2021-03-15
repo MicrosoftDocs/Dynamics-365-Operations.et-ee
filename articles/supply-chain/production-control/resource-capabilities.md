@@ -57,3 +57,6 @@ Kui teil on **Inimressursid** tüüpi operatsiooniressursid, mis on seotud töö
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

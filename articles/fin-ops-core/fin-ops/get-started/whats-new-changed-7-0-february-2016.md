@@ -1033,3 +1033,6 @@ Uusi funktsioone ei ole lisatud.
 [Mis on uut või muudetud Finance and Operationsi avalehel](whats-new-changed.md)
 
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

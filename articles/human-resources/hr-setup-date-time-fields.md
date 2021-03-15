@@ -95,3 +95,6 @@ Kui kasutate välisallikaid, nagu DMF, et vaadata või luua andmeid, pidage meel
 
 [Kuupäev ja kellaaeg](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Kasutaja eelistatud ajavöönd](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

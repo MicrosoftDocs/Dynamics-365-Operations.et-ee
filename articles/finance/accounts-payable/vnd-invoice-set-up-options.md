@@ -62,3 +62,6 @@ Saadaval on järgmised parameetrid.
 
 - **Automaatse vastavusseviimise katsete arv** – valige mitu korda peaks süsteem maksimaalset üritama viia toote sissetulekuid vastavusse arve ridadega, enne kui see jõuab järeldusele, et protsess nurjus. Kui määratud katsete arv on saavutatud, eemaldatakse arve automatiseeritud töötlemisest.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

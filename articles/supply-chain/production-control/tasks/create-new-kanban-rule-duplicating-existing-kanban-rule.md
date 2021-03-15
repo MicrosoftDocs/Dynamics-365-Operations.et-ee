@@ -43,3 +43,6 @@ See protseduur keskendub olemasoleva kanban-reegli duplikaadi loomisele. See on 
 3. Klõpsake nuppu OK.
     * Pange tähele, et luuakse kanban-reegli 000017 duplikaat.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

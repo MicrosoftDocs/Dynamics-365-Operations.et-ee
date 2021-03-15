@@ -98,3 +98,6 @@ Kui ostutellimus on muudatuste haldamise all, tuleb kõik muudatused, nt tellimu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

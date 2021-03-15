@@ -131,3 +131,6 @@ Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad sell
 Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagruppidele või kõigile kasutajatele võrgus.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

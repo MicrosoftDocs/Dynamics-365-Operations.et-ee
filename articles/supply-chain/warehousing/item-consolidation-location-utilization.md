@@ -207,3 +207,6 @@ Järgmine stsenaarium kasutab mobiilse seadme laorakendust, et teha varude *korr
 
     > [!NOTE]
    > Süsteem loob ühe töö ID iga liikumise kohta, mis tuleb lõpule viia. Kui määrate juba varusid sisaldava asukoha, luuakse ainult üks töö ID. Kui määrate uue asukoha, luuakse kaks töö ID-d.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

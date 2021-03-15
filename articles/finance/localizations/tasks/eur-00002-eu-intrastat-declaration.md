@@ -113,3 +113,6 @@ Protseduuri loomisel kasutati demoettevõtte DEMF andmeid.
     * Tehke näiteks valik Kauba lähetamine.  
 27. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 68. Klõpsake nuppu Salvesta.
     * Pange tähele, et väli „Käivitamine:” näitab, et grupeerimine toimub käitusajal mälus, isegi kui ükski kogum ei ole määratud ja valitud andmeallikas tüübiga „Tabeli kirjed” viitab samale tabelile „Intrastat”. Põhjuseks on see, et andmeallikas sisaldab mõningaid arvutatud välju, mida ei saa veel SQL-i andmebaasi tasemele üle kanda.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

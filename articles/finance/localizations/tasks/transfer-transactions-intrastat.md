@@ -152,3 +152,6 @@ Selles protseduuris selgitatakse, kuidas seadistada Intrastati parameetreid ja e
     
 Vaadake üle edastatud andmed, sh sihtkoha/lähtekoha riik/-regioon, päritoluriik, kaal, kogus, kogus lisaühikutes, kaup, kande kood, arvesummad ja statistilised summad. Vajaduse korral saate andmeid muuta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

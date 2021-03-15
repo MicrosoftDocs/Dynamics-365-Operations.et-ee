@@ -368,3 +368,6 @@ BPM-i rea kustutamisel kustutatakse ka kõik BPM-i reaga seostatud tegevusjuhise
 **BPM-i rea kustutamine**
 
 - Ajastatud kanban-tööde teisaldamine
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

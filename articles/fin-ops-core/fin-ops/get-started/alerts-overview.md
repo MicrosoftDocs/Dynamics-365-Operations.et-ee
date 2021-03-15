@@ -88,3 +88,6 @@ Video [Kuidas kasutada teatisi filtreeritud andmete jälgimiseks](https://youtu.
 Video [Teatise reegli valikud](https://youtu.be/cpzimwOjicM) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTubeis.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

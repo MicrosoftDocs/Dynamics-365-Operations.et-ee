@@ -54,3 +54,6 @@ Saate ka teha järgmisi toiminguid kordustellimuste grupile lisatud kordustellim
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

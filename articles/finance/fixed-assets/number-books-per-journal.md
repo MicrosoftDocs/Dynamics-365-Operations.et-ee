@@ -49,3 +49,6 @@ Näiteks on 5001 põhivara ID-d, kolm raamatut on seostatud iga põhivara ID-ga 
 
 > [!Note] 
 > Kui parameeter **Summeri kulum** on kulumisoovituse loomisel sisse lülitatud, ei ole välja **Raamatute arv töölehe kohta - kulumisoovitus** väärtusel mingit mõju. Sel juhul on raamatute arv töölehe kohta 6000, mis on sisemine määratletud piir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

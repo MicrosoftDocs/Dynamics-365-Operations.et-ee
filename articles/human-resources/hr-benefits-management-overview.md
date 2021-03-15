@@ -97,3 +97,6 @@ Nende aktiivseks muutmiseks peate osasid muudatusi töötlema.
 - [Elusündmuse sobivuse töötlemine](hr-benefits-process-life-event-eligibility.md)
 - [Määrade muudatuste töötlemine](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

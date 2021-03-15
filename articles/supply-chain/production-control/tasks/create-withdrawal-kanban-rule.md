@@ -63,3 +63,6 @@ See protseduur näitab seadistust, mida on vaja, et luua tühistamise kanban-ree
     * See loob kaks kanbani.  
     * Pange tähele, et selle tühistamise kanban-reegli puhul loodi 2 kanbani, igaühe kohta 5.  See on selle protseduuri viimane etapp.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

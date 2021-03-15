@@ -109,3 +109,6 @@ Finance and Operationsi rakenduste paarsuse loomiseks teeb topeltkirjutamine Dat
 
 Lisateavet eelseisvate muudatuste kohta leiate teemast [Mis on uut või mida on muudetud topeltkirjutuses?](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

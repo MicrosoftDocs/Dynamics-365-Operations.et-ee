@@ -59,3 +59,6 @@ Alloleval joonisel kuvatakse näidet lähetuse valikutest dialoogis **Töökäsu
 [!NOTE]
 Töökäsu ajakava kustutamiseks valige töökäsk kohas **Kõik töökäsud** ja seejärel klõpsake vahekaardil **Üldine** valikut **Kustuta ajakava**. Ärge unustage ajakava kustutamisel värskendada käsitsi töökäsu töötsükli olekut.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

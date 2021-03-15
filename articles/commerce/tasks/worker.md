@@ -56,3 +56,6 @@ See protseduur näitab, kuidas konfigureerida töötajat müügiesindajana, kell
 6. Valige või sisestage väärtus väljal Vaikegrupp.
 7. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Kui te ei määratlenud põhivara numbrit Exceli lisandmooduli mallis või töö
 
 > [!WARNING]
 > Põhivara kirjet ei kustutata, kui kanded sisestati seotud raamatusse või kui vastloodud põhivara sisestatakse töölehe reale, kuid ei sisestata. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

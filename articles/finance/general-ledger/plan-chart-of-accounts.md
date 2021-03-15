@@ -59,3 +59,6 @@ Lisateavet vt järgmistest teemadest:
 
 - [Finantsdimensioonid](financial-dimensions.md)
 - [Täpsemate reeglistruktuuride loomine ja määramine](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

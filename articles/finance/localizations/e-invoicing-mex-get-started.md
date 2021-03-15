@@ -298,3 +298,6 @@ Funktsioonide MX-00010 ja MX-00016 (CFDI arve ja CFDI tühistamine) lubamise kor
 - [Elektroonilise arvelduse lisandmooduli ülevaade](e-invoicing-service-overview.md)
 - [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md)
 - [Elektroonilise arvelduse lisandmooduli seadistamine](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

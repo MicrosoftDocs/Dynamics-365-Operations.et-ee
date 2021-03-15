@@ -66,3 +66,6 @@ Kuna tehnikaettevõte omab tehnilisi andmeid, haldab see järgmisi protsesse.
 
     - Kui need dokumendid väljastatakse teistele juriidilistele isikutele, ei saa operatiivettevõte dokumente eemaldada.
     - Teised juriidilised isikud saavad lisada täiesti uusi kohalikke dokumente. Operatiivettevõte omab ja haldab neid kohalikke dokumente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

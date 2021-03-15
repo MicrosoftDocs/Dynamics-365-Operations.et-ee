@@ -72,3 +72,6 @@ Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüüs kuvatav ka
 [Küpsise vastavus](cookie-compliance.md)
 
 [Päisemoodul](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

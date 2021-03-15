@@ -145,3 +145,6 @@ Kui klõpsate otsingutulemustes valikut Tegevuse juhis, saate vaadata toiminguid
 
 > [!NOTE]
 > Retail Modern POS-i ja pilvekassa spikker ei kuva tegevusjuhiseid selle põhjal, millisel vormil olete või millist toimingut teete. Protsessi nimi tuleb sisestada otsinguväljale ja klõpsata siis nuppu **Otsing**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

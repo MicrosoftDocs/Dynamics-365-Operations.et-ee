@@ -97,3 +97,6 @@ Kasutage järgmist tabelit, mis aitab teil otsustada, kuhu peaksite arve tööle
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

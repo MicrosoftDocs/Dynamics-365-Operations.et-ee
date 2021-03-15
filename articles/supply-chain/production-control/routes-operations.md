@@ -259,3 +259,6 @@ Seega, kui valiku Kattumine jaoks on valitud aktiveerimine, siis ei mõjuta üle
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

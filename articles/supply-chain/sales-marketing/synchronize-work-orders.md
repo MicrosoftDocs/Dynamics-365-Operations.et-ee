@@ -76,3 +76,6 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Projektiga töökäsud (rakendusest Field Service rakendusse Supply Chain Management): WorkOrderService
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

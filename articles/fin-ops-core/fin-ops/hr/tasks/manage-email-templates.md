@@ -47,3 +47,6 @@ Saate teisaldada teabe teie organisatsiooni andmebaasist uue dokumendi järjehoi
 8. Jätka meilisõnumi sisestamist, lisades vajalikku kohta järjehoidja väljad.
 9. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

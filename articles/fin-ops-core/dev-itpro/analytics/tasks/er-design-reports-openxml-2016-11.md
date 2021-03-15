@@ -150,3 +150,6 @@ Etappide lõpuleviimiseks, peate esmalt läbima teemas „Pakkuja konfiguratsioo
 17. Kirjutage välja **Pangakonto** järgmist: `GBSI OPER`.
 18. Valige **OK** ja seejärel taas **OK**. Vaadake loodud tööleht üle, sh makseridade üksikasjad kui ka selles makseteates kasutatud iga valuutakoodi summad.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

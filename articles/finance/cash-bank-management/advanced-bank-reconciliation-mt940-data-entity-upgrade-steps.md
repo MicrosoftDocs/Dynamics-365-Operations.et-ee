@@ -63,3 +63,6 @@ Kasutage järgmiseid etappe, et lisada pangaväljavõtte impordiüksus MT940 vor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

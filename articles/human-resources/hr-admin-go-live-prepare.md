@@ -99,3 +99,6 @@ Pärast kontroll-loendi esitamist vaatab teie FastTracki lahenduse arhitekt proj
 ## <a name="see-also"></a>Vt ka
 
 [Süsteemi Go-live KKK](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

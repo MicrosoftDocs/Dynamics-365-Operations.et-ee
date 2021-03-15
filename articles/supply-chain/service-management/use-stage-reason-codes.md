@@ -72,3 +72,6 @@ Kui määrasite, et põhjuse tähis on nõutav, tuleb põhjusekood sisestada jä
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

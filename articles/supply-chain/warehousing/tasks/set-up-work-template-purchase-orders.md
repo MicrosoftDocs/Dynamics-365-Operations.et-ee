@@ -60,3 +60,6 @@ See teema keskendub lihtsa töömalli seadistamisele, mida saab kasutada saadud 
 6. Väljale **Tööklassi ID** sisestage väärtus. Komplekteerimise ja asetamise juhised on üks kogum. Igal komplekteerimise ja asetamise kogumil peab olema sama töö klass. Kasutage sama töö klassi, mille komplekteerimisjuhise jaoks andsite.  
 7. Valige käsk **Salvesta**. Pange tähele, et märkeruut **Kehtiv** on nüüd märgitud.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

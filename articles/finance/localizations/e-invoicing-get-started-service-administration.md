@@ -150,3 +150,6 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 
 3. Sisestage väljale **Keskkond** elektroonilise arvelduse lisandmooduli keskkonna nimi.
 4. Valige **Salvesta** ja sulgege seejärel leht.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

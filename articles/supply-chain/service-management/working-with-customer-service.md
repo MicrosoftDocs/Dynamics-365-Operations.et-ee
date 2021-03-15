@@ -48,3 +48,6 @@ Selle jaotise teemad annavad ülevaate klienditeeninduse äriprotsessist ja igas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

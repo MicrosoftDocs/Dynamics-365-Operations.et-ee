@@ -124,3 +124,6 @@ Testimiseks käivitage vorminduse vastendamine varem alla laaditud failiga 1099e
     * Vaadake väljund üle XML-vormingus, mis tähistab valitud failist imporditud ja andmemudelisse porditud andmeid. Pange tähele, et imporditud CSV-faili kõiki 7 rida töödeldi. Sisalduvate väljade pealkirjade rida 1 jäeti vahele, 4 kannet sõeluti õigesti ja 2 kannet osutusid kehtetuks.
 3. Sulgege leht.
 4. Sulgege leht.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

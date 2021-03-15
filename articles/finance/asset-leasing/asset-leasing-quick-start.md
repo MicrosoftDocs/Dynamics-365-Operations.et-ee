@@ -252,3 +252,6 @@ Uue renditava vara loomiseks läbige järgmised etapid.
 
    Lehel **Rendikohustise kanded** kuvatakse esialgne tuvastamine, rendi intressimakse, rendimakse ja rendikohustise saldo. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

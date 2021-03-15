@@ -59,3 +59,6 @@ Kasutajate rollide määramisel jõustatakse kohustuste jagamise reeglid automaa
 
 > [!NOTE]
 > Kui sama kasutaja kohta on loetletud mitu konflikti, valige kasutajakirje ja hinnake lehel **Kasutajad** määratud rolle. Konflikti vältimiseks kontrollige iga reeglit pärast selle lisamist või muutmist.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

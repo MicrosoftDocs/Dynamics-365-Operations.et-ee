@@ -364,3 +364,6 @@ Uus aruanne sarnaneb järgmise näitega.
 </tr>
 </tfoot>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

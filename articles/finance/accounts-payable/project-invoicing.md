@@ -131,3 +131,6 @@ Saate koostada negatiivse summaga arve, mis klassifitseeritakse kreeditarveks. K
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Kui olete loonud oma funktsionaalsete asukohtade jaoks vajalikud elutsükli olek
 5. Kui soovite valida mudeli jaoks kõik saadaolevad olekud, klõpsake nupul ![Vali kõik saadaolevad etapid](media/03-setup-for-functional-locations.png). Kõik olekud viiakse üle jaotisesse **Valitud elutsükli olekud**.
 6. Kui soovite valitud olekut mudelist eemaldada, valige soovitud olek jaotises **Valitud elutsükli olekud** ja seejärel valige nupp ![tagasi nool](media/04-setup-for-functional-locations.png).
 7. Valige **Elutsükli oleku värskendused**, et määratleda, millised elutsükli olekud saavad valitud olekut järgida.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -126,3 +126,6 @@ Koosteüksuse avamisel pääsevad teised kasutajad selle koosteüksuse juurde ki
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Varude töölehe saate partiide ühendamiseks kinnitada loendilehelt **Kõik par
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Miks ma ei näe pärast tegeliku kaaluga kauba ühendamist tegeliku kaalu teavet varude töölehel?
 Tegeliku kaaluga kaupade partiisid saate ühendada samamoodi kui kõiki teisi kaupu. Kuid tegeliku kaalu teavet varude töölehel ei kuvata. Soovitame teil enne ühendatud partii ülekandmist varude töölehele tegeliku kaalu teavet kontrollida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Järgmine pilt näitab seda tüüpi teatiste näiteid.
 *Loend* on nimi, mis antakse kirjete kogumile, mida saate läbi kerida. Saate need kirjed lehele tuua, valides need. Sageli avab see võrgu.
 
 ![Järgmine pilt näitab näiteid tööriistaribade, võrkude ja loendite kohta.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

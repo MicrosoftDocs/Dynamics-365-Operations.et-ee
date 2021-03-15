@@ -168,3 +168,6 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 66. Sulgege leht.
 67. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

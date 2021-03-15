@@ -45,3 +45,6 @@ Liikuva keskmise varukulu järjestuse valimiseks toimige järgmiselt.
     - **Aktiivne kulu – kauba hind** – organisatsioonidel võib esineda jõudluse probleeme, kui kasutatakse äriprotsesse, kus laovarud muutuvad regulaarselt negatiivseks ja samal ajal on kannete maht kõrge. See säte aitab vähendada neid jõudluse probleeme.
 
 ![Laoarvestuse parameetrid](media/inventory-accounting-parameters.png "Laoarvestuse parameetrid")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

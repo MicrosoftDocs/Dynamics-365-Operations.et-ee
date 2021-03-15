@@ -59,3 +59,6 @@ Laenuartiklid on kirjed, mis aitavad teil jälgida füüsilisi kaupu, näiteks t
 14. Klõpsake nuppu OK.
 15. Värskendage lehte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

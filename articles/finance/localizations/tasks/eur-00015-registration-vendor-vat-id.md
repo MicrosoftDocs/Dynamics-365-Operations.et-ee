@@ -63,3 +63,6 @@ Enne seda protseduuri tuleb seadistada KM ID-d. See protseduur kohaldub kõigile
 25. Sisestage või valige väärtus väljal Maksuvabastuse number.
 26. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

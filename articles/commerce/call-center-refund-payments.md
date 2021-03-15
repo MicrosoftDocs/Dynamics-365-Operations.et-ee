@@ -108,3 +108,6 @@ Teise võimalusena saab organisatsioon lehe **Kõnekeskuse parameetrid** vahekaa
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Makseviisid kõnekeskustes](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

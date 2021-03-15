@@ -55,3 +55,6 @@ Kui töökäsk on vaja plaanida konkreetsele kuupäevale *ja* kellaajale, saate 
 >[!NOTE]
 >Hooldustöötaja töökäsu jaoks plaanimiseks peab see töötaja eeldataval alguskuupäeval ja -ajal olema saadaval. Töötaja saadavust seadistatakse [töötaja kalendris](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

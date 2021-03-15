@@ -127,3 +127,6 @@ Kõnekeskuse rakenduses saavad kõnekeskuse agendid valida järeletulemise poe v
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Järeletulemisteabe moodul](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

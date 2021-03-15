@@ -204,3 +204,6 @@ Väljavõtted on vaated juhtidele, kes vastutavad kulude kontrollimise eest. Vä
 Versioone kasutatakse erinevate väljundite stimuleerimiseks, kuvamiseks ja võrdlemiseks. Vaikimisi kuvatakse kõik tegelikud kulud ühes alusversioonis, mis on tuntud kui *tegelik*. Eelarvete ja arvutuste jaoks saate töötada nii paljude versioonidega kui vaja. Näiteks saate importida eelarve andmed originaalversiooni ja seejärel muuta eelarvet muudetud versioonis. Arvutuste puhul saate luua mitu versiooni. Nendes erinevates versioonides saate seejärel luua arvutused, kasutades erinevaid arvutusreegleid, mis rakendatakse kulueraldamisele.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ J√§rgmised teemad kirjeldavad, kuidas toimib planeerimismootor kasutatava lao m√
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

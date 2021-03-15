@@ -79,3 +79,6 @@ Kogumi komplekteerimise rakendamiseks on kinnitamine väga oluline, et kontrolli
 1. Avage mobiilse seadme menüü üksuses seadistusvorm töö kinnitamiseks: **Laohaldus** \> **Laohaldus** \> **Seadistus** \> **Mobiilne seade** \> **Mobiilse seadme menüü üksused**.
 
 1. Avage mobiilse seadme menüüelemendist jaotis **Töö kinnituse häälestus**. Suvand **Toote kinnitus** võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

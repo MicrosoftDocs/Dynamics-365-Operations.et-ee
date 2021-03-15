@@ -56,3 +56,6 @@ See ülesande loodi USSI andmekogumit kasutades.
 21. Sisestage väärtus väljale **Kommentaar**.
 22. Klõpsake **Edasta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Järgmine graafik näitab, kuidas koondplaneerimine jätkub. Parameetrid, mis on
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

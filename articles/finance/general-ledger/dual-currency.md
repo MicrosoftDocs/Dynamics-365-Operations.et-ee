@@ -208,3 +208,6 @@ Pearaamatu konsolideerimisel on nüüd võimalik konsolideerida lähteettevõtet
 -  Nüüd saate valida, kas kasutada lähteettevõtte arvestus- või aruandlusvaluutat konsolideeritava ettevõtte tehingu valuutana.
 
 - Lähteettevõtte arvestus- või aruandlusvaluuta summad kopeeritakse ots konsolideeritava ettevõte arvestus- või aruandlusvaluuta summadele, kui üks neist on sama. Konsolideeritava ettevõte arvestus- ja aruandlusvaluuta summad arvutatakse vahetuskursi alusel, kui ükski neist valuutadest pole sama.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

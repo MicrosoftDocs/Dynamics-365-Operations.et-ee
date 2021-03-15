@@ -113,3 +113,6 @@ Te ei saa põhipalgaplaani töötajale määrata enne, kui määratlete plaani j
 
 8. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

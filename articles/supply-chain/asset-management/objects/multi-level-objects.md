@@ -61,3 +61,6 @@ Kui varal on seotud alamvara, saate selle kustutada ainult siis, kui ühegi vara
 
 > [!NOTE]
 > Kui te ei saa seda protseduuri kasutades vara kustutada, on teine viis kustutamise käsitlemiseks luua selleks otstarbeks vara elutsükli olek. Näiteks saate seadistada elutsükli olekuks **Mahakantud** või **Kustutatud** lehel **Vara elutsükli olekud**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

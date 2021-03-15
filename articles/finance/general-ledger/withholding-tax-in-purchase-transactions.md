@@ -75,3 +75,6 @@ Kinnipeetav maks arvutatakse **Hankija makse töölehel**. Saate kohaldatavat ki
 Saadud kinnipeetava maksu summa arvatakse hankija maksest maha ja sisestatakse seotud kande **Kinnipeetava maksu kontole**.
 
 ![Kinnipeetava maksu konto, kus kuvatakse seostuv kanne](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

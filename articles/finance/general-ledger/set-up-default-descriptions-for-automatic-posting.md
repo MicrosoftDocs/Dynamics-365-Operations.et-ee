@@ -86,3 +86,6 @@ Pärast selle teema varasemas jaotises [Vaikekirjelduste seadistamine](#set-up-d
 2. Valige väljal **Viitetabel** andmebaasi tabel, millest parameetriandmed kirjeldusse lisada.
 3. Valige väljal **Viiteväli** väli, millest parameetriandmed kirjeldusse lisada.
 4. Parameetrite lisamiseks korrake samme 1 kuni 3.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Sertifikaadi allkirjastanud kasutaja peab pärast dokumendi loomist käsitsi sis
 ### <a name="page-numbers"></a>Leheküljenumbrid
 
 Käesolev lehekülg ja dokumendi allosas prinditavate lehekülgede arv.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

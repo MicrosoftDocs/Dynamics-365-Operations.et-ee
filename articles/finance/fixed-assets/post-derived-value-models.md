@@ -58,3 +58,6 @@ Lisateavet vt teemast [Tuletatud raamatud](derived-books.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

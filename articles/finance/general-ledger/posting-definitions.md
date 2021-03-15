@@ -61,3 +61,6 @@ Sisestamisdefinitsioonide linkide loomisel kehtivad järgmised piirangud.
 Lisateavet vaadake teemast [Sisestamisdefinitsiooni näited](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

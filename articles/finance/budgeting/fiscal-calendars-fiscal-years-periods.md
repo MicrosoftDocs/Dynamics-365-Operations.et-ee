@@ -63,3 +63,6 @@ Võite kasutada lehte Pearaamatukalender oma organisatsiooni rahanduskalendri, r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

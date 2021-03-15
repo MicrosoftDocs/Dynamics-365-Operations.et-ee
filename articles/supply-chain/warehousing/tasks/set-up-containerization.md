@@ -80,3 +80,6 @@ Selles teemas kirjeldatakse koormuste konteineriseerimise automeerimist laohaldu
 11. Sisestage või valige väärtus väljale **Välja valik**.
 12. Valige nupp **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

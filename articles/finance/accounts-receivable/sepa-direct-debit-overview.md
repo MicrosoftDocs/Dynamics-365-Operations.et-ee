@@ -83,3 +83,6 @@ Mõlema SEPA otsekorraldusskeemi alusel on klientidel teatud õigused tagasimaks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

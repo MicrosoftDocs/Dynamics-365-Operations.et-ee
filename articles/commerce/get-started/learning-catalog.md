@@ -140,3 +140,6 @@ Leidke õige võrgukoolitus, isiklikud seminarid ja sündmused teie rollile kui 
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

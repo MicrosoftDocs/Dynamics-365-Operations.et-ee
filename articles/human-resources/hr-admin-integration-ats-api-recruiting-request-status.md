@@ -45,3 +45,6 @@ See loetelu annab kandidaatide värbamistaotluste oleku väärtuste suvandikompl
 
 [Kandidaadi jälgimissüsteemi integreerimise API tutvustus](hr-admin-integration-ats-api-introduction.md)<br>
 [Värbamistaotluse näidispäring](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

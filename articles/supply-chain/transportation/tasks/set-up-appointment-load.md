@@ -46,3 +46,6 @@ See protseduur näitab, kuidas seadistada ja plaanida koormale laadimissilla mä
 6. Klõpsake nuppu Salvesta.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

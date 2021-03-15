@@ -58,3 +58,6 @@ Enne alustamist asendage DEMF-ettevõtte riigikontekst DEU (Saksamaa) kontekstig
 10. Sulgege leht.
 11. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

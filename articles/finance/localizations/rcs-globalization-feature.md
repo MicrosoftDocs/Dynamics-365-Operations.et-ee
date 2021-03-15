@@ -251,3 +251,6 @@ Globaliseerimise teenuste kasutajad saavad hallata keskkonda, et seadistada glob
 10. Keskkonna avaldamiseks valige suvand **Avalda**.
 
     ![Avaldatud keskkond](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

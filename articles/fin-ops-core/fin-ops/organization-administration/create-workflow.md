@@ -83,3 +83,6 @@ Kui olete valmis töövoo salvestama ja aktiveerima, järgige neid juhiseid.
 
     - Töövoo selle versiooni aktiveerimiseks klõpsake valikut **Aktiveeri uus versioon**. Kui töövoog on aktiivne, saavad kasutajad esitada töötlemiseks dokumente.
     - Kui te ei soovi seda versiooni aktiveerida, klõpsake valikut **Ära aktiveeri uut versiooni**. Saate töövoo hiljem aktiveerida.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

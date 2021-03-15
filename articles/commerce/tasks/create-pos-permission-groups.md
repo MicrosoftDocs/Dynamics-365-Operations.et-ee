@@ -47,3 +47,6 @@ Selles teemas tutvustatakse, kuidas luua kassa loagruppe. Selle tegevuse loomise
 16. Sisestage või valige väärtus väljal POS permission group (Kassalubade grupp). Kõik töötajad, kelle ametikohad sellele tööle vastavad, kasutavad selle kassalubade grupi sätteid, kui töötajate kassalube ei ole nende ametikoha tasemel tühistatud.  
 17. Valige käsk **Salvesta**. Pärast muudatuste salvestamist peate käivitama personali jaotusgraafiku, et muutused kanalitesse edastada.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

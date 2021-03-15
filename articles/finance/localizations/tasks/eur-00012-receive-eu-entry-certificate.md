@@ -41,3 +41,6 @@ Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF.
     * Saate lisada töölehele lisateavet.  
     * Näiteks saate manustada töölehele EL-i kandesertifikaadi skannitud pildi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

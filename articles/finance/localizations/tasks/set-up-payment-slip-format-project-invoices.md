@@ -65,3 +65,6 @@ See funktsionaalsus on saadaval ainult juriidilistele isikutele, kelle esmane aa
 16. Klõpsake nuppu Salvesta.
 17. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

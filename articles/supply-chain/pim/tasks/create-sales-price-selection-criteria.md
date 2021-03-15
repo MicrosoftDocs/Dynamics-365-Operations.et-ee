@@ -53,3 +53,6 @@ See protseduur näitab, kuidas luua atribuudipõhistele hinnamudelitele müügih
 4. Valige Kliendigrupp 10 väljalt Kriteerium. 
 5. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

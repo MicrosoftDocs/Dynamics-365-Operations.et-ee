@@ -52,3 +52,6 @@ Järgmisel joonisel on kujutatud ülesannete halduse kontseptuaalne arhitektuur 
 [Ülesandeloendite määramine poodidele või töötajatele](task-mgmt-assign-lists.md)
 
 [Ülesannete haldus kassas](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

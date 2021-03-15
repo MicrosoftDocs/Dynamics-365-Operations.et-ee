@@ -77,3 +77,6 @@ Kui prognoosi ei looda korraga suure hulga kaupade jaoks, vaid näiteks ühele k
 - [Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
 
 - [Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

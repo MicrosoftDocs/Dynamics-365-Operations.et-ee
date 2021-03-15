@@ -204,3 +204,6 @@ Menüüs **Toimingud** saate luua ka uue protsessi, kopeerides olemasoleva prots
 Teine kasulik käsk menüüs **Tegevused** on **Kuva eelarve protsessi olekut**. See käsk kuvab graafiliselt protsessi eelarveplaanid koos asjakohaste andmetega, nagu plaanide töövoo olek, kokkuvõtted summa ja ühiku järgi ja ühe klõpsuga navigeerimise eelarveplaanidele.
 
 [![Eelarve plaanimise protsessi olek](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

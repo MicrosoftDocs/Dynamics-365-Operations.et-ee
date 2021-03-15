@@ -123,3 +123,6 @@ Saate Microsofti tegevuse salvestised alla laadida ja neid redigeerida, et kasut
 [Tegevuse salvestaja](task-recorder.md)
 
 [Tegevuse salvestajaga Richi spikriteemade loomine (väline link)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

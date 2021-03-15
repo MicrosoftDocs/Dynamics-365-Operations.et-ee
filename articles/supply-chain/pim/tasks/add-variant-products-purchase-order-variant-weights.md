@@ -47,3 +47,6 @@ See protseduur selgitab variandimasside kasutamist ostutellimuse ridade automaat
 17. Määrake koguse väärtuseks 1000.
 18. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

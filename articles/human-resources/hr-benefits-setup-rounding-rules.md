@@ -36,3 +36,6 @@ Saate seadistada ümardamise reeglid rakenduses Dynamics 365 Human Resources oma
 3. Määratlege suvandite **Ümarda lähima väärtuseni**, **Stsenaarium** ja **Ümardamisvorm**.
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

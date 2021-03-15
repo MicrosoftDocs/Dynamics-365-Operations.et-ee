@@ -40,3 +40,6 @@ See topeltteisendus põhjustab rakenduste vahelise muutuse. Näiteks võib topel
 4. Muutke suvandi **Ajavöönd** väärtuseks **Koordineeritud maailmaaja vöönd** ja muutke suvandi **Keel** väärtuseks **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

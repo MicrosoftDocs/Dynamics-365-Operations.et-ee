@@ -144,3 +144,6 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 11. Saate vaadata üksikute kuluelementide jõudlust.
 12. Samuti saate otsida kindlaid kuluelemente.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Microsoft Dynamics 365 Supply Chain Managementi kuluarvestuse teenuse lisandmood
 ## <a name="related-resources"></a>Seotud ressursid
 
 [Kuluarvestuse teenuse kasutamise alustamine](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

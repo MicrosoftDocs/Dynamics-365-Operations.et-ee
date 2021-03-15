@@ -56,3 +56,6 @@ Jaotises **Tootmise juhtimise parameetrid** saate kasutada välja **Pearaamatuss
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

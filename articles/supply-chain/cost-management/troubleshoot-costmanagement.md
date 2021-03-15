@@ -81,3 +81,6 @@ Kuni Microsoft annab probleemi lahendamiseks välja lahenduse, kaaluge järgmist
 - Vältige standardkulus kümnendkohaga väärtusi. Proovige määratleda standardnkulu nii, et välja **Hinna kogus** väärtuseks oleks seatud *1*. Kui peate määrama **hinna koguse** väärtuseks üle *1*, proovige vähendada kümnendkohtade arvu ühiku standardkulus. (Ideaaljuhul peaks see olema alla kahe komakoha.) Näiteks vältige standardsete kulusätete, näiteks **Hind** = *10* ja **Hinna kogus** = *3*, kuna need tekitavad ühiku standardkulu 3,333333 (kus kümnendväärtus kordub).
 - Vältige enamikes dokumentides mitme rea omamist, millel on sama tootekombinatsioon ja finantsiliste varude dimensioon.
 - Vähendage paralleelsuse astet. (Sel juhul võib süsteem muutuda kiiremaks, sest tekib vähem uuenduse vastuolusid ja uuesti tegemist.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

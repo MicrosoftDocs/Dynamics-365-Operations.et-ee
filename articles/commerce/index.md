@@ -55,3 +55,6 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 - [Oma e-kaubanduse saidi haldamine](online-store-overview.md)
 - [Kaitse pettuse eest](dev-itpro/DFP.md)
 - [Kaubanduse arendus ja laiendatavus](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

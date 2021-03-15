@@ -47,3 +47,6 @@ Lehel **Vara kanne** kuvatakse kandeid, mis kas suurendavad või vähendavad ren
 Rendi kulukannete vaatamiseks valige rent lehel **Rendi kokkuvõte** ja seejärel valige **Raamatud**, et avada rendikirjega seotud rendiraamatud. Seejärel valige **Kulukanded**.
 
 Lehel **Kulukanded** kuvatakse kõik kulud, mis on rendi suhtes sisestatud, nt intressikulud, kulumi kulud ja mistahes täitekulud.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

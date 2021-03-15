@@ -54,3 +54,6 @@ See protseduur näitab, kuidas määrata saadetise varude omanikuks hankija asem
 2. Klõpsake nuppu OK.
 3. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

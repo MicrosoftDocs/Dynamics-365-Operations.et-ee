@@ -44,3 +44,6 @@ Järgmises tabelis on lingid küsimustike põhitoimingute teabe juurde. Lisateab
 | [Küsimustiku kujundamine](hr-learning-design-questionnaires.md) | See artikkel annab teavet küsimustiku kavandamise kohta. Kavandamisprotsess hõlmab eeltingimuste, vastuste ja küsimuste seadistamist ning seejärel nende küsimustikku paigutamist. |
 | [Küsimustike jaotamine ja kavandamine](hr-learning-distribute-questionnaires.md) | Selles artiklis on teave selle kohta, kuidas küsimustikku vastajatele saata ja kuidas küsimustikke täita. |
 | [Küsimustiku tulemuste vaatamine ja hindamine](hr-learning-evaluate-questionnaire-results.md) | Selles artiklis on teave selle kohta, kuidas täidetud küsimustike tulemusi vaadata ja hinnata. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

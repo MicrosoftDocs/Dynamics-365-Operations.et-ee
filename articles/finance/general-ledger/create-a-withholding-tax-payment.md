@@ -40,3 +40,6 @@ Kinnipeetava maksu makse tööprotseduur tasakaalustab kinnipeetava maksu saldod
 7. Klõpsake valikut **OK**.
 
 ![Kinnipeetava maksu makse parameetrid](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

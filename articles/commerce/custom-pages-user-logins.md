@@ -213,3 +213,6 @@ Pärast faili global.json värskendamist ja muudatuste avaldamist ilmub sisselog
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

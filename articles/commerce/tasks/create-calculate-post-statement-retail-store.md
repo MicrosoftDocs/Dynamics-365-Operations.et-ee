@@ -47,3 +47,6 @@ See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sise
 12. Valige avalehel **Kaupluse rahandus**.
 13. Klõpsake vahekaarti **Sisestatud väljavõtted**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

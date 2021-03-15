@@ -56,3 +56,6 @@ Lisateavet leiate jaotisest [Kulumimeetodid ja kulumiarvestusreeglid](depreciati
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

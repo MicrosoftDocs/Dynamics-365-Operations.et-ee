@@ -70,3 +70,6 @@ Täiendusprotsess liigutab teie olemasoleva seadistuse ja kõik olemasolevad kan
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

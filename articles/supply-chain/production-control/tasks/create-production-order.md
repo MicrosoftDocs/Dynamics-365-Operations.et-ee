@@ -70,3 +70,6 @@ Selles protseduuris näitlikustatakse, kuidas luua tootmistellimust. Selle prots
 6. Klõpsake nuppu Salvesta.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

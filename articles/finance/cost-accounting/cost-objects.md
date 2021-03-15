@@ -43,3 +43,6 @@ Kuluobjekti dimensiooni liikmete lihtsamaks importimiseks saate kasutada andmeko
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

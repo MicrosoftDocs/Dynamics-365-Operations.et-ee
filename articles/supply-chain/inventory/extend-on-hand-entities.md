@@ -68,3 +68,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Pärast nende juhiste järgimist saate uute väljade lisamise teel laiendada andmeüksusi „vaba kaubavaru laoala järgi” ja „vaba kaubavaru lao järgi”. Sel viisil tagate, et laiendatud väljad tuvastatakse ja kaasatakse neid andmeüksusi kasutavate andmete migreerimisel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

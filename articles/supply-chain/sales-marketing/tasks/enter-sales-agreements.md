@@ -56,3 +56,6 @@ Siin teemas selgitatakse, kuidas koostada müügilepingut, mis kohustab ühe tei
 11. Valige nupp **OK**.
 12. Sulgege leht. Leping kehtib nüüd. Saate alustada kliendi tellimuste lepinguga seostamist kooskõlastatud sihtmärgiga tasakaalustamiseks.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

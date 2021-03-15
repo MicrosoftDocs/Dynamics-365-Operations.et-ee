@@ -47,3 +47,6 @@ Selles teemas loetletakse müügi ja ostude globaalse kinnipeetava maksu seadist
 7. Kinnipeetava maksu gruppide seadistamine kauba või teenuse lehel **Üksus kinnipeetava maksu grupid**.
 
 8. Seadistage **Minimaalne arve summa** lehel **Pearaamatu parameetrid > Kinnipeetav maks**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

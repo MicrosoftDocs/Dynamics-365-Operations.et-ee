@@ -103,3 +103,6 @@ Järgige etappe ühes järgmistest näidetest, et vaadata kassas lubatud tagastu
 
 
 ![Makseviiside loend](media/Return-policy-page5.PNG "Tagasimakse tüübid on lubatud")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Selles teemas tutvustatakse, kuidas luua asukohaprofiil rakenduses Dynamics 365 
 10. Valige väärtus **Jah** väljal **Luba tsükliline inventuur**.
 11. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

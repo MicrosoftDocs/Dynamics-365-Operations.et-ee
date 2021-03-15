@@ -44,3 +44,6 @@ Pange tähele, et erinevad Microsoft Office’i SKU-d annavad samuti selle õigu
 
 1. Avage [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Looge keskkondi, järgides juhiseid teemas [Rakenduse Human Resources ettevalmistamine](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

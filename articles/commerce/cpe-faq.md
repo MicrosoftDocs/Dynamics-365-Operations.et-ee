@@ -70,3 +70,6 @@ Piirangu pikendamine on erand ja seda käsitletakse juhtumipõhiselt. Abi saamis
 [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](cpe-bopis.md)
 
 [Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

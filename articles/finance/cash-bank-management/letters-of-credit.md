@@ -52,3 +52,6 @@ Lisateavet vt järgmistest teemadest:
 [Akreditiivi jaoks panga süsteemiteenuse lepingu loomine](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Selles teemas selgitatakse, kuidas seadistada kinnipeetavat maksu. *Kinnipeetav 
 18. Valige käsk **Salvesta**.
 19. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

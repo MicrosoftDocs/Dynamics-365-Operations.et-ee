@@ -429,3 +429,6 @@ Siin on kulu jaotusreegli näide, kui elektri fikseeritud valemi eraldamisalus o
 |    CC002    |     FI      | 3,075.00  | (3075.00 ÷ 18 162.50) × summa  |
 |    CC003    |     LÜ      | 13,250.00 | (13 250.00 ÷ 18 162.50) × summa |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

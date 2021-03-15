@@ -86,3 +86,6 @@ Vahel võib olla vaja lõpule viidud varude sulgemine ümber pöörata, et taast
 > [!NOTE] 
 > Uuesti saab avada ainult viimasena suletud varude perioodi. Varasema lao sulgemise tühistamiseks tuleb tühistada ühekaupa kõik järgnevad lao sulgemised, alustades kõige viimasest sulgemisest.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

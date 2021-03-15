@@ -52,3 +52,6 @@ Koorma koostamise töölaud kasutab koorma soovitamiseks müügitellimuste ja pl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

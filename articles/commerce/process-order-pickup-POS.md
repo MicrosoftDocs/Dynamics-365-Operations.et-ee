@@ -57,3 +57,6 @@ Kui peate muutma pealekorje kogust peale seda, kui olete pealekorjatavad kaubad 
 Kui funktsioon **Pealekorjega tellimuste töötlemise kasutajakogemuse parandamine kassas** on sisse lülitatud, saavad organisatsioonid lisada kande lehe ekraanipaigutusele nupu toimingu **Pealekorje ridade muutmine** jaoks. Pärast seda, kui olete kassas pealekorje tehingu korvi loonud ja kauba valinud, saate valida käsu **Muuda pealekorje ridu**, kui peate pealekorjatavaid kaupu muutma aga ei taha tühistada kogu tehingut. Kuvatavas dialoogikastis **Muuda pealekorje ridu** saate muuta pealekroje kaupu ja koguseid. Seejärel uuendatakse tehingu korv, nii et see peegeldaks muudatusi.
 
 ![Pealekorje kaupade muutmise dialoogiaken](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

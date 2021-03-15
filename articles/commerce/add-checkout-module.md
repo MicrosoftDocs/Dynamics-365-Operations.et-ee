@@ -126,3 +126,6 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 [Tellimuse üksikasjade moodul](order-confirmation-module.md)
 
 [Kinkekaardi moodul](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

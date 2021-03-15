@@ -39,3 +39,5 @@ Hallake eemaloleku taotlusi tööruumis **Töövõtja iseteenindus** rakenduses 
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
 - [Puhkuse ja puudumise plaani loomine](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

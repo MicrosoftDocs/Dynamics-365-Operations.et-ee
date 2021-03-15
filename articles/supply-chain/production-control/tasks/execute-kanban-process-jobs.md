@@ -56,3 +56,6 @@ See protseduur keskendub kanbani protsessitööde käivitamisele. Esimene töö 
 6. Sisestage number väljale Hea kogus.
 7. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

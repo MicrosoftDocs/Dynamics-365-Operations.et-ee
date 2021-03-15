@@ -55,3 +55,6 @@ Mõnda tüüpi tootmistöö võib rakenduda projekti ajaprognoosidele ja aruandl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

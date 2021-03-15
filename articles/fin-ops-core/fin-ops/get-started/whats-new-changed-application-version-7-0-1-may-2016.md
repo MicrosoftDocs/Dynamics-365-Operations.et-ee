@@ -106,3 +106,6 @@ Selles artiklis kirjeldatakse rakenduse Microsoft Dynamics AX versiooni 7.0.1 uu
 [Mis on uut või muudetud Finance and Operationsi avalehel](whats-new-changed.md)
 
 [Uued või värskendatud ülesande juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

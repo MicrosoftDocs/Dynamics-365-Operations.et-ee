@@ -50,3 +50,6 @@ Nende dokumentide puhul saate minna arvestusallika uurijast ka tegeliku lähtedo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

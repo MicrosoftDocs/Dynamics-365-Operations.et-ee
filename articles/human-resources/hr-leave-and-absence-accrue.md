@@ -111,3 +111,6 @@ Kustutage kindla plaani ja kuupäevavahemiku lisandumise kirjed. Lisandumise kuu
 
 [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)</br>
 [Puhkuste ja puudumiste plaani loomine](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Kui proovite määrate müügipakkumise real müügikoguse (väli **SalesQty**) 
 
 Te ei saa määrata kogust toodete jaoks, mis on teenusüksused. Näiteks kui pakute teenust kauba installimiseks, ei ole mõtet kogust salvestada, kuna füüsiline kaup puudub. Olemas on ainult teenus.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

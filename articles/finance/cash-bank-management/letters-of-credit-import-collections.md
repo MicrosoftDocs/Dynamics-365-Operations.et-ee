@@ -53,3 +53,6 @@ Impordi sissenõue aitab tagada, et müüjale tasutakse, kui ostja saadetise dok
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

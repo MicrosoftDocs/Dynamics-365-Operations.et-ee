@@ -63,3 +63,6 @@ Saate luua oma atribuudi tüüpe. Lisaks saate edastada tootedimensioone rakendu
 9. Salvesta kirje.
 
     Väli **Funktsionaalsed asukoha tüübid** näitab funktsionaalsete asukohtade arvu, mis atribuudi tüüpi kasutavad. Väli **Vara tüübid** näitab seda kasutavate vara tüüpide arvu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

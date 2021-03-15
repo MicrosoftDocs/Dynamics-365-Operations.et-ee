@@ -99,3 +99,6 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
 
 - [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

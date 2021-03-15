@@ -81,3 +81,6 @@ Suhtlussaidil jagamise mooduli lisamiseks ostukasti moodulile tehke järgmist.
 [Ostukastimoodul](add-buy-box.md)
 
 [Küpsise vastavus](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

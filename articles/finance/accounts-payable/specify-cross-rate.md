@@ -43,3 +43,6 @@ Näiteks arvestusvaluuta on USD, arve valuuta on CAD ja makse valuuta on EUR. Ri
 3.  Kliendi korral tehke loendilehel **Kõik kliendid** valik **Kogumine > Avatud kannete tasakaalustamine**. Hankija korral tehke loendilehel **Kõik hankijad** valik **Arve > Avatud kannete tasakaalustamine**. 
 4.  Valige kanne, mis on esmane makse ja klõpsake nuppu **Märgi makse**. Veerus **Märgi** valitakse märkeruut ja veerus **Esmane makse** kuvatakse ikoon teabega. 
 5.  Väljale **Ristkurss** sisestage arve valuuta ja makse valuuta vaheline vahetuskurss tasakaalustamise kuupäeva seisuga. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

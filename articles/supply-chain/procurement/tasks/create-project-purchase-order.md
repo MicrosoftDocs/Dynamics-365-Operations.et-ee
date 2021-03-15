@@ -47,3 +47,6 @@ See protseduur näitab, kuidas luua projekti ostutellimust. Ülesandes kasutatak
     * Kontrollige, kas müügi- ja kuluhinnad on saadaval. Kui need pole saadaval, kuid on vajalikud, sisestage teave.  
 14. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

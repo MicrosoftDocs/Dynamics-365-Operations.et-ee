@@ -118,3 +118,6 @@ Töötajaid, kelle tööülesanded ei nõua kohest tagasisidet, näiteks tootmis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

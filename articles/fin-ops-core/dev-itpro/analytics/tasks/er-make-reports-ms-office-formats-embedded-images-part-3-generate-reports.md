@@ -119,3 +119,6 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 23. Klõpsake nuppu OK.
     * Vaadake loodud väljund üle. Väljund on loodud manuspiltidega Wordi dokumendina, kus on ettevõtte logo, volitatud isiku allkiri ning vesimärgi jaoks valitud tekst.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede j
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

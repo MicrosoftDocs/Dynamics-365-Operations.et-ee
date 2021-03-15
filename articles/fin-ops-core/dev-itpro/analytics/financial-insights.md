@@ -248,3 +248,6 @@ Järgmiste ressursside teave ei ole kohustuslik **CFO ülevaate** või **finants
 - [Analüütikatööruumidele ja aruannetele juurdepääs valmiskeskkonnas](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

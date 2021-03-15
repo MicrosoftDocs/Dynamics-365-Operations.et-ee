@@ -74,3 +74,6 @@ Saate tühistada ekslikult tehtud tasakaalustuse.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Värskendage kannete loendisse kaasatud kontode loendit
 
 Valige **Pearaamatu tasakaalustuskonto**, et avada dialoogiboks, kui saate redigeerida kannete loendisse kaasatud kontosid. Valige loendisse uue konto lisamiseks **Uus**. Seda loendit kasutatakse kannete loendi filtreerimiseks, mis kuvatakse **Pearaamatu tasakaalustuste** leheküljel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

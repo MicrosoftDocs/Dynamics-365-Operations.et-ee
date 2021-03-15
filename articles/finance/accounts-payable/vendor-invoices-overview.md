@@ -129,3 +129,6 @@ Saate vaadata arve kogusummat lehel **Ootel hankija arved**, lubades parameetri 
 - [Arve põhiandmed ostureskontrosse kinnitamise töölehe abil](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Arve põhiandmed ostureskontro süsteemi arvete kausta abil](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Hankija arve kirjendamine arvete töölehele](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

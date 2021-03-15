@@ -49,3 +49,6 @@ Nende etappide lõpule viimiseks peate esmalt viima lõpule etapid protseduuris 
 ![ER-seadete leht](../media/er-financial-dimensions-guides-run3.png)
     * Vaadake loodud väljundit. Iga valitud partii kande puhul esitatakse asjakohase finantsdimensioonikogumi finantsdimensioonid. Käivitage see aruanne ja valige teistsugused dimensioonid nägemiseks, et aruanne ei sõltu valitud dimensioonide arvust ega selle eksemplari jaoks konfigureeritud dimensioonide arvust.  
 ![ER-seadete leht](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

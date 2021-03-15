@@ -49,3 +49,6 @@ See on viies viiest protseduurist, mis illustreerib hankija makseprotsessi, kasu
     3.    Sisestage väärtus väljale **Faili nimi**. Selles näites on loodud fail euromakse tõttu SEPA-ga ühilduv. Maksete loomiseks muudes valuutades saab kasutada ni ISO20022 krediidiedastust kui ka muid hankija maksevorminguid.
     4.    Sisestage või valige väärtus väljal **Pangakonto**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

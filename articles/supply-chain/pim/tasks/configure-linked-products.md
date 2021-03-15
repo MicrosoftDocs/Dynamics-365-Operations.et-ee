@@ -39,3 +39,6 @@ See protseduur selgitab lingitud toodete konfigureerimist. Protseduur kasutab US
 10. Sisestage arv väljale Kogus.
 11. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

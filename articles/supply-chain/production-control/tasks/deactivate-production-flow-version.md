@@ -45,3 +45,6 @@ Selle protseduuri jaoks on vaja tootmisvoogu, mille versiooni saab inaktiveerida
     * Ärge jätkake, kui te ei ole 100% kindel, et tootmisvoo versioon on aegunud. Nupu OK klõpsamisel aeguvad kõik aktiivsed kanban-reeglid ja kõik selle tootmisvoo versiooni tootmis- ja täiendamistegevused peatatakse.  
 6. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

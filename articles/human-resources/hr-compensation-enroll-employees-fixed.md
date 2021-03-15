@@ -39,3 +39,6 @@ Lisatasu ja eeliste haldur saab määrata töötajad põhipalga plaani nende põ
     * Kui Põhipalgaplaan on etapiplaan, valige etapp, mis sisaldab töötaja õiget palgamäära. Kui põhipalgaplaan on taseme- või palgaastmiku plaan, sisestage töötaja palgamäär. Palgamäära kontrollitakse plaani kõikumise sätetega ja töö lisatasu taseme minimaalsete ja maksimaalsete viitepunktidega.  
 8. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

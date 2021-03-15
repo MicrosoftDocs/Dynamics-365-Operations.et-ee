@@ -98,3 +98,6 @@ Järgmisel illustratsioonil on näha saidiehitajas toodete üksikasjade näidisl
 [Loo kuraatorite soovitused käsitsi](create-editorial-recommendation-lists.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

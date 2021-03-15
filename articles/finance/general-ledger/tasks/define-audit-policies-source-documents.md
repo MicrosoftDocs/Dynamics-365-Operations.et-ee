@@ -87,3 +87,6 @@ Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reeg
 57. Laiendage jaotist **Seosed**.
 58. Otsige loendist ja valige soovitud kirje.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

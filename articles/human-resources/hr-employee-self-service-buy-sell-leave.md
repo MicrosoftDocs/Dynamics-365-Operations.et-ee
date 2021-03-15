@@ -53,3 +53,6 @@ Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendam
 
 [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)</br>
 [Puhkuse ostu ja müügi poliitikate haldamine](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

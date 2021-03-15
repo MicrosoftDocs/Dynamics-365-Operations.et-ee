@@ -87,3 +87,6 @@ Järgmises tabelis kirjeldatakse tüübiteisenduse funktsioone [teksti kategoori
 [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 
 [Elektroonilise aruandluse valemi keel](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

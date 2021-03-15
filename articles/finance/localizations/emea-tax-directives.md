@@ -32,3 +32,6 @@ EL-i direktiiv kehtestab eeskirjad, mida kõik liikmesriigid peavad järgima, ar
 
 > [!NOTE]
 > Kontrollige vahekaardi **Üldine** lehel **Vormi seadistamine** (**Müügireskontro > Seadistamine > Vormid > Vormi seadistamine** või **Projektihaldus ja -arvestus > Seadistamine > Vormid > Vormi seadistamine**), et välja **Käibemaksu täpsustus** väärtuseks oleks seatud **Registreerimisvaluuta** või **Registreerimis- ja ettevõtte valuuta**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

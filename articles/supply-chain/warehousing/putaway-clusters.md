@@ -295,3 +295,6 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 ## <a name="notes-and-tips"></a>Märkmed ja näpunäited
 
 Juhtudel, kus kogumi ID muutub pesastatud kaubaaluse peamiseks identifitseerimisnumbriks, antakse ladustamisasukoht automaatselt, kui kogumi ID on skaneeritud. Täiendavat identifitseerimisnumbrit ei tohi skaneerida, isegi kui identifitseerimisnumbri loomine on seatud käsitsi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

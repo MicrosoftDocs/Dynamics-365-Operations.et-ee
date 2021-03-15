@@ -67,3 +67,6 @@ Saidil rakendatava kujunduse valimiseks järgige neid etappe.
 
 [Uue teema loomine](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

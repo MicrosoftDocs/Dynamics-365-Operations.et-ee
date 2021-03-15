@@ -225,3 +225,6 @@ Vajaduse korral saate kandidaadist pärast tema palkamist loobuda. Näiteks või
 [Dataverse'i virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Tööjõu korraldamine](hr-personnel-departments-jobs-positions.md)<br>
 [Töö komponentide häälestus](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

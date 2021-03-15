@@ -58,3 +58,6 @@ See protseduur näitab, kuidas ühe töötaja saab registreerida vähemalt ühe 
 14. Klõpsake loendis valitud real olevat linki.
 15. Sellel lehel saate vaadata, millised töötajad on soodustuse saamiseks registreeritud ja millised mitte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

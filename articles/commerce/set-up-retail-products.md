@@ -39,3 +39,6 @@ Enne kui saate oma kaubanduse kanalites hakata tooteid müügiks pakkuma, peate 
 4. **Lisage tooted sortimentidesse.** Sortiment kujutab endast teie kanalites pakutavate toodete kogumit. Saate määratleda ühe või mitu sortimenti ja iga toote saab määrata ühte või mitmesse sortimenti. Toodete kanalitele määramiseks määrake sortimentid nendele müügikanalitele. Sortimendi loomisel saate lisada tooteid, mida pole veel juriidilisele isikule väljastatud. Siiski peate tooted väljastama juriidilisele isikule enne, kui need saab kanalitele kättesaadavaks teha.
 5. **Lisage tooted navigeerimishierarhiatele.** Enne kui tooteid saab võrgus või kassas sirvida, tuleb need kategoriseerida Commerce’i navigeerimishierarhias.
 6. **Lisage kataloogidesse tooted.** Kuigi see juhis on kassa jaoks valikuline, nõuavad võrgupoed, et tooteid kaasataks vähemalt ühte kataloogi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

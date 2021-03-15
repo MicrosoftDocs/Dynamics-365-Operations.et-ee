@@ -272,3 +272,6 @@ Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja ((msdyn_linestatus eq 690970001) või (msdynce_headersystemstatus eq 690970004) või (msdyn_allocated ne true))
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

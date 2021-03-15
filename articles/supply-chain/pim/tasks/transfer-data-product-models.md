@@ -36,3 +36,6 @@ Toote konfiguratsioonimudeli andmete eksportimine nõuab, et saadaval oleks väh
 5. Klõpsake valikut Ekspordi tootemudel.
     * Allalaadimiskäitumine erineb brauserite lõikes, olenevalt sellest, kuidas turbesätted seadistatud on.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

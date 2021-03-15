@@ -276,3 +276,6 @@ Hankija kinnituse või tõrkevastuse sisu vaatamiseks valige lehe **Ostutellimus
 
 - [Väliskataloogi häälestamine e-hanke väljaregistreerimiseks](set-up-external-catalog-for-punchout.md)
 - [Väliskataloogide kasutamine e-hanke väljaregistreerimiseks](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

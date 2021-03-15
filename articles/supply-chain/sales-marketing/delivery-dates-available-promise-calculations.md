@@ -80,3 +80,6 @@ Seetõttu määratakse tarnekuupäevaks ATP arvutuse alusel 10 päeva alates tä
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

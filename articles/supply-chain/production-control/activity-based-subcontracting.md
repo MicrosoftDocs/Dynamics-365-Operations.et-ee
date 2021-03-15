@@ -105,3 +105,6 @@ Supply Chain Management toetab nüüd koosluse arvutamist, mis hõlmab transpord
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

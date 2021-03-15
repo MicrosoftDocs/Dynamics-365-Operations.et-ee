@@ -146,3 +146,6 @@ Järgmine pilt näitab konfigureeritud lao üksikasju.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

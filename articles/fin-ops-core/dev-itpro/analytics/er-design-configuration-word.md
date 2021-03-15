@@ -72,3 +72,6 @@ Konfigureeritud ER-vormingu käivitamisel kasutatakse uue aruande loomiseks lisa
 
 - [Exceli mallidega ER-i konfiguratsioonide taaskasutamine Wordi vormingus aruannete loomiseks](./tasks/er-design-configuration-word-2016-11.md)
 - [Manustatud pildid ja kujutised ER-iga loodud dokumentides](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

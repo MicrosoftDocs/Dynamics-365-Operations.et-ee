@@ -51,3 +51,6 @@ See protseduur näitab, kuidas tootmistellimust lõpetatuks kinnitada. Selle pro
 4. Klõpsake loendis valitud real olevat linki.
     * Tööleht Kinnita lõpetamine on sisestatud. Kui soovite töölehte korrigeerida, saate koostada käsitsi uue töölehe, millel saab muudatusi teha.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

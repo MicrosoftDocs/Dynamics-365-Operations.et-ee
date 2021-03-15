@@ -40,3 +40,6 @@ Selle protseduuriga kirjeldatakse kontopseudonüümi loomist, mis pakub otseteed
 9. Valige väljal Algne fookus see dimensioon, millele liigub fookus pseudonüümi kasutamisel.
     * Pärast otsetee sisestamist ning konto ja dimensioonide asustamist liigub kursor või fookus väljale Algne fookus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

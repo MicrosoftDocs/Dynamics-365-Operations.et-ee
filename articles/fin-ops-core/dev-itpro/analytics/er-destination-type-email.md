@@ -139,3 +139,6 @@ Järgmisel joonisel on kujutatud selles teemas kirjeldatud protsessi üksikute k
 - [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 - [Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

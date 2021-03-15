@@ -104,3 +104,6 @@ Arvutusi ei kaasata kinnitamisse. Vigade leidmiseks arvutustes peab konfiguratsi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

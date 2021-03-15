@@ -53,3 +53,6 @@ Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud
 
 5. Valige käsk **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

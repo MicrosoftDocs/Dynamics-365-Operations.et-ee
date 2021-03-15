@@ -74,3 +74,6 @@ Seejärel saate lisada järgmisi arvutusi:
 
 - *ResultDecimal* = *sisend* × *protsent* ÷ 100
 - *ResultInteger* = *ResultDecimal*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

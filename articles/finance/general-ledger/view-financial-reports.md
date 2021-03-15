@@ -86,3 +86,6 @@ Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

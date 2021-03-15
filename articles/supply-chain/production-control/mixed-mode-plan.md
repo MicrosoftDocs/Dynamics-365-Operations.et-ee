@@ -68,3 +68,6 @@ Segarežiimis täieliku paindlikkuse tagamiseks soovitame kasutada kõikide tood
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

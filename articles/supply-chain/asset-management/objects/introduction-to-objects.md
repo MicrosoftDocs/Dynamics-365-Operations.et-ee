@@ -77,3 +77,6 @@ Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse 
 | Varuosad          | Saate vaadata kinnitatud ja alternatiivsete varuosade loendit, mida saab varal kasutada.                                                                               |
 | Vara tarbimine    | Saate printida aruande, milles kuvatakse vara tarbimise registreerimisi.                                                                                                |
 | Vara tõrge          | Saate printida aruande, milles kuvatakse vara tõrgete registreerimisi.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

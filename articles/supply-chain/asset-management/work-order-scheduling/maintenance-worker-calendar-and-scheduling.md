@@ -38,3 +38,6 @@ Allolev kuvatõmmis näitab hooldustöötaja näidet, kes on seotud ressursiga, 
 
 Kalendri seadistamist tööriistadele ja varadele ei ole seoses töökäsu ajastamisega vaja. Eeldatakse, et tööriistad ja varad on hoolduseks saadaval 24 tundi ööpäevas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

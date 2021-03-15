@@ -96,3 +96,6 @@ Kuid kui kasutate tingimuslikku käibemaksu, siis tasakaalustatakse summa maksuh
 Kui kasutate makse loomisel makseviisina hilisema kuupäevaga dateeritud tšekki, siis pangakontot ei seota. Mõnes riigis muutub käibemaks "realiseeritud" kohustiseks, kui makse seob panga, mis tähendab, et hilisema kuupäevaga dateeritud tšekk on tasakaalustatud. Saate selle lubada, kui valite **Tingimusliku maksu realiseerimine hilisema kuupäevaga dateeritud tšeki mahaarvamisel** asukohas **Sularaha- ja pangahaldus > Seadistus > Sularaha- ja pangahalduse parameetrid > Hilisema kuupäevaga dateeritud tšekid**.
 
 Lisateavet leiate teemast [Kinnipeetava maksu määramine](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

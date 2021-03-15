@@ -61,3 +61,6 @@ Kasutage seda protseduuri, et luua ostutellimus, mida kontrollitakse saadaoleva 
 4. Klõpsake valikut Eelarvekontrolli tõrked ja hoiatused.
 5. Klõpsake valikut Sule.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

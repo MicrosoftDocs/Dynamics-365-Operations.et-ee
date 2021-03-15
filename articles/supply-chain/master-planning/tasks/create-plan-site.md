@@ -54,3 +54,6 @@ Tootmise plaanija arvutab materjali ja võimsuse nõuded konkreetse kauba tootmi
 2. Klõpsake nuppu Kinnita.
 3. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -304,3 +304,6 @@ Süsteemi suunatud tööde järjestuse päringud on *kaasa arvatud*. Seda on olu
 Seetõttu hõivas päring selle stsenaariumi näites ka töö ID *4*. Selle loomise ajal lisati kaks rida: üks 25 ea kohta ja teine 10 ea kohta. Töö esitati ikkagi kasutajale, sest vähemalt ühe töörea kogus on väiksem kui 20 ea.
 
 Sõltuvalt stsenaariumist saate seda käitumist vältida tööpauside abil.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

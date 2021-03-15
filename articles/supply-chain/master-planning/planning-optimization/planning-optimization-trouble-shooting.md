@@ -74,3 +74,6 @@ See on seotud ootel oleva funktsiooniga, mis on planeeritud tootmistellimuste to
 [Planeerimise optimeerimisega alustamine](get-started.md)
 
 [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

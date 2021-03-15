@@ -64,3 +64,6 @@ Selle protseduuri kasutamiseks peab teil olema kasutajakontoga seotud süsteemia
 29. Klõpsake nuppu OK.
 30. Valige põhjus, miks te varem välja registreerite.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

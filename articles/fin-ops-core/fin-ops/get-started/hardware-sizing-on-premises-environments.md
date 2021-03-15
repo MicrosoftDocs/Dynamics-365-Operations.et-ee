@@ -141,3 +141,6 @@ Korraldusteenus on teenus, mis haldab teie juurutust ja seotud sidet LCS-iga. Se
 ## <a name="virtualization-and-oversubscription"></a>Virtualiseerimine ja ületellimine
 
 Missioonikriitilisi teenuseid, nagu AOS, tuleks majutada virtuaalhostides, millel on spetsiaalsed ressursid – tuumad, mälu ja ketas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

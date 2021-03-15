@@ -38,3 +38,6 @@ See protseduur näitab, kuidas kuluobjekti kulukirjeid vaadata. Selle protseduur
 7. Kasutage kiirfiltrit, et filtrida välja Number väärtusega p000031.
     * Kui kulukirjed on tühjad, määrake alguskuupäevaks 31. jaanuar 2012 ja lõppkuupäevaks 31. detsember 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

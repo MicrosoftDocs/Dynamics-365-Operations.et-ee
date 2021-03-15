@@ -183,3 +183,6 @@ Järgmised Dataverse'i tabelid on saadaval Human Resources'i olemite põhjal.
 [Human Resourcesi virtuaaltabelite KKK](hr-admin-virtual-entity-faq.md)<br>
 [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminoloogia uuendused](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

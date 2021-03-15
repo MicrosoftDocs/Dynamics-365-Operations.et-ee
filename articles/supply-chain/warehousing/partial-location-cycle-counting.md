@@ -61,3 +61,6 @@ Selle näite puhul tuleb laos 61 loendada ainult kaup koodiga A0001.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tsükliline inventuur](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

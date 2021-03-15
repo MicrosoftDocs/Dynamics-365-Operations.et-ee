@@ -87,3 +87,6 @@ Samuti jagatakse välisvaluuta ümberarvutamise kanne pangakannete kohta leitud 
 Kui peate ümberarvutuskande tühistama, valige lehe **Välisvaluuta ümberarvutamine** toimingupaanilt nupp **Tühista kanne**. Luuakse uue välisvaluuta ümberarvutamise ajalooline kirje, et säilitada ajalooline kontrolljälg ümberarvutamise toimumise või tühistamise ajast.
 
 Mitme ümberarvutuse tühistamiseks peate tühistama kõige värskema ümberarvutuse. Seejärel jätkake vanemate ümberarvutuste tühistamist kuupäevalises järjestuses. Seejärel saate töödelda uusi ümberarvutusi tühistatud perioodide kohta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

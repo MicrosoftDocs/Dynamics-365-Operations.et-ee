@@ -46,3 +46,6 @@ Hoolduse etapi häälestamisel saate luua mitu valikut ehk haru, mille vahel hoo
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

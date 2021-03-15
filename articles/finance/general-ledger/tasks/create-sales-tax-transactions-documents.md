@@ -59,3 +59,6 @@ Dokumentide käibemaks arvutatakse, luues dokumendi ridadel käibemaksugrupi ja 
 29. Klõpsake suvandit Käibemaks.
 30. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

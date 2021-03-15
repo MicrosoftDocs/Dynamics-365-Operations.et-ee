@@ -41,3 +41,6 @@ Esimene kasutusaasta lõppes 2020. aasta detsembris, mis tähendab, et vara viie
    [![Poolaasta kulumiarvestuse konventsiooni kulumiarvestuse ajakava](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Pikendatud kulumiperioodid, mis on lisatud pooleaastase konventsiooniga, võimaldavad kulumi täpsemat jaotamist. Kuuekuuline konventsioon kajastab kulumiarvestuse kulusid võrdsemalt, mis on kasulik kasumiaruande koostamiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

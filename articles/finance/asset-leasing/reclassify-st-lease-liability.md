@@ -40,3 +40,6 @@ Lühiajalise kohustise ümberklassifitseerimise töölehe kirje loomiseks ja sis
 4. Lülitage sisse parameeter **Sisestamine**. Teise võimalusena, kui kanne tuleb luua, kuid mitte sisestada, jätke see parameeter välja.
 5. Enne kirje sisestamist selle vaatamiseks lülitage sisse parameeter **Eelvaatle enne sisestamist**.
 6. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

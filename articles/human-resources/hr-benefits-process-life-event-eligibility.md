@@ -48,3 +48,6 @@ See artikkel näitab, kuidas käivitada elusündmuse sobivuse protsessi.
    4. Valige nupp **OK**. Protsess töötab teie määratud parameetritega.
 
 4. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

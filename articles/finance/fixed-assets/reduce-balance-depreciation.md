@@ -84,3 +84,6 @@ Kasutades väheneva saldo meetodit, arvutatakse 30 protsenti kulumialusest (raam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

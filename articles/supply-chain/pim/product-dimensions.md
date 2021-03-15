@@ -145,3 +145,6 @@ Versioonidimensioon toimib samamoodi nagu teised tootedimensioonid. Kuid selle e
 
 > [!IMPORTANT]
 > Kui lülitate versioonidimensiooni sisse ja kasutate seda, võivad mõned lahendused, mis viitavad varude dimensioonidele, lõpetada ootuspärase töötamise. Nende probleemide kinnitamiseks ja lahendamiseks võtke mõjutatud lahendustega seoses ühendust oma sõltumatu tarkvaratarnijaga (ISV). Lisateavet leiate teemast [Versioonidimensiooni lubamine](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

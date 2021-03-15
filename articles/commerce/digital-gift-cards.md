@@ -100,3 +100,6 @@ Commerce'i saidiehitajas digitaalse kinkekaardi jaoks kohandatud summa konfigure
 [Funktsiooniprofiili loomine võrgus](online-functionality-profile.md)
 
 [Väliste kinkekaartide tugi](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

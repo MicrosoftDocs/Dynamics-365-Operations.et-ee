@@ -61,3 +61,6 @@ See protseduur selgitab, kuidas vaadata makseteenuste pakkujate loendit ja konfi
 24. Märkige ruut Uute krediitkaartide vaiketöötleja.
 25. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

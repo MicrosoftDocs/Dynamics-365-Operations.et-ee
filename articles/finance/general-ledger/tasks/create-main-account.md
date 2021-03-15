@@ -51,3 +51,6 @@ See ülesandejuhend kirjeldab olemasolevale kontoplaanile põhikonto lisamise et
 21. Väljal **Valuutateisenduse tüüp** valige konto vahetuskursside arvutamise meetod.
 22. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

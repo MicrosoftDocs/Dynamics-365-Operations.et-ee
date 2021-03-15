@@ -79,3 +79,6 @@ Pärast olekus *Kinnitatud* ostutellimuste tühistamist kuvatakse tühistatud os
 
 See probleem ilmneb ainult ostutellimuste puhul, mille korral kasutatakse muudatuste haldust. See ilmneb seetõttu, et tühistamist peetakse muudatuseks, mis tuleb kinnitada. Süsteem saab selle kinnitada automaatselt. Seetõttu tuleb tühistatud ostutellimus edastada kinnitamise töövoogu, et selle olekuks saaks määrata *Heaks kiidetud*. Seejärel ei kuvata ostutellimust enam tööruumis **Ostutellimuse ettevalmistamine** asuvas ostutellimuste mustandite loendis.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

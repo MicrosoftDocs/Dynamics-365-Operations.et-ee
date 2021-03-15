@@ -157,3 +157,6 @@ See probleem ilmneb, kui laokanmete kogus on määratud kümnendväärtusena, mi
 
 > [!IMPORTANT]
 > Soovitame tungivalt, et redigeeriksite skripti hoolikalt vastavalt oma keskkonnale, katsetaksite seda katsekeskkonnas ning seejärel kontrolliksite saadud andmeid enne skripti käivitamist tootmiskeskkonnas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

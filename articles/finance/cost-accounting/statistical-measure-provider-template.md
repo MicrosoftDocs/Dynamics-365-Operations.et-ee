@@ -345,3 +345,6 @@ Kui elektrienergia eelmääratud dimensiooniliikme eraldamisalus on määratud e
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Eraldamise alused](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -343,3 +343,6 @@ Siin on mõningaid märkuseid ja näpunäited funktsiooniga töötamiseks.
 
 - Kui kasutate dünaamilisi asukohti, luuakse täiendamistöö kas esimese saadaoleva asukoha või juba varusid sisaldava asukoha jaoks, kui asukohakorralduse tegevus on seadistatud kasutama strateegiat **Konsolideerimine**.
 - Kui kasutate tsoonide asemel fikseeritud asukohti, peaksite kasutama [standardset min/max täiendamist](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

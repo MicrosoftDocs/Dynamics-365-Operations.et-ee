@@ -129,3 +129,6 @@ Järgmine äridokumentide loend on juhitav funktsiooniga **PM-aruannete väljund
 [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 
 [Elektroonilise aruandluse raamistiku API muudatused Application update 10.0.17 puhul](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

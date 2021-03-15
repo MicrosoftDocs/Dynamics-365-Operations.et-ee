@@ -330,3 +330,6 @@ Selles n√§ites kasutatakse tagastustellimuse rea loomiseks funktsiooni **Otsi m√
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

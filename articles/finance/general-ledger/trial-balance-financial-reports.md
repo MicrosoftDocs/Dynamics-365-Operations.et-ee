@@ -109,3 +109,6 @@ Iga proovibilansi aruanne kasutab erinevat veeru definitsiooni. Need veeru defin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

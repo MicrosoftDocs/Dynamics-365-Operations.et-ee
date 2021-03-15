@@ -54,3 +54,6 @@ Lisateavet saate lugeda järgmistest teemadest.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

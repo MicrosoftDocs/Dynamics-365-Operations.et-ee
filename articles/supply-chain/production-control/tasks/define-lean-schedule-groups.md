@@ -55,3 +55,6 @@ Säästliku graafiku grupid määratletakse toodete grupeerimiseks ja eristamise
 3. Klõpsake väljal Kauba eraldamisvõti otsingu avamiseks ripploendi nuppu.
 4. Klõpsake loendis valitud real olevat linki.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -130,3 +130,6 @@ Dokumendi/töölehe suvandi Summad sisaldavad käibemaksu sätteks on valitud Ei
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

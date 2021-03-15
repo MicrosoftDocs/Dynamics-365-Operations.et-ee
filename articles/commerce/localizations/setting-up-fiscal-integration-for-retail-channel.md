@@ -225,3 +225,6 @@ Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamiseks p
     1. Valige värskendatav paigutus.
     2. Lisage uus nupp ja määrake nupu atribuut **Lõpeta fiskaalüksuse registreerimise protsess**.
     3. Käivitage lehel **Jaotusgraafik** töö **1090**, et edastada teie muudatused kanali andmebaasile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

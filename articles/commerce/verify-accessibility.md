@@ -86,3 +86,6 @@ Integreeritud teenuse [Microsoft Accessibility Insights](https://accessibilityin
 [Kategooria sihtlehe rikastamine](enrich-category-page.md)
 
 [Dünaamiliste e-kaubanduse lehtede loomine URL-parameetrite põhjal](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

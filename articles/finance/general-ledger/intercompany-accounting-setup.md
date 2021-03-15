@@ -49,3 +49,6 @@ Vastastikuse seose saab lehel **Kontsernisisene raamatupidamine** hõlpsasti sea
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

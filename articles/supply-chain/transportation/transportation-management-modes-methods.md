@@ -46,3 +46,6 @@ Uue transpordimeetodi loomiseks toimige järgmiselt:
 1. Uue transpordimeetodi loomiseks klõpsake valikut **Uus**.
 1. Sisestage transpordimeetodile ainulaadne ID ja kirjeldav nimi.
 1. Sulgege leht.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali too
 [Tootesoovituste ülevaade](product-recommendations.md)
 
 [Kiirvaatemoodul](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

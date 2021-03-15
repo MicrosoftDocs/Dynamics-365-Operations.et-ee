@@ -58,3 +58,6 @@ Järgmisena peaksite seostama kontod kulutüüpidega. Need kontod debiteeritakse
 7. Valige vastavatel väljadel kapitalirendi põhikonto ja kasutusrendi põhikonto.
 
 Kui olete need sammud lõpule viinud, saate valitud rendi lehe **Rendi üksikasjad** ridade **Täitekulude maksegraafik** kaudu kulusid lisada. Teise võimalusena saate lisada kulusid uue rendilepingu loomisel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

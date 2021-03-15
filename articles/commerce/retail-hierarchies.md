@@ -44,3 +44,6 @@ Järgmises tabelis on loetletud saadaolevad kategooriahierarhia tüübid ja iga 
 | Navigeerimishierarhia   | Kasutage seda hierarhiatüüpi toodete grupeerimiseks ja korraldamiseks kategooriatesse, nii et tooteid saab sirvida võrgus või kassas. |
 
 Kategooriahierarhia abil tooteid struktureerides saate seadistada ja hallata toote atribuute ning omadusi kategooria tasemel. Need atribuudid ja omadused hõlmavad tootedimensioonide ja kassasätteid. Kategooriatesse määratud tooted pärivad automaatselt teie määratud atribuudid ja omadused. Samal ajal saate kopeerida ka mis tahes toote atribuudisätted valitud kategoorias mitmele tootele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

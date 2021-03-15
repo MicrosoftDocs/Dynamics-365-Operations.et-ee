@@ -135,3 +135,5 @@ See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui si
 
 > [!NOTE]
 > Funktsioon *Kvaliteedijuhtimine laoprotsesside jaoks* pakub kvaliteediseoste seadistamiseks lisavõimalusi. Sellega lisatakse uus tingimus (**Kohaldatav lao tüüp**) ja uus säte (**Kvaliteeditöötluse poliitika**). Kui olete selle funktsiooni lubanud, leiate üksikasjad jaotisest [Kvaliteedijuhtimine laoprotsesside jaoks](../quality-management-for-warehouses-processes.md).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

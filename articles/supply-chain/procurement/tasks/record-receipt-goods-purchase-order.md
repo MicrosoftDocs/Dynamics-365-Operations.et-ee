@@ -48,3 +48,6 @@ See protseduur näitab, kuidas kaupade sissetulekut otse ostutellimusel registre
 6. Määrake **Koguse** väärtuseks 4. Siin saate määrata käsitsi koguse, mida iga tellimuse rea puhul vastu võetakse.  
 7. Valige nupp **OK**. Kaup on nüüd ostutellimusel vastuvõetuks registreeritud ja seda kajastava dokumendina on loodud toote sissetuleku tööleht. Saate kasutada toimingut Toote sissetulek ostutellimuse juurde loodud töölehtede ülevaatamiseks, et näha, mis millal vastu võeti.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ See protseduur tutvustab täiendamisreeglite loomise etappe. Täiendamisreegleid
 14. Sisestage number väljale Kaal.
 15. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

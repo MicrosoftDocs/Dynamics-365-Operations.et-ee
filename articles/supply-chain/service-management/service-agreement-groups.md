@@ -41,3 +41,6 @@ Väljal **Hooldusleppegrupp** valikus **Hooldushalduse parameetrid** saate mää
 ## <a name="related-topics"></a>Seotud teemad
 
 [Hooldusleppegruppide loomine](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

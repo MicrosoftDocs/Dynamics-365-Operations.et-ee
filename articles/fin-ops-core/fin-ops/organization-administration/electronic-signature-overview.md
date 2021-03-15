@@ -109,3 +109,6 @@ Kinnitajate määramiseks tehke järgmist.
 1. Klõpsake lehe **Suvandid** vahekaardil **Kontod** valikut **Määra kinnitaja**.
 2. Valige väljal **Kinnitaja kasutaja ID** selle kasutaja ID, kes peab teise kasutaja tehtud muudatuse allkirjastama.
 3. Valige väljal **Allkirjastatava kasutaja ID** selle kasutaja ID, kelle muudatustele peab alla kirjutama.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

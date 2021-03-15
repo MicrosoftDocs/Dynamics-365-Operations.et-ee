@@ -42,3 +42,6 @@ See protseduur näitab, kuidas vaadata kõiki plaanitud tellimusi, mida kontsern
 8. Laiendage jaotist Ülesvoolu nõudluse üksikasjad.
     * Selles jaotises saate vaadata teavet selle kohta, kuidas nõudlust täidetakse. Enne kui siin lisateavet näete, peate ootama koondplaneerimise käitamist tarneettevõttes.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Lean manufacturing tööde alltööde mudeli loomiseks peate looma tööraku, mi
 24. Klõpsake väljal Ühik otsingu avamiseks ripploendi nuppu.
 25. Ühiku toiming ResolveChanges.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

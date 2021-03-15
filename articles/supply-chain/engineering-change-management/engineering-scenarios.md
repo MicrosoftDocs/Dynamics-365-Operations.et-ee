@@ -410,3 +410,6 @@ Toote saab nüüd uuesti ettevõttele *USMF* väljastada ja seejärel kliendile 
 1. Valige iga ettevõte, millele soovite tooted väljastada.
 1. Tehke dialoogiboksi **Väljastamised** sulgemiseks ja muudatuse tellimuse juurde naasmiseks valik **OK**.
 1. Valige toimingupaani vahekaardil **Muudatuse tellimus** grupis **Tooteväljastused** suvand **Töötle**, et väljastada mõjutatud tooted valitud ettevõtetele. Võite väljastamise protsessi alustamiseks valida ka **Väljasta tootestruktuur**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

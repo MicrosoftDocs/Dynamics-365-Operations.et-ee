@@ -77,3 +77,6 @@ Tootekogumi moodulile kiirvaatemooduli lisamisekd Commerce'i saidiehitajas toimi
 [Tootekogumi moodul](product-collection-module-overview.md)
 
 [Otsingutulemuste moodul](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

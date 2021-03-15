@@ -109,3 +109,6 @@ Tööruumis **Väljaminev töö jälgimine** on kaks paani, mis aitavad teil jä
 ## <a name="deleting-completed-tasks"></a>Lõpule viidud ülesannete kustutamine
 
 Saate kustutada edasilükatud asetamise ülesandeid, mis on lõpule viidud, valides need ja kustutades need lehelt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

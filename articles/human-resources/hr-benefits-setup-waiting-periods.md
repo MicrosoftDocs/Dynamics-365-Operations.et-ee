@@ -45,3 +45,6 @@ Rakenduses Microsoft Dynamics 365 Human Resources moodustavad ootepäevad vahe-e
    | **Ootepäev** | Valige ootamise päev, mida kasutatakse ootamise kuupäeva arvutamiseks. |
 
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Süsteem annab prioriteedi töölehe päise sättele. Vaikimisi võetakse see s�
 4. Seadke vahekaardil **Seadistus** valiku **Viivitusega maksuarvutus** väärtuseks **Jah**.
 
 ![Päevaraamatu lehe kujutis](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

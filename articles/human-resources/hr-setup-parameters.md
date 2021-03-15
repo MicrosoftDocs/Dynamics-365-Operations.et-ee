@@ -50,3 +50,6 @@ Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jao
 
 > [!NOTE]
 > Töötundide arv ei tohi ületada 1250 tundi ja töösuhte pikkus ei saa olla pikem kui 12 kuud. Need maksimumväärtused on kooskõlas USA föderaalseadustega. Lõpuks määravad vahekaardi **Töövõtja iseteenindus** sätted teabe, mille juhid saavad oma töövõtjate nimel sisestada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

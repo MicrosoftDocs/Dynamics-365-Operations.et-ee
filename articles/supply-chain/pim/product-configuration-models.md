@@ -152,3 +152,6 @@ Saate vaadata, kas väljastatud toodet saab kasutada komponendi või alamkompone
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

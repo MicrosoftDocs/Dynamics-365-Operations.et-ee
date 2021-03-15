@@ -99,3 +99,6 @@ See protseduur selgitab uue ärikanali loomist ja kanali atribuutide konfigureer
 65. Klõpsake nuppu Salvesta.
 66. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ See protseduur kirjeldab, kuidas luua uut toote elutsükli olekut, mis välistab
 5. Märkige loendis valitud rida.
 6. Väljal Toote elutsükli olek sisestage või valige väärtus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

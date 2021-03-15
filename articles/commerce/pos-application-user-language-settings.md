@@ -64,3 +64,6 @@ Kassa kasutaja keelt saab seadistada lehel **Töötaja** jaotises **Kõik tööt
 | **Ettevõte** | Vaikimisi                    | Vaikimisi                                                       |
 | **Kauplus**   | Tühistab ettevõtte          | Tühistab ettevõtte                                             |
 | **Kasutaja**    | Tühistab kaupluse või ettevõtte | Mitte kunagi                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

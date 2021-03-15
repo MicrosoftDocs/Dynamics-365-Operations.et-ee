@@ -123,3 +123,6 @@ Pärast krediidilimiidi korrigeerimise ridade loomist saate kannete sisestamisek
 
 > [!NOTE]
 > Kui loote töövoo **Krediidilimiidi korrigeerimised**, saate selle seadistada nii, et korrigeerimised sisestatakse pärast ridade kinnitamist automaatselt. Lihtsalt lisage töövoole ülesanne **Sisesta tööleht automaatselt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

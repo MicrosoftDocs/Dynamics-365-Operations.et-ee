@@ -90,3 +90,6 @@ Otsingutulemuste mooduli lisamiseks kategoorialehele toimige järgmiselt.
 [Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Kiirvaatemoodul](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

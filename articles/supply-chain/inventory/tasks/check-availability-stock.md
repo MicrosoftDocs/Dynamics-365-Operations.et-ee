@@ -59,3 +59,6 @@ See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba ka
 5. Klõpsake valikut **OK**.
 6. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

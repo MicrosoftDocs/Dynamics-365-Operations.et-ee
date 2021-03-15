@@ -154,3 +154,6 @@ Kui proovite laorakenduses avada tükeldamise lehte töö ID-ga, mida teine kasu
 ## <a name="other-blocked-operations"></a>Muud blokeeritud toimingud
 
 Toimingud, mis muudavad tööridu, töö laokandeid või täiendamise linke, mis on seotud tööga, mis on tükeldatud, nurjuvad ja kuvatakse järgmine tõrketeade: "Töö ID-ga \#\#\#\# on praegu tükeldatud."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

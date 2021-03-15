@@ -117,3 +117,6 @@ Commerce’i tulevases väljalaskes saavad jaemüüjad määrata kassas kliendio
 
 Ootamatute jõudlusprobleemide vältimiseks on see konfiguratsioon peidetud eelväljaande lipu taha, mille nimi on **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Seega kasutajaliidese seadistuse **Kliendiotsingu režiimi vaiketüüp** kuvamiseks peaks jaemüüja looma kasutaja vastuvõtu testimise (UAT) ja tootmiskeskkonnas tugiteenusepileti. Pärast pileti kättesaamist teeb inseneride töörühm jaemüüjaga koostööd, et kindlustada, et jaemüüja testiks oma mitte-tootmiskeskkondades, et hinnata jõudlust ja rakendada vajalikud optimeerimised.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

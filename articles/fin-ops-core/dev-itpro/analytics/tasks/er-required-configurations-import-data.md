@@ -254,3 +254,6 @@ Käivitage selle vormingu vastendamine testimisotstarbel. Kasutage varsemalt all
 27. Sulgege leht.
 28. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

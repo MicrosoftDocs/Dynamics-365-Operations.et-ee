@@ -133,3 +133,6 @@ Saate praegused väärtused salvestada vaikeväärtustena. Selleks on kaks võim
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

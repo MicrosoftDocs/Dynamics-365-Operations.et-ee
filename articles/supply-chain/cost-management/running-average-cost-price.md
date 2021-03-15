@@ -75,3 +75,6 @@ Lisaks arvestage, et maksimaalne vastaskonto teie füüsilises laoväärtuses on
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

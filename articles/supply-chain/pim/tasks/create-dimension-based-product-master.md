@@ -41,3 +41,6 @@ See protseduur näitab, kuidas luua uut tooteetaloni tehnoloogiaga Dimensioonip�
     * Valige tehnoloogia Dimensioonipõhine konfiguratsioon.  
 9. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

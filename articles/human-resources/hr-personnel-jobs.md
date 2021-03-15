@@ -87,3 +87,6 @@ Vastutusalade abil saate näidata, milliste töörollide, protsesside ja toodete
 
 ## <a name="steps-for-creating-a-job"></a>Töö loomise juhised
 Uue töö loomise etapiviisilise protseduuri leiate artiklist [Uute tööde määratlemine](../fin-and-ops/hr/tasks/define-new-jobs.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

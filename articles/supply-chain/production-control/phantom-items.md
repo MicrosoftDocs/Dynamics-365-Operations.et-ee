@@ -72,3 +72,6 @@ Fiktiivseid kooslusi saab kasutada ka protsessivõrguga koosluse puhul. Protsess
 Järgmisel joonisel tähistab (a) toote G ning osa F kooslust ning (b) toote G ja osa F protsessilehte.
 
 ![Toode G ja osa F koos protsessilehtedega](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

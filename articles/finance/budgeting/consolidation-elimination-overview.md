@@ -93,3 +93,6 @@ Konsolideeritavas ettevõttes ei saa te oma eelarveid töödelda ega lõpule vii
 Lisateabe saamiseks vaadake jaotist [Valuuta ümberhindamine konsolideerimisettevõttes](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

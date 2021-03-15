@@ -174,3 +174,6 @@ Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja av
 ## <a name="additional-resources"></a>Lisaressursid
 - [Finantsaruannete vaatamine](view-financial-reports.md)
 - [Aruandluspuu definitsioonid finantsaruannetes](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

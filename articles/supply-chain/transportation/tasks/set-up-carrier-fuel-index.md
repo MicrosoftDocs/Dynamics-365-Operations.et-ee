@@ -66,3 +66,6 @@ See juhend näitab, kuidas luua kütuseindeksi regiooni, kütuseindeksit ja veda
 12. Klõpsake loendis valitud real olevat linki.
 13. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ See protseduur näitab, kuidas luua kanban-reeglit, mis sisaldab tootmisvoost mi
     * Pange tähele, et kanbanil on tootmisvoost kaks protsessitööd. Esimene on SpeakerAssemblyAndPolish ja teine on SpeakerTestAndPackaging.  
     * See on viimane etapp!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

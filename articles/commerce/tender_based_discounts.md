@@ -71,3 +71,6 @@ Jaemüüjad jätavad tihti mõned tooted, nagu uued kaubad või nõutud kaubad, 
 
 > [!NOTE]
 > Kui konfiguratsioon **Kõigi allahindluste ennetamine** on seatud valikule **Jah**, ei rakendata tootele ühtki allahindlust. Ei rakendata isegi maksevahendil põhinevaid allahindlusi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

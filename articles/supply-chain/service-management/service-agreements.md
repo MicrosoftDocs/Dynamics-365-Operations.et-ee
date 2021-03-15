@@ -78,3 +78,6 @@ Iga hooldusleppe rida kirjeldab üksikasjalikult kavandatava hooldustöö sisu. 
 ## <a name="related-topics"></a>Seotud teemad
 
 [Hoolduslepete loomine](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

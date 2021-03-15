@@ -51,3 +51,6 @@ Nagu iga uue funktsiooni puhul, peavad kliendid vaatama väljalaske plaani ja "M
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Kui iganemiskuupäev on kindlaks määratud, kus sellest teavitatakse?
 
 Ühe kande iganemine on oluline muudatus, millest teavitatakse laialdaselt. Sellest teavitatakse tootedokumentatsioonis, blogipostituste ja teadete kaudu vastavatel Microsofti konverentsidel palju enne tegelikku iganemise kuupäeva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

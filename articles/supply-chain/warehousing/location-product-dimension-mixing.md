@@ -238,3 +238,5 @@ Loote ostutellimuse, millel on kolm rida: kaks rida sama tootenumbriga, kuid eri
 
 > [!TIP]
 > Võite seda stsenaariumi korrata, kuid määrake seekord jaotise *HULGI* **Asukohaprofiilid** kiirkaardil **Luba tootedimensioonide segamine** suvandi väärtuseks **Suurus** - *Ei*, et ühtegi tootedimensiooni ei saaks segada. Sellisel juhul pannakse ostutellimuse vastuvõtmisel iga tootevariant uude asukohta.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

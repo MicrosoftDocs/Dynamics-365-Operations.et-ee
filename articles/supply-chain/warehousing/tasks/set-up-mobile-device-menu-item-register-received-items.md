@@ -59,3 +59,6 @@ Saate seda juhendit kasutada demoettevõtte USMF andmetega. See protseduur on m�
 6. Valige käsk **Salvesta**.
 7. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ See protseduur näitab, kuidas kiiresti uut valemit koostada, kopeerides olemaso
 3. Klõpsake nuppu OK.
 4. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

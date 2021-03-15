@@ -56,3 +56,6 @@ Seejärel luuakse tootmistellimus toote C jaoks ning toode A lisatakse tootmiste
     - **Toode C:** 2
 
 Selline käitumine tagab, et tootmistellimuse kooslustes tehtud muudatused ei mõjuta hilisemat kulu arvutamist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

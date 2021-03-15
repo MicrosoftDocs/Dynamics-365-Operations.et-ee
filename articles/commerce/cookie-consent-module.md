@@ -61,3 +61,6 @@ Lisateavet päise fragmentide ja -moodulite kohta vt teemast [Päisemoodul](auth
 [Päisemoodul](author-header-module.md) 
 
 [Küpsise vastavus](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Rentimisreegli kuvamiseks või määramiseks tehke järgmised toimingud.
 3. Valige käsk **Salvesta**.
 
 Rendi loomisel sisestatakse iga raamatu alguskuupäev automaatselt, lähtudes sisestatud rendi alguskuupäevast ja raamatu jaoks määratud rentimisreeglist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

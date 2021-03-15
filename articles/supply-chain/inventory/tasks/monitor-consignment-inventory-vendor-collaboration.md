@@ -42,3 +42,6 @@ See protseduur näitab, kuidas kasutada hankija koostööd teabe nägemiseks too
 1. Avage Hankija koostöö > Veose varud > Veose vaba kaubavaru.
     * Veose vaba kaubavaru lehel on näidatud teile kuuluvad varud kliendi laos. Saate kuvada lisadimensioone nagu tegevuskoht ja ladu, klõpsates vahekaarti Kuva dimensioonid.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

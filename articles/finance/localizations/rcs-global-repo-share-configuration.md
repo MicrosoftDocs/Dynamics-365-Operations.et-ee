@@ -72,3 +72,6 @@ Pärast konfiguratsiooni loomist teie konfiguratsioonipakkujas, saate anda seda 
 Konfiguratsioon on antud ühiskasutusse välise organisatsiooniga ja saadaval globaalses hoidlas selle organisatsiooni jaoks. Sealt saab importida selle organisatsiooni RCS-i eksemplari või rakenduste Finance and Operations eksemplaridesse.
 
 6. Välise organisatsiooniga varasemalt ühiskasutusse antud konfiguratsiooni ühiskasutusest eemaldamiseks, valige see konfiguratsioon ja klõpsake suvandit **Eemalda ühiskasutusest** ning seejärel valige **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

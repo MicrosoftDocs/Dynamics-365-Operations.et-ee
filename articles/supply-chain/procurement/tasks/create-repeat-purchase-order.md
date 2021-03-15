@@ -69,3 +69,6 @@ Kogu tellimuse kopeerimise asemel luuakse sagedamini uus ostutellimus, täidetak
 4. Valige rida soovitud ostutellimuse jaoks. Pange tähele, et valitakse ka sellel ostutellimusel olev üks tellimuse rida.  
 5. Valige nupp **OK**. Teie ostutellimusele on lisatud tellimuse rida.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

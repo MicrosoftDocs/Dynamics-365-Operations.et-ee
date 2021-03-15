@@ -135,3 +135,6 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)
 
 [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

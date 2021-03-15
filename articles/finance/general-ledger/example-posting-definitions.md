@@ -127,3 +127,6 @@ Selles näites vastab iga konto, mis on osa jaotisest Konto struktuur – kasum 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

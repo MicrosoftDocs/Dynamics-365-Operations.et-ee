@@ -35,3 +35,6 @@ Tootmise tagasiside annab töötajatele tootmistööde kohta tagasisidet. See re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

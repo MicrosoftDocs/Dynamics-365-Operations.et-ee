@@ -42,3 +42,6 @@ Kui näiteks alushind on 1000 eurot ja indeks on 110, on müügihind 1100 eurot.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

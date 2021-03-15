@@ -66,3 +66,6 @@ Nüüd saate koorma koostamise mallile määrata koorma koostamise strateegia. V
 1. Vaadake üle pakutud koormad ja pakutud koormaread.
 1. Tehke toimingupaanil valik **Loo koormad**, et luua kiirkaardi **Pakutud koormaread** lähtedokumentide ridadel põhinevad koormad.
 1. Sulgege leht **Koorma koostamise töölaud**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

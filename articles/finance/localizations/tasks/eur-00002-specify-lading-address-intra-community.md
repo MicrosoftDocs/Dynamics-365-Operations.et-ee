@@ -72,3 +72,6 @@ See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Ülesande loom
 37. Klõpsake vahekaarti Üldine.
     * Otsige üles äsja loodud rida ja veenduge, et saatja saatis kaubad Itaaliast.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

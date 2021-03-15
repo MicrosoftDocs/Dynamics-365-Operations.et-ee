@@ -62,3 +62,6 @@ Selles teemas kirjeldatakse, kuidas seadistada lao asukohtade teavet. See rakend
 7. Sulgege leht.
 8. Värskendage lehte.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

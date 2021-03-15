@@ -72,3 +72,6 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Rakenduse Field Service tooted (Supply Chain Managementist Field Service'isse): tooted – tooted
 
 [![Malli vastendamine andmete integratsioonis](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

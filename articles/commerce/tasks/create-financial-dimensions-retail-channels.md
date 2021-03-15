@@ -54,3 +54,6 @@ See protseduur selgitab ärikanali finantsdimensiooni loomist dimensiooniväärt
 24. Klõpsake loendis valitud real olevat linki.
 25. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

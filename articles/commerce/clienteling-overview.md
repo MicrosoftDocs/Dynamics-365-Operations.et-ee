@@ -132,3 +132,6 @@ Pärast väljade värskendamist valige **Kinnita** ja veenduge, et rakendus Comm
 8. Määrake Commerce'i lehe **Commerce'i parameetrid** vahekaardi **Klientuur** kiirkaardil **Dynamics 365 Customer Insights** parameetri **Rakenduse ID** väärtuseks CI_Access_AppID (vt üleval 1. etappi). Valige väljal **Saladuse nimi** selle saladuse nimi, mis sisestati üleval 7. etapis (CISecret). Määrake suvand **Luba Customer Insights** valikule **Jah**. Kui seadistus mingil põhjusel ei õnnestu, kuvatakse tõrketeade ja selle suvandi väärtuseks määratakse **Ei**. 
 
 Customer Insightsis võib olla mitu keskkonda, nagu katse- ja tootmisprotsess. Väljale **Keskkonna eksemplari ID** sisestage sobiv keskkond. Väljale **Alternatiivne kliendi ID** sisestage atribuut Customer Insightsis, mis on vastendatud kliendi konto numbriga. (Commerce'is on kliendi ID kliendi kontonumber.) Ülejäänud kolm atribuuti on meetmed, mis kuvatakse kliendi raamatus kliendikaardil. Kliendikaardi kuvamiseks saate valida kuni kolm meedet. Te ei pea siiski mingeid meetmeid valima. Nagu eelnevalt mainitud, näitab süsteem esmalt neid väärtusi ja seejärel kliendi raamatu atribuudigrupi väärtusi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

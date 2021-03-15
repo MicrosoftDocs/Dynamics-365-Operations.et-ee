@@ -134,3 +134,6 @@ Kui rendikirjet on korrigeeritud, saate vaadata selle erinevaid versioone. Lisak
 
 2. Ajalooliste graafikute vaatamiseks avage muudetud rendikirje lehelt **Rendi kokkuvõte**, valige soovitud raamat ja valige seejärel tegevuspaanil suvand **Raamatu versiooni ajalugu**.
 3. Valige lehel **Raamatu versioon** versioon ja ajakava, mida kuvada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

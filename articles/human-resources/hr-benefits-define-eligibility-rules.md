@@ -67,3 +67,6 @@ Selles teemas näidatakse, kuidas luua soodustuse kõlblikkuse reegleid ja polii
 10. Valige käsk **Salvesta**.
 11. Sulgege vorm.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

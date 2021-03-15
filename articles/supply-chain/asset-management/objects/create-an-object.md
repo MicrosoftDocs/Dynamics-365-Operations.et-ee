@@ -115,3 +115,6 @@ Sellel kiirkaardil saate lisada varaga seotud hoolduskordi või neid eemaldada.
 ## <a name="financial-dimensions"></a>Finantsdimensioonid
 
 Saate valida vara finantsdimensiooni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Kupongi funktsioon hõlmab mitut eraldi funktsiooni. Commerce’i komponenti Hea
 - **HQ-d uuendatakse osaliselt, kuid Commerce’i skaala üksust ja kassat ei uuendata.** HQ uuendamisel uuendatakse kupongi ja allahindluse lehti ning kaubanduse hinnamootorit uuendatakse samuti. Kui uuendada ainult ühte neist kahest komponendist, ei vasta mõned Commerce’i lehed hinna arvutamise andmetele. Seetõttu võib allahindluse arvutamisel ilmneda ootamatuid allahindluse arvutusi või tõrkeid.
 - **HQ-d uuendatakse, kuid Commerce’i skaala üksust ja kassat ei uuendata (N-1).** Kuna kõiki kauplusi ei saa korraga uuendada, siis soovitame enne kaupluste uuendamist HQ-d uuendada. Stsenaariumi N-1 puhul ei ole kupongidega seotud uued funktsioonid saadaval kauplustes, mida pole veel uuendatud. Näiteks pakub kupongi funktsioon ridade „väljajätmist”. Kui kasutate allahindlusel ridade väljajätmist, siis ei rakendata neid varasemat versiooni kasutavas kaupluses.
 - **HQ-d ei uuendata, kuid Commerce’i skaala üksust ja kassat uuendatakse (N+1).** Kuna uuendatud hinnamootor Commerce’i skaala üksuses suudab tulla hindade arvutamisel toime pärand-allahindluskoodidega, ei tohiks uuendusel olla selles stsenaariumis funktsioonidele mingit mõju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

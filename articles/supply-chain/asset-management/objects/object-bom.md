@@ -83,3 +83,6 @@ Varade kaubaridu saate käsitsi luua.
 5. Kui kaup aegub, sisestage väljale **Aegumine** lõppkuupäev.
 6. Valige kaup väljalt **Kaubakood**. Nimi sisestatakse automaatselt väljale **Toote nimetus**.
 7. Sisestage kasutatav kogus väljale **Kogus**. Välja  **Ühik** uuendatakse automaatselt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

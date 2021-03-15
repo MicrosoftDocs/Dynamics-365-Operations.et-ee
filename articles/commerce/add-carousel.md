@@ -85,3 +85,6 @@ Uuele lehele karusellmooduli lisamiseks ja vajalike atribuutide seadistamiseks t
 [Sisuploki moodul](add-hero-module.md)
 
 [Videopleierimoodul](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

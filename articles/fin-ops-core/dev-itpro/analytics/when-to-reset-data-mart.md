@@ -54,3 +54,6 @@ Mõne olukorra puhul me ei soovita andmevakka lähtestada. Need hõlmavad järgm
 > Järgmised punktid määravad kaks asja, mida andmevaka lähtestamine *ei* tee. <br>
 > - Lähtestamised ei tühjenda aruande kujundusi. <br>
 > - Lähtestamised ei kustuta ettevõtte ega kasutaja andmeid, kui need pole valitud.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

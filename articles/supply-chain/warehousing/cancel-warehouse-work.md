@@ -44,3 +44,6 @@ Funktsiooni Töö tühistamine abil saab tühistada ainult tööd, mille tüüp 
 Töö blokeeringu tühistamiseks tühistab süsteem kõik allesjäänud tööread ja fikseerib laoandmed, mis on seotud kasutaja määratud töö ID-ga. Kõik tavapärased lao käitlustoimingud, mis hõlmavad mõjutatud kauba kogust, saavad seejärel jätkuda.
 
 Et panna mõjutatud kaup kindlasse asukohta pärast töö tühistamist, peab kasutaja kasutama mobiilses seadmes varude liikumise või koguse korrigeerimise toimingut.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

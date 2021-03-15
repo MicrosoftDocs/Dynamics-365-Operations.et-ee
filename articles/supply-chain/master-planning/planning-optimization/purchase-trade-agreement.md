@@ -89,3 +89,6 @@ Järgmises tabelis on toodud näited, kuidas väljastatud toote ja sellega seotu
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Ostulepingud](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

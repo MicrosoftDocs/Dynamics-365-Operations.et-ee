@@ -55,3 +55,6 @@ Saate importida vahetuskursse vahetuskursi pakkujate allikast ja lisada neid leh
 | **Alista olemasolevad vahetuskursid**   | See märkeruut juhib olemasoleva vahetuskursi uuendamist valuutapaari puhul, kui konkreetse kuupäeva kohta on valuutakurss juba olemas. Kui te seda ruutu ei märgi, ei impordita konkreetsete kuupäevade valuutakurssi, kui teine valuutakurss on juba olemas.                                                                                       |
 | **Vältida importimist riiklikel pühadel** | See märkeruut juhib valuutakursi importimist riigipüha kuupäeval. Näiteks kui märgite selle ruudu ja kasutate vahetuskursi pakkujana Euroopa Keskpanka, ei muuda süsteem vahetuskurssi praeguse juriidilise isikuga seotud riigipühal. Mõne pakkuja puhul ei pruugi see valik saadaval olla. |
 | **Eelmise päeva kurss** | See märkeruut on saadaval, kui lubate funktsiooni **Praeguse või eelmise kuupäeva valuutavahetuskursi importimine** lehel **Funktsioonihaldus**. See märkeruut on saadaval ainult pakkujale, *Euroopa Keskpangale*. Valige see ruut, et importida valuuta vahetuskurss, mille Euroopa Keskpank avaldas eelmisel tööpäeval umbes kell 16:00 Kesk-Euroopa aja järgi. Vaikimisi on märkeruut valitud. Tühjendage see märkeruut, et importida samal tööpäeval avaldatud valuutavahetuskurss.  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

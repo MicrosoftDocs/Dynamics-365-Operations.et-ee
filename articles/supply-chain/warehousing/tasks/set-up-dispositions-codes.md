@@ -40,3 +40,6 @@ See protseduur keskendub likvideerimiaskoosdi loomisele, mida saab kasutada mobi
 6. Sisestage väärtus väljale Tagastamise likvideerimiskood.
     * Tagastuse likvideerimiskood määratleb ülejäänud tagastustellimuse protsessi registreeritud kaupade puhul. Selles näites peaks klient saama kreeditarve. Lisage tagastuste likvideerimiskood, mis sisaldab tegevust Kreedit.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

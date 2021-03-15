@@ -90,3 +90,6 @@ Vara struktuuri installimiseks töö asukohta kasutage funktsiooni **Vara instal
 4. Valige väljal **Töö asukoht** uus asukoht.
 5. Vaikimisi määratakse väljale **Kehtiv** praegune kuupäev ja kellaaeg. Siiski saate valida mõne muu kuupäeva ja kellaaja, millest alates vara installimine vara struktuuri kehtib.
 6. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

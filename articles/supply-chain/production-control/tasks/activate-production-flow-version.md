@@ -40,3 +40,6 @@ Enne kanban-tööde loomist ja tootmisvoo versiooni tegevuste töötlemist tuleb
 5. Klõpsake käsku Aktiveeri.
 6. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Järgmises tabelis kirjeldatakse laohalduse moodulis saadaolevaid salvestatud va
 | Kõik vood | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Voo töötlemise salvestatud vaade |
 | Koorma planeerimise töölaud | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Töö planeerimise töölaua salvestatud vaade |
 | Töö üksikasjad | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Töö üksikasjade lehe salvestatud vaade |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

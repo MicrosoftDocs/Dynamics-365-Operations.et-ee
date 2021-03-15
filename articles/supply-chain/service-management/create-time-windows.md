@@ -39,3 +39,6 @@ Hooldustellimuse ridade planeerimise optimeerimiseks saate kasutada kellaaja akn
 ## <a name="related-topics"></a>Seotud teemad
 
 [Kellaaja aknad](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

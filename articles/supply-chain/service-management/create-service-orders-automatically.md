@@ -70,3 +70,6 @@ Kui loote hooldustellimused hooldusleppe realt käsitsi või automaatselt, peab 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

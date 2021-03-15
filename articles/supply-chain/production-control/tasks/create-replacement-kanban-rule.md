@@ -55,3 +55,6 @@ See protseduur keskendub olemasoleva kanban-reegli kindlal kuupäeval uue kanban
 1. Määrake maksimaalse koguse väärtuseks 100.
     * Laiendage kiirkaarti Kogused, et näha välja Maksimaalne kogus. Maksimaalse koguse muutmine väärtusele 100 võimaldab töödelda kuni 100 kanbani.    See on selle ülesande viimane etapp.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

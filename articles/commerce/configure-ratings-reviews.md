@@ -94,3 +94,6 @@ Lisateavet toote üksikasjade lehtedel hinnangute ja arvustuste moodulite konfig
 [Hinnangute ja arvustuste moodulite konfigureerimine toote üksikasjade lehtedel](ratings-reviews-modules.md)
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

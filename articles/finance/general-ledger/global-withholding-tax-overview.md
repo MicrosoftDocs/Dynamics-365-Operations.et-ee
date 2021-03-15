@@ -44,3 +44,6 @@ Globaalse kinnipeetava maksu funktsionaalsus on võimendatud hankija ja kliendi 
 
 > [!NOTE]
 > Globaalset kinnipeetava maksu funktsiooni ei saa sisse lülitada riikide/regioonide puhul, kus on lokaliseeritud kinnipeetava maksu lahendused juba olemas. Need alad on järgmised (kuid mitte ainult) - India, Brasiilia, Tai, Saudi Araabia, Iirimaa, Suurbritannia ja Ameerika Ühendriikidega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

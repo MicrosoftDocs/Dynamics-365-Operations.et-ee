@@ -61,3 +61,6 @@ Kui kasutatakse vähehaaval toimuvat aruande sisestamist, et kannete sisestamine
 Vahetuse finantsvastavusseviimise üksikasjad sünkroonitakse Commerce'i peakontorisse P-töö abil.
 
 Commerce'i peakontori jaemüügi finantsaruanded ei arvuta kogusummasid väljavõtteridadel üksikasjade kuvamiseks. Kassa kliendi lõplikke summasid kasutatakse selle asemel jaemüügi finantsaruannete loomiseks ja sisestamiseks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

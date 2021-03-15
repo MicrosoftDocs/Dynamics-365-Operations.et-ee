@@ -138,3 +138,6 @@ Commerce’i kasutaja jälgib töövoogu ajaregistreerimiste arvutamiseks, kinni
 - Puudumise registreerimine
 
 Protsessi aja ja kohaloleku registreerimised kohta lisateabe saamiseks vt [Protsessiaja ja kohaloleku registreerimine](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

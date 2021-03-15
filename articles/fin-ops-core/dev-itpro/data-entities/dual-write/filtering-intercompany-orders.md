@@ -66,3 +66,6 @@ Kõik standardsed teenuse Dataverse tabelid on laiendatud viidetega veerule **In
 8. Pärast olemi **Pakkumised** laiendamist rakendage filter, millel on atribuut `CUSTGROUP != "<company>"`, päringu stringina.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS-i müügipakkumise päise päringu dialoogiboksi redigeerimine":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

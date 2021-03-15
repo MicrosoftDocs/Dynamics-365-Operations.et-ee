@@ -45,3 +45,6 @@ See protseduur keskendub plaanitud protsessi kanban-töö eemaldamisele graafiku
 4. Klõpsake nuppu OK.
     * See taastab töö praeguse oleku suvandilt Plaanitud suvandile Plaanimata ja eemaldab selle protsessitahvlilt.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

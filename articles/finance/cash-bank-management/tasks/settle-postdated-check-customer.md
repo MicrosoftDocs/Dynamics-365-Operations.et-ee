@@ -55,3 +55,6 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 10. Klõpsake suvandit Kanne.
 11. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

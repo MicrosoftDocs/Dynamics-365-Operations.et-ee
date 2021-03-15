@@ -48,3 +48,6 @@ Selles tegevuse juhises näitlikustatakse, kuidas salvestada hankija arveid, mis
 12. Klõpsake käsku **Sisesta**.
 13. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Lisateavet vt teemast [Krediit ja võlanõuded moodulis Müügireskontro](collec
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

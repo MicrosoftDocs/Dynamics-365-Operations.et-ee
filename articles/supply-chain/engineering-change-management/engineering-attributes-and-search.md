@@ -93,3 +93,6 @@ Peate määrama tehnilise kategooria, kuhu toode kuulub. Kategooria seab kõik t
 Saate kasutada tehnilise atribuudi otsingut toodete otsimiseks nende tehniliste atribuutide väärtuste järgi. Seetõttu saate hõlpsalt leida tehnilisi tooteid nende omaduste järgi. Saate otsida toodete seast, mis kuuluvad tehnilise toote kategooriasse, või otsida kõigi tehniliste toodete hulgast.
 
 Otsing on saadaval toote koondandmete lehtedel ja süsteemi kandeüksustes, nt müügitellimustes. Kandeüksuse puhul saate kasutada toote otsimiseks lehte **Tehnilise atribuudi otsing**. Seejärel saate kasutada nuppu **Lisa uue reana**, et lisada toode müügitellimuse ridadele. Otsingutulemustes olevaid tooteid saab lisada ka otse tellimusele.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

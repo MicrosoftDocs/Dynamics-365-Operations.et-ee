@@ -95,3 +95,6 @@ Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 [Sisuploki moodul](add-hero-module.md)
 
 [Videopleierimoodul](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,5 @@ Näete bännerit lehel **Lingid** tööruumis **Soodustuste haldus**, mis teavit
 Kui põhjusekoodid on Personalihaldusse migreeritud, seadistatakse nende kasutamise valiku Soodustuste halduses automaatselt väärtusele **Jah**.
 
 [![Põhjusekoodi kasutamine Soodustuste halduses](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

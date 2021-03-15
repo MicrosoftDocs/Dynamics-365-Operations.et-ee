@@ -120,3 +120,6 @@ Kui kõik kaubad on registreeritud, saab laojuhataja või ostujuht värskendada 
 
 ## <a name="summary"></a>Kokkuvõte
 Leht **Saabumisülevaade** annab laojuhatajale ja laotöölistele ülevaate eeldatava töö kohta, mida tuleb sissetulekute protsessi käigus teha. Seda lehte saab kasutada ka kauba saabumisprotsessi käivitamiseks, et tagada kaupade jälgimist esimesel lattu sisenemisel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

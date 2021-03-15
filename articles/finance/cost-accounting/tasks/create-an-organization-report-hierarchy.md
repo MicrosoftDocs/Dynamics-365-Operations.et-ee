@@ -94,3 +94,6 @@ Selle toimingu abil saate luua aruandehierarhia organisatsiooni aruandluse jaoks
     * Valige sõlmele vastav dimensiooniliige.  
 59. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

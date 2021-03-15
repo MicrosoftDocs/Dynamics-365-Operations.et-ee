@@ -85,3 +85,6 @@ Kviitungi profiilid määratakse riistvaraprofiili abil otse printeritele.
 
 > [!NOTE]
 > Kui kasutate kahte printerit, saate üht printerit standardsete 40-veeruliste termoparberil kviitungite printimiseks kasutada. Teist printerit kasutatakse tavaliselt rohkem teavet nõudvate kogu lehe suuruste kviitungi tüüpide puhul. Selliste kviitungite hulka kuuluvad kliendi tellimuse kviitungid ja kliendiarved.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

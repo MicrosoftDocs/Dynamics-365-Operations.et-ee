@@ -63,3 +63,6 @@ Vaikimisi kinnipeetava maksu gruppi ja kauba kinnipeetava maksu gruppi kasutatak
 Kinnipeetav maks arvutatakse ja sisestatakse koos **Kliendi makse töölehega**. Saate kohaldatavat kinnipeetava maksu koodi ja ka tegelikku kinnipeetava maksu summat käsitsi reguleerida vahekaardil **Kinnipeetav maks** lehel **Kannete tasakaalustamine**.
 
 Arvutatud kinnipeetava maksu summa arvatakse kliendimaksest maha ja sisestatakse seotud kande **Kinnipeetava maksu** vastaskontole.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

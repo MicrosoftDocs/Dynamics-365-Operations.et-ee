@@ -153,3 +153,6 @@ Kui materjal tuleks varudest käsitsi maha arvestada, võite kasutada järgmisi 
 | Teata lõpetamisest |   Automaatne koosluse tarbimine    | <strong>Mitte kunagi</strong>  |
 | Teata lõpetamisest | Uuenda lõpetatud aruannet võrgus | <strong>Olek</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

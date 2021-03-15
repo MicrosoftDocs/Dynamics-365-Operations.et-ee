@@ -232,3 +232,6 @@ Vältimaks soovimatuid probleeme tulevaste tasakaalustamistega selle kande puhul
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -208,3 +208,6 @@ Viisardis sisestatakse Contoso Retaileri jaoks järgmised väärtused.
     - **Vastus:** „Jah, nagu on määratletud selles koondplaanis.” Sisestatakse **1 päev**.
 
     Contoso kasutab oma kauplustes kinnitatud ostutaotlusi, et luua nende poodide täiendamiseks plaanitud ostutellimused. Kuna koondplaneerimist kasutatakse iga päev, kaasatakse planeerimisse viimase päeva ostutaotlused.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

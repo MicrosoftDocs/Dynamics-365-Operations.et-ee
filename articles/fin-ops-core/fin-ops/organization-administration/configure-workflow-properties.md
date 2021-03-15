@@ -182,3 +182,6 @@ Töövoos tehtud muudatuste kohta kommentaaride sisestamiseks tehke järgmist.
 2. Sisestage kommentaarid väljale **Sisestage kommentaarid töövoo kohta**.
 3. Vaadake kommentaarid üle. Pärast kommentaaride lisamist ei saa neid muuta.
 4. Klõpsake käsku **Lisa**, et lisada kommentaar jaotisesse **Kommentaaride ajalugu**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

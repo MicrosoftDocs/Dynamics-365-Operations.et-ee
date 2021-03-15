@@ -61,3 +61,6 @@ Uute domeenide seostamiseks enda e-kaubanduse keskkonnaga pärast e-kaubanduse l
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

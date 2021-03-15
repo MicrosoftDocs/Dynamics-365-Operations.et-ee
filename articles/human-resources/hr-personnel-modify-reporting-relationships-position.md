@@ -44,3 +44,6 @@ Protseduur näitab, kuidas muuta töötaja aruandluse seost. Aruandluse seost sa
 12. Sisestage või valige väärtus väljal Millisele ametikohale annab aru.  Näide: 000437
 13. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

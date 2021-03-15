@@ -69,3 +69,6 @@ Saate määrata, millised varude olekud on blokeerivad olekud, kasutades lehe **
 [Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
 [Kaupade kvaliteedi kontrollimine](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

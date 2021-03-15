@@ -45,3 +45,6 @@ Konsolideeritud partiitellimus võib sisaldada järgmiste tellimuste mis tahes k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

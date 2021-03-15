@@ -63,3 +63,6 @@ Eeldame, et teie organisatsioon soovib andmetele juurdepääsu piirata. Kui turb
 
 ## <a name="additional-resources"></a>Lisaressursid
 Power BI reatasemel turbe kohta lisateabe saamiseks vaadake teemat [Turbe haldamine teie Power BI mudelis](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

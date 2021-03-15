@@ -200,3 +200,6 @@ Selle saadetise jaoks loodi uus voog, kuna see kasutab esimesest müügitellimus
 1. Valige voo ID, mis loodi kolmandast müügitellimusest.
 1. Valige voo ID link, et avada voo üksikasjade leht.
 1. Pange tähele, et saadetis lisati kiirkaardile **Voo read** koos esimese müügitellimuse saadetisega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

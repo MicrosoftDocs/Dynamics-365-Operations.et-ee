@@ -107,3 +107,6 @@ Hankijamaksete puhul kasutavad makse juriidilise isiku algus- ja lõputähtaja k
 
 ## <a name="withholding-tax"></a>Maksu kinnipidamine
 Arvega seostatud hankijakontot kasutatakse määramiseks, kas kinnipeetav maks tuleb arvutada. Kinnipeetava maksu rakendumisel arvutatakse see juriidilises isikus, mis on arvega seostatud. Kui juriidilised isikud kasutavad erinevaid valuutasid, kasutatakse arvega seostatud juriidilise isiku vahetuskurssi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

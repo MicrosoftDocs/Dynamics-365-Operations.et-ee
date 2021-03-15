@@ -41,3 +41,6 @@ Saate konfigureerida süsteemi saatma kasutajatele meilisõnumeid töövooga seo
 
 > [!NOTE]
 > Töövoo meilimallid hangitakse süsteemi meilimallidest või organisatsiooni meilimallidest, sõltuvalt sellest, kas tegemist on süsteemitasandi (mitte ettevõttepõhise) või organisatsioonitasandi (ettevõttepõhise) töövooga.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

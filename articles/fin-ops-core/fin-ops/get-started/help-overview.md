@@ -164,3 +164,6 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 | [Dynamicsi kogukond](https://community.dynamics.com/) | See sait majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | See sait pakub hinnanguid ja müügiteavet. |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | See sait majutab koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait. Mõndadele saidil olevatele ressurssidele juurde pääsemiseks võib olla nõutav hooldusplaan. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

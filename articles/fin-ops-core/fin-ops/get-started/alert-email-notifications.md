@@ -50,3 +50,6 @@ Teenus saadab meiliteatised eelmääratletud meilimalle kasutades, mis edastavad
 Järgmisel pildil on näidatud teatiste struktuur, kui need on meili teel vastu võetud.
 
 [![Mallipõhised teatised kirje loomise, välja muutmise ja malli kustutamise kohta](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

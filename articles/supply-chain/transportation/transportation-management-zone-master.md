@@ -35,3 +35,6 @@ Transpordi haldus võimaldab teil jagada geograafilisi asukohti tsoonideks. Asuk
 - **Marsruudi planeerimise optimeerimine**, määrates konkreetsed marsruudi plaanid kindlatele tsoonidele.
 
 Määratlege tsoonid metaandmete välja väärtustel (nt riik, sihtnumbri vahemik või vedaja teenus), mis kvalifitseeruvad igasse tsooni. Tsooni definitsioone ei nõuta, kui transpordi hinnakujunduses ei kasutata tsooni kontseptsiooni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

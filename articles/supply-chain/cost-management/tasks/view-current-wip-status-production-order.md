@@ -37,3 +37,6 @@ See protseduur näitab, kuidas vaadata tootmistellimuse lõpetamata toodangu (WI
 6. Määrake väljal Alates kuupäevaks 01.12.2012.
 7. Määrake väljal Kuni kuupäevaks 31.12.2012.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

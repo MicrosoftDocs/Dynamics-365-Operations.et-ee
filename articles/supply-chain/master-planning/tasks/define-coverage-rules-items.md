@@ -101,3 +101,6 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protsedu
 11. Sisestage väljale **Ostu aeg** väärtus „5“.
 12. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

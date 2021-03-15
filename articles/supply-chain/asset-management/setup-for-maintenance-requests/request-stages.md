@@ -80,3 +80,6 @@ Pärast seda, kui olete loonud oma hooldustaotluste jaoks nõutavad elutsükli o
 Järgnev illustratsioon näitab lehe **Hooldustaotluse elutsükli mudelid** näidet.
 
 ![Hooldusnõuete töötsükli mudelite leht](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

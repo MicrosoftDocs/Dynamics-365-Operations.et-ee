@@ -89,3 +89,6 @@ Lisateabe saamiseks vaadake teemat [Käibemaksumäärad väljade Marginaali alus
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

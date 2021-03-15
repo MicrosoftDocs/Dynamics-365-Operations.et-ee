@@ -52,3 +52,6 @@ Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, milles
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

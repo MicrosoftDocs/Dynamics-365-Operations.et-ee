@@ -86,3 +86,6 @@ Järgmises stsenaariumis on väljavõtmise kanbani ülekandmistegevus konfiguree
 
 Kui kanban on toodangu sisestuskohas tarbitud, registreeritakse kanban tühjaks ja voole lisatakse uus kanban. Kanbani loomisel lisatakse kanban-voole voorida. Kui kanban-voog on töödeldud, luuakse laotöö kanbani komplekteerimiseks. Laotöötaja töötleb kanbani komplekteerimise tööd ja töö suunab teda laoasukohta kanbani materjali komplekteerima. Kui see laotöötaja komplekteerimise kinnitab, viiakse kanban automaatselt lõpule ja laotöötaja suunatakse asetama materjali toodangu sisestuskohta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

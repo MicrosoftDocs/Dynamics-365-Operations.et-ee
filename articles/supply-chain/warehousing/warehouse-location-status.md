@@ -168,3 +168,6 @@ See näidisstsenaarium nõuab kahe asukohaprofiili ettevalmistamist.
 
 > [!NOTE]
 > Asukoha välju värskendatakse ainult laokannete alusel. Kui teisaldate varusid töölehe või mõne muu mitte-WHS protsessi abil, ei värskendata välju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

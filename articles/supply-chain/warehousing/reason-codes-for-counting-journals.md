@@ -143,3 +143,6 @@ Järgmised väljad lisatakse mobiilse seadme menüükäsule, kui töö loomise p
 - Inventuuri vaikepõhjusekood
 - Kuva inventuuri põhjusekood
 - Redigeeri inventuuri põhjusekoodi
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

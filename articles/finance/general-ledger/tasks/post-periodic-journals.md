@@ -57,3 +57,6 @@ Perioodilisi töölehti nimetatakse mõnikord korduvtöölehtedeks, kuna suurus,
 27. Sisestage või valige väärtus väljal **Perioodilise töölehe kood**.
 28. Klõpsake loendis valitud real olevat linki.
 29. Klõpsake valikut **OK**. Sõltuvalt nõuetest ja seadistusest saab nüüd perioodi töölehte üle vaadata, kinnitada või sisestada.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

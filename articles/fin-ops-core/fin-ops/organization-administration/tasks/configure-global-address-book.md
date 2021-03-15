@@ -45,3 +45,6 @@ Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on
 13. Otsige loendist ja valige soovitud kirje. Mitme rolli lisamiseks paanile **Valitud rollid** vajutage tõstuklahvi Shift, seejärel klõpsake valitud rollide lisamiseks noolt.  
 14. Klõpsake valikut **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

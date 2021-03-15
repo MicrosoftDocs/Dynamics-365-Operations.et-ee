@@ -88,3 +88,6 @@ Järgmine näide selgitab, kuidas muuta avalehte, muutes videopleieri moodulis i
 [Lehe sisu hõlbustusfunktsioonide kinnitamine](verify-accessibility.md)
 
 [Dünaamiliste e-kaubanduse lehtede loomine URL-parameetrite põhjal](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

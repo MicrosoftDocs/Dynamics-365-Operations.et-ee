@@ -118,3 +118,6 @@ Jaotise **Projekt** nupud tegumiriba vahekaardil **Töökäsk** tab on seotud pr
 >[!NOTE]
 >Töökäsus loodud ennustuste kaasamiseks, kui käivitatakse põhiajastamine kasutage ankeedis **Varahalduse näitajad** valitud ennustusmudelit.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

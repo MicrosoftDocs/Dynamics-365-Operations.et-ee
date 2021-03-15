@@ -41,3 +41,6 @@ Saate seadistada Retail POS-is loodud kliendiarvete ja tagastatavate müügitell
 
     * Valige **Organisatsiooni haldus \> Numbriseeriad \> Loendurite haldamine**. Olemas peab olema kirje, kus **Moodul** = **Müük** ja **Tüüp** = **Arve**.
     * Valige **Organisatsiooni haldus \> Numbriseeriad \> Arvete numeratsiooni seadistus**. Märkige **Kaubanduse** märkeruut kliendiarvete nummerdamiseks kasutatava numbriseeria real.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

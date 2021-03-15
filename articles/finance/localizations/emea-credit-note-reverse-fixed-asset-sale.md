@@ -41,3 +41,6 @@ Põhivara likvideerimise kanded, mis loodi kreeditarve sisestamisel, tühistatak
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

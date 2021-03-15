@@ -118,3 +118,6 @@ Iga asukohakorralduse reaga seotud toimingute hõlpsamaks ja kiriemaks määratl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

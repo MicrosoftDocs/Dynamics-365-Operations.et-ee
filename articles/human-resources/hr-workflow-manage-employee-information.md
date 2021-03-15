@@ -73,3 +73,6 @@ Konfigureerimaks põhitöövoogu, mis käivitatakse siis, kui töötajad nõuava
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

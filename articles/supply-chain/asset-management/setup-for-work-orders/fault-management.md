@@ -132,3 +132,6 @@ Järgige neid etappe, et luua loend lahenduse ja paranduse soovitustest, mida sa
 
 > [!NOTE]
 > Saate vajadusel muuta tõrke sümptomite, valdkondade, tüüpide, põhjuste ja lahenduste nimesid. Nime muutused kajastuvad automaatselt vastavates tõrke registreerimistes.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Rakendus Supply Chain Management ei toeta praegu sisestatud arvete puhul komisjo
 Kogumiüksus pole ostutellimuse jaoks saadaval, sest kogumiüksuse müügitellimuse ridu uurides võib märgata, et kogus on *0* (null) ja olek on *Tühistatud*. Selline käitumine on nii kavandatud. Müügitellimus ostab ainult kogumiüksuse komponente. See ei osta kogumiüksust ennast.
 
 Kui peate kogumi ostma, kaaluge, kas peate selle märkima kogumiüksusena, kuna see funktsioon on mõeldud tulu tuvastamise stsenaariumide jaoks. Lisateavet kogumiüksuste kohta leiate teemast [Kogumid](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

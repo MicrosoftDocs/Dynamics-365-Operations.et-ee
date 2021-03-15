@@ -69,3 +69,6 @@ Pidage meeles järgmiseid punkte.
 
 - Saate häälestada loendurid, mis on seotud mõne muu loenduriga. Sel juhul värskendatakse ühe loenduri värskendamisel samaaegselt ka seotud loendureid. Teavet seotud loendurite häälestamise kohta leiate jaotisest [Loendurid](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

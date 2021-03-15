@@ -61,3 +61,6 @@ See protseduur näitab, kuidas kandidaatide ja nende avalduse teavet käsitsi s�
 6. Klõpsake nuppu Salvesta.
     * Pärast avalduse salvestamist saate lisada sellele dokumente, sealhulgas kandidaadi kogemuse, auhinnad ja kaaskirja.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

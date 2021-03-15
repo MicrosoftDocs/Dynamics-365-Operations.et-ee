@@ -52,3 +52,6 @@ Neid tohib kasutada ainult juhul, kui lehel **Lõpetamata planeerimisprotsessid*
 4. Valige **pakett-töö**-s ülesanded, mida soovite lõpetada.
 5. Klõpsake nuppu **Muuda olekut**, valige **Tühistamine** ja klõpsake nuppu **OK**.
 6. Klõpsake **partii ülesanded** kiirvalikul nuppu **Katkesta**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

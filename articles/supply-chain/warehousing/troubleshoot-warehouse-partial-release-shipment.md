@@ -41,3 +41,6 @@ Näiteks on müügitellimusel kaks kaupa: üks tarnimiseks ja üks komplekteerim
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
 Väljastamise olek rakendub ainult tellimuse ridadele, kus kaubad on laohalduse jaoks lubatud. Seetõttu jääb selle stsenaariumi korral väljastamise olekuks *Osaliselt väljastatud*. Microsoft on seda probleemi hinnanud ja on määranud, et see on funktsiooni piirang. Väljastamise oleku värskendamiseks võib saatelehe ja arveldamise protsessi osana lisada laiendi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

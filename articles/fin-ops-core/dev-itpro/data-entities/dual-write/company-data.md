@@ -102,3 +102,6 @@ Filtreerimise rakendamiseks ettevõtte konteksti põhjal kohandatud vormidele v�
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Ettevõtte konteksti rakendamine":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

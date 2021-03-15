@@ -49,3 +49,6 @@ Saate luua rakenduses Microsoft Dynamics 365 Human Resources töötaja soodustus
    | Plaanid | Kiirkaart Plaanid sisaldab plaane, mis vastavad teie määratud filtri kriteeriumitele. Seotud konfigureerimise suvandid, mille personaliosakond on määranud, ja registreerimise valikud, mille töövõtjad valisid, on igal real kaasatud. Väli Kvalifitseeritud määrab, kas plaani valikuga on seotud kinnitamise konflikt. |
 
 4. Valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

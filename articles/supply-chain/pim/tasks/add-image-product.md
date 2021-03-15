@@ -36,3 +36,6 @@ See protseduur näitab, kuidas tootele pilti lisada. Selle toimingu loomiseks on
 5. Klõpsake valikut Uus.
     * Klõpsake käsku Sirvi. Leidke pilt, mida kasutada soovite, valige see ja sulgege siis dialoogiboks.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Koosluse kogus on 1 ja tootmiskogus 110. Tarbimise valem on Lähteseeria (kogus)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

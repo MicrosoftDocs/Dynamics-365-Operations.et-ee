@@ -82,3 +82,6 @@ Vöötkoodi maskid tuleb enne nende kasutamist vöötkoodidele määrata. Jätka
 5. Klõpsake nuppu **Salvesta**.
 
 Vöötkoodi maski saab nüüd kasutada toodete jaoks vöötkoodide loomiseks. Eespool toodud juhised on näited selle kohta, kuidas toodete jaoks vöötkoodi maske luua, kuid need näitlikustavad ka seda, kuidas luua vöötkoodi maske mis tahes muude toetatud vöötkoodi tüüpide jaoks. Vöötkoodi maske, tüüpe ja pikkuseid tuleb korrigeerida teie konkreetses keskkonnas kasutamiseks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

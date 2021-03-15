@@ -42,3 +42,6 @@ Väikese väärtusega vahendite kaustas vähendab põhivara likvideerimiskanne v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

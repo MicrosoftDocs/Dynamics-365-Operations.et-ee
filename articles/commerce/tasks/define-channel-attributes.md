@@ -71,3 +71,6 @@ Rikastage kanali, lisades kanali ja toote atribuudid. Enne atribuutide määratl
 33. Klõpsake nuppu OK.
 34. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

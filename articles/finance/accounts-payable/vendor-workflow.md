@@ -60,3 +60,6 @@ Kui teil on vähemalt üks pakutud muudatus, ilmuvad tegumiribale kaks täiendav
     Lehel on olekuks nüüd **Kinnitamise ootel muudatused**.
 
 Töövoog järgib standardset töövooprotsessi. Kinnitaja suunatakse lehele **Hankija**, kus ta saab üle vaadata muudatused lehel **Pakutud muudatused** ja seejärel valida töövoo kinnitamiseks suvandid **Töövoog \> Kinnita**. Kui kõik kinnitamised on lõpule viidud, värskendatakse väljasid teie pakutud muudatustega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

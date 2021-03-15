@@ -91,3 +91,6 @@ See teema kirjeldab küsimustiku koostamise protsessi. See näitab erinevaid vii
 6. Sulgege leht.
 7. Värskendage lehte.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

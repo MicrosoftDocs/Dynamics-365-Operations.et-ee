@@ -71,3 +71,6 @@ Laoinventuurid võivad olla plaanipärased või plaanivälised. Plaanitud laoinv
 ## <a name="inventory-lookup"></a>Otsing varudest
 
 Hetkel vaba olevat tootekogust mitme kaupluse ja lao kohta saab vaadata lehelt **Otsing varudest**. Lisaks jooksvale vabale kaubavarule saab tulevasi lubamiseks saadaval (ATP) koguseid vaadata iga kaupluse kohta. Valige kauplus, mille ATP koguseid soovite vaadata, ja seejärel valige **Kaupluse saadavuse kuvamine**. Lisateavet saadaolevate konfigureerimissuvandite kohta leiate teemast [Varude saadavuse arvutamine jaemüügikanalite jaoks](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

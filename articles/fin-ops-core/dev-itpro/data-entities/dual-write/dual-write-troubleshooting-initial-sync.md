@@ -211,3 +211,6 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
     Ridade esmane sünkroonimine on nüüd lõpule viidud.
 
 8. Lülitage rakenduses Finance and Operations tabeli **Kliendid V3** muudatuste jälgimine tagasi sisse.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -130,3 +130,6 @@ Tellimuse täitmine kassas hõlmab filtrimist, et aidata kasutajal otsitavat hõ
 - Loomise kuupäev
 - Tarnekuupäev
 - Tarnekuupäev
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

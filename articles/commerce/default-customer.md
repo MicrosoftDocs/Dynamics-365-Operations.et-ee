@@ -112,3 +112,6 @@ Järgmine pilt näitab kliendi konfiguratsiooni näidet.
 [Kanalite ülevaade](channels-overview.md)
 
 [Kanali seadistamise eeltingimused](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

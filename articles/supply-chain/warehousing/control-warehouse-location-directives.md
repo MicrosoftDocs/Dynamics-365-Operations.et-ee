@@ -76,3 +76,6 @@ Asukohakorraldused määravad, *kus* tuleb kaubad komplekteerida ja *kuhu* need 
 
 - Video: [laohalduse konfiguratsiooni üksikasjalik juhis](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Spikriteema: [asukohakorralduste loomine](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

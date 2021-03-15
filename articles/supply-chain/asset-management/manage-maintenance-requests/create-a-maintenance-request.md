@@ -73,3 +73,6 @@ Kui hooldustaotlus on loodud, kuid see on enne teisendatud töötellimuseks, tul
 
 > [!NOTE]
 > Kui valite hooldustaotluse loomisel vara, saate sellele varale lisada ühe vea. Pärast hooldustaotluse loomist saate lisada rohkem vigu, kui vajate. Vigade lisamiseks valige **Vara viga** lehel **Kõik hoolduspäringud**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

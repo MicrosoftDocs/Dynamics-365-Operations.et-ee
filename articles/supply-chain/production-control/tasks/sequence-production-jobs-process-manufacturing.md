@@ -70,3 +70,6 @@ See protseduur kasutab värvitooteid näitena näitamaks, kuidas järjestada pla
 8. Kasutage kiirfiltrit, et filtreerida väli Kaubakood väärtuse P300 alusel.
     * Pange tähele, et tellimused on nüüd järjestatud vastavalt värvi ja suuruse prioriteedile ning plaanitud tellimused algavad varaseimal tellimuse kuupäeval ja tarnekuupäeval. Kinnitage veerg Tellimuse kuupäev või Alguskuupäev kiiinfos Graafiku üksikasjad.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

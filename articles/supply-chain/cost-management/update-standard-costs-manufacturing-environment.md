@@ -47,3 +47,6 @@ Iga juhtum nõuab hoolikat kaalumist selle osas, kuidas standardseid kulusid vä
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

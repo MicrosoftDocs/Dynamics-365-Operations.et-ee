@@ -57,3 +57,6 @@ Selle protseduuri käitamine nõuab olemasolevat toote konfiguratsioonimudelit. 
     * Kontrollige, kas mõni tootedimensioon on aktiivne ja seetõttu peab sellele olema määratud väärtus või atribuut.  
 9. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

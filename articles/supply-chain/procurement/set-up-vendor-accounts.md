@@ -117,3 +117,6 @@ Valite vaikekontod lehel **Kontode vaikeseadistus**, mille saate avada hankija k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

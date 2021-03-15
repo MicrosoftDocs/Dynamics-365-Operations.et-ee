@@ -114,3 +114,6 @@ Järgmine pilt näitab väljastatud toote konfiguratsiooni näidet.
 [Juriidiliste isikute loomine](channels-legal-entities.md)
 
 [Variandi grupi loomine](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

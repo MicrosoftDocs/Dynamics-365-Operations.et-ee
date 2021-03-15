@@ -139,3 +139,6 @@ Administraatorid saavad äripartnereid ja kasutajaid otse Commerce'i peakontoris
 [Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks](quantity-limits.md)
 
 [Numbriseeriate ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

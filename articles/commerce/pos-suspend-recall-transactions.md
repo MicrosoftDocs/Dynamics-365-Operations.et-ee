@@ -81,3 +81,6 @@ Peatatud kande kiiresti ja hõlpsasti tagasikutsumiseks skannige prinditud saate
 ### <a name="void-a-suspended-transaction"></a>Peatatud kande tühistamine
 
 Saate tühistada peatatud kande kas kande tagasikutsumisega ja seejärel toimingu **Kande tühistamine** teostamisega või valides kande loendist **Kande tagasikutsumine** ja valides suvandi **Tühistamine** rakenduste ribal. Alternatiivina saab kauplus konfigureerida kasutajad valima peatatud kannete tühistamise vahetuse sulgemisel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

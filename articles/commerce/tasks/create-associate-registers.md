@@ -43,3 +43,6 @@ See protseduur näitab, kuidas luua kassaregistrit. Protseduur kasutab demoettev
     * EFT kassaregistri numbrit kasutatakse makse töötleja teavitamiseks selle kohta, milline makseterminal autoriseerimistaotlusi saadab. Seda väärtust nimetatakse sageli terminali ID-ks või TID-ks. TID on üldjuhul leitav makseseadme kleebiselt.  
 9. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

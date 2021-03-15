@@ -47,3 +47,6 @@ Kui kanban on tühjendatud kogemata või vkui saadud kanban tuleb tühjendada, t
 2. Märkige loendis valitud rida.
     * Pange tähele, et suvandi Töötlusühik olek on Tühjendatud.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

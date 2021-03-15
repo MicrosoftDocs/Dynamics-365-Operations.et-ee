@@ -803,3 +803,6 @@ Selles jaotises loote salvestatud muutuja esimeses testjuhtumis, loote teise tes
 2. Kontrollige, kas mõlemad testjuhtumid on läbitud.
 
     ![Väli Tulemus, mis on seatud väärtusele Läbitud mõlema testjuhtumi korral](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

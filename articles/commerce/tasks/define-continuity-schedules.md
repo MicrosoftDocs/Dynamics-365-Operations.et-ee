@@ -63,3 +63,6 @@ See teema selgitab järjepidevusprogrammi (teisisõnu korduvate tellimuste) sead
     * Kui see kaup kõnekeskuses müüakse, rakendatakse valitud järjepidevusprogrammist täiendav äriloogika.  
 7. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

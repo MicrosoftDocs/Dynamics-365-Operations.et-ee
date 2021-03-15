@@ -945,3 +945,6 @@ Praegu on Retail Modern POS saadaval ainult Windows 8.1 rakendusena laua- ja tah
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mis on uut või muudetud Finance and Operationsi avalehel](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

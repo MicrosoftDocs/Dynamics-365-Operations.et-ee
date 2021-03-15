@@ -231,3 +231,6 @@ Järgmised rollid annavad manusevaaturile kirjutuskaitstud juurdepääsu järgmi
 + **Ostureskontro ametnik** ja **Ostureskontro juht** – nendele rollidele määratakse kohustus Hankija arvete haldamine.
 
 Vaikimisi, kui kasutaja roll annab mõnel lehel redigeerimisõigused, on kasutajal redigeerimisõigused ka manusevaaturis esiletõstmise, blokeerimise ja kommenteerimise toiminguteks. Kuid kui on stsenaariume, mille puhul konkreetsel rollil peaksid olema redigeerimisõigused lehel, kuid mitte manusevaaturis, saab sel puhul kasutada sobivaid privileege eespool antud loendist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ See paneb süsteemi vahelao orderit looma ja kontrolli teostav isik või osakond
 
 [Tagastatud kaupade likvideerimise viisi määratlemine](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Selles protseduuris näitlikustatakse, kuidas müügitellimuse jaoks tarnegraafi
 22. Klõpsake nuppu OK.
 23. Klõpsake nuppu Jah.
 24. Sulgege leht.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

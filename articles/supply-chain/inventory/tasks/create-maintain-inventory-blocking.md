@@ -51,3 +51,6 @@ See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimis
 2. Klõpsake nuppu **Jah**.
 3. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

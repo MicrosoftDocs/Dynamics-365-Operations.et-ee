@@ -53,3 +53,6 @@ Teavet konkreetsete toimingute tegemise kohta lähetustahvlil leiate jaotise **V
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

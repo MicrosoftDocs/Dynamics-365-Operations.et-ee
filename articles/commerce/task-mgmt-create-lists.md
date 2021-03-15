@@ -92,3 +92,6 @@ Kassatoimingu konfigureerimine, et selle saaks ülesandega linkida, tehke järgm
 [Ülesandeloendite määramine poodidele või töötajatele](task-mgmt-assign-lists.md)
 
 [Ülesannete haldus kassas](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Selles ülesandes näitlikustatakse, kuidas luua soodustuse elemente, mida uue s
 6. Sisestage jõustumiskuupäev ja -kellaaeg väljale Jõustunud.
 7. Klõpsake valikut Loo soodustus.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

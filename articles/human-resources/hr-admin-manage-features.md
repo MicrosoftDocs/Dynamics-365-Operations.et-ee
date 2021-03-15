@@ -94,3 +94,5 @@ Ootame teie tagasisidet teie kogemuse kohta nende eelvaatefunktsioonidega. Soovi
 
 - [Mis on rakenduses Human Resources uut?](hr-admin-whats-new.md)
 - [Dynamics 365 ja Power Platformi väljalaskeplaan](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

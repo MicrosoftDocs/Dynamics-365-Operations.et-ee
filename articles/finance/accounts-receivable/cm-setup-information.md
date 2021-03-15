@@ -152,3 +152,6 @@ Järgige neid samme, et lisada ridu, mis esindavad krediidilimiiti, mis valitud 
 2. Valige võrdlemise tehtemärk, mis määratleb, kuidas punktigrupi andmeid tuleks hinnata.
 3. Sisestage väärtus, mida tuleks võrrelda punktigrupile määratletud väärtusega.
 4. Sisestage krediidilimiit, mis tuleb määrata, kui kliendi andmed vastavad punktigrupile määratletud väärtusele. Näiteks loote automaatse krediidilimiidi punktigrupile **Madal**. Kui ettevõtluses tegutsemise aastad on üks punktigruppidest, saate määratleda rea, mis määrab krediidilimiidi 100 000, kui klient on tegutsenud viis aastat ja teise rea, mis määrab krediidilimiidi 200 000, kui klient on tegutsenud 10 aastat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

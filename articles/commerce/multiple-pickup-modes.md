@@ -85,3 +85,6 @@ Kui kanali jaoks on saadaval mitu järeletulemisega tarneviisi, pakutakse klient
 ## <a name="considerations-for-distributed-order-management"></a>Hajutatud tellimuste haldamisega seotud kaalutlused
 
 Commerce'i [hajutatud tellimuste haldamise (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) funktsioonidega ignoreeritakse müügiridu, mis on märgitud poodi järeletulemiseks. Neid funktsioone värskendati tagamaks, et konfigureeritud järeletulemisega tarneviisidega lingitud müügiread eiraksid DOM-i loogikat ning et neid ei eraldataks laos uueks täitmiseks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

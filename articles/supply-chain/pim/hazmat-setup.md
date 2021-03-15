@@ -283,3 +283,6 @@ Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \
 Spetsifikatsioon *Ohtliku materjali tunnel* piirab tunnelite tüüpe, mille kaudu saab ohtlikke materjale transportida, määratledes nende tunnelite tüübid, mida tuleb kasutada. Tunnelite kategooriad on kehtestatud ohtlike materjalide transpordi kehtivate määrustega. See spetsifikatsioon rakendub tavaliselt ainult maanteetranspordi puhul.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali tunnel**. Lehel **Ohtliku materjali tunnel** saate luua mistahes arvu tunneli-ID-sid ja konfigureerida igaühe neist ID-koodi ja lühikirjeldusega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

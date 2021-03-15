@@ -45,3 +45,6 @@ Varade rentimise käitumist mõjutavad mitu konfiguratsiooni sätet. Need sätte
 
     > [!NOTE]
     > Soovitame jätta selle suvandi väärtuseks **Ei**. Selle suvandi valikut kasutatakse kontrollimiseks ja juhtimiseks, et takistada suletud raamatu versiooni juhuslikku amortiseerimist. Kui hoiate suvandi väärtusel **Ei**, saate hoida raamatu netoväärtuse ja tulevased kulumiarvutused täpsena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

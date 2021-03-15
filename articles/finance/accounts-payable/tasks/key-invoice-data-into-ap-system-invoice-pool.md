@@ -67,3 +67,6 @@ See teema kirjeldab, kuidas kasutada arvete loomiseks arveregistrit. Seejärel k
 13. Valige **Kanded**.
 14. Valige loodud arve. Arve registri juurdekasv tühistati ja sisestati asjakohasele kulu kontole.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

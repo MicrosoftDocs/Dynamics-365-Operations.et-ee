@@ -70,3 +70,6 @@ Teenusehalduse saab ühendada järgmiste moodulitega:
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

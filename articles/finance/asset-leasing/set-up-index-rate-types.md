@@ -42,3 +42,6 @@ Peate valima indeksimäära meetodiks kas **Indeksimäära väärtuse erinevus**
 
 - Valige alguskuupäeva indeksimäära ja kõige viimase indeksimäära vahel põhinedes uue rendimakse arvutamiseks meetod **Indeksimäära väärtuse erinevus**. Indeksimäär määratletakse väljal **Indeksimäär (%)**.
 - Valige meetod **Indeksimäära väärtus**, et arvutada rendimakse väljal **Indeksimäär (%)** määratletud protsendi alusel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

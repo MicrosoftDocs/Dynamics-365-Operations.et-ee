@@ -64,3 +64,6 @@ Mõnikord lõpetab organisatsioon konkreetsete soodustuste pakkumise. Sellisel j
 Samuti võimaldab hulgisoodustuse pikendamine teil pikendada nii soodustuse kui ka selle saamiseks töötajate registreerumise aegumiskuupäeva, kui otsustate soodustust pakkuda kauem kui algselt plaanitud.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Teisendamistegurite väljad määravad teisendustegurid maksesagedustest tavapä
    | **Tunnine tuletustegur** | Maksesageduse aastane teisendustegur. Näiteks igakuise maksesageduse aastane teisendustegur on: </br></br>(12 igakuist makset / 2080 tundi) = 0,005769
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -276,3 +276,6 @@ Kaotatud või ohtu sattunud seadme puhul on vaja seadmelt juurdepääs Supply Ch
 1. Veenduge, et rakenduse kliendi ID ühtib kliendi ID-ga, mille märkisite üles etapis 2.
 1. Valige tööriistaribal **Kustuta**.
 1. Valige kuvatavast kinnitusteatest **Jah**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

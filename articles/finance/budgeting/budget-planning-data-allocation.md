@@ -76,3 +76,6 @@ Lõpuks lisate eelarve plaanimise etapi eraldamise automatiseeritud ülesande so
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

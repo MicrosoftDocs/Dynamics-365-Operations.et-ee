@@ -57,3 +57,6 @@ See protseduur selgitab uue riistvarajaama loomist. Luuakse uus riistvaraprofiil
 23. Sisestage väärtus väljale EFT terminal.
 24. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

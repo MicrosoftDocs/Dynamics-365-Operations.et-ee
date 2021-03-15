@@ -53,3 +53,6 @@ Enne kui saate sätestada vastutavaid hooldustöötajaid, peate sätestama töö
 Järgnev illustratsioon näitab lehe **Vastutavad hooldustöötajad** näidet.
 
 ![Vastutavate hooldustöötajate leht](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

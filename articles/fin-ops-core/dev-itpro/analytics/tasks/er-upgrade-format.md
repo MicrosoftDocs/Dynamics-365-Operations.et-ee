@@ -243,3 +243,6 @@ Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fikti
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Kohandatud vormingu testimine maksefailide loomiseks
 Viige rakenduse Finance and Operations paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige loodud vorming „BACS (UK fiktiivne kohandatud)” elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Kui toote variant on juba väljastatud ettevõttes A ja proovite selle väljasta
 **Uus** nupp **Väljastatud toote variandid** lehel loob variandi ja väljastab selle ettevõtte kontekstis. Kui variant on juba loodud, ei saa te kasutada nuppu **Uus**, et see väljastada teises ettevõttes.
 
 Probleemi lahendamiseks avage **Toote koondandmed** ja valige **Väljasta toode**, et väljastada olemasolev variant soovitud ettevõttes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

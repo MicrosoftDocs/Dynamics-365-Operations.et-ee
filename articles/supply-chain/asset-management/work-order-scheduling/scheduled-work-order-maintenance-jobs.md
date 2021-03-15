@@ -51,3 +51,6 @@ Järgmisel kuvatõmmisel on näide lehest **Ajastatud töökäsu hooldustööd**
 
 ![Joonis 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

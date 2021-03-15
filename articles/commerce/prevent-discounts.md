@@ -40,3 +40,6 @@ Avaldatud toodete vahekaardil **Commerce** leitavaid suvandeid saab kasutada too
 > Need sätted ei piira hinna alistamise toimingut, sest see on baashinda määrav toiming, mida ei käsitleta allahindlusena.
 
 [![Väli väldi allahindluseid](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

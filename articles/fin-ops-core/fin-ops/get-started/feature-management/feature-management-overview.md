@@ -203,3 +203,6 @@ IFeatureLifecycle on Microsofti-sisene mehhanism, mis näitab funktsiooni eluts�
 - `PublicPreview` – kuvatakse vaikimisi, kuid koos hoiatusega, et tegemist on funktsiooni eelversiooniga.
 - `Released`– täielikult väljastatud.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

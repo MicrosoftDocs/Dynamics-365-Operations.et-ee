@@ -77,3 +77,6 @@ Kui töötaja tasusummad on üle vaadatud ja soovitud väärtused korrigeeritud,
 Kui vähemalt ühe töötaja olek on muutunud olekuks Kinnitatud, saab need laadida töötaja põhipalga kirjetesse. Seda saab teha, valides ühekaupa kõik töötaja sündmused ja klõpsates lehel **Töötaja tulemused** nuppu **Laadi töötaja tasu** või klõpsates nuppu **Laadi tasu** lehel **Protsessi tulemused** kõigi kinnitatud töötaja sündmuste korraga laadimiseks.
 
 Kui klõpsata nuppu **OK** dialoogis **Laadi tasu**, lisatakse nullist erinevad tasutegevuse read lehele **Töötaja põhipalk**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

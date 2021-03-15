@@ -48,3 +48,6 @@ Ressursi võimalused kirjeldavad, milliseid operatsioone ressursid teha saavad. 
 5. Sisestage arv väljale Tase.
     * Kui määrate tööle või operatsioonile kindla nõutava võimaluse, saate määrata ka minimaalse nõutava taseme. Sama tööd erineval kiirusel, tugevusel, suurusel jms tegevate ressursside eristamiseks saate kasutada võimaluse taset.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

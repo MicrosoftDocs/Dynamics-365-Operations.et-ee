@@ -176,3 +176,6 @@ Kohapeal saadaolevate juurutuste võimaluste loendi nägemiseks vt [Kohapealseks
 
 \*Kohapealsetes keskkondades näitab PerfTimer ainult kliendi tulemusi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

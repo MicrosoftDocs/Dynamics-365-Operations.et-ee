@@ -48,3 +48,6 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
     - Vajaduse korral lisage organisatsioone.  
     - Organisatsiooni lisamiseks klõpsake **Redigeeri** ja seejärel **Sisesta**, et lisada organisatsioon. Kui olete muudatuste tegemise lõpetanud, saate mustandi **salvestada** ja/või muudatused **avaldada**.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Tööruum **Hankija arve sisestamine** võimaldab teil keskenduda hankija arvete
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Hankija arve automatiseerimine – mitme arve automatiseerimistoimingu jätkamine
 Kui imporditud arve töövoogu edastamine automatiseeritud toimingu kaudu ei õnnestu, eemaldab süsteem selle edasisest automatiseeritud töötlusest. Ostureskontro ametnik saab arve läbi vaadata ja seda redigeerida, enne kui automatiseeritud protsess selle töövoogu uuesti esitab. Kui tõrke põhjuse saab lahendada mitme arve jaoks sama parandusega, saate taaskäivitada automatiseeritud protsessi lehel **Arve automatiseeritud töötluse jätkamine**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

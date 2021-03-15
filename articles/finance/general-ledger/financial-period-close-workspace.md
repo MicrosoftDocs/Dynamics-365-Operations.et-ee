@@ -107,3 +107,6 @@ Pärast sulgemise graafiku lõpetamist valige selle puhul suvand **Suletud**. Ü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

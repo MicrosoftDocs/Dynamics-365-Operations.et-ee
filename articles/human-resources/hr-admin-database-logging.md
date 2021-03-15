@@ -87,3 +87,6 @@ Andmebaasilogi puhastamise seadistamiseks järgige neid samme.
    - Loomise kuupäev ja kellaaeg
 
 3. Kasutage vahekaarti **Andmebaasilogi puhastamine**, et määrata, millal käitada logi puhastamise ülesanne. Vaikimisi on andmebaasilogid saadaval 30 päeva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Varade kulumiarvestusreegli uuendamise järel saate menetleda iga vara kulumit j
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

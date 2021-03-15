@@ -63,3 +63,6 @@ Selle protseduuri loomiseks kasutati demoettevõtte USMF andmeid.
 6. Valige loendist **Kasutaja ID**. Näiteks 24.
 7. Laiendage kiirkaarti **Töö**.
 8. Tehke väljal **Luba käsitsi kauba ümberjaotamine** valik **Jah**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

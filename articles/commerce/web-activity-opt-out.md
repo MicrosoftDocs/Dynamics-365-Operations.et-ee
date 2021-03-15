@@ -55,3 +55,6 @@ Administraatorid saavad lubada autenditud kasutajatel loobuda ise veebitegevuse 
 ### <a name="custom-extensions"></a>Kohandatud laiendid
 
 Administraatorid saavad luua oma laiendid, et hallata kasutajate loobumise kogemust. Lisateavet vt [Jaemüügiserveri API-de kutsumine](e-commerce-extensibility/call-retail-server-apis.md) ja [Võrgukanali laiendatavus](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Oma organisatsiooni kasvades peata hakkama mõtlema talentide kasvatamisele. Tal
 27. Valige **Tulem**.
 28. Valige **Aruanne**. Parimad vasted loetletakse aruande ülaosas. Näete, et vaheelement on loetletud. Vahe on oskuste kaardistamise taseme ja isiku oskuste taseme vahe.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

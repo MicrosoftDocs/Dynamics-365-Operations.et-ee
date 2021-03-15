@@ -60,3 +60,6 @@ Tooteetaloni loomine eelmääratletud variantide puhul. Selle protseduuri loomis
 10. Klõpsake valikut **Salvesta**.
 11. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

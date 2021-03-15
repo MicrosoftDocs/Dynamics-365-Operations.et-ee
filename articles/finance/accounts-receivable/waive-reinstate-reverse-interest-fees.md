@@ -94,3 +94,6 @@ Saate intressikanded tühistada, kasutades nuppu **Ajalugu** lehe **Klient** vah
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Tasuruudustikke kasutatakse põhipalgaplaanide palgastruktuuri määratlemiseks 
 29. Märkige või tühjendage loendis kõik read.
 30. Klõpsake käsku Rakenda ruudustikule.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Lisaks piirangutele, mis praegu kehtivad tegeliku kaalu toodete puhul, on sildis
 
 > [!NOTE]
 > Tegeliku kaalu siltide eelnev teave kehtib ainult siis, kui tegeliku kaalu tootel on tegeliku kaalu sildi dimensiooni jälgimise meetod, mis on täielikult jälgitav (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käitlemise poliitikas on seatud olekusse **Tootedimensioonid, jälgimise dimensioonid ja laoala dimensioonid**). Kui tegeliku kaalu üksus on ainult osaliselt sildiga jälitatud (st kui **Tegeliku kaalu sildi dimensiooni jälgimise meetodi** parameeter tegeliku kaalu kauba käsitsemise poliitikas on seatud olekusse **Tootedimensioonid, Jälgimise dimensioonid ja Varude olek**), rakenduvad täiendavad piirangud. Kuna sildi ja varude vaheline nähtavus on sel juhul kadunud, ei toetata mõnda lisastsenaariumit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Selles teemas selgitatakse, kuidas seadistada tootenumbri nomenklatuuri eelmää
 5. Väljale **Tootevariandi numbri nomenklatuur** sisestage või valige väärtus.
 6. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -598,3 +598,6 @@ Kui töötaja ei ilmu tööpäeval tööle ja tal puudub sel päeval plaanitud p
 - Puudumise automaatsisestus
 
 Kui arvutatakse päevased registreerimised töötaja kohta, kellel on paindtunnid lubatud, kasutatakse väljas **Paind– automaatsisestus** määratud puudumiskoodi vaikimisi puudumiskoodina. Kui töötajal ei ole paindtunnid lubatud, kasutatakse väljas **Puudumise automaatsisestus** määratud puudumiskoodi. Kui ettevõttel on kombinatsioon töötajatest, kellel on paindtunnid lubatud, ja töötajatest, kellel ei ole paindtunnid lubatud, tuleb seadistada mõlemad parameetrid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

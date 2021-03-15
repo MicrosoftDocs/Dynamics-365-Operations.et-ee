@@ -71,3 +71,6 @@ Selles protseduuris juhendatakse teid looma tooteetalonidele tootevariante, kasu
     * Saate luua kirjeldused kõikidele oma variantidele tootedimensiooni väärtuste kombinatsiooni alusel. Kirjeldused on valikulised.  
 5. Klõpsake nuppu Salvesta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

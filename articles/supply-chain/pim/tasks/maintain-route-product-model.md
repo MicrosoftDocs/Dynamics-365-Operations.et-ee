@@ -66,3 +66,6 @@ Selle protseduuri käitamine nõuab toote konfiguratsioonimudeli olemasolu. See 
 15. Valige või sisestage väärtus väljal Nõue.
 16. Klõpsake nuppu OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

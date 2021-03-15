@@ -36,3 +36,6 @@ Seadistage rakenduses Dynamics 365 Human Resources teie töötajatega ühtivad t
 3. Määrake suvandite **Töötaja tüüp**, **Tööhõive kategooria** ja **Kirjeldus** väärtus.
 
 4. Valige käsk **Salvesta**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Sellele lehele pääsete tegevusgrupist **Sissetulek** lehel **Ostutellimus**. T
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

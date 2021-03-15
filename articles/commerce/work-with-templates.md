@@ -149,3 +149,6 @@ Pärast malli muudatuste vaatamist järgige üht alltoodud etappidest malli aval
 [Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
 
 [Eelmääratud paigutustega töötamine](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Organisatsiooni müüdavate toodete variante saate eristada dimensioonide, nagu 
     Leheküljel **Kogusummad** kuvatakse kogu tellimuse üksikasjad. See sisaldab vahesummat, mis on kõigi lõplike rea allahindluste võrra korrigeeritud rea netosummade summa, ning arve kogusummat, mis on lõpliku tellimuse taseme allahindluse, tasude, käibemaksu, kliendi krediidilimiidi jms alusel korrigeeritud vahesumma. Arve summa on summa, mis kuvatakse kliendi arvedokumendil.  
     
 3. Valige nupp **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

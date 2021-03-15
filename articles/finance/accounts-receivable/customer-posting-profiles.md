@@ -139,3 +139,6 @@ Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 
 Lisateabe saamiseks vt [Kliendimaksete ülevaade](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

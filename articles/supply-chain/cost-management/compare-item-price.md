@@ -120,3 +120,6 @@ Järgnev on näide selle kohta, kuidas aruannet **Kaubahindade võrdluse talletu
 1. Avaneb leht **Käivitamise kokkuvõtte** kokkuvõte, kus saate vaadata oma ekspordi töö olekut ja eksporditud üksuste loendit. Valige üksus **Kaubahindade võrdlus**, mis on loetletud alal **Üksuse töötlemise olek**, ja seejärel valige suvand **Laadi fail alla**, et laadida alla sellest olemist eksporditud andmed.
 
 Lisateavet andmete eksportimiseks andmehalduse kasutamise kohta vt [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

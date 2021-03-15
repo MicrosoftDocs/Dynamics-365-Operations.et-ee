@@ -95,3 +95,6 @@ Tööruum koosneb paanide ja kahe loendi kokkuvõttest. Loendis **Avatud juhtumi
 ### <a name="manually-creating-a-new-released-product"></a>Uue väljastatud toote käsitsi loomine
 
 Saate luua väljastatud toote käsitsi ühes tsüklis, olenevalt organisatsiooni äriprotsessidest ja reeglitest selle kohta, kas seda funktsiooni tuleks kasutada. See funktsioon loob uue toote ja vabastab selle automaatselt praegusele juriidilisele isikule. Uue toote loomiseks klõpsake nuppu **Väljastatud tooted** tööruumis **Väljastatud toote haldus** või loendilehel **Väljastatud toode**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

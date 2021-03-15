@@ -53,3 +53,6 @@ See protseduur näitab, kuidas luua uut põhivara raamatut ja seostada seda põh
     * Pange tähele, et väärtus Kulumiperioodid arvutatakse pärast kasutusea seadistamist.  
     * Kulumiarvestusreeglit saab maksuarvestuse jaoks vajalikul viisil seadistada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

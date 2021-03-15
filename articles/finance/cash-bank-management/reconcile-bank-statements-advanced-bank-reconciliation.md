@@ -95,3 +95,6 @@ Pangaväljavõtte kanded, mis märkisite vastavusseviimise töölehel väärtuse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

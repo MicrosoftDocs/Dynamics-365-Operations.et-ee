@@ -57,3 +57,6 @@ Aruanne **Hooldustaotluse loend** kuvatakse kõigi sama taotlusetüübi hooldust
 Järgnev illustratsioon näitab kõigi hooldustaotluste aruande **Hooldustaotluse loend** näidet.
 
 ![Hooldusnõuete loendi aruanne](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

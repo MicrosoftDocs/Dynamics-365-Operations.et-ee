@@ -72,3 +72,6 @@ Protseduur näitab, kuidas leida aegunud väljastatud tooteid või tootevariante
 
 8. Otsige loendist ja valige soovitud kirje.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

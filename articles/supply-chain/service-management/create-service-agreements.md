@@ -61,3 +61,6 @@ See teema kirjeldab, kuidas kasutada funktsioone moodulites Hooldushaldus ning P
 [Hoolduslepete arendamise ja loomise ülevaade](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

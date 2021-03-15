@@ -97,3 +97,6 @@ Saate väljastada toormaterjali lõpetatud kaupade osalise koguse jaoks või kin
     Saadaolevad ühikud on määratletud lõpetatud kauba ühiku seeriagrupi ID-s.
 
     Näiteks on lõpetatud kaubal järgmised ühikuteisendused kilogrammide (kg) ja kaubaaluste (PL) vahel: 1 PL = 100 kg. Tootmistellimuse loomiseks 10 000 kg lõpetatud kauba jaoks saate väljastada toormaterjale kaubaaluste arvule, mida plaanite toota. Valige ühikuna **PL** ja siis valige vastav arv väljal **Kogus**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

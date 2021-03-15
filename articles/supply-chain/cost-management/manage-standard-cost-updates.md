@@ -51,3 +51,6 @@ Uue standardhinna aktiveerimine hindab tavaliselt vaba kaubavaru väärtuse ümb
 - **Puudub** – ümberarvutamise kannetesse ei sisestata finantsdimensioone. Kui teie konto struktuur hõlmab nõutavat finantsdimensiooni, käivitatakse ümberarvutamise protsess endiselt, kuid see loob raamatupidamiskirjed ilma finantsdimensioonideta. Sel juhul saavad kasutajad enne hoiatusteate, et nad saaksid ümberhindamise vajaduse korral tühistada.
 - **Tabel** – kauba finantsdimensioonid sisestatakse ümberhindamise kannetele. See on vaikesäte ja järjepidev algse süsteemi käitumisega, lülitamata sisse funktsiooni *Finantsdimensioonide vaikevalikud varude standardkulu ümberhindamise jaoks*.
 - **Sisestamine** – ümber arvutatava kande finantsdimensioonid sisestatakse ümberarvutamise kannetesse. Vaikimisi kasutatakse finantsdimensioone algse kande laokontolt nii laokonto kui ümberhindamise konto puhul.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

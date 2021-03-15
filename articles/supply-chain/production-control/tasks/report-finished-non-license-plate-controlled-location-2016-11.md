@@ -61,3 +61,6 @@ Selles ülesande juhendis esitatakse näide lõpetatuks kuulutamisest mittelitse
 18. Klõpsake suvandit Töö üksikasjad.
     * Kui tootmistellimus on lõpetatuks kuulutatud, pole ladustamiseks tööd loodud. See ilmneb, kuna määratletud on tööpoliitika, mis takistab töö loomist, kui toode L0101 kuulutatakse lõpetatuks asukohale 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

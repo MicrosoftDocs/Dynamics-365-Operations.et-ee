@@ -191,3 +191,6 @@ Oma Commerce’i hindamiskeskkonna ettevalmistamise ja konfigueerimise protsessi
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

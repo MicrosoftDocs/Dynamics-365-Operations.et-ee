@@ -34,3 +34,6 @@ See protseduur näitab, kuidas luua uut toote elutsükli olekut. Toote elutsükl
 3. Tippige väärtus väljale Olek.
 4. Sisestage väljale Kirjeldus soovitud väärtus.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

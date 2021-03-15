@@ -73,3 +73,6 @@ Täidetakse väljad **Alias**, **UPN** ja **Väline alamidentifikaator** tööta
 [Jaemüügi funktsiooniprofiili loomine](retail-functionality-profile.md)
 
 [ Töötaja konfigureerimine](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

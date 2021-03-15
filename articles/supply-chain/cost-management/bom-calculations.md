@@ -94,3 +94,6 @@ Tellimusomane koosluse kalkulatsioon esindab koosluse arvutamise varianti toodet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Seega luuakse j√§rgmised raamatupidamiskirjed automaatselt, et tasakaalustada t√
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

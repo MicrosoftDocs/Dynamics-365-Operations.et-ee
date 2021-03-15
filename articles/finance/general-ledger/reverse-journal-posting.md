@@ -69,3 +69,6 @@ Kui kanderidade arv on kuni 100, käivitub tühistamise protsess kohe. Tulemused
 
 Kandeid saab tühistada ainult juhul, kui need vastavad nende tühistamise ärireeglitele. Hankija makseid ei saa muuta, kasutades selles teemas kirjeldatud võimalusi. Hankija maksed tuleb tagasi võtta, järgides juhiseid, mis on toodud teemas [Hankija makse storneerimine](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

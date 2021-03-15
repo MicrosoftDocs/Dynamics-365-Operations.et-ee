@@ -184,3 +184,6 @@ Suurem osa tehniliste muudatuste tellimuste väljadest on samad, mis on saadaval
 | Keskkonnatervis ja -ohutus | Määrake, kas muudatuse korral rakendatakse keskkonnatervise ja -ohutuse reegleid. Kui jah, saate valida kohaldatavad reeglid. |
 
 Saate kasutada nuppu **Halda/kopeeri muudatuse teave**, et kopeerida muudatuse teavet mõjutatud toodete vahel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

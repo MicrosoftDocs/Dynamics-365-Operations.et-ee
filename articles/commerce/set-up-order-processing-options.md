@@ -83,3 +83,6 @@ Kui olete lõpetanud kõnekeskuse kanali konfigureerimise ja kanali kasutajate m
 > [!NOTE]
 > Kõnekeskuse funktsiooni kasutamiseks peab suvandi **Mitu saajat** konfiguratsioonivõti olema lubatud. Selle konfiguratsioonivõtme leiate **Kaubanduse konfiguratsiooni** võtmetest asukohas **Süsteemihaldus**\> **Seadistus** \> **Litsentsi konfiguratsioon**. See on nõutav kõnekeskuse funktsiooni tõttu, mis sooritab müügitellimuse rea tasemel konfigureeritud tarneaadressi alusel erinevaid valideerimisi. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

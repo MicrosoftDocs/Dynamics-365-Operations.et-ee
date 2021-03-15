@@ -159,3 +159,6 @@ Gantti diagrammi saab avada järgmistelt lehtedelt.
 
 [Tootmistellimuste visuaalne plaanimine (demoskript)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

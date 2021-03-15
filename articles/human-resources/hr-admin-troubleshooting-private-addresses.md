@@ -39,3 +39,6 @@ Probleemi lahendamiseks peab klient toimima topeltturberolli korral järgmiselt.
 3. Valige **Salvesta**.
 
 ![Globaalse aadressiraamatu parameetrite leht](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Eelarvehaldur loob Microsoft Wordis eelarveplaani malli ja määrab selle praegu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

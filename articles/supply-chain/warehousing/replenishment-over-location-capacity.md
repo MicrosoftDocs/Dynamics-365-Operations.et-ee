@@ -407,3 +407,6 @@ Nüüd saate komplekteerida müügitellimuse 2. Selle blokeering tühistati, kui
 - Soovi korral saate iga tööpäise täiendustöö saadavuse käsitsi alistada lehel **Töö üksikasjad**.
 - Kui süsteem määrab täiendustöö kättesaadavuse, võtab see arvesse kõik varud, mis on enne töö lõpuleviimist asukohas juba olemas.
 - Müügitellimustöö iga osa on seotud konkreetse täiendustööga. Vastavat müügi töö saadavuse funktsiooni pole.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

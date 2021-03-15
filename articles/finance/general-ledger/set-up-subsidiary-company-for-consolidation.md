@@ -80,3 +80,6 @@ Olenemata sellest, kas kontod on vastendatud, tühjendage konsolideeritud juriid
 
 > [!NOTE]
 > Seda meetodit saate kasutada konsolideeritud juriidilises isikus kontoplaani loomiseks ühe allettevõtte juriidiliste isikute kontoplaanist. (Lisateavet vt teemast [Konsolideerimiskonto grupid ja täiendavad konsolideerimiskontod](../budgeting/consolidation-account-groups-consolidation-accounts.md)). Seejärel määrake igale konsolideeritud põhikontole vastav konsolideerimisteisenduse põhimõte ja käitage konsolideerimine kõigi allettevõtete juriidiliste isikute jaoks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

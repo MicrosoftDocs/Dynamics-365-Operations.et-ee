@@ -67,3 +67,6 @@ Viiteteabena kasutatakse ka kaupade ostuhinna kirjeid. Kauba ostuhinna kirje ole
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

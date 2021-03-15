@@ -71,3 +71,6 @@ Selles teemas jagatakse juhiseid, kuidas luua ostulepingut. Seda teeb tavaliselt
 5. Valige **Ostulepingu kinnitused**. Suvand **Eelvaade/prindi** lubab teil luua ostulepingu jaoks dokumendi, mille saate seejärel printida või hankijale saata. Lepingu hiljem muutmisel ja uuesti kinnitamisel kuvatakse siin mõlemad versioonid.  
 6. Sulgege leht.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

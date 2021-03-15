@@ -60,3 +60,6 @@ Valik **Vii vastavusse pärast importimist** kontrollib automaatselt pangavälja
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

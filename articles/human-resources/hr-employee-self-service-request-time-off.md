@@ -62,3 +62,6 @@ Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate näha 
 ## <a name="see-also"></a>Vt ka
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

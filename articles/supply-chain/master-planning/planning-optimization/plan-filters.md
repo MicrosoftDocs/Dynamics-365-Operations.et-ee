@@ -58,3 +58,6 @@ Plaani filter on seadistatud hõlmama kaupu A, B ja C. Koondplaneerimise käitam
 [Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
 
 [Planeerimistöö tühistamine](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

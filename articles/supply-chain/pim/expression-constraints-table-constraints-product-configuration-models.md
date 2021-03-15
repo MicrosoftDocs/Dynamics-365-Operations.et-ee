@@ -253,3 +253,6 @@ Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või ala
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

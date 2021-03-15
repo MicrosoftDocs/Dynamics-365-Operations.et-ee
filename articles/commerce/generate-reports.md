@@ -137,3 +137,6 @@ Aruande **Organisatsiooni müük** loomiseks toimige järgmiselt.
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Commerce’i avaleht](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

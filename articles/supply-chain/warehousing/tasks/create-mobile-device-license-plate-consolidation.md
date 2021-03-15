@@ -36,3 +36,6 @@ See protseduur näitab, kuidas luua mobiilse seadme menüükäsku litsentsiplaad
 5. Tehke väljal Režiim valik Kaudne.
 6. Tehke väljal Tegevuse kood valik Konsolideeri litsentsiplaadid.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Alloleval kuvatõmmisel on näide üksuse numbri „1000“ „Üksus, kus kasut
 
 ![„Üksus, kus kasutatud“ arvutuse näide](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

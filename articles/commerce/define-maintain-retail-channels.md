@@ -88,3 +88,6 @@ Commerce kasutab organisatsiooni hierarhiaid kanalite struktureerimiseks. Organi
 > [!NOTE]
 > Commerce’i müügifunktsiooni kasutamiseks peab suvandi **Mitu saajat** konfiguratsioonivõti olema lubatud. Selle konfiguratsioonivõtme leiate **Kaubanduse konfiguratsiooni** võtmetest asukohas **Süsteemihaldus**\> **Seadistus** \> **Litsentsi konfiguratsioon**. See on nõutav erinevate valideerimiste tõttu, mis põhinevad müügitellimuse rea tasemel konfigureeritud tarneaadressil.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

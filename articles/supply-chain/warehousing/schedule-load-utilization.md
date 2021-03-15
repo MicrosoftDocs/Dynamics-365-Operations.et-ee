@@ -71,3 +71,6 @@ Saate kavandada ruumikasutuse, luues aruande **Lao koormuse kasutus**. Selle aru
 
 4. Valige väljal **Koormuse tüüp** suvand **Maht** või **Kaal**, et määrata lao tootmisüksus, mille jaoks ruumi kavandatakse.
 5. Väljal **Ruumikasutuse seadistamine** valige ruumikasutuse seadistus, mille alusel prognoos tuleb teha.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

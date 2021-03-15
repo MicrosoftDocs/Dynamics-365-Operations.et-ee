@@ -47,3 +47,6 @@ Saate määrata tootmistellimuse väärtuseks **Kinnita lõpetamine** standardse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

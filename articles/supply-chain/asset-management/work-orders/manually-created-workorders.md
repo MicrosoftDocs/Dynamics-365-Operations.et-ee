@@ -165,3 +165,6 @@ Allolevalt joonisel kuvatakse dialoogis **Töökäsu loomine** näide.
 >[!NOTE]
 >Kui soovite, et töökäsud loodaks automaatselt, saate vara hoolduskava töid ajastada või seadistada [hoolduskavade](../preventive-and-reactive-maintenance/maintenance-plans.md) või [hoolduskordade](../preventive-and-reactive-maintenance/maintenance-rounds.md) automaatse loomise. Hooldusnõuetest loodud töökäskudel on loendilehel **Kogu hooldusgraafik** hooldustööde tüübid, mis on hooldusnõuetes valitud.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

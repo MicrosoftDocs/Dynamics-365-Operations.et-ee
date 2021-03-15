@@ -57,3 +57,6 @@ Järgmises tabelis on üksikasjad Power BI sisu **Tegelik võrreldes eelarvega**
 | Pearaamatud                   | Pearaamatud, mida saab kasutada praeguse pearaamatu aruande filtreerimiseks              |
 | Eelarvekoodid              | Eelarvekoodid, mille alusel aruandeid filtreerida                                                |
 | Juriidilised isikud            | Juriidilised isikud, mida saab kasutada praeguse juriidilise isiku aruande filtreerimiseks |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
