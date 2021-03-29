@@ -5,6 +5,10 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 8. märts 2021
+          href: hr-whats-new-2021-03-08.md
+        - name: 22. veebruar 2021
+          href: hr-whats-new-2021-02-22.md
         - name: 28. jaanuar 2021
           href: hr-whats-new-2021-01-28.md
         - name: 21. jaanuar 2021
@@ -89,9 +93,9 @@
               href: hr-admin-integration-common-data-service.md
             - name: Dataverse'i tabelid
               href: hr-developer-entities.md
-            - name: Dataverse'i virtuaalüksuste konfigureerimine
+            - name: Dataverse'i virtuaalsete tabelite konfigureerimine
               href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: Human Resourcesi virtuaalsete olemite KKK
+            - name: Human Resourcesi virtuaalsete tabelite KKK
               href: hr-admin-virtual-entity-faq.md
             - name: Integratsiooni konfigureerimine Finance’iga
               href: hr-admin-integration-finance.md
@@ -623,6 +627,8 @@
               items:
                 - name: Soodustuste halduse ülevaade
                   href: hr-benefits-management-overview.md
+                - name: Soodustuse halduse tööruum
+                  href: hr-benefits-management-workspace.md
                 - name: Soodustuste halduse konfigureerimine
                   items:
                     - name: Soodustuste halduse parameetrite konfigureerimine ettevõtte alusel
@@ -783,3 +789,5 @@
               href: hr-employee-self-service-workspace-name.md
             - name: Isiklike andmete muutmine
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Isikuandmete redigeerimise piiramine
+              href: hr-employee-self-service-restrict-editing.md

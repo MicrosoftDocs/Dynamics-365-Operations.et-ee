@@ -16,22 +16,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: ccddb00ecb797c8f084778270d7cf70426ffaeb0
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: c1ba1541a05e5cf2874813efa8b6500bdf8adb49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129223"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242009"
 ---
-# <a name="welcome-to-dynamics-365-talent"></a><span data-ttu-id="8ebdc-104">Tere tulemast Dynamics 365 Talentisse</span><span class="sxs-lookup"><span data-stu-id="8ebdc-104">Welcome to Dynamics 365 Talent</span></span>
+# <a name="welcome-to-dynamics-365-talent"></a><span data-ttu-id="497b4-104">Tere tulemast Dynamics 365 Talentisse</span><span class="sxs-lookup"><span data-stu-id="497b4-104">Welcome to Dynamics 365 Talent</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="8ebdc-105">Talent hõlmab rakendust Attract, mis aitab teil tuvastada, intervjueerida ja tööle võtta kandidaate, kelle oskusi teie organisatsioon vajab.</span><span class="sxs-lookup"><span data-stu-id="8ebdc-105">Talent includes Attract, which can help you identify, interview, and hire candidates that hold the skills your organization needs.</span></span> <span data-ttu-id="8ebdc-106">Pärast värbamise kaudu palkamist saate rakenduse Onboard abil uue töötaja oma organisatsiooni tuua. Rakendus võimaldab määrata täpsed ootused ja jagada teavet, mida töötajal alustamiseks vaja on, ühendada ta kolleegidega ja luua talle tingimused uues rollis edu saavutamiseks.</span><span class="sxs-lookup"><span data-stu-id="8ebdc-106">As you move from recruiting through hiring, the Onboard app can help you bring your new employee into your organization by setting accurate expectations, providing information they need to get started, connecting them with colleagues, and set them up for success in their new role.</span></span>  
+<span data-ttu-id="497b4-105">Talent hõlmab rakendust Attract, mis aitab teil tuvastada, intervjueerida ja tööle võtta kandidaate, kelle oskusi teie organisatsioon vajab.</span><span class="sxs-lookup"><span data-stu-id="497b4-105">Talent includes Attract, which can help you identify, interview, and hire candidates that hold the skills your organization needs.</span></span> <span data-ttu-id="497b4-106">Pärast värbamise kaudu palkamist saate rakenduse Onboard abil uue töötaja oma organisatsiooni tuua. Rakendus võimaldab määrata täpsed ootused ja jagada teavet, mida töötajal alustamiseks vaja on, ühendada ta kolleegidega ja luua talle tingimused uues rollis edu saavutamiseks.</span><span class="sxs-lookup"><span data-stu-id="497b4-106">As you move from recruiting through hiring, the Onboard app can help you bring your new employee into your organization by setting accurate expectations, providing information they need to get started, connecting them with colleagues, and set them up for success in their new role.</span></span>  
 
-- [<span data-ttu-id="8ebdc-107">Microsoft Dynamics 365 Talent – Attracti funktsioonid ja võimalused</span><span class="sxs-lookup"><span data-stu-id="8ebdc-107">Microsoft Dynamics 365 Talent - Attract features and capabilities</span></span>](attract-overview.md)
-- [<span data-ttu-id="8ebdc-108">Onboardi kasutamise alustamine</span><span class="sxs-lookup"><span data-stu-id="8ebdc-108">Get started with Onboard</span></span>](create-onboarding-experience.md)
+- [<span data-ttu-id="497b4-107">Microsoft Dynamics 365 Talent – Attracti funktsioonid ja võimalused</span><span class="sxs-lookup"><span data-stu-id="497b4-107">Microsoft Dynamics 365 Talent - Attract features and capabilities</span></span>](attract-overview.md)
+- [<span data-ttu-id="497b4-108">Onboardi kasutamise alustamine</span><span class="sxs-lookup"><span data-stu-id="497b4-108">Get started with Onboard</span></span>](create-onboarding-experience.md)
 
 > [!IMPORTANT]
-> <span data-ttu-id="8ebdc-109">Rakenduse Dynamics 365 Talent: Core HR funktsioon on nüüd Dynamics 365 Human Resourcesi osa.</span><span class="sxs-lookup"><span data-stu-id="8ebdc-109">The functionality in Dynamics 365 Talent: Core HR is now part of Dynamics 365 Human Resources.</span></span> <span data-ttu-id="8ebdc-110">Saate vaadata Human Resourcesi dokumentatsiooni aadressil [Tere tulemast Dynamics 365 Human Resourcesi](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span><span class="sxs-lookup"><span data-stu-id="8ebdc-110">You can view the documentation for Human Resources at [Welcome to Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span></span>
+> <span data-ttu-id="497b4-109">Rakenduse Dynamics 365 Talent: Core HR funktsioon on nüüd Dynamics 365 Human Resourcesi osa.</span><span class="sxs-lookup"><span data-stu-id="497b4-109">The functionality in Dynamics 365 Talent: Core HR is now part of Dynamics 365 Human Resources.</span></span> <span data-ttu-id="497b4-110">Saate vaadata Human Resourcesi dokumentatsiooni aadressil [Tere tulemast Dynamics 365 Human Resourcesi](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span><span class="sxs-lookup"><span data-stu-id="497b4-110">You can view the documentation for Human Resources at [Welcome to Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
