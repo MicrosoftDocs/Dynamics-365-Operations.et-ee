@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 694c1f415fd52eb9e98ace2e5787c12f7a1fed8e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 644cf8ea39da872962e44a38294af88d1dfa809e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687269"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559865"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Aruandlus ja analüüs Power BI avalehega
 
@@ -35,7 +34,7 @@ Teema suunab teid ressursside juurde, mis annavad teile lisateavet saadaoleva ä
 - [Finance and Operations: Power BI analüütika ja aruandlusteenuste ajaveeb](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (ajaveeb)
 
 ## <a name="analytical-workspaces"></a>Analüütikatööruumid
-Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida Microsoft Power BI toetab. Need teabegraafikud ja visuaalid sisaldavad mitmesuguseid kolmandate osapoolte pakutavaid juhtelemente. Seetõttu on tööruumide kasutamine väga visuaalne ja interaktiivne.
+Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida toetab Microsoft Power BI. Need teabegraafikud ja visuaalid sisaldavad mitmesuguseid kolmandate osapoolte pakutavaid juhtelemente. Seetõttu on tööruumide kasutamine väga visuaalne ja interaktiivne.
 
 Kasutajad saavad andmetega suhtlemiseks klõpsata või puudutada lehel olevaid visuaale. Nad saavad vaadata põhjuseid ja tagajärgi ning teha lihtsaid võimalike stsenaariumitega seotud toiminguid tööruumist lahkumata. Tänu hämmastavatele interaktiivsetele visuaalidele saavad kasutajad meeldival moel andmeid uurida ja peidetud trende avastada.
 

@@ -72,14 +72,16 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.18 (mai 2021)
+                      href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Managementi 10.0.17 (aprill 2021)
                       href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (veebruar 2021)
                       href: get-started/whats-new-scm-10-0-16.md
-                    - name: Supply Chain Management 10.0.15 (jaanuar 2021)
-                      href: get-started/whats-new-scm-10-0-15.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
+                    - name: Eemaldatud või iganenud funktsioonide avaleht
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
@@ -1349,6 +1351,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Jooksvate keskmiste kulude jälgimine varude dimensiooni alusel
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Laokannete arhiivimine
+              href: inventory/archive-inventory-transactions.md
             - name: Varude nähtavuse lisandmoodul
               href: inventory/inventory-visibility.md
         - name: IoT iseõppimisvõime
@@ -2021,6 +2025,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Tehnilised versioonid ja tehnikatoote kategooriad
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Luba olemasolevate toodete muudatuste haldamine
+              href: engineering-change-management/change-management-existing-products.md
             - name: Toote töötsükli olek ja kanded
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Tehnikatoodete muudatuste haldamine
@@ -2129,6 +2135,8 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
                           href: production-control/production-floor-execution-use.md
+                        - name: Kasutajaliidese juhtelementide laadid tootmisosakonna käivitamiseks
+                          href: production-control/production-floor-execution-styles.md
                     - name: Töökaardi konfigureerimine seadmetele
                       href: production-control/config-job-card-device.md
                     - name: Lõpetatuna kinnitamine töökaardi seadmest
@@ -2729,6 +2737,54 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Kauba transpordipiirangute häälestus
               href: transportation/tasks/set-up-transportation-constraints-item.md
+        - name: Väljalaadimiskulu
+          items:
+            - name: Väljalaadimiskulu mooduli ülevaade
+              href: landed-cost/landed-cost-overview.md
+            - name: Väljalaadimiskulu võrdlus transpordihaldusega
+              href: landed-cost/landed-cost-vs-tms.md
+            - name: Väljalaadimiskulu mooduli häälestamine ja konfigureerimine
+              items:
+                - name: Väljalaadimiskulu parameetrid
+                  href: landed-cost/landed-cost-parameters.md
+                - name: Väljalaadimiskulu hangete parameetrid
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Reisi oleku häälestus
+                  href: landed-cost/voyage-status-setup.md
+                - name: Veokonteineri häälestus
+                  href: landed-cost/shipping-container-setup.md
+                - name: Tarneteabe häälestus
+                  href: landed-cost/delivery-information-setup.md
+                - name: Mitmeetapilise teekonna häälestus
+                  href: landed-cost/multi-leg-journey-setup.md
+                - name: Lähetamisteabe häälestus
+                  href: landed-cost/shipping-information-setup.md
+                - name: Kuluarvutusparameetri väärtuste häälestus
+                  href: landed-cost/costing-parameters-setup.md
+                - name: Pearaamatu vaikekirjeldused
+                  href: landed-cost/defult-descriptions.md
+            - name: Väljalaadimiskulule lisati hankija sätted
+              href: landed-cost/vendors-landed-cost-settings.md
+            - name: 'Töö reiside, konteinerite ja fooliotega'
+              items:
+                - name: Reiside haldamine
+                  href: landed-cost/manage-voyages.md
+                - name: Veokonteinerite haldamine
+                  href: landed-cost/manage-shipping-containers.md
+                - name: Fooliote haldamine
+                  href: landed-cost/manage-folios.md
+            - name: Sissetulevate reiside ja veokonteinerite lähetusteekondade jälgimine
+              href: landed-cost/inbound-tracking.md
+            - name: Väljalaadimiskulude hindamine ja haldamine
+              href: landed-cost/estimate-manage-landed-costs.md
+            - name: Transiidis töötlemine
+              href: landed-cost/in-transit-processing.md
+            - name: Üle-/alakannete töötlemine
+              href: landed-cost/over-under-transactions.md
+            - name: Väljalaadimiskulu päringud
+              href: landed-cost/landed-cost-inquiries.md
+            - name: Väljalaadimiskulu aruanded
+              href: landed-cost/landed-cost-reports.md
         - name: Laohaldus
           items:
             - name: Laohalduse ülevaade
@@ -2925,10 +2981,12 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Kauba konsolideerimise – asukoha kasutamine
                       href: warehousing/item-consolidation-location-utilization.md
-                    - name: Laotöö tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: Töö tükeldamine
                       href: warehousing/work-split.md
+                    - name: Materjali käsitlemise seadmete liides (MHAX)
+                      href: warehousing/mhax.md
+                    - name: Laotöö tõrkeotsing
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Lao häälestus
               items:
                 - name: Lao konfiguratsioon
@@ -2987,6 +3045,8 @@
                   items:
                     - name: Laohalduse mobiilirakenduse installimine ja ühendamine
                       href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Mobiilse seadme kasutaja sätted
+                      href: warehousing/mobile-device-user-settings.md
                     - name: Laorakenduse installimine ja ühendamine
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Vöötkoodide skannimine kaamera abil laorakenduses

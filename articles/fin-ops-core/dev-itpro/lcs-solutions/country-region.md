@@ -1,27 +1,26 @@
 ---
 title: Globaliseerimisressursid
 description: See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide ja pakkumiste kohta rohkem teada saada.
-author: ShylaThompson
+author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 26411c24751f698a6789bbbd687aca8f378f7d65
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154115"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560914"
 ---
 # <a name="globalization-resources"></a>Globaliseerimisressursid
 
@@ -55,7 +54,6 @@ Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioo
 
 #### <a name="regulatory-updates"></a>Regulatiivsed värskendused
 -   [Regulatiivsed värskendused](../../../finance/localizations/regulatory-updates.md)
--   [Lokaliseerimise portaal](https://docs.microsoft.com/dynamics/s-e/) (värskendatakse kord nädalas)
 -   [Lifecycle Servicesi (LCS) teema otsing](../lifecycle-services/issue-search-lcs.md) (värskendatakse iga päev)
 
 #### <a name="communication-and-alerts"></a>Suhtlus ja teatised

@@ -72,7 +72,9 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.17 (märts 2021)
+                    - name: Finance 10.0.18 (mai 2021)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: Finance 10.0.17 (aprill 2021)
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (veebruar 2021)
                       href: get-started/whats-new-changed-10-0-16.md
@@ -80,6 +82,8 @@
                       href: get-started/whats-new-changed-10-0-15.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
+                - name: Eemaldatud või iganenud funktsioonide avaleht
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Dynamics 365 Finance'i eemaldatud või iganenud funktsioonid
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Märgukirjade töötlemine
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Märgukirjade töötlemise näide
+              href: accounts-receivable/process-collection-letters-example.md
             - name: Müügireskontro ajalise jaotuse teabe häälestus ja genereerimine
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Kliendi ajalise jaotuse aruanne
@@ -486,6 +492,8 @@
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: Dokumentide ja kannete nummerdamine kronoloogiliselt
               href: accounts-receivable/chrono-numbers.md
+            - name: Arhiivi prinditud kliendiarved räsinumbritega
+              href: accounts-receivable/archive-printed-invoices.md
         - name: Eelarvestamine
           items:
             - name: Eelarvestamise avaleht
@@ -1318,6 +1326,8 @@
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
                 - name: Mitme ühekordse hankija ja arve importimine ja loomine avalikus sektoris
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Arvestuse jaotuste redigeerimise piiramine arvete osas
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: Ühekordsete hankijate planeerimine avalikus sektoris
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: Ostulepingutele juurdepääsu reguleerimine avalikus sektoris
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Brasiilias
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Kliendi elektroonilised arved Egiptuses
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Mehhikos
@@ -1576,10 +1586,12 @@
                       href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'NF-e XML-dokumentide ja DANFE häälestamine, importimine ning kinnitamine'
                       href: localizations/latam-bra-set-up-import-nfe.md
-                    - name: NF-e üldparameetrite seadistamine
+                    - name: NF-e üldparameetrite häälestus
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e parameetrite seadistamine maksuameti jaoks
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.006 – vahendaja müügi digitaalne platvorm NF-e jaoks
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 – maksusoodustused ja maksuvabastuse reeglid NF-e/NFC-e jaoks
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
@@ -1784,6 +1796,8 @@
                   href: localizations/emea-egy-reg-numbers.md
                 - name: Egiptuse arve paigutuse konfigureerimine
                   href: localizations/emea-egy-invoice-layout.md
+                - name: Kliendi elektroonilised arved Egiptuses
+                  href: localizations/emea-egy-e-invoices.md
             - name: Eesti
               items:
                 - name: Eesti ülevaade
@@ -2008,12 +2022,14 @@
                   items:
                     - name: Saksamaa auditifaili ülevaade
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: Auditifaili konfiguratsiooni kohandamine
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Auditifaili genereerimine
-                      href: localizations/tasks/german-audit-file.md
                     - name: Auditifaili konfiguratsiooni importimine
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: Auditifaili genereerimine
+                      href: localizations/tasks/german-audit-file.md
+                    - name: Auditifaili konfiguratsiooni kohandamine
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: Filtrite lisamine auditifaili konfiguratsioonile
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Täiendavate soetamiste kulumi korrigeerimised teisel aastal
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Käibemaksudeklaratsiooni (ELSTER) elektrooniline edastamine
@@ -2306,7 +2322,7 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Musta loendi aruanne
                   href: localizations/emea-ita-black-list-report.md
-                - name: Pädevuskuupäev
+                - name: Pädevuskuupäev ja fiskaaltööleht
                   href: localizations/emea-ita-competence-date.md
                 - name: Põhivarade kulum
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
@@ -3253,7 +3269,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Finantstulemused
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Finantsülevaated
+                - name: Finantsanalüüs
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: Põhivara haldamine
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,6 +3697,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: ER-i konfiguratsioonide korduvkasutamine Exceli mallidega Wordi vormingus aruannete loomiseks
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Wordi sisu juhtelementide peitmine loodud aruannetes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: Konfiguratsioonide koostamine PDF-mallide täitmiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Piltide ja kujundite manustamine
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Konfiguratsioonide jagamine GR-is
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Lühijuhendid
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks

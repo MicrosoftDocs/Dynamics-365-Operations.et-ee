@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: cf4d03c1a697259899c419ce084b35f4eddf13fe
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 857078e0b97bd136f5236c999a939d3fd263c39f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142295"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238372"
 ---
 # <a name="revenue-recognition-bundles"></a>Tulu tuvastamise kogumid
 
@@ -29,7 +29,7 @@ ms.locfileid: "5142295"
 Selles teemas kirjeldatakse müügireskontro tulu tuvastamise võimekuse kogumifunktsiooni. Kogum sisaldab emakaupa ja mitut koostiskaupa. Emakaup sisestatakse müügitellimusele, et tellimuse kirje oleks tõhusam. Kuid seejärel jaotatakse see koostiskaupadeks. Sisedokumentides, nt saatelehel, loetletakse koostiskaubad. Kuid välisdokumentides näidatakse ainult emakaup.
 
 > [!NOTE]
-> Microsofti Dynamics 365 Commerce kanalid, nt veeb, kassa (POS) ja kõnekeskused, ei toeta tulu tuvastamist (sh kogumifunktsiooni). See hõlmab Dynamics 365 Supply Chain Managementi ja Dynamics 365 Salesi lahendust Potentsiaalne klient sularahaks. Tulu tuvastamiseks konfigureeritud kaupu ei tohiks lisada tellimustele või kannetele, mis on loodud Commerce'i kanalites või lahenduses Potentsiaalne klient sularahaks.
+> Microsoft Dynamics 365 Commerce'i kanalid, nt veeb, kassa (POS) ja kõnekeskused, ei toeta tulu tuvastamist (sh kogumifunktsiooni). See hõlmab Dynamics 365 Supply Chain Managementi ja Dynamics 365 Salesi lahendust Potentsiaalne klient sularahaks. Tulu tuvastamiseks konfigureeritud kaupu ei tohiks lisada tellimustele või kannetele, mis on loodud Commerce'i kanalites või lahenduses Potentsiaalne klient sularahaks.
 
 Kogumite häälestamiseks peate sisestama tulu tuvastamise konfiguratsioonivõtmed. Kuid saate kogumeid kasutada ka juhul, kui tulu tuvastamine pole häälestatud. Sarnaselt saate kasutada ka tulu tuvastamist, kui kogumid pole häälestatud. Kui tulu tuvastamine on häälestatud, määratlevad koostiskaubad tulu hinna ja tulu graafiku, mida kasutatakse müügitellimuse arveldamisel tulu tuvastamiseks või viitvõlaks.
 
