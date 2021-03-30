@@ -1,6 +1,6 @@
 ---
 title: Finantsvastavusseviimine kauplustes
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Commerce'i kassa finantsvastavusseviimist kauplustes.
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Commerce'i kassa finantsvastavusse viimisest kauplustes.
 author: anpurush
 manager: AnnBe
 ms.date: 06/09/2020
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 99c238ecfbb6cb29f4fefefdca32525b99a01dc8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251327"
 ---
-# <a name="financial-reconciliation-in-retail-stores"></a>Finantsvastavusseviimine kauplustes
+# <a name="financial-reconciliation-in-retail-stores"></a>Finantsiline vastavusseviimine jaekauplustes
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Commerce'i versioonis 10.0.10 ja varasemas, võimaldab kassa kliendi pakutav päevalõpu toimingute funktsioon teha kaupluste ja kaupluse kassapidajatel ja juhtidel teha päevalõpu toiminguid. Neil on võimalik teha näiteks päevakassasid, pimedalt suletud vahetusi, viia vahetuse kandeid vastavusse ja sulgeda vahetusi. Kuid kassas ei ole võimalust vahetuste finantsteabe lõpetamiseks, et seda saaks kasutada Commerce'i peakontoris finantside sisestamiseks. Tavaliselt vastutavad selle ülesande lõpule viimise eest kaupluse juhid. Enne, kui nad saavad vahetust välja registreerida, peavad nad teabe üle vaatama, tegema nõutavad parandused ja lõpetama selle vahetuse kogusummad. Seejärel tuleks lõpetatud kogusummad sisestada Commerce'i peakontori finantsmoodulisse.
+Rakenduse Microsoft Dynamics 365 Commerce versioonis 10.0.10 ja varasemas, võimaldab kassa kliendi pakutav päevalõpu toimingute funktsioon teha kaupluste ja kaupluse kassapidajatel ja juhtidel teha päevalõpu toiminguid. Neil on võimalik teha näiteks päevakassasid, pimedalt suletud vahetusi, viia vahetuse kandeid vastavusse ja sulgeda vahetusi. Kuid kassas ei ole võimalust vahetuste finantsteabe lõpetamiseks, et seda saaks kasutada Commerce'i peakontoris finantside sisestamiseks. Tavaliselt vastutavad selle ülesande lõpule viimise eest kaupluse juhid. Enne, kui nad saavad vahetust välja registreerida, peavad nad teabe üle vaatama, tegema nõutavad parandused ja lõpetama selle vahetuse kogusummad. Seejärel tuleks lõpetatud kogusummad sisestada Commerce'i peakontori finantsmoodulisse.
 
 Lisaks saavad kaupluse juhid Commerce'i versioonis 10.0.10 ja varasemas vaadata üle ja teha korrigeerimisi Commerce'i peakontori väljavõtteridadele. Kuid see võimalus on piiratud ja kaupluse juhtidel pole üldjuhul juurdepääsu Commerce'i peakontori kliendile. Lisaks saab jaemüügi finantsaruande ülevaadet ja korrigeerimist teha ainult siis, kui avaldused luuakse Commerce-i peakontoris. Kuid see toiming toimub tavaliselt öösiti. Seetõttu peavad kaupluse juhid ootama vahetuse väljaregistreerimiseni, kui jaemüügi finantsaruanded luuakse Commerce'i peakontoris.
 

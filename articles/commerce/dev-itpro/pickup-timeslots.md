@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
-ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
+ms.openlocfilehash: 6dc2be8a6f62ce13068ce2242f92ef17830c2447
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "4828207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205743"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kliendi järeletulemise ajavahemike loomine ja värskendamine
 
@@ -32,7 +32,7 @@ See teema kirjeldab kliendi järeletulemise ajavahemike loomist, konfigureerimis
 Ajavahemiku funktsioon annab jaemüüjatele võimaluse määratleda ajavahemiku kaupadele, mille jaoks kliendi järeletulemisega tarneviis on sisse lülitatud. Ajavahemikud võimaldavad jaemüüjatel määratleda päevad ja kellaajad, kui tellimustele saab poodi järele tulla. Jaemüüjad saavad määratleda ka tellimuste arvu, millele saab kindla perioodi jooksul järele tulla. Sel viisil saavad jaemüüjad piirata selliste tellimuste arvu, millele saab kindlal päeval ja kindlal kellaajal järele tulla. Tulemuseks on kvaliteetsem klienditeenindus.
 
 > [!NOTE]
-> Ajavahemiku funktsioon on saadaval Microsoft Dynamics 365 Commerce'i versioonis 10.0.15 ja uuemates versioonides.
+> Ajavahemiku funktsioon on saadaval rakenduse Microsoft Dynamics 365 Commerce versioonis 10.0.15 ja uuemates versioonides.
 
 Järgmisel joonisel on näidatud ajavahemiku valiku näide e-kaubanduse kassas.
 

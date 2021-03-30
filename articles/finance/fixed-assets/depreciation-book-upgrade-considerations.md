@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ffaeafa987c85aee17404fbfcf8c69c9699e2f3b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 016787fa0636b0a3c0d17d2e4fd890cf56d8f519
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994986"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241230"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Kulumiraamatu uuendamise ülevaade
 
@@ -45,7 +45,7 @@ Suvand 1:  **Süsteemi määratletud numbriseeria** – see on vaikesuvand täie
     -   Püsinimi: **NumberSequenceDefaultParameterAlpanumericLength **
     -   Vaikeväärtus: 9
 -   **Algusnumber** – esimene numbriseerias kasutatav number.
-    -   Püsinimi: **NumberSequenceDefaultParameterStartNumber  **
+    -   Püsinimi: **NumberSequenceDefaultParameterStartNumber **
     -   Vaikeväärtus: 1
 
 2. valik: **Olemasolev kasutaja määratletud numbriseeria** – see valik võimaldab määratleda täiendamiseks kasutatava numbriseeria. Kaaluge selle valiku kasutamist, kui vajate täpsemat numbriseeria konfigureerimist. Numbriseeria kasutamiseks peate muutma täiendusklassi ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans järgmise teabega.

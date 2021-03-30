@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: b17e986c2e30134c334cd547a85a1dd682172a0e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26658ebdbc70613baf30c344664133b9cf5911ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979799"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243765"
 ---
 # <a name="ratings-and-reviews-modules"></a>Hinnangute ja arvustuste moodulid
 
 [!include [banner](includes/banner.md)]
 
-See teema käsitleb hinnangute ja arvustuste mooduleid, mida Microsoft Dynamics 365 Commerce’i toote üksikasjade lehtedel (PDP-d) kasutatakse.
-
-## <a name="overview"></a>Ülevaade
+See teema käsitleb hinnangute ja arvustuste mooduleid, mida Microsoft Dynamics 365 Commerce’i toote üksikasjade lehtedel kasutatakse.
 
 Hinnangud ja arvustused e-Commerce’i veebisaitidel aitavad klientidel saada toote kohta teavet enne ostuotsuse tegemist ja on lisaks mehhanism toodete kohta kliendi tagasiside kogumiseks. 
 

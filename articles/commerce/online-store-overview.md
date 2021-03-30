@@ -1,6 +1,6 @@
 ---
 title: E-kaubanduse saidi ülevaade
-description: Selles teemas antakse ülevaade Microsofti e-kaubanduse saitide toest Dynamics 365 Commerce'is.
+description: Selles teemas antakse ülevaade e-kaubanduse saitide toest rakenduses Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
 ms.date: 11/05/2020
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae220e98acbda99255beefea598d973dbaa22368
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 53bce671d6aca35335a3b3ef557a94fa60da1edc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997543"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251183"
 ---
 # <a name="e-commerce-site-overview"></a>E-kaubanduse saidi ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse ülevaade Microsofti e-kaubanduse saitide toest Dynamics 365 Commerce'is. See sisaldab teavet selle kohta, kuidas e-kaubanduse võrgupoode lähtestatakse ja hallatakse rakenduses Dynamics 365 Commerce. See sisaldab ka linke lisateabele võrgupoodide ja e-kaubanduse saidi häälestamise ja konfigureerimise kohta. Kuigi see teema hõlmab paljusid põhitõdesid, ei hõlma see kõike, mis on vajalik tootmise e-kaubanduse saidi loomiseks. Täpsemad teemad leiate Dynamics 365 Commerce'i dokumentatsioonist.
+Selles teemas antakse ülevaade e-kaubanduse saitide toest rakenduses Microsoft Dynamics 365 Commerce. See sisaldab teavet selle kohta, kuidas e-kaubanduse võrgupoode lähtestatakse ja hallatakse rakenduses Dynamics 365 Commerce. See sisaldab ka linke lisateabele võrgupoodide ja e-kaubanduse saidi häälestamise ja konfigureerimise kohta. Kuigi see teema hõlmab paljusid põhitõdesid, ei hõlma see kõike, mis on vajalik tootmise e-kaubanduse saidi loomiseks. Täpsemad teemad leiate Dynamics 365 Commerce'i dokumentatsioonist.
 
 ## <a name="online-store-channel"></a>Võrgupoe kanal
 

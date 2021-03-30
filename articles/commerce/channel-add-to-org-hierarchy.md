@@ -1,6 +1,6 @@
 ---
 title: Kanali lisamine organisatsiooni hierarhiale
-description: Selles teemas kirjeldatakse, kuidas lisada Microsoft Dynamics 365 Commerce'i organisatsiooni hierarhiale kanalit.
+description: Selles teemas kirjeldatakse, kuidas lisada rakenduses Microsoft Dynamics 365 Commerce' organisatsiooni hierarhiale kanalit.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 297bd34f9bde23d5cc7de266b8e8f49b1a752662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4212797d2959c4f8b0d60e6b45de76ffc3ee0dc2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993687"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216744"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Kanali lisamine organisatsiooni hierarhiale
 
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas lisada Microsoft Dynamics 365 Commerce'i organisatsiooni hierarhiale kanalit.
+Selles teemas kirjeldatakse, kuidas lisada rakenduses Microsoft Dynamics 365 Commerce' organisatsiooni hierarhiale kanalit.
 
 ## <a name="overview"></a>Ülevaade
 
