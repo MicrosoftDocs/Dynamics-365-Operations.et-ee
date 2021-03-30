@@ -1,6 +1,6 @@
 ---
 title: Konteinermoodul
-description: See teema hõlmab konteinermooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 23d81eaee6684ff2b041f93edd05076af66d322d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43017cbb76c38eed6951a9e87c763cf919c3bd93
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206411"
 ---
 # <a name="container-module"></a>Konteinermoodul
 
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab konteinermooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
-
-## <a name="overview"></a>Ülevaade
+See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 Konteinermoodul on moodul, mis majutab endas teisi mooduleid. Konteinermooduli esmane eesmärk on määratleda selle jaoks määratud atribuutide kaudu selles sisalduvate moodulite paigutus. Näiteks võivad need moodulid esineda kõrvuti kahe veeruga, kolme veeruga, nelja veeruga või kuue veeruga paigutuses. Need võivad olla ka piiratud konteineri laiusega või täita ekraani. Igale konteinermoodulile võib lisada ka pealkirja.
 

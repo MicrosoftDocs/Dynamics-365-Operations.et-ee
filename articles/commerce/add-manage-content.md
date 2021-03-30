@@ -1,6 +1,6 @@
 ---
 title: Sisu lisamise viisid
-description: See teema annab ülevaate ja valitud lingid, kust ja kuidas alustada sisu haldamist kasutades Microsoft Dynamics 365 Commerce'i saidiehitaja veebivalmistamise tööriistakomplekti.
+description: See teema annab ülevaate ja valitud lingid, kust ja kuidas alustada sisu haldamist kasutades Microsoft Dynamics 365 Commerce saidiehitaja veebivalmistamise tööriistakomplekti.
 author: phinneyridge
 manager: annbe
 ms.date: 10/09/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d818ab91af7b1a74b580e145e4b602cca0ea1662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980253"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208059"
 ---
 # <a name="ways-to-add-content"></a>Sisu lisamise viisid
 
 [!include [banner](includes/banner.md)]
 
-See teema annab ülevaate ja valitud lingid dokumentatsiooni juurde, kuidas hallata sisu kasutades Microsoft Dynamics 365 Commerce'i saidiehitaja veebivalmistamise tööriistakomplekti.
+See teema annab ülevaate ja valitud lingid dokumentatsiooni juurde, kuidas hallata sisu, kasutades Microsoft Dynamics 365 Commerce'i saidiehitaja veebivalmistamise tööriistakomplekti.
 
 ## <a name="overview"></a>Ülevaade
 

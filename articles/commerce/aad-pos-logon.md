@@ -1,6 +1,6 @@
 ---
 title: Luba Azure Active Directory kassa sisselogimise autentimine
-description: See teema selgitab, kuidas konfigureerida Microsoft Dynamics 365 Commerce'i kassasse (POS) sisselogimise kogemust nii, et see kasutab Azure Active Directory autentimist.
+description: See teema selgitab, kuidas konfigureerida Microsoft Microsoft Dynamics 365 Commerce'i kassasse (POS) sisselogimise kogemust nii, et see kasutab Azure Active Directory autentimist.
 author: boycezhu
 manager: annbe
 ms.date: 07/27/2020
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d6073a04814adf8237b4caa952b31b011f4b34bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 234d19bb6659af07c65763e05671742b9581e244
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982736"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206675"
 ---
-# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Luba Azure Active Directory kassa sisselogimise autentimine
+# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Azure Active Directory autentimise lubamine kassasse sisselogimiseks
 [!include [banner](includes/banner.md)]
 
 
-Paljud kliendid, kes kasutavad Microsoft Dynamics 365 Commerce'i, kasutavad ka teisi Microsoft pilve teenuseid ja võivad Azure Active Directory kasutada (Azure AD) nende teenuste kasutaja mandaadi haldamiseks. Sel juhul võivad kliendid soovida kasutada sama Azure AD kontot kõigis rakendustes. See teema selgitab, kuidas konfigureerida kaubanduse kassasse (POS) sisselogimise kogemust nii, et see kasutab Azure AD autentimist.
+Paljud kliendid, kes kasutavad Microsoft Microsoft Dynamics 365 Commerce'i, kasutavad ka teisi Microsofti pilveteenuseid ja võivad Azure Active Directory kasutada (Azure AD) nende teenuste kasutaja mandaadi haldamiseks. Sel juhul võivad kliendid soovida kasutada sama Azure AD kontot kõigis rakendustes. See teema selgitab, kuidas konfigureerida kaubanduse kassasse (POS) sisselogimise kogemust nii, et see kasutab Azure AD autentimist.
 
 ## <a name="configure-azure-ad-authentication"></a>Autentimise Azure AD konfigureerimine
 

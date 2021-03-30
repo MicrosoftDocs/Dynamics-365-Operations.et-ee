@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f98fbc14fc2946499a9c003eb0bd0edb7f2017e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991411"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214719"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Tagasimaksete töötlemine kõnekeskustes
 
 Selles teemas kirjeldatakse, kuidas genereeritakse kõnekeskuste kaudu maksete tagasimaksed, kui luuakse tagastused või tühistatakse tellimused või tellimusread.
 
-Kasutaja, kes loob kliendile tagastustellimuse kõnekeskuse kasutajana Microsoft Dynamics 365 Commerce'i  peakontoris, kasutab lehte **Tagastustellimus**, et luua esialgne tagastatud kauba kood (RMA). RMA määratleb tooted, mida klient soovib tagastada või vahetada, ja loob lingitud tagastamise müügitellimuse, mille tellimuse tüüp on **Tagastatud tellimus**. Seda lingitud tagastustellimust kasutatakse tagastatud varude sisestamise ja mis tahes sisestatud kreeditarvete või tagasimaksete jälgimiseks.
+Kasutaja, kes loob kliendile tagastustellimuse kõnekeskuse kasutajana Microsoft Dynamics 365 Commerce'i peakontoris, kasutab lehte **Tagastustellimus**, et luua esialgne tagastatud kauba kood (RMA). RMA määratleb tooted, mida klient soovib tagastada või vahetada, ja loob lingitud tagastamise müügitellimuse, mille tellimuse tüüp on **Tagastatud tellimus**. Seda lingitud tagastustellimust kasutatakse tagastatud varude sisestamise ja mis tahes sisestatud kreeditarvete või tagasimaksete jälgimiseks.
 
 Kui kõnekeskuse kanali puhul on suvandi **Tellimuse lõpetamise lubamine** väärtuseks määratud **Jah**, peab RMA loonud kõnekeskuse kasutaja käivitama tellimuse täitmise töötlemisvoo, valides lehel **Tagastustellimus** käsu **Vii lõpule**. Funktsioon **Vii lõpule** kuvab arvutatud tagastuse kokkuvõtte, milles on toodud teave maksmisele kuuluva tagasimakse summa kohta. Peale selle, kui see on õigesti seadistatud, loob see süstemaatiliselt tagastustellimusele vastava tagasimakse rea.
 
