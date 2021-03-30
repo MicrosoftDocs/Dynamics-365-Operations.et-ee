@@ -14,23 +14,26 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fce5d708f3ac4b7dc9c2048538b53c42334e0ecc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c7616f78f7f7d2015d1a82771ed2f5f60ddf6692
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986825"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213302"
 ---
-# <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="e5ab3-103">Uue toote elutsükli oleku loomine</span><span class="sxs-lookup"><span data-stu-id="e5ab3-103">Create a new product lifecycle state</span></span>
+# <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="075a5-103">Uue toote elutsükli oleku loomine</span><span class="sxs-lookup"><span data-stu-id="075a5-103">Create a new product lifecycle state</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e5ab3-104">See protseduur näitab, kuidas luua uut toote elutsükli olekut.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="e5ab3-105">Toote elutsükli olek dokumenteerib väljastatud toote või tootevariandi elutsükli oleku.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="e5ab3-106">Toote elutsükli olekud määratleb kasutaja, tavaliselt tootejuht või tooteetaloni andmehaldur.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="e5ab3-107">Elutsükli olek võib mõjutada konkreetseid äriprotsesse, näiteks koondplaneerimist.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
+<span data-ttu-id="075a5-104">See protseduur näitab, kuidas luua uut toote elutsükli olekut.</span><span class="sxs-lookup"><span data-stu-id="075a5-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="075a5-105">Toote elutsükli olek dokumenteerib väljastatud toote või tootevariandi elutsükli oleku.</span><span class="sxs-lookup"><span data-stu-id="075a5-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="075a5-106">Toote elutsükli olekud määratleb kasutaja, tavaliselt tootejuht või tooteetaloni andmehaldur.</span><span class="sxs-lookup"><span data-stu-id="075a5-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="075a5-107">Elutsükli olek võib mõjutada konkreetseid äriprotsesse, näiteks koondplaneerimist.</span><span class="sxs-lookup"><span data-stu-id="075a5-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
 
 
-## <a name="create-a-product-lifecycle-state"></a><span data-ttu-id="e5ab3-108">Toote elutsükli oleku loomine</span><span class="sxs-lookup"><span data-stu-id="e5ab3-108">Create a product lifecycle state</span></span>
-1. <span data-ttu-id="e5ab3-109">Avage Tooteteabe haldus > Häälestus > Toote elutsükli olek.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-109">Go to Product information management > Setup > Product lifecycle state.</span></span>
-2. <span data-ttu-id="e5ab3-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-110">Click New.</span></span>
-3. <span data-ttu-id="e5ab3-111">Tippige väärtus väljale Olek.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-111">In the State field, type a value.</span></span>
-4. <span data-ttu-id="e5ab3-112">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="e5ab3-112">In the Description field, type a value.</span></span>
+## <a name="create-a-product-lifecycle-state"></a><span data-ttu-id="075a5-108">Toote elutsükli oleku loomine</span><span class="sxs-lookup"><span data-stu-id="075a5-108">Create a product lifecycle state</span></span>
+1. <span data-ttu-id="075a5-109">Avage Tooteteabe haldus > Häälestus > Toote elutsükli olek.</span><span class="sxs-lookup"><span data-stu-id="075a5-109">Go to Product information management > Setup > Product lifecycle state.</span></span>
+2. <span data-ttu-id="075a5-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="075a5-110">Click New.</span></span>
+3. <span data-ttu-id="075a5-111">Tippige väärtus väljale Olek.</span><span class="sxs-lookup"><span data-stu-id="075a5-111">In the State field, type a value.</span></span>
+4. <span data-ttu-id="075a5-112">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="075a5-112">In the Description field, type a value.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

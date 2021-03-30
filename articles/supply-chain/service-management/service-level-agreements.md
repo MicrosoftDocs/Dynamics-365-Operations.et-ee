@@ -17,66 +17,69 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f2cfa8b72e515b6237914499af626ff8262429d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b626d490b5abb948943df25c956c48084953da7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974356"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214318"
 ---
-# <a name="service-level-agreements-overview"></a><span data-ttu-id="7aa29-103">Teenusetaseme lepingute ülevaade</span><span class="sxs-lookup"><span data-stu-id="7aa29-103">Service level agreements overview</span></span>       
+# <a name="service-level-agreements-overview"></a><span data-ttu-id="92aab-103">Teenusetaseme lepingute ülevaade</span><span class="sxs-lookup"><span data-stu-id="92aab-103">Service level agreements overview</span></span>       
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="7aa29-104">Teenusetaseme lepe (SLA) on teenusettevõtte ja teenuskliendi vaheline leping.</span><span class="sxs-lookup"><span data-stu-id="7aa29-104">A service level agreement (SLA) is an agreement between a service company and a service customer.</span></span> <span data-ttu-id="7aa29-105">Teenusetaseme leppes nõustub klient minimaalse reageerimisajaga, mille arvestamise aluseks on ajavahemik teenusettevõte probleemi registreerimise ja probleemi lahendamise vahel.</span><span class="sxs-lookup"><span data-stu-id="7aa29-105">In a SLA, the customer agrees to a minimum response time based on when the service company records the issue and when the issue is resolved.</span></span>
+<span data-ttu-id="92aab-104">Teenusetaseme lepe (SLA) on teenusettevõtte ja teenuskliendi vaheline leping.</span><span class="sxs-lookup"><span data-stu-id="92aab-104">A service level agreement (SLA) is an agreement between a service company and a service customer.</span></span> <span data-ttu-id="92aab-105">Teenusetaseme leppes nõustub klient minimaalse reageerimisajaga, mille arvestamise aluseks on ajavahemik teenusettevõte probleemi registreerimise ja probleemi lahendamise vahel.</span><span class="sxs-lookup"><span data-stu-id="92aab-105">In a SLA, the customer agrees to a minimum response time based on when the service company records the issue and when the issue is resolved.</span></span>
 
-<span data-ttu-id="7aa29-106">Teenusetaseme lepe kehtestab klientidele pakutava standardse teenusetaseme, samuti muudab see teenusettevõtte jaoks selgeks, millal teenusetöö tuleb lõpetada.</span><span class="sxs-lookup"><span data-stu-id="7aa29-106">A SLA enforces a standard level of service that is offered to customers, and also makes it transparent to a service company when a service job should be completed.</span></span>
+<span data-ttu-id="92aab-106">Teenusetaseme lepe kehtestab klientidele pakutava standardse teenusetaseme, samuti muudab see teenusettevõtte jaoks selgeks, millal teenusetöö tuleb lõpetada.</span><span class="sxs-lookup"><span data-stu-id="92aab-106">A SLA enforces a standard level of service that is offered to customers, and also makes it transparent to a service company when a service job should be completed.</span></span>
 
-<span data-ttu-id="7aa29-107">Kliendile erinevate teenusetasemete pakkumiseks saab luua mis tahes arvu teenusetaseme leppeid.</span><span class="sxs-lookup"><span data-stu-id="7aa29-107">Any number of SLAs can be created to offer service customers different levels of service.</span></span>
+<span data-ttu-id="92aab-107">Kliendile erinevate teenusetasemete pakkumiseks saab luua mis tahes arvu teenusetaseme leppeid.</span><span class="sxs-lookup"><span data-stu-id="92aab-107">Any number of SLAs can be created to offer service customers different levels of service.</span></span>
 
-## <a name="create-a-service-level-agreement"></a><span data-ttu-id="7aa29-108">Teenusetaseme leppe loomine</span><span class="sxs-lookup"><span data-stu-id="7aa29-108">Create a service level agreement</span></span>
+## <a name="create-a-service-level-agreement"></a><span data-ttu-id="92aab-108">Teenusetaseme leppe loomine</span><span class="sxs-lookup"><span data-stu-id="92aab-108">Create a service level agreement</span></span>
 
-1.  <span data-ttu-id="7aa29-109">Klõpsake valikut **Teenuste haldus** \> **Häälestamine** \> **Hoolduslepped** \> **Teenindustaseme lepingud**.</span><span class="sxs-lookup"><span data-stu-id="7aa29-109">Click **Service management** \> **Setup** \> **Service agreements** \> **Service level agreements**.</span></span>
+1.  <span data-ttu-id="92aab-109">Klõpsake valikut **Teenuste haldus** \> **Häälestamine** \> **Hoolduslepped** \> **Teenindustaseme lepingud**.</span><span class="sxs-lookup"><span data-stu-id="92aab-109">Click **Service management** \> **Setup** \> **Service agreements** \> **Service level agreements**.</span></span>
 
-2.  <span data-ttu-id="7aa29-110">Sisestage väljale **Teenindustaseme leping** teenindustaseme lepingu nimi.</span><span class="sxs-lookup"><span data-stu-id="7aa29-110">Type a name for the service level agreement in the **Service level agreement** field.</span></span>
+2.  <span data-ttu-id="92aab-110">Sisestage väljale **Teenindustaseme leping** teenindustaseme lepingu nimi.</span><span class="sxs-lookup"><span data-stu-id="92aab-110">Type a name for the service level agreement in the **Service level agreement** field.</span></span>
 
-3.  <span data-ttu-id="7aa29-111">Sisestage aeg, millal soovite lubada teenindustaseme lepinguga seotud lõpetatud teenuse kõned.</span><span class="sxs-lookup"><span data-stu-id="7aa29-111">Type the time that you want to allow for completion of service calls that are attached to the service level agreement.</span></span> <span data-ttu-id="7aa29-112">Seejärel valige kalender, kui soovite teenindustaseme lepingu aluseks võtta konkreetse kalendri.</span><span class="sxs-lookup"><span data-stu-id="7aa29-112">Then select a calendar if you want to base the service level agreement on a specific calendar.</span></span>
+3.  <span data-ttu-id="92aab-111">Sisestage aeg, millal soovite lubada teenindustaseme lepinguga seotud lõpetatud teenuse kõned.</span><span class="sxs-lookup"><span data-stu-id="92aab-111">Type the time that you want to allow for completion of service calls that are attached to the service level agreement.</span></span> <span data-ttu-id="92aab-112">Seejärel valige kalender, kui soovite teenindustaseme lepingu aluseks võtta konkreetse kalendri.</span><span class="sxs-lookup"><span data-stu-id="92aab-112">Then select a calendar if you want to base the service level agreement on a specific calendar.</span></span>
 
-## <a name="apply-a-service-level-agreement"></a><span data-ttu-id="7aa29-113">Teenusetaseme leppe rakendamine</span><span class="sxs-lookup"><span data-stu-id="7aa29-113">Apply a service level agreement</span></span>
+## <a name="apply-a-service-level-agreement"></a><span data-ttu-id="92aab-113">Teenusetaseme leppe rakendamine</span><span class="sxs-lookup"><span data-stu-id="92aab-113">Apply a service level agreement</span></span>
 
-<span data-ttu-id="7aa29-114">Teenusetaseme lepe rakendatakse otse teenuselepingule.</span><span class="sxs-lookup"><span data-stu-id="7aa29-114">The SLA is applied directly to a service agreement.</span></span>
+<span data-ttu-id="92aab-114">Teenusetaseme lepe rakendatakse otse teenuselepingule.</span><span class="sxs-lookup"><span data-stu-id="92aab-114">The SLA is applied directly to a service agreement.</span></span>
 
-<span data-ttu-id="7aa29-115">Hooldustellimused, mille loote käsitsi ja seote teenusetaseme leppega teenuselepingusse antud teenusetaseme leppe alusel.</span><span class="sxs-lookup"><span data-stu-id="7aa29-115">Service orders that you create manually and attach to a service agreement that has an SLA are measured against that SLA.</span></span>
+<span data-ttu-id="92aab-115">Hooldustellimused, mille loote käsitsi ja seote teenusetaseme leppega teenuselepingusse antud teenusetaseme leppe alusel.</span><span class="sxs-lookup"><span data-stu-id="92aab-115">Service orders that you create manually and attach to a service agreement that has an SLA are measured against that SLA.</span></span>
 
-<span data-ttu-id="7aa29-116">Automaatselt loodud teenusetellimusi teenusetaseme leppega ei seota.</span><span class="sxs-lookup"><span data-stu-id="7aa29-116">Service orders that you create automatically are not attached to an SLA.</span></span>
+<span data-ttu-id="92aab-116">Automaatselt loodud teenusetellimusi teenusetaseme leppega ei seota.</span><span class="sxs-lookup"><span data-stu-id="92aab-116">Service orders that you create automatically are not attached to an SLA.</span></span>
 
-## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a><span data-ttu-id="7aa29-117">Teenusetaseme leppe rakendamine teenuseleppele</span><span class="sxs-lookup"><span data-stu-id="7aa29-117">Apply the service level agreement to the service agreement</span></span>
+## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a><span data-ttu-id="92aab-117">Teenusetaseme leppe rakendamine teenuseleppele</span><span class="sxs-lookup"><span data-stu-id="92aab-117">Apply the service level agreement to the service agreement</span></span>
 
-1.  <span data-ttu-id="7aa29-118">Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.</span><span class="sxs-lookup"><span data-stu-id="7aa29-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="7aa29-119">Valige teenuselepe, millele soovite teenusetaseme leppe rakendada, ja klõpsake **toimingupaanil** valikut **Redigeeri**.</span><span class="sxs-lookup"><span data-stu-id="7aa29-119">Select the service agreement that you want to apply the SLA to, and then click **Edit** on the **Action Pane**.</span></span>
+1.  <span data-ttu-id="92aab-118">Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.</span><span class="sxs-lookup"><span data-stu-id="92aab-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="92aab-119">Valige teenuselepe, millele soovite teenusetaseme leppe rakendada, ja klõpsake **toimingupaanil** valikut **Redigeeri**.</span><span class="sxs-lookup"><span data-stu-id="92aab-119">Select the service agreement that you want to apply the SLA to, and then click **Edit** on the **Action Pane**.</span></span>
 
-2.  <span data-ttu-id="7aa29-120">Valige väljal **Teenindustaseme leping** teenindustaseme leping, mida soovite määrata.</span><span class="sxs-lookup"><span data-stu-id="7aa29-120">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
+2.  <span data-ttu-id="92aab-120">Valige väljal **Teenindustaseme leping** teenindustaseme leping, mida soovite määrata.</span><span class="sxs-lookup"><span data-stu-id="92aab-120">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
 
-## <a name="apply-the-service-level-agreement-to-the-service-agreement-group"></a><span data-ttu-id="7aa29-121">Teenusetaseme leppe rakendamine teenuselepingu grupile</span><span class="sxs-lookup"><span data-stu-id="7aa29-121">Apply the service level agreement to the service agreement group</span></span>
+## <a name="apply-the-service-level-agreement-to-the-service-agreement-group"></a><span data-ttu-id="92aab-121">Teenusetaseme leppe rakendamine teenuselepingu grupile</span><span class="sxs-lookup"><span data-stu-id="92aab-121">Apply the service level agreement to the service agreement group</span></span>
 
-1.  <span data-ttu-id="7aa29-122">Klõpsake valikut **Hooldushaldus** \> **Häälestamine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.</span><span class="sxs-lookup"><span data-stu-id="7aa29-122">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
+1.  <span data-ttu-id="92aab-122">Klõpsake valikut **Hooldushaldus** \> **Häälestamine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.</span><span class="sxs-lookup"><span data-stu-id="92aab-122">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
 
-2.  <span data-ttu-id="7aa29-123">Valige väljal **Teenindustaseme leping** teenindustaseme leping, mida soovite määrata.</span><span class="sxs-lookup"><span data-stu-id="7aa29-123">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
+2.  <span data-ttu-id="92aab-123">Valige väljal **Teenindustaseme leping** teenindustaseme leping, mida soovite määrata.</span><span class="sxs-lookup"><span data-stu-id="92aab-123">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
 
-## <a name="track-time-on-a-service-order-against-an-sla"></a><span data-ttu-id="7aa29-124">Teenusetellimuse aja jälgimine teenusetaseme leppe alusel</span><span class="sxs-lookup"><span data-stu-id="7aa29-124">Track time on a service order against an SLA</span></span>
+## <a name="track-time-on-a-service-order-against-an-sla"></a><span data-ttu-id="92aab-124">Teenusetellimuse aja jälgimine teenusetaseme leppe alusel</span><span class="sxs-lookup"><span data-stu-id="92aab-124">Track time on a service order against an SLA</span></span>
 
-<span data-ttu-id="7aa29-125">Kui loote uue hooldustellimuse teenuseleppele, millele on määratud teenindustaseme leping, käivitatakse teenuse tarnimise ajaintervall ja süsteem hakkab tarneaega jälgima.</span><span class="sxs-lookup"><span data-stu-id="7aa29-125">When you create a new service order for a service agreement that an SLA is assigned to, the time interval for the delivery of the service is initiated, and the system starts to track the delivery time.</span></span> <span data-ttu-id="7aa29-126">Peale selle saate seada järgmised valikud.</span><span class="sxs-lookup"><span data-stu-id="7aa29-126">Additionally, you can set the following options:</span></span>
+<span data-ttu-id="92aab-125">Kui loote uue hooldustellimuse teenuseleppele, millele on määratud teenindustaseme leping, käivitatakse teenuse tarnimise ajaintervall ja süsteem hakkab tarneaega jälgima.</span><span class="sxs-lookup"><span data-stu-id="92aab-125">When you create a new service order for a service agreement that an SLA is assigned to, the time interval for the delivery of the service is initiated, and the system starts to track the delivery time.</span></span> <span data-ttu-id="92aab-126">Peale selle saate seada järgmised valikud.</span><span class="sxs-lookup"><span data-stu-id="92aab-126">Additionally, you can set the following options:</span></span>
 
-  - <span data-ttu-id="7aa29-127">Saate alustada ja lõpetada teenusetellimuse aja registreerimise, et registreerida teenusetellimustele kulutatud aja kogusumma.</span><span class="sxs-lookup"><span data-stu-id="7aa29-127">You can start and stop time recording on the service order to register the total amount of time that is spent on service orders.</span></span>
+  - <span data-ttu-id="92aab-127">Saate alustada ja lõpetada teenusetellimuse aja registreerimise, et registreerida teenusetellimustele kulutatud aja kogusumma.</span><span class="sxs-lookup"><span data-stu-id="92aab-127">You can start and stop time recording on the service order to register the total amount of time that is spent on service orders.</span></span>
 
-  - <span data-ttu-id="7aa29-128">Saate jälgida kokkulangevust teenindustaseme lepingus seatud ajaintervalliga.</span><span class="sxs-lookup"><span data-stu-id="7aa29-128">You can monitor compliance with the time interval that is set in the service level agreement.</span></span>
+  - <span data-ttu-id="92aab-128">Saate jälgida kokkulangevust teenindustaseme lepingus seatud ajaintervalliga.</span><span class="sxs-lookup"><span data-stu-id="92aab-128">You can monitor compliance with the time interval that is set in the service level agreement.</span></span>
 
-  - <span data-ttu-id="7aa29-129">Saate määratleda põhjuse koodid, mis tuleb seadistada, kui teenindustaseme lepingus seatud ajaintervall ületatakse.</span><span class="sxs-lookup"><span data-stu-id="7aa29-129">You can define reason codes that must be set if the time interval of the service level agreement is exceeded.</span></span>
+  - <span data-ttu-id="92aab-129">Saate määratleda põhjuse koodid, mis tuleb seadistada, kui teenindustaseme lepingus seatud ajaintervall ületatakse.</span><span class="sxs-lookup"><span data-stu-id="92aab-129">You can define reason codes that must be set if the time interval of the service level agreement is exceeded.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7aa29-130">Vt ka</span><span class="sxs-lookup"><span data-stu-id="7aa29-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92aab-130">Vt ka</span><span class="sxs-lookup"><span data-stu-id="92aab-130">See also</span></span>
 
-[<span data-ttu-id="7aa29-131">teenustaseme lepingute vastavuse vaatamine</span><span class="sxs-lookup"><span data-stu-id="7aa29-131">View compliance with service level agreements</span></span>](view-compliance-with-service-level-agreements.md)
+[<span data-ttu-id="92aab-131">teenustaseme lepingute vastavuse vaatamine</span><span class="sxs-lookup"><span data-stu-id="92aab-131">View compliance with service level agreements</span></span>](view-compliance-with-service-level-agreements.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
