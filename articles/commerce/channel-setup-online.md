@@ -1,5 +1,5 @@
 ---
-title: Veebikanali häälestamine
+title: Võrgukanali häälestamine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.
 author: samjarawan
 manager: annbe
@@ -16,120 +16,123 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 89a28d6d4f435b9cf0c39afc64c3caaf0b24ba19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 44cc63560c048031c8315dc3f15ef07583bdc266
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218341"
 ---
-# <a name="set-up-an-online-channel"></a><span data-ttu-id="479ef-103">Veebikanali häälestamine</span><span class="sxs-lookup"><span data-stu-id="479ef-103">Set up an online channel</span></span>
+# <a name="set-up-an-online-channel"></a><span data-ttu-id="9d9d9-103">Võrgukanali häälestamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-103">Set up an online channel</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="479ef-104">Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.</span><span class="sxs-lookup"><span data-stu-id="479ef-104">This topic describes how to create a new online channel in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="9d9d9-104">Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-104">This topic describes how to create a new online channel in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="479ef-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="479ef-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="9d9d9-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="9d9d9-105">Overview</span></span>
 
-<span data-ttu-id="479ef-106">Dynamics 365 Commerce toetab mitut jaemüügikanalit.</span><span class="sxs-lookup"><span data-stu-id="479ef-106">Dynamics 365 Commerce supports multiple retail channels.</span></span> <span data-ttu-id="479ef-107">Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks).</span><span class="sxs-lookup"><span data-stu-id="479ef-107">These retail channels include online stores, call centers, and retail stores (also known as brick-and-mortar stores).</span></span> <span data-ttu-id="479ef-108">Võrgupoed annavad kliendile võimaluse osta tooteid lisaks oma jaekauplustele ka jaemüüja veebipoest.</span><span class="sxs-lookup"><span data-stu-id="479ef-108">Online stores give customers the option of purchasing products from the retailer's online store in addition to its retail stores.</span></span>
+<span data-ttu-id="9d9d9-106">Dynamics 365 Commerce toetab mitut jaemüügikanalit.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-106">Dynamics 365 Commerce supports multiple retail channels.</span></span> <span data-ttu-id="9d9d9-107">Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks).</span><span class="sxs-lookup"><span data-stu-id="9d9d9-107">These retail channels include online stores, call centers, and retail stores (also known as brick-and-mortar stores).</span></span> <span data-ttu-id="9d9d9-108">Võrgupoed annavad kliendile võimaluse osta tooteid lisaks oma jaekauplustele ka jaemüüja veebipoest.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-108">Online stores give customers the option of purchasing products from the retailer's online store in addition to its retail stores.</span></span>
 
-<span data-ttu-id="479ef-109">Commerce'is veebipoe loomiseks peate esmalt looma võrgukanali.</span><span class="sxs-lookup"><span data-stu-id="479ef-109">To create an online store in Commerce, you must first create an online channel.</span></span> <span data-ttu-id="479ef-110">Enne uue võrgukanali loomist veenduge, et olete lõpuni viinud [Kanali eeltingimuste häälestamise](channels-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="479ef-110">Before you create a new online channel, ensure that you have completed the [Channel set up prerequisites](channels-prerequisites.md).</span></span>
+<span data-ttu-id="9d9d9-109">Commerce'is veebipoe loomiseks peate esmalt looma võrgukanali.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-109">To create an online store in Commerce, you must first create an online channel.</span></span> <span data-ttu-id="9d9d9-110">Enne uue võrgukanali loomist veenduge, et olete lõpuni viinud [Kanali eeltingimuste häälestamise](channels-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="9d9d9-110">Before you create a new online channel, ensure that you have completed the [Channel set up prerequisites](channels-prerequisites.md).</span></span>
 
-<span data-ttu-id="479ef-111">Enne uue saidi loomist peab olema rakenduses Commerce loodud vähemalt üks veebipood.</span><span class="sxs-lookup"><span data-stu-id="479ef-111">Before you can create a new site, at least one online store must be created in Commerce.</span></span> <span data-ttu-id="479ef-112">Lisateavet leiate teemast [E-kaubanduse saidi loomine](create-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="479ef-112">For more information, see [Create an e-Commerce site](create-ecommerce-site.md).</span></span>
+<span data-ttu-id="9d9d9-111">Enne uue saidi loomist peab olema rakenduses Commerce loodud vähemalt üks veebipood.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-111">Before you can create a new site, at least one online store must be created in Commerce.</span></span> <span data-ttu-id="9d9d9-112">Lisateavet leiate teemast [E-kaubanduse saidi loomine](create-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="9d9d9-112">For more information, see [Create an e-Commerce site](create-ecommerce-site.md).</span></span>
 
-## <a name="create-and-configure-a-new-online-channel"></a><span data-ttu-id="479ef-113">Uue võrgukanali loomine ja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="479ef-113">Create and configure a new online channel</span></span>
+## <a name="create-and-configure-a-new-online-channel"></a><span data-ttu-id="9d9d9-113">Uue võrgukanali loomine ja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-113">Create and configure a new online channel</span></span>
 
-<span data-ttu-id="479ef-114">Uue võrgukanali loomiseks ja konfigureerimiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="479ef-114">To create and configure a new online channel, follow these steps.</span></span>
+<span data-ttu-id="9d9d9-114">Uue võrgukanali loomiseks ja konfigureerimiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-114">To create and configure a new online channel, follow these steps.</span></span>
 
-1. <span data-ttu-id="479ef-115">Avage navigatsioonipaneelil **Moodulid \> Kanalid \> Veebipoed**.</span><span class="sxs-lookup"><span data-stu-id="479ef-115">In the navigation pane, go to **Modules \> Channels \> Online Stores**.</span></span>
-1. <span data-ttu-id="479ef-116">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="479ef-116">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="479ef-117">Sisestage väljale **Nimi** uue kanali nimi.</span><span class="sxs-lookup"><span data-stu-id="479ef-117">In the **Name** field, provide a name for the new channel.</span></span>
-1. <span data-ttu-id="479ef-118">Sisestage ripploendisse **Juriidiline isik** sobiv juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="479ef-118">In the **Legal entity** drop-down, enter the appropriate legal entity.</span></span>
-1. <span data-ttu-id="479ef-119">Sisestage ripploendisse **Ladu** sobiv ladu.</span><span class="sxs-lookup"><span data-stu-id="479ef-119">In the **Warehouse** drop-down, enter the appropriate warehouse.</span></span>
-1. <span data-ttu-id="479ef-120">Valige sobiv ajavöönd väljal **Kaupluse ajavöönd**.</span><span class="sxs-lookup"><span data-stu-id="479ef-120">In the **Store time zone** field, select the appropriate time zone.</span></span>
-1. <span data-ttu-id="479ef-121">Valige väljal **Valuuta** sobiv valuuta.</span><span class="sxs-lookup"><span data-stu-id="479ef-121">In the **Currency** field, select the appropriate currency.</span></span>
-1. <span data-ttu-id="479ef-122">Sisestage väljale **Vaikeklient** kehtiv vaikeklient.</span><span class="sxs-lookup"><span data-stu-id="479ef-122">In the **Default customer** field, provide a valid default customer.</span></span>
-1. <span data-ttu-id="479ef-123">Sisestage väljale **Kliendi aadressiraamat** kehtiv aadressiraamat.</span><span class="sxs-lookup"><span data-stu-id="479ef-123">In the **Customer address book** field, provide a valid address book.</span></span>
-1. <span data-ttu-id="479ef-124">Valige väljal **Funktsiooniprofiil** funktsiooniprofiil, kui see on kohaldatav.</span><span class="sxs-lookup"><span data-stu-id="479ef-124">In the **Functionality profile** field, select a functionality profile if applicable.</span></span>
-1. <span data-ttu-id="479ef-125">Sisestage väljale **Meiliteavituse profiil** kehtiv meiliteavituse profiil.</span><span class="sxs-lookup"><span data-stu-id="479ef-125">In the **Email notification profile** field, provide a valid email notification profile.</span></span>
-1. <span data-ttu-id="479ef-126">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="479ef-126">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="9d9d9-115">Avage navigatsioonipaneelil **Moodulid \> Kanalid \> Veebipoed**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-115">In the navigation pane, go to **Modules \> Channels \> Online Stores**.</span></span>
+1. <span data-ttu-id="9d9d9-116">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-116">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="9d9d9-117">Sisestage väljale **Nimi** uue kanali nimi.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-117">In the **Name** field, provide a name for the new channel.</span></span>
+1. <span data-ttu-id="9d9d9-118">Sisestage ripploendisse **Juriidiline isik** sobiv juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-118">In the **Legal entity** drop-down, enter the appropriate legal entity.</span></span>
+1. <span data-ttu-id="9d9d9-119">Sisestage ripploendisse **Ladu** sobiv ladu.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-119">In the **Warehouse** drop-down, enter the appropriate warehouse.</span></span>
+1. <span data-ttu-id="9d9d9-120">Valige sobiv ajavöönd väljal **Kaupluse ajavöönd**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-120">In the **Store time zone** field, select the appropriate time zone.</span></span>
+1. <span data-ttu-id="9d9d9-121">Valige väljal **Valuuta** sobiv valuuta.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-121">In the **Currency** field, select the appropriate currency.</span></span>
+1. <span data-ttu-id="9d9d9-122">Sisestage väljale **Vaikeklient** kehtiv vaikeklient.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-122">In the **Default customer** field, provide a valid default customer.</span></span>
+1. <span data-ttu-id="9d9d9-123">Sisestage väljale **Kliendi aadressiraamat** kehtiv aadressiraamat.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-123">In the **Customer address book** field, provide a valid address book.</span></span>
+1. <span data-ttu-id="9d9d9-124">Valige väljal **Funktsiooniprofiil** funktsiooniprofiil, kui see on kohaldatav.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-124">In the **Functionality profile** field, select a functionality profile if applicable.</span></span>
+1. <span data-ttu-id="9d9d9-125">Sisestage väljale **Meiliteavituse profiil** kehtiv meiliteavituse profiil.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-125">In the **Email notification profile** field, provide a valid email notification profile.</span></span>
+1. <span data-ttu-id="9d9d9-126">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-126">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="479ef-127">Järgmine pilt näitab uue võrgukanali loomist.</span><span class="sxs-lookup"><span data-stu-id="479ef-127">The following image shows the creation of a new online channel.</span></span>
+<span data-ttu-id="9d9d9-127">Järgmine pilt näitab uue võrgukanali loomist.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-127">The following image shows the creation of a new online channel.</span></span>
 
 ![Uus võrgukanal](media/channel-setup-online-1.png)
 
-<span data-ttu-id="479ef-129">Järgmine pilt näitab võrgukanali näidet.</span><span class="sxs-lookup"><span data-stu-id="479ef-129">The following image shows an example online channel.</span></span>
+<span data-ttu-id="9d9d9-129">Järgmine pilt näitab võrgukanali näidet.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-129">The following image shows an example online channel.</span></span>
 
 ![Võrgukanali näide](media/channel-setup-online-2.png)
 
-## <a name="set-up-languages"></a><span data-ttu-id="479ef-131">Keelte seadistamine</span><span class="sxs-lookup"><span data-stu-id="479ef-131">Set up languages</span></span>
+## <a name="set-up-languages"></a><span data-ttu-id="9d9d9-131">Keelte seadistamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-131">Set up languages</span></span>
 
-<span data-ttu-id="479ef-132">Kui teie e-kaubanduse sait toetab mitut keelt, laiendage jaotist **Keeled** ja lisage vajadusel täiendavaid keeli.</span><span class="sxs-lookup"><span data-stu-id="479ef-132">If your e-Commerce site will support multiple languages, expand the **Languages** section and add additional languages as needed.</span></span>
+<span data-ttu-id="9d9d9-132">Kui teie e-kaubanduse sait toetab mitut keelt, laiendage jaotist **Keeled** ja lisage vajadusel täiendavaid keeli.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-132">If your e-Commerce site will support multiple languages, expand the **Languages** section and add additional languages as needed.</span></span>
 
-## <a name="set-up-payment-account"></a><span data-ttu-id="479ef-133">Maksekonto seadistamine</span><span class="sxs-lookup"><span data-stu-id="479ef-133">Set up payment account</span></span>
+## <a name="set-up-payment-account"></a><span data-ttu-id="9d9d9-133">Maksekonto seadistamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-133">Set up payment account</span></span>
 
-<span data-ttu-id="479ef-134">Jaotisest **Maksekonto** saate lisada kolmanda osapoole maksepakkuja.</span><span class="sxs-lookup"><span data-stu-id="479ef-134">From within the **Payment account** section, you can add a third-party payment provider.</span></span> <span data-ttu-id="479ef-135">Lisateavet Adyeni maksekonnektori seadistamise kohta vt teemast [Dynamics 365 maksekonnektor Adyeni jaoks](../retail/dev-itpro/adyen-connector.md).</span><span class="sxs-lookup"><span data-stu-id="479ef-135">For information on setting up an Adyen payment connector, see [Dynamics 365 Payment Connector for Adyen](../retail/dev-itpro/adyen-connector.md).</span></span>
+<span data-ttu-id="9d9d9-134">Jaotisest **Maksekonto** saate lisada kolmanda osapoole maksepakkuja.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-134">From within the **Payment account** section, you can add a third-party payment provider.</span></span> <span data-ttu-id="9d9d9-135">Lisateavet Adyeni maksekonnektori seadistamise kohta vt teemast [Dynamics 365 maksekonnektor Adyeni jaoks](../retail/dev-itpro/adyen-connector.md).</span><span class="sxs-lookup"><span data-stu-id="9d9d9-135">For information on setting up an Adyen payment connector, see [Dynamics 365 Payment Connector for Adyen](../retail/dev-itpro/adyen-connector.md).</span></span>
 
-## <a name="additional-channel-setup"></a><span data-ttu-id="479ef-136">Täiendava kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="479ef-136">Additional channel setup</span></span>
+## <a name="additional-channel-setup"></a><span data-ttu-id="9d9d9-136">Täiendava kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-136">Additional channel setup</span></span>
 
-<span data-ttu-id="479ef-137">Veebikanali häälestamiseks nõutavad täiendavad toimingud hõlmavad makseviiside, tarneviiside ja täitmisgrupi määramist.</span><span class="sxs-lookup"><span data-stu-id="479ef-137">Additional tasks that are required for online channel setup include setting up payment methods, modes of delivery, and the fulfillment group assignment.</span></span>
+<span data-ttu-id="9d9d9-137">Veebikanali häälestamiseks nõutavad täiendavad toimingud hõlmavad makseviiside, tarneviiside ja täitmisgrupi määramist.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-137">Additional tasks that are required for online channel setup include setting up payment methods, modes of delivery, and the fulfillment group assignment.</span></span>
 
-<span data-ttu-id="479ef-138">Järgmine pilt näitab seadistuste **Tarneviisid**, **Makseviisid** ja **Täitmisgurpi määramine** suvandeid vahekaardil **Seadistus**.</span><span class="sxs-lookup"><span data-stu-id="479ef-138">The following image shows **Modes of delivery**, **Payment methods**, and **Fulfillment group assignment** setup options on the **Set up** tab.</span></span>
+<span data-ttu-id="9d9d9-138">Järgmine pilt näitab seadistuste **Tarneviisid**, **Makseviisid** ja **Täitmisgurpi määramine** suvandeid vahekaardil **Seadistus**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-138">The following image shows **Modes of delivery**, **Payment methods**, and **Fulfillment group assignment** setup options on the **Set up** tab.</span></span>
 
 ![Täiendavad võrgukanali seadistamise toimingud](media/channel-setup-online-3.png)
 
-### <a name="set-up-payment-methods"></a><span data-ttu-id="479ef-140">Seadistada maksemeetodid</span><span class="sxs-lookup"><span data-stu-id="479ef-140">Set up payment methods</span></span>
+### <a name="set-up-payment-methods"></a><span data-ttu-id="9d9d9-140">Seadistada maksemeetodid</span><span class="sxs-lookup"><span data-stu-id="9d9d9-140">Set up payment methods</span></span>
 
-<span data-ttu-id="479ef-141">Kõigi selles kanalis toetatud maksetüübi makseviiside seadistamiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="479ef-141">To set up payment methods, for each payment type supported on this channel follow these steps.</span></span>
+<span data-ttu-id="9d9d9-141">Kõigi selles kanalis toetatud maksetüübi makseviiside seadistamiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-141">To set up payment methods, for each payment type supported on this channel follow these steps.</span></span>
 
-1. <span data-ttu-id="479ef-142">Valige tegevuspaanil vahekaart **Seadista** ja seejärel **Makseviisid**.</span><span class="sxs-lookup"><span data-stu-id="479ef-142">On the action pane, select the **Set Up** tab, then select **Payment methods**.</span></span>
-1. <span data-ttu-id="479ef-143">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="479ef-143">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="479ef-144">Valige navigeerimispaanil soovitud makseviis.</span><span class="sxs-lookup"><span data-stu-id="479ef-144">In the navigation pane, select a desired payment method.</span></span>
-1. <span data-ttu-id="479ef-145">Sisestage jaotises **Üldine** **Toimingu nimi** ja konfigureerige muud soovitud sätted.</span><span class="sxs-lookup"><span data-stu-id="479ef-145">In the **General** section, provide an **Operation name** and configure any other desired settings.</span></span>
-1. <span data-ttu-id="479ef-146">Konfigureerige kõik maksetüübi jaoks vajalikud lisasätted.</span><span class="sxs-lookup"><span data-stu-id="479ef-146">Configure any additional settings as required for the payment type.</span></span>
-1. <span data-ttu-id="479ef-147">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="479ef-147">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="9d9d9-142">Valige tegevuspaanil vahekaart **Seadista** ja seejärel **Makseviisid**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-142">On the action pane, select the **Set Up** tab, then select **Payment methods**.</span></span>
+1. <span data-ttu-id="9d9d9-143">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-143">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="9d9d9-144">Valige navigeerimispaanil soovitud makseviis.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-144">In the navigation pane, select a desired payment method.</span></span>
+1. <span data-ttu-id="9d9d9-145">Sisestage jaotises **Üldine** **Toimingu nimi** ja konfigureerige muud soovitud sätted.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-145">In the **General** section, provide an **Operation name** and configure any other desired settings.</span></span>
+1. <span data-ttu-id="9d9d9-146">Konfigureerige kõik maksetüübi jaoks vajalikud lisasätted.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-146">Configure any additional settings as required for the payment type.</span></span>
+1. <span data-ttu-id="9d9d9-147">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-147">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="479ef-148">Järgmine pilt näitab sularaha makseviisi näidet.</span><span class="sxs-lookup"><span data-stu-id="479ef-148">The following image shows an example of a cash payment method.</span></span>
+<span data-ttu-id="9d9d9-148">Järgmine pilt näitab sularaha makseviisi näidet.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-148">The following image shows an example of a cash payment method.</span></span>
 
 ![Makseviiside näited](media/channel-setup-retail-5.png)
 
-### <a name="set-up-modes-of-delivery"></a><span data-ttu-id="479ef-150">Tarneviiside häälestamine</span><span class="sxs-lookup"><span data-stu-id="479ef-150">Set up modes of delivery</span></span>
+### <a name="set-up-modes-of-delivery"></a><span data-ttu-id="9d9d9-150">Tarneviiside häälestamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-150">Set up modes of delivery</span></span>
 
-<span data-ttu-id="479ef-151">Konfigureeritud tarneviise saate näha valides **Tarneviisid** vahekaardilt **Seadistus** **Tegevuspaani** alt.</span><span class="sxs-lookup"><span data-stu-id="479ef-151">You can see the configured modes of delivery by selecting **Modes of delivery** from the **Set up** tab on the **Action pane**.</span></span>  
+<span data-ttu-id="9d9d9-151">Konfigureeritud tarneviise saate näha valides **Tarneviisid** vahekaardilt **Seadistus** **Tegevuspaani** alt.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-151">You can see the configured modes of delivery by selecting **Modes of delivery** from the **Set up** tab on the **Action pane**.</span></span>  
 
-<span data-ttu-id="479ef-152">Tarneviisi muutmiseks või lisamiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="479ef-152">To change or add a mode of delivery, follow these steps.</span></span>
+<span data-ttu-id="9d9d9-152">Tarneviisi muutmiseks või lisamiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-152">To change or add a mode of delivery, follow these steps.</span></span>
 
-1. <span data-ttu-id="479ef-153">Avage navigeerimispaanil **Moodulid \> Varude haldus \> Tarneviisid**.</span><span class="sxs-lookup"><span data-stu-id="479ef-153">In the navigation pane, go to **Modules \> Inventory management \> Modes of delivery**.</span></span>
-1. <span data-ttu-id="479ef-154">Valige tegevuspaanilt **Uus**, et luua uus tarneviis, või valige olemasolev režiim.</span><span class="sxs-lookup"><span data-stu-id="479ef-154">On the action pane, select **New** to create a new mode of delivery, or select an existing mode.</span></span>
-1. <span data-ttu-id="479ef-155">Kanali lisamiseks valige jaotisest **Jaemüügikanalid** käsk **Lisa rida**.</span><span class="sxs-lookup"><span data-stu-id="479ef-155">In the **Retail channels** section, select **Add line** to add the channel.</span></span> <span data-ttu-id="479ef-156">Kanalite lisamine kasutades organisatsiooni sõlmpunkte, mitte iga kanalit ükshaaval lisades, täiustab kanalite lisamist veelgi.</span><span class="sxs-lookup"><span data-stu-id="479ef-156">Adding channels using organization nodes instead of adding each channel individually can streamline adding channels.</span></span>
+1. <span data-ttu-id="9d9d9-153">Avage navigeerimispaanil **Moodulid \> Varude haldus \> Tarneviisid**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-153">In the navigation pane, go to **Modules \> Inventory management \> Modes of delivery**.</span></span>
+1. <span data-ttu-id="9d9d9-154">Valige tegevuspaanilt **Uus**, et luua uus tarneviis, või valige olemasolev režiim.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-154">On the action pane, select **New** to create a new mode of delivery, or select an existing mode.</span></span>
+1. <span data-ttu-id="9d9d9-155">Kanali lisamiseks valige jaotisest **Jaemüügikanalid** käsk **Lisa rida**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-155">In the **Retail channels** section, select **Add line** to add the channel.</span></span> <span data-ttu-id="9d9d9-156">Kanalite lisamine kasutades organisatsiooni sõlmpunkte, mitte iga kanalit ükshaaval lisades, täiustab kanalite lisamist veelgi.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-156">Adding channels using organization nodes instead of adding each channel individually can streamline adding channels.</span></span>
 
-<span data-ttu-id="479ef-157">Järgmine pilt näitab tarneviisi näidet.</span><span class="sxs-lookup"><span data-stu-id="479ef-157">The following image shows an example of a mode of delivery.</span></span>
+<span data-ttu-id="9d9d9-157">Järgmine pilt näitab tarneviisi näidet.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-157">The following image shows an example of a mode of delivery.</span></span>
 
 ![Tarneviiside häälestamine](media/channel-setup-retail-7.png)
 
-### <a name="set-up-a-fulfillment-group-assignment"></a><span data-ttu-id="479ef-159">Täitmisgrupi määramise seadistamine</span><span class="sxs-lookup"><span data-stu-id="479ef-159">Set up a fulfillment group assignment</span></span>
+### <a name="set-up-a-fulfillment-group-assignment"></a><span data-ttu-id="9d9d9-159">Täitmisgrupi määramise seadistamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-159">Set up a fulfillment group assignment</span></span>
 
-<span data-ttu-id="479ef-160">Täitmisgrupi määramise seadistamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="479ef-160">To set up a fulfillment group assignment, follow these steps.</span></span>
+<span data-ttu-id="9d9d9-160">Täitmisgrupi määramise seadistamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-160">To set up a fulfillment group assignment, follow these steps.</span></span>
 
-1. <span data-ttu-id="479ef-161">Valige tegevuspaanil vahekaart **Seadista** ja seejärel **Täitmisgrupi määramine**.</span><span class="sxs-lookup"><span data-stu-id="479ef-161">On the action pane, select the **Set up** tab, then select **Fulfillment group assignment**.</span></span>
-1. <span data-ttu-id="479ef-162">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="479ef-162">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="479ef-163">Valige täitmisgrupp ripploendist **Täitmisgrupp**.</span><span class="sxs-lookup"><span data-stu-id="479ef-163">In the **Fulfillment group** drop-down list, select a fulfillment group.</span></span>
-1. <span data-ttu-id="479ef-164">Sisestage kirjeldus ripploendisse **Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="479ef-164">In the **Description** drop-down list, enter a description.</span></span>
-1. <span data-ttu-id="479ef-165">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="479ef-165">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="9d9d9-161">Valige tegevuspaanil vahekaart **Seadista** ja seejärel **Täitmisgrupi määramine**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-161">On the action pane, select the **Set up** tab, then select **Fulfillment group assignment**.</span></span>
+1. <span data-ttu-id="9d9d9-162">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-162">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="9d9d9-163">Valige täitmisgrupp ripploendist **Täitmisgrupp**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-163">In the **Fulfillment group** drop-down list, select a fulfillment group.</span></span>
+1. <span data-ttu-id="9d9d9-164">Sisestage kirjeldus ripploendisse **Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-164">In the **Description** drop-down list, enter a description.</span></span>
+1. <span data-ttu-id="9d9d9-165">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-165">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="479ef-166">Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.</span><span class="sxs-lookup"><span data-stu-id="479ef-166">The following image shows an example of a fulfillment group assignment setup.</span></span>
+<span data-ttu-id="9d9d9-166">Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.</span><span class="sxs-lookup"><span data-stu-id="9d9d9-166">The following image shows an example of a fulfillment group assignment setup.</span></span>
 
 ![Täitmisgrupi määramiste seadistamine](media/channel-setup-retail-9.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="479ef-168">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="479ef-168">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9d9d9-168">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="9d9d9-168">Additional resources</span></span>
 
-[<span data-ttu-id="479ef-169">Kanalite ülevaade</span><span class="sxs-lookup"><span data-stu-id="479ef-169">Channels overview</span></span>](channels-overview.md)
+[<span data-ttu-id="9d9d9-169">Kanalite ülevaade</span><span class="sxs-lookup"><span data-stu-id="9d9d9-169">Channels overview</span></span>](channels-overview.md)
 
-[<span data-ttu-id="479ef-170">Kanali seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="479ef-170">Channel setup prerequisites</span></span>](channels-prerequisites.md)
+[<span data-ttu-id="9d9d9-170">Kanali seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="9d9d9-170">Channel setup prerequisites</span></span>](channels-prerequisites.md)
 
-[<span data-ttu-id="479ef-171">Jaemüügikanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="479ef-171">Set up a retail channel</span></span>](channel-setup-retail.md)
+[<span data-ttu-id="9d9d9-171">Jaemüügikanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-171">Set up a retail channel</span></span>](channel-setup-retail.md)
 
-[<span data-ttu-id="479ef-172">Kõnekeskuse kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="479ef-172">Set up a call center channel</span></span>](channel-setup-callcenter.md)
+[<span data-ttu-id="9d9d9-172">Kõnekeskuse kanali seadistamine</span><span class="sxs-lookup"><span data-stu-id="9d9d9-172">Set up a call center channel</span></span>](channel-setup-callcenter.md)
 
-[<span data-ttu-id="479ef-173">Dynamics 365 maksekonnektor Adyeni jaoks</span><span class="sxs-lookup"><span data-stu-id="479ef-173">Dynamics 365 Payment Connector for Adyen</span></span>](../retail/dev-itpro/adyen-connector.md)
+[<span data-ttu-id="9d9d9-173">Dynamics 365 maksekonnektor Adyeni jaoks</span><span class="sxs-lookup"><span data-stu-id="9d9d9-173">Dynamics 365 Payment Connector for Adyen</span></span>](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

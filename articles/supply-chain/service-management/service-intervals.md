@@ -17,79 +17,82 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b14061d5356cd61ab8cb1b1b2fbba859c16f904
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da43f914af75a7f85dc43d3ab1d16abcd82561c1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242981"
 ---
-# <a name="service-intervals"></a><span data-ttu-id="10c82-103">Hooldusintervallid</span><span class="sxs-lookup"><span data-stu-id="10c82-103">Service intervals</span></span>
+# <a name="service-intervals"></a><span data-ttu-id="244ce-103">Hooldusintervallid</span><span class="sxs-lookup"><span data-stu-id="244ce-103">Service intervals</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="10c82-104">Hooldusleppe intervall näitab sagedust, millega hooldustellimuse ridu hooldusleppe ridade jaoks hooldustellimuste automaatsel loomisel luuakse.</span><span class="sxs-lookup"><span data-stu-id="10c82-104">The service agreement interval indicates the frequency with which service order lines are created for service agreement lines when you create service orders automatically.</span></span>
+<span data-ttu-id="244ce-104">Hooldusleppe intervall näitab sagedust, millega hooldustellimuse ridu hooldusleppe ridade jaoks hooldustellimuste automaatsel loomisel luuakse.</span><span class="sxs-lookup"><span data-stu-id="244ce-104">The service agreement interval indicates the frequency with which service order lines are created for service agreement lines when you create service orders automatically.</span></span>
 
-<span data-ttu-id="10c82-105">Kui te loote hooldustellimusi automaatselt, luuakse hooldustellimuse read vastavalt intervallile, mis te olete hooldusleppe rea jaoks määranud leppe rea alguskuupäevast alates.</span><span class="sxs-lookup"><span data-stu-id="10c82-105">When you create service orders automatically, service order lines are created according to the interval that you have specified for the service agreement line from the start date of the agreement line.</span></span>
+<span data-ttu-id="244ce-105">Kui te loote hooldustellimusi automaatselt, luuakse hooldustellimuse read vastavalt intervallile, mis te olete hooldusleppe rea jaoks määranud leppe rea alguskuupäevast alates.</span><span class="sxs-lookup"><span data-stu-id="244ce-105">When you create service orders automatically, service order lines are created according to the interval that you have specified for the service agreement line from the start date of the agreement line.</span></span>
 
-<span data-ttu-id="10c82-106">Kui hooldusleppe rea väli **Intervall** on lehel **Hoolduslepped** tühi, on rida ühekordne sündmus ja seda ei kasutata korduvalt hooldustellimuste loomiseks.</span><span class="sxs-lookup"><span data-stu-id="10c82-106">If the **Interval** field of a service agreement line in the **Service agreements** page is blank, the line is a one-time event, and it is not used to create service orders repeatedly.</span></span>
+<span data-ttu-id="244ce-106">Kui hooldusleppe rea väli **Intervall** on lehel **Hoolduslepped** tühi, on rida ühekordne sündmus ja seda ei kasutata korduvalt hooldustellimuste loomiseks.</span><span class="sxs-lookup"><span data-stu-id="244ce-106">If the **Interval** field of a service agreement line in the **Service agreements** page is blank, the line is a one-time event, and it is not used to create service orders repeatedly.</span></span>
 
-## <a name="example"></a><span data-ttu-id="10c82-107">Näide</span><span class="sxs-lookup"><span data-stu-id="10c82-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="244ce-107">Näide</span><span class="sxs-lookup"><span data-stu-id="244ce-107">Example</span></span>
 
-<span data-ttu-id="10c82-108">See näide illustreerib, kuidas hooldusintervall hooldusleppe ja hooldustellimuse ridasid hooldustellimuses mõjutab.</span><span class="sxs-lookup"><span data-stu-id="10c82-108">This example illustrates how a service interval will affect service agreement lines and service order lines on a service order.</span></span>
+<span data-ttu-id="244ce-108">See näide illustreerib, kuidas hooldusintervall hooldusleppe ja hooldustellimuse ridasid hooldustellimuses mõjutab.</span><span class="sxs-lookup"><span data-stu-id="244ce-108">This example illustrates how a service interval will affect service agreement lines and service order lines on a service order.</span></span>
 
-### <a name="create-a-service-agreement"></a><span data-ttu-id="10c82-109">Hooldusleppe loomine.</span><span class="sxs-lookup"><span data-stu-id="10c82-109">Create a service agreement</span></span>
+### <a name="create-a-service-agreement"></a><span data-ttu-id="244ce-109">Hooldusleppe loomine.</span><span class="sxs-lookup"><span data-stu-id="244ce-109">Create a service agreement</span></span>
 
-<span data-ttu-id="10c82-110">Esmalt looge hoolduslepe ja seadke suvand **Hooldustellimuste ühendamine** väärtusele **Hooldusleppega**.</span><span class="sxs-lookup"><span data-stu-id="10c82-110">First, you create a service agreement and set the **Combine service orders** option to **By service agreement**.</span></span>
+<span data-ttu-id="244ce-110">Esmalt looge hoolduslepe ja seadke suvand **Hooldustellimuste ühendamine** väärtusele **Hooldusleppega**.</span><span class="sxs-lookup"><span data-stu-id="244ce-110">First, you create a service agreement and set the **Combine service orders** option to **By service agreement**.</span></span>
 
-1. <span data-ttu-id="10c82-111">Klõpsake valikut **Hoolduslepped**</span><span class="sxs-lookup"><span data-stu-id="10c82-111">Click **Service agreements**</span></span>
-2. <span data-ttu-id="10c82-112">Uue hooldusleppe loomiseks klõpsake **toimingupaani** vahekaardi **Hoolduslepe** grupis **Uus** valikut **Hoolduslepe**.</span><span class="sxs-lookup"><span data-stu-id="10c82-112">On the **Action Pane**, on the **Service agreement** tab, in the **New** group, click **Service agreement** to create a new service agreement.</span></span>
-3. <span data-ttu-id="10c82-113">Sisestage kirjeldus, valige väljal **Projekti ID** projekt ja sisestage kuupäev väljale **Alguskuupäev**.</span><span class="sxs-lookup"><span data-stu-id="10c82-113">Enter a description, select a project in the **Project ID** field, and enter a date in the **Start date** field.</span></span>
-4. <span data-ttu-id="10c82-114">Väljal **Hooldustellimuste ühendamine** valige **Hooldusleppega**.</span><span class="sxs-lookup"><span data-stu-id="10c82-114">In the **Combine service orders** field, select **By service agreement**.</span></span>
+1. <span data-ttu-id="244ce-111">Klõpsake valikut **Hoolduslepped**</span><span class="sxs-lookup"><span data-stu-id="244ce-111">Click **Service agreements**</span></span>
+2. <span data-ttu-id="244ce-112">Uue hooldusleppe loomiseks klõpsake **toimingupaani** vahekaardi **Hoolduslepe** grupis **Uus** valikut **Hoolduslepe**.</span><span class="sxs-lookup"><span data-stu-id="244ce-112">On the **Action Pane**, on the **Service agreement** tab, in the **New** group, click **Service agreement** to create a new service agreement.</span></span>
+3. <span data-ttu-id="244ce-113">Sisestage kirjeldus, valige väljal **Projekti ID** projekt ja sisestage kuupäev väljale **Alguskuupäev**.</span><span class="sxs-lookup"><span data-stu-id="244ce-113">Enter a description, select a project in the **Project ID** field, and enter a date in the **Start date** field.</span></span>
+4. <span data-ttu-id="244ce-114">Väljal **Hooldustellimuste ühendamine** valige **Hooldusleppega**.</span><span class="sxs-lookup"><span data-stu-id="244ce-114">In the **Combine service orders** field, select **By service agreement**.</span></span>
 
-<span data-ttu-id="10c82-115">Olete loonud järgmise hooldusleppe.</span><span class="sxs-lookup"><span data-stu-id="10c82-115">You have now created the following service agreement:</span></span>
+<span data-ttu-id="244ce-115">Olete loonud järgmise hooldusleppe.</span><span class="sxs-lookup"><span data-stu-id="244ce-115">You have now created the following service agreement:</span></span>
 
-| <span data-ttu-id="10c82-116">Project</span><span class="sxs-lookup"><span data-stu-id="10c82-116">Project</span></span>      | <span data-ttu-id="10c82-117">Alguskuupäev</span><span class="sxs-lookup"><span data-stu-id="10c82-117">Start date</span></span>                                                                         |
+| <span data-ttu-id="244ce-116">Project</span><span class="sxs-lookup"><span data-stu-id="244ce-116">Project</span></span>      | <span data-ttu-id="244ce-117">Alguskuupäev</span><span class="sxs-lookup"><span data-stu-id="244ce-117">Start date</span></span>                                                                         |
 |--------------|------------------------------------------------------------------------------------|
-| <span data-ttu-id="10c82-118">Teie projekt</span><span class="sxs-lookup"><span data-stu-id="10c82-118">Your project</span></span> | <span data-ttu-id="10c82-119">Projektile määratud kuupäev.</span><span class="sxs-lookup"><span data-stu-id="10c82-119">The date you specified for the project.</span></span> <span data-ttu-id="10c82-120">Selles näites on kasutatud tänast kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="10c82-120">In this example, the current date is used.</span></span> |
+| <span data-ttu-id="244ce-118">Teie projekt</span><span class="sxs-lookup"><span data-stu-id="244ce-118">Your project</span></span> | <span data-ttu-id="244ce-119">Projektile määratud kuupäev.</span><span class="sxs-lookup"><span data-stu-id="244ce-119">The date you specified for the project.</span></span> <span data-ttu-id="244ce-120">Selles näites on kasutatud tänast kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="244ce-120">In this example, the current date is used.</span></span> |
 
-### <a name="create-a-service-agreement-line"></a><span data-ttu-id="10c82-121">Hooldusleppe rea loomine</span><span class="sxs-lookup"><span data-stu-id="10c82-121">Create a service agreement line</span></span>
+### <a name="create-a-service-agreement-line"></a><span data-ttu-id="244ce-121">Hooldusleppe rea loomine</span><span class="sxs-lookup"><span data-stu-id="244ce-121">Create a service agreement line</span></span>
 
-<span data-ttu-id="10c82-122">Järgmiseks loote hooldusleppe rea kande tüübiga **Tund**.</span><span class="sxs-lookup"><span data-stu-id="10c82-122">Next, you create a service agreement line that has the transaction type **Hour**.</span></span>
+<span data-ttu-id="244ce-122">Järgmiseks loote hooldusleppe rea kande tüübiga **Tund**.</span><span class="sxs-lookup"><span data-stu-id="244ce-122">Next, you create a service agreement line that has the transaction type **Hour**.</span></span>
 
-<span data-ttu-id="10c82-123">Selle näite osa lõpetamiseks peate lehel **Hooldusintervallid** looma 10-päevase hooldusintervalli.</span><span class="sxs-lookup"><span data-stu-id="10c82-123">To complete this part of the example, you must create a service interval of 10 days in the **Service intervals** page.</span></span> 
+<span data-ttu-id="244ce-123">Selle näite osa lõpetamiseks peate lehel **Hooldusintervallid** looma 10-päevase hooldusintervalli.</span><span class="sxs-lookup"><span data-stu-id="244ce-123">To complete this part of the example, you must create a service interval of 10 days in the **Service intervals** page.</span></span> 
 
-1. <span data-ttu-id="10c82-124">Valige äsja loodud hoolduslepe.</span><span class="sxs-lookup"><span data-stu-id="10c82-124">Select the service agreement that you just created.</span></span> 
-2. <span data-ttu-id="10c82-125">Kiirkaardil **Read** klõpsake nuppu **Lisamine** lehe **Hoolduslepped** alumisel paanil uue rea loomiseks.</span><span class="sxs-lookup"><span data-stu-id="10c82-125">On the **Lines** FastTab, click the **Add** button to create a new line in the lower pane of the **Service agreements** page.</span></span>
-3. <span data-ttu-id="10c82-126">Väljal **Kande tüüp** valige **Tund**.</span><span class="sxs-lookup"><span data-stu-id="10c82-126">In the **Transaction type** field, select **Hour**.</span></span>
-4. <span data-ttu-id="10c82-127">Väljal **Töötaja** valige töötaja, kes hooldust teostab.</span><span class="sxs-lookup"><span data-stu-id="10c82-127">In the **Worker** field, select the worker who will deliver the service.</span></span>
-5. <span data-ttu-id="10c82-128">Väljal **Hooldusintervall** valige 10-päevane intervall.</span><span class="sxs-lookup"><span data-stu-id="10c82-128">In the **Service interval** field, select the 10 days interval.</span></span>
+1. <span data-ttu-id="244ce-124">Valige äsja loodud hoolduslepe.</span><span class="sxs-lookup"><span data-stu-id="244ce-124">Select the service agreement that you just created.</span></span> 
+2. <span data-ttu-id="244ce-125">Kiirkaardil **Read** klõpsake nuppu **Lisamine** lehe **Hoolduslepped** alumisel paanil uue rea loomiseks.</span><span class="sxs-lookup"><span data-stu-id="244ce-125">On the **Lines** FastTab, click the **Add** button to create a new line in the lower pane of the **Service agreements** page.</span></span>
+3. <span data-ttu-id="244ce-126">Väljal **Kande tüüp** valige **Tund**.</span><span class="sxs-lookup"><span data-stu-id="244ce-126">In the **Transaction type** field, select **Hour**.</span></span>
+4. <span data-ttu-id="244ce-127">Väljal **Töötaja** valige töötaja, kes hooldust teostab.</span><span class="sxs-lookup"><span data-stu-id="244ce-127">In the **Worker** field, select the worker who will deliver the service.</span></span>
+5. <span data-ttu-id="244ce-128">Väljal **Hooldusintervall** valige 10-päevane intervall.</span><span class="sxs-lookup"><span data-stu-id="244ce-128">In the **Service interval** field, select the 10 days interval.</span></span>
 
-<span data-ttu-id="10c82-129">Olete loonud järgmise teabega hooldusleppe rea.</span><span class="sxs-lookup"><span data-stu-id="10c82-129">You have now created a service agreement line with the following information:</span></span>
+<span data-ttu-id="244ce-129">Olete loonud järgmise teabega hooldusleppe rea.</span><span class="sxs-lookup"><span data-stu-id="244ce-129">You have now created a service agreement line with the following information:</span></span>
 
-| <span data-ttu-id="10c82-130">Kande tüüp</span><span class="sxs-lookup"><span data-stu-id="10c82-130">Transaction type</span></span> | <span data-ttu-id="10c82-131">Alguskuupäev</span><span class="sxs-lookup"><span data-stu-id="10c82-131">Start date</span></span>                               | <span data-ttu-id="10c82-132">Teenuse intervall</span><span class="sxs-lookup"><span data-stu-id="10c82-132">Service interval</span></span> |
+| <span data-ttu-id="244ce-130">Kande tüüp</span><span class="sxs-lookup"><span data-stu-id="244ce-130">Transaction type</span></span> | <span data-ttu-id="244ce-131">Alguskuupäev</span><span class="sxs-lookup"><span data-stu-id="244ce-131">Start date</span></span>                               | <span data-ttu-id="244ce-132">Teenuse intervall</span><span class="sxs-lookup"><span data-stu-id="244ce-132">Service interval</span></span> |
 |------------------|------------------------------------------|------------------|
-| <span data-ttu-id="10c82-133">Tund</span><span class="sxs-lookup"><span data-stu-id="10c82-133">Hour</span></span>             | <span data-ttu-id="10c82-134">Tänane kuupäev.</span><span class="sxs-lookup"><span data-stu-id="10c82-134">The current date.</span></span>                        | <span data-ttu-id="10c82-135">Iga 10 päeva järel</span><span class="sxs-lookup"><span data-stu-id="10c82-135">Every 10 days</span></span>    |
-| <span data-ttu-id="10c82-136">Töötaja</span><span class="sxs-lookup"><span data-stu-id="10c82-136">Worker</span></span>           | <span data-ttu-id="10c82-137">Hooldust teostav töötaja.</span><span class="sxs-lookup"><span data-stu-id="10c82-137">The worker who will perform the service.</span></span> |                  |
+| <span data-ttu-id="244ce-133">Tund</span><span class="sxs-lookup"><span data-stu-id="244ce-133">Hour</span></span>             | <span data-ttu-id="244ce-134">Tänane kuupäev.</span><span class="sxs-lookup"><span data-stu-id="244ce-134">The current date.</span></span>                        | <span data-ttu-id="244ce-135">Iga 10 päeva järel</span><span class="sxs-lookup"><span data-stu-id="244ce-135">Every 10 days</span></span>    |
+| <span data-ttu-id="244ce-136">Töötaja</span><span class="sxs-lookup"><span data-stu-id="244ce-136">Worker</span></span>           | <span data-ttu-id="244ce-137">Hooldust teostav töötaja.</span><span class="sxs-lookup"><span data-stu-id="244ce-137">The worker who will perform the service.</span></span> |                  |
 
-<span data-ttu-id="10c82-138">Rea jaoks ei ole määratud kellaaja akent.</span><span class="sxs-lookup"><span data-stu-id="10c82-138">There is no time window specified for the line.</span></span> 
+<span data-ttu-id="244ce-138">Rea jaoks ei ole määratud kellaaja akent.</span><span class="sxs-lookup"><span data-stu-id="244ce-138">There is no time window specified for the line.</span></span> 
 
-### <a name="create-planned-service-orders"></a><span data-ttu-id="10c82-139">Planeeritud hooldustellimuste loomine</span><span class="sxs-lookup"><span data-stu-id="10c82-139">Create planned service orders</span></span>
+### <a name="create-planned-service-orders"></a><span data-ttu-id="244ce-139">Planeeritud hooldustellimuste loomine</span><span class="sxs-lookup"><span data-stu-id="244ce-139">Create planned service orders</span></span>
 
-<span data-ttu-id="10c82-140">Nüüd saate luua tuleval kuul planeeritud hooldustellimusi ja hooldustellimuste ridasid.</span><span class="sxs-lookup"><span data-stu-id="10c82-140">You can now create planned service orders and service order lines for the coming month.</span></span>
+<span data-ttu-id="244ce-140">Nüüd saate luua tuleval kuul planeeritud hooldustellimusi ja hooldustellimuste ridasid.</span><span class="sxs-lookup"><span data-stu-id="244ce-140">You can now create planned service orders and service order lines for the coming month.</span></span>
 
-1. <span data-ttu-id="10c82-141">Lehe **Hoolduslepped** **toimingupaanil**, vahekaardil **Tarnimine** klõpsake valikut **Planeeritud hooldustellimused**.</span><span class="sxs-lookup"><span data-stu-id="10c82-141">In the **Service agreements** page, on the **Action Pane**, on the **Deliver** tab, click **Planned service orders**.</span></span>
-2. <span data-ttu-id="10c82-142">Lehel **Hooldustellimuste loomine** sisestage väljale **Alguskuupäev** tänane kuupäev ning väljale **Lõppkuupäev** tänasest kuupäevast üks kuu hilisem kuupäev.</span><span class="sxs-lookup"><span data-stu-id="10c82-142">In the **Create service orders** page, enter the current date in the **From date** field and a date that is one month from the current date in the **To date** field.</span></span>
-3. <span data-ttu-id="10c82-143">Seadke liugur **Tund** asendisse **Jah**.</span><span class="sxs-lookup"><span data-stu-id="10c82-143">Set the **Hour** slider to **Yes**.</span></span> 
-4. <span data-ttu-id="10c82-144">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="10c82-144">Click **OK**.</span></span>
+1. <span data-ttu-id="244ce-141">Lehe **Hoolduslepped** **toimingupaanil**, vahekaardil **Tarnimine** klõpsake valikut **Planeeritud hooldustellimused**.</span><span class="sxs-lookup"><span data-stu-id="244ce-141">In the **Service agreements** page, on the **Action Pane**, on the **Deliver** tab, click **Planned service orders**.</span></span>
+2. <span data-ttu-id="244ce-142">Lehel **Hooldustellimuste loomine** sisestage väljale **Alguskuupäev** tänane kuupäev ning väljale **Lõppkuupäev** tänasest kuupäevast üks kuu hilisem kuupäev.</span><span class="sxs-lookup"><span data-stu-id="244ce-142">In the **Create service orders** page, enter the current date in the **From date** field and a date that is one month from the current date in the **To date** field.</span></span>
+3. <span data-ttu-id="244ce-143">Seadke liugur **Tund** asendisse **Jah**.</span><span class="sxs-lookup"><span data-stu-id="244ce-143">Set the **Hour** slider to **Yes**.</span></span> 
+4. <span data-ttu-id="244ce-144">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="244ce-144">Click **OK**.</span></span>
 
-<span data-ttu-id="10c82-145">Kuna hooldustellimusel ei toimu grupeerimist (määratud suvandiga **Hooldusleppega** moodulis **Hooldustellimuste ühendamine**), luuakse iga hooldustellimuse kohta üks hooldustellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="10c82-145">Because there is no grouping on the service order (defined by the **By service agreement** option in the **Combine service orders** field), one service order line is created per service order.</span></span>
+<span data-ttu-id="244ce-145">Kuna hooldustellimusel ei toimu grupeerimist (määratud suvandiga **Hooldusleppega** moodulis **Hooldustellimuste ühendamine**), luuakse iga hooldustellimuse kohta üks hooldustellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="244ce-145">Because there is no grouping on the service order (defined by the **By service agreement** option in the **Combine service orders** field), one service order line is created per service order.</span></span>
 
-### <a name="service-orders-created"></a><span data-ttu-id="10c82-146">Loodud hooldustellimused</span><span class="sxs-lookup"><span data-stu-id="10c82-146">Service orders created</span></span>
+### <a name="service-orders-created"></a><span data-ttu-id="244ce-146">Loodud hooldustellimused</span><span class="sxs-lookup"><span data-stu-id="244ce-146">Service orders created</span></span>
 
-<span data-ttu-id="10c82-147">Dialoogiaknas **Hooldustellimuste loomine** määratud ajavahemikus on loodud kolm hooldustellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="10c82-147">Three service order lines have been created within the time frame that you specified in the **Create service orders** dialog box.</span></span> <span data-ttu-id="10c82-148">Hooldustellimuse ridasid saate vaadata lehel **Hoolduslepped** (**Toimingupaan** \> vahekaart **Tarnimine** \> nupp **Kuvamine**).</span><span class="sxs-lookup"><span data-stu-id="10c82-148">You can view the service order lines in the **Service agreements** page (**Action Pane** \> **Deliver** tab \>**View** button).</span></span>
+<span data-ttu-id="244ce-147">Dialoogiaknas **Hooldustellimuste loomine** määratud ajavahemikus on loodud kolm hooldustellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="244ce-147">Three service order lines have been created within the time frame that you specified in the **Create service orders** dialog box.</span></span> <span data-ttu-id="244ce-148">Hooldustellimuse ridasid saate vaadata lehel **Hoolduslepped** (**Toimingupaan** \> vahekaart **Tarnimine** \> nupp **Kuvamine**).</span><span class="sxs-lookup"><span data-stu-id="244ce-148">You can view the service order lines in the **Service agreements** page (**Action Pane** \> **Deliver** tab \>**View** button).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="10c82-149">Seotud teemad</span><span class="sxs-lookup"><span data-stu-id="10c82-149">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="244ce-149">Seotud teemad</span><span class="sxs-lookup"><span data-stu-id="244ce-149">Related topics</span></span>
 
-[<span data-ttu-id="10c82-150">Hooldusintervallide seadistamine</span><span class="sxs-lookup"><span data-stu-id="10c82-150">Set up service intervals</span></span>](set-up-service-intervals.md)  
+[<span data-ttu-id="244ce-150">Hooldusintervallide seadistamine</span><span class="sxs-lookup"><span data-stu-id="244ce-150">Set up service intervals</span></span>](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

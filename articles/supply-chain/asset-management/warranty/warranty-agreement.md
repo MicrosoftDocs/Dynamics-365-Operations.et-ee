@@ -17,40 +17,43 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7080af2059c9c9bcdd11ca0ee9c5e339cef69302
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 35b5c89751d17687bd7e306094a1e4e5e144a8dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021500"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245343"
 ---
-# <a name="warranty-agreements"></a><span data-ttu-id="5e14e-103">Garantiilepingud</span><span class="sxs-lookup"><span data-stu-id="5e14e-103">Warranty agreements</span></span>
+# <a name="warranty-agreements"></a><span data-ttu-id="9e860-103">Garantiilepingud</span><span class="sxs-lookup"><span data-stu-id="9e860-103">Warranty agreements</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
 
-<span data-ttu-id="5e14e-104">Varahalduses saate seadistada garantii tingimused, mida saab siduda vara või varatüübiga.</span><span class="sxs-lookup"><span data-stu-id="5e14e-104">In Asset Management, you can set up warranty terms that can be connected to an asset or an asset type.</span></span> <span data-ttu-id="5e14e-105">Garantiitingimused luuakse kindla perioodi kohta.</span><span class="sxs-lookup"><span data-stu-id="5e14e-105">Warranty terms are created for a specific period.</span></span> <span data-ttu-id="5e14e-106">Garantii saab seadistada nii, et see võimaldaks täielikku katvust või osalist katvust, ning saate seadistada tundide, kulude ja kaupadega seotud tingimused.</span><span class="sxs-lookup"><span data-stu-id="5e14e-106">Warranty can be set up to provide full coverage or partial coverage, and you can set up terms that are related to hours, expenses, and items.</span></span>
+<span data-ttu-id="9e860-104">Varahalduses saate seadistada garantii tingimused, mida saab siduda vara või varatüübiga.</span><span class="sxs-lookup"><span data-stu-id="9e860-104">In Asset Management, you can set up warranty terms that can be connected to an asset or an asset type.</span></span> <span data-ttu-id="9e860-105">Garantiitingimused luuakse kindla perioodi kohta.</span><span class="sxs-lookup"><span data-stu-id="9e860-105">Warranty terms are created for a specific period.</span></span> <span data-ttu-id="9e860-106">Garantii saab seadistada nii, et see võimaldaks täielikku katvust või osalist katvust, ning saate seadistada tundide, kulude ja kaupadega seotud tingimused.</span><span class="sxs-lookup"><span data-stu-id="9e860-106">Warranty can be set up to provide full coverage or partial coverage, and you can set up terms that are related to hours, expenses, and items.</span></span>
 
-<span data-ttu-id="5e14e-107">Esimene samm on luua hankija garantiilepingud, mis teil on oma varustuse jaoks.</span><span class="sxs-lookup"><span data-stu-id="5e14e-107">The first step is to create any vendor warranty agreements that you have for your equipment.</span></span> <span data-ttu-id="5e14e-108">Seejärel lisage varade või varatüüpide garantiilepingud.</span><span class="sxs-lookup"><span data-stu-id="5e14e-108">You then attach warranty agreements to assets or asset types.</span></span> <span data-ttu-id="5e14e-109">Hankija garantiilepinguid kasutatakse ainult informatiivsel eesmärgil.</span><span class="sxs-lookup"><span data-stu-id="5e14e-109">Vendor warranty agreements are used only for informational purposes.</span></span> <span data-ttu-id="5e14e-110">Kui hankija garantii on seadistatud varale, saate vaadata vara garantii laovarude perioodi.</span><span class="sxs-lookup"><span data-stu-id="5e14e-110">If vendor warranty is set up on an asset, you can see the warranty coverage period on the asset.</span></span>
+<span data-ttu-id="9e860-107">Esimene samm on luua hankija garantiilepingud, mis teil on oma varustuse jaoks.</span><span class="sxs-lookup"><span data-stu-id="9e860-107">The first step is to create any vendor warranty agreements that you have for your equipment.</span></span> <span data-ttu-id="9e860-108">Seejärel lisage varade või varatüüpide garantiilepingud.</span><span class="sxs-lookup"><span data-stu-id="9e860-108">You then attach warranty agreements to assets or asset types.</span></span> <span data-ttu-id="9e860-109">Hankija garantiilepinguid kasutatakse ainult informatiivsel eesmärgil.</span><span class="sxs-lookup"><span data-stu-id="9e860-109">Vendor warranty agreements are used only for informational purposes.</span></span> <span data-ttu-id="9e860-110">Kui hankija garantii on seadistatud varale, saate vaadata vara garantii laovarude perioodi.</span><span class="sxs-lookup"><span data-stu-id="9e860-110">If vendor warranty is set up on an asset, you can see the warranty coverage period on the asset.</span></span>
 
-## <a name="create-a-warranty-agreement"></a><span data-ttu-id="5e14e-111">Garantiilepingu loomine</span><span class="sxs-lookup"><span data-stu-id="5e14e-111">Create a warranty agreement</span></span>
+## <a name="create-a-warranty-agreement"></a><span data-ttu-id="9e860-111">Garantiilepingu loomine</span><span class="sxs-lookup"><span data-stu-id="9e860-111">Create a warranty agreement</span></span>
 
-<span data-ttu-id="5e14e-112">Garantiileping võib sisaldada mitut lepingurida, mis katavad tööaja, kulude ja kaupade garantii.</span><span class="sxs-lookup"><span data-stu-id="5e14e-112">A warranty agreement can include several agreement lines to cover the warranty for work hours, expenses, and items.</span></span>
+<span data-ttu-id="9e860-112">Garantiileping võib sisaldada mitut lepingurida, mis katavad tööaja, kulude ja kaupade garantii.</span><span class="sxs-lookup"><span data-stu-id="9e860-112">A warranty agreement can include several agreement lines to cover the warranty for work hours, expenses, and items.</span></span>
 
-1. <span data-ttu-id="5e14e-113">Valige **Varahaldus** \> **Seadistus** \> **Varad** \> **Garantii**.</span><span class="sxs-lookup"><span data-stu-id="5e14e-113">Select **Asset management** \> **Setup** \> **Assets** \> **Warranty**.</span></span>
-2. <span data-ttu-id="5e14e-114">Valige **Uus**, et luua uus toode.</span><span class="sxs-lookup"><span data-stu-id="5e14e-114">Select **New** to create a product.</span></span>
-3. <span data-ttu-id="5e14e-115">Sisestage garantii ID väljale **Garantii**.</span><span class="sxs-lookup"><span data-stu-id="5e14e-115">In the **Warranty** field, enter a warranty ID.</span></span> 
-4. <span data-ttu-id="5e14e-116">Väljale **Nimi** sisestage kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="5e14e-116">In the **Name** field, enter a description.</span></span>
+1. <span data-ttu-id="9e860-113">Valige **Varahaldus** \> **Seadistus** \> **Varad** \> **Garantii**.</span><span class="sxs-lookup"><span data-stu-id="9e860-113">Select **Asset management** \> **Setup** \> **Assets** \> **Warranty**.</span></span>
+2. <span data-ttu-id="9e860-114">Valige **Uus**, et luua uus toode.</span><span class="sxs-lookup"><span data-stu-id="9e860-114">Select **New** to create a product.</span></span>
+3. <span data-ttu-id="9e860-115">Sisestage garantii ID väljale **Garantii**.</span><span class="sxs-lookup"><span data-stu-id="9e860-115">In the **Warranty** field, enter a warranty ID.</span></span> 
+4. <span data-ttu-id="9e860-116">Väljale **Nimi** sisestage kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="9e860-116">In the **Name** field, enter a description.</span></span>
 
-    <span data-ttu-id="5e14e-117">Kiirkaardil **Üksikasjad** kuvatakse väljal **Varad** aktiivsete varade arv, mis kasutavad garantiilepingut.</span><span class="sxs-lookup"><span data-stu-id="5e14e-117">On the **Details** FastTab, the **Assets** field shows the number of active assets that use the warranty agreement.</span></span>
+    <span data-ttu-id="9e860-117">Kiirkaardil **Üksikasjad** kuvatakse väljal **Varad** aktiivsete varade arv, mis kasutavad garantiilepingut.</span><span class="sxs-lookup"><span data-stu-id="9e860-117">On the **Details** FastTab, the **Assets** field shows the number of active assets that use the warranty agreement.</span></span>
 
-5. <span data-ttu-id="5e14e-118">Järgige kiirkaardil **Garantiiread** neid toiminguid garantiilepingusse kaasatavate ridade lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="5e14e-118">On the **Warranty lines** FastTab, follow these steps to add lines that should be included in a warranty agreement:</span></span>
+5. <span data-ttu-id="9e860-118">Järgige kiirkaardil **Garantiiread** neid toiminguid garantiilepingusse kaasatavate ridade lisamiseks.</span><span class="sxs-lookup"><span data-stu-id="9e860-118">On the **Warranty lines** FastTab, follow these steps to add lines that should be included in a warranty agreement:</span></span>
 
-    1. <span data-ttu-id="5e14e-119">Valige suvand **Lisa rida**, et lisada garantiile uus tingimus.</span><span class="sxs-lookup"><span data-stu-id="5e14e-119">Select **Add line** to add a new condition to the warranty.</span></span> <span data-ttu-id="5e14e-120">Väljale **Rida** sisestatakse automaatselt seerianumber.</span><span class="sxs-lookup"><span data-stu-id="5e14e-120">A sequential line number is automatically entered in the **Line** field.</span></span>
-    2. <span data-ttu-id="5e14e-121">Valige garantiiperioodi tüüp väljal **Periood**.</span><span class="sxs-lookup"><span data-stu-id="5e14e-121">In the **Period** field, select the type of warranty period.</span></span>
-    3. <span data-ttu-id="5e14e-122">Sisestage number väljale **Intervall**.</span><span class="sxs-lookup"><span data-stu-id="5e14e-122">In the **Interval** field, enter a number.</span></span> <span data-ttu-id="5e14e-123">See väli määratleb perioodide arvu, millele garantii peaks kehtima.</span><span class="sxs-lookup"><span data-stu-id="5e14e-123">This field defines the number of periods that the warranty should be valid for.</span></span>
-    4. <span data-ttu-id="5e14e-124">Sisestage väljale **Protsent** garantii rea laovarude protsent.</span><span class="sxs-lookup"><span data-stu-id="5e14e-124">In the **Percent** field, enter the coverage percentage for the warranty line.</span></span> <span data-ttu-id="5e14e-125">Protsent näitab, kui palju teie ettevõte katab.</span><span class="sxs-lookup"><span data-stu-id="5e14e-125">The percentage indicates how much is covered by your company.</span></span>
+    1. <span data-ttu-id="9e860-119">Valige suvand **Lisa rida**, et lisada garantiile uus tingimus.</span><span class="sxs-lookup"><span data-stu-id="9e860-119">Select **Add line** to add a new condition to the warranty.</span></span> <span data-ttu-id="9e860-120">Väljale **Rida** sisestatakse automaatselt seerianumber.</span><span class="sxs-lookup"><span data-stu-id="9e860-120">A sequential line number is automatically entered in the **Line** field.</span></span>
+    2. <span data-ttu-id="9e860-121">Valige garantiiperioodi tüüp väljal **Periood**.</span><span class="sxs-lookup"><span data-stu-id="9e860-121">In the **Period** field, select the type of warranty period.</span></span>
+    3. <span data-ttu-id="9e860-122">Sisestage number väljale **Intervall**.</span><span class="sxs-lookup"><span data-stu-id="9e860-122">In the **Interval** field, enter a number.</span></span> <span data-ttu-id="9e860-123">See väli määratleb perioodide arvu, millele garantii peaks kehtima.</span><span class="sxs-lookup"><span data-stu-id="9e860-123">This field defines the number of periods that the warranty should be valid for.</span></span>
+    4. <span data-ttu-id="9e860-124">Sisestage väljale **Protsent** garantii rea laovarude protsent.</span><span class="sxs-lookup"><span data-stu-id="9e860-124">In the **Percent** field, enter the coverage percentage for the warranty line.</span></span> <span data-ttu-id="9e860-125">Protsent näitab, kui palju teie ettevõte katab.</span><span class="sxs-lookup"><span data-stu-id="9e860-125">The percentage indicates how much is covered by your company.</span></span>
 
 ![Garantiileht](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
