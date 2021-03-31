@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000530"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216671"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Kassa välisseadmete ja teenuste seisundikontroll
 
@@ -34,7 +34,7 @@ Selles teemas kirjeldatakse kassa seisundikontrolli toimingut.
 
 Kauplused võivad olla keerukad keskkonnad, kus on kasutusel mitmeid rakendusi ja seadmeid. Toimingute lisandumisel võib olla raske tagada, et need töötaksid alati vaevatult, näiteks välisseadmetest sõltumise tõttu, mis võivad päeva jooksul katki minna või juhuslikult vooluvõrgust välja tulla. Seadmete ja teenustega seotud probleemide tõrkeotsing võib olla kulukas suurematele kaupmeestele ja samamoodi ahastav väiksematele ettevõtetele.
 
-Microsoft Dynamics 365 Commerce'i versioon 10.0.10 ja hilisemad versioonid sisaldavad seisundikontrolli toimingut, mis aitavad ennetada sellega seonduvat kulu ja muret. See toiming võimaldab seadmete testimise viisi otse kassast tavapäraste toimingute kõrvalt. See võimaldab jaemüüjatel probleeme tuvastada enne nende ilmnemist.
+Rakenduse Microsoft Dynamics 365 Commerce versioon 10.0.10 ja hilisemad versioonid sisaldavad seisundikontrolli toimingut, mis aitavad ennetada sellega seonduvat kulu ja muret. See toiming võimaldab seadmete testimise viisi otse kassast tavapäraste toimingute kõrvalt. See võimaldab jaemüüjatel probleeme tuvastada enne nende ilmnemist.
 
 ## <a name="key-terms"></a>Põhimõisted
 

@@ -1,6 +1,6 @@
 ---
 title: Automaatsete tasude lubamine ja konfigureerimine kanali kaupa
-description: Selles teemas selgitatakse, kuidas lubada ja konfigureerida automaatseid tasusid kanali järgi Microsoft Dynamics 365 Commerce'is.
+description: Selles teemas selgitatakse, kuidas lubada ja konfigureerida automaatseid tasusid kanali järgi Microsoft Microsoft Dynamics 365 Commerce'is.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 03/30/2020
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 834d90c8ec8515c6bced2d8a4fabc79b4e4e4c3e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993724"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211269"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automaatsete tasude lubamine ja konfigureerimine kanali kaupa
 

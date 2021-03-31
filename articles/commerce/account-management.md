@@ -1,6 +1,6 @@
 ---
 title: Kontohalduse lehed ja moodulid
-description: See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Dynamics 365 Commerce.
+description: See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c465b8883438eee886b177274bf89ddb86aa00b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206627"
 ---
 # <a name="account-management-pages-and-modules"></a>Kontohalduse lehed ja moodulid
 
 [!include [banner](includes/banner.md)]
 
-See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
+See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Microsoft Dynamics 365 Commerce.
 
 Kontohaldus viitab lehtede grupile, mida kasutatakse kasutajakontoga seotud teabe haldamiseks rakenduses Dynamics 365 Commerce. Kontohalduse lehed hõlmavad kontohalduse sihtlehte, kasutajaprofiili lehte, kasutaja aadressi lehte, tellimuste ajaloo lehte, tellimuste üksikasjade lehte, püsikliendi lehte ja soovinimekirja lehte.
 

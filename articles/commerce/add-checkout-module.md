@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980502"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206458"
 ---
 # <a name="checkout-module"></a>Maksmise moodul
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas lisada lehele maksmise moodul ja määrata vajalikud atribuudid.
-
-## <a name="overview"></a>Ülevaade
 
 Maksmise moodul on spetsiaalne konteiner, mis majutab kõiki tellimuse loomiseks vajalikke mooduleid. See esitab samm-sammulise voo, mida klient ostu sooritamiseks kogu asjakohase teabe sisestamiseks kasutab. See hõivab tarneaadressi, tarneviisi ja arveldusteavet. Samuti esitatakse tellimuse kokkuvõte ja muud kliendi tellimusega seotud andmed.
 

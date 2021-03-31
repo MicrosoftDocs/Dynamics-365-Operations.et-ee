@@ -1,6 +1,6 @@
 ---
-title: Dünaamiliste e-kaubanduse lehtede loomine URL-i parameetrite põhjal
-description: See teema kirjeldab, kuidas seadistada Microsofti Dynamics 365 Commerce e-kaubanduse lehte, mis võib URL-i parameetrite põhjal dünaamilist sisu esitada.
+title: URL-i parameetrite põhjal dünaamiliste e-kaubanduslehtede loomine
+description: See teema kirjeldab, kuidas seadistada Microsoft Dynamics 365 Commerce e-kaubanduse lehte, mis võib URL-i parameetrite põhjal dünaamilist sisu esitada.
 author: StuHarg
 manager: AnnBe
 ms.date: 01/28/2021
@@ -17,19 +17,19 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e72b738133b396848848d167cace80fe23694334
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208011"
 ---
-# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Dünaamiliste e-kaubanduse lehtede loomine URL-i parameetrite põhjal
+# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>URL-i parameetrite põhjal dünaamiliste e-kaubanduslehtede loomine
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-See teema kirjeldab, kuidas seadistada Microsofti Dynamics 365 Commerce e-kaubanduse lehte, mis võib URL-i parameetrite põhjal dünaamilist sisu esitada.
+See teema kirjeldab, kuidas seadistada Microsoft Dynamics 365 Commerce e-kaubanduse lehte, mis võib URL-i parameetrite põhjal dünaamilist sisu esitada.
 
 E-kaubanduse lehte saab konfigureerida URL-i tee segmendi põhjal erinevat sisu esitama. Seepärast nimetatakse seda lehte dünaamiliseks leheks. Segmenti kasutatakse lehe sisu toomise parameetrina. Näiteks luuakse leht nimega **blogi\_vaatur** ja seostatakse URL-iga `https://fabrikam.com/blog`. Seejärel saab seda lehte kasutada URL-i tee viimasel segmendil põhineva erineva sisu näitamiseks. URL-i `https://fabrikam.com/blog/article-1` viimane segment on näiteks **artikkel 1**.
 

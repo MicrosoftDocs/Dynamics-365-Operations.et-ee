@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e70648da2cc1c526625b6e34fd0867d40abb5a85
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035897"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211173"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks
 
@@ -81,7 +81,7 @@ Commerce'i saidiehitajas B2B toote koguse piirangute funktsiooni sisse lülitami
 
 [B2B organisatsioonidele organisatsiooni modelleerimise hierarhiate loomine.](org-model.md)
 
-[Äripartnerist kasutajate haldamine B2B e-kaubanduse saitidel](manage-b2b-users.md)
+[Äripartnerkasutajate haldamine B2B e-kaubandussaitidel](manage-b2b-users.md)
 
 [Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks](payment-method.md)
 

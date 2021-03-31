@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
-description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
+description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
 author: psimolin
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993446"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213814"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
+Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -102,7 +102,7 @@ Iga kandelise sündmuse jaoks, mille jaoks soovite meile saata, tuleb uuendada m
 
 Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite ka värskendada linke mallides, et need sobiksid teie hindamiskeskkonda. See protseduur selgitab, kuidas vaikimisi malle alla laadida, neid kohandada ja süsteemi malle värskendada.
 
-1. Laadige brauserist alla kohalikku arvutisse [Microsoft Dynamics 365 Commerce'i hindamisee vaikimisi meilimallide zip-fail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). See fail sisaldab järgmisi HTML-dokumente:
+1. Laadige brauserist alla [Microsoft Dynamics 365 Commerce Microsoft 'i hindamisee vaikimisi meilimallide zip-fail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) kohalikku arvutisse. See fail sisaldab järgmisi HTML-dokumente:
 
     - Tellimuse kinnituse mall
     - Kinkekaardi väljastamise mall
@@ -138,7 +138,7 @@ Järgmised load rakenduvad üldisele müügitellimusele.
 | Tellimuse kood      | %salesid% |
 | Kliendi nimi   | %customername% |
 | Tarneaadress  | %deliveryaddress% |
-| Arveaadress   | %customeraddress% |
+| Arveldusaadress   | %customeraddress% |
 | Tellimuse kuupäev        | %shipdate% |
 | Tarneviis     | %modeofdelivery% |
 | Allahindlus          | %discount% |
@@ -159,7 +159,7 @@ Järgmised load on iga toote puhul tellimuses asendatud väärtustega.
 | Toote nimetus           | %lineproductname% |
 | Kirjeldus            | %lineproductdescription% |
 | Kogus               | %linequantity% |
-| Reaühiku hind        | %lineprice% (kontrollige) |
+| Reaühiku hind        | %lineprice% (Kontrolli) |
 | reaüksuse kogusumma        | %linenetamount% |
 | rea allahindlus          | %linediscount% |
 | Lähetuskuupäev              | %lineshipdate% |
