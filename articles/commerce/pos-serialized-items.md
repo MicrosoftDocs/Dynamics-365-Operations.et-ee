@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee79fef3300ebea476ea37adc4cc61a9bbadb5d6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972551"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231244"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Seerianumbriga kaupadega töötamine kassas
 
 [!include [banner](includes/banner.md)]
 
-Paljud jaemüüjad müüvad kaupu, mis nõuavad seerianumbri kontrollimist. Selliseid tooteid nimetatakse *serialiseeritud kaupadeks*. Mõned jaemüüjad võivad kasutada seerianumbreid jälgimisotstarbel kaupluses või laos. Teised võivad rakendada seerianumbreid müügiprotsessi ajal teeninduse ja garantii otstarbel. Selles teemas on selgitatud, kuidas saate hallata seerianumbriga kaupu Microsoft Dynamics 365 Commerce'i kassarakenduses.
+Paljud jaemüüjad müüvad kaupu, mis nõuavad seerianumbri kontrollimist. Selliseid tooteid nimetatakse *serialiseeritud kaupadeks*. Mõned jaemüüjad võivad kasutada seerianumbreid jälgimisotstarbel kaupluses või laos. Teised võivad rakendada seerianumbreid müügiprotsessi ajal teeninduse ja garantii otstarbel. Selles teemas on selgitatud, kuidas saate hallata seerianumbriga kaupu Microsoft Dynamics 365 Commerce kassarakenduses.
 
 ## <a name="serial-number-configurations"></a>Seerianumbrite konfiguratsioonid
 

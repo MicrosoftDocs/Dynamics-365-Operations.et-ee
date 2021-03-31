@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 2156542ed0932fab6fb4fa4035e009ad89eeb18f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e7df580557486c67fc82af19f742bc8002cb881
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231076"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Klienditellimuste pealekorje töötlemine kassas
 
@@ -36,7 +36,7 @@ Kui valitud tellimus või tellimuse read ei ole selles kaupluses pealekorjeks ko
 
 ![Pealekorje toiming](media/pickupoperation.png)
 
-Microsoft Dynamics 365 Commerce'i versioonis 10.0.17 ja uuemates versioonides saab funktsiooni **Täiustatud kasutajakogemus pealekorje tellimuste töötlemiseks kassas** läbi Commerce'i peakontori funktsioonihalduse sisse lülitada. Kui funktsioon on välja lülitatud, ei saa kasutajad pealelaadimiskoguseid valida. Vaikimisi on reas tellitud täielik kogus see kogus, mis peale korjatakse. See kogemus võib olla problemaatiline, sest kasutajad võivad tellimuse täitmise kaudu pealekorje teostamisel unustada mõned kaubad pealekorjamiseks valimata.
+Rakenduse Microsoft Dynamics 365 Commerce versioonis 10.0.17 ja uuemates versioonides saab funktsiooni **Täiustatud kasutajakogemus pealekorje tellimuste töötlemiseks kassas** läbi Commerce'i peakontori funktsioonihalduse sisse lülitada. Kui funktsioon on välja lülitatud, ei saa kasutajad pealelaadimiskoguseid valida. Vaikimisi on reas tellitud täielik kogus see kogus, mis peale korjatakse. See kogemus võib olla problemaatiline, sest kasutajad võivad tellimuse täitmise kaudu pealekorje teostamisel unustada mõned kaubad pealekorjamiseks valimata.
 
 Funktsioon **Täiustatud kasutajakogemus pealekorje tellimuste töötlemiseks kassas** annab kasutajatel suurema kontrolli pealekorjatavate toodete valimise üle ja nende toodete pealekorjatavate koguste üle. Kasutajad ei pea valima tellimuse täitmise lehel iga müügitellimuse rida enne, kui nad valivad **Pealekorje**. Kuvatakse kõik kaubad, mida saab peale võtta. Kasutajad saavad määrata pealekorje jaoks mitu rida, isegi kui valitakse ainult üks tooterida.
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0bf37453740d1c2b09b5bd7ae4841f23da20a3ec
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1ea46ae90dedcc3ad3c3b305bddeb4d98827353a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687533"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230664"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Kinkekaardi ja krediiditeatise toimingute sujuv võrguühenduseta lülitamine
 
@@ -32,7 +32,7 @@ Kui kassa seade kaotab oma ühenduse kanali andmebaasiga, saab enamike pooleli o
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Ühenduseta režiimis kinkekaardi kannete lõpetamine
 
-Sisemised kinkekaardid sõltuvad reaalajas teenusest, kuna kinkekaardi saldo peab olema Microsoft Dynamics 365 Commerce Headquartersis keskselt hallatud. Pettuse või muu sünkroonimise probleemide vältimiseks lukustatakse kinkekaardid kohe, kui need on kandesse lisatud. Lukustamise funktsioon tagab, et kinkekaarti ei saaks kasutada samaaegselt mitmes terminalis. Kui kanne on lõpetatud, kinkekaart värskendatakse ja vabastatakse.
+Sisemised kinkekaardid sõltuvad reaalajas teenusest, kuna kinkekaardi saldo peab olema Microsoft Dynamics 365 Commerce Headquarters`i keskselt hallatud. Pettuse või muu sünkroonimise probleemide vältimiseks lukustatakse kinkekaardid kohe, kui need on kandesse lisatud. Lukustamise funktsioon tagab, et kinkekaarti ei saaks kasutada samaaegselt mitmes terminalis. Kui kanne on lõpetatud, kinkekaart värskendatakse ja vabastatakse.
 
 Samas kui kassa kaotab ühenduvuse pärast kinkekaardi kandesse lisamist, võib kinkekaardi kasutuskõlbmatuks muutuda. Selle olukorra vältimiseks on rakenduses Dynamics 365 Commerce parameeter, mis lubab kinkekaardi rida sisaldavad kanded viia lõpule, kui kassa on võrguühenduseta. Kui see parameeter on sisse lülitatud, salvestatakse võrguühenduseta sunnitud kinkekaardi kanded koos võrguühenduseta kannetega ja need sünkroonitakse Commerce Headquartersiga võrguühenduseta kannete sünkroonimisel. Sünkroonimine vabastab ka kinkekaardi, et seda saaks kasutada teises terminalis.
 

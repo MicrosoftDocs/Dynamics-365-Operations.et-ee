@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3163975a8cc99c4b07fdbe03fa57ea6cfef53cd9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995211"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226433"
 ---
 # <a name="cost-control-workspace"></a>Kulujuhtimise tööruum 
 
@@ -55,7 +55,7 @@ Kiirkaardil **Andmete filtreerimine** saate määratleda aruande alusandmed. Sel
 |-------------------------------------------------------------------|-------------|
 | Kuluarvestuse pearaamat                                            | **Kuluarvestuse pearaamat**, millel aruanne põhineb. Väärtus tuletatakse väljalt **Kulu juhtimisüksus**. |
 | Kulu juhtseade                                                 | Väärtus, mille valite, määrab kuluarvestuse pearaamatu ja kuluobjektid, millel see aruanne põhineb. |
-| Statistiline dimensioonihierarhia, kuluelemendi dimensioonihierarhia | **Kulujuhtimise** tööruumi konfiguratsioonikirje saab registreerida mitterahalisi või rahalisi väärtusi, kuid mitte samas paigutuses. Valige väärtus väljalt **Kuluelemendi dimensioonihierarhia** rahaliste väärtuste registreerimiseks. Valige väärtus väljalt **Statistiline dimensioonihierarhia** mitterahaliste väärtuste registreerimiseks. Valitud dimensioonihierarhia kirje määrab aruandluse ja liitmise taseme struktuuri.<blockquote>[!NOTE]<br>Mitterahaliste ja rahaliste väärtuste kõrvuti vaatamiseks võite eksportida Microsoft Power BI sisupaketi andmed Microsoft Excelisse.</blockquote> |
+| Statistiline dimensioonihierarhia, kuluelemendi dimensioonihierarhia | **Kulujuhtimise** tööruumi konfiguratsioonikirje saab registreerida mitterahalisi või rahalisi väärtusi, kuid mitte samas paigutuses. Valige väärtus väljalt **Kuluelemendi dimensioonihierarhia** rahaliste väärtuste registreerimiseks. Valige väärtus väljalt **Statistiline dimensioonihierarhia** mitterahaliste väärtuste registreerimiseks. Valitud dimensioonihierarhia kirje määrab aruandluse ja liitmise taseme struktuuri.<blockquote>[!NOTE]<br>Mitterahaliste ja rahaliste väärtuste kõrvuti vaatamiseks võite eksportida Microsoft Power BI sisupaketi andmed Microsoft Excel`isse.</blockquote> |
 | Kuluobjekti dimensioonihierarhia                                   | Valige määratletava aruandluse eesmärgiga sobiva kuluobjekti dimensiooni dimensioonihierarhia. |
 | Eelarve algne versioon                                           | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis algse eelarvena. |
 | Eelarve parandatud versioon                                            | Valige eelarveversiooni ID, mis toimib selle aruande kontekstis parandatud eelarvena. |
