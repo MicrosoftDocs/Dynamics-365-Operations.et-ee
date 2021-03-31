@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995186"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217382"
 ---
 # <a name="dimension-hierarchy"></a>Dimensioonihierarhia
 
@@ -52,7 +52,7 @@ Dimensioonihierarhia saab luua järgmistele dimensioonitüüpidele.
 > [!NOTE]
 > - Kui on vaja erinevaid perspektiive, võite luua samale dimensioonile mitu dimensioonihierarhiat.
 > - Dimensioonihierarhia saab seostada ainult ühe dimensiooniga.
-> - Dimensioonihierarhia struktuuris võib olla piiramatu arv tasandeid. Kõik tasandid on saadaval **kulujuhtimise** tööruumis. Kui kasutate aruandluseks Microsoft Excelit või Microsoft Power BI-d, siis eksporditakse ainult esimesed 15 dimensioonihierarhia taset. See piirang on sellepärast, et nii Excel kui ka Power BI nõuavad fikseeritud skeemi.
+> - Dimensioonihierarhia struktuuris võib olla piiramatu arv tasandeid. Kõik tasandid on saadaval **kulujuhtimise** tööruumis. Kui kasutate rakendusi Microsoft Excel või Microsoft Power BI aruandluseks, siis eksporditakse ainult esimesed 15 dimensioonihierarhia taset. See piirang on sellepärast, et nii Excel kui ka Power BI nõuavad fikseeritud skeemi.
 > - Dimensioonihierarhia ei sõltu kuupäevast. Seega salvestatakse dimensioonihierarhia muudatused kohe kirje juurde ja varasemat ning hilisemat kuupäeva ei saa võrrelda.
 
 ## <a name="dimension-hierarchy-type"></a>Dimensiooni hierarhia tüüp

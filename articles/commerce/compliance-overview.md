@@ -1,6 +1,6 @@
 ---
 title: Vastavuse ülevaade
-description: See teema on ülevaade vastavuse juhendist, mis antakse Microsoft Dynamics 365 Commerce'ile, et aidata teil muuta oma ettevõtte saidid nõuetele vastavaks.
+description: See teema on ülevaade vastavuse juhendist, mis antakse rakendusele Microsoft Dynamics 365 Commerce et aidata teil muuta oma ettevõtte saidid nõuetele vastavaks.
 author: BrianShook
 manager: annbe
 ms.date: 01/08/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c06d4e02affc48cf8b9b533d2cd4c1cd0d85e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd47f9ad8ef7bca37986819bcc11f4c4c4d5ab0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220626"
 ---
 # <a name="compliance-overview"></a>Vastavuse ülevaade
 
 
 [!include [banner](includes/banner.md)]
 
-See teema on ülevaade vastavuse juhendist, mis antakse Microsoft Dynamics 365 Commerce'ile, et aidata teil muuta oma ettevõtte saidid nõuetele vastavaks. Vastavus on oluline tegur kõigi ettevõtete jaoks, sest see aitab nende kasutajate baasil ühendada oma saidi sisuga. Vastavusse jäädes saate samuti aidata kaitsta oma ettevõtet kuluka juriidilise tegevuse või kopsakate trahvide eest.
+See teema on ülevaade vastavuse juhendist, mis antakse rakendusele Microsoft Dynamics 365 Commerce et aidata teil muuta oma ettevõtte saidid nõuetele vastavaks. Vastavus on oluline tegur kõigi ettevõtete jaoks, sest see aitab nende kasutajate baasil ühendada oma saidi sisuga. Vastavusse jäädes saate samuti aidata kaitsta oma ettevõtet kuluka juriidilise tegevuse või kopsakate trahvide eest.
 
 Vastavuse dokumentatsioon hõlmab ülevaadet valdkondadest, mida peaksite rakenduse Dynamics 365 Commerce kasutamisel silmas pidama, et aidata teil täita oma ettevõtte vastavuse nõudeid.
 
