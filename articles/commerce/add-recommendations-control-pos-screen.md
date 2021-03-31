@@ -18,103 +18,106 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2e1ef6506833b35e61351600553a3bc29c20d5b2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6085a69132a4687455282a908d613aa98d2e7a8d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980228"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209247"
 ---
-# <a name="add-recommendations-to-the-transaction-screen"></a><span data-ttu-id="235ed-103">Soovituste lisamine kandeekraanile</span><span class="sxs-lookup"><span data-stu-id="235ed-103">Add recommendations to the transaction screen</span></span>
+# <a name="add-recommendations-to-the-transaction-screen"></a><span data-ttu-id="806dd-103">Soovituste lisamine kandeekraanile</span><span class="sxs-lookup"><span data-stu-id="806dd-103">Add recommendations to the transaction screen</span></span>
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="235ed-104">See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 Commercei ekraanipaigutuse kujundajat.</span><span class="sxs-lookup"><span data-stu-id="235ed-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="235ed-105">Lisateavet tootesoovituste kohta lugege teemast [Tootesoovitused kassa dokumentatsioonis](product.md).</span><span class="sxs-lookup"><span data-stu-id="235ed-105">For more information about product recommendations, read the  [product recommendations on POS documentation](product.md).</span></span>
+<span data-ttu-id="806dd-104">See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 Commercei ekraanipaigutuse kujundajat.</span><span class="sxs-lookup"><span data-stu-id="806dd-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="806dd-105">Lisateavet tootesoovituste kohta lugege teemast [Tootesoovitused kassa dokumentatsioonis](product.md).</span><span class="sxs-lookup"><span data-stu-id="806dd-105">For more information about product recommendations, read the  [product recommendations on POS documentation](product.md).</span></span>
 
 
-<span data-ttu-id="235ed-106">Saate Commerce'i kasutamisel kuvada kassaseadmes tootesoovitusi.</span><span class="sxs-lookup"><span data-stu-id="235ed-106">You can display product recommendations on your POS device when you use Commerce.</span></span> <span data-ttu-id="235ed-107">Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat.</span><span class="sxs-lookup"><span data-stu-id="235ed-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
+<span data-ttu-id="806dd-106">Saate Commerce'i kasutamisel kuvada kassaseadmes tootesoovitusi.</span><span class="sxs-lookup"><span data-stu-id="806dd-106">You can display product recommendations on your POS device when you use Commerce.</span></span> <span data-ttu-id="806dd-107">Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat.</span><span class="sxs-lookup"><span data-stu-id="806dd-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
 
-## <a name="open-layout-designer"></a><span data-ttu-id="235ed-108">Paigutusekujundaja avamine</span><span class="sxs-lookup"><span data-stu-id="235ed-108">Open Layout designer</span></span>
+## <a name="open-layout-designer"></a><span data-ttu-id="806dd-108">Paigutusekujundaja avamine</span><span class="sxs-lookup"><span data-stu-id="806dd-108">Open Layout designer</span></span>
 
-1. <span data-ttu-id="235ed-109">Avage **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Kuvapaigutused**.</span><span class="sxs-lookup"><span data-stu-id="235ed-109">Go to **Retail and Commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
-2. <span data-ttu-id="235ed-110">Leidke kiirfiltri abil kuva, kuhu soovite juhtelemendi lisada.</span><span class="sxs-lookup"><span data-stu-id="235ed-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="235ed-111">Näiteks saate filtreerida välja **Kuvapaigutuse ID** väärtuse **F2CP16:9M** järgi.</span><span class="sxs-lookup"><span data-stu-id="235ed-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
-3. <span data-ttu-id="235ed-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="235ed-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="235ed-113">Valige näiteks **Nimi: F2CP16:9M Kuvapaigutuse ID: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="235ed-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
-4. <span data-ttu-id="235ed-114">Klõpsake valikut **Paigutusekujundaja**.</span><span class="sxs-lookup"><span data-stu-id="235ed-114">Click **Layout designer**.</span></span>
-5. <span data-ttu-id="235ed-115">Järgige paigutusekujundaja avamiseks viipasid.</span><span class="sxs-lookup"><span data-stu-id="235ed-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="235ed-116">Kui küsitakse identimisteavet, sisestage sama identimisteave, mida kasutasite, kui paigutusekujundaja lehel **Kuvapaigutused** käivitasite.</span><span class="sxs-lookup"><span data-stu-id="235ed-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
-6. <span data-ttu-id="235ed-117">Sisselogimisel avaneb alltoodule sarnane leht.</span><span class="sxs-lookup"><span data-stu-id="235ed-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="235ed-118">Paigutus erineb olenevalt teie poele tehtud kohandustest.</span><span class="sxs-lookup"><span data-stu-id="235ed-118">The layout will be different depending on the customizations that were made for your store.</span></span>
-
-
-    <span data-ttu-id="235ed-119">[![Paigutusekujundaja](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="235ed-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
-
-## <a name="choose-a-display-option"></a><span data-ttu-id="235ed-120">Valige kuvatav valik</span><span class="sxs-lookup"><span data-stu-id="235ed-120">Choose a display option</span></span>
-
-<span data-ttu-id="235ed-121">Saadaval on kaks konfigureerimisvalikut.</span><span class="sxs-lookup"><span data-stu-id="235ed-121">There are two configurations options available.</span></span> <span data-ttu-id="235ed-122">Tehke oma poe jaoks sobivam valik ja järgige juhtelemendi seadistamise lõpetamiseks järelejäänud juhiseid.</span><span class="sxs-lookup"><span data-stu-id="235ed-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="235ed-123">Võimalused on järgmised.</span><span class="sxs-lookup"><span data-stu-id="235ed-123">The two options are:</span></span>
-
-- <span data-ttu-id="235ed-124">Soovitused on alati nähtaval.</span><span class="sxs-lookup"><span data-stu-id="235ed-124">Recommendations are always visible.</span></span>
-- <span data-ttu-id="235ed-125">Kuva paremas servas olevas ruudustikus kuvatakse vahekaart **Soovitused**.</span><span class="sxs-lookup"><span data-stu-id="235ed-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
-
-### <a name="make-recommendations-always-visible"></a><span data-ttu-id="235ed-126">Soovituste alati nähtavaks tegemine</span><span class="sxs-lookup"><span data-stu-id="235ed-126">Make recommendations always visible</span></span>
+1. <span data-ttu-id="806dd-109">Avage **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Kuvapaigutused**.</span><span class="sxs-lookup"><span data-stu-id="806dd-109">Go to **Retail and Commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
+2. <span data-ttu-id="806dd-110">Leidke kiirfiltri abil kuva, kuhu soovite juhtelemendi lisada.</span><span class="sxs-lookup"><span data-stu-id="806dd-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="806dd-111">Näiteks saate filtreerida välja **Kuvapaigutuse ID** väärtuse **F2CP16:9M** järgi.</span><span class="sxs-lookup"><span data-stu-id="806dd-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
+3. <span data-ttu-id="806dd-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="806dd-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="806dd-113">Valige näiteks **Nimi: F2CP16:9M Kuvapaigutuse ID: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="806dd-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
+4. <span data-ttu-id="806dd-114">Klõpsake valikut **Paigutusekujundaja**.</span><span class="sxs-lookup"><span data-stu-id="806dd-114">Click **Layout designer**.</span></span>
+5. <span data-ttu-id="806dd-115">Järgige paigutusekujundaja avamiseks viipasid.</span><span class="sxs-lookup"><span data-stu-id="806dd-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="806dd-116">Kui küsitakse identimisteavet, sisestage sama identimisteave, mida kasutasite, kui paigutusekujundaja lehel **Kuvapaigutused** käivitasite.</span><span class="sxs-lookup"><span data-stu-id="806dd-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
+6. <span data-ttu-id="806dd-117">Sisselogimisel avaneb alltoodule sarnane leht.</span><span class="sxs-lookup"><span data-stu-id="806dd-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="806dd-118">Paigutus erineb olenevalt teie poele tehtud kohandustest.</span><span class="sxs-lookup"><span data-stu-id="806dd-118">The layout will be different depending on the customizations that were made for your store.</span></span>
 
 
-1. <span data-ttu-id="235ed-127">Vähendage kanderidade üksikasjade ala kõrgust, nii et see oleks sama kõrge, kui vasakul asuv kliendipaneel.</span><span class="sxs-lookup"><span data-stu-id="235ed-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
+    <span data-ttu-id="806dd-119">[![Paigutusekujundaja](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="806dd-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
+
+## <a name="choose-a-display-option"></a><span data-ttu-id="806dd-120">Valige kuvatav valik</span><span class="sxs-lookup"><span data-stu-id="806dd-120">Choose a display option</span></span>
+
+<span data-ttu-id="806dd-121">Saadaval on kaks konfigureerimisvalikut.</span><span class="sxs-lookup"><span data-stu-id="806dd-121">There are two configurations options available.</span></span> <span data-ttu-id="806dd-122">Tehke oma poe jaoks sobivam valik ja järgige juhtelemendi seadistamise lõpetamiseks järelejäänud juhiseid.</span><span class="sxs-lookup"><span data-stu-id="806dd-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="806dd-123">Võimalused on järgmised.</span><span class="sxs-lookup"><span data-stu-id="806dd-123">The two options are:</span></span>
+
+- <span data-ttu-id="806dd-124">Soovitused on alati nähtaval.</span><span class="sxs-lookup"><span data-stu-id="806dd-124">Recommendations are always visible.</span></span>
+- <span data-ttu-id="806dd-125">Kuva paremas servas olevas ruudustikus kuvatakse vahekaart **Soovitused**.</span><span class="sxs-lookup"><span data-stu-id="806dd-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
+
+### <a name="make-recommendations-always-visible"></a><span data-ttu-id="806dd-126">Soovituste alati nähtavaks tegemine</span><span class="sxs-lookup"><span data-stu-id="806dd-126">Make recommendations always visible</span></span>
 
 
-    <span data-ttu-id="235ed-128">[![Kanderidade üksikasjade ala kõrgust on vähendatud](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="235ed-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
-
-2. <span data-ttu-id="235ed-129">Pukseerige soovituste juhtelement vasakul asuvast menüüst kanderea üksikasjade ala ja kannetekuva alaosa keskel asuva nupuruudustiku vahele.</span><span class="sxs-lookup"><span data-stu-id="235ed-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="235ed-130">Muutke juhtelemendi suurust, nii et see mahuks olemasolevasse ruumi.</span><span class="sxs-lookup"><span data-stu-id="235ed-130">Resize the control so it fits in that space.</span></span>
-
-    <span data-ttu-id="235ed-131">[![Paigutusele on lisatud soovituste juhtelement](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="235ed-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
+1. <span data-ttu-id="806dd-127">Vähendage kanderidade üksikasjade ala kõrgust, nii et see oleks sama kõrge, kui vasakul asuv kliendipaneel.</span><span class="sxs-lookup"><span data-stu-id="806dd-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
 
 
-3. <span data-ttu-id="235ed-132">Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.</span><span class="sxs-lookup"><span data-stu-id="235ed-132">Click the **X** to save and exit Layout designer.</span></span>
-4. <span data-ttu-id="235ed-133">Avage Commerce'is **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafikud**.</span><span class="sxs-lookup"><span data-stu-id="235ed-133">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
-5. <span data-ttu-id="235ed-134">Valige loendist suvand **1090, registrid**.</span><span class="sxs-lookup"><span data-stu-id="235ed-134">In the list, select **1090 Registers**.</span></span>
-6. <span data-ttu-id="235ed-135">Klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="235ed-135">Click **Run now**.</span></span>
+    <span data-ttu-id="806dd-128">[![Kanderidade üksikasjade ala kõrgust on vähendatud](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="806dd-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
+
+2. <span data-ttu-id="806dd-129">Pukseerige soovituste juhtelement vasakul asuvast menüüst kanderea üksikasjade ala ja kannetekuva alaosa keskel asuva nupuruudustiku vahele.</span><span class="sxs-lookup"><span data-stu-id="806dd-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="806dd-130">Muutke juhtelemendi suurust, nii et see mahuks olemasolevasse ruumi.</span><span class="sxs-lookup"><span data-stu-id="806dd-130">Resize the control so it fits in that space.</span></span>
+
+    <span data-ttu-id="806dd-131">[![Paigutusele on lisatud soovituste juhtelement](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="806dd-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
 
 
-### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="235ed-136">Lisage soovituste vahekaart kuva paremas servas olevasse nupuruudustikku</span><span class="sxs-lookup"><span data-stu-id="235ed-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
+3. <span data-ttu-id="806dd-132">Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.</span><span class="sxs-lookup"><span data-stu-id="806dd-132">Click the **X** to save and exit Layout designer.</span></span>
+4. <span data-ttu-id="806dd-133">Avage Commerce'is **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafikud**.</span><span class="sxs-lookup"><span data-stu-id="806dd-133">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
+5. <span data-ttu-id="806dd-134">Valige loendist suvand **1090, registrid**.</span><span class="sxs-lookup"><span data-stu-id="806dd-134">In the list, select **1090 Registers**.</span></span>
+6. <span data-ttu-id="806dd-135">Klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="806dd-135">Click **Run now**.</span></span>
 
-1. <span data-ttu-id="235ed-137">Paremklõpsake lehe paremas servas asuva nupuruudustiku viimase vahekaardi all olevat tühja ruumi.</span><span class="sxs-lookup"><span data-stu-id="235ed-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
 
-2. <span data-ttu-id="235ed-138">Klõpsake **Kohandada**.</span><span class="sxs-lookup"><span data-stu-id="235ed-138">Click **Customize**.</span></span>
+### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="806dd-136">Lisage soovituste vahekaart kuva paremas servas olevasse nupuruudustikku</span><span class="sxs-lookup"><span data-stu-id="806dd-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
 
-    <span data-ttu-id="235ed-139">[![Kohandamine – vahekaardi juhtimise dialoogiboks](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="235ed-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
+1. <span data-ttu-id="806dd-137">Paremklõpsake lehe paremas servas asuva nupuruudustiku viimase vahekaardi all olevat tühja ruumi.</span><span class="sxs-lookup"><span data-stu-id="806dd-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
 
-3. <span data-ttu-id="235ed-140">Klõpsake valikut **Uus vahekaart**.</span><span class="sxs-lookup"><span data-stu-id="235ed-140">Click **New tab**.</span></span>
-4. <span data-ttu-id="235ed-141">Leidke vastlisatud uus vahekaart.</span><span class="sxs-lookup"><span data-stu-id="235ed-141">Find the new tab that you just added.</span></span> <span data-ttu-id="235ed-142">Võib-olla peate selleks allapoole kerima.</span><span class="sxs-lookup"><span data-stu-id="235ed-142">You may need to scroll down.</span></span>
-5. <span data-ttu-id="235ed-143">Valige ripploendist **Sisu** suvand **Soovitatud tooted**.</span><span class="sxs-lookup"><span data-stu-id="235ed-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
+2. <span data-ttu-id="806dd-138">Klõpsake **Kohandada**.</span><span class="sxs-lookup"><span data-stu-id="806dd-138">Click **Customize**.</span></span>
 
-    <span data-ttu-id="235ed-144">[![Soovitatud toodete valimine sisu väljast](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="235ed-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
+    <span data-ttu-id="806dd-139">[![Kohandamine – vahekaardi juhtimise dialoogiboks](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="806dd-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
 
-6. <span data-ttu-id="235ed-145">Tippige väljale **Silt** soovituste vahekaardi nimi. Tippige näiteks „Soovitatud tooted”.</span><span class="sxs-lookup"><span data-stu-id="235ed-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
-7. <span data-ttu-id="235ed-146">Valige väljal **Pilt** vahekaardil kuvatav pilt.</span><span class="sxs-lookup"><span data-stu-id="235ed-146">In the **Image** field, select the image to appear on the tab.</span></span>
-8. <span data-ttu-id="235ed-147">Klõpsake valikut **OK**.</span><span class="sxs-lookup"><span data-stu-id="235ed-147">Click **OK**.</span></span> <span data-ttu-id="235ed-148">Uus vahekaart kuvatakse nupuruudustikus.</span><span class="sxs-lookup"><span data-stu-id="235ed-148">The new tab appears in the button grid.</span></span>
-9. <span data-ttu-id="235ed-149">Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.</span><span class="sxs-lookup"><span data-stu-id="235ed-149">Click the **X** to save and exit Layout designer.</span></span>
-10. <span data-ttu-id="235ed-150">Avage Commerce'is **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafikud**.</span><span class="sxs-lookup"><span data-stu-id="235ed-150">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
-11. <span data-ttu-id="235ed-151">Valige loendist suvand **1090, registrid**.</span><span class="sxs-lookup"><span data-stu-id="235ed-151">In the list, select **1090 Registers**.</span></span>
-12. <span data-ttu-id="235ed-152">Klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="235ed-152">Click **Run now**.</span></span>
+3. <span data-ttu-id="806dd-140">Klõpsake valikut **Uus vahekaart**.</span><span class="sxs-lookup"><span data-stu-id="806dd-140">Click **New tab**.</span></span>
+4. <span data-ttu-id="806dd-141">Leidke vastlisatud uus vahekaart.</span><span class="sxs-lookup"><span data-stu-id="806dd-141">Find the new tab that you just added.</span></span> <span data-ttu-id="806dd-142">Võib-olla peate selleks allapoole kerima.</span><span class="sxs-lookup"><span data-stu-id="806dd-142">You may need to scroll down.</span></span>
+5. <span data-ttu-id="806dd-143">Valige ripploendist **Sisu** suvand **Soovitatud tooted**.</span><span class="sxs-lookup"><span data-stu-id="806dd-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="235ed-153">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="235ed-153">Additional resources</span></span>
+    <span data-ttu-id="806dd-144">[![Soovitatud toodete valimine sisu väljast](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="806dd-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
 
-[<span data-ttu-id="235ed-154">Tootesoovituste ülevaade</span><span class="sxs-lookup"><span data-stu-id="235ed-154">Product recommendations overview</span></span>](product-recommendations.md)
+6. <span data-ttu-id="806dd-145">Tippige väljale **Silt** soovituste vahekaardi nimi. Tippige näiteks „Soovitatud tooted”.</span><span class="sxs-lookup"><span data-stu-id="806dd-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
+7. <span data-ttu-id="806dd-146">Valige väljal **Pilt** vahekaardil kuvatav pilt.</span><span class="sxs-lookup"><span data-stu-id="806dd-146">In the **Image** field, select the image to appear on the tab.</span></span>
+8. <span data-ttu-id="806dd-147">Klõpsake valikut **OK**.</span><span class="sxs-lookup"><span data-stu-id="806dd-147">Click **OK**.</span></span> <span data-ttu-id="806dd-148">Uus vahekaart kuvatakse nupuruudustikus.</span><span class="sxs-lookup"><span data-stu-id="806dd-148">The new tab appears in the button grid.</span></span>
+9. <span data-ttu-id="806dd-149">Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.</span><span class="sxs-lookup"><span data-stu-id="806dd-149">Click the **X** to save and exit Layout designer.</span></span>
+10. <span data-ttu-id="806dd-150">Avage Commerce'is **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafikud**.</span><span class="sxs-lookup"><span data-stu-id="806dd-150">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
+11. <span data-ttu-id="806dd-151">Valige loendist suvand **1090, registrid**.</span><span class="sxs-lookup"><span data-stu-id="806dd-151">In the list, select **1090 Registers**.</span></span>
+12. <span data-ttu-id="806dd-152">Klõpsake valikut **Käivita kohe**.</span><span class="sxs-lookup"><span data-stu-id="806dd-152">Click **Run now**.</span></span>
 
-[<span data-ttu-id="235ed-155">Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas</span><span class="sxs-lookup"><span data-stu-id="235ed-155">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
+## <a name="additional-resources"></a><span data-ttu-id="806dd-153">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="806dd-153">Additional resources</span></span>
 
-[<span data-ttu-id="235ed-156">Luba tootesoovitused</span><span class="sxs-lookup"><span data-stu-id="235ed-156">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="806dd-154">Tootesoovituste ülevaade</span><span class="sxs-lookup"><span data-stu-id="806dd-154">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="235ed-157">Isikupärastatud soovituste lubamine</span><span class="sxs-lookup"><span data-stu-id="235ed-157">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="806dd-155">Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas</span><span class="sxs-lookup"><span data-stu-id="806dd-155">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
 
-[<span data-ttu-id="235ed-158">Isikupärastatud tootesoovitustest loobumine</span><span class="sxs-lookup"><span data-stu-id="235ed-158">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="806dd-156">Luba tootesoovitused</span><span class="sxs-lookup"><span data-stu-id="806dd-156">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="235ed-159">„Sarnaste toodete vaatamise” soovituste lubamine</span><span class="sxs-lookup"><span data-stu-id="235ed-159">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
+[<span data-ttu-id="806dd-157">Isikupärastatud soovituste lubamine</span><span class="sxs-lookup"><span data-stu-id="806dd-157">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="235ed-160">Tootesoovituste lisamine kassas</span><span class="sxs-lookup"><span data-stu-id="235ed-160">Add product recommendations on POS</span></span>](product.md)
+[<span data-ttu-id="806dd-158">Isikupärastatud tootesoovitustest loobumine</span><span class="sxs-lookup"><span data-stu-id="806dd-158">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="235ed-161">AI-ML-i soovituste tulemuste kohandamine</span><span class="sxs-lookup"><span data-stu-id="235ed-161">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="806dd-159">„Sarnaste toodete vaatamise” soovituste lubamine</span><span class="sxs-lookup"><span data-stu-id="806dd-159">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
 
-[<span data-ttu-id="235ed-162">Loo kuraatorite soovitused käsitsi</span><span class="sxs-lookup"><span data-stu-id="235ed-162">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="806dd-160">Tootesoovituste lisamine kassas</span><span class="sxs-lookup"><span data-stu-id="806dd-160">Add product recommendations on POS</span></span>](product.md)
 
-[<span data-ttu-id="235ed-163">Soovituste loomine demoandmetega</span><span class="sxs-lookup"><span data-stu-id="235ed-163">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="806dd-161">AI-ML-i soovituste tulemuste kohandamine</span><span class="sxs-lookup"><span data-stu-id="806dd-161">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="235ed-164">Tootesoovituste KKK</span><span class="sxs-lookup"><span data-stu-id="235ed-164">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="806dd-162">Loo kuraatorite soovitused käsitsi</span><span class="sxs-lookup"><span data-stu-id="806dd-162">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+
+[<span data-ttu-id="806dd-163">Soovituste loomine demoandmetega</span><span class="sxs-lookup"><span data-stu-id="806dd-163">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+
+[<span data-ttu-id="806dd-164">Tootesoovituste KKK</span><span class="sxs-lookup"><span data-stu-id="806dd-164">Product recommendations FAQ</span></span>](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

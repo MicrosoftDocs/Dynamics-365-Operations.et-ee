@@ -16,41 +16,44 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dee3d4817909cfe89c58e031921a79e44b1c4d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 44d9058d6ebe0eca9564d2315c42677390b2c2ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982362"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205717"
 ---
-# <a name="manage-assortments-november-2016"></a><span data-ttu-id="1f49d-103">Sortimentide haldamine (november 2016)</span><span class="sxs-lookup"><span data-stu-id="1f49d-103">Manage assortments (November 2016)</span></span>
+# <a name="manage-assortments-november-2016"></a><span data-ttu-id="22d5d-103">Sortimentide haldamine (november 2016)</span><span class="sxs-lookup"><span data-stu-id="22d5d-103">Manage assortments (November 2016)</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1f49d-104">See protseduur näitab, kuidas uut tootesortimenti luua ja avaldada ning kasutab demoettevõtte USRT andmeid.</span><span class="sxs-lookup"><span data-stu-id="1f49d-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> 
+<span data-ttu-id="22d5d-104">See protseduur näitab, kuidas uut tootesortimenti luua ja avaldada ning kasutab demoettevõtte USRT andmeid.</span><span class="sxs-lookup"><span data-stu-id="22d5d-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> 
 
 
-1. <span data-ttu-id="1f49d-105">Klõpsake valikut Kategooria ja toote haldus.</span><span class="sxs-lookup"><span data-stu-id="1f49d-105">Click Category and product management.</span></span>
+1. <span data-ttu-id="22d5d-105">Klõpsake valikut Kategooria ja toote haldus.</span><span class="sxs-lookup"><span data-stu-id="22d5d-105">Click Category and product management.</span></span>
 
-## <a name="create-an-assortment"></a><span data-ttu-id="1f49d-106">Sortimendi loomine</span><span class="sxs-lookup"><span data-stu-id="1f49d-106">Create an assortment</span></span>
-1. <span data-ttu-id="1f49d-107">Klõpsake vahekaarti Sortimendid.</span><span class="sxs-lookup"><span data-stu-id="1f49d-107">Click the Assortments tab.</span></span>
-2. <span data-ttu-id="1f49d-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="1f49d-108">Click New.</span></span>
-3. <span data-ttu-id="1f49d-109">Klõpsake valikut Sortiment.</span><span class="sxs-lookup"><span data-stu-id="1f49d-109">Click Assortment.</span></span>
-    * <span data-ttu-id="1f49d-110">Sortimendi ID on kohustuslik ja peab olema kordumatu väärtus.</span><span class="sxs-lookup"><span data-stu-id="1f49d-110">The Assortment ID is required and must be a unique value.</span></span>  
-4. <span data-ttu-id="1f49d-111">Sisestage väärtus väljale Sortimendi nimi.</span><span class="sxs-lookup"><span data-stu-id="1f49d-111">In the Assortment name field, type a value.</span></span>
-5. <span data-ttu-id="1f49d-112">Sisestage kuupäev väljale Jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="1f49d-112">In the Effective date field, enter a date.</span></span>
-6. <span data-ttu-id="1f49d-113">Sisestage kuupäev väljale Aegumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="1f49d-113">In the Expiration date field, enter a date.</span></span>
-7. <span data-ttu-id="1f49d-114">Laiendage jaotist Commerce’i kanalid.</span><span class="sxs-lookup"><span data-stu-id="1f49d-114">Expand the Commerce channels section.</span></span>
-8. <span data-ttu-id="1f49d-115">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="1f49d-115">Click Add line.</span></span>
-9. <span data-ttu-id="1f49d-116">Valige puult Contoso Retail\Elektroonika\Boston.</span><span class="sxs-lookup"><span data-stu-id="1f49d-116">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
-10. <span data-ttu-id="1f49d-117">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="1f49d-117">Click Add.</span></span>
-11. <span data-ttu-id="1f49d-118">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="1f49d-118">Click OK.</span></span>
-12. <span data-ttu-id="1f49d-119">Laiendage jaotist Tooted.</span><span class="sxs-lookup"><span data-stu-id="1f49d-119">Expand the Products section.</span></span>
-13. <span data-ttu-id="1f49d-120">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="1f49d-120">Click Add line.</span></span>
-14. <span data-ttu-id="1f49d-121">Valige või sisestage väärtus väljal Kategooria.</span><span class="sxs-lookup"><span data-stu-id="1f49d-121">In the Category field, enter or select a value.</span></span>
-15. <span data-ttu-id="1f49d-122">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="1f49d-122">Click Save.</span></span>
+## <a name="create-an-assortment"></a><span data-ttu-id="22d5d-106">Sortimendi loomine</span><span class="sxs-lookup"><span data-stu-id="22d5d-106">Create an assortment</span></span>
+1. <span data-ttu-id="22d5d-107">Klõpsake vahekaarti Sortimendid.</span><span class="sxs-lookup"><span data-stu-id="22d5d-107">Click the Assortments tab.</span></span>
+2. <span data-ttu-id="22d5d-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="22d5d-108">Click New.</span></span>
+3. <span data-ttu-id="22d5d-109">Klõpsake valikut Sortiment.</span><span class="sxs-lookup"><span data-stu-id="22d5d-109">Click Assortment.</span></span>
+    * <span data-ttu-id="22d5d-110">Sortimendi ID on kohustuslik ja peab olema kordumatu väärtus.</span><span class="sxs-lookup"><span data-stu-id="22d5d-110">The Assortment ID is required and must be a unique value.</span></span>  
+4. <span data-ttu-id="22d5d-111">Sisestage väärtus väljale Sortimendi nimi.</span><span class="sxs-lookup"><span data-stu-id="22d5d-111">In the Assortment name field, type a value.</span></span>
+5. <span data-ttu-id="22d5d-112">Sisestage kuupäev väljale Jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="22d5d-112">In the Effective date field, enter a date.</span></span>
+6. <span data-ttu-id="22d5d-113">Sisestage kuupäev väljale Aegumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="22d5d-113">In the Expiration date field, enter a date.</span></span>
+7. <span data-ttu-id="22d5d-114">Laiendage jaotist Commerce’i kanalid.</span><span class="sxs-lookup"><span data-stu-id="22d5d-114">Expand the Commerce channels section.</span></span>
+8. <span data-ttu-id="22d5d-115">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="22d5d-115">Click Add line.</span></span>
+9. <span data-ttu-id="22d5d-116">Valige puult Contoso Retail\Elektroonika\Boston.</span><span class="sxs-lookup"><span data-stu-id="22d5d-116">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
+10. <span data-ttu-id="22d5d-117">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="22d5d-117">Click Add.</span></span>
+11. <span data-ttu-id="22d5d-118">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="22d5d-118">Click OK.</span></span>
+12. <span data-ttu-id="22d5d-119">Laiendage jaotist Tooted.</span><span class="sxs-lookup"><span data-stu-id="22d5d-119">Expand the Products section.</span></span>
+13. <span data-ttu-id="22d5d-120">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="22d5d-120">Click Add line.</span></span>
+14. <span data-ttu-id="22d5d-121">Valige või sisestage väärtus väljal Kategooria.</span><span class="sxs-lookup"><span data-stu-id="22d5d-121">In the Category field, enter or select a value.</span></span>
+15. <span data-ttu-id="22d5d-122">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="22d5d-122">Click Save.</span></span>
 
-## <a name="publish-an-assortment"></a><span data-ttu-id="1f49d-123">Sortimendi avaldamine</span><span class="sxs-lookup"><span data-stu-id="1f49d-123">Publish an assortment</span></span>
-1. <span data-ttu-id="1f49d-124">Klõpsake Avalda.</span><span class="sxs-lookup"><span data-stu-id="1f49d-124">Click Publish.</span></span>
-2. <span data-ttu-id="1f49d-125">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="1f49d-125">Click Yes.</span></span>
+## <a name="publish-an-assortment"></a><span data-ttu-id="22d5d-123">Sortimendi avaldamine</span><span class="sxs-lookup"><span data-stu-id="22d5d-123">Publish an assortment</span></span>
+1. <span data-ttu-id="22d5d-124">Klõpsake Avalda.</span><span class="sxs-lookup"><span data-stu-id="22d5d-124">Click Publish.</span></span>
+2. <span data-ttu-id="22d5d-125">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="22d5d-125">Click Yes.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
