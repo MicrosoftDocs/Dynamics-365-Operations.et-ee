@@ -15,31 +15,34 @@ ms.search.region: Estonia
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 545387f45c6ec5009ce8bf6e8eefa069939d2415
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1d539414fe1fd5896a96e283ded4671ff91db162
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990006"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228040"
 ---
-# <a name="ee-00015-payment-reference-generation-tool"></a><span data-ttu-id="24029-103">EE-00015 Makseviite loomise tööriist</span><span class="sxs-lookup"><span data-stu-id="24029-103">EE-00015 Payment reference generation tool</span></span>
+# <a name="ee-00015-payment-reference-generation-tool"></a><span data-ttu-id="e3534-103">EE-00015 Makseviite loomise tööriist</span><span class="sxs-lookup"><span data-stu-id="e3534-103">EE-00015 Payment reference generation tool</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="24029-104">See protseduur juhatab teid läbi makseviidete koostamise protseduuri.</span><span class="sxs-lookup"><span data-stu-id="24029-104">This procedure walks you through generating the payment references.</span></span> <span data-ttu-id="24029-105">Ülesande loomisel kasutati demoettevõtte DEMF, mille juriidilise isiku esmase aadressi riigiks/regiooniks on määratud Eesti, andmeid.</span><span class="sxs-lookup"><span data-stu-id="24029-105">This task was created using the demo data company DEMF with the country/region of legal entity primary address updated to be Estonia.</span></span> <span data-ttu-id="24029-106">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="24029-106">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="e3534-104">See protseduur juhatab teid läbi makseviidete koostamise protseduuri.</span><span class="sxs-lookup"><span data-stu-id="e3534-104">This procedure walks you through generating the payment references.</span></span> <span data-ttu-id="e3534-105">Ülesande loomisel kasutati demoettevõtte DEMF, mille juriidilise isiku esmase aadressi riigiks/regiooniks on määratud Eesti, andmeid.</span><span class="sxs-lookup"><span data-stu-id="e3534-105">This task was created using the demo data company DEMF with the country/region of legal entity primary address updated to be Estonia.</span></span> <span data-ttu-id="e3534-106">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="e3534-106">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="specify-a-number-sequence-for-payment-references"></a><span data-ttu-id="24029-107">Määratlege viitenumbrite jaoks numbriseeria vorming.</span><span class="sxs-lookup"><span data-stu-id="24029-107">Specify a number sequence for payment references</span></span>
-1. <span data-ttu-id="24029-108">Minge jaotisse Müügireskontro > Seadistus > Müügireskontro parameetrid.</span><span class="sxs-lookup"><span data-stu-id="24029-108">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
-2. <span data-ttu-id="24029-109">Klõpsake vahekaarti Numbriseeriad.</span><span class="sxs-lookup"><span data-stu-id="24029-109">Click the Number sequences tab.</span></span>
-3. <span data-ttu-id="24029-110">Viiteveerus.</span><span class="sxs-lookup"><span data-stu-id="24029-110">In the Reference column.</span></span> <span data-ttu-id="24029-111">Leidke ja valige kirje "Makseviide".</span><span class="sxs-lookup"><span data-stu-id="24029-111">find and select 'Payment reference' record.</span></span>
-4. <span data-ttu-id="24029-112">Sisestage või valige väärtus väljal Numbriseeria kood.</span><span class="sxs-lookup"><span data-stu-id="24029-112">In the Number sequence code field, enter or select a value.</span></span>
-    * <span data-ttu-id="24029-113">Võite valida eraldi, vastloodud numbrilise ja pideva numbriseeria.</span><span class="sxs-lookup"><span data-stu-id="24029-113">You may want to select a dedicated, newly created numeric and continuous number sequence.</span></span> <span data-ttu-id="24029-114">Demo eesmärgil kasutage "Acco_18".</span><span class="sxs-lookup"><span data-stu-id="24029-114">For demo purposes, you can use  'Acco_18'.</span></span>  
-5. <span data-ttu-id="24029-115">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="24029-115">Click Save.</span></span>
+## <a name="specify-a-number-sequence-for-payment-references"></a><span data-ttu-id="e3534-107">Määratlege viitenumbrite jaoks numbriseeria vorming.</span><span class="sxs-lookup"><span data-stu-id="e3534-107">Specify a number sequence for payment references</span></span>
+1. <span data-ttu-id="e3534-108">Minge jaotisse Müügireskontro > Seadistus > Müügireskontro parameetrid.</span><span class="sxs-lookup"><span data-stu-id="e3534-108">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
+2. <span data-ttu-id="e3534-109">Klõpsake vahekaarti Numbriseeriad.</span><span class="sxs-lookup"><span data-stu-id="e3534-109">Click the Number sequences tab.</span></span>
+3. <span data-ttu-id="e3534-110">Viiteveerus.</span><span class="sxs-lookup"><span data-stu-id="e3534-110">In the Reference column.</span></span> <span data-ttu-id="e3534-111">Leidke ja valige kirje "Makseviide".</span><span class="sxs-lookup"><span data-stu-id="e3534-111">find and select 'Payment reference' record.</span></span>
+4. <span data-ttu-id="e3534-112">Sisestage või valige väärtus väljal Numbriseeria kood.</span><span class="sxs-lookup"><span data-stu-id="e3534-112">In the Number sequence code field, enter or select a value.</span></span>
+    * <span data-ttu-id="e3534-113">Võite valida eraldi, vastloodud numbrilise ja pideva numbriseeria.</span><span class="sxs-lookup"><span data-stu-id="e3534-113">You may want to select a dedicated, newly created numeric and continuous number sequence.</span></span> <span data-ttu-id="e3534-114">Demo eesmärgil kasutage "Acco_18".</span><span class="sxs-lookup"><span data-stu-id="e3534-114">For demo purposes, you can use  'Acco_18'.</span></span>  
+5. <span data-ttu-id="e3534-115">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e3534-115">Click Save.</span></span>
 
-## <a name="create-payment-reference-numbers"></a><span data-ttu-id="24029-116">Loo makse viitenumbrid</span><span class="sxs-lookup"><span data-stu-id="24029-116">Create payment reference numbers</span></span>
-1. <span data-ttu-id="24029-117">Avage Müügireskonto > Perioodilised ülesanded > Viitenumbrite loomine.</span><span class="sxs-lookup"><span data-stu-id="24029-117">Go to Accounts receivable > Periodic tasks > Create payment reference numbers.</span></span>
-2. <span data-ttu-id="24029-118">Väljal Viitenumbrite loomine valige Jah.</span><span class="sxs-lookup"><span data-stu-id="24029-118">Select Yes in the Create payment reference numbers field.</span></span>
-    * <span data-ttu-id="24029-119">Juba klientidele määratud viitenumbrite kustutamiseks valige käsk "Kustuta maksete viitenumbrid".</span><span class="sxs-lookup"><span data-stu-id="24029-119">Select 'Delete payment reference numbers' to remove reference numbers already assigned to customers.</span></span> <span data-ttu-id="24029-120">Võite piirata klientide hulka, kellelt soovite eemaldada või kellele lisada viitenumbri. Selleks kasutage jaotist "Kirjenda kaasamiseks" ja määrake klientidele või kliendirühmadele kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="24029-120">You may limit the customers for which you want to remove or create reference numbers by using 'Record to include' section and applying criteria for customers or customer groups.</span></span>  
-3. <span data-ttu-id="24029-121">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="24029-121">Click OK.</span></span>
+## <a name="create-payment-reference-numbers"></a><span data-ttu-id="e3534-116">Loo makse viitenumbrid</span><span class="sxs-lookup"><span data-stu-id="e3534-116">Create payment reference numbers</span></span>
+1. <span data-ttu-id="e3534-117">Avage Müügireskonto > Perioodilised ülesanded > Viitenumbrite loomine.</span><span class="sxs-lookup"><span data-stu-id="e3534-117">Go to Accounts receivable > Periodic tasks > Create payment reference numbers.</span></span>
+2. <span data-ttu-id="e3534-118">Väljal Viitenumbrite loomine valige Jah.</span><span class="sxs-lookup"><span data-stu-id="e3534-118">Select Yes in the Create payment reference numbers field.</span></span>
+    * <span data-ttu-id="e3534-119">Juba klientidele määratud viitenumbrite kustutamiseks valige käsk "Kustuta maksete viitenumbrid".</span><span class="sxs-lookup"><span data-stu-id="e3534-119">Select 'Delete payment reference numbers' to remove reference numbers already assigned to customers.</span></span> <span data-ttu-id="e3534-120">Võite piirata klientide hulka, kellelt soovite eemaldada või kellele lisada viitenumbri. Selleks kasutage jaotist "Kirjenda kaasamiseks" ja määrake klientidele või kliendirühmadele kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="e3534-120">You may limit the customers for which you want to remove or create reference numbers by using 'Record to include' section and applying criteria for customers or customer groups.</span></span>  
+3. <span data-ttu-id="e3534-121">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="e3534-121">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

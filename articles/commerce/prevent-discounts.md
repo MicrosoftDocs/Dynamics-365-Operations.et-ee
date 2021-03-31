@@ -18,25 +18,28 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7c408068ece94d47c0f41e286a2ce0ae7efd23dd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f5037067917290f21f681d2446a0e1ab0e31228c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972490"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231196"
 ---
-# <a name="options-for-preventing-discounts-for-retail-products"></a><span data-ttu-id="a05a4-103">Jaetoodete allahindluste vältimise suvandid</span><span class="sxs-lookup"><span data-stu-id="a05a4-103">Options for preventing discounts for retail products</span></span>
+# <a name="options-for-preventing-discounts-for-retail-products"></a><span data-ttu-id="319d5-103">Jaetoodete allahindluste vältimise suvandid</span><span class="sxs-lookup"><span data-stu-id="319d5-103">Options for preventing discounts for retail products</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a05a4-104">On erinevaid põhjuseid, miks jaemüüjad soovivad vältida mõne toote allahindlust kampaania ajal või kassas.</span><span class="sxs-lookup"><span data-stu-id="a05a4-104">There are various reasons why retailers may want to prevent some products from being discounted, either from a promotion or during the sale at the POS.</span></span>
+<span data-ttu-id="319d5-104">On erinevaid põhjuseid, miks jaemüüjad soovivad vältida mõne toote allahindlust kampaania ajal või kassas.</span><span class="sxs-lookup"><span data-stu-id="319d5-104">There are various reasons why retailers may want to prevent some products from being discounted, either from a promotion or during the sale at the POS.</span></span>
 
-<span data-ttu-id="a05a4-105">Avaldatud toodete vahekaardil **Commerce** leitavaid suvandeid saab kasutada toote konfigureerimiseks, et välistada kõiki või käsitsi lisatud allahindluseid.</span><span class="sxs-lookup"><span data-stu-id="a05a4-105">The following options, which can be found on the **Commerce** tab of released products, will allow the product to be configured to prevent all or manual discounts.</span></span> <span data-ttu-id="a05a4-106">Sätteid saab määrata ka kategooria kaupa kategooriahierarhiast.</span><span class="sxs-lookup"><span data-stu-id="a05a4-106">The settings can also be specified at the category level from the category hierarchy.</span></span>
+<span data-ttu-id="319d5-105">Avaldatud toodete vahekaardil **Commerce** leitavaid suvandeid saab kasutada toote konfigureerimiseks, et välistada kõiki või käsitsi lisatud allahindluseid.</span><span class="sxs-lookup"><span data-stu-id="319d5-105">The following options, which can be found on the **Commerce** tab of released products, will allow the product to be configured to prevent all or manual discounts.</span></span> <span data-ttu-id="319d5-106">Sätteid saab määrata ka kategooria kaupa kategooriahierarhiast.</span><span class="sxs-lookup"><span data-stu-id="319d5-106">The settings can also be specified at the category level from the category hierarchy.</span></span>
 
-- <span data-ttu-id="a05a4-107">**Kõikide allahindluste vältimine**: valige see suvand, et vältida tootele ükskõik mis tüüpi allahindluse rakendamist.</span><span class="sxs-lookup"><span data-stu-id="a05a4-107">**Prevent all discounts** – Select this option to prevent all types of discounts from being applied to this product.</span></span> <span data-ttu-id="a05a4-108">Siia kuuluvad erinevad pakkumised (nt toodete kombineerimine, koguse- ja läveallahindlused) ja käsitsi lisatud toote- või tehinguallahindlused, mis lisatakse kassas müügihetkel.</span><span class="sxs-lookup"><span data-stu-id="a05a4-108">This includes promotions such as mix and match, quantity and threshold discounts, as well as manual line and transaction discounts that are applied during a sale by a POS user.</span></span>
-- <span data-ttu-id="a05a4-109">**Käsitsi lisatud allahindluste vältimine**: valige see suvand, et vältida käsitsi tootele või kogu tehingule rakendatavaid allahindlusi kassas müügihetkel.</span><span class="sxs-lookup"><span data-stu-id="a05a4-109">**Prevent manual discounts** – Select this option to only prevent the manual line or transaction discounts that are applied during a sale by a POS user.</span></span> <span data-ttu-id="a05a4-110">Selle suvandiga märgitud toodetele võib rakendada kampaaniaid (nt toodete kombineerimine, koguse- ja läveallahindlused).</span><span class="sxs-lookup"><span data-stu-id="a05a4-110">Products with this option selected are still eligible for promotions, such as mix and match and quantity and threshold discounts.</span></span>
+- <span data-ttu-id="319d5-107">**Kõikide allahindluste vältimine**: valige see suvand, et vältida tootele ükskõik mis tüüpi allahindluse rakendamist.</span><span class="sxs-lookup"><span data-stu-id="319d5-107">**Prevent all discounts** – Select this option to prevent all types of discounts from being applied to this product.</span></span> <span data-ttu-id="319d5-108">Siia kuuluvad erinevad pakkumised (nt toodete kombineerimine, koguse- ja läveallahindlused) ja käsitsi lisatud toote- või tehinguallahindlused, mis lisatakse kassas müügihetkel.</span><span class="sxs-lookup"><span data-stu-id="319d5-108">This includes promotions such as mix and match, quantity and threshold discounts, as well as manual line and transaction discounts that are applied during a sale by a POS user.</span></span>
+- <span data-ttu-id="319d5-109">**Käsitsi lisatud allahindluste vältimine**: valige see suvand, et vältida käsitsi tootele või kogu tehingule rakendatavaid allahindlusi kassas müügihetkel.</span><span class="sxs-lookup"><span data-stu-id="319d5-109">**Prevent manual discounts** – Select this option to only prevent the manual line or transaction discounts that are applied during a sale by a POS user.</span></span> <span data-ttu-id="319d5-110">Selle suvandiga märgitud toodetele võib rakendada kampaaniaid (nt toodete kombineerimine, koguse- ja läveallahindlused).</span><span class="sxs-lookup"><span data-stu-id="319d5-110">Products with this option selected are still eligible for promotions, such as mix and match and quantity and threshold discounts.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a05a4-111">Need sätted ei piira hinna alistamise toimingut, sest see on baashinda määrav toiming, mida ei käsitleta allahindlusena.</span><span class="sxs-lookup"><span data-stu-id="a05a4-111">These settings do not restrict the price override operation, because that sets the base price and is not treated as a discount.</span></span>
+> <span data-ttu-id="319d5-111">Need sätted ei piira hinna alistamise toimingut, sest see on baashinda määrav toiming, mida ei käsitleta allahindlusena.</span><span class="sxs-lookup"><span data-stu-id="319d5-111">These settings do not restrict the price override operation, because that sets the base price and is not treated as a discount.</span></span>
 
-<span data-ttu-id="a05a4-112">[![Väli väldi allahindluseid](./media/prevent-discounts.png)](./media/prevent-discounts.png)</span><span class="sxs-lookup"><span data-stu-id="a05a4-112">[![Prevent discounts field](./media/prevent-discounts.png)](./media/prevent-discounts.png)</span></span>
+<span data-ttu-id="319d5-112">[![Väli väldi allahindluseid](./media/prevent-discounts.png)](./media/prevent-discounts.png)</span><span class="sxs-lookup"><span data-stu-id="319d5-112">[![Prevent discounts field](./media/prevent-discounts.png)](./media/prevent-discounts.png)</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
