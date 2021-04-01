@@ -15,23 +15,23 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0bf5bebd01a76718418ae8e8be8262b434fb7fb7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6947a71992e2b30fedd7e4594fa041b459b851ff
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236216"
 ---
-# <a name="set-up-signers-for-print-forms"></a><span data-ttu-id="f876b-103">Prinditud vormide allkirjastajate seadistamine</span><span class="sxs-lookup"><span data-stu-id="f876b-103">Set up signers for print forms</span></span>
+# <a name="set-up-signers-for-print-forms"></a><span data-ttu-id="ee69c-103">Prinditud vormide allkirjastajate seadistamine</span><span class="sxs-lookup"><span data-stu-id="ee69c-103">Set up signers for print forms</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f876b-104">Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.</span><span class="sxs-lookup"><span data-stu-id="f876b-104">For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, Poland, and Russia, you can set up signers and titles for customers and vendors that print documents such as invoices and cash orders.</span></span>
+<span data-ttu-id="ee69c-104">Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.</span><span class="sxs-lookup"><span data-stu-id="ee69c-104">For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, Poland, and Russia, you can set up signers and titles for customers and vendors that print documents such as invoices and cash orders.</span></span>
 
-<a name="set-up-default-values"></a><span data-ttu-id="f876b-105">Vaikeväärtuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="f876b-105">Set up default values</span></span>
+<a name="set-up-default-values"></a><span data-ttu-id="ee69c-105">Vaikeväärtuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="ee69c-105">Set up default values</span></span>
 ---------------------
 
-<span data-ttu-id="f876b-106">Ettevõtte prinditavate dokumentide allkirjastajate seadistamiseks kasutage lehte **Ametiisikud**.</span><span class="sxs-lookup"><span data-stu-id="f876b-106">To set up signers for the documents that a company prints, use the **Officials** page.</span></span> <span data-ttu-id="f876b-107">Saate seadistada allkirjastajaid ja nende õigusi nii ettevõtte kui ka klientide või hankijate puhul, olenevalt dokumendi tüübist.</span><span class="sxs-lookup"><span data-stu-id="f876b-107">You can set up signers and their titles both for the company and for customers or vendors, depending on the document type.</span></span> <span data-ttu-id="f876b-108">Järgmises tabelis kirjeldatakse lehe **Ametiisikud** vahekaarte.</span><span class="sxs-lookup"><span data-stu-id="f876b-108">The following table describes the tabs on the **Officials** page.</span></span>
+<span data-ttu-id="ee69c-106">Ettevõtte prinditavate dokumentide allkirjastajate seadistamiseks kasutage lehte **Ametiisikud**.</span><span class="sxs-lookup"><span data-stu-id="ee69c-106">To set up signers for the documents that a company prints, use the **Officials** page.</span></span> <span data-ttu-id="ee69c-107">Saate seadistada allkirjastajaid ja nende õigusi nii ettevõtte kui ka klientide või hankijate puhul, olenevalt dokumendi tüübist.</span><span class="sxs-lookup"><span data-stu-id="ee69c-107">You can set up signers and their titles both for the company and for customers or vendors, depending on the document type.</span></span> <span data-ttu-id="ee69c-108">Järgmises tabelis kirjeldatakse lehe **Ametiisikud** vahekaarte.</span><span class="sxs-lookup"><span data-stu-id="ee69c-108">The following table describes the tabs on the **Officials** page.</span></span>
 
 <table>
 <colgroup>
@@ -40,63 +40,63 @@ ms.locfileid: "5005917"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f876b-109">Vahekaart</span><span class="sxs-lookup"><span data-stu-id="f876b-109">Tab</span></span></th>
-<th><span data-ttu-id="f876b-110">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="f876b-110">Description</span></span></th>
+<th><span data-ttu-id="ee69c-109">Vahekaart</span><span class="sxs-lookup"><span data-stu-id="ee69c-109">Tab</span></span></th>
+<th><span data-ttu-id="ee69c-110">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="ee69c-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="f876b-111">Üldine</span><span class="sxs-lookup"><span data-stu-id="f876b-111">General</span></span></td>
-<td><span data-ttu-id="f876b-112">Lisage ametikohti ja seotud teavet allkirjastajate (direktor ja pearaamatupidaja) kohta, kes võivad kõikvõimalikke prinditud dokumente allkirjastada.</span><span class="sxs-lookup"><span data-stu-id="f876b-112">Add positions and related information for signers (Director and Chief accountant) who can sign print documents of all types.</span></span></td>
+<td><span data-ttu-id="ee69c-111">Üldine</span><span class="sxs-lookup"><span data-stu-id="ee69c-111">General</span></span></td>
+<td><span data-ttu-id="ee69c-112">Lisage ametikohti ja seotud teavet allkirjastajate (direktor ja pearaamatupidaja) kohta, kes võivad kõikvõimalikke prinditud dokumente allkirjastada.</span><span class="sxs-lookup"><span data-stu-id="ee69c-112">Add positions and related information for signers (Director and Chief accountant) who can sign print documents of all types.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f876b-113">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="f876b-113">Ledger</span></span></td>
-<td><span data-ttu-id="f876b-114">Lisage ametikoht ja seotud teave allkirjastajate kohta, kes võivad allkirjastada järgmisi rahavoogudega seotud ettevõttesiseseid finantsdokumente.</span><span class="sxs-lookup"><span data-stu-id="f876b-114">Add the position and related information for signers who can sign the following internal financial documents that are related to cash flow:</span></span>
+<td><span data-ttu-id="ee69c-113">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="ee69c-113">Ledger</span></span></td>
+<td><span data-ttu-id="ee69c-114">Lisage ametikoht ja seotud teave allkirjastajate kohta, kes võivad allkirjastada järgmisi rahavoogudega seotud ettevõttesiseseid finantsdokumente.</span><span class="sxs-lookup"><span data-stu-id="ee69c-114">Add the position and related information for signers who can sign the following internal financial documents that are related to cash flow:</span></span>
 <ul>
-<li><span data-ttu-id="f876b-115">Kassaorderid</span><span class="sxs-lookup"><span data-stu-id="f876b-115">Cash slips</span></span></li>
-<li><span data-ttu-id="f876b-116">Ettemaksuaruanne</span><span class="sxs-lookup"><span data-stu-id="f876b-116">Advance report</span></span></li>
-<li><span data-ttu-id="f876b-117">Kassaraamatu leht</span><span class="sxs-lookup"><span data-stu-id="f876b-117">Page of cash book</span></span></li>
-<li><span data-ttu-id="f876b-118">Loendusväljavõte</span><span class="sxs-lookup"><span data-stu-id="f876b-118">Count statement</span></span></li>
-<li><span data-ttu-id="f876b-119">Viitvõlad<em></span><span class="sxs-lookup"><span data-stu-id="f876b-119">Deferrals<em></span></span></li>
+<li><span data-ttu-id="ee69c-115">Kassaorderid</span><span class="sxs-lookup"><span data-stu-id="ee69c-115">Cash slips</span></span></li>
+<li><span data-ttu-id="ee69c-116">Ettemaksuaruanne</span><span class="sxs-lookup"><span data-stu-id="ee69c-116">Advance report</span></span></li>
+<li><span data-ttu-id="ee69c-117">Kassaraamatu leht</span><span class="sxs-lookup"><span data-stu-id="ee69c-117">Page of cash book</span></span></li>
+<li><span data-ttu-id="ee69c-118">Loendusväljavõte</span><span class="sxs-lookup"><span data-stu-id="ee69c-118">Count statement</span></span></li>
+<li><span data-ttu-id="ee69c-119">Viitvõlad<em></span><span class="sxs-lookup"><span data-stu-id="ee69c-119">Deferrals<em></span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f876b-120">Müügitellimused</span><span class="sxs-lookup"><span data-stu-id="f876b-120">Sales orders</span></span></td>
-<td><span data-ttu-id="f876b-121">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi klientidega seotud väljaminevaid põhidokumente.</span><span class="sxs-lookup"><span data-stu-id="f876b-121">Add positions and related information for signers who can sign the following outgoing primary documents that are related to customers:</span></span>
+<td><span data-ttu-id="ee69c-120">Müügitellimused</span><span class="sxs-lookup"><span data-stu-id="ee69c-120">Sales orders</span></span></td>
+<td><span data-ttu-id="ee69c-121">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi klientidega seotud väljaminevaid põhidokumente.</span><span class="sxs-lookup"><span data-stu-id="ee69c-121">Add positions and related information for signers who can sign the following outgoing primary documents that are related to customers:</span></span>
 <ul>
-<li><span data-ttu-id="f876b-122">Maksearve</span><span class="sxs-lookup"><span data-stu-id="f876b-122">Invoice for payment</span></span></em></li>
-<li><span data-ttu-id="f876b-123">Arve</span><span class="sxs-lookup"><span data-stu-id="f876b-123">Invoice</span></span></li>
-<li><span data-ttu-id="f876b-124">Faktuurarve<em></span><span class="sxs-lookup"><span data-stu-id="f876b-124">Facture<em></span></span></li>
-<li><span data-ttu-id="f876b-125">Arve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="f876b-125">Invoice - credit-note</span></span></li>
-<li><span data-ttu-id="f876b-126">Faktuurarve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="f876b-126">Facture - credit-note</span></span></em></li>
-<li><span data-ttu-id="f876b-127">Maksukande faktuurarve (klient)<em></span><span class="sxs-lookup"><span data-stu-id="f876b-127">Tax transaction facture (client)<em></span></span></li>
+<li><span data-ttu-id="ee69c-122">Maksearve</span><span class="sxs-lookup"><span data-stu-id="ee69c-122">Invoice for payment</span></span></em></li>
+<li><span data-ttu-id="ee69c-123">Arve</span><span class="sxs-lookup"><span data-stu-id="ee69c-123">Invoice</span></span></li>
+<li><span data-ttu-id="ee69c-124">Faktuurarve<em></span><span class="sxs-lookup"><span data-stu-id="ee69c-124">Facture<em></span></span></li>
+<li><span data-ttu-id="ee69c-125">Arve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="ee69c-125">Invoice - credit-note</span></span></li>
+<li><span data-ttu-id="ee69c-126">Faktuurarve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="ee69c-126">Facture - credit-note</span></span></em></li>
+<li><span data-ttu-id="ee69c-127">Maksukande faktuurarve (klient)<em></span><span class="sxs-lookup"><span data-stu-id="ee69c-127">Tax transaction facture (client)<em></span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f876b-128">Ostutellimused</span><span class="sxs-lookup"><span data-stu-id="f876b-128">Purchase orders</span></span></td>
-<td><span data-ttu-id="f876b-129">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi hankijatega seotud sissetulevaid põhidokumente.</span><span class="sxs-lookup"><span data-stu-id="f876b-129">Add positions and related information for signers who can sign the following incoming primary documents that are related to vendors:</span></span>
+<td><span data-ttu-id="ee69c-128">Ostutellimused</span><span class="sxs-lookup"><span data-stu-id="ee69c-128">Purchase orders</span></span></td>
+<td><span data-ttu-id="ee69c-129">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi hankijatega seotud sissetulevaid põhidokumente.</span><span class="sxs-lookup"><span data-stu-id="ee69c-129">Add positions and related information for signers who can sign the following incoming primary documents that are related to vendors:</span></span>
 <ul>
-<li><span data-ttu-id="f876b-130">Arve</span><span class="sxs-lookup"><span data-stu-id="f876b-130">Invoice</span></span></li>
-<li><span data-ttu-id="f876b-131">Faktuurarve</span><span class="sxs-lookup"><span data-stu-id="f876b-131">Facture</span></span></em></li>
-<li><span data-ttu-id="f876b-132">Arve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="f876b-132">Invoice - credit-note</span></span></li>
-<li><span data-ttu-id="f876b-133">Faktuurarve – kreeditarve<em></span><span class="sxs-lookup"><span data-stu-id="f876b-133">Facture - credit-note<em></span></span></li>
-<li><span data-ttu-id="f876b-134">Maksearve</span><span class="sxs-lookup"><span data-stu-id="f876b-134">Invoice for payment</span></span></em></li>
-<li><span data-ttu-id="f876b-135">Maksukande faktuurarve (hankija)<em></span><span class="sxs-lookup"><span data-stu-id="f876b-135">Tax transaction facture (vendor)<em></span></span></li>
+<li><span data-ttu-id="ee69c-130">Arve</span><span class="sxs-lookup"><span data-stu-id="ee69c-130">Invoice</span></span></li>
+<li><span data-ttu-id="ee69c-131">Faktuurarve</span><span class="sxs-lookup"><span data-stu-id="ee69c-131">Facture</span></span></em></li>
+<li><span data-ttu-id="ee69c-132">Arve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="ee69c-132">Invoice - credit-note</span></span></li>
+<li><span data-ttu-id="ee69c-133">Faktuurarve – kreeditarve<em></span><span class="sxs-lookup"><span data-stu-id="ee69c-133">Facture - credit-note<em></span></span></li>
+<li><span data-ttu-id="ee69c-134">Maksearve</span><span class="sxs-lookup"><span data-stu-id="ee69c-134">Invoice for payment</span></span></em></li>
+<li><span data-ttu-id="ee69c-135">Maksukande faktuurarve (hankija)<em></span><span class="sxs-lookup"><span data-stu-id="ee69c-135">Tax transaction facture (vendor)<em></span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f876b-136">Laokaupade haldus</span><span class="sxs-lookup"><span data-stu-id="f876b-136">Inventory item management</span></span></td>
-<td><span data-ttu-id="f876b-137">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi laodokumente, kui kliendile väljastatakse või hankijalt saadakse materiaalseid varasid.</span><span class="sxs-lookup"><span data-stu-id="f876b-137">Add positions and related information for signers who can sign the following warehouse documents when tangible assets are issued to a customer or received from a vendor:</span></span>
+<td><span data-ttu-id="ee69c-136">Laokaupade haldus</span><span class="sxs-lookup"><span data-stu-id="ee69c-136">Inventory item management</span></span></td>
+<td><span data-ttu-id="ee69c-137">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi laodokumente, kui kliendile väljastatakse või hankijalt saadakse materiaalseid varasid.</span><span class="sxs-lookup"><span data-stu-id="ee69c-137">Add positions and related information for signers who can sign the following warehouse documents when tangible assets are issued to a customer or received from a vendor:</span></span>
 <ul>
-<li><span data-ttu-id="f876b-138">Väljasta müügitellimuse (M-15) saateleht</span><span class="sxs-lookup"><span data-stu-id="f876b-138">Issue slip for sales order (M-15)</span></span></em></li>
-<li><span data-ttu-id="f876b-139">Korv.</span><span class="sxs-lookup"><span data-stu-id="f876b-139">Rmb.</span></span> <span data-ttu-id="f876b-140">order / Sisset. order</span><span class="sxs-lookup"><span data-stu-id="f876b-140">slip/Receipt order</span></span></li>
-<li><span data-ttu-id="f876b-141">Väljasta üleviimistellimuse (M-15) saateleht\*</span><span class="sxs-lookup"><span data-stu-id="f876b-141">Issue slip for transfer order (M-15)\*</span></span></li>
+<li><span data-ttu-id="ee69c-138">Väljasta müügitellimuse (M-15) saateleht</span><span class="sxs-lookup"><span data-stu-id="ee69c-138">Issue slip for sales order (M-15)</span></span></em></li>
+<li><span data-ttu-id="ee69c-139">Korv.</span><span class="sxs-lookup"><span data-stu-id="ee69c-139">Rmb.</span></span> <span data-ttu-id="ee69c-140">order / Sisset. order</span><span class="sxs-lookup"><span data-stu-id="ee69c-140">slip/Receipt order</span></span></li>
+<li><span data-ttu-id="ee69c-141">Väljasta üleviimistellimuse (M-15) saateleht\*</span><span class="sxs-lookup"><span data-stu-id="ee69c-141">Issue slip for transfer order (M-15)\*</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="f876b-142">\* See dokumendi tüüp on saadaval ainult juriidilistele isikutele, kelle esmane aadress on Venemaal.</span><span class="sxs-lookup"><span data-stu-id="f876b-142">\* This document type is available only for legal entities that have their primary address in Russia.</span></span> <span data-ttu-id="f876b-143">Järgmises tabelis kirjeldatakse lehe **Ametiisikud** välju.</span><span class="sxs-lookup"><span data-stu-id="f876b-143">The following table describes the fields on the **Officials** page.</span></span>
+<span data-ttu-id="ee69c-142">\* See dokumendi tüüp on saadaval ainult juriidilistele isikutele, kelle esmane aadress on Venemaal.</span><span class="sxs-lookup"><span data-stu-id="ee69c-142">\* This document type is available only for legal entities that have their primary address in Russia.</span></span> <span data-ttu-id="ee69c-143">Järgmises tabelis kirjeldatakse lehe **Ametiisikud** välju.</span><span class="sxs-lookup"><span data-stu-id="ee69c-143">The following table describes the fields on the **Officials** page.</span></span>
 
 <table>
 <colgroup>
@@ -105,62 +105,65 @@ ms.locfileid: "5005917"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f876b-144">Väli</span><span class="sxs-lookup"><span data-stu-id="f876b-144">Field</span></span></th>
-<th><span data-ttu-id="f876b-145">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="f876b-145">Description</span></span></th>
+<th><span data-ttu-id="ee69c-144">Väli</span><span class="sxs-lookup"><span data-stu-id="ee69c-144">Field</span></span></th>
+<th><span data-ttu-id="ee69c-145">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="ee69c-145">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="f876b-146">Ametikoht</span><span class="sxs-lookup"><span data-stu-id="f876b-146">Position</span></span></td>
-<td><span data-ttu-id="f876b-147">Valige allkirjastaja ametinimetus.</span><span class="sxs-lookup"><span data-stu-id="f876b-147">Select the signer’s post title.</span></span></td>
+<td><span data-ttu-id="ee69c-146">Ametikoht</span><span class="sxs-lookup"><span data-stu-id="ee69c-146">Position</span></span></td>
+<td><span data-ttu-id="ee69c-147">Valige allkirjastaja ametinimetus.</span><span class="sxs-lookup"><span data-stu-id="ee69c-147">Select the signer’s post title.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f876b-148">Nimi</span><span class="sxs-lookup"><span data-stu-id="f876b-148">Name</span></span></td>
-<td><span data-ttu-id="f876b-149">Valige allkirjastaja nimi.</span><span class="sxs-lookup"><span data-stu-id="f876b-149">Select the signer’s name.</span></span> <span data-ttu-id="f876b-150">Loendis olevad nimed tulevad kas tabelist Kontaktid või tabelist Töötajad, olenevalt allkirjastaja tüübist (st olenevalt sellest, kas märkeruut <strong>Meie</strong> on valitud).</span><span class="sxs-lookup"><span data-stu-id="f876b-150">The names in the list come from either the Contacts table or the Employees table, depending on the type of signer (that is, depending on whether the <strong>Our</strong> check box is selected).</span></span> <span data-ttu-id="f876b-151">Kui allkirjastaja nime ei ole loendis, siis sisestage allkirjastaja täielik nimi käsitsi.</span><span class="sxs-lookup"><span data-stu-id="f876b-151">If the signer&#39;s name isn&#39;t in the list, manually enter the signer’s full name.</span></span></td>
+<td><span data-ttu-id="ee69c-148">Nimi</span><span class="sxs-lookup"><span data-stu-id="ee69c-148">Name</span></span></td>
+<td><span data-ttu-id="ee69c-149">Valige allkirjastaja nimi.</span><span class="sxs-lookup"><span data-stu-id="ee69c-149">Select the signer’s name.</span></span> <span data-ttu-id="ee69c-150">Loendis olevad nimed tulevad kas tabelist Kontaktid või tabelist Töötajad, olenevalt allkirjastaja tüübist (st olenevalt sellest, kas märkeruut <strong>Meie</strong> on valitud).</span><span class="sxs-lookup"><span data-stu-id="ee69c-150">The names in the list come from either the Contacts table or the Employees table, depending on the type of signer (that is, depending on whether the <strong>Our</strong> check box is selected).</span></span> <span data-ttu-id="ee69c-151">Kui allkirjastaja nime ei ole loendis, siis sisestage allkirjastaja täielik nimi käsitsi.</span><span class="sxs-lookup"><span data-stu-id="ee69c-151">If the signer&#39;s name isn&#39;t in the list, manually enter the signer’s full name.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f876b-152">Ametinimetus</span><span class="sxs-lookup"><span data-stu-id="f876b-152">Job title</span></span></td>
-<td><span data-ttu-id="f876b-153">Valige allkirjastaja ametinimetus.</span><span class="sxs-lookup"><span data-stu-id="f876b-153">Select the signer’s job title.</span></span> <span data-ttu-id="f876b-154">Kui allkirjastaja ametinimetust pole loendis, siis sisestage allkirjastaja ametinimetus käsitsi.</span><span class="sxs-lookup"><span data-stu-id="f876b-154">If the signer’s title isn&#39;t in the list, manually enter the signer’s title.</span></span></td>
+<td><span data-ttu-id="ee69c-152">Ametinimetus</span><span class="sxs-lookup"><span data-stu-id="ee69c-152">Job title</span></span></td>
+<td><span data-ttu-id="ee69c-153">Valige allkirjastaja ametinimetus.</span><span class="sxs-lookup"><span data-stu-id="ee69c-153">Select the signer’s job title.</span></span> <span data-ttu-id="ee69c-154">Kui allkirjastaja ametinimetust pole loendis, siis sisestage allkirjastaja ametinimetus käsitsi.</span><span class="sxs-lookup"><span data-stu-id="ee69c-154">If the signer’s title isn&#39;t in the list, manually enter the signer’s title.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f876b-155">Konto kood</span><span class="sxs-lookup"><span data-stu-id="f876b-155">Account code</span></span></td>
-<td><span data-ttu-id="f876b-156">Valige, kas allkirjastaja saab allkirjastada kõiki valitud dokumenditüübiga dokumente või ainult konkreetse kliendi või hankija dokumente.</span><span class="sxs-lookup"><span data-stu-id="f876b-156">Select whether the signer can sign all documents of the selected document type, or only documents for a specific customer or vendor.</span></span></td>
+<td><span data-ttu-id="ee69c-155">Konto kood</span><span class="sxs-lookup"><span data-stu-id="ee69c-155">Account code</span></span></td>
+<td><span data-ttu-id="ee69c-156">Valige, kas allkirjastaja saab allkirjastada kõiki valitud dokumenditüübiga dokumente või ainult konkreetse kliendi või hankija dokumente.</span><span class="sxs-lookup"><span data-stu-id="ee69c-156">Select whether the signer can sign all documents of the selected document type, or only documents for a specific customer or vendor.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f876b-157">Konto seos</span><span class="sxs-lookup"><span data-stu-id="f876b-157">Account relation</span></span></td>
-<td><span data-ttu-id="f876b-158">Valige kliendi või hankija konto, mis on seotud valitud konto koodiga.</span><span class="sxs-lookup"><span data-stu-id="f876b-158">Select the customer or vendor account that is related to the selected account code.</span></span> <span data-ttu-id="f876b-159">See väli on saadaval ainult siis, kui teete väljal <strong>Konto kood</strong> valiku <strong>Kirje</strong>.</span><span class="sxs-lookup"><span data-stu-id="f876b-159">This field is available only if you select <strong>Record</strong> in the <strong>Account code</strong> field.</span></span></td>
+<td><span data-ttu-id="ee69c-157">Konto seos</span><span class="sxs-lookup"><span data-stu-id="ee69c-157">Account relation</span></span></td>
+<td><span data-ttu-id="ee69c-158">Valige kliendi või hankija konto, mis on seotud valitud konto koodiga.</span><span class="sxs-lookup"><span data-stu-id="ee69c-158">Select the customer or vendor account that is related to the selected account code.</span></span> <span data-ttu-id="ee69c-159">See väli on saadaval ainult siis, kui teete väljal <strong>Konto kood</strong> valiku <strong>Kirje</strong>.</span><span class="sxs-lookup"><span data-stu-id="ee69c-159">This field is available only if you select <strong>Record</strong> in the <strong>Account code</strong> field.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f876b-160">Meie</span><span class="sxs-lookup"><span data-stu-id="f876b-160">Our</span></span></td>
-<td><span data-ttu-id="f876b-161">Valitud märkeruut näitab, et ametikoht on sisemine.</span><span class="sxs-lookup"><span data-stu-id="f876b-161">A selected check box indicates that the position is internal.</span></span></td>
+<td><span data-ttu-id="ee69c-160">Meie</span><span class="sxs-lookup"><span data-stu-id="ee69c-160">Our</span></span></td>
+<td><span data-ttu-id="ee69c-161">Valitud märkeruut näitab, et ametikoht on sisemine.</span><span class="sxs-lookup"><span data-stu-id="ee69c-161">A selected check box indicates that the position is internal.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f876b-162">Seos laohoonega</span><span class="sxs-lookup"><span data-stu-id="f876b-162">Association with warehouse</span></span></td>
-<td><span data-ttu-id="f876b-163">Valige, kas allkirjastaja on määratud kõigile ladudele või ainult konkreetsele laole.</span><span class="sxs-lookup"><span data-stu-id="f876b-163">Select whether the signer is assigned to all warehouses or only a specific warehouse.</span></span> <span data-ttu-id="f876b-164">Valikud on järgmised:</span><span class="sxs-lookup"><span data-stu-id="f876b-164">The following options are available:</span></span>
+<td><span data-ttu-id="ee69c-162">Seos laohoonega</span><span class="sxs-lookup"><span data-stu-id="ee69c-162">Association with warehouse</span></span></td>
+<td><span data-ttu-id="ee69c-163">Valige, kas allkirjastaja on määratud kõigile ladudele või ainult konkreetsele laole.</span><span class="sxs-lookup"><span data-stu-id="ee69c-163">Select whether the signer is assigned to all warehouses or only a specific warehouse.</span></span> <span data-ttu-id="ee69c-164">Valikud on järgmised:</span><span class="sxs-lookup"><span data-stu-id="ee69c-164">The following options are available:</span></span>
 <ul>
-<li><span data-ttu-id="f876b-165"><strong>Kõik</strong> – allkirjastaja on määratud kõigile ladudele.</span><span class="sxs-lookup"><span data-stu-id="f876b-165"><strong>All</strong> – The signer is assigned to all warehouses.</span></span></li>
-<li><span data-ttu-id="f876b-166"><strong>Kirje</strong> – allkirjastaja on määratud konkreetsele laole.</span><span class="sxs-lookup"><span data-stu-id="f876b-166"><strong>Record</strong> – The signer is assigned to a specific warehouse.</span></span></li>
+<li><span data-ttu-id="ee69c-165"><strong>Kõik</strong> – allkirjastaja on määratud kõigile ladudele.</span><span class="sxs-lookup"><span data-stu-id="ee69c-165"><strong>All</strong> – The signer is assigned to all warehouses.</span></span></li>
+<li><span data-ttu-id="ee69c-166"><strong>Kirje</strong> – allkirjastaja on määratud konkreetsele laole.</span><span class="sxs-lookup"><span data-stu-id="ee69c-166"><strong>Record</strong> – The signer is assigned to a specific warehouse.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f876b-167">Ladu</span><span class="sxs-lookup"><span data-stu-id="f876b-167">Warehouse</span></span></td>
-<td><span data-ttu-id="f876b-168">Valige lao kood, mis vastab laole, millele allkirjastaja määratud on.</span><span class="sxs-lookup"><span data-stu-id="f876b-168">Select the warehouse code that corresponds to the warehouse that the signer is assigned to.</span></span> <span data-ttu-id="f876b-169">See väli on saadaval ainult siis, kui teete väljal <strong>Seos laoga</strong> valiku <strong>Kirje</strong>.</span><span class="sxs-lookup"><span data-stu-id="f876b-169">This field is available only if you select <strong>Record</strong> in the <strong>Association with warehouse</strong> field.</span></span></td>
+<td><span data-ttu-id="ee69c-167">Ladu</span><span class="sxs-lookup"><span data-stu-id="ee69c-167">Warehouse</span></span></td>
+<td><span data-ttu-id="ee69c-168">Valige lao kood, mis vastab laole, millele allkirjastaja määratud on.</span><span class="sxs-lookup"><span data-stu-id="ee69c-168">Select the warehouse code that corresponds to the warehouse that the signer is assigned to.</span></span> <span data-ttu-id="ee69c-169">See väli on saadaval ainult siis, kui teete väljal <strong>Seos laoga</strong> valiku <strong>Kirje</strong>.</span><span class="sxs-lookup"><span data-stu-id="ee69c-169">This field is available only if you select <strong>Record</strong> in the <strong>Association with warehouse</strong> field.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="set-up-a-number-sequence-code-for-officials"></a><span data-ttu-id="f876b-170">Ametiisikute numbriseeria häälestamine</span><span class="sxs-lookup"><span data-stu-id="f876b-170">Set up a number sequence code for officials</span></span>
-<span data-ttu-id="f876b-171">Saate määrata numbriseeria koodi ametiisikutele lehe **Juriidilised isikud** jaotises **Numbriseeriad**.</span><span class="sxs-lookup"><span data-stu-id="f876b-171">You can assign a number sequence code for officials in the **Number sequences** section of the **Legal entities** page.</span></span> <span data-ttu-id="f876b-172">Valige viitele **Ametiisikute seansi ID** numbriseeria kood.</span><span class="sxs-lookup"><span data-stu-id="f876b-172">Select a number sequence code for the **Officials session ID** reference.</span></span>
+## <a name="set-up-a-number-sequence-code-for-officials"></a><span data-ttu-id="ee69c-170">Ametiisikute numbriseeria häälestamine</span><span class="sxs-lookup"><span data-stu-id="ee69c-170">Set up a number sequence code for officials</span></span>
+<span data-ttu-id="ee69c-171">Saate määrata numbriseeria koodi ametiisikutele lehe **Juriidilised isikud** jaotises **Numbriseeriad**.</span><span class="sxs-lookup"><span data-stu-id="ee69c-171">You can assign a number sequence code for officials in the **Number sequences** section of the **Legal entities** page.</span></span> <span data-ttu-id="ee69c-172">Valige viitele **Ametiisikute seansi ID** numbriseeria kood.</span><span class="sxs-lookup"><span data-stu-id="ee69c-172">Select a number sequence code for the **Officials session ID** reference.</span></span>
 
-## <a name="modify-signers-in-primary-documents"></a><span data-ttu-id="f876b-173">Põhidokumentidel allkirjastajate muutmine</span><span class="sxs-lookup"><span data-stu-id="f876b-173">Modify signers in primary documents</span></span>
-<span data-ttu-id="f876b-174">Ametiisikute funktsioon näitab vaikimisi eelmääratud allkirjastajaid tabelis Ametiisikud.</span><span class="sxs-lookup"><span data-stu-id="f876b-174">The Officials functionality shows the default predefined signers from the Officials table.</span></span> <span data-ttu-id="f876b-175">Lehel **Arve sisestamine** vahekaardil **Ametiisikud** saate muuta allkirjastaja nime ja ametinimetust põhidokumendil järgmiste dokumenditüüpide puhul.</span><span class="sxs-lookup"><span data-stu-id="f876b-175">On the **Posting invoice** page, on the **Officials** tab, you can modify a signer’s name and title on the primary document for the following document types:</span></span>
+## <a name="modify-signers-in-primary-documents"></a><span data-ttu-id="ee69c-173">Põhidokumentidel allkirjastajate muutmine</span><span class="sxs-lookup"><span data-stu-id="ee69c-173">Modify signers in primary documents</span></span>
+<span data-ttu-id="ee69c-174">Ametiisikute funktsioon näitab vaikimisi eelmääratud allkirjastajaid tabelis Ametiisikud.</span><span class="sxs-lookup"><span data-stu-id="ee69c-174">The Officials functionality shows the default predefined signers from the Officials table.</span></span> <span data-ttu-id="ee69c-175">Lehel **Arve sisestamine** vahekaardil **Ametiisikud** saate muuta allkirjastaja nime ja ametinimetust põhidokumendil järgmiste dokumenditüüpide puhul.</span><span class="sxs-lookup"><span data-stu-id="ee69c-175">On the **Posting invoice** page, on the **Officials** tab, you can modify a signer’s name and title on the primary document for the following document types:</span></span>
 
--   <span data-ttu-id="f876b-176">Kliendiarve</span><span class="sxs-lookup"><span data-stu-id="f876b-176">Customer invoice</span></span>
--   <span data-ttu-id="f876b-177">Hankija arve</span><span class="sxs-lookup"><span data-stu-id="f876b-177">Vendor invoice</span></span>
--   <span data-ttu-id="f876b-178">Lähetuse üleviimistellimus</span><span class="sxs-lookup"><span data-stu-id="f876b-178">Ship transfer order</span></span>
--   <span data-ttu-id="f876b-179">Kassaorder</span><span class="sxs-lookup"><span data-stu-id="f876b-179">Cash order</span></span>
+-   <span data-ttu-id="ee69c-176">Kliendiarve</span><span class="sxs-lookup"><span data-stu-id="ee69c-176">Customer invoice</span></span>
+-   <span data-ttu-id="ee69c-177">Hankija arve</span><span class="sxs-lookup"><span data-stu-id="ee69c-177">Vendor invoice</span></span>
+-   <span data-ttu-id="ee69c-178">Lähetuse üleviimistellimus</span><span class="sxs-lookup"><span data-stu-id="ee69c-178">Ship transfer order</span></span>
+-   <span data-ttu-id="ee69c-179">Kassaorder</span><span class="sxs-lookup"><span data-stu-id="ee69c-179">Cash order</span></span>
 
-<span data-ttu-id="f876b-180">**Märkus:** pärast dokumendi sisestamist ei saa ametiisikuid muuta.</span><span class="sxs-lookup"><span data-stu-id="f876b-180">**Note:** After a document is posted, officials can't be edited.</span></span>
+<span data-ttu-id="ee69c-180">**Märkus:** pärast dokumendi sisestamist ei saa ametiisikuid muuta.</span><span class="sxs-lookup"><span data-stu-id="ee69c-180">**Note:** After a document is posted, officials can't be edited.</span></span>
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9291299e0b2ee040bc25ef21237a73c3bc0ea412
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 384e44ef07771a174aaed4f8fb893e75b0206da7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995659"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236982"
 ---
-# <a name="customer-aging-report"></a><span data-ttu-id="e8673-103">Kliendi ajalise jaotuse aruanne</span><span class="sxs-lookup"><span data-stu-id="e8673-103">Customer aging report</span></span> 
+# <a name="customer-aging-report"></a><span data-ttu-id="1efbe-103">Kliendi ajalise jaotuse aruanne</span><span class="sxs-lookup"><span data-stu-id="1efbe-103">Customer aging report</span></span> 
 
-<span data-ttu-id="e8673-104">**Kliendi ajalise jaotuse** aruandes kuvatakse deebetsaldod, mis on sorditud kuupäevavahemiku või aegumisperioodi alusel.</span><span class="sxs-lookup"><span data-stu-id="e8673-104">The **Customer aging** report displays the balances that are due from customers, sorted by date interval, or aging period.</span></span>
+<span data-ttu-id="1efbe-104">**Kliendi ajalise jaotuse** aruandes kuvatakse deebetsaldod, mis on sorditud kuupäevavahemiku või aegumisperioodi alusel.</span><span class="sxs-lookup"><span data-stu-id="1efbe-104">The **Customer aging** report displays the balances that are due from customers, sorted by date interval, or aging period.</span></span>
 
-<span data-ttu-id="e8673-105">Selle aruande loomisel kuvatakse järgmised vaikeparameetrid.</span><span class="sxs-lookup"><span data-stu-id="e8673-105">When you generate this report, the following default parameters are displayed.</span></span> <span data-ttu-id="e8673-106">Neid parameetreid saate kasutada aruandes kuvatud andmete filtreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="e8673-106">You can use these parameters to filter the data that will be displayed on the report.</span></span> <span data-ttu-id="e8673-107">Lisateavet leiate teemast [Sissenõuete seadistamine](set-up-collections.md).</span><span class="sxs-lookup"><span data-stu-id="e8673-107">For more information, see [Set up collections](set-up-collections.md).</span></span>
+<span data-ttu-id="1efbe-105">Selle aruande loomisel kuvatakse järgmised vaikeparameetrid.</span><span class="sxs-lookup"><span data-stu-id="1efbe-105">When you generate this report, the following default parameters are displayed.</span></span> <span data-ttu-id="1efbe-106">Neid parameetreid saate kasutada aruandes kuvatud andmete filtreerimiseks.</span><span class="sxs-lookup"><span data-stu-id="1efbe-106">You can use these parameters to filter the data that will be displayed on the report.</span></span> <span data-ttu-id="1efbe-107">Lisateavet leiate teemast [Sissenõuete seadistamine](set-up-collections.md).</span><span class="sxs-lookup"><span data-stu-id="1efbe-107">For more information, see [Set up collections](set-up-collections.md).</span></span>
 
 <table>
 <colgroup>
@@ -37,86 +37,86 @@ ms.locfileid: "4995659"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e8673-108">Väli</span><span class="sxs-lookup"><span data-stu-id="e8673-108">Field</span></span></p></th>
-<th><p><span data-ttu-id="e8673-109">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="e8673-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="1efbe-108">Väli</span><span class="sxs-lookup"><span data-stu-id="1efbe-108">Field</span></span></p></th>
+<th><p><span data-ttu-id="1efbe-109">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="1efbe-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-110"><strong>Arveldusklassifikatsioon</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-110"><strong>Billing classification</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-111">Valige aruandesse lisamiseks vähemalt üks arveldusklassifikatsioon.</span><span class="sxs-lookup"><span data-stu-id="e8673-111">Select one or more billing classifications to include on the report.</span></span></p>
+<td><p><span data-ttu-id="1efbe-110"><strong>Arveldusklassifikatsioon</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-110"><strong>Billing classification</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-111">Valige aruandesse lisamiseks vähemalt üks arveldusklassifikatsioon.</span><span class="sxs-lookup"><span data-stu-id="1efbe-111">Select one or more billing classifications to include on the report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="e8673-112">**Märkus.** See juhtelement on saadaval ainult juhul, kui on valitud konfiguratsioonivõti <STRONG>Avalik sektor</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e8673-112">**Note:** This control is available only if the <STRONG>Public Sector</STRONG> configuration key is selected.</span></span></P>
+<span data-ttu-id="1efbe-112">**Märkus.** See juhtelement on saadaval ainult juhul, kui on valitud konfiguratsioonivõti <STRONG>Avalik sektor</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="1efbe-112">**Note:** This control is available only if the <STRONG>Public Sector</STRONG> configuration key is selected.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8673-113"><strong>Ilma arveldusklassifikatsioonita kannete kaasamine</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-113"><strong>Include transactions without a billing classification</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-114">Kui see märkeruut on märgitud, siis kuvatakse aruandes kõik kanded, millele pole määratud arveldusklassifikatsiooni.</span><span class="sxs-lookup"><span data-stu-id="e8673-114">If this check box is selected, all transactions that do not have a billing classification assigned to them will be displayed on the report.</span></span></p>
+<td><p><span data-ttu-id="1efbe-113"><strong>Ilma arveldusklassifikatsioonita kannete kaasamine</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-113"><strong>Include transactions without a billing classification</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-114">Kui see märkeruut on märgitud, siis kuvatakse aruandes kõik kanded, millele pole määratud arveldusklassifikatsiooni.</span><span class="sxs-lookup"><span data-stu-id="1efbe-114">If this check box is selected, all transactions that do not have a billing classification assigned to them will be displayed on the report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="e8673-115">**Märkus.** See juhtelement on saadaval ainult juhul, kui on valitud konfiguratsioonivõti <STRONG>Avalik sektor</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e8673-115">**Note:** This control is available only if the <STRONG>Public sector</STRONG> configuration key is selected.</span></span></P>
+<span data-ttu-id="1efbe-115">**Märkus.** See juhtelement on saadaval ainult juhul, kui on valitud konfiguratsioonivõti <STRONG>Avalik sektor</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="1efbe-115">**Note:** This control is available only if the <STRONG>Public sector</STRONG> configuration key is selected.</span></span></P>
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-116"><strong>Ajaline jaotus seisuga</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-116"><strong>Aging as of</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-117">Sisestage praeguses ajalise jaotuse vahemikus kasutatud kuupäev.</span><span class="sxs-lookup"><span data-stu-id="e8673-117">Enter the date used on the current aging bucket.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-116"><strong>Ajaline jaotus seisuga</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-116"><strong>Aging as of</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-117">Sisestage praeguses ajalise jaotuse vahemikus kasutatud kuupäev.</span><span class="sxs-lookup"><span data-stu-id="1efbe-117">Enter the date used on the current aging bucket.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-118"><strong>Saldo seisuga</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-118"><strong>Balance as of</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-119">Sisestage kuupäev, et vaadata kliendi saldosid.</span><span class="sxs-lookup"><span data-stu-id="e8673-119">Enter the date to view the customer balances for.</span></span> <span data-ttu-id="e8673-120">Seda nimetatakse ka kannete piirkuupäevaks.</span><span class="sxs-lookup"><span data-stu-id="e8673-120">This is also known as a cutoff date for transactions.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-118"><strong>Saldo seisuga</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-118"><strong>Balance as of</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-119">Sisestage kuupäev, et vaadata kliendi saldosid.</span><span class="sxs-lookup"><span data-stu-id="1efbe-119">Enter the date to view the customer balances for.</span></span> <span data-ttu-id="1efbe-120">Seda nimetatakse ka kannete piirkuupäevaks.</span><span class="sxs-lookup"><span data-stu-id="1efbe-120">This is also known as a cutoff date for transactions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8673-121"><strong>Alguskuupäev</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-121"><strong>Start date</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-122">Sisestage kuupäev, mis jääb esimese perioodiintervalli või aegumisperioodi piiridesse, et see aruandesse kaasata.</span><span class="sxs-lookup"><span data-stu-id="e8673-122">Enter a date that is in the first period interval or aging period to include on the report.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-121"><strong>Alguskuupäev</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-121"><strong>Start date</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-122">Sisestage kuupäev, mis jääb esimese perioodiintervalli või aegumisperioodi piiridesse, et see aruandesse kaasata.</span><span class="sxs-lookup"><span data-stu-id="1efbe-122">Enter a date that is in the first period interval or aging period to include on the report.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-123"><strong>Kriteerium</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-123"><strong>Criteria</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-124">Valige kuupäeva tüüp, millel aruanne põhineb.</span><span class="sxs-lookup"><span data-stu-id="e8673-124">Select the type of date to base the report on.</span></span></p>
+<td><p><span data-ttu-id="1efbe-123"><strong>Kriteerium</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-123"><strong>Criteria</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-124">Valige kuupäeva tüüp, millel aruanne põhineb.</span><span class="sxs-lookup"><span data-stu-id="1efbe-124">Select the type of date to base the report on.</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e8673-125"><strong>Kande kuupäev</strong> – kannete sisestuskuupäev.</span><span class="sxs-lookup"><span data-stu-id="e8673-125"><strong>Transaction date</strong> – The posting date of the transactions.</span></span> <span data-ttu-id="e8673-126">Näiteks võib see olla arve kuupäev, mis on tähtaja arvutamise aluseks.</span><span class="sxs-lookup"><span data-stu-id="e8673-126">For example, this might be an invoice date that is the basis for the calculation of the due date.</span></span></p></li>
-<li><p><span data-ttu-id="e8673-127"><strong>Tähtaeg</strong> – kannete tähtaeg maksetingimuste järgi.</span><span class="sxs-lookup"><span data-stu-id="e8673-127"><strong>Due date</strong> – The due date of the transactions, based on the terms of payment.</span></span></p></li>
-<li><p><span data-ttu-id="e8673-128"><strong>Dokumendi kuupäev</strong> – kasutaja määratud dokumendikuupäev, mille alusel arvutatakse tähtaeg.</span><span class="sxs-lookup"><span data-stu-id="e8673-128"><strong>Document date</strong> – A user-defined document date that is the basis for the calculation of the due date.</span></span></p></li>
+<li><p><span data-ttu-id="1efbe-125"><strong>Kande kuupäev</strong> – kannete sisestuskuupäev.</span><span class="sxs-lookup"><span data-stu-id="1efbe-125"><strong>Transaction date</strong> – The posting date of the transactions.</span></span> <span data-ttu-id="1efbe-126">Näiteks võib see olla arve kuupäev, mis on tähtaja arvutamise aluseks.</span><span class="sxs-lookup"><span data-stu-id="1efbe-126">For example, this might be an invoice date that is the basis for the calculation of the due date.</span></span></p></li>
+<li><p><span data-ttu-id="1efbe-127"><strong>Tähtaeg</strong> – kannete tähtaeg maksetingimuste järgi.</span><span class="sxs-lookup"><span data-stu-id="1efbe-127"><strong>Due date</strong> – The due date of the transactions, based on the terms of payment.</span></span></p></li>
+<li><p><span data-ttu-id="1efbe-128"><strong>Dokumendi kuupäev</strong> – kasutaja määratud dokumendikuupäev, mille alusel arvutatakse tähtaeg.</span><span class="sxs-lookup"><span data-stu-id="1efbe-128"><strong>Document date</strong> – A user-defined document date that is the basis for the calculation of the due date.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8673-129"><strong>Aegumisperioodi definitsioon</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-129"><strong>Aging period definition</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-130">Valige aegumisperioodi definitsioon.</span><span class="sxs-lookup"><span data-stu-id="e8673-130">Select an aging period definition.</span></span> <span data-ttu-id="e8673-131">Välja <strong>Intervall</strong> ei kasutata, kui valite aegumisperioodi definitsiooni.</span><span class="sxs-lookup"><span data-stu-id="e8673-131">The <strong>Interval</strong> field is not used if you select an aging period definition.</span></span></p>
-<p><span data-ttu-id="e8673-132">Prinditaval aruandel ei saa kasutada aegumisperioodi definitsioone, millel on rohkem kui kuus aegumisperioodi.</span><span class="sxs-lookup"><span data-stu-id="e8673-132">Aging period definitions that have more than six aging periods cannot be used on the printed report.</span></span></p>
+<td><p><span data-ttu-id="1efbe-129"><strong>Aegumisperioodi definitsioon</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-129"><strong>Aging period definition</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-130">Valige aegumisperioodi definitsioon.</span><span class="sxs-lookup"><span data-stu-id="1efbe-130">Select an aging period definition.</span></span> <span data-ttu-id="1efbe-131">Välja <strong>Intervall</strong> ei kasutata, kui valite aegumisperioodi definitsiooni.</span><span class="sxs-lookup"><span data-stu-id="1efbe-131">The <strong>Interval</strong> field is not used if you select an aging period definition.</span></span></p>
+<p><span data-ttu-id="1efbe-132">Prinditaval aruandel ei saa kasutada aegumisperioodi definitsioone, millel on rohkem kui kuus aegumisperioodi.</span><span class="sxs-lookup"><span data-stu-id="1efbe-132">Aging period definitions that have more than six aging periods cannot be used on the printed report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="e8673-133">**Märkus.** Aegumisperioode saate seadistada lehel <STRONG>Aegumisperioodi definitsioonid</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e8673-133">**Note:** You can set up aging periods on the <STRONG>Aging period definitions</STRONG> page.</span></span></P>
+<span data-ttu-id="1efbe-133">**Märkus.** Aegumisperioode saate seadistada lehel <STRONG>Aegumisperioodi definitsioonid</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="1efbe-133">**Note:** You can set up aging periods on the <STRONG>Aging period definitions</STRONG> page.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-134"><strong>Aegumisperioodi kirjelduse printimine</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-134"><strong>Print aging period description</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-135">Valige <strong>Jah</strong> aegumisperioodide kirjelduste kaasamiseks aruandes iga aegumisperioodi veeru ülaosas.</span><span class="sxs-lookup"><span data-stu-id="e8673-135">Select <strong>Yes</strong> to include aging period descriptions at the top of each aging period column on the report.</span></span> <span data-ttu-id="e8673-136">Valige <strong>Ei</strong>, et printida aruanne ilma veerupäisteta.</span><span class="sxs-lookup"><span data-stu-id="e8673-136">Select <strong>No</strong> to print the report without column headers.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-134"><strong>Aegumisperioodi kirjelduse printimine</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-134"><strong>Print aging period description</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-135">Valige <strong>Jah</strong> aegumisperioodide kirjelduste kaasamiseks aruandes iga aegumisperioodi veeru ülaosas.</span><span class="sxs-lookup"><span data-stu-id="1efbe-135">Select <strong>Yes</strong> to include aging period descriptions at the top of each aging period column on the report.</span></span> <span data-ttu-id="1efbe-136">Valige <strong>Ei</strong>, et printida aruanne ilma veerupäisteta.</span><span class="sxs-lookup"><span data-stu-id="1efbe-136">Select <strong>No</strong> to print the report without column headers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8673-137"><strong>Intervall</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-137"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-138">Määrake kasutatav periood, sisestades igas perioodis päeva- või kuuühikute arvu.</span><span class="sxs-lookup"><span data-stu-id="e8673-138">Define the period to use by entering the number of the day or month units in each period.</span></span> <span data-ttu-id="e8673-139">Näiteks nädalapõhise aegumisteabe vaatamiseks sisestage sellele väljale 7 ja valige väljal <strong>Päev/kuu</strong> suvand <strong>Päev</strong>.</span><span class="sxs-lookup"><span data-stu-id="e8673-139">For example, to view aging information by week, enter 7 in this field and select <strong>Day</strong> in the <strong>Day/Mth</strong> field.</span></span></p>
+<td><p><span data-ttu-id="1efbe-137"><strong>Intervall</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-137"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-138">Määrake kasutatav periood, sisestades igas perioodis päeva- või kuuühikute arvu.</span><span class="sxs-lookup"><span data-stu-id="1efbe-138">Define the period to use by entering the number of the day or month units in each period.</span></span> <span data-ttu-id="1efbe-139">Näiteks nädalapõhise aegumisteabe vaatamiseks sisestage sellele väljale 7 ja valige väljal <strong>Päev/kuu</strong> suvand <strong>Päev</strong>.</span><span class="sxs-lookup"><span data-stu-id="1efbe-139">For example, to view aging information by week, enter 7 in this field and select <strong>Day</strong> in the <strong>Day/Mth</strong> field.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="e8673-140">**Märkus.** Sellele väljale sisestatavat teavet kasutatakse üksnes juhul, kui te pole aegumisperioodi definitsiooni valinud.</span><span class="sxs-lookup"><span data-stu-id="e8673-140">**Note:** The information that you enter in this field is used only if you have not selected an aging period definition.</span></span> <span data-ttu-id="e8673-141">Vastasel juhul määratletakse printimissuund aegumisperioodi definitsioonis.</span><span class="sxs-lookup"><span data-stu-id="e8673-141">Otherwise, the printing direction is defined on the aging period definition.</span></span></P>
+<span data-ttu-id="1efbe-140">**Märkus.** Sellele väljale sisestatavat teavet kasutatakse üksnes juhul, kui te pole aegumisperioodi definitsiooni valinud.</span><span class="sxs-lookup"><span data-stu-id="1efbe-140">**Note:** The information that you enter in this field is used only if you have not selected an aging period definition.</span></span> <span data-ttu-id="1efbe-141">Vastasel juhul määratletakse printimissuund aegumisperioodi definitsioonis.</span><span class="sxs-lookup"><span data-stu-id="1efbe-141">Otherwise, the printing direction is defined on the aging period definition.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-142"><strong>Päev/kuu</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-142"><strong>Day/Mth</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-143">Valige ühik, kas <strong>Päev</strong> või <strong>Kuu</strong>, mida kasutatakse perioodi määratlemiseks väljal <strong>Intervall</strong>.</span><span class="sxs-lookup"><span data-stu-id="e8673-143">Select the unit, either <strong>Day</strong> or <strong>Month</strong>, that is used to define the period in the <strong>Interval</strong> field.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-142"><strong>Päev/kuu</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-142"><strong>Day/Mth</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-143">Valige ühik, kas <strong>Päev</strong> või <strong>Kuu</strong>, mida kasutatakse perioodi määratlemiseks väljal <strong>Intervall</strong>.</span><span class="sxs-lookup"><span data-stu-id="1efbe-143">Select the unit, either <strong>Day</strong> or <strong>Month</strong>, that is used to define the period in the <strong>Interval</strong> field.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8673-144"><strong>Printimissuund</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-144"><strong>Printing direction</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-145">Valige, kas arvutada saldosid ja printida möödunud või tulevaste perioodide ajalise jaotuse aruanne.</span><span class="sxs-lookup"><span data-stu-id="e8673-145">Select whether to calculate balances and print the aging report for past or future periods.</span></span> <span data-ttu-id="e8673-146">Kuupäevi hinnatakse väljal <strong>Saldo seisuga</strong> valitud kuupäeva arvestades.</span><span class="sxs-lookup"><span data-stu-id="e8673-146">The dates are evaluated relative to the date that is selected in the <strong>Balance as on</strong> field.</span></span> <span data-ttu-id="e8673-147">Valige <strong>Tagasiulatuv</strong>, et näidata eelmiste perioodide teavet.</span><span class="sxs-lookup"><span data-stu-id="e8673-147">Select <strong>Backward</strong> to show information for past periods.</span></span> <span data-ttu-id="e8673-148">Valige <strong>Edasiulatuv</strong>, et näidata tulevaste perioodide teavet.</span><span class="sxs-lookup"><span data-stu-id="e8673-148">Select <strong>Forward</strong> to show information for future periods.</span></span></p>
-<div class="alert"><span data-ttu-id="e8673-149">
+<td><p><span data-ttu-id="1efbe-144"><strong>Printimissuund</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-144"><strong>Printing direction</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-145">Valige, kas arvutada saldosid ja printida möödunud või tulevaste perioodide ajalise jaotuse aruanne.</span><span class="sxs-lookup"><span data-stu-id="1efbe-145">Select whether to calculate balances and print the aging report for past or future periods.</span></span> <span data-ttu-id="1efbe-146">Kuupäevi hinnatakse väljal <strong>Saldo seisuga</strong> valitud kuupäeva arvestades.</span><span class="sxs-lookup"><span data-stu-id="1efbe-146">The dates are evaluated relative to the date that is selected in the <strong>Balance as on</strong> field.</span></span> <span data-ttu-id="1efbe-147">Valige <strong>Tagasiulatuv</strong>, et näidata eelmiste perioodide teavet.</span><span class="sxs-lookup"><span data-stu-id="1efbe-147">Select <strong>Backward</strong> to show information for past periods.</span></span> <span data-ttu-id="1efbe-148">Valige <strong>Edasiulatuv</strong>, et näidata tulevaste perioodide teavet.</span><span class="sxs-lookup"><span data-stu-id="1efbe-148">Select <strong>Forward</strong> to show information for future periods.</span></span></p>
+<div class="alert"><span data-ttu-id="1efbe-149">
   
-<STRONG>Märkus.</STRONG> Sellele väljale sisestatavat teavet kasutatakse üksnes juhul, kui te pole aegumisperioodi definitsiooni valinud.</span><span class="sxs-lookup"><span data-stu-id="e8673-149">
+<STRONG>Märkus.</STRONG> Sellele väljale sisestatavat teavet kasutatakse üksnes juhul, kui te pole aegumisperioodi definitsiooni valinud.</span><span class="sxs-lookup"><span data-stu-id="1efbe-149">
   
 <STRONG>Note:</STRONG> The information that you enter in this field is used only if you have not selected an aging period definition.</span></span></P>
 
@@ -124,25 +124,28 @@ ms.locfileid: "4995659"
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-150"><strong>Üksikasjad</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-150"><strong>Details</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-151">Valige, et loetleda kanded, mis on aruandel näidatud saldodesse kaasatud.</span><span class="sxs-lookup"><span data-stu-id="e8673-151">Select to list the transactions that are included in the balances that are shown on the report.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-150"><strong>Üksikasjad</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-150"><strong>Details</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-151">Valige, et loetleda kanded, mis on aruandel näidatud saldodesse kaasatud.</span><span class="sxs-lookup"><span data-stu-id="1efbe-151">Select to list the transactions that are included in the balances that are shown on the report.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8673-152"><strong>Kandevaluutas summade kaasamine</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-152"><strong>Include amounts in transaction currency</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-153">Valige, et kaasata summad nii kandevaluutas kui ka arvestusvaluutas.</span><span class="sxs-lookup"><span data-stu-id="e8673-153">Select to include amounts in the transaction currency in addition to amounts in the accounting currency.</span></span> <span data-ttu-id="e8673-154">Kui see märkeruut ei ole märgitud, kuvatakse aruandes olevad summad ainult arvestusvaluutas.</span><span class="sxs-lookup"><span data-stu-id="e8673-154">If this check box is not selected, the amounts on the report are displayed only in the accounting currency.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-152"><strong>Kandevaluutas summade kaasamine</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-152"><strong>Include amounts in transaction currency</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-153">Valige, et kaasata summad nii kandevaluutas kui ka arvestusvaluutas.</span><span class="sxs-lookup"><span data-stu-id="1efbe-153">Select to include amounts in the transaction currency in addition to amounts in the accounting currency.</span></span> <span data-ttu-id="1efbe-154">Kui see märkeruut ei ole märgitud, kuvatakse aruandes olevad summad ainult arvestusvaluutas.</span><span class="sxs-lookup"><span data-stu-id="1efbe-154">If this check box is not selected, the amounts on the report are displayed only in the accounting currency.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-155"><strong>Negatiivne saldo</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-155"><strong>Negative balance</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-156">Valige, et kaasata kliendikontod, millel on negatiivne saldo.</span><span class="sxs-lookup"><span data-stu-id="e8673-156">Select to include customer accounts that have negative balances.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-155"><strong>Negatiivne saldo</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-155"><strong>Negative balance</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-156">Valige, et kaasata kliendikontod, millel on negatiivne saldo.</span><span class="sxs-lookup"><span data-stu-id="1efbe-156">Select to include customer accounts that have negative balances.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8673-157"><strong>Nullsaldo kontode välistamine</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-157"><strong>Exclude zero balance accounts</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-158">Valige, et välistada kliendikontod, mille saldo on null.</span><span class="sxs-lookup"><span data-stu-id="e8673-158">Select to exclude customer accounts that have a zero balance.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-157"><strong>Nullsaldo kontode välistamine</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-157"><strong>Exclude zero balance accounts</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-158">Valige, et välistada kliendikontod, mille saldo on null.</span><span class="sxs-lookup"><span data-stu-id="1efbe-158">Select to exclude customer accounts that have a zero balance.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8673-159"><strong>Maksete paigutamine</strong></span><span class="sxs-lookup"><span data-stu-id="e8673-159"><strong>Payment positioning</strong></span></span></p></td>
-<td><p><span data-ttu-id="e8673-160">Valige, et kuvada maksed, mida pole arveldatud.</span><span class="sxs-lookup"><span data-stu-id="e8673-160">Select to display payments that have not been settled.</span></span> <span data-ttu-id="e8673-161">Need kuvatakse aruande esimeses veerus.</span><span class="sxs-lookup"><span data-stu-id="e8673-161">These are displayed in the first column of the report.</span></span></p></td>
+<td><p><span data-ttu-id="1efbe-159"><strong>Maksete paigutamine</strong></span><span class="sxs-lookup"><span data-stu-id="1efbe-159"><strong>Payment positioning</strong></span></span></p></td>
+<td><p><span data-ttu-id="1efbe-160">Valige, et kuvada maksed, mida pole arveldatud.</span><span class="sxs-lookup"><span data-stu-id="1efbe-160">Select to display payments that have not been settled.</span></span> <span data-ttu-id="1efbe-161">Need kuvatakse aruande esimeses veerus.</span><span class="sxs-lookup"><span data-stu-id="1efbe-161">These are displayed in the first column of the report.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

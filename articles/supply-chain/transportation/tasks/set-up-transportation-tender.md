@@ -16,34 +16,37 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81f556d4e6478edf87b3fd5fa5fcdbf75432acaf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 928f445769f89764725adccb0a797fce0c8fdcee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233531"
 ---
-# <a name="set-up-a-transportation-tender"></a><span data-ttu-id="12d0a-103">Transpordi maksevahendi seadistamine</span><span class="sxs-lookup"><span data-stu-id="12d0a-103">Set up a transportation tender</span></span>
+# <a name="set-up-a-transportation-tender"></a><span data-ttu-id="7d161-103">Transpordi maksevahendi seadistamine</span><span class="sxs-lookup"><span data-stu-id="7d161-103">Set up a transportation tender</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="12d0a-104">See protseduur näitab, kuidas seadistada transpordi maksevahendit.</span><span class="sxs-lookup"><span data-stu-id="12d0a-104">This procedure shows how to set up a transportation tender.</span></span> <span data-ttu-id="12d0a-105">Seda teeb üldjuhul transpordikoordinaator.</span><span class="sxs-lookup"><span data-stu-id="12d0a-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="12d0a-106">Saate seda protseduuri kasutada demoandmete ettevõttes USMF.</span><span class="sxs-lookup"><span data-stu-id="12d0a-106">You can use this procedure in the USMF demo data company.</span></span>
+<span data-ttu-id="7d161-104">See protseduur näitab, kuidas seadistada transpordi maksevahendit.</span><span class="sxs-lookup"><span data-stu-id="7d161-104">This procedure shows how to set up a transportation tender.</span></span> <span data-ttu-id="7d161-105">Seda teeb üldjuhul transpordikoordinaator.</span><span class="sxs-lookup"><span data-stu-id="7d161-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="7d161-106">Saate seda protseduuri kasutada demoandmete ettevõttes USMF.</span><span class="sxs-lookup"><span data-stu-id="7d161-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-a-route"></a><span data-ttu-id="12d0a-107">Protsessi valimine</span><span class="sxs-lookup"><span data-stu-id="12d0a-107">Select a route</span></span>
-1. <span data-ttu-id="12d0a-108">Avage Transpordihaldus > Plaanimine > Koorma plaanimise töölaud.</span><span class="sxs-lookup"><span data-stu-id="12d0a-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="12d0a-109">Tühjendage märkeruut Peida saadetud ja vastuvõetud.</span><span class="sxs-lookup"><span data-stu-id="12d0a-109">Clear the Hide shipped and received check box.</span></span>
-3. <span data-ttu-id="12d0a-110">Valige rida koorma ID-ga 00006.</span><span class="sxs-lookup"><span data-stu-id="12d0a-110">Select the line with Load ID 00006.</span></span>
-4. <span data-ttu-id="12d0a-111">Klõpsake suvandit Hindamine ja marsruudivalik.</span><span class="sxs-lookup"><span data-stu-id="12d0a-111">Click Rating and routing.</span></span>
-5. <span data-ttu-id="12d0a-112">Klõpsake valikut Protsessid.</span><span class="sxs-lookup"><span data-stu-id="12d0a-112">Click Routes.</span></span>
+## <a name="select-a-route"></a><span data-ttu-id="7d161-107">Protsessi valimine</span><span class="sxs-lookup"><span data-stu-id="7d161-107">Select a route</span></span>
+1. <span data-ttu-id="7d161-108">Avage Transpordihaldus > Plaanimine > Koorma plaanimise töölaud.</span><span class="sxs-lookup"><span data-stu-id="7d161-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="7d161-109">Tühjendage märkeruut Peida saadetud ja vastuvõetud.</span><span class="sxs-lookup"><span data-stu-id="7d161-109">Clear the Hide shipped and received check box.</span></span>
+3. <span data-ttu-id="7d161-110">Valige rida koorma ID-ga 00006.</span><span class="sxs-lookup"><span data-stu-id="7d161-110">Select the line with Load ID 00006.</span></span>
+4. <span data-ttu-id="7d161-111">Klõpsake suvandit Hindamine ja marsruudivalik.</span><span class="sxs-lookup"><span data-stu-id="7d161-111">Click Rating and routing.</span></span>
+5. <span data-ttu-id="7d161-112">Klõpsake valikut Protsessid.</span><span class="sxs-lookup"><span data-stu-id="7d161-112">Click Routes.</span></span>
 
-## <a name="create-the-transportation-tender"></a><span data-ttu-id="12d0a-113">Transpordi maksevahendi loomine</span><span class="sxs-lookup"><span data-stu-id="12d0a-113">Create the transportation tender</span></span>
-1. <span data-ttu-id="12d0a-114">Klõpsake valikut Transpordi maksevahendid.</span><span class="sxs-lookup"><span data-stu-id="12d0a-114">Click Transportation tenders.</span></span>
-2. <span data-ttu-id="12d0a-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="12d0a-115">Click New.</span></span>
-3. <span data-ttu-id="12d0a-116">Laiendage jaotis Üldine.</span><span class="sxs-lookup"><span data-stu-id="12d0a-116">Expand the General section.</span></span>
-4. <span data-ttu-id="12d0a-117">Sisestage number väljale Nõutavad määrad.</span><span class="sxs-lookup"><span data-stu-id="12d0a-117">In the Requested rates field, enter a number.</span></span>
-5. <span data-ttu-id="12d0a-118">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="12d0a-118">Click Save.</span></span>
-6. <span data-ttu-id="12d0a-119">Klõpsake valikut Uuenda olekut.</span><span class="sxs-lookup"><span data-stu-id="12d0a-119">Click Update status.</span></span>
-7. <span data-ttu-id="12d0a-120">Klõpsake Edasta.</span><span class="sxs-lookup"><span data-stu-id="12d0a-120">Click Submit.</span></span>
-8. <span data-ttu-id="12d0a-121">Valige protsess.</span><span class="sxs-lookup"><span data-stu-id="12d0a-121">Select a route.</span></span>
+## <a name="create-the-transportation-tender"></a><span data-ttu-id="7d161-113">Transpordi maksevahendi loomine</span><span class="sxs-lookup"><span data-stu-id="7d161-113">Create the transportation tender</span></span>
+1. <span data-ttu-id="7d161-114">Klõpsake valikut Transpordi maksevahendid.</span><span class="sxs-lookup"><span data-stu-id="7d161-114">Click Transportation tenders.</span></span>
+2. <span data-ttu-id="7d161-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="7d161-115">Click New.</span></span>
+3. <span data-ttu-id="7d161-116">Laiendage jaotis Üldine.</span><span class="sxs-lookup"><span data-stu-id="7d161-116">Expand the General section.</span></span>
+4. <span data-ttu-id="7d161-117">Sisestage number väljale Nõutavad määrad.</span><span class="sxs-lookup"><span data-stu-id="7d161-117">In the Requested rates field, enter a number.</span></span>
+5. <span data-ttu-id="7d161-118">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="7d161-118">Click Save.</span></span>
+6. <span data-ttu-id="7d161-119">Klõpsake valikut Uuenda olekut.</span><span class="sxs-lookup"><span data-stu-id="7d161-119">Click Update status.</span></span>
+7. <span data-ttu-id="7d161-120">Klõpsake Edasta.</span><span class="sxs-lookup"><span data-stu-id="7d161-120">Click Submit.</span></span>
+8. <span data-ttu-id="7d161-121">Valige protsess.</span><span class="sxs-lookup"><span data-stu-id="7d161-121">Select a route.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

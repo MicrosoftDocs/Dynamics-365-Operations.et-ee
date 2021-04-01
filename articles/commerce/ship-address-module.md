@@ -3,7 +3,7 @@ title: Tarneaadressi moodul
 description: See teema hõlmab tarneaadressi moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,58 +16,63 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6a5eb69c7746be419779b1a844ee35ec375a324c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e590c966ca6bd8111df5f91cbac0485afaa45c78
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985632"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234409"
 ---
-# <a name="shipping-address-module"></a><span data-ttu-id="c58b4-103">Tarneaadressi moodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-103">Shipping address module</span></span>
+# <a name="shipping-address-module"></a><span data-ttu-id="6f24d-103">Tarneaadressi moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-103">Shipping address module</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="c58b4-104">See teema käsitleb tarneaadressi moodulit ja seletab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.</span><span class="sxs-lookup"><span data-stu-id="c58b4-104">This topic describes covers the shipping address module and explains how to configure it in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="6f24d-104">See teema hõlmab tarneaadressi moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.</span><span class="sxs-lookup"><span data-stu-id="6f24d-104">This topic describes covers the shipping address module and explains how to configure it in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="c58b4-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="c58b4-105">Overview</span></span>
+<span data-ttu-id="6f24d-105">Tarneaadressi moodul võimaldab klientidel maksmise voo ajal lisada või valida tellimuse tarneaadressi.</span><span class="sxs-lookup"><span data-stu-id="6f24d-105">The shipping address module lets customers add or select the shipping address for an order during the checkout flow.</span></span> <span data-ttu-id="6f24d-106">Kui klient on sisse logitud, kuvatakse aadressid, mis selle kliendi jaoks eelmisel korral salvestati, ja klient saab teha nende seast valiku.</span><span class="sxs-lookup"><span data-stu-id="6f24d-106">If a customer is signed in, any addresses that were previously saved for that customer are shown, and the customer can select among them.</span></span> <span data-ttu-id="6f24d-107">Klient saab lisada ka uue aadressi.</span><span class="sxs-lookup"><span data-stu-id="6f24d-107">The customer can also add a new address.</span></span> <span data-ttu-id="6f24d-108">Tarneaadressi moodulit kasutatakse kõigi kaupade puhul, mis nõuavad tarnet.</span><span class="sxs-lookup"><span data-stu-id="6f24d-108">The shipping address module is used for all items on an order that require shipping.</span></span>
 
-<span data-ttu-id="c58b4-106">Tarneaadressi moodul võimaldab klientidel maksmise voo ajal lisada või valida tellimuse tarneaadressi.</span><span class="sxs-lookup"><span data-stu-id="c58b4-106">The shipping address module lets customers add or select the shipping address for an order during the checkout flow.</span></span> <span data-ttu-id="c58b4-107">Kui klient on sisse logitud, kuvatakse aadressid, mis selle kliendi jaoks eelmisel korral salvestati, ja klient saab teha nende seast valiku.</span><span class="sxs-lookup"><span data-stu-id="c58b4-107">If a customer is signed in, any addresses that were previously saved for that customer are shown, and the customer can select among them.</span></span> <span data-ttu-id="c58b4-108">Klient saab lisada ka uue aadressi.</span><span class="sxs-lookup"><span data-stu-id="c58b4-108">The customer can also add a new address.</span></span> <span data-ttu-id="c58b4-109">Tarneaadressi moodulit kasutatakse kõigi kaupade puhul, mis nõuavad tarnet.</span><span class="sxs-lookup"><span data-stu-id="c58b4-109">The shipping address module is used for all items on an order that require shipping.</span></span>
+<span data-ttu-id="6f24d-109">Tarneaadressi vorminguid saab määratleda Commerce'i peakontoris iga riigi või regiooni jaoks ning tarneaadressi moodul täidab seejärel riigi-/regioonipõhiseid reegleid.</span><span class="sxs-lookup"><span data-stu-id="6f24d-109">Shipping address formats can be defined in Commerce headquarters for each country or region, and the shipping address module then enforces country/region-specific rules.</span></span>
 
-<span data-ttu-id="c58b4-110">Tarneaadressi vorminguid saab määratleda Commerce'i peakontoris iga riigi või regiooni jaoks ning tarneaadressi moodul täidab seejärel riigi-/regioonipõhiseid reegleid.</span><span class="sxs-lookup"><span data-stu-id="c58b4-110">Shipping address formats can be defined in Commerce headquarters for each country or region, and the shipping address module then enforces country/region-specific rules.</span></span>
+<span data-ttu-id="6f24d-110">Kui kliendid sisestavad tarneaadressi maksmise voos, on neil võimalus salvestada aadress esmase aadressina.</span><span class="sxs-lookup"><span data-stu-id="6f24d-110">When customers enter a shipping address during the checkout flow, they have the option to save the address as a primary address.</span></span> <span data-ttu-id="6f24d-111">See valik kuvatakse ainult siis, kui klient on sisse logitud.</span><span class="sxs-lookup"><span data-stu-id="6f24d-111">This option is shown only if a customer is signed in.</span></span>
 
-<span data-ttu-id="c58b4-111">Kui kliendid sisestavad tarneaadressi maksmise voos, on neil võimalus salvestada aadress esmase aadressina.</span><span class="sxs-lookup"><span data-stu-id="c58b4-111">When customers enter a shipping address during the checkout flow, they have the option to save the address as a primary address.</span></span> <span data-ttu-id="c58b4-112">See valik kuvatakse ainult siis, kui klient on sisse logitud.</span><span class="sxs-lookup"><span data-stu-id="c58b4-112">This option is shown only if a customer is signed in.</span></span>
+<span data-ttu-id="6f24d-112">Kuigi tarneaadressi moodul ei paku aadressi kinnitamist, saab seda funktsiooni rakendada kohandamise kaudu.</span><span class="sxs-lookup"><span data-stu-id="6f24d-112">Although the shipping address module doesn't provide address validation, this functionality can be implemented through customization.</span></span>
 
-<span data-ttu-id="c58b4-113">Kuigi tarneaadressi moodul ei paku aadressi kinnitamist, saab seda funktsiooni rakendada kohandamise kaudu.</span><span class="sxs-lookup"><span data-stu-id="c58b4-113">Although the shipping address module doesn't provide address validation, this functionality can be implemented through customization.</span></span>
-
-<span data-ttu-id="c58b4-114">Järgmisel pildil on näide uuest tarneaadressi moodulist maksmise lehel.</span><span class="sxs-lookup"><span data-stu-id="c58b4-114">The following illustration shows an example of a new shipping address module on a checkout page.</span></span>
+<span data-ttu-id="6f24d-113">Järgmisel pildil on näide uuest tarneaadressi moodulist maksmise lehel.</span><span class="sxs-lookup"><span data-stu-id="6f24d-113">The following illustration shows an example of a new shipping address module on a checkout page.</span></span>
 
 ![Tarneaadressi mooduli näide maksmise lehel](./media/ecommerce-shippingaddress.PNG)
 
-## <a name="module-properties"></a><span data-ttu-id="c58b4-116">Mooduli atribuudid</span><span class="sxs-lookup"><span data-stu-id="c58b4-116">Module properties</span></span>
+## <a name="module-properties"></a><span data-ttu-id="6f24d-115">Mooduli atribuudid</span><span class="sxs-lookup"><span data-stu-id="6f24d-115">Module properties</span></span>
 
-| <span data-ttu-id="c58b4-117">Atribuudi nimi</span><span class="sxs-lookup"><span data-stu-id="c58b4-117">Property name</span></span> | <span data-ttu-id="c58b4-118">Väärtused</span><span class="sxs-lookup"><span data-stu-id="c58b4-118">Values</span></span> | <span data-ttu-id="c58b4-119">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="c58b4-119">Description</span></span> |
+| <span data-ttu-id="6f24d-116">Atribuudi nimi</span><span class="sxs-lookup"><span data-stu-id="6f24d-116">Property name</span></span> | <span data-ttu-id="6f24d-117">Väärtused</span><span class="sxs-lookup"><span data-stu-id="6f24d-117">Values</span></span> | <span data-ttu-id="6f24d-118">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="6f24d-118">Description</span></span> |
 |---------------|--------|-------------|
-| <span data-ttu-id="c58b4-120">Pealkiri</span><span class="sxs-lookup"><span data-stu-id="c58b4-120">Heading</span></span> | <span data-ttu-id="c58b4-121">Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**)</span><span class="sxs-lookup"><span data-stu-id="c58b4-121">Heading text and a heading tag (**H1**, **H2**, **H3**, **H4**, **H5**, or **H6**)</span></span> | <span data-ttu-id="c58b4-122">Tarneaadressi mooduli valikuline pealkiri.</span><span class="sxs-lookup"><span data-stu-id="c58b4-122">An optional heading for the shipping address module.</span></span> |
-| <span data-ttu-id="c58b4-123">Kuva aadressi tüüp</span><span class="sxs-lookup"><span data-stu-id="c58b4-123">Show address type</span></span> | <span data-ttu-id="c58b4-124">**Tõene** või **Väär**</span><span class="sxs-lookup"><span data-stu-id="c58b4-124">**True** or **False**</span></span> | <span data-ttu-id="c58b4-125">Kui selle valikulise atribuudi väärtuseks on seatud **Tõene**, kuvatakse aadressi tüüp, nt **Kodu** või **Ettevõte**.</span><span class="sxs-lookup"><span data-stu-id="c58b4-125">If this optional property is set to **True**, an address type, such as **Home** or **Business**, will be shown.</span></span> <span data-ttu-id="c58b4-126">Kui aadressi tüüpi pole määratud, salvestatakse aadress automaatselt nii, et selle **Tüüp**=**Muu**.</span><span class="sxs-lookup"><span data-stu-id="c58b4-126">If no address type is specified, the address will automatically be saved as **Type**=**Other**.</span></span> |
+| <span data-ttu-id="6f24d-119">Pealkiri</span><span class="sxs-lookup"><span data-stu-id="6f24d-119">Heading</span></span> | <span data-ttu-id="6f24d-120">Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**)</span><span class="sxs-lookup"><span data-stu-id="6f24d-120">Heading text and a heading tag (**H1**, **H2**, **H3**, **H4**, **H5**, or **H6**)</span></span> | <span data-ttu-id="6f24d-121">Tarneaadressi mooduli valikuline pealkiri.</span><span class="sxs-lookup"><span data-stu-id="6f24d-121">An optional heading for the shipping address module.</span></span> |
+| <span data-ttu-id="6f24d-122">Kuva aadressi tüüp</span><span class="sxs-lookup"><span data-stu-id="6f24d-122">Show address type</span></span> | <span data-ttu-id="6f24d-123">**Tõene** või **Väär**</span><span class="sxs-lookup"><span data-stu-id="6f24d-123">**True** or **False**</span></span> | <span data-ttu-id="6f24d-124">Kui selle valikulise atribuudi väärtuseks on seatud **Tõene**, kuvatakse aadressi tüüp, nt **Kodu** või **Ettevõte**.</span><span class="sxs-lookup"><span data-stu-id="6f24d-124">If this optional property is set to **True**, an address type, such as **Home** or **Business**, will be shown.</span></span> <span data-ttu-id="6f24d-125">Kui aadressi tüüpi pole määratud, salvestatakse aadress automaatselt nii, et selle **Tüüp**=**Muu**.</span><span class="sxs-lookup"><span data-stu-id="6f24d-125">If no address type is specified, the address will automatically be saved as **Type**=**Other**.</span></span> |
+| <span data-ttu-id="6f24d-126">Lubage automaatne soovitus</span><span class="sxs-lookup"><span data-stu-id="6f24d-126">Enable auto suggestion</span></span>| <span data-ttu-id="6f24d-127">**Tõene** või **Väär**</span><span class="sxs-lookup"><span data-stu-id="6f24d-127">**True** or **False**</span></span> | <span data-ttu-id="6f24d-128">Kui valikuline atribuut on seatud väärtusele **Tõene**, antakse automaatsed aadressisoovitused.</span><span class="sxs-lookup"><span data-stu-id="6f24d-128">If this optional property is set to **True**, automatic address suggestions will be provided.</span></span> <span data-ttu-id="6f24d-129">Need soovitused on toetatud Bingi kaartide puhul.</span><span class="sxs-lookup"><span data-stu-id="6f24d-129">These suggestions are powered by Bing Maps.</span></span> <span data-ttu-id="6f24d-130">Lisateavet selle kohta, kuidas seadistada oma saidi jaoks Bing Mapsi integratsioon, vt [poe valimise moodulit](store-selector.md).</span><span class="sxs-lookup"><span data-stu-id="6f24d-130">For information about how to set up Bing Maps integration for your site, see [Store selector module](store-selector.md).</span></span> <span data-ttu-id="6f24d-131">See funktsioon on saadaval Commerce'i versiooni 10.0.15 väljalaskes.</span><span class="sxs-lookup"><span data-stu-id="6f24d-131">This feature is available as of the Commerce version 10.0.15 release.</span></span>|
+|<span data-ttu-id="6f24d-132">Automaatsed soovitatud valikud</span><span class="sxs-lookup"><span data-stu-id="6f24d-132">Auto suggest options</span></span>| <span data-ttu-id="6f24d-133">Number</span><span class="sxs-lookup"><span data-stu-id="6f24d-133">A number</span></span>| <span data-ttu-id="6f24d-134">Kui automaatsed aadressisoovitused on lubatud, saate määrata lisavalikud, näiteks maksimaalse soovituste arvu.</span><span class="sxs-lookup"><span data-stu-id="6f24d-134">If automatic address suggestions are enabled, you can specify additional options, such as the maximum number of suggestions that should be provided.</span></span>|
 
-## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a><span data-ttu-id="c58b4-127">Maksmise lehele tarneaadressi mooduli lisamine ja vajalike atribuutide seadistamine</span><span class="sxs-lookup"><span data-stu-id="c58b4-127">Add a shipping address module to a checkout page and set the required properties</span></span>
+## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a><span data-ttu-id="6f24d-135">Maksmise lehele tarneaadressi mooduli lisamine ja vajalike atribuutide seadistamine</span><span class="sxs-lookup"><span data-stu-id="6f24d-135">Add a shipping address module to a checkout page and set the required properties</span></span>
 
-<span data-ttu-id="c58b4-128">Tarneaadressi moodulit saab lisada ainult maksmise moodulisse.</span><span class="sxs-lookup"><span data-stu-id="c58b4-128">A shipping address module can be added only to a checkout module.</span></span> <span data-ttu-id="c58b4-129">Lisateavet selle kohta, kuidas konfigureerida tarneaadressi moodulit ja lisada seda maksmise lehele, leiate teemast [Maksmise moodul](add-checkout-module.md).</span><span class="sxs-lookup"><span data-stu-id="c58b4-129">For more information about how to configure the shipping address module and add it to a checkout page, see [Checkout module](add-checkout-module.md).</span></span>
+<span data-ttu-id="6f24d-136">Tarneaadressi moodulit saab lisada ainult maksmise moodulisse.</span><span class="sxs-lookup"><span data-stu-id="6f24d-136">A shipping address module can be added only to a checkout module.</span></span> <span data-ttu-id="6f24d-137">Lisateavet selle kohta, kuidas konfigureerida tarneaadressi moodulit ja lisada seda maksmise lehele, leiate teemast [Maksmise moodul](add-checkout-module.md).</span><span class="sxs-lookup"><span data-stu-id="6f24d-137">For more information about how to configure the shipping address module and add it to a checkout page, see [Checkout module](add-checkout-module.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c58b4-130">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c58b4-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="6f24d-138">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="6f24d-138">Additional resources</span></span>
 
-[<span data-ttu-id="c58b4-131">Ostukorvimoodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-131">Cart module</span></span>](add-cart-module.md)
+[<span data-ttu-id="6f24d-139">Ostukorvimoodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-139">Cart module</span></span>](add-cart-module.md)
 
-[<span data-ttu-id="c58b4-132">Ostukorvi ikooni moodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-132">Cart icon module</span></span>](cart-icon-module.md)
+[<span data-ttu-id="6f24d-140">Ostukorvi ikooni moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-140">Cart icon module</span></span>](cart-icon-module.md)
 
-[<span data-ttu-id="c58b4-133">Maksmismoodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-133">Checkout module</span></span>](add-checkout-module.md)
+[<span data-ttu-id="6f24d-141">Maksmismoodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-141">Checkout module</span></span>](add-checkout-module.md)
 
-[<span data-ttu-id="c58b4-134">Makse moodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-134">Payment module</span></span>](payment-module.md)
+[<span data-ttu-id="6f24d-142">Makse moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-142">Payment module</span></span>](payment-module.md)
 
-[<span data-ttu-id="c58b4-135">Tarnesuvandite moodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-135">Delivery options module</span></span>](delivery-options-module.md)
+[<span data-ttu-id="6f24d-143">Tarnesuvandite moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-143">Delivery options module</span></span>](delivery-options-module.md)
 
-[<span data-ttu-id="c58b4-136">Järgi tulemise teabe moodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-136">Pickup information module</span></span>](pickup-info-module.md)
+[<span data-ttu-id="6f24d-144">Järeletulemise teabe moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-144">Pickup information module</span></span>](pickup-info-module.md)
 
-[<span data-ttu-id="c58b4-137">Tellimuse üksikasjade moodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-137">Order details module</span></span>](order-confirmation-module.md)
+[<span data-ttu-id="6f24d-145">Tellimuse üksikasjade moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-145">Order details module</span></span>](order-confirmation-module.md)
 
-[<span data-ttu-id="c58b4-138">Kinkekaardi moodul</span><span class="sxs-lookup"><span data-stu-id="c58b4-138">Gift card module</span></span>](add-giftcard.md)
+[<span data-ttu-id="6f24d-146">Kinkekaardi moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-146">Gift card module</span></span>](add-giftcard.md)
+
+[<span data-ttu-id="6f24d-147">Kaupluse valimise moodul</span><span class="sxs-lookup"><span data-stu-id="6f24d-147">Store selector module</span></span>](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
