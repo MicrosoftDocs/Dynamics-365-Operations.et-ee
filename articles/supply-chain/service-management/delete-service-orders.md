@@ -17,37 +17,40 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8970857814168334ce5b9936c96112568a488db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a141ec1574dbd1cbbf4640063999797c711a8d72
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974506"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247426"
 ---
-# <a name="delete-service-orders"></a><span data-ttu-id="b0f10-103">Kustuta teenuse tellimused</span><span class="sxs-lookup"><span data-stu-id="b0f10-103">Delete service orders</span></span> 
+# <a name="delete-service-orders"></a><span data-ttu-id="f6650-103">Kustuta teenuse tellimused</span><span class="sxs-lookup"><span data-stu-id="f6650-103">Delete service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="b0f10-104">Klõpsake **Teenuste halduse** \> **Perioodiline** \> **Hooldustellimused** \> **Hooldustellimuste kustutamine**.</span><span class="sxs-lookup"><span data-stu-id="b0f10-104">Click **Service management** \> **Periodic** \> **Service orders** \> **Delete service orders**.</span></span>
+1.  <span data-ttu-id="f6650-104">Klõpsake **Teenuste halduse** \> **Perioodiline** \> **Hooldustellimused** \> **Hooldustellimuste kustutamine**.</span><span class="sxs-lookup"><span data-stu-id="f6650-104">Click **Service management** \> **Periodic** \> **Service orders** \> **Delete service orders**.</span></span>
 
-2.  <span data-ttu-id="b0f10-105">Klõpsake vormil **Hooldustellimuste kustutamine** nuppu **Vali**, et määrata kriteerium kustutatavate hooldustellimuste valimiseks ja seejärel klõpsake valikut **OK**.</span><span class="sxs-lookup"><span data-stu-id="b0f10-105">On the **Delete service orders** form, click **Select** to specify the criteria to select the service orders to be deleted, and then click **OK**.</span></span>
+2.  <span data-ttu-id="f6650-105">Klõpsake vormil **Hooldustellimuste kustutamine** nuppu **Vali**, et määrata kriteerium kustutatavate hooldustellimuste valimiseks ja seejärel klõpsake valikut **OK**.</span><span class="sxs-lookup"><span data-stu-id="f6650-105">On the **Delete service orders** form, click **Select** to specify the criteria to select the service orders to be deleted, and then click **OK**.</span></span>
 
-3.  <span data-ttu-id="b0f10-106">Valige märkeruut **Näita teabelogi**, et luua teabelogi, mis kuvab kustutatud hooldustellimused.</span><span class="sxs-lookup"><span data-stu-id="b0f10-106">Select the **Show Infolog** check box to generate an Infolog that displays the deleted service orders.</span></span>
+3.  <span data-ttu-id="f6650-106">Valige märkeruut **Näita teabelogi**, et luua teabelogi, mis kuvab kustutatud hooldustellimused.</span><span class="sxs-lookup"><span data-stu-id="f6650-106">Select the **Show Infolog** check box to generate an Infolog that displays the deleted service orders.</span></span>
 
-4.  <span data-ttu-id="b0f10-107">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="b0f10-107">Click **OK**.</span></span>
+4.  <span data-ttu-id="f6650-107">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="f6650-107">Click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="b0f10-108">Kui te ei määra teenusetellimuste valimiseks ühtki kriteeriumit , kustutatakse kõik teenusetellimused.</span><span class="sxs-lookup"><span data-stu-id="b0f10-108">If you do not specify any criteria to select the service orders, all service orders are deleted.</span></span> <span data-ttu-id="b0f10-109">Ent kui väljute vormilt <STRONG>Hooldustellimuste kustutamine</STRONG>, on teil võimalus kõik hooldustellimused kustutada.</span><span class="sxs-lookup"><span data-stu-id="b0f10-109">However, when you exit the <STRONG>Delete service orders</STRONG> form, you will have the option to delete all service orders.</span></span></P>
-> <P><span data-ttu-id="b0f10-110">Saate kustutada vaid teenusetellimusi, mille etapp võimaldab neid kustutada.</span><span class="sxs-lookup"><span data-stu-id="b0f10-110">Also, you can only delete service orders with a stage that lets you delete them.</span></span></P>
+> <P><span data-ttu-id="f6650-108">Kui te ei määra teenusetellimuste valimiseks ühtki kriteeriumit , kustutatakse kõik teenusetellimused.</span><span class="sxs-lookup"><span data-stu-id="f6650-108">If you do not specify any criteria to select the service orders, all service orders are deleted.</span></span> <span data-ttu-id="f6650-109">Ent kui väljute vormilt <STRONG>Hooldustellimuste kustutamine</STRONG>, on teil võimalus kõik hooldustellimused kustutada.</span><span class="sxs-lookup"><span data-stu-id="f6650-109">However, when you exit the <STRONG>Delete service orders</STRONG> form, you will have the option to delete all service orders.</span></span></P>
+> <P><span data-ttu-id="f6650-110">Saate kustutada vaid teenusetellimusi, mille etapp võimaldab neid kustutada.</span><span class="sxs-lookup"><span data-stu-id="f6650-110">Also, you can only delete service orders with a stage that lets you delete them.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="b0f10-111">Vt ka</span><span class="sxs-lookup"><span data-stu-id="b0f10-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6650-111">Vt ka</span><span class="sxs-lookup"><span data-stu-id="f6650-111">See also</span></span>
 
-[<span data-ttu-id="b0f10-112">Teenusetellimused</span><span class="sxs-lookup"><span data-stu-id="b0f10-112">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="f6650-112">Teenusetellimused</span><span class="sxs-lookup"><span data-stu-id="f6650-112">Service orders</span></span>](service-orders.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
