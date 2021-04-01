@@ -18,47 +18,47 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8b6d65430d09c293fd5bca032b8b0e88c971d5a9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007062"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246089"
 ---
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a><span data-ttu-id="032a8-103">Kanbani ülekandmise tahvli tugi vöötkoodilugejatele</span><span class="sxs-lookup"><span data-stu-id="032a8-103">Kanban transfer board support for barcode scanners</span></span>
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a><span data-ttu-id="eb907-103">Kanbani ülekandmise tahvli tugi vöötkoodilugejatele</span><span class="sxs-lookup"><span data-stu-id="eb907-103">Kanban transfer board support for barcode scanners</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="032a8-104">Kanbani ülekandmise tahvel toetab vöötkoodiskanneri vidina sisendit toiminguteks Vali, Käivita, Lõpeta ja Tühjenda kanban-töö.</span><span class="sxs-lookup"><span data-stu-id="032a8-104">The Kanban transfer board supports scanner input from a widget barcode scanner to Select, Start, Complete, and Empty a kanban job.</span></span>
+<span data-ttu-id="eb907-104">Kanbani ülekandmise tahvel toetab vöötkoodiskanneri vidina sisendit toiminguteks Vali, Käivita, Lõpeta ja Tühjenda kanban-töö.</span><span class="sxs-lookup"><span data-stu-id="eb907-104">The Kanban transfer board supports scanner input from a widget barcode scanner to Select, Start, Complete, and Empty a kanban job.</span></span>
 
-<a name="registration-modes"></a><span data-ttu-id="032a8-105">Registreerimisrežiimid</span><span class="sxs-lookup"><span data-stu-id="032a8-105">Registration modes</span></span>
+<a name="registration-modes"></a><span data-ttu-id="eb907-105">Registreerimisrežiimid</span><span class="sxs-lookup"><span data-stu-id="eb907-105">Registration modes</span></span>
 ------------------
 
-<span data-ttu-id="032a8-106">Kiirkaardil **Skanneri registreerimine** saate valida registreerimisrežiimi, millega juhitakse tegevust, kui skannite kanban-kaardi numbri või sisestate numbri käsitsi väljale Kanban-kaardi number.</span><span class="sxs-lookup"><span data-stu-id="032a8-106">On the **Scanner registration** FastTab you can select the registration mode, which controls the action when you scan a kanban card number or manually type the number in the Kanban card number field.</span></span>
+<span data-ttu-id="eb907-106">Kiirkaardil **Skanneri registreerimine** saate valida registreerimisrežiimi, millega juhitakse tegevust, kui skannite kanban-kaardi numbri või sisestate numbri käsitsi väljale Kanban-kaardi number.</span><span class="sxs-lookup"><span data-stu-id="eb907-106">On the **Scanner registration** FastTab you can select the registration mode, which controls the action when you scan a kanban card number or manually type the number in the Kanban card number field.</span></span>
 
-| <span data-ttu-id="032a8-107">Registreerimisrežiimi määramine</span><span class="sxs-lookup"><span data-stu-id="032a8-107">Set registration mode</span></span> | <span data-ttu-id="032a8-108">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="032a8-108">Description</span></span>                                                                                     |
+| <span data-ttu-id="eb907-107">Registreerimisrežiimi määramine</span><span class="sxs-lookup"><span data-stu-id="eb907-107">Set registration mode</span></span> | <span data-ttu-id="eb907-108">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="eb907-108">Description</span></span>                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="032a8-109">Algus</span><span class="sxs-lookup"><span data-stu-id="032a8-109">Start</span></span>                 | <span data-ttu-id="032a8-110">Registreerib kanbani ülekandetöö pooleliolevana.</span><span class="sxs-lookup"><span data-stu-id="032a8-110">Registers a Kanban transfer job as in progress.</span></span>                                                 |
-| <span data-ttu-id="032a8-111">Lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="032a8-111">Complete</span></span>              | <span data-ttu-id="032a8-112">Registreerib kanbani ülekandetöö lõpetatuna.</span><span class="sxs-lookup"><span data-stu-id="032a8-112">Registers a Kanban transfer job as completed.</span></span>                                                   |
-| <span data-ttu-id="032a8-113">Tühi</span><span class="sxs-lookup"><span data-stu-id="032a8-113">Empty</span></span>                 | <span data-ttu-id="032a8-114">Registreerib kanban-kaardi viidatud materjali käsitlemisühiku tühjana.</span><span class="sxs-lookup"><span data-stu-id="032a8-114">Registers the material handling unit that is referenced by a Kanban card as empty.</span></span>              |
-| <span data-ttu-id="032a8-115">Vali</span><span class="sxs-lookup"><span data-stu-id="032a8-115">Select</span></span>                | <span data-ttu-id="032a8-116">Registreerib kanban-kaardi numbri ja valib kanban-tööde loendist viidatud töö automaatselt.</span><span class="sxs-lookup"><span data-stu-id="032a8-116">Registers a Kanban card number and automatically selects the referenced job in the Kanban list.</span></span> |
+| <span data-ttu-id="eb907-109">Algus</span><span class="sxs-lookup"><span data-stu-id="eb907-109">Start</span></span>                 | <span data-ttu-id="eb907-110">Registreerib kanbani ülekandetöö pooleliolevana.</span><span class="sxs-lookup"><span data-stu-id="eb907-110">Registers a Kanban transfer job as in progress.</span></span>                                                 |
+| <span data-ttu-id="eb907-111">Lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="eb907-111">Complete</span></span>              | <span data-ttu-id="eb907-112">Registreerib kanbani ülekandetöö lõpetatuna.</span><span class="sxs-lookup"><span data-stu-id="eb907-112">Registers a Kanban transfer job as completed.</span></span>                                                   |
+| <span data-ttu-id="eb907-113">Tühi</span><span class="sxs-lookup"><span data-stu-id="eb907-113">Empty</span></span>                 | <span data-ttu-id="eb907-114">Registreerib kanban-kaardi viidatud materjali käsitlemisühiku tühjana.</span><span class="sxs-lookup"><span data-stu-id="eb907-114">Registers the material handling unit that is referenced by a Kanban card as empty.</span></span>              |
+| <span data-ttu-id="eb907-115">Vali</span><span class="sxs-lookup"><span data-stu-id="eb907-115">Select</span></span>                | <span data-ttu-id="eb907-116">Registreerib kanban-kaardi numbri ja valib kanban-tööde loendist viidatud töö automaatselt.</span><span class="sxs-lookup"><span data-stu-id="eb907-116">Registers a Kanban card number and automatically selects the referenced job in the Kanban list.</span></span> |
 
  
-<a name="registration-mode-select"></a><span data-ttu-id="032a8-117">Registreerimisrežiimi valimine</span><span class="sxs-lookup"><span data-stu-id="032a8-117">Registration mode Select</span></span>
+<a name="registration-mode-select"></a><span data-ttu-id="eb907-117">Registreerimisrežiimi valimine</span><span class="sxs-lookup"><span data-stu-id="eb907-117">Registration mode Select</span></span>
 ------------------------
 
-<span data-ttu-id="032a8-118">Kui kasutate töö valimiseks vöötkoodilugejat, muutub kanban-tahvli kuvarežiim.</span><span class="sxs-lookup"><span data-stu-id="032a8-118">When you use a bar code reader to select a job, the display mode of the kanban board changes.</span></span> <span data-ttu-id="032a8-119">Selles režiimis kehtivad järgmised tingimused.</span><span class="sxs-lookup"><span data-stu-id="032a8-119">In this mode, the following conditions apply:</span></span>
+<span data-ttu-id="eb907-118">Kui kasutate töö valimiseks vöötkoodilugejat, muutub kanban-tahvli kuvarežiim.</span><span class="sxs-lookup"><span data-stu-id="eb907-118">When you use a bar code reader to select a job, the display mode of the kanban board changes.</span></span> <span data-ttu-id="eb907-119">Selles režiimis kehtivad järgmised tingimused.</span><span class="sxs-lookup"><span data-stu-id="eb907-119">In this mode, the following conditions apply:</span></span>
 
--   <span data-ttu-id="032a8-120">Kuvatakse ainult skannitud kanban-töö.</span><span class="sxs-lookup"><span data-stu-id="032a8-120">Only the scanned kanban job is displayed.</span></span>
--   <span data-ttu-id="032a8-121">Valitud töö üksikasjad kuvatakse kiirkaardil **Üksikasjad**.</span><span class="sxs-lookup"><span data-stu-id="032a8-121">The details of the selected job are displayed in the **Details** FastTab.</span></span>
--   <span data-ttu-id="032a8-122">Kiirkaardil **Teated** kuvatakse ainult teated valitud töö kohta.</span><span class="sxs-lookup"><span data-stu-id="032a8-122">The **Messages** FastTab displays messages only for the selected job.</span></span>
--   <span data-ttu-id="032a8-123">Töö olekut saate muuta, kasutades funktsioone, mis on saadaval toimingupaanil.</span><span class="sxs-lookup"><span data-stu-id="032a8-123">You can change the status of the job by using the functions that are available on the Action Pane.</span></span> <span data-ttu-id="032a8-124">Kanbani ülekandmise tahvlil kuvatakse sel ajal ainult üht tööd.</span><span class="sxs-lookup"><span data-stu-id="032a8-124">The Kanban transfer board continues to display only a single job during this time.</span></span>
--   <span data-ttu-id="032a8-125">Saate värskendada tööde loendis olevat teavet käsitsi, klõpsates toimingupaanil käsku **Värskenda** (Shift + F5).</span><span class="sxs-lookup"><span data-stu-id="032a8-125">You can update the information in the list of jobs manually by clicking **Refresh** (Shift+F5) on the Action Pane.</span></span> <span data-ttu-id="032a8-126">Pärast teabe värskendamist kuvatakse uuesti töö filtri täielikud tulemused.</span><span class="sxs-lookup"><span data-stu-id="032a8-126">After you refresh the information, the full results for the job filter are displayed again.</span></span>
+-   <span data-ttu-id="eb907-120">Kuvatakse ainult skannitud kanban-töö.</span><span class="sxs-lookup"><span data-stu-id="eb907-120">Only the scanned kanban job is displayed.</span></span>
+-   <span data-ttu-id="eb907-121">Valitud töö üksikasjad kuvatakse kiirkaardil **Üksikasjad**.</span><span class="sxs-lookup"><span data-stu-id="eb907-121">The details of the selected job are displayed in the **Details** FastTab.</span></span>
+-   <span data-ttu-id="eb907-122">Kiirkaardil **Teated** kuvatakse ainult teated valitud töö kohta.</span><span class="sxs-lookup"><span data-stu-id="eb907-122">The **Messages** FastTab displays messages only for the selected job.</span></span>
+-   <span data-ttu-id="eb907-123">Töö olekut saate muuta, kasutades funktsioone, mis on saadaval toimingupaanil.</span><span class="sxs-lookup"><span data-stu-id="eb907-123">You can change the status of the job by using the functions that are available on the Action Pane.</span></span> <span data-ttu-id="eb907-124">Kanbani ülekandmise tahvlil kuvatakse sel ajal ainult üht tööd.</span><span class="sxs-lookup"><span data-stu-id="eb907-124">The Kanban transfer board continues to display only a single job during this time.</span></span>
+-   <span data-ttu-id="eb907-125">Saate värskendada tööde loendis olevat teavet käsitsi, klõpsates toimingupaanil käsku **Värskenda** (Shift + F5).</span><span class="sxs-lookup"><span data-stu-id="eb907-125">You can update the information in the list of jobs manually by clicking **Refresh** (Shift+F5) on the Action Pane.</span></span> <span data-ttu-id="eb907-126">Pärast teabe värskendamist kuvatakse uuesti töö filtri täielikud tulemused.</span><span class="sxs-lookup"><span data-stu-id="eb907-126">After you refresh the information, the full results for the job filter are displayed again.</span></span>
 
-## <a name="job-status-and-possible-actions"></a><span data-ttu-id="032a8-127">Töö olek ja võimalikud tegevused</span><span class="sxs-lookup"><span data-stu-id="032a8-127">Job status and possible actions</span></span>
-<span data-ttu-id="032a8-128">Valitud töö olek ja sündmuse kanbanide mis tahes kinnistatud tööde olek määravad, kas saate tööd edasi töödelda.</span><span class="sxs-lookup"><span data-stu-id="032a8-128">The status of the selected job and the status of any pegged jobs for event kanbans, determine whether you can process the job further.</span></span> <span data-ttu-id="032a8-129">Järgmises tabelis kuvatakse teave nende olekute ja ülesannete kohta.</span><span class="sxs-lookup"><span data-stu-id="032a8-129">The following table displays information about these statuses and tasks:</span></span>
--   <span data-ttu-id="032a8-130">Tööde jaoks või tööde viidatud materjali käsitlemisühikute jaoks saadaolevad olekud.</span><span class="sxs-lookup"><span data-stu-id="032a8-130">The statuses that are available for jobs, or for the handling units that are referenced by the jobs.</span></span>
--   <span data-ttu-id="032a8-131">Iga ülesanne, mida saate töö puhul täita.</span><span class="sxs-lookup"><span data-stu-id="032a8-131">Each task that you can perform for the job.</span></span>
+## <a name="job-status-and-possible-actions"></a><span data-ttu-id="eb907-127">Töö olek ja võimalikud tegevused</span><span class="sxs-lookup"><span data-stu-id="eb907-127">Job status and possible actions</span></span>
+<span data-ttu-id="eb907-128">Valitud töö olek ja sündmuse kanbanide mis tahes kinnistatud tööde olek määravad, kas saate tööd edasi töödelda.</span><span class="sxs-lookup"><span data-stu-id="eb907-128">The status of the selected job and the status of any pegged jobs for event kanbans, determine whether you can process the job further.</span></span> <span data-ttu-id="eb907-129">Järgmises tabelis kuvatakse teave nende olekute ja ülesannete kohta.</span><span class="sxs-lookup"><span data-stu-id="eb907-129">The following table displays information about these statuses and tasks:</span></span>
+-   <span data-ttu-id="eb907-130">Tööde jaoks või tööde viidatud materjali käsitlemisühikute jaoks saadaolevad olekud.</span><span class="sxs-lookup"><span data-stu-id="eb907-130">The statuses that are available for jobs, or for the handling units that are referenced by the jobs.</span></span>
+-   <span data-ttu-id="eb907-131">Iga ülesanne, mida saate töö puhul täita.</span><span class="sxs-lookup"><span data-stu-id="eb907-131">Each task that you can perform for the job.</span></span>
 
 <table>
 <colgroup>
@@ -73,116 +73,116 @@ ms.locfileid: "5007062"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="032a8-132">Töö tüüp</span><span class="sxs-lookup"><span data-stu-id="032a8-132">Job type</span></span></th>
-<th><span data-ttu-id="032a8-133">Töö olek või materjali käsitlemisühiku olek</span><span class="sxs-lookup"><span data-stu-id="032a8-133">Job status or handling unit status</span></span></th>
-<th><span data-ttu-id="032a8-134">Komplekteerimislehe värskendamine</span><span class="sxs-lookup"><span data-stu-id="032a8-134">Update picking list</span></span></th>
-<th><span data-ttu-id="032a8-135">Algus</span><span class="sxs-lookup"><span data-stu-id="032a8-135">Start</span></span></th>
-<th><span data-ttu-id="032a8-136">Värskenda reserveeringut</span><span class="sxs-lookup"><span data-stu-id="032a8-136">Update registration</span></span></th>
-<th><span data-ttu-id="032a8-137">Lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="032a8-137">Complete</span></span></th>
-<th><span data-ttu-id="032a8-138">Tühi</span><span class="sxs-lookup"><span data-stu-id="032a8-138">Empty</span></span></th>
-<th><span data-ttu-id="032a8-139">Loo sündmuse kanbanid</span><span class="sxs-lookup"><span data-stu-id="032a8-139">Create event kanbans</span></span></th>
+<th><span data-ttu-id="eb907-132">Töö tüüp</span><span class="sxs-lookup"><span data-stu-id="eb907-132">Job type</span></span></th>
+<th><span data-ttu-id="eb907-133">Töö olek või materjali käsitlemisühiku olek</span><span class="sxs-lookup"><span data-stu-id="eb907-133">Job status or handling unit status</span></span></th>
+<th><span data-ttu-id="eb907-134">Komplekteerimislehe värskendamine</span><span class="sxs-lookup"><span data-stu-id="eb907-134">Update picking list</span></span></th>
+<th><span data-ttu-id="eb907-135">Algus</span><span class="sxs-lookup"><span data-stu-id="eb907-135">Start</span></span></th>
+<th><span data-ttu-id="eb907-136">Värskenda reserveeringut</span><span class="sxs-lookup"><span data-stu-id="eb907-136">Update registration</span></span></th>
+<th><span data-ttu-id="eb907-137">Lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="eb907-137">Complete</span></span></th>
+<th><span data-ttu-id="eb907-138">Tühi</span><span class="sxs-lookup"><span data-stu-id="eb907-138">Empty</span></span></th>
+<th><span data-ttu-id="eb907-139">Loo sündmuse kanbanid</span><span class="sxs-lookup"><span data-stu-id="eb907-139">Create event kanbans</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="032a8-140">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="032a8-140">Transfer</span></span></td>
+<td><span data-ttu-id="eb907-140">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="eb907-140">Transfer</span></span></td>
 <td><ul>
-<li><span data-ttu-id="032a8-141">Pole plaanitud</span><span class="sxs-lookup"><span data-stu-id="032a8-141">Not planned</span></span></li>
-<li><span data-ttu-id="032a8-142">Kinnistatud töid pole või on kinnistatud tööd lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="032a8-142">No pegged jobs, or pegged jobs are Completed</span></span></li>
+<li><span data-ttu-id="eb907-141">Pole plaanitud</span><span class="sxs-lookup"><span data-stu-id="eb907-141">Not planned</span></span></li>
+<li><span data-ttu-id="eb907-142">Kinnistatud töid pole või on kinnistatud tööd lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="eb907-142">No pegged jobs, or pegged jobs are Completed</span></span></li>
 </ul></td>
-<td><span data-ttu-id="032a8-143">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-143">Yes</span></span></td>
-<td><span data-ttu-id="032a8-144">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-144">Yes</span></span></td>
-<td><span data-ttu-id="032a8-145">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-145">Yes</span></span></td>
-<td><span data-ttu-id="032a8-146">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-146">Yes</span></span></td>
-<td><span data-ttu-id="032a8-147">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-147">No</span></span></td>
-<td><span data-ttu-id="032a8-148">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-148">Yes</span></span></td>
+<td><span data-ttu-id="eb907-143">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-143">Yes</span></span></td>
+<td><span data-ttu-id="eb907-144">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-144">Yes</span></span></td>
+<td><span data-ttu-id="eb907-145">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-145">Yes</span></span></td>
+<td><span data-ttu-id="eb907-146">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-146">Yes</span></span></td>
+<td><span data-ttu-id="eb907-147">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-147">No</span></span></td>
+<td><span data-ttu-id="eb907-148">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-148">Yes</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="032a8-149">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="032a8-149">Transfer</span></span></td>
+<td><span data-ttu-id="eb907-149">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="eb907-149">Transfer</span></span></td>
 <td><ul>
-<li><span data-ttu-id="032a8-150">Pole plaanitud</span><span class="sxs-lookup"><span data-stu-id="032a8-150">Not planned</span></span></li>
-<li><span data-ttu-id="032a8-151">Kinnistatud töö ei ole lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="032a8-151">The pegged job is not Completed</span></span></li>
+<li><span data-ttu-id="eb907-150">Pole plaanitud</span><span class="sxs-lookup"><span data-stu-id="eb907-150">Not planned</span></span></li>
+<li><span data-ttu-id="eb907-151">Kinnistatud töö ei ole lõpule viidud</span><span class="sxs-lookup"><span data-stu-id="eb907-151">The pegged job is not Completed</span></span></li>
 </ul></td>
-<td><span data-ttu-id="032a8-152">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-152">Yes</span></span></td>
-<td><span data-ttu-id="032a8-153">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-153">No</span></span></td>
-<td><span data-ttu-id="032a8-154">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-154">Yes</span></span></td>
-<td><span data-ttu-id="032a8-155">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-155">No</span></span></td>
-<td><span data-ttu-id="032a8-156">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-156">No</span></span></td>
-<td><span data-ttu-id="032a8-157">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-157">No</span></span></td>
+<td><span data-ttu-id="eb907-152">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-152">Yes</span></span></td>
+<td><span data-ttu-id="eb907-153">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-153">No</span></span></td>
+<td><span data-ttu-id="eb907-154">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-154">Yes</span></span></td>
+<td><span data-ttu-id="eb907-155">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-155">No</span></span></td>
+<td><span data-ttu-id="eb907-156">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-156">No</span></span></td>
+<td><span data-ttu-id="eb907-157">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-157">No</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="032a8-158">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="032a8-158">Transfer</span></span></td>
-<td><span data-ttu-id="032a8-159">Käimas</span><span class="sxs-lookup"><span data-stu-id="032a8-159">In progress</span></span></td>
-<td><span data-ttu-id="032a8-160">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-160">Yes</span></span></td>
-<td><span data-ttu-id="032a8-161">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-161">No</span></span></td>
-<td><span data-ttu-id="032a8-162">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-162">Yes</span></span></td>
-<td><span data-ttu-id="032a8-163">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-163">Yes</span></span></td>
-<td><span data-ttu-id="032a8-164">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-164">No</span></span></td>
-<td><span data-ttu-id="032a8-165">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-165">No</span></span></td>
+<td><span data-ttu-id="eb907-158">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="eb907-158">Transfer</span></span></td>
+<td><span data-ttu-id="eb907-159">Käimas</span><span class="sxs-lookup"><span data-stu-id="eb907-159">In progress</span></span></td>
+<td><span data-ttu-id="eb907-160">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-160">Yes</span></span></td>
+<td><span data-ttu-id="eb907-161">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-161">No</span></span></td>
+<td><span data-ttu-id="eb907-162">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-162">Yes</span></span></td>
+<td><span data-ttu-id="eb907-163">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-163">Yes</span></span></td>
+<td><span data-ttu-id="eb907-164">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-164">No</span></span></td>
+<td><span data-ttu-id="eb907-165">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-165">No</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="032a8-166">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="032a8-166">Transfer</span></span></td>
-<td><span data-ttu-id="032a8-167">Valmis</span><span class="sxs-lookup"><span data-stu-id="032a8-167">Completed</span></span></td>
-<td><span data-ttu-id="032a8-168">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-168">No</span></span></td>
-<td><span data-ttu-id="032a8-169">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-169">No</span></span></td>
-<td><span data-ttu-id="032a8-170">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-170">No</span></span></td>
-<td><span data-ttu-id="032a8-171">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-171">No</span></span></td>
-<td><span data-ttu-id="032a8-172">Jah</span><span class="sxs-lookup"><span data-stu-id="032a8-172">Yes</span></span></td>
-<td><span data-ttu-id="032a8-173">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-173">No</span></span></td>
+<td><span data-ttu-id="eb907-166">Ülekanne</span><span class="sxs-lookup"><span data-stu-id="eb907-166">Transfer</span></span></td>
+<td><span data-ttu-id="eb907-167">Valmis</span><span class="sxs-lookup"><span data-stu-id="eb907-167">Completed</span></span></td>
+<td><span data-ttu-id="eb907-168">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-168">No</span></span></td>
+<td><span data-ttu-id="eb907-169">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-169">No</span></span></td>
+<td><span data-ttu-id="eb907-170">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-170">No</span></span></td>
+<td><span data-ttu-id="eb907-171">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-171">No</span></span></td>
+<td><span data-ttu-id="eb907-172">Jah</span><span class="sxs-lookup"><span data-stu-id="eb907-172">Yes</span></span></td>
+<td><span data-ttu-id="eb907-173">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-173">No</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="032a8-174">Ülekanne või protsess</span><span class="sxs-lookup"><span data-stu-id="032a8-174">Transfer or process</span></span></td>
-<td><span data-ttu-id="032a8-175">Tühi</span><span class="sxs-lookup"><span data-stu-id="032a8-175">Empty</span></span></td>
-<td><span data-ttu-id="032a8-176">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-176">No</span></span></td>
-<td><span data-ttu-id="032a8-177">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-177">No</span></span></td>
-<td><span data-ttu-id="032a8-178">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-178">No</span></span></td>
-<td><span data-ttu-id="032a8-179">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-179">No</span></span></td>
-<td><span data-ttu-id="032a8-180">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-180">No</span></span></td>
-<td><span data-ttu-id="032a8-181">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-181">No</span></span></td>
+<td><span data-ttu-id="eb907-174">Ülekanne või protsess</span><span class="sxs-lookup"><span data-stu-id="eb907-174">Transfer or process</span></span></td>
+<td><span data-ttu-id="eb907-175">Tühi</span><span class="sxs-lookup"><span data-stu-id="eb907-175">Empty</span></span></td>
+<td><span data-ttu-id="eb907-176">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-176">No</span></span></td>
+<td><span data-ttu-id="eb907-177">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-177">No</span></span></td>
+<td><span data-ttu-id="eb907-178">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-178">No</span></span></td>
+<td><span data-ttu-id="eb907-179">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-179">No</span></span></td>
+<td><span data-ttu-id="eb907-180">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-180">No</span></span></td>
+<td><span data-ttu-id="eb907-181">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-181">No</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="032a8-182">Ülekanne või protsess</span><span class="sxs-lookup"><span data-stu-id="032a8-182">Transfer or process</span></span></td>
-<td><span data-ttu-id="032a8-183">Kanban-kaarti ei leitud</span><span class="sxs-lookup"><span data-stu-id="032a8-183">A kanban card is not found</span></span></td>
-<td><span data-ttu-id="032a8-184">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-184">No</span></span></td>
-<td><span data-ttu-id="032a8-185">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-185">No</span></span></td>
-<td><span data-ttu-id="032a8-186">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-186">No</span></span></td>
-<td><span data-ttu-id="032a8-187">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-187">No</span></span></td>
-<td><span data-ttu-id="032a8-188">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-188">No</span></span></td>
-<td><span data-ttu-id="032a8-189">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-189">No</span></span></td>
+<td><span data-ttu-id="eb907-182">Ülekanne või protsess</span><span class="sxs-lookup"><span data-stu-id="eb907-182">Transfer or process</span></span></td>
+<td><span data-ttu-id="eb907-183">Kanban-kaarti ei leitud</span><span class="sxs-lookup"><span data-stu-id="eb907-183">A kanban card is not found</span></span></td>
+<td><span data-ttu-id="eb907-184">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-184">No</span></span></td>
+<td><span data-ttu-id="eb907-185">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-185">No</span></span></td>
+<td><span data-ttu-id="eb907-186">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-186">No</span></span></td>
+<td><span data-ttu-id="eb907-187">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-187">No</span></span></td>
+<td><span data-ttu-id="eb907-188">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-188">No</span></span></td>
+<td><span data-ttu-id="eb907-189">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-189">No</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="032a8-190">Ülekanne või protsess</span><span class="sxs-lookup"><span data-stu-id="032a8-190">Transfer or process</span></span></td>
-<td><span data-ttu-id="032a8-191">Kanban-kaart leiti, kuid see pole kanbanile määratud</span><span class="sxs-lookup"><span data-stu-id="032a8-191">A kanban card is found, but it is not assigned to a kanban</span></span></td>
-<td><span data-ttu-id="032a8-192">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-192">No</span></span></td>
-<td><span data-ttu-id="032a8-193">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-193">No</span></span></td>
-<td><span data-ttu-id="032a8-194">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-194">No</span></span></td>
-<td><span data-ttu-id="032a8-195">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-195">No</span></span></td>
-<td><span data-ttu-id="032a8-196">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-196">No</span></span></td>
-<td><span data-ttu-id="032a8-197">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-197">No</span></span></td>
+<td><span data-ttu-id="eb907-190">Ülekanne või protsess</span><span class="sxs-lookup"><span data-stu-id="eb907-190">Transfer or process</span></span></td>
+<td><span data-ttu-id="eb907-191">Kanban-kaart leiti, kuid see pole kanbanile määratud</span><span class="sxs-lookup"><span data-stu-id="eb907-191">A kanban card is found, but it is not assigned to a kanban</span></span></td>
+<td><span data-ttu-id="eb907-192">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-192">No</span></span></td>
+<td><span data-ttu-id="eb907-193">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-193">No</span></span></td>
+<td><span data-ttu-id="eb907-194">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-194">No</span></span></td>
+<td><span data-ttu-id="eb907-195">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-195">No</span></span></td>
+<td><span data-ttu-id="eb907-196">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-196">No</span></span></td>
+<td><span data-ttu-id="eb907-197">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-197">No</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="032a8-198">Protsess</span><span class="sxs-lookup"><span data-stu-id="032a8-198">Process</span></span></td>
+<td><span data-ttu-id="eb907-198">Protsess</span><span class="sxs-lookup"><span data-stu-id="eb907-198">Process</span></span></td>
 <td><ul>
-<li><span data-ttu-id="032a8-199">Pole plaanitud</span><span class="sxs-lookup"><span data-stu-id="032a8-199">Not planned</span></span></li>
-<li><span data-ttu-id="032a8-200">Ettevalmistatud</span><span class="sxs-lookup"><span data-stu-id="032a8-200">Prepared</span></span></li>
-<li><span data-ttu-id="032a8-201">Käimas</span><span class="sxs-lookup"><span data-stu-id="032a8-201">In progress</span></span></li>
+<li><span data-ttu-id="eb907-199">Pole plaanitud</span><span class="sxs-lookup"><span data-stu-id="eb907-199">Not planned</span></span></li>
+<li><span data-ttu-id="eb907-200">Ettevalmistatud</span><span class="sxs-lookup"><span data-stu-id="eb907-200">Prepared</span></span></li>
+<li><span data-ttu-id="eb907-201">Käimas</span><span class="sxs-lookup"><span data-stu-id="eb907-201">In progress</span></span></li>
 </ul></td>
-<td><span data-ttu-id="032a8-202">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-202">No</span></span></td>
-<td><span data-ttu-id="032a8-203">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-203">No</span></span></td>
-<td><span data-ttu-id="032a8-204">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-204">No</span></span></td>
-<td><span data-ttu-id="032a8-205">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-205">No</span></span></td>
-<td><span data-ttu-id="032a8-206">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-206">No</span></span></td>
-<td><span data-ttu-id="032a8-207">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-207">No</span></span></td>
+<td><span data-ttu-id="eb907-202">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-202">No</span></span></td>
+<td><span data-ttu-id="eb907-203">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-203">No</span></span></td>
+<td><span data-ttu-id="eb907-204">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-204">No</span></span></td>
+<td><span data-ttu-id="eb907-205">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-205">No</span></span></td>
+<td><span data-ttu-id="eb907-206">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-206">No</span></span></td>
+<td><span data-ttu-id="eb907-207">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-207">No</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="032a8-208">Protsess</span><span class="sxs-lookup"><span data-stu-id="032a8-208">Process</span></span></td>
-<td><span data-ttu-id="032a8-209">Valmis</span><span class="sxs-lookup"><span data-stu-id="032a8-209">Completed</span></span></td>
-<td><span data-ttu-id="032a8-210">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-210">No</span></span></td>
-<td><span data-ttu-id="032a8-211">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-211">No</span></span></td>
-<td><span data-ttu-id="032a8-212">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-212">No</span></span></td>
-<td><span data-ttu-id="032a8-213">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-213">No</span></span></td>
-<td><span data-ttu-id="032a8-214">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-214">No</span></span></td>
-<td><span data-ttu-id="032a8-215">Ei</span><span class="sxs-lookup"><span data-stu-id="032a8-215">No</span></span></td>
+<td><span data-ttu-id="eb907-208">Protsess</span><span class="sxs-lookup"><span data-stu-id="eb907-208">Process</span></span></td>
+<td><span data-ttu-id="eb907-209">Valmis</span><span class="sxs-lookup"><span data-stu-id="eb907-209">Completed</span></span></td>
+<td><span data-ttu-id="eb907-210">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-210">No</span></span></td>
+<td><span data-ttu-id="eb907-211">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-211">No</span></span></td>
+<td><span data-ttu-id="eb907-212">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-212">No</span></span></td>
+<td><span data-ttu-id="eb907-213">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-213">No</span></span></td>
+<td><span data-ttu-id="eb907-214">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-214">No</span></span></td>
+<td><span data-ttu-id="eb907-215">Ei</span><span class="sxs-lookup"><span data-stu-id="eb907-215">No</span></span></td>
 </tr>
 </tbody>
 </table>
@@ -191,3 +191,6 @@ ms.locfileid: "5007062"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
