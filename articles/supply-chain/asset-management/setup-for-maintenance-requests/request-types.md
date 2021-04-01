@@ -17,30 +17,33 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56a83457097b64d195eec53000b29b2f16251772
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 7e4f622cda62cad13a8146cbc26bc2e5f1a45222
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019325"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261185"
 ---
-# <a name="maintenance-request-types"></a><span data-ttu-id="c0ea0-103">Hooldustaotluste tüübid</span><span class="sxs-lookup"><span data-stu-id="c0ea0-103">Maintenance request types</span></span>
+# <a name="maintenance-request-types"></a><span data-ttu-id="42397-103">Hooldustaotluste tüübid</span><span class="sxs-lookup"><span data-stu-id="42397-103">Maintenance request types</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="c0ea0-104">Hooldustaotluse tüüpe kasutatakse hooldustaotluste kategoriseerimiseks.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-104">Maintenance request types are used to categorize maintenance requests.</span></span> <span data-ttu-id="c0ea0-105">Näiteks võib teil olla hooldustaotluse tüüpe, mis on seotud ennetava hoolduse ja parandava hooldusega.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-105">For example, you might have maintenance request types that are related to preventive maintenance and corrective maintenance.</span></span> <span data-ttu-id="c0ea0-106">Või teil võib olla spetsiaalne hooldustaotluse tüüp, mida kasutatakse varade remondi haldamiseks (depooparandus).</span><span class="sxs-lookup"><span data-stu-id="c0ea0-106">Or you might have a special maintenance request type that is used to manage repair of assets (depot repair).</span></span>
+<span data-ttu-id="42397-104">Hooldustaotluse tüüpe kasutatakse hooldustaotluste kategoriseerimiseks.</span><span class="sxs-lookup"><span data-stu-id="42397-104">Maintenance request types are used to categorize maintenance requests.</span></span> <span data-ttu-id="42397-105">Näiteks võib teil olla hooldustaotluse tüüpe, mis on seotud ennetava hoolduse ja parandava hooldusega.</span><span class="sxs-lookup"><span data-stu-id="42397-105">For example, you might have maintenance request types that are related to preventive maintenance and corrective maintenance.</span></span> <span data-ttu-id="42397-106">Või teil võib olla spetsiaalne hooldustaotluse tüüp, mida kasutatakse varade remondi haldamiseks (depooparandus).</span><span class="sxs-lookup"><span data-stu-id="42397-106">Or you might have a special maintenance request type that is used to manage repair of assets (depot repair).</span></span>
 
-<span data-ttu-id="c0ea0-107">’Hooldustaotluse tüüp määratleb kuuluvuse hooldustaotluse elutsükli oleku rühma (hooldustaotluse elutsükli mudelisse).</span><span class="sxs-lookup"><span data-stu-id="c0ea0-107">A maintenance request type defines the affiliation with a maintenance request lifecycle state group (maintenance lifecycle model).</span></span> <span data-ttu-id="c0ea0-108">Hooldustaotluse elutsükli mudelid määratlevad elutsükli olekud, mida saab hooldustaotlusele seada.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-108">Maintenance request lifecycle models define the lifecycle states that can be set for a maintenance request.</span></span> <span data-ttu-id="c0ea0-109">(Hooldustaotluse elutsükli oleku näited: **Loodud**, **Aktiivne** ja **Lõpetatud**.)</span><span class="sxs-lookup"><span data-stu-id="c0ea0-109">(Examples of maintenance request lifecycle states include **Created**, **Active**, and **Ended**.)</span></span>
+<span data-ttu-id="42397-107">’Hooldustaotluse tüüp määratleb kuuluvuse hooldustaotluse elutsükli oleku rühma (hooldustaotluse elutsükli mudelisse).</span><span class="sxs-lookup"><span data-stu-id="42397-107">A maintenance request type defines the affiliation with a maintenance request lifecycle state group (maintenance lifecycle model).</span></span> <span data-ttu-id="42397-108">Hooldustaotluse elutsükli mudelid määratlevad elutsükli olekud, mida saab hooldustaotlusele seada.</span><span class="sxs-lookup"><span data-stu-id="42397-108">Maintenance request lifecycle models define the lifecycle states that can be set for a maintenance request.</span></span> <span data-ttu-id="42397-109">(Hooldustaotluse elutsükli oleku näited: **Loodud**, **Aktiivne** ja **Lõpetatud**.)</span><span class="sxs-lookup"><span data-stu-id="42397-109">(Examples of maintenance request lifecycle states include **Created**, **Active**, and **Ended**.)</span></span>
 
-1. <span data-ttu-id="c0ea0-110">Valige **Varahaldus**\>**Häälestus**\>**Hooldustaotlused**\>**Hooldustaotluse tüübid**.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-110">Select **Asset management** \> **Setup** \> **Maintenance requests** \> **Maintenance request types**.</span></span>
-2. <span data-ttu-id="c0ea0-111">Uue hooldustaotluse tüübi loomiseks valige **Uus**.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-111">Select **New** to create a maintenance request type.</span></span>
-3. <span data-ttu-id="c0ea0-112">Sisestage väljale **Hooldustaotluse tüüp** hooldustaotluse tüübi ID.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-112">In the **Maintenance request type** field, enter an ID for the maintenance request type.</span></span>
-4. <span data-ttu-id="c0ea0-113">Väljale **Nimi** sisestage nimi.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-113">In the **Name** field, enter a name.</span></span>
-5. <span data-ttu-id="c0ea0-114">Kiirkaardil **Üldine** väljal **Hooldustaotluse elutsükli mudel** väljal valige hooldustaotluse elutsükli mudel.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-114">On the **General** FastTab, in the **Maintenance request lifecycle model** field, select a maintenance request lifecycle model.</span></span>
-6. <span data-ttu-id="c0ea0-115">Väljal **Töökäsu tüüp** valige töökäsu tüüp.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-115">In the **Work order type** field, select a work order type.</span></span> <span data-ttu-id="c0ea0-116">Kui hooldustaotlus teisendatakse töökäsuks, saab töökäsu automaatselt töökäsu tüübi, mis on seotud hooldustaotluse tüübiga.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-116">When a maintenance request is converted to a work order, the work order automatically gets the work order type that is related to the maintenance request type.</span></span>
+1. <span data-ttu-id="42397-110">Valige **Varahaldus**\>**Häälestus**\>**Hooldustaotlused**\>**Hooldustaotluse tüübid**.</span><span class="sxs-lookup"><span data-stu-id="42397-110">Select **Asset management** \> **Setup** \> **Maintenance requests** \> **Maintenance request types**.</span></span>
+2. <span data-ttu-id="42397-111">Uue hooldustaotluse tüübi loomiseks valige **Uus**.</span><span class="sxs-lookup"><span data-stu-id="42397-111">Select **New** to create a maintenance request type.</span></span>
+3. <span data-ttu-id="42397-112">Sisestage väljale **Hooldustaotluse tüüp** hooldustaotluse tüübi ID.</span><span class="sxs-lookup"><span data-stu-id="42397-112">In the **Maintenance request type** field, enter an ID for the maintenance request type.</span></span>
+4. <span data-ttu-id="42397-113">Väljale **Nimi** sisestage nimi.</span><span class="sxs-lookup"><span data-stu-id="42397-113">In the **Name** field, enter a name.</span></span>
+5. <span data-ttu-id="42397-114">Kiirkaardil **Üldine** väljal **Hooldustaotluse elutsükli mudel** väljal valige hooldustaotluse elutsükli mudel.</span><span class="sxs-lookup"><span data-stu-id="42397-114">On the **General** FastTab, in the **Maintenance request lifecycle model** field, select a maintenance request lifecycle model.</span></span>
+6. <span data-ttu-id="42397-115">Väljal **Töökäsu tüüp** valige töökäsu tüüp.</span><span class="sxs-lookup"><span data-stu-id="42397-115">In the **Work order type** field, select a work order type.</span></span> <span data-ttu-id="42397-116">Kui hooldustaotlus teisendatakse töökäsuks, saab töökäsu automaatselt töökäsu tüübi, mis on seotud hooldustaotluse tüübiga.</span><span class="sxs-lookup"><span data-stu-id="42397-116">When a maintenance request is converted to a work order, the work order automatically gets the work order type that is related to the maintenance request type.</span></span>
 
-<span data-ttu-id="c0ea0-117">Järgnev illustratsioon näitab lehe **Hooldustaotluse tüübid** näidet.</span><span class="sxs-lookup"><span data-stu-id="c0ea0-117">The following illustration shows an example of the **Maintenance request types** page.</span></span>
+<span data-ttu-id="42397-117">Järgnev illustratsioon näitab lehe **Hooldustaotluse tüübid** näidet.</span><span class="sxs-lookup"><span data-stu-id="42397-117">The following illustration shows an example of the **Maintenance request types** page.</span></span>
 
 ![Hooldusnõuete tüüpide leht](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
