@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016927"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237372"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pakkumiskutsete ülevaade
 
@@ -80,23 +80,23 @@ Hankijatele saadetava meiliteatise jaoks saate malli valida lehel **Hankeparamee
 - %Pakkumise tagastamise põhjus%
 - %Paranduse põhjus%
 - %Paranduse ettevalmistaja%
-- %Ettevõte%
+- %Company%
 - %Pakkumiskutse juhtumi nimi%
 - %Aegumiskuupäev%
-- %Kuupäev%
+- %Date%
 
-Sõned %Pakkumise tagastuse põhjus% ja %Paranduse põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada paranduse tegemisel viisardis **Parandus**. Sõned %Paranduse ettevalmistaja% ja %Ettevõte% võetakse automaatselt pakkumiskutselt. Sõne %Kuupäev% asendatakse praeguse kuupäevaga.
+Sõned %Pakkumise tagastuse põhjus% ja %Paranduse põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada paranduse tegemisel viisardis **Parandus**. Sõnede %Paranduse ettevalmistaja% ja %Company% väärtused võetakse automaatselt pakkumiskutselt. Sõne %Date% asendatakse praeguse kuupäevaga.
 
 Kui soovite tühistada pakkumiskutse pärast selle saatmist, saate seda teha pakkumiskutse juhtumis. Tühistamiseks tuleb kasutada meilimalli, et saata tühistamisteatis hankija kontaktisikutele. Mall tuleb valida lehel **Hankeparameetrid**. Malli loomisel võib see sisaldada järgmisi asendussõnesid.
 
 - %Tühistamise põhjus%
 - %Pakkumiskutse juhtum%
 - %Pakkumiskutse tühistaja%
-- %Ettevõte%
+- %Company%
 - %Pakkumiskutse juhtumi nimi%
-- %Kuupäev%
+- %Date%
 
-Sõne %Tühistamise põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada viisardis **Tühistamine**. Sõne %Kuupäev% asendatakse praeguse kuupäevaga.
+Sõne %Tühistamise põhjus% asendatakse tekstiga, mille hankespetsialist saab sisestada viisardis **Tühistamine**. Sõne %Date% asendatakse praeguse kuupäevaga.
 
 Kui soovite kasutada pakkumises põhjusekoode, et näidata pakkumise tagasilükkamise või aktsepteerimise põhjust, peate seadistama põhjusekoodid lehel **Hankija põhjused**.
 

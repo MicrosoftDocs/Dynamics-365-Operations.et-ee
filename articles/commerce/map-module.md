@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e93358a9c76e8eb7bfb4ade4f772dece2aa5f7d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 74991a2979540dab344f39976005250637fab29c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252578"
 ---
 # <a name="map-module"></a>Kaardimoodul
 
@@ -30,8 +30,6 @@ ms.locfileid: "4982487"
 
 
 See teema hõlmab kaardimooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
-
-## <a name="overview"></a>Ülevaade
 
 Kaardimoodul kuvab kaupluste asukohad interaktiivsel kaardil, mis renderdatakse [Bing Maps V8 Web Controli](https://docs.microsoft.com/bingmaps/v8-web-control/) abil. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Kaardimoodulid pakuvad erinevaid vaateid, nagu tee-, ülalt- ja tänavavaade, mida kasutajad saavad valida, et vaadata kaardil asukohti. Need võimaldavad ka toiminguid, nagu suumimine ja kasutaja asukoha kasutamine.
 
