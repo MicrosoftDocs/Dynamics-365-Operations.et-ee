@@ -14,26 +14,29 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121dc743b40e3e39818aa2c9203328ba8bd5ecba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: efa0c2db81f0a10208c8acc09b356eb15936d5c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990838"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236838"
 ---
-# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="86bbb-103">Kuluarvestuse pearaamatu loomine</span><span class="sxs-lookup"><span data-stu-id="86bbb-103">Create a cost accounting ledger</span></span>
+# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="54fe1-103">Kuluarvestuse pearaamatu loomine</span><span class="sxs-lookup"><span data-stu-id="54fe1-103">Create a cost accounting ledger</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="86bbb-104">Kuluarvestuse pearaamat tähistab üldist aruandlusüksust.</span><span class="sxs-lookup"><span data-stu-id="86bbb-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="86bbb-105">See on määratletud kuluelemendi dimensiooni, statistilise dimensiooni, rahanduskalendri ja valuuta.</span><span class="sxs-lookup"><span data-stu-id="86bbb-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="86bbb-106">See on juriidiliste isikute kontseptsioonist sõltumatu.</span><span class="sxs-lookup"><span data-stu-id="86bbb-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="86bbb-107">Juriidilise isiku ja tema andmed saab seostada mitme kuluarvestuse pearaamatuga.</span><span class="sxs-lookup"><span data-stu-id="86bbb-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="86bbb-108">See salvestis kasutab USP2 demoandmete ettevõtet.</span><span class="sxs-lookup"><span data-stu-id="86bbb-108">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="54fe1-104">Kuluarvestuse pearaamat tähistab üldist aruandlusüksust.</span><span class="sxs-lookup"><span data-stu-id="54fe1-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="54fe1-105">See on määratletud kuluelemendi dimensiooni, statistilise dimensiooni, rahanduskalendri ja valuuta.</span><span class="sxs-lookup"><span data-stu-id="54fe1-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="54fe1-106">See on juriidiliste isikute kontseptsioonist sõltumatu.</span><span class="sxs-lookup"><span data-stu-id="54fe1-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="54fe1-107">Juriidilise isiku ja tema andmed saab seostada mitme kuluarvestuse pearaamatuga.</span><span class="sxs-lookup"><span data-stu-id="54fe1-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="54fe1-108">See salvestis kasutab USP2 demoandmete ettevõtet.</span><span class="sxs-lookup"><span data-stu-id="54fe1-108">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="86bbb-109">Avage Kuluarvestus > Pearaamatu häälestamine > Kuluarvestuse pearaamatud.</span><span class="sxs-lookup"><span data-stu-id="86bbb-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="86bbb-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="86bbb-110">Click New.</span></span>
-3. <span data-ttu-id="86bbb-111">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="86bbb-111">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="86bbb-112">Sisestage või valige väärtus väljal Kuluelemendi dimensioon.</span><span class="sxs-lookup"><span data-stu-id="86bbb-112">In the Cost element dimension field, enter or select a value.</span></span>
-5. <span data-ttu-id="86bbb-113">Sisestage või valige väärtus väljal Rahandusaasta kalender.</span><span class="sxs-lookup"><span data-stu-id="86bbb-113">In the Fiscal calendar field, enter or select a value.</span></span>
-6. <span data-ttu-id="86bbb-114">Sisestage või valige väärtus väljal Arvestusvaluuta.</span><span class="sxs-lookup"><span data-stu-id="86bbb-114">In the Accounting currency field, enter or select a value.</span></span>
-7. <span data-ttu-id="86bbb-115">Sisestage või valige väärtus väljal Vahetuskursi tüüp.</span><span class="sxs-lookup"><span data-stu-id="86bbb-115">In the Exchange rate type field, enter or select a value.</span></span>
-8. <span data-ttu-id="86bbb-116">Sisestage või valige väärtus väljal Statistiline dimensioon.</span><span class="sxs-lookup"><span data-stu-id="86bbb-116">In the Statistical dimension field, enter or select a value.</span></span>
-9. <span data-ttu-id="86bbb-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="86bbb-117">Click Save.</span></span>
+1. <span data-ttu-id="54fe1-109">Avage Kuluarvestus > Pearaamatu häälestamine > Kuluarvestuse pearaamatud.</span><span class="sxs-lookup"><span data-stu-id="54fe1-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="54fe1-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="54fe1-110">Click New.</span></span>
+3. <span data-ttu-id="54fe1-111">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="54fe1-111">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="54fe1-112">Sisestage või valige väärtus väljal Kuluelemendi dimensioon.</span><span class="sxs-lookup"><span data-stu-id="54fe1-112">In the Cost element dimension field, enter or select a value.</span></span>
+5. <span data-ttu-id="54fe1-113">Sisestage või valige väärtus väljal Rahandusaasta kalender.</span><span class="sxs-lookup"><span data-stu-id="54fe1-113">In the Fiscal calendar field, enter or select a value.</span></span>
+6. <span data-ttu-id="54fe1-114">Sisestage või valige väärtus väljal Arvestusvaluuta.</span><span class="sxs-lookup"><span data-stu-id="54fe1-114">In the Accounting currency field, enter or select a value.</span></span>
+7. <span data-ttu-id="54fe1-115">Sisestage või valige väärtus väljal Vahetuskursi tüüp.</span><span class="sxs-lookup"><span data-stu-id="54fe1-115">In the Exchange rate type field, enter or select a value.</span></span>
+8. <span data-ttu-id="54fe1-116">Sisestage või valige väärtus väljal Statistiline dimensioon.</span><span class="sxs-lookup"><span data-stu-id="54fe1-116">In the Statistical dimension field, enter or select a value.</span></span>
+9. <span data-ttu-id="54fe1-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="54fe1-117">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
