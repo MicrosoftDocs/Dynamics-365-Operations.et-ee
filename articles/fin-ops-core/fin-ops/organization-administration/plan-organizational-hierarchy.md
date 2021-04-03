@@ -3,10 +3,9 @@ title: Organisatsiooni hierarhia kavandamine
 description: Enne organisatsioonide ja organisatsiooni hierarhiate seadistamist peate kindlasti mõistma, kuidas oma ettevõtte mudelit kõige paremini kujundada.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154405"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569357"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organisatsiooni hierarhia kavandamine
 
@@ -166,7 +165,7 @@ Tootmisüksused kasutavad peamise juriidilise isiku riigi konteksti. Sama juriid
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Kui organisatsiooni mudel on juriidiline isik
 
-Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke aruandeid. Teavet selle kohta, millised aruanded iga riigi/piirkonna puhul saadaval on, leiate rakenduse [Microsoft Dynamics lokaliseerimisportaalist](https://docs.microsoft.com/dynamics/s-e/). (Nõutav on CustomerSource’i sisselogimine.)
+Riikide/piirkondade puhul, mida toetatakse, saab koostada enamikku seaduslikke aruandeid. 
 
 > [!NOTE]
 > Pearaamatu sisestamiskiht võimaldab teha korrigeerimiskirjeid emaettevõttele, mis kasutab tütarettevõttest erinevat raamatupidamisstandardit. Näiteks ettevõtte puhul, mis kasutab Ühendkuningriigis üldiselt aktsepteeritud raamatupidamispõhimõtteid (UK GAAP), saate teha korrigeerimiskirjeid sisestamiskihis. Need kirjed saab konsolideerida emaettevõttesse, mis kasutab Ameerika Ühendriikides üldiselt aktsepteeritud raamatupidamispõhimõtteid (GAAP). Korrigeerimiskirjed ei mõjuta UK GAAP aruandlust.

@@ -3,10 +3,9 @@ title: Varasematest versioonidest eemaldatud või aegunud funktsioonid
 description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks teenusest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
 author: sericks007
 manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154381"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559326"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasemate versioonide eemaldatud või iganenud funktsioonid
 
@@ -39,7 +38,7 @@ Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid plane
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://docs.microsoft.com/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 koos platvormivärskendusega 31
 
@@ -375,7 +374,7 @@ Neid kaht aruannet rakenduses Finance and Operations enam ei toetata. Selle asem
 | **Olek**                       | Aegunud: nende kahe aruande menüü-üksused on versioonis 7.3 eemaldatud. Aruannete kood jääb siiski tootesse. Plaan on kood tulevases väljaandes eemaldada. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI sisupaketid on saadaval AppSource’is
-Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on Microsoft Power BI tootevärskenduste tagajärjel aegunud. Nende sisupakettide juurutamiseks saidil PowerBI.com kasutatavad süsteemiadministreerimise vormid on aegunud samuti rakenduses Finance and Operations.
+Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Retail channel performance**, mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on Microsoft Power BI tootevärskenduste tagajärjel aegunud. Nende sisupakettide juurutamiseks saidil PowerBI.com kasutatavad süsteemiadministreerimise vormid on aegunud samuti rakenduses Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -919,7 +918,7 @@ See mobiilirakendus võimaldab kasutajatel ettevõtte võtmemõõdikuid üle vaa
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | See funktsioon on asendatud teise funktsiooniga.   |
-| **Asendatud teise funktsiooniga?**   | Microsoft Power BI sisupakett Finantsnäitajate jälgimine sisaldab rahalisi võtmemõõdikuid, mis olid varem saadaval Business Analyzeris. |
+| **Asendatud teise funktsiooniga?**   | Finantsnäitajate jälgimiseks sisaldab Microsoft Power BI sisupakett rahalisi võtmemõõdikuid, mis olid varem saadaval Business Analyzer`is. |
 | **Mõjutatud tootealad**         | Pearaamat      |
 | **Olek**                         | Aegunud: Business Analyzeri kasutamine on aegunud.    |
 

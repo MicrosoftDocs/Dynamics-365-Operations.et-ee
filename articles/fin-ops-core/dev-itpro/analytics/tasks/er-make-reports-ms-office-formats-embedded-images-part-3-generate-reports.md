@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 7ed0ab0042c98f063eb0ec2ab31c913d9385186c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093819"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569457"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Manuspiltidega aruannete loomine Office’i vormingus
 
@@ -100,7 +99,7 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
 5. Valige puus „Model for cheques\Cheques printing format“.
 6. Klõpsake valikut Kujundaja.
 7. Klõpsake suvandit Manused.
-8. Klõpsake  Kustuta.
+8. Klõpsake Kustuta.
 9. Klõpsake nuppu Jah.
 10. Klõpsake valikut Uus.
 11. Klõpsake suvandit Fail.

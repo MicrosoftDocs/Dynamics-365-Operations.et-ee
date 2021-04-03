@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141900"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579968"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Hanke integreerimine teenuste Supply Chain Management ja Field Service vahel
 
@@ -47,8 +46,8 @@ Supply Chain Managementi integreerimiseks Field Service’iga peate installima j
 
 ### <a name="prerequisites"></a>Eeltingimused
 
-+ **Topeltkirjutus** – lisateabe saamiseks vt [topeltkirjutuse kodulehte](dual-write-home-page.md#dual-write-setup).
-+ **Dynamics 365 Field Service** – lisateabe saamiseks vt [Kuidas rakendus Dynamics 365 Field Service alla laadida](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Topeltkirjutus** – lisateabe saamiseks vt [topeltkirjutuse kodulehte](dual-write-home-page.md#dual-write-setup).
+- **Dynamics 365 Field Service** – lisateabe saamiseks vt [Kuidas rakendus Dynamics 365 Field Service alla laadida](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Kui need on teenuses Microsoft Dataverse lubatud, tutvustavad topeltkirjutus ja Field Service mitut lahenduse kihti, mis laiendavad keskkonda uute metaandmetega, vormide, vaadete ja loogikaga. Neid lahendusi saab lubada mis tahes järjestuses, kuigi te installite tavaliselt siin määratud järjestuses.
 
@@ -57,8 +56,8 @@ Kui need on teenuses Microsoft Dataverse lubatud, tutvustavad topeltkirjutus ja 
 3. **Supply Chain Management, laiendatud** – Supply Chain Managementi laiendatud versioon installitakse automaatselt, kui topeltkirjutus on keskkonnas lubatud. 
 4. **OneFSSCM-i lahendus** – OneFSSCM installitakse automaatselt olenevalt sellest, milline lahendus (Field Service või Supply Chain Management) on viimati installitud.
 
-    + Kui Field Service on juba keskkonda installitud ja te lubate topeltkirjutuse, mis installib Supply Chain Managementi laiendatud versiooni, installitakse ka OneFSSCM.
-    + Kui Supply Chain Managementi laiendatud versioon on juba keskkonda installitud ja installite Field Service’i, installitakse ka OneFSSCM.
+    - Kui Field Service on juba keskkonda installitud ja te lubate topeltkirjutuse, mis installib Supply Chain Managementi laiendatud versiooni, installitakse ka OneFSSCM.
+    - Kui Supply Chain Managementi laiendatud versioon on juba keskkonda installitud ja installite Field Service’i, installitakse ka OneFSSCM.
 
 ## <a name="initial-synchronization"></a>Esialgne sünkroonimine
 
@@ -124,22 +123,22 @@ Lisaks sisaldab Dataverse loogikat, mis vastendab hankijaid seotud kontodega. Se
 
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 
-+ Ostutellimusi saavad luua ja uuendada Dataverse’i kasutajad. Samas protsessi ja andmeid juhitakse rakendusega Supply Chain Management. Supply Chain Managementis ostutellimuste veergude värskenduse piirangud rakenduvad siis, kui värskendused tulevad teenusest Field Service. Näiteks ei saa te ostutellimust uuendada, kui see on lõpetatud. 
-+ Kui ostutellimust juhitakse Supply Chain Managementi muudatuse haldusega, saab Field Service’i kasutaja ostutellimust värskendada ainult siis, kui Supply Chain Managementi kinnituse olekuks on *Mustand*.
-+ Mitut veergu haldab ainult Supply Chain Management ja neid ei saa Field Service’is uuendada. Et teada saada, milliseid veerge ei saa värskendada, vaadake toote vastendamise tabelit. Lihtsustamise huvides on enamik neist veergudest Dataverse’i lehtedel määratud kirjutuskaitstuks. 
+- Ostutellimusi saavad luua ja uuendada Dataverse’i kasutajad. Samas protsessi ja andmeid juhitakse rakendusega Supply Chain Management. Supply Chain Managementis ostutellimuste veergude värskenduse piirangud rakenduvad siis, kui värskendused tulevad teenusest Field Service. Näiteks ei saa te ostutellimust uuendada, kui see on lõpetatud. 
+- Kui ostutellimust juhitakse Supply Chain Managementi muudatuse haldusega, saab Field Service’i kasutaja ostutellimust värskendada ainult siis, kui Supply Chain Managementi kinnituse olekuks on *Mustand*.
+- Mitut veergu haldab ainult Supply Chain Management ja neid ei saa Field Service’is uuendada. Et teada saada, milliseid veerge ei saa värskendada, vaadake toote vastendamise tabelit. Lihtsustamise huvides on enamik neist veergudest Dataverse’i lehtedel määratud kirjutuskaitstuks. 
 
     Näiteks haldab Supply Chain Management hinnateabe veerge. Supply Chain Managemenil on kaubanduslepped, mida Field Service saab kasutada. veerud, nagu **Ühiku hind**, **Allahindlus** ja **Netosumma**, tulevad ainult Supply Chain Managementist. Kindlustamaks, et hind oleks teenusega Field Service sünkroonitud, peaksite kasutama Dataverse’is **ostutellimuse** ja **ostutellimuse toote** lehtedel **sünkroonimise** funktsiooni, kui ostutellimuse andmed on sisestatud. Lisateavet vt [Nõudmisel Dynamics 365 Supply Chain Managementi hankeandmetega sünkroonimine](#sync-procurement).
 
-+ Veerg **Kogusummad** on saadaval ainult teenuses Field Service, kuna Supply Chain Managementis pole ostutellimusel ajavälist kogusummat. Supply Chain Managementi kogusummad arvutatakse mitme parameetri põhjal, mis pole Field Service’i puhul saadaval.
-+ Ostutellimuse ridu, kus on määratud ainult hankekategooria või kus määratud toode on teenuse tootetüübi *Teenus* või tootetüübi Field Service kaup, saab käivitada ainult Supply Chain Managementis. Seejärel sünkroonitakse read Dataverse’i ja need on Field Service’is nähtavad.
-+ Kui installitud on ainult Field Service, mitte Supply Chain Management, on ostutellimusel veerg **Ladu** kohustuslik. Kui aga Supply Chain Management on installitud, on see nõue täidetud, kuna Supply Chain Management võimaldab ostutellimuste ridu, kus teatud olukordades ei ole ladu määratud.
-+ Toote sissetulekuid (Dataverse’i ostutellimuste sissetulekuid) haldab Supply Chain Management ja neid ei saa luua, kui Supply Chain Management on Dataverse’i installitud. Supply Chain Managementist saadud toote sissetulekud sünkroonitakse Supply Chain Managementist Dataverse’i.
-+ Alatarne on Supply Chain Managementis lubatud. OneFSSCM-i lahendus lisab loogika nii, et kui toote sissetuleku rida (või ostutellimuse sissetuleku toode Dataverse’is) on loodud või värskendatud, luuakse varude töölehe rida järelejääva koguse korrigeerimiseks, mis on tellimisel alatarne Dataverse’i stsenaariumite korral.
+- Veerg **Kogusummad** on saadaval ainult teenuses Field Service, kuna Supply Chain Managementis pole ostutellimusel ajavälist kogusummat. Supply Chain Managementi kogusummad arvutatakse mitme parameetri põhjal, mis pole Field Service’i puhul saadaval.
+- Ostutellimuse ridu, kus on määratud ainult hankekategooria või kus määratud toode on teenuse tootetüübi *Teenus* või tootetüübi Field Service kaup, saab käivitada ainult Supply Chain Managementis. Seejärel sünkroonitakse read Dataverse’i ja need on Field Service’is nähtavad.
+- Kui installitud on ainult Field Service, mitte Supply Chain Management, on ostutellimusel veerg **Ladu** kohustuslik. Kui aga Supply Chain Management on installitud, on see nõue täidetud, kuna Supply Chain Management võimaldab ostutellimuste ridu, kus teatud olukordades ei ole ladu määratud.
+- Toote sissetulekuid (Dataverse’i ostutellimuste sissetulekuid) haldab Supply Chain Management ja neid ei saa luua, kui Supply Chain Management on Dataverse’i installitud. Supply Chain Managementist saadud toote sissetulekud sünkroonitakse Supply Chain Managementist Dataverse’i.
+- Alatarne on Supply Chain Managementis lubatud. OneFSSCM-i lahendus lisab loogika nii, et kui toote sissetuleku rida (või ostutellimuse sissetuleku toode Dataverse’is) on loodud või värskendatud, luuakse varude töölehe rida järelejääva koguse korrigeerimiseks, mis on tellimisel alatarne Dataverse’i stsenaariumite korral.
 
 ## <a name="unsupported-scenarios"></a>Ilma toeta stsenaariumid
 
-+ Field Service takistab ridade lisamist tühistatud ostutellimusele Supply Chain Managementis. Lahendusena saate muuta ostutellimuse süsteemi olekut Field Service’is ja seejärel lisada uue rea kas Field Service’ile või Supply Chain Managementile.
-+ Kuigi hankeread mõjutavad varude tasemeid mõlemas süsteemis, ei taga integratsioon varude joondust Supply Chain Managementi ja Field Service’i üleselt. Nii Field Service kui Supply Chain Management omavad teisi protsesse, mis värskendavad varude tasemeid. Need protsessid on väljaspool hankeulatust.
+- Field Service takistab ridade lisamist tühistatud ostutellimusele Supply Chain Managementis. Lahendusena saate muuta ostutellimuse süsteemi olekut Field Service’is ja seejärel lisada uue rea kas Field Service’ile või Supply Chain Managementile.
+- Kuigi hankeread mõjutavad varude tasemeid mõlemas süsteemis, ei taga integratsioon varude joondust Supply Chain Managementi ja Field Service’i üleselt. Nii Field Service kui Supply Chain Management omavad teisi protsesse, mis värskendavad varude tasemeid. Need protsessid on väljaspool hankeulatust.
 
 ## <a name="status-management"></a>Olekuhaldus
 
@@ -161,13 +160,13 @@ Rea kinnitamise olekud on aktiivsed ainult siis, kui on olemas rea töövoog.
 
 Olekuveergudele rakendatakse järgmisi reegleid.
 
-+ Supply Chain Managementi olekut tarneahela haldamises ei saa teenusest Field Service värskendada. Samas mõnel juhul uuendatakse Field Service’i olekut siis, kui ostutellimuse olek Supply Chain Managementis muutub.
-+ Kui Supply Chain Managementi ostutellimus on muudatusehalduses ja muudatusi töödeldakse, on kinnituse olekuks *Mustand* või *Ülevaatusel*. Sellisel juhul määratakse Field Service’i kinnitamise olekuks *Null*.
-+ Kui ostutellimuse kinnitamise olek Supply Chain Managementis on määratud olekusse *Kinnitatud*, *Välisel ülevaatamisel*, *Kinnitatud* või *Lõpetatud*, seatakse Field Service’i ostutellimuse kinnituse olekuks *Kinnitatud*.
-+ Kui ostutellimuse kinnitamise olek Supply Chain Managementis on määratud olekusse *Tagasi lükatud*, seatakse Field Service’i ostutellimuse kinnituse olekuks *Tagasi lükatud*.
-+ Kui Supply Chain Managementis muudetakse dokumendi päise olekuks *Avatud tellimus (tagastustellimus)* ja Field Service’i ostutellimuse olekuks on *Mustand* või *Tühistatud*, muudetakse Field Service’i ostutellimuse olekuks *Esitatud*.
-+ Kui Supply Chain Managementis muudetakse dokumendi päise olekuks *Tühistatud* ja ühtegi välja Field Service’i ostutellimuste vastuvõtmise toodet ei seostata ostutellimusega (ostutellimuse toodete kaudu), on Field Service’i süsteemi olekuks seatud *Tühistatud*.
-+ Kui ostutellimuse rea olek Supply Chain Managementis on *Tühistatud*, seatakse ostutellimuse toote oleku Field Service’is olekule *Tühistatud*. Kui lisaks ostutellimuse rea olek Supply Chain Managementis muudetakse olekust *Tühistatud* olekule *Tagasitellimus*, on ostutellimuse toote kauba olekuks Field Service’is *Ootel*.
+- Supply Chain Managementi olekut tarneahela haldamises ei saa teenusest Field Service värskendada. Samas mõnel juhul uuendatakse Field Service’i olekut siis, kui ostutellimuse olek Supply Chain Managementis muutub.
+- Kui Supply Chain Managementi ostutellimus on muudatusehalduses ja muudatusi töödeldakse, on kinnituse olekuks *Mustand* või *Ülevaatusel*. Sellisel juhul määratakse Field Service’i kinnitamise olekuks *Null*.
+- Kui ostutellimuse kinnitamise olek Supply Chain Managementis on määratud olekusse *Kinnitatud*, *Välisel ülevaatamisel*, *Kinnitatud* või *Lõpetatud*, seatakse Field Service’i ostutellimuse kinnituse olekuks *Kinnitatud*.
+- Kui ostutellimuse kinnitamise olek Supply Chain Managementis on määratud olekusse *Tagasi lükatud*, seatakse Field Service’i ostutellimuse kinnituse olekuks *Tagasi lükatud*.
+- Kui Supply Chain Managementis muudetakse dokumendi päise olekuks *Avatud tellimus (tagastustellimus)* ja Field Service’i ostutellimuse olekuks on *Mustand* või *Tühistatud*, muudetakse Field Service’i ostutellimuse olekuks *Esitatud*.
+- Kui Supply Chain Managementis muudetakse dokumendi päise olekuks *Tühistatud* ja ühtegi välja Field Service’i ostutellimuste vastuvõtmise toodet ei seostata ostutellimusega (ostutellimuse toodete kaudu), on Field Service’i süsteemi olekuks seatud *Tühistatud*.
+- Kui ostutellimuse rea olek Supply Chain Managementis on *Tühistatud*, seatakse ostutellimuse toote oleku Field Service’is olekule *Tühistatud*. Kui lisaks ostutellimuse rea olek Supply Chain Managementis muudetakse olekust *Tühistatud* olekule *Tagasitellimus*, on ostutellimuse toote kauba olekuks Field Service’is *Ootel*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Supply Chain Managementi hankeandmetega nõudmisel sünkroonimine
 

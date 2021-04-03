@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114666"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574218"
 ---
 # <a name="inventory-visibility-add-in"></a>Varude nähtavuse lisandmoodul
 
@@ -48,11 +48,64 @@ Lisateabe saamiseks vt [Lifecycle Servicesi ressursid](https://docs.microsoft.co
 Enne varude nähtavuse lisandmooduli installimist peate tegema järgmist.
 
 - Hankige LCS-i juurutamise projekt, millel on vähemalt üks juurutatud keskkond.
-- Looge oma LCS-i pakkumise beeta-võtmed.
-- Lubage oma pakkumise beeta-võtmeid oma kasutajale LCS-is.
-- Kontakteeruge Microsofti varude nähtavuse tootemeeskonnaga ja sisestage keskkonna ID, kus soovite varude nähtavuse lisandmoodulit kasutada.
+- Kontrollige, et eeltingimused lisandmoodulite seadistamiseks, mis on antud [Lisandmoodulite ülevaates](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) on täidetud. Varude nähtavus ei nõua topeltkirjutuse linkimist.
+- Võtke ühendust varude nähtavuse töörühmaga [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) nende kolme nõutava faili saamiseks:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (Kui Supply Chain Management versioon, mida käitate, on varasem kui versioon 10.0.18)
+
+> [!NOTE]
+> Praegu toetatud riikide ja regioonide hulka kuuluvad Kanada, USA ja Euroopa Liit (EL).
 
 Kui teil on küsimusi nende eeltingimuste kohta, võtke ühendust varude nähtavuse tootemeeskonnaga.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Seadistamine Dataverse
+
+Läbige need etapid, et seadistada Dataverse.
+
+1. Lisage teenuse põhimõtted oma rentnikule:
+
+    1. Installige Azure AD PowerShell Module v2, nagu on kirjeldatud [Instalige Azure Active Directory PowerShell Graph'ile](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Käivitage järgmine PowerShell käsk.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Looge rakenduse kasutaja varude nähtavuse jaoks platvormil Dataverse:
+
+    1. Avage oma Dataverse keskkonna URL.
+    1. Minge **Lisaseaded \> Süsteem \> Turvalisus \> Kasutajad** ja looge rakenduse kasutaja. Kasutage Vaade menüüd, et muuta lehe vaade **Rakenduse kasutajad**.
+    1. Valige suvand **Uus**. Määrake välja Rakenduse ID väärtuseks *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Objekti ID laaditakse muudatuste salvestamisel automaatselt.) Nime saate kohandada. Näiteks saate muuta selle *Varude nähtavus*. Kui olete lõpetanud, valige **Salvesta**.
+    1. Valige **Määra roll** ja seejärel valige **Süsteemiadministraator**. Kui rolli nimi on **Common Data Service Kasutaja**, valige ka see.
+
+    Lisateavet leiate teemast [Rakenduse kasutaja loomine](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Importige `Inventory Visibility Dataverse Solution.zip` fail, mis sisaldab Dataverse konfiguratsiooniga seotud üksusi ja tööriista Power Apps:
+
+    1. Minge **Lahendused** lehele.
+    1. Valige **Impordi**.
+
+1. Importige konfiguratsioonitäienduse käivitusvoog:
+
+    1. Minge Microsoft Flow lehele.
+    1. Veenduge, et ühendus nimega *Dataverse (pärand)* on olemas. (Kui seda pole olemas, looge see.)
+    1. Importige `Inventory Visibility Configuration Trigger.zip` fail. Pärast importimist kuvatakse päästik jaotises **Minu vood**.
+    1. Keskkonna teabe põhjal käivitage järgmised neli muutujat:
+
+        - Azure'i rentniku ID
+        - Azure Rakenduse (klient) ID
+        - Azure Rakenduse (klient) Secret
+        - Varude nähtavus lõpp-punkt
+
+            Lisateavet selle muutuja kohta vaadake [Seadistage Varude nähtavuse integreerimine](#setup-inventory-visibility-integration) osas selles teemas edaspidi.
+
+        ![Konfiguratsiooni päästik](media/configuration-trigger.png "Konfiguratsiooni päästik")
+
+    1. Valige **lülita sisse**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Lisandmooduli installimine
 
@@ -61,14 +114,16 @@ Varude nähtavuse lisandmooduli installimiseks tehke järgmist.
 1. Logige sisse [teenuse Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) portaali.
 1. Avalehel valige projekt, kus teie keskkond juurutati.
 1. Projekti lehel valige keskkond, kuhu soovite lisandmooduli installida.
-1. Liikuge keskkonna lehel kerides allapoole, kuni kuvatakse jaotis **Keskkonna lisandmoodulid**. Kui jaotist ei ole näha, veenduge, et eeltingimuseks olevad beeta-võtmed oleksid täielikult töödeldud.
+1. Keskkonna leheküljel kerige alla, kuni näete **Keskkonna lisandmoodulid** jaotist **Power Platform integratsiooni** jaotises, kust leiate Dataverse keskkonna nime.
 1. Valige jaotises **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
+
     ![LCS-i keskkonna leht](media/inventory-visibility-environment.png "LCS-i keskkonna leht")
+
 1. Valige link **Installi uus lisandmoodul**. Avaneb saadaolevate lisandmoodulite loend.
-1. Valige loendist **Varude teenus**. (Pidage meeles, et selle nimi loendis võib nüüd olla **Dynamics 365 Supply Chain Managementi varude nähtavuse lisandmoodul**.)
+1. Valige suvand **Varude nähtavus** menüüde loendist.
 1. Sisestage oma keskkonna järgmiste väljade väärtused.
 
-    - **AAD Rakenduse ID**
+    - **AAD rakenduse (klient) ID**
     - **AAD Rentniku ID**
 
     ![Lisandmooduli häälestamise leht](media/inventory-visibility-setup.png "Lisandmooduli häälestamise leht")
@@ -76,7 +131,70 @@ Varude nähtavuse lisandmooduli installimiseks tehke järgmist.
 1. Nõustuge tingimuste, märkides ruudu **Tingimused**.
 1. Valige **Installi**. Kuvatakse lisandmooduli olek **Installimine**. Kui see on tehtud, värskendage lehte, et näha muutunud olekut **Installitud**.
 
-### <a name="get-a-security-service-token"></a>Turbeteenusetõendi hankimine
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Lisandmooduli desinstallimine
+
+Lisandmooduli desinstallimiseks valige nupp **Desinstalli**. Kui te värskendate LCS-i, varude nähtavuse lisandmoodul eemaldatakse. Desinstallimise käigus eemaldatakse lisandmoodul ja samuti käivitatakse töö, et kustutada kõik teenuses talletatud äriandmed.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Laoseisu andmete saamine teenuses Supply Chain Management
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Juuruta varude nähtavuse integreerimispakett
+
+Kui käitate teenuse Supply Chain Management versiooni 10.0.17 või varasemat, võtke ühendust varude nähtavuse tugimeeskonnaga [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) paketifaili saamiseks. Seejärel juurutage pakett LCS-i.
+
+> [!NOTE]
+> Kui juurutamisel ilmneb versiooni lahknevuse tõrge, peate käsitsi importima X++ projekti oma arenduskeskkonda. Seejärel looge juurutatav pakett oma arenduskeskkonnas ja juurutage see oma tootmiskeskkonnas.
+> 
+> Kood sisaldub teenuse Supply Chain Management versioonis 10.0.18. Kui käitate seda või hilisemat versiooni, pole juurutamine vajalik.
+
+Veenduge, et järgmised funktsioonid on sisse lülitatud teenuse Supply Chain Management keskkonnas. (Vaikimisi on need sisse lülitatud.)
+
+| Funktsiooni kirjeldus | Koodi versioon | Ümberlülituse klass |
+|---|---|---|
+| Varude dimensioonide kasutamise lubamine või keelamine InventSum tabelis | 10.0.11 | InventUseDimOfInventSumToggle |
+| Varude dimensioonide kasutamise lubamine või keelamine InventSumDelta tabelis | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Inventory Visibility integratsiooni seadistamine
+
+1. Teenuses Supply Chain Management avage **[funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** tööruum ja lülitage sisse **varude nähtavuse integreerimise** funktsioon.
+1. Minge **Varude haldamine \> Seadistamine \> Varude nähtavuse intergratsiooni parameetrid** ja sisestage selle keskkonna URL, kus käitate Varude nähtavust.
+
+    Leidke LCS-i keskkonna Azure'i regioon ja sisestage seejärel URL. URL-il on järgmine vorm:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Näiteks kui te olete Euroopas, on teie keskkonnas üks järgmistest URL-dest:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    Hetkel on saadaval järgmised regioonid.
+
+    | Azure’i regioon | Regiooni lühinimi |
+    |---|---|
+    | Ida-Austraalia | Eau |
+    | Kagu-Austraalia | seau |
+    | Kesk-Kanada | cca |
+    | Ida-Kanada | eca |
+    | Põhja-Euroopa | neu |
+    | Lääne-Euroopa | weu |
+    | Ida-USA | eus |
+    | Lääne-USA | wus |
+
+1. Minge **Varude halduse \> Perioodiline \> Varude nähtavuse integratsioon** ja lubage töö. Kõik varude muutmise sündmused teenusest Supply Chain Management sisestatakse nüüd Varude nähtavusse.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>Varude nähtavuse lisandmooduli avalik API
+
+Varude nähtavuse lisandmooduli avalik REST API esitab integreerimiseks mitu kindlat lõpp-punkti. See toetab kolme peamist suhtlustüüpi.
+
+- Lisandmoodulisse välise süsteemi kaudu vaba kaubavaru muudatuste sisestamine
+- Ajakohase vaba kaubavaru päring välisest süsteemist
+- Automaatne sünkroonimine teenuse Supply Chain Management kaubavarudega
+
+Automaatne sünkroonimine ei ole avaliku API osa. Selle asemel käsitsetakse seda taustal keskkondades, kus varude nähtavuse lisandmoodul on lubatud.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentimine
+
+Platvormi turbeluba kasutatakse laovarude nähtavuse lisandmoodulile helistamiseks. Seepärast peate *Azure Active Directory (Azure AD) loa* genereerima kasutades Azure AD rakendust. Seejärel peate kasutama Azure AD luba, et saada *pääsutõend* turvateenusest.
 
 Hankige turbeteenusetõend, tehes järgmist.
 
@@ -140,27 +258,7 @@ Hankige turbeteenusetõend, tehes järgmist.
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Lisandmooduli desinstallimine
-
-Lisandmooduli desinstallimiseks valige nupp **Desinstalli**. Värskendage LCS-i ja varude nähtavuse lisandmoodul eemaldatakse. Desinstallimise käigus eemaldatakse lisandmoodul ja käivitatakse ka töö, et kustutada kõik teenuses talletatud äriandmed.
-
-## <a name="inventory-visibility-add-in-public-api"></a>Varude nähtavuse lisandmooduli avalik API
-
-Varude nähtavuse lisandmooduli avalik REST API esitab integreerimiseks mitu kindlat lõpp-punkti. See toetab kolme peamist suhtlustüüpi.
-
-- Lisandmoodulisse vaba kaubavaru muudatuste sisestamine välise süsteemi kaudu.
-- Praegu vaba kaubavaru päring välisest süsteemist.
-- Saadaval on automaatne sünkroonimine Supply Chain Managementiga.
-
-Automaatne sünkroonimine ei ole osa avalikust API-st, aga see toimub taustal keskkonnas, kus on lubatud laovarude nähtavuse lisandmoodul.
-
-### <a name="authentication"></a>Autentimine
-
-Platvormi turbetõendit kasutatakse varude nähtavuse lisandmooduli kutsumiseks, seega tuleb teil Azure Active Directory rakenduse abil luua luba Azure Active Directory tõend.
-
-Lisateavet selle kohta, kuidas saada turbetõend, leiate teemast [Varude nähtavuse lisandmooduli installimine](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Varude nähtavuse API konfigureerimine
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Varude nähtavuse API konfigureerimine
 
 Enne teenuse kasutamist peate tegema järgmistes jaotistes kirjeldatud konfiguratsioonid. Konfiguratsioon võib teie keskkonna üksikasjade põhjal erineda. See hõlmab peamiselt nelja osa.
 
@@ -232,7 +330,7 @@ Teil oleks kaks indeksit, mis on määratletud järgmiselt.
 
 Tühi sulg summeeritakse sektsioonis toote ID põhjal.
 
-Indekseerimine määratleb, kuidas saate oma tulemusi grupeerida päringusätte `groupBy` alusel. Sel juhul, kui te ei määratle ühtegi sätte `groupBy` väärtust, saate kogusummad `productid` kaupa. Vastasel juhul, kui määrate `groupBy` väärtuseks `groupBy=ColorId&groupBy=SizeId`, saadetaks teile mitu rida, mis põhinevad süsteemi erinevate värvide ja suuruse kombinatsioonidel.
+Indekseerimine määratleb, kuidas saate oma tulemusi grupeerida päringusätte `groupBy` alusel. Sel juhul, kui te ei määratle ühtegi sätte `groupBy` väärtust, saate kogusummad `productid` kaupa. Vastasel juhul, kui määrate `groupBy` väärtuseks `groupBy=ColorId&groupBy=SizeId`, saadetakse teile mitu rida, mis põhinevad süsteemi erinevate värvide ja suuruse kombinatsioonidel.
 
 Saate esitada päringu kriteeriumid päringu sisus.
 
@@ -257,7 +355,7 @@ Siin on näide päringust toote värvi ja suuruse kombinatsiooniga.
 
 #### <a name="custom-measurement"></a>Kohandatud mõõtmine
 
-Vaikimisi mõõtmiskogused on seotud Supply Chain Managementiga, kuid soovi korral võib olla kogus, mis koosneb vaikimisi mõõtmiste kombinatsioonist. Selleks võib olla kohandatud koguste konfiguratsioon, mis lisatakse vabade päringute väljundile.
+Vaikimisi antud mõõdukogused on seotud teenusega Supply Chain Management. Soovi korral võite siiski saada koguse, mis on valmistatud vaikemõõtude kombinatsioonis. Selleks võib olla kohandatud koguste konfiguratsioon, mis lisatakse vabade päringute väljundile.
 
 Funktsioon võimaldab teil kohandatud mõõtmiseks määratleda lisatavate mõõtude kogumi ja/või meetmete kogumi, mis on kohandatud mõõtmisest lahutatud.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131789"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500570"
 ---
 # <a name="creating-work-orders"></a>Töökäskude loomine
 
@@ -62,8 +62,7 @@ Hooldusgraafikul põhinevate töökäskude loomiseks tehke järgmist.
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Hooldusplaani käitamise ajal automaatselt loodavate töökäsu ridade rühmitamine
 
-> [!IMPORTANT]
-> Selles jaotises kirjeldatud funktsioon on saadaval eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Ühe versiooni teenuse värskenduste KKK](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 See funktsioon võimaldab teil määrata reeglid töökäsu ridade rühmitamiseks ühe töökäsu alla, kui süsteem on häälestatud koostama töökäske hooldusplaani põhjal automaatselt. Varem võisid automaatselt loodud töökäsud sisaldada ainult ühte rida. Samas nüüd saate töökäske rühmitada näiteks vara, vara tüübi või töö asukoha alusel. (Käsitsi loodud töökäske sai sel viisil juba rühmitada, nagu selle teema eelmises jaotises on kirjeldatud.)
 

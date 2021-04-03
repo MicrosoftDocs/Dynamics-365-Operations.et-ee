@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985950"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582715"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisuedastusvõrgu (CDN) toe lisamine
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisu edastamise võrgu (CDN) toe lisamine
 
 [!include [banner](includes/banner.md)]
 
 See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce keskkonnale sisuedastusvõrk (CDN).
-
-## <a name="overview"></a>Ülevaade
 
 Kui seadistate e-kaubanduse keskkonda rakenduses Dynamics 365 Commerce, siis saate konfigureerida selle töötama koos oma CDN-i teenusega. 
 
@@ -96,8 +93,8 @@ Azure’i sisenemispunkti teenuse marsruudivaliku reegli seadistamiseks toimige 
 1. Väljale **Nimi** sisestage suvand **vaikimisi**.
 1. Väljal **Kinnitatud protokoll** valige **HTTP ja HTTPS**.
 1. Väljal **Eesserveri hostid** sisestage **dynamics-ecom-rentnik-nimi.azurefd.net**.
-1. Jaotises **Vastavusse viidavad mustrid** sisestage ülemisele väljale **/\** _.
-1. Jaotises _**Protsessi üksikasjad** määrake suvandi **Protsessi tüüp** väärtuseks **Edasi**.
+1. Jaotises **Vastendamise mustrid** sisestage ülemisele väljale **/\***.
+1. Jaotises **Marsruudi üksikasjad** määrake suvandi **Marsruudi tüüp** väärtuseks **Edasi**.
 1. Väljal **Tagaserveri kaust** valige **ecom-tagaserver**.
 1. Valige väljagrupis **Edasisaatmise protokoll** suvand **Taotlusele vastendamine**. 
 1. Määrake suvand **URL-i ümberkirjutamine** väärtusele **Keelatud**.
@@ -109,8 +106,8 @@ Azure’i sisenemispunkti teenuse vahemällu salvestamise reegli seadistamiseks 
 1. Väljale **Nimi** sisestage suvand **staatika**.
 1. Väljal **Kinnitatud protokoll** valige **HTTP ja HTTPS**.
 1. Väljal **Eesserveri hostid** sisestage **dynamics-ecom-rentnik-nimi.azurefd.net**.
-1. Jaotises **Vastavusse viidavad mustrid** sisestage ülemisele väljale **/\_msdyn365/\_scnr/\** _.
-1. Jaotises _**Protsessi üksikasjad** määrake suvandi **Protsessi tüüp** väärtuseks **Edasi**.
+1. Jaotises **Vastendamise mustrid** sisestage ülemisele väljale **/\_msdyn365/\_scnr/\***.
+1. Jaotises **Marsruudi üksikasjad** määrake suvandi **Marsruudi tüüp** väärtuseks **Edasi**.
 1. Väljal **Tagaserveri kaust** valige **ecom-tagaserver**.
 1. Valige väljagrupis **Edasisaatmise protokoll** suvand **Taotlusele vastendamine**.
 1. Määrake suvand **URL-i ümberkirjutamine** väärtusele **Keelatud**.
@@ -143,25 +140,7 @@ Teie CDN peaks nüüd olema õigesti konfigureeritud, et seda saaks teie Commerc
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Domeeninime konfigureerimine](configure-your-domain-name.md)
-
-[Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
-
-[E-kaubanduse saidi loomine](create-ecommerce-site.md)
-
-[Dynamics 365 Commerce'i saidi seostamine võrgukanaliga](associate-site-online-store.md)
-
-[Robots.txt-failide haldamine](manage-robots-txt-files.md)
-
-[Üleslaadimise URL suunab ümber hulgi](upload-bulk-redirects.md)
-
-[B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
-
-[Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
-
-[Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas](configure-multi-B2C-tenants.md)
-
-[Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
+[Sisu tarne võrgu rakendamise suvandid](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
