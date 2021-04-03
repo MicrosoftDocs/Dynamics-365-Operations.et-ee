@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001845"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470765"
 ---
 # <a name="forecast-reduction-keys"></a>Eelarve planeerimise koefitsiendid
 
@@ -198,7 +198,7 @@ Seega luuakse järgmised plaanitud tellimused.
 Meetodites **Kanded – planeerimise koefitsient** ja **Protsent – planeerimise koefitsient** kasutatakse eelarvevajaduste vähendamiseks eelarve planeerimise koefitsienti. Järgige neid samme, et luua ja seadistada planeerimise koefitsienti.
 
 1. Valige **Koondplaneerimine \> Seadistus \> Laovarud \> Planeerimise koefitsiendid**.
-2. Planeerimise koefitsiendi loomiseks valige käsk **Uus** või vajutage klahve **Ctrl + N**.
+2. Valige uue planeerimise koefitsiendi loomiseks **Uus**.
 3. Sisestage väljale **Planeerimise koefitsient** eelarve planeerimise koefitsiendi jaoks kordumatu identifikaator. Seejärel sisestage nimi väljal **Nimi**. 
 4. Määratlege iga perioodi jaoks perioodid ja planeerimise koefitsiendi protsent.
 

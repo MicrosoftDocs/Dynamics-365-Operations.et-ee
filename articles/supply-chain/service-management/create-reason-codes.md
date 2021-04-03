@@ -17,29 +17,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e6010440599c5e60415c1261927de73f520034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965956"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470973"
 ---
-# <a name="create-reason-codes"></a>Põhjusekoodide loomine    
+# <a name="create-reason-codes"></a>Põhjusekoodide loomine
 
 [!include [banner](../includes/banner.md)]
 
+1. Valige **Teeninduse haldus** \> **Häälestus** \> **Hooldustellimused** \> **Etapi põhjuse koodid**.
 
-1.  Klõpsake valikuid **Teeninduse haldus** \> **Häälestus** \> **Hooldustellimused** \> **Etapi põhjuse koodid**.
+1. Valige uue põhjusekoodi loomiseks **Uus**.
 
-2.  Uue põhjuse koodi loomiseks vajutage klahve CTRL+N.
-
-3.  Põhjuse koodi salvestamiseks vajutage klahve CTRL+S.
+1. Põhjusekoodi salvestamiseks valige **Salvesta**.
 
 Kui teilt küsitakse hooldustellimuse etapi värskendamise põhjuskoodi, saate valida kõigi siin loodud põhjuskoodide seast.
 
-  
-
-
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

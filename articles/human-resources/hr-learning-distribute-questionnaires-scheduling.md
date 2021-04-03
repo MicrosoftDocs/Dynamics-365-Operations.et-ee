@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cd101bfe88ae1acb051ba11a676da66ef6a3db6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 50be7631ec303171640b7fa9e6d283a198bd1a52
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115458"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465002"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Küsimustike levitamine ajastamise abil
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Küsimustiku planeerimine võimaldab plaanida ja jaotada küsimustikke mitmele vastajale. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
@@ -55,7 +57,7 @@ Küsimustiku planeerimine võimaldab plaanida ja jaotada küsimustikke mitmele v
 
 11. Tippige väljale Tekst meilisõnumi sisu. Pange tähele, et süsteemis saab kasutada väärtuste asendamiseks muutujat.
 
-    * Näide. Lugupeetud %P%! Töötajate tervise küsitluse täitmiseks palun logige sisse töötaja iseteenindusse.  Contoso  
+    * Näide: Lugupeetud %P%! Töötajate tervise küsitluse täitmiseks palun logige sisse töötaja iseteenindusse.  Contoso  
 
 12. Klõpsake nuppu Salvesta.
 

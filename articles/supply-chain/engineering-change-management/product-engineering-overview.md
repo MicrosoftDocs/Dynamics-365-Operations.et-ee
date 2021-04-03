@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001944"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476671"
 ---
 # <a name="engineering-change-management-overview"></a>Tehniliste muudatuste halduse ülevaade
 
@@ -44,20 +44,24 @@ Tehniliste muudatuste haldus aitab teil planeerida ja hallata toote versioonimis
 
 See video ([Muudatuste halduse funktsioonid Dynamics 365 Supply Chain Managementis](https://youtu.be/N313FqvRuBc)) on [ esitusloendis Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Süsteemis tehniliste muudatuste halduse sisselülitamine
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Lülitage oma süsteemi jaoks sisse tehnilise muudatuse halduse ja versiooni dimensiooni funktsioonid
 
-Kõigepealt lülitage tehniliste muudatuste haldus sisse järgmiseid juhiseid järgides.
+Enne, kui saate kasutada tehnilise muudatuse haldust, peate lubama nii funktsiooni *Tehnilise muudatuse haldus* kui selle konfiguratsioonivõtme. Kui soovite ka jälgida kannetes toodete versiooni dimensiooni (valikuline), peate lisaks lubama funktsiooni *Tooteversiooni dimensioon* ja selle konfiguratsioonivõtme.
+
+Esmalt lülitage sisse funktsioonid, järgides järgmisi etappe.
 
 1. Avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Otsige värskendusi.
 1. Lülitage sisse funktsioon nimega **Tehniliste muudatuste haldus**.
+1. Kui soovite seda kasutada, lülitage sisse ka funktsioon nimega **Tootedimensiooni versioon**.
 
-Järgmiseks lülitage sisse **tehniliste muudatuste halduse** konfiguratsioonivõti, järgides neid juhiseid.
+Seejärel lülitage sisse konfiguratsioonivõtmed, järgides järgmisi etappe.
 
 1. Pange oma süsteem hooldusrežiimi, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
-1. Laiendage sõlme **Kaubandus** ja märkige ruut **Tehniliste muudatuste haldus**.
+1. Laiendage sõlme **Valdkond**
+1. Märkige ruut **Tehniliste muudatuste haldus**.
+1. Kui soovite seda kasutada, märkige ka ruut **Tootedimensioon – versioon**.
 1. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

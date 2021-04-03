@@ -1,6 +1,6 @@
 ---
-title: Ülesannete haldus kassas
-description: Selles teemas kirjeldatakse ülesannete haldust Microsoft Dynamics 365 Commerce’i kassarakenduses.
+title: Ülesandehaldus kassas
+description: Selles teemas kirjeldatakse ülesannete haldust Microsoft Dynamics 365 Commerce kassarakenduses (POS).
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006181"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478358"
 ---
-# <a name="task-management-in-pos"></a>Ülesannete haldus kassas
+# <a name="task-management-in-pos"></a>Ülesandehaldus kassas
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse ülesannete haldust Microsoft Dynamics 365 Commerce’i kassarakenduses.
-
-## <a name="overview"></a>Ülevaade
+Selles teemas kirjeldatakse ülesannete haldust Microsoft Dynamics 365 Commerce kassarakenduses (POS).
 
 Dynamics 365 Commerce’i kassarakenduses leiduvad ülesannete halduse funktsioonid, mis võimaldavad poe juhatajatel ja töötajatel hallata ülesandeid ja värskendada ülesande olekut. Poe töötajad pääsevad tööülesannetele juurde kas valides kassa avalehel paani **Tööülesanded** või valides ülesannete teatised. Vaikimisi viiakse poe töötajad vahekaardile **Minu ülesanded**, kus nad saavad vaadata neile määratud ülesandeid. Kuid nad saavad kergesti vahetada vahekaartidele **Tähtaja ületanud ülesanded**, **Avatud ülesanded** ja **Ülesannete loendid**.
 

@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e822d0097443d7da347c29ebfa63ad6a2d7cbf8b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e65fc54f87664caec95b2bc2c579d0820ae08c0f
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000633"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477680"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>Isikupärastatud soovitustest loobumine
+# <a name="opt-out-of-personalized-recommendations"></a>Isikupärastatud tootesoovitustest loobumine
 
 [!include [banner](includes/banner.md)]
 
 See teema selgitab, kuidas saate lubada klientidel loobuda rakenduses Microsoft Dynamics 365 Commerce isikupärastatud soovituste saamisest.
-
-## <a name="overview"></a>Ülevaade
 
 Konto loomise ajal seadistatakse uued kliendid automaatselt saama isikupärastatud soovitusi. Samas pakub rakendus Dynamics 365 Commerce jaemüüjatele erinevaid võimalusi nende soovituste saamisest loobumiseks ja oma isikuandmete töötlemise piiramiseks. Autenditud kasutajad, kes loobuvad isikupärastatud soovituste saamisest, lõpetavad kohe isikupärastatud loendite nägemise. Lisaks eemaldatakse kõik isikupärastamiseks kogutavad isikuandmed isikupärastatud soovituste mudelitest.
 

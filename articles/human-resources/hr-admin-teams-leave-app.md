@@ -3,7 +3,7 @@ title: Rakendus Human Resources Teamsis
 description: Selles teemas tutvustatakse Microsoft Teamsi rakendust Dynamics 365 Human Resources.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112229"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487869"
 ---
 # <a name="human-resources-app-in-teams"></a>Rakendus Human Resources Teamsis
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Teamsi rakendus Microsoft Dynamics 365 Human Resources võimaldab töövõtjatel kiirelt esitada vaba aja taotlust ja kuvada vaba aja saldo teavet otse Microsoft Teamsis. Teabe taotlemiseks saavad töövõtjad suhelda robotiga. Vahekaart **Vaba aeg** annab üksikasjalikumat teavet. Lisaks saavad nad saata inimestele teavet eelseisva eemaloleku kohta töörühmades ja vestlustes väljaspool rakendust Human Resources.
 
-![Human Resources Teamsi puhkuste rakenduse robot](./media/hr-admin-teams-leave-app-bot.png)
+![Human Resources Teamsi puhkuste rakenduse robot](./media/hr-teams-leave-app-bot.png)
 
 ![Human Resources Teamsi puhkuse rakenduse vahekaart Vaba aeg](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ Microsoft Teamsi rakendus Microsoft Dynamics 365 Human Resources võimaldab tö�
 
 ## <a name="install-and-setup"></a>Installimine ja häälestus
 
-Rakenduse Human Resources leiate Teamsi poest. Lisateabe saamiseks Teamsi rakenduse installimise kohta, vaadake teemat [Puhkusetaotluste haldamine Teamsis](hr-teams-leave-app.md).
+Rakenduse Dynamics 365 Human Resources leiate Teamsi poest. Lisateabe saamiseks Teamsi rakenduse installimise kohta, vaadake teemat [Puhkusetaotluste haldamine Teamsis](hr-teams-leave-app.md).
 
 Lisateabe saamiseks rakenduse lubade haldamise kohta Teamsis, vaadake teemat [Rakenduse lubade poliitikate haldamine Microsoft Teamsis](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Kui soovite, et kasutajad saaksid rakenduses vaadata puhkuste ja puudumise kalendrit, peate sätte **Puhkuste ja puudumiste kalender Teamsis** funktsioonihalduse kaudu lubama. Lisateavet funktsioonide lubamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Teatiste lubamine rakenduse Human Resources jaoks Teamsis
 
-Kui soovite, et kasutajad saaksid puhkusetaotluse teatisi rakenduses Teams, peate lubama teatised rakenduses Human Resources.
+Kui soovite, et kasutajad saaksid puhkusetaotluse teatisi Teamsis vastu võtta, peate lubama teatised rakenduses Dynamics 365 Human Resources.
 
 >[!NOTE]
->Teatisi saavad ainult need kasutajad, kes on sisse logitud Teamsi ja kasutavad Teamsi rakendust Human Resources.
+>Teatisi saavad ainult need kasutajad, kes on Teamsis sisse logitud ja kasutavad Teamsis rakendust Dynamics 365 Human Resources.
 
 1. Valige rakenduses Human Resources suvand **Süsteemihaldus**.
 
@@ -66,7 +68,7 @@ Kui soovite, et kasutajad saaksid puhkusetaotluse teatisi rakenduses Teams, peat
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Üksikutele kasutajate jaoks Teamsi teatiste sisse- või väljalülitamine
 
-Kui olete lubanud Teamsi rakenduse Human Resources teatised, saate teatised üksikute kasutajate jaoks sisse või välja lülitada.
+Kui olete lubanud Teamsis rakenduse Dynamics 365 Human Resources teatised, saate teatised üksikute kasutajate jaoks sisse või välja lülitada.
 
 1. Valige rakenduses Human Resources suvand **Süsteemihaldus**.
 
@@ -82,9 +84,28 @@ Kui olete lubanud Teamsi rakenduse Human Resources teatised, saate teatised üks
 
 6. Valige käsk **Salvesta**.
 
-## <a name="known-issues"></a>Teadaolevad probleemid
+## <a name="supported-languages"></a>Toetatud keeled
 
-| Väljasta | Olek |
+Teamsi rakendus Dynamics 365 Human Resources toetab järgmisi keeli:
+
+| Lokaadi ID | Keel |
+| --- | --- |
+| de-DE | saksa (Saksamaa) |
+| es-ES | hispaania (Hispaania) |
+| es-MX | Hispaania (Mehhiko) |
+| fr-CA | Prantsuse (Kanada) |
+| fr-FR | prantsuse (Prantsusmaa) |
+| it-IT | itaalia (Itaalia) |
+| nl-NL | hollandi (Holland) |
+| pt-BR | portugali (Brasiilia) |
+| tr-TR | türgi (Türgi) |
+| zh-CN | Hiina (lihtsustatud) |
+
+## <a name="notes"></a>Märkmed
+
+Järgmised tööüksused on kavas välja anda tulevastes väljalasetes:
+
+| Tööüksus | Olek |
 | --- | --- |
 | Tulevaks kuupäevaks vaba aja taotlemisel on vale saldo. | Prognoosimine pole veel saadaval. Kuvatakse praeguse kuupäeva saldo. |
 | Taotlust **Läbivaatamisel** ei saa tühistada. | See funktsioon ei ole praegu toetatud ja lisatakse tulevasse väljalaskesse. |
@@ -96,11 +117,11 @@ Kui kasutajal on probleeme Human Resources Teamsi rakendusse sisselogimisega võ
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Ma ei saa Teamsis rakendusse Human Resources sisse logida
 
-Kui kasutaja võtab teiega ühendust, kuna ta ei saa rakendusse sisse logida, veenduge, et kasutajal oleks rakenduses Human Resources seotud töötajakirje.
+Kui kasutaja võtab teiega ühendust, kuna ta ei saa rakendusse sisse logida, veenduge, et tal oleks rakenduses Human Resources seotud töötajakirje.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Tõrge puhkusetaotluste kinnitamise korral Teamsis rakenduses Human Resources
 
-Kui kasutaja saab Teamsi rakenduses puhkusetaotluste kinnitamise katsel tõrke, tehke järgmised tõrkeotsingusammud.
+Kui kasutaja saab Teamsi rakenduses puhkusetaotluste kinnitamise katsel tõrke, proovige järgmisi tõrkeotsingutoiminguid.
 
 1. Veenduge, et tema Teamsi konto oleks sama, mida ta kasutab rakendusele Human Resources juurdepääsemiseks.
 
