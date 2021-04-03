@@ -16,32 +16,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be38076be7f57ca9072221d1c8b8a524e81ab62b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 439a1747be66e299593ebda7c1775232af8f9d31
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112245"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464882"
 ---
-# <a name="enter-worker-information"></a><span data-ttu-id="c8545-103">Töötaja andmete sisestamine</span><span class="sxs-lookup"><span data-stu-id="c8545-103">Enter worker information</span></span>
+# <a name="enter-worker-information"></a><span data-ttu-id="5eafd-103">Töötaja andmete sisestamine</span><span class="sxs-lookup"><span data-stu-id="5eafd-103">Enter worker information</span></span>
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="c8545-104">Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine.</span><span class="sxs-lookup"><span data-stu-id="c8545-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="c8545-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="c8545-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c8545-106">Demoandmed sisaldavad avatud hulgivärbamise projekti.</span><span class="sxs-lookup"><span data-stu-id="c8545-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="c8545-107">Selle protseduuri alustamiseks avage Inimressursid > Värbamine > Hulgivärbamisprojektid.</span><span class="sxs-lookup"><span data-stu-id="c8545-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
+<span data-ttu-id="5eafd-104">Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine.</span><span class="sxs-lookup"><span data-stu-id="5eafd-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="5eafd-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="5eafd-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5eafd-106">Demoandmed sisaldavad avatud hulgivärbamise projekti.</span><span class="sxs-lookup"><span data-stu-id="5eafd-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="5eafd-107">Selle protseduuri alustamiseks avage Inimressursid > Värbamine > Hulgivärbamisprojektid.</span><span class="sxs-lookup"><span data-stu-id="5eafd-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 
-1. <span data-ttu-id="c8545-108">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="c8545-108">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="c8545-109">Klõpsake suvandit Ametikoha üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="c8545-109">Click Position details.</span></span>
-    * <span data-ttu-id="c8545-110">Redigeerige töötaja puhul alguskuupäeva.</span><span class="sxs-lookup"><span data-stu-id="c8545-110">Edit the start date for the worker.</span></span>  
-    * <span data-ttu-id="c8545-111">Redigeerige töötaja puhul lõppkuupäeva.</span><span class="sxs-lookup"><span data-stu-id="c8545-111">Edit the end date for the worker.</span></span>  
-    * <span data-ttu-id="c8545-112">Vajaduse korral muutke töötaja puhul töötaja tüüpi.</span><span class="sxs-lookup"><span data-stu-id="c8545-112">Change the worker type for the worker, if needed.</span></span>  
-3. <span data-ttu-id="c8545-113">Sisestage väärtus väljale Eesnimi.</span><span class="sxs-lookup"><span data-stu-id="c8545-113">In the First name field, type a value.</span></span>
-4. <span data-ttu-id="c8545-114">Sisestage väärtus väljale Teine nimi.</span><span class="sxs-lookup"><span data-stu-id="c8545-114">In the Middle name field, type a value.</span></span>
-5. <span data-ttu-id="c8545-115">Sisestage väärtus väljale Perekonnanimi.</span><span class="sxs-lookup"><span data-stu-id="c8545-115">In the Last name field, type a value.</span></span>
-    * <span data-ttu-id="c8545-116">Vajaduse korral muutke töötaja puhul tööd.</span><span class="sxs-lookup"><span data-stu-id="c8545-116">Change the job for the worker, if needed.</span></span>  
-    * <span data-ttu-id="c8545-117">Vajaduse korral muutke töötaja puhul osakonda.</span><span class="sxs-lookup"><span data-stu-id="c8545-117">Change the department for the worker, if needed.</span></span>  
-    * <span data-ttu-id="c8545-118">Vajaduse korral muutke töötaja puhul täistööaja olekut.</span><span class="sxs-lookup"><span data-stu-id="c8545-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
-6. <span data-ttu-id="c8545-119">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="c8545-119">Click OK.</span></span>
-7. <span data-ttu-id="c8545-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="c8545-120">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="c8545-121">Eemaldage loendis valitud realt märge.</span><span class="sxs-lookup"><span data-stu-id="c8545-121">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="c8545-122">Valige projekti järgmine ametikoht ja jätkake iga värvatava inimese puhul töötaja teabe sisestamist.</span><span class="sxs-lookup"><span data-stu-id="c8545-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
+1. <span data-ttu-id="5eafd-108">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5eafd-108">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="5eafd-109">Klõpsake suvandit Ametikoha üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="5eafd-109">Click Position details.</span></span>
+    * <span data-ttu-id="5eafd-110">Redigeerige töötaja puhul alguskuupäeva.</span><span class="sxs-lookup"><span data-stu-id="5eafd-110">Edit the start date for the worker.</span></span>  
+    * <span data-ttu-id="5eafd-111">Redigeerige töötaja puhul lõppkuupäeva.</span><span class="sxs-lookup"><span data-stu-id="5eafd-111">Edit the end date for the worker.</span></span>  
+    * <span data-ttu-id="5eafd-112">Vajaduse korral muutke töötaja puhul töötaja tüüpi.</span><span class="sxs-lookup"><span data-stu-id="5eafd-112">Change the worker type for the worker, if needed.</span></span>  
+3. <span data-ttu-id="5eafd-113">Sisestage väärtus väljale Eesnimi.</span><span class="sxs-lookup"><span data-stu-id="5eafd-113">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="5eafd-114">Sisestage väärtus väljale Teine nimi.</span><span class="sxs-lookup"><span data-stu-id="5eafd-114">In the Middle name field, type a value.</span></span>
+5. <span data-ttu-id="5eafd-115">Sisestage väärtus väljale Perekonnanimi.</span><span class="sxs-lookup"><span data-stu-id="5eafd-115">In the Last name field, type a value.</span></span>
+    * <span data-ttu-id="5eafd-116">Vajaduse korral muutke töötaja puhul tööd.</span><span class="sxs-lookup"><span data-stu-id="5eafd-116">Change the job for the worker, if needed.</span></span>  
+    * <span data-ttu-id="5eafd-117">Vajaduse korral muutke töötaja puhul osakonda.</span><span class="sxs-lookup"><span data-stu-id="5eafd-117">Change the department for the worker, if needed.</span></span>  
+    * <span data-ttu-id="5eafd-118">Vajaduse korral muutke töötaja puhul täistööaja olekut.</span><span class="sxs-lookup"><span data-stu-id="5eafd-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
+6. <span data-ttu-id="5eafd-119">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="5eafd-119">Click OK.</span></span>
+7. <span data-ttu-id="5eafd-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="5eafd-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="5eafd-121">Eemaldage loendis valitud realt märge.</span><span class="sxs-lookup"><span data-stu-id="5eafd-121">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="5eafd-122">Valige projekti järgmine ametikoht ja jätkake iga värvatava inimese puhul töötaja teabe sisestamist.</span><span class="sxs-lookup"><span data-stu-id="5eafd-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,24 +18,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a47065a28f116cde5ce2983acada2f735f8c5edf
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 86e6868b5172ea113fab63780773633427a45a1a
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115290"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463186"
 ---
-# <a name="manage-leave-and-absence-requests"></a><span data-ttu-id="69cda-103">Puhkuste ja puudumiste taotluste haldamine</span><span class="sxs-lookup"><span data-stu-id="69cda-103">Manage leave and absence requests</span></span>
+# <a name="manage-leave-and-absence-requests"></a><span data-ttu-id="7766c-103">Puhkuste ja puudumiste taotluste haldamine</span><span class="sxs-lookup"><span data-stu-id="7766c-103">Manage leave and absence requests</span></span>
 
-<span data-ttu-id="69cda-104">Hallake eemaloleku taotlusi tööruumis **Töövõtja iseteenindus** rakenduses Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="69cda-104">Manage time-off requests from the **Employee self-service** workspace in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="69cda-105">Taotleda võib ühte või mitut erinevat tüüpi puhkuse- või puudumispäeva.</span><span class="sxs-lookup"><span data-stu-id="69cda-105">Requests might be simple single-day requests or multiple-day requests that include multiple leave and absence types.</span></span> <span data-ttu-id="69cda-106">Kui töövoog ei ole lubatud, kinnitatakse taotlused automaatselt.</span><span class="sxs-lookup"><span data-stu-id="69cda-106">If a workflow isn't enabled, the requests are automatically approved.</span></span> <span data-ttu-id="69cda-107">Kui töövoog on lubatud, võib kinnitamine olla automaatne või eeldada loa andmist sõltuvalt töövoo konfiguratsioonist.</span><span class="sxs-lookup"><span data-stu-id="69cda-107">When a workflow is enabled, the approval can be automatic or require sign-off, depending on the workflow configuration.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. <span data-ttu-id="69cda-108">Tööruumis **Töövõtja iseteenindus** valige suvand **Minu töörühm**.</span><span class="sxs-lookup"><span data-stu-id="69cda-108">In the **Employee self-service** workspace, select **My team**.</span></span>
+<span data-ttu-id="7766c-104">Hallake eemaloleku taotlusi tööruumis **Töövõtja iseteenindus** rakenduses Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="7766c-104">Manage time-off requests from the **Employee self-service** workspace in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="7766c-105">Taotleda võib ühte või mitut erinevat tüüpi puhkuse- või puudumispäeva.</span><span class="sxs-lookup"><span data-stu-id="7766c-105">Requests might be simple single-day requests or multiple-day requests that include multiple leave and absence types.</span></span> <span data-ttu-id="7766c-106">Kui töövoog ei ole lubatud, kinnitatakse taotlused automaatselt.</span><span class="sxs-lookup"><span data-stu-id="7766c-106">If a workflow isn't enabled, the requests are automatically approved.</span></span> <span data-ttu-id="7766c-107">Kui töövoog on lubatud, võib kinnitamine olla automaatne või eeldada loa andmist sõltuvalt töövoo konfiguratsioonist.</span><span class="sxs-lookup"><span data-stu-id="7766c-107">When a workflow is enabled, the approval can be automatic or require sign-off, depending on the workflow configuration.</span></span>
 
-2. <span data-ttu-id="69cda-109">Jaotises **Minu töörühma teave** valige vahekaart **Puhkused ja puudumised**.</span><span class="sxs-lookup"><span data-stu-id="69cda-109">Under **My team information**, select the **Leave and absence** tab.</span></span> 
+1. <span data-ttu-id="7766c-108">Tööruumis **Töövõtja iseteenindus** valige suvand **Minu töörühm**.</span><span class="sxs-lookup"><span data-stu-id="7766c-108">In the **Employee self-service** workspace, select **My team**.</span></span>
 
-3. <span data-ttu-id="69cda-110">Vaadake ja kinnitage vastavalt vajadusele oma töörühma liikmete eemaloleku taotlusi.</span><span class="sxs-lookup"><span data-stu-id="69cda-110">View and approve your team members' time-off requests as necessary.</span></span>
+2. <span data-ttu-id="7766c-109">Jaotises **Minu töörühma teave** valige vahekaart **Puhkused ja puudumised**.</span><span class="sxs-lookup"><span data-stu-id="7766c-109">Under **My team information**, select the **Leave and absence** tab.</span></span> 
 
-## <a name="see-also"></a><span data-ttu-id="69cda-111">Vt ka</span><span class="sxs-lookup"><span data-stu-id="69cda-111">See also</span></span>
+3. <span data-ttu-id="7766c-110">Vaadake ja kinnitage vastavalt vajadusele oma töörühma liikmete eemaloleku taotlusi.</span><span class="sxs-lookup"><span data-stu-id="7766c-110">View and approve your team members' time-off requests as necessary.</span></span>
 
-- [<span data-ttu-id="69cda-112">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="69cda-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="69cda-113">Puhkuse ja puudumise plaani loomine</span><span class="sxs-lookup"><span data-stu-id="69cda-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+## <a name="see-also"></a><span data-ttu-id="7766c-111">Vt ka</span><span class="sxs-lookup"><span data-stu-id="7766c-111">See also</span></span>
+
+- [<span data-ttu-id="7766c-112">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="7766c-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="7766c-113">Puhkuse ja puudumise plaani loomine</span><span class="sxs-lookup"><span data-stu-id="7766c-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
