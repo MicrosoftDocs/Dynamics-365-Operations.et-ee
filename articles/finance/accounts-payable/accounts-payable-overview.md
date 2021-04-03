@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ff2da881bb77bf7db2c443f3556b4255cd81e3d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: efaf1d4d9d6b8764597f267de9d545b7d9301b52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972176"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266464"
 ---
 # <a name="configure-accounts-payable-overview"></a>Ostureskontro konfigureerimise ülevaade
 
@@ -80,7 +80,7 @@ Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.
 
 -   Lehel Tasukoodid saate seadistada ostutellimustel kasutatavaid tasukoode.
 -   Lehel Hankija tasude grupp saate luua ja hallata hankijate tasugruppe.
--   Lehel Kauba tasugrupid  saate luua ja hallata kaupade tasugruppe.
+-   Lehel Kauba tasugrupid saate luua ja hallata kaupade tasugruppe.
 -   Lehel Automaatsed kulud saate määratleda tellimustele automaatselt määratavad tasud.
 
 **Lisakaubad**
@@ -104,7 +104,7 @@ Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.
 
 -   Lehel Skontod saate seadistada ja hallata skontode saamise tingimusi. Skonto koodid on seotud hankijatega ja neid rakendatakse ostutellimuste korral.
 -   Lehel Maksegraafikud saate seadistada maksegraafikuid, mida kasutatakse hankijatele osamaksete tegemiseks.
--   Lehel Maksepäevad  saate määratleda tähtaegade arvutamiseks kasutatavad maksepäevad ja täpsustada maksepäevaks konkreetse nädalapäeva või kuu.
+-   Lehel Maksepäevad saate määratleda tähtaegade arvutamiseks kasutatavad maksepäevad ja täpsustada maksepäevaks konkreetse nädalapäeva või kuu.
 -   Lehel Maksetasu saate luua ja hallata hankijatega seotud maksetasusid.
 -   Lehel Maksejuhis saate luua ja hallata maksejuhiseid.
 

@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125589"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464028"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Kandidaadi jälgimissüsteemi integreerimise API tutvustus
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Selles teemas kirjeldatakse rakenduse Dynamics 365 Human Resources kandidaadi jälgimissüsteemi (ATS) integratsiooni API-d. API eesmärk on võimaldada sujuvat integreerimist rakenduse Dynamics 365 Human Resources ja partneriks olevate ATS-ide vahel.
 
@@ -121,7 +123,7 @@ Suvandikomplektid.
 - [Tühi Jah Ei](hr-admin-integration-ats-api-blank-yes-no.md)
 - [Lõpuleviimise olek](hr-admin-integration-ats-api-completion-status.md)
 - [Kontakti tüüp](hr-admin-integration-ats-api-contact-type.md)
-- [Hariduse ainepunktide alus](hr-admin-integration-ats-api-education-credit-basis.md)
+- [Hariduskrediidi alus](hr-admin-integration-ats-api-education-credit-basis.md)
 - [Sugu](hr-admin-integration-ats-api-gender.md)
 - [Perekonnaseis](hr-admin-integration-ats-api-marital-status.md)
 - [Kuud aastast](hr-admin-integration-ats-api-months-of-year.md)

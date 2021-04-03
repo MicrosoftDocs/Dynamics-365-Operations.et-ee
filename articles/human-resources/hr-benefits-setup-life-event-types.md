@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112250"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466034"
 ---
 # <a name="configure-life-event-types"></a>Elusündmuse tüüpide konfigureerimine
 
-Microsoft Dynamics 365 Human Resources kasutab elusündmuse tüüpe sündmuste määratlemiseks, kus kehtib töövõtja soodustuste registreerimise värskendamine. Näiteks abiellumine või lapse saamine. Iga elusündmuse tüübi ID võib olla seotud ainult ühe elusündmuse tüübiga. Näiteks kui loote elusündmuse ID nimega aadressi muutus, mis on seotud elusündmuse tüübiga Töövõtja aadressi muutus, ei saa te luua teist ID-d sildiga Töövõtja aadressi muutus ega seostada seda elusündmuse tüübiga Töövõtja aadressi muutus. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Dynamics 365 Human Resources kasutab elusündmuse tüüpe selliste sündmuste määratlemiseks, kus töövõtja soodustuste registreerimist saab värskendada. Näiteks abiellumine või lapse saamine. Iga elusündmuse tüübi ID võib olla seotud ainult ühe elusündmuse tüübiga. Näiteks kui loote elusündmuse ID nimega aadressi muutus, mis on seotud elusündmuse tüübiga Töövõtja aadressi muutus, ei saa te luua teist ID-d sildiga Töövõtja aadressi muutus ega seostada seda elusündmuse tüübiga Töövõtja aadressi muutus. 
 
 Pärast elusündmuse tüüpide loomist peate need seostama plaani tüüpidega. Lisateabe saamiseks vt [Plaani tüüpide loomine](hr-benefits-setup-plan-types.md).
 
