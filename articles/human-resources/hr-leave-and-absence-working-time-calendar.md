@@ -18,60 +18,65 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccf7901ebbea655b7f795a48944c6f03f9cf210a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ecabac54134629074ac01944963a037c2cdc63c9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115098"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467165"
 ---
-# <a name="create-a-working-time-calendar"></a><span data-ttu-id="ad2d9-103">Tööajakalendri loomine</span><span class="sxs-lookup"><span data-stu-id="ad2d9-103">Create a working time calendar</span></span>
+# <a name="create-a-working-time-calendar"></a><span data-ttu-id="0492d-103">Tööajakalendri loomine</span><span class="sxs-lookup"><span data-stu-id="0492d-103">Create a working time calendar</span></span>
 
-<span data-ttu-id="ad2d9-104">Rakenduse Dynamics 365 Human Resources tööajakalender kuvab päevad ja tunnid, mil töövõtjad teie organisatsioonis töötavad.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="ad2d9-105">Kui töötaja esitab vaba aja taotluse, ei pea nad puhkuste ja kinniolekuaegade pärast muretsema.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="ad2d9-106">Vaba aja taotluste sujuvamaks muutmiseks konfigureerige järgmised üksused oma organisatsiooni jaoks.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-106">To streamline time-off requests, configure these items for your organization:</span></span>
+<span data-ttu-id="0492d-104">Rakenduse Dynamics 365 Human Resources tööajakalender kuvab päevad ja tunnid, mil töövõtjad teie organisatsioonis töötavad.</span><span class="sxs-lookup"><span data-stu-id="0492d-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="0492d-105">Kui töötaja esitab vaba aja taotluse, ei pea nad puhkuste ja kinniolekuaegade pärast muretsema.</span><span class="sxs-lookup"><span data-stu-id="0492d-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
 
-- <span data-ttu-id="ad2d9-107">Tööajakalender</span><span class="sxs-lookup"><span data-stu-id="ad2d9-107">Working time calendar</span></span>
-- <span data-ttu-id="ad2d9-108">Pühad ja kinniolekuajad</span><span class="sxs-lookup"><span data-stu-id="ad2d9-108">Holidays and closures</span></span>
-- <span data-ttu-id="ad2d9-109">Mittetöötamise aeg</span><span class="sxs-lookup"><span data-stu-id="ad2d9-109">Non-work time</span></span>
+<span data-ttu-id="0492d-106">Vaba aja taotluste sujuvamaks muutmiseks konfigureerige järgmised üksused oma organisatsiooni jaoks.</span><span class="sxs-lookup"><span data-stu-id="0492d-106">To streamline time-off requests, configure these items for your organization:</span></span>
 
-<span data-ttu-id="ad2d9-110">Saate tööajakalendri seadistamisel lisada vähemalt kaks üksust.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="ad2d9-111">Lisaks saate neid eraldi konfigureerida või uuendada.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-111">You can also configure or update them separately.</span></span>
+- <span data-ttu-id="0492d-107">Tööajakalender</span><span class="sxs-lookup"><span data-stu-id="0492d-107">Working time calendar</span></span>
+- <span data-ttu-id="0492d-108">Pühad ja kinniolekuajad</span><span class="sxs-lookup"><span data-stu-id="0492d-108">Holidays and closures</span></span>
+- <span data-ttu-id="0492d-109">Mittetöötamise aeg</span><span class="sxs-lookup"><span data-stu-id="0492d-109">Non-work time</span></span>
 
-## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="ad2d9-112">Tööajakalendri seadistamine</span><span class="sxs-lookup"><span data-stu-id="ad2d9-112">Set up a working time calendar</span></span>
+<span data-ttu-id="0492d-110">Saate tööajakalendri seadistamisel lisada vähemalt kaks üksust.</span><span class="sxs-lookup"><span data-stu-id="0492d-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="0492d-111">Lisaks saate neid eraldi konfigureerida või uuendada.</span><span class="sxs-lookup"><span data-stu-id="0492d-111">You can also configure or update them separately.</span></span>
 
-<span data-ttu-id="ad2d9-113">Seadistage vähemalt üks tööajakalender, mis kuvab teie töötamise päevad ja tunnid.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="ad2d9-114">Kui teil on asukohad mitmes riigis ja regioonis, võite soovida seadistada tööajakalendri iga piirkonna jaoks.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
+## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="0492d-112">Tööajakalendri seadistamine</span><span class="sxs-lookup"><span data-stu-id="0492d-112">Set up a working time calendar</span></span>
 
-1. <span data-ttu-id="ad2d9-115">Valige lehel **Organisatsiooni haldus** suvand **Kalendrid**.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-115">On the **Organization administration** page, select **Calendars**.</span></span>
+<span data-ttu-id="0492d-113">Seadistage vähemalt üks tööajakalender, mis kuvab teie töötamise päevad ja tunnid.</span><span class="sxs-lookup"><span data-stu-id="0492d-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="0492d-114">Kui teil on asukohad mitmes riigis ja regioonis, võite soovida seadistada tööajakalendri iga piirkonna jaoks.</span><span class="sxs-lookup"><span data-stu-id="0492d-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
 
-2. <span data-ttu-id="ad2d9-116">Valige suvand **Uus** ja sisestage oma kalendri nimi ning kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-116">Select **New** and enter a name and description for your calendar.</span></span>
+1. <span data-ttu-id="0492d-115">Valige lehel **Organisatsiooni haldus** suvand **Kalendrid**.</span><span class="sxs-lookup"><span data-stu-id="0492d-115">On the **Organization administration** page, select **Calendars**.</span></span>
 
-3. <span data-ttu-id="ad2d9-117">Jaotises **Loomissuvandid** valige oma organisatsiooni tööpäevad ja sisestage tööajad.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
-   - <span data-ttu-id="ad2d9-118">Puhkuse või kinniolekuaja lisamiseks valige nupp **Lisa** suvandi **Pühad ja kinniolekuajad** kõrval.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
-   - <span data-ttu-id="ad2d9-119">Mittetöötamise aja (nt lõunad või pausid) lisamiseks valige käsk **Lisa** jaotises **MITTETÖÖTAMISE AEG** ja sisestage nimi ning ajavahemik.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
+2. <span data-ttu-id="0492d-116">Valige suvand **Uus** ja sisestage oma kalendri nimi ning kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="0492d-116">Select **New** and enter a name and description for your calendar.</span></span>
 
-4. <span data-ttu-id="ad2d9-120">Jaotises **Päevad** valige suvand **Loo**, et luua kalendrisse päevad.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="ad2d9-121">Sisestage kalendri kuupäevavahemik ja valige seejärel suvand **Loo päevad**.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
+3. <span data-ttu-id="0492d-117">Jaotises **Loomissuvandid** valige oma organisatsiooni tööpäevad ja sisestage tööajad.</span><span class="sxs-lookup"><span data-stu-id="0492d-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
+   - <span data-ttu-id="0492d-118">Puhkuse või kinniolekuaja lisamiseks valige nupp **Lisa** suvandi **Pühad ja kinniolekuajad** kõrval.</span><span class="sxs-lookup"><span data-stu-id="0492d-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
+   - <span data-ttu-id="0492d-119">Mittetöötamise aja (nt lõunad või pausid) lisamiseks valige käsk **Lisa** jaotises **MITTETÖÖTAMISE AEG** ja sisestage nimi ning ajavahemik.</span><span class="sxs-lookup"><span data-stu-id="0492d-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
 
-5. <span data-ttu-id="ad2d9-122">Töögraafikute lisamiseks valige suvandis **Töögraafik** käsk **Lisa** ja sisestage iga töögraafiku ajad.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
+4. <span data-ttu-id="0492d-120">Jaotises **Päevad** valige suvand **Loo**, et luua kalendrisse päevad.</span><span class="sxs-lookup"><span data-stu-id="0492d-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="0492d-121">Sisestage kalendri kuupäevavahemik ja valige seejärel suvand **Loo päevad**.</span><span class="sxs-lookup"><span data-stu-id="0492d-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
 
-## <a name="configure-holidays-and-closures"></a><span data-ttu-id="ad2d9-123">Pühade ja kinniolekuaegade konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ad2d9-123">Configure holidays and closures</span></span>
+5. <span data-ttu-id="0492d-122">Töögraafikute lisamiseks valige suvandis **Töögraafik** käsk **Lisa** ja sisestage iga töögraafiku ajad.</span><span class="sxs-lookup"><span data-stu-id="0492d-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
 
-<span data-ttu-id="ad2d9-124">Saate pühasid ja kinniolekuaegu lisada või muuta tööajakalendris eraldi.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
+## <a name="configure-holidays-and-closures"></a><span data-ttu-id="0492d-123">Pühade ja kinniolekuaegade konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="0492d-123">Configure holidays and closures</span></span>
 
-1. <span data-ttu-id="ad2d9-125">Valige lehel **Organisatsiooni haldus** suvand **Pühad ja kinniolekuajad**.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
+<span data-ttu-id="0492d-124">Saate pühasid ja kinniolekuaegu lisada või muuta tööajakalendris eraldi.</span><span class="sxs-lookup"><span data-stu-id="0492d-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="ad2d9-126">Valige suvand **Uus** ja sisestage püha või kinniolekuaja nimi ja kuupäev.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
+1. <span data-ttu-id="0492d-125">Valige lehel **Organisatsiooni haldus** suvand **Pühad ja kinniolekuajad**.</span><span class="sxs-lookup"><span data-stu-id="0492d-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
 
-## <a name="configure-non-work-time"></a><span data-ttu-id="ad2d9-127">Mittetöötamise aja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ad2d9-127">Configure non-work time</span></span>
+2. <span data-ttu-id="0492d-126">Valige suvand **Uus** ja sisestage püha või kinniolekuaja nimi ja kuupäev.</span><span class="sxs-lookup"><span data-stu-id="0492d-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
 
-<span data-ttu-id="ad2d9-128">Saate mittetöötamise aegu lisada või muuta tööajakalendris eraldi.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-128">You can add or change non-work times separately from a working time calendar.</span></span>
+## <a name="configure-non-work-time"></a><span data-ttu-id="0492d-127">Mittetöötamise aja konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="0492d-127">Configure non-work time</span></span>
 
-1. <span data-ttu-id="ad2d9-129">Valige lehel **Organisatsiooni haldus** suvand **Mittetöötamise aeg**.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-129">On the **Organization administration** page, select **Non-work time**.</span></span>
+<span data-ttu-id="0492d-128">Saate mittetöötamise aegu lisada või muuta tööajakalendris eraldi.</span><span class="sxs-lookup"><span data-stu-id="0492d-128">You can add or change non-work times separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="ad2d9-130">Valige suvand **Uus** ja sisestage mittetöötamise aja nimi ja ajavahemik.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-130">Select **New** and enter a name and time range for the non-work time.</span></span>
+1. <span data-ttu-id="0492d-129">Valige lehel **Organisatsiooni haldus** suvand **Mittetöötamise aeg**.</span><span class="sxs-lookup"><span data-stu-id="0492d-129">On the **Organization administration** page, select **Non-work time**.</span></span>
 
-<span data-ttu-id="ad2d9-131">Kui olete kuvanud puhkuste ja puudumiste riigipühade korrigeerimiste eelvaatefunktsiooni, kasutab rakendus Human Resources pühasid ja kinnioleku kuupäevasid, et kalendris registreeritud töövõtjate reguleerimiseks määrata päevade arv.</span><span class="sxs-lookup"><span data-stu-id="ad2d9-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
+2. <span data-ttu-id="0492d-130">Valige suvand **Uus** ja sisestage mittetöötamise aja nimi ja ajavahemik.</span><span class="sxs-lookup"><span data-stu-id="0492d-130">Select **New** and enter a name and time range for the non-work time.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ad2d9-132">Vt ka</span><span class="sxs-lookup"><span data-stu-id="ad2d9-132">See also</span></span>
+<span data-ttu-id="0492d-131">Kui olete kuvanud puhkuste ja puudumiste riigipühade korrigeerimiste eelvaatefunktsiooni, kasutab rakendus Human Resources pühasid ja kinnioleku kuupäevasid, et kalendris registreeritud töövõtjate reguleerimiseks määrata päevade arv.</span><span class="sxs-lookup"><span data-stu-id="0492d-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
 
-- [<span data-ttu-id="ad2d9-133">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="ad2d9-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="ad2d9-134">Puhkuste ja puudumiste tüüpide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ad2d9-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+## <a name="see-also"></a><span data-ttu-id="0492d-132">Vt ka</span><span class="sxs-lookup"><span data-stu-id="0492d-132">See also</span></span>
+
+- [<span data-ttu-id="0492d-133">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="0492d-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="0492d-134">Puhkuste ja puudumiste tüüpide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="0492d-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

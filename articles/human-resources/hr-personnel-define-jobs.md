@@ -16,58 +16,63 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d7a469b7f09c6cf3a051991698a00317dc125d2
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 56f7d2129724d8f75ac6dcfc0d1442f757de8957
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130255"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467743"
 ---
-# <a name="define-new-jobs"></a><span data-ttu-id="bdb71-103">Uute tööde määratlemine</span><span class="sxs-lookup"><span data-stu-id="bdb71-103">Define new jobs</span></span>
+# <a name="define-new-jobs"></a><span data-ttu-id="44968-103">Uute tööde määratlemine</span><span class="sxs-lookup"><span data-stu-id="44968-103">Define new jobs</span></span>
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="bdb71-104">See ülesanne keskendub uue töö loomisele.</span><span class="sxs-lookup"><span data-stu-id="bdb71-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="bdb71-105">See lõpetatakse käsitsi sisestamisega ja kopeerimisega malli funktsioonist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="bdb71-106">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="bdb71-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="bdb71-107">See ülesanne on mõeldud inimressursside spetsialistile.</span><span class="sxs-lookup"><span data-stu-id="bdb71-107">This task is intended for the human resources specialist.</span></span>
+<span data-ttu-id="44968-104">See ülesanne keskendub uue töö loomisele.</span><span class="sxs-lookup"><span data-stu-id="44968-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="44968-105">See lõpetatakse käsitsi sisestamisega ja kopeerimisega malli funktsioonist.</span><span class="sxs-lookup"><span data-stu-id="44968-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="44968-106">Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="44968-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="44968-107">See ülesanne on mõeldud inimressursside spetsialistile.</span><span class="sxs-lookup"><span data-stu-id="44968-107">This task is intended for the human resources specialist.</span></span>
 
-1. <span data-ttu-id="bdb71-108">Avage Personaliarvestus > Tööd > Tööd.</span><span class="sxs-lookup"><span data-stu-id="bdb71-108">Go to Human resources > Jobs > Jobs.</span></span>
-2. <span data-ttu-id="bdb71-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="bdb71-109">Click New.</span></span>
-3. <span data-ttu-id="bdb71-110">Sisestage väärtus väljale Töö.</span><span class="sxs-lookup"><span data-stu-id="bdb71-110">In the Job field, type a value.</span></span>
-4. <span data-ttu-id="bdb71-111">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="bdb71-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="bdb71-112">Valige töö puhul kasutatav standardpealkiri.</span><span class="sxs-lookup"><span data-stu-id="bdb71-112">Select a standard title that will be used for the job.</span></span> 
-    * <span data-ttu-id="bdb71-113">Sisestatud pealkirja kasutatakse tööle määratud uute ametikohtade puhul vaikeväärtusena.</span><span class="sxs-lookup"><span data-stu-id="bdb71-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
-6. <span data-ttu-id="bdb71-114">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bdb71-114">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="bdb71-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bdb71-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="bdb71-116">Valige grupis Ametikohtade maksimaalne arv suvand Maksimaalne ametikohtade arv</span><span class="sxs-lookup"><span data-stu-id="bdb71-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
-9. <span data-ttu-id="bdb71-117">Sisestage ametikohtade maksimaalne arv.</span><span class="sxs-lookup"><span data-stu-id="bdb71-117">Enter the maximum number of positions.</span></span> 
-    * <span data-ttu-id="bdb71-118">Ametikoha määranguid ei lubata siia sisestatud maksimumväärtusest rohkem.</span><span class="sxs-lookup"><span data-stu-id="bdb71-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
-10. <span data-ttu-id="bdb71-119">Lülitage jaotise Kirjeldus laiendamist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-119">Toggle the expansion of the Description section.</span></span>
-11. <span data-ttu-id="bdb71-120">Sisestage töö standardkirjeldus väljale Märkus.</span><span class="sxs-lookup"><span data-stu-id="bdb71-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
-    * <span data-ttu-id="bdb71-121">Kirjeldus kehtib kõigi siin määratletud tööle määratud ametikohtade kohta.</span><span class="sxs-lookup"><span data-stu-id="bdb71-121">The description applies to all positions assigned to the job defined here.</span></span>  
-12. <span data-ttu-id="bdb71-122">Lülitage jaotise Töö klassifikatsioon laiendamist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-122">Toggle the expansion of the Job classification section.</span></span>
-13. <span data-ttu-id="bdb71-123">Valige tööfunktsioon, mida kasutatakse inimressurssides standardaruandluses.</span><span class="sxs-lookup"><span data-stu-id="bdb71-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
-14. <span data-ttu-id="bdb71-124">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bdb71-124">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="bdb71-125">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bdb71-125">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="bdb71-126">Valige teie organisatsiooni tööde edasiseks klassifitseerimiseks töö tüüp.</span><span class="sxs-lookup"><span data-stu-id="bdb71-126">Select a Job type to further classify jobs within your organization.</span></span> 
-    * <span data-ttu-id="bdb71-127">Töö tüüpe saab kasutada aruandluseks kogu inimressurssides.</span><span class="sxs-lookup"><span data-stu-id="bdb71-127">Job types can be used in reporting throughout Human resources.</span></span>  
-17. <span data-ttu-id="bdb71-128">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bdb71-128">In the list, find and select the desired record.</span></span>
-18. <span data-ttu-id="bdb71-129">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bdb71-129">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="bdb71-130">Lülitage jaotise Lisatasu laiendamist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-130">Toggle the expansion of the Compensation section.</span></span>
-20. <span data-ttu-id="bdb71-131">Valige lisatasu tase.</span><span class="sxs-lookup"><span data-stu-id="bdb71-131">Select a compensation level.</span></span>
-    * <span data-ttu-id="bdb71-132">Lisatasu tase määratleb miinimum- ja maksimumlisatasu, mis võib töötajal töö puhul olla.</span><span class="sxs-lookup"><span data-stu-id="bdb71-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="bdb71-133">Lisatasu reeglid määravad, kas töötaja lisatasu võib olla väljaspool vahemikku.</span><span class="sxs-lookup"><span data-stu-id="bdb71-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
-21. <span data-ttu-id="bdb71-134">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bdb71-134">In the list, find and select the desired record.</span></span>
-22. <span data-ttu-id="bdb71-135">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bdb71-135">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="bdb71-136">Lülitage jaotise Oskused laiendamist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-136">Toggle the expansion of the Skills section.</span></span>
-    * <span data-ttu-id="bdb71-137">Pange tähele, et kiirvahekaartide Oskused, Haridus ja Tunnistused väljad on tühjad.</span><span class="sxs-lookup"><span data-stu-id="bdb71-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="bdb71-138">Pärast teabe kopeerimist ametijuhendist sisestatakse teave nendel väljadel ühe etapina.</span><span class="sxs-lookup"><span data-stu-id="bdb71-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
-24. <span data-ttu-id="bdb71-139">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="bdb71-139">Click Save.</span></span>
-25. <span data-ttu-id="bdb71-140">Klõpsake suvandit Kopeeri.</span><span class="sxs-lookup"><span data-stu-id="bdb71-140">Click Copy from.</span></span>
-26. <span data-ttu-id="bdb71-141">Klõpsake suvandit Kopeeri mallist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-141">Click Copy from template.</span></span>
-27. <span data-ttu-id="bdb71-142">Klõpsake väljal Töömall otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bdb71-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
-28. <span data-ttu-id="bdb71-143">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="bdb71-143">In the list, find and select the desired record.</span></span>
-29. <span data-ttu-id="bdb71-144">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="bdb71-144">In the list, click the link in the selected row.</span></span>
-30. <span data-ttu-id="bdb71-145">Klõpsake suvandit Märkus.</span><span class="sxs-lookup"><span data-stu-id="bdb71-145">Click the Note option.</span></span>
-    * <span data-ttu-id="bdb71-146">Valitud töösse kopeeritakse ainult need kaubad, mille valite.</span><span class="sxs-lookup"><span data-stu-id="bdb71-146">Only those items you select will be copied to the selected job.</span></span>    
-31. <span data-ttu-id="bdb71-147">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="bdb71-147">Click OK.</span></span>
-32. <span data-ttu-id="bdb71-148">Lülitage jaotise Tunnistused laiendamist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-148">Toggle the expansion of the Certificates section.</span></span>
-33. <span data-ttu-id="bdb71-149">Lülitage jaotise Haridus laiendamist.</span><span class="sxs-lookup"><span data-stu-id="bdb71-149">Toggle the expansion of the Education section.</span></span>
-34. <span data-ttu-id="bdb71-150">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="bdb71-150">Click Save.</span></span>
+1. <span data-ttu-id="44968-108">Avage Personaliarvestus > Tööd > Tööd.</span><span class="sxs-lookup"><span data-stu-id="44968-108">Go to Human resources > Jobs > Jobs.</span></span>
+2. <span data-ttu-id="44968-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="44968-109">Click New.</span></span>
+3. <span data-ttu-id="44968-110">Sisestage väärtus väljale Töö.</span><span class="sxs-lookup"><span data-stu-id="44968-110">In the Job field, type a value.</span></span>
+4. <span data-ttu-id="44968-111">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="44968-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="44968-112">Valige töö puhul kasutatav standardpealkiri.</span><span class="sxs-lookup"><span data-stu-id="44968-112">Select a standard title that will be used for the job.</span></span> 
+    * <span data-ttu-id="44968-113">Sisestatud pealkirja kasutatakse tööle määratud uute ametikohtade puhul vaikeväärtusena.</span><span class="sxs-lookup"><span data-stu-id="44968-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
+6. <span data-ttu-id="44968-114">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="44968-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="44968-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44968-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="44968-116">Valige grupis Ametikohtade maksimaalne arv suvand Maksimaalne ametikohtade arv</span><span class="sxs-lookup"><span data-stu-id="44968-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
+9. <span data-ttu-id="44968-117">Sisestage ametikohtade maksimaalne arv.</span><span class="sxs-lookup"><span data-stu-id="44968-117">Enter the maximum number of positions.</span></span> 
+    * <span data-ttu-id="44968-118">Ametikoha määranguid ei lubata siia sisestatud maksimumväärtusest rohkem.</span><span class="sxs-lookup"><span data-stu-id="44968-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
+10. <span data-ttu-id="44968-119">Lülitage jaotise Kirjeldus laiendamist.</span><span class="sxs-lookup"><span data-stu-id="44968-119">Toggle the expansion of the Description section.</span></span>
+11. <span data-ttu-id="44968-120">Sisestage töö standardkirjeldus väljale Märkus.</span><span class="sxs-lookup"><span data-stu-id="44968-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
+    * <span data-ttu-id="44968-121">Kirjeldus kehtib kõigi siin määratletud tööle määratud ametikohtade kohta.</span><span class="sxs-lookup"><span data-stu-id="44968-121">The description applies to all positions assigned to the job defined here.</span></span>  
+12. <span data-ttu-id="44968-122">Lülitage jaotise Töö klassifikatsioon laiendamist.</span><span class="sxs-lookup"><span data-stu-id="44968-122">Toggle the expansion of the Job classification section.</span></span>
+13. <span data-ttu-id="44968-123">Valige tööfunktsioon, mida kasutatakse inimressurssides standardaruandluses.</span><span class="sxs-lookup"><span data-stu-id="44968-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
+14. <span data-ttu-id="44968-124">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="44968-124">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="44968-125">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44968-125">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="44968-126">Valige teie organisatsiooni tööde edasiseks klassifitseerimiseks töö tüüp.</span><span class="sxs-lookup"><span data-stu-id="44968-126">Select a Job type to further classify jobs within your organization.</span></span> 
+    * <span data-ttu-id="44968-127">Töö tüüpe saab kasutada aruandluseks kogu inimressurssides.</span><span class="sxs-lookup"><span data-stu-id="44968-127">Job types can be used in reporting throughout Human resources.</span></span>  
+17. <span data-ttu-id="44968-128">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="44968-128">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="44968-129">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44968-129">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="44968-130">Lülitage jaotise Lisatasu laiendamist.</span><span class="sxs-lookup"><span data-stu-id="44968-130">Toggle the expansion of the Compensation section.</span></span>
+20. <span data-ttu-id="44968-131">Valige lisatasu tase.</span><span class="sxs-lookup"><span data-stu-id="44968-131">Select a compensation level.</span></span>
+    * <span data-ttu-id="44968-132">Lisatasu tase määratleb miinimum- ja maksimumlisatasu, mis võib töötajal töö puhul olla.</span><span class="sxs-lookup"><span data-stu-id="44968-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="44968-133">Lisatasu reeglid määravad, kas töötaja lisatasu võib olla väljaspool vahemikku.</span><span class="sxs-lookup"><span data-stu-id="44968-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
+21. <span data-ttu-id="44968-134">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="44968-134">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="44968-135">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44968-135">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="44968-136">Lülitage jaotise Oskused laiendamist.</span><span class="sxs-lookup"><span data-stu-id="44968-136">Toggle the expansion of the Skills section.</span></span>
+    * <span data-ttu-id="44968-137">Pange tähele, et kiirvahekaartide Oskused, Haridus ja Tunnistused väljad on tühjad.</span><span class="sxs-lookup"><span data-stu-id="44968-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="44968-138">Pärast teabe kopeerimist ametijuhendist sisestatakse teave nendel väljadel ühe etapina.</span><span class="sxs-lookup"><span data-stu-id="44968-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
+24. <span data-ttu-id="44968-139">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="44968-139">Click Save.</span></span>
+25. <span data-ttu-id="44968-140">Klõpsake suvandit Kopeeri.</span><span class="sxs-lookup"><span data-stu-id="44968-140">Click Copy from.</span></span>
+26. <span data-ttu-id="44968-141">Klõpsake suvandit Kopeeri mallist.</span><span class="sxs-lookup"><span data-stu-id="44968-141">Click Copy from template.</span></span>
+27. <span data-ttu-id="44968-142">Klõpsake väljal Töömall otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="44968-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="44968-143">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="44968-143">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="44968-144">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44968-144">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="44968-145">Klõpsake suvandit Märkus.</span><span class="sxs-lookup"><span data-stu-id="44968-145">Click the Note option.</span></span>
+    * <span data-ttu-id="44968-146">Valitud töösse kopeeritakse ainult need kaubad, mille valite.</span><span class="sxs-lookup"><span data-stu-id="44968-146">Only those items you select will be copied to the selected job.</span></span>    
+31. <span data-ttu-id="44968-147">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="44968-147">Click OK.</span></span>
+32. <span data-ttu-id="44968-148">Lülitage jaotise Tunnistused laiendamist.</span><span class="sxs-lookup"><span data-stu-id="44968-148">Toggle the expansion of the Certificates section.</span></span>
+33. <span data-ttu-id="44968-149">Lülitage jaotise Haridus laiendamist.</span><span class="sxs-lookup"><span data-stu-id="44968-149">Toggle the expansion of the Education section.</span></span>
+34. <span data-ttu-id="44968-150">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="44968-150">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
