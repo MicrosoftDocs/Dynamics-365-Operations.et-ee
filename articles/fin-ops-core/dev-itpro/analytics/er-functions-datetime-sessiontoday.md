@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,35 +16,38 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87e8d5498c82d7c9ca6ee0a855f139dde77d75ab
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e6ad28e642fcfae3cfa2692a4e41b99fae7fc9df
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683815"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561345"
 ---
-# <a name="sessiontoday-er-function"></a><span data-ttu-id="f342a-103">ER-i funktsioon SESSIONTODAY</span><span class="sxs-lookup"><span data-stu-id="f342a-103">SESSIONTODAY ER function</span></span>
+# <a name="sessiontoday-er-function"></a><span data-ttu-id="1b440-103">ER-i funktsioon SESSIONTODAY</span><span class="sxs-lookup"><span data-stu-id="1b440-103">SESSIONTODAY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f342a-104">Funktsioon `SESSIONTODAY` tagastab *kuupäeva* väärtuse, mis tähistab rakenduse seansi praegust kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="f342a-104">The `SESSIONTODAY` function returns a *Date* value that represents the current application session date.</span></span>
+<span data-ttu-id="1b440-104">Funktsioon `SESSIONTODAY` tagastab *kuupäeva* väärtuse, mis tähistab rakenduse seansi praegust kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="1b440-104">The `SESSIONTODAY` function returns a *Date* value that represents the current application session date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f342a-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="f342a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1b440-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="1b440-105">Syntax</span></span>
 
 ```vb
 SESSIONTODAY ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="f342a-106">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="f342a-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="1b440-106">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="1b440-106">Return values</span></span>
 
-<span data-ttu-id="f342a-107">*Kuupäev*</span><span class="sxs-lookup"><span data-stu-id="f342a-107">*Date*</span></span>
+<span data-ttu-id="1b440-107">*Kuupäev*</span><span class="sxs-lookup"><span data-stu-id="1b440-107">*Date*</span></span>
 
-<span data-ttu-id="f342a-108">Tulemiks saadud kuupäeva väärtus.</span><span class="sxs-lookup"><span data-stu-id="f342a-108">The resulting date value.</span></span>
+<span data-ttu-id="1b440-108">Tulemiks saadud kuupäeva väärtus.</span><span class="sxs-lookup"><span data-stu-id="1b440-108">The resulting date value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f342a-109">Näide</span><span class="sxs-lookup"><span data-stu-id="f342a-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1b440-109">Näide</span><span class="sxs-lookup"><span data-stu-id="1b440-109">Example</span></span>
 
-<span data-ttu-id="f342a-110">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` tagastab praeguse rakenduse seansi kuupäeva 24. detsember 2015 stringina **„24-12-2015”** valitud saksa kultuuri ja määratud vormingu kohaselt.</span><span class="sxs-lookup"><span data-stu-id="f342a-110">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` returns the current application session date, December 24, 2015, as the string **"24-12-2015"**, based on the selected German culture and the specified format.</span></span>
+<span data-ttu-id="1b440-110">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` tagastab praeguse rakenduse seansi kuupäeva 24. detsember 2015 stringina **„24-12-2015”** valitud saksa kultuuri ja määratud vormingu kohaselt.</span><span class="sxs-lookup"><span data-stu-id="1b440-110">`DATEFORMAT (SESSIONTODAY (), "d", "DE")` returns the current application session date, December 24, 2015, as the string **"24-12-2015"**, based on the selected German culture and the specified format.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f342a-111">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="f342a-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="1b440-111">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="1b440-111">Additional resources</span></span>
 
-[<span data-ttu-id="f342a-112">Kuupäeva ja kellaaja funktsioonid</span><span class="sxs-lookup"><span data-stu-id="f342a-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="1b440-112">Kuupäeva ja kellaaja funktsioonid</span><span class="sxs-lookup"><span data-stu-id="1b440-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
