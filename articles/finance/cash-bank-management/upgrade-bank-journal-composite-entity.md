@@ -16,41 +16,44 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e6c990208f26dde26b7adc306198f7cd16e0e69b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18137ca8cecc43b4269f14b36df2eb8063192e52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978910"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236343"
 ---
-# <a name="update-the-bank-journal-composite-entity"></a><span data-ttu-id="112d0-103">Pangatöölehe liitüksuse värskendamine</span><span class="sxs-lookup"><span data-stu-id="112d0-103">Update the bank journal composite entity</span></span>
+# <a name="update-the-bank-journal-composite-entity"></a><span data-ttu-id="476e3-103">Pangatöölehe liitüksuse värskendamine</span><span class="sxs-lookup"><span data-stu-id="476e3-103">Update the bank journal composite entity</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="112d0-104">Järgmised etapid on vajalikud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.</span><span class="sxs-lookup"><span data-stu-id="112d0-104">The following steps are needed in order to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
+<span data-ttu-id="476e3-104">Järgmised etapid on vajalikud, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.</span><span class="sxs-lookup"><span data-stu-id="476e3-104">The following steps are needed in order to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
 
-<span data-ttu-id="112d0-105">Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.</span><span class="sxs-lookup"><span data-stu-id="112d0-105">Use the following steps to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
+<span data-ttu-id="476e3-105">Kasutage järgmisi etappe, et lisada täiendav väli BankTransactionType liitüksusele BankJournalEntity.</span><span class="sxs-lookup"><span data-stu-id="476e3-105">Use the following steps to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
 
-1.  <span data-ttu-id="112d0-106">Kompileerige ja sünkroonige järgmised panga töölehe liitüksused, üksused ja vahetabelid.</span><span class="sxs-lookup"><span data-stu-id="112d0-106">Compile and synchronize the following bank journal composite entities, entities, and staging tables:</span></span>
-    -   <span data-ttu-id="112d0-107">Liitüksus\\BankJournalEntity</span><span class="sxs-lookup"><span data-stu-id="112d0-107">Composite Entity\\BankJournalEntity</span></span>
-    -   <span data-ttu-id="112d0-108">Üksus\\BankJournalHeaderEntity</span><span class="sxs-lookup"><span data-stu-id="112d0-108">Entity\\BankJournalHeaderEntity</span></span>
-    -   <span data-ttu-id="112d0-109">Üksus\\BankJournalLineEntity</span><span class="sxs-lookup"><span data-stu-id="112d0-109">Entity\\BankJournalLineEntity</span></span>
-    -   <span data-ttu-id="112d0-110">Tabel\\BankJournalHeaderStaging</span><span class="sxs-lookup"><span data-stu-id="112d0-110">Table\\BankJournalHeaderStaging</span></span>
-    -   <span data-ttu-id="112d0-111">Tabel\\BankJournalLineStaging</span><span class="sxs-lookup"><span data-stu-id="112d0-111">Table\\BankJournalLineStaging</span></span>
+1.  <span data-ttu-id="476e3-106">Kompileerige ja sünkroonige järgmised panga töölehe liitüksused, üksused ja vahetabelid.</span><span class="sxs-lookup"><span data-stu-id="476e3-106">Compile and synchronize the following bank journal composite entities, entities, and staging tables:</span></span>
+    -   <span data-ttu-id="476e3-107">Liitüksus\\BankJournalEntity</span><span class="sxs-lookup"><span data-stu-id="476e3-107">Composite Entity\\BankJournalEntity</span></span>
+    -   <span data-ttu-id="476e3-108">Üksus\\BankJournalHeaderEntity</span><span class="sxs-lookup"><span data-stu-id="476e3-108">Entity\\BankJournalHeaderEntity</span></span>
+    -   <span data-ttu-id="476e3-109">Üksus\\BankJournalLineEntity</span><span class="sxs-lookup"><span data-stu-id="476e3-109">Entity\\BankJournalLineEntity</span></span>
+    -   <span data-ttu-id="476e3-110">Tabel\\BankJournalHeaderStaging</span><span class="sxs-lookup"><span data-stu-id="476e3-110">Table\\BankJournalHeaderStaging</span></span>
+    -   <span data-ttu-id="476e3-111">Tabel\\BankJournalLineStaging</span><span class="sxs-lookup"><span data-stu-id="476e3-111">Table\\BankJournalLineStaging</span></span>
 
-2.  <span data-ttu-id="112d0-112">Andmehaldus\\andmeprojektid</span><span class="sxs-lookup"><span data-stu-id="112d0-112">Data management\\data projects</span></span>
-    -   <span data-ttu-id="112d0-113">Avage tüüp **Pangakanne** paigutuses **Lähteandmed**.</span><span class="sxs-lookup"><span data-stu-id="112d0-113">Expose the **Bank Transaction** type on **Source Data** layout.</span></span>
-        -   <span data-ttu-id="112d0-114">Lähteandmete vorming = XML-element</span><span class="sxs-lookup"><span data-stu-id="112d0-114">Source data format = XML-Element</span></span>
-        -   <span data-ttu-id="112d0-115">Üksuse nimi = Panga tööleht</span><span class="sxs-lookup"><span data-stu-id="112d0-115">Entity name = Bank Journal</span></span>
-        -   <span data-ttu-id="112d0-116">Andmefaili üleslaadimise = uus faili SampleBankJournalCompositeEntity.xml versioon.</span><span class="sxs-lookup"><span data-stu-id="112d0-116">Upload data file = new version SampleBankJournalCompositeEntity.xml</span></span>
-        -   <span data-ttu-id="112d0-117">Klõpsake valikut **Jah**, et olemasolev fail üle kirjutada.</span><span class="sxs-lookup"><span data-stu-id="112d0-117">Click **Yes** to overwrite the existing file.</span></span>
-        -   <span data-ttu-id="112d0-118">Klõpsake valikut **Jah**, et luua vastendus nullist.</span><span class="sxs-lookup"><span data-stu-id="112d0-118">Click **Yes** to generate mapping from scratch.</span></span>
-        -   <span data-ttu-id="112d0-119">Kontrollige, kas pangakande tüüp on vastendatud.</span><span class="sxs-lookup"><span data-stu-id="112d0-119">Verify that the Bank Transaction Type is mapped.</span></span>
-            -   <span data-ttu-id="112d0-120">Klõpsake rea üksust **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="112d0-120">Click **View map** on Line entity.</span></span>
-            -   <span data-ttu-id="112d0-121">Kontrollige, kas pangekande tüüp on vastendatud valikult Allikas valikule Ajastamine.</span><span class="sxs-lookup"><span data-stu-id="112d0-121">Verify that Bank Transaction type is mapped from Source to Staging.</span></span>
+2.  <span data-ttu-id="476e3-112">Andmehaldus\\andmeprojektid</span><span class="sxs-lookup"><span data-stu-id="476e3-112">Data management\\data projects</span></span>
+    -   <span data-ttu-id="476e3-113">Avage tüüp **Pangakanne** paigutuses **Lähteandmed**.</span><span class="sxs-lookup"><span data-stu-id="476e3-113">Expose the **Bank Transaction** type on **Source Data** layout.</span></span>
+        -   <span data-ttu-id="476e3-114">Lähteandmete vorming = XML-element</span><span class="sxs-lookup"><span data-stu-id="476e3-114">Source data format = XML-Element</span></span>
+        -   <span data-ttu-id="476e3-115">Üksuse nimi = Panga tööleht</span><span class="sxs-lookup"><span data-stu-id="476e3-115">Entity name = Bank Journal</span></span>
+        -   <span data-ttu-id="476e3-116">Andmefaili üleslaadimise = uus faili SampleBankJournalCompositeEntity.xml versioon.</span><span class="sxs-lookup"><span data-stu-id="476e3-116">Upload data file = new version SampleBankJournalCompositeEntity.xml</span></span>
+        -   <span data-ttu-id="476e3-117">Klõpsake valikut **Jah**, et olemasolev fail üle kirjutada.</span><span class="sxs-lookup"><span data-stu-id="476e3-117">Click **Yes** to overwrite the existing file.</span></span>
+        -   <span data-ttu-id="476e3-118">Klõpsake valikut **Jah**, et luua vastendus nullist.</span><span class="sxs-lookup"><span data-stu-id="476e3-118">Click **Yes** to generate mapping from scratch.</span></span>
+        -   <span data-ttu-id="476e3-119">Kontrollige, kas pangakande tüüp on vastendatud.</span><span class="sxs-lookup"><span data-stu-id="476e3-119">Verify that the Bank Transaction Type is mapped.</span></span>
+            -   <span data-ttu-id="476e3-120">Klõpsake rea üksust **Kuva kaart**.</span><span class="sxs-lookup"><span data-stu-id="476e3-120">Click **View map** on Line entity.</span></span>
+            -   <span data-ttu-id="476e3-121">Kontrollige, kas pangekande tüüp on vastendatud valikult Allikas valikule Ajastamine.</span><span class="sxs-lookup"><span data-stu-id="476e3-121">Verify that Bank Transaction type is mapped from Source to Staging.</span></span>
 
-3.  <span data-ttu-id="112d0-122">Importige uus väljavõte.</span><span class="sxs-lookup"><span data-stu-id="112d0-122">Import the new statement.</span></span>
-
-
+3.  <span data-ttu-id="476e3-122">Importige uus väljavõte.</span><span class="sxs-lookup"><span data-stu-id="476e3-122">Import the new statement.</span></span>
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
