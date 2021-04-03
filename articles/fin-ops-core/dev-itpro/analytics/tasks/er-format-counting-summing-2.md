@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6215fe1f32bcb4833bd009b7c33e09edbba17817
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: d6eb3d686e8f60de51001deffb4c2460c181a4ab
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092993"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565161"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>Elektrooniline aruandlus. Vormingu konfigureerimine loendamiseks ja liitmiseks (2. osa – arvutuste konfigureerimine)
 
@@ -116,7 +115,7 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 61. Klõpsake nuppu Salvesta.
 62. Sulgege leht.
 63. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria?.
-64. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria? \ Kirje =  Intrastat.CommodityRecord.
+64. Laiendage puul valikut Intrastat \ Andmed: seeria \ Lähetused: seeria? \ Kirje = Intrastat.CommodityRecord.
 65. Klõpsake vahekaarti Vorming.
 66. Valige puult Intrastat \ Andmed \ Lähetused \ Kirje \ Arve summa EUR.
 67. Klõpsake vahekaarti Vastendus.
@@ -127,7 +126,7 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 72. Sulgege leht.
     * Liitke selle järjestuse ridade arveldatud summade väärtused. Tulemusi kasutatakse nimega „InvoicedAmountEUR” erinevate intrastati suundade ja kaubakoodide puhul eraldi. Vaadake seda kui virtuaalset loomingut Exceli arvutustabelis. Iga kande puhul täidetakse rida, mille esimene veerg on „plokk”, vastavalt väärtustega „Import” ja „Eksport”. Teine plokk „kirje” täidetakse kaubakoodi väärtusega ja kolmas veerg „InvoicedAmountEUR” täidetakse arve summa väärtusega.  
 73. Laiendage puul valikut Intrastat \ Andmed \ Saabumised?.
-74. Laiendage puul valikut Intrastat \ Andmed \ Saabumised? \ Kirje =  Intrastat.CommodityRecord.
+74. Laiendage puul valikut Intrastat \ Andmed \ Saabumised? \ Kirje = Intrastat.CommodityRecord.
 75. Klõpsake vahekaarti Vorming.
 76. Valige puult Intrastat \ Andmed \ Saabumised \ Kirje \ Arve summa EUR.
 77. Klõpsake vahekaarti Vastendus.

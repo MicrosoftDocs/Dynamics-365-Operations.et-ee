@@ -3,7 +3,7 @@ title: Meilimallide loomine kandesündmuste jaoks
 description: Selles teemas kirjeldatakse, kuidas luua, üles laadida ja konfigureerida meilimalle Microsoft Dynamics 365 Commerce'i kandesündmuste jaoks.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000777"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555241"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Meilimallide loomine kandesündmuste jaoks
 
@@ -39,7 +39,7 @@ Enne kindla kandesündmuse vastendamist meilimallile, peate looma selle malli.
 
 Meilimalli loomiseks tehke järgmist.
 
-1. Avage Commerce'i peakontoris **Organisatsiooni meilimallid**, mis asub jaotises **Retail ja Commerce \> Peakorteri seadistamine \> Organisatsiooni meilimallid** või **Organisatsiooni haldus \> Seadistamine \> Organisatsiooni meilimallid**.
+1. Avage Commerce'i headquarters, minge **Jaemüük ja Äri \> jaotises \>Organisatsiooni meilimallid** või **Organisatsiooni haldus \> Seadistamine \>  Organisatsiooni meilimallid**.
 1. Valige suvand **Uus**.
 1. Seadistage jaotises **Üldine** järgmised väljad.
 
@@ -78,28 +78,29 @@ Siin on näide.
 
 Järgmised kohatäited toovad ja kuvavad müügitellimuse tasemel määratletud andmeid (vastupidiselt müügirea tasemele).
 
-| Kohatäite nimi    | Kohatäite väärtus                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | Tellimuse esitanud kliendi nimi.                   |
-| salesid             | Müügitellimuse müügi ID.                                       |
-| deliveryaddress     | Saadetud tellimuste tarneaadress.                         |
-| customeraddress     | Kliendi aadress.                                     |
-| deliverydate        | Tarnekuupäev.                                               |
-| shipdate            | Lähetuskuupäev.                                                   |
-| modeofdelivery      | Tellimuse tarneviis.                                  |
-| lisakulud             | Tellimuse kogukulud.                                 |
-| maks                 | Tellimuse maks kokku.                                     |
-| kokku               | Tellimuse kogusumma.                                  |
-| ordernetamount      | Tellimuse kogusumma miinus kogu maks.             |
-| allahindlus            | Tellimuse lõppallahindlus.                                |
-| storename           | Poe nimi, kus tellimus esitati.                |
-| storeaddress        | Tellimuse esitanud poe aadress.                  |
-| storeopenfrom       | Tellimuse esitanud poe lahtiolekuaeg.             |
-| storeopento         | Tellimuse esitanud poe sulgemisaeg.             |
-| pickupstorename     | Poe nimi, kust tellimus peale võetakse.         |
-| pickupstoreaddress  | Poe aadress, kust tellimus peale võetakse.      |
-| pickupopenstorefrom | Poe lahtiolekuaeg, kust tellimus peale võetakse. |
-| pickupopenstoreto   | Poe sulgemisaeg, kust tellimus peale võetakse. |
+| Kohatäite nimi     | Kohatäite väärtus                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | Tellimuse esitanud kliendi nimi.               |
+| salesid              | Müügitellimuse müügi ID.                                   |
+| deliveryaddress      | Saadetud tellimuste tarneaadress.                     |
+| customeraddress      | Kliendi aadress.                                 |
+| kliendimeiliaadress | Meiliaadress, mille klient väljaregistreerimise ajal sisestas.     |
+| deliverydate         | Tarnekuupäev.                                           |
+| shipdate             | Lähetuskuupäev.                                               |
+| modeofdelivery       | Tellimuse tarneviis.                              |
+| lisakulud              | Tellimuse kogukulud.                             |
+| maks                  | Tellimuse maks kokku.                                 |
+| kokku                | Tellimuse kogusumma.                              |
+| ordernetamount       | Tellimuse kogusumma miinus kogu maks.         |
+| allahindlus             | Tellimuse lõppallahindlus.                            |
+| storename            | Poe nimi, kus tellimus esitati.            |
+| storeaddress         | Tellimuse esitanud poe aadress.              |
+| storeopenfrom        | Tellimuse esitanud poe lahtiolekuaeg.         |
+| storeopento          | Tellimuse esitanud poe sulgemisaeg.         |
+| pickupstorename      | Poe nimi, kust tellimus peale võetakse.     |
+| pickupstoreaddress   | Poe aadress, kust tellimus peale võetakse.  |
+| pickupopenstorefrom  | Poe lahtiolekuaeg, kust tellimus peale võetakse. |
+| pickupopenstoreto    | Poe sulgemisaeg, kust tellimus peale võetakse. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Tellimuserea kohatäited (müügirea tase)
 
@@ -169,11 +170,8 @@ Siin on näide.
 
 Kviitungeid saab saata klientidele, kes teevad oste jaemüügikassas (POS). Üldiselt sarnanevad meili teel saadetava kviitungi malli loomise etapid muude kandesündmuste mallide loomisega. Kuid järgmisi muudatusi on vaja teha.
 
-- Meilimalli meili ID peab olema **emailRecpt**.
-- Kviitungi tekst sisestatakse meili kohatäite **%message%** abil. Tagamaks, et kviitungi sisu oleks õigesti renderdatud, lisage see siltide **%message%** HTML-iga kohatäide **&lt;pre&gt;** ja **&lt;/pre&gt;** vahele.
-- Meili päise ja jaluse HTML-i reapiirid teisendatakse HTML-i siltideks **&lt;br /&gt;**, et kviitungi sisu renderdataks õigesti. Soovimatu vertikaalse tühiku eemaldamiseks kviitungi meilides, eemaldage reapiirid HTML-i mis tahes kohast, kus vertikaalset ruumi pole vaja.
-
-Lisateavet meili kviitungite konfigureerimise kohta vt teemast [Meili kviitungite seadistamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- Kviitungi tekst sisestatakse meili kohatäite **%message%** abil. Tagamaks, et kviitungi sisu oleks õigesti renderdatud, lisage **%message%** kohatäide HTML-iga **&lt;pre&gt;** ja **&lt;pre&gt;** vahele.
+- Kohatäitjat **%receiptid%** saab kasutada QR-koodi või vöötkoodi näitamiseks, mis tähistab kviitungi ID-d. (QR-koodid ja vöötkoodid on dünaamiliselt loodud ja neid teenuseid teenuseid loonud kolmanda osapoole teenus.) Lisateavet selle kohta, kuidas kuvada QR-kood või vöötkood meiliga saadetud kviitungis, vt [Lisa QR-kood või vöötkood kande- ja kviitungi meilidele](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>Meili HTML-i üleslaadimine
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115676"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560455"
 ---
 # <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
 
@@ -92,9 +91,13 @@ Kuna toode on esindatud SKUna, saab eristatavate toodete, tooteetalonide ja toot
 
 Kui topeltkirjutamise funktsioon on lubatud, sünkroonitakse rakenduse Finance and Operations tooted muudes Dynamics 365 toodetes olekus **Mustand**. Need lisatakse esimesele hinnakirjale, millel on sama valuuta. Teisisõnu lisatakse need esimesele hinnakirjale Dynamics 365 rakenduses, mis vastab teie juriidilise tabeli valuutale, kus toode on välja antud rakenduses Finance and Operations. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele. 
 
+Topeltkirjutuse programmi praegune rakendus, mis seostab vaikehinnaloendi üksusega rakendusega seostatud valuutat ja leiab hinnakirja nimest tähestikulises järjekorras esimese hinnakirja kliendikogemuse Finance and Operations rakendusest. Kui teil on selle valuuta jaoks mitu hinnakirja, tuleb hinnakirja nime muuta varasemaks tähestikulises järjestuses varasemaks nimeks, kui selle valuuta jaoks on mitu hinnakirja.
+
 Vaikimisi sünkroonitakse Finance and Operationsi rakenduste tooteid teiste Dynamics 365 rakendustega olekus **Mustand**. Toote sünkroonimiseks olekuga **Aktiivne**, et saaksite seda kasutada näiteks otse müügitellimuse pakkumistes, tuleb valida järgmine säte: **Süsteem > Haldus > Süsteemihaldus > Süsteemi sätted > Müük** ja seejärel suvand **Loo tooteid aktiivses olekus = jah**. 
 
 Kui tooted on sünkroonitud, peate rakenduses sisestama väärtuse välja **Müügiüksus** jaoks, sest see on Finance and Operationsi rakenduses Sales kohustuslik väli.
+
+Dynamics 365 Sales loodud tooteperesid ei toetata toodete topeltkirjutusega sünkroonimist.
 
 Toodete sünkroonimine toimub Finance and Operationsi rakendusest teenusesse Dataverse. See tähendab, et toote tabeli veergude väärtusi saab muuta Dataverse’is, aga kui käivitatakse sünkroonimine (kui tooteveergu muudetakse Finance and Operationsi rakenduses), alistab see väärtused Dataverse’is. 
 
