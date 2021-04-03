@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fcb8eda188a6796282a7a800b87a68dfef9d7d62
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 1d7899ac79805abeb55323bd21f83b3af38e09b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097334"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238674"
 ---
 # <a name="enrich-a-product-page"></a>Tootelehe rikastamine
 
@@ -34,7 +34,7 @@ Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce t
 
 Vaikimisi kasutab teie sait toote andmete näitamiseks üldist lehte. See leht sisaldab põhiteavet toote ja selle müümiseks vajalike juhtelementide kohta. Samas saate täiendada kaubanduse skaala üksusest tulevat teavet konkreetse toote täiendavate piltide või tekstiga. See protsess on tuntud kui toote lehe rikastamine.
 
-Paljudel juhtudel soovite oma toodete jaoks kasutada kindlat täiendavat sisu. Kui avate autoriseerimise tööriistal suvandi **Jaemüük ja kaubandus**, näete saidile määratud kanalist pärinevate toodete loendit. Selles loendis näitab veerg **Rikastatud**, kas toote tooteleht on rikastatud. Kui veerus kuvatakse märge, on toote jaoks olemas rikastatud toote leht. Kui ühtegi märget ei kuvata, kasutatakse toote jaoks vaikimisi tootelehte ja sisu. Võite kuvada  nii rikastatud kui ka mitte rikastatud toote lehtede eelvaate, valides loendist toote nime.
+Paljudel juhtudel soovite oma toodete jaoks kasutada kindlat täiendavat sisu. Kui avate autoriseerimise tööriistal suvandi **Jaemüük ja kaubandus**, näete saidile määratud kanalist pärinevate toodete loendit. Selles loendis näitab veerg **Rikastatud**, kas toote tooteleht on rikastatud. Kui veerus kuvatakse märge, on toote jaoks olemas rikastatud toote leht. Kui ühtegi märget ei kuvata, kasutatakse toote jaoks vaikimisi tootelehte ja sisu. Võite kuvada nii rikastatud kui ka mitte rikastatud toote lehtede eelvaate, valides loendist toote nime.
 
 ## <a name="enrich-a-product-page"></a>Tootelehe rikastamine
 

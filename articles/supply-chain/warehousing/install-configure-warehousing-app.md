@@ -18,19 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142271"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486973"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Laorakenduse installimine ja ühendamine
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Selles teemas kirjeldatakse, kuidas konfigureerida vana laorakendust. Kui otsite teavet selle kohta, kuidas konfigureerida uut laohalduse mobiilirakendust (praegu avaliku eelversioonina), vaadake jaotisest [Laohalduse mobiilirakenduse installimine ja ühendamine](install-configure-warehouse-management-app.md).
+> Selles teemas kirjeldatakse, kuidas konfigureerida vana laorakendust. Kui otsite teavet selle kohta, kuidas konfigureerida uut laohalduse mobiilirakendust, vaadake jaotisest [Laohalduse mobiilirakenduse installimine ja ühendamine](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Selles teemas kirjeldatakse, kuidas pilvejuurutuse korral konfigureerida laorakendust. Kui soovite teavet asutusesiseste juurutamiste laorakenduse konfigureerimise kohta, vt [Kohapealsete juurutuste ladustamine](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

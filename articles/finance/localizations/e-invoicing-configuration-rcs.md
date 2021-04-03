@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104371"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592618"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Teenuses Regulatory Configuration Services (RCS) elektroonilise arvelduse lisandmooduli konfigureerimine
 
@@ -64,7 +64,6 @@ Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on praeg
 | Belgia        | Belgia elektrooniline arve (BE)      | Müügi- ja projektiarved |
 | Brasiilia         | Brasiilia NF-e (BR)                  | Finantsdokumendi mudel 55, paranduskirjad, tühistamised ja tagasilükkamised |
 | Brasiilia         | Brasiilia NFS-e ABRASF Curitiba (BR) | Teenuste finantsdokumendid |
-| Brasiilia         | Brasiilia NFS-e São Paulo (BR)       | Teenuste finantsdokumendid |
 | Taani        | Taani elektrooniline arve (DK)       | Müügi- ja projektiarved |
 | Egiptus          | Egiptuse elektrooniline arve (EG) | Müügi- ja projektiarved |
 | Eesti        | Eesti elektrooniline arve (EE)     | Müügi- ja projektiarved |
@@ -119,10 +118,6 @@ Järgmistes loendites on toodud ER-i funktsioonide jaoks saadaolevad ER-i vormin
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF Inquire Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Brasiilia (BR) NFS-e: NFS-e São Paulo linn
-
-- NFS-e Sao Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Taani (DK) elektroonilised arved: Taani müügi- ja projektiarved
 
@@ -210,7 +205,7 @@ Järgmises tabelis on toodud saadaolevad tegevused ja see, kas need on praegu ü
 | Brasiilia SEFAZ teenuse kutsumine                  | Integreerige finantsdokumendi edastamiseks Brasiilia SEFAZ teenusega.       | Eelvaates           |
 | Mehhiko PAC teenuse kutsumine                      | Integreerige CFDI edastamiseks Mehhiko PAC teenusega.                      | Eelvaates           |
 | Töötle vastust                              | Analüüsige veebiteenuse kutsumise kaudu saadud vastust.                     | Üldiselt saadaval  |
-| MS-i teenuse Power Automate kasutamine                         | Integreerige Microsofti teenusesse Power Automate sisseehitatud vooga.                       | Eelvaates           |
+| MS-i teenuse Power Automate kasutamine                         | Integreeri vooga sisseehitatud Microsoft Power Automate.                       | Eelvaates           |
 
 ## <a name="configuration-providers"></a>Konfiguratsiooni pakkujad
 
