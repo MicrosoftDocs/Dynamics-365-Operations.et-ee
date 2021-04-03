@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970302"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556262"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
@@ -37,14 +37,14 @@ Sissetuleva tellimuse vastuvõtmise ajal tuvastab ristlaadimise seadistus automa
 > [!NOTE]
 > Lao kandeid **ei** jäeta registreerimata ristlaadimise tühistamisel, isegi kui selle võimaluse säte on laohalduse parameetrites sisse lülitatud.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Funktsiooni Plaanitud ristilaadimine sisselülitamine
+## <a name="turn-on-the-planned-cross-docking-features"></a>Plaanitud ristilaadimise funktsioonide sisselülitamine
 
-Enne täiustatud plaanitud ristlaadimise kasutamist, peate funktsiooni oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage järgmised funktsioonid järgmises järjekorras sisse.
 
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi** *Plaanitud ristilaadimine*
+1. *Plaanitud ristlaadimine*
+2. *Asukohadirektiividega ristiliaadimismallid*
 
-## <a name="setup"></a>Häälestus
+## <a name="setup"></a>Seadistus
 
 ### <a name="regenerate-load-posting-methods"></a>Koorma sisestamise meetodite uuesti loomine
 
@@ -89,6 +89,10 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
     - **Uuesti kinnitamine tarne vastuvõtmisel:** *Ei*
 
         See suvand määratleb, kas tarnet tuleb vastuvõtmise ajal uuesti kinnitada. Kui selle suvandi väärtuseks on seatud *Jah*, kontrollitakse nii maksimaalset ajavahemikku kui ka aegumiskuupäevade vahemikku.
+
+    - **Korralduse kood** jätke see väli tühjaks
+
+        See valik võimaldab süsteemil kasutada asukohakorraldusi, et aidata määrata parim asukoht ristlaadimise varude teisaldamiseks. Selle seadistamiseks määrake igale asjakohasele ristlaadimise mallile korralduse kood. Iga korralduse kood tähistab kordumatut asukohakorraldust.
 
     - **Kinnita maksimaalne ajavahemik:** *Jah*
 

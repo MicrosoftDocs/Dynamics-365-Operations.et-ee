@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe009de3a94bf3ea7885f8f794879e16c36a3266
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ed215c4577484269ddf5de20ad93417f8eef38d6
+ms.sourcegitcommit: 45d10d0c25b3ec585323709bb97ba1895b500429
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115338"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5502984"
 ---
 # <a name="edit-personal-information"></a>Isiklike andmete muutmine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Saate Dynamics 365 Human Resourcesi isikuandmeid redigeerida jaotises **Töövõtja iseteeninduse tööruum**.
 
@@ -38,13 +40,16 @@ Redigeeritavate isikuandmete hulka kuulub järgnev.
 - Makseviis
 - Human Resourcesis kasutatav pilt
 
+>[!NOTE]
+>On võimalik, et te ei saa redigeerida teatud tüüpi isiklikke andmeid, nt ärikontakti üksikasju. Lisateavet vt teemast [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md).
+
 Globaalses aadressiraamatus seatud parameetrid määratlevad rollid, mis näevad teie isikuandmeid.
 
 1. Human Resourcesis valige **Töövõtja iseteenindus**.
 
 2. Valige **Redigeeri isikuandmeid**.
 
-3. Aadressi muutmiseks valige vahekaart **Aadressid**. Teie tehtud muudatused kuvatakse personalijuhi teavitamiseks tööruumis **Personalihaldus**. 
+3. Aadressi muutmiseks valige vahekaart **Aadressid**. Teie tehtud muudatused kuvatakse personalijuhi teavitamiseks tööruumis **Personalihaldus**.
 
     - Uue aadressi lisamiseks valige **Lisa**.
     - Olemasoleva aadressi redigeerimiseks valige aadress ja seejärel valige **Redigeeri**.
@@ -52,11 +57,13 @@ Globaalses aadressiraamatus seatud parameetrid määratlevad rollid, mis näevad
     - Kontakti lisamiseks või eemaldamiseks valige **Rohkem suvandeid** ja seejärel valige **Täpsem**. Jaotises **Kontaktteave** valige **Lisa** või **Eemalda** ja redigeerige välju vastavalt vajadusele.
     - Ajavööndi ja asukoha määramiseks valige **Rohkem suvandeid** ja seejärel valige **Täpsem**. Jaotises **Üldine** redigeerige välju vastavalt vajadusele.
 
-4. Oma kontaktandmete muutmiseks valige vahekaart **Kontaktandmed**. Saate anda erinevat kontaktteavet, sh telefoni, meili ja sotsiaalmeedia linke. Saate määrata kontaktteabe esmaseks, kuid esmaseks saab määrata igast tüübist ainult ühe. 
+4. Oma kontaktandmete muutmiseks valige vahekaart **Kontaktandmed**. Saate anda erinevat kontaktteavet, sh telefoni, meili ja sotsiaalmeedia linke. Saate määrata kontaktteabe esmaseks, kuid esmaseks saab määrata igast tüübist ainult ühe.
 
     - Uue kontaktteabe lisamiseks valige **Lisa**. Redigeerige välju vastavalt vajadusele.
     - Olemasoleva kontaktteabe redigeerimiseks valige üksus ja seejärel valige **Redigeeri**. Redigeerige välju vastavalt vajadusele.
     - Kontaktteabe privaatsena määramiseks valige see üksus, valige **Täpsem** ja seadke nupp **Privaatne** väärtusele **Jah**. Valige nupp **OK**.
+      >[!NOTE]
+      >Nupp **Täpsem** pole saadaval, kui teie administraator on lubanud teie keskkonnas funktsiooni **(Eelversioon) Piirake töötajatel aadressi- ja kontaktteabe lisamist või redigeerimist kindlal otstarbel**. Lisateavet vt teemast [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md).
   
 5. Isiklike kontaktide muutmiseks valige vahekaart **Isiklikud kontaktid**. Saate määrata lähedasi isikuid, kasusaajaid ja sõltuvaid. Kontaktiks võib olla isik või organisatsioon. Funktsioon **Soodustuste haldus** kasutab isiklikke kontaktandmeid. Lisateavet leiate teemast [Isiklike kontaktide sobivuse suvandite konfigureerimine](hr-benefits-setup-contact-eligibility-options.md).
 

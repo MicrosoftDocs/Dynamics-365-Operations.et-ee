@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993999"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487093"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Lao konfiguratsiooni tõrkeotsing
 
@@ -109,5 +109,32 @@ Selleks, et võimaldada töötajatel seda muudatust teha, saate luua menüü-ük
 
 Vajadusel saate seadistada lehel muid välju.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>Asukohaprofiili laadimissildade halduse profiil ei takista varude tüüpide segamist.
+
+### <a name="issue-description"></a>Probleemi kirjeldus
+
+Kasutate *saadetise konsolideerimispoliitikaid*. Olete seadistanud *asukohaprofiili* jaoks *laadimissildade halduse profiili*, kuid töö loomisel segatakse varude tüübid lõppasukohas.
+
+### <a name="issue-resolution"></a>Probleemi lahendamine
+
+Laadimissildade halduse profiilid nõuavad töö eelnevat tükeldamist. Teisisõnu eeldab laadimissildade halduse profiil, et tööpäises pole mitut asetamise kohta.
+
+Selleks, et laadimissildade halduse profiil saaks varude segamist tõhusalt hallata, tuleb seadistada tööpäise piir.
+
+Selles näites on meie laadimissildade halduse profiil konfigureeritud nii, et **Varude tüübid, mida ei tohiks segada** on määratud olekusse *Saadetise ID*, ja me seadistame selle jaoks tööpäise piiri:
+
+1. Avage **Laohaldus \> Seadistus \> Töö \> Töömallid**.
+1. Redigeerimiseks valige **Töökäsu tüüp** (nt *Ostutellimused*).
+1. Valige redigeeritav töömall.
+1. Valige Toimingupaanil nupp **Päringu redigeerimine**.
+1. Avage vahekaart **Sortimine** ja lisage rida järgmiste sätetega.
+    - **Tabel** - *Ajutised töökanded*
+    - **Tuletatud tabel** - *Ajutised töökanded*
+    - **Väli** - *Saadetise ID*
+1. Valige nupp **OK**.
+1. Naasete lehele **Töömallid**. Valige toimingupaanilt suvand **Tööpäise piirid**.
+1. Valige Toimingupaanil nupp **Redigeeri**.
+1. Märkige ruut, mis on seotud **Välja nimi** *Saadetise ID-ga*.
+1. Valige toimingupaanil nupp **Salvesta**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

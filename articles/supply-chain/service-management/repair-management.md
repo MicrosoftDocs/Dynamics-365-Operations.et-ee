@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001341"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470637"
 ---
 # <a name="repair-management"></a>Parandushaldus       
 
@@ -37,15 +37,11 @@ Seadistage sümptomid, diagnoos ja lahenduse sätted. Kõiki neid saab rakendada
 
 Kasutage järgmisi seadistusvorme, et sisestada teavet, mida kasutatakse paranduse sümptomite, diagnoosi ja lahenduse määramiseks.
 
-1.  Klõpsake valikuid **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Tingimused**.
-
-2.  Klõpsake valikuid **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Sümptomialad**.
-
-3.  Klõpsake valikuid **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Diagnoosialad**.
-
-4.  Klõpsake valikuid **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Lahendused**.
-
-5.  Klõpsake valikuid **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Parandamise etapid**.
+- **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Tingimused**.
+- **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Sümptomialad**.
+-  **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Diagnoosialad**.
+- **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Lahendused**.
+- **Teenusehaldus** \> **Seadistamine** \> **Paranda** \> **Parandamise etapid**.
 
 ## <a name="symptoms-and-conditions"></a>Sümptomid ja tingimused
 
@@ -81,19 +77,19 @@ Parandusrea saab luua parandusprotsessi iga sammu kohta.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Parandusrea loomine teenustellimusele
 
-1.  Klõpsake valikuid **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
+1.  **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
 
 2.  Valige teenustellimus parandamist vajava teenusobjektiga.
 
-3.  Klõpsake valikuid **Paranda** \> **Parandusread**, et avada vorm **Parandusread**.
+3.  Valige **Paranda** \> **Parandusread**, et avada vorm **Parandusread**.
 
-4.  Vajutage uue rea loomiseks klahve CTRL+N.
+4.  Valige uue rea loomiseks **Uus**.
 
 5.  Valige teenusobjekt. Saate valida ükskõik millise teenusobjekti, mis on teenustellimusel objektiseosena seadistatud.
 
-6.  Valige ükskõik milline parandusreale vastav eelseadistatud sümptomi-, diagnoosi- ja täitmisväärtus ning kui vaja, klõpsake vahekaarti **Märkus**, et luua parandusreale märkus.
+6.  Valige ükskõik milline parandusreale vastav eelseadistatud sümptomi-, diagnoosi- ja täitmisväärtus ning kui vaja, valige vahekaart **Märkus**, et luua parandusreale märkus.
 
-7.  Uue parandusrea salvestamiseks vajutage klahve Press CTRL+S. Välja **Loodud kuupäev ja kellaaeg** vormi **Parandusread** vahekaardil **Üldine** värskendatakse salvestamise ajal.
+7.  Uue parandusrea salvestamiseks valige **Salvesta**. Välja **Loodud kuupäev ja kellaaeg** vormi **Parandusread** vahekaardil **Üldine** värskendatakse salvestamise ajal.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Edenemise jälgimine ja parandusprobleemi lahendamine
 

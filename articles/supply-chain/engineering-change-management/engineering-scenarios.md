@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987574"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487917"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnilise muudatuse haldamise funktsiooni juhis
 
@@ -397,7 +397,6 @@ Insener vaatab nüüd kliendi taotluse üle ja loob toote jaoks muudatuse tellim
 
 1. Valige toimingupaani vahekaardil **Muudatuse tellimus** grupis **Muudatuse olek** suvand **Kinnita**.
 1. Valige **Töötle**, et värskendada toote teavet.
-1. Valige **Lõpeta**, et märkida muudatuse tellimus lõpule viiduks.
 
 ## <a name="release-the-changed-product"></a>Muudetud toote väljastamine
 
@@ -411,5 +410,8 @@ Toote saab nüüd uuesti ettevõttele *USMF* väljastada ja seejärel kliendile 
 1. Tehke dialoogiboksi **Väljastamised** sulgemiseks ja muudatuse tellimuse juurde naasmiseks valik **OK**.
 1. Valige toimingupaani vahekaardil **Muudatuse tellimus** grupis **Tooteväljastused** suvand **Töötle**, et väljastada mõjutatud tooted valitud ettevõtetele. Võite väljastamise protsessi alustamiseks valida ka **Väljasta tootestruktuur**.
 
+## <a name="complete-the-change-order"></a>Märgi muudatuse tellimus lõpuleviiduks
+
+Muudatuse tellimuse lõpuleviiduks märkimiseks (see osutab, et rohkem pole vaja midagi teha) valige toimingupaanil **Vii lõpule**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
