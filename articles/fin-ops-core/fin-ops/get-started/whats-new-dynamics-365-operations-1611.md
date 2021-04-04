@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e5627b605b72b8f9c84a967f88bbfdc0c54173fc
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797191"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564369"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
 
@@ -623,7 +622,7 @@ Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi võ
 | Saate konfigureerida elektroonilise aruandluse aruandeid, et luua Excelis, Microsoft Wordis või PDF-vormingus elektroonilisi dokumente. | Üks konfiguratsioon lubab elektroonilise aruandluse aruanded, et luua elektroonilisi dokumente kolmes erinevas vormingus: OpenXML-i tööleht (Excel), Word ja XML-vormide andmevorming (XFDF) (PDF). Kasutajad saavad valida vormingu, lisades vormingu malli elektroonilisele aruandlusele Exceli, Wordi või PDF-i dokumendina. |
 | Konfigureerige elektroonilise aruandluse aruandeid, et kontrollida lehepiire ja sisestada andmed selliste elektrooniliste dokumentide lehe päisetesse ja jalustesse, mis luuakse OpenXML-i töölehe vormingus. | Elektroonilise aruandluse aruanded saavad sisestada äriandmeid lehepäistesse ja -jalustesse ning samuti kontrollida, kus lehepiir tekib. Seetõttu saavad aruanded toetada loodud elektrooniliste dokumentide lehtede staatilisi ülemisi ja alumisi jaotiseid. Need saavad toetada ka nende dokumentide spetsiifilist saalimist, et need vastaks juriidilistele nõuetele. |
 | Konfigureerige elektroonilise aruandluse aruannete sihtkohta, et väljund saadetaks meilina ning et äriandmeid ja elektroonilise aruandluse loogikat (avaldised) saaks kasutada käitusajal kasutatava meiliaadressi määramiseks. | Varasemalt, kui konfigureerisite elektroonilise aruandluse sihtkohta, sai väljundi adressaadi meiliaadressit määratleda käitusajal. Nüüd saate konfigueerida avaldist elektroonilise aruandluse vormingus. Selle avaldise saab seejärel valida sihtkohas meiliaadressi allikana iga vormingu konfiguratsiooni ja iga väljundi komponendi (kaust või fail) jaoks eraldi. Seetõttu, kui elektrooniline aruanne töötab, saab iga loodava faili erinevale adressaadile saata ja meiliaadressi saab määratleda elektroonilise aruandluse loogika- ja äriandmete põhjal. |
-| Saate konfigureerida elektroonilise aruandluse aruannete sihtkohta nii, et väljund saadetaks Microsoft SharePointi kausta olemasoleva faili uue nimega faili või uue versioonina ja äriandmeid saaks kasutada Microsoft Power BI raamistikus andmekogumi või aruandena. | Elektroonilise aruandluse aruannete konfigureerimisel saate nüüd hõlpsalt (ilma kodeerimiseta) valmistada ette nõutavad äriandmed, et Power BI raamistik saaks neid kasutada. Kui käivitate need elektroonilise aruandluse aruanded, saate pakkuda Power BI raamistikku sobivate äriandmete ja/või Exceli aruannetega, mis on juba saadaval. Kui ajastate aruande käitused korduvas režiimis, saate luua äriandmete ajastatud lükke rakendusest Dynamics 365 for Operations Power BI-sse, et toetada Power BI põhiste aruannete värskendamisgraafikut. |
+| Saate konfigureerida elektroonilise aruandluse aruannete sihtkohta nii, et väljund saadetaks Microsoft SharePoint kausta olemasoleva faili uue nimega faili või uue versioonina ja äriandmeid saaks kasutada Microsoft Power BI raamistikus andmekogumi või aruandena. | Elektroonilise aruandluse aruannete konfigureerimisel saate nüüd hõlpsalt (ilma kodeerimiseta) valmistada ette nõutavad äriandmed, et Power BI raamistik saaks neid kasutada. Kui käivitate need elektroonilise aruandluse aruanded, saate pakkuda Power BI raamistikku sobivate äriandmete ja/või Exceli aruannetega, mis on juba saadaval. Kui ajastate aruande käitused korduvas režiimis, saate luua äriandmete ajastatud lükke rakendusest Dynamics 365 for Operations Power BI-sse, et toetada Power BI põhiste aruannete värskendamisgraafikut. |
 | Konfigureerige elektroonilise aruandluse aruandeid, et kasutada osa elektroonilisest dokumendist, mis on juba loodud andmeallikana selle ülejäänud dokumendi loomiseks. | Saate konfigureerida elektroonilise aruandluse aruandeid väljundi tekstivormingus loomiseks, et teha dokumendi rea loendamine. Seda teavet saab seejärel kasutada teistes dokumendi osades, et luua read, mis hõlmavad kokkuvõtlikke üksikasju. Kokkuvõtlikut teavet (kogusummad ja numbrid) saab arvutada ja printida loodavatesse elektroonilistesse dokumentidesse ilma, et oleks vaja andmete täiendavaid teisendusi. Seetõttu täiustab see funktsioon aruande käivitamise jõudlust ja aitab hoida konfigureeritud elektroonilise aruandluse vormingu tulevast hooldust lihtsamana. |
 | Konfigureerige elektroonilise aruandluse aruandeid, et määrata tekstivormingus loodavate elektrooniliste dokumentide failinime laiend. | Saate konfigureerida elektroonilise aruandluse aruanded, et luua väljund tekstivormingus nii, et seda saaks salvestada kindla laiendiga failina. Lisaks vaikimisi txt-laiendile saate vormingu spetsifikatsiooni järgi konfigureerida laiendid, nagu .csv ja .prn. |
 | Looge uued elektroonilise aruandluse aruanded, mis põhinevad kindlal elektroonilise aruandluse mudeli versioonil. | Varasemalt, kui lõite uue elektroonilise aruandluse vormingu, sai vormingu andmeallika asukohana kasutada ainult valitud elektroonilise aruandluse mudeli kõige värskemat versiooni. Nüüd saate valida valitud elektroonilise aruandluse mudeli mis tahes saadaoleva versiooni. See funktsioon võimaldab teil säilitada käesoleva aasta elektroonilise aruandluse aruanded ja kujundada paralleelselt järgmise aasta jaoks uus elektroonilise aruandluse mudeli versioon. |

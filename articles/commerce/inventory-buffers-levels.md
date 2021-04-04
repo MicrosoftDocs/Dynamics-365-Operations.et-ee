@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012422"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478384"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Varude puhvrite ja varude tasemete konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas konfigureerida varude puhvreid ja varude tasemeid, mis määravad varude saadavuse kohta käivad sõnumid Microsoft Dynamics 365 Commerce'i saitidel.
-
-## <a name="overview"></a>Ülevaade
 
 Dynamics 365 Commerce'i peakorter hõlmab varude andmeid ja mitmesuguseid kanaleid, nagu näiteks kassarakendused, e-poe kauplused ja muud kohandatud integreeritud rakendused, mis liigutavad varusid asünkroonsel viisil. Seetõttu ei ole Commerce'i peakorteri vaba kaubavaru lehe, kassa kasutajaliidese ja e-poe kaupluste kaubavaru saadavuse API-de kaudu hangitud vaba kaubavaru väärtused reaalajas alati täiesti täpsed.
 
