@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 11b4d185703731d8491ad10bdeedea40ce811f5d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092081"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564090"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Elektroonilise aruandluse avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid
 
@@ -143,8 +142,8 @@ Etappide lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsioon
 40. Sulgege leht.
     * Kontrollimise tingimus on konfigureeritud nii, et kehtetu IBAN-koodi puhul tagastatakse väärtus VÄÄR, kutsudes rakendusklassi „ISO7064” olemasoleva meetodi „verifyMOD1271_36”. Pange tähele, et IBAN-koodi väärtus määratletakse käitusajal dünaamiliselt kutsumismeetodi argumendina sõelutava TXT-faili sisu alusel.   
 41. Klõpsake käsku Redigeeri teadet.
-42. Väljale Valem sisestage „CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)”.
-    * CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)  
+42. Väljale Valem sisestage „CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)”.
+    * CONCATENATE("Invalid IBAN code has been found: ", format.Root.Rows.Fields.IBAN)  
 43. Klõpsake nuppu Salvesta.
 44. Sulgege leht.
 45. Klõpsake nuppu Salvesta.

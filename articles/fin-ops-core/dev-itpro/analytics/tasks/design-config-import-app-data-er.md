@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 446a4676ad00c93d691d3048408c32d7ad373d2d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7235d75aee3b8fdf39492cfbc1760bf6eae4b82e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682089"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562852"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 
@@ -50,7 +49,7 @@ Importige ER-i mudeli konfiguratsioon, mis sisaldab näidisandmemudelit, mis on 
 6. Laiendage puul väärtust „Vastus”.
     * Juurüksus „Vastus” määratletakse selleks, et määrata, millist tüüpi andmeid tuleb toetatud teenuse vastusest hankida, et avalduse andmeid värskendada.
 7. Sulgege leht.
-    * Impordite ER-i vormingu konfiguratsiooni, mis määrab, kuidas  sissetulevaid dokumente sõelutakse ER-i andmemudelisse andmete talletamiseks.
+    * Impordite ER-i vormingu konfiguratsiooni, mis määrab, kuidas sissetulevaid dokumente sõelutakse ER-i andmemudelisse andmete talletamiseks.
 8. Valige Exchange.
 9. Valige Laadi XML-failist.
     * Valige suvand Sirvi ja vali EFSTA fail format.xml.
