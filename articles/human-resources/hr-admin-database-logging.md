@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 50346cc495fe08f49137dba59dbcbb3f7f838c7b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129275"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467645"
 ---
 # <a name="configure-and-manage-database-logging"></a>Andmebaasi logimise konfigureerimine ja haldamine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Andmebaasi logimise abil saate jälgida rakenduses Microsoft Dynamics 365 Human Resources tabelite ja väljade muudatusi. Selles teemas käsitletakse järgmist.
 
