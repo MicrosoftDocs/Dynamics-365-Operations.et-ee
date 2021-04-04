@@ -2,11 +2,10 @@
 title: Elektroonilise aruandluse (ER) sihtkohad
 description: See teema annab teavet elektroonilise aruandluse sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097277"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569715"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -166,12 +165,14 @@ PDF-i teisenduse võimaluse kättesaadavaks tegemiseks praeguses Finance'i eksem
 
 ### <a name="applicability"></a>Kohaldatavus
 
-PDF-i teisenduse valikut saab sisse lülitada ainult faili komponentide puhul, mida kasutatakse väljundi loomiseks Office’i (Excel või Word) vormingus (**Exceli fail**). Kui see võimalus on sisse lülitatud, teisendatakse Office'i vormingus loodud väljund automaatselt PDF-vormingusse.
-
-### <a name="limitations"></a>Kitsendused
+PDF-i teisenduse valikut saab sisse lülitada ainult faili komponentide puhul, mida kasutatakse väljundi loomiseks Office’i (Excel või Word) vormingus (**Exceli fail**). Kui see võimalus on sisse lülitatud, teisendatakse Office'i vormingus loodud väljund automaatselt PDF-vormingusse. Finantside versioonides Exceli failitüübi **enne versiooni 10.0.18** saate selle suvandi sisse lülitada ainult **Exceli\\Fail** tüübi komponentide puhul, mida kasutatakse väljundi loomiseks [Exceli](er-fillable-excel.md) või [Wordi](er-design-configuration-word.md) vormingus. Siiski, **Versioonis 10.0.18 ja uuemas** saate selle suvandi sisse lülitada ka komponentidega **Üldine\\Fail** tüüp jaoks.
 
 > [!NOTE]
-> See funktsioon on eelvaate funktsioon ja seda kasutatakse tingimustes, mida on kirjeldatud teemas [Microsoft Dynamics 365 eelvaadete kasutamise täiendavad tingimused](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Jälgige hoiatusteadet, mis kuvatakse PDF-i teisendamise suvandi sisselülitamisel tavafailitüübi **Üldine\\File** jaoks. See teade teavitab teid, et ei ole võimalik tagada konstruktsiooni ajal, et valitud faili komponent annab sisu pdf-vormingus või käitusajal PDF-vormingus või PDF-vormingus teisendatava sisu. Seetõttu peaksite suvandi sisse lülitama ainult siis, kui olete kindel, et valitud faili komponent on konfigureeritud nii, et sisu oleks käitusajal esitatud PDF-vormingus või PDF-vormingus teisendatav sisu.
+> 
+> Kui lülitate komponendi PDF-teisendusssuvandi **Excel\\Fail** tüübi jaoks sisse, kui see komponent annab sisule vormingu, mis pole PDF, ja kui avatud sisu ei saa teisendada PDF-vormingusse, ilmneb käitusajal erand. Teade, mille saate, teavitab teid, et loodud sisu ei saa teisendada PDF-vormingusse.
+
+### <a name="limitations"></a>Kitsendused
 
 PDF-i teisenduse valik on saadaval ainult pilvejuurutustes.
 

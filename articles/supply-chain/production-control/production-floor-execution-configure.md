@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077473"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556310"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -41,7 +42,8 @@ Tootmisosakonna käivitusliides ja mitmed selles teemas kirjeldatud valikulised 
 
 ### <a name="the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliides
 
-See on peamine funktsioon, mida selles teemas kirjeldatakse. Sellega lisatakse tootmisosakonna käivitusliides teie süsteemile. Selle lubamiseks lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.  
+See on peamine funktsioon, mida selles teemas kirjeldatakse. Sellega lisatakse tootmisosakonna käivitusliides teie süsteemile. Selle lubamiseks lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.
+
 - Tootmisosakonna käivitus
 
 ### <a name="generate-license-plates"></a>Litsentsiplaatide loomine
@@ -79,6 +81,7 @@ Seadme konfiguratsioonide loomiseks ja haldamiseks avage **Tootmise juhtimine \>
 
 Järgmisena konfigureerige valitud seadme konfiguratsiooni erinevad sätted. Saadaval on järgmised väljad.
 
+- **Ainult sisse- ja väljaregistreerimine** – määrake selle suvandi väärtuseks *Jah*, et luua lihtsustatud liides, mis pakub ainult sisse- ja väljaregistreerimise funktsiooni. See keelab enamiku muid suvandeid sellel lehel. Enne selle suvandi lubamist peate eemaldama kõik read kiirkaardil **Vahekaardi valimine**.
 - **Koguse teatamine väljaregistreerimisel** – määrake suvandi väärtuseks *Jah*, et paluda töötajatel anda käimasolevate tööde kohta väljaregistreerimisel tagasisidet. Kui suvandi väärtuseks on seatud *Ei*, siis töötajatel seda teha ei paluta.
 - **Lukusta töövõtja** – kui selle suvandi väärtuseks on seatud *Ei*, siis registreeritakse töötajad välja kohe pärast registreerimist (nt uus töö). Seade naaseb seejärel sisselogimislehele. Kui suvandi väärtuseks on seatud *Jah*, siis jäävad töötajad töökaardi seadmesse sisselogituks. Töötaja saab siiski käsitsi välja logida, et teine töötaja saaks sisse logida, kui töökaardi seade jätkab sama süsteemikasutaja kontoga töötamist. Lisateavet nende kontotüüpide kohta leiate jaotisest [Määratud kasutajad](config-job-card-device.md#assigned-users).
 - **Tegeliku registreerimisaja kasutamine** – seadke suvandi väärtuseks *Jah*, et iga uue registreeringu aeg oleks samaväärne täpse ajaga, mil töötaja registreeringu esitas. Kui selle suvandi väärtuseks on seatud *Ei*, kasutatakse selle asemel sisselogimisaega. Tavaliselt võiks selle väärtuseks olla *Jah*, kui olete seadnud suvandite **Lukusta töötaja** ja/või **Üksik töötaja** väärtuseks *Jah* juhul, töötajad jäävad sageli pikemaks ajaks sisselogituks.

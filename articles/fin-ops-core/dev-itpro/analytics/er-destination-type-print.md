@@ -3,10 +3,9 @@ title: ER-i sihtkoha tüübi printer
 description: Selles teemas selgitatakse, kuidas konfigureerida printeri sihtkohta iga elektroonilise aruandluse (ER) vormingu komponendi FOLDER või FILE jaoks.
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094075"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561946"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Printeri sihtkoht
 
@@ -48,8 +47,6 @@ Selleks, et **printeri** sihtkoht oleks saadaval Microsofti Dynamics 365 Finance
 **Printeri** sihtkoha saab konfigureerida ainult faili komponentide jaoks, mida kasutatakse väljundi loomiseks kas prinditavas PDF-vormingus (PDF-i liitmine või PDF-vormingu elemendid) või Microsoft Office Excel/Word vormingus. Kui väljund luuakse PDF-vormingus, saadetakse see printerisse. Kui väljund luuakse Microsoft Office vormingus, teisendatakse see automaatselt PDF-vormingusse ja seejärel saadetakse printerisse.
 
 ### <a name="limitations"></a>Kitsendused
-
-See funktsioon on eelvaate funktsioon ja seda kasutatakse tingimustes, mida on kirjeldatud teemas [Microsoft Dynamics 365 eelvaadete kasutamise täiendavad tingimused](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 **Printeri** sihtkohta rakendatakse ainult pilve juurutamiseks.
 

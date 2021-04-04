@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112219"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463908"
 ---
 # <a name="create-plan-types"></a>Plaani tüüpide loomine
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid. Näiteks plaani tüüp Tavaline elu olemaks plaani tüübi koodi Elu, kuna see sarnaneb elukindlustuse plaanile ja peab vastama plaani tüübi koodis Elu määratud reeglitele. Teine plaani tüüp võib olla Täiendav elu, mis on samuti koos plaani tüübi koodi Elu.
 

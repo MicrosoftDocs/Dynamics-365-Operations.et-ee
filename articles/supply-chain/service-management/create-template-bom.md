@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b34cc2e9921df6e3ef619e2b2adaf8d2069fbac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5afcb8171b674281faf8100d5c01fdff8d6ff764
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974556"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470758"
 ---
 # <a name="create-a-template-bom"></a>Käsitsi koostatava mallkoosluse loomine   
 
@@ -33,9 +33,9 @@ Saate luua mallkoosluse, kasutades üht järgmistest meetoditest. Kõikide meeto
 
 ## <a name="create-a-template-bom-manually"></a>Mallkoosluse loomine käsitsi
 
-1.  Klõpsake valikut **Teenuste halduse** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
+1.  Valige **Teenuste haldus** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
 
-2.  Vormi **Mallkoosluse loomine** avamiseks vajutage klahvikombinatsiooni CTRL + N.
+2.  Vormi **Mallkoosluse loomine** avamiseks valige **Uus**.
 
 3.  Valige jaotisest **Kopeeri koosluseread viitest** suvand **Käsitsi**.
 
@@ -45,15 +45,15 @@ Saate luua mallkoosluse, kasutades üht järgmistest meetoditest. Kõikide meeto
 
 6.  Sisestage väljadele **Kuupäevast** ja **Kuupäevani** kuupäevade vahemik, millal mallkooslus on aktiveeritud.
 
-7.  Klõpsake nupul **OK**.
+7.  Valige nupp **OK**.
 
 Luuakse uus tühi mallkooslus.
 
 ## <a name="create-a-template-bom-based-on-another-template-bom"></a>Mallkoosluse loomine teise mallkoosluse baasil
 
-1.  Klõpsake valikut **Teenuste halduse** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
+1.  Valige **Teenuste haldus** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
 
-2.  Vormi **Mallkoosluse loomine** avamiseks vajutage klahvikombinatsiooni CTRL + N.
+2.  Vormi **Mallkoosluse loomine** avamiseks valige **Uus**.
 
 3.  Valige jaotisest **Kopeeri koosluseread viitest** suvand **Mallkooslus**.
 
@@ -63,15 +63,15 @@ Luuakse uus tühi mallkooslus.
 
 6.  Sisestage väljadele **Kuupäevast** ja **Kuupäevani** kuupäevade vahemik, millal mallkooslus on aktiveeritud.
 
-7.  Klõpsake nupul **OK**.
+7.  Valige nupp **OK**.
 
 Luuakse uus mallkooslus, kasutades ridu, mis vastavad algse mallkoosluse ridadele.
 
 ## <a name="create-a-template-bom-based-on-an-item-bom"></a>Mallkoosluse loomine teise mallkoosluse baasil
 
-1.  Klõpsake valikut **Teenuste halduse** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
+1.  Valige **Teenuste haldus** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
 
-2.  Vormi **Mallkoosluse loomine** avamiseks vajutage klahvikombinatsiooni CTRL + N.
+2.  Vormi **Mallkoosluse loomine** avamiseks valige **Uus**.
 
 3.  Valige jaotisest **Kopeeri koosluseread viitest** suvand **Kooslus**.
 
@@ -81,15 +81,15 @@ Luuakse uus mallkooslus, kasutades ridu, mis vastavad algse mallkoosluse ridadel
 
 6.  Sisestage väljadele **Kuupäevast** ja **Kuupäevani** kuupäevade vahemik, millal mallkooslus on aktiveeritud.
 
-7.  Klõpsake nupul **OK**.
+7.  Valige nupp **OK**.
 
 Uus mallkooslus on loodud kasutades ridu, mis vastavad tabelis **Kooslused** loendatud koosluse ridadele.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>Mallkoosluse loomine tootmiskoosluse baasil
 
-1.  Klõpsake valikut **Teenuste halduse** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
+1.  Valige **Teenuste haldus** \> **Seadistus** \> **Teenuse objektid** \> **Mallkooslused**.
 
-2.  Vormi **Mallkoosluse loomine** avamiseks vajutage klahvikombinatsiooni CTRL + N.
+2.  Vormi **Mallkoosluse loomine** avamiseks valige **Uus**.
 
 3.  Valige jaotisest **Kopeeri koosluseread viitest** suvand **Tootmine**.
 
@@ -99,7 +99,7 @@ Uus mallkooslus on loodud kasutades ridu, mis vastavad tabelis **Kooslused** loe
 
 6.  Sisestage väljadele **Kuupäevast** ja **Kuupäevani** kuupäevade vahemik, millal mallkooslus on aktiveeritud.
 
-7.  Klõpsake nupul **OK**.
+7.  Valige nupp **OK**.
 
 Uus mallkooslus on loodud kasutades ridu, mis vastavad tabelis **Kooslus** loendatud koosluse ridadele.
 

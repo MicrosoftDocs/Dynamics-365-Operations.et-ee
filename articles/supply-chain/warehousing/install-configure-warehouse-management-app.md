@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142319"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487021"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142319"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> See teema kirjeldab, kuidas konfigureerida uut laohalduse mobiilirakendust, mis on praegu avaliku eelversioonina. Kui otsite teavet vana laorakenduse konfigureerimise kohta, vt [Laorakenduse installimine ja ühendamine](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Selles teemas selgitatakse, kuidas konfigureerida uut laohalduse mobiilirakendust. Kui otsite teavet vana laorakenduse konfigureerimise kohta, vt [Laorakenduse installimine ja ühendamine](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Laohalduse mobiilirakenduse avalik eelversioon on Microsofti allalaadimiskeskuses allalaadimiseks saadaval. See on saadaval eraldiseisva komponendina. Seetõttu peate selle igasse seadmesse eraldi alla laadima ja seejärel konfigureerima selle keskkonnaga Microsoft Dynamics 365 Supply Chain Management ühenduse loomiseks.
-
-Selles teemas selgitatakse, kuidas installida laohalduse mobiilirakendust kõigisse mobiilsetesse seadmetesse ja konfigureerida see keskkonnaga Supply Chain Management ühenduse loomiseks. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
+Selles teemas selgitatakse, kuidas alla laadida ja installida laohalduse mobiilirakendust teie kõigisse mobiilsetesse seadmetesse ja konfigureerida seda keskkonnaga Supply Chain Management ühenduse loomiseks. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
 
 ## <a name="system-requirements"></a>Süsteeminõuded
 
@@ -53,17 +51,27 @@ Enne rakenduse kasutamist peate seotud funktsiooni oma süsteemis sisse lülitam
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse hankimine
 
-Rakenduse allalaadimiseks saate kasutada ühte järgmistest linkidest.
+Väiksemate juurutuste puhul võite installida rakenduse igasse seadmesse sobivast poest ja seejärel konfigureerida käsitsi ühenduse nende keskkondadega, mida kasutate.
 
-- **Windows (UWP):** [rakenduskeskuse eelversiooni programm – Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Suurema juurutamise puhul saate automatiseerida rakenduse juurutamise ja/või konfiguratsiooni, mis on mugavam juhul, kui haldate mitmeid seadmeid. Näiteks võite kasutada mobiilse seadme ja mobiilse rakenduse halduse lahendust, nagu [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Lisateavet selle kohta, kuidas kasutada Intune'i rakenduste lisamiseks, vaadake teemast [Rakenduste lisamine Microsoft Intune'i](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    Kuna see rakendus on eelversioonina saadaval rakendus, on selle installimiseks vaja täiendavaid samme. Lisateavet vt [Rakendusekeskusest järgu installimine](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Rakenduse kauplusest rakenduse installimine
 
-- **Android:** [rakendusekeskuse eelvaateprogramm – Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+Lihtsaim viis rakenduse installimiseks ühte seadmesse on rakenduse installimine rakenduse kauplusest, see võimaldab saada alati värskeima laiemalt saadaoleva versiooni. Microsoft Intune saab rakenduste kauplustest ka rakendusi hankida. Rakenduse kauplusest rakenduse installimiseks kasutage ühte järgmistest linkidest:
 
-    Kuna see rakendus on eelversioonina saadaval rakendus, on selle installimiseks vaja täiendavaid samme. Üksikasju vt [Androidi rakenduste testimine](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [laohaldus Microsoft Store poes](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Väiksemate juurutuste puhul võite installida rakenduse iga seadme vastavast poest ja seejärel konfigureerida käsitsi ühenduse keskkondadega, mida kasutate. Samas saate rakenduse juurutamise ja/või konfigureerimise automatiseerida. See lähenemisviis võib olla mugav, kui haldate paljusid seadmeid ja kasutate mõnda mobiilse seadme halduse ja mobiilirakenduse halduse lahendust, näiteks [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Lisateavet selle kohta, kuidas kasutada Intune'i rakenduste lisamiseks, vaadake teemast [Rakenduste lisamine Microsoft Intune'i](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Laohaldus Google Play poes](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Laadige rakendus alla Microsoft App Centerist
+
+Alternatiivina rakenduse kauplusest installimisele saate selle asemel rakenduse Microsoft App Centerist alla laadida. App Center pakub installitavaid pakette, mida saate käsitsi laadida. Lisaks praegusele versioonile laseb App Center teil alla laadida ka varasemaid versioone ja võib pakkuda tulevaste versioonide eelvaadet koos funktsioonidega, mida saate proovida. Laohalduse mobiilirakenduse praeguste, eelmiste või eelvaate versioonide allalaadimiseks Microsoft App Centeri kaudu kasutage ühte järgmistest linkidest:
+
+- **Windows (UWP):** [laohaldus (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    Juhiseid, kuidas installida allalaaditud pakett Windowsi seadmesse ja seejärel seadistada nõutavad sertifikaadid, vaadake [Installige Build App Centerist](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android** [Laohaldus (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Kui laadite alla eelvaate versiooni, on selle installimiseks vaja täiendavaid samme. Üksikasju vt [Androidi rakenduste testimine](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Veebiteenuse rakenduse loomine Azure Active Directorys
 

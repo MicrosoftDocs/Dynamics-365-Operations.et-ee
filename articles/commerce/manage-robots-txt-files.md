@@ -1,5 +1,5 @@
 ---
-title: Failide robots.txt haldamine
+title: Robots.txt-failide haldamine
 description: See teema kirjeldab failide robots.txt haldamist teenuses Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
@@ -16,21 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2e25a584121b700e566c29dbfe3fbbd72bf998cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: afd7982179dc9845c9adc24e8c7c9951a04460a3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982537"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477704"
 ---
-# <a name="manage-robotstxt-files"></a>Failide robots.txt haldamine
-
+# <a name="manage-robotstxt-files"></a>Robots.txt-failide haldamine
 
 [!include [banner](includes/banner.md)]
 
 See teema kirjeldab failide robots.txt haldamist teenuses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Robotite välistamise standard või robots.txt on standard, mida veebisaidid kasutavad veebirobotitega suhtlemiseks. See juhendab veebiroboteid veebisaidi mis tahes alade osas, mida ei tohiks külastada. Roboteid kasutavad sageli otsingumootorid veebisaitide indekseerimiseks.
 
