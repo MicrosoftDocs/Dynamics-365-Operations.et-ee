@@ -3,7 +3,7 @@ title: Intressikoodile intressimäära seadistamine
 description: Intressikoodid sisaldavad sätteid, mis määratlevad, millal intressi võetakse ja kuidas seda arvutatakse tähtaja ületanud arvete puhul.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971624"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555361"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Intressikoodile intressimäära seadistamine
 
@@ -46,10 +46,19 @@ Saate seadistada intressimäärad, mis arvutavad kindlaksmääratud protsendi.
 
 - Intressimäär kehtib kõigile valuutadele.
 - Sisestada saab valikulisi intressisumma limiite.
-- <strong>Protsent</strong> valitakse väljal** <strong>**Intressi arvutusalus:</strong> lehel <strong>Intressikoodide</strong> seadistamine.
+- **Protsent** valitakse väljal **Intressi arvutusalus mis põhineb** väljal **Intressikoodide seadistamine** lehel.
 
 Näiteks intressikoodi seadistamiseks, mis määrab 5 protsenti intressi iga kahe kuu eest, mille võrra arve makse ületab kande tähtaega, tuleks sisestada 2 väljale **Arvuta intress iga** ja valida **Kuu**.
 
+> [!NOTE] 
+> Viivisearve arvutamise uus algoritm lisatakse funktsioonihalduse abil. Selle algoritmi kasutamiseks lubage **(GBL) Lubage arvutada päeva viivist iga-aastase protsendina jagatuna 365** funktsioon. Lisateavet funktsioonide lubamise kohta, vaata [Funktsioonihalduse ülevaade](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> Viivisearve summa arvutamise valem on: 
+>  
+> Viivisearve summa = võlgnetav summa * Aastane viiviseprotsent % / 365 * Hilinemispäevade arv
+>  
+> See funktsioon on saadaval rakenduses versioonis 10.0.18 ja uuemas.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Summal põhinevad intressimäärad
 Saate seadistada intressimäärad, mis arvutavad määratud summa valuuta kaupa.
 - Intressi summa määratakse iga intressikoodi valuuta jaoks.

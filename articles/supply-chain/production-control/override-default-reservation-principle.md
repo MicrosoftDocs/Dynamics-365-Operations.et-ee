@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078251"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501098"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine
 
@@ -38,11 +39,11 @@ Näiteks kui teil on toormaterjale või koostisosi, mis nõuavad nende toodete j
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *tootmise juhtimine*
-- **Funktsiooni nimi:** *Vaikimisi tootmise broneerimise alistamine*
+- **Funktsiooni nimi:** *(Eelversioon) Vaikimisi tootmise broneerimise alistamine*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Tootmise reserveerimise poliitika määramine kauba mudeligrupile
 
-1. Avage **Kuluhaldus &gt; Laoarvestuse poliitikate seadistus &gt; Üksuse mudeligrupid**.
+1. Avage **Kuluhaldus \> Laoarvestuse poliitikate seadistus \> Üksuse mudeligrupid**.
 1. Looge või valige kauba mudeligrupp.
 1. Valige kiirkaardil **Laopoliitikad** märkeruut **Kauba tootmise reserveerimise alistamine**.
 1. Valige väljal **Reserveering** valitud mudeligrupile kuuluvate kaupade reserveerimise põhimõte. (Need kaubad sisaldavad kaupu, mis on koosluse või valemireal.)

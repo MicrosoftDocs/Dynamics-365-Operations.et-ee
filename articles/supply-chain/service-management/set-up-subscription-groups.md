@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd9f6dfdf17ffd506fff21763388ee0ca7526681
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fbc991c22271ccc3d9c50ade635a80c635b35f73
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991586"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470878"
 ---
 # <a name="set-up-subscription-groups"></a>Saate häälestada kordustellimuste gruppe. 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Klõpsake valikuid **Teenuste haldus** \> **Seadistus** \> **Teenuse kordustellimused** \> **Kordustellimuste grupid**.
+1.  Avage **Teenuste haldus** \> **Seadistamine** \> **Teenuse kordustellimused** \> **Kordustellimuste grupid**.
 
-2.  Uue kordustellimuse grupi loomiseks vajutage klahve CTRL + N või klõpsake käsku **Uus**.
+2.  Uue kordustellimuste grupi loomiseks valige **Uus**.
 
 3.  Sisestage väljale **Kordustellimuse grupp** uue kordustellimuse grupi nimi.
 

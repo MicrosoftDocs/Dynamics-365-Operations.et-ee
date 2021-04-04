@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973756"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558258"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
 
 [!include [banner](../includes/banner.md)]
+
 
 See dokumendi marsruudi valiku paigutus määratleb identifitseerimisnumbri siltide paigutuse ja neile prinditavad andmed. Saate konfigureerida printimise käivitamispunktid mobiilsideseadme menüü üksuste ja töömallide häälestamisel.
 
@@ -51,6 +52,10 @@ Sildi printimise protsessi käigus asendatakse selle näite tekst `$LicensePlate
 Prinditavate väärtuste nägemiseks avage jaotis **Laohaldus \> Päringud ja aruanded \> Identifitseerimisnumbri sildid**.
 
 Mitmed laialdaselt kättesaadavad siltide tegemise tööriistad aitavad teil vormindada sildi paigutuse teksti. Paljud neist tööriistadest toetavad vormingut `$FieldName$`. Lisaks kasutab Microsoft Dynamics 365 Supply Chain Management erivormingu loogikat dokumendi marsruudi valiku paigutuse välja vastenduse osana.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Selle funktsiooni sisselülitamine teie süsteemi jaoks
+
+Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse funktsioon *Litsentsiplaadi siltide täiustatud paigutused*.
 
 ## <a name="custom-number-formats"></a>Kohandatud numbrivormingud
 

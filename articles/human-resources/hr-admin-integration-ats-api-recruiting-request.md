@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125421"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500618"
 ---
 # <a name="recruiting-request"></a>Värbamistaotlus
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Selles teemas kirjeldatakse olemit Värbamistaotlus rakenduse Dynamics 365 Human Resources jaoks.
 
@@ -98,7 +100,8 @@ Kirjeldab töökohale värbamise taotlust.
 | **Töö tüübi ID väärtus**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Kirjutuskaitstud<br>Valikuline<br>Võõrvõti: mshr_hcmjobtypeentityid olemist mshr_hcmjobtypenentity | Selle värbamistaotlusega seotud töö tüübi süsteemi loodud kordumatu identifikaator. |
 | **Vabastuse olek**<br>mshr_exemptstatus<br>Suvandikomplekt *JobExemptStatus* | Kirjutuskaitstud<br>Valikuline | Töötüübil põhinev FLSA-vabastuse olek. |
 | **Eeldatav alguskuupäev**<br>mshr_estimatedstartdate<br>*Kuupäev* | Loe/kirjuta<br>Nõutav | Eeldatav kuupäev, mil kandidaat tööd alustaks. |
-| **Väline kirjeldus**<br>mshr_externaldescription<br>*String* | Loe/kirjuta<br>Valikuline | Töö/ametikoha kirjeldus kandidaadile. | Kompensatsiooni madal lävi<br>mshr_compensationlowthreshold<br>*Topelttäpsusega* | Loe/kirjuta<br>Valikuline | Hüvitustaseme alampiir. |
+| **Väline kirjeldus**<br>mshr_externaldescription<br>*String* | Loe/kirjuta<br>Valikuline | Töö/ametikoha kirjeldus kandidaadile. | 
+| **Kompensatsiooni madal lävi**<br>mshr_compensationlowthreshold<br>*Topelttäpsusega* | Loe/kirjuta<br>Valikuline | Hüvitustaseme alampiir. |
 | **Hüvituse kontrollpunkt**<br>mshr_compensationcontrolpoint<br>*Topelttäpsusega* | Loe/kirjuta<br>Valikuline | Hüvitustaseme kontrollpunkt. |
 | **Kompensatsiooni kõrge lävi**<br>mshr_compensationhighthreshold<br>*Topelttäpsusega* | Loe/kirjuta<br>Valikuline | Hüvitustaseme ülempiir. |
 | **Hüvitustase**<br>mshr_compensationlevelid<br>*String* | Loe/kirjuta<br>Valikuline | Töö hüvituse tase. Töö saab seadistada mitme hüvitustasemega. See atribuut näitab selle taotluse jaoks valitud töö hüvituse taset. |

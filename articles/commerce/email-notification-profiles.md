@@ -1,9 +1,9 @@
 ---
 title: Meiliteatiste profiili seadistamine
 description: See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce meiliteatiste profiil.
-author: samjarawan
+author: bicyclingfool
 manager: annbe
-ms.date: 03/31/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -13,26 +13,23 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9378fb200a239433f2023bb90f72840dace1c0eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d82a1abe68ff6e162acb75c6fdc1e207af11c279
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000820"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555303"
 ---
-# <a name="set-up-an-email-notification-profile"></a>Meiliteatiste profiili seadistamine
-
+# <a name="set-up-an-email-notification-profile"></a>Meiliteatise profiili seadistamine
 
 [!include [banner](includes/banner.md)]
 
 See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce meiliteatiste profiil.
 
-## <a name="overview"></a>Ülevaade
-
-Enne kanalite loomist tuleb seadistada profiili, et tagada meiliteatiste saatmine erinevate sündmuste korral, nt tellimuse loomine, tellimuse tarne olek ja makse tõrge.
+Kanalite loomisel saate seadistada meili teatise profiili. Sel viisil saab e-kirju saata klientidele erinevate kandesündmuste jaoks, nagu näiteks tellimuse loomine, tellimuse tarne olek ja makse nurjumine.
 
 Lisateavet meili konfigureerimise kohta vt teemast [Meili konfigureerimine ja saatmine](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -48,7 +45,7 @@ Meiliteatiste profiili loomiseks toimige järgmiselt.
 
 ### <a name="create-an-email-template"></a>Loo e-kirja mall
 
-Enne kui meiliteavitusi luua saab, peate looma organisatsiooni meilimalli, mis sisaldab saatja meili andmeid ja meilimalli.
+Enne meiliteatise tüübi lubamist peate Cmmerce headquarters`is looma organisatsiooni meilimalli. Mall määratleb iga keele puhul, mida soovite toetada, e-kirja teema, saatja, vaikekeele ja meili keha.
 
 Meilimalli loomiseks tehke järgmist.
 
@@ -58,7 +55,7 @@ Meilimalli loomiseks tehke järgmist.
 1. Sisestage väljale **Saatja nimi** saatja nimi.
 1. Sisestage väljale **Meili kirjeldus** tähenduslik kirjeldus.
 1. Sisestage väljale **Saatja meiliaadress** saatja meiliaadress.
-1. Täitke jaotises **Üldine** kõik vajalikud valikulised andmed (nagu näiteks meili prioriteetsus).
+1. Valige **Üldine** jaotises e-kirja malli jaoks vaikekeel. Vaikekeelt kasutatakse siis, kui määratud keele jaoks pole lokaliseeritud malli.
 1. Laiendage jaotist **Meilisõnumi sisu** ja valige malli sisu loomiseks **Uus**. Valige iga sisuüksuse jaoks keel ja sisestage meili teema rida. Kui meil on kehatekst, veenduge, et märgitud on märkeruut **On kehatekst**.
 1. Valige toimingupaanil **Meilisõnum**, et sisestada meili kehatekstile mall.
 

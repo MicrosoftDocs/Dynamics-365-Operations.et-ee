@@ -1,0 +1,41 @@
+---
+title: Tarnehinna hankeparameetrid
+description: See teema kirjeldab, kuidas seadistada asjakohaseid hankeparameetreid, kui kasutate Tarnehinna moodulit.
+author: sherry-zheng
+manager: tfehr
+ms.date: 12/09/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SrmParameters
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2020-12-09
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 49e046a1437917cfa866f690511789496fac2c53
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500738"
+---
+# <a name="procurement-and-sourcing-parameters-for-landed-cost"></a>Tarnehinna hankeparameetrid
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+**Hankeparameetrite** lehel on mõned sätted, mis on eriti asjakohased, kui kasutate **Tarnehinna** moodulit. Kasutage **Tellimuseridade värskendamine** dialoogiboksi, mis on avatud **Hankeparameetrite** lehel, et määrata, kas ostutellimuse päises tehtud muudatuste korral tuleks ostutellimuse read automaatselt uuendada.
+
+Selle seadistamise lõpetamiseks järgige järgmisi etappe.
+
+1. Minge **Hanked \> Seadistus \> Hangete parameetrid**.
+1. Vahekaardil **Üldine**, valige link **Uuenda tellimuse ridu**.
+1. Dialoogiaknas **Tellimuse ridade värskendamine** loetletakse tellimuse päise väljad, mida saab rakendada ka tellimuseridade seotud väljade automaatseks värskendamiseks. Seadistage iga loendi väli ühele järgmistest väärtustest:
+
+    - **Alati** - Tellimuse read uuendatakse tellimuse päise uuendamisel automaatselt.
+    - **Mitte kunagi** - Tellimuse ridu ei uuendata kunagi tellimuse päise uuendamisel automaatselt.
+    - **Küsi** - Kasutajalt küsitakse, kas tellimuse ridu tuleks uuendada.

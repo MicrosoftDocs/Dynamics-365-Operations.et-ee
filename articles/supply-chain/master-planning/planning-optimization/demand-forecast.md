@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983540"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501122"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Koondplaneerimine koos nõudluse prognoosidega
 
@@ -249,7 +249,7 @@ Seega luuakse järgmised plaanitud tellimused.
 Meetodites **Kanded – planeerimise koefitsient** ja **Protsent – planeerimise koefitsient** kasutatakse eelarvevajaduste vähendamiseks eelarve planeerimise koefitsienti. Järgige neid samme, et luua ja seadistada planeerimise koefitsienti.
 
 1. Valige **Koondplaneerimine \> Seadistus \> Laovarud \> Planeerimise koefitsiendid**.
-2. Planeerimise koefitsiendi loomiseks valige käsk **Uus** või vajutage klahve **Ctrl + N**.
+2. Valige uue planeerimise koefitsiendi loomiseks **Uus**.
 3. Sisestage väljale **Planeerimise koefitsient** eelarve planeerimise koefitsiendi jaoks kordumatu identifikaator. Seejärel sisestage nimi väljal **Nimi**. 
 4. Määratlege iga perioodi jaoks perioodid ja planeerimise koefitsiendi protsent.
 
@@ -265,8 +265,8 @@ Planeerimise koefitsient peab olema määratud kauba laovarude grupile. Järgige
 2. Valige kiirkaardi **Muud** väljal **Planeerimise koefitsient** planeerimise koefitsient, mida laovarude grupile määrata. Planeerimise koefitsient rakendub seejärel kõikidele kaupadele, mis sellesse laovarude gruppi kuuluvad.
 3. Selleks, et kasutada planeerimise koefitsienti koondplaneerimise ajal prognoosi vähendamise arvutamiseks, peate määratlema selle sätte koondplaani eelarveplaani seadistuses. Minge ühele järgmistest asukohtadest.
 
-    - Koondplaneerimine \> Seadistus \> Plaanid \> Eelarveplaanid
-    - Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid
+    - **Koondplaneerimine \> Seadistus \> Plaanid \> Eelarveplaanid**
+    - **Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid**
 
 4. Valige lehe **Eelarveplaanid** või **Koondplaanid** kiirkaardi **Üldine** väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Protsent – planeerimise koefitsient** või **Kanded – planeerimise koefitsient**.
 
@@ -274,5 +274,69 @@ Planeerimise koefitsient peab olema määratud kauba laovarude grupile. Järgige
 
 Kui valite eelarvevajaduste vähendamise meetodiks **Kanded – planeerimise koefitsient** või **Kanded – dünaamiline periood**, siis saate määrata, millised kanded eelarvet vähendavad. Valige lehe **Laovarude grupid** kiirkaardi **Muud** väljal **Prognoosi vähendamisalus:** suvand **Kõik kanded**, kui prognoosi peaks vähendama kõik kanded, või **Tellimused**, kui prognoosi peaks vähendama ainult müügitellimused.
 
+## <a name="forecast-models-and-submodels"></a>Prognoosimudelid ja alammudelid
+
+Selles jaotises kirjeldatakse, kuidas luua prognoosimudeleid ja kuidas alammudelite seadistamisega mitut prognoosimudelit kombineerida.
+
+*Prognoosimudel* nimetab ja määratleb kindla prognoosi. Pärast prognoosimudeli loomist saate sellele lisada prognoosiridu. Mitme kauba prognoosiridade lisamiseks kasutage lehte **Nõudluse prognoosi read**. Konkreetse valitud kauba prognoosiridade lisamiseks kasutage lehte **Väljastatud tooted**.
+
+Prognoosimudel võib sisaldada muudest prognoosimudelitest pärit prognoose. Selle tulemuse saavutamiseks lisate ülemtaseme prognoosimudeli *alammudeliteks* muid prognoosimudeleid. Enne kui saate selle lisada ülemtaseme prognoosimudeli alammudelina, peate looma iga asjakohase mudeli.
+
+Tulemuseks saadav struktuur annab teile prognooside juhtimiseks võimsa viisi, sest see võimaldab teil kombineerida (koondada) mitmete üksikute prognooside sisendeid. Seetõttu on planeerimise vaatepunktist prognoose lihtne simulatsioonide jaoks kombineerida. Näiteks võite seadistada simulatsiooni, mis põhineb regulaarse prognoosi kombinatsioonil kevadkampaania prognoosiga.
+
+### <a name="submodel-levels"></a>Alammudeli tasemed
+
+Ülemtaseme prognoosimudelile lisatavate alammudelite arv ei ole piiratud. Struktuur võib siiski olla ainult üks tase sügav. See tähendab, et teise prognoosimudeli alammudeliks oleval prognoosimudelil ei saa olla oma alammudeleid. Kui lisate prognoosimudelile alammudeleid, kontrollib süsteem, kas see prognoosimudel on juba mõne muu prognoosimudeli alammudel.
+
+Kui koondplaneerimisel ilmneb alammudel, millel on oma alammudelid, saate tõrketeate.
+
+#### <a name="submodel-levels-example"></a>Alammudeli tasemete näide
+
+Prognoosimudelil A on alammudelina prognoosimudel B. Seetõttu ei saa prognoosimudelil B olla oma alammudeleid. Kui proovite lisada prognoosimudelile B alammudeli, kuvatakse järgmine tõrketeade: "Prognoosimudel B on mudeli A alammudel."
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Prognooside koondamine prognoosimudelite üleselt
+
+Samal päeval toimuvad prognoosiread koondatakse nende prognoosimudeli ja selle alammudelite alusel.
+
+#### <a name="aggregation-example"></a>Koondamise näide
+
+Prognoosimudelil A on alammudeliteks prognoosimudelid B ja C.
+
+- Prognoosimudel A sisaldab nõudluse prognoosi 2 tk kohta 15. juunil.
+- Prognoosimudel B sisaldab nõudluse prognoosi 3 tk kohta 15. juunil.
+- Prognoosimudel C sisaldab nõudluse prognoosi 4 tk kohta 15. juunil.
+
+Tulemuseks olev nõudluse prognoos on üks nõudlus 9 tk (2 + 3 + 4) järele 15. juunil.
+
+> [!NOTE]
+> Iga alammudel kasutab oma parameetreid, mitte ülemtaseme prognoosimudeli parameetreid.
+
+### <a name="create-a-forecast-model"></a>Prognoosimudeli loomine
+
+Prognoosimudeli loomiseks tehke järgmist.
+
+1. Avage **Koondplaneerimine \> Seadistus \> Nõudluse prognoos \> Prognoosimudelid**.
+1. Valige toimingupaanil nupp **Uus**.
+1. Seadke uue prognoosimudeli jaoks järgmised väljad:
+
+    - **Mudel** – sisestage mudeli kordumatu identifikaator.
+    - **Nimi** – sisestage mudeli kirjeldav nimi.
+    - **Peatatud** – tavaliselt tuleks selle suvandi väärtuseks seada *Ei*. Seadke selle väärtuseks *Jah* ainult juhul, kui soovite vältida kõigi sellele mudelile määratud prognoosiridade redigeerimist.
+
+    > [!NOTE]
+    > Väli **Kaasa likviidsuse planeerimisse** ja kiirkaardi **Projekt** väljad ei ole seotud koondplaneerimisega. Seetõttu võite neid selles kontekstis eirata. Neid tuleb arvestada ainult siis, kui töötate mooduli **Projektihaldus ja -arvestus** prognoosidega.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Alammudelite määramine prognoosimudelile
+
+Alammudelite määramiseks prognoosimudelile järgige neid samme.
+
+1. Valige **Laohaldus \> Seadistus \> Prognoos \> Prognoosimudelid**.
+1. Valige loendipaanil prognoosimudel, mille jaoks soovite alammudeli seadistada.
+1. Valige kiirkaardil **Alammudel** käsk **Lisa**, et lisada uus rida tabelisse.
+1. Määrake uuel real järgmised väljad.
+
+    - **Alammudel** – valige alammudelina lisamiseks prognoosimudel. See prognoosimudel peab juba olemas olema ja sellel ei tohi olla oma alammudeleid.
+    - **Nimi** – sisestage alammudeli kirjeldav nimi. Näiteks võib see nimi näidata alammudeli seost ülemtaseme prognoosimudeliga.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

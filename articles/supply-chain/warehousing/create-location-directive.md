@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963306"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470515"
 ---
 # <a name="work-with-location-directives"></a>Asukohakorraldustega töötamine
 
@@ -239,7 +239,7 @@ Saate määratleda igale reale mitu asukoha korralduse tegevust. Järjekorranumb
     - **Ümarda täieliku LP-ni ja FEFO partii** – see strateegia ühendab endas strateegiad *FEFO partii reserveering* ja *Ümarda täieliku LP-ni*. See kehtib ainult partiiloaga kaupade ning asukohakorralduste puhul, mille töötüüp on *Komplekteerimine*. Rida peab olema partiiloaga, et kasutada strateegiat *FEFO partii reserveering*, ning strateegiat *Ümarda täieliku LP-ni* saab kasutada ainult täiendamiseks. Kui see strateegia konfigureeritakse koos asukoha ladustamispiiranguga, võib see valitud ladustamistöö asukoha üle koormata ja põhjustada ladustamispiirangute eiramist.
     - **Täieliku LP-ni ümardamine** – seda strateegiat kasutatakse varude koguse ümardamiseks, et see vastaks litsentsiplaadi kogusele, mis on määratud komplekteeritavatele kaupadele. Saate seda strateegiat kasutada ainult täiendamise asukohakorralduste jaoks, mille tüüp on *Komplekteerimine*. Kui see strateegia konfigureeritakse koos asukoha ladustamispiiranguga, võib see valitud ladustamistöö asukoha üle koormata ja põhjustada ladustamispiirangute eiramist.
     - **Litsentsiplaadi põhjal juhitav** – kasutage seda strateegiat, kui väljastate tellimuse komplekteerimise ja ladustamise töö loomiseks lattu. Seda saate teha mitme litsentsiplaadi korral. See strateegia üritab reserveerida ja luua komplekteerimistööd nende asukohtade põhjal, milles asuvad üleviimistellimuse ridadega seotud nõutud litsentsiplaadid. Kui neid tegevusi ei saa lõpule viia, kuid soovite siiski komplekteerimistööd luua, peaksite valima asukohakorralduse tegevuste jaoks teise strateegia. Sõltuvalt teie äriprotsessi nõuetest võite soovida otsida ka varusid teisest lao piirkonnast.
-    - **Tühi asukoht ilma sissetuleva tööta** – kasutage seda strateegiat tühjade asukohtade leidmiseks. Asukoht loetakse tühjaks, kui sel ei ole füüsilisi varusid ja eeldatavat sissetulevat tööd. Saate seda strateegiat kasutada ainult asukohakorralduste jaoks, mille töötüüp on *Komplekteerimine*.
+    - **Tühi asukoht ilma sissetuleva tööta** – kasutage seda strateegiat tühjade asukohtade leidmiseks. Asukoht loetakse tühjaks, kui sel ei ole füüsilisi varusid ja eeldatavat sissetulevat tööd. Saate seda strateegiat kasutada ainult asukohakorralduste jaoks, mille töötüüp on *Paigutamine*.
     - **Asukoha aegumise FIFO** – kasutage esimesena-sisse-esimesena-välja-strateegiat (FIFO), et lähetada nii partiijälgimisega kui ka partiijälgimiseta kaupu kuupäeva alusel, mil varud lattu jõudsid. See võimalus võib olla eriti kasulik partiijälgimiseta varude puhul, mille korral ei saa sortimiseks kasutada aegumiskuupäeva. FIFO-strateegia leiab üles asukoha, mis sisaldab vanimat aegumiskuupäeva ja planeerib komplekteerimise selle aegumiskuupäev põhjal.
     - **Asukoha aegumise LIFO** – kasutage viimasena-sisse-viimasena-välja-strateegiat (LIFO), et lähetada nii partiijälgimisega kui ka partiijälgimiseta kaupu kuupäeva alusel, mil varud lattu jõudsid. See võimalus võib olla eriti kasulik partiijälgimiseta varude puhul, mille korral ei saa sortimiseks kasutada aegumiskuupäeva. LIFO-strateegia leiab üles asukoha, mis sisaldab uusimat aegumiskuupäeva ja planeerib komplekteerimise selle aegumiskuupäev põhjal.
 

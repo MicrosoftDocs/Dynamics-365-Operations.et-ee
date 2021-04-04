@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974656"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470726"
 ---
 # <a name="create-service-task-relations"></a>teenustoimingute seoste loomine    
 
@@ -32,13 +32,13 @@ Leppe või tellimuse käigus tehtava hooldustoimingu kirjeldamiseks saate hooldu
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Seose loomine teenusleppega
 
-1.  Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.
+1.  Valige **Teenusehaldus** \> **Üldine** \> **Hoolduslepped** \> **Hoolduslepped**.
 
 2.  Valige olemasolev teenuslepe või looge uus.
 
-3.  Klõpsake toimingupaanil nuppu **Hooldustoimingud**.
+3.  Valige toimingupaanil nupp **Hooldustoimingud**.
 
-4.  Klõpsake vormil **Hooldustoimingud** uue rea loomiseks klahvikombinatsiooni CTRL + N ja seejärel valige hooldusleppega seotav hooldustoiming loendist **Hooldustoiming**.
+4.  Valige vormil **Hooldustoimingud** uue rea loomiseks **Uus** ja seejärel valige hooldustoiming loendist **Hooldustoiming**, et lisada see hooldustoiming hooldusleppesse.
 
 5.  Sisestage vahekaardi **Kirjeldus** vabadele tekstiväljadele sise- või välismärgete kirjeldused.
 
@@ -50,13 +50,13 @@ Teenusleppele loodav teenustoimingute seos on saadaval kõikidelt teenusleppele 
 
 ## <a name="create-a-relation-with-a-service-order"></a>Seose loomine teenustellimusega
 
-1.  Klõpsake valikuid **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
+1.  **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
 
 2.  Valige olemasolev teenustellimus või looge uus.
 
-3.  Klõpsake toimingupaanil nuppu **Hooldustoimingud**.
+3.  Valige toimingupaanil nupp **Hooldustoimingud**.
 
-4.  Klõpsake vormil **Hooldustoimingud** uue rea loomiseks klahvikombinatsiooni CTRL + N ja seejärel valige hooldustellimusega seotavad hooldustoimingud loendist **Hooldustoiming**.
+4.  Valige vormil **Hooldustoimingud** uue rea loomiseks **Uus** ja seejärel valige hooldustoiming loendist **Hooldustoiming**, et lisada hooldustoimingud hooldustellimusele.
 
 5.  Sisestage vahekaardi **Kirjeldus** vabadele tekstiväljadele sise- või välismärgete kirjeldused.
 

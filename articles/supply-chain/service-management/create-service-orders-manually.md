@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c10990f96fecf55e005650257f83c28423203b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 72b600bc59119a6304fa043240a34051435f8691
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001401"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470949"
 ---
 # <a name="create-service-orders-manually"></a>teenustellimuste loomine käsitsi    
 
@@ -36,17 +36,17 @@ Hooldustellimusi saate luua käsitsi hoolduslepete või vormi **Hooldustellimuse
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Hooldustellimuse käsitsi loomine hooldusleppest
 
-1.  Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.
+1.  Valige **Teenusehaldus** \> **Üldine** \> **Hoolduslepped** \> **Hoolduslepped**.
 
 2.  Valige teenuslepe või looge uus teenuslepe.
 
-3.  Vormi **Hooldustellimuste loomine** avamiseks klõpsake vahekaardi **Tarnimine** grupis **Loomine** valikut **Planeeritud hooldustellimused**.
+3.  Valige vormi **Hooldustellimuste loomine** avamiseks vahekaardi **Tarnimine** grupis **Loomine** valik **Planeeritud hooldustellimused**.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>teenustellimuse käsitsi loomine teenustellimuse vormi abil
 
-1.  Klõpsake valikuid **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
+1.  Valige **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.
 
-2.  Uue teenustellimuse loomiseks vajutage klahve CTRL+N.
+2.  Valige uue hooldustellimuse loomiseks **Uus**.
 
 3.  Looge teenustellimuse jaoks teenustellimuse read.
 
@@ -55,9 +55,9 @@ Hooldustellimusi saate luua käsitsi hoolduslepete või vormi **Hooldustellimuse
 
 ## <a name="create-a-service-order-from-a-project"></a>Hooldustellimuse loomine projektist
 
-1.  Klõpsake valikuid **Projektihaldus ja raamatupidamine** \> **Üldine** \> **Projektid** \> **Kõik projektid**.
+1.  Valige **Projektihaldus ja raamatupidamine** \> **Üldine** \> **Projektid** \> **Kõik projektid**.
 
-2.  Klõpsake vormi **Projektid** **Toimingupaanil** vahekaarti **Halda** \> **Teenus** \> **Hooldustellimused**.
+2.  Valige vormi **Projektid** **Toimingupaanil** vahekaart **Halda** \> **Teenus** \> **Hooldustellimused**.
 
 3.  Järgige eelmist protseduuri, et luua hooldustellimus käsitsi vormil **Hooldustellimused**. Väljal **Projekti ID** kuvatakse projekti viide.
 
@@ -68,19 +68,19 @@ Hooldustellimusi saate luua käsitsi hoolduslepete või vormi **Hooldustellimuse
 
 Vormilt **Müügitellimused** saate hooldustellimuse luua viisardi **Loo müügitellimuse põhjal uus hooldustellimus** abil.
 
-1.  Klõpsake valikuid **Müük ja turundus** \> **Üldine** \> **Müügitellimused** \> **Kõik müügitellimused**.
+1.  Valige **Müük ja turundus** \> **Üldine** \> **Müügitellimused** \> **Kõik müügitellimused**.
 
 2.  Avage asjakohane müügitellimus.
 
-3.  Viisardi **Loo müügitellimuse põhjal uus hooldustellimus** käivitamiseks klõpsake vahekaardil **Müügitellimus** valikut **Hooldustellimus**.
+3.  Viisardi **Loo müügitellimuse põhjal uus hooldustellimus** käivitamiseks valige vahekaardil **Müügitellimus** valik **Hooldustellimus**.
 
-4.  Klõpsake valikut **Järgmine \>** ja seejärel tehke lehel **Vali hooldustellimuse jaoks lepe** järgmist.
+4.  Valige **Järgmine \>** ja seejärel tehke lehel **Vali hooldustellimuse jaoks lepe** järgmist.
     
       - Kasutage välja **Hoolduslepe**, et valida hoolduslepe, millega uus hooldustellimus siduda.
     
       - Valikuline: kasutage loendit **Projekti ID**, et siduda hooldustellimus kindla projektiga.
 
-5.  Klõpsake valikut **Järgmine \>** ja seejärel tehke lehel **Loo hooldustellimus** järgmist.
+5.  Valige **Järgmine \>** ja seejärel tehke lehel **Loo hooldustellimus** järgmist.
     
       - Sisestage kuupäev ja kellaaeg, millal hoolduskutse algab, väljale **Eelistatud teenuseaeg**.
     
@@ -90,12 +90,12 @@ Vormilt **Müügitellimused** saate hooldustellimuse luua viisardi **Loo müügi
     
       - Valige väljal **Kontakti ID** kliendi ettevõttest isik, kellega selle hooldustellimuse asjus ühendust võtta.
 
-6.  Klõpsake valikut **Järgmine \>** ja seejärel **Valmis**.
+6.  Valige **Järgmine \>** ja seejärel **Valmis**.
 
 
 ## <a name="see-also"></a>Vt ka
 
-[Teenusetellimused](service-orders.md)
+[Teenuse tellimused](service-orders.md)
 
 [Hooldustellimuste loomine automaatselt](create-service-orders-automatically.md)
 
