@@ -18,65 +18,70 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89563204cf1423ddce47d7bacace8f14edf87005
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ccc6bf2e8b070e92cc4dbb98d8ec35ce60723516
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115992"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468079"
 ---
-# <a name="manage-buy-and-sell-leave-policies"></a><span data-ttu-id="86a01-103">Puhkuse ostu ja müügi poliitikate haldamine</span><span class="sxs-lookup"><span data-stu-id="86a01-103">Manage buy and sell leave policies</span></span>
+# <a name="manage-buy-and-sell-leave-policies"></a><span data-ttu-id="b8446-103">Puhkuse ostu ja müügi poliitikate haldamine</span><span class="sxs-lookup"><span data-stu-id="b8446-103">Manage buy and sell leave policies</span></span>
 
-<span data-ttu-id="86a01-104">Saate lubada töötajatel osta ja müüa puhkust, luues puhkuse ostmise ja müümise poliitika.</span><span class="sxs-lookup"><span data-stu-id="86a01-104">You can enable employees to buy and sell leave by creating a buy and sell leave policy.</span></span> <span data-ttu-id="86a01-105">Saate konfigureerida need poliitikad töövoogude kinnitamiseks kasutamiseks, maksimaalsete summade ja määrade ja ostmise ning müümise määrade määramiseks.</span><span class="sxs-lookup"><span data-stu-id="86a01-105">You can configure these policies to use workflow for approvals, set maximum amounts and rates, and set rates for buying and selling.</span></span> 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="enable-employees-to-buy-and-sell-leave"></a><span data-ttu-id="86a01-106">Töötajatele puhkuse ostu ja müügi lubamine</span><span class="sxs-lookup"><span data-stu-id="86a01-106">Enable employees to buy and sell leave</span></span>
+<span data-ttu-id="b8446-104">Saate lubada töötajatel osta ja müüa puhkust, luues puhkuse ostmise ja müümise poliitika.</span><span class="sxs-lookup"><span data-stu-id="b8446-104">You can enable employees to buy and sell leave by creating a buy and sell leave policy.</span></span> <span data-ttu-id="b8446-105">Saate konfigureerida need poliitikad töövoogude kinnitamiseks kasutamiseks, maksimaalsete summade ja määrade ja ostmise ning müümise määrade määramiseks.</span><span class="sxs-lookup"><span data-stu-id="b8446-105">You can configure these policies to use workflow for approvals, set maximum amounts and rates, and set rates for buying and selling.</span></span> 
 
-1. <span data-ttu-id="86a01-107">Valige lehel **Puhkuste ja puudumiste parameetrid** suvandite **Luba töötajatele puhkuse ostmine** ja **Luba töötajatele puhkuse müümine** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="86a01-107">On the **Leave and absence parameters** page, select **Yes** for **Allow employees to buy leave** and **Allow employees to sell leave**.</span></span>
+## <a name="enable-employees-to-buy-and-sell-leave"></a><span data-ttu-id="b8446-106">Töötajatele puhkuse ostu ja müügi lubamine</span><span class="sxs-lookup"><span data-stu-id="b8446-106">Enable employees to buy and sell leave</span></span>
 
-## <a name="create-a-buy-and-sell-leave-policy"></a><span data-ttu-id="86a01-108">Puhkuse ostmise ja müümise poliitika loomine</span><span class="sxs-lookup"><span data-stu-id="86a01-108">Create a buy and sell leave policy</span></span>
+1. <span data-ttu-id="b8446-107">Valige lehel **Puhkuste ja puudumiste parameetrid** suvandite **Luba töötajatele puhkuse ostmine** ja **Luba töötajatele puhkuse müümine** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="b8446-107">On the **Leave and absence parameters** page, select **Yes** for **Allow employees to buy leave** and **Allow employees to sell leave**.</span></span>
 
-1. <span data-ttu-id="86a01-109">Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.</span><span class="sxs-lookup"><span data-stu-id="86a01-109">On the **Leave and absence** page, select the **Links** tab.</span></span> 
+## <a name="create-a-buy-and-sell-leave-policy"></a><span data-ttu-id="b8446-108">Puhkuse ostmise ja müümise poliitika loomine</span><span class="sxs-lookup"><span data-stu-id="b8446-108">Create a buy and sell leave policy</span></span>
 
-2. <span data-ttu-id="86a01-110">Valige **Puhkuse ostmise ja müümise poliitika**.</span><span class="sxs-lookup"><span data-stu-id="86a01-110">Select **Buy and sell leave policy**.</span></span>
+1. <span data-ttu-id="b8446-109">Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.</span><span class="sxs-lookup"><span data-stu-id="b8446-109">On the **Leave and absence** page, select the **Links** tab.</span></span> 
 
-3. <span data-ttu-id="86a01-111">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="86a01-111">Select **New**.</span></span>
+2. <span data-ttu-id="b8446-110">Valige **Puhkuse ostmise ja müümise poliitika**.</span><span class="sxs-lookup"><span data-stu-id="b8446-110">Select **Buy and sell leave policy**.</span></span>
 
-4. <span data-ttu-id="86a01-112">Sisestage jaotises **Puhkuse ostmise ja müümise poliitika** poliitika **Nimi** ja **Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="86a01-112">Enter a **Name** and **Description** for the policy under **Buy and sell leave policy**.</span></span> 
+3. <span data-ttu-id="b8446-111">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="b8446-111">Select **New**.</span></span>
 
-5. <span data-ttu-id="86a01-113">Valige **Poliitika tüüp**.</span><span class="sxs-lookup"><span data-stu-id="86a01-113">Select a **Policy type**.</span></span> 
+4. <span data-ttu-id="b8446-112">Sisestage jaotises **Puhkuse ostmise ja müümise poliitika** poliitika **Nimi** ja **Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="b8446-112">Enter a **Name** and **Description** for the policy under **Buy and sell leave policy**.</span></span> 
 
-   <span data-ttu-id="86a01-114">Saadaolevad poliitikatüübid on **Summa** ja **Tundi nädalas**.</span><span class="sxs-lookup"><span data-stu-id="86a01-114">The available policy types are **Amount** and **Hours per week**.</span></span> <span data-ttu-id="86a01-115">Valige suvand **Summa**, et sisestada töötajale müümiseks ja ostmiseks lubatud maksimumsummade **Fikseeritud summa**.</span><span class="sxs-lookup"><span data-stu-id="86a01-115">Select **Amount** to enter a **Fixed amount** for the maximum amounts employees can buy and sell.</span></span> <span data-ttu-id="86a01-116">Kui valite suvandi **Tundi nädalas**, siis kasutatakse poliitika maksimumsumma kindlaks määramiseks töötajale määratud tööaja kalendris määratletud tööaega.</span><span class="sxs-lookup"><span data-stu-id="86a01-116">If you select **Hours per week**, the working time defined in the employee's assigned working time calendar is used to determine the maximum amount of the policy.</span></span> 
+5. <span data-ttu-id="b8446-113">Valige **Poliitika tüüp**.</span><span class="sxs-lookup"><span data-stu-id="b8446-113">Select a **Policy type**.</span></span> 
 
-6. <span data-ttu-id="86a01-117">Valige poliitika **Alguskuupäev** ja **Lõppkuupäev**.</span><span class="sxs-lookup"><span data-stu-id="86a01-117">Select a **Start date** and **End date** for the policy.</span></span> <span data-ttu-id="86a01-118">Puhkuse ostmise või müümise taotlused on esitamiseks saadaval vaid antud ajavahemikus.</span><span class="sxs-lookup"><span data-stu-id="86a01-118">Requests to buy or sell leave will only be available for submission during this time frame.</span></span> 
+   <span data-ttu-id="b8446-114">Saadaolevad poliitikatüübid on **Summa** ja **Tundi nädalas**.</span><span class="sxs-lookup"><span data-stu-id="b8446-114">The available policy types are **Amount** and **Hours per week**.</span></span> <span data-ttu-id="b8446-115">Valige suvand **Summa**, et sisestada töötajale müümiseks ja ostmiseks lubatud maksimumsummade **Fikseeritud summa**.</span><span class="sxs-lookup"><span data-stu-id="b8446-115">Select **Amount** to enter a **Fixed amount** for the maximum amounts employees can buy and sell.</span></span> <span data-ttu-id="b8446-116">Kui valite suvandi **Tundi nädalas**, siis kasutatakse poliitika maksimumsumma kindlaks määramiseks töötajale määratud tööaja kalendris määratletud tööaega.</span><span class="sxs-lookup"><span data-stu-id="b8446-116">If you select **Hours per week**, the working time defined in the employee's assigned working time calendar is used to determine the maximum amount of the policy.</span></span> 
 
-7. <span data-ttu-id="86a01-119">Valige poliitika jaoks **Töövoo ID**.</span><span class="sxs-lookup"><span data-stu-id="86a01-119">Select a **Workflow ID** for the policy.</span></span> <span data-ttu-id="86a01-120">Kõik ostu- ja müügitaotlused kasutavad seda töövoogu ülevaatamiseks ja kinnitamiseks.</span><span class="sxs-lookup"><span data-stu-id="86a01-120">Any buy and sell requests will use this workflow for review and approval.</span></span> 
+6. <span data-ttu-id="b8446-117">Valige poliitika **Alguskuupäev** ja **Lõppkuupäev**.</span><span class="sxs-lookup"><span data-stu-id="b8446-117">Select a **Start date** and **End date** for the policy.</span></span> <span data-ttu-id="b8446-118">Puhkuse ostmise või müümise taotlused on esitamiseks saadaval vaid antud ajavahemikus.</span><span class="sxs-lookup"><span data-stu-id="b8446-118">Requests to buy or sell leave will only be available for submission during this time frame.</span></span> 
 
-8. <span data-ttu-id="86a01-121">Valige jaotises **Ostupoliitika** suvand **Täistööaja vaste**, et kasutada maksimumsumma proportsionaalsuse jaotamiseks töötaja ametikoha kohta määratletud täistööaja vastet.</span><span class="sxs-lookup"><span data-stu-id="86a01-121">Under **Buy policy**, select **Full time equivalency** (FTE) to prorate the maximum amount based on the FTE defined on the employee's position.</span></span> <span data-ttu-id="86a01-122">Kui poliitika tüüp on **Summa**, siis sisestage **Maksimaalne fikseeritud summa**.</span><span class="sxs-lookup"><span data-stu-id="86a01-122">If the policy type is **Amount**, enter a **Maximum fixed amount**.</span></span> 
+7. <span data-ttu-id="b8446-119">Valige poliitika jaoks **Töövoo ID**.</span><span class="sxs-lookup"><span data-stu-id="b8446-119">Select a **Workflow ID** for the policy.</span></span> <span data-ttu-id="b8446-120">Kõik ostu- ja müügitaotlused kasutavad seda töövoogu ülevaatamiseks ja kinnitamiseks.</span><span class="sxs-lookup"><span data-stu-id="b8446-120">Any buy and sell requests will use this workflow for review and approval.</span></span> 
 
-9. <span data-ttu-id="86a01-123">Töötajale puhkuse ostmiseks saadaolevate puhkuse tüüpide lisamiseks valige **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="86a01-123">Select **Add** to add the leave types for employees to buy leave.</span></span> <span data-ttu-id="86a01-124">Te saate lisada poliitikale mitu puhkuse tüüpi.</span><span class="sxs-lookup"><span data-stu-id="86a01-124">You can add multiple leave types to the policy.</span></span> 
+8. <span data-ttu-id="b8446-121">Valige jaotises **Ostupoliitika** suvand **Täistööaja vaste**, et kasutada maksimumsumma proportsionaalsuse jaotamiseks töötaja ametikoha kohta määratletud täistööaja vastet.</span><span class="sxs-lookup"><span data-stu-id="b8446-121">Under **Buy policy**, select **Full time equivalency** (FTE) to prorate the maximum amount based on the FTE defined on the employee's position.</span></span> <span data-ttu-id="b8446-122">Kui poliitika tüüp on **Summa**, siis sisestage **Maksimaalne fikseeritud summa**.</span><span class="sxs-lookup"><span data-stu-id="b8446-122">If the policy type is **Amount**, enter a **Maximum fixed amount**.</span></span> 
 
-10. <span data-ttu-id="86a01-125">Sisestage puhkuse tüübi jaoks **Töötatud kuud**, et lubada määratleda töötajale maksimaalne ostetav summa erinevate töötatud kuude alusel.</span><span class="sxs-lookup"><span data-stu-id="86a01-125">Enter the **Months of service** for the leave type to enable different months of service to determine the maximum amount an employee can buy.</span></span> 
+9. <span data-ttu-id="b8446-123">Töötajale puhkuse ostmiseks saadaolevate puhkuse tüüpide lisamiseks valige **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="b8446-123">Select **Add** to add the leave types for employees to buy leave.</span></span> <span data-ttu-id="b8446-124">Te saate lisada poliitikale mitu puhkuse tüüpi.</span><span class="sxs-lookup"><span data-stu-id="b8446-124">You can add multiple leave types to the policy.</span></span> 
 
-11. <span data-ttu-id="86a01-126">Sisestage puhkuse tüübi **Maksimumsumma**.</span><span class="sxs-lookup"><span data-stu-id="86a01-126">Enter the **Maximum amount** for the leave type.</span></span> 
+10. <span data-ttu-id="b8446-125">Sisestage puhkuse tüübi jaoks **Töötatud kuud**, et lubada määratleda töötajale maksimaalne ostetav summa erinevate töötatud kuude alusel.</span><span class="sxs-lookup"><span data-stu-id="b8446-125">Enter the **Months of service** for the leave type to enable different months of service to determine the maximum amount an employee can buy.</span></span> 
 
-12. <span data-ttu-id="86a01-127">Sisestage **Määr**, mille alusel töötaja puhkust ostab.</span><span class="sxs-lookup"><span data-stu-id="86a01-127">Enter the **Rate** at which the employee will buy the leave.</span></span> 
+11. <span data-ttu-id="b8446-126">Sisestage puhkuse tüübi **Maksimumsumma**.</span><span class="sxs-lookup"><span data-stu-id="b8446-126">Enter the **Maximum amount** for the leave type.</span></span> 
 
-13. <span data-ttu-id="86a01-128">Soovi korral sisestage puhkuse ostmisel kasutatav **Tulukood**.</span><span class="sxs-lookup"><span data-stu-id="86a01-128">Optionally enter the **Earning code** to be used for buying leave.</span></span> 
+12. <span data-ttu-id="b8446-127">Sisestage **Määr**, mille alusel töötaja puhkust ostab.</span><span class="sxs-lookup"><span data-stu-id="b8446-127">Enter the **Rate** at which the employee will buy the leave.</span></span> 
 
-14. <span data-ttu-id="86a01-129">Soovi korral saate valida, kas soovite kasutada puhkuse tüübi maksimumsumma kindlaks määramiseks täistööaja vastet.</span><span class="sxs-lookup"><span data-stu-id="86a01-129">Optionally set whether to use FTE to determine the maximum amount for the leave type.</span></span> 
+13. <span data-ttu-id="b8446-128">Soovi korral sisestage puhkuse ostmisel kasutatav **Tulukood**.</span><span class="sxs-lookup"><span data-stu-id="b8446-128">Optionally enter the **Earning code** to be used for buying leave.</span></span> 
 
-15. <span data-ttu-id="86a01-130">Müügipoliitika loomiseks järgige jaotise **Müügipoliitika** toiminguid 8 kuni 14.</span><span class="sxs-lookup"><span data-stu-id="86a01-130">To create a sell policy, follow steps 8 through 14 under **Sell policy**.</span></span> 
+14. <span data-ttu-id="b8446-129">Soovi korral saate valida, kas soovite kasutada puhkuse tüübi maksimumsumma kindlaks määramiseks täistööaja vastet.</span><span class="sxs-lookup"><span data-stu-id="b8446-129">Optionally set whether to use FTE to determine the maximum amount for the leave type.</span></span> 
 
-## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a><span data-ttu-id="86a01-131">Puhkuse ostmise ja müümise poliitika lisamine puhkuste ja puudumiste plaanile</span><span class="sxs-lookup"><span data-stu-id="86a01-131">Add the buy and sell leave policy to a leave and absence plan</span></span>
+15. <span data-ttu-id="b8446-130">Müügipoliitika loomiseks järgige jaotise **Müügipoliitika** toiminguid 8 kuni 14.</span><span class="sxs-lookup"><span data-stu-id="b8446-130">To create a sell policy, follow steps 8 through 14 under **Sell policy**.</span></span> 
 
-1. <span data-ttu-id="86a01-132">Valige lehel **Puhkus ja puudumine** puhkuste ja puudumiste plaan.</span><span class="sxs-lookup"><span data-stu-id="86a01-132">On the **Leave and absence** page, select a leave and absence plan.</span></span>
+## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a><span data-ttu-id="b8446-131">Puhkuse ostmise ja müümise poliitika lisamine puhkuste ja puudumiste plaanile</span><span class="sxs-lookup"><span data-stu-id="b8446-131">Add the buy and sell leave policy to a leave and absence plan</span></span>
 
-2. <span data-ttu-id="86a01-133">Valige jaotises **Reeglid** suvand **Puhkuse ostmise ja müümise poliitika**.</span><span class="sxs-lookup"><span data-stu-id="86a01-133">Under **Rules**, select **Buy and sell leave policy**.</span></span>
+1. <span data-ttu-id="b8446-132">Valige lehel **Puhkus ja puudumine** puhkuste ja puudumiste plaan.</span><span class="sxs-lookup"><span data-stu-id="b8446-132">On the **Leave and absence** page, select a leave and absence plan.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="86a01-134">Vt ka</span><span class="sxs-lookup"><span data-stu-id="86a01-134">See also</span></span>
+2. <span data-ttu-id="b8446-133">Valige jaotises **Reeglid** suvand **Puhkuse ostmise ja müümise poliitika**.</span><span class="sxs-lookup"><span data-stu-id="b8446-133">Under **Rules**, select **Buy and sell leave policy**.</span></span>
 
-[<span data-ttu-id="86a01-135">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="86a01-135">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)</br>
-[<span data-ttu-id="86a01-136">Puhkuste ja puudumiste tüüpide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="86a01-136">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)</br>
-[<span data-ttu-id="86a01-137">Puhkuse ja puudumise plaanide juurdekasv</span><span class="sxs-lookup"><span data-stu-id="86a01-137">Accrue leave and absence plans</span></span>](hr-leave-and-absence-accrue.md)</br>
-[<span data-ttu-id="86a01-138">Puhkuse ostmine ja müümine</span><span class="sxs-lookup"><span data-stu-id="86a01-138">Buy and sell leave</span></span>](hr-employee-self-service-buy-sell-leave.md)
+## <a name="see-also"></a><span data-ttu-id="b8446-134">Vt ka</span><span class="sxs-lookup"><span data-stu-id="b8446-134">See also</span></span>
 
+[<span data-ttu-id="b8446-135">Puhkuste ja puudumiste ülevaade</span><span class="sxs-lookup"><span data-stu-id="b8446-135">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)</br>
+[<span data-ttu-id="b8446-136">Puhkuste ja puudumiste tüüpide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b8446-136">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)</br>
+[<span data-ttu-id="b8446-137">Puhkuse ja puudumise plaanide juurdekasv</span><span class="sxs-lookup"><span data-stu-id="b8446-137">Accrue leave and absence plans</span></span>](hr-leave-and-absence-accrue.md)</br>
+[<span data-ttu-id="b8446-138">Puhkuse ostmine ja müümine</span><span class="sxs-lookup"><span data-stu-id="b8446-138">Buy and sell leave</span></span>](hr-employee-self-service-buy-sell-leave.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

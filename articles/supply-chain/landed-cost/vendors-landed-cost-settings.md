@@ -1,0 +1,44 @@
+---
+title: Väljalaadimiskulu jaoks on lisatud hankija sätted
+description: Selles teemas kirjeldatakse uusi välju, mis lisatakse olemasolevale hankijate lehele, kui lubate mooduli Väljalaadimiskulu. Nende väljade abil saate seadistada koos Väljalaadimiskulu funktsioonidega kasutatavad hankijaid.
+author: sherry-zheng
+manager: tfehr
+ms.date: 12/07/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: VendTable
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2020-12-07
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 8cc0622cd761a671ebb88addc36b777cfefb7dc7
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500906"
+---
+# <a name="vendor-settings-added-for-landed-cost"></a><span data-ttu-id="12e6f-104">Väljalaadimiskulu jaoks on lisatud hankija sätted</span><span class="sxs-lookup"><span data-stu-id="12e6f-104">Vendor settings added for Landed cost</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="12e6f-105">Kui lubate mooduli **Väljalaadimiskulu**, lisatakse olemasolevale lehele **Hankijad** mitu uut välja.</span><span class="sxs-lookup"><span data-stu-id="12e6f-105">When you enable the **Landed cost** module, several new fields are added to the existing **Vendors** page.</span></span> <span data-ttu-id="12e6f-106">Nende väljade abil saate seadistada koos Väljalaadimiskulu funktsioonidega kasutatavad hankijaid.</span><span class="sxs-lookup"><span data-stu-id="12e6f-106">You use these fields to set up the vendors that you will use together with Landed cost features.</span></span>
+
+<span data-ttu-id="12e6f-107">Asjakohaste väljade määramiseks avage **Hanked \> Hankijiad \> Kõik hankijad**.</span><span class="sxs-lookup"><span data-stu-id="12e6f-107">To set the relevant fields, go to **Procurement and sourcing \> Vendors \> All vendors**.</span></span> <span data-ttu-id="12e6f-108">Avage olemasolev hankija või looge uus hankija ja seejärel valige kiirkaart **Mitmesugused üksikasjad**.</span><span class="sxs-lookup"><span data-stu-id="12e6f-108">Open an existing vendor, or create a new vendor, and then select the **Miscellaneous details** FastTab.</span></span> <span data-ttu-id="12e6f-109">Kõik uued väljad, mille moodul **Väljalaadimiskulu** lisab, kuvatakse päise **Teekonnad** all.</span><span class="sxs-lookup"><span data-stu-id="12e6f-109">All the new fields that the **Landed cost** module adds appear under the **Voyages** heading.</span></span> <span data-ttu-id="12e6f-110">Järgmises tabelis kirjeldatakse neid välju.</span><span class="sxs-lookup"><span data-stu-id="12e6f-110">The following table describes these fields.</span></span>
+
+| <span data-ttu-id="12e6f-111">Field</span><span class="sxs-lookup"><span data-stu-id="12e6f-111">Field</span></span> | <span data-ttu-id="12e6f-112">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="12e6f-112">Description</span></span> |
+|---|---|
+| <span data-ttu-id="12e6f-113">Saatmise tüüp</span><span class="sxs-lookup"><span data-stu-id="12e6f-113">Shipping type</span></span> | <p><span data-ttu-id="12e6f-114">Valige hankija roll seoses väljalaadimiskuluga.</span><span class="sxs-lookup"><span data-stu-id="12e6f-114">Select the vendor's role in relation to Landed cost:</span></span></p><ul><li><span data-ttu-id="12e6f-115">**Pole** – hankijal pole väljalaadimiskuluga seotud kindlat rolli.</span><span class="sxs-lookup"><span data-stu-id="12e6f-115">**None** – The vendor has no specific role that is related to Landed cost.</span></span> <span data-ttu-id="12e6f-116">See väärtus on vaikesäte, kuna tõenäoliselt enamikul hankijatel kindlat rolli pole.</span><span class="sxs-lookup"><span data-stu-id="12e6f-116">This value is the default setting, because most vendors will probably have no specific role.</span></span></li><li><span data-ttu-id="12e6f-117">**Saatmisettevõte** – hankija on saatmisettevõte.</span><span class="sxs-lookup"><span data-stu-id="12e6f-117">**Shipping company** – The vendor is a shipping company.</span></span> <span data-ttu-id="12e6f-118">Selle saatmistüübiga hankijad on saadaval valimiseks lehe **Teekonnad** väljal **Saatmisettevõte**.</span><span class="sxs-lookup"><span data-stu-id="12e6f-118">Vendors that have this shipping type are available for selection in the **Shipping company** field on the **Voyages** page.</span></span></li><li><span data-ttu-id="12e6f-119">**Tollimaakler** – hankija on tollimaakler.</span><span class="sxs-lookup"><span data-stu-id="12e6f-119">**Customs broker** – The vendor is a customs broker.</span></span> <span data-ttu-id="12e6f-120">Selle saatmistüübiga hankijad on saadaval valimiseks lehe **Fooliod** väljal **Tollimaakler**.</span><span class="sxs-lookup"><span data-stu-id="12e6f-120">Vendors that have this shipping type are available for selection in the **Customs broker** field on the **Folios** page.</span></span></li><li><span data-ttu-id="12e6f-121">**Agent** – hankija on agent.</span><span class="sxs-lookup"><span data-stu-id="12e6f-121">**Agent** – The vendor is an agent.</span></span> <span data-ttu-id="12e6f-122">Selle saatmistüübiga hankijad on saadaval valimiseks lehtede **Hankijad** ja **Ostutellimused** väljal **Agent**.</span><span class="sxs-lookup"><span data-stu-id="12e6f-122">Vendors that have this shipping type are available for selection in the **Agent** field on the **Vendors** and **Purchase orders** pages.</span></span></li></ul> |
+| <span data-ttu-id="12e6f-123">Kulutüübi grupp</span><span class="sxs-lookup"><span data-stu-id="12e6f-123">Cost type group</span></span> | <span data-ttu-id="12e6f-124">Määrake hankija kulutüübi gruppi, et valida [automaatsed kulud](auto-cost-setup.md).</span><span class="sxs-lookup"><span data-stu-id="12e6f-124">Assign the vendor to a cost type group for the purpose of selecting [auto costs](auto-cost-setup.md).</span></span> |
+| <span data-ttu-id="12e6f-125">Lähtesadam</span><span class="sxs-lookup"><span data-stu-id="12e6f-125">From port</span></span> | <span data-ttu-id="12e6f-126">Valige teekonna päritolusadam.</span><span class="sxs-lookup"><span data-stu-id="12e6f-126">Select the port of origin for the voyage.</span></span> |
+| <span data-ttu-id="12e6f-127">Agent</span><span class="sxs-lookup"><span data-stu-id="12e6f-127">Agent</span></span> | <span data-ttu-id="12e6f-128">Vaikeagent hankijalt ostude tegemisel.</span><span class="sxs-lookup"><span data-stu-id="12e6f-128">The default agent when purchases are made from the vendor.</span></span> |
+| <span data-ttu-id="12e6f-129">Impordi kuluarvutuse hankija</span><span class="sxs-lookup"><span data-stu-id="12e6f-129">Import costing vendor</span></span> | <p><span data-ttu-id="12e6f-130">Saate määrata, kas hankija on väljalaadimiskulu hankija.</span><span class="sxs-lookup"><span data-stu-id="12e6f-130">Indicate whether the vendor is a Landed cost vendor.</span></span></p><p><span data-ttu-id="12e6f-131">**Nõuanne.** Seda välja saate koos kirjetasandi turvalisusega kasutada selleks, et piirata teekonna loomisel kuvatavate ostutellimuste hulka.</span><span class="sxs-lookup"><span data-stu-id="12e6f-131">**Tip:** You can use this field together with record-level security to limit the purchase orders that are shown when a voyage is created.</span></span></p> |
+| <span data-ttu-id="12e6f-132">Saatmisettevõte</span><span class="sxs-lookup"><span data-stu-id="12e6f-132">Shipping company</span></span> | <span data-ttu-id="12e6f-133">Saate valida vaikesaatmisettevõtte, mida kasutatakse hankija jaoks ostutellimuste loomisel.</span><span class="sxs-lookup"><span data-stu-id="12e6f-133">Select the default shipping company that is used when purchase orders are created for the vendor.</span></span> |
+| <span data-ttu-id="12e6f-134">Teenuste pakkuja</span><span class="sxs-lookup"><span data-stu-id="12e6f-134">Services provider</span></span> | <span data-ttu-id="12e6f-135">Saate määrata, kas hankija on teenusteosutaja.</span><span class="sxs-lookup"><span data-stu-id="12e6f-135">Indicate whether the vendor is services provider.</span></span> |
+| <span data-ttu-id="12e6f-136">Üle-/alataseme kõikumisvahemiku grupp</span><span class="sxs-lookup"><span data-stu-id="12e6f-136">Over/Under tolerance group</span></span> | <span data-ttu-id="12e6f-137">Saate valida hankija jaoks üle-/alataseme kõikumisvahemiku vaikegrupi.</span><span class="sxs-lookup"><span data-stu-id="12e6f-137">Select the default over/under tolerance group for the vendor.</span></span> |

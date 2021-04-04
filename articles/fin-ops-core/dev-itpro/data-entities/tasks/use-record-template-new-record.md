@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, SysRecordTemplateSelect
 audience: Application User
@@ -15,23 +14,26 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9c71bab129aeecfdf5c59affece0d665e133979
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c926063b835fb01c551b87f7a78bfc8dc30f31fb
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685165"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559166"
 ---
-# <a name="use-record-template-to-create-a-new-record"></a><span data-ttu-id="80ecc-103">Kirje malli kasutamine uue kirje loomiseks</span><span class="sxs-lookup"><span data-stu-id="80ecc-103">Use record template to create a new record</span></span>
+# <a name="use-record-template-to-create-a-new-record"></a><span data-ttu-id="d7292-103">Kirje malli kasutamine uue kirje loomiseks</span><span class="sxs-lookup"><span data-stu-id="d7292-103">Use record template to create a new record</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="80ecc-104">See protseduur näitab, kuidas kasutada uue kirje loomiseks varasemalt määratletud kirje malli.</span><span class="sxs-lookup"><span data-stu-id="80ecc-104">This procedure shows how to use a previously defined record template to create a new record.</span></span> <span data-ttu-id="80ecc-105">Selle protseduuri lõpuleviimiseks peate esmalt läbima protseduuri „Andmesisestuse hõlbustamiseks kirjemalli loomine”.</span><span class="sxs-lookup"><span data-stu-id="80ecc-105">To complete this procedure, you must first complete the "Create a record template to facilitate data entry" procedure.</span></span>
+<span data-ttu-id="d7292-104">See protseduur näitab, kuidas kasutada uue kirje loomiseks varasemalt määratletud kirje malli.</span><span class="sxs-lookup"><span data-stu-id="d7292-104">This procedure shows how to use a previously defined record template to create a new record.</span></span> <span data-ttu-id="d7292-105">Selle protseduuri lõpuleviimiseks peate esmalt läbima protseduuri „Andmesisestuse hõlbustamiseks kirjemalli loomine”.</span><span class="sxs-lookup"><span data-stu-id="d7292-105">To complete this procedure, you must first complete the "Create a record template to facilitate data entry" procedure.</span></span>
 
-<span data-ttu-id="80ecc-106">See protseduur kasutab USMF-i ettevõtet.</span><span class="sxs-lookup"><span data-stu-id="80ecc-106">This procedure uses the USMF company.</span></span>
+<span data-ttu-id="d7292-106">See protseduur kasutab USMF-i ettevõtet.</span><span class="sxs-lookup"><span data-stu-id="d7292-106">This procedure uses the USMF company.</span></span>
 
-1. <span data-ttu-id="80ecc-107">Avage **Navigeerimispaneelil** **Põhivarad > Põhivara > Põhivarad**.</span><span class="sxs-lookup"><span data-stu-id="80ecc-107">In the **Navigation pane**, go to **Fixed assets > Fixed assets > Fixed assets**.</span></span>
-2. <span data-ttu-id="80ecc-108">Klõpsake valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="80ecc-108">Click **New**.</span></span> <span data-ttu-id="80ecc-109">Teil palutakse mall valida.</span><span class="sxs-lookup"><span data-stu-id="80ecc-109">You will be prompted to select a template.</span></span> <span data-ttu-id="80ecc-110">Valige mall, mis vastab teie ärivajadustele.</span><span class="sxs-lookup"><span data-stu-id="80ecc-110">Select the one that corresponds to your business need.</span></span>  
-3. <span data-ttu-id="80ecc-111">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="80ecc-111">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="80ecc-112">Klõpsake valikut **OK**.</span><span class="sxs-lookup"><span data-stu-id="80ecc-112">Click **OK**.</span></span>
+1. <span data-ttu-id="d7292-107">Avage **Navigeerimispaneelil** **Põhivarad > Põhivara > Põhivarad**.</span><span class="sxs-lookup"><span data-stu-id="d7292-107">In the **Navigation pane**, go to **Fixed assets > Fixed assets > Fixed assets**.</span></span>
+2. <span data-ttu-id="d7292-108">Klõpsake valikut **Uus**.</span><span class="sxs-lookup"><span data-stu-id="d7292-108">Click **New**.</span></span> <span data-ttu-id="d7292-109">Teil palutakse mall valida.</span><span class="sxs-lookup"><span data-stu-id="d7292-109">You will be prompted to select a template.</span></span> <span data-ttu-id="d7292-110">Valige mall, mis vastab teie ärivajadustele.</span><span class="sxs-lookup"><span data-stu-id="d7292-110">Select the one that corresponds to your business need.</span></span>  
+3. <span data-ttu-id="d7292-111">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="d7292-111">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="d7292-112">Klõpsake valikut **OK**.</span><span class="sxs-lookup"><span data-stu-id="d7292-112">Click **OK**.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
