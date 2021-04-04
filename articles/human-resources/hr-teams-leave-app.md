@@ -3,7 +3,7 @@ title: Puhkusetaotluste haldamine Teamsis
 description: Selles teemas kirjeldatakse, kuidas esitada puhkusetaotlust Microsoft Teamsi rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128157"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571724"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Teamsi rakendus Microsoft Dynamics 365 Human Resources võimaldab teil kiirelt esitada vaba aja taotlust ja kuvada vaba aja saldo teavet otse Microsoft Teamsis. Saate suhelda robotiga, et taotleda teavet ja algatada puhkusetaotlus. Vahekaart **Vaba aeg** annab üksikasjalikumat teavet. Lisaks saate saata inimestele teavet eelseisva eemaloleku kohta töörühmades ja vestlustes väljaspool rakendust Human Resources.
+Microsoft Teamsi rakendus Dynamics 365 Human Resources võimaldab teil kiiresti taotleda puhkepäevi ja vaadata vaba aja saldo teavet otse Microsoft Teamsis. Saate suhelda robotiga, et taotleda teavet ja algatada puhkusetaotlus. Vahekaart **Vaba aeg** annab üksikasjalikumat teavet. Lisaks saate inimestele saata teavet eelseisva eemaloleku kohta Teamsis ja vestlustes väljaspool rakendust Human Resources.
 
 ## <a name="install-the-app"></a>Rakenduse installimine
 
-Rakenduse Human Resources leiate Teamsi poest.
+Rakenduse Dynamics 365 Human Resources leiate Teamsi poest.
 
 1. Valige kolmikpunktid Microsoft Teamsis.
 
@@ -70,29 +70,21 @@ Pärast rakenduse installimist kuvatakse tervitussõnum, mis teavitab teid tegev
 
 Võite paluda robotil teha järgnevat.
 
-- Vaba aja saldo teabe kuvamine iga registreeritud puhkuse tüübi kohta.
-
-   ![Human Resources Teamsi puhkuse rakenduse saldode kuvamine](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Konkreetse puhkuse tüübi täpsemate üksikasjade kuvamine.
-
-   ![Human Resources Teamsi puhkuse rakenduse üksikasjade kuvamine](./media/hr-teams-leave-app-bot-details.png)
-
 - Puhkusetaotluse alustamine teie eest.
 
-   ![Human Resources Teamsi puhkuse rakenduse puhkusetaotlus](./media/hr-teams-leave-app-bot-request.png)
- 
-Pärast puhkusetaotluse esitamist saate päevi muuta otse kaardi kaudu.
+  ![Puhkusetaotluse alustamine Teamsi vestluses](./media/hr-teams-leave-app-initiate.png)
 
-![Human Resources Teamsi puhkuse rakenduse taotluse redigeerimine](./media/hr-teams-leave-app-bot-edit.png)
- 
-Kui olete lõpetanud teabe sisestamise, valige **Esita**, et esitada see heakskiitmiseks. Saate valida ka **Salvesta mustandina**, et hiljem jätkata.
+- Vestlusrobot sisestab puhkusetaotluse andmed teie eest. Valige **Vaba aja taotlemine** ja redigeerige taotluse üksikasju.
 
-![Human Resources Teamsi puhkuse rakenduse taotluse esitamine](./media/hr-teams-leave-app-bot-submit.png)
+  ![Puhkusetaotluse üksikasjade redigeerimine](./media/hr-teams-leave-app-details.png)
+
+- Kui olete puhkusetaotluse üksikasjade redigeerimise lõpetanud, valige **Edasta**, et saata taotlus kinnitamiseks.
+
+  ![Puhkusetaotluse edastamine](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Puhkuse haldamine Teamsis
 
-Vahekaardil **Vaba aeg** saate kuvada järgnevat.
+Vahekaardil **Vaba aeg** saate kuvada järgnevat. 
 
 - Saldo teabe iga registreeritud puhkuse tüübi kohta
 
@@ -164,21 +156,51 @@ Kui olete otseste alluvatega juht, saate vaadata oma töörühma kinnitatud ja o
 
 1. Tehke Teamsi rakenduses Human Resources valik **Vaba aeg**.
 
-2. Valige **Töörühma kalender**.
+2. Valige **Töörühma kalender**. Kalendris kuvatakse teie otsesed aruanded, mis on kinnitatud ja ootel vaba ajaga.
 
    ![Kalendri kuvamine Teamsi rakenduses Human Resources](./media/hr-teams-leave-app-view-calendar.png)
 
-Kalendris kuvatakse teie otsesed aruanded, mis on kinnitatud ja ootel vaba ajaga.
+   > [!NOTE]
+   > Kui te ei näe töörühma kalendrit, paluge administraatoril see lubada. Lisateabe saamiseks vt teemat [Installimine ja häälestus](hr-admin-teams-leave-app.md#install-and-setup).
 
-![Vaba aja kalendri kuvamine Teamsi rakenduses Human Resources](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>Toetatud keeled
+
+Teamsi rakendus Dynamics 365 Human Resources toetab järgmisi keeli:
+
+| Lokaadi ID | Keel |
+| --- | --- |
+| de-DE | saksa (Saksamaa) |
+| es-ES | hispaania (Hispaania) |
+| es-MX | Hispaania (Mehhiko) |
+| fr-CA | Prantsuse (Kanada) |
+| fr-FR | prantsuse (Prantsusmaa) |
+| it-IT | itaalia (Itaalia) |
+| nl-NL | hollandi (Holland) |
+| pt-BR | portugali (Brasiilia) |
+| tr-TR | türgi (Türgi) |
+| zh-CN | Hiina (lihtsustatud) |
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 
-Kui teil on probleeme Human Resources Teamsi rakendusse sisselogimisega või selle kasutamisega, proovige neid tõrkeotsingujuhiseid järgida. Kui teil on pärast tõrkeotsingut endiselt probleeme, siis võtke ühendust tugiteenusega. Lisateavet leiate teemast [Toe hankimine](hr-admin-troubleshooting-support.md).
+Kui teil on probleeme Teamsis rakendusse Dynamics 365 Human Resources sisselogimisega või selle kasutamisega, proovige neid tõrkeotsingujuhiseid. Kui teil on pärast tõrkeotsingut endiselt probleeme, siis võtke ühendust tugiteenusega. Lisateavet leiate teemast [Toe hankimine](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Ma ei saa Teamsis rakendusse Human Resources sisse logida
 
 Kui te ei saa rakendusse sisse logida, siis on võimalik, et konto, mida kasutate rakendusse Microsoft Teams sisse logimiseks, ei ole seotud töötajakirjega rakenduses Dynamics 365 Human Resources. Võtke ühendust oma süsteemiadministraatoriga, et teha kindlaks, et teie töötajakirje on korralikult seotud.
+
+### <a name="translations-dont-display-correctly"></a>Tõlkeid ei kuvata õigesti
+
+Kui tõlkeid ei kuvata ootuspäraselt, veenduge, et Teamsis valitud keel ühtiks inimressursside mooduli lehel **Kasutaja valikud** valitud keelega.
+
+Otsige Teamsis aknas **Sätted** üles **Rakenduse keel**.
+
+![Teamsi sätted](./media/hr-teams-leave-app-settings.png)
+
+Valige inimressursside moodulis **Sätted** ja seejärel **Kasutaja valikud**. Veenduge, et väljal **Keel** oleks valitud sama keel, mis Teamsi väljal **Rakenduse keel**.
+
+![Inimressursside mooduli kasutajavalikud](./media/hr-teams-leave-app-user-options.png)
+
+Kui tõlkeprobleemid ei lahene, andke meile teada. Teavet leiate teemast [Finance and Operationsi rakenduste või teenuse Lifecycle Services (LCS) tugi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Tõrge puhkusetaotluste kinnitamise korral Teamsis rakenduses Human Resources
 
@@ -198,7 +220,6 @@ Teamsi rakendusel Human Resources on järgmised hõlbustusprobleemid, mille lahe
 | VoiceOver teatab vahekaardil **Vaba aeg** nuputoimingust, lugedes ette vaba aja ruudustiku päist. | Ruudustiku päis ja elemendid rühmitatakse aasta kaupa ja need on ahendatavad. VoiceOver tõlgendab seda kui tegevusüksust, kuid see pole seda. |
 | Vahekaardil **Vaba aeg** saab teha lisaks veel ühe nipsamise, kui valitakse uue taotluse **põhjuse kood**. | See nipsamine ei ava siiski ühtki peidetud juhtelementi. |
 | Kui nipsate vahekaardil **Vaba aeg** avatud kalendri korral, liigutakse uue taotluse korral või taotluse redigeerimisel ülaosa asemel hoopis juhtelemendist välja. | Kui jõuate valikuni **Liigu tänase juurde**, võtke arvesse, et see on juhtelemendi lõpp ja nipske vastassuunas, et tagasi algusse saada. |
-| VoiceOver ei loe ette kuupäevasilte. | Paarides esinevad kuupäevad on alati **alguskuupäev** ja **lõppkuupäev**. |
 | Vahekaardil **Vestlus** viiakse fookus tagasi algusse, kui sisestate kuupäeva abistavat tööriista kaustades või klaviatuuri abil valides. | Vajutage tabeldusklahvi, kuni jõuate uuesti sisendi juurde. |
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus

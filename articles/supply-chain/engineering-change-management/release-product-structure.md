@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967227"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580911"
 ---
 # <a name="release-product-structures"></a>Toote struktuuride vabastamine
 
@@ -76,8 +76,6 @@ Lisateavet toote kinnitamise kohta vaadake teemast [Toote ülevaatamine ja kinni
 ## <a name="release-policies"></a>Väljastamispoliitikad
 
 Kõik operatiivettevõtted ei vaja samu toote andmeid. Üldiselt nõuavad tehnilisi tooteid tootvad operatiivettevõtted kooslusi, samas kui operatiivettevõte, mis tehnilisi tooteid ainult müüb, kooslusi ei vaja. Saate kasutada väljastamispoliitikaid, et luua parameetreid, mida kasutatakse toodete väljastamiseks.
-
-Tehniliste toodete väljastamispoliitika on määratud tehniliste toodete kategoorias ja väli on kohustuslik. Standardsete toodete puhul määratakse poliitika jagatud tootele ja väli on valikuline.
 
 Lisateavet tehniliste toodete kategooriate kohta leiate teemast [Tehnilised versioonid ja tehniliste toodete kategooriad](engineering-versions-product-category.md).
 

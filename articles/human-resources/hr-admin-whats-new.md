@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec952f8c121f97396c135d10258a6431e8f2257e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3412f446fe9fb8e3c2ca5407b22680dec3c3b82
+ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112289"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579327"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Mis on uut või mida on muudetud rakenduses Human Resources?
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Iga kahe nädala tagant esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Teemad selles loendis kirjeldavad igas väljaandes tehtud muudatusi.
 
@@ -49,9 +51,11 @@ Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisp
 
 Et näha, mis on Human Resourcesi igas kahenädalases väljalaskes uut või muudetud, vaadake järgmisi artikleid.
 
+[8. märts 2021](hr-whats-new-2021-03-08.md)</br>
+[22. veebruar 2021](hr-whats-new-2021-02-22.md)</br>
 [28. jaanuar 2021](hr-whats-new-2021-01-28.md)</br>
 [21. jaanuar 2021](hr-whats-new-2021-01-21.md)</br>
-[02. detsember 2020](hr-whats-new-2020-12-02.md)</br>
+[2. detsember 2020](hr-whats-new-2020-12-02.md)</br>
 [22. oktoober 2020](hr-whats-new-2020-10-22.md)</br>
 [16. september 2020](hr-whats-new-2020-09-16.md)</br>
 [3. september 2020](hr-whats-new-2020-09-03.md)</br>

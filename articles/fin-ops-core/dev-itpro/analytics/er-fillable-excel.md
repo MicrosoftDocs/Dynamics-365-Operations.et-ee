@@ -3,10 +3,9 @@ title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevaid Exceli vormingus dokumente.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094025"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574169"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -54,7 +53,7 @@ Peate lisama konfigureeritud ER-vormingule komponendi **Excel\\File**, et luua E
 Väljamineva dokumendi paigutuse määramiseks lisage Exceli töövihik, millel on laiend .xlsx, komponendile **Excel\\File** väljaminevate dokumentide mallina kasutamiseks.
 
 > [!NOTE]
-> Malli käsitsi manustamisel peate kasutama [dokumendi tüüpi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), mis on konfigureeritud selleks otstarbeks [ER-i parameetrites](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Malli käsitsi manustamisel peate kasutama [dokumendi tüüpi](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), mis on konfigureeritud selleks otstarbeks [ER-i parameetrites](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Komponendile Excel\fail manuse lisamine](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Lisateavet piltide ja kujundite manustamise kohta leiate teemast [Piltide ja kuj
 
 Komponent **PageBreak** sunnib Excelit uut lehte alustama. See komponent pole nõutav, kui soovite kasutada Exceli vaikimisi lehekülgede saalimist, kuid peaksite seda kasutama juhul, kui soovite, et Excel järgiks teie ER-vormingut lehekülgede saalimise struktureerimisel.
 
+## <a name="footer-component"></a>Jaluse komponent
+
+**Jaluse** komponenti kasutatakse jaluste täitmiseks Exceli töövihikus loodud töölehe allservas.
+
+> [!NOTE]
+> Saate lisada selle komponendi igale **lehe** komponendile, et määrata erinevad jalused erinevatele töölehtedele genereeritud Exceli töövihikus.
+
+Kui konfigureerite üksiku **jaluse** komponendi, saate kasutada **päise/jaluse** välimuse atribuuti, et täpsustada lehekülgi, mille jaoks komponenti kasutatakse. Saadaval on järgmised väärtused:
+
+- **Mistahes** - käivitage konfigureeritud **jaluse** komponent Exceli ematöölehe mis tahes lehekülje jaoks.
+- **Esimene** - käivitage konfigureeritud **jaluse** komponent Exceli ematöölehe esimese lehekülje jaoks.
+- **Võrdne** - käivitage konfigureeritud **jaluse** komponent Exceli võrdsete ematöölehtede jaoks.
+- **Juhuslik** - käivitage konfigureeritud **jaluse** komponent juhusliku Exceli ematöölehe lehekülje jaoks.
+
+Üksiku **lehe** komponendile saate lisada **jaluse** komponendi, millest igaühel on **päise/jaluse välimuse atribuudi** jaoks erinev väärtus. Sel viisil saate Exceli töölehel luua eri tüüpi lehekülgede jaoks erinevaid jaluseid.
+
+> [!NOTE]
+> Veenduge, et **jaluse** komponent, mille te lisate üksikule **lehe** komponendile, oleks erinev väärtus **päise/jaluse välimuse** atribuudi jaoks. Vastasel juhul [ilmneb](er-components-inspections.md#i16) kinnitamistõrge. Tõrketeade, mille saate, teavitab teid vastuolust.
+
+Lisage lisatud **jaluse** komponendi alla, vajalikud pesastatud komponendid **Tekst\\Tekstiring**, **Tekst\\KuupäevKellaaeg** või muu tüüp. Konfigureerige nende komponentide sidumised, et määratleda, kuidas teie lehekülg jalus täidetakse.
+
+Loodud jaluse sisu [õigeks](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) vormindamiseks saate kasutada ka erilisi vorminduskoode. Et teada saada, kuidas seda lähenemist kasutada, järgige selle [teema näites 1](#example-1) toodud etappe.
+
+> [!NOTE]
+> ER-vormingute konfigureerimisel arvestage kindlasti Exceli [piirangut](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ja suurimat ühe päise või jaluse tähemärkide arvu.
+
+## <a name="header-component"></a>Päise komponent
+
+**Päise** komponenti kasutatakse päiste täitmiseks Exceli töövihikus loodud töölehe allservas. Seda kasutatakse **jaluse** komponendina.
+
 ## <a name="edit-an-added-er-format"></a>Lisatud ER-vormingu redigeerimine
 
 ### <a name="update-a-template"></a>Malli värskendamine
@@ -175,6 +204,48 @@ Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad 
     >[!NOTE]
     > Valemi uuesti arvutamine tehakse käsitsi, kui loodud dokument avatakse Excelit kasutades eelvaateks.
     > Ärge kasutage seda valikut, kui konfigureerite ER-i sihtkohta, mis eeldab loodud dokumendi kasutamist ilma selle eelvaateta Excelis (PDF-i teisendamine, meilimine jne)., kuna loodud dokument ei pruugi omada valemeid sisaldavates lahtrites väärtusi.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Näide 1: jaluse sisu vormindamine
+
+1. Kasutage antud ER-i konfiguratsioone [loomiseks](er-generate-printable-fti-forms.md) prinditava vabas vormis arve (FTI) dokumenti.
+2. Vaadake üle loodud dokumendi jalus. Pange tähele, et see sisaldab teavet praeguse leheküljenumbri ja dokumendi lehtede koguarvu kohta.
+
+    ![Vaadake üle loodud dokumendi jalus Exceli vormingus](./media/er-fillable-excel-footer-1.gif)
+
+3. ER-vormingu kujunduses [avage](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) läbivaatamiseks ER-näidisvorming.
+
+    **Arve** jaluses luuakse kahe töölehe sätete põhjal **stringi** komponendi all oleva **jaluse** komponent:
+
+    - Esimene **Stringi** komponent täidab järgmised vormindamise erikoodid, et Excel rakendaks kindlat vormingut:
+
+        - **&C** – joondage jaluse tekst keskele.
+        - **&"Segoe UI,Regulaarne"&8** – esitage jaluse tekst "Segoe UI Regular" fondis 8 punkti suuruses.
+
+    - Teine **Stringi** komponent sisestab teksti, mis sisaldab praegust leheküljenumbrit ja praeguse dokumendi lehtede koguarvu.
+
+    ![ER-i vormingu komponendi kinnitamine vormingu kujundaja lehel](./media/er-fillable-excel-footer-2.png)
+
+4. Praeguse lehe jaluse muutmiseks saate kohandada ER-näidisvormingut:
+
+    1. [Looge](er-quick-start2-customize-report.md#DeriveProvidedFormat) tuletatud **vabas vormis arve (Excel) kohandatud** ER-vorming, mis põhineb ER-näidisvormingul.
+    2. Lisage arve töölehe jaluse **Rida** komponendile **jalus** komponent **arve** töölehel:
+
+        1. Lisage **Stringi** komponent, mis joondab ettevõtte nime vasakul ja esitab selle 8-punkti fondis "Segoe UI Regular" font (**"&L&"Segoe UI,Regular"&8"**).
+        2. Lisage **Stringi** komponent, mis täidab ettevõtte nime (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Lisage teine uus paar **Rida** komponendile **jalus** komponent **arve** töölehel:
+
+        1. Lisage **Stringi** komponent, mis joondab ettevõtte nime vasakul ja esitab selle 8-punkti fondis "Segoe UI Regular" font (**"&L&"Segoe UI,Regular"&8"**).
+        2. Lisage **Stringi** komponent, mis täidab töötlemiskuupäeva kohandatud vormingus (**&nbsp;&DATEFORMAT(SESSIONTODAY(), "aaaa-KK-pp")**).
+
+        ![ER-i vormingu komponendi vaatamine vormingu kujundaja lehel](./media/er-fillable-excel-footer-3.png)
+
+    4. [Viige](er-quick-start2-customize-report.md#CompleteDerivedFormat) lõpule tuletatud **vabas vormis arve (Exceli) kohandatud** ER-vormingu mustandversioon.
+
+5. [Konfigureerige](er-generate-printable-fti-forms.md#configure-print-management) prindihaldus kasutama tuletatud **vabas vormis arve (Excel) kohandatud** ER-vormingut ER-näidisvormingu asemel.
+6. Looge prinditav FTI-dokument ja vaadake üle loodud dokumendi jalus.
+
+    ![Vaadake üle loodud dokumendi jalus Exceli vormingus](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

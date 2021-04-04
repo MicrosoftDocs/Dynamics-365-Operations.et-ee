@@ -3,7 +3,7 @@ title: Elektroonilise arvelduse lisandmooduli halduse komponendid
 description: Sellest teemast leiate teavet komponentide kohta, mis on seotud elektroonilise arvelduse lisandmooduli haldusega.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104370"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592570"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Elektroonilise arvelduse lisandmooduli halduse komponendid
 
@@ -39,11 +39,15 @@ Kasutage teenust Microsoft Azure võtmehoidla ja salvestuskonto saladuste loomis
 
 Kasutage LCS-i juurutusprojekti mikroteenuste jaoks lisandmooduli lubamiseks Microsoft Dynamicsi teenust Lifecycle Services (LCS).
 
-Valige LCS-is paan **Eelvaate funktsiooni haldamine** ja lülitage funktsioon **E-arvelduse teenus** sisse.
+> [!NOTE]
+> Mikroteenuse lisandmooduli LCS-i install nõuab vähemalt 2. taseme virtuaalmasinat. Lisateavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) on elektroonilise arvelduse lisandmooduli konfigureerimiseks kasutatav liides. Selliseid ressursse nagu keskkonnad ja elektroonilise arvelduse funktsioonid luuakse, hallatakse ja majutatakse RCS-is. Kui ressursid on valmis, avaldatakse need elektroonilise arvelduse lisandmooduli teenuses.
+
+RCS-i registreerimiseks vaata [Regulatory services](https://marketing.configure.global.dynamics.com/).
 
 Lisateavet RCS-i kohta vt teemast [Regulatory Configuration Services (RCS) – globaliseerimisfunktsioonid](rcs-globalization-feature.md).
 
@@ -53,22 +57,14 @@ Enne kui saate elektrooniliste arvete konfigureerimiseks RCS-i kasutada, peate k
 
 #### <a name="service-endpoint"></a>Teenuse lõpp-punkt
 
-Elektroonilise arvelduse lisandmooduli lõpp-punkt võib olenevalt Azure'i andmekeskuse geograafilisest piirkonnast erineda. Järgmises tabelis on toodud saadavus piirkonniti.
+Elektroonilise arvelduse lisandmoodul juurutatakse järgmistes Azure'i geograafilistes piirkondades. Järgmises tabelis on toodud saadavus piirkonniti.
 
-| Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URL                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| Ida-USA                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| Lääne-USA                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| Põhja-EL                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| Lääne-EL                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>Rakenduse ID
-
-Rakenduse ID on elektroonilise arvelduse lisandmooduli rakenduse ID. Selles näites on see väärtus fikseeritud: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>LCS-i keskkonna ID
-
-LCS-i keskkonna ID on teie organisatsiooni LCS-i tellimuse ID.
+| Azure'i andmekeskuse geograafiline piirkond |
+|----------------------------|
+| Ida-USA                    |
+| Lääne-USA                    |
+| Põhja-EL                   |
+| Lääne-EL                    |
 
 ### <a name="service-environments"></a>Teenusekeskkonnad
 

@@ -3,7 +3,7 @@ title: Elektroonilise arvelduse lisandmooduli teenuse halduse kasutamise alustam
 description: Selles teemas selgitatakse, kuidas elektroonilise arvelduse lisandmooduli kasutamist alustada.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104368"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592522"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Elektroonilise arvelduse lisandmooduli teenuse halduse kasutamise alustamine
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104368"
 Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema järgmised eeltingimused.
 
 - Teil peab olema juurdepääs oma Microsoft Dynamicsi teenuse Lifecycle Services (LCS) kontole.
-- Teil peab olema LCS-projekt, mis hõlmab Microsofti teenuste Dynamics 365 Finance ja Dynamics 365 Supply Chain Management versiooni 10.0.13 või uuemat versiooni. Peale selle peavad need rakendused olema juurutatud ühes järgmistest Azure'i geograafilistest piirkondadest.
+- Teil peab olema LCS-projekt, mis hõlmab Microsofti teenuste Dynamics 365 Finance ja Dynamics 365 Supply Chain Management versiooni 10.0.17 või uuemat versiooni. Peale selle peavad need rakendused olema juurutatud ühes järgmistest Azure'i geograafilistest piirkondadest.
 
     - Ida-USA
     - Lääne-USA
@@ -52,6 +52,13 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 2. Valige paan **Eelvaate funktsiooni haldamine**.
 3. Valige jaotises **Avaliku eelvaateversiooni funktsioonid** suvand **E-arvelduse teenus**.
 4. Veenduge, et suvandi **Funktsiooni eelversioon on lubatud** väärtuseks oleks valitud **Jah**.
+5. Valige LCS-i armatuurlaudal oma LCS-i juurutusprojekt. LCS-projekt peab töötama.
+7. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
+8. Valige **e-arveteenused** ja sisestage **AAD-rakenduse ID** väljale **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
+10. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
+11. Tingimustega nõustumiseks valige märkeruut.
+12. Valige **Installi**.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>RCS-i elektroonilise arvelduse lisandmooduliga integratsiooni parameetrite seadistamine
 
@@ -73,7 +80,7 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 ## <a name="create-key-vault-secret"></a>Võtmehoidla saladuse loomine
 
 1. Logige oma RCS-i kontole sisse.
-2. Valige tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkonnad** paan **E-arveldus**.
+2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkond** valige **Elektroonilise arvelduse lisandmooduli** plaan.
 3. Valige lehe **Keskkondade seadistused** toimingupaanil suvand **Teenusekeskkond** ja seejärel valige **Võtmehoidla parameetrid**.
 4. Võtmehoidla saladuse loomiseks valige **Uus**.
 5. Sisestage väljale **Nimi** võtmehoidla saladuse nimi. Väljale **Kirjeldus** sisestage kirjeldus.
@@ -82,19 +89,28 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 
 ## <a name="create-storage-account-secret"></a>Salvestuskonto saladuse loomine
 
-1. Valige lehe **Võtmehoidla parameetrid** jaotises **Sertifikaadid** käsk **Lisa**.
-2. Sisestage väljale **Nimi** sama salvestuskonto saladus. Väljale **Kirjeldus** sisestage kirjeldus.
-3. Tehke väljal **Tüüp** valik **Sertifikaat**.
-4. Valige **Salvesta** ja sulgege seejärel leht.
+1. Minge **Süsteemihaldus** > **Seadistus** > **Võtme hoidla parameetritesse** ja valige võtme hoidla saladus.
+2. Jaotises **Sertifikaadid** valige suvand **Lisa**.
+3. Sisestage **Nimi** väljale ladustamiskonto saladuse nimi ja kirjeldus **Kirjeldus** väljale.
+4. Tehke väljal **Tüüp** valik **Sertifikaat**.
+5. Valige **Salvesta** ja sulgege seejärel leht.
+
+## <a name="create-a-digital-certificate-secret"></a>Digitaalserdi saladuse loomine
+
+1. Minge **Süsteemihaldus** > **Seadistus** > **Võtme hoidla parameetritesse** ja valige võtme hoidla saladus.
+2. Jaotises **Sertifikaadid** valige suvand **Lisa**.
+3. Sisestage **Nimi** väljale ladustamiskonto saladuse nimi ja kirjeldus **Kirjeldus** väljale.
+4. Tehke väljal **Tüüp** valik **Sertifikaat**.
+5. Valige **Salvesta** ja sulgege seejärel leht.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Elektroonilise arvelduse lisandmooduli keskkonna loomine
 
 1. Logige oma RCS-i kontole sisse.
-2. Valige tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkonnad** paan **E-arveldus**.
+2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkond** valige **Elektroonilise arvelduse lisandmooduli** plaan.
 
 ## <a name="create-a-service-environment"></a>Teenusekeskkonna loomine
 
-1. Valige lehe **Keskkondade seadistused** toimingupaanil suvand **Teenusekeskkond**.
+1. Lehel **Keskkondade seadistused** valige toimingupaanil suvand **Teenusekeskkond**.
 2. Valige uue teenusekeskkonna loomiseks **Uus**.
 3. Sisestage väljale **Nimi** e-arvelduse keskkonna nimi. Väljale **Kirjeldus** sisestage kirjeldus.
 4. Valige väljal **Salvestuskonto SAS-tõendi saladus** salvestuskonto juurdepääsu autentimiseks kasutatava serdi nimi.

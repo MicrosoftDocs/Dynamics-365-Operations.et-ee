@@ -18,12 +18,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 91e614889c719ae700b13e54150e5025d64e2b97
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104936"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580961"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -85,7 +85,14 @@ Keskusel on järgmised andmed:
 > [!NOTE]
 > Sissetuleva ostutellimuse voog erineb kontseptuaalselt väljaminevast voost. Võite kasutada sama ladu kas skaleerimisüksuse või keskusega, sõltuvalt sellest, kas ostutellimus on lattu väljastatud või mitte. Kui olete tellimuse lattu väljastanud, saate selle tellimusega töötada ainult siis, kui olete skaalaüksusesse sisse logitud.
 
-Kui kasutate *lattu väljastamise* protsessi, luuakse [*laotellimused*](cloud-edge-warehouse-order.md) ja seotud vastuvõtva voo omand on määratud skaala ühikule. Keskus ei saa sissetulevat vastuvõttu registreerida.
+Kui kasutate protsessi *Lattu väljastamine*, luuakse [*laotellimused*](cloud-edge-warehouse-order.md) ja seotud vastuvõtva voo omand määratakse skaalaüksusele. Keskus ei saa sissetulevat vastuvõttu registreerida.
+
+Protsessi *Lattu väljastamine* kasutamiseks peate keskusesse sisse logima. Selle käivitamiseks või plaanimiseks avage üks järgmistest lehtedest:
+
+- **Hanked > Ostutellimused > Kõik ostutellimused > Ladu > Tegevused > Lattu väljastamine**
+- **Laohaldus > Lattu väljastamine > Müügitellimuste automaatne väljastamine**
+
+Kui kasutate **ostutellimuste automaatset väljastamist**, siis saate päringu põhjal valida konkreetsed ostutellimuse read. Tavaline stsenaarium oleks häälestada korduv pakett-töö, millega väljastatakse kõik kinnitatud ostutellimuse read, mis saabuvad järgmisel päeval.
 
 Töötaja saab töödelda vastuvõtuprotsessi kasutades laorakendust, mis on ühendatud skaalaühikule. Seejärel salvestatakse andmed skaalajaotisena ja esitatakse sissetuleva lao tellimuse suhtes. Järgnevate eeltöö loomist ja töötlemist käsitleb ka skaalajaotise üksus.
 
@@ -222,7 +229,7 @@ Järgnev tabel näitab, milliseid sissetulevaid funktsioone toetatakse ja kus ne
 | Vastuvõetava ja kõrvaleseatava tellimuserea ülekanne                        | Jah | Ei |
 | Töö tühistamine (sissetulev)                                              | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kuid ainult siis, kui valik <b>Tühista registreerimine töö tühistamisel</b> (lehel <b>Laohalduse parameetrid</b>) on tühistatud</p> |
 | Ostutellimuse toote tšeki töötlemine                          | Jah | Ei |
-| Ostutellimuse vastuvõtmine alatarnega                        | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei, kuna saate tühistada ainult lao tellimuserea kõik kogused |
+| Ostutellimuse vastuvõtmine alatarnega                        | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah, kuid ainult keskusest tühistamistaotluse tegemisega |
 | Ostutellimuse vastuvõtmine ületarnega                        | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah  |
 | Vastuvõtmine koos töö *Ristlaadimine* loomisega                   | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |
 | Vastuvõtmine koos töö *Kvaliteettellimus* loomisega                  | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Ei |

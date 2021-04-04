@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 08659bac84b07f6e95a83b84612cb035b51cf28d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093158"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568462"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Täpsemad vormingusuvandid finantsaruandluses
 
@@ -283,10 +282,10 @@ Arvutuse piiramiseks aruandluspuu ühe aruandlusüksusega nii, et saadavat summa
 > [!NOTE]
 > Selle funktsiooni kasutamiseks peab aruandluspuu olema readefinitsiooniga seostatud.
 
-Arvutusrida võib viidata arvutusreale või finantsandmete reale. Arvutus registreeritakse readefinitsiooni lahtrisse **Seotud valemid/read/üksused** ja finantsandmete tüübi piirangusse. Arvutus peab kasutama tingimuslikku arvutust, mis algab konstruktsiooniga **IF @Unit**. Näide: IF @Unit(SALES) THEN @100 ELSE 0 See arvutus hõlmab rea 100 summa igasse aruande veergu, kuid ainult üksuse SALES (Müük) puhul. Kui SALES (Müük) on mitme üksuse nimeks, kuvatakse summa kõigis neis üksustes. Lisaks võib rida 100 olla finantsandmete rida ja määratletud mitteprinditavana. Sellisel juhul takistatakse summa kuvamist puu kõigis üksustes. Samuti saate piirata summa aruande ühe veeruga, näiteks veeruga H, kasutades ainult selle aruande veeru väärtuse printimiseks veeru piirangut. Saate kaasata **OR** kombinatsioone lauses **IF**. Näide: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Saate määrata üksuse arvutuse tüüpi piirangus ühel järgmisel moel.
+Arvutusrida võib viidata arvutusreale või finantsandmete reale. Arvutus registreeritakse readefinitsiooni lahtrisse **Seotud valemid/read/üksused** ja finantsandmete tüübi piirangusse. Arvutus peab kasutama tingimuslikku arvutust, mis algab **Kui \@Ühik** konstruktsiooniga. Näide: IF @Unit(SALES) THEN @100 ELSE 0 See arvutus hõlmab rea 100 summa igasse aruande veergu, kuid ainult üksuse SALES (Müük) puhul. Kui SALES (Müük) on mitme üksuse nimeks, kuvatakse summa kõigis neis üksustes. Lisaks võib rida 100 olla finantsandmete rida ja määratletud mitteprinditavana. Sellisel juhul takistatakse summa kuvamist puu kõigis üksustes. Samuti saate piirata summa aruande ühe veeruga, näiteks veeruga H, kasutades ainult selle aruande veeru väärtuse printimiseks veeru piirangut. Saate kaasata **OR** kombinatsioone lauses **IF**. Siin on näide: **KUI @Unit(SALES) VÕI @Unit(SALESWEST) SIIS 5 ELSE @100**. Saate arvutuse tüüpi piirangus määrata ühiku järgmisel moel:
 
-- Sobivate üksuste kaasamiseks sisestage üksuse nimi. Näiteks **IF @Unit(SALES)** võimaldab arvutuse mis tahes üksuse puhul, mille nimi on SALES (Müük), seda isegi juhul, kui aruandluspuus on mitu müügiüksust.
-- Sisestage ettevõtte ja üksuse nimi arvutuse piiramiseks kindla ettevõtte kindlate üksustega. Näiteks sisestage **IF @Unit(ACME:SALES**) arvutuse piiramiseks müügiüksustega ettevõttes ACME.
+- Sobivate üksuste kaasamiseks sisestage üksuse nimi. Näiteks **Kui \@Üksus(SALES)** võimaldab arvutuse mis tahes üksuse puhul, mille nimi on SALES (Müük), seda isegi juhul, kui aruandluspuus on mitu müügiüksust.
+- Sisestage ettevõtte ja üksuse nimi arvutuse piiramiseks kindla ettevõtte kindlate üksustega. Näiteks sisestage **IF @Unit(ACME:SALES)** arvutuse piiramiseks müügiüksustega ettevõttes ACME.
 - Sisestage aruandluspuust täielik hierarhia kood arvutuse piiramiseks kindla üksusega. Näiteks sisestage **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +295,7 @@ Arvutusrida võib viidata arvutusreale või finantsandmete reale. Arvutus regist
 
 1. Klõpsake aruandekoosturis suvandit **Readefinitsioonid** ja avage seejärel muudetav readefinitsioon.
 2. Topeltklõpsake lahtrit **Vormingu kood** ja seejärel valige **CAL**.
-3. Klõpsake lahtrit **Seotud valemid/read/üksused** ja seejärel sisestage tingimuslik arvutus, mis algab konstruktsiooniga **IF @Unit**.
+3. Klõpsake **Seotud valemid/read/üksused** lahtrit ja seejärel sisestage tingimuslik arvutus, mis algab **Kui \@Üksus** konstruktsiooniga.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Veeru definitsiooni laused IF/THEN/ELSE
 
@@ -310,6 +309,5 @@ Lause **IF/THEN/ELSE** võimaldab mis tahes arvutuse sõltumise teiste veergude 
 Saate koostada aruandeid, kasutades dimensiooniväärtusi, mis sisaldavad ja-märki (&).
 
 Mis tahes väljal **Link finantsdimensioonidele** saate sisestada väärtuse nagu **"P & L"**. Ühekordsete jutumärkide (' ') kasutamine dimensiooniväärtuse mõlemal küljel näitab, et kasutate literaalväärtust, sh ja-märk (&).
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

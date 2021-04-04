@@ -1,12 +1,11 @@
 ---
-title: Finantsülevaated
+title: Finantsanalüüs
 description: Finantsülevaated kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks.
 author: kweekley
 manager: AnnBe
 ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
+ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115724"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5572362"
 ---
-# <a name="financial-insights"></a>Finantsülevaated
+# <a name="financial-analysis"></a>Finantsanalüüs
 
 [!include [banner](../includes/banner.md)]
 
-**Finantsülevaated** kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks. Power BI on rakendusse manustatud. **Finantsülevaated** keskenduvad analüütilisele aruandlusele. Organisatsiooni isikud saavad seda vaadata, uurida, mõista ja tegutseda. 
+**Finantsülevaated** kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks. Power BI on rakendusse manustatud. Fookus **Finantsülevaadetes** on analüütilisel aruandlusel. Organisatsiooni isikud saavad seda vaadata, uurida, mõista ja tegutseda. 
 
 **Finantsülevaated** ühendavad pearaamatu ja selle allammoodulid, et anda põhjalikumat ülevaadet organisatsiooni finantsseisu kohta.
 
@@ -38,14 +37,14 @@ ms.locfileid: "5115724"
 > - **Leht** – ühe PBIX-faili vahekaart. Iga leht võib sisaldada üht või mitut visuaali.
 > - **Visuaal** – üks andmeallikas, näiteks kaart, KPI, diagramm, graafik, maatriks või finantsaruanne. Lehel, millel on visuaalina finantsaruanne, ei saa raporteeritava andmemahu tõttu olla rohkem visuaale.
 
-Praegu kasutatakse **finantsülevaateid** aktiivse juriidiline isik või kõigi juriidiliste isikute andmete vaatamiseks. Tulevikus areneb tööruum kohaks, kus saate Power BI-d kasutada visuaalide redigeerimiseks ja loomiseks.
+Praegu kasutatakse **finantsülevaateid** aktiivse juriidilise isiku või kõigi juriidiliste isikute andmete vaatamiseks. Tulevikus areneb tööruum kohaks, kus saate Power BI-d kasutada visuaalide redigeerimiseks ja loomiseks.
 
-Tööruumis **CFO ülevaade** on kuvatud samad visuaalid, nagu **finantsülevaadetes**, kuid see võimaldab teil vaadata ja filtreerida olemasolevate aruannete andmeid. Tulevastes väljaannetes saate lisada **finantsülevaadete** tööruumi lisada uusi visuaale. Uued visuaalid võivad saadaval olla ka tööruumides, mis keskenduvad muudele rollidele, näitaks projektijuhid või ostureskontro juhid. Tööruum **CFO ülevaade** jätkab kõigi juriidiliste isikute andmete näitamist olenemata sellest, millistele juriidilistele isikutele rollil juurdepääs on.
+Tööruumis **CFO ülevaade** on kuvatud samad visuaalid, nagu **finantsülevaadetes**, kuid see võimaldab vaadata ja filtreerida olemasolevate aruannete andmeid. Tulevastes väljaannetes saate lisada uusi visuaale **finantsülevaadete** tööruumi. Uued visuaalid võivad saadaval olla ka tööruumides, mis keskenduvad muudele rollidele, näitaks projektijuhid või ostureskontro juhid. Tööruum **CFO ülevaade** jätkab kõigi juriidiliste isikute andmete näitamist olenemata sellest, millistele juriidilistele isikutele rollil juurdepääs on.
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance’i häälestus
 **Pearaamat**
 
-Põhikonto tüüpi ja põhikonto kategooriaid kasutatakse **finantsülevaadete** **bilansi** finantsaruande ja paljude **kasumiaruande** finantsaruannete sobivate vaike-põhikontode täitmiseks.
+Põhikonto tüüpi ja põhikonto kategooriaid kasutatakse **finantsülevaadete** **bilansi** finantsaruande ja paljude **kasumiaruande** finantsaruannete sobivate vaike- ja põhikontode täitmiseks.
 
 Lehel **Põhikontod** peate määratlema oma põhikonto nii, et sellele on määratud üks järgmistest tüüpidest.
 
@@ -57,14 +56,14 @@ Lehel **Põhikontod** peate määratlema oma põhikonto nii, et sellele on mää
 
 Ärge määrake põhikontole muud tüüpi, näiteks **bilanss** või **kasum ja kahjum**. Aruandlus ei saa põhikonto tüüpi määrata, kui määratud on muid põhikonto tüüpe, kuna need ei ole piisavalt üksikasjalikud. Põhikonto tüüp peab olema määratud nii, et see näitaks kohustusi ja tulu finantsaruannetel positiivsete summadena.
 
-Selleks, et põhikontot finantsaruannetel kuvataks jamuudele visuaalidele (nt KPI-d) kaasataks, tuleb igale põhikontole määrata põhikonto kategooria. Põhikonto kategooriaid on täiustatud nii, et need hõlmavad kuvamisjärjestust. Kuvamisjärjestust kasutatakse **finantsülevaadete** finantsaruannetel eripäraselt. Pärast uue põhikonto kategooria redigeerimist või lisamist saate muuta **kuvamisjärjestuse** väärtust, et määrata järjekord, milles põhikonto kategooriaid finantsaruandel näidatakse. Kui peate muutma mitme põhikonto kategooria kuvamisjärjestust, saate muudatuste kiireks redigeerimiseks ja rakenduses avaldamiseks kasutada funktsiooni Ava Excelis.
+Selleks, et põhikontot finantsaruannetel kuvataks jamuudele visuaalidele (nt KPI-d) kaasataks, tuleb igale põhikontole määrata põhikonto kategooria. Põhikonto kategooriaid on täiustatud nii, et need hõlmavad kuvamisjärjestust. Kuvamisjärjestust kasutatakse **finantsülevaadete** finantsaruannetel erinevalt. Pärast uue põhikonto kategooria redigeerimist või lisamist saate muuta **kuvamisjärjestuse** väärtust, et määrata järjekord, milles põhikonto kategooriaid finantsaruandel näidatakse. Kui peate muutma mitme põhikonto kategooria kuvamisjärjestust, saate muudatuste kiireks redigeerimiseks ja rakenduses avaldamiseks kasutada funktsiooni Ava Excelis.
 
 ## <a name="entity-store"></a>Üksuse kauplus
-**Finantsülevaadete** andmed tõmmatakse üksuse kauplusest (**Süsteemihaldus** \> **Seadistamine** \> **Üksuse kauplus**). Kui avate **CFO ülevaate** või **finantsülevaadete** tööruumi ja visuaalidel kuvatakse järgmine hoiatusteade, peate üksuseid uuendama.
+Andmed **Finantsülevaadeteks** tõmmatakse üksuse kauplusest (**Süsteemihaldus** \> **Seadistamine** \> **Üksuse kauplus**). Kui avate **CFO ülevaate** või **finantsülevaadete** tööruumi ja visuaalidel kuvatakse järgmine hoiatusteade, peate üksuseid uuendama.
 
 ![Hoiatus](./media/Cantdisplay.png)
 
-**Finantsülevaadete** ja **CFO ülevaate** tööruumide andmete nägemiseks peate uuendama järgmised üksused.
+**Finantsülevaadete** tööruumide andmete nägemiseks peate uuendama järgmised üksused:
 
 - BudgetActivityMeasure
 - Finantsaruandluse kandeandmete 3. versioon 
@@ -74,8 +73,6 @@ Selleks, et põhikontot finantsaruannetel kuvataks jamuudele visuaalidele (nt KP
 - Ostu kuup
 - Müügi kuup
 
-Varasemas väljaandes kasutati **CFO ülevaate** tööruumi andmete jaoks üksusi LedgerActivityMeasure ja VendPaymentBIMeasure. Praeguses versioonis neid aga ei kasutata.
-
 Üksustes olevate andmete korrapäraseks uuendamiseks saate määrata korduva partii. Kuna iga üksus luuakse uuenduse ajal täielikult uuesti, valige üksuste uuendamise aega ja sagedust hoolikalt. Finantsülevaadete jaoks kasutatav peamine üksus on FinancialReportingTransactionData. Seetõttu võite otsustada seda üksust sagedamini uuendada.
 
 ## <a name="security"></a>Turve
@@ -83,22 +80,21 @@ Praegu ei saa Power BI aruannete andmeid manustada juriidilistele isikutele, mil
 
 | Lõiv                                    | Rollid | Kirjeldus |
 |-----------------------------------------|-------|------------|
-| CFO ülevaate tööruumi kuvamine             | Finantsdirektor | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumile. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
 | Praeguse ettevõtte finantsülevaadete vaatamine | <ul><li>Raamatupidaja</li><li>Pearaamatupidaja</li><li>Raamatupidaja</li><li>Audiitor</li><li>Eelarvehaldur</li><li>Tegevjuht</li><li>Finantsdirektor</li><li>Finantskontroller</li></ul> | See kohustus võimaldab juurdepääsu finantsülevaatele. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Teisi juriidilisi isikuid ei saa lisada. |
-| Ettevõtteüleste finantsülevaadete vaatamine   | Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 pole see kohustus veel rollile määratud. Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
+| Kõikide ettevõtte finantsülevaadete vaatamine   | Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 pole see kohustus veel rollile määratud. Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
 
 
-## <a name="financial-reporting-vs-financial-insights"></a>Finantsaruandlus vs finantsülevaated
-Kuigi **finantsülevaated** hõlmab finantsaruandeid, ei asenda see rakenduse finantsaruandlust. **Finantsülevaadete** vaike-finantsaruannete ulatus on piiratud ega hõlma igat tüüpi finantsaruanded. Finantsaruandlus on siiski seaduslike finantsaruannete kavandamise ja loomise peamine tööriist.
+## <a name="financial-reporting-vs-financial-analysis"></a>Financial reporting vs. finantsanalüüs
+Kuigi **finantsanalüüs** hõlmab finantsaruandeid, ei asenda see Financial reporting rakendust. Vaike **Finantsülevaadete** finantsaruannete ulatus on piiratud ega hõlma igat tüüpi finantsaruanded. Finantsaruandlus on siiski seaduslike finantsaruannete kavandamise ja loomise peamine tööriist.
 
 Järgmine võrdlusdiagramm selgitab kahe võimaluse vahelisi erinevusi.
 
 
-|                                                          | Finantsaruandlus                                               | Finantsülevaated |
+|                                                          | Financial Reporting                                               | Finantsanalüüs |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
 | **Vaikearuannete redigeerimine**                                 | Jah                                                               | Ei |
 | **Uute aruannete loomine**                                   | Jah                                                               | Ei |
-| **Aruannete printimine**                                        | Jah                                                               | Ei |
+| **Prindi aruanded**                                        | Jah                                                               | Ei |
 | **Excelisse eksportimine**                                      | Jah                                                               | Limiteeritud Toorandmete Excelisse eksportimine, mitte vormindatud aruanne |
 | **Aruandluse hierarhia / organisatsiooni hierarhia toetamine**   | Jah                                                               | Ei |
 | **Alammoodulite andmete kuvamine**                             | Jah Limiteeritud ainult hankijale, kliendile                              | Jah Hankija, klient, hankija-/kliendigrupid, hankija/kliendi aadressid jne |
@@ -108,7 +104,7 @@ Järgmine võrdlusdiagramm selgitab kahe võimaluse vahelisi erinevusi.
 | **välisandmete aruanne**                              | Ei                                                                | Ei |
 | **Konsolideerimiste toetamine**                               | Jah                                                               | Limiteeritud Võimaldab aruandlust mitmele ettevõttele, aga kasutab ainult arvestusvaluutat |
 
-Peale algse **CFO ülevaate** tööruumi kasutajaliidese on nüüd saadaval uued KPI-d, diagrammid ja finantsaruanded. Saadaval on järgmised finantsaruanded.
+Saadaval on järgmised finantsaruanded.
 
 - Proovibilanss
 - Bilanss
@@ -121,7 +117,7 @@ Peale algse **CFO ülevaate** tööruumi kasutajaliidese on nüüd saadaval uued
 - Müük kliendi järgi
 
 ## <a name="edit-visuals"></a>Visuaalide redigeerimine
-**Finantsülevaadete** esialgses väljaandes ei saa visuaale redigeerida. Tulevastes väljaannetes saavad sobivate turbeõigustega kasutajad luua uusi visuaale ning olemasolevaid kopeerida ja redigeerida. Kuigi aruandeid sisaldavad PBIX-failid on allikatena kättesaadavad, ei soovita me vaikearuandeid redigeerida. Lisamuudatusi tehakse finantsaruannete loomiseks kasutatavale andmemudelile, vaikearuannetele ja kohandatud finantsaruannete visuaalile. Seetõttu peate järgmise väljaande uute funktsioonide ja muudatuste kasutamiseks Microsoft Power BI Desktop töölaua kaudu vaikearuannetele tehtud muudatused uuesti tegema.
+Eelmistes **Finantsülevaadete** väljaannetes, ei saanud visuaale redigeerida. Tulevastes väljaannetes saavad sobivate turbeõigustega kasutajad luua uusi visuaale ning olemasolevaid kopeerida ja redigeerida. Kuigi aruandeid sisaldavad PBIX-failid on allikatena kättesaadavad, ei soovita me vaikearuandeid redigeerida. Lisamuudatusi tehakse finantsaruannete loomiseks kasutatavale andmemudelile, vaikearuannetele ja kohandatud finantsaruannete visuaalile. Seetõttu peate järgmise väljaande uute funktsioonide ja muudatuste kasutamiseks Microsoft Power BI Desktop kaudu vaikearuannetele tehtud muudatused uuesti tegema.
 
 ## <a name="filtering"></a>Filtreerimine
 Kasutajad saavad aruannet filtreerida vasakul asuva paani **Filter** abil. See paan on sama, mis Power BI Desktopi kaudu saadaolev paan. Filtreerimisel on eri tasemed, millest mõni ei pruugi olla saadaval olenevalt sellest, milliseid valikuid olete lehel (vahekaardil) teinud või kas kasutate süvitsimineku funktsiooni.
@@ -155,7 +151,7 @@ Visuaal **Saldo pangakonto järgi** kasutab summasid pangakonto valuutas.
 
 Vaike-finantsaruanded ei hõlma ühtegi finantsdimensiooni, vaid keskenduvad ainult põhikontole. Finantsdimensioonide toetus on saadaval tulevastes väljaannetes, mille aruandeid saab redigeerida. Seejärel saavad organisatsioonid finantsdimensiooni väärtusi filtreerida.
 
-Mõned finantsdimensioonid sisaldavad dimensioone, mis põhinevad alammooduli kannetel. Uue finantsaruande eesmärk on võimaldada filtreerimist dimensioonides, mis ei ole finantsdimensioonideks seadistatud. Näiteks võimaldab vaikearuanne Kulud hankija järgi laiendada põhikontost kaugemale, nii et saate vaadata saldosid hankija kaupa. Hankija ei ole seadistatud finantsdimensioonina. Selle asemel naaseb süsteem hankija leidmiseks algse alammooduli kande juurde.
+Mõned finantsdimensioonid sisaldavad dimensioone, mis põhinevad alammooduli kannetel. Uue finantsaruande eesmärk on võimaldada filtreerimist dimensioonides, mis ei ole finants dimensioonideks seadistatud. Näiteks võimaldab vaikearuanne Kulud hankija järgi laiendada põhikontost kaugemale, nii et saate vaadata saldosid hankija kaupa. Hankija ei ole seadistatud finantsdimensioonina. Selle asemel naaseb süsteem hankija leidmiseks algse alammooduli kande juurde.
 
 Vaikearuannetes kasutatakse järgmisi dimensioone. Ükski neist dimensioonidest ei ole finantsdimensioonid.
 
@@ -168,7 +164,7 @@ Vaikearuannetes kasutatakse järgmisi dimensioone. Ükski neist dimensioonidest 
 - Linn
 
 > [!IMPORTANT] 
-> Kui summeerite mitme hankija või kliendi kanded ühte kandesse finantstöölehtede abil, on andmed valed. Aruandlus ei suuda määrata, milline hankija või klient on töölehe sisestusel seotud konkreetse pearaamatukontoga, kuna seda teavet ei säilitata kusagil. Seetõttu ei soovita me sisestada ühte kandesse mitut hankijat, klienti, põhivara või projekti.
+> Kui summeerite mitme hankija või kliendi kanded ühte kandesse finantstöölehtede abil, on andmed valed. Aruandlusprotsess ei suuda määrata, milline hankija või klient on töölehe sisestusel seotud konkreetse pearaamatukontoga, kuna seda teavet ei säilitata kusagil. Seetõttu ei soovita me sisestada ühte kandesse mitut hankijat, klienti, põhivara või projekti.
 
 ## <a name="drill-on-data"></a>Andmetega süvitsiminek
 
@@ -243,7 +239,7 @@ Power BI-l ei ole tühjade ridade peitmise või kuvamise valikut. Kui real ei ol
 
 ## <a name="additional-resources-for-power-bi"></a>Power BI lisaressursid
 
-Järgmiste ressursside teave ei ole kohustuslik **CFO ülevaate** või **finantsülevaadete** tööruumi manustatud aruannete lubamiseks tootmiskeskkonnas. Selle asemel on need kasulikud arendusväljade jaoks ja juhul, kui soovite oma Power BI aruandeid manustada.
+Järgmiste ressursside teave ei ole kohustuslik **finantsülevaadete** tööruumi manustatud aruannete lubamiseks tootmiskeskkonnas. Selle asemel on need kasulikud arendusväljade jaoks ja juhul, kui soovite oma Power BI aruandeid manustada.
 
 - [Analüütikatööruumidele ja aruannetele juurdepääs valmiskeskkonnas](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 

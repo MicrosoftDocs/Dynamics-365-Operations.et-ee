@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39583c244f09f54551d560e8b1dd9f1a5a1590cc
+ms.sourcegitcommit: 72f70c81176e86cda714a4712525f73514c895b7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992491"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "5457325"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Planeerimise optimeerimise tõrkeotsing 
 
@@ -48,12 +48,6 @@ Planeerimise optimeerimise lubamisel keelatakse automaatselt sisseehitatud koond
 Planeerimise optimeerimine erineb sisseehitatud koondplaneerimise kujundusest mõnel alal. Seda võivad põhjustada ka ootel funktsioonid.
 
 **Lahendus**: käivitage planeerimise optimeerimise sobivuse analüüs ja analüüsige selle mõju mõistmiseks tulemusi, viidates sellega seotud dokumentatsioonile. Lisateavet vt [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md).
-
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>Koondplaneerimine ei arvesta laovarude ajapiiri
-
-Seda põhjustab planeerimise optimeerimise ootel olev funktsioon.
-
-**Lahendus**: senikaua, kuni ootel funktsiooni pole saadaval, filtreerige või kustutage planeeritud tellimused, et eemaldada laovarude ajapiirist väljapoole jäävad varude soovitused.
 
 ## <a name="cant-enable-planning-optimization"></a>Planeerimise optimeerimist ei saa lubada
 

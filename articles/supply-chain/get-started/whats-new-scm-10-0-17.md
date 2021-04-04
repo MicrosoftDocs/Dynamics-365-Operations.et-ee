@@ -3,7 +3,7 @@ title: Dynamics 365 Supply Chain Management 10.0.17 (aprill 2021) eelversioon
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.17 uusi või muutunud funktsioone.
 author: kamaybac
 manager: annbe
-ms.date: 01/28/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bfa6e04f8d7ae192d0acd88fb3f1d7e2ce6cc576
-ms.sourcegitcommit: b9c6ad79d05feb858f818b37ce5c344f90cc6eb7
+ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5137924"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571808"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 (aprill 2021) eelversioon
 
@@ -38,84 +38,97 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 
 See väljalase hõlmab järgmisi funktsioone. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
+Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
+
+### <a name="asset-management"></a>Varahaldus
+
 - [Töökäskude rühmitamise reeglite rakendamine hooldusplaani käitades](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - Vaadake lisateavet jaotisest [Töökäskude loomine](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md).
-
-<!-- KFM: Blocked for now. Dana will followup.
-- [Approve and save vendor-submitted bank details](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) 
--->
-
-- Tootmisosakonna käivitusliidese varahalduse võimalused<br> - lisateavet leiate teemast [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md)  <!-- KFM: Not yet published on release plan, but is ready. Should be in the next publish. -->
 
 - [Kliendile hooldustöö eest arve esitamine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - Lisateavet vt [Kliendile kuuluvate varade hooldamise arve](../asset-management/integration-to-project-management-and-accounting/customer-billing.md).
 
-- [Teenuse Planning Optimization laovarude ajapiiri tugi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Lisateavet vt [Laovarude ajapiirid](../master-planning/planning-optimization/coverage-time-fence.md).
-
-- [Luba olemasolevate toodete muudatuste haldamine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)
-
-<!-- KFM: Add this when the feature appears in release plan at next update:
-- Enterprise-scale inventory performance improvements and archiving  -->
-
-- [Väljalaadimiskulu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)
-
-- [Tootmise läbiviimine pilve skaalaüksustega](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Lisateavet vt [Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-manufacturing.md).
-
-- [Materjali käsitlemine / lao automatiseerimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/material-handlingwarehouse-automation) <!-- KFM: Update RP link when the new one goes live -->
-
-- [Pakkimise vs laoala dimensioonid](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Lisateavet vt [Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine](../warehousing/packing-vs-storage-dimensions.md)
-
-- Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine<br> - Lisateavet vt [Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine](../production-control/override-default-reservation-principle.md). <!-- KFM: Not yet published on release plan, but is ready. Should be in the next publish. -->
-
 - [Akumuleeritud vara kassaväärtustel põhineva hoolduse plaanimine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - Lisateavet vt [Hoolduskavad](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md).
 
-- [Ostutaotluse tugi teenuses Planning Optimization](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Lisateavet vt teemast [Ostutaotlused](../master-planning/planning-optimization/purchase-requisitions.md).
+### <a name="inventory-and-logistics"></a>Varud ja logistika
+
+- [Integreerimisraamistik automatiseeritud laoprotsesside materjalikäitlusseadmete jaoks (varem MHAX)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - Lisateavet vt materjali [Materjalikäitlusseadmete liides (MHAX)](../warehousing/mhax.md).
+
+- [Väljalaadimiskulu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Lisateavet vt [Väljalaadimiskulu moodul](../landed-cost/landed-cost-overview.md).
+
+- [Pakkimise vs laoala dimensioonid](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Lisateavet vt [Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine](../warehousing/packing-vs-storage-dimensions.md).
 
 - [Lao ja logistika salvestatud vaated](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Lisateavet vt [Supply Chain Managementi standardsed salvestatud vaated](saved-views-scm.md).
-
-- [Plaanitud tellimuste salvestatud vaated](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Lisateavet vt [Supply Chain Managementi standardsed salvestatud vaated](saved-views-scm.md).
-
-- [Tootmise juhtimise salvestatud vaated](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Lisateavet vt [Supply Chain Managementi standardsed salvestatud vaated](saved-views-scm.md).
 
 - [Laotöö loomise plaanimine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - Lisateavet vt [Voo ajal töö loomise plaanimine](../warehousing/configure-wave-schedule-work-creation.md).
 
 - [Lao standardkulu ümberhindamise kannete jaoks vaikimisi finantsdimensioonide kogumite määramine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Lisateavet vt [Standardkulu uuenduste haldamine](../cost-management/manage-standard-cost-updates.md).
 
-- [Väikepaki saatmine (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)<br> - Lisateavet vt [Väikepaki saatmine](../warehousing/small-parcel-shipping.md). <!-- KFM: Update RP link when the new one goes live -->
+- [Väikepaki saatmine (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - Lisateavet vt [Väikepaki saatmine](../warehousing/small-parcel-shipping.md).
 
 - [Lao läbiviimine pilve skaalaüksustega](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - Lisateavet vt [Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md) ning [Laotellimused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-warehouse-order.md).
 
-- [Laohalduse mobiilirakendus](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Lisateavet vt teemast [Laohalduse rakenduse installimine ja ühendamine](../warehousing/install-configure-warehouse-management-app.md).
+- [Laohalduse mobiilirakendus](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Lisateavet vt [Laohalduse rakenduse installimine ja ühendamine](../warehousing/install-configure-warehouse-management-app.md) ja [Mobiilseadme kasutajasätted](../warehousing/mobile-device-user-settings.md).
 
-Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
+### <a name="manufacturing"></a>Tootmine
+
+- [Tootmisosakonna käivitusliidese varahalduse võimalused](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - lisateavet leiate teemast [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md)
+
+- [Tootmismaterjalide reserveerimise vaikepõhimõtte alistamine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Lisateavet vt [Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine](../production-control/override-default-reservation-principle.md).
+
+- [Tootmise juhtimise salvestatud vaated](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Lisateavet vt [Supply Chain Managementi standardsed salvestatud vaated](saved-views-scm.md).
+
+- [Tootmise läbiviimine pilve skaalaüksustega](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Lisateavet vt [Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-manufacturing.md).
+
+### <a name="planning"></a>Planeerimine
+
+- [Teenuse Planning Optimization laovarude ajapiiri tugi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Lisateavet vt [Laovarude ajapiirid](../master-planning/planning-optimization/coverage-time-fence.md).
+
+- [Prognoosi alammudeli tugi planeerimise optimeerimisele](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - Lisateavet vt [Põhiplaneerimine koos nõudluse prognoosiga](../master-planning/planning-optimization/demand-forecast.md).
+
+- [Ostutaotluse tugi teenuses Planning Optimization](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Lisateavet vt teemast [Ostutaotlused](../master-planning/planning-optimization/purchase-requisitions.md).
+
+- [Plaanitud tellimuste salvestatud vaated](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Lisateavet vt [Supply Chain Managementi standardsed salvestatud vaated](saved-views-scm.md).
+
+### <a name="product-information-management"></a>Tooteteabe haldus
+
+- [Luba olemasolevate toodete muudatuste haldamine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - Lisateavet vt [Olemasolevate toodete muudatuste haldamise lubamine](../engineering-change-management/change-management-existing-products.md).
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
 Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ole tingimata seotud sellele väljalaskele lisatud uute funktsioonidega, nagu on loetletud eelmises jaotises, kuid need võivad aidata teil olemasolevatest funktsioonidest rohkem kasu saada.
 
+### <a name="cost-management"></a>Kuluhaldus
+
+- [Kuluhalduse tõrkeotsing](../cost-management/troubleshoot-costmanagement.md)
+
+### <a name="asset-management"></a>Varahaldus
+
+- [Varahalduse mobiilse tööruumi häälestamine](../asset-management/set-up-asset-management-mobile.md)
+
+### <a name="inventory-and-logistics"></a>Varud ja logistika
+
 - [Laokannete tootefiltrite konfigureerimine](../warehousing/filters-and-filter-codes.md)
-
-- [Tootmisosakonna täideviimisliidese kujundamine](../production-control/production-floor-execution-tabs.md)
-
-- [Kontsernisisene planeerimine](../master-planning/planning-optimization/Intercompany-planning.md)
-
-- [Varude märkimine planeerimise optimeerimise käigus](../master-planning/planning-optimization/marking.md)
-
-- [Koondplaneerimine koos nõudluse prognoosidega](../master-planning/planning-optimization/demand-forecast.md)
 
 - [Osaline asukoha tsükliline inventuur](../warehousing/partial-location-cycle-counting.md)
 
 - [Komplekteerimisridade grupeerimine](../warehousing/pick-line-grouping.md)
 
-- [Tootmise planeerimine](../master-planning/planning-optimization/production-planning.md) <!--KFM: Remember to add YouTube link to this topic -->
-
-- [Koondplaneerimise ostutaulused](../master-planning/planning-optimization/purchase-requisitions.md)
-
-- [Varahalduse mobiilse tööruumi häälestamine](../asset-management/set-up-asset-management-mobile.md)
-
-- [Kuluhalduse tõrkeotsing](../cost-management/troubleshoot-costmanagement.md)
-
 - [Varude toimingute tõrkeotsing](../inventory/troubleshoot-inventory-operations.md)
 
 - [Lao ruumi leidmine](../warehousing/warehouse-slotting.md)
+
+### <a name="manufacturing"></a>Tootmine
+
+- [Tootmisosakonna täideviimisliidese kujundamine](../production-control/production-floor-execution-tabs.md)
+
+### <a name="planning"></a>Planeerimine
+
+- [Kontsernisisene planeerimine](../master-planning/planning-optimization/Intercompany-planning.md)
+
+- [Varude märkimine planeerimise optimeerimise käigus](../master-planning/planning-optimization/marking.md)
+
+- [Tootmise planeerimine](../master-planning/planning-optimization/production-planning.md)
+
+- [Koondplaneerimise ostutaulused](../master-planning/planning-optimization/purchase-requisitions.md)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

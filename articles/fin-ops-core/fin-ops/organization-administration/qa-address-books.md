@@ -3,10 +3,9 @@ title: Aadressiraamatute KKK
 description: See teema sisaldab vastuseid korduma kippuvatele küsimustele, mis on seotud aadressiraamatutega.
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796894"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559937"
 ---
 # <a name="address-books-faq"></a>Aadressiraamatute KKK
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>Kuidas topeltkirjeid kontrollida?
 
@@ -68,5 +68,10 @@ Saate sisestada osapoole kirjeid globaalsesse aadressiraamatusse või vastava ü
 
 Saate seadistada aadressiteabe tõlkeid, nii et teave kuvatakse programmis teie kasutajakeeles (süsteemikeeles), kuid dokumentidel (nt müügitellimustel) muus keeles. Saate sisestada riigi/piirkonna nimede, aadressi eesmärkide ja nimeseeriate tõlkeid. Näiteks oletame, et teie süsteemikeel on taani keel ja loote müügitellimuse Prantsusmaal asuvale kliendile. Sel juhul saate vaadata kliendikirjet programmis taani keeles, kuid kuvada prinditud müügitellimusel aadressiteabe prantsuse keeles. Tõlgete seadistamisel tuleb sisestada iga loendis oleva üksuse tõlke. Kõik üksused, millele te tõlget ei sisesta, kuvatakse süsteemikeeles. Näiteks oletame, et teie süsteemikeel on taani keel ja saadate dokumendi Hispaanias asuvale kliendile. Kui te pole sisestanud aadressiteabele hispaaniakeelseid (ESP) tõlkeid, kuvatakse see teave taani keeles nii programmis kui ka prinditud dokumendil.
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Pärast aadresside importimist, kui pääsen juurde kirjetele, miks ma ei saa imporditud aadresse redigeerida?
+
+Aadresside importimisel on olemas väli sildiga **IsLocationOwner**, mis näitab, kas asukohaga seotud osapool (aadress) on aadressi omanik. Kui osapool on aadressi omanik, saab aadressi redigeerida, kui pääseb juurde globaalse aadressiraamatu osapoole kaudu või koondkirje vormilt (nt klient, hankija või töötaja). Kui osapool ei ole aadressi omanik, ei saa kirjet varem loetletud vormidelt redigeerida. Aadresside importimisel peaks **isLocationOwner** olema seadistatud väärtusele **Jah** kui soovite, et aadress oleks seostatud osapoole abil redigeeritav. Siiski on aegu, mil see väli võib olla valesti imporditud. Probleemi lahendamiseks saab asukoha omanikku globaalses aadressiraamatus värskendada osapoole kirjest või **kinnita asukoha omanik** lehelt. Üksiku osapoole kirje värskendamiseks minge **Globaalne aadressiraamat > Aadress**. Valige **Redigeeri** et käivitada leht **Redigeeri aadress**, et muuta omaniku asukohta. Valige **Asukoha omaniku muutmine** et näha eelmise asukoha omanikku, kus praegu valitud osapool on uus asukoha omanik. Kui eelmise asukoha omanik on tühi, tähendab see, et asukoha omanikku ei loodud. Suvandi **Täpsemalt** valimine avab lehe **Halda aadresse** kus saab seada ka asukoha omaniku. Valige uuendatav asukoht ja seejärel valige **Määra asukoha omanik** käsk menüüst. Mitme kirje asukoha omaniku värskendamiseks minge **Globaalne aadressiraamat > Asukohad > Kinnitage asukoha omanikud**. Loend sisaldab asukohti, mis on lingitud ühe osapoolega, kuid see osapool pole omanik. Kui valite **Kinnita omanik** määratakse seotud aadressi **omanikuks pakutud omava osapoole ID** et olla seotud aadressi omanik. Kui osapool on määratud omanikuks, on lingitud aadress osapoole kirjest redigeeritav. Asukoha omaniku muutmiseks peate lehel **Turvalisuse konfiguratsioon** määrama privileegi **Määra asukoha omanik**.  Vaikimisi on antud süsteemiadministraatorile see privileeg.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -3,7 +3,7 @@ title: Sissenõuete protsessi automatiseerimine
 description: Selles teemas kirjeldatakse võlanõudmise protsessi strateegiate seadistamist, mis automaatselt tuvastavad kliendi arved, mille korral on vajalik meilimeeldetuletus, võlanõudmise tegevus (nt telefonikõne) või kliendile saadetav märgukiri.
 author: panolte
 manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969697"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582747"
 ---
 # <a name="collections-process-automation"></a>Sissenõuete protsessi automatiseerimine
 
@@ -32,6 +32,8 @@ Organisatsioonid kulutavad märkimisväärse aja aegunud saldoaruannete, kliendi
 
 ## <a name="collections-process-setup"></a>Võlanõudmise protsessi töötlemine
 Lehe **Võlanõudmise protsessi töötlemine** (**Krediidihaldus ja võlanõuded > Töötlemine > Võlanõudmise protsessi töötlemine**) abil saate luua automatiseeritud võlanõudmise protsessi, mis ajastab tegevusi, saadab meilisõnumeid ning loob ja edastab klientidele mõeldud märgukirju. Protsessi etapid põhinevad uusimal või vanimal avatud arvel. Iga etapp kasutab seda arvet, et määrata, millist suhtlusviisi või mis tegevus peaks konkreetse kliendi korral kasutama.  
+
+Inkassomeeskonnad saadavad tavaliselt iga laekumata arvega seotud varajase teatise, et klienti teavitatakse siis, kui arve tähtaeg muutub kindlaks. Valiku **Eellugemine** saab seadistada nii, et iga protsessihierarhia sammuga saaks iga arve puhul tegutseda, kui arve ajastus selle sammuni jõuab.
 
 ### <a name="process-hierarchy"></a>Protsessihierarhia
 Iga kliendikausta saab määrata ainult ühele protsessi hierarhiale. Selle etapi hierarhia järk tuvastab, milline protsess on ülimuslik, kui klient on kaasatud mitmesse kausta, millele on määratud protsessihierarhia. Kausta ID määrab, millised kliendid määratakse protsessile. 
@@ -82,6 +84,7 @@ Järgmistes tabelites on loetletud leheküljed ja väljad, millele määratud ki
 |                                                           |     Äridokument                           |     Määratleb protsessi etapi korral kasutatava tegevuse või meilimalli.                                                                        |
 |                                                           |     Millal?                                          |     Määratleb, kas protsessi etapp toimub enne või pärast uusima arve tähtaega, ning välja **Arve tähtajaga seotud päevad**.        |
 |                                                           |     Arve tähtajaga seotud päevad        |     Välja **Kui** abil tuvastab see protsessi etapi ajastuse.                                                                          |
+|                                                           |     Eelsissenõue                                   |     Selle valiku puhul tuleb protsessihierarhia kohta ühe sammu seada ja käitada iga arve puhul nii, et see jõuab ajastuskriteeriumini.                                                |
 |                                                           |     Adressaat                                     |     Tuvastab, kas meilisõnum saadetakse kliendi, müügigrupi või inkassaatori kontaktile.                                                   |
 |                                                           |     Äriotstarbeline kontakt                    |     Määrab, millist adressaadi meiliaadressi meilisuhtluses kasutatakse.                                                                                 |
 
@@ -100,7 +103,7 @@ Järgmistes tabelites on loetletud leheküljed ja väljad, millele määratud ki
 ### <a name="collections-history"></a>Sissenõuete ajalugu 
 |     Lehekülg                              |     Field     |      Kirjeldus                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Võlanõudmise protsessi töötlemine       |               |     Saate vaadata valitud protsessi hierarhia hiljutist ajalugu.     |
+|     Võlanõudmise protsessi töötlemine       |               |     Saate vaadata valitud protsessi hierarhia hiljutist ajalugu.       |
 
 ### <a name="collection-process-assignment"></a>Võlanõudmise protsessi määramine
 |     Lehekülg                              |     Field     |      Kirjeldus                                                  |
@@ -110,6 +113,11 @@ Järgmistes tabelites on loetletud leheküljed ja väljad, millele määratud ki
 |     Protsessi määramise eelversioon      |               |     Saate vaadata nende klientide eelvaadet, kes selle käivitamisel strateegiale määratakse.   |
 |     Kliendi määramise eelversioon     |               |     Saate vaadata strateegiat, millele konkreetne klient on määratud.    |
  
+ ### <a name="process-simulation"></a>Protsessi simulatsioon
+|     Lehekülg                              |     Field     |      Kirjeldus                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Protsessi simulatsioon                 |               |     Vaadake üle tegevused, mis luuakse siis, kui valitud protsessi automatiseerimine on praegu käitatud. |
+
 ### <a name="parameters"></a>Parameetrid
 |     Lehekülg                                                                  |     Field                                             |      Kirjeldus                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
@@ -117,6 +125,7 @@ Järgmistes tabelites on loetletud leheküljed ja väljad, millele määratud ki
 |     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Postita märgukirjad automaatselt           |     Märgukirja tegevuse tüübid postitavad kirja automatiseerimise ajal.                                      |
 |     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Automatiseerimise tegevuste loomine                |     Saate luua ja sulgeda tegevusi mitteaktiivsetele tegevuse tüüpide kohta, et vaadata kõiki kontol tehtud automatiseeritud etappe.        |
 |     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Võlanõudmise protsessi automatiseerimise säilitamise päevade arv     |     Määratleb päevade arvu, mille jooksul kogumite ajalugu talletatakse.                                                       |
+|     Müügireskontro parameetrid > võlanõudmise protsessi automatiseerimine     |     Jäta arve pärast viimase protsessietapi aktiveerimist välja    |     Arvet, mis jõuab sissenõuete protsessi viimase sammuni, ei kasutata tulevaste protsessi automatiseerimis tegevuse tüüpide loomiseks. Järgmine vanim arve määratleb järgmise protsessi automatiseerimise sammu, et tagada märgukirjaprotsessi automatiseerimistoimingute jätkamine.                                                        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

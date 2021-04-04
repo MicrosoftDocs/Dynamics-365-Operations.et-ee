@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680932"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568486"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
 
@@ -29,11 +28,11 @@ ms.locfileid: "4680932"
 > Seda funktsiooni toetatakse rakenduses Finance and Operations (versioon 7.2 ja uuem).
 
 ## <a name="introduction"></a>Sissejuhatus
-See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne tööruumi vahekaardile **Analüüs**. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
+See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne **Analüüs** vahekaardile tööruumis. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
 
 ## <a name="prerequisites"></a>Eeltingimused
 + Juurdepääs arendaja keskkonnale, mis käitab platvormivärskendust 8 või uuemat.
-+ Microsoft Power BI Desktopi abil loodud analüütiline aruanne (pbix-fail), millel on üksuse kaupluse andmebaasist hangitud andmemudel.
++ Analüütiline aruanne (.pbix-fail), mis on Microsoft Power BI Desktop abil loodud ja millel on üksuse kaupluse andmebaasist hangitud andmemudel.
 
 ## <a name="overview"></a>Ülevaade
 Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate kasutusele omaenda uue tööruumi, saate kaasatud analüütiliste vaadete abil kuvada oma äriandmetest selgeid ja interaktiivseid vaateid. Analüütilise tööruumi vahekaardi lisamise protsess koosneb neljast etapist.

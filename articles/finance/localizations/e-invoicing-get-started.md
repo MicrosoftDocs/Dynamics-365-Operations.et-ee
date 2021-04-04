@@ -3,7 +3,7 @@ title: Elektroonilise arvelduse lisandmooduli kasutamise alustamine
 description: Sellest teemast leiate teabe, mis aitab teil rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmoodulit kasutama hakata.
 author: gionoder
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111216"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592546"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine
 
@@ -38,7 +38,6 @@ Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid ja äridokume
 | Belgia elektrooniline arve (BE)      | <p>Müügiarve</p><p>Projektiarve</p> |
 | Brasiilia NF-e (BR)                  | <p>Rahandusdokumentide 55. mudel</p><p>Paranduskiri</p> |
 | Brasiilia NFS-e ABRASF Curitiba (BR) | Teenuse finantsdokument |
-| Brasiilia NFS-e São Paulo (BR)       | Teenuse finantsdokument |
 | Taani elektrooniline arve (DK)       | <p>Müügiarve</p><p>Projektiarve</p> |
 | Egiptuse elektrooniline arve (EG)     | <p>Müügiarve</p><p>Projektiarve</p> |
 | Eesti elektrooniline arve (EE)     | <p>Müügiarve</p><p>Projektiarve</p> |
@@ -64,14 +63,14 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Microsofti konfiguratsioonipakkujalt elektroonilise arvelduse funktsiooni importimine 
 
 1. Logige oma teenuse Regulatory Configuration Service (RCS) kontole sisse.
-2. Valige tööruumi **Globaliseerimisfunktsioon** jaotises **Funktsioonid** paan **E-arveldus**.
+2. Valige tööruumi **Globaliseerimisfunktsioonid** jaotisest **Funktsioonid** paan **Elektroonilise arvelduse lisandmoodul**.
 3. Valige **Impordi** ja seejärel **Sünkrooni**.
 4. Filtreerige veerg **Konfiguratsioonipakkuja** terminiga **Microsoft**.
 5. Valige selle teema alguses olevast tabelist elektroonilise arvelduse funktsiooni nimi ja seejärel valige käsk **Impordi**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Organisatsiooni pakkuja all elektroonilise arvelduse funktsiooni loomine
 
-1. Valige RCS-is tööruumi **Globaliseerimisfunktsioon** jaotises **Funktsioonid** paan **E-arveldus**.
+1. RCS-is **Funktsioonid** jaotisest **Globaliseerimisfunktsioonid** tööruum valige **Elektroonilise arvelduse lisandmoodul** plaan.
 2. Valige **Lisa** > **Olemasoleva funktsiooni põhjal** ja sisestage väljale **Nimi** elektroonilise arvelduse funktsiooni nimi.
 3. Sisestage väljale **Kirjeldus** funktsiooni kirjeldus.
 4. Valige väljal **Põhifunktsioon** Microsofti konfiguratsioonipakkujalt imporditud elektroonilise arvelduse funktsioon.
@@ -79,7 +78,9 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 
 ## <a name="configure-the-electronic-invoicing-feature"></a>Elektroonilise arvelduse funktsiooni konfigureerimine
 
-Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vajada täiendavat konfiguratsiooni. Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevast dokumentatsioonist „Alustamine“.
+Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vajada täiendavat konfiguratsiooni. 
+
+Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevast dokumentatsioonist „Alustamine“.
 
 ## <a name="configure-the-application-setup"></a>Rakenduse seadistuse konfigureerimine
 
@@ -100,7 +101,6 @@ Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vaja
     | Belgia elektrooniline arve (BE)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
     | Brasiilia NF-e (BR)                  | <p>Fiskaaldokument</p><p>Paranduskiri</p> | Fiskaaldokument |
     | Brasiilia NFS-e ABRASF Curitiba (BR) | Teenuse finantsdokument | Fiskaaldokument |
-    | Brasiilia NFS-e São Paulo (BR)       | Teenuse finantsdokument | Fiskaaldokument |
     | Taani elektrooniline arve (DK)       | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
     | Egiptuse elektrooniline arve (EG)     | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
     | Eesti elektrooniline arve (EE)     | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
@@ -122,7 +122,6 @@ Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vaja
     | Belgia elektrooniline arve (BE)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
     | Brasiilia NF-e (BR)                  | <p>Fiskaaldokument</p><p>Paranduskiri</p> | <p>Kliendiarve kontekstimudel – finantsdokumendi kontekst</p><p>Kliendiarve kontekstimudel – FD paranduskirja kontekst</p> |
     | Brasiilia NFS-e ABRASF Curitiba (BR) | Teenuse finantsdokument| Kliendiarve kontekstimudel – finantsdokumendi kontekst |
-    | Brasiilia NFS-e São Paulo (BR)       | Teenuse finantsdokument| Kliendiarve kontekstimudel – finantsdokumendi kontekst |
     | Taani elektrooniline arve (DK)       | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
     | Egiptuse elektrooniline arve (EG)     | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
     | Eesti elektrooniline arve (EE)     | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
@@ -144,7 +143,6 @@ Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vaja
     | Belgia elektrooniline arve (BE)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
     | Brasiilia NF-e (BR)                  | <p>Fiskaaldokument</p><p>Paranduskiri</p> | <p>Finantsdokumendi vastendus – finantsdokumendi vastendus</p><p>Finantsdokumendi vastendus – paranduskirja vastendus</p> |
     | Brasiilia NFS-e ABRASF Curitiba (BR) | Teenuse finantsdokument | Finantsdokumendi vastendus – finantsdokumendi vastendus |
-    | Brasiilia NFS-e São Paulo (BR)       | Teenuse finantsdokument | Finantsdokumendi vastendus – finantsdokumendi vastendus |
     | Taani elektrooniline arve (DK)       | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
     | Egiptuse elektrooniline arve (EG)     | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
     | Eesti elektrooniline arve (EE)     | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
@@ -158,7 +156,9 @@ Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vaja
     | Hispaania elektrooniline arve (ES)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
     | PEPPOL-i elektrooniline arve            | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
 
-Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vajada täiendavat konfiguratsiooni. Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevast dokumentatsioonist „Alustamine“.
+Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vajada täiendavat konfiguratsiooni.
+
+Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevast dokumentatsioonist „Alustamine“.
 
 ## <a name="deploy-the-electronic-invoicing-feature"></a>Elektroonilise arvelduse funktsiooni juurutamine
 
@@ -177,27 +177,26 @@ Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vaja
 
 1. Logige teenusesse Finance või Supply Chain Management sisse ja veenduge, et oleksite õiges juriidilises isikus.
 2. Avage **Organisatsiooni haldus** \> **Seadistus** \> **Elektroonilise dokumendi parameetrid**.
-3. Valige vahekaardil **Funktsioonid** funktsiooniviide või -viited, mis on toodud järgmises tabelis, et teenuses Finance või Supply Chain Management elektroonilise arvelduse funktsioon sisse lülitada.
+3. Vahekaardil **Funktsioonid** valige riigi-/regiooniomane funktsioon, et lülitada sisse Finance or Supply Chain Management jaoks. Järgmine tabel annab elektroonilise arveldamise funktsioonide loendi, mis on saadaval konkreetsete riikide/regioonide jaoks. 
 
-    | Funktsiooni nimi                         | Riik/regioon  | Funktsiooni viide |
-    |--------------------------------------|-----------------|-------------------|
-    | Austria elektroonilised arved (AT)    | Austria         | EUR-00023 |
-    | Belgia elektrooniline arve (BE)      | Belgia         | EUR-00023 |
-    | Brasiilia NF-e (BR)                  | Brasiilia          | BR-00053 |
-    | Brasiilia NFS-e ABRASF Curitiba (BR) | Brasiilia          | BR-00095 |
-    | Brasiilia NFS-e São Paulo (BR)       | Brasiilia          | BR-00095 |
-    | Taani elektrooniline arve (DK)       | Taani         | <p>EUR-00023</p><p>DK-00001</p> |
-    | Hollandi elektrooniline arve (NL)        | Holland | EUR-00023 |
-    | Egiptuse elektrooniline arve (EG)     | Egiptus           | EG-00008 |
-    | Eesti elektrooniline arve (EE)     | Eesti         | EUR-00023 |
-    | Soome elektrooniline arve (FI)      | Soome         | EUR-00023 |
-     Prantsusmaa elektrooniline arve (FR)       | Prantsusmaa           | EUR-00023 |
-    | Saksamaa elektrooniline arve (DE)       | Saksamaa         | EUR-00023 |
-    | Mehhiko CFDI Interfactura (MX)       | Mehhiko          | <p>MX-00010</p><p>MX-00016</p> |
-    | Norra elektrooniline arve (NO)    | Norra          | <p>EUR-00023</p><p>NO-00010</p> |
-    | Hispaania elektrooniline arve (ES)      | Hispaania           | <p>EUR-00023</p><p>ES-00025</p> |
-    | Itaalia elektrooniline arve (IT)      | Itaalia           | <p>EUR-00023</p><p>IT-00036</p> |
-    | PEPPOL-i elektrooniline arve            | Euroopa          | EUR-00023 |
+    | Funktsiooni nimi                                          | Riik/regioon  |
+    |-------------------------------------------------------|-----------------|
+    | Austria elektroonilised arved (AT)                     | Austria         |
+    | Belgia elektrooniline arve (BE)                       | Belgia         |
+    | Mehhiko CFDI elektrooniline arve (MX)                  | Mehhiko          |
+    | Taani elektrooniline arve (DK)                        | Taani         |
+    | Hollandi elektrooniline arve (NL)                         | Holland |
+    | Egiptuse elektrooniline arve (EG)                      | Egiptus           |
+    | Eesti elektrooniline arve (EE)                      | Eesti         |
+    | Soome elektrooniline arve (FI)                       | Soome         |
+    | Prantsusmaa elektrooniline arve (FR)                        | Prantsusmaa          |
+    | Saksamaa elektrooniline arve (DE)                        | Saksamaa         |
+    | Itaalia elektrooniline arve (IT)                       | Itaalia           |
+    | NF-e föderaalne – Brasiilia elektrooniline arve (BR)      | Brasiilia          |
+    | NFS-e – Brasiilia teenuse (linna) elektrooniline arve   | Brasiilia          |
+    | Norra elektrooniline arve (NO)                     | Norra          |
+    | PEPPOL-i elektrooniline arve                             | Üldine          |
+    | Hispaania elektrooniline arve (ES)                       | Hispaania           |
 
 4. Valige käsk **Salvesta**.
 
@@ -226,11 +225,11 @@ Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vaja
 
 3. Valige ruudustikust arve ja seejärel valige **Päringud** \> **Edastuse üksikasjad**.
 
-Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vajada täiendavat konfiguratsiooni. Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevast dokumentatsioonist „Alustamine“.
 
 ## <a name="related-topics"></a>Seotud dokumendid
 
 - [Elektroonilise arvelduse lisandmooduli ülevaade](e-invoicing-service-overview.md)
+- [Elektroonilise arvelduse lisandmooduli teenusehalduse kasutamise alustamine](e-invoicing-get-started-service-administration.md)
 - [Brasiilia elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-bra-get-started.md)
 - [Mehhiko elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-mex-get-started.md)
 - [Itaalia elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-ita-get-started.md)
