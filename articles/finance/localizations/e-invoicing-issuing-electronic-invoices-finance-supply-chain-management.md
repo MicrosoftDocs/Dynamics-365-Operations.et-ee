@@ -3,7 +3,7 @@ title: Elektrooniliste arvete väljastamine teenustes Finance ja Supply Chain Ma
 description: Selles teemas selgitatakse, kuidas Microsofti teenustes Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmooduli kaudu elektroonilisi arveid väljastada.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104369"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486949"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektrooniliste arvete väljastamine teenustes Finance ja Supply Chain Management
 
@@ -41,19 +41,29 @@ Iga funktsiooniviide vastab konkreetsele elektroonilise arvelduse funktsioonile,
 
 Järgmises tabelis on toodud elektroonilise arvelduse lisandmooduli toetatud funktsiooniviidete loend.
 
-| Funktsiooni viide | Nimi                                              | Riik/regioon |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e föderaalne – Brasiilia elektrooniline arve       | Brasiilia         |
-| BR-00095          | NFS-e Brasiilia elektroonilised arved               | Brasiilia         |
-| DK-00001          | E-arveldus avalikule sektorile (OIOUBL) – DK    | Taani        |
-| EG-00008          | Egiptuse e-arve                             | Egiptus          |
-| ES-00025          | Elektrooniline arve avalikule sektorile           | Hispaania          |
-| EUR-00023         | Euroopa Liidu e-arveldus avalikule sektorile       | Euroopa         |
-| ITA-00036         | IT – e-arveldus avalikule sektorile (FatturaPA) | Itaalia          |
-| MX-00010          | E-arved: CFDI                                  | Mehhiko         |
-| MX-00016          | E-arveldus CFDI – tühistamisprotsess           | Mehhiko         |
+| Nimi                                              | Riik/regioon |
+|---------------------------------------------------|----------------|
+|Austria elektrooniline arve                        |Austria         |
+|Belgia elektrooniline arve                         |Belgia         |
+|NF-e föderaalne – Brasiilia elektrooniline arve       |Brasiilia          |
+|NFS-e – Brasiilia teenuse (linna) elektrooniline arve|Brasiilia          |
+|Taani elektrooniline arve                          |Taani         |
+|Egiptuse elektrooniline arve                        |Egiptus           |
+|Eesti elektrooniline arve                        |Eesti         |
+|Soome elektrooniline arve                         |Soome         |
+|Prantsuse elektrooniline arve                          |Prantsusmaa          |
+|Saksa elektrooniline arve                          |Saksamaa         |
+|PEPPOL – globaalne elektrooniline arve                 |Üldine          |
+|Itaalia elektrooniline arve                         |Itaalia           |
+|CFDI – Mehhiko elektrooniline arve                  |Mehhiko          |
+|Hollandi elektrooniline arve                           |Holland     |
+|Norra elektrooniline arve                       |Norra          |
+|Hispaania elektrooniline arve                         |Hispaania           |
 
 Kui on olemas elektroonilise arvelduse pärandfunktsioon, mida toetab riigi lokaliseerimise kohaldamisala, võimaldab funktsiooniviite aktiveerimine elektrooniliste arvete väljastamist elektroonilise arvelduse lisandmooduli kaudu ja lülitab pärandfunktsiooni välja.
+
+> [!IMPORTANT]
+> Kui elektroonilise arveldamise lisandmooduli integreerimise funktsioon on lubatud, lülitatakse uus elektroonilise arveldamise kogemus vaikimisi välja. Saate kasutada funktsiooni kontseptsiooni valikuliselt uute kogemuste võimaldamiseks juriidilistele isikutele, kasutades riigi-/regiooniomast funktsiooni. Suvand **Globaalne** juhib uut kogemust ülejäänud maakonna/regioonide puhul, mida tabelis konkreetselt pole loetletud.
 
 ## <a name="submit-electronic-documents"></a>Elektrooniliste dokumentide edastamine
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3de3de5a93c700526645c248b54783b64d77f2e7
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 1192a45d0d2fffbe2ecba65551641c090c08db8e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115968"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463426"
 ---
 # <a name="leave-and-absence-overview"></a>Puhkuste ja puudumiste ülevaade
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources aitab teil pakkuda oma töötajatele suurepäraseid puhkusesoodustusi. Tööruum **Puhkused ja puudumised** pakub uute puhkuseplaanide loomise paindlikku raamistikku. See pakub ka töövoogusid taotluste haldamiseks ja intuitiivset iseteeninduslehte töövõtjatele vaba aja taotlemiseks. Analüüs aitab teie organisatsioonil mõõta ja jälgida puhkuseplaanide saldosid ja kasutust.
 
