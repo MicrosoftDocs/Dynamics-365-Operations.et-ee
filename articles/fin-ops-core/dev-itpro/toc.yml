@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platvormi versiooni 10.0.16 värskendused (veebruar 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Platvormi versiooni 10.0.15 värskendused (jaanuar 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Integreeritud töötaja, töö ja ametikoht'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Osapool ja globaalne aadressiraamat
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Power Portali kasutamine osapoole andmemudeliga
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Märkuste integreerimine
                               href: data-entities/dual-write/notes-integration.md
                             - name: Vastenduse viide
@@ -526,13 +528,15 @@
                   items:
                     - name: Kohapealsete projektide häälestamine LCS-is
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Kohapealsete keskkondade häälestamine ja juurutamine
+                    - name: Kohapealsete keskkondade häälestamine ja juurutamine (platvormivärskendus 41 ja uuemad)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Kohapealsete keskkondade häälestamine ja juurutamine (platvormivärskendused 12 kuni 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Etapid Retaili kanali komponentide installimiseks kohapealses keskkonnas
                       href: deployment/deploy-retail-onprem.md
                     - name: Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Keskkonna hooldus
+                - name: Keskkonna toimingud
                   items:
                     - name: Värskenduste rakendamine kohapealsesse juurutamisse
                       href: deployment/apply-updates-on-premises.md
@@ -540,8 +544,10 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Kliendi Interneti-ühendus
                       href: user-interface/client-disconnected.md
-                    - name: Ainult paketi ja interaktiivsete AOS-i sõlmede konfigureerimine asutusesiseses juurutuses
+                    - name: Ainult paketi ja interaktiivsete AOS-i sõlmede konfigureerimine kohapealsetes juurutustes
                       href: deployment/onprem-batchonly.md
+                    - name: SQL Serveri aruandlusteenuste (SSRS) sõlmede suure kättesaadavuse konfigureerimine
+                      href: deployment/onprem-SSRSHA.md
                     - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
                       href: deployment/onprem-reverseproxy.md
                     - name: Kohapealsed diagnostikad
@@ -1136,21 +1142,25 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platformi integratsioon
           items:
-            - name: Microsoft Power Platform integreerimine Finance and Operations'iga
-              href: power-platform/overview.md
-            - name: Lisandmoodulite ülevaade
-              href: power-platform/add-ins-overview.md
-            - name: Üksuse modelleerimine
-              href: power-platform/entity-modeling.md
-            - name: Rakenduse elutsüklihaldus
-              href: power-platform/application-lifecycle-management.md
-            - name: Finance and Operations ja Dataverse'i administraatori viide
-              href: power-platform/admin-reference.md
-            - name: Power Appsi portaalid Finance and Operationsiga
-              href: power-platform/power-portal-reference.md
-            - name: Finance and Operationsi virtuaalsete olemite KKK
-              href: power-platform/faq.md
-        - name: Mobiiliplatvorm
+            - name: Virtuaalsed üksused
+              items:
+                - name: Microsoft Power Platformi integreerimine Finance and Operations'iga
+                  href: power-platform/overview.md
+                - name: Üksuse modelleerimine
+                  href: power-platform/entity-modeling.md
+                - name: Rakenduse elutsüklihaldus
+                  href: power-platform/application-lifecycle-management.md
+                - name: Finance and Operationsi ja Dataverse'i administraatori viide
+                  href: power-platform/admin-reference.md
+                - name: Power Appsi portaalid Finance and Operationsiga
+                  href: power-platform/power-portal-reference.md
+                - name: Finance and Operationsi virtuaalsete üksuste KKK
+                  href: power-platform/faq.md
+            - name: Lisandmoodulid
+              items:
+                - name: Lisandmoodulite ülevaade
+                  href: power-platform/add-ins-overview.md
+        - name: Mobiilne platvorm
           items:
             - name: Mobiiliplatvormi ressursid
               href: mobile-apps/platform/mobile-platform-home-page.md
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Regression Suite Automation Tooli õppemaetrjal
               href: perf-test/rsat/rsat-tutorial.md
+            - name: Mitteadministraatorist kasutajate konfigureerimine
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Head tavad
               href: perf-test/rsat/rsat-best-practices.md
             - name: Andmete sõltumatu testimine tööriistaga Regression Suite Automation Tool

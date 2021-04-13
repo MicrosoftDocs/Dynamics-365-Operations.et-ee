@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 22. märts 2021
+          href: hr-whats-new-2021-03-22.md
         - name: 8. märts 2021
           href: hr-whats-new-2021-03-08.md
         - name: 22. veebruar 2021
@@ -265,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Jõudluse optimeerimine automaatsete puhastamisülesannetega
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Kinni jäänud pakett-tööde lähtestamine
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Analüütilisi aruandeid ei värskendata
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Power Appsi halduskeskuses ei saa keskkonda luua
