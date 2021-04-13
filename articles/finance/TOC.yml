@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (veebruar 2021)
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (jaanuar 2021)
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1418,13 +1416,13 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
-            - name: Elektroonilise arvelduse lisandmoodul
+            - name: Elektrooniline arveldus
               items:
-                - name: Elektroonilise arvelduse lisandmooduli ülevaade
+                - name: Elektroonilise arvelduse ülevaade
                   href: localizations/e-invoicing-service-overview.md
-                - name: Elektroonilise arvelduse lisandmooduli halduskomponendid
+                - name: Elektroonilise arvelduse halduskomponendid
                   href: localizations/e-invoicing-service-administration.md
-                - name: Elektroonilise arvelduse lisandmooduli konfigureerimine Regulatory Configuration Servicesis (RCS)
+                - name: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Servicesis (RCS)
                   href: localizations/e-invoicing-configuration-rcs.md
                 - name: Elektrooniliste arvete väljastamine Finance'is ja Supply Chain Managementis
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
@@ -1432,20 +1430,22 @@
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: Alustamine
                   items:
-                    - name: Elektroonilise arvelduse lisandmooduli teenusehalduse kasutamise alustamine
+                    - name: Elektroonilise arvelduse teenusehalduse kasutamise alustamine
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine
+                    - name: Elektroonilise arvelduse kasutamise alustamine
                       href: localizations/e-invoicing-get-started.md
-                    - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Brasiilias
+                    - name: Elektroonilise arvelduse kasutamise alustamine Brasiilias
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
+                    - name: Elektroonilise arvelduse kasutamise alustamine Egiptuses
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
+                    - name: Elektroonilise arvelduse kasutamise alustamine Itaalias
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Mehhikos
+                    - name: Elektroonilise arvelduse kasutamise alustamine Mehhikos
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: Elektroonilise arvelduse lisandmooduli seadistamine
+                    - name: Elektroonilise arveldamise häälestus
                       href: localizations/e-invoicing-setup.md
+                - name: Elektroonilise arvelduse KKK
+                  href: localizations/e-invoicing-faq.md
             - name: Austraalia
               items:
                 - name: Austraalia ülevaade
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: Kliendi elektroonilised arved Egiptuses
                   href: localizations/emea-egy-e-invoices.md
+                - name: KM deklaratsioon Egiptuse jaoks
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: Kinnipeetava maksu deklaratsioon Egiptuse jaoks
+                  href: localizations/emea-egy-wht-declaration.md
             - name: Eesti
               items:
                 - name: Eesti ülevaade
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: India lokaliseerimise ulatus
                   href: localizations/apac-ind-scope.md
+                - name: Mis on uut või mida on muudetud India lokaliseerimise puhul?
+                  items:
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.0?
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.01?
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.02?
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.03?
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.04?
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.05?
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.06?
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.07?
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.08?
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.09?
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.10?
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.11?
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.12?
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.13?
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Mis on uut või mida on muudetud versioonis 10.0.14?
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: Põhivarad
                   items:
                     - name: India põhivarade ülevaade
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Kapitalikaupade ülekanne põhivarasse
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: India GST
+                - name: Kaudsed maksud
                   items:
-                    - name: India GST ülevaade
-                      href: localizations/apac-ind-gst.md
-                    - name: Mis on uut või mida on muudetud India GST lokaliseerimise puhul?
+                    - name: India GST
                       items:
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.0?
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.01?
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.02?
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.03?
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.04?
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.05?
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.06?
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.07?
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.08?
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.09?
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.10?
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.11?
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.12?
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.13?
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: Mis on uut või mida on muudetud versioonis 10.0.14?
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: India GST viitegrupid
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: GST integreerimine kassaaparaatide jaoks
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: Koondandmete häälestus
-                      items:
-                        - name: Ärivertikaali loomine
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: Osariigikoodi ja liiduterritooriumi värskendamine
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: Ülem-GSTIN-i loomine
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: GSTIN-ide ja viitenumbrijadade määramine
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: HSN-koodide ja teenuse raamatupidamiskoodide määramine
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: Maksumäära tüübi loomine
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: GST-sisestustüübi jaoks põhikontode loomine
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: Maksu tasakaalustusperioodi loomine
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: GSTIN-i sidumine maksu registreerimise grupiga
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: Maksuhäälestus
-                      items:
-                        - name: Maksu konfiguratsiooni määramine ja juriidilistes isikutes juurutamine
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: Konfiguratsiooni maksutüüpide vastendamine – toll
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: Määra ja protsenditabelite häälestus
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: Käibemaksu hierarhia ja tasendusreeglite häälestus
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: Ostukanne
-                      items:
-                        - name: Ostud registreerimata hankijatelt
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: Maksustatava kauba ostmine registreerimata hankijalt
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: Ostud registreeritud hankijatelt
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: Allahindlusega kaupade ostmine
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: Vabastusega kaupade ostmine
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: Käibemaksuvabade kaupade ostmine
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: Mitte-GST kaupade ostmine
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: Ostud liitedasimüüjatelt
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: Saatekuludega maksustatavate kaupade ostmine
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: Maksustatava kaubaga ostuarve läbivaatus
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: Põhivarade ostmine
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: Kreeditarve loomine ostuarve põhjal
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: Deebetaviisi loomine ostuarve põhjal
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: 'Kvaliteettellimused, mis hõlmavad proovikauba hävitamist'
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: Ostude tagastustellimused
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: 'Hankija ettemaksed, millel on pöördtasusid'
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: Müügikanne
-                      items:
-                        - name: Maksustatavate kaupade müük tarbijatele
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: Müük registreeritud klientidele
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: Vabas vormis arved
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: Maksustatava kauba müük pöördtasu olemasolu korral
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: Vabastusega kaupade müük
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: Käibemaksuvabade kaupade müük
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: Mitte-GST kaupade müük
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: Allahindlusega ja tingliku hindamisega maksustatavate kaupade müük
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: Saatekulude maksuga maksustatavate kaupade müük
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: 'Müük, kui hind sisaldab ja ei sisalda maksu'
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: Deebetaviisi loomine müügiarve põhjal
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: Kreeditarve loomine müügiarve põhjal
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: 'Müügiarved, mis jagatakse tarneaadresside alusel'
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: Tagastustellimused
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: Väliskanded
-                      items:
-                        - name: 'Importkaubad, millel on GST'
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: Importteenused millel on GST
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: 'Eksportkaubad, mis on käibemaksuvabad'
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: 'Eksportteenused, mis on käibemaksuvabad'
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: Laokanne
-                      items:
-                        - name: Lao üleviimistellimused
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: 'Lao üleviimistellimused, mille sisehinnale kehtib maks'
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: Kliendimakse kanne
-                      items:
-                        - name: 'Ettemaksed, mis sisaldavad maksu'
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: 'Ettemaksed, mis arveldatakse arve sisestamisel'
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: Ettemakse ja maksu sisaldava arve käsitsi tasakaalustamine
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: Maksu sisaldavate arvete maksmine
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: Maksu sisaldavate ettemaksete läbivaatus
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: Kliendimaksete tagasimaksed
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: Otsese maksu kanne
+                        - name: India GST ülevaade
+                          href: localizations/apac-ind-gst.md
+                        - name: Maksumootor
+                          items:
+                            - name: Maksumootori ülevaade
+                              href: general-ledger/tax-engine.md
+                            - name: Impordi konfiguratsioon
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: Täiendav valemikoostaja
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: Maksumootori kohaldatavus
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: Maksukomponentide loomine
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: Maksumootori integratsioon
+                              href: general-ledger/tax-engine-integration.md
+                            - name: Maksumootori laiendamine
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: TaxDocumentJSON-i tabeli puhastamine
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: GTE tõrkeotsing
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: Koondandmete häälestus
+                          items:
+                            - name: Ärivertikaali loomine
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: Osariigikoodi ja liiduterritooriumi värskendamine
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: Ülem-GSTIN-i loomine
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: GSTIN-ide ja viitenumbrijadade määramine
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: HSN-koodide ja teenuse raamatupidamiskoodide määramine
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: Maksumäära tüübi loomine
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: GST-sisestustüübi jaoks põhikontode loomine
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: Maksu tasakaalustusperioodi loomine
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: GSTIN-i sidumine maksu registreerimise grupiga
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: Maksuhäälestus
+                          items:
+                            - name: Maksu konfiguratsiooni määramine ja juriidilistes isikutes juurutamine
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: Konfiguratsiooni maksutüüpide vastendamine – toll
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: Määra ja protsenditabelite häälestus
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: Käibemaksu hierarhia ja tasendusreeglite häälestus
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: India GST viitegrupid
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: Maksukanded
+                          items:
+                            - name: Ostukanded
+                              items:
+                                - name: Ostud registreerimata hankijatelt
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: Maksustatava kauba ostmine registreerimata hankijalt
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: Ostud registreeritud hankijatelt
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: Allahindlusega kaupade ostmine
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: Vabastusega kaupade ostmine
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: Käibemaksuvabade kaupade ostmine
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: Mitte-GST kaupade ostmine
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: Ostud liitedasimüüjatelt
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: Saatekuludega maksustatavate kaupade ostmine
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: Maksustatava kaubaga ostuarve läbivaatus
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: Põhivarade ostmine
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: Kreeditarve loomine ostuarve põhjal
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: Deebetaviisi loomine ostuarve põhjal
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: 'Kvaliteettellimused, mis hõlmavad proovikauba hävitamist'
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: Ostude tagastustellimused
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: 'Hankija ettemaksed, millel on pöördtasusid'
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: Müügikanded
+                              items:
+                                - name: Maksustatavate kaupade müük tarbijatele
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: Müük registreeritud klientidele
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: Vabas vormis arved
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: Maksustatava kauba müük pöördtasu olemasolu korral
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: Vabastusega kaupade müük
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: Käibemaksuvabade kaupade müük
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: Mitte-GST kaupade müük
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: Allahindlusega ja tingliku hindamisega maksustatavate kaupade müük
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: Saatekulude maksuga maksustatavate kaupade müük
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: 'Müük, kui hind sisaldab ja ei sisalda maksu'
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: Deebetaviisi loomine müügiarve põhjal
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: Kreeditarve loomine müügiarve põhjal
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: 'Müügiarved, mis jagatakse tarneaadresside alusel'
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: Tagastustellimused
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: Väliskanded
+                              items:
+                                - name: 'Importkaubad, millel on GST'
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: Importteenused millel on GST
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: 'Eksportkaubad, mis on käibemaksuvabad'
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: 'Eksportteenused, mis on käibemaksuvabad'
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: Kreeditarve või deebetaviis eksportimistellimuse suhtes
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: Lao üleviimiskanded
+                              items:
+                                - name: Lao üleviimistellimused
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: 'Lao üleviimistellimused, mille sisehinnale kehtib maks'
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: Kliendi maksekanded
+                              items:
+                                - name: 'Ettemaksed, mis sisaldavad maksu'
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: 'Ettemaksed, mis arveldatakse arve sisestamisel'
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: Ettemakse ja maksu sisaldava arve käsitsi tasakaalustamine
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: Maksu sisaldavate arvete maksmine
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: Maksu sisaldavate ettemaksete läbivaatus
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: Kliendimaksete tagasimaksed
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Maksu korrigeerimine
+                              items:
+                                - name: Maksusumma korrigeerimine
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: Maksutöölehe loomine
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: Maksudokumendi päringud
+                              items:
+                                - name: Maksupäring
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: Maksu tasakaalustus
+                          items:
+                            - name: Reeglipõhine maksutasakaalustus
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: GSTR-i aruanded
+                          items:
+                            - name: Uued GSTR-1 ja GSTR-2 tagastusvormingud
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: Uus GSTR-i võrguühenduseta tööriist ANX-1 osturegistri jaoks
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: GSTR aruande teabe loomine maksutagastuste jaoks
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: GSTR aruannete puhu mitme partii töötlemise lubamine
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: Otsesed maksud
+                  items:
+                    - name: India kinnipeetav maks
                       items:
                         - name: GST kaasamine maksu mahaarvamise arvutamisel
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: GST kaasamine maksukogumiste arvutamisel
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: Maksusumma korrigeerimine
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: Reeglipõhine maksutasakaalustus
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: Maksutöölehe loomine
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: GSTR aruande teabe loomine maksutagastuste jaoks
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: GSTR aruannete puhu mitme partii töötlemise lubamine
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: Maksupäring
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: Maksedokumendi JSON-tabeli puhastamine
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: Maksumootor
-                  items:
-                    - name: Maksumootori ülevaade
-                      href: general-ledger/tax-engine.md
-                    - name: Impordi konfiguratsioon
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: Täiendav valemikoostaja
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: Maksumootori kohaldatavus
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: Maksukomponentide loomine
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: Maksumootori integratsioon
-                      href: general-ledger/tax-engine-integration.md
-                    - name: Maksumootori laiendamine
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: GTE tõrkeotsing
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: Maksulävede KKK
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: Maksulävede KKK
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: TCS kaupade müügilt
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: Itaalia
               items:
                 - name: Itaalia ülevaade
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: i. SAF-aruandlus Leedus
                   href: localizations/emea-ltu-isaf.md
+                - name: Maksu standardne auditifail (SAF-T) Leedu jaoks
+                  href: localizations/emea-ltu-saf-t.md
             - name: Malaisia
               items:
                 - name: Malaisia ülevaade
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: Likviidsuse maksuregistrid
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: Hinnatud kulude registrid
+                      href: localizations/rus-rated-expenses-registers.md
             - name: Saudi Araabia
               items:
                 - name: Saudi Araabia ülevaade
@@ -3377,15 +3405,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Elektroonilise aruandluse lahenduse komponentide ettevalmistamine
                   items:
-                    - name: Domeenispetsiifiliste andmemudelite kujundamine
+                    - name: Domeenipõhiste andmemudelite kujundamine
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: Rakendusekohaste metaandmete ettevalmistamine
+                    - name: Rakendusepõhiste metaandmete ettevalmistamine
                       items:
-                        - name: (ER) RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine
+                        - name: RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine ER-is
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Juurdepääs rakenduse metaandmetele ER-i konfiguratsiooni abil
+                        - name: Juurdepääs rakenduse metaandmetele RCS-is ER-i konfiguratsiooni abil
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
+                        - name: Juurdepääs rakenduse metaandmetele RCS-is ühendatud rakenduste abil
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: Mudeli vastenduste määratlemine ja andmeallikate valimine
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3403,7 +3431,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Vormingu täiendamine uue alusversiooni kasutuselevõtuga
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: Valemikoostajad elektroonilises aruandluses
+            - name: Valemikoostajad ER-is
               items:
                 - name: Valemikoostaja
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
@@ -3671,11 +3699,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tekst: NumberFormat'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
-                        - name: 'Tekst: QRCode'
+                        - name: 'Tekst: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tekst: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: ER-vormingute kujundamine väljaminevate elektrooniliste dokumentide loomiseks eri vormingutes
+            - name: ER-vormingute kujundamine väljaminevate dokumentide loomiseks eri vormingutes
               items:
                 - name: Konfiguratsioonide kujundamine väljaminevate dokumentide loomiseks Exceli vormingus
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Piltide ja kujundite manustamine
                   items:
-                    - name: (ER) Piltide ja kujundiste manustamine loodavates dokumentides
+                    - name: Piltide ja kujundite manustamine loodavates dokumentides
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: Piltide ja kujundite manustamise näide
                       items:
@@ -3717,7 +3745,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Koosluse märkide peitmine loodud failides
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
-            - name: Rakenduse andmete värskendamine elektroonilise aruandluse abil
+            - name: Rakenduse andmete värskendamine ER-i abil
               items:
                 - name: Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
@@ -3761,10 +3789,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Konfiguratsioonide importimine (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory services (RCS)
+                - name: Regulatory service (RCS)
                   items:
-                    - name: Regulatory Configuration Services (RCS) – globaliseerumise funktsioonid
-                      href: localizations/rcs-globalization-feature.md
+                    - name: Globaliseerimise funktsioonid RCS-is
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: ER-i konfiguratsioonide allalaadimine rakendusse Finance
                       items:
                         - name: Konfiguratsioonide allalaadimine RCS-ist
@@ -3871,7 +3899,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Suurte väljaminevate dokumentide tihendamine
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
-                - name: Konfigureeritud elektroonilise aruandluse komponentide kontrollimine
+                - name: Konfigureeritud ER-i komponentide kontrollimine
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Suhteline tee andmesidemetes
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
@@ -3896,17 +3924,17 @@
                     - name: Sihtkoha tüübid
                       items:
                         - name: Arhiivi sihtkoht
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: Meili sihtkoht
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: Faili sihtkoht
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: Power BI sihtkoht
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: Printeri sihtkoht
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: Ekraani sihtkoht
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: Sihtkohade konfigureerimine
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Toimingust sõltuvate sihtkohtade konfigureerimine
@@ -3919,11 +3947,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
                     - name: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: Testimise automatiseerimine elektroonilise aruandluse abil
+                    - name: ER-iga testimise automatiseerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: Äriprotsesside automatiseerimine elektroonilise aruandluse konfiguratsioone kasutades
                   items:
-                    - name: Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse
+                    - name: ER-i konfigureerimine andmete tõmbamiseks Power BI-sse
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Prinditava vabas vormis arve (FTI) vormide loomine
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
