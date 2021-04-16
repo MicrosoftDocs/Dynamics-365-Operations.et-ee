@@ -1,12 +1,10 @@
 ---
-title: Teenuses Regulatory Configuration Services (RCS) elektroonilise arvelduse lisandmooduli konfigureerimine
-description: See teema kirjeldab, kuidas konfigureerida elektroonilise arvelduse lisandmoodulit Dynamics 365 teenuses Regulatory Configuration Services (RCS).
+title: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
+description: See teema kirjeldab, kuidas konfigureerida elektroonilist arveldust Dynamics 365 teenuses Regulatory Configuration Services (RCS)-is.
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592618"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840240"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Teenuses Regulatory Configuration Services (RCS) elektroonilise arvelduse lisandmooduli konfigureerimine
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
-
-Sellest teemast leiate teavet elektroonilise arvelduse lisandmooduli konfiguratsioonivõimaluste kohta Dynamics 365 teenuses Regulatory Configuration Services (RCS).
+Sellest teemast leiate teavet elektroonilise arvelduse konfiguratsioonivõimaluste kohta Dynamics 365 teenuses Regulatory Configuration Services (RCS).
 
 Elektroonilise arvelduse lisandmoodul aitab teil konfiguratsioonivõimaluste kaudu täita elektrooniliste arvete ärialaseid ja regulatiivseid nõudeid, ilma et peaksite midagi kodeerima. Olukordades, kus veebiteenused peavad elektroonilised arved elektrooniliselt kinnitama, aitavad konfiguratsioonivõimalused teil täita veebiteenustega sõnumite vahetamise nõudeid ilma midagi kodeerimata.
 
 ## <a name="electronic-reporting"></a>Elektrooniline aruandlus
 
-Elektrooniline aruandlus (ER) toetab elektroonilise arvelduse lisandmoodulit.
+Elektrooniline aruandlus (ER) toetab elektroonilist arveldust.
 
-Andmemudeli vastendamine ja vormingud on konfigureeritavad komponendid, mis luuakse ja mida hallatakse elektroonilise aruandluse kaudu ning mida kasutatakse elektroonilise arvelduse lisandmoodulis. ER-i vormingu kujundaja on tööriist failivormingute loomiseks ja haldamiseks. Seda kasutatakse elektroonilise arvelduse funktsioonide konfigureerimiseks.
+Andmemudeli kaardistamine ja vormingud on konfigureeritavad komponendid, mis luuakse ja mida hallatakse läbi ER-i ja kasutades Elektroonilist aruandlust. ER-i vormingu kujundaja on tööriist failivormingute loomiseks ja haldamiseks. Seda kasutatakse elektroonilise arvelduse funktsioonide konfigureerimiseks.
 
 Lisateavet vt teemast [Elektroonilise aruandluse (ER) ülevaade](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="electronic-invoicing-features"></a>Elektroonilise arvelduse funktsioonid
 
-Elektroonilise arvelduse funktsioonid vastutavad elektrooniliste arvete loomise eest elektroonilise arvelduse lisandmooduli kaudu. Need hõlmavad konfiguratsioonireegleid ja kasutavad neid andmete töötlemiseks, mida Microsofti teenused Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmoodulile ning elektroonilistele arvetele saadavad.
+Elektroonilise arvelduse funktsioonid vastutavad elektrooniliste arvete loomise eest elektroonilise arvelduse lisandmooduli kaudu. Need hõlmavad konfiguratsioonireegleid ja kasutavad neid andmete töötlemiseks, mida Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmoodulile ning elektroonilistele arvetele saadavad.
 
 Funktsioonid toetavad ka olukordi, kus on nõutav vastavus failivormingu spetsifikatsioonidele ning kus väljund on eraldiseisev elektrooniline fail. Enamasti avaldab failivormingu spetsifikatsioonid maksuamet.
 
@@ -266,7 +262,7 @@ Rakenduse seadistuse kaudu saate konfigureerida elektroonilise arvelduse funktsi
 
 RCS-is kasutate elektroonilise arvelduse funktsiooni versiooni sihipäraseks avaldamiseks käsku **Juuruta**. Valige **Juuruta** ja seejärel valige juurutamise sihtmärgi määramiseks üks järgmistest suvanditest. 
 
-- **Teenusekeskkond** – kui juurutamise sihtmärk on teenusekeskkond, avaldatakse elektroonilise arvelduse funktsiooni versioon teenusekeskkonnas. Elektroonilise arveldus lisandmoodul on seejärel valmis teenuste Finance ja Supply Chain Management saadetavaid elektroonilisi dokumente vastu võtma ja töötlema.
+- **Teenusekeskkond** – kui juurutamise sihtmärk on teenusekeskkond, avaldatakse elektroonilise arvelduse funktsiooni versioon teenusekeskkonnas. Elektroonilise arvelduse lisandmoodul on seejärel valmis teenuste Finance ja Supply Chain Management saadetavaid elektroonilisi dokumente vastu võtma ja töötlema.
 - **Ühendatud rakendus** – kui juurutuse sihtmärk on ühendatud rakendus, kirjutatakse rakenduse seadistusega määratud konfiguratsioon sellega varem seostatud teenuste Finance ja Supply Chain Management eksemplari.
 
 Teenusekeskkonnas või ühendatud rakenduses saab juurutada ainult neid elektroonilise arvelduse funktsioonide versioone, mille olek on **Valmis**.

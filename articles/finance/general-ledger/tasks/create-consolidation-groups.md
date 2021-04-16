@@ -2,11 +2,9 @@
 title: Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine
 description: Selles protseduuris kirjeldatakse konsolideerimiskontode grupi loomist ja seejärel grupile kontode lisamist.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a02d6cf5516e63378f4aa356627c069404546e07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6c60b09fd0481c84a9c3a3eb35b66264d92d00eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216510"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832774"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolideerimisgruppide ja täiendavate konsolideerimiskontode loomine
 

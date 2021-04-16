@@ -2,11 +2,9 @@
 title: Dimensioonihierarhia
 description: Teema sisaldab teavet dimensioonihierarhiate kohta. Dimensioonihierarhiat saab kasutada aruandlusstruktuuri, kulupoliitikate ja turbeseadistuse määratlemiseks kuluarvestuses.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217382"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810170"
 ---
 # <a name="dimension-hierarchy"></a>Dimensioonihierarhia
 
@@ -124,12 +122,13 @@ Dimensioonihierarhia, mis rahuldab organisatsiooni aruandlusvajadused, saab sead
 
 Aruandluse jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.
 
-|                   | Dimensiooniliikmete vahemikud   |                         |
+**Dimensiooniliikmete vahemikud**
+
+|   Sõlmpunktid           |   Lähtedimensiooni liige   |   Sihtdimensiooni liige   |
 |-------------------|---------------------------|-------------------------|
-| **Sõlmed**         | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Organisatsioon      |                           |                         |
 | &nbsp;&nbsp;Administraator         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;Personaliosakond        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Tootmine    |                           |                         |
@@ -146,12 +145,13 @@ Dimensioonihierarhia, mis täidab poliitika nõude, saab seadistada siin näidat
 
 Poliitika jaoks saab dimensioonihierarhia seadistada siin näidatud viisil.
 
-|                   | Dimensiooniliikmete vahemikud   |                         |
+**Dimensiooniliikmete vahemikud**
+
+|   Sõlmpunktid           |   Lähtedimensiooni liige   |   Sihtdimensiooni liige   |
 |-------------------|---------------------------|-------------------------|
-| **Sõlmed**         | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Kulukäitumine     |                           |                         |
 | &nbsp;&nbsp;Fikseeritud kulu    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Muutuv kulu | 40001                     | 40010                   |
+| &nbsp;&nbsp;Muutuv kulu | 40001                     | 40010                   |
 
 > [!NOTE]
 > Jaotises **Dimensiooniliikmete vahemikud** võib sõlm sisaldada 1:_n_ dimensiooniliikmete vahemikku. Saate sisestada dimensiooniliikme ID-d, mida ei ole veel dimensiooni liikmetena olemas. See lähenemine muudab hierarhia tulevikku silmas pidades paindlikuks.  
@@ -297,9 +297,10 @@ Kõigil juhtidel võib olla juurdepääs väga tundlikele äriandmetele, nt tulu
 
 Hierarhiakujundajas saab kasutada uut kiirkaarti **Kasutajad**. Siin saate sisestada igasse hierarhiasõlme vähemalt ühe kasutaja ID.
 
-|                 | Kasutajad            | Dimensiooniliikmete vahemikud   |                         |
+**Kasutajate ja dimensiooniliikmete vahemikud**
+
+|   Sõlmpunktid         |   Kasutaja ID        |   Dimensiooniliikmest   |   Sihtdimensiooni liige   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Sõlmed**       | **Kasutaja ID**      | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Organisatsioon    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administraator         | aprill            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | Alicia           | CC002                     | CC003                   |

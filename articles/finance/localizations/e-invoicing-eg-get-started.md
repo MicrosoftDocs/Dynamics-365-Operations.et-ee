@@ -1,12 +1,10 @@
 ---
 title: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
-description: Sellest teemast leiate teabe, mis aitab teil Egiptuse elektroonilise arvelduse lisandmoodulit finantshaldamise ja Supply Chain Managementi alal kasutama hakata.
+description: See teema pakub teavet, mis aitab teil alustada elektroonilise arveldusega Egiptuses Finants ja Supply Chain Management -is.
 author: gionoder
-manager: AnnBe
-ms.date: 02/26/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,33 +15,34 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 68ee08226f440e850a080600dbf5e16768b45e43
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: f6175a50a88d2d636bfafc5988265b8657630758
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592594"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840192"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-egypt"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
+# <a name="get-started-with-electronic-invoicing-for-egypt"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Sellest teemast leiate teabe, mis aitab teil Egiptuse elektroonilise arvelduse lisandmoodulit kasutama hakata. Selle teema protseduurid juhendavad teid riigist sõltuvate konfiguratsioonietappide osas Regulatory Configuration Services (RCS) ja täiendavad teemas kirjeldatud samme, [Alustage elektroonilise arveldamise lisandmooduliga](e-invoicing-get-started.md).
+Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Egiptuses. See teema juhatab teid läbi riigist sõltuvate konfiguratsioonietappide Regulatory Configuration Services (RCS) ja täiendab teemas kirjeldatud samme [Alustage elektroonilise arveldamisega](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Egiptuse elektroonilise arveldamise (EG) funktsiooni riigispetsiifiline konfiguratsioon
 
-Egiptuse elektroonilise arve (EG) elektroonilise arvelduse funktsiooni konfigureerimiseks on mõned sammud selle lõpuleviimiseks. Mõned konfiguratsioonide parameetrid avaldatakse vaikeväärtustega, nii et need tuleb läbi vaadata ja uuendada, et teie äritoimingut paremini sobida.
+Mõned parameetrid **Egiptuse elektroonilise arve (EG) Elektroonilise arvelduse funktsioonist** avaldatakse vaikeväärtustega. Vaadake üle ja vajadusel uuendage väärtusi, et need sobiksid paremini teie äritegevuse vajadustega, enne kui juurutate elektroonilise arveldamise funktsiooni teenuse keskkonda.
+
+See jaotis täiendab **Elektroonilise arveldamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
 
 ### <a name="prerequisites"></a>Eeltingimused
 
 Enne selle protseduuri lõpetamist, tuleb:
 
-- Looge digitaalserdi saladus, nagu on kirjeldatud **Digitaalse serdi sala loomine** jaotises [Alustage elektroonilise arveldamise lisandmooduli teenuse administratsiooniga](e-invoicing-get-started-service-administration.md). Testimiseks annab Egiptuse maksuamet kindlad testi digitaalsed sertifikaadid, mida tuleb kasutada ainult testimise ja lahenduse valideerimise faasides. Lisateabe saamiseks vaadake Egiptuse maksuameti veebisaiti, kasutades linki [Egiptuse e-arve SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
-- Enne selle jaotise protseduuri sooritamist looge oma ettevõttele Egiptuse elektrooniline arve (EG), nagu on kirjeldatud teemas **"Loo elektroonilise arveldamise funktsiooni oma organisatsiooni pakkuja all** jaotises [Alustage Elektroonilise arveldamise lisandmooduliga](e-invoicing-get-started.md).
+- Looge digitaalsertifikaadi saladus, nagu on kirjeldatud **Digitaalse sertifikaadi saladuse loomine** jaotises [Alustage elektroonilise arveldamise lisandmooduli teenuse administratsiooniga](e-invoicing-get-started-service-administration.md). Testimiseks annab Egiptuse maksuamet kindlad testi digitaalsed sertifikaadid, mida tuleb kasutada ainult testimise ja lahenduse valideerimise faasides. Lisateabe saamiseks vaadake Egiptuse maksuameti veebisaiti, kasutades linki [Egiptuse e-arve SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 
-1. RCS-is **Funktsioonid** jaotisest **Globaliseerimisfunktsioonid** tööruum valige **Elektroonilise arvelduse lisandmoodul** plaan.
+1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
 2. Lehel **Elektroonilise arveldamise lisateenused** veenduge, et **Egiptuse elektrooniline arve (EG)** on valitud loodud elektroonilise arveldamise funktsioon.
 3. Vahekaardil **Versioon** kontrollige, et oleks valitud versioon **Mustand**.
 4. Valige **Häälestus** vahekaardil, ruudustikus **Müügiarve** funktsioon häälestus.
@@ -52,18 +51,16 @@ Enne selle protseduuri lõpetamist, tuleb:
 7. Väljagrupis **Tegevused** valige **integreerimine Egiptuse ETA teenusega**. Korrake seda sammu toimingu kahe esinemiskorra puhul.
 8. Valige **Parameetrid** väljagrupis **Veebiteenuse URL** ja **Sisselogimise teenuse URL** ning vajadusel vaadake üle URL-i parameetrid. Lisateabe saamiseks vaadake Egiptuse maksuameti veebisaiti, kasutades linki [Egiptuse e-arve SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 9. Valige **Salvesta** ja sulgege leht.
-10. Rakenduse häälestuse konfigureerimiseks vt [Alustamine elektroonilise arvelduse lisandmooduliga](e-invoicing-get-started.md).
+10. Elektroonilise arveldamise funktsiooni juurutamiseks Teenusse keskkonda vt [Alustage elektroonilise arvelduse lisandmooduliga](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-of-the-application-setup-for-the-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Egiptuse elektroonilise arveldamise (EG) funktsiooni riigispetsiifiline konfiguratsioon
 
-**Egiptuse elektroonilise arveldamise (EG)** funktsiooni riigispetsiifiline konfiguratsioon nõuab järgmiste sammude teostamist. Viige need sammud lõpule enne, kui juurutate oma elektroonilise arveldamise funktsiooni oma elektroonilise arvelduse lisandmooduli teenuse keskkonnas.
+Viige need sammud lõpule enne rakenduse häälestuse juurutamist ühendatud finants- või Supply Chain Management rakendusse.
 
-### <a name="prerequisites"></a>Eeltingimused
+See jaotis täiendab **Rakenduse seadistamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
 
-Enne selle jaotise protseduuri sooritamist looge oma **Egiptuse elektroonilise arve (EG)** elektroonilise arvelduse funktsioon, et konfigureerida rakenduse **Egiptuse elektrooniline arve (EG)** elektroonilise arveldamise funktsiooni, nagu on kirjeldatud **Konfigureerige rakenduse sätteid** jaotises [Alustage Elektroonilise arveldamise lisandmooduliga](e-invoicing-get-started.md).
-
-1. RCS-is **Funktsioonid** jaotisest **Globaliseerimisfunktsioonid** tööruum valige **Elektroonilise arvelduse lisandmoodul** plaan.
-2. Lehel **Elektroonilise arveldamise lisateenused** veenduge, et **Egiptuse elektrooniline arve (EG)** on valitud loodud elektroonilise arveldamise funktsioon.
+1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
+2. Lehel **Elektroonilise arveldamise Funktsioon** veenduge, et **Egiptuse elektrooniline arve (EG)** on valitud loodud elektroonilise arveldamise funktsioon.
 3. Vahekaardil **Versioon** kontrollige, et oleks valitud versioon **Mustand**.
 4. Vahekaardil **Seadistused** valige **rakenduse häälestus** ja **Ühendatud rakendus** väljal, valige rakendus, kuhu soovite juurutada.
 5. Kontrollige **Tabeli nimi** väljal, et kliendiarve tööleht on valitud.
@@ -75,7 +72,7 @@ Enne selle jaotise protseduuri sooritamist looge oma **Egiptuse elektroonilise a
 11. Valige väljal **Edastuse olek** suvand **Ootel**.
 12. Väljal **andmeüksuse nimi** valige **müügiarve päised V2**.
 13. Väljal **Mudeli kaardistamine** valige **Egiptuse vastuse andmete import** koos **(Eelvaade) Egiptuse vastuse andmed** ja siis valige **Salvesta**.
-14. Elektroonilise arveldamise funktsiooni juurutamiseks vt [Alustage elektroonilise arvelduse lisandmooduliga](e-invoicing-get-started.md).
+14. Rakenduse seadistuse juurutamiseks finants- või Supply Chain Management -iga seotud rakendusse vt [Alustamine elektroonilise arveldamisega](e-invoicing-get-started.md).
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 
@@ -83,9 +80,9 @@ Lubades **Egiptuse elektroonilise arvelduse (EG)** lisandmoodul võib vajada pii
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Elektroonilise arvelduse lisandmooduli ülevaade](e-invoicing-service-overview.md)
+- [Elektroonilise arvelduse ülevaade](e-invoicing-service-overview.md)
 - [Elektroonilise arvelduse lisandmooduli teenusehalduse kasutamise alustamine](e-invoicing-get-started-service-administration.md)
-- [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md)
+- [Elektroonilise arveldusega alustamine](e-invoicing-get-started.md)
 - [Kliendi elektroonilised arved Egiptuses](emea-egy-e-invoices.md)
 
 

@@ -2,11 +2,9 @@
 title: ER-konfiguratsioonide jagamine RCS-is / globaalses hoidlas väliste organisatsioonidega
 description: Selles teemas selgitatakse, kuidas anda elektroonilise aruandluse (ER) konfiguratsioone ühiskasutusse Microsoft Regulatory Configuration Servicesis (RCS) / globaalses hoidlas väliste organisatsioonidega otse.
 author: JaneA07
-manager: AnnBe
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: e7ec24ddc532ee3b87108d076d5103538be903be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218826"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838741"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Elektroonilise aruandluse (ER) konfiguratsioonide ühiskasutusse andmine Regulatory Configuration Servicesi (RCS) globaalses hoidlas väliste organisatsioonidega
 

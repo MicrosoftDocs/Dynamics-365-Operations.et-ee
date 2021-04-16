@@ -2,11 +2,9 @@
 title: Mis on uut või mida on muudetud rakenduses Human Resources?
 description: Iga nädal esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Teemad selles loendis kirjeldavad iga nädal tehtud muudatusi.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm, FeatureManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3412f446fe9fb8e3c2ca5407b22680dec3c3b82
-ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
+ms.openlocfilehash: 6a7d86e85ef9cff493dcdfab498d107163f381d1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5579327"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5806014"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Mis on uut või mida on muudetud rakenduses Human Resources?
 
@@ -51,6 +49,7 @@ Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisp
 
 Et näha, mis on Human Resourcesi igas kahenädalases väljalaskes uut või muudetud, vaadake järgmisi artikleid.
 
+[22. märts 2021](hr-whats-new-2021-03-22.md)</br>
 [8. märts 2021](hr-whats-new-2021-03-08.md)</br>
 [22. veebruar 2021](hr-whats-new-2021-02-22.md)</br>
 [28. jaanuar 2021](hr-whats-new-2021-01-28.md)</br>

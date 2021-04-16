@@ -2,11 +2,9 @@
 title: Ostureskontro arvete võrdlemise ülevaade
 description: Ostureskontro arvete võrdlemine on hankija arve, ostutellimuse ja toote sissetuleku teabe vastavusse viimise protsess.
 author: abruer
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ecbfdd157985899da04aa6b41d9a96cdf2fa6bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 86fe870c43721ac737a7bd34cc3c985e61911dc1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213040"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820903"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Ostureskontro arvete võrdlemise ülevaade
 
@@ -48,7 +46,7 @@ Saate kasutada järgmist tüüpi ostureskontro arvete vastavusseviimist.
 
 Kahesuunaline ja kolmesuunaline vastavusseviimine viivad hinnateabe alati vastavusse ühiku hinna alusel. Saate konfigureerida neid vastavusse viimise poliitikaid ka nii, et hinnateave viiakse vastavusse koondhinna alusel.
 -   Ühiku netohinna vastavusseviimine – kahesuunalise või kolmesuunalise vastavusseviimise puhul viiakse iga arverea ühiku netohind vastavusse ostutellimuse ühiku netohinnaga. Ühiku netohind määratakse järgmise valemiga: rea netosumma / rea kogus
--   Koondhindade vastavusseviimine – kahesuunalise või kolmesuunalise vastavusseviimise puhul viiakse iga arverea netosumma (koondhinda) vastavusse ostutellimuse netosummaga. Netosumma määratakse järgmise valemiga: *(ühiku hind \* rea kogus) + rea tasud – rea allahindlused*. Koguhindasid protsendi järgi vastavusse viies võrdleb süsteem väärtusi kandevaluutat kasutades. Koguhindasid summa järgi vastavusse viies võrdleb süsteem väärtusi arvestusvaluutat kasutades.
+-   Koondhindade vastavusseviimine – kahesuunalise või kolmesuunalise vastavusseviimise puhul viiakse iga arverea netosumma (koondhinda) vastavusse ostutellimuse netosummaga. Netosumma määratakse järgmise valemiga: *(ühiku hind \* rea kogus) + rea tasud – rea allahindlused*. Koguhindasid protsendi järgi vastavusse viies võrdleb süsteem väärtusi kandevaluutat kasutades. Koguhindasid summa järgi vastavusse viies võrdleb süsteem väärtusi arvestusvaluutat kasutades. Kui arveldate ostutellimuse rea osaliselt, toimub koguhinna vastendamise kinnitamine viimasel arvel selle rea puhul. 
 
 Tavaliselt toimuvad arvete vastavusseviimise arvutused automaatselt, kui redigeerite hankija arveid lehel Hankija arve. Teise võimalusena saab arveid võrrelda vajaduse korral. Arvete vastavusseviimist vajaduse korral juhitakse juriidilise isiku puhul vahekaardi Arve kinnitamine lehel Ostureskontro parameetrid jaotises Arve päise oleku automaatne värskendamine. Arveid saab viia vastavusse ka arve ülevaatamise protsessi käigus. Arvete vastavusseviimise tulemusi saab vaadata ka lehel Hankija arve ja seotud arve vastavusseviimise lehtedel.
 

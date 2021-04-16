@@ -1,12 +1,10 @@
 ---
 title: Elektrooniliste arvete väljastamine teenustes Finance ja Supply Chain Management
-description: Selles teemas selgitatakse, kuidas Microsofti teenustes Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmooduli kaudu elektroonilisi arveid väljastada.
+description: Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 Finance teenustes ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmooduli kaudu elektroonilisi arveid väljastada.
 author: gionoder
-manager: AnnBe
-ms.date: 02/26/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,20 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 8d6ef59b64a96e13bdc2e5ddf299ef7ab98e105c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486949"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840072"
 ---
-# <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektrooniliste arvete väljastamine teenustes Finance ja Supply Chain Management
+# <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektrooniliste arvete väljastamine Finance'is ja Supply Chain Managementis
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
-Selles teemas selgitatakse, kuidas Microsofti teenustes Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmooduli kaudu elektroonilisi arveid väljastada.
+Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 Finance teenustes ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmooduli kaudu elektroonilisi arveid väljastada.
 
 
 ## <a name="feature-activation"></a>Funktsiooni aktiveerimine
@@ -69,10 +65,10 @@ Kui on olemas elektroonilise arvelduse pärandfunktsioon, mida toetab riigi loka
 
 Elektrooniliste dokumentide edastamisprotsess kajastab ühte andmevahetuspunkti teenuste Finance ja Supply Chain Management ning elektroonilise arvelduse lisandmooduli vahel. Iga edastussündmuse ajal liigub andmevahetus mõlemas suunas.
 
-- **Teenustest Finance ja Supply Chain Management elektroonilise arvelduse lisandmoodulile** – teenused Finance ja Supply Chain Management saadavad abstraktsed arved elektroonilise arvelduse lisandmoodulile. Vastavalt vajadusele saadavad need ka nende muutujate sisu, mis konfigureeriti elektroonilise arvelduse funktsioonide osana.
-- **Elektroonilise arvelduse lisandmoodulist teenustesse Finance ja Supply Chain Management** – olenevalt elektroonilise arvelduse funktsioonist saavad teenused Finance ja Supply Chain Management elektroonilise arvelduse lisandmoodulist värskendusi eelnevalt edastatud arvete töötlemistulemuste kohta. Need saavad ka nende muutujate sisu, mis konfigureeriti elektroonilise arvelduse funktsioonide osana.
+- **Finance ja Supply Chain Managementist elektroonilise arveldusele** –Finance ja Supply Chain Management saadavad abstraktsed arved elektroonilise arveldusele. Vastavalt vajadusele saadavad need ka nende muutujate sisu, mis konfigureeriti elektroonilise arvelduse funktsioonide osana.
+- **Elektroonilise arveldusest teenustesse Finance ja Supply Chain Managementini** – Olenevalt elektroonilise arvelduse funktsioonist saavadFinance ja Supply Chain Management elektroonilise arvelduse lisandmoodulist värskendusi eelnevalt edastatud arvete töötlemistulemuste kohta. Need saavad ka nende muutujate sisu, mis konfigureeriti elektroonilise arvelduse funktsioonide osana.
 
-Elektrooniliste dokumentide edastamiseks elektroonilise arvelduse lisandmoodulile avage teenustes Finance ja Supply Chain Management **Organisatsiooni haldus &gt; Perioodiline &gt; Elektroonilised dokumendid &gt; Edasta elektroonilised dokumendid**
+Elektrooniliste dokumentide esitamiseks elektroonilisele arveldusele Finance ja Supply Chain Management -is minge **Organisatsiooni haldus &gt; Perioodiline &gt; Elektroonilised dokumendid &gt; Esita elektroonilised dokumendid**.
 
 Alguspunkt on sisestatud arve. See arve võib pärineda erinevatest kohtadest, nt müügitellimustest, projektiarvetest või vabas vormis arvetest.
 
@@ -83,13 +79,13 @@ Edastusprotsessi saab käitada käsitsi või taustal.
 
 ## <a name="view-the-submission-logs"></a>Edastuslogide vaatamine
 
-Teenustes Finance ja Supply Chain Management saate kasutada edastuslogisid, et vaadata elektroonilise arvelduse lisandmoodulile edastatud andmete töötlemise tulemusi. Avage **Organisatsiooni haldus &gt; Perioodiline &gt; Elektroonilised dokumendid &gt; Elektroonilise dokumendi edastus** ja seejärel valige väljal **Dokumendi tüüp** väärtus, et filtreerida logide kuvatavad arvetüübid.
+Finance ja Supply Chain Management -is saate kasutada edastuslogisid, et vaadata elektroonilise arvelduse lisandmoodulile edastatud andmete töötlemise tulemusi. Avage **Organisatsiooni haldus &gt; Perioodiline &gt; Elektroonilised dokumendid &gt; Elektroonilise dokumendi edastus** ja seejärel valige väljal **Dokumendi tüüp** väärtus, et filtreerida logide kuvatavad arvetüübid.
 
 Saadaval on kolm edastuse olekut.
 
-- **Ajastatud** – elektroonilise arvelduse lisandmoodul on teenustelt Finance ja Supply Chain Management edastuse vastu võtnud ning elektroonilise arvelduse funktsiooni töötlemine on pooleli.
-- **Lõpule viidud** – elektroonilise arvelduse lisandmoodul töötles elektroonilise arvelduse funktsiooni edukalt, nagu see on konfigureeritud seda käitama.
-- **Nurjus** – elektroonilise arvelduse lisandmoodulil ilmnes elektroonilise arvelduse funktsiooni töötlemisel tõrge või protsessi peatas erand.
+- **Ajastatud** – Elektroonilise arvelduse lisandmoodul on teenustelt Finance ja Supply Chain Management edastuse vastu võtnud ning elektroonilise arvelduse funktsiooni töötlemine on pooleli.
+- **Lõpule viidud** – Elektroonilise arvelduse lisandmoodul töötles elektroonilise arvelduse funktsiooni edukalt, nagu see on konfigureeritud seda käitama.
+- **Nurjus** – Elektroonilise arvelduse lisandmoodulil ilmnes elektroonilise arvelduse funktsiooni töötlemisel tõrge või protsessi peatas erand.
 
 > [!IMPORTANT]
 > Edastuse olek viitab elektroonilise arvelduse lisandmooduli elektroonilise arvelduse funktsiooni töötlemise olekule. See ei viita elektroonilise arve lõplikule olekule.
@@ -101,7 +97,7 @@ Edastuslogide hulka kuuluvad järgmised lisafunktsioonid.
 - **Edastuse üksikasjad** – saate vaadata põhiedastuse üksikasju. Visualiseering näitab elektrooniliste arvelduse funktsioonis konfigureeritud tegevuste täielikku käivituslogi. Samuti võimaldab see kasutajatel töötlemise ajal loodud failid alla laadida. Olukordades, kus väline veebiteenus peab arve kinnitama, võimaldatakse kasutajatel arve olekut vaadata.
 - **Seotud edastused** – saate vaadata alamedastuste üksikasju.
 - **Edastuste tühistamine** – see funktsioon lubab spetsiaalse edastusprotsessi olukordades, kus väline veebiteenus peab elektroonilise arve kinnitama. See juhendab elektroonilise arvelduse lisandmoodulit saatma veebiteenusele kindla sõnumi, mis käseb veebiteenuse andmebaasis kinnitatud elektroonilise arve oleku tühistada.
-- **Dokumendi taasedastamine** – saate taasedasta elektroonilise dokumendi, mis on juba elektroonilise arvelduse lisandmoodulile edastatud. Lehel **Edastuse üksikasjad** luuakse täiesti uus logi.
+- **Dokumendi taasedastamine** – Saate taasedasta elektroonilise dokumendi, mis on juba elektroonilise arvelduse lisandmoodulile edastatud. Lehel **Edastuse üksikasjad** luuakse täiesti uus logi.
 - **Saatke seotud edastus**
 
 

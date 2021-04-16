@@ -1,12 +1,10 @@
 ---
 title: Ettemaksuarved vs. ettemaksed
-description: See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
+description: See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada.
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8e882cb2063133324005a8e4585daa1c6a0752b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 64301ac540ce2e6e914b6b23668fddeb295ef84c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227470"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827982"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
+See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Üks meetod loob ostutellimusega seotud ettemaksuarve. Teine meetod loob ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
 
 Organisatsioonid võivad väljastada hankijatele ettemakseid kaupade või teenuste eest enne nende täitmist. Hankijatele ettemaksete väljastamiseks on kaks võimalust. Riski vähendamiseks saate ettemakseid jälgida, määratledes ettemakse ostutellimusel. Selle meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Seda meetodit nimetatakse ettemaksuarvelduseks. Organisatsioonid, mis ei soovi ettemakseid nii täpselt jälgida või ei saa hankijalt ettemaksearvet, saavad ettemaksuarvelduse meetodi asemel kasutada ettemakse töölehekandeid. Ettemakse töölehekannete loomiseks looge töölehekanded ja märkige need ettemakse töölehekanneteks. Selle meetodi puhul ei saa te jälgida, millised hankija ettemaksed milliste ostutellimustega on seotud. Siiski saate märkida sisestatud makse tasakaalustamiseks ostutellimuse suhtes.
 
@@ -37,7 +35,7 @@ Organisatsioonid võivad väljastada hankijatele ettemakseid kaupade või teenus
 | Ettemaksearveldus                                                                | Ettemaksed                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Määratlege ostutellimusel ettemakse väärtus.                                    | Määratlege ostutellimusel ettemakse väärtus.                    |
-| Võti: sisestada tuleb ettemaksuarve ja lõplik arve.                       | Ettemaksuarvet ei tule sisestada.                                    |
+| Sisestada tuleb ettemaksuarve ja lõplik arve.                       | Ettemaksuarvet ei tule sisestada.                                    |
 | Ettemaksukohustus on ettemaksukontol, mitte AP-kontol. | Ettemaksukohustus on AP-kontol.                  |
 | Hankija saldo ei kajasta ettemakse väärtust protsessi käigus.     | Hankija saldo kajastab ettemakse väärtust protsessi käigus. |
 | Ettemaksuarveldus on saadaval ainult jaotises Ostureskontro.                         | Ettemaksed on saadaval nii jaotises Ostureskontro kui ka Müügireskontro.    |
@@ -59,11 +57,41 @@ Ettemaksuarved on levinud äritava. Hankija väljastab ettemaksuarved, et nõuda
 1.  Ostuagent loob, kinnitab ja seejärel edastab ostutellimuse, mille puhul nõudis hankija ettemakset. Ettemakse väärtus määratletakse ostutellimusel leppe osana.
 2.  Hankija esitab ettemaksuarve.
 3.  Ostureskontro koordinaator registreerib ettemaksuarve ostutellimuse suhtes ja seejärel tasutakse ettemaksuarve.
-4.  Kui hankija on kaubad või teenused tarninud ja seotud hankijaarved on vastu võetud, rakendab ostureskontro koordinaator ettemaksesumma, mis on arve järgi juba tasutud.
-5.  Ostureskontro koordinaator tasub ja tasakaalustab arve jääksumma.
+4.  Hankija saadab maksenõude, mida nimetatakse standardseks hankijaarveks. Kui hankija on kaubad või teenused tarninud ja seotud standardsed hankijaarved on vastu võetud, rakendab ostureskontro koordinaator ettemaksesumma, mis on standardarve järgi juba tasutud.
+5.  Ostureskontro koordinaator tasub ja tasakaalustab standardarve jääksumma.
 
+## <a name="set-up-parameters-to-enable-the-prepayment-invoicing-process"></a>Häälestab parameetreid ettemakse arveldamisprotsessi lubamiseks.
+Ettemaksekonto peab olema määratletud vahekaardil **Ostutellimus** lehel **Varude sisestamine** (**Laohaldus \> Seadistus \> Sisestamine\> Sisestamine**). Ettemaksukontot uuendatakse (tavaliselt debiteeritakse) ettemaksuarve sisestamisel. Ettemaksukonto saldo tühistatakse, kui sisestatakse ettemaksuarvele rakendatav standardarve. Kui te ei tasakaalusta ettemaksuarvet makseks enne ettemaksuarve rakendamist standardarvele, tühistatakse sisestatud ettemaksuarve raamatupidamiskirjed standardarve sisestamisel.
 
+Poolelioleva koondkonto ostureskontro määratletakse profiilil **Hankija sisestus**. Vaike-sisestusreeglite määratlemiseks klõpsake suvandit **Ostureskonto \>Seadistus \> Ostureskonto parameetrid \>Pearaamat ja müügi vahekaart \> Sisestusreeglid ettemakse hankijaarvega**.
 
+**Ettemakse rakenduse poliitika** näitab, kas süsteem rakendab tasakaalustatud ettemaksuarved automaatselt käsitsi loodud lõpparvele. Andmeüksust kasutades loodud arved ei viita **Ettemakse rakenduse poliitikale**. Peate käsitsi rakendama tasakaalustatud ettemaksuarvet arvetel, mis loodi andmeüksust kasutades. Poliitika määratlemiseks minge jaotisesse **Ostureskontro \>Seadistus \> Ostureskontro parameetrid \> Pearaamat ja müügi vahekaart  \> Ettemakse rakenduspoliitika**. Kui väli **Ettemakse rakenduspoliitika** on seatud väärtusele **Automaatne**, märgitakse ettemaksuarve automaatselt lõpliku arvega tasakaalustamiseks. Kui väli on seatud olekusse **Teavitus**, kuvatakse lõpliku arve loomisel visuaalne viide, et ettemaksuarve on rakenduse jaoks saadaval.
+
+## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Ettemaksuarve teavet sisaldava ostutellimuse loomine
+Kui hankija ütleb teile, et nad nõuavad ettemakset ostutellimuses sisalduvate kaupade ja teenuste eest, peate määratlema nendega seotud ostutellimuse ettemakse väärtuse. Avage **Ostureskontro \> Üldine \> Ostutellimus \> Kõik ostutellimused** ja otsige üles hankija ostutellimus. Valige toimingupaanil vahekaart **Ost** ja seejärel valige **Ettemakse**. Sisestage ettemakse teave, sh kirjeldus, ettemakse väärtus, kas ettemakse on fikseeritud summa või protsent ning ettemakse kategooria ID. 
+
+Pange tähele, et ostutellimusele pole mitu ettemaksemääratlust lubatud. Kui teil on vaja lubada ostutellimusele mitu ettemakset, sisestage maksed, kasutades ettemaksuarve asemel maksetöölehte.
+
+Ettemakse võib ostutellimuselt eemaldada, kui te ei ole juba makset sisestatud ettemaksuarve suhtes tasakaalustanud või sisestanud standardarve. Ettemakseteabe eemaldamiseks ostutellimusest valige **Ostureskonto \> Üldine \> Ostutellimused \> Kõik ostutellimused** ja otsige üles hankija ostutellimus. Valige toimingupaanil vahekaart **Ost** ja seejärel valige **Eemalda ettemakse**.
+
+## <a name="create-and-post-a-prepayment-invoice"></a>Ettemaksuarve loomine ja sisestamine
+Hankija ettemaksuarve kirjendamiseks minge **Hankija arve** lehele, valides suvandi **Ettemaksuarve** lehel **Ostutellimused** (**Ostureskonto \> Üldine \> Ostutellimused \> Kõik ostutellimused \> Vahekaart Arve \> Ettemaksuarve**). Sisestage ettemaksuarve teave, sh arve number. Ettemaksuarve puhul ei saa koguseid muuta. Kui hankija on arveldanud ostutellimusel määratletud ettemakse väärtuse osalise summa, saate ühikuhinda värskendada, et see kajastaks osaväärtust.
+
+Hankija saldot ja ettemaksukontot uuendatakse (tavaliselt debiteeritakse) ettemaksuarve sisestamisel. Uuendatakse ka ostutellimuse ettemakse määratluses sisalduvat **Ettemakse avalduse** väärtust. Sisestatud ettemakse kande finantsdimensiooni vaikekirjed võetakse ostutellimuse päiseteabest.
+
+## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Ettemaksuarve maksete sisestamine ja tasakaalustamine
+Järgmisena makstakse ettemaksuarve **Maksetöölehelt**. Maksetöölehtedele juurdepääsemiseks klõpsake **Ostureskonto \> Töölehted \> Maksed \> Maksetööleht**. Pärast makse tasakaalustuse sisestamist ettemaksuarvele uuendatakse ostutellimuse **Järelejäänud ettemakse avalduse** väärtus.
+
+Enne ettemaksuarve standardarve sisestamist saate tühistada makse tasakaalustuse ettemaksuarvelt. Kuid pärast standardarve rakendamist ettemaksuarvele ei saa tühistada makse tasakaalustust ettemaksuarvelt.
+
+## <a name="post-the-standard-vendor-invoice-for-the-purchase-order-and-apply-the-prepayment-invoice-to-the-standard-invoice"></a>Sisestage standardne hankijaarve ostutellimusele ja rakendage ettemaksuarve standardarvele
+Kirjendage hankijalt saadud standardarve. Selle protsessi osana saate rakendada tasakaalustatud ettemaksuarvet hankijaarvele nii, et arve väärtust vähendatakse juba makstud summa võrra. Ettemaksearve rakendamine hankijaarvele tagab, et ettemaksuarve raamatupidamiskirjed tühistatakse.
+
+## <a name="application-of-the-prepayment-invoice-after-posting-the-standard-invoice"></a>Ettemaksuarve rakendamine pärast standardarve sisestamist
+Kui unustate hankijaarve sisestamise ajal rakendada ettemakset standardsele hankijaarvele, on tasakaalustatud ettemakse saadaval kõigile selle hankija arvetele rakendamiseks lehel **Hankijad** (**Ostureskonto \> Üldine \> Hankijad \> Kõik hankijad \> Arve vahekaart \> Rakenda**).
+
+## <a name="reversal-of-the-prepayment-application-process"></a>Ettemakse avalduse protsessi tühistamine
+Kui peate ettemaksearve rakendamise standardarve osas tasakaalustuse tühistama või üldse tühistama, valige **Tühistamine** lehelt **Hankijad** (**Ostureskontro \> Üldine \> Hankijad \> Kõik hankijad \> Arve vahekaart \> Tühista**). Kui ettemaksutaotlus on tühistatud, saate ettemakset rakendada teisel standardarvel. 
 
 
 

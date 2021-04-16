@@ -2,11 +2,9 @@
 title: Soodustuse plaani loomine
 description: Soodustuse plaanide seadistamine rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d398da8fa53f39cfbdc3911d5acd0967f0c5d5b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: da11799d3340798067fc03061159896f44750c77
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464274"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805726"
 ---
-# <a name="create-a-benefits-plan"></a>Soodustuse plaani loomine
+# <a name="create-a-benefit-plan"></a>Soodustusplaanide loomine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -46,9 +44,8 @@ Selles artiklis kirjeldatakse, kuidas seadistada soodustuse plaani rakenduses Dy
    | **Programm** | Määratleb plaani valikuliselt määramise programmi. |
    | **Kogum** | Määratleb plaani valikuliselt määramise kogumi. |
    | **Põhiveokiri** | Määratleb, kas plaan on antud kogumi koondplaan. |
-   | **Olek** | Näitab soodustuse plaani praegust olekut. Vaikeväärtus on Aktiivne. Kui muudate olekuks Passiivne, ei ole plaan registreerimise ajal valimiseks saadaval. |
    | **Kehtivuse alguskuupäev ja -aeg** | Plaani alguskuupäev ja -kellaaeg. Vaikeväärtus on praegune süsteemikuupäev. |
-   | **Kehtivuse lõppkuupäev ja -aeg** | Plaani lõppemise kuupäev ja kellaaeg (olekuks seatakse Passiivne). Vaikeväärtus on 12/31/2154, mis tähendab, et mitte kunagi. |
+   | **Kehtivuse lõppkuupäev ja -aeg** | Plaani lõpu kuupäev ja -kellaaeg. Vaikeväärtus on 12/31/2154, mis tähendab, et mitte kunagi. |
 
 4. Vahekaardil **Konfigureerimine** määrake olenevalt loodava plaani tüübist järgmiste väljade väärtused.
 
@@ -56,18 +53,18 @@ Selles artiklis kirjeldatakse, kuidas seadistada soodustuse plaani rakenduses Dy
    | --- | --- | --- |
    | Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO) | COBRA | Määrab, kas plaanile rakendub eelarve vastavusseviimise konsolideeritud koondõigusakt (COBRA, Consolidated Omnibus Budget Reconciliation Act). |
    | Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO) | HIPAA | Määrab, kas plaanile rakendub tervisekindlustuse teisaldatavuse ja vastavuse seadus (HIPAA, Health Insurance Portability and Accountability Act). |
-   | <ul><li>Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO)</li><li>Muu (PTO, vormisolek)</li><li>Muud</li><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li><li>Säästmine (näiteks 401(k))</li><li>FSA</li></ul> | Maksueelselt kõlblik | Määrab, kas plaanile saab teha osamakseid enne maksude arvestamist. |
-   | <ul><li>Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO)</li><li>Muu (PTO, vormisolek)</li><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li><li>Säästmine (näiteks 401(k))</li><li>FSA</li></ul> | Maksujärgselt kõlblik | Määrab, kas plaanile saab teha osamakseid pärast maksude arvestamist. |
-   | <ul><li>Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO)</li><li>Muu (PTO, vormisolek)</li><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li><li>Säästmine (näiteks 401(k))</li><li>FSA</li></ul> | Kaasautor | Määrab, kes teeb plaanile osamakseid – töövõtja, tööandjale või mõlemad. |
-   | <ul><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li></ul> | Minimaalne kindlustus | Plaani jaoks nõutav minimaalne kindlustuskaitse summa. |
-   | <ul><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li></ul> | Maksimaalne kindlustus | Plaani jaoks nõutav maksimaalne kindlustuskaitse summa. |
-   | <ul><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li></ul> | Kindlustuse astmelise muutuse kasutamine | Määrab, kas kontrollida, kas katvussumma vastab kehtivale astmelisele summale. |
-   | <ul><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li></ul> | Summa muutuse samm | Plaani kindlustuskaitse sammu summa. Näiteks kui sammu summa on 1000, ei saa töötaja kindlustus olla 200 500 dollarit, see peab olema ümardatud üles 201 000 dollarini või alla 200 000 dollarini. |
-   | <ul><li>Pikaajaline invaliidsus</li><li>ADD (Tavaline elu, Vabatahtlik elu)</li></ul> | Astmeline suund | Määrab ümardamise suuna – ülespoole või allapoole –, kui kindlustussumma ei vasta summa sammu väärtusele. |
+   | Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO)<br><br>Muu (PTO, vormisolek)<br><br>Muud<br><br>Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu)<br><br>Säästmine (näiteks 401(k))<br><br>FSA | Maksueelselt kõlblik | Määrab, kas plaanile saab teha osamakseid enne maksude arvestamist. |
+   | Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO)<br><br>Muu (PTO, vormisolek)<br><br>Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu)<br><br>Säästmine (näiteks 401(k))<br><br>FSA | Maksujärgselt kõlblik | Määrab, kas plaanile saab teha osamakseid pärast maksude arvestamist. |
+   | Meditsiiniline (meditsiiniline, hambaravi, nägemine, HMO)<br><br>Muu (PTO, vormisolek)<br><br>Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu)<br><br>Säästmine (näiteks 401(k))<br><br>FSA | Kaasautor | Määrab, kes teeb plaanile osamakseid – töövõtja, tööandjale või mõlemad. |
+   | Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu) | Minimaalne kindlustus | Plaani jaoks nõutav minimaalne kindlustuskaitse summa. |
+   | Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu) | Maksimaalne kindlustus | Plaani jaoks nõutav maksimaalne kindlustuskaitse summa. |
+   | Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu) | Kindlustuse astmelise muutuse kasutamine | Määrab, kas kontrollida, kas katvussumma vastab kehtivale astmelisele summale. |
+   | Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu) | Summa muutuse samm | Plaani kindlustuskaitse sammu summa. Näiteks kui sammu summa on 1000, ei saa töötaja kindlustus olla 200 500 dollarit, see peab olema ümardatud üles 201 000 dollarini või alla 200 000 dollarini. |
+   | Pikaajaline invaliidsus<br><br>ADD (Tavaline elu, Vabatahtlik elu) | Astmeline suund | Määrab ümardamise suuna – ülespoole või allapoole –, kui kindlustussumma ei vasta summa sammu väärtusele. |
    | ADD (Tavaline elu, Vabatahtlik elu) | Kindlustatavustõend | Määrab, kas töövõtja peab esitama kindlustatuse kohta tõendi. |
    | ADD (Tavaline elu, Vabatahtlik elu) | Summa | Summa arvestusvaluutas. See väli on aktiivne ainult siis, kui valitakse märkeruut Kindlustatavustõend on valitud. |
-   | <ul><li>Säästmine (näiteks 401(k))</li><li>FSA</li></ul> | Minimaalne aastane panus | Plaani jaoks nõutav minimaalne lisatav summa. |
-   | <ul><li>Säästmine (näiteks 401(k))</li><li>FSA</li></ul> | Maksimaalne aastane panus | Plaani jaoks nõutav maksimaalne lisatav summa. |
+   | Säästmine (näiteks 401(k))<br><br>FSA | Minimaalne aastane panus | Plaani jaoks nõutav minimaalne lisatav summa. |
+   | Säästmine (näiteks 401(k))<br><br>FSA | Maksimaalne aastane panus | Plaani jaoks nõutav maksimaalne lisatav summa. |
    | Säästmine (näiteks 401(k)) | Tööandja maksimaalne aastane summa | Maksimaalne summa, mille tööandja saab soodustuse perioodi jooksul töötaja säästuplaani lisada. Selle välja kasutamiseks peate märkima ruudu Tööandja vaste. |
    | Säästmine (näiteks 401(k)) | Tööandja sobivus | Määrab, kas tööandja teeb töövõtja säästuplaani osamakseid. |
    | Säästmine (näiteks 401(k)) | Tööandja vastendatud protsent | Töövõtja panuse protsent, mille tööandja ühitab. |
@@ -122,7 +119,7 @@ Saate kuvada töötajad, kes on valitud soodustuse plaani registreeritud.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Plaanid** valige suvand **Soodustuse plaanid**.
 
-2. Valige suvand **Registreeritud töötajad**.
+2. Vahekaardil **Soodustused** navigeerimisribal valige **Registreeritud töötajad**.
 
 ## <a name="attach-coverage-options"></a>Lisa kindlustussuvandid
 
@@ -130,7 +127,7 @@ Saate lisada valitud soodustuse plaanile katvuse valikuid. Katvuse valikute lisa
 
 1. Tööruumis **Soodustuste haldus** jaotises **Plaanid** valige suvand **Soodustuse plaanid**.
 
-2. Valige suvand **Lisa katvuse valikud**.
+2. Vahekaardil **Soodustused** navigeerimisribal valige **Kinnita katvuse valikud**.
 
 ## <a name="override-eligibility-rules"></a>Sobivusreeglite tühistamine
 
@@ -138,7 +135,7 @@ Saate lisada töötajaid plaani sobivusreeglite eranditena. Iga lisatav töötaj
 
 1. Tööruumis **Soodustuste haldus** jaotises **Plaanid** valige suvand **Soodustuse plaanid**.
 
-2. Valige suvand **Sobivusreegli tühistamine**.
+2. Vahekaardil **Soodustused** navigeerimisribal valige **Reegli alistamise sobivus**.
 
 ## <a name="view-attached-periods"></a>Lisatud perioodide kuvamine
 
@@ -146,21 +143,21 @@ Saate vaadata saadaolevate soodustuste perioodide loendit.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Plaanid** valige suvand **Soodustuse plaanid**.
 
-2. Valige suvand **Perioodid**.
+2. Valige vaheleht **Perioodid** navigeerimisribal.
 
-## <a name="view-plan-information"></a>Plaani teabe kuvamine
+## <a name="view-plan-description"></a>Kuva plaani kirjeldus
 
-Saate sisestada plaani kirjelduse, et aidata töövõtjaid soodustuste valimisel. Siia sisestatav plaani teave kuvatakse töövõtja iseteeninduses, kui liikuda üle katvuse valikute loendis üle plaani.
+Saate sisestada plaani kirjelduse, et aidata töövõtjaid soodustuste valimisel. Plaani kirjeldus, mille sa siia sisestad kuvatakse töövõtja iseteeninduses kui liikuda üle katvuse valikute loendi plaani.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Plaanid** valige suvand **Soodustuse plaanid**.
 
-2. Valige suvand **Plaani teave**.
+2. Vahekaardil **Soodustused** navigeerimisribal valige **Plaani kirjeldus**.
 
 ## <a name="view-flex-credit-programs"></a>Paindliku krediidiga programmide kuvamine
 
 1. Tööruumis **Soodustuste haldus** jaotises **Plaanid** valige suvand **Soodustuse plaanid**.
 
-2. Valige suvand **Paindliku krediidiga programmid**.
+2. Vahekaardil **Soodustused** navigeerimisribal valige **Paindkrediidid programmid**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

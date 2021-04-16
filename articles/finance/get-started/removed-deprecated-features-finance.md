@@ -2,11 +2,9 @@
 title: Dynamics 365 Financei eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Finance'ist.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474059"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836909"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Financei eemaldatud või aegunud funktsioonid
 
@@ -39,7 +37,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS-i hoidla elektrooniliste aruandluskonfiguratsioonide talletusvalikuna
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Asendatud uue regulatiivse konfiguratsiooniteenuse (RCS) globaalse hoidlaga |
 | **Asendatud teise funktsiooniga?**   | Jah |
@@ -51,7 +49,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Elektroonilised aruandlusvormingud "Km-i deklaratsioon (CZ)" ja "Kontrolldeklaratsiooni eksport (CZ)" Tšehhi Vabariigile
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Asendatud uute vormingutega |
 | **Asendatud teise funktsiooniga?**   | Jah |
@@ -61,7 +59,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Pearaamatu kannete ekspordi vorming (BE)" Elektroonilise aruandluse vorming ja vastava "Pearaamatu kannete ekspordi (BE)" Belgia mudel
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Asendada uue ER-vorminguga "Standardse auditi faili (SAF-T)" mudeli all.  |
 | **Asendatud teise funktsiooniga?**   | Jah |
@@ -71,7 +69,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>"VAT 100" aruanne Ühendkuningriigile SSRS vormingus
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Asendatakse uue ER-vorminguga -"KM-i deklaratsiooni Excel (UK)" vorming "Maksudeklaratsiooni mudeli" all.  |
 | **Asendatud teise funktsiooniga?**   | Jah |
@@ -83,7 +81,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 Dynamics 365 tugi on iganenud
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Kehtib alates 2020. detsembrist, Microsoft Internet Explorer 11 tugi kõigile Dynamics 365 toodetele on iganenud ja Internet Explorer 11 ei toetata pärast 2021. aasta augustit.<br><br>See mõjutab kliente, kes kasutavad Dynamics 365 tooteid, mis on mõeldud kasutamiseks Internet Explorer 11 liidese kaudu. Pärast 2021. aasta augustit, Internet Explorer 11 ei toetata selliste Dynamics 365 toodete puhul. |
 | **Asendatud teise funktsiooniga?**   | Soovitame klientide minna üle Microsoft Edge-le.|
@@ -95,7 +93,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Poola SSRS-i aruanded: arvestatud käibemaksu register, sisendkäibemaksu register, EL-i koondkäibemaksu register – funktsiooni viide PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Juriidiliselt pole vajalik.  |
 | **Asendatud teise funktsiooniga?**   | Jah (Exceli vorming standardse auditifaili jaoks KM-i deklaratsiooniga – JPK_VDEK) |
@@ -107,7 +105,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ### <a name="norwegian-standard-main-accounts"></a>Norwegian Standardi põhikontod
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Ümberkujundamine  |
 | **Asendatud teise funktsiooniga?**   | Jah (asendatud ER-i vormingu rakendusekohaste parameetritega) |
@@ -118,7 +116,8 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Finance'i väljalaskest 10.0.7 eemaldatud või aegunud funktsioonid
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Töövoo taotluse muutmise dialoogiboks ei sisalda enam kasutaja valiku ripploendit
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Muudetud funktsiooniks, mis sisaldab konto gruppide valikut.  |
 | **Asendatud teise funktsiooniga?**   | Jah |
