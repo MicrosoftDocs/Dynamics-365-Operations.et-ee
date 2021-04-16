@@ -2,11 +2,9 @@
 title: Pearaamatu välisvaluuta ümberarvutamine
 description: 'Selles teemas antakse ülevaade pearaamatu välisvaluuta ümberarvutamise protsessi järgmistest toimingutest: seadistamine, protsessi käitamine, protsessi jaoks arvutamine ja vajaduse korral ümberarvutuskannete tühistamine.'
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249259"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832918"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Pearaamatu välisvaluuta ümberarvutamine
 
@@ -83,7 +81,7 @@ Põhikonto arvutatakse ümber 31. jaanuaril.  Realiseerimata kasum/kahjum arvuta
 
 | Praegune saldo kandevaluutas | Praegune saldo arvestusvaluutas | Vahetuskurss ümberarvutamisel | Uue arvestusvaluuta summa | Realiseerimata kasum/kahjum    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 eurot                                     | 1000 USA dollarit                                   | 166.6667                         | 833,33 eurot (500 × 1,666667)        | Kahjum 166,67 (833,33 – 1000) |
+| 500 eurot                                     | 1000 USA dollarit                                   | 166.6667                         | 833.33 USA dollarit (500 × 1,666667)        | Kahjum 166,67 (833,33 – 1000) |
 
 Luuakse järgmine raamatupidamiskirje.
 

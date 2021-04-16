@@ -2,11 +2,9 @@
 title: Mis on Dynamics 365 Human Resources-is uut või mida on muudetud (6. oktoober 2020)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 6. oktoobri 2020 uusi või muutunud funktsioone.
 author: jcart1106
-manager: tfehr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 330b037e2ba50ed090fd41b0990d6cf37d9d8b01
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463546"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802283"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Mis on Dynamics 365 Human Resources-is uut või mida on muudetud (6. oktoober 2020)
 

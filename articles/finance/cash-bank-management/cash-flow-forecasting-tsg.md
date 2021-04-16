@@ -2,11 +2,9 @@
 title: Rahavoo prognoosimise häälestuse tõrkeotsing
 description: Selles teemas on toodud vastused küsimustele, mis võivad teil tekkida rahavoo prognoosimise konfigureerimisel. Selles käsitletakse korduma kippuvaid küsimusi (KKK) rahavoo häälestuse, rahavoo värskenduste ja rahavoo Power BI kohta.
 author: panolte
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b4760d7a0d0c14e2df8df20c2f81ec41e077cc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232485"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827310"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Rahavoo prognoosimise häälestuse tõrkeotsing
 
@@ -47,11 +45,19 @@ Enne rahavoo prognooside kuvamist Power BI vaadetes tuleb läbida mitu etappi. V
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>Miks toimis Power BI rahavoog eelmistes versioonides, kuid on nüüd tühi?
 
-Kontrollige, et üksuse kaupluse mõõtmised „Cash flow measure V2“ ja „LedgerCovLiquidityMeasurement“ oleksid konfigureeritud. Lisateavet üksuse kaupluses andmetega töötamise kohta leiate teemast [Power BI integreerimine üksuse kauplusega](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md) Veenduge, et kõik Power BI sisu kuvamiseks vajalikud etapid oleksid läbitud. Lisateabe saamiseks vt [Sularaha ülevaate Power BI sisu](Cash-Overview-Power-BI-content.md).
+Kontrollige, et üksuse kaupluse mõõtmised „Cash flow measure V2“ ja „LedgerCovLiquidityMeasurement“ oleksid konfigureeritud. Lisateavet selle kohta, kuidas töötada andmeüksuse salvega leiate [Power BI integratsioonist Üksuse salvega](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Kontrollige, et kõik sisu vaatamiseks vajalikud Power BI sammud on lõpule viidud. Lisateabe saamiseks vt [Sularaha ülevaate Power BI sisu](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Kas üksuse kaupluse üksused on värskendatud?
 
 Andmete ajakohasuse ja täpsuse tagamiseks peate üksusi aeg-ajalt värskendama. Konkreetse üksuse käsitsi värskendamiseks avage jaotis **Süsteemihaldus \> Häälestus \> Üksuse kauplus**, valige üksus ja seejärel tehke valik **Värskenda**. Andmeid saab värskendada ka automaatselt. Määrake lehe **Üksuse kauplus** suvandi **Automaatne värskendamine lubatud** väärtuseks **Jah**.
 
+## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>Millist arvutusmeetodit tuleks kasutada rahavoo prognoosimisel?
+
+Rahavoo prognoosi arvutusmeetodil on kaks olulist valikuvalikut. Valik **Uus** arvutab rahavoo prognoosi uutele dokumentidele ja neile dokumentidele, mis onpeale viimase pakett-töö käitamist muutunud. See valik käivitub kiiremini, sest see töötleb väiksemat dokumentide alamkogumit. Valik **Kokku** arvutab rahavoo prognoosi ümber iga süsteemi dokumendi jaoks. See valik võtab rohkem aega, kuna selle lõpetamiseks on rohkem tööd.
+
+### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>Kuidas parandada rahavoo prognoosi korduva pakett töö jõudlust?
+
+Soovitame uue käivitada oma rahavoo prognoos iga päev üks kord tipptunni väliselt kasutades arvutusmeetodit **Uus** . Soovitame seda lähenemist kasutada kuus päeva nädalas. Seejärel käivitage likviidsuse prognoos iga nädal, kasutades **Kokku** arvutusmeetodit kõige vähema tegevusega päevadel.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
