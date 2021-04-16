@@ -2,11 +2,9 @@
 title: Raamatute arv töölehe kohta
 description: Selles teemas kirjeldatakse seost töölehtede ja vararaamatute vahel, kui loote põhivara soetamise või kulumisoovituse pakett-töö kaudu. Saate määratleda iga soetamise ja kulumi jaoks kaasatud raamatute maksimaalse arvu.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256711"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822029"
 ---
 # <a name="number-of-books-per-journal"></a>Raamatute arv töölehe kohta
 
@@ -43,11 +41,14 @@ Saate kasutada pakktöötlust, et käitada kulum samale soetatud varade kogumile
 
 Pakett-töötluse töö välistab suletud raamatud. Näiteks pakett-töös kulumi puhul suletakse 2000st esimesest raamatust 10. Sellel juhul sisaldab esimene tööleht raamatuid, mis on seotud põhivaradega, mis on nummerdatud 1 kuni 2011. Teine tööleht sisaldab siis raamatuid, mis on seotud põhivaradega, mis on nummerdatud 2,012 kuni 4,000.
 
+> [!NOTE]
+> Kui teil on erinevate eraldajatega põhivara ID-d (nt – või /) ja loote põhivarakandeid pakett-töödes, peate käivitama iga eraldajatüübi jaoks eraldi pakett-töö. Süsteem ei saa samas pakett-töös töödelda erinevaid eraldajaid.
+
 Kui dubleeritud vara ID-d ei ole samas töölehel, rakendatakse raamatute arvu limiiti. Kui aga vara ID on sama, mis raamatu ID, siis on võimalik ületada raamatute arv töölehe kohta, et hoida vara ID samas töölehel.
 
 Näiteks on 5001 põhivara ID-d, kolm raamatut on seostatud iga põhivara ID-ga ja iga vararaamat sisestatakse samasse sisestamiskihti. Käivitate kulumi kolmel järestikusel kuul ilma summeerimata.  Kulumi tööleht luuakse pakett-töö kaudu ja süsteem loob seitse töölehte, millel on 667 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Tulemuseks on 2001 raamatut. Seetõttu on kolme kuu järel samal töölehel sama vara ID-ga 6003 töölehe rida. Süsteem loob ka ühe töölehe, millel on 332 põhivara ID-d ja kolm raamatut iga põhivara ID kohta. Kolme kuu pärast on kokku 2988 rida.
 
-> [!Note] 
+> [!NOTE] 
 > Kui parameeter **Summeri kulum** on kulumisoovituse loomisel sisse lülitatud, ei ole välja **Raamatute arv töölehe kohta - kulumisoovitus** väärtusel mingit mõju. Sel juhul on raamatute arv töölehe kohta 6000, mis on sisemine määratletud piir.
 
 

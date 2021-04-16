@@ -2,11 +2,9 @@
 title: Põhivara väärtusmudeli ja kulumiraamatu ühendamine
 description: 'Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni: väärtusmudelid ja kulumiraamatud. Rakenduses Microsoft Dynamics 365 for Operations (1611) on väärtusmudeli ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat.'
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26409b6416a5b4e93ccd051b1625633ea12e22ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212465"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826734"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Põhivara väärtusmudeli ja kulumiraamatu ühendamine
 
@@ -34,9 +32,8 @@ Uued raamatu funktsioonid põhinevad varasema väärtusmudeli funktsioonidel, ku
 ## <a name="setup"></a>Häälestus
 Vaikimisi sisestavad raamatud nii pearaamatusse (PR) kui ka põhivara alammoodulisse. Raamatutel on uus valik **Pearaamatusse sisestamine**, mis võimaldab teil keelata PR-sse sisestamise ja sisestada ainult põhivara alammoodulisse. See funktsioon sarnaneb kulumiraamatute varasemale sisestamise käitumisele. Töölehe nimede seadistusel on uus sisestamiskiht, mille nimetus on Pole. Sisestamiskiht lisati spetsiifiliselt põhivara kannetele. Sisestamaks kandeid raamatutele, mis ei sisesta pearaamatusse, peate kasutama töölehe nime, mille sisestamiskiht on määratud valikul **Pole**.
 
-|                                                  |                                 |                                 |                                                         |
+| &nbsp;                                           | Kulumiraamat               | Väärtusmudel                     | Raamat (Uus)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-|                                                  | Kulumiraamat               | Väärtusmudel                     | Raamat (Uus)                                              |
 | Pearaamatusse sisestamine                                   | Mitte kunagi                           | Alati                          | Valik pearaamatusse sisestamiseks                                |
 | Sisestamiskihid                                   | Pole kohaldatav                  | 3: Praegune, Toimingud ja Maks | 11: Praegune, Toimingud, Maks, 7 kohandatud kihti ja Pole |
 | Töölehe nimed                                    | Kulumiraamatu töölehtede nimed | PR – töölehe nimed              | PR – töölehe nimed                                      |
@@ -46,9 +43,8 @@ Vaikimisi sisestavad raamatud nii pearaamatusse (PR) kui ka põhivara alammoodul
 ## <a name="processes"></a>Protsessid
 Protsessid kasutavad nüüd ühist lehte. Mõned protsessid on lubatud ainult juhul, kui valik **Pearaamatusse sisestamine** on raamatu seadistuses määratud valikule **Ei**.
 
-|                                |                           |                     |                                          |
+| &nbsp;                                           | Kulumiraamat               | Väärtusmudel                     | Raamat (Uus)                                              |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
-|                                | Kulumiraamat         | Väärtusmudel         | Raamat (Uus)                               |
 | Kande kirje              | Kulumiraamatu tööleht | Põhivara tööleht | Põhivara tööleht                      |
 | Lisakulum             | Lubatud                   | Pole lubatud         | Lubatud                                  |
 | Kustuta kannete ajalugu | Lubatud                   | Pole lubatud         | Lubatud, kui te ei sisestata pearaamatusse |
@@ -57,9 +53,8 @@ Protsessid kasutavad nüüd ühist lehte. Mõned protsessid on lubatud ainult ju
 ## <a name="inquiries-and-reports"></a>Päringud ja aruanded
 Päringud ja aruanded toetavad kõiki raamatuid. Aruanded, mis ei ole lisatud järgmisesse tabelisse, toetasid varasemalt nii kulumiraamatuid kui ka väärtusmudeleid ja toetavad nüüd jätkuvalt kõiki raamatu tüüpe. Väli **Sisestamiskiht** on lisatud ka aruannetesse, et saaksite hõlpsamalt tuvastada kande sisestused.
 
-|                                       |                                |                          |                          |
+| &nbsp;                                           | Kulumiraamat               | Väärtusmudel                     | Raamat (Uus)                                              |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
-|                                       | Kulumiraamat              | Väärtusmudel              | Raamat (Uus)               |
 | Päringud                             | Kulumiraamatu kanded | Põhivarakanded | Põhivarakanded |
 | Põhivara aruanne                 | Pole lubatud                    | Lubatud                  | Lubatud                  |
 | Põhivara alus                     | Lubatud                        | Pole lubatud              | Lubatud                  |
