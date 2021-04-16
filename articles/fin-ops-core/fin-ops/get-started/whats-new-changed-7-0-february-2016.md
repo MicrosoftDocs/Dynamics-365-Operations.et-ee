@@ -2,7 +2,6 @@
 title: Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics AX 7.0 uusi või muutunud funktsioone. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5631f65ab0a687671320dc1649bc83946074dc85
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6539bf6acf0216f1491cbf852f2c9a7063fbe26e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566606"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752862"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 

@@ -2,7 +2,6 @@
 title: ER-i sihtkoha tüübi e-post
 description: Selles teemas selgitatakse, kuidas konfigureerida meilisihtkohta iga elektroonilise aruandluse (ER) vormingu komponendi FOLDER või FILE jaoks.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a8ee5c16e2292481e24ada4853eed9a6824ef2d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562018"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753500"
 ---
 # <a name="email-er-destination-type"></a>ER-i sihtkoha tüübi e-post
 

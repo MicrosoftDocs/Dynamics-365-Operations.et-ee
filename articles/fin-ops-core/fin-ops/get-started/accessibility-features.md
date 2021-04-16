@@ -2,7 +2,6 @@
 title: Hõlbustusfunktsioonid
 description: Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega kasutajaid.
 author: TLeforMicrosoft
-manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 45395113944af6f02d0afb67284dc0d42bdedca4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562431"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744119"
 ---
 # <a name="accessibility-features"></a>Hõlbustusfunktsioonid
 
@@ -53,7 +52,7 @@ Igale lehel esitatud tegevusele saab juurdepääsu klaviatuurilt, kasutades tabe
 
 Soovite käivitada tegevuse **Meiliteatise logi**, mis asub toimingupaani vahekaardil **Müügitellimus** grupis **Meiliteatis**.
 
-![Meiliteatise logitegevus toimingupaanil](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "„Meiliteatise logitegevus" toimingupaanil")
+![Meiliteatise logitegevus toimingupaanil](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "„Meiliteatise logitegevus&quot; toimingupaanil")
 
 Üks võimalus on kasutada klaviatuuri. Vajutage klahvikombinatsiooni Ctrl + F6, et nihutada fookus tegevuspaanile ja vajutage seejärel korduvalt tabeldusklahvi (TAB), et liikuda läbi kõigi vahekaartide ja tegevuste, kuni fookus on tegevusel **Meiliteatise logi**.
 
@@ -79,7 +78,7 @@ Süsteemi tavapärasel igapäeval kasutamisel ei ole tavapäraste ülesannete t�
 
 Siiski võib juhtuda, et mõned väljad, mida kasutate tihti teatud ülesannete täitmiseks, ei ole vaikimisi tabeldusjärjestusse lisatud. Sellisel juhul, kui kasutate Windowsi jutustajat, saate nendele väljadele juurdepääsu saamiseks ja nende sisu kontrollimiseks kasutada Windowsi jutustaja klaviatuuri tegevusi. Teise võimalusena saate lehel **Suvandid** lülitada sisse suvandi **Täiustatud tabeldusjärjestus**. See suvand lisab kõik redigeeritavad ja kirjutuskaitstud väljad tabeldusjärjestusse. Seejärel saate kasutada lehe isikupärastamist, et luua kohandatud tabeldusjärjestus ja jätta välja väljad, mida ei ole tabeldusjärjestusse vaja. Lisateavet isikupärastamise kohta vt teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
-![Suvand "Täiustatud tabeldusjärjestus"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Suvand „Täiustatud tabeldusjärjestus"")
+![Suvand "Täiustatud tabeldusjärjestus"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Suvand „Täiustatud tabeldusjärjestus&quot;")
 
 ## <a name="form-patterns"></a>Vormi mustrid
 

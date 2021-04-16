@@ -2,7 +2,6 @@
 title: Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 description: Selles teemas selgitatakse, kuidas kontrollida konfigureeritud elektroonilise aruandluse (ER) komponente, et vältida tekkida võivaid käitusaja probleeme.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574121"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753836"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 
@@ -666,19 +665,19 @@ Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eira
 
 ![Käitusaja tõrge, mis ilmnes vormingu vastendamise käitamise ajal kujundaja lehel](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Automaatne lahendamine
+### <a name="automatic-resolution&quot;></a>Automaatne lahendamine
 
 Selle probleemi automaatseks lahendamiseks pole saadaval ühtegi valikut.
 
-### <a name="manual-resolution"></a>Käsitsi lahendamine
+### <a name=&quot;manual-resolution&quot;></a>Käsitsi lahendamine
 
-#### <a name="option-1"></a>Suvand 1
+#### <a name=&quot;option-1&quot;></a>Suvand 1
 
 Eemaldage lipp **Vahemälu** andmeallikalt **Hankija**. Andmeallikas **FilteredVendor** muutub siis käivitatavaks, kuid andmeallikas **Hankija**, millele viidatakse tabelis VendTable, pääsetakse ligi iga kord, kui andmeallikas **FilteredVendor** kutsutakse.
 
-#### <a name="option-2"></a>Suvand 2
+#### <a name=&quot;option-2&quot;></a>Suvand 2
 
-Muutke andmeallika **FilteredVendor** avaldis valikult `FILTER(Vendor, Vendor.AccountNum="US-101")` valikule `WHERE(Vendor, Vendor.AccountNum="US-101")`. Sellisel juhul andmeallikas **Hankija**, millele viidatakse tabelis VendTable, pääseb ligi ainult andmeallika **Hankija** esmakordse kutsumise ajal. Samas kirjete valimine tehakse mälus. Seetõttu võib selline lähenemine põhjustada kehva jõudluse.
+Muutke andmeallika **FilteredVendor** avaldis valikult `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` valikule `WHERE(Vendor, Vendor.AccountNum="US-101")`. Sellisel juhul andmeallikas **Hankija**, millele viidatakse tabelis VendTable, pääseb ligi ainult andmeallika **Hankija** esmakordse kutsumise ajal. Samas kirjete valimine tehakse mälus. Seetõttu võib selline lähenemine põhjustada kehva jõudluse.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Puuduv sidumine
 

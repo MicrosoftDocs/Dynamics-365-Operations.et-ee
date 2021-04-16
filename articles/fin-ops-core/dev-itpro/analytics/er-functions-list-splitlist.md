@@ -2,8 +2,7 @@
 title: ER-i funktsioon SPLITLIST
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni SPLITLIST.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559134"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745565"
 ---
 # <a name="splitlist-er-function"></a>ER-i funktsioon SPLITLIST
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559134"
 
 Funktsioon `SPLITLIST` jaotab määratud loendi alamloenditeks (või partiideks), millest igaüks sisaldab määratud kirjete arvu. See tagastab seejärel tulemuse uue *kirjete loendi* väärtusena, mis koosneb partiidest.
 
-## <a name="syntax"></a>Süntaks
+## <a name="syntax-1"></a>Süntaks 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Süntaks 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumendid
@@ -44,6 +49,10 @@ Andmetüübi *Kirjete loend* andmeallika kehtiv tee.
 `number`: *täisarv*
 
 Maksimaalne kirjete arv partii kohta.
+
+`on-demand reading flag`: *kahendmuutuja*
+
+*Loogiline* väärtus, mis täpsustab, kas alamloendi elemendid peaksid olema loodud nõudmisel.
 
 ## <a name="return-values"></a>Tagastusväärtused
 
@@ -62,6 +71,8 @@ Tagastatav partiide loend sisaldab järgmisi elemente.
 - **BatchNumber:** *täisarv*
 
     Praeguse partii number tagastatud loendis.
+
+Kui nõudmisel lugemise lipp on seatud väärtusele **Tõene**, luuakse taotluse korral alamloendid, mis võimaldab mälutarbimise vähendamist, kuid võib põhjustada jõudluse hõivamise, kui elemente ei kasutata järjestikku.
 
 ## <a name="example"></a>Näide
 

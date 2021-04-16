@@ -1,8 +1,7 @@
 ---
 title: Uued tegevusjuhised (veebruar 2016)
-description: Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.  Avaldatud teekide hulka kuuluvad Microsoft Dynamics 365 for Operationsi APQC ühendatud teek (veebruar 2016) ja Alustamine (veebruar 2016).
+description: Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teekidesse 2016. aasta veebruari seisuga.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9caad79ab5c5b8796116f54ceead0097481c42e9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 87c7b92b31456afc4c44427949bb2ae4dbbbf5c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566548"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749798"
 ---
 # <a name="new-task-guides-february-2016"></a>Uued tegevusjuhised (veebruar 2016)
 
