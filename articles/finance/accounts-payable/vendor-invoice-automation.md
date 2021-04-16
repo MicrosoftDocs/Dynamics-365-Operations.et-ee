@@ -2,11 +2,9 @@
 title: Arve automatiseerimine skannitud dokumentide korral
 description: Selles teemas selgitatakse funktsioone, mis on saadaval hankija arvete täielikuks automatiseerimiseks, isegi manuseid sisaldavate arvete puhul.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05a796e7ea520e7f25be9e0a1f766b08f75254bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239647"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841233"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Arve automatiseerimine skannitud dokumentide korral
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse funktsioone, mis on saadaval hankija arvete täielikuks automatiseerimiseks, isegi manuseid sisaldavate arvete puhul.
+Selles teemas selgitatakse andmeüksusi, mis on saadaval hankijaarvete täielikuks automatiseerimiseks, sh manuseid sisaldavad arved.
 
 Organisatsioonid, kus soovitakse ostureskontro protsesse sujuvamaks muuta, käsitlevad arvete töötlemist sageli ühe peamise protsessivaldkonnana, mis peaks olema tõhusam. Paljudel juhtudel annavad need organisatsioonid paberarvete töötlemise üle optilise märgituvastusega (OCR) tegelevatele teenusepakkujatele. Siis saavad nad masinloetavad arve metaandmed koos iga arve skannitud kujutisega. Automatiseerimisel abistamiseks koostatakse siis viimase etapi jaoks lahendus, mis võimaldab neid üksusi siis arveldussüsteemis kasutada. Selle viimase etapi automatiseerimine on nüüd valmislahenduses lubatud, kasutades arve automatiseerimislahendust.
 
@@ -90,9 +88,9 @@ Andmepakettide kaudu imporditud arved saab seostada juriidilise isikuga, mille j
 
 Stsenaariumide korral, kus hankija arved tulevad Finance and Operationsisse integreerimise kaudu, peab olema Ostureskontro töörühma liikmel lihtne võimalus erandite või nurjunud arvete töötlemiseks ja ootel arvete loomiseks nurjunud arvetest. See hankija arvete erandite töötlemine on nüüd Finance and Operationsi osa.
 
-### <a name="exceptions-list-page"></a>Erandite loendileht
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Hankijaarved, mille loendilehele importimine ei õnnestunud
 
-Uus arve erandite loendileht on saadaval jaotises **Ostureskontro** > **Arved** > **Impordi nurjumised** > **Hankija arved, mille importimine nurjus**. Sellel lehel kuvatakse kõik hankija arve päisekirjed hankija arve päise andmeüksuse vahetabelist. Pange tähele, et saate vaadata samu kirjeid tööruumis **Andmehaldus**, kus saate teha ka samad toimingud, mis on antud erandi käsitlemise funktsioonis. Kuid kasutajaliides, mida erandi käsitlemise funktsioon pakub, on optimeeritud funktsionaalse kasutaja jaoks.
+Uus arve erandite loendileht on saadaval jaotises **Ostureskontro** > **Arved** > **Impordi nurjumised** > **Hankija arved, mille importimine nurjus**. Sellel lehel kuvatakse kõik hankija arve päisekirjed hankija arve päise andmeüksuse vahetabelist. Pange tähele, et saate vaadata samu kirjeid tööruumis **Andmehaldus**. Tööruumis **Andmehaldus** saate teha ka samu toiminguid, mis on antud erandi käsitlemise funktsioonis. Erandite käsitlemise funktsioon on optimeeritud funktsiooni kasutaja jaoks, mis lihtsustab kasutamist.
 
 ![Erandite loendileht](media/vendor_invoice_automation_02.png)
 
@@ -118,24 +116,17 @@ See loendileht sisaldab järgmisi välju, mis tulevad sisse voo kaudu.
 Loendilehel on ka eelvaatepaan, mida saab kasutada järgmiselt.
 
 + Kogu tõrketeate kuvamiseks, et tabelis poleks vaja veergu **Tõrketeade** laiendada.
-+ Kogu arve manuste loendi kuvamiseks, kui arvega tuli kaasa manuseid.
 
 Loendileht toetab järgmisi tegevusi.
 
 + **Redigeerimine** – avage erandi kirje redigeerimisrežiimis, et saaksite probleemid kõrvaldada.
 + **Valikud** – juurdepääs loendilehtedel olevatele standardvalikutele. Saate kasutada valikut **Lisa tööruumi** erandite loendilehe kinnitamiseks tööruumi loendi või paanina.
 
-### <a name="exception-details-page"></a>Erandi üksikasjade leht
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Hankijaarved, mille üksikasjade lehele importimine ei õnnestunud
 
-Kui käivitate redigeerimisrežiimi, kuvatakse probleemidega arve erandi üksikasjade leht. Kui on manuseid, kuvatakse arve ja vaikemanus erandi üksikasjade lehel kõrvuti.
+Kui käivitate redigeerimisrežiimi, avaneb **väljaminevate arvete hankijaarvete leht, mille üksikasjade importimine ebaõnnestus**. Kui on probleeme arvega, millel on manus, siis manust ei kuvata. Manus tuleb uuesti arvele lisada.
 
-![Erandi üksikasjade leht](media/vendor_invoice_automation_03.png)
-
-Eelneval illustratsioonil ei olnud sisse tulnud hankija arve päises ridu. Seetõttu on ridade osa tühi.
-
-Erandi üksikasjade leht toetab järgmist toimingut.
-
-+ **Ootel arve loomine** – kui olete erandi töötlemise käigus arvel olevad probleemid kõrvaldanud, võite klõpsata seda nuppu ootel arve loomiseks. Ootel arvete loomine toimub taustal (asünkroonse toiminguna).
+Lehel **hankijaarvete kohta, mille üksikasjade importimine ebaõnnestus**, saate luua ootel arve. Kui olete erandi töötlemise käigus arvel olevad probleemid kõrvaldanud, valige nupp **Ootel arve loomine** ootel arve loomiseks. Ootel arve luuakse taustal. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Jagatud teenus võrreldes organisatsioonipõhise erandi töötlemisega
 
@@ -187,7 +178,7 @@ Vaikemanuseks saab määrata ainult ühe dokumendi. Pärast dokumendi määramis
 
 Uus nupp, mis on saadaval päringulehtedel **Erandi töötlemine**, **Ootel arve** ja **Arve tööleht**, võimaldab manusevaaturit kuvada või peita.
 
-### <a name="security"></a>Turvalisus
+## <a name="security"></a>Turvalisus
 
 Rollipõhise turvalisuse kaudu juhitakse järgmisi tegevusi manusevaaturis.
 
@@ -212,7 +203,7 @@ Järgmised rollid annavad manusevaaturile kirjutuskaitstud juurdepääsu või lu
 + **Ostureskontro ametnik** ja **Ostureskontro juht** – nendele rollidele määratakse kohustus Hankija arvete haldamine.
 + **Ostureskontro ametnik**, **Ostureskontro juht**, **Ostureskontro tsentraliseeritud maksuametnik** ja **Ostureskontro maksuametnik** – nendele rollidele määratakse kohustus Hankija arve oleku kohta päringu esitamine.
 
-### <a name="invoice-exception-details-page"></a>Arve erandi üksikasjade leht
+### <a name="vendor-invoice-attachment"></a>Hankija arve manused
 
 Järgmised õigused annavad manusevaaturile kirjutuskaitstud juurdepääsu või lugemise/kirjutamise juurdepääsu esiletõstmise, blokeerimise ja kommenteerimise toimingute jaoks.
 

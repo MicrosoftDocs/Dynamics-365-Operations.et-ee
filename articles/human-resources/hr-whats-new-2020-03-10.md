@@ -2,11 +2,9 @@
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (10. märts 2020)
 description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 20. märtsi 2020 uusi või muutunud funktsioone.
 author: andreabichsel
-manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e57e224767a366b4cec3058a81e9be9ee1f5ba92
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 27d9aead663da63b98cba249ef57f1324a145c34
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463714"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790376"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (10. märts 2020)
 

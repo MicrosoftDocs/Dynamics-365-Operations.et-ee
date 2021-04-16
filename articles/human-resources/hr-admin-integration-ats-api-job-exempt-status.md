@@ -2,11 +2,9 @@
 title: Töö vabastuse olek
 description: Selles teemas kirjeldatakse rakenduse Dynamics 365 Human Resources suvandikomplekti Töö vabastuse olek.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1f211002468384227acb2343ed6cbc6ae2a215d1
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4765858f389f28467ae2ac71084c15d2ba0cbe8b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464448"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798293"
 ---
 # <a name="job-exempt-status"></a>Töö vabastuse olek
 

@@ -2,11 +2,9 @@
 title: Rohkem kui arvestatud allahindluse võtmine hankija maksel
 description: See artikkel juhatab teid läbi stsenaariumi, kus skonto võetakse summast, mis on suurem kui algselt arvel olev allahindlus. See stsenaarium võib ilmneda juhul, kui organisatsioon lepib müüjaga kokku arvel väiksema summa maksmises.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a56331f76867aeac0bad0912749d96f959513e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62f2088ff04a0ef5ffe6ffe47b85f47e6957264d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810242"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Rohkem kui arvestatud allahindluse võtmine hankija maksel
 
@@ -38,10 +36,10 @@ Hankija 3051 annab Fabrikamile 4% skontot, kui arve tasutakse seitsme päeva joo
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 12.07.2015 |
-| Skonto summa         | 60,00     |
+| Skonto summa         | 60.00     |
 | Kasuta skontot            | Tavaline    |
 | Võetud skonto          | 0,00      |
 | Skonto summa võtmiseks | 60,00     |

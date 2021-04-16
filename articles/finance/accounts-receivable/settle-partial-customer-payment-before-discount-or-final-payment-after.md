@@ -2,11 +2,9 @@
 title: Osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
 description: See artikkel käsitleb klientidele esitatavate arvete ja maksete tasakaalustamise mõju. Stsenaarium keskendub mõjule alammoodulis, mitte pearaamatus.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250550"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835143"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
 
@@ -48,10 +46,10 @@ Fabrikam müüb kaupu kliendile 4027. Fabrikam pakub skontot 1%, kui arve tasuta
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Kui te ei muuda suvandi **Tasakaalustatav summa** väärtuseks 297,00, erinevad suvandi **Skonto summa** kuvatavad väärtused. Siiski arvestatakse makse sisestamisel skontona 3,00, kuna tasakaalustamine korrigeerib suvandi **Tasakaalustatav summa väärtust** automaatselt teie eest.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
-| Skonto summa         | 10,00     |
+| Skonto summa         | 10.00     |
 | Kasuta skontot            | Tavaline    |
 | Võetud skonto          | 0,00      |
 | Skonto summa võtmiseks | 3,00      |
@@ -73,7 +71,7 @@ Arnie sisestab selle makse. Arve saldo on nüüd 700.00. Kliendile on näha jär
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 0,00      |
@@ -89,10 +87,10 @@ Kui Arnie muudab välja **Kasuta skontot** sätteks **Alati**, tühistatakse sä
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| Field                        | Väärtus     |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
-| Skonto summa         | 7,00      |
+| Skonto summa         | 7.00      |
 | Kasuta skontot            | Alati    |
 | Võetud skonto          | 3,00      |
 | Skonto summa võtmiseks | 7,00      |

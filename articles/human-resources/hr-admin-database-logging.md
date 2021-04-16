@@ -2,11 +2,9 @@
 title: Andmebaasi logimise konfigureerimine ja haldamine
 description: Andmebaasi logimise abil saate jälgida rakenduses Microsoft Dynamics 365 Human Resources tabelite ja väljade muudatusi.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467645"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801331"
 ---
 # <a name="configure-and-manage-database-logging"></a>Andmebaasi logimise konfigureerimine ja haldamine
 
@@ -68,7 +66,22 @@ Jõudluse parandamiseks piirake logikirjeid, valides logimiseks tervete tabelite
 Andmebaasi logimise seadistamiseks saate kasutada viisardit **Andmebaasi muudatuste logimine**. Viisard pakub paindlikku viisi tabelite või väljade logimise seadistamiseks.
 
 1. Avage **Süsteemihaldus > Lingid > Andmebaas > Andmebaasilogi seadistus**. Valige **Uus**, et käivitada viisard **Andmebaasi muudatuste logimine**.
-2. Täitke viisardi juhised.
+2. Valige **Edasi**. 
+3. Viisardi **Tabelite ja väljade** lehel valige tabelid ja väljad, millel soovite andmebaasi logimist toetada ja valige **Edasi**.
+
+   > [!Note]
+   > Andmebaasi logimine ei ole saadaval kõigis inimressursside andmebaasi tabelites. Valides **Näita kõiki tabeleid** loendi all laiendab tabelite ja väljade loendit, et näidata kõiki andmebaasi tabeleid, mille jaoks andmebaasi logimine on kättesaadav, aga see on täieliku andmebaasi tabelite alamkogum.
+
+4. Viisardi **Muutuse tüübid** lehel valige andmeoperatsioonid mille jaoks te soovite iga tabeli ja välja jaoks muudatusi jälgida ja valige **Edasi**. Logimiseks saadavalolevate andmetoimingute kirjeldusi vt järgmisest tabelist.
+5. Lehel **Lõpeta** vaadake tehtud muudatused üle ja valige **Lõpeta**.
+
+| Toiming | Kirjeldus |
+| -- | -- |
+| Jälgi uusi kandeid | Looge logi uutele tabelis loodud kirjetele. |
+| Värskendus | Looge logi tabelikirjete uuenduste jaoks või värskendage tabeli üksikult valitud väljad. Kui valite tabeli uuenduste logimise, luuakse logikirje iga kord, kui uuendatakse mis tahes tabeli kirje välja. Kui valite logi uuendused konkreetsetele väljadele, luuakse logikirje ainult siis, kui neid tabelikirjete välju uuendatakse. |
+| Kustutamine | Looge tabelist kustutatud kirjete logi. |
+| Nimeta võti ümber | Logikirje loomine tabelivõtme ümbernimetamise korral. |
+
 
 ## <a name="clean-up-database-logs"></a>Andmebaasilogide puhastamine
 

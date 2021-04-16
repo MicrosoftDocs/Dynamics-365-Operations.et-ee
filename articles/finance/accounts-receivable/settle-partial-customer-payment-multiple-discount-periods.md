@@ -2,11 +2,9 @@
 title: Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
 description: See artikkel näitab, kuidas mitme allahindlusperioodi korral osalisi kliendi makseid tasakaalustatakse.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241710"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835096"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
 
@@ -56,7 +54,7 @@ Arnie saab vaadata seda kannet lehel **Kliendi kanded**.
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas. Kui te ei muuda suvandi **Tasakaalustatav summa** väärtuseks **294,00**, erinevad suvandi **Skonto summa** kuvatavad väärtused. Siiski arvestatakse makse sisestamisel skontona 6,00, kuna tasakaalustamine korrigeerib suvandi **Tasakaalustatav summa** väärtust automaatselt teie eest.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Skonto kuupäev           | 30.06.2015 |
 | Skonto summa         | 20,00     |
@@ -75,7 +73,7 @@ Pärast Arnie makse sisestamist on arve saldo 700,00.
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 30,00     |

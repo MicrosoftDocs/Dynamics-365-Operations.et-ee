@@ -1,12 +1,10 @@
 ---
-title: Elektroonilise arvelduse lisandmooduli teenuse halduse kasutamise alustamine
-description: Selles teemas selgitatakse, kuidas elektroonilise arvelduse lisandmooduli kasutamist alustada.
+title: Elektroonilise arvelduse teenusehaldusega alustamine
+description: Selles teemas selgitatakse, kuidas elektroonilise arveldusega alustada.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592522"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840144"
 ---
-# <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Elektroonilise arvelduse lisandmooduli teenuse halduse kasutamise alustamine
+# <a name="get-started-with-electronic-invoicing-service-administration"></a>Elektroonilise arvelduse teenusehaldusega alustamine
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -46,7 +42,7 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 - Te peate mooduli Funktsioonihaldus kaudu oma RCS-i konto jaoks globaliseerimisfunktsiooni aktiveerima. Lisateavet vt teemast [Regulatory Configuration Services (RCS) – globaliseerimisfunktsioonid](rcs-globalization-feature.md).
 - Peate looma Azure'is võtmehoidla ja salvestamiskonto. Lisateavet vt teemast [Azure'i salvestuskonto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
 
-## <a name="install-the-add-on-for-microservices-in-lifecycle-services"></a>Teenuses Lifecycle Services mikroteenuste jaoks lisandmooduli installimine
+## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installi Lifecycle Services-is lisandmodul mikroteenuste jaoks
 
 1. Logige oma LCS-i kontole sisse.
 2. Valige paan **Eelvaate funktsiooni haldamine**.
@@ -54,13 +50,14 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 4. Veenduge, et suvandi **Funktsiooni eelversioon on lubatud** väärtuseks oleks valitud **Jah**.
 5. Valige LCS-i armatuurlaudal oma LCS-i juurutusprojekt. LCS-projekt peab töötama.
 7. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
-8. Valige **e-arveteenused** ja sisestage **AAD-rakenduse ID** väljale **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
+8. Valige **e-arveldusteenused**.
+9. Väljale **AAD-rakenduse ID** sisestage **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
 10. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
 11. Tingimustega nõustumiseks valige märkeruut.
 12. Valige **Installi**.
 
 
-## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>RCS-i elektroonilise arvelduse lisandmooduliga integratsiooni parameetrite seadistamine
+## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Määrake parameetrid RCS integratsioonile koos Elekrtoonilise arveldusega
 
 1. Logige oma RCS-i kontole sisse.
 2. Tööruumis **Elektrooniline aruandlus** jaotisest **Seotud lingid** valige suvand **Elektroonilise aruandluse parameetrid**.
@@ -74,58 +71,56 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
     | Lääne-EL                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
 4. Veenduge, et välja **Rakenduse ID** väärtuseks oleks määratud **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. See väärtus ei muutu.
-5. Sisestage väljale **LCS-i keskkonna ID** oma LCS-i tellimuse konto ID.
+5. Väljale **LCS-i keskkonna id** sisestage oma LCS-i keskkonna ID.
 6. Valige **Salvesta** ja sulgege seejärel leht.
 
-## <a name="create-key-vault-secret"></a>Võtmehoidla saladuse loomine
+## <a name="create-key-vault-references"></a>Võtmehoidla viite loomine
 
 1. Logige oma RCS-i kontole sisse.
-2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkond** valige **Elektroonilise arvelduse lisandmooduli** plaan.
+2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkond** valige paan **Elektrooniline arveldus**.
 3. Valige lehe **Keskkondade seadistused** toimingupaanil suvand **Teenusekeskkond** ja seejärel valige **Võtmehoidla parameetrid**.
-4. Võtmehoidla saladuse loomiseks valige **Uus**.
-5. Sisestage väljale **Nimi** võtmehoidla saladuse nimi. Väljale **Kirjeldus** sisestage kirjeldus.
-6. Kleepige väljale **Võtmehoidla URL** Azure'i võtmehoidlast saladus.
+4. Võtmehoidla viite loomiseks valige **Uus**.
+5. Väljale **Nimi** sisestage võtmehoidla viite nimi. Väljale **Kirjeldus** sisestage kirjeldus.
+6. Väljale **Võtmehoidla URL** kleepige võtmehoidja saladus Azure'i võtmehoidlast. Lisateavet vt teemast [Azure'i salvestuskonto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
 7. Valige käsk **Salvesta**.
 
 ## <a name="create-storage-account-secret"></a>Salvestuskonto saladuse loomine
 
-1. Minge **Süsteemihaldus** > **Seadistus** > **Võtme hoidla parameetritesse** ja valige võtme hoidla saladus.
-2. Jaotises **Sertifikaadid** valige suvand **Lisa**.
-3. Sisestage **Nimi** väljale ladustamiskonto saladuse nimi ja kirjeldus **Kirjeldus** väljale.
-4. Tehke väljal **Tüüp** valik **Sertifikaat**.
-5. Valige **Salvesta** ja sulgege seejärel leht.
+1. Lehel **Keskkonna häälestus** Tegevuspaanil, valige **Teenusekeskkond** > **Võtmehoidla parameetrid**.
+2. Valige **Võtmehoidla viide** ja jaotisest **Sertifikaadid** valige **Lisa**.
+3. Väljal **Nimi** sisesta salvestuskonto saladuse nimi. Lisateavet vt teemast [Azure'i salvestuskonto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
+4. Väljale **Kirjeldus** sisestage kirjeldus.
+5. Väljalt **Tüüp** valige **Vali**.
+6. Valige **Salvesta** ja sulgege seejärel leht.
 
 ## <a name="create-a-digital-certificate-secret"></a>Digitaalserdi saladuse loomine
 
-1. Minge **Süsteemihaldus** > **Seadistus** > **Võtme hoidla parameetritesse** ja valige võtme hoidla saladus.
-2. Jaotises **Sertifikaadid** valige suvand **Lisa**.
-3. Sisestage **Nimi** väljale ladustamiskonto saladuse nimi ja kirjeldus **Kirjeldus** väljale.
-4. Tehke väljal **Tüüp** valik **Sertifikaat**.
-5. Valige **Salvesta** ja sulgege seejärel leht.
-
-## <a name="create-an-electronic-invoicing-add-on-environment"></a>Elektroonilise arvelduse lisandmooduli keskkonna loomine
-
-1. Logige oma RCS-i kontole sisse.
-2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkond** valige **Elektroonilise arvelduse lisandmooduli** plaan.
+1. Lehelt **Keskkonna seadistused** tegevuspaanil valige **Teenusekeskkond** ja seejärel valige **Võtmehoidla parameetrid**.
+2. Valige **Võtmehoidla viide** ja seejärel jaotisest **Sertifikaadid** valige **Lisa**.
+3. Väljal **Nimi** sisestage digitaalse sertifikaadi saladuse nimi. Lisateavet vt teemast [Azure'i salvestuskonto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
+4. Väljale **Kirjeldus** sisestage kirjeldus.
+5. Tehke väljal **Tüüp** valik **Sertifikaat**.
+6. Valige **Salvesta** ja sulgege seejärel leht.
 
 ## <a name="create-a-service-environment"></a>Teenusekeskkonna loomine
 
-1. Lehel **Keskkondade seadistused** valige toimingupaanil suvand **Teenusekeskkond**.
-2. Valige uue teenusekeskkonna loomiseks **Uus**.
-3. Sisestage väljale **Nimi** e-arvelduse keskkonna nimi. Väljale **Kirjeldus** sisestage kirjeldus.
-4. Valige väljal **Salvestuskonto SAS-tõendi saladus** salvestuskonto juurdepääsu autentimiseks kasutatava serdi nimi.
-5. Valige jaotises **Kasutajad** käsk **Lisa**, et lisada kasutaja, kellel on lubatud keskkonna kaudu elektroonilisi arveid edastada ning salvestuskontoga ühendus luua.
-6. Sisestage väljale **Kasutaja ID** kasutaja pseudonüüm. Sisestage väljale **E-post** kasutaja e-posti aadress.
-7. Valige käsk **Salvesta**.
-8. Kui teie riigi-/regioonipõhiste arvete puhul on digiallkirjade rakendamiseks vaja serdiahelat, valige toimingupaanil suvand **Võtmehoidla parameetrid** ja seejärel valige **Serdiahel** ning toimige järgmiselt.
-
+1. Logige oma RCS-i kontole sisse.
+2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Keskkond** valige paan **Elektrooniline arveldus**.
+3. Lehel **Keskkondade seadistused** valige toimingupaanil suvand **Teenusekeskkond**.
+4. Valige uue teenusekeskkonna loomiseks **Uus**.
+5. Sisestage väljale **Nimi** e-arvelduse keskkonna nimi. Väljale **Kirjeldus** sisestage kirjeldus.
+6. Valige väljal **Salvestuskonto SAS-tõendi saladus** salvestuskonto juurdepääsu autentimiseks kasutatava serdi nimi.
+7. Valige jaotises **Kasutajad** käsk **Lisa**, et lisada kasutaja, kellel on lubatud keskkonna kaudu elektroonilisi arveid edastada ning salvestuskontoga ühendus luua.
+8. Sisestage väljale **Kasutaja ID** kasutaja pseudonüüm. Sisestage väljale **E-post** kasutaja e-posti aadress.
+9. Valige käsk **Salvesta**.
+10. Kui teie riigi-/regioonipõhiste arvete puhul on digiallkirjade rakendamiseks vaja serdiahelat, valige toimingupaanil suvand **Võtmehoidla parameetrid** ja seejärel valige **Serdiahel** ning toimige järgmiselt.
     1. Serdiahela loomiseks valige **Uus**.
     2. Sisestage väljale **Nimi** serdiahela nimi. Väljale **Kirjeldus** sisestage kirjeldus.
     3. Valige jaotises **Serdid** käsk **Lisa**, et ahelale sert lisada.
     4. Kasutage nuppu **Üles** või **Alla**, et ahelas serdi asukohta muuta.
     5. Valige **Salvesta** ja sulgege seejärel leht.
     6. Sulgege leht.
-9. Valige lehe **Teenusekeskkond** toimingupaanil käsk **Avalda**, et keskkond pilves avaldada. Välja **Olek** väärtuseks määratakse **Avaldatud**.
+11. Valige lehe **Teenusekeskkond** toimingupaanil käsk **Avalda**, et keskkond pilves avaldada. Välja **Olek** väärtuseks määratakse **Avaldatud**.
 
 ## <a name="create-a-connected-application"></a>Ühendatud rakenduse loomine
 
@@ -144,12 +139,12 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 3. Valige väljal **Teenusekeskkond** teenusekeskkond.
 4. Valige **Salvesta** ja sulgege seejärel leht.
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance-and-supply-chain-management"></a>Elektroonilise arvelduse lisandmooduli integratsiooni seadistamine teenustes Finance ja Supply Chain Management
+## <a name="set-up-electronic-invoicing-integration-in-finance-and-supply-chain-management"></a>Elektroonilise arvelduse integratsiooni seadistamine Finantsis ja Supply Chain Management -is
 
-### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>Elektroonilise arvelduse lisandmooduli integratsioonifunktsiooni sisselülitamine
+### <a name="turn-on-the-electronic-invoicing-integration-feature"></a>Elektroonilise arvelduse integratsioonifunktsiooni sisselülitamine
 
 1. Logige oma teenuse Finance või Supply Chain Management eksemplari sisse.
-2. Otsige tööruumis **Funktsioonihaldus** üles funktsioon **Elektroonilise arvelduse lisandmooduli integratsioon**. Kui seda funktsiooni lehel ei kuvata, valige käsk **Kontrolli värskendusi**.
+2. Tööruumis **Funktsioonihaldus** otsige üles funktsioon **Elektroonilise arvelduse integratsioon**. Kui seda funktsiooni lehel ei kuvata, valige käsk **Kontrolli värskendusi**.
 3. Valige funktsioon ja seejärel valige **Luba kohe**.
 
 ### <a name="set-up-the-service-endpoint-url"></a>Teenuse lõpp-punkti URL-i seadistamine
@@ -164,8 +159,18 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
     | Põhja-EL                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
     | Lääne-EL                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
-3. Sisestage väljale **Keskkond** elektroonilise arvelduse lisandmooduli keskkonna nimi.
+3. Väljale **Keskkond** sisestage teenusekeskkonna nimi, mis on avaldatud Elektroonilises arvelduses.
 4. Valige **Salvesta** ja sulgege seejärel leht.
 
+### <a name="enable-flighting-keys"></a>Lennuvõtmete lubamine
+
+Lubage Lennuvõtmed Microsoft Dynamics 365 Finance -ile või Microsoft Dynamics 365 Supply Chain Management versioonidele 10.0.17 või varasematele. 
+1. Käivitage järgmine SQL-i käsk.
+
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BusinessDocumentSubmissionServiceEnabled', 1)
+    
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('ElectronicInvoicingServiceIntegrationFeature', 1)
+
+2. Käivitage käsk IISreset kõigi AOS-ite jaoks.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
