@@ -2,7 +2,6 @@
 title: Rea kauba töövoogude konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida rea kauba töövoo elementi.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -15,44 +14,44 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46de2bc3683ed907f1879afc13c60adce261d402
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 84da7080542b4cc2ecc487b0a1331482fb69b998
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567011"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747901"
 ---
-# <a name="configure-line-item-workflows"></a><span data-ttu-id="d1ffb-103">Rea kauba töövoogude konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="d1ffb-103">Configure line-item workflows</span></span>
+# <a name="configure-line-item-workflows"></a><span data-ttu-id="ec122-103">Rea kauba töövoogude konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ec122-103">Configure line-item workflows</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d1ffb-104">Selles teemas selgitatakse, kuidas konfigureerida rea kauba töövoo elementi.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-104">This topic explains how to configure a line-item workflow element.</span></span>
+<span data-ttu-id="ec122-104">Selles teemas selgitatakse, kuidas konfigureerida rea kauba töövoo elementi.</span><span class="sxs-lookup"><span data-stu-id="ec122-104">This topic explains how to configure a line-item workflow element.</span></span>
 
-<span data-ttu-id="d1ffb-105">Töövooredaktoris rea kauba töövoo elemendi konfigureerimiseks paremklõpsake elementi ja seejärel klõpsake valikut **Atribuudid**, et avada leht **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-105">To configure a line-item workflow element, in the workflow editor, right-click the element, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="d1ffb-106">Seejärel kasutage rea kauba töövoo elemendi atribuutide konfigureerimiseks järgmisi protseduure.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-106">Then use the following procedures to configure the properties of the line-item workflow element.</span></span>
+<span data-ttu-id="ec122-105">Töövooredaktoris rea kauba töövoo elemendi konfigureerimiseks paremklõpsake elementi ja seejärel klõpsake valikut **Atribuudid**, et avada leht **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="ec122-105">To configure a line-item workflow element, in the workflow editor, right-click the element, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="ec122-106">Seejärel kasutage rea kauba töövoo elemendi atribuutide konfigureerimiseks järgmisi protseduure.</span><span class="sxs-lookup"><span data-stu-id="ec122-106">Then use the following procedures to configure the properties of the line-item workflow element.</span></span>
 
-## <a name="name-the-line-item-workflow-element"></a><span data-ttu-id="d1ffb-107">Rea kauba töövoo elemendile nime andmine</span><span class="sxs-lookup"><span data-stu-id="d1ffb-107">Name the line-item workflow element</span></span>
+## <a name="name-the-line-item-workflow-element"></a><span data-ttu-id="ec122-107">Rea kauba töövoo elemendile nime andmine</span><span class="sxs-lookup"><span data-stu-id="ec122-107">Name the line-item workflow element</span></span>
 
-<span data-ttu-id="d1ffb-108">Tehke rea kauba töövoo elemendile nime sisestamiseks järgmist.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-108">Follow these steps to enter a name for the line-item workflow element.</span></span>
+<span data-ttu-id="ec122-108">Tehke rea kauba töövoo elemendile nime sisestamiseks järgmist.</span><span class="sxs-lookup"><span data-stu-id="ec122-108">Follow these steps to enter a name for the line-item workflow element.</span></span>
 
-1. <span data-ttu-id="d1ffb-109">Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-109">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="d1ffb-110">Sisestage väljale **Nimi** rea kauba töövoo elemendi jaoks kordumatu nimi.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-110">In the **Name** field, enter a unique name for the line-item workflow element.</span></span>
+1. <span data-ttu-id="ec122-109">Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.</span><span class="sxs-lookup"><span data-stu-id="ec122-109">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="ec122-110">Sisestage väljale **Nimi** rea kauba töövoo elemendi jaoks kordumatu nimi.</span><span class="sxs-lookup"><span data-stu-id="ec122-110">In the **Name** field, enter a unique name for the line-item workflow element.</span></span>
 
-## <a name="specify-whether-the-same-workflow-is-used-to-process-all-line-items"></a><span data-ttu-id="d1ffb-111">Määrake, kas sama töövoogu kasutatakse kõigi rea kaupade töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-111">Specify whether the same workflow is used to process all line items</span></span>
+## <a name="specify-whether-the-same-workflow-is-used-to-process-all-line-items"></a><span data-ttu-id="ec122-111">Määrake, kas sama töövoogu kasutatakse kõigi rea kaupade töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ec122-111">Specify whether the same workflow is used to process all line items</span></span>
 
-<span data-ttu-id="d1ffb-112">Järgige neid etappe, et määrata, kas sama töövoogu kasutatakse dokumendi kõigi rea kaupade töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-112">Follow these steps to specify whether the same workflow is used to process all the line items on a document.</span></span>
+<span data-ttu-id="ec122-112">Järgige neid etappe, et määrata, kas sama töövoogu kasutatakse dokumendi kõigi rea kaupade töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ec122-112">Follow these steps to specify whether the same workflow is used to process all the line items on a document.</span></span>
 
-1. <span data-ttu-id="d1ffb-113">Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-113">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="d1ffb-114">Kui sama töövoog peab töötlema dokumendi kõiki rea kaupu, klõpsake valikut **Kutsu üksik töövoog kõigile rea kaupadele**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-114">If the same workflow should process all the line items on a document, click **Invoke a single workflow for all line-items**.</span></span> <span data-ttu-id="d1ffb-115">Seejärel valige töövoog, millega rea kaupu töödelda.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-115">Then select the workflow to use to process the line items.</span></span>
-3. <span data-ttu-id="d1ffb-116">Kui teatud töövoog peaks töötlema rea kaupu, mis vastavad määratud tingimustele, klõpsake valikut **Kutsu töövoog igale rea kaubale**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-116">If a specific workflow should process line items that meet a specific set of conditions, click **Invoke a workflow for each line-item**.</span></span> <span data-ttu-id="d1ffb-117">Järgige neid etappe tingimustekogumi määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-117">Then follow these steps to define the set of conditions:</span></span>
+1. <span data-ttu-id="ec122-113">Klõpsake vasakpoolsel paanil suvandit **Põhisätted**.</span><span class="sxs-lookup"><span data-stu-id="ec122-113">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="ec122-114">Kui sama töövoog peab töötlema dokumendi kõiki rea kaupu, klõpsake valikut **Kutsu üksik töövoog kõigile rea kaupadele**.</span><span class="sxs-lookup"><span data-stu-id="ec122-114">If the same workflow should process all the line items on a document, click **Invoke a single workflow for all line-items**.</span></span> <span data-ttu-id="ec122-115">Seejärel valige töövoog, millega rea kaupu töödelda.</span><span class="sxs-lookup"><span data-stu-id="ec122-115">Then select the workflow to use to process the line items.</span></span>
+3. <span data-ttu-id="ec122-116">Kui teatud töövoog peaks töötlema rea kaupu, mis vastavad määratud tingimustele, klõpsake valikut **Kutsu töövoog igale rea kaubale**.</span><span class="sxs-lookup"><span data-stu-id="ec122-116">If a specific workflow should process line items that meet a specific set of conditions, click **Invoke a workflow for each line-item**.</span></span> <span data-ttu-id="ec122-117">Järgige neid etappe tingimustekogumi määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ec122-117">Then follow these steps to define the set of conditions:</span></span>
 
-    1. <span data-ttu-id="d1ffb-118">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-118">Click **Add**.</span></span>
-    2. <span data-ttu-id="d1ffb-119">Valige tabelist tingimus.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-119">Select the condition in the table.</span></span>
-    3. <span data-ttu-id="d1ffb-120">Sisestage vahekaardil **Tingimuse nimi** määratletava tingimustekogumi nimi.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-120">On the **Condition name** tab, enter a name for the set of conditions that you're defining.</span></span>
-    4. <span data-ttu-id="d1ffb-121">Tingimuse sisestamiseks klõpsake valikut **Lisa tingimus**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-121">Click **Add condition** to enter a condition.</span></span>
-    5. <span data-ttu-id="d1ffb-122">Sisestage täiendavad vajalikud tingimused.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-122">Enter any additional conditions that are required.</span></span>
-    6. <span data-ttu-id="d1ffb-123">Kontrollimaks, kas sisestatud tingimustekogum on õigesti konfigureeritud, klõpsake käsku **Katseta**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-123">To verify that the set of conditions that you entered is configured correctly, click **Test**.</span></span> <span data-ttu-id="d1ffb-124">Lehel **Töövoo tingimuse katsetamine** alas **Kontrolli tingimust** valige kirje ja seejärel klõpsake käsku **Katseta**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-124">On the **Test workflow condition** page, in the **Validate condition** area, select a record, and then click **Test**.</span></span> <span data-ttu-id="d1ffb-125">Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-125">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span> <span data-ttu-id="d1ffb-126">Klõpsake **OK** või valikut **Tühista**, et naasta lehele **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-126">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
+    1. <span data-ttu-id="ec122-118">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="ec122-118">Click **Add**.</span></span>
+    2. <span data-ttu-id="ec122-119">Valige tabelist tingimus.</span><span class="sxs-lookup"><span data-stu-id="ec122-119">Select the condition in the table.</span></span>
+    3. <span data-ttu-id="ec122-120">Sisestage vahekaardil **Tingimuse nimi** määratletava tingimustekogumi nimi.</span><span class="sxs-lookup"><span data-stu-id="ec122-120">On the **Condition name** tab, enter a name for the set of conditions that you're defining.</span></span>
+    4. <span data-ttu-id="ec122-121">Tingimuse sisestamiseks klõpsake valikut **Lisa tingimus**.</span><span class="sxs-lookup"><span data-stu-id="ec122-121">Click **Add condition** to enter a condition.</span></span>
+    5. <span data-ttu-id="ec122-122">Sisestage täiendavad vajalikud tingimused.</span><span class="sxs-lookup"><span data-stu-id="ec122-122">Enter any additional conditions that are required.</span></span>
+    6. <span data-ttu-id="ec122-123">Kontrollimaks, kas sisestatud tingimustekogum on õigesti konfigureeritud, klõpsake käsku **Katseta**.</span><span class="sxs-lookup"><span data-stu-id="ec122-123">To verify that the set of conditions that you entered is configured correctly, click **Test**.</span></span> <span data-ttu-id="ec122-124">Lehel **Töövoo tingimuse katsetamine** alas **Kontrolli tingimust** valige kirje ja seejärel klõpsake käsku **Katseta**.</span><span class="sxs-lookup"><span data-stu-id="ec122-124">On the **Test workflow condition** page, in the **Validate condition** area, select a record, and then click **Test**.</span></span> <span data-ttu-id="ec122-125">Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele.</span><span class="sxs-lookup"><span data-stu-id="ec122-125">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span> <span data-ttu-id="ec122-126">Klõpsake **OK** või valikut **Tühista**, et naasta lehele **Atribuudid**.</span><span class="sxs-lookup"><span data-stu-id="ec122-126">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
 
-    <span data-ttu-id="d1ffb-127">Vahekaardil **Töövoog** valige töövoog, mida kasutada teie määratletud tingimustekogumile vastavate rea kaupade töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="d1ffb-127">On the **Workflow** tab, select the workflow select the workflow to use to process line items that meet the set of conditions that you defined.</span></span>
+    <span data-ttu-id="ec122-127">Vahekaardil **Töövoog** valige töövoog, mida kasutada teie määratletud tingimustekogumile vastavate rea kaupade töötlemiseks.</span><span class="sxs-lookup"><span data-stu-id="ec122-127">On the **Workflow** tab, select the workflow select the workflow to use to process line items that meet the set of conditions that you defined.</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
