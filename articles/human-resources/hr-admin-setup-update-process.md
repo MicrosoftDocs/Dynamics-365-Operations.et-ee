@@ -2,11 +2,9 @@
 title: Värskendamisprotsess
 description: Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi rakenduse ja platvormi muudatustele.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466828"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791529"
 ---
 # <a name="update-process"></a>Värskendamisprotsess
 
@@ -58,14 +56,14 @@ Vajadusel pakub rakendus Human Resources ka järgmist tüüpi parandusi.
 
 Väljaanded vaadatakse üle, testitakse ja kontrollitakse sisemises keskkonnas. Pärast järkude kinnitamist edastatakse need tootmisse.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Erandid väljaandmise sageduses 2020. aastal
+## <a name="release-cadence-exceptions-in-2021"></a>Erandid väljaandmise sageduses 2021. aastal
 
-Puhkuse arvestamiseks on 2020. aasta novembri ja detsembri väljastusgraafik järgmine.
+Puhkuse arvestamiseks on 2021. aasta novembri ja detsembri väljastusgraafik järgmine.
 
-- Novembri väljastus: 2. november – 13. november
-- Detsembri väljastus: 30. november – 11. detsember
+- Novembri väljastus: 1. november – 14. november
+- Detsembri väljastus: 29. november – 12. detsember
  
-Kahenädalane väljaandmise sagedus jätkub tavapäraselt 11. jaanuaril 2021.
+Kahenädalane väljaandmise sagedus jätkub tavapäraselt 10. jaanuaril 2022.
 
 ## <a name="communications"></a>Suhtlus
 
