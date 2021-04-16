@@ -2,11 +2,9 @@
 title: Hulgivärbamisprojektid
 description: Hulgivärbamisprojektid võimaldavad inimressursside spetsialistidel luua mitu ametikohta ja palgata tõhusalt neile ametikohtadele töötajaid.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMMassHireProject, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -18,68 +16,68 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7810a3b679f4b2db33fbe2c4dc7bd46db91b4c1
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 10d27f301f1b8e709bb6c1a63406356baa01c9a1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465410"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791313"
 ---
-# <a name="mass-hire-projects"></a><span data-ttu-id="245c9-103">Hulgivärbamisprojektid</span><span class="sxs-lookup"><span data-stu-id="245c9-103">Mass hire projects</span></span>
+# <a name="mass-hire-projects"></a><span data-ttu-id="9567c-103">Hulgivärbamisprojektid</span><span class="sxs-lookup"><span data-stu-id="9567c-103">Mass hire projects</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="245c9-104">Hulgivärbamisprojektid võimaldavad inimressursside spetsialistidel luua mitu ametikohta ja palgata tõhusalt neile ametikohtadele töötajaid.</span><span class="sxs-lookup"><span data-stu-id="245c9-104">Mass hire projects allow human resources specialists to create multiple positions and efficiently hire workers into those positions.</span></span>
+<span data-ttu-id="9567c-104">Hulgivärbamisprojektid võimaldavad inimressursside spetsialistidel luua mitu ametikohta ja palgata tõhusalt neile ametikohtadele töötajaid.</span><span class="sxs-lookup"><span data-stu-id="9567c-104">Mass hire projects allow human resources specialists to create multiple positions and efficiently hire workers into those positions.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="245c9-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="245c9-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="9567c-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="9567c-105">Overview</span></span>
 
-<span data-ttu-id="245c9-106">Kui võtate korraga tööle mitu töötajat, nt hooajatöö puhul, kasutage hulgivärbamisprojekti.</span><span class="sxs-lookup"><span data-stu-id="245c9-106">Use mass hire projects when you hire multiple workers at one time, such as when you hire to meet a seasonal demand.</span></span> <span data-ttu-id="245c9-107">Hulgivärbamisprojekti loomine on kasulik, sest saate samal ajal luua positsioonikirjed, töötajate kirjed ja ametikohaga seotud töötaja tööülesanded.</span><span class="sxs-lookup"><span data-stu-id="245c9-107">Creating a mass hire project is useful because you can create position records, worker records, and worker assignments for positions at the same time.</span></span> <span data-ttu-id="245c9-108">Hulgivärbamisprojektis ametikohtade loomisel saate määrata järgmise teabe:</span><span class="sxs-lookup"><span data-stu-id="245c9-108">When you create positions for a mass hire project, you can specify the following information:</span></span>
+<span data-ttu-id="9567c-106">Kui võtate korraga tööle mitu töötajat, nt hooajatöö puhul, kasutage hulgivärbamisprojekti.</span><span class="sxs-lookup"><span data-stu-id="9567c-106">Use mass hire projects when you hire multiple workers at one time, such as when you hire to meet a seasonal demand.</span></span> <span data-ttu-id="9567c-107">Hulgivärbamisprojekti loomine on kasulik, sest saate samal ajal luua positsioonikirjed, töötajate kirjed ja ametikohaga seotud töötaja tööülesanded.</span><span class="sxs-lookup"><span data-stu-id="9567c-107">Creating a mass hire project is useful because you can create position records, worker records, and worker assignments for positions at the same time.</span></span> <span data-ttu-id="9567c-108">Hulgivärbamisprojektis ametikohtade loomisel saate määrata järgmise teabe:</span><span class="sxs-lookup"><span data-stu-id="9567c-108">When you create positions for a mass hire project, you can specify the following information:</span></span>
 
-- <span data-ttu-id="245c9-109">loodavate ametikohtade arv;</span><span class="sxs-lookup"><span data-stu-id="245c9-109">The number of positions to create</span></span>
-- <span data-ttu-id="245c9-110">ametikohtadele palgatavate inimeste töötajatüüp;</span><span class="sxs-lookup"><span data-stu-id="245c9-110">The worker type of the people that you will hire for the positions</span></span>
-- <span data-ttu-id="245c9-111">ametikohtadega seotud osakond ja töö;</span><span class="sxs-lookup"><span data-stu-id="245c9-111">The department and the job that are associated with the positions</span></span>
-- <span data-ttu-id="245c9-112">ametikoha täistööajale taandatud väärtus.</span><span class="sxs-lookup"><span data-stu-id="245c9-112">The full-time equivalent value of the position</span></span>
+- <span data-ttu-id="9567c-109">loodavate ametikohtade arv;</span><span class="sxs-lookup"><span data-stu-id="9567c-109">The number of positions to create</span></span>
+- <span data-ttu-id="9567c-110">ametikohtadele palgatavate inimeste töötajatüüp;</span><span class="sxs-lookup"><span data-stu-id="9567c-110">The worker type of the people that you will hire for the positions</span></span>
+- <span data-ttu-id="9567c-111">ametikohtadega seotud osakond ja töö;</span><span class="sxs-lookup"><span data-stu-id="9567c-111">The department and the job that are associated with the positions</span></span>
+- <span data-ttu-id="9567c-112">ametikoha täistööajale taandatud väärtus.</span><span class="sxs-lookup"><span data-stu-id="9567c-112">The full-time equivalent value of the position</span></span>
 
-## <a name="example"></a><span data-ttu-id="245c9-113">Näide</span><span class="sxs-lookup"><span data-stu-id="245c9-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9567c-113">Näide</span><span class="sxs-lookup"><span data-stu-id="9567c-113">Example</span></span>
 
-<span data-ttu-id="245c9-114">Suviti palkate tavaliselt ettevõtte pakutavate praktikakohtade täitmiseks 15–20 osalise tööajaga üliõpilast.</span><span class="sxs-lookup"><span data-stu-id="245c9-114">In the summer, you usually hire 15-20 part-time college students to fill available internships in your company.</span></span> <span data-ttu-id="245c9-115">Sel aastal soovite palgata viis raamatupidajat, viis tellimuse töötlejat ja viis kassapidajat.</span><span class="sxs-lookup"><span data-stu-id="245c9-115">This year, you want to hire five accountants, five order processors, and five cashiers.</span></span> <span data-ttu-id="245c9-116">Selle asemel, et luua iga ametikoha ja töötaja kirje eraldi, saate luua ühe hulgivärbamisprojekti nimega „Suvepraktikandid”.</span><span class="sxs-lookup"><span data-stu-id="245c9-116">Instead of creating each position record and worker record separately, you create one mass hire project called "SummerInterns".</span></span> <span data-ttu-id="245c9-117">Projekti algus- ja lõppkuupäev korreleeruvad hulgivärbamisprojektis loodud ametikohtade algus- ja lõppkuupäevadega.</span><span class="sxs-lookup"><span data-stu-id="245c9-117">The project start and end dates correlate with the start and end dates of the position durations for the positions you create for the mass hire project.</span></span>
+<span data-ttu-id="9567c-114">Suviti palkate tavaliselt ettevõtte pakutavate praktikakohtade täitmiseks 15–20 osalise tööajaga üliõpilast.</span><span class="sxs-lookup"><span data-stu-id="9567c-114">In the summer, you usually hire 15-20 part-time college students to fill available internships in your company.</span></span> <span data-ttu-id="9567c-115">Sel aastal soovite palgata viis raamatupidajat, viis tellimuse töötlejat ja viis kassapidajat.</span><span class="sxs-lookup"><span data-stu-id="9567c-115">This year, you want to hire five accountants, five order processors, and five cashiers.</span></span> <span data-ttu-id="9567c-116">Selle asemel, et luua iga ametikoha ja töötaja kirje eraldi, saate luua ühe hulgivärbamisprojekti nimega „Suvepraktikandid”.</span><span class="sxs-lookup"><span data-stu-id="9567c-116">Instead of creating each position record and worker record separately, you create one mass hire project called "SummerInterns".</span></span> <span data-ttu-id="9567c-117">Projekti algus- ja lõppkuupäev korreleeruvad hulgivärbamisprojektis loodud ametikohtade algus- ja lõppkuupäevadega.</span><span class="sxs-lookup"><span data-stu-id="9567c-117">The project start and end dates correlate with the start and end dates of the position durations for the positions you create for the mass hire project.</span></span>
 
-<span data-ttu-id="245c9-118">Valige lehel **Hulgivärbamisprojektid** projekt „Suvepraktikandid” ja seejärel klõpsake käsku **Ava projekt**.</span><span class="sxs-lookup"><span data-stu-id="245c9-118">In the **Mass hire projects** page, select the "SummerInterns" project and then click **Open project**.</span></span> <span data-ttu-id="245c9-119">Avatud hulgivärbamisprojektis klõpsake valikut **Ametikohtade loomine** ja sisestage teave raamatupidaja ametikoha kohta.</span><span class="sxs-lookup"><span data-stu-id="245c9-119">In the open mass hire project, click **Create positions** and enter information about the accountant position.</span></span> <span data-ttu-id="245c9-120">Näidake, viie raamatupidaja ametikoha loomiseks kasutatakse sama teavet, ning seejärel klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="245c9-120">You can indicate that five accountant positions should be created using the same information for each one, and then click OK.</span></span> <span data-ttu-id="245c9-121">Korrake seda toimingut tellimuse töötleja ja kassapidaja ametikohtade puhul.</span><span class="sxs-lookup"><span data-stu-id="245c9-121">Repeat this process for the order processor and cashier positions.</span></span>
+<span data-ttu-id="9567c-118">Valige lehel **Hulgivärbamisprojektid** projekt „Suvepraktikandid” ja seejärel klõpsake käsku **Ava projekt**.</span><span class="sxs-lookup"><span data-stu-id="9567c-118">In the **Mass hire projects** page, select the "SummerInterns" project and then click **Open project**.</span></span> <span data-ttu-id="9567c-119">Avatud hulgivärbamisprojektis klõpsake valikut **Ametikohtade loomine** ja sisestage teave raamatupidaja ametikoha kohta.</span><span class="sxs-lookup"><span data-stu-id="9567c-119">In the open mass hire project, click **Create positions** and enter information about the accountant position.</span></span> <span data-ttu-id="9567c-120">Näidake, viie raamatupidaja ametikoha loomiseks kasutatakse sama teavet, ning seejärel klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9567c-120">You can indicate that five accountant positions should be created using the same information for each one, and then click OK.</span></span> <span data-ttu-id="9567c-121">Korrake seda toimingut tellimuse töötleja ja kassapidaja ametikohtade puhul.</span><span class="sxs-lookup"><span data-stu-id="9567c-121">Repeat this process for the order processor and cashier positions.</span></span>
 
-<span data-ttu-id="245c9-122">Pärast üliõpilaste valimist praktikakohtadele saate iga tudengi kohta sisestada jaotises **Ametikoha üksikasjad** teabe, millisele ametikohale te nad palkasite.</span><span class="sxs-lookup"><span data-stu-id="245c9-122">After selecting students to hire for the internship positions, you'll enter each student's information in the **Position details** for the position that you're hiring them for.</span></span> <span data-ttu-id="245c9-123">Kui olete kõik ametikoha üksikasjad sisestanud, valige lehel Hulgivärbamisprojektid ametikoht ja seejärel klõpsake valikut **Palka**.</span><span class="sxs-lookup"><span data-stu-id="245c9-123">When you have entered all of the position details, select the position in the Mass hire projects page, and then click **Hire**.</span></span> <span data-ttu-id="245c9-124">Igale ametikohale luuakse ametikoha ning töötaja kirje, mis määratakse õigele ametikohale iga palgatava inimese jaoks.</span><span class="sxs-lookup"><span data-stu-id="245c9-124">A position record will be created for each position and a worker record will be created and assigned to the correct position for each person who you hire.</span></span>
+<span data-ttu-id="9567c-122">Pärast üliõpilaste valimist praktikakohtadele saate iga tudengi kohta sisestada jaotises **Ametikoha üksikasjad** teabe, millisele ametikohale te nad palkasite.</span><span class="sxs-lookup"><span data-stu-id="9567c-122">After selecting students to hire for the internship positions, you'll enter each student's information in the **Position details** for the position that you're hiring them for.</span></span> <span data-ttu-id="9567c-123">Kui olete kõik ametikoha üksikasjad sisestanud, valige lehel Hulgivärbamisprojektid ametikoht ja seejärel klõpsake valikut **Palka**.</span><span class="sxs-lookup"><span data-stu-id="9567c-123">When you have entered all of the position details, select the position in the Mass hire projects page, and then click **Hire**.</span></span> <span data-ttu-id="9567c-124">Igale ametikohale luuakse ametikoha ning töötaja kirje, mis määratakse õigele ametikohale iga palgatava inimese jaoks.</span><span class="sxs-lookup"><span data-stu-id="9567c-124">A position record will be created for each position and a worker record will be created and assigned to the correct position for each person who you hire.</span></span>
 
-## <a name="mass-hire-project-statuses"></a><span data-ttu-id="245c9-125">Hulgivärbamisprojekti olekud</span><span class="sxs-lookup"><span data-stu-id="245c9-125">Mass hire project statuses</span></span>
+## <a name="mass-hire-project-statuses"></a><span data-ttu-id="9567c-125">Hulgivärbamisprojekti olekud</span><span class="sxs-lookup"><span data-stu-id="9567c-125">Mass hire project statuses</span></span>
 
-<span data-ttu-id="245c9-126">Hulgivärbamisprojekti olek võib olla järgmine.</span><span class="sxs-lookup"><span data-stu-id="245c9-126">A mass hire project can have the following statuses.</span></span>
+<span data-ttu-id="9567c-126">Hulgivärbamisprojekti olek võib olla järgmine.</span><span class="sxs-lookup"><span data-stu-id="9567c-126">A mass hire project can have the following statuses.</span></span>
 
-- <span data-ttu-id="245c9-127">Loodud</span><span class="sxs-lookup"><span data-stu-id="245c9-127">Created</span></span>
-- <span data-ttu-id="245c9-128">Avatud</span><span class="sxs-lookup"><span data-stu-id="245c9-128">Open</span></span>
-- <span data-ttu-id="245c9-129">Suletud</span><span class="sxs-lookup"><span data-stu-id="245c9-129">Closed</span></span>
+- <span data-ttu-id="9567c-127">Loodud</span><span class="sxs-lookup"><span data-stu-id="9567c-127">Created</span></span>
+- <span data-ttu-id="9567c-128">Avatud</span><span class="sxs-lookup"><span data-stu-id="9567c-128">Open</span></span>
+- <span data-ttu-id="9567c-129">Suletud</span><span class="sxs-lookup"><span data-stu-id="9567c-129">Closed</span></span>
 
-<span data-ttu-id="245c9-130">Hulgivärbamisprojekti oleku muutmiseks avage lehekülg **Hulgivärbamisprojekt** ja klõpsake käsku **Ava projekt** või **Sule projekt**.</span><span class="sxs-lookup"><span data-stu-id="245c9-130">On the **Mass hire project** page, click **Open project** or **Close project** to change the status of a mass hire project.</span></span> <span data-ttu-id="245c9-131">Järgnevas tabelis on kirjeldatud, mida saab projektiga teha vastavalt selle olekule.</span><span class="sxs-lookup"><span data-stu-id="245c9-131">The following table describes what you can do with a project according to its status.</span></span>
+<span data-ttu-id="9567c-130">Hulgivärbamisprojekti oleku muutmiseks avage lehekülg **Hulgivärbamisprojekt** ja klõpsake käsku **Ava projekt** või **Sule projekt**.</span><span class="sxs-lookup"><span data-stu-id="9567c-130">On the **Mass hire project** page, click **Open project** or **Close project** to change the status of a mass hire project.</span></span> <span data-ttu-id="9567c-131">Järgnevas tabelis on kirjeldatud, mida saab projektiga teha vastavalt selle olekule.</span><span class="sxs-lookup"><span data-stu-id="9567c-131">The following table describes what you can do with a project according to its status.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="245c9-132">Olek</span><span class="sxs-lookup"><span data-stu-id="245c9-132">Status</span></span></th>
-<th><span data-ttu-id="245c9-133">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="245c9-133">Description</span></span></th>
+<th><span data-ttu-id="9567c-132">Olek</span><span class="sxs-lookup"><span data-stu-id="9567c-132">Status</span></span></th>
+<th><span data-ttu-id="9567c-133">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="9567c-133">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="245c9-134">Loodud</span><span class="sxs-lookup"><span data-stu-id="245c9-134">Created</span></span></td>
-<td><span data-ttu-id="245c9-135">Saate teavet luua ja muuta, kuid te ei saa luua projekti ametikohti.</span><span class="sxs-lookup"><span data-stu-id="245c9-135">You can create and modify information, but cannot create positions for the project.</span></span> <span data-ttu-id="245c9-136">See on uute projektide vaikeolek.</span><span class="sxs-lookup"><span data-stu-id="245c9-136">This is the default status for new projects.</span></span></td>
+<td><span data-ttu-id="9567c-134">Loodud</span><span class="sxs-lookup"><span data-stu-id="9567c-134">Created</span></span></td>
+<td><span data-ttu-id="9567c-135">Saate teavet luua ja muuta, kuid te ei saa luua projekti ametikohti.</span><span class="sxs-lookup"><span data-stu-id="9567c-135">You can create and modify information, but cannot create positions for the project.</span></span> <span data-ttu-id="9567c-136">See on uute projektide vaikeolek.</span><span class="sxs-lookup"><span data-stu-id="9567c-136">This is the default status for new projects.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="245c9-137">Avatud</span><span class="sxs-lookup"><span data-stu-id="245c9-137">Open</span></span></td>
-<td><span data-ttu-id="245c9-138">Saate muuta projekti üksikasju, luua hulgivärbamisprojekti ametikohti ja palgata inimesi tööle.</span><span class="sxs-lookup"><span data-stu-id="245c9-138">You can modify the project details, create positions for the mass hire project, and hire people for the positions.</span></span> <span data-ttu-id="245c9-139">See on aktiivsete projektide olek.</span><span class="sxs-lookup"><span data-stu-id="245c9-139">This is the status for active projects.</span></span></td>
+<td><span data-ttu-id="9567c-137">Avatud</span><span class="sxs-lookup"><span data-stu-id="9567c-137">Open</span></span></td>
+<td><span data-ttu-id="9567c-138">Saate muuta projekti üksikasju, luua hulgivärbamisprojekti ametikohti ja palgata inimesi tööle.</span><span class="sxs-lookup"><span data-stu-id="9567c-138">You can modify the project details, create positions for the mass hire project, and hire people for the positions.</span></span> <span data-ttu-id="9567c-139">See on aktiivsete projektide olek.</span><span class="sxs-lookup"><span data-stu-id="9567c-139">This is the status for active projects.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="245c9-140">Suletud</span><span class="sxs-lookup"><span data-stu-id="245c9-140">Closed</span></span></td>
-<td><span data-ttu-id="245c9-141">Te ei saa projekti ametikohti lisada.</span><span class="sxs-lookup"><span data-stu-id="245c9-141">You cannot add positions to the project.</span></span> <span data-ttu-id="245c9-142">Hulgivärbamisprojekti ametikohtade lisamiseks avage projekt uuesti.</span><span class="sxs-lookup"><span data-stu-id="245c9-142">To add positions to the mass hire project, open the project again.</span></span> <span data-ttu-id="245c9-143">Selline on lõpetatud projektide olek.</span><span class="sxs-lookup"><span data-stu-id="245c9-143">This is the status for completed projects.</span></span>
-<blockquote>[!NOTE] <span data-ttu-id="245c9-144">Enne hulgivärbamisprojekti sulgemist peab kõigi ametikohtade olek olema kas Loodud või Suletud.</span><span class="sxs-lookup"><span data-stu-id="245c9-144">Before you can close a mass hire project, all positions in the project must have a status of either Created or Closed.</span></span></blockquote>
+<td><span data-ttu-id="9567c-140">Suletud</span><span class="sxs-lookup"><span data-stu-id="9567c-140">Closed</span></span></td>
+<td><span data-ttu-id="9567c-141">Te ei saa projekti ametikohti lisada.</span><span class="sxs-lookup"><span data-stu-id="9567c-141">You cannot add positions to the project.</span></span> <span data-ttu-id="9567c-142">Hulgivärbamisprojekti ametikohtade lisamiseks avage projekt uuesti.</span><span class="sxs-lookup"><span data-stu-id="9567c-142">To add positions to the mass hire project, open the project again.</span></span> <span data-ttu-id="9567c-143">Selline on lõpetatud projektide olek.</span><span class="sxs-lookup"><span data-stu-id="9567c-143">This is the status for completed projects.</span></span>
+<blockquote>[!NOTE] <span data-ttu-id="9567c-144">Enne hulgivärbamisprojekti sulgemist peab kõigi ametikohtade olek olema kas Loodud või Suletud.</span><span class="sxs-lookup"><span data-stu-id="9567c-144">Before you can close a mass hire project, all positions in the project must have a status of either Created or Closed.</span></span></blockquote>
 </td>
 </tr>
 </tbody>

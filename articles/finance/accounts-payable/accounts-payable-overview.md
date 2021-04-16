@@ -2,11 +2,9 @@
 title: Ostureskontro konfigureerimise ülevaade
 description: Selles artiklis kirjeldatakse lehti, mida kasutatakse i mooduli Ostureskontro põhi- ja valikuliste funktsioonide seadistamiseks. Kirjeldatakse ka seadistamistoiminguid, mis tuleb teha enne mooduli Ostureskontro seadistamist.
 author: abruer
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
@@ -17,131 +15,131 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efaf1d4d9d6b8764597f267de9d545b7d9301b52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266464"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820879"
 ---
-# <a name="configure-accounts-payable-overview"></a><span data-ttu-id="00a8c-104">Ostureskontro konfigureerimise ülevaade</span><span class="sxs-lookup"><span data-stu-id="00a8c-104">Configure Accounts payable overview</span></span>
+# <a name="configure-accounts-payable-overview"></a><span data-ttu-id="2f70a-104">Ostureskontro konfigureerimise ülevaade</span><span class="sxs-lookup"><span data-stu-id="2f70a-104">Configure Accounts payable overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="00a8c-105">Selles artiklis kirjeldatakse lehti, mida kasutatakse i mooduli Ostureskontro põhi- ja valikuliste funktsioonide seadistamiseks.</span><span class="sxs-lookup"><span data-stu-id="00a8c-105">This article describes the pages that you use to set up basic and optional functionality for Accounts payable.</span></span> <span data-ttu-id="00a8c-106">Kirjeldatakse ka seadistamistoiminguid, mis tuleb teha enne mooduli Ostureskontro seadistamist.</span><span class="sxs-lookup"><span data-stu-id="00a8c-106">It also describes setup steps that you must complete before you start to set up Accounts payable.</span></span>
+<span data-ttu-id="2f70a-105">Selles artiklis kirjeldatakse lehti, mida kasutatakse i mooduli Ostureskontro põhi- ja valikuliste funktsioonide seadistamiseks.</span><span class="sxs-lookup"><span data-stu-id="2f70a-105">This article describes the pages that you use to set up basic and optional functionality for Accounts payable.</span></span> <span data-ttu-id="2f70a-106">Kirjeldatakse ka seadistamistoiminguid, mis tuleb teha enne mooduli Ostureskontro seadistamist.</span><span class="sxs-lookup"><span data-stu-id="2f70a-106">It also describes setup steps that you must complete before you start to set up Accounts payable.</span></span>
 
-<a name="prerequisites-for-accounts-payable-setup"></a><span data-ttu-id="00a8c-107">Ostureskontro seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="00a8c-107">Prerequisites for Accounts payable setup</span></span>
+<a name="prerequisites-for-accounts-payable-setup"></a><span data-ttu-id="2f70a-107">Ostureskontro seadistamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="2f70a-107">Prerequisites for Accounts payable setup</span></span>
 ----------------------------------------
 
-<span data-ttu-id="00a8c-108">Enne ostureskontro seadistamist tuleb teha järgmine seadistus.</span><span class="sxs-lookup"><span data-stu-id="00a8c-108">Before you can set up Accounts payable, you must complete the following setup:</span></span>
+<span data-ttu-id="2f70a-108">Enne ostureskontro seadistamist tuleb teha järgmine seadistus.</span><span class="sxs-lookup"><span data-stu-id="2f70a-108">Before you can set up Accounts payable, you must complete the following setup:</span></span>
 
--   <span data-ttu-id="00a8c-109">Pearaamatus.</span><span class="sxs-lookup"><span data-stu-id="00a8c-109">In General ledger:</span></span>
-    -   <span data-ttu-id="00a8c-110">Kui kavatsete kasutada maksetöölehti, seadistage maksetöölehed.</span><span class="sxs-lookup"><span data-stu-id="00a8c-110">If you plan to use payment journals, set up payment journals.</span></span>
-    -   <span data-ttu-id="00a8c-111">Kui te kavatsete käivitada vahetuskursi korrektsioone, seadistage valuutakoodid lehel Valuutad, seadistage vahetuskursi tüübid lehel Vahetuskursi tüübid ja valuutavahetuskursid lehel Valuutavahetuskursid.</span><span class="sxs-lookup"><span data-stu-id="00a8c-111">If you plan to run exchange rate adjustments, set up currency codes on the Currencies page, set up exchange rate types on the Exchange rate types page, and set up currency exchange rates on the Currency exchange rates page.</span></span>
--   <span data-ttu-id="00a8c-112">Seadistage moodulis Sularaha- ja pangahaldus makseviiside korral kasutatavad pangakontod.</span><span class="sxs-lookup"><span data-stu-id="00a8c-112">In Cash and bank management, set up bank accounts to use with methods of payment.</span></span>
+-   <span data-ttu-id="2f70a-109">Pearaamatus.</span><span class="sxs-lookup"><span data-stu-id="2f70a-109">In General ledger:</span></span>
+    -   <span data-ttu-id="2f70a-110">Kui kavatsete kasutada maksetöölehti, seadistage maksetöölehed.</span><span class="sxs-lookup"><span data-stu-id="2f70a-110">If you plan to use payment journals, set up payment journals.</span></span>
+    -   <span data-ttu-id="2f70a-111">Kui te kavatsete käivitada vahetuskursi korrektsioone, seadistage valuutakoodid lehel Valuutad, seadistage vahetuskursi tüübid lehel Vahetuskursi tüübid ja valuutavahetuskursid lehel Valuutavahetuskursid.</span><span class="sxs-lookup"><span data-stu-id="2f70a-111">If you plan to run exchange rate adjustments, set up currency codes on the Currencies page, set up exchange rate types on the Exchange rate types page, and set up currency exchange rates on the Currency exchange rates page.</span></span>
+-   <span data-ttu-id="2f70a-112">Seadistage moodulis Sularaha- ja pangahaldus makseviiside korral kasutatavad pangakontod.</span><span class="sxs-lookup"><span data-stu-id="2f70a-112">In Cash and bank management, set up bank accounts to use with methods of payment.</span></span>
 
-## <a name="setup-pages-for-accounts-payable"></a><span data-ttu-id="00a8c-113">Ostureskontro seadistuslehed</span><span class="sxs-lookup"><span data-stu-id="00a8c-113">Setup pages for Accounts payable</span></span>
+## <a name="setup-pages-for-accounts-payable"></a><span data-ttu-id="2f70a-113">Ostureskontro seadistuslehed</span><span class="sxs-lookup"><span data-stu-id="2f70a-113">Setup pages for Accounts payable</span></span>
 
-<span data-ttu-id="00a8c-114">Kasutage järgmisi lehti iga juriidilise isiku jaoks ostureskontro põhifunktsioonide seadistamiseks.</span><span class="sxs-lookup"><span data-stu-id="00a8c-114">Use the following pages to set up the basic functionality of Accounts payable for each legal entity.</span></span> <span data-ttu-id="00a8c-115">Lehed on loetletud soovitatavas seadistamise järjekorras.</span><span class="sxs-lookup"><span data-stu-id="00a8c-115">The pages are listed in the recommended order of setup.</span></span> <span data-ttu-id="00a8c-116">Seadistamisprotsessi hõlbustamiseks saate luua malle esimeste loodud kirjete põhjal.</span><span class="sxs-lookup"><span data-stu-id="00a8c-116">To make the setup process easier, you can create templates from the first records that you create.</span></span> <span data-ttu-id="00a8c-117">Mallis sisestatakse tavaliselt paljudele väljadele väärtused, mis kajastavad funktsioone, mida organisatsioon soovib teatud tüüpi hankija korral kasutada.</span><span class="sxs-lookup"><span data-stu-id="00a8c-117">In a template, values are typically entered in many fields to reflect the features that the organization wants to implement for a particular type of vendor.</span></span>
-1.  <span data-ttu-id="00a8c-118">Lehel Maksetingimused saate määratleda müügitellimustele, ostutellimustele, klientidele ja hankijatele määratud maksetingimused, mis määravad kindlaks arve tähtajad.</span><span class="sxs-lookup"><span data-stu-id="00a8c-118">On the Terms of payment page, define the terms of payment that you assign to sales orders, purchase orders, customers, and vendors, and that determine invoice due dates.</span></span> <span data-ttu-id="00a8c-119">Lisateavet vt [Hankija käitluslõivude määratlemine](tasks/define-vendor-payment-fees.md).</span><span class="sxs-lookup"><span data-stu-id="00a8c-119">For more information, see [Define vendor payment fees](tasks/define-vendor-payment-fees.md).</span></span>
-2.  <span data-ttu-id="00a8c-120">Lehel Makseviisid – hankijad saate luua ja hallata andmeid selle kohta, kuidas organisatsioon oma hankijatele maksab.</span><span class="sxs-lookup"><span data-stu-id="00a8c-120">On the Methods of payment - vendors page, create and maintain information about how the organization pays its vendors.</span></span>
-3.  <span data-ttu-id="00a8c-121">Lehel Hankijagrupid saate luua ja hallata hankijagruppe, millel on olulised ühised parameetrid sisestamise, tasakaalustuse ja maksmise, aruandluse ja prognoosimise jaoks.</span><span class="sxs-lookup"><span data-stu-id="00a8c-121">On the Vendor groups page, create and maintain groups of vendors that share important parameters for posting, settlement and payment, reporting, and forecasting.</span></span>
-4.  <span data-ttu-id="00a8c-122">Lehel Hankija sisestusreeglid saate määratleda, kuidas hankijakanded pearaamatusse sisestatakse.</span><span class="sxs-lookup"><span data-stu-id="00a8c-122">On the Vendor posting profiles page, define how vendor transactions are posted to the general ledger.</span></span>
-5.  <span data-ttu-id="00a8c-123">Lehel Ostureskontro parameetrid saate seadistada vaikesätted, mida rakendada, kui täpsemat sätet ei ole määratletud, erinevate funktsioonide parameetrid ja erinevad ostureskontro numbriseeriad.</span><span class="sxs-lookup"><span data-stu-id="00a8c-123">On the Accounts payable parameters page, set up default settings that are applied if a more specific setting isn't specified, parameters for various kinds of functionality, and the various number sequences for Accounts payable.</span></span>
-6.  <span data-ttu-id="00a8c-124">Lehel Vormi seadistus saate määratleda erinevate dokumentide vormingu, mis on seotud hankijaga ja mida organisatsioon kasutab, et jälgida hankijatelt saadud sissetulekuid ja sisestada hankijate maksevoo põhjusi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-124">On the Form setup page, define the format of various documents that are related to vendors, and that the organization uses to keep track of receipts from vendors and enter reasons for the flow of payments to vendors.</span></span>
-7.  <span data-ttu-id="00a8c-125">Lehel Hankijad saate luua ja hallata hankijakontosid ja samuti maksuasutusi, millele teie organisatsioon käibearuandeid esitab.</span><span class="sxs-lookup"><span data-stu-id="00a8c-125">On the Vendors page, create and maintain vendor accounts, and also the tax authorities that your organization reports sales taxes to.</span></span>
+<span data-ttu-id="2f70a-114">Kasutage järgmisi lehti iga juriidilise isiku jaoks ostureskontro põhifunktsioonide seadistamiseks.</span><span class="sxs-lookup"><span data-stu-id="2f70a-114">Use the following pages to set up the basic functionality of Accounts payable for each legal entity.</span></span> <span data-ttu-id="2f70a-115">Lehed on loetletud soovitatavas seadistamise järjekorras.</span><span class="sxs-lookup"><span data-stu-id="2f70a-115">The pages are listed in the recommended order of setup.</span></span> <span data-ttu-id="2f70a-116">Seadistamisprotsessi hõlbustamiseks saate luua malle esimeste loodud kirjete põhjal.</span><span class="sxs-lookup"><span data-stu-id="2f70a-116">To make the setup process easier, you can create templates from the first records that you create.</span></span> <span data-ttu-id="2f70a-117">Mallis sisestatakse tavaliselt paljudele väljadele väärtused, mis kajastavad funktsioone, mida organisatsioon soovib teatud tüüpi hankija korral kasutada.</span><span class="sxs-lookup"><span data-stu-id="2f70a-117">In a template, values are typically entered in many fields to reflect the features that the organization wants to implement for a particular type of vendor.</span></span>
+1.  <span data-ttu-id="2f70a-118">Lehel Maksetingimused saate määratleda müügitellimustele, ostutellimustele, klientidele ja hankijatele määratud maksetingimused, mis määravad kindlaks arve tähtajad.</span><span class="sxs-lookup"><span data-stu-id="2f70a-118">On the Terms of payment page, define the terms of payment that you assign to sales orders, purchase orders, customers, and vendors, and that determine invoice due dates.</span></span> <span data-ttu-id="2f70a-119">Lisateavet vt [Hankija käitluslõivude määratlemine](tasks/define-vendor-payment-fees.md).</span><span class="sxs-lookup"><span data-stu-id="2f70a-119">For more information, see [Define vendor payment fees](tasks/define-vendor-payment-fees.md).</span></span>
+2.  <span data-ttu-id="2f70a-120">Lehel Makseviisid – hankijad saate luua ja hallata andmeid selle kohta, kuidas organisatsioon oma hankijatele maksab.</span><span class="sxs-lookup"><span data-stu-id="2f70a-120">On the Methods of payment - vendors page, create and maintain information about how the organization pays its vendors.</span></span>
+3.  <span data-ttu-id="2f70a-121">Lehel Hankijagrupid saate luua ja hallata hankijagruppe, millel on olulised ühised parameetrid sisestamise, tasakaalustuse ja maksmise, aruandluse ja prognoosimise jaoks.</span><span class="sxs-lookup"><span data-stu-id="2f70a-121">On the Vendor groups page, create and maintain groups of vendors that share important parameters for posting, settlement and payment, reporting, and forecasting.</span></span>
+4.  <span data-ttu-id="2f70a-122">Lehel Hankija sisestusreeglid saate määratleda, kuidas hankijakanded pearaamatusse sisestatakse.</span><span class="sxs-lookup"><span data-stu-id="2f70a-122">On the Vendor posting profiles page, define how vendor transactions are posted to the general ledger.</span></span>
+5.  <span data-ttu-id="2f70a-123">Lehel Ostureskontro parameetrid saate seadistada vaikesätted, mida rakendada, kui täpsemat sätet ei ole määratletud, erinevate funktsioonide parameetrid ja erinevad ostureskontro numbriseeriad.</span><span class="sxs-lookup"><span data-stu-id="2f70a-123">On the Accounts payable parameters page, set up default settings that are applied if a more specific setting isn't specified, parameters for various kinds of functionality, and the various number sequences for Accounts payable.</span></span>
+6.  <span data-ttu-id="2f70a-124">Lehel Vormi seadistus saate määratleda erinevate dokumentide vormingu, mis on seotud hankijaga ja mida organisatsioon kasutab, et jälgida hankijatelt saadud sissetulekuid ja sisestada hankijate maksevoo põhjusi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-124">On the Form setup page, define the format of various documents that are related to vendors, and that the organization uses to keep track of receipts from vendors and enter reasons for the flow of payments to vendors.</span></span>
+7.  <span data-ttu-id="2f70a-125">Lehel Hankijad saate luua ja hallata hankijakontosid ja samuti maksuasutusi, millele teie organisatsioon käibearuandeid esitab.</span><span class="sxs-lookup"><span data-stu-id="2f70a-125">On the Vendors page, create and maintain vendor accounts, and also the tax authorities that your organization reports sales taxes to.</span></span>
 
-## <a name="optional-setup-pages-for-accounts-payable"></a><span data-ttu-id="00a8c-126">Ostureskontro valikulised seadistuslehed</span><span class="sxs-lookup"><span data-stu-id="00a8c-126">Optional setup pages for Accounts payable</span></span>
-<span data-ttu-id="00a8c-127">Lisaks põhifunktsioonidele on moodulil Ostureskontro muid funktsioone, mida saab seadistada.</span><span class="sxs-lookup"><span data-stu-id="00a8c-127">In addition to the basic functionality, Accounts payable has other functionality that you can set up.</span></span>
+## <a name="optional-setup-pages-for-accounts-payable"></a><span data-ttu-id="2f70a-126">Ostureskontro valikulised seadistuslehed</span><span class="sxs-lookup"><span data-stu-id="2f70a-126">Optional setup pages for Accounts payable</span></span>
+<span data-ttu-id="2f70a-127">Lisaks põhifunktsioonidele on moodulil Ostureskontro muid funktsioone, mida saab seadistada.</span><span class="sxs-lookup"><span data-stu-id="2f70a-127">In addition to the basic functionality, Accounts payable has other functionality that you can set up.</span></span>
 
-<span data-ttu-id="00a8c-128">Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-128">The additional setup pages are organized by functionality.</span></span>
+<span data-ttu-id="2f70a-128">Täiendavad seadistuslehed on organiseeritud funktsioonide järgi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-128">The additional setup pages are organized by functionality.</span></span>
 
-<span data-ttu-id="00a8c-129">**Poliitikad**</span><span class="sxs-lookup"><span data-stu-id="00a8c-129">**Policies**</span></span>
--   <span data-ttu-id="00a8c-130">Lehel Hankija arvepoliitika saate seadistada hankija arvepoliitikaid.</span><span class="sxs-lookup"><span data-stu-id="00a8c-130">On the Vendor invoice policy page, set up vendor invoice policies.</span></span>
+<span data-ttu-id="2f70a-129">**Poliitikad**</span><span class="sxs-lookup"><span data-stu-id="2f70a-129">**Policies**</span></span>
+-   <span data-ttu-id="2f70a-130">Lehel Hankija arvepoliitika saate seadistada hankija arvepoliitikaid.</span><span class="sxs-lookup"><span data-stu-id="2f70a-130">On the Vendor invoice policy page, set up vendor invoice policies.</span></span>
 
-<span data-ttu-id="00a8c-131">**Arvete võrdlemine**</span><span class="sxs-lookup"><span data-stu-id="00a8c-131">**Invoice matching**</span></span>
+<span data-ttu-id="2f70a-131">**Arvete võrdlemine**</span><span class="sxs-lookup"><span data-stu-id="2f70a-131">**Invoice matching**</span></span>
 
--   <span data-ttu-id="00a8c-132">Lehel Arvesummade lubatud kõikumised saate seadistada arvesummade lubatud kõikumisi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-132">On the Invoice totals tolerances page, set up tolerances for invoice totals.</span></span>
--   <span data-ttu-id="00a8c-133">Lehel Vastavusse viimise poliitika saate seadistada kahesuunalisi ja kolmesuunalisi vastavusse viimise poliitikaid.</span><span class="sxs-lookup"><span data-stu-id="00a8c-133">On the Matching policy page, set up two-way and three-way matching policies.</span></span>
--   <span data-ttu-id="00a8c-134">Lehel Hinnakõikumised saate seadistada ühikuhindade lubatud kõikumisi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-134">On the Price tolerances page, set up tolerances for unit prices.</span></span>
--   <span data-ttu-id="00a8c-135">Lehel Kauba hinnakõikumisgrupid saate seadistada kauba hinnakõikumisgruppe.</span><span class="sxs-lookup"><span data-stu-id="00a8c-135">On the Item price tolerance groups page, set up tolerance groups for item prices.</span></span>
--   <span data-ttu-id="00a8c-136">Lehel Hankija hinnakõikumisgrupid saate seadistada hankija hinnakõikumisgruppe.</span><span class="sxs-lookup"><span data-stu-id="00a8c-136">On the Vendor price tolerance groups page, set up  tolerance groups for vendor prices.</span></span>
--   <span data-ttu-id="00a8c-137">Lehel Tasude kõikumised saate seadistada tasude lubatud kõikumisi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-137">On the Charges tolerances page, set up tolerances for charges.</span></span>
+-   <span data-ttu-id="2f70a-132">Lehel Arvesummade lubatud kõikumised saate seadistada arvesummade lubatud kõikumisi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-132">On the Invoice totals tolerances page, set up tolerances for invoice totals.</span></span>
+-   <span data-ttu-id="2f70a-133">Lehel Vastavusse viimise poliitika saate seadistada kahesuunalisi ja kolmesuunalisi vastavusse viimise poliitikaid.</span><span class="sxs-lookup"><span data-stu-id="2f70a-133">On the Matching policy page, set up two-way and three-way matching policies.</span></span>
+-   <span data-ttu-id="2f70a-134">Lehel Hinnakõikumised saate seadistada ühikuhindade lubatud kõikumisi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-134">On the Price tolerances page, set up tolerances for unit prices.</span></span>
+-   <span data-ttu-id="2f70a-135">Lehel Kauba hinnakõikumisgrupid saate seadistada kauba hinnakõikumisgruppe.</span><span class="sxs-lookup"><span data-stu-id="2f70a-135">On the Item price tolerance groups page, set up tolerance groups for item prices.</span></span>
+-   <span data-ttu-id="2f70a-136">Lehel Hankija hinnakõikumisgrupid saate seadistada hankija hinnakõikumisgruppe.</span><span class="sxs-lookup"><span data-stu-id="2f70a-136">On the Vendor price tolerance groups page, set up  tolerance groups for vendor prices.</span></span>
+-   <span data-ttu-id="2f70a-137">Lehel Tasude kõikumised saate seadistada tasude lubatud kõikumisi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-137">On the Charges tolerances page, set up tolerances for charges.</span></span>
 
-<span data-ttu-id="00a8c-138">**Töövoog**</span><span class="sxs-lookup"><span data-stu-id="00a8c-138">**Workflow**</span></span>
+<span data-ttu-id="2f70a-138">**Töövoog**</span><span class="sxs-lookup"><span data-stu-id="2f70a-138">**Workflow**</span></span>
 
--   <span data-ttu-id="00a8c-139">Lehel Ostureskontro töövood saate seadistada töövookonfiguratsioone töölehtede kinnituste ja ostutaotluste jaoks.</span><span class="sxs-lookup"><span data-stu-id="00a8c-139">On the Accounts payable workflows page, set up workflow configurations for journal approvals and purchase requisitions.</span></span>
+-   <span data-ttu-id="2f70a-139">Lehel Ostureskontro töövood saate seadistada töövookonfiguratsioone töölehtede kinnituste ja ostutaotluste jaoks.</span><span class="sxs-lookup"><span data-stu-id="2f70a-139">On the Accounts payable workflows page, set up workflow configurations for journal approvals and purchase requisitions.</span></span>
 
-<span data-ttu-id="00a8c-140">**Põhjused**</span><span class="sxs-lookup"><span data-stu-id="00a8c-140">**Reasons**</span></span>
+<span data-ttu-id="2f70a-140">**Põhjused**</span><span class="sxs-lookup"><span data-stu-id="2f70a-140">**Reasons**</span></span>
 
--   <span data-ttu-id="00a8c-141">Lehel Hankija põhjused saate seadistada põhjusekoode.</span><span class="sxs-lookup"><span data-stu-id="00a8c-141">On the Vendor reasons page, set up reason codes.</span></span>
+-   <span data-ttu-id="2f70a-141">Lehel Hankija põhjused saate seadistada põhjusekoode.</span><span class="sxs-lookup"><span data-stu-id="2f70a-141">On the Vendor reasons page, set up reason codes.</span></span>
 
-<span data-ttu-id="00a8c-142">**Tasud**</span><span class="sxs-lookup"><span data-stu-id="00a8c-142">**Charges**</span></span>
+<span data-ttu-id="2f70a-142">**Tasud**</span><span class="sxs-lookup"><span data-stu-id="2f70a-142">**Charges**</span></span>
 
--   <span data-ttu-id="00a8c-143">Lehel Tasukoodid saate seadistada ostutellimustel kasutatavaid tasukoode.</span><span class="sxs-lookup"><span data-stu-id="00a8c-143">On the Charges code page, set up codes for the charges that are used in purchase orders.</span></span>
--   <span data-ttu-id="00a8c-144">Lehel Hankija tasude grupp saate luua ja hallata hankijate tasugruppe.</span><span class="sxs-lookup"><span data-stu-id="00a8c-144">On the Vendor charges group page, create and maintain charges groups for vendors.</span></span>
--   <span data-ttu-id="00a8c-145">Lehel Kauba tasugrupid saate luua ja hallata kaupade tasugruppe.</span><span class="sxs-lookup"><span data-stu-id="00a8c-145">On the Item charge groups page, create and maintain charges groups for items.</span></span>
--   <span data-ttu-id="00a8c-146">Lehel Automaatsed kulud saate määratleda tellimustele automaatselt määratavad tasud.</span><span class="sxs-lookup"><span data-stu-id="00a8c-146">On the Auto charges page, define the charges that are automatically assigned to orders.</span></span>
+-   <span data-ttu-id="2f70a-143">Lehel Tasukoodid saate seadistada ostutellimustel kasutatavaid tasukoode.</span><span class="sxs-lookup"><span data-stu-id="2f70a-143">On the Charges code page, set up codes for the charges that are used in purchase orders.</span></span>
+-   <span data-ttu-id="2f70a-144">Lehel Hankija tasude grupp saate luua ja hallata hankijate tasugruppe.</span><span class="sxs-lookup"><span data-stu-id="2f70a-144">On the Vendor charges group page, create and maintain charges groups for vendors.</span></span>
+-   <span data-ttu-id="2f70a-145">Lehel Kauba tasugrupid saate luua ja hallata kaupade tasugruppe.</span><span class="sxs-lookup"><span data-stu-id="2f70a-145">On the Item charge groups page, create and maintain charges groups for items.</span></span>
+-   <span data-ttu-id="2f70a-146">Lehel Automaatsed kulud saate määratleda tellimustele automaatselt määratavad tasud.</span><span class="sxs-lookup"><span data-stu-id="2f70a-146">On the Auto charges page, define the charges that are automatically assigned to orders.</span></span>
 
-<span data-ttu-id="00a8c-147">**Lisakaubad**</span><span class="sxs-lookup"><span data-stu-id="00a8c-147">**Supplementary items**</span></span>
+<span data-ttu-id="2f70a-147">**Lisakaubad**</span><span class="sxs-lookup"><span data-stu-id="2f70a-147">**Supplementary items**</span></span>
 
--   <span data-ttu-id="00a8c-148">Lehel Lisakaubagrupid – hankija saate luua ja hallata hankijate lisakaubagruppe.</span><span class="sxs-lookup"><span data-stu-id="00a8c-148">On the Supplementary item groups - Vendor page, create and maintain supplementary item groups for vendors.</span></span>
--   <span data-ttu-id="00a8c-149">Lehel Lisakaubagrupid – varud saate luua ja hallata kaupade lisakaubagruppe.</span><span class="sxs-lookup"><span data-stu-id="00a8c-149">On the Supplementary item groups - Inventory page, create and maintain supplementary item groups for items.</span></span>
+-   <span data-ttu-id="2f70a-148">Lehel Lisakaubagrupid – hankija saate luua ja hallata hankijate lisakaubagruppe.</span><span class="sxs-lookup"><span data-stu-id="2f70a-148">On the Supplementary item groups - Vendor page, create and maintain supplementary item groups for vendors.</span></span>
+-   <span data-ttu-id="2f70a-149">Lehel Lisakaubagrupid – varud saate luua ja hallata kaupade lisakaubagruppe.</span><span class="sxs-lookup"><span data-stu-id="2f70a-149">On the Supplementary item groups - Inventory page, create and maintain supplementary item groups for items.</span></span>
 
-<span data-ttu-id="00a8c-150">**Jaotus**</span><span class="sxs-lookup"><span data-stu-id="00a8c-150">**Distribution**</span></span>
+<span data-ttu-id="2f70a-150">**Jaotus**</span><span class="sxs-lookup"><span data-stu-id="2f70a-150">**Distribution**</span></span>
 
--   <span data-ttu-id="00a8c-151">Lehel Tarnetingimused saate luua ja hallata kauba müüjalt ostjale tarnimise tingimusi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-151">On the Terms of delivery page, create and maintain the conditions for an item's transfer from seller to buyer.</span></span>
--   <span data-ttu-id="00a8c-152">Lehel Tarneviisid saate luua ja hallata transpordiviise, mida kasutatakse tellimuse transportimisel müüjalt ostjale.</span><span class="sxs-lookup"><span data-stu-id="00a8c-152">On the Modes of delivery page, create and maintain the methods of transport that are used when an order is delivered from the seller to the buyer.</span></span>
--   <span data-ttu-id="00a8c-153">Lehel Sihtkoha koodid saate luua ja hallata sihtkohtade koode ja kirjeldusi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-153">On the Destination codes page, create and maintain identifiers and descriptions for delivery destinations.</span></span>
+-   <span data-ttu-id="2f70a-151">Lehel Tarnetingimused saate luua ja hallata kauba müüjalt ostjale tarnimise tingimusi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-151">On the Terms of delivery page, create and maintain the conditions for an item's transfer from seller to buyer.</span></span>
+-   <span data-ttu-id="2f70a-152">Lehel Tarneviisid saate luua ja hallata transpordiviise, mida kasutatakse tellimuse transportimisel müüjalt ostjale.</span><span class="sxs-lookup"><span data-stu-id="2f70a-152">On the Modes of delivery page, create and maintain the methods of transport that are used when an order is delivered from the seller to the buyer.</span></span>
+-   <span data-ttu-id="2f70a-153">Lehel Sihtkoha koodid saate luua ja hallata sihtkohtade koode ja kirjeldusi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-153">On the Destination codes page, create and maintain identifiers and descriptions for delivery destinations.</span></span>
 
-<span data-ttu-id="00a8c-154">**Vormid**</span><span class="sxs-lookup"><span data-stu-id="00a8c-154">**Forms**</span></span>
+<span data-ttu-id="2f70a-154">**Vormid**</span><span class="sxs-lookup"><span data-stu-id="2f70a-154">**Forms**</span></span>
 
--   <span data-ttu-id="00a8c-155">Lehel Vormi märkused saate luua mitmesugustel lehtedel kuvatavat standardteksti.</span><span class="sxs-lookup"><span data-stu-id="00a8c-155">On the Form notes page, create the standard text that appears on various pages.</span></span>
--   <span data-ttu-id="00a8c-156">Lehel Vormi sortimisparameetrid saate seadistada ostutellimuste, saabunud kaupade loendi, saatelehtede ja arvete sortimisjärjestuse.</span><span class="sxs-lookup"><span data-stu-id="00a8c-156">On the Form sorting parameters page, set up the sorting order for requisitions, receipt lists, packing slips, and invoices.</span></span>
--   <span data-ttu-id="00a8c-157">Lehel Prindihalduse seadistus saate seadistada prindihalduse teabe lehtede originaalidele ja koopiatele.</span><span class="sxs-lookup"><span data-stu-id="00a8c-157">On the Print management setup page, set up print management information for originals and copies of pages.</span></span>
+-   <span data-ttu-id="2f70a-155">Lehel Vormi märkused saate luua mitmesugustel lehtedel kuvatavat standardteksti.</span><span class="sxs-lookup"><span data-stu-id="2f70a-155">On the Form notes page, create the standard text that appears on various pages.</span></span>
+-   <span data-ttu-id="2f70a-156">Lehel Vormi sortimisparameetrid saate seadistada ostutellimuste, saabunud kaupade loendi, saatelehtede ja arvete sortimisjärjestuse.</span><span class="sxs-lookup"><span data-stu-id="2f70a-156">On the Form sorting parameters page, set up the sorting order for requisitions, receipt lists, packing slips, and invoices.</span></span>
+-   <span data-ttu-id="2f70a-157">Lehel Prindihalduse seadistus saate seadistada prindihalduse teabe lehtede originaalidele ja koopiatele.</span><span class="sxs-lookup"><span data-stu-id="2f70a-157">On the Print management setup page, set up print management information for originals and copies of pages.</span></span>
 
-<span data-ttu-id="00a8c-158">**Maksed**</span><span class="sxs-lookup"><span data-stu-id="00a8c-158">**Payments**</span></span>
+<span data-ttu-id="2f70a-158">**Maksed**</span><span class="sxs-lookup"><span data-stu-id="2f70a-158">**Payments**</span></span>
 
--   <span data-ttu-id="00a8c-159">Lehel Skontod saate seadistada ja hallata skontode saamise tingimusi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-159">On the Cash discounts page, set up and manage the terms for obtaining cash discounts.</span></span> <span data-ttu-id="00a8c-160">Skonto koodid on seotud hankijatega ja neid rakendatakse ostutellimuste korral.</span><span class="sxs-lookup"><span data-stu-id="00a8c-160">The cash discount codes are linked to vendors and are applied to purchase orders.</span></span>
--   <span data-ttu-id="00a8c-161">Lehel Maksegraafikud saate seadistada maksegraafikuid, mida kasutatakse hankijatele osamaksete tegemiseks.</span><span class="sxs-lookup"><span data-stu-id="00a8c-161">On the Payment schedules page, set up the payment schedules that are used to manage installment payments to vendors.</span></span>
--   <span data-ttu-id="00a8c-162">Lehel Maksepäevad saate määratleda tähtaegade arvutamiseks kasutatavad maksepäevad ja täpsustada maksepäevaks konkreetse nädalapäeva või kuu.</span><span class="sxs-lookup"><span data-stu-id="00a8c-162">On the Payment days page, define the payment days that are used to calculate due dates, and specify payment days for a specific day of the week or month.</span></span>
--   <span data-ttu-id="00a8c-163">Lehel Maksetasu saate luua ja hallata hankijatega seotud maksetasusid.</span><span class="sxs-lookup"><span data-stu-id="00a8c-163">On the Payment fee page, create and maintain the payment fees that are associated with vendors.</span></span>
--   <span data-ttu-id="00a8c-164">Lehel Maksejuhis saate luua ja hallata maksejuhiseid.</span><span class="sxs-lookup"><span data-stu-id="00a8c-164">On the Payment instruction page, create and maintain payment instructions.</span></span>
+-   <span data-ttu-id="2f70a-159">Lehel Skontod saate seadistada ja hallata skontode saamise tingimusi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-159">On the Cash discounts page, set up and manage the terms for obtaining cash discounts.</span></span> <span data-ttu-id="2f70a-160">Skonto koodid on seotud hankijatega ja neid rakendatakse ostutellimuste korral.</span><span class="sxs-lookup"><span data-stu-id="2f70a-160">The cash discount codes are linked to vendors and are applied to purchase orders.</span></span>
+-   <span data-ttu-id="2f70a-161">Lehel Maksegraafikud saate seadistada maksegraafikuid, mida kasutatakse hankijatele osamaksete tegemiseks.</span><span class="sxs-lookup"><span data-stu-id="2f70a-161">On the Payment schedules page, set up the payment schedules that are used to manage installment payments to vendors.</span></span>
+-   <span data-ttu-id="2f70a-162">Lehel Maksepäevad saate määratleda tähtaegade arvutamiseks kasutatavad maksepäevad ja täpsustada maksepäevaks konkreetse nädalapäeva või kuu.</span><span class="sxs-lookup"><span data-stu-id="2f70a-162">On the Payment days page, define the payment days that are used to calculate due dates, and specify payment days for a specific day of the week or month.</span></span>
+-   <span data-ttu-id="2f70a-163">Lehel Maksetasu saate luua ja hallata hankijatega seotud maksetasusid.</span><span class="sxs-lookup"><span data-stu-id="2f70a-163">On the Payment fee page, create and maintain the payment fees that are associated with vendors.</span></span>
+-   <span data-ttu-id="2f70a-164">Lehel Maksejuhis saate luua ja hallata maksejuhiseid.</span><span class="sxs-lookup"><span data-stu-id="2f70a-164">On the Payment instruction page, create and maintain payment instructions.</span></span>
 
-<span data-ttu-id="00a8c-165">**Statistika**</span><span class="sxs-lookup"><span data-stu-id="00a8c-165">**Statistics**</span></span>
+<span data-ttu-id="2f70a-165">**Statistika**</span><span class="sxs-lookup"><span data-stu-id="2f70a-165">**Statistics**</span></span>
 
--   <span data-ttu-id="00a8c-166">Lehel Aegumisperioodi määratlused saate seadistada kasutaja määratletud intervalle, mida kasutatakse hankijakontode tähtajalise jaotuse analüüsimiseks.</span><span class="sxs-lookup"><span data-stu-id="00a8c-166">On the Aging period definitions page, set up user-defined intervals that are used to analyze the maturity distribution of vendor accounts.</span></span>
--   <span data-ttu-id="00a8c-167">Lehel Tegevusala saate luua tegevusala koode, mis hankijatele määratakse.</span><span class="sxs-lookup"><span data-stu-id="00a8c-167">On the Line of business page, create the line of business (LOB) codes that are assigned to vendors.</span></span>
+-   <span data-ttu-id="2f70a-166">Lehel Aegumisperioodi määratlused saate seadistada kasutaja määratletud intervalle, mida kasutatakse hankijakontode tähtajalise jaotuse analüüsimiseks.</span><span class="sxs-lookup"><span data-stu-id="2f70a-166">On the Aging period definitions page, set up user-defined intervals that are used to analyze the maturity distribution of vendor accounts.</span></span>
+-   <span data-ttu-id="2f70a-167">Lehel Tegevusala saate luua tegevusala koode, mis hankijatele määratakse.</span><span class="sxs-lookup"><span data-stu-id="2f70a-167">On the Line of business page, create the line of business (LOB) codes that are assigned to vendors.</span></span>
 
-<span data-ttu-id="00a8c-168">**Maks 1099**</span><span class="sxs-lookup"><span data-stu-id="00a8c-168">**Tax 1099**</span></span>
+<span data-ttu-id="2f70a-168">**Maks 1099**</span><span class="sxs-lookup"><span data-stu-id="2f70a-168">**Tax 1099**</span></span>
 
--   <span data-ttu-id="00a8c-169">Lehel **1099 väljad** saate kontrollida ja muuta miinimumsummasid, millest tuleb USA Maksuametile (IRS-ile) viimaste IRS-i nõuete alusel aru anda.</span><span class="sxs-lookup"><span data-stu-id="00a8c-169">On the **1099 fields** page, verify and update the minimum amounts that must be reported to the Internal Revenue Service (IRS), based on the latest IRS requirements.</span></span>
+-   <span data-ttu-id="2f70a-169">Lehel **1099 väljad** saate kontrollida ja muuta miinimumsummasid, millest tuleb USA Maksuametile (IRS-ile) viimaste IRS-i nõuete alusel aru anda.</span><span class="sxs-lookup"><span data-stu-id="2f70a-169">On the **1099 fields** page, verify and update the minimum amounts that must be reported to the Internal Revenue Service (IRS), based on the latest IRS requirements.</span></span>
 
-## <a name="optional-setup-for-other-modules"></a><span data-ttu-id="00a8c-170">**Valikuline seadistus teiste moodulite puhul**</span><span class="sxs-lookup"><span data-stu-id="00a8c-170">**Optional setup for other modules**</span></span>
-<span data-ttu-id="00a8c-171">**Organisatsiooni haldus**</span><span class="sxs-lookup"><span data-stu-id="00a8c-171">**Organization administration**</span></span>
+## <a name="optional-setup-for-other-modules"></a><span data-ttu-id="2f70a-170">**Valikuline seadistus teiste moodulite puhul**</span><span class="sxs-lookup"><span data-stu-id="2f70a-170">**Optional setup for other modules**</span></span>
+<span data-ttu-id="2f70a-171">**Organisatsiooni haldus**</span><span class="sxs-lookup"><span data-stu-id="2f70a-171">**Organization administration**</span></span>
 
--   <span data-ttu-id="00a8c-172">Lehel numbriseeriad saate seadistada arvenumbritele numbriseeriate grupid.</span><span class="sxs-lookup"><span data-stu-id="00a8c-172">On the Number sequences page, set up number sequence groups for invoice numbers.</span></span>
--   <span data-ttu-id="00a8c-173">Saate seadistada järgmistel lehtedel aadressiteabe.</span><span class="sxs-lookup"><span data-stu-id="00a8c-173">On the following pages, set up address information:</span></span>
-    -   <span data-ttu-id="00a8c-174">Aadressi häälestamine</span><span class="sxs-lookup"><span data-stu-id="00a8c-174">Address setup</span></span>
-    -   <span data-ttu-id="00a8c-175">NAF-koodid</span><span class="sxs-lookup"><span data-stu-id="00a8c-175">NAF codes</span></span>
-    -   <span data-ttu-id="00a8c-176">Impordi sihtnumbrid</span><span class="sxs-lookup"><span data-stu-id="00a8c-176">Import ZIP/postal codes</span></span>
+-   <span data-ttu-id="2f70a-172">Lehel numbriseeriad saate seadistada arvenumbritele numbriseeriate grupid.</span><span class="sxs-lookup"><span data-stu-id="2f70a-172">On the Number sequences page, set up number sequence groups for invoice numbers.</span></span>
+-   <span data-ttu-id="2f70a-173">Saate seadistada järgmistel lehtedel aadressiteabe.</span><span class="sxs-lookup"><span data-stu-id="2f70a-173">On the following pages, set up address information:</span></span>
+    -   <span data-ttu-id="2f70a-174">Aadressi häälestamine</span><span class="sxs-lookup"><span data-stu-id="2f70a-174">Address setup</span></span>
+    -   <span data-ttu-id="2f70a-175">NAF-koodid</span><span class="sxs-lookup"><span data-stu-id="2f70a-175">NAF codes</span></span>
+    -   <span data-ttu-id="2f70a-176">Impordi sihtnumbrid</span><span class="sxs-lookup"><span data-stu-id="2f70a-176">Import ZIP/postal codes</span></span>
 
-<span data-ttu-id="00a8c-177">**Pearaamat**</span><span class="sxs-lookup"><span data-stu-id="00a8c-177">**General ledger**</span></span>
+<span data-ttu-id="2f70a-177">**Pearaamat**</span><span class="sxs-lookup"><span data-stu-id="2f70a-177">**General ledger**</span></span>
 
--   <span data-ttu-id="00a8c-178">Lehel Finantsdimensioonid saate seadistada finantsdimensioone.</span><span class="sxs-lookup"><span data-stu-id="00a8c-178">On the Financial dimensions page, set up financial dimensions.</span></span>
--   <span data-ttu-id="00a8c-179">Järgmistel lehtedel saate seadistada maksuteavet.</span><span class="sxs-lookup"><span data-stu-id="00a8c-179">On the following pages, set up tax information:</span></span>
-    -   <span data-ttu-id="00a8c-180">Käibemaksukoodid</span><span class="sxs-lookup"><span data-stu-id="00a8c-180">Sales tax codes</span></span>
-    -   <span data-ttu-id="00a8c-181">Käibemaksugrupid</span><span class="sxs-lookup"><span data-stu-id="00a8c-181">Sales tax groups</span></span>
-    -   <span data-ttu-id="00a8c-182">Kauba käibemaksugrupid</span><span class="sxs-lookup"><span data-stu-id="00a8c-182">Item sales tax groups</span></span>
-    -   <span data-ttu-id="00a8c-183">Kontogrupp</span><span class="sxs-lookup"><span data-stu-id="00a8c-183">Account group</span></span>
-    -   <span data-ttu-id="00a8c-184">Käibemaksuvabastuse koodid</span><span class="sxs-lookup"><span data-stu-id="00a8c-184">Sales tax exempt codes</span></span>
-    -   <span data-ttu-id="00a8c-185">Käibemaksu jurisdiktsioonid</span><span class="sxs-lookup"><span data-stu-id="00a8c-185">Sales tax jurisdictions</span></span>
-    -   <span data-ttu-id="00a8c-186">Käibemaksuhaldurid</span><span class="sxs-lookup"><span data-stu-id="00a8c-186">Sales tax authorities</span></span>
-    -   <span data-ttu-id="00a8c-187">Käibemaksu tasakaalustusperioodid</span><span class="sxs-lookup"><span data-stu-id="00a8c-187">Sales tax settlement periods</span></span>
+-   <span data-ttu-id="2f70a-178">Lehel Finantsdimensioonid saate seadistada finantsdimensioone.</span><span class="sxs-lookup"><span data-stu-id="2f70a-178">On the Financial dimensions page, set up financial dimensions.</span></span>
+-   <span data-ttu-id="2f70a-179">Järgmistel lehtedel saate seadistada maksuteavet.</span><span class="sxs-lookup"><span data-stu-id="2f70a-179">On the following pages, set up tax information:</span></span>
+    -   <span data-ttu-id="2f70a-180">Käibemaksukoodid</span><span class="sxs-lookup"><span data-stu-id="2f70a-180">Sales tax codes</span></span>
+    -   <span data-ttu-id="2f70a-181">Käibemaksugrupid</span><span class="sxs-lookup"><span data-stu-id="2f70a-181">Sales tax groups</span></span>
+    -   <span data-ttu-id="2f70a-182">Kauba käibemaksugrupid</span><span class="sxs-lookup"><span data-stu-id="2f70a-182">Item sales tax groups</span></span>
+    -   <span data-ttu-id="2f70a-183">Kontogrupp</span><span class="sxs-lookup"><span data-stu-id="2f70a-183">Account group</span></span>
+    -   <span data-ttu-id="2f70a-184">Käibemaksuvabastuse koodid</span><span class="sxs-lookup"><span data-stu-id="2f70a-184">Sales tax exempt codes</span></span>
+    -   <span data-ttu-id="2f70a-185">Käibemaksu jurisdiktsioonid</span><span class="sxs-lookup"><span data-stu-id="2f70a-185">Sales tax jurisdictions</span></span>
+    -   <span data-ttu-id="2f70a-186">Käibemaksuhaldurid</span><span class="sxs-lookup"><span data-stu-id="2f70a-186">Sales tax authorities</span></span>
+    -   <span data-ttu-id="2f70a-187">Käibemaksu tasakaalustusperioodid</span><span class="sxs-lookup"><span data-stu-id="2f70a-187">Sales tax settlement periods</span></span>
 
-<span data-ttu-id="00a8c-188">**Sularaha- ja pangahaldus**</span><span class="sxs-lookup"><span data-stu-id="00a8c-188">**Cash and bank management**</span></span>
+<span data-ttu-id="2f70a-188">**Sularaha- ja pangahaldus**</span><span class="sxs-lookup"><span data-stu-id="2f70a-188">**Cash and bank management**</span></span>
 
--   <span data-ttu-id="00a8c-189">Lehel Makse eesmärgi koodid saate seadistada keskpangamakse eesmärgikoodi.</span><span class="sxs-lookup"><span data-stu-id="00a8c-189">On the Payment purpose codes page, set up the Central Bank purpose code.</span></span>
+-   <span data-ttu-id="2f70a-189">Lehel Makse eesmärgi koodid saate seadistada keskpangamakse eesmärgikoodi.</span><span class="sxs-lookup"><span data-stu-id="2f70a-189">On the Payment purpose codes page, set up the Central Bank purpose code.</span></span>
 
 
 
