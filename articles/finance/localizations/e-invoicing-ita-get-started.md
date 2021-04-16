@@ -1,12 +1,10 @@
 ---
-title: Itaalia elektroonilise arvelduse lisandmooduli kasutamise alustamine
-description: Sellest teemast leiate teabe, mis aitab teil rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management Itaalia elektroonilise arvelduse lisandmoodulit kasutama hakata.
+title: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
+description: Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Itaalias.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259216"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840096"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Itaalia elektroonilise arvelduse lisandmooduli kasutamise alustamine
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,13 +30,13 @@ ms.locfileid: "5259216"
 > [!IMPORTANT]
 > Itaalia elektroonilise arvelduse lisandmoodul ei pruugi praegu toetada kõiki elektrooniliste arvete jaoks saadaolevaid funktsioone rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. 
 
-Sellest teemast leiate teabe, mis aitab teil Itaalia elektroonilise arvelduse lisandmoodulit kasutama hakata. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse juhiseid selle kohta, kuidas edastada teenuse kaudu elektroonilisi arveid, mis on loodud Itaalia-põhises vormingus **FatturaPA**, ja selgitatakse, kuidas töötlemise tulemusi üle vaadata.
+Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Itaalias. Selles antakse juhiseid konfiguratsioonisammude kohta, mis on teenustes Regulatory Configuration Services (RCS) ja rakenduses Finance riigipõhised. Samuti antakse juhiseid selle kohta, kuidas edastada teenuse kaudu elektroonilisi arveid, mis on loodud Itaalia-põhises vormingus **FatturaPA**, ja selgitatakse, kuidas töötlemise tulemusi üle vaadata.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
 Enne selle teema juhiste täitmist peate järgima teemas [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md) olevaid juhiseid.
 
-## <a name="rcs-setup"></a>RCS-i seadistus
+## <a name="rcs-setup"></a>RCS häälestus
 
 RCS-i seadistuse käigus teete järgmist.
 
@@ -153,7 +151,7 @@ Saate avaldada e-arvelduse funktsiooni, muutes versiooni olekuks väärtuse **L�
 
 ![E-arvelduse funktsiooni oleku muutmine](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Elektroonilise arvelduse lisandmooduli integratsiooni seadistamine rakenduses Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Seadista Elektroonilise arveldamise integratsioon Finantsis
 
 Rakenduse Finance seadistuse käigus teete järgmist.
 
@@ -242,9 +240,9 @@ Saate vaadata kõigi edastatud dokumentide edastuslogisid.
 
 ## <a name="related-topics"></a>Seotud dokumendid
 
-- [Elektroonilise arvelduse lisandmooduli ülevaade](e-invoicing-service-overview.md)
-- [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md)
-- [Elektroonilise arvelduse lisandmooduli seadistamine](e-invoicing-setup.md)
+- [Elektroonilise arvelduse ülevaade](e-invoicing-service-overview.md)
+- [Elektroonilise arveldusega alustamine](e-invoicing-get-started.md)
+- [Seadista elektrooniline häälestus](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

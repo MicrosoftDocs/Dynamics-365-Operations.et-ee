@@ -1,27 +1,26 @@
 ---
 title: Aruandluspuu definitsioonid finantsaruannetes
 description: See artikkel kirjeldab aruandluspuu definitsioone. Aruandluspuu definitsioon on aruande komponent, mis määratleb organisatsiooni struktuuri.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568771"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819934"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Aruandluspuu definitsioonid finantsaruannetes
 
@@ -74,7 +73,7 @@ Aruandluspuu definitsiooni loomiseks tehke järgmist.
     | Kaasa/märgi asukoht       | Selles jaotises on loetletud finantsandmetes määratletud dimensioonid ja kuvatud märkide arv kõige pikemas igale dimensioonile määratud väärtuses. Selle dimensiooni lisamiseks aruandluspuu hierarhiasse märkige dimensioonil see ruut. |
     | Segmendi hierarhia ja vahemikud     | See jaotis kuvab dimensioonide hierarhia. Dimensioonide aruandluse järjekorra muutmiseks saate dimensioone loendis liigutada. Väljadel **Alates dimensioonist** ja **Kuni dimensioonini** saate määrata iga dimensiooni väärtuste vahemiku. Kui te vahemikku ei määra, lisatakse aruandluspuule kõik dimensiooniväärtused.<blockquote>[!NOTE] Kui kasutate mitut dimensiooni, kuvatakse tulemuste hulgas ainult dimensioonide kombinatsioonid, millesse on sisestusi tehtud.</blockquote> |
 
-    Kuvatõmmise jaoks, millel on näide dialoogiboksist **Sisesta aruandlusüksused dimensioonidest**, leiate selle artikli edasisest jaotisest „Näide aruandlusüksuste sisestamise kohta dimensioonide dialoogiboksist”.
+    Illustratsiooni jaoks, mis näitab näidet dialoogiboksist **Sisesta aruandlusüksused dimensioonidest** , vaadake „Näide aruandlusüksuste sisestamise kohta dimensioonide dialoogiboksist”.
 
 5. Lisasegmentide loomiseks (näiteks ühe segmendi jaotamiseks kaheks lühemaks segmendiks) klõpsake õiget asukohta väljal **Märgi asukoht** ja seejärel klõpsake käsku **Tükelda segmendid**.
 6. Kahe segmendi mestimiseks ühte segmenti klõpsake segmentide liitmiseks ühte segmendivälja ja seejärel klõpsake käsku **Ühenda segmendid**.
@@ -186,23 +185,23 @@ Siin on aruandlusüksuse struktuur järgmises aruandluspuus.
 - Madalaima taseme üksikasjade aruandlusüksused (Home Sales, Auto Sales, Client Services ja Operations) kajastavad finantsandmete osakondi. Need aruandlusüksused on diagrammi varjutatud alas.
 - Kõrgema taseme kokkuvõtte üksused esitavad üksikasjade üksuste teabe kokkuvõtte.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso Kokkuvõtte Aruandestruktuur – Näide 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Aruandlusüksuse struktuur – näide 2
 
 Järgmisel diagrammil on aruandluspuul ettevõtte funktsiooni järgi jaotatud organisatsiooni struktuur.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso Kokkuvõtte Aruandestruktuur – Näide 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Näide aruandlusüksuste sisestamise kohta dimensioonide dialoogiboksist
 
 Järgmisel illustratsioonil on dialoogiboksi **Sisesta aruandlusüksused dimensioonidest** näide. Selles näites annavad tulemused äriüksuste, kulukeskuste ja osakondade kombinatsiooni.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Lisa Aruandlusüksus](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Saadud aruandluspuu definitsiooni sorditakse äriüksuse, siis kulukeskuse ja siis osakonna järgi. Viienda aruandlusüksuse dimensioon on **Äriüksus = \[001\], Kulukeskus = \[\], Osakond = \[022\]** ja tähistab äriüksuse 001 osakonda 022 puudutavate kontode aruandlusüksust.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Aruandluspuu Illustratsioon](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Andmete koondamise näited
 
@@ -210,11 +209,11 @@ Järgmistes näidetes on võimalik teave, mida koondatavate andmete aruandluspuu
 
 #### <a name="example-1"></a>Näide 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Multi-ettevõtte ümberpööramine](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Näide 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Ettevõtetevahelise osakonna ümberpööramine](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
