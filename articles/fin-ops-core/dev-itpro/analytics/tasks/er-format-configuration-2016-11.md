@@ -2,7 +2,6 @@
 title: Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)
 description: Selles teemas selgitatakse, kuidas luua elektroonilise aruandluse (ER) vormingu konfiguratsiooni.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,148 +13,148 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8cb86c1486223e982f8cbddc8eadaaf1c8ced4f8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 46686b9e4f6197f565a324a9d03cbb695b6a933b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565186"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749065"
 ---
-# <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="c7aa5-103">Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)</span><span class="sxs-lookup"><span data-stu-id="c7aa5-103">ER Create a format configuration (November 2016)</span></span>
+# <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="589be-103">Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)</span><span class="sxs-lookup"><span data-stu-id="589be-103">ER Create a format configuration (November 2016)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c7aa5-104">Selles teemas kirjeldatakse, kuidas rollis „Süsteemi administraator“ või „Elektroonilise aruandluse arendaja“ olev kasutaja saab luua elektroonilise aruandluse (ER) vormingu seadistuse.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-104">This topic explains how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="c7aa5-105">See vormingu konfiguratsioon määrab elektrooniliste dokumentide vormingu, mida maksete töötlemisel kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="c7aa5-106">Selles näites loote vormingu konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpuleviimiseks peate kõigepealt läbima etapid protseduuris „Andmemudeli vastendamine valitud andmeallikatega”.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the "Map model to selected datasources" procedure.</span></span>
+<span data-ttu-id="589be-104">Selles teemas kirjeldatakse, kuidas rollis „Süsteemi administraator“ või „Elektroonilise aruandluse arendaja“ olev kasutaja saab luua elektroonilise aruandluse (ER) vormingu seadistuse.</span><span class="sxs-lookup"><span data-stu-id="589be-104">This topic explains how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="589be-105">See vormingu konfiguratsioon määrab elektrooniliste dokumentide vormingu, mida maksete töötlemisel kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="589be-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="589be-106">Selles näites loote vormingu konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpuleviimiseks peate kõigepealt läbima etapid protseduuris „Andmemudeli vastendamine valitud andmeallikatega”.</span><span class="sxs-lookup"><span data-stu-id="589be-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the "Map model to selected datasources" procedure.</span></span>
 
 
-## <a name="create-a-new-format-configuration"></a><span data-ttu-id="c7aa5-107">Uue vormingu konfiguratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="c7aa5-107">Create a new format configuration</span></span>
-1. <span data-ttu-id="c7aa5-108">Avage **Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-108">Go to **Organization administration > Workspaces > Electronic reporting**.</span></span>
-2. <span data-ttu-id="c7aa5-109">Klõpsake valikut **Aruandluse konfiguratsioonid**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-109">Click **Reporting configurations**.</span></span>
-3. <span data-ttu-id="c7aa5-110">Valige puul suvand **Maksed (lihtsustatud mudel)**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-110">In the tree, select **Payments (simplified model)**.</span></span>
-4. <span data-ttu-id="c7aa5-111">Klõpsake valikut **Loo konfiguratsioon**, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-111">Click **Create configuration** to open the drop dialog.</span></span>
+## <a name="create-a-new-format-configuration"></a><span data-ttu-id="589be-107">Uue vormingu konfiguratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="589be-107">Create a new format configuration</span></span>
+1. <span data-ttu-id="589be-108">Avage **Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus**.</span><span class="sxs-lookup"><span data-stu-id="589be-108">Go to **Organization administration > Workspaces > Electronic reporting**.</span></span>
+2. <span data-ttu-id="589be-109">Klõpsake valikut **Aruandluse konfiguratsioonid**.</span><span class="sxs-lookup"><span data-stu-id="589be-109">Click **Reporting configurations**.</span></span>
+3. <span data-ttu-id="589be-110">Valige puul suvand **Maksed (lihtsustatud mudel)**.</span><span class="sxs-lookup"><span data-stu-id="589be-110">In the tree, select **Payments (simplified model)**.</span></span>
+4. <span data-ttu-id="589be-111">Klõpsake valikut **Loo konfiguratsioon**, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="589be-111">Click **Create configuration** to open the drop dialog.</span></span>
 
  > [!NOTE]
- > <span data-ttu-id="c7aa5-112">Kui te ei näe valikut **Loo konfiguratsioon**, peate lubama kujundusrežiimi lehel **Elektroonilise aruandluse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
+ > <span data-ttu-id="589be-112">Kui te ei näe valikut **Loo konfiguratsioon**, peate lubama kujundusrežiimi lehel **Elektroonilise aruandluse parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="589be-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
  
-5. <span data-ttu-id="c7aa5-113">Sisestage väljale **Uus suvand** **Andmemudelil PaymentModel põhinev vorming**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
-6. <span data-ttu-id="c7aa5-114">Sisestage väljale **Nimi** suvand **BACS (UK fiktiivne)**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
-7. <span data-ttu-id="c7aa5-115">Sisestage väljale **Kirjeldus** suvand **BACS-i hankija maksevorming (UK fiktiivne)**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
-    * <span data-ttu-id="c7aa5-116">Aktiivne konfiguratsiooni pakkuja sisestatakse siia automaatselt.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-116">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="c7aa5-117">See pakkuja saab seda konfiguratsiooni hallata.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-117">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="c7aa5-118">Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-118">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
-    * <span data-ttu-id="c7aa5-119">Määratleda saab elektroonilise dokumendi kindla vormingu.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="c7aa5-120">Jätke see väli tühjaks, kui soovite valida vormingu käitusajal.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-120">Leave this field blank if you want to select a format at run-time.</span></span>  
-8. <span data-ttu-id="c7aa5-121">Sisestage või valige väärtus väljal **Andmemudeli definitsioon**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-121">In the **Data model definition** field, enter or select a value.</span></span>
-9. <span data-ttu-id="c7aa5-122">Klõpsake **Loo konfiguratsioon**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-122">Click **Create configuration**.</span></span> <span data-ttu-id="c7aa5-123">Uus konfiguratsioon on loodud.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-123">A new configuration has been created.</span></span> <span data-ttu-id="c7aa5-124">Mustandversiooni saab kasutada vormingu kujunduse salvestamiseks elektrooniliste dokumentide haldamise puhul.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
+5. <span data-ttu-id="589be-113">Sisestage väljale **Uus suvand** **Andmemudelil PaymentModel põhinev vorming**.</span><span class="sxs-lookup"><span data-stu-id="589be-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
+6. <span data-ttu-id="589be-114">Sisestage väljale **Nimi** suvand **BACS (UK fiktiivne)**.</span><span class="sxs-lookup"><span data-stu-id="589be-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
+7. <span data-ttu-id="589be-115">Sisestage väljale **Kirjeldus** suvand **BACS-i hankija maksevorming (UK fiktiivne)**.</span><span class="sxs-lookup"><span data-stu-id="589be-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
+    * <span data-ttu-id="589be-116">Aktiivne konfiguratsiooni pakkuja sisestatakse siia automaatselt.</span><span class="sxs-lookup"><span data-stu-id="589be-116">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="589be-117">See pakkuja saab seda konfiguratsiooni hallata.</span><span class="sxs-lookup"><span data-stu-id="589be-117">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="589be-118">Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.</span><span class="sxs-lookup"><span data-stu-id="589be-118">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+    * <span data-ttu-id="589be-119">Määratleda saab elektroonilise dokumendi kindla vormingu.</span><span class="sxs-lookup"><span data-stu-id="589be-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="589be-120">Jätke see väli tühjaks, kui soovite valida vormingu käitusajal.</span><span class="sxs-lookup"><span data-stu-id="589be-120">Leave this field blank if you want to select a format at run-time.</span></span>  
+8. <span data-ttu-id="589be-121">Sisestage või valige väärtus väljal **Andmemudeli definitsioon**.</span><span class="sxs-lookup"><span data-stu-id="589be-121">In the **Data model definition** field, enter or select a value.</span></span>
+9. <span data-ttu-id="589be-122">Klõpsake **Loo konfiguratsioon**.</span><span class="sxs-lookup"><span data-stu-id="589be-122">Click **Create configuration**.</span></span> <span data-ttu-id="589be-123">Uus konfiguratsioon on loodud.</span><span class="sxs-lookup"><span data-stu-id="589be-123">A new configuration has been created.</span></span> <span data-ttu-id="589be-124">Mustandversiooni saab kasutada vormingu kujunduse salvestamiseks elektrooniliste dokumentide haldamise puhul.</span><span class="sxs-lookup"><span data-stu-id="589be-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
 
-## <a name="design-the-format-of-an-electronic-document"></a><span data-ttu-id="c7aa5-125">Elektroonilise dokumendi vormingu kujundus</span><span class="sxs-lookup"><span data-stu-id="c7aa5-125">Design the format of an electronic document</span></span>
-1. <span data-ttu-id="c7aa5-126">Klõpsake valikut **Kujundaja**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-126">Click **Designer**.</span></span>
-2. <span data-ttu-id="c7aa5-127">Klõpsake suvandit **Lisa juur** rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-127">Click **Add root** to open the drop dialog.</span></span>
-3. <span data-ttu-id="c7aa5-128">Valige puul suvand **Üldine\Fail**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-128">In the tree, select **Common\File**.</span></span>
-4. <span data-ttu-id="c7aa5-129">Sisestage väljale **Nimi** suvand **Xml**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-129">In the **Name** field, type **Xml**.</span></span>
-5. <span data-ttu-id="c7aa5-130">Sisestage väljale **Kodeerimine** suvand **UTF-8**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-130">In the **Encoding** field, type **UTF-8**.</span></span>
-6. <span data-ttu-id="c7aa5-131">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-131">Click **OK**.</span></span>
-7. <span data-ttu-id="c7aa5-132">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-132">Click **Add**.</span></span>
-8. <span data-ttu-id="c7aa5-133">Valige puul suvand **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-133">In the tree, select **XML\Element**.</span></span>
-9. <span data-ttu-id="c7aa5-134">Sisestage väljale **Nimi** suvand **Teade**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-134">In the **Name** field, type **Message**.</span></span>
-10. <span data-ttu-id="c7aa5-135">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-135">Click **OK**.</span></span>
-11. <span data-ttu-id="c7aa5-136">Puuvaates valige **Xml\Teade**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-136">In the tree, select **Xml\Message**.</span></span>
-12. <span data-ttu-id="c7aa5-137">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-137">Click **Add Element**.</span></span>
-13. <span data-ttu-id="c7aa5-138">Sisestage väljale **Nimi** suvand **Töötlemiskuupäev**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-138">In the **Name** field, type **ProcessingDate**.</span></span>
-14. <span data-ttu-id="c7aa5-139">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-139">Click **OK**.</span></span>
-15. <span data-ttu-id="c7aa5-140">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-140">Click **Add Element**.</span></span>
-16. <span data-ttu-id="c7aa5-141">Sisestage väljale Nimi suvand **TeateId**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-141">In the Name field, type **MessageId**.</span></span>
-17. <span data-ttu-id="c7aa5-142">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-142">Click **OK**.</span></span>
-18. <span data-ttu-id="c7aa5-143">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-143">Click **Add Element**.</span></span>
-19. <span data-ttu-id="c7aa5-144">Sisestage väljale **Nimi** suvand **Maksed**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-144">In the **Name** field, type **Payments**.</span></span>
-20. <span data-ttu-id="c7aa5-145">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-145">Click **OK**.</span></span>
-21. <span data-ttu-id="c7aa5-146">Puuvaates valige **Xml\Teade\Maksed**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-146">In the tree, select **Xml\Message\Payments**.</span></span>
-22. <span data-ttu-id="c7aa5-147">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-147">Click **Add Element**.</span></span>
-23. <span data-ttu-id="c7aa5-148">Sisestage väljale **Nimi** suvand **Kaup**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-148">In the **Name** field, type **Item**.</span></span>
-24. <span data-ttu-id="c7aa5-149">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-149">Click **OK**.</span></span>
-25. <span data-ttu-id="c7aa5-150">Puuvaates valige **Xml\Teade\Maksed\Kaup**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-150">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-26. <span data-ttu-id="c7aa5-151">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-151">Click **Add**.</span></span>
-27. <span data-ttu-id="c7aa5-152">Valige puul suvand **XML\Atribuut**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-152">In the tree, select **XML\Attribute**.</span></span>
-28. <span data-ttu-id="c7aa5-153">Sisestage väljale Nimi suvand **Id**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-153">In the Name field, type **Id**.</span></span>
-29. <span data-ttu-id="c7aa5-154">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-154">Click **OK**.</span></span>
-30. <span data-ttu-id="c7aa5-155">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-155">Click **Add**.</span></span>
-31. <span data-ttu-id="c7aa5-156">Valige puul suvand **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-156">In the tree, select **XML\Element**.</span></span>
-32. <span data-ttu-id="c7aa5-157">Sisestage väljale Nimi suvand **Hankija**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-157">In the Name field, type **Vendor**.</span></span>
-33. <span data-ttu-id="c7aa5-158">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-158">Click **OK**.</span></span>
-34. <span data-ttu-id="c7aa5-159">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-159">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
-35. <span data-ttu-id="c7aa5-160">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-160">Click **Add Element**.</span></span>
-36. <span data-ttu-id="c7aa5-161">Sisestage väljale Nimi suvand **Nimi**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-161">In the Name field, type **Name**.</span></span>
-37. <span data-ttu-id="c7aa5-162">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-162">Click **OK**.</span></span>
-38. <span data-ttu-id="c7aa5-163">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-163">Click **Add Element**.</span></span>
-39. <span data-ttu-id="c7aa5-164">Sisestage väljale **Nimi** suvand **Pank**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-164">In the **Name** field, type **Bank**.</span></span>
-40. <span data-ttu-id="c7aa5-165">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-165">Click **OK**.</span></span>
-41. <span data-ttu-id="c7aa5-166">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Pank**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-166">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank**.</span></span>
-42. <span data-ttu-id="c7aa5-167">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-167">Click **Add Element**.</span></span>
-43. <span data-ttu-id="c7aa5-168">Sisestage väljale **Nimi** suvand **Marsruudinumber**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-168">In the **Name** field, type **RoutingNumber**.</span></span>
-44. <span data-ttu-id="c7aa5-169">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-169">Click **OK**.</span></span>
-45. <span data-ttu-id="c7aa5-170">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-170">Click **Add Element**.</span></span>
-46. <span data-ttu-id="c7aa5-171">Sisestage väljale **Nimi** suvand **Kontonumber**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-171">In the **Name** field, type **AccountNumber**.</span></span>
-47. <span data-ttu-id="c7aa5-172">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-172">Click **OK**.</span></span>
-48. <span data-ttu-id="c7aa5-173">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-173">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
-49. <span data-ttu-id="c7aa5-174">Klõpsake käsku **Kopeeri**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-174">Click **Copy**.</span></span>
-50. <span data-ttu-id="c7aa5-175">Puuvaates valige **Xml\Teade\Maksed\Kaup**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-175">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-51. <span data-ttu-id="c7aa5-176">Klõpsake käsku **Kleebi**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-176">Click **Paste**.</span></span>
-52. <span data-ttu-id="c7aa5-177">Sisestage väljale **Nimi** suvand **Maksja**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-177">In the **Name** field, type **Payer**.</span></span>
-53. <span data-ttu-id="c7aa5-178">Puuvaates valige **Xml\Teade\Maksed\Kaup**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-178">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-54. <span data-ttu-id="c7aa5-179">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-179">Click **Add Element**.</span></span>
-55. <span data-ttu-id="c7aa5-180">Sisestage väljale **Nimi** suvand **Valuuta**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-180">In the **Name** field, type **Currency**.</span></span>
-56. <span data-ttu-id="c7aa5-181">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-181">Click **OK**.</span></span>
-57. <span data-ttu-id="c7aa5-182">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-182">Click **Add Element**.</span></span>
-58. <span data-ttu-id="c7aa5-183">Sisestage väljale **Nimi** suvand **Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-183">In the **Name** field, type **Description**.</span></span>
-59. <span data-ttu-id="c7aa5-184">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-184">Click **OK**.</span></span>
-60. <span data-ttu-id="c7aa5-185">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-185">Click **Add Element**.</span></span>
-61. <span data-ttu-id="c7aa5-186">Sisestage väljale Nimi suvand **Transkuupäev**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-186">In the Name field, type **TransDate**.</span></span>
-62. <span data-ttu-id="c7aa5-187">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-187">Click **OK**.</span></span>
-63. <span data-ttu-id="c7aa5-188">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-188">Click **Add Element**.</span></span>
-64. <span data-ttu-id="c7aa5-189">Sisestage väljale Nimi suvand **Summa**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-189">In the Name field, type **Amount**.</span></span>
-65. <span data-ttu-id="c7aa5-190">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-190">Click **OK**.</span></span>
+## <a name="design-the-format-of-an-electronic-document"></a><span data-ttu-id="589be-125">Elektroonilise dokumendi vormingu kujundus</span><span class="sxs-lookup"><span data-stu-id="589be-125">Design the format of an electronic document</span></span>
+1. <span data-ttu-id="589be-126">Klõpsake valikut **Kujundaja**.</span><span class="sxs-lookup"><span data-stu-id="589be-126">Click **Designer**.</span></span>
+2. <span data-ttu-id="589be-127">Klõpsake suvandit **Lisa juur** rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="589be-127">Click **Add root** to open the drop dialog.</span></span>
+3. <span data-ttu-id="589be-128">Valige puul suvand **Üldine\Fail**.</span><span class="sxs-lookup"><span data-stu-id="589be-128">In the tree, select **Common\File**.</span></span>
+4. <span data-ttu-id="589be-129">Sisestage väljale **Nimi** suvand **Xml**.</span><span class="sxs-lookup"><span data-stu-id="589be-129">In the **Name** field, type **Xml**.</span></span>
+5. <span data-ttu-id="589be-130">Sisestage väljale **Kodeerimine** suvand **UTF-8**.</span><span class="sxs-lookup"><span data-stu-id="589be-130">In the **Encoding** field, type **UTF-8**.</span></span>
+6. <span data-ttu-id="589be-131">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-131">Click **OK**.</span></span>
+7. <span data-ttu-id="589be-132">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="589be-132">Click **Add**.</span></span>
+8. <span data-ttu-id="589be-133">Valige puul suvand **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="589be-133">In the tree, select **XML\Element**.</span></span>
+9. <span data-ttu-id="589be-134">Sisestage väljale **Nimi** suvand **Teade**.</span><span class="sxs-lookup"><span data-stu-id="589be-134">In the **Name** field, type **Message**.</span></span>
+10. <span data-ttu-id="589be-135">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-135">Click **OK**.</span></span>
+11. <span data-ttu-id="589be-136">Puuvaates valige **Xml\Teade**.</span><span class="sxs-lookup"><span data-stu-id="589be-136">In the tree, select **Xml\Message**.</span></span>
+12. <span data-ttu-id="589be-137">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-137">Click **Add Element**.</span></span>
+13. <span data-ttu-id="589be-138">Sisestage väljale **Nimi** suvand **Töötlemiskuupäev**.</span><span class="sxs-lookup"><span data-stu-id="589be-138">In the **Name** field, type **ProcessingDate**.</span></span>
+14. <span data-ttu-id="589be-139">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-139">Click **OK**.</span></span>
+15. <span data-ttu-id="589be-140">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-140">Click **Add Element**.</span></span>
+16. <span data-ttu-id="589be-141">Sisestage väljale Nimi suvand **TeateId**.</span><span class="sxs-lookup"><span data-stu-id="589be-141">In the Name field, type **MessageId**.</span></span>
+17. <span data-ttu-id="589be-142">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-142">Click **OK**.</span></span>
+18. <span data-ttu-id="589be-143">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-143">Click **Add Element**.</span></span>
+19. <span data-ttu-id="589be-144">Sisestage väljale **Nimi** suvand **Maksed**.</span><span class="sxs-lookup"><span data-stu-id="589be-144">In the **Name** field, type **Payments**.</span></span>
+20. <span data-ttu-id="589be-145">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-145">Click **OK**.</span></span>
+21. <span data-ttu-id="589be-146">Puuvaates valige **Xml\Teade\Maksed**.</span><span class="sxs-lookup"><span data-stu-id="589be-146">In the tree, select **Xml\Message\Payments**.</span></span>
+22. <span data-ttu-id="589be-147">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-147">Click **Add Element**.</span></span>
+23. <span data-ttu-id="589be-148">Sisestage väljale **Nimi** suvand **Kaup**.</span><span class="sxs-lookup"><span data-stu-id="589be-148">In the **Name** field, type **Item**.</span></span>
+24. <span data-ttu-id="589be-149">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-149">Click **OK**.</span></span>
+25. <span data-ttu-id="589be-150">Puuvaates valige **Xml\Teade\Maksed\Kaup**.</span><span class="sxs-lookup"><span data-stu-id="589be-150">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+26. <span data-ttu-id="589be-151">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="589be-151">Click **Add**.</span></span>
+27. <span data-ttu-id="589be-152">Valige puul suvand **XML\Atribuut**.</span><span class="sxs-lookup"><span data-stu-id="589be-152">In the tree, select **XML\Attribute**.</span></span>
+28. <span data-ttu-id="589be-153">Sisestage väljale Nimi suvand **Id**.</span><span class="sxs-lookup"><span data-stu-id="589be-153">In the Name field, type **Id**.</span></span>
+29. <span data-ttu-id="589be-154">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-154">Click **OK**.</span></span>
+30. <span data-ttu-id="589be-155">Klõpsake vahekaarti **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="589be-155">Click **Add**.</span></span>
+31. <span data-ttu-id="589be-156">Valige puul suvand **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="589be-156">In the tree, select **XML\Element**.</span></span>
+32. <span data-ttu-id="589be-157">Sisestage väljale Nimi suvand **Hankija**.</span><span class="sxs-lookup"><span data-stu-id="589be-157">In the Name field, type **Vendor**.</span></span>
+33. <span data-ttu-id="589be-158">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-158">Click **OK**.</span></span>
+34. <span data-ttu-id="589be-159">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija**.</span><span class="sxs-lookup"><span data-stu-id="589be-159">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
+35. <span data-ttu-id="589be-160">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-160">Click **Add Element**.</span></span>
+36. <span data-ttu-id="589be-161">Sisestage väljale Nimi suvand **Nimi**.</span><span class="sxs-lookup"><span data-stu-id="589be-161">In the Name field, type **Name**.</span></span>
+37. <span data-ttu-id="589be-162">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-162">Click **OK**.</span></span>
+38. <span data-ttu-id="589be-163">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-163">Click **Add Element**.</span></span>
+39. <span data-ttu-id="589be-164">Sisestage väljale **Nimi** suvand **Pank**.</span><span class="sxs-lookup"><span data-stu-id="589be-164">In the **Name** field, type **Bank**.</span></span>
+40. <span data-ttu-id="589be-165">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-165">Click **OK**.</span></span>
+41. <span data-ttu-id="589be-166">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Pank**.</span><span class="sxs-lookup"><span data-stu-id="589be-166">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank**.</span></span>
+42. <span data-ttu-id="589be-167">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-167">Click **Add Element**.</span></span>
+43. <span data-ttu-id="589be-168">Sisestage väljale **Nimi** suvand **Marsruudinumber**.</span><span class="sxs-lookup"><span data-stu-id="589be-168">In the **Name** field, type **RoutingNumber**.</span></span>
+44. <span data-ttu-id="589be-169">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-169">Click **OK**.</span></span>
+45. <span data-ttu-id="589be-170">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-170">Click **Add Element**.</span></span>
+46. <span data-ttu-id="589be-171">Sisestage väljale **Nimi** suvand **Kontonumber**.</span><span class="sxs-lookup"><span data-stu-id="589be-171">In the **Name** field, type **AccountNumber**.</span></span>
+47. <span data-ttu-id="589be-172">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-172">Click **OK**.</span></span>
+48. <span data-ttu-id="589be-173">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija**.</span><span class="sxs-lookup"><span data-stu-id="589be-173">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
+49. <span data-ttu-id="589be-174">Klõpsake käsku **Kopeeri**.</span><span class="sxs-lookup"><span data-stu-id="589be-174">Click **Copy**.</span></span>
+50. <span data-ttu-id="589be-175">Puuvaates valige **Xml\Teade\Maksed\Kaup**.</span><span class="sxs-lookup"><span data-stu-id="589be-175">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+51. <span data-ttu-id="589be-176">Klõpsake käsku **Kleebi**.</span><span class="sxs-lookup"><span data-stu-id="589be-176">Click **Paste**.</span></span>
+52. <span data-ttu-id="589be-177">Sisestage väljale **Nimi** suvand **Maksja**.</span><span class="sxs-lookup"><span data-stu-id="589be-177">In the **Name** field, type **Payer**.</span></span>
+53. <span data-ttu-id="589be-178">Puuvaates valige **Xml\Teade\Maksed\Kaup**.</span><span class="sxs-lookup"><span data-stu-id="589be-178">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+54. <span data-ttu-id="589be-179">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-179">Click **Add Element**.</span></span>
+55. <span data-ttu-id="589be-180">Sisestage väljale **Nimi** suvand **Valuuta**.</span><span class="sxs-lookup"><span data-stu-id="589be-180">In the **Name** field, type **Currency**.</span></span>
+56. <span data-ttu-id="589be-181">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-181">Click **OK**.</span></span>
+57. <span data-ttu-id="589be-182">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-182">Click **Add Element**.</span></span>
+58. <span data-ttu-id="589be-183">Sisestage väljale **Nimi** suvand **Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="589be-183">In the **Name** field, type **Description**.</span></span>
+59. <span data-ttu-id="589be-184">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-184">Click **OK**.</span></span>
+60. <span data-ttu-id="589be-185">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-185">Click **Add Element**.</span></span>
+61. <span data-ttu-id="589be-186">Sisestage väljale Nimi suvand **Transkuupäev**.</span><span class="sxs-lookup"><span data-stu-id="589be-186">In the Name field, type **TransDate**.</span></span>
+62. <span data-ttu-id="589be-187">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-187">Click **OK**.</span></span>
+63. <span data-ttu-id="589be-188">Klõpsake käsku **Lisa element**.</span><span class="sxs-lookup"><span data-stu-id="589be-188">Click **Add Element**.</span></span>
+64. <span data-ttu-id="589be-189">Sisestage väljale Nimi suvand **Summa**.</span><span class="sxs-lookup"><span data-stu-id="589be-189">In the Name field, type **Amount**.</span></span>
+65. <span data-ttu-id="589be-190">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-190">Click **OK**.</span></span>
 
-## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="c7aa5-191">Vormingu komponentide ettevalmistamine andmemudeli elementidega vastendamiseks</span><span class="sxs-lookup"><span data-stu-id="c7aa5-191">Prepare format components for mapping to data model elements</span></span>
-1. <span data-ttu-id="c7aa5-192">Puuvaates valige **Xml\Teade\Töötlemiskuupäev**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-192">In the tree, select **Xml\Message\ProcessingDate**.</span></span>
-2. <span data-ttu-id="c7aa5-193">Klõpsake valikut **Lisa** rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-193">Click **Add** to open the drop dialog.</span></span>
-3. <span data-ttu-id="c7aa5-194">Puuvaates valige **Tekst\Kuupäev**”.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-194">In the tree, select **Text\DateTime**.</span></span>
-4. <span data-ttu-id="c7aa5-195">Sisestage väljale **Vorming** suvand **aaaa-kk-pp**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-195">In the **Format** field, type **yyyy-MM-dd**.</span></span>
-5. <span data-ttu-id="c7aa5-196">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-196">Click **OK**.</span></span>
-6. <span data-ttu-id="c7aa5-197">Puuvaates valige **Xml\Teade\Maksed\Kaup\Transkuupäev**”</span><span class="sxs-lookup"><span data-stu-id="c7aa5-197">In the tree, select **Xml\Message\Payments\Item\TransDate**.</span></span>
-7. <span data-ttu-id="c7aa5-198">Klõpsake valikut **Lisa kuupäev**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-198">Click **Add DateTime**.</span></span>
-8. <span data-ttu-id="c7aa5-199">Sisestage väljale **Vorming** suvand **aaaa-kk-pp**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-199">In the **Format** field, type **yyyy-MM-dd**.</span></span>
-9. <span data-ttu-id="c7aa5-200">Väljal **Kuupäev** valige **Kuupäev**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-200">In the **DateTime** type field, select **Date**.</span></span>
-10. <span data-ttu-id="c7aa5-201">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-201">Click **OK**.</span></span>
-11. <span data-ttu-id="c7aa5-202">Puuvaates valige **Xml\Teade\TeateId**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-202">In the tree, select **Xml\Message\MessageId**.</span></span>
-12. <span data-ttu-id="c7aa5-203">Klõpsake valikut **Lisa** rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-203">Click **Add** to open the drop dialog.</span></span>
-13. <span data-ttu-id="c7aa5-204">Valige puul suvand **Tekst\String**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-204">In the tree, select **Text\String**.</span></span>
-14. <span data-ttu-id="c7aa5-205">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-205">Click **OK**.</span></span>
-15. <span data-ttu-id="c7aa5-206">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Nimi**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-206">In the tree, select **Xml\Message\Payments\Item\Vendor\Name**.</span></span>
-16. <span data-ttu-id="c7aa5-207">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-207">Click **Add String**.</span></span>
-17. <span data-ttu-id="c7aa5-208">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-208">Click **OK**.</span></span>
-18. <span data-ttu-id="c7aa5-209">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Pank\Marsruudinumber**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-209">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber**.</span></span>
-19. <span data-ttu-id="c7aa5-210">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-210">Click **Add String**.</span></span>
-20. <span data-ttu-id="c7aa5-211">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-211">Click **OK**.</span></span>
-21. <span data-ttu-id="c7aa5-212">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Pank\Kontonumber**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-212">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\AccountNumber**.</span></span>
-22. <span data-ttu-id="c7aa5-213">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-213">Click **Add String**.</span></span>
-23. <span data-ttu-id="c7aa5-214">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-214">Click **OK**.</span></span>
-24. <span data-ttu-id="c7aa5-215">Puuvaates valige **Xml\Teade\Maksed\Kaup\Maksed\Nimi**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-215">In the tree, select **Xml\Message\Payments\Item\Payer\Name**.</span></span>
-25. <span data-ttu-id="c7aa5-216">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-216">Click **Add String**.</span></span>
-26. <span data-ttu-id="c7aa5-217">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-217">Click **OK**.</span></span>
-27. <span data-ttu-id="c7aa5-218">Puuvaates valige **Xml\Teade\Maksed\Kaup\Maksja\Pank\Marsruudinumber**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-218">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\RoutingNumber**.</span></span>
-28. <span data-ttu-id="c7aa5-219">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-219">Click **Add String**.</span></span>
-29. <span data-ttu-id="c7aa5-220">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-220">Click **OK**.</span></span>
-30. <span data-ttu-id="c7aa5-221">Puuvaates valige **Xml\Teade\Maksed\Kaup\Maksja\Pank\Kontonumber**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-221">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\AccountNumber**.</span></span>
-31. <span data-ttu-id="c7aa5-222">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-222">Click **Add String**.</span></span>
-32. <span data-ttu-id="c7aa5-223">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-223">Click **OK**.</span></span>
-33. <span data-ttu-id="c7aa5-224">Puuvaates valige **Xml\Teade\Maksed\Kaup\Valuuta**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-224">In the tree, select **Xml\Message\Payments\Item\Currency**.</span></span>
-34. <span data-ttu-id="c7aa5-225">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-225">Click **Add String**.</span></span>
-35. <span data-ttu-id="c7aa5-226">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-226">Click **OK**.</span></span>
-36. <span data-ttu-id="c7aa5-227">Puuvaates valige **Xml\Teade\Maksed\Kaup\Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-227">In the tree, select **Xml\Message\Payments\Item\Description**.</span></span>
-37. <span data-ttu-id="c7aa5-228">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-228">Click **Add String**.</span></span>
-38. <span data-ttu-id="c7aa5-229">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-229">Click **OK**.</span></span>
-39. <span data-ttu-id="c7aa5-230">Puuvaates valige **Xml\Teade\Maksed\Kaup\Summa**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-230">In the tree, select **Xml\Message\Payments\Item\Amount**.</span></span>
-40. <span data-ttu-id="c7aa5-231">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-231">Click **Add String**.</span></span>
-41. <span data-ttu-id="c7aa5-232">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-232">Click **OK**.</span></span>
-42. <span data-ttu-id="c7aa5-233">Klõpsake nuppu **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-233">Click **Save**.</span></span>
-43. <span data-ttu-id="c7aa5-234">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="c7aa5-234">Close the page.</span></span>
+## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="589be-191">Vormingu komponentide ettevalmistamine andmemudeli elementidega vastendamiseks</span><span class="sxs-lookup"><span data-stu-id="589be-191">Prepare format components for mapping to data model elements</span></span>
+1. <span data-ttu-id="589be-192">Puuvaates valige **Xml\Teade\Töötlemiskuupäev**.</span><span class="sxs-lookup"><span data-stu-id="589be-192">In the tree, select **Xml\Message\ProcessingDate**.</span></span>
+2. <span data-ttu-id="589be-193">Klõpsake valikut **Lisa** rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="589be-193">Click **Add** to open the drop dialog.</span></span>
+3. <span data-ttu-id="589be-194">Puuvaates valige **Tekst\Kuupäev**”.</span><span class="sxs-lookup"><span data-stu-id="589be-194">In the tree, select **Text\DateTime**.</span></span>
+4. <span data-ttu-id="589be-195">Sisestage väljale **Vorming** suvand **aaaa-kk-pp**.</span><span class="sxs-lookup"><span data-stu-id="589be-195">In the **Format** field, type **yyyy-MM-dd**.</span></span>
+5. <span data-ttu-id="589be-196">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-196">Click **OK**.</span></span>
+6. <span data-ttu-id="589be-197">Puuvaates valige **Xml\Teade\Maksed\Kaup\Transkuupäev**”</span><span class="sxs-lookup"><span data-stu-id="589be-197">In the tree, select **Xml\Message\Payments\Item\TransDate**.</span></span>
+7. <span data-ttu-id="589be-198">Klõpsake valikut **Lisa kuupäev**.</span><span class="sxs-lookup"><span data-stu-id="589be-198">Click **Add DateTime**.</span></span>
+8. <span data-ttu-id="589be-199">Sisestage väljale **Vorming** suvand **aaaa-kk-pp**.</span><span class="sxs-lookup"><span data-stu-id="589be-199">In the **Format** field, type **yyyy-MM-dd**.</span></span>
+9. <span data-ttu-id="589be-200">Väljal **Kuupäev** valige **Kuupäev**.</span><span class="sxs-lookup"><span data-stu-id="589be-200">In the **DateTime** type field, select **Date**.</span></span>
+10. <span data-ttu-id="589be-201">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-201">Click **OK**.</span></span>
+11. <span data-ttu-id="589be-202">Puuvaates valige **Xml\Teade\TeateId**.</span><span class="sxs-lookup"><span data-stu-id="589be-202">In the tree, select **Xml\Message\MessageId**.</span></span>
+12. <span data-ttu-id="589be-203">Klõpsake valikut **Lisa** rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="589be-203">Click **Add** to open the drop dialog.</span></span>
+13. <span data-ttu-id="589be-204">Valige puul suvand **Tekst\String**.</span><span class="sxs-lookup"><span data-stu-id="589be-204">In the tree, select **Text\String**.</span></span>
+14. <span data-ttu-id="589be-205">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-205">Click **OK**.</span></span>
+15. <span data-ttu-id="589be-206">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Nimi**.</span><span class="sxs-lookup"><span data-stu-id="589be-206">In the tree, select **Xml\Message\Payments\Item\Vendor\Name**.</span></span>
+16. <span data-ttu-id="589be-207">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-207">Click **Add String**.</span></span>
+17. <span data-ttu-id="589be-208">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-208">Click **OK**.</span></span>
+18. <span data-ttu-id="589be-209">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Pank\Marsruudinumber**.</span><span class="sxs-lookup"><span data-stu-id="589be-209">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber**.</span></span>
+19. <span data-ttu-id="589be-210">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-210">Click **Add String**.</span></span>
+20. <span data-ttu-id="589be-211">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-211">Click **OK**.</span></span>
+21. <span data-ttu-id="589be-212">Puuvaates valige **Xml\Teade\Maksed\Kaup\Hankija\Pank\Kontonumber**.</span><span class="sxs-lookup"><span data-stu-id="589be-212">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\AccountNumber**.</span></span>
+22. <span data-ttu-id="589be-213">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-213">Click **Add String**.</span></span>
+23. <span data-ttu-id="589be-214">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-214">Click **OK**.</span></span>
+24. <span data-ttu-id="589be-215">Puuvaates valige **Xml\Teade\Maksed\Kaup\Maksed\Nimi**.</span><span class="sxs-lookup"><span data-stu-id="589be-215">In the tree, select **Xml\Message\Payments\Item\Payer\Name**.</span></span>
+25. <span data-ttu-id="589be-216">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-216">Click **Add String**.</span></span>
+26. <span data-ttu-id="589be-217">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-217">Click **OK**.</span></span>
+27. <span data-ttu-id="589be-218">Puuvaates valige **Xml\Teade\Maksed\Kaup\Maksja\Pank\Marsruudinumber**.</span><span class="sxs-lookup"><span data-stu-id="589be-218">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\RoutingNumber**.</span></span>
+28. <span data-ttu-id="589be-219">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-219">Click **Add String**.</span></span>
+29. <span data-ttu-id="589be-220">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-220">Click **OK**.</span></span>
+30. <span data-ttu-id="589be-221">Puuvaates valige **Xml\Teade\Maksed\Kaup\Maksja\Pank\Kontonumber**.</span><span class="sxs-lookup"><span data-stu-id="589be-221">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\AccountNumber**.</span></span>
+31. <span data-ttu-id="589be-222">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-222">Click **Add String**.</span></span>
+32. <span data-ttu-id="589be-223">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-223">Click **OK**.</span></span>
+33. <span data-ttu-id="589be-224">Puuvaates valige **Xml\Teade\Maksed\Kaup\Valuuta**.</span><span class="sxs-lookup"><span data-stu-id="589be-224">In the tree, select **Xml\Message\Payments\Item\Currency**.</span></span>
+34. <span data-ttu-id="589be-225">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-225">Click **Add String**.</span></span>
+35. <span data-ttu-id="589be-226">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-226">Click **OK**.</span></span>
+36. <span data-ttu-id="589be-227">Puuvaates valige **Xml\Teade\Maksed\Kaup\Kirjeldus**.</span><span class="sxs-lookup"><span data-stu-id="589be-227">In the tree, select **Xml\Message\Payments\Item\Description**.</span></span>
+37. <span data-ttu-id="589be-228">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-228">Click **Add String**.</span></span>
+38. <span data-ttu-id="589be-229">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-229">Click **OK**.</span></span>
+39. <span data-ttu-id="589be-230">Puuvaates valige **Xml\Teade\Maksed\Kaup\Summa**.</span><span class="sxs-lookup"><span data-stu-id="589be-230">In the tree, select **Xml\Message\Payments\Item\Amount**.</span></span>
+40. <span data-ttu-id="589be-231">Klõpsake käsku **Lisa string**.</span><span class="sxs-lookup"><span data-stu-id="589be-231">Click **Add String**.</span></span>
+41. <span data-ttu-id="589be-232">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-232">Click **OK**.</span></span>
+42. <span data-ttu-id="589be-233">Klõpsake nuppu **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="589be-233">Click **Save**.</span></span>
+43. <span data-ttu-id="589be-234">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="589be-234">Close the page.</span></span>
 
 
 
