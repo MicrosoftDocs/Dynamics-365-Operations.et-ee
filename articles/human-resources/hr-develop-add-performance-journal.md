@@ -2,11 +2,9 @@
 title: Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
 description: Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
@@ -16,45 +14,45 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a865ee37ed650c564961f6b3dd8773eea4f7b9ea
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 94df675b02054d7a4761ea5b6edf24c6207e8fc9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465626"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805558"
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a><span data-ttu-id="9536d-103">Jõudluse töölehele kirje lisamine ja teistele tänu saatmine</span><span class="sxs-lookup"><span data-stu-id="9536d-103">Add to your performance journal and send praise to someone</span></span>
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a><span data-ttu-id="d56ac-103">Jõudluse töölehele kirje lisamine ja teistele tänu saatmine</span><span class="sxs-lookup"><span data-stu-id="d56ac-103">Add to your performance journal and send praise to someone</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="9536d-104">Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil.</span><span class="sxs-lookup"><span data-stu-id="9536d-104">The performance journal holds information that relates to how you met your goals or how you performed during a period.</span></span> <span data-ttu-id="9536d-105">Töölehe kaudu saab ka kolleegi tegevusi kiita.</span><span class="sxs-lookup"><span data-stu-id="9536d-105">You can also praise the actions of a co-worker from the journal.</span></span> <span data-ttu-id="9536d-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="9536d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9536d-107">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="9536d-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="d56ac-104">Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil.</span><span class="sxs-lookup"><span data-stu-id="d56ac-104">The performance journal holds information that relates to how you met your goals or how you performed during a period.</span></span> <span data-ttu-id="d56ac-105">Töölehe kaudu saab ka kolleegi tegevusi kiita.</span><span class="sxs-lookup"><span data-stu-id="d56ac-105">You can also praise the actions of a co-worker from the journal.</span></span> <span data-ttu-id="d56ac-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="d56ac-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d56ac-107">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="d56ac-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="9536d-108">Avage Kõik tööruumid > Töötaja iseteenindus.</span><span class="sxs-lookup"><span data-stu-id="9536d-108">Go to All workspaces > Employee self service.</span></span>
-2. <span data-ttu-id="9536d-109">Klõpsake valikut Jõudluse tööraamat.</span><span class="sxs-lookup"><span data-stu-id="9536d-109">Click Performance journal.</span></span>
-3. <span data-ttu-id="9536d-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9536d-110">Click New.</span></span>
-4. <span data-ttu-id="9536d-111">Sisestage väärtus väljale Pealkiri.</span><span class="sxs-lookup"><span data-stu-id="9536d-111">In the Title field, type a value.</span></span>
-5. <span data-ttu-id="9536d-112">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="9536d-112">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="9536d-113">Jõudluse töölehe kuupäev on töölehe loomise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="9536d-113">The performance journal date is the date that the journal was created.</span></span>  
-    * <span data-ttu-id="9536d-114">Allikas näitab, kust jõudluse tööleht pärineb.</span><span class="sxs-lookup"><span data-stu-id="9536d-114">The source represents where the performance journal came from.</span></span> <span data-ttu-id="9536d-115">Kui teie selle loote, on selle lähtekoht Minu tööleht.</span><span class="sxs-lookup"><span data-stu-id="9536d-115">When you create one, it comes from My journal.</span></span> <span data-ttu-id="9536d-116">Kui selle loob teie juht, on selle lähtekoht Juhi tööleht.</span><span class="sxs-lookup"><span data-stu-id="9536d-116">If your manager creates one, it comes from the Manager journal.</span></span>  
-    * <span data-ttu-id="9536d-117">Saate seda töölehte oma juhiga jagada või muuta selle nähtavaks ainult endale.</span><span class="sxs-lookup"><span data-stu-id="9536d-117">You can share this journal with your manager or make it only visible to you.</span></span>  
-6. <span data-ttu-id="9536d-118">Sisestage kuupäev väljale Alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="9536d-118">In the Start date field, enter a date.</span></span>
-7. <span data-ttu-id="9536d-119">Sisestage kuupäev väljale Lõpetamiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="9536d-119">In the Date completed field, enter a date.</span></span>
-8. <span data-ttu-id="9536d-120">Valige Jah väljalt Arenguplaan.</span><span class="sxs-lookup"><span data-stu-id="9536d-120">Select Yes in the Development plan field.</span></span>
-9. <span data-ttu-id="9536d-121">Tippige väärtus väljale Märksõnad.</span><span class="sxs-lookup"><span data-stu-id="9536d-121">In the Keywords field, type a value.</span></span>
-10. <span data-ttu-id="9536d-122">Klõpsake valikut Lisa väline link.</span><span class="sxs-lookup"><span data-stu-id="9536d-122">Click Add external link.</span></span>
-11. <span data-ttu-id="9536d-123">Tippige väljale Kirjeldus väärtus Envision.</span><span class="sxs-lookup"><span data-stu-id="9536d-123">In the Description field, type 'Envision'.</span></span>
-12. <span data-ttu-id="9536d-124">Sisestage internetiaadressi väljale väärtus https://www.microsoft.com/en/envision/default.</span><span class="sxs-lookup"><span data-stu-id="9536d-124">In the Internet address field, type 'https://www.microsoft.com/en/envision/default'.</span></span>
-13. <span data-ttu-id="9536d-125">Klõpsake nupu Salvesta all olevat selgitust „Jõudluse tööleht” ruudustikku naasmiseks.</span><span class="sxs-lookup"><span data-stu-id="9536d-125">Click on the caption below the Save button called "Performance journal" to return to the grid.</span></span>
-    * <span data-ttu-id="9536d-126">Valitud töölehe või töölehed saab lisada eesmärgile, nii et see kuvatakse, kui eesmärgi avad.</span><span class="sxs-lookup"><span data-stu-id="9536d-126">You can add the selected journal or journals to a goal so that it appears when you open the goal.</span></span> <span data-ttu-id="9536d-127">Kiirkaardile Lingid lisatakse link. Kui lisate eesmärgile töölehe ja seejärel lisate eesmärgi hindamisse, kuvatakse tööleht automaatselt hindamises.</span><span class="sxs-lookup"><span data-stu-id="9536d-127">A link will be added in the Links fast tab.    If you add a journal to a goal and then add the goal to a review, the journal will appear on the review automatically.</span></span>  
-    * <span data-ttu-id="9536d-128">Valitud töölehe või töölehed saab lisada hindamisele, nii et see kuvatakse, kui hindamise avad.</span><span class="sxs-lookup"><span data-stu-id="9536d-128">You can add the selected journal or journals to a review so that it appears when you open the review.</span></span>    <span data-ttu-id="9536d-129">Kiirkaardile Lingid lisatakse link.</span><span class="sxs-lookup"><span data-stu-id="9536d-129">A link will be added in the Links fast tab.</span></span>  
-14. <span data-ttu-id="9536d-130">Klõpsake nuppu Kiirlisamine.</span><span class="sxs-lookup"><span data-stu-id="9536d-130">Click Quick add.</span></span>
-15. <span data-ttu-id="9536d-131">Sisestage väärtus väljale Pealkiri.</span><span class="sxs-lookup"><span data-stu-id="9536d-131">In the Title field, type a value.</span></span>
-16. <span data-ttu-id="9536d-132">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="9536d-132">In the Description field, type a value.</span></span>
-17. <span data-ttu-id="9536d-133">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9536d-133">Click Save.</span></span>
-18. <span data-ttu-id="9536d-134">Klõpsake nuppu Saada kiitus.</span><span class="sxs-lookup"><span data-stu-id="9536d-134">Click Send praise.</span></span>
-19. <span data-ttu-id="9536d-135">Valige ettevõtte töötajate nimekirjas olev inimene.</span><span class="sxs-lookup"><span data-stu-id="9536d-135">Select a person from the list of employees in the company.</span></span>
-20. <span data-ttu-id="9536d-136">Sisestage väljale Kirjeldus tekst „Aitäh abi eest konverentsil!”.</span><span class="sxs-lookup"><span data-stu-id="9536d-136">In the Description field, enter 'Thanks for all the help at the conference!'.</span></span>
-21. <span data-ttu-id="9536d-137">Klõpsake käsku Saada.</span><span class="sxs-lookup"><span data-stu-id="9536d-137">Click Send.</span></span>
+1. <span data-ttu-id="d56ac-108">Avage Kõik tööruumid > Töötaja iseteenindus.</span><span class="sxs-lookup"><span data-stu-id="d56ac-108">Go to All workspaces > Employee self service.</span></span>
+2. <span data-ttu-id="d56ac-109">Klõpsake valikut Jõudluse tööraamat.</span><span class="sxs-lookup"><span data-stu-id="d56ac-109">Click Performance journal.</span></span>
+3. <span data-ttu-id="d56ac-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d56ac-110">Click New.</span></span>
+4. <span data-ttu-id="d56ac-111">Sisestage väärtus väljale Pealkiri.</span><span class="sxs-lookup"><span data-stu-id="d56ac-111">In the Title field, type a value.</span></span>
+5. <span data-ttu-id="d56ac-112">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="d56ac-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="d56ac-113">Jõudluse töölehe kuupäev on töölehe loomise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="d56ac-113">The performance journal date is the date that the journal was created.</span></span>  
+    * <span data-ttu-id="d56ac-114">Allikas näitab, kust jõudluse tööleht pärineb.</span><span class="sxs-lookup"><span data-stu-id="d56ac-114">The source represents where the performance journal came from.</span></span> <span data-ttu-id="d56ac-115">Kui teie selle loote, on selle lähtekoht Minu tööleht.</span><span class="sxs-lookup"><span data-stu-id="d56ac-115">When you create one, it comes from My journal.</span></span> <span data-ttu-id="d56ac-116">Kui selle loob teie juht, on selle lähtekoht Juhi tööleht.</span><span class="sxs-lookup"><span data-stu-id="d56ac-116">If your manager creates one, it comes from the Manager journal.</span></span>  
+    * <span data-ttu-id="d56ac-117">Saate seda töölehte oma juhiga jagada või muuta selle nähtavaks ainult endale.</span><span class="sxs-lookup"><span data-stu-id="d56ac-117">You can share this journal with your manager or make it only visible to you.</span></span>  
+6. <span data-ttu-id="d56ac-118">Sisestage kuupäev väljale Alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="d56ac-118">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="d56ac-119">Sisestage kuupäev väljale Lõpetamiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="d56ac-119">In the Date completed field, enter a date.</span></span>
+8. <span data-ttu-id="d56ac-120">Valige Jah väljalt Arenguplaan.</span><span class="sxs-lookup"><span data-stu-id="d56ac-120">Select Yes in the Development plan field.</span></span>
+9. <span data-ttu-id="d56ac-121">Tippige väärtus väljale Märksõnad.</span><span class="sxs-lookup"><span data-stu-id="d56ac-121">In the Keywords field, type a value.</span></span>
+10. <span data-ttu-id="d56ac-122">Klõpsake valikut Lisa väline link.</span><span class="sxs-lookup"><span data-stu-id="d56ac-122">Click Add external link.</span></span>
+11. <span data-ttu-id="d56ac-123">Tippige väljale Kirjeldus väärtus Envision.</span><span class="sxs-lookup"><span data-stu-id="d56ac-123">In the Description field, type 'Envision'.</span></span>
+12. <span data-ttu-id="d56ac-124">Sisestage internetiaadressi väljale väärtus https://www.microsoft.com/en/envision/default.</span><span class="sxs-lookup"><span data-stu-id="d56ac-124">In the Internet address field, type 'https://www.microsoft.com/en/envision/default'.</span></span>
+13. <span data-ttu-id="d56ac-125">Klõpsake nupu Salvesta all olevat selgitust „Jõudluse tööleht” ruudustikku naasmiseks.</span><span class="sxs-lookup"><span data-stu-id="d56ac-125">Click on the caption below the Save button called "Performance journal" to return to the grid.</span></span>
+    * <span data-ttu-id="d56ac-126">Valitud töölehe või töölehed saab lisada eesmärgile, nii et see kuvatakse, kui eesmärgi avad.</span><span class="sxs-lookup"><span data-stu-id="d56ac-126">You can add the selected journal or journals to a goal so that it appears when you open the goal.</span></span> <span data-ttu-id="d56ac-127">Kiirkaardile Lingid lisatakse link. Kui lisate eesmärgile töölehe ja seejärel lisate eesmärgi hindamisse, kuvatakse tööleht automaatselt hindamises.</span><span class="sxs-lookup"><span data-stu-id="d56ac-127">A link will be added in the Links fast tab.    If you add a journal to a goal and then add the goal to a review, the journal will appear on the review automatically.</span></span>  
+    * <span data-ttu-id="d56ac-128">Valitud töölehe või töölehed saab lisada hindamisele, nii et see kuvatakse, kui hindamise avad.</span><span class="sxs-lookup"><span data-stu-id="d56ac-128">You can add the selected journal or journals to a review so that it appears when you open the review.</span></span>    <span data-ttu-id="d56ac-129">Kiirkaardile Lingid lisatakse link.</span><span class="sxs-lookup"><span data-stu-id="d56ac-129">A link will be added in the Links fast tab.</span></span>  
+14. <span data-ttu-id="d56ac-130">Klõpsake nuppu Kiirlisamine.</span><span class="sxs-lookup"><span data-stu-id="d56ac-130">Click Quick add.</span></span>
+15. <span data-ttu-id="d56ac-131">Sisestage väärtus väljale Pealkiri.</span><span class="sxs-lookup"><span data-stu-id="d56ac-131">In the Title field, type a value.</span></span>
+16. <span data-ttu-id="d56ac-132">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="d56ac-132">In the Description field, type a value.</span></span>
+17. <span data-ttu-id="d56ac-133">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="d56ac-133">Click Save.</span></span>
+18. <span data-ttu-id="d56ac-134">Klõpsake nuppu Saada kiitus.</span><span class="sxs-lookup"><span data-stu-id="d56ac-134">Click Send praise.</span></span>
+19. <span data-ttu-id="d56ac-135">Valige ettevõtte töötajate nimekirjas olev inimene.</span><span class="sxs-lookup"><span data-stu-id="d56ac-135">Select a person from the list of employees in the company.</span></span>
+20. <span data-ttu-id="d56ac-136">Sisestage väljale Kirjeldus tekst „Aitäh abi eest konverentsil!”.</span><span class="sxs-lookup"><span data-stu-id="d56ac-136">In the Description field, enter 'Thanks for all the help at the conference!'.</span></span>
+21. <span data-ttu-id="d56ac-137">Klõpsake käsku Saada.</span><span class="sxs-lookup"><span data-stu-id="d56ac-137">Click Send.</span></span>
 
 
 
