@@ -2,11 +2,9 @@
 title: Valuutavahetuskursside importimine
 description: See teema annab teavet vahetuskursi pakkujate avaldatud vahetuskursside importimise nõuete kohta.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249115"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823736"
 ---
 # <a name="import-currency-exchange-rates"></a>Valuutavahetuskursside importimine
 
@@ -35,9 +33,8 @@ Järgmised jaotised kirjeldavad teabevoogu, mida kasutatakse vahetuskursside imp
 ## <a name="configure-an-exchange-rate-provider"></a>Vahetuskursi pakkuja konfigureerimine
 Enne vahetuskursside importimist tuleb seadistada andmed, mida nõuavad vahetuskursi pakkujad. Valige vahetuskursi pakkujad lehelt **Vahetuskursi pakkujate konfigureerimine**. Mõned vahetuskursi pakkujad sisalduvad Dynamics 365 Financei demoandmetes. Lehe juhtelementide kirjeldused leiate järgmisest tabelist.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Väli** | **Kirjeldus**                                                                                                                                                                                                             |
+| Field | Kirjeldus                   |
+|-----------|-----------------------------------|
 | **Nimi**  | Vahetuskursi pakkuja nimi.                                                                                                                                                                                     |
 | **Võti**   | Pakkuja nõutud konfiguratsiooniteabe iga osa kordumatu ID. See teave lisatakse automaatselt iga vahetuskursi pakkuja puhul, kelle lisate. |
 | **Value** | Iga nupu teave. See teave lisatakse iga vahetuskursi pakkuja puhul, kelle lisate.                                                                                         |
@@ -45,9 +42,8 @@ Enne vahetuskursside importimist tuleb seadistada andmed, mida nõuavad vahetusk
 ## <a name="import-currency-exchange-rates"></a>Valuutavahetuskursside importimine
 Saate importida vahetuskursse vahetuskursi pakkujate allikast ja lisada neid lehele **Valuuta vahetuskursi määrad**. Vahetuskursse saab importida lehe **Impordi valuutakursid** kaudu. Järgmises tabelis kirjeldatakse välju, mida on importimisprotsessi edukaks lõpuleviimiseks vaja.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Väli**                              | **Kirjeldus**                                                                                                                                                                                                                                                                                                                                                             |
+| Field | Kirjeldus                   |
+|-----------|-----------------------------------|
 | **Vahetuskursi tüüp**                 | Vahetuskursi tüüp.                                                                                                                                                                                                                                                                                                                                                      |
 | **Vahetuskursi pakkuja**             | Vahetuskursi pakkuja.                                                                                                                                                                                                                                                                                                                                                  |
 | **Impordi seisuga**                       | See parameeter juhib seda, kas importida praeguse kuupäeva või konkreetse kuupäevavahemiku seisuga. Kui soovite kasutada kuupäevavahemikku, siis sisestage või valige algus- ja lõpukuupäevad.                                                                                                                                                                                                                |

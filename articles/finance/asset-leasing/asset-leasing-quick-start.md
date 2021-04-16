@@ -2,11 +2,9 @@
 title: Vara rentimise funktsiooni kasutamise alustamine
 description: Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b4f1bdf74dc5319f0b3ba145969b064ad33d5010
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229594"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814124"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
@@ -62,7 +60,7 @@ Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut,
 
 - **Vara kasulik tööiga** – see tähistab vara kasuliku tööaja järelejäänud perioode alates rentimise alguskuupäevast. Vara kasulikku tööiga arvestatakse klassifikatsioonitesti võrrandis. See erineb põhivarades määratletud kasulikust tööeast.
 
-- **Alternatiivne laenuintressimäär** – see on intressimäär, mida kasutatakse praeguse väärtuse arvutamiseks. Süsteem kasutab kaudset määra, kui see on rendiandmetes määratletud, et arvutada rendimaksete praegune väärtus. Kui kaudset määra ei ole määratletud, kasutab süsteem alternatiivset laenuintressimäära.
+- **Alternatiivne laenuintressimäär** – See on intressimäär, mida kasutatakse praeguse väärtuse arvutamiseks. Süsteem kasutab kaudset määra, kui see on rendiandmetes määratletud, et arvutada rendimaksete praegune väärtus. Kui kaudset määra ei ole määratletud, kasutab süsteem alternatiivset laenuintressimäära.
 
 - **Annuiteedi tüüp** – see on rendimakse, mis kuulub tasumisele kas makseperioodi alguses või lõpus. See võib olla ettemakse ehk perioodieelne annuiteet (rendimakse perioodi alguses) või tavaline annuiteet (rendimakse perioodi lõpus).
 
@@ -81,7 +79,7 @@ Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut,
 
 - **Maksete sagedus** – see näitab, kas makse tehakse kord kuus, kord kvartalis, kord poole aasta tagant või kord aastas. Lõppkuupäev arvutatakse automaatselt alguskuupäeva ja sisestatud perioodide arvu alusel.
 
-- **Maksegraafik** – see on arvutatud praegune väärtus, mis põhineb kõikide rendimaksete perioodil, maksete summal, liitperioodidel ja annuiteedi tüübil.
+- **Maksegraafik** – See on arvutatud praegune väärtus, mis põhineb kõikide rendimaksete perioodi pikkusel, maksete summal, liitperioodidel ja annuiteedi tüübil.
 
 - **Perioodid** – need on rendiperioodid, mis kajastavad liitintervalli ja annuiteedi tüüpi. Liitintervall määrab, kuidas perioode jagatakse. Saate seada järgmised liitintervallid.
 
@@ -107,7 +105,7 @@ Esimene periood algab nullist, kui annuiteedi tüüp on perioodieelne annuiteet.
 
   - **Rendiperiood** – see on klassifikatsioonitestis kasutatava kasuliku tööea protsent. Süsteem liigitab rendi kapitalirendiks, kui rendi tüüp on seadistatud automaatseks ja kui rendiperiood vara kasuliku tööea jooksul on suurem kui siin määratletud protsent või sellega võrdne.
 
-  - **Praegune väärtus** – see on klassifikatsioonitestis kasutatava vara õiglase väärtuse protsent. Süsteem liigitab rendi kapitalirendiks, kui rendi tüüp on seadistatud automaatseks ja kui tulevaste rendimaksete praegune väärtus on vara õiglase väärtuse põhjal suurem kui siin määratletud protsent või sellega võrdne.
+  - **Praegune väärtus** – See on klassifikatsioonitestis kasutatava vara õiglase väärtuse protsent. Süsteem liigitab rendi kapitalirendiks, kui rendi tüüp on seadistatud automaatseks ja kui tulevaste rendimaksete praegune väärtus on vara õiglase väärtuse põhjal suurem kui siin määratletud protsent või sellega võrdne.
 
   - **Lühiajaline rent** – kui rendiperiood on määratletud väärtusest väiksem või sellega võrdne, siis liigitatakse rent lühiajaliseks rendiks.
 
@@ -131,15 +129,15 @@ Renditava vara esialgne tuvastamine kasutab arvutatud praegust väärtust, et se
 
 |     Tüüp                                          |     Deebet                     |     Kreedit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Kasutusrent US GAAP alusel              |     Kasutamisõiguse esemeks olev vara      |     Kasutusrendi kohustis       |
-|     Kapitalirent IFRS-i ja USA GAAP põhjal        |     Kasutamisõiguse esemeks olev vara      |     Kasutusrendi kohustis       |
+|     Kasutusrent US GAAP alusel            |     Kasutamisõiguse esemeks olev vara        |     Kasutusrendi kohustis     |
+|     Kapitalirent IFRS-i ja USA GAAP põhjal      |     Kasutamisõiguse esemeks olev vara        |     Kapitalirendi kohustis       |
 
 #### <a name="lease-liability-amortization-interest-expense"></a>Rendikohustise amortisatsioon (intressikulu) 
 Rendi intress tuvastatakse, arvutades järgmised väärtused: rendi algbilanss, perioodi rendimakse, intressimäär ja liitintervalli perioodid aastas. Intressisumma suurendab kasutusrendi kohustise kontot seda krediteerides, mis kajastub organisatsiooni bilansis. Kanne hõlmab ka intressikulu konto debiteerimist, mis kajastub kapitalirendi puhul kasumiaruandes ning kasutusrendi puhul rendikulu kontol.
 
-|     Tüüp                                          |     Deebet                     |     Kreedit                            |
+|     Tüüp                                          |     Deebet                     |     Krediit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Kasutusrendi kohustise kirje USA GAAP (ASC 842) põhjal    |     Intressikulu          |     Kasutusrendi kohustis         |
+|     Kasutusrendi kohustise kirje USA GAAP (ASC 842) põhjal    |     Rendikulu         |     Kasutusrendi kohustis         |
 |     Kapitalirendi kohustis IFRS-i ja USA GAAP põhjal      |     Intressikulu          |     Kapitalirendi kohustis           |
 
 #### <a name="accrued-lease-payment"></a>Akumuleerunud rendimakse
@@ -151,7 +149,7 @@ Akumuleerunud rendimakse on tulevane rendimakse, mida töödeldakse maksekandena
 |     Kapitalirent IFRS-i ja USA GAAP põhjal        |  Kapitalirendi kohustis      |   Hankija kohustis (alammoodul) / tasumisele kuuluvad vekslid  |
 
 #### <a name="asset-depreciation"></a>Vara kulum
-Kasutamisõiguse esemeks olev vara amortiseeritakse selle põhjal, kumb on kõige lühem: vara kasulik tööiga või rendiperiood. USA GAAP (ASC 842) puhul põhineb kulumi arvutamise meetod lineaarse rendikulu ja intressisumma vahelisel erinevusel. Kapitalirendi intress arvutatakse standardse lineaarse meetodi abil. Rendikulum mõjutab intressikulu debiteerides kasumi ja kahjumi väljavõtet. Bilanssi mõjutab kapitalirendi akumuleeritud kasutamisõiguse esemeks olev vara krediteerimine. Kasutusrendi puhul tähendab kulum rendikulu konto krediteerimist. Kui rent on seotud põhivaraga, tehakse kulumikanded ainult põhivarade moodulist. 
+Kasutamisõiguse esemeks olev vara amortiseeritakse selle põhjal, kumb on kõige lühem: vara kasulik tööiga või rendiperiood. US GAAPi kasutusrendi (ASC 842) kulumiarvestuse meetod põhineb lineaarse rendikulu ja intressisumma vahelisel erinevusel. Kapitalirendi kulum arvutatakse standardse lineaarse meetodi abil. Rendikulum mõjutab intressikulu debiteerides kasumi ja kahjumi väljavõtet. Bilanssi mõjutab kapitalirendi akumuleeritud kasutamisõiguse esemeks olev vara krediteerimine. Kui rent on seotud põhivaraga, tehakse kulumikanded ainult põhivarade moodulist. 
 
 |     Tüüp                                          |     Deebet                     |     Kreedit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
