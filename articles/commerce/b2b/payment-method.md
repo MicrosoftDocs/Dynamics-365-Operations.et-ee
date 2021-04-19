@@ -2,11 +2,9 @@
 title: Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks
 description: Selles teemas kirjeldatakse, kuidas konfigureerida kliendikonto makseviisi ettevõtetevahelise (B2B) e-kaubanduse saitide jaoks.
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,66 +14,66 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 82dfd6ac7e97d838ef442fd6ded4a4f165fc795b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62e8f4949dcea1cb201bece171991047ce28da04
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211197"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799801"
 ---
-# <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a><span data-ttu-id="e8db5-103">Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks</span><span class="sxs-lookup"><span data-stu-id="e8db5-103">Configure the customer account payment method for B2B e-commerce sites</span></span>
+# <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a><span data-ttu-id="7ef07-103">Kliendikonto makseviisi konfigureerimine B2B e-kaubanduse saitide jaoks</span><span class="sxs-lookup"><span data-stu-id="7ef07-103">Configure the customer account payment method for B2B e-commerce sites</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e8db5-104">Selles teemas kirjeldatakse, kuidas konfigureerida kliendikonto makseviisi ettevõtetevahelise (B2B) e-kaubanduse saitide jaoks.</span><span class="sxs-lookup"><span data-stu-id="e8db5-104">This topic describes how to configure the customer account payment method for business-to-business (B2B) e-commerce sites.</span></span>
+<span data-ttu-id="7ef07-104">Selles teemas kirjeldatakse, kuidas konfigureerida kliendikonto makseviisi ettevõtetevahelise (B2B) e-kaubanduse saitide jaoks.</span><span class="sxs-lookup"><span data-stu-id="7ef07-104">This topic describes how to configure the customer account payment method for business-to-business (B2B) e-commerce sites.</span></span>
 
-<span data-ttu-id="e8db5-105">Jaemüüjad võivad võtta e-kaubanduse kanalis müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega.</span><span class="sxs-lookup"><span data-stu-id="e8db5-105">Retailers can accept various types of payment in exchange for the products and services that they sell in an e-commerce channel.</span></span> <span data-ttu-id="e8db5-106">Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel rakenduses Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="e8db5-106">Each payment type that a retailer accepts must be configured in Microsoft Dynamics 365 Commerce when the system is set up.</span></span> <span data-ttu-id="e8db5-107">B2B e-kaubanduse saitidel peab toetama kliendikonto (või "ettemaksi") makseviisi.</span><span class="sxs-lookup"><span data-stu-id="e8db5-107">The customer account (or "on account") payment method must be supported on B2B e-commerce sites.</span></span> 
+<span data-ttu-id="7ef07-105">Jaemüüjad võivad võtta e-kaubanduse kanalis müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega.</span><span class="sxs-lookup"><span data-stu-id="7ef07-105">Retailers can accept various types of payment in exchange for the products and services that they sell in an e-commerce channel.</span></span> <span data-ttu-id="7ef07-106">Kõik jaemüüja aktsepteeritavad maksetüübid tuleb konfigureerida süsteemi seadistamisel rakenduses Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="7ef07-106">Each payment type that a retailer accepts must be configured in Microsoft Dynamics 365 Commerce when the system is set up.</span></span> <span data-ttu-id="7ef07-107">B2B e-kaubanduse saitidel peab toetama kliendikonto (või "ettemaksi") makseviisi.</span><span class="sxs-lookup"><span data-stu-id="7ef07-107">The customer account (or "on account") payment method must be supported on B2B e-commerce sites.</span></span> 
 
-## <a name="prerequisites"></a><span data-ttu-id="e8db5-108">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="e8db5-108">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="7ef07-108">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="7ef07-108">Prerequisites</span></span>
 
-1. <span data-ttu-id="e8db5-109">Lisage kliendikonto makseviis Commerce'i peakontoris.</span><span class="sxs-lookup"><span data-stu-id="e8db5-109">Add the customer account payment method in Commerce headquarters.</span></span>
-2. <span data-ttu-id="e8db5-110">Siduge kliendikonto makseviis e-kaubanduse kanaliga.</span><span class="sxs-lookup"><span data-stu-id="e8db5-110">Associate the customer account payment method with the e-commerce channel.</span></span>
-3. <span data-ttu-id="e8db5-111">Veenduge, et säte **Luba kontol** on kliendi jaoks Commerce'i peakontori jaotises **Jaemüük ja kaubandus \> Kliendid \> Kõik kliendid \> Makse vaikesätted** lubatud.</span><span class="sxs-lookup"><span data-stu-id="e8db5-111">Make sure that **Allow on account** is enabled for the customer at **Retail and Commerce \> Customers \> All customers \> Payment defaults** in Commerce headquarters.</span></span> <span data-ttu-id="e8db5-112">Veenduga ka, et parameetrid **Krediidilimiit** on kliendi jaoks õigesti seadistatud Commerce'i peakontori jaotises **Jaemüük ja kaubandus \> Kliendid \> Kõik kliendid \> Krediit ja võlanõuded**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-112">Also make sure that **Credit limit** parameters are set appropriately for the customer at **Retail and Commerce \> Customers \> All customers \> Credit and Collections** in Commerce headquarters.</span></span> 
+1. <span data-ttu-id="7ef07-109">Lisage kliendikonto makseviis Commerce'i peakontoris.</span><span class="sxs-lookup"><span data-stu-id="7ef07-109">Add the customer account payment method in Commerce headquarters.</span></span>
+2. <span data-ttu-id="7ef07-110">Siduge kliendikonto makseviis e-kaubanduse kanaliga.</span><span class="sxs-lookup"><span data-stu-id="7ef07-110">Associate the customer account payment method with the e-commerce channel.</span></span>
+3. <span data-ttu-id="7ef07-111">Veenduge, et säte **Luba kontol** on kliendi jaoks Commerce'i peakontori jaotises **Jaemüük ja kaubandus \> Kliendid \> Kõik kliendid \> Makse vaikesätted** lubatud.</span><span class="sxs-lookup"><span data-stu-id="7ef07-111">Make sure that **Allow on account** is enabled for the customer at **Retail and Commerce \> Customers \> All customers \> Payment defaults** in Commerce headquarters.</span></span> <span data-ttu-id="7ef07-112">Veenduga ka, et parameetrid **Krediidilimiit** on kliendi jaoks õigesti seadistatud Commerce'i peakontori jaotises **Jaemüük ja kaubandus \> Kliendid \> Kõik kliendid \> Krediit ja võlanõuded**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-112">Also make sure that **Credit limit** parameters are set appropriately for the customer at **Retail and Commerce \> Customers \> All customers \> Credit and Collections** in Commerce headquarters.</span></span> 
 
-## <a name="enable-the-customer-account-payment-method-in-commerce-site-builder"></a><span data-ttu-id="e8db5-113">Kliendikonto makseviisi lubamine Commerce'i saidiehitajas</span><span class="sxs-lookup"><span data-stu-id="e8db5-113">Enable the customer account payment method in Commerce site builder</span></span> 
+## <a name="enable-the-customer-account-payment-method-in-commerce-site-builder"></a><span data-ttu-id="7ef07-113">Kliendikonto makseviisi lubamine Commerce'i saidiehitajas</span><span class="sxs-lookup"><span data-stu-id="7ef07-113">Enable the customer account payment method in Commerce site builder</span></span> 
 
-<span data-ttu-id="e8db5-114">Kliendikonto makseviisi lubamiseks Commerce'i saidiehitajas toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="e8db5-114">To enable the customer account payment method in Commerce site builder, follow these steps.</span></span>
+<span data-ttu-id="7ef07-114">Kliendikonto makseviisi lubamiseks Commerce'i saidiehitajas toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="7ef07-114">To enable the customer account payment method in Commerce site builder, follow these steps.</span></span>
 
-1. <span data-ttu-id="e8db5-115">Avage **Saidi sätted \> Laiendused**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-115">Go to **Site Settings \> Extensions**.</span></span>
-1. <span data-ttu-id="e8db5-116">Seadke atribuut **Luba kliendikonto maksed** väärtusele **B2B-klientidele lubatud**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-116">Set the **Enable customer account payments** property to **Enabled for B2B customers**.</span></span> 
-1. <span data-ttu-id="e8db5-117">Valige suvand **Salvesta ja avalda**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-117">Select **Save and Publish**.</span></span>
+1. <span data-ttu-id="7ef07-115">Avage **Saidi sätted \> Laiendused**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-115">Go to **Site Settings \> Extensions**.</span></span>
+1. <span data-ttu-id="7ef07-116">Seadke atribuut **Luba kliendikonto maksed** väärtusele **B2B-klientidele lubatud**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-116">Set the **Enable customer account payments** property to **Enabled for B2B customers**.</span></span> 
+1. <span data-ttu-id="7ef07-117">Valige suvand **Salvesta ja avalda**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-117">Select **Save and Publish**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e8db5-118">Uued saidi sätted jõustuvad alles pärast faili app.settings.json värskendamist.</span><span class="sxs-lookup"><span data-stu-id="e8db5-118">The new site settings take effect only after the app.settings.json file is updated.</span></span> <span data-ttu-id="e8db5-119">Lisateabe saamiseks vt [SDK ja mooduliteegi värskendused](../e-commerce-extensibility/sdk-updates.md).</span><span class="sxs-lookup"><span data-stu-id="e8db5-119">For more information, see [SDK and Module library updates](../e-commerce-extensibility/sdk-updates.md).</span></span>
+> <span data-ttu-id="7ef07-118">Uued saidi sätted jõustuvad alles pärast faili app.settings.json värskendamist.</span><span class="sxs-lookup"><span data-stu-id="7ef07-118">The new site settings take effect only after the app.settings.json file is updated.</span></span> <span data-ttu-id="7ef07-119">Lisateabe saamiseks vt [SDK ja mooduliteegi värskendused](../e-commerce-extensibility/sdk-updates.md).</span><span class="sxs-lookup"><span data-stu-id="7ef07-119">For more information, see [SDK and Module library updates](../e-commerce-extensibility/sdk-updates.md).</span></span>
 
-## <a name="enable-the-customer-account-payment-method-on-the-checkout-page-for-the-b2b-e-commerce-site"></a><span data-ttu-id="e8db5-120">Kliendikonto makseviisi lubamine B2B e-kaubanduse saidi kassa lehel</span><span class="sxs-lookup"><span data-stu-id="e8db5-120">Enable the customer account payment method on the checkout page for the B2B e-commerce site</span></span>
+## <a name="enable-the-customer-account-payment-method-on-the-checkout-page-for-the-b2b-e-commerce-site"></a><span data-ttu-id="7ef07-120">Kliendikonto makseviisi lubamine B2B e-kaubanduse saidi kassa lehel</span><span class="sxs-lookup"><span data-stu-id="7ef07-120">Enable the customer account payment method on the checkout page for the B2B e-commerce site</span></span>
 
-<span data-ttu-id="e8db5-121">Kliendikonto makseviisi lubamiseks B2B e-kaubanduse saidi kassa lehel toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="e8db5-121">To enable the customer account payment method on the checkout page for the B2B e-commerce site, follow these steps.</span></span>
+<span data-ttu-id="7ef07-121">Kliendikonto makseviisi lubamiseks B2B e-kaubanduse saidi kassa lehel toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="7ef07-121">To enable the customer account payment method on the checkout page for the B2B e-commerce site, follow these steps.</span></span>
 
-1. <span data-ttu-id="e8db5-122">Leidke ja redigeeride Commerce'i saidiehitajas kassa lehte või fragmenti, mis sisaldab kassamoodulit B2B e-kaubanduse saidi jaoks.</span><span class="sxs-lookup"><span data-stu-id="e8db5-122">In Commerce site builder, find and edit the checkout page or fragment that contains the checkout module for the B2B e-commerce site.</span></span>
-1. <span data-ttu-id="e8db5-123">Valige lahtrist **Kassa jaotise konteiner** käsk **Lisa moodul** ja seejärel lisage moodul **Kliendikonto makse**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-123">In the **Checkout section container** slot, select **Add Module**, and then add a **Customer account payment** module.</span></span>
-1. <span data-ttu-id="e8db5-124">Paigutage moodul **Kliendikonto makse** valides kolmikpunkti (**...**) ja seejärel valides vastavalt vajadusele kas **Nihuta üles** või **Nihuta alla**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-124">Position the **Customer account payment** module by selecting the ellipsis (**...**), and then selecting **Move Up** or **Move Down** as required.</span></span>
-1. <span data-ttu-id="e8db5-125">Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-125">Select **Save**, select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
+1. <span data-ttu-id="7ef07-122">Leidke ja redigeeride Commerce'i saidiehitajas kassa lehte või fragmenti, mis sisaldab kassamoodulit B2B e-kaubanduse saidi jaoks.</span><span class="sxs-lookup"><span data-stu-id="7ef07-122">In Commerce site builder, find and edit the checkout page or fragment that contains the checkout module for the B2B e-commerce site.</span></span>
+1. <span data-ttu-id="7ef07-123">Valige lahtrist **Kassa jaotise konteiner** käsk **Lisa moodul** ja seejärel lisage moodul **Kliendikonto makse**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-123">In the **Checkout section container** slot, select **Add Module**, and then add a **Customer account payment** module.</span></span>
+1. <span data-ttu-id="7ef07-124">Paigutage moodul **Kliendikonto makse** valides kolmikpunkti (**...**) ja seejärel valides vastavalt vajadusele kas **Nihuta üles** või **Nihuta alla**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-124">Position the **Customer account payment** module by selecting the ellipsis (**...**), and then selecting **Move Up** or **Move Down** as required.</span></span>
+1. <span data-ttu-id="7ef07-125">Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-125">Select **Save**, select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
 
-## <a name="confirm-that-the-customer-account-payment-method-has-been-enabled-and-published"></a><span data-ttu-id="e8db5-126">Kinnitage, et kliendikonto makseviis on lubatud ja avaldatud.</span><span class="sxs-lookup"><span data-stu-id="e8db5-126">Confirm that the customer account payment method has been enabled and published</span></span>
+## <a name="confirm-that-the-customer-account-payment-method-has-been-enabled-and-published"></a><span data-ttu-id="7ef07-126">Kinnitage, et kliendikonto makseviis on lubatud ja avaldatud.</span><span class="sxs-lookup"><span data-stu-id="7ef07-126">Confirm that the customer account payment method has been enabled and published</span></span>
 
-<span data-ttu-id="e8db5-127">Kinnitamiseks, et kliendikonto makseviis on lubatud ja avaldatud, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="e8db5-127">To confirm that the customer account payment method has been enabled, follow these steps.</span></span>
+<span data-ttu-id="7ef07-127">Kinnitamiseks, et kliendikonto makseviis on lubatud ja avaldatud, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="7ef07-127">To confirm that the customer account payment method has been enabled, follow these steps.</span></span>
 
-1. <span data-ttu-id="e8db5-128">Logige e-kaubanduse saidile sisse.</span><span class="sxs-lookup"><span data-stu-id="e8db5-128">Sign in to the e-commerce site.</span></span>
-1. <span data-ttu-id="e8db5-129">Lisage toode ostukorvi.</span><span class="sxs-lookup"><span data-stu-id="e8db5-129">Add a product to the cart.</span></span>
-1. <span data-ttu-id="e8db5-130">Minge kassa lehele.</span><span class="sxs-lookup"><span data-stu-id="e8db5-130">Go to the checkout page.</span></span> <span data-ttu-id="e8db5-131">Peaksite nägema uut makseviisi **Kliendikonto**.</span><span class="sxs-lookup"><span data-stu-id="e8db5-131">You should see the new **Customer Account** payment method.</span></span>
+1. <span data-ttu-id="7ef07-128">Logige e-kaubanduse saidile sisse.</span><span class="sxs-lookup"><span data-stu-id="7ef07-128">Sign in to the e-commerce site.</span></span>
+1. <span data-ttu-id="7ef07-129">Lisage toode ostukorvi.</span><span class="sxs-lookup"><span data-stu-id="7ef07-129">Add a product to the cart.</span></span>
+1. <span data-ttu-id="7ef07-130">Minge kassa lehele.</span><span class="sxs-lookup"><span data-stu-id="7ef07-130">Go to the checkout page.</span></span> <span data-ttu-id="7ef07-131">Peaksite nägema uut makseviisi **Kliendikonto**.</span><span class="sxs-lookup"><span data-stu-id="7ef07-131">You should see the new **Customer Account** payment method.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e8db5-132">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="e8db5-132">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="7ef07-132">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="7ef07-132">Additional resources</span></span>
 
-[<span data-ttu-id="e8db5-133">B2B e-kaubanduse saidi seadistamine</span><span class="sxs-lookup"><span data-stu-id="e8db5-133">Set up a B2B e-commerce site</span></span>](set-up-b2b-site.md)
+[<span data-ttu-id="7ef07-133">B2B e-kaubanduse saidi seadistamine</span><span class="sxs-lookup"><span data-stu-id="7ef07-133">Set up a B2B e-commerce site</span></span>](set-up-b2b-site.md)
 
-[<span data-ttu-id="e8db5-134">B2B organisatsioonidele organisatsiooni modelleerimise hierarhiate loomine.</span><span class="sxs-lookup"><span data-stu-id="e8db5-134">Create org modeling hierarchies for B2B organizations</span></span>](org-model.md)
+[<span data-ttu-id="7ef07-134">B2B organisatsioonidele organisatsiooni modelleerimise hierarhiate loomine.</span><span class="sxs-lookup"><span data-stu-id="7ef07-134">Create org modeling hierarchies for B2B organizations</span></span>](org-model.md)
 
-[<span data-ttu-id="e8db5-135">Äripartnerist kasutajate haldamine B2B e-kaubanduse saitidel</span><span class="sxs-lookup"><span data-stu-id="e8db5-135">Manage business partner users on B2B e-commerce sites</span></span>](manage-b2b-users.md)
+[<span data-ttu-id="7ef07-135">Äripartnerist kasutajate haldamine B2B e-kaubanduse saitidel</span><span class="sxs-lookup"><span data-stu-id="7ef07-135">Manage business partner users on B2B e-commerce sites</span></span>](manage-b2b-users.md)
 
-[<span data-ttu-id="e8db5-136">Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks</span><span class="sxs-lookup"><span data-stu-id="e8db5-136">Set product quantity limits for B2B e-commerce sites</span></span>](quantity-limits.md)
+[<span data-ttu-id="7ef07-136">Toote koguse piirangute määramine B2B e-kaubanduse saitide jaoks</span><span class="sxs-lookup"><span data-stu-id="7ef07-136">Set product quantity limits for B2B e-commerce sites</span></span>](quantity-limits.md)
 
-[<span data-ttu-id="e8db5-137">SDK ja mooduliteegi värskendused</span><span class="sxs-lookup"><span data-stu-id="e8db5-137">SDK and Module library updates</span></span>](../e-commerce-extensibility/sdk-updates.md)
+[<span data-ttu-id="7ef07-137">SDK ja mooduliteegi värskendused</span><span class="sxs-lookup"><span data-stu-id="7ef07-137">SDK and Module library updates</span></span>](../e-commerce-extensibility/sdk-updates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
