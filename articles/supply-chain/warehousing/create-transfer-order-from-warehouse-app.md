@@ -1,12 +1,10 @@
 ---
 title: Üleviimistellimuste loomine laorakenduses
-description: Selles teemas kirjeldatakse, kuidas luua ja töödelda laorakenduses üleviimistellimusi
+description: Selles teemas kirjeldatakse, kuidas luua ja töödelda mobiilirakenduses Warehouse Management üleviimistellimusi
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214126"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838366"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Üleviimistellimuste loomine laorakenduses
 
 [!include [banner](../includes/banner.md)]
 
-See funktsioon laseb laotöötajatel luua ja töödelda üleviimistellimusi otse laorakenduses. Esiteks peavad laotöötajad valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati, et lisada litsentsiplaadid üleviimistellimusele. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read.
+See funktsioon laseb laotöötajatel luua ja töödelda üleviimistellimusi otse mobiilirakenduses Warehouse Management. Esiteks peab töötaja valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati, et lisada litsentsiplaadid üleviimistellimusele. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read.
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Funktsiooni „Üleviimistellimuste loomine laorakenduses” lubamine
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Funktsiooni „Üleviimistellimuste loomine laorakenduses” lubamine
 
 Enne selle funktsiooni kasutamist tuleb teie süsteemis lubada nii see ise kui ka selle eeltingimused. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et kontrollida funktsiooni olekut ja vajaduse korral see lubada.
 
@@ -50,8 +48,8 @@ Siin on toodud üldised juhised selle kohta, kuidas seadistada mobiilses seadmes
 1. Valige uue menüükäsu lisamiseks **Uus**. Seejärel määrake alustamiseks järgmised sätted.
 
     - **Menüükäsu nimi** – määrake nimi kujul, mil see peaks rakenduses Supply Chain Management ilmuma.
-    - **Pealkiri** – määrake menüü nimi nii, nagu see peaks töötajatele laorakenduses kuvatama.
-    - **Režiim** – määrake väärtuseks *Kaudne* (see laorakendus ei loo tööd).
+    - **Pealkiri** – määrake menüü nimi nii, nagu see peaks töötajatele mobiilirakenduses Warehouse Management kuvatama.
+    - **Režiim** – määrake väärtuseks *Kaudne* (see menüü üksus ei loo tööd).
     - **Tegevuse kood** – seadke väärtuseks *Üleviimistellimuse loomine litsentsiplaatide põhjal*, et võimaldada laotöötajatel luua üleviimistellimus ühe või mitme skannitud litsentsiplaadi põhjal.
 
 1. Kasutage sätet **Üleviimistellimuse rea loomise poliitika**, et kontrollida, kuidas üleviimistellimuse ridasid selle menüükäsu kaudu luuakse. Read luuakse/värskendatakse skannitud litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel. Valige üks järgmistest väärtustest.
@@ -74,7 +72,7 @@ Siin on toodud üldised juhised selle kohta, kuidas seadistada mobiilses seadmes
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Üleviimistellimuse loomine litsentsiplaatide põhjal
 
-Laorakenduses on saadaval lihtne protsess üleviimistellimuste loomiseks litsentsiplaatide põhjal. Selleks peab töötaja tegema laorakenduses järgmist.
+Mobiilirakenduses Warehouse Management on saadaval lihtne protsess üleviimistellimuste loomiseks litsentsiplaatide põhjal. Selleks peab töötaja tegema mobiilirakenduses Warehouse Management järgmist.
 
 1. Looge üleviimistellimus ja määrake sihtladu.
 1. Määrake kindlaks iga lähetatav litsentsiplaat.
@@ -258,9 +256,9 @@ Nimetatud näite puhul kasutatakse kaht **laorakenduse sündmust** (*Üleviimist
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Laorakenduse sündmuste päring
 
-Saate vaadata sündmuste järjekorda ja laorakenduse loodud sündmuseteateid, avades **Laohaldus \> Päringud ja aruanded \> Mobiilse seadme logid \> Laorakenduse sündmused**.
+Saate vaadata sündmuste järjekorda ja mobiilirakenduse Warehouse Management loodud sündmuseteateid, avades **Laohaldus \> Päringud ja aruanded \> Mobiilse seadme logid \> Laorakenduse sündmused**.
 
-Sündmuse *Üleviimistellimuse loomine* teadete olekuks määratakse *Ootel*, mis tähendab, et pakett-töö **Laorakenduse sündmuste töötlemine** ei võta ega töötle sündmuseteateid. Kohe kui sündmuseteate olekuks määratakse *Järjekorras*, töötleb pakett-töö sündmusi. See toimub samal ajal kui sündmuse *Üleviimistellimuse lõpetamine* loomine (kui töötaja valib laorakenduses nupu **Lõpeta tellimus**). Kui sündmuse *Üleviimistellimuse loomine* teated on töödeldud, määratakse olekuks *Lõpetatud* või *Nurjus*. Kui sündmuse *Üleviimistellimuse lõpetamine* olekuks määratakse *Lõpetatud*, kustutatakse kõik seotud sündmused järjekorrast.
+Sündmuse *Üleviimistellimuse loomine* teadete olekuks määratakse *Ootel*, mis tähendab, et pakett-töö **Laorakenduse sündmuste töötlemine** ei võta ega töötle sündmuseteateid. Kohe kui sündmuseteate olekuks määratakse *Järjekorras*, töötleb pakett-töö sündmusi. See toimub samal ajal kui sündmuse *Üleviimistellimuse lõpetamine* loomine (kui töötaja valib mobiilirakenduses Warehouse Management nupu **Lõpeta tellimus**). Kui sündmuse *Üleviimistellimuse loomine* teated on töödeldud, määratakse olekuks *Lõpetatud* või *Nurjus*. Kui sündmuse *Üleviimistellimuse lõpetamine* olekuks määratakse *Lõpetatud*, kustutatakse kõik seotud sündmused järjekorrast.
 
 Kuna üleviimistellimuse andmete loomise jaoks mõeldud **laorakenduse sündmusi** ei töötle pakett-töö enne, kui teadete olekuks on määratud *Järjekorras*, peate leidma üles nõutavad üleviimistellimuse numbrid, mis leiduvad väljal **Identifikaator**. Väli **Identifikaator** asub lehe **Laorakenduse sündmused** päises.
 
@@ -276,11 +274,11 @@ Lisateavet leiate teemast [Laorakenduse sündmuse töötlemine](warehouse-app-ev
 
 Selle stsenaariumi jooksul toimus järgmine.
 
-1. Laorakendust kasutades valisite te menüükäsu, mis kasutab tegevuse koodi **Üleviimistellimuse loomine litsentsiplaatide põhjal**.
+1. Mobiilirakendust Warehouse Management kasutades valisite te menüükäsu, mis kasutab tegevuse koodi **Üleviimistellimuse loomine litsentsiplaatide põhjal**.
 1. Rakenduses paluti teil valida üleviimistellimuse jaoks sihtladu. Lähteladu on alati see, milles te olete praegu töötajana sisse logitud.
 1. Sihtlao valimisel reserveeris süsteem eelseisva üleviimistellimuse ID-numbri (teie süsteemis määratletud üleviimistellimuse numbriseeria põhjal), kuid ei loonud veel üleviimistellimust.
 1. Kui skannisite litsentsiplaati *LP10*, mis sisaldab vaba kaubavaru, mis tuleks uude lattu teisaldada, lisati **laorakenduse sündmus** hiljem töötlemiseks sündmuste järjekorda. Laosündmus sisaldas teate üksikasju skannimise kohta, sh plaanitud üleviimistellimuse numbrit.
-1. Kui laorakenduses valitakse nupp **Lõpeta tellimus**, luuakse uus sündmus **Üleviimistellimuse lõpetamine** ja seotud olemasoleva sündmuse **Üleviimistellimuse loomine** olekuks määratakse **Järjekorras**.
+1. Kui mobiilirakenduses Warehouse Management valitakse nupp **Lõpeta tellimus**, luuakse uus sündmus **Üleviimistellimuse lõpetamine** ja seotud olemasoleva sündmuse **Üleviimistellimuse loomine** olekuks määratakse **Järjekorras**.
 1. Teie eest peidetuna valis **laorakenduse sündmuste töötlemise pakett-töö** **järjekorras** sündmuse ja kogus kokku skannitud litsentsiplaadiga seotud vaba kaubavaru. Vaba kaubavaru põhjal loodi tegelik üleviimistellimuse kirje ja seotud read. Töö täitis ka üleviimistellimuse välja **Väljamineva saadetise poliitika** väärtusega, mis põhineb konfigureeritud suvandil *Väljastamine ja saadetise kinnitamine*, ning sidus litsentsiplaadi strateegia **Litsentsiplaadi põhjal juhitud** ridadega.
 1. Üleviimistellimuse rea välja **Väljamineva saadetise poliitika** väärtuse alusel viis **üleviimistellimuste automaatse väljastamise pakett-töö** nüüd üleviimistellimuse väljastamiseni lähetuslattu. Ning **voomalli**, **töömalli** ja **asukohakorralduste** seadistuse tõttu töödeldi töö automaatselt, mistõttu muudeti suvandi **Koorma olek** väärtuseks *Laaditud*.
 1. Koorma puhul käivitatakse **väljamineva saadetise töötlemise pakett-töö**, mille tulemusena lähetatakse üleviimistellimus ja luuakse saadetise eelteatis (ASN).
@@ -294,13 +292,13 @@ Selle stsenaariumi jooksul toimus järgmine.
 
 Funktsioon *Üleviimistellimuste loomine ja töötlemine laorakenduses* peab olema lubatud. Lisateavet leiate teemast [Üleviimistellimuste loomise lubamine laorakenduses](#enable-create-transfer-order-from-warehouse-app).
 
-### <a name="warehouse-app-processes"></a>Laorakenduse protsessid
+### <a name="warehouse-management-mobile-app-processes"></a>Laohalduse mobiilirakenduse protsessid
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>Miks ma ei näe menüünuppu „Lõpeta tellimus”?
 
 Üleviimistellimusele peab olema määratud vähemalt üks litsentsiplaat.
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Kas samasse üleviimistellimusse saavad lisada litsentsiplaate samal ajal mitu laorakenduse kasutajat?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Kas samasse üleviimistellimusse saavad lisada litsentsiplaate samal ajal mitu mobiilirakenduse Warehouse Management kasutajat?
 
 Jah, mitu laotöötajat saavad skannida litsentsiplaate samasse üleviimistellimusse.
 
@@ -312,11 +310,11 @@ Ei, litsentsiplaati saab lisada ainult ühele üleviimistellimusele korraga.
 
 Ei, te ei saa lisada rohkem litsentsiplaate üleviimistellimusse, millel on laorakenduse sündmus **Üleviimistellimuse lõpetamine**.
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Kuidas saan leida olemasolevaid üleviimistellimusi, mida kasutada laorakenduse nupu „Vali üleviimistellimus” kaudu, kui tagasüsteem pole veel tellimust loonud?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Kuidas saan leida olemasolevaid üleviimistellimusi, mida kasutada mobiilirakenduse Warehouse Management nupu „Vali üleviimistellimus” kaudu, kui tagasüsteem pole veel tellimust loonud?
 
 Praegu ei saa te rakenduses üleviimistellimusi otsida, kuid leiate üleviimistellimuse numbrid lehelt **Laorakenduse sündmused**. Lisateavet leiate teemast [Laorakenduse sündmuste päring](#inquire-the-warehouse-app-events).
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>Kas saan laorakenduses kasutatava üleviimistellimuse numbri käsitsi valida?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Kas saan mobiilirakenduses Warehouse Management kasutatava üleviimistellimuse numbri käsitsi valida?
 
 Toetatakse ainult numbriseeriate kaudu automaatselt loodud üleviimistellimuse numbreid.
 

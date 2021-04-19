@@ -2,30 +2,27 @@
 title: Tegeliku kaalu toote protsess laohalduse abil
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldusi määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233075"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808914"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Funktsiooni esiletõstmine
 
@@ -52,7 +49,7 @@ Kuna lattu saabuvate varude kaal võib erineda laost väljastatavate varude kaal
 > [!NOTE]
 > Mobiilse seadme tegevus käivitab kande korrigeerimised ainult juhul, kui toote tegeliku kaaluga käsitlemise poliitika väljuva kaaluhälbe meetod on **Luba kaaluhälve**.
 
-**Näide 1**
+### <a name="example-1"></a>Näide 1
 
 Tootmisprotsessi **Kinnita lõpetamine** ajal registreeritakse kaheksat kasti tegeliku kaalu toodet sisaldava litsentsiplaadi sissetuleva kaaluna 80,1 kg. Seejärel ladustatakse litsentsiplaat lõpetatud kaupade alast eemale ja ladustamisperioodi ajal kaob osa kaalust õhku.
 
@@ -60,7 +57,7 @@ Hiljem, osana müügitellimuse komplekteerimisprotsessist, registreeritakse sama
 
 Sel juhul korrigeerib süsteem erinevuse automaatselt, sisestades kande puuduva 0,3 kg kohta.
 
-**Näide 2**
+### <a name="example-2"></a>Näide 2
 
 Toote määratluses on seadistatud toode tolereerima tegeliku kaalu ühiku **Kast** puhul minimaalse kaaluna 8 kg ja maksimaalse kaaluna 12 kg.
 
@@ -106,7 +103,7 @@ Lisaks, kui kaup on sildiga jälgitav, on olemas parameeter **Väljamineva sildi
 **Tegeliku kaalu jälgimise kasutamisel** tuleb silt alati luua iga sissetuleva tegeliku kaalu ühiku jaoks ja iga silt tuleb alati seostada kaaluga.
 
 Näiteks on tegeliku kaalu ühik **kast** ja te saate ühe kaubaaluse kaheksa kastiga. Sel juhul tuleb luua kaheksa kordumatut tegeliku kaalu silti ja kaal tuleb seostada iga sildiga. Olenevalt sissetuleva tegeliku kaalu sildist saab registreerida kas kõigi kaheksa kasti kaalu ja jaotada igale kastile keskmise kaalu või registreerida iga kasti jaoks kordumatu kaalu.
-Kui kasutate funktsiooni **Kasuta olemasolevaid tegeliku kaalu silte tootmistellimuste kinnitamisel lõpetatuna** , kui protsess on lubatud mobiilseadme menüükäsuga, uuendatakse varud olemasoleva tegeliku kaalu sildi teabe alusel. Selle tulemusena ei viipa laorakendus hõivata tegeliku kaalu sildi andmeid tootmisaruande osa lõpetatud toiminguna.
+Kui kasutate funktsiooni **Kasuta olemasolevaid tegeliku kaalu silte tootmistellimuste kinnitamisel lõpetatuna** , kui protsess on lubatud mobiilseadme menüükäsuga, uuendatakse varud olemasoleva tegeliku kaalu sildi teabe alusel. Selle tulemusena ei viipa mobiilirakendus Warehouse Management hõivata tegeliku kaalu sildi andmeid tootmisaruande osa lõpetatud toiminguna.
 
 **Kui tegeliku kaalu sildi jälgimist ei kasutata**, saab kaalu registreerida iga dimensioonikogumi kohta (nt iga litsentsiplaadi ja jälgimisdimensiooni kohta). Samuti on võimalik kaal registreerida koondtaseme, näiteks viie litsentsiplaadi (kaubaaluse), põhjal.
 
@@ -194,7 +191,11 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
 
 ### <a name="catch-weight-tags"></a>Tegeliku kaalu sildid
 
-Tegeliku kaalu sildi saab luua kas laorakenduse protsessiga, see võidakse vormil käsitsi luua, või saab seda luua andmeüksuse protsessiga. Kui tegeliku kaalu silt seostatakse sissetuleva lähtedokumendi reaga, näiteks ostutellimuse reaga, siis silt registreeritakse. Kui väljamineva töötlemise juures kasutatakse rida, värskendatakse silt lähetatud olekusse.
+Tegeliku kaalu sildi saab luua kas mobiilirakenduse Warehouse Management protsessiga, see võidakse vormil **Laohaldus > Päringud ja aruanded > Tegeliku kaalu silt** käsitsi luua, või saab seda luua andmeüksuse protsessiga. Kui tegeliku kaalu silt seostatakse sissetuleva lähtedokumendi reaga, näiteks ostutellimuse reaga, siis silt registreeritakse. Kui väljamineva töötlemise juures kasutatakse rida, värskendatakse silt lähetatud olekusse. Kõiki ajaloolisi tegeliku kaalu sildi registreerimissündmusi saate vaadata suvandi **Tegeliku kaalu sildi registreerimise** abil leheküljelt **Tegeliku kaalu silt**.
+
+Tegeliku kaalu sildi kaalu väärtuse käsitsi uuendamiseks saate kasutada suvandit **Muuda tegeliku kaalu silti**. Pange tähele, et vaba kaubavaru kaalu ei korrigeerita selle käsitsi töötlemise osana, kuid saate hõlpsalt kasutada kaubavarude lahknevusteks **tegeliku kaaluga märgistatud kaupade** lehte, et otsida lahknevusi praegu aktiivsete tegeliku kaalu siltide ja praeguste varude vahel.
+
+Muud käsitsi määratletavad valikud on **Sildi registreerimine** lähtedokumendi reale ja **Töö registreerimine** olemasoleva laotöö alusel.
 
 Lisaks piirangutele, mis praegu kehtivad tegeliku kaalu toodete puhul, on sildistatud tegeliku kaalu toodetel muud praegu kehtivad piirangud.
 

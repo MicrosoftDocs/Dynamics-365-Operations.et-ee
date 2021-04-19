@@ -1,12 +1,10 @@
 ---
 title: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
-description: See protseduur selgitab kaupade registreerimist, kasutades kauba saabumise töölehte täpsemate laohaldusprotsesside kasutamisel.
+description: See teema kirjeldab stsenaariumit, mis selgitab kaupade registreerimist, kasutades kauba saabumise töölehte täpsemate laohaldusprotsesside kasutamisel.
 author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
@@ -16,65 +14,66 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c25fb55afb01ed59b66045f24400e03e2ec60b2a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238890"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830830"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur selgitab kaupade registreerimist, kasutades kauba saabumise töölehte täpsemate laohaldusprotsesside kasutamisel. Seda teeb üldjuhul vastuvõtuametnik. 
+See teema kirjeldab stsenaariumit, mis selgitab kaupade registreerimist, kasutades kauba saabumise töölehte täpsemate laohaldusprotsesside kasutamisel. Seda teeb üldjuhul vastuvõtuametnik.
 
-Saate seda protseduuri käitada demoettevõtte USMF andmetega või oma andmetega. Enne selle juhendi käivitamist peate olema kinnitanud avatud ostutellimuse reaga ostutellimuse. Rea kaup peab olema ladustatav ja see ei tohi kasutada tootevariante ja sellel ei tohi olla jälgimisdimensioone. Samuti peavad kaubad olema seostatud laoala dimensioonigrupiga, mille puhul on laohaldusprotsessid lubatud. Kasutatav ladu peab olema laohaldusprotsesside jaoks lubatud ja vastuvõtmiseks kasutatav asukoht peab olema litsentsiplaadiga juhitav. USMF-i kasutamisel saate ostutellimuse loomisel kasutada ettevõtte kontot 1001, ladu 51 ja kaupa M9200. 
+## <a name="enable-sample-data"></a>Luba näidisandmed
 
-Märkige üles loodava ostutellimuse number ning ostutellimuse rea jaoks kasutatav kaubakood ja tegevuskoht.
+Selle stsenaariumi läbimiseks, kasutades selles teemas määratud näidiskirjeid ja -väärtusi, peate kasutama süsteemi, kuhu on installitud standardsed demoandmed, ning enne alustamist peate valima *USMF* juriidilise isiku.
 
+Selle stsenaariumi saate läbi töötada, asendades väärtused oma andmetega, kui teil on saadaval järgmised andmed.
 
-## <a name="create-an-item-arrival-journal-header"></a>Kauba saabumise töölehe päise loomine
-1. Minge jaotisse Kauba saabumine.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Nimi.
-    * Kui kasutate USMF-i, saate sisestada WHS-i. Kui kasutate muid andmeid, peavad töölehel, mille nime valite, olema järgmised atribuudid: Kontrolli komplekteerimiskohta peab olema seatud valikule Ei ja Vahelao haldus peab olema seatud valikule Ei.  
-4. Sisestage väärtus väljale Arv.
-5. Sisestage väärtus väljale Koht.
-    * Valige tegevuskoht, mida kasutasite oma ostutellimuse rea puhul. See toimib vaikeväärtusena kõigile töölehe ridadele. Kui kasutasite USMF-is ladu 51, valige tegevuskoht 5.  
-6. Sisestage väärtus väljale Ladu.
-    * Valige valitud tegevuskoha jaoks kehtiv ladu. See toimib vaikeväärtusena kõigile töölehe ridadele. Kui kasutate USMF-i näidisväärtusi, valige 51.  
-7. Tippige väärtus väljale Asukoht.
-    * Valige valitud lao jaoks kehtiv asukoht. Asukoht peab olema seotud litsentsiplaadiga juhitava asukohaprofiiliga. See toimib vaikeväärtusena kõigile töölehe ridadele. Kui kasutate USMF-i näidisväärtusi, valige Bulk-008.  
-8. Paremklõpsake rippnoolt väljal Llitsentsiplaat ja valige suvand Kuva üksikasjad.
-9. Klõpsake valikut Uus.
-10. Sisestage väärtus väljale Litsentsiplaat.
-    * Märkige väärtus üles.  
-11. Klõpsake nuppu Salvesta.
-12. Sulgege leht.
-13. Sisestage väärtus väljale Litsentsiplaat.
-    * Sisestage vastloodud litsentsiplaadi väärtus. See toimib vaikeväärtusena kõigile töölehe ridadele.  
-14. Klõpsake nuppu OK.
+- Kinnitatud ostutellimus peab olema avatud ostutellimuse reaga.
+- Real olev kaup peab olema ladustatav. See ei tohi kasutada tootevariante ja sellel ei tohi olla jälgimisdimensioone.
+- Üksus peab olema seotud salvestusmõõtmete grupiga, millel on lubatud laohalduse protsess.
+- Kasutatav ladu peab olema laohaldusprotsesside jaoks lubatud ja vastuvõtmiseks kasutatav asukoht peab olema litsentsiplaadiga juhitav.
 
-## <a name="add-a-line"></a>Rea lisamine
-1. Klõpsake käsku Lisa rida.
-2. Sisestage väärtus väljale Kaubakood.
-    * Sisestage ostutellimuse real kasutatav kaubakood.  
-3. Sisestage arv väljale Kogus.
-    * Sisestage kogus, mille soovite registreerida.  
-    * Väli Kuupäev määratleb kuupäeva, millal selle kauba vaba kaubavaru kogus laos registreeritakse.  
-    * Partii ID sisestab süsteem, kui esitatud teabe põhjal on võimalik see üheselt tuvastada. Vastasel juhul peate selle lisama käsitsi. See on kohustuslik väli, mis seob registreeringu kindla lähtedokumendi reaga.  
+## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Kauba saabumise töölehe päise loomine, mis kasutab laohaldust
 
-## <a name="complete-the-registration"></a>Registreerimise lõpule viimine
-1. Klõpsake suvandit Kinnita.
-    * See kontrollib, kas tööleht on sisestamiseks valmis. Kui kontrollimine nurjub, peate tõrked enne töölehe sisestamist kõrvaldama.  
-2. Klõpsake nuppu OK.
-    * Klõpsake OK ja kontrollige teadet. Kuvatama peaks teade, et tööleht on korras.  
-3. Klõpsake valikut Sisesta.
-4. Klõpsake nuppu OK.
-    * Pärast OK klõpsamist kontrollige teateriba. Kuvatama peaks teade, et toiming on lõpule viidud.  
-5. Sulgege leht.
+Järgnev stsenaarium näitab, kuidas luua saabuva kauba töölehe päist, mis kasutab laohaldust.
 
+1. Veenduge, et teie süsteem sisaldaks kinnitatud ostutellimust, mis vastab eelmises jaotises toodud nõuetele. See stsenaarium kasutab ostutellimust ettevõttele *USMF*, hankija kontole *1001*, laole *51* tellimuse reaga *10 PL* (10 kaubaalust) kaubakoodiga *M9200*.
+1. Märkige üles ostutellimuse number, mida kasutate.
+1. Avage **Varude haldus \> Töölehe sisestused \> Kauba saabumine \> Kauba saabumine**.
+1. Valige Toimingupaanil suvand **Uus**.
+1. Avaneb dialoogiboks **Laohalduse töölehe loomine**. Valige väljal **Nimi** töölehe nimi.
+    - Kui kasutate *USMF* näidisandmeid, valige *WHS*.
+    - Kui kasutate oma andmeid, peab teie valitava töölehe valik **Kontrolli komplekteerimisasukohta** olema seadistatud valikule *Ei* ja **Vahelao haldus** valikule *Ei*.
+1. Määrake **Viide** väärtuseks *Ostutellimus*.
+1. Määrake **Konto number** väärtuseks *1001*.
+1. Määrake **Number** selle ostutellimuse numbrile, mille selle teostamistaotluse puhul määratlete.
+
+    ![Saabuva kauba tööleht](../media/item-arrival-journal-header.png "Saabuva kauba tööleht")
+
+1. Valige töölehe päise loomiseks **OK**.
+1. Valige jaotises **Töölehe read** suvand **Lisa rida** ja sisestage järgmised andmed.
+    - **Kauba number** – määrake väärtuseks *M9200*. **Piirkond**, **Ladu** ja **Kogus** seatakse 10 kaubaaluse laokande andmete põhjal (1000 ea.).
+    - **Asukoht** – seadistage väärtuseks *001*. See konkreetne asukoht ei jälgi litsentsiplaate.
+
+    ![Kauba saabumistöölehtede rida](../media/item-arrival-journal-line.png "Kauba saabumistöölehtede rida")
+
+    > [!NOTE]
+    > Väli **Kuupäev** määratleb kuupäeva, millal selle kauba vaba kaubavaru kogus laos registreeritakse.  
+    >
+    > **Partii ID** sisestab süsteem, kui esitatud teabe põhjal on võimalik see üheselt tuvastada. Vastasel juhul peate selle sisestama käsitsi. See on vajalik väli, mis seob registreeringu kindla lähtedokumendi reaga.  
+
+1. Valige toimingupaanil **Valideeri**. See kontrollib, kas tööleht on sisestamiseks valmis. Kui kontrollimine nurjub, peate tõrked enne töölehe sisestamist kõrvaldama.  
+1. Avaneb dialoogiboks **Kontrolli töölehti**. Valige nupp **OK**.
+1. Vaadake üle sõnumiriba. Kuvatama peaks teade, et toiming on lõpule viidud.  
+1. Tehke toimingupaanil valik **Väljastamine**.
+1. Avaneb dialoogiboks **Sisesta tööleht**. Valige nupp **OK**.
+1. Vaadake üle sõnumiriba. Kuvatama peaks teade, et toiming on lõpule viidud.
+1. Valige toimingupaanil **Funktsioonid > Toote tšekk** ostutellimuse rea värskendamiseks ja toote tšeki sisestamiseks.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

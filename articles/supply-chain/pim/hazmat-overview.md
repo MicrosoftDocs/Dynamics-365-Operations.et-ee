@@ -2,11 +2,9 @@
 title: Ohtlike materjalide ülevaade
 description: Selles teemas antakse ülevaade funktsioonidest, mis on seotud ohtlike materjalide käitlemise ja dokumenteerimisega tooteteabe ja laohalduse ajal.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231884"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829374"
 ---
 # <a name="hazardous-materials-overview"></a>Ohtlike materjalide ülevaade
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Tarne-ja transpordimääruste nõuetele vastavuse säilitamiseks peavad organisatsioonid, kes tarnivad materjale, mis liigitatakse ohtlikuks kaubaks, lisama saadetistele täiendavaid pabereid. Ohtlike materjalide funktsioon võimaldab klientidel talletada teavet, mis on seotud väljastatud kaupadega. Seda teavet saab kasutada saatmisdokumentide ettevalmistamise hõlbustamiseks. Organisatsioonil, kes tarnib ohtlikke kaupu, peavad saatmisprotsessi haldamiseks olema oma protsessid ja protseduurid. Microsoft Dynamics 365 Supply Chain Management on tööriist, mis aitab genereerida nõutavaid dokumente.
 

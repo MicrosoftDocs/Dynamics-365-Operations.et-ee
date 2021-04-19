@@ -2,11 +2,9 @@
 title: Osaline asukoha tsükliline inventuur
 description: Tsüklilise inventuuri plaanid juhivad tegelikke inventuuritoimingud. Saate nõuda, et asukohas loendataks kogu vaba kaubavaru asemel ainult konkreetseid tooteid ja tootevariante.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234677"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818892"
 ---
 # <a name="partial-location-cycle-counting"></a>Osaline asukoha tsükliline inventuur
 
@@ -48,7 +46,7 @@ Enne osalise tsüklilise inventuuri töö töötlemist peab tegema tsüklilise i
 Osalise tsüklilise inventuuri protsessi korral ei uuendata asukoha kuupäeva/kellaaega **Viimane tsükliline inventuur**, kuigi loendatakse kõik antud asukohas olevad üksused. Osaline tsükliline inventuur ei arvesta lehel **Tsüklilise inventuuri plaanid** parameetrit **Päevi tsükliliste inventuuride vahel**. Osaline tsükliline inventuur ei toeta mitme üksuse samaaegset loendamist samas asukohas. Osalise tsüklilise inventuuri funktsioon võib põhjustada kauba korral sama asukoha loendamist mitu korda, kui käitatakse käsk **Töötle tsüklilise inventuuri plaani**. Selle stsenaariumi vältimiseks määrake filtrid väljal **Vali asukohad**.
 
 > [!NOTE]
-> Osalise tsüklilise inventuuri protsessi käigus ei paku laorakendus nuppu **Lisa LP või kaup**.
+> Osalise tsüklilise inventuuri protsessi käigus ei paku laohalduse mobiilirakendus Warehouse Management nuppu **Lisa LP või kaup**.
 
 ## <a name="example"></a>Näide
 

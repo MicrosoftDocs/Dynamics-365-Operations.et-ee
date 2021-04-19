@@ -2,11 +2,9 @@
 title: Asukoha tootedimensioonide segamine
 description: Selles teemas antakse teavet asukohatoote dimensiooni segamise kohta. See asukohaprofiili funktsioon aitab parandada asukohahaldust, kui kasutatakse tootevariante või tooteid, millel on dimensioonid, näiteks moetööstuses. See võimaldab teil otsustada, kas kindlas asukohaprofiilis saab kombineerida konfiguratsioone, värve, laade ja suurusi või kas ühte asukohta saab lisada vaid ühe neist dimensioonidest või nende kombinatsiooni.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217025"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831286"
 ---
 # <a name="location-product-dimension-mixing"></a>Asukoha tootedimensioonide segamine
 
@@ -206,9 +204,9 @@ Loote ostutellimuse, millel on kolm rida: kaks rida sama tootenumbriga, kuid eri
 
 1.Valige **Salvesta**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Ostutellimuse ridade vastuvõtmine laorakenduses
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Ostutellimuse ridade vastuvõtmine mobiilirakenduses Warehouse Management
 
-1. Logige laorakendusse sisse kasutajana, kes on lubatud lao *24* jaoks.
+1. Logige mobiilirakendusse Warehouse Management sisse kasutajana, kes on lubatud lao *24* jaoks.
 1. Valige menüü **Sissetulev**.
 1. Valige **Vastuvõttev ostutellimuse rida**.
 1. Valige väli **PONUM** ja sisestage ostutellimuse number.

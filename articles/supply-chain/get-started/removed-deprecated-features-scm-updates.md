@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Supply Chain Managementis.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259087"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821269"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
 
@@ -34,6 +32,18 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!NOTE]
 > Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://docs.microsoft.com/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Supply Chain Managementi väljalaskest 10.0.18 eemaldatud või aegunud funktsioonid
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations– ladustamine (lao rakendus)
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kehtib 2021. aasta aprillil, *Dynamics 365 for Finance and Operations – ladustamine* (laorakendus) on iganenud ja seda ei toetata pärast 2022. aasta aprilli. See asendati nüüd *mobiilirakendusega Warehouse Management*, mis anti välja Supply Chain Management versiooniga 10.0.17. Uus rakendus on täielik asendus, kuid kasutab sama alusraamistikku, mis muudab migreerimise lihtsaks. Vajadusel saab neid kahte rakendust kõrvuti kasutada, et aidata kasutajatel uue rakenduse õppimisel järk-järgult kohaneda.<br><br>Lisateavet uue laohalduse mobiilirakenduse Warehouse Management kohta vt jaotisest [Mobiilirakenduse Warehouse Management](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ja [Mobiilirakenduse Warehouse Management installimine ja ühendamine](../warehousing/install-configure-warehouse-management-app.md). |
+| **Asendatud teise funktsiooniga?**   | Jah, asendatud uue laohalduse mobiilirakendusega Warehouse Management. |
+| **Mõjutatud tootealad**         | Supply Chain Management – lao rakendus |
+| **Juurutamissuvand**              | Pilves ja kohapealne |
+| **Olek**                         | Aegunud. Laorakendus saab tuge vigade ja turvaparandustega, kuid funktsioonide täiustusi enam ei pakuta. Pärast 2022. aasta aprilli ei toetata enam vanat laorakendust ja klientidel palutakse kolida uude laohalduse mobiilirakendusse Warehouse Management. Seejärel eemaldatakse vana laorakendus Microsofti poest ja Google Play poest.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Supply Chain Managementi väljalaskest 10.0.15 eemaldatud või aegunud funktsioonid
 

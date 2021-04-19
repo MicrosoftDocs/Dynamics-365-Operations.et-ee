@@ -2,11 +2,9 @@
 title: Kassas (POS) olevad klienditellimused
 description: Selles teemas kirjeldatakse kassas (POS) olevaid klienditellimusi. Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821004"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kassas (POS) olevad klienditellimused
 
@@ -61,7 +59,8 @@ Commerce'i versioonis 10.0.12 ja uuemates versioonides saavad ettevõtted määr
 
 Kui töötate klienditellimustega kassas, peate arvestama kauplusekanali teatud sätetega. Need sätted leiate Commerce'i peakontori lehelt **Kauplused**.
 
-- **Ladu** – see väli kuvab ladu, mida kasutatakse kauplusest saatmiseks konfigureeritud tellimuste täitmiseks.
+- **Ladu** – see väli näitab ladu, mida kasutatakse selle kauplusega seotud sularaha ja kaupade ning kliendiga komplekteeritud tellimuste laovarude arvestamisel. Soovitame seetõttu kasutada kordumatuid ladusid iga kaupluse kanali jaoks, et vältida kaupluste vahel vastuolulisi äriloogika probleeme.
+- **Lähetamise ladu** – see väli näitab ladu, mida kasutatakse selle valitud kauplusesse lähetatud ja seotud kliendi komplekteeritud tellimuste laovarude arvestamisel. Kui funktsioon **Oskus määrata asukohti kui "Lähetamine" või "Vastuvõtt" on täitmisgrupis** on teie keskkonnas lubatud, saavad müügikoha kasutajad valida kindla lao, millelt kassas lähetada, selle asemel et valida kauplus, millest lähetada. Seega, kui see funktsioon on lubatud, ei kasutata enam saatmisladu, kuna kasutaja valib konkreetse lao tellimuse lähetamiseks tellimuse loomisel.
 - **Täitmisgrupi määramine** – valige see nupp (tegevuspaani vahekaardil **Häälestamine**), et linkida täitmisgrupid, millele viidatakse, et kuvada järeletulemise asukohtade või lähetuse päritolu sätted, kui klienditellimused luuakse kassas.
 - **Kasuta sihtkohapõhist maksu** – see suvand näitab, kas lähetusaadressi kasutatakse kliendi aadressile lähetatavate tellimuse ridadele rakendatava maksugrupi määratlemiseks.
 - **Kasuta kliendipõhist maksu** – see suvand näitab, kas kliendi tarneaadressi jaoks määratletud maksugruppi kasutatakse kliendi nende tellimuste maksustamiseks, mis on loodud kassas kliendile koju saatmiseks.

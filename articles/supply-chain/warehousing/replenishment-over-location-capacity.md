@@ -2,11 +2,9 @@
 title: Täiendamine üle asukoha võimsuse
 description: Selles teemas antakse teavet funktsiooni Täiendamine üle asukoha võimsuse kohta. See funktsioon võimaldab kogu päevast loodavat täiendamistööd ja selle abil saab hallata selle täiendustöö kättesaadavust, tagamaks, et komplekteerimise asukoht jääks varudeta ega ületaks võimsust.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228389"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823235"
 ---
 # <a name="replenishment-over-location-capacity"></a>Täiendamine üle asukoha võimsuse
 
@@ -241,7 +239,7 @@ Vabast kogusest olenevalt võivad loodud töökogused veidi erineda. Kuid üldis
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Vaba kaubavaru identifitseerimisnumbri ID
 
-Selle stsenaariumi korral saate hiljem kasutada laorakendust (või emulaatorit), kus tuleb komplekteerimis- ja täiendusstsenaariumite jaoks tuvastada identifitseerimisnumber.
+Selle stsenaariumi korral saate hiljem kasutada mobiilirakendust Warehouse Management (või emulaatorit), kus tuleb komplekteerimis- ja täiendusstsenaariumite jaoks tuvastada identifitseerimisnumber.
 
 Identifitseerimisnumbri ID-de hilisemaks leidmiseks toimige järgmiselt.
 
@@ -266,7 +264,7 @@ Teete lao asukoha täiendamise esimese kahe töö ID-de jaoks. Töö kolmanda t�
 
 #### <a name="replenishment"></a>Täiendamine
 
-1. Logige laorakendusse sisse lao *61* kasutajana. (Sisestage *61* kasutaja ID-na ja *1* paroolina.)
+1. Logige mobiilirakendusse Warehouse Management sisse lao *61* kasutajana. (Sisestage *61* kasutaja ID-na ja *1* paroolina.)
 1. Avage **Varud \> Täiendamine**.
 
     Teil palutakse esimene täiendustöö lõpule viia. Kuvatakse kaubakood, kogus, asukoht ja komplekteerimise asukoht.
@@ -296,7 +294,7 @@ Kuni asukohast komplekteeritakse mobiilse seadme menüü-üksuses piisavalt varu
 
 Enne kui järelejäänud täiendamistöö ülesannet saab lõpule viia, tuleb komplekteerimise asukohast tühjendada varud tasemeni, milles ülejäänud täiendustöö blokeeringu saaks tühistada. Teisisõnu ei saa vaba kaubavaru koguse summa asukohas ja varude täiendamise kogus ületada **Ületäitumise koguse** väärtust. Kui see summa on ületäitumise kogusest väiksem, tühistatakse järelejäänud täiendustöö blokeering.
 
-1. Logige laorakendusse sisse lao *61* kasutajana. (Sisestage *61* kasutaja ID-na ja *1* paroolina.)
+1. Logige mobiilirakendusse Warehouse Management sisse lao *61* kasutajana. (Sisestage *61* kasutaja ID-na ja *1* paroolina.)
 1. Avage **Väljaminev \> Müügi komplekteerimine**.
 1. Sisestage müügitellimuse 1 esimene töö ID.
 

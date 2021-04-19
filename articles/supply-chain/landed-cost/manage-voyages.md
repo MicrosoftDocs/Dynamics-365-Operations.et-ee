@@ -2,7 +2,6 @@
 title: Teekondade haldamine
 description: Selles teemas kirjeldatakse, kuidas töötada teekondadega. Teekond tähistab harilikult laeva. Kuid olenevalt teie tavadest ja protseduuridest võib see tähistada ka hankijat, ostutellimust või mõnda muud teie organisatsiooni jaoks sobivat üksust.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 850fbb2077a592ec4ba8578cab4795d573464f54
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 0b1414efbdde77af5d7fa15ff066e4ddcfd6bad2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501002"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833781"
 ---
 # <a name="manage-voyages"></a>Teekondade haldamine
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Teekond tähistab harilikult laeva. Kuid olenevalt teie tavadest ja protseduuridest võib see tähistada ka hankijat, ostutellimust või mõnda muud teie organisatsiooni jaoks sobivat üksust.
 
@@ -74,9 +72,9 @@ Järgmises tabelis kirjeldatakse toimingupaani vahekaardil **Haldamine** olevaid
 | Sisesta arve | Sisestage arve teekonna kõigi ostutellimuse ridade jaoks. Kui teekonna kaubad läbivad transiidis olevate kaupade töötluse, arveldatakse ostutellimuse read enne vastuvõtuprotsessi läbimist. Kui algne ostutellimus on arveldatud, luuakse algsete ostutellimuse ridadega seostatud transiidis olevate kaupade tellimused. Seejärel saab ladu tellimused vastu võtta. Kui kasutatakse mitut ettevõtet hõlmavaid saadetisi, avatakse iga ettevõtte jaoks uus arve sisestamise dialoogiaken. |
 | Lähetuse üleviimistellimus | Sisestage üleviimistellimuse teekond teekonna kõigi üleviimistellimuse ridade jaoks. Selle nupu valimisel on värskendamiseks saadaval ainult üleviimistellimused. |
 | Võta üleviimistellimus vastu | Sisestage üleviimistellimuse sissetulek teekonna kõigi üleviimistellimuse ridade jaoks. |
-| Võta transiidis olevad kaubad vastu | Võtke vastu kõik teekonna transiidis olevad tellimuseread. See nupp on üks kolmest valikust, mis on saadaval teekonna transiidis olevate kaupade vastu võtmiseks. (Ülejäänud kaks valikut on nupp **Loo saabumistööleht**, mida kirjeldatakse selles tabelis hiljem, ja laorakendus.) See suvand on lihtsaim suvand ja töötleb transiidis olevad kaubad transiidis olevate kaupade laost välja ja lõppsihtlattu sisse. Kui soovite protsessi täpsemini juhtida, kasutage kaupade sissetuleku töötlemiseks saabumise töölehte või mobiilset seadet. |
+| Võta transiidis olevad kaubad vastu | Võtke vastu kõik teekonna transiidis olevad tellimuseread. See nupp on üks kolmest valikust, mis on saadaval teekonna transiidis olevate kaupade vastu võtmiseks. (Ülejäänud kaks valikut on nupp **Loo saabumistööleht**, mida kirjeldatakse selles tabelis hiljem, ja mobiilirakendus Warehouse Management.) See suvand on lihtsaim suvand ja töötleb transiidis olevad kaubad transiidis olevate kaupade laost välja ja lõppsihtlattu sisse. Kui soovite protsessi täpsemini juhtida, kasutage kaupade sissetuleku töötlemiseks saabumise töölehte või mobiilset seadet. |
 | Otsi automaatseid kulusid | Asjakohaste teekonnakulude otsimine. Kui need kulud on juba leitud või värskendatud, saate järgmise teate: „Leidub arveldamata kuluridasid. Kas soovite need üle kirjutada?“ Otsitakse kõiki kulusid, mida loomise hetkel teekonnaga ei seostatud. Teekonnakulusid, mis on teekonnale manustatud ja mis on arveldatud, ei kirjutata üle. |
-| Loo saabumise tööleht | <p>Avage dialoogiaken **Saabumistöölehe loomine**, kus saate luua saabumise töölehe, mis määratleb asukoha. Dialoogiaknas on järgmised suvandid.</p><ul><li>**Loo transiidis olevatest kaupadest** või **Loo üleviimistellimusest** – selle suvandi silt muutub sõltuvalt sellest, kas kasutate transiidis olevate kaupade protsessi. Määrake selle väärtuseks *Jah*, et avada saabumise töölehe leht, mis võimaldab töödelda teekonnaga seotud transiidis olevate kaupade standardset saabumise töölehte. Kui kaup on juba lõppsihtlaos vastu võetud, siis seda ei lisata saabumise töölehe ridadele.</li><li>**Lähtesta kogus** – määrake selle suvandi väärtuseks *Jah*, et lähtestada vastu võetav kogus, põhinedes teekonna real määratletud kaupade kogusel. Kui teekonna rida on osaliselt vastu võetud, on see kogus järelejäänud kogus. Soovitame määrata selle suvandi väärtuseks *Jah*.</li><li>**Loo tellimuse ridadelt** – määrake selle suvandi väärtuseks *Jah*, et võtta väärtus tellimuse ridadelt.</li></ul><p>See nupp on üks kolmest valikust, mis on saadaval teekonna kaupade vastu võtmiseks. (Muud valikud on selles tabelis varem kirjeldatud nupp **Võta transiidis olevad kaubad vastu** ja laorakendus.)</p> |
+| Loo saabumise tööleht | <p>Avage dialoogiaken **Saabumistöölehe loomine**, kus saate luua saabumise töölehe, mis määratleb asukoha. Dialoogiaknas on järgmised suvandid.</p><ul><li>**Loo transiidis olevatest kaupadest** või **Loo üleviimistellimusest** – selle suvandi silt muutub sõltuvalt sellest, kas kasutate transiidis olevate kaupade protsessi. Määrake selle väärtuseks *Jah*, et avada saabumise töölehe leht, mis võimaldab töödelda teekonnaga seotud transiidis olevate kaupade standardset saabumise töölehte. Kui kaup on juba lõppsihtlaos vastu võetud, siis seda ei lisata saabumise töölehe ridadele.</li><li>**Lähtesta kogus** – määrake selle suvandi väärtuseks *Jah*, et lähtestada vastu võetav kogus, põhinedes teekonna real määratletud kaupade kogusel. Kui teekonna rida on osaliselt vastu võetud, on see kogus järelejäänud kogus. Soovitame määrata selle suvandi väärtuseks *Jah*.</li><li>**Loo tellimuse ridadelt** – määrake selle suvandi väärtuseks *Jah*, et võtta väärtus tellimuse ridadelt.</li></ul><p>See nupp on üks kolmest valikust, mis on saadaval teekonna kaupade vastu võtmiseks. (Muud valikud on selles tabelis varem kirjeldatud nupp **Võta transiidis olevad kaubad vastu** ja mobiilirakendus Warehouse Management.)</p> |
 | Kulude laekumine | Saate koguda kulusid seal, kus kulutüübil on deebeti jaoks määratud pearaamatukonto. Seda nuppu kasutatakse tavaliselt siis, kui varud on transiidis või kui kaubad on kätte saadud ja arveldatud. |
 | Koonda kulud | Kulude teisaldamine saatmiskonteineri tasemelt teekonna tasemele. Võite seda nuppu kasutada jagatud teenuste/saatmise stsenaariumis, kus mitu olemit jagavad saatmiskonteineri või paki mahtu. Näiteks on teekonnal 40-jalane saatmiskonteiner ja 20-jalane saatmiskonteiner ning jaotamine tehakse mahu järgi. Sel juhul võidakse 20-jalast konteinerit jagavaid või selle mahtu kasutavaid kaupu/üksuseid penaltiseerida. Kulude õiglaseks jaotamiseks võivad mõned organisatsioonid soovida kanda kulud üle teekonnale ja jaotada need teekonnataseme jaotamismeetodi alusel. |
 | Muuda teekonna malli | Avatakse dialoogiaken, kus saate muuta teekonna malli. Pärast malli muutmist teekonnakulud kustutatakse. Seetõttu peate võib-olla valima **Otsi automaatsed kulud** (vt kirjeldust selles tabelis eespool) või lisama kulud uuesti käsitsi. |

@@ -1,12 +1,10 @@
 ---
 title: Kuluhalduse tõrkeotsing
 description: Selles teemas kirjeldatakse, kuidas lahendada kuluhaldusega töötamisel tekkivaid probleeme.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262449"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834285"
 ---
 # <a name="troubleshoot-cost-management"></a>Kuluhalduse tõrkeotsing
 
@@ -37,7 +35,7 @@ Selles teemas kirjeldatakse, kuidas lahendada kuluhaldusega töötamisel tekkiva
 
 Vahesummad võivad põhjustada probleeme, kui tulemus eksporditakse, eriti siis, kui kasutajad muudavad kirje järjestust.
 
-Vahesummade kontrollimiseks saate tulemuse eksportida Microsoft Excel-isse. Teise võimalusena, kui soovite kontrollida vahekokkuvõtteid Supply Chain Managementi siseselt, kasutage [Funktsioonide haldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lubada *Uue ruudustiku juhtelemendi* ja *(Eelvaade) rühmitamise ruudustiku* funktsioonid, mis annavad palju paindlikuma viisi, et vaadata iga grupi jaoks veeru alusel vahekokkuvõtet. Lisateavet vt jaotisest [Ruudustiku võimalused](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+Vahesummade kontrollimiseks saate tulemuse eksportida Microsoft Excel-isse. Teise võimalusena, kui soovite kontrollida vahekokkuvõtteid Supply Chain Managementi siseselt, kasutage [Funktsioonide haldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lubada *Uue ruudustiku juhtelemendi* ja *Rühmitamise ruudustiku* funktsioonid, mis annavad palju paindlikuma viisi, et vaadata iga grupi jaoks veeru alusel vahekokkuvõtet. Lisateavet vt jaotisest [Ruudustiku võimalused](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Varude väärtuse ladustamise aruanne ei toeta pearaamatu konto teavet.
 

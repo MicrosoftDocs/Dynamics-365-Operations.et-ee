@@ -2,11 +2,9 @@
 title: Sama partii reserveerimine müügitellimuse jaoks
 description: Selles artiklis selgitatakse, kuidas seadistada toodet lubama varude reserveerimist üksiku varude partii suhtes.
 author: omulvad
-manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7745b1306142678760318cc47f54b93d6f727a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231812"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807652"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Sama partii reserveerimine müügitellimuse jaoks
 
@@ -43,7 +41,7 @@ Kui reserveerite sama partii valikuga müügitellimuse real olevale tootele varu
 - Partii on aegumiskuupäeva ja kehtivate kliendi müümispäevade alusel aegunud. Kaupa saab siiski reserveerimisel arvestada, kui kauba mudeligrupp on selle kauba puhul arvestatakse „esimesena aegunud esimesena välja” (FEFO) kuupäeva ja kui komplekteerimise kriteeriumina on valitud parim-enne kuupäev.
 - Partiil pole jäänud järele piisavalt kõlblikkusaja päevi, tuginedes aegumiskuupäevale ja parim-enne kuupäevale, millele on liidetud kliendi müümispäevad.
 
-Laoala dimensiooni grupiga seostatud kaupade puhul, millel on lubatud suvand **Kasuta laohaldusprotsesse**, saate reserveerida kindlaid partiinumbreid, kasutades reserveerimishierarhiat, kus partiinumbri varude dimensioon on määratletud asukohadimensiooni kohal. Müügi ja ülekandetellimuse ridade lehel **Partii reserveerimine** saate ka valida ja reserveerida mitu rida saadaolevate partiinumbrite põhjal. Lisateabe saamiseks selle kohta, mida teha, kui kasutate reserveerimishierarhiat, kus partiinumbri dimensioon on asukoha all, vaadake teemat [Paindlik dimensiooni reserveerimise poliitika laotaseme](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+Laoala dimensiooni grupiga seostatud kaupade puhul, millel on lubatud suvand **Kasuta laohaldusprotsesse**, saate reserveerida kindlaid partiinumbreid, kasutades reserveerimishierarhiat, kus partiinumbri varude dimensioon on määratletud asukohadimensiooni kohal. Seda tüüpi reserveerimishierarhiat nimetatakse ka *Partiiüle\[asukoht\]* reserveerimishierarhiaks. Müügi ja ülekandetellimuse ridade lehel **Partii reserveerimine** saate ka valida ja reserveerida mitu rida saadaolevate partiinumbrite põhjal. Lisateabe saamiseks selle kohta, mida teha, kui kasutate reserveerimishierarhiat, kus partiinumbri dimensioon on asukoha (*Partiiüle\[asukoht\]*) all, vaadake teemat [Paindlik dimensiooni reserveerimise poliitika laotaseme](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

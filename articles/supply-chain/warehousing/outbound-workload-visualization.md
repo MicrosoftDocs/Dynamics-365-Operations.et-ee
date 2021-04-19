@@ -2,11 +2,9 @@
 title: Väljamineva töökoormuse visualiseerimine
 description: Selles teemas antakse teavet väljamineva töökoormuse visualiseerimise kohta. See funktsioon võimaldab laojuhatajatel ja -ülemustel luua kohandatud töökoormusgraafikuid, mida saab kasutada praeguse töö ja selle allesjäänud osa edenemise jälgimiseks. Laojuhatajad saavad luua mitu vaadet ja häälestada vajaduse korral automaatse värskendamise.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b7512ea6ad2e97db388bac6750482f7ed967140
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225916"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810482"
 ---
 # <a name="outbound-workload-visualization"></a>Väljamineva töökoormuse visualiseerimine
 

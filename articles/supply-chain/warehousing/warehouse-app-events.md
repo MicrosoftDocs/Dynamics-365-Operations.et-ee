@@ -2,11 +2,9 @@
 title: Laorakenduse sündmused
 description: Selles teemas kirjeldatakse laorakenduse sündmusetöötlust, mida kasutatakse pakett-töö osana laorakenduse sündmuseteadete töötlemiseks.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248639"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837389"
 ---
 # <a name="warehouse-app-event-processing"></a>Laorakenduse sündmusetöötlus
 
 [!include [banner](../includes/banner.md)]
 
-Rakenduses Supply Chain Management töötavad pakett-tööd saavad kasutada laorakenduse sündmuste töötlemise järjekorrast pärit andmeid, et reageerida äramärgitud sündmustele nii, nagu vaja. See funktsioon lisab järjekorda asjakohased sündmused, reageerimaks kindlat tüüpi tegevustele, mida rakendust kasutavad töötajad teevad. Näide on see, kui funktsiooni **Üleviimistellimuste loomine ja töötlemine laorakenduses** kasutamisel luuakse ja värskendatakse üleviimistellimuse päist ja ridu peidetult ajal, mil süsteem käitab pakett-tööd **Laorakenduse sündmuste töötlemine**.
+Rakenduses Supply Chain Management töötavad pakett-tööd saavad kasutada mobiilirakenduse Warehouse Management sündmuste töötlemise järjekorrast pärit andmeid, et reageerida äramärgitud sündmustele nii, nagu vaja. See funktsioon lisab järjekorda asjakohased sündmused, reageerimaks kindlat tüüpi tegevustele, mida rakendust kasutavad töötajad teevad. Näide on see, kui funktsiooni *Üleviimistellimuste loomine ja töötlemine laorakenduses* kasutamisel luuakse ja värskendatakse üleviimistellimuse päist ja ridu peidetult ajal, mil süsteem käitab pakett-tööd **Laorakenduse sündmuste töötlemine**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Laorakenduse sündmuste töötlemise funktsiooni lubamine
 
@@ -50,7 +48,7 @@ Seadistage ajastatud pakett-töö laorakenduse sündmuste töötlemiseks ülevii
 
 ## <a name="query-warehouse-app-events"></a>Laorakenduse sündmuste pärimine
 
-Saate vaadata sündmuste järjekorda ja laorakenduse loodud sündmuseteateid, avades **Laohaldus \> Päringud ja aruanded \> Mobiilse seadme logid \> Laorakenduse sündmused**.
+Saate vaadata sündmuste järjekorda ja mobiilirakenduse Warehouse Management loodud sündmuseteateid, avades **Laohaldus \> Päringud ja aruanded \> Mobiilse seadme logid \> Laorakenduse sündmused**.
 
 ## <a name="the-standard-event-queue-process"></a>Standardne sündmuste järjekorra protsess
 

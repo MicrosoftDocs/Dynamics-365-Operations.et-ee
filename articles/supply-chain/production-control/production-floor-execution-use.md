@@ -2,11 +2,9 @@
 title: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 description: Selles teemas kirjeldatakse, kuidas kasutada tootmisosakonna käivitusliidest töötaja vaatepunktist.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500786"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814652"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Tootmisosakonna käivitusliides on optimeeritud puudutusega suhtluseks. Selle kujundus annab visuaalse kontrasti, mis vastab tootmisjaoskonna juurdepääsetavuse nõuetele. See pakub samasuguseid funktsionaalseid võimalusi, nagu töökaardi seade. Kuid see võimaldab ka mitme töö paralleelset alustamist tööde loendis. (See võimalus on tuntud ka kui *töödekogum*.) Lisaks saavad töötajad avada tööde loendist avada juhendi, mis loodi Microsoft Dynamics 365 juhendis. Sedasi saavad nad visuaalseid HoloLensi juhiseid.
 
@@ -90,7 +87,7 @@ Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel jooni
 
 1. **Sätted** – valige hammasrattaikoon, et avada dialoogiboks, kus saate valida, milliseid loendureid valitud masina vara puhul vaadata. Nende loendurite väärtused kuvatakse vahekaardil **Varahaldus**. Menüü **Sätted** (kuvatakse järgmisel kuvatõmmisel) võimaldab teil lubada kuni neli loendurit. Iga lubatava loenduri puhul kasutage loenduri valimiseks paani ülaosas otsinguvälja. Otsinguväljal loetletakse kõik lehe **Varahaldus** ülaosas valitud varaga seotud loendurid. Määrake iga loendur nii, et see jälgiks kas **koondväärtust** või loenduri viimast **tegelikku** väärtust. Näiteks kui seadistate loenduri, mis jälgib, kui palju tunde on masin töötanud, peaksite selle seadistama väärtusele **Liidetud**. Kui määrate loenduri viimati uuendatud temperatuuri või rühu mõõtmiseks, peaksite selle häälestama väärtusele **Tegelik**. Valige **OK**, et salvestada oma sätted ja sulgeda dialoogiboks.
 
-    ![Vahekaart Minu masin](media/pfei-my-machine-tab-settings.png "Vahekaart Minu masin")
+    ![Vahekaarsi Minu masin sätted](media/pfei-my-machine-tab-settings.png "Vahekaarsi Minu masin sätted")
 
 1. **Hooldustaotlus** – valige see nupp dialoogiboksi avamiseks, kus saate luua hooldusnõude. Saate sisestada kirjelduse ja märkuse. Supply Chain Managementi kasutaja tähelepanu juhitakse sellele, kes siis saab seejärel teisendada hooldusnõude hooldustöötellimuseks.
 1. **Seisaku registreerimine** – valige see nupp, et avada dialoogiboks, kus saate registreerida masina seisuaja. Saate valida põhjuse koodi ja sisestada seisakule kuupäeva/ajavahemiku. Masina seisuaja registreerimist kasutatakse masina vara tõhususe arvutamiseks.

@@ -2,11 +2,9 @@
 title: Lao konfiguratsiooni tõrkeotsing
 description: Selles teemas kirjeldatakse, kuidas lahendada müügipakkumistega Microsoft Dynamics 365 Supply Chain Management rakenduse konfigureerimisel tekkivaid probleeme.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487093"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814388"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Lao konfiguratsiooni tõrkeotsing
 
@@ -38,7 +36,7 @@ See tõrketeade kuvatakse, kui skaneerite identifitseerimisnumbri või asukoha.
 
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
-Veenduge, et identifitseerimisnumber ei ole reserveeritud muuks. See probleem tekkis, kui väärtus, mida kasutaja laos skaneeris, oli nii kehtiv asukoht kui ka kehtiv identifitseerimisnumber. See probleem lahendati versioonis 10.0.11.
+Veenduge, et identifitseerimisnumber ei ole reserveeritud muuks. See probleem tekkis, kui väärtus, mida kasutaja mobiilirakenduses Warehouse Management skaneeris, oli nii kehtiv asukoht kui ka kehtiv identifitseerimisnumber. See probleem lahendati versioonis 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Kuvatakse järgmine tõrketeade: "Selle asukoha kohta peab määrama identifitseerimisnumbri."
 
@@ -82,7 +80,7 @@ Võtke arvesse, et tõrketeadet on parandatud versioonis 10.0.15 (vt [KB 4581627
 
 Uus funktsioon *Hinda mitme SKU-ga asukoha direktiivide kõiki tegevusi* on lisatud versiooni 10.0.15 (vt [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Selle funktsiooniga hinnatakse kõiki mitme SKU-ga asukoha direktiivide tegevusi. Kui vajate seda funktsiooni, kasutage selle sisselülitamiseks [Funktsiooni haldamist](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>Ma ei saa kasutada lao rakendust osalise komplekteerimise tegemiseks.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>Ma ei saa kasutada lao mobiilirakendust Warehouse Management osalise komplekteerimise tegemiseks.
 
 ### <a name="issue-description"></a>Probleemi kirjeldus
 
@@ -100,7 +98,7 @@ Soovite teha varude oleku muutust partii osaliseks koguseks.
 
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
-Selleks, et võimaldada töötajatel seda muudatust teha, saate luua menüü-üksuse lao rakendusele. **Mobiilse seadme menüü-üksused** lehel looge (või redigeerige) menüü-üksus, millel on järgnevad seaded:
+Selleks, et võimaldada töötajatel seda muudatust teha, saate luua menüü-üksuse lao mobiilirakendusele Warehouse Management. **Mobiilse seadme menüü-üksused** lehel looge (või redigeerige) menüü-üksus, millel on järgnevad seaded:
 
 - **Režiim:** *töö*
 - **Kasuta olemasolevat tööd:** *Ei*
