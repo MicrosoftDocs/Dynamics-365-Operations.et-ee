@@ -2,11 +2,9 @@
 title: Toiminguressursi loomine
 description: Operatsiooniressurss sooritab projekti või tootmisprotsessi tegevusi.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrTable
 audience: Application User
@@ -16,69 +14,69 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 514b0b27065b4318891a84f364b39e8e378d6a4a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9ab91c449293338469fa2832156a85c4c32301fd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255081"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829038"
 ---
-# <a name="create-an-operations-resource"></a><span data-ttu-id="783fc-103">Toiminguressursi loomine</span><span class="sxs-lookup"><span data-stu-id="783fc-103">Create an operations resource</span></span>
+# <a name="create-an-operations-resource"></a><span data-ttu-id="36ef4-103">Toiminguressursi loomine</span><span class="sxs-lookup"><span data-stu-id="36ef4-103">Create an operations resource</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="783fc-104">Operatsiooniressurss sooritab projekti või tootmisprotsessi tegevusi.</span><span class="sxs-lookup"><span data-stu-id="783fc-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="783fc-105">Selles protseduuris näitlikustatakse, kuidas määratleda operatsiooniressurssi.</span><span class="sxs-lookup"><span data-stu-id="783fc-105">This procedures shows you how to define an operations resource.</span></span> <span data-ttu-id="783fc-106">Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="783fc-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="36ef4-104">Operatsiooniressurss sooritab projekti või tootmisprotsessi tegevusi.</span><span class="sxs-lookup"><span data-stu-id="36ef4-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="36ef4-105">Selles protseduuris näitlikustatakse, kuidas määratleda operatsiooniressurssi.</span><span class="sxs-lookup"><span data-stu-id="36ef4-105">This procedures shows you how to define an operations resource.</span></span> <span data-ttu-id="36ef4-106">Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="36ef4-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="783fc-107">Avage Ressursid.</span><span class="sxs-lookup"><span data-stu-id="783fc-107">Go to Resources.</span></span>
-2. <span data-ttu-id="783fc-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="783fc-108">Click New.</span></span>
-3. <span data-ttu-id="783fc-109">Sisestage väärtus väljale Ressurss.</span><span class="sxs-lookup"><span data-stu-id="783fc-109">In the Resource field, type a value.</span></span>
-4. <span data-ttu-id="783fc-110">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="783fc-110">In the Description field, type a value.</span></span>
+1. <span data-ttu-id="36ef4-107">Avage Ressursid.</span><span class="sxs-lookup"><span data-stu-id="36ef4-107">Go to Resources.</span></span>
+2. <span data-ttu-id="36ef4-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="36ef4-108">Click New.</span></span>
+3. <span data-ttu-id="36ef4-109">Sisestage väärtus väljale Ressurss.</span><span class="sxs-lookup"><span data-stu-id="36ef4-109">In the Resource field, type a value.</span></span>
+4. <span data-ttu-id="36ef4-110">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="36ef4-110">In the Description field, type a value.</span></span>
 
-## <a name="define-capacity-and-consumption-parameters"></a><span data-ttu-id="783fc-111">Võimsus- ja tarbimisparameetrite määratlemine</span><span class="sxs-lookup"><span data-stu-id="783fc-111">Define capacity and consumption parameters</span></span>
-1. <span data-ttu-id="783fc-112">Laiendage jaotist Toiming.</span><span class="sxs-lookup"><span data-stu-id="783fc-112">Expand the Operation section.</span></span>
-2. <span data-ttu-id="783fc-113">Sisestage arv väljale Praagi protsent.</span><span class="sxs-lookup"><span data-stu-id="783fc-113">In the Scrap percentage field, enter a number.</span></span>
-3. <span data-ttu-id="783fc-114">Sisestage või valige väärtus väljal Seadistuse kategooria.</span><span class="sxs-lookup"><span data-stu-id="783fc-114">In the Setup category field, enter or select a value.</span></span>
-    * <span data-ttu-id="783fc-115">Määrake kulukategooria, mis määratleb seadistuskulu konto.</span><span class="sxs-lookup"><span data-stu-id="783fc-115">Specify the cost category that defines how to account for the cost of setup.</span></span>  
-4. <span data-ttu-id="783fc-116">Sisestage või valige väärtus väljal Käitusaja kategooria.</span><span class="sxs-lookup"><span data-stu-id="783fc-116">In the Run time category field, enter or select a value.</span></span>
-    * <span data-ttu-id="783fc-117">Määrake kulukategooria, mis määratleb käitusaja kulu konto.</span><span class="sxs-lookup"><span data-stu-id="783fc-117">Specify the cost category that defines how to account for the cost of run time.</span></span>  
-5. <span data-ttu-id="783fc-118">Valige või sisestage väärtus väljal Koguse kategooria.</span><span class="sxs-lookup"><span data-stu-id="783fc-118">In the Quantity category field, enter or select a value.</span></span>
-    * <span data-ttu-id="783fc-119">Määrake kulukategooria, mis määratleb väljundkoguse põhjal ressursikulu konto.</span><span class="sxs-lookup"><span data-stu-id="783fc-119">Specify the cost category that defines how to account for the resource cost based on the output quantity.</span></span>  
-6. <span data-ttu-id="783fc-120">Valige suvand väljal Võimsusühik.</span><span class="sxs-lookup"><span data-stu-id="783fc-120">In the Capacity unit field, select an option.</span></span>
-    * <span data-ttu-id="783fc-121">Määrake operatsiooniressursside võimsuse väljendamise ühik.</span><span class="sxs-lookup"><span data-stu-id="783fc-121">Specify the unit in which to express the capacity of the operations resource.</span></span>  
-7. <span data-ttu-id="783fc-122">Sisestage arv väljale Võimsus.</span><span class="sxs-lookup"><span data-stu-id="783fc-122">In the Capacity field, enter a number.</span></span>
-8. <span data-ttu-id="783fc-123">Sisestage arv väljale Efektiivsusprotsent.</span><span class="sxs-lookup"><span data-stu-id="783fc-123">In the Efficiency percentage field, enter a number.</span></span>
-    * <span data-ttu-id="783fc-124">Määrake operatsiooniressursside oodatav efektiivsus.</span><span class="sxs-lookup"><span data-stu-id="783fc-124">Specify the efficiency that you expect from the operations resource.</span></span> <span data-ttu-id="783fc-125">Efektiivsusprotsent reguleerib operatsiooniressursside läbilaskevõimet ja mõjutab ressursile reserveeritud aega.</span><span class="sxs-lookup"><span data-stu-id="783fc-125">The efficiency percentage adjusts the throughput of the operations resource and affects the time that is reserved for the resource.</span></span>  
-9. <span data-ttu-id="783fc-126">Sisestage arv väljale Operatsioonide planeerimise protsent.</span><span class="sxs-lookup"><span data-stu-id="783fc-126">In the Operations scheduling percentage field, enter a number.</span></span>
-    * <span data-ttu-id="783fc-127">Määrake operatsiooniressursi suurim tootmisvõimsuse protsent, mida soovite operatsioonide planeerimisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="783fc-127">Specify the maximum percentage of capacity of the operations resource that you want to use in operations scheduling.</span></span>  
-10. <span data-ttu-id="783fc-128">Valige väljal Piiratud võimsus suvand Jah.</span><span class="sxs-lookup"><span data-stu-id="783fc-128">Select Yes in the Finite capacity field.</span></span>
-    * <span data-ttu-id="783fc-129">Valige suvand Jah, kui operatsiooniressurss tuleks planeerida tegeliku saadavaloleva võimsuse alusel ning kui arvesse tuleks võtta olemasolevaid võimsuse reserveeringuid.</span><span class="sxs-lookup"><span data-stu-id="783fc-129">Set this option to Yes if the operations resource should be scheduled based on the actual capacity that is available, and if existing capacity reservations should be considered.</span></span> <span data-ttu-id="783fc-130">Kui valitud on suvand Ei, eeldatakse, et operatsiooniressursil on piiramatu võimsus, mistõttu ressurss võib olla üle broneeritud.</span><span class="sxs-lookup"><span data-stu-id="783fc-130">If this option is set to No, the operations resource is assumed to have infinite capacity, and the resource might be overbooked.</span></span>  
-11. <span data-ttu-id="783fc-131">Valige suvand Jah väljal Kitsaskohana toimiv ressurss.</span><span class="sxs-lookup"><span data-stu-id="783fc-131">Select Yes in the Bottleneck resource field.</span></span>
+## <a name="define-capacity-and-consumption-parameters"></a><span data-ttu-id="36ef4-111">Võimsus- ja tarbimisparameetrite määratlemine</span><span class="sxs-lookup"><span data-stu-id="36ef4-111">Define capacity and consumption parameters</span></span>
+1. <span data-ttu-id="36ef4-112">Laiendage jaotist Toiming.</span><span class="sxs-lookup"><span data-stu-id="36ef4-112">Expand the Operation section.</span></span>
+2. <span data-ttu-id="36ef4-113">Sisestage arv väljale Praagi protsent.</span><span class="sxs-lookup"><span data-stu-id="36ef4-113">In the Scrap percentage field, enter a number.</span></span>
+3. <span data-ttu-id="36ef4-114">Sisestage või valige väärtus väljal Seadistuse kategooria.</span><span class="sxs-lookup"><span data-stu-id="36ef4-114">In the Setup category field, enter or select a value.</span></span>
+    * <span data-ttu-id="36ef4-115">Määrake kulukategooria, mis määratleb seadistuskulu konto.</span><span class="sxs-lookup"><span data-stu-id="36ef4-115">Specify the cost category that defines how to account for the cost of setup.</span></span>  
+4. <span data-ttu-id="36ef4-116">Sisestage või valige väärtus väljal Käitusaja kategooria.</span><span class="sxs-lookup"><span data-stu-id="36ef4-116">In the Run time category field, enter or select a value.</span></span>
+    * <span data-ttu-id="36ef4-117">Määrake kulukategooria, mis määratleb käitusaja kulu konto.</span><span class="sxs-lookup"><span data-stu-id="36ef4-117">Specify the cost category that defines how to account for the cost of run time.</span></span>  
+5. <span data-ttu-id="36ef4-118">Valige või sisestage väärtus väljal Koguse kategooria.</span><span class="sxs-lookup"><span data-stu-id="36ef4-118">In the Quantity category field, enter or select a value.</span></span>
+    * <span data-ttu-id="36ef4-119">Määrake kulukategooria, mis määratleb väljundkoguse põhjal ressursikulu konto.</span><span class="sxs-lookup"><span data-stu-id="36ef4-119">Specify the cost category that defines how to account for the resource cost based on the output quantity.</span></span>  
+6. <span data-ttu-id="36ef4-120">Valige suvand väljal Võimsusühik.</span><span class="sxs-lookup"><span data-stu-id="36ef4-120">In the Capacity unit field, select an option.</span></span>
+    * <span data-ttu-id="36ef4-121">Määrake operatsiooniressursside võimsuse väljendamise ühik.</span><span class="sxs-lookup"><span data-stu-id="36ef4-121">Specify the unit in which to express the capacity of the operations resource.</span></span>  
+7. <span data-ttu-id="36ef4-122">Sisestage arv väljale Võimsus.</span><span class="sxs-lookup"><span data-stu-id="36ef4-122">In the Capacity field, enter a number.</span></span>
+8. <span data-ttu-id="36ef4-123">Sisestage arv väljale Efektiivsusprotsent.</span><span class="sxs-lookup"><span data-stu-id="36ef4-123">In the Efficiency percentage field, enter a number.</span></span>
+    * <span data-ttu-id="36ef4-124">Määrake operatsiooniressursside oodatav efektiivsus.</span><span class="sxs-lookup"><span data-stu-id="36ef4-124">Specify the efficiency that you expect from the operations resource.</span></span> <span data-ttu-id="36ef4-125">Efektiivsusprotsent reguleerib operatsiooniressursside läbilaskevõimet ja mõjutab ressursile reserveeritud aega.</span><span class="sxs-lookup"><span data-stu-id="36ef4-125">The efficiency percentage adjusts the throughput of the operations resource and affects the time that is reserved for the resource.</span></span>  
+9. <span data-ttu-id="36ef4-126">Sisestage arv väljale Operatsioonide planeerimise protsent.</span><span class="sxs-lookup"><span data-stu-id="36ef4-126">In the Operations scheduling percentage field, enter a number.</span></span>
+    * <span data-ttu-id="36ef4-127">Määrake operatsiooniressursi suurim tootmisvõimsuse protsent, mida soovite operatsioonide planeerimisel kasutada.</span><span class="sxs-lookup"><span data-stu-id="36ef4-127">Specify the maximum percentage of capacity of the operations resource that you want to use in operations scheduling.</span></span>  
+10. <span data-ttu-id="36ef4-128">Valige väljal Piiratud võimsus suvand Jah.</span><span class="sxs-lookup"><span data-stu-id="36ef4-128">Select Yes in the Finite capacity field.</span></span>
+    * <span data-ttu-id="36ef4-129">Valige suvand Jah, kui operatsiooniressurss tuleks planeerida tegeliku saadavaloleva võimsuse alusel ning kui arvesse tuleks võtta olemasolevaid võimsuse reserveeringuid.</span><span class="sxs-lookup"><span data-stu-id="36ef4-129">Set this option to Yes if the operations resource should be scheduled based on the actual capacity that is available, and if existing capacity reservations should be considered.</span></span> <span data-ttu-id="36ef4-130">Kui valitud on suvand Ei, eeldatakse, et operatsiooniressursil on piiramatu võimsus, mistõttu ressurss võib olla üle broneeritud.</span><span class="sxs-lookup"><span data-stu-id="36ef4-130">If this option is set to No, the operations resource is assumed to have infinite capacity, and the resource might be overbooked.</span></span>  
+11. <span data-ttu-id="36ef4-131">Valige suvand Jah väljal Kitsaskohana toimiv ressurss.</span><span class="sxs-lookup"><span data-stu-id="36ef4-131">Select Yes in the Bottleneck resource field.</span></span>
 
-## <a name="define-working-times"></a><span data-ttu-id="783fc-132">Tööaegade määratlemine</span><span class="sxs-lookup"><span data-stu-id="783fc-132">Define working times</span></span>
-1. <span data-ttu-id="783fc-133">Laiendage jaotist Kalendrid.</span><span class="sxs-lookup"><span data-stu-id="783fc-133">Expand the Calendars section.</span></span>
-2. <span data-ttu-id="783fc-134">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="783fc-134">Click Add.</span></span>
-3. <span data-ttu-id="783fc-135">Sisestage või valige väärtus väljal Kalender.</span><span class="sxs-lookup"><span data-stu-id="783fc-135">In the Calendar field, enter or select a value.</span></span>
-    * <span data-ttu-id="783fc-136">Määrake ressursi võimsust (tundides) määratlev töögraafik.</span><span class="sxs-lookup"><span data-stu-id="783fc-136">Specify the working time calendar that defines the capacity (in hours) of the resource.</span></span>  
-4. <span data-ttu-id="783fc-137">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="783fc-137">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="783fc-138">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="783fc-138">In the list, click the link in the selected row.</span></span>
+## <a name="define-working-times"></a><span data-ttu-id="36ef4-132">Tööaegade määratlemine</span><span class="sxs-lookup"><span data-stu-id="36ef4-132">Define working times</span></span>
+1. <span data-ttu-id="36ef4-133">Laiendage jaotist Kalendrid.</span><span class="sxs-lookup"><span data-stu-id="36ef4-133">Expand the Calendars section.</span></span>
+2. <span data-ttu-id="36ef4-134">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="36ef4-134">Click Add.</span></span>
+3. <span data-ttu-id="36ef4-135">Sisestage või valige väärtus väljal Kalender.</span><span class="sxs-lookup"><span data-stu-id="36ef4-135">In the Calendar field, enter or select a value.</span></span>
+    * <span data-ttu-id="36ef4-136">Määrake ressursi võimsust (tundides) määratlev töögraafik.</span><span class="sxs-lookup"><span data-stu-id="36ef4-136">Specify the working time calendar that defines the capacity (in hours) of the resource.</span></span>  
+4. <span data-ttu-id="36ef4-137">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="36ef4-137">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="36ef4-138">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="36ef4-138">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-resource-capabilities"></a><span data-ttu-id="783fc-139">Ressursivõimaluste määratlemine</span><span class="sxs-lookup"><span data-stu-id="783fc-139">Define resource capabilities</span></span>
-1. <span data-ttu-id="783fc-140">Laiendage jaotist Võimalused.</span><span class="sxs-lookup"><span data-stu-id="783fc-140">Expand the Capabilities section.</span></span>
-2. <span data-ttu-id="783fc-141">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="783fc-141">Click Add.</span></span>
-    * <span data-ttu-id="783fc-142">Võimsus on operatsiooniressursi võime konkreetset tegevust sooritada.</span><span class="sxs-lookup"><span data-stu-id="783fc-142">A capability is the ability of an operations resource to perform a particular activity.</span></span> <span data-ttu-id="783fc-143">Planeerimismootor eraldab ressursid, sobitades iga tegevuse ressursinõuded saadaolevate operatsiooniressursside võimsustega.</span><span class="sxs-lookup"><span data-stu-id="783fc-143">The scheduling engine allocates resources by matching the resource requirements of each activity to the capabilities of the available operations resources.</span></span>  
-3. <span data-ttu-id="783fc-144">Sisestage või valige väärtus väljal Võimalus.</span><span class="sxs-lookup"><span data-stu-id="783fc-144">In the Capability field, enter or select a value.</span></span>
-4. <span data-ttu-id="783fc-145">Sisestage arv väljale Tase.</span><span class="sxs-lookup"><span data-stu-id="783fc-145">In the Level field, enter a number.</span></span>
-    * <span data-ttu-id="783fc-146">Määrake oskusetase, mille alusel ressurss võimsust töötleb.</span><span class="sxs-lookup"><span data-stu-id="783fc-146">Specify the level of proficiency by which the resource processes the capability.</span></span>  
-5. <span data-ttu-id="783fc-147">Sisestage arv väljale Prioriteet.</span><span class="sxs-lookup"><span data-stu-id="783fc-147">In the Priority field, enter a number.</span></span>
-    * <span data-ttu-id="783fc-148">Määrake operatsiooniressursi prioriteet võimsuse suhtes.</span><span class="sxs-lookup"><span data-stu-id="783fc-148">Specify the priority of the operations resource with respect to the capability.</span></span> <span data-ttu-id="783fc-149">Prioriteedi planeerimisel valitakse esmalt kõrgeima prioriteediga (madalaima arvväärtusega) operatsiooniressurss.</span><span class="sxs-lookup"><span data-stu-id="783fc-149">When scheduling by priority, the operations resource with the highest priority (lowest numeric value) is selected first.</span></span>  
+## <a name="define-resource-capabilities"></a><span data-ttu-id="36ef4-139">Ressursivõimaluste määratlemine</span><span class="sxs-lookup"><span data-stu-id="36ef4-139">Define resource capabilities</span></span>
+1. <span data-ttu-id="36ef4-140">Laiendage jaotist Võimalused.</span><span class="sxs-lookup"><span data-stu-id="36ef4-140">Expand the Capabilities section.</span></span>
+2. <span data-ttu-id="36ef4-141">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="36ef4-141">Click Add.</span></span>
+    * <span data-ttu-id="36ef4-142">Võimsus on operatsiooniressursi võime konkreetset tegevust sooritada.</span><span class="sxs-lookup"><span data-stu-id="36ef4-142">A capability is the ability of an operations resource to perform a particular activity.</span></span> <span data-ttu-id="36ef4-143">Planeerimismootor eraldab ressursid, sobitades iga tegevuse ressursinõuded saadaolevate operatsiooniressursside võimsustega.</span><span class="sxs-lookup"><span data-stu-id="36ef4-143">The scheduling engine allocates resources by matching the resource requirements of each activity to the capabilities of the available operations resources.</span></span>  
+3. <span data-ttu-id="36ef4-144">Sisestage või valige väärtus väljal Võimalus.</span><span class="sxs-lookup"><span data-stu-id="36ef4-144">In the Capability field, enter or select a value.</span></span>
+4. <span data-ttu-id="36ef4-145">Sisestage arv väljale Tase.</span><span class="sxs-lookup"><span data-stu-id="36ef4-145">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="36ef4-146">Määrake oskusetase, mille alusel ressurss võimsust töötleb.</span><span class="sxs-lookup"><span data-stu-id="36ef4-146">Specify the level of proficiency by which the resource processes the capability.</span></span>  
+5. <span data-ttu-id="36ef4-147">Sisestage arv väljale Prioriteet.</span><span class="sxs-lookup"><span data-stu-id="36ef4-147">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="36ef4-148">Määrake operatsiooniressursi prioriteet võimsuse suhtes.</span><span class="sxs-lookup"><span data-stu-id="36ef4-148">Specify the priority of the operations resource with respect to the capability.</span></span> <span data-ttu-id="36ef4-149">Prioriteedi planeerimisel valitakse esmalt kõrgeima prioriteediga (madalaima arvväärtusega) operatsiooniressurss.</span><span class="sxs-lookup"><span data-stu-id="36ef4-149">When scheduling by priority, the operations resource with the highest priority (lowest numeric value) is selected first.</span></span>  
 
-## <a name="assign-resource-to-resource-group"></a><span data-ttu-id="783fc-150">Ressursigrupile ressursi määramine</span><span class="sxs-lookup"><span data-stu-id="783fc-150">Assign resource to resource group</span></span>
-1. <span data-ttu-id="783fc-151">Laiendage jaotist Ressursigrupid.</span><span class="sxs-lookup"><span data-stu-id="783fc-151">Expand the Resource groups section.</span></span>
-2. <span data-ttu-id="783fc-152">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="783fc-152">Click Add.</span></span>
-    * <span data-ttu-id="783fc-153">Ressursigrupp määratleb operatsiooniressursside koha, tootmisüksuse ja lao konteksti.</span><span class="sxs-lookup"><span data-stu-id="783fc-153">The resource group defines the site, production unit, and warehouse context for operations resources.</span></span> <span data-ttu-id="783fc-154">Operatsiooniressurssi saab planeerida ainult juhul, kui see määratakse ressursigrupile, ja ainult kohta, kus on ressursigrupi asukoht.</span><span class="sxs-lookup"><span data-stu-id="783fc-154">The operations resource can only be scheduled when assigned to a resource group, and only on the site where the resource group is located.</span></span>  
-3. <span data-ttu-id="783fc-155">Sisestage või valige väärtus väljal Ressursigrupp.</span><span class="sxs-lookup"><span data-stu-id="783fc-155">In the Resource group field, enter or select a value.</span></span>
-4. <span data-ttu-id="783fc-156">Sisestage või valige väärtus väljal Sisendasukoht.</span><span class="sxs-lookup"><span data-stu-id="783fc-156">In the Input location field, enter or select a value.</span></span>
-    * <span data-ttu-id="783fc-157">Määrake operatsiooniressursi tarbitavate materjalide lao asukoht.</span><span class="sxs-lookup"><span data-stu-id="783fc-157">Specify the warehouse location from where the operations resource is consuming materials.</span></span>  
+## <a name="assign-resource-to-resource-group"></a><span data-ttu-id="36ef4-150">Ressursigrupile ressursi määramine</span><span class="sxs-lookup"><span data-stu-id="36ef4-150">Assign resource to resource group</span></span>
+1. <span data-ttu-id="36ef4-151">Laiendage jaotist Ressursigrupid.</span><span class="sxs-lookup"><span data-stu-id="36ef4-151">Expand the Resource groups section.</span></span>
+2. <span data-ttu-id="36ef4-152">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="36ef4-152">Click Add.</span></span>
+    * <span data-ttu-id="36ef4-153">Ressursigrupp määratleb operatsiooniressursside koha, tootmisüksuse ja lao konteksti.</span><span class="sxs-lookup"><span data-stu-id="36ef4-153">The resource group defines the site, production unit, and warehouse context for operations resources.</span></span> <span data-ttu-id="36ef4-154">Operatsiooniressurssi saab planeerida ainult juhul, kui see määratakse ressursigrupile, ja ainult kohta, kus on ressursigrupi asukoht.</span><span class="sxs-lookup"><span data-stu-id="36ef4-154">The operations resource can only be scheduled when assigned to a resource group, and only on the site where the resource group is located.</span></span>  
+3. <span data-ttu-id="36ef4-155">Sisestage või valige väärtus väljal Ressursigrupp.</span><span class="sxs-lookup"><span data-stu-id="36ef4-155">In the Resource group field, enter or select a value.</span></span>
+4. <span data-ttu-id="36ef4-156">Sisestage või valige väärtus väljal Sisendasukoht.</span><span class="sxs-lookup"><span data-stu-id="36ef4-156">In the Input location field, enter or select a value.</span></span>
+    * <span data-ttu-id="36ef4-157">Määrake operatsiooniressursi tarbitavate materjalide lao asukoht.</span><span class="sxs-lookup"><span data-stu-id="36ef4-157">Specify the warehouse location from where the operations resource is consuming materials.</span></span>  
 
 
 

@@ -2,11 +2,9 @@
 title: Kuluarvestuse teenuse avaleht (privaatne eelvaade)
 description: See teema on kuluarvestuse teenuse avaleht.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,28 +12,28 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: ab4b76ac2bd8ff26a9c8d9ae0b18b315f478c634
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7a1865115882d8b9e2beed7bdbc70be3d5118db8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228679"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839507"
 ---
-# <a name="cost-accounting-service-home-page-private-preview"></a><span data-ttu-id="3fae6-103">Kuluarvestuse teenuse avaleht (privaatne eelvaade)</span><span class="sxs-lookup"><span data-stu-id="3fae6-103">Cost accounting service home page (private preview)</span></span>
+# <a name="cost-accounting-service-home-page-private-preview"></a><span data-ttu-id="8513c-103">Kuluarvestuse teenuse avaleht (privaatne eelvaade)</span><span class="sxs-lookup"><span data-stu-id="8513c-103">Cost accounting service home page (private preview)</span></span>
 
 [!INCLUDE [banner](../includes/banner.md)]
 
-<span data-ttu-id="3fae6-104">Rahvusvahelised organisatsioonid on kasvava surve all, et järgida nii kohalikke regulatsioone (üldiselt aktsepteeritud raamatupidamispõhimõtted \[GAAP\]) kui ka ühiseid raamatupidamisstandardeid (nt US-GAAP, rahvusvahelised finantsaruandluse standardid \[IFRS\] ja rahvusvahelised raamatupidamisstandardid \[IAS\]) isegi olukordades, kus eri standardid ja regulatsioonid võivad olla vastuolus.</span><span class="sxs-lookup"><span data-stu-id="3fae6-104">International organizations are under increasing pressure to comply with both local regulations (local generally accepted accounting principles \[GAAP\]) and shared accounting standards (such as US-GAAP, International Financial Reporting Standards \[IFRS\], and International Accounting Standards \[IAS\]), even in situations where the different standards and regulations might be in conflict.</span></span>
+<span data-ttu-id="8513c-104">Rahvusvahelised organisatsioonid on kasvava surve all, et järgida nii kohalikke regulatsioone (üldiselt aktsepteeritud raamatupidamispõhimõtted \[GAAP\]) kui ka ühiseid raamatupidamisstandardeid (nt US-GAAP, rahvusvahelised finantsaruandluse standardid \[IFRS\] ja rahvusvahelised raamatupidamisstandardid \[IAS\]) isegi olukordades, kus eri standardid ja regulatsioonid võivad olla vastuolus.</span><span class="sxs-lookup"><span data-stu-id="8513c-104">International organizations are under increasing pressure to comply with both local regulations (local generally accepted accounting principles \[GAAP\]) and shared accounting standards (such as US-GAAP, International Financial Reporting Standards \[IFRS\], and International Accounting Standards \[IAS\]), even in situations where the different standards and regulations might be in conflict.</span></span>
 
-<span data-ttu-id="3fae6-105">Rahvusvahelistele organisatsioonidele, millel on tütarettevõtteid riikides või regioonides, mille kohalik valuuta kõigub palju, võib kohalik omavalitsus teha kohustuseks arvestada ja hallata varusid selles valuutas.</span><span class="sxs-lookup"><span data-stu-id="3fae6-105">International organizations that have subsidiaries in countries or regions where there is a hyper-fluctuating local currency might be required by the local government to account and manage inventory in that currency.</span></span> <span data-ttu-id="3fae6-106">Kuid selleks, et järgida US-GAAP-d, on tütarettevõte kohustatud varusid arvestama ja haldama ka stabiilses valuutas, nt USA dollarites (USD).</span><span class="sxs-lookup"><span data-stu-id="3fae6-106">However, to comply with US-GAAP, the subsidiary is also required to account and manage inventory in a stable currency, such as US dollars (USD).</span></span>
+<span data-ttu-id="8513c-105">Rahvusvahelistele organisatsioonidele, millel on tütarettevõtteid riikides või regioonides, mille kohalik valuuta kõigub palju, võib kohalik omavalitsus teha kohustuseks arvestada ja hallata varusid selles valuutas.</span><span class="sxs-lookup"><span data-stu-id="8513c-105">International organizations that have subsidiaries in countries or regions where there is a hyper-fluctuating local currency might be required by the local government to account and manage inventory in that currency.</span></span> <span data-ttu-id="8513c-106">Kuid selleks, et järgida US-GAAP-d, on tütarettevõte kohustatud varusid arvestama ja haldama ka stabiilses valuutas, nt USA dollarites (USD).</span><span class="sxs-lookup"><span data-stu-id="8513c-106">However, to comply with US-GAAP, the subsidiary is also required to account and manage inventory in a stable currency, such as US dollars (USD).</span></span>
 
-<span data-ttu-id="3fae6-107">Organisatsioonid võivad eelistada varude arvestamist halduse raamatupidamise seadistuse osana standardse kulu alusel.</span><span class="sxs-lookup"><span data-stu-id="3fae6-107">Organizations might prefer to account inventory by standard cost as part of their management accounting setup.</span></span> <span data-ttu-id="3fae6-108">Kuid IFRS, kohalikud omavalitsused ja kohalikud maksuhaldurid ei pea standardset kulu alati aktsepteeritud meetodiks.</span><span class="sxs-lookup"><span data-stu-id="3fae6-108">However, IFRS, local governments, and local tax authorities don't always recognize standard cost as an accepted method.</span></span> <span data-ttu-id="3fae6-109">Selle asemel nõuavad nad sageli keskmist, esimesena sisse, esimesena välja (FIFO) meetodit või kindlat ID-d.</span><span class="sxs-lookup"><span data-stu-id="3fae6-109">Instead, they often require average, first in, first out (FIFO), or specific identification.</span></span>
+<span data-ttu-id="8513c-107">Organisatsioonid võivad eelistada varude arvestamist halduse raamatupidamise seadistuse osana standardse kulu alusel.</span><span class="sxs-lookup"><span data-stu-id="8513c-107">Organizations might prefer to account inventory by standard cost as part of their management accounting setup.</span></span> <span data-ttu-id="8513c-108">Kuid IFRS, kohalikud omavalitsused ja kohalikud maksuhaldurid ei pea standardset kulu alati aktsepteeritud meetodiks.</span><span class="sxs-lookup"><span data-stu-id="8513c-108">However, IFRS, local governments, and local tax authorities don't always recognize standard cost as an accepted method.</span></span> <span data-ttu-id="8513c-109">Selle asemel nõuavad nad sageli keskmist, esimesena sisse, esimesena välja (FIFO) meetodit või kindlat ID-d.</span><span class="sxs-lookup"><span data-stu-id="8513c-109">Instead, they often require average, first in, first out (FIFO), or specific identification.</span></span>
 
-<span data-ttu-id="3fae6-110">Microsoft Dynamics 365 Supply Chain Managementi kuluarvestuse teenuse lisandmoodul võimaldab teil teha varude arvestust mitmes pearaamatus.</span><span class="sxs-lookup"><span data-stu-id="3fae6-110">The cost accounting service add-in for Microsoft Dynamics 365 Supply Chain Management lets you account inventory in multiple ledgers.</span></span> <span data-ttu-id="3fae6-111">Seetõttu toetab see mitut valuutat ja mitut hindamist.</span><span class="sxs-lookup"><span data-stu-id="3fae6-111">Therefore, it supports multiple currencies and multiple valuations.</span></span>
+<span data-ttu-id="8513c-110">Microsoft Dynamics 365 Supply Chain Managementi kuluarvestuse teenuse lisandmoodul võimaldab teil teha varude arvestust mitmes pearaamatus.</span><span class="sxs-lookup"><span data-stu-id="8513c-110">The cost accounting service add-in for Microsoft Dynamics 365 Supply Chain Management lets you account inventory in multiple ledgers.</span></span> <span data-ttu-id="8513c-111">Seetõttu toetab see mitut valuutat ja mitut hindamist.</span><span class="sxs-lookup"><span data-stu-id="8513c-111">Therefore, it supports multiple currencies and multiple valuations.</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="3fae6-112">Seotud ressursid</span><span class="sxs-lookup"><span data-stu-id="3fae6-112">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="8513c-112">Seotud ressursid</span><span class="sxs-lookup"><span data-stu-id="8513c-112">Related resources</span></span>
 
-[<span data-ttu-id="3fae6-113">Kuluarvestuse teenuse kasutamise alustamine</span><span class="sxs-lookup"><span data-stu-id="3fae6-113">Get started with the cost accounting service</span></span>](cost-accounting-service-get-started.md)
+[<span data-ttu-id="8513c-113">Kuluarvestuse teenuse kasutamise alustamine</span><span class="sxs-lookup"><span data-stu-id="8513c-113">Get started with the cost accounting service</span></span>](cost-accounting-service-get-started.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Uue toote loomine Commerce'is
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus toode.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,104 +14,104 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cb0137468d690649abb18b9d19673ff740d52e5d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207915"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795711"
 ---
-# <a name="create-a-new-product-in-commerce"></a><span data-ttu-id="d88c3-103">Uue toote loomine Commerce'is</span><span class="sxs-lookup"><span data-stu-id="d88c3-103">Create a new product in Commerce</span></span>
+# <a name="create-a-new-product-in-commerce"></a><span data-ttu-id="c7cb7-103">Uue toote loomine Commerce'is</span><span class="sxs-lookup"><span data-stu-id="c7cb7-103">Create a new product in Commerce</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d88c3-104">Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus toode.</span><span class="sxs-lookup"><span data-stu-id="d88c3-104">This topic describes how to create a new product in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="c7cb7-104">Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus toode.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-104">This topic describes how to create a new product in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="d88c3-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="d88c3-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="c7cb7-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="c7cb7-105">Overview</span></span>
 
-<span data-ttu-id="d88c3-106">Toodet defineeritakse peamiselt toote numbri, nime ja kirjeldusega.</span><span class="sxs-lookup"><span data-stu-id="d88c3-106">A product is primarily defined by a product number, name, and description.</span></span> <span data-ttu-id="d88c3-107">Kuid toote või teenuse kirjeldamiseks on vaja ka muid andmeid.</span><span class="sxs-lookup"><span data-stu-id="d88c3-107">However, other data is also required in order to describe a product or service:</span></span>
+<span data-ttu-id="c7cb7-106">Toodet defineeritakse peamiselt toote numbri, nime ja kirjeldusega.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-106">A product is primarily defined by a product number, name, and description.</span></span> <span data-ttu-id="c7cb7-107">Kuid toote või teenuse kirjeldamiseks on vaja ka muid andmeid.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-107">However, other data is also required in order to describe a product or service:</span></span>
 
-## <a name="create-a-new-product"></a><span data-ttu-id="d88c3-108">Uue toote loomine</span><span class="sxs-lookup"><span data-stu-id="d88c3-108">Create a new product</span></span>
+## <a name="create-a-new-product"></a><span data-ttu-id="c7cb7-108">Uue toote loomine</span><span class="sxs-lookup"><span data-stu-id="c7cb7-108">Create a new product</span></span>
 
-1. <span data-ttu-id="d88c3-109">Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Tooted ja kategooriad \> Tooted kategooriate alusel**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-109">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Products by category**.</span></span>
-1. <span data-ttu-id="d88c3-110">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-110">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="d88c3-111">Valige ripploendist **Toote tüüp** kas **Kaup** või **Teenus**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-111">In the **Product type** drop-down list, select either **Item** or **Service**.</span></span>
-1. <span data-ttu-id="d88c3-112">Valige ripploendist **Toote alatüüp** kas **Toode** (kui tootel pole variante) või **Tooteetalon** (kui tootel on variandid).</span><span class="sxs-lookup"><span data-stu-id="d88c3-112">In the **Product subtype** drop-down list, select either **Product** (if the product will have no variants) or **Product master** (if the product will have variants).</span></span>
-1. <span data-ttu-id="d88c3-113">Sisestage väljale **Tootenumber** tootenumber, kui see ei ole juba eelnevalt täidetud.</span><span class="sxs-lookup"><span data-stu-id="d88c3-113">In the **Product number** box, enter a product number if one is not already prepopulated.</span></span>
-1. <span data-ttu-id="d88c3-114">Sisestage toote nimi väljale **Toote nimi**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-114">In the **Product name** box, enter a product name.</span></span>
-1. <span data-ttu-id="d88c3-115">Sisestage otsingunimi väljale **Otsingunimi**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-115">In the **Search name** box, enter a search name.</span></span>
-1. <span data-ttu-id="d88c3-116">Valige ripploendist **Jaemüügi kategooria** sobiv kategooria.</span><span class="sxs-lookup"><span data-stu-id="d88c3-116">In the **Retail category** drop-down list, select an appropriate category.</span></span>
-1. <span data-ttu-id="d88c3-117">Kui toode on komplekt, valige **Jah** väljale **Tootekomplekt**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-117">If the product is a kit, select **Yes** for **Product kit**.</span></span>
-1. <span data-ttu-id="d88c3-118">Kui toote alatüüp on tooteetalon, seadistage **Tootedimensiooni grupp** nii, et see sisaldaks toetatud variante.</span><span class="sxs-lookup"><span data-stu-id="d88c3-118">If the product subtype is product master, set the **Product dimension group** to include the supported variants.</span></span> <span data-ttu-id="d88c3-119">Valikute hulgas on **Värv**, **Suurus**, **Stiil** ja **Konfiguratsioon**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-119">Options include **Color**, **Size**, **Style**, and **Configuration**.</span></span> <span data-ttu-id="d88c3-120">Vajadusel peate võib-olla looma täiendavaid tootedimensioonide gruppide.</span><span class="sxs-lookup"><span data-stu-id="d88c3-120">You may need to create additional product dimension groups if needed.</span></span>
-1. <span data-ttu-id="d88c3-121">Valige ripploendist **Konfiguratsiooni tehnoloogia** sobiv valik.</span><span class="sxs-lookup"><span data-stu-id="d88c3-121">In the **Configuration technology** drop-down list, select an appropriate option.</span></span>
-1. <span data-ttu-id="d88c3-122">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-122">Select **OK**.</span></span>
+1. <span data-ttu-id="c7cb7-109">Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Tooted ja kategooriad \> Tooted kategooriate alusel**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-109">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Products by category**.</span></span>
+1. <span data-ttu-id="c7cb7-110">Valige toimingupaanil nupp **Uus**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-110">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="c7cb7-111">Valige ripploendist **Toote tüüp** kas **Kaup** või **Teenus**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-111">In the **Product type** drop-down list, select either **Item** or **Service**.</span></span>
+1. <span data-ttu-id="c7cb7-112">Valige ripploendist **Toote alatüüp** kas **Toode** (kui tootel pole variante) või **Tooteetalon** (kui tootel on variandid).</span><span class="sxs-lookup"><span data-stu-id="c7cb7-112">In the **Product subtype** drop-down list, select either **Product** (if the product will have no variants) or **Product master** (if the product will have variants).</span></span>
+1. <span data-ttu-id="c7cb7-113">Sisestage väljale **Tootenumber** tootenumber, kui see ei ole juba eelnevalt täidetud.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-113">In the **Product number** box, enter a product number if one is not already prepopulated.</span></span>
+1. <span data-ttu-id="c7cb7-114">Sisestage toote nimi väljale **Toote nimi**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-114">In the **Product name** box, enter a product name.</span></span>
+1. <span data-ttu-id="c7cb7-115">Sisestage otsingunimi väljale **Otsingunimi**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-115">In the **Search name** box, enter a search name.</span></span>
+1. <span data-ttu-id="c7cb7-116">Valige ripploendist **Jaemüügi kategooria** sobiv kategooria.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-116">In the **Retail category** drop-down list, select an appropriate category.</span></span>
+1. <span data-ttu-id="c7cb7-117">Kui toode on komplekt, valige **Jah** väljale **Tootekomplekt**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-117">If the product is a kit, select **Yes** for **Product kit**.</span></span>
+1. <span data-ttu-id="c7cb7-118">Kui toote alatüüp on tooteetalon, seadistage **Tootedimensiooni grupp** nii, et see sisaldaks toetatud variante.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-118">If the product subtype is product master, set the **Product dimension group** to include the supported variants.</span></span> <span data-ttu-id="c7cb7-119">Valikute hulgas on **Värv**, **Suurus**, **Stiil** ja **Konfiguratsioon**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-119">Options include **Color**, **Size**, **Style**, and **Configuration**.</span></span> <span data-ttu-id="c7cb7-120">Vajadusel peate võib-olla looma täiendavaid tootedimensioonide gruppide.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-120">You may need to create additional product dimension groups if needed.</span></span>
+1. <span data-ttu-id="c7cb7-121">Valige ripploendist **Konfiguratsiooni tehnoloogia** sobiv valik.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-121">In the **Configuration technology** drop-down list, select an appropriate option.</span></span>
+1. <span data-ttu-id="c7cb7-122">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-122">Select **OK**.</span></span>
 
-<span data-ttu-id="d88c3-123">Järgmine pilt näitab näidistoote lisamist.</span><span class="sxs-lookup"><span data-stu-id="d88c3-123">The following image shows an example product being added.</span></span>
+<span data-ttu-id="c7cb7-123">Järgmine pilt näitab näidistoote lisamist.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-123">The following image shows an example product being added.</span></span>
 
 ![Toote loomine](media/create-new-product.png)
 
-<span data-ttu-id="d88c3-125">Kui toode on lisatud, saab sellele seadistada täiendavaid andmeid, nagu **Toote kirjeldus**, **Variandigrupid**, **Dimensioonigrupid**, **Toote atribuudid** ja **Seotud tooted**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-125">Once a product is added, additional data can be set for it, such as **Product description**, **Variant groups**, **Dimension groups**, **Product attributes**, and **Related products**.</span></span>
+<span data-ttu-id="c7cb7-125">Kui toode on lisatud, saab sellele seadistada täiendavaid andmeid, nagu **Toote kirjeldus**, **Variandigrupid**, **Dimensioonigrupid**, **Toote atribuudid** ja **Seotud tooted**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-125">Once a product is added, additional data can be set for it, such as **Product description**, **Variant groups**, **Dimension groups**, **Product attributes**, and **Related products**.</span></span>
 
-<span data-ttu-id="d88c3-126">Järgmine pilt näitab toote täiendavaid üksikasju.</span><span class="sxs-lookup"><span data-stu-id="d88c3-126">The following image shows a product's additional details.</span></span>
+<span data-ttu-id="c7cb7-126">Järgmine pilt näitab toote täiendavaid üksikasju.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-126">The following image shows a product's additional details.</span></span>
 
 ![Toote üksikasjad](media/create-new-product-2.png)
 
-### <a name="create-product-variants"></a><span data-ttu-id="d88c3-128">Tootevariantide loomine</span><span class="sxs-lookup"><span data-stu-id="d88c3-128">Create product variants</span></span>
+### <a name="create-product-variants"></a><span data-ttu-id="c7cb7-128">Tootevariantide loomine</span><span class="sxs-lookup"><span data-stu-id="c7cb7-128">Create product variants</span></span>
 
-<span data-ttu-id="d88c3-129">Kui toote alatüüp on **Tooteetalon**, tuleb luua kindlad variandid.</span><span class="sxs-lookup"><span data-stu-id="d88c3-129">If the product subtype is **Product master**, specific variants will need to be created.</span></span> 
+<span data-ttu-id="c7cb7-129">Kui toote alatüüp on **Tooteetalon**, tuleb luua kindlad variandid.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-129">If the product subtype is **Product master**, specific variants will need to be created.</span></span> 
 
-<span data-ttu-id="d88c3-130">Toote variantide loomiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="d88c3-130">To create product variants, follow these steps.</span></span>
+<span data-ttu-id="c7cb7-130">Toote variantide loomiseks toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-130">To create product variants, follow these steps.</span></span>
 
-1. <span data-ttu-id="d88c3-131">Klõpsake toimingupaanil suvandit **Toote variandid**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-131">On the action pane, select **Product variants**.</span></span>
-1. <span data-ttu-id="d88c3-132">Kui toimingupaanil on variandi grupid valitud, valige \**Variandi soovitused*.</span><span class="sxs-lookup"><span data-stu-id="d88c3-132">If variant groups have been selected on the action pane, select \**Variant suggestions*.</span></span>
-1. <span data-ttu-id="d88c3-133">Valige variandid, mida soovite toote jaoks toetada.</span><span class="sxs-lookup"><span data-stu-id="d88c3-133">Select the variants you would like to support for the product.</span></span>
-1. <span data-ttu-id="d88c3-134">Valige **Loo**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-134">Select **Create**.</span></span>
+1. <span data-ttu-id="c7cb7-131">Klõpsake toimingupaanil suvandit **Toote variandid**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-131">On the action pane, select **Product variants**.</span></span>
+1. <span data-ttu-id="c7cb7-132">Kui toimingupaanil on variandi grupid valitud, valige \**Variandi soovitused*.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-132">If variant groups have been selected on the action pane, select \**Variant suggestions*.</span></span>
+1. <span data-ttu-id="c7cb7-133">Valige variandid, mida soovite toote jaoks toetada.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-133">Select the variants you would like to support for the product.</span></span>
+1. <span data-ttu-id="c7cb7-134">Valige **Loo**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-134">Select **Create**.</span></span>
 
-## <a name="release-a-product"></a><span data-ttu-id="d88c3-135">Toote väljastamine</span><span class="sxs-lookup"><span data-stu-id="d88c3-135">Release a product</span></span>
+## <a name="release-a-product"></a><span data-ttu-id="c7cb7-135">Toote väljastamine</span><span class="sxs-lookup"><span data-stu-id="c7cb7-135">Release a product</span></span>
 
-<span data-ttu-id="d88c3-136">Toote müümiseks tuleb see kõigepealt juriidilisele isikule väljastada.</span><span class="sxs-lookup"><span data-stu-id="d88c3-136">To sell a product it must first be released to a legal entity.</span></span>
+<span data-ttu-id="c7cb7-136">Toote müümiseks tuleb see kõigepealt juriidilisele isikule väljastada.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-136">To sell a product it must first be released to a legal entity.</span></span>
 
-1. <span data-ttu-id="d88c3-137">Valige toote lehel **Väljasta tooteid**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-137">From the product page, select **Release products**.</span></span>
+1. <span data-ttu-id="c7cb7-137">Valige toote lehel **Väljasta tooteid**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-137">From the product page, select **Release products**.</span></span>
 
     ![Toote väljastamine](media/create-new-product-3.png)
 
-1. <span data-ttu-id="d88c3-139">Valige väljastatav toode ja seejärel valige **Edasi**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-139">Select the product to release, and then select **Next**.</span></span>
+1. <span data-ttu-id="c7cb7-139">Valige väljastatav toode ja seejärel valige **Edasi**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-139">Select the product to release, and then select **Next**.</span></span>
 
     ![Valige väljastatav toode](media/create-new-product-4.png)
 
-1. <span data-ttu-id="d88c3-141">Valige väljastatav toote variantide komplekt ja seejärel valige **Edasi**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-141">Select the set of product variants to release, and then select **Next**.</span></span>
+1. <span data-ttu-id="c7cb7-141">Valige väljastatav toote variantide komplekt ja seejärel valige **Edasi**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-141">Select the set of product variants to release, and then select **Next**.</span></span>
 
     ![Valige väljastatavad variandid](media/create-new-product-5.png)
 
-1. <span data-ttu-id="d88c3-143">Valige juriidiline isik ja seejärel valige **Edasi**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-143">Select the legal entity, and then select **Next**.</span></span>
+1. <span data-ttu-id="c7cb7-143">Valige juriidiline isik ja seejärel valige **Edasi**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-143">Select the legal entity, and then select **Next**.</span></span>
 
     ![Valige juriidiline isik](media/create-new-product-6.png)
 
-1. <span data-ttu-id="d88c3-145">Valige **Lõpeta**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-145">Select **Finish**.</span></span>
+1. <span data-ttu-id="c7cb7-145">Valige **Lõpeta**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-145">Select **Finish**.</span></span>
 
     ![Toote väljastamise lõpetamine](media/create-new-product-7.png)
 
-## <a name="configure-a-released-product"></a><span data-ttu-id="d88c3-147">Väljastatud toote konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="d88c3-147">Configure a released product</span></span>
+## <a name="configure-a-released-product"></a><span data-ttu-id="c7cb7-147">Väljastatud toote konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c7cb7-147">Configure a released product</span></span>
 
-<span data-ttu-id="d88c3-148">Kui toode on vabastatud, siis on vajab see täiendavat konfiguratsiooni, mis sisaldab tootele hinna lisamist.</span><span class="sxs-lookup"><span data-stu-id="d88c3-148">Once a product is released, it will then require further configuration that includes adding a price to the product.</span></span>
+<span data-ttu-id="c7cb7-148">Kui toode on vabastatud, siis on vajab see täiendavat konfiguratsiooni, mis sisaldab tootele hinna lisamist.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-148">Once a product is released, it will then require further configuration that includes adding a price to the product.</span></span>
 
-1. <span data-ttu-id="d88c3-149">Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Tooted ja kategooriad \> Väljastatud tooted kategooria alusel**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-149">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Released products by category**.</span></span>
-1. <span data-ttu-id="d88c3-150">Valige väljastatud tootele tootekategooria sõlm ja seejärel valige tooteloendist toode.</span><span class="sxs-lookup"><span data-stu-id="d88c3-150">Select the product category node for the product that was released, and then select the product from the product list.</span></span>
-1. <span data-ttu-id="d88c3-151">Valige tegevuspaanil nupp **Redigeeri**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-151">On the action pane, select **Edit**.</span></span>
-1. <span data-ttu-id="d88c3-152">Konfigureerige mistahes vajalikud atribuudid jaotises **Ost**, sh **Ühik**, **Hind** ja **Kogus**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-152">In the **Purchase** section, configure any required properties including **Unit**, **Price**,  and **Quantity**.</span></span>
-1. <span data-ttu-id="d88c3-153">Valige toimingupaanil **Kinnita**, et veenduda, et puuduvatele väljadele ei ole esitatud tõrkeid.</span><span class="sxs-lookup"><span data-stu-id="d88c3-153">On the action pane, select **Validate** to ensure that no errors are reported for missing fields.</span></span>
-1. <span data-ttu-id="d88c3-154">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="d88c3-154">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="c7cb7-149">Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Tooted ja kategooriad \> Väljastatud tooted kategooria alusel**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-149">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Released products by category**.</span></span>
+1. <span data-ttu-id="c7cb7-150">Valige väljastatud tootele tootekategooria sõlm ja seejärel valige tooteloendist toode.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-150">Select the product category node for the product that was released, and then select the product from the product list.</span></span>
+1. <span data-ttu-id="c7cb7-151">Valige tegevuspaanil nupp **Redigeeri**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-151">On the action pane, select **Edit**.</span></span>
+1. <span data-ttu-id="c7cb7-152">Konfigureerige mistahes vajalikud atribuudid jaotises **Ost**, sh **Ühik**, **Hind** ja **Kogus**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-152">In the **Purchase** section, configure any required properties including **Unit**, **Price**,  and **Quantity**.</span></span>
+1. <span data-ttu-id="c7cb7-153">Valige toimingupaanil **Kinnita**, et veenduda, et puuduvatele väljadele ei ole esitatud tõrkeid.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-153">On the action pane, select **Validate** to ensure that no errors are reported for missing fields.</span></span>
+1. <span data-ttu-id="c7cb7-154">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-154">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="d88c3-155">Järgmine pilt näitab väljastatud toote konfiguratsiooni näidet.</span><span class="sxs-lookup"><span data-stu-id="d88c3-155">The following image shows an example configuration for a released product.</span></span>
+<span data-ttu-id="c7cb7-155">Järgmine pilt näitab väljastatud toote konfiguratsiooni näidet.</span><span class="sxs-lookup"><span data-stu-id="c7cb7-155">The following image shows an example configuration for a released product.</span></span>
 
 ![Väljastatud toote konfigureerimine](media/create-new-product-8.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="d88c3-157">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="d88c3-157">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="c7cb7-157">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c7cb7-157">Additional resources</span></span>
 
-[<span data-ttu-id="d88c3-158">Juriidiliste isikute loomine</span><span class="sxs-lookup"><span data-stu-id="d88c3-158">Create legal entities</span></span>](channels-legal-entities.md)
+[<span data-ttu-id="c7cb7-158">Juriidiliste isikute loomine</span><span class="sxs-lookup"><span data-stu-id="c7cb7-158">Create legal entities</span></span>](channels-legal-entities.md)
 
-[<span data-ttu-id="d88c3-159">Variandi grupi loomine</span><span class="sxs-lookup"><span data-stu-id="d88c3-159">Create a variant group</span></span>](create-variant-group.md) 
+[<span data-ttu-id="c7cb7-159">Variandi grupi loomine</span><span class="sxs-lookup"><span data-stu-id="c7cb7-159">Create a variant group</span></span>](create-variant-group.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

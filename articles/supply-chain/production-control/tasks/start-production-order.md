@@ -2,11 +2,9 @@
 title: Tootmistellimuse alustamine
 description: See protseduur selgitab, kuidas alustada tootmistellimust tööde juhtimisel.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationStartJob
 audience: Application User
@@ -16,60 +14,60 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3934db907c137f25c39c5769f96f0807eb597e37
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: be1c389bc4193ef080dbeb1639b69acf466ef0de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231860"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831862"
 ---
-# <a name="start-a-production-order"></a><span data-ttu-id="1479d-103">Tootmistellimuse alustamine</span><span class="sxs-lookup"><span data-stu-id="1479d-103">Start a production order</span></span>
+# <a name="start-a-production-order"></a><span data-ttu-id="cacc6-103">Tootmistellimuse alustamine</span><span class="sxs-lookup"><span data-stu-id="cacc6-103">Start a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1479d-104">See protseduur selgitab, kuidas alustada tootmistellimust tööde juhtimisel.</span><span class="sxs-lookup"><span data-stu-id="1479d-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="1479d-105">Selles protsessis edastatakse aja- ja materjalitarbimine.</span><span class="sxs-lookup"><span data-stu-id="1479d-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="1479d-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="1479d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1479d-107">See on viies protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.</span><span class="sxs-lookup"><span data-stu-id="1479d-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="cacc6-104">See protseduur selgitab, kuidas alustada tootmistellimust tööde juhtimisel.</span><span class="sxs-lookup"><span data-stu-id="cacc6-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="cacc6-105">Selles protsessis edastatakse aja- ja materjalitarbimine.</span><span class="sxs-lookup"><span data-stu-id="cacc6-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="cacc6-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="cacc6-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cacc6-107">See on viies protseduur seitsmest, mis selgitab tootmistellimuse elutsüklit.</span><span class="sxs-lookup"><span data-stu-id="cacc6-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a><span data-ttu-id="1479d-108">Tootmistellimuse alustamine</span><span class="sxs-lookup"><span data-stu-id="1479d-108">Start a production order</span></span>
-1. <span data-ttu-id="1479d-109">Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.</span><span class="sxs-lookup"><span data-stu-id="1479d-109">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="1479d-110">Valige tootmistellimus, mille olek on Väljastatud.</span><span class="sxs-lookup"><span data-stu-id="1479d-110">Select a production order that has the Released status.</span></span>  
-2. <span data-ttu-id="1479d-111">Klõpsake toimingupaanil valikut Tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="1479d-111">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="1479d-112">Klõpsake nuppu Käivita.</span><span class="sxs-lookup"><span data-stu-id="1479d-112">Click Start.</span></span>
-    * <span data-ttu-id="1479d-113">Sellel lehel saate kinnitada tootmistellimuse alguse.</span><span class="sxs-lookup"><span data-stu-id="1479d-113">On this page, you can confirm the start of the production order.</span></span>  
-4. <span data-ttu-id="1479d-114">Klõpsake vahekaarti Üldine.</span><span class="sxs-lookup"><span data-stu-id="1479d-114">Click the General tab.</span></span>
-5. <span data-ttu-id="1479d-115">Sisestage väljale Alates oper.</span><span class="sxs-lookup"><span data-stu-id="1479d-115">In the From Oper.</span></span> <span data-ttu-id="1479d-116">Nr</span><span class="sxs-lookup"><span data-stu-id="1479d-116">No.</span></span> <span data-ttu-id="1479d-117">number '10'.</span><span class="sxs-lookup"><span data-stu-id="1479d-117">field, enter '10'.</span></span>
-6. <span data-ttu-id="1479d-118">Valige väljal Automaatne protsessi tarbimine suvand Alati.</span><span class="sxs-lookup"><span data-stu-id="1479d-118">In the Automatic route consumption field, select 'Always'.</span></span>
-7. <span data-ttu-id="1479d-119">Märkige ruut Sisesta protsessikaart kohe.</span><span class="sxs-lookup"><span data-stu-id="1479d-119">Click the Post route card now checkbox.</span></span>
-8. <span data-ttu-id="1479d-120">Valige väljal Automaatne koosluse tarbimine suvand Alati.</span><span class="sxs-lookup"><span data-stu-id="1479d-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
-9. <span data-ttu-id="1479d-121">Märkige ruut Sisesta komplekteerimisleht kohe.</span><span class="sxs-lookup"><span data-stu-id="1479d-121">Click the Post picking list now checkbox.</span></span>
-10. <span data-ttu-id="1479d-122">Märkige ruut Prindi komplekteerimisleht.</span><span class="sxs-lookup"><span data-stu-id="1479d-122">Click the Print picking list checkbox.</span></span>
-11. <span data-ttu-id="1479d-123">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="1479d-123">Click OK.</span></span>
-    * <span data-ttu-id="1479d-124">See on trükitud komplekteerimisleht, millel on toodud tootmistellimuse jaoks kasutatud materjalid.</span><span class="sxs-lookup"><span data-stu-id="1479d-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
-12. <span data-ttu-id="1479d-125">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1479d-125">Close the page.</span></span>
+## <a name="start-a-production-order"></a><span data-ttu-id="cacc6-108">Tootmistellimuse alustamine</span><span class="sxs-lookup"><span data-stu-id="cacc6-108">Start a production order</span></span>
+1. <span data-ttu-id="cacc6-109">Avage Tootmise juhtimine > Tootmistellimused > Kõik tootmistellimused.</span><span class="sxs-lookup"><span data-stu-id="cacc6-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="cacc6-110">Valige tootmistellimus, mille olek on Väljastatud.</span><span class="sxs-lookup"><span data-stu-id="cacc6-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="cacc6-111">Klõpsake toimingupaanil valikut Tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="cacc6-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="cacc6-112">Klõpsake nuppu Käivita.</span><span class="sxs-lookup"><span data-stu-id="cacc6-112">Click Start.</span></span>
+    * <span data-ttu-id="cacc6-113">Sellel lehel saate kinnitada tootmistellimuse alguse.</span><span class="sxs-lookup"><span data-stu-id="cacc6-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="cacc6-114">Klõpsake vahekaarti Üldine.</span><span class="sxs-lookup"><span data-stu-id="cacc6-114">Click the General tab.</span></span>
+5. <span data-ttu-id="cacc6-115">Sisestage väljale Alates oper.</span><span class="sxs-lookup"><span data-stu-id="cacc6-115">In the From Oper.</span></span> <span data-ttu-id="cacc6-116">Nr</span><span class="sxs-lookup"><span data-stu-id="cacc6-116">No.</span></span> <span data-ttu-id="cacc6-117">number '10'.</span><span class="sxs-lookup"><span data-stu-id="cacc6-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="cacc6-118">Valige väljal Automaatne protsessi tarbimine suvand Alati.</span><span class="sxs-lookup"><span data-stu-id="cacc6-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="cacc6-119">Märkige ruut Sisesta protsessikaart kohe.</span><span class="sxs-lookup"><span data-stu-id="cacc6-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="cacc6-120">Valige väljal Automaatne koosluse tarbimine suvand Alati.</span><span class="sxs-lookup"><span data-stu-id="cacc6-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="cacc6-121">Märkige ruut Sisesta komplekteerimisleht kohe.</span><span class="sxs-lookup"><span data-stu-id="cacc6-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="cacc6-122">Märkige ruut Prindi komplekteerimisleht.</span><span class="sxs-lookup"><span data-stu-id="cacc6-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="cacc6-123">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="cacc6-123">Click OK.</span></span>
+    * <span data-ttu-id="cacc6-124">See on trükitud komplekteerimisleht, millel on toodud tootmistellimuse jaoks kasutatud materjalid.</span><span class="sxs-lookup"><span data-stu-id="cacc6-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="cacc6-125">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="cacc6-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a><span data-ttu-id="1479d-126">Komplekteerimislehe kinnitamine</span><span class="sxs-lookup"><span data-stu-id="1479d-126">Validate the picking list</span></span>
-1. <span data-ttu-id="1479d-127">Klõpsake toimingupaanil valikut Kuva.</span><span class="sxs-lookup"><span data-stu-id="1479d-127">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="1479d-128">Klõpsake suvandit Komplekteerimisleht.</span><span class="sxs-lookup"><span data-stu-id="1479d-128">Click Picking list.</span></span>
-3. <span data-ttu-id="1479d-129">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="1479d-129">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="1479d-130">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="1479d-130">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="1479d-131">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="1479d-131">Click Edit.</span></span>
-6. <span data-ttu-id="1479d-132">Sisestage number väljale Tarbimine.</span><span class="sxs-lookup"><span data-stu-id="1479d-132">In the Consumption field, enter a number.</span></span>
-7. <span data-ttu-id="1479d-133">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="1479d-133">Click Post.</span></span>
-8. <span data-ttu-id="1479d-134">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="1479d-134">Click OK.</span></span>
-    * <span data-ttu-id="1479d-135">Komplekteerimislehe töölehele sisestatakse tootmistellimuse tarbitud materjalid.</span><span class="sxs-lookup"><span data-stu-id="1479d-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="1479d-136">Enne töölehe sisestamist saate teha korrigeerimisi, kui eeldatav kogus erineb tegelikust tarbitud kogusest.</span><span class="sxs-lookup"><span data-stu-id="1479d-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
-9. <span data-ttu-id="1479d-137">Klõpsake vahekaarti GridPanel.</span><span class="sxs-lookup"><span data-stu-id="1479d-137">Click the GridPanel tab.</span></span>
-10. <span data-ttu-id="1479d-138">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1479d-138">Close the page.</span></span>
+## <a name="validate-the-picking-list"></a><span data-ttu-id="cacc6-126">Komplekteerimislehe kinnitamine</span><span class="sxs-lookup"><span data-stu-id="cacc6-126">Validate the picking list</span></span>
+1. <span data-ttu-id="cacc6-127">Klõpsake toimingupaanil valikut Kuva.</span><span class="sxs-lookup"><span data-stu-id="cacc6-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="cacc6-128">Klõpsake suvandit Komplekteerimisleht.</span><span class="sxs-lookup"><span data-stu-id="cacc6-128">Click Picking list.</span></span>
+3. <span data-ttu-id="cacc6-129">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="cacc6-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="cacc6-130">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="cacc6-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="cacc6-131">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="cacc6-131">Click Edit.</span></span>
+6. <span data-ttu-id="cacc6-132">Sisestage number väljale Tarbimine.</span><span class="sxs-lookup"><span data-stu-id="cacc6-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="cacc6-133">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="cacc6-133">Click Post.</span></span>
+8. <span data-ttu-id="cacc6-134">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="cacc6-134">Click OK.</span></span>
+    * <span data-ttu-id="cacc6-135">Komplekteerimislehe töölehele sisestatakse tootmistellimuse tarbitud materjalid.</span><span class="sxs-lookup"><span data-stu-id="cacc6-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="cacc6-136">Enne töölehe sisestamist saate teha korrigeerimisi, kui eeldatav kogus erineb tegelikust tarbitud kogusest.</span><span class="sxs-lookup"><span data-stu-id="cacc6-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="cacc6-137">Klõpsake vahekaarti GridPanel.</span><span class="sxs-lookup"><span data-stu-id="cacc6-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="cacc6-138">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="cacc6-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a><span data-ttu-id="1479d-139">Protsessikaardi töölehe kontrollimine</span><span class="sxs-lookup"><span data-stu-id="1479d-139">Verify the route card journal</span></span>
-1. <span data-ttu-id="1479d-140">Klõpsake toimingupaanil valikut Kuva.</span><span class="sxs-lookup"><span data-stu-id="1479d-140">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="1479d-141">Klõpsake suvandit Protsessikaart.</span><span class="sxs-lookup"><span data-stu-id="1479d-141">Click Route card.</span></span>
-3. <span data-ttu-id="1479d-142">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="1479d-142">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="1479d-143">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="1479d-143">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="1479d-144">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="1479d-144">Click Edit.</span></span>
-6. <span data-ttu-id="1479d-145">Sisestage number väljale Tunnid.</span><span class="sxs-lookup"><span data-stu-id="1479d-145">In the Hours field, enter a number.</span></span>
-7. <span data-ttu-id="1479d-146">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="1479d-146">Click Post.</span></span>
-8. <span data-ttu-id="1479d-147">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="1479d-147">Click OK.</span></span>
-    * <span data-ttu-id="1479d-148">Protsessikaardi töölehele kantakse üksikutele toimingutele kulunud aeg.</span><span class="sxs-lookup"><span data-stu-id="1479d-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="1479d-149">Saate esitada ka õige ja veakoguse.</span><span class="sxs-lookup"><span data-stu-id="1479d-149">Good and error quantity can also be reported.</span></span>  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="cacc6-139">Protsessikaardi töölehe kontrollimine</span><span class="sxs-lookup"><span data-stu-id="cacc6-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="cacc6-140">Klõpsake toimingupaanil valikut Kuva.</span><span class="sxs-lookup"><span data-stu-id="cacc6-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="cacc6-141">Klõpsake suvandit Protsessikaart.</span><span class="sxs-lookup"><span data-stu-id="cacc6-141">Click Route card.</span></span>
+3. <span data-ttu-id="cacc6-142">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="cacc6-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="cacc6-143">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="cacc6-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="cacc6-144">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="cacc6-144">Click Edit.</span></span>
+6. <span data-ttu-id="cacc6-145">Sisestage number väljale Tunnid.</span><span class="sxs-lookup"><span data-stu-id="cacc6-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="cacc6-146">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="cacc6-146">Click Post.</span></span>
+8. <span data-ttu-id="cacc6-147">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="cacc6-147">Click OK.</span></span>
+    * <span data-ttu-id="cacc6-148">Protsessikaardi töölehele kantakse üksikutele toimingutele kulunud aeg.</span><span class="sxs-lookup"><span data-stu-id="cacc6-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="cacc6-149">Saate esitada ka õige ja veakoguse.</span><span class="sxs-lookup"><span data-stu-id="cacc6-149">Good and error quantity can also be reported.</span></span>  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
