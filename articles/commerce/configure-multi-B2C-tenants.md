@@ -2,11 +2,9 @@
 title: Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas
 description: Selle teema all kirjeldatakse, millal ja kuidas seadistada kanali kohta mitme Microsoft Azure Active Directory (Azure AD) äri-tarbija (B2C) üürnikut kasutaja autentimiseks spetsiaalses Dynamics 365 Commerce keskkonnas .
 author: BrianShook
-manager: annbe
-ms.date: 03/02/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477752"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796095"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas
 
@@ -55,10 +53,6 @@ Järgmisel joonisel on kujutatud mitut B2C rentnikku Kaubanduskeskkonnas.
 
 Kui otsustate, et teie ettevõte vajab kanali kohta eraldiseisvaid B2C rentnikke samas Kaubanduskeskkonnas, täitke selle funktsiooni taotlemiseks järgmiste jaotiste protseduurid.
 
-## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>Soovin, et teie keskkonnas oleks lubatud B2C kanali kohta
-
-Praegu, kui soovite, et erinevad B2C rentnikud kanali kohta oleksid saadaval samas Kaubanduskeskkonnas, tuleb esitada taotlus Dynamics 365 Commerce. Lisateabe saamiseks vt teemat [Hangi Lifecycle Servicesi (LCS) tugiteenus](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) või arutage seda probleemi oma Kaubanduslahenduste kontaktiga.
-
 ## <a name="configure-b2c-tenants-in-your-environment"></a>B2C rentnike konfigureerimine oma keskkonnas
 
 B2C rentnike konfigureerimiseks oma keskkonnas täitke selle jaotise vastavad protseduurid.
@@ -79,11 +73,11 @@ Et lisada Azure AD B2C rentnik oma keskkonda, toimige järgmiselt.
     - **Kliendi GUID**: sisestage Azure AD B2C rentniku ID, nagu see kuvatakse portaalis Azure (mitte B2C rentniku rakenduse ID).
     - **Profiili redigeerimise poliitika ID**: sisestage poliitika ID (portaali Azure poliitika nimi).
 
-1. Kui olete selle teabe sisestamise lõpetanud, valige muudatuste salvestamiseks **OK**.
+1. Kui olete selle teabe sisestamise lõpetanud, valige muudatuste salvestamiseks **OK**. Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste haldamine**.
 
 > [!NOTE]
 > Peaksite jätma tühjaks väljad **Ulatus**, **Mitteinteraktiivse poliitika ID**, **Mitteinteraktiivse kliendi ID**, **Sisselogimise kohandatud domeeni** ja **Registreerimise poliitika ID**, kui Dynamics 365 Commerce meeskond ei käsi teil neid seada.
-Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste haldamine**.
+
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>Azure AD B2C rentniku haldamine või kustutamine
 
@@ -97,6 +91,7 @@ Teie uus Azure AD B2C rentnik peaks nüüd ilmuma loendisse **B2C rakenduste hal
 > Kui B2C rentnik on konfigureeritud aktiivse/avaldatud saidi jaoks, võivad kasutajad olla registreerunud, kasutades rentniku kontosid. Kui kustutate konfigureeritud rentniku **Rentniku sätete \> B2C rentniku** menüüs, eemaldate selle B2C rentniku seose saitidega, mis on seotud mis tahes selle rentniku kanalitega. Sel juhul ei saa teie kasutajad enam oma kontodele sisse logida. Seetõttu olge äärmiselt ettevaatlikud, kui kustutate konfigureeritud rentniku.
 >
 > Kui konfigureeritud rentnik on kustutatud, jätkatakse B2C rentniku ja kirjete säilitamist, kuid selle rentniku Kaubandussüsteemi konfiguratsioon muutub või eemaldatakse. Kasutajad, kes proovivad registreeruda või saidile sisse logida, loovad uue kontokirje vaikimisi või äsja seotud B2C rentnikule, kes on konfigureeritud saidi kanalile.
+
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Kanali konfigureerimine B2C rentnikuga
 
 1. Logige sisse oma keskkonna Kaubanduse saidiehitusse süsteemi administraatorina. Azure AD B2C rentnike konfigureerimiseks peate olema Kaubanduskeskkonna süsteemiadministraator.

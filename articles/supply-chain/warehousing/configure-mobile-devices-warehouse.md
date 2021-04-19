@@ -2,11 +2,9 @@
 title: Mobiilsete seadmete seadistamine laotöö jaoks
 description: Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232979"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808794"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
@@ -64,7 +62,7 @@ Kui menüüelemendi välja **Režiim** sätteks on valitud **Kaudne**, saate luu
 | Numbriseeria vahemälu tühjendamine | Kustutage numbriseeria vahemälust numbriseeria. Seda tegevust teeb tavaliselt süsteemiadministraator vahemälu probleemide lahendamiseks, kui kasutatakse mobiilseid seadmeid. |
 | Partii likvideerimise muutmine | Lubage töötajal määrata kaubale ja partiile partii likvideerimiskood. See valik värskendab partii jaoks määratud likvideerimiskoodi. |
 | Kuva avatud tööloend | Saate kuvada konkreetsele kasutajale saadaolevate tööde loendi. Seejärel saab kasutaja valida tegemiseks töö ja ta suunatakse sellele. Seda loendit tuleb vaadata tahvelseadmetel, mille ekraani suurus on vähemalt 7 tolli. Selle suvandi valimisel muutuvad kättesaadavaks menüüelemendid **Päringu redigeerimine** ja **Väljaloend**. Lehel **Päringu redigeerimine** saate seadistada loendis kuvatava töö kriteeriumid. Lehel **Väljaloend** saate valida tööde loendis kuvatavad väljad. Näiteks saate vähendada kuvatavate väljade arvu, et kasutaja saaks sobiva tööüksuse kiiremini valida. Kiirkaardi **Üldine** väljal **Kirjeid leheküljel** saate valida ka igal leheküljel kuvatavate töökirjete arvu. Kui suvand **Luba kasutajatel filtreerida töid kande tüübi järgi** on märgitud, lisandub tööde loendisse juhtelement **Filtreeri töö**, mis võimaldab kasutajal kande tüübi järgi filtreerida. Tööde loendis näeb kasutaja ainult neid töid, millele tal on juurdepääsuluba. Peate tagama, et kasutajatel oleks luba ühele või mitmele kasutajale suunatud menüüelemendile, mis toetavad kindlaid tööklassitüüpe, millele neil peab juurdepääs olema. Load kinnitatakse, kui kasutaja üritab loendis olevat tööd teha.|
-| Litsentsiplaatidelt üleviimistellimuse loomine | Laseb laotöötajatel luua ja töödelda üleviimistellimusi otse laorakenduses. Esiteks peavad laotöötajad valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read. Lisateavet leiate teemast [Üleviimistellimuste loomine laorakenduses](create-transfer-order-from-warehouse-app.md)
+| Litsentsiplaatidelt üleviimistellimuse loomine | Laseb laotöötajatel luua ja töödelda üleviimistellimusi otse lao mobiilirakenduses Warehouse Management. Esiteks peavad laotöötajad valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read. Lisateavet leiate teemast [Üleviimistellimuste loomine laorakenduses](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Menüüelementide konfigureerimine teisele töötajale või protsessile töö loomiseks

@@ -2,11 +2,9 @@
 title: Olemasoleva saidilehe muutmine
 description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce olemasolevat saidi lehte muuta.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b633965e45c16cb4e5991fab67783b867223f6ec
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223043"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803725"
 ---
 # <a name="modify-an-existing-site-page"></a>Olemasoleva saidilehe muutmine
-
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Commerce olemasolevat saidi lehte muuta.
-
-## <a name="overview"></a>Ülevaade
 
 Kui peate lehte muutma, on esimene etapp selle avamine lehe redaktoris. Avage teie lehte sisaldav sait ja seejärel leidke lehtede loendist soovitud leht. Kui te lehte ei leia, saate kasutada autorluse tööriista rikkalikku sisuga otsingufunktsiooni. Sisestage kas lehe täpne nimi või sisestage selle esimesed paar tähte ja seejärel tärn (\*). Kuvatakse filtreeritud lehtede loend. Seda loendit saate kasutada soovitud lehe leidmiseks. Pärast õige lehe leidmist valige lehe nimi, et avada leht lehe redaktoris.
 

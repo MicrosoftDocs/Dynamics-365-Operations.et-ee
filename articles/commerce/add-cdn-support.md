@@ -2,11 +2,9 @@
 title: Sisuedastusvõrgu (CDN) toe lisamine
 description: See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce keskkonnale sisuedastusvõrk (CDN).
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582715"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797835"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisu edastamise võrgu (CDN) toe lisamine
 
@@ -41,11 +39,7 @@ Lisaks teenindatakse lõpp-punktist Commerce’i *staatika* (JavaScripti või ka
 
 ## <a name="set-up-ssl"></a>SSL-i seadistamine
 
-SSL-i seadistamise ja staatika vahemällu salvestamise tagamiseks peate konfigureerima oma CDN-i nii, et see on seostatud teie keskkonna jaoks loodud Commerce’i nimega. Staatika jaoks peate salvestama vahemällu ka järgmise mustri: 
-
-/\_msdyn365/\_scnr/\*
-
-Pärast antud kohandatud domeeniga Commerce’i keskkonna ettevalmistamist või pärast oma keskkonnale teenusetaotlust kasutades kohandatud domeeni sisestamist, suunake oma kohandatud domeen Commerce’i loodud hostinimele või lõpp-punktile.
+Pärast antud kohandatud domeeniga Commerce’i keskkonna ettevalmistamist või pärast oma keskkonnale teenusetaotlust kasutades kohandatud domeeni sisestamist, peate tegema koostööd Commerce'i meeskonnaga DNS muudatuste planeerimiseks.
 
 Nagu eelnevalt mainitud, toetab loodud hostinimi või lõpp-punkt SSL-i serti ainult \*.commerce.dynamics.com-i jaoks. See ei toeta kohandatud domeenide SSL-i.
 
@@ -62,7 +56,7 @@ CDN-i seadistamise protsess koosneb järgnevatest üldistest etappidest.
 
 1. Lisage eesserveri host.
 1. Konfigureerige tagaserverite kaust.
-1. Seadistage marsruudivalik ja vahemällu salvestamine.
+1. Marsruudi valiku reeglite häälestus
 
 ### <a name="add-a-front-end-host"></a>Eesserveri hosti lisamine
 
@@ -74,8 +68,9 @@ Teavet Azure’i sisenemispunkti teenuse seadistamise kohta vaadake teemast [Lü
 
 Azure’i sisenemispunkti teenuses tagaserverite kausta konfigureerimiseks järgige järgmisi etappe.
 
-1. Lisage tagaserverite kaustale kohandatud hostiks **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**, millel on tühi tagaserveri hosti päis.
+1. Lisage **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** tagaserveri kausta kohandatud hostina, mille tagaserveri hosti päis on sama kui **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**.
 1. Suvandis **Koormusetasandus** säilitage vaikeväärtused.
+1. Keelake tagaserveri kaustas tervisekontrollid.
 
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiboks **Lisa tagaserver**, millesse on sisestatud tagaserveri hosti nimi.
 
@@ -84,6 +79,10 @@ Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogib
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiboks **Lisa tagaserverite kaust** koos koormuse tasakaalustamise vaikeväärtustega.
 
 ![Jätkuv tagaserveri dialoogiboksi lisamine](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Keelake kindlasti **tervisekontrollid** rakenduse Commerce Azure Front Door teenuse häälestamisel.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Azure’i sisenemispunkti teenuse reeglite seadistamine
 
@@ -100,24 +99,6 @@ Azure’i sisenemispunkti teenuse marsruudivaliku reegli seadistamiseks toimige 
 1. Määrake suvand **URL-i ümberkirjutamine** väärtusele **Keelatud**.
 1. Määrake suvand **Vahemällu salvestamine** väärtusele **Keelatud**.
 
-Azure’i sisenemispunkti teenuse vahemällu salvestamise reegli seadistamiseks toimige järgmiselt.
-
-1. Lisage vahemällu salvestamise reegel.
-1. Väljale **Nimi** sisestage suvand **staatika**.
-1. Väljal **Kinnitatud protokoll** valige **HTTP ja HTTPS**.
-1. Väljal **Eesserveri hostid** sisestage **dynamics-ecom-rentnik-nimi.azurefd.net**.
-1. Jaotises **Vastendamise mustrid** sisestage ülemisele väljale **/\_msdyn365/\_scnr/\***.
-1. Jaotises **Marsruudi üksikasjad** määrake suvandi **Marsruudi tüüp** väärtuseks **Edasi**.
-1. Väljal **Tagaserveri kaust** valige **ecom-tagaserver**.
-1. Valige väljagrupis **Edasisaatmise protokoll** suvand **Taotlusele vastendamine**.
-1. Määrake suvand **URL-i ümberkirjutamine** väärtusele **Keelatud**.
-1. Määrake suvand **Vahemällu salvestamine** väärtusele **Keelatud**.
-1. Väljal **Päringustringi vahemällu salvestamise käitumine** valige suvand **Salvesta vahemällu kõik ainulaadsed URL-id**.
-1. Väljagrupis **Dünaamiline tihendamine** valige suvand **Luba**.
-
-Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiaken **Lisa reegel**.
-
-![Reegli dialoogiakna lisamine](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Kui domeen, mida te kasutama hakkate, on juba aktiivne ja kasutusvalmis, looge teenuse [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) paanil **Tugi** tugiteenusepilet, et saada järgmiste sammude jaoks abi. Lisateavet leiate teemast [Finance and Operationsi rakenduste või teenuse Lifecycle Services (LCS) tugi](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).

@@ -2,11 +2,9 @@
 title: Kassa välisseadmete ja teenuste seisundikontroll
 description: Selles teemas antakse ülevaate kassa seisundikontrolli toimingust.
 author: rubendel
-manager: AnnBe
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 37ec7d238b40c44891ff2a09a9db5a9265fb8321
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216671"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804353"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Kassa välisseadmete ja teenuste seisundikontroll
 
@@ -55,7 +53,7 @@ Vaikimisi testib seisundikontroll ainult neid seadmeid, mis on seadistatud riist
 |---|---|---|
 | Printer | OPOS | See kontroll testib põhiobjekti, linkides ja manustades kassafunktsioonidele (OPOS). Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> |
 | Rea kuva | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> |
-| Topeltkuva | &Aknad... | See kontroll tagab, et operatsioonisüsteem tuvastab teise Windowsi kuvari. | 
+| Topeltkuva | Windows | See kontroll tagab, et operatsioonisüsteem tuvastab teise Windowsi kuvari. | 
 | Magnetribalugeja | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> |
 | Koostaja | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> | 
 | Skanner | OPOS | See kontroll testib peamisi OPOS-i funktsioone. Järgmisena on toodud mõned näited.<ul><li>Avamiseks **Ava** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Sulgemiseks: **DeviceEnabled=False** &gt; **ReleaseDevice** &gt; **Sule**</li></ul> | 

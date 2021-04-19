@@ -2,11 +2,9 @@
 title: Kohandatud lehtede häälestus kasutajate sisselogimise jaoks
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce kohandatud lehti, mis käsitsevad Azure Active Directory (Azure AD) ettevõtte ja tarbija (B2C) rentnike kohandatud sisselogimisi.
 author: brianshook
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3328fad5328ae1954a6749f9a5eebcb71c723698
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477944"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799441"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kohandatud lehtede häälestus kasutajate sisselogimise jaoks
 
@@ -31,7 +29,12 @@ Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Comme
 
 Kohandatud lehtede kasutamiseks, mis on rakenduses Dynamics 365 Commerce volitatud käsitsema kasutaja sisselogimise voogusid, peate seadistama Azure AD poliitikad, millele Commerce’i keskkonnas viidatakse. Saate konfigureerida Azure AD B2C poliitikaid „Registreerimine ja sisselogimine”, „Profiili redigeerimine” ja „Parooli lähtestamine”, kasutades Azure AD B2C rakendust. Azure AD B2C rentniku ja poliitika nimedele saab seejärel viidata ettevalmistamise protsessi käigus, mis on tehtud Commerce’i keskkonnas, kasutades Microsoft Dynamicsi teenust Lifecycle Services (LCS).
 
-Kohandatud Commerce’i lehti saab luua, kasutades sisselogimist, registreerumist, konto profiili redigeerimist või parooli lähtestamise moodulit. Nendele kohandatud lehtede jaoks avaldatud lehe URL-idele tuleb seejärel viidata Azure AD B2C poliitika konfiguratsioonides Azure’i portaalis.
+Kohandatud Commerce’i lehti saab luua, kasutades sisselogimist, registreerumist, konto profiili redigeerimist või üldiseid AAD mooduleid. Nendele kohandatud lehtede jaoks avaldatud lehe URL-idele tuleb seejärel viidata Azure AD B2C poliitika konfiguratsioonides Azure’i portaalis.
+
+> [!WARNING] 
+> Azure AD B2C kustutab vana (pärand) kasutajavood 1. augustiks 2021. Seetõttu peaksite plaanima oma kasutajavood migreerida uude soovitatud versiooni. Uus versioon pakub funktsioonide pariteeti ja uusi funktsioone. Lisateabe saamiseks vt [Azure Active Directory B2C kasutajavoog](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+
+>Commerce version 10.0.15 või uuema versiooni mooduliteeki tuleb kasutada soovitatud B2C kasutajavoogudega. Kasutada saab ka Azure AD B2C-s pakutavaid vaikimisi kasutajapoliitika lehti ja lubada lisatud taustapildi, logo ja taustavärvi muudatusi, mis on seotud ettevõtte kaubamärgiga. Kuigi kujunduse võimalused on piiratud, pakuvad kasutajapoliitika vaikelehed Azure AD B2C poliitika funktsioone ilma selleks mõeldud kohandatud lehekülgi loomata ja konfigureerimata. 
 
 ## <a name="set-up-b2c-policies"></a>B2C poliitikate seadistamine
 
@@ -45,7 +48,7 @@ Nüüd saate konfigureerida kasutaja sisselogimise vood „Registreerimine ja si
 
 Poliitika „Registreerimine ja sisselogimine” konfigureerimiseks toimige järgmiselt.
 
-1. Valige suvand **Uus kasutaja voog** ja seejärel valige vahekaardil **Soovitatav** poliitika **Registreerimine ja sisselogimine**.
+1. Valige suvand **Uus kasutaja voog**, valige **Registreerimine ja sisselogimine** ja seejärel valige vahekaardil **Soovitatav** valik **Loo**.
 1. Sisestage poliitika nimi (nt **B2C\_1\_SignInSignUp**).
 1. Jaotises **Identiteedipakkujad** valige poliitika jaoks kasutatavad identiteedipakkujad. Minimaalselt peab olema valitud **Registreerimine meili teel**.
 1. Veerus **Atribuudi kogumine** märkige märkeruudud suvandite **Meiliaadressid**, **Eesnimi** ja **Perekonnanimi** juures.
@@ -68,10 +71,10 @@ Pärast kohandatud lehtede loomist naasete sellesse poliitikasse seadistuse lõp
 
 Poliitika „Profiili redigeerimine” konfigureerimiseks järgige allolevaid etappe.
 
-1. Valige suvand **Uus kasutaja voog** ja seejärel valige vahekaardil **Soovitatav** poliitika **Profiili redigeerimine**.
+1. Valige suvand **Uus kasutaja voog**, valige **Profiili redigeerimine** ja seejärel valige vahekaardil **Soovitatav** valik **Loo**.
 1. Sisestage poliitika nimi (nt **B2C\_1\_EditProfile**).
 1. Jaotises **Identiteedipakkujad** valige poliitika jaoks kasutatavad identiteedipakkujad. Minimaalselt peab olema valitud **Kohaliku konto sisselogimine**.
-1. Veerus **Atribuudi kogumine** märkige märkeruudud suvandite **Meiliaadressid** ja **Perekonnanimi** juures.
+1. Veerus **Atribuudi kogumine** märkige märkeruudud suvandite **Antud nimi** ja **Perekonnanimi** juures.
 1. Veerus **Tagastamise nõue** märkige märkeruudud suvandite **Meiliaadressid**, **Eesnimi**, **Identiteedipakkuja**, **Perekonnanimi** ja **Kasutaja objekti ID** juures.
 1. Poliitika loomiseks valige **OK**.
 1. Topeltklõpsake uuel poliitika nimel ja seejärel valige navigeerimispaanil suvand **Atribuudid.**
@@ -83,16 +86,10 @@ Pärast kohandatud lehtede loomist naasete sellesse poliitikasse seadistuse lõp
 
 Poliitika „Parooli lähtestamine” konfigureerimiseks järgige allolevaid etappe.
 
-1. Valige suvand **Uus kasutaja voog** ja seejärel valige vahekaardil **Eelvaade** poliitika **Parooli lähtestamine v1.1**.
-
-    ![Eelvaate vahekaardil on valitud poliitika Parooli lähtestamine v1.1.](./media/B2C_ForgetPassword_Menu.png)
-
+1. Valige **Uus kasutajavoog** ja seejärel valige suvand **Parooli lähtestamine** ning valige vahekaart **Soovitatav** ja klõpsake nuppu **Loo**.
 1. Sisestage poliitika nimi (nt **B2C\_1\_ForgetPassword**).
 1. Jaotises **Identiteedipakkujad** valige suvand **Parooli lähtestamine meiliaadressi kasutades**.
 1. Veerus **Tagastamise nõue** märkige märkeruudud suvandite **Meiliaadressid**, **Eesnimi**, **Perekonnanimi** ja **Kasutaja objekti ID** juures.
-
-    ![Valitud nõuded](./media/B2C_ForgetPassword_Attributes.png)
-
 1. Poliitika loomiseks valige **OK**.
 1. Topeltklõpsake uuel poliitika nimel ja seejärel valige navigeerimispaanil suvand **Atribuudid.**
 1. Seadke suvand **JavaScripti lehe paigutuse (eelvaade) jõustamise lubamine** valikule **Sees**.
@@ -101,11 +98,19 @@ Pärast kohandatud lehtede loomist naasete sellesse poliitikasse seadistuse lõp
 
 ## <a name="build-the-custom-pages"></a>Kohandatud lehtede koostamine
 
-Kasutaja sisselogimiste käsitsemiseks kohandatud lehtede koostamiseks toimige järgmiselt.
+Commerce'is sisalduvad sihtotstarbelised Azure AD moodulid Azure AD B2C kasutajapoliitikate kohandatud lehtede loomiseks. Lehekülgi saab üles ehitada konkreetselt iga kasutajapoliitika lehekülje paigutuse jaoks, kasutades allpool kirjeldatud Azure AD B2C põhimooduleid. Teise võimalusena saab **AAD üldmoodulit** kasutada kõikide lehekülje kavandite ja poliitikate puhul Azure AD B2C-s (isegi lehe paigutuse valikute puhul alltoodud poliitikates). 
 
-1. Avage Commerce’i autorluse tööriistades oma sait.
-1. Koostage järgmised viis malli ja viis lehte.
+- Leheküljepõhised Azure AD moodulid on seotud Azure AD B2C-ga renderdatavate andmesisestusüksustega. Need moodulid annavad teile rohkem kontrolli elementide paigutamise üle oma lehekülgedel. Siiski võib allpool kirjeldatud vaikesätetest väljaspool hälvete arvestamiseks olla vaja üles ehitada rohkem lehti ja mooduli laiendeid.
+- **AAD üldmoodulis** luuakse "div" element Azure AD B2C-le, et renderdada kasutajapoliitika lehekülje kavandi kõiki elemente, mis muudab paindlikumaks lehekülje B2C funktsioonid, kuid vähendab positsioonimise ja tööltemise kontrolli (ehkki CSS saab kasutada saidi väljailme ja stiili sobitamiseks).
 
+Saate luua ühe lehe **AAD üldmooduliga** ja kasutada seda kõigi oma kasutajapoliitika lehtede puhul või saate koostada välja kindlad lehed, kasutades individuaalseid Azure AD mooduleid sisselogimiseks, registreerumiseks, profiili redigeerimiseks, parooli lähtestamiseks ja parooli lähtestamise kinnitamiseks. Saate kasutada ka mõlemat segamist, kasutades konkreetseid Azure AD lehekülgi allpool nimetatud lehekülje kavandite jaoks ja üldist AAD-mooduli lehekülge ülejäänud lehekülje kavandite jaoks nendel või muudel kasutaja poliitikalehtedel.
+
+Lisateavet Azure AD mooduliteegiga lähetatud moodulite kohta saate lisateavet [identiteedihalduse lehtedelt ja moodulitest](identity-mgmt-modules.md).
+
+Kasutaja sisselogimiste käsitsemiseks kohandatud ja identiteedimoodulitega lehtede koostamiseks toimige järgmiselt.
+
+1. Liikuge kaubanduse saidiehitajas oma saidile.
+1. Koostage järgmised viis malli ja lehekülge (kui teie saidil seda juba pole):
     - Mall **Sisselogimine** ja sisselogimise moodulit kasutav leht.
     - Mall **Registreerimine** ja registreerimise moodulit kasutav leht.
     - Mall **Parooli lähtestamine** ja parooli lähtestamise moodulit kasutav leht.
@@ -119,7 +124,7 @@ Lehtede loomisel järgige järgmisi juhiseid.
 - Pärast lehtede ja URL-ide avaldamist koguge URL-id, mida tuleb kasutada Azure AD B2C poliitika konfiguratsioonideks. Igale URL-ile lisatakse selle kasutamisel järelliide **?preloadscripts=true**.
 
 > [!IMPORTANT]
-> Ärge korduvkasutage universaalseid päiseid ja jaluseid, millel on suhtelised lingid. Kuna need lehed majutatakse kasutamisel Azure AD B2C domeenis, tuleks kõikide linkide jaoks kasutada ainult absoluutseid URL-e.
+> Azure AD B2C-s viidatud leheküljed serveeritakse otse Azure AD B2C rentniku domeenist. Ärge korduvkasutage universaalseid päiseid ja jaluseid, millel on suhtelised lingid. Kuna need lehed majutatakse kasutamisel Azure AD B2C domeenis, tuleks kõikide linkide jaoks kasutada ainult absoluutseid URL-e. Soovitatav on luua kindel päis ja jalus koos kindlate URL-dega teie Azure AD-ga seotud kohandatud lehtede jaoks koos mis tahes ärispetsiifiliste moodulitega, mis nõuavad ühenduse eemaldamist jaemüügiserveriga. Näiteks ei tohi lemmikuid, otsinguriba, sisselogimislinki ja ostukorvi mooduleid kaasata ühtegi lehekülge, mida kasutatakse Azure AD B2C kasutajavoogudes.
 
 ## <a name="configure-azure-ad-b2c-policies-with-custom-page-information"></a>Azure AD B2C poliitikate konfigureerimine kohandatud lehe teabega 
 
@@ -133,51 +138,53 @@ Poliitika „Registreerimine ja sisselogimine” kohandatud lehe teabega värske
 1. Valige paigutus **Ühendatud registreerimine või sisselogimise leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
 1. Sisestage väljal **Kohandatud lehe URL** täispikk sisselogimise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/sign-in?preloadscripts=true``.
-1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
+1. Valige väljal **Lehe paigutuse versioon** versioon **2.1.0** või uuem (nõuab Commerce'i versiooni 10.0.15 või uuema versiooni jaoks mooduliteeki).
+1. Valige käsk **Salvesta**.
 1. Valige paigutus **Kohaliku konto registreerimise leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
 1. Sisestage väljal **Kohandatud lehe URL** täispikk registreerimise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/sign-up?preloadscripts=true``.
-1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
+1. Valige väljal **Lehe paigutuse versioon** versioon **2.1.0** või uuem (nõuab Commerce'i versiooni 10.0.15 või uuema versiooni jaoks mooduliteeki).
 1. Järgige jaotises **Kasutaja atribuudid** järgmisi samme.
+    1. Atribuutide **Eesnimi** ja **Perekonnanimi** jaoks valige suvand **Ei** tulbas **Vajab kinnitamist**.
+    1. **E-posti aadressi** atribuudi puhul on soovitatav jätta veerus **Kontrollimist vajav** valitud vaikeväärtus **Jah** valimata. See valik tagab selle, et kasutajad registreeruksid antud meiliaadressiga sisse ja kontrolliksid, et neil on meiliaadress olemas.
+    1. Atribuutide **Meiliaadressid**, **Eesnimi** ja **Perekonnanimi** jaoks valige suvand **Ei** tulbas **Valikuline**.
+1. Valige käsk **Salvesta**.
 
-    1. Atribuutide **Meiliaadressid**, **Eesnimi** ja **Perekonnanimi** jaoks valige suvand **Ei** väljal **Vajab kinnitamist**.
-    1. Atribuutide **Eesnimi** ja **Perekonnanimi** jaoks valige suvand **Ei** väljal **Valikuline**.
-
-    ![Kohaliku konto lehe poliitika konfigureerimine](./media/B2C_SignUp_PageURLConfig.png)
+    ![Kohaliku konto lehe poliitika konfigureerimine](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Poliitika „Profiili redigeerimine” kohandatud lehe teabega värskendamine
 
 Poliitika „Profiili redigeerimine” kohandatud lehe teabega värskendamiseks tehke järgmist.
 
 1. Valige varasemalt konfigureeritud poliitikas **Profiili redigeerimine** navigeerimispaanil suvand **Lehe paigutused**.
-1. Valige paigutus **Profiili redigeerimise leht**.
+1. Valige **Profiili redigeerimise lehekülje** paigutus (sõltuvalt teie ekraanist võib olla vaja kerida allapoole muid paigutuse valikuid).
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
 1. Sisestage väljal **Kohandatud lehe URL** täispikk profiili redigeerimise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/profile-edit?preloadscripts=true``.
-1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
+1. Valige **Lehe paigutuse versioon** versioon **2.1.0** või uuem (nõuab Commerce'i versiooni 10.0.15 või uuema versiooni jaoks mooduliteeki).
 1. Järgige jaotises **Kasutaja atribuudid** järgmisi samme.
-
-    1. Atribuutide **Meiliaadressid** ja **Eesnimi** jaoks valige suvand **Ei** väljal **Vajab kinnitamist**.
-    1. Atribuutide **Eesnimi** ja **Perekonnanimi** jaoks valige suvand **Ei** väljal **Valikuline**.
+    1. Atribuutide **Eesnimi** ja **Perekonnanimi** jaoks valige suvand **Ei** tulbas **Valikuline**.
+    1. Atribuutide **Eesnimi** ja **Perekonnanimi** jaoks valige suvand **Ei** tulbas **Vajab kinnitamist**.
+1. Valige käsk **Salvesta**.
 
 ### <a name="update-the-password-reset-policy-with-custom-page-information"></a>Poliitika „Parooli lähtestamine” kohandatud lehe teabega värskendamine
 
 Poliitika „Parooli lähtestamine” kohandatud lehe teabega värskendamiseks tehke järgmist.
 
 1. Valige varasemalt konfigureeritud poliitikas **Parooli lähtestamine** navigeerimispaanil suvand **Lehe paigutused**.
-1. Valige paigutus **Uue parooli leht**.
+1. Valige paigutus **Unustasin parooli leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
-1. Sisestage väljal **Kohandatud lehe URL** täispikk parooli lähtestamise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/passwordreset?preloadscripts=true``.
-1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
-1. Valige paigutus **Konto kinnitamise leht**.
-1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
-1. Sisestage väljal **Kohandatud lehe URL** täispikk parooli lähtestamise kinnitamise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
-1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
-
-
+1. Sisestage väljal **Kohandatud lehe URL** täispikk parooli lähtestamise kinnitamise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/password-reset-verification?preloadscripts=true``.
+1. Valige väljal **Lehe paigutuse versioon** versioon **2.1.0** või uuem (nõuab Commerce'i versiooni 10.0.15 või uuema versiooni jaoks mooduliteeki).
+2. Valige käsk **Salvesta**.
+3. Valige paigutus **Muuda parooli leht**.
+4. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
+5. Sisestage väljal **Kohandatud lehe URL** täispikk parooli lähtestamise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/password-reset?preloadscripts=true``.
+6. Valige väljal **Lehe paigutuse versioon** versioon **2.1.0** või uuem (nõuab Commerce'i versiooni 10.0.15 või uuema versiooni jaoks mooduliteeki).
+7. Valige käsk **Salvesta**.
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Siltide ja kirjelduste vaikimisi tekstistringide kohandamine
 
-Mooduliteegis on sisselogimise moodulid eeltäidetud siltide ja kirjelduste vaiketekstistringidega. Saate neid stringe tarkvara arenduskomplektis (SDK) kohandada, uuendades sisselogimise mooduli väärtusi failis global.json.
+Mooduliteegis on sisselogimise moodulid eeltäidetud siltide ja kirjelduste vaiketekstistringidega. Stringe saate kohandada selle mooduli atribuutide paanil, millega töötate. Täiendavad stringid leheküljel (nt **Unustasid parooli?** lingitekst või **Konto loomise** kutse tegevuse tekstile) nõuavad Commerce'i tarkvara arenduskomplekti (SDK) kasutamist ja väärtuste uuendamist failis global.json sisselogimismooduli jaoks.
 
 Näiteks unustatud parooli lingi vaiketekst on **Unustatud parool?**. Järgnevalt on näidatud see vaiketekst sisselogimise lehel.
 

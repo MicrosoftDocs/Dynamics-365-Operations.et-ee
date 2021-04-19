@@ -2,11 +2,9 @@
 title: Sisu lisamise viisid
 description: See teema annab ülevaate ja valitud lingid, kust ja kuidas alustada sisu haldamist kasutades Microsoft Dynamics 365 Commerce saidiehitaja veebivalmistamise tööriistakomplekti.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208059"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797571"
 ---
 # <a name="ways-to-add-content"></a>Sisu lisamise viisid
 
 [!include [banner](includes/banner.md)]
 
 See teema annab ülevaate ja valitud lingid dokumentatsiooni juurde, kuidas hallata sisu, kasutades Microsoft Dynamics 365 Commerce'i saidiehitaja veebivalmistamise tööriistakomplekti.
-
-## <a name="overview"></a>Ülevaade
 
 Saidi välimuse, olemuse ja sisu muutmiseks on mitmeid viise. Sõltuvalt nõutavast kohandamise tasemest, saab paljusid neid muudatusi rakendada mitte-arendajate poolt saidiehitajaga, Dynamics 365 Commerce'iga kaasasolevas veebivalmistamise tööriistakomplektiga. Saidiehitaja võimaldab teil luua malle, valida kujundusi ning valida ja konfigureerida moodulid ilma koodi kirjutamata. Seevastu on arendamise oskused vajalikud uue kujunduse või mooduli loomiseks, kuna kasutada tuleb e-kaubanduse tarkvara arendusekomplekti (SDK) ja Microsoft Dynamicsi teenuse Lifecycle Services (LCS) juurutamise töövoogu.
 

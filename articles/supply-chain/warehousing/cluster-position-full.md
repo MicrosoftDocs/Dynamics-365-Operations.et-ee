@@ -2,11 +2,9 @@
 title: Kogumi positsioon on täis
 description: Sellest teemast leiate teavet funktsiooni „Kogumi positsioon on täis” kohta. See funktsioon pakub alternatiivi tööjaotuse reeglite jäigemale jõustamisele kogumi komplekteerimisel, kuna see võimaldab suuremat veavaru konteinerite või koormate mahupiirangutes.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233003"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808842"
 ---
 # <a name="cluster-position-full"></a>Kogumi positsioon on täis
 
@@ -213,7 +211,7 @@ Loodud peaks olema kaks töö ID-d, millest igaühel on kaks komplekteerimise ri
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Mobiilse seadme voo käivitamine – toote töö kinnituse häälestus
 
-1. Logige laorakendusse sisse lao *61* kasutajana.
+1. Logige mobiilirakendusse Warehouse Management sisse lao *61* kasutajana.
 1. Valige **Väljaminev \> Kogumi komplekteerimise loomine**.
 
     Kuvatakse leht **ÜLESANNE: töö määramine kogumile**.

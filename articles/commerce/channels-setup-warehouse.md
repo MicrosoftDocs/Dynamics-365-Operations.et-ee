@@ -2,11 +2,9 @@
 title: Lao seadistamine
 description: Selles teemas kirjeldatakse lao seadistamist, mida kasutatakse uue kanaliga Microsoft Dynamics 365 Commerce'is.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477630"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800491"
 ---
 # <a name="warehouse-set-up"></a>Lao seadistamine
 
@@ -49,7 +47,7 @@ Järgmine pilt näitab laoala näidet.
 
 ![Laoala näide](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse"></a>Lao seadistamine
+## <a name="set-up-a-warehouse&quot;></a>Lao seadistamine
 
 Lao seadistamiseks toimige järgmiselt.
 
@@ -63,14 +61,14 @@ Lao seadistamiseks toimige järgmiselt.
     - Kui soovite seadistada **Transiitlao**, peate esmalt järgima neid samme, et luua täiendav ladu, kus **Tüüp** on seadistatud väärtusele **Transiit**.
 1. Valige toimingupaanil nupp **Salvesta**.
 
-## <a name="set-up-inventory-aisles"></a>Saate häälestada lao riiuliridu.
+## <a name=&quot;set-up-inventory-aisles&quot;></a>Saate häälestada lao riiuliridu.
 
 Riiuliridade seadistamiseks toimige järgmiselt.
 
 1. Avage navigeerimispaanilt **Moodulid \> Jaemüük ja kaubandus \> Kanali seadistus \> Asukoha seadistus \> Riiuliread**.
 1. Valige toimingupaanil nupp **Uus**.
 1. Valige ripploendist **Ladu** eelnevalt loodud ladu.
-1. Sisestage väljale **Riiulirida** nimi (nt "Vaik").
+1. Sisestage väljale **Riiulirida** nimi (nt &quot;Vaik").
 1. Sisestage väljale **Nimi** nimi (nt "Vaikimisi riiulirida").
 1. Valige toimingupaanil nupp **Salvesta**.
 

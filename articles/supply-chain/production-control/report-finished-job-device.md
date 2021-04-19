@@ -2,11 +2,9 @@
 title: Töökaardi seadmes lõpetamisest teatamine
 description: Selles teemas kirjeldatakse, kuidas konfigureerida süsteemi nii, et töökaardi seadme kasutajad saavad kanda lõpetatud tooted tootmistellimusest üle varudesse.
 author: johanhoffmann
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7eabcb23681a9b2427fa1065b045e639cc98f9d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262137"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811626"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Töökaardi seadmes lõpetamisest teatamine
 
@@ -64,7 +62,7 @@ Töökaardi seade toetab partiikaupade aruandluse osas kolme stsenaariumit. Need
 Selleks, et lubada töökaardi seadmel aktsepteerida lõpetatuna kinnitamise ajal partiinumbrit, peate kasutama [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lülitada sisse järgmised funktsioonid (samas järjekorras).
 
 1. Töökaardi vahendi aruande edenemise dialoogi täiustatud kasutuskogemus
-1. Luba sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks (eelvaade)
+1. Võimaldab sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Partiinumbri kinnitamist nõudvate toodete konfigureerimine
 
@@ -142,7 +140,7 @@ Töökaardi seade toetab seeria kaudu juhitud kaupade aruandluse osas kolme stse
 Selleks, et lubada töökaardi seadmel aktsepteerida lõpetatuna kinnitamise ajal seerianumbrit, peate kasutama [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lülitada sisse järgmised funktsioonid (samas järjekorras).
 
 1. Töökaardi vahendi aruande edenemise dialoogi täiustatud kasutuskogemus
-1. Luba sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks (eelvaade)
+1. Võimaldab sisestada partii- ja seerianumbreid, kui need märgitakse töökaardi vahendil lõpetatuks
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Seerianumbri kinnitamist nõudvate toodete konfigureerimine
 

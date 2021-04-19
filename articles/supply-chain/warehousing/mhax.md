@@ -2,7 +2,6 @@
 title: Materjalikäitlusseadmete liides (MHAX)
 description: Selles teemas kirjeldatakse, kuidas seadistada materjalikäitlusseadmete liides (MHAX), et saaksite luua ühenduse väliste füüsiliste materjalikäitluse (MH) süsteemidega.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571838"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810506"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Materjalikäitlusseadmete liides (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 *Materjalikäitlusseadmete liidese* (MHAX) abil saate ühendada väliseid füüsilisi materjalikäsitluse (MH) süsteeme laoga, mida haldab täiustatud laohaldusfunktsioon (WMS) Microsoft Dynamics 365 Supply Chain Managementis. WMS-i ja MH-süsteemide vaheline liideses on kaks järjekorda: üks väljaminevatele sündmustele (WMS-ist MH-sse) ja teine sissetulevatele sündmustele (MH-st WMS-i). WMS-süsteem loob väljaminevad sündmused tööridade põhjal, mis luuakse erinevates töö loomise ja käivitamise protsessides. Seejärel pollib MH-süsteem regulaarselt WMS-süsteemi uute sündmuste osas ja töötleb vastuseid. Kui MH-süsteem on tööjuhiste kohaselt sündmuste käitlemise lõpetanud, saadab see sissetulevad sündmused, nt töörea lõpetamine ja kiirelt komplekteerimine.
 

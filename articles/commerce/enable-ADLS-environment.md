@@ -2,11 +2,9 @@
 title: Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas
 description: Selles teemas selgitatakse, kuidas lubada Azure Data Lake Storage Dynamics 365 Commerce'i keskkonnas, mis on tootesoovituste lubamise eeltingimus.
 author: bebeale
-manager: AnnBe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5887ae7983fd817a929a185327671b301808b354
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478232"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792603"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas
 

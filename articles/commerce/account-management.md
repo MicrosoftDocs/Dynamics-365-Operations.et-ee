@@ -2,11 +2,9 @@
 title: Kontohalduse lehed ja moodulid
 description: See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206627"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796290"
 ---
 # <a name="account-management-pages-and-modules"></a>Kontohalduse lehed ja moodulid
 
@@ -51,9 +49,9 @@ Tellimuste ajaloo leht kasutab tellimuste ajaloo moodulit, et näidata kõiki ka
 
 Tellimuste üksikasjade leht pakub iga tellimuse üksikasjalikku teavet ja sellele pääseb ligi tellimuste ajaloo lehelt. See kasutab tellimuse üksikasjade moodulit, mis nõuab tellimuse üksikasjade toomiseks müügi ID-d või kande ID-d.
 
-### <a name="user-profile-page"></a>Kasutajaprofiili leht
+### <a name="my-profile-page"></a>Leht Minu reeglid
 
-Kasutajaprofiili leht näitab kasutajakonto üksikasju, nagu kasutajanimi ja meiliaadress. See kasutab kasutajaprofiili üksikasju ja kasutajaprofiili redigeerimise mooduleid. Kuigi meiliaadressi ei saa eemaldada, saab seda redigeerida. Kasutajaprofiili lehel kuvatakse ka kasutaja eelistused, mis võimaldavad kasutajal valida või loobuda teatud funktsioonidest, nt soovituste loendite isikupärastamine. 
+Lehekülg Minu profiil näitab profiili mooduli abil kasutaja profiili üksikasju. Lehel kuvatakse kasutaja kontoga seotud meiliaadress ja määratud konto eelistused. Kohandatud kliendi atribuutide seadistamisel kuvatakse need lisaks jaotises Lisateave. Kasutajad saavad redigeerida oma nime, eelistusi või lisateavet (kui see on saadaval).
 
 ### <a name="user-address-page"></a>Kasutaja aadressi leht
 

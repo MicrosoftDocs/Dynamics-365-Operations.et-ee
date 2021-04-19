@@ -2,11 +2,9 @@
 title: Soovituste lisamine kandeekraanile
 description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 Commercei ekraanipaigutuse kujundajat.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6085a69132a4687455282a908d613aa98d2e7a8d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209247"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797475"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Soovituste lisamine kandeekraanile
 
