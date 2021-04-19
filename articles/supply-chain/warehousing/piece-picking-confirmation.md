@@ -1,12 +1,10 @@
 ---
 title: Osa komplekteerimise kinnitus
-description: Selles teemas kirjeldatakse, kuidas seadistada ja rakendada osa komplekteerimise kinnitust mobiilselt seadmelt.
+description: Osade komplekteerimine võimaldab kinnitada iga varude osa mobiilsel seadmel komplekteerimis- või inventuuritöö kaudu.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 852bd29ae18b4903906aa7fb97a06389cd7cd3bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3f9da533998341de60d210e196baae64d285d372
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232859"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818844"
 ---
 # <a name="piece-picking-confirmation"></a>Osa komplekteerimise kinnitus
 
@@ -29,7 +27,7 @@ ms.locfileid: "5232859"
 
 Osade komplekteerimine võimaldab kinnitada iga varude osa mobiilsel seadmel komplekteerimis- või inventuuritöö kaudu. Komplekteerimiste puhul saate kinnitada töödeldava töö koguse kuni komplekteeritaval tööl määratud koguseni. Inventuuritöö puhul võite skannida loendatavad varud ja jälgida kogusummat.
 
-Kui lubate osade komplekteerimise, valitakse automaatselt toote kinnitamine. Töö tüübi komplekteerimiste puhul on lubatud maksimaalne arv osi. See võimaldab määrata maksimaalse ühikute arvu, mis tuleb tööprotsessi käigus kinnitada. Maksimaalne kogus põhineb praegu töödeldaval töö ühikul. Inventuuri töötüüp ei luba maksimumi.
+Kui lubate osade komplekteerimise, valitakse automaatselt toote kinnitamine. Töö tüübi komplekteerimiste puhul saate määrata lubatud maksimaalne arv osi. See võimaldab määrata maksimaalse ühikute arvu, mis tuleb tööprotsessi käigus kinnitada. Maksimaalne kogus põhineb praegu töödeldaval töö ühikul. Inventuuri töötüüp ei luba maksimumi.
 
 Võite kasutada ka skannitud vöötkoodiga seostatud kogust ja mõõtühikut. See toimib sissetulevate voogude vastuvõtmisel, sh kombineeritud litsentsiplaadiga vastuvõtmine, ostutellimuse kaup, üleviimistellimuse kaup ja koormakaup. See toimib ka osa komplekteerimisel, kui vöötkoodi skannimine lisab koguse kinnitatud ühikute koguarvule, teisendades vöötkoodil olevat mõõtühikut ja tööühikut. Kui vöötkoodil oleva mõõtühiku loendamisel saab kinnitust, et kogus on lubatud seeriagrupis loendamiseks, lisatakse kogus koguarvule.
 

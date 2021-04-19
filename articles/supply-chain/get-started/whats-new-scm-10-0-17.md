@@ -1,12 +1,10 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.17 (aprill 2021) eelversioon
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.17 (aprill, 2021)?
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.17 uusi või muutunud funktsioone.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571808"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813167"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 (aprill 2021) eelversioon
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.17 (aprill, 2021)?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.17 uued või muutunud funktsioonid. Selle versiooni number on 10.0.761 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.17 uusi või muutunud funktsioone. Selle versiooni number on 10.0.761 ja see on saadaval järgmiselt:
 
 - **Väljaande eelversioon:** veebruar 2021
 - **Väljalaske üldine kättesaadavus (iseseisev värskendamine):** märts 2021
@@ -36,9 +33,9 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
+See väljalase hõlmab järgmisi funktsioone.  Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
-Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
+Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada. Mõni loetletud funktsioon võib olla endiselt eelvaates, kuigi enamik neist on nüüd üldiselt saadaval.
 
 ### <a name="asset-management"></a>Varahaldus
 
@@ -68,9 +65,13 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 
 - [Laohalduse mobiilirakendus](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Lisateavet vt [Laohalduse rakenduse installimine ja ühendamine](../warehousing/install-configure-warehouse-management-app.md) ja [Mobiilseadme kasutajasätted](../warehousing/mobile-device-user-settings.md).
 
+- Voo täitmise teatised<br> - Lisateavet voo töötlemise kohta leiate jaotisest [Voo käitamise teatised](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>Tootmine
 
-- [Tootmisosakonna käivitusliidese varahalduse võimalused](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - lisateavet leiate teemast [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md)
+- [Tootmisosakonna käivitusliidese varahalduse võimalused](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Lisateavet vt [Tootmisosakonna käivitusliidese konfigureerimine](../production-control/production-floor-execution-configure.md).
+
+- Töö ID-de ühtsed numbrijärjestused<br> - Lisateavet vt 
 
 - [Tootmismaterjalide reserveerimise vaikepõhimõtte alistamine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Lisateavet vt [Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine](../production-control/override-default-reservation-principle.md).
 

@@ -2,11 +2,9 @@
 title: Tootmisosakonna käivitusliidese konfigureerimine
 description: Selles teemas kirjeldatakse, kuidas luua ühte või mitut konfiguratsiooni tootmisosakonna käivitusliidesele. Tootmisosakonna käivitusliidese avamisel laadib see automaatselt valitud konfiguratsiooni ja tööfiltri, mis vastavad brauserile ja seadmele. Konfiguratsioonis seadistate poliitikad, mis peavad vastama konkreetsele kasutusele.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556310"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814726"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Töökoja tegevtöötajad kasutavad tootmisosakonna käivitusliidest, et registreerida oma igapäevatööd, näiteks töö alustamise aega, töö tagasiside aruandeid, kaudsete tegevuste registreerimisi ja puudumiste aruandeid. Need registreeringud on jälgimisprotsessi ja tootmistellimuste kulude ning töötajate palga arvutamise aluseks.
 
@@ -67,6 +64,8 @@ See funktsioon lisab nupu ootmisosakonna käivitusliidesele, mis võimaldab tö�
 - Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Tootmisosakonna täideviimisliidese varahoolduse funktsioon
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 See funktsioon lisab tootmisosakonna täideviimisliidesele varahalduse vahekaardi. Töötajad saavad kasutada seda vahekaarti, et valida vara, mis on ühendatud tööloendi valitud filtriga masinaressursiga. Valitud masina vara puhul saab töötaja vaadata vara olekut ja seisundit loenduri väärtustest kuni nelja valitud loenduri puhul. Kui soovite seda funktsiooni kasutada, lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.
 

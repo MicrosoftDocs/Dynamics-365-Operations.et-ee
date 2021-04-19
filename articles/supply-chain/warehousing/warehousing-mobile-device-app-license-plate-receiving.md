@@ -1,12 +1,10 @@
 ---
-title: Identifitseerimisnumbri vastuvõtmine laorakenduse kaudu
-description: Selles teemas selgitatakse, kuidas häälestada laorakendust, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+title: Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
+description: Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust Warehouse Management, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245150"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823187"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Identifitseerimisnumbri vastuvõtmine laorakenduse kaudu
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas häälestada laorakendust, et see toetaks identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust Warehouse Management, et see toetaks identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
 
 Selle funktsiooni abil saate kiiresti kirjendada sissetulevate varude vastuvõtmist, mis on seotud saadetise eelteatisega (ASN). Süsteem loob automaatselt ASN-i, kui üleviimistellimuse saatmiseks kasutatakse laohaldusprotsesse. Ostutellimuse protsessi puhul saab ASN-i käsitsi kirjendada või automaatselt importida sissetuleva ASN-i andmeüksuse protsessi abil.
 
@@ -72,7 +70,7 @@ Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioo
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Kuva või jäta vastuvõtmise kokkuvõte leht
 
-Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku lao rakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
+Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku lao mobiilirakenduse Warehouse Management voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
 
 Kui see funktsioon on sisse lülitatud, annavad identifitseerimisnumbri vastuvõtmise või identifitseerimisnumbri vastuvõtmise ja ladustamise menüü üksused mobiilses seadmes sätte **Kuva vastuvõttev kokkuvõtte leht**. Sellel sättel on järgmised suvandid.
 

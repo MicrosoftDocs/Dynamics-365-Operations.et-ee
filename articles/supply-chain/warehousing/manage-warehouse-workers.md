@@ -1,12 +1,10 @@
 ---
 title: Laotöötajate haldamine
-description: Selles artiklis kirjeldatakse, kuidas saate kasutada laorakendust nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
+description: Selles artiklis kirjeldatakse, kuidas saate kasutada mobiilirakendust Warehouse Management nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216831"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818964"
 ---
 # <a name="manage-warehouse-workers"></a>Laotöötajate haldamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas saate kasutada laorakendust nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
+Selles artiklis kirjeldatakse, kuidas saate kasutada mobiilirakendust Warehouse Management nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 
 Kui kasutate funktsiooni jaotises Laohaldus, viidatakse kõikidele laotöötaja toimingutele sõnaga *töö*. Töö, nagu komplekteerimine, teisaldamine ja vabade laovarude inventuur, salvestatakse mobiilse seadmega. Enne kui laotöötaja saab tööd teha, peab ta olema jaotises Inimressursid töötajaga seostatud. Iga kontoga **Töötaja** võib olla seostatud mitu laotöö kasutajat. Need töökasutajad võivad töötada erinevates ladudes ja neil võib olla erinevatele mobiilse seadme menüüdele erinev juurdepääsutase. Laotöö kasutajatest võib mõelda kui valitud töötaja mitmest logimisnimest. Igal töö kasutajal on vaikeladu ja selle töö kasutajale saadaolevate menüü-üksused kasutavad konkreetseid töövooge. 
 

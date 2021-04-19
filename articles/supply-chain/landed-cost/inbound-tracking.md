@@ -2,7 +2,6 @@
 title: Sissetulevate reiside ja saatmiskonteinerite teekondade jälgimine
 description: See teema selgitab, kuidas saate kasutada lehte Sissetulevate jälgimine, et jälgida oma reiside edenemist ja saatmiskonteinerite teekondi.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 678f2b6cda0592e0393bb15f372cb4be84778932
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 40f8e48b8e52c109023cf0ea5a55657754e1d5b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501242"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823381"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>Sissetulevate reiside ja saatmiskonteinerite teekondade jälgimine
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Leht **Sissetulevate jälgimine** võimaldab teil jälgida oma reiside edenemist ja saatmiskonteinerite teekondi. Iga reis ja teekond on jaotatud *tegevusteks*, millest igaühel on lehel oma rida. Saate kasutada lehte, et vaadata ja sisestada hinnangulisi kuupäevi ja tegelikke kuupäevi tegevuse kaupa.
 

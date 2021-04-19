@@ -2,7 +2,6 @@
 title: Transiidis olevate kaupade töötlemine
 description: Selles teemas kirjeldatakse, kuidas töötada transiidis olevate kaupade tellimustega. Kui tellimus või teekond on häälestatud kasutama transiidis olevate kaupade töötlemist, saab kaupu arveldada juba enne seda, kui need on tarbimiseks laos vastu võetud.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500400"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823405"
 ---
 # <a name="goods-in-transit-processing"></a>Transiidis olevate kaupade töötlemine
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse, kuidas töötada transiidis olevate kaupade tellimustega. Seda tüüpi tellimust kasutatab ainult moodul **Väljalaadimiskulu**. Kui tellimus või teekond on häälestatud kasutama transiidis olevate kaupade töötlemist, ei pea te kaupade arveldamiseks ootama, kuni need on laos vastu võetud. Kaubad arveldatakse selle asemel kohe, kui nad hankija laost või lähtesadamast lahkuvad, finantskulud tuvastatakse teekonna alguses. See funktsioon võimaldab teil varude kuuluvuse õigesti endale võtta, kuna kaubad muutuvad sageli teie organisatsiooni omandiks juba lähtesadamast väljumisel.
 
@@ -135,7 +133,7 @@ Väljalaadimiskulu moodul lisab transiidis olevate kaupade töötlemise toetamis
 
 Nende protsesside konfigureerimissätted sarnanevad [ostutellimuse vastuvõtu ja ladustamise töö loomise protsesside](https://technet.microsoft.com/library/dn553216.aspx) sätetega. Protsess *Transiidis olevad kaubad: kauba vastuvõtt ja ladustamine* lisab ka järgmise välja.
 
-- **Luba saatmiskonteineri lõpetamine** – kui selle sätte väärtuseks on määratud *Jah*, kuvab laorakendus ladustamistöö lõpuleviimisel lisasuvandi nimega **Saatmiskonteiner on valmis**. Selle suvandi valimise korral palutakse töötajal kinnitada, et konteiner on lõpule viidud. Sel hetkel töödeldakse kõik puudulikud vastuvõtmised alakandena.
+- **Luba saatmiskonteineri lõpetamine** – kui selle sätte väärtuseks on määratud *Jah*, kuvab lao mobiilirakendus Warehouse Management ladustamistöö lõpuleviimisel lisasuvandi nimega **Saatmiskonteiner on valmis**. Selle suvandi valimise korral palutakse töötajal kinnitada, et konteiner on lõpule viidud. Sel hetkel töödeldakse kõik puudulikud vastuvõtmised alakandena.
 
 ### <a name="location-directives"></a>Asukohakorraldus
 

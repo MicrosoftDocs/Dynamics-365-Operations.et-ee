@@ -2,11 +2,9 @@
 title: Lattu väljastamise reegel
 description: Selles teemas antakse teavet funktsiooni Lattu väljastamise reegel kohta, mis annab lattu väljastamisel paindlikkuse. See lisab konfiguratsioonisuvandi, mis juhib seda, kas süsteem lubab osaliselt reserveeritud tellimuseridade väljastamist.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b23ef104b918f44eed6508319d9b58f2b8355ff1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77714d6bda27d8d29b10177dd87e61839295e47e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228413"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823259"
 ---
 # <a name="release-to-warehouse-rule"></a>Lattu väljastamise reegel
 

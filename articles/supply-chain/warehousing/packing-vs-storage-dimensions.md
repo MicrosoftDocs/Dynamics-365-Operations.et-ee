@@ -2,11 +2,9 @@
 title: Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine
 description: See teema näitab, kuidas määrata, millise protsessi (pakkimine, ladustamine või pesastatud pakkimine) jaoks iga määratud dimensiooni kasutatakse.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501290"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818916"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Pakkimiseks ja ladustamiseks erinevate dimensioonide määramine
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Mõned kaubad on pakitud või ladustatud nii, et teil võib tekkida vajadus jälgida füüsilisi dimensioone iga erineva protsessi puhul teisiti. Funktsiooni *Pakendatava toote dimensioonid* abil saate igale tootele seadistada ühe või mitut tüüpi mõõtmeid. Iga dimensiooni tüüp tagab füüsiliste mõõtmiste kogumi (kaal, laius, sügavus ja kõrgus) ning määrab nende füüsiliste mõõtmise väärtuste rakendumise protsessi. Kui see funktsioon on lubatud, toetab süsteem järgmisi dimensiooni tüüpe.
 

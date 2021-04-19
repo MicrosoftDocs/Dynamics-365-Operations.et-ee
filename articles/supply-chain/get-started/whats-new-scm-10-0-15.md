@@ -2,11 +2,9 @@
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.15. (jaanuar 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.15 uusi või muutunud funktsioone.
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258895"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821149"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.15. (jaanuar 2021)
 
@@ -35,7 +33,7 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versio
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
+See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
 - Pilv- ja perimeeterskaalaüksuse haldus koos tootmis- ja laotööde käitamise töökoormustega<br> - Rohkem informatsiooni vt [Pilv- ja perimeeterskaalaüksused tootmise ja laohalduse töökoormuste jaoks](../cloud-edge/cloud-edge-landing-page.md).
 

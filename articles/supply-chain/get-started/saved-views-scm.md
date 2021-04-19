@@ -2,11 +2,9 @@
 title: Supply Chain Managementi standardsed salvestatud vaated
 description: See teema kirjeldab saadaolevaid standardseid salvestatud vaateid ja selgitab, kuidas need lubada.
 author: kamaybac
-manager: annbe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500690"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821245"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Managementi standardsed salvestatud vaated
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management sisaldab mitut salvestatud vaadet, mida saate lubada ja kasutada vastavalt vajadusele. Mõned neist standardsetes salvestatud vaadetes on optimeeritud ja nimetatud konkreetse rolli või ülesande jaoks (näiteks „Kvaliteedikontroll” või „Vastuvõtmine”). Teisi optimeeritakse nii, et need sisaldaks ainult välju ja sätteid, mida kliendid Microsofti kasutusstatistika põhjal kasutavad kõige sagedamini. Neid salvestatud vaateid nimetatakse tavaliselt *lihtsustatud* vaadeteks. See teema kirjeldab saadaolevaid standardseid salvestatud vaateid ja selgitab, kuidas need lubada ja neid kohandada.
 
@@ -82,14 +79,16 @@ Järgmises tabelis kirjeldatakse hankemoodulis saadaolevaid salvestatud vaateid.
 
 ## <a name="saved-views-for-the-production-control-module"></a>Tootmise juhtmooduli salvestatud vaated
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Järgmises tabelis kirjeldatakse tootmise juhtmoodulis saadaolevaid salvestatud vaateid.
 
 | Lehekülg | Vaate nimi | Kuva kirjeldus | Funktsiooni nimi |
 |---|---|---|---|
-| Tootmistellimuse BOM-leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
-| Tootmistellimuse üksikasjade leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
-| Tootmistellimuse komplekteerimisloendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
-| Tootmistellimuste loendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
+| Tootmistellimuse BOM-leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
+| Tootmistellimuse üksikasjade leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
+| Tootmistellimuse komplekteerimisloendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
+| Tootmistellimuste loendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Müügi- ja turundusmooduli salvestatud vaated
 

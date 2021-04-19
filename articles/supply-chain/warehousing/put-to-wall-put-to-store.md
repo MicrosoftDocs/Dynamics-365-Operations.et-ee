@@ -2,11 +2,9 @@
 title: Pane seinale – pane kauplusesse
 description: Selles teemas antakse teavet funktsiooni Pane seinale – pane kauplusesse kohta. See funktsioon võimaldab teil käsitseda stsenaariume, kus peate konsolideerima toote eelpakkimise vaheasukohta konfigureeritavate kriteeriumide põhjal. See aitab vähendada komplekteerimise aega, sest see võimaldab komplekteerimist ühele sihtidentifitseerimisnumbrile ja panna rohkematesse asukohtadesse kui kogumi komplekteerimise puhul.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228509"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823283"
 ---
 # <a name="put-to-wall---put-to-store"></a>Pane seinale – pane kauplusesse
 
@@ -524,7 +522,7 @@ Kui kõik varud on pandud sortimise asukohta, tuleb need sortida õigesse sortim
 
 Kui sortimise asukohti on vaja käsitsi sulgeda, peab väljamineku sortimismalli suvandi **Sortimise asukoha automaatne sulgemine** väärtuseks olema *Ei* ja sulgemine tuleb teha enne, kui varusid saab teisaldada laadimisukse piirkonda. Asukohti saab sulgeda mitmel viisil.
 
-- Laorakenduse kaudu.
+- Laohalduse mobiilirakenduse kaudu.
 
     - Kasutaja saab skannida ühte kaupa, mis on juba asukohas ja seejärel valida asukoha sulgemiseks **Sule**.
     - Kui kasutaja skannib konteinerit, mis on juba sorditud konteiner, kuvatakse tõrketeade. Kuid kasutaja saab siiski jätkata asukoha sulgemisega.
