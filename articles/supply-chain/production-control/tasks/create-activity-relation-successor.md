@@ -2,11 +2,9 @@
 title: Tegevuste seose loomine – Järgnev tegevus
 description: Lean manufacturingi tootmisvoo tegevuste voog talletatakse tegevusseoste kaudu.
 author: cvocph
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
@@ -16,54 +14,54 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f10ecb8e579975327440ede6ea383226645c8cf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e46dda12d4ad2b23ee86d240e6cdd8a1d46f1838
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255297"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829230"
 ---
-# <a name="create-activity-relation---successor"></a><span data-ttu-id="4bfc3-103">Tegevuste seose loomine – Järgnev tegevus</span><span class="sxs-lookup"><span data-stu-id="4bfc3-103">Create activity relation - Successor</span></span>
+# <a name="create-activity-relation---successor"></a><span data-ttu-id="14d88-103">Tegevuste seose loomine – Järgnev tegevus</span><span class="sxs-lookup"><span data-stu-id="14d88-103">Create activity relation - Successor</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4bfc3-104">Lean manufacturingi tootmisvoo tegevuste voog talletatakse tegevusseoste kaudu.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-104">The flow of activities in a lean production flow is documented through activity relations.</span></span> <span data-ttu-id="4bfc3-105">See salvestus näitab, kuidas luua tegevusseoste kogumit.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-105">This recording shows how to create an activity relation.</span></span>
+<span data-ttu-id="14d88-104">Lean manufacturingi tootmisvoo tegevuste voog talletatakse tegevusseoste kaudu.</span><span class="sxs-lookup"><span data-stu-id="14d88-104">The flow of activities in a lean production flow is documented through activity relations.</span></span> <span data-ttu-id="14d88-105">See salvestus näitab, kuidas luua tegevusseoste kogumit.</span><span class="sxs-lookup"><span data-stu-id="14d88-105">This recording shows how to create an activity relation.</span></span>
 
-<span data-ttu-id="4bfc3-106">Eeltingimused:</span><span class="sxs-lookup"><span data-stu-id="4bfc3-106">Prerequisites:</span></span>
+<span data-ttu-id="14d88-106">Eeltingimused:</span><span class="sxs-lookup"><span data-stu-id="14d88-106">Prerequisites:</span></span>
 
-- <span data-ttu-id="4bfc3-107">Tootmisvoog ja mustand mustandirežiimis.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-107">A production flow and version in draft mode.</span></span> 
+- <span data-ttu-id="14d88-107">Tootmisvoog ja mustand mustandirežiimis.</span><span class="sxs-lookup"><span data-stu-id="14d88-107">A production flow and version in draft mode.</span></span> 
 
-- <span data-ttu-id="4bfc3-108">Kaks tootmisvoos üksteisele järgnevat tegevust on loodud, kuid pole seotud.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-108">Two activities that follow each other in the production flow are created but not related.</span></span>
+- <span data-ttu-id="14d88-108">Kaks tootmisvoos üksteisele järgnevat tegevust on loodud, kuid pole seotud.</span><span class="sxs-lookup"><span data-stu-id="14d88-108">Two activities that follow each other in the production flow are created but not related.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a><span data-ttu-id="4bfc3-109">Tootmisvoo versiooni leidmine</span><span class="sxs-lookup"><span data-stu-id="4bfc3-109">Find the production flow version</span></span> 
-1. <span data-ttu-id="4bfc3-110">Minge jaotisse Tootmise juhtimine > Seadistus > Kulusäästlik tootmisvoog > Tootmisvood.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="4bfc3-111">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-111">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="4bfc3-112">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-112">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="4bfc3-113">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-113">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="4bfc3-114">Valige loendist mustandversioon.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-114">In the list, select a draft version.</span></span>
-    * <span data-ttu-id="4bfc3-115">Tegevuse seosed saab lisada nii tootmisvoo mustand- kui ka aktiivsetele versioonidele.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-115">Activity relations can be added to both draft or active versions of a production flow.</span></span>  
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="14d88-109">Tootmisvoo versiooni leidmine</span><span class="sxs-lookup"><span data-stu-id="14d88-109">Find the production flow version</span></span> 
+1. <span data-ttu-id="14d88-110">Minge jaotisse Tootmise juhtimine > Seadistus > Kulusäästlik tootmisvoog > Tootmisvood.</span><span class="sxs-lookup"><span data-stu-id="14d88-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="14d88-111">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="14d88-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="14d88-112">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="14d88-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="14d88-113">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="14d88-113">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="14d88-114">Valige loendist mustandversioon.</span><span class="sxs-lookup"><span data-stu-id="14d88-114">In the list, select a draft version.</span></span>
+    * <span data-ttu-id="14d88-115">Tegevuse seosed saab lisada nii tootmisvoo mustand- kui ka aktiivsetele versioonidele.</span><span class="sxs-lookup"><span data-stu-id="14d88-115">Activity relations can be added to both draft or active versions of a production flow.</span></span>  
 
-## <a name="open-the-activity-overview"></a><span data-ttu-id="4bfc3-116">Tegevuse ülevaate avamine</span><span class="sxs-lookup"><span data-stu-id="4bfc3-116">Open the activity overview</span></span>
-1. <span data-ttu-id="4bfc3-117">Klõpsake suvandit Tegevused.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-117">Click Activities.</span></span>
-    * <span data-ttu-id="4bfc3-118">Pange tähele, et vormil kuvatakse kõik tootmisvoo tegevused, mis on eraldatud nende tootmisvoogude versioonile, millega töötate.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-118">Note that the form shows all activities of the production flow that are allocated to the Version of the production flows that you are working in.</span></span>  
+## <a name="open-the-activity-overview"></a><span data-ttu-id="14d88-116">Tegevuse ülevaate avamine</span><span class="sxs-lookup"><span data-stu-id="14d88-116">Open the activity overview</span></span>
+1. <span data-ttu-id="14d88-117">Klõpsake suvandit Tegevused.</span><span class="sxs-lookup"><span data-stu-id="14d88-117">Click Activities.</span></span>
+    * <span data-ttu-id="14d88-118">Pange tähele, et vormil kuvatakse kõik tootmisvoo tegevused, mis on eraldatud nende tootmisvoogude versioonile, millega töötate.</span><span class="sxs-lookup"><span data-stu-id="14d88-118">Note that the form shows all activities of the production flow that are allocated to the Version of the production flows that you are working in.</span></span>  
 
-## <a name="add-a-successor"></a><span data-ttu-id="4bfc3-119">Järeltulija lisamine</span><span class="sxs-lookup"><span data-stu-id="4bfc3-119">Add a Successor</span></span>
-1. <span data-ttu-id="4bfc3-120">Klõpsake suvandit Järeltulija lisamine.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-120">Click Add successor.</span></span>
-2. <span data-ttu-id="4bfc3-121">Klõpsake väljal Tegevus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-121">In the Activity field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="4bfc3-122">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-122">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="4bfc3-123">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-123">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="4bfc3-124">Märkige ruut Piirang.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-124">Select the Constraint check box.</span></span>
-6. <span data-ttu-id="4bfc3-125">Sisestage number väljale Piirangu väärtus.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-125">In the Constraint value field, enter a number.</span></span>
-    * <span data-ttu-id="4bfc3-126">Piirangu aeg on aeg, mis plaanitakse eelkäija plaanitud lõpu (tähtaja kuupäev ja kellaaeg) ning järeltulija planeeritud alguse vahele.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-126">The constraint time is the time to be scheduled between the scheduled end of the predecessor (due date and time) and the scheduled start of the successor.</span></span>  
-7. <span data-ttu-id="4bfc3-127">Sisestage väärtus väljale Ühikud.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-127">In the Units field, type a value.</span></span>
-8. <span data-ttu-id="4bfc3-128">Sisestage number väljale Tsükliaja määr.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-128">In the Cycle time ratio field, enter a number.</span></span>
-    * <span data-ttu-id="4bfc3-129">Kui mõlemad tegevused toimivad samas taktis, siis peab tsükli aja suhte väärtus olema 1.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-129">If both activities run at the same takt, the cycle time ratio should be 1.</span></span> <span data-ttu-id="4bfc3-130">Kui eelnev tegevus toimib järgnevast kaks korda kiiremini, siis peab suhte väärtus olema 2.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-130">If the predecessor runs at the double speed of the successor, the ratio should be 2.</span></span>   <span data-ttu-id="4bfc3-131">Tsükli aja suhteid kasutatakse tootmisvoo tegevuste individuaalsete tsükli aegade arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-131">The cycle time ratios are used to calculate the individual cycle times of the production flow activities.</span></span>  
-9. <span data-ttu-id="4bfc3-132">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-132">Click OK.</span></span>
-10. <span data-ttu-id="4bfc3-133">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-133">Close the page.</span></span>
-11. <span data-ttu-id="4bfc3-134">Klõpsake vahekaarti GridPanel.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-134">Click the GridPanel tab.</span></span>
-12. <span data-ttu-id="4bfc3-135">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-135">Close the page.</span></span>
-13. <span data-ttu-id="4bfc3-136">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="4bfc3-136">Refresh the page.</span></span>
+## <a name="add-a-successor"></a><span data-ttu-id="14d88-119">Järeltulija lisamine</span><span class="sxs-lookup"><span data-stu-id="14d88-119">Add a Successor</span></span>
+1. <span data-ttu-id="14d88-120">Klõpsake suvandit Järeltulija lisamine.</span><span class="sxs-lookup"><span data-stu-id="14d88-120">Click Add successor.</span></span>
+2. <span data-ttu-id="14d88-121">Klõpsake väljal Tegevus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="14d88-121">In the Activity field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="14d88-122">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="14d88-122">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="14d88-123">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="14d88-123">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="14d88-124">Märkige ruut Piirang.</span><span class="sxs-lookup"><span data-stu-id="14d88-124">Select the Constraint check box.</span></span>
+6. <span data-ttu-id="14d88-125">Sisestage number väljale Piirangu väärtus.</span><span class="sxs-lookup"><span data-stu-id="14d88-125">In the Constraint value field, enter a number.</span></span>
+    * <span data-ttu-id="14d88-126">Piirangu aeg on aeg, mis plaanitakse eelkäija plaanitud lõpu (tähtaja kuupäev ja kellaaeg) ning järeltulija planeeritud alguse vahele.</span><span class="sxs-lookup"><span data-stu-id="14d88-126">The constraint time is the time to be scheduled between the scheduled end of the predecessor (due date and time) and the scheduled start of the successor.</span></span>  
+7. <span data-ttu-id="14d88-127">Sisestage väärtus väljale Ühikud.</span><span class="sxs-lookup"><span data-stu-id="14d88-127">In the Units field, type a value.</span></span>
+8. <span data-ttu-id="14d88-128">Sisestage number väljale Tsükliaja määr.</span><span class="sxs-lookup"><span data-stu-id="14d88-128">In the Cycle time ratio field, enter a number.</span></span>
+    * <span data-ttu-id="14d88-129">Kui mõlemad tegevused toimivad samas taktis, siis peab tsükli aja suhte väärtus olema 1.</span><span class="sxs-lookup"><span data-stu-id="14d88-129">If both activities run at the same takt, the cycle time ratio should be 1.</span></span> <span data-ttu-id="14d88-130">Kui eelnev tegevus toimib järgnevast kaks korda kiiremini, siis peab suhte väärtus olema 2.</span><span class="sxs-lookup"><span data-stu-id="14d88-130">If the predecessor runs at the double speed of the successor, the ratio should be 2.</span></span>   <span data-ttu-id="14d88-131">Tsükli aja suhteid kasutatakse tootmisvoo tegevuste individuaalsete tsükli aegade arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="14d88-131">The cycle time ratios are used to calculate the individual cycle times of the production flow activities.</span></span>  
+9. <span data-ttu-id="14d88-132">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="14d88-132">Click OK.</span></span>
+10. <span data-ttu-id="14d88-133">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="14d88-133">Close the page.</span></span>
+11. <span data-ttu-id="14d88-134">Klõpsake vahekaarti GridPanel.</span><span class="sxs-lookup"><span data-stu-id="14d88-134">Click the GridPanel tab.</span></span>
+12. <span data-ttu-id="14d88-135">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="14d88-135">Close the page.</span></span>
+13. <span data-ttu-id="14d88-136">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="14d88-136">Refresh the page.</span></span>
 
 
 

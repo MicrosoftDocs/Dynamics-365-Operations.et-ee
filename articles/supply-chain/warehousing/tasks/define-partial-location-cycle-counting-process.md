@@ -2,11 +2,9 @@
 title: 'Osalise asukoha tsüklilise inventuuriprotsessi määratlemine '
 description: Kui kasutate inventuuri jaoks tsüklilise inventuuri plaane, saate juhtida tegelikke inventuuritöid, kui taotlete, et asukohas loendataks kogu vaba kaubavaru asemel ainult konkreetseid tooteid ja tootevariante.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
@@ -15,62 +13,62 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfea71459b80712c924912d909a0fdfa5fad09ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fcda301934c6ccc06f17ed8ae13c52754336d2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238938"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830902"
 ---
-# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="eca26-103">Osalise asukoha tsüklilise inventuuriprotsessi määratlemine </span><span class="sxs-lookup"><span data-stu-id="eca26-103">Define partial location cycle counting process</span></span> 
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="2898b-103">Osalise asukoha tsüklilise inventuuriprotsessi määratlemine </span><span class="sxs-lookup"><span data-stu-id="2898b-103">Define partial location cycle counting process</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="eca26-104">Kui kasutate inventuuri jaoks tsüklilise inventuuri plaane, saate juhtida tegelikke inventuuritöid, kui taotlete, et asukohas loendataks kogu vaba kaubavaru asemel ainult konkreetseid tooteid ja tootevariante.</span><span class="sxs-lookup"><span data-stu-id="eca26-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="eca26-105">Konkreetseid tooteid filtreerides saab laojuht vähendada ülevaatamise üldkulusid, vältida konsolideerimisvigu ja säästa aega.</span><span class="sxs-lookup"><span data-stu-id="eca26-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="eca26-106">Tavaliselt teostab seadistusülesanded laojuhataja.</span><span class="sxs-lookup"><span data-stu-id="eca26-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="eca26-107">Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="eca26-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
+<span data-ttu-id="2898b-104">Kui kasutate inventuuri jaoks tsüklilise inventuuri plaane, saate juhtida tegelikke inventuuritöid, kui taotlete, et asukohas loendataks kogu vaba kaubavaru asemel ainult konkreetseid tooteid ja tootevariante.</span><span class="sxs-lookup"><span data-stu-id="2898b-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="2898b-105">Konkreetseid tooteid filtreerides saab laojuht vähendada ülevaatamise üldkulusid, vältida konsolideerimisvigu ja säästa aega.</span><span class="sxs-lookup"><span data-stu-id="2898b-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="2898b-106">Tavaliselt teostab seadistusülesanded laojuhataja.</span><span class="sxs-lookup"><span data-stu-id="2898b-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="2898b-107">Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.</span><span class="sxs-lookup"><span data-stu-id="2898b-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="eca26-108">Tsüklilise inventuuri malli loomine</span><span class="sxs-lookup"><span data-stu-id="eca26-108">Create a cycle counting work template</span></span>
-1. <span data-ttu-id="eca26-109">Avage Laohaldus > Seadistus > Töö > Töömallid.</span><span class="sxs-lookup"><span data-stu-id="eca26-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="eca26-110">Tehke väljal Töötellimuse tüüp valik „Tsükliline inventuur”.</span><span class="sxs-lookup"><span data-stu-id="eca26-110">In the Work order type field, select 'Cycle counting'.</span></span>
-3. <span data-ttu-id="eca26-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="eca26-111">Click New.</span></span>
-4. <span data-ttu-id="eca26-112">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="eca26-112">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="eca26-113">Sortimisjärjestus on kõige väiksemast numbrist suurima numbrini.</span><span class="sxs-lookup"><span data-stu-id="eca26-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="eca26-114">Väärtus peab olema suurem kui 0 (null).</span><span class="sxs-lookup"><span data-stu-id="eca26-114">The value must be more than 0 (zero).</span></span>  
-5. <span data-ttu-id="eca26-115">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="eca26-115">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="eca26-116">Sisestage väärtus väljale Töömall.</span><span class="sxs-lookup"><span data-stu-id="eca26-116">In the Work template field, type a value.</span></span>
-7. <span data-ttu-id="eca26-117">Tippige väärtus väljale Töömalli kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="eca26-117">In the Work template description field, type a value.</span></span>
-8. <span data-ttu-id="eca26-118">Sisestage või valige väärtus väljal Töökausta ID.</span><span class="sxs-lookup"><span data-stu-id="eca26-118">In the Work pool ID field, enter or select a value.</span></span>
-9. <span data-ttu-id="eca26-119">Sisestage arv väljale Töö prioriteet.</span><span class="sxs-lookup"><span data-stu-id="eca26-119">In the Work priority field, enter a number.</span></span>
-10. <span data-ttu-id="eca26-120">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="eca26-120">Click Save.</span></span>
-11. <span data-ttu-id="eca26-121">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="eca26-121">Click New.</span></span>
-12. <span data-ttu-id="eca26-122">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="eca26-122">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="eca26-123">Valige Töö tüübi väljal „Inventuur”.</span><span class="sxs-lookup"><span data-stu-id="eca26-123">In the Work type field, select 'Counting'.</span></span>
-14. <span data-ttu-id="eca26-124">Sisestage või valige väärtus väljal Tööklassi ID.</span><span class="sxs-lookup"><span data-stu-id="eca26-124">In the Work class ID field, enter or select a value.</span></span>
-15. <span data-ttu-id="eca26-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="eca26-125">Click Save.</span></span>
-16. <span data-ttu-id="eca26-126">Klõpsake valikut Töörea jaotused.</span><span class="sxs-lookup"><span data-stu-id="eca26-126">Click Work line breaks.</span></span>
-17. <span data-ttu-id="eca26-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="eca26-127">Click New.</span></span>
-18. <span data-ttu-id="eca26-128">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="eca26-128">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="eca26-129">Sortimisjärjestus on kõige väiksemast numbrist suurima numbrini.</span><span class="sxs-lookup"><span data-stu-id="eca26-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="eca26-130">Väärtus peab olema suurem kui 0 (null).</span><span class="sxs-lookup"><span data-stu-id="eca26-130">The value must be more than 0 (zero).</span></span>  
-19. <span data-ttu-id="eca26-131">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="eca26-131">Click Save.</span></span>
-20. <span data-ttu-id="eca26-132">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="eca26-132">Close the page.</span></span>
-21. <span data-ttu-id="eca26-133">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="eca26-133">Close the page.</span></span>
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="2898b-108">Tsüklilise inventuuri malli loomine</span><span class="sxs-lookup"><span data-stu-id="2898b-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="2898b-109">Avage Laohaldus > Seadistus > Töö > Töömallid.</span><span class="sxs-lookup"><span data-stu-id="2898b-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="2898b-110">Tehke väljal Töötellimuse tüüp valik „Tsükliline inventuur”.</span><span class="sxs-lookup"><span data-stu-id="2898b-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="2898b-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2898b-111">Click New.</span></span>
+4. <span data-ttu-id="2898b-112">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="2898b-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="2898b-113">Sortimisjärjestus on kõige väiksemast numbrist suurima numbrini.</span><span class="sxs-lookup"><span data-stu-id="2898b-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="2898b-114">Väärtus peab olema suurem kui 0 (null).</span><span class="sxs-lookup"><span data-stu-id="2898b-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="2898b-115">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2898b-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="2898b-116">Sisestage väärtus väljale Töömall.</span><span class="sxs-lookup"><span data-stu-id="2898b-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="2898b-117">Tippige väärtus väljale Töömalli kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="2898b-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="2898b-118">Sisestage või valige väärtus väljal Töökausta ID.</span><span class="sxs-lookup"><span data-stu-id="2898b-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="2898b-119">Sisestage arv väljale Töö prioriteet.</span><span class="sxs-lookup"><span data-stu-id="2898b-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="2898b-120">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2898b-120">Click Save.</span></span>
+11. <span data-ttu-id="2898b-121">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2898b-121">Click New.</span></span>
+12. <span data-ttu-id="2898b-122">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2898b-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="2898b-123">Valige Töö tüübi väljal „Inventuur”.</span><span class="sxs-lookup"><span data-stu-id="2898b-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="2898b-124">Sisestage või valige väärtus väljal Tööklassi ID.</span><span class="sxs-lookup"><span data-stu-id="2898b-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="2898b-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2898b-125">Click Save.</span></span>
+16. <span data-ttu-id="2898b-126">Klõpsake valikut Töörea jaotused.</span><span class="sxs-lookup"><span data-stu-id="2898b-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="2898b-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2898b-127">Click New.</span></span>
+18. <span data-ttu-id="2898b-128">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="2898b-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="2898b-129">Sortimisjärjestus on kõige väiksemast numbrist suurima numbrini.</span><span class="sxs-lookup"><span data-stu-id="2898b-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="2898b-130">Väärtus peab olema suurem kui 0 (null).</span><span class="sxs-lookup"><span data-stu-id="2898b-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="2898b-131">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2898b-131">Click Save.</span></span>
+20. <span data-ttu-id="2898b-132">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2898b-132">Close the page.</span></span>
+21. <span data-ttu-id="2898b-133">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2898b-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="eca26-134">Tsükliline inventuuri plaani loomine</span><span class="sxs-lookup"><span data-stu-id="eca26-134">Create a cycle counting plan</span></span>
-1. <span data-ttu-id="eca26-135">Avage Laohaldus > Seadistus > Tsükliline inventuur > Tsüklilise inventuuri plaanid.</span><span class="sxs-lookup"><span data-stu-id="eca26-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
-2. <span data-ttu-id="eca26-136">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="eca26-136">Click New.</span></span>
-3. <span data-ttu-id="eca26-137">Sisestage väärtus väljale Tsüklilise inventuuri plaani ID.</span><span class="sxs-lookup"><span data-stu-id="eca26-137">In the Cycle counting plan ID field, type a value.</span></span>
-4. <span data-ttu-id="eca26-138">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="eca26-138">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="eca26-139">Sisestage number väljale Tsükliliste inventuuride maksimumarv.</span><span class="sxs-lookup"><span data-stu-id="eca26-139">In the Maximum number of cycle counts field, enter a number.</span></span>
-6. <span data-ttu-id="eca26-140">Sisestage või valige väärtus väljal Töömall.</span><span class="sxs-lookup"><span data-stu-id="eca26-140">In the Work template field, enter or select a value.</span></span>
-7. <span data-ttu-id="eca26-141">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="eca26-141">Click New.</span></span>
-8. <span data-ttu-id="eca26-142">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="eca26-142">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="eca26-143">Sortimisjärjestus on kõige väiksemast numbrist suurima numbrini.</span><span class="sxs-lookup"><span data-stu-id="eca26-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="eca26-144">Väärtus peab olema suurem kui 0 (null).</span><span class="sxs-lookup"><span data-stu-id="eca26-144">The value must be more than 0 (zero).</span></span>  
-9. <span data-ttu-id="eca26-145">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="eca26-145">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="eca26-146">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="eca26-146">Click Save.</span></span>
-11. <span data-ttu-id="eca26-147">Klõpsake valikut Määratle tootepäring.</span><span class="sxs-lookup"><span data-stu-id="eca26-147">Click Define product query.</span></span>
-12. <span data-ttu-id="eca26-148">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="eca26-148">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="eca26-149">Sisestage või valige väärtus väljal Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="eca26-149">In the Criteria field, enter or select a value.</span></span>
-14. <span data-ttu-id="eca26-150">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="eca26-150">Click OK.</span></span>
-15. <span data-ttu-id="eca26-151">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="eca26-151">Close the page.</span></span>
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="2898b-134">Tsükliline inventuuri plaani loomine</span><span class="sxs-lookup"><span data-stu-id="2898b-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="2898b-135">Avage Laohaldus > Seadistus > Tsükliline inventuur > Tsüklilise inventuuri plaanid.</span><span class="sxs-lookup"><span data-stu-id="2898b-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="2898b-136">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2898b-136">Click New.</span></span>
+3. <span data-ttu-id="2898b-137">Sisestage väärtus väljale Tsüklilise inventuuri plaani ID.</span><span class="sxs-lookup"><span data-stu-id="2898b-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="2898b-138">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="2898b-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="2898b-139">Sisestage number väljale Tsükliliste inventuuride maksimumarv.</span><span class="sxs-lookup"><span data-stu-id="2898b-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="2898b-140">Sisestage või valige väärtus väljal Töömall.</span><span class="sxs-lookup"><span data-stu-id="2898b-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="2898b-141">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2898b-141">Click New.</span></span>
+8. <span data-ttu-id="2898b-142">Sisestage number väljale Seerianumber.</span><span class="sxs-lookup"><span data-stu-id="2898b-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="2898b-143">Sortimisjärjestus on kõige väiksemast numbrist suurima numbrini.</span><span class="sxs-lookup"><span data-stu-id="2898b-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="2898b-144">Väärtus peab olema suurem kui 0 (null).</span><span class="sxs-lookup"><span data-stu-id="2898b-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="2898b-145">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="2898b-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="2898b-146">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2898b-146">Click Save.</span></span>
+11. <span data-ttu-id="2898b-147">Klõpsake valikut Määratle tootepäring.</span><span class="sxs-lookup"><span data-stu-id="2898b-147">Click Define product query.</span></span>
+12. <span data-ttu-id="2898b-148">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="2898b-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="2898b-149">Sisestage või valige väärtus väljal Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="2898b-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="2898b-150">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="2898b-150">Click OK.</span></span>
+15. <span data-ttu-id="2898b-151">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2898b-151">Close the page.</span></span>
 
 
 
