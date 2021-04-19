@@ -2,11 +2,9 @@
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.12. (august 2020)?
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.12 uusi või muutunud funktsioone.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258967"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832198"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.12. (august 2020)?
 
@@ -47,9 +45,9 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 
 - [IoT intellektuaalomandi põhiteadmised](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Lisateavet leiate jaotisest [IoT intellektuaalomandi koduleht](../iot/iot-intelligence-home-page.md).
 
-- [Laorakenduse identifitseerimisnumbri vastuvõtmise täiustused (jätkub)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Lisateabe saamiseks vaadake teemat [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Laorakenduse identifitseerimisnumbri vastuvõtmise täiustused (jätkub)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Lisateabe saamiseks vaadake teemat [Litsentsiplaadi vastuvõtmine mobiilirakenduse Warehouse Management kaudu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Warehouse Mobile Appi massiline juurutamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Lisateavet vt teemast [Ülevaade lao rakenduse installimiseks ja konfigureerimiseks](../warehousing/install-configure-warehousing-app.md).
+- [Warehouse Mobile Appi massiline juurutamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Lisateavet vt teemast [Laohalduse mobiilirakenduse Warehouse Management installimine ja ühendamine](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Maksimaalne täitmisaeg laohalduse laoseisu kirjete puhastustööks](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Lisateabe saamiseks vt [Laohalduse vabade kannete puhastamise töö](../warehousing/onhand-cleanup.md).
 

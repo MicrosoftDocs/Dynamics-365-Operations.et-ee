@@ -2,11 +2,9 @@
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.16. (veebruar 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.16 uusi või muutunud funktsioone.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236071"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829976"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.16. (veebruar 2021)
 
@@ -35,11 +33,13 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versio
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
+See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
 - [Kohandatav müügisaali liides](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Lisateavet leiate [Kuidas seadistada tootmisosakonna käivitusliidese seade](../production-control/production-floor-execution-setup.md).
 
 - [Varude nähtavuse lisandmoodul Dynamics 365 Supply Chain Management rakendusele](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Lisateavet vt teemast [Varude nähtavuse lisandmoodul](../inventory/inventory-visibility.md)
+
+- Töö ID-de ühtsed numbrijärjestused<br> - Lisateavet vt [Töö ID-de ühtne numbriseeria](../production-control/unified-job-ids.md).
 
 - [Kontrollige lähtedokumendi ridadel olevaid identifitseerimisnumbreid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Lisateavet leiate teemast [Laorakenduse konfiguratsiooni ülevaade](../warehousing/warehouse-configuration.md).
 
@@ -75,7 +75,7 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ol
 - [Müügitellimuste tõrkeotsing](../sales-marketing/troubleshooting-sales.md)
 - [Müügipakkumiste tõrkeotsing](../sales-marketing/troubleshooting-salesquotation.md)
 - [Täpsema laohalduse kasutuselevõtmine ja sellesse migreerumine](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Laorakenduse ühendusprobleemide tõrkeotsing](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Laohalduse mobiilirakenduse ühendusprobleemide tõrkeotsing](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Lao konfiguratsiooni tõrkeotsing](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Laotäiendamise tõrkeotsing](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Laoseadistuse tõrkeotsing](../warehousing/troubleshoot-warehouse-setup.md)

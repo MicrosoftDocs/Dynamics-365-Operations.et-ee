@@ -2,7 +2,6 @@
 title: Üle-/alakanded
 description: See teema hõlmab teavet, mis aitab teil seadistada üle-/alakannete poliitikate üksikasju, nii et süsteem saab määratleda, kuidas hallata kaupade üle- ja alatöötlust sissetuleku ajal.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500978"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833733"
 ---
 # <a name="overunder-transactions"></a>Üle-/alakanded
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Teekonna tellimuste töötlemisel eeldab süsteem, et lõppsihtlaos tarbimiseks vastu võetud kauba kogus ühtiks teekonnaga seotud ostutellimuse ridadel määratud kogusega. Kuna aga laos ei võeta alati vastu ostutellimuse ridadel olevat täpset kogust, määratleb moodul **Väljalaadimiskulu** reeglite komplekti, mida kasutatakse kaupade üle- ja alatarnete käitlemiseks. Need reeglid on eriti olulised, kuna algne ostutellimus on arveldatud ja seda ei saa enam muuta. Üle-/alakannete poliitikate üksikasjade seadistamisega võimaldate süsteemil määratleda, kuidas hallata kaupade üle- ja alatöötlust sissetuleku ajal. Üle- ja alavarusid saate ka käsitsi hallata, kasutades lehte **Üle-/alakanded**.
 

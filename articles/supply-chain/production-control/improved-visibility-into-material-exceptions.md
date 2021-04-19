@@ -2,13 +2,11 @@
 title: Materjalierandite nähtavus
 description: See teema kirjeldab, kuidas saate parandada tootmistellimuste ja partiitellimuste puhul toormaterjalide erandite nähtavust.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246161"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831982"
 ---
 # <a name="visibility-into-material-exceptions"></a>Materjalierandite nähtavus
 
@@ -59,7 +57,11 @@ Paani valimisel avaneb leht **Lattu väljastamine**. Sellel lehel kuvatakse väl
 
 Koosluse- või valemirea väljastamisel lisatakse see kas uute tootmisvoogu või olemasolevasse avatud voogu olenevalt tootmisvoo malli konfiguratsioonist. Voomalli konfiguratsiooni kaudu saate voo seadistada ka nii, et seda töödeldakse koosluse- või valemirea väljastamisel automaatselt. Kui voog on töödeldud, luuakse laotöö toormaterjali komplekteerimiseks. Kui voomall on konfigureeritud nii, et voogusid väljastamise ajal ei töödelda, jääb voog töötlemata olekusse. Paanil **Tähelepanu vajavad töötlemata vood** kuvatakse koosluse- ja valemiridade arv, mis on väljastatud lattu töötlemata voogudes ja mille toormaterjali kuupäev on varasem või sama kui tööruumi kuupäev. Ridu peab tarbima ka toiminguressurss, kes rakendab tööruumile filtri.
 
-Paani valimisel avaneb leht **Kõik tootmisvood**. See leht on filtreeritud avatud voogude arvu järgi, mis sisaldavad vooridu paani kriteeriumidele vastavatelt väljastatud koosluse- ja valemiridadelt. Lehel **Kõik tootmisvood** saate voogu käsitsi töödelda.
+Paani valimisel avaneb leht **Kõik tootmisvood**. See leht on filtreeritud avatud voogude arvu järgi, mis sisaldavad vooridu paani kriteeriumidele vastavatelt väljastatud koosluse- ja valemiridadelt.
+
+### <a name="manually-maintain-production-waves"></a>Tootmisvoogude käsitsi hooldamine
+
+**Kõik tootmisvood** lehel saate kasutada tegevuspaani vahekaardi **Voog** nuppe, et voogu käsitsi **töödelda** ja **välja anda**. Saate kasutada ka valikut **Säilita tootmised**, et vaadata ja säilitada **tootmise kooslusekausta** andmeid, mida kasutatakse voo protsessi töötlemiseks.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Tähelepanu vajav avatud laotöö
 

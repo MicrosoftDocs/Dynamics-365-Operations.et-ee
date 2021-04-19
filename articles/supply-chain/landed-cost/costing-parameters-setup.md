@@ -2,7 +2,6 @@
 title: Kuluarvutusparameetri väärtuste häälestus
 description: Mooduli Väljalaadimiskulu häälestamisel saate määratleda mitu ühiste väärtuste kogumit, mis on saadaval rakenduse muudes osades kindlat tüüpi kuluarvutusparameetrite väärtuste valimisel. Selles teemas selgitatakse, kuidas neid väärtuste komplekte häälestada.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500474"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841931"
 ---
 # <a name="costing-parameter-values-setup"></a>Kuluarvutusparameetri väärtuste häälestus
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Mooduli **Väljalaadimiskulu** häälestamisel saate väärtuse kohta määratleda mitu ühiste väärtuste ja seostuvate sätete komplekti. Need väärtused on siis saadaval, kui valite rakenduse muudes osades kindlat tüüpi kuluarvutusparameetrite väärtused. Selles teemas selgitatakse, kuidas neid väärtuste komplekte häälestada.
 

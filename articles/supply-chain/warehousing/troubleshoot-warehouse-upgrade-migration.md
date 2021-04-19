@@ -2,11 +2,9 @@
 title: Täpsema laohalduse kasutuselevõtmine ja sellesse migreerumine
 description: Selles teemas kirjeldatakse, kuidas lahendada täpsema laohalduse kasutuselevõtul ja sellesse migreerumisel tekkivaid probleeme.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826391"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Täpsema laohalduse kasutuselevõtmine ja sellesse migreerumine
 
@@ -34,11 +32,11 @@ Selles teemas kirjeldatakse, kuidas lahendada täpsema laohalduse kasutuselevõt
 
 ### <a name="issue-description"></a>Probleemi kirjeldus
 
-See tõrketeade kuvatakse laorakenduses, kuna iseseisvalt allkirjastatud sertifikaate ei usaldata Android 8+ asutusesiseses keskkonnas.
+See tõrketeade kuvatakse mobiilirakenduses Warehouse Management, kuna iseseisvalt allkirjastatud sertifikaate ei usaldata Android 8+ asutusesiseses keskkonnas.
 
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
-Kasutage välist (avaliku) sertifitseerimiskeskust (CA). Selle probleemi parandus on saadaval laorakenduse versioonis 1.9.0.0. Lisateavet selle probleemi ja lahendamise kohta vt teemast [Laorakenduse ühenduse probleemide tõrkeotsing](troubleshoot-warehouse-app-connection.md).
+Kasutage välist (avaliku) sertifitseerimiskeskust (CA). Selle probleemi parandus on saadaval laorakenduse versioonis 1.9.0.0. Lisateavet selle probleemi ja lahendamise kohta vt teemast [Lao mobiilirakenduse Warehouse Management ühenduse probleemide tõrkeotsing](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Mis on kinnitatud protsess baaslaost täpsemale laole liikumiseks?
 
