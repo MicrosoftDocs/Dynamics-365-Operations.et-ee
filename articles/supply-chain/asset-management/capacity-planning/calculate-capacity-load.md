@@ -1,12 +1,10 @@
 ---
 title: Täiskoormuse arvutamine
 description: Selles teemas tutvustatakse, kuidas arvutada täiskoormust varahalduses.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCapacityLoad, EntAssetWorkOrderCapacityLoadCalculate, EntAssetWorkOrderCapacityLoad
 audience: Application User
@@ -14,51 +12,51 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a9b235ecedf3399c79ee081a9fe7e2423045fa5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ba4b9ef43e27f689e1f10d2ee8f10f6ea4bf43ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260054"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821725"
 ---
-# <a name="calculate-capacity-load"></a><span data-ttu-id="41e2a-103">Arvuta täiskoormus</span><span class="sxs-lookup"><span data-stu-id="41e2a-103">Calculate capacity load</span></span>
+# <a name="calculate-capacity-load"></a><span data-ttu-id="8a362-103">Arvuta täiskoormus</span><span class="sxs-lookup"><span data-stu-id="8a362-103">Calculate capacity load</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 
-<span data-ttu-id="41e2a-104">Varahalduses saate arvutada täiskoormust järgmiste näitajate kohta:</span><span class="sxs-lookup"><span data-stu-id="41e2a-104">In Asset Management, you can calculate capacity load on:</span></span>
+<span data-ttu-id="8a362-104">Varahalduses saate arvutada täiskoormust järgmiste näitajate kohta:</span><span class="sxs-lookup"><span data-stu-id="8a362-104">In Asset Management, you can calculate capacity load on:</span></span>
 
-- <span data-ttu-id="41e2a-105">hooldusgraafiku read</span><span class="sxs-lookup"><span data-stu-id="41e2a-105">maintenance schedule lines</span></span>  
-- <span data-ttu-id="41e2a-106">töökäsud, mida pole veel plaanitud</span><span class="sxs-lookup"><span data-stu-id="41e2a-106">work orders that have not yet been scheduled</span></span>  
-- <span data-ttu-id="41e2a-107">plaanitud töökäsud</span><span class="sxs-lookup"><span data-stu-id="41e2a-107">scheduled work orders</span></span>
+- <span data-ttu-id="8a362-105">hooldusgraafiku read</span><span class="sxs-lookup"><span data-stu-id="8a362-105">maintenance schedule lines</span></span>  
+- <span data-ttu-id="8a362-106">töökäsud, mida pole veel plaanitud</span><span class="sxs-lookup"><span data-stu-id="8a362-106">work orders that have not yet been scheduled</span></span>  
+- <span data-ttu-id="8a362-107">plaanitud töökäsud</span><span class="sxs-lookup"><span data-stu-id="8a362-107">scheduled work orders</span></span>
 
-<span data-ttu-id="41e2a-108">See on kasulik, kui soovite saada ülevaate konkreetse perioodi oodatavast täiskoormusest.</span><span class="sxs-lookup"><span data-stu-id="41e2a-108">This is useful if you want to get an overview of expected capacity load for a specific period.</span></span> <span data-ttu-id="41e2a-109">Täiskoormuse arvutuse saab teha kõigile varadele või valitud varadele.</span><span class="sxs-lookup"><span data-stu-id="41e2a-109">Calculation of capacity load can be done on all assets or selected assets.</span></span> <span data-ttu-id="41e2a-110">Samuti saate teha arvutuse hoolduskatkestuse toimingute või töökäsu kaustade kohta.</span><span class="sxs-lookup"><span data-stu-id="41e2a-110">You can also make a calculation on maintenance downtime activities or work order pools.</span></span>
+<span data-ttu-id="8a362-108">See on kasulik, kui soovite saada ülevaate konkreetse perioodi oodatavast täiskoormusest.</span><span class="sxs-lookup"><span data-stu-id="8a362-108">This is useful if you want to get an overview of expected capacity load for a specific period.</span></span> <span data-ttu-id="8a362-109">Täiskoormuse arvutuse saab teha kõigile varadele või valitud varadele.</span><span class="sxs-lookup"><span data-stu-id="8a362-109">Calculation of capacity load can be done on all assets or selected assets.</span></span> <span data-ttu-id="8a362-110">Samuti saate teha arvutuse hoolduskatkestuse toimingute või töökäsu kaustade kohta.</span><span class="sxs-lookup"><span data-stu-id="8a362-110">You can also make a calculation on maintenance downtime activities or work order pools.</span></span>
 
-1. <span data-ttu-id="41e2a-111">Klõpsake **Varahaldus** > **Päringud** > **Täiskoormus** või **Varahaldus** > **Üldine** > **Töökäsu kaustad** > **Kõik töökäsu kaustad** / **Aktiivsed töökäsu kaustad** > valige loendist töökäsu kaust > nupp **Täiskoormus** või **Varahaldus** > **Üldine** > **Hoolduskatkestuse toimingud** > **Kõik hoolduskatkestuse toimingud** / **Aktiivsed hoolduskatkestuse toimingud** > valige loendist hooldustoiming > nupp **Täiskoormus**.</span><span class="sxs-lookup"><span data-stu-id="41e2a-111">Click **Asset management** > **Inquiries** > **Capacity load**, or **Asset management** > **Common** > **Work order pools** > **All work order pools** / **Active work order pools** > select work order pool in the list > **Capacity load** button, or **Asset management** > **Common** > **Maintenance downtime activities** > **All maintenance downtime activities** / **Active maintenance downtime activities** > select maintenance activity in the list > **Capacity load** button.</span></span>
+1. <span data-ttu-id="8a362-111">Klõpsake **Varahaldus** > **Päringud** > **Täiskoormus** või **Varahaldus** > **Üldine** > **Töökäsu kaustad** > **Kõik töökäsu kaustad** / **Aktiivsed töökäsu kaustad** > valige loendist töökäsu kaust > nupp **Täiskoormus** või **Varahaldus** > **Üldine** > **Hoolduskatkestuse toimingud** > **Kõik hoolduskatkestuse toimingud** / **Aktiivsed hoolduskatkestuse toimingud** > valige loendist hooldustoiming > nupp **Täiskoormus**.</span><span class="sxs-lookup"><span data-stu-id="8a362-111">Click **Asset management** > **Inquiries** > **Capacity load**, or **Asset management** > **Common** > **Work order pools** > **All work order pools** / **Active work order pools** > select work order pool in the list > **Capacity load** button, or **Asset management** > **Common** > **Maintenance downtime activities** > **All maintenance downtime activities** / **Active maintenance downtime activities** > select maintenance activity in the list > **Capacity load** button.</span></span>
 
-2. <span data-ttu-id="41e2a-112">Dialoogiboksis **Arvuta täiskoormus** valige arvutuse periood väljadel **Alguskuupäev/aeg** ja **Lõppkuupäev/aeg**.</span><span class="sxs-lookup"><span data-stu-id="41e2a-112">In the **Calculate capacity load** dialog, select a period for the calculation in the **Start date/time** and **End date/time** fields.</span></span>
+2. <span data-ttu-id="8a362-112">Dialoogiboksis **Arvuta täiskoormus** valige arvutuse periood väljadel **Alguskuupäev/aeg** ja **Lõppkuupäev/aeg**.</span><span class="sxs-lookup"><span data-stu-id="8a362-112">In the **Calculate capacity load** dialog, select a period for the calculation in the **Start date/time** and **End date/time** fields.</span></span>
 
-3. <span data-ttu-id="41e2a-113">Valige "Jah" tumblernupul **Kaasa hooldusgraafik**, kui soovite arvutusse kaasata hooldusgraafiku read.</span><span class="sxs-lookup"><span data-stu-id="41e2a-113">Select "Yes" on the **Include maintenance schedule** toggle button if you want to include maintenance schedule lines in the calculation.</span></span>
+3. <span data-ttu-id="8a362-113">Valige "Jah" tumblernupul **Kaasa hooldusgraafik**, kui soovite arvutusse kaasata hooldusgraafiku read.</span><span class="sxs-lookup"><span data-stu-id="8a362-113">Select "Yes" on the **Include maintenance schedule** toggle button if you want to include maintenance schedule lines in the calculation.</span></span>
 
-4. <span data-ttu-id="41e2a-114">Valige "Jah" tumblernupul **Kaasa töökäsk**, kui soovite arvutusse kaasata töökäsu tööd.</span><span class="sxs-lookup"><span data-stu-id="41e2a-114">Select "Yes" on the **Include work order** toggle button if you want to include work order jobs in the calculation.</span></span>
+4. <span data-ttu-id="8a362-114">Valige "Jah" tumblernupul **Kaasa töökäsk**, kui soovite arvutusse kaasata töökäsu tööd.</span><span class="sxs-lookup"><span data-stu-id="8a362-114">Select "Yes" on the **Include work order** toggle button if you want to include work order jobs in the calculation.</span></span>
 
-5. <span data-ttu-id="41e2a-115">Saate kasutada välja **Tase**, et näidata kui üksikasjalikke töö asukohtade täiskoormuse ridu te soovite.</span><span class="sxs-lookup"><span data-stu-id="41e2a-115">You can use the **Level** field to indicate how detailed you want the capacity load lines to be regarding functional locations.</span></span> 
+5. <span data-ttu-id="8a362-115">Saate kasutada välja **Tase**, et näidata kui üksikasjalikke töö asukohtade täiskoormuse ridu te soovite.</span><span class="sxs-lookup"><span data-stu-id="8a362-115">You can use the **Level** field to indicate how detailed you want the capacity load lines to be regarding functional locations.</span></span> 
 
-    <span data-ttu-id="41e2a-116">Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik töö asukoha hooldusgraafiku read ja töökäsud ning seetõttu võivad tunnid real olla lisatud ülespoole töö asukohtades, mis asuvad madalamal tasemel.</span><span class="sxs-lookup"><span data-stu-id="41e2a-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines and work orders for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
+    <span data-ttu-id="8a362-116">Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik töö asukoha hooldusgraafiku read ja töökäsud ning seetõttu võivad tunnid real olla lisatud ülespoole töö asukohtades, mis asuvad madalamal tasemel.</span><span class="sxs-lookup"><span data-stu-id="8a362-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines and work orders for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
     
-    <span data-ttu-id="41e2a-117">Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki hooldusgraafiku ridu ja kõiki töökäske kõigi töö asukohtade tasemete kohta, millega nad on seotud.</span><span class="sxs-lookup"><span data-stu-id="41e2a-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines and all work orders on all the functional location levels to which they are related.</span></span>
+    <span data-ttu-id="8a362-117">Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki hooldusgraafiku ridu ja kõiki töökäske kõigi töö asukohtade tasemete kohta, millega nad on seotud.</span><span class="sxs-lookup"><span data-stu-id="8a362-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines and all work orders on all the functional location levels to which they are related.</span></span>
 
-6. <span data-ttu-id="41e2a-118">Arvutuse alustamiseks klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="41e2a-118">Click **OK** to start the calculation.</span></span>
+6. <span data-ttu-id="8a362-118">Arvutuse alustamiseks klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="8a362-118">Click **OK** to start the calculation.</span></span>
 
-7. <span data-ttu-id="41e2a-119">Gruppides **Rühmitusalus** klõpsake asjakohastele nuppudele, et näidata arvutuse soovitud üksikasja taset.</span><span class="sxs-lookup"><span data-stu-id="41e2a-119">In the **Group by...** groups, click the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="41e2a-120">Alloleval kuvatõmmisel on gruppide **Rühmitusalus** nupud esile tõstetud sinise värviga.</span><span class="sxs-lookup"><span data-stu-id="41e2a-120">In the screenshot below, the selected **Group by** buttons are highlighted in blue color.</span></span> <span data-ttu-id="41e2a-121">Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.</span><span class="sxs-lookup"><span data-stu-id="41e2a-121">Click on a button to activate or deactivate it.</span></span>
+7. <span data-ttu-id="8a362-119">Gruppides **Rühmitusalus** klõpsake asjakohastele nuppudele, et näidata arvutuse soovitud üksikasja taset.</span><span class="sxs-lookup"><span data-stu-id="8a362-119">In the **Group by...** groups, click the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="8a362-120">Alloleval kuvatõmmisel on gruppide **Rühmitusalus** nupud esile tõstetud sinise värviga.</span><span class="sxs-lookup"><span data-stu-id="8a362-120">In the screenshot below, the selected **Group by** buttons are highlighted in blue color.</span></span> <span data-ttu-id="8a362-121">Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.</span><span class="sxs-lookup"><span data-stu-id="8a362-121">Click on a button to activate or deactivate it.</span></span>
 
     ![Joonis 1](media/01-capacity-planning.png)
 
 >[!NOTE]
-><span data-ttu-id="41e2a-123">Kui soovite keskenduda ainult planeeritud töökäskude võimsuse planeerimisele, vaadake teemat [Täiskoormuse arvutamine plaanitud töökäskude kohta](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span><span class="sxs-lookup"><span data-stu-id="41e2a-123">If you want to focus only on capacity planning regarding scheduled work orders, see [Calculate capacity load on scheduled work orders](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span></span>
+><span data-ttu-id="8a362-123">Kui soovite keskenduda ainult planeeritud töökäskude võimsuse planeerimisele, vaadake teemat [Täiskoormuse arvutamine plaanitud töökäskude kohta](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span><span class="sxs-lookup"><span data-stu-id="8a362-123">If you want to focus only on capacity planning regarding scheduled work orders, see [Calculate capacity load on scheduled work orders](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span></span>
 
 
 
