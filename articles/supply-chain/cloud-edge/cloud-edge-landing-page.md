@@ -2,11 +2,9 @@
 title: Pilv- ja perimeeterskaalaüksused tootmis- ja laohalduse töökoormuste jaoks
 description: Selles teemas antakse teavet tootmis- ja laohalduse töökoormuste pilv- ja perimeeterskaalaüksuste kohta.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240433"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836706"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Pilv- ja perimeeterskaalaüksused tootmis- ja laohalduse töökoormuste jaoks
 
@@ -124,10 +122,10 @@ Lisateavet vt [tootmise skaala üksuse töömahu üksikasjad](cloud-edge-workloa
 Laohalduse käitlemisel tarnivad pilve ja perimeeterskaala üksused järgmised võimalused, isegi kui perimeeterskaala üksused pole pilvega ühendatud:
 
 - Valitud voogmeetodite töötlemine on lubatud müügitellimuste ja nõudluse täiendamise puhul.
-- Laotöötajad saavad teostada müüki ja nõudluse täiendamise lao tööd, kasutades rakendust warehouse.
-- Laotöötajad saavad teha päringuid vaba kaubavaru kohta, kasutades rakendust warehouse.
-- Laotöötajad saavad luua ja teostada inventuuri kasutades rakendust warehouse.
-- Laotöötajad saavad registreerida ostutellimused ja teha ära eeltöö rakenduse warehouse abil. 
+- Laotöötajad saavad teostada müüki ja nõudluse täiendamise lao tööd, kasutades mobiilirakendust Warehouse Management.
+- Laotöötajad saavad teha päringuid vaba kaubavaru kohta, kasutades mobiilirakendust Warehouse Management.
+- Laotöötajad saavad luua ja teostada inventuuri kasutades mobiilirakendust Warehouse Management.
+- Laotöötajad saavad registreerida ostutellimused ja teha ära eeltöö mobiilirakenduse Warehouse Management abil. 
 
 Lisateavet vt [tootmise skaala üksuse töömahu üksikasjad](cloud-edge-workload-warehousing.md).
 

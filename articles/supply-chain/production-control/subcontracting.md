@@ -2,11 +2,9 @@
 title: Allhange
 description: See teema aitab teil koostada rakenduses Dynamics 365 Supply Chain Management tootmise allhanke juhiseid.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255537"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825178"
 ---
 # <a name="subcontracting"></a>Allhange
 
@@ -210,7 +208,7 @@ Tootele D8100, kaetud korpus, luuakse tootmistellimus 10 ühikuga. Korpuste katm
 
     ![Kaks toormaterjali komplekteerimise töökomplekti lehel Töö](./media/subcontract22_work-page.png)
 
-26. Käivitage laorakendus laotöö töötlemiseks toimingu 10 puhul.
+26. Käivitage mobiilirakendus Warehouse Management laotöö töötlemiseks toimingu 10 puhul.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Tootele D8100, kaetud korpus, luuakse tootmistellimus 10 ühikuga. Korpuste katm
     - Valige väljal **Toimingust nr** väärtus **10**.
     - Valige väljal **Toiminguni nr** väärtus **10**.
 
-    ![Vahekaardil Üldine määratud väärtused](./media/subcontract23_start-dialog.png)
+    ![Vahekaardil 1 Üldine määratud väärtused](./media/subcontract23_start-dialog.png)
 
 31. Valige **OK**, et sulgeda dialoogiboks **Alustamine** ja naasta lehele **Kõik tootmistellimused**.
 
     Pange tähele, et tootmistellimuse olek on nüüd **Alustatud**. Toimingu 10 materjale tarbib komplekteerimislehe töölehe automaatne sisestamine. Aja tarbimist toimingu 10 puhul võtab arvesse protsessikaardi töölehe automaatne sisestamine.
 
-32. Käivitage laorakendus laotöö töötlemiseks toimingu 20 puhul.
+32. Käivitage mobiilirakendus Warehouse Management laotöö töötlemiseks toimingu 20 puhul.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Tootele D8100, kaetud korpus, luuakse tootmistellimus 10 ühikuga. Korpuste katm
     - Sisestage väljale **Kogus** väärtus **10**.
     - Valige väljal **Sisesta komplekteerimisleht kohe** suvand **Ei**.
 
-    ![Vahekaardil Üldine määratud väärtused](./media/subcontract24_general-tab.png)
+    ![Vahekaardil 2 Üldine määratud väärtused](./media/subcontract24_general-tab.png)
 
 35. Valige **OK**, et sulgeda dialoogiboks **Alustamine** ja naasta lehele **Kõik tootmistellimused**.
 

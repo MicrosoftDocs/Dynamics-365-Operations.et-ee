@@ -2,11 +2,9 @@
 title: Asukohakorraldustega töötamine
 description: See teema kirjeldab, kuidas töötada asukohakorraldustega. Asukohakorraldused on kasutaja määratud reeglid, mis aitavad tuvastada komplekteerimise ja ladustamise asukohti varude liigutamisel.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470515"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838390"
 ---
 # <a name="work-with-location-directives"></a>Asukohakorraldustega töötamine
 
@@ -152,7 +150,7 @@ Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on 
     > [!IMPORTANT]
     > Selleks, et ladustada nii mitmeid kaupu kui ka üht SKU-d, peate määrama kaks rida, millel on sama struktuur ja seadistus, kuid peate seadma ühe rea korral suvandi **Mitu SKU-d** väärtuseks *Jah* ja teise rea korral *Ei*. Ladustamistoimingute jaoks peavad teil olema identsed asukohakorraldused, isegi kui te ei pea eristama töö ID-s üht ja mitut SKU-d. Kui te ei seadista mõlemat asukohakorraldust, siis on rakendatud asukohakorralduse loodud äriprotsesside asukohad ootamatud. Peate kasutama sarnast seadistust asukohakorralduste jaoks, mille **Töö tüüp** on *Komplekteerimine* , kui teil on vaja töödelda tellimusi, mis sisaldavad mitut SKU-d.
 
-    Kasutage suvandit **Mitu SKU-d** tööridade puhul, mis hõlmavad rohkem kui üht kaubakoodi. (Kaubakood võib jääda töö üksikasjades tühjaks ja see kuvatakse laorakenduse töötluslehtedel kui **Mitu**.)
+    Kasutage suvandit **Mitu SKU-d** tööridade puhul, mis hõlmavad rohkem kui üht kaubakoodi. (Kaubakood võib jääda töö üksikasjades tühjaks ja see kuvatakse mobiilirakenduse Warehouse Management töötluslehtedel kui **Mitu**.)
 
     Tüüpilises näitestsenaariumis on töömall seadistatud nii, et sellel on mitu komplekteerimise/ladustamise paari. Sellisel juhul võite soovida otsida kindlat vaheasukohta, et kasutada ridu, mille **Töö tüüp** on *Ladustamine*.
 
@@ -171,7 +169,7 @@ Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on 
     > [!NOTE]
     > See väli on saadaval ainult valitud töökäsutüüpide puhul, kus täiendamine on lubatud. Täieliku loendi leiate jaotisest [Töökäsutüüpidele omased väljad](#fields-specific-types).
 
-- **Likvideerimiskood** – seda välja kasutatakse asukohakorralduste puhul, mille töökäsutüüp on *Ostutellimus*, *Lõpetatud kaupade ladustamine* või *Tagastustellimused* ning töö tüüp *Ladustamine*. Kasutage seda, et voog kasutaks kindlat asukohakorraldust sõltuvalt likvideerimiskoodist, mille töötaja on laorakenduses valinud. Näiteks saate suunata tagastatud kauba tagasi kontrolliasukohta enne, kui need lattu tagastatakse. Likvideerimiskoodi saab seostada varude olekuga. Sel viisil saab seda kasutada varude oleku muutmiseks vastuvõtmisprotsessi osana. Näiteks on teil likvideerimiskood, *QA*, mis määrab varude olekuks *QA*. Seejärel saate luua eraldi asukohakorralduse, et teisaldada need varud karantiiniasukohta.
+- **Likvideerimiskood** – seda välja kasutatakse asukohakorralduste puhul, mille töökäsutüüp on *Ostutellimus*, *Lõpetatud kaupade ladustamine* või *Tagastustellimused* ning töö tüüp *Ladustamine*. Kasutage seda, et voog kasutaks kindlat asukohakorraldust sõltuvalt likvideerimiskoodist, mille töötaja on mobiilirakenduses Warehouse Management valinud. Näiteks saate suunata tagastatud kauba tagasi kontrolliasukohta enne, kui need lattu tagastatakse. Likvideerimiskoodi saab seostada varude olekuga. Sel viisil saab seda kasutada varude oleku muutmiseks vastuvõtmisprotsessi osana. Näiteks on teil likvideerimiskood, *QA*, mis määrab varude olekuks *QA*. Seejärel saate luua eraldi asukohakorralduse, et teisaldada need varud karantiiniasukohta.
 
     > [!NOTE]
     > See väli on saadaval ainult valitud töökäsutüüpide puhul, kus täiendamine on lubatud. Täieliku loendi leiate jaotisest [Töökäsutüüpidele omased väljad](#fields-specific-types).

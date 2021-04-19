@@ -2,11 +2,9 @@
 title: Töökäskude loomine
 description: Selles teemas tutvustatakse, kuidas luua töökäske varahalduses.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500570"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836730"
 ---
 # <a name="creating-work-orders"></a>Töökäskude loomine
 
@@ -62,8 +60,6 @@ Hooldusgraafikul põhinevate töökäskude loomiseks tehke järgmist.
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Hooldusplaani käitamise ajal automaatselt loodavate töökäsu ridade rühmitamine
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 See funktsioon võimaldab teil määrata reeglid töökäsu ridade rühmitamiseks ühe töökäsu alla, kui süsteem on häälestatud koostama töökäske hooldusplaani põhjal automaatselt. Varem võisid automaatselt loodud töökäsud sisaldada ainult ühte rida. Samas nüüd saate töökäske rühmitada näiteks vara, vara tüübi või töö asukoha alusel. (Käsitsi loodud töökäske sai sel viisil juba rühmitada, nagu selle teema eelmises jaotises on kirjeldatud.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Automaatselt loodud töökäskude rühmitamise lubamine
@@ -71,7 +67,7 @@ See funktsioon võimaldab teil määrata reeglid töökäsu ridade rühmitamisek
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *varahaldus*
-- **Funktsiooni nimi:** *(Eelversioon) Töökäskude rühmitamise reeglite rakendamine hooldusplaani käitades*
+- **Funktsiooni nimi:** *töökäskude rühmitamise reeglite rakendamine hooldusplaani käitades*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Automaatselt loodud töökäskude rühmitamise häälestamine
 

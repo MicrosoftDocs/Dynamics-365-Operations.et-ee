@@ -2,11 +2,9 @@
 title: Laohalduse mobiilirakenduse installimine ja ühendamine
 description: Selles teemas selgitatakse, kuidas installida laohalduse mobiilirakendust kõigisse mobiilsetesse seadmetesse ja konfigureerida see keskkonnaga Microsoft Dynamics 365 Supply Chain Management ühenduse loomiseks.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,20 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487021"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835602"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Selles teemas selgitatakse, kuidas konfigureerida uut laohalduse mobiilirakendust. Kui otsite teavet vana laorakenduse konfigureerimise kohta, vt [Laorakenduse installimine ja ühendamine](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Selles teemas selgitatakse, kuidas konfigureerida uut laohalduse mobiilirakendust. Kui otsite teavet vana laorakenduse (iganenud nüüdseks) konfigureerimise kohta, vt [Laorakenduse installimine ja ühendamine](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Selles teemas selgitatakse, kuidas alla laadida ja installida laohalduse mobiilirakendust teie kõigisse mobiilsetesse seadmetesse ja konfigureerida seda keskkonnaga Supply Chain Management ühenduse loomiseks. Saate konfigureerida kõik seadmed käsitsi, importida ühenduse sätted faili kaudu või skannides QR-koodi.
 

@@ -2,11 +2,9 @@
 title: Asukoha ladustamispiirangud
 description: See teema kirjeldab asukoha ladustamispiirangute funktsioone.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216977"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831262"
 ---
 # <a name="location-stocking-limits"></a>Asukoha ladustamispiirangud
 
@@ -83,7 +81,7 @@ Selles näites esitate ostutellimuse, kus on kaks vastuvõtuvooga rida. Kuid pea
 
 Kõigepealt saate üksuse *PL* suurusega *S* koguses *4* ja saate kontrollida loodava töö asetusridade asukohti. Seejärel saate üksuse *PL* suurusega *L* koguses *4* ja saate kontrollida loodava töö asetusridade asukohti.
 
-1. Logige sisse laorakendusse, kasutades kasutaja ID-na nr *24* ja paroolina nr *1*.
+1. Logige sisse mobiilirakendusse Warehouse Management kasutades *24* kasutaja ID-na ja *1* paroolina.
 1. Valige **Sissetulev** \> **Vastuvõetud ost**.
 1. Saate *4* *PL*-i kaubakoodiga *D0013* ja suurusega *S*.
 1. Vaadake üle loodud ladustamistöö. Teile peaks olema kuvatud järgmine tulemus.

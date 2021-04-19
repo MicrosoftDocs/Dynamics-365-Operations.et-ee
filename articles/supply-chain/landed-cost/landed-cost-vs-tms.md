@@ -2,7 +2,6 @@
 title: Tarnehind vs Transpordihaldus
 description: Microsoft Dynamics 365 Supply Chain Management pakub transpordi, transpordihalduse (TMS) ja tarnehinnaga töötamiseks kahte erinevat moodulit. Selles teemas summeeritakse kahe mooduli ühised funktsioonid ja tõstetakse esile erinevused nende vahel.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500714"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833853"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Tarnehind vs Transpordihaldus
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management pakub kahte erinevat moodulit transpordiga töötamiseks, **Transpordihaldus** (TMS) ja **Tarnehind**. Selles teemas summeeritakse kahe mooduli ühised funktsioonid ja tõstetakse esile erinevused nende vahel. Seda teavet saate kasutada otsustamiseks, milline moodul teie äritavadega kõige paremini sobib. Mõned äritavad töötavad koos TMS-iga paremini, teised aga töötavad kõige paremini tarnehinnaga. Seejärel, sõltuvalt teie äritegevuse nõuetest, võite valida ainult ühe mooduli kasutamise või võite kaks moodulit kombineerida.
 
@@ -158,15 +156,15 @@ Nii TMS kui ka Tarnehind pakuvad funktsioone konteineris kaupade vastuvõtmise h
 
 ### <a name="tms-receiving-by-container-features"></a>TMS-i funktsioon Vastuvõtmine konteineri järgi
 
-TMS toetab sissetulevaid ASN-e, kõiki laorakenduse kaudu vastuvõtmise variante ja kõiki teenuse Supply Chain Management kliendi kaudu vastuvõtmise meetodeid.
+TMS toetab sissetulevaid ASN-e, kõiki laohalduse mobiilirakenduse Warehouse Management kaudu vastuvõtmise variante ja kõiki teenuse Supply Chain Management kliendi kaudu vastuvõtmise meetodeid.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Tarnehinna funktsioon Vastuvõtmine konteineri järgi
 
 Konteineri alusel vastuvõtmise toetamiseks loob Tarnehind konteinerikirjed ja seostab ostutellimused konkreetse saatmiskonteineriga, kasutades selle konteineri ID-d. Üldkulusid saab seejärel rakendada sellele saatmiskonteinerile ja jagada nii, et need on seotud vastavate ostutellimustega.
 
-Tarnehinnas saab konteinereid kätte uut tüüpi kviitungiga, mida nimetatakse *kauba transiidi kviitungiks*, saabumispäevikute või mobiilseadmetes vastuvõtmise kaudu. Saabumispäevikute kasutamisel saab koguseid initsialiseerida transiiditellimusel olevatelt kaupadelt või konteineris olevatest ostutellimuse algsetest ridadest. Tarnehind võimaldab laorakenduse kaudu vastuvõtuks kahte tüüpi töötüüpe.
+Tarnehinnas saab konteinereid kätte uut tüüpi kviitungiga, mida nimetatakse *kauba transiidi kviitungiks*, saabumispäevikute või mobiilseadmetes vastuvõtmise kaudu. Saabumispäevikute kasutamisel saab koguseid initsialiseerida transiiditellimusel olevatelt kaupadelt või konteineris olevatest ostutellimuse algsetest ridadest. Tarnehind võimaldab laohalduse mobiilirakenduse Warehouse Management kaudu vastuvõtuks kahte tüüpi töötüüpe.
 
-Tarnehind ei anna kaupade elektrooniliseks vastuvõtmiseks ASN-i. Lisaks ei toeta see laorakenduste voogusid, mis töötlevad koormuse vastuvõtmist, numbrimärkide vastuvõtmist või seganumbrimärkide vastuvõtmist.
+Tarnehind ei anna kaupade elektrooniliseks vastuvõtmiseks ASN-i. Lisaks ei toeta see laohalduse mobiilirakenduse Warehouse Management voogusid, mis töötlevad koormuse vastuvõtmist, numbrimärkide vastuvõtmist või seganumbrimärkide vastuvõtmist.
 
 ## <a name="rate-shopping-by-vendor"></a>Hankija järgi "hinna ostmine"
 

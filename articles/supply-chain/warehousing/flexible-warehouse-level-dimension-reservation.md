@@ -2,11 +2,9 @@
 title: Paindliku laotaseme dimensiooni reserveerimise poliitika
 description: See teema kirjeldab varude reserveerimise poliitikat, mis võimaldab partiijälgimisega tooteid müüvatel ettevõtetel käitada nende logistikat, nagu WMS-i toega toimingud, kindlatel partiidel kliendi müügitellimuste jaoks. Seda ka siis, kui tootega seostatud reserveerimise hierarhia ei luba kindlaid partiisid reserveerida.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,33 +13,33 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7d855914e59d90dd082c9e9a027604579a2f411
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 17ae3cc788c60917807acece2fc21f6c52d8ffe0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235408"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835674"
 ---
-# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindliku laotaseme dimensiooni reserveerimise poliitika
+# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindlik dimensiooni reserveerimise poliitika laotasemel
 
 [!include [banner](../includes/banner.md)]
 
-Kui varude reserveerimise hierarhia tüüp „partii-alla\[asukoha\]” on seotud toodetega, siis ei saa ettevõtted, mis müüvad partiijälgimisega tooteid ja käitavad nende logistikat, mis on lubatud Microsoft Dynamics 365 laohaldusesüsteemi (WMS) jaoks, reserveerida nende toodete kindlaid partiisid kliendi müügitellimustele.
+Kui varude reserveerimise hierarhia tüüp *partii-alla\[asukoha\]* on seotud toodetega, siis ei saa ettevõtted, mis müüvad partiijälgimisega tooteid ja käitavad nende logistikat, mis on lubatud Microsoft Dynamics 365 laohaldusesüsteemi (WMS) jaoks, reserveerida nende toodete kindlaid partiisid kliendi müügitellimustele.
 
 Sarnaselt ei saa kindlaid litsentsiplaate reserveerida müügitellimustes olevate toodete jaoks, kui need tooted on seotud reserveerimise vaikehierarhiaga.
 
-Selles teemas kirjeldatakse varude reserveerimise poliitikat, mis võimaldab nendel ettevõtetel kindlaid partiisid või litsentsiplaate reserveerida isegi siis, kui tooted on seotud reserveerimise hierarhia üksusega „partii-alla\[asukoht\]”.
+Selles teemas kirjeldatakse varude reserveerimise poliitikat, mis võimaldab nendel ettevõtetel kindlaid partiisid või litsentsiplaate reserveerida isegi siis, kui tooted on seotud reserveerimise hierarhia üksusega *partii-alla\[asukoht\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Varude reserveerimise hierarhia
 
 See jaotis võtab kokku olemasoleva varude reserveerimise hierarhia.
 
-Varude reserveerimise hierarhia näitab, et laoala dimensioonidega seotud ulatuses on nõudetellimus seotud asukoha kohustuslike dimensioonide, lao ja varude olekuga, samas kui lao loogika vastutab nõutud koguste jaoks asukoha määramise ja selle reserveerimise eest. Teisisõnu, nõudetellimuse ja laotoimingute vahelises suhtluses eeldatakse, et nõudetellimus määrab selle, kust tellimus tuleb saata (st millisest asukohast ja laost). Seejärel toetub ladu laoruumidest nõutava koguse leidmisel oma loogikale.
+Varude reserveerimishierarhia dikteerib seda, et nii kaua, kuni ladustamismõõtmed on seotud, on nõudetellimusel kohustuslikud mõõtmed laoala, lao ja lao oleku kohta. See tähendab, et kohustuslikud mõõtmed on kõik mõõtmed reserveerimishierarhias asukohadimensioonist ülal, lao loogika vastutab asukoha määramise eest taotletud kogustele ja asukoha reserveerimise eest. Nõudetellimuse ja laotoimingute vahelises suhtluses eeldatakse, et nõudetellimus määrab selle, kust tellimus tuleb saata (st millisest asukohast ja laost). Seejärel toetub ladu laoruumidest nõutava koguse leidmisel oma loogikale.
 
 Kuid selleks, et kajastada äritegevuse mudelit, on jälgimisdimensioonid (partii- ja seerianumbrid) siiski paindlikumad. Varude reserveerimise hierarhia võib hõlmata stsenaariume, mille puhul kehtivad järgmised tingimused.
 
-- Ettevõte tugineb oma laotoimingutele, et hallata partii- või seerianumbritega koguste komplekteerimist pärast seda, kui ladustamisruumis on kogused leitud. Sellele mudelile viidatakse sageli kui *partii-alla\[asukoht\]*. Seda kasutatakse tavaliselt siis, kui toote partii- või seerianumbri ID ei ole klientidele oluline, kuna nad suunavad nõudluse müügiettevõttele.
-- Kui partii- või seerianumbrid on osa kliendi tellimuse täpsustusest ja need kirjendatakse nõudetellimusel, on laos olevaid koguseid leidnud toimingud piiratud konkreetsete nõutud numbritega ja neid ei tohi muuta. Sellele mudelile viidatakse sageli kui *partii-üles\[asukoht\]*.
+- Ettevõte tugineb oma laotoimingutele, et hallata partii- või seerianumbritega koguste komplekteerimist *pärast* seda, kui ladustamisruumis on kogused leitud. Sellele mudelile viidatakse sageli kui *partii-alla\[asukoht\]* või *seeria-alla\[asukoht\]*. Seda kasutatakse tavaliselt siis, kui toote partii- või seerianumbri ID ei ole klientidele oluline, kuna nad suunavad nõudluse müügiettevõttele.
+- Ettevõte tugineb oma laotoimingutele, et hallata partii- või seerianumbritega koguste komplekteerimist *enne* seda, kui ladustamisruumis on kogused leitud. Kui partii- või seerianumbrid on vajalik osa kliendi tellimuse täpsustusest, need kirjendatakse nõudetellimusel ja laos olevaid koguseid leidnud toimingud ei tohi muuta. Sellele mudelile viidatakse sageli kui *partii-ülene\[asukoht\]* või *seeria-ülene\[asukoht\]*. Laoloogika ei eralda neid, kuna asukoha kohal asuvad mõõtmed on täitmiseks vajalikud nõudmised. Need mõõtmed **peavad** alati olema määratud nõudetellimusel või seotud reserveeringutega.
 
 Nende stsenaariumide puhul on probleemiks, et igale väljastatud tootele saab määrata ainult ühe varude reserveerimise hierarhia. Seetõttu ei saa WMS pärast seda, kui hierarhia määramine on määratlenud, millal partii või seerianumber tuleb reserveerida (kas siis, kui nõudetellimus on tehtud, või lao komplekteerimise ajal), jälgitud üksuste käsitsemisel ajastust ad-hoc-alusel muuta.
 
@@ -49,16 +47,16 @@ Nende stsenaariumide puhul on probleemiks, et igale väljastatud tootele saab m�
 
 ### <a name="business-scenario"></a>Äristsenaarium
 
-Selle stsenaariumi puhul kasutab ettevõte varude strateegiat, mille puhul lõpetatud kaupu jälgitakse partii numbrite järgi. See ettevõte kasutab ka WMS-i töökogust. Kuna sellel töökogusel on hästivarustatud loogika lao komplekteerimise ja saatmise toimingute planeerimiseks ning käitamiseks partiis lubatud kaupade puhul, on enamik lõpetatud kaupadest seotud „partii-alla\[asukoht\]“ varude reserveerimise hierarhiaga. Seda tüüpi toiminguseadistuse eeliseks on see, et partiide komplekteerimise ja laovaliku otsused (mis on tegelikult reserveerimise otsused) lükatakse edasi, kuni alustatakse lao komplekteerimise toimingutega. Neid ei tehta kliendi tellimuse esitamise ajal.
+Selle stsenaariumi puhul kasutab ettevõte varude strateegiat, mille puhul lõpetatud kaupu jälgitakse partii numbrite järgi. See ettevõte kasutab ka WMS-i töökogust. Kuna sellel töökogusel on hästivarustatud loogika lao komplekteerimise ja saatmise toimingute planeerimiseks ning käitamiseks partiis lubatud kaupade puhul, on enamik lõpetatud kaupadest seotud *partii-alla\[asukoht\]* varude reserveerimise hierarhiaga. Seda tüüpi toiminguseadistuse eeliseks on see, et partiide komplekteerimise ja laovaliku otsused (mis on tegelikult reserveerimise otsused) lükatakse edasi, kuni alustatakse lao komplekteerimise toimingutega. Neid ei tehta kliendi tellimuse esitamise ajal.
 
-Kuigi „partii-alla\[asukoht\]” reserveerimise hierarhia teenib ettevõtte ärieesmärke hästi, nõuavad paljud ettevõtte kliendid toodete uuesti tellimisel sama partiid, mida nad varem ostsid. Seetõttu ootavad ettevõtted paindlikkust selle osas, kuidas partii reserveerimise reegleid käsitletakse, nii et olenevalt klientide nõudlusest sama kauba järele võivad ilmneda järgmised käitumismustrid.
+Kuigi *partii-alla\[asukoht\]* reserveerimise hierarhia teenib ettevõtte ärieesmärke hästi, nõuavad paljud ettevõtte kliendid toodete uuesti tellimisel sama partiid, mida nad varem ostsid. Seetõttu ootavad ettevõtted paindlikkust selle osas, kuidas partii reserveerimise reegleid käsitletakse, nii et olenevalt klientide nõudlusest sama kauba järele võivad ilmneda järgmised käitumismustrid.
 
 - Partii numbrit saab kirjendada ja reserveerida, kui volitatud töötleja on tellimuse vastu võtnud, ja seda ei saa muuta laotoimingute ajal ja/või muude nõudmiste tõttu. Selline käitumine aitab tagada, et tellitud partiinumber saadetakse kliendile.
 - Kui partiinumber ei ole kliendile oluline, saab laotoimingute komplekteerimise käigus määrata partiinumbri pärast seda, kui müügitellimuse registreerimine ja reserveerimine on tehtud.
 
 ### <a name="allowing-reservation-of-a-specific-batch-on-the-sales-order"></a>Müügitellimuse kindla partii reserveerimise lubamine
 
-Selleks, et mahutada soovitud paindlikkus partii reserveerimise käitumises kaupadele, mis on seotud „partii-alla\[asukoht\]” varude reserveerimise hierarhiaga, peavad varude haldurid lehel **Varude reserveerimise hierarhiad** valima märkeruudu **Luba reserveerimine nõudetellimusel** valiku **Partiinumber** tasemel.
+Selleks, et mahutada soovitud paindlikkus partii reserveerimise käitumises kaupadele, mis on seotud *partii-alla\[asukoht\]* varude reserveerimise hierarhiaga, peavad varude haldurid lehel **Varude reserveerimise hierarhiad** valima märkeruudu **Luba reserveerimine nõudetellimusel** valiku **Partiinumber** tasemel.
 
 ![Varude reserveerimise hierarhia paindlikuks muutmine](media/Flexible-inventory-reservation-hierarchy.png)
 
@@ -69,25 +67,25 @@ Kui hierarhias valitakse tase **Partiinumber**, valitakse automaatselt kõik sed
 >
 > **Partiinumber** ja **Litsentsiplaat** on hierarhias ainsad tasemed, mida saab kasutada paindliku reserveerimise poliitikas. Teisisõnu ei saa te valida märkeruutu **Luba reserveerimine nõudetellimusel** taseme **Asukoht** või **Seerianumber** jaoks.
 >
-> Kui teie reserveerimise hierarhia sisaldab seerianumbri dimensiooni (mis peab alati olema väiksem kui tase **Partiinumber**) ja kui olete pakktöötluse numbrile sisse lülitanud partii-spetsiifilise reserveerimise, jätkab süsteem seerianumbri reserveerimise ja komplekteerimise toiminguid, mis põhinevad reeglitel, mis kehtivad reserveerimise poliitika „Seeria-alla\[asukoht\]” puhul.
+> Kui teie reserveerimise hierarhia sisaldab seerianumbri dimensiooni (mis peab alati olema väiksem kui tase **Partiinumber**) ja kui olete pakktöötluse numbrile sisse lülitanud partii-spetsiifilise reserveerimise, jätkab süsteem seerianumbri reserveerimise ja komplekteerimise toiminguid, mis põhinevad reeglitel, mis kehtivad reserveerimise poliitika *Seeria-alla\[asukoht\]* puhul.
 
-Igal ajahetkel saate lubada partii-spetsiifilist reserveerimist olemasolevale „partii-alla\[asukoht\]” reserveerimise hierarhiale teie juurutuses. See muudatus ei mõjuta reserveeringuid ja avatud lao tööd, mis loodi enne muudatuse toimumist. Kuid märkeruutu **Luba reserveerimine nõudetellimusel** ei saa tühjendada, kui **Reserveeritud tellitud**, **Reserveeritud füüsilise** või **Tellitud** probleemi tüübi laokanded on olemas ühe või mitme selle reserveerimise hierarhiaga seotud kauba puhul.
+Igal ajahetkel saate lubada partii-spetsiifilist reserveerimist olemasolevale *partii-alla\[asukoht\]* reserveerimise hierarhiale teie juurutuses. See muudatus ei mõjuta reserveeringuid ja avatud lao tööd, mis loodi enne muudatuse toimumist. Kuid märkeruutu **Luba reserveerimine nõudetellimusel** ei saa tühjendada, kui **Reserveeritud tellitud**, **Reserveeritud füüsilise** või **Tellitud** probleemi tüübi laokanded on olemas ühe või mitme selle reserveerimise hierarhiaga seotud kauba puhul.
 
 > [!NOTE]
 > Kui kauba olemasoleva reserveerimise hierarhia ei luba tellimuse partii täpsustust, saate selle uuesti määrata reserveerimise hierarhiasse, mis lubab partii spetsifikatsioone, tingimusel et hierarhia taseme struktuur on mõlemas hierarhias sama. Kasutage funktsiooni **Muuda reserveerimise hierarhiat kaupadele** ümbermääramiseks. See muudatus võib olla oluline, kui soovite vältida partiis jälitatud kaupade alamhulga paindlikku partii reserveerimist, kuid lubada seda ülejäänud tooteportfellile.
 
-Olenemata sellest, kas olete märkinud ruudu **Luba reserveerimine nõudetellimusel**, kui te ei soovi kindlat partiinumbrit kaubale tellimuse rea jaoks reserveerida, rakendatakse laotoimingute vaikeloogikat, mis kehtib „partii-alla\[asukoht\]” reserveerimise hierarhia puhul.
+Olenemata sellest, kas olete märkinud ruudu **Luba reserveerimine nõudetellimusel**, kui te ei soovi kindlat partiinumbrit kaubale tellimuse rea jaoks reserveerida, rakendatakse laotoimingute vaikeloogikat, mis kehtib *partii-alla\[asukoht\]* reserveerimise hierarhia puhul.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Kindla partiinumbri reserveerimine kliendi tellimuse jaoks
 
-Pärast seda, kui partii jälgitud kauba „partii-alla\[asukoht\]” varude reserveerimise hierarhia on seadistatud lubama kindla partiinumbrite reserveerimist müügitellimustel, võivad müügitellimuse töötlejad võtta sama kauba kohta kliendi tellimusi ühel järgmistest viisidest, olenevalt kliendi nõudest.
+Pärast seda, kui partii jälgitud kauba *partii-alla\[asukoht\]* varude reserveerimise hierarhia on seadistatud lubama kindla partiinumbrite reserveerimist müügitellimustel, võivad müügitellimuse töötlejad võtta sama kauba kohta kliendi tellimusi ühel järgmistest viisidest, olenevalt kliendi nõudest.
 
 - **Sisestage tellimuse üksikasjad partiinumbrit täpsustamata** – seda lähenemist tuleks kasutada juhul, kui toote partii spetsifikatsioon ei ole kliendile oluline. Kõik olemasolevad protsessid, mis on seotud selle tüübi tellimuse käsitsemisega, jäävad süsteemis muutmata. Kasutajate osas ei nõuta täiendavaid kaalutlusi.
 - **Sisestage tellimuse üksikasjad ja reserveerige konkreetne partiinumber** – seda lähenemist tuleks kasutada siis, kui klient nõuab kindlat partiid. Tavaliselt nõuavad kliendid kindlat partiid, kui nad tellivad varem ostetud toodet. Seda tüüpi partii-spetsiifilist reserveerimist nimetatakse *tellimusega kooskõlastatud reserveerimiseks*.
 
 Järgmised reeglid kehtivad koguste töötlemisel ja partiinumber on seotud kindla tellimusega.
 
-- Selleks et lubada kauba kindla partii numbri reserveerimist kauba puhul, mis on märgitud jaotises „partii-alla\[asukoht\]”, peab süsteem reserveerima kõik dimensioonid asukoha kaudu. See vahemik sisaldab tavaliselt litsentsiplaadi dimensiooni.
+- Selleks et lubada kauba kindla partii numbri reserveerimist kauba puhul, mis on märgitud jaotises *partii-alla\[asukoht\]*, peab süsteem reserveerima kõik dimensioonid asukoha kaudu. See vahemik sisaldab tavaliselt litsentsiplaadi dimensiooni.
 - Asukoha direktiive ei kasutata, kui komplekteerimise töö on loodud müügirea jaoks, mis kasutab tellimusega seotud partii reserveerimist.
 - Tellimusega seotud partiide töö laotöötluse ajal ei tohi ei kasutaja ega süsteem partii numbrit muuta. (See töötlemine hõlmab erandite käsitlemist.)
 
@@ -131,19 +129,19 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
 2. Valige suvand **Uus**.
 3. Müügitellimuse päise väljale **Kliendi konto** sisestage **US-003**.
 4. Lisage uue üksuse jaoks rida ja sisestage koguseks **10**. Veenduge, et välja **Ladu** väärtuseks oleks määratud **24**.
-5. Kiirkaardil **Müügitellimuse read** valige väärtus **Varud** ja seejärel jaotises **Haldamine** suvand **Partii reserveerimine**. Leht **Partii reserveerimine** näitab tellimuse rea reserveerimiseks saadaolevate partiide loendit. Selles näites näitab see kogust **20** partiinumbri **B11** ja kogust **10** partiinumbri **B22** jaoks. Pange tähele, et lehele **Partii reserveerimine** ei pääse realt juurde, kui sellel real olev üksus on seotud väärtusega „partii-alla\[asukoht\]”, kui see pole seadistatud lubama partiiga seotud reserveerimist.
+5. Kiirkaardil **Müügitellimuse read** valige väärtus **Varud** ja seejärel jaotises **Haldamine** suvand **Partii reserveerimine**. Leht **Partii reserveerimine** näitab tellimuse rea reserveerimiseks saadaolevate partiide loendit. Selles näites näitab see kogust **20** partiinumbri **B11** ja kogust **10** partiinumbri **B22** jaoks. Pange tähele, et lehele **Partii reserveerimine** ei pääse realt juurde, kui sellel real olev üksus on seotud väärtusega *partii-alla\[asukoht\]*, kui see pole seadistatud lubama partiiga seotud reserveerimist.
 
     > [!NOTE]
     > Kindla partii reserveerimiseks müügitellimusele tuleb kasutada lehte **Partii reserveerimine**.
     >
-    > Kui sisestate partii numbri otse müügitellimuse reale, käitub süsteem nii, nagu sisestasite kindla partii väärtuse üksusele, mille suhtes kehtib „partii-alla\[asukoht\]” reserveerimise poliitika. Rea salvestamisel kuvatakse hoiatusteade. Kui kinnitate, et partiinumber tuleb määrata otse tellimuse reale, ei käsitleta rida tavalise laohalduse loogikaga.
+    > Kui sisestate partii numbri otse müügitellimuse reale, käitub süsteem nii, nagu sisestasite kindla partii väärtuse üksusele, mille suhtes kehtib *partii-alla\[asukoht\]* reserveerimise poliitika. Rea salvestamisel kuvatakse hoiatusteade. Kui kinnitate, et partiinumber tuleb määrata otse tellimuse reale, ei käsitleta rida tavalise laohalduse loogikaga.
     >
-    > Kui reserveerite koguse lehelt **Reserveerimine**, ei reserveerita ühtegi kindlat partiid ja selle rea laotegevuse käitamine järgib reegleid, mis on rakendatavad „partii-alla\[asukoht\]” reserveerimise poliitika alusel.
+    > Kui reserveerite koguse lehelt **Reserveerimine**, ei reserveerita ühtegi kindlat partiid ja selle rea laotegevuse käitamine järgib reegleid, mis on rakendatavad *partii-alla\[asukoht\]* reserveerimise poliitika alusel.
 
-    See lehekülg töötab ja on seotud samal viisil, nagu see toimib ja on seotud üksuste puhul, millel on seostatud reserveerimise hierarhia tüübiga „partii-üle\[asukoha\]”. Siiski kehtivad järgmised erandid.
+    See lehekülg töötab ja on seotud samal viisil, nagu see on seostatud reserveerimise hierarhia tüübiga *partii-üle\[asukoht\]*. Siiski kehtivad järgmised erandid.
 
     - Kiirkaart **Lähtereale määratud partiinumbrid** kuvab tellimuserea jaoks reserveeritud partiinumbrid. Ruudustikus olevad partiiväärtused kuvatakse kogu tellimuserea täitmise tsüklis, sh laotöötluse etappides. Seevastu kiirkaart **Ülevaade**, korrapärase tellimuse rea reserveerimine (s.t reserveerimine, mida tehakse **Asukoha** taseme kohal olevate dimensioonide puhul), kuvatakse ruudustikus kuni laotöö loomiseni. Tööüksus võtab seejärel rea reserveerimise üle ja rea reserveeringut ei kuvata enam leheküljel. Kiirkaart **Lähtereale määratud partiinumbrid** aitab tagada, et müügitellimuse töötleja saab vaadata kliendi tellimusele määratud partiinumbreid mis tahes tööetapis kuni arveldamiseni.
-    - Peale konkreetse partii reserveerimise saab kasutaja valida käsitsi partii kindla asukoha ja litsentsiplaadi, selle asemel et lasta süsteemil need automaatselt valida. See võimalus on seotud tellimuse sooritatud partii reserveerimise mehhanismi kujundusega. Nagu varem mainitud, tuleb selleks, et lubada kindla partii numbri reserveerimist üksuse puhul, mis on märgitud jaotises „partii-alla\[asukoht\]”, peab süsteem reserveerima kõik dimensioonid asukoha kaudu. Seetõttu teeb lao töö samu ladustamise dimensioone, mis olid reserveeritud tellimustega töötavate kasutajate poolt, ja see ei pruugi alati kajastada kauba ladustamise paigutust, mis on mugav või isegi võimalik komplekteerimiseks. Kui tellimuse töötlejad on lao piirangutest teadlikud, võivad nad partii reserveerimisel käsitsi valida kindlad asukohad ja litsentsiplaadid. Sellisel juhul peab kasutaja kasutama lehekülje päises funktsiooni **Kuva dimensioonid** ja lisama asukoha ja litsentsiplaadi kiirkaardi **Ülevaade** ruudustikus.
+    - Peale konkreetse partii reserveerimise saab kasutaja valida käsitsi partii kindla asukoha ja litsentsiplaadi, selle asemel et lasta süsteemil need automaatselt valida. See võimalus on seotud tellimuse sooritatud partii reserveerimise mehhanismi kujundusega. Nagu varem mainitud, tuleb selleks, et lubada kindla partii numbri reserveerimist üksuse puhul, mis on märgitud jaotises *partii-alla\[asukoht\]*, peab süsteem reserveerima kõik dimensioonid asukoha kaudu. Seetõttu teeb lao töö samu ladustamise dimensioone, mis olid reserveeritud tellimustega töötavate kasutajate poolt, ja see ei pruugi alati kajastada kauba ladustamise paigutust, mis on mugav või isegi võimalik komplekteerimiseks. Kui tellimuse töötlejad on lao piirangutest teadlikud, võivad nad partii reserveerimisel käsitsi valida kindlad asukohad ja litsentsiplaadid. Sellisel juhul peab kasutaja kasutama lehekülje päises funktsiooni **Kuva dimensioonid** ja lisama asukoha ja litsentsiplaadi kiirkaardi **Ülevaade** ruudustikus.
 
 6. Valige lehel **Partii reserveerimine** partii **B11** jaoks rida ja seejärel käsk **Reserveeri rida**. Automaatsel reserveerimisel ei ole asukohtade ja litsentsiplaadi määramiseks loogikat määratud. Koguse saate sisestada käsitsi väljale **Reserveerimine**. Pange tähele, et kiirkaardi **Lähtereale määratud partiinumbrid** partii **B11** kuvatakse kui **Sooritatud**.
 
@@ -172,7 +170,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
     Tööl, mis tegeleb müügitellimuse reale pühendunud partii koguste komplekteerimisega, on järgmised omadused.
 
     - Töö loomiseks kasutab süsteem töömalle, kuid mitte asukoha direktiive. Kõik töömallide jaoks määratletud kindlad sätted, nt maksimaalne komplekteerimise read või kindel mõõtühik, rakendatakse uute tööde loomisel määramiseks. Siiski ei arvestata reegleid, mis on seotud asukoha direktiividega komplekteerimise asukohtade tuvastamiseks, kuna tellimusega kooskõlastatud reserveeringuga on juba määratud kõik varude dimensioonid. Need varude dimensioonid sisaldavad dimensioone lao ladustamise tasemel. Seetõttu pärib töö need dimensioonid, ilma et peaksite konsulteerima asukoha direktiividega.
-    - Partiinumbrit ei kuvata komplekteerimise real (nagu näiteks töörea puhul, mis luuakse kaubale, millel on seostatud „partii-üle\[-asukoht\]” reserveerimise hierarhia). Selle asemel kuvatakse seotud laokannete põhjal viidatud töökandes partiinumber ja kõik muud varude dimensioonid.
+    - Partiinumbrit ei kuvata komplekteerimise real (nagu näiteks töörea puhul, mis luuakse kaubale, millel on seostatud *partii-üle\[asukoht\]* reserveerimise hierarhia). Selle asemel kuvatakse seotud laokannete põhjal viidatud töökandes partiinumber ja kõik muud varude dimensioonid.
 
         ![Tellimusega kooskõlastatud reserveeringust pärinev lao laokande töö](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
@@ -215,7 +213,7 @@ Saate lubada litsentsiplaadi reserveerimise tellimusel juurutuse käigus igal aj
 
 Isegi kui märkeruut **Luba reserveerimine nõudetellimusel** on tasemel **Litsentsiplaat** valitud, *ei ole* siiski võimalik kindlat litsentsiplaati tellimusel reserveerida. Sel juhul rakendub laotoimingute vaikeloogika, mis kehtib selle reserveerimise hierarhia puhul.
 
-Konkreetse litsentsiplaadi reserveerimiseks peate kasutama [avatud andmeprotokolli (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) protsessi. Rakenduses saate teha reserveeringu otse müügitellimusel, kasutades käsu **Ava Excelis** valikut **Tellimusega seotud reserveeringud litsentsiplaadi kohta**. Te peate sisestama Exceli lisandmoodulis avanenud üksuse andmetes järgmised reserveeringuga seotud andmed ja valima seejärel **Avalda**, et saata andmed tagasi Supply Chain Managementi.
+Kindla litsentsiplaadi reserveerimiseks peate kasutama [Open Data Protocoli (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) protsessi. Rakenduses saate seda reserveeringut teha otse müügitellimusest, kasutades käsku **Ava Excelis** **tellimusse kooskõlastatud reserveeringuid litsentsiplaadi** kohta. Te peate sisestama Exceli lisandmoodulis avanenud üksuse andmetes järgmised reserveeringuga seotud andmed ja valima seejärel **Avalda**, et saata andmed tagasi Supply Chain Managementi.
 
 - Viide (toetatud on ainult väärtus *Müügitellimus*.)
 - Tellimuse number (väärtust saab tuletada partiist.)
@@ -409,7 +407,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige suvand <strong>Alista asukoht</strong> laorakenduses, kui käivitate töö komplekteerimise.</li>
+<li>Valige suvand <strong>Alista asukoht</strong> lao mobiilirakenduses Warehouse Management, kui käivitate töö komplekteerimise.</li>
 <li>Valige <strong>Soovita</strong>.</li>
 <li>Kinnitage uus asukoht, mis on soovitatud partii koguse kättesaadavuse alusel.</li>
 </ol>
@@ -426,7 +424,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige suvand <strong>Alista asukoht</strong> laorakenduses, kui käivitate töö komplekteerimise.</li>
+<li>Valige suvand <strong>Alista asukoht</strong> lao mobiilirakenduses Warehouse Management, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage asukoht käsitsi.</li>
 </ol>
 </td>
@@ -454,7 +452,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Pole kohaldatav</td>
 <td>
 <ol>
-<li>Valige laorakenduses menüüsuvand <strong>Täis</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige lao mobiilirakenduses Warehouse Management menüüsuvand <strong>Täis</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteeri kogus</strong> nõutava komplekteerimise osaline kogus, et näidata kogu võimsust.</li>
 </ol>
 </td>
@@ -529,7 +527,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Alustage teisaldamist laorakenduses.</li>
+<li>Laohalduse mobiilirakenduse liikumise alustamine.</li>
 <li>Sisestage alg- ja lõppasukohad.</li>
 </ol></td>
 <td>
@@ -645,7 +643,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige lao mobiilirakenduses Warehouse Management menüüsuvand <strong>Vali kiirelt</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Väljale <strong>Põhjus</strong> sisestage väärtus <strong>Ümberjaotamine puudub</strong>.</li>
 </ol>
@@ -674,7 +672,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige lao mobiilirakenduses Warehouse Management menüüsuvand <strong>Vali kiirelt</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Väljale <strong>Põhjus</strong> sisestage väärtus <strong>Ümberjaotamine puudub</strong>.</li>
 </ol>
@@ -698,7 +696,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige lao mobiilirakenduses Warehouse Management menüüsuvand <strong>Vali kiirelt</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 <li>Valige loendist asukoht/litsentsiplaat.</li>
@@ -724,7 +722,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige lao mobiilirakenduses Warehouse Management menüüsuvand <strong>Vali kiirelt</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 </ol>
@@ -737,7 +735,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige lao mobiilirakenduses Warehouse Management menüüsuvand <strong>Vali kiirelt</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 <li>Valige loendist asukoht/litsentsiplaat.</li>
@@ -761,7 +759,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Pole kohaldatav</td>
 <td>
 <ol>
-<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige lao mobiilirakenduses Warehouse Management menüüsuvand <strong>Vali kiirelt</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos automaatse ümberjaotamisega</strong>.</li>
 </ol>
@@ -853,6 +851,14 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
     - Üleviimistellimuste ja toormaterjalide komplekteerimine
 
 - Konteineri konsolideerimise reeglil on direktiivi ühiku alusel pakkimisel piirangud. Tellimusega kooskõlastatud reserveeringute puhul on soovitatav mitte kasutada konteineri loomise malle, mille puhul väli **Pakk direktiiviühiku järgi** on lubatud. Praeguses kujunduses ei kasutata asukoha direktiive laotöö loomisel. Seetõttu rakendatakse konteinerite voo etapis ainult madalaimat ühikut ühikute seeriagrupis (laoühikutes).
+
+## <a name="see-also"></a>Vt ka
+
+- [Partiinumbrid laohalduses](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [Sama partii reserveerimine müügitellimuse jaoks](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Vanima partii komplekteerimine mobiilsel seadmel](pick-oldest-batch.md)
+- [Partii ja litsentsiplaadi kinnitus](batch-and-license-plate-confirmation.md)
+- [Reserveerimiste tõrkeotsing laohalduses](troubleshoot-warehouse-reservations.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Ladustatavad kogumid
 description: Kogumite ladustamine pakub võimalust komplekteerida mitu identifitseerimisnumbrit samal ajal ja seejärel neid erinevates asukohtades ladustada. Need võivad olla väga kasulikud jaemüügi ettevõtetele, kus identifitseerimisnumbrid ei ole tavaliselt täis kaubaalused.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228437"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840361"
 ---
 # <a name="putaway-clusters"></a>Ladustatavad kogumid
 
@@ -230,7 +228,7 @@ See stsenaarium simuleerib ladustatava kogumi töötlemist.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Võtke kaup vastu ja sortige kogumisse
 
-1. Logige laorakendusse sisse kasutajana, kes on lao *61* jaoks seadistatud.
+1. Logige mobiilirakendusse Warehouse Management sisse kasutajana, kes on seadistatud lao *61* jaoks.
 1. Valige peamenüüs suvand **Sissetulev**.
 1. **Sissetulev** menüüs valige **Võta vastu ja sordi kogum**.
 1. Sisestage väljale **Ponum** ostutellimuse number.
@@ -272,7 +270,7 @@ Enne kui kogumis olevad kaubad saab ladustada, peab kogum olema suletud.
 
 #### <a name="put-the-cluster-away"></a>Ladusta kogum
 
-1. Logige laorakendusse sisse kasutajana, kes on lao *61* jaoks seadistatud.
+1. Logige mobiilirakendusse Warehouse Management sisse kasutajana, kes on seadistatud lao *61* jaoks.
 1. Valige peamenüüs suvand **Sissetulev**.
 1. Valige **Sissetulev** menüüs **Kogumi ladustamine**.
 1. Valige **Kogumi ID** ja sisestage kogumi ID, mille sisestasite varasemalt suletud kogumi jaoks.

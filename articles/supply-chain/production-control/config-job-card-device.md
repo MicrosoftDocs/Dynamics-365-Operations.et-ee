@@ -2,11 +2,9 @@
 title: Töökaardi konfigureerimine seadmetele
 description: Selles teemas kirjeldatakse mitmesuguseid võimalusi töökaardi seadme konfigureerimiseks.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c139fb7daa0f40b6b7afb0a707f714502d3146d1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ccfbadb48e2ecd274e68201bbbc7858ab01203a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246353"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836586"
 ---
 # <a name="configure-job-card-for-devices"></a>Töökaardi konfigureerimine seadmetele
 
@@ -50,7 +48,7 @@ Selle funktsiooni kättesaadavaks muutmiseks lubage [funktsioonihalduses](../../
 
 Selle funktsiooni kättesaadavaks muutmiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmine funktsioon.
 
-- (Eelversioon) Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
+- Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
 
 ## <a name="manage-your-device-configurations"></a>Seadme konfiguratsioonide haldamine
 

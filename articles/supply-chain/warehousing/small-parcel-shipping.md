@@ -2,11 +2,9 @@
 title: Väikepaki saatmine
 description: Sellest teemast leiate teavet väikepaki saatmise (SPS) funktsiooni kohta. See funktsioon võimaldab rakendusel Microsoft Dynamics 365 Supply Chain Management esitada üksikasju pakitud konteineri kohta vedajale ja seejärel saada sellelt vedajalt tagasi saadetise silt, tarnemäär ja jälgimisnumber.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501170"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831166"
 ---
 # <a name="small-parcel-shipping"></a>Väikepaki saatmine
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Väikepaki saatmise (SPS) funktsioon võimaldab rakendusel Microsoft Dynamics 365 Supply Chain Management suhelda otse vedajatega, pakkudes raamistikku vedaja API-de kaudu suhtlemiseks. See funktsioon on kasulik, kui saadate individuaalseid müügitellimusi kommertsvedajate kaudu, mitte kasutades konteineriga saatmist või vähem kui koormatäis (LTL) saatmist.
 

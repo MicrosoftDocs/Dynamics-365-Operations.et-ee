@@ -2,11 +2,9 @@
 title: Komplekteerimise ja pakkimise tõrkeotsing
 description: Selles teemas kirjeldatakse, kuidas lahendada komplekteerimisel ja pakkimisel tekkivaid probleeme Microsoft Dynamics 365 Supply Chain Management rakenduses.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 01e33b63e09a035f5243bd57faf53b522737c987
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a54fa9dc21fb1691d74905a1215f4dfea31f136
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223238"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828126"
 ---
 # <a name="troubleshoot-picking-and-packing"></a>Komplekteerimise ja pakkimise tõrkeotsing
 
@@ -44,7 +42,7 @@ See tõrketeade kuvatakse, kui loote seeriaüksusele üleviimistellimuse, kasuta
 
 ### <a name="issue-description"></a>Probleemi kirjeldus
 
-See tõrketeade kuvatakse laorakenduses, kui skaneerite identifitseerimisnumbri või asukoha.
+See tõrketeade kuvatakse mobiilirakenduses Warehouse Management, kui skaneerite identifitseerimisnumbri või asukoha.
 
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
@@ -68,7 +66,7 @@ Te saate selle tõrketeate, kui püüate sooritada *tükeldatud komplekteerimist
 
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
-Laotööline peab laorakenduses kasutama *Lühikese komplekteerimise* protsessi. Kui proovite komplekteerida mitut partiid samast asukohast, saate laorakenduses kasutada ka **Täielikku** valikut.
+Laotööline peab mobiilirakenduses Warehouse Management kasutama *Lühikese komplekteerimise* protsessi. Kui proovite komplekteerida mitut partiid samast asukohast, saate rakenduses kasutada ka **Täielikku** valikut.
 
 ## <a name="i-cant-move-inventory-to-a-location-that-is-license-platecontrolled"></a>Ma ei saa liigutada kaupa asukohta, mis on identifitseerimisnumbri järgi kontrollitud.
 

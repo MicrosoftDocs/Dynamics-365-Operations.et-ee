@@ -2,11 +2,9 @@
 title: Saabuvate kaupade laotoimingute tõrkeotsing
 description: Selles teemas kirjeldatakse, kuidas lahendada saabuvate kaupade laotoimingutega töötamisel tekkivaid probleeme Microsoft Dynamics 365 Supply Chain Management rakenduses.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250878"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828222"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Saabuvate kaupade laotoimingute tõrkeotsing
 
@@ -65,5 +63,22 @@ Uus sissetuleva koorma käitlemise funktsioon *Koorma koguste ülelaekumine* lah
 
 Lisateavet vt teemast [Registreeritud toodete koguste sisestamine ostutellimuste eest](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Sissetulevate tellimuste registreerimisel kuvatakse järgmine tõrketeade: "Kogus on kehtetu".
+
+### <a name="issue-description"></a>Probleemi kirjeldus
+
+Kui väli **Litsentsiplaadi grupeerimise poliitika** on seatud väärtusele *Kasutaja määratud* mobiilse seadme menüükäsule, mida kasutatakse sissetulevate tellimuste registreerimiseks, saate tõrketeate ("Kogus on kehtetu") ja registreerimist ei saa lõpule viia.
+
+### <a name="issue-cause"></a>Väljastamise põhjus
+
+Kui *kasutaja määratletud* on kasutatud litsentsiplaadi grupeerimispoliitikana, tükeldab süsteem sissetulevad varud eraldi litsentsiplaatideks, nagu näitab ka ühiku seeriagrupp. Kui vastuvõetava kauba jälgimiseks kasutatakse partii- või seerianumbreid, tuleb iga partii või seerianumbri kogus registreerida registreeritud numbrimärgi kohta. Kui litsentsiplaadi jaoks määratud kogus ületab koguse, mis praeguste mõõtmete jaoks tuleb veel saada, kuvatakse tõrketeade.
+
+### <a name="issue-resolution"></a>Probleemi lahendamine
+
+Kui registreerite kauba mobiilse seadme menüü-üksuse abil, kus väli **Litsentsiplaadi grupeerimise poliitika** väärtuseks on seatud *Kasutaja määratud*, võib süsteem nõuda litsentsiplaadi numbrite, partii- või seerianumbrite kinnitamist või sisestamist.
+
+Litsentsiplaadi kinnituslehel näitab süsteem praeguse litsentsiplaadi jaoks eraldatud kogust. Partii- või seeriakinnituse lehtedel näitab süsteem kogust, mis praegusel litsentsiplaadile peab veel laekuma. See hõlmab ka välja, kus saate sisestada koguse, et registreerida see litsentsiplaadi ja partii- või seerianumbri kombinatsioon. Sel juhul veenduge, et litsentsiplaadile registreeritav kogus ei ületaks vastuvõetud kogust.
+
+Kui sissetuleva tellimuse registreerimisel luuakse liiga palju litsentsiplaate, saab välja **Litsentsiplaadi grupeerimise poliitika** väärtust muuta väärtuseks *Litsentsiplaadi grupeerimine*, määrata kaubale uus ühiku seeriagrupp või üksuse seeriagrupi suvand **litsentsiplaadi grupeerimise** inaktiveerida.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

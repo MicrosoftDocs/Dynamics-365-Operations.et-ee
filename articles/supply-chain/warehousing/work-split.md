@@ -2,11 +2,9 @@
 title: Töö tükeldamine
 description: Selles teemas kirjeldatakse töö jaotamise funktsiooni. See funktsioon võimaldab teil tükeldada suured töötellimused mitmeks väiksemaks töötellimuseks, mille saate määrata mitmele lao töötajale. Sel viisil saab sama tööd üheaegselt komplekteerida mitu lao töötajat.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245078"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830758"
 ---
 # <a name="work-split"></a>Töö tükeldamine
 
@@ -69,7 +67,7 @@ Funktsioon *Töö tükeldamine* lisab järgmised kaks nuppu tegumiriba **Töö**
 >
 > - Töö on hetkel tükeldatud teise kasutaja poolt. Kui proovite avada tükeldamise lehte töö jaoks, mida teine kasutaja juba tükeldab, kuvatakse järgmine tõrketeade: "Töö ID-ga \#\#\#\# on hetkel tükeldatud. Proovige mõne minuti pärast uuesti. Kui saate pidevalt seda teadet, võtke ühendust juhendajaga."
 
-Uus töö blokeerimise põhjus, *Tükeldatud töö*, näitab, millal on töö ID tükeldamise protsessis. See kuvatakse **Töö tükeldamise** lehel kui ka laorakenduses, kui kasutaja proovib tööd teha. Blokeerimise põhjuste kasutamisel muudetakse **Blokeeritud voo** välja nimi töö ID-lt olekusse **Blokeeritud**.
+Uus töö blokeerimise põhjus, *Tükeldatud töö*, näitab, millal on töö ID tükeldamise protsessis. See kuvatakse **Töö tükeldamise** lehel kui ka mobiilirakenduses Warehouse Management, kui kasutaja proovib tööd teha. Blokeerimise põhjuste kasutamisel muudetakse **Blokeeritud voo** välja nimi töö ID-lt olekusse **Blokeeritud**.
 
 ## <a name="initiate-a-work-split"></a>Alusta töö tükeldamist
 
@@ -147,9 +145,9 @@ Töö tükeldamise lõpetamiseks tuleb eemaldada *Töö tükeldamise* blokeerimi
 
 Pärast *Töö tükeldamise* blokeerimise põhjuse eemaldamist saab tööd mobiilsel seadmel käitada tingimusel, et Töö ID **Blokeeritud** olekuks on määratud *Ei*.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Kasutaja blokeerimine lao rakenduses
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse kasutaja blokeerimine
 
-Kui proovite laorakenduses avada tükeldamise lehte töö ID-ga, mida teine kasutaja juba tükeldab, kuvatakse järgmine tõrketeade: "Töö ID \#\#\#\# on hetkel tükeldatud." Kui kuvatakse järgneb sõnum, vajutage **Tühista**. Seejärel saate jätkata teiste tööde töötlemist.
+Kui proovite mobiilirakenduses Warehouse Management avada tükeldamise lehte töö ID-ga, mida teine kasutaja juba tükeldab, kuvatakse järgmine tõrketeade: "Töö ID \#\#\#\# on hetkel tükeldatud." Kui kuvatakse järgneb sõnum, vajutage **Tühista**. Seejärel saate jätkata teiste tööde töötlemist.
 
 ## <a name="other-blocked-operations"></a>Muud blokeeritud toimingud
 

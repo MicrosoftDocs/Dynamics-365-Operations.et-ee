@@ -2,11 +2,9 @@
 title: Laotellimused pilv- ja perimeeterskaalaüksuste jaoks
 description: See teema annab teavet lao tellimuste võimaluse kohta, mida kasutatakse lao skaalaühiku töökoormuse osana.
 author: perlynne
-manager: tfeyr
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556358"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836682"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Laotellimused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -38,7 +36,7 @@ ms.locfileid: "5556358"
 
 *Laotellimused* on tellimuse tüüp, mis loodi keskuse ja skaalaüksuse lao juurutuste toetamiseks. Need võimaldavad teil lao töökoormuse skaalaühikus käitamisel võtta vastu varusid. Neid kasutatakse praegu ainult ostutellimustega.
 
-Laotellimusi kasutatakse laohalduse töötlemise osana, näiteks kui laorakendust kasutatakse sissetuleva ostutellimuse töötlemisel füüsilise vaba kaubavaru registreerimiseks. Laotellimused luuakse osana *lattu vabastamise* protsessist, mis on saadaval ostutellimustele, mis määratlevad kaaluühiku lao ja kaubad, mis on lubatud laohaldusprotsesside kasutamiseks.
+Laotellimusi kasutatakse laohalduse töötlemise osana, näiteks kui mobiilirakendust Warehouse Management kasutatakse sissetuleva ostutellimuse töötlemisel füüsilise vaba kaubavaru registreerimiseks. Laotellimused luuakse osana *lattu vabastamise* protsessist, mis on saadaval ostutellimustele, mis määratlevad kaaluühiku lao ja kaubad, mis on lubatud laohaldusprotsesside kasutamiseks.
 
 > [!IMPORTANT]
 > Laotellimused on saadaval ainult juurutustes, mis kasutavad [laohaldustöökoormusi pilv- ja perimeeterskaalaüksuste](cloud-edge-workload-warehousing.md) jaoks.
@@ -70,7 +68,7 @@ Laotellimuse ridade tühistamiseks tehke järgmist.
 
 ## <a name="monitor-a-warehouse-order"></a>Laotellimuse jälgimine
 
-Vaates **Laotellimuse read** saate jälgida sissetuleva vastuvõtu edenemist, vaadates väärtuseid veerus **Vastuvõtmiseks järelejäänud kogus**. Laorakenduse abil tehtud tööga seotud üksikasjade vaatamiseks järgige ühte järgmistest sammudest.
+Vaates **Laotellimuse read** saate jälgida sissetuleva vastuvõtu edenemist, vaadates väärtuseid veerus **Vastuvõtmiseks järelejäänud kogus**. Mobiilirakenduse Warehouse Management abil tehtud tööga seotud üksikasjade vaatamiseks järgige ühte järgmistest sammudest.
 
 - Avage **Laohaldus \> Päringud ja aruanded \> Laotellimuse read** ja kasutage otsitavate ridade leidmiseks filtrit.
 - Avage **Hanked \> Ostutellimused \> Kõik ostutellimused** ja avage seotud ostutellimus. Jaotises **Ostutelimuse read** valige üks või mitu rida ja seejärel valige tööriistaribal **Ladu \> Lao sissetuleku kirjed**.

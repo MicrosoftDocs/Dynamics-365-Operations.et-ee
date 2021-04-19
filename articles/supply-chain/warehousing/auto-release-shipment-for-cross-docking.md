@@ -2,11 +2,9 @@
 title: Saadetise automaatne vabastamine ristlaadimiseks
 description: See teemas kirjeldatakse ristlaadimise strateegiat, mille abil saate automaatselt vabastada nõudlustellimuse lattu, kui tootmistellimus, mis tarnib nõudluskoguse, on kinnitatud lõpetatuks, nii et kogus teisaldatakse otse toodangu vabastamise asukohast väljaminevasse asukohta.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233171"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831430"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Saadetise automaatne vabastamine ristlaadimiseks
 
@@ -163,7 +161,7 @@ Lõpetatud kauba koguse ristlaadimiseks seotud müügitellimuse väljaminevasse 
 8. Valige lehe **Tootmistellimus** toimingupaani vahekaardi **Tootmistellimus** grupis **Protsess** üksus **Hinda** ja seejärel valige **OK**. Tellimust hinnatakse ja toormaterjali kogus reserveeritakse tootmiseks.
 9. Valige toimingupaani vahekaardi **Tootmistellimus** grupis **Protsess** üksus **Vabasta** ja seejärel valige **OK**. Toormaterjalide jaoks luuakse lao komplekteerimistöö.
 10. Avage töö ja vaadake see üle. Valige toimingupaani vahekaardil **Ladu** grupis **Seotud teave** üksus **Töö üksikasjad**. Märkige üles töö ID.
-11. Logige sisse laorakendusse, et käivitada töö laos 51.
+11. Logige sisse mobiilirakendusse Warehouse Management, et käivitada töö laos 51.
 12. Avage **Tootmine** \> **Tootmise komplekteerimine**.
 13. Sisestage töö ID, et alustada toormaterjali komplekteerimist ja viia see lõpule. 
 

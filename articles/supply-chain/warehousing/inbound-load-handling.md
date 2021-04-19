@@ -2,11 +2,9 @@
 title: Ostutellimuste sissetulevate koormate laohaldus
 description: Selles teemas kirjeldatakse ostutellimuste sissetulevate koormate laohaldusprotsessi.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235336"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835626"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Ostutellimuste sissetulevate koormate laohaldus
 
@@ -66,7 +64,7 @@ Kui sissetulev koorem saabub lattu, peavad laotöötajad registreerima saadetise
 
 - **Mobiilse seadme menüü, mis on konfigureeritud toetama koorma vastuvõtmist**
 
-    Mobiilsete seadmete jaoks mõeldud [laorakendus](install-configure-warehousing-app.md) toetab järgmisi töö loomise protsesse.
+    Mobiilsete seadmete jaoks mõeldud [mobiilirakendus Warehouse Management](../warehousing/install-configure-warehouse-management-app.md) toetab järgmisi töö loomise protsesse.
 
     - Vastuvõetav koormas olev kaup
     - Vastuvõetav ja kõrvaleseatav koormas olev kaup
@@ -285,7 +283,7 @@ Nende stsenaariumide kasutamiseks määratud näidiskirjete ja -väärtuste abil
 
 Enne kui lao vastuvõtuametnikud saavad koormaga seotud sissetulevate varude registreerimiseks kasutada mobiilset seadet, peate selleks looma mobiilse seadme menüükäsu.
 
-Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevasse menüüsse. Laotöötaja saab seejärel valida menüükäsu laorakenduses.
+Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevasse menüüsse. Laotöötaja saab seejärel valida menüükäsu mobiilirakenduses Warehouse Management.
 
 1. Avage **Laohaldus \> Seadistamine \> Mobiilne seade \> Mobiilse seadme menüükäsud** ja veenduge, et teie mobiilse seadme menüü sisaldab menüükäsku, millel on järgmised sätted.
 
