@@ -80,7 +80,7 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Täiendus ja N-1 tugi
               items:
-                - name: Täiendus ja N-1 tugi Commerce'i jaoks
+                - name: Täiendus ja Commerce'i N-1 tugi
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Installimine, konfigureerimine ja üleminek etapiviisilise levitamise (N-1) puhul'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -280,7 +280,7 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Stationi konfigureerimine ja installimine
                   href: retail-hardware-station-configuration-installation.md
-                - name: Iseteeninduse komponentide hulgijuurutus
+                - name: Iseteeninduse pärandkomponentide hulgijuurutus
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Commerce'i komponentide sündmused diagnostika ja tõrkeotsingu jaoks
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -1056,11 +1056,21 @@
                       href: author-header-module.md
                     - name: Jalusemoodul
                       href: author-footer-module.md
+                - name: 'Lehe, metaandmete ja skripti moodulid'
+                  items:
+                    - name: Vaikelehe moodul
+                      href: default-page-module.md
+                    - name: Lehe kokkuvõtte moodulid
+                      href: page-summary-module.md
+                    - name: Metasiltide moodul
+                      href: metatags-module.md
+                    - name: Välise ja tekstisisese skripti moodulid
+                      href: script-module.md
                 - name: Toote üksikasjade lehe moodulid
                   items:
-                    - name: Ostukastimoodul
+                    - name: Ostukasti moodul
                       href: add-buy-box.md
-                    - name: Meediumigaleriimoodul
+                    - name: Meediumigalerii moodul
                       href: media-gallery-module.md
                     - name: Hinnangute ja arvustuste moodulid
                       href: ratings-reviews-modules.md

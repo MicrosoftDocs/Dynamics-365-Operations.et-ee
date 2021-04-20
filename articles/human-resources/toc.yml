@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 5. aprill 2021
+          href: hr-whats-new-2021-04-05.md
         - name: 22. märts 2021
           href: hr-whats-new-2021-03-22.md
         - name: 8. märts 2021
@@ -305,6 +307,8 @@
               href: hr-admin-integration-choose-technology.md
             - name: Dataverse'i integratsiooni konfigureerimine
               href: hr-admin-integration-common-data-service.md
+            - name: Dataverse'i virtuaalsete tabelite konfigureerimine
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Integratsiooni konfigureerimine Finance’iga
               href: hr-admin-integration-finance.md
             - name: Integratsiooni konfigureerimine Dayforce’iga
@@ -319,8 +323,14 @@
                   href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Excelis avamise kogemuste loomine
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Office’i integreerimise tõrkeotsing
+                - name: Office'i integreerimise tõrkeotsing
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Dataverse'i virtuaalsete tabelitega arenduse tõrkeotsing
+          items:
+            - name: Dataverse'i virtuaalsete tabelite päringute optimeerimine
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Human Resourcesi virtuaalsete tabelite KKK
+              href: hr-admin-virtual-entity-faq.md
         - name: Üksuse API viide
           items:
             - name: Autentimine
@@ -419,11 +429,27 @@
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: Oskuse taseme tüüp
                   href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: Palgaarvestuse integratsiooni API
+          items:
+            - name: Sissejuhatus
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Palgaarvestuse üksuste loomine ja ülevaatus
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Palgaarvestuse töövõtja
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: Palgaarvestuse töötaja aadress
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: Palgaarvestuse põhipalgaplaan
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: Palga positsiooni töö
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Palga positsioon
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: Kasutusjuhend
       items:
         - name: Ülevaade
           href: hr-hrpro-overview.md
-        - name: Human Resourcesi häälestamine
+        - name: Rakenduse Human Resources häälestamine
           items:
             - name: Human Resourcesi parameetrite konfigureerimine
               href: hr-setup-parameters.md
