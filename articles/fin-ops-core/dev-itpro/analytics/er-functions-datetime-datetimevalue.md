@@ -15,68 +15,68 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cec8f16e683c7eb808fc353830f2baa5c46e31d1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: db5b2c56f0c6dcc019419801821d7a6eae8a0e91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747007"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891277"
 ---
-# <a name="datetimevalue-er-function"></a><span data-ttu-id="d203f-103">ER-i funktsioon DATETIMEVALUE</span><span class="sxs-lookup"><span data-stu-id="d203f-103">DATETIMEVALUE ER function</span></span>
+# <a name="datetimevalue-er-function"></a><span data-ttu-id="c22c2-103">ER-i funktsioon DATETIMEVALUE</span><span class="sxs-lookup"><span data-stu-id="c22c2-103">DATETIMEVALUE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d203f-104">Funktsioon `DATETIMEVALUE` tagastab *kuupäeva ja kellaaja* väärtuse, mis on antud teksti väärtusest konverteeritud väärtus määratud vormingus tekstina ja valikuliselt määratletud kuupäeva/kellaaja väärtuse [kultuuris](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span><span class="sxs-lookup"><span data-stu-id="d203f-104">The `DATETIMEVALUE` function returns a *DateTime* value that is converted from a given text value in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date/time value.</span></span> <span data-ttu-id="d203f-105">Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="d203f-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
+<span data-ttu-id="c22c2-104">Funktsioon `DATETIMEVALUE` tagastab *kuupäeva ja kellaaja* väärtuse, mis on antud teksti väärtusest konverteeritud väärtus määratud vormingus tekstina ja valikuliselt määratletud kuupäeva/kellaaja väärtuse [kultuuris](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span><span class="sxs-lookup"><span data-stu-id="c22c2-104">The `DATETIMEVALUE` function returns a *DateTime* value that is converted from a given text value in the specified format and in an optionally specified [culture](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date/time value.</span></span> <span data-ttu-id="c22c2-105">Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](/dotnet/standard/base-types/standard-date-and-time-format-strings) ja [kohandatud](/dotnet/standard/base-types/custom-date-and-time-format-strings).</span><span class="sxs-lookup"><span data-stu-id="c22c2-105">For information about the supported formats, see [standard](/dotnet/standard/base-types/standard-date-and-time-format-strings) and [custom](/dotnet/standard/base-types/custom-date-and-time-format-strings).</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="d203f-106">Süntaks 1</span><span class="sxs-lookup"><span data-stu-id="d203f-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="c22c2-106">Süntaks 1</span><span class="sxs-lookup"><span data-stu-id="c22c2-106">Syntax 1</span></span>
 
 ```vb
 DATETIMEVALUE (text, format)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="d203f-107">Süntaks 2</span><span class="sxs-lookup"><span data-stu-id="d203f-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="c22c2-107">Süntaks 2</span><span class="sxs-lookup"><span data-stu-id="c22c2-107">Syntax 2</span></span>
 
 ```vb
 DATETIMEVALUE (text, format, culture)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d203f-108">Argumendid</span><span class="sxs-lookup"><span data-stu-id="d203f-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="c22c2-108">Argumendid</span><span class="sxs-lookup"><span data-stu-id="c22c2-108">Arguments</span></span>
 
-<span data-ttu-id="d203f-109">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="d203f-109">`text`: *String*</span></span>
+<span data-ttu-id="c22c2-109">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="c22c2-109">`text`: *String*</span></span>
 
-<span data-ttu-id="d203f-110">Tekst, mis tähistab vormindatavat väärtust.</span><span class="sxs-lookup"><span data-stu-id="d203f-110">Text that represents the value to format.</span></span>
+<span data-ttu-id="c22c2-110">Tekst, mis tähistab vormindatavat väärtust.</span><span class="sxs-lookup"><span data-stu-id="c22c2-110">Text that represents the value to format.</span></span>
 
-<span data-ttu-id="d203f-111">`format`: *string*</span><span class="sxs-lookup"><span data-stu-id="d203f-111">`format`: *String*</span></span>
+<span data-ttu-id="c22c2-111">`format`: *string*</span><span class="sxs-lookup"><span data-stu-id="c22c2-111">`format`: *String*</span></span>
 
-<span data-ttu-id="d203f-112">Antud teksti vorming.</span><span class="sxs-lookup"><span data-stu-id="d203f-112">The format of the given text.</span></span>
+<span data-ttu-id="c22c2-112">Antud teksti vorming.</span><span class="sxs-lookup"><span data-stu-id="c22c2-112">The format of the given text.</span></span>
 
-<span data-ttu-id="d203f-113">`culture`: *string*</span><span class="sxs-lookup"><span data-stu-id="d203f-113">`culture`: *String*</span></span>
+<span data-ttu-id="c22c2-113">`culture`: *string*</span><span class="sxs-lookup"><span data-stu-id="c22c2-113">`culture`: *String*</span></span>
 
-<span data-ttu-id="d203f-114">Kultuur, mida kasutatakse antud teksti vormindamiseks.</span><span class="sxs-lookup"><span data-stu-id="d203f-114">The culture that is used for formatting of the given text.</span></span>
+<span data-ttu-id="c22c2-114">Kultuur, mida kasutatakse antud teksti vormindamiseks.</span><span class="sxs-lookup"><span data-stu-id="c22c2-114">The culture that is used for formatting of the given text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d203f-115">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="d203f-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="c22c2-115">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="c22c2-115">Return values</span></span>
 
-<span data-ttu-id="d203f-116">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="d203f-116">*DateTime*</span></span>
+<span data-ttu-id="c22c2-116">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="c22c2-116">*DateTime*</span></span>
 
-<span data-ttu-id="d203f-117">Tulemiks saadud kuupäeva/kellaaja väärtus.</span><span class="sxs-lookup"><span data-stu-id="d203f-117">The resulting date/time value.</span></span>
+<span data-ttu-id="c22c2-117">Tulemiks saadud kuupäeva/kellaaja väärtus.</span><span class="sxs-lookup"><span data-stu-id="c22c2-117">The resulting date/time value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="d203f-118">Kasutamise märkused</span><span class="sxs-lookup"><span data-stu-id="d203f-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="c22c2-118">Kasutamise märkused</span><span class="sxs-lookup"><span data-stu-id="c22c2-118">Usage notes</span></span>
 
-<span data-ttu-id="d203f-119">Kui kultuur pole määratletud kutsutud funktsiooni argumendina, määratleb olemi `culture` väärtuse kutse kontekst.</span><span class="sxs-lookup"><span data-stu-id="d203f-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="d203f-120">Näiteks kui funktsioon `DATETIMEVALUE` on kutsutud kasutades süntaksit 1 elektroonilise aruandluse (ER) vormingus elemendile **FILE**, mis on konfigureeritud kasutama saksa kultuuri, toimub teisendamine saksa kultuuri kasutades.</span><span class="sxs-lookup"><span data-stu-id="d203f-120">For example, if the `DATETIMEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="d203f-121">Olemi `culture` vaikeväärtus on **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="d203f-121">The default `culture` value is **EN-US**.</span></span>
+<span data-ttu-id="c22c2-119">Kui kultuur pole määratletud kutsutud funktsiooni argumendina, määratleb olemi `culture` väärtuse kutse kontekst.</span><span class="sxs-lookup"><span data-stu-id="c22c2-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="c22c2-120">Näiteks kui funktsioon `DATETIMEVALUE` on kutsutud kasutades süntaksit 1 elektroonilise aruandluse (ER) vormingus elemendile **FILE**, mis on konfigureeritud kasutama saksa kultuuri, toimub teisendamine saksa kultuuri kasutades.</span><span class="sxs-lookup"><span data-stu-id="c22c2-120">For example, if the `DATETIMEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="c22c2-121">Olemi `culture` vaikeväärtus on **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="c22c2-121">The default `culture` value is **EN-US**.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="d203f-122">Näide 1</span><span class="sxs-lookup"><span data-stu-id="d203f-122">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="c22c2-122">Näide 1</span><span class="sxs-lookup"><span data-stu-id="c22c2-122">Example 1</span></span>
 
-<span data-ttu-id="d203f-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` tagastab tulemuse **2:55:00 21. detsembril 2016**, mis põhineb määratletud kohandatud vormingul ja vaikerakenduse **EN-US** kultuuril.</span><span class="sxs-lookup"><span data-stu-id="d203f-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
+<span data-ttu-id="c22c2-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` tagastab tulemuse **2:55:00 21. detsembril 2016**, mis põhineb määratletud kohandatud vormingul ja vaikerakenduse **EN-US** kultuuril.</span><span class="sxs-lookup"><span data-stu-id="c22c2-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="d203f-124">Näide 2</span><span class="sxs-lookup"><span data-stu-id="d203f-124">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="c22c2-124">Näide 2</span><span class="sxs-lookup"><span data-stu-id="c22c2-124">Example 2</span></span>
 
-<span data-ttu-id="d203f-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` tagastab tulemuse **2:55:00 21. detsembril 2016**, mis põhineb määratletud kohandatud vormingul ja kultuuril.</span><span class="sxs-lookup"><span data-stu-id="d203f-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and culture.</span></span>
+<span data-ttu-id="c22c2-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` tagastab tulemuse **2:55:00 21. detsembril 2016**, mis põhineb määratletud kohandatud vormingul ja kultuuril.</span><span class="sxs-lookup"><span data-stu-id="c22c2-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and culture.</span></span>
 
-<span data-ttu-id="d203f-126">Stringiga `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` ilmneb aga erand, mis teavitab kasutajat sellest, et seda stringi ei tuvastata määratletud kultuuri kehtiva kuupäeva/kellaaja väärtusena.</span><span class="sxs-lookup"><span data-stu-id="d203f-126">However, `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date/time value for the specified culture.</span></span>
+<span data-ttu-id="c22c2-126">Stringiga `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` ilmneb aga erand, mis teavitab kasutajat sellest, et seda stringi ei tuvastata määratletud kultuuri kehtiva kuupäeva/kellaaja väärtusena.</span><span class="sxs-lookup"><span data-stu-id="c22c2-126">However, `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date/time value for the specified culture.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d203f-127">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="d203f-127">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="c22c2-127">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c22c2-127">Additional resources</span></span>
 
-[<span data-ttu-id="d203f-128">Kuupäeva ja kellaaja funktsioonid</span><span class="sxs-lookup"><span data-stu-id="d203f-128">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="c22c2-128">Kuupäeva ja kellaaja funktsioonid</span><span class="sxs-lookup"><span data-stu-id="c22c2-128">Date and time functions</span></span>](er-functions-category-datetime.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
