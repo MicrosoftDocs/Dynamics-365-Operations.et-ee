@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8ddb74a2f0b6265c5be3c13a009211455ea862da
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793605"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893396"
 ---
 # <a name="dataverse-tables"></a>Dataverse'i tabelid
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793605"
 Microsoft Dynamics 365 Human Resources kasutab teenust Dataverse, et lubada laiendatavus ja integreerimise stsenaariumid.
 
 > [!NOTE]
-> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 Järgmised Dataverse'i tabelid on saadaval Human Resources'i olemite põhjal.
 
@@ -181,8 +181,8 @@ Järgmised Dataverse'i tabelid on saadaval Human Resources'i olemite põhjal.
 [Dataverse’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)<br>
 [Dataverse'i virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Human Resourcesi virtuaaltabelite KKK](hr-admin-virtual-entity-faq.md)<br>
-[Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Terminoloogia uuendused](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloogia uuendused](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838390"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911292"
 ---
 # <a name="work-with-location-directives"></a>Asukohakorraldustega töötamine
 
@@ -44,8 +44,8 @@ Enne asukohakorralduse loomist peate järgima neid samme, et veenduda, et eeltin
 1. Avage **Laohaldus \> Seadistus \> Ladu \> Laod**.
 1. Looge ladu.
 1. Seadke kiirkaardil **Ladu** suvandi **Kasuta laohaldusprotsesse** väärtuseks *Jah*.
-1. Looge asukohad, asukohatüübid, -profiilid ja -vormingud. Lisateavet lugege teemast [Asukohtade konfigureerimine WMS-loaga laos](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Looge kohad, tsoonid ja tsoonigrupid. Lisateavet lugege teemadest [Lao seadistamine](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) ja [Asukohtade konfigureerimine WMS-loaga laos](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Looge asukohad, asukohatüübid, -profiilid ja -vormingud. Lisateavet lugege teemast [Asukohtade konfigureerimine WMS-loaga laos](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Looge kohad, tsoonid ja tsoonigrupid. Lisateavet lugege teemadest [Lao seadistamine](../../commerce/channels-setup-warehouse.md) ja [Asukohtade konfigureerimine WMS-loaga laos](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Asukohakorralduste töökäsutüübid
 
@@ -143,7 +143,7 @@ Kiirkaardi **Asukohakorraldused** väljad on omased töökäsutüübile, mis on 
 - **Korralduse kood** – valige korralduse kood töömalli või täiendamismalliga seostamiseks. Lehel **Korralduse kood** saate luua uusi koode, mida saab kasutada töömalli või täiendamismalli ühendamiseks asukohakorraldusega. Korralduse koode saab kasutada ka seose loomiseks mis tahes töömalli rea ja asukohakorralduse vahel (nagu laadimisuks või vaheasukoht).
 
     > [!TIP]
-    > Kui korralduse kood on määratud, siis ei otsi süsteem töö loomisel asukohakorraldusi järjekorranumbri järgi. Selle asemel otsib see korralduse koodi järgi. Sel moel saate määrata täpsemalt asukohamalli, mida kasutatakse töömallis kindla etapi jaoks, nt materjalide ettevalmistamise etapi jaoks.
+    > Kui korralduse kood on määratud, siis ei otsi süsteem töö loomisel asukohakorraldusi järjekorranumbri järgi. Selle asemel otsib see korralduse koodi järgi. Sel moel saate määrata täpsemalt asukohadirektiivi, mida kasutatakse töömallis kindla etapi jaoks, nt materjalide ettevalmistamise etapi jaoks.
 
 - **Mitu SKU-d** – seadke selle suvandi väärtuseks *Jah*, et kasutada asukohas mitut varude arvestusühikut (SKU). Näiteks peab laadimisukse asukoha puhul olema lubatud mitu SKU-d. Mitme SKU lubamisel määratakse ladustamise asukoht töös ootuspäraselt. Kuid ladustamise asukoht saab käsitleda ainult mitme kaubaga ladustamist (kui töö hõlmab erinevaid SKU-sid, mis tuleb komplekteerida ja ladustada). See ei saa hakkama ühe SKU ladustamisega. Kui seate selle suvandi väärtuseks *Ei*, määratakse ladustamise asukoht ainult juhul, kui ladustamine hõlmab vaid üht tüüpi SKU-d.
 
@@ -249,7 +249,7 @@ Selle stsenaariumi puhul peate määratlema kaks asukohakorralduse toimingut. Es
 
 ## <a name="next-step"></a>Järgmine samm
 
-Pärast asukohakorralduste loomist saate töö loomiseks seostada iga korraldusekoodi töömalli koodiga. Lisateavet vaadake teemast [Laotöö juhtimine töömallide ja asukohadirektiividega](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Pärast asukohakorralduste loomist saate töö loomiseks seostada iga korraldusekoodi töömalli koodiga. Lisateavet vaadake teemast [Laotöö juhtimine töömallide ja asukohadirektiividega](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

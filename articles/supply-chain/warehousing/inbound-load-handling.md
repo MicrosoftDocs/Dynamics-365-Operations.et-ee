@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835626"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910011"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Ostutellimuste sissetulevate koormate laohaldus
 
 Selles teemas kirjeldatakse ostutellimuste sissetulevate koormate laohaldusprotsessi.
 
-Iga sissetuleva koorma kohta peaks teie süsteem juba sisaldama seotud müügitellimust ja see võib sisaldada ka seotud koorma spetsifikatsioone ja/või transpordiplaani. Lisateavet sissetulevate koormate loomise ja haldamise kohta vt teemast [Äriprotsess: sissetulevate koormate transpordi planeerimine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Iga sissetuleva koorma kohta peaks teie süsteem juba sisaldama seotud müügitellimust ja see võib sisaldada ka seotud koorma spetsifikatsioone ja/või transpordiplaani. Lisateavet sissetulevate koormate loomise ja haldamise kohta vt teemast [Äriprotsess: sissetulevate koormate transpordi planeerimine](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Ülevaade: sissetulevate koormate loomine, registreerimine ja vastuvõtmine
 
@@ -38,11 +38,11 @@ Järgmisel joonisel on kujutatud tüüpilist kaubavoogu sissetulevate koormate k
 
 1. **Sissetuleva koorma kirje luuakse koorma saabumise ja selle sisu plaanimiseks.**
 
-    Sissetuleva koorma kirje tähistab ühe või mitme ostutellimuse hankija saadetist. Koorem peaks saabuma lattu ühe füüsilise transpordiüksusena (nt autokoorem). Sissetuleva koorma kirjet kasutatakse planeerimiseks ja see võimaldab logistikul jälgida koorma hankijalt saabumise teekonda. Seda kasutatakse ka tellimuserea koguste registreerimiseks ja töötlemise haldamiseks laotoimingute kaudu, nagu saabumisega seotud ja paigutustöö. Koormaid saab luua nii automaatselt kui ka käsitsi ja need võivad põhineda kas ostutellimusel või hankijalt saadud saadetise eelteatisel (ASN). Lisateavet vt teemast [Sissetuleva koorma loomine või muutmine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Sissetuleva koorma kirje tähistab ühe või mitme ostutellimuse hankija saadetist. Koorem peaks saabuma lattu ühe füüsilise transpordiüksusena (nt autokoorem). Sissetuleva koorma kirjet kasutatakse planeerimiseks ja see võimaldab logistikul jälgida koorma hankijalt saabumise teekonda. Seda kasutatakse ka tellimuserea koguste registreerimiseks ja töötlemise haldamiseks laotoimingute kaudu, nagu saabumisega seotud ja paigutustöö. Koormaid saab luua nii automaatselt kui ka käsitsi ja need võivad põhineda kas ostutellimusel või hankijalt saadud saadetise eelteatisel (ASN). Lisateavet vt teemast [Sissetuleva koorma loomine või muutmine](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Hankija kinnitab koorma lähetamise.**
 
-    Kui hankija lähetab koorma, kinnitab vastuvõtvas laos asuv logistik koorma saadetise. Kui vastuvõttev ettevõte kasutab moodulit **Transpordihaldus**, käivitab sissetuleva saadetise kinnitamine muud koorma haldusprotsessid, mis on seotud sissetulevate koormatega. Lisateavet leiate jaotisest [Koorma tarnimiseks kinnitamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Kui hankija lähetab koorma, kinnitab vastuvõtvas laos asuv logistik koorma saadetise. Kui vastuvõttev ettevõte kasutab moodulit **Transpordihaldus**, käivitab sissetuleva saadetise kinnitamine muud koorma haldusprotsessid, mis on seotud sissetulevate koormatega. Lisateavet leiate jaotisest [Koorma tarnimiseks kinnitamine](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Koorem saabub lattu ja töötajad registreerivad kogused.**
 

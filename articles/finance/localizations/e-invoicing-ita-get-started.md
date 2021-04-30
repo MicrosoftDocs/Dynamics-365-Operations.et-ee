@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840096"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894773"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
 
@@ -201,7 +201,7 @@ Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli int
 Dokumente saate edastada käsitsi sõltuvalt nõudlusest e-arve dokumentide järele.
 
 > [!NOTE]
-> Enne jätkamist veenduge, et Itaalia e-arvete jaoks vajalik seadistus oleks lõpetatud. Lisateavet leiate teemast [Kliendi elektroonilised arved](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Pange tähele, et mõni selles teemas kirjeldatud seadistusetapp ei pruugi olla elektroonilise arvelduse lisandmooduli aktiveerimise tõttu saadaval.
+> Enne jätkamist veenduge, et Itaalia e-arvete jaoks vajalik seadistus oleks lõpetatud. Lisateavet leiate teemast [Kliendi elektroonilised arved](./emea-ita-e-invoices.md). Pange tähele, et mõni selles teemas kirjeldatud seadistusetapp ei pruugi olla elektroonilise arvelduse lisandmooduli aktiveerimise tõttu saadaval.
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Edasta elektroonilised dokumendid**.
 2. Mis tahes dokumendi esimese edastamise korral seadke suvandi **Dokumentide taasedastamine** väärtuseks **Ei**. Kui peate dokumendi teenuse kaudu uuesti edastama, seadke selle suvandi väärtuseks **Jah**.

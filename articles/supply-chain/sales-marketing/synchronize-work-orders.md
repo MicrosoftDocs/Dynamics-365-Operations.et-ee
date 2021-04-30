@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: d733bf3256fa1f6c572bd0aa35c228490d409bbc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836490"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909939"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Töökäskude sünkroonimine projektiga rakendusest Field Service rakendusse Supply Chain Management
 
@@ -31,7 +31,7 @@ Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse
 
 [![Äriprotsesside sünkroonimine rakenduste Supply Chain Management ja Field Service vahel](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-Kasutatud mall **Töötellimused koos projektiga (rakendusest Field Service rakendusse Supply Chain Management)** põhineb mallil **Töötellimused (rakendusest Field Service rakendusse Supply Chain Management)**. Lisateavet vt jaotisest [Rakenduse Field Service töötellimuste sünkroonimine rakenduse Supply Chain Management müügitellimustega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+Kasutatud mall **Töötellimused koos projektiga (rakendusest Field Service rakendusse Supply Chain Management)** põhineb mallil **Töötellimused (rakendusest Field Service rakendusse Supply Chain Management)**. Lisateavet vt jaotisest [Rakenduse Field Service töötellimuste sünkroonimine rakenduse Supply Chain Management müügitellimustega](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 Selles teemas kirjeldatakse ainult kahe malli vahelisi erinevusi:
 - **Projektiga töökäsud (rakendusest Field Service rakendusse Supply Chain Management)**

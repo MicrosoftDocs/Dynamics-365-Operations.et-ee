@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf0e2d90b07cb488429311d04dfbc4d1d3520842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b07bfb27bbe5e546dac9d72666b3225cc202670
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800089"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890695"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Mis on Dynamics 365 Human Resources-is uut või mida on muudetud (16. september 2020)
 
@@ -33,7 +33,7 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud fun
 
 ## <a name="included-in-this-release"></a>Väljalase hõlmab järgmisi funktsioone
 
--  [Salvestatud vaated – üldine kättesaadavus](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- Lisateavet leiate teemast [Salvestatud vaated](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/saved-views). 
+-  [Salvestatud vaated – üldine kättesaadavus](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- Lisateavet leiate teemast [Salvestatud vaated](../fin-ops-core/fin-ops/get-started/saved-views.md). 
 
 - Vormil **Ametikoha tegevus** on värskendatud dimensioonide võrgustik ja uus dialoog (469495).
 
@@ -76,21 +76,21 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud fun
 
 Töötajad saavad kuvada ja taotleda töölt eemaoleku aega rakenduses Microsoft Teams. Nad saavad suhelda botiga, et luua puhkusetaotlusi. Lisateabe saamiseks vt:
 
-- [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
-- [Teamsi rakendus Human Resources](https://go.microsoft.com/fwlink/?linkid=2127841) rakenduse Human Resources dokumentatsioonis
+- [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
+- [Teamsi rakendus Human Resources](./hr-admin-teams-leave-app.md) rakenduse Human Resources dokumentatsioonis
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Rakendus Human Resources Teamsis eelversioonifunktsioonid
  
 -  **Teatised**: vaba aja taotluste esitajaid ja kinnitajaid teavitatakse Teamsi rakenduses Human Resources. Kinnitajad saavad eemalolekuajataotlusi heaks kiita või tagasi lükata. Kui taotlus on heaks kiidetud või tagasi lükatud, teavitatakse sellest edastajat. Lisateabe saamiseks vt:
-   - [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
-   - [Teamsi rakenduse Human Resources teatiste lubamine](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) rakenduse Human Resources dokumentatsioonis
-   - [Üksikutele kasutajate jaoks Teamsi teatiste sisse- või väljalülitamine](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) Rakenduse Human Resources dokumentatsioonis
-   - [Teamsi teatised](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) rakenduse Human Resources dokumentatsioonis
-   - [Oma töörühma puhkusekalendri vaatamine](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) rakenduse Human Resources dokumentatsioonis
+   - [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
+   - [Teamsi rakenduse Human Resources teatiste lubamine](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) rakenduse Human Resources dokumentatsioonis
+   - [Üksikutele kasutajate jaoks Teamsi teatiste sisse- või väljalülitamine](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) Rakenduse Human Resources dokumentatsioonis
+   - [Teamsi teatised](./hr-teams-leave-app.md#respond-to-teams-notifications) rakenduse Human Resources dokumentatsioonis
+   - [Oma töörühma puhkusekalendri vaatamine](./hr-teams-leave-app.md#view-your-teams-leave-calendar) rakenduse Human Resources dokumentatsioonis
  
 - **Juhataja eemalolekuaja kalender**: juhatajad saavad vaadata oma otseste alluvate kinnitatud ja ootel eemalolekuaegu kalendrivaates. Selle vaate abil näeb hõlpsalt, millal nende meeskonnaliikmed töölt puuduvad. Lisateabe saamiseks vt:
-   - [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
-   - [Oma töörühma puhkusekalendri vaatamine](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) rakenduse Human Resources dokumentatsioonis
+   - [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
+   - [Oma töörühma puhkusekalendri vaatamine](./hr-teams-leave-app.md#view-your-teams-leave-calendar) rakenduse Human Resources dokumentatsioonis
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Konfiguratsiooni suvand loendi „Mulle määratud tööüksused” paigutamiseks (477004)
 
@@ -98,7 +98,7 @@ Nüüd on saadaval uus suvand loendi **Mulle määratud tööüksused** paigutam
 
 See funktsioon pakub ka töövoosuvandeid, mis kuvatakse personalitoimingute vormidel. Töövoosuvandid kuvatakse kiireks juurdepääsuks ka tegevuse kiirkaardi kohal. Lisateabe saamiseks vt: 
 
-- [Organisatsiooni ja personalijuhtimise töövoo kasutuskogemuse täiustused](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
+- [Organisatsiooni ja personalijuhtimise töövoo kasutuskogemuse täiustused](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
 
 ![Mulle määratud tööüksused](./media/hr-workflow-work-items-assigned-to-me.png)
 
@@ -106,7 +106,7 @@ See funktsioon pakub ka töövoosuvandeid, mis kuvatakse personalitoimingute vor
 
 ### <a name="leave-and-absence-calendar"></a>Puhkuste ja puudumiste kalender
 
-See väljalase sisaldab täiendavaid kalendrisuvandeid puhkuste ja puudumiste kalendrite jaoks. Lisateavet leiate teemast [Meeskonna ja ettevõtte kalendrite kuvamine](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-calendar).
+See väljalase sisaldab täiendavaid kalendrisuvandeid puhkuste ja puudumiste kalendrite jaoks. Lisateavet leiate teemast [Meeskonna ja ettevõtte kalendrite kuvamine](./hr-employee-self-service-calendar.md).
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
@@ -121,7 +121,7 @@ Soodustuste halduse põhjusekoodid kombineeritakse peagi Human Resourcesi olemas
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resourcesi 2019. aasta väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resourcesi 2019. aasta väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 

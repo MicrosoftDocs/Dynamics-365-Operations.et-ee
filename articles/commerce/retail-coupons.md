@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792021"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906645"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Kupongide seadistamine jaemüügi jaoks
 
@@ -38,6 +38,8 @@ Kupongi loomiseks tuleb luua allahindlus ja kupong eraldi. Seejärel tuleb need 
 
 > [!NOTE]
 > Kui kupong on allahindlusega lingitud, muutub rakenduses Commerce mitu allahindluse välja kirjutuskaitstuks, kuna neid hallatakse kupongi sätetega. Nende väljade hulka kuuluvad oleku ja standardsete kuupäevavahemike väljad.
+> 
+> Kõnekeskuse kanali kupongi kasutamisel peate valima nupu **Arvuta ümber** **(Müü vahekaart > Arvuta > Arvuta ümber)**, et kupongiga seotud allahindlust saaks rakendada. See täiendav samm eemaldatakse tulevases versioonis.
 
 ### <a name="limited-use-coupons"></a>Piiratud kasutusega kupongid
 

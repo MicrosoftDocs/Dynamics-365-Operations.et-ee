@@ -2,7 +2,7 @@
 title: Küpsise vastavus
 description: Selles teemas kirjeldatakse küpsise vastavuse ja Microsoft Dynamics 365 Commerce'is sisalduva vaikepoliitika kaalutlusi.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796023"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908180"
 ---
 # <a name="cookie-compliance"></a>Küpsise vastavus
 
@@ -50,6 +50,57 @@ Järgmises tabelis on toodud Dynamics 365 Commerce'i saitide asetatud küpsiste 
 | x-ms-cpim-slice                             | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Kasutatakse SSO seansi haldamiseks.                        |
 | x-ms-cpim-trans                             | Kasutatakse toimingute, sealhulgas praeguse toimingu, jälgimiseks (avatud vahekaartide arv, mis autendivad ettevõtte ja tarbija vahelist (B2C) saiti). |
+| \_msdyn365___muid_                            | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse katse eesmärgil userId-na. |
+| \_msdyn365___exp_                             | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse jõudluse koormuse tasakaalustamise mõõtmiseks.         |
+
+
+
+Kui saidi kasutaja valib saidil sotsiaalmeedia lingid, jälgitakse järgmises tabelis olevaid küpsiseid ka nende brauseris.
+
+
+| Domeen                      | Küpsis               | Kirjeldus                                                  | Allikas                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | LinkedIn Adsi ID sünkroonimine                                      | LinkedIni Feed ja Insight silt                                |
+| .linkedin.com               | li_sugr                  | Brauseri identifikaator                                           | LinkedIn Insighti silt, kui IP-aadress pole määratud riigis |
+| .linkedin.com               | BizographicsOptOut       | Määratleb loobumisoleku kolmanda osapoole jälgimiseks.              | LinkedIni külalisjuhtelemendid ja tööstusest loobumise lehed           |
+| .linkedin.com               | \_guid                    | Google Adsi brauseri identifikaator.                            | LinkedIn Feed                                                |
+| .linkedin.com               | li_oatml                 | Liikme kaudne identifikaator teisenduse jälgimiseks, ümbersuunamiseks ja analüüsimiseks. | LinkedIni Ads ja Insight sildid                                |
+| Erinevad esimese osapoole domeenid | li_fat_id                | Liikme kaudne identifikaator teisenduse jälgimiseks, ümbersuunamiseks ja analüüsimiseks. | LinkedIni Ads ja Insight sildid                                |
+| .adsymptotic.com            | U                        | Brauseri identifikaator                                           | LinkedIn Insighti silt, kui IP-aadress pole määratud riigis |
+| .linkedin.com                | bcookie                  | Brauseri ID küpsis                                            | Taotlused LinkedInile                                         |
+| .linkedin.com                | bscookie                 | Turvaline brauseriküpsis                                        | Taotlused LinkedInile                                         |
+| .linkedin.com               | lang                     | Määrab vaikelokaadi ja keele.                                 | Taotlused LinkedInile                                         |
+| .linkedin.com                | lidc                     | Kasutatakse marsruutimiseks.                                             | Taotlused LinkedInile                                         |
+| .linkedin.com               | aam_uuid                 | Adobe'i publikuhalduri küpsis                                                     | ID sünkroonimise määramine                                              |
+| .linkedin.com               | \_ga                      | Google Analyticsi küpsis                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Google Analyticsi küpsis                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Google Analyticsi küpsis                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Küpsis sisaldab praegu sisselogitud kasutaja ID-d.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Kasutatakse sisselogitud kasutajast sõltumatu Facebook ühenduse loomiseks kasutatava veebibrauseri tuvastamiseks. | Facebook                                                             |
+| .facebook.com               | wd                       | Talletab brauseriakna mõõtmed ja seda kasutatakse Facebook lehe renderdamise optimeerimiseks. | Facebook                                                             |
+| .facebook.com               | xs                       | Seansi numbrit tähistav kahekohaline number. Väärtuse teine osa on seansi saladus. |  Facebook                                                            |
+| .facebook.com               | fr                       | Sisaldab unikaalset brauserit ja kasutaja ID-d, mida kasutatakse sihitud reklaamiks. |  Facebook                                                            |
+| .facebook.com               | sb                       | Kasutatakse Facebook sõprade soovituste parandamiseks.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Küpsis sisaldab praegu sisselogitud kasutaja ID-d.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Küpsis sisaldab praegu sisselogitud kasutaja ID-d.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | Küpsis sisaldab lehti, kui kasutaja valib Pinteresti nupu.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | Küpsis sisaldab lehti, kui kasutaja valib Pinteresti nupu.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Sisaldab kasutaja ID-d ja ajatemplit küpsise loomisel. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | Küpsis sisaldab lehti, kui kasutaja valib Pinteresti nupu.      | Pinterest                                                             |
+| .pinterest.com              | seanssFunnelEventLogged | Küpsis sisaldab lehti, kui kasutaja valib Pinteresti nupu.      | Pinterest                                                             |
+| .pinterest.com              | Kohalik salvestusruum            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Teenindustöötajad          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Saidi kasutaja küpsise nõusolek e-kaubanduse saidil 
 

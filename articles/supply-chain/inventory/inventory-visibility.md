@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821125"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910421"
 ---
 # <a name="inventory-visibility-add-in"></a>Varude nähtavuse lisandmoodul
 
@@ -39,7 +39,7 @@ Selles teemas kirjeldatakse, kuidas installida ja konfigureerida varude nähtavu
 
 Varude nähtavuse lisandmooduli saate installida, kasutades teenust Microsoft Dynamics Lifecycle Services (LCS). LCS on koostööportaal, mis pakub keskkonda ja regulaarselt värskendatud teenuseid, mis aitavad hallata Dynamics 365 Finance and Operationsi rakenduste töötsüklit.
 
-Lisateabe saamiseks vt [Lifecycle Servicesi ressursid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Lisateabe saamiseks vt [Lifecycle Servicesi ressursid](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Eeltingimused
 
@@ -48,10 +48,13 @@ Enne varude nähtavuse lisandmooduli installimist peate tegema järgmist.
 - Hankige LCS-i juurutamise projekt, millel on vähemalt üks juurutatud keskkond.
 - Kontrollige, et eeltingimused lisandmoodulite seadistamiseks, mis on antud [Lisandmoodulite ülevaates](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) on täidetud. Varude nähtavus ei nõua topeltkirjutuse linkimist.
 - Võtke ühendust varude nähtavuse töörühmaga [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) nende kolme nõutava faili saamiseks:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (Kui Supply Chain Management versioon, mida käitate, on varasem kui versioon 10.0.18)
+- Järgige juhiseid, mis on toodud teemas [Kiirstart: registreerige rakendus Microsofti identiteediplatvormil](/azure/active-directory/develop/quickstart-register-app), et registreerida rakendus ja lisada Azure'i tellimuse all AAD-le kliendi saladus.
+    - [Rakenduse registreerimine](/azure/active-directory/develop/quickstart-register-app)
+    - [Kliendi saladuse lisamine](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - Väljasid **Rakenduse(kliendi) ID**, **Kliendi saladus** ja **Rentniku ID** kasutatakse järgmistes juhistes.
 
 > [!NOTE]
 > Praegu toetatud riikide ja regioonide hulka kuuluvad Kanada, USA ja Euroopa Liit (EL).
@@ -64,7 +67,7 @@ Läbige need etapid, et seadistada Dataverse.
 
 1. Lisage teenuse põhimõtted oma rentnikule:
 
-    1. Installige Azure AD PowerShell Module v2, nagu on kirjeldatud [Instalige Azure Active Directory PowerShell Graph'ile](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Installige Azure AD PowerShell Module v2, nagu on kirjeldatud [Instalige Azure Active Directory PowerShell Graph'ile](/powershell/azure/active-directory/install-adv2).
     1. Käivitage järgmine PowerShell käsk.
 
         ```powershell
@@ -80,7 +83,12 @@ Läbige need etapid, et seadistada Dataverse.
     1. Valige suvand **Uus**. Määrake välja Rakenduse ID väärtuseks *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Objekti ID laaditakse muudatuste salvestamisel automaatselt.) Nime saate kohandada. Näiteks saate muuta selle *Varude nähtavus*. Kui olete lõpetanud, valige **Salvesta**.
     1. Valige **Määra roll** ja seejärel valige **Süsteemiadministraator**. Kui rolli nimi on **Common Data Service Kasutaja**, valige ka see.
 
-    Lisateavet leiate teemast [Rakenduse kasutaja loomine](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    Lisateavet leiate teemast [Rakenduse kasutaja loomine](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Kui teie Dataverse vaikekeel ei ole **inglise keel**:
+
+    1. Avage **Täpsemad seadistused \>Administreerimine \> Keeled**,
+    1. Valige **Inglise keel (LanguageCode=1033)** ja valige **Rakenda**.
 
 1. Importige `Inventory Visibility Dataverse Solution.zip` fail, mis sisaldab Dataverse konfiguratsiooniga seotud üksusi ja tööriista Power Apps:
 
@@ -158,12 +166,12 @@ Veenduge, et järgmised funktsioonid on sisse lülitatud teenuse Supply Chain Ma
 
     Leidke LCS-i keskkonna Azure'i regioon ja sisestage seejärel URL. URL-il on järgmine vorm:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Näiteks kui te olete Euroopas, on teie keskkonnas üks järgmistest URL-dest:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     Hetkel on saadaval järgmised regioonid.
 
@@ -212,13 +220,13 @@ Hankige turbeteenusetõend, tehes järgmist.
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ Hankige turbeteenusetõend, tehes järgmist.
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Näidispäring
+
+Teie viite jaoks on siin näidis http-taotlus, saate selle taotluse saatmiseks kasutada mis tahes tööriistu või kodeerimiskeelt, näiteks``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Varude nähtavuse API konfigureerimine
 
@@ -338,7 +383,7 @@ Siin on näide päringust toote värvi ja suuruse kombinatsiooniga.
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ Siin on näide päringust toote värvi ja suuruse kombinatsiooniga.
     "returnNegative": true
 }
 ```
+
+Välja `filters` puhul toetab see praegu ainult mitut `ProductId` väärtust. Kui `ProductId` on tühi massiiv, esitatakse päring kõikidele toodetele.
 
 #### <a name="custom-measurement"></a>Kohandatud mõõtmine
 

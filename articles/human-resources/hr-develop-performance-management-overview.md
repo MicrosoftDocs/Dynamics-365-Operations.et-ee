@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789632"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890743"
 ---
 # <a name="performance-management"></a>Jõudlushaldus
 
@@ -93,7 +93,7 @@ Saate kasutada ka jaotist **Pädevused**, et arutleda, vaadata üle ja hinnata t
 
 Saate luua uusi ülevaateid, mis põhinevad teie loodud mallidel. Näiteks saab teil olla mall üks-ühele kohtumiste, arenguplaandie või korrapäraste ülevaadete jaoks. Saate malli valida uue ülevaate loomisel.
 
-Ülevaadete printimiseks valige nupp **Prindi ülevaade**. Kui te ei näe nuppu lehel **Ülevaade**, veenduge, et oleksite funktsiooni tööruumis **Funktsioonihaldus** lubanud. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Ülevaadete printimiseks valige nupp **Prindi ülevaade**. Kui te ei näe nuppu lehel **Ülevaade**, veenduge, et oleksite funktsiooni tööruumis **Funktsioonihaldus** lubanud. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > Jõudluse ülevaadete printimise võimalus on saadaval ainult rakenduses Human Resources. See ei ole saadaval rakenduses Dynamics 365 Finance.

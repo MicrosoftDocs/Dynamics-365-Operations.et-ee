@@ -2,7 +2,7 @@
 title: Spikrisüsteem
 description: Selles teemas antakse ülevaade Finance and Operationsi rakenduste spikrisüsteemist.
 author: edupont04
-ms.date: 05/11/2020
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46168dd9001921471114c219c57856b7bedf6465
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749824"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897812"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -161,7 +161,7 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 | [Docs.microsoft.com/previous versioonid](/previous-versions/dynamics/) | See sait majutab varasemate väljaannete sisu. |
 | [Dynamicsi kogukond](https://community.dynamics.com/) | See sait majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | See sait pakub hinnanguid ja müügiteavet. |
-| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | See sait majutab koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait. Mõndadele saidil olevatele ressurssidele juurde pääsemiseks võib olla nõutav hooldusplaan. |
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

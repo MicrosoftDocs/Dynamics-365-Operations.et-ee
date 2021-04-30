@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad55de4b660de89d323f32a1ce2911d880c24ec5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b5032c0996ef0dfb80a129deb32b4526794ca228
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793557"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892149"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Laiendamine Power Appsi ja Power Automate’iga
 
@@ -59,6 +59,6 @@ Malli **Power Automate – SQL-i ühendamine ja käivitamine** allalaadimiseks a
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+[Microsoft Power Platform](/power-platform/admin/admin-documentation)</br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

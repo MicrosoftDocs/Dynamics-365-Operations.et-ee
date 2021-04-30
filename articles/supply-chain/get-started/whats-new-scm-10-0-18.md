@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832126"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909349"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18 (mai 2021) eelversioon
 
@@ -35,15 +35,15 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
+See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
-- Ostutellimuste automaatne väljastamine (täiustus [Lao läbiviimine pilve skaalaüksustega](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud) jaoks)<br> - Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md).
+- Ostutellimuste automaatne väljastamine (täiustus [Lao läbiviimine pilve skaalaüksustega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud) jaoks)<br> - Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Ettevõtte-mastaabis varude jõudluse parendused ja arhiveerimine](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Lisateavet vt [Laokannete arhiivimine](../inventory/archive-inventory-transactions.md)
+- [Ettevõtte-mastaabis varude jõudluse parendused ja arhiveerimine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Lisateavet vt [Laokannete arhiivimine](../inventory/archive-inventory-transactions.md)
 
-- [Tagasimakse haldus](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Lisateavet vt [Tagasimaksehalduse mooduli ülevaade](../rebate-management/rebate-management-overview.md)
+- [Tagasimakse haldus](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Lisateavet vt [Tagasimaksehalduse mooduli ülevaade](../rebate-management/rebate-management-overview.md)
 
-- Lihtsustatud liides ainult sisse- ja väljaregistreerimiseks (täiustus [Tootmise täiustatud tootmisosakonna täideviimisliides](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) jaoks)<br> - Lisateavet vt [Tootmisosakonna käivitusliidese konfigureerimine](../production-control/production-floor-execution-configure.md).
+- Lihtsustatud liides ainult sisse- ja väljaregistreerimiseks (täiustus [Tootmise täiustatud tootmisosakonna täideviimisliides](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) jaoks)<br> - Lisateavet vt [Tootmisosakonna käivitusliidese konfigureerimine](../production-control/production-floor-execution-configure.md).
 
 Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. 
 
@@ -70,7 +70,7 @@ Lisateabe saamiseks veaparanduste kohta, mis sisalduvad 10.0.18 uuendustes, logi
 
 Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused?
 
-Vaadake teemat [Dynamics 365: 2021. aasta väljalaske 1. voo plaan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
+Vaadake teemat [Dynamics 365: 2021. aasta väljalaske 1. voo plaan](/dynamics365-release-plan/2021wave1/). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743649"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891715"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ER-vormingu korrigeerimine kohandatud elektroonilise dokumendi loomiseks
 
@@ -192,7 +192,7 @@ Peate lisama hankija kontole panga teabe, millele viidatakse hiljem registreerit
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>Hankija makse sisestamine
 
-Peate sisestama uue hankija makse [maksesoovituse](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal) abil.
+Peate sisestama uue hankija makse [maksesoovituse](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md) abil.
 
 1. Avage **Ostureskontro** \> **Maksed** \> **Hankija maksete tööleht**.
 2. Lehel **Hankija maksete tööleht** valige suvand **Uus**.

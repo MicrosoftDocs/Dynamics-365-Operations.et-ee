@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803485"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891050"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Töö komponentide seadistamine
 
@@ -86,7 +86,7 @@ Tööülesandeid saate hallata lehel **Tööülesanded**. Sisestage lehel **Tö�
 Vastutusalade abil saate näidata, milliste töörollide, protsesside ja toodete eest selle töö ametikohal tegutsev töötaja vastutab. Näiteks töö „Raamatupidaja” vastutusala võib olla „Toote A finantsaruandlus”. Vastutusalasid saate hallata lehel **Vastutusalad**, millele pääsete juurde otsingufunktsiooni abil. Sisestage lehel **Vastutusalad** vastutusala nimi ja lühikirjeldus. Väljale **Märkus** saate soovi korral sisestada ka lisateavet. Märkusi saab kindla töö puhul värskendada ilma siia sisestatud märkusi muutmata.
 
 ## <a name="steps-for-creating-a-job"></a>Töö loomise juhised
-Uue töö loomise etapiviisilise protseduuri leiate artiklist [Uute tööde määratlemine](../fin-and-ops/hr/tasks/define-new-jobs.md). 
+Uue töö loomise etapiviisilise protseduuri leiate artiklist [Uute tööde määratlemine](./hr-personnel-define-jobs.md). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

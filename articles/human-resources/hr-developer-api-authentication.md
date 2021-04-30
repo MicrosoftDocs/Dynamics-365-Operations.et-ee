@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793677"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893444"
 ---
 # <a name="authentication"></a>Autentimine
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Veebirakenduste jaoks sisestage rakenduse baas-URL. Näiteks võib `http://localhost:31544` olla veebirakenduse URL, mis töötab teie kohalikus masinas. Kasutajad kasutavad seejärel seda URL-i, et logida sisse veebikliendi rakendusse.
         - Avalike kliendirakenduste jaoks sisestage URI, mida Azure AD kasutab loa vastuste tagastamiseks. Sisestage teie rakendusele omane väärtus, nt `myapp://auth`.
 
-        Veebirakenduste või kohalike rakenduste kohta konkreetsete näidete nägemiseks vaadake lühijuhendeid [Microsofti identiteedi platvormil (varem arendajatele suunatud Azure Active Directory)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Veebirakenduste või kohalike rakenduste kohta konkreetsete näidete nägemiseks vaadake lühijuhendeid [Microsofti identiteedi platvormil (varem arendajatele suunatud Azure Active Directory)](/azure/active-directory/develop/#quickstarts).
 
 5. Jaotises **API load** valige suvand **Lisa luba**. Seejärel otsige vahekaardil **Minu organisatsiooni kasutatavad API-d** rakendust **Dynamics 365 Human Resources** ja lisage rakendusele luba **kasutaja\_matkimine**. Rakenduse Human Resources ID on f9be0c49-aa22-4ec6-911a-c5da515226ff. Kasutage seda ID-d, et tagada õige rakenduse valimine.
 

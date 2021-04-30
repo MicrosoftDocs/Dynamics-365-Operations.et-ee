@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743503"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893248"
 ---
 # <a name="expense-management-power-bi-content"></a>Kulude halduse Power BI sisu
 
@@ -41,7 +41,7 @@ Versioonis 8.1 ja uuemates versioonides on koos kulude haldusega kasutamiseks sa
 Kõik summad on näidatud ettevõtte valuutas. Näidatakse kõikide ettevõtete andmeid, aga vajaduse korral saab lisada ettevõtte filtri. 
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Kulude administraatori Dashboard.pbix-i ja kulude isikliku Dashboard.pbix-i Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Kulude administraatori Dashboard.pbix-i ja kulude isikliku Dashboard.pbix-i Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Sisu on saadaval kulude halduse tööruumis Power Bi manussisuna. Kulu omanik pääseb ligi enda isiklikele kuludele, kuid ainult ostureskontro ametnikel ja juhtidel on ligipääs administraatori sisule, et näha kõiki kasutaja kuluandmeid.
 
 ## <a name="refreshing-the-power-bi-content"></a>Power BI sisu värskendamine

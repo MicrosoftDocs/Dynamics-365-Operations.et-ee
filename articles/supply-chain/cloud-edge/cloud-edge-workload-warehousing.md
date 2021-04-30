@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832390"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899163"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832390"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Lao käivitamine skaala ühikutes
 
-See funktsioon võimaldab skaala ühikutel hallata valitud protsesse laohalduse võimalustest. Pilve skaala üksused käitavad oma töökoormust pilves, kasutades valitud regioonis spetsiaalset töötluse võimsust Microsoft Azure. Serva-skaala ühikute puhul saate käitada mõningaid töömahtusid eraldi ruumides, isegi kui skaala ühikud on pilvest ajutiselt lahti ühendatud.
+See funktsioon võimaldab skaala ühikutel hallata valitud protsesse laohalduse võimalustest.
 
 Selles teemas on laohalduse täideviimistegevused laos, mis on määratletud skaalaüksusena, tuntud kui *Lao täideviimise süsteem* (*WES*).
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Teil peab olema Dynamics 365 Supply Chain Management keskus ja skaalaüksus, mis on rakendatud koos laohalduse töömahuga. Rohkem teavet arhitektuuri ja juurutamisprotsessi kohta leiate teemast [Pilv- ja perimeeterskaalaüksused tootmis- ning laohaldustöökoormuste jaoks](cloud-edge-landing-page.md).
+Teil peab olema Dynamics 365 Supply Chain Management keskus ja skaalaüksus, mis on rakendatud koos laohalduse töömahuga. Rohkem teavet arhitektuuri ja juurutamisprotsessi kohta leiate teemast [Tarneahela haldamise töökoormuste vastupidavuse suurendamiseks kasutage skaalaühikuid](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Kuidas toimub WES töökoormus skaalaüksustes
 
@@ -297,6 +297,8 @@ Skaalaüksustes saate töökoormuse korral hallata järgmisi pakett-töösid suv
 - Vootabeli kirjete töötlemine
 - Lao keskusest skaalaüksusesse sõnumiprotsessor
 - Laotellimuse ridade töötlemise koguse värskendustaotlused
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

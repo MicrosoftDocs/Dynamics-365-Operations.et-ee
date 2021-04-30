@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793821"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889832"
 ---
 # <a name="manage-features-in-human-resources"></a>Lahenduse Human Resources funktsioonide haldamine
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793821"
 
 Rakenduse Microsoft Dynamics 365 Human Resources pidevate uute võimaluste levitamise osana tahame, et kliendid saaksid proovida uusi funktsioone niipea kui võimalik. Pakume uusi eelvaatefunktsioone, mis on peaaegu valmis üldiseks kasutamiseks ja on läbinud põhjalikud kontrollid. Eelvaatefunktsioonide puhul soovime saada täiendavat kasutajate tagasidet ja kinnitust, enne kui funktsioonid üldiselt kättesaadavaks teeme.
 
-Lisateavet Human Resourcesi uute funktsioonide kohta vt teemast [Mis on uut rakenduses Human Resources](hr-admin-whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskeplaan](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Lisateavet Human Resourcesi uute funktsioonide kohta vt teemast [Mis on uut rakenduses Human Resources](hr-admin-whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskeplaan](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Tööruumis **Funktsioonihaldus** on toodud loend igas väljaandes saadetud funktsioonidest. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Tööruumis **Funktsioonihaldus** on toodud loend igas väljaandes saadetud funktsioonidest. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Kõik uued funktsioonid jäävad vähemalt 30 päevaks eelvaatesse ja tavaliselt 30–60 päevaks. Peamised funktsioonid on tavaliselt saadaval eelvaate perioodile järgneva iga aasta oktoobris ja aprillis. Kohe kui näete tööruumis **Funktsioonihaldus** uusi võimalusi, saate need sisse lülitada. Mõned funktsioonid võivad olla vaikimisi sisse lülitatud.
 
@@ -93,6 +93,6 @@ Ootame teie tagasisidet teie kogemuse kohta nende eelvaatefunktsioonidega. Soovi
 ## <a name="see-also"></a>Vt ka
 
 - [Mis on rakenduses Human Resources uut?](hr-admin-whats-new.md)
-- [Dynamics 365 ja Power Platformi väljalaskeplaan](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Dynamics 365 ja Power Platformi väljalaskeplaan](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1647b7fbf84a78051e745e918954df32a2e7e1dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805078"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890000"
 ---
 # <a name="configure-integration-with-dayforce"></a>Dayforce’iga integreerimise konfigureerimine
 
@@ -53,8 +53,8 @@ Kui integratsioon on sisse lülitatud, luuakse andmete ekspordipakett ja -failid
 
 Lisateavet Azure’i talletamiskontode ja Azure’i salvestusruumi ühendusstringide kohta leiate järgmistest Azure’i teemadest.
 
-- [Azure’i salvestuskontod](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Azure’i salvestusruumi ühendusstringide konfigureerimine](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [Azure’i salvestuskontod](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Azure’i salvestusruumi ühendusstringide konfigureerimine](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Tehnilised üksikasjad, kui palga integratsioon on lubatud
 
@@ -65,6 +65,7 @@ Palga integreerimise sisselülitamisel on kaks peamist mõju.
 
 > [!NOTE]
 > SFTP-lõpp-punkti edastatud andmete pakett krüptitakse, kasutades võtit, mis on paketile kordumatu. Võti on Azure võtmehoidlas, mis on kättesaadav ainult Ceridianile. Andmebaasi sisu ei saa dekrüptida ja uurida. Kui teil on vaja uurida andmepaketi sisu, peate eksportima projekti "Palga integreerimise eksport" käsitsi, selle alla laadima ja seejärel avama. Käsitsi eksportimine ei rakenda krüptimist ega edasta paketti.
+> Kui integratsioonifailid saadetakse Dynamics 365 Human Resources UAT- või liivakastikeskkonnast Ceridian Dayforce'i testkeskkonda, saate kasutada järgmist võtmehoidla URL-i: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Andmete konfigureerimine 
 
@@ -124,10 +125,10 @@ Dayforce loob järgmised mahaarvamised palga mõju alusel, mis on määratletud 
 
 Lisateavet soodustusprogrammi määratlemise ja haldamise kohta vaadake järgmistest artiklitest.
 
-- [Töötaja soodustuste programmi pakkumine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Uue soodustuse loomine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Soodustuskõlblikkuse reeglite ja poliitikate määratlemine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Töötajate soodustuste registreerimine ja eemaldamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Töötaja soodustuste programmi pakkumine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Uue soodustuse loomine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Soodustuskõlblikkuse reeglite ja poliitikate määratlemine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Töötajate soodustuste registreerimine ja eemaldamine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Hüvitus 
 
@@ -137,20 +138,20 @@ Dayforce kasutab hüvituse teavet töövõtja tunni- või aastamäära arvutamis
 
 Lisateavet hüvitusplaanide kohta vaadake järgmistest artiklitest.
 
-- [Põhipalga plaanide loomine](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Ergutussüsteemi plaanide loomine](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Palga/hüvituse struktuuri ja plaanide arendamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Hüvitusprotsess](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [Hüvitusprotsessi määratlemine ja tulemuste arvutamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Töötaja liitmine põhipalga plaaniga](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Töötaja liitmine tulemustasu plaaniga](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Põhipalga plaanide loomine](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Ergutussüsteemi plaanide loomine](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Palga/hüvituse struktuuri ja plaanide arendamine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Hüvitusprotsess](/dynamics365/unified-operations/talent/process-compensation)
+- [Hüvitusprotsessi määratlemine ja tulemuste arvutamine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Töötaja liitmine põhipalga plaaniga](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Töötaja liitmine tulemustasu plaaniga](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Tööd 
 
 Töö on tööd tegeva isiku jaoks nõutavate ülesannete ja vastutuste kogum. Lisateavet vt järgmistest artiklitest.
 
-- [Töö komponentide seadistamine](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [Uute tööde määratlemine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Töö komponentide seadistamine](/dynamics365/unified-operations/talent/create-job)
+- [Uute tööde määratlemine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Ametikohad
 
@@ -174,8 +175,8 @@ Kui ühes osakonnas on sama tööga seotud mitu ametikohta, siis konsolideeritak
 
 Lisateavet vt järgmistest artiklitest.
 
-- [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Ametikohtade seadistamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Ametikohtade seadistamine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Osakonnad
 
@@ -183,8 +184,8 @@ Osakond on tootmisüksus, mis esindab organisatsiooni kategooriat või funktsion
 
 Lisateavet vt järgmistest artiklitest.
 
-- [Osakonna loomine ja selle seostamine osakonnahierarhiaga](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Uute osakondade määratlemine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Osakonna loomine ja selle seostamine osakonnahierarhiaga](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Uute osakondade määratlemine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Palgatsüklid ja makseperioodid
 

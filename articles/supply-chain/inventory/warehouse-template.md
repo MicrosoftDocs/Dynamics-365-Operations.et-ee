@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bc35794a83365205ebc0907419d3f0801713580
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816624"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908439"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Lao seadistamine lao konfiguratsioonimalli abil
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada ladu lao konfiguratsioonimalli abil. Saate kasutada mitut eelmääratud konfiguratsioonimalli. Teavet nende mallide kasutamise kohta leiate teemast [„Konfigureerimisandmete mallid”](../../dev-itpro/data-entities/configuration-data-templates.md).
+Selles teemas selgitatakse, kuidas seadistada ladu lao konfiguratsioonimalli abil. Saate kasutada mitut eelmääratud konfiguratsioonimalli. Teavet nende mallide kasutamise kohta leiate teemast [„Konfigureerimisandmete mallid”](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Stsenaariumid, mille puhul konfiguratsioonimallid võivad kasulikud olla
 
@@ -88,13 +88,13 @@ Teil on võimalik andmed ZIP-failina alla laadida. See fail sisaldab kõiki vali
 4. Valige **+ lisa fail** ja laadige andmed üles ZIP-failina.
 5. Valige **Impordi**. **Täiustatud** vaates saate importimisel tekkida võivatest probleemidest kiiresti ülevaate, kui kasutate suvandit **Filtreeri**.
 
-Käsk **Kuva käivituslogi** annab üksikasjaliku teabe iga imporditud andmeüksuse kohta. Kiirelt sihtandmete juurde jõudmiseks saate kasutada andmete ajastamise vaadet. Sel viisil näete, kuidas imporditud andmed rakenduse seotud lehekülgedel välja näevad. Vaikeandmemallide kasutamisel töötab importimise järjestus iga andmeüksuse puhul eelmääratud viisil, tagamaks, et sõltuvad andmed imporditakse esimesena. Kui projekti kuuluvad kohandatud andmeüksused, peate veenduma, et õige järjekord oleks määratud. Lisateavet vaadake teemast [„Konfigureerimisandmete mallid”](../../dev-itpro/data-entities/configuration-data-templates.md).
+Käsk **Kuva käivituslogi** annab üksikasjaliku teabe iga imporditud andmeüksuse kohta. Kiirelt sihtandmete juurde jõudmiseks saate kasutada andmete ajastamise vaadet. Sel viisil näete, kuidas imporditud andmed rakenduse seotud lehekülgedel välja näevad. Vaikeandmemallide kasutamisel töötab importimise järjestus iga andmeüksuse puhul eelmääratud viisil, tagamaks, et sõltuvad andmed imporditakse esimesena. Kui projekti kuuluvad kohandatud andmeüksused, peate veenduma, et õige järjekord oleks määratud. Lisateavet vaadake teemast [„Konfigureerimisandmete mallid”](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Rohkem teavet selle kohta, kuidas kasutada laomalli, et kopeerida lao konfiguratsiooni ühest ettevõttest sama eksemplari uude ettevõttesse, leiate järgmisest 3-minutilisest YouTube’i videost: [Laomalli kasutamine konfiguratsiooni kopeerimiseks rakenduse Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs) jaoks.
 
 ## <a name="related-topic"></a>Seotud teema
 
-[Konfigureerimisandmete mallid](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Konfigureerimisandmete mallid](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

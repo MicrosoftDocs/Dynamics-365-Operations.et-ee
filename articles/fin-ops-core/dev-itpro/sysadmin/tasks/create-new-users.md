@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745833"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907907"
 ---
 # <a name="create-new-users"></a>Uute kasutajate loomine
 
@@ -29,10 +29,10 @@ Enne Finance and Operationsi rakenduste avamist peate olema kõigepealt lisatud 
 Lisateavet Finance and Operationsi rakendust ostmise ja litsentsimise kohta vt [Microsoft Dynamics 365 litsentsimise juhend](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Kasutajale litsentsi määramine
-Süsteemi administraatorid saavad [litsentse määrata](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)[Microsoft 365-i administreerimiskeskuse](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) kasutajatele.
+Süsteemi administraatorid saavad [litsentse määrata](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)[Microsoft 365-i administreerimiskeskuse](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) kasutajatele.
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Azure AD-s välise kasutaja lisamine ja litsentsi määramine 
-Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis esindatud (Azure Active Directory (Azure AD)). Need välised kasutajad tuleb lisada Azure AD's rentnikku külaliskasutajatena ja seejärel määrata vastavad litsentsid. Finance and Operationsi rakenduste nõue on, et külaliskasutaja ettevõte peab kasutama teenust Azure AD. Lisateavet vt teemast [Azure portaalis Azure Active Directory B2B koostöö kasutajate lisamine](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis esindatud (Azure Active Directory (Azure AD)). Need välised kasutajad tuleb lisada Azure AD's rentnikku külaliskasutajatena ja seejärel määrata vastavad litsentsid. Finance and Operationsi rakenduste nõue on, et külaliskasutaja ettevõte peab kasutama teenust Azure AD. Lisateavet vt teemast [Azure portaalis Azure Active Directory B2B koostöö kasutajate lisamine](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Uute kasutajate importimine teenusest Azure AD 
 1. Avage **Süsteemihaldud** \> **Kasutaja** \> **Kasutajad**.
@@ -57,7 +57,7 @@ Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis e
 7. Valige väljal **Ettevõte** kasutaja vaikimisi avatav ettevõte. 
 8. Valige käsk **Salvesta**.
 
-Identiteedipakkuja ja telemeetria ID väärtusi värskendatakse [Microsofti graafiku](https://docs.microsoft.com/graph/overview) kutse põhjal, kui kasutajakirje salvestatakse. Telemeetria ID põhineb kasutaja objekti ID-l / turbeidentifikaatoril (SID) Azure AD-s.
+Identiteedipakkuja ja telemeetria ID väärtusi värskendatakse [Microsofti graafiku](/graph/overview) kutse põhjal, kui kasutajakirje salvestatakse. Telemeetria ID põhineb kasutaja objekti ID-l / turbeidentifikaatoril (SID) Azure AD-s.
 
 > [!NOTE]
 > Pärast kasutaja lisamist peate määrama vastavalt vajadusele rollid ja organisatsioonid. Lisainfo saamiseks vt [Kasutajatele turberollide määramine](assign-users-security-roles.md). Tingimuslikult võib olla nõutav ka kasutaja seostamine **isikuga** ja **kasutaja valikute** uuendamine, nt keel.

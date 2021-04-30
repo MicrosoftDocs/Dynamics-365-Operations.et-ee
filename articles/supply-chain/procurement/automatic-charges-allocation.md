@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841475"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910157"
 ---
 # <a name="automatic-allocation-of-charges"></a>Tasude automaatne eraldamine
 
@@ -144,7 +144,7 @@ Pärast tasukoodide seadistamist tehke automaatsete tasude määratlemiseks jär
     - **Sait** ja **Ladu** – määrake sait ja ladu, kui tasud tuleb rakendada ainult konkreetsele saidile ja laole.
     - **Säilita** – märkige see ruut tasukannete säilitamiseks pärast arve esitamise lõpule viimist, et tasu rakendataks iga kord, kui valitud kliendikontole uue arve loote.
 
-1. **Ainult müügitellimuste puhul:** kui soovite arvutada mitmetasandilisi tasusid, tutvuge teemaga [Müügitellimuste mitmetasandilised tasud](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders).
+1. **Ainult müügitellimuste puhul:** kui soovite arvutada mitmetasandilisi tasusid, tutvuge teemaga [Müügitellimuste mitmetasandilised tasud](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders).
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Tasude eraldamine päisest reale
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753572"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894072"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Uue ER-i konfiguratsiooni loomine Wordi vormingus aruannete loomiseks
 
@@ -38,7 +38,7 @@ Wordi vormingus aruannete Wordi dokumendi mallina kasutamiseks saate konfigureer
 Lahenduse ER-vormingu komponent peab sisaldama vormingu elementi **Excel\\Fail** ja see vorminguelement peab olema lingitud Wordi dokumendiga, mida kasutatakse käitusajal aruannete loomise mallina. ER-vormingu komponendi konfigureerimiseks peate ER-i vormingu kujundajas avama loodud ER-i konfiguratsiooni [mustandi](general-electronic-reporting.md#component-versioning) versiooni. Seejärel lisage element **Excel\\Fail**, lisage redigeeritavale ER-vormingule oma Wordi mall ja linkige see mall lisatud elemendile **Excel\\Fail**.
 
 > [!NOTE]
-> Malli manustamisel peate kasutama [dokumendi tüüpi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), mis on varem selleks otstarbeks ER-i parameetrites [konfigureeritud](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Malli manustamisel peate kasutama [dokumendi tüüpi](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), mis on varem selleks otstarbeks ER-i parameetrites [konfigureeritud](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Malli lisamine vormingukujundaja lehele](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Saate lisada pesastatud elemendid **Excel\\Vahemik** ja **Excel\\Lahter** elemen
 
 ![Pesastatud elementide lisamine vormingu kujundaja lehel](./media/er-design-configuration-word-image4.gif)
 
-Kui salvestate oma muudatused kujundamise ajal ER-vormingusse, talletatakse hierarhilise vormingu struktuur manustatud Wordi mallis [kohandatud XML-i osana](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), mille nimi on **Aruanne**. Peate avama muudetud malli, laadima selle rakendusest Finance alla, salvestama selle kohalikult ning avama selle Wordi töölauarakenduses. Järgmisel joonisel on näidatud kohalikult salvestatud näidismall kontrollaruande jaoks, mis sisaldab kohandatud XML-i osa **Aruanne**.
+Kui salvestate oma muudatused kujundamise ajal ER-vormingusse, talletatakse hierarhilise vormingu struktuur manustatud Wordi mallis [kohandatud XML-i osana](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), mille nimi on **Aruanne**. Peate avama muudetud malli, laadima selle rakendusest Finance alla, salvestama selle kohalikult ning avama selle Wordi töölauarakenduses. Järgmisel joonisel on näidatud kohalikult salvestatud näidismall kontrollaruande jaoks, mis sisaldab kohandatud XML-i osa **Aruanne**.
 
 ![Näidisaruande malli eelvaade Wordi töölauarakenduses](./media/er-design-configuration-word-image5.gif)
 
-Kui vorminguelementide **Excel\\Vahemik** ja **Excel\\Lahter** sidumised toimuvad käitusajal, lisatakse iga sidumise edastatud andmed loodud Wordi dokumenti kohandatud XML-i osa **Aruanne** individuaalse väljana. Loodud dokumendis kohandatud XML-i osa väljadelt väärtuste sisestamiseks peate lisama oma Wordi mallile sobivad [sisukontrollid](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), mis toimivad käitusajal täidetud andmete kohatäidetena. Sisukontrollide täitmise määratlemiseks vastendage iga sisukontroll kohandatud XML-i osa **Aruanne** vastava väljaga.
+Kui vorminguelementide **Excel\\Vahemik** ja **Excel\\Lahter** sidumised toimuvad käitusajal, lisatakse iga sidumise edastatud andmed loodud Wordi dokumenti kohandatud XML-i osa **Aruanne** individuaalse väljana. Loodud dokumendis kohandatud XML-i osa väljadelt väärtuste sisestamiseks peate lisama oma Wordi mallile sobivad [sisukontrollid](/office/client-developer/word/content-controls-in-word), mis toimivad käitusajal täidetud andmete kohatäidetena. Sisukontrollide täitmise määratlemiseks vastendage iga sisukontroll kohandatud XML-i osa **Aruanne** vastava väljaga.
 
 ![Sisukontrollide lisamine ja vastendamine Wordi töölauarakenduses](./media/er-design-configuration-word-image6.gif)
 

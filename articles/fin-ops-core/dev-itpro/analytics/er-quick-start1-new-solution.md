@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743723"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891789"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Uue ER-i lahenduse kujundamine kohandatud aruande printimiseks
 
@@ -119,7 +119,7 @@ Järgmistes etappides on seletatud, kuidas süsteemiadministraatori, elektroonil
 
 - [Lisaressursid](#References)
 
-Selles näites loote uue ER-i lahenduse mooduli [Küsimustik](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires) jaoks. See uus ER-i lahendus võimaldab teil kujundada aruande, kasutades Microsoft Exceli töölehte mallina. Seejärel saate lisaks olemasoleva SQL Serveri aruandlusteenuste (SSRS) aruande loomisele luua aruande **Küsimustik** Excelis või PDF-vormingus. Vajaduse korral saate uut aruannet ka hiljem muuta. Koodi pole vaja kirjutada.
+Selles näites loote uue ER-i lahenduse mooduli [Küsimustik](../../../human-resources/hr-learning-questionnaires.md) jaoks. See uus ER-i lahendus võimaldab teil kujundada aruande, kasutades Microsoft Exceli töölehte mallina. Seejärel saate lisaks olemasoleva SQL Serveri aruandlusteenuste (SSRS) aruande loomisele luua aruande **Küsimustik** Excelis või PDF-vormingus. Vajaduse korral saate uut aruannet ka hiljem muuta. Koodi pole vaja kirjutada.
 
 1. Olemasoleva aruande käivitamiseks avage **Küsimustik** \> **Kujundus** \> **Küsimustike aruanne**.
 

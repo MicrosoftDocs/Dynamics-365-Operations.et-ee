@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837629"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910373"
 ---
 # <a name="modeling-a-lean-organization"></a>Efektiivse organisatsiooni modelleerimine
 
@@ -51,7 +51,7 @@ Tulevase oleku väärtuse voogu saab mudeldada tootmisvoo versioonina. Kõik vä
 
 Väärtuse voog ise on mudeldatud tootmisüksusena. Seetõttu saab väärtuse voogu kasutada finantsdimensioonina.
 
-Lisateavet tootmisüksuste loomise kohta vt teemast [Tootmisüksuse loomine](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Lisateavet tootmisüksuste loomise kohta vt teemast [Tootmisüksuse loomine](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Lean manufacturingi jaoks kuluarvutuste tegemine tootmisvoo alusel
 Tootmisvoo kulu perioodiline konsolideerimine parandab seotud WIP-konto ja lubab hälvete määratlemise toodetele , mida pakub tootmisvoog.

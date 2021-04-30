@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822127"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898206"
 ---
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
@@ -75,7 +75,7 @@ Järgmises näites hindab ettevõtte peakorter algse eelarve lähtesummasid ja j
 
 Lehel **Organisatsiooni hierarhia** saate määrata organisatsiooni hierarhia eelarve plaanimise hierarhiaks iga eelarve plaanimise protsessi puhul. Eelarve plaanimise hierarhia ei pea ühtima muul otstarbel kasutatava standardse organisatsiooni hierarhiaga. Kuna seda hierarhiat kasutatakse andmete kogumiseks ja jagamiseks, võite soovida, et sellel oleks teistsugune struktuur. Näidisskeemis on Müügiosakonnad peakorteri taseme all, mis sisaldab Eelarve- ja Finantsosakondi. See struktuur tõenäoliselt erineb struktuurist, mida kasutatakse Müügiosakondade toimingute haldamiseks. Igale eelarve plaanimise protsessile saab määrata vaid ühe organisatsiooni hierarhia.
 
-Lisateabe saamiseks vt jaotist [Organisatsioonid ja organisatsiooni hierarhiad](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Lisateabe saamiseks vt jaotist [Organisatsioonid ja organisatsiooni hierarhiad](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Kasutaja turvalisus
 
@@ -163,7 +163,7 @@ Lisaks eelarvesummade veergudele saate määratleda veerud projekti, pakutava pr
 
 Näidisskeemi puhul võite soovida luua veerge stsenaariumitele "PY müük", "Lepingud" ja "Prognoos". (Järgnev kujutis näitab skeemi vastavat sektsiooni.) Seejärel saate jaotada ühe või kõik neist stsenaariumidest eraldi veergudesse rahandusaasta kvartalite kaupa nii, et Müügiosakonna juhataja saab täpselt sisestada iga perioodi prognoositavad summad.
 
-[![Veerud](./media/columns.png)](./media/columns.png)
+[![Veergude lisamise skeemi jaotiste joonis](./media/columns.png)](./media/columns.png)
 
 Saate ka määrata iga paigutuselemendi (veeru) redigeeritavuse ja selle, kas veerg on saadaval igas selleks paigutuseks loodud töölehe mallis. Näidisskeemi puhul on etapis "Hinnang" kasutatud paigutuses veerud "Eelarve" redigeeritavad, samas kui veerud "PY müük" ja "Lepingud" on kirjutuskaitstud.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823856"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897304"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finantsdimensioonid ja sisestamine 
 
@@ -83,17 +83,17 @@ Töölehe päises oleva vaikedimensiooni tõttu rakendatakse müügikonto real v
 
 Rea sisestamisel kasutatakse siiski fikseeritud dimensiooni ja rida sisestatakse osakonnale 022. Järgmisel joonisel kujutatakse sisestatud kannet, mille puhul rakendatakse müügikontole fikseeritud dimensiooni.
 
-[![Pearaamatu kanded](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Rakendatud fikseeritud dimensiooniga vautšer kanded](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Näide 2
 
 See näide kasutab esimesega sama malli. Küll aga on siia lisatud veel üks komponent: Osakonna dimensioon tasakaalustava dimensioonina. Järgmisel joonisel on dimensioon **Osakond** määratletud USMF-i pearaamatu tasakaalustava finantsdimensioonina.
 
-[![Pearaamat](./media/ledger.png)](./media/ledger.png)
+[![Illustratsioon, mis näitab Deparatmenti kui tasakaalustavat finantsmõõdet](./media/ledger.png)](./media/ledger.png)
 
 Kui kasutada sama töölehe päise seadistust ja sisestada sama kanne, siis rakendatakse esmalt fikseeritud dimensiooni. Sellisel juhul rakendatakse tasakaalustamise loogikat, et igal osakonnal oleks taskaalustatud sissekanne. Järgmisel joonisel kujutatakse kirjekandeid, milles sisaldub pärast fikseeritud dimensiooni rakendamist ka tasakaalustav kirje.
 
-[![Pearaamatu kanded](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Vautšer kanded pärast korrespondentkande rakendamist](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Näide 3
 
@@ -119,11 +119,11 @@ Mõnedes järgmistest teabematerjalidest viidatakse meie tarkvara varasemale vä
 
 [Kontoplaanide plaanimine](plan-chart-of-accounts.md) 
 
-[Kontoplaani plaanimine AX 2012 ajaveebis](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – link viib seitsmeosalise seeria esimese osa juurde.
+[Kontoplaani plaanimine AX 2012 ajaveebis](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – link viib seitsmeosalise seeria esimese osa juurde.
 
-[Dimensiooni vaikeväärtused arvestuse jaotustes](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Dimensiooni vaikeväärtused arvestuse jaotustes](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Dimensiooni vaikeväärtused dimensiooniraamistikus](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Dimensiooni vaikeväärtused dimensiooniraamistikus](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751228"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893574"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine
 
@@ -60,7 +60,7 @@ Kui valite dokumendi tüübi **Mis tahes**, valitakse suvand **Automaatne tuvast
     - Kui käitusajal esitatakse tegevus **Saada**, rakendatakse ER-i sihkoht **E-post**.
     - Kui käitusajal esitatakse tegevus **Prindi**, rakendatakse ER-i sihkoht **Printer**.
 
-Näiteks saate kasutada ER-vormingut **Vabas vormis arve (Excel)**, et selle sisestamisel printida [vabas vormis arve](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new). Loodud dokumendi marsruutimiseks peate konfigureerima selle ER-vormingu jaoks ER-i sihtkohad. Näiteks peate võib-olla konfigureerima need ER-i sihtkohad, et teha genereeritud dokumendis järgmist.
+Näiteks saate kasutada ER-vormingut **Vabas vormis arve (Excel)**, et selle sisestamisel printida [vabas vormis arve](../../../finance/accounts-receivable/create-free-text-invoice-new.md). Loodud dokumendi marsruutimiseks peate konfigureerima selle ER-vormingu jaoks ER-i sihtkohad. Näiteks peate võib-olla konfigureerima need ER-i sihtkohad, et teha genereeritud dokumendis järgmist.
 
 - Arhiivige dokument, kui ER-vorming on käivitunud, kuid tegevuskoodi pole antud (näiteks dokumendi elektroonilisel saatmisel).
 - Kuvage veebibrauseris dokumendi eelvaade, kui kasutaja sooritab tegevuse **Kuva**.
@@ -82,7 +82,7 @@ Järgmises näites on näidatud, kuidas saavutada samu alternatiivseid ER-i siht
 
 Kui ER-vormingu käitamisel kasutaja tegevused on valmistatud ette kasutaja poolt, kellel on vastavad [õigused](electronic-reporting-destinations.md#security-considerations) konfigureeritud sihtkohasätete muutmiseks käitusajal, kuvatakse dialoogiboks, mis annab võimaluse muuta konfigureeritud sihtkohasätteid. See dialoogiboks on valikuline ja selle ilme sõltub sellest, kuidas on ER-vormingu käitamiseks tehtud ER-ii raamistiku kutsung rakendatud. Selle dialoogiboksi kuvamisel lubatakse ER-i sihtkohad vastavalt esitatud kasutaja tegevusele.
 
-Järgmises näites on toodud dialoogiboksi **Elektroonilise aruandlse vormingu sihtkohad** näide, mis ilmub, kui vabas vomis arve [sisestatakse](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) ja ER-vorming **Vabas vormis arve (Excel)** käitatakse selle dokumendi loomiseks, kui tegevus **Printer** valmistati ette ja ER-i sihtkohad olid selle vormingu jaoks konfigureeritud, nagu varasemalt selles teemas on näidatud.
+Järgmises näites on toodud dialoogiboksi **Elektroonilise aruandlse vormingu sihtkohad** näide, mis ilmub, kui vabas vomis arve [sisestatakse](../../../finance/accounts-receivable/create-free-text-invoice-new.md) ja ER-vorming **Vabas vormis arve (Excel)** käitatakse selle dokumendi loomiseks, kui tegevus **Printer** valmistati ette ja ER-i sihtkohad olid selle vormingu jaoks konfigureeritud, nagu varasemalt selles teemas on näidatud.
 
 ![Dialoogiboks, mis annab võimaluse muuta täätava ER-vormingu algselt konfigureeritud ER-i sihtkohad](./media/er-destination-action-dependent-02.gif)
 

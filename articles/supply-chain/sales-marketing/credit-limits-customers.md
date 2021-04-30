@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824914"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908080"
 ---
 # <a name="credit-limits-for-customers"></a>Klientide krediidilimiidid
 
@@ -90,7 +90,7 @@ Vormi **Müügireskontro parameetrid** abil saate määrata teabe, millega võrr
 
 **Kus on teave kliendi järelejäänud kasutatava krediidi kohta?**
 
-Andmed kliendi saldo ja järelejäänud krediidisumma kohta arvutatakse ja salvestatakse aegumise hetktõmmise loomisel ning kuvatakse vormil **Sissenõuded**. Vormil **Sissenõuded** kuvatavad summad ei pruugi sisaldada kõiki kandetegevusi uue aegumise hetktõmmise loomiseni. Lisateavet leiate teemast [Võlanõuded ja krediit moodulis Müügireskontro](https://technet.microsoft.com/library/hh209221.aspx).
+Andmed kliendi saldo ja järelejäänud krediidisumma kohta arvutatakse ja salvestatakse aegumise hetktõmmise loomisel ning kuvatakse vormil **Sissenõuded**. Vormil **Sissenõuded** kuvatavad summad ei pruugi sisaldada kõiki kandetegevusi uue aegumise hetktõmmise loomiseni. Lisateavet leiate teemast [Võlanõuded ja krediit moodulis Müügireskontro](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 Olenevalt valitud dokumentidest arvutatakse müügitellimuste, saatelehtede ja kliendiarvete värskendamisel andmed kliendi saldo ja järelejäänud krediidisumma kohta. Kui töös oleva dokumendi summa põhjustaks krediidilimiidi ületamise, kuvatakse teade.
 

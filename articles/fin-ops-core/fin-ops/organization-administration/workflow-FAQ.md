@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747197"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890353"
 ---
 # <a name="workflow-faq"></a>Töövoo KKK
 
@@ -45,9 +45,9 @@ Siin on mõned asjad, millele teatsite edastamiseks töövoogudele märguandeid 
     - Tulevases uuenduses lisame tegevuskeskuse teate, nii et kasutajale määratakse töövoo tööüksus. 
 - Teatiste töövoogudesse lisamine
     - Tegevuskeskuse teateid saab luua kindlatele kasutajatele, nt töövoost X++ loodud sõnum.
-    - [Töövoogudel on ärisündmused](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
+    - [Töövoogudel on ärisündmused](../../dev-itpro/business-events/business-events-workflow.md), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
 
-Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) koos Microsoft Power Automate'ga, et pakkuda täiendavad või muid teatiseid.
+Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](../../dev-itpro/business-events/business-events-workflow.md) koos Microsoft Power Automate'ga, et pakkuda täiendavad või muid teatiseid.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Miks ei saa töövoo redaktor AD FS-i all käivituda?
 Täiendatud keskkonnas teenuse Active Directory Federation Services (AD FS) all töötamisel võib töövoo redaktoril olla probleeme alustamisega. Kui jah, veenduge, et URL https://dynamicsaxworkfloweditor/ oleks ADFS-i sätetes lisatud atribuudile **Microsoft Dynamics 365 for Operations kohapeal – Töövoog – Omarakendus**.

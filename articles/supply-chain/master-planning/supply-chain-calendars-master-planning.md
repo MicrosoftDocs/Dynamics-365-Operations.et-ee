@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841763"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908367"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendrid ja koondplaneerimine
 
@@ -90,7 +90,7 @@ Selleks et näidata kuupäevi, millal klient saab saadetisi vastu võtta, saate 
 
 Pange tähele, et ühe kliendiga saab kaasata ainult ühe kalendri. Kui soovite kaasata kalendri kliendi igale aadressile, saate luua ühe kliendi aadressi kohta ja seejärel määrata sellele vastava kalendri. 
 
-Nõutavat sissetulekukuupäeva müügitellimuse ridadel mõjutab kliendi kalender ja tarnekuupäeva määramisviis. Lisateavet varaseima tarnekuupäeva arvutamise kohta leiate teemast [Tellimuse lubamine.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Nõutavat sissetulekukuupäeva müügitellimuse ridadel mõjutab kliendi kalender ja tarnekuupäeva määramisviis. Lisateavet varaseima tarnekuupäeva arvutamise kohta leiate teemast [Tellimuse lubamine.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Juriidilise isiku lähetuskalender
 Selleks et näidata kuupäevi, millal juriidiline isik saab kaupu lähetada, saate seadistada lähetuskalendri jaotises **Organisatsiooni haldus > Organisatsioonid > Juriidilised isikud**. Valige juriidiline isik ja lisage kalender vahekaardi **Väliskaubandus ja logistika** väljal **Lähetuskalender**. Lähetuskalender toimib juriidilise isiku kõigi laokalendrite vaikesätete allikana. 

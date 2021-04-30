@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794465"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891074"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Osakondade loomine ja nende kaasamine osakonnahierarhiasse
 
@@ -53,7 +53,7 @@ Osakonna lisamiseks osakonnahierarhiasse toimige järgmiselt.
 6.  Kui olete lõpetanud, klõpsake hierarhiakujundajas valikut **Avalda**. Saate sisestada jõustumiskuupäeva, mis näitab, millal hierarhia avaldada. Näiteks uue osakonna lisamiseks järgmise kalendriaasta alguses määrake jõustumiskuupäevaks uue kalendriaasta 1. jaanuar. Muudatused hierarhias jüustuvad sel kuupäeval.
 
 ## <a name="steps-for-creating-a-department"></a>Osakonna loomise juhised
-Uue osakonna loomise etapiviisilise protseduuri leiate artiklist [Uute osakondade määratlemine](../fin-and-ops/hr/tasks/define-new-departments.md). 
+Uue osakonna loomise etapiviisilise protseduuri leiate artiklist [Uute osakondade määratlemine](./hr-personnel-define-departments.md). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834496"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897764"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
@@ -48,7 +48,7 @@ Olemasoleva funktsiooniga finantstöölehtede jaoks (üldine tööleht, põhivar
 
 ## <a name="issues-with-one-voucher"></a>Ühe kande probleemid
 
-Ühe kande funktsioon tekitab probleeme tasakaalustamise, maksuarvestuse, kande tühistamise, alampearaamatu ja pearaamatu vastavusseviimise, finantsaruandluse ja muu ajal. (Lisateavet probleemide kohta, mis tekivad tasakaalustamise ajal, vt näiteks jaotisest [Üksik mitme kliendi- või hankijakirjega kanne](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Õigeks toimimiseks ja aruandluseks on nende protsesside ja aruannete jaoks vaja kande üksikasju. Kuigi mõni stsenaarium võib olenevalt organisatsiooni seadistusest siiski õigesti toimida, esineb sageli probleeme, kui ühte kandesse sisestatakse mitu kannet.
+Ühe kande funktsioon tekitab probleeme tasakaalustamise, maksuarvestuse, kande tühistamise, alampearaamatu ja pearaamatu vastavusseviimise, finantsaruandluse ja muu ajal. (Lisateavet probleemide kohta, mis tekivad tasakaalustamise ajal, vt näiteks jaotisest [Üksik mitme kliendi- või hankijakirjega kanne](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Õigeks toimimiseks ja aruandluseks on nende protsesside ja aruannete jaoks vaja kande üksikasju. Kuigi mõni stsenaarium võib olenevalt organisatsiooni seadistusest siiski õigesti toimida, esineb sageli probleeme, kui ühte kandesse sisestatakse mitu kannet.
 
 Näiteks sisestate järgmise kande.
 

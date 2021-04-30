@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818556"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898056"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finantsülevaadete avaleht (eelversioon)
 
@@ -31,7 +31,7 @@ Finantsülevaated pakuvad konfigureeritavaid ja laiendatavaid mudeleid, mis aita
 
 Finantsülevaadete eelversioon on proovimiseks saadaval juurutustes Ameerika Ühendriikides, Euroopas ja Ühendkuningriigis. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
 
-Eelversiooni funktsioone saab ja tuleb sisse lülitada ainult järgu 2 liivakasti keskkondades. Liivakasti keskkonnas loodud seadistust ja tehisintellekti (AI) mudeleid ei saa töökeskkonda migreerida. Lisateavet leiate teemast [Microsoft Dynamics 365 eelversioonide täiendavad kasutustingimused](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Eelversiooni funktsioone saab ja tuleb sisse lülitada ainult järgu 2 liivakasti keskkondades. Liivakasti keskkonnas loodud seadistust ja tehisintellekti (AI) mudeleid ei saa töökeskkonda migreerida. Lisateavet leiate teemast [Microsoft Dynamics 365 eelversioonide täiendavad kasutustingimused](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -43,7 +43,7 @@ Eelversiooni programmi rakendamiseks täitke [rakenduse Dynamics 365 Finance fin
 
 ### <a name="system-requirements"></a>Süsteeminõuded
 
-Finantsülevaadete eelversiooni jaoks on nõutav järgu 2 liivakasti keskkond (mitme kastiga). Taustteavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+Finantsülevaadete eelversiooni jaoks on nõutav järgu 2 liivakasti keskkond (mitme kastiga). Taustteavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Versiooninõuded
 
@@ -53,7 +53,7 @@ See dokument kehtib rakenduse Finance and Operations versioonile 10.0.11 (platvo
 
 Kliendi maksmise prognoosimise funktsiooni jaoks kasutatava masinõppemudeli õigesti treenimiseks on nõutav vähemalt ühe aasta jagu kliendiarveid.
 
-Demosüsteemide jaoks, millel on Contos demoandmete komplekt, on saadaval näidisandmed.
+Demosüsteemide jaoks, millel on Contoso demoandmete komplekt, on saadaval näidisandmed.
 
 ### <a name="role-and-permission-requirements"></a>Rolli ja õiguste nõuded
 
@@ -79,7 +79,7 @@ Peate looma andmeintegraatori projekti, et masinõppemudeli loodavad andmed saak
 Kui olete konfigureerimise etapid lõpule viinud ja häälestanud demoandmed, peate lülitama sisse ja häälestama kõik võimalused, mida kavatsete kasutada: kliendimaksete prognoosimine, rahavoo prognoosimine ja eelarvesoovitused.
 
 ### <a name="enable-customer-payment-predictions"></a>Kliendimaksete prognoosimise lubamine
-Kui kasutate kliendimaksete prognoosimise testimiseks demoandmeid, võib olla vajalik, et oma tehisintellekti mudeli loomise õnnestumiseks peate importima täiendavad demoandmed. Lisateavet demoandmete importimise kohta vt teemast [Maksmise prognoosideks demoandmete häälestamine](set-up-demo-data.md).
+Kui kasutate kliendimaksete prognoosimise testimiseks demoandmeid, võib olla vajalik, et oma tehisintellekti mudeli loomise õnnestumiseks peate importima täiendavad demoandmed. 
 
 Kliendimaksete prognooside lubamiseks peate viima lõpule etappide kogumi, et luua teie organisatsiooni andmeid kasutav masinõppemudel, et luua prognoose, millal kliendid tõenäoliselt tasuvad laekumata arved ja millal konkreetsed arved tõenäoliselt tasutakse. Lisateavet ja konkreetseid lõpule viimise etappe vt teemast [Kliendimakse prognooside lubamine](enable-cust-paymnt-prediction.md). 
 

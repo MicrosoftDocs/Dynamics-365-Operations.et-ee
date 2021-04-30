@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825322"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909127"
 ---
 # <a name="purchase-order-overview"></a>Ostutellimuse ülevaade
 
@@ -41,7 +41,7 @@ Järgmistes artiklites antakse ülevaade mitmesuguste etappide kohta, mille ostu
 -   [Ostutellimuste loomine](purchase-order-creation.md)
 -   [Ostutellimuste kinnitamine](purchase-order-approval-confirmation.md)
 -   [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
--   [Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Hankija arvete ülevaade](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Ostutellimuste tüübid
 Ostutellimusi on kolme tüüpi. Ostutellimuse loomisel tuleb määrata tüüp. Uute tellimuste kohta saab seadistada tellimuse vaiketüübi lehel **Hankeparameetrid**.
@@ -85,7 +85,7 @@ Välja **Kinnitamise olek** kasutatakse, kui ostutellimus läbib töövoo üleva
 
 [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 
-[Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Hankija arvete ülevaade](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

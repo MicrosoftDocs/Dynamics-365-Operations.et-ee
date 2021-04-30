@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839363"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908778"
 ---
 # <a name="cost-management-home-page"></a>Kuluhalduse koduleht
 
@@ -43,7 +43,7 @@ Laoarvestuse ja tootmise raamatupidamise juurde pääsete tööruumidest **Kuluh
 
 Tootmise raamatupidamine võimaldab teil tootmis- ja partiitellimuste puhul [tööülesannetele kulusid jagada](production-order-cost-analysis.md) ning lean manufacturingi puhul teha [omahinna tagasiarvestust](backflush-costing.md).
 
-[Kuluhalduse Power BI sisu](../../dev-itpro/analytics/cost-management-content-pack.md) pakub juhtimisülevaadet varudest ja pooleliolevatest (WIP) varudest ning neist aja jooksul kategooriate kaupa läbivoolavast kulust. Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
+[Kuluhalduse Power BI sisu](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) pakub juhtimisülevaadet varudest ja pooleliolevatest (WIP) varudest ning neist aja jooksul kategooriate kaupa läbivoolavast kulust. Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
 
 ### <a name="additional-resources"></a>Lisaressursid
 
@@ -57,7 +57,7 @@ Tehniline ülevaade [Koosluse arvutamine kuluarvutustabeli abil](https://www.mic
 
 #### <a name="blogs"></a>Ajaveebid
 
-[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg) ning [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ja muud teavet kuluhalduse kohta. Kuigi mõni neist sisestustest on kirjutatud kuluhalduse eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](/archive/blogs/axmfg/) ning [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ja muud teavet kuluhalduse kohta. Kuigi mõni neist sisestustest on kirjutatud kuluhalduse eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 #### <a name="task-guides"></a>Tegevusjuhised
 

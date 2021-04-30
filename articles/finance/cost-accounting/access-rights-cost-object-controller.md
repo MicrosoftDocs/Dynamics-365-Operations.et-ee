@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810194"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897620"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Kuluobjekti kontrollerite pääsuõigused
 
@@ -62,9 +62,8 @@ Järgmine näide on selle kohta, milline dimensioonihierarhia välja võib näha
 
 Võite kasutada hierarhiakujundajas kiirkaarti **Kasutajad** vähemalt ühe kasutaja ID sisestamiseks igasse sõlme.
 
-|                                   | Kasutajad            | Dimensiooniliikmete vahemikud   |                         |
+|             Sõlmpunktid                 | Kasutajad            | Dimensiooniliikmest     |   Dimensiooniliikmeni   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Sõlmed**                         | **Kasutaja ID**      | **Lähtedimensiooni liige** | **Sihtdimensiooni liige** |
 | Organisatsioon                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administraator                 | aprill            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finantsid   | Alicia           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate
     - Dynamics 365 Financei klientrakendusse manustatud Power BI andmevisualiseeringud
 
 > [!IMPORTANT]
-> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Selles teemas näidatakse eeltingimusi, mis peavad olema täidetud enne **kulude juhtimise** tööruumi kasutamist.
 
 Lisaressursid
 
 - [Kulujuhtimise tööruum](cost-control-workspace.md)
 - [Dimensioonihierarhia](dimension-hierarchy.md)
-- [Kuluarvestuse sisupaketi turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Kuluarvestuse sisupaketi turbe seadistamine](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

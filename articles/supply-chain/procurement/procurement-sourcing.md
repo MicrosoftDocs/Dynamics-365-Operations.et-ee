@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825514"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909200"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Hangete avaleht
 
@@ -83,12 +83,12 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 ## <a name="prices-and-discounts"></a>Hinnad ja allahindlused
 -   [Ostulepingud](purchase-agreements.md)
 -   [Ostulepingu loomine](tasks/create-purchase-agreement.md)
--   [Hankija soodustused](https://docs.microsoft.com/dynamics/s-e/) (valge raamat)
+-   [Hankija soodustused](/dynamics/s-e/) (valge raamat)
 
 ## <a name="product-receipt-and-invoicing"></a>Toote sissetulek ja arveldamine
 -   [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
--   [Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Hankija sisestusreeglid](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Hankija arvete ülevaade](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Hankija sisestusreeglid](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Hangete töövood
 -   [Hangete ülevaade](procurement-sourcing-overview.md)

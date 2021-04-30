@@ -14,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dabde875e719ca2ffb5033cdbb8229e005203eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0f3ce6684cb98e3e459f33ce7c34cd9955abd59
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839938"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894866"
 ---
 # <a name="advance-holders-overview"></a>Avansisaajate ülevaade
 
@@ -78,7 +78,7 @@ Ostutellimuse õigesti registreerimiseks ja sisestamiseks avansisaaja kaudu peat
 
 ### <a name="create-an-advance-holder"></a>Avansisaaja loomine
 
-Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis)](../../fin-and-ops/hr/tasks/enter-worker-information.md). 
+Enne avansisaaja loomist peavad töötajad olema juba seadistatud. Lisateavet vt teemast [Töötaja teabe sisestamine (tegevuse juhis)](../../human-resources/hr-personnel-enter-worker-information.md). 
 
 1. Valige suvandid **Ostureskontro** \> **Avansisaajad** \> **Avansisaajad**.
 

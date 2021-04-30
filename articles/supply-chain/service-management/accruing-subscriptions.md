@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d6f2f69b7093e5408b016f4a69792b28c70f57f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6a2b581c8ae52f4c379e8e511dc898a8d106d149
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824674"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908056"
 ---
 # <a name="accruing-subscriptions"></a>Lisandunud kordustellimused 
 
@@ -41,7 +41,7 @@ Kui krediteerite kordustellimuse tasu, mille eest on arve esitatud, siis saate t
 
   - Saate viittulu tühistada kuupäeval, millal kreeditarve sisestatakse, või juurdekasvu esialgse sisestamise kuupäeval.
 
-Lisateabe saamiseks vt teemat [Kordustellimuse parameetrid (vorm)](https://technet.microsoft.com/library/aa619615.aspx).
+Lisateabe saamiseks vt teemat [Kordustellimuse parameetrid (vorm)](/dynamicsax-2012//subscription-parameters-form).
 
 ## <a name="setup-requirements"></a>Nõuete seadistamine
 

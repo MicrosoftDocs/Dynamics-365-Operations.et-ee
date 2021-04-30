@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829686"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909423"
 ---
 # <a name="master-planning-setup-wizard"></a>Koondplaneerimise installiviisard
 
@@ -45,13 +45,13 @@ Viisardi esimesel leheküljel küsitakse teie ettevõtte erinõuete kohta. Teie 
 
 Kui arvutatud lõimede arv ületab 75 protsenti saadaolevatest lõimede arvust, on iga kliendi jaoks saadaolevate lõimede arvu piirmääraks 75%. (Saadaolevate lõimede arv määratakse iga kliendi puhul.)
 
-Lisateabe saamiseks lugege teemat [Lõimede arv](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Lisateabe saamiseks lugege teemat [Lõimede arv](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Kogumi suurus
 
 Kogumi suuruseks määratakse **1**. See väärtus on sageli parim väärtus, kuna see aitab parandada koondplaneerimise jõudlust.
 
-Lisateabe saamiseks lugege teemat [Ülesannete arv abilise ülesannete kogumis](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Lisateabe saamiseks lugege teemat [Ülesannete arv abilise ülesannete kogumis](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Kinnituskogumi suurus
 
@@ -64,7 +64,7 @@ Kogumi arvutamine = (plaanitud tellimuste arv × (kinnitusaja piir ÷ laovarude 
 
 Vahemälu mahuks määratakse **Maksimaalne**. See väärtus on sageli parim väärtus, kuna see aitab parandada koondplaneerimise jõudlust.
 
-Lisateabe saamiseks lugege teemat [Tööde kogumisse kuuluvatele töödele aja eraldamine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Lisateabe saamiseks lugege teemat [Tööde kogumisse kuuluvatele töödele aja eraldamine](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Tootmise seadistamine
 
@@ -88,7 +88,7 @@ Selle lehe ülejäänud küsimused ja nende vastused järgivad sama skeemi.
 - **Jah, nagu on määratletud selles koondplaanis** – suvandi **Eelarveplaan (ajapiir)** väärtuseks seatakse **Jah**. Sisestatud päevade arvu kasutatakse ja need alistavad laovarude gruppidele määratud väärtused.
 - **Jah, nagu on määratletud laovarude grupi puhul** – suvandi **Eelarveplaan (ajapiir)** väärtuseks seatakse **Ei.**
 
-Lisateabe saamiseks lugege teemat [Tööde plaanimine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Lisateabe saamiseks lugege teemat [Tööde plaanimine](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Planeerimissuvandid
 
@@ -99,7 +99,7 @@ Teie vastus esimesele küsimusele sellel lehel („Kas teil on vaja planeerida o
 - **Jah** – kasutatakse tööde planeerimist.
 - **Ei** – kasutatakse operatsioonide planeerimist.
 
-Lisateabe saamiseks vt [Operatsioonide plaanimine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) ja [Tööde plaanimine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Lisateabe saamiseks vt [Operatsioonide plaanimine](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) ja [Tööde plaanimine](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Nõudluse ja pakkumise värskendused
 
@@ -184,7 +184,7 @@ Contoso Retailer on moetööstuse turustusettevõte. See kasutab koondplaneerimi
 - Kauplused kasutavad täiendamise jaoks ostutaotlusi.
 - Täitmisaeg põhilaost igasse poodi on kõigi kaupade puhul ligikaudu kaks nädalat.
 
-Viisardis sisestatakse Contoso Retaileri jaoks järgmised väärtused.
+Viisardis sisestatakse Contoso jaemüüja jaoks järgmised väärtused.
 
 - **Nõudluse prognoos**
 

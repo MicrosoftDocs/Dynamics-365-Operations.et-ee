@@ -2,7 +2,8 @@
 title: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
 description: Selles teemas selgitatakse, kuidas saab konfigureerida elektroonilise aruandluse (ER) vorminguid juriidilise isiku kohta määratud parameetrite kasutamiseks.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751174"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853489"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751174"
 
 ## <a name="overview"></a>Ülevaade
 
-Paljudes elektroonilise aruandluse (ER) vormingutes, mida loote, peate andmeid filtreerima, kasutades väärtuste kogumit, mis on omane igale teie eksemplari juriidilisele isikule (nt maksukoodide kogum maksukannete filtreerimiseks). Kui praegu on filtreerimine konfigureeritud ER-vormingus, kasutatakse andmete filtreerimisreeglite määratlemiseks ER-vormingu avaldistes väärtusi, mis sõltuvad juriidilisest isikust (nt maksukoode). Seetõttu on ER-vorming muudetud juriidilisele isikule omaseks, ja vajalike aruannete loomist peate looma tuletatud koopiad algsest ER-vormingust iga juriidilise isiku kohta, kus tuleb ER-vormingut käitada. Iga tuletatud ER-vormingut tuleb redigeerida, et tuua sellesse juriidilise isiku põhised väärtused, muuta alust iga kord, kui algversiooni (alust) värskendatakse, eksportida katsekeskkonnast ja importida tootmiskeskkonda, kui see tuleb juurutada kasutamiseks tootmises, jne. Seetõttu on seda tüüpi konfigureeritud ER-lahenduse hooldus üsna keeruline ja aeganõudev mitmel põhjusel.
+Paljudes elektroonilise aruandluse (ER) vormingutes, mida loote, peate andmeid filtreerima, kasutades väärtuste kogumit, mis on omane igale teie eksemplari juriidilisele isikule (nt maksukoodide kogum maksukannete filtreerimiseks). Kui praegu on filtreerimine konfigureeritud ER-vormingus, kasutatakse andmete filtreerimisreeglite määratlemiseks ER-vormingu avaldistes väärtusi, mis sõltuvad juriidilisest isikust (nt maksukoode). Seetõttu on ER-vorming muudetud juriidilisele isikule omaseks, ja vajalike aruannete loomist peate looma tuletatud koopiad algsest ER-vormingust iga juriidilise isiku kohta, kus tuleb ER-vormingut käitada. Iga tuletatud ER-vormingut tuleb redigeerida, et tuua sellesse juriidilise isiku põhised väärtused, muuta alust iga kord, kui algversiooni (alust) värskendatakse, eksportida katsekeskkonnast ja importida tootmiskeskkonda, kui see tuleb juurutada kasutamiseks tootmises, jne. Seetõttu on seda tüüpi konfigureeritud ER-lahenduse hooldus keeruline ja aeganõudev mitmel põhjusel.
 
 -   Mida rohkem on juriidilisi isikuid, seda rohkem ER-vormingu konfiguratsioone tuleb hooldada.
 -   ER-konfiguratsioonide hoolduseks peavad ärikasutajatel olema ER-alased teadmised.
@@ -86,7 +87,7 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Enne sel
 
     ![Mudel.Andmed.Kokkuvõte andmeallikas maksukannete loendist](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Arvutatud väli **Model.Data.Summary.Level** on konfigureeritud nii, et see sisaldab ER-i avaldist. Pange tähele, et maksukoodid (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ja **InVAT0**) on sellesse konfiguratsiooni püsiprogrammeeritud. Seetõttu oleneb see ER-vorming juriidilisest isikust, kus maksukoodid konfigureeriti.
+    Arvutatud väli **Model.Data.Summary.Level** on konfigureeritud nii, et see sisaldab ER-i avaldist. Maksukoodid (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ja **InVAT0**) on sellesse konfiguratsiooni püsiprogrammeeritud. Seetõttu oleneb see ER-vorming juriidilisest isikust, kus maksukoodid konfigureeriti.
 
     ![Mudel.Andmed.Kokkuvõte.Tasandi kalkuleeritud väli koos püsiprogrammeeritud maksukoodidega](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -153,12 +154,12 @@ Järgmiseks lisage uus andmeallikas määramaks, kuidas ärikasutajad määravad
 1.  Valige vahekaardil **Vastendamine** käsk **Lisa**.
 2.  Valige suvand **Vormingu loetelu\otsing**.
 
-    Tuvastasite äsja, et iga reegel, mille ärikasutajad määravad maksustamistaseme tuvastamiseks, tagastavad ER-vormingu loetelu väärtuse. Pange tähele, et andmeallika tüübile **Otsing** pääseb ligi jaotisest **Andmemudel** ja **Dynamics 365 for Operations** i plokkidest lisaks plokile **Vormingu loetelu**. Seetõttu saab ER-i andmemudeli loetelusid ja rakenduse loetelusid kasutada väärtuste määramiseks, mis tagastatakse seda tüüpi andmeallikate kohta.
+    Tuvastasite äsja, et iga reegel, mille ärikasutajad määravad maksustamistaseme tuvastamiseks, tagastavad ER-vormingu loetelu väärtuse. Pange tähele, et andmeallika tüübile **Otsing** pääseb ligi jaotisest **Andmemudel** ja **Dynamics 365 for Operations** i plokkidest lisaks plokile **Vormingu loetelu**. Seetõttu saab ER-i andmemudeli loetelusid ja rakenduse loetelusid kasutada väärtuste määramiseks, mis tagastatakse seda tüüpi andmeallikate kohta. Lisateavet **otsingu** andmeallikate kohta leiate teemast [Otsingu andmeallikate konfigureerimine ER-i rakendusekohaste parameetrite funktsiooni kasutamiseks](er-lookup-data-sources.md).
     
 3.  Väljale **Nimi** sisestage suvand **Valija**.
 4.  Väljalt **Vormingu loetelu** valige väärtus **Maksustamistasemete loend**.
 
-    Määrasite äsja, et iga selles andmeallikas määratud reegli kohta peab ärikasutaja valima ühe vormingu loetelu **Maksustamistasemete loend** väärtuse tagastatud väärtusena.
+    Määrasite, et iga selles andmeallikas määratud reegli kohta peab ärikasutaja valima ühe vormingu loetelu **Maksustamistasemete loend** väärtuse tagastatud väärtusena.
     
 5.  Valige suvand **Otsingu redigeerimine**.
 6.  Valige suvand **Veerud**.
@@ -190,7 +191,7 @@ Järgmiseks lisage uus andmeallikas määramaks, kuidas ärikasutajad määravad
     
     ![Vormingukujundaja leht koos uue andmeallikaga](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Pange tähele, et konfigureeritud reeglite hindamine oleneb väljade andmetüübist, mis on valitud määratlema nende reeglite tingimusi. Kui valite välja, mis on konfigureeritud väljaks andmetüübile **Numbriline** või **Kuupäev**, erinevad kriteeriumid kriteeriumitest, mida kirjeldati varem andmetüübi **String** kohta. Väljade **Numbriline** ja **Kuupäev** korral tuleb reegel määrata väärtuste vahemikuna. Reegli tingimust peetakse täidetuks, kui andmeallikale edastatud väärtus jääb konfigureeritud vahemikku.
+    Konfigureeritud reeglite hindamine oleneb väljade andmetüübist, mis on valitud määratlema nende reeglite tingimusi. Kui valite välja, mis on konfigureeritud väljaks andmetüübile **Numbriline** või **Kuupäev**, erinevad kriteeriumid kriteeriumitest, mida kirjeldati varem andmetüübi **String** kohta. Väljade **Numbriline** ja **Kuupäev** korral tuleb reegel määrata väärtuste vahemikuna. Reegli tingimust peetakse täidetuks, kui andmeallikale edastatud väärtus jääb konfigureeritud vahemikku.
     
     Järgmisel joonisel on näide seda tüüpi seadistuse kohta. Peale välja **Model.Data.Tax.Code** andmetüübi **String** korral kasutatakse otsingu andmeallika tingimuste määramiseks välja **Model.Tax.Summary.Base** andmetüübi **Tegelik** korral.
     
@@ -306,7 +307,9 @@ Selleks et õppida konfigureeritud ER-vormingut **Vorming LE-andmete otsingu õp
 
 [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
 
-[ER-vormingu parameetrite seadistamine juriidilise isiku kohta](er-app-specific-parameters-set-up.md)
+[Elektroonilise aruandluse vormingu parameetrite häälestus juriidilise isiku kohta](er-app-specific-parameters-set-up.md)
+
+[Andmeallikate otsingu konfigureerimine kasutama ER-i rakendusepõhiseid parameetrite funktsioone](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

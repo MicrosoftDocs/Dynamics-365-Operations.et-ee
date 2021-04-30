@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838318"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908007"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Laotöö töötlemise edasilükkamine
 
@@ -28,7 +28,7 @@ Selles teemas kirjeldatakse funktsioone, mis muudavad edasilükatud lao tööük
 
 Edasilükatud töötlemise funktsioon võimaldab laotöötajatel jätkata muude töödega, kui asetamistoiminguid taustal töödeldakse. Edasilükatud töötlemine on kasulik, kui palju tööridu tuleb töödelda ja töötaja saab lasta selle töö töödelda asünkroonselt. See on kasulik ka siis, kui serveris võib olla töötlusaja ad-hoc plaaniväline suurenemine ja suurenenud töötlusaeg võib mõjutada kasutaja tootlikkust.
 
-Taustal töötlemine saavutatakse SysOperationi raamistiku abil. Lisateavet lugege teemast [SysOperationi raamistiku ülevaade](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Taustal töötlemine saavutatakse SysOperationi raamistiku abil. Lisateavet lugege teemast [SysOperationi raamistiku ülevaade](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Töö töötluspoliitikate konfigureerimine
 

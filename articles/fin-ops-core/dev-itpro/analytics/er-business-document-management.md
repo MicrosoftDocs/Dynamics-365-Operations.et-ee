@@ -2,7 +2,7 @@
 title: Äridokumentide halduse ülevaade
 description: Siin teemas on ER-raamistiku äridokumendi halduri kasutamisõpetus.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749533"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891301"
 ---
 # <a name="business-document-management-overview"></a>Äridokumentide halduse ülevaade
 
@@ -45,9 +45,9 @@ Praegu kasutatakse äridokumendi halduse funktsiooni vaid pilve juurutamiseks. K
 
 ## <a name="business-document-availability"></a>Äridokumendi saadavus
 
-Kõigi 2019. aasta oktoobri väljalaske jaoks kavandatud aruannete põhjalikku loendit vt [Seadistatavate äridokumentide aruandlus Wordis ja Excelis](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Kõigi 2019. aasta oktoobri väljalaske jaoks kavandatud aruannete põhjalikku loendit vt [Seadistatavate äridokumentide aruandlus Wordis ja Excelis](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Kõigi 2020. aasta oktoobri väljalaske jaoks kavandatud aruannete põhjalikku loendit vt [Seadistatavad äridokumendid – Wordi mallid](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Kõigi 2020. aasta oktoobri väljalaske jaoks kavandatud aruannete põhjalikku loendit vt [Seadistatavad äridokumendid – Wordi mallid](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Tulevastes väljalasetes muutub veel aruandeid kättesaadavaks. Lisaaruannete eriteatised saadetakse eraldi. Teavet selle kohta, kuidas praegu saadaolevate aruannete loendit vaadata, vt allpool jaotises [Seadistatavate äridokumentide toetamiseks rakenduses Finance välja antud ER-i konfiguratsioonide loend](#list-of-configurations-cbd).
 
@@ -272,7 +272,23 @@ Valitud mallile on saadaval valik **Muuda malli**. See valik on alati saadaval a
 
 ![Uue malli loomiseks redigeerimisprotsessi alguse kinnitamine](./media/BDM-Overview-EditingTemplate4.png)
 
+Kui ühtegi teenusepakkujat pole, pakutakse selle loomist. Kui aktiivset teenusepakkujat ei ole, pakutakse talle võimalust valida see aktiveerimiseks.
+
+Pakkuja loomiseks muutke väljal **Nimi** teenusepakkuja nime, värskendage uue pakkuja välja **Interneti-aadress** ja klõpsake kinnitamiseks nuppu **OK**.
+
+   ![BDM-is uue pakkuja loomine](./media/bdm_create_provider.png)
+
+Olemasoleva pakkuja aktiveerimiseks valige väljal **Konfiguratsioonipakkuja** pakkuja pakkuja nimi ja valige **OK**, et seada pakkuja aktiivseks.
+
+   ![Pakkuja aktiveerimine BDM-is](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Iga BDM-i mall viitab pakkujale kui konfiguratsiooni autorile. Seetõttu on malli jaoks vaja aktiivset pakkujat.
+
+
 Suvand **Uus dokument** on alati saadaval praeguse ja teise pakkuja (selles näites Microsofti) ER-vormingu seadistusega mallil, millel pole redaktsiooni. Muudetud malli saab seejärel muuta uues ise loodavas ER-vormingus seadistusega.
+
+
 
 ### <a name="start-editing-a-template"></a>Alustage malli muutmisest
 
@@ -419,7 +435,7 @@ Tõenäoliselt logisite sisse Azure AD domeeni praegusesse rakenduse eksemplari,
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Rakenduses Finance väljastatud ER-i konfiguratsioonide loend, et toetada konfigureeritavaid äridokumente
 
-Rakenduse Finance ER-i konfiguratsioonide [loendit](general-electronic-reporting.md#list-of-configurations) värskendatakse pidevalt. Avage [Globaalne hoidla](er-download-configurations-global-repo.md), et vaadata praegu toetatud ER-i konfiguratsioonide loendit. Saate [filtreerida](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) globaalset hoidlat, et vaadata ER-i konfiguratsioonide loendit, mida kasutatakse konfigureeritavate äridokumentide toetamiseks.
+Rakenduse Finance ER-i konfiguratsioonide [loendit](general-electronic-reporting.md#list-of-configurations) värskendatakse pidevalt. Avage [Globaalne hoidla](er-download-configurations-global-repo.md), et vaadata praegu toetatud ER-i konfiguratsioonide loendit. Saate [filtreerida](../../../finance/localizations/enhanced-filtering-global-repo.md) globaalset hoidlat, et vaadata ER-i konfiguratsioonide loendit, mida kasutatakse konfigureeritavate äridokumentide toetamiseks.
 
 ![Globaalse hoidla sisu filtreerimine konfiguratsioonihoidla lehel](./media/bdm-overview-filterglobalrepo.gif)
 

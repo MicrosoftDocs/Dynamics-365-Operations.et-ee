@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801115"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889856"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Korduvate andmete ekspordi rakenduse loomine
 
@@ -43,12 +43,12 @@ See õpetus kasutab järgmisi tehnoloogiaid.
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)**– eksporditavatele töötajatele mõeldud koondandmete allikas.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** – tehnoloogia, mis võimaldab korduva eksportimise korraldamist ja planeerimist.
 
-    - **[Konnektorid](https://docs.microsoft.com/azure/connectors/apis-list)** – tehnoloogia, mida kasutatakse loogikarakenduse ühendamiseks vajalike lõpp-punktidega.
+    - **[Konnektorid](/azure/connectors/apis-list)** – tehnoloogia, mida kasutatakse loogikarakenduse ühendamiseks vajalike lõpp-punktidega.
 
-        - Konnektor [HTTP koos Azure AD-ga](https://docs.microsoft.com/connectors/webcontents/)
-        - Konnektor [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)
+        - Konnektor [HTTP koos Azure AD-ga](/connectors/webcontents/)
+        - Konnektor [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness)
 
-- **[DMF-i pakett REST API](../dev-itpro/data-entities/data-management-api.md)** – tehnoloogia, mida kasutatakse eksportimise käivitamiseks ja selle edenemise jälgimiseks.
+- **[DMF-i pakett REST API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** – tehnoloogia, mida kasutatakse eksportimise käivitamiseks ja selle edenemise jälgimiseks.
 - **[OneDrive for Business](https://onedrive.live.com/about/business/)** – eksporditud töötajate sihtkoht.
 
 ## <a name="prerequisites"></a>Eeltingimused
@@ -84,11 +84,11 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
     ![Loogikarakenduse loomise leht](media/integration-logic-app-creation-1.png)
 
 2. Alustage Logic Apps Designeris tühja loogikarakendusega.
-3. Lisage [kordumise graafiku päästik](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence), et käivitada loogikarakendus iga 24 tunni järel (või vastavalt teie valitud graafikule).
+3. Lisage [kordumise graafiku päästik](/azure/connectors/connectors-native-recurrence), et käivitada loogikarakendus iga 24 tunni järel (või vastavalt teie valitud graafikule).
 
     ![Kordumise dialoogiaken](media/integration-logic-app-recurrence-step.png)
 
-4. Kutsuge DMF-i REST API [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage), et ajastada teie andmepaketi eksportimine.
+4. Kutsuge DMF-i REST API [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage), et ajastada teie andmepaketi eksportimine.
 
     1. Kasutage tegevust **HTTP-päringu kutsumine** konnektorist HTTP koos Azure AD-ga.
 
@@ -122,13 +122,13 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
     > [!TIP]
     > Võite soovida iga sammu ümber nimetada, et see oleks tähendusrikkam kui vaikenimi **HTTP-päringu käivitamine**. Näiteks võite panna sellele etapile nimeks **ExportToPackage**.
 
-5. [Lähtestage muutuja](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) salvestama taotluse **ExportToPackage** käivitamisoleku.
+5. [Lähtestage muutuja](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) salvestama taotluse **ExportToPackage** käivitamisoleku.
 
     ![Muutuja tegevuse lähtestamine](media/integration-logic-app-initialize-variable-step.png)
 
 6. Oodake, kuni andmete ekspordi käivitamisolek on **Õnnestunud**.
 
-    1. Lisage [silmus Kuni](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop), mis kordub, kuni muutuja **ExecutionStatus** väärtus on **Õnnestunud**.
+    1. Lisage [silmus Kuni](/azure/logic-apps/logic-apps-control-flow-loops#until-loop), mis kordub, kuni muutuja **ExecutionStatus** väärtus on **Õnnestunud**.
     2. Lisage tegevus **Viivitus**, mis ootab viis sekundit enne kui pollib eksportimise praegust käivitamisolekut.
 
         ![Silmuse Kuni konteiner](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
         > [!NOTE]
         > Määrake limiidi arvuks **15**, et oodata ekspordi lõpetamiseks maksimaalselt 75 sekundit (15 iteratsiooni × 5 sekundit). Kui teie eksportimisele kulub rohkem aega, reguleerige limiidi arvu vastavalt vajadusele.        
 
-    3. Lisage tegevus **Käivita HTTP-päring**, er kutsuda DMF-i REST API [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) ja määrata muutuja **ExecutionStatus** vastuse **GetExecutionSummaryStatus** tulemusele.
+    3. Lisage tegevus **Käivita HTTP-päring**, er kutsuda DMF-i REST API [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) ja määrata muutuja **ExecutionStatus** vastuse **GetExecutionSummaryStatus** tulemusele.
 
-        > See näide ei tee veakontrolli. API **GetExecutionSummaryStatus** võib tagastada ebaõnnestunud lõplikke olekuid (s.t muud olekud kui **Õnnestunud**). Lisateabe saamiseks vt [API-i dokumentatsiooni](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
+        > See näide ei tee veakontrolli. API **GetExecutionSummaryStatus** võib tagastada ebaõnnestunud lõplikke olekuid (s.t muud olekud kui **Õnnestunud**). Lisateabe saamiseks vt [API-i dokumentatsiooni](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Meetod:** POST
         - **Taotluse URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
 
 7. Hankige eksporditud paketi allalaadimise URL.
 
-    - Lisake tegevus **HTTP-päringu käivitamine** DMF-i REST API [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) kutsumiseks.
+    - Lisake tegevus **HTTP-päringu käivitamine** DMF-i REST API [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) kutsumiseks.
 
         - **Meetod:** POST
         - **Taotluse URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
 
 8. Laadige eksporditud pakett alla.
 
-    - Lisage HTTP taotlus **GET** (sisseehitatud [HTTP konnektori tegevus](https://docs.microsoft.com/azure/connectors/connectors-native-http)), et laadida pakett alla URL-ilt, mis eelmises etapis tagastati.
+    - Lisage HTTP taotlus **GET** (sisseehitatud [HTTP konnektori tegevus](/azure/connectors/connectors-native-http)), et laadida pakett alla URL-ilt, mis eelmises etapis tagastati.
 
         - **Meetod:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
         > [!NOTE]
         > See taotlus ei nõua ühtegi täiendavat autentimist, kuna API **GetExportedPackageUrl** tagastatav URL sisaldab ühiskasutusega juurdepääsu allkirja luba, mis annab juurdepääsu faili allalaadimisele.
 
-9. Salvestage allalaaditud pakett, kasutades konnektorit [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness).
+9. Salvestage allalaaditud pakett, kasutades konnektorit [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness).
 
-    - Lisage OneDrive for Businessi tegevus [Loo fail](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file).
+    - Lisage OneDrive for Businessi tegevus [Loo fail](/connectors/onedriveforbusinessconnector/#create-file).
     - Ühendage vastavalt vajadusele oma OneDrive for Businessi konto.
 
         - **Kausta tee:** teie valitud kaust

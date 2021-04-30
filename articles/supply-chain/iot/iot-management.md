@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86e20b9e60e890833c0eb8573e92c0fbb27f8c9a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813071"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908415"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT iseõppimisvõime jälgimine ja haldamine
 
@@ -56,9 +56,9 @@ Kui stsenaarium on käivitatud, on järgmised muudatused keelatud.
 
 Saate simuleerida tehase masina signaale. Vaadake lisateavet järgmistest teemadest.
 
-+ [IoT DevKit AZ3166 ühendamine Azure IoT Hubiga](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [Vaarika Pi veebisimulaatori ühendamine Azure IoT Hubiga (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [Seadme simulatsiooni lahenduse kiirendi ülevaade](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [IoT DevKit AZ3166 ühendamine Azure IoT Hubiga](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [Vaarika Pi veebisimulaatori ühendamine Azure IoT Hubiga (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [Seadme simulatsiooni lahenduse kiirendi ülevaade](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

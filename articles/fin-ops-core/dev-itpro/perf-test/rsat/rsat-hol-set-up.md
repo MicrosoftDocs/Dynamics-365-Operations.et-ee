@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 725bce4b3aa7feb61bd7d7ded1be07f803424e57
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7c6e4dcbd854cfadbc34f0040dcffd277d32a8d9
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745193"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909030"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool seadistamise ja installimise õppetükk
 
@@ -54,7 +54,7 @@ See teema on õppetükk, mis aitab seadistada RSAT-d ja selle kasutamisega seotu
 
 ### <a name="user-eligibility"></a>Kasutaja sobivus
 
-Veenduge, et kasutaja oleks loodud Azure DevOpsis ja tal oleks tellimustase, mis annab juurdepääsu Azure’i katseplaanidele. Azure DevOpsi katseplaanide litsentsi on vaja vaid siis, kui kasutaja loob ja haldab katsejuhtumeid (ehk kõikidel RSAT kasutajatel seda litsentsi vaja pole). Teavet litsentsi nõudmiste kohta vt teemast [Litsentsi nõudmised](https://docs.microsoft.com/azure/devops/test/manual-test-permissions#license-requirements).
+Veenduge, et kasutaja oleks loodud Azure DevOpsis ja tal oleks tellimustase, mis annab juurdepääsu Azure’i katseplaanidele. Azure DevOpsi katseplaanide litsentsi on vaja vaid siis, kui kasutaja loob ja haldab katsejuhtumeid (ehk kõikidel RSAT kasutajatel seda litsentsi vaja pole). Teavet litsentsi nõudmiste kohta vt teemast [Litsentsi nõudmised](/azure/devops/test/manual-test-permissions#license-requirements).
 
 ### <a name="create-a-new-azure-devops-project"></a>Uue Azure DevOpsi projekti loomine
 

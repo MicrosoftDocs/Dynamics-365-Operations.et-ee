@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4679ce27b248770b9998914407cd2eb21d7dd16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825394"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909152"
 ---
 # <a name="create-purchase-orders"></a>Ostutellimuste loomine
 
@@ -65,7 +65,7 @@ Mõnikord võib olla vaja tellitud kogust jagada, et selle erinevaid osi saaks t
 Tasusid saab ostutellimuse ridadele automaatselt lisada, kui hankijale või hankija tasugrupile ja kaubale või kauba tasugrupile on seadistatud automaatsed tasud. Kuid tavaliselt lisatakse tasud käsitsi tellimuse rea tasandil. Tasu lisamiseks avage leht **Tasude haldamine**, kasutades toimingut **Tasude haldamine** menüüs **Finantsid** vaates **Read**. Otse tellimuse rea tasandil tasu lisamise eelis on see, et tasu saab eraldada laokuluna. Tasukoodide seadistamiseks toote hinna arvestamiseks kasutage debiteerimisvalikut **Kaup**. Seda tüüpi tasud tuleb enne tellimuse kinnitamist ostutellimuse päisest ridadele eraldada. Näiteks võib olla vaja eraldada tasud igal real oleva koguse põhjal. Tasukategooria mõjutab ka seda, kuidas tasusid arvestatakse. Näiteks fikseeritud tasud näitavad fikseeritud summat ja tasuprotsent arvutatakse tellimuse rea netosumma protsendina. Ostutellimused saab määrata koormale ja koorma hulka võib kuuluda eeldatavate transpordikulude prognoos. Selle kulu saab eraldada koormalt tagasi ostutellimuse ridadele.
 
 ## <a name="purchase-order-actions"></a>Ostutellimuse tegevused
-Kui olete lisanud ostutellimusele päise ja read, peate sageli tegema lisatoiminguid enne, kui tellimus on kinnitamiseks valmis. Kuna saadaval on nii palju võimalusi, võib olla abiks funktsiooni [Tegevuse otsing](../../fin-and-ops/get-started/action-search.md) kasutamine vastava menüü-üksuse otsimiseks.  
+Kui olete lisanud ostutellimusele päise ja read, peate sageli tegema lisatoiminguid enne, kui tellimus on kinnitamiseks valmis. Kuna saadaval on nii palju võimalusi, võib olla abiks funktsiooni [Tegevuse otsing](../../fin-ops-core/fin-ops/get-started/action-search.md) kasutamine vastava menüü-üksuse otsimiseks.  
 
 Tellimusel saab tooteid konfigureerida nii, et neil on lisakaubad. Lisakaubad on tooted, mida tuleb või saab osta koos teiste toodetega. Lisatooted võib lisada tasuta kaasnevate toodetena või otsustada, kas lisada need tellimusele või mitte. Lisakaupu saab pärast iga lisatavat tellimuse rida üle vaadata. Kuid ilmselt on mugavam vaadata üle ja lisada vastavad lisakaubad kõigile tellimuse ridadele, kasutades lehte **Lisakaubad**, mille saate avada tegumiribalt.  
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840000"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890827"
 ---
 # <a name="set-up-electronic-invoicing"></a>Seadista elektrooniline arveldus
 
@@ -75,7 +75,7 @@ Järgige neid samme, et lisada ER-i vormingud elektroonilise arvelduse funktsioo
     > [!NOTE]
     > Vormingu redigeerimise ajal on konfiguratsiooni versiooni olekuks seatud **Mustand**.
 
-3. Kasutage failivormingu konfiguratsiooni muutmiseks lehte **Vormingukujundaja**. Lisateavet leiate jaotisest [Elektrooniliste dokumentide konfiguratsioonide loomine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration).
+3. Kasutage failivormingu konfiguratsiooni muutmiseks lehte **Vormingukujundaja**. Lisateavet leiate jaotisest [Elektrooniliste dokumentide konfiguratsioonide loomine](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Vormingukujundaja leht](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 

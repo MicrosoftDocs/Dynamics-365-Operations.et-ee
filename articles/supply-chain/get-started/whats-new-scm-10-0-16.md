@@ -12,14 +12,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82afad71340e97ef1f86159d013e842d456b2a46
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829976"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909915"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.16. (veebruar 2021)
 
@@ -33,17 +33,17 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versio
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
+See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) linke, et näha iga funktsiooni ametlikku väljalaske kuupäeva.
 
-- [Kohandatav müügisaali liides](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Lisateavet leiate [Kuidas seadistada tootmisosakonna käivitusliidese seade](../production-control/production-floor-execution-setup.md).
+- [Kohandatav müügisaali liides](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Lisateavet leiate [Kuidas seadistada tootmisosakonna käivitusliidese seade](../production-control/production-floor-execution-setup.md).
 
-- [Varude nähtavuse lisandmoodul Dynamics 365 Supply Chain Management rakendusele](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Lisateavet vt teemast [Varude nähtavuse lisandmoodul](../inventory/inventory-visibility.md)
+- [Varude nähtavuse lisandmoodul Dynamics 365 Supply Chain Management rakendusele](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Lisateavet vt teemast [Varude nähtavuse lisandmoodul](../inventory/inventory-visibility.md)
 
 - Töö ID-de ühtsed numbrijärjestused<br> - Lisateavet vt [Töö ID-de ühtne numbriseeria](../production-control/unified-job-ids.md).
 
-- [Kontrollige lähtedokumendi ridadel olevaid identifitseerimisnumbreid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Lisateavet leiate teemast [Laorakenduse konfiguratsiooni ülevaade](../warehousing/warehouse-configuration.md).
+- [Kontrollige lähtedokumendi ridadel olevaid identifitseerimisnumbreid](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Lisateavet leiate teemast [Laorakenduse konfiguratsiooni ülevaade](../warehousing/warehouse-configuration.md).
 
-- [Laohalduse väljamineva töökoormuse visualiseerimine](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Lisateavet vt teemast [Väljastuste töökoormuse visualiseerimine](../warehousing/outbound-workload-visualization.md).
+- [Laohalduse väljamineva töökoormuse visualiseerimine](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Lisateavet vt teemast [Väljastuste töökoormuse visualiseerimine](../warehousing/outbound-workload-visualization.md).
 
 Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
@@ -99,7 +99,7 @@ Lisateabe saamiseks veaparanduste kohta, mis sisalduvad 10.0.16 uuendustes, logi
 
 Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused?
 
-Vaadake teemat [Dynamics 365: 2020. aasta väljalaske 2. voo plaan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
+Vaadake teemat [Dynamics 365: 2020. aasta väljalaske 2. voo plaan](/dynamics365-release-plan/2020wave2/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 

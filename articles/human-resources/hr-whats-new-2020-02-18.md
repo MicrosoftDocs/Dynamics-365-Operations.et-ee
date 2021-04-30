@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c28d0dc76195cc0aedc132f348a229af0421c43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8109826df93f9916914a2db3876ee0f9107985f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790424"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890954"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (18. veebruar 2020)
 
@@ -33,7 +33,7 @@ Selles artiklis kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud f
 
 ## <a name="platform-update-32"></a>Platvormivärskendus update 32 
 
-Platvormivärskendus 32 on nüüd saadaval. Lisateavet leiate teemast [Teenuse Finance and Operationsi platvormivärskenduse 32 uued või muudetud funktsioonid (veebruar 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Platvormivärskendus 32 on nüüd saadaval. Lisateavet leiate teemast [Teenuse Finance and Operationsi platvormivärskenduse 32 uued või muudetud funktsioonid (veebruar 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Otsinguväärtusi mäletatakse, kui sujuva töötaja vormi vaatevalikuid muudetakse (383833)
 
@@ -81,7 +81,7 @@ Uus lahendus Dataverse on varsti saadaval järgmiste muudatustega.
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 

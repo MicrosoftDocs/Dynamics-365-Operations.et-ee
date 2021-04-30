@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805102"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890048"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse'i virtuaalsete tabelite konfigureerimine
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources on virtuaalne andmeallikas teenuses Microsoft Datav
 Selleks, et lubada rakenduse Human Resources üksuste korral CRUD-toimingud teenuses Dataverse, peate tegema tabelid teenuses Dataverse virtuaalüksustena kättesaadavaks. See võimaldab teil teha lahendustes Dataverse ja Microsoft Power Platform CRUD-toiminguid andmetega, mis on rakenduses Human Resources. Toimingute puhul toetatakse ka rakenduse Human Resources täielikku äriloogika kontrollimist, et tagada andmete terviklikkus andmete kirjutamisel üksustesse.
 
 > [!NOTE]
-> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resourcesi olemid vastavad Dataverse'i tabelitele. Lisateavet Dataverse'i (varem Common Data Service) ja terminoloogiavärskenduste kohta vaadake jaotisest [Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Rakenduses Human Resources saadaolevad virtuaalsed tabelid
 
@@ -51,7 +51,7 @@ Rakenduse Human Resources virtuaalsed tabelid pole samad, mis teenuse Dataverse 
 Rakenduse Human Resources ematabelid luuakse eraldi ja neid hallatakse lahenduses HCM Common teenuses Dataverse. Ematabelite puhul talletatakse andmed teenuses Dataverse ja selle puhul on vajalik sünkroonimine rakenduse Human Resources andmebaasiga.
 
 > [!NOTE]
-> Rakenduse Human Resources jaoks mõeldud teenuse Dataverse ematabelite loendi leiate teemast [Dataverse'i tabelid](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Rakenduse Human Resources jaoks mõeldud teenuse Dataverse ematabelite loendi leiate teemast [Dataverse'i tabelid](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Seadistus
 
@@ -71,7 +71,7 @@ Lisateavet eelvaatefunktsioonide lubamise ja keelamise kohta vt jaotisest [Funkt
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Rakenduse registreerimine Microsoft Azure'is
 
-Peate Human Resourcesi eksemplari Azure'i portaalis registreerima, et Microsofti identiteediplatvorm saaks pakkuda rakenduse ja kasutajate jaoks autentimis- ning autoriseerimisteenuseid. Lisateavet Azure'is rakenduste registreerimise kohta leiate teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteediplatvormis](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Peate Human Resourcesi eksemplari Azure'i portaalis registreerima, et Microsofti identiteediplatvorm saaks pakkuda rakenduse ja kasutajate jaoks autentimis- ning autoriseerimisteenuseid. Lisateavet Azure'is rakenduste registreerimise kohta leiate teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteediplatvormis](/azure/active-directory/develop/quickstart-register-app).
 
 1. Avage [Microsoft Azure'i portaal](https://portal.azure.com).
 
@@ -93,7 +93,7 @@ Peate Human Resourcesi eksemplari Azure'i portaalis registreerima, et Microsofti
 
 10. Sisestage kirjeldus, valige kestus ja valige **Lisa**.
 
-11. Kirjutage saladuse väärtus üles. Te sisestate selle teabe [virtuaalsete tabelite andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Saate salvestada saladuse väärtuse tabeli atribuudist **Väärtus**. Te sisestate selle teabe [virtuaalsete tabelite andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Kirjutage saladuse väärtus kindlasti praegu üles. Pärast sellelt lehelt lahkumist ei kuvata saladust enam kunagi.
@@ -215,12 +215,11 @@ Liuguripaan kuvab protsessi kõige viimased käivitamise tulemused. Saate kuvada
 
 ## <a name="see-also"></a>Vt ka
 
-[Mis on Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Tabelid rakenduses Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Tabelite seoste ülevaade](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Välistest andmeallikatest pärit andmeid sisaldavate virtuaalsete tabelite loomine ja redigeerimine](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Mis on Power Appsi portaalid?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Rakenduste loomise ülevaade Power Appsis](https://docs.microsoft.com/powerapps/maker/)
-
+[Mis on Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tabelid rakenduses Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Tabelite seoste ülevaade](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Välistest andmeallikatest pärit andmeid sisaldavate virtuaalsete tabelite loomine ja redigeerimine](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Mis on Power Appsi portaalid?](/powerapps/maker/portals/overview)<br>
+[Rakenduste loomise ülevaade Power Appsis](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

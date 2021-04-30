@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818795"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908826"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Finantsülevaadete konfigureerimine (eelversioon)
 
@@ -69,7 +69,7 @@ Saate lõpetada järgmised konfigureerimise etapid käsitsi või saate kiirendad
     13. Valige **Ressursid \> Kõik pärandsätted**.
     14. Ülemisel navigeerimisribal valige **Sätted** ja valige seejärel **Kohandamised**.
     15. Valige **Arendaja ressursid**.
-    16. Määrake välja **Eksemplari viiteteabe ID** rakenduse Dataverse organisatsiooni ID väärtus, mille varem kirja panite.
+    16. Kopeerige väärtus **Dataverse organisatsiooni ID**.
     17. Märkige üles brauseri aadressiribal olev Dataverse’i organisatsiooni URL. Näiteks URL võib olla `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Kui kavatsete kasutada rahavoo prognoosimise või eelarve prognoosimise funktsiooni, toimige järgmiselt, et värskendada oma organisatsiooni marginaali limiiti vähemalt 50 megabaidini (MB).
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Windows PowerShelli skripti kasutamine](#tab/use-a-powershell-script)
 
-Windows PowerShelli skript on esitatud, seega saate hõlpsalt häälestada Azure’i ressursse, mida kirjeldatakse teemas [Azure Data Lake’i ekspordi konfigureerimine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Kui eelistate käsitsi häälestust, jätke see protseduur vahele ja jätkake protseduuriga jaotises [Käsitsi häälestus](#manual-setup).
+Windows PowerShelli skript on esitatud, seega saate hõlpsalt häälestada Azure’i ressursse, mida kirjeldatakse teemas [Azure Data Lake’i ekspordi konfigureerimine](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Kui eelistate käsitsi häälestust, jätke see protseduur vahele ja jätkake protseduuriga jaotises [Käsitsi häälestus](#manual-setup).
 
 > [!NOTE]
 > PowerShelli skripti käitamiseks järgige allolevaid samme. Azure CLI valik „Proovi seda” või arvutis skripti käitamine ei pruugi töötada.
 
-Järgige neid samme, et konfigureerida Azure Windows PowerShelli skripti abil. Teil peavad olema õigused Azure’i ressursigrupi, Azure’ii ressursside ja Azure AD rakenduse loomiseks. Lisateavet nõutavate õiguste kohta vt [Azure AD õiguste kontrollimine](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Järgige neid samme, et konfigureerida Azure Windows PowerShelli skripti abil. Teil peavad olema õigused Azure’i ressursigrupi, Azure’ii ressursside ja Azure AD rakenduse loomiseks. Lisateavet nõutavate õiguste kohta vt [Azure AD õiguste kontrollimine](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. Avage [Azure’i portaalis](https://portal.azure.com) oma sihtkoha Azure’i tellimus. Valige nupp **Cloud Shell** väljast **Otsing** paremal.
 2. Valige **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Üksuse salvestamise konfigureerimine
 
-Järgige neid samme, et seadistada üksuse salvestamine oma Finance’i keskkonnas.
-
-1. Minge jaotisse **Süsteemihaldus \> Seadistus \> Süsteemi parameetrid \>Andmeühendused**.
-2. Määrake suvandi **Luba Data Lake’i integratsioon** väärtuseks **Jah**.
-3. Seadke järgmised võtmehoidja väljad.
-
-    - **Rakenduse (klient) ID** – sisestage eelnevalt loodud rakenduse kliendi ID.
-    - **Avalduse saladus** – sisestage saladus, mille salvestasite varem loodud rakenduse jaoks.
-    - **DNS-i nimi** – domeeninime süsteemi (DNS) nime leiate varem loodud rakenduse üksikasjade lehelt.
-    - **Salajane nimi** – sisestage **storage-account-connection-string**.
 
 ## <a name="configure-the-data-lake"></a>Andmejärve konfigureerimine
 
@@ -991,6 +980,19 @@ Lisandmoodul installitakse mõne minuti jooksul.
     | CDS-i rentniku ID (kataloogi ID AAD-st)               | Dataverse’i eksemplari rentniku ID. Selle väärtuse leidmiseks avage [Azure’i portaal](https://portal.azure.com), avage **Azure Active Directory** ja kopeerige väärtus **Rentniku ID**. |
     | Esitage kasutaja objekti ID, kellel on süsteemi administraatori roll | Azure AD kasutaja objekti ID teenuses Dataverse. See kasutaja peab olema Dataverse’i eksemplari süsteemiadministraator. Selle väärtuse leidmiseks avage [Azure’i portaal](https://portal.azure.com), avage **Azure Active Directory \> Kasutajad**, valige kasutaja ja seejärel kopeerige jaotises **Identiteet** väärtus **Objekti ID**. |
     | Kas see on rentniku vaikimisi CDS-i keskkond?      | Kui Dataverse’i eksemplar oli esimene loodud tootmiseksemplar, märkige see märkeruut. Kui Dataverse’i eksemplar on käsitsi loodud, tühjendage see märkeruut. |
+
+## <a name="configure-the-entity-store"></a>Üksuse salvestamise konfigureerimine
+
+Järgige neid samme, et seadistada üksuse salvestamine oma Finance’i keskkonnas.
+
+1. Minge jaotisse **Süsteemihaldus \> Seadistus \> Süsteemi parameetrid \>Andmeühendused**.
+2. Määrake suvandi **Luba Data Lake’i integratsioon** väärtuseks **Jah**.
+3. Seadke järgmised võtmehoidja väljad.
+
+    - **Rakenduse (klient) ID** – sisestage eelnevalt loodud rakenduse kliendi ID.
+    - **Avalduse saladus** – sisestage saladus, mille salvestasite varem loodud rakenduse jaoks.
+    - **DNS-i nimi** – domeeninime süsteemi (DNS) nime leiate varem loodud rakenduse üksikasjade lehelt.
+    - **Salajane nimi** – sisestage **storage-account-connection-string**.
 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 

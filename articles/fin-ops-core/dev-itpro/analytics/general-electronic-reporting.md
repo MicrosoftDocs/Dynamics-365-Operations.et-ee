@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750054"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893173"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -183,11 +183,11 @@ Pange tähele, et hoidla tüübile pääseb juurde järgmistes keskkondades:
 
 Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](./electronic-reporting-import-ger-configurations.md).
 
-Hoidla **RCS-i** eksemplar võimaldab juurdepääsu konkreetsele [konfiguratsiooniteenuse (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) eksemplarile, mis valiti hoidla registreerimise etapis. ER võimaldab importida lõpule viidud või jagatud konfiguratsioone valitud RCS-i eksemplarist praeguse rakenduse eksemplarini, et saaksite neid kasutada elektrooniliseks aruandluseks.
+Hoidla **RCS-i** eksemplar võimaldab juurdepääsu konkreetsele [konfiguratsiooniteenuse (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) eksemplarile, mis valiti hoidla registreerimise etapis. ER võimaldab importida lõpule viidud või jagatud konfiguratsioone valitud RCS-i eksemplarist praeguse rakenduse eksemplarini, et saaksite neid kasutada elektrooniliseks aruandluseks.
 
 Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide importimine RCS-ist](./rcs-download-configurations.md).
 
-**Globaalne hoidla** annab juurdepääsu globaalse hoidla [konfiguratsiooniteenuses](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sisalduvate konfiguratsioonide loendile. Seda tüüpi ER-i hoidlat saab registreerida ainult Microsofti pakkuja jaoks. Globaalsest hoidlast saate importida ER-i konfiguratsioonide uusimaid versioone praegusesse eksemplari.
+**Globaalne hoidla** annab juurdepääsu globaalse hoidla [konfiguratsiooniteenuses](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sisalduvate konfiguratsioonide loendile. Seda tüüpi ER-i hoidlat saab registreerida ainult Microsofti pakkuja jaoks. Globaalsest hoidlast saate importida ER-i konfiguratsioonide uusimaid versioone praegusesse eksemplari.
 
 Lisateavet leiate teemast [Elektroonilise aruandluse (ER) konfiguratsioonide importimine konfiguratsiooniteenuse globaalsest hoidlast](./er-download-configurations-global-repo.md).
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801139"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889760"
 ---
 # <a name="administration-overview"></a>Halduse ülevaade
 
@@ -46,10 +46,10 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
   - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
   - Office'iga integreerimine
-    - [Office’i integreerimise õppetükk](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Üksuseandmete värskendamine Excelis](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Excelis avamise kogemuste loomine](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Office'i integreerimise tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office’i integreerimise õppetükk](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Üksuseandmete värskendamine Excelis](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Excelis avamise kogemuste loomine](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office'i integreerimise tõrkeotsing](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Funktsioonide haldamine](hr-admin-manage-features.md)
 
@@ -84,7 +84,7 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
   - [Dokumentide või koolituse loomine tegevuse salvestaja abil](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Human Resourcesi tõrkeotsing
-  - [Toe hankimine](hr-admin-troubleshooting-support.md)
+  - [Toe hankimine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Jõudluse optimeerimine automaatsete puhastamisülesannetega](hr-admin-troubleshooting-batch-history.md)
   - [Analüütilisi aruandeid ei värskendata](hr-admin-troubleshooting-analytic-reports.md)
   - [Power Appsi halduskeskuses ei saa keskkonda luua](hr-admin-troubleshooting-power-apps.md)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751312"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893600"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -57,7 +57,7 @@ ER-vormingu konfiguratsiooni vaikekäitumine sõltub käitamistüübist, mille E
 
 Kui seate kiirkaardi **Käivita taustal** dialoogiaknas **Intrastat-aruanne** suvandi **Partiitöötlus** väärtuseks **Ei**, siis käivitatakse ER-vorming kohe interaktiivses režiimis. Kui käivitamine on edukalt lõpule viidud, siis muutub loodud väljaminev dokument allalaadimiseks kättesaadavaks.
 
-Kui seate suvandi **Partiitöötlus** väärtuseks **Jah**, siis käivitatakse ER-vorming [partiirežiimis](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Luuakse partiitöö, mis vastab parameetritele, mille olete sätestanud dialoogiakna **ER-parameetrid** vahekaardil **Käivita taustal**.
+Kui seate suvandi **Partiitöötlus** väärtuseks **Jah**, siis käivitatakse ER-vorming [partiirežiimis](../sysadmin/batch-processing-overview.md). Luuakse partiitöö, mis vastab parameetritele, mille olete sätestanud dialoogiakna **ER-parameetrid** vahekaardil **Käivita taustal**.
 
 > [!NOTE]
 > Töö kirjeldus teavitab teid ER-vorminguvastenduse käitamise kohta. Samuti sisaldab see käitatud ER-i komponendi nime.
@@ -70,7 +70,7 @@ Selle töö kohta leiate teavet mitmest kohast.
 - Avage **Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Elektroonilise aruandluse tööd**, et kontrollida plaanitud töö olekut ja lõpule viidud töö käitamistulemusi. Kui töö on edukalt lõpule viidud, siis valige lehel **Elektroonilise aruandluse tööd** suvand **Kuva failid**, et saada loodud väljaminev dokument.
 
     > [!NOTE]
-    > Dokumenti säilitatakse praeguse töökirje manusena ja seda kontrollib [dokumendihalduse](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) raamistik. Seda tüüpi ER-artefaktide talletamiseks kasutatud [dokumendi tüüpi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) konfigureeritakse [ER-parameetrite](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) all.
+    > Dokumenti säilitatakse praeguse töökirje manusena ja seda kontrollib [dokumendihalduse](../../fin-ops/organization-administration/configure-document-management.md) raamistik. Seda tüüpi ER-artefaktide talletamiseks kasutatud [dokumendi tüüpi](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) konfigureeritakse [ER-parameetrite](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) all.
 
 - Valige lehel **Elektroonilise aruandluse tööd** suvand **Kuva failid**, et näha töö teostamisel tekkinud tõrgete ja hoiatuste loetelu.
 

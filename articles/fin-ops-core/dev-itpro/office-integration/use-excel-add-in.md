@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752962"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908337"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Üksuse andmete vaatamine ja värskendamine Exceliga 
 
@@ -45,7 +45,7 @@ Exceli lisandmooduli kasutamise juhiste kohta lisateabe saamiseks vaadake lühiv
 2. Valige käsk **Ava Excelis** ja avage loodav töövihik. Sellel töövihikul on üksuse jaoks sidumisteave, osuti teie keskkonnale ja osuti Exceli lisandmoodulile.
 3. Valige Excelis käsk **Luba redigeerimine**, et lubada Exceli lisandmooduli käivitamine. Exceli lisandmoodul töötab Exceli akna paremal küljel olevas paanis.
 4. Kui käivitate Exceli lisandmooduli esimest korda, valige käsk **Usalda seda lisandmoodulit**.
-5. Kui teil palutakse sisse logida, valige käsk **Logi sisse** ja seejärel logige sisse, kasutades samu mandaate, mida kasutasite rakendusse Finance and Operations sisselogimisel. Exceli lisandmoodul kasutab varasemat brauseri sisselogimise konteksti ja logib teid võimaluse korral automaatselt sisse. (Lisateavet operatsioonisüsteemil põhineva brauseri kohta vt teemast [Office’i lisandmoodulite kasutatavad brauserid](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Veendumaks, et sisselogimine õnnestus, kontrollige kasutajanime Exceli lisandmooduli ülemises parempoolses nurgas. 
+5. Kui teil palutakse sisse logida, valige käsk **Logi sisse** ja seejärel logige sisse, kasutades samu mandaate, mida kasutasite rakendusse Finance and Operations sisselogimisel. Exceli lisandmoodul kasutab varasemat brauseri sisselogimise konteksti ja logib teid võimaluse korral automaatselt sisse. (Lisateavet operatsioonisüsteemil põhineva brauseri kohta vt teemast [Office’i lisandmoodulite kasutatavad brauserid](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Veendumaks, et sisselogimine õnnestus, kontrollige kasutajanime Exceli lisandmooduli ülemises parempoolses nurgas. 
 
 Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et töövihikus ei ole andmeid, kuni Exceli lisandmoodul loeb need sisse.
 
@@ -60,7 +60,7 @@ Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et
 
 6. Muudatuse kinnitamiseks valige **OK** ja seejärel **Jah**. Exceli lisandmoodul taaskäivitub ja laadib metaandmed.
 
-    Nupp **Kujundus** on nüüd saadaval. Kui Exceli lisandmoodulil on nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Lisateabe saamiseks vaadake selle teema jaotises [Tõrkeotsing](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) olevat nuppu „Kuvatakse nupp Aplettide laadimine”.
+    Nupp **Kujundus** on nüüd saadaval. Kui Exceli lisandmoodulil on nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Lisateabe saamiseks vaadake selle teema jaotises [Tõrkeotsing](../office-integration/use-excel-add-in.md#troubleshooting) olevat nuppu „Kuvatakse nupp Aplettide laadimine”.
 
 7. Valige **Kujundus**. Exceli lisandmoodul toob üksuse metaandmed.
 8. Valige käsk **Lisa tabel**. Ilmub olemite loend. Olemid on esitatud vormingus „Nimi – silt”.
@@ -138,7 +138,7 @@ On mõned probleemid, mida saab lahendada mõne lihtsa juhise kaudu.
 
 - **Kuvatakse nupp Aplettide laadimine**: kui Exceli lisandmoodulil on pärast sisselogimist nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, valige see, logige välja ja logige tagasi sisse.
 - **Kuvatakse teade „Keelatud”**: kui näete Exceli lisandmoodulis metaandmete laadimise ajal teadet „Keelatud”, siis ei ole kontol, mis on Exceli lisandmoodulisse sisse logitud, õigust kasutada sihtteenust, -eksemplari või -andmebaasi. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, valige see, logige välja ja logige tagasi sisse.
-- **Excelis kuvatakse tühi veebileht**: kui sisselogimisprotsessi käigus avaneb tühi veebileht, nõuab konto AD FS-i, kuid lisandmoodulit sisaldav Exceli versioon pole sisselogimise dialoogiboksi laadimiseks piisavalt hiljutine. Selle probleemi lahendamiseks värskendage kasutatavat Exceli versiooni. Exceli versiooni värskendamiseks, kui olete viitkanalis asuvas ettevõttes, kasutage tööriista [Office’i juurutustööriist](https://technet.microsoft.com/library/jj219422.aspx), et [liikuda edasilükatud kanalist praegusesse kanalisse](https://technet.microsoft.com/library/mt455210.aspx).
+- **Excelis kuvatakse tühi veebileht**: kui sisselogimisprotsessi käigus avaneb tühi veebileht, nõuab konto AD FS-i, kuid lisandmoodulit sisaldav Exceli versioon pole sisselogimise dialoogiboksi laadimiseks piisavalt hiljutine. Selle probleemi lahendamiseks värskendage kasutatavat Exceli versiooni. Exceli versiooni värskendamiseks, kui olete viitkanalis asuvas ettevõttes, kasutage tööriista [Office’i juurutustööriist](/deployoffice/overview-office-deployment-tool), et [liikuda edasilükatud kanalist praegusesse kanalisse](/deployoffice/overview-update-channels).
 - **Ajalõpu periood andmete muudatuste avaldamise ajal** – kui saate ajalõpu teate sel ajal, kui proovite üksuses andmemuudatusi avaldada, kaaluge mõjutatud töövihiku avaldamise partii suuruse vähendamist. Üksused, mis käivitavad kirjete muudatuste puhul suurema loogika hulga, nõuavad värskenduste saatmist väiksemates partiides, et vältida ajalõppe.
 
 

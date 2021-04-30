@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 84c8c782b917850267c34696f3b2afa607118d84
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753616"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894048"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Lükka edasi XML-elementide käivitamine ER-vormingus
 
@@ -44,7 +44,7 @@ Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Näide: XML-elemendi käivitamise edasilükkamine ER-vormingus
 
-Järgmised sammud selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsionaalse nõustaja kasutaja [roll](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) saab konfigureerida ER-vormingut, mis sisaldab XML-elementi, kus täitmise järjekord erineb järjekorrast vormingu hierarhias.
+Järgmised sammud selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsionaalse nõustaja kasutaja [roll](../sysadmin/tasks/assign-users-security-roles.md) saab konfigureerida ER-vormingut, mis sisaldab XML-elementi, kus täitmise järjekord erineb järjekorrast vormingu hierarhias.
 
 Need toimingud saab teha **USMF** ettevõttes rakenduses Microsoft Dynamics 365 Finance.
 

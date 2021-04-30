@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e63c5f3f327870b616eb93f80544c4f1e89980e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821197"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909617"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.10 (mai 2020)
 
@@ -33,19 +33,19 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.10
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
+See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
-- [Täiustatud on olemasolevaid tegeliku kaalu silte laohaldusega](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [Täiustatud on olemasolevaid tegeliku kaalu silte laohaldusega](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [Sissetuleva koormuse halduse täiustused laohalduse jaoks](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Lisateabe saamiseks vt [Ostutellimuste sissetulevate koormate laohaldus](../warehousing/inbound-load-handling.md).
+- [Sissetuleva koormuse halduse täiustused laohalduse jaoks](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Lisateabe saamiseks vt [Ostutellimuste sissetulevate koormate laohaldus](../warehousing/inbound-load-handling.md).
 
-- [Laohalduse sildi printimise täiustused](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Lisateabe saamiseks vt [Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus](../warehousing/document-routing-layout-for-license-plates.md).
+- [Laohalduse sildi printimise täiustused](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Lisateabe saamiseks vt [Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus](../warehousing/document-routing-layout-for-license-plates.md).
 
-- [Koondplaneerimine hõlmab kaupu, millel on vaba kaubavaru, kui eeltöötlusfiltrid on lubatud](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [Koondplaneerimine hõlmab kaupu, millel on vaba kaubavaru, kui eeltöötlusfiltrid on lubatud](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [Tootmisala uued andmeüksused](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Tootmisala uued andmeüksused](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Kvaliteedijuhtimine laoprotsesside jaoks](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Lisateabe saamiseks vt [Kvaliteedijuhtimine laoprotsesside jaoks](../inventory/quality-management-for-warehouses-processes.md).
+- [Kvaliteedijuhtimine laoprotsesside jaoks](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Lisateabe saamiseks vt [Kvaliteedijuhtimine laoprotsesside jaoks](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -61,7 +61,7 @@ Lisateabe saamiseks veaparanduste kohta, mis sisalduvad selles värskenduses, lo
 
 Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused?
 
-Vaadake teemat [Dynamics 365: 2020. aasta väljalaske 1. voo plaan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
+Vaadake teemat [Dynamics 365: 2020. aasta väljalaske 1. voo plaan](/dynamics365-release-plan/2020wave1/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 

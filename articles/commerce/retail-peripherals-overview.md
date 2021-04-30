@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791943"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857269"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
@@ -142,6 +142,9 @@ Välisseadmete puhul on UWP seotud Windowsi isehäälestuvate seadmete toega. Ku
 ### <a name="keyboard-wedge"></a>Klaviatuurikiil
 
 Klaviatuurikiilu seadmed saadavad andmeid arvutisse, justkui need andmed oleksid klaviatuuri kaudu sisestatud. Seega võtab skannitud või kaarditõmbega sisestatud andmed vaikimisi vastu väli, mis on kassas aktiivne. Mõnikord põhjustab see vale tüüpi andmete skannimise valele väljale. Näiteks võidakse vöötkood skannida väljale, mis on mõeldud krediitkaardi andmete sisestamiseks. Paljudel juhtidel on kassas olemas loogika, mis määrab, kas skannitud või kaarditõmbega sisestatud andmed on vöötkood või kaarditõmme. Seega käsitsetakse andmeid õigesti. Samas kui seadmed on seadistatud klaviatuurikiilu seadmete asemel OPOS-ina, on suurem kontroll selle üle, kuidas nende seadmete andmeid tarbitakse, kuna seadme kohta, kust andmed pärinevad, on rohkem „teada”. Näiteks vöötkoodiskannerist pärinevad andmed tuvastatakse automaatselt vöötkoodina ning seotud kirje andmebaasis leitakse hõlpsamini ja kiiremini kui üldise stringiotsingu kasutamisel (nagu klaviatuurikiilu seadmete puhul).
+
+> [!NOTE]
+> Kui müügikohas kasutatakse klaviatuuri kiiluskannereid, peavad need olema programmeeritud saatma veotagastuse või **Enteri** sündmuse pärast viimast skannitud märki. Kui see konfiguratsioon pole tehtud, ei tööta klaviatuuri kiiluskannerid korralikult. Lisateavet tagasisõidusündmuse lisamise kohta leiate seadme tootja dokumentatsioonist.  
 
 ### <a name="native-printer"></a>Süsteemi printer
 

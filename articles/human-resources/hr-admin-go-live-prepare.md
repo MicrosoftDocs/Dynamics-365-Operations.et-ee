@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795137"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892749"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Ettevalmistamine Human Resourcesi kasutuselevõtmiseks
 
@@ -43,7 +43,7 @@ Järgmises tabelis loetletakse kõik protsessi etapid, eeldatav kestus ja tegevu
 | 2 | Kontroll-loendi lõpule viimine ja saatmine | Pärast kasutaja nõusoleku testimise (UAT) lõpule viimist | Partner/klient | Järgige juhiseid jaotises [FastTracki kasutuselevõtmise hindamine](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Projekti hindamine (FastTrack) | FastTracki arhitekt* | Arhitekt annab hinnangu pärast kontroll-loendi saamist ja jätkab läbivaatamist, kuni küsimused on selgitatud ja vajadusel lahendus on leitud. |
 | 4 | Projekti töötuba (FastTrack) | FastTracki arhitekt* | |
-| 5 | Andmepaketi importimised | Sõltub projektist | Partner/klient | Järgige juhiseid jaotises [Andmehalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Andmepaketi importimised | Sõltub projektist | Partner/klient | Järgige juhiseid jaotises [Andmehalduse ülevaade](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Tootmiseks valmis | Kui kõik eelmised etapid on lõpule viidud | Partner/klient | Partner/klient saab juhtida töökeskkonda.|
 | 7 | Üleminekutegevused | Sõltub projektist | Partner/klient | |
 | 8 | Kasutuselevõtt | Sõltub projektist | Klient | |
@@ -66,7 +66,7 @@ UAT faasis peate katsetama kõiki juurutatud äriprotsesse ja tehtud kohandusi j
 
 - Soovitame teil UAT-protsess alustada puhtast ja värskest keskkonnast, milles GOLD-konfiguratsiooni andmed kopeeritakse keskkonda enne UAT-protsessi alustamist. Soovitame teil kasutada tootmiskeskkonda GOLD-keskkonnana seni, kuni hakkate tööle, mis hetkel saab keskkonnaks tootmine.
 - Testjuhtumid hõlmavad kogu nõuete ulatust. 
-- Testige migreeritud andmete abil. Need andmed peaksid sisaldama koondandmeid, nagu töötajad, töökohad ja ametikohad. Lisage ka algsaldo, nt puhkuste ja puudumiste viitvõlad. Viimaks lisage ka avatud kanded, nt praegused soodustuste registreerimised. Viige testimine lõpule kõigi andmetüüpidega, isegi kui andmekogum pole lõpetatud. 
+- Testige migreeritud andmete abil. See peaks sisaldama andmeid, nagu töötajad, töökohad ja ametikohad. Lisage ka algsaldo, nt puhkuste ja puudumiste viitvõlad. Viimaks lisage ka avatud kanded, nt praegused soodustuste registreerimised. Viige testimine lõpule kõigi andmetüüpidega, isegi kui andmekogum pole lõpetatud. 
 - Testige kasutades õigeid turberolle (vaikerollid ja kohandatud rollid), mis on kasutajatele määratud. 
 - Veenduge, et lahendus vastaks mis tahes ettevõtte- ja valdkonnapõhistele regulatiivsetele nõuetele. 
 - Dokumenteerige kõik funktsioonid ja hankige kliendilt kinnitus ning nõusolek. 
@@ -86,7 +86,7 @@ Enne töösse minekut peate teostama go-live mudeldamise, et testida samme, mida
 
 ## <a name="fasttrack-go-live-assessment"></a>FastTracki kasutuselevõtu hindamine
 
-Kliendid, kes on kvalifitseeritud FastTrackile ja on seotud FastTracki lahenduse arhitektiga, saavad viia lõpule kasutuselevõtu läbivaatuse Microsoft FastTrackiga. Lisateabe saamiseks vt  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+Kliendid, kes on kvalifitseeritud FastTrackile ja on seotud FastTracki lahenduse arhitektiga, saavad viia lõpule kasutuselevõtu läbivaatuse Microsoft FastTrackiga. Lisateabe saamiseks vt  [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Umbes kaheksa nädalat enne kasutuselevõttu palub FastTracki meeskond teil täita [kasutuselevõtu kontroll-loendi](https://go.microsoft.com/fwlink/?linkid=2146013).
 

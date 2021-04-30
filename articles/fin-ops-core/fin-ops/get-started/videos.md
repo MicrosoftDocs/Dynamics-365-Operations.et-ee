@@ -2,7 +2,7 @@
 title: Videod
 description: Sellel lehel on loetletud Microsofti loodud Finance and Operationsi rakendustega seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754700"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881732"
 ---
 # <a name="videos"></a>Videod 
 
@@ -84,6 +84,9 @@ ms.locfileid: "5754700"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Rakenduse Dynamics 365 Finance videod
 
+### <a name="business-document-management"></a>Äridokumentide haldus
+- [Äridokumentide haldamise abil uue äridokumendi loomine](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Rakenduse kohandamine
 - [Kohandatud väljade lisamine](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Rakenduse Power Apps manustamine](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -111,7 +114,10 @@ ms.locfileid: "5754700"
 - [Maksumootori ülevaade](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
-## <a name="videos-for-dynamics-365-supply-chain-management"></a>Videod rakenduseleDynamics 365 Supply Chain Management
+## <a name="videos-for-dynamics-365-supply-chain-management"></a>Rakenduse Dynamics 365 Supply Chain Management videod
+
+### <a name="business-document-management"></a>Äridokumentide haldus
+- [Äridokumentide haldamise abil uue äridokumendi loomine](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Kulud
 - [Kulude juhtimise mobiilne tööruum](https://youtu.be/imsuTg8rUVk)

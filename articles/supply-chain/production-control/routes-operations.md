@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819276"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908924"
 ---
 # <a name="routes-and-operations"></a>Protsessid ja operatsioonid
 
@@ -79,7 +79,7 @@ Enne, kui protsessi plaanimises või tootmisprotsessis kasutada saab, tuleb see 
 
 Iga protsessi saab eraldi kinnitada või sellelt kinnituse eemaldada. Kuid kui protsess on kinnitamata, on kinnitamata ka kõik seotud protsessiversioonid. Tootmise juhtimise parameetrites saate määrata, kas protsesside kinnitust saab eemaldada ja kas kinnitatud protsesse saab muuta.  
 
-Kui teil on vaja säilitada logi, milles salvestatakse iga protsessi kinnitaja, võite nõuda protsessi kinnitamiseks digitaalallkirja. Siis peavad kasutajad kinnitama oma isiku, kasutades [digitaalallkirja](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Kui teil on vaja säilitada logi, milles salvestatakse iga protsessi kinnitaja, võite nõuda protsessi kinnitamiseks digitaalallkirja. Siis peavad kasutajad kinnitama oma isiku, kasutades [digitaalallkirja](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Operatsioon on tootmisprotsessi etapp. Igal operatsioonil on ID ja lihtne kirjeldus. Järgmistes tabelites on toodud tüüpilised töökojaoperatsioonide näited.
@@ -185,7 +185,7 @@ Kui protsessiversiooni aktiveerite, määrate selle protsessi vaikeversiooniks, 
 
 ### <a name="electronic-signatures"></a>Digitaalallkirjad
 
-Kui teil on vaja säilitada logi, milles salvestatakse iga protsessiversiooni kinnitaja ja aktiveerija, võite nõuda nende toimingute jaoks digitaalallkirja. Siis peavad protsessiversioone kinnitavad ja aktiveerivad kasutajad kinnitama oma isiku, kasutades [digitaalallkirja](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Kui teil on vaja säilitada logi, milles salvestatakse iga protsessiversiooni kinnitaja ja aktiveerija, võite nõuda nende toimingute jaoks digitaalallkirja. Siis peavad protsessiversioone kinnitavad ja aktiveerivad kasutajad kinnitama oma isiku, kasutades [digitaalallkirja](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Juhtumihaldust kasutav toote muutmine
 
@@ -253,7 +253,7 @@ Seega, kui valiku Kattumine jaoks on valitud aktiveerimine, siis ei mõjuta üle
 
 - [Ressursi võimalused](resource-capabilities.md)
 
-- [Digitaalallkirja ülevaade](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Digitaalallkirja ülevaade](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

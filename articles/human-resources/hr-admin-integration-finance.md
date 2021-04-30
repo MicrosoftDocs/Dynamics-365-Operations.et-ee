@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801163"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889952"
 ---
 # <a name="configure-integration-with-finance"></a>Integratsiooni konfigureerimine Finance’iga
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801163"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resourcesi integreerimisel Dynamics 365 Finance'iga saate kasutada rakendusest Human Resources rakendusse Finance malli [Andmeintegraator](https://docs.microsoft.com/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
+Dynamics 365 Human Resourcesi integreerimisel Dynamics 365 Finance'iga saate kasutada rakendusest Human Resources rakendusse Finance malli [Andmeintegraator](/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
 
 ![Integratsioonivoog rakendusest Human Resources rakendusse Finance](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ Integreerimine rakendusest Human Resources rakendusse Finance püüab kirjeid ID
 
 See probleem võib esineda üksusega **Töötaja**, kus kasutatakse sobitamiseks **Personali numbrit** ja **Ametikohti**. Tööd ei kasuta numbriseeriaid. Seega, kui sama töö ID on olemas nii rakenduses Human Resources kui ka Finance, kirjutab rakenduse Human Resources Dynamics 365 Finance’i teabe üle. 
 
-Dubleeritud ID-dega seotud probleemide vältimiseks saate lisada [numbriseeriale](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) eesliite või määrata numbrijärjestuse algusnumbri, mis ületab teise süsteemi vahemikku. 
+Dubleeritud ID-dega seotud probleemide vältimiseks saate lisada [numbriseeriale](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) eesliite või määrata numbrijärjestuse algusnumbri, mis ületab teise süsteemi vahemikku. 
 
 Töötaja aadressi jaoks kasutatav asukoha ID ei ole numbriseeria osa. Töötaja aadressi integreerimisel rakendusest Human Resources rakendusse Finance, kui töötaja aadress on juba Finance’is olemas, võib luua aadressi duplikaatkirje. 
 

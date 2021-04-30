@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826031"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910181"
 ---
 # <a name="inventory-journals"></a>Laotöölehed
 
@@ -95,7 +95,7 @@ Andmeüksused toetavad järgmist tüüpi integratsioonistsenaariume:
 -    sünkroonne teenus (OData);
 -  asünkroonne integreerimine.
 
-Lisateavet vt jaotisest [Andmeüksused](../../dev-itpro/data-entities/data-entities.md).
+Lisateavet vt jaotisest [Andmeüksused](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > Kõigis laotöölehtedes pole OData lubatud, seetõttu ei saa te andmete avaldamiseks, värskendamiseks ja Supply Chain Managementi tagasi importimiseks kasutada Exceli andmekonnektorit. 
@@ -113,7 +113,7 @@ Need kaks laotöölehte toetavad andmehalduse importimisprojekti osana ainult st
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Andmeüksused](../../dev-itpro/data-entities/data-entities.md)
+[Andmeüksused](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

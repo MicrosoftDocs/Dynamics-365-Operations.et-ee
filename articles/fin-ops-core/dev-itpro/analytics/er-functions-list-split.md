@@ -2,7 +2,7 @@
 title: ER-i funktsioon SPLIT
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni SPLIT.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745589"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853439"
 ---
 # <a name="split-er-function"></a>ER-i funktsioon SPLIT
 
@@ -79,6 +79,14 @@ Kui argument `input` on tühi, tagastatakse uus tühi loend. Kui argument `input
 ## <a name="example-2"></a>Näide 2
 
 `SPLIT ("XAb aBy", "aB")` tagastab uue loendi, mis koosneb kolmest kirjest, millel on tüübi *String* väli **Väärtus**. Esimese kirje väli **Väärtus** sisaldab teskti **„X”**, välja **Väärtus** teisene kirje sisaldab teksti **„&nbsp;”** ja kolmanda kirje väli **Väärtus** sisaldab teksti **„y”**. 
+
+## <a name="example-3"></a>Näide 3
+
+Funktsiooni [INDEX](er-functions-list-index.md) abil pääsete juurde määratud sisendstringi üksikutele elementidele. Kui sisestate tüübi **Arvutatud väli** andmeallika **MyList** ja konfigureerida seda `SPLIT("abc", 1)` avaldisele, tagastab see `INDEX(MyList,2).Value` teksti väärtuse **„b”**.
+
+## <a name="example-4"></a>Näide 4
+
+Funktsiooni [ENUMERATE](er-functions-list-enumerate.md) abil pääsete juurde määratud sisendstringi üksikutele elementidele. Kui sisestate esmalt tüübi **Arvutatud väli** andmeallika **MyList** ja konfigureerite selle `SPLIT("abc", 1)` avaldise ning seejärel sisestate tüübi **Arvutatud väli** andmetüübi **EnumeratedList** andmeallika ja konfigureerite selle `ENUMERATE(MyList)` avaldise, tagastab avaldis `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` teksti **„b”**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -13,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a95dd6caf01e2c1079d6d9690b52e9ef65d87ea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839956"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891157"
 ---
 # <a name="import-iso20022-files"></a>ISO20022-failide importimine
 
@@ -114,7 +114,7 @@ LCS-ist vormingu konfiguratsiooni importimisel impordite kogu konfiguratsioonipu
  - **Pain.002** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida pain.002-fail hankija makseülekannete töölehele
  - **Camt.054** – seda vormingut kasutatakse koos makse mudeli vastendamisega sihtkohta ISO20022, et importida camt.054-fail hankija makseülekannete töölehele Sama vormingukonfiguratsiooni kasutatakse kliendimaksete impordi funktsiooni puhul, kuid konfiguratsiooni Maksemudeli vastendamine sihtkohta ISO20022 puhul kasutatakse teistsugust vastendamist.
 
-Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md).
+Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonilise aruandluse ülevaade](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

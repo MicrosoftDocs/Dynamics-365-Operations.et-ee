@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753812"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894168"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektroonilises aruandluses loodavate suurte failide tihendamine 
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada [elektroonilise aruandluse (ER) raamistikku](general-electronic-reporting.md), et konfigureerida lahendus, mis toob kandeandmed väljamineva dokumendi loomiseks. See loodud dokument võib olla üsna suur. Seda tüüpi dokumendi loomisel kasutatakse selle hoidmiseks [rakendusobjekti serveri (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) mälu. Mingil hetkel tuleb dokument seejärel rakendusest Microsoft Dynamics 365 Finance alla laadida. Praegu on ühe ER-is loodava dokumendi maksimaalne suurus 2 gigabaiti (GB). Lisaks on Finance'is praegu allalaaditud faili suuruse [piirang](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) 1 GB. Seetõttu peate konfigureerima ER-i lahenduse, mis vähendab tõenäosust, et need piirangud ületatakse ja et teile näidatakse erandit **Voog oli liiga pikk** või **Ületäide või allakadu aritmeetikatehtes**.
+Saate kasutada [elektroonilise aruandluse (ER) raamistikku](general-electronic-reporting.md), et konfigureerida lahendus, mis toob kandeandmed väljamineva dokumendi loomiseks. See loodud dokument võib olla üsna suur. Seda tüüpi dokumendi loomisel kasutatakse selle hoidmiseks [rakendusobjekti serveri (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) mälu. Mingil hetkel tuleb dokument seejärel rakendusest Microsoft Dynamics 365 Finance alla laadida. Praegu on ühe ER-is loodava dokumendi maksimaalne suurus 2 gigabaiti (GB). Lisaks on Finance'is praegu allalaaditud faili suuruse [piirang](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) 1 GB. Seetõttu peate konfigureerima ER-i lahenduse, mis vähendab tõenäosust, et need piirangud ületatakse ja et teile näidatakse erandit **Voog oli liiga pikk** või **Ületäide või allakadu aritmeetikatehtes**.
 
 Lahendust konfigureerides saate toimingute kujundajas ER-i vormingut kohandada, lisades juurelemendi, mille tüüp on **Kaust**, et tihendada sisu, mida selle pesastatud elemendid loovad. Tihendamine toimub „täpselt õigel ajal”, nii et maksimaalset kasutatavat mälumahtu ja allalaaditava faili suurust saab vähendada.
 

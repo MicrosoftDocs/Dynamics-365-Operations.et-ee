@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f405fba2b28ccae6b3aadbcf683d050040587cde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f491cebacad1e289e6b004d573916eaf8ec0e110
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832174"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909545"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.13 uut või mida on muudetud (oktoober 2020)
 
@@ -33,23 +33,23 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.13
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele, mis on selle funktsiooni jaoks praegu saadaval. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
+See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele, mis on selle funktsiooni jaoks praegu saadaval. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
-- ["Varude sulgemise tühistamise" terminoloogia muutmine "varude sulgemise ümberpööramiseks"](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Lisateavet vt teemast [Varude sulgemine](../cost-management/inventory-close.md).
+- ["Varude sulgemise tühistamise" terminoloogia muutmine "varude sulgemise ümberpööramiseks"](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Lisateavet vt teemast [Varude sulgemine](../cost-management/inventory-close.md).
 
-- [Pakett-töö väljuva saadetise kinnitamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Lisateavet vt teemast [Väljaminevate saadetiste kinnitamine partiitöödest](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Pakett-töö väljuva saadetise kinnitamine](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Lisateavet vt teemast [Väljaminevate saadetiste kinnitamine partiitöödest](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Mitme ostu tööüksuste delegeerimine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Lisateavet vt teemast [Töövoo tööüksuste delegeerimine](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Mitme ostu tööüksuste delegeerimine](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Lisateavet vt teemast [Töövoo tööüksuste delegeerimine](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Sisesta seerianumbrid, kui need märgitakse töökaardi vahendil lõpetatuks](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Lisateabe saamiseks vt [Lõpetatuna kinnitamine töökaardi seadmest](../production-control/report-finished-job-device.md).
+- [Sisesta seerianumbrid, kui need märgitakse töökaardi vahendil lõpetatuks](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Lisateabe saamiseks vt [Lõpetatuna kinnitamine töökaardi seadmest](../production-control/report-finished-job-device.md).
 
-- [Toote versiooni jälgimise ja täiustatud laiendatavuse uued varude dimensioonid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Lisateavet vt jaotisest [Toote dimensioonid](../pim/product-dimensions.md).
+- [Toote versiooni jälgimise ja täiustatud laiendatavuse uued varude dimensioonid](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Lisateavet vt jaotisest [Toote dimensioonid](../pim/product-dimensions.md).
 
-- [Tellimusega kooskõlastatud reserveerimine vastavalt litsentsiplaatidele](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Lisateavet vt teemast [Kindlaks määratud litsentsiplaadi reserveerimine](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Tellimusega kooskõlastatud reserveerimine vastavalt litsentsiplaatidele](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Lisateavet vt teemast [Kindlaks määratud litsentsiplaadi reserveerimine](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Töö komplekteerimisrea ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Töö komplekteerimisrea ülevaade](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Sissetuleva töö tööpoliitika täiustused](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Lisateavet vt teemast [Warehouse poliitika](../warehousing/warehouse-work-policies.md).
+- [Sissetuleva töö tööpoliitika täiustused](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Lisateavet vt teemast [Warehouse poliitika](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -65,7 +65,7 @@ Lisateabe saamiseks veaparanduste kohta, mis sisalduvad 10.0.13 uuendustes, logi
 
 Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused?
 
-Vaadake teemat [Dynamics 365: 2020. aasta väljalaske 2. voo plaan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
+Vaadake teemat [Dynamics 365: 2020. aasta väljalaske 2. voo plaan](/dynamics365-release-plan/2020wave2/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 

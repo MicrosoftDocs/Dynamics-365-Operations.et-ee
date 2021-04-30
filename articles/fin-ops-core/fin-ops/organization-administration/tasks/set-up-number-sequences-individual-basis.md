@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747317"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890854"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Individuaalsete numbriseeriate häälestamine
 
@@ -30,7 +30,7 @@ Selles teemas selgitatakse, kuidas seadistada individuaalseid numbriseeriaid. Nu
 2. Valige **Numbriseeria**.
 3. Sisestage väärtus väljale **Numbriseeria kood**.
 4. Sisestage väärtus väljale **Nimi**.
-5. Valige kiirkaardil **Ulatuse parameetrid** nubriseeriale ulatus ja valige ulatuse väärtused ripploendist. Ulatus määratleb, millised organisatsioonid kasutavad numbriseeriat. Lisaks saavad numbriseeriad, mille ulatus ei ole **Ühiskasutatav**, omada nende ulatusele vastavaid segmente. Näiteks võib numbriseerial ulatusega **Juriidiline isik** olla juriidilise isiku segment. Ulatuste kohta lisainfo saamiseks vaadake jaotist [numbriseeria ülevaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. Valige kiirkaardil **Ulatuse parameetrid** nubriseeriale ulatus ja valige ulatuse väärtused ripploendist. Ulatus määratleb, millised organisatsioonid kasutavad numbriseeriat. Lisaks saavad numbriseeriad, mille ulatus ei ole **Ühiskasutatav**, omada nende ulatusele vastavaid segmente. Näiteks võib numbriseerial ulatusega **Juriidiline isik** olla juriidilise isiku segment. Ulatuste kohta lisainfo saamiseks vaadake jaotist [numbriseeria ülevaade](../number-sequence-overview.md). 
 6. Laiendage jaotist **Segmendid**.
     - Määratlege numbriseeriate vorming, lisades, eemaldades või teisaldades segmente.  
     - Iga ulatusega numbriseeriad võivad sisaldada *Konstantseid segmente* ja *Tähtnumbrilisi segmente*. Konstantsed segmendid sisaldavad muutumatut tähe- või numbrimärkide kogumit. Selle segmendi tüübi abil saate lisada sidekriipsu või muu eraldaja numbriseeria segmentide vahele. Tähtedest ja numbritest koosnevad segmendid sisaldavad numbrimärkide kombinatsiooni (#) ning ja-märke (&). Need märgid tähistavad tähti ja numbreid, mis kasvavad iga kord, kui numbriseeria numbrit kasutatakse. Kasutage trelle (#), et tähistada kasvavaid numbreid ning ja-märki (&), et tähistada kasvavaid tähti. Näiteks loob vorming `#####_2014` seeria `00001_2014`, `00002_2014`ja nii edasi. Vähemalt üks tähtedest ja numbritest koosnev segment peab olemas olema. Ulatuse segmendid, nagu ettevõte või juriidiline isik, ei ole nõutavad. Kuid kui te ei kaasa ulatuse segmente vormingusse, luuakse iga ulatuse kohta ikkagi valitud viitele numbrid.  
