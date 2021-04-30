@@ -2,7 +2,8 @@
 title: Kaupluse valija moodul
 description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798629"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853413"
 ---
 # <a name="store-selector-module"></a>Kaupluse valimise moodul
 
@@ -32,11 +33,32 @@ Kliendid saavad kasutada kaupluse valija moodulit, et komplekteerida toode valit
 
 Kaupluse valija moodul võimaldab kasutajatel sisestada asukoha (linn, maakond, aadress jne), et otsida kauplusi otsinguraadiuse piires. Mooduli esmakordsel avamisel kasutab see kaupluste otsimiseks kliendi brauseri asukohta (kui nõusolek on saadud).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Kaupluse valija mooduli kasutamine e-kaubanduses
+## <a name="store-selector-module-usage"></a>Kaupluse valimise mooduli kasutus
 
 - Kaupluse valija moodulit saab kasutada toote üksikasjade lehel (PDP), et valida kauplus järele tulemiseks.
 - Kaupluse valija moodulit saab kasutada ostukorvi lehel, et valida kauplus järele tulemiseks.
 - Kaupluse valija moodulit saab kasutada eraldiseisval lehel, kus kuvatakse kõik saadaolevad kauplused.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Täitmisgruppide seadistamine Commerce Headquarters`is
+
+Kaupluse valija saadaolevate kaupluste kuvamiseks peab täitmisgrupp olema seadistatud Commerce'i peakorteris. Lisateabe saamiseks vt [Täitmisgruppide seadistamine](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Lisaks tuleb iga täitmisgruppi kuuluva kaupluse laius- ja pikkuskraad määratleda peakorteris.
+
+Commerce'i peakorteris asuva poe asukoha laius- ja pikkuskraadi väärtuste sisestamiseks toimige järgmiselt.
+
+1. Avage **Varude haldus \> Seadistus \> Laovarude jaotamine**.
+1. Valige vasakpoolsel paanil lao asukoht.
+1. Kiirkaardil **Aadressid** valige **Täpsemalt**.
+
+    ![Kaupluse üksikasjade näide peakorteris](./media/Store-address.png)
+
+1. Valige Toimingupaanil nupp **Redigeeri**.
+1. Kiirkaardil **Üldine** sisestage **laius-** ja **pikkuskraadide** väärtused.
+
+    ![Peakorteri kaupluse laius- ja pikkuskraadide häälestuse näide](./media/Store-latitude-longitude.png)
+
+1. Valige toimingupaanil nupp **Salvesta**. 
 
 ## <a name="bing-maps-integration"></a>Bing Maps integratsioon
 
@@ -48,6 +70,7 @@ Autosuggest REST API puhul peate tagama, et järgmised URL-id on lubatud saidi s
 - Lisage direktiivile **img-src** väärtus **&#42;.virtualearth.net**.
 - Lisage direktiivile **script-src** väärtused **&#42;.bing.com, &#42;.virtualearth.net**.
 - Lisage direktiivile **script style-src** väärtus **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Järgi tulemine kauplusesse režiim
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753692"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894144"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Loodud dokumentidele kohandatud salvestuskohtade määramine
 
@@ -27,7 +27,7 @@ Elektroonilise aruandluse (ER) rakenduse programmeerimisliidese (API) raamistik 
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Juurutage topoloogia, mis toetab pidevat järku. Lisainfo saamiseks vt [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Samuti peab teil olema sellele topoloogiale juurdepääs ühe järgmise rolliga.
+Juurutage topoloogia, mis toetab pidevat järku. Lisainfo saamiseks vt [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Samuti peab teil olema sellele topoloogiale juurdepääs ühe järgmise rolliga.
 
 - Elektroonilise aruandluse arendaja
 - Elektroonilise aruandluse funktsionaalne konsultant
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Muutke olemasolevat klassi `AssetRollForwardService` ja kirjutage kood, et seadistada kohandatud sihtkoha tehases aruande käitaja. Pange tähele, et kui kohandatud sihtkoha vabrik on loodud, edastatakse rakenduse juhitud parameeter, mis määrab sihtkausta. Sel viisil kasutatakse sihtkausta loodud failide talletamiseks.
 
     > [!NOTE] 
-    > Veenduge, et määratud kaust (selles näites **c:\\0**) on AOS-i teenust käitava serveri kohalikus failisüsteemis olemas. Vastasel juhul kuvatakse käitusajal erand [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1).
+    > Veenduge, et määratud kaust (selles näites **c:\\0**) on AOS-i teenust käitava serveri kohalikus failisüsteemis olemas. Vastasel juhul kuvatakse käitusajal erand [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1).
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

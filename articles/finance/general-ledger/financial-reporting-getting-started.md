@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811283"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897032"
 ---
 # <a name="get-started-with-financial-reporting"></a>Rakenduse Financial Reporting kasutamise alustamine 
 
@@ -148,7 +148,7 @@ Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja av
 * Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid. Muutke alal, mille silt on Selle tsooni turbetase suvandi väärtuseks **Keskmine-madal**.
 * Keelake hüpikakende blokeerija oma brauseris.
 * Tööjaamad peavad installima Microsoft .NET Frameworki versiooni 4.6.2 või uuema. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345).
-* Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate Chrome’is inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Lisateavet Chrome’i laiendi ClickOkone kohta vt teemast [Pilvjuurutuste süsteeminõuded](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate Chrome’is inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Lisateavet Chrome’i laiendi ClickOkone kohta vt teemast [Pilvjuurutuste süsteeminõuded](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Kui kasutate Microsoft Edge’i Chrome’i brauseriga, ei pea te Edge Chromiumi jaoks laiendust ClickOnce installima. Samas aruandekoosturi klientrakenduse allalaadimiseks peate suvandi ClickOnce lubama. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud.
      1. Avage uus brauser rakenduses Microsoft Edge.
      2. Sisestage **edge://flags** ja valige **Sisesta**.

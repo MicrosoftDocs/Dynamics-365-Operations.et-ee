@@ -2,8 +2,7 @@
 title: Finantsanalüüs
 description: Finantsülevaated kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572362"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894904"
 ---
 # <a name="financial-analysis"></a>Finantsanalüüs
 
@@ -65,10 +64,9 @@ Andmed **Finantsülevaadeteks** tõmmatakse üksuse kauplusest (**Süsteemihaldu
 
 **Finantsülevaadete** tööruumide andmete nägemiseks peate uuendama järgmised üksused:
 
-- BudgetActivityMeasure
 - Finantsaruandluse kandeandmete 3. versioon 
+- Krediidihaldus ja võlanõuded V2
 - CustCollectionsBIMeasurements
-- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Ostu kuup
 - Müügi kuup
@@ -241,9 +239,9 @@ Power BI-l ei ole tühjade ridade peitmise või kuvamise valikut. Kui real ei ol
 
 Järgmiste ressursside teave ei ole kohustuslik **finantsülevaadete** tööruumi manustatud aruannete lubamiseks tootmiskeskkonnas. Selle asemel on need kasulikud arendusväljade jaoks ja juhul, kui soovite oma Power BI aruandeid manustada.
 
-- [Analüütikatööruumidele ja aruannetele juurdepääs valmiskeskkonnas](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Analüütikatööruumidele ja aruannetele juurdepääs valmiskeskkonnas](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

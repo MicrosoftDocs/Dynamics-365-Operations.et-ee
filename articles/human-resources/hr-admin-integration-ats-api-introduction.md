@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798413"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890121"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Kandidaadi jälgimissüsteemi integreerimise API tutvustus
 
@@ -45,21 +45,21 @@ See API on ehitatud rakendusele Microsoft Dataverse (varem Common Data Service).
 
 Lisateavet Microsoft Dataverse'i Web API kohta leidke alpoolt.
 
-- [Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [Microsoft Dataverse'i Web API kasutamine](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [Microsoft Dataverse'i arendaja juhend](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
+- [Microsoft Dataverse'i Web API kasutamine](/powerapps/developer/data-platform/webapi/overview)
+- [Microsoft Dataverse'i arendaja juhend](/powerapps/developer/data-platform)
 
-Ülaltoodud dokumentatsioon sisaldab üksikasju ja arendaja juhendeid Dataverse'i Web API kasutamiseks, näiteks [autentimise halduseks](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [toimingute tegemiseks](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api), [Postmani kasutamiseks API-ga](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) ja [muudatuste jälgimise või delta sõnede kasutamiseks](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) API-ga.
+Ülaltoodud dokumentatsioon sisaldab üksikasju ja arendaja juhendeid Dataverse'i Web API kasutamiseks, näiteks [autentimise halduseks](/powerapps/developer/data-platform/webapi/authenticate-web-api), [toimingute tegemiseks](/powerapps/developer/data-platform/webapi/perform-operations-web-api), [Postmani kasutamiseks API-ga](/powerapps/developer/data-platform/webapi/use-postman-web-api) ja [muudatuste jälgimise või delta sõnede kasutamiseks](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) API-ga.
 
 ### <a name="option-sets"></a>Suvandikomplektid
 
-Dokumendis kirjeldatud ATS-integratsiooni API andmemudel hõlmab valikukomplekte, mis pakuvad üksuse atribuutidega seostatud nummerdatud väärtusi. Lisateavet Dataverse'i Web APIs suvandikomplektidega töötamise kohta leiate jaotisest [Suvandikomplektide loomine ja värskendamine Web API-ga](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets). Suvandikomplektid määratakse igale Dataverse'i keskkonnale.
+Dokumendis kirjeldatud ATS-integratsiooni API andmemudel hõlmab valikukomplekte, mis pakuvad üksuse atribuutidega seostatud nummerdatud väärtusi. Lisateavet Dataverse'i Web APIs suvandikomplektidega töötamise kohta leiate jaotisest [Suvandikomplektide loomine ja värskendamine Web API-ga](/powerapps/developer/data-platform/webapi/create-update-optionsets). Suvandikomplektid määratakse igale Dataverse'i keskkonnale.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Virtuaalsed tabelid rakendusele Human Resources Dataverse'is
 
 ATS-integratsiooni API lõpp-punktid kasutavad rakenduse Microsoft Dataverse virtuaalse tabeli platvormi võimalusi. Vaikimisi ei juurutata virtuaalseid tabeleid ja nendega seotud API-lõpp-punkte Human Resources'i keskkondades, võimaldades organisatsioonidel määrata, millised OData lõpp-punktid keskkonnaga kokku puutuvad. API kasutamiseks peavad keskkonna jaoks olema loodud virtuaalsed tabelid rakenduse Human Resources olemite jaoks. 
 
-Lisateavet API jaoks virtuaaltabelite loomise kohta leiate jaotisest [Dataverse'i virtuaalsete tabelite konfigureerimine](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Lisateavet API jaoks virtuaaltabelite loomise kohta leiate jaotisest [Dataverse'i virtuaalsete tabelite konfigureerimine](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="data-model"></a>Andmemudel
 
@@ -134,8 +134,8 @@ Suvandikomplektid.
 ## <a name="see-also"></a>Vt ka
 
 [Kandidaatide värbamine](hr-personnel-recruit.md)<br>
-[Mis on Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Microsoft Dataverse'i Web API kasutamine](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[Suvandikomplektide loomine ja värskendamine Web API abil](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Microsoft Dataverse'i Web API kasutamine](/powerapps/developer/data-platform/webapi/overview)<br>
+[Suvandikomplektide loomine ja värskendamine Web API abil](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

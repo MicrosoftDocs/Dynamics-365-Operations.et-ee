@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 697f5c71182fbe675c02e13a2162d791d72ced06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d55bb294885a1ff2352ff65296145fd4fe32044
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835794"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909056"
 ---
 # <a name="set-up-dispatch-teams"></a>Saate häälestada lähetustöörühmi. 
 
@@ -47,7 +47,7 @@ See teema kirjeldab lähetustöörühma loomist. Pärast lähetustöörühma loo
 
 
 > [!NOTE]
-> <P>Vormil <STRONG>Töötaja</STRONG> saate lisada töötaja lähetustöörühma. Jaotisest <A href="https://technet.microsoft.com/library/dn776288(v=ax.60)">Töötajate lähetamine (vorm)</A> leiate lisateavet selle kohta, kuidas lisada töötajat lähetustöörühma.</P>
+> <P>Vormil <STRONG>Töötaja</STRONG> saate lisada töötaja lähetustöörühma. Jaotisest <A href="/dynamicsax-2012//dispatch-workers-form">Töötajate lähetamine (vorm)</A> leiate lisateavet selle kohta, kuidas lisada töötajat lähetustöörühma.</P>
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823405"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909447"
 ---
 # <a name="goods-in-transit-processing"></a>Transiidis olevate kaupade töötlemine
 
@@ -40,7 +40,7 @@ Mooduli **Väljalaadimiskulu** lubamise korral täiendatakse standardsete *tarne
 
 Kui rakendatava tarnetingimuste kirje korral on sätte **Transiidis olevate kaupade haldus** väärtuseks määratud *Jah*, paigutatakse kaubad transiidis olevate kaupade lattu. See toiming käivitatakse ainult juhul, kui varude sissetulekut ei töödelda enne arve töötlemist. Kui tellimuse tarnetingimustes on määratud transiidis olevate kaupade kasutamine, ei saa kasutajad enam ostutellimuse jaoks tootesissetulekut sisestada. Kui nad seda siiski teha proovivad, ilmneb tõrge. Tõrketeade annab teada, et jätkamiseks tuleb kasutada transiidis olevate kaupade funktsiooni.
 
-Transiidis olevate kaupade tarnetingimuste teabega töötamiseks valige **Hanked \> Seadistamine \> Jaotus \> Tarnetingimused**. Järgmises tabelis kirjeldatakse välju, mille moodul **Väljalaadimiskulu** lisab transiidis olevate kaupade funktsiooni toetamiseks lehele **Tarnetingimused**. Mõlemad väljad asuvad kiirkaardil **Üldine**. Lisateavet selle lehe teiste väljade kohta leiate teemast [Tarnetingimused (vorm)](https://technet.microsoft.com/library/aa575567.aspx).
+Transiidis olevate kaupade tarnetingimuste teabega töötamiseks valige **Hanked \> Seadistamine \> Jaotus \> Tarnetingimused**. Järgmises tabelis kirjeldatakse välju, mille moodul **Väljalaadimiskulu** lisab transiidis olevate kaupade funktsiooni toetamiseks lehele **Tarnetingimused**. Mõlemad väljad asuvad kiirkaardil **Üldine**. Lisateavet selle lehe teiste väljade kohta leiate teemast [Tarnetingimused (vorm)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Field | Kirjeldus |
 |---|---|
@@ -55,7 +55,7 @@ Väljalaadimiskulu moodul lisab kaks uut laotüüpi: *transiidis olevad kaubad* 
 
 *Transiidis olevate kaupade* laotüüp seostatakse teie transiidis olevate kaupade laoga ja seda ladu kasutatakse transiidis olevate kaupade tellimustesse kaasatud kaupade töötlemiseks enne nende vastuvõtmist lõppsihtlaos. Üldiselt piisab iga koha jaoks ühest transiidis olevate kaupade laost, kui koht ja ladu on ainsad varude haldamiseks kasutatavad varude dimensioonid. Kui kasutatakse ka asukoha varude dimensiooni, peab transiidis olevate kaupade ladu olema seadistatud iga koha ja lao kombinatsiooni jaoks, et määrata saaks ka vaikeasukoha.
 
-Ladude transiidis olevate kaupade sätetega töötamiseks valige **Varude haldus \> Seadistamine \> Laovarude jaotamine \> Laod**. Järgmises tabelis kirjeldatakse välju, mille moodul **Väljalaadimiskulu** lisab transiidis olevate kaupade funktsiooni toetamiseks lehele **Laod**. Mõlemad väljad kuvatakse kiirkaardil **Üldine**. Lehe teiste väljade kohta leiate lisateavet teemast [Laod (vorm)](https://technet.microsoft.com/library/aa620570.aspx).
+Ladude transiidis olevate kaupade sätetega töötamiseks valige **Varude haldus \> Seadistamine \> Laovarude jaotamine \> Laod**. Järgmises tabelis kirjeldatakse välju, mille moodul **Väljalaadimiskulu** lisab transiidis olevate kaupade funktsiooni toetamiseks lehele **Laod**. Mõlemad väljad kuvatakse kiirkaardil **Üldine**. Lehe teiste väljade kohta leiate lisateavet teemast [Laod (vorm)](/dynamicsax-2012//warehouses-form).
 
 | Field | Kirjeldus |
 |---|---|
@@ -109,7 +109,7 @@ Kaupu saate vastu võtta ka saabumistöölehe loomisega. Saabumistöölehe saate
     - **Loo transiidis olevatest kaupadest** – määrake selle sätte väärtuseks *Jah*, et võtta kogused valitud teekonna, konteineri või foolio valitud transiidiridadelt.
     - **Loo tellimuse ridadelt** – määrake selle sätte väärtuseks *Jah*, et määrata saabumistöölehe vaikekogus ostutellimuse ridadelt. Saabumistöölehe vaikekoguse saab sel viisil määrata ainult siis, kui ostutellimuse rea kogus ühtib transiidis olevate kaupade tellimuse kogusega.
 
-1. Töödelge saabumistööleht vastavalt teemas [Kauba sissetulekute registreerimine kauba saabumise töölehel](https://technet.microsoft.com/library/aa571129.aspx) kirjeldatud juhistele.
+1. Töödelge saabumistööleht vastavalt teemas [Kauba sissetulekute registreerimine kauba saabumise töölehel](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal) kirjeldatud juhistele.
 
 > [!NOTE]
 > Saabumistöölehte kasutatakse enamasti olukordades, kus kasutatakse asukohtade ning partii- ja seerianumbrite jälgimist, kuid mitte laohaldust.
@@ -131,15 +131,14 @@ Väljalaadimiskulu moodul lisab transiidis olevate kaupade töötlemise toetamis
 - Transiidis olevad kaubad: kauba sissetulek
 - Transiidis olevad kaubad: kauba vastuvõtt ja ladustamine
 
-Nende protsesside konfigureerimissätted sarnanevad [ostutellimuse vastuvõtu ja ladustamise töö loomise protsesside](https://technet.microsoft.com/library/dn553216.aspx) sätetega. Protsess *Transiidis olevad kaubad: kauba vastuvõtt ja ladustamine* lisab ka järgmise välja.
+Nende protsesside konfigureerimissätted sarnanevad [ostutellimuse vastuvõtu ja ladustamise töö loomise protsesside](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work) sätetega. Protsess *Transiidis olevad kaubad: kauba vastuvõtt ja ladustamine* lisab ka järgmise välja.
 
 - **Luba saatmiskonteineri lõpetamine** – kui selle sätte väärtuseks on määratud *Jah*, kuvab lao mobiilirakendus Warehouse Management ladustamistöö lõpuleviimisel lisasuvandi nimega **Saatmiskonteiner on valmis**. Selle suvandi valimise korral palutakse töötajal kinnitada, et konteiner on lõpule viidud. Sel hetkel töödeldakse kõik puudulikud vastuvõtmised alakandena.
 
 ### <a name="location-directives"></a>Asukohakorraldus
 
-Väljalaadimiskulu lisab lehele *Asukohakorraldus* uue töökäsutüübi nimega **Transiidis olevad kaubad**. See töökäsutüüp tuleb konfigureerida sarnaselt [ostutellimuse töökäsutüüpidega](https://technet.microsoft.com/library/dn553184.aspx).
+Väljalaadimiskulu lisab lehele *Asukohakorraldus* uue töökäsutüübi nimega **Transiidis olevad kaubad**. See töökäsutüüp tuleb konfigureerida sarnaselt [ostutellimuse töökäsutüüpidega](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Töömallid
 
-Väljalaadimiskulu lisab lehele *Töömallid* uue töökäsutüübi nimega **Transiidis olevad kaubad**. See töökäsutüüp tuleb konfigureerida sarnaselt [ostutellimuse töömallidega](https://technet.microsoft.com/library/dn553184.aspx).
-
+Väljalaadimiskulu lisab lehele *Töömallid* uue töökäsutüübi nimega **Transiidis olevad kaubad**. See töökäsutüüp tuleb konfigureerida sarnaselt [ostutellimuse töömallidega](/dynamicsax-2012/appuser-itpro/create-a-work-template).

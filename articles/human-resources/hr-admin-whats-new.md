@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a7d86e85ef9cff493dcdfab498d107163f381d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5806014"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892173"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Mis on uut või mida on muudetud rakenduses Human Resources?
 
@@ -39,7 +39,7 @@ Iga kahe nädala tagant esitame rakenduse Microsoft Dynamics 365 Human Resources
 
 Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisprotsessi kohta leiate järgmistest artiklitest. 
 
-- [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Värskendamisprotsess](hr-admin-setup-update-process.md)
 
@@ -49,6 +49,7 @@ Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisp
 
 Et näha, mis on Human Resourcesi igas kahenädalases väljalaskes uut või muudetud, vaadake järgmisi artikleid.
 
+[5. aprill 2021](hr-whats-new-2021-04-05.md)</br>
 [22. märts 2021](hr-whats-new-2021-03-22.md)</br>
 [8. märts 2021](hr-whats-new-2021-03-08.md)</br>
 [22. veebruar 2021](hr-whats-new-2021-02-22.md)</br>
@@ -81,7 +82,7 @@ Et näha, mis on Human Resourcesi igas kahenädalases väljalaskes uut või muud
 
 ## <a name="see-also"></a>Vt ka
 
-[Dynamics 365 Human Resources 2020 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2020 väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810410"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911244"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
@@ -28,19 +28,21 @@ Selles teemas kirjeldatakse täiustatud plaanitud ristlaadimist. Ristlaadimine o
 
 Ristlaadimine võimaldab töötajatel jätta vahele juba väljaminevasse tellimusse märgitud varude sissetulevat ladustamist ja väljaminevat komplekteerimist. Selle abil vähendatakse varude liigutamise kordade arvu, kus see on võimalik. Lisaks, kuna süsteemiga suheldakse vähem, säästetakse rohkem lao kaupluse korrusel olevat aega ja ruumi.
 
-Enne ristlaadimise käivitamist peab kasutaja konfigureerima uue ristlaadimise malli, kus on määratud ristlaadimise tarneallikas ja muud nõuete kogumid. Kui väljaminev tellimus on loodud, tuleb rida tähistada sissetuleva tellimusega, mis sisaldab sama kaupa.
+Enne ristlaadimise käivitamist peate konfigureerima uue ristlaadimise malli, kus on määratud ristlaadimise tarneallikas ja muud nõuete kogumid. Kui väljaminev tellimus on loodud, tuleb rida tähistada sissetuleva tellimusega, mis sisaldab sama kaupa. Ristlaadimise mallil saate valida direktiivi koodi välja sarnaselt täiendamise ja ostutellimuste seadistamise viisile.
 
 Sissetuleva tellimuse vastuvõtmise ajal tuvastab ristlaadimise seadistus automaatselt ristlaadimise vajaduse ning loob vajaliku koguse jaoks liikumise töö, mis põhineb asukohakorralduse seadistusel.
 
 > [!NOTE]
-> Lao kandeid **ei** jäeta registreerimata ristlaadimise tühistamisel, isegi kui selle võimaluse säte on laohalduse parameetrites sisse lülitatud.
+> Lao kandeid *ei* jäeta registreerimata ristlaadimise tühistamisel, isegi kui selle võimaluse säte on laohalduse parameetrites sisse lülitatud.
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Plaanitud ristilaadimise funktsioonide sisselülitamine
 
 Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage järgmised funktsioonid järgmises järjekorras sisse.
 
 1. *Plaanitud ristlaadimine*
-2. *Asukohadirektiividega ristiliaadimismallid*
+1. *Asukohadirektiividega ristiliaadimismallid*
+    > [!NOTE]
+    > See funktsioon võimaldab määrata ristlaadimise mallil **direktiivi tähise** välja sarnaselt täiendusmallide seadistamise viisiga. Selle funktsiooni lubamine takistab teil lõpliku *put*-rea ristlaadimise töömalli ridadele direktiivi koodi lisamist. See tagab, et lõpliku asukoha saab määrata töö loomise ajal enne töömallide kaalumist.
 
 ## <a name="setup"></a>Seadistus
 
@@ -88,9 +90,9 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
 
         See suvand määratleb, kas tarnet tuleb vastuvõtmise ajal uuesti kinnitada. Kui selle suvandi väärtuseks on seatud *Jah*, kontrollitakse nii maksimaalset ajavahemikku kui ka aegumiskuupäevade vahemikku.
 
-    - **Korralduse kood** jätke see väli tühjaks
+    - **Korralduse kood:** jätke see väli tühjaks
 
-        See valik võimaldab süsteemil kasutada asukohakorraldusi, et aidata määrata parim asukoht ristlaadimise varude teisaldamiseks. Selle seadistamiseks määrake igale asjakohasele ristlaadimise mallile korralduse kood. Iga korralduse kood tähistab kordumatut asukohakorraldust.
+        Selle suvandi lubavad *asukohadirektiivide funktsiooniga ristlaadimismallid*. Süsteem kasutab asukohakorraldusi, et aidata määrata parim asukoht ristlaadimise varude teisaldamiseks. Selle seadistamiseks määrake igale asjakohasele ristlaadimise mallile korralduse kood. Kui määratakse direktiivikood, otsib süsteem töö loomisel asukohadirektiive direktiivikoodi järgi. Sel viisil saate piirata asukohajuhiseid, mida kasutatakse konkreetse ristlaadimise malli puhul.
 
     - **Kinnita maksimaalne ajavahemik:** *Jah*
 

@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 743298a1c32f5fc706ad7a47d9b559569946889b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: efa9be4a5243444c2bf0b154836efbf8cfa76de9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832660"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894666"
 ---
 # <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
@@ -248,9 +248,9 @@ d<li>Kande <strong>Maksu baassumma</strong> või <strong>Maksu summa</strong> &l
 
 Elektroonilist aruandlust (ER) saab kasutada väljavõtete ja aruande konfigureerimiseks ning andmete eksportimiseks erinevates elektroonilistes vormingutes, X++ koodi muutmata. Lisateave:
 
--   [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md)
--   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
--   [Lokaliseerimisnõuded – GER-i konfiguratsiooni loomine](../../dev-itpro/analytics/electronic-reporting-configuration.md)
+-   [Elektroonilise aruandluse ülevaade](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+-   [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Lokaliseerimisnõuded – GER-i konfiguratsiooni loomine](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)
 
 ## <a name="countryspecific-resources-for-vat-statements"></a>Riigipõhised ressursid KM-aruannete puhul
 Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tabelis loetletud riikide puhul on olemas KM-aruannete eelmääratud üldised mudelid ja vormingud.

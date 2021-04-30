@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819646"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897400"
 ---
 # <a name="cash-flow-forecasting"></a>Likviidsuse plaanimine
 
@@ -144,7 +144,7 @@ Tööruum **Kassa ülevaade – kõik ettevõtted** näitab likviidsuse plaanimi
 
 Tööruumis **Sularaha ülevaade – praegune ettevõte** näidatakse rahavoo prognoosi analüüsi ettevõtte määratletud arvestusvaluutas. Analüüsiks kasutatav arvestusvaluuta on määratletud lehel **Pearaamat**. Selles tööruumis kuvatakse ülevaade likviidsuse plaanimisest ja pangakontode saldodest praeguse ettevõtte kohta. Sularaha sissetulekute ja väljaminekute diagramm annab ülevaate tulevastest sularaha liikumistest ja saldodest arvestusvaluutas, koos prognoositavate kannete üksikasjalike andmetega. Võimalik on vaadata ka prognoositavaid valuutasaldosid.
 
-Lisateavet likviidsuse plaanimise analüüsi kohta leiate teemast [Kassa ülevaate Power BI sisu](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
+Lisateavet likviidsuse plaanimise analüüsi kohta leiate teemast [Kassa ülevaate Power BI sisu](./cash-overview-power-bi-content.md).
 
 Lisaks saate vaadata likviidsuse plaanimise andmeid konkreetsete kontode, tellimuste ja üksuste kohta järgmistelt lehtedelt.
 

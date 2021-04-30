@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840697"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907761"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliendiportaali kasutajate loomine ja haldamine
 
@@ -44,26 +44,26 @@ Enne uute klientide kutsumist veenduge, et oleksite lubanud topeltkirjutuses tab
 
 ## <a name="the-invitation-process"></a>Kutseprotsess
 
-Olemasoleva kontakti kliendiportaali kutsumiseks järgige Power Appsi portaalide dokumentatsioonis toodud teemat [Oma portaalidesse kontaktide kutsumine](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts).
+Olemasoleva kontakti kliendiportaali kutsumiseks järgige Power Appsi portaalide dokumentatsioonis toodud teemat [Oma portaalidesse kontaktide kutsumine](/powerapps/maker/portals/configure/invite-contacts).
 
-Enne kliendi kliendiportaaliga liituma kutsumist veenduge, et kliendi [kontakti kirje](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) oleks saadaval ja seadistatud järgmisel moel.
+Enne kliendi kliendiportaaliga liituma kutsumist veenduge, et kliendi [kontakti kirje](/powerapps/maker/portals/configure/configure-contacts) oleks saadaval ja seadistatud järgmisel moel.
 
 1. Seadke välja **Ettevõte** väärtuseks juriidiline isik, kellele klient peab rakenduses Supply Chain Management kuuluma.
 2. Seadke välja **Kontonumber** väärtuseks kliendi kontonumber, mis teie arvates peab kliendil rakenduses Supply Chain Management olema.
 
 Pärast kontakti loomist peaksite nägema seda rakenduses Supply Chain Management.
 
-Lisateavet leiate teemast [Kontakti konfigureerimine portaalis kasutamiseks](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) Power Appsi portaalide dokumentatsioonis.
+Lisateavet leiate teemast [Kontakti konfigureerimine portaalis kasutamiseks](/powerapps/maker/portals/configure/configure-contacts) Power Appsi portaalide dokumentatsioonis.
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Valmiskujul veebirollid ja tabeli load
 
-Power Appsi portaalides määratletakse kasutajarollid [veebirollide](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [tabeli lubade](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) alusel. Mõned kliendiportaali rollid on määratletud valmiskujul. Te saate luua uusi rolle ja muuta või eemaldada olemasolevaid rolle.
+Power Appsi portaalides määratletakse kasutajarollid [veebirollide](/powerapps/maker/portals/configure/create-web-roles) ja [tabeli lubade](/powerapps/maker/portals/configure/assign-entity-permissions) alusel. Mõned kliendiportaali rollid on määratletud valmiskujul. Te saate luua uusi rolle ja muuta või eemaldada olemasolevaid rolle.
 
 ### <a name="out-of-box-web-roles"></a>Valmiskujul veebirollid
 
 Selles jaotises kirjeldatakse kliendiportaaliga kaasatulevaid veebirolle.
 
-Lisateavet valmiskujul kasutajarollide muutmise kohta vt teemadest [Portaalidele veebirollide loomine](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ja [Portaalidele kirjepõhise turbe lisamine tabeli lubade abil](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) Power Appsi portaalide dokumentatsioonis.
+Lisateavet valmiskujul kasutajarollide muutmise kohta vt teemadest [Portaalidele veebirollide loomine](/powerapps/maker/portals/configure/create-web-roles) ja [Portaalidele kirjepõhise turbe lisamine tabeli lubade abil](/powerapps/maker/portals/configure/assign-entity-permissions) Power Appsi portaalide dokumentatsioonis.
 
 #### <a name="administrator"></a>Administraator
 

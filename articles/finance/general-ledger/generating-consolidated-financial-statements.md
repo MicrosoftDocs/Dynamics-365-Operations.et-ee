@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826686"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897860"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 
@@ -34,7 +34,7 @@ Kõige lihtsam meetod konsolideerimiseks finantsaruandlust kasutades on kasutada
 3. Looge aruandluspuu, mis sisaldab aruandlussõlme iga ettevõtte kohta, mida kasutatud konsolideeritud aruannetes.
 
 > [!TIP]
-> Lisateavet rea- ja veerudefinitsioonide ning aruandluspuude loomise ja haldamise kohta vt teemast [Finantsaruande komponendid](../../dev-itpro/analytics/financial-report-components.md).
+> Lisateavet rea- ja veerudefinitsioonide ning aruandluspuude loomise ja haldamise kohta vt teemast [Finantsaruande komponendid](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md).
 
 Järgmisel joonisel on näha, kuidas saate kasutada finantsaruandluses aruandluspuu definitsiooni iga konsolideeritava ettevõtte tuvastamiseks.
 

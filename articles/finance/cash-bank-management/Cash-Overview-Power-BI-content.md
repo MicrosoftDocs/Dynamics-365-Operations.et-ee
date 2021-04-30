@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830588"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897448"
 ---
 # <a name="cash-overview-power-bi-content"></a>Sularaha ülevaate Power BI sisu
 
@@ -38,7 +38,7 @@ Järgmine seadistus tuleb lõpule viia, et kuvada andmeid **Sularaha ülevaade**
 2. Avage jaotis **Pearaamat > Kalendrid > Rahanduskalendrid**, et kinnitada aktiivsele ajavahemikule määratud rahanduskalendri kuupäevad.
 3. Avage **Üldine pearaamat > Seadistus > Pearaamat**, et seadistada **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**.
 4. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta ning raamatupidamise valuuta ja panga valuutade vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
-5. Konfigureerige ja käivitage likviidsuse planeerimine. Lisainfo saamiseks likviidsuse planeerimise kohta vt [Likviidsuse planeerimine](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Konfigureerige ja käivitage likviidsuse planeerimine. Lisainfo saamiseks likviidsuse planeerimise kohta vt [Likviidsuse planeerimine](./cash-flow-forecasting.md). 
 6. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **LedgerCovLiquidityMeasurement** koondmõõtmist.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule

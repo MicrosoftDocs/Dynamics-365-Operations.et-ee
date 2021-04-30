@@ -1,8 +1,8 @@
 ---
-title: Alustage maksuarvutuse lisandmooduliga
-description: Selles teemas selgitatakse, kuidas seadistada maksuarvestuse lisandmoodulit.
+title: Maksuarvutusega alustamine
+description: Selles teemas selgitatakse, kuidas seadistada maksuarvestusi.
 author: wangchen
-ms.date: 03/10/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,27 +16,27 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 835ae33fba31d4bccb218969aa9aa61eaa7a3061
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a90455a338067331a6a44cab36b578ed01ed56eb
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832589"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890294"
 ---
-# <a name="get-started-with-the-tax-calculation-add-in-preview"></a>Alustage maksuarvutuse lisandmooduliga (Eelvaade)
+# <a name="get-started-with-the-tax-calculation-preview"></a>Alustage maksuarvutusega (eelvaade)
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-See teema annab teavet selle kohta, kuidas alustada maksuarvestuse lisandmooduliga. Esiteks antakse teile juhised konfigureerimise kohta lahendustes Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Services (RCS) ja Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. Seejärel vaatab see üle tavalise protseduuri kasutades maksuarvestuse lisandmoodulit Finants ja Supply Chain Management -i kannetes.
+See teema annab teavet selle kohta, kuidas alustada maksuarvestusega. Esiteks antakse teile juhised konfigureerimise kohta lahendustes Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Services (RCS) ja Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. Seejärel vaatab see üle tavalise protseduuri kasutades maksuarvestuse võimekusi Finants ja Supply Chain Management -i kannetes.
 
 Seadistus koosneb neljast peamisest astmest:
 
-1. LCS-s installi maksuarvestuse lisandmoodul.
+1. Installige LCS-is maksuarvestus.
 2. RCS-is seadistage maksuarvestuse funktsioon. Need häälestusandmed pole spetsiifilised iga juriidilise üksuse jaoks. Seda saab jagada finants- ja Supply Chain Management -i kõigi juriidiliste üksuste vahel.
-3. Finantside ja Supply Chain Management -is seadistage juriidilise üksuse maksu arvutamise lisandmooduli parameetrid.
-4. Finantside ja Supply Chain Management -is looge kandeid, nt müügitellimusi, ning kasutage maksude määramiseks ja arvutamiseks maksuarvutuse lisandmoodulit.
+3. Finantside ja Supply Chain Management -is seadistage juriidilise üksuse maksuarvestuse parameetrid.
+4. Finantside ja Supply Chain Management -is looge kandeid, nt müügitellimusi, ning kasutage maksude määramiseks ja arvutamiseks maksuarvutust.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -46,7 +46,7 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 - Juurdepääs oma RCS-i kontole.
 - Olete Microsoftiga ühendust võtnud, et lubada lennud juurutatud finantside või Supply Chain Management keskkonnas.
 
-## <a name="set-up-the-tax-calculation-add-in-in-lcs"></a>Seadistage maksuarvestuse lisandmoodul LCS-is
+## <a name="set-up-tax-calculation-in-lcs"></a>LCS-is maksuarvestuse seadistamine
 
 1. Logige sisse [LCS](https://lcs.dynamics.com)
 2. Viige integratsiooni seadistus Microsoft Power Platform -i jaoks lõpule. Lisateavet vt teemast [Lisandmooduli ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
@@ -54,7 +54,7 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 4. Valige **Maksuarvestuse (eelvaade)**.
 5. Lugege tingimusi ja nõustuge nendega ning valige seejärel **Installi**.
 
-## <a name="set-up-the-tax-calculation-add-in-in-rcs"></a>Seadistage maksuarvestuse lisandmoodul RCS-is
+## <a name="set-up-tax-calculation-in-rcs"></a>RCS-is maksuarvestuse seadistamine
 
 Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduuri tuleb teha ainult üks kord ning seda saab täita mis tahes RCS-i juriidilises üksuses.
 
@@ -64,7 +64,7 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 4. Valige **Microsoft** konfiguratsiooni pakkuja ja seejärel valige **Hoidlad**.
 5. Väljalt **Tüüp** valige **Globaalne**.
 6. Valige **Avamine**.
-7. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon – Euroopa**.
+7. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon**.
 8. Valige uusim versioon ja seejärel käsk **Impordi**.
 9. Minge tagasi **Globaliseerimisfunktsiooni (Eelvaade)** tööruumi, valige **Funktsioonid**, valige **maksuarvutuse** paan ja seejärel valige **Lisa**.
 10. Saate valida ühe järgmistest funktsioonitüüpidest:
@@ -79,18 +79,18 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 12. Valige funktsiooni mustandversioon ja seejärel käsk **Redigeeri**. **Maksuarvestuse seadistuse** leht on täidetud.
 13. Valige **Konfiguratsiooniversioon**. Peaksite nägema konfiguratsiooni versiooni, mille importisid sammus 8.
 
-    Microsoft pakub vaikemaksukonfiguratsiooni maksu arvutamise lisandmooduli jaoks. See konfiguratsioon katab enamiku maksuarvutuse käitumiste nõuded. Seda uuendatakse turu tagasiside põhjal. Kui peate konfiguratsiooni konkreetsetele nõuetele vastamiseks laiendama, vaadake [Kuidas ehitada maksuteenuse laiendust](https://go.microsoft.com/fwlink/?linkid=2138483) saamaks lisateavet selle kohta, kuidas luua ja valida omamaksukonfiguratsiooni.
+    Microsoft pakub vaikemaksukonfiguratsiooni maksu arvutamise lisandmooduli jaoks. See konfiguratsioon katab enamiku maksuarvutuse käitumiste nõuded. Seda uuendatakse turu tagasiside põhjal. Kui peate konfiguratsiooni konkreetsetele nõuetele vastamiseks laiendama, vaadake [Kuidas ehitada maksuteenuse laiendust](./tax-service-add-data-fields-tax-integration-by-extension.md) saamaks lisateavet selle kohta, kuidas luua ja valida omamaksukonfiguratsiooni.
 
     Pärast **Konfiguratsiooniversiooni** valimist kuvatakse veel mitu vahekaarti:
 
-    - **Maksukoodid** – See vahekaart on maksu arvutamise teenuse puhul kohustuslik. Seda kasutatakse maksukoodide koondandmete säilitamiseks. Kõik sellel vahekaardil loodud maksukoodid sünkroonitakse finantsidega automaatselt, kui lubate juriidilise üksuse maksufunktsiooni seadistuse praeguse versiooni.
-    - **Maksukoodide kohaldatavus** – See vahekaart on maksu arvutamise lisandmooduli puhul kohustuslik. Seda kasutatakse maatriksi määratlemiseks, mis määratleb maksukoodi, maksugrupi ja kauba maksugrupi. Määratletud maksukoodi kasutatakse maksusumma arvutamiseks. Väljade **Maksukood**, **Maksugrupp** ja **Kauba maksugrupp** väärtused tagastatakse Finantsidesse.
-    - **Kliendi maksuregistreerimise numbri kohaldatavus** – See vahekaart on maksu arvutamise lisandmooduli puhul valikuline. Kui teil on mitu maksuregistreerimise numbrit ühe kliendi kohta, saab maksuarvestuse lisandmoodul õige maksuregistreerimise numbri määrata automaatselt. Selle vahekaardi maatriksis määrate reeglid, mida lisandmoodul määramise määramiseks kasutab. Vastasel juhul jätkavad finants- ja Supply Chain Management käibemaksu registreerimisnumbri vaikenumbri kasutamist müügikannete maksustatavate dokumentide puhul.
-    - **Hankija maksuregistreerimise numbri kohaldatavus** – See vahekaart on maksu arvutamise lisandmooduli puhul valikuline. Kui teil on mitu maksuregistreerimise numbrit ühe hankija kohta, saab maksuarvestuse lisandmoodul õige maksuregistreerimise numbri määrata automaatselt. Selle vahekaardi maatriksis määrate reeglid, mida lisandmoodul määramise määramiseks kasutab. Vastasel juhul jätkavad finants ja Supply Chain Management maksu registreerimisnumbri vaikenumbri kasutamist müügikannete maksustatavate dokumentide puhul.
-    - **Loendikoodide kohaldatavus** – See vahekaart on maksu arvutamise lisandmooduli puhul valikuline. See aitab automaatselt määrata **Loendi kood** välja väärtust paindlikumate ja konfigureeritavate reeglite abil. Selle vahekaardi maatriksis määrate reeglid, mida lisandmoodul määramise määramiseks kasutab. Vastasel juhul jätkavad finants- ja Supply Chain Management maksu vaikekoodi kasutamist maksustatavate dokumentide puhul.
+    - **Maksukoodid** – see vahekaart on kohustuslik. Seda kasutatakse maksukoodide koondandmete säilitamiseks. Kõik sellel vahekaardil loodud maksukoodid sünkroonitakse finantsidega automaatselt, kui lubate juriidilise üksuse maksufunktsiooni seadistuse praeguse versiooni.
+    - **Maksukoodide rakendatavus** – see vahekaart on kohustuslik. Seda kasutatakse maatriksi määratlemiseks, mis määratleb maksukoodi, maksugrupi ja kauba maksugrupi. Määratletud maksukoodi kasutatakse maksusumma arvutamiseks. Väljade **Maksukood**, **Maksugrupp** ja **Kauba maksugrupp** väärtused tagastatakse Finantsidesse.
+    - **Kliendi maksuregistreerimise numbri kohaldatavus** – See vahekaart on valikuline. Kui teil on mitu maksuregistreerimise numbrit ühe kliendi kohta, saab maksuarvestus õige maksuregistreerimise numbri määrata automaatselt. Selle vahekaardi maatriksis määrate reeglid, mida määramise määramiseks kasutab. Vastasel juhul jätkavad finants- ja Supply Chain Management käibemaksu registreerimisnumbri vaikenumbri kasutamist müügikannete maksustatavate dokumentide puhul.
+    - **Hankija maksuregistreerimise numbri kohaldatavus** – See vahekaart on valikuline. Kui teil on mitu maksuregistreerimise numbrit ühe hankija kohta, saab maksuarvestus õige maksuregistreerimise numbri määrata automaatselt. Selle vahekaardi maatriksis määrate reeglid, mida määramise määramiseks kasutab. Vastasel juhul jätkavad finants ja Supply Chain Management maksu registreerimisnumbri vaikenumbri kasutamist müügikannete maksustatavate dokumentide puhul.
+    - **Loendikoodi kohaldatavus** – see vahekaart on valikuline. See aitab automaatselt määrata **Loendi kood** välja väärtust paindlikumate ja konfigureeritavate reeglite abil. Selle vahekaardi maatriksis määrate reeglid, mida määramise määramiseks kasutab. Vastasel juhul jätkavad finants- ja Supply Chain Management maksu vaikekoodi kasutamist maksustatavate dokumentide puhul.
 
 14. Vahekaardil **Maksukoodid** valige **Lisa** ning sisestage maksukood ja kirjeldus.
-15. Valige **maksukomponent**. Maksukomponent on maksuarvutusmeetodite grupp, mis määratleti valitud maksukonfiguratsiooni eelmises versioonis. Saadaval on järgmised maksu komponendid:
+15. Valige **maksukomponent**. Maksukomponent on meetodite grupp, mis määratleti valitud maksukonfiguratsiooni eelmises versioonis. Saadaval on järgmised maksu komponendid:
 
     - netosumma järgi
     - brutosumma järgi
@@ -124,31 +124,31 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 
 ## <a name="dynamics-365-setup"></a>Dynamics 365 häälestus
 
-Pärast seadistuse lõpule viimist RCS-s, nagu kirjeldatud eelmises jaotises, on teil maksufunktsiooni avaldatud versioon. Järgige neid samme finantside maksuarvestuse lisandmooduli häälestamiseks.
+Pärast seadistuse lõpule viimist RCS-s, nagu kirjeldatud eelmises jaotises, on teil maksufunktsiooni avaldatud versioon. Järgige neid samme finantside maksuarvestuse häälestamiseks.
 
-Selle jaotise seadistas juriidiline üksus. Peate selle konfigureerima iga juriidilise üksuse jaoks, kelle jaoks soovite finantsis maksuarvestuse lisandmooduli lubada.
+Selle jaotise seadistas juriidiline üksus. Peate selle konfigureerima iga juriidilise üksuse jaoks, kelle jaoks soovite finantsis maksuarvestuse lubada.
 
-1. Finantsis minge **Maksu** \> **Seadistamise** \> **Maksukonfiguratsiooni** \> **Maksuarvutuse lisandmooduli häälestusse (eelvaade)** .
+1. Finantsis minge **Maksu** \> **Seadistamise** \> **Maksukonfiguratsiooni** \> **Maksuarvutuse häälestus (eelvaade)** .
 2. Vahekaardil **Üldine** määrake järgmised väljad.
 
-    - **Luba maksuarvutuse lisandmoodul** – Märkige see ruut, et lubada juriidilisele üksusele maksuarvutuse lisandmoodul. Kui maksuarvutuse lisandmoodul ei ole praegusele juriidilisele üksusele lubatud, kasutab juriidiline isik maksu määramiseks ja arvutamiseks olemasolevat maksumootorit.
+    - **Luba maksuarvutus** – Märkige see ruut, et lubada juriidilisele üksusele maksuarvutus. Kui see ei ole praegusele juriidilisele üksusele lubatud, kasutab juriidiline isik maksu määramiseks ja arvutamiseks olemasolevat maksumootorit.
     - **Funktsiooni häälestus** – Valige juriidiliseüksuse avaldatud maksu funktsiooni häälestus ja versioon. Lisateavet avaldatud maksufunktsiooni seadistamis- ja lõpuleviimise kohta vt selle teema eelmisest jaotisest.
-    - **Äriprotsess** – Valige äriprotsessid, et lubada maksuarvutuse lisandmoodulit.
+    - **Äriprotsess** – valige lubatud äriprotsessid.
     - **Luba maksukoodi korrigeerimine** -- Seadistage see valik valikule **Jah** , et lubadaemaksukoodi korrigeerimine käibemaksu leheküljel.
 
 3. Määratlege vahekaardil **Arvutus** juriidilise isiku eeldatav ümardamisreegel.
-4. Määratlege vahekaardil **Tõrkekäsitlus** juriidilise isiku eeldatav tõrke käsitlemise meetod. Maksuarvestuse lisandmoodulist on iga tulemusekoodi jaoks saadaval kolm võimalust:
+4. Määratlege vahekaardil **Tõrkekäsitlus** juriidilise isiku eeldatav tõrke käsitlemise meetod. Iga tulemikoodi jaoks on kolm võimalust:
 
     - Ei
     - Hoiatus
     - Viga
 
-5. Salvestage maksuarvestuse lisandmooduli seadistus.
+5. Salvestage seadistus.
 6. Korrake samme 1–5 iga järgmise juriidilise isiku jaoks.
 
 ## <a name="transaction-processing"></a>Kannete töötlemine
 
-Kui olete kõik seadistusprotseduurid lõpule viinud, saate finantside maksu määramiseks ja arvutamiseks kasutada maksuarvutuse lisandmoodulit. Kannete töötlemise sammud jäävad samaks. Finantsversioonis 10.0.18 toetatakse järgmisi kandeid:
+Kui olete kõik seadistusprotseduurid lõpule viinud, saate finantside maksu määramiseks ja arvutamiseks kasutada maksuarvutust. Kannete töötlemise sammud jäävad samaks. Finantsversioonis 10.0.18 toetatakse järgmisi kandeid:
 
 - Müügiprotsess
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69304cbffafa4c20dbbbb31d5c19920f669761b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 95ffe90795b9781408607257f3f63bf68c489b56
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800161"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891813"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (20. august 2020)?
 
@@ -65,15 +65,15 @@ Nüüdsest on lisandumise peatamiseks saadaval DMF-üksus.
 
 Saate muuta väljasid kohustuslikuks Human Resourcesi isikupärastamise võimaluste abil. See funktsioon nõuab **Salvestatud vaateid**. Lisateavet salvestatud vaadete kohta leiate siit.
 
-- [Salvestatud vaated – üldine kättesaadavus](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
-- [Koostage vorme, mis täielikult kasutavad salvestatud vaateid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Salvestatud vaated – üldine kättesaadavus](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
+- [Koostage vorme, mis täielikult kasutavad salvestatud vaateid](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Rakendus Human Resources Teamsis
 
 Töötajad saavad kuvada ja taotleda töölt eemaoleku aega rakenduses Microsoft Teams. Nad saavad suhelda botiga, et luua puhkusetaotlusi. Lisateabe saamiseks vt:
 
-- [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
-- [Rakendus Human Resources Teamsis](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Töövõtja puhkuse ja puudumise kogemus rakenduses Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) Dynamics 365 2020. aasta väljalaskevoo 1 plaanis
+- [Rakendus Human Resources Teamsis](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
@@ -117,7 +117,7 @@ Oleme hiljuti avastanud kaks probleemi seoses üksusega **BenefitsPlanEmployee**
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resourcesi 2019. aasta väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resourcesi 2019. aasta väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 

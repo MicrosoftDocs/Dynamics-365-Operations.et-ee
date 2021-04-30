@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835602"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908948"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
 
@@ -50,7 +50,7 @@ Enne rakenduse kasutamist peate seotud funktsiooni oma süsteemis sisse lülitam
 
 Väiksemate juurutuste puhul võite installida rakenduse igasse seadmesse sobivast poest ja seejärel konfigureerida käsitsi ühenduse nende keskkondadega, mida kasutate.
 
-Suurema juurutamise puhul saate automatiseerida rakenduse juurutamise ja/või konfiguratsiooni, mis on mugavam juhul, kui haldate mitmeid seadmeid. Näiteks võite kasutada mobiilse seadme ja mobiilse rakenduse halduse lahendust, nagu [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Lisateavet selle kohta, kuidas kasutada Intune'i rakenduste lisamiseks, vaadake teemast [Rakenduste lisamine Microsoft Intune'i](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Suurema juurutamise puhul saate automatiseerida rakenduse juurutamise ja/või konfiguratsiooni, mis on mugavam juhul, kui haldate mitmeid seadmeid. Näiteks võite kasutada mobiilse seadme ja mobiilse rakenduse halduse lahendust, nagu [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Lisateavet selle kohta, kuidas kasutada Intune'i rakenduste lisamiseks, vaadake teemast [Rakenduste lisamine Microsoft Intune'i](/mem/intune/apps/apps-add).
 
 ### <a name="install-the-app-from-an-app-store"></a>Rakenduse kauplusest rakenduse installimine
 
@@ -65,10 +65,10 @@ Lihtsaim viis rakenduse installimiseks ühte seadmesse on rakenduse installimine
 Alternatiivina rakenduse kauplusest installimisele saate selle asemel rakenduse Microsoft App Centerist alla laadida. App Center pakub installitavaid pakette, mida saate käsitsi laadida. Lisaks praegusele versioonile laseb App Center teil alla laadida ka varasemaid versioone ja võib pakkuda tulevaste versioonide eelvaadet koos funktsioonidega, mida saate proovida. Laohalduse mobiilirakenduse praeguste, eelmiste või eelvaate versioonide allalaadimiseks Microsoft App Centeri kaudu kasutage ühte järgmistest linkidest:
 
 - **Windows (UWP):** [laohaldus (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    Juhiseid, kuidas installida allalaaditud pakett Windowsi seadmesse ja seejärel seadistada nõutavad sertifikaadid, vaadake [Installige Build App Centerist](https://docs.microsoft.com/appcenter/distribution/installation).
+    Juhiseid, kuidas installida allalaaditud pakett Windowsi seadmesse ja seejärel seadistada nõutavad sertifikaadid, vaadake [Installige Build App Centerist](/appcenter/distribution/installation).
 
 - **Android** [Laohaldus (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    Kui laadite alla eelvaate versiooni, on selle installimiseks vaja täiendavaid samme. Üksikasju vt [Androidi rakenduste testimine](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+    Kui laadite alla eelvaate versiooni, on selle installimiseks vaja täiendavaid samme. Üksikasju vt [Androidi rakenduste testimine](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Veebiteenuse rakenduse loomine Azure Active Directorys
 
@@ -103,11 +103,11 @@ Selleks et laohalduse mobiilirakendus saaks konkreetse Supply Chain Managementi 
 
 Lisateavet Azure AD-s veebiteenuse rakenduste seadistamise kohta leiate järgmistest allikatest.
 
-- Juhiste saamiseks selle kohta, kuidas kasutada Windows PowerShelli veebiteenuse rakenduste seadistamiseks Azure AD-s, vaadake teemat [Kuidas: teenusesubjekti loomine serdiga Azure PowerShelli abil](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Juhiste saamiseks selle kohta, kuidas kasutada Windows PowerShelli veebiteenuse rakenduste seadistamiseks Azure AD-s, vaadake teemat [Kuidas: teenusesubjekti loomine serdiga Azure PowerShelli abil](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Üksikasjaliku teabe saamiseks, kuidas Azure AD-s käsitsi veebiteenuse rakendust luua, vaadake järgmisi teemasid.
 
-    - [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Kuidas: portaali abil Azure AD rakenduse ja ressurssidele juurde pääseva teenusesubjekti loomine](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](/azure/active-directory/develop/quickstart-register-app)
+    - [Kuidas: portaali abil Azure AD rakenduse ja ressurssidele juurde pääseva teenusesubjekti loomine](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Supply Chain Managementis kasutajakonto loomine ja konfigureerimine
 
@@ -135,7 +135,7 @@ Azure AD-ga autentimine pakub turvalist viisi mobiilse seadme ühendamiseks Supp
 
 Serte saab kasutada saladusena rakenduse identiteedi tõestamisel, kui luba taotletakse. Serdi avalik osa laaditakse üles rakenduse registreerimiseks Azure’i portaalis, kuid täielik sert tuleb juurutada igasse seadmesse, kuhu on installitud laohalduse mobiilirakendus. Teie organisatsioon vastutab serdi haldamise eest roteerimise ja muus osas. Teil on võimalik kasutada enda allkirjastatud serte, kuid te peaksite alati kasutama mitte-eksporditavaid serte.
 
-Peate tegema serdi kohalikult kättesaadavaks igas seadmes, kus käitate laohalduse mobiilirakendust. Lisateavet selle kohta, kuidas hallata Intune'i juhitavate seadmete serte Intune'i kasutamise korral, vaadake teemast [Sertide kasutamine Microsoft Intune'is autentimiseks](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Peate tegema serdi kohalikult kättesaadavaks igas seadmes, kus käitate laohalduse mobiilirakendust. Lisateavet selle kohta, kuidas hallata Intune'i juhitavate seadmete serte Intune'i kasutamise korral, vaadake teemast [Sertide kasutamine Microsoft Intune'is autentimiseks](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Rakenduse konfigureerimine ühenduse sätete importimise abil
 

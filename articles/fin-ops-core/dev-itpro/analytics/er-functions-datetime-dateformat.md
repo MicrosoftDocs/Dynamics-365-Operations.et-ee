@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a38f0016f69792e5beffa5d8224c70d6e5261c4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1b3a0a2608328b233004034f7ab2ccfa833c17e3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747031"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890906"
 ---
 # <a name="dateformat-er-function"></a>ER-i funktsioon DATEFORMAT
 
 [!include [banner](../includes/banner.md)]
 
-Funktsioon `DATEFORMAT` tagastab *stringi* väärtuse, mis esitab antud kuupäeva väärtuse määratud vormingus tekstina ja valikuliselt määratletud [kultuuris](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+Funktsioon `DATEFORMAT` tagastab *stringi* väärtuse, mis esitab antud kuupäeva väärtuse määratud vormingus tekstina ja valikuliselt määratletud [kultuuris](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](/dotnet/standard/base-types/standard-date-and-time-format-strings) ja [kohandatud](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Süntaks 1
 
@@ -51,7 +51,7 @@ Kuupäeva väärtus, mis tähistab vormindatavat kuupäeva.
 Väljundstringi vorming.
 
 > [!NOTE]
-> Vormingu string on tõstutundlik, kui kasutate kas standardvormingut või kohandatud vormingut. Näiteks [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) vormingu määraja „d” tagastab kuupäeva, kasutades lühikest kuupäeva mustrit, samas kui standardne vormingu määraja „D” tagastab kuupäeva pikka kuupäeva mustrit kasutades. Lisaks tagastab [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) vormingu määraja „M” kuu vahemikus 1 kuni 12, samas kui kohandatud vormingu määraja „m” tagastab minuti vahemikus 0 kuni 59.
+> Vormingu string on tõstutundlik, kui kasutate kas standardvormingut või kohandatud vormingut. Näiteks [standardne](/dotnet/standard/base-types/standard-date-and-time-format-strings) vormingu määraja „d” tagastab kuupäeva, kasutades lühikest kuupäeva mustrit, samas kui standardne vormingu määraja „D” tagastab kuupäeva pikka kuupäeva mustrit kasutades. Lisaks tagastab [kohandatud](/dotnet/standard/base-types/custom-date-and-time-format-strings) vormingu määraja „M” kuu vahemikus 1 kuni 12, samas kui kohandatud vormingu määraja „m” tagastab minuti vahemikus 0 kuni 59.
 
 `culture`: *string*
 

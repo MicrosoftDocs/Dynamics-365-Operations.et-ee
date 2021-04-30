@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794849"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892247"
 ---
 # <a name="integration-with-finance-faq"></a>Finance’i KKK-ga integreerimine
 
@@ -50,7 +50,7 @@ Vaikimisi lülitatakse teenuse Dataverse integratsioon välja uutes keskkondades
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kas uue vastenduse saab luua malle kasutamata?
 
-Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Microsoft Dataverse](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Kas ma saan vastendada finantsdimensioonide edastamise rakenduste Human Resources ja Finance vahel?
 
@@ -145,7 +145,7 @@ Integratsioon rakendusse Finance on kaheetapiline protsess. Esmalt kontrollige, 
 
 Kui andmeid ei kuvata teenuses Dataverse oodatud viisil, siis kontrollige, kas integratsioon toetab üksust. Teenuse Dataverse lisaandmete kaasamiseks on vajalik muudatus Microsofti poolel.
 
-Kui üksust toetatakse ja andmed on teenuses Dataverse saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Kui üksust toetatakse ja andmed on teenuses Dataverse saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Pärast töövõtjate importimist rakendusse Finance, on nende aadressid valed. Mida teha?
 
@@ -172,15 +172,15 @@ Värskendage andmeüksuseid rakenduses Finance, minnes jaotisse **Andmehaldus \>
 
 - Andmeintegraator (DI): 
 
-  - [Andmete integreerimine teenusesse Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Andmete integreerimine teenusesse Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](/powerapps/administrator/data-integrator-error-management)
 
-  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes Power Apps, Microsoft Power Automate jaDataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes Power Apps, Microsoft Power Automate jaDataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Andmehaldus
 
-  - [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Andmehaldus](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

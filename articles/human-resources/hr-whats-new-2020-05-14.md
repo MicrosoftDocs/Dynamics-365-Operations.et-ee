@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e70d8fc62150d68503552754e94c7130d8960c76
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f8244d512c9e1236fc52cd4a91cdc78cc2b9b984
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802355"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893097"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (14. mai 2020)
 
@@ -33,7 +33,7 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud fun
 
 ## <a name="platform-changes"></a>Platvormi muudatused
 
-Selle nädala väljalaske hulka kuuluvad platvormi muudatused. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.10 platvormivärskendused (mai 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). See väljalase sisaldab veaparandusi ja salvestatud vaadete muudatusi.
+Selle nädala väljalaske hulka kuuluvad platvormi muudatused. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.10 platvormivärskendused (mai 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). See väljalase sisaldab veaparandusi ja salvestatud vaadete muudatusi.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Dataverse'i märkeloendi puhkuse loeteludega kooskõlas olemises veendumine (436343)
 
@@ -116,7 +116,7 @@ Saate määrata edasikandmise puhkuse tüübi edasikantavale saldole, mille edas
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 

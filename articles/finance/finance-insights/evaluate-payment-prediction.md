@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818614"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897908"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Algse kliendimakse prognoosimise mudeli hindamine (eelversioon)
 
@@ -41,7 +41,7 @@ See link viib teid AI Builderisse, kus saate lisateavet praeguse mudeli kohta ja
 
 Avaneb leht kuvab järgmist teavet.
 
-- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle klassi kohta vt AI Builderi dokumentatsiooni teemast [Prognoosi mudeli jõudlus](https://docs.microsoft.com/ai-builder/prediction-performance).
+- Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle klassi kohta vt AI Builderi dokumentatsiooni teemast [Prognoosi mudeli jõudlus](/ai-builder/prediction-performance).
 - Jaotis **Kõige mõjukamad andmed** näitab, kui olulised olid teie mudeli jaoks eri andmete sisestustüübid. Saate hinnata seda loendit ja vastavaid protsente, et teha kindlaks, kas teave on kooskõlas sellega, mida te oma ettevõtte ja turu kohta teate.
 
     [![Prognoosi mudeli jaotised Jõudlus ja Kõige mõjukamad andmed](./media/models.png)](./media/models.png)

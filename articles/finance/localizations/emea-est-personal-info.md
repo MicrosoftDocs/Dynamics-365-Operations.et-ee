@@ -12,12 +12,12 @@ ms.search.region: Estonia
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cedabef70fdb09c2366cd369ee30328bab60c1ef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2954aa2c3f0306ed56d6efb7d10ecfd3e24e6dc8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826139"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892395"
 ---
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 
@@ -35,7 +35,7 @@ Kõik ettevõtted peavad koguma teavet töötajate, klientide ja hankijate kohta
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Ressursid GDPR-i andmetaotlusele vastamiseks](../../dev-itpro/gdpr/gdpr-home-page.md)
+- [Ressursid GDPR-i andmetaotlusele vastamiseks](../../fin-ops-core/dev-itpro/gdpr/gdpr-home-page.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

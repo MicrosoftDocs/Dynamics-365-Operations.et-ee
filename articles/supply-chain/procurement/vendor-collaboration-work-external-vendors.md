@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837653"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910397"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
@@ -33,7 +33,7 @@ Lisateavet selle kohta, mida välised hankijad saavad hankija koostöö liideses
 > [!NOTE]
 > Selles teemas kirjeldatud teave hankija koostöö kohta kehtib ainult rakenduse Supply Chain Management praeguse versiooni puhul. Microsoft Dynamics AX 7.0 (veebruar 2016) ja rakenduse Microsoft Dynamics AX versiooni 7.0.1 (mai 2016) puhul saate hankijatega koostööd teha, kasutades moodulit **Hankija portaal**. Mooduli **Hankija portaal** kohta teabe saamiseks vaadake teemat [„Hankijatega koostöö tegemine Hankija portaali kasutades”](collaborate-vendors-vendor-portal.md).
 
-Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
+Lisateavet selle kohta, kuidas hankijad saavad kasutada hankija koostööd arveldamise protsessides, leiate teemast [Hankija koostöö arve tööruum](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Lisateavet selle kohta, kuidas ette valmistada uue hankija koostöö kasutajaid, leiate teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Hankijatele kuvatava teabe määramine OT-dele vastamisel
 

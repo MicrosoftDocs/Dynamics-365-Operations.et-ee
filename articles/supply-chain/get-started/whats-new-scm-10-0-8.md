@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 1762425642ee976b32c9daf3fbb90961fa983d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b7d26144421b9a9bd0550a2fe9e73312ed8e8fa5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819396"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909276"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.8. (veebruar 2020)
 
@@ -33,28 +33,28 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.8 
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Mõni neist funktsioonidest võisid olla lisatud ka eelmisele järkjärgulisele väljalaskele, kuid seda ei kuulutatud välja eelmises teemas *Mis on uut*, seega lisasime need siia. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
+See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Mõni neist funktsioonidest võisid olla lisatud ka eelmisele järkjärgulisele väljalaskele, kuid seda ei kuulutatud välja eelmises teemas *Mis on uut*, seega lisasime need siia. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
-- [Täiendav asukohatsoon](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Täiendav asukohatsoon](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 
-- [Varahaldus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Lisateabe saamiseks vt [Varahalduse ülevaade](../asset-management/index.md).
-- [Tühista töö](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Lisateabe saamiseks vt [Erandite töötlemise laotöö tühistamine](../warehousing/cancel-warehouse-work.md).
-- [Muuda töö töökausta](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Lisateavet vt teemast [Muuda töö töökausta](../warehousing/change-work-pool-on-work.md).
-- [Kogumi positsioon on täis](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - lisateavet leiate teemast [Kogumi positsioon on täis](../warehousing/cluster-position-full.md).
-- [Kinnitamine ja üleviimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Lisateavet vt teemast [Kinnitamine ja üleviimine](../warehousing/confirm-and-transfer.md).
-- [Asukohakorralduse varude komplekteerimise ajaline jaotus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Lisateavet vt teemast [Asukohakorralduse varude komplekteerimise ajaline jaotus](../warehousing/location-directive-inventory-picking-aging.md).
-- [Asukoha olek](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
-- [Komplekteerimisridade grupeerimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Lisateabe saamiseks vt [Komplekteerimisridade grupeerimine](../warehousing/pick-line-grouping.md).
-- [Saadetise automaatvärskendused](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Lisateabe saamiseks vt [Saadetise automaatvärskendused](../warehousing/auto-update-shipment.md).
-- [Tükeldatud nõudluse täiendustöö komplekteerimistöö loomise etapist](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
-- [Töö tükeldamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
-- [Süsteemi suunatud kogumi komplekteerimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - Lisateabe saamiseks vt [Süsteemi suunatud kogumi komplekteerimine](../warehousing/system-directed-cluster-pick.md).
-- [Lao rakenduse ülesande kinnitamine RSAT-iga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
-- [Lattu väljastamise reegel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
-- [Voo oleku visualiseerimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [Voomalli rühmitamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Lisateavet vt teemast [Voomalli rühmitamine](../warehousing/wave-template-grouping.md).
-- [Töörea üksikasjad](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Lisateavet vt teemast [Töörea üksikasjad](../warehousing/work-line-details.md) ja videost [Töörea üksikasjad](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
-- [Tsooniläve täiendamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Lisateavet vt teemast [Tsooniläve täiendamine](../warehousing/zone-threshold-replenishment.md).
+- [Varahaldus](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Lisateabe saamiseks vt [Varahalduse ülevaade](../asset-management/index.md).
+- [Tühista töö](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Lisateabe saamiseks vt [Erandite töötlemise laotöö tühistamine](../warehousing/cancel-warehouse-work.md).
+- [Muuda töö töökausta](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Lisateavet vt teemast [Muuda töö töökausta](../warehousing/change-work-pool-on-work.md).
+- [Kogumi positsioon on täis](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - lisateavet leiate teemast [Kogumi positsioon on täis](../warehousing/cluster-position-full.md).
+- [Kinnitamine ja üleviimine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Lisateavet vt teemast [Kinnitamine ja üleviimine](../warehousing/confirm-and-transfer.md).
+- [Asukohakorralduse varude komplekteerimise ajaline jaotus](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Lisateavet vt teemast [Asukohakorralduse varude komplekteerimise ajaline jaotus](../warehousing/location-directive-inventory-picking-aging.md).
+- [Asukoha olek](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
+- [Komplekteerimisridade grupeerimine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Lisateabe saamiseks vt [Komplekteerimisridade grupeerimine](../warehousing/pick-line-grouping.md).
+- [Saadetise automaatvärskendused](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Lisateabe saamiseks vt [Saadetise automaatvärskendused](../warehousing/auto-update-shipment.md).
+- [Tükeldatud nõudluse täiendustöö komplekteerimistöö loomise etapist](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
+- [Töö tükeldamine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
+- [Süsteemi suunatud kogumi komplekteerimine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - Lisateabe saamiseks vt [Süsteemi suunatud kogumi komplekteerimine](../warehousing/system-directed-cluster-pick.md).
+- [Lao rakenduse ülesande kinnitamine RSAT-iga](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [Lattu väljastamise reegel](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
+- [Voo oleku visualiseerimine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
+- [Voomalli rühmitamine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Lisateavet vt teemast [Voomalli rühmitamine](../warehousing/wave-template-grouping.md).
+- [Töörea üksikasjad](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Lisateavet vt teemast [Töörea üksikasjad](../warehousing/work-line-details.md) ja videost [Töörea üksikasjad](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
+- [Tsooniläve täiendamine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Lisateavet vt teemast [Tsooniläve täiendamine](../warehousing/zone-threshold-replenishment.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -70,7 +70,7 @@ Lisateabe saamiseks veaparanduste kohta, mis sisalduvad 10.0.8 uuendustes, logig
 
 Kas teile pakuvad huvi meie ärirakenduste või platvormi uued ja hiljuti väljaantud võimalused?
 
-Vaadake teemat [Dynamics 365: 2019. aasta väljalaske 2. voo plaan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
+Vaadake teemat [Dynamics 365: 2019. aasta väljalaske 2. voo plaan](/dynamics365-release-plan/2019wave2/index). Käsitleme ühes dokumendis kõiki üksikasju otsast lõpuni ja ülevalt alla, millest võite plaanide tegemisel lähtuda.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5854fa8c89f1a72c32bd480e71c1cd0a743c6cd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b973be365b3afa8461f7709c1ecee835c5dcf2f1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803341"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890647"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-22-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources 22. märtsil 2021?
 
@@ -32,7 +32,7 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi, muutunud või pe
 
 Meie värskendamisprotsessi ja graafiku kohta lisateabe saamiseks vt teemat [Värskendamisprotsess](hr-admin-setup-update-process.md).
 
-Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Lisateavet uute funktsioonide ja nende eeldatava üldise kättesaadavuse kuupäevade kohta leiate teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Selles väljalaskes
 
@@ -44,7 +44,7 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 | --- | --- | --- |
-| Suvand kinniste pakett-tööde tühistamiseks ja lähtestamiseks (560976) | NA | [Lähtesta kinnised pakett-tööd](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-troubleshooting-batch-execution) |
+| Suvand kinniste pakett-tööde tühistamiseks ja lähtestamiseks (560976) | NA | [Lähtesta kinnised pakett-tööd](./hr-admin-troubleshooting-batch-execution.md) |
 | Väikesed UX-i värskendused uue soodustusplaani loomiseks (419941) | NA | [Soodustuse plaani loomine](hr-benefits-plans-setup.md) |
 
 ### <a name="bug-fixes"></a>Veaparandused
@@ -74,8 +74,8 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 
 | Funktsioon | Väljaandmisplaan | Dokumentatsioon |
 | --- | --- | --- |
-| Soodustuse halduse tööruum | [Soodustuste halduse tööruum (eelversioon)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Soodustuse halduse tööruum](hr-benefits-management-workspace.md) |
-| Ettevõtte kontaktteabe redigeerimise keelamine töötajatele | [Ettevõtte kontaktteabe redigeerimise keelamine töötajatele](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md)|
+| Soodustuse halduse tööruum | [Soodustuste halduse tööruum (eelversioon)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Soodustuse halduse tööruum](hr-benefits-management-workspace.md) |
+| Ettevõtte kontaktteabe redigeerimise keelamine töötajatele | [Ettevõtte kontaktteabe redigeerimise keelamine töötajatele](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
@@ -83,12 +83,12 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 | --- | --- |
 | Töövoog saab automaatselt heaks kiita juhataja poolt töötajate jaoks sisestatud oskused. | Peagi tulekul. |
 
-Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Plaanitud funktsioonide täieliku loendi ja nende kavandatud väljaannete kohta leiate teavet teemast [Dynamics 365 Human Resourcesi 2021. aasta 1. väljalaskevoo ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>Vt ka
 
 [Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2021 väljalaskevoo 1 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2021 väljalaskevoo 1 ülevaade](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
 [Funktsioonide haldamine](hr-admin-manage-features.md)
 
