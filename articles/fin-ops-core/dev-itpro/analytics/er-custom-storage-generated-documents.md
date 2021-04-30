@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753716"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894120"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Loodud dokumentidele kohandatud talletuskoha määramine
 
@@ -27,7 +27,7 @@ Elektroonilise aruandluse (ER) rakenduse programmeerimisliidese (API) raamistik 
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Peate juurutama topoloogia, mis toetab pidevat järku. (Lisateavet vt jaotisest [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Teil peab sellele topoloogiale olema juurdepääs ühe järgmise rolli jaoks:
+Peate juurutama topoloogia, mis toetab pidevat järku. (Lisateavet vt jaotisest [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Teil peab sellele topoloogiale olema juurdepääs ühe järgmise rolli jaoks:
 
 - Elektroonilise aruandluse arendaja
 - Elektroonilise aruandluse funktsionaalne konsultant
@@ -53,7 +53,7 @@ Dokumentide loomiseks, mille jaoks plaanite lisada kohandatud talletuskoha, loog
 
 Määramaks, kuidas ER-vormingu loodavaid dokumente suunatakse, peate konfigureerima [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md). Peate igas ER-i sihtkohas, mis on konfigureeritud talletama loodud dokumente failidena, määrama dokumendihalduse raamistiku dokumenditüübi. Erinevate ER-i vormingute loodavate dokumentide suunamiseks saab kasutada erinevaid dokumenditüüpe.
 
-1. Lisage varem loodud või imporditud ER-i vormingule uus [dokumenditüüp](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Järgneval joonisel on dokumenditüübiks **FileX**.
+1. Lisage varem loodud või imporditud ER-i vormingule uus [dokumenditüüp](../../fin-ops/organization-administration/configure-document-management.md). Järgneval joonisel on dokumenditüübiks **FileX**.
 2. Selle dokumenditüübi teistest dokumenditüüpidest eristamiseks lisage selle nimesse konkreetne märksõna. Järgneval joonisel on nimeks näiteks **(KOHALIK) kaust**.
 3. Määrake väljal **Klass** suvand **Lisa fail**.
 4. Määrake väljal **Grupp** suvand **Fail**.
@@ -117,14 +117,14 @@ Sündmus **AttachingFile()** tõstatatakse järgmiste ER-i sihtkohtade töötlem
 
 ## <a name="configure-an-er-destination"></a>Elektroonilise aruandluse sihtkoha konfigureerimine
 
-1. Arhiivitud sihtkoha konfigureerimine ühele teie loodud või imporditud ER-i vormingu eelnevalt mainitud elemendile (fail, kaust, ühinemine või manus). Juhendit vt teemast [ER-i sihtkohtade konfigureerimine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Arhiivitud sihtkoha konfigureerimine ühele teie loodud või imporditud ER-i vormingu eelnevalt mainitud elemendile (fail, kaust, ühinemine või manus). Juhendit vt teemast [ER-i sihtkohtade konfigureerimine](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Kasutage dokumendi tüüpi, mille konfigureeritud sihtkoha jaoks varem lisasite. (Selles teemas on dokumenditüübiks näiteks **FileX**.)
 
 ![Dialoogiboks Sihtkoha sätted](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Lähtekoodi muutmine
 
-1. Lisage oma Microsoft Visual Studio projektile uus klass ja kirjutage kood, et tellida eelnevalt mainitud sündmus **AttachingFile()**. (Lisateavet kasutatava laiendatavusmustri kohta vt jaotisest [Vastamine üksuse EventHandlerResult abil](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Kirjutage nt uues klassis kood, mis teeb järgmisi toiminguid.
+1. Lisage oma Microsoft Visual Studio projektile uus klass ja kirjutage kood, et tellida eelnevalt mainitud sündmus **AttachingFile()**. (Lisateavet kasutatava laiendatavusmustri kohta vt jaotisest [Vastamine üksuse EventHandlerResult abil](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Kirjutage nt uues klassis kood, mis teeb järgmisi toiminguid.
 
     1. Talletage loodud failid selle serveri kohaliku failisüsteemi kaustas, kus töötab teenus rakendusobjekti server (AOS).
     2. Talletage need loodud failid ainult juhul, kui faili manustamisel ER-i käitamise töölogi kirjele kasutatakse uut dokumendi tüüpi (nt tüüp **FileX** mille nimes on märksõna „(KOHALIK)”).

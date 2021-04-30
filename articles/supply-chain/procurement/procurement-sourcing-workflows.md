@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807940"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909227"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Hangete töövood
 
@@ -47,7 +47,7 @@ Jaotises Hanked on saadaval järgmised töövootüübid.
 | Hankija lisamise rakenduse töövoog | Saate luua ülevaatuse ja kinnitamise töövood uute hankijate lisamiseks hankija nõuete kaudu. |
 
 > [!IMPORTANT]
-> Uue töövoo lisamisel võidakse kuvada ka järgmised iganenud töövood, mis on loetletud dialoogiboksis **Töövoo loomine**. Need on seotud *vastuvõtukinnituse* funktsiooniga, mis oli saadaval teenuses [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), aga mis on nüüd iganenud. Neid töövooge praegu ei toetata.
+> Uue töövoo lisamisel võidakse kuvada ka järgmised iganenud töövood, mis on loetletud dialoogiboksis **Töövoo loomine**. Need on seotud *vastuvõtukinnituse* funktsiooniga, mis oli saadaval teenuses [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), aga mis on nüüd iganenud. Neid töövooge praegu ei toetata.
 > 
 > - Tarnetähtaja teate töövoog
 > - Arve saamise teatise töövoog

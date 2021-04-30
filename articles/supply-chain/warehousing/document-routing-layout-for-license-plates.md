@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838270"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907983"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
 
@@ -73,7 +73,7 @@ Järgmistes näidetes kirjeldatakse, kuidas saate kohandada välja töö kogus (
 - Kui soovite alati nelja numbrit kuvada (kasutades nulle kohatäitena), kasutage `$Qty:0000$`. Näiteks kui kogus on 10, kuvatakse sildil „0010”.
 - Kui soovite alati kahte komakohta kuvada, kasutage `$Qty:0.00$`. Näiteks kui kogus on 10, kuvatakse sildil „10,00”.
 
-Saadaolevate numbrivormingu stringide täieliku loendi leiate teemast [Kohandatud numbrivormingu stringid](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Saadaolevate numbrivormingu stringide täieliku loendi leiate teemast [Kohandatud numbrivormingu stringid](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Kohandatud stringi vormingud
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Selles näites prinditakse kuupäev 30. aprill 2020 kujul „30-04-2020”.
 
-Saadaolevate kuupäeva/kellaaja vormingute täieliku loendi leiate teemast [Kohandatud kuupäeva ja kellaaja vormingu stringid](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Saadaolevate kuupäeva/kellaaja vormingute täieliku loendi leiate teemast [Kohandatud kuupäeva ja kellaaja vormingu stringid](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Üksikute ridade printimine mitmerealistest andmetest
 

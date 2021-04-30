@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830732"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897158"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kreeditiülekande ülevaade
 
@@ -54,7 +54,7 @@ Euroopa riikide puhul kasutatakse kreeditiülekande maksevormingu rakendamiseks 
 Saate alati minna teenuses Microsoft Dynamics Lifecycle services (LCS) olevasse ühiste varade teeki ja vaadata kõige ajakohasemat loendit saadaolevatest failidest, mille vara tüüp on **GER-i konfiguratsioon**. Järgmine jaotis „Mida pean seadistamiseks tegema?” annab lingi teemale, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.
 
 ## <a name="what-do-i-have-to-set-up"></a>Mida pean seadistamiseks tegema?
--   Enne kui saate kreeditiülekande faile luua, tuleb teie elektroonilise aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne kreeditiülekande konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   Enne kui saate kreeditiülekande faile luua, tuleb teie elektroonilise aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne kreeditiülekande konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Kui konfigureerite ostureskontro makseviise, märkige ruut **Üldine elektrooniline aruandlus** ja valige ekspordivormingu konfiguratsioonina sobiv kreeditülekande vorming (näiteks **ISO 20022 kreeditiülekanne (AT)**).
 -   Samuti tuleb seadistada juriidilise isiku ja pangakonto andmed.
 -   Kehtivate kreeditiülekande maksete loomiseks on vaja pangakonto numbreid, IBAN-sid ja mõnikord SWIFT-koode (BIC-id). Seega tuleb need seadistada nii hankija pangakonto kui ka ülekannet taotleva organisatsiooni pangakonto jaoks.

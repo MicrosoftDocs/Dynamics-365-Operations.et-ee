@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840240"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897716"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 
@@ -50,6 +50,14 @@ Lõpuks toetavad need funktsioonid sõnumite vahetust väliste veebiteenustega, 
 
 Elektroonilise arvelduse funktsioonide saadavus oleneb riigist või regioonist. Kuigi mõned funktsioonid on üldiselt saadaval, on teised saadaval eelvaateversioonis.
 
+#### <a name="generally-available-features"></a>Saadaolevad üldfunktsioonid
+
+Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on üldiselt saadaval.
+
+| Riik/regioon | Funktsiooni nimi                         | Äridokument |
+|----------------|--------------------------------------|-------------------|
+| Egiptus          | Egiptuse elektrooniline arve (EG) | Müügi- ja projektiarved |
+
 #### <a name="preview-features"></a>Eelvaatefunktsioonid
 
 Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on praegu saadaval eelvaateversioonis.
@@ -61,7 +69,6 @@ Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on praeg
 | Brasiilia         | Brasiilia NF-e (BR)                  | Finantsdokumendi mudel 55, paranduskirjad, tühistamised ja tagasilükkamised |
 | Brasiilia         | Brasiilia NFS-e ABRASF Curitiba (BR) | Teenuste finantsdokumendid |
 | Taani        | Taani elektrooniline arve (DK)       | Müügi- ja projektiarved |
-| Egiptus          | Egiptuse elektrooniline arve (EG) | Müügi- ja projektiarved |
 | Eesti        | Eesti elektrooniline arve (EE)     | Müügi- ja projektiarved |
 | Soome        | Soome elektrooniline arve (FI)      | Müügi- ja projektiarved |
 | Prantsusmaa         | Prantsusmaa elektrooniline arve (FR)       | Müügi- ja projektiarved |
@@ -202,6 +209,91 @@ Järgmises tabelis on toodud saadaolevad tegevused ja see, kas need on praegu ü
 | Mehhiko PAC teenuse kutsumine                      | Integreerige CFDI edastamiseks Mehhiko PAC teenusega.                      | Eelvaates           |
 | Töötle vastust                              | Analüüsige veebiteenuse kutsumise kaudu saadud vastust.                     | Üldiselt saadaval  |
 | MS-i teenuse Power Automate kasutamine                         | Integreeri vooga sisseehitatud Microsoft Power Automate.                       | Eelvaates           |
+
+### <a name="applicability-rules"></a>Kohaldatavusreeglid
+
+Kohaldatavuse reeglid on konfigureeritavad klauslid, mis on määratletud e-arveldamise funktsiooni tasemel. Reeglid on konfigureeritud pakkuma e-arveldamise funktsioonide täitmise konteksti e-arveldamise võimaluse komplekti kaudu.
+
+Kui Finance- või Supply Chain Management äridokument esitatakse e-arveldamiseks, ei sisalda äridokument selgesõnalist viidet, mis võimaldaks e-arveldamise võimalusel kutsuda konkreetset e-arveldamise funktsiooni esitamise töötlemiseks.
+
+Kui äridokument on õigesti konfigureeritud, sisaldab see siiski vajalikke elemente, mis võimaldavad e-arveldamisel lahendada, milline e-arveldamise funktsioon tuleb valida, ja seejärel luua e-arve.
+
+Kohaldatavuse reeglid võimaldavad e-arveldamise võimaluse komplektil leida täpsed e-arveldamise funktsioonid, mida tuleb kasutada edastuse töötlemiseks. Selleks viiakse esitatud äridokumendi sisu vastavusse kohaldatavuse reeglite klauslitega.
+
+Näiteks võetakse e-arveldamise funktsioonide komplekti kasutusele kaks e-arveldamise funktsiooni koos seostuvate kohaldatavusreeglitega.
+
+| E-arveldamise funktsioon | Kohaldatavusreeglid        |
+|------------------------------|--------------------------- |
+| A                            | <p>Riik = BR</p><p>ja</p><p>Juriidiline isik = BRMF</p>  |
+| B                            | <p>Riik = MX</p><p>ja</p><p>Juriidiline isik = MXMF</p>  |
+
+Kui Finance või Supply Chain Management äridokument esitatakse e-arveldamise võimaluse komplekti, sisaldab äridokument atribuute, mis on täidetud järgmiselt.
+
+- Riik = BR
+- Juriidiline isik = BRMF
+
+E-arveldamise võimaluse komplekt valib e-arveldamise funktsiooni **A**, et töödelda edastust ja luua e-arve.
+
+Sarnaselt, kui äridokument sisaldab järgmist.
+
+- Riik = MX
+- Juriidiline isik = MXMF
+
+E-arve loomiseks on valitud e-arveldamise funktsioon **B**.
+
+Kohaldatavuse reeglite konfiguratsioon ei saa olla mitmetähenduslik. See tähendab, et kahel või enamal e-arveldamise funktsioonil ei saa olla samu klausleid, vastasel juhul ei too see kaasa valikut. Kui e-arveldamise funktsioonid on dubleeritud, kasutage ebaselguse vältimiseks täiendavaid klausleid, et võimaldada e-arveldamise võimalusel eristada kahte e-arveldamise funktsiooni.
+
+Näiteks kaaluge e-arveldamise funktsiooni **C** . See funktsioon on e-arveldamise funktsiooni **A** koopia.
+
+| E-arveldamise funktsioon | Kohaldatavusreeglid        |
+|------------------------------|--------------------------- |
+| A                            | <p>Riik = BR</p><p>ja</p><p>Juriidiline isik = BRMF</p>  |
+| C                            | <p>Riik = BR</p><p>ja</p><p>Juriidiline isik = BRMF</p>  |
+
+Selles näites on funktsioon **C** äridokumendi esitamise ees sisaldades järgmist.
+
+- Riik = BR
+- Juriidiline isik = BRMF
+
+E-arveldamise funktsioon ei suuda eristada, millist e-arveldamise funktsiooni tuleb edastuse töötlemiseks kasutada, kuna esildised sisaldavad täpselt samu klausleid.
+
+Nende kahe funktsiooni eristamiseks kohaldatavuse reeglite kaudu tuleb ühele funktsioonile lisada uus klausel, mis võimaldab e-arveldamise võimalusel valida õige e-arveldamise funktsiooni.
+
+| E-arveldamise funktsioon | Kohaldatavusreeglid        |
+|------------------------------|--------------------------- |
+| A                            | <p>Riik = BR</p><p>ja</p><p>Juriidiline isik = BRMF</p>  |
+| C                            | <p>Riik = BR</p><p>ja</p><p>Juriidiline isik = BRMF</p><p>ja</p><p>Mudel=55</p>  |
+
+Keerukamate klauslite loomise toetamiseks on saadaval järgmised ressursid.
+
+Loogikatehtemärgid:
+- ja
+- Või
+
+Tehtemärkide tüübid:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Suurem kui või võrdne
+- Väiksem kui või võrdne
+- Contains
+- Algab järgmisega
+
+Andmetüübid:
+- String
+- Arv
+- Loogiline
+- Kuupäev
+- UUID
+
+Võimalus rühmitada ja tühistada klauslite rühmitamine.
+Näidis näeb välja järgmine.
+
+| E-arveldamise funktsioon | Kohaldatavusreeglid        |
+|------------------------------|--------------------------- |
+| C                            | <p>Riik = BR</p><p>ja</p><p>( Juriidiline isik = BRMF</p><p>või</p><p>Mudel=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Konfiguratsiooni pakkujad
 

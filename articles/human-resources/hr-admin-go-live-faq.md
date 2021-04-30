@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4a06da220fd90de91fb9091c41f35a1fb95442c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e1b4b336953ef6bd74da009b3bb44fbcf2eab5a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804013"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892319"
 ---
 # <a name="go-live-faq"></a>Süsteemi Go-live KKK 
 
@@ -48,7 +48,7 @@ Eeltingimuste loendi leiate teemast  [Kasutuselevõtuks ettevalmistamine](hr-a
 
 ## <a name="what-is-a-go-live-assessment"></a>Mis on kasutuselevõtu hindamine?  
 
-Kasutuselevõtu hindamine on  [Microsoft FastTracki programmi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview) osa. Selle läbivaatuse käigus hindab lahenduse arhitekt, kas juurutusprojekt on valmis edukaks üleminekuks ja kasutuselevõtuks. See läbivaatus on kohustuslik kõigile juurutusprojektidele, enne kui saate taotleda töökeskkonna kasutuselevõtmist. 
+Kasutuselevõtu hindamine on  [Microsoft FastTracki programmi](/dynamics365/fasttrack/) osa. Selle läbivaatuse käigus hindab lahenduse arhitekt, kas juurutusprojekt on valmis edukaks üleminekuks ja kasutuselevõtuks. See läbivaatus on kohustuslik kõigile juurutusprojektidele, enne kui saate taotleda töökeskkonna kasutuselevõtmist. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Meie liivakastikeskkonnad juurutatakse Kesk-USA andmekeskuses. Soovime, et meie töökeskkonnad oleksid juurutatud Lääne-USA andmekeskuses. Kas ma saan valida Lääne-USA oma töökeskkonna konfiguratsiooni andmekeskuseks? 
 
@@ -56,7 +56,7 @@ LCS ei keela teise andmekeskuse valimist Human Resourcesi keskkonna juurutamisel
 
 Kui soovite oma töökeskkonda Lääne-USA andmekeskusesse, peaksite esmalt oma liivakastikeskkonnad Lääne-USA andmekeskuses uuesti juurutama, neid katsetama ja andma nõusoleku. 
 
-Lisateavet õige andmekeskuse valimise kohta leiate teemast [Võrgunõuded](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
+Lisateavet õige andmekeskuse valimise kohta leiate teemast [Võrgunõuded](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>Mis tasemel juurdepääs mul on Human Resourcesi keskkondade Azure'i ressurssidele?  
 
@@ -64,7 +64,7 @@ Human Resourcesi keskkondade juurdepääs on piiratud. Te ei pääse juurde virt
 
 Kuigi te ei pääse oma Azure'i ressurssidele või Dynamics 365 Human Resourcesi keskkonnale juurde otse, on teil täiendavaid funktsioone, mida saate kasutada oma andmetele juurde pääsemiseks.
 
-- Saate juurutada Azure SQL-i andmebaasi oma Azure'i rentnikku ja kasutada oma andmebaasi toomise (BYOD) funktsiooni andmete sünkroonimiseks. Lisateavet leiate teemast [Oma andmebaasi toomine (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
+- Saate juurutada Azure SQL-i andmebaasi oma Azure'i rentnikku ja kasutada oma andmebaasi toomise (BYOD) funktsiooni andmete sünkroonimiseks. Lisateavet leiate teemast [Oma andmebaasi toomine (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
 
 - Saate kasutada Dataverse'i integreerimist valitud üksuste sünkroonimiseks Dataverse'i andmebaasi. Lisateavet leiate [Dataverse'i tabelitest](hr-developer-entities.md). 
 
@@ -80,11 +80,11 @@ Andmebaase kaitstakse automaatse varundusega järgmise sagedusega.
 
 Microsoft säilitab piisavalt varukoopiaid selleks, et lubada ajapunktipõhist taastet (PITR) viimase 14 päeva jooksul. 
 
-Lisateabe saamiseks vt jaotist  [Lisateave SQL-i andmebaasi automaatsete varunduste kohta](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Lisateabe saamiseks vt jaotist  [Lisateave SQL-i andmebaasi automaatsete varunduste kohta](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Kas ma saan taotleda oma andmebaasi varunduse koopiat? 
 
-Nr Saate esitada andmebaasi värskendamise teenuse taotluse oma töökeskkonna kopeermiseks liivakastikeskkonda. Saate juurutada Azure SQL-i andmebaasi oma Azure'i rentnikku ja kasutada BYOD-i funktsiooni andmete sünkroonimiseks töökeskkonnast. Lisateavet leiate teemast [Oma andmebaasi toomine (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
+Nr Saate esitada andmebaasi värskendamise teenuse taotluse oma töökeskkonna kopeermiseks liivakastikeskkonda. Saate juurutada Azure SQL-i andmebaasi oma Azure'i rentnikku ja kasutada BYOD-i funktsiooni andmete sünkroonimiseks töökeskkonnast. Lisateavet leiate teemast [Oma andmebaasi toomine (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Kuidas ma saan teisaldada liivakastikeskkonda töökeskkonna selle kasutuselevõtuks? 
 
@@ -94,7 +94,7 @@ Soovitame säilitada selge loendi üksustest, mis on konfigureeritud teie liivak
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Mida teha, kui minu töökeskkond on maas? 
 
-Töökeskkonna katkestusest teatamiseks järgige juhiseid jaotises  [Töökeskkonna katkestusest teatamine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
+Töökeskkonna katkestusest teatamiseks järgige juhiseid jaotises  [Töökeskkonna katkestusest teatamine](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
 
  ## <a name="see-also"></a>Vt ka
 

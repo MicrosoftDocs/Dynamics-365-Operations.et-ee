@@ -2,11 +2,11 @@
 title: Vara rentimise funktsiooni kasutamise alustamine
 description: Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata.
 author: moaamer
-ms.date: 10/16/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814124"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892429"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata. Teemas on toodud ka kasutajaliideses ja dokumentatsioonis kasutatud terminoloogia. Vara rentimine on täiustatud võimalus renditavate varade finantskannete haldamiseks, jälgimiseks ja automatiseerimiseks teenuses Microsoft Dynamics 365 Finance. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni. Vara rentimise funktsioon integreerub sujuvalt teiste rakenduse Dynamics 365 Finance komponentidega, sealhulgas põhivarad, ostureskontro ja pearaamat.
+
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Otsige tööruumis **Funktsioonihaldus** üles suvand **Vara rentimine** ja seejärel klõpsake nuppu **Luba kohe**.
 
 Lisateavet raamatupidamisstandardite kohta leiate rahvusvaheliste raamatupidamisstandardite (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standardite (ASC 842) standarddokumentatsioonist.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44a1332a7c2cb30724198d61190cb6dc207ad2d0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a4266ee942f504ffa2f355959af8e3076984d83
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794993"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892295"
 ---
 # <a name="system-requirements"></a>Süsteeminõuded
 
@@ -53,17 +53,17 @@ Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile.
 
 ## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office’i rakendused
 
-* Microsoft Exceli ja Wordi lisandmoodulite käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office’i integreerimise tõrkeotsing").
+* Microsoft Exceli ja Wordi lisandmoodulite käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md "Office’i integreerimise tõrkeotsing").
 * Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
 
 ## <a name="regional-availability-languages-and-localization"></a>Piirkondlik saadavus, keeled ja lokaliseerimine
 
-Saate alla laadida PDF-faili riikide, piirkondade ja keelte kohta, mida Human Resources toetab teemast [Microsoft Dynamics 365 rahvusvaheline kättesaadavus](https://docs.microsoft.com/dynamics365/get-started/availability). 
+Saate alla laadida PDF-faili riikide, piirkondade ja keelte kohta, mida Human Resources toetab teemast [Microsoft Dynamics 365 rahvusvaheline kättesaadavus](/dynamics365/get-started/availability). 
 
 > [!NOTE]
 > Kui kasutajaliides on lokaliseeritud teistesse keeltesse, talletatakse kõik kasutajaandmed keeles, milles need sisestati. Saate luua e-kirju ja malle teistes keeltes, kuid sellised andmed nagu planeerimise teave on praegu saadaval ainult inglise keeles.
 
-Kui olete arendaja, kes on huvitatud riigi- või piirkonnapõhiste kohanduste loomisest või luua lahendus mõnele riigile või piirkonnale, mida Microsoft praegu ei toeta, vt [Globaliseerumine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Kui olete arendaja, kes on huvitatud riigi- või piirkonnapõhiste kohanduste loomisest või luua lahendus mõnele riigile või piirkonnale, mida Microsoft praegu ei toeta, vt [Globaliseerumine](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

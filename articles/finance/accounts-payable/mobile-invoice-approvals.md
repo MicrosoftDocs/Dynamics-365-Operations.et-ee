@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828030"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897692"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
@@ -32,7 +32,7 @@ Mobiilsed võimalused võimaldavad ärikasutajatel mobiilikogemusi kujundada. T�
 
 | Eeltingimus                                                                                            | Kirjeldus                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiiliplatvorm](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiiliplatvorm](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Keskkond, millesse on installitud versioon 1611 ja platvormivärskendus 3 (november 2016)                   |
 | Installige kiirparandus KB 3204341.                                                                              | Tegevuse salvestaja võib kogemata salvestada rippdialoogidele kaks sulgemiskäsku platvormi värskenduses 3 (2016. aasta novembri värskendus). |
 | Installige kiirparandus KB 3207800.                                                                              | See kiirparandus võimaldab vaadata manuseid mobiilikliendil, mis sisaldub platvormi värskenduses 3 (2016. aasta novembri värskendus).           |
@@ -213,7 +213,7 @@ Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMob
 
 11. Kui kõik väljad eelmisest kahest toimingust on lisatud, klõpsake nuppu **Valmis**. Leht peab sarnanema järgmisele illustratsioonile.
     
-    [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Lisatud lisavälju kujutav illustratsioon](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 
