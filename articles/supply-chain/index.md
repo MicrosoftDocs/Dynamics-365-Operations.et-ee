@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829952"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909787"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
@@ -94,16 +94,16 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
 
 ## <a name="blogs"></a>Ajaveebid
 
-[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg/) ja [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm/) leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](/archive/blogs/axmfg/) ja [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm/) leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 ## <a name="white-papers"></a>Tehniline ülevaade
 
-- [Lean manufacturing: funktsioon „võimeline lubama“ ja kanban-tööde planeerimine](https://docs.microsoft.com/dynamics/s-e/)
+- [Lean manufacturing: funktsioon „võimeline lubama“ ja kanban-tööde planeerimine](/dynamics/s-e/)
 - [Koosluse arvutamine kuluarvutustabeli abil](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>E-õppe kursused
 
-Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

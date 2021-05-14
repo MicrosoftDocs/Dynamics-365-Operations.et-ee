@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811302"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923021"
 ---
 # <a name="financial-reporting-faq"></a>Finantsaruandluse KKK 
 
-Sellesse teemasse on kogutud teiste kasutajate esitatud finantsaruandlusega seotud küsimused. 
+Selles teemas antakse vastused korduma kippuvatele küsimustele finantsaruandluse kohta. 
 
+## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Kuidas piirata puuturbe abil juurdepääsu aruandele?
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Kuidas piirata turvapuu abil juurdepääsu aruandele?
+Järgmises näites kirjeldatakse aruandele juurdepääsu piiramist puuturbe abil.
 
-Stsenaarium: USMF-i demoettevõte ei soovi, et tema bilansi aruanne oleks D365-s nähtav kõigile finantsaruandluse kasutajatele. Lahendus: turvapuu abil saate piirata juurdepääsu ühele aruandele nii, et sellele oleks juurdepääs ainult teatud kasutajatel. 
+Demoettevõttel USMF on bilansiaruanne, millele ei pea kõik finantsaruandluse kasutajad juurde pääsema. Juurdepääsu piiramiseks saate kasutada puuturvet, et keelata juurdepääs ühele aruandele, nii et sellele pääseksid juurde ainult teatud kasutajad. Juurdepääsu piiramiseks tehke järgmist. 
 
-1.  Logige sisse finantsaruandluse aruandekoosturisse.
+1. Logige sisse Financial Reporter Report Designerisse.
+2. Looge uus puudefinitsioon. Avage **Fail > Uus > Puu definitsioon**.
+3. Topeltklõpsake veerus **Üksuse turve** rida **Kokkuvõte**.
+4. Valige **Kasutajad ja grupid**.  
+5. Valige kasutajad või grupid, kellele soovite anda juurdepääsu sellele aruandele. 
+6. Valige käsk **Salvesta**.
+7. Lisage aruandedefinitsioonis uus puudefinitsioon.
+8. Valige puudefinitsioonis **Säte**. Valige jaotises **Aruandlusüksuse valik** **Kaasa kõik üksused**.
 
-2.  Looge uus puu definitsioon (Fail | Uus | Puu definitsioon) a.    Topeltklõpsake veerus **Üksuse turve** rida **Kokkuvõte**.
-  i.    Klõpsake suvandit Kasutajad ja rühmad.  
-          1. Valige kasutaja(d) või rühm, kellele soovite lubada juurdepääsu sellele aruandele. 
-          
-[![kasutaja ekraan](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>Kuidas tuvastada, millised kontod minu saldodele ei vasta?
 
-[![turbeekraan](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+Kui teil on aruanne, millel pole vastavaid saldosid, võivad järgmised tegevused aidata teil selliseid kontosid ja hälbeid tuvastada. 
 
-  b.    Klõpsake nuppu **Salvesta**.
-  
-[![salvestamisnupp](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+**Financial Reporter Report Designer**
+1. Looge Financial Reporter Report Designeris uus readefinitsioon. 
+2. Valige **Redigeeri > Lisa read dimensioonidest**.
+3. Valige **MainAccount**.  
+4. Valige nupp **OK**.
+5. Salvestage readefinitsioon.
+6. Uue veerudefinitsiooni loomine
+7. Looge uus aruandedefinitsioon.
+8. Valige **Sätted** ja tühjendage selle suvandi ruut.  
+9. Looge aruanne. 
+10. Eksportige aruanne Microsoft Excelisse.
 
-3.  Lisage aruandedefinitsioonis uus puu definitsioon.
+**Dynamics 365 Finance** 
+1. Avage Dynamics 365 Finance'is **Pearaamat > Päringud ja aruanded > Proovibilanss**.
+2. Saate määrata järgmised parameetrid.
+   - **Alguskuupäev** – sisestage finantsaasta algus.
+   - **Lõppkuupäev** – sisestage kuupäev, mille kohta aruande loote.
+   - **Finantsdimensioon** – seadke selle välja väärtuseks **Põhikonto kogum**.
+ 3. Valige **Arvuta**.
+ 4. Eksportige aruanne Microsoft Excelisse.
 
-[![puu definitsiooni vorm](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
-
-A.  Asudes puu definitsioonis klõpsake nuppu Säeadistamine ja märkige jaotises „Aruandlusüksuse valik“ ruut „Kaasa kõik üksused“.
-
-[![aruandlusüksuse valiku vorm](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Enne:** [![enne-kuvatõmmis](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Pärast:** [![pärast-kuvatõmmis](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Märkus. Ülaltoodud teate põhjuseks on, et pärast Üksuse turbe rakendamist pole minu kasutajal sellele aruandele juurdepääsu
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>Kuidas määratleda, milline konto või millised kontod pole vastavuses minu saldodega D365-s?
-
-Kui teil on aruanne, mis ei vasta D365-s eeldatud olukorrale, võivad järgmised tegevused aidata teil selliseid kontosid ja hälbeid tuvastada. 
-
-### <a name="in-financial-reporter-report-designer"></a>Finantsaruandluse aruandekoosturis
-
-1.  Looge uus readefinitsioon a.    Klõpsake Redigeeri | Lisa read dimensioonidest i.  Valige MainAccount [![Valige Peaekraan_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Klõpsake nuppu Ok b.    Salvestage readefinitsioon
-
-2.  Looge uus veerudefinitsioon     [![Looge uus veerudefinitsioon](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Looge uus aruandedefinitsioon a.    Klõpsake Sätted ja tühjendage märkeruut [![Sätetevorm](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Looge aruanne. 
-
-5.  Eksportige aruanne Excelisse.
-
-### <a name="in-d365"></a>D365-s: 
-1.  Klõpsake Pearaamat | Päringud ja aruanded | Proovibilanss a.    Parameetrid i.  Alguskuupäev: rahandusaasta algus ii. Kuupäevani: kuupäev, millal lõite iii. aruande    Finantsdimensioonikogum „Põhikonto kogum“ [![Põhikonto vorm](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Klõpsake valikut Arvuta
-
-2.  Eksportige aruanne Excelisse
-
-Nüüd saate kopeerida andmeid FR Exceli aruandest D365 proovibilansi aruandesse ja võrrelda veerge „Sulgemissaldo“.
-
+Nüüd saate kopeerida andmeid Financial Reporteri Exceli aruandest proovibilansi aruandesse, et võrrelda veerge **Sulgemissaldo**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

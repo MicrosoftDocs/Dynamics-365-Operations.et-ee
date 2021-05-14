@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813455"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890325"
 ---
 # <a name="finance-home-page"></a>Finance'i avaleht
 
@@ -38,11 +38,11 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
         - [Kuluarvestus](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Kulude haldus](expense-management/expense-management.md)
-        - [Finantsaruandlus](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Kulude haldus](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Finantsaruandlus](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Põhivarad](fixed-assets/fixed-assets.md)
         - [Pearaamat ja finantsaruandlus](general-ledger/general-ledger.md) 
-        - [Projektihaldus ja -arvestus](project-management/overview-project-management-accounting.md)
+        - [Projektihaldus ja -arvestus](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Avalik sektor](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 
 ### <a name="countryregion-functionality"></a>Riigi/regiooni funktsionaalsus
 
-Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi. Vt spikri jaotist [Lokaliseerimine ja regulatiivsed funktsioonid](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json), et saada lisateavet riigi-/regioonipõhise funktsionaalsuse kohta.
+Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi. Vt spikri jaotist [Lokaliseerimine ja regulatiivsed funktsioonid](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json), et saada lisateavet riigi-/regioonipõhise funktsionaalsuse kohta.
 
 ### <a name="additional-content"></a>Lisasisu
 
@@ -73,6 +73,6 @@ Supply Chain Managementi funktsioonid sisaldavad protsessi Procure-to-Pay osi, m
 
 ## <a name="elearning-courses"></a>E-õppe kursused
 
-Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Finance](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

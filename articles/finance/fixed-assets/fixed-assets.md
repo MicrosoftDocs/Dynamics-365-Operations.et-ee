@@ -1,6 +1,6 @@
 ---
-title: Põhivarade kodulehekülg
-description: Põhivarad on väärtuskaubad, nt ehitised, sõiduvahendid, maa ja seadmed, mis kuuluvad üksikisikule või organisatsioonile.
+title: Põhivarade avaleht
+description: Põhivarad on üksikisikule või organisatsioonile kuuluvad väärtuslikud üksused. Nende hulka kuuluvad hooned, sõidukid, maa ja seadmed.
 author: ShylaThompson
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1825ee4617d14b421d4a7e6151d645a653a9fcbb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815664"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897984"
 ---
-# <a name="fixed-assets-home-page"></a>Põhivarade kodulehekülg
+# <a name="fixed-assets-home-page"></a>Põhivarade avaleht
 
 [!include [banner](../includes/banner.md)]
 
-Põhivarad on väärtuskaubad, nt ehitised, sõiduvahendid, maa ja seadmed, mis kuuluvad üksikisikule või organisatsioonile. 
+Põhivarad on üksikisikule või organisatsioonile kuuluvad väärtuslikud üksused. Nende hulka kuuluvad hooned, sõidukid, maa ja seadmed. 
 
-Põhivarade jaoks saate seadistada ja sisestada soetusteavet ning seejärel hallata oma varasid kulumiarvestuse ja kulumisumma määramiseks kapitaliseerimisläve seadistamiseks. Saate arvutada põhivarade muudatusi ja neid ka likvideerida. Kui kasutate koos mooduliga Põhivarad moodulit Pearaamat, saate vaadata kõigi põhivarade praegust väärtust. Põhivarade käsitsemise viis peab vastama nii rahvusvahelistele raamatupidamisstandarditele kui ka iga riigi/regiooni maksuseadusandlusele. Nõuded võivad sisaldada põhivarade soetamis- ja likvideerimiskannete, kulumiarvestuse, kasuliku eluea ning juurde- ja allahindluse reegleid. Põhivarade funktsioon sisaldab paljusid neist standarditest ja reeglitest.
+Põhivarade jaoks saate seadistada ja sisestada soetusteabe ning seejärel hallata varasid kulumiarvestuse ning kulumisumma määramiseks kapitaliseerimisläve seadmise kaudu. Saate arvutada põhivarade muudatusi ja neid ka likvideerida. Kui kasutate koos mooduliga Põhivarad moodulit Pearaamat, saate vaadata kõigi põhivarade praegust väärtust. Põhivarade käsitsemise viis peab vastama nii rahvusvahelistele raamatupidamisstandarditele kui ka iga riigi/regiooni maksuseadusandlusele. Nõuded võivad sisaldada põhivarade soetamis- ja likvideerimiskannete, kulumiarvestuse, kasuliku eluea ning juurde- ja allahindluse reegleid. Põhivarade funktsioon sisaldab paljusid neist standarditest ja reeglitest.
 
 [![Äriprotsess](./media/FA-process.PNG)](./media/FA-process.PNG)
 
@@ -38,7 +38,7 @@ Põhivarade jaoks saate seadistada ja sisestada soetusteavet ning seejärel hall
 
 #### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone on kavandatud. 
+Avage [Microsoft Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/), et näha, milliseid uusi funktsioone on kavandatud. 
 
 #### <a name="blogs"></a>Ajaveebid
 

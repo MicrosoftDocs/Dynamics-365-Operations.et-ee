@@ -94,12 +94,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (juuli 2021)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mai 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (aprill 2021)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16 (veebruar 2021)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Power Appsist lõuendirakenduste manustamine
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Kolmanda osapoole rakenduste manustamine
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Teabe leidmine otsingute abil
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Seansi kuupäeva muutmine
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Stationi konfigureerimine ja installimine
                   href: retail-hardware-station-configuration-installation.md
+                - name: Commerce'i pitseeritud iseteeninduskomponentide hulgijuurutus
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Iseteeninduse pärandkomponentide hulgijuurutus
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Commerce'i komponentide sündmused diagnostika ja tõrkeotsingu jaoks
@@ -368,7 +372,7 @@
                       href: pos-operations.md
                     - name: Kohandatud Modern POS-i seadme aktiveerimine
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Azure Active Directory autentimise lubamine kassasse sisselogimiseks
+                    - name: Azure Active Directory autentimise konfigureerimine kassasse sisselogimiseks
                       href: aad-pos-logon.md
                     - name: Toodete ja klientide otsimine kassas
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Saatmise allahindluse ülevaade
                   href: retail-shipping-discount.md
+                - name: Ostuga kaasneva kingituse kampaaniate konfigureerimine
+                  href: gift-with-purchase.md
                 - name: Kupongide häälestamine
                   href: retail-coupons.md
                 - name: Allahindluste näitamine kassas
@@ -760,6 +766,8 @@
                   href: notifications-pos.md
                 - name: Järjepidevusprogrammide müümine ja müügitellimuste töötlemine
                   href: tasks/use-continuity-program.md
+                - name: Kliendi sisseregistreerimisteatiste lubamine kassas
+                  href: enable-customer-check-in.md
             - name: Tagastused
               items:
                 - name: Lingitud tagasimaksed
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Veebitegevuse sündmuste kogumisest loobumine
                   href: web-activity-opt-out.md
+                - name: Mõõtühikusätete rakendamine
+                  href: unit-of-measure.md
             - name: Saidi sisu haldamine
               items:
                 - name: Sisu lisamise viisid
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Järeletulemise teabe moodul
                       href: pickup-info-module.md
+                    - name: Järeletulemise sisseregistreerimise moodul
+                      href: check-in-pickup-module.md
                     - name: Tellimuse üksikasjade moodul
                       href: order-confirmation-module.md
                     - name: Kinkekaardi moodul
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi häälestus'
               href: set-up-rfm-analysis.md
+            - name: Microsoft Clarity häälestamine Dynamics 365 Commerce'is
+              href: set-up-clarity.md
         - name: Globaliseerimine
           items:
             - name: Commerce'i kanali fiskaalüksuse integreerimise ülevaade
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Regulatory Configuration Service'i ülevaade
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service – globaliseerumise funktsioonid
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: ER-i konfiguratsioonide loomine Regulatory Configuration Service'is ja üleslaadimine globaalsesse hoidlasse
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Mooduli fail props.autogenerated.ts
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Moodulikonfiguratsiooni eelsätted
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Moodulite arendamine
                   items:
                     - name: Uue mooduli loomine
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Kohandatud nuppude lisamine kassa päiseribale
                   href: dev-itpro/pos-header-bar.md
+                - name: Kassa sõltumatu pakendamise SDK
+                  items:
+                    - name: Kassalaienduse ülevaade
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Kassalaienduste kasutamise alustamine
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: Kassa laienduspaketi projekti loomine
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Modern POS-i laienduse APPX-faili loomine
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: Kassalaienduse silumine
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Hardware Stationi laiendatavus
               items:
                 - name: Hardware Station ja laiendatavus

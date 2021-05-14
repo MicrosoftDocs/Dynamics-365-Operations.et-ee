@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 237a2a594abba7d74e7c1aba33a6f4e72b1e2e69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830516"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897424"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Sularaha- ja pangahalduse avaleht
 
@@ -83,7 +83,7 @@ Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatäh
 
 #### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone on kavandatud. 
+Avage [Microsoft Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/), et näha, milliseid uusi funktsioone on kavandatud. 
 
 #### <a name="blogs"></a>Ajaveebid
 

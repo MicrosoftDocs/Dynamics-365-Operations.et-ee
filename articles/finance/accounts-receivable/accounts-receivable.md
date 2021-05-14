@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827718"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898132"
 ---
 # <a name="accounts-receivable-home-page"></a>Müügireskontro kodulehekülg
 
@@ -39,61 +39,45 @@ Saate luua kliendiarveid müügitellimuste või saatelehtede alusel. Samuti saat
 
 Kasutage müügireskontrot, et jälgida kõiki kliendiarveid ja klientidelt vastu võetud makseid. Saate seadistada kliendigruppe, kliente, sisestusreegleid, viivisearveid, märgukirju, komisjonitasusid, klientide parameetreid, tasusid, tarneid ja sihtkohti, käskveksleid ning muid müügireskontro teabe tüüpe. 
 
-:::row:::
-    :::column:::
-        - [Arvestuse jaotused ja alammooduli töölehe kirjed vabas vormis arvete puhul](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Kliendi sisestusreeglid](customer-posting-profiles.md)
-        - [Krediitkaardi seadistamine, autoriseerimine ja hõivamine](credit-card-authorizations.md)
-        - [Kliendiarve loomine](configure-customer-invoices.md)
-        - [Korduvate arvete seadistamine ja töötlemine](set-up-process-recurring-invoices.md)
-        - [Vabas vormis arve parandamine](correct-free-text-invoice.md)
-    :::column-end:::
-    :::column:::
-        - [Käskvekslite seadistamine](set-up-bills-exchange.md)
-        - [Intressikoodile intressimäära seadistamine](set-up-interest-rates-interest-code.md)
-        - [Intressimäärade nõudest loobumine, selle ennistamine või tühistamine](waive-reinstate-reverse-interest-fees.md)
-        - [SEPA otsekorralduse ülevaade](sepa-direct-debit-overview.md)
-        - [SEPA otsedeebeti loa seadistamine](sepa-direct-debit-mandate.md)
-        - [Müügireskontro sulgemine](close-accounts-receivable.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Arvestuse jaotused ja alammooduli töölehe kirjed vabas vormis arvete puhul](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Kliendi sisestusreeglid](customer-posting-profiles.md)
+- [Krediitkaardi seadistamine, autoriseerimine ja hõivamine](credit-card-authorizations.md)
+- [Kliendiarve loomine](configure-customer-invoices.md)
+- [Korduvate arvete seadistamine ja töötlemine](set-up-process-recurring-invoices.md)
+- [Vabas vormis arve parandamine](correct-free-text-invoice.md)
+- [Käskvekslite seadistamine](set-up-bills-exchange.md)
+- [Intressikoodile intressimäära seadistamine](set-up-interest-rates-interest-code.md)
+- [Intressimäärade nõudest loobumine, selle ennistamine või tühistamine](waive-reinstate-reverse-interest-fees.md)
+- [SEPA otsekorralduse ülevaade](sepa-direct-debit-overview.md)
+- [SEPA otsedeebeti loa seadistamine](sepa-direct-debit-mandate.md)
+- [Müügireskontro sulgemine](close-accounts-receivable.md)
+    
 ## <a name="set-up-credit-and-collections"></a>Krediidihalduse ja võlanõuete seadistamine
 
 Müügireskontro sissenõuete teavet hallatakse ühes keskses vaates lehel Sissenõuded. Krediidiosakonna juhatajad saavad kasutada seda keskset vaadet sissenõuete haldamiseks. Inkassaatorid saavad alustada sissenõudmise protsessi klientide loendist, mis luuakse eelmääratud sissenõude kriteeriumite alusel, või lehelt Kliendid.
 
-[Kreedit ja sissenõuded moodulis Müügireskontro](collections-credit-accounts-receivable.md)
-
-[Moodulite Müügireskontro ning Krediit ja võlanõuded konfigureerimine](accounts-receivables-set-up-overview.md)
-
-[Krediidihalduse ja võlanõuete seadistamine](set-up-collections.md)
+- [Kreedit ja sissenõuded moodulis Müügireskontro](collections-credit-accounts-receivable.md)
+- [Moodulite Müügireskontro ning Krediit ja võlanõuded konfigureerimine](accounts-receivables-set-up-overview.md)
+- [Krediidihalduse ja võlanõuete seadistamine](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>Maksete ja tasakaalustuste seadistamine
 
 Saate klientidelt vastu võtta mitmesugust tüüpi makseid, nagu käskvekslid, sularaha, tšekid, krediitkaardid ja elektroonilised maksed. 
 
-:::row:::
-    :::column:::
-        - [Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Müügireskontro tsentraliseeritud maksed](centralized-payments-accounts-receivable.md)
-        - [Kliendi osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-    :::column-end:::
-    :::column:::
-        - [Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [Klientide kulude korvamine](reimburse-customers.md)
-        - [Kliendi osalises summas maksed](customer-payments-partial-amount.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+- [Müügireskontro tsentraliseeritud maksed](centralized-payments-accounts-receivable.md)
+- [Kliendi osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+- [Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+- [Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine](settle-partial-customer-payment-discounts-credit-notes.md)
+- [Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine](settle-partial-customer-payment-multiple-discount-periods.md)
+- [Klientide kulude korvamine](reimburse-customers.md)
+- [Kliendi osalises summas maksed](customer-payments-partial-amount.md)
+   
 ### <a name="additional-resources"></a>Lisaressursid
 
 #### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 tegevuskava](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone kavandatakse. 
+Avage [Microsoft Dynamics 365 tegevuskava](/dynamics365/release-plans/), et näha, milliseid uusi funktsioone kavandatakse. 
 
 #### <a name="blogs"></a>Ajaveebid
 
