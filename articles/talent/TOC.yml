@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: talent-welcome.md
+  href: ./index.md
   items:
     - name: Alustamine
       items:
@@ -151,7 +151,7 @@
         - name: Andmete eksportimine Attractist ja Onboardist
           href: attract-onboard-export-data.md
         - name: Power Appsist lõuendirakenduste manustamine
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: Talenti toe hankimine
           href: talent-support.md
     - name: Organisatsiooni personali palkamine Attracti abil

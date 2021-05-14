@@ -14,12 +14,12 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormi versiooni 10.0.19 värskendused (juuli 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platvormi versiooni 10.0.18 värskendused (mai 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Platvormi versiooni 10.0.17 värskendused (aprill 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: Platvormi versiooni 10.0.16 värskendused (veebruar 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -303,19 +303,19 @@
                         - name: Project Service Automationi integreerimise konfigureerimine
                           items:
                             - name: Project Service Automationi ülevaade
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Project Service Automationi integreerimisparameetrid
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Projektilepingute ja projektide sünkroonimine
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Projektiülesannete sünkroonimine
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Projekti kulukategooriate sünkroonimine
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Projektihinnangute sünkroonimine projekti eelarvetega
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Väliste veebiteenuste tarbimine
               href: data-entities/consume-external-web-service.md
             - name: Elektronsõnumid
@@ -691,7 +691,7 @@
                     - name: Mudelite ja andmemudeli elementide ülevaade
                       href: dev-tools/create-data-model-elements.md
                     - name: Laiendite nimejuhised
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Mudeli kohandamise ja aegumisfunktsiooni väljalülitamine
                       href: dev-tools/lock-models.md
                 - name: Kliendi kohanduste analüüsi aruanne
@@ -1070,10 +1070,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneritele
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Mis on uut või mida on muudetud Lifecycle Servicesis?
+                - name: Mis on uut või mida on muudetud teenuses Lifecycle Services?
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Teadaolevad probleemid
-                  href: lifecycle-services/known-issues.md
                 - name: Eemaldatud või iganenud funktsioonid teenuses Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Teenuse Lifecycle Services kasutusjuhend
@@ -1400,13 +1398,17 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Regression Suite Automation Tooli kasutamine
               href: perf-test/rsat/rsat-run.md
+            - name: Regression Suite Automation Tooli testjuhtumite haldamine
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Eeldatavate väärtuste valideerimine
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Aheltestjuhtumid
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Tuletatud testjuhtumid
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression Suite Automation Tooli õppemaetrjal
+            - name: Parameetrifailide uuendamine
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Regression Suite Automation Tooli õpik
               href: perf-test/rsat/rsat-tutorial.md
             - name: Mitteadministraatorist kasutajate konfigureerimine
               href: perf-test/rsat/rsat-configure-nonadmin.md
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 täiendus – andmete täiendamine liivakastikeskkondades dacpac-protsessi abil
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: AX 2012 täiendus – SQL-i kannete tiražeerimine
+                  href: database/replication-setup.md
                 - name: AX 2012 täiendus – liivakastikeskkondade andmete täiendamine
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 täiendus – kohapealsed keskkonnad

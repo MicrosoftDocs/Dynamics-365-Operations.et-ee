@@ -15,129 +15,129 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820855"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897006"
 ---
-# <a name="accounts-payable-home-page"></a><span data-ttu-id="c99e0-103">Ostureskontro kodulehekülg</span><span class="sxs-lookup"><span data-stu-id="c99e0-103">Accounts payable home page</span></span>
+# <a name="accounts-payable-home-page"></a><span data-ttu-id="c838e-103">Ostureskontro kodulehekülg</span><span class="sxs-lookup"><span data-stu-id="c838e-103">Accounts payable home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c99e0-104">Teema annab ülevaate ostureskontrost.</span><span class="sxs-lookup"><span data-stu-id="c99e0-104">This topic provides an overview of Accounts payable.</span></span> 
+<span data-ttu-id="c838e-104">Teema annab ülevaate ostureskontrost.</span><span class="sxs-lookup"><span data-stu-id="c838e-104">This topic provides an overview of Accounts payable.</span></span> 
 
-<span data-ttu-id="c99e0-105">Saate sisestada hankija arveid käsitsi või võtta neid vastu elektrooniliselt andmeüksuse kaudu.</span><span class="sxs-lookup"><span data-stu-id="c99e0-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="c99e0-106">Kui arved on sisestatud või vastu võetud, saate neid üle vaadata ja kinnitada, kasutades arve kinnitamise töölehte või lehte **Hankija arve**.</span><span class="sxs-lookup"><span data-stu-id="c99e0-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="c99e0-107">Ülevaatusprotsessi automatiseerimiseks saate kasutada arvete võrdlemist, hankija arvepoliitikaid ja töövoogu, et teatud kriteeriumitele vastavad arved kinnitataks automaatselt ning ülejäänud arved märgistataks lipuga, et autoriseeritud kasutaja need üle vaataks.</span><span class="sxs-lookup"><span data-stu-id="c99e0-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
+<span data-ttu-id="c838e-105">Saate sisestada hankija arveid käsitsi või võtta neid vastu elektrooniliselt andmeüksuse kaudu.</span><span class="sxs-lookup"><span data-stu-id="c838e-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="c838e-106">Kui arved on sisestatud või vastu võetud, saate neid üle vaadata ja kinnitada, kasutades arve kinnitamise töölehte või lehte **Hankija arve**.</span><span class="sxs-lookup"><span data-stu-id="c838e-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="c838e-107">Ülevaatusprotsessi automatiseerimiseks saate kasutada arvete võrdlemist, hankija arvepoliitikaid ja töövoogu, et teatud kriteeriumitele vastavad arved kinnitataks automaatselt ning ülejäänud arved märgistataks lipuga, et autoriseeritud kasutaja need üle vaataks.</span><span class="sxs-lookup"><span data-stu-id="c838e-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
 
-<span data-ttu-id="c99e0-108">**Äriprotsessid**</span><span class="sxs-lookup"><span data-stu-id="c99e0-108">**Business processes**</span></span>
+<span data-ttu-id="c838e-108">**Äriprotsessid**</span><span class="sxs-lookup"><span data-stu-id="c838e-108">**Business processes**</span></span>
 
-<span data-ttu-id="c99e0-109">[![Äriprotsesside diagramm](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="c99e0-109">[![Diagram of business processes](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
+<span data-ttu-id="c838e-109">[![Äriprotsesside diagramm](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="c838e-109">[![Diagram of business processes](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
 
-## <a name="set-up-accounts-payable"></a><span data-ttu-id="c99e0-110">Ostureskontro seadistamine</span><span class="sxs-lookup"><span data-stu-id="c99e0-110">Set up Accounts payable</span></span>
+## <a name="set-up-accounts-payable"></a><span data-ttu-id="c838e-110">Ostureskontro seadistamine</span><span class="sxs-lookup"><span data-stu-id="c838e-110">Set up Accounts payable</span></span>
 
-<span data-ttu-id="c99e0-111">Seadistage hankijagruppe, hankijaid, sisestusreegleid, mitmesuguseid maksevalikuid ning hankijate, tasude, tarnete ja sihtkohtade parameetreid, võlatähti ja muud tüüpi ostureskontro teavet.</span><span class="sxs-lookup"><span data-stu-id="c99e0-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
+<span data-ttu-id="c838e-111">Seadistage hankijagruppe, hankijaid, sisestusreegleid, mitmesuguseid maksevalikuid ning hankijate, tasude, tarnete ja sihtkohtade parameetreid, võlatähti ja muud tüüpi ostureskontro teavet.</span><span class="sxs-lookup"><span data-stu-id="c838e-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
 
-[<span data-ttu-id="c99e0-112">Ostureskontro konfigureerimise ülevaade</span><span class="sxs-lookup"><span data-stu-id="c99e0-112">Configure Accounts payable overview</span></span>](accounts-payable-overview.md)
+[<span data-ttu-id="c838e-112">Ostureskontro konfigureerimise ülevaade</span><span class="sxs-lookup"><span data-stu-id="c838e-112">Configure Accounts payable overview</span></span>](accounts-payable-overview.md)
 
-[<span data-ttu-id="c99e0-113">Arvestuse jaotused ja alammooduli töölehe kirjed hankija arvete puhul</span><span class="sxs-lookup"><span data-stu-id="c99e0-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[<span data-ttu-id="c838e-113">Arvestuse jaotused ja alammooduli töölehe kirjed hankija arvete puhul</span><span class="sxs-lookup"><span data-stu-id="c838e-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
-[<span data-ttu-id="c99e0-114">Ostureskontro ja müügireskontro välisvaluuta ümberarvutamine</span><span class="sxs-lookup"><span data-stu-id="c99e0-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+[<span data-ttu-id="c838e-114">Ostureskontro ja müügireskontro välisvaluuta ümberarvutamine</span><span class="sxs-lookup"><span data-stu-id="c838e-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
-## <a name="configure-vendor-invoices"></a><span data-ttu-id="c99e0-115">Hankija arvete konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c99e0-115">Configure vendor invoices</span></span>
+## <a name="configure-vendor-invoices"></a><span data-ttu-id="c838e-115">Hankija arvete konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c838e-115">Configure vendor invoices</span></span>
 
-<span data-ttu-id="c99e0-116">Kasutage ostureskontrot, et jälgida arveid ja hankijatele tehtud väljaminevaid kulusid.</span><span class="sxs-lookup"><span data-stu-id="c99e0-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
+<span data-ttu-id="c838e-116">Kasutage ostureskontrot, et jälgida arveid ja hankijatele tehtud väljaminevaid kulusid.</span><span class="sxs-lookup"><span data-stu-id="c838e-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
 
-[<span data-ttu-id="c99e0-117">Ostureskontro arvete võrdlemise ülevaade</span><span class="sxs-lookup"><span data-stu-id="c99e0-117">Accounts payable invoice matching overview</span></span>](accounts-payable-invoice-matching.md)
+[<span data-ttu-id="c838e-117">Ostureskontro arvete võrdlemise ülevaade</span><span class="sxs-lookup"><span data-stu-id="c838e-117">Accounts payable invoice matching overview</span></span>](accounts-payable-invoice-matching.md)
 
-[<span data-ttu-id="c99e0-118">Hankija sisestusreeglid</span><span class="sxs-lookup"><span data-stu-id="c99e0-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
+[<span data-ttu-id="c838e-118">Hankija sisestusreeglid</span><span class="sxs-lookup"><span data-stu-id="c838e-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
 
-[<span data-ttu-id="c99e0-119">Ostureskontro arvete võrdlemise seadistamine</span><span class="sxs-lookup"><span data-stu-id="c99e0-119">Set up Accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+[<span data-ttu-id="c838e-119">Ostureskontro arvete võrdlemise seadistamine</span><span class="sxs-lookup"><span data-stu-id="c838e-119">Set up Accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
-[<span data-ttu-id="c99e0-120">Kolmesuunalised vastavusse viimise poliitikad</span><span class="sxs-lookup"><span data-stu-id="c99e0-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
+[<span data-ttu-id="c838e-120">Kolmesuunalised vastavusse viimise poliitikad</span><span class="sxs-lookup"><span data-stu-id="c838e-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
 
-[<span data-ttu-id="c99e0-121">Arve võrdlemine ja kontsernisisesed ostutellimused</span><span class="sxs-lookup"><span data-stu-id="c99e0-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
+[<span data-ttu-id="c838e-121">Arve võrdlemine ja kontsernisisesed ostutellimused</span><span class="sxs-lookup"><span data-stu-id="c838e-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
 
-[<span data-ttu-id="c99e0-122">Lahknevuste lahendamine arve kogusummade võrdlemisel – ülevaade</span><span class="sxs-lookup"><span data-stu-id="c99e0-122">Resolve discrepancies during invoice totals matching overview</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[<span data-ttu-id="c838e-122">Lahknevuste lahendamine arve kogusummade võrdlemisel – ülevaade</span><span class="sxs-lookup"><span data-stu-id="c838e-122">Resolve discrepancies during invoice totals matching overview</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
-[<span data-ttu-id="c99e0-123">Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod</span><span class="sxs-lookup"><span data-stu-id="c99e0-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
+[<span data-ttu-id="c838e-123">Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod</span><span class="sxs-lookup"><span data-stu-id="c838e-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
 
-[<span data-ttu-id="c99e0-124">Mobiilsed arvete heakskiidud</span><span class="sxs-lookup"><span data-stu-id="c99e0-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
+[<span data-ttu-id="c838e-124">Mobiilsed arvete heakskiidud</span><span class="sxs-lookup"><span data-stu-id="c838e-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
 
-[<span data-ttu-id="c99e0-125">Hankija koostöö arve tööruum</span><span class="sxs-lookup"><span data-stu-id="c99e0-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
+[<span data-ttu-id="c838e-125">Hankija koostöö arve tööruum</span><span class="sxs-lookup"><span data-stu-id="c838e-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
 
-[<span data-ttu-id="c99e0-126">Hankija arve automatiseerimine</span><span class="sxs-lookup"><span data-stu-id="c99e0-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
+[<span data-ttu-id="c838e-126">Hankija arve automatiseerimine</span><span class="sxs-lookup"><span data-stu-id="c838e-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
 
-## <a name="configure-vendor-payments"></a><span data-ttu-id="c99e0-127">Hankijamaksete konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c99e0-127">Configure vendor payments</span></span> 
+## <a name="configure-vendor-payments"></a><span data-ttu-id="c838e-127">Hankijamaksete konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c838e-127">Configure vendor payments</span></span> 
 
-<span data-ttu-id="c99e0-128">Määrake igale kasutaja määratud makseviisile süsteemi määratud maksetüüp, nt tšekk, elektrooniline makse või võlatäht.</span><span class="sxs-lookup"><span data-stu-id="c99e0-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="c99e0-129">Maksetüübid on valikulised, kuid kasulikud elektroonilist maksetüüpi kinnitades ja kui peate kiiresti otsustama, millist maksetüüpi makse kasutab.</span><span class="sxs-lookup"><span data-stu-id="c99e0-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
+<span data-ttu-id="c838e-128">Määrake igale kasutaja määratud makseviisile süsteemi määratud maksetüüp, nt tšekk, elektrooniline makse või võlatäht.</span><span class="sxs-lookup"><span data-stu-id="c838e-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="c838e-129">Maksetüübid on valikulised, kuid kasulikud elektroonilist maksetüüpi kinnitades ja kui peate kiiresti otsustama, millist maksetüüpi makse kasutab.</span><span class="sxs-lookup"><span data-stu-id="c838e-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
 
-[<span data-ttu-id="c99e0-130">Hankija maksete tööruum</span><span class="sxs-lookup"><span data-stu-id="c99e0-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
+[<span data-ttu-id="c838e-130">Hankija maksete tööruum</span><span class="sxs-lookup"><span data-stu-id="c838e-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
 
-[<span data-ttu-id="c99e0-131">Hankija maksetasude määratlemine</span><span class="sxs-lookup"><span data-stu-id="c99e0-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
+[<span data-ttu-id="c838e-131">Hankija maksetasude määratlemine</span><span class="sxs-lookup"><span data-stu-id="c838e-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
 
-[<span data-ttu-id="c99e0-132">Hankija maksetingimuste määratlemine</span><span class="sxs-lookup"><span data-stu-id="c99e0-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
+[<span data-ttu-id="c838e-132">Hankija maksetingimuste määratlemine</span><span class="sxs-lookup"><span data-stu-id="c838e-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
 
-[<span data-ttu-id="c99e0-133">Positiivse makse ülevaade</span><span class="sxs-lookup"><span data-stu-id="c99e0-133">Positive pay overview</span></span>](positive-pay-overview.md)
+[<span data-ttu-id="c838e-133">Positiivse makse ülevaade</span><span class="sxs-lookup"><span data-stu-id="c838e-133">Positive pay overview</span></span>](positive-pay-overview.md)
 
-[<span data-ttu-id="c99e0-134">Positiivse makse failide seadistamine ja loomine</span><span class="sxs-lookup"><span data-stu-id="c99e0-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
+[<span data-ttu-id="c838e-134">Positiivse makse failide seadistamine ja loomine</span><span class="sxs-lookup"><span data-stu-id="c838e-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
 
-[<span data-ttu-id="c99e0-135">Hankija maksete loomine maksesoovituse abil</span><span class="sxs-lookup"><span data-stu-id="c99e0-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
+[<span data-ttu-id="c838e-135">Hankija maksete loomine maksesoovituse abil</span><span class="sxs-lookup"><span data-stu-id="c838e-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
 
-[<span data-ttu-id="c99e0-136">Hankija osalises summas maksed</span><span class="sxs-lookup"><span data-stu-id="c99e0-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
+[<span data-ttu-id="c838e-136">Hankija osalises summas maksed</span><span class="sxs-lookup"><span data-stu-id="c838e-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
 
-[<span data-ttu-id="c99e0-137">Hankija makse arvutatud skontost suurema skonto võtmine</span><span class="sxs-lookup"><span data-stu-id="c99e0-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
+[<span data-ttu-id="c838e-137">Hankija makse arvutatud skontost suurema skonto võtmine</span><span class="sxs-lookup"><span data-stu-id="c838e-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
 
-[<span data-ttu-id="c99e0-138">Skonto võtmine väljaspool skonto perioodi</span><span class="sxs-lookup"><span data-stu-id="c99e0-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
+[<span data-ttu-id="c838e-138">Skonto võtmine väljaspool skonto perioodi</span><span class="sxs-lookup"><span data-stu-id="c838e-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[<span data-ttu-id="c99e0-139">Hankija näidistšekid elektroonilise aruandluse korral</span><span class="sxs-lookup"><span data-stu-id="c99e0-139">Electronic reporting sample vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
+[<span data-ttu-id="c838e-139">Hankija näidistšekid elektroonilise aruandluse korral</span><span class="sxs-lookup"><span data-stu-id="c838e-139">Electronic reporting sample vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
 
-[<span data-ttu-id="c99e0-140">Hankija makse storneerimine</span><span class="sxs-lookup"><span data-stu-id="c99e0-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
+[<span data-ttu-id="c838e-140">Hankija makse storneerimine</span><span class="sxs-lookup"><span data-stu-id="c838e-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
 
-[<span data-ttu-id="c99e0-141">Ettemaksuarved vs. ettemaksed</span><span class="sxs-lookup"><span data-stu-id="c99e0-141">Prepayment invoices vs. prepayments</span></span>](prepayments-invoices-vs-prepayments.md)
+[<span data-ttu-id="c838e-141">Ettemaksuarved vs. ettemaksed</span><span class="sxs-lookup"><span data-stu-id="c838e-141">Prepayment invoices vs. prepayments</span></span>](prepayments-invoices-vs-prepayments.md)
 
-[<span data-ttu-id="c99e0-142">Ostureskontro tsentraliseeritud maksed</span><span class="sxs-lookup"><span data-stu-id="c99e0-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
+[<span data-ttu-id="c838e-142">Ostureskontro tsentraliseeritud maksed</span><span class="sxs-lookup"><span data-stu-id="c838e-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
 
-## <a name="settlements"></a><span data-ttu-id="c99e0-143">Tasakaalustused</span><span class="sxs-lookup"><span data-stu-id="c99e0-143">Settlements</span></span>
+## <a name="settlements"></a><span data-ttu-id="c838e-143">Tasakaalustused</span><span class="sxs-lookup"><span data-stu-id="c838e-143">Settlements</span></span>
 
-<span data-ttu-id="c99e0-144">Järgmised teemad annavad teavet tasakaalustuste kohta.</span><span class="sxs-lookup"><span data-stu-id="c99e0-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="c99e0-145">Tasakaalustamine tähendab maksete tasakaalustamist arvetega.</span><span class="sxs-lookup"><span data-stu-id="c99e0-145">Settlement is the process of settling payments with invoices.</span></span> 
+<span data-ttu-id="c838e-144">Järgmised teemad annavad teavet tasakaalustuste kohta.</span><span class="sxs-lookup"><span data-stu-id="c838e-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="c838e-145">Tasakaalustamine tähendab maksete tasakaalustamist arvetega.</span><span class="sxs-lookup"><span data-stu-id="c838e-145">Settlement is the process of settling payments with invoices.</span></span> 
 
-[<span data-ttu-id="c99e0-146">Tasakaalustuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c99e0-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
+[<span data-ttu-id="c838e-146">Tasakaalustuse konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c838e-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
 
-[<span data-ttu-id="c99e0-147">Hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva</span><span class="sxs-lookup"><span data-stu-id="c99e0-147">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[<span data-ttu-id="c838e-147">Hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva</span><span class="sxs-lookup"><span data-stu-id="c838e-147">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
-[<span data-ttu-id="c99e0-148">Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="c99e0-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+[<span data-ttu-id="c838e-148">Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="c838e-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
-[<span data-ttu-id="c99e0-149">Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="c99e0-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
+[<span data-ttu-id="c838e-149">Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine</span><span class="sxs-lookup"><span data-stu-id="c838e-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[<span data-ttu-id="c99e0-150">Hankija osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva</span><span class="sxs-lookup"><span data-stu-id="c99e0-150">Settle a partial vendor payment and the final payment in full before the discount date</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[<span data-ttu-id="c838e-150">Hankija osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva</span><span class="sxs-lookup"><span data-stu-id="c838e-150">Settle a partial vendor payment and the final payment in full before the discount date</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
-[<span data-ttu-id="c99e0-151">Üksik mitme kliendi- või hankijakirjega kanne</span><span class="sxs-lookup"><span data-stu-id="c99e0-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
+[<span data-ttu-id="c838e-151">Üksik mitme kliendi- või hankijakirjega kanne</span><span class="sxs-lookup"><span data-stu-id="c838e-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
 
 
 
-### <a name="additional-resources"></a><span data-ttu-id="c99e0-152">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c99e0-152">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="c838e-152">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c838e-152">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="c99e0-153">Mis on uut ja mis on arendamisel?</span><span class="sxs-lookup"><span data-stu-id="c99e0-153">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="c838e-153">Mis on uut ja mis on arendamisel?</span><span class="sxs-lookup"><span data-stu-id="c838e-153">What's new and in development</span></span>
 
-<span data-ttu-id="c99e0-154">Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone kavandatakse.</span><span class="sxs-lookup"><span data-stu-id="c99e0-154">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
+<span data-ttu-id="c838e-154">Avage [Microsoft Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/), et näha, milliseid uusi funktsioone kavandatakse.</span><span class="sxs-lookup"><span data-stu-id="c838e-154">Go to the [Microsoft Dynamics 365 release plans](/dynamics365/release-plans/) to see what new features are planned.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="c99e0-155">Ajaveebid</span><span class="sxs-lookup"><span data-stu-id="c99e0-155">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="c838e-155">Ajaveebid</span><span class="sxs-lookup"><span data-stu-id="c838e-155">Blogs</span></span>
 
-<span data-ttu-id="c99e0-156">Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)ja [ajaveebist Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)</span><span class="sxs-lookup"><span data-stu-id="c99e0-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+<span data-ttu-id="c838e-156">Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)ja [ajaveebist Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)</span><span class="sxs-lookup"><span data-stu-id="c838e-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
 
-<span data-ttu-id="c99e0-157">[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kus asub teave selle kohta, mis on uut ja põnevat rakenduses Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="c99e0-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
+<span data-ttu-id="c838e-157">[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kus asub teave selle kohta, mis on uut ja põnevat rakenduses Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="c838e-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
 
-#### <a name="community-blogs"></a><span data-ttu-id="c99e0-158">Kogukonna ajaveebid</span><span class="sxs-lookup"><span data-stu-id="c99e0-158">Community blogs</span></span>
+#### <a name="community-blogs"></a><span data-ttu-id="c838e-158">Kogukonna ajaveebid</span><span class="sxs-lookup"><span data-stu-id="c838e-158">Community blogs</span></span>
 
-[<span data-ttu-id="c99e0-159">Võlgnevuste haldamine rakenduses Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="c99e0-159">How to manage payables in Dynamics 365 Finance</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[<span data-ttu-id="c838e-159">Võlgnevuste haldamine rakenduses Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="c838e-159">How to manage payables in Dynamics 365 Finance</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
-#### <a name="task-guides"></a><span data-ttu-id="c99e0-160">Tegevuse juhised</span><span class="sxs-lookup"><span data-stu-id="c99e0-160">Task guides</span></span>
-<span data-ttu-id="c99e0-161">Lisaspikker on saadaval rakenduses tegevuse juhistena.</span><span class="sxs-lookup"><span data-stu-id="c99e0-161">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="c99e0-162">Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu „Spikker”.</span><span class="sxs-lookup"><span data-stu-id="c99e0-162">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="c838e-160">Tegevuse juhised</span><span class="sxs-lookup"><span data-stu-id="c838e-160">Task guides</span></span>
+<span data-ttu-id="c838e-161">Lisaspikker on saadaval rakenduses tegevuse juhistena.</span><span class="sxs-lookup"><span data-stu-id="c838e-161">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="c838e-162">Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu „Spikker”.</span><span class="sxs-lookup"><span data-stu-id="c838e-162">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="c99e0-163">Videod</span><span class="sxs-lookup"><span data-stu-id="c99e0-163">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="c838e-163">Videod</span><span class="sxs-lookup"><span data-stu-id="c838e-163">Videos</span></span>
 
-<span data-ttu-id="c99e0-164">Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="c99e0-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="c838e-164">Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="c838e-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 
