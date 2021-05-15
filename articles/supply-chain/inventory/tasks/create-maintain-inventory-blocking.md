@@ -1,8 +1,8 @@
 ---
 title: Varude blokeerimise loomine ja haldamine
-description: See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist.
+description: Selles teemas kirjeldatakse, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833997"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956154"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Varude blokeerimise loomine ja haldamine
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist. Saate käitada protseduuri demoandmete ettevõttes USMF näidatud näidisväärtusi kasutades. Enne selle protseduuri alustamist peab teil olema füüsilise vaba kaubavaruga kaup saadaval.
+Selles teemas kirjeldatakse, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist. Enne seda teemat puudutava protseduuri alustamist peab teil olema füüsilise vaba kaubavaruga kaup saadaval.
 
+## <a name="block-inventory"></a>Blokeeri varud
 
-## <a name="create-an-inventory-blocking"></a>Varude blokeerimise loomine
-1. Paanil **Navigeerimispaan** avage **Moodulid > Varude haldus > Perioodilised ülesanded > Varude blokeerimine**.
-2. Klõpsake valikut **Uus**.
-3. Väljal **Kaubakood** klõpsake ripploendi nuppu, et avada otsing.
-4. Valige loendist kaup, mille soovite valida. Valige kauba number koos füüsilise vaba kaubavaruga, mida soovite blokeerida. USMF-i kasutamisel saate valida kauba M9201.  
-5. Sisestage arv väljale **Kogus**. Kauba M9201 kasutamisel peate valima alla 200.
-6. Laiendage vahekaart **Varude dimensioonid**.
-7. Väljal **Ladu** klõpsake ripploendi nuppu, et avada otsing.
-8. Otsige loendist ja valige soovitud kirje. Kauba M9201 kasutamisel saate valida lao 51.  
-9. Klõpsake valikut **Salvesta**.
+Varude blokeerimise kirje loomiseks selliselt, et inventar on blokeeritud, järgige neid samme.
+
+1. Avage **Varude haldus \> Perioodilised ülesanded \> Inventari blokeerimine**.
+1. Valige toimingupaanil nupp **Uus**.
+1. Määrake uue blokeerimiskirje päises **kaubakoodi** väli kaubale, mida soovite blokeerida, ja sisestage kirjeldus.
+1. Sisestage blokeeritavate kaupade arv kiirkaardi **Üldine** väljale **Kogus**.
+1. Kiirkaardil **Varude dimensioonid** määrake sait ja ladu, kus asuvad kaubad, mida soovite blokeerida.
+1. Valige toimingupaanil nupp **Salvesta**.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Varude blokeerimise tingimuste värskendamine
-1. Sisestage arv väljale **Kogus** kiirkaardil **Üldine**. Blokeeritava koguse kajastamiseks värskendage varude koguse välja.  
-2. Väljale **Eeldatav kuupäev** sisestage kuupäev. Võite soovida näidata, millal blokeeritud varud peaks reserveerimiseks saadaolevaks muutuma, määrates eeldatava kuupäeva. Kui suvand Prognoositud sissetulekud on varude blokeerimise puhul valitud, nagu blokeerimise käsitsi loomisel vaikimisi, kuvatakse see kuupäev prognoositud kandel.  
-3. Klõpsake valikut **Salvesta**.
 
-## <a name="remove-the-inventory-blocking"></a>Varude blokeerimise eemaldamine
-1. Klõpsake paanil **Toimingupaan** käsku **Kustuta**.
-2. Klõpsake nuppu **Jah**.
-3. Sulgege leht.
+Varude blokeerimise kirje uuendamiseks järgige neid samme.
 
+1. Avage **Varude haldus \> Perioodilised ülesanded \> Inventari blokeerimine**.
+1. Valige loendipaanil asjakohane blokeerimiskirje.
+1. Redigeerige kandeid nii, nagu vaja. Näiteks võite muuta välja **Oodatav kuupäev** väärtust näitamaks, millal blokeeritud inventar jälle reserveerimiseks vabaks antakse. Kui on valitud suvand **Oodatud sissetulekud**, kuvatakse kuupäev eeldataval kandel. (Välja **Eeldatud sissetulekud** suvand valitakse vaikimisi blokeeriva kirje käsitsi loomisel.)
+1. Valige toimingupaanil nupp **Salvesta**.
 
+## <a name="unblock-inventory"></a>Varude blokeeringu eemaldamine
+
+Varude blokeerimise kirje eemaldamiseks selliselt, et inventar ei oleks enam blokeeritud, järgige neid samme.
+
+1. Avage **Varude haldus \> Perioodilised ülesanded \> Inventari blokeerimine**.
+1. Valige loendipaanil asjakohane blokeerimiskirje.
+1. Valige tegumiribal suvand **Kustuta**.
+1. Teil pakutakse tegevus kinnitada. Jätkamiseks valige **Jah**.
+1. Sulgege leht.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

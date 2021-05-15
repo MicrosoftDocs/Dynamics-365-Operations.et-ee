@@ -2,7 +2,7 @@
 title: Lükka edasi elementide käivitamise järjestus ER-vormingus
 description: Selles teemas selgitatakse, kuidas lükata järjestuse elemendi käivitamine elektroonilise aruandluse (ER) vormingus.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894096"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944505"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Lükka edasi elementide käivitamise järjestus ER-vormingus
 
@@ -57,14 +57,14 @@ Kui te pole veel lõpule viinud näidet teemas [ER-vormingu XML-elementide käiv
 
 | Sisu kirjeldus            | Faili nimi |
 |--------------------------------|-----------|
-| ER-i andmemudeli konfiguratsioon    | [Mudel edasilükatud XML elements.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER mudelivastenduse konfiguratsioon | [Vastendus edasilükatud elements.version.1.1.xml kohta teabe saamiseks](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER-i andmemudeli konfiguratsioon    | [Mudel edasilükatud XML elements.version.1.xml õppimiseks](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER mudelivastenduse konfiguratsioon | [Vastendus edasilükatud elements.version.1.1.xml kohta teabe saamiseks](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Enne alustamist tuleb teil alla laadida ja salvestada ka proovi ER-lahenduse järgmine konfiguratsioon.
 
 | Sisu kirjeldus     |Faili nimi |
 |-------------------------|----------|
-| Elektroonilise aruandluse vormingu konfiguratsioon | [Vorming edasilükatud sequences.version.1.1.xml kohta teabe saamiseks](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Elektroonilise aruandluse vormingu konfiguratsioon | [Vorming edasilükatud sequences.version.1.1.xml kohta teabe saamiseks](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>ER-i konfiguratsioonide näidise importimine
 
@@ -169,7 +169,7 @@ Vaadake üle ER mudeli vastendamise komponendi sätted, mis on konfigureeritud j
 1. Lehel **Vormingu kujundaja** valige suvand **Käivitamine**.
 2. Laadige alla fail, mida veebilehitseja pakub, ja avage see läbivaatuseks.
 
-    ![Allalaaditud fail](./media/ER-DeferredSequence-Run.png)
+    ![Allalaaditud näidisaruande fail](./media/ER-DeferredSequence-Run.png)
 
 Pange tähele, et kokkuvõtte rida 22 esitab töödeldud kannete maksu väärtuste summa. Kuna vorming on konfigureeritud kasutama **model.Data.Summary.Total**-it, mis on siduv selle summa tagastamiseks, arvutatakse summa, kutsudes välja mudeli vastendamises **TotalSum** summeerimiseks **Rühmitatud** andmeallika, *Rühmitusaluse* tüübi. Selle summeerimise arvutamiseks mudeli vastendamine itereerib üle kõigi kannete, mis on valitud **Filtreeritud** andmeallikas. Ridade 21 ja 22 käivitamise kordade võrdlemisel saate määratleda, et summa arvutamisel kulus 10 millisekundit (MS). Ridade 2 ja 21 käivitamise kordade võrdlemisel saate määratleda, et kõikide kanderidade loomisel kulus 7 millisekundit. Seetõttu vajati kokku 17 ms.
 
@@ -202,7 +202,7 @@ Kui kannete maht on praeguse näite mahust palju suurem, võib summeerimise aeg 
 12. Valige nupp **Salvesta** ja seejärel suvand **Käivita**.
 13. Laadige alla fail, mida veebilehitseja pakub, ja vaadale läbi.
 
-    ![Allalaaditud fail](./media/ER-DeferredSequence-Run1.png)
+    ![Allalaaditud fail – summeeritud maksuväärtused](./media/ER-DeferredSequence-Run1.png)
 
     Rida 21 sisaldab kõigi töödeldud kannete puhul arvutatud maksude väärtuste jooksvat kogusummat, kasutades loodud väljundit andmeallikana. See andmeallikas algab aruande algusest ja jätkub kuni viimase maksu kandeni. Rida 22 sisaldab kõigi töödeldud kannete maksuväärtuste summat, mis arvutatakse mudeli vastendamisel, kasutades *Rühmitusaluse* tüüpi andmeallikat. Pange tähele, et need väärtused on võrdsed. Seetõttu saab üksuse **Rühmitusalus** asemel kasutada väljundi baasil summeerimist. Ridade 2 ja 21 käivitamise kordade võrdlemisel saate määratleda, et kõikide kanderidade loomiseks ja summeerimiseks kulus 9 millisekundit. Seetõttu on üksikasjalike ridade loomise ja maksu väärtuste summeerimise osas muudetud vorming umbes kaks korda kiirem kui algne vorming.
 
@@ -211,7 +211,7 @@ Kui kannete maht on praeguse näite mahust palju suurem, võib summeerimise aeg 
 16. Valige nupp **Salvesta** ja seejärel suvand **Käivita**.
 17. Laadige alla fail, mida veebilehitseja pakub, ja vaadale läbi.
 
-    ![Allalaaditud fail](./media/ER-DeferredSequence-Run2.png)
+    ![Allalaaditud fail koos redigeeritud valemiga](./media/ER-DeferredSequence-Run2.png)
 
     Pange tähele, et viimase kande üksikasjade rea maksude väärtuste jooksev kogusumma võrdub nüüd kokkuvõtte rea summaga.
 
@@ -224,7 +224,7 @@ Kui näiteks peate oma aruande päises esitama maksude väärtuste summa, saate 
 3. Valige nupp **Salvesta** ja seejärel suvand **Käivita**.
 4. Laadige alla fail, mida veebilehitseja pakub, ja vaadale läbi.
 
-    ![Allalaaditud fail](./media/ER-DeferredSequence-Run3.png)
+    ![Allalaaditud fail summeerimiseks aruande päise tarbeks](./media/ER-DeferredSequence-Run3.png)
 
     Pange tähele, et maksu väärtuste summa kokkuvõtte real 2 võrdub nüüd 0 (null), kuna see summa arvutatakse loodud väljundi põhjal. Kui luuakse rida 2, ei sisalda loodud väljund veel kirje ridu, millel on kande üksikasjad. Saate konfigureerida selle vormingu, et lükata edasi **Report\\Lines\\Summary** järjestuselemendi käivitamine, kuni **Report\\Message\\Record** element on käivitatud kõigi maksukannete puhul.
 
@@ -238,7 +238,7 @@ Kui näiteks peate oma aruande päises esitama maksude väärtuste summa, saate 
 3. Valige nupp **Salvesta** ja seejärel suvand **Käivita**.
 4. Laadige alla fail, mida veebilehitseja pakub, ja vaadale läbi.
 
-    ![Allalaaditud fail](./media/ER-DeferredSequence-Run4.png)
+    ![Allalaaditud fail – edasi lükatud käivitamine](./media/ER-DeferredSequence-Run4.png)
 
     **Report\\Lines\\Summary** järjestuselementi käivitatakse nüüd ainult siis, kui kõik muud üksused, mis on pesastatud selle peamise elemendi  **Report\\Lines** alusel, on käivitatud. Seetõttu käivitatakse see pärast **Report\\Lines\\Record** järjestuselemendi käivitamist **model.Data.List** andmeallika kõigi maksukannete puhul. See asjaolu näitab ridade 1, 2 ja 3 ning viimase rea täitmise aegu 22.
 

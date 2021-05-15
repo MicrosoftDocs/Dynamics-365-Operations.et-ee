@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a091e059d4528c356a5038c750cac3a3f31a7edb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3758ff51de8217a209b40d7dd461e42ea9632f0a
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799640"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936878"
 ---
 # <a name="call-center-catalogs"></a>Kõnekeskuse kataloogid
 
@@ -39,7 +39,7 @@ Kui ile lisati kõnekeskuse kanali tugi, siis laiendati kataloogi mõistet – l
 
 Kataloogi konfigureerimiseks klõpsake valikuid **Jaemüük ja kaubandus** \> **Kataloogid ja sortimendid** \> **Kõik kataloogid**.
 
-Uue kataloogi loomisel tuleb see esmalt siduda ühe või enama kanaliga. Seda saate teha vormi **Kataloogi seadistus** kiirkaardil **Kaubanduse kanalid**. Klõpsake nuppu **Lisa** ja valige üks või mitu kanalit. Kataloogi loomiseks saab kasutada ainult kaupu, mis on seotud teie valitud kanalite [sortimentidega](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments).
+Uue kataloogi loomisel tuleb see esmalt siduda ühe või enama kanaliga. Seda saate teha vormi **Kataloogi seadistus** kiirkaardil **Kaubanduse kanalid**. Klõpsake nuppu **Lisa** ja valige üks või mitu kanalit. Kataloogi loomiseks saab kasutada ainult kaupu, mis on seotud teie valitud kanalite [sortimentidega](/dynamics365/unified-operations/retail/assortments).
 
 Toodete lisamiseks kataloogi tuleb valida navigeerimishierarhia. Navigeerimishierarhia toetab kataloogi jaoks kategooriastruktuuri. Peate valima ühe navigeerimishierarhia, mis on seotud lehe **Kataloog** kiirkaardilt **Ärikanalid** valitud jaemüügikanaliga. Kui navigeerimishierarhiat pole varem kanaliga seotud, siis valige **Jaemüük ja kaubandus** \> **Kanali seadistus** \> **Kanali kategooriad ja toote atribuudid**, et vaikimisi siduda navigeerimishierarhia iga kanaliga.
 

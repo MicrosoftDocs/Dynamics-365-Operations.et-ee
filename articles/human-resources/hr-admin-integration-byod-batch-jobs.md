@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890072"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951928"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD ajastatud pakett-tööde optimeerimine
 
@@ -89,6 +89,12 @@ Funktsioonil BYOD on järgmised piirangud.
 **Probleem:** kui üksuse jaoks tehakse täielik jaotus, kuvatakse BYOD-s suur kirjete kogum, kui kasutate lauset **vali**. Kui te aga teete astmelise jaotuse, kuvatakse BYOD-s ainult mõned kirjed. Näib, et astmeline jaotus kustutas kõik kirjed ja lisas ainult muudetud kirjed BYOD-s.
 
 **Lahendus:** SQL-i muudatuste jälgimise tabelid ei pruugi olla eeldatud olekus. Seda tüüpi juhtumite korral soovitame teil üksuse muudatuste jälgimise välja lülitada ja seejärel see uuesti sisse lülitada. Lisateabe saamiseks vt [Üksuste muudatuste jälgimise lubamine](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Koondamistabelid ei tühjendata
+
+**Probleem:** projekti ajalist jaotust kasutades ei tühjendata koondamistabeleid õigesti. Tabelis olevate andmete hulk kasvab, mis põhjustab jõudlusprobleeme.
+
+**Lahendus:** koondamistabelites säilitatakse 7 päeva ajalugu. Seitsmest päevast vanemad ajaloolised andmed tühjendatakse automaatselt koondamistabelite **impordi-ekspordi ajastuspuhastuse** pakett-tööga. Kui see töö hangub, ei tühjenda tabelid õigesti. Selle pakett-töö taaskäivitamine jätkab protsessi, et tühjendada automaatselt koondamistabelid.
 
 ## <a name="see-also"></a>Vt ka
 

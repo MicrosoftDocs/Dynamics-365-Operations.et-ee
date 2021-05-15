@@ -2,7 +2,7 @@
 title: Andmeallikate JOIN kasutamine elektroonilises aruandluse (ER) mudeli vastendustes, et saada andmeid mitmest rakendusetabelist
 description: Selles teema selgitatakse, kuidas saate kasutada elektroonilises aruandluses andmeallikaid JOIN.
 author: NickSelin
-ms.date: 05/04/2020
+ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743973"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944700"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Andmeallikate JOIN kasutamine andmete saamiseks mitmest rakendusetabelist elektroonilise aruandluse (ER) mudeli vastendustes
 
@@ -64,13 +64,13 @@ Selle teema näides kirjeldatud toimingute tegemiseks peab teil olema juurdepä�
 
 Samuti peate esmalt läbima protseduuri [Konfiguratsiooni pakkuja loomine ning aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md) etapid.
 
-Eelnevalt peate lisaks [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=000000) alla laadima ja lokaalselt salvestama järgmised proovi ER-i konfiguratsioonifailide näidised:
+Eelnevalt peate alla laadima ja salvestama järgmised ER-i konfiguratsiooni näidisfailid:
 
 | **Sisu kirjeldus**  | **Faili nimi**   |
 |--------------------------|-----------------|
-| **ER-i andmemudeli** konfiguratsioonifaili näidis, mida kasutatakse näidete andmeallikana.| [Model to learn JOIN data sources.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| **ER-i mudelivastenduse** konfiguratsioonifaili näidis, mis kasutab näidete jaoks ER-i andmemudelit. | [Mapping to learn JOIN data sources.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| **ER-i vormingu** konfiguratsioonifaili näidis. See fail kirjeldab andmeid, millega asustatakse näidistes ER-i vormingu komponent. | [Format to learn JOIN data sources.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| **ER-i andmemudeli** konfiguratsioonifaili näidis, mida kasutatakse näidete andmeallikana.| [Model to learn JOIN data sources.version.1.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
+| **ER-i mudelivastenduse** konfiguratsioonifaili näidis, mis kasutab näidete jaoks ER-i andmemudelit. | [Mapping to learn JOIN data sources.version.1.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| **ER-i vormingu** konfiguratsioonifaili näidis. See fail kirjeldab andmeid, millega asustatakse näidistes ER-i vormingu komponent. | [Format to learn JOIN data sources.version.1.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Konfiguratsioonide pakkuja aktiveerimine
 
@@ -99,7 +99,7 @@ Eelnevalt peate lisaks [Microsofti allalaadimiskeskusest](https://go.microsoft.c
     3. Valige **Sirvi**, et leida fail **Format to learn JOIN data sources.version.1.1.xml**.
     4. Valige nupp **OK**.
 5. Laiendage konfiguratsioonide puus üksust **Mudel andmeallikate JOIN õppimiseks**, samuti muid mudeliüksusi (kui on saadaval).
-6. Jälgige ER‑i konfiguratsioonide loendit puus kui ka versiooni üksikasju kiirkaardil **Versioonid** – neid kasutatakse teie näidisaruande andmete allikana.
+6. Jälgige nii ER‑i konfiguratsioonide loendit puus kui ka versiooni üksikasju kiirkaardil **Versioonid** – neid kasutatakse teie näidisaruande andmete allikana.
 
     ![Elektroonilise aruandluse konfiguratsioonide leht](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
@@ -123,18 +123,18 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 4. Valige **Üksikasjade näitamine**.
 5. Laiendage konfiguratsioonide puus andmemudeli üksusi **Set1** ja **Set1.Details**:
 
-    1. Sidumine **Details: Record list = Versions** näitab, et üksus **Set1.Details** on seotud andmeallikaga **Versioonid**, mis tagastab tabeli **ERSolutionVersionTable** kirjed. Selle tabeli iga kirje kajastab ER-i konfiguratsiooni ühte versiooni. Selle tabeli sisu on esitatud lehe **Konfiguratsioonid** kiirkaardil **Versioonid**.
+    1. Sidumine **Details: Record list = Versions** näitab, et üksus **Set1.Details** on seotud andmeallikaga **Versioonid**, mis tagastab tabeli **ERSolutionVersionTable** kirjed. Selle tabeli iga kirje kajastab ER-i konfiguratsiooni ühte versiooni. Selle tabeli sisu on esitatud kiirkaardil **Versioonid**, mis asub lehel **Konfiguratsioonid**.
     2. Sidumine **ConfigurationVersion: String = @.PublicVersionNumber** tähendab, et iga ER-i konfiguratsiooni versiooni avaliku versiooni väärtus võetakse tabeli **ERSolutionVersionTable** väljalt **PublicVersionNumber** ja paigutatakse üksusesse **ConfigurationVersion**.
     3. Sidumine **ConfigurationTitle: String = @.'>Relations'.Solution.Name** näitab, et ER-i konfiguratsiooni nimi võetakse tabeli **ERSolutionTable** väljalt **Nimi**, hinnates tabelite **ERSolutionVersionTable** ja **ERSolutionTable** vahelist mitu-ühele seost (**'>Seosed**). Praeguse rakenduse eksemplari ER-i konfiguratsioonide nimed esitatakse konfiguratsioonide puus lehel **Konfiguratsioonid**.
     4. Sidumine **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** näitab, et praegust konfiguratsiooni omava konfiguratsiooni pakkuja nimi võetakse tabeli **ERVendorTable** väljalt **Nimi**, hinnates tabelite **ERSolutionTable** ja **ERVendorTable** vahelist mitu-ühele seost. ER-i konfiguratsiooni pakkujate nimed esitatakse konfiguratsioonide puus lehel **Konfiguratsioonid** iga konfiguratsiooni lehepäises. Kogu ER-i konfiguratsiooni pakkujate kogu loendi leiate tabelilehelt **Organisatsiooni haldus \> Elektrooniline aruandlus \> Konfiguratsiooni pakkuja** tabeli lehelt.
 
-    ![ER-i mudelivastenduse koostaja leht](./media/GER-JoinDS-Set1Review.PNG)
+    ![Andmemudeli kaardistamise disainimisleht, leht seotud andmemudeli üksustega](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Laiendage konfiguratsioonide puus andmemudeli üksust **Set1.Summary**:
 
     1. Sidumine **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** näitab, et üksus **Set1.Summary.VersionsNumber** on seotud andmeallika **VersionsSummary** (tüüp **GroupBy**) kogumi väljaga **VersionsNumber**, mis oli konfigureeritud tagastama tabeli **ERSolutionVersionTable** kirjete arvu andmeallika **Versioonid** kaudu.
 
-    ![Andmeallika GROUPBY parameetrite leht](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![Parameetrilehe redigeerimine "Rühmitamisloogika"](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Sulgege leht.
 
@@ -144,11 +144,11 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 
 1. Laiendage konfiguratsioonide puus andmemudeli üksusi **Set2** ja **Set2.Details**: Sidumine **Details: Record list = Details** (Üksikasjad: kirjete loend = üksikasjad) näitab, et üksus **Set2.Details** on seotud andmeallikaga **Üksikasjad**, mis on konfigureeritud andmeallikana, mille tüüp on **Ühendamine**.
 
-    ![ER-i mudelivastenduse koostaja leht](./media/GER-JoinDS-Set2Review.PNG)
+    ![Andmemudelite kaardistamise disainimise leht, mis kuvab laiendatud andmemudeli üksuseid Set2:Record](./media/GER-JoinDS-Set2Review.PNG)
 
     Andmeallika **Ühendamine** saab lisada, valides andmeallika **Functions\Join**:
 
-    ![ER-i mudelivastenduse koostaja leht](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![Andmemudeli kujundamise leht, andmeallika tüübi ühendamine](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Valige andmeallikas **Üksikasjad**:
 3. Valige paanil **Andmeallikad** käsk **Redigeeri**.
@@ -196,21 +196,21 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 
     See vorming on loodud genereeritud tekstifaili asustamiseks uue reaga ER-i konfiguratsiooni iga versiooni (**Versiooni** järjestus) jaoks. Iga loodud rida sisaldab konfiguratsiooni pakkuja nime, kes omab praegust konfiguratsiooni, konfiguratsiooni nime ja konfiguratsiooni versiooni, mis on eraldatud semikooloniga. Loodud faili viimane rida sisaldab ER-i konfiguratsioonide (**Kokkuvõtte** järjestus) avastatud versioonide arvu.
 
-    ![ER-i vormingu koostaja leht](./media/GER-JoinDS-FormatReview.PNG)
+    ![Andmemudeli vormingu kujundamisleht, vahekaart Vormindamine](./media/GER-JoinDS-FormatReview.PNG)
 
     Andmeallikaid **Andmed** ja **Kokkuvõte** kasutatakse konfiguratsiooni versiooni üksikasjade asustamiseks loodud faili:
 
     - Andmemudelist **Set1** saadud teavet kasutatakse siis, kui valite käitusajal ER-i vormingu kasutamisel kasutajadialoogi lehel andmeallika **Valija** väärtuseks **Ei**.
     - Andmemudelist **Set2** saadud teavet kasutatakse siis, kui valite käitusajal kasutajadialoogi lehel andmeallika **Valija** väärtuseks **Jah**.
 
-    ![ER-i vormingu koostaja leht](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![Andmemudeli vormingu kujundamisleht, vahekaart Kaardistamine](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Valige käsk **Käitus**.
 10. Valige dialoogilehe väljal **Kasuta andmeallikat JOIN** väärtus **Ei**.
 11. Valige nupp **OK**.
 12. Vaadake loodud fail üle.
 
-    ![ER-i kasutajadialoogi leht](./media/GER-JoinDS-Set1Run.PNG)
+    ![Elektroonilise aruandeparameetritega loodud fail ei kasuta JOIN-andmeallikat](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>ER-i vormingu käivitamise jälituse analüüsimine
 
@@ -224,7 +224,7 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
     - **ERSolutionTable** on kutsutud nii mitu korda, kui teil on tabelis **ERSolutionVersionTable** konfiguratsiooni versiooni kirjeid, samas kui selliste kutsete arv võib jõudluse suurenemisel väheneda.
     - **ERVendorTable** on kutsutud kaks korda iga tabelis **ERSolutionVersionTable** avastatud konfiguratsiooni versiooni kirje kohta, samas võib selliste kutsete arv samuti väheneda.
 
-    ![ER-i mudelivastenduse koostaja leht](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Läbiviimisstatistika andmemudeli kaardistamise koostaja lehel](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Sulgege leht.
 
@@ -236,7 +236,7 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 4. Valige nupp **OK**.
 5. Vaadake loodud fail üle.
 
-    ![ER-i kasutajadialoogi leht](./media/GER-JoinDS-Set2Run.PNG)
+    ![Elektroonilise aruandeparameetritega loodud fail, mis ei kasuta JOIN-andmeallikat](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> ER-i vormingu käivitamise jälituse analüüsimine
 
@@ -249,11 +249,11 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 
     - Rakenduse andmebaas on kutsutud ühe korra, et saada tabelitest **ERVendorTable**, **ERSolutionTable** ja **ERSolutionVersionTable** kirjed nõutavatele väljadele pääsemiseks.
 
-    ![ER-i mudelivastenduse koostaja leht](./media/GER-JoinDS-Set2Run2.PNG)
+    ![Jõudlusstatistika detailandmed andmemudeli kaardistamise koostaja lehel](./media/GER-JoinDS-Set2Run2.PNG)
 
     - Rakenduse andmebaas on kutsutud ühe korra, et arvutada konfiguratsiooni versioonide arv, kasutades ühendamisi, mis olid konfigureeritud andmeallikas **Üksikasjad**.
 
-    ![ER-i mudelivastenduse koostaja leht](./media/GER-JoinDS-Set2Run3.PNG)
+    ![Andmemudeli kaardistamise kujundaja leht, kus kuvatakse rakenduse andmebaasi päringuid](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Kitsendused
 

@@ -2,7 +2,8 @@
 title: B2B e-kaubanduse saidi seadistamine
 description: Selles teemas kirjeldatakse ettevõtetevahelise (B2B) e-kaubanduse saidi loomist lahenduses Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799753"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937502"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-kaubandussaidi häälestamine
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Ettevõtetevahelised (B2B) e-kaubanduse saidid pakuvad mõningaid võtmefunktsioone, mis optimeerivad töövoogu B2B-kasutaja jaoks. Selles teemas kirjeldatakse B2B e-kaubanduse saidi loomist lahenduses Microsoft Dynamics 365 Commerce. See käib läbi moodulite ja saidisätete, mis tuleb B2B-spetsiifiliste stsenaariumite lubamiseks konfigureerida.
 
@@ -283,9 +285,35 @@ Saidiehitajas arve üksikasjade lehe loomiseks toimige järgmiselt.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avaldage lehe URL.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Kiirliidetemooduli lisamine ostukorvi lehele
+
+Kiirliidete moodul võimaldab kiiresti lisada ostukorvi mitu kaupa, kasutades kauba ID-sid (tuntud ka varude arvestusühiku \[SKU\] ID-dena). Kiirliidetemoodul lisatakse saidi ostukorvi lehele.
+
+Kiirliidete mooduli lisamiseks Commerce saidi looja ostukorvi lehele toimige järgmiselt.
+
+1. Minge **Mallid** ja valige oma saidi ostukorvi lehe mall.
+1. Valige suvand **Redigeeri**.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige **Lisa moodul** dialoogiaken, valige **Kiirliidete** moodul ja klõpsake seejärel **OK**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Minge **Lehed** ja valige oma saidi ostukorvi leht.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Atribuutide paanil moodulile **Konteiner** väärtuse **Laius** all valige **Täida konteiner**.
+1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige **Lisa moodul** dialoogiaken, valige **Kiirliidete** moodul ja klõpsake seejärel **OK**.
+1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+
+> [!NOTE] 
+> Kiirliitemoodul on saadaval alates Commerce'i versioonist 10.0.17. Kui uuendate rakenduse Commerce'i varasemat versiooni, peate faili appsettings.json käsitsi värskendama. Juhiste saamiseks vt [SDK ja mooduli teekide värskendused](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mooduliteegi ülevaade](../starter-kit-overview.md)
+
+[SDK ja mooduliteegi värskendused](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Autorluse lehe ülevaade](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Saidiehitajas arve üksikasjade lehe loomiseks toimige järgmiselt.
 
 [Sisuploki moodul](../add-hero-module.md)
 
-[Tootekogum](../product-collection-module-overview.md)
+[Tootekogumi moodul](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

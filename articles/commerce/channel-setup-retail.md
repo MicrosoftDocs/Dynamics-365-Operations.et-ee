@@ -2,7 +2,7 @@
 title: Jaemüügikanali seadistamine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus jaemüügikanal.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800587"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937530"
 ---
 # <a name="set-up-a-retail-channel"></a>Jaemüügikanali häälestus
 
@@ -68,7 +68,7 @@ Järgmine pilt näitab jaemüügikanali seadistuse konfiguratsiooni näidet.
 
 ## <a name="additional-channel-set-up"></a>Täiendava kanali seadistamine
 
-Et kanalit saaks leida **Tegevuspaanil** jaotise **Seadistus** alt, tuleb seadistada täiendavad elemendid.
+Et kanalit saaks leida Tegevuspaanil jaotise **Seadistus** alt, tuleb seadistada täiendavad elemendid.
 
 Veebikanali häälestamiseks nõutavad täiendavad toimingud hõlmavad makseviiside, sularaha deklaratsiooni, tarneviiside, tulu/kulu konto, jaotiste, täitmisgrupi määramise ja seifide seadistamist.
 
@@ -102,12 +102,12 @@ Järgmine pilt näitab sularaha deklaratsiooni näidet.
 
 ### <a name="set-up-modes-of-delivery"></a>Tarneviiside häälestamine
 
-Konfigureeritud tarneviise saate näha valides **Tarneviisid** vahekaardilt **Seadistus** **Tegevuspaani** alt.  
+Konfigureeritud tarneviise saate näha, valides **Tarneviisid** vahekaardilt **Seadistus** tegevuspaani alt.  
 
 Tarneviisi muutmiseks või lisamiseks toimige järgmiselt.
 
 1. Avage navigeerimispaanil **Moodulid \> Varude haldus \> Tarneviisid**.
-1. Valige tegevuspaanilt **Uus**, et luua uus tarneviis, või valige olemasolev režiim.
+1. Valige tegevuspaanilt suvand **Uus**, et luua uus tarneviis, või valige olemasolev režiim.
 1. Kanali lisamiseks valige jaotisest **Jaemüügikanalid** käsk **Lisa rida**. Kanalite lisamine kasutades organisatsiooni sõlmpunkte, mitte iga kanalit ükshaaval lisades, täiustab kanalite lisamist veelgi.
 
 Järgmine pilt näitab tarneviisi näidet.
@@ -118,7 +118,7 @@ Järgmine pilt näitab tarneviisi näidet.
 
 Tulu/kulu konto seadistamiseks läbige need etapid.
 
-1. Valige tegevuspaanil vahekaart **Seadista** ja seejärel **Tulu/kulu konto**.
+1. Valige tegevuspaanil vahekaart **Seadista** ja seejärel suvand **Tulu/kulu konto**.
 1. Valige toimingupaanil nupp **Uus**.
 1. Sisestage nimi väljale **Nimi**.
 1. Sisestage otsingunimi väljale **Otsingunimi**.
@@ -135,7 +135,7 @@ Järgmine pilt näitab tulu/kulu konto näidet.
 
 Jaotiste seadistamiseks läbige need etapid.
 
-1. Valige tegevuspaanil vahekaart **Seadista** ja seejärel klõpsa **Jaotised**.
+1. Valige tegevuspaanil vahekaart **Seadista** ja seejärel **Täitmisgrupi määramine**.
 1. Valige toimingupaanil nupp **Uus**.
 1. Sisestage väljale **Jaotise number** jaotise number.
 1. Sisestage kirjeldus väljale **Kirjeldus**.
@@ -151,7 +151,7 @@ Täitmisgrupi määramise seadistamiseks tehke järgmist.
 1. Valige toimingupaanil nupp **Uus**.
 1. Valige täitmisgrupp ripploendist **Täitmisgrupp**.
 1. Sisestage kirjeldus ripploendisse **Kirjeldus**.
-1. Valige toimingupaanil nupp **Salvesta**
+1. Valige tegevuspaanil nupp **Salvesta**
 
 Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.
 
@@ -161,16 +161,47 @@ Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.
 
 Seifide seadistamiseks läbige need etapid.
 
-1. Valige tegevuspaanil vahekaart **Seadista** ja seejärel klõpsa **Seifid**.
+1. Valige tegevuspaanil vahekaart **Seadista** ja seejärel klõpsake suvandile **Seifid**.
 1. Valige toimingupaanil nupp **Uus**.
 1. Sisestage seifi nimi.
 1. Valige toimingupaanil nupp **Salvesta**.
+
+### <a name="ensure-unique-transaction-ids"></a>Kordumatute kande-ID-de tagamine
+
+Äriversiooni 10.0.18 kohaselt on kassa (POS) jaoks loodud kannete ID-d järjestikused ja sisaldavad järgmisi osi.
+
+- Fikseeritud osa, mis on ühendatud kaupluse ID ja terminali ID-ga. 
+- Seeriaosa, mis on numbrite jada. 
+
+Täpsemalt on vorming *{store}{terminal} -{numbersequence}*. 
+
+Kuna kande ID-sid saab luua ühenduseta ja võrguühenduseta režiimides, on olemas duplikaatkande ID-de genereerimise eksemplarid. Kande ID duplikaatide eemaldamiseks on vaja andmed käsitsi parandada. 
+
+Rakenduse kommertsversiooniga 10.0.19 värskendati kande ID vormingut, et eemaldada seeriaosa ja selle asemel kasutatakse 13-numbrit, mis on loodud arvutades aja millisekundites alates 1970. Selle muudatusega on uus kande ID vorming *{store} - {terminal} - {millisecondsSince1970}*. See värskendus muudab kande ID mittejärjestatuks ja tagab, et kande ID-d on alati kordumatud. 
+
+> [!NOTE]
+> Kannete ID-d on mõeldud ainult sisesüsteemi jaoks, nii et need ei pea olema järjestikused. Paljud riigid nõuavad siiski, et sissetuleku ID-d oleks järjestikused.
+
+Uue kande ID vormingu funktsiooni saab lubada **funktsioonihalduse** tööruumis. 
+
+Uute kande-ID-de kasutamise lubamiseks järgige järgmiseid samme.
+
+1. Avage Commerce'i peakorteris **Süsteemihaldus \> Tööruumid \> Funktsioonihaldus**.
+1. "Jaemüügi ja äri" mooduli filter.
+1. Otsige **"luba uut kande ID-d, et vältida topeltkande ID-de tekkimist"** funktsiooni nime.
+1. Valige funktsioon, mida soovite sisse lülitada, ja seejärel valige paremal paanil nupp **Luba kohe**.  
+1. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
+1. Käitage **1070 kanali konfiguratsiooni** ja **1170 POS Task Recorderi** tööd, et sünkroonida lubatud funktsioon kauplustesse.
+1. Pärast muudatuste saatmist kauplustesse tuleb kassaterminalid sulgeda ja uuesti avada, et kasutada uut kande ID vormingut. 
+
+> [!NOTE]
+> Pärast uue kande ID vormingu funktsiooni lubamist ei saa te seda funktsiooni keelata. Kui see tuleb keelata, pöörduge commerce Supporti poole.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kanalite ülevaade](channels-overview.md)
 
-[Kanali seadistamise eeltingimused](channels-prerequisites.md)
+[Kanali häälestuse eeltingimused](channels-prerequisites.md)
 
 [Veebikanali häälestamine](channel-setup-online.md)
 

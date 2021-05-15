@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799441"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936776"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kohandatud lehtede häälestus kasutajate sisselogimise jaoks
 
@@ -32,7 +32,7 @@ Kohandatud lehtede kasutamiseks, mis on rakenduses Dynamics 365 Commerce volitat
 Kohandatud Commerce’i lehti saab luua, kasutades sisselogimist, registreerumist, konto profiili redigeerimist või üldiseid AAD mooduleid. Nendele kohandatud lehtede jaoks avaldatud lehe URL-idele tuleb seejärel viidata Azure AD B2C poliitika konfiguratsioonides Azure’i portaalis.
 
 > [!WARNING] 
-> Azure AD B2C kustutab vana (pärand) kasutajavood 1. augustiks 2021. Seetõttu peaksite plaanima oma kasutajavood migreerida uude soovitatud versiooni. Uus versioon pakub funktsioonide pariteeti ja uusi funktsioone. Lisateabe saamiseks vt [Azure Active Directory B2C kasutajavoog](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C kustutab vana (pärand) kasutajavood 1. augustiks 2021. Seetõttu peaksite plaanima oma kasutajavood migreerida uude soovitatud versiooni. Uus versioon pakub funktsioonide pariteeti ja uusi funktsioone. Lisateabe saamiseks vt [Azure Active Directory B2C kasutajavoog](/azure/active-directory-b2c/user-flow-overview).
 
 >Commerce version 10.0.15 või uuema versiooni mooduliteeki tuleb kasutada soovitatud B2C kasutajavoogudega. Kasutada saab ka Azure AD B2C-s pakutavaid vaikimisi kasutajapoliitika lehti ja lubada lisatud taustapildi, logo ja taustavärvi muudatusi, mis on seotud ettevõtte kaubamärgiga. Kuigi kujunduse võimalused on piiratud, pakuvad kasutajapoliitika vaikelehed Azure AD B2C poliitika funktsioone ilma selleks mõeldud kohandatud lehekülgi loomata ja konfigureerimata. 
 

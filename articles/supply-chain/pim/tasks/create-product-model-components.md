@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f62398934d029a3269bd2b6aa33531e6807be490
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6452a126f4962104fca7c62f3518b89fff657f08
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809322"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921031"
 ---
 # <a name="create-product-model-components"></a>Tootemudeli komponentide loomine
 
@@ -26,14 +26,13 @@ ms.locfileid: "5809322"
 
 Piirangupõhised tootekonfiguratsiooni mudelid kasutavad komponente ehitusklotsidena tootemudeli struktuuri koostamiseks. Enne tootemudeli koostamist tuleb luua komponendid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Klõpsake tegumiribal valikut Mudel.
-4. Klõpsake valikut Komponendid.
-5. Klõpsake valikut Uus.
-6. Sisestage väärtus väljale Nimi.
-7. Sisestage väljale Kirjeldus soovitud väärtus.
-8. Sulgege leht.
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Valige toiminguplaanil **Mudel**.
+1. Valige **komponendid**.
+1. Valige suvand **Uus**.
+1. Sisestage väärtus väljale **Nimi**.
+1. Sisestage väärtus väljale **Kirjeldus**.
+1. Sulgege leht.
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: Eelarve koostamise ülevaade
 description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav rakenduses Finance and Operations eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827454"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960045"
 ---
 # <a name="budgeting-overview"></a>Eelarve koostamise ülevaade
 
@@ -71,7 +71,7 @@ Funktsioon, mis võeti kasutusele tarkvara Microsoft Dynamics 365 Finance versio
 
 Funktsioon **Eelarve registrikirjed ainult koguse kohta** võimaldab teil sisestada eelarve registrikirje ainult kogustega. Näiteks saate sisestada eelarvekirje kogusega 32 ja nullihinnaga, mille tulemuseks on nullsumma. Seejärel saate seda kogust kasutada finantsaruande kontekstis, et määrata hind koguse kohta. Pidage meeles, et selle funktsiooni osana ei värskendatud ühtegi päringut ega aruannet. See funktsioon lihtsalt võimaldab teil sisestada nullsumma.
 
-Funktsioon **Eelarve registrikirjed vaikesummatüübiga** võimaldab sisestada eelarve registrikirjena vaikimesummatüübi, mis ei ole kulu. Kui põhikonto tüüp on kulu, siis on eelarve registrikirje rea vaikeväärtus kulu; kui põhikonto tüüp on kulu, siis on vaikeväärtus tulu; ja kõigi muude kontotüüpide korral on vaikeväärtus kulu.
+Funktsioon **Eelarve registrikirjed vaikesummatüübiga** võimaldab sisestada eelarve registrikirjena vaikimesummatüübi, mis ei ole kulu. Kui põhikonto tüüp on kulu, siis on eelarve registrikirje rea vaikeväärtus kulu; kui põhikonto tüüp on tulu, siis on vaikeväärtus tulu; ja kõigi muude kontotüüpide korral on vaikeväärtus kulu.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Tööruumide ja päringulehtede kasutamine eelarve vs tegelike kulude jälgimiseks
 Eelarvehaldur saab praguse eelarve oleku üle vaadata tööruumis **Pearaamatu eelarved ja prognoosid**. Vahekaardid **Kulu ületab eelarve** ja **Tulu on eelarvest väiksem** annavad kiire ülevaate finantsdimensiooni kombinatsioonidest, kui eelarve eesmärke ei täideta või kui need lähenevad lävile. Saate isikupärastada eelarvelävi protsenti ja finantsdimenesioonide komplekte, mida nende vahekaartidega kasutatakse, klõpsates suvandit **Minu tööruumi konfigureerimine**. Saate klõpsata suvandit **Üksuse juhid**, et näha töötajaid, kes vastutavad kindla finantsdimensioonide kombinatsioonide eest, mis valitakse nendel vahekaartidel. Näiteks kui näete, et operatsiooniosakonna kulueelarve ületab eelarvelävi, leiate hõlpsasti operatsiooniosakonna juhi, võtate temaga ühendust ja arutate probleemi. 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795951"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936906"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
 
@@ -29,7 +29,7 @@ Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, 
 
 ## <a name="prerequisite"></a>Eeltingimus
 
-Viige selle teema protseduurid lõpule alles pärast seda, kui Commerce'i hindamiskeskkond on ette valmistatud ja konfigureeritud. Teavet selle kohta, kuidas oma keskkonda ette valmistada ja konfigureerida, vaadake teemadest [Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md) ja [Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Viige selle teema protseduurid lõpule alles pärast seda, kui Commerce'i hindamiskeskkond on ette valmistatud ja konfigureeritud. Teavet selle kohta, kuidas oma keskkonda ette valmistada ja konfigureerida, vaadake teemadest [Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md) ja [Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](./cpe-post-provisioning.md).
 
 Pärast seda, kui teie Commerce'i keskkond on lõpuni ette valmistatud ja konfigureeritud, saate seda teemat kasutada BOPIS-i stsenaariumide lubamiseks.
 
@@ -37,7 +37,7 @@ Pärast seda, kui teie Commerce'i keskkond on lõpuni ette valmistatud ja konfig
 
 ### <a name="configure-modern-pos"></a>Modern POS-i konfigureerimine
 
-BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistvarajaama. Riistvarajaam on integreeritud rakendusse Modern POS Windowsi ja Androidi klientidele. Kui kasutate Cloud POS-i või Modern POS-i iOS-i jaoks, peab kassa (POS) klient olema ühendatud ühiskasutatava riistvarajaamaga. See teema selgitab, kuidas konfigureerida BOPIS-i Windowsi ja Androidi klientide jaoks. Lisateavet ühiskasutatava riistvarajaama seadistamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistvarajaama. Riistvarajaam on integreeritud rakendusse Modern POS Windowsi ja Androidi klientidele. Kui kasutate Cloud POS-i või Modern POS-i iOS-i jaoks, peab kassa (POS) klient olema ühendatud ühiskasutatava riistvarajaamaga. See teema selgitab, kuidas konfigureerida BOPIS-i Windowsi ja Androidi klientide jaoks. Lisateavet ühiskasutatava riistvarajaama seadistamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](./retail-hardware-station-configuration-installation.md).
 
 1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Registrid**.
 2. Valige register **SANFRAN-5** ja seejärel valige **Redigeeri**.
@@ -87,7 +87,7 @@ BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistv
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Poetellimuse loomine kauplusest kättesaamise jaoks
 
-1. Minge URL-i juurde, mille määrasite keskkonna konfigureerimise ajal sammu [E-kaubanduse lähtestamine](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) käigus.
+1. Minge URL-i juurde, mille määrasite keskkonna konfigureerimise ajal sammu [E-kaubanduse lähtestamine](./provisioning-guide.md#initialize-e-commerce) käigus.
 2. Valige kaup ja valige **Lisa ostukorvi**.
 3. Ostukorvi lehel valige äsja loodud tellimuse rea jaoks **Tulen järele**.
 4. Dialoogiboksis **Kaupluse valimine** sisestage **San Francisco** ja seejärel klõpsake nuppu **Otsi**.
@@ -112,7 +112,7 @@ BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistv
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Võrgutellimuste sünkroonimine kontoriga
 
-Lisateavet võrgutellimuste sünkroonimise kohta vaadake teemast [Veebimüügi ja -maksete sisestamine](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Lisateavet võrgutellimuste sünkroonimise kohta vaadake teemast [Veebimüügi ja -maksete sisestamine](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Tellimuse kättesaamine kauplusest
 
@@ -148,19 +148,19 @@ Kõigi üldiste probleemide puhul peaksite alati esimesena uurima Modern POS-i v
 
 [Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
 
-[Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsofti elutsükli teenused (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Adyeni makse ülekandmine](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Adyeni makse ülekandmine](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Veebimaksevahendite salvestamine Adyeni konnektori abil](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Veebimaksevahendite salvestamine Adyeni konnektori abil](./dev-itpro/adyen-connector-listpi.md)
 
-[Omnikanali maksete ülevaade](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Omnikanali maksete ülevaade](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

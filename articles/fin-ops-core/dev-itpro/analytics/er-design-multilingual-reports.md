@@ -2,7 +2,7 @@
 title: Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) silte mitmekeelsete aruannete kujundamiseks ja loomiseks.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753548"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951981"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
@@ -158,6 +158,31 @@ ER toetab eri viise, kuidas määrata loodud aruande keel. Saate valida vahekaar
 - **Käitusajal määratletud** – looge aruanne keeles, mis määratakse käitusajal. Kui valite selle väärtuse, konfigureerige väljal **Keel** ER-i avaldis, mis tagastab keele koodi, nt vastava kliendi keel.
 
     ![ER-i toimingute kujundajas käitusajal määratletud keele määramine loodud aruande keeleks](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Kultuuripõhine vormindamine
+
+ER toetab erinevaid viise, kuidas määrata loodud aruande kultuuri. Seetõttu saab kuupäeva, kellaaja ja numbriväärtuste puhul kasutada õiget kultuurispetsiifilist vormingut. ER-vormingu kujundamisel saate vahekaardi **Vorming** väljal **Kultuuri-eelistused** valida ühe järgmistest väärtustest iga vormingukomponendi kohta **tavapärase\\faili**, **Exceli\\faili**, **PDF-\\faili** või **PDF\\Mergeri** tüübi kohta:
+
+- **Kasutaja eelistus** – vormindage väärtused vastavalt kasutaja eelistatud kultuurile. See kultuur on määratletud **kasutaja suvandite** lehe vahekaardi **Eelistused** väljal **Kuupäev, kellaaeg ja numbrivorming**.
+
+    ![Kasutaja eelistatud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Eraldi määratletud** – vormindage väärtused vastavalt kujunduse jooksul määratud kultuurile.
+
+    ![DIsaini ajal määratud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Käitusajal määratletud** – vormindage väärtused vastavalt käitusaja jooksul määratud kultuurile. Kui valite selle väärtuse vahekaardi **Vastendamine** väljal **Kuupäev, kellaaeg ja numbrivorming**, konfigureerige ER-avaldis, mis tagastab kultuuri koht kultuurikoodi, nt vastava kliendi kultuuri.
+
+    ![Käituse ajal määratud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> ER-i komponent, mille jaoks määratlete kindla kultuuri, võib sisaldada tütar-ER-komponente, mis on konfigureeritud tekstiväärtuse sisestamiseks. Vaikimisi kasutatakse emakomponendi kultuuri nende komponentide väärtuste vormindamiseks. Järgmiste sisseehitatud ER-funktsioonide abil saate konfigureerida nende komponentide seoseid ja rakendada väärtuse vormindamiseks alternatiivset kultuuri:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Versioonis 10.0.20 ja uuemates formaadikomponentides kasutatakse **Common\\failitüüpi** ja **Exceli\\failitüüpi**, et vormindada väärtusi loodud dokumendist [PDFi teisendamisel](electronic-reporting-destinations.md#OutputConversionToPDF).
 
 ## <a name="translation"></a>Tõlge
 

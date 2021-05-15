@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745259"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921419"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasemate versioonide eemaldatud või iganenud funktsioonid
 
@@ -37,7 +37,7 @@ Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid plane
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 koos platvormivärskendusega 31
 
@@ -147,7 +147,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Päise joondus teiste Dynamicsi ja Office’i toodetega. Lisateavet vt teemast [Uuendatud navigeerimisriba, mis joondub Office’i päisega](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Aegumise/eemaldamise põhjus** | Päise joondus teiste Dynamicsi ja Office’i toodetega. Lisateavet vt teemast [Uuendatud navigeerimisriba, mis joondub Office’i päisega](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 24 on kasutusele võetud otsingufunktsiooniga ümber kujundatud navigeerimisriba. |
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
@@ -161,7 +161,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Vaiketegevuste pärandkäitumine ruudustikes annab tulemuseks ootamatu veeru, millel on vaiketegevuse link ruudustiku veergude järel, mis on isikupärastamise kaudu ümber järjestatud. Selle probleemi parandab uus vaikimisi kleepetegevuse funktsioon. Lisateabe saamiseks vt teemat [Vaikimisi kleepetegevused ruudustikes](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Aegumise/eemaldamise põhjus** | Vaiketegevuste pärandkäitumine ruudustikes annab tulemuseks ootamatu veeru, millel on vaiketegevuse link ruudustiku veergude järel, mis on isikupärastamise kaudu ümber järjestatud. Selle probleemi parandab uus vaikimisi kleepetegevuse funktsioon. Lisateabe saamiseks vt teemat [Vaikimisi kleepetegevused ruudustikes](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 21 on kasutusele võetud vaikimisi kleepetegevuste funktsioon. Saate selle funktsiooni lubada lehel **Kliendi jõudlussuvandid**. |
 | **Mõjutatud tootealad**         | Ruudustikud veebikliendis |
 | **Juurutamissuvand**              | Kõik |
@@ -172,7 +172,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Filtreerimisvõimalus „üks (mitmest)” kujundati platvormivärskendusega 22 ümber plaaniga jätta see lõpuks ainsaks „üks (mitmest)” filtreerimisvõimalusest. |
-| **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 22 muutus filtreerimisvõimalus „üks (mitmest)” saadavaks lehel **Kliendi jõudlussuvandid**. Lisateabe saamiseks vt teemast [Filtreerimisvõimalust „üks (mitmest)” on optimeeritud](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 22 muutus filtreerimisvõimalus „üks (mitmest)” saadavaks lehel **Kliendi jõudlussuvandid**. Lisateabe saamiseks vt teemast [Filtreerimisvõimalust „üks (mitmest)” on optimeeritud](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: alates aprillist 2020 on parandatud filtreerimisvõimalus „üks (mitmest)” vaikekäitumine ilma pärandkäitumisele ennistamise mehhanismita. |
@@ -1333,7 +1333,7 @@ Sites Services võimaldab luua veebisaite, mis laiendavad äriprotsessid Interne
 
 ### <a name="virtual-company-accounts"></a>Virtuaalsed ettevõtted
 
-Virtuaalettevõtete funktsiooni ei toetata enam Dynamics AX-is. Virtuaalettevõtete funktsioon võimaldab kasutajatel seadistada ettevõtete kogumis jagatavaid tabeleid. Funktsiooni kirjelduse leiate siit: [Ettevõtete ja virtuaalettevõtete kontod](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). See funktsioon rühmitab tabelid kogumitesse, mis on määratud virtuaalsetele ettevõtetele, mis on olemasolevate „tõeliste” ettevõtete grupid. Päringud koostatakse nii, et kõik virtuaalse ettevõtte ettevõtted pääsevad seotud tabelikogumites olevate tabelite andmetele juurde.
+Virtuaalettevõtete funktsiooni ei toetata enam Dynamics AX-is. Virtuaalettevõtete funktsioon võimaldab kasutajatel seadistada ettevõtete kogumis jagatavaid tabeleid. Funktsiooni kirjelduse leiate siit: [Ettevõtete ja virtuaalettevõtete kontod](../../fin-ops/get-started/ax4-content-retired.md). See funktsioon rühmitab tabelid kogumitesse, mis on määratud virtuaalsetele ettevõtetele, mis on olemasolevate „tõeliste” ettevõtete grupid. Päringud koostatakse nii, et kõik virtuaalse ettevõtte ettevõtted pääsevad seotud tabelikogumites olevate tabelite andmetele juurde.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

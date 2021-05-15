@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842077"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947516"
 ---
 # <a name="engineering-change-management-overview"></a>Tehniliste muudatuste halduse ülevaade
 
@@ -48,7 +48,7 @@ Enne, kui saate kasutada tehnilise muudatuse haldust, peate lubama nii funktsioo
 
 Esmalt lülitage sisse funktsioonid, järgides järgmisi etappe.
 
-1. Avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Avage [Funktsioonihaldus rakenduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruum.
 1. Otsige värskendusi.
 1. Lülitage sisse funktsioon nimega **Tehniliste muudatuste haldus**.
 1. Kui soovite seda kasutada, lülitage sisse ka funktsioon nimega **Tootedimensiooni versioon**.
@@ -57,9 +57,12 @@ Seejärel lülitage sisse konfiguratsioonivõtmed, järgides järgmisi etappe.
 
 1. Pange oma süsteem hooldusrežiimi, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
-1. Laiendage sõlme **Valdkond**
-1. Märkige ruut **Tehniliste muudatuste haldus**.
-1. Kui soovite seda kasutada, märkige ka ruut **Tootedimensioon – versioon**.
+1. Laiendage **Äritegevuse** sõlmpunkti.
+1. Lubage põhifunktsiooni konfiguratsioonivõti, valides märkeruudu **Tehniliste muudatuste haldus**. (Sõlmpunkti pole vaja laiendada, kui te ei soovi keelata ka üht või mõlemat selle alamfunktsiooni.)
+1. Kui soovite kasutada ka versiooni dimensiooni, märkige ruut **Tootedimensioon – versioon**. (See märkeruut asub loendis allpool, mitte pesastatud **Tehniliste muudatuste halduse** sõlmpunkti alla.)
 1. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> Alates 2022. aasta aprillist lubatakse kõigi uute installide puhul vaikimisi nii **Tehniliste muudatuste haldus** kui ka **Toote dimensioon – versioon** litsentsivõtmed, kuid vajadusel saate need siiski keelata.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

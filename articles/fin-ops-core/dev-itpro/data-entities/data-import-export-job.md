@@ -2,7 +2,7 @@
 title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750996"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937326"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -161,19 +161,7 @@ Andmete importimise kiirendamiseks saab lubada faili importimise paralleelse tö
     - Sisestage imporditavate kirjete piirarv väljale **Imporditavate kirjete piirarv**. See määratleb kirjete arvu, mida lõim töötlema hakkab. Kui failis on 10 000 kirjet, siis tähendab kirjete arv 2500 ja ülesannete arv 4, et iga lõim töötleb 2500 kirjet.
     - Sisestage importimisülesannete arv väljale **Importimisülesannete arv**. See ei tohi ületada jaotises **Süsteemihaldus \>Serveri konfiguratsioon** pakktöötluseks eraldatud maksimaalset pakktöötluslõimede arvu.
 
-## <a name="clean-up-the-staging-tables"></a>Koondamistabelite puhastamine
-Alates platvormivärskendusest 29, on see funktsioon aegunud. See on asendatud töö ajaloo puhastamise funktsiooni uue versiooniga, mida allpool selgitatakse.
-
-Koondamistabelid saab puhastada, kasutades funktsiooni **Koondamise puhastamine** tööruumis **Andmehaldus**. Järgmiste valikute abil saate valida, millised kirjed millisest koondamistabelist kustutada tuleks.
-
-- **Üksus** – kui antud on ainult üksus, kustutatakse kõik selle üksuse kirjed koondamistabelist. Selle valiku abil saate kustutada kõik üksuse andmed kõigi andmeprojektide ja kõigi tööde lõikes.
-- **Töö ID** – kui antud on ainult töö ID, kustutatakse kõigi üksuste kõik kirjed valitud töös vastavatest koondamistabelitest.
-- **Andmeprojektid** – kui valitud on ainult andmeprojekt, kustutatakse valitud andmeprojekti kõigi üksuste kõik kirjed kõigi tööde lõikes.
-
-Kustutatava kirjekogumi täiendavaks piiramiseks saab valikuid ka kombineerida.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Tööajaloo puhastamine (saadaval platvormivärskenduses 29 ja uuemate versioonide puhul)
-
+## <a name="job-history-clean-up"></a>Tööde ajaloo tühjendamine 
 Tööajaloo puhastamise funktsiooni tuleb andmehaldustöös kasutada käivitusajaloo perioodilise puhastuse planeerimiseks. See funktsioon asendab eelmise koondamistabeli puhastamise funktsiooni, mis on nüüd aegunud. Puhastamise käigus puhastatakse järgmised tabelid.
 
 -   Kõik koondamistabelid

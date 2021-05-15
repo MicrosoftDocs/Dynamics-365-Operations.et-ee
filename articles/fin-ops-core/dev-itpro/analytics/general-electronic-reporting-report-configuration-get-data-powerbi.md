@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse
 description: Selles teemas selgitatakse, kuidas kasutada elektroonilise aruandluse (ER) konfiguratsiooni, et korraldada andmete edastamine teie eksemplarist Power BI teenustesse.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750078"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944433"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse
 
@@ -68,10 +68,10 @@ Selles teemas näite lõpuleviimiseks peab teil olema järgmine juurdepääs:
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Elektroonilise aruandluse andmemudeli kasutamine andmeallikana
 Power BI aruannetes kasutatavate äriandmete allikaks peab olema elektroonilise aruandluse andmemudel. See andmemudel laetakse üles elektroonilise aruandluse konfiguratsioonide hoidlast. Lisateabe jaoks vaadake [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](download-electronic-reporting-configuration-lcs.md) või esitage tegevuse juhis **Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services** . Valige andmemudeliks **Intrastat**, mis laetakse üles valitud elektroonilise aruandluse konfiguratsioonide hoidlast. (Selles näites kasutatakse mudeli versiooni 1.) Seejärel saate lehel **Konfiguratsioonid** pääseda juurde **Intrastat** i elektroonilise aruandluse mudeli konfiguratsioonile.
 
-[![Konfiguratsioonide leht](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Intrastati ER-mudeli konfiguratsioon konfiguratsioonide lehel](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Elektroonilise aruandluse vormingu konfiguratsiooni kujundamine
-Peate looma uue elektroonilise aruandluse vormingus konfiguratsiooni, mis kasutab äriandmete allikana andmemudelit **Intrastat**. Selles vormingus konfiguratsioon peab looma väljundtulemused elektrooniliste dokumentidena OpenXML-i vormingus (Exceli fail). Lisateabe saamiseks esitage tegevuse juhis **ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML**. Määrake uue konfiguratsiooni nimeks **Tegevuste importimine/eksportimine**, a Kasutage elektroonilise aruandluse vormingu kujundamisel mallina Exceli faili [Elektroonilise aruandluse andmed – impordi ja ekspordi üksikasjad](https://go.microsoft.com/fwlink/?linkid=845208). (Saamaks lisateavet, kuidas vormingumalli importida, esitage tegevuse juhis.)
+Peate looma uue elektroonilise aruandluse vormingus konfiguratsiooni, mis kasutab äriandmete allikana andmemudelit **Intrastat**. Selles vormingus konfiguratsioon peab looma väljundtulemused elektrooniliste dokumentidena OpenXML-i vormingus (Exceli fail). Lisateabe saamiseks esitage tegevuse juhis **ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML**. Määrake uue konfiguratsiooni nimeks **Tegevuste importimine/eksportimine**, a Kasutage elektroonilise aruandluse vormingu kujundamisel mallina Exceli faili [Elektroonilise aruandluse andmed – impordi ja ekspordi üksikasjad](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx). (Saamaks lisateavet, kuidas vormingumalli importida, esitage tegevuse juhis.)
 
 [![Impordi-/eksporditegevuste konfiguratsioon](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Klõpsake uue sihtkoha kirje jaoks nuppu **Sätted**. Seejärel järgige dialoog
 1. Lehel **Konfiguratsioonid** (**Organisatsiooni haldus** &gt; **Elektrooniline haldus** &gt; **Konfiguratsioonid**) konfiguratsioonide puul valige varasemalt loodud konfiguratsioon **Impordi-/eksporditegevused**.
 2. Muutke versiooni 1.1 olekut variandilt **Mustand** variandile **Lõpetatud**, et muuta see vorming kasutamiseks kättesaadavaks.
 
-    [![Konfiguratsioonide leht](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Konfiguratsioonide lehel tegevuste konfiguratsiooni importimine/eksportimine](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Valige konfiguratsiooni **Impordi-/eksporditegevused** lõpetatud versioon ja klõpsake seejärel valikut **Käivita**. Pange tähele, et konfigureeritud sihtkoht rakendatakse väljundtulemusele, mis luuakse Exceli vormingus.
 4. Määrake suvandi **Pakktöötlus** sätteks **Jah**, et käivitada see aruanne järelevalveta režiimis.
@@ -187,7 +187,7 @@ Seadistage integreerimine lahendusega Power BI. Lisateavet vt [Power BI integree
 2. Valige loodud Power BI aruanne **Impordi ja ekspordi üksikasjad**, et kuvada see aruanne valitud lehel tegevusüksusena.
 3. Klõpsake tegevusüksust, et avada leht, millel kuvatakse Power BI-s loodud aruanne.
 
-    [![Impordi ja ekspordi üksikasjade aruanne](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Impordi ja ekspordi üksikasjade aruanne, mis on kujundatud Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

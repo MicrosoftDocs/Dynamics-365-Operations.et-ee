@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a2fd383944a96a073f12399e1a29d0fcf520e3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9cd5475e48cbcd8dcee6b228297f58e364ac503d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812639"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920877"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Avaldise piirangu lisamine toote konfiguratsioonimudelile
 
@@ -26,27 +26,27 @@ ms.locfileid: "5812639"
 
 See protseduur näitab, kuidas saate lisada toote konfiguratsioonimudelile uue piiranguavaldise. See näitab, kuidas saate lasta lisada kõlarile nurgakaitsme, kui kasutaja on valinud metallist esivõre. See protseduur kasutab komponenti Tipptasemel kõlar demoettevõttes USMF.
 
-
 ## <a name="create-an-expression-constraint"></a>Avaldise piirangu loomine
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
 3. Otsige loendist ja valige soovitud kirje.
     * Selles näites kasutatakse tipptasemel kõlari mudelit.  
-4. Klõpsake loendis valitud real olevat linki.
-5. Laiendage jaotist Piirangud.
-6. Klõpsake vahekaarti Lisa.
-7. Klõpsake käsku Loo.
-8. Sisestage väärtus väljale Nimi.
+4. Valige loendis link valitud reas.
+5. Laiendage jaotist **Piirangud**.
+6. Valige **Lisa**.
+7. Valige **Loo**.
+8. Sisestage väärtus väljale **Nimi**.
 
 ## <a name="enter-expression"></a>Sisesta avaldis
-1. Klõpsake käsku Muuda avaldist.
+
+1. Valige **Redigeeri avaldis**.
     * Kui avate selles etapis ülesande salvestises kasutajaliidese, saate kasutada piiranguavaldise koostamiseks IntelliSense’i ja sümbolite loendit.  
-2. Sisestage väljale ConstraintBody tekst Implies[FrontGrill=="Metal", CornerProtection].
+2. Sisestage väljale **ConstraintBody** tekst Implies[FrontGrill=="Metal", CornerProtection].
     * See avaldise loogika väidab: kui esivõre on metallist, tuleb valida nurkade kaitse suvand.  
-3. Klõpsake suvandit Kinnita.
+3. Valige **Kinnita**.
     * Kontrollimisfunktsioon vaatab piiranguavaldise läbi ja kontrollib süntaksivigu.  
-4. Klõpsake valikut Sule.
-5. Klõpsake nuppu OK.
+4. Valige suvand **Sule**.
+5. Valige nupp **OK**.
 
 
 

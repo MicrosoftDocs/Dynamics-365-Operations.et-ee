@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db87d0a26efa948a618344ed392ab638b8790
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45c6b1e6e75645bb17ce4defa0bca0e6d2131b6e
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817985"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921261"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Tootemudeli protsessi haldamine
 
@@ -26,43 +26,43 @@ ms.locfileid: "5817985"
 
 Selle protseduuri käitamine nõuab toote konfiguratsioonimudeli olemasolu. See protseduur kasutab tipptasemel kõlari mudelit demoettevõttes USMF, et juhatada teid läbi protsessi.
 
-
 ## <a name="add-a-route-operation"></a>Lisage protsessitoiming
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Otsige loendist ja valige soovitud kirje.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Otsige loendist ja valige soovitud kirje.
     * Valige selle harjutuse jaoks tipptasemel kõlari mudel.  
-4. Klõpsake loendis valitud real olevat linki.
-5. Laiendage jaotist Protsessitoimingud.
-6. Klõpsake vahekaarti Lisa.
-7. Sisestage väärtus väljale Nimi.
-8. Sisestage väljale Kirjeldus soovitud väärtus.
-9. Klõpsake nuppu Salvesta.
+1. Valige loendis link valitud reas.
+1. Laiendage jaotist **Protsessitoimingud**.
+1. Valige **Lisa**.
+1. Sisestage väärtus väljale **Nimi**.
+1. Sisestage väärtus väljale **Kirjeldus**.
+1. Valige käsk **Salvesta**.
 
 ## <a name="enter-route-operation-details"></a>Sisestage protsessitoimingu üksikasjad
-1. Klõpsake valikut Protsessitoimingu üksikasjad.
-2. Sisestage või valige väärtus väljal Toiming.
-3. Sisestage väljale Toimingu Nr number.
+
+1. Valige **Protsessi operatsiooni üksikasjad**.
+1. Sisestage või valige väärtus väljal **Toiming**.
+1. Väljal **Toim. nr** number.
     * Toimingunumbrid määravad protsessi järjekorra.  
     * Iga protsessitoimingu atribuut võib saada statistilise väärtuse või olla vastendatud atribuudiga. Atribuudiga vastendamisel määratakse väärtus konfiguratsiooni osaks.  
-4. Sisestage või valige väärtus väljal Protsessigrupp.
+1. Sisestage või valige väärtus väljal **Protsessigrupp**.
     * Protsessigrupp määrab kuluarvutuse, tarbimise ja seadistuse põhikäitumise.  
-5. Klõpsake vahekaarti Seadistus.
-6. Klõpsake vahekaarti Ajad.
-7. Sisestage arv väljale Protsessi kogus.
+1. Valige vahekaart **Häälestus**.
+1. Valige vahekaart **Ajad**.
+1. Sisestage arv väljale **Protsessi kogus**.
     * Määrake, mitu ühe toimingu käigus töödeldakse.  
-8. Sisestage number väljale Tunnid/aeg.
+1. Sisestage number väljale **Tunnid/aeg**.
     * Sisestage aja suhe.  
-9. Märkige ruut Määra.
-10. Sisestage number väljale Käitusaeg.
+1. Märkige ruut **Määra**.
+1. Sisestage number väljale **Käitusaeg**.
     * Määrake määratud koguse töötlemisaeg.  
-11. Klõpsake vahekaarti Ressursinõuded.
-12. Klõpsake vahekaarti Lisa.
-13. Märkige loendis valitud rida.
-14. Valige suvand väljal Nõude tüüp.
+1. Valige vahekaart **Ressursinõuded**.
+1. Valige **Lisa**.
+1. Märkige loendis valitud rida.
+1. Valige suvand väljal **Nõude tüüp**.
     * Otsustage, kas soovite määrata konkreetseid ressursse või võimalusi, mis neil peavad olema.  
-15. Valige või sisestage väärtus väljal Nõue.
-16. Klõpsake nuppu OK.
+1. Valige või sisestage väärtus väljal **Nõue**.
+1. Valige nupp **OK**.
 
 
 

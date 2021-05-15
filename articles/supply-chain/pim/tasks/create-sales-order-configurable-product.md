@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81e573593fbbb0bf87e53c5cbd985b38a8db89ac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8607de5705354aa58c985fb536f3e1d52acd1f37
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841595"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921285"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Müügitellimuse loomine konfigureeritava toote jaoks
 
@@ -26,30 +26,27 @@ ms.locfileid: "5841595"
 
 See protseduur näitab, kuidas rakendada müügitellimusel tootele konfiguratsioonimalli. Selles näites kasutatakse demoettevõtte USMF kõlarimudelit D0006. Tavaliselt kasutab seda protseduuri müügitellimuste töötleja.
 
-
 ## <a name="create-a-sales-order"></a>Loo müügitellimus
-1. Klõpsake valikut Müügitellimuse töötlemine ja päring.
-2. Klõpsake valikut Uus.
-3. Klõpsake valikut Müügitellimus.
-4. Valige US-001 väljalt Kliendi konto. 
-5. Klõpsake nuppu OK.
-6. Tehke väljal Kaubakood valik D0006.
+
+1. Minge **müügi ja turunduse \> tööruumides \> müügitellimuse töötlemisele ja päringule**.
+1. Valige suvand **Uus**.
+1. Valige **Müügitellimus**.
+1. Valige *US-001* väljalt **Kliendi konto**. 
+1. Valige nupp **OK**.
+1. Valige väljal **Kaubakood** väärtus *D0006*.
     * Selle ülesande jaoks tuleb valida konfigureeritav toode.  
-7. Klõpsake valikut Toode ja tarnimine.
-8. Klõpsake rida Konfigureeri.
-    * Pange tähele, et hind on valitud konfiguratsiooni põhjal muudetud ja välja Lisa kaabel väärtuseks on nüüd määratud True.  
+1. Klõpsake valikut  **Toode ja tarnimine**.
+1. Valige **Konfigureeri joont**.
+    * Pange tähele, et hind on valitud konfiguratsiooni põhjal muudetud ja välja **Lisa kaabel** väärtuseks on nüüd määratud *True*.  
     * Pange tähele kaabli jaoks valitud vaikehinda ja sätteid.  
-9. Klõpsake valikut Laadi mall.
-    * Selles näites näete, kuidas rakendada malli eelmääratud konfiguratsiooni valimiseks. Kui kasutate seda protseduuri tegevuse juhisena soovite näha teisi saadaolevaid atribuudiväärtusi, peate klõpsama nuppu Ava.  
-10. Klõpsake nuppu OK.
-11. Klõpsake nuppu OK.
-12. Laiendage jaotis Rea üksikasjad.
-13. Klõpsake vahekaarti Toode.
+1. Valige **Malli laadimine**.
+    * Selles näites näete, kuidas rakendada malli eelmääratud konfiguratsiooni valimiseks. Kui kasutate seda protseduuri tegevuse juhisena soovite näha teisi saadaolevaid atribuudiväärtusi, peate klõpsama nuppu **Ava**.  
+1. Valige nupp **OK**.
+1. Valige nupp **OK**.
+1. Laiendage jaotist **Rea üksikasjad**.
+1. Valige vahekaart **Toode**.
     * Kauba konfiguratsioon on nüüd loetletud tootedimensioonide all.  
-14. Sulgege leht.
-
-## <a name="select-the-product-configuration"></a>Valige toote konfiguratsioon.
-
+1. Sulgege leht.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

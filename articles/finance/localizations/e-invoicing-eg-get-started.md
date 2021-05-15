@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
 description: See teema pakub teavet, mis aitab teil alustada elektroonilise arveldusega Egiptuses Finants ja Supply Chain Management -is.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f6175a50a88d2d636bfafc5988265b8657630758
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: abae35db7e37e65950c05c8e21b8e8555edbf3be
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840192"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920777"
 ---
 # <a name="get-started-with-electronic-invoicing-for-egypt"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Egiptuses
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Egiptuses. See teema juhatab teid läbi riigist sõltuvate konfiguratsioonietappide Regulatory Configuration Services (RCS) ja täiendab teemas kirjeldatud samme [Alustage elektroonilise arveldamisega](e-invoicing-get-started.md).
 

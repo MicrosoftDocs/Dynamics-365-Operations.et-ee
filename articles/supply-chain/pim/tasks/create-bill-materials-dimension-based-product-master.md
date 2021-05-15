@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0db1c35779a468d9a86d18eb6c849d40bc8c03a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13053dd87242963586678b46c64493feb3383c4c
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820078"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920701"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Dimensioonipõhise tooteetaloni jaoks koosluse loomine
 
@@ -26,55 +26,56 @@ ms.locfileid: "5820078"
 
 Selle protseduuri puhul peab teil olema lõpule viidud eelmised 4 juhist selles kaheksa salvestuse järjekorras. Esimesed 4 salvestust seadistavad andmed, mida on selle protseduuri lõpuleviimiseks vaja. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Seda ülesannet täidab tavaliselt toote koostaja.
 
-
 ## <a name="select-the-product"></a>Toote valimine
-1. Klõpsake valikut Väljastatud toodete hooldus.
-2. Klõpsake valikut Väljastatud tooted.
-3. Märkige loendis valitud rida.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
+1. Märkige loendis valitud rida.
     * Otsige üles väljastatud tooteetalon koos dimensioonipõhise konfiguratsiooni tehnoloogiaga, mille lõite esimese ülesande juhendis selles järjekorras.  
-4. Klõpsake toimingupaanil suvandit Projekteeri.
-5. Klõpsake koosluse versioone.
+1. Valige tegevuste paanil käsk **Insener**.
+1. Valige suvand **Koosluse versioonid**.
 
 ## <a name="create-new-bom-and-bom-version"></a>Uue koosluse ja koosluse versiooni loomine
-1. Klõpsake valikut Uus.
-2. Klõpsake kooslust ja koosluse versiooni.
-3. Sisestage väärtus väljale Nimi.
+
+1. Valige suvand **Uus**.
+1. Valige **kooslus ja koosluse versioon**.
+1. Sisestage väärtus väljale **Nimi**.
     * Tegevuskoha seadistamine  
     * Selles protseduuris ei määrata kooslusele konkreetset tegevuskohta.  
-4. Klõpsake nuppu OK.
-5. Klõpsake valikut Uus.
+1. Valige nupp **OK**.
+1. Valige suvand **Uus**.
     * Selles protseduuris lisame kooslusele neli rida. Kaks rida tähistavad kaabli suvandeid ja kaks rida tähistavad kartoteegi suvandeid.  
-6. Märkige loendis valitud rida.
-7. Sisestage või valige väärtus väljal Kaubakood.
+1. Märkige loendis valitud rida.
+1. Sisestage või valige väärtus väljale **Kauba kood**.
     * Valige kauba number A0001, HDMI 6' kaablid.  
-8. Sisestage või valige väärtus väljal Konfiguratsioonigrupp.
+1. Sisestage või valige väärtus väljal **Konfiguratsioonigrupp**.
     * Valige kaabli konfiguratsioonigrupp, mis loodi juhendis 4 selles järjekorras.  
-9. Klõpsake valikut Uus.
+1. Valige suvand **Uus**.
     * Valige kauba number A0002, HDMI 12' kaablid.  
-10. Märkige loendis valitud rida.
-11. Sisestage või valige väärtus väljal Kaubakood.
-12. Sisestage või valige väärtus väljal Konfiguratsioonigrupp.
+1. Märkige loendis valitud rida.
+1. Sisestage või valige väärtus väljale **Kauba kood**.
+1. Sisestage või valige väärtus väljal **Konfiguratsioonigrupp**.
     * Valige uuesti kaabli konfiguratsioonigrupp.  
-13. Klõpsake valikut Uus.
-14. Märkige loendis valitud rida.
-15. Sisestage või valige väärtus väljal Kaubakood.
+1. Valige suvand **Uus**.
+1. Märkige loendis valitud rida.
+1. Sisestage või valige väärtus väljale **Kauba kood**.
     * Valige kauba number D0002 kartoteek.  
-16. Sisestage või valige väärtus väljal Konfiguratsioonigrupp.
+1. Sisestage või valige väärtus väljal **Konfiguratsioonigrupp**.
     * Valige kartoteegi konfiguratsioonigrupp sellele koosluse reale.  
-17. Klõpsake valikut Uus.
-18. Märkige loendis valitud rida.
-19. Sisestage või valige väärtus väljal Kaubakood.
+1. Valige suvand **Uus**.
+1. Märkige loendis valitud rida.
+1. Sisestage või valige väärtus väljale **Kauba kood**.
     * Valige kauba number M0007 StandardCabinet viimase koosluse reana.  
-20. Sisestage või valige väärtus väljal Konfiguratsioonigrupp.
+1. Sisestage või valige väärtus väljal **Konfiguratsioonigrupp**.
     * Valige kartoteegi konfiguratsioonigrupp viimasele koosluse reale.  
 
 ## <a name="approve-and-activate"></a>Kinnita ja aktiveeri
+
 1. Sulgege leht.
-2. Klõpsake nuppu Kinnita.
-3. Valige või sisestage väärtus väljal Kinnitaja.
-4. Valige Jah väljal Kas soovite ka koosluse kinnitada?
-5. Klõpsake nuppu OK.
-6. Klõpsake käsku Aktiveeri.
+1. Valige **Kinnita**.
+1. Valige või sisestage väärtus väljal **Kinnitaja**.
+1. Valige *Jah* väljal **Kas soovite ka koosluse kinnitada?**.
+1. Valige nupp **OK**.
+1. Valige **Aktiveeri**.
 
 
 

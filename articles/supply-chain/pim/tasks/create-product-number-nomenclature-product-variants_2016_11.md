@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f342831d95f9988f9bb7807bac986e43cb317e0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7ea30dc107213b1a2c6b2a109188066a6ea82159
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820005"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921007"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Tootenumbri nomenklatuuri loomine konfigureeritud tootevariantide jaoks
 
@@ -26,79 +26,78 @@ ms.locfileid: "5820005"
 
 See protseduur näitab, kuidas seadistada konfigureeritud tootevariantidele tootenumbri nomenklatuuri ja kuidas selle saab konfigureeritavale tooteetalonile manustada. See protseduur näitab ka, kuidas toote konfiguratsioonimudeli komponendile konfiguratsiooni nomenklatuuri koostada. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Uus tootenumbri nomenklatuur määratakse D0004 tooteetalonile. Enamasti teeb selle toimingu toote koostaja.
 
-
 ## <a name="create-a-product-number-nomenclature"></a>Tootenumbri nomenklatuuri loomine
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Tootenomenklatuur.
-3. Klõpsake valikut Uus.
-4. Sisestage väärtus väljale Nimi.
-5. Sisestage väljale Kirjeldus soovitud väärtus.
-6. Klõpsake vahekaarti Lisa.
-7. Klõpsake valikut Tooteetaloni number.
-8. Klõpsake vahekaarti Lisa.
-9. Klõpsake valikut Tekstikonstant.
-10. Märkige loendis valitud rida.
-11. Sisestage väärtus väljale Tekst.
-12. Klõpsake vahekaarti Lisa.
-13. Klõpsake valikut Konfiguratsioon.
-14. Sulgege leht.
+
+1. Avage **Tooteteabe haldus \> Seadistamine \> Tootenomenklatuurid**.
+1. Valige suvand **Uus**.
+1. Sisestage väärtus väljale **Nimi**.
+1. Sisestage väärtus väljale **Kirjeldus**.
+1. Valige **Lisa**.
+1. Valige **Tooteetaloni koondnumber**.
+1. Valige **Lisa**.
+1. Valige **Tekstikonstant**.
+1. Märkige loendis valitud rida.
+1. **Sisestage väärtus väljale Tekst.**
+1. Valige **Lisa**.
+1. Valige **Konfiguratsioon**.
+1. Sulgege leht.
 
 ## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a>Tootenumbri nomenklatuuri määramine tooteetalonile
-1. Klõpsake valikut Tooteetalonid.
-2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtreerida välja Tootenumber väärtuse D järgi.
-3. Klõpsake loendis valitud real olevat linki.
-4. Klõpsake nuppu Redigeeri.
-5. Tehke väljal Kasuta nomenklatuuri valik Jah.
-6. Sisestage või valige väärtus väljal Tootevariandi numbri nomenklatuur.
-7. Sulgege leht.
-8. Sulgege leht.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Tooteetalonid**.
+1. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtreerida välja **Tootenumber** väärtuse D järgi.
+1. Valige loendis link valitud reas.
+1. Valige suvand **Redigeeri**.
+1. Valige väärtus *Jah* väljal **Kasuta nomenklatuuri**.
+1. Väljale **Tootevariandi numbri nomenklatuur** sisestage või valige väärtus.
+1. Sulgege leht.
+1. Sulgege leht.
 
 ## <a name="create-nomenclature-for-a-product-configuration-model-component"></a>Nomenklatuuri loomine toote konfiguratsioonimudeli komponendile
-1. Klõpsake valikut Toote konfiguratsioonimudelid.
-2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake loendis valitud real olevat linki.
-4. Klõpsake nuppu Redigeeri.
-5. Tehke väljal Kasuta konfiguratsiooni nomenklatuuri valik Jah.
-6. Klõpsake vahekaarti Lisa.
-7. Klõpsake valikut Atribuudi väärtus.
-8. Märkige loendis valitud rida.
-9. Valige või sisestage väärtus väljal Atribuut.
-10. Klõpsake vahekaarti Lisa.
-11. Klõpsake valikut Tekstikonstant.
-12. Märkige loendis valitud rida.
-13. Sisestage väärtus väljale Tekst.
-14. Klõpsake vahekaarti Lisa.
-15. Klõpsake valikut Atribuudi väärtus.
-16. Märkige loendis valitud rida.
-17. Valige või sisestage väärtus väljal Atribuut.
-18. Klõpsake vahekaarti Lisa.
-19. Klõpsake valikut Tekstikonstant.
-20. Märkige loendis valitud rida.
-21. Sisestage väärtus väljale Tekst.
-22. Klõpsake vahekaarti Lisa.
-23. Klõpsake valikut Atribuudi väärtus.
-24. Märkige loendis valitud rida.
-25. Valige või sisestage väärtus väljal Atribuut.
-26. Klõpsake vahekaarti Lisa.
-27. Klõpsake valikut Tekstikonstant.
-28. Märkige loendis valitud rida.
-29. Sisestage väärtus väljale Tekst.
-30. Klõpsake vahekaarti Lisa.
-31. Klõpsake valikut Atribuudi väärtus.
-32. Märkige loendis valitud rida.
-33. Valige või sisestage väärtus väljal Atribuut.
-34. Klõpsake vahekaarti Lisa.
-35. Klõpsake valikut Tekstikonstant.
-36. Märkige loendis valitud rida.
-37. Sisestage väärtus väljale Tekst.
-38. Klõpsake vahekaarti Lisa.
-39. Klõpsake valikut Numbriseeria väärtus.
-40. Märkige loendis valitud rida.
-41. Sisestage või valige väärtus väljal Numbriseeria.
-42. Sulgege leht.
-43. Sulgege leht.
-44. Sulgege leht.
 
-
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Otsige loendist ja valige soovitud kirje.
+1. Valige loendis link valitud reas.
+1. Valige suvand **Redigeeri**.
+1. Tehke väljal *Kasuta konfiguratsiooni nomenklatuur* valik **Jah**.
+1. Valige **Lisa**.
+1. Valige **Atribuudi väärtus**.
+1. Märkige loendis valitud rida.
+1. Valige või sisestage väärtus väljal **Atribuut**.
+1. Valige **Lisa**.
+1. Valige **Tekstikonstant**.
+1. Märkige loendis valitud rida.
+1. **Sisestage väärtus väljale Tekst.**
+1. Valige **Lisa**.
+1. Valige **Atribuudi väärtus**.
+1. Märkige loendis valitud rida.
+1. Valige või sisestage väärtus väljal **Atribuut**.
+1. Valige **Lisa**.
+1. Valige **Tekstikonstant**.
+1. Märkige loendis valitud rida.
+1. **Sisestage väärtus väljale Tekst.**
+1. Valige **Lisa**.
+1. Valige **Atribuudi väärtus**.
+1. Märkige loendis valitud rida.
+1. Valige või sisestage väärtus väljal **Atribuut**.
+1. Valige **Lisa**.
+1. Valige **Tekstikonstant**.
+1. Märkige loendis valitud rida.
+1. **Sisestage väärtus väljale Tekst.**
+1. Valige **Lisa**.
+1. Valige **Atribuudi väärtus**.
+1. Märkige loendis valitud rida.
+1. Valige või sisestage väärtus väljal **Atribuut**.
+1. Valige **Lisa**.
+1. Valige **Tekstikonstant**.
+1. Märkige loendis valitud rida.
+1. **Sisestage väärtus väljale Tekst.**
+1. Valige **Lisa**.
+1. Valige **Numbriseeria väärtus**.
+1. Märkige loendis valitud rida.
+1. Sisestage või valige väärtus väljal **Numbriseeria**.
+1. Sulgege leht.
+1. Sulgege leht.
+1. Sulgege leht.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

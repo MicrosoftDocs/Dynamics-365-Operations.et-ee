@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed48d41926c801c9017867be2eaa9af85a94b119
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f29a5014b98daa5150e01b541a076237e45ff180
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817673"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951955"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Kliendi tagasimaksete genereerimine ja töötlemine
 
@@ -62,7 +62,7 @@ See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest
 
 ## <a name="process-rebate-claims"></a>Tagasimaksenõuete töötlemine
 1. Minge **Navigeerimispaan > Moodulid > Müük ja turundus > Kliendi tagasimaksed > Tagasimakselepped**.
-    - Leht Tagasimaksed toimib töölauana, kus saate tagasimaksenõudeid üle vaadata, kinnitada ja töödelda. Nüüd töötlete te nõudeid, mis loodi kliendi US-009, kes on tagasimakseleppe USMF-000001 subjekt, müügitellimuse arveldamise tulemusena.   
+    - Leht Hinnavähendused toimib töölauana, kus saate hinnavähendusnõudeid üle vaadata, kinnitada ja töödelda. Nüüd töötlete te nõudeid, mis loodi kliendi US-009, kes on tagasimakseleppe USMF-000001 subjekt, müügitellimuse arveldamise tulemusena.   
     - Esimene rida näitab tagasimaksenõuet 800 USA dollarile, mis põhineb toote T0020 40 ühiku müügil ja mille arvutamise aluseks on 20 USA dollarit ühiku kohta. See vastab tagasimakseleppe esimese kogusekatkestuse tingimustele.  
     - Teine nõue on 2400 USA dollarit, mis põhineb toote T0020 60 ühiku müügil ja mille arvutamise aluseks on leppe teise kogusekatkestuse järgi 40 USA dollarit ühiku kohta.  
     - Mõlema nõude olek on „Arvutamisele kuuluv”. See tähendab, et need on seostatud lepega, mis jälgib kliendi müügitulemusi perioodiliselt, ja et need tuleb ümber arvutada kogu müügimahu arvestamiseks vastaval perioodil.   

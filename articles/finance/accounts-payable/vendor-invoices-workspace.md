@@ -1,5 +1,5 @@
 ---
-title: Hankija arve sisestamise tööruum
+title: Hankija arve automatiseerimise tööruum
 description: Selles teemas selgitatakse, kuidas seadistada hankija arvetega seotud tööruume, mis kuvavad Microsoft Power BI kaudu saadaolevat teavet.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837248"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954131"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Hankija arve sisestamise tööruum
+# <a name="vendor-invoice-automation-workspace"></a>Hankija arve automatiseerimise tööruum
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,7 +30,7 @@ Selles teemas selgitatakse, kuidas seadistada hankija arvetega seotud tööruume
 
 ## <a name="overview"></a>Ülevaade
 
-Tööruumis **Hankija arve sisestamine** kuvatakse teave, mis on seotud hankija arvete töötlemisega. See sisaldab vaadet **Minu töö** ja lehte **Analüüs – kõik ettevõtted**. Vaade **Minu töö** kuvab kokkuvõttepaanid, hankija kannete tabelid ja hankija seonduvad andmed. Leht **Analüüs – kõik ettevõtted** kasutab Power BI võimalusi hankija arvetega seotud visualiseeringute kuvamiseks.
+Tööruumis **Hankija arve automatiseerimine** kuvatakse teave, mis on seotud hankija arvete töötlemisega. See sisaldab vaadet **Minu töö** ja lehte **Analüüs – kõik ettevõtted**. Vaade **Minu töö** kuvab kokkuvõttepaanid, hankija kannete tabelid ja hankija seonduvad andmed. Leht **Analüüs – kõik ettevõtted** kasutab Power BI võimalusi hankija arvetega seotud visualiseeringute kuvamiseks.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Tööruumi seadistamine Power BI sisu kuvamiseks
 

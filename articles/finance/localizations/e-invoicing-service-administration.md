@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse administratsioonikomponendid
 description: Sellest teemast leiate teavet komponentide kohta, mis on seotud elektroonilise arvelduse administratsiooniga.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840024"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963187"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroonilise arvelduse administratsioonikomponendid
 
@@ -31,7 +31,7 @@ Sellest teemast leiate teavet komponentide kohta, mis on seotud elektroonilise a
 
 ## <a name="azure"></a>Azure
 
-Kasutage teenust Microsoft Azure võtmehoidla ja salvestuskonto saladuste loomiseks. Seejärel kasutage saladusi elektroonilise arvelduse lisandmooduli konfigureerimisel.
+Kasutage teenust Microsoft Azure võtmehoidla ja salvestuskonto salasõnade loomiseks. Seejärel kasutage saladusi elektroonilise arvelduse lisandmooduli konfigureerimisel.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -85,12 +85,14 @@ Teenusekeskkondi saab hallata oleku kaudu. Saadaval on järgmised valikud.
 Elektroonilise arvelduse teenus vastutab kõigi teie äriandmete talletamise eest Azure'i ressurssides, mis kuuluvad teie ettevõttele. Kindlustamaks seda, et teenus korrektselt töötab ja et kõik äriandmed on nõutud ja loodud Elektroonilise arvelduse jaoks sobivalt saadaval,peate looma kaks peamist Azure-i ressurssi:
 
 - Azure'i salvestuskonto (bloobimälu) elektrooniliste arvete talletamiseks
-- Azure'i võtmehoidla sertide ja salvestuskonto ühtse ressursi-indikaatori (URI) talletamiseks
+- Azure'i võtmehoidla salvestab sertide ja salvestuskonto ühtset ressursi-indikaatorit (URI)
 
-> [!NOTE]
-> Spetsiaalne võtmehoidla ja kliendi salvestuskonto peab Elektroonilise arvelduse jaoks olema määratud.
 
-Lisateavet vt teemast [Azure'i salvestuskonto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
+Spetsiaalne võtmehoidla ja kliendi salvestuskonto peab olema spetsiaalselt elektroonilise arvelduse jaoks määratud. Lisateavet vt teemast [Azure'i salvestuskonto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Oma võtmehoidla seisundi jälgimiseks ja teatiste saamiseks konfigureerige Azure Monitor võtmehoidla jaoks. Võtmehoidla logimise lubamisega saate jälgida, kuidas, millal ja kellel on teie võtmehoidlatele juurdepääs. Lisateavet vt jaotisi [Azure'i võtmehoidla jälgimine ja häirete saatmine](/azure/key-vault/general/alert) ja [Kuidas lubada võtmehoidla logimist](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Hea tava on salasõnasid aegajalt vahetada. Lisateabe saamiseks vt [Salasõnade dokumentatsiooni](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Kasutajad
 

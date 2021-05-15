@@ -2,7 +2,7 @@
 title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
-ms.date: 09/11/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744689"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944529"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -98,7 +98,7 @@ Atribuudiakna kaudu on elemendi isikupärastamiseks järgmised võimalused.
 
 Atribuudiaken võib sisaldada ka muid isikupärastamisvõimalusi olenevalt elemendist. Näiteks võib paani atribuudiaken lubada teil ülendada selle paani armatuurlauaks ning vaikearmatuurlaua elementide atribuudiaknad võib lubada teil luua uue kohandatud tööruumi.
 
-### <a name="the-personalization-toolbar"></a>Isikupärastamise tööriistariba
+### <a name="personalization-toolbar"></a>Isikupärastamise tööriistariba
 
 Kui soovite teha lehel mitu muudatust või teha muudatusi, mis pole muude mehhanismide kaudu saadaval (nt kui soovite elemente ümber järjestada), saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks toimige järgmiselt.
 
@@ -173,7 +173,90 @@ Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Seda saab is
 
 ## <a name="sharing-personalizations"></a>Isikupärastamiste ühiskasutamine
 
-Pärast lehe isikupärastamist võite oma isikupärastamisi oma isikupärastatud lehe eksportimise teel teiste kasutajatega jagada. Seejärel saate paluda teistel kasutajatel isikupärastamisfail importida. Teine võimalus on anda oma isikupärastamised administraatoriõigustega kasutajale. Seejärel saab rakendada teie iskupärastamise faili samaaegselt paljudele kasutajatele, kasutades halduslehte **Isikupärastamine**.
+Pärast lehe isikupärastamist saate oma isikupärastatud lehte mitmel viisil teiste kasutajatega jagada. Järgmises loendis on meetodid korraldatud järjekorras kõige rohkem soovitatud meetodilt kuni kõige vähem soovitatud meetodile.
+
+1. Avaldada kasutajatele vaated.
+2. Kopeerige vaateid või isikupärastamiseid kasutajatele.
+3. Eksportige ja importige vaated või isikupärastamiseid.
+
+### <a name="publish-views-to-users"></a>Avaldage kasutajatele vaated
+
+Kui [Salvestatud vaadete](saved-views.md) funktsioon on sisse lülitatud ja kui leht toetab vaateid, siis on parim viis isikupärastamiste jagamiseks teiste kasutajatega avaldada vaated kasutajatele, kel on üks või mitu turberolli. Lisateavet leiate teemast [avaldatud vaated](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Kopeerige vaated või isikupärastamised kasutajatele
+
+Kui [Salvestatud vaadete](saved-views.md) funktsioon on välja lülitatud või kui leht ei toeta vaatamisi, siis on soovituslik viis isikupärastamiste jagamiseks need kasutajate vahel kopeerida. See meetod on saadaval ainult privilegeeritud kasutajatele (nt süsteemi administraatoritele). Kuigi administraatorid võivad süsteemis otsida konkreetse kasutaja isikupärastamist (k.a kasutaja isiklik vaade, kui salvestatud vaated on lubatud) ja kopeerida konfiguratsiooni teistele kasutajatele.
+
+Kui salvestatud vaated on lubatud, järgige isikupärastamise kopeerimiseks neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Isiklike vaadete kopeerimiseks järgige neid samme:
+
+    1. Valige **Isiklikud vaated**.
+    2. Valige loendist soovitud vaated.
+    3. Valige **Kopeeri kasutajatele**.
+    4. Vaadete jaotamiseks valige kasutajad.
+
+    Järgige neid samme isikupärastamise kopeerimiseks lehtedel, mis ei toeta vaateid.
+
+    1. **Kasutajasätete valimine**.
+    2. Valige kasutaja, kellel on isikupärastamine, mida soovite jaotada.
+    3. Valige **Halda kõiki isikupärastamiseid**.
+    4. Valige loendist soovitud isikustamised.
+    5. Valige **Kopeeri kasutajatele**.
+    6. Isikustamiste jaotamiseks valige kasutajad.
+
+Kui salvestatud vaated ei ole lubatud, järgige isikupärastamise kopeerimiseks neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Valige **Rakendamine**.
+3. Isikustamiste jaotamiseks valige kasutajad.
+4. Valige **Valige olemasolev isikupärastamine**.
+5. Otsige ja valige (üksik) isikupärastamine, mida teid soovite.
+6. Valige nupp **OK**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Eksportige ja importige vaateid või isikupärastamiseid
+
+Teine viis isikupärastamise jagamiseks on läbi ekspordi ja impordi. Üksikud kasutajad või administraator, kes tegutseb enda nimel, saavad seda meetodit kasutada oma isikupärastamise või vaadete eksportimiseks ja seejärel anda eksporditud faili teistele kasutajatele importimiseks. Teise võimalusena saavad kasutajad anda eksporditud isikupärastamised haldusõigusi omavale kasutajale ja see kasutaja saab seejärel kasutada **Isikupärastamise** halduslehte et rakendada isikupärastamise fail paljudele kasutajatele samaaegselt.
+
+#### <a name="export"></a>Eksport
+
+Üldiselt saate eksportida ühe oma vaadetest või isikupärastamist, avades sobiva lehekülje, avades **isikupärastamise** tööriistariba ja valides seejärel **Ekspordi**. Lisateavet tööriistariba kohta vt [Tööriistariba isikupärastamise](#personalization-toolbar) jaotisest varasemalt selles teemas. Kui [salvestatud vaated](saved-views.md) on lubatud, saate minna ka **Sätted \> Kasutaja võimalused \> Isikustamine** et vaadata kõigi isikustamiste loendit süsteemis. Sealt saate valida eksportimiseks vaateid või isikupärastamiseid ja seejärel valida **Ekspordi**.
+
+Lisaks saavad administraatorid eksportida teiste kasutajate isikupärastamiseid järgides neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Vahekaardil **Kasutajad** valige soovitud kasutaja.
+3. Otsige ja valige vaade või isikupärastamine, mida teid soovite.
+4. Valige **Ekspordi**.
+
+#### <a name="import"></a>Importimine
+
+Vaate või isikupärastamise importimiseks avage **Isikupärastamise** tööriistariba ja valige **Impordi**. Lisaks saavad administraatorid faili importida ja anda selle kohe ühele või mitmele kasutajale.
+
+Kui salvestatud vaated on lubatud, järgige neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Toimingupaanil valige **Impordi vaated \> Kasutaja vaated**.
+3. Valige impordimudel:
+
+    - **Valige kindlad kasutajad** – Andke vaade või isikupärastamine valitud kasutajatele.
+    - **Impordi vastavalt vajadusel** – importige vaade või isikupärastamine samale kasutajale, kes selle eksportis.
+
+4. Valige **Sirvi** ja otsige ja valige isikustamine importimiseks.
+5. Valige **Edasi**.
+6. Kui valisite **Valige kindlad kasutajad** 3. sammus, valige kasutajad, kes isikupärastamise impordite.
+7. Valige **Impordi**.
+8. Lahenda konfliktid vastavalt vajadusele.
+
+Kui salvestatud vaated ei ole lubatud, järgige neid samme.
+
+1. Minge **Süsteemi administratsioon \> Seadistus \> Isikustamine**.
+2. Valige **Rakendamine**.
+3. Isikustamiste jaotamiseks valige kasutajad.
+4. Valige **Impordi isikupärastamised failist**.
+5. Valige **Sirvi** ja otsige ja valige isikustamine importimiseks.
+6. Valige nupp **OK**.
 
 ## <a name="administration-of-personalizations"></a>Isikupärastamiste haldamine
 
@@ -184,8 +267,11 @@ Kliendid, kes on sisse lülitanud funktsiooni **Salvestatud vaated**, näevad te
 Klientidele, kes pole funktsiooni [Salvestatud vaated](saved-views.md) veel sisse lülitanud, on sellel lehel neli vahekaarti.
 
 - **Rakenda** – saate importida või valida vähemalt ühe kasutaja isikupärastamise. Isikupärastamise rakendamiseks ühele või mitmele kasutajale valige esmalt roll ja selle rolliga kasutajad. Seejärel valige kas olemasolev isikupärastamine valitud kasutajatele rakendamiseks või importige isikupärastamise fail. Isikupärastamine kinnitatakse ja rakendatakse valitud kasutajatele järgmisel korral, kui nad valitud lehe avavad.
+
 - **Eemalda** – saate eemaldada vähemalt ühe kasutaja lehe või tööruumi kõik isikupärastamised. Esmalt valige leht või tööruum, et näha seda isikupärastanud kasutajate loendit. Seejärel valige kasutajad, kelle isikupärastamised tuleb sellelt lehelt või sellest tööruumist eemaldada, ja valige käsk **Eemalda**. Kõik isikupärastamised, mille valitud kasutajad on valitud lehele või tööruumile rakendanud, kustutatakse. Seda tegevust ei saa tagasi võtta. Kui aga isikupärastamine on lehele või tööruumile salvestatud, saab selle isikupärastamise uuesti importida.
+
 - **Kasutajad** – saate valida kasutaja, et kuvada loend lehtedest, mille kasutaja on isikupärastanud. Seejärel saate valitud kasutaja võimaluse kasutada isikupärastamisi kindlatel lehtedel või terves süsteemis sisse või välja lülitada. Samuti saate kasutaja jaoks isikupärastamise importida, eksportida või eemaldada. Lisaks saate lähtestada kasutaja funktsiooni viiktekstid. Sel juhul, kui kasutaja on varem välja lülitanud kõik hüpikaknad, mis juurutavad uusi funktsioone, kuvatakse need uuesti järgmisel korral, kui kasutaja nende funktsioonidega kokku puutub.
+
 - **Süsteem** – saate ajutiselt välja lülitada süsteemis olevad kõigi kasutajate kõik isikupärastamised. Sel juhul kustutatakse kõik isikupärastamised kõigi kasutajate jaoks ja kõik lehed lähtestatakse nende vaikeolekusse. Kui lülitate isikupärastamise hiljem uuesti sisse, rakendatakse kõik isikupärastamised uuesti. Saate ka kõigi kasutajate isikupärastamised süsteemist jäädavalt kustutada. Kustutatud isikupärastamisi ei ole võimalik taastada. Seega veenduge enne seda ülesannet, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
 
 ## <a name="personalizing-inventory-dimensions"></a>Varude dimensioonide isikupärastamine

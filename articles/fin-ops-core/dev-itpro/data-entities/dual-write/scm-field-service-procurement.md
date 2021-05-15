@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: riluan
+ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750686"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941105"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Hanke integreerimine teenuste Supply Chain Management ja Field Service vahel
 
@@ -46,7 +46,7 @@ Supply Chain Managementi integreerimiseks Field Service’iga peate installima j
 ### <a name="prerequisites"></a>Eeltingimused
 
 - **Topeltkirjutus** – lisateabe saamiseks vt [topeltkirjutuse kodulehte](dual-write-home-page.md#dual-write-setup).
-- **Dynamics 365 Field Service** – lisateabe saamiseks vt [Kuidas rakendus Dynamics 365 Field Service alla laadida](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Dynamics 365 Field Service** – lisateabe saamiseks vt [Kuidas rakendus Dynamics 365 Field Service alla laadida](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Kui need on teenuses Microsoft Dataverse lubatud, tutvustavad topeltkirjutus ja Field Service mitut lahenduse kihti, mis laiendavad keskkonda uute metaandmetega, vormide, vaadete ja loogikaga. Neid lahendusi saab lubada mis tahes järjestuses, kuigi te installite tavaliselt siin määratud järjestuses.
 
@@ -126,7 +126,7 @@ Lisaks sisaldab Dataverse loogikat, mis vastendab hankijaid seotud kontodega. Se
 - Kui ostutellimust juhitakse Supply Chain Managementi muudatuse haldusega, saab Field Service’i kasutaja ostutellimust värskendada ainult siis, kui Supply Chain Managementi kinnituse olekuks on *Mustand*.
 - Mitut veergu haldab ainult Supply Chain Management ja neid ei saa Field Service’is uuendada. Et teada saada, milliseid veerge ei saa värskendada, vaadake toote vastendamise tabelit. Lihtsustamise huvides on enamik neist veergudest Dataverse’i lehtedel määratud kirjutuskaitstuks. 
 
-    Näiteks haldab Supply Chain Management hinnateabe veerge. Supply Chain Managemenil on kaubanduslepped, mida Field Service saab kasutada. veerud, nagu **Ühiku hind**, **Allahindlus** ja **Netosumma**, tulevad ainult Supply Chain Managementist. Kindlustamaks, et hind oleks teenusega Field Service sünkroonitud, peaksite kasutama Dataverse’is **ostutellimuse** ja **ostutellimuse toote** lehtedel **sünkroonimise** funktsiooni, kui ostutellimuse andmed on sisestatud. Lisateavet vt [Nõudmisel Dynamics 365 Supply Chain Managementi hankeandmetega sünkroonimine](#sync-procurement).
+    Näiteks haldab Supply Chain Management hinnateabe veerge. Supply Chain Managementil on kaubanduslepped, mida Field Service saab kasutada. veerud, nagu **Ühiku hind**, **Allahindlus** ja **Netosumma**, tulevad ainult Supply Chain Managementist. Kindlustamaks, et hind oleks teenusega Field Service sünkroonitud, peaksite kasutama Dataverse’is **ostutellimuse** ja **ostutellimuse toote** lehtedel **sünkroonimise** funktsiooni, kui ostutellimuse andmed on sisestatud. Lisateavet vt [Nõudmisel Dynamics 365 Supply Chain Managementi hankeandmetega sünkroonimine](#sync-procurement).
 
 - Veerg **Kogusummad** on saadaval ainult teenuses Field Service, kuna Supply Chain Managementis pole ostutellimusel ajavälist kogusummat. Supply Chain Managementi kogusummad arvutatakse mitme parameetri põhjal, mis pole Field Service’i puhul saadaval.
 - Ostutellimuse ridu, kus on määratud ainult hankekategooria või kus määratud toode on teenuse tootetüübi *Teenus* või tootetüübi Field Service kaup, saab käivitada ainult Supply Chain Managementis. Seejärel sünkroonitakse read Dataverse’i ja need on Field Service’is nähtavad.
@@ -188,7 +188,7 @@ Siin on olukorrad, kus te võite kasutada funktsiooni **Sünkroonimine**.
 
 ## <a name="cancelling-the-posting-process"></a>Sisestamisprotsessi tühistamine
 
-Kui toote sissetuleku sisestamisprotsess on töötlemise ajal tühistatud, võib topeltkirjutus luua toote sissetuleku rea, kuid ei loo toote sissetuleku rida Dataverse’i tarneahela halduses. Selline olukord juhtub, kuna topeltkirjutus ei toeta jaotatud kandeid.
+Kui toote sissetuleku sisestamisprotsess on töötlemise ajal tühistatud, võib topeltkirjutus luua toote sissetuleku rea, kuid ei loo toote sissetuleku rida Dataverse’i Supply Chain Managementis. Selline olukord juhtub, kuna topeltkirjutus ei toeta jaotatud kandeid.
 
 ## <a name="templates"></a>Mallid
 

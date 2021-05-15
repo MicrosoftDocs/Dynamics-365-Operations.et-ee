@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4767d5dc3944d2595a5b2a74a6d5c7c0ea0c849a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2c945756997b0580ac7ffb19261f9184e53a1c10
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809442"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920503"
 ---
 # <a name="approve-a-product-configuration-model"></a>Toote konfiguratsioonimudeli kinnitamine
 
@@ -26,25 +26,24 @@ ms.locfileid: "5809442"
 
 Selle protseduuri käitamine nõuab vähemalt ühe toote konfiguratsioonimudeli kättesaadavust. See protseduur kasutab tipptasemel kõlari mudelit demoettevõttes USMF. Pange tähele, et see mudel on juba kinnitatud, kuid protseduur juhatab teid läbi kogu protsessi.
 
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Otsige loendist ja valige soovitud kirje.
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Otsige loendist ja valige soovitud kirje.
     * Valige selle protseduuri jaoks tipptasemel kõlari mudel.  
-4. Klõpsake valikut Versioonid.
-5. Klõpsake valikut Uus.
-6. Sisestage või valige väärtus väljal Tootenumber.
+1. Valige **Versioonid**.
+1. Valige suvand **Uus**.
+1. Sisestage või valige väärtus väljal **Toote number**.
     * Viide tootele kajastab toote konfiguratsioonimudeli versiooni. Ainult need tooteetalonid, millel on piirangupõhise konfiguratsiooni tehnoloogia, kuvatakse selles loendis.  
-7. Sisestage kuupäev väljale Alguskuupäev.
+1. Sisestage kuupäev väljale **Alates kuupäevast**.
     * Valige, millal tootemudeli versioon kättesaadavaks muutub.  
-8. Sisestage kuupäev väljale Lõpukuupäev.
+1. Sisestage kuupäev väljale **Lõppkuupäev**.
     * Valige lõppkuupäev, millal see tootemudeli versioon aegub, või valige Mitte kunagi.  
-9. Klõpsake dialoogi avamiseks valikut Kinnita.
-10. Valige või sisestage väärtus väljal Kinnitaja.
+1. Rippdialoogi avamiseks klõpsake valikut **Kinnita**.
+1. Valige või sisestage väärtus väljal **Kinnitaja**.
     * Valige isik, kes vastutab toimingutes kasutatavate tootemudelite kinnitamise eest.  
-11. Klõpsake nuppu OK.
-12. Valige suvand väljal Hinnakujundusmeetod.
+1. Valige nupp **OK**.
+1. Valige suvand väljal **Hinnakujundusmeetod**.
     * Aktiveerige tootemudeli versioon. Korraga saab ühel tootemudelil olla aktiivne üks toode.  
-13. Sulgege leht.
+1. Sulgege leht.
 
 
 

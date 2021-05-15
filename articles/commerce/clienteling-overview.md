@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800443"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937008"
 ---
 # <a name="clienteling-overview"></a>Kliendisuhtluse ülevaade
 
@@ -60,7 +60,7 @@ Müügiesindajad saavad kasutada ka märkmeid, et jäädvustada üldise kliendi 
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights-iga integreerimine
 
-Rakenduse Dynamics 365 Customer Insights abil saavad jaemüüjad koondada andmeid erinevatest süsteemidest, mida kliendid kasutavad jaemüüja kaubamärgiga suhtlemiseks. Seejärel saavad nad neid andmeid kasutada kliendi ühe vaate loomiseks ja nendest arusaamise tuletamiseks. Customer Insightsi integreerimine Commerce'iga laseb jaemüüjatel valida ühe või mitu meedet, mis tuleks kliendi kaardil kuvada kliendi raamatus. Näiteks saavad jaemüüjad kasutada Customer Insightsi andmeid, et arvutada kliendile „kloppimise tõenäosus” ja määratleda „järgmine parim tegevus”. Kui need väärtused on määratletud kui meetmed, saab neid kuvada kliendi kaardil ja see võib pakkuda olulist teavet müügiesindajate jaoks. Lisateavet Customer Insightsi kohta vt rakenduse [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) dokumentatsioonist. Lisateavet meetmete kohta vt [Meetmed](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Rakenduse Dynamics 365 Customer Insights abil saavad jaemüüjad koondada andmeid erinevatest süsteemidest, mida kliendid kasutavad jaemüüja kaubamärgiga suhtlemiseks. Seejärel saavad nad neid andmeid kasutada kliendi ühe vaate loomiseks ja nendest arusaamise tuletamiseks. Customer Insightsi integreerimine Commerce'iga laseb jaemüüjatel valida ühe või mitu meedet, mis tuleks kliendi kaardil kuvada kliendi raamatus. Näiteks saavad jaemüüjad kasutada Customer Insightsi andmeid, et arvutada kliendile „kloppimise tõenäosus” ja määratleda „järgmine parim tegevus”. Kui need väärtused on määratletud kui meetmed, saab neid kuvada kliendi kaardil ja see võib pakkuda olulist teavet müügiesindajate jaoks. Lisateavet Customer Insightsi kohta vt rakenduse [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview) dokumentatsioonist. Lisateavet meetmete kohta vt [Meetmed](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Seadista klientuur
 
@@ -73,7 +73,7 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
 2. Lülitage sisse **Klientuuri** funktsioon, valides **Luba kohe.**
 3. Lehe **Commerce'i parameetrid** vahekaardil **Numbriseeria** valige rida **Kliendi raamatu ID**. Seejärel sisestage numbriseeria kood väljale **Numbriseeria kood**. Süsteem kasutab seda numbriseeriat, et määrata kliendi raamatutele ID.
 4. Valige käsk **Salvesta**.
-5. Looge uus atribuudirühm, mis sisaldab atribuute, mida soovite hõivata klientide jaoks, keda hallatakse kliendi raamatutes. Vaadake juhiseid jaotises [Atribuudid ja atribuudirühmad](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+5. Looge uus atribuudirühm, mis sisaldab atribuute, mida soovite hõivata klientide jaoks, keda hallatakse kliendi raamatutes. Vaadake juhiseid jaotises [Atribuudid ja atribuudirühmad](./attribute-attributegroups-lifecycle.md).
 
     - Määratlege nõutavad atribuudid, **mida saab täpsustada**. Seejärel saavad müügiesindajad kasutada neid atribuute oma kliendi raamatu filtreerimiseks.
     - Seadistage nende atribuutide jaoks kuvatav tellimus. See kuvatav tellimus määratleb, millised atribuudid tuleb kliendi kaardil kuvada kliendi raamatus. 1. kuvatav tellimus on suurem kui 2. kuvatav tellimus. Seetõttu kuvatakse atribuut, millel on kuvatav tellimus 1, enne atribuuti, millel on kuvatud tellimus 2.
@@ -103,18 +103,18 @@ Customer Insightsi Commerce'iga integreerimise sisselülitamiseks peate veenduma
 
 Integratsiooni seadistamiseks läbige need etapid.
 
-1. Registreerige Azure'i portaalis uus rakendus ja märkige rakenduse nimi, rakenduse ID ja saladus üles. Seda teavet kasutatakse teenusest teenusesse autentimiseks Commerce'i ja Customer Insightsi vahel. Märkige saladus kindlasti üles, kuna see tuleb võtmehoidlasse salvestada. Järgmise näite puhul kasutage rakenduse nime, rakenduse ID ja saladuse jaoks vastavalt parameetreid CI_Access_name, CI_Access_AppID, CI_Access_Secret. Lisateavet vaadake teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+1. Registreerige Azure'i portaalis uus rakendus ja märkige rakenduse nimi, rakenduse ID ja saladus üles. Seda teavet kasutatakse teenusest teenusesse autentimiseks Commerce'i ja Customer Insightsi vahel. Märkige saladus kindlasti üles, kuna see tuleb võtmehoidlasse salvestada. Järgmise näite puhul kasutage rakenduse nime, rakenduse ID ja saladuse jaoks vastavalt parameetreid CI_Access_name, CI_Access_AppID, CI_Access_Secret. Lisateavet vaadake teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
     > Tehke nii, et mäletaksite saladuse muutmist enne selle aegumist. Vastasel juhul peatub integratsioon ootamatult.
 
 2. Avage oma Customer Insightsi eksemplar ja otsige üleval loodud rakenduse nime (selles näites CI_Access_name).
-3. Looge Azure'i võtmehoidla ning märkige üles nimi ja URL (selles näites KeyVaultName, KeyVaultURL). Juhised leiate teemast [Lühijuhend: saate seada ja tuua saladuse Azure'i võtmehoidlast Azure'i portaali abil](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+3. Looge Azure'i võtmehoidla ning märkige üles nimi ja URL (selles näites KeyVaultName, KeyVaultURL). Juhised leiate teemast [Lühijuhend: saate seada ja tuua saladuse Azure'i võtmehoidlast Azure'i portaali abil](/azure/key-vault/quick-create-portal).
 4. Salvestage saladus (selles näites CI_Access_Secret) hoidlasse. Kui saladus on hoidlasse salvestatud, määratakse saladusele nimi. Märkige saladuse nimi (selles näites SecretName) üles.
 5. Azure'i võtmehoidla kaudu saladusele juurdepääsuks peate looma teise rakenduse ning määrama rakenduse ID ja saladuse (selles näites KeyVault_Access_AppID ja KeyVault_Access_Secret). Märkige saladus kindlasti üles, kuna seda ei kuvata enam.
 6. Seejärel peate andma rakendusele load Commerce'i kaudu API-de abil võtmehoidlale juurdepääsuks. Avage Azure'i portaalis rakenduse leht. Tehke jaotises **Haldamine** valik **API load**. Andke juurdepääsuluba **Azure'i võtmehoidlale**. Selle loa jaoks valige **Juurdepääsupoliitika**. Valige mall **Saladuse haldus** ning valige suvandid **Hangi**, **Loend**, **Dekrüpti** ja **Krüpti**. 
 5. Avage Commerce'i peakontoris **Süsteemihaldus \> Seadistus \> Võtmehoidla parameetrid** ja sisestage võtmehoidlale vajalik teave. Seejärel sisestage väljal **Võtmehoidla klient** rakenduse ID, mida kasutasite sammus 4, nii et Commerce pääseks ligi saladustele võtmehoidlas.
-6. 1. etapis loodud rakenduse lisamiseks turvaliste rakenduste loendisse (nimetatakse mõnikord ka turvaliseks loendiks) avage Customer Insights ja valige rakenduse jaoks **kuvamisõigus**. Vaadake juhiseid jaotisest [Load](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. 1. etapis loodud rakenduse lisamiseks turvaliste rakenduste loendisse (nimetatakse mõnikord ka turvaliseks loendiks) avage Customer Insights ja valige rakenduse jaoks **kuvamisõigus**. Vaadake juhiseid jaotisest [Load](/dynamics365/ai/customer-insights/pm-permissions).
 7. Värskendage Commerce'i peakontori (HQ) lehel jaotises **Süsteemihaldus > Seadistus > Võtmehoidla parameetrid** välju, nagu allpool kirjeldatud. 
 
 - **Võtmehoidla URL**: KeyVaultURL (vt üleval 3. etappi).

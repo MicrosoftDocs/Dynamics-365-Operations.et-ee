@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830024"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954641"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Tehniliste toodete muudatuste haldamine
 
@@ -139,13 +139,14 @@ Kui vaatate muudatuse taotlust läbi, valige toimingupaanil kiirkaardil **Muudat
 
 Nagu on kirjeldatud teemas [Tehnikaettevõtted ja andmete omandiõiguse reeglid](engineering-org-data-ownership-rules.md), olenevad redigeeritavad tooteandmed juriidilise isiku tüübist, milles te töötate (tehnikaettevõte vs. operatiivettevõte). Andmete omandiõiguse reegleid rakendatakse ka tehnilise muudatuse tellimuste puhul. Seetõttu, sõltuvalt juriidilisest isikust, kus te loote tehnilise muudatuse tellimuse, saab teha erinevat tüüpi muudatusi. Järgmisena on toodud mõned näited.
 
-- **Operatiivettevõtte** tehnilise muudatuse tellimuste korral saate tehnilisi andmeid vähe muuta. Näiteks saate luua tootele uusi versioone, muuta toote struktuuri koosluse kaudu ja muuta tehnilise atribuudi väärtusi. Iga mõjutatud toote puhul valige väljal **Mõju** üks järgmistest väärtustest.
+- *Operatiivettevõtte* tehnilise muudatuse tellimuste korral saate tehnilisi andmeid vähe muuta. Näiteks saate luua tootele uusi versioone, muuta toote struktuuri koosluse kaudu ja muuta tehnilise atribuudi väärtusi. Iga mõjutatud toote puhul valige väljal **Mõju** üks järgmistest väärtustest.
 
     - **Pole** – värskendage olemasolevat tooteversiooni (versioonisisene värskendamine).
     - **Uus versioon** – looge uus versioon, mis põhineb valitud tooteversioonil.
-    - **Uus toode** – looge täiesti uus toode või tootevariant, mis põhineb valitud tooteversioonil.
+    - **Uus toode** – looge täiesti uus toode, mis põhineb valitud tooteversioonil.
+    - **Uus versioon** – looge uus versioon, mis põhineb valitud tooteversioonil. Selle kooslus ja protsessi teave kopeeritakse.
 
-- **Operatiivettevõtte** tehnilise muudatuse tellimuste korral saate muuta toote logistilisi andmeid. Näiteks saate rikastada olemasolevat kooslust hankimissätetega, lisada kohalikke protsesse või kohalikke kooslusi ning isegi rikastada kooslust, lisades uusi koosluseridu kohaliku pakkematerjali, määrimisevedelike või kohalikus keeles juhiste jaoks. Rikastamised, mida kasutajad operatiivettevõttes teevad, säilitatakse uute värskenduste saatmisel tehnikaettevõttest. Lisateavet vt teemast [Tehnikaettevõtted ja andmete omandiõiguse reeglid](engineering-org-data-ownership-rules.md).
+- *Operatiivettevõtte* tehnilise muudatuse tellimuste korral saate muuta toote logistilisi andmeid. Näiteks saate rikastada olemasolevat kooslust hankimissätetega, lisada kohalikke protsesse või kohalikke kooslusi ning isegi rikastada kooslust, lisades uusi koosluseridu kohaliku pakkematerjali, määrimisevedelike või kohalikus keeles juhiste jaoks. Rikastamised, mida kasutajad operatiivettevõttes teevad, säilitatakse uute värskenduste saatmisel tehnikaettevõttest. Lisateavet vt teemast [Tehnikaettevõtted ja andmete omandiõiguse reeglid](engineering-org-data-ownership-rules.md).
 
     Kui tehnilise muudatuse tellimusi töödeldakse tehnikaettevõttes, luuakse ja/või uuendatakse tooted ainult tehnikaettevõttes. Seega, kui toote koondandmeid tuleb värskendada, tuleb tooted ka operatiivettevõtetele väljastada.
 

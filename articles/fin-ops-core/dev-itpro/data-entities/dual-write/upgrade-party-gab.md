@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857366"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941079"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Üleminek osapoole ja globaalse aadressiraamatu mudelile
 
@@ -52,11 +52,11 @@ Järgmised eeldused on vajalikud.
 
 2. Logige sisse rakendusse [Microsoft Azure](https://portal.azure.com/).
 
-3. Looge [ressursigrupp](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. Looge [ressursigrupp](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. Looge loodud ressursirühmas [talletuskonto](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal).
+4. Looge loodud ressursirühmas [talletuskonto](/azure/storage/common/storage-account-create?tabs=azure-portal).
 
-5. Looge ülal loodud ressursirühmas [andmevabrik](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal).
+5. Looge ülal loodud ressursirühmas [andmevabrik](/azure/data-factory/quickstart-create-data-factory-portal).
 
 6. Avage andmevabrik ja valige paan **Autor ja monitor**.
 
@@ -81,7 +81,7 @@ Järgmised eeldused on vajalikud.
     FO lingitud Service_properties_type Properties_service põhi-ID | Määrake rakenduse kliendi ID.
     Dynamics Crm-iga lingitud Service_properties_type Properties_username | Kasutajanimi Dynamicsiga ühenduse loomiseks.
 
-    Lisateavet leiate teemast [Ressursihalduri malli käsitsi reklaamimine iga keskkonna jaoks ](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Lingitud teenuse atribuudid ](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties)ja [Andmete kopeerimine Azure'i andmevabriku abil](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Lisateavet leiate teemast [Ressursihalduri malli käsitsi reklaamimine iga keskkonna jaoks ](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Lingitud teenuse atribuudid ](/azure/data-factory/connector-dynamics-ax#linked-service-properties)ja [Andmete kopeerimine Azure'i andmevabriku abil](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Pärast juurutamist valideerige andmevabriku andmekogumid, andmevoog ja lingitud teenus.
 
@@ -158,7 +158,7 @@ Järgmised eeldused on vajalikud.
 8. Importige rakenduses Finance and Operations uued **osapoole** kirjed.
 
     + Laadige `FONewParty.csv` fail alla Azure'i bloobimälust. Vorming on `partybootstrapping/output/FONewParty.csv`.
-    + Teisendage `FONewParty.csv` fail Exceli failiks ja importige Exceli fail Finance and Operations rakendusse.  Kui CSV import töötab teie jaoks, saate importida CSV faili otse. Sõltuvalt andmemahust võib importimiseks kuluda mõni tund. Lisateavet vt [Andmete importimis- ja eksportimistööde ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + Teisendage `FONewParty.csv` fail Exceli failiks ja importige Exceli fail Finance and Operations rakendusse.  Kui CSV import töötab teie jaoks, saate importida CSV faili otse. Sõltuvalt andmemahust võib importimiseks kuluda mõni tund. Lisateavet vt [Andmete importimis- ja eksportimistööde ülevaade](../data-import-export-job.md).
 
     ![Dataversi osapoole kirjete importimine](media/data-factory-import-party.png)
 

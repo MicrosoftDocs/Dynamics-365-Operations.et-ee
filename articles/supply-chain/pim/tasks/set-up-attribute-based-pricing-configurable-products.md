@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c30c520e7265c2676937f5191844f6789c364e6
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833253"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921237"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Atribuudipõhise hinnakujunduse loomine konfigureeritavatele toodetele
 
@@ -28,17 +28,18 @@ Selles teemas selgitatakse, kuidas seadistada atribuutidepõhist hinnastamist. E
 
 
 ## <a name="create-a-new-price-model"></a>Uue hinnamudeli loomine
-1. Valige avalehel **Tootevariandi mudeli määratlus**.
-2. Valige **Toote konfiguratsioonimudelid** jaotisest **lingid**.
-3. Valige loendist rida **Kvaliteetkõlar**, aga ärge valige linki nimele.
-4. Valige toiminguplaanil **Mudel**.
-5. Valige **Hinnamudelid**.
-6. Valige suvand **Uus**.
-7. Sisestage väärtus väljale **Hinnamudeli nimi**. Kasutage nime, mille abil on mudelit kerge tuvastada.  
-8. Sisestage väärtus väljale **Kirjeldus**.
-9. Valige käsk **Salvesta**.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Valige loendist rida **Kvaliteetkõlar**, aga ärge valige linki nimele.
+1. Valige toiminguplaanil **Mudel**.
+1. Valige **Hinnamudelid**.
+1. Valige suvand **Uus**.
+1. Sisestage väärtus väljale **Hinnamudeli nimi**. Kasutage nime, mille abil on mudelit kerge tuvastada.  
+1. Sisestage väärtus väljale **Kirjeldus**.
+1. Valige käsk **Salvesta**.
 
 ## <a name="add-price-elements"></a>Hinnaelementide lisamine
+
 1. Valige suvand **Redigeeri**. Igal tootemudeli komponendil võib olla baashinna element ja mis tahes arv hinnaavaldise reegleid. Saate lisada hindu ka erinevates valuutades.  
 2. Sisestage väärtus väljale **Baashinna väljend**. Tippige näiteks 100. Baashinna avaldis võib olla arvväärtus või koosneda aritmeetilisest tehtest, mis sisaldab vähemalt ühte atribuuti.  
 3. Valige **Lisa**.

@@ -2,7 +2,7 @@
 title: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
 description: See teema annab teavet loodud failide tükeldamise kohta failimahu ja sisuüksuste koguse alusel.
 author: NickSelin
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: f39cb93f4ba2d41b145ed7cfa52da287ccac3df5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9b0c8d215d1932a4c897488cb9c6ed7fa2127d82
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743553"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944337"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
 
@@ -38,8 +38,8 @@ Kui olete konfigureerinud failisihtkohad vorminguelemendile FILE, mis on konfigu
 
 Selle funktsiooni kohta lisateabe saamiseks vaadake tegevusejuhist **Elektrooniline aruandlus: XML-failide tükeldamine failimahu või sisuüksuste koguse põhjal**, mis on osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** ja mille saab alla laadida [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=874684). See tegevusejuhis viib teid läbi elektroonilise aruandluse vormingu konfigureerimise protsessi loodud failide tükeldamiseks failimahu ja sisuüksuste koguse piirangute põhjal. Tegevusejuhise lõpuleviimiseks peate alla laadima järgmised failid.
 
-- [Elektroonilise aruandluse mudeli konfiguratsioon – XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [Elektroonilise aruandluse vormingu konfiguratsioon – XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [Elektroonilise aruandluse mudeli konfiguratsioon – XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
+- [Elektroonilise aruandluse vormingu konfiguratsioon – XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
 
 ## <a name="additional-resources"></a>Lisaressursid
 [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)

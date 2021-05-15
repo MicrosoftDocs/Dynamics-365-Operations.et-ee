@@ -2,25 +2,25 @@
 title: Arvutatud käibemaks üldise töölehe ridade kohta
 description: Selles teemas selgitatakse, kuidas arvutatakse käibemaksu eri tüüpi kontode (hankija, klient, pearaamat ja projekt) kohta üldise töölehe ridadel.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815328"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937302"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Arvutatud käibemaks üldise töölehe ridade kohta
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ Selles jaotises kirjeldatakse käibemaksu summa märgi arvutamist.
 
 ![Käibemaksu kannete leht](media/sales-tax-amount-sign.jpg)
 
-Järgmine tabel näitab üldist käibemaksu summade märgi määramise reeglit ajutises käibemaksu tabelis.
+Järgmine tabel näitab üldist reeglit käibemaksu direktiivi piiritlemiseks ja määravad käibemaksu summad ajutise käibemaksu tabelis.
 
 | Töölehe rea summa | Käibemaksu suund  | Käibemaksu summa märk |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ Järgmine tabel näitab üldist käibemaksu summade märgi määramise reeglit a
 | Negatiivne            | Saadaolev käibemaks | Negatiivne              |
 | Negatiivne            | Tasumisele kuuluv käibemaks    | Positiivne              |
 
-On olemas erireegel kannete jaoks, millel on ainult read **Projekt** või **Pearaamat**, kui real **Pearaamat** on valitud käibemaksugrupp või kauba käibemaksugrupp. Seda reeglit juhib üldiste töölehtede puhul sõltumatu käibemaksu arvutamise lubamise funktsioon. Kui see funktsioon on välja lülitatud, kasutab rea **Pearaamatu** maksusumma rea **Projekt** deebeti/kreediti suunda. Kui see funktsioon on sisse lülitatud, kasutab rea **Pearaamat** maksusmma omaenda deebeti/kreediti suunda. Järgmised tabelid näitavad iga stsenaariumi reeglit. 
+On olemas erireegel kannete jaoks, millel on ainult read **Projekt** või **Pearaamat**, kui real **Pearaamat** on valitud käibemaksugrupp või kauba käibemaksugrupp. Seda reeglit juhib üldiste funktsioon **Lubage sõltumatu käibemaksu arvutamise funktsioon pearaamatus**. Kui see funktsioon on välja lülitatud, kasutab rea **Pearaamatu** maksusumma rea **Projekt** deebeti/kreediti suunda. Kui see funktsioon on sisse lülitatud, kasutab rea **Pearaamat** maksusmma omaenda deebeti/kreediti suunda. Järgmised tabelid näitavad iga stsenaariumi reeglit. 
 
 **Reegel sisse lülitatud funktsiooni korral**
 

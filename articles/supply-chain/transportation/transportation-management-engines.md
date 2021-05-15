@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828365"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920105"
 ---
 # <a name="transportation-management-engines"></a>Transpordihalduse mootorid
 
@@ -96,6 +96,12 @@ Transpordihalduse mootorite metaandmed konfigureeritakse erinevate mootori tüü
 | 3        | Sihtkoha alguse sihtnumber | Määramine | String    | Sihtnumber    | Valitud  |
 | 4        | Sihtkoha lõpu sihtnumber   | Määramine | String    | Sihtnumber    | Valitud  |
 | 5        | Sihtriik           | Määramine | String    | Riik/regioon |           |
+
+### <a name="whitepaper"></a>Tehniline ülevaade
+
+Lisateabe saamiseks laadige alla järgmine tehniline ülevaade (kirjutatud versiooni AX2012 toetamiseks, kuid kehtib ka rakendusele Dynamics 365 Supply Chain Management)
+
+- [Transpordihalduse mootorid](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

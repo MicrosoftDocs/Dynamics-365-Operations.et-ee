@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 826cee7b1e30020aec99f6148dd9ab16f126c417
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7917f36d8ff3c1ae2d37c5390806ef82771b5211
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839121"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920033"
 ---
 # <a name="rebate-management-module-overview"></a>Tagasimaksehalduse mooduli ülevaade
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Saate kasutada **tagasimakse halduse** moodulit, et luua oma ettevõtte ja selle klientide või müüjate vahelisi lepinguid, tehinguid või kokkuleppeid, nii et saate arvutada tagasimakseid, mahaarvamisi ja autoritasusid. Tagasimaksehaldus jälgib ja haldab tagasimakse- ja mahaarvamiskandeid keskses asukohas, kus kasutajad saavad neid efektiivselt luua, läbi vaadata ja töödelda.
 

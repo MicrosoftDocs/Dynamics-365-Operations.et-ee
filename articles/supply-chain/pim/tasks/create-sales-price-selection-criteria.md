@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a616dcfdd755efc9bf0473e9239acb9127f11f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69d22c3321beaa2667ee20bff00acd746714b993
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818153"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920527"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Müügihinna valikukriteeriumide loomine
 
@@ -26,30 +26,30 @@ ms.locfileid: "5818153"
 
 See protseduur näitab, kuidas luua atribuudipõhistele hinnamudelitele müügihinna valikukriteeriumi. See protseduur nõuab, et saadaval oleks vähemalt üks müügihinna mudel. Selles näites kasutatakse hinnamudelina demoettevõtte USMF müügihinnamudelit Kõlarilahendus. Tavaliselt kasutab seda protseduuri tootejuht.
 
-
 ## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a>Lisage olemasolevale müügihinna mudelile uus kriteerium
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Valige loendist tootemudeli Kõlarilahendus rida, kuid ärge klõpsake mudeli nime linki.
-4. Klõpsake tegumiribal valikut Mudel.
-5. Klõpsake valikut Hinnamudeli kriteeriumid.
-6. Klõpsake Uus.
-7. Tippige väljale Nimi tekst „Kliendigrupp 10”.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Valige loendist tootemudeli Kõlarilahenduse rida, kuid ärge klõpsake valimiseks mudeli nime linki.
+1. Valige toiminguplaanil **Mudel**.
+1. Valige suvand **Hinnamudeli kriteeriumid**.
+1. Valige suvand **Uus**.
+1. Tippige väljale **Nimi** tekst „Kliendigrupp 10”.
     * Hinnamudeli kriteeriumi nime abil saab tuvastada aluseks olevad valikukriteeriumid.  
-8. Valige või sisestage väärtus väljal Hinnamudel.
-9. Tehke väljal Tellimuse tüüp valik Müügitellimus.
+1. Valige või sisestage väljal **Hinnamudel** väärtus.
+1. Valige väljal **Tellimuse tüüp** suvand *Müügitellimus*.
     * Tellimuse tüüp määrab andmebaasiväljad, mis on valikupäringu puhul saadaval.  
-10. Sisestage kuupäev väljale Kehtiv alates.
-11. Sisestage kuupäev väljale Loe aegunuks kuupäeval.
-12. Klõpsake nuppu Salvesta.
+1. Sisestage kuupäev väljale **Kehtiv alates**.
+1. Sisestage kuupäev väljale **Loe aegunuks**.
+1. Valige käsk **Salvesta**.
 
 ## <a name="create-the-query-for-the-selection-criteria"></a>Valikukriteeriumile päringu loomine
-1. Klõpsake nuppu Redigeeri.
-2. Valige Kliendid väljalt Tabel. 
-3. Valige Kliendigrupp väljalt Väli.
+
+1. Valige suvand **Redigeeri**.
+2. Valige väljal **Tabel** suvand *Kliendid*.
+3. Valige väljal **Väli** suvand *Kliendigrupp*.
     * Selles näites kasutame valikukriteeriumide puhul konkreetset kliendigruppi.  
-4. Valige Kliendigrupp 10 väljalt Kriteerium. 
-5. Klõpsake nuppu OK.
+4. Valige väljal **Kriteeriumid** *Kliendigrupp 10*.
+5. Valige nupp **OK**.
 
 
 

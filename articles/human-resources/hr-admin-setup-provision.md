@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fee496157db581bf77f444674ca858aa4383e27c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889784"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963211"
 ---
 # <a name="provision-human-resources"></a>Human Resources ettevalmistus
 
@@ -55,6 +55,9 @@ Täiendavate keskkondade kasutamise kaalutlused on järgmised (kuid mitte ainult
 Selleks, et kasutada oma rakenduse Human Resources keskkondade haldamiseks LCS-i, peate esmalt looma LCS-i projekti.
 
 1. Logige [LCS-i](https://lcs.dynamics.com/Logon/Index) sisse, kasutades kontot, mida kasutasite rakenduse Human Resources tellimiseks.
+
+   > [!NOTE]
+   > Eduka ressursimääramise tagamiseks peab konto, mida kasutate Inimressursside keskkonna kasutamiseks, olema määratud kas **süsteemiadministraatori** või **süsteemi kohandaja** rollile Power Apps keskkonnas, mis on seotud inimressursside keskkonnaga. Lisateavet kasutajatele turvarollide määramise kohta vaadake jaotisest [kasutajate turberollide konfigureerimise kohta](https://docs.microsoft.com/power-platform/admin/database-security) Power Platform-s.
 
 2. Valige projekti loomiseks plussmärk (**+**).
 
@@ -115,13 +118,30 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda rak
    
     - **Testimiskeskkonnad** – need keskkonnad luuakse aegumiskuupäevaga. Pärast aegumist eemaldatakse teie keskkond ja kõik selles olevad rakenduse Human Resources eksemplarid automaatselt.
    
-    - **Toetamata piirkonnad** – praegu toetatakse rakendust Human Resources ainult järgmistes piirkondades: Ameerika Ühendriigid, Euroopa, Ühendkuningriik, Austraalia, Kanada ja Aasia.
-
-    > [!NOTE]
-    > Human Resourcesi keskkond valmistatakse ette Power Appsi keskkonnaga samas piirkonnas. Human Resourcesi keskkonna migreerimist mõnda muusse piirkonda ei toetata.
+    - **Toetuseta geograafiline asukoht** - keskkond peab olema toetatud geograafiline asukoht. Lisateavet leiate artiklist [Toetatud geograafiad](hr-admin-setup-provision.md#supported-geographies).
 
 6. Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata. 
- 
+
+### <a name="supported-geographies"></a>Toetatud geograafilised graafikud
+
+Rakendus Human Resources toetab praegu järgmisi geograafiline graafikuid:
+
+- Ameerika Ühendriigid
+- Euroopa
+- Ühendkuningriik
+- Austraalia
+- Kanada
+- Aasia 
+
+Inimressursside keskkonna loomisel valite keskkonna, Power Apps mida siduda Inimressursside keskkonnaga. Inimressursside keskkond on siis ette valmistatud samas Azure'i geograafias kui valitud Power Apps keskkonnas. Inimressursside keskkonna ja andmebaasi füüsilise asukoha valimiseks valige geograafia inimressursside keskkonnaga seostatud Power Apps loetelu loomisel.
+
+Te saate valida Azure'i  *geograafia*, kus keskkond on ette valmistatud, kuid te ei saa valida konkreetset Azure'i *regiooni*. Automatiseerimine määrab konkreetse regiooni geograafilises piirkonnas, kus keskkond on loodud koormuse tasakaalustamise ja jõudluse optimeerimiseks. Teavet Azure'i geograafiliste piirkondade ja Azure'i regioonide kohta leiate [Azure'i geograafiliste piirkondade](https://azure.microsoft.com/global-infrastructure/geographies) dokumentatsioonist.
+
+Inimressursside keskkonna andmed sisalduvad alati Azure'i geograafilises piirkonnas, kus see luuakse. Ent see ei sisaldu alati samas Azure'i regioonis. Avariijärgse taaste konfiguratsioon otstarbel kopeeritakse andmed nii esmases Azure'i regioonis kui teiseses tõrkesiirde regioonis geograafias.
+
+ > [!NOTE]
+ > Inimressursside keskkonna migreerimist mõnda muusse Azure'i georgaafilisse piirkonda ei toetata.
+
 ## <a name="grant-access-to-the-environment"></a>Keskkonnale juurdepääsu andmine
 
 Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. Te peate rakenduse teistele kasutajatele konkreetselt juurdepääsu andma. Te peate rakenduse Human Resources keskkonnas kasutajad lisama ja neile sobivad rollid määrama. Lähtestamise lõpetamiseks ja teistele rentiku kasutajatele juurdepääsu lubamiseks peaks Human Resourcesi keskkonna juurutanud üldadministraator käivitama ka mõlemad rakendused Attract ja Onboard. Kuni seda pole tehtud, pole teistel kasutajatel juurdepääsu rakendustele Attract ja Onboard ning nad saavad juurdepääsuõiguste rikkumise tõrkeid. Lisateabe saamiseks vaadake teemasid [Uute kasutajate loomine](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ja [Kasutajate määramine turberollidesse](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

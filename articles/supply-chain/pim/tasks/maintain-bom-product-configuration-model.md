@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 49aa17aa376f8536e9d2290292f877d314c2c078
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b4ad73265e321b6339c061a7866b55cb2769954b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818009"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921313"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Toote konfiguratsioonimudeli koosluse haldamine
 
@@ -26,35 +26,34 @@ ms.locfileid: "5818009"
 
 Selle protseduuri käitamine nõuab olemasolevat toote konfiguratsioonimudelit. Tipptasemel kõlari mudelit demoettevõttes USMF kasutatakse selle protseduuri loomiseks.
 
-
 ## <a name="add-a-bom-line"></a>Koosluse rea lisamine
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Otsige loendist ja valige soovitud kirje.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Tootekonfiguratsiooni mudelid**.
+1. Otsige loendist ja valige soovitud kirje.
     * Valige selle protseduuri jaoks Tipptasemel kõlar.  
-4. Klõpsake loendis valitud real olevat linki.
-5. Laiendage jaotist Koosluse read.
-6. Klõpsake vahekaarti Lisa.
-7. Sisestage väärtus väljale Nimi.
-8. Sisestage väljale Kirjeldus soovitud väärtus.
-9. Klõpsake nuppu Salvesta.
+1. Valige loendis link valitud reas.
+1. Laiendage jaotist **Koosluse read**.
+1. Valige **Lisa**.
+1. Sisestage väärtus väljale **Nimi**.
+1. Sisestage väärtus väljale **Kirjeldus**.
+1. Valige käsk **Salvesta**.
 
 ## <a name="add-bom-line-details"></a>Koosluse rea üksikasjade lisamine
-1. Klõpsake valikut Koosluse rea üksikasjad.
-2. Sisestage või valige väärtus väljal Kaubakood.
+
+1. Valige **koosluse rea üksikasjad**.
+2. Sisestage või valige väärtus väljale **Kauba kood**.
     * Näiteks võite valida kauba M0055.  
     * Iga koosluse rea atribuudi puhul saab valida, kas see võtab endale fikseeritud väärtuse või see vastendatakse atribuudiga.  
-3. Märkige ruut Määra.
-4. Tehke väljal Arvutus valik Jah.
-    * Kui määrate arvutuse atribuudi väärtuseks Jah, lisatakse koosluse rida kuluarvutustesse.  
-5. Klõpsake vahekaarti Seadistus.
-6. Märkige ruut Määra.
-7. Sisestage arv väljale Kogus.
+3. Märkige ruut **Määra**.
+4. Valige suvand *Jah* väljal **Kalkulatsioon**.
+    * Kui määrate atribuudi **Arvutus** väärtuseks *Jah*, lisatakse koosluse rida kuluarvutustesse.  
+5. Valige vahekaart **Häälestus**.
+6. Märkige ruut **Määra**.
+7. Sisestage arv väljale **Kogus**.
     * Koguse väli määrab, kui palju kaupa kooslusse lisatakse. See võib olla ilmne atribuudi vastendamise kandidaat.  
-8. Klõpsake vahekaarti Dimensioon.
+8. Valige vahekaart **Mõõtmed**.
     * Kontrollige, kas mõni tootedimensioon on aktiivne ja seetõttu peab sellele olema määratud väärtus või atribuut.  
-9. Klõpsake nuppu OK.
-
+9. Valige nupp **OK**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

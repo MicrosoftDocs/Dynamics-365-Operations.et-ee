@@ -2,7 +2,7 @@
 title: Eemaloleku aja taotlemine
 description: Eemaloleku aja taotlemine rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790688"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924850"
 ---
 # <a name="request-time-off"></a>Eemaloleku aja taotlemine
 
@@ -45,7 +45,7 @@ Rakenduses Dynamics 365 Human Resources saate esitada eemaloleku taotlusi, vaada
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Olemasolevale taotlusele manuse lisamine
 
-Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate näha kõiki konkreetse kuupäevaga seotud taotlusi. 
+Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate näha kõiki konkreetse kuupäevaga seotud taotlusi.
 
 ## <a name="view-leave-balances"></a>Puhkusesaldode vaatamine
 
@@ -58,6 +58,20 @@ Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate näha 
 1. Tööruumis **Töövõtja iseteenindus** valige suvand **Lisateave** (…) paanil **Vaba aja saldod**.
 
 2. Kinnitatud eemaloleku taotluste vaatamiseks valige suvand **Kinnitatud eemaloleku aeg**. Ootel eemaloleku taotluste vaatamiseks valige suvand **Eemaloleku taotlused**.
+
+## <a name="cancel-time-off-requests"></a>Vaba aja taotluste tühistamine
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. Tööruumis **Töövõtja iseteenindus** valige suvand **Kuva eemaloleku aega** paanil **Vaba aja saldod**.
+
+2. Vormis **Vaba aeg** valige tühistamiseks üks või mitu puhkusetaotlust.
+
+3. Valige nupp **Tühista**.
+
+4. Sisestage **tühistamise üksikasjade** paanile kommentaar ja valige seejärel käsk **Esita**.
+
+   ![Puhkusetaotluse tühistamine](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Vt ka
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797253"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936800"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Atribuutide ja atribuudigruppide haldamine
 
@@ -101,7 +101,7 @@ Siin on ülejäänud atribuudi metaandmete suvandid lehel **Atribuudid**:
 
 Need suvandid olid algselt ette nähtud veebipoe fassaadi otsingufunktsiooni täiustamiseks. Kuigi Commerce ei sisalda valmiskujul veebipoe fassaadi, sisaldab see lahendust eCommerce Publishing Software Development Kit (SDK). Kliendid saavad seda SDK-d kasutada toodete panemiseks enda valitud otsinguindeksisse. Kuigi tooteandmed imporditakse, peaksid kliendid siiski saama eristada otsitavaid andmeid, andmeid, mille kohta saab esitada päringuid jne. Sel viisil saavad nad luua optimaalse indeksi veendumaks, et nad indekseerivad ainult atribuute, mida *nende hinnangul* tuleb indekseerida.
 
-Teavet ülejäänud suvandite otstarbe kohta vt teemast [SharePoint Server 2013 otsinguskeemi ülevaade](https://technet.microsoft.com/library/jj219669.aspx).
+Teavet ülejäänud suvandite otstarbe kohta vt teemast [SharePoint Server 2013 otsinguskeemi ülevaade](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Atribuutide filtrisätted
 

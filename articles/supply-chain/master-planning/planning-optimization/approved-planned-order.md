@@ -1,8 +1,8 @@
 ---
-title: Plaanitud tellimuste kinnitamine
-description: Selles teemas kirjeldatakse plaaneerimise optimeerimise korral toetatud plaanitud tellimuste kinnitamist.
+title: Plaanitud tellimuste kuvamine, haldamine ja kinnitamine
+description: Käesolevas teemas kirjeldatakse, kuidas planeerimise optimeerimise korral kuvada, hallata ja kinnitada plaanitud tellimusi.
 author: ChristianRytt
-ms.date: 08/21/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,30 +16,62 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 6c215a89403f16336caae5c62cde6df469c4091c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825887"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935653"
 ---
-# <a name="approve-planned-orders"></a>Plaanitud tellimuste kinnitamine
+# <a name="view-manage-and-approve-planned-orders"></a>Plaanitud tellimuste kuvamine, haldamine ja kinnitamine
 
 [!include [banner](../../includes/banner.md)]
 
-See kirjeldab, kuidas planeerimise optimeerimise korral värskendada plaanitud tellimuste olekut.
+Käesolevas teemas kirjeldatakse, kuidas planeerimise optimeerimise korral kuvada, hallata ja kinnitada plaanitud tellimusi.
 
-Pidage meeles, et plaanitud tellimuste kinnitamine on valikuline etapp plaanitud tellimuse kinnitatud tellimuseks muutmisel. Soovitatav on kinnitada muudetud plaanitud tellimused, vastasel juhul ignoreeritakse muudatusi ja need kirjutatakse üle järgmise plaanimise käitamisel.
+## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Plaanitud tellimuste kuvamine ja haldamine
+
+Plaanitud tellimusi saate vaadata ja hallata mis tahes plaanitud tellimuste loendilehel. Sõltuvalt plaanitud tellimuste tüübist, mida soovite kasutada, saate minna ühte järgmistest kohtadest.
+
+- Koondplaneerimise \> tööruumide \> koondplaneerimine
+- Koondplaneerimine \> Koondplaneerimine \> Plaanitud tellimused
+- Tootmise juhtimine \> Tootmistellimused \> Plaanitud tootmistellimused
+- Hanked \> Ostutellimused \> Plaanitud ostutellimused
+- Varude haldamine \> Sissetulevad tellimused \> Plaanitud üleviimised
+- Varude haldamine \> Väljaminevad tellimused \> Plaanitud üleviimised
+
+## <a name="view-and-edit-the-status-of-planned-orders"></a>Plaanitud tellimuste vaatamine ja redigeerimine
+
+Edenemise jälgimiseks või plaanitud tellimuse töötlemise muutmiseks saate kasutada iga plaanitud tellimuse **olekuvälja**. Saadaval on järgmised suvandi **Olek** väärtused.
+
+- **Töötlemata** – kui koondplaneerimine loob plaanitud tellimused, antakse neile see olek. Selle olekuga plaanitud tellimused kustutatakse järgmise plaanimise käitamisel.
+- **Lõpetatud** – see olek näitab, et plaanitud tellimus on lõpetatud. Kui otsustate plaanitud tellimust mitte kinnitada, saate sellele manuaalselt määrata oleku *Lõpule viidud*. Pange tähele, et süsteem käsitleb olekuid *Töötlemata* ja *Lõpetatud* sama moodi.
+- **Kinnitatud** – see olek näitab, et plaanitud tellimus on kinnitatud. Kui soovite kinnitada plaanitud tellimuse, saate määrata selle olekuks *Kinnitatud*. Kui soovite säilitada plaanitud tellimusele tehtud muudatusi või kui plaanite plaanitud tellimust kinnitab, muutke selle olekuks *Kinnitatud*. Plaanitud tellimused, mille olek on *Kinnitatud*, loetakse koondplaneerimises fikseerituks ja eeldatavaks tarneks. Seetõttu ei muudeta ega kustutata neid hiljem koondplaneerimise käitamisel. Selle toimimisviisi saavutamiseks kopeerib planeerimisloogika koondplaneerimise ajal *kinnitatud* olekus plaanitud tellimused vana plaani versioonist uude plaani versiooni. Pange tähele, et *Kinnitatud* olekus plaanitud tellimusi loetakse tarnitavateks ainult konkreetse koondplaani korral.
+
+Üksiku plaanitud tellimuse oleku muutmiseks [avage mis tahes plaanitud tellimuste loendileht](#view-planned-orders), avage tellimus ja tehke seejärel üht järgmistest sammudest.
+
+- Kiirkaardil **Üldine** muutke välja **Olek** väärtust.
+- Valige toimingupaani vahekaardil **Plaanitud tellimus** grupis **Protsess** suvand **Muuda olekut**.
+- Tellimuse kinnitamiseks valige tegumiribal suvand **Kinnita**.
+
+Mitme plaanitud tellimuse oleku ühekorraga muutmiseks [avage mis tahes plaanitud tellimuste loendileht](#view-planned-orders), märkige ruut iga tellimuse puhul, mida soovite muuta, ja seejärel järgige üht järgmistest sammudest.
+
+- Valige toimingupaani vahekaardil **Plaanitud tellimus** grupis **Protsess** suvand **Muuda olekut**.
+- Tellimuste kinnitamiseks valige tegumiribal suvand **Kinnita**.
+
+## <a name="approve-planned-orders"></a>Plaanitud tellimuste kinnitamine
+
+Plaanitud tellimuste kinnitamine on valikuline etapp plaanitud tellimuseest kinnitatud tellimuse loomise protsessis.
+
+Järgmine näide näitab, kuidas saate kasutada suvandi **Olek** väärtust, mis on määratud igale plaanitud tellimusele kinnitustöövoogude juurutamiseks. Kinnitusprotsessi juurutamiseks korrigeerige iga plaanitud tellimuse suvandi **Olek** väärtust käsitsi, nagu eelmises jaotises kirjeldatud.
 
 ![Plaanitud tellimuse voog](media/approved-planned-orders-1.png)
 
-Väli **Olek** aitab teil jälgida edenemist järgmiste väärtuste abil.
+> [!TIP]
+> Soovitame teil kõik muudetud plaanitud tellimused kinnitada. Vastasel korral eiratakse muudatusi ja need kirjutatakse järgmise planeerimise käivitamisel üle.
 
-- **Töötlemata:** kui koondplaneerimine loob plaanitud tellimused, on nende olek *Töötlemata*. Selle olekuga plaanitud tellimused kustutatakse järgmise plaanimise käitamisel.
-- **Lõpetatud:** kui otsustate plaanitud tellimust mitte kinnitada, saate muuta oleku *Lõpetatuks*, mis näitab, et olete selle plaanitud tellimuse hindamise lõpule viinud. Pange tähele, et süsteem käsitleb olekut *Töötlemata* ja *Lõpetatud* sama moodi.
-- **Kinnitatud:** kui soovite muudatusi säilitada või plaanitud tellimuse kinnitada, muutke olekuks *Kinnitatud*. Olekuga *Kinnitatud* plaanitud tellimusi käsitletakse koondplaneerimisel fikseeritult ja eeldatavalt tarnitavatena, nii et neid ei muudeta ega kustutata hilisema koondplaneerimise käivitamiste ajal. Selle saavutamiseks kopeerib planeerimisloogika koondplaneerimise ajal *kinnitatud* plaanitud tellimused vana plaani versioonist uude plaani versiooni. Pange tähele, et *Kinnitatud* plaanitud tellimusi loetakse tarnitavateks ainult konkreetse koondplaani korral.
+## <a name="additional-resources"></a>Lisaressursid
 
-Saate planeeritud tellimusi hallata tööruumis **Koondplaneerimine**, loendis **Plaanitud tellimus** või loendites **Plaanitud tootmistellimused**, **Plaanitud ostutellimused** ja **Plaanitud üleviimised**.
-
+- [Kindlad plaanitud tellimused](planned-order-firming.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

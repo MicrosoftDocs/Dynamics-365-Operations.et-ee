@@ -2,7 +2,8 @@
 title: Meediumigalerii moodul
 description: See teema hõlmab meediumigalerii mooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802811"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937382"
 ---
 # <a name="media-gallery-module"></a>Meediumigaleriimoodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab meediumigalerii mooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -49,11 +51,13 @@ Järgmisel illustratsioonil on toodud näide toote üksikasjade lehel olevast os
 |---------------|--------|-------------|
 | Pildi allikas | **Lehe kontekst** või **Toote ID** | Vaikeväärtus on **Lehe kontekst**. Kui valitud on **Lehe kontekst**, eeldab moodul, et lehel pakutakse toote ID teavet. Kui valitud on **Toote ID**, peab pildi toote ID olema esitatud atribuudi **Toote ID** väärtusena. See võimalus on saadaval Commerce'i versioonis 10.0.12. |
 | Toote ID | Toote ID | See atribuut on vajalik ainult juhul, kui atribuudi **Pildi allikas** väärtus on **Toote ID**. |
-| Pildi suum | **Tekstisisene** või **Konteiner** | See atribuut võimaldab kasutajal meediumigalerii moodulis pilte suumida. Pilti saab suumida kas tekstisiseselt või pildi kõrval olevas eraldi konteineris. See võimalus on saadaval versioonis 10.0.12 |
-| Suumiskaala | Kümnendarv | See atribuut määrab teisendusteguri piltide suumimiseks. Näiteks kui väärtuseks on seatud **2.5**, suurendatakse pilte 2,5 korda.|
-| Täisekraan | **Tõene** või **Väär** | See atribuut määrab, kas pilte saab täisekraanirežiimis vaadata. Täisekraanirežiimis saab pilte veelgi suurendada, kui suumimise võimalus on sisse lülitatud. See võimalus on saadaval Commerce'i versioonis 10.0.13. |
+| Pildi suum | **Tekstisisene** või **Konteiner** | See atribuut võimaldab kasutajal meediumigalerii moodulis pilte suumida. Pilti saab suumida kas tekstisiseselt või pildi kõrval olevas eraldi konteineris. See võimalus on saadaval versioonis 10.0.12. |
+| Suumitegur | Kümnendarv | See atribuut määrab teisendusteguri piltide suumimiseks. Näiteks kui väärtuseks on seatud **2.5**, suurendatakse pilte 2,5 korda. |
+| Täisekraan | **Tõene** või **Väär** | See atribuut määrab, kas pilte saab täisekraanirežiimis vaadata. Täisekraanirežiimis saab pilte veelgi suurendada, kui suumimise võimalus on sisse lülitatud. See võimalus on saadaval Commerce'i versiooni 10.0.13 väljalaskes. |
+| Suumitud pildi kvaliteet | Arv 1-st kuni 100-ni, mis tähistab protsenti ja mis valitakse juhtriba juhtelemendi abil | See atribuut määratleb sissesuumitud piltide pildi kvaliteedi. Selle väärtuseks saab seada 100 protsenti kindlustamaks, et suumitud pilt kasutaks alati kõrgeimat võimalikku eraldusvõimet. See atribuut ei kehti PNG-failide puhul, sest need kasutavad kadudeta vormingut. See võimalus on saadaval alates Commerce'i versiooni 10.0.19 väljalaskest. |
 | Pildid | Saidiehitaja meediumiteegist valitud pildid | Lisaks tootest tuletamisele saab pilte ka meediumigalerii mooduli jaoks valida. Need pildid lisatakse kõikide saadaolevate tootepiltide lõppu. See võimalus on saadaval Commerce'i versioonis 10.0.12. |
 | Pisipildi paigutus | **Vertikaalne** või **Horisontaalne** | See atribuut määrab, kas pisipilte tuleb kuvada vertikaalse või horisontaalse ribana. |
+| Peida variandi põhitoote pildid | **Tõene** või **Väär** | Kui see atribuut on seatud väärtusele **Tõene**, siis on variandi valimisel põhitoote pildid peidetud, kui variandil ei ole pilte. See atribuut ei mõjuta variantideta tooteid. |
 
 Järgmisel illustratsioonil on näha meediumigalerii mooduli näide, mille puhul on saadaval täisekraanirežiimi ja suumimise suvandid.
 

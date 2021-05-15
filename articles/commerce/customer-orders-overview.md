@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821004"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936726"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kassas (POS) olevad klienditellimused
 
@@ -42,7 +42,7 @@ Enne kui proovite kassas kasutada klienditellimuse funktsioone, veenduge, et ole
 
 ### <a name="configure-modes-of-delivery"></a>Tarnerežiimide konfigureerimine
 
-Klienditellimuste kasutamiseks peate konfigureerima tarnerežiimid, mida kauplusekanal saab kasutada. Peate määratlema vähemalt ühe tarnerežiimi, mida saab kasutada tellimuse ridade kliendile kauplusest lähetamisel. Samuti peate määratlema vähemalt ühe järeletulemise tarnerežiimi, mida saab kasutada, kui tellimuse read võetakse vastu kauplusest. Tarnerežiimid on määratletud Commerce'i peakorteri lehel **Tarnerežiimid**. Lisateavet Commerce'i kanali tarnerežiimi seadistamise kohta vaadake teemast [Tarnerežiimide määratlemine](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Klienditellimuste kasutamiseks peate konfigureerima tarnerežiimid, mida kauplusekanal saab kasutada. Peate määratlema vähemalt ühe tarnerežiimi, mida saab kasutada tellimuse ridade kliendile kauplusest lähetamisel. Samuti peate määratlema vähemalt ühe järeletulemise tarnerežiimi, mida saab kasutada, kui tellimuse read võetakse vastu kauplusest. Tarnerežiimid on määratletud Commerce'i peakorteri lehel **Tarnerežiimid**. Lisateavet Commerce'i kanali tarnerežiimi seadistamise kohta vaadake teemast [Tarnerežiimide määratlemine](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Tarnerežiimide leht](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Enne kui proovite luua klienditellimusi kassas, peate konfigureerima vastavad pa
 - **Tühistamistasu protsent** – saate määrata klienditellimuse tühistamisel rakendatava tasu summa.
 - **Tühistamistasu kood** – saate määrata Müügireskontro tasu koodi, mida tuleks kasutada tühistamistasu rakendamisel tühistatud klienditellimustele kassa kaudu. Tasu kood määratleb tühistamistasu finantssisestuse loogika.
 - **Saatekulude kood** – kui suvandi **Kasuta täpsemaid automaatseid kulusid** väärtuseks on seatud **Jah**, siis see parameetrisäte ei toimi. Kui selle suvandi väärtuseks on seatud **Ei**, palutakse kasutajatel sisestada lähetuse tasu käsitsi, kui nad loovad klienditellimusi kassa kaudu. Selle parameetri abil saate vastendada Müügireskontro tasu koodi, mis rakendatakse tellimustele, kui kasutajad sisestavad lähetamise tasu. Tasu kood määratleb lähetamise tasu finantssisestuse loogika.
-- **Kasuta täpsemaid automaatseid kulusid** – saate seada selle suvandi väärtuseks **Jah**, et kasutada süsteemi arvutatud automaatseid tasusid klienditellimuste kassas loomisel. Neid automaatseid tasusid saab kasutada lähetamise tasude või muude tellimuse- või kaubapõhiste tasude arvutamiseks. Lisateabe saamiseks täpsemate automaatsete tasude seadistamise ja kasutamise kohta leiate teemast [Omnikanali täpsemad automaatsed tasud](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Kasuta täpsemaid automaatseid kulusid** – saate seada selle suvandi väärtuseks **Jah**, et kasutada süsteemi arvutatud automaatseid tasusid klienditellimuste kassas loomisel. Neid automaatseid tasusid saab kasutada lähetamise tasude või muude tellimuse- või kaubapõhiste tasude arvutamiseks. Lisateabe saamiseks täpsemate automaatsete tasude seadistamise ja kasutamise kohta leiate teemast [Omnikanali täpsemad automaatsed tasud](./omni-auto-charges.md).
 
 ![Klienditellimuste vahekaart lehel Kaubanduse parameetrid](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Kandekuva paigutuste värskendamine kassas
 
-Veenduge, et kassa [ekraani paigutus](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) oleks konfigureeritud toetama klienditellimuste loomist ja haldamist ning et kõik nõutavad kassatoimingud oleksid konfigureeritud. Siin on mõned kassatoimingud, mida on soovitatav klienditellimuse loomise ja haldamise õigeks toetamiseks teha.
+Veenduge, et kassa [ekraani paigutus](./pos-screen-layouts.md) oleks konfigureeritud toetama klienditellimuste loomist ja haldamist ning et kõik nõutavad kassatoimingud oleksid konfigureeritud. Siin on mõned kassatoimingud, mida on soovitatav klienditellimuse loomise ja haldamise õigeks toetamiseks teha.
 - **Läheta kõik tooted** – selle suvandi abil saate määrata, et kande ostukorvi kõik read saadetakse sihtkohta.
 - **Läheta valitud tooted** – selle suvandi abil saate määrata, et kande ostukorvi valitud read saadetakse sihtkohta.
 - **Tule kõigile toodetele järele** – selle suvandi abil saate määrata, et kande ostukorvi kõigile ridadele tullakse järele valitud kaupluse asukohta.
 - **Tule valitud toodetele järele** – selle suvandi abil saate määrata, et kande ostukorvi valitud ridadele tullakse järele valitud kaupluse asukohta.
 - **Kõik tooted on järeletulemisega** – selle suvandi abil saate määrata, et kande ostukorvi kõigile ridadele tuleb klient järele. Kui seda toimingut kasutatakse kassas, teisendatakse klienditellimus sularaha- ja vedamiskandeks.
-- **Valitud tooted on järeletulemisega** – selle suvandi abil saate määrata, et kande ostukorvi valitud ridadele tuleb klient järele ostu sooritamisel. See suvand on kasulik ainult [hübriid-tellimuse](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders) korral.
+- **Valitud tooted on järeletulemisega** – selle suvandi abil saate määrata, et kande ostukorvi valitud ridadele tuleb klient järele ostu sooritamisel. See suvand on kasulik ainult [hübriid-tellimuse](./hybrid-customer-orders.md) korral.
 - **Tellimuse tagasikutsumine** – seda suvandit kasutatakse klienditellimuste otsimiseks ja toomiseks, et kassa kasutajad saaksid neid vastavalt vajadusele redigeerida või tühistada või teostada täitmisega seotud toiminguid.
 - **Muutke kassas tarneviisi** – seda suvandit saab kasutada juba saadetiseks konfigureeritud ridade tarnerežiimi kiireks muutmiseks ilma, et kasutajad peaksid läbima uuesti voo „Läheta kõik tooted” või „Läheta valitud tooted”.
 - **Deposiidi alistamine** – selle suvandi abil saab muuta deposiidi summat, mille klient maksab valitud klienditellimuse eest.
@@ -128,7 +128,7 @@ Veenduge, et kassa [ekraani paigutus](https://docs.microsoft.com/dynamics365/com
 Võrgu- või kauplusekanalis loodud jaemüügitellimusi saab vastavalt vajadusele kassa kaudu tagasi kutsuda ja redigeerida.
 
 > [!IMPORTANT]
-> Kõiki jaemüügitellimusi ei saa kassa rakenduse kaudu redigeerida. Kõnekeskuse kanalis loodud tellimusi ei saa kassas redigeerida, kui kõnekeskuse kanali jaoks on sisse lülitatud säte [Tellimuse lõpetamise lubamine](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion). Korrektseks maksete töötlemise tagamiseks tuleb kõnekeskuse kanalist pärinevaid tellimusi, mis kasutavad funktsiooni Tellimuse lõpetamise lubamine, redigeerida kõnekeskuse rakenduse kaudu Commerce'i peakontoris.
+> Kõiki jaemüügitellimusi ei saa kassa rakenduse kaudu redigeerida. Kõnekeskuse kanalis loodud tellimusi ei saa kassas redigeerida, kui kõnekeskuse kanali jaoks on sisse lülitatud säte [Tellimuse lõpetamise lubamine](./set-up-order-processing-options.md#enable-order-completion). Korrektseks maksete töötlemise tagamiseks tuleb kõnekeskuse kanalist pärinevaid tellimusi, mis kasutavad funktsiooni Tellimuse lõpetamise lubamine, redigeerida kõnekeskuse rakenduse kaudu Commerce'i peakontoris.
 
 Versioonis 10.0.17 ja uuemates versioonides saavad kasutajad kassa rakenduse kaudu sobilikke tellimusi redigeerida, isegi kui tellimus on osaliselt täidetud. Täielikult arveldatud tellimusi ei saa siiski kassa kaudu redigeerida. Selle võimaluse lubamiseks lülitage tööruumis **Funktsioonihaldus** sisse funktsioon **Osaliselt täidetud tellimuste redigeerimine kassas**. Kui see funktsioon ei ole lubatud või kui kasutate versiooni 10.0.16 või varasemat versiooni, saavad kasutajad kassas klienditellimusi redigeerida ainult siis, kui tellimus on täielikult avatud. Peale selle, kui see funktsioon on lubatud, saate piirata, millised kauplused saavad osaliselt täidetud tellimusi redigeerida. Suvandit selle võimaluse keelamiseks konkreetsete kaupluste puhul saab konfigureerida kiirkaardi **Üldine** jaotise **Funktsiooniprofiil** kaudu.
 
@@ -153,7 +153,7 @@ Versioonis 10.0.17 ja uuemates versioonides saavad kasutajad kassa rakenduse kau
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Lähetamise või järeletulemisega klienditellimuse töötlemise lõpuleviimine kassa kaudu
 
-Pärast tellimuse loomist saab klient kaubad kätte kaupluse asukohast või need lähetatakse sõltuvalt tellimuse konfiguratsioonist. Selle protsessi kohta lisateabe saamiseks vt [kaupluse tellimuse täitmise](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview)dokumentatsiooni.
+Pärast tellimuse loomist saab klient kaubad kätte kaupluse asukohast või need lähetatakse sõltuvalt tellimuse konfiguratsioonist. Selle protsessi kohta lisateabe saamiseks vt [kaupluse tellimuse täitmise](./order-fulfillment-overview.md)dokumentatsiooni.
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Klienditellimuste asünkroonne kannetevoog
 

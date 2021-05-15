@@ -2,7 +2,8 @@
 title: Varude sätete rakendamine
 description: See teema hõlmab varude sätteid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce rakendada.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b2c44eb5ece74de15e22180abc6d9d0448ab401b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dd3db0039525c18521ad6a42b2f281976b7b236a
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798885"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937406"
 ---
 # <a name="apply-inventory-settings"></a>Varude sätete rakendamine
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab varude sätteid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce rakendada.
 
@@ -39,12 +41,17 @@ Commerce'i saidiehitajas saab määratleda toote või kategooria varude künnise
 
 ## <a name="inventory-settings"></a>Varude sätted
 
-Commerce'is määratletakse varude sätted saidiehitajas jaotises **Saidi sätted \> Laiendused \> Varude haldus**. On neli varude sätet, millest üks on aegunud.
+Commerce'is määratletakse varude sätted saidiehitajas jaotises **Saidi sätted \> Laiendused \> Varude haldus**. On viis varude sätet, millest üks on aegunud.
 
 - **Luba rakenduses varude kontrollimine** – see säte lülitab sisse tootevarude kontrollimise võimaluse. Seejärel kontrollitakse moodulite ostukast, ostukorv ja poodi järeletulemine raames tootevarusid ja lubatakse lisada toode ostukorvi vaid siis, kui vastavad varud on saadaval.
 - **Varude taseme alus** – see säte määratleb, kuidas arvutatakse varude tasemeid. Saadaolevad väärtused on **Kokku saadaval**, **Füüsiliselt saadaval** ja **Laost otsas künnis**. Commerce'i saidiehitajas saab määratleda iga toote või kategooria varude künnise ja vahemikud. Varude API-d hangivad toote varusid puudutavat teavet nii **Kokku saadaval** atribuudi kui ka **Füüsiliselt saadaval** atribuudi kohta. Jaemüüja otsustab, kas varude arvu ja vastavate olemas ja laost otsas vahemike määramiseks tuleks kasutada väärtust **Kokku saadaval** või **Füüsiliselt saadaval**.
 
     Sätte **Varude taseme alus** väärtus **Laost otsas künnis** on vana (pärand), aegunud väärtus. Selle valimisel määratakse varude arv väärtuse **Kokku saadaval** tulemuste alusel, kuid künnis määratletakse hiljem kirjeldatava numbrilise sätte **Laost otsas künnis** alusel. See künnis kehtib kõikidele toodetele kogu e-kaubanduse saidil. Kui varud jäävad alla künnise numbri, siis arvatakse toode olevat laost otsas. Vastasel juhul on toode aga olemas. Väärtuse **Laost otsas künnis** võimalused on piiratud ja me ei soovita seda kasutada versioonis 10.0.12 ega hilisemates versioonides.
+
+- **Mitme lao laovaru tase** – see säte võimaldab laovarude taseme arvutamist vaikelao või mitme lao suhtes. Valik **Põhineb individuaalsel laol** arvutab varude tasemed vaikelao alusel. E-kaubanduse sait võib alternatiivselt täitmise hõlbustamiseks osutada mitmele laole. Sel juhul kasutatakse varude saadavuse näitamiseks valikut **Saatmise ja pealelaadimise laod: agregaadipõhiselt**. Näiteks kui klient ostab kauba ja valib tarneviisiks "lähetuse", saab kauba saata mis tahes laost täitmisgrupis, kus on saadaolevad varud. Toote üksikasjade lehel (PDP) kuvatakse lähetamiseks teade "Laos", kui mis tahes saadaoleval tarnelaol on ladu, mis on täitmisgrupis. 
+
+> [!IMPORTANT] 
+> Seade **Mitme lao laotase** on saadaval alates äriversiooni versioonist 10.0.19. Kui uuendate rakenduse Commerce'i varasemat versiooni, peate faili appsettings.json käsitsi värskendama. Juhiste saamiseks vt [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Varude vahemikud** – säte määratleb varude vahemikud, mille kohta kuvatakse saidi moodulites teade. See on kohaldatav vaid juhul, kui sätte **Varude taseme alus** jaoks valitakse väärtus **Kokku saadaval** või väärtus **Füüsiliselt saadaval**. Saadaolevad väärtused on **Kõik**, **Varud madalad ja laost otsas** ja **Laost otsas**.
 
@@ -61,15 +68,15 @@ Commerce'is määratletakse varude sätted saidiehitajas jaotises **Saidi sätte
 
 Ostukasti, soovinimekirja, kaupluse valija, ostukorvi ja ostukorvi ikooni moodulid kasutavad varude sätteid varude vahemike ja teadete kuvamiseks.
 
-Järgmisel pildil on toodud toodete üksikasjade lehe näide, kus kuvatakse teadet laos olemas („Olemas“).
+Järgmises näites on näha, et PDP näitab laoseisu "Laos" ("Vaba") teadet.
 
 ![Laos olemas teadet kuvava toote üksikasjade lehe mooduli näide](./media/pdp-InStock.png)
 
-Järgmisel pildil on toodud toodete üksikasjade lehe näide, kus kuvatakse teadet laost otsas („Laost otsas“).
+Järgmises näites on näha, et PDP näitab laoseisu "Laost otsas" teadet.
 
 ![Laost otsas teadet kuvava toote üksikasjade lehe mooduli näide](./media/pdp-outofstock.png)
 
-Järgmisel pildil on toodud ostukorvi näide, kus kuvatakse teadet laos olemas („Olemas“).
+Järgmises näites on näha, et PDP näitab käru laoseisu "Laos&quot; (&quot;Saadaval") teadet.
 
 ![Laos olemas teadet kuvava ostukorvi mooduli näide](./media/cart-instock.png)
 

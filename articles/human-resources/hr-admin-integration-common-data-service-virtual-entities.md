@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890048"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935749"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse'i virtuaalsete tabelite konfigureerimine
 
@@ -102,27 +102,15 @@ Peate Human Resourcesi eksemplari Azure'i portaalis registreerima, et Microsofti
 
 Installige Dynamics 365 HR Virtuaalse tabeli rakendus oma Power Appsi keskkonda, et juurutada virtuaalse tabeli lahenduse pakett teenuses Dataverse.
 
-1. Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com).
+1. Avage rakenduses Human Resources leht **Microsoft Dataverse integratsioon**.
 
-2. Valige loendist **Keskkonnad** Power Appsi keskkond, mis on seotud teie rakenduse Human Resources eksemplariga.
+2. Valige vahekaart **Virtuaalsed tabelid**.
 
-3. Valige lehe jaotises **Ressursid** suvand **Dynamics 365 rakendused**.
+3. Valige suvand **Installi virtuaaltabeli rakendus**.
 
-4. Valige tegevus **Installi rakendus**.
+### <a name="configure-the-virtual-table-data-source"></a>Virtuaalse tabeli andmeallika konfigureerimine
 
-5. Valige **Dynamics 365 HR Virtuaalne tabel** ja valige **Edasi**.
-
-6. Vaadake teenusetingimused üle ja märkige, et te nõustute nendega.
-
-7. Valige **Installi**.
-
-Installimine võtab mõne minuti. Kui see on lõpule viidud, jätkake järgmiste sammudega.
-
-![Dynamics 365 HR Virtuaalse tabeli rakenduse installimine Power Platformi halduskeskusest](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Virtuaalse tabeli andmeallika konfigureerimine 
-
-Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi keskkonnas. 
+Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi keskkonnas.
 
 1. Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi kesk
 4. Valige jaotises **Lahenduse seisundikeskus** **täpsema otsingu** ikoon, mis asub rakenduse lehe üleval paremal pool.
 
 5. Valige lehel **Täpsem otsing** ripploendist **Otsitav** suvand **Finance and Operationsi virtuaalse andmeallika konfiguratsioonid**.
+
+   > [!NOTE]
+   > Eelmise häälestussammu virtuaaltabeli rakenduse installimine võib võtta mitu minutit. Kui **Finance and Operations virtuaalse andmeallika konfiguratsioonid** ei ole loendis saadaval, oodake minut ja värskendage siis loendit.
 
 6. Valige **Tulemid**.
 
@@ -186,7 +177,7 @@ Andke rakenduses Human Resources õigused kahe Azure AD rakenduse jaoks.
 
 Kui seadistus on lõpule viidud, saate valida virtuaalsed tabelid, mille soovite luua ja lubada oma Dataverse'i eksemplaris.
 
-1. Avage rakenduses Human Resources leht **Dataverse integratsioon**.
+1. Avage rakenduses Human Resources leht **Microsoft Dataverse integratsioon**.
 
 2. Valige vahekaart **Virtuaalsed tabelid**.
 
@@ -197,7 +188,7 @@ Kui seadistus on lõpule viidud, saate valida virtuaalsed tabelid, mille soovite
 
 4. Valige **Loo/värskenda**.
 
-![Dataverse’i integratsioon](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse’i integratsioon](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Tabeli loomise oleku kontrollimine
 

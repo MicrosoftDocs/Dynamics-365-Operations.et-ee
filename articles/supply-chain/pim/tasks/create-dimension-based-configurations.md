@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb242e32d3ad399acc82b855da3096dfa5c2c1a5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 584bb558ee0afeaffaeb003e9f1d1b0bca42d19d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809394"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920677"
 ---
 # <a name="create-dimension-based-configurations"></a>Dimensioonipõhiste konfiguratsioonide loomine
 
@@ -26,29 +26,29 @@ ms.locfileid: "5809394"
 
 See protseduur selgitab, kuidas määratleda dimensioonipõhise toote konfiguratsiooni. See on viimane protseduur seerias, mis selgitab kombinatsioonide loomist dimensioonipõhise konfiguratsiooni jaoks. Selle protseduuri käivitamine sõltub andmetest, mis on loodud seitsmes eelnevas salvestises. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
-
 ## <a name="find-the-dimension-based-product-master"></a>Dimensioonipõhise tooteetaloni otsimine
-1. Klõpsake valikut Väljastatud toodete hooldus.
-2. Klõpsake valikut Väljastatud tooted.
-3. Märkige loendis valitud rida.
+
+1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
+1. Märkige loendis valitud rida.
     * Valige dimensioonipõhine tooteetalon, mille lõite 8 salvestuse esimese salvestuses.  
 
 ## <a name="create-configurations"></a>Konfiguratsioonide loomine
-1. Klõpsake toimingupaanil Tehnika suvandit Konfiguratsioonide haldamine.
-2. Klõpsake nuppu Konfigureeri.
-3. Märkige loendis valitud rida.
-4. Sisestage või valige väärtus väljal Kaubakood.
+
+1. Klõpsake toimingupaanil **Tehnika** suvandile **Konfiguratsioonide haldamine**.
+1. Valige **Konfigureeri**.
+1. Märkige loendis valitud rida.
+1. Sisestage või valige väärtus väljale **Kauba kood**.
     * Valige mis tahes kaup esimeses konfiguratsioonigrupis.  
-5. Otsige loendist ja valige soovitud kirje.
-6. Sisestage või valige väärtus väljal Kaubakood.
+1. Otsige loendist ja valige soovitud kirje.
+1. Sisestage või valige väärtus väljale **Kauba kood**.
     * Valige mis tahes kaup teisest konfiguratsioonigrupist.  
-7. Klõpsake nuppu OK.
-8. Märkige loendis valitud rida.
-9. Tippige väärtus väljale Konfiguratsioon.
+1. Valige nupp **OK**.
+1. Märkige loendis valitud rida.
+1. Sisestage väljale **Konfiguratsioon** väärtus.
     * Sisestage konfiguratsiooni nimi, mis lihtsustab konfiguratsiooni tuvastamist.  
-10. Sisestage väljale Kirjeldus soovitud väärtus.
+1. Sisestage väärtus väljale **Kirjeldus**.
     * Sisestage konfiguratsiooni kirjeldus, mis selgitab, mida see sisaldab.  
-11. Klõpsake nuppu OK.
+1. Valige nupp **OK**.
 
 
 

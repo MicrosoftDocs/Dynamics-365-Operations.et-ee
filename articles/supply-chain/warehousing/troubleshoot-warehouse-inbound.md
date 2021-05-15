@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828222"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920983"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Saabuvate kaupade laotoimingute tõrkeotsing
 
@@ -56,7 +56,7 @@ Pärast seda, kui käivitate *Toote sissetulekute uuendamise* perioodilise üles
 
 ### <a name="issue-resolution"></a>Probleemi lahendamine
 
-Uus sissetuleva koorma käitlemise funktsioon *Koorma koguste ülelaekumine* lahendab selle probleemi. Lülitage see funktsioon sisse, minge [Funktsioonihaldusesse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse järgmised funktsioonid (samas järjekorras nagu need on loetletud):
+Uus sissetuleva koorma käitlemise funktsioon *Koorma koguste ülelaekumine* lahendab selle probleemi. Selle funktsiooni sisselülitamiseks minge [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruum ja lülitage sisse järgmised funktsioonid (samas järjekorras nagu need on loetletud):
 
 1. Ostutellimuse varude kannete seostamine koormusega
 1. Koorma koguste liigne vastuvõtt

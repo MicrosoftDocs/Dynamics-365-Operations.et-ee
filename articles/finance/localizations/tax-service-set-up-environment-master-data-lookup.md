@@ -2,7 +2,7 @@
 title: Koondandmete otsingu keskkonna häälestamine
 description: Selles teemas selgitatakse, kuidas seadistada oma keskkond kasutama maksuarvestuse põhiandmete otsingufunktsiooni.
 author: kai-cloud
-ms.date: 03/31/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,43 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eda093a75898bace2f3c7968933b83ccafa7fabb
-ms.sourcegitcommit: 66095f1b7e0fd2756aa29fd7deb9ce5392b7e0b2
+ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869058"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924150"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Koondandmete otsingu keskkonna häälestamine
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 Selles teemas selgitatakse, kuidas seadistada oma keskkond kasutama maksuarvestuse põhiandmete otsingufunktsiooni.
 
 1. Seadistage energiaplatvormi integreerimine rakenduses Lifecycle Services (LCS). Lisateavet vt teemast [Microsoft Power Platform ingegratsioon - lisandmooduli ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
 2. Dynamics 365 Finance ja Microsoft Dataverse häälestamine. Lisateavet vt teemadest [Lahenduse leidmine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) ja [Autentimine ja autoriseerimine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
-3. Importige *eeltingimuse maksuteenuse virtuaalse olemi lahendus* [maksuteenuse virtuaalsest olemist](https://go.microsoft.com/fwlink/?linkid=2158160).
+3. Seadistage järgmised üksused. Lisateavet leiate [Virtuaalsete jaotiste lubamine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities).
+      - EttevõteInfoÜksus
+      - CurrencyEntity
+      - CustCustomerV3Entity
+      - DeliveryTermsEntity
+      - EcoResProductCategoryEntity
+      - EcoResReleasedProductV2Entity
+      - LogistikaAadressLinnÜksus
+      - LogistikaAadressRiikRegioonTõlgeÜksus
+      - LogistikaAadressOsariikÜksus
+      - OstaHankedTasuCDSÜksus
+      - MüükTasuCDSÜksus
+      - TaxGroupEntity
+      - MaksKaupGruppPäisÜksus
+      - VendVendorV2Entity
 4. Seadistage Dynamics 365 Regulatory Configuration Service (RCS). 
 5. Järgmiste funktsioonide lendamise lubamiseks looge Microsofti jaoks teenusetaotlus.
 
       - ERCdsFeature
       - TaxServiceCDSFeature
 
-6. Rakenduses Finance minge tööruumi **Funktsioonide halduse** ja lülitage sisse järgmised funktsioonid.
+6. Minge **Funktsioonide haldus** tööruumi ja lülitage sisse järgmised funktsioonid:
 
       - (Eelvaade) Elektroonilise aruandluse Dataverse andmeallikate tugi
       - (Eelversioon) Maksuteenuse Dataverse'i andmeallikate tugi

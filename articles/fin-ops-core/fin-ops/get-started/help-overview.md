@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897812"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923442"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -39,7 +39,7 @@ Kõigis neis rakendustes pääsete tootepõhisele spikrile juurde paanilt **Spik
 
 ## <a name="help-on-docsmicrosoftcom"></a>Spikker saidil docs.microsoft.com
 
-Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) on ülaltoodud rakenduste vaikimisi tootedokumentide allikas. See sait pakub järgmisi funktsioone.
+Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) on ülaltoodud rakenduste vaikimisi tootedokumentide allikas. See sait pakub järgmisi funktsioone.
 
 - **Juurdepääs kõige ajakohasemale sisule** – sait annab Microsoftile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada. Seetõttu tagab see teile hõlpsat juurdepääsu uusimale tehnilisele teabele.
 - **Asjatundjate kirjutatud sisu** – saidi sisu saavad täiendada kogukonna liikmed nii Microsofti siseselt kui ka väljastpoolt.
@@ -50,7 +50,7 @@ Sisu leiate saidilt docs.microsoft.com mis tahes otsingumootori abil. Soovitame 
 
 RSS-kanali (Really Simple Syndication) tellimiseks kõigi docs.microsoft.com sisu värskenduste jaoks, kasutage järgmist linki.
 
-[RSS-kanal](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[RSS-kanal](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>Tagasiside andmine
 
@@ -73,7 +73,7 @@ Saate anda oma panuse dokumentidesse ja neid redigeerida. Alustamiseks valige te
 
 Video [Kuidas panustada Microsoft Dynamics 365 dokumenti](https://youtu.be/m5djioozRbg) (vt eespool) on vaadatav Microsoft Dynamics 365 kanalist YouTube'is.
 
-Lugege lisateavet teemast [Dokumentide kaasautori juhend](https://docs.microsoft.com/contribute), mille avaldajaks on saidi docs.microsoft.com loonud meeskond.
+Lugege lisateavet teemast [Dokumentide kaasautori juhend](/contribute), mille avaldajaks on saidi docs.microsoft.com loonud meeskond.
 
 > [!NOTE]
 > Praegu aktsepteerime panuseid ainult ingliskeelsesse sisusse.
@@ -112,7 +112,7 @@ Paanilt **Spikker** pääsete juurde kliendile mõeldud teemadele. Kui avate esi
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Spikri paanilt ülesande juhistele juurde pääsemine
 
-Enne, kui pääsete paanilt **Spikker** tegevuse juhistele juurde, peab süsteemiadministraator konfigureerima rakenduste Finance, Supply Chain Managment ja Commerce lehel **Süsteemi parameetrid** mõned sätted. Lugege lisateavet teemast [Tegevuse juhiste lisamine](help-connect.md#adding-task-guides).
+Enne, kui pääsete paanilt **Spikker** tegevuse juhistele juurde, peab süsteemiadministraator konfigureerima rakenduste Finance, Supply Chain Management ja Commerce lehel **Süsteemi parameetrid** mõned sätted. Lugege lisateavet teemast [Tegevuse juhiste lisamine](help-connect.md#adding-task-guides).
 
 <!-- > [!NOTE]
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
@@ -155,12 +155,13 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 | Sait | Kirjeldus |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | See sait majutab või lingib kõiki Dynamics 365 tootedokumente. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | See Microsofti tasuta e-õppe sait. |
+| [Microsoft Learn](/learn/) | See Microsofti tasuta e-õppe sait. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | See sait pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ning toiminguteni. See on abiks kõigis juurutamise faasides. |
 | [Toe ajaveeb](https://aka.ms/AXSupportBlog) | See sait annab vihjeid ja näpunäiteid, mida sisestab tugiteenuse töörühm. |
 | [Docs.microsoft.com/previous versioonid](/previous-versions/dynamics/) | See sait majutab varasemate väljaannete sisu. |
 | [Dynamicsi kogukond](https://community.dynamics.com/) | See sait majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | See sait pakub hinnanguid ja müügiteavet. |
+
 
 
 

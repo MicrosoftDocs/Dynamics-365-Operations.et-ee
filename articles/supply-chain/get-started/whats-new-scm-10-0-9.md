@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fdfe4d5042e0a6a7948a09334dc675e210e765a1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a8adf8cd736dd74e8a706e3692df93d7957a3402
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909811"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935829"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.9 (aprill, 2020)?
 
@@ -71,7 +71,7 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 
 - [Pakkimise vs laoala dimensioonid](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 
-- [Plaanitud tellimuste paralleelkinnitamine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Lisateabe saamiseks vt [Paralleelkinnitamine](../master-planning/maintain-planned-orders.md#parallelize-firming) ja ka videot [MRP jõudluse ja kasutatavuse täiustused](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+- [Plaanitud tellimuste paralleelkinnitamine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Lisateabe saamiseks vt [Kindla planeeritud tingimuse](../master-planning/planning-optimization/planned-order-firming.md) ja [MRP jõudluse ja kasutatavuse täiustuste](https://www.microsoft.com/videoplayer/embed/RE4myrJ) video.
 
 - [Jaotamise planeerimise optimeerimine](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Lisateavet vt [Planeerimise optimeerimise ülevaade](../master-planning/planning-optimization/planning-optimization-overview.md).
 

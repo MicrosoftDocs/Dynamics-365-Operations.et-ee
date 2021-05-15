@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797835"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936826"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisu edastamise võrgu (CDN) toe lisamine
 
@@ -47,7 +47,7 @@ Nagu eelnevalt mainitud, toetab loodud hostinimi või lõpp-punkt SSL-i serti ai
 
 Commerce’i keskkonnaga saab kasutada mis tahes CDN-i teenust. Järgmisena on toodud kaks näidet.
 
-- **Microsoft Azure’i sisenemispunkti teenus** – Azure’i CDN-i lahendus. Lisateavet Azure’i sisenemispunkti teenuse kohta vt [Azure’i sisenemispunkti teenuse dokumentatsioon](https://docs.microsoft.com/azure/frontdoor/).
+- **Microsoft Azure’i sisenemispunkti teenus** – Azure’i CDN-i lahendus. Lisateavet Azure’i sisenemispunkti teenuse kohta vt [Azure’i sisenemispunkti teenuse dokumentatsioon](/azure/frontdoor/).
 - **Akamai dünaamiline saidi kiirendi** – lisateavet vaadake teemast [Dünaamiline saidi kiirendi](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp).
 
 ## <a name="cdn-setup"></a>CDN häälestus
@@ -62,7 +62,7 @@ CDN-i seadistamise protsess koosneb järgnevatest üldistest etappidest.
 
 Kasutada võib mis tahes CDN-i teenust, kuid näiteks selles teemas kasutatakse Azure’i sisenemispunkti teenust. 
 
-Teavet Azure’i sisenemispunkti teenuse seadistamise kohta vaadake teemast [Lühijuhend: suure saadavusega globaalse veebirakenduse jaoks sisenemispunkti loomine](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
+Teavet Azure’i sisenemispunkti teenuse seadistamise kohta vaadake teemast [Lühijuhend: suure saadavusega globaalse veebirakenduse jaoks sisenemispunkti loomine](/azure/frontdoor/quickstart-create-front-door).
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Azure’i sisenemispunkti teenuses tagaserverite kausta konfigureerimine
 
@@ -115,7 +115,7 @@ Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogia
 
 ![Dialoogiaken Kohandatud domeeni HTTPS](./media/Custom_Domain_HTTPS.png)
 
-Üksikasjalikku teavet kohandatud domeeni lisamise kohta oma Azure'i sisenemispunkti leiate teemast [Kohandatud domeeni lisamine sisenemispunkti](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
+Üksikasjalikku teavet kohandatud domeeni lisamise kohta oma Azure'i sisenemispunkti leiate teemast [Kohandatud domeeni lisamine sisenemispunkti](/azure/frontdoor/front-door-custom-domain).
 
 Teie CDN peaks nüüd olema õigesti konfigureeritud, et seda saaks teie Commerce’i saidiga kasutada.
 

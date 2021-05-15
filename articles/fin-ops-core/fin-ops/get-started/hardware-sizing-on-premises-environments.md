@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748741"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923476"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 
@@ -134,7 +134,7 @@ Enamasti peaks soovitatud miinimumnõuded, kasutades kaht sõlme, hästi toimima
 
 ## <a name="environment-orchestrator"></a>Keskkonna korraldaja
 
-Korraldusteenus on teenus, mis haldab teie juurutust ja seotud sidet LCS-iga. See teenus juurutatakse primaarse Service Fabricu teenusena ja nõuab vähemalt kolme virtuaalarvutit. Teenus asub samas kohas mis Service Fabricu korraldusteenused. Selle suurus tuleks määrata kogumi tippkoormuse järgi. Lisateabe saamiseks vaadake teemat [Teenuse Service Fabric eraldiseisva kogumi juurutamise plaanimine ja ettevalmistamine](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Korraldusteenus on teenus, mis haldab teie juurutust ja seotud sidet LCS-iga. See teenus juurutatakse primaarse Service Fabricu teenusena ja nõuab vähemalt kolme virtuaalarvutit. Teenus asub samas kohas mis Service Fabricu korraldusteenused. Selle suurus tuleks määrata kogumi tippkoormuse järgi. Lisateabe saamiseks vaadake teemat [Teenuse Service Fabric eraldiseisva kogumi juurutamise plaanimine ja ettevalmistamine](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualiseerimine ja ületellimine
 

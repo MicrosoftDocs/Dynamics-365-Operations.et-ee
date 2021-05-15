@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.18 (mai 2021) eelversioon
+title: Mis on uut või mida on muudetud Dynamics 365 Supply Chain Management versioonis 10.0.18 (mai 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.18 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909349"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934963"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18 (mai 2021) eelversioon
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Mis on uut või mida on muudetud Dynamics 365 Supply Chain Management versioonis 10.0.18 (mai 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.18 uued või muutunud funktsioonid. Selle versiooni number on 10.0.793 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.18 uusi või muutunud funktsioone. Selle versiooni number on 10.0.793 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** märts 2021
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** aprill 2021
@@ -43,9 +42,17 @@ See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](/dyna
 
 - [Tagasimakse haldus](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Lisateavet vt [Tagasimaksehalduse mooduli ülevaade](../rebate-management/rebate-management-overview.md)
 
+- [Müügiandmete olemi ekspordi seadistamise poliitika](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Müügi tagastustellimuse rea registreerimine kümnendkoha täpsusega koos tegeliku kaaluga ja ilma selleta](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Ühe klõpsuga müügitellimuse kinnitus](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Müügitellimusest ostutellimuseni ridade kustutamise poliitika](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Lihtsustatud liides ainult sisse- ja väljaregistreerimiseks (täiustus [Tootmise täiustatud tootmisosakonna täideviimisliides](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) jaoks)<br> - Lisateavet vt [Tootmisosakonna käivitusliidese konfigureerimine](../production-control/production-floor-execution-configure.md).
 
-Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla. 
+Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 

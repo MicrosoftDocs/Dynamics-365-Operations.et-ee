@@ -2,7 +2,7 @@
 title: Kvaliteedijuhtimine laoprotsesside jaoks
 description: Teema annab teavet funktsiooni „Kvaliteedijuhtimine laoprotsesside jaoks” kohta. See funktsioon laiendab kvaliteedijuhtimise võimalusi ja võimaldab kasutajatel täpsema laohalduse abil kauba valimi juhtelemendid lao vastuvõtmisprotsessi integreerida.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834261"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956078"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kvaliteedijuhtimine laoprotsesside jaoks
 
@@ -620,5 +620,8 @@ Olete seadistanud töö ja asukoha andmed lao 51 jaoks, et tagada töö loomine 
 > [!NOTE]
 > Kaaluge kvaliteedikontrollist tuleva kauba kirje lisamist mobiilse seadme menüüelemendile, mille tegevuse kood on *Kuva avatud tööloend*. Vaadake näiteks demo-andmetes mobiilse seadme menüüelementi, mille nimetus on **Tööloend**. Esmalt lisage kasutaja suunatud menüüelementi töö klass *Kvaliteettellimus*, kuna seda töö klassi on vaja tööde kuvamiseks tööloendis. Seejärel lisage töö klass *Kvaliteettellimus* menüüelemendile **Tööloend**. Tööloendile ligi pääsevad kasutajad saavad seejärel valida ja töödelda tööd, mis luuakse automaatselt kvaliteettellimuse kinnitamisel.
 
+## <a name="additional-resources"></a>Lisaressursid
+
+- [Kvaliteedi ja mittevastavuse haldamise ülevaade](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
