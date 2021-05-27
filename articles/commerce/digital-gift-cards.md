@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792867"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019929"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-kaubanduse digitaalsed kinkekaardid
 
@@ -51,12 +51,12 @@ Digitaalsete kinkekaartide tooteid tuleb konfigureerida Commerce'i peakontoris. 
 
     ![Kinkekaarditoote väli Commerce'i peakontoris](./media/PostGiftcard.png)
 
-- Kui kinkekaart peab toetama mitmeid eelmääratletud summasid (nt 25, 50 ja 100 $), tuleks nende eelmääratletud summade seadistamiseks kasutada dimensiooni **Suurus**. Iga eelmääratletud summa on variant. Lisateavet vt teemast [Toote dimensioonid](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Kui kinkekaart peab toetama mitmeid eelmääratletud summasid (nt 25, 50 ja 100 $), tuleks nende eelmääratletud summade seadistamiseks kasutada dimensiooni **Suurus**. Iga eelmääratletud summa on variant. Lisateavet vt teemast [Toote dimensioonid](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Kui kliendid peavad saama kinkekaardile kohandatud summat määrata, seadistage esmalt variant, mis lubab kasutada kohandatud summat. Seejärel avage toode lehel **Väljastatud tooted kategooriatena** ja määrake kiirkaardil **Kaubandus** välja **Hinna sisestamine** väärtuseks **Uue hinna sisestamine on kohustuslik**, nagu järgmisel joonisel näidatud. See seadistus tagab, et kliendid saavad PDP-s toote sirvimisel hinna sisestada.
 
     ![Hinna sisestamise väli Commerce'i peakontoris](./media/KeyInPrice.png)
 
-- Digitaalse kinkekaardi tarneviisi väärtuseks peab olema määratud **Elektrooniline**. Valige lehe **Tarneviisid** (**Jaemüük ja kaubandus \> Kanali seadistus \> Tarneviisid**) loendipaanil tarneviis **Elektrooniline** ja seejärel lisage digitaalse kinkekaardi toode kiirkaardi **Tooted** ruudustikku, nagu järgmisel joonisel näidatud. Lisateavet vt teemast [Tarneviiside seadistamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- Digitaalse kinkekaardi tarneviisi väärtuseks peab olema määratud **Elektrooniline**. Valige lehe **Tarneviisid** (**Jaemüük ja kaubandus \> Kanali seadistus \> Tarneviisid**) loendipaanil tarneviis **Elektrooniline** ja seejärel lisage digitaalse kinkekaardi toode kiirkaardi **Tooted** ruudustikku, nagu järgmisel joonisel näidatud. Lisateavet vt teemast [Tarneviiside seadistamine](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Digitaalsete kinkekaartide tooted Commerce'i peakontori lehel Tarneviisid](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Commerce'i saidiehitajas digitaalse kinkekaardi jaoks kohandatud summa konfigure
 
 [Uue toote loomine Commerce'is](create-new-product-commerce.md)
 
-[Tarneviiside häälestamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Tarneviiside häälestamine](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Tootedimensioonid](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Tootedimensioonid](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Meiliteatise profiili seadistamine](email-notification-profiles.md)
 

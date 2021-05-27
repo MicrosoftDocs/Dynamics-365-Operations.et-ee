@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834592"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026201"
 ---
 # <a name="set-up-postdated-checks"></a>Hilisema kuupäevaga tšekkide seadistamine
 
@@ -53,7 +53,11 @@ Selle protseduuri roll on Kassiir. See protsess kasutab demoettevõtte USMF-i an
     * Valige pangakonto, mida kasutatakse arvesumma mahaarvamiseks.  
 18. Klõpsake nuppu Salvesta.
 19. Sulgege leht.
-
-
+> [!NOTE]
+> Et saada pärast kuupäevaga dateeritud tšekki pangakontole sisestada, kui seansi kuupäev on tähtajakuupäevast suurem või sellega võrdne, peate lubama funktsiooni **Tähtaja kuupäeva kinnitamise maksetöölehe sisestamisel kuupäevaga dateeritud tšekkide** pangakontole. See funktsioon võimaldab teil sisestada maksetöölehti hankijatele või klientidele, kellel on dateeritud tšekid, kui seansi kuupäev on tähtaja kuupäevast suurem või sellega võrdne.
+> 
+> Kui seadistate **maksemeetodi** (**Ostureskontro > Makse seadistus > Makseviisid)**, ärge täitke **Ühiskontot**. Sel juhul sisestatakse vastaskonto pangakontole, mis on seadistatud **Makseviis**.
+>  
+> Kui funktsioon on lubatud ja seansi kuupäev on tähtajast väiksem, kuvatakse maksetöölehe sisestamisel järgmine tõrketeade: "Tähtaja kuupäev peab olema seansi kuupäevast väiksem või sellega võrdne, kui vastaskonto tüüp on Pank". Kui see funktsioon pole lubatud, saate sisestada maksetöölehe dateeritud tšekiga, kui seansi kuupäev on tähtaja kuupäevast väiksem.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

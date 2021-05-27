@@ -5,7 +5,6 @@ author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: beab7f2fc4fd96ce7a28734d2449445b3b5d4451
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750832"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018382"
 ---
 # <a name="note-integration"></a>Integratsiooni teatis
 
@@ -34,8 +33,8 @@ ms.locfileid: "5750832"
 
 Kliendi teavet saab klassifitseerida järgmiselt:
 
-+ **Käivitatav teave, mida Dynamics 365 kasutaja kliendi eest käsitseb** – näiteks Contoso (Dynamics 365 kasutaja) viib läbi värskendusseansi. Üks Contoso klientidest (klient) soovib osaleda shows. Klient palub Contoso töötajal reserveerida nende jaoks vaba pesa. Reserveerimine toimub Contoso sündmuses osaleja kalendris.
-+ **Dynamics 365 kasutaja toimingu teave** – näiteks klient, kes ostab Surface'i ühikut, sisestab erijuhised, mis näitavad, et seade peaks enne tarnet olemakingituseks. Need juhised on tegevusatav teave, mida peaks käsitsema pakendamise eest vastutav Contoso töötaja.
++ **Käivitatav teave, mida Dynamics 365 kasutaja kliendi eest käsitseb** – näiteks Contoso (Dynamics 365 kasutaja) viib läbi värskendusseansi. Üks Contoso klientidest (klient) soovib osaleda mängu show`s. Klient palub Contoso töötajal reserveerida nende jaoks mängu show`s pesa. Reserveerimine toimub Contoso sündmuses osaleja kalendris.
++ **Dynamics 365 kasutaja toimingu teave** – näiteks klient, kes ostab Surface'i ühikut, sisestab erijuhised, mis näitavad, et seade peaks enne tarnet olemakingituseks. Need juhised on kasutatav teave, mida peaks käsitsema Contoso töötaja, kes vastutab pakendamise eest.
 + **Mittetegevuslik teave** – näiteks klient külastab Contoso kauplust ja väljendab vestluse ajal kauplusepartneriga huvi *Halo* mängu ja mängutarvikute vastu. Kaupluse seostamine teeb selle teabe kohta märkuse. Tootesoovituste mootor kasutab seda siis kliendile soovituste andmiseks.
 
 Üldiselt on tegutsetav teave hõivatud *tegevustena* Finance and Operations rakendustes ja kliendikogemuste rakenduses. Mittetegutsetav teave on hõivatud *teadetena* Finance and Operations rakenduses ja *märkustena* kliendikogemuse rakendustes.

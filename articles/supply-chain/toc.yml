@@ -365,9 +365,7 @@
                   href: asset-management/objects/object-specification-overview.md
             - name: Hooldusnõude häälestus
               items:
-                - name: Hooldusnõuded
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: Hooldusnõuete töötsükli olek
+                - name: Hooldusnõude töötsükli olekud
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Hooldusnõuete tüübid
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Tõrkeotsing
           items:
+            - name: Kuluhaldus
+              items:
+                - name: Puuduvad väljaseaded kauba mudeligruppide kopeerimisel teise juriidilisse isikusse
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: Aruanne „Töödeldavad kaudsed kulud” sisaldab kustutatud tootmistellimusi
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Nullsummaga sisestatud ostu viitvõlg nullväärtusega toote sissetuleku jaoks
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Füüsiliselt sissetulnud ostutellimusi ei kuvata lao sulgemise aruandes
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Lehe „Kauba hind” vahekaardil „Aktiivsed hinnad” ei ole alguskuupäeva
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Varude haldus
+              items:
+                - name: Mitu laokannet partiinumbrite kohta ilma valikuta „Füüsilise sisestamise puhul”
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: Aruande tühistamine lõpetatuna loob ootamatu avatud kande
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: Töölehele lisatud uusi märkmeid ei saa komplekteerimislehe aruandes näidata
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: Alustatud vahelaoorderi kogust ei uuendata tellimuse jaotamisel
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: Välja „Viimase testimise kuupäev” ei uuendata mitme kvaliteettellimuse loomisel
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: Tegeliku kaalu koguse jaotamisel kasutatakse nimikoguse asemel miinimumkogust
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Koondplaneerimine
+              items:
+                - name: Otse tuletatud kindlad tellimused töödeldakse ülevaatuse töövooga
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Koondplaneerimine loob fiktiivsetele toodetele plaanitud tellimused
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: Plaanitud ostutellimus luuakse ostu olemasolul negatiivsete päevade jooksul
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Nõudluse prognoosi kirjetesse ei saa omahinda üles laadida
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Lao nõudluse prognoosi dimensiooni ei saa prognoosi ridadelt eemaldada
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Hange
+              items:
+                - name: VEL ettevõtte kliendisuunalist müügitellimuse arvet ei saa saata
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Ostutaotlusele ei saa pärast muudatuse taotlemist rida lisada
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Tooteteabe haldus
+              items:
+                - name: Väljastatud toote loomiseks ei saa malli rakendada
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Väljastatud tooted V2 üksuse abil ei saa kaupa importida
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: Ostutellimustes ei kuvata tõlgitud tooteteksti
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Tootmise juhtimine
+              items:
+                - name: Koosluseridade automaatse tarbimise põhimõtte sätteid ei järgita
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Partiinumber eemaldatakse uue partii ID valimisel
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: Hilist valikut ei arvestata tootmistellimuste lähtestamisel pakett-töö kaudu
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: Kasutajad saavad lõpetatuna kinnitatud toodete materjaliridade komplekteerimise tühistada
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Aruande sisestamisel lõpetatud töölehena ilmnes tõrge
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Komplekteerimislehe töölehel olevat ladu ei ole koosluse real uuendatud
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Tagasimakse haldus
+              items:
+                - name: Kliendi tagasimaksete kumuleerimine kauba tagasimaksegruppide abil nurjub
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Müük ja turundus
+              items:
+                - name: 'Süsteemiadministraatorid ei saa tellimuste ootelolekuid tühjendada, sest nad pole autoriseeritud'
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Transpordihaldus
+              items:
+                - name: Põhikonto saab krediidikontona lisada ainult vastavusseviimise põhjustel
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Laohaldus
               items:
+                - name: Komplekteerimislehe registreerimise ajal ilmneb asukoha valimisel tõrge
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: Pakkimisjaam ei kuva tootemärkmeid
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 'Asukohaprofiil keelab negatiivsed varud, kuid negatiivne vaba kogus on lubatud'
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Ühele kviitungile prinditakse mitme tööpäise jaoks ainult üks silt
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Saadetist ei saa kinnitada kalendri probleemi tõttu
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: Saadetist ei saa kinnitada lõpetamata või puuduva töö tõttu

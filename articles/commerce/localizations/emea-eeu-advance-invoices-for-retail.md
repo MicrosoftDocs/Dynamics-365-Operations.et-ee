@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7bdd1d99ffbc1112226fd2db168cc5fc61615b9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7771dfb9d9aa6dc87ef9eaee078c45ea66a5e143
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798834"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020290"
 ---
 # <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Commerce'i ettemaksuarved Ida-Euroopa puhul
 
@@ -30,7 +30,7 @@ Poola, Ungari ja Tšehhi Vabariigi korral tuleb peale kliendilt müügipunktis s
 
 Kui müügitellimuse arve lõpuks sisestatakse, peaks lõppdokument sisaldama ettemaksuarvet ning näidatud peaksid olema mistahes ettemaksed.
 
-Kui loote müügireskontost müügitellimusi, peate looma ettemaksuarved käsitsi, kasutades jaotise [Ida-Euroopa ettemaksuarved](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) protseduure. Kui loote müügitellimusi kassa kaudu, loob ja sisestab teile ettemaksearved süsteem.
+Kui loote müügireskontost müügitellimusi, peate looma ettemaksuarved käsitsi, kasutades jaotise [Ida-Euroopa ettemaksuarved](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) protseduure. Kui loote müügitellimusi kassa kaudu, loob ja sisestab teile ettemaksearved süsteem.
 
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 

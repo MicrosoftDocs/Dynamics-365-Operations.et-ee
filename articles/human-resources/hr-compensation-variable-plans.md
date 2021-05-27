@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800875"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027766"
 ---
 # <a name="create-variable-compensation-plans"></a>Ergutussüsteemi plaanide loomine
 
@@ -38,7 +38,7 @@ Ergutussüsteemi summade arvutamine töötajatele võib põhineda mitmel teguril
 
 ### <a name="describe-vesting-rules"></a>Pensionireeglite kirjeldamine
 
-Soovi korral saavad ettevõtted seadistada **pensionireegleid**. Pensionireeglid kirjeldavad, kuidas tuleks preemiat aja jooksul eraldada. Näiteks võib pensionireegel sätestada, et töötaja saab nelja järgmise aasta jooksul igal aastal 25 protsenti kogupreemiast. Pensionireeglid on üksnes informatiivsed.
+Soovi korral saavad ettevõtted seadistada **pensionireegleid**. Pensionireeglid kirjeldavad, kuidas tuleks preemiat aja jooksul eraldada. Näiteks võib pensionireegel sätestada, et töötaja saab nelja järgmise aasta jooksul igal aastal 25 protsenti kogu preemiast. Pensionireeglid on üksnes informatiivsed.
 
 ## <a name="variable-compensation-plans"></a>Tulemustasu plaanid
 **Ergutussüsteemi plaan** sisaldab reegleid, arvutusmeetodeid ja vaikeväärtusi registreerunud töötajate ergutussüsteemi arvutamiseks. Ergutussüsteemi plaani loomisel peate määrama ergutussüsteemi tüübi. Ergutussüsteemi tüüp määrab, kas süsteem arvutab preemiana valuutasumma või ühikute arvu. Peate seadistama ka arvutusmeetodi.

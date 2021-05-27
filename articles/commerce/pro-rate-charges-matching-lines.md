@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791050"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018602"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791050"
 
 Selles teemas kirjeldatakse päisetasemel automaatsete kulude rühmitamise ja nende kaubanduse müügiridadele proportsionaalselt jaotamise funktsionaalsust. See funktsioon on saadaval kannetele, mis on loodud kassas (POS) rakenduse Retail versioonis 10.0.1 ja müükides, mis on loodud rakenduse Retail 10.0.2 versiooni kõnekeskuses.
 
-See funktsioon on saadaval ainult siis, kui funktsioon [täpsemad automaatsed kulud](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) on lehel **Kaubanduse parameetrid** olevat suvandit kasutades sisse lülitatud. Samuti saab automaatsete kulude täiustatud arvutusviisi rakendada ainult müügitellimustele, mis on loodud kaubanduskanalite kaudu (kassa, kõnekeskus ja Dynamicsi e-Commerce’i platvorm).
+See funktsioon on saadaval ainult siis, kui funktsioon [täpsemad automaatsed kulud](/dynamics365/unified-operations/retail/omni-auto-charges) on lehel **Kaubanduse parameetrid** olevat suvandit kasutades sisse lülitatud. Samuti saab automaatsete kulude täiustatud arvutusviisi rakendada ainult müügitellimustele, mis on loodud kaubanduskanalite kaudu (kassa, kõnekeskus ja Dynamicsi e-Commerce’i platvorm).
 
 See uus funktsioon pakub organisatsioonidele päisetasemel automaatsete kulude arvutamisel ja nende müügikannetele rakendamisel suuremat paindlikkust.
 
@@ -38,7 +38,7 @@ Rakenduse versioonides, mis on varasemad kui 10.0.1, arvutatakse päisetasemel a
 
 Näiteks on päisetasemel automaatsed kulud määratletud tarneviisi **99** ja **11** puhul. Luuakse müügitellimus ja tarneviis **99** määratletakse tellimuse päises. Siiski on osa müügiridu seadistatud viisil, et nad saadetakse tarneviisiga **11**. Sellisel juhul arvestatakse ja rakendatakse müügitellimusele ainult päisetasemel kulud, mis on seotud tarneviisiga **99**.
 
-Rakenduses Commerce on päisetasemel kuludel täiendav funktsioon, mis võimaldab teil määratleda [mitmetasemelise tasu konfiguratsiooni](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), mis põhineb tellimuse väärtusel. Näiteks kui tellimuse väärtus on vahemikus $50,00 ja $200,00, võib ettevõte võtta veokulude eest tasu $5,00. Kui tellimuse väärtus jääb vahemikku $200,01 ja $500,00, võiks veokulu olla $4,00.
+Rakenduses Commerce on päisetasemel kuludel täiendav funktsioon, mis võimaldab teil määratleda [mitmetasemelise tasu konfiguratsiooni](/dynamics365/unified-operations/retail/configure-call-center-delivery), mis põhineb tellimuse väärtusel. Näiteks kui tellimuse väärtus on vahemikus $50,00 ja $200,00, võib ettevõte võtta veokulude eest tasu $5,00. Kui tellimuse väärtus jääb vahemikku $200,01 ja $500,00, võiks veokulu olla $4,00.
 
 Mõned ettevõtted soovivad mitmetasandilise tasu arvutamisega kaasnevaid eeliseid, mida pakuvad päisetasemel kulud. Siiski, stsenaariumites, kus on lubatud segatarneviisid, soovivad ettevõtted veenduda, et arvutatud kulud põhinevad tarneviisi vastavusel, mis on määratletud igal müügitellimuse real.
 
@@ -72,7 +72,7 @@ Kõnekeskuses luuakse müügitellimus ja tarneviisiks määratakse **99**. See t
 
 Selles stsenaariumis hinnatakse kogu tellimust tarneviisi **99** automaatse kulu tabeli suhtes. Kõigi müügiridade kogusummat kasutatakse automaatse kulu konfiguratsioonis vastava järgu määramiseks ja see tasu rakendatakse tellimuse päisetasemel. Selles näites on tellimuse kogusumma $165,00 ja tellimuse päisele rakendatakse veokulu $15,00. Automaatsetele kuludele, mis konfigureeritakse tarneviisile **11**, ei viidata ja neid ei rakendata kunagi.
 
-Selles stsenaariumis, kui klient tagastab mõned tellimuse kaubad ja kui [tasukood on konfigureeritud nii, et see makstakse tagasi](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), rakendatakse tagasimaksele süstemaatiliselt päisetaseme kulude kogusumma, isegi kui tagastatakse ainult mõned kaubad.
+Selles stsenaariumis, kui klient tagastab mõned tellimuse kaubad ja kui [tasukood on konfigureeritud nii, et see makstakse tagasi](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), rakendatakse tagasimaksele süstemaatiliselt päisetaseme kulude kogusumma, isegi kui tagastatakse ainult mõned kaubad.
 
 ### <a name="scenario-2"></a>2. stsenaarium
 

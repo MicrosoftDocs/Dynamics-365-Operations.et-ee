@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a559bdc8f7851e38274d9d23070f969502942ad8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 68355cb481de210a4a3bdb9e2fce16eca429e3db
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835866"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016051"
 ---
-# <a name="service-object-groups"></a>Hooldusobjekti grupid 
+# <a name="service-object-groups"></a>Hooldusobjekti grupid
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,17 +32,17 @@ Objektigrupid on kasulikud objektide kohta käivate andmete sortimiseks ja filtr
 
 Saate kasutada seda grupeerimismeetodit, et näidata, kus asuvad erinevad objektid, mida teie ettevõte teenindab. Objektide grupeerimine geograafilise asukoha järgi võib olla kasulik ka siis, kui peate näiteks tuvastama objektid, millele juba selles konkreetses riigis/regioonis hooldust osutate.
 
-## <a name="example"></a>Näide
+## <a name="example-of-grouping-by-geographical-location"></a>Näide grupeerimise kohta geograafilise asukoha järgi
 
-Klient Belgiast helistab teie teeninduskeskusesse ja soovib luua hooldusleppe objektile ABC. Olete lisanud geograafilise asukoha objektigrupi, Belgia, kõigile Belgias teenindavatele objektidele. Kasutades seda gruppi filtrina, saate kiiresti otsida, et näha, kas ABC on kirjena teie rakenduses juba olemas või peate seadistama uue objekti. 
+Klient Belgiast helistab teie teeninduskeskusesse ja soovib luua hooldusleppe objektile ABC. Olete lisanud geograafilise asukoha objektigrupi, Belgia, kõigile Belgias teenindavatele objektidele. Kasutades seda gruppi filtrina, saate kiiresti otsida, et näha, kas ABC on kirjena teie rakenduses juba olemas või peate seadistama uue objekti.
 
 ## <a name="group-by-type"></a>Grupeeri tüübi järgi
 
 Saate kasutada seda grupeerimismeetodit, et näidata, millist tüüpi objektidele teie ettevõtte hooldust osutab. Objektide grupeerimine tüübi järgi võib olla kasulik ka siis, kui soovite näiteks luua uue objekti, mis põhineb sarnastel, programmis olemasolevatel objektidel.
 
-## <a name="example"></a>Näide
+## <a name="example-of-grouping-by-type"></a>Grupeerimise näide tüübi järgi
 
-Klient helistab ja soovib sõlmida hooldusleppe õhukonditsioneeri, HIJ, kohta. Teil ei ole selle masina kohta veel kirjet. Küll aga olete seadistanud objektigrupi nimega Õhukonditsioneerid ja olete lisanud selle grupi kõigile õhukonditsioneer-objektidele. Seega saate kiiresti otsida ja tuvastada kõik muud õhukonditsioneer-masinad ja kasutada nende objektide malliteavet, et HIJ-ile hooldusleppe ridasid luua. Kasutades objektigruppe sel viisil saate kiiresti uusi objekte seadistada ja määrata, milliseid hooldustöid nende puhul teostada. 
+Klient helistab ja soovib sõlmida hooldusleppe õhukonditsioneeri, HIJ, kohta. Teil ei ole selle masina kohta veel kirjet. Küll aga olete seadistanud objektigrupi nimega Õhukonditsioneerid ja olete lisanud selle grupi kõigile õhukonditsioneer-objektidele. Seega saate kiiresti otsida ja tuvastada kõik muud õhukonditsioneer-masinad ja kasutada nende objektide malliteavet, et HIJ-ile hooldusleppe ridasid luua. Kasutades objektigruppe sel viisil saate kiiresti uusi objekte seadistada ja määrata, milliseid hooldustöid nende puhul teostada.
 
 ## <a name="create-service-object-groups"></a>Hooldusobjektide gruppide loomine
 

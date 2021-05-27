@@ -2,11 +2,9 @@
 title: Dynamics 365 Commerce ja Microsoft Teams integratsiooni lubamine
 description: See teema kirjeldab, kuidas lubada Microsoft Dynamics 365 Commerce ja Microsoft Teams integratsiooni.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908391"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019831"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Dynamics 365 Commerce ja Microsoft Teams integratsiooni lubamine
 
@@ -39,9 +37,9 @@ Enne, kui saate Microsoft Teams integratsiooni Commerce'iga lubada, peate regist
 
 Teamsi rakenduse registreerimiseks oma rentnikuga Azure'i portaalis järgige järgmisi samme.
 
-1. Järgige samme jaotises [Kiirstart: rakenduse registreerimine Microsofti identiteediplatvormis](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app), et registreerida Teamsi rakendus oma rentnikuga Azure'i portaalis.
+1. Järgige samme jaotises [Kiirstart: rakenduse registreerimine Microsofti identiteediplatvormis](/azure/active-directory/develop/quickstart-register-app), et registreerida Teamsi rakendus oma rentnikuga Azure'i portaalis.
 1. Kopeerige **Rakenduse (kliendi) ID** väärtus registreeritud rakenduse lehel **Ülevaade**. Kasutate seda väärtust Teamsi integreerimise lubamiseks Commerce peakeskuses.
-1. Kopeerige tunnistuse väärtus, mis [lisati tunnistusele](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) etapis 1. Tunnistust nimetatakse ka avalikuks võtmeks või rakenduse võtmeks. Kasutate seda väärtust Teamsi integreerimise lubamiseks Commerce peakeskuses.
+1. Kopeerige tunnistuse väärtus, mis [lisati tunnistusele](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) etapis 1. Tunnistust nimetatakse ka avalikuks võtmeks või rakenduse võtmeks. Kasutate seda väärtust Teamsi integreerimise lubamiseks Commerce peakeskuses.
 
 Commerce'i peakeskuses Teamsi integratsiooni lubamiseks toimige järgmiselt.
 

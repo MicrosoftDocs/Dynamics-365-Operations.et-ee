@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 8d4381c64b69f8b62dcb509407c4f04dcee696ae
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792795"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022832"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
@@ -151,7 +151,7 @@ Commerce'i esitatud Azure'i sisenemispunkti eksemplar ei toeta tippdomeene (juur
 
   [Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md)
 
-  [Võrgupoe kanali häälestamine](online-stores.md)
+  [Võrgupoe kanali häälestamine](./channel-setup-online.md)
 
   [E-kaubanduse saidi loomine](create-ecommerce-site.md)
 

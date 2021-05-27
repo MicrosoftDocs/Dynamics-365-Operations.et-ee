@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dceb179d0a17d8025d88c5945b9571de65c86449
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838606"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015873"
 ---
 # <a name="maintenance-requests"></a>Puudumistaotluste loomine
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Hooldustaotlused on märkmed või avaldused, mis on loodud teavitama haldurit või plaanijat, et vara võib vajada hooldust või parandustööd, kuid ilma töötellimust loomata. Kui hooldustaotluse sisu loetakse kehtivaks, saab töötellimuse seejärel hooldustaotluse põhjal luua.
 

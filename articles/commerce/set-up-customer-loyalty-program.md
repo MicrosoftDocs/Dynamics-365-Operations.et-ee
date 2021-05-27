@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 25f02517bf333716bdb7c74ce1decebcd4e30c6d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a1ee19a052c4a64995e6fcaa4afbe04b3e95fa55
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801887"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027548"
 ---
 # <a name="loyalty-overview"></a>Püsikliendi ülevaade
 
@@ -78,7 +78,7 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
 - Osana boonusskeemist saavad jaemüüjad luua erinevaid teenimis- ja lunastamisreegleid püsikliendijärkude järgi, et eristada ei järkude klientide preemiaid. Jaemüüjad saavad ka osana teenimis- ja lunastamisreeglitest kaasata alluvused, et teatud kliendigrupp saaks olla olemasolavate järkude osa, kuid neid premeeritakse siiski teisiti. See väldib vajadust täiendavate järkude loomiseks.
     
     > [!NOTE]
-    > Boonusskeemi teenimisreeglid on täiendavad. Näiteks kui loote reegli, et premeerida kullajärgu klienti 10 punktiga iga USA dollari eest ning loote ka reegli premeerida iga "veterani" staatusega klienti 5 punktiga iga USA dollari, siis veteran, kes on ka kullajärgu klient, teeniks iga 1 USA dollari eesti 15 punkti, kuna see klient kvalifitseerub mõlemale reeglile. Kuid kui veteran-klient ei ole küllajärgu liige, teenib ta iga dollari eest 5 punkti. Kanalites muudatuste kajastamiseks käivitage **Boonusskeemide töötlemise** ja **1050** (püsikliendi teabe) tööd.
+    > Boonusskeemi teenimisreeglid on täiendavad. Näiteks kui loote reegli, et premeerida kullajärgu klienti 10 punktiga iga USA dollari eest ning loote ka reegli premeerida iga "veterani" staatusega klienti 5 punktiga iga USA dollari, siis veteran, kes on ka kullajärgu klient, teeniks iga 1 USA dollari eesti 15 punkti, kuna see klient kvalifitseerub mõlemale reeglile. Kuid kui veteran-klient ei ole kullajärgu liige, teenib ta iga dollari eest 5 punkti. Kanalites muudatuste kajastamiseks käivitage **Boonusskeemide töötlemise** ja **1050** (püsikliendi teabe) tööd.
     
     ![Alluvusel põhinev teenimine](./media/Affiliation-based-earning.png "Alluvusel põhinevad teenimised")
 
@@ -142,7 +142,7 @@ Lisaks saavad jaemüüjad määratleda maksimaalse püsikliendiprogrammi preemia
     > Praegu sunnib süsteem kasutajaid seadistama muude tegevusetüüpide kohta numbriseeria, kuid see pole tulevastes väljaannetes vajalik etapp. Numbriseeria seadistamiseks minge jaotisse **Kaubanduse ühisparameetrid** \> **Numbriseeriad** ja valige numbriseeria suvandile **Püsikliendi muu tegevusetüübi ID**.
 
 - Hea klienditeeninduse pakkumiseks ja kliendipäringute tõhusaks lahendamiseks peab kassapidajatel olema juurdepääs kliendi täielikule profiilile. Väljaandes 10.0 saavad kassapidajad näha kassas püsikliendi ajaloolisi üksikasju koos seostatud püsikliendiprogrammi ja järguteabega.
-- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks võtsime väljaandes 10.0 kasutusele uut tüüpi kampaania nimega Saatmisläve allahindlus, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele. Näiteks tuleb kõigil püsiklientidel kulutada 35 eurot kahepäevase tarne või tasuta kahepäevase tarne saamiseks. See funktsioon mõjutab uut täpsemate automaatsete kulude võimalust. Vaadake [täpsemate automaatsete kulude dokumentatsiooni](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges). Täpsemad automaatsed kulud tuleb lubada tarnimiskampaaniate toimimiseks. Need saab lubada lehe **Kaubanduse parameetrid** vahekaardil **Kliendi tellimused**, kui sisse lülitada konfiguratsioon Kasuta täpsemaid automaatseid kulusid. Kuna jaemüüja saab seadistada mitut tüüpi tasusid, nt käsitlemise või paigaldamise eest, peab ta määrama, millist tasu peetakse saatekuluks. Saatmise allahindlused kohalduvad ainult saatekulule. Tasu määramiseks saatekuluna liikuge vormile **Kulukoodid**, mille leiate jaotisest **Jaemüük ja kaubandus** \> **Jaemüügi ja kaubanduse IT** \> **Kanali seadistus** \> **Kulud** ja märkige soovitud kulude jaoks märkeruut Saatmistasu. Nüüd saate liikuda vormile **Saatmise läve allahindlus** ja määrata allahindluse.
+- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks võtsime väljaandes 10.0 kasutusele uut tüüpi kampaania nimega Saatmisläve allahindlus, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele. Näiteks tuleb kõigil püsiklientidel kulutada 35 eurot kahepäevase tarne või tasuta kahepäevase tarne saamiseks. See funktsioon mõjutab uut täpsemate automaatsete kulude võimalust. Vaadake [täpsemate automaatsete kulude dokumentatsiooni](/dynamics365/unified-operations/retail/omni-auto-charges). Täpsemad automaatsed kulud tuleb lubada tarnimiskampaaniate toimimiseks. Need saab lubada lehe **Kaubanduse parameetrid** vahekaardil **Kliendi tellimused**, kui sisse lülitada konfiguratsioon Kasuta täpsemaid automaatseid kulusid. Kuna jaemüüja saab seadistada mitut tüüpi tasusid, nt käsitlemise või paigaldamise eest, peab ta määrama, millist tasu peetakse saatekuluks. Saatmise allahindlused kohalduvad ainult saatekulule. Tasu määramiseks saatekuluna liikuge vormile **Kulukoodid**, mille leiate jaotisest **Jaemüük ja kaubandus** \> **Jaemüügi ja kaubanduse IT** \> **Kanali seadistus** \> **Kulud** ja märkige soovitud kulude jaoks märkeruut Saatmistasu. Nüüd saate liikuda vormile **Saatmise läve allahindlus** ja määrata allahindluse.
 
     Nagu ka toodete allahindlused, arvestab see allahindlus kõiki olemasolevaid tavalisi allahindlusvõimalusi, näiteks lubamine jaemüüjal piirata neid allahindlusi kupongidega, nii et allahindlusi saavad ainult kupongidega kliendid. Samuti kasutavad need allahindlused hinnagruppide võimalust määrata sobilikkust neile allahindlustele. Näiteks saab jaemüüja käivitada need soodustused ainult veebikanalites ja/või teatud kliendigruppide, näiteks püsiklientide, kanalites. Kui määratud tarneviisiga tellimuseread vastavad määratletud lävele, kohaldub saatmisele allahindlus ja vähendab saatekulu seadistatud allahindluse põhjal. 
 

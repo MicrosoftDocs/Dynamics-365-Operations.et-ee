@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793991"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018576"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -30,7 +30,7 @@ Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) 
 Dynamics 365 Commerce kasutab Azure AD B2C'd kasutaja mandaadi ja autentimise voogude toetamiseks. Kasutaja saab nende voogude kaudu registreeruda, sisse logida ja lähtestada parooli. Azure AD B2C talletab kasutaja tundliku autentimisteabe, nt kasutajanime ja parooli. B2C rentniku kasutajakirje salvestab kas kohaliku B2C kontokirje või B2C sotsiaalse identiteedi pakkuja kirje. Need B2C kirjed lingitakse Commerce'i keskkonna kliendikirjetega.
 
 > [!WARNING] 
-> Azure AD B2C kustutab vana (pärand) kasutajavood 1. augustiks 2021. Seetõttu peaksite plaanima oma kasutajavood migreerida uude soovitatud versiooni. Uus versioon pakub funktsioonide pariteeti ja uusi funktsioone. Commerce version 10.0.15 või uuema versiooni mooduliteeki tuleb kasutada soovitatud B2C kasutajavoogudega. Lisateabe saamiseks vt [Azure Active Directory B2C kasutajavoog](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C kustutab vana (pärand) kasutajavood 1. augustiks 2021. Seetõttu peaksite plaanima oma kasutajavood migreerida uude soovitatud versiooni. Uus versioon pakub funktsioonide pariteeti ja uusi funktsioone. Commerce version 10.0.15 või uuema versiooni mooduliteeki tuleb kasutada soovitatud B2C kasutajavoogudega. Lisateabe saamiseks vt [Azure Active Directory B2C kasutajavoog](/azure/active-directory-b2c/user-flow-overview).
  
  > [!NOTE]
  > Commerce'i hindamiskeskkonnad on eellaaditud Azure AD B2C rentnikuga demo eesmärgil. Oma Azure AD B2C rentniku laadimine alltoodud juhiste alusel ei ole hindamiskeskkondade jaoks vajalik.
@@ -88,7 +88,7 @@ B2C rakenduse loomiseks toimige järgmiselt.
 1. Valige valiku **Vaikimisi hüvitis** all nii **Juurdepääsutookenid** kui ka **ID tookenid** nende lubamiseks rakenduses. Valige käsk **Salvesta**.
 1. Minge Azure'i portaali menüüsse **Ülevaade** ja kopeerige **Rakenduse (kliendi) ID**. Pange see ID hilisemate seadistusetappide jaoks üles (mida hiljem viidatakse kui **Kliendi GUID**).
 
-Täiendavat viidet rakenduse registreerimiste kohta Azure AD B2C-s vt [Uue rakenduse registreerimiste kogemust Azure Active Directory B2C-ga](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
+Täiendavat viidet rakenduse registreerimiste kohta Azure AD B2C-s vt [Uue rakenduse registreerimiste kogemust Azure Active Directory B2C-ga](/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>Vastuse URL-id
 
@@ -110,7 +110,7 @@ Azure AD B2C pakub kolme peamist kasutajavoo tüüpi.
 
 Saate valida, kas soovite kasutada Azure AD pakutavaid vaikimisi kasutajavooge, mis kuvavad AAD B2C poolt hallatavat lehekülge. Saate ka luua HTML-lehe, et juhtida nende kasutajavoo kogemuste välimust ja olemust. 
 
-Kasutajapoliitika lehtede kohandamiseks Dynamics 365 Commerce'is ehitatud lehtedega vaadake teemat [Kohandatud lehtede häälestamine kasutaja sisselogimisteks](custom-pages-user-logins.md). Lisateavet leiate teemast [Azure Active Directory B2C kasutuskogemuse liidese kohandamine](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Kasutajapoliitika lehtede kohandamiseks Dynamics 365 Commerce'is ehitatud lehtedega vaadake teemat [Kohandatud lehtede häälestamine kasutaja sisselogimisteks](custom-pages-user-logins.md). Lisateavet leiate teemast [Azure Active Directory B2C kasutuskogemuse liidese kohandamine](/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Registreerumise ja sisselogimise kasutajavoo poliitika loomine
 
@@ -197,15 +197,15 @@ Kui on sotsiaalse identiteedipakkuja autentimine lisatakse ja kasutaja valib üh
 
 Enne autentimiseks sotsiaalse identiteedipakkuja lisamist, peate pöörduma identiteedipakkuja portaali poole ja häälestama identiteedipakkuja rakenduse Azure AD B2C dokumentatsioonis kirjeldatud juhiste järgi. Allpool on esitatud linkide loend dokumentidele juurde pääsemiseks.
 
-- [Amazon](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
-- [Azure AD (Üksik rentnik)](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
-- [Microsofti konto](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
-- [Facebook](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
-- [GitHub](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
-- [Google](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
-- [LinkedIn](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
-- [OpenID Connect](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
-- [Twitter](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
+- [Amazon](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
+- [Azure AD (Üksik rentnik)](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
+- [Microsofti konto](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [Facebook](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+- [GitHub](/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
+- [Google](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
+- [LinkedIn](/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
+- [OpenID Connect](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
+- [Twitter](/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
 
 ### <a name="add-and-set-up-a-social-identity-provider"></a>Sotsiaalse identiteedipakkuja lisamine ja seadistamine
 
@@ -346,11 +346,11 @@ B2C rakenduse seostamiseks teie saidi ja kanaliga toimige järgnevalt.
 
 Kui soovite migreerida kliendikirjeid eelmisest identiteedipakkuja platvormist, siis tehke koostööd Dynamics 365 Commerce meeskonnaga oma klientide migratsiooni vajaduste ülevaatamiseks.
 
-Täiendava Azure AD B2C dokumentatsiooni hankimiseks klientide migratsiooni kohta vaadake teemat [Kasutajate migreerimine Azure Active Directory B2C-sse](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-user-migration).
+Täiendava Azure AD B2C dokumentatsiooni hankimiseks klientide migratsiooni kohta vaadake teemat [Kasutajate migreerimine Azure Active Directory B2C-sse](/azure/active-directory-b2c/active-directory-b2c-user-migration).
 
 ### <a name="custom-policies"></a>Kohandatud poliitikad
 
-Täiendava teabe saamiseks Azure AD B2C suhtlus- ja poliitikavoogude kohandamise kohta, mis ei kuulu B2C standardpoliitikasse, vaadake teemat [Kohandatud poliitikad Azure Active Directory B2C-s](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
+Täiendava teabe saamiseks Azure AD B2C suhtlus- ja poliitikavoogude kohandamise kohta, mis ei kuulu B2C standardpoliitikasse, vaadake teemat [Kohandatud poliitikad Azure Active Directory B2C-s](/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
 
 ### <a name="secondary-admin"></a>Teisene administraator
 

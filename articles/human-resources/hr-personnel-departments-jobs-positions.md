@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803581"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027886"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Tööjõu korraldamine osakondade, tööde ja ametikohtade abil
 
@@ -120,7 +120,7 @@ Kui määrate töötaja ametikohale, täidate selle ametikoha. Saate määrata t
 
 Ametikohad on organisatsioonihierarhia madalama taseme olulised elemendid. Vormil Ametikoht saate määrata ametikoha, millele see ametikoht aru annab. Kui määrate töötaja ametikohale, mis annab aru teisele ametikohale, loote neile kahele ametikohale määratud töötajate vahel aruandlusseose. Näiteks annab ametikoht „raamatupidaja A” aru ametikohale „raamatupidamise ülevaataja”. Kim Akers on määratud ametikohale „raamatupidamise ülevaataja” ja Sanjay Patel ametikohale „raamatupidaja A”. See tähendab, et Sanjay Patel annab aru Kim Akersile. 
 
-Kui teie organisatsioon kasutab maatrikshierarhiat või mõnd muud kohandatud hierarhiat, saate seadistada ametikohahierarhia tüübid ja seejärel lisada iga seadistatud hierarhiatüübi puhul aruandlusseosed ametikohtadele. Näiteks on Lori Penor Adventure Worksi üldjuhataja ja määratud ametikohale „üldjuht”. Lori haldab tööriistade puhastamiseks kasutatava toote arendust. Lori palub, et raamatupidaja aitaks teda toote arendusfinantsidega. Seetõttu palkas ta Sanjay Pateli oma raamatupidajaks. Sanjay annab aru otse Kim Akersile, kuid ta töötab ka Lori Penorile seoses tööriistapuhasti arendusfinantsidega. 
+Kui teie organisatsioon kasutab maatrikshierarhiat või mõnd muud kohandatud hierarhiat, saate seadistada ametikohahierarhia tüübid ja seejärel lisada iga seadistatud hierarhiatüübi puhul aruandlusseosed ametikohtadele. Näiteks on Lori Penor Adventure Worksi üldjuhataja ja määratud ametikohale „üldjuht”. Lori haldab tööriistade puhastamiseks kasutatava toote arendust. Lori palub, et raamatupidaja aitaks teda toote arendusel finantsidega. Seetõttu palkaski ta Sanjay Pateli oma raamatupidajaks. Sanjay annab aru otse Kim Akersile, kuid ta töötab ka Lori Penorile seoses tööriistapuhasti arendusfinantsidega. 
 
 Eelmise näite puhul peate täitma järgmised ülesanded, et seadistada tööseos Sanjay Pateli ja Lori Penori vahel.
 1.  Looge kohandatud ametikohahierarhia tüüp nimega Tööriist, et luua hierarhia, mis sisaldab tööriistapuhastustootega seotud tööde eest vastutatavaid ametikohti.

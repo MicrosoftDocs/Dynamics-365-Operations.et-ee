@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808660"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016128"
 ---
 # <a name="cost-and-date-control"></a>Kulu ja kuupäeva juhtelementi
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-Varahalduses saate kulusid arvutada, et saada ülevaade tegelikest kuludest võrreldes varade, töö asukohtade ja töökäskude eelarvekuludega. Tegelikud kulud põhinevad sisestatud kannetel. 
+Varahalduses saate kulusid arvutada, et saada ülevaade tegelikest kuludest võrreldes varade, töö asukohtade ja töökäskude eelarvekuludega. Tegelikud kulud põhinevad sisestatud kannetel.
 
 Samuti saate teha kuupäeva arvutuse, kui soovite võrrelda plaanitud algus- ja lõppkuupäevasid töökäskude tegelike algus- ja lõppkuupäevadega.
 
@@ -46,8 +44,8 @@ Varade, funktsionaalsete asukohtade ja töökäskude kohta tehtud arvutused on p
 
 5. Saate kasutada välja **Tase**, et näidata, kui üksikasjalikult soovite, et kulujuhtimise read oleksid seotud töö asukohtadega. 
 
-    Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha hierarhia, kuvatakse ülemisel tasemel kõik töö asukoha kulu juhtelemendi read ning seetõttu võivad tunnid real olla lisatud ülespoole töö asukohtades, mis asuvad madalamal tasemel. 
-    
+    Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha hierarhia, kuvatakse ülemisel tasemel kõik töö asukoha kulu juhtelemendi read ning seetõttu võivad tunnid real olla lisatud ülespoole töö asukohtades, mis asuvad madalamal tasemel.
+
     Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki kulu juhtelemendi ridu kõigi töö asukoha tasemete kohta, millega nad on seotud.
 
 6. Valige "Jah" tumblernupul **Kuva avatud kooskõlastatud kulu**, kui soovite seda tulpa arvutusse kaasata.
@@ -64,7 +62,7 @@ Varade, funktsionaalsete asukohtade ja töökäskude kohta tehtud arvutused on p
 
 10. Klõpsale lehe **Vara kulu juhtimine** jaotise **Grupeerimisalus** nuppe, et näidata arvutuse nõutavat üksikasjalikku taset. Valitud nupud **Rühmitusalus** on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
-## <a name="example"></a>Näide
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Näide arvutustulemustest varakulude kontrollimisel
 
 Alloleval kuvatõmmisel kuvatakse näidet arvutuse tulemustest dialoogiboksis **Vara kulu juhtimine**.
 
@@ -76,7 +74,6 @@ Alloleval kuvatõmmisel kuvatakse näidet arvutuse tulemustest dialoogiboksis **
 ![Arvutustulemuste näide lehel vara kulu juhtimine](media/02-controlling-and-reporting.png)
 
 Teine viis kulu juhtelemendi loomiseks on teha mitmikvalik varadele suvandis **Kõik varad** või **Aktiivsed varad**. Seejärel klõpsake nupule **Kulu juhtelement** vahekaardil **Üldine**. Dialoogiboksis **Vara kulu juhtelement** valitud varad sisestatakse automaatselt väljale **Vara** vahekaardil **Kaasatavad kirjed**. Klõpsake **OK** ja kuvatakse kulu arvutus valitud varade kohta. Sama protseduuri saab teha funktsionaalsete asukohtade puhul väljades **Kõik funktsionaalsed asukohad** või **Aktiivsed funktsionaalsed asukohad** ja ktöökäskude puhul väljades **Kõik töökäsud** või **Aktiivsed töökäsud**.
-
 
 ## <a name="work-order-date-control"></a>Töökäsu kuupäevajuhtimine
 
@@ -94,7 +91,7 @@ Kasutage seda lehte, kui soovite saata ülevaate oodatavatest algus- ja lõppkuu
 
 6. Valige nupud **Rühmitusalus**, et vaadata arvutuse soovitud üksikasja taset. Valitud nupud **Rühmitusalus** on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
-## <a name="example"></a>Näide
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Näide arvutustulemustest töökorralduse kuupäevakontrollis
 
 Alloleval kuvatõmmisel kuvatakse näide arvutustulemuste kohta dialoogiboksis **Töökäsu kuupäeva juhtimine**.
 

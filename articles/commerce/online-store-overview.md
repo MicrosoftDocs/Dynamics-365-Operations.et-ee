@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791074"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022468"
 ---
 # <a name="e-commerce-site-overview"></a>E-kaubanduse saidi ülevaade
 
@@ -37,11 +37,11 @@ Teenuses Dynamics 365 Commerce kasutate võrgupoe kanalit toodete, hindade, keel
 
 Enne teenuse Dynamics 365 Commerce kasutamise alustamist peab olema seadistatud ainult üks võrgupoe kanal. Samas võib üks e-kaubanduse sait pakkuda mitme võrgupoe võrgukogemust. Näiteks kui erinevate geograafiliste piirkondade toetamiseks on seadistatud mitu võrgupoodi, saab kasutada ühte e-kaubanduse lehtede komplekti, et pakkuda iga poe poolt määratletud ainulaadset kogemust. Lisateavet selle kohta, kuidas konfigureerida saiti mitme e-poe toetamiseks, leiate teemast [Veebisaidi seostamine kanaliga](associate-site-online-store.md).
 
-Pärast e-poe seadistamist saab selle seostada teenuse Dynamics 365 Commerce saidiga, mis esitatakse teie e-poe fassaadina. Lisateavet e-poodide ja nende seadistamise kohta leiate teemast [E-poodide seadistamine](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Pärast e-poe seadistamist saab selle seostada teenuse Dynamics 365 Commerce saidiga, mis esitatakse teie e-poe fassaadina. Lisateavet e-poodide ja nende seadistamise kohta leiate teemast [E-poodide seadistamine](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Uue e-kaubanduse rentniku juurutamine
 
-E-kaubanduse saidi lähtestamisel küsitakse teilt domeeninime. Lisateavet Domeenide kohta Commerce'is leiate teemast [Domeeninime](configure-your-domain-name.md) ja domeenide konfigureerimine [rakenduses Dynamics 365 Commerce](domains-commerce.md). Uue e-kaubanduse rentniku juurutamiseks [Microsoft Dynamics Lifecycle Servicesi (LCS-i) abil](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) järgige teemas [Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md) toodud juhiseid. Pärast seda, kui teie e-kaubanduse rentnik on LCS-is häälestatud, antakse Commerce'i saidiehitaja link. Seejärel saate kasutada Commerce'i saidiehitajat oma e-kaubanduse saitide lähtestamiseks ja konfigureerimiseks.
+E-kaubanduse saidi lähtestamisel küsitakse teilt domeeninime. Lisateavet Domeenide kohta Commerce'is leiate teemast [Domeeninime](configure-your-domain-name.md) ja domeenide konfigureerimine [rakenduses Dynamics 365 Commerce](domains-commerce.md). Uue e-kaubanduse rentniku juurutamiseks [Microsoft Dynamics Lifecycle Servicesi (LCS-i) abil](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) järgige teemas [Uue e-kaubanduse rentniku juurutamine](deploy-ecommerce-site.md) toodud juhiseid. Pärast seda, kui teie e-kaubanduse rentnik on LCS-is häälestatud, antakse Commerce'i saidiehitaja link. Seejärel saate kasutada Commerce'i saidiehitajat oma e-kaubanduse saitide lähtestamiseks ja konfigureerimiseks.
 
 ## <a name="initialize-your-e-commerce-site"></a>E-kaubanduse saidi lähtestamine
 

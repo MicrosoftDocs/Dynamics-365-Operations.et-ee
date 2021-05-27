@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792263"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027959"
 ---
 # <a name="account-management-pages-overview"></a>Kontohalduse lehtede ülevaade
 
@@ -39,7 +39,7 @@ Järgnev illustratsioon näitab kontohalduse sihtlehe näidet.
 
 ### <a name="my-profile-page"></a>Leht Minu reeglid
 
-Lehel **Minu profiil** kuvatakse kliendi konto teave, nt tema nimi ja telefoninumber. Klient saab sellel lehel värskendada oma profiili teavet. Seda lehte saab kohandada nii, et see sisaldaks täiendavaid kliendi konto eelistusi, nagu suvand, mille abil saab valida turundusmeili.
+Lehel **Minu profiil** kuvatakse kliendi konto teave, nt tema nimi ja telefoninumber. Klient saab sellel lehel värskendada teavet oma profiilil. Seda lehte saab kohandada nii, et see sisaldaks täiendavaid kliendi konto eelistusi, nagu suvand, mille abil saab valida turundusmeili.
 
 Järgmisel joonisel on kujutatud lehe **Minu profiil** näide, mis loodi mooduliteegi abil.
 
@@ -55,7 +55,7 @@ Järgnev illustratsioon näitab lehe **Aadressid** näidet.
 
 ### <a name="order-history-and-order-details-pages"></a>Tellimuste ajalugu ja tellimuse üksikasjade lehed
 
-Lehel **Tellimuse ajalugu** kuvatakse kõigi tellimuste kokkuvõte, mille klient on oma kontoga esitanud. See annab kiire kokkuvõtte tellitud kaupadest, kinnituse numbrist, müügitehingute ID-st, jälgimisteabest ja muust teabest. Kui klient soovib vaadata iga tellimuse üksikasjalikumat jaotust, on selleks leht **Tellimuse üksikasjad**. See lehekülg sisaldab teavet, nagu kättetoimetamise aadress, makseteave, allahindlused, maksud ja postikulud tellimuse jaoks.
+Lehel **Tellimuse ajalugu** kuvatakse kõigi tellimuste kokkuvõte, mille klient on oma kontolt esitanud. See annab kiire kokkuvõtte tellitud kaupadest, kinnituse numbrist, müügitehingute ID-st, jälgimisteabest ja muust teabest. Kui klient soovib vaadata iga tellimuse üksikasjalikumat jaotust, on selleks leht **Tellimuse üksikasjad**. See lehekülg sisaldab teavet, nagu kättetoimetamise aadress, makseteave, allahindlused, maksud ja postikulud tellimuse jaoks.
 
 Järgnev illustratsioon näitab lehe **Tellimuse ajalugu** näidet.
 

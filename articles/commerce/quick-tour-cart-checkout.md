@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792239"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027935"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Ostukorvi ja väljaregistreerimise ülevaade
 
@@ -83,7 +83,7 @@ Klient saab lõpetada väljeregistreerimise protsessi külaliskasutajana või si
 
 ### <a name="order-summary"></a>Tellimuse kokkuvõte
 
-Kassas kuvatakse ostukorvis reaüksuste kokkuvõte, nii et klient saab tellimuse kinnitada, enne kui ta selle esitab. Reaüksuseid ei saa kassa voo ajal redigeerida. Siiski on olemas linki ostukorvi, juhul kui kasutaja soovib tagasi minna ja reaüksusi redigeerida.
+Kassas kuvatakse ostukorvis reaüksuste kokkuvõte, nii et klient saab tellimuse enne esitamist kinnitada. Reaüksuseid ei saa kassa voo ajal redigeerida. Siiski on olemas linki ostukorvi, juhul kui kasutaja soovib tagasi minna ja reaüksusi redigeerida.
 
 Pärast seda, kui klient annab tarne- ja arvelduse teabe, peegeldab tellimuse kokkuvõte summat, mis on tasutud pärast boonuspunktide, kinkekaartide ja muude maksete rakendamist.
 

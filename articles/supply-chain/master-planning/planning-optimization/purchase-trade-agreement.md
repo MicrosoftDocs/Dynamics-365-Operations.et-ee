@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961701"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015897"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Koondplaneerimine ostulepingutega
 
@@ -67,7 +67,7 @@ Pärast seda, kui teie süsteem on eelmises jaotises kirjeldatu kohaselt ette va
 1. Korrake seda toimingut iga asjakohase toote puhul.
 
 > [!NOTE]
-> Planeerimise optimeerimine toetab mitme valuutaga ostu-müügilepinguid. Kui otsite ostu-müügilepingut **Madalaima ühiku hinna** suvandi abil, arvestab süsteem arvestab erinevate valuutadega ostu-müügilepingute ridu tingimusel, et ostu-müügilepingu rea valuuta ja juriidilise isiku arvestusvaluuta vahel on kindlaks määratud vahetuskurss. Vastasel juhul eiratakse ostu-müügilepingu rida ja üldplaneerimisel kuvatakse tõrketeade. Seetõttu sisaldab üldplaneerimine teavet kõigilt asjakohastelt ostu-müügilepingutelt, kus saab hindu arvestusvaluutasse ümber arvutada.
+> Planeerimise optimeerimine toetab mitme valuutaga ostu-müügilepinguid. Kui otsite ostu-müügilepingut **Madalaima ühiku hinna** suvandi abil, arvestab süsteem arvestab erinevate valuutadega ostu-müügilepingute ridu tingimusel, et ostu-müügilepingu rea valuuta ja juriidilise isiku arvestusvaluuta vahel on kindlaks määratud vahetuskurss. Vastasel juhul eiratakse ostu-müügilepingu rida ja üldplaneerimisel kuvatakse tõrketeade. Seetõttu sisaldab üldplaneerimine teavet kõigilt asjakohastelt ostu-müügilepingutelt, kus saab hindu arvestusvaluutasse ümber arvutada. Arvestage, et kaubanduslelepingu rea hinnateisenduses ümardamisreegleid ei arvestata.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Näited, kuidas planeerimise optimeerimisel tuvastatakse hankija ja täitmisajad
 

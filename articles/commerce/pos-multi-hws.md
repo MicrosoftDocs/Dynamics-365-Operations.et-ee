@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ad75430c606f959b17c887531fb62bd37caec624
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804303"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018629"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Sihtotstarbelised makseterminalid ja printeri ja sularahasahtli viibad
 
@@ -50,13 +50,13 @@ Selles teemas kirjeldatud funktsionaalsust toetavad kassa klientidele mõeldud r
 
 See funktsionaalsus toetab võrgutoega makseterminale ja kviitungiprintereid. Te võite pakkuda ka sularasahtli tuge, ühendades sularahasahtli d/k pordi kaudu võrgutoega kviitungiprinteriga.
 
-Valmiskujul funktsionaalsusele pakub tuge [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Teised makseterminalid võivad olla aga varustatud Commerce'i maksete jaoks mõeldud tarkvaraarenduse komplekti toega. Toetatavad kviitungiprinterid on näiteks Star Micronicsi ja Epsoni võrgutoega kviitungiprinterid.
+Valmiskujul funktsionaalsusele pakub tuge [Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md?tabs=8-1-3). Teised makseterminalid võivad olla aga varustatud Commerce'i maksete jaoks mõeldud tarkvaraarenduse komplekti toega. Toetatavad kviitungiprinterid on näiteks Star Micronicsi ja Epsoni võrgutoega kviitungiprinterid.
 
 Star Micronicsi kviitungiprinteri ülesseadmiseks kasutage seadme konfigureerimiseks Star Micronics printeri utiliiti, et seda saaks kasutada võrgus. Utiliit annab seadmele ka IP-aadressi.
 
 Epsoni printerite ülesseadmiseks kasutage Epson ePOS-Print utiliiti, et seadistada seade kasutama võrguprotokolle.
 
-Lisateavet võrguseadmete seadistamiseks vt teemast [Võrgu välistoe ülevaade](https://go.microsoft.com/fwlink/?linkid=2129965).
+Lisateavet võrguseadmete seadistamiseks vt teemast [Võrgu välistoe ülevaade](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Sihtotstarbelise makseterminali ja printeri ja sularahasahtli viiba seadistamine
 
@@ -73,11 +73,11 @@ Kassale määratud riistvaraprofiili seadistamiseks toimige järgmiselt.
 3. Määrake riistvaraprofiili number ja seejärel sisestage kirjeldus. See riistvaraprofiil lisatakse kassale endale. Seega piisab, kui panna kirjelduseks **Sihtotstarbeline koos varuga**.
 4. Seadistage erinevate seadmetüüpide kiirkaartidel järgmised seadmetüübid.
 
-    | Seade | Tüüp | Seadme nimi | Täiendavad üksikasjad |
+    | Seade | Tüüp | Seadme nimi | Lisaüksikasjad |
     |---|---|---|---|
-    | Printer | Taane | *Mõni* | Seadme nimi on tõstutundlik. **Kviitungiprofiili ID** peaks olema sama, mis kanali tasandil riistvarajaamale määratud riistvaraprofiilis seadistatud võrguprinteriga vastendatud **Kviitungiprofiili ID**. |
-    | Sularahasahtel | Taane | *Mõni* | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
-    | Elektroonilise ülekande (EFT) teenus | Adyen | Pole kohaldatav | Valmiskujul Adyeni konnektori seadistamise kohta lisateabe saamiseks vt teemat [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Teised makseterminalid võivad olla varustatud [Commerce'i maksete jaoks mõeldud tarkvara arenduse komplekti toega](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Printer | Võrk | *Mõni* | Seadme nimi on tõstutundlik. **Kviitungiprofiili ID** peaks olema sama, mis kanali tasandil riistvarajaamale määratud riistvaraprofiilis seadistatud võrguprinteriga vastendatud **Kviitungiprofiili ID**. |
+    | Sularahasahtel | Võrk | *Mõni* | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
+    | Elektroonilise ülekande (EFT) teenus | Adyen | Pole kohaldatav | Valmiskujul Adyeni konnektori seadistamise kohta lisateabe saamiseks vt teemat [Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md?tabs=8-1-3). Teised makseterminalid võivad olla varustatud [Commerce'i maksete jaoks mõeldud tarkvara arenduse komplekti toega](./dev-itpro/end-to-end-payment-extension.md). |
     | PIN-klahvistik | Võrk | **MicrosoftAdyenDeviceV001** | Puudub. |
 
 5. Leidke rakenduses Dynamics 365 Commerce suvand **Kassad**.
@@ -85,7 +85,7 @@ Kassale määratud riistvaraprofiili seadistamiseks toimige järgmiselt.
 7. Määrake kassale, mis peaks kasutama sihtotstarbelist makseterminali, äsja loodud riistvaraprofiil. Kassale vastendatud seade peab kasutama rakendust Modern POS Windowsile või rakendust Modern POS Androidile.
 8. Valige käsk **Salvesta**.
 9. Toimingupaanil vahekaardil **Kassad** valige suvand **Konfigureeri IP-aadressid**.
-10. Sisestage kiirkaardil **PIN-klahvistik** makseterminali IP-aadress. Lisateavet selle kohta, kuidas saada Adyen konnektori abil makseterminali IP-aadress, vt teemast [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. Sisestage kiirkaardil **PIN-klahvistik** makseterminali IP-aadress. Lisateavet selle kohta, kuidas saada Adyen konnektori abil makseterminali IP-aadress, vt teemast [Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. Valige käsk **Salvesta**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Kviitungiprinteri ja sularahasahtli riistvaraprofiili seadistamine
@@ -100,7 +100,7 @@ Võrgusisese kviitungiprinteri ja sularahasahtli grupeerimiseks kasutatava riist
     | Seade | Tüüp | Kirjeldus | Täiendavad üksikasjad |
     |---|---|---|---|
     | Printer | Võrk | **Epson** või **Star** | Seadme nimi on tõstutundlik. **Kviitungiprofiili ID** peaks olema sama, mis kassale määratud riistvaraprofiilis seadistatud võrguprinteriga vastendatud **Kviitungiprofiili ID**. |
-    | Sularahasahtel | Võrk | **Epson** või **Star** | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
+    | Sularahasahtel | Taane | **Epson** või **Star** | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
 
 5. Valige käsk **Salvesta**.
 
@@ -148,9 +148,9 @@ Kaupluse töötajad peavad valima riistvarajaama tehingu jooksul vaid ühe korra
 
 ## <a name="related-articles"></a>Seotud artiklid
 
-- [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Võrgu välistoe ülevaade](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md)
+- [Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Võrgu välistoe ülevaade](./dev-itpro/network-peripherals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

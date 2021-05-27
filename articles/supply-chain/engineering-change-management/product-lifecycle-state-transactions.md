@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842053"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016952"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Toote töötsükli olekud ja kanded
 
@@ -74,5 +74,24 @@ Kiirkaardil **Lubatud äriprotsessid** loetletud protsesside kohta on saadaval j
 
 Kui lisate kohandades veel töötsükli oleku reegleid, saate neid reegleid vaadata kasutajaliideses (UI), valides ülemisel paanil nupu **Värskenda protsessid**. Nupp **Värskenda protsessid** on saadaval ainult administraatoritele.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Välja lastud toodete ja tootevariantide elutsükli olekud
+
+Tootel, millel on variandid (põhi ja variandid), on tootel (põhi) elutsükli olek ja igal variandil võib olla ka erinev elutsükli olek.
+
+Kindlate protsesside puhul, kui variant või toode on blokeeritud, on protsess samuti blokeeritud. Et teha kindlaks, kas protsess on blokeeritud, kontrollib süsteem järgmist:
+
+- Tehnikakontrolliga toodete puhul:
+  - Kui praegune tehnika versioon on blokeeritud, blokeerige protsess.
+  - Kui praegune versioon on blokeeritud, blokeerige protsess.
+  - Kui praegune toote väljalase on blokeeritud, blokeerige protsess.
+- Standardtoodete puhul:
+  - Kui praegune versioon on blokeeritud, blokeerige protsess.
+  - Kui praegune toote väljalase on blokeeritud, blokeerige protsess.
+
+Oletame näiteks, et soovite müüa ainult ühe variandi (punane) antud tootest (t-särk) ja blokeerida kõigi teiste variantide müügi praegu. Võite seda rakendada, kasutades järgmist seadistust:
+
+- Määrake tootele elutsükli olek, mis lubab protsessi. Määrake näiteks t-särki toote elutsükli olekuks *Müüdav*, mis lubab *Müügitellimust* äriprotsessis.
+- Määrake müüdavale variandile protsessi võimaldav elutsükli olek. Määrake näiteks punasele variandile elutsükli olek *Müüdav*.
+- Kõigile muudele variantidele määratakse teine elutsükli olek, kus protsess on blokeeritud. Määrake näiteks valge variandi (ja kõik muud variandid) elutsükli olekuks *Pole müüdav*, mis blokeerib blokeerib *Müügitellimuse* äriprotsessi.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse teenusehaldusega alustamine
 description: Selles teemas selgitatakse, kuidas elektroonilise arveldusega alustada.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840144"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980971"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Elektroonilise arvelduse teenusehaldusega alustamine
 
@@ -33,10 +33,10 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 - Teil peab olema juurdepääs oma Microsoft Dynamicsi teenuse Lifecycle Services (LCS) kontole.
 - Teil peab olema LCS-projekt, mis hõlmab Microsofti teenuste Dynamics 365 Finance ja Dynamics 365 Supply Chain Management versiooni 10.0.17 või uuemat versiooni. Peale selle peavad need rakendused olema juurutatud ühes järgmistest Azure'i geograafilistest piirkondadest.
 
-    - Ida-USA
-    - Lääne-USA
-    - Põhja-EL
-    - Lääne-EL
+    - Ameerika Ühendriigid
+    - Euroopa
+    - Ühendkuningriik
+    - Aasia
 
 - Teil peab olema juurdepääs oma Dynamics 365 teenuse Regulatory Configuration Services (RCS) kontole.
 - Te peate mooduli Funktsioonihaldus kaudu oma RCS-i konto jaoks globaliseerimisfunktsiooni aktiveerima. Lisateavet vt teemast [Regulatory Configuration Services (RCS) – globaliseerimisfunktsioonid](rcs-globalization-feature.md).
@@ -46,11 +46,12 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 
 1. Logige oma LCS-i kontole sisse.
 2. Valige paan **Eelvaate funktsiooni haldamine**.
-3. Valige jaotises **Avaliku eelvaateversiooni funktsioonid** suvand **E-arvelduse teenus**.
+3. Valige **Avaliku eelvaate funktsioonid** jaotises suvand **E-arveldus**.
 4. Veenduge, et suvandi **Funktsiooni eelversioon on lubatud** väärtuseks oleks valitud **Jah**.
-5. Valige LCS-i armatuurlaudal oma LCS-i juurutusprojekt. LCS-projekt peab töötama.
-7. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
-8. Valige **e-arveldusteenused**.
+5. Valige LCS-i armatuurlaual oma LCS-i juurutusprojekt.
+6. LCS-i projekti LCS-i keskkonna armatuurlaudal valige oma LCS-i juurutusprojekt. LCS juurutusprojekt peab töötama.
+7. Valige **Power Platform Integratsioon** vahekaardil **Keskkonna lisandmoodulid** väljagrupis **Installi uus lisandmoodul**.
+8. Valige **Elektrooniline arveldamine**.
 9. Väljale **AAD-rakenduse ID** sisestage **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
 10. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
 11. Tingimustega nõustumiseks valige märkeruut.
@@ -65,10 +66,10 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 
     | Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Ida-USA                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Lääne-USA                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Põhja-EL                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Lääne-EL                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Ameerika Ühendriigid              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Euroopa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Ühendkuningriik             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Aasia                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. Veenduge, et välja **Rakenduse ID** väärtuseks oleks määratud **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. See väärtus ei muutu.
 5. Väljale **LCS-i keskkonna id** sisestage oma LCS-i keskkonna ID.
@@ -152,12 +153,12 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 1. Avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**.
 2. Sisestage vahekaardil **Edastusteenus** väljale **Teenuse lõpp-punkti URL** teie Azure'i geograafilise piirkonna jaoks sobiv teenuse lõpp-punkt, nagu järgmises tabelis näidatud.
 
-    | Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URL                                                       |
+    | Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URI                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Ida-USA                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Lääne-USA                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Põhja-EL                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Lääne-EL                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Ameerika Ühendriigid              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Euroopa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Ühendkuningriik             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Aasia                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Väljale **Keskkond** sisestage teenusekeskkonna nimi, mis on avaldatud Elektroonilises arvelduses.
 4. Valige **Salvesta** ja sulgege seejärel leht.
