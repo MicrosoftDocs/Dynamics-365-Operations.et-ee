@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827334"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028223"
 ---
 # <a name="position-forecasting"></a>Ametikoha prognoosimine
 
@@ -67,9 +67,9 @@ Jodi organisatsioon pakub koolitushüvitist, mis on 5% töötaja põhipalgast. J
 
 Jodi ei soovi, et haldurid soodustuse summat muudaksid. Seetõttu valib ta suvandi **Ära luba kulu muuta** väljal **Prognoositava ametikoha alistamine**. Organisatsioon soovib, et seda kulu määrataks iga kuu kohta võrdselt. Seetõttu valib Jodi suvandi **Kord kvartalis** väljal **Eraldamismeetod**. 
 
-järgmisena lisab Jodi kulu arvutamise rea, määrab kuupäevad ja põhikonto ning sisestab protsendiks **5,00**. Tema organisatsioonil on selle soodustuse jaoks aastas 5000 USA dollarit katet. Seetõttu sisestab Jodi selle summa aastalimiidiks. 
+järgmisena lisab Jodi kulu arvutamise rea, määrab kuupäevad ja põhikonto ning sisestab protsendiks **5,00**. Organisatsioonil on selle soodustuse ülemmääraks aastas 5000 USA dollarit. Seetõttu sisestab Jodi selle summa aastalimiidiks. 
 
-Lõpuks lisab Jodi kõik tulu kuluelemendid, mida kasutatakse põhipalga puhul arvutamise alusena. Tema eelarve kuluelement on nüüd kasutamiseks valmis.
+Lõpuks lisab Jodi kõik tulu kuluelemendid, mida kasutatakse põhipalga puhul arvutamise alusena. Eelarve kuluelement on nüüd kasutamiseks valmis.
 
 ### <a name="compensation-groups"></a>Hüvitusgrupid
 
@@ -137,7 +137,7 @@ Eelarve kuluelemendi read tuleb uuesti arvutada, kui prognoositava ametikoha puh
 
 **Näide** 
 
-Organisatsioon kaalub raamatupidaja ametikoha kulude vähendamiseks kahte võimalust. Üks võimalus on lõpetada amerikoht mingiks osaks aastast. Teine võimalus on muuta ametikoht kogu aastaks osalise tööajaga ametikohaks. Brad lõi põhistseanaariumis olemasolevale raamatupidaja ametikohale prognoositava ametikoha. Ta kopeerib selle põhilise prognoositava ametikoha stsenaariumisse A, määrab lõpetamise kuupäevaks 31. mai ja arvutab uuesti. Seejärel kopeerib Brad põhilise prognoositava ametikoha stsenaaiumisse B, muudab FTE väärtuseks **0,50** ja arvutab siis uuesti. Bradil on nüüd kolm versiooni, millest igaühel on kulude kogusummad, mis on tema võimalustega joondatud.
+Organisatsioon kaalub raamatupidaja ametikoha kulude vähendamiseks kahte võimalust. Üks võimalus on lõpetada amerikoht mingiks osaks aastast. Teine võimalus on muuta ametikoht kogu aastaks osalise tööajaga ametikohaks. Brad lõi põhistseanaariumis olemasolevale raamatupidaja ametikohale prognoositava ametikoha. Brad kopeerib selle põhilise prognoositava ametikoha stsenaariumisse A, määrab lõpetamise kuupäevaks 31. mai ja arvutab uuesti. Seejärel kopeerib Brad põhilise prognoositava ametikoha stsenaaiumisse B, muudab FTE väärtuseks **0,50** ja arvutab siis uuesti. Bradil on nüüd kolm versiooni, millest igaühel on kulude kogusummad, mis on tema võimalustega joondatud.
 
 #### <a name="assigning-a-compensation-group"></a>Hüvitusgrupi määramine
 

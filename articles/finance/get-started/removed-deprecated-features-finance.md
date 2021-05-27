@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965306"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980893"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Financei eemaldatud või aegunud funktsioonid
 
@@ -35,7 +35,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance'i väljalaskest 10.0.20 eemaldatud või aegunud funktsioonid
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR päringu arve andmetaotluse (HU) vormingu konfiguratsioon
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>"RTIR-päringu arve andmetaotluse (HU)" vormingu konfiguratsioon
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: 15. aprilliks 2022 ei kavatse me enam toetada vormingu "RTIR Päringuarve andmetaotlus (HU)" konfiguratsiooni. |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>"Prantsuse FEC auditi fail" Elektroonilise aruandluse (ER) vorming Prantsusmaa jaoks "Saksa auditfaili väljund" vorming
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Asendatud uue "FEC-auditi faili (FR)" vorminguga |
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Avaldus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Katkestatud: 1. maiks 2022 plaanime enam mitte toetada "Prantsusmaa FEC auditifaili" elektroonilise aruandluse (ER) vormingut Prantsuse "Saksa auditifaili väljund" vormingu all. Uus FEC auditifaili (FR) vorming tutvustatakse hoopis "Andme ekspordi mudeli" all. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Finance'i väljalaskest 10.0.17 eemaldatud või aegunud funktsioonid
 

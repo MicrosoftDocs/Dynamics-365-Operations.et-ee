@@ -84,7 +84,7 @@
               href: dev-tools/version-models-build.md
         - name: Andmete integratsioon
           items:
-            - name: Andmete integratsioonistrateegia (import/eksport) valimine
+            - name: Finance and Operationsi rakenduste ja kolmanda osapoole teenuste integreerimine
               href: data-entities/integration-overview.md
             - name: Prioriteedil põhinev ahendamine
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Kirjete loomine kirjemallide abil
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Andmeintegratsioon Dataverse’i abil
+                - name: Andmeintegraator
                   items:
-                    - name: Andmeintegratsioon Dataverse'i abil – ülevaade
-                      href: data-entities/data-integration-cds.md
-                    - name: Topeltkirjutuse integratsioon
+                    - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
                       items:
-                        - name: Topeltkirjutuse koduleht
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Mis on uut või mida on muudetud topeltkirjutuses?
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Topeltkirjutuse ülevaade
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Topeltkirjutuse häälestus
-                          items:
-                            - name: Süsteeminõuded topeltkirjutuseks
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Juhised topeltkirjutuse häälestamiseks
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Algse sünkroonimise kaalutlused
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
-                              items:
-                                - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Süsteeminõuded ja eeltingimused
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Kuidas kasutada topeltkirjutamise viisardit oma keskkondade linkimiseks?
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Üksuse vastenduse lubamine topeltkirjutamise jaoks
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Müügitellimuse olekuväljade vastendamise seadistamine
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Topeltkirjutamise haldamine
-                          items:
-                            - name: Üksuse- ja väljavastenduste kohandamine
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Mitme üksusevastenduse käsitsemine
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Juriidilise isiku redigeerimine pärast topeltkirjutamise seadistamist
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Tõrkehaldus ja teatised
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Rakenduse elutsüklihaldus
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Vastendamise määratlused rakenduste vahel
-                          items:
-                            - name: Integreeritud kliendi koondandmed
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Hankija integreerimine
-                              items:
-                                - name: Integreeritud hankija koondandmed
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Hankija kujunduste vaheldumisi aktiveerimine
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Kliendikaardid ja preemiapunkte
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Toote integratsioon
-                              items:
-                                - name: Ühendatud toote kasutusfunktsionaalsus
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Integreeritud kohad ja laod
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Ettevõtte integratsioon
-                              items:
-                                - name: Ettevõtte kontseptsioon Dataverseis
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Ettevõtte andmete lähtestamine
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Dataverse'i organisatsiooni hierarhia
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Finants-ja maksuandmed
-                              items:
-                                - name: Juurdepääs finants- ja maksuandmetele
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Integreeritud pearaamat
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Integreeritud koondmaksuandmed
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Hanke integreerimine Supply Chain Managementis Field Service'iga
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: Vajaduse korral sünkroonimine Supply Chain Managementi hinnakujunduse mootoriga
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: Potentsiaalne klient sularahaks topeltkirjutus
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Dynamics 365 Commerce'i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Ettevõttesisesed varad teenindamiseks
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Varude saadavus
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Integreeritud töötaja, töö ja ametikoht'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Osapool ja globaalne aadressiraamat
-                              href: data-entities/dual-write/party-gab.md
-                            - name: Power Portali kasutamine osapoole andmemudeliga
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Üleminek osapoole ja globaalse aadressiraamatu mudelile
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Märkuste integreerimine
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Vastenduse viide
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Topeltkirjutuse tugi
-                          items:
-                            - name: Field Service'i ja Project Service Automationi lahenduste tugi
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Potentsiaalse klient sularahaks andmete migreerimine andmeintegraatorist topeltkirjutusse
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Tõrkeotsing
-                              items:
-                                - name: Topeltkirjutuse konfiguratsiooni kontrollimine Finance and Operationsi rakendustes ja Dataverse'is
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Tõrkeotsingu probleemid algse häälestuse ajal
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Finance and Operationsi rakendustes topeltkirjutuse probleemide tõrkeotsing
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Reaalajas sünkroonimise probleemide tõrkeotsing
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: Lahenduse teadlikkusega seotud probleemide tõrkeotsing
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Finance and Operationsi rakenduste värskenduste probleemide tõrkeotsing
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Üldine tõrkeotsing
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Korduma kippuvad küsimused topeltkirjutuse kohta
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Integreerimine Power Platformiga
+                        - name: Potentsiaalne klient sularahaks
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Integratsiooni konfigureerimine Field Service’iga
                       items:
-                        - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
-                          items:
-                            - name: Potentsiaalne klient sularahaks
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Integratsiooni konfigureerimine Field Service’iga
-                          items:
-                            - name: Integratsiooni konfigureerimine Field Service’i abil – ülevaade
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Project Service Automationi integreerimise konfigureerimine
-                          items:
-                            - name: Project Service Automationi ülevaade
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Project Service Automationi integreerimisparameetrid
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Projektilepingute ja projektide sünkroonimine
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Projektiülesannete sünkroonimine
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Projekti kulukategooriate sünkroonimine
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Projektihinnangute sünkroonimine projekti eelarvetega
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Integratsiooni konfigureerimine Field Service’i abil – ülevaade
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automationi integreerimise konfigureerimine
+                      items:
+                        - name: Project Service Automationi ülevaade
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Project Service Automationi integreerimisparameetrid
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Projektilepingute ja projektide sünkroonimine
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Projektiülesannete sünkroonimine
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Projekti kulukategooriate sünkroonimine
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Projektihinnangute sünkroonimine projekti eelarvetega
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Väliste veebiteenuste tarbimine
               href: data-entities/consume-external-web-service.md
             - name: Elektronsõnumid
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Iseteeninduse juurutamise kaudu juurutatud keskkondade tõrkeotsing
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: Iseteeninduskeskkondade plaanitud hooldustöö KKK
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Azure Resource Manageri kasutuselevõtu lõpule viimine
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute ja Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: Microsoft Power Platformi integreerimine Finance and Operations'iga
               href: power-platform/overview.md
+            - name: Topeltkirjutus
+              items:
+                - name: Topeltkirjutuse koduleht
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Mis on uut või mida on muudetud topeltkirjutuses?
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Topeltkirjutuse ülevaade
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Topeltkirjutuse häälestus
+                  items:
+                    - name: Süsteeminõuded topeltkirjutuseks
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Juhised topeltkirjutuse häälestamiseks
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Algse sünkroonimise kaalutlused
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                      items:
+                        - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Süsteeminõuded ja eeltingimused
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Kuidas kasutada topeltkirjutamise viisardit oma keskkondade linkimiseks?
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Üksuse vastenduse lubamine topeltkirjutamise jaoks
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Müügitellimuse olekuväljade vastendamise seadistamine
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Topeltkirjutamise haldamine
+                  items:
+                    - name: Üksuse- ja väljavastenduste kohandamine
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Mitme üksusevastenduse käsitsemine
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Juriidilise isiku redigeerimine pärast topeltkirjutamise seadistamist
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Tõrkehaldus ja teatised
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Rakenduse elutsüklihaldus
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Vastendamise määratlused rakenduste vahel
+                  items:
+                    - name: Integreeritud kliendi koondandmed
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Hankija integreerimine
+                      items:
+                        - name: Integreeritud hankija koondandmed
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Hankija kujunduste vaheldumisi aktiveerimine
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Kliendikaardid ja preemiapunkte
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Toote integratsioon
+                      items:
+                        - name: Ühendatud toote kasutusfunktsionaalsus
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Integreeritud kohad ja laod
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Ettevõtte integratsioon
+                      items:
+                        - name: Ettevõtte kontseptsioon Dataverseis
+                          href: data-entities/dual-write/company-data.md
+                        - name: Ettevõtte andmete lähtestamine
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Dataverse'i organisatsiooni hierarhia
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Finants-ja maksuandmed
+                      items:
+                        - name: Juurdepääs finants- ja maksuandmetele
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Integreeritud pearaamat
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Integreeritud koondmaksuandmed
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Hanke integreerimine Supply Chain Managementis Field Service'iga
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Vajaduse korral sünkroonimine Supply Chain Managementi hinnakujunduse mootoriga
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: Potentsiaalne klient sularahaks topeltkirjutus
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Dynamics 365 Commerce'i hinnakujunduse mootori kasutamine koos rakendusega Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Ettevõttesisesed varad teenindamiseks
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Varude saadavus
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Integreeritud töötaja, töö ja ametikoht'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Osapool ja globaalne aadressiraamat
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Power Portali kasutamine osapoole andmemudeliga
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Üleminek osapoole ja globaalse aadressiraamatu mudelile
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Märkuste integreerimine
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Vastenduse viide
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Topeltkirjutuse tugi
+                  items:
+                    - name: Field Service'i ja Project Service Automationi lahenduste tugi
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Potentsiaalse klient sularahaks andmete migreerimine andmeintegraatorist topeltkirjutusse
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Tõrkeotsing
+                      items:
+                        - name: Topeltkirjutuse konfiguratsiooni kontrollimine Finance and Operationsi rakendustes ja Dataverse'is
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Tõrkeotsingu probleemid algse häälestuse ajal
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Finance and Operationsi rakendustes topeltkirjutuse probleemide tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Reaalajas sünkroonimise probleemide tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Lahenduse teadlikkusega seotud probleemide tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: Finance and Operationsi rakenduste värskenduste probleemide tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Üldine tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Korduma kippuvad küsimused topeltkirjutuse kohta
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuaalsed üksused
               items:
+                - name: Virtuaalsete üksuste ülevaade
+                  href: power-platform/virtual-entities-overview.md
                 - name: Üksuse modelleerimine
                   href: power-platform/entity-modeling.md
                 - name: Rakenduse elutsüklihaldus

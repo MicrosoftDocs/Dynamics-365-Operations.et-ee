@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804327"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018950"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Sissetulev laooperatsioon kassas
 
@@ -70,7 +70,7 @@ Loodavaid pakett-töösid kasutatakse dokumentide töötlemiseks, mis nurjuvad v
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Eeltingimus: sissetuleku toimingu lisamine kassa ekraanipaigutusse
 
-Enne kui teie organisatsioon saab sissetuleku toimingu funktsiooni kasutada, peab see konfigureerima kassa toimingu **Sissetuleku toiming** ühes või mitmes [kassa ekraanipaigutuses](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Enne uue toiming tootmiskeskkonnas juurutamist veenduge, et katsetaksite seda põhjalikult ja koolitaksite oma kasutajaid seda kasutama.
+Enne kui teie organisatsioon saab sissetuleku toimingu funktsiooni kasutada, peab see konfigureerima kassa toimingu **Sissetuleku toiming** ühes või mitmes [kassa ekraanipaigutuses](/dynamics365/unified-operations/retail/pos-screen-layouts). Enne uue toiming tootmiskeskkonnas juurutamist veenduge, et katsetaksite seda põhjalikult ja koolitaksite oma kasutajaid seda kasutama.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -159,9 +159,9 @@ Rakenduse Commerce versioonis 10.0.14 ja uuemates versioonides saavad kasutajad 
 
 See funktsioon töötab ainult ostutellimuse vastuvõtmise puhul. Üleviimistellimuste jaoks ei saa kaupu vastu võtta, kui kaupu pole eelnevalt tellitud ega väljaminevast laost lähetatud.
 
-Kasutajad ei saa ostutellimusele kassa vastuvõtmise ajal uusi tooteid lisada, kui ostutellimuse [muutuste halduse töövoog](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) on lubatud Commerce'i peakontoris (HQ). Muutuste halduse lubamiseks tuleb enne vastuvõtmise kinnitamist kõik ostutellimuse muudatused esmalt kinnitada. Kuna see protsess lubab vastuvõtjal lisada ostutellimusele uusi ridu, nurjub vastuvõtmine, kui muudatuste haldamise töövoog on lubatud. Kui muudatuste haldus on lubatud kõigi ostutellimuste jaoks või ostutellimusega seotud hankija jaoks, keda kassas aktiivselt vastu võetakse, ei saa kasutaja kassa vastuvõtmisel uusi tooteid ostutellimusse lisada.
+Kasutajad ei saa ostutellimusele kassa vastuvõtmise ajal uusi tooteid lisada, kui ostutellimuse [muutuste halduse töövoog](../supply-chain/procurement/purchase-order-approval-confirmation.md) on lubatud Commerce'i peakontoris (HQ). Muutuste halduse lubamiseks tuleb enne vastuvõtmise kinnitamist kõik ostutellimuse muudatused esmalt kinnitada. Kuna see protsess lubab vastuvõtjal lisada ostutellimusele uusi ridu, nurjub vastuvõtmine, kui muudatuste haldamise töövoog on lubatud. Kui muudatuste haldus on lubatud kõigi ostutellimuste jaoks või ostutellimusega seotud hankija jaoks, keda kassas aktiivselt vastu võetakse, ei saa kasutaja kassa vastuvõtmisel uusi tooteid ostutellimusse lisada.
 
-Ridade lisamist võimaldavat funktsiooni ei saa kasutada juba ostutellimuses olevate toodete lisakoguse vastuvõtmisel. Üleliigse koguse vastuvõtmist hallatakse tavalise [üleliigse koguse vastuvõtmise](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) sätete kaudu ostutellimusel oleva tootesarja jaoks.
+Ridade lisamist võimaldavat funktsiooni ei saa kasutada juba ostutellimuses olevate toodete lisakoguse vastuvõtmisel. Üleliigse koguse vastuvõtmist hallatakse tavalise [üleliigse koguse vastuvõtmise](#over-receiving-validations) sätete kaudu ostutellimusel oleva tootesarja jaoks.
 
 Kui **Ridade lisamine ostutellimusse kassa vastuvõtmise ajal** on lubatud ja kasutaja võtab kassas vastu **Sissetuleku toiminguga**, kui kasutaja skannib või sisestab toote vöötkoodi või tootekoodi, mida praegusel ostutellimusel ei tuvastata, kuid tuvastatakse sobiva kaubana, saab kasutaja teate kauba ostutellimusele lisamise kohta. Kui kasutaja lisab kauba ostutellimusele, loetakse kogus, mis on sisestatud kohta **Praegu vastuvõtmisel**, ostutellimuse rea tellitud koguseks.
 

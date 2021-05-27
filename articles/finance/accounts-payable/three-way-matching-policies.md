@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814292"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027790"
 ---
 # <a name="three-way-matching-policies"></a>Kolmesuunalised vastavusse viimise poliitikad
 
@@ -37,9 +37,9 @@ Fabrikami alla kuulub mitu juriidilist isikut ja ettevõttel on töötajaid üle
 
 Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes rollides inimestel järgmisi eesmärke täita.
 
--   Ken on ettevõtte Fabrikam kontroller. Ta saab aidata inimestel oma organisatsioonis hankijatelt kaupade (tooted ja teenused) tellimise, vastuvõtu ja maksmisega seotud probleeme tuvastada ja lahendada.
+-   Ken on ettevõtte Fabrikam kontroller. Ken saab aidata inimestel oma organisatsioonis hankijatelt kaupade (tooted ja teenused) tellimise, vastuvõtu ja maksmisega seotud probleeme tuvastada ja lahendada.
 -   Phyllis ja April on Fabrikami Ameerika Ühendriikide allüksuse arveldusosakonna raamatupidamise juhid. Nemad saavad korporatiivset poliitikat kehtestada ja tagada, et arved makstakse alles pärast seda, kui need on ostutellimuse ning toodete ja teenuste sissetulekuga vastavusse viidud, kui see on vajalik.
--   Tony on Fabrikami Ameerika Ühendriikide allüksuse tootmisjuht. Tema ja ülejäänud tootmistöötajad saavad veenduda, et hankijatelt saadakse tellitud kaubad ja need loetakse, nii et töötajatel on tööde tegemiseks kõik vajalik olemas.
+-   Tony on Fabrikami Ameerika Ühendriikide allüksuse tootmisjuht. Tony ja ülejäänud tootmistöötajad saavad veenduda, et hankijatelt saadakse tellitud kaubad ja nende üle peetakse arvestust, nii et töötajatel on tööde tegemiseks kõik vajalik olemas.
 
 ### <a name="prerequisites"></a>Eeltingimused
 
@@ -51,14 +51,14 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 
     | Kaubakood                 | Kogus | Ühiku hind | Netosumma | Tasukood        | Tasude väärtus |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicroni masin | 5        | 8000,00   | 40 000,00  | Saatmine ja käsitsemine | 3000,00      |
+    | 1500 – CNC Milicroni masin | 5        | 8000,00   | 40 000,00  | Saatmine ja käsitsemine | 3,000.00      |
 
--   Arnie, kes on Contoso müügireskontro ametnik, vaatab üle nädala saadetised. Arnie valib Fabrikamile CNC Milicroni masinate tarne eest arve esitamiseks saadetise kanded. Arnie lisab tasu saatmise ja käsitsemise eest. Fabrikam arvestab seda tasu osana vara kulust.
+-   Arnie, kes on Contoso võlgnike arvepidaja, vaatab üle nädala saadetised. Arnie valib Fabrikamile CNC Milicroni masinate tarne eest arve esitamiseks saadetise kanded. Arnie lisab tasu saatmise ja käsitsemise eest. Fabrikam arvestab seda tasu osana vara kulust.
 
 ### <a name="scenario"></a>Stsenaarium
 
-1.  Sammy, kes on Fabrikami vastuvõtu osakonna töötaja, saab Contoso saadetud masinate lõpliku koguse. Ta sisestab toote sissetuleku koguseks 5. Kuna ostutellimus on täielikult saadud, muutub ostutellimuse olekuks Saadud.
-2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
+1.  Sammy, kes on Fabrikami vastuvõtu osakonna töötaja, saab Contoso saadetud masinate lõpliku koguse. Sammy sisestab toote sissetuleku koguseks 5. Kuna ostutellimus on täielikult saadud, muutub ostutellimuse olekuks Saadud.
+2.  April, Fabrikami võlgade koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
     -   Kahe- või kolmesuunalist vastavusseviimist vajavate kaupade hinnad arve real jäävad Microsoft Dynamics 365 Financeis määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +8 protsenti.
@@ -87,7 +87,7 @@ Kokkuvõte: Ken on kontroller Fabrikami nimelise juriidilise isiku peakontoris. 
 Maht ja summad on väiksed ning mõne Malaisia hankija tarnega on olnud probleeme. Sellest tulenevalt määrab Cassie teatud Malaisias toodetud kaupade kauba ja hankija kombinatsioonide kontrollitaseme kolmesuunaliseks vastavusse viimiseks. 
 
 Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes rollides inimestel järgmisi eesmärke täita.
--   Ken on ettevõtte Fabrikam kontroller. Ta saab aidata inimestel oma organisatsioonis hankijatelt kaupade (tooted ja teenused) tellimise, vastuvõtu ja maksmisega seotud probleeme tuvastada ja lahendada.
+-   Ken on ettevõtte Fabrikam kontroller. Ken saab aidata inimestel oma organisatsioonis hankijatelt kaupade (tooted ja teenused) tellimise, vastuvõtu ja maksmisega seotud probleeme tuvastada ja lahendada.
 -   Cassie on Fabrikami Malaisia allüksuse raamatupidaja. Tema saab korporatiivset poliitikat kehtestada ja tagada, et arved makstakse alles pärast seda, kui need on ostutellimuse ridade ning tooteid ja teenuseid kajastava sissetulekuga toote sissetulekutel vastavusse viidud. Ta saab ka tegevuskulude kontrollimiseks kindlate kaupade kontrollitaseme kolmesuunaliseks vastavusse viimiseks suurendada.
 
 ### <a name="prerequisites"></a>Eeltingimused
@@ -95,8 +95,8 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 -   Ken seadistab juriidilise isiku tasemel vastavusse viimise poliitikaks Kahesuunaline vastavusse viimine.
 -   Ken määrab juriidilise isiku jaoks välja Hinna kogusumma vastendamine väärtuseks Protsent ja sisestab kõikumise protsendiks 10 protsenti.
 -   Ken määrab kõigi kaupade ühiku hinna kõikumiseks 2 protsenti.
--   Cassie määrab kauba ja hankija kombinatsiooni tasemel kaubale PH2500 – arvuti ja hankija Contoso vastavusse viimise poliitikaks Kolmesuunaline vastavusse viimine.
--   Alicia, kes on Fabrikami Malaisia allüksuse ostutellimuse ametnik, esitab Contosole ostutellimused kolme kauba tarnimiseks, nagu on näidatud järgmises tabelis. Ostutellimust luues tühistab ta juhtmeta hiire puhul vastavusse viimise poliitika ja määrab kahesuunalise vastavusse viimise asemel kolmesuunalise.
+-   Cassie määrab kauba ja hankija kombinatsiooni tasemel kaubale PH2500 – arvuti ja hankija Contoso kolmesuunalise poliitikaga vastavusse viimiseks.
+-   Alicia, kes on Fabrikami Malaisia allüksuse ostutellimuse ametnik, esitab Contoso ostutellimused kolme kauba tarnimiseks, nagu on näidatud järgmises tabelis. Ostutellimust luues tühistab ta juhtmeta hiire puhul vastavusse viimise poliitika ja määrab kahesuunalise vastavusse viimise asemel kolmesuunalise.
 
     | Kaubakood           | Kogus | Ühiku hind | Netosumma | Vastavusse viimise poliitika (vaikesisestus) | Vastavusse viimise poliitika (ostutellimuse real) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -107,7 +107,7 @@ Selles näites toodud arvete vastavusse viimise poliitikad aitavad järgmistes r
 ### <a name="scenario"></a>Stsenaarium
 
 1.  Kaubad jõuavad kohale. Sammy, kes on Fabrikami Malaisia allüksuse vastuvõtu osakonna töötaja, töö katkestatakse ja ta ei sisesta kohe toote sissetulekut.
-2.  April, Fabrikami ostureskontro koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
+2.  April, Fabrikami võlgade koordinaator, sisestab ja kinnitab Contoso esitatud arve. Ta kontrollib järgmist teavet.
     -   Kolmesuunalist vastavusse viimist vajavate kaupade kogus arve real vastab saadud kogusele. Saadud kogus on näidatud arvega vastendatud toote sissetulekul.
     -   Kahe- või kolmesuunalist vastavusseviimist vajavate kaupade hinnad arve real jäävad määratletud kõikumiste piiridesse. See hõlmab järgmisi hindade vastavusseviimise tüüpe.
         -   Ühiku netohinna vastavusse viimine – ühiku netohind arve real vastendub kõikumise protsendi piires ühiku netohinnale ostutellimuse real. Selles näites on lubatud ühiku netohinna kõikumine +2 protsenti.

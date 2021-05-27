@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835143"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027524"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva
 
@@ -95,7 +95,7 @@ Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaal
 | Võetud skonto          | 3,00      |
 | Skonto summa võtmiseks | 7,00      |
 
-Arnie muudab välja **Kasuta skontot** väärtuseks uuesti **Tavaline**, kuna ta ei lase sellel kliendil kasutada järelejäänud skontot summas 7,00. Seejärel sisestab Arnie makse. Kui Arnie avab lehe **Kliendi kanded**, näeb ta, et arve saldo on 0,00. Samuti näeb ta kaht makset. Üks makse on summas 297,00 skontoga 3,00 skonto ja teine makse summas 700,00.
+Arnie muudab välja **Kasuta sularahakontot** väärtuseks uuesti **Tavaline**, kuna Arnie ei lase sellel kliendil kasutada järelejäänud sularahakontot summas 7.00. Seejärel sisestab Arnie makse. Kui Arnie avab **Kliendi kanded** lehe, näeb ta, et arve saldo on 0.00. On kaks makset. Üks makse on summas 297,00 skontoga 3,00 skonto ja teine makse summas 700,00.
 
 | Kanne    | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo | Valuuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

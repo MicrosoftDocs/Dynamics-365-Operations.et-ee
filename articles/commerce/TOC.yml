@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Sularahahalduse täiustused
                       href: cash-mgmt.md
-                    - name: Otsing varudest kassas
-                      href: product-variants-POS.md
                     - name: Kannete katkestamine ja jätkamine kassas
                       href: pos-suspend-recall-transactions.md
                     - name: Võrguühenduseta kassa funktsioonid
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Varude saadavuse arvutamine jaemüügikanalite jaoks
                       href: calculated-inventory-retail-channels.md
+                    - name: Varudest otsingu toiming kassas
+                      href: pos-inventory-lookup-operation.md
                 - name: Ostutellimused
                   items:
                     - name: Ostutellimuse ülevaade
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: Kassa laienduspaketi projekti loomine
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Modern POS-i laienduse APPX-faili loomine
+                    - name: APPX-faili loomine Modern POS-i laienduspaketi jaoks
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Kassalaienduse silumine
+                    - name: Kassalaienduste silumine
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Laienduse pakkimine ja juurutamine
+                      items:
+                        - name: Modern POS-i laienduspaketi loomine
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Modern POS-i (MSIX) laienduspaketi koodi allkirjastamine
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Cloud POS-i laienduspaketi loomine
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Kassalaienduse migreerimine sõltumatu pakendamise mudelisse
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Kassalaienduse arendamise juhis
+                      items:
+                        - name: Kassalaienduse põhitõed
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Kohandatud vaate loomine kassas
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Kassa juhtelementide kasutamine laiendustes
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Ülesanded
+                          items:
+                            - name: Skripti Knockout.js kasutamine kassalaiendustes
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Kohandatud kaugadministreeritavate Commerce API-de kasutamine
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Hardware Stationi laiendatavus
               items:
                 - name: Hardware Station ja laiendatavus

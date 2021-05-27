@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798857"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020309"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
 
@@ -79,7 +79,7 @@ Uue rea lisamisel lehel **Serdiprofiili sätted** seadke järgmiste väljade vä
 - **Võtmehoidla sert** – see väli on kohustuslik, kui seate välja **Asukoha tüüp** väärtuseks **Võtmehoidla**. Kasutage seda võtmehoidla serdi saladuse määramiseks.
 
     > [!NOTE]
-    > Enne võtmehoidla serdi kasutamist serdiprofiilides laadige sert üles võtmehoidla salvestusruumi ja järgige juhiseid, mis on toodud teemas [Azure'i võtmehoidla klientrakenduse seadistamine](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Enne võtmehoidla serdi kasutamist serdiprofiilides laadige sert üles võtmehoidla salvestusruumi ja järgige juhiseid, mis on toodud teemas [Azure'i võtmehoidla klientrakenduse seadistamine](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Kaupluse nimi** – see väli on valikuline ja on saadaval ainult siis, kui seate välja **Asukoha tüüp** väärtuseks **Kohalik sert**. Kasutage seda kaupluse vaikenime määramiseks, mida tuleks kasutada kohalike sertide otsimiseks.
 - **Kaupluse asukoht** – see väli on valikuline ja on saadaval ainult siis, kui seate välja **Asukoha tüüp** väärtuseks **Kohalik sert**. Kasutage seda kaupluse vaikeasukoha määramiseks, mida tuleks kasutada kohalike sertide otsimiseks.

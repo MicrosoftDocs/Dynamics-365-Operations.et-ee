@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818748"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028199"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Masinõppemudelite tulemused (eelversioon)
 
@@ -63,8 +63,8 @@ Selle küsimuse lahendamiseks arvestage naiivne oletuse täpsusega. Klassifikats
 
 Tähelepanu väärib veel üks asjaolu. Kaaluge stsenaariumi, kus meditsiinilise testi abil tuvastatakse patsiendi haigus. See probleem on binaarne klassifikatsiooni probleem, kus positiivne tulemus näitab, et patsiendil on haigus. Selle stsenaariumi puhul tuleb mõelda järgmiste vigade mõjule.
 
-- Valepositiivsed, kus test ütleb, et patsient on haige, kuid tegelikult tal haigust pole
-- Valenegatiivsed, kus test ütleb, et patsiendil ei ole haigust, kuid tegelikult tal on haigus
+- Valepositiivsed, kus test ütleb, et patsient on haige, kuid tegelikult tal haigust pole.
+- Valenegatiivsed, kus test ütleb, et patsiendil ei ole haigust, kuid tegelikult tal on haigus.
 
 Loomulikult, mõlemat tüüpi viga on soovimatu, kuid mis on halvem? Jällegi, see sõltub asjaoludest. Eluohtliku haiguse korral, mis nõuab kiiret ravi, on prioriteediks valenegatiivsete andmete minimeerimine (loodetavasti järgnevad sellele täiendavaid teste). Teiste vähem kriitiliste olukordade puhul võivad mudeli loojad selle asemel minimeerida valepositiivseid. Igal juhul on mõistlik järeldada, et mudeli kvaliteedi tõhususe määramiseks peab teil olema rohkem teavet kui täpsuse mõõdik annab.
 

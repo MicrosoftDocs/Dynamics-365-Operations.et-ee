@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9305e7143bc0a978569d51544a1ae65ee57b3243
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8a24943e69ef285f14d39e6bfd446b0121fc80d8
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798816"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020282"
 ---
 # <a name="petty-cash-management-for-commerce-for-eastern-europe"></a>Kaubanduse pisikulude kassa haldus Ida-Euroopa puhul
 
@@ -26,7 +26,7 @@ ms.locfileid: "5798816"
 
 Selles artiklis kirjeldatakse Ida-Euroopa kaubandusega seotud lokaliseerimist.
 
-Ida-Euroopa raamatupidamise nõuete järgi saate seadistada sularahakontode operatsioonid, et automatiseerida sissetulekute, kassdokumentide ja sularahaaruannetega seotud protsesse. Lisateabe saamiseks avage [(EEUR) Kassahalduse parameetrite seadistamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
+Ida-Euroopa raamatupidamise nõuete järgi saate seadistada sularahakontode operatsioonid, et automatiseerida sissetulekute, kassdokumentide ja sularahaaruannetega seotud protsesse. Lisateabe saamiseks avage [(EEUR) Kassahalduse parameetrite seadistamine](/dynamicsax-2012/appuser-itpro/eeur-set-up-parameters-for-cash-management).
 
 Jaemüüjad võivad võtta müüdavate toodete ja teenuste eest tasu erinevat tüüpi maksemeetoditega. Kuigi levinuim maksemeetod on sularaha, võivad jaemüüjad võtta tasu ka tšekkide, kaartide või kannetega. Kassas käideldakse sularaha, krediitkaardimakseid ja muid maksemeetodeid rahakäitlusüksuse kaudu.
 
@@ -36,7 +36,7 @@ Kassahaldusega saate kaubanduses teha järgmist:
 - kasutada jaemüügikassas tehtud sularahatehingute ja kliendimaksete sisestamiseks kassatöölehti,
 - koondada väljavõtte sisestamisel kanded väljavõtte reale. Saate koondada seifi viidava raha, panka viidava raha, kandetehingud, eemaldada maksevahendi kandeid, sularaha kirje kandeid, tulu kandeid, kulu kandeid, kliendimakseid, müügitehinguid ja tagastuskandeid.
 
-Kõik kassas tehtavad kanded sisestatakse pearaamatu töölehte kasutades. Kannete loomiseks ja sisestamiseks saate kasutada sularahamaksete töölehti, kliendimaksete töölehti ja üldtöölehti. Lisateabe saamiseks avage [Kaupluse aruannete loomine, arvutamine ja sisestamine](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
+Kõik kassas tehtavad kanded sisestatakse pearaamatu töölehte kasutades. Kannete loomiseks ja sisestamiseks saate kasutada sularahamaksete töölehti, kliendimaksete töölehti ja üldtöölehti. Lisateabe saamiseks avage [Kaupluse aruannete loomine, arvutamine ja sisestamine](/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
 
 Tegumirea **Sisestatud väljavõtete** lehel saate teha järgmist.
 
@@ -47,7 +47,7 @@ Tegumirea **Sisestatud väljavõtete** lehel saate teha järgmist.
 
 Enne sularahahalduse kasutamist peate lõpule viima järgmise seadistusprotseduuri.
 
-- Seadistage **Makseviiside** lehel igale jaemüüja aktsepteeritavale maksetüübile makseviis. Saate kassa kannete sisestamiseks kasutada erinevaid makseviise. Makseviiside kohta lisateabe saamiseks vt [Makseviise](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
+- Seadistage **Makseviiside** lehel igale jaemüüja aktsepteeritavale maksetüübile makseviis. Saate kassa kannete sisestamiseks kasutada erinevaid makseviise. Makseviiside kohta lisateabe saamiseks vt [Makseviise](/dynamics365/unified-operations/retail/payment-methods).
 - Parameetrite seadistamine kassatoimingute jaoks.
 - Kaupluse sularahamaksete maksemeetodi seadistamine.
 

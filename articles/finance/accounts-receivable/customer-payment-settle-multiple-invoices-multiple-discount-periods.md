@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56d74b6700b48a8c523d02a1affc421ee370215e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819910"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027742"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Ühe makse kasutamine nende arvete tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi
 
@@ -66,7 +66,7 @@ Kui Arnie loob maksetöölehe, et need arved 1. juulil täielikult tasakaalustad
 | Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Osaline tasakaalustamine 29. juunil
-Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob makse kliendile 4032 ja seejärel avab lehe **Kannete tasakaalustamine**. Lehel **Kannete tasakaalustamine** märgib Arnie tasakaalustamiseks kõik kolm arverida. Igal real sisestab ta kliendi antud juhiste põhjal tasakaalustatava summa. Kui Arnie valib mõne rea, näeb ta selle rea allahindluse summat ja arvesse minevat skonto summat. Kuna klient tasub pool arvest, näeb Arnie, et väärtus väljal **Skonto summa** arve FTI-10042 puhul on **20,00**, kuid välja **Arvestatud skonto** väärtus on **10,00**. Maksesumma on 1485,00.
+Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob makse kliendile 4032 ja seejärel avab lehe **Kannete tasakaalustamine**. Lehel **Kannete tasakaalustamine** märgib Arnie tasakaalustamiseks kõik kolm arverida. Igal real sisestab Arnie kliendi antud juhiste põhjal tasakaalustatava summa. Kui Arnie valib mõne rea, näeb ta selle rea allahindluse summat ja sularahasoodustuse summat, mis arvesse võetakse. Kuna klient tasub pool arvest, näeb Arnie, et väärtus väljal **Skonto summa** arve FTI-10042 puhul on **20,00**, kuid välja **Arvestatud skonto** väärtus on **10,00**. Maksesumma on 1485,00.
 
 | Märge                     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Valuuta | Tasakaalustatav summa |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ Klient 4032 saab tasuda osa summast, näiteks pool igast arvest. Arnie loob maks
 | Valitud                 | Tavaline            | FTI‑10041 | 4032    | 25.06.2015 | 25.07.2015 | 10041   | 1 000,00                             |                                       | USA dollar      | 495.00           |
 | Valitud ja esile tõstetud | Tavaline            | FTI‑10042 | 4032    | 25.06.2015 | 25.07.2015 | 10042   | 1 000,00                             |                                       | USA dollar      | 490.00           |
 
-Arnie saate maksesumma 1485,00 ka käsitsi sisestada enne lehe **Kannete tasakaalustamine** avamist. Kui Arnie sisestab maksesumma käsitsi ja seejärel märgib kõik kolm kannet, kuid ei korrigeeri iga kande puhul välja **Tasakaalustatav summa** väärtust, saab ta lehe sulgemisel järgmise teate.
+Arnie saab maksesumma 1 485.00 ka käsitsi sisestada enne lehe **Kannete tasakaalustamine** avamist. Kui Arnie sisestab maksesumma käsitsi ja seejärel märgib kõik kolm kannet, kuid ei korrigeeri iga kande puhul välja **Tasakaalustatav summa** väärtust, saab ta lehe sulgemisel järgmise teate:
 
 > Märgitud kannete kogusummade erineb töölehe summast. Kas muuta töölehe summat?
 
-Kui Arnie soovib, et maksesumma oleks vaid 1485,00, klõpsab ta suvandit **Ei** ja seejärel sisestab töölehe. Kanded tasakaalustatakse järgmiselt.
+Kui Arnie soovib, et maksesumma oleks vaid 1 485.00, klõpsab ta suvandit **Ei** ja seejärel sisestab töölehe. Kanded tasakaalustatakse järgmiselt.
 
 1.  Arve FTI-10040 on täielikult tasakaalustatud summale 1000,00, kuna see oli sisestatud 15. mail ja on vanim arve. Skontot ei arvestata. Maksekande jääksumma on 485,00.
 2.  Arve FTI-10041 ei ole üldse tasakaalustatud. Arved FTI-10041 ja FTI-10042 sisestati samal kuupäeval. Siiski on 1-protsendine allahindlus saadaval arvele FTI-10041 ja 2-protsendine allahindlus arvele FTI-10042. Kuna arvele FTI-10042 on saadaval parem allahindlus, tasakaalustatakse ülejäänud 485,00 arvega FTI-10042.

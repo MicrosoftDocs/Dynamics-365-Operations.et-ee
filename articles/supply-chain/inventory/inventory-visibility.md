@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910421"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017002"
 ---
 # <a name="inventory-visibility-add-in"></a>Varude nähtavuse lisandmoodul
 
@@ -41,20 +41,23 @@ Varude nähtavuse lisandmooduli saate installida, kasutades teenust Microsoft Dy
 
 Lisateabe saamiseks vt [Lifecycle Servicesi ressursid](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>Eeltingimused
+### <a name="inventory-visibility-add-in-prerequisites"></a>Varude nähtavuse lisandmooduli eeltingimused
 
 Enne varude nähtavuse lisandmooduli installimist peate tegema järgmist.
 
 - Hankige LCS-i juurutamise projekt, millel on vähemalt üks juurutatud keskkond.
 - Kontrollige, et eeltingimused lisandmoodulite seadistamiseks, mis on antud [Lisandmoodulite ülevaates](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) on täidetud. Varude nähtavus ei nõua topeltkirjutuse linkimist.
 - Võtke ühendust varude nähtavuse töörühmaga [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) nende kolme nõutava faili saamiseks:
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (Kui Supply Chain Management versioon, mida käitate, on varasem kui versioon 10.0.18)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (Kui Supply Chain Management versioon, mida käitate, on varasem kui versioon 10.0.18)
+- Teise võimalusena võite võtta ühendust Inventory Visibility Team-iga [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) package deployer pakettide paigaldamiseks. Neid pakendeid saab kasutada ametliku package deployer tööriistaga.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip` (see pakett sisaldab kõiki paketis tehtud `InventoryServiceBase` muudatusi ja täiendavaid kasutajaliidese rakenduse komponente)
 - Järgige juhiseid, mis on toodud teemas [Kiirstart: registreerige rakendus Microsofti identiteediplatvormil](/azure/active-directory/develop/quickstart-register-app), et registreerida rakendus ja lisada Azure'i tellimuse all AAD-le kliendi saladus.
-    - [Rakenduse registreerimine](/azure/active-directory/develop/quickstart-register-app)
-    - [Kliendi saladuse lisamine](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - Väljasid **Rakenduse(kliendi) ID**, **Kliendi saladus** ja **Rentniku ID** kasutatakse järgmistes juhistes.
+  - [Rakenduse registreerimine](/azure/active-directory/develop/quickstart-register-app)
+  - [Kliendi saladuse lisamine](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - Väljasid **Rakenduse(kliendi) ID**, **Kliendi saladus** ja **Rentniku ID** kasutatakse järgmistes juhistes.
 
 > [!NOTE]
 > Praegu toetatud riikide ja regioonide hulka kuuluvad Kanada, USA ja Euroopa Liit (EL).
@@ -63,18 +66,49 @@ Kui teil on küsimusi nende eeltingimuste kohta, võtke ühendust varude nähtav
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Seadistamine Dataverse
 
-Läbige need etapid, et seadistada Dataverse.
+Et seadistada Dataverse koos rakendusega Inventory Visibility, peate kõigepealt ette valmistama eeltingimused ja otsustama, kas seadistate Dataverse package deployer tööriista abil või lahenduste käsitsi importimisel (te ei pea mõlemat tegema). Seejärel installige varude nähtavuse lisandmoodul. Järgmised alamjaotised kirjeldavad, kuidas neid ülesandeid lõpetada.
 
-1. Lisage teenuse põhimõtted oma rentnikule:
+#### <a name="prepare-dataverse-prerequisites"></a>Rakenduse Dataverse eelduste ette valmistamine
 
-    1. Installige Azure AD PowerShell Module v2, nagu on kirjeldatud [Instalige Azure Active Directory PowerShell Graph'ile](/powershell/azure/active-directory/install-adv2).
-    1. Käivitage järgmine PowerShell käsk.
+Enne seadistamist lisage Dataverse oma rentnikule teenusepõhimõte järgmiselt:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. Installige Azure AD PowerShell Module v2, nagu on kirjeldatud [Instalige Azure Active Directory PowerShell Graph'ile](/powershell/azure/active-directory/install-adv2).
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. Käivitage järgmine PowerShell käsk:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Pakettide Dataverse package deployer abil häälestamine
+
+Kui olete eeltingimused seadistanud, kasutage järgmist protseduuri, kui eelistate seadistada Dataverse package deployer tööriista abil. Vaadake järgmisest jaotisest üksikasju, kuidas selle asemel käsitsi lahendusi importida (ärge tehke mõlemat).
+
+1. Installige arendajate tööriistad, nagu on kirjeldatud [Tööriistade allalaadimine NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+
+1. Ärinõuete alusel valige `InventoryServiceBase` või `InventoryServiceApplication` pakett.
+
+1. Impordi lahendused:
+    1. `InventoryServiceBase`pakendi jaoks:
+        - Paki lahti `InventoryServiceBase.PackageDeployer.zip`
+        - Leia kaust `InventoryServiceBase`, fail `[Content_Types].xml`, fail `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll`, fail `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`, ja fail `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`. 
+        - Kopeerige kõik need kaustad ja failid `.\Tools\PackageDeployment` kataloogi, mis loodi arendustööriistade installimisel.
+    1. Rakenduse `InventoryServiceApplication` pakendi jaoks:
+        - Paki lahti `InventoryServiceApplication.PackageDeployer.zip`
+        - Leia kaust `InventoryServiceApplication`, fail `[Content_Types].xml`, fail `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`, fail `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`, ja fail `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`.
+        - Kopeerige kõik need kaustad ja failid `.\Tools\PackageDeployment` kataloogi, mis loodi arendustööriistade installimisel.
+    1. Täida `.\Tools\PackageDeployment\PackageDeployer.exe`. Järgige lahenduste importimiseks ekraanil olevaid juhiseid.
+
+1. Turberolli määramine uuele kasutajale.
+    1. Avage oma Dataverse keskkonna URL.
+    1. Minge **Täiendatud sätted \> Süsteem \> Turvalisus \> Kasutajad**, ja leidke kasutaja nimega **# InventoryVisibility**.
+    1. Valige **Määra roll** ja seejärel valige **Süsteemiadministraator**. Kui seal on roll nimega **Common Data Service Kasutaja**, valige ka see.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Käsitsi Dataverse seadistamine lahenduste importimisega
+
+Kui olete eeltingimused seadistanud, kasutage järgmist protseduuri, kui eelistate seadistada Dataverse paketi juurutaja tööriista abil. Üksikasju selle kohta, kuidas kasutada package deployer tööriista selle asemel (ärge tehke mõlemat) vaadake eelmisest jaotisest.
 
 1. Looge rakenduse kasutaja varude nähtavuse jaoks platvormil Dataverse:
 

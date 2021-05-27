@@ -2,7 +2,6 @@
 title: Kaupluse valija moodul
 description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853413"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021460"
 ---
 # <a name="store-selector-module"></a>Kaupluse valimise moodul
 
@@ -62,7 +61,7 @@ Commerce'i peakorteris asuva poe asukoha laius- ja pikkuskraadi väärtuste sise
 
 ## <a name="bing-maps-integration"></a>Bing Maps integratsioon
 
-Kaupluse valija moodul on integreeritud [Bing Maps REST-rakenduse programmeerimise liidestega (API)](https://docs.microsoft.com/bingmaps/rest-services/) Bingi geokodeerimise ja automaatse soovitamise funktsioonide kasutamiseks. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Geokodeerimise API-d kasutatakse asukoha teisendamiseks laius-ja pikkuskraadideks. Autosuggest API-ga integreerimist kasutatakse otsingusoovituste näitamiseks, kui kasutajad sisestavad asukohad otsinguväljale.
+Kaupluse valija moodul on integreeritud [Bing Maps REST-rakenduse programmeerimise liidestega (API)](/bingmaps/rest-services/) Bingi geokodeerimise ja automaatse soovitamise funktsioonide kasutamiseks. Vajalik on Bing Maps kaartide API võti ja see tuleb lisada jagatud parameetrite lehele rakenduses Commerce peakontorid. Geokodeerimise API-d kasutatakse asukoha teisendamiseks laius-ja pikkuskraadideks. Autosuggest API-ga integreerimist kasutatakse otsingusoovituste näitamiseks, kui kasutajad sisestavad asukohad otsinguväljale.
 
 Autosuggest REST API puhul peate tagama, et järgmised URL-id on lubatud saidi sisu turbepoliitikat (CSP) arvestades. Seadistus toimub Commerce'i saidiehitajas, lisades lubatud URL-id erinevatele saidi CSP-direktiividele (nt **img-src**). Lisateavet leiate teemast [Sisu turbepoliitika](manage-csp.md). 
 
@@ -78,14 +77,14 @@ Kaupluse valijate moodul toetab **Järgi tulemine kauplusse** režiimis, mis kuv
 
 Kaupluse valija moodulit saab lisada PDP-l ostukasti moodulisse, et kuvada kauplusi, kus toode on järele tulemiseks saadaval. Seda saab lisada ka ostukorvi moodulisse. Sellisel juhul on kaupluse valija moodulis näidatud järele tulemise suvandid iga ostukorvi rea kohta. Kauplise valija moodulit saab lisada ka teistele lehtedele või moodulitele laienduste ja kohanduste kaudu.
 
-Selleks, et see stsenaarium töötaks, tuleb toodete tarneviisiks konfigureerida **järgi tulemine**. Vastasel juhul ei kuvata moodulit tootelehtedel. Lisateavet tarneviisi konfigureerimise kohta vaadake teemast [Tarneviiside häälestamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Selleks, et see stsenaarium töötaks, tuleb toodete tarneviisiks konfigureerida **järgi tulemine**. Vastasel juhul ei kuvata moodulit tootelehtedel. Lisateavet tarneviisi konfigureerimise kohta vaadake teemast [Tarneviiside häälestamine](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Järgmisel pildil on näide, kuidas kasutatakse kaupluse valija moodulit PDP-s.
 
 ![Kaupluse valija mooduli näide PDP-s](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Versioonis 10.0.16 ja uuemates versioonides saab lubada uue funktsiooni, mis võimaldab organisatsioonil määratleda klientide jaoks mitu vastuvõtuviisi.  Kui see funktsioon on lubatud, täiustatakse kaupluse valijat ja teisi e-kaubanduse mooduleid, et võimaldada ostjal valida potentsiaalselt mitme pealevõtmise võimaluse vahel, kui see on konfigureeritud.  Lisateavet selle funktsiooni kohta leiate [sellest dokumentatsioonist](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Versioonis 10.0.16 ja uuemates versioonides saab lubada uue funktsiooni, mis võimaldab organisatsioonil määratleda klientide jaoks mitu vastuvõtuviisi.  Kui see funktsioon on lubatud, täiustatakse kaupluse valijat ja teisi e-kaubanduse mooduleid, et võimaldada ostjal valida potentsiaalselt mitme pealevõtmise võimaluse vahel, kui see on konfigureeritud.  Lisateavet selle funktsiooni kohta leiate [sellest dokumentatsioonist](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Leia kauplused režiim
 
@@ -157,11 +156,11 @@ Kaupluse valija mooduli konfigureerimiseks, et näidata kaupluse asukohtade lehe
 
 [Ostukorvi ja väljaregistreerimise lühiülevaade](quick-tour-cart-checkout.md)
 
-[Tarneviiside häälestamine](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Tarneviiside häälestamine](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Organisatsiooni Bingi kaartide haldamine](dev-itpro/manage-bing-maps.md)
 
-[Bing Maps REST API-d](https://docs.microsoft.com/bingmaps/rest-services/)
+[Bing Maps REST API-d](/bingmaps/rest-services/)
 
 [Kaardimoodul](map-module.md)
 

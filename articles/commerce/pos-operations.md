@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804277"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027644"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -64,7 +64,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 642 | Tarni kõik tooted | Määrake kõigi ridade tarneviisiks **Järeletulemine**. | Jah | Jah | Ei | Jah\* | Ei |
 | 641 | Tarni valitud tooted | Määrake valitud ridade tarneviisiks **Järeletulemine**. | Jah | Jah | Ei | Jah\* | Ei |
 | 647 | Tarnerežiimi muutmine | Muutke tarneviisi eelkonfigureeritud tarne müügiridade jaoks. | Jah | Jah | Ei | Ei| Ei |
-| 1215 | Muuda parooli | Operatsioon võimaldab kassa kasutajal oma parooli muuta. | Jah | Jah | Jah | Ei | Ei |
+| 1215 | Muuda parooli | Operatsioon võimaldab kassa kasutajal muuta oma parooli. | Jah | Jah | Jah | Ei | Ei |
 | 123 | Muuda mõõtühikut | Muutke valitud rea kauba mõõtühikut. | Jah | Jah | Ei | Jah | Ei |
 | 639 | Tühjenda kandest vaikemüügiesindaja | Eemaldage komisjonitasu müügigrupp (müügiesindaja) kandest. | Jah | Jah | Ei | Jah | Ei |
 | 106 | Tühjenda kogus | Lähtestage valitud rea kogus väärtusele **1**. | Jah | Jah | Ei | Jah | Ei |

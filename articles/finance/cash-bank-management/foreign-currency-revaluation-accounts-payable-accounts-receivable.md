@@ -1,6 +1,6 @@
 ---
 title: Ostureskontro ja müügireskontro valuuta ümberarvutamine
-description: Vahetuskursside kõikumised põhjustavad välisvaluutades avatud kannete teoreetilise väärtuse (raamatupidamisliku väärtuse) erinevusi ajas. See artikkel annab teavet välisvaluuta ümberarvutamise protsessi kohta, mida kasutatakse avatud kannete väärtuse uuendamiseks Ostureskontros ja Müügireskontros.
+description: See artikkel annab teavet välisvaluuta ümberarvutamise protsessi kohta, mida kasutatakse avatud kannete väärtuse uuendamiseks ostureskontros ja müügireskontros.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e9a4bfdad4e69b13d7b0324f4978f13d6d295
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815904"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026153"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Ostureskontro ja müügireskontro valuuta ümberarvutamine
 
 [!include [banner](../includes/banner.md)]
 
-Vahetuskursside kõikumised põhjustavad välisvaluutades avatud kannete teoreetilise väärtuse (raamatupidamisliku väärtuse) erinevusi ajas. See artikkel annab teavet välisvaluuta ümberarvutamise protsessi kohta, mida kasutatakse avatud kannete väärtuse uuendamiseks Ostureskontros ja Müügireskontros. 
+Vahetuskursside kõikumised põhjustavad välisvaluutades avatud kannete teoreetilise väärtuse (raamatupidamisliku väärtuse) erinevusi ajas. See artikkel annab teavet välisvaluuta ümberarvutamise protsessi kohta, mida kasutatakse avatud kannete väärtuse uuendamiseks ostureskontros ja müügireskontros. 
 
 Välisvaluuta avatud kannete teoreetiline väärtus või raamatupidamislik jääkväärtus muutub aja jooksul sõltuvalt vahetuskursside kõikumisest. Avatud kannete uuendamiseks Ostureskontros ja Müügireskontros käitage välisvaluuta ümberarvutamise protsessi. Välisvaluuta ümberarvutamist saab kasutada nii Ostureskontro kui ka Müügireskontro puhul. Protsess kasutab avatud summade või tasakaalustamata summade ümberarvutamiseks määratud kuupäeva uut valuutakurssi. Algselt sisestatud summade ja ümberarvutatud summade erinevused põhjustavad igale avatud kandele realiseerimata kasumi või kahjumi. Seejärel uuendatakse Ostureskontro ja Müügireskontro alammooduleid, et kajastada realiseerimata kasumit või kahjumit, ja pearaamatusse sisestatakse raamatupidamise kirje.
 
@@ -55,7 +55,7 @@ Välisvaluuta ümberarvutamise käitamisel luuakse alati seda kajastav kirje. Ü
     -   **Sisestamine** – kasutatakse kliendikande sisestusreeglit.
     -   **Valimine** – sisestusreeglid sisestatakse väljal **Sisestusreeglid**.
 -   **Sisestusreeglid** – kui väljal **Kasuta sisestusreegleid** on tehtud valik **Vali**, määratakse välisvaluuta ümberarvutamise kannete sisestusprofiil sellel väljal oleva sisestusprofiiliga.
--   **Finantsdimensioonid** – finantsdimensioonid, mis sisestatakse välisvaluuta ümberarvutamise raamatupidamise kirjetesse.
+-   **Finantsdimensioonid** – finantsdimensioonid, mis sisestatakse välisvaluuta ümberarvutamise raamatupidamise kirjetesse. Finantsdimensioone ei kontrollita konto struktuuri reeglite alusel. Arvete sisestamise ajal kehtestatud konto struktuur ei pruugi olla sama, mis ümberhindamise lõpuleviimisel kehtestatud reeglid. Ümberhindamisprotsessis pole valikut kindlate finantsdimensioonide valimiseks, nii et konto struktuuri kinnitamine jäetakse vahele.  
     -   **Puudub** – finantsdimensioonide pole sisestatud. Nõutava finantsdimensiooni olemasolul konto struktuuris käitatakse siiski ümberarvutamise protsess, mille tulemusena luuakse finantsdimensioonideta raamatupidamise kirjed. Enne aga saate hoiatusteate, nii et saate ümberarvutamise tühistada.
     -   **Tabel** – kliendi või hankija konto finantsdimensioonid sisestatakse välisvaluuta ümberarvutamise kannetesse.
     -   **Sisestamine** – ümber arvutatava kande finantsdimensioonid sisestatakse välisvaluuta ümberarvutamise kannetesse. Vaikimisi kasutatakse algse AR/AP pearaamatukonto finantsdimensioone AR/AP põhikonto ümberarvutamise kandes ning algse kulu/vara/tulu pearaamatukonto kande finantsdimensioone kasutatakse realiseerimata kasumi/kahjumi põhikonto ümberarvutamise kandes.

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857269"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018827"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
@@ -158,7 +158,7 @@ Võrguaadressiga sularahasahtleid, kviitungiprintereid ja makseterminale saab ka
 
 ### <a name="dedicated"></a>Sihtotstarbeline
 
-Modern POS-i kliendid Windowsi ja Androidi jaoks hõlmavad **sihtotstarbelisi** või sisseehitatud riistvarajaamu. Need kliendid saavad suhelda välisseadmetega otse, kasutades äriloogikat, mis on rakendustesse sisse ehitatud. Androidi rakendus toetab ainult võrguseadmeid. Lisateabe saamiseks Androidi välisseadmete toe kohta külastage artiklit [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Modern POS-i kliendid Windowsi ja Androidi jaoks hõlmavad **sihtotstarbelisi** või sisseehitatud riistvarajaamu. Need kliendid saavad suhelda välisseadmetega otse, kasutades äriloogikat, mis on rakendustesse sisse ehitatud. Androidi rakendus toetab ainult võrguseadmeid. Lisateabe saamiseks Androidi välisseadmete toe kohta külastage artiklit [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md).
 
 Sihtotstarbelise riistvarajaama kasutamiseks määrake riistvaraprofiil registrile, mis kasutab Windowsi või Androidi avalduste jaoks Modern POS-i. Seejärel looge kauplusele, kus registrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Käivitage Modern POS kassavälises režiimis ja kasutage toimingut **Halda riistvarajaamasid**, et lülitada sisse riistvarajaama võimalused. Sihtotstarbeline riistvarajaam on vaikimisi aktiivne. Järgmisena logige Modern POS-ist välja, seejärel logige tagasi sisse ja avage vahetus ning riistvara profiilis konfigureeritud välisseadmed on kasutatavad. 
 
@@ -199,7 +199,7 @@ Teavet vt [Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS Androidile ja iOS-ile seadistamine ja konfigureerimine
 
-Teavet vt [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Teavet vt [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS-i seadme seadistamine ja konfigureerimine
 
@@ -494,7 +494,7 @@ See konfiguratsioon on tavapäraste fikseeritud kassaregistrite puhul kõige lev
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Androidile
 
-**10.0.8 jaoks uus** – Epsoni võrguprinterid ja nende printeritega DK-pordi kaudu ühendatud sularahasahtlid on nüüd Androidi rakenduse Modern POS jaoks toetatud. Üksikasjade jaoks külastage teemat [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**10.0.8 jaoks uus** – Epsoni võrguprinterid ja nende printeritega DK-pordi kaudu ühendatud sularahasahtlid on nüüd Androidi rakenduse Modern POS jaoks toetatud. Üksikasjade jaoks külastage teemat [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on kooskõlastatud ühine IIS-i riistvarajaam
 
@@ -614,6 +614,9 @@ Järgmisi välisseadmeid testiti rakendusse Modern POS Windowsile integreeritud 
 | Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud   |
 | Star         | mPOP     | OPOS      | Bluetoothi kaudu ühendatud |
 | HP           | F7M67AA  | OPOS      | USB-toitel             |
+
+> [!NOTE]
+> Täheprinterit TSP 100 ei toetata integreeritud riistvarajaama puhul. Integreeritud riistvarajaamas kasutatakse 64-bitiset protsessi, mis ei ühildu olemasoleva Star TP 100 draiveriga. 
 
 #### <a name="bar-code-scanner"></a>Vöötkoodilugeja
 

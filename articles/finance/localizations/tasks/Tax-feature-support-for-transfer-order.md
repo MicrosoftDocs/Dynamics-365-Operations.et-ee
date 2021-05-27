@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920951"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021365"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Maksufunktsiooni tugi üleviimistellimuste jaoks
 
@@ -41,7 +40,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
 
 1. **Maksufunktsioonide** lehe vahekaardil **Versioonid** valige mustandi funktsiooni versioon ja seejärel valige käsk **Redigeeri**.
 
-    ![Redigeerimise valimine](../media/image1.png)
+    ![Redigeerimise valimine](../media/tax-feature-support-01.png)
 
 2. Uute maksukoodide loomiseks valige **Maksufunktsiooni seadistamise** lehel vahekaardil **Maksukoodid** suvand **Lisa**. Selles näites luuakse kolm maksukoodi: **NL-maksuvaba**, **BE-RC-21** ja **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         4. Valige tabelis **Määr** suvand **Lisa**.
         5. Lülitage valikul **On maksuvabastus** sisse nupp **Jah** jaotises **Üldine**.
 
-        ![NL-maksuvabastuse maksukood](../media/image2.png)
+        ![NL-maksuvabastuse maksukood](../media/tax-feature-support-02.png)
 
     - Kui üleviimistellimus on vastu võetud Belgia lattu, rakendatakse pöördtasu mehhanism, kasutades maksukoode **BE-RC-21** ja **BE-RC+21**.
         
@@ -67,7 +66,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         6. Lülitage valikul **On pöördmaks** sisse nupp **Jah** jaotises **Üldine**.
         7. Valige käsk **Salvesta**.
 
-        ![BE-RC-21 maksukood pöördmaksude jaoks](../media/image3.png)
+        ![BE-RC-21 maksukood pöördmaksude jaoks](../media/tax-feature-support-03.png)
         
         Looge maksukood **BE-RC+21**.
         1. Valige suvand **Lisa**, sisestage **BE-RC-21** väljale **Maksukood**.
@@ -77,7 +76,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         5. Sisestage väljale **Maksumäär** väärtus **21**.
         6. Valige käsk **Salvesta**.
 
-        ![BE-RC+21 maksukood pöördmaksude jaoks](../media/image4.png)
+        ![BE-RC+21 maksukood pöördmaksude jaoks](../media/tax-feature-support-04.png)
 
 3. Määratlege maksukoodide kohaldatavus.
 

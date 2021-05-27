@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944409"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980945"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -58,7 +58,10 @@ Skaala ühikutel on järgmised andmed:
   - **Üleviimistellimused** (ainult väljaminek lihtsa komplekteerimis- ja laadimistööga)
 
 - **Lao tellimuse kviitungi andmed** – neid andmeid kasutatakse ainult nende ostutellimuste puhul, mis on lattu käsitsi väljastatud.
-- **Numbrimärgi andmed** – Numbrimärke saab luua keskuses ja skaala ühikus. Ette on nähtud spetsiaalne konfliktide käsitlemine. Pidage meeles, et need andmed ei ole lao-spetsiifilised.
+- **Litsentsimärgi andmed** – Numbrimärke saab luua nii keskuses kui skaala ühikus. Ette on nähtud spetsiaalne konfliktide käsitlemine. 
+
+    > [!IMPORTANT]
+    > Litsentsimärgi andmed ei ole lao-spetsiifilised. Kui sama litsentsimärgi number luuakse nii keskusesse kui kaaluühikusse sama sünkroonimistsükli jooksul, ebaõnnestub järgmine sünkroonimine. Sel juhul minge **Süsteemihaldus > Päringud > Töökoormuse päringud > Duplikaatkirjed** kus saate andmeid vaadata ja ühendada.
 
 ## <a name="outbound-process-flow"></a>Väljamineva protsessi voog
 

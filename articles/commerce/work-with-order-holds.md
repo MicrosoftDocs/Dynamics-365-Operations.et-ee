@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800379"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027452"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine
 
@@ -53,7 +53,7 @@ Kui ooteloleku teave on sisestatud ja salvestatud, saab kasutaja lehe **Ootelole
 
 Kui kõnekeskuse kanalil on lipp **Tellimuse lõpetamise lubamine** sisse lülitatud, ei tule ootele pandud tellimusele makset rakendada. Kuid müügitellimuse korral, mis pole ootele pandud, ei saa kasutajad müügitellimuse sisestamise lehelt lahkuda enne, kui makse on rakendatud. Muidugi tuleb makse rakendada enne, kui tellimuse ootel olek vabastatakse.
 
-Lisaks saavad kõnekeskuse kasutajad mingil põhjusel kahtlaseid tellimusi pettuse ohu tõttu käsitsi ootele panna. Tellimusi saab ka automaatselt ootele panna, kui need vastavad aktiivsetele pettuse kriteeriumidele ja reeglitele. Lisateavet tellimuse ooteloleku selle tüübi kohta vt teemast [Pettuseteatiste seadistamine](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Lisaks saavad kõnekeskuse kasutajad mingil põhjusel kahtlaseid tellimusi pettuse ohu tõttu käsitsi ootele panna. Tellimusi saab ka automaatselt ootele panna, kui need vastavad aktiivsetele pettuse kriteeriumidele ja reeglitele. Lisateavet tellimuse ooteloleku selle tüübi kohta vt teemast [Pettuseteatiste seadistamine](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Ootel olevate tellimuste vaatamine ja haldamine
 

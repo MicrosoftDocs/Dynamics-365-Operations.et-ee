@@ -2,11 +2,9 @@
 title: Microsoft Teams ettevalmistamine rakendusest Dynamics 365 Commerce
 description: See teema kirjeldab, kuidas ette valmistada Microsoft Teams kasutades Dynamics 365 Commerce organisatsiooni andmeid.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908900"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022442"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Microsoft Teams ettevalmistamine rakendusest Dynamics 365 Commerce
 
@@ -75,9 +73,9 @@ Faili üleslaadimiseks Commerce'i organisatsiooni hierarhiast Teamsi toimige jä
     
 1. Commerce'i peakontoris minge asukohta **Jaemüük ja kaubandus \> Kanali seadistamine \> Microsoft Teams integratsiooni konfiguratsioon**.
 1. Valige **Allalaadimise sihthierarhia** ja valige seejärel **Jaemüügikauplused regiooni järgi**, et laadida alla organisatsiooni hierarhia komaeraldusega väärtused (CSV).
-1. Installige Microsoft Teams PowerShelli moodul, järgides etappie jaotises [Microsoft TeamsPowerShelli installimine](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Installige Microsoft Teams PowerShelli moodul, järgides etappie jaotises [Microsoft TeamsPowerShelli installimine](/microsoftteams/teams-powershell-install).
 1. Kui ilmub aknas Teams PowerShell teade, logige sisse, kasutades oma rentniku Azure AD administraatori kontot.
-1. Järgige samme jaotises [Meeskonna sihthierarhia seadistamine](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy) CSV-faili üleslaadimiseks sihthierarhia jaoks.
+1. Järgige samme jaotises [Meeskonna sihthierarhia seadistamine](/microsoftteams/set-up-your-team-hierarchy) CSV-faili üleslaadimiseks sihthierarhia jaoks.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Veenduge, et organisatsiooni hierarhia oleks Teamsi üles laaditud.
 
