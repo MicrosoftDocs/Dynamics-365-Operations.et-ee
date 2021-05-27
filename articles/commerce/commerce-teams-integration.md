@@ -2,11 +2,9 @@
 title: Dynamics 365 Commerce ja Microsoft Teams integratsiooni ülevaade
 description: Selles teemas antakse ülevaade Microsoft Dynamics 365 Commerce ja Microsoft Teams integratsioonist.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,55 +13,55 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b9289aca4f53eb2ae8f1fa06d5f80b7ee0bbab8e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908463"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021985"
 ---
-# <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a><span data-ttu-id="9eb54-103">Dynamics 365 Commerce ja Microsoft Teams integratsiooni ülevaade</span><span class="sxs-lookup"><span data-stu-id="9eb54-103">Dynamics 365 Commerce and Microsoft Teams integration overview</span></span>
+# <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a><span data-ttu-id="a307d-103">Dynamics 365 Commerce ja Microsoft Teams integratsiooni ülevaade</span><span class="sxs-lookup"><span data-stu-id="a307d-103">Dynamics 365 Commerce and Microsoft Teams integration overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="9eb54-104">Selles teemas antakse ülevaade Microsoft Dynamics 365 Commerce ja Microsoft Teams integratsioonist.</span><span class="sxs-lookup"><span data-stu-id="9eb54-104">This topic presents an overview of Microsoft Dynamics 365 Commerce and Microsoft Teams integration.</span></span>
+<span data-ttu-id="a307d-104">Selles teemas antakse ülevaade Microsoft Dynamics 365 Commerce ja Microsoft Teams integratsioonist.</span><span class="sxs-lookup"><span data-stu-id="a307d-104">This topic presents an overview of Microsoft Dynamics 365 Commerce and Microsoft Teams integration.</span></span>
 
-<span data-ttu-id="9eb54-105">Dynamics 365 Commerce integreerub rakendusega Teams, et aidata kliente ja nende töötajaid, parandades tööviljakust kahe rakenduse vahelisi ülesandeid sünkroonides.</span><span class="sxs-lookup"><span data-stu-id="9eb54-105">Dynamics 365 Commerce is integrating with Teams to help customers and their employees improve productivity by synchronizing task management between the two applications.</span></span> <span data-ttu-id="9eb54-106">Rakenduse Commerce and Teams sujuvam ülesande haldus võimaldab kaupluste juhatajal ja töötajal luua ülesannete loendeid, määrata ülesandeid mitmele kauplusele ja jälgida toimingute olekut kauplustes olenemata millisest rakendusest seda tehti.</span><span class="sxs-lookup"><span data-stu-id="9eb54-106">The seamless task management that Commerce and Teams integration provides lets store managers and employees create task lists, assign tasks to multiple stores, and track the status of tasks across stores, from either application.</span></span>
+<span data-ttu-id="a307d-105">Dynamics 365 Commerce integreerub rakendusega Teams, et aidata kliente ja nende töötajaid, parandades tööviljakust kahe rakenduse vahelisi ülesandeid sünkroonides.</span><span class="sxs-lookup"><span data-stu-id="a307d-105">Dynamics 365 Commerce is integrating with Teams to help customers and their employees improve productivity by synchronizing task management between the two applications.</span></span> <span data-ttu-id="a307d-106">Rakenduse Commerce and Teams sujuvam ülesande haldus võimaldab kaupluste juhatajal ja töötajal luua ülesannete loendeid, määrata ülesandeid mitmele kauplusele ja jälgida toimingute olekut kauplustes olenemata millisest rakendusest seda tehti.</span><span class="sxs-lookup"><span data-stu-id="a307d-106">The seamless task management that Commerce and Teams integration provides lets store managers and employees create task lists, assign tasks to multiple stores, and track the status of tasks across stores, from either application.</span></span>
 
-<span data-ttu-id="9eb54-107">Commerce and Teamsi integreerimine on saadaval rakenduse Commerce versiooni 10.0.18 väljalaskest.</span><span class="sxs-lookup"><span data-stu-id="9eb54-107">Commerce and Teams integration is available as of the Commerce version 10.0.18 release.</span></span>
+<span data-ttu-id="a307d-107">Commerce and Teamsi integreerimine on saadaval rakenduse Commerce versiooni 10.0.18 väljalaskest.</span><span class="sxs-lookup"><span data-stu-id="a307d-107">Commerce and Teams integration is available as of the Commerce version 10.0.18 release.</span></span>
 
-## <a name="key-features"></a><span data-ttu-id="9eb54-108">Võtmefunktsioonid</span><span class="sxs-lookup"><span data-stu-id="9eb54-108">Key features</span></span>
+## <a name="key-features"></a><span data-ttu-id="a307d-108">Võtmefunktsioonid</span><span class="sxs-lookup"><span data-stu-id="a307d-108">Key features</span></span>
 
-<span data-ttu-id="9eb54-109">Need on mõned Commerce ja Microsoft Teams integratsiooni põhifunktsioonid:</span><span class="sxs-lookup"><span data-stu-id="9eb54-109">Here are some of the key features that the Commerce and Microsoft Teams integration provides:</span></span>
+<span data-ttu-id="a307d-109">Need on mõned Commerce ja Microsoft Teams integratsiooni põhifunktsioonid:</span><span class="sxs-lookup"><span data-stu-id="a307d-109">Here are some of the key features that the Commerce and Microsoft Teams integration provides:</span></span>
 
-- <span data-ttu-id="9eb54-110">Kasutage rakendust Teams kasutades Commerce'is määratletud teavet, nagu organisatsiooniline struktuur ja teave kaupluste, töötajate, õiguste ja ärikonteksti kohta.</span><span class="sxs-lookup"><span data-stu-id="9eb54-110">Provision Teams by taking advantage of well-defined information from Commerce, such as the organizational structure and information about stores, workers, permissions, and business context.</span></span>
-- <span data-ttu-id="9eb54-111">Saate hõlpsalt sünkroonida Commerce ja Teams vahelisi jooksvaid muudatusi (nt uute poodide lisamine või uute töötajate palkamine), kuid säilitada Commerce organisatsioonilist struktuuri andmete põhiallikana.</span><span class="sxs-lookup"><span data-stu-id="9eb54-111">Easily synchronize ongoing changes (for example, the addition of new stores or hiring of new employees) between Commerce and Teams, but keep Commerce as the master source of organizational structure data.</span></span>
-- <span data-ttu-id="9eb54-112">Integreerige Commerce ja Teams vahelisi ülesannete haldust, et aidata salvestada töötajaid, kaupluste juhatajaid, piirkonnajuhid ja kommunikatsioonijuhid ülesandehaldust ükskõik kummast rakendusest.</span><span class="sxs-lookup"><span data-stu-id="9eb54-112">Integrate task management between Commerce and Teams to help store workers, store managers, regional managers, and communications managers handle task management from either application.</span></span>
+- <span data-ttu-id="a307d-110">Kasutage rakendust Teams kasutades Commerce'is määratletud teavet, nagu organisatsiooniline struktuur ja teave kaupluste, töötajate, õiguste ja ärikonteksti kohta.</span><span class="sxs-lookup"><span data-stu-id="a307d-110">Provision Teams by taking advantage of well-defined information from Commerce, such as the organizational structure and information about stores, workers, permissions, and business context.</span></span>
+- <span data-ttu-id="a307d-111">Saate hõlpsalt sünkroonida Commerce ja Teams vahelisi jooksvaid muudatusi (nt uute poodide lisamine või uute töötajate palkamine), kuid säilitada Commerce organisatsioonilist struktuuri andmete põhiallikana.</span><span class="sxs-lookup"><span data-stu-id="a307d-111">Easily synchronize ongoing changes (for example, the addition of new stores or hiring of new employees) between Commerce and Teams, but keep Commerce as the master source of organizational structure data.</span></span>
+- <span data-ttu-id="a307d-112">Integreerige Commerce ja Teams vahelisi ülesannete haldust, et aidata salvestada töötajaid, kaupluste juhatajaid, piirkonnajuhid ja kommunikatsioonijuhid ülesandehaldust ükskõik kummast rakendusest.</span><span class="sxs-lookup"><span data-stu-id="a307d-112">Integrate task management between Commerce and Teams to help store workers, store managers, regional managers, and communications managers handle task management from either application.</span></span>
 
-## <a name="prerequisites-for-using-integration-features"></a><span data-ttu-id="9eb54-113">Integratsioonifunktsiooni kasutamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="9eb54-113">Prerequisites for using integration features</span></span>
+## <a name="prerequisites-for-using-integration-features"></a><span data-ttu-id="a307d-113">Integratsioonifunktsiooni kasutamise eeltingimused</span><span class="sxs-lookup"><span data-stu-id="a307d-113">Prerequisites for using integration features</span></span>
 
-<span data-ttu-id="9eb54-114">Enne Microsoft Teams integratsioonifunktsiooni kasutamist peavad olema täidetud järgmised eeltingimused:</span><span class="sxs-lookup"><span data-stu-id="9eb54-114">The following prerequisites must be in place before you can start to use Microsoft Teams integration features:</span></span>
+<span data-ttu-id="a307d-114">Enne Microsoft Teams integratsioonifunktsiooni kasutamist peavad olema täidetud järgmised eeltingimused:</span><span class="sxs-lookup"><span data-stu-id="a307d-114">The following prerequisites must be in place before you can start to use Microsoft Teams integration features:</span></span>
 
-- <span data-ttu-id="9eb54-115">Microsoft 365 Business Standard litsents (see litsents sisaldab rakendust Teams.)</span><span class="sxs-lookup"><span data-stu-id="9eb54-115">Microsoft 365 Business Standard License (This license includes Teams.)</span></span>
-- <span data-ttu-id="9eb54-116">Azure Active Directory (Azure AD) kontod kõigile kaupluse juhatajatele ja töötajatele</span><span class="sxs-lookup"><span data-stu-id="9eb54-116">Azure Active Directory (Azure AD) accounts for all store managers and workers</span></span>
-- <span data-ttu-id="9eb54-117">Azure AD autentimisega konfigureeritud kassasüsteemid</span><span class="sxs-lookup"><span data-stu-id="9eb54-117">Point of sale (POS) systems that are configured with Azure AD authentication</span></span>
+- <span data-ttu-id="a307d-115">Microsoft 365 Business Standard litsents (see litsents sisaldab rakendust Teams.)</span><span class="sxs-lookup"><span data-stu-id="a307d-115">Microsoft 365 Business Standard License (This license includes Teams.)</span></span>
+- <span data-ttu-id="a307d-116">Azure Active Directory (Azure AD) kontod kõigile kaupluse juhatajatele ja töötajatele</span><span class="sxs-lookup"><span data-stu-id="a307d-116">Azure Active Directory (Azure AD) accounts for all store managers and workers</span></span>
+- <span data-ttu-id="a307d-117">Azure AD autentimisega konfigureeritud kassasüsteemid</span><span class="sxs-lookup"><span data-stu-id="a307d-117">Point of sale (POS) systems that are configured with Azure AD authentication</span></span>
 
-## <a name="conceptual-architecture"></a><span data-ttu-id="9eb54-118">Kontseptuaalne arhitektuur</span><span class="sxs-lookup"><span data-stu-id="9eb54-118">Conceptual architecture</span></span>
+## <a name="conceptual-architecture"></a><span data-ttu-id="a307d-118">Kontseptuaalne arhitektuur</span><span class="sxs-lookup"><span data-stu-id="a307d-118">Conceptual architecture</span></span>
 
-<span data-ttu-id="9eb54-119">Järgmine näide näitab kontseptuaalset Dynamics 365 Commerce ja Microsoft Teams integratsiooni ülesehitust, kasutades näitena San Francisco kauplust.</span><span class="sxs-lookup"><span data-stu-id="9eb54-119">The following illustration shows the conceptual architecture of Dynamics 365 Commerce and Microsoft Teams integration, using a San Francisco store as an example.</span></span> <span data-ttu-id="9eb54-120">Nii Teamsi kui ka Commerce kassarakendus kasutab hoidlana Microsoft Plannerit, nii et Teamsis avaldatud ülesanded ilmuvad kassarakenduses ja kassahaldurite loodud sihtülesanded ilmuvad Teamsis, mistõttu rakenduste vahel toimub tõrgeteta ülesannete haldus.</span><span class="sxs-lookup"><span data-stu-id="9eb54-120">Both Teams and the Commerce POS application use Microsoft Planner as a repository so that tasks published from Teams appear in the POS application and ad hoc tasks created by store managers in the POS application appear in Teams, resulting in a seamless task management experience between the applications.</span></span>    
+<span data-ttu-id="a307d-119">Järgmine näide näitab kontseptuaalset Dynamics 365 Commerce ja Microsoft Teams integratsiooni ülesehitust, kasutades näitena San Francisco kauplust.</span><span class="sxs-lookup"><span data-stu-id="a307d-119">The following illustration shows the conceptual architecture of Dynamics 365 Commerce and Microsoft Teams integration, using a San Francisco store as an example.</span></span> <span data-ttu-id="a307d-120">Nii Teamsi kui ka Commerce kassarakendus kasutab hoidlana Microsoft Plannerit, nii et Teamsis avaldatud ülesanded ilmuvad kassarakenduses ja kassahaldurite loodud sihtülesanded ilmuvad Teamsis, mistõttu rakenduste vahel toimub tõrgeteta ülesannete haldus.</span><span class="sxs-lookup"><span data-stu-id="a307d-120">Both Teams and the Commerce POS application use Microsoft Planner as a repository so that tasks published from Teams appear in the POS application and ad hoc tasks created by store managers in the POS application appear in Teams, resulting in a seamless task management experience between the applications.</span></span>    
 
 ![Commerce ja Teamsi integratsiooni ülesehitus](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="9eb54-122">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="9eb54-122">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a307d-122">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="a307d-122">Additional resources</span></span>
 
-[<span data-ttu-id="9eb54-123">Dynamics 365 Commerce ja Microsoft Teams integratsiooni lubamine</span><span class="sxs-lookup"><span data-stu-id="9eb54-123">Enable Dynamics 365 Commerce and Microsoft Teams integration</span></span>](enable-teams-integration.md)
+[<span data-ttu-id="a307d-123">Dynamics 365 Commerce ja Microsoft Teams integratsiooni lubamine</span><span class="sxs-lookup"><span data-stu-id="a307d-123">Enable Dynamics 365 Commerce and Microsoft Teams integration</span></span>](enable-teams-integration.md)
 
-[<span data-ttu-id="9eb54-124">Microsoft Teams sätted rakendusest Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="9eb54-124">Provision Microsoft Teams from Dynamics 365 Commerce</span></span>](provision-teams-from-commerce.md)
+[<span data-ttu-id="a307d-124">Microsoft Teams sätted rakendusest Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="a307d-124">Provision Microsoft Teams from Dynamics 365 Commerce</span></span>](provision-teams-from-commerce.md)
 
-[<span data-ttu-id="9eb54-125">Ülesannete halduse sünkroonimine Microsoft Teams ja Dynamics 365 Commerce kassade vahel</span><span class="sxs-lookup"><span data-stu-id="9eb54-125">Synchronize task management between Microsoft Teams and Dynamics 365 Commerce POS</span></span>](synchronize-tasks-teams-pos.md)
+[<span data-ttu-id="a307d-125">Ülesannete halduse sünkroonimine Microsoft Teams ja Dynamics 365 Commerce kassade vahel</span><span class="sxs-lookup"><span data-stu-id="a307d-125">Synchronize task management between Microsoft Teams and Dynamics 365 Commerce POS</span></span>](synchronize-tasks-teams-pos.md)
 
-[<span data-ttu-id="9eb54-126">Kasutaja rollide haldamine rakenduses Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9eb54-126">Manage user roles in Microsoft Teams</span></span>](manage-user-roles-teams.md)
+[<span data-ttu-id="a307d-126">Kasutaja rollide haldamine rakenduses Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a307d-126">Manage user roles in Microsoft Teams</span></span>](manage-user-roles-teams.md)
 
-[<span data-ttu-id="9eb54-127">Kaupluste ja töörühmade vastendamine, kui töörühmad on olemas rakenduses Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9eb54-127">Map stores and teams if there are pre-existing teams in Microsoft Teams</span></span>](map-stores-existing-teams.md)
+[<span data-ttu-id="a307d-127">Kaupluste ja töörühmade vastendamine, kui töörühmad on olemas rakenduses Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a307d-127">Map stores and teams if there are pre-existing teams in Microsoft Teams</span></span>](map-stores-existing-teams.md)
 
-[<span data-ttu-id="9eb54-128">Dynamics 365 Commerce ja Microsoft Teams integratsiooni KKK</span><span class="sxs-lookup"><span data-stu-id="9eb54-128">Dynamics 365 Commerce and Microsoft Teams integration FAQ</span></span>](teams-integration-faq.md)
+[<span data-ttu-id="a307d-128">Dynamics 365 Commerce ja Microsoft Teams integratsiooni KKK</span><span class="sxs-lookup"><span data-stu-id="a307d-128">Dynamics 365 Commerce and Microsoft Teams integration FAQ</span></span>](teams-integration-faq.md)
