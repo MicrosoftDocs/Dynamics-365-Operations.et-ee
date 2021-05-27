@@ -5,7 +5,6 @@ author: ilyako
 ms.date: 03/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,50 +15,50 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5b0305381ee709ce52b18d171a1ea274e2126cce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827694"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018974"
 ---
-# <a name="archive-printed-customer-invoices-with-hash-numbers"></a><span data-ttu-id="851ef-103">Arhiivi prinditud kliendi arved räsinumbritega</span><span class="sxs-lookup"><span data-stu-id="851ef-103">Archive printed customer invoices with hash numbers</span></span>
+# <a name="archive-printed-customer-invoices-with-hash-numbers"></a><span data-ttu-id="461a6-103">Arhiivi prinditud kliendi arved räsinumbritega</span><span class="sxs-lookup"><span data-stu-id="461a6-103">Archive printed customer invoices with hash numbers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="851ef-104">Mõnedes riikides on juriidiline nõue talletada süsteemis arvutatud räsinumbrid koos mõne dokumendi väljaprintiga.</span><span class="sxs-lookup"><span data-stu-id="851ef-104">In some countries, there is a legal requirement to store calculated hash numbers in the system together with printouts of some documents.</span></span> <span data-ttu-id="851ef-105">Räsinumbreid saab kasutada ametivõimudele aruandluseks ja auditi ajal.</span><span class="sxs-lookup"><span data-stu-id="851ef-105">Hash numbers can be used for reporting to authorities and during audits.</span></span>
+<span data-ttu-id="461a6-104">Mõnedes riikides on juriidiline nõue talletada süsteemis arvutatud räsinumbrid koos mõne dokumendi väljaprintiga.</span><span class="sxs-lookup"><span data-stu-id="461a6-104">In some countries, there is a legal requirement to store calculated hash numbers in the system together with printouts of some documents.</span></span> <span data-ttu-id="461a6-105">Räsinumbreid saab kasutada ametivõimudele aruandluseks ja auditi ajal.</span><span class="sxs-lookup"><span data-stu-id="461a6-105">Hash numbers can be used for reporting to authorities and during audits.</span></span>
 
-<span data-ttu-id="851ef-106">See teema kirjeldab, kuidas lubada arhiveerimine, et talletada prinditud kliendiarved koos räsinumbritega.</span><span class="sxs-lookup"><span data-stu-id="851ef-106">This topic explains how to configure archiving in order to store printed customer invoices with hash numbers.</span></span>
+<span data-ttu-id="461a6-106">See teema kirjeldab, kuidas lubada arhiveerimine, et talletada prinditud kliendiarved koos räsinumbritega.</span><span class="sxs-lookup"><span data-stu-id="461a6-106">This topic explains how to configure archiving in order to store printed customer invoices with hash numbers.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="851ef-107">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="851ef-107">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="461a6-107">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="461a6-107">Prerequisites</span></span>
 
-- <span data-ttu-id="851ef-108">**Funktsioonihalduse** tööruumis lülitage funktsioon sisse, **arhiveerige prinditud kliendiarved koos numbriga**.</span><span class="sxs-lookup"><span data-stu-id="851ef-108">In the **Feature management** workspace, turn on the feature, **Archive printed customer invoices with hash numbers**.</span></span> <span data-ttu-id="851ef-109">Lisateavet vt [Funktsioonihalduse ülevaatest](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="851ef-109">For more information, see [Feature management overview](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
-- <span data-ttu-id="851ef-110">**Prindihalduses** tuleb konfigureerida nõutud dokumentide prinditavad vormingud.</span><span class="sxs-lookup"><span data-stu-id="851ef-110">Configure the printable formats of required documents in **Print management**.</span></span>
+- <span data-ttu-id="461a6-108">**Funktsioonihalduse** tööruumis lülitage funktsioon sisse, **arhiveerige prinditud kliendiarved koos numbriga**.</span><span class="sxs-lookup"><span data-stu-id="461a6-108">In the **Feature management** workspace, turn on the feature, **Archive printed customer invoices with hash numbers**.</span></span> <span data-ttu-id="461a6-109">Lisateavet vt [Funktsioonihalduse ülevaatest](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="461a6-109">For more information, see [Feature management overview](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+- <span data-ttu-id="461a6-110">**Prindihalduses** tuleb konfigureerida nõutud dokumentide prinditavad vormingud.</span><span class="sxs-lookup"><span data-stu-id="461a6-110">Configure the printable formats of required documents in **Print management**.</span></span>
 
-<span data-ttu-id="851ef-111">See funktsioon on rakendatav järgmiste dokumentide puhul.</span><span class="sxs-lookup"><span data-stu-id="851ef-111">This functionality is applicable to the following documents.</span></span>
+<span data-ttu-id="461a6-111">See funktsioon on rakendatav järgmiste dokumentide puhul.</span><span class="sxs-lookup"><span data-stu-id="461a6-111">This functionality is applicable to the following documents.</span></span>
 
-<span data-ttu-id="851ef-112">**Müügireskontro**</span><span class="sxs-lookup"><span data-stu-id="851ef-112">**Accounts receivable**</span></span>
-- <span data-ttu-id="851ef-113">Kliendiarve</span><span class="sxs-lookup"><span data-stu-id="851ef-113">Customer invoice</span></span>
-- <span data-ttu-id="851ef-114">Kliendi kreeditarve</span><span class="sxs-lookup"><span data-stu-id="851ef-114">Customer credit note</span></span>
-- <span data-ttu-id="851ef-115">Vabas vormis arve</span><span class="sxs-lookup"><span data-stu-id="851ef-115">Free text invoice</span></span>
-- <span data-ttu-id="851ef-116">Vabas vormis kreeditarve</span><span class="sxs-lookup"><span data-stu-id="851ef-116">Free text credit note</span></span>
+<span data-ttu-id="461a6-112">**Müügireskontro**</span><span class="sxs-lookup"><span data-stu-id="461a6-112">**Accounts receivable**</span></span>
+- <span data-ttu-id="461a6-113">Kliendiarve</span><span class="sxs-lookup"><span data-stu-id="461a6-113">Customer invoice</span></span>
+- <span data-ttu-id="461a6-114">Kliendi kreeditarve</span><span class="sxs-lookup"><span data-stu-id="461a6-114">Customer credit note</span></span>
+- <span data-ttu-id="461a6-115">Vabas vormis arve</span><span class="sxs-lookup"><span data-stu-id="461a6-115">Free text invoice</span></span>
+- <span data-ttu-id="461a6-116">Vabas vormis kreeditarve</span><span class="sxs-lookup"><span data-stu-id="461a6-116">Free text credit note</span></span>
 
-<span data-ttu-id="851ef-117">**Projektihaldus ja -arvestus**</span><span class="sxs-lookup"><span data-stu-id="851ef-117">**Project management and accounting**</span></span>
-- <span data-ttu-id="851ef-118">Projektiarve</span><span class="sxs-lookup"><span data-stu-id="851ef-118">Project invoice</span></span>
-- <span data-ttu-id="851ef-119">Projekti kreeditarve</span><span class="sxs-lookup"><span data-stu-id="851ef-119">Project credit note</span></span>
+<span data-ttu-id="461a6-117">**Projektihaldus ja -arvestus**</span><span class="sxs-lookup"><span data-stu-id="461a6-117">**Project management and accounting**</span></span>
+- <span data-ttu-id="461a6-118">Projektiarve</span><span class="sxs-lookup"><span data-stu-id="461a6-118">Project invoice</span></span>
+- <span data-ttu-id="461a6-119">Projekti kreeditarve</span><span class="sxs-lookup"><span data-stu-id="461a6-119">Project credit note</span></span>
 
-## <a name="configure-customer-master-data"></a><span data-ttu-id="851ef-120">Kliendi koondandmete haldamine  </span><span class="sxs-lookup"><span data-stu-id="851ef-120">Configure customer master data</span></span>
-<span data-ttu-id="851ef-121">Viige kliendi andmete konfigureerimiseks lõpule järgmised sammud ja lülitage sisse võimalus prinditud arved manustena automaatselt salvestada.</span><span class="sxs-lookup"><span data-stu-id="851ef-121">Complete the following steps to configure customer data and turn on the ability to automatically save printed invoices as attachments.</span></span>
+## <a name="configure-customer-master-data"></a><span data-ttu-id="461a6-120">Kliendi koondandmete haldamine  </span><span class="sxs-lookup"><span data-stu-id="461a6-120">Configure customer master data</span></span>
+<span data-ttu-id="461a6-121">Viige kliendi andmete konfigureerimiseks lõpule järgmised sammud ja lülitage sisse võimalus prinditud arved manustena automaatselt salvestada.</span><span class="sxs-lookup"><span data-stu-id="461a6-121">Complete the following steps to configure customer data and turn on the ability to automatically save printed invoices as attachments.</span></span>
 
-1. <span data-ttu-id="851ef-122">Avage **Saadaolevad arved** > **Kõik kliendid**.</span><span class="sxs-lookup"><span data-stu-id="851ef-122">Go to **Accounts receivable** > **All customers**.</span></span> 
-2. <span data-ttu-id="851ef-123">Valige klient ning valige **Arve ja kohaletoimetamine** kiirkaardil **E-arve**, jaotises **manus** valige **jah**.</span><span class="sxs-lookup"><span data-stu-id="851ef-123">Select a customer, and on the **Invoice and delivery** FastTab, in the **E-INVOCE** section, in the **eInvoice attachment** field, select **Yes**.</span></span>
+1. <span data-ttu-id="461a6-122">Avage **Saadaolevad arved** > **Kõik kliendid**.</span><span class="sxs-lookup"><span data-stu-id="461a6-122">Go to **Accounts receivable** > **All customers**.</span></span> 
+2. <span data-ttu-id="461a6-123">Valige klient ning valige **Arve ja kohaletoimetamine** kiirkaardil **E-arve**, jaotises **manus** valige **jah**.</span><span class="sxs-lookup"><span data-stu-id="461a6-123">Select a customer, and on the **Invoice and delivery** FastTab, in the **E-INVOCE** section, in the **eInvoice attachment** field, select **Yes**.</span></span>
 
-## <a name="print-invoices"></a><span data-ttu-id="851ef-124">Prindi arve</span><span class="sxs-lookup"><span data-stu-id="851ef-124">Print invoices</span></span>
-<span data-ttu-id="851ef-125">Saate eelmises protseduuris konfigureeritud kliendile sisestada ja printida vabas vormis, kliendi- ja projektiarve või kreeditarve.</span><span class="sxs-lookup"><span data-stu-id="851ef-125">You can post and print any free text, customer, and project invoice or credit note for the customer configured in the previous procedure.</span></span>
+## <a name="print-invoices"></a><span data-ttu-id="461a6-124">Prindi arve</span><span class="sxs-lookup"><span data-stu-id="461a6-124">Print invoices</span></span>
+<span data-ttu-id="461a6-125">Saate eelmises protseduuris konfigureeritud kliendile sisestada ja printida vabas vormis, kliendi- ja projektiarve või kreeditarve.</span><span class="sxs-lookup"><span data-stu-id="461a6-125">You can post and print any free text, customer, and project invoice or credit note for the customer configured in the previous procedure.</span></span>
 
-<span data-ttu-id="851ef-126">Saate avada **Manused** prinditud arve lehe.</span><span class="sxs-lookup"><span data-stu-id="851ef-126">Open the **Attachments** page for the printed invoice.</span></span> <span data-ttu-id="851ef-127">**Manused** kiirkaardil **Täiendavad üksikasjad** väljal **Dokumendi räsinumber**, leidke prinditud arve jaoks salvestatud räsinumber.</span><span class="sxs-lookup"><span data-stu-id="851ef-127">On the **Attachment** FastTab, in the **Additional details** field group, in **Document hash number** field, find the stored hash number calculated for the printed invoice.</span></span>
+<span data-ttu-id="461a6-126">Saate avada **Manused** prinditud arve lehe.</span><span class="sxs-lookup"><span data-stu-id="461a6-126">Open the **Attachments** page for the printed invoice.</span></span> <span data-ttu-id="461a6-127">**Manused** kiirkaardil **Täiendavad üksikasjad** väljal **Dokumendi räsinumber**, leidke prinditud arve jaoks salvestatud räsinumber.</span><span class="sxs-lookup"><span data-stu-id="461a6-127">On the **Attachment** FastTab, in the **Additional details** field group, in **Document hash number** field, find the stored hash number calculated for the printed invoice.</span></span>
 
 ![Manuse räsinumber](media/attach-hash-num.jpg)
 

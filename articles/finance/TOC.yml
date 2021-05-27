@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (aprill 2021)
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16 (veebruar 2021)
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: Kliendi ettemaksed
+                  href: accounts-receivable/customer-prepayments.md
                 - name: Klientide kulude korvamine
                   href: accounts-receivable/reimburse-customers.md
                 - name: Kliendi osalises summas maksed
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Müügireskontro ajalise jaotuse teabe häälestus ja genereerimine
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Kliendi aegumise hetktõmmis
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: Kliendi ajalise jaotuse aruanne
               href: accounts-receivable/customer-aging.md
             - name: Kliendi jaoks mahakandmise töölehe loomine
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: Eelarve loomine kandekontodest ja summakontodest
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Eelarveplaani narratiiv
+              href: budgeting/budget-narrative.md
             - name: Eelarve planeerimise mallid Exceli jaoks
               href: budgeting/budget-planning-excel-templates.md
             - name: Eelarve plaanimise paigutuse laiendamine
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Lähtedokumentide jaoks auditipoliitikate määratlemine
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Tõrkeotsing
+              items:
+                - name: Arvestus- või aruandlusvaluuta muutmine
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: Pearaamatu kalendri muutmine ja ümbermääramine
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: Storno seaded töölehtedel ja ridadel
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: Aastalõpu sulgemisel puuduvad algsaldod
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: Finantsaruandlus
           items:
             - name: Finantsaruandlusega alustamine
@@ -1648,8 +1662,16 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: SPED-Reinfi maksudeklaratsioon
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: SPED-Reinfi ülevaade
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: Elektroonilise sõnumi häälestamine
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: Finantsraamatute häälestamine
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: Sündmused
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: SPED finantskäskkiri 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED finantsaasta 2020 – ICMS-ST lisateave SPED finantsdokumendi paigutuse 014 jaoks
@@ -1782,6 +1804,8 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: KM-i sisaldavate kliendiarvete KKK
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: GB/T 24589-2010 eksport
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: Tšehhi Vabariik
               items:
                 - name: Tšehhi Vabariik
@@ -2038,8 +2062,18 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Kronoloogilises järjekorras arvete kanded
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Prantsusmaa standardse auditifaili loomine (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: Prantsusmaa auditifail
+                  items:
+                    - name: Prantsusmaa auditifaili (FEC) ülevaade
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: FEC auditifaili loomise eeltingimused Prantsusmaal
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: FEC finantsandmeallikate struktuur
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: Keskkonna ettevalmistamine FEC loomiseks
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: FEC loomine Dynamics 365 Finance'is
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Kliendi ja hankija kontoväljavõtted
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: Igapäevane intressiarvutus hilinenud makse ja tervikväljamakse jaoks arvel ning märgukirjal
@@ -2392,6 +2426,84 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Kapitalikaupade ülekanne põhivarasse
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: India TDS
+                  items:
+                    - name: India allikas mahaarvatud maksu (TDS) ülevaade
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: TDS-i põhihäälestus
+                      items:
+                        - name: TDS-i parameetrite määramine
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: TDS-i pearaamatukontode häälestamine
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: TDS-i registreerimisnumbrite häälestamine juriidiliste isikute jaoks
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: Kinnipeetava maksu haldurite häälestamine TDS-i maksutüübi jaoks
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Maksukomponentide häälestamine TDS-i maksutüübi jaoks
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: Kinnipeetava maksu koodide häälestamine TDS-i maksutüübi jaoks
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Kinnipeetava maksu tasakaalustusperioodide häälestamine TDS-i maksutüübi jaoks
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: Kinnipeetava maksu aruandluskoodide häälestamine TDS-i maksutüübi jaoks
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: Kinnipeetava maksu koodide häälestamine TDS-i maksutüübi jaoks
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: TDS-i maksukoodide TDS-i maksugruppidele manustamine ja TDS-i arvutamise valemi määratlemine
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: TDS-i kontsessioonisertifikaadi numbrite kirjendamine
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: TDS-i parameetrite määramine ostureskontros ja müügireskontros
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: TDS-i eraldamisega maksegraafikute häälestamine
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: Maksetasude häälestamine TDS-i halduri maksete jaoks
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 'TDS-i grupi, PAN-i ja TAN-i teabe häälestus hankijatele ja klientidele'
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: TDS-i arvutuse valemikoostaja ja lävelimiit
+                      items:
+                        - name: TDS-i arvutuste valemikoostaja
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: Lävelimiit ja erandi lävelimiit
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: TDS-i arvutamine arvetel
+                      items:
+                        - name: TDS-i arvutamine arvetel
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: TDS-i arvutamine arvetel töölehtede abil
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: TDS-i arvete arvutamine ostutellimuse vormi ja müügitellimuse vormi abil
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: TDS-i arvutamine arvetel vabas vormis arve lehelt
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: Arve tükeldamise funktsioon
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: TDS-i arvutamine maksetelt ja võlatähtedelt
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: TDS-i arvutamine kontsernisisestelt kannetelt
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: TDS-i tasakaalustusprotsess
+                      items:
+                        - name: TDS-i arvutamine maksetelt ja võlatähtedelt
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: TDS-i arvutamine kontsernisisestelt kannetelt
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: TDS-i tasakaalustusprotsess
+                          items:
+                            - name: Perioodilise TDS-i tasakaalustusprotsessi käitamine
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: TDS-i maksete tasakaalustamine TDS-i halduri hankijatele ja TDS-i challani loomine
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: TDS-i tasakaalustusperioodi kohta sisestatud TDS-i maksete ja kannete kuvamine
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: TDS-i sertifikaadinumbrite ja kuupäevade kirjendamine ja uuendamine
+                          items:
+                            - name: TDS-i tagastatava sertifikaadi numbrite kirjendamine
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: TDS-i kannete sertifikaadinumbrite ja kuupäevade uuendamine
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Itaalia
               items:
                 - name: Itaalia ülevaade
