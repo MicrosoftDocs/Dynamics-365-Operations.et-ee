@@ -1,27 +1,21 @@
 ---
 title: Negatiivsed päevad ja dünaamilised negatiivsed päevad
 description: Selles teemas antakse ülevaade negatiivsetest päevadest ja dünaamilistest negatiivsetest päevadest ning kuidas neid oma ettevõtte abistamiseks kasutada.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907737"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097230"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatiivsed päevad ja dünaamilised negatiivsed päevad
 
@@ -45,7 +39,7 @@ Võite saada nõudluse kas kauba täitmisajal suhteliselt varakult või vahetult
 - Demotoote kaubal on kuuepäevane ostu täitmisaeg.
 - Päeval null (1. jaanuar) on demotoote kaubavarude tase 0 (null).
 - Päeval null (1. jaanuar) saate müügitellimuse kogusele 10 demotoodet.
-- Seitsmendal päeval (7. jaanuar) on olemasolev ostutellimus kogusele 10 demotoodet.
+- Seitsmendal päeval (8. jaanuar) on olemasolev ostutellimus kogusele 10 demotoodet.
 
 Järgmisel joonisel on selle stsenaariumi graafiline vaade.
 
@@ -112,7 +106,7 @@ Võite saada nõudluse millalgi kauba täitmisajal. Siin on selle stsenaariumi k
 
 Järgmisel joonisel on selle stsenaariumi graafiline vaade.
 
-![1. stsenaariumi graafiline vaade](./media/negative-days-8.png)
+![2. stsenaariumi graafiline vaade](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Juhtum A: negatiivseid päevi on vähem kui kauba täitmisaeg.
 
@@ -157,7 +151,7 @@ Võite saada nõudluse pärast kauba täitmisaja perioodi. Siin on selle stsenaa
 - Demotoote kaubal on kuuepäevane ostu täitmisaeg.
 - Päeval null (1. jaanuar) on demotoote kaubavarud 0 (null).
 - Seitsmendal päeval (8. jaanuar), mis on kauba täitmisajast väljaspool, saate müügitellimuse kogusele 10 demotoodet.
-- 10. päeval (11. jaanuar) on ostutellimus kogusele 10 demotoodet.
+- Kümnendal päeval (11. jaanuar) on ostutellimus kogusele 10 demotoodet.
 
 Järgmisel joonisel on selle stsenaariumi graafiline vaade.
 
@@ -219,8 +213,8 @@ Võite soovida seada negatiivsed päevad pikale ajapiirile ja seejärel töötad
 - Demotoote kaubal on kuuepäevane ostu täitmisaeg.
 - Päeval null (1. jaanuar) on demotoote kaubavarud 0 (null).
 - Päeval null (1. jaanuar) saate müügitellimuse kogusele 10 demotoodet.
-- 10. päeval (10. jaanuar) saate müügitellimuse kogusele 10 demotoodet.
-- 12. päeval (12. jaanuar) on ostutellimus kogusele 10 demotoodet.
+- Üheksandal päeval (10. jaanuar) saate müügitellimuse kogusele 10 demotoodet.
+- Üheteistkümnendal päeval (12. jaanuar) on ostutellimus kogusele 10 demotoodet.
 - Negatiivsed päevad on määratud väärtusele **20**, mis on palju pikem kui kauba täitmisaeg.
 
 Järgmisel joonisel on toimuva graafiline vaade.
@@ -229,7 +223,7 @@ Järgmisel joonisel on toimuva graafiline vaade.
 
 MRP annab järgmised tulemused.
 
-![Tulemused](./media/negative-days-20.png)
+![Tulemuste näide 1](./media/negative-days-20.png)
 
 Eelmisel kuvatõmmisel on müügitellimuse vajaduse kuupäev 10. jaanuari asemel 9. jaanuaril. Kuna see kuvatõmmis tehti 2015. aastal, kui 10. jaanuar oli laupäev, peaks vajaduse kuupäev olema eelmine tööpev, mis oli reede, 9. jaanuar.
 
@@ -239,7 +233,7 @@ Tulemused ei ole valed, kuid MRP toimimise aeg võib olla pikem, kuna MRP peab l
 
 Kui vähendate negatiivsed päevad arvule, mis on kauba täitmisajale lähemal, ja kasutate dünaamilisi negatiivseid päevi, annab MRP järgmised tulemused.
 
-![Tulemused](./media/negative-days-21.png)
+![Tulemuste näide 2](./media/negative-days-21.png)
 
 MRP loob plaanitud tellimuse, mis on esimese müügitellimusega seotud. Seejärel seotakse teine müügitellimus oodatult negatiivsete päevade seadistuse põhjal olemasoleva müügitellimusega. Selle planeerimise tulemus on samuti õige ja MRP töötamise aeg võib olla lühem. Sellisel juhul pole oluline mõista ja teada, kuidas tegevussoovitustega töötada.
 

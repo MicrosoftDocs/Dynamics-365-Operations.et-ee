@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814822"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102994"
 ---
 # <a name="pay-based-on-registrations"></a>Tasu registreerimiste põhjal
 
@@ -39,7 +39,7 @@ Selles teemas kirjeldatakse üksikasjalikult, kuidas arvutatakse tasu töötaja 
 
 ## <a name="the-use-of-flex-time"></a>Paindaja kasutamine
 
-Paindaja perioodid seadistatakse ajareeglites, mis tööajaarvestuses kasutatakse. Olemas on kaks paindreegli tüüpi: **Paind+** ja **Paind–**. Kui töötaja registreerib aja paind+ perioodis, suurendatakse töötaja paindsaldot töötatud tundide võrra. Töötaja ei saa kompensatsiooni tundide eest, mis töötati paind+ perioodi jooksul. Kuid töötaja saab paind– perioodide jooksul võtta vabu päevi ja saada kompensatsiooni oma paindsaldo tundidega. Seetõttu peab süsteem vaba aega paindperioodide jooksul puudumiseks.
+Paindaja perioodid seadistatakse ajareeglites, mis tööajaarvestuses kasutatakse. Olemas on kaks paindreegli tüüpi: **Paind+** ja **Paind–**. Kui töötaja registreerib aja paind+ perioodis, suurendatakse töötaja paindsaldot töötatud tundide võrra. Töötaja ei saa kompensatsiooni tundide eest, mis töötati paind+ perioodi jooksul. Kuid töötaja saab paindliku perioodide jooksul võtta vabu päevi ja saada kompensatsiooni oma paindsaldo tundidega. Seetõttu peab süsteem vaba aega paindperioodide jooksul puudumiseks.
 
 ## <a name="scenarios-based-on-flex-periods"></a>Paindperioodidel põhinevad stsenaariumid
 
@@ -120,7 +120,7 @@ Paindreegli kohaselt on aeg kella 06:00 ja 07:00 AM vahel paind+ periood. Nii et
 
 #### <a name="calculation-of-flex-"></a>Paind– arvutamine
 
-Kuna töötaja töötab paind– perioodi jooksul, siis paind– ei arvutata. Paind– arvutatakse ainult siis, kui töötaja puudub paind– perioodil. Makse perspektiivist on töötajale tagatud tasumäär, mis on määratud standardaja kohta, kui ta töötab paind– perioodi jooksul. Kui töötaja puudub paind– perioodil, arvatakse 45 minutit tema paindkontolt maha.
+Kuna töötaja töötab paind– perioodi jooksul, siis paind– ei arvutata. Paind– arvutatakse ainult siis, kui töötaja puudub paind– perioodil. Makse perspektiivist on töötajale tagatud tasumäär, mis on määratud standardaja kohta, kui ta töötab paind– perioodi jooksul. Kui töötaja puudub paind-perioodil, arvatakse 45 minutit tema paindkontolt maha.
 
 #### <a name="calculation-of-time"></a>Aja arvutamine
 
@@ -168,7 +168,7 @@ Süsteemi konfigureerimiseks nii, et see eristaks selgelt standardaega ja ületu
 
 Valige lehel **Arvutuse parameetrid** profiili määratlustüübiks **Ületunnitöö** ja määrake suvand **Tasustatav aeg** väärtusele **Ei**, nagu on näidatud siin.
 
-| Reg. spetsifikatsioon | Profiili täpsustuse tüüp | Kalkulatsioon   |     | Makstud         |     |
+| Reg. spetsifikatsioon | Profiili täpsustuse tüüp | Kalkulatsioon   | Sätted | Makstud         | Sätted |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
 | Tööaeg       | Ületunnitöö                   | Standardaeg | Jah | Tasustatav aeg     | Ei  |
 |                    |                            | Tasustatav aeg      | Jah | Tasustatav ületunnitöö | Jah |
@@ -559,7 +559,7 @@ Kui aga märkeruut **Arva ületunnitöö maha** ei ole puudumiskoodi jaoks valit
 
 Järgmises näites on näha, kuidas saab töötaja paindkontot vähendada, teisendades puudumisperioodi paind– perioodiks.
 
-Töötaja teeb sisseregistreerimise kell 07:00 ja väljaregistreerimise kell 13:00. Tal on ülevaatajaga kokkulepe, et ta võib minna nädalavahetuseks koju, kui arvestab need tunnid oma paindkontolt maha. Kui töötaja registreerib välja kell 13:00, palutakse tal valida puudumiskood, kuna tööpäeva ülejäänud osa puudumisperiood ei ole plaanitud paind– periood. Tööpäeva ülejäänud osa teisendamiseks paind– perioodiks saab töötaja valida puudumiskoodi, mis seadistatakse tema paindkonto vähendamiseks.
+Töötaja teeb sisseregistreerimise kell 07:00 ja väljaregistreerimise kell 13:00. Töötajal on leping, mille ta saab nädalavahetuseks tagasi minna, kui ta need tunnid oma paindkontolt maha arvatakse. Kui töötaja registreerib välja kell 13:00, palutakse tal valida puudumiskood, kuna tööpäeva ülejäänud osa puudumisperiood ei ole plaanitud paind– periood. Tööpäeva ülejäänud osa teisendamiseks paind– perioodiks saab töötaja valida puudumiskoodi, mis seadistatakse tema paindkonto vähendamiseks.
 
 Paindtundide saldo vähendamiseks töötajatel, kes registreerivad puudumise tööpäeval, valige **Tööajaarvestus** &gt; **Seadistamine** &gt; **Grupid** &gt; **Puudumisgrupid** ja valige märkeruut **Vähenda paindväärtust**.
 

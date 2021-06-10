@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82104e401f21c459081f48a5d1f9a0a264288106
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c6e329c2219c57f83ef02f9fa224bcac84fb83fa
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794825"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055456"
 ---
 # <a name="create-a-goal"></a>Eesmärgi loomine
 
@@ -29,9 +28,9 @@ Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja sid
 
 1. Avage Kõik tööruumid > Töötaja iseteenindus.
 2. Klõpsake valikut Kõigi eesmärkide kuvamine
-3. Klõpsake valikut Uus.
-4. Tippige väljale Nimi tekst „Vii Contoso projekt lõpule”.
-5. Sisestage väljale ülevaade tekst „Lõpetan Contoso projekti 30 päeva pärast”.
+3. Klõpsake Uus.
+4. Tippige väljale Nimi tekst "Vii Contoso projekt lõpule”.
+5. Sisestage ülevaate väljale tekst "Lõpetan Contoso projekti 30 päeva pärast”.
     * Eesmärgid võivad kehtida inimesele, töörühmale või isegi korporatsioonile. Töötaja eesmärkide vaikesäte on Individuaalne.  
 6. Valige või sisestage väärtus väljal Eesmärgi kategooria.
 7. Muutke väljal Alguskuupäev kuvatud kuupäeva.

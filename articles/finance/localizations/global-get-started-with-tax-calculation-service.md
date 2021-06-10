@@ -2,7 +2,7 @@
 title: Maksuarvutusega alustamine
 description: Selles teemas selgitatakse, kuidas seadistada maksuarvestusi.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018875"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060559"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Alustage maksuarvutusega (eelvaade)
 
@@ -41,7 +41,7 @@ Seadistus koosneb neljast peamisest astmest:
 
 Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema järgmised eeltingimused:
 
-- Teil on juurdepääs oma LCS-i kontole ja olete juurutanud LCS-projekti, mille järgu 2 (või kõrgemas) keskkonnas töötab Dynamics 365 versioon 10.0.18 või uuem versioon.
+- Teil on juurdepääs oma LCS-i kontole ja olete juurutanud LCS-projekti, mille järgu 2 (või kõrgemas) keskkonnas töötab Dynamics 365 versioon 10.0.18 koos [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) või uuema versiooniga.
 - Juurdepääs oma RCS-i kontole.
 - Olete Microsoftiga ühendust võtnud, et lubada lennud juurutatud finantside või Supply Chain Management keskkonnas.
 
@@ -127,7 +127,7 @@ Pärast seadistuse lõpule viimist RCS-s, nagu kirjeldatud eelmises jaotises, on
 
 Selle jaotise seadistas juriidiline üksus. Peate selle konfigureerima iga juriidilise üksuse jaoks, kelle jaoks soovite finantsis maksuarvestuse lubada.
 
-1. Finantsis minge **Maksu** \> **Seadistamise** \> **Maksukonfiguratsiooni** \> **Maksuarvutuse häälestus (eelvaade)** .
+1. Finantsis minge **Maks** \> **Seadistamine** \> **Maksukonfiguratsioon** \> **Maksuarvutuse häälestus (eelvaade)**.
 2. Vahekaardil **Üldine** määrake järgmised väljad.
 
     - **Luba maksuarvutus** – Märkige see ruut, et lubada juriidilisele üksusele maksuarvutus. Kui see ei ole praegusele juriidilisele üksusele lubatud, kasutab juriidiline isik maksu määramiseks ja arvutamiseks olemasolevat maksumootorit.

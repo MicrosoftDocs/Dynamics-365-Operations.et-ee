@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808794"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102922"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
@@ -41,6 +41,7 @@ Tegevuse või päringu jaoks menüüelemendi loomiseks valige välja **Režiim**
 > Täiendavad väljad võivad menüüelementide jaoks olla saadaval, sõltuvalt menüüelemendi jaoks valitud režiimist ja sellest, kas menüüelementi kasutatakse olemasoleva töö tegemiseks. Teavet lisaväljade valikute kohta vaadake selles teemas allpool olevast teemast „Menüüelementide lisavalikud”.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menüüelemendi konfigureerimine tegevuste ja päringute jaoks
+
 Kui menüüelemendi välja **Režiim** sätteks on valitud **Kaudne**, saate luua menüüelemendi tegema üldist tegevust või päringut, mis ei loo tööd. Niisugused tegevused on näiteks litsentsiplaadi siltide uuesti printimine ja päringute esitamine asukoha kaupade kohta. Järgmises tabelis on toodud saadaolevad suvandid.
 
 | Suvand | Kirjeldus |
@@ -64,10 +65,9 @@ Kui menüüelemendi välja **Režiim** sätteks on valitud **Kaudne**, saate luu
 | Kuva avatud tööloend | Saate kuvada konkreetsele kasutajale saadaolevate tööde loendi. Seejärel saab kasutaja valida tegemiseks töö ja ta suunatakse sellele. Seda loendit tuleb vaadata tahvelseadmetel, mille ekraani suurus on vähemalt 7 tolli. Selle suvandi valimisel muutuvad kättesaadavaks menüüelemendid **Päringu redigeerimine** ja **Väljaloend**. Lehel **Päringu redigeerimine** saate seadistada loendis kuvatava töö kriteeriumid. Lehel **Väljaloend** saate valida tööde loendis kuvatavad väljad. Näiteks saate vähendada kuvatavate väljade arvu, et kasutaja saaks sobiva tööüksuse kiiremini valida. Kiirkaardi **Üldine** väljal **Kirjeid leheküljel** saate valida ka igal leheküljel kuvatavate töökirjete arvu. Kui suvand **Luba kasutajatel filtreerida töid kande tüübi järgi** on märgitud, lisandub tööde loendisse juhtelement **Filtreeri töö**, mis võimaldab kasutajal kande tüübi järgi filtreerida. Tööde loendis näeb kasutaja ainult neid töid, millele tal on juurdepääsuluba. Peate tagama, et kasutajatel oleks luba ühele või mitmele kasutajale suunatud menüüelemendile, mis toetavad kindlaid tööklassitüüpe, millele neil peab juurdepääs olema. Load kinnitatakse, kui kasutaja üritab loendis olevat tööd teha.|
 | Litsentsiplaatidelt üleviimistellimuse loomine | Laseb laotöötajatel luua ja töödelda üleviimistellimusi otse lao mobiilirakenduses Warehouse Management. Esiteks peavad laotöötajad valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read. Lisateavet leiate teemast [Üleviimistellimuste loomine laorakenduses](create-transfer-order-from-warehouse-app.md)
 
-
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Menüüelementide konfigureerimine teisele töötajale või protsessile töö loomiseks
-Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast seda, kui algne tegevus mobiilses seadmes tehtud. Näiteks kui üks töötaja kasutab mobiilset seadet kauba vastuvõtmiseks, luuakse teisele töötajale paigutamistöö. Tööd loova menüüelemendi loomiseks valige lehel **Mobiilse seadme menüüelemendid** väljal **Režiim** suvand **Töö**. Järgmises tabelis on välja **Töö loomise protsess** valikud korraldatud töötellimuse tüübi järgi.
 
+Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast seda, kui algne tegevus mobiilses seadmes tehtud. Näiteks kui üks töötaja kasutab mobiilset seadet kauba vastuvõtmiseks, luuakse teisele töötajale paigutamistöö. Tööd loova menüüelemendi loomiseks valige lehel **Mobiilse seadme menüüelemendid** väljal **Režiim** suvand **Töö**. Järgmises tabelis on välja **Töö loomise protsess** valikud korraldatud töötellimuse tüübi järgi.
 
 <table>
 <tbody>
@@ -232,7 +232,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 </tr>
 <tr class="even">
 <td>Kasutajate rühmitus</td>
-<td>Töötaja rühmitab töö käsitsi. See suvand on kasulik näiteks siis, kui töötaja saab valida asukohast korraga mitu kaupa. Kui töötaja on nõutud kaupade komplekteerimise lõpetanud, saab ta kaubad kõrvale paigutada.</td>
+<td>Töötaja rühmitab töö käsitsi. See suvand on kasulik näiteks siis, kui töötaja saab valida asukohast korraga mitu kaupa. Kui töötaja on nõutavate kaupade komplekteerimise lõpetanud, saab ta kaubad kõrvale panna.</td>
 </tr>
 <tr class="odd">
 <td>Süsteemi rühmitamine</td>
@@ -249,7 +249,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 <li><strong>Kinnitatud kasutaja suunatud väli</strong> – valige väli, mida töötaja skannib töö rühmitamiseks.</li>
 <li><strong>Kinnitatud kasutaja suunatud silt</strong> – sisestage tekst töötaja juhendamiseks, mida skannida, kui komplekteerimistöö on rühmitanud süsteem.</li>
 </ul>
-See suvand on kasulik näiteks siis, kui koorma jaoks kasutatakse mitut kaubaalust. Kui valite väljal <strong>Kinnitatud kasutaja suunatud</strong> suvandi <strong>LoadId</strong>, saab töötaja valida koormaga seostatud mis tahes kaubaaluse. Kui töötaja skannib kaupa, mis po&#39;le koormaga seostatud, kuvatakse tõrketeade.</td>
+See suvand on kasulik näiteks siis, kui koorma jaoks kasutatakse mitut kaubaalust. Kui valite väljal <strong>Kinnitatud kasutaja suunatud</strong> suvandi <strong>LoadId</strong>, saab töötaja valida koormaga seostatud mis tahes kaubaaluse. Kui töötaja skannib kaupa, mis po&#39;le koormaga seotud, kuvatakse tõrketeade.</td>
 </tr>
 <tr class="odd">
 <td>Kogumi komplekteerimine</td>
@@ -368,7 +368,7 @@ Valikute selgitused leiate järgmisest tabelist.
 <td>Näidake, kas töötaja peab kõigepealt komplekteerima asukoha vanima partii. Valikud on järgmised:
 <ul>
 <li><strong>Puudub</strong> – töötaja saab komplekteerida asukohas mis tahes töö. Töötaja ei saa mingit sõnumit.</li>
-<li><strong>Hoiata</strong> – töötaja saab komplekteerida asukohas mis tahes partii, aga kui partii po&#39;le kõige vanem, kuvatakse hoiatusteade.</li>
+<li><strong>Hoiatus</strong> – töötaja saab komplekteerida asukohas mis tahes partii, aga kui partii po&#39;le kõige vanem, kuvatakse hoiatusteade.</li>
 <li><strong>Sunni</strong> – töötaja peab komplekteerima asukoha vanima partii. Töötaja saab tõrketeade, kui partii pol&#39;e vanim. <strong>Märkus.</strong> See suvand on asjakohane ainult siis, kui kaubale määratud reserveerimishierarhias on <strong>Partii number</strong> madalamal kui <strong>Asukoht</strong>.</li>
 </ul></td>
 </tr>
@@ -407,6 +407,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Nõue, et töötajad kinnitaksid kaupade komplekteerimisel toote, asukoha või koguse
+
 Saate seadistada töökinnitused, mis nõuavad, et töötaja kasutaks laos tööd tehes asukoha või koguse registreerimiseks mobiilset seadet. Töökinnitused aitavad tagada, et töötaja on õiges asukohas või tegeleb õige kaubakogusega. Peale selle saate lubada, et Supply Chain Management kinnitab töötaja registreeringu automaatselt. Kui lubate automaatse kinnitamise, ei saa te nõuda asukoha või koguse kinnitamist. Töökinnitused sisaldavad ka tooteid ja tootevariante. Peale selle saate kinnitusi vöötkoodi skannides registreerida. Toodete ja tootevariantide kinnitamiseks peate sisestama toote või tootevariandi ID. See võib olla toote ID, tooteotsingu ID, väline ID, GTIN või vöötkood. Kui olete ID sisestanud või vöötkoodi skanninud, kuvatakse mobiilses seadmes tootevariandi dimensioonid. 
 
 Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinnitusi kasutada.
@@ -426,14 +427,11 @@ Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinn
 > [!NOTE]
 > Saate toote kinnitamist taotleda üksnes komplekteerimise ja ladustamise tüüpi tööde korral.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
-[Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks](tasks/set-up-mobile-device-menu.md)
-
-[Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Varude olekud](../inventory/inventory-statuses.md)
+- [Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks](tasks/set-up-mobile-device-menu.md)
+- [Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Varude olekud](../inventory/inventory-statuses.md)
 
 
 

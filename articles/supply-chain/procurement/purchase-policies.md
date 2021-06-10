@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2c69ab02ea9e6a5a5699a204258243d6204413b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e89e8b4860bbafe4bd47d62d2feb7d197f233d24
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825298"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102778"
 ---
 # <a name="purchasing-policies-overview"></a>Ostupoliitikate ülevaade
 
@@ -61,7 +61,7 @@ Poliitika 123 on määratletud Suurbritannia müügi müügisosakonna osakonna o
 
 Poliitika 456 on määratletud müügi- ja turundusosakonna globaalse ostujuhtimise organisatsiooni hierarhiale. Poliitika 456 puhul ei määra ostutaotluse kontrollreegel, et piirangud tuleb kehtestada minimaalsetele tellimiskogustele. Selle reegli puhul ei valita suvandit **Jõusta minimaalse tellimuskoguse piirangud**.  
 
-Sam töötab Contoso Ühendkuningriigi kontori Ühendkuningriigi müügi müügiosakonnas. Tema osakonnale rakenduvad nii osakonna kui ka globaalse ostujuhtimise organisatsiooni hierarhiad. Kui Sam loob ostutaotluse, peab süsteem määrama, millist poliitikat rakendada. Süsteemiadministraator seadistab ostupoliitika parameetrid määratlemaks, et ostupoliitikaid tuleb rakendada järgmises eelisjärjestuses.
+Sam töötab Contoso Ühendkuningriigi kontori müügiosakonnas. Tema osakonnale rakenduvad nii osakonna kui ka globaalse ostujuhtimise organisatsiooni hierarhiad. Kui Sam loob ostutaotluse, peab süsteem määrama, millist poliitikat rakendada. Süsteemiadministraator seadistab ostupoliitika parameetrid määratlemaks, et ostupoliitikaid tuleb rakendada järgmises eelisjärjestuses.
 
 1.  Globaalne ostujuhtimine
 2.  Osakond

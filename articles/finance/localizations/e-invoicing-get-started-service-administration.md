@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse teenusehaldusega alustamine
 description: Selles teemas selgitatakse, kuidas elektroonilise arveldusega alustada.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980971"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092402"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Elektroonilise arvelduse teenusehaldusega alustamine
 
@@ -44,18 +44,14 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installi Lifecycle Services-is lisandmodul mikroteenuste jaoks
 
-1. Logige oma LCS-i kontole sisse.
-2. Valige paan **Eelvaate funktsiooni haldamine**.
-3. Valige **Avaliku eelvaate funktsioonid** jaotises suvand **E-arveldus**.
-4. Veenduge, et suvandi **Funktsiooni eelversioon on lubatud** väärtuseks oleks valitud **Jah**.
-5. Valige LCS-i armatuurlaual oma LCS-i juurutusprojekt.
-6. LCS-i projekti LCS-i keskkonna armatuurlaudal valige oma LCS-i juurutusprojekt. LCS juurutusprojekt peab töötama.
-7. Valige **Power Platform Integratsioon** vahekaardil **Keskkonna lisandmoodulid** väljagrupis **Installi uus lisandmoodul**.
-8. Valige **Elektrooniline arveldamine**.
-9. Väljale **AAD-rakenduse ID** sisestage **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
-10. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
-11. Tingimustega nõustumiseks valige märkeruut.
-12. Valige **Installi**.
+1. Logige sisse oma LCS-i kontole ja valige LCS-i projekti juhtpaneelil LCS-i projekt.
+2. LCS-i projekti LCS-i keskkonna armatuurlaudal valige oma LCS-i juurutusprojekt. Valitav projekt peab töötama.
+3. Valige **Power Platform Integratsioon** vahekaardil **Keskkonna lisandmoodulid** väljagrupis **Installi uus lisandmoodul**.
+4. Valige **Elektrooniline arveldamine**.
+5. Väljale **AAD-rakenduse ID** sisestage **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
+6. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
+7. Tingimustega nõustumiseks valige märkeruut.
+8. Valige **Installi**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Määrake parameetrid RCS integratsioonile koos Elekrtoonilise arveldusega

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908996"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102683"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliendiportaali kohandamine ja kasutamine
 
@@ -44,7 +44,7 @@ Järgmised teemad aitavad teil õppida Power Appsi portaalide põhitõdesid ning
 
 ## <a name="customize-the-order-creation-process"></a>Tellimuse loomise protsessi kohandamine
 
-Kui kasutaja esitab kliendiportaali kasutades tellimuse, siis sünkroonitakse tellimus automaatselt asjakohase Dynamics 365 Supply Chain Managementi keskkonnaga. Kuna kasutaja on välisklient, siis on osa nõutavast teabest tema eest tahtlikult peidetud. See teave täidetakse automaatselt vormi esitamisel.
+Kui kasutaja esitab kliendiportaali kasutades tellimuse, siis sünkroonitakse tellimus automaatselt asjakohase Dynamics 365 Supply Chain Managementi keskkonnaga. Kuna kasutaja on välisklient, on osa nõutavast teabest tema eest tahtlikult peidetud. See teave täidetakse automaatselt vormi esitamisel.
 
 Selles jaotises näidatakse, kuidas peaksite seadistama kontakte, et vältida tõrkeid. See selgitab automaatselt määratud väljasid ning seda, kuidas saate vajadusel nende väljade väärtusi muuta.
 
@@ -82,7 +82,7 @@ Siit leiate standardetapid tellimuse esitamiseks kliendiportaali kaudu.
 1. Kui olete kaupade lisamise lõpetanud, klõpsake lehel **Kaubad** nuppu **Edasi**.
 1. Lehel **Tellimuse teave** esitatakse tellimuse kokkuvõte. Vaadake üle tellimuse sisu ja tarne üksikasjad. Kui kõik tundub õige, siis valige tellimuse esitamiseks suvand **Esita**.
 
-    ![Tellimuse teabeleht](media/customer-portal-order-submit.png "Tellimuse teabeleht")
+    ![Täidetud tellimuse teabeleht](media/customer-portal-order-submit.png "Täidetud tellimuse teabeleht")
 
 ### <a name="standard-data-setup"></a>Standardandmete seadistus
 

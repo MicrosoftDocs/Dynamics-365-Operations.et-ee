@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af67d320f14fc6c3d28eec47de402ba645eea06d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836778"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102970"
 ---
 # <a name="create-maintenance-requests"></a>Hooldustaotluste loomine
 
@@ -30,7 +30,7 @@ ms.locfileid: "5836778"
 
 Hooldustaotlusi saab kasutada juhul, kui hooldustöötajad või tootmistöötajad avastavad, et seadmed vajavad parandamist, kuid parandustööd ei saa kohe ära teha.
 
-**Näide:** kui hooldustöötaja teeb remonti ja avastab, et samas kohas peab hooldama ka teist vara. Hooldustöötajal ei ole aga aega ega vajalikke varuosi parandustöö jaoks. Seetõttu loob ta vara hooldustaotluse ja sisestab probleemi lühikirjelduse.
+**Näide:** kui hooldustöötaja teeb remonti ja avastab, et samal aadressil peab hooldama ka teist vara. Hooldustöötajal ei ole aga aega ega vajalikke varuosi parandustöö jaoks. Seetõttu loob ta vara hooldustaotluse ja sisestab probleemi lühikirjelduse.
 
 Jaotis **Aktiivsed hoolduse taotlused** paanil **Seotud teave** lehe **Kõik varad** paremal küljel või lehel **Aktiivsed varad** (**Varahaldus**\>**Üldine**\>**Varad**\>**Kõik varad** või **Aktiivsed varad**) näitab aktiivseid hooldustaotlusi, mis on seotud valitud varaga.
 

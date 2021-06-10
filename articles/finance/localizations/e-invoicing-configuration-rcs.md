@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 description: See teema kirjeldab, kuidas konfigureerida elektroonilist arveldust Dynamics 365 teenuses Regulatory Configuration Services (RCS)-is.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897716"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075139"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 
@@ -194,6 +194,8 @@ Järgmistes loendites on toodud ER-i funktsioonide jaoks saadaolevad ER-i vormin
 
 - Müügiarve (ES)
 - Projektiarve (ES)
+
+Lisaks ER-vormingu konfiguratsioonidele, mis on saadaval e-arveldamise teenusega kasutamiseks, saate luua ka oma ER-vormingu konfiguratsioone. E-arveldamise funktsioonidega kasutamiseks loodud vormingukonfiguratsioonid ei toeta siiski otsest viidet Finance või Supply Chain Management halduse tabelitele ega ühelegi vastavale metaandmele. Toetatakse ainult viiteid ER-mudeli vastendusele.
 
 ### <a name="actions"></a>Actions
 
