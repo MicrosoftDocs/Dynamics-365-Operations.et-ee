@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
@@ -16,122 +15,122 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 0718987583d02a76acc2420e5a371c418757e384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793533"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054015"
 ---
-# <a name="set-up-training-courses"></a><span data-ttu-id="e8e20-103">Koolituskursuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="e8e20-103">Set up training courses</span></span>
+# <a name="set-up-training-courses"></a><span data-ttu-id="d69bd-103">Koolituskursuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="d69bd-103">Set up training courses</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="e8e20-104">Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.</span><span class="sxs-lookup"><span data-stu-id="e8e20-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
+<span data-ttu-id="d69bd-104">Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.</span><span class="sxs-lookup"><span data-stu-id="d69bd-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
- <a name="set-up-prerequisites"></a><span data-ttu-id="e8e20-105"> Seadistuse eeltingimused</span><span class="sxs-lookup"><span data-stu-id="e8e20-105">Set up prerequisites</span></span>
+ <a name="set-up-prerequisites"></a><span data-ttu-id="d69bd-105"> Seadistuse eeltingimused</span><span class="sxs-lookup"><span data-stu-id="d69bd-105">Set up prerequisites</span></span>
 ---------------------
 
-<span data-ttu-id="e8e20-106">Järgmine teave on vajalik ja tuleb seadistada enne kursuste loomist.</span><span class="sxs-lookup"><span data-stu-id="e8e20-106">The following information is required and must be set up before you create courses.</span></span>
--   <span data-ttu-id="e8e20-107">**Kursuste tüübid**</span><span class="sxs-lookup"><span data-stu-id="e8e20-107">**Course types**</span></span>
+<span data-ttu-id="d69bd-106">Järgmine teave on vajalik ja tuleb seadistada enne kursuste loomist.</span><span class="sxs-lookup"><span data-stu-id="d69bd-106">The following information is required and must be set up before you create courses.</span></span>
+-   <span data-ttu-id="d69bd-107">**Kursuste tüübid**</span><span class="sxs-lookup"><span data-stu-id="d69bd-107">**Course types**</span></span>
 
-<span data-ttu-id="e8e20-108">Järgmine teave on valikuline teave, mille saate kursustele määrata.</span><span class="sxs-lookup"><span data-stu-id="e8e20-108">The following information is optional information that you can specify for courses.</span></span> <span data-ttu-id="e8e20-109">Kui teate, et kavatsete seda teavet kursuste kohta sisestada, tuleb see seadistada enne kursuse kirjete loomist.</span><span class="sxs-lookup"><span data-stu-id="e8e20-109">If you know that you will be entering this information for courses, you should set up this information before you create course records.</span></span>
--   <span data-ttu-id="e8e20-110">**Klassiruumide grupid**</span><span class="sxs-lookup"><span data-stu-id="e8e20-110">**Classroom groups**</span></span>
--   <span data-ttu-id="e8e20-111">**Kursuste grupid**</span><span class="sxs-lookup"><span data-stu-id="e8e20-111">**Course groups**</span></span>
--   <span data-ttu-id="e8e20-112">**Kursuste toimumiskohad**</span><span class="sxs-lookup"><span data-stu-id="e8e20-112">**Course locations**</span></span>
--   <span data-ttu-id="e8e20-113">**Klassiruumid**</span><span class="sxs-lookup"><span data-stu-id="e8e20-113">**Classrooms**</span></span>
--   <span data-ttu-id="e8e20-114">**Juhendajad**</span><span class="sxs-lookup"><span data-stu-id="e8e20-114">**Instructors**</span></span>
+<span data-ttu-id="d69bd-108">Järgmine teave on valikuline teave, mille saate kursustele määrata.</span><span class="sxs-lookup"><span data-stu-id="d69bd-108">The following information is optional information that you can specify for courses.</span></span> <span data-ttu-id="d69bd-109">Kui teate, et kavatsete seda teavet kursuste kohta sisestada, tuleb see seadistada enne kursuse kirjete loomist.</span><span class="sxs-lookup"><span data-stu-id="d69bd-109">If you know that you will be entering this information for courses, you should set up this information before you create course records.</span></span>
+-   <span data-ttu-id="d69bd-110">**Klassiruumide grupid**</span><span class="sxs-lookup"><span data-stu-id="d69bd-110">**Classroom groups**</span></span>
+-   <span data-ttu-id="d69bd-111">**Kursuste grupid**</span><span class="sxs-lookup"><span data-stu-id="d69bd-111">**Course groups**</span></span>
+-   <span data-ttu-id="d69bd-112">**Kursuste toimumiskohad**</span><span class="sxs-lookup"><span data-stu-id="d69bd-112">**Course locations**</span></span>
+-   <span data-ttu-id="d69bd-113">**Klassiruumid**</span><span class="sxs-lookup"><span data-stu-id="d69bd-113">**Classrooms**</span></span>
+-   <span data-ttu-id="d69bd-114">**Juhendajad**</span><span class="sxs-lookup"><span data-stu-id="d69bd-114">**Instructors**</span></span>
 
-## <a name="course-types"></a><span data-ttu-id="e8e20-115">Kursuste tüübid</span><span class="sxs-lookup"><span data-stu-id="e8e20-115">Course types</span></span>
-<span data-ttu-id="e8e20-116">Saate kursusi nende struktuuri või sisu alusel tüüpide järgi kategooriatesse paigutada.</span><span class="sxs-lookup"><span data-stu-id="e8e20-116">You can use course types to categorize courses according to the structure or content of the course.</span></span> <span data-ttu-id="e8e20-117">Saate luua kursuste tüüpe lehel **Kursuste tüübid**.</span><span class="sxs-lookup"><span data-stu-id="e8e20-117">You can create course types on the **Course types** page.</span></span> <span data-ttu-id="e8e20-118">Kursuse kirje loomisel tuleb valida kursuse tüüp.</span><span class="sxs-lookup"><span data-stu-id="e8e20-118">You must select a course type when you create a course record.</span></span>
+## <a name="course-types"></a><span data-ttu-id="d69bd-115">Kursuste tüübid</span><span class="sxs-lookup"><span data-stu-id="d69bd-115">Course types</span></span>
+<span data-ttu-id="d69bd-116">Saate kursusi nende struktuuri või sisu alusel tüüpide järgi kategooriatesse paigutada.</span><span class="sxs-lookup"><span data-stu-id="d69bd-116">You can use course types to categorize courses according to the structure or content of the course.</span></span> <span data-ttu-id="d69bd-117">Saate luua kursuste tüüpe lehel **Kursuste tüübid**.</span><span class="sxs-lookup"><span data-stu-id="d69bd-117">You can create course types on the **Course types** page.</span></span> <span data-ttu-id="d69bd-118">Kursuse kirje loomisel tuleb valida kursuse tüüp.</span><span class="sxs-lookup"><span data-stu-id="d69bd-118">You must select a course type when you create a course record.</span></span>
 
-## <a name="course-setup-type"></a><span data-ttu-id="e8e20-119">Kursuse seadistuse tüüp</span><span class="sxs-lookup"><span data-stu-id="e8e20-119">Course setup type</span></span>
-<span data-ttu-id="e8e20-120">Järgmises tabelis on antud kolm kursuste seadistuse tüüpi.</span><span class="sxs-lookup"><span data-stu-id="e8e20-120">The following table lists the three setup types for courses.</span></span> <span data-ttu-id="e8e20-121">Seadistuse tüübid määravad kursuse struktuuri.</span><span class="sxs-lookup"><span data-stu-id="e8e20-121">Setup types determine the structure of the course.</span></span>
+## <a name="course-setup-type"></a><span data-ttu-id="d69bd-119">Kursuse seadistuse tüüp</span><span class="sxs-lookup"><span data-stu-id="d69bd-119">Course setup type</span></span>
+<span data-ttu-id="d69bd-120">Järgmises tabelis on antud kolm kursuste seadistuse tüüpi.</span><span class="sxs-lookup"><span data-stu-id="d69bd-120">The following table lists the three setup types for courses.</span></span> <span data-ttu-id="d69bd-121">Seadistuse tüübid määravad kursuse struktuuri.</span><span class="sxs-lookup"><span data-stu-id="d69bd-121">Setup types determine the structure of the course.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e8e20-122">Seadistuse tüüp</span><span class="sxs-lookup"><span data-stu-id="e8e20-122">Setup type</span></span></th>
-<th><span data-ttu-id="e8e20-123">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="e8e20-123">Description</span></span></th>
+<th><span data-ttu-id="d69bd-122">Seadistuse tüüp</span><span class="sxs-lookup"><span data-stu-id="d69bd-122">Setup type</span></span></th>
+<th><span data-ttu-id="d69bd-123">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="d69bd-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="e8e20-124"><strong>Standardne</strong></span><span class="sxs-lookup"><span data-stu-id="e8e20-124"><strong>Standard</strong></span></span></td>
-<td><span data-ttu-id="e8e20-125">Valige see tüüp ilma päevakavata kursuste puhul.</span><span class="sxs-lookup"><span data-stu-id="e8e20-125">Select this type for courses that will not have a daily agenda.</span></span> <span data-ttu-id="e8e20-126">See on uue kursuse loomisel seadistuse vaiketüüp.</span><span class="sxs-lookup"><span data-stu-id="e8e20-126">This is the default setup type when you create a new course.</span></span></td>
+<td><span data-ttu-id="d69bd-124"><strong>Standardne</strong></span><span class="sxs-lookup"><span data-stu-id="d69bd-124"><strong>Standard</strong></span></span></td>
+<td><span data-ttu-id="d69bd-125">Valige see tüüp ilma päevakavata kursuste puhul.</span><span class="sxs-lookup"><span data-stu-id="d69bd-125">Select this type for courses that will not have a daily agenda.</span></span> <span data-ttu-id="d69bd-126">See on uue kursuse loomisel seadistuse vaiketüüp.</span><span class="sxs-lookup"><span data-stu-id="d69bd-126">This is the default setup type when you create a new course.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="e8e20-127"><strong>Päevakord</strong></span><span class="sxs-lookup"><span data-stu-id="e8e20-127"><strong>Agenda</strong></span></span></td>
-<td><span data-ttu-id="e8e20-128">Valige see tüüp mitme päeva jooksul toimuva kursuse iga päeva üksikasjade plaanimiseks.</span><span class="sxs-lookup"><span data-stu-id="e8e20-128">Select this type to plan the details of each day of a course that takes place over multiple days.</span></span></td>
+<td><span data-ttu-id="d69bd-127"><strong>Päevakord</strong></span><span class="sxs-lookup"><span data-stu-id="d69bd-127"><strong>Agenda</strong></span></span></td>
+<td><span data-ttu-id="d69bd-128">Valige see tüüp mitme päeva jooksul toimuva kursuse iga päeva üksikasjade plaanimiseks.</span><span class="sxs-lookup"><span data-stu-id="d69bd-128">Select this type to plan the details of each day of a course that takes place over multiple days.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="e8e20-129"><strong>Päevakord + seanss</strong></span><span class="sxs-lookup"><span data-stu-id="e8e20-129"><strong>Agenda + session</strong></span></span></td>
-<td><span data-ttu-id="e8e20-130">Valige see tüüp keerukamate kursuste puhul.</span><span class="sxs-lookup"><span data-stu-id="e8e20-130">Select this type for the more complex courses.</span></span> <span data-ttu-id="e8e20-131">Näiteks saate jaotada kursuse päevakava teedeks ja sessioonideks.</span><span class="sxs-lookup"><span data-stu-id="e8e20-131">For example, you can divide the agenda for the course into tracks and sessions.</span></span>
+<td><span data-ttu-id="d69bd-129"><strong>Päevakord + seanss</strong></span><span class="sxs-lookup"><span data-stu-id="d69bd-129"><strong>Agenda + session</strong></span></span></td>
+<td><span data-ttu-id="d69bd-130">Valige see tüüp keerukamate kursuste puhul.</span><span class="sxs-lookup"><span data-stu-id="d69bd-130">Select this type for the more complex courses.</span></span> <span data-ttu-id="d69bd-131">Näiteks saate jaotada kursuse päevakava teedeks ja sessioonideks.</span><span class="sxs-lookup"><span data-stu-id="d69bd-131">For example, you can divide the agenda for the course into tracks and sessions.</span></span>
 <ul>
-<li><span data-ttu-id="e8e20-132"><strong>Tee</strong> – teed on kursuse konkreetsed teemavaldkonnad.</span><span class="sxs-lookup"><span data-stu-id="e8e20-132"><strong>Track</strong> – Tracks are specific subject areas for a course.</span></span></li>
-<li><span data-ttu-id="e8e20-133"><strong>Sessioonid</strong> – sessioonid jagavad teid ja aitavad tuvastada tee konkreetseid protsesse või võtteid.</span><span class="sxs-lookup"><span data-stu-id="e8e20-133"><strong>Sessions</strong> – Sessions divide up tracks and help identify specific processes or techniques that are relevant to the track.</span></span></li>
+<li><span data-ttu-id="d69bd-132"><strong>Tee</strong> – teed on kursuse konkreetsed teemavaldkonnad.</span><span class="sxs-lookup"><span data-stu-id="d69bd-132"><strong>Track</strong> – Tracks are specific subject areas for a course.</span></span></li>
+<li><span data-ttu-id="d69bd-133"><strong>Sessioonid</strong> – sessioonid jagavad teid ja aitavad tuvastada tee konkreetseid protsesse või võtteid.</span><span class="sxs-lookup"><span data-stu-id="d69bd-133"><strong>Sessions</strong> – Sessions divide up tracks and help identify specific processes or techniques that are relevant to the track.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="course-tasks"></a><span data-ttu-id="e8e20-134">Kursuse ülesanded</span><span class="sxs-lookup"><span data-stu-id="e8e20-134">Course tasks</span></span>
-<span data-ttu-id="e8e20-135">Iga kursuse puhul saate täita järgmisi ülesandeid.</span><span class="sxs-lookup"><span data-stu-id="e8e20-135">For each course, you can complete the following tasks.</span></span>
-- <span data-ttu-id="e8e20-136">Osalejate registreerimine</span><span class="sxs-lookup"><span data-stu-id="e8e20-136">Register participants</span></span>
-- <span data-ttu-id="e8e20-137">Registreerimise lõpptähtaja määramine</span><span class="sxs-lookup"><span data-stu-id="e8e20-137">Specify a registration deadline</span></span>
-- <span data-ttu-id="e8e20-138">Osalejate vähima ja suurima arvu määratlemine</span><span class="sxs-lookup"><span data-stu-id="e8e20-138">Define the minimum and maximum number of participants</span></span>
-- <span data-ttu-id="e8e20-139">Kursuse asukoha ja klassiruumi määramine</span><span class="sxs-lookup"><span data-stu-id="e8e20-139">Assign a course location and classroom</span></span>
-- <span data-ttu-id="e8e20-140">Kursusel osalejatele hotellide soovitamine</span><span class="sxs-lookup"><span data-stu-id="e8e20-140">Recommend hotels to course participants</span></span>
-- <span data-ttu-id="e8e20-141">Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.</span><span class="sxs-lookup"><span data-stu-id="e8e20-141">Create a course description, which you can then advertise on Employee self service</span></span>
+## <a name="course-tasks"></a><span data-ttu-id="d69bd-134">Kursuse ülesanded</span><span class="sxs-lookup"><span data-stu-id="d69bd-134">Course tasks</span></span>
+<span data-ttu-id="d69bd-135">Iga kursuse puhul saate täita järgmisi ülesandeid.</span><span class="sxs-lookup"><span data-stu-id="d69bd-135">For each course, you can complete the following tasks.</span></span>
+- <span data-ttu-id="d69bd-136">Osalejate registreerimine</span><span class="sxs-lookup"><span data-stu-id="d69bd-136">Register participants</span></span>
+- <span data-ttu-id="d69bd-137">Registreerimise lõpptähtaja määramine</span><span class="sxs-lookup"><span data-stu-id="d69bd-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="d69bd-138">Osalejate vähima ja suurima arvu määratlemine</span><span class="sxs-lookup"><span data-stu-id="d69bd-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="d69bd-139">Kursuse asukoha ja klassiruumi määramine</span><span class="sxs-lookup"><span data-stu-id="d69bd-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="d69bd-140">Kursusel osalejatele hotellide soovitamine</span><span class="sxs-lookup"><span data-stu-id="d69bd-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="d69bd-141">Kursuse kirjelduse loomine töötaja iseteeninduses reklaamimiseks.</span><span class="sxs-lookup"><span data-stu-id="d69bd-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
-  ><span data-ttu-id="e8e20-142">**Märkus.** Kursuse saate kustutada ainult siis, kui keegi pole sellele registreerunud.</span><span class="sxs-lookup"><span data-stu-id="e8e20-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
+  ><span data-ttu-id="d69bd-142">**Märkus.** Kursuse saate kustutada ainult siis, kui keegi pole sellele registreerunud.</span><span class="sxs-lookup"><span data-stu-id="d69bd-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
 
-## <a name="course-statuses"></a><span data-ttu-id="e8e20-143">Kursuse olekud</span><span class="sxs-lookup"><span data-stu-id="e8e20-143">Course statuses</span></span>
-<span data-ttu-id="e8e20-144">Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate teha, kui kursus on teatud olekuga.</span><span class="sxs-lookup"><span data-stu-id="e8e20-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
+## <a name="course-statuses"></a><span data-ttu-id="d69bd-143">Kursuse olekud</span><span class="sxs-lookup"><span data-stu-id="d69bd-143">Course statuses</span></span>
+<span data-ttu-id="d69bd-144">Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate teha, kui kursus on teatud olekuga.</span><span class="sxs-lookup"><span data-stu-id="d69bd-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e8e20-145">Olek</span><span class="sxs-lookup"><span data-stu-id="e8e20-145">Status</span></span></th>
-<th><span data-ttu-id="e8e20-146">Tegevused</span><span class="sxs-lookup"><span data-stu-id="e8e20-146">Actions</span></span></th>
+<th><span data-ttu-id="d69bd-145">Olek</span><span class="sxs-lookup"><span data-stu-id="d69bd-145">Status</span></span></th>
+<th><span data-ttu-id="d69bd-146">Tegevused</span><span class="sxs-lookup"><span data-stu-id="d69bd-146">Actions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="e8e20-147"><strong>Loodud</strong></span><span class="sxs-lookup"><span data-stu-id="e8e20-147"><strong>Created</strong></span></span></td>
+<td><span data-ttu-id="d69bd-147"><strong>Loodud</strong></span><span class="sxs-lookup"><span data-stu-id="d69bd-147"><strong>Created</strong></span></span></td>
 <td><ul>
-<li><span data-ttu-id="e8e20-148">Kursuseteabe sisestamine ja redigeerimine.</span><span class="sxs-lookup"><span data-stu-id="e8e20-148">Enter and modify course information.</span></span></li>
-<li><span data-ttu-id="e8e20-149">Kursusele oleku <strong>Avatud</strong> määramine, et töötajad saaksid end kursusele registreerida.</span><span class="sxs-lookup"><span data-stu-id="e8e20-149">Change the course status to <strong>Open</strong> so that workers can register for the course.</span></span></li>
+<li><span data-ttu-id="d69bd-148">Kursuseteabe sisestamine ja redigeerimine.</span><span class="sxs-lookup"><span data-stu-id="d69bd-148">Enter and modify course information.</span></span></li>
+<li><span data-ttu-id="d69bd-149">Kursusele oleku <strong>Avatud</strong> määramine, et töötajad saaksid end kursusele registreerida.</span><span class="sxs-lookup"><span data-stu-id="d69bd-149">Change the course status to <strong>Open</strong> so that workers can register for the course.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="e8e20-150"><strong>Ava</strong></span><span class="sxs-lookup"><span data-stu-id="e8e20-150"><strong>Open</strong></span></span></td>
+<td><span data-ttu-id="d69bd-150"><strong>Ava</strong></span><span class="sxs-lookup"><span data-stu-id="d69bd-150"><strong>Open</strong></span></span></td>
 <td><ul>
-<li><span data-ttu-id="e8e20-151">Kursusele osalejate registreerimine.</span><span class="sxs-lookup"><span data-stu-id="e8e20-151">Register participants for the course.</span></span></li>
-<li><span data-ttu-id="e8e20-152">Kursuselt osalejate eemaldamine.</span><span class="sxs-lookup"><span data-stu-id="e8e20-152">Remove participants from the course.</span></span></li>
-<li><span data-ttu-id="e8e20-153">Kursusel osalejate kinnitamine.</span><span class="sxs-lookup"><span data-stu-id="e8e20-153">Confirm participants for the course.</span></span></li>
-<li><span data-ttu-id="e8e20-154">Kursuse olekuks saab määrata<strong> Suletud</strong> või <strong>Tühistatud</strong>.</span><span class="sxs-lookup"><span data-stu-id="e8e20-154">Change the course status to <strong>Closed</strong> or <strong>Canceled</strong>.</span></span></li>
-<li><span data-ttu-id="e8e20-155">Nende osalejate jaoks, kelle olek on <strong>Kinnitatud</strong>, saab kavandada küsimustikke.</span><span class="sxs-lookup"><span data-stu-id="e8e20-155">Plan questionnaires for participants whose status is <strong>Confirmed</strong>.</span></span></li>
+<li><span data-ttu-id="d69bd-151">Kursusele osalejate registreerimine.</span><span class="sxs-lookup"><span data-stu-id="d69bd-151">Register participants for the course.</span></span></li>
+<li><span data-ttu-id="d69bd-152">Kursuselt osalejate eemaldamine.</span><span class="sxs-lookup"><span data-stu-id="d69bd-152">Remove participants from the course.</span></span></li>
+<li><span data-ttu-id="d69bd-153">Kursusel osalejate kinnitamine.</span><span class="sxs-lookup"><span data-stu-id="d69bd-153">Confirm participants for the course.</span></span></li>
+<li><span data-ttu-id="d69bd-154">Kursuse olekuks saab määrata<strong> Suletud</strong> või <strong>Tühistatud</strong>.</span><span class="sxs-lookup"><span data-stu-id="d69bd-154">Change the course status to <strong>Closed</strong> or <strong>Canceled</strong>.</span></span></li>
+<li><span data-ttu-id="d69bd-155">Nende osalejate jaoks, kelle olek on <strong>Kinnitatud</strong>, saab kavandada küsimustikke.</span><span class="sxs-lookup"><span data-stu-id="d69bd-155">Plan questionnaires for participants whose status is <strong>Confirmed</strong>.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="e8e20-156"><strong>Suletud</strong></span><span class="sxs-lookup"><span data-stu-id="e8e20-156"><strong>Closed</strong></span></span></td>
-<td><span data-ttu-id="e8e20-157">Saate kursuse uuesti avada.</span><span class="sxs-lookup"><span data-stu-id="e8e20-157">You can reopen the course.</span></span></td>
+<td><span data-ttu-id="d69bd-156"><strong>Suletud</strong></span><span class="sxs-lookup"><span data-stu-id="d69bd-156"><strong>Closed</strong></span></span></td>
+<td><span data-ttu-id="d69bd-157">Saate kursuse uuesti avada.</span><span class="sxs-lookup"><span data-stu-id="d69bd-157">You can reopen the course.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="e8e20-158"><strong>Tühistatud</strong></span><span class="sxs-lookup"><span data-stu-id="e8e20-158"><strong>Canceled</strong></span></span></td>
-<td><span data-ttu-id="e8e20-159">Saate kursuse uuesti avada.</span><span class="sxs-lookup"><span data-stu-id="e8e20-159">You can reopen the course.</span></span></td>
+<td><span data-ttu-id="d69bd-158"><strong>Tühistatud</strong></span><span class="sxs-lookup"><span data-stu-id="d69bd-158"><strong>Canceled</strong></span></span></td>
+<td><span data-ttu-id="d69bd-159">Saate kursuse uuesti avada.</span><span class="sxs-lookup"><span data-stu-id="d69bd-159">You can reopen the course.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="course-participants"></a><span data-ttu-id="e8e20-160">Kursusel osalejad</span><span class="sxs-lookup"><span data-stu-id="e8e20-160">Course participants</span></span>
-<span data-ttu-id="e8e20-161">Kursusel osalejad on töötajad, kes koolituskursusel või sündmusel osalevad.</span><span class="sxs-lookup"><span data-stu-id="e8e20-161">Course participants are workers who participate in a training course or event.</span></span> <span data-ttu-id="e8e20-162">Saate registreerida osalejaid ainult avatud kursustele.</span><span class="sxs-lookup"><span data-stu-id="e8e20-162">You can only register participants for open courses.</span></span> <span data-ttu-id="e8e20-163">Minimaalne ja maksimaalne kursusele registreeritav osalejate arv määratakse kiirkaardil **Üldine** lehel **Kursused**.</span><span class="sxs-lookup"><span data-stu-id="e8e20-163">The minimum and maximum number of participants that you can register for a course is defined on the **General** FastTab on the **Courses** page.</span></span>
+## <a name="course-participants"></a><span data-ttu-id="d69bd-160">Kursusel osalejad</span><span class="sxs-lookup"><span data-stu-id="d69bd-160">Course participants</span></span>
+<span data-ttu-id="d69bd-161">Kursusel osalejad on töötajad, kes koolituskursusel või sündmusel osalevad.</span><span class="sxs-lookup"><span data-stu-id="d69bd-161">Course participants are workers who participate in a training course or event.</span></span> <span data-ttu-id="d69bd-162">Saate registreerida osalejaid ainult avatud kursustele.</span><span class="sxs-lookup"><span data-stu-id="d69bd-162">You can only register participants for open courses.</span></span> <span data-ttu-id="d69bd-163">Minimaalne ja maksimaalne kursusele registreeritav osalejate arv määratakse kiirkaardil **Üldine** lehel **Kursused**.</span><span class="sxs-lookup"><span data-stu-id="d69bd-163">The minimum and maximum number of participants that you can register for a course is defined on the **General** FastTab on the **Courses** page.</span></span>
 
-<a name="workflow"></a><span data-ttu-id="e8e20-164">Töövoog</span><span class="sxs-lookup"><span data-stu-id="e8e20-164">Workflow</span></span>
+<a name="workflow"></a><span data-ttu-id="d69bd-164">Töövoog</span><span class="sxs-lookup"><span data-stu-id="d69bd-164">Workflow</span></span>
 --------
 
-<span data-ttu-id="e8e20-165">Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, saavad lasta oma registreerumisel läbida kinnitamise töövoo.</span><span class="sxs-lookup"><span data-stu-id="e8e20-165">Employees who register for a course through the **Employee self service** page can have their registration routed through workflow for approval.</span></span> <span data-ttu-id="e8e20-166">Te võite määrata töövookursusele lehe **Kursused** kiirkaardil **Üldine**.</span><span class="sxs-lookup"><span data-stu-id="e8e20-166">You can assign a workflow to a course on the **General** FastTab on the **Courses** page.</span></span>
+<span data-ttu-id="d69bd-165">Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, saavad lasta oma registreerumisel läbida kinnitamise töövoo.</span><span class="sxs-lookup"><span data-stu-id="d69bd-165">Employees who register for a course through the **Employee self service** page can have their registration routed through workflow for approval.</span></span> <span data-ttu-id="d69bd-166">Te võite määrata töövookursusele lehe **Kursused** kiirkaardil **Üldine**.</span><span class="sxs-lookup"><span data-stu-id="d69bd-166">You can assign a workflow to a course on the **General** FastTab on the **Courses** page.</span></span>
 
 
 
