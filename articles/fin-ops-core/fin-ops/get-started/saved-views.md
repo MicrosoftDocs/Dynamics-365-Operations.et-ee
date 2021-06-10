@@ -2,7 +2,7 @@
 title: Salvestatud vaated
 description: Selles teemas kirjeldatakse, kuidas kasutada salvestatud vaadete funktsioone.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744611"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050552"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -126,17 +126,26 @@ Vaate avaldamiseks tehke järgmist.
 5. **Uuendus 10.0.17 või hilisem:** kui funktsioon **(Eelversioon) Organisatsiooni vaadete tõlketugi** on sisse lülitatud, saate lisada oma vaate nime tõlked nii paljudes keeltes, kui teie organisatsioon vajab, valides nupu **Tõlked** välja **Nimi** kõrval. Sel juhul kuvatakse vaate nimi kasutajatele nende praeguses keeles. Saate määrata ka vaikekeele, et määratleda tõlge, mis kuvatakse näidatakse kasutajatele, kes kasutavad keeli, mille jaoks pole tõlget olemas.
 5. Valikuline: sisestage vaate kirjeldus, et seda vaadet nägevad kasutajad mõistaks vaate eesmärki paremini. 
 6. Määratlege, kas vaade tuleks valitud kasutajatele vaikevaatena avaldada. Vaate vaikimisi vaateks muutmine tähendab, et kasutajad näevad seda vaadet järgmine kord, kui nad sihtlehe avavad. Muudaetakse kõigi sihtkasutajate ühtset globaalset vaikevaadet. Kasutajad saavad endiselt muuta oma vaikevaadet pärast avaldamist.
-7. Lisage turberollid, mis kehtivad kasutajatele, kellele see vaade mõeldud on. 
-8. Määratlege, kas soovite avaldada vaate iga valitud turberolli alamrollile. Kui te seda teete, märkige ruut **Lisa alamrollid** vastava turberollide real. Võtke arvesse, et see märkeruut ei ole saadaval rollidel, millel pole alamrolle.
-9. Lisage juriidilised isikud, kellele see vaade peaks kättesaadav olema. 
-10. Valige **Avalda**.
+
+    > [!NOTE]
+    > Vaate vaikevaatena avaldamisel arvestage järgmist: 
+    > -  Kui avaldate vaate vaikevaatena kõigile või mõnele juriidilisele isikule, muudate iga sihtkasutaja ühtset **globaalset** vaikevaadet. 
+    > -  Kui kasutajal on rolle, kus vaikevaatena avaldatakse mitu vaadet, kasutatakse kasutaja vaikevaatena viimast avaldatud vaadet. 
+
+8. Lisage turberollid, mis kehtivad kasutajatele, kellele see vaade mõeldud on. 
+9. Määratlege, kas soovite avaldada vaate iga valitud turberolli alamrollile. Kui te seda teete, märkige ruut **Lisa alamrollid** vastava turberollide real. Võtke arvesse, et see märkeruut ei ole saadaval rollidel, millel pole alamrolle.
+10. Lisage juriidilised isikud, kellele see vaade peaks kättesaadav olema. 
+
+    > [!NOTE]
+    > Juriidilisele isikule vaate avaldamisel arvestage järgmiste ootustega.
+    > 
+    > Kui avaldate vaate juriidilisele isikule, kuid te ei avalda seda vaikevaatena, näevad kasutajad esialgu vaate valija vaadet (ainult määratud juriidiliste isikute puhul). Pärast vaate esmakordset laadimist on see alati kasutaja vastava lehe vaatevalijas sõltumata juriidilisest isikust.
+
+11. Valige **Avalda**.
 
 Arvestage sellega, et teatud keskkondades võib aega kuluda (kuni tund), enne kui kasutajad avaldatud vaadet näevad.
 
-> [!NOTE]
-> Arvestage järgmiste ootustega, kui avaldate vaate juriidilisele isikule või kui avaldate vaate vaikevaateks.
-> - Kui avaldate vaate vaikevaatena kõigile või mõnele juriidilisele isikule, muudate iga sihtkasutaja ühtset globaalset vaikevaadet. Kui kasutajal on rolle, kus vaikevaatena avaldatakse mitu vaadet, kasutatakse kasutaja vaikevaatena viimast avaldatud vaadet. 
-> - Kui avaldate vaate juriidilisele isikule, kuid te ei avalda seda vaikevaatena, näevad kasutajad esialgu vaate valija vaadet (ainult määratud juriidiliste isikute puhul). Pärast vaate esmakordset laadimist on see alati kasutaja vastava lehe vaatevalijas sõltumata juriidilisest isikust. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Avaldatud vaate muutmine
 

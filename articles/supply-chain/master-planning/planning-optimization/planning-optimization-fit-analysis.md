@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812975"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049432"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
@@ -89,13 +89,13 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Tootmine | Järjestust sisaldavad plaanid: _\#_ | See funktsioon on ootel. Hoolimata sellest sättest eiratakse praegu järjestust, kui planeerimise optimeerimine on lubatud. | Oktoober 2021 – aprill 2022 |
 | Tootmine | Tänasest varasema algusajaga kavandatud väljastatud tootmistellimused, mida ei ole alustatud: _\#_ | See funktsioon on ootel. Kui tootmistellimus viibib, eeldab koondplaneerimine praegu, et see viiakse lõpule täna. See on oluline väljastatud tootmistellimuste puhul, mille tarnekuupäev on minevikus, kuid see pole veel lõpetatud. | Oktoober 2021 – aprill 2022 |
 | Tootmine | Piiratud võimsusega kavandatud ressursid: _\#_ | See funktsioon on ootel. Praegu eiratakse piiratud võimsusega kavandatud ressursse, kui planeerimise optimeerimine on lubatud. Kavandamine toimub toote vaiketäitmisaja alusel. | Piiramatu: juuni 2021, piiratud: oktoober 2021 |
-| Tootmine | Plaanimisel kasutatavad marsruudid: _\#_ | See funktsioon on ootel. Praegu eiratakse marsruute, kui planeerimise optimeerimine on lubatud. Kasutatakse toote vaiketäitmisaega. | 2021. juuni |
+| Tootmine | Plaanimisel kasutatavad marsruudid: _\#_ | See funktsioon on ootel. Praegu eiratakse marsruute, kui planeerimise optimeerimine on lubatud. Kasutatakse toote vaiketäitmisaega. | 2021. a juuli |
 | Tootmine | Müügirea reserveerimine koosnevusarvutuse abil: _\#_ | Koosnevusarvutust kasutavat müügirea reserveerimist ei toetata, kui planeerimise optimeerimine on lubatud. | 2021. oktoober |
 | Tootmine | Tootmistellimuste koosnevusarvutusega plaanimine: _\#_ | Tootmistellimuste koosnevusarvutust kasutavat plaanimist ei toetata, kui planeerimise optimeerimine on lubatud. Tootmistellimusi saab plaanida ükshaaval. | 2021. oktoober |
 | Pakkumiskutsed | Koondplaanid, mille pakkumiskutsed on lubatud: _\#_ | See funktsioon on ootel. Praegu ei peeta pakkumiskutseid (RFQ) nõudluseks, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | Oktoober 2021 – aprill 2022 |
 | Taotlused | Koondplaanid, mille taotlused on lubatud: _\#_ | Seda funktsiooni nüüd toetatakse. Lisateavet vt teemast [Ostutaotlused](purchase-requisitions.md). | Toetatud |
-| Ohutuspiirid | Ohutusvaruga laovarude grupid: _\#_ | Seda funktsiooni toetatakse nüüd osaliselt. Lisateabe saamiseks vt [Ohutusvarud](safety-margins.md) | Sissetuleku ohutusvaru: toetatud. Lisatellimuse ohutusvaru ja väljamineku ohutusvaru: aprill 2021 |
-| Ohutuspiirid | Ohutusvaruga koondplaanid: _\#_ | Seda funktsiooni toetatakse nüüd osaliselt. Lisateabe saamiseks vt [Ohutusvarud](safety-margins.md) | Sissetuleku ohutusvaru: toetatud. Lisatellimuse ohutusvaru ja väljamineku ohutusvaru: aprill 2021 |
+| Ohutuspiirid | Ohutusvaruga laovarude grupid: _\#_ | Seda funktsiooni toetatakse nüüd osaliselt. Lisateabe saamiseks vt [Ohutusvarud](safety-margins.md) | Sissetuleku ohutusvaru: toetatud. Lisatellimuse ohutusvaru ja väljamineku ohutusvaru: aprill-oktoober 2021 |
+| Ohutuspiirid | Ohutusvaruga koondplaanid: _\#_ | Seda funktsiooni toetatakse nüüd osaliselt. Lisateabe saamiseks vt [Ohutusvarud](safety-margins.md) | Sissetuleku ohutusvaru: toetatud. Lisatellimuse ohutusvaru ja väljamineku ohutusvaru: aprill-oktoober 2021 |
 | Puhvervaru täitmine | Kauba laovarude kirjed, mille säte „Täida minimaalselt” erineb sättest „Tänane kuupäev + tarneaeg”: _\#_ | Planeerimise optimeerimine kasutab sätet *Tänane kuupäev + tarneaeg*. See muudatus tehti selleks, et valmistada ette lihtsustatud planeerimise seadistamine tulevikus ja pakkuda kasutatavat tulemust. Kui tarneaega puhvervarus ei arvestata, lükatakse plaanitud tellimused, mis luuakse praeguse vähese vaba kaubavaru jaoks, täitmisaja tõttu alati edasi. Selline käitumismudel võib põhjustada palju müra ja soovimatuid plaanitud tellimusi. Parim tava on muuta sätet nii, et kasutatakse sätet *Tänane kuupäev + tarneaeg*. Värskendage koondandmeid, et vältida hoiatusi. | Pole rakendatav |
 | Müügipakkumised | Koondplaanid, mille müügipakkumised on lubatud: _\#_ | See funktsioon on ootel. Praegu eiratakse pakkumisi, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | Oktoober 2021 – aprill 2022 |
 | Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: _\#_ | See funktsioon on ootel. Hoolimata sellest sättest eiratakse praegu kõlblikkusaega, kui planeerimise optimeerimine on lubatud. | 2021. oktoober |
