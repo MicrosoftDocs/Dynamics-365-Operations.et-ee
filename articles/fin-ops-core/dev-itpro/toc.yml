@@ -14,7 +14,9 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Platvormi versiooni 10.0.19 värskendused (juuli 2021)
+                - name: Platvormi versiooni 10.0.20 värskendused (juuli 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Platvormi versiooni 10.0.19 värskendused (juuni 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platvormi versiooni 10.0.18 värskendused (mai 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Mis on uut või mida on muudetud teenuses Lifecycle Services?
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Eemaldatud või iganenud funktsioonid teenuses Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Teenuse Lifecycle Services kasutusjuhend
               href: lifecycle-services/lcs-user-guide.md
             - name: Projekti kasutuselevõtt
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Rakenduse elutsüklihaldus
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Kasutaja määratud töörühma omanik
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Topeltkirjutuse linkimise tühistamine ja uuesti linkimine
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Vastendamise määratlused rakenduste vahel
                   items:
                     - name: Integreeritud kliendi koondandmed
@@ -1166,7 +1170,9 @@
               items:
                 - name: Lisandmoodulite ülevaade
                   href: power-platform/add-ins-overview.md
-        - name: Mobiilne platvorm
+            - name: Poliitikad ja side
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
+        - name: Mobiiliplatvorm
           items:
             - name: Mobiiliplatvormi ressursid
               href: mobile-apps/platform/mobile-platform-home-page.md

@@ -94,7 +94,9 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (juuli 2021)
+                    - name: Commerce 10.0.20 (juuli 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (juuni 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mai 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Ajavahemike loomine ja värskendamine klientide järeletulemiste jaoks
                   href: dev-itpro/pickup-timeslots.md
+                - name: Tootedimensioonide konfigureerimine proovidena kuvamiseks
+                  href: dev-itpro/dimensions-swatch.md
         - name: Toodete ja teenuste kaubastamine
           items:
             - name: 'Kategooriad, tooted ja sortimendid'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Mõõtühikusätete rakendamine
                   href: unit-of-measure.md
+                - name: Tootedimensioonide kuvasätete rakendamine
+                  href: dimension-settings.md
             - name: Saidi sisu haldamine
               items:
                 - name: Sisu lisamise viisid
@@ -1206,7 +1212,7 @@
               href: store-performance-information.md
             - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi häälestus'
               href: set-up-rfm-analysis.md
-            - name: Microsoft Clarity häälestamine Dynamics 365 Commerce'is
+            - name: Microsoft Clarity seadistamine Dynamics 365 Commerce'is
               href: set-up-clarity.md
         - name: Globaliseerimine
           items:
@@ -1946,7 +1952,7 @@
                   items:
                     - name: Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
+                    - name: Loodud ER-aruannete ja võrdluse alusväärtuste abil jälgimise tulemuste täiustused
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: ER-iga testimise automatiseerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Rakenduse sätted
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Saidikoosturi üldiste konfiguratsioonisätete konfigureerimine lubatud funktsioonide põhjal
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Platvormi sätete fail
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Mooduli definitsiooni laiendamine
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Arendus ja ALM-i muudatused versioonist 10.0.10 kuni versioonini 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Sõltumatu pakendamise SDK järgukonveieri häälestamine
+                  href: dev-itpro/build-pipeline.md
                 - name: Commerce'i ja Finance and Operationsi järgusüsteemide ühendamine
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Retail SDK migreerimine versioonist Visual Studio 2015 versiooni Visual Studio 2017
@@ -2386,6 +2396,8 @@
               items:
                 - name: Kassa ekraanipaigutused
                   href: pos-screen-layouts.md
+                - name: Rakendus Store Commerce Microsoft Dynamics 365 Commerce'is
+                  href: dev-itpro/store-commerce.md
                 - name: URL-i avamine kassas
                   href: Open-URL-in-POS.md
                 - name: Kassa paigutuse kujundaja installimine

@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 20. mai 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3. mai 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19. aprill 2021
@@ -785,8 +787,14 @@
           items:
             - name: Jõudlushalduse ülevaade
               href: hr-develop-performance-management-overview.md
-            - name: Tööjõu oskuste joondamine
-              href: hr-develop-skills.md
+            - name: Oskused
+              items:
+                - name: Oskuste konfigureerimine
+                  href: hr-develop-skills.md
+                - name: Oskuste sisestamine
+                  href: hr-develop-enter-skills.md
+                - name: Oskuste kaardistamine
+                  href: hr-develop-map-skills.md
             - name: Oma jõudluse töölehele lisamine
               href: hr-develop-add-performance-journal.md
             - name: Eesmärgi loomine

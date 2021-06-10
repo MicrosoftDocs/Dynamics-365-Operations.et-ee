@@ -72,6 +72,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (juuli 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (juuli 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (mai 2021)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Aastalõpu sulgemisel puuduvad algsaldod
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Finantstöölehe mallide avamine Office'is
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Finantsaruandlus
           items:
             - name: Finantsaruandlusega alustamine
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: 'Andmeväljade lisamine maksu integreerimisse, kasutades laiendusi'
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Mitu käibemaksu registreerimisnumbrit
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Koondandmete otsingu keskkonna häälestamine
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Mitu käibemaksu registreerimisnumbrit
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Mitme KM-i registreerimise aruandlus
+                      items:
+                        - name: Mitme KM-i registreerimise aruandlus
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Hollandi aruandlus
+                          items:
+                            - name: Käibemaksudeklaratsioon
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: EL käibearuanne
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
             - name: Austraalia
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: GSTR aruannete puhu mitme partii töötlemise lubamine
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: GST tõrkeotsing
+                          items:
+                            - name: Vale maksusumma pärast arvutamist
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Maksu konfiguratsioonitõrked
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Maksu pole arvutatud
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: Maksusoodustuse reeglite aktiveerimine võtab oodatust kauem aega
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTransi või kannet pole loodud
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: Maksukande ID on vale
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Otsesed maksud
                   items:
                     - name: India kinnipeetav maks
@@ -2842,8 +2870,12 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-i integreerimine
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Auditifail (XML Auditfile Financieel, XAF)'
+                - name: Auditifail (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: Käibemaksudeklaratsioon (Holland)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: EL käibearuanne
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Norra
               items:
                 - name: Norra ülevaade
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
+                    - name: Loodud ER-aruannete ja võrdluse alusväärtuste abil jälgimise tulemuste täiustused
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: ER-iga testimise automatiseerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
