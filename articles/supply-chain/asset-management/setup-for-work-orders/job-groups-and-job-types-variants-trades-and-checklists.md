@@ -1,5 +1,5 @@
 ---
-title: Hooldustöö tüübi kategooriad ja hooldustöö tüübid, hooldustöö tüübi variandid, hooldustööde vahetused ja hoolduse kontrollnimekirjad
+title: Hooldustöö tüübid, kategooriad, variandid, kaubandused ja kontroll-loendid
 description: Selles teemas kirjeldatakse hooldustöö tüübi kategooriaid ja hooldustöö tüüpe, hooldustöö  tüübi variante, hooldustööde vahetusi ja hoolduse kontrollnimekirju varahalduses
 author: johanhoffmann
 ms.date: 08/13/2019
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb73fb36ee31d93b2121437d57d959ba6c01a337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842269"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117079"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Hooldustöö tüübi kategooriad ja hooldustöö tüübid, hooldustöö tüübi variandid, hooldustööde vahetused ja hoolduse kontrollnimekirjad
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Hooldustöö tüübid, kategooriad, variandid, kaubandused ja kontroll-loendid
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Igale varale on lisatud vara tüüp. Varatüübid määratlevad hooldustööde tüübid (ja seetõttu ka hooldustööd), mida saab varadega teostada. Kui loote töökäsu, peate valima hooldustöö tüübi. Saate valida ainult need hooldustöö tüübid, mis on seotud vara jaoks kasutatava vara tüübi seadistamisega.
 

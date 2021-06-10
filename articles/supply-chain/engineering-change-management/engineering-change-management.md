@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954641"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114995"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Tehniliste toodete muudatuste haldamine
 
@@ -92,9 +92,13 @@ Sellel loendil on ainult informatiivne eesmärk. Seetõttu saate lisada nii palj
 
 Kiirkaart **Allikas** võimaldab teil jälgida muudatuse taotluse lähtepunkti. See on kasulik näiteks juhul, kui soovite näha, kas muudatuse taotlus loodi müügitellimuse alusel, kes selle lõi ja millises ettevõttes see loodi.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Muudatuse taotluse ärimõju hindamine
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Muudatuse taotluse ärimõju hindamine
 
-Kui vaatate muudatuse taotlust läbi, saate otsida sõltuvusi. Sel viisil saate hinnata taotletud muudatuse mõju avatud kannetele, nagu näiteks müügitellimused, tootmistellimused ja vaba kaubavaru.
+Kui vaatate muudatuse taotlust läbi, saate otsida sõltuvusi. Sel viisil saate hinnata taotletud muudatuse mõju avatud kannetele, nagu näiteks müügitellimused, tootmistellimused ja vaba kaubavaru. Muutmise taotluste ülevaatamise käigus saate saata teavitusi inimestele, kes vastutavad erinevat tüüpi seotud tellimuste täitmise eest.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Mõjutatud kannete ülevaatamine, valitud kannete blokeerimine ja teatiste saatmine
+
+Mõjutatud kannete ülevaatamiseks, valitud kannete blokeerimiseks ja teatiste saatmiseks järgige järgmisi samme.
 
 1. Valige **Tehnilise muudatuse haldamine \> Ühine \> Tehnilise muudatuse haldamine \> Tehnilise muudatuse taotlused**.
 1. Avage olemasolev muudatuse taotlus või valige toimingupaanil **Uus**, et luua uus muudatuse taotlus.
@@ -103,7 +107,30 @@ Kui vaatate muudatuse taotlust läbi, saate otsida sõltuvusi. Sel viisil saate 
     - **Otsing** – skannib kõiki avatud kandeid ja avab seejärel dialoogiboksi **Ärimõju avatud kannetele**, kus loetletakse kõik kanded, mida muudatus mõjutab.
     - **Kuva eelmine otsing** – avage dialoogiboks **Ärimõju avatud kannetele**, kus loetletakse eelmise otsingu tulemused. (Uut otsingut ei tehta.)
 
-1. Kui probleem, mis nõuab muutmist, leitakse olevat kriitiline, saate avatud kanded blokeerida või teavitada vastutavat kasutajat, kasutades tööriistariba nuppe dialoogiboksis **Ärimõju avatud kannetele**.
+1. **Äritegevuse mõju avatud kannetele** dialoogiboks annab vahekaartide komplekti, millest igaüks näitab kindla tüübiga mõjutatud loendi (**Müügitellimused**, **Ostutellimused**, **Tootmistellimused**, **Inventuur** jne). Igal vahekaardil kuvatakse ka number, mis näitab seda tüüpi mõjutatud kannete arvu. Valige vahekaart, et vaadata asjassepuutuvat loendit.
+1. Loendis kandega tööks valige see ja valige tööriistaribal üks järgmistest nuppudest:
+
+    - **Vaadake kannet** - Avage valitud kandekirje.
+    - **Blokeeri tellimus** - See nupp on saadaval ainult **Müügitellimused** vahekaart. Valige see valitud müügitellimuse blokeerimiseks.
+    - **Blokeeri rida** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see, et blokeerida valitud ostutellimuse rida.
+    - **Teavitage vastutajat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see muudatusteatise saatmiseks valitud müügitellimuse eest vastutavale kasutajale.
+    - **Teavitage tellijat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks.
+    - **Teavita tootmist** – see nupp on saadaval ainult **Tootmistellimused** vahekaardil. Erinevalt müügitellimustest ja ostutellimustest ei ole tootmistellimustel ühtegi kasutajat, kes on määratud nende eest vastutavaks lõpuni. Selle asemel saavad erinevad ülevaatajad või planeerijad tavaliselt omanikud kindlale saidile või kindlale tootmise osale (nt kindlatele ressurssidele või ressursigruppidele). Seetõttu saavad selle nupu valimisel muutmisteatise kõik kasutajad, kes vastutavad valitud tootmistellimusega seotud ressursside eest.
+    - **Teavitage ettevalmistajat** - See nupp on saadaval ainult **Ostutellimus** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks.
+    - **Teavitage müügivastutusest** - See nupp on saadaval ainult **Pakkumised** vahekaardil. Valige see muudatusteatis saatmiseks kasutajale, kes on määratud vastutama valitud pakkumise eest.
+    - **Jäägid** - See nupp on saadaval ainult **Varud** vahekaardil. Valige see valitud laovaru mahakandmiseks.
+    - **Kuva ajalugu** – Avage valitud kandega seotud tegevuste ajalugu, kasutades dialoogiboksi **Ärimõju avatud kannetele**. (Näiteks näitab ajalugu, kas teatised on saadetud või kanded on blokeeritud.) 
+    - **Vaadake kõiki kandeid** – Avage kõigi kannete, mitte ainult avatud kannete täielik loend.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Kannete muutmise teatiste ülevaatamine ja protsess
+
+Saate lugeda ja töödelda muutuseteatisi, mida saate järgmistel viisidel:
+
+- Muutke tegevuskeskuses teie eest vastutavate kannete teatisi, välja arvatud tootmistellimuste puhul. **Teadete näitamise** nupp (kella sümbol) navigeerimisriba paremal pool näitab, millal tegevuskeskuse sõnum on praegusele kasutajale saadaval. Kasutaja saab tegevuskeskuse avamiseks ja sõnumite ülevaatamiseks valida nupu **Näita teateid**.
+- Kõigi nende tootmistellimuste vaatamiseks, mille kohta on saadetud tehnikateatis, minge **Tootmistellimuste \> Tootmistellimusse \> Kõik tootmistellimused**. Valige lehe **Tootmistellimus** toimingupaani vahekaardi **Tehnika muutmise taotlus** grupis **Tootmisteated**, et avada leht **Tootmisteated**.
+- Tootmistellimuste puhul saate valida ainult nende muutuse teatiste ülevaatamise, mis kehtivad teie hallatavate tootmisressursside puhul. Tööruumis **Tootmispinna haldus** toimingupaanil **Konfigureerige oma tööruum** valige lehe filtreerimiseks, nii et see kuvab infot ainult teie hallatavate tootmisüksuste, gruppide ja/või ressursside kohta. Jaotises **Kokkuvõte** paanil nimega **Muudetud toodetega tootmistellimused** kuvatakse teatised, mis vastavad teie teatiste filtri sätetele. Valige see paani, et avada **Tehnika teatiste** leht, mis näitab kogu kannete loendit, mis vastavad teie filtri kriteeriumitele.
+
+Tootmistellimuse teatiste ülevaatamise ajal **Tehnika teatiste** lehel saate jälgida linke seotud muudatuse tellimustele või tootmistellimustele, valides veeru väärtused või kasutades seotud käske tegevuspaanil. Pärast muudatuse hindamise lõpetamist ja pärast vajaduse järgi tootmistellimuste tühistamist või muutmist saate märkida teatise lahendatuks. Valige tegevuspaanilt teatis ja seejärel valige tegevuspaanil **Lahendatud**. Teatis eemaldatakse kõikide kasutajate vaadetelt.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Muudatuse tellimuse loomine muudatuse taotluse põhjal
 

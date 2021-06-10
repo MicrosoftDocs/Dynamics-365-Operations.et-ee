@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920153"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115141"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Tehnilised versioonid ja tehniliste toodete kategooriad
 
@@ -48,7 +48,8 @@ Kui kasutate tehnilisi tooteid, on igal tootel vähemalt üks tehniline versioon
 - Toote loonud ja seda omav tehnikaettevõte (lisateavet vt jaotisest [Tehnikaettevõtted ja andmete omandiõiguse reeglid](engineering-org-data-ownership-rules.md).)
 - Seotud tehnilised dokumendid, nagu komplekti kasutusjuhend, kasutusjuhendid, pildid ja lingid
 - Tehnilised atribuudid (lisateavet vt jaotisest [Tehnilised atribuudid ja tehnilise atribuudi otsing](engineering-attributes-and-search.md).)
-- Tehniline kooslus
+- Inseneritoodete materjalide arve (BOM)
+- Tootmistööde järjestamine tootmisprotsessiks
 - Tehnilised marsruudid
 
 Seda teavet saate värskendada olemasoleval versioonil või luua uue versiooni, kasutades *tehnika muudatuste järjestust*. (Lisateavet vt jaotisest [Tehniliste toodete muudatuste haldamine](engineering-change-management.md).) Kui loote tootele uue versiooni, kopeerib süsteem kõik tehnilised andmed sellesse uude versiooni. Seejärel saate selle uue versiooni andmeid muuta. Sel viisil saate jälgida kindlaid andmeid iga järjestikuse versiooni kohta. Järjestikuste tehniliste versioonide erinevuste võrdlemiseks kontrollige tehnilise muudatuse tellimust, kus on kõik muudatusi näitavad muudatuste tüübid.
@@ -110,6 +111,8 @@ Häälestage järgmised väljad tehnilise toote kategooria kiirkaardil **Üksika
 | Field | Kirjeldus |
 |---|---|
 | Toote tüüp | Valige, kas kategooria kehtib toodete või teenuste puhul. |
+| Tootmise tüüp | See valik kuvatakse ainult siis, kui olete süsteemis lubanud [valemi muutmise halduse](manage-formula-changes.md). Valige tootmise tüüp, mille suhtes see tehnika tootekategooria kehtib:<ul><li>**Plaanimisüksus** – kasutage seda tehnika kategooriat, et teha kaupade plaanimiseks valemi muutmise haldust. Plaanimisüksused kasutavad valemeid. Need sarnanevad valemiüksustega, kuid neid kasutatakse ainult kaastoodete ja kaastoodete tootmiseks, lõpetamata toodete tootmiseks. Valemeid kasutatakse protsessi tootmise ajal.</li><li>**Kooslus** - Kasutage seda tehnika kategooriat, et hallata tehnika tooteid, mis ei kasuta valemeid ja sisaldavad tavaliselt (kuid mitte tingimata) kooslusi.</li><li>**Vorm** – kasutage seda tehnika kategooriat, et teha kaupade plaanimiseks valemi muutmise haldust. Nendel üksustel on valem, kuid mitte BOM. Valemeid kasutatakse protsessi tootmise ajal.</li></ul> |
+| Tegelik kaal | See valik kuvatakse ainult siis, kui olete süsteemis lubanud [valemi muutmise halduse](manage-formula-changes.md). See on saadaval ainult siis, kui **Tootmistüübi** välja väärtuseks on seatud *Plaanimisüksus* või *Valem*. Seadistage see valik väärtusele *Jah* kui kasutate seda tehnika kategooriat, et hallata kaupu, mis vajavad tegeliku kaalu tuge. |
 | Kannete versioonide jälgimine | Valige, kas toote versioon tuleb tembeldada kõigil kannetel (logistiline mõju). Näiteks kui jälgite kannete versiooni, näitab iga müügitellimus, millist kindlat versiooni toode selle müügitellimusega müüdi. Kui te ei jälgi kannete versiooni, ei näita müügitellimused, millist kindlat versiooni müüdi. Selle asemel kuvatakse alati uusim versioon.<ul><li>Kui sellele suvandile määrati väärtus *Jah*, luuakse toote jaoks tooteetalon ja toote iga versioon on variant, mis kasutab *versiooni* tootedimensiooni. **Toote alamtüübi** väli on automaatselt seadistatud väärtusele *Tooteetalon* ja **tootedimensiooni grupi** väljal peate valima tootedimensiooni grupi, kus *versiooni* mõõtmed on aktiivsed. Kuvatakse ainult need tootedimensiooni grupid, kus *versioon* on aktiivne dimensioon. Saate luua uusi tootedimensioone, valides nupu **Redigeeri** (pliiatsisümbol).</li><li>Kui selle suvandi väärtuseks määratakse *Ei*, ei kasutata *versiooni* tootedimensiooni. Seejärel saate valida, kas luua toode või tooteetalon, mis kasutab teisi dimensioone.</li></ul><p>Seda valikut kasutatakse sageli toodete puhul, mille kulu versioonide või toodete lõikes erineb, või toodete puhul, kus kliendiga seoses kehtivad erinevad tingimused. Seetõttu on oluline igas kandes näidata, millist versiooni kasutati.</p> |
 | Toote alamtüüp | Valige, kas kategoorial on tooteid või tooteetalone. Tooteetalonide puhul kasutatakse tootedimensioone.
 | Tootedimensioonigrupp | Seade **Kannete versioonide jälgimine** aitab teil valida toote mõõtmegrupi. Kui täpsustasite, et soovite jälgida kannete versioone, kuvatakse tootedimensioonide rühmad, kus kasutatakse *versiooni* dimensiooni. Muidu kuvatakse ainult need tootedimensiooni grupid, kus *versiooni* dimensiooni ei kasutata. |
@@ -140,6 +143,9 @@ Iga ruudustiku lisatava rea jaoks määrake järgmised väljad.
 ### <a name="readiness-policy-fasttab"></a>Kiirkaart Valmisolekupoliitika
 
 Kasutage välja **Toote valmisolekupoliitika**, et valida valmisolekupoliitika, mida rakendatakse sellesse kategooriasse kuuluvate toodete puhul. Lisateavet vt jaotisest [Toote valmisolek](product-readiness.md).
+
+> [!NOTE]
+> Välja **Toote valmisoleku poliitika** töötab veidi teistmoodi, kui olete lülitanud oma süsteemi *Toote valmisoleku kontrolli* funktsiooni sisse. (See funktsioon võimaldab teil rakendada valmisolekupoliitikaid standardsetele \[mitteinsenerilistele\] toodetele). Lisateavet vaata jaotisest [Standardi- ja tehnikatoodetele valmisoleku poliitikate määramine](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Kiirkaart Vabastamise poliitika
 

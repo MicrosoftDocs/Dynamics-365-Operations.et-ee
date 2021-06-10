@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018308"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112669"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Üleminek osapoole ja globaalse aadressiraamatu mudelile
 
@@ -22,28 +22,29 @@ ms.locfileid: "6018308"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[Azure'i andmetehase mall](https://aka.ms/dual-write-gab-adf) aitab teil täiendada olemasolevaid tabelite **Konto**, **Kontakt** ja **Hankija** andmeid kahekirjutamisel osapoole ja globaalse aadressiraamatu mudelile. Mall sobitab nii Finance and Operations rakenduste kui ka kliendikaasamise rakenduste andmed. Protsessi lõpus luuakse **osapoole** kirjete **osapoole**- ja **kontakti** väljad ning seostatakse need kliendikaasamise rakenduste kirjetega **Konto**, **Kontakt** ja **Hankija**. Finance and Operations rakenduses uute **osapoole** kirjete loomiseks luuakse .csv fail (`FONewParty.csv`).  Selles teemas on juhised malli Data Factory malli kasutamiseks ja andmete täiendamiseks.
+[Microsoft Azure Data Factory mall](https://aka.ms/dual-write-gab-adf) aitab teil täiendada olemasolevaid **Konto**, **Kontakt** ja **Hankija** tabeli andmeid kahekirjutamisel osapoole ja globaalse aadressiraamatu mudelile. Mall sobitab nii reconciles rakenduste kui ka finance and operations ja customer engagement rakenduste andmed. Protsessi lõpus luuakse **osapoole** kirjete **osapoole**- ja **kontakti** väljad ning seostatakse need kliendikaasamise rakenduste kirjetega **Konto**, **Kontakt** ja **Hankija**. .csv fail (`FONewParty.csv`) on loodud uue **Osapoole** kirjete loomiseks rakenduses finance and operations. Selles teemas on juhised Data Factory malli kasutamiseks ja andmete täiendamiseks.
 
 Kui teil kohandusi pole, saate malli kasutada nii, nagu see on. Kui teil on kohandusi kirjetes **Konto**, **Kontakt** ja **Hankija**, peate malli muutma järgmiste juhiste abil.
 
-> [!Note]
-> Mall aitab uuendada ainult **osapoole** andmeid. Tulevases väljaandes lisatakse posti- ja elektroonilised aadressid.
+> [!NOTE]
+> Mall aitab uuendada ainult **Osapoole** andmeid. Tulevases väljaandes lisatakse posti- ja elektroonilised aadressid.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Järgmised eeldused on vajalikud.
+Osapoole ja globaalse aadressiraamatu mudeli täiendamiseks on nõutavad järgmised eeltingimused:
 
 + [Azure'i tellimus](https://portal.azure.com/)
 + [Juurdepääs mallile](https://aka.ms/dual-write-gab-adf)
 + Olete olemasolev topeltkirjutamise klient.
 
 ## <a name="prepare-for-the-upgrade"></a>Täienduseks ettevalmistamine
+Täienduse ettevalmistamiseks on tarvis järgmisi tegevusi:
 
 + **Täielikult sünkroonitud**: mõlemas keskkonnas on kirjed **Konto (klient)**, **Kontakt** ja **Hankija** täielikult sünkroonitud olekuga.
 + **Integratsioonivõtmed**: kliendikaasamise rakenduste tabeleid **Konto (klient)**, **Kontakt** ja **Hankija** kasutavad väljaminekuks saadetud integratsioonivõtmeid. Kui kohandasite integratsioonivõtmeid, peate malli kohandama.
 + **Osapoole number**: kõigil täiendamisele minevatel kirjetel **Konto (Klient)**, **Kontakt** ja **Hankija** on **osapoole number**. **Osapoole** numbrita kirjeid ignoreeritakse. Kui soovite neid kirjeid täiendada, lisage neile enne täiendusprotsessi alustamist **osapoole** number.
-+ **Süsteemi katkestus**: versiooniuuendusprotsessi ajal peate kasutama nii Finance and Operations ja kliendikaasamise keskkondi võrguühenduseta.
-+ **Hetktõmmis**: tehke hetktõmmiseid nii klientide kaasamise kui ka Finance and Operations rakendustest. Kasutage vajadusel hetktõmmiseid eelmise oleku taastamiseks.
++ **Süsteemi katkestus**: versiooniuuendusprotsessi ajal peate kasutama nii finance and operations kui customer engagement keskkondi võrguühenduseta.
++ **Hetktõmmis**: tehke hetktõmmiseid nii finance and operations rakenduses kui customer engagement rakenduses. Kasutage vajadusel hetktõmmiseid eelmise oleku taastamiseks.
 
 ## <a name="deployment"></a>Juurutamine
 
@@ -78,9 +79,13 @@ Järgmised eeldused on vajalikud.
     FO lingitud Service_properties_type Properties_tenant | Määrake üürniku teave (domeeninimi või üürniku ID), mille all teie rakendus asub.
     FO lingitud Service_properties_type Properties_aad resursi ID | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO lingitud Service_properties_type Properties_service põhi-ID | Määrake rakenduse kliendi ID.
-    Dynamics Crm-iga lingitud Service_properties_type Properties_username | Kasutajanimi Dynamicsiga ühenduse loomiseks.
+    Dynamics Crm-iga lingitud Service_properties_type Properties_username | Kasutajanimi ühenduse loomiseks rakenduses Dynamics 365.
 
-    Lisateavet leiate teemast [Ressursihalduri malli käsitsi reklaamimine iga keskkonna jaoks ](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Lingitud teenuse atribuudid ](/azure/data-factory/connector-dynamics-ax#linked-service-properties)ja [Andmete kopeerimine Azure'i andmevabriku abil](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Lisateavet vt järgmistest teemadest: 
+    
+    - [Kasutage Resource Manager malli iga keskkonna puhul käsitsi](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Lingitud teenuse atribuudid](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Andmete kopeerimine Azure Data Factory abil](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Pärast juurutamist valideerige andmevabriku andmekogumid, andmevoog ja lingitud teenus.
 
@@ -102,7 +107,7 @@ Järgmised eeldused on vajalikud.
 
 ## <a name="run-the-template"></a>Käitage mall
 
-1. Finance and Operations rakenduse abil saate peatada järgmiste **konto**, **kontakti** ja **hankija** topeltkirjutamise.
+1. Rakenduse Finance and Operations abil saate peatada järgmiste kaartide **konto**, **kontakt** ja **hankija** topeltkirjutamise.
 
     + Kliendid V3 (kontod)
     + Kliendi V3 (kontaktid)
@@ -114,7 +119,7 @@ Järgmised eeldused on vajalikud.
 
 3. Installige [kahekirjutajalised osapoole ja globaalse aadressiraamatu lahendused](https://aka.ms/dual-write-gab) AppSource rakendusest.
 
-4. Kui Finance and Operations rakenduses sisaldavad andmeid järgmised tabelid, käivitage nende jaoks **esmane sünkroonimine**.
+4. Rakenduses finance and operations sisaldavad andmeid järgmised tabelid, käivitage nende jaoks **esmane sünkroonimine**.
 
     + Tervitused
     + Isiklikud märgitüübid
@@ -123,7 +128,7 @@ Järgmised eeldused on vajalikud.
     + Otsustamisrollid
     + Püsikliendi tasemed
 
-5. Keelake kliendi kaasamise rakenduses järgmised plugina juhised.
+5. Keelake customer engagement rakenduses järgmised plugina juhised.
 
     + Konto uuendamine
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: konto värskendamine
@@ -157,11 +162,11 @@ Järgmised eeldused on vajalikud.
 8. Importige rakenduses Finance and Operations uued **osapoole** kirjed.
 
     + Laadige `FONewParty.csv` fail alla Azure'i bloobimälust. Vorming on `partybootstrapping/output/FONewParty.csv`.
-    + Teisendage `FONewParty.csv` fail Exceli failiks ja importige Exceli fail Finance and Operations rakendusse.  Kui CSV import töötab teie jaoks, saate importida CSV faili otse. Sõltuvalt andmemahust võib importimiseks kuluda mõni tund. Lisateavet vt [Andmete importimis- ja eksportimistööde ülevaade](../data-import-export-job.md).
+    + Teisendage `FONewParty.csv` fail Exceli failiks ja importige Exceli fail finance and operations rakendusse. Kui cvs import teie jaoks töötab, saate importida csv faili otse. Sõltuvalt andmemahust võib importimiseks kuluda mõni tund. Lisateavet vt [Andmete importimis- ja eksportimistööde ülevaade](../data-import-export-job.md).
 
     ![Dataversi osapoole kirjete importimine](media/data-factory-import-party.png)
 
-9. Lubage kliendi kaasamise rakenduses järgmised plugina juhised.
+9. Lubage customer engagement rakenduses järgmised plugina juhised:
 
     + Konto uuendamine
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: konto värskendamine
@@ -189,7 +194,7 @@ Järgmised eeldused on vajalikud.
 
 ## <a name="troubleshooting"></a>Tõrkeotsing
 
-1. Kui protsess ebaõnnestub, käivitage vabrik uuesti, alustades ebaõnnestunud tegevusest.
+1. Kui protsess ebaõnnestub, käivitage andmevabrik uuesti, alustades ebaõnnestunud tegevusest.
 2. Mõned failid loob andmevabrik, mida saate kasutada andmete valideerimise eesmärgil.
 3. Andmevabrik töötab komaeraldusega CSV-failide põhjal. Kui on välja väärtus, millel on koma, võib see tulemusi häirida. Te peate komad eemaldama.
 4. Vahekaart **Jälgimine** sisaldab teavet kõigi töödeldavate toimingute ja andmete kohta. Valige selle silumiseks kindel juhis.
@@ -198,4 +203,4 @@ Järgmised eeldused on vajalikud.
 
 ## <a name="learn-more-about-the-template"></a>Lisateave malli kohta
 
-Leiate [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md) faili kohta kommentaare.
+Malli kohta leiate lisateavet [Kommentaarid Azure Data Factory malli lugemise kohta](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

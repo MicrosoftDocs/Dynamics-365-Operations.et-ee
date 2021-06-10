@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a94df9dd706c2540779db70e794e4a0a3f2dd186
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809274"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103018"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Puudumiste registreerimine jaotises Tööajaarvestus
 
@@ -101,7 +101,7 @@ Töötaja registreeritud tööaeg tuleb arvutada ja kinnitada, enne kui selle sa
 
 Kinnitaja saab muuta töötaja registreeritud tööaega. Kinnitaja saab isegi muuta töötaja registreeritud puudumisi. Kui kinnitaja sisestab käsitsi puudumiskoodiga ajaperioodi, ei tühista tööajaarvestuse parameetrite vaikepuudumiskood selle perioodi puudumiskoodi.
 
-Näiteks teeb töötaja sisseregistreerimise kell 10:00 ja valib puudumiskood, mis näitab, et ta jäi hiljaks. Hiljem teavitab töötaja juhatajat sellest, et ta käis 08:00–10:00 arsti juures. Arsti juures käimine ei peaks põhjustama töötaja palga vähendamist. Seetõttu võib juhataja sellisel juhul kaht puudutud tundi (08:00–10:00) muuta, sisestades käsitsi puudumiskoodi, mis viitab haigusele.
+Näiteks teeb töötaja sisseregistreerimise kell 10:00 ja valib puudumiskoodi, mis näitab, et ta jäi hiljaks. Hiljem teavitab töötaja juhatajat sellest, et ta käis 08:00–10:00 arsti juures. Arsti juures käimine ei peaks põhjustama töötaja palga vähendamist. Seetõttu võib juhataja sellisel juhul kaht puudutud tundi (08:00–10:00) muuta, sisestades käsitsi puudumiskoodi, mis viitab haigusele.
 
 ### <a name="calculate-and-approve-absence"></a>Puudumisaja arvutamine ja kinnitamine
 

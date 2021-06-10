@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 98fc102b308afb90d4665ecd80650f66d531da0b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3124ac0e161e003986d7e167e292cbb374e1bfa
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826710"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085446"
 ---
 # <a name="import-format-for-consolidation"></a>Konsolideerimise impordivorming
 
@@ -36,7 +36,7 @@ Järgmises tabelis on toodud impordivorming, mida peate kasutama impordi ajal ko
 | 2            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Põhikonto ID</li><li>Kande kuupäev</li><li>Finantsperioodi tüüp (**0** = avamine, **1** = kasutamine ja **2** = sulgemine)</li><li>Kande valuuta</li><li>Deebet või kreedit (**0** = deebet ja **1** = kreedit)</li><li>Sisestamiskiht</li><li>Kandesummad</li><li>Kogus</li><li>Kohalik RecID (kande mitmetähenduslik, kordumatu int64 väärtus)</li></ul> |
 | 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Kirje number (eelarve päise kande number)</li><li>Eelarve päise vaikekuupäev</li><li>Eelarve mudeli ID</li><li>Kandetüübi loetelu täisarvuline väärtus (tühi, algne eelarve jne)</li><li>Rea kuupäev</li><li>Rea põhikonto ID</li><li>Rea valuutakood</li><li>Rea summa kande valuutas</li><li>Rea eelarvetüübi loetelu täisarvuline väärtus (kulu või tulu)</li></ul> |
 | 4            | DEMF | RecordCompany on juriidilisest isikust allikas. |
-| 5            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | RecordCompany on juriidilisest isikust allikas. |
+| 5            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Põhikonto ID</li><li>Kande kuupäev</li><li>Eelarveprioodi tüüp (0 avamine, 1 kasutamine ja 2 sulgemine)</li><li>Kande valuuta</li><li>Deebet või kreedit (0 deebeti jaoks ja 1 kreediti jaoks)</li><li>Sisestamiskiht</li><li>Kandesumma</li><li>Kogus</li><li>Kohalik recid (kande mitmetähenduslik, kordumatu int64 väärtus)</li></ul>  |
 | 6            | BusinessUnit, 1 osakond, 2 | Finantsdimensiooni atribuudid, mis on määratletud segmendi järjestuses.<p>Saate kasutada lehte **Eksport**, et kontrollida atribuutide määratlemist.</p> |
 | 7            | 002,1,658 | <ul><li>Finantsdimensiooni väärtus</li><li>Finantsdimensioon kui indeks, mis on esitatud väljal RecordDimensions</li><li>Mitmetähenduslik, kordumatu kirje ID, mis on seotud kordumatu kirje ID-ga väljal RecordTrans või RecordTrans2</li></ul> |
 | 8            | 002,1,1 | <ul><li>Dimensiooniväärtused, mis on seotud kandega väljal RecordBudget</li><li>Finantsdimensioon kui indeks, mis on esitatud väljal RecordDimensions</li><li>Mitmetähenduslik reakirje ID, mis on vastavuses faili kanderidade järjestusega</li></ul> |

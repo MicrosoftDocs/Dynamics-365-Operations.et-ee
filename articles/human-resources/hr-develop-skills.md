@@ -1,14 +1,14 @@
 ---
-title: Tööjõu oskuste joondamine ärivajadustele
-description: Saate jälgida oskusi, mis võivad töötajatel, kandidaatidel või kontaktisikutel olla, et oma rolli tõhusalt täita. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.
+title: Oskuste konfigureerimine
+description: Saate jälgida oma töötajate oskusi rakenduses Dynamics 365 Human Resources. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.
 author: andreabichsel
-ms.date: 11/01/2017
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
@@ -16,52 +16,97 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793701"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076555"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a>Tööjõu oskuste joondamine ärivajadustele
+# <a name="configure-skills"></a>Oskuste konfigureerimine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Saate jälgida oskusi, mis võivad töötajatel, kandidaatidel või kontaktisikutel olla, et oma rolli tõhusalt täita. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.
+Saate jälgida oma töötajate oskusi rakenduses Dynamics 365 Human Resources. Samuti saate määrata oskused, mida on vaja konkreetse töö jaoks.
 
-Oskused, mida saate jälgida, on muu hulgas järgmised.
--   Kontrollioskus: oskus teiste töö järele valvata.
--   Juhivõimed: võime juhtida töötajaid ja äridomeene.
--   Kavandamine: võime vaadata tulevikku, luua kujutlusi ja neid ellu viia.
--   HTML: oskus kirjutada HTML-koodi.
+Oskused, mida saate jälgida, on muu hulgas:
 
-Enne kui saate määrata isikule või tööle oskuse, luua oskuste kaardistamise otsingu või oskuste profiili, peate lehel **Oskused** sisestama teabe oskuste kohta. Iga oskuse puhul saate valida oskuse tüübi ja määramudeli.
+- Kontrollioskus: oskus teiste töö järele valvata.
+- Juhivõimed: võime juhtida töötajaid ja äridomeene.
+- Kavandamine - Võime vaadata tulevikku, luua kujutlusi ja neid ellu viia.
+- HTML: oskus kirjutada HTML-koodi.
 
-## <a name="rating-models"></a>Reitingumudelid
-Määramudelid aitavad hinnata isiku oskuste tegelikku taset, taset, mille poole isik peaks püüdlema, või töö jaoks vajaliku oskuse taset. Saate sisestada kuni 10 hindamismudeli taset.  Igale hindamismudelis olevale tasemele määratakse tegur.  Teguri väärtust kasutatakse erinevaid hindamismudeleid kasutavate oskusehinnangute ühtlustamiseks.  Tegur peab olema arv 0–9 ja igal tasemel peab olema üks kordumatu tegur.  Kõrgemate teguriväärtustega tasemed on hindamismudelis kaalukamad.
+Kui te pole oskuste tüüpe ja reitingumudeleid veel seadistanud, peate need enne oskuste loomist lisama.
 
-## <a name="specify-job-skills"></a>Tööoskuste määramine
-Töö kohta teabe sisestamisel saate määrata oskused, mis isikul peaks töö jaoks vajaliku töö tegemiseks olema.  Lisaks saate iga oskuse jaoks soovitud taseme, aga ka oskuse tähtsusastme määrata. Erinevate ametikohtade puhul võib sama oskus olla nõutav erisugustel tähtsusastmetel.
+Töötaja oskused saavad sisestada järgmised inimesed:
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Töötajate, kandidaatide või kontaktisikute oskuste sisestamine
-Saate sisestada töötajate, kandidaatide või kontaktisikute oodatavad oskused või tegelikud oskused. Oodatav oskus on oskus, mille isik kavatseb omandada. Tegelik oskus on oskus, mis isikul praegu on.
+- Töötajad saavad enda jaoks töötaja iseteeninduses oskusi sisestada. Need oskused vajavad juhi kinnitust.
+- Juhatajad saavad töötajate oskuseid sisestada. Saate luua töövoo, mis kinnitab need oskused automaatselt.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a> Oskuste kaardistamise ja oskuste kaardistamise profiilid
-Saate luua oskuste kaardistamise otsingu, et leida töötaja, kandidaat või kontaktisik, kes on teatud tüüpi ülesande tegemiseks kvalifitseeritud. Oskuste kaardistamise otsingud otsivad oskuste, hariduse, sertifikaatide, vastutavate positsioonide ja projekti läbiviimise kogemuse põhjal ning annavad sisestatud kriteeriumidele vastavad tulemused.  Näiteks võib olla kasulik teada, millised töötajad teie organisatsioonis on teeninud oma CPA.
+## <a name="create-a-skill-type"></a>Oskuse tüübi loomine
 
-Oskuste kaardistamise profiilid võimaldavad leida praegused töötajad või kandidaadid, kellel on kvalifikatsioonid, mis vastavad otseselt ärivajadustele.  Näiteks võiksite oma organisatsioonis oleva avatud ametikoha jaoks luua oskuste kaardistamise profiili. Konkreetse töö jaoks profiili luues ning kopeerides oskused, hariduse ja serdid sellelt töölt profiilile, saate kiiresti otsida töötajaid, kandidaate ja kontaktisikuid, kes vastavad ühele või mitmele profiili sisestatud kriteeriumile, ning kuvada loendi kandidaatidest, kelle oskused ühtivad kõige enam töö jaoks nõutavate oskustega.
+Oskuste tüübid on kategooriad, mille alla kuuluvad üksikud oskused nagu näiteks haldus või müük.
 
-> **Märkus.** Oskuste kaardistamise tulemuste loendis saab kuvada või oskuste profiilile lisada vaid need töötajad, kandidaadid ja kontaktisikud, kes on lisatud oskuste kaardistamise otsingusse. Töötaja, kandidaadi või kontaktisiku lisamiseks oskuste kaardistamise otsingusse valige suvandi **Kaasa oskuste kaardistamisse** sätteks Jah järgmistel lehtedel.
-> 
-> + Töötaja
-> + Töötaja
-> + Kandidaat
-> + Kontaktid
+1. **Töötaja arenduse** tööruumis valige **Lingid**.
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Oskuste vahe analüüs ja oskuste profiili analüüs
-Saate luua oskuste profiili analüüsi, et vaadata töötaja, kandidaadi või kontaktisiku pädevuste loendit alates kindlast kuupäevast. Oskuste vahe analüüsiga saate võrrelda isiku oskusi ja kindla töö jaoks vajalikke oskusi.  
+2. Valige **Kompetentsi häälestus** jaotises suvand **Oskuse tüübid**.
 
+3. Valige suvand **Uus**.
 
+4. Täitke järgmised väljad:
 
+   - **Oskuse tüüp**: Sisestage nimi oskuse tüübi jaoks.
+   - **Kirjeldus**: Sisestage oskuse tüübi jaoks kirjeldus.
+
+5. Valige käsk **Salvesta**.
+
+## <a name="create-a-rating-model"></a>Hindamismudeli loomine
+
+Hindamismudelid aitavad hinnata isiku oskuste tegelikku taset, taset, mille poole isik peaks püüdlema, või töö jaoks vajaliku oskuse taset. Igale hindamismudelis olevale tasemele määratakse tegur.
+
+1. **Töötaja arenduse** tööruumis valige **Lingid**.
+
+2. Valige **Kompetentsi häälestus** jaotises suvand **Hindamismudelid**.
+
+3. Valige suvand **Uus**.
+
+4. Täitke järgmised väljad:
+
+   - **Hinnang**: Sisestage hindamismudeli nimi, näiteks **Oskused**.
+   - **Kirjeldus**: Sisestage hindamismudeli kirjeldus, näiteks **Oskuse hinnangud**.
+
+5. Valige **Tasemed** jaotises väärtus **Uus**. Täitke iga lisatava taseme puhul järgmised väljad:
+
+   - **Tase**: Sisestage taseme nimi.
+   - **Kirjeldus**: Sisestage taseme kirjeldus.
+   - **Tegur**: Sisestage teguri väärtus 0-9. Faktorid aitavad normaliseerida erinevaid hindamismudeleid kasutavate oskuste hindeid. Igal tasemel peab olema kordumatu tegur. Kõrgemate teguriväärtustega tasemed on hindamismudelis kaalukamad.
+
+   Jätkake vajadusel tasemete lisamist. Saate sisestada kuni 10 hindamismudeli taset.
+
+6. Valige käsk **Salvesta**.
+
+## <a name="create-a-skill"></a>Oskuse loomine
+
+Enne kui saate määrata isikule või tööle oskuse, luua oskuste kaardistamise otsingu või oskuste profiili, peate lehel **Oskused** sisestama teabe oskuse kohta. Iga oskuse puhul saate valida oskuse tüübi ja määramudeli.
+
+1. **Töötaja arenduse** tööruumis valige **Lingid**.
+
+2. Valige **Kompetentsi häälestus** jaotises suvand **Oskused**.
+
+3. Valige suvand **Uus**.
+
+4. Täitke järgmised väljad:
+
+   - **Oskus**: Sisestage nimi oskuse tüübi jaoks.
+   - **Kirjeldus**: Sisestage oskuse tüübi jaoks kirjeldus.
+   - **Hindamine**: Valige hindamismudel, mida soovite selle oskuse jaoks kasutada.
+   - **Oskuse tüüp**: Valige oskuste tüüpide loendist.
+
+5. Valige käsk **Salvesta**.
+
+## <a name="see-also"></a>Vt ka
+
+[Sisestage oskused](hr-develop-enter-skills.md)<br>
+[Oskuste kaardimine](hr-develop-map-skills.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,12 @@
 title: Puhkusetaotluste haldamine Teamsis
 description: Selles teemas kirjeldatakse, kuidas esitada puhkusetaotlust Microsoft Teamsi rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953408"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097255"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
@@ -33,21 +32,13 @@ Microsoft Teamsi rakendus Dynamics 365 Human Resources võimaldab teil kiiresti 
 
 Rakenduse Dynamics 365 Human Resources leiate Teamsi poest.
 
-1. Valige kolmikpunktid Microsoft Teamsis.
-
-   ![Human Resources Teamsi puhkuse rakenduse kolmikpunktid](./media/hr-teams-leave-app-ellipses.png)
+1. Rakenduses Microsoft Teams navigeerige rakenduste loendisse.
  
 2. Otsige üles Dynamics 365 Human Resources ja seejärel valige paan **Human Resources**.
 
-   ![Human Resources Teamsi puhkuse rakenduse paan HR](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Rakenduse installimiseks valige nupp **Lisa**.
 
-   ![Human Resources Teamsi puhkuse rakenduse installimine](./media/hr-teams-leave-app-in-store.png)
-
 Kui rakendus ei logi teid automaatselt sisse, valige sisselogimiseks vahekaart **Sätted**.
-
-![Human Resources Teamsi puhkuse rakenduse vahekaart Sätted](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Kui sisselogimise dialoogiboksi ei kuvata, kontrollige oma brauseri sätteid hüpikakende lisamiseks. 
@@ -61,20 +52,24 @@ Kui teil on juurdepääs rohkem kui ühele Human Resourcesi eksemplarile, saate 
 
 Pärast rakenduse installimist kuvatakse tervitussõnum, mis teavitab teid tegevuste tüüpidest, mida robot saab teie eest teha.
 
-![Human Resources Teamsi puhkuse rakenduse roboti tervitussõnum](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Esmakordsel suhtlemisel robotiga peate tõenäoliselt sisse logima. Kui sisselogimise dialoogiboksi ei kuvata, kontrollige oma brauseri sätteid hüpikakende lisamiseks.
 
 Võite paluda robotil teha järgnevat.
 
-- Puhkusetaotluse alustamine teie eest.
+- Vaadake oma praegusi puhkuse saldosid. Näiteks saatke teade "Puhkuse saldode vaade."
+
+- Puhkusetaotluse alustamine teie eest. Näiteks saatke teade, kus on kirjas "Vaba aeg" või "Ma soovin võtta puhkuse puhkuse järgmisel neljapäeval ja reedel", et olla puhkuse tüübilt puhkuse taotlemisel spetsiifilisem. 
 
   ![Puhkusetaotluse alustamine Teamsi vestluses](./media/hr-teams-leave-app-initiate.png)
 
 - Vestlusrobot sisestab puhkusetaotluse andmed teie eest. Valige **Vaba aja taotlemine** ja redigeerige taotluse üksikasju.
 
-  ![Puhkusetaotluse üksikasjade redigeerimine](./media/hr-teams-leave-app-details.png)
+   Kui soovite esitada puhkusetaotlusi mitmele samale kuupäevale puhkusetüübile, valige **Tükeldatud päev** valik menüüst **Veel**. 
+
+   Kui valite poolaasta puhkuse, kui puhkuse taotluse üksus on päevades, saate määrata, kas soovite taotleda vaba aega esimesel poolaastal või teisel poolaastal, valides suvandi **Poolaasta määratlus** **Veel** menüüst.
+   
+   ![Poolpäevade määratlemine](./media/HalfDayDefinitions.png)
 
 - Kui olete puhkusetaotluse üksikasjade redigeerimise lõpetanud, valige **Edasta**, et saata taotlus kinnitamiseks.
 
@@ -91,42 +86,36 @@ Vahekaardil **Vaba aeg** saate kuvada järgnevat.
 - Vaba aja taotlused
 
 - Puhkusetaotluste mustandid
-
-![Human Resources Teamsi puhkuse rakenduse vahekaart Vaba aeg](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Uue taotluse loomine
 
 1. Valige uue puhkusetaotluse loomiseks **Uus taotlus**.
 
-   ![Human Resources Teamsi puhkuse rakenduse uus taotlus](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Sisestage päev või päevad, mida soovite vabaks võtta ja seejärel valige **Lisa**.
 
-   ![Human Resources Teamsi puhkuse rakenduse vaba aja lisamine](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Human Resources Teamsi puhkuse rakenduse vaba aja lisamine](./media/TimeOffHours.png)
 
 3. Vajadusel sisestage põhjusekood. Sisestage ka vajalikud kommentaarid ja lisage manused.
 
-4. Kui olete lõpetanud teabe sisestamise, tippige **Esita**, et esitada see heakskiitmiseks. Saate tippida ka **Salvesta mustandina**, et hiljem jätkata.
+4. Valige valik **Tükeldatud päev** menüüst **Veel** kui soovite erinevatele puhkusetüüpidele esitada mitu puhkepäevakirjet samal kuupäeval.
+
+5. Valige suvand **Poole päeva definitsioon**, et määratleda, kas soovite taotleda esimest pool vaba päeva või teist pool vaba päeva. See suvand on saadaval, kui puhkuse taotluse üksus on päevades ja taotletud summa on 0,5 päeva.
+
+6. Kui olete lõpetanud teabe sisestamise, valige **Esita**, et esitada see kinnitamiseks. Saate sisestada ka **Salvesta mustandina**, et hiljem jätkata.
 
 ### <a name="manage-draft-requests"></a>Taotluste mustandite haldamine
 
 1. Valige vahekaart **Mustandid**.
 
-   ![Human Resources Teamsi puhkuse rakenduse vahekaart Mustandid](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Taotluse redigeerimiseks valige pliiats või selle kustutamiseks prügikast.
 
 3. Tehke vajalikud muudatused. Kui olete lõpetanud teabe sisestamise, tippige **Esita**, et esitada see heakskiitmiseks. Saate valida ka **Salvesta mustandina**, et hiljem jätkata.
-
-   ![Human Resources Teamsi puhkuse rakenduse mustandi redigeerimine](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Rakenduse Teams teatistele vastamine
 
 Kui teie või töötaja olete puhkusetaotluse esitamise kinnitaja, kuvatakse teile Teamsi rakenduses Human Resources vastav teatis. Saate valida teatise, et seda vaadata. Teatised kuvatakse ka alal **Vestlus**.
 
 Kui olete kinnitaja, saate teatises valida **Kinnita** või **Keeldu** . Saate ka esitada valikulise teate.
-
-![Teamsi rakenduse Human Resources puhkusetaotluse teatis](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Eelseisva eemaloleku teabe saatmine oma kaastöötajatele
 
@@ -138,15 +127,9 @@ Pärast rakenduse Human Resources installimist rakenduse Teamsi jaoks saate hõl
 
 2. Valige puhkusetaotlus, mida soovite jagada. Kui soovite jagada puhkusetaotluse mustandit, valige enne **Mustandid**.
 
-   ![Eelseisva puhkusetaotluse valimine jagamiseks](./media/hr-teams-leave-app-chat-search.png)
-
 Teie puhkusetaotlus kuvatakse vestluses.
 
-![Rakenduse Human Resources puhkusetaotluse kaart](./media/hr-teams-leave-app-chat-card.png)
-
 Kui jagasite taotluse mustandit, kuvatakse see mustandina.
-
-![Rakenduse Human Resources puhkusetaotluse mustandi kaart](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Oma töörühma puhkusekalendri vaatamine
 
@@ -155,8 +138,6 @@ Kui olete otseste alluvatega juht, saate vaadata oma töörühma kinnitatud ja o
 1. Tehke Teamsi rakenduses Human Resources valik **Vaba aeg**.
 
 2. Valige **Töörühma kalender**. Kalendris kuvatakse teie otsesed aruanded, mis on kinnitatud ja ootel vaba ajaga.
-
-   ![Kalendri kuvamine Teamsi rakenduses Human Resources](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Kui te ei näe töörühma kalendrit, paluge administraatoril see lubada. Lisateabe saamiseks vt teemat [Installimine ja häälestus](hr-admin-teams-leave-app.md#install-and-setup).

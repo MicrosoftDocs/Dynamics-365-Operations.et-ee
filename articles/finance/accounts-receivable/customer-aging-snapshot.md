@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039923"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123358"
 ---
 # <a name="customer-aging-snapshots"></a>Kliendi aegumise hetktõmmised 
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039923"
 Selles teemas kirjeldatakse kliendi aegumise hetktõmmiseid. Aegumise hetktõmmis sisaldab arvutatud aegunud saldosid kliendi kohta kindlal ajahetkel. Looge aegumise hetktõmmise kirjed kõigile klientidele või kliendikausta klientidele.
 
 Aegumise hetktõmmise teave kuvatakse loendilehel **Aegunud saldod** ja lehel **Sissenõuded**. Enne kui saate **Aegunud saldod** loendilehte kasutada, peate looma aegumise hetktõmmise. Loendilehel kuvatakse teavet vaid püsiklientidele, kelle jaoks on aegumise hetktõmmis loodud.
+
+**Kliendi krediidi ja sissenõuete** tööruum näitab ka kliendi aegumist. Lisateavet vt [krediidi ja sissenõuete halduse Power BI sisust](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Aegumise hetktõmmise loomiseks vajaliku aja vähendamiseks lülitage sisse **Kliendi aegumise jõudluse** funktsioon **Funktsioonihalduse** tööruumis. Ärge siiski kasutage kliendikaustu, kui see funktsioon on sisse lülitatud. Kliendikausta valimisel funktsioon ei tööta, kuid saate aegumise hetktõmmise siiski luua.
@@ -62,4 +64,3 @@ Soovitame teil planeerida see protsess pakktöötlusena.
 > [!NOTE]
 > Partii jõudluse parandamiseks aegumise hetktõmmiste loomisel sisestage number **Partiiülesannete maksimumarv** väljal **Sissenõuete vaikekaardile** kiirkaardil **Sissenõuded** vahekaardil **Müügireskontro parameetrite** lehel. Väljal **Kliendi vanus saldod** on soovitatav alustada vaikeväärtusega **100** ja seejärel korrigeerida väärtust, et optimeerida oma olukorra töötlemist.
 
-**Kliendi krediidi ja sissenõuete** tööruum näitab ka kliendi aegumist. Lisateavet vt [krediidi ja sissenõuete halduse Power BI sisust](credit-collections-power-bi.md).
