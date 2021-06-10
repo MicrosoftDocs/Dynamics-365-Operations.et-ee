@@ -72,7 +72,9 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (juuli 2021)
+                    - name: Supply Chain Management 10.0.20 (juuli 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (juuni 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (mai 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -385,15 +387,15 @@
                   href: asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
                 - name: Hooldusnõuete aruanded
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
-            - name: Töötellimuste häälestamine
+            - name: Töökäskude häälestamine
               items:
-                - name: 'Hooldustööde tüüpide kategooriad ja hooldustööde tüübid, hooldustööde tüüpide variandid, hooldustööde kaubandus ja hoolduse kontrollnimekirjad'
+                - name: 'Hooldustöö tüübid, kategooriad, variandid, kaubandused ja kontroll-loendid'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Töökäsu elutsükli olekud
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
                 - name: Töökäsu tüübid
                   href: asset-management/setup-for-work-orders/work-order-types.md
-                - name: Töökäsu projekti häälestus
+                - name: Töökäsu projekti seadistus
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
                 - name: Teenuse tase ja kirjeldus
                   href: asset-management/setup-for-work-orders/service-level-and-description.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
+                    - name: Loodud ER-aruannete ja võrdluse alusväärtuste abil jälgimise tulemuste täiustused
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER-iga testimise automatiseerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Tehnilised versioonid ja tehnikatoote kategooriad
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Valemite ja nende koostisosade muudatuste haldamine
+              href: engineering-change-management/manage-formula-changes.md
             - name: Luba olemasolevate toodete muudatuste haldamine
               href: engineering-change-management/change-management-existing-products.md
             - name: Toote töötsükli olek ja kanded
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Töö ID-de ühtsed numbrijärjestused
               href: production-control/unified-job-ids.md
+            - name: Protsessi automatiseerimisvoogude käivitamine kvaliteettellimuste loomiseks
+              href: production-control/process-automation-quality-orders.md
             - name: Diskreetne tootmine
               items:
                 - name: Tootmise koondandmete haldamine
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
                           href: production-control/production-floor-execution-use.md
-                        - name: Kasutajaliidese juhtelementide laadid tootmisosakonna käivitamiseks
+                        - name: Tootmisosakonna täideviimisliidese laadide määramine
                           href: production-control/production-floor-execution-styles.md
                     - name: Töökaardi konfigureerimine seadmetele
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Saadetise konsolideerimispoliitikate konfigureerimine
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: '1. stsenaarium – saadetiste konsolideerimine, kui need on müügitellimuste automaatse väljastamise abil lattu väljastatud'
+                    - name: 1. stsenaarium – saadetiste konsolideerimine müügitellimuste automaatsel väljastamisel lattu
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: '2. stsenaarium – saadetiste konsolideerimine, kui saadetise konsolideerimispoliitika alistatakse lattu väljastamise lehe kaudu'
+                    - name: 2. stsenaarium – saadetiste konsolideerimine saadetise konsolideerimise poliitika alistamisel
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: '3. stsenaarium – saadetiste konsolideerimine, kasutades lattu väljastamist koorma planeerimise töölaua kaudu'
+                    - name: 3. stsenaarium – saadetiste konsolideerimine lattu väljastamisel koorma planeerimise töölaua kaudu
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 4. stsenaarium – saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3287,23 +3293,25 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Lao konfiguratsiooni tõrkeotsing
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Laohalduse mobiilirakenduse installimine ja konfigureerimine
+                - name: Mobiilirakenduse Warehouse Management installimine ja konfigureerimine
                   items:
-                    - name: Laohalduse mobiilirakenduse installimine ja ühendamine
+                    - name: Mobiilirakenduse Warehouse Management installimine ja ühendamine
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Mobiilse seadme kasutaja sätted
                       href: warehousing/mobile-device-user-settings.md
                     - name: Laorakenduse installimine ja ühendamine
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Vöötkoodide skannimine kaamera abil laohalduse mobiilirakenduses
+                    - name: Vöötkoodide skannimine kaamera abil mobiilirakenduses Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Laohalduse mobiilirakenduse väljade konfigureerimine
+                    - name: Mobiilirakenduse Warehouse Management väljade konfigureerimine
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiilsete seadmete häälestus laotöö jaoks
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Etapiikoonide ja pealkirjade määramine
+                      href: warehousing/step-icons-titles.md
                     - name: Laorakenduse sündmusetöötlus
                       href: warehousing/warehouse-app-events.md
-                    - name: Identifitseerimisnumbri vastuvõtmine laohalduse mobiilirakenduse kaudu
+                    - name: Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3321,7 +3329,7 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Protsessijuhendi raamistik
                       href: warehousing/process-guide-framework.md
-                    - name: Laohalduse mobiilirakenduse ühendusprobleemide tõrkeotsing
+                    - name: Mobiilirakenduse Warehouse Management ühendusprobleemide tõrkeotsing
                       href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Täiendamine ja migreerimine
                   items:
@@ -3359,7 +3367,7 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Aruande tühistamine lõpetatuna loob ootamatu avatud kande
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Töölehele lisatud uusi märkmeid ei saa komplekteerimislehe aruandes näidata
+                - name: Töölehele lisatud uusi märkmeid ei kuvata komplekteerimislehe aruandes
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: Alustatud vahelaoorderi kogust ei uuendata tellimuse jaotamisel
                   href: troubleshooting/inventory/quantity-on-a-start.md
@@ -3371,25 +3379,29 @@
               items:
                 - name: Otse tuletatud kindlad tellimused töödeldakse ülevaatuse töövooga
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Koondplaneerimise üksuseid ei saa filtreerida seotud laovarude grupi väärtuste alusel
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: Koondplaneerimine loob fiktiivsetele toodetele plaanitud tellimused
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Plaanitud ostutellimus luuakse ostu olemasolul negatiivsete päevade jooksul
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Nõudluse prognoosi kirjetesse ei saa omahinda üles laadida
+                - name: 'Prognoositud ühiku kulusid ei saa värskendada, kui impordite nõudluse prognoosi kirjeid'
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Lao nõudluse prognoosi dimensiooni ei saa prognoosi ridadelt eemaldada
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: 'Teil palutakse salvestada kauba laovarude sätted ka juhul, kui muudatusi pole tehtud'
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Hange
               items:
-                - name: VEL ettevõtte kliendisuunalist müügitellimuse arvet ei saa saata
+                - name: Te ei saa arvet esitada kliendile suunatud müügitellimuse kohta
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Ostutaotlusele ei saa pärast muudatuse taotlemist rida lisada
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Tooteteabe haldus
               items:
-                - name: Väljastatud toote loomiseks ei saa malli rakendada
+                - name: Te ei saa väljastatud toote loomiseks malli rakendada
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: Väljastatud tooted V2 üksuse abil ei saa kaupa importida
+                - name: Te ei saa üksuse Väljastatud tooted V2 abil kaupa importida
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: Ostutellimustes ei kuvata tõlgitud tooteteksti
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: Kasutajad saavad lõpetatuna kinnitatud toodete materjaliridade komplekteerimise tühistada
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Aruande sisestamisel lõpetatud töölehena ilmnes tõrge
+                - name: 'Tõrge, kui postitatakse Märgi lõpetatud tööleheks'
                   href: troubleshooting/production/posting-report-as-.md
                 - name: Komplekteerimislehe töölehel olevat ladu ei ole koosluse real uuendatud
                   href: troubleshooting/production/the-warehouse-in-pic.md

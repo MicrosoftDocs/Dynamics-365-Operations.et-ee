@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017051"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085470"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Arvestus- või aruandlusvaluuta muutmine
 
@@ -31,12 +31,12 @@ Selles teemas selgitatakse, kuidas muuta arvestus- või aruandlusvaluutat või l
 Te soovite muuta arvestus- või aruandlusvaluutat või lisada aruandlusvaluuta pearaamatu häälestusse. See toimub tavaliselt järgmiste stsenaariumide korral.
 
 - Juriidilise isiku seadistamisel määrati vale arvestus- või aruandlusvaluuta. Te soovite nüüd seda valuutat muuta.
-- Juriidilise isiku seadistamisel ei määratud aruandlusvaluutat. (Aruandlusvaluuta on valikuline.) Te soovite nüüd lisada aruandlusvaluuta.
+- Juriidilise isiku seadistamisel määrati aruandlusvaluuta, kuid organisatsioon soovib nüüd aruandlusvaluuta eemaldada.
+- Organisatsioon täiendab või migreerib rakendusele Microsoft Dynamics 365 Finance ja soovib muuta arvestus- või aruandlusvaluutat.
 
 Organisatsioon, kes varem ei kasutanud topeltvaluuta võimalust, soovib seda kasutama hakata. See probleem ilmneb tavaliselt järgmiste stsenaariumide korral.
 
-- Juriidilise isiku seadistamisel määrati aruandlusvaluuta, kuid organisatsioon soovib nüüd aruandlusvaluuta eemaldada.
-- Organisatsioon täiendab või migreerib rakendusele Microsoft Dynamics 365 Finance ja soovib muuta arvestus- või aruandlusvaluutat.
+- Juriidilise isiku seadistamisel ei määratud aruandlusvaluutat. (Aruandlusvaluuta on valikuline.) Te soovite nüüd lisada aruandlusvaluuta.
 
 ## <a name="resolution"></a>Lahendus
 
