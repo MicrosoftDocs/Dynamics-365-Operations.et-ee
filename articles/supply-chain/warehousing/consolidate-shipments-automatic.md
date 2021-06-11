@@ -13,308 +13,308 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 82a95ecf196ef7c33831da7f4d03df629b17fa53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c02c8b4cd43e17d6dcf34e1912dbc68c19e60694
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807556"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116947"
 ---
-# <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a><span data-ttu-id="ee9c1-103">Saadetiste konsolideerimine, kui need väljastatakse lattu müügitellimuste automaatse väljastamise abil</span><span class="sxs-lookup"><span data-stu-id="ee9c1-103">Consolidate shipments when they are released to the warehouse by using Automatic release of sales orders</span></span>
+# <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a><span data-ttu-id="c613a-103">Saadetiste konsolideerimine, kui need väljastatakse lattu müügitellimuste automaatse väljastamise abil</span><span class="sxs-lookup"><span data-stu-id="c613a-103">Consolidate shipments released to the warehouse using automatic release of sales orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ee9c1-104">Selles teemas kirjeldatakse stsenaariumi, kus lattu vabastatakse mitu tellimust sama automaatse perioodilise lattu väljastamise protseduuri käigus.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-104">This topic presents a scenario where multiple orders are released to the warehouse in the same automated release-to-warehouse periodic procedure.</span></span> <span data-ttu-id="ee9c1-105">Tellimused konsolideeritakse saadetisteks automaatselt saadetiste konsolideerimispoliitikatena määratletud reeglite põhjal.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-105">The orders will automatically be consolidated into shipments, based on rules that are defined as shipment consolidation policies.</span></span>
+<span data-ttu-id="c613a-104">Selles teemas kirjeldatakse stsenaariumi, kus lattu vabastatakse mitu tellimust sama automaatse perioodilise lattu väljastamise protseduuri käigus.</span><span class="sxs-lookup"><span data-stu-id="c613a-104">This topic presents a scenario where multiple orders are released to the warehouse in the same automated release-to-warehouse periodic procedure.</span></span> <span data-ttu-id="c613a-105">Tellimused konsolideeritakse saadetisteks automaatselt saadetiste konsolideerimispoliitikatena määratletud reeglite põhjal.</span><span class="sxs-lookup"><span data-stu-id="c613a-105">The orders will automatically be consolidated into shipments, based on rules that are defined as shipment consolidation policies.</span></span>
 
-<span data-ttu-id="ee9c1-106">Selle stsenaariumi käigus loote müügitellimuste komplekti ja väljastate kõik komplektid lattu.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-106">During the scenario, you will create sets of sales orders and release each set to the warehouse.</span></span> <span data-ttu-id="ee9c1-107">Seejärel saate saadetise konsolideerimise käigus loodud või värskendatud saadetised nende konfigureeritud poliitikate põhjal üle vaadata.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-107">You will then review the shipments that are created or updated during shipment consolidation, based on the configured policies.</span></span>
+<span data-ttu-id="c613a-106">Selle stsenaariumi käigus loote müügitellimuste komplekti ja väljastate kõik komplektid lattu.</span><span class="sxs-lookup"><span data-stu-id="c613a-106">During the scenario, you will create sets of sales orders and release each set to the warehouse.</span></span> <span data-ttu-id="c613a-107">Seejärel saate saadetise konsolideerimise käigus loodud või värskendatud saadetised nende konfigureeritud poliitikate põhjal üle vaadata.</span><span class="sxs-lookup"><span data-stu-id="c613a-107">You will then review the shipments that are created or updated during shipment consolidation, based on the configured policies.</span></span>
 
-## <a name="make-demo-data-available"></a><span data-ttu-id="ee9c1-108">Demoandmete kättesaadavaks tegemine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-108">Make demo data available</span></span>
+## <a name="make-demo-data-available"></a><span data-ttu-id="c613a-108">Demoandmete kättesaadavaks tegemine</span><span class="sxs-lookup"><span data-stu-id="c613a-108">Make demo data available</span></span>
 
-<span data-ttu-id="ee9c1-109">Selle teema stsenaarium viitab väärtustele ja kirjetele, mis kuuluvad Microsoft Dynamics 365 Supply Chain Managementile esitatud standardsete demoandmete hulka.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-109">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="ee9c1-110">Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks **USMF**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-110">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
+<span data-ttu-id="c613a-109">Selle teema stsenaarium viitab väärtustele ja kirjetele, mis kuuluvad Microsoft Dynamics 365 Supply Chain Managementile esitatud standardsete demoandmete hulka.</span><span class="sxs-lookup"><span data-stu-id="c613a-109">The scenario in this topic references values and records that are included in the standard demo data that is provided for Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="c613a-110">Kui soovite kasutada siin esitatud väärtusi harjutuste tegemise ajal, veenduge, et töötate keskkonnas, kuhu on demoandmed installitud ja määrake enne alustamist juriidiliseks isikuks **USMF**.</span><span class="sxs-lookup"><span data-stu-id="c613a-110">If you want to use the values that are provided here as you do the exercises, be sure to work in an environment where the demo data is installed, and set the legal entity to **USMF** before you begin.</span></span>
 
-## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="ee9c1-111">Saadetise konsolideerimispoliitikate ja tootefiltrite seadistamine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-111">Set up shipment consolidation policies and product filters</span></span>
+## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a><span data-ttu-id="c613a-111">Saadetise konsolideerimispoliitikate ja tootefiltrite seadistamine</span><span class="sxs-lookup"><span data-stu-id="c613a-111">Set up shipment consolidation policies and product filters</span></span>
 
-<span data-ttu-id="ee9c1-112">Siin kirjeldatud stsenaarium eeldab, et olete juba funktsiooni sisse lülitanud, sooritanud [saadetise konsolideerimispoliitikate konfigureerimise](configure-shipment-consolidation-policies.md) harjutused ning loonud poliitikad ja muud seal kirjeldatud kirjed.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-112">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="ee9c1-113">Veenduge, et olete enne selle stsenaariumi jätkamist sooritanud need harjutused.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-113">Be sure to do those exercises before you continue with this scenario.</span></span>
+<span data-ttu-id="c613a-112">Siin kirjeldatud stsenaarium eeldab, et olete juba funktsiooni sisse lülitanud, sooritanud [saadetise konsolideerimispoliitikate konfigureerimise](configure-shipment-consolidation-policies.md) harjutused ning loonud poliitikad ja muud seal kirjeldatud kirjed.</span><span class="sxs-lookup"><span data-stu-id="c613a-112">The scenario that is described here assumes that you've already turned on the feature, done the exercises in [Configure shipment consolidation policies](configure-shipment-consolidation-policies.md), and created the policies and other records that are described there.</span></span> <span data-ttu-id="c613a-113">Veenduge, et olete enne selle stsenaariumi jätkamist sooritanud need harjutused.</span><span class="sxs-lookup"><span data-stu-id="c613a-113">Be sure to do those exercises before you continue with this scenario.</span></span>
 
-## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="ee9c1-114">Müügitellimuste loomine selle stsenaariumi jaoks</span><span class="sxs-lookup"><span data-stu-id="ee9c1-114">Create the sales orders for this scenario</span></span>
+## <a name="create-the-sales-orders-for-this-scenario"></a><span data-ttu-id="c613a-114">Müügitellimuste loomine selle stsenaariumi jaoks</span><span class="sxs-lookup"><span data-stu-id="c613a-114">Create the sales orders for this scenario</span></span>
 
-<span data-ttu-id="ee9c1-115">Alustage müügitellimuste kogumi loomisega, millega saate töötada.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-115">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="ee9c1-116">Peate töötama laoga, kus on lubatud täpsema laohalduse (WMS) protsessid.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-116">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="ee9c1-117">Kui pole konkreetselt viidatud mõnele muule laole, tuleb kasutada sama ladu kõigi järgmiste tellimuste kogumite puhul.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-117">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
+<span data-ttu-id="c613a-115">Alustage müügitellimuste kogumi loomisega, millega saate töötada.</span><span class="sxs-lookup"><span data-stu-id="c613a-115">Start by creating a collection of sales orders that you can work with.</span></span> <span data-ttu-id="c613a-116">Peate töötama laoga, kus on lubatud täpsema laohalduse (WMS) protsessid.</span><span class="sxs-lookup"><span data-stu-id="c613a-116">You must work with a warehouse that is enabled for advanced warehouse (WMS) processes.</span></span> <span data-ttu-id="c613a-117">Kui pole konkreetselt viidatud mõnele muule laole, tuleb kasutada sama ladu kõigi järgmiste tellimuste kogumite puhul.</span><span class="sxs-lookup"><span data-stu-id="c613a-117">Unless a different warehouse is explicitly mentioned, that same warehouse must be used for each of the following sets of orders.</span></span>
 
-<span data-ttu-id="ee9c1-118">Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja looge müügitellimuste kogum, millel on järgmistes alamjaotistes kirjeldatud sätted.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-118">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
+<span data-ttu-id="c613a-118">Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja looge müügitellimuste kogum, millel on järgmistes alamjaotistes kirjeldatud sätted.</span><span class="sxs-lookup"><span data-stu-id="c613a-118">Go to **Accounts receivable \> Orders \> All sales orders**, and create a collection of sales orders that have the settings that are described in the following subsections.</span></span>
 
-### <a name="create-order-set-1"></a><span data-ttu-id="ee9c1-119">Tellimuse komplekti 1 loomine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-119">Create order set 1</span></span>
+### <a name="create-order-set-1"></a><span data-ttu-id="c613a-119">Tellimuse komplekti 1 loomine</span><span class="sxs-lookup"><span data-stu-id="c613a-119">Create order set 1</span></span>
 
-#### <a name="sales-order-1-1"></a><span data-ttu-id="ee9c1-120">Müügitellimus 1-1</span><span class="sxs-lookup"><span data-stu-id="ee9c1-120">Sales order 1-1</span></span>
+#### <a name="sales-order-1-1"></a><span data-ttu-id="c613a-120">Müügitellimus 1-1</span><span class="sxs-lookup"><span data-stu-id="c613a-120">Sales order 1-1</span></span>
 
-1. <span data-ttu-id="ee9c1-121">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-121">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-121">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-121">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-122">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-122">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="ee9c1-123">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-123">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="c613a-122">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="c613a-122">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="c613a-123">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="c613a-123">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="ee9c1-124">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-124">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-124">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-124">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-125">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-125">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-126">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-126">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-125">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-125">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-126">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-126">**Quantity:** *1.00*</span></span>
 
-#### <a name="sales-order-1-2"></a><span data-ttu-id="ee9c1-127">Müügitellimus 1-2</span><span class="sxs-lookup"><span data-stu-id="ee9c1-127">Sales order 1-2</span></span>
+#### <a name="sales-order-1-2"></a><span data-ttu-id="c613a-127">Müügitellimus 1-2</span><span class="sxs-lookup"><span data-stu-id="c613a-127">Sales order 1-2</span></span>
 
-1. <span data-ttu-id="ee9c1-128">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-128">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-128">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-128">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-129">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-129">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="ee9c1-130">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-130">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="c613a-129">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="c613a-129">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="c613a-130">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="c613a-130">**Mode of delivery:** *Airwa-Air*</span></span>
 
-1. <span data-ttu-id="ee9c1-131">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-131">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-131">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-131">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-132">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-132">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-133">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-133">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-132">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-132">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-133">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-133">**Quantity:** *1.00*</span></span>
 
-#### <a name="sales-order-1-3"></a><span data-ttu-id="ee9c1-134">Müügitellimus 1-3</span><span class="sxs-lookup"><span data-stu-id="ee9c1-134">Sales order 1-3</span></span>
+#### <a name="sales-order-1-3"></a><span data-ttu-id="c613a-134">Müügitellimus 1-3</span><span class="sxs-lookup"><span data-stu-id="c613a-134">Sales order 1-3</span></span>
 
-1. <span data-ttu-id="ee9c1-135">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-135">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-135">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-135">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-136">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-136">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="ee9c1-137">**Tarneviis:** *10*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-137">**Mode of delivery:** *10*</span></span>
+    - <span data-ttu-id="c613a-136">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="c613a-136">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="c613a-137">**Tarneviis:** *10*</span><span class="sxs-lookup"><span data-stu-id="c613a-137">**Mode of delivery:** *10*</span></span>
 
-1. <span data-ttu-id="ee9c1-138">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-138">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-138">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-138">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-139">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-139">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-140">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-140">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-139">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-139">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-140">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-140">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="ee9c1-141">Lisage teine järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-141">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-141">Lisage teine järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-141">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-142">**Kaubakood:** *A0002* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-143">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-143">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="ee9c1-144">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-144">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="c613a-142">**Kaubakood:** *A0002* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-142">**Item number:** *A0002* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-143">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-143">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-144">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="c613a-144">**Mode of delivery:** *Airwa-Air*</span></span>
 
-### <a name="create-order-set-2"></a><span data-ttu-id="ee9c1-145">Tellimuse komplekti 2 loomine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-145">Create order set 2</span></span>
+### <a name="create-order-set-2"></a><span data-ttu-id="c613a-145">Tellimuse komplekti 2 loomine</span><span class="sxs-lookup"><span data-stu-id="c613a-145">Create order set 2</span></span>
 
-#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="ee9c1-146">Müügitellimused 2-1 ja 2-2</span><span class="sxs-lookup"><span data-stu-id="ee9c1-146">Sales orders 2-1 and 2-2</span></span>
+#### <a name="sales-orders-2-1-and-2-2"></a><span data-ttu-id="c613a-146">Müügitellimused 2-1 ja 2-2</span><span class="sxs-lookup"><span data-stu-id="c613a-146">Sales orders 2-1 and 2-2</span></span>
 
-1. <span data-ttu-id="ee9c1-147">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-147">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="c613a-147">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="c613a-147">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-148">**Kliendi konto:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-148">**Customer account:** *US-002*</span></span>
+    - <span data-ttu-id="c613a-148">**Kliendi konto:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="c613a-148">**Customer account:** *US-002*</span></span>
 
-1. <span data-ttu-id="ee9c1-149">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-149">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-149">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-149">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-150">**Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv*)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-150">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
-    - <span data-ttu-id="ee9c1-151">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-151">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-150">**Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv*)</span><span class="sxs-lookup"><span data-stu-id="c613a-150">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
+    - <span data-ttu-id="c613a-151">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-151">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="ee9c1-152">Lisage teine järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-152">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-152">Lisage teine järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-152">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-153">**Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine*)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-153">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
-    - <span data-ttu-id="ee9c1-154">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-154">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="ee9c1-155">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-155">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="c613a-153">**Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine*)</span><span class="sxs-lookup"><span data-stu-id="c613a-153">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
+    - <span data-ttu-id="c613a-154">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-154">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-155">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="c613a-155">**Mode of delivery:** *Airwa-Air*</span></span>
 
-### <a name="create-order-set-3"></a><span data-ttu-id="ee9c1-156">Tellimuse komplekti 3 loomine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-156">Create order set 3</span></span>
+### <a name="create-order-set-3"></a><span data-ttu-id="c613a-156">Tellimuse komplekti 3 loomine</span><span class="sxs-lookup"><span data-stu-id="c613a-156">Create order set 3</span></span>
 
-#### <a name="sales-order-3-1"></a><span data-ttu-id="ee9c1-157">Müügitellimus 3-1</span><span class="sxs-lookup"><span data-stu-id="ee9c1-157">Sales order 3-1</span></span>
+#### <a name="sales-order-3-1"></a><span data-ttu-id="c613a-157">Müügitellimus 3-1</span><span class="sxs-lookup"><span data-stu-id="c613a-157">Sales order 3-1</span></span>
 
-1. <span data-ttu-id="ee9c1-158">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-158">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-158">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-158">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-159">**Kliendi konto:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-159">**Customer account:** *US-002*</span></span>
+    - <span data-ttu-id="c613a-159">**Kliendi konto:** *US-002*</span><span class="sxs-lookup"><span data-stu-id="c613a-159">**Customer account:** *US-002*</span></span>
 
-1. <span data-ttu-id="ee9c1-160">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-160">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-160">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-160">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-161">**Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv*)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-161">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
-    - <span data-ttu-id="ee9c1-162">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-162">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-161">**Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv*)</span><span class="sxs-lookup"><span data-stu-id="c613a-161">**Item number:** *M9200* (an item where the **Code 4** filter is set to *Flammable*)</span></span>
+    - <span data-ttu-id="c613a-162">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-162">**Quantity:** *1.00*</span></span>
 
-1. <span data-ttu-id="ee9c1-163">Lisage teine järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-163">Add a second order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-163">Lisage teine järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-163">Add a second order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-164">**Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine*)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-164">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
-    - <span data-ttu-id="ee9c1-165">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-165">**Quantity:** *1.00*</span></span>
-    - <span data-ttu-id="ee9c1-166">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-166">**Mode of delivery:** *Airwa-Air*</span></span>
+    - <span data-ttu-id="c613a-164">**Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine*)</span><span class="sxs-lookup"><span data-stu-id="c613a-164">**Item number:** *M9201* (an item where the **Code 4** filter is set to *Explosive*)</span></span>
+    - <span data-ttu-id="c613a-165">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-165">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-166">**Tarneviis:** *Airwa-Air*</span><span class="sxs-lookup"><span data-stu-id="c613a-166">**Mode of delivery:** *Airwa-Air*</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ee9c1-167">See tellimus on identne kahe tellimusega, mille lõite tellimuse komplekti 2 jaoks.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-167">This order is identical to the two orders that you created for order set 2.</span></span> <span data-ttu-id="ee9c1-168">Kuid see loetletakse eraldi tellimuse komplektina, kuna te väljastate selle hiljem antud stsenaariumi käigus.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-168">However, it's listed as its own order set because you will release it separately later in this scenario.</span></span>
+> <span data-ttu-id="c613a-167">See tellimus on identne kahe tellimusega, mille lõite tellimuse komplekti 2 jaoks.</span><span class="sxs-lookup"><span data-stu-id="c613a-167">This order is identical to the two orders that you created for order set 2.</span></span> <span data-ttu-id="c613a-168">Kuid see loetletakse eraldi tellimuse komplektina, kuna te väljastate selle hiljem antud stsenaariumi käigus.</span><span class="sxs-lookup"><span data-stu-id="c613a-168">However, it's listed as its own order set because you will release it separately later in this scenario.</span></span>
 
-### <a name="create-order-set-4"></a><span data-ttu-id="ee9c1-169">Tellimuse komplekti 4 loomine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-169">Create order set 4</span></span>
+### <a name="create-order-set-4"></a><span data-ttu-id="c613a-169">Tellimuse komplekti 4 loomine</span><span class="sxs-lookup"><span data-stu-id="c613a-169">Create order set 4</span></span>
 
-#### <a name="sales-order-4-1"></a><span data-ttu-id="ee9c1-170">Müügitellimus 4-1</span><span class="sxs-lookup"><span data-stu-id="ee9c1-170">Sales order 4-1</span></span>
+#### <a name="sales-order-4-1"></a><span data-ttu-id="c613a-170">Müügitellimus 4-1</span><span class="sxs-lookup"><span data-stu-id="c613a-170">Sales order 4-1</span></span>
 
-1. <span data-ttu-id="ee9c1-171">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-171">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-171">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-171">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-172">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-172">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="ee9c1-173">**Kliendi ostutellimus:** *1*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-173">**Customer requisition:** *1*</span></span>
+    - <span data-ttu-id="c613a-172">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="c613a-172">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="c613a-173">**Kliendi ostutellimus:** *1*</span><span class="sxs-lookup"><span data-stu-id="c613a-173">**Customer requisition:** *1*</span></span>
 
-1. <span data-ttu-id="ee9c1-174">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-174">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-174">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-174">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-175">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-175">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-176">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-176">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-175">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-175">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-176">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-176">**Quantity:** *1.00*</span></span>
 
-### <a name="create-order-set-5"></a><span data-ttu-id="ee9c1-177">Tellimuse komplekti 5 loomine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-177">Create order set 5</span></span>
+### <a name="create-order-set-5"></a><span data-ttu-id="c613a-177">Tellimuse komplekti 5 loomine</span><span class="sxs-lookup"><span data-stu-id="c613a-177">Create order set 5</span></span>
 
-#### <a name="sales-orders-5-1-and-5-2"></a><span data-ttu-id="ee9c1-178">Müügitellimused 5-1 ja 5-2</span><span class="sxs-lookup"><span data-stu-id="ee9c1-178">Sales orders 5-1 and 5-2</span></span>
+#### <a name="sales-orders-5-1-and-5-2"></a><span data-ttu-id="c613a-178">Müügitellimused 5-1 ja 5-2</span><span class="sxs-lookup"><span data-stu-id="c613a-178">Sales orders 5-1 and 5-2</span></span>
 
-1. <span data-ttu-id="ee9c1-179">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-179">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="c613a-179">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="c613a-179">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-180">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-180">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="ee9c1-181">**Kliendi ostutellimus:** *2*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-181">**Customer requisition:** *2*</span></span>
+    - <span data-ttu-id="c613a-180">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="c613a-180">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="c613a-181">**Kliendi ostutellimus:** *2*</span><span class="sxs-lookup"><span data-stu-id="c613a-181">**Customer requisition:** *2*</span></span>
 
-1. <span data-ttu-id="ee9c1-182">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-182">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-182">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-182">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-183">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-183">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-184">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-184">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-183">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-183">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-184">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-184">**Quantity:** *1.00*</span></span>
 
-#### <a name="sales-order-5-3"></a><span data-ttu-id="ee9c1-185">Müügitellimus 5-3</span><span class="sxs-lookup"><span data-stu-id="ee9c1-185">Sales order 5-3</span></span>
+#### <a name="sales-order-5-3"></a><span data-ttu-id="c613a-185">Müügitellimus 5-3</span><span class="sxs-lookup"><span data-stu-id="c613a-185">Sales order 5-3</span></span>
 
-1. <span data-ttu-id="ee9c1-186">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-186">Create a sales order that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-186">Looge järgmiste sätetega müügitellimuse rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-186">Create a sales order that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-187">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-187">**Customer account:** *US-001*</span></span>
-    - <span data-ttu-id="ee9c1-188">**Kliendi ostutellimus:** *1*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-188">**Customer requisition:** *1*</span></span>
+    - <span data-ttu-id="c613a-187">**Kliendi konto:** *US-001*</span><span class="sxs-lookup"><span data-stu-id="c613a-187">**Customer account:** *US-001*</span></span>
+    - <span data-ttu-id="c613a-188">**Kliendi ostutellimus:** *1*</span><span class="sxs-lookup"><span data-stu-id="c613a-188">**Customer requisition:** *1*</span></span>
 
-1. <span data-ttu-id="ee9c1-189">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-189">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-189">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-189">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-190">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-190">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-191">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-191">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-190">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-190">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-191">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-191">**Quantity:** *1.00*</span></span>
 
-### <a name="create-order-set-6"></a><span data-ttu-id="ee9c1-192">Tellimuse komplekti 6 loomine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-192">Create order set 6</span></span>
+### <a name="create-order-set-6"></a><span data-ttu-id="c613a-192">Tellimuse komplekti 6 loomine</span><span class="sxs-lookup"><span data-stu-id="c613a-192">Create order set 6</span></span>
 
-#### <a name="sales-orders-6-1-and-6-2"></a><span data-ttu-id="ee9c1-193">Müügitellimused 6-1 ja 6-2</span><span class="sxs-lookup"><span data-stu-id="ee9c1-193">Sales orders 6-1 and 6-2</span></span>
+#### <a name="sales-orders-6-1-and-6-2"></a><span data-ttu-id="c613a-193">Müügitellimused 6-1 ja 6-2</span><span class="sxs-lookup"><span data-stu-id="c613a-193">Sales orders 6-1 and 6-2</span></span>
 
-1. <span data-ttu-id="ee9c1-194">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-194">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="c613a-194">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="c613a-194">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-195">**Kliendi konto:** *US-003*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-195">**Customer account:** *US-003*</span></span>
-    - <span data-ttu-id="ee9c1-196">**Kliendi ostutellimus:** *2*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-196">**Customer requisition:** *2*</span></span>
+    - <span data-ttu-id="c613a-195">**Kliendi konto:** *US-003*</span><span class="sxs-lookup"><span data-stu-id="c613a-195">**Customer account:** *US-003*</span></span>
+    - <span data-ttu-id="c613a-196">**Kliendi ostutellimus:** *2*</span><span class="sxs-lookup"><span data-stu-id="c613a-196">**Customer requisition:** *2*</span></span>
 
-1. <span data-ttu-id="ee9c1-197">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-197">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-197">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-197">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-198">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-198">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-199">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-199">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-198">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-198">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-199">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-199">**Quantity:** *1.00*</span></span>
 
-#### <a name="sales-orders-6-3-and-6-4"></a><span data-ttu-id="ee9c1-200">Müügitellimused 6-3 ja 6-4</span><span class="sxs-lookup"><span data-stu-id="ee9c1-200">Sales orders 6-3 and 6-4</span></span>
+#### <a name="sales-orders-6-3-and-6-4"></a><span data-ttu-id="c613a-200">Müügitellimused 6-3 ja 6-4</span><span class="sxs-lookup"><span data-stu-id="c613a-200">Sales orders 6-3 and 6-4</span></span>
 
-1. <span data-ttu-id="ee9c1-201">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-201">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="c613a-201">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="c613a-201">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-202">**Kliendi konto:** *US-004*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-202">**Customer account:** *US-004*</span></span>
-    - <span data-ttu-id="ee9c1-203">**Kliendi ostutellimus:** *1*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-203">**Customer requisition:** *1*</span></span>
+    - <span data-ttu-id="c613a-202">**Kliendi konto:** *US-004*</span><span class="sxs-lookup"><span data-stu-id="c613a-202">**Customer account:** *US-004*</span></span>
+    - <span data-ttu-id="c613a-203">**Kliendi ostutellimus:** *1*</span><span class="sxs-lookup"><span data-stu-id="c613a-203">**Customer requisition:** *1*</span></span>
 
-1. <span data-ttu-id="ee9c1-204">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-204">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-204">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-204">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-205">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-205">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-206">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-206">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-205">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-205">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-206">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-206">**Quantity:** *1.00*</span></span>
 
-#### <a name="sales-orders-6-5-and-6-6"></a><span data-ttu-id="ee9c1-207">Müügitellimused 6-5 ja 6-6</span><span class="sxs-lookup"><span data-stu-id="ee9c1-207">Sales orders 6-5 and 6-6</span></span>
+#### <a name="sales-orders-6-5-and-6-6"></a><span data-ttu-id="c613a-207">Müügitellimused 6-5 ja 6-6</span><span class="sxs-lookup"><span data-stu-id="c613a-207">Sales orders 6-5 and 6-6</span></span>
 
-1. <span data-ttu-id="ee9c1-208">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-208">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="c613a-208">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="c613a-208">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-209">**Kliendi konto:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-209">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="ee9c1-210">**Tegevuskoht:** *6*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-210">**Site:** *6*</span></span>
-    - <span data-ttu-id="ee9c1-211">**Ladu:** *61*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-211">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="ee9c1-212">**Kaust:** *ShipCons*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-212">**Pool:** *ShipCons*</span></span>
+    - <span data-ttu-id="c613a-209">**Kliendi konto:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="c613a-209">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="c613a-210">**Tegevuskoht:** *6*</span><span class="sxs-lookup"><span data-stu-id="c613a-210">**Site:** *6*</span></span>
+    - <span data-ttu-id="c613a-211">**Ladu:** *61*</span><span class="sxs-lookup"><span data-stu-id="c613a-211">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="c613a-212">**Kaust:** *ShipCons*</span><span class="sxs-lookup"><span data-stu-id="c613a-212">**Pool:** *ShipCons*</span></span>
 
-1. <span data-ttu-id="ee9c1-213">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-213">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-213">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-213">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-214">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-214">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-215">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-215">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-214">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-214">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-215">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-215">**Quantity:** *1.00*</span></span>
 
-#### <a name="sales-orders-6-7-and-6-8"></a><span data-ttu-id="ee9c1-216">Müügitellimused 6-7 ja 6-8</span><span class="sxs-lookup"><span data-stu-id="ee9c1-216">Sales orders 6-7 and 6-8</span></span>
+#### <a name="sales-orders-6-7-and-6-8"></a><span data-ttu-id="c613a-216">Müügitellimused 6-7 ja 6-8</span><span class="sxs-lookup"><span data-stu-id="c613a-216">Sales orders 6-7 and 6-8</span></span>
 
-1. <span data-ttu-id="ee9c1-217">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-217">Create two identical sales orders that have the following settings:</span></span>
+1. <span data-ttu-id="c613a-217">Looge kaks identset müügitellimust järgmiste sätetega.</span><span class="sxs-lookup"><span data-stu-id="c613a-217">Create two identical sales orders that have the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-218">**Kliendi konto:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-218">**Customer account:** *US-007*</span></span>
-    - <span data-ttu-id="ee9c1-219">**Tegevuskoht:** *6*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-219">**Site:** *6*</span></span>
-    - <span data-ttu-id="ee9c1-220">**Ladu:** *61*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-220">**Warehouse:** *61*</span></span>
-    - <span data-ttu-id="ee9c1-221">**Kaust:** jätke väli tühjaks.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-221">**Pool:** Leave this field blank.</span></span>
+    - <span data-ttu-id="c613a-218">**Kliendi konto:** *US-007*</span><span class="sxs-lookup"><span data-stu-id="c613a-218">**Customer account:** *US-007*</span></span>
+    - <span data-ttu-id="c613a-219">**Tegevuskoht:** *6*</span><span class="sxs-lookup"><span data-stu-id="c613a-219">**Site:** *6*</span></span>
+    - <span data-ttu-id="c613a-220">**Ladu:** *61*</span><span class="sxs-lookup"><span data-stu-id="c613a-220">**Warehouse:** *61*</span></span>
+    - <span data-ttu-id="c613a-221">**Kaust:** jätke väli tühjaks.</span><span class="sxs-lookup"><span data-stu-id="c613a-221">**Pool:** Leave this field blank.</span></span>
 
-1. <span data-ttu-id="ee9c1-222">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-222">Add an order line that has the following settings:</span></span>
+1. <span data-ttu-id="c613a-222">Lisage järgmiste sätetega tellimuserida.</span><span class="sxs-lookup"><span data-stu-id="c613a-222">Add an order line that has the following settings:</span></span>
 
-    - <span data-ttu-id="ee9c1-223">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="ee9c1-223">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
-    - <span data-ttu-id="ee9c1-224">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-224">**Quantity:** *1.00*</span></span>
+    - <span data-ttu-id="c613a-223">**Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)</span><span class="sxs-lookup"><span data-stu-id="c613a-223">**Item number:** *A0001* (an item that no **Code 4** filter is assigned to)</span></span>
+    - <span data-ttu-id="c613a-224">**Kogus:** *1.00*</span><span class="sxs-lookup"><span data-stu-id="c613a-224">**Quantity:** *1.00*</span></span>
 
-## <a name="automatic-release-of-sales-orders-to-the-warehouse"></a><span data-ttu-id="ee9c1-225">Müügitellimuste automaatne lattu väljastamine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-225">Automatic release of sales orders to the warehouse</span></span>
+## <a name="automatic-release-of-sales-orders-to-the-warehouse"></a><span data-ttu-id="c613a-225">Müügitellimuste automaatne lattu väljastamine</span><span class="sxs-lookup"><span data-stu-id="c613a-225">Automatic release of sales orders to the warehouse</span></span>
 
-<span data-ttu-id="ee9c1-226">Te viite lõpule automaatse lattu väljastamise protseduuri iga eelnevalt loodud müügitellimuste komplekti kohta.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-226">For each set of sales orders that you created earlier, you will complete a procedure for automatic release to the warehouse.</span></span> <span data-ttu-id="ee9c1-227">Viite kõigiga neist läbi siin esitatud [üldise lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-227">In each case, you will work through the [basic release-to-warehouse procedure](#release-procedure) that is provided here.</span></span>
+<span data-ttu-id="c613a-226">Te viite lõpule automaatse lattu väljastamise protseduuri iga eelnevalt loodud müügitellimuste komplekti kohta.</span><span class="sxs-lookup"><span data-stu-id="c613a-226">For each set of sales orders that you created earlier, you will complete a procedure for automatic release to the warehouse.</span></span> <span data-ttu-id="c613a-227">Viite kõigiga neist läbi siin esitatud [üldise lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="c613a-227">In each case, you will work through the [basic release-to-warehouse procedure](#release-procedure) that is provided here.</span></span>
 
-### <a name="basic-release-to-warehouse-procedure"></a><a name="release-procedure"></a><span data-ttu-id="ee9c1-228">Üldine lattu väljastamise protseduur</span><span class="sxs-lookup"><span data-stu-id="ee9c1-228">Basic release-to-warehouse procedure</span></span>
+### <a name="basic-release-to-warehouse-procedure"></a><a name="release-procedure"></a><span data-ttu-id="c613a-228">Üldine lattu väljastamise protseduur</span><span class="sxs-lookup"><span data-stu-id="c613a-228">Basic release-to-warehouse procedure</span></span>
 
-<span data-ttu-id="ee9c1-229">Te viite lõpule kolm järgmistes alamjaotistes kirjeldatud protseduuri iga eelnevalt loodud müügitellimuste komplekti kohta.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-229">For each set of sales orders that you created earlier, you will complete the three procedures that are outlined in the following subsections.</span></span>
+<span data-ttu-id="c613a-229">Te viite lõpule kolm järgmistes alamjaotistes kirjeldatud protseduuri iga eelnevalt loodud müügitellimuste komplekti kohta.</span><span class="sxs-lookup"><span data-stu-id="c613a-229">For each set of sales orders that you created earlier, you will complete the three procedures that are outlined in the following subsections.</span></span>
 
-#### <a name="update-the-wave-template-that-will-be-used-during-release"></a><span data-ttu-id="ee9c1-230">Väljastamise ajal kasutatava voo malli värskendamine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-230">Update the wave template that will be used during release</span></span>
+#### <a name="update-the-wave-template-that-will-be-used-during-release"></a><span data-ttu-id="c613a-230">Väljastamise ajal kasutatava voo malli värskendamine</span><span class="sxs-lookup"><span data-stu-id="c613a-230">Update the wave template that will be used during release</span></span>
 
-1. <span data-ttu-id="ee9c1-231">Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-231">Go to **Warehouse management \> Setup \> Waves \> Wave templates**.</span></span>
-1. <span data-ttu-id="ee9c1-232">Määrake välja **Voo malli tüüp** väärtuseks *Lähetamine*.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-232">Set the **Wave template type** field to *Shipping*.</span></span>
-1. <span data-ttu-id="ee9c1-233">Otsige üles ja valige voo mall, mis on seostatud laoga, mida kasutasite selle stsenaariumi jaoks loodud tellimuse komplektides.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-233">Find and select the wave template that is associated with the warehouse that you used in the order sets that you created for this scenario.</span></span> <span data-ttu-id="ee9c1-234">Kui kasutasite näiteks ladu *24*, valige voo mall **24 saadetise vaikemall**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-234">For example, if you used warehouse *24*, select the **24 Shipping Default** wave template.</span></span> <span data-ttu-id="ee9c1-235">Kui kasutasite ladu *61*, valige voo mall **61 saatmine**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-235">If you used warehouse *61*, select the **61 Shipping** wave template.</span></span>
-1. <span data-ttu-id="ee9c1-236">Valige Toimingupaanil nupp **Redigeeri**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-236">On the Action Pane, select **Edit**.</span></span>
-1. <span data-ttu-id="ee9c1-237">Määrake suvandi **Töötle voogu lattu vabastamisel** väärtuseks *Ei*.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-237">Set the **Process wave at release to warehouse** option to *No*.</span></span>
+1. <span data-ttu-id="c613a-231">Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.</span><span class="sxs-lookup"><span data-stu-id="c613a-231">Go to **Warehouse management \> Setup \> Waves \> Wave templates**.</span></span>
+1. <span data-ttu-id="c613a-232">Määrake välja **Voo malli tüüp** väärtuseks *Lähetamine*.</span><span class="sxs-lookup"><span data-stu-id="c613a-232">Set the **Wave template type** field to *Shipping*.</span></span>
+1. <span data-ttu-id="c613a-233">Otsige üles ja valige voo mall, mis on seostatud laoga, mida kasutasite selle stsenaariumi jaoks loodud tellimuse komplektides.</span><span class="sxs-lookup"><span data-stu-id="c613a-233">Find and select the wave template that is associated with the warehouse that you used in the order sets that you created for this scenario.</span></span> <span data-ttu-id="c613a-234">Kui kasutasite näiteks ladu *24*, valige voo mall **24 saadetise vaikemall**.</span><span class="sxs-lookup"><span data-stu-id="c613a-234">For example, if you used warehouse *24*, select the **24 Shipping Default** wave template.</span></span> <span data-ttu-id="c613a-235">Kui kasutasite ladu *61*, valige voo mall **61 saatmine**.</span><span class="sxs-lookup"><span data-stu-id="c613a-235">If you used warehouse *61*, select the **61 Shipping** wave template.</span></span>
+1. <span data-ttu-id="c613a-236">Valige Toimingupaanil nupp **Redigeeri**.</span><span class="sxs-lookup"><span data-stu-id="c613a-236">On the Action Pane, select **Edit**.</span></span>
+1. <span data-ttu-id="c613a-237">Määrake suvandi **Töötle voogu lattu vabastamisel** väärtuseks *Ei*.</span><span class="sxs-lookup"><span data-stu-id="c613a-237">Set the **Process wave at release to warehouse** option to *No*.</span></span>
 
-#### <a name="release-to-the-warehouse"></a><span data-ttu-id="ee9c1-238">Lattu väljastamine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-238">Release to the warehouse</span></span>
+#### <a name="release-to-the-warehouse"></a><span data-ttu-id="c613a-238">Lattu väljastamine</span><span class="sxs-lookup"><span data-stu-id="c613a-238">Release to the warehouse</span></span>
 
-1. <span data-ttu-id="ee9c1-239">Avage jaotis **Laohaldus \> Lattu väljastamine \> Müügitellimuste automaatne väljastamine**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-239">Go to **Warehouse management \> Release to warehouse \> Automatic release of sales orders**.</span></span>
-1. <span data-ttu-id="ee9c1-240">Määrake välja **Väljastatav kogus** väärtuseks *Kõik*.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-240">Set the **Quantity to release** field to *All*.</span></span>
-1. <span data-ttu-id="ee9c1-241">Päringu dialoogiboksi avamiseks valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-241">On the **Records to include** FastTab, select **Filter** to open the query dialog box.</span></span>
-1. <span data-ttu-id="ee9c1-242">Valige vahekaardil **Vahemik** suvand **Lisa**, et lisada ruudustikule järgmiste sätetega rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-242">On the **Range** tab, select **Add** to add a row that has the following settings to the grid:</span></span>
+1. <span data-ttu-id="c613a-239">Avage jaotis **Laohaldus \> Lattu väljastamine \> Müügitellimuste automaatne väljastamine**.</span><span class="sxs-lookup"><span data-stu-id="c613a-239">Go to **Warehouse management \> Release to warehouse \> Automatic release of sales orders**.</span></span>
+1. <span data-ttu-id="c613a-240">Määrake välja **Väljastatav kogus** väärtuseks *Kõik*.</span><span class="sxs-lookup"><span data-stu-id="c613a-240">Set the **Quantity to release** field to *All*.</span></span>
+1. <span data-ttu-id="c613a-241">Päringu dialoogiboksi avamiseks valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**.</span><span class="sxs-lookup"><span data-stu-id="c613a-241">On the **Records to include** FastTab, select **Filter** to open the query dialog box.</span></span>
+1. <span data-ttu-id="c613a-242">Valige vahekaardil **Vahemik** suvand **Lisa**, et lisada ruudustikule järgmiste sätetega rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-242">On the **Range** tab, select **Add** to add a row that has the following settings to the grid:</span></span>
 
-    - <span data-ttu-id="ee9c1-243">**Tabel:** *Müügitellimus*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-243">**Table:** *Sales order*</span></span>
-    - <span data-ttu-id="ee9c1-244">**Tuletatud tabel:** *Müügitellimus*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-244">**Derived table:** *Sales order*</span></span>
-    - <span data-ttu-id="ee9c1-245">**Väli:** *Müügitellimus*</span><span class="sxs-lookup"><span data-stu-id="ee9c1-245">**Field:** *Sales order*</span></span>
-    - <span data-ttu-id="ee9c1-246">**Kriteeriumid:** sisestage soovitud tellimuse komplekti müügitellimuste numbrite komaeraldusega loend.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-246">**Criteria:** Enter a comma-separated list of the sales order numbers from the desired order set.</span></span>
+    - <span data-ttu-id="c613a-243">**Tabel:** *Müügitellimus*</span><span class="sxs-lookup"><span data-stu-id="c613a-243">**Table:** *Sales order*</span></span>
+    - <span data-ttu-id="c613a-244">**Tuletatud tabel:** *Müügitellimus*</span><span class="sxs-lookup"><span data-stu-id="c613a-244">**Derived table:** *Sales order*</span></span>
+    - <span data-ttu-id="c613a-245">**Väli:** *Müügitellimus*</span><span class="sxs-lookup"><span data-stu-id="c613a-245">**Field:** *Sales order*</span></span>
+    - <span data-ttu-id="c613a-246">**Kriteeriumid:** sisestage soovitud tellimuse komplekti müügitellimuste numbrite komaeraldusega loend.</span><span class="sxs-lookup"><span data-stu-id="c613a-246">**Criteria:** Enter a comma-separated list of the sales order numbers from the desired order set.</span></span>
 
-1. <span data-ttu-id="ee9c1-247">Päringu salvestamiseks klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-247">Select **OK** to save your query.</span></span>
-1. <span data-ttu-id="ee9c1-248">Protseduuri *Automaatne lattu väljastamine* käivitamiseks klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-248">Select **OK** to start the *Automatic release to warehouse* procedure.</span></span>
+1. <span data-ttu-id="c613a-247">Päringu salvestamiseks klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="c613a-247">Select **OK** to save your query.</span></span>
+1. <span data-ttu-id="c613a-248">Protseduuri *Automaatne lattu väljastamine* käivitamiseks klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="c613a-248">Select **OK** to start the *Automatic release to warehouse* procedure.</span></span>
 
-#### <a name="review-the-shipment-that-is-created-or-updated"></a><span data-ttu-id="ee9c1-249">Loodud või värskendatud saadetise ülevaatamine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-249">Review the shipment that is created or updated</span></span>
+#### <a name="review-the-shipment-that-is-created-or-updated"></a><span data-ttu-id="c613a-249">Loodud või värskendatud saadetise ülevaatamine</span><span class="sxs-lookup"><span data-stu-id="c613a-249">Review the shipment that is created or updated</span></span>
 
-1. <span data-ttu-id="ee9c1-250">Avage **Laohaldus \> Saadetised \> Kõik saadetised**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-250">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
-1. <span data-ttu-id="ee9c1-251">Otsige üles ja valige nõutav saadetis.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-251">Find and select the required shipment.</span></span>
-1. <span data-ttu-id="ee9c1-252">Kui saadetise loomise või värskendamise ajal kasutati konsolideerimispoliitikat, kasutage välja **Saadetise konsolideerimispoliitika**.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-252">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
+1. <span data-ttu-id="c613a-250">Avage **Laohaldus \> Saadetised \> Kõik saadetised**.</span><span class="sxs-lookup"><span data-stu-id="c613a-250">Go to **Warehouse management \> Shipments \> All shipments**.</span></span>
+1. <span data-ttu-id="c613a-251">Otsige üles ja valige nõutav saadetis.</span><span class="sxs-lookup"><span data-stu-id="c613a-251">Find and select the required shipment.</span></span>
+1. <span data-ttu-id="c613a-252">Kui saadetise loomise või värskendamise ajal kasutati konsolideerimispoliitikat, kasutage välja **Saadetise konsolideerimispoliitika**.</span><span class="sxs-lookup"><span data-stu-id="c613a-252">If a consolidation policy was used when the shipment was created or updated, you should see it in the **Shipment consolidation policy** field.</span></span>
 
-### <a name="release-sales-orders-from-order-set-1"></a><span data-ttu-id="ee9c1-253">Müügitellimuste väljastamine tellimuse komplektist 1</span><span class="sxs-lookup"><span data-stu-id="ee9c1-253">Release sales orders from order set 1</span></span>
+### <a name="release-sales-orders-from-order-set-1"></a><span data-ttu-id="c613a-253">Müügitellimuste väljastamine tellimuse komplektist 1</span><span class="sxs-lookup"><span data-stu-id="c613a-253">Release sales orders from order set 1</span></span>
 
-<span data-ttu-id="ee9c1-254">Müügitellimuste väljastamiseks tellimuse komplektist 1, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-254">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 1.</span></span>
+<span data-ttu-id="c613a-254">Müügitellimuste väljastamiseks tellimuse komplektist 1, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="c613a-254">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 1.</span></span>
 
-<span data-ttu-id="ee9c1-255">Kui olete lõpetanud, peaksite nägema, et loodi kaks saadetist.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-255">When you've finished, you should see that two shipments were created:</span></span>
+<span data-ttu-id="c613a-255">Kui olete lõpetanud, peaksite nägema, et loodi kaks saadetist.</span><span class="sxs-lookup"><span data-stu-id="c613a-255">When you've finished, you should see that two shipments were created:</span></span>
 
-- <span data-ttu-id="ee9c1-256">Esimene saadetis sisaldab kolme rida ja loodi saadetise konsolideerimispoliitika *CustomerMode* abil.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-256">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
-- <span data-ttu-id="ee9c1-257">Teine saadetis, mis ei kasuta transportimisel tarneviisi *Lennutransport*, loodi saadetise konsolideerimispoliitika *CustomerOrderNo* abil.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-257">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
+- <span data-ttu-id="c613a-256">Esimene saadetis sisaldab kolme rida ja loodi saadetise konsolideerimispoliitika *CustomerMode* abil.</span><span class="sxs-lookup"><span data-stu-id="c613a-256">The first shipment contains three lines and was created by using the *CustomerMode* shipment consolidation policy.</span></span>
+- <span data-ttu-id="c613a-257">Teine saadetis, mis ei kasuta transportimisel tarneviisi *Lennutransport*, loodi saadetise konsolideerimispoliitika *CustomerOrderNo* abil.</span><span class="sxs-lookup"><span data-stu-id="c613a-257">The second shipment, which doesn't use the *Airways* transportation mode of delivery, was created by using the *CustomerOrderNo* shipment consolidation policy.</span></span>
 
-### <a name="release-sales-orders-from-order-set-2"></a><span data-ttu-id="ee9c1-258">Müügitellimuste väljastamine tellimuse komplektist 2</span><span class="sxs-lookup"><span data-stu-id="ee9c1-258">Release sales orders from order set 2</span></span>
+### <a name="release-sales-orders-from-order-set-2"></a><span data-ttu-id="c613a-258">Müügitellimuste väljastamine tellimuse komplektist 2</span><span class="sxs-lookup"><span data-stu-id="c613a-258">Release sales orders from order set 2</span></span>
 
-<span data-ttu-id="ee9c1-259">Müügitellimuste väljastamiseks tellimuse komplektist 2, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-259">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 2.</span></span>
+<span data-ttu-id="c613a-259">Müügitellimuste väljastamiseks tellimuse komplektist 2, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="c613a-259">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 2.</span></span>
 
-<span data-ttu-id="ee9c1-260">Kui olete lõpetanud, peaksite nägema, et loodi kolm saadetist.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-260">When you've finished, you should see that three shipments were created:</span></span>
+<span data-ttu-id="c613a-260">Kui olete lõpetanud, peaksite nägema, et loodi kolm saadetist.</span><span class="sxs-lookup"><span data-stu-id="c613a-260">When you've finished, you should see that three shipments were created:</span></span>
 
-- <span data-ttu-id="ee9c1-261">Esimene saadetis sisaldab *Kergsüttivaid* kaupu.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-261">The first shipment contains *Flammable* items.</span></span>
-- <span data-ttu-id="ee9c1-262">Ülejäänud kaks saadetist sisaldavad ühte rida, millel on kaup *Lõhkeaine*.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-262">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
+- <span data-ttu-id="c613a-261">Esimene saadetis sisaldab *Kergsüttivaid* kaupu.</span><span class="sxs-lookup"><span data-stu-id="c613a-261">The first shipment contains *Flammable* items.</span></span>
+- <span data-ttu-id="c613a-262">Ülejäänud kaks saadetist sisaldavad ühte rida, millel on kaup *Lõhkeaine*.</span><span class="sxs-lookup"><span data-stu-id="c613a-262">Each of the other two shipments contains one line that has the *Explosive* item.</span></span>
 
-### <a name="release-sales-orders-from-order-set-3"></a><span data-ttu-id="ee9c1-263">Müügitellimuste väljastamine tellimuse komplektist 3</span><span class="sxs-lookup"><span data-stu-id="ee9c1-263">Release sales orders from order set 3</span></span>
+### <a name="release-sales-orders-from-order-set-3"></a><span data-ttu-id="c613a-263">Müügitellimuste väljastamine tellimuse komplektist 3</span><span class="sxs-lookup"><span data-stu-id="c613a-263">Release sales orders from order set 3</span></span>
 
-<span data-ttu-id="ee9c1-264">Müügitellimuste väljastamiseks tellimuse komplektist 3, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-264">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 3.</span></span>
+<span data-ttu-id="c613a-264">Müügitellimuste väljastamiseks tellimuse komplektist 3, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="c613a-264">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 3.</span></span>
 
-<span data-ttu-id="ee9c1-265">Kui olete lõpetanud, peaksite nägema, et ilmnesid järgmised tegevused.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-265">When you've finished, you should see that the following actions occurred:</span></span>
+<span data-ttu-id="c613a-265">Kui olete lõpetanud, peaksite nägema, et ilmnesid järgmised tegevused.</span><span class="sxs-lookup"><span data-stu-id="c613a-265">When you've finished, you should see that the following actions occurred:</span></span>
 
-- <span data-ttu-id="ee9c1-266">Värskendati üks olemasolev saadetis (saadetis, mis loodi tellimuse komplekti 2 väljastamisel lattu).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-266">One existing shipment (the shipment that was created when order set 2 was released to the warehouse) was updated.</span></span> <span data-ttu-id="ee9c1-267">Lisati rida, millel on *Kergsüttiv* kaup.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-267">A line that has the *Flammable* item was added.</span></span>
-- <span data-ttu-id="ee9c1-268">Loodi üks uus saadetis, mis sisaldab kaupa *Lõhkeaine*.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-268">One new shipment was created that contains the *Explosive* item.</span></span>
+- <span data-ttu-id="c613a-266">Värskendati üks olemasolev saadetis (saadetis, mis loodi tellimuse komplekti 2 väljastamisel lattu).</span><span class="sxs-lookup"><span data-stu-id="c613a-266">One existing shipment (the shipment that was created when order set 2 was released to the warehouse) was updated.</span></span> <span data-ttu-id="c613a-267">Lisati rida, millel on *Kergsüttiv* kaup.</span><span class="sxs-lookup"><span data-stu-id="c613a-267">A line that has the *Flammable* item was added.</span></span>
+- <span data-ttu-id="c613a-268">Loodi üks uus saadetis, mis sisaldab kaupa *Lõhkeaine*.</span><span class="sxs-lookup"><span data-stu-id="c613a-268">One new shipment was created that contains the *Explosive* item.</span></span>
 
-### <a name="release-sales-orders-from-order-set-4"></a><span data-ttu-id="ee9c1-269">Müügitellimuste väljastamine tellimuse komplektist 4</span><span class="sxs-lookup"><span data-stu-id="ee9c1-269">Release sales orders from order set 4</span></span>
+### <a name="release-sales-orders-from-order-set-4"></a><span data-ttu-id="c613a-269">Müügitellimuste väljastamine tellimuse komplektist 4</span><span class="sxs-lookup"><span data-stu-id="c613a-269">Release sales orders from order set 4</span></span>
 
-<span data-ttu-id="ee9c1-270">Müügitellimuste väljastamiseks tellimuse komplektist 4, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-270">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 4.</span></span>
+<span data-ttu-id="c613a-270">Müügitellimuste väljastamiseks tellimuse komplektist 4, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="c613a-270">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 4.</span></span>
 
-<span data-ttu-id="ee9c1-271">Kui olete lõpetanud, peaksite nägema, et värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-271">When you've finished, you should see that one existing shipment (where the **Customer requisition** field is set to *1*) was updated.</span></span> <span data-ttu-id="ee9c1-272">Sellele lisati üks uus rida.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-272">One new line was added to it.</span></span>
+<span data-ttu-id="c613a-271">Kui olete lõpetanud, peaksite nägema, et värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*).</span><span class="sxs-lookup"><span data-stu-id="c613a-271">When you've finished, you should see that one existing shipment (where the **Customer requisition** field is set to *1*) was updated.</span></span> <span data-ttu-id="c613a-272">Sellele lisati üks uus rida.</span><span class="sxs-lookup"><span data-stu-id="c613a-272">One new line was added to it.</span></span>
 
-### <a name="release-sales-orders-from-order-set-5"></a><span data-ttu-id="ee9c1-273">Müügitellimuste väljastamine tellimuse komplektist 5</span><span class="sxs-lookup"><span data-stu-id="ee9c1-273">Release sales orders from order set 5</span></span>
+### <a name="release-sales-orders-from-order-set-5"></a><span data-ttu-id="c613a-273">Müügitellimuste väljastamine tellimuse komplektist 5</span><span class="sxs-lookup"><span data-stu-id="c613a-273">Release sales orders from order set 5</span></span>
 
-<span data-ttu-id="ee9c1-274">Müügitellimuste väljastamiseks tellimuse komplektist 5, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-274">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 5.</span></span>
+<span data-ttu-id="c613a-274">Müügitellimuste väljastamiseks tellimuse komplektist 5, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="c613a-274">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 5.</span></span>
 
-<span data-ttu-id="ee9c1-275">Kui olete lõpetanud, peaksite nägema, et ilmnesid järgmised tegevused.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-275">When you've finished, you should see that the following actions occurred:</span></span>
+<span data-ttu-id="c613a-275">Kui olete lõpetanud, peaksite nägema, et ilmnesid järgmised tegevused.</span><span class="sxs-lookup"><span data-stu-id="c613a-275">When you've finished, you should see that the following actions occurred:</span></span>
 
-- <span data-ttu-id="ee9c1-276">Värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-276">One existing shipment (where the **Customer requisition** field is set to *1*) was updated.</span></span> <span data-ttu-id="ee9c1-277">Sellele lisati rida müügitellimusest 5-3 (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-277">A line from sales order 5-3 (where the **Customer requisition** field is set to *1*) was added to it.</span></span>
-- <span data-ttu-id="ee9c1-278">Loodi üks uus saadetis, kus müügitellimuste 5-1 ja 5-2 read grupeeritakse ühte saadetisse.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-278">One new shipment was created, where lines from sales orders 5-1 and 5-2 are grouped into one shipment.</span></span>
+- <span data-ttu-id="c613a-276">Värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*).</span><span class="sxs-lookup"><span data-stu-id="c613a-276">One existing shipment (where the **Customer requisition** field is set to *1*) was updated.</span></span> <span data-ttu-id="c613a-277">Sellele lisati rida müügitellimusest 5-3 (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*).</span><span class="sxs-lookup"><span data-stu-id="c613a-277">A line from sales order 5-3 (where the **Customer requisition** field is set to *1*) was added to it.</span></span>
+- <span data-ttu-id="c613a-278">Loodi üks uus saadetis, kus müügitellimuste 5-1 ja 5-2 read grupeeritakse ühte saadetisse.</span><span class="sxs-lookup"><span data-stu-id="c613a-278">One new shipment was created, where lines from sales orders 5-1 and 5-2 are grouped into one shipment.</span></span>
 
-### <a name="release-sales-orders-from-order-set-6"></a><span data-ttu-id="ee9c1-279">Müügitellimuste väljastamine tellimuse komplektist 6</span><span class="sxs-lookup"><span data-stu-id="ee9c1-279">Release sales orders from order set 6</span></span>
+### <a name="release-sales-orders-from-order-set-6"></a><span data-ttu-id="c613a-279">Müügitellimuste väljastamine tellimuse komplektist 6</span><span class="sxs-lookup"><span data-stu-id="c613a-279">Release sales orders from order set 6</span></span>
 
-<span data-ttu-id="ee9c1-280">Müügitellimuste väljastamiseks tellimuse komplektist 6, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="ee9c1-280">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 6.</span></span>
+<span data-ttu-id="c613a-280">Müügitellimuste väljastamiseks tellimuse komplektist 6, järgige [üldist lattu väljastamise protseduuri](#release-procedure).</span><span class="sxs-lookup"><span data-stu-id="c613a-280">Follow the [basic release-to-warehouse procedure](#release-procedure) to release the sales orders from order set 6.</span></span>
 
-<span data-ttu-id="ee9c1-281">Kui olete lõpetanud, peaksite nägema, et loodi neli saadetist.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-281">When you've finished, you should see that four shipments were created:</span></span>
+<span data-ttu-id="c613a-281">Kui olete lõpetanud, peaksite nägema, et loodi neli saadetist.</span><span class="sxs-lookup"><span data-stu-id="c613a-281">When you've finished, you should see that four shipments were created:</span></span>
 
-- <span data-ttu-id="ee9c1-282">Kliendi *USA-003* kahe tellimuse read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *Tellimuse kaust* abil.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-282">Lines from two orders for customer *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="ee9c1-283">Kliendi *USA-004* kahe tellimuse read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *Tellimuse kaust* abil.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-283">Lines from two orders for customer *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="ee9c1-284">Kliendi *USA-007* tellimuste 6-5 ja 6-6 read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *Tellimuse kaust* abil.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-284">Lines from sales orders 6-5 and 6-6 for customer *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
-- <span data-ttu-id="ee9c1-285">Kliendi *USA-007* tellimuste 6-7 ja 6-8 read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *CrossOrder* abil.</span><span class="sxs-lookup"><span data-stu-id="ee9c1-285">Lines from sales orders 6-7 and 6-8 for customer *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
+- <span data-ttu-id="c613a-282">Kliendi *USA-003* kahe tellimuse read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *Tellimuse kaust* abil.</span><span class="sxs-lookup"><span data-stu-id="c613a-282">Lines from two orders for customer *US-003* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="c613a-283">Kliendi *USA-004* kahe tellimuse read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *Tellimuse kaust* abil.</span><span class="sxs-lookup"><span data-stu-id="c613a-283">Lines from two orders for customer *US-004* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="c613a-284">Kliendi *USA-007* tellimuste 6-5 ja 6-6 read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *Tellimuse kaust* abil.</span><span class="sxs-lookup"><span data-stu-id="c613a-284">Lines from sales orders 6-5 and 6-6 for customer *US-007* were grouped into one shipment by using the *Order pool* shipment consolidation policy.</span></span>
+- <span data-ttu-id="c613a-285">Kliendi *USA-007* tellimuste 6-7 ja 6-8 read grupeeriti ühte saadetisse saadetise konsolideerimispoliitika *CrossOrder* abil.</span><span class="sxs-lookup"><span data-stu-id="c613a-285">Lines from sales orders 6-7 and 6-8 for customer *US-007* were grouped into one shipment by using the *CrossOrder* shipment consolidation policy.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ee9c1-286">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="ee9c1-286">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="c613a-286">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c613a-286">Additional resources</span></span>
 
-- [<span data-ttu-id="ee9c1-287">Saadetise konsolideerimispoliitikad</span><span class="sxs-lookup"><span data-stu-id="ee9c1-287">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
-- [<span data-ttu-id="ee9c1-288">Saadetise konsolideerimispoliitikate konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ee9c1-288">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
+- [<span data-ttu-id="c613a-287">Saadetise konsolideerimispoliitikad</span><span class="sxs-lookup"><span data-stu-id="c613a-287">Shipment consolidation policies</span></span>](about-shipment-consolidation-policies.md)
+- [<span data-ttu-id="c613a-288">Saadetise konsolideerimispoliitikate konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c613a-288">Configure shipment consolidation policies</span></span>](configure-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
