@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841981"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115093"
 ---
 # <a name="release-product-structures"></a>Toote struktuuride vabastamine
 
@@ -103,6 +103,7 @@ Seadistage toote väljastamispoliitika **Üldine** FastTab-is järgmised seaded.
 | Field | Kirjeldus |
 |---|---|
 | Toote tüüp | Valige, kas poliitika rakendub *kauba* või *teenuse* tüübi toodetele. Pärast kirje salvestamist ei saa seda sätet muuta. |
+| Tootmise tüüp | See valik kuvatakse ainult siis, kui olete süsteemis lubanud [valemi muutmise halduse](manage-formula-changes.md). Valige tootmise tüüp, mille suhtes see tehnika tootekategooria kehtib:<ul><li>**Kaastoode** – kasutage seda väljalaske poliitikat kaastoodete haldamiseks. Kaastooted toodetakse protsessi tootmise ajal ja neid ei ole versioonitud ega tehnika tooteid. Kaastoodete vabastuspoliitikad aitavad kindlustada oluliste sätete nagu **Laoala dimensioonigrupi** ja **Jälgimisdimensiooni grupi** häälestamist väljastatud tootemalli abil, enne kui need ettevõttele lastakse.</li><li>**Kaastoode** – kasutage seda väljalaske poliitikat kaastoodete haldamiseks. Kaastooted toodetakse protsessi tootmise ajal ja neid ei ole versioonitud ega tehnika tooteid. Kaastoodete vabastuspoliitikad aitavad kindlustada oluliste sätete nagu **Laoala dimensioonigrupi** ja **Jälgimisdimensiooni grupi** häälestamist väljastatud tootemalli abil, enne kui need ettevõttele lastakse.</li><li>**Pole** – kasutage seda poliitikat standardsete toodete haldamiseks, mis pole versioonitud või tehnikatooted, kaastooted või by-tooted.</li><li>**Kauba plaanimine** - Kasutage seda väljalaskepoliitikat protsessi tootmise abil toodetud kaupade plaanimise haldamiseks. Plaanimisüksused kasutavad valemeid. Need sarnanevad valemiüksustega, kuid neid kasutatakse ainult kaastoodete ja kaastoodete tootmiseks, lõpetamata toodete tootmiseks.</li><li>**Koostis** - Kasutage seda tehnika kategooriat, et hallata tehnika tooteid, mis ei kasuta valemeid ja sisaldavad tavaliselt (kuid mitte tingimata) koostises.</li><li>**Valem** - Kasutage seda väljalaskepoliitikat protsessi tootmise abil toodetud kaupade plaanimise haldamiseks. Nendel üksustel on valem, kuid mitte BOM.</li></ul> |
 | Rakenda mallid | Valige üks järgmistest suvanditest, et määrata, kas ja kuidas tuleks poliitika kasutamise toote väljastamise malle rakendada:<ul><li>**Alati** – Väljastamiseks tuleb alati kasutada väljastatud toote malli. Kui valite selle suvandi, kasutage **Kõikide toodete** FastTab-i, et määrata mall, mida kasutatakse iga ettevõtte puhul, millele te väljastate. Kui te ei määra iga ettevõtte jaoks malli, mis on loetletud **Kõikide toodete** FastTab-is, kuvatakse tõrge, kui püüate poliitikat salvestada.</li><li>**Valikuline** – Kui väljastatud toote mall on määratud ettevõttele, mis on loetletud **Kõikide toodete** FastTab-is, kasutatakse seda malli sellele ettevõttele väljastamisel. Muul juhul malli ei kasutata. Selle suvandi valimisel saate poliitika salvestada kõikidele ettevõtetele malle määramata. (Hoiatust ei kuvata.)</li><li>**Mitte kunagi** – Väljastatud toote malli ei kasutata mitte ühegi ettevõtte puhul, kellele väljastatakse, isegi mitte siis, kui mall on määratud ettevõttele, mis on loetletud **Kõikide toodete** FastTab-is. Malli veerud ei ole saadaval.</li></ul> |
 | Aktiivne | Kasutage seda suvandit, et aidata säilitada väljastamispoliitikaid. Seadistage see kõigi kasutatavate väljastamispoliitikate puhul valikule *Jah*. Seadistage see valikule *Ei*, et tähistada väljastamispoliitikat passiivsena, kui seda ei kasutata. Võtke arvesse, et te ei saa aktiveerida väljastamispoliitikat, mis on määratud tehniliste toodete kategooriale, ja saate kustutada ainult passiivse väljastamispoliitika. |
 

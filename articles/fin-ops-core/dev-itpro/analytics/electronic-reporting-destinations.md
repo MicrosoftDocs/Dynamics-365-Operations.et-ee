@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) sihtkohad
 description: See teema annab teavet elektroonilise aruandluse sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893600"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085496"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -199,6 +199,34 @@ Kui loote Exceli vormingus ER-konfiguratsiooni ja soovite selle teisendada PDF-v
 > Valitud lehe paigutus rakendatakse kõigile ER-konfiguratsioonidele, mis luuakse Exceli vormingus ja seejärel teisendatakse PDF-vormingusse.
 >
 > Kui Wordi vormingus ER-i konkonfiguratsioon teisendatakse PDF-vormingusse, võetakse PDF-dokumendi lehe paigutus Wordi dokumendist.
+
+## <a name="output-unfolding"></a>Väljundi avanemine
+
+Kui konfigureerite oma ER-vormingu **Kaust** komponendi sihtkoha, saate määrata, kuidas selle komponendi väljund konfigureeritud sihtkohta toimetatakse.
+
+### <a name="make-output-unfolding-available"></a>Väljundi lahtikäivaks tegemine
+
+Väljundi avanemise suvandi kättesaadavaks tegemiseks praeguses finantseksemplaris avage **Funktsioonide haldamise** tööruum ja lülitage sisse valik **Luba ER-i sihtkohtade konfigureerimine kaustade sisu saatmiseks eraldi failidena** funktsioon.
+
+### <a name="applicability"></a>Kohaldatavus
+
+Väljundi avanemise suvandit saab konfigureerida ainult **Kaust** tüüpi vormingukomponentide jaoks. Kui hakkate **Kausta** komponenti konfigureerima, muutub **Üldine** kiirkaart kättesaadavaks **Elektroonilise aruandluse sihtkoha** lehel. 
+
+### <a name="use-the-output-unfolding-option"></a>Väljundi avanemise suvandi kasutamine
+
+Valige kiirkaardil **Üldine** väljal **Saada kaust kui** üks järgmistest väärtustest.
+
+- **Zip arhiiv** – Edastage loodud fail zip failina.
+- **Eralda failid** – Edastatakse iga loodud zip fail eraldi failina.
+
+    > [!NOTE]
+    > Kui valite **Eraldi failid**, kogutakse loodud väljund mälusse sihtnumbri olekus. Seetõttu rakendatakse maksimaalne [faili mahupiirang](er-compress-outbound-files.md) sihtväljundile, kui tegelik faili suurus võib seda piirangut ületada. Soovitatav on see väärtus valida siis, kui eeldate, et loodud toodangu maht on liiga suur.
+
+[![Kausta vormingu komponendi sihtkoha konfigureerimine](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Kitsendused
+
+Kui seadistate **Saada kaust** välja **Eraldatud failidena** komponendi **Kaust** jaoks, mis sisaldab teisi pesastatud **Kausta** komponente, ei rakendata sätet pesastatud **Kaust** komponentidele.
 
 ## <a name="security-considerations"></a>Turbemeetmed
 

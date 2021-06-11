@@ -1,5 +1,5 @@
 ---
-title: Täiustused loodud elektroonilise aruandluse aruannete tulemuste jälgimises ja nende võrdlemises alusväärtustega
+title: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
 description: Selles teemas kirjeldatakse ER-i põhifunktsiooni täiustusi rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019).
 author: NickSelin
 ms.date: 06/19/2019
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 483d3ac7cd3192ffd4c785c4031a168af503f087
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743601"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117031"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Täiustused loodud elektroonilise aruandluse aruannete tulemuste jälgimises ja nende võrdlemises alusväärtustega
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
 
 [!include[banner](../includes/banner.md)]
 

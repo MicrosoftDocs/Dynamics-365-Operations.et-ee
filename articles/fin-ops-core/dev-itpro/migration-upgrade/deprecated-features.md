@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921419"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112617"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasemate versioonide eemaldatud või iganenud funktsioonid
 
@@ -104,6 +104,39 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: 1. oktoobrist 2020 me ei plaani enam toetada **siseriiklikku maksuaruannet (IT) – funktsiooni viide IT-00003.** |
 
+## <a name="october-2019-deprecation-announcement"></a>Oktoober 2019 amortiseerimisteade
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Vooskeemi diagrammid äriprotsesside modelleerijas
+
+<table>
+<tbody>
+<tr>
+<td><strong>Aegumise/eemaldamise põhjus</strong></td>
+<td>Tühistame äriprotsesside modelleerijas vooskeemide diagrammide komponendi, kuna päranddisain põhjustas madalat kasutust.</td>
+</tr>
+<tr>
+<td><strong>Asendatud teise funktsiooniga?</strong></td>
+<td>Ei</td>
+</tr>
+<tr>
+<td><strong>Mõjutatud alad</strong></td>
+<td>Äriprotsesside modelleerija</td>
+</tr>
+<tr>
+<td><strong>Olek</strong></td>
+<td>Aegunud: vooskeemi diagrammide komponent eemaldatakse äriprotsesside modelleerijast 2020. aastal. Saadaval pole järgmisi funktsioone.
+<ul>
+<li>Kõik vooskeemid on kirjutuskaitstud ja pole redigeerimiseks saadaval. Vooskeemi tegevusega seotud kuju atribuudid ei ole samuti saadaval. Need skeemid hõlmavad nii vaikimisi vooskeeme, mis on automaatselt loodud, kui ka kohandatud vooskeeme, mida on nende vaikimisi vooskeemide alusel muudetud.</li>
+<li>Protsessisammud on kirjutuskaitstud ja pole redigeerimiseks saadaval.</li>     
+<li>Pärandi sobivuse / erinevuste analüüsi funktsioon ei ole saadaval. Seetõttu erinevuste loendit automaatselt ei looda ja see pole eksportimiseks saadaval.
+<p><strong>Märkus:</strong> see funktsioon oli varem aegunud ja asendatud Microsoft Azure DevOpsi integratsioonidega.</p>
+</li>
+<li>Vooskeemi versiooniajalugu ei ole saadaval.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 platvormivärskendusega 29
 

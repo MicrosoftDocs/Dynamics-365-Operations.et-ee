@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.19 eelvaade (juuli 2021)
+title: Rakenduse Dynamics 365 Supply Chain Management eelvaade 10.0.19 (juuni 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.19 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961677"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114971"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>Dynamics 365 Supply Chain Management 10.0.19 eelvaade (juuli 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Rakenduse Dynamics 365 Supply Chain Management eelvaade 10.0.19 (juuni 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 
 - **Eelvaateversiooni välja andmine:** aprill 2021
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuni 2021
-- **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuli 2021
+- **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuni 2021
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
-See väljalase hõlmab järgmisi funktsioone. Veerg *Funktsioon* pakub linke [väljalaskeplaani](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) kus saate vaadata iga funktsiooni ametlikke väljalaskekuupäevi. *Lisateabe* veerg pakub linke seotud dokumentatsioonile.
+See väljalase hõlmab järgmisi funktsioone. Veerg *Funktsioon* pakub linke [väljalaskeplaani](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) kus saate vaadata iga funktsiooni ametlikke väljalaskekuupäevi. Veerg *Lisateave* pakub üksikasju/linke seotud dokumentatsioonile.
 
 Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla.
 
 | Funktsiooniala | Funktsioon | Lisateave |
 |---|---|---|
-| Varud ja logistika | [Kontaktisiku andmeüksuse ekspordi optimeerimine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *Pole saadaval* |
+| Varud ja logistika | [Kontaktisiku andmeüksuse ekspordi optimeerimine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Kui see on lubatud, ei põhjusta viidatud andmete muudatused seotud müügitellimuste (või ridade) kaasamist järgmisse astmelisse eksporti. Kui see funktsioon on keelatud, kaasatakse viidatud andmete muudatustega seotud kontaktid järgmisse täiendavasse eksporti. |
 | Varud ja logistika | [Lao käivitamisvõimaluste astmelised täiustused koos skaalaüksustega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Sõnumi töötleja sõnumid](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Laovarude korrigeerimine](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| Varud ja logistika | [Müügipakkumise lehel dokumendi sissejuhatuse ja dokumendi lõppväljade otsingufunktsioonid](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *Pole saadaval* |
+| Varud ja logistika | [Müügipakkumise lehel dokumendi sissejuhatuse ja dokumendi lõppväljade otsingufunktsioonid](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | See funtsiooni lisab otsingufunktsioonide **Dokumendi sissejuhatus** ja **Dokumendi järeldus** väljal **Müügipakkumiste** lehel.<br><br>Funktsioon on vaikimisi lubatud. |
 | Varud ja logistika | [Lao käivitamine oma kohandatud riistvara servaskaala ühikutega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Juurutage servaskaala ühikud kohandatud riistvaras LBD-ga](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Tootmine | [Lao käivitamine oma kohandatud riistvara servaskaala ühikutega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Juurutage servaskaala ühikud kohandatud riistvaras LBD-ga](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Tootmine | [Lao käivitamine oma kohandatud riistvara servaskaala ühikutega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Planeerimine | [Planeerimise optimeerimise lõpmatu võimsuse ajastamine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | See funktsioon võimaldab Planning Optimization jaoks piiramatu võimsusega võimsuse planeerimist. Ilma selle funktsioonita saavad kavandatud tootmistellimused oma tarneaja vabastatud toodete laoseisu ajast sõltumata ajastamise ajast. |
 | Planeerimine | Päringupõhise plaanitud tellimuse kinnitamine | [Kindlad plaanitud tellimused](../master-planning/planning-optimization/planned-order-firming.md) |
 | Tooteteabe haldus | [Variandi soovituste lehe täiustused](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Eelmääratletud tootevariantide loomine](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
+
+Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Igaüks neist võimaldab olemasoleva funktsiooni järk-haaval täiustada. Kuna need on ainult täiustused, siis neid ei loetleta [väljalaskeplaanis](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Kindlustamaks, et need täiustused ei satu vastuollu olemasolevate kohanduste või eelistustega, lülitatakse iga neist vaikimisi välja (kui pole märgitud teisiti). Kui soovite mõnda neist funktsioonidest kasutada, peate need eraldi lubama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Funktsiooniala | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
+|---|---|---|
+| Müük ja turundus | Müügiajaloo puhastamise jõudluse parendused | Müügiajaloo puhastamine võib võtta kaua aega, kui seda käitatakse harva suure müügiuuendustega keskkondades. Kestuse vähendamiseks ja töökindluse parandamiseks tükeldab see funktsioon puhastuse piiratud kestusega partiidele. Võimaluse korral võimendatakse andmebaasi võimalusi lukustamise minimeerimiseks ja kannete tabelite ühendamise vältimiseks puhastamise ajal. |
+| Müük ja turundus | Värskenda kontsernisiseste tellimuste taotletud kviitungi kuupäev kinnitatud kuupäevale | See funktsioon võimaldab kontsernisisese otsetarne kasutamisel kontrollida, mis juhtub müügi- ja ostukuupäeva välja väärtustega. Saate valida, kas süsteem uuendab taotletud kuupäevi või jäetakse nende uuendamine vahele. Kui uuendamise vahele jätate, tähistavad taotletud kuupäevad kliendi taotletud kuupäeva. Uuendamise lubamisel tähistavad taotletud kuupäevad (tarnekuupäeva kontrolli kasutamisel) algselt ainult seda, mida klient taotles. Tarnekuupäeva kontroll, kui see erineb väljast *Pole*, alistab algselt taotletud teabe. Saate selle suvandi seada, kasutades uut **Nõutava vastuvõtukuupäeva värskendamise kinnitatud kuupäeva** sättega kontsernisisese hankija või kliendi sätetes.<br><br>Kui see funktsioon on keelatud, kirjutab süsteem nõutava sissetulekukuupäeva üle algsetele müügitellimustele, mis põhinevad tarnekuupäeva kontrollreeglil, kuid nõutav tarnekuupäev jääb samaks. |
+| Laohaldus | Ümmarda kogused lattu väljastamiseks lähima müügiüksuseni | See funktsioon lisab suvandi, mis võib piirata tellimuskoguseid lattu vabastamisel. Kui see on lubatud, ümardatakse tellimuse kogused allapoole lähima täismüügiühikuni ja tellimused, mis sisaldavad alla ühe müügiühiku koguseid, lükatakse vabastamiseks tagasi. |
+| Laohaldus | Organisatsiooniülene voomeetod „Graafiku töö loomine” | Selle funktsiooni lubamisel konfigureeritakse *Plaanitud töö loomise* voomeetod lisatakse paralleelselt kõigi juriidiliste isikute lõikes. See mõjutab ka mitmeid lisasätteid. Üksikasjadega tutvumiseks vaadake [Voo ajal töö loomise plaanimine](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
@@ -62,7 +74,7 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ol
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.19 platvormivärskendused (juuli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Platvormi Finance and Operations rakenduste versiooni 10.0.19 värskendused (juuni 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 

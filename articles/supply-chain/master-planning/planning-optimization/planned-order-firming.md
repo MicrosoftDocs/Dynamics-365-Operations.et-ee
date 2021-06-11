@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019490"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103624"
 ---
 # <a name="firm-planned-orders"></a>Kindlad plaanitud tellimused
 
@@ -77,6 +77,7 @@ Planeeritud tellimuste käsitsi kinnitamiseks otsige ja valige planeeritud telli
 
     - **Grupeeri hankija järgi** – Määrake selle suvandi väärtuseks *Jah*, et grupeerida planeeritud ostutellimusi ja luua kinnitades ühe ostutellimuse hankija kohta. Võite ka luua ühe ostutellimuse, kus on iga planeeritud tellimuse kohta eraldi rida.
     - **Grupeeri ostjate järgi grupp** – Valige selle suvandi puhul *Jah*, kui soovite plaanitud ostutellimused grupeerida, et luua üks ostutellimus, kus on ühendatud hankijate ja sisseostjate grupid. Selle suvandi kasutamiseks peate valima ka suvandi **Grupeeri hankija järgi** puhul *Jah*.
+    - **Grupeeri ostulepingu järgi** – määrake selle suvandi väärtuseks *Jah* et grupeerida plaanitud ostutellimused, mille hankija on olemasolevate ostulepingutega sama ja luua ostulepinguostutellimus. See suvand lubatakse automaatselt, kui on lubatud **Grupeerimine hankija kaupa**. **Ostulepingu alusel grupeerimise** kasutamiseks tuleb lehel **Koondplaneerimise parameetrid** seada väärtusle *Jah* olema seatud **Ostulepingute parameetrid** lehel.
     - **Grupeeri perioodi järgi** (jaotises **Ostutellimused**) – Valige periood, mille järgi plaanitud ostutellimusi grupeerida. Selle suvandi kasutamiseks peate valima ka suvandi **Grupeeri hankija järgi**.
     - **Grupeeri perioodi järgi** (jaotises **Ülekanded**) – Valige periood, mille järgi plaanitud ülekandeid grupeerida. Tellimused grupeeritakse väärtuste alusel **Laost** ja **Lattu**.
 

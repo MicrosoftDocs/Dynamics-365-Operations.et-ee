@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841257"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111690"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Selles teemas antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel.
 
@@ -71,7 +73,9 @@ Järgnevalt on loetletud miteid viise, kuidas saate takistada arve esitamist tö
 
 - **Arve sisaldab eraldamata kulusid.** Arve esitanud isik saab teate, et arve sisaldab eraldamata kuludes, võimaldades tal arvet enne töövoogu uuesti esitamist parandada. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui hankija arvel on eraldamata kulusid** sisse lülitatud.
 
-- **Arvel on sama arvenumber teise sisestatud arvega.** Arve esitanud isik saab teate, et leiti topeltnumbriga arve, võimaldades tal arvet enne töövoogu uuesti esitamist parandada. See teatis kuvatakse siis, kui ostureskontro parameetriks **Kontrolli kasutatavat arvenumbrit** on määratud **Lükka duplikaat tagasi**. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui sisestatud arvel on selline number juba olemas ja süsteemis ei ole lubatud topeltnumbriga arvete vastuvõtmine** on sisse lülitatud.  
+- **Arvel on sama arvenumber teise sisestatud arvega.** Arve edastanud isikule saadetakse teade, mis näitab, et leiti duplikaatnumbriga arve. Duplikaatnumbrit saab parandada enne arve uuesti töövoole edastamist. See teatis kuvatakse siis, kui ostureskontro parameetriks **Kontrolli kasutatavat arvenumbrit** on määratud **Lükka duplikaat tagasi**. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui sisestatud arvel on selline number juba olemas ja süsteemis ei ole lubatud topeltnumbriga arvete vastuvõtmine** on sisse lülitatud.
+
+- **Arve sisaldab rida, kus arve kogus on väiksem kui vastendatud toote sissetuleku kogus.** Isik, kes arve esitab või proovib postitada, saab teate, et kogused ei ole võrdsed. Teatis annab võimaluse parandada saldosid enne arve uuesti töövoogu saatmist. See funktsioon on saadaval juhul, kui **Hankija arvete sisestamise blokeerimise** parameeter on **Funktsioonide haldus** lehel ja parameetri **Ostureskontro blokeerimine ja töövoole esitamine** lehel **Konto maksu parameetrid** sisse lülitatud.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Hankijaarvete vastavusseviimine toote sissetulekutega
 

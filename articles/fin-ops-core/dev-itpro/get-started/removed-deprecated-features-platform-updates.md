@@ -2,7 +2,7 @@
 title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923534"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111720"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -31,6 +31,19 @@ See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Fi
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Funktsiooni amortiseerumise teatis, mis kehtib 2021. aasta maist
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalisatsiooni portaal rakenduses Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kaotame LCS Globalization portaali, kuna selle funktsiooni on alistanud teised LCS-põhised teenused. |
+| **Asendatud teise funktsiooniga?**   | Jah, see funktsioon asendatakse LCS-i probleemi [otsingu](../lifecycle-services/issue-search-lcs.md) ja [Dynamicsi regulatiivse teatise esitamise teenusega](../lcs-solutions/submit-localization-alerts.md). |
+| **Mõjutatud tootealad**         | Globaliseerimise portaali funktsioonid LCS-is|
+| **Juurutamissuvand**              | Pilvjuurutus |
+| **Olek**                         | Taunitud: planeeritud eemaldamise kuupäev mais 2022. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Funktsioon eemaldati 28. jaanuaril 2021
 
@@ -56,7 +69,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Visual Studio 2015 asemel saab kasutatavaks ja nõutavaks versiooniks Visual Studio 2017. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud. Värskendamisel eemaldatakse eelmised X++ tööriistad Visual Studio 2015-st ja värskendatud tööriistu ei installita Visual Studio 2015-de. See ei mõjuta majutatud järke. Virtuaalmasinaid koostades tuleb konveieri (koostamisdefinitsioon) käsitsi uuendada, et muuta sõltuvus MSBuild 14.0-st (Visual Studio 2015) variandile MSBuild 15.0 (Visual Studio 2017), nagu kirjeldatud jaotises [Pärandkonveieri värskendamine lahenduses Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+| **Olek**                         | Värskendamisel eemaldatakse eelmised X++ tööriistad Visual Studio 2015-st ja värskendatud tööriistu ei installita Visual Studio 2015-de. See ei mõjuta majutatud järke. Virtuaalmasinaid koostades tuleb konveieri (koostamisdefinitsioon) käsitsi uuendada, et muuta sõltuvus MSBuild 14.0-st (Visual Studio 2015) variandile MSBuild 15.0 (Visual Studio 2017), nagu kirjeldatud jaotises [Pärandkonveieri värskendamine lahenduses Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
 
 ### <a name="user-avatar"></a>Kasutaja avatar 
 
@@ -76,7 +89,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Ei |
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud. Kogu EP kood plaanitakse eemaldada 2021. aasta oktoobri väljalaskes. |
+| **Olek**                         | Katkestatud: Kogu EP kood plaanitakse eemaldada 2021. aasta oktoobri väljalaskes. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.15 värskendused
 
@@ -88,7 +101,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Soovitame klientide minna üle Microsoft Edge-le.|
 | **Mõjutatud tootealad**         | Kõik Dynamics 365 tooted |
 | **Juurutamissuvand**              | Kõik|
-| **Olek**                         | Aegunud. Internet Explorer 11 ei toetata pärast 2021. aasta augustit.|
+| **Olek**                         | Internet Explorer 11 ei toetata pärast 2021. aasta augustit.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio lisandmoodul metaandmete kiirparanduste rakendamiseks
@@ -181,7 +194,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Lisateavet vt teemast [Azure Active Directory tingimusliku juurdepääsu konfigureerimine](/appcenter/general/configuring-aad-conditional-access).|
 | **Mõjutatud tootealad**         | Turve |
 | **Juurutamissuvand**              | Pilv |
-| **Olek**                         | **Aegunud:** see funktsioon on iseteeninduse juurutustes täielikult aegunud. |
+| **Olek**                         | Aegunud: see funktsioon on iseteeninduse juurutustes täielikult aegunud. |
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
 
@@ -201,7 +214,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | See kompilaatori tõrge asendab kompilaatori hoiatuse jäädavalt.  |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | **Aegunud:** kompilaatori hoiatus on Finance and Operationsi rakenduste versiooni 10.0.11 platvormivärskendustes kompilaatori tõrge. |
+| **Olek**                         | Aegunud: kompilaatori hoiatus on Finance and Operations rakenduste versiooni 10.0.11 platvormivärskendustes kompilaatori tõrge. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV-litsentsid, mis on loodud SHA1 räsialgoritmi abil
 
@@ -211,7 +224,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah. Windows PowerShelli kasutamine litsentside loomiseks. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | <strong>Aegunud:</strong> ISV litsentsid, mis loodi SHA1 räsialgoritmi abil. See algoritm sõltus sertidest, mis loodi utiliidi MakeCert abil ja see utiliit on aegunud.<p><strong>Aegunud:</strong> SHA1 kasutamine turbe või räsimise eesmärgil. SHA1 ei tööta enam 2021. aasta alguses. Seetõttu ei tohiks seda enam kasutada.<p><strong>Eemaldatud:</strong> toetus transpordi kihi turvalisusele (tls) 1.0 ja TLS 1.1 sissetulevad või väljaminevad taotlused. |
+| **Olek**                         | Aegunud: ISV litsentsid, mis loodi SHA1 räsialgoritmi abil. See algoritm sõltus sertidest, mis loodi utiliidi MakeCert abil ja see utiliit on aegunud.<br><br>Aegunud: SHA1 kasutamine turbe või räsimise eesmärgil. SHA1 ei tööta enam 2021. aasta alguses. Seetõttu ei tohiks seda enam kasutada.<br><br>Eemaldatud: toetus transpordi kihi turvalisusele (tls) 1.0 ja TLS 1.1 sissetulevad või väljaminevad taotlused. |
 
 ## <a name="platform-update-32"></a>Platvormivärskendus update 32
 
