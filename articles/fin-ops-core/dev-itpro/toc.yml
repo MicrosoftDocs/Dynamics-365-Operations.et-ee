@@ -14,7 +14,7 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Platvormi versiooni 10.0.20 värskendused (juuli 2021)
+                - name: Platvormi versiooni 10.0.20 värskendused (august 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platvormi versiooni 10.0.19 värskendused (juuni 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,13 +850,11 @@
               items:
                 - name: Jälitamised Trace Parseri abil
                   href: perf-test/trace-trace-tutorial.md
-                - name: Ühe kasutajaga testimine tegevuse salvestaja ja Performance SDK abil
+                - name: Ühe kasutajaga testimine jõudluse SDK ja tegevuse salvestaja abil
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Mitme kasutajaga Performance SDK testimine kohaliku testimiskontrolleri abil
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Mitme kasutajaga testimine Performance SDK ja Azure DevOpsi kaudu
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Tõrkeotsingujuhend testimisel Performance SDK abil
+                - name: Mitme kasutajaga testimine jõudluse SDK abil
+                  href: perf-test/perfsdk-multi-user-testing.md
+                - name: Tõrkeotsingujuhend testimisel jõudluse SDK abil
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK ja mitme kasutajaga testimine kohapealsetes keskkondades
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Pakett-tööde loomine
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Pakett-tööde automaatsete katsete lubamine
+                  href: sysadmin/retryable-batch.md
                 - name: Pakett-töö kopeerimine
                   href: sysadmin/copy-batch-job.md
                 - name: Aktiivsed partiiperioodid
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 täiendus – täienduseelne kontroll-loend andmete täiendamiseks
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 täiendus – andmete täiendamine liivakastikeskkondades dacpac-protsessi abil
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: AX 2012 täiendus – SQL-i kannete tiražeerimine
                   href: database/replication-setup.md
-                - name: AX 2012 täiendus – liivakastikeskkondade andmete täiendamine
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012 täiendus – iseteeninduskeskkondade andmete täiendamine
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: AX 2012 täiendus – kohapealsed keskkonnad
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 täiendus – ülemineku testimine

@@ -94,7 +94,7 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (juuli 2021)
+                    - name: Commerce 10.0.20 (august 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (juuni 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: Dynamics 365 Commerce'i komponendi versioonimise nõuded
                   href: arch-component-versioning.md
-                - name: Commerce Scale Uniti arhitektuur
+                - name: Kaugadministreeritava Commerce'i mootori ülesehitus
                   href: dev-itpro/retail-server-architecture.md
                 - name: Kauplusesisese topoloogia valimine
                   href: dev-itpro/retail-in-store-topology.md
@@ -256,9 +256,9 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: Commerce Data Exchange'i tõrkeotsing
                       href: dev-itpro/CDX-Troubleshooting.md
-                - name: Kaasaegse kassa ülesehitus
+                - name: Modern POS-i ülesehitus
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: E-poe avaldamise ülesehitus
+                - name: Võrgupoe kanali avaldamine
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance’i Power BI sisu
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -546,6 +546,8 @@
                       href: paypal.md
                     - name: Rahakotimaksete tugi
                       href: wallets.md
+                    - name: Täiustatud maksed kaupluse kassas
+                      href: dev-itpro/enhanced-sca.md
                     - name: Maksete KKK
                       href: dev-itpro/payments-retail.md
                 - name: Meilid ja teatised
@@ -772,8 +774,12 @@
                   href: tasks/use-continuity-program.md
                 - name: Kliendi sisseregistreerimisteatiste lubamine kassas
                   href: enable-customer-check-in.md
-            - name: Tagastused
+            - name: Tagastused ja tagasimaksed
               items:
+                - name: Tagastuste loomine kassas
+                  href: POS-returns.md
+                - name: Seerianumbriga toodete tagastamine kassas
+                  href: POS-serial-returns.md
                 - name: Lingitud tagasimaksed
                   href: dev-itpro/linked-refunds.md
                 - name: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
@@ -1230,6 +1236,8 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: ER-i konfiguratsioonide loomine Regulatory Configuration Service'is ja üleslaadimine globaalsesse hoidlasse
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
@@ -1238,11 +1246,13 @@
               items:
                 - name: Commerce'i lokaliseerimine Brasiilia jaoks
                   href: localizations/latam-bra-commerce-localization.md
+                - name: Commerce'i lokaliseerimise häälestamine ja juurutamine Brasiilia jaoks
+                  href: localizations/latam-bra-deployment.md
             - name: Ida-Euroopa
               items:
                 - name: Üldist
                   items:
-                    - name: Commerce'i ettemaksuarved Ida-Euroopa puhul
+                    - name: Commerce'i ettemaksuarved Ida-Euroopa korral
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
                     - name: Commerce'i pisikulude kassa haldus Ida-Euroopa puhul
                       href: localizations/emea-eeu-petty-cash-for-retail.md
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Prinditava vabas vormis arve (FTI) vormide loomine
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Tõhusate ER-i lahenduste kujundamine
+                  items:
+                    - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER-i konfiguratsioonide jõudlusprobleemide tõrkeotsing
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Äridokumentide haldus (BDM)
                   items:
                     - name: BDM-i ülevaade
