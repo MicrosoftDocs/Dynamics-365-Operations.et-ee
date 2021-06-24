@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b7221cb5b0ea1fdbb4e05831cdd6dd482e321
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d24035aa326c2232cc77a576d24c15b3a8f9d93b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823535"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188343"
 ---
 # <a name="public-sector-home-page"></a>Avaliku sektori avaleht
 
@@ -63,8 +63,7 @@ Järgmises tabelis kirjeldatakse, kuidas konfiguratsioonivõti on seotud teiste 
 | Alamvõtmed | **Pearaamatu täpsema kande** (AdvancedLedgerEntry) konfiguratsioonivõti **Avaliku sektori 1099G** konfiguratsioonivõti (Tax1099G) **Avaliku sektori 1099S** konfiguratsioonivõti (Tax1099S) **Prantsuse regulatiivne** konfiguratsioonivõti |
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Avaliku sektori funktsioonide plaan](plan-public-sector-functionality.md)
 

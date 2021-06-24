@@ -72,7 +72,7 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.20 (juuli 2021)
+                    - name: Supply Chain Management 10.0.20 (august 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (juuni 2021)
                       href: get-started/whats-new-scm-10-0-19.md
@@ -222,6 +222,8 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER-i konfiguratsioonide loomine Regulatory Configuration Service'is ja üleslaadimine globaalsesse hoidlasse
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektrooniline arveldus
                   items:
                     - name: Elektroonilise arvelduse ülevaade
@@ -234,6 +236,8 @@
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Azure'i salvestusruumi konto ja võtmehoidla loomine
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Kasutuse halduse armatuurlaud
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Alustamine
                       items:
                         - name: Elektroonilise arvelduse teenusehalduse kasutamise alustamine
@@ -1383,8 +1387,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Prinditava vabas vormis arve (FTI) vormide loomine
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Tõhusate ER-i lahenduste kujundamine
+                  items:
+                    - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER-i konfiguratsioonide jõudlusprobleemide tõrkeotsing
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Äridokumentide haldus (BDM)
                   items:
                     - name: BDM-i ülevaade
@@ -1675,30 +1683,38 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Sisemise tarneahela klientidega koostöö tegemine
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: Nõudluse prognoos
+            - name: Eelarvestus
               items:
-                - name: Nõudluse prognoosimise ülevaade
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: Nõudluse prognoosi häälestus
-                  href: master-planning/demand-forecasting-setup.md
-                - name: Nõudluse prognooside ajalooliste andmete importimine
-                  href: master-planning/import-historical-data.md
-                - name: Statistilise alusprognoosi loomine
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: Alusprognoosi käsitsi korrigeerimine
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: Korrigeeritud prognoosi autoriseerimine
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: Prognoosi täpsuse jälgimine
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: Nõudluse prognoosi arvutamisel võõrväärtuste eemaldamine kandeandmete ajaloost
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: Planeerimise koefitsiendid
-                  href: master-planning/reduction-keys.md
-                - name: Alusprognoosi loomine
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: Nõudluse prognoosi käsitsi muutmine
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Nõudluse ja tarneprognoos
+                  items:
+                    - name: Varude eelarved
+                      href: master-planning/inventory-forecast.md
+                    - name: 'Juhend: nõudluse prognoosi käsitsi muutmine'
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Nõudluse prognoos
+                  items:
+                    - name: Nõudluse prognoosimise ülevaade
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: Nõudluse prognoosi häälestus
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: Statistilise alusprognoosi loomine
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: Alusprognoosi käsitsi korrigeerimine
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: Korrigeeritud prognoosi autoriseerimine
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: Nõudluse prognooside ajalooliste andmete importimine
+                      href: master-planning/import-historical-data.md
+                    - name: Nõudluse prognoosi arvutamisel võõrväärtuste eemaldamine kandeandmete ajaloost
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: Prognoosi täpsuse jälgimine
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 'Juhend: alusprognoosi loomine'
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: Koondplaneerimine koos prognoosiga
+                  items:
+                    - name: Eelarve planeerimise koefitsiendid
+                      href: master-planning/reduction-keys.md
             - name: Koondplaneerimise tõrkeotsing
               href: master-planning/troubleshoot-masterplanning.md
         - name: Mobiilirakendus
@@ -3425,6 +3441,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Müük ja turundus
               items:
+                - name: Kogust ei saa vähendada müügitellimuse tühistamisel
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: 'Süsteemiadministraatorid ei saa tellimuste ootelolekuid tühjendada, sest nad pole autoriseeritud'
                   href: troubleshooting/sales/system-administrator.md
             - name: Transpordihaldus
