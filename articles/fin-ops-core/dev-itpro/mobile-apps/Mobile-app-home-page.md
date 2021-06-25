@@ -14,49 +14,48 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908228"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188406"
 ---
-# <a name="mobile-app-home-page"></a><span data-ttu-id="b12eb-103">Mobiilirakenduse avaleht</span><span class="sxs-lookup"><span data-stu-id="b12eb-103">Mobile app home page</span></span>
+# <a name="mobile-app-home-page"></a><span data-ttu-id="f3504-103">Mobiilirakenduse avaleht</span><span class="sxs-lookup"><span data-stu-id="f3504-103">Mobile app home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b12eb-104">Selles teemas kirjeldatakse mobiilirakendust **Finance and Operations (Dynamics 365)** ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.</span><span class="sxs-lookup"><span data-stu-id="b12eb-104">This topic describes the **Finance and Operations (Dynamics 365)** mobile app and provides links to resources that can help you implement it in your organization.</span></span>
+<span data-ttu-id="f3504-104">Selles teemas kirjeldatakse mobiilirakendust **Finance and Operations (Dynamics 365)** ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.</span><span class="sxs-lookup"><span data-stu-id="f3504-104">This topic describes the **Finance and Operations (Dynamics 365)** mobile app and provides links to resources that can help you implement it in your organization.</span></span>
 
-<a name="overview"></a><span data-ttu-id="b12eb-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="b12eb-105">Overview</span></span>
---------
+## <a name="overview"></a><span data-ttu-id="f3504-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="f3504-105">Overview</span></span>
 
-<span data-ttu-id="b12eb-106">Mobiilirakendus võimaldab teie organisatsioonil teha äriprotsessid kättesaadavaks mobiilsetes seadmetes.</span><span class="sxs-lookup"><span data-stu-id="b12eb-106">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="b12eb-107">Kui teie IT-administraator on organisatsiooni jaoks mobiilsete tööruumid lubanud, saavad kasutajad rakendusse sisse logida ja hakata äriprotsesse oma mobiilsetest seadmetest kohe käitama.</span><span class="sxs-lookup"><span data-stu-id="b12eb-107">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="b12eb-108">Mobiilirakendus sisaldab järgmisi funktsioone, mis võivad aidata tootlikkust tõsta.</span><span class="sxs-lookup"><span data-stu-id="b12eb-108">The mobile app includes the following features that can help increase productivity:</span></span>
+<span data-ttu-id="f3504-106">Mobiilirakendus võimaldab teie organisatsioonil teha äriprotsessid kättesaadavaks mobiilsetes seadmetes.</span><span class="sxs-lookup"><span data-stu-id="f3504-106">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="f3504-107">Kui teie IT-administraator on organisatsiooni jaoks mobiilsete tööruumid lubanud, saavad kasutajad rakendusse sisse logida ja hakata äriprotsesse oma mobiilsetest seadmetest kohe käitama.</span><span class="sxs-lookup"><span data-stu-id="f3504-107">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="f3504-108">Mobiilirakendus sisaldab järgmisi funktsioone, mis võivad aidata tootlikkust tõsta.</span><span class="sxs-lookup"><span data-stu-id="f3504-108">The mobile app includes the following features that can help increase productivity:</span></span>
 
-- <span data-ttu-id="b12eb-109">Kasutajad saavad äriandmeid vaadata, redigeerida ja nendega tegeleda, isegi kui võrguühendus on katkendlik või mobiilne seade on täiesti võrguühenduseta.</span><span class="sxs-lookup"><span data-stu-id="b12eb-109">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="b12eb-110">Seadme võrguühenduse taastumisel sünkroonitakse võrguühenduseta andmed automaatselt.</span><span class="sxs-lookup"><span data-stu-id="b12eb-110">When a device reestablishes a network connection, offline data operations are automatically synchronized.</span></span>
-- <span data-ttu-id="b12eb-111">IT-administraatorid või arendajad saavad luua ja avaldada mobiilseid tööruume, mis on kohandatud nende organisatsioonile.</span><span class="sxs-lookup"><span data-stu-id="b12eb-111">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="b12eb-112">Rakendus kasutab teie olemasolevaid koodilõike.</span><span class="sxs-lookup"><span data-stu-id="b12eb-112">The app uses your existing code assets.</span></span> <span data-ttu-id="b12eb-113">Seega ei pea te oma valideerimisprotseduure, äriloogikat ega turbekonfiguratsiooni uuesti juurutama.</span><span class="sxs-lookup"><span data-stu-id="b12eb-113">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
-- <span data-ttu-id="b12eb-114">IT-administraatorid või arendajad saavad mobiilseid tööruume hõlpsasti kujundada, kasutades veebikliendis sisalduvat klõpsatavat tööruumikujundajat.</span><span class="sxs-lookup"><span data-stu-id="b12eb-114">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
-- <span data-ttu-id="b12eb-115">IT-administraatorid või arendajad saavad soovi korral optimeerida ka tööruumide võrguühenduseta võimalusi, kasutades äriloogika laiendatavuse raamistikku.</span><span class="sxs-lookup"><span data-stu-id="b12eb-115">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="b12eb-116">Kuna andmete töötlemine jätkub, kui seade on võrguühenduseta, püsivad teie mobiilsed stsenaariumid rikkalikud ja sujuvad, isegi kui seadmetel pole pidevat võrguühendust.</span><span class="sxs-lookup"><span data-stu-id="b12eb-116">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
+- <span data-ttu-id="f3504-109">Kasutajad saavad äriandmeid vaadata, redigeerida ja nendega tegeleda, isegi kui võrguühendus on katkendlik või mobiilne seade on täiesti võrguühenduseta.</span><span class="sxs-lookup"><span data-stu-id="f3504-109">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="f3504-110">Seadme võrguühenduse taastumisel sünkroonitakse võrguühenduseta andmed automaatselt.</span><span class="sxs-lookup"><span data-stu-id="f3504-110">When a device reestablishes a network connection, offline data operations are automatically synchronized.</span></span>
+- <span data-ttu-id="f3504-111">IT-administraatorid või arendajad saavad luua ja avaldada mobiilseid tööruume, mis on kohandatud nende organisatsioonile.</span><span class="sxs-lookup"><span data-stu-id="f3504-111">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="f3504-112">Rakendus kasutab teie olemasolevaid koodilõike.</span><span class="sxs-lookup"><span data-stu-id="f3504-112">The app uses your existing code assets.</span></span> <span data-ttu-id="f3504-113">Seega ei pea te oma valideerimisprotseduure, äriloogikat ega turbekonfiguratsiooni uuesti juurutama.</span><span class="sxs-lookup"><span data-stu-id="f3504-113">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
+- <span data-ttu-id="f3504-114">IT-administraatorid või arendajad saavad mobiilseid tööruume hõlpsasti kujundada, kasutades veebikliendis sisalduvat klõpsatavat tööruumikujundajat.</span><span class="sxs-lookup"><span data-stu-id="f3504-114">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
+- <span data-ttu-id="f3504-115">IT-administraatorid või arendajad saavad soovi korral optimeerida ka tööruumide võrguühenduseta võimalusi, kasutades äriloogika laiendatavuse raamistikku.</span><span class="sxs-lookup"><span data-stu-id="f3504-115">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="f3504-116">Kuna andmete töötlemine jätkub, kui seade on võrguühenduseta, püsivad teie mobiilsed stsenaariumid rikkalikud ja sujuvad, isegi kui seadmetel pole pidevat võrguühendust.</span><span class="sxs-lookup"><span data-stu-id="f3504-116">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
 
-## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="b12eb-117">Mobiilirakenduse elemendid</span><span class="sxs-lookup"><span data-stu-id="b12eb-117">Elements of the mobile app</span></span>
-<span data-ttu-id="b12eb-118">Mobiilirakenduse navigeerimispaan koosneb neljast peamisest osast: armatuurlaud, tööruumid, lehed ja tegevused.</span><span class="sxs-lookup"><span data-stu-id="b12eb-118">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
+## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="f3504-117">Mobiilirakenduse elemendid</span><span class="sxs-lookup"><span data-stu-id="f3504-117">Elements of the mobile app</span></span>
+<span data-ttu-id="f3504-118">Mobiilirakenduse navigeerimispaan koosneb neljast peamisest osast: armatuurlaud, tööruumid, lehed ja tegevused.</span><span class="sxs-lookup"><span data-stu-id="f3504-118">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
 
-<span data-ttu-id="b12eb-119">[![Navigeerimispaani põhimõtted mobiilirakenduses](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="b12eb-119">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
+<span data-ttu-id="f3504-119">[![Navigeerimispaani põhimõtted mobiilirakenduses](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="f3504-119">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
 
-1. <span data-ttu-id="b12eb-120">Rakenduse käivitamisel avaneb **armatuurlaud**.</span><span class="sxs-lookup"><span data-stu-id="b12eb-120">When you start the app, you go to the **dashboard**.</span></span>
-2. <span data-ttu-id="b12eb-121">Armatuurlaual näete avaldatud **tööruumide** loendit.</span><span class="sxs-lookup"><span data-stu-id="b12eb-121">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
-3. <span data-ttu-id="b12eb-122">Igas tööruumis näete loendit **lehtedest**, mis on selle tööruumi jaoks saadaval.</span><span class="sxs-lookup"><span data-stu-id="b12eb-122">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
-4. <span data-ttu-id="b12eb-123">Lehel olles saate teha mitut toimingut.</span><span class="sxs-lookup"><span data-stu-id="b12eb-123">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="b12eb-124">Järgmisena on toodud mõned näited.</span><span class="sxs-lookup"><span data-stu-id="b12eb-124">Here are some examples:</span></span>
+1. <span data-ttu-id="f3504-120">Rakenduse käivitamisel avaneb **armatuurlaud**.</span><span class="sxs-lookup"><span data-stu-id="f3504-120">When you start the app, you go to the **dashboard**.</span></span>
+2. <span data-ttu-id="f3504-121">Armatuurlaual näete avaldatud **tööruumide** loendit.</span><span class="sxs-lookup"><span data-stu-id="f3504-121">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
+3. <span data-ttu-id="f3504-122">Igas tööruumis näete loendit **lehtedest**, mis on selle tööruumi jaoks saadaval.</span><span class="sxs-lookup"><span data-stu-id="f3504-122">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
+4. <span data-ttu-id="f3504-123">Lehel olles saate teha mitut toimingut.</span><span class="sxs-lookup"><span data-stu-id="f3504-123">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="f3504-124">Järgmisena on toodud mõned näited.</span><span class="sxs-lookup"><span data-stu-id="f3504-124">Here are some examples:</span></span>
 
-    - <span data-ttu-id="b12eb-125">Üksikasjalike andmete kuvamine.</span><span class="sxs-lookup"><span data-stu-id="b12eb-125">View detailed data.</span></span>
-    - <span data-ttu-id="b12eb-126">Lehelt teistele lehtedele navigeerimine seotud andmete nägemiseks, nagu üksuse üksikasjad või read.</span><span class="sxs-lookup"><span data-stu-id="b12eb-126">Navigate to other pages for related data, such as entity details or lines.</span></span>
-    - <span data-ttu-id="b12eb-127">Selle lehe puhul kasutatavate **toimingute** loendi kuvamine.</span><span class="sxs-lookup"><span data-stu-id="b12eb-127">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="b12eb-128">Tegevused võimaldavad teil andmeid luua või olemasolevaid andmeid muuta.</span><span class="sxs-lookup"><span data-stu-id="b12eb-128">Actions let you create or edit existing data.</span></span>
+    - <span data-ttu-id="f3504-125">Üksikasjalike andmete kuvamine.</span><span class="sxs-lookup"><span data-stu-id="f3504-125">View detailed data.</span></span>
+    - <span data-ttu-id="f3504-126">Lehelt teistele lehtedele navigeerimine seotud andmete nägemiseks, nagu üksuse üksikasjad või read.</span><span class="sxs-lookup"><span data-stu-id="f3504-126">Navigate to other pages for related data, such as entity details or lines.</span></span>
+    - <span data-ttu-id="f3504-127">Selle lehe puhul kasutatavate **toimingute** loendi kuvamine.</span><span class="sxs-lookup"><span data-stu-id="f3504-127">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="f3504-128">Tegevused võimaldavad teil andmeid luua või olemasolevaid andmeid muuta.</span><span class="sxs-lookup"><span data-stu-id="f3504-128">Actions let you create or edit existing data.</span></span>
 
-## <a name="implementation-process"></a><span data-ttu-id="b12eb-129">Juurutusprotsess</span><span class="sxs-lookup"><span data-stu-id="b12eb-129">Implementation process</span></span>
-<span data-ttu-id="b12eb-130">Järgmisel joonisel on näidatud nii Microsofti pakutavate kui ka kohandatud mobiilsete tööruumide juurutusprotsess.</span><span class="sxs-lookup"><span data-stu-id="b12eb-130">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
+## <a name="implementation-process"></a><span data-ttu-id="f3504-129">Juurutusprotsess</span><span class="sxs-lookup"><span data-stu-id="f3504-129">Implementation process</span></span>
+<span data-ttu-id="f3504-130">Järgmisel joonisel on näidatud nii Microsofti pakutavate kui ka kohandatud mobiilsete tööruumide juurutusprotsess.</span><span class="sxs-lookup"><span data-stu-id="f3504-130">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
 
-<span data-ttu-id="b12eb-131">[![Mobiilirakenduste juurutamise protsess](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span><span class="sxs-lookup"><span data-stu-id="b12eb-131">[![Mobile apps implementation process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span></span>
+<span data-ttu-id="f3504-131">[![Mobiilirakenduste juurutamise protsess](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span><span class="sxs-lookup"><span data-stu-id="f3504-131">[![Mobile apps implementation process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span></span>
 
-<span data-ttu-id="b12eb-132">Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Microsofti pakutavaid kui ka kohandatud mobiilseid tööruume.</span><span class="sxs-lookup"><span data-stu-id="b12eb-132">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="b12eb-133">Esimeses veerus toodud numbrid vastavad eelmisel joonisel kujutatud nummerdatud etappidele.</span><span class="sxs-lookup"><span data-stu-id="b12eb-133">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
+<span data-ttu-id="f3504-132">Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Microsofti pakutavaid kui ka kohandatud mobiilseid tööruume.</span><span class="sxs-lookup"><span data-stu-id="f3504-132">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="f3504-133">Esimeses veerus toodud numbrid vastavad eelmisel joonisel kujutatud nummerdatud etappidele.</span><span class="sxs-lookup"><span data-stu-id="f3504-133">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
 
 <table>
 <colgroup>
@@ -67,91 +66,91 @@ ms.locfileid: "5908228"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b12eb-134">Etapp</span><span class="sxs-lookup"><span data-stu-id="b12eb-134">Step</span></span></th>
-<th><span data-ttu-id="b12eb-135">Roll</span><span class="sxs-lookup"><span data-stu-id="b12eb-135">Role</span></span></th>
-<th><span data-ttu-id="b12eb-136">Tegevus</span><span class="sxs-lookup"><span data-stu-id="b12eb-136">Action</span></span></th>
-<th><span data-ttu-id="b12eb-137">Ressursid, mis aitavad teil tegevusi lõpule viia</span><span class="sxs-lookup"><span data-stu-id="b12eb-137">Resources to help you complete the action</span></span></th>
+<th><span data-ttu-id="f3504-134">Etapp</span><span class="sxs-lookup"><span data-stu-id="f3504-134">Step</span></span></th>
+<th><span data-ttu-id="f3504-135">Roll</span><span class="sxs-lookup"><span data-stu-id="f3504-135">Role</span></span></th>
+<th><span data-ttu-id="f3504-136">Tegevus</span><span class="sxs-lookup"><span data-stu-id="f3504-136">Action</span></span></th>
+<th><span data-ttu-id="f3504-137">Ressursid, mis aitavad teil tegevusi lõpule viia</span><span class="sxs-lookup"><span data-stu-id="f3504-137">Resources to help you complete the action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="b12eb-138">1</span><span class="sxs-lookup"><span data-stu-id="b12eb-138">1</span></span></td>
-<td><span data-ttu-id="b12eb-139">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="b12eb-139">System administrator</span></span></td>
-<td><span data-ttu-id="b12eb-140">Juurutage rakendus Finance and Operations oma organisatsioonis.</span><span class="sxs-lookup"><span data-stu-id="b12eb-140">Implement the Finance and Operations app in your organization.</span></span></td>
-<td><ul><li><span data-ttu-id="b12eb-141">Kui te e&#39;i ole veel ühtegi Microsoft Dynamics 365 versiooni juurutanud, vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.</span><span class="sxs-lookup"><span data-stu-id="b12eb-141">If you haven&#39;t yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="b12eb-142">Kasutatavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</span><span class="sxs-lookup"><span data-stu-id="b12eb-142">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
+<td><span data-ttu-id="f3504-138">1</span><span class="sxs-lookup"><span data-stu-id="f3504-138">1</span></span></td>
+<td><span data-ttu-id="f3504-139">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="f3504-139">System administrator</span></span></td>
+<td><span data-ttu-id="f3504-140">Juurutage rakendus Finance and Operations oma organisatsioonis.</span><span class="sxs-lookup"><span data-stu-id="f3504-140">Implement the Finance and Operations app in your organization.</span></span></td>
+<td><ul><li><span data-ttu-id="f3504-141">Kui te e&#39;i ole veel ühtegi Microsoft Dynamics 365 versiooni juurutanud, vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.</span><span class="sxs-lookup"><span data-stu-id="f3504-141">If you haven&#39;t yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="f3504-142">Kasutatavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</span><span class="sxs-lookup"><span data-stu-id="f3504-142">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="b12eb-143">2</span><span class="sxs-lookup"><span data-stu-id="b12eb-143">2</span></span></td>
-<td><span data-ttu-id="b12eb-144">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="b12eb-144">System administrator</span></span></td>
-<td><span data-ttu-id="b12eb-145"><strong>Kui kasutat&#39;e Microsoft Dynamics 365 for Operationsi versiooni 1611:</strong> laadige alla ja installige KB-d, mis lubavad Microsofti pakutavad mobiilsed tööruumid.</span><span class="sxs-lookup"><span data-stu-id="b12eb-145"><strong>If you&#39;re using Microsoft Dynamics 365 for Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
-<td><span data-ttu-id="b12eb-146">Lisateavet vt järgmistest teemadest.</span><span class="sxs-lookup"><span data-stu-id="b12eb-146">See the following topics for more information:</span></span>
+<td><span data-ttu-id="f3504-143">2</span><span class="sxs-lookup"><span data-stu-id="f3504-143">2</span></span></td>
+<td><span data-ttu-id="f3504-144">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="f3504-144">System administrator</span></span></td>
+<td><span data-ttu-id="f3504-145"><strong>Kui kasutat&#39;e Microsoft Dynamics 365 for Operationsi versiooni 1611:</strong> laadige alla ja installige KB-d, mis lubavad Microsofti pakutavad mobiilsed tööruumid.</span><span class="sxs-lookup"><span data-stu-id="f3504-145"><strong>If you&#39;re using Microsoft Dynamics 365 for Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="f3504-146">Lisateavet vt järgmistest teemadest.</span><span class="sxs-lookup"><span data-stu-id="f3504-146">See the following topics for more information:</span></span>
 <ul>
 
-<li><span data-ttu-id="b12eb-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Kulujuhtimise mobiilsed tööruumid</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Cost controlling mobile workspaces</a></span></span></li>
-<li><span data-ttu-id="b12eb-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Mobiilse tööruumi varude laoseis</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Inventory on-hand mobile workspace</a></span></span></li>
-<li><span data-ttu-id="b12eb-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Müügitellimuste mobiilsed tööruumid</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Sales orders mobile workspaces</a></span></span></li>
-<li><span data-ttu-id="b12eb-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Hankija koostöö mobiilne tööruum</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Vendor collaboration mobile workspace</a></span></span></li>
-<li><span data-ttu-id="b12eb-151"><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Mobiilse tööruumi projekti ajakirje</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-151"><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Project time entry mobile workspace</a></span></span></li>
-<li><span data-ttu-id="b12eb-152"><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Kuluhalduse mobiilne tööruum</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-152"><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Expense management mobile workspace</a></span></span></li>
+<li><span data-ttu-id="f3504-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Kulujuhtimise mobiilsed tööruumid</a></span><span class="sxs-lookup"><span data-stu-id="f3504-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Cost controlling mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="f3504-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Mobiilse tööruumi varude laoseis</a></span><span class="sxs-lookup"><span data-stu-id="f3504-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Inventory on-hand mobile workspace</a></span></span></li>
+<li><span data-ttu-id="f3504-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Müügitellimuste mobiilsed tööruumid</a></span><span class="sxs-lookup"><span data-stu-id="f3504-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Sales orders mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="f3504-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Hankija koostöö mobiilne tööruum</a></span><span class="sxs-lookup"><span data-stu-id="f3504-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Vendor collaboration mobile workspace</a></span></span></li>
+<li><span data-ttu-id="f3504-151"><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Mobiilse tööruumi projekti ajakirje</a></span><span class="sxs-lookup"><span data-stu-id="f3504-151"><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Project time entry mobile workspace</a></span></span></li>
+<li><span data-ttu-id="f3504-152"><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Kuluhalduse mobiilne tööruum</a></span><span class="sxs-lookup"><span data-stu-id="f3504-152"><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Expense management mobile workspace</a></span></span></li>
 
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="b12eb-153">3</span><span class="sxs-lookup"><span data-stu-id="b12eb-153">3</span></span></td>
-<td><span data-ttu-id="b12eb-154">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="b12eb-154">System administrator</span></span></td>
-<td><span data-ttu-id="b12eb-155">Avaldage Microsofti pakutavad mobiilsed tööruumid.</span><span class="sxs-lookup"><span data-stu-id="b12eb-155">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
-<td><span data-ttu-id="b12eb-156"><a href="publish-mobile-workspace.md">Mobiilse tööruumi avaldamine</a>
-</span><span class="sxs-lookup"><span data-stu-id="b12eb-156"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
+<td><span data-ttu-id="f3504-153">3</span><span class="sxs-lookup"><span data-stu-id="f3504-153">3</span></span></td>
+<td><span data-ttu-id="f3504-154">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="f3504-154">System administrator</span></span></td>
+<td><span data-ttu-id="f3504-155">Avaldage Microsofti pakutavad mobiilsed tööruumid.</span><span class="sxs-lookup"><span data-stu-id="f3504-155">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="f3504-156"><a href="publish-mobile-workspace.md">Mobiilse tööruumi avaldamine</a>
+</span><span class="sxs-lookup"><span data-stu-id="f3504-156"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
 </span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="b12eb-157">4</span><span class="sxs-lookup"><span data-stu-id="b12eb-157">4</span></span></td>
-<td><span data-ttu-id="b12eb-158">Arendaja või sõltumatu tarkvaratarnija (ISV)</span><span class="sxs-lookup"><span data-stu-id="b12eb-158">Developer or independent software vendor (ISV)</span></span></td>
-<td><span data-ttu-id="b12eb-159">Kasutage mobiilset platvormi kohandatud mobiilsete tööruumide loomiseks.</span><span class="sxs-lookup"><span data-stu-id="b12eb-159">Use the mobile platform to create custom mobile workspaces.</span></span></td>
-<td><span data-ttu-id="b12eb-160"><a href="platform/mobile-platform-home-page.md">Mobiilne platvorm</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-160"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
+<td><span data-ttu-id="f3504-157">4</span><span class="sxs-lookup"><span data-stu-id="f3504-157">4</span></span></td>
+<td><span data-ttu-id="f3504-158">Arendaja või sõltumatu tarkvaratarnija (ISV)</span><span class="sxs-lookup"><span data-stu-id="f3504-158">Developer or independent software vendor (ISV)</span></span></td>
+<td><span data-ttu-id="f3504-159">Kasutage mobiilset platvormi kohandatud mobiilsete tööruumide loomiseks.</span><span class="sxs-lookup"><span data-stu-id="f3504-159">Use the mobile platform to create custom mobile workspaces.</span></span></td>
+<td><span data-ttu-id="f3504-160"><a href="platform/mobile-platform-home-page.md">Mobiilne platvorm</a></span><span class="sxs-lookup"><span data-stu-id="f3504-160"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="b12eb-161">5</span><span class="sxs-lookup"><span data-stu-id="b12eb-161">5</span></span></td>
-<td><span data-ttu-id="b12eb-162">ISV</span><span class="sxs-lookup"><span data-stu-id="b12eb-162">ISV</span></span></td>
-<td><span data-ttu-id="b12eb-163">Looge kohandatud mobiilseid tööruume sisaldav juurutatav pakett ja laadige see üles teenusesse Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="b12eb-163">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
-<td><span data-ttu-id="b12eb-164"><a href="../deployment/create-apply-deployable-package.md">Juurutatava paketi loomine</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-164"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
+<td><span data-ttu-id="f3504-161">5</span><span class="sxs-lookup"><span data-stu-id="f3504-161">5</span></span></td>
+<td><span data-ttu-id="f3504-162">ISV</span><span class="sxs-lookup"><span data-stu-id="f3504-162">ISV</span></span></td>
+<td><span data-ttu-id="f3504-163">Looge kohandatud mobiilseid tööruume sisaldav juurutatav pakett ja laadige see üles teenusesse Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="f3504-163">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
+<td><span data-ttu-id="f3504-164"><a href="../deployment/create-apply-deployable-package.md">Juurutatava paketi loomine</a></span><span class="sxs-lookup"><span data-stu-id="f3504-164"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="b12eb-165">6</span><span class="sxs-lookup"><span data-stu-id="b12eb-165">6</span></span></td>
-<td><span data-ttu-id="b12eb-166">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="b12eb-166">System administrator</span></span></td>
-<td><span data-ttu-id="b12eb-167">Rakendage sõltumatu tarkvaratarnija (ISV) pakutavaid kohandatud tööruume sisaldav juurutatav pakett.</span><span class="sxs-lookup"><span data-stu-id="b12eb-167">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
-<td><span data-ttu-id="b12eb-168"><a href="../deployment/apply-deployable-package-system.md">Rakendage juurutatav pakett</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-168"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
+<td><span data-ttu-id="f3504-165">6</span><span class="sxs-lookup"><span data-stu-id="f3504-165">6</span></span></td>
+<td><span data-ttu-id="f3504-166">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="f3504-166">System administrator</span></span></td>
+<td><span data-ttu-id="f3504-167">Rakendage sõltumatu tarkvaratarnija (ISV) pakutavaid kohandatud tööruume sisaldav juurutatav pakett.</span><span class="sxs-lookup"><span data-stu-id="f3504-167">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
+<td><span data-ttu-id="f3504-168"><a href="../deployment/apply-deployable-package-system.md">Rakendage juurutatav pakett</a></span><span class="sxs-lookup"><span data-stu-id="f3504-168"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="b12eb-169">7</span><span class="sxs-lookup"><span data-stu-id="b12eb-169">7</span></span></td>
-<td><span data-ttu-id="b12eb-170">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="b12eb-170">System administrator</span></span></td>
-<td><span data-ttu-id="b12eb-171">Avaldage ISV pakutavad kohandatud mobiilsed tööruumid.</span><span class="sxs-lookup"><span data-stu-id="b12eb-171">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
-<td><span data-ttu-id="b12eb-172"><a href="publish-mobile-workspace.md">Mobiilse tööruumi avaldamine</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-172"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
+<td><span data-ttu-id="f3504-169">7</span><span class="sxs-lookup"><span data-stu-id="f3504-169">7</span></span></td>
+<td><span data-ttu-id="f3504-170">Süsteemiadministraator</span><span class="sxs-lookup"><span data-stu-id="f3504-170">System administrator</span></span></td>
+<td><span data-ttu-id="f3504-171">Avaldage ISV pakutavad kohandatud mobiilsed tööruumid.</span><span class="sxs-lookup"><span data-stu-id="f3504-171">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
+<td><span data-ttu-id="f3504-172"><a href="publish-mobile-workspace.md">Mobiilse tööruumi avaldamine</a></span><span class="sxs-lookup"><span data-stu-id="f3504-172"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="b12eb-173">8</span><span class="sxs-lookup"><span data-stu-id="b12eb-173">8</span></span></td>
-<td><span data-ttu-id="b12eb-174">Kasutaja</span><span class="sxs-lookup"><span data-stu-id="b12eb-174">User</span></span></td>
-<td><span data-ttu-id="b12eb-175">Laadige alla ja installige mobiilirakendus.</span><span class="sxs-lookup"><span data-stu-id="b12eb-175">Download and install the mobile app.</span></span></td>
-<td><span data-ttu-id="b12eb-176">
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Rakendus Finance and Operations Androidile</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-176">
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations app for Android</a></span></span><BR/><span data-ttu-id="b12eb-177">
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Rakendus Finance and Operations iOS-ile</a></span><span class="sxs-lookup"><span data-stu-id="b12eb-177">
+<td><span data-ttu-id="f3504-173">8</span><span class="sxs-lookup"><span data-stu-id="f3504-173">8</span></span></td>
+<td><span data-ttu-id="f3504-174">Kasutaja</span><span class="sxs-lookup"><span data-stu-id="f3504-174">User</span></span></td>
+<td><span data-ttu-id="f3504-175">Laadige alla ja installige mobiilirakendus.</span><span class="sxs-lookup"><span data-stu-id="f3504-175">Download and install the mobile app.</span></span></td>
+<td><span data-ttu-id="f3504-176">
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Rakendus Finance and Operations Androidile</a></span><span class="sxs-lookup"><span data-stu-id="f3504-176">
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations app for Android</a></span></span><BR/><span data-ttu-id="f3504-177">
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Rakendus Finance and Operations iOS-ile</a></span><span class="sxs-lookup"><span data-stu-id="f3504-177">
 <a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations app for iOS</a></span></span><BR/>
-<span data-ttu-id="b12eb-178">(Windows Phone’i ei toetata)</span><span class="sxs-lookup"><span data-stu-id="b12eb-178">(Windows Phone unsupported)</span></span>
+<span data-ttu-id="f3504-178">(Windows Phone’i ei toetata)</span><span class="sxs-lookup"><span data-stu-id="f3504-178">(Windows Phone unsupported)</span></span>
 </td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="b12eb-179">9</span><span class="sxs-lookup"><span data-stu-id="b12eb-179">9</span></span></td>
-<td><span data-ttu-id="b12eb-180">Kasutaja</span><span class="sxs-lookup"><span data-stu-id="b12eb-180">User</span></span></td>
-<td><span data-ttu-id="b12eb-181">Logige mobiilirakendusse sisse ja kasutage seda.</span><span class="sxs-lookup"><span data-stu-id="b12eb-181">Sign in, and use the mobile app.</span></span> <span data-ttu-id="b12eb-182">Rakendus sisaldab süsteemiadministraatori avaldatud mobiilseid tööruume.</span><span class="sxs-lookup"><span data-stu-id="b12eb-182">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
-<td><span data-ttu-id="b12eb-183">Microsofti pakutavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</span><span class="sxs-lookup"><span data-stu-id="b12eb-183">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
+<td><span data-ttu-id="f3504-179">9</span><span class="sxs-lookup"><span data-stu-id="f3504-179">9</span></span></td>
+<td><span data-ttu-id="f3504-180">Kasutaja</span><span class="sxs-lookup"><span data-stu-id="f3504-180">User</span></span></td>
+<td><span data-ttu-id="f3504-181">Logige mobiilirakendusse sisse ja kasutage seda.</span><span class="sxs-lookup"><span data-stu-id="f3504-181">Sign in, and use the mobile app.</span></span> <span data-ttu-id="f3504-182">Rakendus sisaldab süsteemiadministraatori avaldatud mobiilseid tööruume.</span><span class="sxs-lookup"><span data-stu-id="f3504-182">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
+<td><span data-ttu-id="f3504-183">Microsofti pakutavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</span><span class="sxs-lookup"><span data-stu-id="f3504-183">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
 </td>
 </tr>
 </tbody>
 </table>
 
-## <a name="troubleshooting"></a><span data-ttu-id="b12eb-184">Tõrkeotsing</span><span class="sxs-lookup"><span data-stu-id="b12eb-184">Troubleshooting</span></span>
-[<span data-ttu-id="b12eb-185">Mobiiliplatvormi ressursid</span><span class="sxs-lookup"><span data-stu-id="b12eb-185">Mobile platform resources</span></span>](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+## <a name="troubleshooting"></a><span data-ttu-id="f3504-184">Tõrkeotsing</span><span class="sxs-lookup"><span data-stu-id="f3504-184">Troubleshooting</span></span>
+[<span data-ttu-id="f3504-185">Mobiiliplatvormi ressursid</span><span class="sxs-lookup"><span data-stu-id="f3504-185">Mobile platform resources</span></span>](platform/mobile-platform-home-page.md#troubleshooting-the-app)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

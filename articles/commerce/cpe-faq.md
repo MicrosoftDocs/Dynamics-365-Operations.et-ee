@@ -11,63 +11,63 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e42618a522f5ad551f608605300c30b5ffb8e299
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a0c6f82432a4786f23f12122f3806c3b96a05c8f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795927"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193590"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-faq"></a><span data-ttu-id="b915d-103">Dynamics 365 Commerce'i hindamiskeskkonna KKK</span><span class="sxs-lookup"><span data-stu-id="b915d-103">Dynamics 365 Commerce evaluation environment FAQ</span></span>
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a><span data-ttu-id="c7145-103">Dynamics 365 Commerce'i hindamiskeskkonna KKK</span><span class="sxs-lookup"><span data-stu-id="c7145-103">Dynamics 365 Commerce evaluation environment FAQ</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="b915d-104">Selles jaotises antakse vastuseid korduma kippuvatele küsimustele rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonna kohta.</span><span class="sxs-lookup"><span data-stu-id="b915d-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
+<span data-ttu-id="c7145-104">Selles jaotises antakse vastuseid korduma kippuvatele küsimustele rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonna kohta.</span><span class="sxs-lookup"><span data-stu-id="c7145-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
 
-<span data-ttu-id="b915d-105">**Kas saame kasutada Commerce'i hindamiskeskkonda e-kaubanduse poena klientidele, kes rakendavad praegu jaemüüki?**</span><span class="sxs-lookup"><span data-stu-id="b915d-105">**Can we use the Commerce evaluation environment as an e-Commerce storefront for customers that currently implement Retail?**</span></span>
+<span data-ttu-id="c7145-105">**Kas saame kasutada Commerce'i hindamiskeskkonda e-kaubanduse poena klientidele, kes rakendavad praegu jaemüüki?**</span><span class="sxs-lookup"><span data-stu-id="c7145-105">**Can we use the Commerce evaluation environment as an e-Commerce storefront for customers that currently implement Retail?**</span></span>
 
-<span data-ttu-id="b915d-106">Nr</span><span class="sxs-lookup"><span data-stu-id="b915d-106">No.</span></span> <span data-ttu-id="b915d-107">Commerce'i hindamiskeskkond on ainult hindamiseks.</span><span class="sxs-lookup"><span data-stu-id="b915d-107">The Commerce evaluation environment is only for evaluation.</span></span> <span data-ttu-id="b915d-108">Kui vajate jaemüügis kasutatava kliendi jaoks keskkonda, siis kontakteeruge Microsoftiga.</span><span class="sxs-lookup"><span data-stu-id="b915d-108">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
+<span data-ttu-id="c7145-106">Nr</span><span class="sxs-lookup"><span data-stu-id="c7145-106">No.</span></span> <span data-ttu-id="c7145-107">Commerce'i hindamiskeskkond on ainult hindamiseks.</span><span class="sxs-lookup"><span data-stu-id="c7145-107">The Commerce evaluation environment is only for evaluation.</span></span> <span data-ttu-id="c7145-108">Kui vajate jaemüügis kasutatava kliendi jaoks keskkonda, siis kontakteeruge Microsoftiga.</span><span class="sxs-lookup"><span data-stu-id="c7145-108">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
 
-<span data-ttu-id="b915d-109">**Kas Commerce'i hindamiskeskkonda saab kasutada e-kaubanduse funktsioonide pakkumiseks olemasoleva rakenduse/keskkonna jaoks, mis rakendab jaemüüki?**</span><span class="sxs-lookup"><span data-stu-id="b915d-109">**Can the Commerce evaluation environment be used to provision the e-Commerce features on top of an existing application/environment that implements Retail?**</span></span>
+<span data-ttu-id="c7145-109">**Kas Commerce'i hindamiskeskkonda saab kasutada e-kaubanduse funktsioonide pakkumiseks olemasoleva rakenduse/keskkonna jaoks, mis rakendab jaemüüki?**</span><span class="sxs-lookup"><span data-stu-id="c7145-109">**Can the Commerce evaluation environment be used to provision the e-Commerce features on top of an existing application/environment that implements Retail?**</span></span>
 
-<span data-ttu-id="b915d-110">Ei (enamasti).</span><span class="sxs-lookup"><span data-stu-id="b915d-110">No (mostly).</span></span> <span data-ttu-id="b915d-111">Commerce'i hindamise komponendid on saadaval ainult keskkondadele, mis vastavad eeltingimustes ja ettevalmistamise juhendis määratud konfiguratsioonidele.</span><span class="sxs-lookup"><span data-stu-id="b915d-111">The Commerce evaluation components are available only to environments that match the configurations that are specified in the prerequisites and provisioning guide.</span></span> <span data-ttu-id="b915d-112">Lisaks ei ole nõutavad aluseks olevad demoandmed saadaval keskkondades, mis on rakendatud algses väljalaskes, mis on varasem kui 10.0.8.</span><span class="sxs-lookup"><span data-stu-id="b915d-112">Additionally, the required base demo data won't be available in environments that were deployed with an initial release that is earlier than 10.0.8.</span></span> 
+<span data-ttu-id="c7145-110">Ei (enamasti).</span><span class="sxs-lookup"><span data-stu-id="c7145-110">No (mostly).</span></span> <span data-ttu-id="c7145-111">Commerce'i hindamise komponendid on saadaval ainult keskkondadele, mis vastavad eeltingimustes ja ettevalmistamise juhendis määratud konfiguratsioonidele.</span><span class="sxs-lookup"><span data-stu-id="c7145-111">The Commerce evaluation components are available only to environments that match the configurations that are specified in the prerequisites and provisioning guide.</span></span> <span data-ttu-id="c7145-112">Lisaks ei ole nõutavad aluseks olevad demoandmed saadaval keskkondades, mis on rakendatud algses väljalaskes, mis on varasem kui 10.0.8.</span><span class="sxs-lookup"><span data-stu-id="c7145-112">Additionally, the required base demo data won't be available in environments that were deployed with an initial release that is earlier than 10.0.8.</span></span> 
 
-<span data-ttu-id="b915d-113">**Millised kulud on kaasatud Commerce'i hindamiskeskkonna Microsoft Azure keskkonna kasutamisele läbi Microsoft Dynamics Lifecycle Servicesi (LCS)?**</span><span class="sxs-lookup"><span data-stu-id="b915d-113">**What costs are involved in deploying the Commerce evaluation environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
+<span data-ttu-id="c7145-113">**Millised kulud on kaasatud Commerce'i hindamiskeskkonna Microsoft Azure keskkonna kasutamisele läbi Microsoft Dynamics Lifecycle Servicesi (LCS)?**</span><span class="sxs-lookup"><span data-stu-id="c7145-113">**What costs are involved in deploying the Commerce evaluation environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
 
-<span data-ttu-id="b915d-114">Traditsiooniline Dynamics 365 Finance'i / Dynamics 365 Supply Chain Managementi / Dynamics 365 Commerce'i peakontori demokeskkond (virtuaalarvuti \[VM\]) majutatakse teie Azure'i tellimuses.</span><span class="sxs-lookup"><span data-stu-id="b915d-114">A traditional Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce headquarters demo environment (virtual machine \[VM\]) will be hosted in your Azure subscription.</span></span> <span data-ttu-id="b915d-115">Selle kulu hindamiseks saate kasutada [Azure hinnakujunduse kalkulaatorit ](https://azure.microsoft.com/pricing/calculator/).</span><span class="sxs-lookup"><span data-stu-id="b915d-115">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
+<span data-ttu-id="c7145-114">Traditsiooniline Dynamics 365 Finance'i / Dynamics 365 Supply Chain Managementi / Dynamics 365 Commerce'i peakontori demokeskkond (virtuaalarvuti \[VM\]) majutatakse teie Azure'i tellimuses.</span><span class="sxs-lookup"><span data-stu-id="c7145-114">A traditional Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce headquarters demo environment (virtual machine \[VM\]) will be hosted in your Azure subscription.</span></span> <span data-ttu-id="c7145-115">Selle kulu hindamiseks saate kasutada [Azure hinnakujunduse kalkulaatorit ](https://azure.microsoft.com/pricing/calculator/).</span><span class="sxs-lookup"><span data-stu-id="c7145-115">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
 
-<span data-ttu-id="b915d-116">Muud komponendid, nt Commerce Scale Unit, Commerce'i saidiehitaja ja teie e-kaubanduse sait, on saadaval tarkvarana teenusena (SaaS) ja majutatakse Microsoftis.</span><span class="sxs-lookup"><span data-stu-id="b915d-116">Other components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site will be available as software as a service (SaaS) and hosted by Microsoft.</span></span>
+<span data-ttu-id="c7145-116">Muud komponendid, nt Commerce Scale Unit, Commerce'i saidiehitaja ja teie e-kaubanduse sait, on saadaval tarkvarana teenusena (SaaS) ja majutatakse Microsoftis.</span><span class="sxs-lookup"><span data-stu-id="c7145-116">Other components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site will be available as software as a service (SaaS) and hosted by Microsoft.</span></span>
 
-<span data-ttu-id="b915d-117">**Millised Azure'i geograafilised piirkonnad on praegu Commerce'i hindamiskeskkonna jaoks toetatud?**</span><span class="sxs-lookup"><span data-stu-id="b915d-117">**Which Azure geographies are currently supported for the Commerce evaluation environment?**</span></span>
+<span data-ttu-id="c7145-117">**Millised Azure'i geograafilised piirkonnad on praegu Commerce'i hindamiskeskkonna jaoks toetatud?**</span><span class="sxs-lookup"><span data-stu-id="c7145-117">**Which Azure geographies are currently supported for the Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="b915d-118">Commerce'i hindamiskeskkonda saab kasutada ainult Põhja-Ameerika piirkonnas.</span><span class="sxs-lookup"><span data-stu-id="b915d-118">The Commerce evaluation environment can be deployed only in the North America geography.</span></span>
+<span data-ttu-id="c7145-118">Commerce'i hindamiskeskkonda saab kasutada ainult Põhja-Ameerika piirkonnas.</span><span class="sxs-lookup"><span data-stu-id="c7145-118">The Commerce evaluation environment can be deployed only in the North America geography.</span></span>
 
-<span data-ttu-id="b915d-119">**Kas on olemas ka allalaaditav virtuaalne kõvaketas (VHD), millel on täielik OneBox virtuaalarvuti (VM) suvand?**</span><span class="sxs-lookup"><span data-stu-id="b915d-119">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
+<span data-ttu-id="c7145-119">**Kas on olemas ka allalaaditav virtuaalne kõvaketas (VHD), millel on täielik OneBox virtuaalarvuti (VM) suvand?**</span><span class="sxs-lookup"><span data-stu-id="c7145-119">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
 
-<span data-ttu-id="b915d-120">Dynamics 365 Commerce ja Commerce Scale Unit on täielikult tarkvara teenusena (SaaS) ja peavad olema pilve majutatud.</span><span class="sxs-lookup"><span data-stu-id="b915d-120">Dynamics 365 Commerce and Commerce Scale Unit are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
+<span data-ttu-id="c7145-120">Dynamics 365 Commerce ja Commerce Scale Unit on täielikult tarkvara teenusena (SaaS) ja peavad olema pilve majutatud.</span><span class="sxs-lookup"><span data-stu-id="c7145-120">Dynamics 365 Commerce and Commerce Scale Unit are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
 
-<span data-ttu-id="b915d-121">**Kui kaua saab Commerce'i hindamiskeskkonda kasutada?**</span><span class="sxs-lookup"><span data-stu-id="b915d-121">**How long can the Commerce evaluation environment be used?**</span></span>
+<span data-ttu-id="c7145-121">**Kui kaua saab Commerce'i hindamiskeskkonda kasutada?**</span><span class="sxs-lookup"><span data-stu-id="c7145-121">**How long can the Commerce evaluation environment be used?**</span></span>
 
-<span data-ttu-id="b915d-122">Commerce'i hindamiskeskkonnal on 30-päevane ajapiirang alates SaaS-konponentide, nagu Commerce Scale Uniti, Commerce'i saidiehitaja ja teie e-kaubanduse saidi, ettevalmistamise kuupäevast.</span><span class="sxs-lookup"><span data-stu-id="b915d-122">The Commerce evaluation environment has a 30-day time limit from the date when SaaS components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site are provisioned.</span></span>
+<span data-ttu-id="c7145-122">Commerce'i hindamiskeskkonnal on 30-päevane ajapiirang alates SaaS-konponentide, nagu Commerce Scale Uniti, Commerce'i saidiehitaja ja teie e-kaubanduse saidi, ettevalmistamise kuupäevast.</span><span class="sxs-lookup"><span data-stu-id="c7145-122">The Commerce evaluation environment has a 30-day time limit from the date when SaaS components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site are provisioned.</span></span>
 
-<span data-ttu-id="b915d-123">**Kas ma saan oma Commerce'i hindamiskeskkonna ajapiirangut pikendada?**</span><span class="sxs-lookup"><span data-stu-id="b915d-123">**Can I extend the time limit for my Commerce evaluation environment?**</span></span>
+<span data-ttu-id="c7145-123">**Kas ma saan oma Commerce'i hindamiskeskkonna ajapiirangut pikendada?**</span><span class="sxs-lookup"><span data-stu-id="c7145-123">**Can I extend the time limit for my Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="b915d-124">Piirangu pikendamine on erand ja seda käsitletakse juhtumipõhiselt.</span><span class="sxs-lookup"><span data-stu-id="b915d-124">Extension of the time limit is an exception to the norm and is considered on a case-by-case basis.</span></span> <span data-ttu-id="b915d-125">Abi saamiseks peaksite pöörduma oma Microsofti partneri kontakti poole.</span><span class="sxs-lookup"><span data-stu-id="b915d-125">You should reach out to your Microsoft partner contact for assistance.</span></span>
+<span data-ttu-id="c7145-124">Piirangu pikendamine on erand ja seda käsitletakse juhtumipõhiselt.</span><span class="sxs-lookup"><span data-stu-id="c7145-124">Extension of the time limit is an exception to the norm and is considered on a case-by-case basis.</span></span> <span data-ttu-id="c7145-125">Abi saamiseks peaksite pöörduma oma Microsofti partneri kontakti poole.</span><span class="sxs-lookup"><span data-stu-id="c7145-125">You should reach out to your Microsoft partner contact for assistance.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="b915d-126">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="b915d-126">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="c7145-126">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="c7145-126">Additional resources</span></span>
 
-[<span data-ttu-id="b915d-127">Dynamics 365 Commerce'i hindamiskeskkonna ülevaade</span><span class="sxs-lookup"><span data-stu-id="b915d-127">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
+[<span data-ttu-id="c7145-127">Dynamics 365 Commerce'i hindamiskeskkonna ülevaade</span><span class="sxs-lookup"><span data-stu-id="c7145-127">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
 
-[<span data-ttu-id="b915d-128">Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine</span><span class="sxs-lookup"><span data-stu-id="b915d-128">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
+[<span data-ttu-id="c7145-128">Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine</span><span class="sxs-lookup"><span data-stu-id="c7145-128">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-[<span data-ttu-id="b915d-129">Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b915d-129">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
+[<span data-ttu-id="c7145-129">Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c7145-129">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
 
-[<span data-ttu-id="b915d-130">BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas</span><span class="sxs-lookup"><span data-stu-id="b915d-130">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
+[<span data-ttu-id="c7145-130">BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas</span><span class="sxs-lookup"><span data-stu-id="c7145-130">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
 
-[<span data-ttu-id="b915d-131">Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b915d-131">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="c7145-131">Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="c7145-131">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

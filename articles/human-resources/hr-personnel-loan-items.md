@@ -15,42 +15,40 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052860"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190204"
 ---
-# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="970f5-103">Töötajatele laenatud kaupade haldamine</span><span class="sxs-lookup"><span data-stu-id="970f5-103">Manage items that are lent to workers</span></span>
+# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="13fa4-103">Töötajatele laenatud kaupade haldamine</span><span class="sxs-lookup"><span data-stu-id="13fa4-103">Manage items that are lent to workers</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="970f5-104">Laenuartiklid on kirjed, mis aitavad juhtidel jälgida füüsilisi kaupu, mida ettevõte töötajatele laenab.</span><span class="sxs-lookup"><span data-stu-id="970f5-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
+<span data-ttu-id="13fa4-104">Laenuartiklid on kirjed, mis aitavad juhtidel jälgida füüsilisi kaupu, mida ettevõte töötajatele laenab.</span><span class="sxs-lookup"><span data-stu-id="13fa4-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
-<span data-ttu-id="970f5-105">Järgmistes punktides on loetletud artiklite näited, mida ettevõte võib töötajatele laenata.</span><span class="sxs-lookup"><span data-stu-id="970f5-105">The following points list examples of items that a company might lend to workers:</span></span>
--   <span data-ttu-id="970f5-106">mobiiltelefonid,</span><span class="sxs-lookup"><span data-stu-id="970f5-106">Mobile telephones</span></span>
--   <span data-ttu-id="970f5-107">autod,</span><span class="sxs-lookup"><span data-stu-id="970f5-107">Automobiles</span></span>
--   <span data-ttu-id="970f5-108">Arvutiseadmed</span><span class="sxs-lookup"><span data-stu-id="970f5-108">Computer equipment</span></span>
+<span data-ttu-id="13fa4-105">Järgmistes punktides on loetletud artiklite näited, mida ettevõte võib töötajatele laenata.</span><span class="sxs-lookup"><span data-stu-id="13fa4-105">The following points list examples of items that a company might lend to workers:</span></span>
+-   <span data-ttu-id="13fa4-106">mobiiltelefonid,</span><span class="sxs-lookup"><span data-stu-id="13fa4-106">Mobile telephones</span></span>
+-   <span data-ttu-id="13fa4-107">autod,</span><span class="sxs-lookup"><span data-stu-id="13fa4-107">Automobiles</span></span>
+-   <span data-ttu-id="13fa4-108">Arvutiseadmed</span><span class="sxs-lookup"><span data-stu-id="13fa4-108">Computer equipment</span></span>
 
-<span data-ttu-id="970f5-109">Iga füüsiline kaup peab laenuartiklile vastama.</span><span class="sxs-lookup"><span data-stu-id="970f5-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="970f5-110">Iga laenuartikli kirje peaks kirjeldama, mida laenatakse, kes on laenu eest vastutav ja mitmeks päevaks võib artiklit töötajale laenata.</span><span class="sxs-lookup"><span data-stu-id="970f5-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="970f5-111">Saate luua kaupadele nagu võtmed, pääsukaardid või vormirõivad üheaegselt mitu laenuartiklit.</span><span class="sxs-lookup"><span data-stu-id="970f5-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
+<span data-ttu-id="13fa4-109">Iga füüsiline kaup peab laenuartiklile vastama.</span><span class="sxs-lookup"><span data-stu-id="13fa4-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="13fa4-110">Iga laenuartikli kirje peaks kirjeldama, mida laenatakse, kes on laenu eest vastutav ja mitmeks päevaks võib artiklit töötajale laenata.</span><span class="sxs-lookup"><span data-stu-id="13fa4-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="13fa4-111">Saate luua kaupadele nagu võtmed, pääsukaardid või vormirõivad üheaegselt mitu laenuartiklit.</span><span class="sxs-lookup"><span data-stu-id="13fa4-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
 
-<span data-ttu-id="970f5-112">Artiklit laenates sisestage laenamise kuupäev ja plaanitav tagastamise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="970f5-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="970f5-113">Artikli tagastamisel sisestage tegelik tagastamise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="970f5-113">When the item is returned, enter the actual return date.</span></span>
+<span data-ttu-id="13fa4-112">Artiklit laenates sisestage laenamise kuupäev ja plaanitav tagastamise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="13fa4-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="13fa4-113">Artikli tagastamisel sisestage tegelik tagastamise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="13fa4-113">When the item is returned, enter the actual return date.</span></span>
 
-<span data-ttu-id="970f5-114">Töötajad saavad vaadata neile laenatud artiklite kirjeid, kasutades töötaja iseteeninduse tööruumi.</span><span class="sxs-lookup"><span data-stu-id="970f5-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="970f5-115">Nad saavad redigeerida ka olemasolevaid kirjeid või sisestada uusi laenuartikleid, kui nad on saanud veel füüsilisi kaupu.</span><span class="sxs-lookup"><span data-stu-id="970f5-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="970f5-116">Uute või olemasolevate laenuartiklite muudatuste suunamiseks läbi kinnitusprotsessi saab seadistada töövoo.</span><span class="sxs-lookup"><span data-stu-id="970f5-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
+<span data-ttu-id="13fa4-114">Töötajad saavad vaadata neile laenatud artiklite kirjeid, kasutades töötaja iseteeninduse tööruumi.</span><span class="sxs-lookup"><span data-stu-id="13fa4-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="13fa4-115">Nad saavad redigeerida ka olemasolevaid kirjeid või sisestada uusi laenuartikleid, kui nad on saanud veel füüsilisi kaupu.</span><span class="sxs-lookup"><span data-stu-id="13fa4-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="13fa4-116">Uute või olemasolevate laenuartiklite muudatuste suunamiseks läbi kinnitusprotsessi saab seadistada töövoo.</span><span class="sxs-lookup"><span data-stu-id="13fa4-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
 
-<span data-ttu-id="970f5-117">Juhatajad saavad vaadata oma otseste alluvate laenatud artikleid.</span><span class="sxs-lookup"><span data-stu-id="970f5-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="970f5-118">Neile saab anda ka õiguse oma töötajate nimel uusi laenuartikleid lisada.</span><span class="sxs-lookup"><span data-stu-id="970f5-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
+<span data-ttu-id="13fa4-117">Juhatajad saavad vaadata oma otseste alluvate laenatud artikleid.</span><span class="sxs-lookup"><span data-stu-id="13fa4-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="13fa4-118">Neile saab anda ka õiguse oma töötajate nimel uusi laenuartikleid lisada.</span><span class="sxs-lookup"><span data-stu-id="13fa4-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
 
- <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="970f5-119"> Kaotatud ja kadunud artiklite konto</span><span class="sxs-lookup"><span data-stu-id="970f5-119">Account for lost or misplaced loan items</span></span>
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="13fa4-119"> Kaotatud ja kadunud artiklite konto</span><span class="sxs-lookup"><span data-stu-id="13fa4-119">Account for lost or misplaced loan items</span></span>
 
-<span data-ttu-id="970f5-120">Kui artikkel on kahjustatud või kadunud, sisestage fiktiivne tagastuskirje.</span><span class="sxs-lookup"><span data-stu-id="970f5-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="970f5-121">Seejärel kustutage artikkel või sälitage see ülevaates ja muutke kirjeldust, mis näitab, et artikkel pole saadaval.</span><span class="sxs-lookup"><span data-stu-id="970f5-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
+<span data-ttu-id="13fa4-120">Kui artikkel on kahjustatud või kadunud, sisestage fiktiivne tagastuskirje.</span><span class="sxs-lookup"><span data-stu-id="13fa4-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="13fa4-121">Seejärel kustutage artikkel või sälitage see ülevaates ja muutke kirjeldust, mis näitab, et artikkel pole saadaval.</span><span class="sxs-lookup"><span data-stu-id="13fa4-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
 
-<a name="additional-resources"></a><span data-ttu-id="970f5-122">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="970f5-122">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="13fa4-122">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="13fa4-122">Additional resources</span></span>
 
-[<span data-ttu-id="970f5-123">Inimressursid</span><span class="sxs-lookup"><span data-stu-id="970f5-123">Human resources</span></span>](index.md)
+[<span data-ttu-id="13fa4-123">Inimressursid</span><span class="sxs-lookup"><span data-stu-id="13fa4-123">Human resources</span></span>](index.md)
 
 
 
