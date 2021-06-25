@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815928"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188460"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Akreditiivid ja impordi sissenõudmised
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815928"
 
 Selles artiklis antakse üldist teavet akreditiivide ja impordi sissenõuete kohta. Mõlemat tüüpi pangadokumente kasutatakse sageli kaupade ostmiseks ja müügiks välisriikides.
 
-<a name="letters-of-credit"></a>Akreditiivid
------------------
+## <a name="letters-of-credit"></a>Akreditiivid
 
 Akreditiive kasutatakse rahvusvaheliste kannete puhul ja need aitavad tagada, et maksete tegemise. Akreditiiv on panga väljastatud lepe, millega pank nõustub ostja nimel makse tagama, tingimusel, et müüja ja ostja vahel sõlmitud leppe tingimused on täidetud. Akreditiivi nimetatakse ka dokumendikrediidiks (DC).
 

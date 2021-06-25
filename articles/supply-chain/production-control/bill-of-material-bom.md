@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811770"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190108"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Kooslused ja valemid
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811770"
 
 See teema annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa. Kooslused ja valemid määravad kindla toote jaoks nõutavad materjalid või koostisosad. Valemid määravad ka kindla tootmise kontekstis vastuvõetavad kaastooted ja kõrvalsaadused. 
 
-<a name="bills-of-materials"></a>Kooslused
-------------------
+## <a name="bills-of-materials"></a>Kooslused
 
 Kooslus (BOM) määratleb komponendid, mida on toote tootmiseks vaja. Komponendid võivad olla toormaterjalid, pooltooted või koostisosad. Mõnel juhul võidakse koosluses viidata ka teenustele. Kuid tavaliselt kirjeldavad kooslused vajalikke *materjaliressursse*.  
 

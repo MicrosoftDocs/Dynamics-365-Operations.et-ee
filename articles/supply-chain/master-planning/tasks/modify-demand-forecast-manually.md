@@ -1,5 +1,5 @@
 ---
-title: Nõudluse prognoosi käsitsi muutmine
+title: 'Juhend: Nõudluse prognoosi käsitsi muutmine'
 description: See teema kirjeldab, kuidas kauba prognoosi muuta
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889020"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224006"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Nõudluse prognoosi käsitsi muutmine
+# <a name="guide-modify-a-demand-forecast-manually"></a>Juhend: Nõudluse prognoosi käsitsi muutmine
 
 [!include [banner](../../includes/banner.md)]
 
-See protseduur näitab, kuidas kauba prognoosi muuta. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on mõeldud tootmisplaanijale.
+See protseduur näitab, kuidas kauba prognoosi muuta. See protseduur on mõeldud tootmisplaanijale.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>Valitud kauba prognoosi muutmine
 
@@ -36,9 +36,9 @@ Valitud kauba prognoosi muutmiseks tehke järgmist.
 1. Täitke teised väljad, nagu vaja.
 1. Valige toimingupaanil nupp **Salvesta**.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>Ühe või mitme kauba eelarve muutmine rakenduses Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Ühe või mitme kauba eelarve muutmine rakendusega Microsoft Excel
 
-Ühe või mitme kauba eelarve muutmiseks rakenduses Microsoft Excel toimige järgmiselt.
+Ühe või mitme kauba eelarve muutmine rakendusega Microsoft Excel:
 
 1. Tehke üht järgmistest valikutest.
     - Avage leht **Nõudluse prognoosimine** mis tahes kauba jaoks (pole oluline, milline neist), nagu on kirjeldatud eelmises jaotises.

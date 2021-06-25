@@ -2,26 +2,21 @@
 title: Tootmise planeerimine
 description: Selles teemas kirjeldatakse tootmise planeerimist ja selgitatakse, kuidas muuta plaanitud tootmistellimusi Planning Optimizationi abil.
 author: ChristianRytt
-ms.date: 12/15/2020
+ms.date: 06/01/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffee79f152141297ceb24e2d7a40523eac18ffaf
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839219"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129749"
 ---
 # <a name="production-planning"></a>Tootmise planeerimine
 
@@ -79,11 +74,44 @@ Saate kasutada lehte **Kooslus**, et analüüsida nõudlust, mis on vajalik konk
 
 ## <a name="filters"></a><a name="filters"></a>Filtrid
 
-Tootmisega seotud stsenaariumite plaanimiseks on soovitatav vältida filtreeritud koondplaneerimise käitamist. Kindlustamaks, et teenusel Planning Optimization oleks õige tulemuse arvutamiseks vajalik teave, peate kaasama kõik tooted, millel on mis tahes seos toodetega plaanitud tellimuse koosluse struktuuris.
+Kindlustamaks, et teenusel Planning Optimization oleks õige tulemuse arvutamiseks vajalik teave, peate kaasama kõik tooted, millel on mis tahes seos toodetega plaanitud tellimuse koosluse struktuuris. Tootmisega seotud stsenaariumite plaanimiseks on soovitatav vältida filtreeritud koondplaneerimise käitamist.
 
 Kuigi sõltuvad alamüksused tuvastatakse ja kaasatakse koondplaneerimisel automaatselt, siis integreeritud koondplaneerimise mootori kasutamisel plaanimise optimeerimine seda tegevust ei tee.
 
-Näiteks kui toote A koosluse struktuurist kasutatakse ka üksikut polti ka toote B tootmiseks, peavad filtrisse olema kaasatud kõik tooted, mis on toodete A ja B koosluse struktuuris. Kuna kõigi toodete filtri osa kindlustamine võib olla väga keerukas, on soovitatav vältida filtreeritud koondplaneerimise käivitamist tootmistellimuste puhul.
+Näiteks kui toote A koosluse struktuurist kasutatakse ka üksikut polti ka toote B tootmiseks, peavad filtrisse olema kaasatud kõik tooted, mis on toodete A ja B koosluse struktuuris. Kuna kõigi toodete filtri osa kindlustamine võib olla väga keerukas, on soovitatav vältida filtreeritud koondplaneerimise käivitamist tootmistellimuste puhul. Vastasel juhul annab koondplaneerimine soovimatud tulemused.
 
+### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Filtreeritud koondplaneerimise käitamise vältimiseks
+
+Kui käivitate toote filtreeritud koondplaneerimise, ei tuvasta plaanimise optimeerimine (erinevalt integreeritud koondplaneerimise mootorist) selle toote koosluse struktuuris kõiki alamtootmisi ja toormaterjale ning seega ei kaasa neid koondplaneerimise käitusse. Isegi kui planeerimise optimeerimine tuvastab toote koosluse struktuuri esimese taseme, ei laadita andmebaasist tootesätteid (nt tellimuse vaiketüüp või kauba laovarud).
+
+Rakenduse Planning Optimization laaditakse eelnevalt käituse andmed ja rakendatakse filtrid. See tähendab, et kui konkreetsesse tootesse kaasatud alltootmine või toormaterjal ei ole filtri osa, ei hõivata selle teavet käituse kohta. Lisaks, kui alltootmine või toormaterjal on kaasatud ka teise tootesse, siis filtreeritud käitus, mis sisaldab ainult algtoodet ja selle komponente, eemaldaks olemasoleva planeeritud nõudluse, mis loodi selle teise toote jaoks.
+
+Selle loogikaga võidakse ootamatuid tulemusi anda filtreeritud koondplaneerimise käitamised. Järgmised jaotised pakuvad näiteid, mis illustreerivad ootamatuid tulemusi, mis võivad ilmneda.
+
+### <a name="example-1"></a>Näide 1
+
+Valmis toode *FG* koosneb järgmistest komponentidest:
+
+- Toormaterjal *R*
+- Alltootmine *S1*, mis koosneb alltootmisest *S2*
+
+Toormaterjal *R* käsutuses on kaubavaru, samas kui laos puudub alaproduk *S1*.
+
+Kui käivitate filtreeritud koondplaneerimise lõpetatud toote *FG* jaoks, saate plaanitud tootmistellimuse valmistootele *FG*, plaanitud ostutellimuse toormaterjali *R* ja plaanitud ostutellimuse alamtootmise *S1* jaoks. See on tulemuse andmine, kuna planeerimise optimeerimine on ignoreerinud tooraine *R* ja alltootmise *S1* olemasolevat tarnet tuleb toota *S2* abil, selle asemel, et seda otse tellida. See toimus, kuna planeerimise optimeerimisel on ainult lõpetatud kauba *FG* komponentide loend ilma seotud teabeta, nagu selle komponentide olemasolev tarne või tellimuse vaikesätted.
+
+### <a name="example-2"></a>Näide 2
+
+Eelmise näite põhjal toetudes kasutab täiendav lõpetatud toode *FG2*, ka alamtootmist *S1*. Valmis toode *FG2* tellimuste jaoks on plaanitud tellimus olemas ja kõikide selle komponentide puhul on plaanitud nõudlus, sealhulgas *S1*.
+
+Otsustate planeerida eelmisest näitest pärit filtreeritud koondplaneerimise soovimatud tulemused, lisades filtrile kõik alltootmised ja toormaterjalid valmis *FG* kooslusestruktuurist ja käivitades seejäre täieliku taastootmise.
+
+Kui käivitate täieliku taasloomise, kustutab süsteem kõik olemasolevad tulemused kõigi kaasatud toodete kohta ja taasloob tulemused uute arvutuste põhjal. See tähendab, et olemasolev planeeritud nõudlus tootele *S1* kustutatakse ja seejärel taaslooduna, võttes arvesse ainult lõpetatud toote *FG* nõudeid, samas kui eiratakse valmis toote *FG2* nõudeid. See juhtub, sest Planning Optimizatio käivitamisel ei sisalda see muude plaanitud tootmistellimuste plaanitud nõudlust, mida käitatakse&mdash;kasutatakse ainult käituse ajal loodud plaanitud nõudlust.
+
+> [!NOTE]
+> Kui valmis kauba *FG2* olemasolev plaanitud tellimus on olekus *Kinnitatud*, siis kaasatakse kinnitatud plaanitud nõudlus ka siis, kui ematoodet ei lisata filtrile.
+
+Seega, kui te ei lisa lõpetatud *FG* kõiki komponente, valmis *FG2* tooteid ja kõiki muid tooteid, mille juurde need komponendid kuuluvad (koos nende komponentidega), annab filtreeritud koondplaneerimise käitaminesoovimatuid tulemusi.
+
+Kuna kõigi toodete filtri osa kindlustamine võib olla väga keerukas, on soovitatav vältida filtreeritud koondplaneerimise käivitamist tootmistellimuste puhul.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

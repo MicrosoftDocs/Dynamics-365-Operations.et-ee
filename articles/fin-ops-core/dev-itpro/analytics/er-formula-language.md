@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753260"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223982"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektroonilise aruandluse valemi keel
 
@@ -38,13 +38,13 @@ ER-i avaldised võivad sisaldada mõnd või kõiki järgmistest elementidest.
 - [Teed](#Paths)
 - [Funktsioonid](#Functions)
 
-## <a name=""></a><a name="Constants">Konstandid</a>
+## <a name="constants"></a><a name="Constants"></a>Konstandid
 
 Avaldiste koostamisel saate kasutada tekstilisi ja arvulisi konstante (st väärtused, mida ei arvutata). Näiteks avaldis `VALUE ("100") + 20` kasutab arvulist konstanti **20** ja stringi konstanti **100** ning see tagastab arvulise väärtuse **120**.
 
 ER-i valemikoostaja toetab paoseeriaid. Seega saate määrata avaldise stringi, mida tuleb teisiti käsitleda. Näiteks tagastab avaldis `"Leo Tolstoy ""War and Peace"" Volume 1"` tekstistringi **Lev Tolstoi „Sõda ja rahu” 1. osa**.
 
-## <a name=""></a><a name="Operators">Operaatorid</a>
+## <a name="operators"></a><a name="Operators"></a>Operaatorid
 
 Järgmises tabelis on aritmeetilised tehtemärgid, mida saate kasutada põhiliste matemaatiliste tehete puhul, nagu liitmine, lahutamine, korrutamine ja jagamine.
 
@@ -88,9 +88,9 @@ Liitavaldise osade arvutamise järjekord on oluline. Näiteks avaldise `1 + 4 / 
 
 Kui avaldis sisaldab mitut järjestikust sama järjestusega tehet, tehakse neid tehteid vasakult paremale. Näiteks avaldis `1 + 6 / 2 \* 3 > 5` tagastab väärtuse **tõene**. Soovitame avaldise tehete soovitud järjestuse selgeks näitamiseks kasutada sulge, et avaldisi oleks lihtsam lugeda ja hallata.
 
-## <a name=""></a><a name="References">Viited</a>
+## <a name="references"></a><a name="References"></a>Viited
 
-Kõiki praeguse ER-i komponendi andmeallikaid, mis on avalduse koostamise ajal saadaval, saab kasutada nimega viidetena. Praegune ER-i komponent saab olla kas mudel või vorming. Näiteks praegune ER-i mudelivastendus sisaldab andmeallikat **ReportingDate**, mis tagastab andmetüübi *DateTime* väärtuse. Loodavas dokumendis väärtuse õigesti vormindamiseks saate viidata avaldises andmeallikale järgmiselt: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Kõiki praeguse ER-i komponendi andmeallikaid, mis on avalduse koostamise ajal saadaval, saab kasutada nimega viidetena. Praegune ER-i komponent saab olla kas mudel või vorming. Näiteks praegune ER-i mudelivastendus sisaldab **ReportingDate** andmeallikat, mis tagastab andmetüübi [*DateTime*](er-formula-supported-data-types-primitive.md#datetime) väärtuse. Loodavas dokumendis väärtuse õigesti vormindamiseks saate viidata avaldises andmeallikale järgmiselt: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Kõikidele viidatava andmeallika nimes olevatele tähemärkidele, mis ei kuulu tähestikku, peab eelnema ühekordne jutumärk ('). Kui viidatava andmeallika nimi sisaldab vähemalt ühte sümbolit, mis ei kuulu tähestikku, tuleb nimi panna ühekordsetesse jutumärkidesse. Näiteks võivad need tähestikku mittekuuluvad sümbolid olla kirjavahemärgid või mis tahes muud kirjalikud sümbolid. Järgmisena on toodud mõned näited.
 
@@ -99,7 +99,7 @@ Kõikidele viidatava andmeallika nimes olevatele tähemärkidele, mis ei kuulu t
 
 Kui rakenduse andmeallikate meetoditel on parameetrid, kasutatakse järgmist süntaksit.
 
-- Kui andmeallika **Süsteem** meetodi **isLanguageRTL** andmetüübil *String* on parameeter **EN-US**, peab see meetod olema ER-avaldises viidatud järgmisel viisil: `System.isLanguageRTL("EN-US")`.
+- Kui **onKeelRTL** andmeallika **Süsteem** meetod andmetüübil on **EN-US** parameeter [*string*](er-formula-supported-data-types-primitive.md#string) andmetüübil, peab see meetod olema ER-avaldises viidatud järgmisel viisil `System.isLanguageRTL("EN-US")`.
 - Kui meetodi nimi sisaldab ainult tähti ja numbreid, siis ei ole jutumärgid vajalikud. Need on aga vajalikud sulgusid sisaldava tabelimeetodi puhul.
 
 Kui andmeallikas **Süsteem** lisatakse ER-vastendusele, mis viitab rakendusklassile **Üldine**, siis annab avaldis `System.isLanguageRTL("EN-US ")` *kahendmuutuja* väärtuse **FALSE**. Muudetud avaldis `System.isLanguageRTL("AR")` annab vastuseks *kahendmuutuja* väärtuse **TRUE**.
@@ -107,9 +107,9 @@ Kui andmeallikas **Süsteem** lisatakse ER-vastendusele, mis viitab rakendusklas
 Saate piirata, kuidas väärtusi selle meetoditüübi parameetritele edastatakse.
 
 - Seda tüüpi meetoditele saab edastada ainult konstante. Konstantide väärtused määratakse koostamisajal.
-- Seda tüüpi parameetrite puhul toetatakse ainult primitiivseid (põhilisi) andmetüüpe. Primitiivsed andmetüübid hõlmavad suvandeid *Täisarv*, *Reaalarv*, *Kahendmuutuja* ja *String*.
+- Seda tüüpi parameetrite puhul toetatakse ainult [primitiivseid](er-formula-supported-data-types-primitive.md) (põhilisi) andmetüüpe. Primitiivsed andmetüübid hõlmavad suvandeid *Täisarv*, *Reaalarv*, *Kahendmuutuja* ja *String*.
 
-## <a name=""></a><a name="Paths">Teed</a>
+## <a name="paths"></a><a name="Paths"></a>Teed
 
 Kui avaldis viitab struktureeritud andmeallikale, saate kasutada tee määratlemist, et valida selle andmeallika kindel primitiivne element. Punkti (.) kasutatakse struktureeritud andmeallika üksikute elementide eraldamiseks. Näiteks praegune ER-i mudelivastendus sisaldab andmeallikat **InvoiceTransactions**, mis annab vastuseks kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis mõlemad tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Konstruktsioon `InvoiceTransactions.AmountDebit` selles avaldises on tee, mida kasutatakse väljale **AmountDebit** juurdepääsemiseks andmeallikas **InvoiceTransactions** tüübis *Kirjete loend*.
 
@@ -129,7 +129,7 @@ Absoluutse tee ülejäänud osa kuvatakse samuti [ER-i valemiredaktoris](general
 
 Lisateabe saamiseks vt teemat [Suhtelise tee kasutamine ER-mudelite ja -vormingute andmesidemetes](relative-path-data-bindings-er-models-format.md).
 
-## <a name=""></a><a name="Functions">Funktsioonid</a>
+## <a name="functions"></a><a name="Functions"></a>Funktsioonid
 
 ER-i sisseehitatud funktsioone saab kasutada ER-i avaldistes. Kõiki avaldise konteksti (st praegune ER-i mudelivastendus või ER-i vorming) andmeallikaid saab kasutada helistamisfunktsioonide parameetritena vastavalt helistamisfunktsioonide käivitamine argumentide loendile. Konstante saab kasutada ka funktsioonide käivitamise parameetritena. Näiteks praegune ER-i mudelivastendus sisaldab andmeallikat **InvoiceTransactions**, mis annab vastuseks kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis mõlemad tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise, mis kasutab sisseehitatud ER-i ümardamisfunktsiooni: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Elektroonilise aruandluse funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md)
 
+[Primitiivseid andmetüüpe toetab](er-formula-supported-data-types-primitive.md)
+
+[Toetatud liitandmetüübid](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

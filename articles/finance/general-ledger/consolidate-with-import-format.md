@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: e3124ac0e161e003986d7e167e292cbb374e1bfa
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 714c34dfcd109a442a4ecd741409dea5c4aade20
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085446"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216802"
 ---
 # <a name="import-format-for-consolidation"></a>Konsolideerimise impordivorming
 
@@ -34,7 +34,7 @@ Järgmises tabelis on toodud impordivorming, mida peate kasutama impordi ajal ko
 |--------------|---------|-------|
 | 1            | 170150, Goodwill, 4 | <ul><li>Kirjete tabel</li><li>Allika põhikonto ID</li><li>Põhikonto rida</li><li>Põhikonto tüüp</li></ul> |
 | 2            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Põhikonto ID</li><li>Kande kuupäev</li><li>Finantsperioodi tüüp (**0** = avamine, **1** = kasutamine ja **2** = sulgemine)</li><li>Kande valuuta</li><li>Deebet või kreedit (**0** = deebet ja **1** = kreedit)</li><li>Sisestamiskiht</li><li>Kandesummad</li><li>Kogus</li><li>Kohalik RecID (kande mitmetähenduslik, kordumatu int64 väärtus)</li></ul> |
-| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Kirje number (eelarve päise kande number)</li><li>Eelarve päise vaikekuupäev</li><li>Eelarve mudeli ID</li><li>Kandetüübi loetelu täisarvuline väärtus (tühi, algne eelarve jne)</li><li>Rea kuupäev</li><li>Rea põhikonto ID</li><li>Rea valuutakood</li><li>Rea summa kande valuutas</li><li>Rea eelarvetüübi loetelu täisarvuline väärtus (kulu või tulu)</li></ul> |
+| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Kirje number (eelarve päise kande number)</li><li>Eelarve päise vaikekuupäev</li><li>Eelarve mudeli ID</li><li>Eelarve tüüp (**1 - algne eelarve**, **2** - ülekanne, **3** - revisjon, **4** - pandiõigused, **5** eelpanddiõigused, **6** - ülekangtav eelarve, **7** – projekt, **8** põhivarad, **9** - nõudluse prognoos, **10** - tarneprognoos, **11** - ülekantavad eelarved, **12** - esialgne eelarve.)</li><li>Rea kuupäev</li><li>Rea põhikonto ID</li><li>Rea valuutakood</li><li>Rea summa kande valuutas</li><li>Rea eelarvetüübi loetelu täisarvuline väärtus (kulu või tulu)</li></ul> |
 | 4            | DEMF | RecordCompany on juriidilisest isikust allikas. |
 | 5            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Põhikonto ID</li><li>Kande kuupäev</li><li>Eelarveprioodi tüüp (0 avamine, 1 kasutamine ja 2 sulgemine)</li><li>Kande valuuta</li><li>Deebet või kreedit (0 deebeti jaoks ja 1 kreediti jaoks)</li><li>Sisestamiskiht</li><li>Kandesumma</li><li>Kogus</li><li>Kohalik recid (kande mitmetähenduslik, kordumatu int64 väärtus)</li></ul>  |
 | 6            | BusinessUnit, 1 osakond, 2 | Finantsdimensiooni atribuudid, mis on määratletud segmendi järjestuses.<p>Saate kasutada lehte **Eksport**, et kontrollida atribuutide määratlemist.</p> |

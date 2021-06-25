@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820980"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189089"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Arvestuse jaotused ja töölehekirjed hankija arvete puhul
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820980"
 
 Arvestuse jaotuste abil saate määratleda, kuidas summat arvestatakse, näiteks kulude, maksude või tasude arvestamisel hankija arvel. Igal summal, mida tuleb hankija arve töölehele kandmisel arvestada, on üks või mitu arvestuse jaotust. 
 
-<a name="accounting-distributions"></a>Arvestuse jaotused 
--------------------------
+## <a name="accounting-distributions"></a>Arvestuse jaotused 
 
 Saate kasutada lehel Hankija arve iga hankija arve summa arvestuse jaotuse vaatamiseks ja võimaluse korral muutmiseks järgmisi nuppe.
 -   **Summade jaotamine** – saate kuvada ja muuta arvestuse jaotusi üksiku rea ja alamüksuste ridade kohta (nt maksud või tasud). Saate kuvada ja muuta ka alamrea arvestuse jaotusi otse lehelt Käibemaksukanded või Tasude kanded.
@@ -227,8 +226,7 @@ Hankija arve sisestamisel jaotatakse iga summa järgmiselt.
 </table>
 
 
-<a name="distributing-taxes"></a>Maksude jaotamine
-------------------
+## <a name="distributing-taxes"></a>Maksude jaotamine
 
 Maksude arvestuse jaotusi ei saa luua, kuni makse arvutatakse. Käibemaksu arvutamiseks peate täitma lehel Hankija arve ühe järgmise ülesande.
 -   Arve kogusumma kuvamine.

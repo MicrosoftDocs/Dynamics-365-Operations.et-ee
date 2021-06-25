@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792143"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193278"
 ---
 # <a name="ratings-and-reviews-modules"></a>Hinnangute ja arvustuste moodulid
 
@@ -54,7 +54,11 @@ Järgmisel joonisel on näha, kuidas dialoogiaken **Lisa moodul** esitab rakendu
 
 Arvustuse kirjutamise moodul hõlmab nuppu **Kirjuta arvustus**, mis võimaldab kasutajatel sisse logida, määrata hinnang ja kirjutada toote kohta arvustus. See moodul võimaldab lisaks kasutajatel eelnevalt edastatud hinnangut või arvustust redigeerida. See moodul kuvatakse tavaliselt PDP-s hinnangute histogrammi ja toote arvustuste loendi moodulite kohal.
 Järgmisel joonisel on kujutatud dialoogiaken **Kirjuta arvustus**, mis kuvatakse siis, kui klient valib suvandi **Kirjuta arvustus**. Klient saab seda dialoogiakent kasutada hinnangu ja arvustuse edastamiseks.
-![Arvustuse kirjutamise dialoogiaken](media/rnr-eCommerce-write-review-module.png) Järgmises tabelis on näidatud arvustuse kirjutamise mooduli atribuut, mis tuleb autorluse tööriistas konfigureerida.
+
+![Arvustuse kirjutamise dialoogiaken](media/rnr-eCommerce-write-review-module.png)
+
+Järgmises tabelis on näidatud arvustuse kirjutamise mooduli atribuut, mis tuleb autorluse tööriistas konfigureerida.
+
 | Atribuudi nimi | Väärtus        | Atribuudi kirjeldus                 |
 |---------------|--------------|--------------------------------------|
 | Nimi          | Arvustuse kirjutamine | Arvustuse kirjutamise mooduli nimi. |

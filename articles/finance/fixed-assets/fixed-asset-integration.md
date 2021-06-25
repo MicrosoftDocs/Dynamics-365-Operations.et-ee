@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826830"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189780"
 ---
 # <a name="fixed-assets-integration"></a>Põhivarade integreerimine
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826830"
 
 Põhivarasid saab integreerida moodulitega Pearaamat, Varude haldus, Müügi- ja Ostureskontro. Samuti on teil võimalik seadistada moodulit Põhivarad, et see oleks integreeritud ostutellimustega.
 
-<a name="general-ledger"></a>Pearaamat
---------------
+## <a name="general-ledger"></a>Pearaamat
 
 Pearaamatus summeeritakse kõikide põhivarade väärtus tavaliselt mitmes finantsaruandluseks vajalikus põhikontos. Lehel **Põhivarad** saate siiski luua paljusid põhivarakirjeid. Need kirjed võivad hõlmata sellist teavet nagu soetusmaksumus, kulum ja väärtus. Igal põhivarakande sisestamisel värskendatakse vastavad põhikontod. Põhivarade põhikontod kajastavad alati põhivarade värskendatud väärtust.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020407"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216739"
 ---
 # <a name="rebate-management-posting-setup"></a>Tagasimaksehalduse sisestamise seadistus
 
@@ -43,7 +43,7 @@ Järgmises tabelis kirjeldatakse sätteid, mis on saadaval iga Tagasimaksehaldus
 | Kirjeldus | Sisestage profiili kirjeldus |
 | Moodul | Valige tagasimaksete ja autoritasude tüüp, millega profiil on seotud (*Klient* või *Müüja*). |
 | Tüüp | Valige profiili tüüp (*Tagasimakse* või *Autoritasu*). |
-| Makse tüüp | <p>See väli määrab sisestatud tagasimakse väljundi vormingu.<p><p>Kui välja **Tüüp** väärtuseks on seatud *Tagasimakse*, on saadaval järgmised väärtused.</p><ul><li>*Puudub* – vaikimisi sisestamistüüp puudub. Seepärast peate määratlema töötlemisel tüübi.</li><li>*Tasumine ostureskontroga* – tagasimakse sisestamisel luuakse tagasimakse kliendile seadistatud rahaülekande müüja arve.</li><li>*Kliendi mahaarvamised* – tagasimakse sisestamisel luuakse kliendi mahaarvamise tööleht tagasimakse kliendile.</li><li>*Maksuarve kliendi mahaarvamised* – tagasimakse sisestamisel luuakse vabas vormis arve tagasimakse kliendile.</li><li>*Kaubanduskulu* – tagasimakse sisestamisel luuakse kliendi mahaarvamise tööleht tagasimakse kliendile.</li><li>*Aruandlus* – tagasimakse sisestamisel luuakse kliendi mahaarvamise tööleht tagasimakse kliendile.</li></ul><p>Kui välja **Tüüp** väärtuseks on seatud *Litsents*, on saadaval järgmised väärtused.</p><ul><li>*Puudub* – vaikimisi sisestamistüüp puudub. Seepärast peate määratlema töötlemisel tüübi.</li><li>*Tasumine ostureskontroga* – tagasimakse sisestamisel luuakse tagasimakse müüja kontole müüja arve.</li><li>*Aruandlus* – tagasimakse sisestamisel luuakse tagasimakse müüja kontole müüja arve.</li></ul><p>Lisateavet vt järgnevast jaotisest [Maksetüübid](#payment-types). |
+| Makse tüüp | <p>See väli määrab sisestatud tagasimakse väljundi vormingu.<p><p>Kui välja **Tüüp** väärtuseks on seatud *Tagasimakse*, on saadaval järgmised väärtused.</p><ul><li>*Tasumine ostureskontroga* – kliendi allahindluse postitamisel luuakse allahindluskliendile seatud rahaülekande hankija arve. Pakkuja allahindluse postitamisel luuakse müüja arve allahindluse hankija kontole.</li><li>*Kliendi mahaarvamised* – tagasimakse sisestamisel luuakse kliendi mahaarvamise tööleht tagasimakse kliendile.</li><li>*Maksuarve kliendi mahaarvamised* – tagasimakse sisestamisel luuakse vabas vormis arve tagasimakse kliendile.</li><li>*Kaubanduskulu* – tagasimakse sisestamisel luuakse kliendi mahaarvamise tööleht tagasimakse kliendile.</li><li>*Aruandlus* – tagasimakse sisestamisel luuakse kliendi mahaarvamise tööleht tagasimakse kliendile.</li></ul><p>Kui välja **Tüüp** väärtuseks on seatud *Litsents*, on saadaval järgmised väärtused.</p><ul><li>*Tasumine ostureskontroga* – tagasimakse sisestamisel luuakse tagasimakse müüja kontole müüja arve.</li><li>*Aruandlus* – tagasimakse sisestamisel luuakse tagasimakse müüja kontole müüja arve.</li></ul><p>Lisateavet vt järgnevast jaotisest [Maksetüübid](#payment-types). |
 | Ettevõte | Valige ettevõte (juriidiline isik), kellele kogunevad eraldised ja kelle nõudeid tasutakse. |
 
 ### <a name="payment-types"></a>Maksetüübid

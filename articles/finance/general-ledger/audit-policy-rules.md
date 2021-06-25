@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821981"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187864"
 ---
 # <a name="audit-policy-rules"></a>Auditipoliitika reeglid
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821981"
 
 Auditipoliitikaga saate hinnata kuluaruandeid, hankija arveid ja ostutellimusi, et kontrollida, kas need vastavad loodud poliitikareeglitele. Kõik auditi poliitikaga seotud reeglid käitatakse pakett-režiimis vastavalt teie määratud graafikule.  Iga poliitikareegel on poliitikareegli tüübi eksemplar. Iga poliitikareegli tüübi puhul saab korraga aktiivne olla vaid üks reegel. 
 
-<a name="queries-and-query-types"></a>Päringud ja päringu tüübid
------------------------
+## <a name="queries-and-query-types"></a>Päringud ja päringu tüübid
 
 Auditipoliitika reegli loomisel valite esmalt poliitikareegli tüübi. Poliitikareegli tüübiga määratakse rakendusobjektide puu (AOT) päring, mida kasutatakse poliitikareegli loomisel alguspunktina. Samuti määratakse poliitikareegli jaoks kasutatav päringu tüüp. Päring määrab, millist lähtedokumenti poliitikareegel hindab. See määrab ka lähtedokumendi väljad, mis näitavad dokumentide auditi jaoks valimisel kasutatavat juriidilist isikut ja kuupäeva. Päringu tüübiga määratakse päringulehe ja lehe Auditipoliitika reegel vaikeväljad. Järgmises tabelis on auditi poliitikareeglite jaoks saadaolevad päringu tüübid.
 
@@ -91,8 +90,7 @@ Kõigil kindla auditipoliitika poliitikareeglitel on samad partiiparameetrid ja 
 
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Auditipoliitika rikkumised ja juhtumid](audit-policy-violations-cases.md)
 [Lähtedokumentide jaoks auditipoliitikate määratlemine](tasks/define-audit-policies-source-documents.md)

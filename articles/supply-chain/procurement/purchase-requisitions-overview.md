@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fc2f6104bc8a79ea4e8b6d0061f4b135026de0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825250"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188193"
 ---
 # <a name="purchase-requisition-overview"></a>Ostutaotluse ülevaade
 
@@ -190,8 +190,7 @@ Kinnitatud ostutaotluse ridade konsolideerimiseks tehke järgmist.
 5.  Looge konsolideerimisvõimaluses konsolideeritud taotluse ridade või ostutaotluse ridade jaoks ostutellimused.
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Tarbimistaotluse loomine](tasks/create-requisition-consumption.md)
 

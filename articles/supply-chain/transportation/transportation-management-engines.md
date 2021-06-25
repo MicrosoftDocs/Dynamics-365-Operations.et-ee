@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920105"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188840"
 ---
 # <a name="transportation-management-engines"></a>Transpordihalduse mootorid
 
@@ -43,8 +43,7 @@ Järgmises tabelis on näha saadaolevad transpordihalduse mootorid.
 | **Veoarve tüüp**            | Standardiseerib veose arve ja veoarve read ning kasutatakse automaatseks veoarve võrdlemiseks.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Millised mootorid tuleb saadetise hindamiseks konfigureerida?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Millised mootorid tuleb saadetise hindamiseks konfigureerida?
 
 Saadetise hindamiseks konkreetset vedajat kasutades tuleb konfigureerida mitu transpordihalduse mootorit. **Määramootor** on nõutav, kuid **määramootori**  toetamiseks võivad olla vajalikud teised transpordihalduse mootorid. Näiteks saab **määramootorit** kasutada andmete toomiseks **läbisõidumootorist** hinna arvutamiseks lähte- ja sihtpunkti vahelise kauguse alusel.
 
@@ -62,8 +61,7 @@ Enamasti võite lähtestamise andmete konfigureerimiseks klõpsata nuppu **Param
 |  <em>MileageEngineCode</em>  |                       Läbisõidumootori kood, mis tähistab läbisõidumootori kirjet andmebaasis.                        |
 | <em>ApportionmentEngine</em> |                        Üldise mootori kood, mis tähistab jaotamise mootorit andmebaasis.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Kuidas kasutatakse transpordihalduse mootorites metaandmeid?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kuidas kasutatakse transpordihalduse mootorites metaandmeid?
 
 Supply Chain Managementis määratletud andmetele tuginevad transpordihalduse mootorid võivad kasutada teistsuguseid andmeskeeme. Transpordihalduse süsteem võimaldab erinevatel transpordihalduse mootoritel kasutada samu üldise füüsilise andmebaasi tabeleid. Veendumaks, et mootori andmete käitusaja tõlgendus on õige, saate määratleda andmebaasitabelite metaandmed. See vähendab uute transpordihalduse mootorite loomise kulu, kuna Operationsis pole vaja täiendavaid tabeli- ja vormistruktuure.
 

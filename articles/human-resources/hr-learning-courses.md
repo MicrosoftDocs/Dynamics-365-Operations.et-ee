@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054015"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190228"
 ---
 # <a name="set-up-training-courses"></a>Koolituskursuste seadistamine
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054015"
 
 Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.
 
- <a name="set-up-prerequisites"></a> Seadistuse eeltingimused
----------------------
+##  <a name="set-up-prerequisites"></a> Seadistuse eeltingimused
 
 Järgmine teave on vajalik ja tuleb seadistada enne kursuste loomist.
 -   **Kursuste tüübid**
@@ -127,8 +126,7 @@ Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate 
 ## <a name="course-participants"></a>Kursusel osalejad
 Kursusel osalejad on töötajad, kes koolituskursusel või sündmusel osalevad. Saate registreerida osalejaid ainult avatud kursustele. Minimaalne ja maksimaalne kursusele registreeritav osalejate arv määratakse kiirkaardil **Üldine** lehel **Kursused**.
 
-<a name="workflow"></a>Töövoog
---------
+## <a name="workflow"></a>Töövoog
 
 Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, saavad lasta oma registreerumisel läbida kinnitamise töövoo. Te võite määrata töövookursusele lehe **Kursused** kiirkaardil **Üldine**.
 

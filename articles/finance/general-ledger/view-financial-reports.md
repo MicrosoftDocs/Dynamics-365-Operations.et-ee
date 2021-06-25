@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897280"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187790"
 ---
 # <a name="view-financial-reports"></a>Finantsaruannete vaatamine
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897280"
 
 Selles teemas kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 
-<a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
-----------------------------
+## <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
 
 ## <a name="open-a-financial-report"></a>Finantsaruande avamine
 Aruande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2015, koostatakse aruanne 31. juuli 2015 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
@@ -76,8 +75,7 @@ Kui olete prindisuvandite määramise lõpetanud, klõpsake jätkamiseks nuppu *
 ## <a name="export-a-financial-report"></a>Finantsaruande eksportimine
 Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne eksporditakse Microsoft Excelisse ja brauser küsib, kas soovite eksporditud faili avada või salvestada. Aruande kujunduses määratletud ekspordisätted rakendatakse eksporditud aruandele.    
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

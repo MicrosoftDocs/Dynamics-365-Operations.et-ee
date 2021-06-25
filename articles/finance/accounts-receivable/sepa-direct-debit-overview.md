@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835264"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188682"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA otsekorralduse ülevaade
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835264"
 
 Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklike ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Mis on SEPA otsedeebetite eesmärk?
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Mis on SEPA otsedeebetite eesmärk?
 
 SEPA otsedeebet võimaldab kreeditoril koguda kliendi pangakontolt vahendeid eeldusel, et klient on kreeditorile andnud allkirjastatud loa. Klient allkirjastab loa, mis autoriseerib kreeditori koguma makseid ja annab kliendi pangale korralduse kogutud maksed tasuda. 
 

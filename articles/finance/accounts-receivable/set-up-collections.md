@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835216"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189465"
 ---
 # <a name="set-up-collections"></a>häälestage kogumid
 
@@ -40,8 +40,7 @@ See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada. Sissenõudmis
 
 Neid punkte arutatakse täpsemalt selle teema ülejäänud osas. 
 
-<a name="set-up-aging-period-definitions"></a>Aegumisperioodide definitsioonide häälestamine
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Aegumisperioodide definitsioonide häälestamine
 
 Aegumisperioodide definitsiooni seadistamine. Aegumisperioodi definitsioon määratleb veerud, mis kuvatakse loendilehtedel **Aegunud saldod**, **Sissenõuete tegevused** ja **Sissenõuete juhtumid**. Samuti määratleb see perioodid, mis kuvatakse lehel **Sissenõuded**. Kui kliendikaust on seadistatud, kasutatakse kausta aegumisperioodi definitsiooni. Kui kaustu ei ole seadistatud, kasutatakse vaikimisi aegumisperioodi määratlust, mis on määratud lehel **Müügireskontro parameetrid**. Kui ühtegi vaikimisi aegumisperioodi definitsiooni ei ole määratud, kasutatakse esimest aegumisperioodi määratlust lehel **Aegumisperioodi määratlused**.
 

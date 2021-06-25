@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018827"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189571"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
@@ -833,8 +833,7 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
     6.  Kui DLL-i hostid on suletud, taaskäivitage Modern POS.
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Commerce’i välisseadme simulaator](dev-itpro/retail-peripheral-simulator.md)
 

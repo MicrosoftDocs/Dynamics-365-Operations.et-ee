@@ -2,7 +2,7 @@
 title: Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 description: Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923476"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168725"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 
@@ -131,6 +131,8 @@ Enamasti peaks soovitatud miinimumnõuded, kasutades kaht sõlme, hästi toimima
 ## <a name="sql-server-reporting-services"></a>SQL Serveri aruandlusteenused
 
 Üldiselt kättesaadava versiooni puhul saab juurutada ainult ühe SSRS-i sõlme. Jälgige oma SSRS-i sõlme testimise ajal ja suurendage SSRS-i jaoks saadaolevate tuumade arvu vajadust mööda. Veenduge, et teil oleks virtuaalhostis saadaval eelkonfigureeritud teisene sõlm, mis ei ole SSRS-i virtuaalarvuti. See on oluline, kui SSRS-i või virtuaalhosti majutava virtuaalarvutiga tekib mõni probleem. Sellisel juhul tuleb see arvutada.
+
+Alates versioonist 10.0.17 on kõrge kättesaadavuse saavutamiseks võimalik konfigureerida täiendavaid SSRS-sõlmi. Lisateabe saamiseks vt [SQL Serveri aruandlusteenuste (SSRS) sõlmede suure kättesaadavuse konfigureerimine](../../dev-itpro/deployment/onprem-ssrsha.md).
 
 ## <a name="environment-orchestrator"></a>Keskkonna korraldaja
 

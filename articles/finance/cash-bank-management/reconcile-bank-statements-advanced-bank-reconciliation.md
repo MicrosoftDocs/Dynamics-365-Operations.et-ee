@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835000"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188586"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835000"
 
 Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Dynamics 365 Financeis automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.  
 
-<a name="import-an-electronic-bank-statement"></a>Elektroonilise pangaväljavõtte importimine
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Elektroonilise pangaväljavõtte importimine
 
 Pangaväljavõtteid imporditakse toiminguga **Väljavõtte importimine** lehel **Pangaväljavõtted**. Pangakonto on pangaväljavõttes näidatud väärtuste kombinatsiooni kaudu, mis on määratud pangakonto andmetes. Nende väärtuste hulka kuuluvad panga nimi, pangakonto number, protsessikood, SWIFT (Society for Worldwide Interbank Financial Telecommunication) kood ja rahvusvaheline pangakonto number (IBAN). 
 

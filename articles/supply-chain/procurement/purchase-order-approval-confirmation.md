@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f1f6971e645a0aae8679c94a4bbd4cba946dc3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825418"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188280"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuste kinnitamine
 
@@ -83,8 +83,7 @@ Ostutellimuse rea kogu koguse tühistamiseks peate real tühistama tarnejäägi 
 
 Kui ostutellimus on muudatuste haldamise all, tuleb kõik muudatused, nt tellimuse tühistamine või tarnejääk, esitada töövoo süsteemile ja kinnitada enne protsessi lõpuleviimist ja varude kannete uuendamist vastavalt tühistamisele.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Ostutellimuse ülevaade](purchase-order-overview.md)
 

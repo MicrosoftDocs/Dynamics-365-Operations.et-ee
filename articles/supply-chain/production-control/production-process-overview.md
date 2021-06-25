@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814580"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188145"
 ---
 # <a name="production-process-overview"></a>Tootmisprotsessi ülevaade
 
@@ -74,8 +74,7 @@ Tootmistsükli järgmised etapid võivad esineda kõigi tellimusetüüpide või 
 12. **Perioodi sulgemine** – mõni kuluarvestuse põhimõte, näiteks perioodiline keskmine, omahinna tagasiarvestus, FIFO või LIFO, nõuavad varude või rahandusperioodi sulgemiseks perioodilisi tegevusi. Tavaliselt püüab süsteem esitada enne perioodide sulgemist aruande kogu materjali- ja ressursitarbimise ning ka varude ja praagi korrigeerimiste kohta. Seda aruandlust tehakse tavaliselt varude liikumise töölehtede või korrigeerimistöölehtede abil. Eesmärk on hinnata tootmisüksuste majanduslikku toimivust perioodi kohta. Mõnel juhul, kui kasutatakse pikaajalisi, üle finantsiliste aruandeperioodide ulatuvaid tootmistellimusi, kasutatakse tootmise edenemisest ja perioodi lõpu seisuga ressursitarbimisest teatamiseks tootmistöölehti.
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Tootmise tagasiside](production-feedback.md)
 

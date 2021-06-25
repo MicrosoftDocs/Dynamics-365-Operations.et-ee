@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4c997e8cf8b2456ffe12a552577902da171cc1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812783"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189840"
 ---
 # <a name="reuse-product-configurations"></a>Tootekonfiguratsioonide taaskasutamine
 
@@ -29,8 +29,7 @@ ms.locfileid: "5812783"
 
 Soovi korral saate määrata toote olemasoleva konfiguratsiooni automaatse taaskasutamise. Seejärel, kui kasutaja on konfiguratsiooniseansi lõpule viinud, kontrollib süsteem, kas kasutaja valikule vastav konfiguratsioon on juba olemas. Vastava konfiguratsiooni leidmisel kasutatakse konfiguratsiooni ID-d, vastavat kooslust ja protsessi uuesti.
 
-<a name="requirements-for-reusing-configurations"></a>Konfiguratsioonide taaskasutuse nõuded
----------------------------------------
+## <a name="requirements-for-reusing-configurations"></a>Konfiguratsioonide taaskasutuse nõuded
 
 Konfiguratsioonide taaskasutamise lubamiseks peate määrama lehel **Tootekonfiguratsiooni mudeli üksikasjad** komponentidele ja atribuutidele järgmise teabe.
 

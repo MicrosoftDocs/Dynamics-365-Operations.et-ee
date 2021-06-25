@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 73f16b00f2af884387e0b135f3b220179eecad86
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a3f4729a8a788f4f5b2b2e9923f515b86590b946
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822439"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188804"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Hankija koostöö arve tööruum
 
@@ -31,8 +31,7 @@ See teema selgitab, kuidas saate vaadata hankijaarveid ja edastada arveid hankij
 Tööruumi **Hankija koostöö arve abil** saab vaadata hankija arve teavet ja esitada arveid süsteemi, kasutades töövoo võimalusi.
 
 
-<a name="vendor-collaboration-invoicing-workspace"></a>Hankija koostöö arve tööruum
-----------------------------------------
+## <a name="vendor-collaboration-invoicing-workspace"></a>Hankija koostöö arve tööruum
 
 ### <a name="summary-tiles"></a>Kokkuvõttepaanid
 

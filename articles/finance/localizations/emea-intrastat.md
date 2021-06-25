@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814991"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216784"
 ---
 # <a name="intrastat-overview"></a>Intrastati ülevaade
 
@@ -73,7 +73,7 @@ Järgmises tabelis on loetletud Intrastati aruandluse eeltingimused.
 </tr>
 <tr class="odd">
 <td>Toote kategooriahierarhia (müügihierarhia, hankehierarhia)</td>
-<td>Saate määrata Intrastati kaubakoodid kategooriasõlmedele vahekaardil <strong>Kaubakoodid</strong> lehel <strong>Kategooriahierarhia</strong>. Kui määrate kaubakoodi peamisele kategooriasõlmele, kehtib see kood kõigile kategooria alamsõlmedele. Valitud kaubakoodid on saadaval vaates <strong>Valitud</strong>, kui valite väljastatud toote üksikasjades ja müügitellimuse, ostutellimuse ja üleviimistellimuse ridadel kaubakoodi.</td>
+<td>Saate määrata Intrastati kaubakoodid kategooriasõlmedele vahekaardil <strong>Kaubakoodid</strong> lehel <strong>Kategooriahierarhia</strong>. Kui määrate kaubakoodi peamisele kategooriasõlmele, kehtib see kood kõigile kategooria alamsõlmedele. Valitud kaubakoodid on saadaval vaates <strong>Valitud</strong> kui valite väljastatud toote üksikasjades ja müügitellimuse, ostutellimuse ja üleviimistellimuse ridadel kaubakoodi.</td>
 </tr>
 <tr class="even">
 <td>Väljastatud toote üksikasjad</td>
@@ -84,6 +84,7 @@ Järgmises tabelis on loetletud Intrastati aruandluse eeltingimused.
 <li><strong>Päritoluriik/-regioon</strong> – saate valida vaikeriigi/-regiooni, kust kaup täielikult hangiti või kus see toodeti.</li>
 <li><strong>Lähte-/sihtmaakond/-provints</strong> – valige sihtmaakonna/-provintsi vaikeväärtus saabumiste puhul ja lähtemaakond/-provints lähetuste puhul.</li>
 <li><strong>Netokaal (kg)</strong></li>
+<li><strong>Välista</strong> - selle parameetri lubamiseks ei tohi selle tootega kandeid intrastati üle kanda</li>
 </ul></td>
 </tr>
 <tr class="odd">

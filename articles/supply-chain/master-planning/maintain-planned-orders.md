@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f97dc4627f9bb3a0ac2020b966de7e58aafcedc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7f16a666cef5625fb159265ddc7237ad0eb45927
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833661"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187646"
 ---
 # <a name="maintain-planned-orders"></a>Plaanitud tellimuste haldamine
 
@@ -58,8 +58,7 @@ Kui plaanite kinnitada korraga mitu tellimust, võib käituse paralleelimine par
 > [!NOTE]
 > Suvandi **Kinnitamise paralleelimine** valikut näidatakse ainult siis, kui teil on kinnitamiseks valitud rohkem kui üks plaanitud tellimus.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Koondplaanide ülevaade](master-plans.md)
 

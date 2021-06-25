@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d1df15462a39c17710c9300425561bba8b69fc7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826125"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188380"
 ---
 # <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
@@ -27,8 +27,7 @@ ms.locfileid: "5826125"
 
 Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta.
 
-<a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
------------------------
+## <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
 Tarnija, kes tarnib Euroopa Liidus (EL) loodud ettevõtetele EL-i siseseid kaupu või teenuseid, peab esitama EL-i siseste tarnete deklaratsiooni (EL-i käibearuanne või ESL). Üldjuhul tuleb esitada ESL maksuametile hiljemalt ESL-i kaetavale kalendriperioodile järgneva kuu viimasel päeval. Tarnija peab teatama ESL-i käibemaksu (KM) ID-numbri ja samuti kliendi kaupa järgmise teabe.
 

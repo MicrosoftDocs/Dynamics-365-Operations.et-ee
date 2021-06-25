@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fee455fe1e51ac99fe6f38a63b48c7b92d32ac7a
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 01d6d79c482871c9f39898298292b21367c9a48e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897060"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193327"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Õppekataloog Dynamics 365 Finance'iga töötavatele juurutusprojekti juhtidele
 
@@ -88,10 +88,10 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="exams"></a>Eksamid<a name="exams"></a>
 
-| Sisu  | Kirjeldus  | Vorming   |
-|-------------|-----------------|-------------|
-| [Eksam MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: kasutada ühiseid funktsioone ja juurutustööriistu; konfigureerida turvalisust, protsesse ja suvandeid; migreerida andmeid ning kontrollida lahendust ja pakkuda selle tuge. | Eksam, hind varieerub piirkonniti | |
-| [Eksam MB-310: Microsoft Dynamics 365 for Finance and Operations, finantsid](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: finantshalduse seadistamine ja konfigureerimine, ühiste protsesside haldamine ja rakendamine, ostu- ja müügireskontro juurutamine ja haldamine, eelarve ja põhivarade haldamine. | Eksam, hind varieerub piirkonniti | |
+| Sisu | Kirjeldus | Vorming |
+|---|---|---|
+| [Eksam MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: kasutada ühiseid funktsioone ja juurutustööriistu; konfigureerida turvalisust, protsesse ja suvandeid; migreerida andmeid ning kontrollida lahendust ja pakkuda selle tuge. | Eksam, hind varieerub piirkonniti |
+| [Eksam MB-310: Microsoft Dynamics 365 for Finance and Operations, finantsid](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: finantshalduse seadistamine ja konfigureerimine, ühiste protsesside haldamine ja rakendamine, ostu- ja müügireskontro juurutamine ja haldamine, eelarve ja põhivarade haldamine. | Eksam, hind varieerub piirkonniti |
 | [Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalse konsultandi seostamine](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalsed konsultandid ühendavad globaalsed finantsid ja toimingud ning automatiseerivad ülesandeid ja töövooge, hõlbustavad kliendil tellimist, müüki, arveldamist ja aruandlust. | Sert, hind varieerub piirkonniti |
 
 

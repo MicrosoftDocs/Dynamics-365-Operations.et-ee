@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: See teema annab ülevaate Regulatory Configuration Service (RCS) võimalustest ja selgitab, kuidas teenusele juurde pääseda.
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019390"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216558"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ RCS on üldiselt saadaval järgmistes piirkondades:
 
 Regioonide täieliku nimekirja saamiseks vt teemat [Dynamics 365 ja Power Platform: saadavus, andmete asukoht, keel ja lokaliseerimine](https://aka.ms/dynamics_365_international_availability_deck).
 
+## <a name="rcs-default-company"></a>RCS väikeettevõte
+
+RCS-is kasutatav kujundusaja funktsioon on ühiskasutuses kõigi ettevõtete vahel. Ettevõttepõhiseid funktsioone pole. Seetõttu soovitame teil kasutada ühte ettevõtet, **DAT**, koos teie RCS-keskkonnaga.
+
+Mõne stsenaariumi puhul võite siiski soovida, et ER-vormingud kasutaks konkreetse juriidilise isikuga seotud parameetreid. Ainult sellistes stsenaariumides peaksite kasutama ettevõtte vaikelülitit. Näite vaatamiseks vt [ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md).
+
 ## <a name="related-rcs-documentation"></a>Seotud RCS-dokumentatsioon
 
-Seotud komponentide kohta lisateabe saamiseks vaadake järgmist dokumentatsiooni.
+Seotud komponentide kohta lisateabe saamiseks vaadake järgmisi peatükke:
+
+- **RCS:**
+
+    - [ER-konfiguratsioonide loomine RCS-is ja üleslaadimine globaalsesse hoidlasse](rcs-global-repo-upload.md)
 
 - **Globaalse hoidla:**
 
@@ -70,7 +80,20 @@ Seotud komponentide kohta lisateabe saamiseks vaadake järgmist dokumentatsiooni
     - [Täiustatud filtreerimine globaalses hoidlas](enhanced-filtering-global-repo.md)
     - [ER-i konfiguratsioonide allalaadimine globaalsest hoidlast](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [Konfiguratsioonide katkestamine globaalses hoidlas](discontinuing-configurations-rcs-global-repo.md)
+    - [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine](rcs-lcs-repo-dep-faq.md)
 
 - **Globaliseerimisfunktsioon:**
 
     - [Regulatory Configuration Service (RCS) – globaliseerumise funktsioon](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>RCS logimise tõrkeotsing
+
+Kui registreerite teenuse leheküljelt RCS-i, võib teil tekkida probleem, mis on seotud rakendusega Azure Active Directory (Azure AD). Tõrketeade näitab, et RCS-ile registreerimine on praegu välja lülitatud ja tuleb sisse lülitada, enne kui saate allkirjastamisprotsessi lõpule viia.
+
+![RCS-i registreerumise tõrketeade](media/01_RCSSignUpError.jpg)
+
+Probleem ilmneb, kuna olete blokeerinud registreerumise sihttellimustele ja atribuut peab olema teie `AllowAdHocSubscriptions` rentnikus lubatud. 
+
+- Kui teie IT-osakond haldab teie organisatsiooni Azure'i rentnikku, võtke probleemist aru anda selle osakonnaga ühendust.
+- Kui vastutate Azure rentnike haldamise eest, saate probleemid lahendada, järgides [Mis on iseteeninduse registreerimine rakenduses Azure Active Directory](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings).

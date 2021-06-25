@@ -2,7 +2,7 @@
 title: VAT deklaratsioon Egiptuse jaoks
 description: Käesolev teema kirjeldab, kuidas konfigureerida ja luua Egiptuse kinnipeetava maksu deklaratsioone.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021952"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186610"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>VAT deklaratsioon Egiptuse jaoks (EG-00002)
 
@@ -85,6 +85,7 @@ Järgmisi otsingu konfiguratsioone kasutatakse kannete klassifitseerimiseks ostu
 - **KMMäärTüüpOtsing** > veerg B: maksu tüüp
 - **KMMäärTüüpOtsing** > veerg C: tabeli kauba tüüp
 - **PurchaseOperationTypeLookup** > Veerg A: dokumendi tüüp
+- **CustomerTypeLookup** > Veerg A: dokumendi tüüp
 - **SalesOperationTypeLookup** > veerg N: toimingu tüüp
 - **SalesltemTypeLookup** > Veerg O: kauba tüüp
 
@@ -98,6 +99,8 @@ Viige lõpule järgmised sammud erinevate otsingute häälestamiseks, mida kasut
 6. Korrake samme 3-5 kõigi saadaval otsingute puhul.
 7. Lõppkirje rea kaasamiseks klõpsake uuesti nuppu **Lisa** ja valige **otsingutulemuse** veerus suvand **Pole rakendatav**. 
 8. Ülejäänud veergudes valige **Mitte tühi**. 
+9. Valige väljalt **Olek** suvand **Lõpule viidud**.
+10. Valige käsk **Salvesta** ja seejärel sulgege **Rakenduspõhised parameetrid** leht.
 
 > [!NOTE]
 > Kui lisate viimase kirje **Pole kohaldatav**, määrate järgmise reegli: kui käibemaksugrupp, kauba käibemaksugrupp, maksukood ja argumendina edastatud nimi ei täida kõiki eelnevaid reegleid, ei kaasata kandeid müügi KM raamatusse. Kuigi seda reeglit aruande loomisel ei kasutata, aitab reegel puuduva reegli konfiguratsiooni korral vältida tõrkeid aruande loomisel.
@@ -138,7 +141,7 @@ Järgmised tabelid esindavad näidet kirjeldatud otsingukonfiguratsioonide soovi
 | Teenused       | 7    | VAT_SERV                | *Mitte tühi* | SaleExempt            |
 | Teenused       | 8    | VAT_SERV                | *Mitte tühi* | SalesExemptCreditNote |
 | Korrigeerimised    | 9    | *Tühi*                 | VAT_ADJ     | Müük                 |
-| Korrigeerimised    | 10   | *Tühi*                 | VAT_ADJ     | Ost              |
+| Korrigeerimised    | 10   | *Tühi*                 | VAT_ADJ     | SalesCreditNote       |
 | Pole kohaldatav | 11   | *Mitte tühi*             | *Mitte tühi* | *Mitte tühi*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Järgmised tabelid esindavad näidet kirjeldatud otsingukonfiguratsioonide soovi
 | Kaubad                  | 1    | VAT_Kaubad               | *Mitte tühi* | Ost                 |
 | Kaubad                  | 2    | VAT_Kaubad               | *Mitte tühi* | PurhćhaseCreditNote       |
 | Teenused               | 3    | VAT_SERV                | *Mitte tühi* | Ost                 |
-| Teenused               | 4    | VAT_SERV                | *Mitte tühi*  | PurhchaseCreditNote       |
+| Teenused               | 4    | VAT_SERV                | *Mitte tühi* | PurhchaseCreditNote       |
 | Masin ja seadmed  | 5    | VAT_M&E                 | *Mitte tühi* | Ost                 |
 | Masin ja seadmed  | 6    | VAT_M&E                 | *Mitte tühi* | PurhchaseCreditNote       |
 | Masinate osad         | 7    | VAT_Osad               | *Mitte tühi* | Ost                 |
 | Masinate osad         | 8    | VAT_Osad               | *Mitte tühi* | PurhchaseCreditNote       |
 | Vabastused             | 9    | VAT_EXE                 | *Mitte pank*  | PurchaseExempt           |
 | Vabastused             | 10   | VAT_EXE                 | *Mitte tühi* | PurchaseExemptCreditNote |
-| Pole kohaldatav         | 11   | *Tühi*                 | VAT_ADJ     | *Mitte tühi*              |
-| Pole kohaldatav         | 12   | *Mitte tühi*             | *Mitte tühi* | *Mitte tühi*              |
-| Pole kohaldatav         | 13   | *Tühi*                 | *Mitte tühi* | *Mitte tühi*              |
+| Pole kohaldatav         | 11   | *Mitte tühi*             | *Mitte tühi* | *Mitte tühi*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Järgmised tabelid esindavad näidet kirjeldatud otsingukonfiguratsioonide soovi
 | Korrigeerimised    | 9    | *Tühi*          | VAT_ADJ     | PurhchaseCreditNote       |
 | Korrigeerimised    | 10   | *Tühi*          | VAT_ADJ     | Ost                 |
 | Pole kohaldatav | 11   | *Mitte tühi*      | *Mitte tühi* | *Mitte tühi*              |
+
+**CustomerTypeLookup**
+
+|    Otsingu tulemus    | Liin | Käibemaksugrupp |
+|---------------------|------|-----------------|
+| Organisatsioon        |  1   | Kohalik_VAT       |
+| Organisatsioon        |  2   | VAT_Eksport      |
+| Organisatsioon        |  3   | VAT_EXE         |
+| Lõpptarbija      |  4   | VAT_FINALC      |
+| Avalik organisatsioon |  5   | VAT_PUBLIO      |
+| Pole rakendatav.      |  6   | *Mitte tühi*     |
 
 **KMMäärTüüpOtsing**
 

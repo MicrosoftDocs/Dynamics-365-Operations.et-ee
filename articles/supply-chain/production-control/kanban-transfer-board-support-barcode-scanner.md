@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825863"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190060"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Kanbani ülekandmise tahvli tugi vöötkoodilugejatele
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825863"
 
 Kanbani ülekandmise tahvel toetab vöötkoodiskanneri vidina sisendit toiminguteks Vali, Käivita, Lõpeta ja Tühjenda kanban-töö.
 
-<a name="registration-modes"></a>Registreerimisrežiimid
-------------------
+## <a name="registration-modes"></a>Registreerimisrežiimid
 
 Kiirkaardil **Skanneri registreerimine** saate valida registreerimisrežiimi, millega juhitakse tegevust, kui skannite kanban-kaardi numbri või sisestate numbri käsitsi väljale Kanban-kaardi number.
 
@@ -42,8 +41,7 @@ Kiirkaardil **Skanneri registreerimine** saate valida registreerimisrežiimi, mi
 | Vali                | Registreerib kanban-kaardi numbri ja valib kanban-tööde loendist viidatud töö automaatselt. |
 
  
-<a name="registration-mode-select"></a>Registreerimisrežiimi valimine
-------------------------
+## <a name="registration-mode-select"></a>Registreerimisrežiimi valimine
 
 Kui kasutate töö valimiseks vöötkoodilugejat, muutub kanban-tahvli kuvarežiim. Selles režiimis kehtivad järgmised tingimused.
 

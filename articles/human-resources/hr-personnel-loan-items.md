@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052860"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190204"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Töötajatele laenatud kaupade haldamine
 
@@ -41,14 +41,12 @@ Töötajad saavad vaadata neile laenatud artiklite kirjeid, kasutades töötaja 
 
 Juhatajad saavad vaadata oma otseste alluvate laenatud artikleid. Neile saab anda ka õiguse oma töötajate nimel uusi laenuartikleid lisada.
 
- <a name="account-for-lost-or-misplaced-loan-items"></a> Kaotatud ja kadunud artiklite konto
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a> Kaotatud ja kadunud artiklite konto
 
 Kui artikkel on kahjustatud või kadunud, sisestage fiktiivne tagastuskirje. Seejärel kustutage artikkel või sälitage see ülevaates ja muutke kirjeldust, mis näitab, et artikkel pole saadaval.
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Inimressursid](index.md)
 

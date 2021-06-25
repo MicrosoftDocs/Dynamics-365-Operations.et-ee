@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053655"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193720"
 ---
 # <a name="provision-human-resources"></a>Human Resources ettevalmistus
 
@@ -56,7 +56,7 @@ Selleks, et kasutada oma rakenduse Human Resources keskkondade haldamiseks LCS-i
 1. Logige [LCS-i](https://lcs.dynamics.com/Logon/Index) sisse, kasutades kontot, mida kasutasite rakenduse Human Resources tellimiseks.
 
    > [!NOTE]
-   > Eduka ressursimääramise tagamiseks peab konto, mida kasutate Inimressursside keskkonna kasutamiseks, olema määratud kas **süsteemiadministraatori** või **süsteemi kohandaja** rollile Power Apps keskkonnas, mis on seotud inimressursside keskkonnaga. Lisateavet kasutajatele turvarollide määramise kohta vaadake jaotisest [kasutajate turberollide konfigureerimise kohta](https://docs.microsoft.com/power-platform/admin/database-security) Power Platform-s.
+   > Eduka ressursimääramise tagamiseks peab konto, mida kasutate Inimressursside keskkonna kasutamiseks, olema määratud kas **süsteemiadministraatori** või **süsteemi kohandaja** rollile Power Apps keskkonnas, mis on seotud inimressursside keskkonnaga. Lisateavet kasutajatele turvarollide määramise kohta vaadake jaotisest [kasutajate turberollide konfigureerimise kohta](/power-platform/admin/database-security) Power Platform-s.
 
 2. Valige projekti loomiseks plussmärk (**+**).
 

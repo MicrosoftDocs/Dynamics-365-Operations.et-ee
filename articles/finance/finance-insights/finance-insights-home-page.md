@@ -2,7 +2,7 @@
 title: Finantsülevaadete avaleht (eelversioon)
 description: Finantsülevaated pakuvad konfigureeritavaid ja laiendatavaid mudeleid, mis aitavad teil täpselt ja nutikalt ennustada oma ettevõtte rahavoogu, ennustada, millal saate laekumata nõuete eest tasu, ja luua eelarveplaani, mis võib kiirendada teie eelarve koostamise protsessi. Kõik need funktsioonid põhinevad nutikatel masinõppemudelitel.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086985"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222506"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finantsülevaadete avaleht (eelversioon)
 
@@ -68,7 +68,9 @@ Selle protsessi läbimisel on kasu keskkondades Azure, Microsoft Dataverse ja LC
 
 ## <a name="configure-finance-insights"></a>Finantsülevaadete konfigureerimine
 
-Enne finantsülevaadete kasutamist peate täitma mõned konfigureerimise etapid. Lisateavet finantsülevaadete konfigureerimise kohta vt jaotisest [Finantsülevaadete konfigureerimine](configure-for-fin-insites.md).
+Enne finantsülevaadete kasutamist peate täitma mõned konfigureerimise etapid. Lisateavet Finance insights`i konfigureerimise kohta leiate teemast:
+  - Versioonidele kuni 10.0.19: [Finance insights konfigureerimine – versioonid kuni 10.0.19](configure-for-fin-insites.md).
+  - Versioonidele 10.0.20 ja pärast seda: [Finance insights konfiguratsioon (eelvaade) – versioonid 10.0.20 ja uuemad](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Andmeintegraatori projekti loomine
 
@@ -84,10 +86,7 @@ Kui kasutate kliendimaksete prognoosimise testimiseks demoandmeid, võib olla va
 Kliendimaksete prognooside lubamiseks peate viima lõpule etappide kogumi, et luua teie organisatsiooni andmeid kasutav masinõppemudel, et luua prognoose, millal kliendid tõenäoliselt tasuvad laekumata arved ja millal konkreetsed arved tõenäoliselt tasutakse. Lisateavet ja konkreetseid lõpule viimise etappe vt teemast [Kliendimakse prognooside lubamine](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Rahavoo prognoosimise lubamine
-Rahavoo prognoosimise lubamiseks peate viima lõpule etappide kogumi, et luua teie organisatsiooni andmeid kasutav masinõppemudel, et luua rahavoo prognoose. Lisateavet ja konkreetseid lõpule viimise etappe vt teemast [Rahavoo prognooside lubamine](enable-cash-flow-forecasting.md). 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Rahavoo prognoosimise häälestamine ja kasutamine
-Lisateavet rahavoo häälestamise ja kasutamise kohta vt teemast [Rahavoo prognoosimise lubamine](enable-cash-flow-forecasting.md). Lisateavet selle võimaluse kasutamise kohta vt teemast [Rahavoo prognoosimine](cash-flow-forecast-intro.md).
+Rahavoo prognoosimise lubamiseks peate viima lõpule etappide kogumi, et luua teie organisatsiooni andmeid kasutav masinõppemudel, et luua rahavoo prognoose. Lisateavet ja konkreetseid lõpule viimise etappe vt teemast [Rahavoo prognooside lubamine](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Eelarvesoovituste lubamine
 
@@ -111,14 +110,12 @@ Rahavoo prognooside võimekus võib aidata teil hinnata oma sularahajääki täp
 
 - Teavet rahavoo prognooside uute võimaluste kohta vt teemast [Rahavoo prognoos](cash-flow-forecast-intro.md).
 - Teavet välisandmete importimise kohta siin rahavoo prognoosimisse kaasamiseks vt teemast [Rahavoo prognoosimises välisandmete kasutamine](external-data-in-cash-flow.md). 
-- Teavet selle kohta, kuidas kasutada tehisintellekti mudelit pikaajalise rahavoo projekteerimiseks, vt teemast [Rahavoo prognooside ülevaade](cash-position.md).
+- Teavet selle kohta, kuidas kasutada tehisintellekti mudelit pikaajalise rahavoo lähedal, vt teemast [Rahavoo positsioon](cash-position.md).
 - Teavet rahavoo positsioonide ja rahavoo prognooside hetktõmmistena salvestamise ning hetktõmmise tegelike näitajatega võrdlemise kohta vt teemast [Hetktõmmiste ülevaade](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Eelarvesoovituse kasutamine
 
 Teavet eelarve loomise kiirendamise kohta vt teemast [Eelarvesoovitused](budget-proposals.md). 
-
-Eelarvesoovituse demoandmed.
 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 

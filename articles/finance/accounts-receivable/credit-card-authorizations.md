@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837125"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190305"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Krediitkaardi seadistamine, autoriseerimine ja hõivamine
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837125"
 
 See artikkel annab ülevaate krediitkaardi autoriseerimisest rakenduses Microsoft Dynamics 365 Finance. See sisaldab teavet makseteenuse seadistamise, krediitkaardi lisamise kohta müügitellimusele ja loa tühistamise kohta.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Krediitkaardi makseteenuse seadistamine
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Krediitkaardi makseteenuse seadistamine
 
 Krediitkaartide kasutamiseks tuleb makseteenus lehel Makseteenused seadistada ja aktiveerida. Makseteenus toimib sillana teie juriidilise isiku ja kliendi krediitkaarditasusid töötleva panga vahel. Peaksite töötama väljal Makse ülekandmine loetletud krediitkaardi pakkujaga ja seadistama selle pakkujaga konto. Seejärel tuleks seadistada teised suvandid lehel Makseteenused, seadistada krediitkaardi tüübid American Expressi, Discoveri, MasterCardi ja Discoveri jaoks leheküljel Krediitkaardi tüübid ning aktiveerida pakkuja vaikepakkujana. Seadistuse lõpetamiseks peaksite järgima neid samme.
 -   Määrake lehel Müügireskontro parameetrid krediitkaardi kasutamise parameetrid.
@@ -39,13 +38,11 @@ Krediitkaartide kasutamiseks tuleb makseteenus lehel Makseteenused seadistada ja
 ## <a name="adding-a-new-credit-card"></a>Uue krediitkaardi lisamine
 Uusi krediitkaardi kirjeid saate luua lehel Kliendid, kasutades välju Klient, Hääletamine, Krediitkaart. Krediitkaardi kirjeid saate luua ka müügitellimusi lehel Müügitellimus sisestades, kasutades välju Haldamine, Klient, Krediitkaart, Registreerimine.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Müügitellimusele krediitkaardi lisamine
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Müügitellimusele krediitkaardi lisamine
 
 Krediitkaardi lisamiseks müügitellimusele valige krediitkaart krediitkaardi otsingust lehe Müügitellimus vahekaardil Hinnad ja allahindlused. Autoriseerimisprotsessi käivitamiseks avage tegevuspaani vahekaart Haldamine, kus valige Krediitkaart ja Autoriseerimine.
 
-<a name="authorizing-a-credit-card"></a>Krediitkaardi autoriseerimine
--------------------------
+## <a name="authorizing-a-credit-card"></a>Krediitkaardi autoriseerimine
 
 Kui krediitkaardi autoriseerimisel kontrollitakse kaardi numbrit ja kaardiomaniku nime ning olemasolev kreeditsaldo kinnitatakse. Alternatiivina võib kontrollida kaardi kontrollnumbrit ja kaardiomaniku aadressi. Seejärel vähendatakse kliendi olemasolevat kreeditsaldot arve summa võrra. Makseteenus annab teada, kas krediitkaart on kinnitatud või tagasi lükatud. Kui müügitellimus on arveldatud, võetakse krediitkaardilt tasu (hõivatakse) arve summa väärtuses.
 

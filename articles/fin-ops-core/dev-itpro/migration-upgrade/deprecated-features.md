@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112617"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193562"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasemate versioonide eemaldatud või iganenud funktsioonid
 
@@ -92,7 +92,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Ei |
 | **Mõjutatud tootealad**         | Itaalia tõlge |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: 1. oktoobrist 2020 me ei plaani enam toetada **musta nimekirja aruannet (IT) – funktsiooni viide IT-00001.** |
+| **Olek**                         | Aegunud: 1. oktoobrist 2020, me ei plaani enam seda aruannet toetada. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Siseriiklik maksuaruanne – funktsiooni viide IT-00003
 
@@ -365,6 +365,16 @@ Funktsioon uute kasumimaksuregistrite jaoks mallide loomiseks. See funktsioon lo
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Eemaldatud alates versioonist Finance and Operations 8.1 platvormivärskendusega 20. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Palk ja inimressursid Venemaa jaoks
+Venemaa riigipõhine moodul personalihalduse teabe haldamiseks, ajatabeli üksikasjadeks töötajate jaoks, palgaarvestuseks ja tasuväljavõttete loomiseks. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Palgaarvestus ei sisaldu Dynamics 365 töötaja globaalses strateegilises fookuses. Partnerid ja ISV-d on parim positsioon, et pakkuda palgafunktsiooni, mis vastab kohalikele määrustele ja maksuvärskendustele.|
+| **Asendatud teise funktsiooniga?**   | Ei|
+| **Mõjutatud tootealad**         | Palga ja inimressurside haldus Venemaa jaoks |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: eemaldatava funktsionaalsuse ajakava on üks versiooni 10.0 tulevastest värskendustest. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 platvormivärskendusega 15
 Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Platvormivärskendus 15 on kumulatiivne ja sisaldab uusi või muudetud funktsioone platvormivärskendusest 13, platvormivärskendusest 14 ja platvormivärskendusest 15.

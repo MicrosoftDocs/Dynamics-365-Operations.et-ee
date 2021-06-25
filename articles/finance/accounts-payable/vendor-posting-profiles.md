@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835480"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189489"
 ---
 # <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835480"
 
 Hankija sisestusreeglid kontrollivad hankijakannete sisestamist pearaamatusse.
 
-<a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
------------------------
+## <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
 
 Hankija sisestusreeglid võimaldavad määrata pearaamatukontosid ja dokumendisätteid kõigile hankijatele, hankijagrupile või üksikule hankijale. Neid sätteid kasutatakse ostutellimuste, hankija arvete ja sularahamaksete loomisel. Mõne kande puhul saate valida sisestusreegli, mis erineb ja on olulisem sellel lehel kannete jaoks seadistatud sisestusreeglitest. Vaike-sisestusreeglid määratletakse kiirkaardil **Pearaamat ja käibemaks** lehel **Ostureskontro parameetrid**. Vaike-sisestusreeglid lisatakse siis automaatselt uute dokumentide päisesse, kus saate need vajaduse korral teistsuguste sisestusreeglite vastu vahetada.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815352"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189369"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Käibemaksuarvutusmeetodid valimine väljal Päritolu
 
@@ -52,8 +52,7 @@ Kui netosumma on 10,00, siis LÕIV 1 = 1,00 (10,00 × 10%) ja LÕIV 2 = 2,00 (10
 | Kande puhul saab kasutada ainult üht maksukoodi, mille välja Päritolu väärtus on Protsent brutosummast. Kui kande kohta määratakse mitu sellist maksukoodi, kuvatakse tõrge, et käibemaksu ei saa arvutada. |
 
 
-<a name="percentage-of-sales-tax"></a>Protsent käibemaksust
------------------------
+## <a name="percentage-of-sales-tax"></a>Protsent käibemaksust
 
 Kui valite väljal Päritolu väärtuse Protsent käibemaksust, arvutatakse käibemaks protsendina käibemaksust, mis on valitud väljal Käibemaks käibemaksult. Esimesena arvutatakse käibemaks, mis on valitud väljal Käibemaks käibemaksult. Teine käibemaks arvutatakse seejärel esimese käibemaksusumma alusel.
 ### <a name="example"></a>Näide
@@ -119,8 +118,7 @@ Dokumendi/töölehe suvandi Summad sisaldavad käibemaksu sätteks on valitud Ei
 
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Käibemaksumäärad väljade Marginaali alus ja Arvutusmeetod põhjal](marginal-base-field.md)
 

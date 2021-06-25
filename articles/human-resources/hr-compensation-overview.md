@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058916"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189597"
 ---
 # <a name="compensation-plans"></a>Hüvitusplaanid
 
@@ -121,8 +121,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 ## <a name="process-events"></a>Protsessi sündmused
 Protsessisündmus arvutab tasuteabe kindlal perioodi jaoks kõigi ühte või mitmesse fikseeritud või muutuvasse tasuplaani registreerunud töötajate puhul. Saate protsessisündmust käivitada korduvalt kalkuleeritud tasutulemuste testimiseks või uuendamiseks.
 
-<a name="compensation-events"></a>Kompensatsiooni sündmused
--------------------
+## <a name="compensation-events"></a>Kompensatsiooni sündmused
 
 Iga kord, kui protsessisündmus käivitatakse, luuakse tasusündmus.  Tasusündmused sisaldavad tasuprotsessi tulemusi iga protsessisündmusesse kaasatud töötaja kohta  Kui arvutused on õiged, saate laadida tasusündmuse, et uuendada protsessisündmusest mõjutatud töötajate tasukirjeid.
 

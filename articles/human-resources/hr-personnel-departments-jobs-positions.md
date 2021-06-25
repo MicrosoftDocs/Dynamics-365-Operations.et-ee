@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058820"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189746"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Tööjõu korraldamine osakondade, tööde ja ametikohtade abil
 
@@ -42,8 +42,7 @@ Järgmise näite abil selgitatakse selles artiklis kirjeldatud põhimõtteid.
 |**Inimressursid**|Personalijuht (Kesk)|Personalijuht|
 
 
- <a name="departments"></a>Osakonnad
-------------
+##  <a name="departments"></a>Osakonnad
 
 Osakond on tootmisüksus, mis esindab organisatsiooni kategooriat või funktsionaalala, mis vastutab organisatsiooni kindla valdkonna eest, nagu müük või raamatupidamine. Osakonda kasutatakse aruandluseks funktsionaalsete alade kohta ning sel võib olla kasumi ja kahjumi vastutus. Osakond võib sisaldada ka, kulukeskuste gruppi. Organisatsiooni osakonnad on muu hulgas näiteks müük, raamatupidamine ja inimressursid.
 
@@ -96,8 +95,7 @@ Töötüüpide abil saate liigitada sarnaseid töid kategooriatesse. Töötüüp
 
 Vastutusalade abil saate näidata, milliste töörollide, protsesside ja toodete eest selle töö ametikohal tegutsev töötaja vastutab. „Raamatupidaja” töö vastutusala näide võib olla „Toote A finantsaruandlus”.
 
-<a name="positions"></a>Ametikohad
-----------
+## <a name="positions"></a>Ametikohad
 
 Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoht on töökoha üksik eksemplar. Näiteks on ametikoht „müügijuht (Ida)” vaid üks tööga „müügijuht” seostatud ametikohti. Ametikohad on osakonnas ja need määratakse töötajatele.
 ### <a name="position-creation-and-maintenance"></a>Ametikoha loomine ja haldamine

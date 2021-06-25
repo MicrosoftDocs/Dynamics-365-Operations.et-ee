@@ -2,7 +2,7 @@
 title: Klienditellimuste korral mitme järeletulemisega tarneviisi lubamine
 description: Selles teemas selgitatakse rakenduse Microsoft Dynamics 365 Commerce funktsioone, mis võimaldavad teil luua klienditellimusi, mille korral saab kaubale poodi järele tulla.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020647"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216763"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Klienditellimuste korral mitme järeletulemisega tarneviisi lubamine
 
@@ -38,7 +38,7 @@ Pärast funktsiooni **Mitme järeletulemisega tarneviisi tugi** sisselülitamist
 
 Sellele kiirkaardile on ümber paigutatud väli **Järeletulemisega tarneviis** ja **Elektrooniline tarneviis** ning suvand **Kuva tellimuste lähetamiseks ainult vedajarežiimi valikud**.
 
-Enne täiendavate järeletulemisega tarneviiside konfigureerimist peate tarneviisid määratlema. Lisage Commerce'i peakontoris lehel **Tarneviisid** need tarneviisid, mida tuleks pidada järeletulemisega tarneviisiks. Veenduge, et kogu konfigureerimine on lõpule viidud. Näiteks veenduge, et tarneviis oleks lingitud sobivate kanalite ja üksustega. Kui olete lõpetanud, käivitage töö **Tarneviiside töötlus**, et luua tarneviisi, kanalite ja üksuste vahelised seosed. Kui töö lõpule viidud, avage Commerce'i peakontoris leht **Jaotusgraafik** ja käivitage jaotustöö **1120**, et tagada vastavate Commerce'i kanali andmebaaside värskendamine vastavalt uue tarneviisi konfiguratsioonile.
+Enne täiendavate järeletulemisega tarneviiside konfigureerimist peate tarneviisid määratlema. Lisage Commerce'i peakontoris lehel **Tarneviisid** need tarneviisid, mida tuleks pidada järeletulemisega tarneviisiks. Veenduge, et kogu konfigureerimine on lõpule viidud. Näiteks, kui pakute oma e-poele tarnevariaatoreid, peate looma selleks otstarbeks uue tarneviisi. Selle tarneviisi saate luua kirjeldusena "curbside Pickup". Seejärel soovite tagada, et "curbside pickup" tarneviis on vastendatud kõigi ärikanalitega, mis seda pakuvad, kaasa arvatud võrgukauplused, mis võivad seda valikut pakkuda, ja üksikute kaupluse kanalitega, mis pakuvad seda täitmisviisi. Samuti peavad tarneviisid olema toodetega lingitud. Selles näites on teatud tooteid, mida ei saa täita "curbside pickup" abil, peate tagama, et need kaubad välistatakse. Kui olete lõpetanud tarneviiside lisamise, käivitage töö **Tarneviiside töötlus**, et luua tarneviisi, kanalite ja üksuste vahelised seosed. Kui töö on lõpule viidud, avage Commerce'i peakontoris leht **Jaotusgraafik** ja käivitage jaotustöö **1120**, et tagada vastavate Commerce'i kanali andmebaaside värskendamine vastavalt uue tarneviisi konfiguratsioonile.
 
 ![Näide pealevõtmisega tarneviisi konfigureerimisest](media/pickupmodes.png)
 

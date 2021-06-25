@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910061"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189664"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Hankijatega koostöö tegemine Hankija portaali kasutades
 
@@ -92,8 +92,7 @@ Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimuss
 |                           Saadate ostutellimuse uue versiooni hankija portaali.                            |                                                                                                                                                                    Uus versioon registreeritakse hankija portaalis ja olekuks määratakse <strong>Välisel ülevaatamisel</strong>.                                                                                                                                                                     |
 |                                Hankija kinnitab ostutellimuse uue versiooni.                                 |                                                                                                                                                     Olekuks määratakse <strong>Kinnitatud</strong>, kas automaatselt või siis, kui saate hankijalt vastuse ja kinnitate siis ostutellimuse.                                                                                                                                                     |
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Hankija portaali kasutajate turvalisus](configure-security-vendor-portal-users.md)
 

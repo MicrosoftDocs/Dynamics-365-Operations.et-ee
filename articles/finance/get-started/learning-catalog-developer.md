@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9e3976eaf94f6a8440794beebae1ab7241e5aa54
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: cdc16d02f24f24e0f9933542589573ee6b5cde45
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897644"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193375"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Õppekataloog Dynamics 365 Finance'i arendajatele
 
@@ -29,20 +29,20 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="get-started"></a>Alusta<a name="get-started"></a>
 
-| Sisu  | Kirjeldus     | Vorming     | Pikkus    |
-|-------------|-----------------|-------------|------------|
-| [Finance and Operationsi rakenduste kasutamise alustamine](/learn/paths/get-started-finance-operations/) | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee | 2.2 tundi |
-| [Dynamics 365 Financei kasutamise alustamine](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance võimaldab ärikasutajatel kohaneda kiiresti muutuva ärikeskkonnaga. See annab ettevõttele kõik vajaliku, et kontrollida rahalisi vahendeid ja hallata eelarvet täpse teabe abil rahanduse planeerimiseks ja prognoosimiseks ning aitab neil analüütikatööriistadega kursis olla. Kuna rahandus on iga ettevõtte põhialus, on oluline olla kursis Dynamics 365 Finance'i võimalustega. | Tasuta iseläbitav internetipõhine õppemoodul | 1 tund |
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
+| [Finance and Operationsi rakenduste kasutamise alustamine](https://docs.microsoft.com/learn/paths/get-started-finance-operations/) | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee | 2.2 tundi |
+| [Dynamics 365 Financei kasutamise alustamine](https://docs.microsoft.com/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance võimaldab ärikasutajatel kohaneda kiiresti muutuva ärikeskkonnaga. See annab ettevõttele kõik vajaliku, et kontrollida rahalisi vahendeid ja hallata eelarvet täpse teabe abil rahanduse planeerimiseks ja prognoosimiseks ning aitab neil analüütikatööriistadega kursis olla. Kuna rahandus on iga ettevõtte põhialus, on oluline olla kursis Dynamics 365 Finance'i võimalustega. | Tasuta iseläbitav internetipõhine õppemoodul | 1 tund |
 
 ## <a name="core-development-concepts"></a>Peamised arendamise kontseptsioonid<a name="core-development-concepts"></a>
 
-| Sisu  | Kirjeldus  | Vorming   | Pikkus    |
-|-------------|-----------------|-------------|------------|
-| [Sissejuhatus arendamisse Finance and Operationsi rakenduste abil](/learn/paths/introduction-develop-finance-operations/) | Finance and Operationsi rakendustega töötava arendajana on oluline omada kindlat ülevaadet Dynamics 365 ökosüsteemi ja Finance and Operationsi rakenduste põhiarhitektuuri komponentidest. Põhilised arendusteadmised, sealhulgas teadmised tehnilistest võimalustest, lähtekoodist, testraamistikest ja aruandlustööriistadest, aitavad teil kasvatada arendusoskusi, mida saate rakendada Finance and Operationsi rakendustes. | Tasuta iseläbitav internetipõhine õppetee | 7.75 tundi |
-| [Finance and Operationsi rakenduste loomine](/learn/paths/build-finance-operations/) | Finance and Operationsi rakendustes arendamiseks tuleb teada põhiülesandeid, mida on vaja uute elementide loomiseks ja Finance and Operationsi rakenduste kohandamiseks. Ülesannete hulka kuuluvad X++ koodi ja Visual Studio mõistmine, samuti võime luua ja muuta süsteemi põhielemente. | Tasuta iseläbitav internetipõhine õppetee | 13 tundi |
-| [Finance and Operationsi rakenduste laiendamine](/learn/paths/extending-finance-operations/) | Laiendused võimaldavad arendajatel muuta Finance and Operationsi rakenduste kasutamise kogemust, muutes koodi nii, et see ei mõjuta põhikoodi. Teiste eeliste hulgas võimaldavad laiendused arendajatel Finance and Operationsi rakendusi värskendada, et järgida äriprotsesse ja vajalikke muudatusi. | Tasuta iseläbitav internetipõhine õppetee | 2.5 tundi |
-| [Finance and Operationsi rakendustega ühendamine](/learn/paths/connect-finance-operations/) | Integratsioon ja oma andmetele juurdepääsu võimalus Finance and Operationsi rakendustes on olulised omadused. Arendajatel, kes on õppinud Finance and Operationsi rakendustes koodi kirjutama ja laiendama, on võimalus õppida uusi teadmisi andmeintegratsiooni kohta ja kuidas andmete ühendamine võib kasutajatele positiivselt mõjuda. | Tasuta iseläbitav internetipõhine õppetee | 5.75 tundi |
-| [Andmete migreerimine ning avaldamine Finance and Operationsi rakendustega](/learn/paths/migrate-data-go-live-finance-operations/) | Funktsionaalse konsultandina peate mõistma, kuidas oma kliendi andmeid migreerimiseks ette valmistada, töötada andmehaldusega ja läbi viia kasutaja vastuvõtu testimist, et Finance and Operationsi rakenduste abil avaldada. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
+| [Sissejuhatus arendamisse Finance and Operationsi rakenduste abil](https://docs.microsoft.com/learn/paths/introduction-develop-finance-operations/) | Finance and Operationsi rakendustega töötava arendajana on oluline omada kindlat ülevaadet Dynamics 365 ökosüsteemi ja Finance and Operationsi rakenduste põhiarhitektuuri komponentidest. Põhilised arendusteadmised, sealhulgas teadmised tehnilistest võimalustest, lähtekoodist, testraamistikest ja aruandlustööriistadest, aitavad teil kasvatada arendusoskusi, mida saate rakendada Finance and Operationsi rakendustes. | Tasuta iseläbitav internetipõhine õppetee | 7.75 tundi |
+| [Finance and Operationsi rakenduste loomine](https://docs.microsoft.com/learn/paths/build-finance-operations/) | Finance and Operationsi rakendustes arendamiseks tuleb teada põhiülesandeid, mida on vaja uute elementide loomiseks ja Finance and Operationsi rakenduste kohandamiseks. Ülesannete hulka kuuluvad X++ koodi ja Visual Studio mõistmine, samuti võime luua ja muuta süsteemi põhielemente. | Tasuta iseläbitav internetipõhine õppetee | 13 tundi |
+| [Finance and Operationsi rakenduste laiendamine](https://docs.microsoft.com/learn/paths/extending-finance-operations/) | Laiendused võimaldavad arendajatel muuta Finance and Operationsi rakenduste kasutamise kogemust, muutes koodi nii, et see ei mõjuta põhikoodi. Teiste eeliste hulgas võimaldavad laiendused arendajatel Finance and Operationsi rakendusi värskendada, et järgida äriprotsesse ja vajalikke muudatusi. | Tasuta iseläbitav internetipõhine õppetee | 2.5 tundi |
+| [Finance and Operationsi rakendustega ühendamine](https://docs.microsoft.com/learn/paths/connect-finance-operations/) | Integratsioon ja oma andmetele juurdepääsu võimalus Finance and Operationsi rakendustes on olulised omadused. Arendajatel, kes on õppinud Finance and Operationsi rakendustes koodi kirjutama ja laiendama, on võimalus õppida uusi teadmisi andmeintegratsiooni kohta ja kuidas andmete ühendamine võib kasutajatele positiivselt mõjuda. | Tasuta iseläbitav internetipõhine õppetee | 5.75 tundi |
+| [Andmete migreerimine ning avaldamine Finance and Operationsi rakendustega](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | Funktsionaalse konsultandina peate mõistma, kuidas oma kliendi andmeid migreerimiseks ette valmistada, töötada andmehaldusega ja läbi viia kasutaja vastuvõtu testimist, et Finance and Operationsi rakenduste abil avaldada. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
 | [Finance and Operations: arenduse ALM (DYN766PAL)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-and-operations---development-alm-february-19-2020) | Selles arutelus käsitletakse arendatava rakenduse töötsüklihalduse kontseptsioone, tööriistu ja meie soovitatud parimaid tavasid. Käsitleme seda, kuidas Lifecycle Services, Visual Studio ja Azure DevOps töötavad koos, et võimaldada teie lahenduse koodibaasi pidevat äriprotsessile suunatud tarnet ja keskkondade hooldamist. | Veebikonverentsi tasuta salvestamine | 52 minutit |
 | [Finance and Operations: rakenduse Dynamics 365 for Finance and Operations laiendamine PowerAppsi abil (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Saate ülevaate Microsoft PowerAppsi lihtsusest ja sellest, kuidas seda saab integreerida Dynamics 365 for Finance and Operationsiga, et muuta digitaalselt ettevõtteid ja suurendada kasutaja tootlikkust. | Veebikonverentsi tasuta salvestamine | 43 minutit |
 | [Finance and Operations: laiendatavus (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Anname ülevaate ja uut teavet Microsofti laiendatavuse plaanide kohta. Me arutame üksikasjalikult lahenduse laiendamise erinevate viiside üle, uurides põhjalikult metaandmete laiendamisfunktsioone ning koodi suurendamise ja laiendamise võimet, sealhulgas võimsa käsuliini funktsiooni kaudu. | Veebikonverentsi tasuta salvestamine | 50 minutit |
@@ -58,8 +58,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="servicing"></a>Hooldus<a name="servicing"></a>
 
-| Sisu  | Kirjeldus  | Vorming  | Pikkus    |
-|-------------|-----------------|-------------|------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Finance and Operations: tootmise hooldamine, toetamine ja haldamine (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Tech Talk: kuidas oma Dynamics 365 for Finance and Operationsi tootmiskeskkonda tõhusalt toetada, hallata ja hooldada? | Veebikonverentsi tasuta salvestamine | 53 minutit |
 | [Finance and Operations: funktsioonihaldus (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Arutelu funktsioonihalduse kohta. See pakub tööruumi, kus saate vaadata, lubada, keelata ja ajastada igale väljalaskele lisatud funktsioone. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks. Osalege sellel koosolekul, et uurida, mis on uut versioonis 10.0.3 ja tutvuda meie tulevikuplaanidega. | Veebikonverentsi tasuta salvestamine | 47 minutit |
 | [Finance And Operations: Microsofti hallatavad pidevad värskendused (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Pidevad Finance and Operationsi värskendused on alanud! Liituge meiega selle tunni jooksul, et arutada Microsofti hallatavate pidevate värskenduste, Lifecycle Services'i juba saadaoleva kasutuskeskkonna ja tulevaste värskenduste üle. | Veebikonverentsi tasuta salvestamine | 61 minutit |
@@ -68,16 +68,17 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="migration-and-upgrade"></a>Migreerimine ja täiendamine<a name="migration-and-upgrade"></a>
 
-| Sisu  | Kirjeldus    | Vorming  | Pikkus    |
-|-------------|-----------------|-------------|------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
+| [Dynamics AX 2012 täiendamine Finance and Operations rakendustes](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | Siit leiate kõige olulisemad elemendid ja parimad tavad Dynamics AX 2012 lahenduse edukaks täiendamiseks Finance and Operations rakendustes. Alates peamistest arhitektuuriliste erinevuste avastamise esimestest sammudest, uuendusprotsessiga alustamisest ning koodi ja andmete täiendamise tööriistadest kuni parimate viisideni integreerimise, analüüsi ja aruandluse uusimate võimaluste põhjal ümber kujundada. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Finance and Operations: versiooni 7.x täiendamine versioonile 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Liituge meie järgmise aruteluga, mis hõlmab täiendusprotsessi versioonilt 7.X versioonile 8.X. Arutame erinevaid stsenaariume ja etappe koodi ja andmete täiendamiseks. Samuti käsitleme laiendatavuse taotluse stsenaariume ja seda, kuidas neid vajaduse korral suurendada. Osa 1/2. | Veebikonverentsi tasuta salvestamine | 61 minutit |
 | [Täiendamine versioonilt AX2012 rakendusele Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | See arutelu annab ülevaate sellest, kuidas täiendada Dynamics AX 2012 koodi ja andmeid rakendusele Dynamics 365 for Operations. | Veebikonverentsi tasuta salvestamine | 45 minutit |
 | [Migreerimistööriistad versioonist AX2009 rakendusele Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | See seanss hõlmab saadaolevaid tööriistu, mis aitavad teil migreerida versioonist AX2009 rakendusele D365 for Operations. | Veebikonverentsi tasuta salvestamine | 55 minutit |
 
 ## <a name="testing"></a>Testimisel<a name="testing"></a>
 
-| Sisu  | Kirjeldus  | Vorming  | Pikkus    |
-|-------------|-----------------|-------------|------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Finance and Operations: vastuvõtutesti teek (DYN650PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-acceptance-test-library-june-20-2019) | Tech Talk: kuidas oma Dynamics 365 for Finance and Operationsi tootmiskeskkonda tõhusalt toetada, hallata ja hooldada? | Veebikonverentsi tasuta salvestamine | 61 minutit |
 | [Finance and Operations: Regression Suite Automation Tool – taust ja seadistus (DYN646PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | See on esimene osa tööriista Regression Suite Automation Testing (RSAT) kaheosalisest seeriast. Selle seansi käigus uurime, kuidas hoida sammu pidevate värskendustega, kasutades automaattestimist RSAT-i kaudu. Räägime tegevuse salvestiste loomise õppetundidest ja soovitustest, testide tegemisest RSAT-i abil ning installi ja häälestuse etappidest. | Veebikonverentsi tasuta salvestamine | 70 minutit |
 | [Finance and Operations: Regression Suite Automation Tool – töötsükli demo testimine (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | See on teine osa tööriista Regression Suite Automation Testing (RSAT) kaheosalisest seeriast. See seanss hõlmab kogu Finance and Operationsis tegevuse salvestiste loomise ja LCS-is BPM-i teeki salvestamise tsükli demot, BPM-i teegi sünkroonimist, et luua Azure DevOpsis testjuhtumid, testjuhtumite rühmitamist testkomplektideks ning testkomplektide laadimist ja käivitamist RSAT-s. | Veebikonverentsi tasuta salvestamine | 70 minutit |
@@ -89,9 +90,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="exam"></a>Eksam<a name="exam"></a>
 
-| Sisu | Kirjeldus  | Vorming  |
-|-------------|-----------------|-------------|
-|[Eksam MB-500: Microsoft Dynamics 365: Finance and Operationsi rakenduste arendaja](/learn/certifications/exams/mb-500) | Selles eksamis kontrollitakse teie võimet täita järgmisi tehnilisi ülesandeid: planeerida arhitektuuri ja lahenduse kujundust; rakendada arendustööriistu; kujundada ja arendada AOT-elemente; kirjutada ja testida koodi; rakendada aruandlust; integreerida ja hallata andmelahendusi; ning rakendada turvet ja optimeerida jõudlust. | Eksam, hind varieerub piirkonniti |
-
+| Sisu | Kirjeldus | Vorming |
+|---------|-------------|--------|
+|[Eksam MB-500: Microsoft Dynamics 365: Finance and Operationsi rakenduste arendaja](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Selles eksamis kontrollitakse teie võimet täita järgmisi tehnilisi ülesandeid: planeerida arhitektuuri ja lahenduse kujundust; rakendada arendustööriistu; kujundada ja arendada AOT-elemente; kirjutada ja testida koodi; rakendada aruandlust; integreerida ja hallata andmelahendusi; ning rakendada turvet ja optimeerida jõudlust. | Eksam, hind varieerub piirkonniti |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941105"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219783"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Hanke integreerimine teenuste Supply Chain Management ja Field Service vahel
 
@@ -196,23 +196,10 @@ Järgmised mallid on saadaval hankega seotud dokumentidega integreerimiseks.
 
 | Supply Chain Management | Field Service | Kirjeldus |
 |---|---|---|
-| Ostutellimuse päis V2 | msdyn\_Purchaseorders | See tabel sisaldab veerge, mis tähistavad ostutellimuse päist. |
-| Ostutellimuse rea üksus | msdyn\_PurchaseOrderProducts | See tabel sisaldab ridu, mis tähistavad ostutellimuse ridu. Tootenumbrit kasutatakse sünkroonimiseks. See tuvastab toote varude arvestusühikuna (SKU), sh tootedimensioonid. Lisateavet toote Dataverse ’iga integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md). |
-| Toote sissetuleku päis | msdyn\_purchaseorderreceipts | See tabel sisaldab toote sissetuleku päiseid, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
-| Toote sissetuleku rida | msdyn\_purchaseorderreceiptproducts | See tabel sisaldab toote sissetuleku ridu, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
-| Ostutellimuse rea ajutiselt kustutatud üksus | msdyn\_purchaseorderproducts | See tabel sisaldab teavet ajutiselt kustutatud ostutellimuste ridade kohta. Ostutellimuse rea saab Supply Chain Managementis ajutiselt kustutada ainult siis, kui ostutellimus on kinnitatud või vastu võetud, kui muutuse haldamine on sisse lülitatud. Rida on Supply Chain Managementi andmebaasis olemas ja märgitud kui **IsDeleted**. Kuna Dataverse ei oma ajutiselt kustutamise kontseptsiooni, siis on oluline, et see teave oleks Dataverse’iga sünkroonitud. Sel viisil saab Supply Chain Managementis ajutiselt kustutatud read automaatselt Dataverse’ist kustutada. Sel juhul asub Dataverse’i rea kustutamise loogika Supply Chain Managementi laiendatud versioonis. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Ostutellimuse päis V2](mapping-reference.md#183) | msdyn\_Purchaseorders | See tabel sisaldab veerge, mis tähistavad ostutellimuse päist. |
+| [Ostutellimuse rea üksus](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | See tabel sisaldab ridu, mis tähistavad ostutellimuse ridu. Tootenumbrit kasutatakse sünkroonimiseks. See tuvastab toote varude arvestusühikuna (SKU), sh tootedimensioonid. Lisateavet toote Dataverse ’iga integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md). |
+| [Toote sissetuleku päis](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | See tabel sisaldab toote sissetuleku päiseid, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
+| [Toote sissetuleku rida](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | See tabel sisaldab toote sissetuleku ridu, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
+| [Ostutellimuse rea ajutiselt kustutatud üksus](mapping-reference.md#182) | msdyn\_purchaseorderproducts | See tabel sisaldab teavet ajutiselt kustutatud ostutellimuste ridade kohta. Ostutellimuse rea saab Supply Chain Managementis ajutiselt kustutada ainult siis, kui ostutellimus on kinnitatud või vastu võetud, kui muutuse haldamine on sisse lülitatud. Rida on Supply Chain Managementi andmebaasis olemas ja märgitud kui **IsDeleted**. Kuna Dataverse ei oma ajutiselt kustutamise kontseptsiooni, siis on oluline, et see teave oleks Dataverse’iga sünkroonitud. Sel viisil saab Supply Chain Managementis ajutiselt kustutatud read automaatselt Dataverse’ist kustutada. Sel juhul asub Dataverse’i rea kustutamise loogika Supply Chain Managementi laiendatud versioonis. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

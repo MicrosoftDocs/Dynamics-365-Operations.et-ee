@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899091"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183992"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -72,6 +72,7 @@ Järgmisi tootmise käivitamise toiminguid saab praegu käitada töömahu puhul,
 - Teata praagist
 - Kaudne tegevus
 - Paus
+- Teata lõpetamisest ja ära panemisest (nõuab, et käivitate ka lao käivitamise töökoormuse oma kaaluühikul, vt ka [Lõpetatuna kinnitamine ja mõõtude laadimine kaaluühikul](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Töötamine tootmise käivitamise töömahuga keskuses
 
@@ -108,6 +109,26 @@ Skaala ühikus töödeldud tööde ajaloo ülevaatamiseks logige sisse skaala ü
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Tootmiskeskus skaala ühiku teade protsessori töö jaoks
 
 _Tootmise keskus skaala ühiku teade protsessori_ töö töötleb andmeid keskusest skaala ühikule. See töö käivitatakse automaatselt, kui tootmise käivitamise töökoormus on kasutusel. Kuid saate seda käitada käsitsi igal ajal, minnes **Tootmise juhtimise \> Perioodiliste ülesannete \> BackOffice töökoormuse halduse \> Tootmise keskusestt skaala ühiku teate protsessorisse**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Lõpetamisest ja kõrvale panekust teatamine kaaluühikul
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Selles väljaandes teavitatakse lõpp- ja varjatud toimingutest (valmistoodete, kaastoodete ja kõrvalsaaduste puhul) mis on toeatatud [varude täiskoormuse puhul](cloud-edge-workload-warehousing.md) (mitte tootmise täiskoormuse puhul). Seetõttu peate selle funktsiooni kasutamiseks, kui see on ühendatud kaaluühikuga, tegema järgmist:
+
+- Installige oma kaaluühikusse nii lao käivitamise töökoormus kui ka tootmise käivitamise töökoormus.
+- Warehouse Management mobiilirakenduse abil saate teatada lõpetatund ja töödeldud töödest. Tootmispinna käivitamise liides ei toeta praegu neid protsesse.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796434"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193175"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Kaupluse tellimuse täitmise häälestus
 
@@ -33,9 +33,9 @@ Tellimuse täitmise toiming kassas annab kassas üksiku tööala, mida saab tell
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Tellimuse täitmise toimingu seadistamine
 
-Tellimuse täitmist, [toimingu ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), saab kasutada juurdepääsuks kaupluse tellimuse täitmise tööalale kassas.
+Tellimuse täitmist, [toimingu ID 928](pos-operations.md), saab kasutada juurdepääsuks kaupluse tellimuse täitmise tööalale kassas.
 
-Määrake kassas tellimuse täitmise käivitamisel kasutatav parameeter, järgides teemas [Nupupaneelile toimingu lisamine](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) kirjeldatud etappe. Pärast tellimuse täitmise toimingute määramist on vaikimisi valitud suvad **Kõik tellimused**. Selle parameetriga konfigureerimisel loetleb toimib kõik praeguses kaupluses täitmiseks mõeldud tellimuseread. Saadaval on ka suvand **Tellimused lähetamiseks**, mille saab määrata nupule ja kasutada, kui kasutaja soovib näha ainult tellimusi, mis saadetakse kauplusest välja. Samuti on siin suvand **Tellimused kättesaamiseks**. Kassas käivitamisel loetleb see ainult kaupluses kättesaamiseks mõeldud tellimused. Erinevatele nuppudele saab määrata erinevad parameetrid, et pakkuda kasutajatele erinevaid võimalusi tellimuse täitmise vaatamiseks.
+Määrake kassas tellimuse täitmise käivitamisel kasutatav parameeter, järgides teemas [Nupupaneelile toimingu lisamine](pos-screen-layouts.md) kirjeldatud etappe. Pärast tellimuse täitmise toimingute määramist on vaikimisi valitud suvad **Kõik tellimused**. Selle parameetriga konfigureerimisel loetleb toimib kõik praeguses kaupluses täitmiseks mõeldud tellimuseread. Saadaval on ka suvand **Tellimused lähetamiseks**, mille saab määrata nupule ja kasutada, kui kasutaja soovib näha ainult tellimusi, mis saadetakse kauplusest välja. Samuti on siin suvand **Tellimused kättesaamiseks**. Kassas käivitamisel loetleb see ainult kaupluses kättesaamiseks mõeldud tellimused. Erinevatele nuppudele saab määrata erinevad parameetrid, et pakkuda kasutajatele erinevaid võimalusi tellimuse täitmise vaatamiseks.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Saate lubada kasutajatel tellimuse täitmisele juurde pääseda kassas.
 
@@ -104,9 +104,9 @@ Vaikimisi on tellimuste olek **Aktsepteeritud**. Tellimuse olekut saab vaadata t
 
 - **Redigeeri** – kui tellimuse olek on Ootel, saab seda redigeerida kassas. Tellimusi, mis on juba osaliselt komplekteeritud, pakitud või arveldatud, ei saa tellimuse täitmise vaatel redigeerida.
 - **Aktsepteeri** – kui kanalitasemel on konfigureeritud suvand **Käsitsi aktsepteerimine**, tuleb read esmalt aktsepteerida, enne kui need saavad läbida tellimuse täitmise protsessi.
-- **Komplekteerimine** – komplekteerimissuvand toetab mitut tegevust. Kõigepealt värskendab tegevus **Komplekteerimine** tellimuserea olekut, et teised kaupluses ei püüaks sama rida komplekteerida. Seejärel prindib tegevus **Komplekteerimislehe printimine** valitud rea või ridade jaoks komplekteerimislehe ja värskendab nende oleku ka sättele **Komplekteerimisel**. Komplekteerimislehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Lõpuks näitab tegevus **Komplekteerituks märkimine**, et rida on komplekteeritud. **Komplekteerituks märkimine** näitab varukontoris vastavaid laokandeid. Komplekteerimistegevusi saab teha korraga mitme tellimuserea puhul kõigi tellimuste ja tarneviiside korral.
+- **Komplekteerimine** – komplekteerimissuvand toetab mitut tegevust. Kõigepealt värskendab tegevus **Komplekteerimine** tellimuserea olekut, et teised kaupluses ei püüaks sama rida komplekteerida. Seejärel prindib tegevus **Komplekteerimislehe printimine** valitud rea või ridade jaoks komplekteerimislehe ja värskendab nende oleku ka sättele **Komplekteerimisel**. Komplekteerimislehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](receipt-templates-printing.md). Lõpuks näitab tegevus **Komplekteerituks märkimine**, et rida on komplekteeritud. **Komplekteerituks märkimine** näitab varukontoris vastavaid laokandeid. Komplekteerimistegevusi saab teha korraga mitme tellimuserea puhul kõigi tellimuste ja tarneviiside korral.
 - **Lükka tagasi** – ridu või osalisi ridu saab tagasi lükata. See võimaldab neid varukontorist ümber määrata teise kauplusse või lattu. Ridu saab tagasi lükata ainult siis, kui need pole veel komplekteeritud või pakitud. Juba komplekteeritud või pakitud rea tagasilükkamiseks tuleb selle rea komplekteerimine või pakkimine varukontoris tühistada.
-- **Paki** – pakkimissuvand toetab kaht tegevust: **Prindi saateleht** prindib valitud ridade jaoks saatelehe ja **Märgi pakituks** märgib read pakituks ning märgib read varukontoris tarnituks. Korraga saab pakkida ainult samasse tellimusse kuuluvaid ja sama tarneviisiga tellimuseridu. Saatelehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Paki** – pakkimissuvand toetab kaht tegevust: **Prindi saateleht** prindib valitud ridade jaoks saatelehe ja **Märgi pakituks** märgib read pakituks ning märgib read varukontoris tarnituks. Korraga saab pakkida ainult samasse tellimusse kuuluvaid ja sama tarneviisiga tellimuseridu. Saatelehe vorminguid juhitakse kviitungivormingute osana. Lisateavet kviitungivormingute seadistamise kohta vt teemast [Kviitungite mallid ja printimine](receipt-templates-printing.md).
 - **Läheta** – lähetamistegevus märgib valitud ridade olekuks varukontoris **Tarnitud**. Kui rida on täielikult lähetatud, siis seda tellimuse täitmise vaates enam ei kuvata.
 - **Kättesaamine** – kättesaamistegevus lisab read kättesaamiseks kandevaatele. Kui tellimusel on muid ridu, mis pole praegu kättesaamisel, lisatakse need kandevaatele nullkogusega. Kui rida on täielikult kätte saadud, siis seda tellimuse täitmise vaates enam ei kuvata.
 

@@ -2,7 +2,7 @@
 title: Hetktõmmiste ülevaade (eelversioon)
 description: Selles teemas kirjeldatakse hetktõmmiste funktsiooni, mis võimaldab teil salvestada likviidsuse prognoosi hilisemaks analüüsimiseks või tegelikkusega võrdlemiseks. Likviidsuse prognoosi loomisel saate selle prognoosi salvestada hetktõmmisena. Seejärel saate kasutada hetktõmmiseid, et redigeerida prognoosi kaasatud kontosid või võrrelda hetktõmmise prognoosi tegelike näitajatega.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 593d6fa8efdecf1b64ef802e6861783d6f85489c
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827238"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186586"
 ---
 # <a name="snapshots-overview-preview"></a>Hetktõmmiste ülevaade (eelversioon)
 
@@ -42,9 +42,5 @@ Hetktõmmiste sularaha sissetulekuid ja väljaminekuid saab igal ajal redigeerid
 Mitme hetktõmmise võrdlemiseks valige käsk **Võrdle hetktõmmiseid**. Korraga saate võrrelda kaht hetktõmmist. Valige kaks hetktõmmist, mida võrrelda ja seejärel valige **OK**. Leht **Hetktõmmiste võrdlemine** kuvab valitud hetktõmmiste võrdluse. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa kahe prognoosi üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi saldode vahel.
 
 Tegelike finantstulemuste võrdlemiseks hetktõmmisena salvestatud prognoosiga valige **Võrdle tegelikega**. Lehel **Hetktõmmise võrdlemine** kuvatakse võrdlust tegelike summade ja prognoosi vahel. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa perioodi tegelike saldode ja prognoositud saldode üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi tegeliku saldo ja prognoositud saldo vahel.
-
-#### <a name="privacy-notice"></a>Privaatsusavaldus
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

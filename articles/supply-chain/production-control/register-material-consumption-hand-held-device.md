@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814532"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189638"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materjalitarbe registreerimine mobiilse seadmega
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814532"
 
 Selles teemas kirjeldatakse töövoogu, mis võimaldab registreerida tootmises toormaterjali pihuseadme abil.
 
-<a name="introduction"></a>Sissejuhatus
-------------
+## <a name="introduction"></a>Sissejuhatus
 
 See töövoog on vajalik juhul, kui materjali jälgitavus on rangelt nõutav. Sellistel juhtudel tuleb materjalide jälgitavuse tagamiseks registreerida tarbimisel täpne kellaaeg ja kogus. Seda protsessi võib vaadelda vastandina eelnevalt või järgnevale mahaarvamise toimingule, kus registreerimise aja ja tegeliku tarbimise aja vahel on nihe. See selgitab, miks mõne jälgitavuse nõudega materjali puhul ei saa kasutada automaatse tarbimise strateegiat. Vaatame lihtsat stsenaariumi, mis selgitab, kuidas seadistada töövoogu tooraine registreerimise võimaldamiseks tootmises pihuseadme abil. [![töövoo seadistamine tooraine registreerimise võimaldamiseks tootmises pihuseadme abil](./media/scenario3.png)](./media/scenario3.png)
 

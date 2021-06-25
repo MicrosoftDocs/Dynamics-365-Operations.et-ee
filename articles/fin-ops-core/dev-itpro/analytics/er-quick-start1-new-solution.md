@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891789"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224030"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Uue ER-i lahenduse kujundamine kohandatud aruande printimiseks
 
@@ -285,7 +285,7 @@ Jätkamiseks jätke järgmine protseduur [Uue andmemudeli konfiguratsiooni loomi
 
 Selle konfiguratsiooni versiooni 1 olek muudetakse olekust **Mustand** olekusse **Lõpule viidud**. Versiooni 1 ei saa enam muuta. See versioon sisaldab konfigureeritud andmemudelit ja seda saab kasutada teiste ER-i konfiguratsioonide alusena. Luuakse selle konfiguratsiooni versioon 2, mille olek on **Mustand**. Saate seda versiooni redigeerida, et kohandada andmemudelit **Küsimustik**.
 
-![Redigeeritava ER-i konfiguratsiooni versioonid lehel „Konfiguratsioonid”](./media/er-quick-start1-model-configuration.png)
+![Redigeeritava ER-i konfiguratsiooni versioonid konfiguratsioonide lehel](./media/er-quick-start1-model-configuration.png)
 
 Lisateavet ER-i konfiguratsioonide versioonide kohta leiate teemast [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md#component-versioning).
 

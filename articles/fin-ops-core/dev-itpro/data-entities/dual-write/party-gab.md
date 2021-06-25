@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937882"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216608"
 ---
 # <a name="party-and-global-address-book"></a>Osapool ja globaalne aadressiraamat
 
@@ -143,16 +143,22 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 
 ## <a name="setup"></a>Seadistus
 
-1. Installige viimane versioon (2.2.2.60 või uuem) [Topeltkirjutuslahenduse rakenduse orkestreeringulahendus](https://aka.ms/dual-write-app).
+1. Avage oma Customer Engagement rakenduse keskkond.
 
-2. Installige [Topeltkirjutuse osapoole ja globaalse aadressiraamatu lahendused](https://aka.ms/dual-write-gab).
+2. Installige viimane versioon (2.2.2.60 või uuem) [Topeltkirjutuslahenduse rakenduse orkestreeringulahendus](https://aka.ms/dual-write-app).
 
-3. Peatage järgmised kaardid, kuna need pole enam nõutavad. Selle asemel käivitage `Contacts V2 (msdyn_contactforparties)` kaart.
+3. Installige [Topeltkirjutuse osapoole ja globaalse aadressiraamatu lahendused](https://aka.ms/dual-write-gab).
+
+4. Avage Finance and Operations rakendus. Liikuge andmehalduse moodulisse ja valige Topeltkirjutus vahekaart. Avaneb topeltkirjutuse haldusleht.
+
+5. Rakendage mõlemad sammudes 2 ja 3 installitud lahendused kasutades [Teosta lahendus](link-your-environment.md) funktsiooni.
+
+6. Peatage järgmised kaardid, kuna need pole enam nõutavad. Selle asemel käivitage `Contacts V2 (msdyn_contactforparties)` kaart.
 
     + CDS Contacts V2 ja Contacts (viitab kliendi kontaktidele)
     + CDS Contacts V2 ja Contacts (viitab hankija kontaktidele)
 
-4. Järgmised üksuste vastendused värskendatakse osapoole funktsioonide jaoks, nii et nendele vastendustele tuleb rakendada uusimat versiooni.
+7. Järgmised üksuste vastendused värskendatakse osapoole funktsioonide jaoks, nii et nendele vastendustele tuleb rakendada uusimat versiooni.
 
     Vastenda | Värskendage selle versioonini | Muutused
     ---|---|---
@@ -176,7 +182,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
     `Salutations (msdyn_salutations)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | See on uus kaart, mis on osaliselt lisatud sellele väljalaskele.
 
-5. Enne ülalolevate kaartide käitamist, peate käsitsi värskendama integratsioonivõtmeid, nagu on kirjeldatud järgnevates sammudes. Seejärel valige nupp **Salvesta**.
+8. Enne ülalolevate kaartide käitamist, peate käsitsi värskendama integratsioonivõtmeid, nagu on kirjeldatud järgnevates sammudes. Seejärel valige nupp **Salvesta**.
 
     | Vastenda | Võtmed |
     |-----|------|
@@ -185,7 +191,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
     | Kliendi/Hankija kontakt | msdyn_contactforpartynumber [Osapoole Numbri Kontakt]<br>msdyn_company.cdm_companycode [Seotud Ettevõte (Ettevõtte Kood)] |
     | Tarnija | msdyn_vendoraccountnumber [Hankija Kontonumber]<br>msdyn_company.cdm_companycode [Ettevõte (Ettevõtte Kood)]|
 
-6. Dataverse’is duplikaadituvastusreeglite märgipiirid on suurendatud 450 märgilt 700-le. See piirang võimaldab teil lisada duplikaattuvastusreeglitele ühe või mitu võtit. Laiendage tabeli **Kontod** duplikaadituvastusreeglit, määrates järgmised väljad.
+9. Dataverse’is duplikaadituvastusreeglite märgipiirid on suurendatud 450 märgilt 700-le. See piirang võimaldab teil lisada duplikaattuvastusreeglitele ühe või mitu võtit. Laiendage tabeli **Kontod** duplikaadituvastusreeglit, määrates järgmised väljad.
 
     | Field | Väärtus |
     |-------|-------|
@@ -201,7 +207,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 
     ![Kontode duplikaatreegel](media/duplicate-rule-1.PNG)
 
-7. Laiendage tabeli **Kontod** duplikaadituvastusreeglit, määrates järgmised väljad.
+10. Laiendage tabeli **Kontod** duplikaadituvastusreeglit, määrates järgmised väljad.
 
     | Field | Väärtus |
     |-------|-------|
@@ -217,9 +223,9 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
 
     ![Kontaktidee duplikaatreegel](media/duplicate-rule-2.PNG)
 
-8. Kui olete olemasolev topeltkirjutusega kasutaja, järgige juhiseid [Täiendage osapoole ja globaalse aadressiraamatu mudelit](upgrade-party-gab.md) ning täiendage oma andmeid.
+11. Kui olete olemasolev topeltkirjutusega kasutaja, järgige juhiseid [Täiendage osapoole ja globaalse aadressiraamatu mudelit](upgrade-party-gab.md) ning täiendage oma andmeid.
 
-9. Tegevused käivitatakse järgmises järjestuses. Kui kuvatakse tõrge, mis teatab "Projekti kinnitamine nurjus". Puudub sihtväli...", seejärel avage kaart ja valige **Värskenda Tabeleid**. Seejärel käivitage kaart.
+12. Tegevused käivitatakse järgmises järjestuses. Kui kuvatakse tõrge, mis teatab "Projekti kinnitamine nurjus". Puudub sihtväli...", seejärel avage kaart ja valige **Värskenda Tabeleid**. Seejärel käivitage kaart.
 
     Finance and Operations rakendus | Klientide kaasamise rakendus  
     ----------------------------|------------------------

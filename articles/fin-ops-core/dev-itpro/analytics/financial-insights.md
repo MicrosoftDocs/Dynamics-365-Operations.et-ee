@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5654084232c2988ed844862b977945c04dbb0833
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935879"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193746"
 ---
 # <a name="financial-analysis"></a>Finantsanalüüs
 
@@ -87,7 +87,7 @@ Kuigi **finantsanalüüs** hõlmab finantsaruandeid, ei asenda see Financial rep
 Järgmine võrdlusdiagramm selgitab kahe võimaluse vahelisi erinevusi.
 
 
-|                                                          | Financial Reporting                                               | Finantsanalüüs |
+| Funktsioon                                                   | Financial Reporting                                               | Finantsanalüüs |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
 | **Vaikearuannete redigeerimine**                                 | Jah                                                               | Ei |
 | **Uute aruannete loomine**                                   | Jah                                                               | Ei |

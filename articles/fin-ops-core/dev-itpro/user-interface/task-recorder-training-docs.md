@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744159"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188071"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentide või koolituse loomine tegevuse salvestaja abil
 
@@ -31,8 +31,7 @@ See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas
 > [!IMPORTANT]
 > Saate salvestada oma rakenduse Dynamics 365 Human Resources tegevusjuhised, kuid ei saa neid praegu äriprotsesside modelleerija (BPM) teeki salvestada ega neid paanilt Spikker avada. Saate need lokaalselt või võrgukohta salvestada ning seejärel neid tegevuse salvestajaga avada ja esitada. 
 
-<a name="learn-about-task-recorder"></a>Teave tegevuse salvestaja kohta
--------------------------
+## <a name="learn-about-task-recorder"></a>Teave tegevuse salvestaja kohta
 
 Tegevuse salvestaja on tööriist, mille abil saab salvestada toote kasutajaliideses tehtavaid toiminguid. Tegevuse salvestaja kasutamisel jäädvustatakse kõik sündmused, mida kasutajaliideses teete ja mis serveri suhtes käivitatakse, sh väärtuste lisamine, sätete muutmine ja andmete eemaldamine. Salvestatud toiminguid nimetatakse ühiselt *tegevuse salvestiseks*. Tegevuse salvestisi saab kasutada mitmesugusel moel.
 
@@ -111,8 +110,7 @@ Saate Microsofti tegevuse salvestised alla laadida ja neid redigeerida, et kasut
 
 
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Spikrisüsteem](../../fin-ops/get-started/help-overview.md)
 

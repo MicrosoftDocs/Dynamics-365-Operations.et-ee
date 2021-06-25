@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825442"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188266"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
@@ -102,8 +102,7 @@ Kui loote kontsernisisese ostutellimuse, mis kasutab kontsernisisest ostulepingu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Ostulepingute finantsdimensioonid
 Saate kopeerida finantsdimensioonid dokumentide päistesse või ostutellimuse üksikutele ridadele. Kui muudate dimensioone lepingu päises või lepingu real, ei mõjuta muudatus ühtegi väljastatud tellimust, kuid kajastub kõigil uutel tellimustel.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+## <a name="additional-resources"></a>Lisaressursid
 
 [Ostulepingu loomine](tasks/create-purchase-agreement.md)
 

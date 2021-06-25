@@ -2,7 +2,7 @@
 title: Masinõppemudelite tulemused (eelversioon)
 description: Selles teemas käsitletakse segaduse maatrikseid, klassifitseerimisprobleeme ja täpsust masinõppe (ML) mudelites. Eesmärk on parandada oma arusaamist ML-i prognoosimise tulemuste täpsusest.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028199"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193536"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Masinõppemudelite tulemused (eelversioon)
 
@@ -129,16 +129,12 @@ Arvutuste lihtsustamiseks ehitati valimi massiivid, et sobitada tegelike ja prog
 
 Üksikasjalikumat teavet selle kalkulatsiooni töötamise kohta leiate sklearni mõõdikute klassifikatsiooni aruandest mudelile 1. Kolm olekut „õigel ajal”, „hilja” ja „väga hilja” tähistavad ridu, mis on vastavalt märgistatud kui 1, 2 ja 3. Makro keskmine on ainult veeru F1 skoori keskmine.
 
-|           | täpsus | tagasikutsumine   | f1-score |
+| &nbsp;    | täpsus | tagasikutsumine   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Need tulemused näitavad, et kahel mudelil on peaaegu identne F1 makro täpsuse punktisumma. Selles ja paljudel muudel juhtudel annab F1 täpsus mudeli võimekuse parema näidiku. Täpsuse puhul nõuab tulemuste tõlgendamine, et mõistaksite, millega tuleb mudelis arvestada.
-
-#### <a name="privacy-notice"></a>Privaatsusavaldus
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus; 2) ei ole hõlmatud selle teenuse teenusetaseme leppes; 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud; 4) on piiratud toega.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

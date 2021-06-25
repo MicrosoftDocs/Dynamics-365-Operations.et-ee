@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027790"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189174"
 ---
 # <a name="three-way-matching-policies"></a>Kolmesuunalised vastavusse viimise poliitikad
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027790"
 
 See teema sisaldab näiteid kolmesuunalise vastavusseviimise kohta.
 
-<a name="example-three-way-matching-for-items"></a>Näide: kaupade kolmesuunaline vastavusse viimine
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Näide: kaupade kolmesuunaline vastavusse viimine
 
 **Kokkuvõte:** Ken on kontroller Fabrikami nimelise juriidilise isiku peakontoris. Ken otsustab, et kõik ostutellimustel põhinevad hankija arved tuleks viia vastavusse ostutellimuse ridadega (kahesuunaline vastavusse viimine). Põhivaradena kasutatavate kaupade ostuarved peaksid aga olema vastavusse viidud nii ostutellimuse kui ka toote sissetuleku ridadega (kolmesuunaline vastavusse viimine).
 

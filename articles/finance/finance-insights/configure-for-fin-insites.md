@@ -1,8 +1,8 @@
 ---
-title: Finantsülevaadete konfigureerimine (eelversioon)
-description: See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi.
+title: Finance insights`i konfigureerimine - versioon kuni 10.0.19
+description: See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada Finance insights`is saadaolevaid võimalusi kuni versioonini 10.0.19.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941222"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186416"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Finantsülevaadete konfigureerimine (eelversioon)
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941222"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> Finance insights häälestamise järgmised protseduurid kehtivad Microsoft Dynamics 365 Finance kuni 10.0.19 versiooni puhul. Finance insights`i seadistamiseks versioonil 10.0.20 ja uuemates versioonides vt [Finance insights konfigureerimine (eelvaade) – versioonid 10.0.20 ja hilisemad](configure-for-fin-insites-PubPrvw.md).
+
 Finantsülevaated kombineerivad rakenduse Microsoft Dynamics 365 Finance funktsioonid teenustega Microsoft Dataverse, Azure ja AI Builder, et pakkuda võimsaid prognoosimise tööriistu teie organisatsioonile. See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi.
 
 ## <a name="deploy-dynamics-365-finance"></a>Rakenduse  Dynamics 365 Finance juurutamine
@@ -38,7 +41,7 @@ Keskkonna juurutamiseks tehke järgmist.
 
 1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage Dynamics 365 Finance’i keskkonda. Keskkond vajab rakenduse versiooni 10.0.11 / Platform värskendust 35 või uuemat.
 2. Keskkond peab olema hea kättesaadavusega (HA) liivakasti keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Kui kasutate Contoso demoandmeid, vajate Contoso makse prognoosimise kasutamiseks, rahavoo prognoosimiseks ja eelarve prognoosimise funktsioonideks täiendavaid näidisandmeid. 
+3. Finance insights`i konfigureerimisel võib olla peate prognooside tööle kopeerimiseks tootmisandmed sellele keskkonnale kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustuse mudeli liigenduste jaoks. 
 
 ## <a name="configure-dataverse"></a>Dataverse konfigureerimine
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897032"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188993"
 ---
 # <a name="get-started-with-financial-reporting"></a>Rakenduse Financial Reporting kasutamise alustamine 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897032"
 
 Selles teemas kirjeldatakse, kus pääseda juurde finantsaruandlusele ja kasutada finantsaruandluse võimalusi. See sisaldab ka pakutavate vaike-finantsaruannete kirjeldust.
 
-<a name="accessing-financial-reporting"></a>Juurdepääs finantsaruandlusele
------------------------------
+## <a name="accessing-financial-reporting"></a>Juurdepääs finantsaruandlusele
 
 Menüü **Finantsaruandlus** leiate järgmistest asukohtadest.
 
