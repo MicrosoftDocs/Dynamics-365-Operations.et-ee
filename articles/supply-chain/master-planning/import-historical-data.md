@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908876"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301646"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Nõudluse prognooside kohta varasemate andmete importimine
 
@@ -39,26 +39,6 @@ Andmeüksuse kasutamiseks peab teil olema Microsoft Exceli fail või komaeraldus
 
 Lisateavet andmete importimise kohta, sh kuidas andmed pärast importimist korrastada, vt jaotisest [Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ja sellega seotud teemadest.
 
-## <a name="example"></a>Näide
-
-Näitena saab kasutada järgmist faili. Laadige alla [HistoricalDemandData](/dynamics/s-e/). See fail sisaldab kauba D0001 varasema nõudluse andmeid. See sisaldab järgmisi kohustuslikke välju: laoala, kogus ja nõudluse kuupäev.
-
-1. Valige ettevõtte, mille alla varasema nõudluse andmed importida.
-2. Avage tööruum **Andmehaldus**.
-3. Valige paan **Import**.
-4. Sisestage impordiprojekti nimi, nt **Kauba D0001 varasema nõudluse importimine**.
-5. Valige väljalt **Lähteandmete vorming** imporditava faili vorming. Selles näites valige faili HistoricalDemandData importimiseks **CSV**.
-6. Tehke väljal **Üksuse nimi** valik **Varasem väline nõudlus**.
-7. Salvestage fail arvutisse ja laadige see siis üles.
-8. Valige **Impordi**.
-9. Leht **Täitmise kokkuvõte** avaneb automaatselt. Kontrollige lehelt imporditud andmeid.
-
-Pärast ajalooliste andmete importimist saate nõudluse prognoosi koostada.
-
-## <a name="additional-resources"></a>Lisaressursid
-
-[Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)  
-[Andmete importimis- ja eksportimistööde ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Vt ka [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216838"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306411"
 ---
 # <a name="inventory-forecasts"></a>Varude prognoosid
 
@@ -353,20 +353,46 @@ Kasutage seda protseduuri olemasolevate eelarvekande ridade töötlemiseks. Saat
 1. Kasutage jaotist **Finantsdimensioonid** eelarveridade finantsdimensioonide värskendamiseks. Valige finantsdimensioonid, mida soovite muuta ja seejärel sisestage väärtus, mida valitud dimensioonide puhul rakendada.
 1. Muudatuse rakendamiseks valige **OK**.
 
-## <a name="run-forecast-planning"></a>Prognoosi plaanimise käitamine
+## <a name="use-forecasts-with-master-planning"></a>Koondplaneerimine koos prognoosiga
 
-Pärast nõudlusprognoosi ja/või pakkumise prognoosi sisestamist saate prognoosimist kavandada, et arvutada brutovajadus materjalidele ja tootmisvõimsusele ning luua kavandatud tellimusi.
+Pärast oma nõudluse prognoosi ja/või pakkumise prognoosi sisestamist saate koondplaneerimise käigus kaasata prognoosid, et arvestada oodatud nõudluse ja/või pakkumise üle koondplaneerimise käituse. Kui eelarved on koondplaneerimisesse kaasatud, arvutatakse materjalide ja mahu brutonõuded ja luuakse plaanitud tellimused.
 
-1. Minge **koondplaneerimise \> prognoosimise \> prognoosimise plaanimise** juurde.
-1. Valige väljal **Eelarveplaan** sobiv eelarve plaan.
-1. Lubage **jälgi töötlemisaega** iga planeerimisülesande töötlemisaja salvestamiseks.
-1. Väljale **Lõimede arv** sisestage väärtus. (Lisateavet vt teemast [Koondplaneerimise jõudluse parandamine](master-planning-performance.md).)
-1. Sisestage tekst vajaliku lisateabe hõivamiseks väljale **Kommentaar**.
-1. Üksuste valiku piiramiseks valige kiirkaardil **Kaasatavad kirjed** suvand **Filtreeri**.
-1. Määrake **taustal käivitamise** kiirkaart, et täpsustada partii parameetrid.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Koondplaani seadistamine laovaru prognoosi kaasamiseks
+
+Järgige neid juhiseid, et seadistada koondplaan nii, et see hõlmaks laovaru prognoosi.
+
+1. Avage **Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid**.
+1. Valige olemasolev plaan või looge uus plaan.
+1. Määrake kiirkaardil **Üldine** järgmised väljad.
+
+    - **Eelarvemudel** – valige rakendatav eelarvemudel. Seda mudelit võetakse arvesse, kui praeguse koondplaani jaoks luuakse tarnesoovitus.
+    - **Kaasa tarneprognoos** – seadke selle suvandi väärtuseks *Jah*, et kaasata tarneprognoos praegusse koondplaani. Kui seate selle väärtuseks *Ei*, ei kaasata koondplaani tarneprognoosi kandeid.
+    - **Kaasa nõudluse prognoos** – seadke selle suvandi väärtuseks *Jah*, et kaasata nõudluse prognoos praegusse koondplaani. Kui seate selle väärtuseks *Ei*, ei kaasata koondplaani nõudluse prognoosi kandeid.
+    - **Prognoosinõuete vähendamiseks kasutatav meetod** – valige meetod, mida tuleks kasutada prognoosinõuete vähendamiseks. Lisateavet vt [Prognoosi vähendamise võtmed](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. Kiirkaardil **Ajapiirid päevades** saate seada järgmised väljad, et määrata periood, mille jooksul on prognoos kaasatud.
+
+    - **Eelarveplaan** – määrake selle suvandi väärtuseks *Jah*, et alistada üksikutest laovarude gruppidest pärinev eelarveplaani ajapiir. Seadke selle väärtuseks *Ei*, et kasutada praeguse koondplaani jaoks üksikute laovarude gruppide väärtuseid.
+    - **Prognoosi ajavahemik** – kui seate suvandi **Eelarveplaan** väärtuseks *Jah*, määrake päevade arv (alates tänasest kuupäevast), mida nõudluse prognoosi korral rakendada.
+
+    > [!IMPORTANT]
+    > Planeerimise optimeerimise korral ei toetata praegu veel valikut **Eelarveplaan**.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Koondplaani käivitamine, mis sisaldab laovaru prognoosi
+
+Järgige neid juhiseid, et käivitada koondplaan nii, et see hõlmaks laovaru prognoosi.
+
+1. Minge **Koondplaneerimise \>Tööruumid \> Koondplaneerimine**.
+1. Sisestage või valige väljal **Koondplaan** koondplaan, mille eelmises protseduuris seadistate.
+1. Valige paanil **Koonplaneerimine** **Käivita**.
+1. Määrake dialoogiboksis **Koondplaneerimine** suvand **Jälgi töötlemisaega** väärtuseks *Jah*.
+1. Väljale **Lõimede arv** sisestage arv.
+1. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**.
+1. Kuvatakse standardne päringu redaktori dialoogiaken. Valige vahekaardil **Vahemik** rida, kus väli **Väli** on määratud üksusele *Kaubakood*.
+1. Valige väljal **Kriteerium** kaubakood, mida plaani kaasata.
 1. Valige nupp **OK**.
 
-Arvutatud nõuete vaatamiseks avage leht **Brutonõue**. Näiteks valige **Väljastatud tooted** lehel **Plaan** vahekaardil **Nõuded** jaotises **Brutonõue**.
+Arvutatud nõuete vaatamiseks avage leht **Brutonõue**. Näiteks valige toimingupaanil **Väljastatud tooted** lehel **Plaan** vahekaardil **Nõuded** grupis **Brutonõue**.
 
 Loodud plaanitud tellimuste vaatamiseks minge **Koondplaneerimise \> Tava \> Plaanitud tellimused** ja valige sobiv eelarveplaan.
 
@@ -376,5 +402,6 @@ Loodud plaanitud tellimuste vaatamiseks minge **Koondplaneerimise \> Tava \> Pla
 - [Nõudluse prognoosi häälestus](demand-forecasting-setup.md)
 - [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
 - [Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
+- [Koondplaneerimine koos nõudluse prognoosidega](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

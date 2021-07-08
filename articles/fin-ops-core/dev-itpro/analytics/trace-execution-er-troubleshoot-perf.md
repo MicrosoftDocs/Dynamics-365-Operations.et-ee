@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
 description: Selles teemas kirjeldatakse, kuidas kasutada elektroonilises aruandluses (ER) jõudluse jälituse funktsiooni jõudluse probleemide tõrkeotsingu tegemiseks.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944649"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295569"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER-vormingute täitmise jälitus jõudluse probleemide tõrkeotsinguks
 
@@ -119,12 +119,27 @@ Andmemudeli ja mudelivastenduse vastavate versioonide konfiguratsioonid impordit
 2. Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
 3. Toimige dialoogiboksi **Kasutaja parameetrid** jaotises **Täitmise jälitus** järgmiselt.
 
-    1. Valige väljal **Täitmise jälituse vorming** valik **Jälituse vormingu silumine**, et alustada ER-vormingu täitmise üksikasjade kogumist. Kui see väärtus on valitud, kogub jõudluse jälitus teavet järgmistele toimingutele kulutatud aja kohta.
+    1. Määrake väljal **Täitmise jälituse vorming** loodud jõudluse jäljele vorming, milles talletatakse täitmise üksikasjad ER-vormingu ja vastendamise elementide jaoks.
 
-        - Iga andmeallika käitamine mudelivastendusel, mida kutsutakse andmeid tooma
-        - Iga vormingu üksuse töötlemine andmete sisestamiseks loodavasse väljundisse
+        - **Silumise jälgimisvorming** – valige see väärtus, kui plaanite interaktiivselt käitada lühikese täitmisajaga ER-vormingu. Siis käivitatakse ER-vormingu käivitamise üksikasjade kogum. Kui see väärtus on valitud, kogub jõudluse jälitus teavet järgmistele toimingutele kulutatud aja kohta.
 
-        Välja **Täitmise jälituse vorming** kasutate selleks, et määrata loodud jõudluse jäljele vorming, milles talletatakse täitmise üksikasjad ER-vormingu ja vastendamise elementide jaoks. Kui valite väärtuseks **Jälituse vormingu silumine**, saate analüüsida jälje sisu ER-i toimingukoostajas ja näha ER-vorminguid või vastendamise elemente, mis on jäljes mainitud.
+            - Iga andmeallika käitamine mudelivastendusel, mida kutsutakse andmeid tooma
+            - Iga vormingu üksuse töötlemine andmete sisestamiseks loodavasse väljundisse
+
+            Kui valite **silumisjälje vormingu** väärtuse, saate analüüsida jälje sisu ER-toimingu kujundajas. Seal saate vaadata jäljes mainitud ER-vormingut või vastendamise elemente.
+
+        - **Kokkuvõtlik jälgimisvorming** – valige see väärtus, kui plaanite käitada pika täitmisajaga ER-vormingu partiirežiimis. Siis käivitatakse ER-vormingu käivitamise kokkuvõtlik üksikasjade kogum. Kui see väärtus on valitud, kogub jõudluse jälitus teavet järgmistele toimingutele kulutatud aja kohta.
+
+            - Iga andmeallika käitamine mudelivastendusel, mida kutsutakse andmeid tooma
+            - Iga andmeallika käitamine vormingu vastendusel, mida kutsutakse andmeid tooma
+            - Iga vormingu üksuse töötlemine andmete sisestamiseks loodavasse väljundisse
+
+            **Agregaeeritud jälitusvormingu** väärtus on saadaval Microsoft Dynamics 365 Finance versioonis 10.0.20 või uuemas.
+
+            ER-vormingu kujundajas ja ER-mudeli vastendamise kujundajas saate vaadata üksiku komponendi kogu täitmisaega. Lisaks sisaldab jälg käivitamise üksikasju, nt teostamiste arvu ning üksiku käivitamise minimaalset ja maksimaalset aega.
+
+            > [!NOTE]
+            > See jälg kogutakse jälgitud komponentide tee põhjal. Seetõttu võib statistika olla vale, kui üksik vanemkomponent sisaldab mitut nimetamata alamkomponenti või kui mitme alamkomponendi nimi on sama.
 
     2. Määrake järgmiste suvandite olekuks **Jah**, et koguda kindlaid üksikasju ER-i mudelivastenduse ja ER-vormingu komponentide täitmise kohta.
 

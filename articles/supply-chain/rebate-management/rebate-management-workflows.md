@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee342de6d069131e230120c5d65aef58da8e632a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8436842b4f07ba000649075198bdef43ad508f8f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020382"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270953"
 ---
 # <a name="rebate-management-deal-workflows"></a>Tagasimaksehalduse tehingu töövood
 
@@ -27,12 +27,12 @@ ms.locfileid: "6020382"
 
 Tagasimaksete kinnitamiseks kasutab Tagasimaksehaldus sama töövoo platvorme kui teised Finance and Operations rakendused. Iga töövooga on seotud kaks tööprotsessi.
 
-- Üks töövoo element aktiveerib tehingu, nii et kasutaja või töövoo protsess saab kanded kinnitada.
 - Üks töövoo element kinnitab tehingu.
+- Üks töövoo element aktiveerib tehingu, nii et kasutaja või töövoo protsess saab kanded kinnitada.
 
 Enne tagasimakse tehingu kasutamist peab see olema aktiivne moodulis **Tagasimaksehaldus**. Tehingu aktiveerimiseks peate esmalt looma ja konfigureerima töövoo *Tagasimaksehalduse tehingu töövoog*.
 
-Pärast töövoo aktiveerimist Tagasimakse halduse jaoks ei saa kasutajad tehinguid käsitsi kinnitada. Töövoogu peab alati kasutama.
+Kasutajad ei saa tehinguid käsitsi kinnitada. Töövoogu peab alati kasutama.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Tagasimaksehalduse tehingu töövoogude loomine ja haldamine
 
@@ -42,4 +42,17 @@ Tagasimaksehalduse tehingu töövoogudega töötamiseks minge **Tagasimaksehaldu
 
 Tehingu aktiveerimiseks töövoo kaudu avage tehing (nt lehel **Kõik tagasimaksehalduse tehingud**). Seejärel valige toimingupaanil **Töövoog \> Edasta**. Kui uus tehing on töövoo kaudu töödeldud ja kinnitatud, on see aktiivne ja kasutamiseks valmis.
 
-Pärast tehingu aktiveerimist ei saa te selle seadistust muuta. Kui peate aktiivset tehingut muutma, inaktiveerige see ja seejärel looge uus tehing. Kui uus tehing sarnaneb vana tehinguga, saate selle luua vana tehingut kopeerides.
+Pärast tehingu aktiveerimist ei saa te enamust selle seadistusest muuta. Kui peate aktiivset tehingut muutma, esmalt inaktiveerige see ja seejärel looge uus tehing. Kui uus tehing sarnaneb vana tehinguga, saate selle luua vana tehingut kopeerides.
+
+Saate muuta tehingu järgmisi sätteid pärast selle aktiveerimist:
+
+- Vastavusseviimine
+- Kumulatiivne garantii
+- Sisestusreeglid
+- Garantii sisestusprofiil
+- Dokumendi märkused
+- Currency
+- Alates kuupäevast
+- Lõppkuupäev
+
+Lisaks saab tagasimakse read eemaldada.

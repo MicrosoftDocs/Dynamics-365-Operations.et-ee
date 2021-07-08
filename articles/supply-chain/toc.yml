@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (mai 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Managementi 10.0.17 (aprill 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -603,6 +601,20 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Kulujuhtimise tööruumi kasutamine Finance and Operationsi mobiilirakenduses
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Globaalne laoarvestus
+          items:
+            - name: Globaalse laoarvestuse kodulehekülg
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Globaalse laoarvestusega alustamine
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: Globaalse laoarvestuse toetatavad äridokumendid
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Power BI lubamine globaalse laoarvestuse jaoks
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Reeglid
+              href: global-inventory-accounting/conventions.md
+            - name: Globaalse laoarvestuse pearaamat
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Kuluhaldus
           items:
             - name: Kuluhalduse avaleht
@@ -873,6 +885,12 @@
               items:
                 - name: Valemi keel
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER-valemite toetatud andmetüübid
+                  items:
+                    - name: Primitiivsed andmetüübid
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Liitandmetüübid
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funktsioonid
                   items:
                     - name: Konteiner
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Rakenduse värskendus 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Rakenduse värskendus 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
                   items:
                     - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Elektroonilise aruandluse sihtkoha loomise delegeerimine kohandatud sihttehasesse
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: KASUTAJA SISENDPARAMEETRI tüübi andmeallika väärtuste käivitamine lähtekoodist
+                - name: Loodud dokumentidele kohandatud sihtkoha juurutamine
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Tüübi USER INPUT PARAMETER andmeallika väärtuste käivitamine lähtekoodist
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Varude haldus
           items:
@@ -1483,7 +1505,7 @@
                   href: inventory/tasks/create-maintain-inventory-blocking.md
             - name: Varude toimingud
               items:
-                - name: Varude töölehed
+                - name: Laotöölehed
                   href: inventory/inventory-journals.md
                 - name: Varude töölehe kinnitustöövood
                   href: inventory/inventory-journal-workflow.md
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Ohutuspiirid
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Viivituse kõikumine (negatiivsed päevad)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Ostutaotlused
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Tootmise planeerimine
@@ -1603,6 +1627,8 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Konkreetsete toote töötsükli olekutega toodete väljajätmine
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Täiendamismeetodid ja koguse muutmine
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Laovarude ajapiirid
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Plaanitud tellimuste kinnitamine
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Sissetulevate ASN-ide importimine V2 andmeüksuse kaudu
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Toodete ristlaadimine vastuvõtvast laost kauplustesse
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
@@ -3215,9 +3243,11 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Osalise asukoha tsüklilise inventuuriprotsessi määratlemine
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Tsüklilise inventuuri näidisstsenaariumid
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: Laohalduse vabade kannete puhastamise töö
                       href: warehousing/onhand-cleanup.md
-                    - name: Varude töölehed
+                    - name: Laotöölehed
                       href: inventory/inventory-journals.md
                     - name: Lao asukoht
                       href: inventory/inventory-locations.md
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Laotöö tõrkeotsing
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: Laorakendus
+              items:
+                - name: 'Mobiilsete seadmete installimine, häälestamine ja kasutamine'
+                  items:
+                    - name: Mis on uut või mida on muudetud mobiilirakenduses Warehouse Management?
+                      href: warehousing/whats-new-wma.md
+                    - name: Mobiilirakenduse Warehouse Management installimine ja ühendamine
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Laorakenduse installimine ja ühendamine
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Vöötkoodide skannimine kaamera abil mobiilirakenduses Warehouse Management
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Mobiilirakenduse Warehouse Management ühendusprobleemide tõrkeotsing
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Mobiilsete seadmete väljade ja menüüde seadistamine
+                  items:
+                    - name: Mobiilirakenduse Warehouse Management väljade konfigureerimine
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiilsete seadmete häälestus laotöö jaoks
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Mobiilse seadme menüükäsu seadistamine komplekteerimisrea kohta ülevaate andmiseks
+                      href: warehousing/pick-line-overview.md
+                    - name: Mobiilse seadme menüükäsu loomine litsentsiplaadi konsolideerimiseks
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Kombineeritud litsentsiplaadi vastuvõtt mobiilsesse seadmesse
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Laos olevate vanemate partiide mobiilses seadmes kuvamise konfigureerimine
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Vanima partii komplekteerimine mobiilsel seadmel
+                      href: warehousing/pick-oldest-batch.md
+                - name: Mobiilse seadme kasutaja sätted
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Laorakenduse sündmusetöötlus
+                  href: warehousing/warehouse-app-events.md
+                - name: Laorakenduse kohandamine
+                  items:
+                    - name: Protsessijuhendi raamistik
+                      href: warehousing/process-guide-framework.md
+                    - name: Etapiikoonide ja pealkirjade määramine
+                      href: warehousing/step-icons-titles.md
             - name: Lao häälestus
               items:
                 - name: Lao konfiguratsioon
@@ -3277,13 +3353,17 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Voosildi printimine
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Voosildi printimise ajastamine voo ajal
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Konteinerisse määramine
                           href: warehousing/wave-containerization.md
+                        - name: Konteineri pakkimise strateegiad
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Saadetiste automaatne värskendamine
                       href: warehousing/auto-update-shipment.md
                     - name: Asukohaprofiili loomine
                       href: warehousing/tasks/create-location-profile.md
-                    - name: Asukohtade konfigureerimine WMS-loaga laos
+                    - name: Asukohtade konfigureerimine LHS-i loaga laos
                       href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
                     - name: Laoasukoha olek
                       href: warehousing/warehouse-location-status.md
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Lao konfiguratsiooni tõrkeotsing
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Mobiilirakenduse Warehouse Management installimine ja konfigureerimine
-                  items:
-                    - name: Mobiilirakenduse Warehouse Management installimine ja ühendamine
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Mobiilse seadme kasutaja sätted
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Laorakenduse installimine ja ühendamine
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Vöötkoodide skannimine kaamera abil mobiilirakenduses Warehouse Management
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Mobiilirakenduse Warehouse Management väljade konfigureerimine
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobiilsete seadmete häälestus laotöö jaoks
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Etapiikoonide ja pealkirjade määramine
-                      href: warehousing/step-icons-titles.md
-                    - name: Laorakenduse sündmusetöötlus
-                      href: warehousing/warehouse-app-events.md
-                    - name: Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Mobiilse seadme menüükäsu seadistamine komplekteerimisrea kohta ülevaate andmiseks
-                      href: warehousing/pick-line-overview.md
-                    - name: Mobiilse seadme menüükäsu loomine litsentsiplaadi konsolideerimiseks
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Kombineeritud litsentsiplaadi vastuvõtt mobiilsesse seadmesse
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Laos olevate vanemate partiide mobiilses seadmes kuvamise konfigureerimine
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Vanima partii komplekteerimine mobiilsel seadmel
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Protsessijuhendi raamistik
-                      href: warehousing/process-guide-framework.md
-                    - name: Mobiilirakenduse Warehouse Management ühendusprobleemide tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Täiendamine ja migreerimine
                   items:
                     - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versiooniks Finance and Operations
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Koondplaneerimine
               items:
+                - name: Sisseehitatud koondplaneerimise mootori käitamisel kuvatakse tõrge
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: Kaubal ei saa olla kooslust ega valemit
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Parameetreid koondplaanile pole olemas
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: 'Plaanitud tootmistellimus peab olema plaanitud enne, kui seda saab kinnitada'
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: Toode on kande jaoks ootel
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: Valitud valeminumber ei ole partiitellimuse puhul kinnitatud.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Hankija kood pole kindla toote ja kuupäeva jaoks autoriseeritud
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: Plaanitud tellimuste kinnitamisel pole hankijat määratud
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: Otse tuletatud kindlad tellimused töödeldakse ülevaatuse töövooga
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Koondplaneerimise üksuseid ei saa filtreerida seotud laovarude grupi väärtuste alusel
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Laohaldus
               items:
+                - name: Tühistatud toote sissetulekud ei värskenda kannete olekut olekusse Registreeritud
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: Värskendatava füüsilise koguse kümnendkohani ümardamine on vale
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: Füüsiliselt järelejääv kogus ühikus peab nullist erinema
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: Komplekteeritud kogus pole saatelehe loomisel piisav
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: Kogus ületab ületarne protsendi saatelehe loomisel
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: 'Kogus, mida püüate värskendada, ületab saadud või tarnitud koguse'
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: Kogus ületab alatarne protsendi saatelehe loomisel
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: Komplekteerimislehe registreerimise ajal ilmneb asukoha valimisel tõrge
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: Pakkimisjaam ei kuva tootemärkmeid

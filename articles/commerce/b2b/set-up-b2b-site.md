@@ -14,17 +14,16 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 461e79f63569bbfe77f9075c562a5b1f3da28cc2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e46b04005b03a2a4c1ce50650a51ba4e02d85111
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018851"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270905"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-kaubandussaidi häälestamine
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Ettevõtetevahelised (B2B) e-kaubanduse saidid pakuvad mõningaid võtmefunktsioone, mis optimeerivad töövoogu B2B-kasutaja jaoks. Selles teemas kirjeldatakse B2B e-kaubanduse saidi loomist lahenduses Microsoft Dynamics 365 Commerce. See käib läbi moodulite ja saidisätete, mis tuleb B2B-spetsiifiliste stsenaariumite lubamiseks konfigureerida.
 

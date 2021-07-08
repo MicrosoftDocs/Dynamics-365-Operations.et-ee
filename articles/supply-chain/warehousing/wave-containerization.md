@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019047"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292733"
 ---
 # <a name="containerization"></a>Konteinerisse määramine
 
@@ -108,6 +108,8 @@ Konteineri koostemalli häälestamiseks tehke järgmist.
 
       - **Pakenda kõikidesse avatud konteineritesse** – süsteem tuvastab, kas eraldusrida mahub mõnesse konteinerisse, mis loodi konteineri koostamise tsükli ajal.
       - **Pakenda ainult praegusesse konteinerisse** – süsteem tuvastab vaid seda, kas eraldusrida mahub viimati loodud konteinerisse.
+
+    Lisateavet ja näiteid konteinerite pakkimise strateegiatega töötamise kohta leiate teemast [Konteinerite pakkimise strateegiad](container-packing-strategy-overview.md).
 
 1. Eraldusridade konteinerisse pakkimise reeglite seadistamiseks valige **Koostamisloogika pausid**. Näiteks saate luua reegli, mis võimaldab töötajatel pakkida kahe erineva kauba eraldusread samasse konteinerisse. Koostamisreegli määratlemiseks tehke järgmist.
 

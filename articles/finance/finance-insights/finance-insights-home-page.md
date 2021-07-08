@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
+ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222506"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261906"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finantsülevaadete avaleht (eelversioon)
 
@@ -32,6 +32,9 @@ Finantsülevaated pakuvad konfigureeritavaid ja laiendatavaid mudeleid, mis aita
 Finantsülevaadete eelversioon on proovimiseks saadaval juurutustes Ameerika Ühendriikides, Euroopas ja Ühendkuningriigis. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
 
 Eelversiooni funktsioone saab ja tuleb sisse lülitada ainult järgu 2 liivakasti keskkondades. Liivakasti keskkonnas loodud seadistust ja tehisintellekti (AI) mudeleid ei saa töökeskkonda migreerida. Lisateavet leiate teemast [Microsoft Dynamics 365 eelversioonide täiendavad kasutustingimused](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+
+> [!NOTE]
+> Seda funktsiooni pakutakse eelvaate funktsioonide komplektina. Eelvaate funktsioonina ei tohiks te kasutada tulemuseks saadud masinõppe mudeleid, et juhtida või mõjutada oma äriotsuseid või eelarvete ettepanekuid. Selle funktsiooni kasutamist reguleeritakse jaotisega [Lisatingimusted](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 ## <a name="prerequisites"></a>Eeltingimused
 

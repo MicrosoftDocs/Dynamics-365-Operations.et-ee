@@ -1,8 +1,8 @@
 ---
-title: Millal andmevakka lähtestada?
-description: Selles teemas loetletakse tingimused, mida võib saada parandada andmevaka lähtestamisega, ja tingimused, mille korral teie andmevaka lähtestamine on tõenäoliselt abiks.
+title: Andmevaka lähtestamise KKK
+description: Selles teemas antakse vastused mõnele korduma kippuvatele küsimustele andmevaka lähtestamise kohta.
 author: jinniew
-ms.date: 05/06/2021
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,40 +14,47 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: bc2c4ee490f3bebd6e7c91609a06f8dfedfcb628
-ms.sourcegitcommit: 5916ea2a94ab9af7aac21f0fc44e194d5ce82917
+ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "5988988"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266605"
 ---
-# <a name="when-to-reset-a-data-mart"></a>Millal andmevakka lähtestada?
+# <a name="data-mart-resets-faq"></a>Andmevaka lähtestamise KKK
 
-Andmevaka lähtestamine võib aega võtta. Olenevalt olukorrast ei pruugi see toiming olla vajalik lahendus. Selles teemas loetletakse nii tingimused, mida võib saada parandada andmevaka lähtestamisega, kui ka tingimused, mille korral teie andmevaka lähtestamine on tõenäoliselt abiks.  
+Selles teemas antakse vastused mõnele korduma kippuvatele küsimustele andmevaka lähtestamise kohta. Andmevaka lähtestamine võib olla aeganõudev protsess ja olenevalt olukorrast ei pruugi see olla vajalik lahendus. Seetõttu sisaldab see teema teavet olukorrast, kus andmevaka lähtestamine võib aidata ning ka olukordi, kus ei saa.
 
-## <a name="when-do-i-need-to-do-a-data-mart-reset"></a>Millal tuleb andmevakk lähtestada?
-Enne andmevaka lähtestamist laakuge järgmist. Ühele või mitmele küsimusele jaatavalt vastamine võib näidata, et teie organisatsioon võib andmevaka lähtestamisest kasu saada.
-
-- Kas rakenduse andmebaas taastati?
-- Kui olete avanud tugijuhtumi ja tugiinsener on juhendanud teid lähtestama andmevaka tõrkeotsingu sammu osana?
- 
-## <a name="when-is-it-not-appropriate-to-reset-a-data-mart"></a>Millal pole andmevaka lähtestamine sobiv lahendus?
-Mõne olukorra puhul me ei soovita andmevakka lähtestada. Need hõlmavad järgmist. 
-
-- Teil esineb andmete sünkroonimisega seotud jõudlusprobleeme. 
-- Kui teil on mõne järgmise põhjuse tõttu korduv lähtestamise muster. 
-  - **Puuduvad andmed** 
-  - **Kinnise integratsiooni olek** 
-  - **Aegunud kirjed** – aegunud kirjed ei pruugi andmevaka lähtestamist alati õigustada. Kui teil on suur andmekomplekt, võtab lähtestamisprotsess aega, kuid tõenäoliselt on see täiustus.
- 
 ## <a name="what-is-a-data-mart-reset"></a>Millal lähtestada andmevakka?
-- Lähtestamine algab ainult siis, kui olemasolevad ülesanded on lõpetatud. See tagab, et vanu andmeid ei lisata. Selles punktis võite näha järgmist teadet: „Andmevaka lähtestamist ei saanud aktiivse ülesande tõttu töödelda. Proovige hiljem uuesti.”
-- Lähtestamine keelab integratsioonitoimingud ja kustutab kõik andmevaka andmed. Integratsioon lubatakse uuesti.
 
-## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Kui lähtestan andmed marti, kas kaotan aruanded, mis ma juba kujundanud olen? 
-Ei, teie aruandeid talletatakse SQL-tabelites, mida ei mõjuta andmete lähtestamine marti. Kui olete mures mõne loodud aruande kaotamise pärast, saate varundada kujundused, mida te ei soovi kaotada. Nende varundamiseks avage aruandekujundaja ja minge **Ettevõtte > Ettevõtted > Koosteüksused > Eksport**.
+Andmevaka lähtestamine keelab integratsioonitoimingud, kustutab kõik andmevaka andmed ja lubab seejärel integreeruda uuesti.
+
+Kindlustamaks, et vanu andmeid ei lisata, saab andmevakka lähtestada alles pärast olemasolevate ülesannete lõpuleviimist. Kui proovite lähtestada andmevakka enne kõigi ülesannete lõpetamist, võite saada sõnumi, näiteks: "Andmevaka lähtestamist ei saanud aktiivse ülesande tõttu töödelda. Proovige hiljem uuesti.”
+
+## <a name="when-do-i-have-to-do-a-data-mart-reset"></a>Millal tuleb andmevakk lähtestada?
+
+Kui teie olukorras kehtib üks või mitu järgnevat lauset, võib teie organisatsioonile olla kasulik andmevaka lähtestamine.
+
+- Rakenduse andmebaas taastati.
+- Olete avanud tugipileti ja tugiinsener juhendas teid lähtestama andmevaka tõrkeotsingu sammu osana.
  
-## <a name="is-it-necessary-for-all-users-to-exit-the-system-to-reset-the-data-mart"></a>Kas kõigi kasutajate puhul tuleb andmete lähtestamiseks süsteemist väljuda?
-Ei, kasutajad saavad andmete marti lähtestamise ajal süsteemiga tööd jätkata. Kuid enne lähtestamist ei pääse nad juurde aruannetele, mis on loodud finantsaruandluse aru anda. 
+## <a name="when-is-a-data-mart-reset-inappropriate"></a>Millal on sobilik andmevakka lähtestada?
+
+Siin on mõned olukorrad, kus me ei soovita andmevakka lähtestada.
+
+- Teil esineb andmete sünkroonimisega seotud jõudlusprobleeme.
+- Teil on mõne järgmise põhjuse tõttu korduv lähtestamise muster.
+
+    - **Puuduvad andmed** – kui märkate, et andmed puuduvad, avage koos Microsoftiga tugipilet, et vaadata üle teie aruande vorming ja võimalikud andmete sünkroonimise probleemid.
+    - **Kinnise integratsiooni olek**
+    - **Aegunud kirjed** – aegunud kirjed ei pruugi andmevaka lähtestamist alati õigustada. Kui teil on suur andmekomplekt, võtab lähtestamisprotsess aega, kuid tõenäoliselt ei vii see täiustamiseni.
+
+## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Kui lähtestan andmed marti, kas kaotan aruanded, mis ma juba kujundanud olen?
+
+Ei. Teie aruandeid talletatakse SQL-tabelites, mida ei mõjuta andmevaka lähtestamine. Kui olete mures mõne loodud aruande kaotamise pärast, saate varundada kujundused, mida te ei soovi kaotada. Kujunduste varundamiseks avage aruandekujundaja ja minge **Ettevõtte \> Ettevõtted \> Koosteüksused \> Eksport**.
+ 
+## <a name="do-all-users-have-to-exit-the-system-before-i-can-reset-the-data-mart"></a>Kas kõik kasutajad peavad süsteemist väljuma, enne kui ma andmevakka lähtestan?
+
+Ei. Kasutajad saavad andmevaka lähtestamise ajal süsteemiga tööd jätkata. Kuid enne lähtestamise lõppu ei pääse kasutajad juurde aruannetele, mis on loodud Financial Reporter abil.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020455"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271049"
 ---
 # <a name="rebate-management-module-overview"></a>Tagasimaksehalduse mooduli ülevaade
 
@@ -70,7 +70,7 @@ Tagasimakseid saab konfigureerida paljude erinevate parameetrite alusel. Näitek
 
 Tagasimakse kalkulatsiooni tulemusi saab vähendada ka teiste tagasimaksete võrra, sõltuvalt sellest, kas tagasimakse on seadistatud arvutama netosumma põhjal või mitte.
 
-Müüja poolel saavad allahindlused hinna arvutamisel lähtuda FIFO-reeglist, viimase ostuhinnast, keskmisest ostuhinnast või müügihinnast.
+Müüja poolel saavad müügitellimustel põhinevad allahindlused hinna arvutamisel lähtuda FIFO-reeglist, viimase ostuhinnast, keskmisest ostuhinnast või müügihinnast.
 
 ## <a name="rebate-target-transactions"></a>Tagasimakse sihtkanded
 
@@ -84,11 +84,12 @@ Kauba väljundid loovad vaba kauba müügitellimuse kliendi tagasimaksetele ja o
 
 Seotud tehingute, arvutuste sageduse, arvutusaluse ja valitud arvutusmeetodi kombinatsioon määrab allahindluste arvutuste täpsuse. Tagasimakse sätteid saab kasutada postitatud ja taotletud väärtuste kogumiseks.
 
-Sätteid saab hallata iga päev või iga kuu. Kuid funktsionaalsus võib eraldada või maksta tagasimakset või saada selle eest tasu mis tahes kindlaksmääratud sagedusega. Kasutajad saavad väljamakse ajal plaani või makseid hõlpsalt kohandada.
+Sätteid saab hallata iga päev, iga nädal, iga kuu või vastavalt kohandatud perioodile. Kuid funktsiooniga saab allahindlust eraldada või maksta või selle eest maksta mis tahes määratud sagedusega, mis on sama või pikem kui eraldamissagedus. Mahakandmine kasutab allahindlusega sama sagedust. Kasutajad saavad väljamakse ajal plaani või makseid hõlpsalt kohandada.
 
 Kasutajad ei pea enam kahe sammuga tehinguid või sätteid käsitlema. Kanded ja mahakandmised sisestatakse otse pearaamatusse. Kreeditarveid saab luua ka automaatselt. Seetõttu toimub täielik integreerimine ostureskontro ja müügireskontroga. Töötlemise käigus arvestatakse arvutustes arveldussoodustusi, tasutud arveid, kauplemissoodustusi ja olemasolevaid kreeditarveid, et tagada summade ja väärtuste täpne arvutamine.
 
-Tagasimaksete arvutamisel loob protsess kanded, mille saab enne sisestamist üle vaadata. Seejärel saate luua töölehe, kreeditarve või deebetkande. Eraldi protsess sisestab tagasimakse- ja mahaarvamiskanded. Aruandluse aruandeid ja kandeloendiid on võimalik saada, et tagada vastavus, efektiivsus ja tõhusus.
+Tagasimaksete arvutamisel loob protsess kanded, mille saab enne sisestamist üle vaadata. Eraldi protsess sisestab allahindluse halduse kanteid. Seejärel saab soovitatud kannetele sisestamise ajal luua töölehe, kreeditarve või deebetkande. Aruandluse aruandeid ja kandeloendiid on võimalik saada, et tagada vastavus, efektiivsus ja tõhusus.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Garantiiga autoritasud
 

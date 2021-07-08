@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5bc31740218e3f171d89debace339dee0177d826
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9ec21cda4779fea8c28b73d25842219da900da9d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053967"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271474"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Puhkuse ostu- ja- müügitaotluste töövoo loomine
 
@@ -78,7 +78,8 @@ Need näited näitavad, kuidas saate luua erinevat tüüpi töövoo tingimusi, k
 ## <a name="see-also"></a>Vt ka
 
 [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)<br>
-[Puhkuse ostu ja müügi poliitikate haldamine](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Puhkuse ostu ja müügi poliitikate haldamine](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)<br>
+[Puhkuse ostmine ja müümine](hr-employee-self-service-buy-sell-leave.md)
 
 
 

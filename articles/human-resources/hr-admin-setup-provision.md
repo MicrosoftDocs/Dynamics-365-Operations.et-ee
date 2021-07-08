@@ -1,8 +1,8 @@
 ---
-title: Human Resources ettevalmistus
-description: See artikkel selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks.
+title: Human Resourcesi ettevalmistus
+description: See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193720"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248817"
 ---
-# <a name="provision-human-resources"></a>Human Resources ettevalmistus
+# <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-See artikkel selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks. See artikkel eeldab, et olete ostnud rakenduse Human Resources pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. Kui teil on olemasolev Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Human Resources teenuseplaani ja te ei saa selles artiklis olevaid etappe läbida, võtke ühendust toega.
+See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks. See teema eeldab, et olete ostnud rakenduse Human Resources pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. Kui teil on olemasolev Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Human Resources teenuseplaani ja te ei saa selles artiklis olevaid etappe läbida, võtke ühendust toega.
 
 Alustuseks peab üldadministraator sisse logima [Microsoft Dynamicsi teenusesse Lifecycle Services](https://lcs.dynamics.com) (LCS) ja looma uue Human Resourcesi projekti. Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil rakenduse Human Resources kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.
+
+## <a name="provision-a-human-resources-trial-environment"></a>Human Resources proovikeskkonna ettevalmistamine
+
+Enne oma esimese kausta või tootmiskeskkonna ressursi ressursiks saatmist võite soovida Human Resources funktsionaalsuse kinnitamiseks ette võtta [Human Resources proovikeskkonna](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. 
+
+Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud 60-päevase prooviajaga. Proovikeskkonna aegumisel keskkond ja kõik selle sisalduvad andmed kustutatakse ning neid ei saa taastada. Keskkonda ei saa teisendada kasti või tootmiskeskkonda. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
 ## <a name="plan-human-resources-environments"></a>Human Resourcesi keskkondade plaanimine
 
@@ -94,8 +100,6 @@ Pärast LCS-i projekti loomist saate Human Resourcesi ette valmistada keskkonnas
 
     > [!NOTE]
     > Kui te pole veel lõplikke nõudeid kinnitanud, saate projektis juurutada Human Resourcesi testeksemplari. Seejärel saate oma lahenduse testimiseks kuni kinnitamiseni kasutada seda testeksemplari. Kui kasutate oma uut keskkonda testimiseks, peate tootmiskeskkonna loomiseks seda protseduuri kordama.
-
-    > Võite kaaluda tasuta 60-päevase [Human Resourcesi prooviversiooni keskkonna](https://go.microsoft.com/fwlink/p/?LinkId=2115962) kasutamist. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Need pole mõeldud kasutamiseks tootmiskeskkonnana. Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
 ## <a name="select-a-power-apps-environment"></a>Valige Power Appsi keskkond
 

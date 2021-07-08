@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103589"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301670"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
@@ -109,6 +109,8 @@ Suvandi **Planeerimise optimeerimise kasutamine** säte määrab, millist planee
 
 - **Jah** – planeerimise optimeerimist kasutatakse koondplaneerimiseks.
 - **Ei** – koondplaneerimise jaoks kasutatakse sisseehitatud tarneahela halduse planeerimise mootorit.
+
+See säte kehtib kõigi juriidiliste isikute (ettevõtete) kohta. Mõnedes juriidilistes isikutes ei saa kasutada plaanimise optimeerimist ja teiste juriidiliste isikute integreeritud koondplaanimist.
 
 > [!NOTE]
 > Kui olemasoleva planeerimise paketi tööd, mis sisseehitatud tarneahela halduse planeerimismootori jaoks loodi, käivitatakse sel ajal, kui suvandi **Planeerimise optimeerimise kasutamine** väärtuseks on seatud **Jah**, siis need tööd nurjuvad.

@@ -2,7 +2,7 @@
 title: Puhkuste ja puudumiste tüüpide konfigureerimine
 description: Seadistage puhkuse tüübid, mida töötajad saavad rakenduses Dynamics 365 Human Resources valida.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056608"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271123"
 ---
 # <a name="configure-leave-and-absence-types"></a>Puhkuste ja puudumiste tüüpide konfigureerimine
 
@@ -71,7 +71,7 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
    
  3. Seadistage puhkusetüübi kohta **Ülekantav puhkusetüüp**. Selle valiku korral kantakse ülekantavad saldod üle konkreetsele puhkusetüübile. Samuti tuleb ülekantava puhkuse tüüp lisada puhkuse ja puudumiste plaanile. 
  
- 4. Määratlege puhkusetüübi kohta **Aegumisreeglid**. Selle valiku konfigureerimisel saate valida päevade või kuude üksuse ja määrata aegumise kestuse. Samuti saate seadistada aegumisreegli kehtivuse alguskuupäeva. Jõustumiskuupäeva kasutatakse selleks, et määrata, millal puhkuse aegumist töötlev pakett-töö käivitada, või millisel kuupäeval reegel jõustub. Kui pakett-töö käivitamine on määratud, toimub aegumine ise alati puhkuse plaani alguskuupäeval. Plaani alguskuupäev võib näiteks olla 01.01.2020, kuid reegel loodi alles 01.06.2020. Kui jõustumiskuupäevaks määrata 01.06.2020, töödeldakse reegel järgmise aasta saabumisel ehk 01.01.2021. Kõik aegumiskuupäeval eksisteerivad puhkusesaldod arvatakse puhkusetüübist maha ning need kajastuvad puhkusesaldos. 
+4. Määratlege puhkusetüübi kohta **Aegumisreeglid**. Selle valiku konfigureerimisel saate valida päevade või kuude üksuse ja määrata aegumise kestuse. Aegumisreegli jõustumiskuupäeva kasutatakse selleks, et määrata, millal puhkuse aegumist töötlev pakett-töö käivitada, või millisel kuupäeval reegel jõustub. Aegumine ise leiab aset viitvõlaperioodi alguskuupäeval. Kui viitvõlaperioodi alguskuupäev on näiteks 3. august 2021 ja aegumisreegliks seadistati 6 kuud, siis töödeldakse reeglit viitvõlaperioodi alguskuupäeva aegumisvastaskonto alusel, nii et see käivitatakse 3. veebruaril 2022. Kõik aegumiskuupäeval eksisteerivad puhkusesaldod arvatakse puhkusetüübist maha ning need kajastuvad puhkusesaldos.
  
 ## <a name="see-also"></a>Vt ka
 
@@ -79,6 +79,7 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
 - [Puhkuste ja puudumiste plaani loomine](hr-leave-and-absence-plans.md)
 - [Looge töögraafik](hr-leave-and-absence-working-time-calendar.md)
 - [Puhkuse katkestamine](hr-leave-and-absence-suspend-leave.md)
+- [Puhkuse ostu- ja- müügitaotluste töövoo loomine](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

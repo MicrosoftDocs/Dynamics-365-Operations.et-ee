@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 418586113c038c3227f0704495a561eac319bdc9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745083"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271179"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas teenuse Microsoft Dynamics Lifecycle Services (LCS) [ühiste vahendite teegist](../lifecycle-services/asset-library.md) laadida alla [elektroonilise aruandluse (ER) konfiguratsioonide](general-electronic-reporting.md#Configuration) uusimat versiooni.
+
+> [!IMPORTANT]
+> LCS kasutamine elektroonilise aruandluse (ER) konfiguratsiooni talletushoidlana on [aegunud](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Lisateavet vt jaotisest [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine](../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 1. Logige rakendusse sisse, kasutades üht järgmistest rollidest.
 

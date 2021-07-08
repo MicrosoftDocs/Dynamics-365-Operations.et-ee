@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 14a32f7fc4608ef8910646f80786a188c46dc89d
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 6360f36b6a3526cdc5680a4059ae1202896986a5
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102610"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301767"
 ---
 # <a name="wave-label-printing"></a>Voosildi printimine
 
@@ -933,5 +933,6 @@ Enamiku nende lehtede puhul leiate vastava funktsiooni, valides toimingupaani va
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Voosiltide uuesti printimine ja tühistamine](reprint-and-void-wave-labels.md)
+- [Voo sildi printimise plaanimine voo ajal](configure-task-based-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

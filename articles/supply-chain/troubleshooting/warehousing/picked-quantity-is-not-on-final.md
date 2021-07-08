@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 23a517e7769dc86ebec30e4f17c62172a6ad8801
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: f3ebd47ffc85d4ca257b404579d60d679f7929b6
+ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938455"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301301"
 ---
 # <a name="you-cant-confirm-a-shipment-because-items-havent-been-picked"></a>Saadetist ei saa kinnitada, kuna kaubad pole komplekteeritud
 
@@ -36,10 +36,18 @@ Koormat või saadetist ei saa praeguses olekus kinnitada, kuna võib esineda üh
 
 - Seotud tööd pole veel komplekteeritud ega teisaldatud saadetise lõppsihtkohta.
 - Komplekteeritud töö kogus ei vasta loodud töö kogusele koormareal.
+- Asukoha direktiiv on konfigureeritud pakkimisasukohaga kui saadetise lõppsihtkohaks, kasutades voomalli konteinerit.
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
 
-Saate kontrollida seotud müügitellimusi või koorma või saadetise üleviimistellimusi. Kontrollige, et kogu seotud töö oleks saadetise lõppsihtkohas lõpule viidud ja et kogused sobiksid.
+Koorem või saadetis on praegu olekus, kus saadetise kinnitamine nurjub. Selle probleemi lahendamiseks täitke üks järgmistest toimingutest:
+
+- Vaadake üle oma koormusjoones ja kontrollige, et kogu seotud töö oleks saadetise lõppsihtkohas lõpule viidud ja et kogused sobiksid.
+- Tühistage pakkimisasukohaga loodud töö ID-d saadetise lõppsihtkohana, konfigureerige asukohadirektiivi ümber ja väljastage koorem uuesti.
+
+### <a name="review-your-load-lines-and-make-sure-that-all-the-related-work-has-been-completed-at-the-final-shipping-location-and-that-the-quantities-match"></a>Vaadake üle oma koormusjoones ja kontrollige, et kogu seotud töö oleks saadetise lõppsihtkohas lõpule viidud ja et kogused sobiksid
+
+Kasutage ülevaatuseks järgmist protseduuri ja vaadake üle oma koormusjoones ja kontrollige, et kogu seotud töö oleks saadetise lõppsihtkohas lõpule viidud ja et kogused sobiksid.
 
 1. Avage **Laohaldus \> Koormad \> Kõik koormad**.
 1. Valige koorem, mille jaoks ei saa saadetist kinnitada.
@@ -48,3 +56,30 @@ Saate kontrollida seotud müügitellimusi või koorma või saadetise üleviimist
 1. Toimingupaani vahekaardil **Ladu** grupis **Seotud teave** valige **Töö**.
 1. Kontrollige, kas töö on saadetise lõppsihtkohas lõpule viidud ja et komplekteeritud töökogus vastab loodud töö kogusele koormareal.
 1. Korrake seda protseduuri kõigi koormaridade puhul, et veenduda kõigi kriteeriumide täitmises.
+
+### <a name="cancel-the-work-ids-that-have-been-created-with-the-packing-location-as-the-final-shipping-location-reconfigure-the-location-directive-and-rerelease-the-load"></a>Tühistage pakkimisasukohaga loodud töö ID-d saadetise lõppsihtkohana, konfigureerige asukohadirektiivi ümber ja väljastage koorem uuesti
+
+Kasutage järgmist protseduuri, et tühistada töö ID-d, mille pakkimise asukoht on lõplik maha panemise asukoht koos automaatse konteinerite paigutamisega.
+
+1. Minge **Laohalduse \> Perioodiliste ülesannete juurde \> Puhastamine \>Tühista töö**.
+1. Avaneb dialoog **Tühista töö**. Väljal **Töö ID** määrake töö ID, mida soovite tühistada. Valitud töö ID **töö oleku** väärtus peab olema *Avatud*, *Pooleli*, *Tühistatud*, *Kombineeritud* või *Suletud*.
+1. Valige nupp **OK**.
+1. Valige **Jah**, et kinnitada, et soovite töö tühistada.
+1. Korrake seda protseduuri muude töö ID-de puhul vastavalt vajadusele.
+
+Lisateabe saamiseks vt [Erandite töötlemise laotöö tühistamine](../../warehousing/cancel-warehouse-work.md).
+
+Kasutage asukohadirektiivi ümber konfigureerimiseks järgmist protseduuri, et see ei kasutaks voomalli automatiseeritud konteinerite konfigureerimise korral pakkimisasukohta lõppsihtkohana.
+
+1. Minge jaotisse **Laohaldus \> Seadistus \> Asukohakorraldused**.
+1. Valige väljal **Töökäsu tüüp** suvand *Müügitellimused*.
+1. Valige asukohadirektiivid, mida kasutate konteinerite määratlemiseks.
+1. Valige kiirkaardi tööriistaribal **Asukohakorralduse tegevused** suvand **Päringu redigeerimine**.
+1. Päringu redaktori dialoogis leidke vahekaardil **Vahemik** rida, kus **Väli** on seatud *asukohaprofiilile*, ja veenduge, et rea väli **Kriteerium** ei ole seadistatud asukohaprofiilile, mille **asukohatüüp** on *Pakkimine*. Korrigeerige välja **Kriteerium**, et parandada lõplik maha panemise asukoht.
+
+Kasutage järgmist protseduuri, et taas väljastada koorem ja luua õige saadetise sihtkohaga töö ID-d.
+
+1. Avage **Laohaldus \> Koormused \> Koormuse plaanimise töölaud**.
+1. Leidke jaotises **Koormad** koorem, mis tuleb vabastada.
+1. Valige jaotise **Koormused** tööriistaribal koormuse lattu väljastamiseks **Väljasta \> Lattu väljastamine**.
+1. Korrake seda protseduuri muude koormuste puhul vastavalt vajadusele.

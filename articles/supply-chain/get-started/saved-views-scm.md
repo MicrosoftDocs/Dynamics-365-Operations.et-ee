@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821245"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270655"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Managementi standardsed salvestatud vaated
 
@@ -79,16 +79,14 @@ Järgmises tabelis kirjeldatakse hankemoodulis saadaolevaid salvestatud vaateid.
 
 ## <a name="saved-views-for-the-production-control-module"></a>Tootmise juhtmooduli salvestatud vaated
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Järgmises tabelis kirjeldatakse tootmise juhtmoodulis saadaolevaid salvestatud vaateid.
 
 | Lehekülg | Vaate nimi | Kuva kirjeldus | Funktsiooni nimi |
 |---|---|---|---|
-| Tootmistellimuse BOM-leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
-| Tootmistellimuse üksikasjade leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
-| Tootmistellimuse komplekteerimisloendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
-| Tootmistellimuste loendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | (Eelversioon) Tootmisjuhtimise salvestatud vaated |
+| Tootmistellimuse BOM-leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
+| Tootmistellimuse üksikasjade leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
+| Tootmistellimuse komplekteerimisloendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
+| Tootmistellimuste loendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Müügi- ja turundusmooduli salvestatud vaated
 

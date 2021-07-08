@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923303"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270809"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -160,8 +160,8 @@ Reeglite järgi saab uute funktsioonidega nõustuda 12 kuu jooksul ning enne fun
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Miks ei eksisteeri kindlat kohustuslikku lubamiskuupäeva? 
 Värskenduste väljaandmissaeg on muutuv, keskkondade värskendamisaeg on muutuv ja kliendid saavad mõne värskenduse vahele jätta. Seetõttu on kindlaid kuupäevi raske määrata. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kus asub dokumentatsioon kohustuslikuks muudetavate funktsioonide kohta? 
-Selle dokumentatsiooni koostavad rakendusemeeskonnad. Sageli mainitakse neid jaotises [Eemaldatud või aegunud funktsioonid](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Kus asub dokumentatsioon kohustuslike funktsioonide kohta? 
+Selle dokumentatsiooni koostavad Dynamics 365 rakendusemeeskonnad. Neid funktsioone mainitakse sageli jaotises [Värskendab kliendi funktsiooni olekuid](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) või [Eemaldatud või aegunud funktsioonid](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Kas on olemas tootesisene teatis või märguanne selle kohta, et funktsioon muutub kohustuslikuks? 
 Praegu pole olemas teavitamismehhanismi, mis annaks teada, et funktsioon muutub kohustuslikuks.

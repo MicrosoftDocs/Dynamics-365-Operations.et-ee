@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse täiustatud valemiredaktor
 description: See teema kirjeldab, kuidas täiustatud valemiredaktorit saab kasutada avaldiste konfigureerimiseks elektroonilise aruandluse (ER) mudeli vastendamise ja vormindamise komponentide jaoks.
 author: NickSelin
-ms.date: 04/10/2020
+ms.date: 06/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d18aeedb2f21176ffe964b926168d4bf088a093b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f7f80928e1d3f5d4892f72d4bd2fd09b70a26c1f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751204"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270703"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektroonilise aruandluse täiustatud valemiredaktor
 
@@ -45,16 +45,29 @@ Tehke järgmised sammud, et alustada oma Microsofti Dynamics 365 Finance eksempl
 2.  Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
 3.  Seadke dialoogiboksi **Kasutaja parameetrid** jaotise **Käivitamise jälitus** valiku **Luba täpsem valemiredaktor** parameetriks **Jah**.
 
-[![ER-seadete leht](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Kasutajaparameetrite dialoogiboks, kus Luba täpsema valemiredaktori parameeter on esile tõstetud](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Pange tähele, et see parameeter on kasutajakohane ja ettevõttekohane.
+
+Alates Microsoft Dynamics 365 Finance versioonist 10.0.19 saate vaikimisi kontrollida, millist ER valemiredaktorit pakutakse. Viige lõpule järgmised sammud, et lubada täiustatud valemiredaktor kõikidele kasutajatele ja ettevõtetele praeguses Finance eksemplaris.
+
+1.  Avage tööruum **Funktsioonihaldus**.
+2.  Leidke ja valige funktsioon **Määra kõigi loendis kasutajate jaoks vaikeväärtuseks ER-i täpsem valemiredaktor** ning seejärel valige **Luba kohe**.
+3.  Avage **Organisatsiooni haldamine** > **Elektrooniline aruandlus** > **Konfiguratsioonid**.
+4.  Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
+5.  Leidke dialoogiboksis **Kasutaja parameetrid** parameeter **Keela täpsem valemiredaktor** ja veenduge, et selle väärtuseks oleks määratud **Ei**.
+
+[![Kasutajaparameetrite dialoogiboks, kus Keela täpsema valemiredaktori parameeter on esile tõstetud](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+
+> [!NOTE]
+> Parameetrite **Luba täpsem valemiredaktor** ja **Keela täpsem valemiredaktor** väärtused hoitakse eraldi iga kasutaja jaoks ja neid pakutakse dialoogiboksis **Kasutajaparameetrid** sõltuvalt **Määra ER-i täpsema valemiredaktori vaikimisi kõigi kasutajate** funktsiooni olekust.
 
 ## <a name=""></a><a name="Autoformatting">Koodi isevormindamine</a>
 
 Kui kirjutate mitut rida koodi sisaldava keeruka avaldise, on uue sisestatud rea taande aluseks eelmise rea taane. Saate valida read ja muuta nende taanet, vajutades klahvi **TAB** või klahvikombinatsiooni **SHIFT +TAB**.
 
-[![ER valemiredaktor](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![ER-i valemiredaktori gif, kus kuvatakse ridade valimine ja taande muutmine](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 Automaatvormindus võimaldab teil säilitada kogu avaldise hästi vormindatuna, et muuta edasine hooldus lihtsamaks ja lihtsustada konfigureerimise loogika mõistmist.
 
@@ -62,7 +75,7 @@ Automaatvormindus võimaldab teil säilitada kogu avaldise hästi vormindatuna, 
 
 Redaktoris on sõnalõpetamise funtsioon, mis aitab teil avaldist kiiremini kirjutada ja vältida kirjavigu. Uue teksti lisamisel pakub redaktor automaatselt loendit funktsioonidest, mis esinevad teie sisestatud märkidega ER-funktsioonides. Saate käivitada IntelliSense'i ka konfigureeritud avaldise suvalises asukohas, vajutades **CTRL + tühik**.
 
-[![ER valemiredaktor](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![ER-i valemiredaktori gif, mis näitab IntelliSense'i käivitamist](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Koodi lõpetamine</a>
 
@@ -72,7 +85,7 @@ Redaktor annab automaatselt koodi lõpetamise:
 - Teise ülakoma sisestamine, kui esimene on sisestatud, hoides kursorit ülakomade vahel.
 - Teise jutumärgi sisestamine, kui esimene on sisestatud, hoides kursorit jutumärkide sees.
 
-[![ER valemiredaktor](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![ER-i valemiredaktori gif, kus kuvatakse koodi lõpuleviimiseks automaatselt redaktor](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Kui osutate sisestatud sulule, tõstetakse selle paari teine sulg automaatselt esile, et näidata nende sees olevat vormelit.
 
@@ -88,7 +101,7 @@ Näiteks, et hüpata reale **8**, tehke järgmist:
 
 - Vajutage klahvi **F1**, tippige **G**, valige **Mine reale** sisestage väärtus **8** vajutage sisestusklahvi (**Enter**).
 
-[![ER valemiredaktor](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![ER-i valemiredaktori gif, mis näitab, kuidas avaldise osi käsureapaleti abil leida](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Koodi struktureerimine</a>
 
@@ -110,7 +123,7 @@ Kõigi piirkondade ahendamiseks tehke järgmist:
   
 - Vajutage klahvi **F1**, tippige **UN**, valige **Laienda kõik** ja seejärel vajutage sisestusklahvi **Enter**.
 
-[![ER valemiredaktor](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![ER-i valemiredaktori gif, mis näitab kuvatavat koodi](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Otsi ja asenda</a>
 
@@ -138,13 +151,13 @@ Teatud teksti kõigi esinemiskordade asendamiseks valige oma avaldises tekst ja 
   
 - Vajutage klahvi **F1**, tippige **C** ja seejärel valige valitud teksti muutmiseks vajalik suvand. Sisestage alternatiivne tekst.
 
-[![ER valemiredaktor](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![ER-i valemiredaktori gif, mis näitab otsingut ja asendust](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Andmeallikad ja funktsioonide kleepimine</a>
 
 Saate valida **Lisa andmeallikas**, mis kleebib praegusele avaldisele andmeallika, mis on praegu valitud **Andmeallika** vasakul paanil. Samamoodi saate valida **Lisa funktsioon**, mis kleebib praegusele avaldisele funktsiooni, mis on praegu valitud **Funktsioonide** paremal paanil. Kui kasutate ER-i valemiredaktorit, kleebitakse valitud funktsioon või valitud andmeallikas alati konfigureeritud avaldise lõppu. Kui kasutate täiustatud ER-i valemiredaktorit, saab valitud funktsiooni või valitud andmeallika alati kleepida konfigureeritud avaldise mis tahes ossa. Peate kasutama kursorit, et määrata, kuhu soovite andmed kleepida.
 
-[![ER valemiredaktor](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![ER-i valemiredaktori gif, kus kuvatakse andmeallika lisamine ja funktsiooni kleepimine](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Süntaksi värving</a>
 

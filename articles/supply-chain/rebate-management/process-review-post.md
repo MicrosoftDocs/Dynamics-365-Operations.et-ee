@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82b8a4e6ba7ebea7df9f5dad5abc3dfc3ce2687d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020527"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270757"
 ---
 # <a name="process-review-and-post-rebates"></a>Tagasimaksete protsess, ülevaatamine ja sisestamine
 
@@ -55,9 +55,9 @@ Tehingu töötlemise ajal arvutab süsteem kõik asjakohased tagasimaksed ja aut
 1. Valige rida igale tehingule, mida soovite töödelda (või avage tehing, mida soovite töödelda).
 1. Tegevuspaani vahekaardil **Tagasimaksehalduse tehingud** valige grupi **Loo** jaoks üks järgmistest käskudest:
 
-    - **Protsessi \> Ettevalmistamine** – tehke iga asjakohase tagasimakse tehingu puhul tekkepõhine ettevalmistus, kuid ärge neid sisestage.
+    - **Protsessi \> Ettevalmistamine** – tehke iga asjakohase tagasimakse tehingu puhul tekkepõhine ettevalmistus, kuid ärge neid sisestage. See menüükäsk ei ole saadaval tehingutele, kus välja **Tagasimakse väljund** väärtuseks on seatud *Kaup*.
     - **Töötlemine \> Tagasimakse haldus** – töötlege kannete seeriat, mis annab tagasimakse väärtuse igale tehingule.
-    - **Töötlemine \> Mahakandmine** – tühistage varem sisestatud kanded, et need maha kanda, nii et saaks arvutada uusi tagasimakse tehingukandeid.
+    - **Protsess \>Mahakandmine** - tagasimakse tehingu ja määratud perioodi iga lähtekande puhul töödelge hälbeid eraldise jaoks sisestatud summade ja tagasimaksehalduse vahel. See menüükäsk ei ole saadaval tehingutele, kus välja **Tagasimakse väljund** väärtuseks on seatud *Kaup*.
 
 1. Kuvatavas dialoogiboksis määrake väljad **Alates** ja **Kuni** kuupäevani, et määrata kalkulatsiooni kuupäevavahemik.
 1. Kalkulatsiooni käivitamiseks valige **OK**.
@@ -70,9 +70,9 @@ Tehingu töötlemise ajal arvutab süsteem kõik asjakohased tagasimaksed ja aut
 1. Valige kiirkaardil **Tagasimakse haldus** rida iga tehingurea puhul, mida soovite töödelda.
 1. Valige kiirkaardi **Tagasimakse haldus** tööriistaribal üks järgmistest käskudest. (Need käsud on saadaval ainult tehingute puhul, kus välja **Vastavusseviimine** väärtuseks on seadtud *Rida*.)
 
-    - **Töötlemine \> Ettevalmistamine** – tehke iga asjakohase tehingu rea puhul tekkepõhine ettevalmistus, kuid ärge neid sisestage.
+    - **Töötlemine \> Ettevalmistamine** – tehke iga asjakohase tehingu rea puhul tekkepõhine ettevalmistus, kuid ärge neid sisestage. See menüükäsk ei ole saadaval tehingutele, kus välja **Tagasimakse väljund** väärtuseks on seatud *Kaup*.
     - **Töötlemine \> Tagasimakse haldus** – töötlege kannete seeriat, mis annab tagasimakse väärtuse igale reale.
-    - **Töötlemine \> Mahakandmine** – tühistage varem sisestatud kanded, et need maha kanda, nii et saaks arvutada uusi tagasimakse tehingukandeid.
+    - **Protsess \>Mahakandmine** - tagasimakse tehingu ja määratud perioodi iga lähtekande puhul töödelge hälbeid eraldise jaoks sisestatud summade ja tagasimaksehalduse vahel. See menüükäsk ei ole saadaval tehingutele, kus välja **Tagasimakse väljund** väärtuseks on seatud *Kaup*. 
 
 1. Kuvatavas dialoogiboksis määrake väljad **Alates** ja **Kuni** kuupäevani, et määrata kalkulatsiooni kuupäevavahemik.
 1. Kalkulatsiooni käivitamiseks valige **OK**.
@@ -115,26 +115,26 @@ Kindlate tehingu või tehingu ridade töötlemise asemel võite käivitada parti
         - **Märgi tegemata \> Kõik** – märkige kõik kanded tegemata.
         - **Märgi tegemata \> Valitud** – märkige valitud kanded tegemata.
 
-    - Nõude sisestamiseks ühele või mitmele reale valige vastavad read ja seejärel valige tegevuspaanil käsk **Sisesta**. (Nupp **Sisesta** on saadaval ainult tagasimakse kannete puhul. See ei ole saadaval ettevalmistuse ja mahakandmiskannete jaoks.) Dialoogiaknas **Sisesta** määratakse automaatselt väljad **Alates kuupäevast** ja **Kuni kuupäevani**. Määrake **Sisestamise kuupäeva** väli ja valige seejärel **OK**.
+    - Kõigi asjakohaste ridade nõude sisestamiseks valige tegevuspaanil käsk **Sisesta**. Kui kasutate nõuete protsessi (kui lehel **Tagasimakse halduse parameetrid** on lubatud suvand **Kasuta nõude protsessi**), sisestatakse ainult need read, mis on märgitud kui **Saadud**. Vastasel juhul sisestatakse kõik valitud tagasimaksekande lähtekanded. Nupp **Sisesta** on saadaval ainult tagasimakse kannete puhul. See ei ole saadaval eraldise ja mahakandmiskannete jaoks. Dialoogiaknas **Sisesta** määratakse automaatselt väljad **Alates** ja **Kuni**. Määrake **Sisestamise kuupäeva** väli ja valige seejärel **OK**.
     - Avatud või sisestamata kande puhul kuvatava summa korrigeerimiseks valige kanne ja järgige seejärel toimige järgmiselt.
 
         - Redigeerige väärtust väljal **Parandatud summa**.
         - Valige toimingupaanil suvand **Paranduse häälestamine**. Seejärel sisestage väärtus ripploendisse, mis kuvatakse väljal **Parandatud summa**.
 
 > [!NOTE]
-> Järgmise perioodi töötlemiseks sisaldab kannete loend kõiki eelmise sisestuse tagasimaksmata kandeid ja valitud perioodi uusi kandeid.
+> Kui kasutate nõude esitamise protsessi, siis järgmise perioodi töötlemiseks sisaldab kannete loend kõiki eelmise sisestuse tagasimaksmata kandeid ja valitud perioodi uusi kandeid.
 
 ## <a name="post-rebates-transactions"></a>Tagasimakse kannete sisestamine
 
-Tagasimaksete ja mahaarvamiste väärtuse sisestamiseks peate käivitama sisestusprotsessi, v.a juhul, kui olete süsteemi seadistanud need automaatselt sisestama.
+Töödeldud eraldise, tagasimakse haldussumma ja mahakantud väärtuse sisestamiseks peate käivitama sisestusprotsessi. Sisestusprotsess märgib sisestatud eraldise, tagasimakse halduse või mahakandmiskanded ja loob sihtkande. Kui te ei pea sihtkannet üle vaatama, saab need kanded seadistada nii, et need sisestatakse automaatselt.
 
-### <a name="set-up-the-system-to-post-all-transactions-automatically"></a>Saate häälestada süsteemi kõiki kandeid automaatselt sisestama.
+### <a name="set-up-the-system-to-post-all-target-transactions-automatically"></a>Saate häälestada süsteemi kõiki sihtkandeid automaatselt sisestama
 
-Süsteemi häälestamiseks, et sisestada kõik kanded kohe pärast kannete loomist, lülitage sisse suvand **Sisesta töölehed automaatselt** ja/või **Sisesta vabas vormis arved automaatselt** lehel **Tagasimakse halduse parameetrid**. Lisateavet vt teemast [Tagasimakse haldamise parameetrid](rebate-management-parameters.md).
+Süsteemi häälestamiseks, et sisestada kõik sihtkanded kohe pärast kannete loomist (tagasimakse, haldussumma ja mahakandmise kaudu), lülitage sisse suvand **Sisesta töölehed automaatselt** ja/või **Sisesta vabas vormis arved automaatselt** lehel **Tagasimakse halduse parameetrid**. Lisateavet vt teemast [Tagasimakse haldamise parameetrid](rebate-management-parameters.md).
 
 ### <a name="post-transactions-for-all-lines-for-one-or-more-deals"></a>Kõikide tehingute ridade kannete sisestamine
 
-Kui te ei kasuta automaatset sisestamist pärast vastavate tehingute töötlemist, järgige neid samme, et üle vaadata ja sisestada kõikidele ridadele genereeritud kanded ühe või mitme tehingu kohta.
+Pärast vastavate tehingute töötlemist järgige neid samme, et üle vaadata ja sisestada kõikidele ridadele genereeritud kanded ühe või mitme tehingu kohta.
 
 1. Avage sobiv [tagasimakse tehingud loendileht](rebate-management-deals.md) tehingu tüübi jaoks, mida soovite kasutada.
 1. Valige rida igale tehingule, mida soovite sisestada (või avage tehing, mida soovite sisestada).
@@ -149,7 +149,7 @@ Kui te ei kasuta automaatset sisestamist pärast vastavate tehingute töötlemis
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Ühe või mitme valitud tehingu rea kannete sisestamine
 
-Kui te ei kasuta automaatset sisestamist pärast vastavate tehingute töötlemist, järgige neid samme, et üle vaadata ja sisestada teatud tehingu teatud tehinguread genereeritud kannetele.
+Pärast vastavate tehingute töötlemist järgige neid samme, et üle vaadata ja sisestada kõikidele ridadele genereeritud kanded ühe või mitme spetsiifilise tehingurea või tehingu kohta. Seda protseduuri rakendatakse ainult tehingute puhul, kus välja **Vastavusseviimine** väärtuseks on seadtud *Rida*.
 
 1. Avage sobiv [tagasimakse tehingud loendileht](rebate-management-deals.md) tehingu tüübi jaoks, mida soovite kasutada.
 1. Avage tehing, millel on rida, millele soovite kandeid sisestada.
@@ -174,7 +174,7 @@ Kindlate tehingu või tehingu ridade kannete sisestamise asemel võite käivitad
     - Minge **Tagasimaksehalduse \> Perioodilised ülesanded \> Sisesta \> Tagasimaksehaldus**, et sisestada saadaolevad tagasimakse kanded, mille olete loonud.
     - Minge **Tagasimaksehalduse \> Perioodilised ülesanded \> Sisesta \> Mahakandmine**, et sisestada saadaolevad mahakandmise kanded, mille olete loonud.
 
-1. Seadke kuvatud dialoogiakna kiirkaardil **Parameetrid** jaotises **Periood** väli **Sisestuskuupäev**. Siis määrake väljad **Alates kuupäevast** ja **Kuni kuupäevani**, et määrata sisestamist vajavate kannete vahemik. 
+1. Seadke kuvatud dialoogiakna kiirkaardil **Parameetrid** jaotises **Periood** väli **Sisestuskuupäev**. Siis määrake väljad **Alates kuupäevast** ja **Kuni kuupäevani**, et määrata sisestamist vajavate kannete vahemik.
 1. Kuvatavas jaotises **Garantiiperiood** määrake väljad **Alates kuupäevast** ja **Kuni kuupäevani**, et määrata garantiid, mida peab sisestama.
 1. Kiirkaardil **Kirjeid, mida kaasata** saate seadistada filtreid, ,mis piiravad partiitöö töödeldavaid tehinguid. Need sätted töötavad samamoodi, nagu need töötavad teist tüüpi partiitööde puhul.
 1. Vajadusel saate seadistada partiitööde töötlemise ja plaanilimise suvandid kiirkaardil **Taustal käitamine**. Need sätted töötavad samamoodi, nagu need töötavad teist tüüpi partiitööde puhul.
@@ -182,17 +182,17 @@ Kindlate tehingu või tehingu ridade kannete sisestamise asemel võite käivitad
 
 ## <a name="review-rebate-management-journals"></a>Tagasimakse halduse töölehtede ülevaade
 
-Pärast kannete sisestamist saate üle vaadata tulemuseks saadud töölehed, dokumendid või üksused. Tagasimaksete ja tagasimaksete sihtkanded põhinevad sisestusprofiilis määratud maksetüübil ja tagasimakse väljundi tüübil. Näiteks kui tagasimakse väljundiks on seatud *Üksus*, luuakse müügitellimus ja seda saab vaadata sihtkannete kaudu. Teise võimalusena, kui makse on seatud võlgnevuse kasutamiseks, luuakse kliendi jaoks seadistatud müüja arve kliendi tagasimaksete jaoks.
+Pärast kannete sisestamist saate üle vaadata tulemuseks saadud töölehed, dokumendid või üksused. Tagasimaksete ja tagasimaksete sihtkanded põhinevad sisestusprofiilis määratud maksetüübil ja tagasimakse väljundi tüübil. Näiteks, kui tagasimakse väljamineku väärtuseks on seatud *Kaup*, luuakse müügitellimus kliendi tagasimakse jaoks ja ostutellimus luuakse hankija tagasimakse jaoks. Neid tellimusi saab vaadata sihtkannete kaudu. Teise võimalusena, kui makse on seatud võlgnevuse kasutamiseks, luuakse kliendi jaoks seadistatud müüja arve kliendi tagasimaksete jaoks.
 
 Tagasimaksehalduse tehinguga seotud töölehe sisestuste ülevaatamiseks toimige järgmiselt.
 
 1. Avage sobiv [tagasimakse tehingud loendileht](rebate-management-deals.md) tehingu tüübi jaoks, mida soovite kasutada.
 1. Valige tehing, mille kohta kontrollida töölehe sisestusi.
-1. Tegevuspaani vahekaardil **Tagasimaksehalduse tehingud** grupis **Kanded** valige kas **Kanded** või **Tagasimakse kanded**, sõltuvalt kannete tüübist, mida soovite vaadata.
+1. Tegevuspaani vahekaardil **Tagasimaksehalduse tehingud** grupis **Kanded** valige kas **Kanded** või **Garanteeritud kanded**, sõltuvalt kannete tüübist, mida soovite vaadata.
 1. Veenduge, et välja **Näita** väärtuseks oleks seatud *Kõik* või *Sisestatud*.
 1. Otsige ja valige kandekogum, mida soovite kontrollida ning seejärel valige tegumiribal üks järgmistest nuppudest. (Need nupud on saadaval ainult siis, kui valitud tehingute kogu jaoks on olemas asjakohased sisestused.)
 
     - **Sihtkanded** – vaadake üle asjakohased töölehed ja muud tüüpi dokumendid, mis valitud tehing genereeris.
-    - **Üksused** – vaadake üle valitud tehingu loodud asjakohased üksused.
+    - **Kaubad** – vaadake üle vastavad müügi- või ostutellimused, mis loodi valitud tehinguga.
 
 1. Kuvatakse vastavate töölehtede, dokumentide või üksuste loend. Mis tahes töölehe, dokumendi või üksuse kohta lisateabe saamiseks valige selle rida ja seejärel valige toimingupaanil suvand **Kuva üksikasjad**.

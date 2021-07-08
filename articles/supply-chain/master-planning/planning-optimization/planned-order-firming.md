@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193877"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271204"
 ---
 # <a name="firm-planned-orders"></a>Kindlad plaanitud tellimused
 
@@ -123,8 +123,6 @@ Automaatse tihendamise ajapiiri määrab päevade arv, mille sisestate vastava l
 Kui seate kõigi eelnevalt nimetatud ajapiiride väärtuseks *0* (null), keelatakse vastavate kaetud kaupade puhul automaatne kinnitamine tõhusalt.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Planeeritud tellimuste kindlad tootmistellimused päringu abil
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Päringupõhine kinnitamine võimaldab planeerida kinnitamist eelnevalt määratletud kriteeriumide alusel. Erinevalt automaatsest kinnitamisest võimaldab päringupõhine kinnitamine automatiseerida erinevate tellimuste alamhulkade eri ajahetkedel. Lisaks saate kasutada kas käsitsi või automatiseeritud operatsioone erinevat tüüpi planeeritud tellimuste tegemiseks. Samuti saate oma sätete põhjal kuvada eelvaate selle kohta, millised kinnitatud tellimused valitakse. Seetõttu saate kinnitada, et valik vastab teie ootustele.
 

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020479"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271073"
 ---
-# <a name="rebate-management-groups"></a>Tagasimaksehalduse grupid
+# <a name="rebate-management-groups"></a>Tagasimakse halduse grupid
 
 [!include [banner](../includes/banner.md)]
 
-Tagasimakse ja mahaarvamise arvutused võivad olla seotud gruppidega. Tagasimakse haldusgruppe saab luua klientidele, hankijatele ja üksustele. Neid saab siduda koondkirjega.
+Tagasimaksehalduse arvutused võivad olla seotud gruppidega. Tagasimakse haldusgruppe saab luua klientidele, hankijatele ja üksustele. Neid saab siduda koondkirjega.
 
 ## <a name="rebate-management-customer-groups"></a>Tagasimaksehalduse kliendigrupid
 
@@ -49,10 +49,9 @@ Valitud grupi klientide vaatamiseks, lisamiseks või eemaldamiseks toimige järg
 1. Minge **Tagasimaksehalduse \> Tagasimaksehalduse gruppide seadistamine \> Kliendigrupid**.
 1. Valige grupp, mida hallata.
 1. Valige toimingupaanil **Kliendid**. Kuvatakse leht **Tagasimakse halduse grupid** ja klientide loend, kes on juba valitud grupi liikmed.
-1. Uue kliendi lisamiseks gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
+1. Uue kliendi lisamiseks gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmine väli.
 
     - **Kliendikonto** – valige kliendikonto ID.
-    - **Nimi** – sisestage kliendi nimi ja/või kirjeldus.
 
 1. Kliendi eemaldamiseks grupist valige klient ja seejärel valige tegevuspaanil käsk **Kustuta**.
 
@@ -61,10 +60,9 @@ Valitud kliendi grupi määratluste vaatamiseks, lisamiseks või eemaldamiseks t
 1. Avage **Müügireskontro \> Kliendid \> Kõik kliendid**.
 1. Valige klient, kellele töötada.
 1. Valige toimingupaani vahekaardil **Klient** grupis **Tagasimaksehaldus** suvand **Tagasimaksehalduse grupid**. Kuvatakse leht **Tagasimakse halduse grupid** ja gruppide loend, kuhu valitud klient juba kuulub.
-1. Kliendi lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
+1. Kliendi lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmine väli.
 
     - **Tagasimaksehalduse grupp** – valige grupp, kellele klient lisada.
-    - **Kirjeldus** – sisestage grupi kirjeldus (nt selgitamaks, miks klient on grupi liige).
 
 1. Kliendi eemaldamiseks grupist valige grupp ja seejärel valige tegevuspaanil käsk **Kustuta**.
 
@@ -88,10 +86,9 @@ Valitud grupi müüjate vaatamiseks, lisamiseks või eemaldamiseks toimige järg
 1. Minge **Tagasimaksehalduse \> Tagasimaksehalduse gruppide seadistamine \> Müüjagrupid**.
 1. Valige grupp, mida hallata.
 1. Valige toimingupaanil **Müüjad**. Kuvatakse leht **Tagasimakse halduse grupid** ja müüjate loend, kes on juba valitud grupi liikmed.
-1. Müüja lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
+1. Müüja lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmine väli.
 
     - **Müüja konto** – valige müüja konto ID.
-    - **Nimi** – sisestage müüja nimi ja/või kirjeldus.
 
 1. Müüja eemaldamiseks grupist valige müüja ja seejärel valige tegevuspaanil käsk **Kustuta**.
 
@@ -100,10 +97,9 @@ Valitud müüja grupi määratluste vaatamiseks, lisamiseks või eemaldamiseks t
 1. Avage **Ostureskonto \> Müüjad \> Kõik müüjad**.
 1. Valige müüja, kellele töötada.
 1. Valige toimingupaani vahekaardil **Müüja** grupis **Tagasimaksehaldus** suvand **Tagasimaksehalduse grupid**. Kuvatakse leht **Tagasimakse halduse grupid** ja gruppide loend, kuhu valitud müüja juba kuulub.
-1. Müüja lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
+1. Müüja lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmine väli.
 
     - **Tagasimaksehalduse grupp** – valige grupp, kellele müüja lisada.
-    - **Kirjeldus** – sisestage grupi kirjeldus (nt selgitamaks, miks müüja on grupi liige).
 
 1. Müüja eemaldamiseks grupist valige grupp ja seejärel valige tegevuspaanil käsk **Kustuta**.
 
@@ -127,10 +123,9 @@ Valitud grupi kaupade vaatamiseks, lisamiseks või eemaldamiseks toimige järgmi
 1. Minge **Tagasimaksehalduse \> Tagasimaksehalduse gruppide seadistamine \> Kaubagrupid**.
 1. Valige grupp, mida hallata.
 1. Toimingupaanil valige käsk **Kaubad**. Kuvatakse leht **Tagasimakse halduse grupid** ja kaupade loend, kes on juba valitud grupi liikmed.
-1. Uue kauba lisamiseks gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
+1. Uue kauba lisamiseks gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmine väli.
 
     - **Kaubakonto** – valige kaubakonto ID.
-    - **Toote nimi** – sisestage kauba nimi ja/või kirjeldus.
 
 1. Kauba eemaldamiseks grupist valige kauba ja seejärel valige tegevuspaanil käsk **Kustuta**.
 
@@ -139,10 +134,9 @@ Valitud kauba grupi määratluste vaatamiseks, lisamiseks või eemaldamiseks toi
 1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
 1. Valige kaup, millega töötada.
 1. Valige toimingupaani vahekaardil **Toode** grupis **Tagasimaksehaldus** suvand **Tagasimaksehalduse grupid**. Kuvatakse leht **Tagasimakse halduse grupid** ja gruppide loend, kuhu valitud kaup juba kuulub.
-1. Kauba lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
+1. Kauba lisamiseks uude gruppi valige tegevuspaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmine väli.
 
     - **Tagasimaksehalduse grupp** – valige grupp, kellele kaupa lisada.
-    - **Kirjeldus** – sisestage grupi kirjeldus (nt selgitamaks, miks kaup on grupi liige).
 
 1. Kauba eemaldamiseks grupist valige grupp ja seejärel valige tegevuspaanil käsk **Kustuta**.
 

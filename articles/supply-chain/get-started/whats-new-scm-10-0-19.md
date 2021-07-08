@@ -1,5 +1,5 @@
 ---
-title: Rakenduse Dynamics 365 Supply Chain Management eelvaade 10.0.19 (juuni 2021)
+title: Mis on uut või mida on muudetud rakenduse Dynamics 365 Supply Chain Management versioonis 10.0.19 (juuni 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.19 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114971"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271445"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Rakenduse Dynamics 365 Supply Chain Management eelvaade 10.0.19 (juuni 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 Supply Chain Management versioonis 10.0.19 (juuni 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.19 uued või muutunud funktsioonid. Selle versiooni number on 10.0.837 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.19 uusi või muutunud funktsioone. Selle versiooni number on 10.0.837 ja see on saadaval järgmiselt:
 
 - **Eelvaateversiooni välja andmine:** aprill 2021
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuni 2021
@@ -32,7 +31,7 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 
 See väljalase hõlmab järgmisi funktsioone. Veerg *Funktsioon* pakub linke [väljalaskeplaani](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) kus saate vaadata iga funktsiooni ametlikke väljalaskekuupäevi. Veerg *Lisateave* pakub üksikasju/linke seotud dokumentatsioonile.
 
-Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla.
+Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 | Funktsiooniala | Funktsioon | Lisateave |
 |---|---|---|

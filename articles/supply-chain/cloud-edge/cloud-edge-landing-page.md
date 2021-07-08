@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938296"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261742"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Pilv- ja perimeeterskaalaüksused tootmis- ja laohaldustöökoormuste jaoks
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938296"
 > [!IMPORTANT]
 > Microsofti Dynamics 365 Supply Chain Management mastaabiühiku võimalus tehakse teile kättesaadavaks teenuse kasutamist reguleerivate tingimuste alusel. Lisateavet leiate [Microsoft Dynamics'i juriidilise teabest](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Lubades pilv- ja perimeeterskaalaüksused, kinnitate, et saate aru, et mõned pilv- ja perimeeterskaalaüksuste konfiguratsiooni ja töötlemisega seotud andmed võidakse talletada Ameerika Ühendriikides asuvas andmekeskuses. Lisateavet pilve- ja servaskaalaüksuste andmetöötluse kohta leiate käesoleva teema jaotisest [Andmetöötlus mastaabiühikute haldamisel](#data-processing-management).
+> Lubades pilv- ja perimeeterskaalaüksused, palutakse teil kinnitada, et saate aru, et mõned pilv- ja perimeeterskaalaüksuste konfiguratsiooni ja töötlemisega seotud andmed võidakse talletada Ameerika Ühendriikides asuvas andmekeskuses. Lisateavet pilve- ja servaskaalaüksuste andmetöötluse kohta leiate käesoleva teema jaotisest [Andmetöötlus mastaabiühikute haldamisel](#data-processing-management).
 
 ## <a name="core-value-proposition-for-scale-units"></a>Skaalaühikute põhiväärtuse töö
 
