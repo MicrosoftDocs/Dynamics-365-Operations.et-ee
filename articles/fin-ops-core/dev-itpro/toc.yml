@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platvormi versiooni 10.0.18 värskendused (mai 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Platvormi versiooni 10.0.17 värskendused (aprill 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Üksusesalve Data Lake’i üksusena saadavaks muutmine
               href: data-entities/entity-store-data-lake.md
+            - name: Andmete muutmine Azure Data Lake'is
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Andmebaasi teisaldamistoimingud
           items:
             - name: Ülevaade

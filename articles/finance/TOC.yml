@@ -1208,9 +1208,9 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: Finantsaruandluse KKK
               href: general-ledger/financial-reporting-faq.md
-        - name: Finantsülevaated
+        - name: Finance Insights
           items:
-            - name: Finantsülevaadete avaleht
+            - name: Finance Insightsi avaleht
               href: finance-insights/finance-insights-home-page.md
             - name: Konfiguratsioon ja haldus
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Andmeintegraatori projekti loomine
                   href: finance-insights/create-data-integrate-project.md
-            - name: Finance'i ülevaadete kasutamine
+            - name: Finance Insightsi kasutamine
               items:
                 - name: Eelarveettepanekud
                   href: finance-insights/budget-proposals.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: ER-i konfiguratsioonide loomine Regulatory Configuration Service'is ja üleslaadimine globaalsesse hoidlasse
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service – RCS-keskkonna kustutamine
+                      href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Elektrooniline arveldus
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: EL käibearuanne
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Ühendkuningriigi aruandlus
+                          items:
+                            - name: MTD-ga integreerimiseks ettevalmistamine KM-i jaoks
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
             - name: Austraalia
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Ostureskontro võla maksu registrid ja võla mahakandmised
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Võlgade reservid müügireskontros
+                      href: localizations/rus-bad-debts.md
             - name: Saudi Araabia
               items:
                 - name: Saudi Araabia ülevaade
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Käibemaksugruppide häälestus pöördkäibemaksu jaoks
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Maksu muutmine käibemaksu jaoks digitaalseks
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Maksete aruande statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Ameerika Ühendriigid
@@ -3665,6 +3671,12 @@
               items:
                 - name: Valemi keel
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: ER-valemite toetatud andmetüübid
+                  items:
+                    - name: Primitiivsed andmetüübid
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Liitandmetüübid
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Funktsioonid
                   items:
                     - name: Konteiner
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: ER-vormingute kujundamine väljaminevate dokumentide loomiseks eri vormingutes
               items:
+                - name: OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Konfiguratsioonide kujundamine väljaminevate dokumentide loomiseks Exceli vormingus
                   items:
                     - name: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: OPENXML-vormingus aruannete loomise näide
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ER-vormingute muutmine Exceli malle uuesti rakendades
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
@@ -4211,13 +4223,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Rakenduse värskendus 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Rakenduse värskendus 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
                   items:
                     - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Elektroonilise aruandluse sihtkoha loomise delegeerimine kohandatud sihttehasesse
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                - name: KASUTAJA SISENDPARAMEETRI tüübi andmeallika väärtuste käivitamine lähtekoodist
+                    - name: Loodud dokumentidele kohandatud sihtkoha juurutamine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
+                - name: Tüübi USER INPUT PARAMETER andmeallika väärtuste käivitamine lähtekoodist
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Mobiilirakendus
           items:
