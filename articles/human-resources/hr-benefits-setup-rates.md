@@ -2,7 +2,7 @@
 title: Määrade konfigureerimine
 description: Rakenduse Microsoft Dynamics 365 Human Resources määrad määratlevad, kui suure panuse tööandjad ja töövõtjad soodustusele annavad.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054976"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266653"
 ---
 # <a name="configure-rates"></a>Määrade konfigureerimine
 
@@ -46,7 +46,7 @@ Kasutage määrasid, et määratleda, kui palju töövõtjad ja tööandjad iga 
    | **Aegumine** | Määra lõpukuupäev. Vaikeväärtus on 12/31/2154 (mis tähendab mitte kunagi). |
    | **Kasuta järke** | Soodustuse määra arvutamiseks kasutatav tase. Üks tase ühe tasemega soodustuse määraks või topelttase kahe tasemega soodustuse määraks. Topelttaseme näide on sool ja vanusel põhinev tase. |
    | **Maksesagedus** | Maksesagedus, mis määrab soodustuse pakkujale soodustuse preemiumi määra maksmise sageduse. Näiteks kui makse sagedus on igakuine, siis soodustuse määr tähistab igakuist maksesummat. |
-   | **Maksesageduse määra ümardamine** | Määra ümardamise meetod: tavaline või kärbitud. |
+   | **Maksesageduse määra ümardamine** | Määra ümardamise meetodid on: standardne, kärbitud, tavaline, allapoole ja ümardamine üles. </br></br><ul><li>**Standardne** – ümardage alati üles. Näiteks 10,611 ümardatakse 10,62-ni. -10,231 ümardatakse -10,23-ni. </li><li>**Kärbitud** - alati ümardatakse alla. Näiteks 10,619 ümardatakse 10,61-ni. -10,231 ümardatakse -10,24-ni. </li><li>**Tavaline** – kümnendarvud, mis lõppevad 5 või suurema arvuga, ümardavad nullist suuremaks. Kümnendarvud, mis lõppevad 4 või väiksema arvuga, ümardatakse nulli poole. Näiteks 10,615 ümardatakse 10,62-ni. -10,235 ümardatakse -10,24-ni. 10,614 ümardatakse 10,61-ni. -10,234 ümardatakse -10,23-ni. </li><li>**Allapoole** – ümardage nulli suunas. Näiteks 10,619 ümardatakse 10,61-ni. -10,231 ümardatakse -10,23-ni. </li><li>**Ümardamine üles** – ümardatakse nullist eemale. Näiteks 10,619 ümardatakse 10,62-ni. -10,231 ümardatakse -10,24-ni. |
    | **Mittesuitsetaja töövõtja summa** | Summa, mille hüvitise pakkuja küsib mittesuitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja mis peaks põhinema määra seadistuse maksesagedusel. |
    | **Mittesuitsetaja tööandja summa** | Summa, mille hüvitise pakkuja küsib mittesuitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja see peaks põhinema määra seadistuse maksesagedusel. |
    | **Suitsetaja töövõtja summa** | Summa, mille hüvitise pakkuja küsib suitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja mis peaks põhinema määra seadistuse maksesagedusel. |

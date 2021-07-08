@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814798"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270783"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Tootmises olevate materjalide vaikimisi reserveerimise põhimõtte alistamine
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 *Vaikimisi tootmise broneerimise alistamise* funktsioon võimaldab teil määrata vaikimisi reserveerimise põhimõtte igale kauba mudeligrupile. Seega saab igale tootmiskoosluse või partiitellimuse valemi osaks olevale kaubale rakendada erinevaid reserveerimise põhimõtteid. Saate valida, kas iga kauba mudeligrupp peaks alistama tellimusele määratud vaikimisi reserveerimise põhimõtte ning millist reserveerimise põhimõtet tuleks selle asemel kasutada (*käsitsi*, *hinnang*, *planeerimine*, *väljastamine* või *alustamine*).
 
@@ -37,7 +36,7 @@ Näiteks kui teil on toormaterjale või koostisosi, mis nõuavad nende toodete j
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 
 - **Moodul:** *tootmise juhtimine*
-- **Funktsiooni nimi:** *(Eelversioon) Vaikimisi tootmise broneerimise alistamine*
+- **Funktsiooni nimi:** *Vaikimisi tootmise broneerimise alistamine*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Tootmise reserveerimise poliitika määramine kauba mudeligrupile
 
