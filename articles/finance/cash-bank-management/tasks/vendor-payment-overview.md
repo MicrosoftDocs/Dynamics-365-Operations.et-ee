@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4402be4be52f71bf346a1f85155aad4b9890b3bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77e0268122b04986e6dbf7088f352eda5ba5522e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827286"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6335760"
 ---
 # <a name="vendor-payment-overview"></a>Hankija maksete ülevaade
 
@@ -49,7 +50,7 @@ See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri 
 22. Märkige kõik arved, mis makstakse. Kasutades maksearvete valimiseks suvandit **Kannete tasakaalustamine**, arvutatakse maksesumma automaatselt selle põhjal, millised arved makse puhul märgite ja millise summa sisestate väljale **Tasakaalustatav summa**.
 23. Klõpsake valikut **OK**.
 24. Kui soovite makse kustutada, märkige rida.
-25. Klõpsake  **Kustuta**. Makse kustutamine kustutab ainult makse. Mis tahes makse puhul märgitud arved on teise maksega tasumiseks endiselt saadaval.
+25. Klõpsake **Kustuta**. Makse kustutamine kustutab ainult makse. Mis tahes makse puhul märgitud arved on teise maksega tasumiseks endiselt saadaval.
 26. Klõpsake nuppu **Jah**.
 27. Valige tšekkide printimiseks või elektroonilise maksefaili loomiseks suvand **Loo makse**.
 28. Valige makseviis, mille soovite luua. Maksetööleht võib sisaldada makseid nii tšekkide kui ka elektrooniliste maksete puhul, kuid saate luua ainult ühe maksetüübi korraga.

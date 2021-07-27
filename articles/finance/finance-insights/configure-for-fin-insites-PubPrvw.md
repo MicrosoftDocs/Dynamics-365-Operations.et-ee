@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222608"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309661"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Finance insights`i konfigureerimine avaliku eelvaate (eelvaate) jaoks - versioon 10.0.20 ja uuemad
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222608"
 Finantsülevaated kombineerivad rakenduse Microsoft Dynamics 365 Finance funktsioonid teenustega Dataverse, Azure ja AI Builder, et pakkuda võimsaid prognoosimise tööriistu teie organisatsioonile. See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada Finance insights`i saadaolevaid võimalusi Dynamics 365 Finance versioonis 10.0.20 ja uuemates.
 
 > [!NOTE]
-> Selles teemas kirjeldatud konfiguratsiooni etapid kehtivad ainult finantsversiooni 10.0.20 ja uuemate versioonide puhul. Finance insights`i seadistamiseks versioonil 10.0.19 ja uuemates versioonides vt [Finance insights vihjete konfigureerimine (eelvaade) – versioonid kuni 10.0.18](configure-for-fin-insites.md).
+> Selles teemas kirjeldatud konfiguratsiooni etapid kehtivad ainult finantsversiooni 10.0.20 ja uuemate versioonide puhul. Finance insights`i seadistamiseks versioonil 10.0.19 ja uuemates versioonides vt [Finance insights vihjete konfigureerimine (eelvaade) – versioonid kuni 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finantside juurutamine
 
@@ -748,6 +748,8 @@ Järgige neid samme Finance insights lisandmooduli installimiseks.
 2. Valige jaotises **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
 3. Valige **Finance insights** lisandmoodul.
 4. Nõustuge tingimustega ja siis valige **Installi**.
+
+Lisandmooduli installimiseks võib aega kuluda mitu minutit.
 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 

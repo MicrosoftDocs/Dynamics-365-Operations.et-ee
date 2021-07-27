@@ -15,43 +15,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4a64794a0e04516441fab628d441640e4d154b8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36fe4c8376ad0364516c0268965c798e20436c6
+ms.sourcegitcommit: 3a9599e9b9458434c0e44d295eabd2304c5650be
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796885"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334421"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Kaupade tagastamine mitme klienditellimuse ja -arve alusel
 
 [!include [banner](includes/banner.md)]
 
 
-Selles artiklis kirjeldatakse kaht funktsiooni, millega optimeeritakse klienditellimuse tagastusi mitme arve korral. 
+Tagastamisi saab teha mitme tellimuse ja arve alusel. 
 
-## <a name="enable-refunds-over-multiple-captures"></a>Tagasimaksete lubamine mitme hõive korral
+## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>Kaubanduse konfigureerimine mitme klienditellimuse ja -arve alusel tagastuste toetamiseks
 
-See funktsioon võimaldab mitut lingitud tagasimakset sama klienditellimuse alusel. 
-
-1. Avage tööruum **Funktsioonihaldus** ja otsige märksõna **Tagasimaksete lubamine mitme hõive korral**.
-2. Valige **Tagasimaksete lubamine mitme tellimuse korral** ja seejärel klõpsake nuppu **Luba**. 
-
-## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Luba osalise kogusega tagastuste korral nõuetekohane maksuarvutus
-
-Funktsioon tagab selle, et kui tellimus tagastatakse mitme arvega, võrduvad maksud lõpuks algselt tasutud maksusummaga. 
-
-1. Avage tööruum **Funktsioonihaldus** ja otsige märksõna **Luba osalise kogusega tagastuste korral nõuetekohane maksuarvutus**.
-2. Valige **Luba osalise kogusega tagastuste korral nõuetekohane maksuarvutus** ja klõpsake seejärel nuppu **Luba**. 
-
+1. Valige **Kaubanduse parameetrid \> Klienditellimused**.
+1. Lülitage sisse parameeter **Luba mitme tellimuse tagastamine**. 
 
 ## <a name="process-returns"></a>Tagastuste töötlemine
 
-Pärast seda, kui need funktsioonid on sisse lülitatud ja muudatused on kauplustega sünkroonitud, võib kaupluse kassapidaja tagastamiseks valida mitu kliendi müügitellimust.
+Pärast seda, kui parameeter on sisse lülitatud ja muudatused on kauplustega sünkroonitud, võib kaupluse kassapidaja tagastamiseks valida mitu kliendi müügitellimust.
 
 Tellimuste valimisel kuvatakse kõikide tellimuste arvete kõik tagastatavad tooted. Kassapidaja võib seejärel valida tagastatavad tooted. Valitud toodete kohta luuakse üks tagastustellimus.
-
-Kui tellimus on täielikult tagastatud, võrdub kliendile tagastatav maksude summa algselt tasutud maksusummaga.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

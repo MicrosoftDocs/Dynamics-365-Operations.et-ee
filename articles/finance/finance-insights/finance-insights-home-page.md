@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261906"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338225"
 ---
 # <a name="finance-insights-home-page-preview"></a>Finantsülevaadete avaleht (eelversioon)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261906"
 
 Finantsülevaated pakuvad konfigureeritavaid ja laiendatavaid mudeleid, mis aitavad teil täpselt ja nutikalt ennustada oma ettevõtte rahavoogu, ennustada, millal saate laekumata nõuete eest tasu, ja luua eelarveplaani, mis võib kiirendada teie eelarve koostamise protsessi. Kõik need funktsioonid põhinevad nutikatel masinõppemudelitel. Kui need uued võimalused on kombineeritud hankija maksete ja kogumite automaatikaga, pakuvad need rikkalikku ja nutikat finantssüsteemi, mis juhib otsustusprotsessi ja aitab teil võtta meetmeid, et tõhusalt reageerida praegustele ja oodatavatele ettevõtluse väljakutsetele.
 
-Finantsülevaadete eelversioon on proovimiseks saadaval juurutustes Ameerika Ühendriikides, Euroopas ja Ühendkuningriigis. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
-
-Eelversiooni funktsioone saab ja tuleb sisse lülitada ainult järgu 2 liivakasti keskkondades. Liivakasti keskkonnas loodud seadistust ja tehisintellekti (AI) mudeleid ei saa töökeskkonda migreerida. Lisateavet leiate teemast [Microsoft Dynamics 365 eelversioonide täiendavad kasutustingimused](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> Finance insights eelversioon on kasutuselevõtu proovimiseks saadaval Ameerika Ühendriikides, Kanadas, Ühendkuningriigis, Euroopas, Aasia ja Vaikse ookeani piirkonnas, Austraalias ja Uus-Meremaal. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge. Finance insights lubamiseks tootmiskeskkondades [Ekspordi rakendusse Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) tuleks esmalt lubada ekspordi võimalused tootmiskeskkonnas.
 
 > [!NOTE]
 > Seda funktsiooni pakutakse eelvaate funktsioonide komplektina. Eelvaate funktsioonina ei tohiks te kasutada tulemuseks saadud masinõppe mudeleid, et juhtida või mõjutada oma äriotsuseid või eelarvete ettepanekuid. Selle funktsiooni kasutamist reguleeritakse jaotisega [Lisatingimusted](https://go.microsoft.com/fwlink/?linkid=2105274).
@@ -46,7 +47,7 @@ Eelversiooni programmi rakendamiseks täitke [rakenduse Dynamics 365 Finance fin
 
 ### <a name="system-requirements"></a>Süsteeminõuded
 
-Finantsülevaadete eelversiooni jaoks on nõutav järgu 2 liivakasti keskkond (mitme kastiga). Taustteavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+Tier-2 keskkond (mitme kastiga) on nõutav Finance insights eelvaateks. Taustteavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Versiooninõuded
 
@@ -55,8 +56,6 @@ See dokument kehtib rakenduse Finance and Operations versioonile 10.0.11 (platvo
 ### <a name="historical-data-requirements"></a>Ajalooliste andmete nõuded
 
 Kliendi maksmise prognoosimise funktsiooni jaoks kasutatava masinõppemudeli õigesti treenimiseks on nõutav vähemalt ühe aasta jagu kliendiarveid.
-
-Demosüsteemide jaoks, millel on Contoso demoandmete komplekt, on saadaval näidisandmed.
 
 ### <a name="role-and-permission-requirements"></a>Rolli ja õiguste nõuded
 
@@ -72,7 +71,7 @@ Selle protsessi läbimisel on kasu keskkondades Azure, Microsoft Dataverse ja LC
 ## <a name="configure-finance-insights"></a>Finantsülevaadete konfigureerimine
 
 Enne finantsülevaadete kasutamist peate täitma mõned konfigureerimise etapid. Lisateavet Finance insights`i konfigureerimise kohta leiate teemast:
-  - Versioonidele kuni 10.0.19: [Finance insights konfigureerimine – versioonid kuni 10.0.19](configure-for-fin-insites.md).
+  - Versioonidele kuni 10.0.19: [Finance insights konfigureerimine (eelvaade) – versioonid kuni 10.0.19](configure-for-fin-insites.md).
   - Versioonidele 10.0.20 ja pärast seda: [Finance insights konfiguratsioon (eelvaade) – versioonid 10.0.20 ja uuemad](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Andmeintegraatori projekti loomine

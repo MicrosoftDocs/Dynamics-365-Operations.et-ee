@@ -355,6 +355,8 @@
           items:
             - name: Sissejuhatus
               href: hr-admin-integration-ats-api-introduction.md
+            - name: ATS-i integratsioonide serveritevaheline autentimine
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: Värbamistaotlus ja seotud üksused
               items:
                 - name: Värbamistaotlus
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: Palgaarvestuse üksuste loomine ja ülevaatus
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Palgaarvestuse töövõtja
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Palgaarvestuse töötaja aadress
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: Palgaarvestuse põhipalgaplaan
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Palga positsiooni töö
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Palga positsioon
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: Palgaarvestuse integratsiooni parameetrid
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Palgaolemid
+              items:
+                - name: Palgaarvestuse töövõtja
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Palgaarvestuse töötaja aadress
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Palgaarvestuse põhipalgaplaan
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Palgaarvestuse ergutussüsteemi plaan
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Palga positsioon
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Palga positsiooni töö
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Puhkuse ja puudumisega seotud olemid
+              items:
+                - name: Puhkusesaldo
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Puhkuse tüüp
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Puhkusetaotlus
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Suvandikomplektid
+              items:
+                - name: Sugu
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Ei Jah
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Preemia tüüp
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Protsessi tüüp
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: Kasutusjuhend
       items:
         - name: Ülevaade
@@ -599,6 +625,8 @@
           items:
             - name: Tööjõu korraldamine
               href: hr-personnel-departments-jobs-positions.md
+            - name: Personalihalduse tööruum
+              href: hr-personnel-personnel-management-workspace.md
             - name: Töö komponentide häälestus
               href: hr-personnel-jobs.md
             - name: Osakondade määratlemine
@@ -607,9 +635,11 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Tööde määratlemine
               href: hr-personnel-define-jobs.md
+            - name: Ametikohad
+              href: hr-personnel-positions.md
             - name: Töögraafikute loomine
               href: hr-personnel-create-working-time-calendar.md
-            - name: Kandidaatide värbamine
+            - name: Töökandidaatide värbamine
               href: hr-personnel-recruit.md
             - name: Personalitegevuste KKK
               href: hr-personnel-actions-faq.md
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Isikuandmete redigeerimise piiramine
               href: hr-employee-self-service-restrict-editing.md
+        - name: Töövoosüsteemi kasutamine
+          items:
+            - name: Töövoosüsteemi ülevaade
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövoo süsteemi arhitektuur
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövooelemendid
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövoo tegevused
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövoogude loomine
+              items:
+                - name: Töövoogude loomise ülevaade
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Töövooatribuutide konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Käsitsiülesannete konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Automatiseeritud ülesannete konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kinnitusprotsesside konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kinnitussammude konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kulude läbivaatajate konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Käsitsi otsuste konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Tingimuslike otsuste konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Paralleeltegevuste konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Paralleelharude konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Rea kauba töövoogude konfigureerimine
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövoo sõnumi töötlemise pakett-töö konfigureerimine kriitilisena
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Tööüksuste delegeerimine töövoos
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kuva töövooajalugu
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Süsteemi konfigureerimine saatma kasutajatele töövooga seotud meilisõnumeid
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövoo tüübid
+              items:
+                - name: Töövoo tüüp on loomine.
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Töövoo tüüpide kontroll-loend
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Töövoo kategooria loomine
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Töövoo tüübi kohta päringu loomine
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uue töövoo tüübi loomine
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Töövoodokumendi klassi loomine
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: SubmitToWorkflow klassi loomine
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Töövoodokumendi klassi seostamine töövoo tüübiga
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövootüüpide aruanne
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: Töövoo KKK
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

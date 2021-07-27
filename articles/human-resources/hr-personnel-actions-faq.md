@@ -2,7 +2,7 @@
 title: Personalitegevuste KKK
 description: See artikkel sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054544"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333015"
 ---
 # <a name="personnel-actions-faq"></a>Personalitegevuste KKK
 
@@ -51,7 +51,7 @@ Personalitoimingute olek võib olla järgmine.
 - **Keelatud** – kinnitaja keelas toimingutaotluse.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Kas saan personalitoimingu kustutada?
-Jah, saate kustutada personalitoimingud, mille olek on **Mustand**, **Tõrge**, **Nurjunud** või **Tühistatud**.
+Jah, saate kustutada personalitoimingud, mille olek on **Mustand**, **Tõrge**, **Nurjunud** või **Tühistatud**. Personalitoimingute saab kustutada ainult siis kui olete suvandi **Lõpetatud** häälestanud **Luba lõpetatud töötaja tegevuste kustutamine** väärtusele **jah** **inimressursside jagatud parameetrid** lehel.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Kuidas kõige kiiremini personalitoimingu taotluse olekut kontrollida?
 Avage soovitud personalitoimingute loendileht ja valige personalitoiming.
@@ -68,7 +68,7 @@ Kui personalitoimingu taotlus nurjub, siis tehke tõrke lahendamiseks ja taotlus
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Mis juhtub töövoogu kasutava personalitoiminguga pärast lõplikku kinnitamist?
 Kui tõrkeid ei ole, muutub personalitoiming kirjutuskaitstuks. (Saate vaadata ajalugu loendilehel **Kõik töötaja tegevused**, kuid te ei saa personalitoimingut muuta.) Kui personalitoimingu olek on **Lõpetatud**, on ametikoht või töötaja kirje juba muudetud. Tehtud muudatuste vaatamiseks avage loendileht **Ametikohad** või **Töötajad**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Miks ilmub järgmine tõrge, kui sisestan väljale Palgamäär väärtuse, mis ei ole null? „Väärtus on väljaspool kehtivat vahemikku. See peab jääma vahemikku 0,00 kuni 0,00”
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Miks ilmub järgmine tõrge, kui sisestan väljale Palgamäär väärtuse, mis ei ole null? „Väärtus on väljaspool kehtivat vahemikku - see peab jääma vahemikku 0.00 kuni 0.00”
 See teade ilmub, kuna valitud ametikohaga seostatud töö vormi väli Tase on tühi.
 
 Tõrke lahendamiseks tehke järgmist.
