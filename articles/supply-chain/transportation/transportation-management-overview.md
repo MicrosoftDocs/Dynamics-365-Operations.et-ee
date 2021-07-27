@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807724"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359505"
 ---
 # <a name="transportation-management-overview"></a>Transpordihalduse ülevaade
 
@@ -67,17 +69,17 @@ Moodul Transpordihaldus võimaldab kasutada ettevõtte transporti ning tuvastada
 ## <a name="planning-transportation-in-supply-chain-management"></a>Transpordi plaanimine rakenduses Supply Chain Management
 Transpordihalduse moodulis võib transpordi plaanimine põhineda tellimustel või saadetistel, mis nende tellimuste põhjal luuakse. Saadetised on alati mingil ajahetkel olemas, kuid neid pole transpordi plaanimiseks vaja. Üleviimistellimused kuuluvad väljamineva transpordi stsenaariumi ja neid saab plaanida koos müügitellimustega. 
 
-![Koorma joonis](./media/Load-drawing1-1024x477.jpg)
+![Koorma joonis.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Sissetulev transport
 Kui tellite hankijalt tellimuse kaubad ja kaubad tuleb lattu tarnida, peate soovi korral ise kaupade transpordi korraldama. Rakendust Supply Chain Management saab kasutada transpordi ja sissetuleva koorma vastuvõtmise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog sissetuleva koorma transpordi planeerimiseks. 
 
-![Äriprotsessi voog sissetulevate koormate transportimiseks](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Äriprotsessi voog sissetulevate koormate transportimiseks.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Väljaminev transport
 Saate planeerida ja töödelda väljaminevat koormat konkreetsete kaupade saatmiseks ettevõtte laost kliendile. Saate kasutada rakendust Supply Chain Management väljamineva koorma transportimise ja vedamise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog väljaminevate koormate planeerimiseks ja töötlemiseks. 
 
-![Väljaminevate koormate plaanimine ja töötlemine](./media/Planningandprocessingoutboundloads.jpg)
+![Väljaminevate koormate plaanimine ja töötlemine.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Koorma koostamine
 Supply Chain Management pakub koorma koostamise strateegiat, mille nimi on Mahupõhine koorma koostamise strateegia. See strateegia võimaldab kasutada koorma mallil kõrguse ja kaalu kohta määratud maksimumväärtusi või alistada sätted, sisestades uusi väärtusi. Selle strateegia kasutamiseks valige see väljalt **Koorma koostamise strateegia** kiirkaardil **Seadistus** lehel **Koorma koostamise töölaud**. Lisaks saate lisada oma koorma koostamise strateegiaid, luues rakendusobjektide puul (AOT) uue klassi.

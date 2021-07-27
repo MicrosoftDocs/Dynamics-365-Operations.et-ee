@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826007"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354757"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Varude töölehe kinnitamise töövood
 
@@ -55,7 +55,7 @@ Varude töölehe kinnitamise töövoogude loomiseks tehke järgmist.
     - **Varude koosluse tööleht**
     - **Varude korrigeerimistööleht**
 
-    ![Töölehe loomise dialoogiboks](media/journal-workflow-create-workflow.png "Töölehe loomise dialoogiboks")
+    ![Töölehe loomise dialoogiboks.](media/journal-workflow-create-workflow.png "Töölehe loomise dialoogiboks")
 
 1. Teie arvutis käivitub töövooredaktori rakendus. (Teil võidakse paluda see tegevus kinnitada.) Kasutage seda vajaduse järgi oma töövoo kujundamiseks. Lisateavet töövooredaktori kasutamise kohta leiate teemast [Töövoosüsteemi ülevaade](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Pärast salvestamist ja töövooredaktori rakenduse sulgemist peate valima, kas see töövoo versioon aktiveerida või hoida seda passiivsena.
@@ -73,7 +73,7 @@ Varude töölehe töövoo seostamiseks varude töölehe nimega tehke järgmist.
 1. Valige loendiveerust töölehe nimi, et avada selle sätete leht.
 1. Seadke kiirkaardil **Üldine** suvandi **Kinnitamise töövoog** väärtuseks **Jah**. Kui teil palutakse tegevus kinnitada, valige **Jah**.
 
-    ![Töövoo määramine töölehe nimele](media/journal-workflow-journal-name.png "Töövoo määramine töölehe nimele")
+    ![Töövoo määramine töölehe nimele.](media/journal-workflow-journal-name.png "Töövoo määramine töölehe nimele")
 
 1. Avage ripploend **Töövoog** ja valige sobiv töövoog. Loendis on kuvatud kõik aktiivsed töövood, mille olete loonud töövooredaktori rakenduse abil.
 
@@ -87,7 +87,7 @@ Pärast varude töölehe nime seostamist sellega ühtiva varude töölehe kinnit
 1. Täitke tööleht vajaduse järgi.
 1. Kui loote või avate varude töölehe sellega seotud kinnitamise töövooga, on toimingupaanil aktiivne nupp **Töövoog**. Kui olete valmis töölehte kinnitamiseks saatma, valige nupp **Töövoog**, et avada rippdialoogiboks, ja seejärel valige **Esita**. Kinnitustaotlus saadetakse seejärel asjakohasele kinnitajale, keda teavitatakse töövoo jaoks konfigureeritud teatamismeetodi abil.
 
-    ![Töölehe esitamine kinnitamiseks](media/journal-workflow-inventory-journal.png "Töölehe esitamine kinnitamiseks")
+    ![Töölehe esitamine kinnitamiseks.](media/journal-workflow-inventory-journal.png "Töölehe esitamine kinnitamiseks")
 
 Kinnitustaotluse tagasivõtmiseks avage asjakohane tööleht, valige nupp **Töövoog** ja seejärel valige **Võta tagasi**. See lähtestab töövoo.
 

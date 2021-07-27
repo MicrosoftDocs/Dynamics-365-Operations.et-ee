@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188930"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350494"
 ---
 # <a name="routes-and-operations"></a>Protsessid ja operatsioonid
 
@@ -45,7 +45,7 @@ Protsess kirjeldab operatsioonide järjekorda, mida toote või tootevariandi too
 
 Lihtne protsess on järjestikune ja protsessil on ainult üks alguspunkt.  
 
-[![Lihtne protsess](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Lihtne protsess.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Kui aktiveerite tootmise juhtimise parameetrites ainult lihtsad protsessid, loob Supply Chain Management automaatselt operatsioonide numbrid (10, 20, 30 jne), kui protsessi määratlete.
 
@@ -53,7 +53,7 @@ Kui aktiveerite tootmise juhtimise parameetrites ainult lihtsad protsessid, loob
 
 Kui aktiveerite tootmise juhtimise parameetrites keerukamad protsessivõrgud, saate määratleda protsessid, millel on mitu lähtepunkti ja operatsiooni, mis võivad töötada paralleelselt.  
 
-[![Protsessi võrk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Protsessi võrk.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Igal operatsioonil võib olla ainult üks järglasoperatsioon ja kogu protsess peab lõppema ühe operatsiooniga.
@@ -64,7 +64,7 @@ Kui aktiveerite tootmise juhtimise parameetrites keerukamad protsessivõrgud, sa
 
 Mõnikord on vaja operatsiooni sooritamiseks mitme erinevate omadustega operatsiooniressursi kombinatsiooni. Näiteks võib koostamisoperatsioon nõuda masinat, tööriista ja ühte töötajat iga kahe masina kohta, kes operatsiooni kontrolliks. Seda näidet saab modelleerida, kasutades paralleelseid operatsioone, kus üks operatsioon on mõeldud esmaseks operatsiooniks ja teised on teisesed.  
 
-[![Protsess, millel on esmane ja teisesed operatsioonid](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Protsess, millel on esmane ja teisesed operatsioonid.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Tavaliselt on kujutab esmane operatsioon endast kitsaskohana toimivat ressurssi ja dikteerib teiseste operatsioonide käitusaja. Kuid plaanimise ajal, mis hõlmab piiratud võimsust, peavad ressursid, mis on plaanitud nii esmase operatsiooni kui ka teiseste operatsioonide jaoks, olema kättesaadavad ja neil peab olema samal ajal vaba mahtu.  
 

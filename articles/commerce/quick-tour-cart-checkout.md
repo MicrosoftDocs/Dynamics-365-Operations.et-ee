@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352032"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Ostukorvi ja väljaregistreerimise ülevaade
 
@@ -37,7 +38,7 @@ Ostukorvi lehekülg toimib ostukorvina ja sisaldab kõiki ostukorvi lisatud kaup
 
 Järgmisel joonisel on kujutatud ostukorvi lehe näide, mis loodi mooduliteegi ja kujunduse „Fabrikam” abil.
 
-![Ostukorvi lehe näide](./media/cart2.PNG)
+![Ostukorvi lehe näide.](./media/cart2.PNG)
 
 Ostukorvi lehe põhiosas kuvatakse kõik kaubad, mille klient on ostukorvi lisanud. Kõik kehtivad allahindlused on esitletud. Need allahindlused hõlmavad keerukaid allahindlusi. Näideteks on "Osta 3 toodet ja saad 10% soodsamalt" või "Osta pudel ja seljakott, et saada 10% soodustust". Tellimuse kokkuvõtte moodul näitab summat, mis kuulub tasumisele pärast allahindluste, tarnekulude, maksude jms rakendamist. On olemas ka promokoodi moodul, mis võimaldab kliendil rakendada või eemaldada kampaania koode.
 
@@ -53,7 +54,7 @@ Kassa leht on koht, kus kliendid sisestavad tellimuse esitamiseks vajaliku teabe
 
 Järgmisel joonisel on kujutatud kassa lehe näide, mis loodi mooduliteegi abil.
 
-![Kassa lehe näide](./media/Checkout.PNG)
+![Kassa lehe näide.](./media/Checkout.PNG)
 
 Kassa lehe põhiosa on see, kus kogutakse kogu tellimuse teave. See teave sisaldab tarneaadressi, kohaletoimetamise valikuid ja makseteavet. Kassas on samm-sammuline voog, sest teave tuleb töödelda kindlas järjekorras. Näiteks tuleb sisestada tarneaadress, enne kui saab tarnekulud arvutada ja makse autoriseerida.
 

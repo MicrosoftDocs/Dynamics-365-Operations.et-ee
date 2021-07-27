@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: baba699a1b8efc986b4b274b8faf143d24d69e96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893928"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355777"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Luba kasutajatel häälestada ER-vormingu viidet vormingu päringule globaalsest hoidlast
 
@@ -34,27 +34,27 @@ Näiteks, kui konfigureerite [väliskaubanduse parameetreid](../../../finance/lo
 
 Kui praegune Finance’i eksemplar ei sisalda Intrastati äriprotsessiga seotud ER-i vorminguid, on see otsinguväli tühi.
 
-[![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Väliskaubanduse parameetrite leht.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Kui praegune Finance eksemplar sisaldab Intrastati äriprotsessiga seotud ER vorminguid, pakub otsinguväli ER vorminguid.
 
-[![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Väliskaubanduse parameetrite leht.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 See otsing pakub ainult praegusesse Finance eksemplari juba imporditud ER vorminguid. Et [importida](./tasks/er-import-configuration-lifecycle-services.md) ER lahendusi praegusesse Finance eksemplari, teil on vaja luba käivitada vastav ER raamistiku funktsioon, mis toetab ER vorminguid sisaldavate ER lahenduste [elutsüklit](general-electronic-reporting-manage-configuration-lifecycle.md).
 
 Alates Finance versioonist 10.0.9 (aprill 2020 väljalase), ER vormingu otsing, mida rakendatakse ER raamistiku API abil, on laiendatud. Saate siiski valida olemasolevad ER vormingud, mis on kiirkaardil **Vormingu konfiguratsiooni valimine**. Lisaks pakub laiendatud otsing uut võimalust otsida globaalset hoidlat (GR), et leida kindlaid ER-i vorminguid. Kõiki GR ER formaate pakutakse kiirkaardil **Globaalsest hoidlast importimine**.
 
-[![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Väliskaubanduse parameetrite leht.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Sarnaselt kiirkaardile **Vormingu konfiguratsiooni valimine**, näitab kiirkaart **Globaalsest hoidlast importimine** ainult ER vorminguid, mis on kohaldatavad äriprotsessile, mille puhul on sellel otsinguväljal valitud ER vorming. Selles näites Intrastati deklaratsiooni loomine. ER vorming on kohaldatav ettevõttele, kuhu kasutaja on praegu sisse logitud, sõltuvalt ettevõtte riigi kontekstist.
 
 ER-vormingu valimisel kiirkaardil **Globaalsest hoidlast importimine** imporditakse valitud ER-vormingu [konfiguratsioon](general-electronic-reporting.md#Configuration) GR-lt praegusesse Finance eksemplari.
 
-[![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Väliskaubanduse parameetrite leht.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Kui import on edukalt lõpule viidud, talletatakse sellel otsinguväljal viide imporditud ER vormingule. Kui avate esmakordselt GR-i, tuleb teil järgida antud linki, et registreeruda [regulatiivsete konfiguratsiooniteenuse](https://aka.ms/rcs) (RCS) jaoks, mida kasutatakse juurdepääsu haldamiseks GR-i salvestusruumi.
 
-[![Väliskaubanduse parameetrite leht](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Väliskaubanduse parameetrite leht.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Vaikimisi esindab kiirkaart **Globaalsest hoidlast importimine** ajutise salvestusruumi ER vormingute loendit, mis luuakse automaatselt jõudluse täiustuste GR sisu alusel. See juhtub siis, kui kiirkaart **Globaalsest hoidlast importimine** avatakse esimest korda, mis võib kesta mitu sekundit.
 
@@ -64,7 +64,7 @@ Kui te ei näe nõutud ER vormingut kiirkaardil **Globaalsest hoidlast importimi
 
 Selle funktsiooni saadavust kontrollib **ER vormingu konfiguratsioonide laiendatud otsing, mis võimaldab pärida globaalsest hoidlast** **Funktsioonide halduses**. Funktsioon on vaikimisi lubatud.
 
-[![Funktsioonihalduse leht](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
+[![Funktsioonihalduse leht.](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
 
 ## <a name="security-considerations"></a>Turbemeetmed
 
@@ -72,7 +72,7 @@ Selle funktsiooni saadavust kontrollib **ER vormingu konfiguratsioonide laiendat
 
 Järgmine pilt näitab, kuidas saab seda privileegi anda kasutajatele, kellele on määratud **Raamatupidaja** roll. See roll võimaldab kasutajatel konfigureerida väliskaubanduse parameetreid ja seadistada viiteid ER-i vormingutele väljadel **Failivormingu vastendamine** ja **Aruande vormingu vastendamine** lehel **Väliskaubanduse parameetrid**.
 
-[![Turvakonfiguratsiooni leht](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
+[![Turvakonfiguratsiooni leht.](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 
 ## <a name="limitations"></a>Kitsendused
 

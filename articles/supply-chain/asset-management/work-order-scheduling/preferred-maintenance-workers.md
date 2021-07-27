@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822535"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354104"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Eelistatud hooldustöötajate seadistus
 
@@ -37,7 +37,7 @@ Enne eelistatud hooldustöötajate seadistamist peate esmalt seadistama hooldust
 Eelistatud hooldustöötaja või töötajate rühm võib olla seotud ühe või mitmega järgmistest.
 
 - kaubandus  
-- Hooldustöö  tüübi variant  
+- Hooldustöö tüübi variant  
 - Hooldustöö tüüp  
 - Hooldustöö tüübi kategooria  
 - vara  
@@ -59,7 +59,7 @@ Mida rohkem valikuid te sama kirje jaoks teete, seda täpsem on teie seadistus.
 
     [!NOTE] Üldiselt, kui töötellimuse planeerimisel valitakse eelistatud hooldustöötaja, läbib Varahaldus kõik **eelistatud hooldustöötajate** kirjed, et kontrollida võimalikku vastet, kontrollides alati kõige spetsiifilisemat kombinatsiooni esimesena. Kui vastet ei leita, kasutatakse "vaikimisi" kirjet, mille valikuks on kas **Eelistatud hooldustöötajate grupi** väli või **Eelistatud hooldustöötaja** väli.
 
-![Joonis 1](media/02-work-order-scheduling.png)
+![Joonis 1.](media/02-work-order-scheduling.png)
 
 Saate seadistada ka *vastutavad* hooldustöötajad, keda saab valida hoolduse taotluse või töökäsu loomisel. **Kõigi töökäskude** ja **Kõigi hooldusnõuete** korral saate valikut vajadusel redigeerida. Lisateabe saamiseks vaadake [Vastutavad hooldustöötajad](../setup-for-maintenance-requests/responsible-workers.md).
 

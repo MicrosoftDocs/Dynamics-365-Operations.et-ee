@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 5f96302735e8aa1acf5c81992cb4cb49ff4a03ce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352490"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
 
@@ -54,7 +54,7 @@ BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistv
 4. Valige käsk **Laadi alla** ja seejärel **Retail Modern POS**. 
 5. Kui faili **ModernPOSSetup.exe** allalaadimine on lõpule viidud, valige **Ava fail**.
 
-    ![Ava fail](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Avage fail.](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Valige **Järgmine**, et installimisprotsess lõpule viia. Kui installimine on lõpule viidud, valige **Sule**.
 

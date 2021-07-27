@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811626"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350518"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Töökaardi seadmes lõpetamisest teatamine
 
@@ -85,13 +85,13 @@ Käsitsi määratud partiinumbrite lubamiseks seadistage jälgimisgrupi number, 
 1. Looge või valige seadistamiseks jälgimisnumbri grupp.
 1. Seadke kiirkaardil **Üldine** suvandi **Käsitsi** väärtuseks **Jah**.
 
-    ![Jälgimisnumbri grupp käsitsi sisestatud partiinumbrite korral](media/tracking-number-group-manual.png "Jälgimisnumbri grupp käsitsi sisestatud partiinumbrite korral")
+    ![Jälgimisnumbri grupp käsitsi sisestatud partiinumbrite korral.](media/tracking-number-group-manual.png "Jälgimisnumbri grupp käsitsi sisestatud partiinumbrite korral")
 
 1. Seadke vastavalt vajadusele muud väärtused ja seejärel valige antud jälgimisnumbri grupp nende väljastatud toodete partiinumbri grupiks, mille jaoks soovite seda stsenaariumit kasutada.
 
 Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest teadaandmine** väljal **Partiinumber** tekstikast, kus töötajad saavad sisestada mis tahes väärtuse.
 
-![Edenemisest teatamise leht koos käsitsi sisestatavate partiinumbrite väljaga](media/job-card-device-batch-manual.png "Edenemisest teatamise leht koos käsitsi sisestatavate partiinumbrite väljaga")
+![Edenemisest teatamise leht koos käsitsi sisestatavate partiinumbrite väljaga.](media/job-card-device-batch-manual.png "Edenemisest teatamise leht koos käsitsi sisestatavate partiinumbrite väljaga")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-batch-numbers"></a>Eelmääratletud partiinumbrite loetelu esitava jälgimisnumbri grupi seadistamine
 
@@ -102,13 +102,13 @@ Eelmääratletud partiinumbrite loetelu esitamiseks seadistage jälgimisgrupi nu
 1. Seadke kiirkaardil **Üldine** suvandi **Ainult laokannetele** väärtuseks **Jah**.
 1. Partiinumbrite koguse kaupa eraldamiseks sisestatud väärtuse alusel kasutage välja **Koguse kohta**. Näiteks on teil kümne tüki tootmistellimus ja välja **Koguse kohta** väärtuseks on seatud *2*. Sellisel juhul määratakse tootmistellimusele loomisel viis partiinumbrit.
 
-    ![Jälgimisnumbri grupp eeldefineeritud partiinumbrite korral](media/tracking-number-group-predefined.png "Jälgimisnumbri grupp eeldefineeritud partiinumbrite korral")
+    ![Jälgimisnumbri grupp eeldefineeritud partiinumbrite korral.](media/tracking-number-group-predefined.png "Jälgimisnumbri grupp eeldefineeritud partiinumbrite korral")
 
 1. Seadke vastavalt vajadusele muud väärtused ja seejärel valige antud jälgimisnumbri grupp nende väljastatud toodete partiinumbri grupiks, mille jaoks soovite seda stsenaariumit kasutada.
 
 Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest teadaandmine** väljal **Partiinumber** ripploend, kus töötajad peavad valima eelmääratletud väärtuse.
 
-![Edenemisest teatamise leht koos eelmääratletud partiinumbrite loeteluga](media/job-card-device-batch-predefined.png "Edenemisest teadaandmise leht koos eelmääratletud partiinumbrite loeteluga")
+![Edenemisest teatamise leht koos eelmääratletud partiinumbrite loeteluga.](media/job-card-device-batch-predefined.png "Edenemisest teadaandmise leht koos eelmääratletud partiinumbrite loeteluga")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-batch-numbers"></a>Automaatselt partiinumbreid määrava jälgimisnumbri grupi seadistamine
 
@@ -119,13 +119,13 @@ Kui partiinumbrid tuleks määrata automaatselt ja töötaja sisendita, siis toi
 1. Seadke kiirkaardil **Üldine** suvandi **Ainult laokannetele** väärtuseks **Ei**.
 1. Seadistage suvandi **Käsitsi** väärtuseks **Ei**.
 
-    ![Jälgimisnumbri grupp fikseeritud partiinumbrite korral](media/tracking-number-group-fixed.png "Jälgimisnumbri grupp fikseeritud partiinumbrite korral")
+    ![Jälgimisnumbri grupp fikseeritud partiinumbrite korral.](media/tracking-number-group-fixed.png "Jälgimisnumbri grupp fikseeritud partiinumbrite korral")
 
 1. Seadke vastavalt vajadusele muud väärtused ja seejärel valige antud jälgimisnumbri grupp nende väljastatud toodete partiinumbri grupiks, mille jaoks soovite seda stsenaariumit kasutada.
 
 Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest teadaandmine** väljal **Partiinumber** väärtus, kuid töötajad ei saa seda muuta.
 
-![Edenemisest teatamise leht koos kindlaks määratud partiinumbriga](media/job-card-device-batch-fixed.png "Edenemisest teatamise leht koos kindlaks määratud partiinumbriga")
+![Edenemisest teatamise leht koos kindlaks määratud partiinumbriga.](media/job-card-device-batch-fixed.png "Edenemisest teatamise leht koos kindlaks määratud partiinumbriga")
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Seeria kaudu juhitud kaupade lõpetatuna teatamine
 
@@ -165,7 +165,7 @@ Käsitsi määratud seerianumbrite lubamiseks seadistage jälgimisgrupi number, 
 1. Looge või valige seadistamiseks jälgimisnumbri grupp.
 1. Seadke kiirkaardil **Üldine** suvandi **Käsitsi** väärtuseks **Jah**.
 
-    ![Jälgimisnumbrite gruppide leht, seerianumbrid](media/tracking-number-group-manual-serial.png "Jälgimisnumbrite gruppide leht, seerianumbrid")
+    ![Jälgimisnumbrite gruppide leht, seerianumbrid.](media/tracking-number-group-manual-serial.png "Jälgimisnumbrite gruppide leht, seerianumbrid")
 
 1. Seadke vastavalt vajadusele muud väärtused ja seejärel valige antud jälgimisnumbri grupp nende väljastatud toodete seerianumbri grupiks, mille jaoks soovite seda stsenaariumit kasutada.
 
@@ -174,7 +174,7 @@ Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest
 - Seerianumbri praagina märkimiseks valige nupp **Praak** vastavas reas. Töötajal palutakse esitada **Tõrke põhjus**.
 - Seerianumbri kustutamiseks valige nupp **Kustuta** vastavas reas.
 
-![Edenemisest teatamise leht koos käsitsi sisestatavate seerianumbrite väljaga](media/job-card-device-serial-manual.png "Edenemisest teatamise leht koos käsitsi sisestatavate seerianumbrite väljaga")
+![Edenemisest teatamise leht koos käsitsi sisestatavate seerianumbrite väljaga.](media/job-card-device-serial-manual.png "Edenemisest teatamise leht koos käsitsi sisestatavate seerianumbrite väljaga")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Eelmääratletud seerianumbrite loetelu esitava jälgimisnumbri grupi seadistamine
 
@@ -185,13 +185,13 @@ Eelmääratletud seerianumbrite loetelu esitamiseks seadistage jälgimisgrupi nu
 1. Seadke kiirkaardil **Üldine** suvandi **Ainult laokannetele** väärtuseks **Jah**.
 1. Kasutage välja **Koguse kohta** seerianumbrite lõikamiseks ühe kogus kohta.
 
-    ![Jälgimisnumbri grupp eeldefineeritud seerianumbrite korral](media/tracking-number-group-predefined-sn.png "Jälgimisnumbri grupp eeldefineeritud seerianumbrite korral")
+    ![Jälgimisnumbri grupp eeldefineeritud seerianumbrite korral.](media/tracking-number-group-predefined-sn.png "Jälgimisnumbri grupp eeldefineeritud seerianumbrite korral")
 
 1. Seadke vastavalt vajadusele muud väärtused ja seejärel valige antud jälgimisnumbri grupp nende väljastatud toodete seerianumbri grupiks, mille jaoks soovite seda stsenaariumit kasutada.
 
 Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest teadaandmine** väljal **Seerianumber** ripploend, kus töötajad peavad valima eelmääratletud väärtuse.
 
-![Edenemisest teatamise leht koos eelmääratletud seerianumbrite loeteluga](media/job-card-device-serial-predefined.png "Edenemisest teatamise leht koos eelmääratletud seerianumbrite loeteluga")
+![Edenemisest teatamise leht koos eelmääratletud seerianumbrite loeteluga.](media/job-card-device-serial-predefined.png "Edenemisest teatamise leht koos eelmääratletud seerianumbrite loeteluga")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Automaatselt seerianumbreid määrava jälgimisnumbri grupi seadistamine
 
@@ -202,13 +202,13 @@ Kui seerianumber tuleks määrata automaatselt ja töötaja sisendita, siis toim
 1. Seadke kiirkaardil **Üldine** suvandi **Ainult laokannetele** väärtuseks **Ei**.
 1. Seadistage suvandi **Käsitsi** väärtuseks **Ei**.
 
-    ![Jälgimisnumbri grupp fikseeritud seerianumbrite korral](media/tracking-number-group-fixed-sn.png "Jälgimisnumbri grupp kindlaks määratud seerianumbrite korral")
+    ![Jälgimisnumbri grupp fikseeritud seerianumbrite korral.](media/tracking-number-group-fixed-sn.png "Jälgimisnumbri grupp kindlaks määratud seerianumbrite korral")
 
 1. Seadke vastavalt vajadusele muud väärtused ja seejärel valige antud jälgimisnumbri grupp nende väljastatud toodete seerianumbri grupiks, mille jaoks soovite seda stsenaariumit kasutada.
 
 Antud stsenaariumi kasutamisel on töökaardi seadmes toodud lehel **Edenemisest teadaandmine** väljal **Seerianumber** väärtus, kuid töötajad ei saa seda muuta. See stsenaarium on oluline ainult siis, kui tootmistellimus luuakse ühe seerianumbriga juhitud kauba koguse kohta.
 
-![Edenemisest teatamise leht koos kindlaks määratud seerianumbriga](media/job-card-device-serial-fixed.png "Edenemisest teatamise leht koos kindlaks määratud seerianumbritega")
+![Edenemisest teatamise leht koos kindlaks määratud seerianumbriga.](media/job-card-device-serial-fixed.png "Edenemisest teatamise leht koos kindlaks määratud seerianumbritega")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Lõpetatuna kinnitamine litsentsiplaadil
 
@@ -232,7 +232,7 @@ Selleks, et kontrollida, kas töötajad peaksid koguste lõpetamisest teatamisel
     - **Loo litsentsiplaat** – seadke suvandi väärtuseks **Jah**, et luua iga lõpetamisest teatamise korral uus litsentsiplaat. Seadke väärtuseks **Ei**, kui iga lõpetamisest kinnitamise korral tuleks kasutada olemasolevat litsentsiplaati.
     - **Prindi silt** – seadke suvandi väärtuseks **Jah**, kui töötaja peab printima iga lõpetamisest kinnitamise jaoks litsentsiplaadi sildi. Kui silti pole vaja, siis seadke väärtuseks **Ei**. 
 
-![Töökaardi konfigureerimine seadmete lehe jaoks](media/config-job-card-raf.png "Töökaardi konfigureerimine seadmete lehe jaoks")
+![Töökaardi konfigureerimine seadmete lehe jaoks.](media/config-job-card-raf.png "Töökaardi konfigureerimine seadmete lehe jaoks")
 
 > [!NOTE]
 > Sildi konfigureerimiseks avage **Laohaldus \> Seadistus \> Dokumendi marsruudivalik \> Dokumendi marsruudivalik**. Lisateavet vt teemast [Litsentsiplaadi printimise lubamine](../warehousing/tasks/license-plate-label-printing.md).

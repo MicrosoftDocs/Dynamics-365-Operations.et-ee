@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796362"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345156"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -36,7 +36,7 @@ Vaikimisi toimuvad tooteotsingud kaupluse sortimendist. Seda tüüpi otsingut ni
 
 Lehel **Vaheta kataloogi** saavad töötajad valida hõlpsasti mis tahes kaupluse või otsida tooteid kõigist kauplustest.
 
-![Kataloogi muutmine](./media/Changecatalog.png "Kataloogi muutmine")
+![Kataloogi muutmine.](./media/Changecatalog.png "Kataloogi muutmine")
 
 Kohalik tooteotsing otsib järgmistest tooteatribuutidest.
 
@@ -59,7 +59,7 @@ Kohalik tooteotsing otsib järgmistest tooteatribuutidest.
 - Nüüd saavad jaemüüjad konfigureerida tooteotsingut nii, et kui kasutajad tootenimesid tipivad, kuvatakse otsingusoovitused. Selle funktsiooni uus säte on saadaval kassa funktsiooniprofiilis grupis, mille nimi on **Tooteotsing**. Sätte nimi on **Näita tippimise ajal otsingusoovitusi**. See funktsioon aitab töötajatel otsitavat toodet kiiresti leida, kuna nad ei pea kogu nime käsitsi tippima.
 - Tooteotsingu algoritm otsib nüüd otsitud sõnu toote atribuudist **Otsingunimi**.
 
-![Tootesoovitused](./media/Productsuggestions.png "Tootesoovitused")
+![Tootesoovitused.](./media/Productsuggestions.png "Tootesoovitused")
 
 ## <a name="customer-search"></a>Kliendi otsing
 
@@ -83,7 +83,7 @@ Globaalseks otsimiseks saavad töötajad valida nupu **Filtreeri tulemusi** lehe
 
 Kliendi kaugotsingus ei kuvata kliendi ID-d teistest juriidilistest isikutest pärinevate klientide puhul, kuna nendele osapooltele pole selles ettevõttes kliendi ID-d loodud. Kuid kui töötaja avab kliendi andmete lehe, loob süsteem sellele osapoolele automaatselt kliendi ID ja seostab kliendiga ka kaupluse klientide aadressiraamatud. Seega on see klient hiljem toimuvates kaupluse kohalikes otsingutes nähtav.
 
-![Globaalne kliendi otsing](./media/Globalcustomersearch.png "Globaalne kliendi otsing")
+![Globaalne kliendi otsing.](./media/Globalcustomersearch.png "Globaalne kliendi otsing")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Täiendavad kohaliku tooteotsingu võimalused
 
@@ -94,11 +94,11 @@ Kui kautaja otsib telefoninumbrit, eirab süsteem erimärke nagu tühikud, sidek
 
 Tavaline kliendiotsing võib olla aeganõudev, sest selle käigus otsitakse mitmest väljast. Selle asemel saavad kassapidajad otsida ühest kliendi atribuudist, nagu nimi, meiliaadress või telefoninumber. Kliendiotsingu algoritmi kasutatavaid atribuute tuntakse ühiselt nimega *kliendi otsingukriteeriumid*. Süsteemiadministraator saab hõlpsalt konfigureerida ühe või mitu kriteeriumi kiirklahvidena, mis kuvatakse kassas. Kuna otsing on piiratud ühe kriteeriumiga, kuvatakse ainult asjakohased otsingutulemid ja jõudlus on palju parem kui tavapärase kliendiotsingu korral. Järgmisel illustratsioonil on näidatud kliendiotsingu kiirklahve kassas.
 
-![Kliendiotsingu kiirklahvid](./media/SearchShortcutsPOS.png "Kliendiotsingu kiirklahvid")
+![Kliendiotsingu kiirklahvid.](./media/SearchShortcutsPOS.png "Kliendiotsingu kiirklahvid")
 
 Otsingukriteeriumide määramiseks kiirklahvidena peab administraator rakenduses Commerce avama lehe **Kaubanduse parameetrid** ja seejärel vahekaardil **Kassa otsingukriteeriumid** valima kriteeriumid, mis tuleks kuvada kiirklahvidena.
 
-![Otsingu kiirklahvide konfigureerimine](./media/ConfigureShortcutsAX.png "Otsingu kiirklahvide konfigureerimine")
+![Otsingu kiirklahvide konfigureerimine.](./media/ConfigureShortcutsAX.png "Otsingu kiirklahvide konfigureerimine")
 
 > [!NOTE]
 > Kui lisate liiga palju kiirklahve, muutub kassa otsinguriba rippmenüü ülekoormatuks ja töötajate otsingu tõhusus võib väheneda. Soovitame lisada vaid nii palju kiirklahve, kui vaja.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750480"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350252"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Äridokumendimalli struktuuri värskendamine 
 
@@ -58,7 +58,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 
     Uus mall on redigeerimiseks avatud Excel Online’i malli redaktori lehel manustatud juhtelemendis.
 
-[![Äridokumentide halduse tööruumi kasutamine äridokumendi malli redigeerimise alustamiseks](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Äridokumentide halduse tööruumi kasutamine äridokumendi malli redigeerimise alustamiseks.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Redigeeritava malli praeguse struktuuri läbivaatamine
 
@@ -68,7 +68,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 4. Laiendage paanil **Malli struktuur** suvandit **Aruanne \> Arve \> rptHeader \> rptHeaderPart1**.
 5. Pange tähele, et rakenduse Finance malli struktuuris on üksus **rptHeaderCompLogo** esitatud suvandi **Aruanne \> Arve \> rptHeader \> rptHeaderPart1** allüksusena.
 
-[![Äridokumentide halduse tööruumi kasutamine redigeeritud malli praeguse struktuuri läbivaatamiseks](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Äridokumentide halduse tööruumi kasutamine redigeeritud malli praeguse struktuuri läbivaatamiseks.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Äridokumendimalli struktuuri värskendamine kustutades pildi
 
@@ -85,7 +85,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 4. Laiendage paanil **Malli struktuur** suvandit **Aruanne \> Arve \> rptHeader \> rptHeaderPart1**.
 5. Pange tähele, et üksus **rptHeaderCompLogo** ei sisaldu enam rakenduse Finance malli struktuuris.
 
-[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallist pildi kustutamiseks](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallist pildi kustutamiseks.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Äridokumendimalli struktuuri värskendamine lisades pildi
 
@@ -97,7 +97,7 @@ Tehke [äridokumendi halduse ülevaates](er-business-document-management.md) jä
 6. Laiendage paanil **Malli struktuur** suvandit **Aruanne \> Arve \> rptHeader \> rptHeaderPart1**.
 7. Pange tähele, et uus pilt on nüüd lisatud üksusena rakenduse Finance malli struktuuri.
 
-[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallile pildi lisamiseks](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Äridokumentide halduse tööruumi kasutamine äridokumendi mallile pildi lisamiseks.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Seotud lingid
 

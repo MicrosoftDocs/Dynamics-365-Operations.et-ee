@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897304"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360684"
 ---
 # <a name="financial-dimensions-and-posting"></a>Finantsdimensioonid ja sisestamine 
 
@@ -71,29 +71,29 @@ Erinevate komponentide käitamisjärjekord tekitab sageli küsimusi. On oluline 
 
 Järgmisel joonisel kujutatakse põhikontole 401100 seadistatud fikseeritud vaikedimensiooni.
 
-[![Vaikimisi finantsdimensioonid](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Vaikimisi finantsdimensioonid.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Käesolevas lihtsas näiteks sisestatakse üldin tööraamat, mille Osakonna dimensioon on häälestatud kasutama vaikeväärtust **023** (Operatsioonid). Koostatakse ja sisestatakse pearaamatukonto. Järgmisel joonisel kujutatakse vaikimisi finantsdimensiooni pearaamatu päises.
 
-[![Päevaraamatud](./media/general-journal.png)](./media/general-journal.png)
+[![Päevaraamatud.](./media/general-journal.png)](./media/general-journal.png)
 
 Töölehe päises oleva vaikedimensiooni tõttu rakendatakse müügikonto real vaikimisi osakonda 023. Järgmisel joonisel kujutatakse üldise tööraamatu rida, kus rakendatakse päisest pärit dimensiooni vaikeväärtust **023**.
 
-[![Töölehe kanne](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Töölehe kanne.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Rea sisestamisel kasutatakse siiski fikseeritud dimensiooni ja rida sisestatakse osakonnale 022. Järgmisel joonisel kujutatakse sisestatud kannet, mille puhul rakendatakse müügikontole fikseeritud dimensiooni.
 
-[![Rakendatud fikseeritud dimensiooniga vautšer kanded](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Rakendatud fikseeritud dimensiooniga vautšeri kanded.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Näide 2
 
 See näide kasutab esimesega sama malli. Küll aga on siia lisatud veel üks komponent: Osakonna dimensioon tasakaalustava dimensioonina. Järgmisel joonisel on dimensioon **Osakond** määratletud USMF-i pearaamatu tasakaalustava finantsdimensioonina.
 
-[![Illustratsioon, mis näitab Deparatmenti kui tasakaalustavat finantsmõõdet](./media/ledger.png)](./media/ledger.png)
+[![Illustratsioon, mis näitab Deparatment`i kui tasakaalustavat finantsmõõdet.](./media/ledger.png)](./media/ledger.png)
 
 Kui kasutada sama töölehe päise seadistust ja sisestada sama kanne, siis rakendatakse esmalt fikseeritud dimensiooni. Sellisel juhul rakendatakse tasakaalustamise loogikat, et igal osakonnal oleks taskaalustatud sissekanne. Järgmisel joonisel kujutatakse kirjekandeid, milles sisaldub pärast fikseeritud dimensiooni rakendamist ka tasakaalustav kirje.
 
-[![Vautšer kanded pärast korrespondentkande rakendamist](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Vautšer kanded pärast korrespondentkande rakendamist.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Näide 3
 
@@ -101,11 +101,11 @@ Selles näites lisatakse täpsem reegel. Täpsema reegli kohaselt peab süsteem 
 
 See näite on järjekorra tõttu oluline. Konto struktuur määratletakse pärast põhikonto sisestamist. Konto struktuuri häälestusele viitamise korral käsitleb süsteem põhikontot, äriüksust, osakonda ja kulukeskust asjakohastena. Praegu ei ole täpsemat reeglit veel rakendatud, sest enne fikseeritud dimensioone rakendatakse tööraamatu kande sisestamisel vaikedimensioone. Järgmises näites puudub segment Klient, sest täpsema reegli kriteeriumid pole täidetud.
 
-[![Pearaamatukonto](./media/drop-down.png)](./media/drop-down.png)
+[![Pearaamatukonto.](./media/drop-down.png)](./media/drop-down.png)
 
 Sisestamine ei õnnestu, sest fikseeritud dimensiooni rakendati protsessi lõpus. Dimensiooni kontrollimise käigus selgub, et põhikonto 401100 ja osakonna 022 korral on nõutav Kliendi segment. Kontrolli käigus leitud tõrke tõttu ei saa sisestamine toimuda. Järgmisel joonisel kujutatakse pärast dimensiooni kontrolli kuvatavat teadet selle kohta, et Klient on nõutud segment.
 
-[![Teate üksikasjad](./media/message.png)](./media/message.png)
+[![Teate üksikasjad.](./media/message.png)](./media/message.png)
 
 Selle näite puhul tuleb vaikeväärtus täpsema reegli käivitamiseks ja segmenti Klient sisestamiseks üle kirjutada. Siiski ei saa seda lahendust alati kasutada ja mõned kasutajad ei teagi midagi sisestamisreeglite kohta. Seetõttu on oluline mõista, millises järjekorras vaikedimensioone kontoplaani häälestamisel rakendatakse.
 

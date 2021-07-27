@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820807"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350642"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Hankija maksesoovituste automatiseerimine
 
@@ -97,11 +97,11 @@ Soovitame esmalt hinnata, kas automatiseerimine on teie organisatsiooni nõuete 
 
 Pärast hankija maksesoovituse automatiseerimise seeria loomist kuvatakse iga makse sündmused protsessi automatiseerimise nädalavaates. Hankija maksete puhul on protsessi automatiseerimise nädalavaade lisatud nii tööruumi **Hankija maksed** kui ka lehele **Protsessi automatiseerimine**.
 
-[![Protsessi automatiseerimise nädalavaade hankija maksete tööruumis](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Protsessi automatiseerimise nädalavaade hankija maksete tööruumis.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 Tööruumis **Hankija maksed** kuvatavas protsessi automatiseerimise nädalavaates kuvatakse vaid hankija maksesoovituste automatiseerimised. Seal kuvatakse kõik käimasoleva nädala maksesündmused kõigi juriidiliste isikute kohta, kelle suhtes on sisselogitud kasutajal turbeõigused. Näiteks kui ostureskontro makseametnik vastutab USMF ja USSI ettevõtete maksete eest, siis näeb ta hankija maksesoovituste automatiseerimise sündmusi nende kahe ettevõtte, kuid mitte muude ettevõtete kohta.
 
-[![USMF ja USSI ettevõtete protsessi automatiseerimise nädalavaade](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![USMF ja USSI ettevõtete protsessi automatiseerimise nädalavaade.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Iga sündmus kuvab ettevõtet, milles maksetööleht loodi või luuakse. Kui maksed luuakse tsentraliseeritud makseid kasutades, siis on kuvatav ettevõte see ettevõte, kus maksed luuakse. Sündmus ei pruugi tingimata kuvada, milliste ettevõtete arved tasutakse.
 

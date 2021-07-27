@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797475"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348340"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Soovituste lisamine kandeekraanile
 
@@ -43,7 +43,7 @@ Saate Commerce'i kasutamisel kuvada kassaseadmes tootesoovitusi. Tootesoovituste
 6. Sisselogimisel avaneb alltoodule sarnane leht. Paigutus erineb olenevalt teie poele tehtud kohandustest.
 
 
-    [![Paigutusekujundaja](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Paigutusekujundaja.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Valige kuvatav valik
 
@@ -58,11 +58,11 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 1. Vähendage kanderidade üksikasjade ala kõrgust, nii et see oleks sama kõrge, kui vasakul asuv kliendipaneel.
 
 
-    [![Kanderidade üksikasjade ala kõrgust on vähendatud](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Kanderidade üksikasjade ala kõrgust on vähendatud.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Pukseerige soovituste juhtelement vasakul asuvast menüüst kanderea üksikasjade ala ja kannetekuva alaosa keskel asuva nupuruudustiku vahele. Muutke juhtelemendi suurust, nii et see mahuks olemasolevasse ruumi.
 
-    [![Paigutusele on lisatud soovituste juhtelement](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Paigutusele on lisatud soovituste juhtelement.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
@@ -77,13 +77,13 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 
 2. Klõpsake **Kohandada**.
 
-    [![Kohandamine – vahekaardi juhtimise dialoogiboks](./media/pic-5.png)](./media/pic-5.png)
+    [![Kohandamine – vahekaardi juhtimise dialoogiboks.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Klõpsake valikut **Uus vahekaart**.
 4. Leidke vastlisatud uus vahekaart. Võib-olla peate selleks allapoole kerima.
 5. Valige ripploendist **Sisu** suvand **Soovitatud tooted**.
 
-    [![Soovitatud toodete valimine sisu väljast](./media/pic-6.png)](./media/pic-6.png)
+    [![Soovitatud toodete valimine sisu väljast.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Tippige väljale **Silt** soovituste vahekaardi nimi. Tippige näiteks „Soovitatud tooted”.
 7. Valige väljal **Pilt** vahekaardil kuvatav pilt.

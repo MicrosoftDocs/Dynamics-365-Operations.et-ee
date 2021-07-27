@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224086"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355342"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektroonilise aruandluse valemite toetatud liitandmetüübid
 
@@ -41,13 +41,13 @@ ER-i [vastendamise](general-electronic-reporting.md#data-model-and-model-mapping
 
 *Klassi* vaikeväärtuseks on **tühi**.
 
-Järgmine näide näitab, kuidas klassitüübi **süsteemiteave(xinfo)** **klass** tüüpi andmeallikas lisatakse, et muuta **xinfo** rakenduse klassi eksemplar ja kutsuda sea käesoleva rakenduse nime saamiseks **tooteNimi()**. Praeguse rakenduse nimi toodetakse käitusajal, käivitades sidumise `xInfo.productName`, mis oli konfigureeritud ER andmemudeli **Rakenduse nimi(RakenduseNimi)** andmemudeli väljale. See sidumine kutsub käesoleva mudeli vastendamises esitatud **xInfo** rakenduse klassi `productName()` meetodit  **süsteemiteabe(xInfo)** andmeallikana.
+Järgmine näide näitab, kuidas klassitüübi **süsteemiteave(xinfo)** **klass** tüüpi andmeallikas lisatakse, et muuta **xinfo** rakenduse klassi eksemplar ja kutsuda sea käesoleva rakenduse nime saamiseks **tooteNimi()**. Praeguse rakenduse nimi toodetakse käitusajal, käivitades sidumise `xInfo.productName`, mis oli konfigureeritud ER andmemudeli **Rakenduse nimi(RakenduseNimi)** andmemudeli väljale. See sidumine kutsub käesoleva mudeli vastendamises esitatud **xInfo** rakenduse klassi `productName()` meetodit **süsteemiteabe(xInfo)** andmeallikana.
 
-[![Klassi andmeallikas konfigureerimine ER-i mudeli vastenduse koostajas](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Klassi andmeallikas konfigureerimine ER-i mudeli vastenduse koostajas.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 Järgmine näide näitab, kuidas ER-vorming konfigureeritakse antud rakenduse nime panemiseks loodud dokumentidesse. Kasutatud andmemudeli **Tarkvaranime (Tarkvaranimi)** väli oli seotud **stringi** komponendiga, mis on pesastatud **kasutatud rakendus** ER-vormingu XML-elemendi alla. Seega paigutatakse praeguse rakenduse nimi käitusajal XML-vormingus XML-elementi loodud dokumenti **kasutatud rakendus**.
 
-[![Elektroonilise väljamineva dokumendi struktuuri konfigureerimine ER-vormingu kujundaja](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Elektroonilise väljamineva dokumendi struktuuri konfigureerimine ER-vormingu kujundaja.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Konteiner
 
@@ -60,7 +60,7 @@ Järgmine näide näitab, kuidas ER-vorming konfigureeritakse antud rakenduse ni
 
 Järgmine näide näitab, kuidas **rasterpilt(pilt)** *Konteiner* tüüpi väli on seotud andmemudeli **logo** väljal, mille tüübiks on **konteiner** **Müügiarve** mudeli vastendamisel. Selline sidumine muudab ettevõtte logo kättesaadavaks mis tahes ER-vormingus, mis on loodud **Müügiarve** juurdefinitsiooni jaoks ja mis kasutab seda mudelivastendamist käitusajal.
 
-[![Konteineritüübi välja sidumine ER-mudeli vastendamise kujundajaga](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Konteineritüübi välja sidumine ER-mudeli vastendamise kujundajaga.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Salvestamine
 
@@ -109,7 +109,7 @@ Lisateavet *kirje loendi* väärtuste teisendamise kohta vt [loendikategooria ER
 
 Järgmine näide näitab, kuidas objektitüübi **ReportDataContakti** andmeallikas lisatakse *Objekti* tüüpi loodud arve teabe edastamiseks lähtekoodist **Projekti arve** muddeli vastendamisel. Näiteks arveeksemplari tekst edastatakse täitmiskonteksti osana. See tekst võetakse lähtekoodist käitusajal, käivitades `ReportDataContract.parmInvoiceInstanceText` ER-i andmemudeli **märkuse** välja jaoks konfigureeritud sidumise. See sidumine kutsub `parmInvoiceInstanceText()` meetodit **PSAProjArveLeping** rakenduse klassis, mis esindab käesoleva mudeli vastendamises esitatud **ReportDataContrac** andmeallikat.
 
-[![Objekti andmeallika konfigureerimine ER-i mudeli vastenduse koostajas](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Objekti andmeallika konfigureerimine ER-i mudeli vastenduse koostajas.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Teavet selle kohta, kuidas edastada täitmiskonteksti üksikasju lähtekoodist jooksvale ER-lahendusele, vt ["Rakenduste arendamise faktid, et kutsuda kujundamisaruannet](er-quick-start1-new-solution.md#DevelopCustomCode).
 

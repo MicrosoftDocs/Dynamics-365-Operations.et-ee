@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744659"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348651"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Andmete agnostiline testimine, kasutadesRegression Suite Automation Tool
 
@@ -30,7 +30,7 @@ Kui ERP-rakenduse funktsionaalne valideerimine ei saa olla täielikult agnostili
 - ATL raamistik
 - Regression Suite Automation Tool (RSAT)
 
-[![Testi klassifikatsiooni püramiid](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Testi klassifikatsiooni püramiid.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Ülevaade
 -   **SysTest raamistik** – SysTest raamistik on usaldusväärseks ühiku testimiseks. Kuna ühiku testid testivad üldiselt meetodit või funktsiooni, peaksid need alati olema andmeagnostilised ja sõltuvad ainult sisendi andmetest, mis esitatakse katse osana.
@@ -42,7 +42,7 @@ Kui ERP-rakenduse funktsionaalne valideerimine ei saa olla täielikult agnostili
     - o Sisestage kordumatud ID-d (nt arve numbrid) numbriseeria kaudu või kasutades Microsoft Excel funktsioone, nt =TEXT(NOW(),"yyyymmddhhmm"). See funktsioon annab iga minut kordumatu numbri, mis võimaldab teil jälgida, millal tegevus toimus. Seda saab kasutada muutujate jaoks, nagu toote sissetuleku numbrid ja hankija arve numbrid. Need testid jätkavad tööd sama andmebaasiga uuesti ja uuesti, nõudmata taastamist.
     - Määrake alati keskkonna **Redigeerimise režiim**, et **lugeda** või **redigeerida** esimese testi juhtumina, kuna vaikimisi on suvand **Automaatne**.**Automaatne** suvandid kasutavad alati eelmist sätet ja võivad põhjustada ebausaldusväärseid teste. 
  
-    [![Suvandite leht, jõudluse vahekaart](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Suvandite leht, jõudluse vahekaart.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Kinnitage ainult pärast kindla kande filtreerimist üldise kinnitamise asemel. Näiteks kirjete arvu puhul filtreerige kande number või kande kuupäev nii, et kontroll välistab kõik muud kanded. 
     - Kui kontrollite kliendi saldot või eelarvet, salvestage esmalt väärtus ja lisage seejärel oma tehinguväärtus, et kontrollida oodatavat tulemust, kindla eeldatava väärtuse kinnitamise asemel. 

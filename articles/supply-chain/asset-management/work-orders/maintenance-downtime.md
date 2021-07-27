@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344612"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Töökäskude hoolduskatkestus
 
@@ -45,7 +45,7 @@ Võite luua hoolduskatkestuse registreeringuid töökäsus valitud varale. See f
 
 Järgneval joonisel kuvatakse lehe **Hoolduskatkestuse põhjuse koodid** näide.
 
-![Joonis 1](media/15-work-orders.png)
+![Joonis 1.](media/15-work-orders.png)
 
 Kui olete loonud need hoolduskatkestuse põhjuse koodid, mida kasutada soovite, saate luua töökäskudele ja varadele hoolduskatkestuse registreeringuid.
 
@@ -71,15 +71,15 @@ Kui olete loonud need hoolduskatkestuse põhjuse koodid, mida kasutada soovite, 
 
 Alljärgneval joonisel on esitatud hoolduskatkestuse registreerimise näide.
 
-![Joonis 2](media/16-work-orders.png)
+![Joonis 2.](media/16-work-orders.png)
 
 Hoolduskatkestuse registreeringuteks kasutatav kalender oleneb teie varade ja parameetrite seadistustes tehtud valikust. Kui varale on valitud ressurss lehe **Kõik varad** kiirkaardi **Põhivara** väljal **Ressurss**, kasutatakse seotud ressursirühma kalendri seadistust, nii nagu näidatud järgmisel joonisel.
 
-![Joonis 3](media/17-work-orders.png)
+![Joonis 3.](media/17-work-orders.png)
 
 Kui varale ressurssi valitud ei ole, kasutatakse standardset kalendrit, mis on valitud lehel **Varahalduse parameetrid**, nii nagu näidatud järgmisel joonisel.
 
-![Joonis 4](media/18-work-orders.png)
+![Joonis 4.](media/18-work-orders.png)
 
 Kõigi hoolduskatkestuste registreeringute ülevaate vaatamiseks valige **Varahaldus** > **Päringud** > **Hoolduskatkestus**.
 

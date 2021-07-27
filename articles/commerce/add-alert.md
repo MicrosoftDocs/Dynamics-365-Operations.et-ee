@@ -2,7 +2,7 @@
 title: Reklaambänneri moodul
 description: See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796242"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479348"
 ---
 # <a name="promo-banner-module"></a>Kampaania ribareklaami moodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -46,7 +47,7 @@ Reklaambännereid saab kasutada saidi päises, et näidata kogu saiti hõlmavaid
 
 Järgmisel pildil on toodud reklaambänneri näide.
 
-![Reklaambänneri mooduli näide](./media/ecommerce-Promobanner.PNG)
+![Reklaambänneri mooduli näide.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Reklaambänneri mooduli atribuudid
 
@@ -59,6 +60,10 @@ Järgmisel pildil on toodud reklaambänneri näide.
 | Näita karusselli keerajat     | **Tõene** või **Väär**              | Väärtus, mis näitab, kas karusselli keerajaid tuleb kuvada, et kliendid saaksid käsitsi liikuda mitme bänneri vahel. |
 | Teksti joondus            | **Paremal**, **Vasakul** või **Keskel** | Teksti joondamine reklaambänneri moodulis. |
 | Seos                      | URL                              | Valikulise lingi URL. |
+|Teksti joondamine             | **Paremal**, **Vasakul** või **Keskel** | See atribuut on saadaval teema laiendina Adventure Worksi teemas. See võimaldab kasutajal määrata teksti joonduse reklaamibänneris. |
+
+> [!IMPORTANT]
+> Adventure Works teema on saadaval alates Dynamics 365 Commerce väljalaske versioonist 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Reklaambänneri mooduli lehele lisamine 
 
@@ -78,7 +83,6 @@ Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 > [!NOTE]
 > Reklaambännerit kasutatakse tavaliselt lehekülje päise pesas või alapealkirja pesas.
-
 
 ## <a name="additional-resources"></a>Lisaressursid
 

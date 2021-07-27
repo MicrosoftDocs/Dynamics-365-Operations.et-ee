@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808324"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349814"
 ---
 # <a name="asset-management-parameters"></a>Rakenduse Asset Management parameetrid
 
@@ -68,7 +68,7 @@ Vahekaart **Töökäsud** sisaldab järgmisi sätteid.
 Vahekaart **Töökäsu plaanimine** sisaldab kiirkaardi **Üldine** järgmisi sätteid.
 
 - **Graafiku ajapiir** määratleb perioodi päevades, mis arvutatakse töökäsu eeldatavast alguskuupäevast, mille jooksul töökäsu töid planeeritakse.  
-- **Koondplaan** on seotud mooduli **Organisatsiooni haldus** ressurssidega. Kui valite sellel väljal koondplaani, saate vaadata töökäskudega seotud võimsuse reserveerimisi valikus **Võimsuse reserveerimised** (**Organisatsiooni haldus** > **Ressursid** > **Ressursid** > valige ressurss vahekaardil > **Ressurss** nupp > **Võimsuse reserveerimised**). Kui jätate selle välja tühjaks, saate vaadata töökäskude täiskoormusi valikus **Täiskoormus** (**Organisatsiooni haldus** \> **Ressursid** \> **Ressursid** \> valige ressursi vahekaart  \> **Ressurss** \> **Täiskoormus** nupp).  
+- **Koondplaan** on seotud mooduli **Organisatsiooni haldus** ressurssidega. Kui valite sellel väljal koondplaani, saate vaadata töökäskudega seotud võimsuse reserveerimisi valikus **Võimsuse reserveerimised** (**Organisatsiooni haldus** > **Ressursid** > **Ressursid** > valige ressurss vahekaardil > **Ressurss** nupp > **Võimsuse reserveerimised**). Kui jätate selle välja tühjaks, saate vaadata töökäskude täiskoormusi valikus **Täiskoormus** (**Organisatsiooni haldus** \> **Ressursid** \> **Ressursid** \> valige ressursi vahekaart \> **Ressurss** \> **Täiskoormus** nupp).  
 
 >[!NOTE]
 >Valik, mis puudutab koondplaani kasutamist moodulis **Varade haldus** ja seotud vorm, mida kasutatakse võimsuse reserveerimiste või täiskoormuse ülevaate saamiseks, on standardseadistus. Olenevalt seadistusest väljal **Koondplaan**, on teil võimalik pääseda võimsuse teabele juurde nii valikus **Võimsuse reserveerimine** kui ka **Täiskoormus** moodulis **Organisatsiooni haldus**. Seadistust ei saa luua, kui mõlemas vaates kuvatakse võimsuse reserveerimised.  
@@ -99,7 +99,7 @@ Järgmises loendis kirjeldatud väljad on seotud arvutatud hinnanguskooridega, m
 
 ## <a name="the-document-types-tab"></a>Vahekaart Dokumendi tüübid
 
-Saate valida dokumentide tüübid, mis peaksid olema saadaval töökäsu aruandega seotud manuste printimiseks. Selleks valige jaotises **Saadaolevad** dokumendi tüüpi ja valige ![edasinoole](media/15-setup-for-objects.png). Kui soovite valitud dokumenditüübi eemaldada, valige dokumenditüüp jaotises **Valitud** ja valige ![tagasinool](media/16-setup-for-objects.png) nuppu.
+Saate valida dokumentide tüübid, mis peaksid olema saadaval töökäsu aruandega seotud manuste printimiseks. Selleks valige jaotises **Saadaolevad** dokumendi tüüpi ja valige ![edasi nool.](media/15-setup-for-objects.png). Kui soovite valitud dokumenditüübi eemaldada, valige dokumenditüüp jaotises **Valitud** ja valige ![tagasinool](media/16-setup-for-objects.png) nuppu.
 
 ## <a name="the-number-sequences-tab"></a>Vahekaart Numbriseeriad
 

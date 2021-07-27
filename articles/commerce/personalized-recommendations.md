@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804425"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352296"
 ---
 # <a name="enable-personalized-recommendations"></a>Isikupärastatud soovituste lubamine
 
@@ -50,7 +50,7 @@ Isikupärastamise sisselülitamiseks toimige järgmiselt.
 1. Valige funktsioon **Isikupärastatud tootesoovitused**.
 1. Tehke atribuutide paanil **Isikupärastatud tootesoovitused** valik **Luba kohe**.
 
-![Isikupärastamise sisselülitamine](./media/FeatureManagement_Personalized.PNG)
+![Isikupärastamise sisselülitamine.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Kui lülitate isikupärastamise sisse, käivitatakse isikupärastatud tootesoovituste loendite loomise protsess. Kuluda võib kuni üks päev enne, kui need loendid on saadaval ja nähtavad veebis ning kassas.
@@ -73,7 +73,7 @@ Enne kui loend „Teile valitud” saab e-kaubanduse lehel ilmuda, peavad järgm
 
 Järgmisel joonisel on kujutatud loendi „Teile valitud” näide veebipoe lehel.
 
-![Veebipõhine loend Teile valitud](./media/picksforyou.png)
+![Veebipõhine loend Teile valitud.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Loendid „Kliendile soovitatud” kassas
 
@@ -81,7 +81,7 @@ Oma kliendisuhtluse kogemuse parandamiseks saavad jaemüüjad isikupärastada ol
 
 Järgmisel joonisel on kujutatud loendi „Kliendile soovitatud” näide kassaterminalis.
 
-![Loend Kliendile soovitatud kassas](./media/picksonpos.png)
+![Loend Kliendile soovitatud kassas.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Isikupärastamise rakendamine olemasolevatele soovituste loenditele
 
@@ -89,7 +89,7 @@ Jaemüüjad saavad rakendada isikupärastamist olemasolevatele soovituste loendi
 
 Näiteks on sisselogitud kasutaja juba ostnud musta kella ja pruunid töösaapad, mis ilmuvad järgmisel joonisel loendis „Populaarne – vaikimisi”. Seetõttu näeb kasutaja nende toodete asemel uusi tooteid, nagu on näidatud loendis „Populaarne – isikustatud”.
 
-![Isikupärastamise rakendamine](./media/applypersonalization.png)
+![Isikupärastamise rakendamine.](./media/applypersonalization.png)
 
 Isikupärastamise rakendamiseks olemasolevale soovituste loendile rakenduse Commerce saidiehitajas, toimige järgmiselt.
 
@@ -99,7 +99,7 @@ Isikupärastamise rakendamiseks olemasolevale soovituste loendile rakenduse Comm
 1. Dialoogiaknas **Vali toote loendi konfigureerimine** jaotises **Tüüp** valige loendi tüüp.
 1. Valige märkeruut **Rakenda isikupärastamine** ja valige seejärel **OK**.
 
-    ![Populaarsete loendile isikupärastamise rakendamine](./media/ApplyPersonalizationToTrending.PNG)
+    ![Populaarsete loendile isikupärastamise rakendamine.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Salvestage leht, lõpetage selle redigeerimine ja seejärel avaldage see. Pärast lehe avaldamist kuvatakse sisselogitud kasutajatele isikupärastatud populaarsete loendeid.
 

@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193901"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345376"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finantskonsolideerimiste ja valuutateisenduse ülevaade
 
@@ -66,13 +67,13 @@ Siin on mõned konsolideerimisstsenaariumid, mida võrguühendusega konsolideeri
 ## <a name="legal-entity-setup"></a>Juriidilise isiku seadistamine
 Enne konsolideerimise töötlemist peate seadistama juriidilise isiku. Saate konsolideerimist käivitada nii palju kordi kui vaja ja kõik andmed teisendatakse lähteettevõte arvestusvaluutast valuutasse, mis on konsolideeritava ettevõtte jaoks määratud. Seetõttu, kui teil on järgmise organisatsiooni struktuuri jaoks vaja teisendada kõik Põhja-Ameerika ettevõtted esmalt USA dollaritele (USD) ja seejärel eurodele (EUR), emaettevõtte valuutale, peab teil olema vähemalt kaks konsolideeritavat ettevõtet.
 
-![Organisatsiooni struktuur](./media/organizational-structure.png "Organisatsiooni struktuur")
+![Organisatsiooni struktuur.](./media/organizational-structure.png "Organisatsiooni struktuur")
 
 Eelnevas ogranisatsioonilises struktuuris peab teil olema juriidiline isik Põhja-Ameerika konsolideerimise jaoks, kuna konsolideerimised konsolideerivad alati lähteettevõtte arvestusvaluutast konsolideeritava ettevõtte valuutasse. Kui näites on kõik ettevõtted kaasatud ühte konsolideerimisse, siis Mehhiko tütarettevõte teisendatakse Mehhiko peesodest (MXN) eurodeks, mitte peesodest USA dollariteks ja USA dollaritest eurodeks.
 
 Kui loote juriidilise isiku, saate määrata, kas ettevõtet kasutatakse nii konsolideerimis- kui ka eemaldamisprotsessis või ainult ühes neist protsessidest. Järgmises näites kasutatakse ettevõtet mõlemas protsessis. Pange tähele, et igapäevaseid töölehti ei saa sisestada konsolideeritavasse ettevõttesse, aga saate need sisestada eemaldamisettevõttesse. Seetõttu võib olla kasulik eraldi eemaldamisettevõte.
 
-![Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks](./media/sep-elimination-company.png "Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks")
+![Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks.](./media/sep-elimination-company.png "Juriidiline isik, mida kasutatakse nii konsolideerimiseks kui ka eemaldamiseks")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Põhikontode ja konsolideerimiskontode grupid
 Peate otsustama, kuidas soovite oma kontoplaane konsolideerida. Konsolideerimisprotsessi käigus on teil põhikontode konsolideerimiseks kolm võimalust.
@@ -81,11 +82,11 @@ Esimene võimalus on kasutada lähteettevõtete põhikontosid. Sellisel juhul ko
 
 Teine võimalus on määrata vaikimisi konsolideerimiskonto lehel **Põhikontod**. Konto vastendatakse seejärel konsolideerimiskontoga. See suvand võib olla kasulik, kui teil on erisugused kontoplaanid või peate vastendama plaaniga, mille on määranud peakontor.
 
-![Põhikontode lehel määratud vaikimisi konsolideerimiskonto](./media/main-accounts.png "Põhikontode lehel määratud vaikimisi konsolideerimiskonto")
+![Põhikontode lehel määratud vaikimisi konsolideerimiskonto.](./media/main-accounts.png "Põhikontode lehel määratud vaikimisi konsolideerimiskonto")
 
 Kolmas võimalus on kasutada konsolideerimiskonto gruppe. Saate määrata nii palju konsolideerimiskonto gruppe kui vaja. Seejärel peate lehel **Täiendavad konsolideerimiskontod** vastendama põhikonto kontoplaanist kontoga, mida teil selle grupi jaoks vaja on.
 
-![Vastendamine täiendavate konsolideerimiskontode lehel](./media/additional-consolidation-accounts.png "Vastendamine täiendavate konsolideerimiskontode lehel")
+![Vastendamine täiendavate konsolideerimiskontode lehel.](./media/additional-consolidation-accounts.png "Vastendamine täiendavate konsolideerimiskontode lehel")
 
 ## <a name="consolidating-online"></a>Võrguühendusega konsolideerimine
 Lisateavet konsolideerimise üksikasjade sisestamise kohta võrgus vt teemast [Finantskonsolideerimised võrgus](./consolidate-online.md).
@@ -97,7 +98,7 @@ Konsolideerimise tulemuste vaatamiseks on teil mitu võimalust.
 - Vaadake üle konsolideeritava ettevõtte loendileht **Proovibilanss**.
 - Vaadake konsolideerimiskannete loendis lehel **Konsolideerimised** saldosid, mis on loodud iga perioodi kohta igale lähteettevõttele kuupäeva järgi.
 
-    ![Konsolideerimiskanded konsolideerimiste lehel](./media/managing-consolidation-transactions.png "Konsolideerimiskanded konsolideerimiste lehel")
+    ![Konsolideerimiskanded konsolideerimiste lehel.](./media/managing-consolidation-transactions.png "Konsolideerimiskanded konsolideerimiste lehel")
 
 Konsolideerimise uuesti käivitamiseks võite konsolideerimist lihtsalt töödelda. Võite ka esmalt valida suvandi **Kannete eemaldamine** lehelt **Konsolideerimised**.
 Kui teie konsolideeritud konto saldod ei ole täpsed, saab saldosid korrigeerida lehe **Sulgemisperioodi korrigeerimised** abil.
@@ -118,7 +119,7 @@ Eemaldamiste seadistuse leiate mooduli **Konsolideerimised** alal **Seadistus**.
 
 Saate enda vajaduste järgi määrata kuupäeva, millal eemaldamisreegel toimima hakkab, ja kuupäeva, millal see aegub. Kui soovite, et eemaldamisreegel oleks eemaldamispakkumise protsessis saadaval, peate seadistama suvandi **Aktiivne** valikule **Jah**. Valige tüübi **Eemaldamine** töölehe nimi.
 
-![Eemaldamisreegli põhiatribuudid](./media/ledger-elimination-rule-journal.png "Eemaldamisreegli põhiatribuudid")
+![Eemaldamisreegli põhiatribuudid.](./media/ledger-elimination-rule-journal.png "Eemaldamisreegli põhiatribuudid")
 
 Kui olete põhiatribuudid määratlenud, valige suvand **Read**, et määratleda tegelikud töötlusreeglid. Eemaldamiseks on kaks võimalust: võite eemaldada netomuutuse summa või määrata fikseeritud summa.
 
@@ -126,7 +127,7 @@ Valige lähtekontod. Saate kasutada metamärgina tärni (\*). Näiteks väärtus
 
 Kui olete lähtekontod valinud, kasutage välja **Konto täpsustus**, et määrata konto, mida kasutatakse sihtettevõttest. Valige suvand **Allikas**, et kasutada sama põhikontot, mis on määratletud lähtekontol. Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtkonto.
 
-![Pearaamatu eemaldamisreegli rea leht](./media/ledger-elimination-rule-line.png "Pearaamatu eemaldamisreegli rea leht")
+![Pearaamatu eemaldamisreegli rea leht.](./media/ledger-elimination-rule-line.png "Pearaamatu eemaldamisreegli rea leht")
 
 Väli **Dimensioonide täpsustus** töötab nagu väli **Konto täpsustus**. Valige suvand **Allikas**, et kasutada sihtettevõttes ja lähteettevõttes samu dimensioone. Kui valite suvandi **Kasutaja määratletud**, peate määrama sihtettevõttes dimensioonid, valides suvandi **Sihtdimensioonid**. Seejärel valige lähtedimensioonid ja finantsdimensioonid ning väärtused, mida kasutatakse eemaldamisallikana.
 

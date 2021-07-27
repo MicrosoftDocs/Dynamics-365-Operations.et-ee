@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 23124d36389b08726defbedbd1bab9a7eb43c197
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9ececb030432028512ff2d75a772761df4d416a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023189"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356605"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>Kinnipeetava maksu aruandluskoodide häälestamine TDS-i maksutüübi jaoks
 
@@ -31,7 +31,7 @@ See teema kirjeldab, kuidas seadistada kinnipeetava maksu komponente rühmad nag
 
 1. Minge **Maks \> Seadistus \> Kinnipeetav maks \> Kinnipeetava maksu komponendid**.
 
-    [![Kinnipeetava maksu komponentide gruppide leht](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
+    [![Kinnipeetava maksu komponentide gruppide leht.](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 
 2. Väljal **Maksu tüübi** valige **TDS** kinnipeetava maksu komponentide gruppide häälestamiseks TDS maksutüüpide jaoks.
 3. Rea loomiseks valige toimingupaanilt suvand **Uus**.

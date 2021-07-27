@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881032"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350180"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Microsoft Office stiili kasutajaliides äridokumendi halduses
 
@@ -51,18 +51,18 @@ Kõigi juriidiliste isikute jaoks selle funktsiooni sisselülitamiseks toimige j
 
 1. Valige **Äridokumentide halduse** tööruumis **Uus dokument**.
 
-    ![Äridokumentide halduse tööruum](./media/BDM_overview_new_template1.png)
+    ![Äridokumentide halduse tööruum.](./media/BDM_overview_new_template1.png)
 
 2. Vahekaardil **Vali** valige mallina kasutatav dokument ja seejärel valige **Loo dokument**.
 
-    ![Äridokumentide dialoogiboks](./media/BDM_overview_new_template2.png)
+    ![Äridokumentide dialoogiboks.](./media/BDM_overview_new_template2.png)
 
 3. Muutke vajadusel pealkiri uue dialoogiboksi väljal **Pealkiri**. Pealkirja tekstiga nimetatakse ise tekkivat uut ER-vormingu seadistust. Seda muudetavat malli sisaldava seadistuse (**Kliendi FTI aruande (GER) koopia**) mustandit ja ER-vormingu praeguse kasutaja puhul. ER-vormingu põhiseadistuse muutmata algset malli kasutatakse selle ER-vormingu käivitamiseks kõikide kasutajate puhul.
 4. Muutke väljal **Nimi** isetekkiva muudetava malli esimese redaktsiooni nime.
 5. Väljal **Kommentaar** värskendage isetekkiva muudetava malli redaktsiooni märkusi.
 6. Muutmis alustamise kinnitamiseks valige **OK**.
 
-    ![Dokumendi loomise dialoogiboks](./media/BDM_overview_new_template3.png)
+    ![Dokumendi loomise dialoogiboks.](./media/BDM_overview_new_template3.png)
 
 **Uue dokumendi** nuppu kasutatakse malli loomiseks ja redigeerimiseks elektroonilise aruandluse (ER) vormingu konfiguratsioonis, mida pakub teine pakkuja. Selles näites on pakkuja Microsoft. Kui valite suvandi **Uus dokument**, saate vaadata kõiki praeguse ja teiste pakkujate omanduses olevaid malle. Pärast malli valimist avatakse see redigeerimiseks. Muudetud malli saab seejärel muuta uues ise loodavas ER-vormingus seadistusega.
 
@@ -71,16 +71,16 @@ Enne malli üleslaadimist vajaliku teabe esitamiseks toimige järgmiselt.
 
 1. Valige **Äridokumentide halduse** tööruumis **Uus dokument**.
 
-    ![Äridokumentide halduse tööruum](./media/BDM_overview_new_template1.png)
+    ![Äridokumentide halduse tööruum.](./media/BDM_overview_new_template1.png)
     
 2. Klõpsake lehe **Uue malli loomine** vahekaardi **Üleslaadimine** vahekaardil **Mall** nuppu **Sirvi**, et leida ja valida Exceli fail, mida soovite mallina kasutada. Jaotises **Mall** täidetakse väljad **Pealkiri** ja **Kirjeldus** automaatselt. Nad määravad automaatselt loodava uue ER-vormingu konfiguratsiooni nime ja kirjelduse. Vajadusel saate neid välju redigeerida.
 3. Määrake jaotise **Dokumendi liik** väljal **Nimi** äridokumendi liik. Seda väärtust kasutatakse õige andmeallika (st ER-mudeli konfiguratsiooni) otsimiseks.
 
-    ![Vahekaart Mall](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Malli vahekaart.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. Klõpsake menüü **Andmeallikas** kiirkaardil **Filter** nuppu **Rakenda filter**. Jaotises **Andmeallikas** täidetakse väli **Nimi** automaatselt või saate väärtuse käsitsi valida. Filtri abil saate otsida sobivat andmeallika nime nime, kirjelduse, riigi/regiooni tähise ja äridokumendi liigi alusel.
 
-    ![Andmeallika vahekaart](./media/BDM_overview_new_UI_import_31.jpg)
+    ![Andmeallika vahekaart.](./media/BDM_overview_new_UI_import_31.jpg)
     
     > [!NOTE]
     > Kiirkaarti **Filter** kasutatakse õige andmeallika (st ER-mudeli konfiguratsiooni) otsimiseks. Üleslaaditava dokumendi jaoks sobivaima andmeallika leidmiseks saate redigeerida kõiki filtrivälju.
@@ -89,7 +89,7 @@ Enne malli üleslaadimist vajaliku teabe esitamiseks toimige järgmiselt.
     
 5. Valige vahekaardil **Vastendamine** käsk **Tuvasta automaatselt**. Väli **Ruudi definitsioon** täidetakse automaatselt või saate väärtuse käsitsi valida. Sellel vahekaardil kuvatakse malli ja mudeli elementide lõppvastendus.
 
-    ![Vahekaart Vastendamine](./media/BDM_overview_new_UI_import_41.jpg)
+    ![Vastendamine vahekaart.](./media/BDM_overview_new_UI_import_41.jpg)
     
    > [!NOTE]
    > Jaotise **Malli struktuur** vastendamine kasutab andmeallika siltide või kirjelduste täielikku vastendust kasutaja keeles ja malli lahtrinimes.
@@ -102,11 +102,11 @@ Kui elektroonilises aruandluses pole teenusepakkujat, saate selle luua. Kui akti
 
 - Pakkuja loomiseks muutke väljal **Nimi** teenusepakkuja nime, värskendage uue pakkuja välja **Interneti-aadress** ja klõpsake kinnitamiseks nuppu **OK**.
 
-    ![BDM-is uue pakkuja loomine](./media/bdm_create_provider.png)
+    ![BDM-is uue pakkuja loomine.](./media/bdm_create_provider.png)
     
 - Olemasoleva pakkuja aktiveerimiseks valige väljal **Konfiguratsioonipakkuja** pakkuja pakkuja nimi ja valige **OK**, et seada pakkuja aktiivseks.
 
-    ![Pakkuja aktiveerimine BDM-is](./media/bdm_choose_provider.png)
+    ![Pakkuja aktiveerimine BDM-is.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Iga BDM-i mall viitab pakkujale kui konfiguratsiooni autorile. Seetõttu on malli jaoks vaja aktiivset pakkujat.

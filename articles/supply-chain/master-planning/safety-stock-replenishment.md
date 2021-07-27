@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: d80c754b7aa154d9636bb0d9fbfb448987d01e48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841787"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353512"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Kaupade puhvervaru täitmine
 
@@ -72,37 +72,50 @@ Alljärgnev stsenaarium näitab, kuidas see parameeter töötab ja millised on s
 > [!NOTE]
 > Kõigi selles teemas toodud graafikute x-telg tähistab varusid, y-telg päevi, tulbad varude taset, nooled kandeid, nagu näiteks müügitellimuse read, ostutellimuse read, või plaanitud tellimused.
 
-[![Puhvervaru täitmise üldine stsenaarium](./media/Scenario1.png)](./media/Scenario1.png) Parameetril **Täida minimaalselt** võivad olla järgmised väärtused.
+[![Tavastsenaarium kaupade puhvervaru täitmiseks.](./media/Scenario1.png)](./media/Scenario1.png)
+**Minimaalse täitmise** parameetri väärtused võivad olla järgmised:
 ### <a name="todays-date"></a>Tänane kuupäev 
 Määratud miinimumkogus saavutatakse koondplaneerimise käitamise kuupäeval. Süsteem püüab puhvervaru kvoodi võimalikult kiiresti täita, kuigi see võib täitmisaja tõttu ebarealistlik olla. 
-[![Tänase kuupäevaga vajadus](./media/TodayReq.png)](./media/TodayReq.png) Plaanitud tellimus P1 luuakse tänase kuupäevaga, et saadaolevad varud ületaks puhvervaru taseme sellel kuupäeval. Müügitellimuse read S1–S3 vähendavad endiselt kaubavarude taset. Koondplaneerimises luuakse plaanitud tellimused P2–P4, et taastada pärast iga müügitellimuse vajaduse täitmist varude tase puhvri kvoodini.
+[![Tänase kuupäeva nõue.](./media/TodayReq.png)](./media/TodayReq.png)
+Tänase kuupäevaga vajadus Plaanitud tellimus P1 luuakse tänase kuupäevaga, et saadaolevad varud ületaks puhvervaru taseme sellel kuupäeval. Müügitellimuse read S1–S3 vähendavad endiselt kaubavarude taset. Koondplaneerimises luuakse plaanitud tellimused P2–P4, et taastada pärast iga müügitellimuse vajaduse täitmist varude tase puhvri kvoodini.
 Kui kasutate kattekoodi **Vajadus**, luuakse mitu plaanitud tellimust. Nõutumate kaupade ja materjalide täiendamiste koondamiseks on soovitatav kasutada kas kattekoodi **Periood** või **Min/max**. Alljärgnev graafik illustreerib kattekoodi **Periood** kasutamist.
-[![Periood. Tänane kuupäev](./media/TodayPeriod.png)](./media/TodayPeriod.png) Alljärgnev graafik illustreerib kattekoodi **Min/max** kasutamist.
-[![MinMax. Tänane kuupäev](./media/TodayMinMax.png)](./media/TodayMinMax.png)
+[![Periood. Tänane kuupäev.](./media/TodayPeriod.png)](./media/TodayPeriod.png)
+Alljärgneval graafikul on näidatud kattekoodi **Min/max** näide.
+[![MinMax. Tänane kuupäev.](./media/TodayMinMax.png)](./media/TodayMinMax.png)
 ### <a name="todays-date--procurement-time"></a>Tänane kuupäev + tarneaeg 
 Määratud miinimumkogus saavutatakse kuupäeval, mis saadakse, kui lisada koondplaneerimise käituskuupäevale ostu või tootmise täitmisaeg. See aeg sisaldab mis tahes ohutuspiire. Kui kauba kohta on olemas kaubanduslepe ja lehel **Koondplaneerimise parameetrid** on märgitud ruut **Otsi kaubandusleppeid**, siis kaubandusleppe tarne täitmisaega ei arvestata. Täitmisajad võetakse kauba laovarude sätetest või kaubalt.
 See täitmisrežiim loob plaane, milles on vähem viivitusi ja plaanitud tellimusi, olenemata kaubale määratud laovarude grupist. Alljärgneval graafikul on kujutatud plaani tulemusi, kui kattekood on kas **Vajadus** või **Periood**.  
-[![Vajadus. Periood. Tänane kuupäev ja täitmisaeg](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)Järgmises näites on kujutatud plaani tulemusi, kui kattekood on **Min/max**.  
-[![MinMax. Tänane kuupäev ja täitmisaeg](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
+[![Vajadus. Periood. Tänane kuupäev ja täitmisaeg.](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)
+Alljärgneval graafikul on kujutatud plaani tulemusi, kui kattekood on **Min/max**.  
+[![MinMax. Tänane kuupäev ja täitmisaeg.](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
 ### <a name="first-issue"></a>Esimene väljaminek 
 Määratud miinimumkogus saavutatakse kuupäeval, kui saadaolevad laovarud vähenevad alla minimaalse taseme, nagu on näha alljärgneval graafikul. Isegi kui saadaolevad varud on koondplaneerimise käituskuupäeval minimaalsest tasemest madalamad, ei püüa funktsioon **Esimene väljaminek** varusid enne järgmise vajaduse tulekut katta.
 Alljärgneval graafikul on näidatud kattekoodi **Vajadus** kasutamist.
-[![Kauba planeerimine kattekoodiga **Vajadus** ja täitmisega **Esimene väljaminek**](./media/FirstIssueReq.png)](./media/FirstIssueReq.png) Alljärgneval graafikul on näidatud kattekoodi **Periood** kasutamist.
-[![Kauba planeerimine kattekoodiga **Periood** ja täitmisega **Esimene väljaminek**](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png) Alljärgneval graafikul on näidatud kattekoodi **Min/max** kasutamist.
-[![Kauba planeerimine kattekoodiga **MinMax** ja täitmisega **Esimene väljaminek**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png) Kui saadaolevad varud on koondplaneerimise käituskuupäeval allpool puhvervaru kvooti, käitavad funktsioonid **Tänane kuupäev** ja **Tänane kuupäev + tarneaeg** kohe varude täiendamise. Funktsioon **Esimene väljaminek** ootab kauba muu väljaminekukandeni, nagu müügitellimuse ja kooslusrea nõue, ning käitab täiendamise sel kuupäeval. Kui koondplaneerimise käituskuupäeval on saadaolevad varud allpool puhvervaru kvooti, annavad funktsioonid **Tänane kuupäev** ja **Esimene väljaminek** täpselt sama tulemuse, nagu on näidatud järgmisel graafikul. 
+[![Kauba planeerimine kattekoodiga **Vajadus** ja **Esimene väljaminek** täitmisega.](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)
+Alljärgnev graafik illustreerib kattekoodi **Periood** kasutamist.
+[![Kauba planeerimine kattekoodiga **Periood** ja täitmisega **Esimene väljaminek**.](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)
+Alljärgneval graafikul on näidatud kattekoodi **Min/max** näide.
+[![Kauba planeerimine kattekoodiga **MinMax** ja täitmisega **Esimene väljaminek**.](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)
+Kui saadaolevad varud on koondplaneerimise käituskuupäeval allpool puhvervaru kvooti, käitavad funktsioonid **Tänane kuupäev** ja **Tänane kuupäev + tarneaeg** kohe varude täiendamise. Funktsioon **Esimene väljaminek** ootab kauba muu väljaminekukandeni, nagu müügitellimuse ja kooslusrea nõue, ning käitab täiendamise sel kuupäeval. Kui koondplaneerimise käituskuupäeval on saadaolevad varud allpool puhvervaru kvooti, annavad funktsioonid **Tänane kuupäev** ja **Esimene väljaminek** täpselt sama tulemuse, nagu on näidatud järgmisel graafikul. 
 
-[![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) Kui koondplaneerimise käituskuupäeval pole saadaolevad varud allpool puhvervaru kvooti, annab funktsioon **Tänane kuupäev + tarneaeg** järgmise tulemuse, kuna see lükkab täitmise hanke täitmisaja lõppu.
-![Kauba planeerimine kattekoodiga **Vajadus** ja täitmisega **Esimene väljaminek**](./media/ReqTodayLT.png)
+[![Plaanist väljas.](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png)
+Kui koondplaneerimise käituskuupäeval pole saadaolevad varud allpool puhvervaru kvooti, annab funktsioon **Tänane kuupäev + tarneaeg** järgmise tulemuse, kuna see lükkab täitmise hanke täitmisaja lõppu.
+![Kauba planeerimine kattekoodiga **Vajadus** ja täitmisega **Esimene väljaminek**.](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>Laovarude ajapiir
 Määratud miinimumkogus saavutatakse väljal **Laovarude ajapiir** määratud ajaperioodi jooksul. See suvand on kasulik, kui koondplaneerimine ei luba puhvervaru taseme säilitamise eesmärgil saadaolevate varude kasutamist tegelike tellimuste, nt müügi või kannete puhul. Tulevases väljaandes pole seda täiendamisrežiimi siiski enam vaja ja see suvand aegub.
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>„Esimesena aegunud esimesena välja” (FEFO) kaupade puhvervaru täiendamise planeerimine
 Mis tahes hetkel kasutatakse tegeliku nõudluse, nagu müügiridade või kooslusridade FEFO („esimesena aegunud esimesena välja”) tellimuse täitmiseks hiliseima aegumiskuupäevaga puhvervaru.
 Nägemaks, kuidas see töötab, vaadake järgmist stsenaariumit.
-[![FEFOScenario](./media/FEFOScenario.png)](./media/FEFOScenario.png) Planeerimise käitamisel katab see esimese müügitellimuse olemasolevast vabast kaubavarust ja täiendava ostutellimuse järelejäävast kogusest.
-[![FEFO1](./media/FEFO1.png)](./media/FEFO1.png) Luuakse plaanitud tellimus tagamaks, et saadaolevad varud ületavad puhvervaru kvoodi.
-[![FEFO2](./media/FEFO2.png)](./media/FEFO2.png) Kui plaanitakse teist müügitellimust, kasutakse selle koguse katmiseks varem loodud plaanitud tellimust, mis katab puhvervaru. Seega on puhvervaru pidevalt ringluses.
-[![FEFO3](./media/FEFO3.png)](./media/FEFO3.png) Lõpuks luuakse puhvervaru katmiseks teine plaanitud tellimus.
-[![FEFO4](./media/FEFO4.png)](./media/FEFO4.png) Kõik partiid aeguvad vastavalt ja puhvervaru uuesti täitmiseks luuakse pärast puhvervaru aegumist plaanitud tellimused.
+[![FEFOScenario.](./media/FEFOScenario.png)](./media/FEFOScenario.png)
+Planeerimise käitamisel katab see esimese müügitellimuse olemasolevast vabast kaubavarust ja täiendava ostutellimuse järelejäävast kogusest.
+[![FEFO1.](./media/FEFO1.png)](./media/FEFO1.png)
+Luuakse plaanitud tellimus tagamaks, et saadaolevad varud ületavad puhvervaru kvoodi.
+[![FEFO2.](./media/FEFO2.png)](./media/FEFO2.png)
+Kui plaanitakse teist müügitellimust, kasutakse selle koguse katmiseks varem loodud plaanitud tellimust, mis katab puhvervaru. Seega on puhvervaru pidevalt ringluses.
+[![FEFO3.](./media/FEFO3.png)](./media/FEFO3.png)
+Lõpuks luuakse puhvervaru katmiseks teine plaanitud tellimus.
+[![FEFO4.](./media/FEFO4.png)](./media/FEFO4.png)
+Kõik partiid aeguvad vastavalt ja puhvervaru uuesti täitmiseks luuakse pärast puhvervaru aegumist plaanitud tellimused.
 
 ## <a name="how-master-planning-handles-the-safety-stock-constraint"></a>Kuidas koondplaneerimine puhvervaru piirangut käsitleb?
 

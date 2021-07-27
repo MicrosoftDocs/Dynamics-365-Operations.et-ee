@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023187"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358478"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>TDS-i maksukoodide TDS-i maksugruppidele manustamine ja TDS-i arvutamise valemi määratlemine
 
@@ -33,7 +33,7 @@ Järgige neid samme TDS-i maksugrupi häälestamiseks, lisage TDS-i maksukoodid 
 
 1. Avage **Maks \> Kaudsed maksud \> Kinnipeetav maks \> Kinnipeetava maksu grupid**.
 
-    [![Kinnipeetava maksugrupi leht](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Kinnipeetava maksugrupi leht.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. Tegevuspaanil valige **Uus** TDS-ile kinnipeetava maksu grupi loomiseks ja sisestage nõutavad üksikasjad.
 3. Tehke väljal **Maksu tüüp** valik **TDS**.
@@ -43,7 +43,7 @@ Järgige neid samme TDS-i maksugrupi häälestamiseks, lisage TDS-i maksukoodid 
 7. Valige märkeruut **Vabastatud**, et vältida arvutatud summa redigeerimist programmi mallis.
 8. Tegevuspaanil valige **Kujundaja** et avada valemikoosturit, nii et saate TDS-i maksugrupi jaoks määratleda TDS-i arvutamise valemi. Lehel **Kujundaja** kuvatakse vahekaardil **Maksud** TDS-i maksugrupi jaoks valitud TDS-i maksukoodid.
 
-    [![Kujundaja leht](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Kujundaja leht.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. Rea **Kalkulatsioon** loomiseks valige vahekaardil **Alt+N**. Väli **ID** näitab automaatselt loodud prioriteedi ID-d TDS-i arvutamiseks.
 10. Valige väljal **Kinnipeetava maksu kood** kinnipeetava maksu grupi jaoks kinnipeetava maksu kood. Kõik TDS-i maksukoodid, mis on TDS-i maksugrupi jaoks valitud, on sellel väljal saadaval.

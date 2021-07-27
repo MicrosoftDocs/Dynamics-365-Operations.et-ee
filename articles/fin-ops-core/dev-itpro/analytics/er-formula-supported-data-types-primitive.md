@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224087"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355318"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Elektroonilise aruandluse valemite toetatud primitiivsed andmetüübid
 
@@ -112,13 +112,13 @@ Rakenduste *loendamist* saab kasutada mis tahes ER-mudeli vastenduse ja ER-vormi
 
 Järgmisel joonisel on kujutatud, kuidas saate **CustVendCorrectiveReasonCode** mudeli redigeeritavale ER-andmemudelile lisada.
 
-[![Konfigureeritud loendimudel ER-i andmemudeli kujundajas](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![Konfigureeritud loendimudel ER-i andmemudeli kujundajas.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 Mudeli *loendamist* saab kasutada mis tahes ER-mudeli vastenduse ja ER-vormingu avaldistes, mis loodi andmemudeli alusel, kus *loend* kasutusele võeti.
 
 Järgmisel joonisel on kujutatud, kuidas saate lisada **Natura pöördmaksustamise alamkategooriate** redigeeritavale ER-vormingule vormingu loendi.
 
-[![Konfigureeritud loendi vorming ER-i vormingu kujundajas](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Konfigureeritud loendi vorming ER-i vormingu kujundajas.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Vormingu *loendamist* saab kasutada ainult ER-vormingus avaldistes, kus *loend* kasutusele võeti.
 
@@ -126,15 +126,15 @@ Konfigureeritud ER-komponendile kindla loendi toomiseks konstantina või väärt
 
 - Rakenduste loenditele pääseb juurde **Dynamics 365 for Operations \ Loendamine** ja **Üldine \ Kasutaja sisendparameetrid** andmeallika abil. Järgmisel joonisel on kujutatud, kuidas saate redigeeritavasse ER-vormingusse lisada **appenumEiJah** ja **uipEiJah** andmeallikad, mis viitavad rakenduse **NoYes** loendile.
 
-    [![Rakenduste loendamise andmeallikate lisamine ER-vormingus kujundajasse](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Rakenduste loendamise andmeallikate lisamine ER-vormingus kujundajasse.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Andmemudeli loenditele pääseb juurde kasutades **Andmemudel \ Loendamine** ja **Andmemudel \ Kasutaja sisendparameetrid andmeallika abil** andmeallikaid. Järgmisel joonisel on kujutatud, kuidas saate redigeeritavasse ER-vormingusse lisada **CustVendCorrectiveReasonCode** andmeallikad, mis viitavad **CustVendCorrectiveReasonCod** andmemudeli loendile.
 
-    [![Mudeli loendamise andmeallikate lisamine ER-vormingus kujundajasse](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Mudeli loendamise andmeallikate lisamine ER-vormingus kujundajasse.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Vormingule pääseb juurde kasutades **Vorming \ Loendamine** ja **Vorming \ Kasutaja sisendparameetrid** andmeallika abil. Järgmisel joonisel on kujutatud, kuidas saate redigeeritavasse ER-vormingusse lisada **NaturaReverseCharge** andmeallikad, mis viitavad **Natura reverse char alamkategooria** vormingu loendile.
 
-    [![Vormingu loendamise andmeallikate lisamine ER-vormingus kujundajasse](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Vormingu loendamise andmeallikate lisamine ER-vormingus kujundajasse.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 *Loendamisel* pole kaudseid konversioone. Saate siiski kasutada [TEKST](er-functions-text-text.md) teisendusfunktsiooni *loendi* teksti stringiks teisendamiseks. See teisendus ei sõltu keelest. Lisateavet *loendi* väärtuse seostamise kohta sobivate keelekohaste siltidega leiate [LISTOFFIELDS](er-functions-list-listoffields.md) ja [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md) funktsioonide kasutusnäidetest.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814702"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353960"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Seadme häälestamine tootmisosakonna käivitusliidese käitamiseks
 
@@ -28,7 +28,7 @@ Tootmisosakonna käivitusliides seadistakse iga tootmisosakonnas oleva seadme ja
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Kindla seadme konfiguratsiooni ja filtrite häälestamine
 
-Seadme konfiguratsiooni ja tööfiltrite seadistamiseks logige sisse lehele **Tootmisosakonna käivitus**, kasutades kontot, millel on turberolli, mis sisaldab kohustust  *Ajahalduse järelevaataja*. (Valmislahenduse turberollide seast on see kohustus ainult *Tööde järelevaatajal*.) Seejärel toimige järgmiselt.
+Seadme konfiguratsiooni ja tööfiltrite seadistamiseks logige sisse lehele **Tootmisosakonna käivitus**, kasutades kontot, millel on turberolli, mis sisaldab kohustust *Ajahalduse järelevaataja*. (Valmislahenduse turberollide seast on see kohustus ainult *Tööde järelevaatajal*.) Seejärel toimige järgmiselt.
 
 1. Minge seadme juurde, mida soovite häälestada, ja logige tööde juhatajana sisse Microsoft Dynamics 365 Supply Chain Managementi. (Kasutage kontot, mis sisaldab kohustust *Ajahalduse järelevaataja*.)
 1. Veenduge, et konfiguratsioon oleks saadaval seadmele, mida seadistate. Kui konfiguratsioon pole olemas, pakutakse vaikekonfiguratsiooni. Lisateavet konfiguratsiooni seadistamise kohta leiate teemast [Tootmisosakonna käivitusliidese konfigureerimine](production-floor-execution-configure.md).
@@ -70,7 +70,7 @@ Sageli käivitatakse tootmisosakonna käivitusliides seadmes, mida kasutatakse a
 
 Järgmise illustratsiooni ülemises on kuvatud, kuidas kasutajaliides vaikimisi välja näeb. Alumises osas kuvatakse, kuidas see näeb välja täisekraanrežiimis, kui navigeerimispaan on peidetud.
 
-![Standardne või täisekraani liides](media/pfei-full-screen.png "Standardne või täisekraani liides")
+![Standardne või täisekraani liides.](media/pfei-full-screen.png "Standardne või täisekraani liides")
 
 ## <a name="extend-the-session-past-12-hours"></a>Seansi pikendamine üle 12 tunni
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0a3fd442f20fd40cdf8b845d353ae5d61ce51e29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797643"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347504"
 ---
 # <a name="content-block-module"></a>Sisuploki moodul
 
@@ -46,11 +46,11 @@ Lisaks võib teema paljastada iga paigutuse jaoks erinevaid atribuute. Kujunduse
 
 Järgmine pilt näitab sisuploki mooduli näidet pannoo paigutusega.
 
-![Pannoo mooduli näide](./media/Hero.PNG)
+![Pannoo mooduli näide.](./media/Hero.PNG)
 
 Järgmine pilt näitab sisuploki mooduli näidet funktsiooni paigutusega.
 
-![Funktsiooni moodulite näited](./media/Feature.PNG)
+![Funktsiooni moodulite näited.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Sisuploki mooduli atribuudid
 
@@ -67,7 +67,7 @@ Järgmine pilt näitab sisuploki mooduli näidet funktsiooni paigutusega.
 |----------------|--------|-------------|
 | Teksti paigutus | **Vasakul**, **Paremal**, **Keskel** | See atribuut määratleb teksti asukoha pildi peal. See kehtib ainult pannoo paigutuse kohta. |
 | Teksti teema     | **Hele** või **tume** | Tekstile saab määratleda taustapildi põhjal värviskeemi. Näiteks kui pildil on tume taust, saab rakendada heledat kujundust, et muuta tekst nähtavamaks ja olla juurdepääsetavuse eesmärgil vastavuses värvide kontrastsuse suhtega. See kehtib ainult pannoo paigutuse kohta.|
-| Pildi paigutus       | **Vasakul**,  **Paremal** | See atribuut määrab, kas pilt peaks olema tekstist vasakul või paremal. See kehtib ainult funktsiooni paigutuse kohta.  |
+| Pildi paigutus       | **Vasakul**, **Paremal** | See atribuut määrab, kas pilt peaks olema tekstist vasakul või paremal. See kehtib ainult funktsiooni paigutuse kohta.  |
 
 ## <a name="add-a-content-block-module-to-a-new-page"></a>Sisuploki mooduli lisamine uuele lehele
 

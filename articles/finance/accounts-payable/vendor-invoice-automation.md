@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841233"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344802"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Arve automatiseerimine skannitud dokumentide korral
 
@@ -34,7 +34,7 @@ Arve automatiseerimislahendus võimaldab kasutada standardliidest, mis suudab v�
 
 Järgmisel illustratsioonil on integratsiooni näidisstsenaarium, kus Contoso on sõlminud hankija arvete töötlemiseks partnerluse OCR-teenuse pakkujaga. Contoso hankijad saadavad teenusepakkujale meili teel arveid. OCR-i töötluse kaudu genereerib teenusepakkuja arve metaandmed (päise ja/või read) ja arve skannitud kujutise. Seejärel teisendab integratsioonikiht need üksused, et neid saaks tarbida.
 
-![Integreerimise näidisstsenaarium](media/vendor_invoice_automation_01.png)
+![Integreerimise näidisstsenaarium.](media/vendor_invoice_automation_01.png)
 
 Kui on vajalik arve integreerimine, on võimalikus mitu eelmise stsenaariumi variatsiooni. Andmete migreerimine on teine kasutusviis, kus seda liidest saab kasutada arvete ja manuste loomiseks.
 
@@ -92,7 +92,7 @@ Stsenaariumide korral, kus hankija arved tulevad Finance and Operationsisse inte
 
 Uus arve erandite loendileht on saadaval jaotises **Ostureskontro** > **Arved** > **Impordi nurjumised** > **Hankija arved, mille importimine nurjus**. Sellel lehel kuvatakse kõik hankija arve päisekirjed hankija arve päise andmeüksuse vahetabelist. Pange tähele, et saate vaadata samu kirjeid tööruumis **Andmehaldus**. Tööruumis **Andmehaldus** saate teha ka samu toiminguid, mis on antud erandi käsitlemise funktsioonis. Erandite käsitlemise funktsioon on optimeeritud funktsiooni kasutaja jaoks, mis lihtsustab kasutamist.
 
-![Erandite loendileht](media/vendor_invoice_automation_02.png)
+![Erandite loendileht.](media/vendor_invoice_automation_02.png)
 
 See loendileht sisaldab järgmisi välju, mis tulevad sisse voo kaudu.
 
@@ -136,11 +136,11 @@ Erandite loendileht toetab standardseid turbekonstruktsioone, mida **andmehaldus
 + Kasutaja järgi
 + Juriidilise isiku järgi
 
-![Imporditöö, mida kaitstakse kasutaja rolli ja juriidilise isiku järgi](media/vendor_invoice_automation_04.png)
+![Imporditöö, mida kaitstakse kasutaja rolli ja juriidilise isiku järgi.](media/vendor_invoice_automation_04.png)
 
 Kui arve imporditöö jaoks on konfigureeritud turvalisus, arvestab erandite loendileht neid sätteid. Kasutajad näevad ainult neid arve erandi kirjeid, mida see seadistus neil näha lubab.
 
-Näiteks Contoso on otsustanud töödelda arve erandeid juriidilise isiku järgi. Seetõttu konfigureeritakse turvalisus arve imporditöö puhul sellisel viisil, et kasutaja juriidilises isikus A näeb ainult arve erandeid juriidilises isikus A, samas kui kasutaja juriidilises isikus B näeb ainult arve erandeid juriidilises isikus B. Selline seadistus võimaldab arve erandite haldamise kohustusi jagada.
+Näiteks on Contoso otsustanud töödelda arve erandeid juriidilise isiku järgi. Seetõttu konfigureeritakse turvalisus arve imporditöö puhul sellisel viisil, et kasutaja juriidilises isikus A näeb ainult arve erandeid juriidilises isikus A, samas kui kasutaja juriidilises isikus B näeb ainult arve erandeid juriidilises isikus B. Selline seadistus võimaldab arve erandite haldamise kohustusi jagada.
 
 Contoso võib otsustada ka turvalisust mitte kehtestada, et samad kasutajad saaksid töödelda arve erandeid kõigi juriidiliste isikute puhul. See seadistus lubab jagatud teenuste stsenaariumi arve erandite haldamiseks.
 

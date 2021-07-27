@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c691e89a932e683c916eca72f726d9b4fab93181
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: bc6363a96d87bf280a34dda34533bc71e21eb6b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944385"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344926"
 ---
 # <a name="business-document-management-overview"></a>Äridokumentide halduse ülevaade
 
@@ -57,7 +57,7 @@ Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
 
 Kuna äridokumendi haldus põhineb ER-raamistikul, peate sellega töötamiseks seadistama ER-näitajad. Selleks peate seadistama elektrilise aruandluse parameetrid, nagu on kirjeldatud teemas [Elektrilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md). Peate lisama ka uue konfiguratsiooni pakkuja vastavalt teemale [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![ER-tööruum](./media/BDM-Overview-ERSetting.png)
+![ER-tööruum.](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>Impordi ER-lahendused
 
@@ -86,17 +86,17 @@ Selle protseduuri näites on kasutatud elektroonilise aruandluse näidiskonfigur
 
 Kasutage iga faili importimiseks järgmist protseduuri. Enne vastava ER-*vormingu* seadistuse importimist importige allolevates tabelites olevate kõikide ER-lahenduste ER-*andmemudeli* seadistus.
 
-1. Avage jaotis **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \>  leht **Konfiguratsioonid**.
+1. Avage jaotis **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> leht **Konfiguratsioonid**.
 2. Valige lehe ülaosas **Vaheta**.
 3. Valige **Laadi XML-failist**.
 4. Vajaliku XML-faili laadimiseks valige **Sirvi**.
 5. Seadistuse impordi kinnitamiseks valige **OK**.
 
-![Konfiguratsiooni importimist kinnitavate ER-konfiguratsioonide leht](./media/BDM-Overview-ERSolutions.png)
+![Konfiguratsiooni importimist kinnitavate ER-konfiguratsioonide leht.](./media/BDM-Overview-ERSolutions.png)
 
 Teise võimalusena saate importida ametlikult avaldatud ER-vormingu konfiguratsioonid platvormilt Microsoft Dynamics Lifecycle Service (LCS). Näiteks selle protseduuri lõpetamiseks saate importida ER-vormingu konfiguratsiooni **Vabas vormis arve (Excel)** uusima versiooni. Vastav ER-i andmemudel ja ER-i mudelivastenduse konfiguratsioonid imporditakse automaatselt.
 
-![LCS-i ühiste vahendite teegi sisu leht](./media/BDM-Overview-SharedAssetLibrary.png)
+![LCS-i ühiste vahendite teegi sisu leht.](./media/BDM-Overview-SharedAssetLibrary.png)
 
 Rohkem teavet ER-seadistuste importimise kohta vt [ER-seadistuse töötsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md).
 
@@ -114,7 +114,7 @@ Kõikide juriidiliste isikute äridokumentide haldamise lubamiseks toimige järg
 > [!NOTE]
 > Lisateavet uue dokumendi kasutajaliidese kasutamise kohta äridokumentide halduses vt teemast [Uus dokumendi kasutajaliides äridokumentide halduses](er-business-document-management-new-template-ui.md).
 
-![Funktsioonihalduse tööruum](./media/BDM-Overview-FMEnabling.png)
+![Funktsioonihalduse tööruum.](./media/BDM-Overview-FMEnabling.png)
 
 Lisateavet uute funktsioonide lubamise kohta vt [Funktsioonihalduse ülevaade](../../fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -136,7 +136,7 @@ Selle dokumenditüübi puhul peavad olema valitud järgmised atribuudi väärtus
 
 Lisateavet nõutavate dokumendihalduse näitajate ja dokumenditüüpide seadistamise kohta vt [Dokumendihalduse seadistamine](../../fin-ops/organization-administration/configure-document-management.md).
 
-![Seadistage dokumendihalduse dokumendi tüüp](./media/BDM-Overview-DMSetting.png)
+![Seadistage dokumendihalduse dokumendi tüüp.](./media/BDM-Overview-DMSetting.png)
 
 ### <a name="set-up-parameters"></a><a name="SetupBdmParameters"></a>Seadistage näitajad
 
@@ -154,7 +154,7 @@ Kõigi juriidiliste isikute põhinäitajate seadistamiseks toimige järgnevalt.
 > [!NOTE]
 > Selle näitaja puhul on saadaval vaid SharePointi asukohaga seadistatud dokumendi tüübid.
 
-![Äridokumendi halduse näitajate seadistamine](./media/BDM-Overview-BDMSetting.png)
+![Äridokumendi halduse näitajate seadistamine.](./media/BDM-Overview-BDMSetting.png)
 
 Valitud dokumendi tüüp on ettevõttepõhine ja seda kasutatakse siis, kui kasutaja töötab äridokumendi haldamisega ettevõttes, mille jaoks valitud dokumendi tüüp on seadistatud. Muus ettevõttes äridokumendi haldamisega tegeleva kasutaja puhul kasutatakse sama valitud dokumendi tüüpi, kui ta pole seadistatud selle ettevõtte jaoks. Kui dokumendi tüüp on seadistatud, kasutatakse seda **SharePoint dokumendi tüübi** väljas valitu asemel.
 
@@ -165,7 +165,7 @@ Valitud dokumendi tüüp on ettevõttepõhine ja seda kasutatakse siis, kui kasu
 
 Kui äridokumentide halduse lubadele on juurdepääs keelatud, siis tavaliselt näeb äridokumentide halduse tööruumile juurdepääsu omav iga kasutaja kõiki ER-lahenduse malle. Äridokumentide halduse tööruum näitab vaid ER-vormingu seadete ja sildiga **Äridokumendi tüüp** märgitud malle.
 
-![ER-i konfiguratsioonide leht äridokumendi tüübisildiga](./media/BDM-Overview-ERFormatTags.png)
+![ER-i konfiguratsioonide leht äridokumendi tüübisildiga.](./media/BDM-Overview-ERFormatTags.png)
 
 Äridokumentide halduse tööruumi mallide loendit saab piirata juurdepääsu lubade seadistamisel. See võib olla oluline, kui eri mallidega luuakse äridokumente eri äriteenuse domeenidele (funktsionaalsed valdkonnad) ja tahate äridokumentide halduse tööruumis lubada kindlatel kasutajatel ligi pääseda eri mallidele ning neil lasta neid muuta.
 
@@ -181,19 +181,19 @@ Kõikide juriidiliste isikute äridokumentide lubade ligipääsu seadistamiseks 
 
     Pöörake tähelepanu teatele, mis teavitab teid sellest, et äridokumentide halduse juurdepääsu õiguste kasutamine pole hetkel lubatud.
 
-    ![Äridokumentide halduse tööruumi juurdepääsu õiguste seadistaja leht](./media/BDM-Overview-TemplatesAccess1.png)
+    ![Äridokumentide halduse tööruumi juurdepääsu õiguste seadistaja leht.](./media/BDM-Overview-TemplatesAccess1.png)
 
     Selle seadega saab iga kasutaja, kes on määratud mistahes turberolli, mille ülesandeks on teha kohustust **Hallake äridokumentide malle** (AOT nimi **ERBDManageTemplates**), avada äridokumentide halduse tööruumi ja muuta mistahes saadaval malli.
 
     Järgmine joonis kujutab, mis on saadaval äridokumentide halduse tööruumi kasutajatele, kellele on määratud roll **Müügireskontro ametnik**. Kasutaja saab praeguse juurdepääsu õigust seadega muuta eri valdkondade, sealhulgas arveldamise, seadusandliku aruandlus ja maksete äridokumentide malle.
 
-    ![Müügireskontro ametniku äridokumentide halduse tööruumi leht](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Müügireskontro ametniku äridokumentide halduse tööruumi leht.](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Lehel **Juurdepääsu lubade seadistus** valige **Juurdepääsu lubade seade**.
 4. Dialoogikastis **Mallide muutmiseks vajalike juurdepääsu õiguste seaded** lubage valik **Rakendage seadistatud juurdepääsu õigused**.
 5. Äridokumentide halduse juurdepääsemise õiguste lubamise kinnitamiseks valige **OK**.
 
-    ![Äridokumentide halduse tööruumi juurdepääsu õiguste kinnitamine](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Äridokumentide halduse tööruumi juurdepääsu õiguste kinnitamine.](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Valige **Lisa**, et sisestada uus äriroll õiguste jaoks eesmärgiga pääseda juurde seadistatavatele äridokumentide halduse mallidele.
 7. Valige dialoogiboksis **Turberollid** roll **Müügireskontro ametnik** ja klõpsake siis nuppu **OK**.
@@ -201,11 +201,11 @@ Kõikide juriidiliste isikute äridokumentide lubade ligipääsu seadistamiseks 
 9. Väljas **Sildi tüüp** valige **Funktsionaalsed valdkonnad** ja väljas **ID** valige **Arve esitamine**.
 10. Valitud rolli seadistatud juurdepääsu õiguste salvestamiseks valige **Salvesta**.
 
-    Praegune seade tähendab, et iga kasutaja jaoks, kellele on määratud **Arvete arvelduse töövõtja** roll ja kes täidab kohustust, **Hallake äridokumentide malle** (AOT nimi **ERBDManageTemplates**), ER-vormingu konfiguratsioon Äridokumendihalduse tööruumis saab redigeerida malle, millel on **Arve**  väärtusega **Funktsionaalne ala**.
+    Praegune seade tähendab, et iga kasutaja jaoks, kellele on määratud **Arvete arvelduse töövõtja** roll ja kes täidab kohustust, **Hallake äridokumentide malle** (AOT nimi **ERBDManageTemplates**), ER-vormingu konfiguratsioon Äridokumendihalduse tööruumis saab redigeerida malle, millel on **Arve** väärtusega **Funktsionaalne ala**.
 
 11. Minge praeguse lehe paremas servas asuvasse paani **Seotud teave**. **Seotud teave** paan näitab, kuidas rakendatakse seadistatud juurdepääsu õigusi, sealhulgas mis ER-seadistuse mallid on saadaval kasutajatele, kes on määratud rolli **Müügireskontro ametnik**.
 
-    ![Juurdepääsu lubade seadistuse lehe seotud teabe paan](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Juurdepääsu lubade seadistuse lehe seotud teabe paan.](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Vahekaardil **Juurdepääsu õigused seadistuste kohta** valige **Lisa**.
 13. Dialoogikastis **Vali seadistus** märkige ER-vormingu seadistus **Intrastat-aruanne**.
@@ -216,11 +216,11 @@ Praegune seade tähendab seda, et iga kasutaja, kes on määratud rolli **Müüg
 - mallid, mille sildi **Funktsionaalsed valdkonnad** väärtus on **Arve esitamine**;
 - vahekaardil **Juurdepääsu õigused seadistuste kohta** loetletud ER-vormingu seadistuste mallid (antud näites domeeni **Seaduslik aruandlus** vormingu seadistuse **Intrastat-aruanne** mallid).
 
-![Juurdepääsu lubade seadistuse lehe juurdepääsu lubade kiirkaardid](./media/BDM-Overview-TemplatesAccess4.png)
+![Juurdepääsu lubade seadistuse lehe juurdepääsu lubade kiirkaardid.](./media/BDM-Overview-TemplatesAccess4.png)
 
 Järgmine joonis kujutab, mida äridokumentide halduse tööruum pakub kasutajale, kellele on määratud roll **Müügireskontro ametnik**. Kasutaja saab praeguse äridokumentide halduse juurdepääsu õiguste seadega muuta domeeni **Arve esitamine** ja ER-vormingu seadistuse **Intrastat-aruanne** äridokumentide malle. Domeeni **Maksed** mallid pole saadaval rollile **Müügireskontro ametnik**.
 
-![Äridokumendi mallide redigeerimine äridokumentide halduse tööruumi lehel](./media/BDM-Overview-TemplatesForAlice2.png)
+![Äridokumendi mallide redigeerimine äridokumentide halduse tööruumi lehel.](./media/BDM-Overview-TemplatesForAlice2.png)
 
 > [!NOTE]
 > **Juurdepääsu õigused seadistuste kohta** reeglid salvestatakse ER-vormingu seadistuse ainulaadse tuvastamise ID abil. See tähendab seda, et neid reegleid ei kustutata, kui neile viitav ER-seadistus kustutatakse. Kui impordite kustutatud seaded tagasi sellesse eksemplari, viitavad need reeglid taas neile. Reegleid pole vaja uuesti seadistada pärast kustutatud seadete taasimportimist.
@@ -242,7 +242,7 @@ Kui tööruumis **Funktsioonihaldus** on funktsioon **Äridokumentide halduse Of
 - Mallid, mille omanik on teie ER-i konfiguratsiooni pakkuja (st pakkuja, kes on praegu tööruumis **Elektrooniline aruandlus** aktiivseks märgitud). Kui olete mõne neist mallidest valinud, saate selle käivitamiseks või redigeerimise jätkamiseks teha valiku **Muuda malli**.
 - Mallid, mis kuuluvad teistele ER-i konfiguratsiooni pakkujatele. Kui olete valinud ühe neist mallidest, saate teha valiku **Uus dokument**, et luua koopia sellest mallist, mis kuulub teie ER-i konfiguratsiooni pakkujale, ja seejärel alustada koopia muutmist.
 
-![Mallide loendid äridokumentide halduse tööruumi lehel](./media/BDM-Overview-EditingTemplate1.png)
+![Mallide loendid äridokumentide halduse tööruumi lehel.](./media/BDM-Overview-EditingTemplate1.png)
 
 Vahekaart **Mall** esitleb valitud malli sisu. Valitud malli andmete ja selles olevate ER-vormingu seadistuse andmete üle vaatamiseks valige vahekaart **Üksikasjad**. Pange tähele, et, kõikide mallide olek on **Avaldatud** ja veerus **Redaktsioon** pole üldse andmeid. See tähendab seda, et neid malle hetkel ei muudeta.
 
@@ -255,7 +255,7 @@ Teiste ER-i konfiguratsiooni pakkujate omanduses olevate mallidega töötamiseks
 1. Valige äridokumentide halduse tööruumi loendist mall **Tšekkide printimisvorming**.
 2. Valige **Üksikasjad** vahekaart.
 
-![Äridokumentide halduse tööruumi leht, üksikasjade vahekaart](./media/BDM-Overview-EditingTemplate2.png)
+![Äridokumentide halduse tööruumi leht, üksikasjade vahekaart.](./media/BDM-Overview-EditingTemplate2.png)
 
 Valitud mallile on saadaval valik **Muuda malli**. See valik on alati saadaval aktiivsele ER-seadistuse pakkujale (näiteks **Litware, Inc.**) kuuluva ER-vormingu seadistusega mallil. Valides **Muuda malli**, saab muuta asjakohase ER-vormingu seadistuse mustandi olemasolevat malli.
 
@@ -263,24 +263,24 @@ Valitud mallile on saadaval valik **Muuda malli**. See valik on alati saadaval a
 
 1. Valige äridokumendi halduse tööruumis dokument, mida soovite mallina kasutada.
 
-    ![Dokumendi valimine äridokumentide halduse tööruumi lehel](./media/BDM-Overview-EditingTemplate3.png)
+    ![Dokumendi valimine äridokumentide halduse tööruumi lehel.](./media/BDM-Overview-EditingTemplate3.png)
 
 2. Valige **Uus dokument** ja väljal **Pealkiri** muutke vajadusel redigeeritava malli pealkirja. Tekstiga nimetatakse ise tekkivat ER-vormingu seadistust. Pange tähele, et selle muudetavat malli sisaldava seadistuse (**Kliendi FTI aruande (GER) koopia**) mustand märgitakse automaatselt, et kasutada seda ER-vormingut praeguse kasutaja puhul. Samal ajal kasutatakse ER-vormingu põhiseadistuse muutmata algset malli selle ER-vormingu käivitamiseks kõikide kasutajate puhul.
 3. Muutke väljas **Nimi** ise tekkiva muudetava malli esimese redaktsiooni nime.
 4. Muutke väljal **Kommentaar** redigeeritava malli isetekkiva redaktsiooni märkust.
 5. Muutmis alustamise kinnitamiseks valige **OK**.
 
-![Uue malli loomiseks redigeerimisprotsessi alguse kinnitamine](./media/BDM-Overview-EditingTemplate4.png)
+![Uue malli loomiseks redigeerimisprotsessi alguse kinnitamine.](./media/BDM-Overview-EditingTemplate4.png)
 
 Kui ühtegi teenusepakkujat pole, pakutakse selle loomist. Kui aktiivset teenusepakkujat ei ole, pakutakse talle võimalust valida see aktiveerimiseks.
 
 Pakkuja loomiseks muutke väljal **Nimi** teenusepakkuja nime, värskendage uue pakkuja välja **Interneti-aadress** ja klõpsake kinnitamiseks nuppu **OK**.
 
-   ![BDM-is uue pakkuja loomine](./media/bdm_create_provider.png)
+   ![BDM-is uue pakkuja loomine.](./media/bdm_create_provider.png)
 
 Olemasoleva pakkuja aktiveerimiseks valige väljal **Konfiguratsioonipakkuja** pakkuja pakkuja nimi ja valige **OK**, et seada pakkuja aktiivseks.
 
-   ![Pakkuja aktiveerimine BDM-is](./media/bdm_choose_provider.png)
+   ![Pakkuja aktiveerimine BDM-is.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Iga BDM-i mall viitab pakkujale kui konfiguratsiooni autorile. Seetõttu on malli jaoks vaja aktiivset pakkujat.
@@ -296,19 +296,19 @@ Suvand **Uus dokument** on alati saadaval praeguse ja teise pakkuja (selles näi
 2. Muutke väljas **Nimi** ise tekkiva muudetava malli esimese redaktsiooni nime.
 3. Muutke väljas **Kommentaar** ise tekkiva muudetava malli redaktsiooni märkust.
 
-    ![Malli redigeerimine äridokumentide halduse tööruumi lehel](./media/BDM-Overview-EditingTemplate5.png)
+    ![Malli redigeerimine äridokumentide halduse tööruumi lehel.](./media/BDM-Overview-EditingTemplate5.png)
 
 4. Muutmis alustamise kinnitamiseks valige **OK**.
 
 Avaneb leht **BDM malli muutja**. Valitud malli saab redigeerida internetis Microsoft 365 abil.
 
-![Äridokumentide halduse malli muutmisleht](./media/BDM-Overview-EditingLayout1.png)
+![Äridokumentide halduse malli muutmisleht.](./media/BDM-Overview-EditingLayout1.png)
 
 ### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Malli redigeerimine rakenduses Microsoft 365
 
 Te saate malli muuta Microsoft 365 abil. Näiteks muuda veebilehitsejast kasutatavas Office’is malli päise välja küsimuste font **Tavaline** fondiks **Paks**. Need muudatused salvestatakse automaatselt malli peamises salvestusruumis (tavaliselt Azure bloobi salvestusruum) hoitava muudetava malli jaoks. See on konfigureeritud ER raamistiku jaoks.
 
-![Fondi paksuks kirjaks muutmine malli päises äridokumendi halduse malli muutmislehel](./media/BDM-Overview-EditingLayout2.png)
+![Fondi paksuks kirjaks muutmine malli päises äridokumendi halduse malli muutmislehel.](./media/BDM-Overview-EditingLayout2.png)
 
 ### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Muuda malli Office’i töölauarakenduses
 
@@ -318,15 +318,15 @@ Te saate malli muuta Microsoft 365 abil. Näiteks muuda veebilehitsejast kasutat
 1. Malli muutmiseks Office’i töölauarakenduse funktsioonidega (selles näites Exceliga) valige **Ava töölauarakenduses**. Muudetav mall kopeeritakse alalisest salvestusruumist ajutisse salvestusruumi, mis on äridokumentide halduse näitajatega määratletud kui SharePoint kaust.
 2. Kinnitage, et tahate avada malli Office’i töölaua Exceli rakendusega ajutisest faili salvestusruumist.
 
-    ![Exceli töölauaraenduses avatud mall](./media/BDM-Overview-EditingLayout3.png)
+    ![Exceli töölauaraenduses avatud mall.](./media/BDM-Overview-EditingLayout3.png)
 
 3. Muutke malli. Näiteks muutke malli päise väljade küsimuste fondi värv **Must** värviks **Sinine**.
 
-    ![Malli päises fondi värvi muutmine Exceli töölauarakendust kasutades](./media/BDM-Overview-EditingLayout4.png)
+    ![Malli päises fondi värvi muutmine Exceli töölauarakendust kasutades.](./media/BDM-Overview-EditingLayout4.png)
 
 4. Malli muudatuste salvestamiseks ajutisse salvestusruumi valige Exceli töölaua rakenduses **Salvesta**.
 
-    ![Äridokumentide halduse malli muutmislehel muudatuste salvestamine kasutades Exceli töölauarakendust](./media/BDM-Overview-EditingLayout5.png)
+    ![Äridokumentide halduse malli muutmislehel muudatuste salvestamine kasutades Exceli töölauarakendust.](./media/BDM-Overview-EditingLayout5.png)
 
 5. Sulgege Exceli töölaua rakendus.
 6. Ajutise malli salvestusruumi ajakohastamiseks alalise malli salvestusruumiga valige **Ajakohasta salvestatud koopia**.
@@ -340,13 +340,13 @@ Te saate malli muuta Microsoft 365 abil. Näiteks muuda veebilehitsejast kasutat
 2. Valige **Näita vormingut**, et näha ER-vormingu põhiseadistuse vormingu praegust ülesehitust, mis peab vastama muudetavale mallile. 
 3. Paani sulgemiseks valige **Peida vorming**.
 
-    ![BDM BDM malli muutmise leht](./media/BDM-Overview-EditingTemplate6.png)
+    ![BDM BDM malli muutmise leht.](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Sulgege leht **BDM malli muutja**.
 
 Värskendatud malli näidatakse vahekaardil **Mall**. Pange tähele, et muudetud malli olek on nüüd **Mustand** ja praegune redaktsioon pole enam tühi. See tähendab seda, et seda malli on hakatud muutma.
 
-![Värskendatud malli vaatamine äridokumentide halduse tööruumi lehel](./media/BDM-Overview-EditingTemplate5.png)
+![Värskendatud malli vaatamine äridokumentide halduse tööruumi lehel.](./media/BDM-Overview-EditingTemplate5.png)
 
 ### <a name="test-the-modified-template"></a>Katsetage muudetud malli 
 
@@ -356,13 +356,13 @@ Värskendatud malli näidatakse vahekaardil **Mall**. Pange tähele, et muudetud
 4. Valige **Moodul – müügireskontro** \> **Dokumendid** \> **Vabas tekstis arve** \> **Algne dokument** tase, et määratleda töötlemiseks arvete ulatus.
 5. Väljas **Aruandevorming** valige dokumendi taseme ER-vorming **Kliendi FTI aruande (GER) koopia**.
 
-    ![Prindihalduse seadete leht](./media/BDM-Overview-TestRun1.png)
+    ![Prindihalduse seadete leht.](./media/BDM-Overview-TestRun1.png)
 
 6. Praeguse lehe sulgemiseks vajutage **Paoklahv**.
 7. Valige **Prindi** ja seejärel valige **Valitud**.
 8. Laadige dokument alla ja avage see Exceli töölaua rakendusega.
 
-![Vabas tekstis arvete leht](./media/BDM-Overview-TestRun2.png)
+![Vabas tekstis arvete leht.](./media/BDM-Overview-TestRun2.png)
 
 Muudetud malliga luuakse valitud üksuse vabas tekstis arve aruanne. Selleks, et analüüsida, kuidas malli muudatused mõjutavad seda aruannet, saate selle aruande käivitada ühes rakenduse seansis kohe pärast malli muutmist teises rakenduse seansis.
 
@@ -373,7 +373,7 @@ Muudetud malliga luuakse valitud üksuse vabas tekstis arve aruanne. Selleks, et
 3. Vajadusel muutke väljas **Nimi** teise redaktsiooni nime vastavalt praegu aktiivsele esimesele redaktsioonile.
 4. Vajadusel muutke väljas **Kommentaar** ise tekkiva muudetava malli redaktsiooni märkust.
 
-    ![Malli redaktsioonide loomine äridokumentide halduse tööruumi lehel](./media/BDM-Overview-AddRevision.png)
+    ![Malli redaktsioonide loomine äridokumentide halduse tööruumi lehel.](./media/BDM-Overview-AddRevision.png)
 
     Koostasite malli uue redaktsiooni püsivasse malli salvestusruumi. Nüüd saate jätkata praegu aktiivseks märgitud teise redaktsiooni malli muutmisega.
 
@@ -391,7 +391,7 @@ Muudetud malliga luuakse valitud üksuse vabas tekstis arve aruanne. Selleks, et
 
 Kui muudate praegu aktiivse pakkuja ER-vormingu malli, pakutakse võimalust tühistada mallile tehtud muudatused.
 
-![Malli muudatustest loobumine äridokumentide halduse tööruumi lehel](./media/BDM-Overview-RevokeChanges.png)
+![Malli muudatustest loobumine äridokumentide halduse tööruumi lehel.](./media/BDM-Overview-RevokeChanges.png)
 
 1. Valige lehel **BDM malli muutja** vahekaart **Mall**.
 2. Valige käsk **Võta tagasi**.
@@ -437,7 +437,7 @@ Tõenäoliselt logisite sisse Azure AD domeeni praegusesse rakenduse eksemplari,
 
 Rakenduse Finance ER-i konfiguratsioonide [loendit](general-electronic-reporting.md#list-of-configurations) värskendatakse pidevalt. Avage [Globaalne hoidla](er-download-configurations-global-repo.md), et vaadata praegu toetatud ER-i konfiguratsioonide loendit. Saate [filtreerida](../../../finance/localizations/enhanced-filtering-global-repo.md) globaalset hoidlat, et vaadata ER-i konfiguratsioonide loendit, mida kasutatakse konfigureeritavate äridokumentide toetamiseks.
 
-![Globaalse hoidla sisu filtreerimine konfiguratsioonihoidla lehel](./media/bdm-overview-filterglobalrepo.gif)
+![Globaalse hoidla sisu filtreerimine konfiguratsioonihoidla lehel.](./media/bdm-overview-filterglobalrepo.gif)
 
 Järgmises tabelis on toodud ER-i konfiguratsioonide loend, mis toetavad konfigureeritavaid äridokumente ja mis on rakenduses Finance väljastatud kuni 2020. a detsembrini.
 

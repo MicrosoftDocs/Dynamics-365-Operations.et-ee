@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193746"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345808"
 ---
 # <a name="financial-analysis"></a>Finantsanalüüs
 
@@ -60,7 +60,7 @@ Selleks, et põhikontot finantsaruannetel kuvataks jamuudele visuaalidele (nt KP
 ## <a name="entity-store"></a>Üksuse kauplus
 Andmed **Finantsülevaadeteks** tõmmatakse üksuse kauplusest (**Süsteemihaldus** \> **Seadistamine** \> **Üksuse kauplus**). Kui avate **CFO ülevaate** või **finantsülevaadete** tööruumi ja visuaalidel kuvatakse järgmine hoiatusteade, peate üksuseid uuendama.
 
-![Hoiatus](./media/Cantdisplay.png)
+![Hoiatus.](./media/Cantdisplay.png)
 
 **Finantsülevaadete** tööruumide andmete nägemiseks peate uuendama järgmised üksused:
 
@@ -124,7 +124,7 @@ Kasutajad saavad aruannet filtreerida vasakul asuva paani **Filter** abil. See p
 - **Visuaalitaseme filtrid** – neid filtreid rakendatakse ainult valitud visuaalile. Neid filtreid rakendatakse lehetaseme filtritele lisaks.
 - **Süvitsimineku filter** – see filter filtreerib lähtevisuaalist, mida rakendatakse praegusele visuaalile süvaaruande loomisel lähtevisuaalist praegusele visuaalile.
 
-![Filtreerimissuvandid](./media/filter.png)
+![Filtreerimissuvandid.](./media/filter.png)
 
 Konkreetse filtriväärtuse eemaldamiseks valige selle kõrval asuv kustutuskummi sümbol. Ärge eemaldage filtrit, valides sümboli X. Sümboli X valimisel eemaldatakse filtreeritav väli filtrisuvandite hulgast. Kui eemaldate välja filtrist kogemata, sulgege tööruum ja avage see uuesti. Vaikefiltri sätted rakendatakse uuesti.
 
@@ -169,25 +169,25 @@ Power BI kaudu on saadaval süvitsimineku eri tasemed. Igal tasemel on oma nimi 
 
 Järgmisel joonisel on aruanne **Proovibilanss** ahendatud reahierarhia kõrgeimale tasemele – põhikonto tüübile.
 
-![Proovibilansi väljavõte](./media/trial-balance.png)
+![Proovibilansi väljavõte.](./media/trial-balance.png)
 
 Hierarhia järgmise taseme (põhikonto kategooriad) vaatamiseks saate välja **Mine süvitsi üksusega** väärtuseks määrata **Read** ja valida seejärel nupp **Laienda** (kolmas nupp väljast Mine süvitsi üksusega). Nüüd näete põhikonto kategooriad laiendatuna. Praegu ei luba Power BI teil laiendada ainult üht rida või veergu ning samal ajal näha kõiki teisi ridu ja veerge.
 
-![Proovibilansi ridadesse süvitsi minek](./media/trial-balance2.png)
+![Proovibilansi ridadesse süvitsi minek.](./media/trial-balance2.png)
 
 Kõigi ridade põhikontode laiendamiseks saate uuesti kasutada nuppu **Laienda**. Põhikontodega süvitsi minekuks ainult ühe rea kaupa valige aga esmalt nupp **Mine süvitsi** (akna paremal pool asuv üksik allapoole osutav nool) ja valige seejärel rida, millega süvitsi minna. Järgmisel joonisel on kujutatud tulemus, kui pärast nupu **Drill Down** valimist on valitud rida **Müük**.
 
-![Proovibilansi laiendamise nupp](./media/trial-balance3.png)
+![Proovibilansi laiendamise nupp.](./media/trial-balance3.png)
 
 Pärast ühe reaga süvitsiminekut tuleb täielikule proovibilansile naasmiseks teha mitu klõpsu. Nupp **Mine üldiseks** (Esimene nupp pärast välja **Mine süvitsi üksusega**) läheb üldiseks ainult kategooria **Müük** kontekstis, nagu alloleval pildil on näidatud.
 
-![Proovibilansi üldiseks minemise nupp](./media/trial-balance4.png)
+![Proovibilansi üldiseks minemise nupp.](./media/trial-balance4.png)
 
 Nuppu **Mine üldiseks** saate kasutada ridade kõrgeima taseme summeerimise juurde naasmiseks.
 
 Power BI-l on ka nupp, mille abil saate hierarhia järgmisele tasemele liikuda (teine nupp pärast välja **Mine süvitsi üksusega**). Selle nupu mõju erineb nupu **Laienda** (kolmas nupp pärast välja **Mine süvitsi üksusega**) mõjust, mida kasutatakse hierarhia laiendamiseks. Hierarhia laiendamisel säilitatakse hierarhia aruandel. Nagu näitasime ka varem, siis kui laiendate näiteks põhikonto tüüpi, näete aruandel ikka põhikonto tüüpi. Kui aga lähete hierarhia järgmisele tasemele, ei näita aruanne enam hierarhia ülemüksust, nagu on näha järgmisel pildil.
 
-![Proovibilansi süvenemisest naasmise nupp](./media/trial-balance5.png)
+![Proovibilansi süvenemisest naasmise nupp.](./media/trial-balance5.png)
 
 Summeeritud saldote taga olevate kande üksikasjade vaatamiseks saate rakendusse Financial and Operations tagasi minna, valides mõned summad.
 
@@ -226,7 +226,7 @@ Praegu ei toeta finantsaruanded organisatsiooni hierarhiaid, mis võimaldavad an
 ## <a name="data-limitations"></a>Andmepiirangud
 Finantsaruande visuaalidel kuvatavate ridade arvul on piirang. Praegu on see piirang 30 000. Selle piirangu ületamisel kuvatakse visuaalil hoiatussümbol, mis teavitab olukorrast.
 
-![Andmepiirangud](./media/data-limit.png)
+![Andmepiirangud.](./media/data-limit.png)
 
 Kui maksimumpiir ületatakse, on finantsaruandel kuvatud kogusummad valed, kuna visuaalile ei laaditud kõiki ridu.
 

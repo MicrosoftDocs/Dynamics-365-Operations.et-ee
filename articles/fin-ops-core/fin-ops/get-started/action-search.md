@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce10817d677f7e48194272b5ebb91b95d657441f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754822"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360277"
 ---
 # <a name="action-search"></a>Tegevuse otsing
 
@@ -31,7 +31,7 @@ Selles artiklis kirjeldatakse tegevuse otsingu funktsiooni. Tegevuste otsing ait
 
 Lehed kuvavad käsklusi peamiselt toimingupaanidel – nii standardsel toimingupaanil, mis kuvatakse lehe ülaosas, kui ka tööriistaribadel, mis kuvatakse lehe erinevates jaotistes. Varasemates versioonides võimaldas klahvinäpunäidete funktsioon teil toimingupaani mis tahes nupule kiiresti juurde pääseda, vajutades Alt-klahvi ja seejärel tähejada.
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![võtmeNäpunäitedA6.](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 Tegevuse otsingu funktsioon asendab näpunäited, mis pole enam saadaval. See uus funktsioon võimaldab kiiret otsingut ja nupu käivitamist mis tahes nähtavalt tegevuspaanilt.
 
@@ -45,7 +45,7 @@ Tegevuse otsingu funktsiooni kasutamiseks toimige järgmiselt.
 
 Pärast nupu käivitamist naaseb fookus lehe viimasesse asukohta ja saate tööd jätkata.
 
-[![tegevuse-otsinguväli](./media/action-search-field.png)](./media/action-search-field.png)
+[![tegevuse-otsinguväli.](./media/action-search-field.png)](./media/action-search-field.png)
 
 Saate tegevuste otsingu käivitada ka, vajutades klahve Ctrl+/ või Alt+Q. Vajutage uuesti kiirklahvi, et fookus naaseks teie viimasele lehe asukohale.
 
@@ -61,11 +61,11 @@ Sageli peate teadma nupu otstarbe mõistmiseks nii nupu asukohta kui ka kontekst
 
 Tippisite väljale **Tegevuse otsing** näiteks tähed **kog** ja uurite nüüd tulemuste loendit. Esimene kirje (nupp **Kogusummad**) on esile tõstetud. Kuvatakse ka nupu tee **Müügitellimus** &gt; **Vaade**. Tee osa **Müügitellimus** vastab tegumiriba vahekaardile **Müügitellimus** ja tee osa **Vaade** vastab selle vahekaardi rühmale **Vaade**. Samamoodi annab nupu **Koguallahindlus** tee (**Müü** &gt; **Arvuta**) teile teada, et see nupp asub tegumiriba vahekaardi **Müü** grupis **Arvuta**. Seetõttu aitab see teave teil täpselt aru saada, milline nupp tegevuseotsinguga käivitatakse (kui valite selle nupu tulemuste loendist).
 
-[![tegevuste-otsinguväli-koos-andmetega](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![tegevuste-otsinguväli-koos-andmetega.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 Eelmises näites näitas tegevuse otsing tulemusi standardselt toimingupaanilt lehe ülaosas. Kuid tegevuse otsing näitab ka tulemusi nähtamatutelt tööriistaribadelt lehe muudes kohtades. Näiteks otsite nuppu **Vaba kaubavaru**, mis on kiirkaardil **Müügitellimuse read**. Sellisel juhul teavitab nupu tee tulemuste loendis (**Müügitellimuse read** &gt; **Varud** &gt; **Vaade**), et see nupp on kiirkaardil **Müügitellimuse read** menüünupu **Varud** päise **Vaade** all.
 
-[![vaba-kaubavaru](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![vaba-kaubavaru.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Osa nuppe tegevuse otsingus ei kuvata. Need hõlmavad kukutatava dialoogi nuppe ja alamvormide nuppe. 

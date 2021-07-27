@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812925"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359097"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Atribuudipõhised müügihinnad piirangupõhistele tootekonfiguratsioonidele
 
@@ -33,7 +33,7 @@ Vaikevaluuta seadistamiseks tehke järgmist.
 1. Avage vahekaart **Piirangupõhise tootekonfiguratsiooni mudelid**.
 1. Avage ripploend **Vaikevaluuta** ja valige valuuta.
 
-    ![Vaikevaluuta seadmine piirangupõhise tootekonfiguratsiooni jaoks](media/prod-config-currency.png "Vaikevaluuta seadmine piirangupõhise tootekonfiguratsiooni jaoks")
+    ![Vaikevaluuta seadmine piirangupõhise tootekonfiguratsiooni jaoks.](media/prod-config-currency.png "Vaikevaluuta seadmine piirangupõhise tootekonfiguratsiooni jaoks")
 
 1. Kui soovite lisada kõigi tellimuse või pakkumise ridade hinnajaotusega Exceli faili, siis seadke jaotises **Hinnamudel** suvandi **Manusta** väärtuseks *Jah*.
 
@@ -60,7 +60,7 @@ Järgmises näites on toodud baashind 899,95 eurot staatilise arvuna, mida saab 
 - Puitu imiteeriva korpuse puhul lisage 119,95 eurot.
 - Lisage 12,95 eurot iga kõlari kõrguse ühiku kohta.
 
-![Näidishinnamudel](media/prod-config-rules-example.png "Näidishinnamudel")
+![Näidishinnamudel.](media/prod-config-rules-example.png "Näidishinnamudel")
 
 ## <a name="add-support-for-multiple-currencies"></a>Mitme valuuta toe lisamine
 
@@ -81,7 +81,7 @@ Otseste hindade lisamiseks lisavaluutas tehke järgmist.
 
 Alltoodud näites on _EUR_ vaikevaluuta ja _USD_ on lisatud lisavaluutana.
 
-![Mitme valuutaga mudeli näide](media/prod-config-rules-currency-example.png "Mitme valuutaga mudeli näide")
+![Mitme valuutaga mudeli näide.](media/prod-config-rules-currency-example.png "Mitme valuutaga mudeli näide")
 
 > [!NOTE]
 > Te ei saa lisada avaldisereegleid, mis kehtivad ainult mittevaikevaluuta puhul. Avaldisereeglite loomiseks, mis kehtiksid ainult valuuta puhul, mis ei ole vaikevaluuta, seadke vaikevaluuta hinnaavaldise väärtus nulliks. Seejärel seadistage mittevaikevaluuta jaoks sobiv avaldis.
@@ -93,11 +93,11 @@ Et katsetada, kuidas müügihinnad töötavad konfiguratsiooniseansis, avage oma
 - Kasutage siin pakutavaid konfiguratsiooniseadeid, et valida tootesuvandid, ja seejärel vaadake, kuidas need mõjutavad suvandi **Hind ja lähetuskuupäev** väärtust.
 - Valige **Kuva hinnajaotus**, et laadida alla Exceli dokument, mis näitab hinna arvutamise kõiki üksikasju.
 
-![Oma tootemudeli katsetamine](media/prod-config-test.png "Oma tootemudeli katsetamine")
+![Oma tootemudeli katsetamine.](media/prod-config-test.png "Oma tootemudeli katsetamine")
 
 Allalaaditud arvutustabel näitab iga aktiivse hinnaelemendi puhul nii absoluutset väärtust kui ka kasumi protsenti. Kui olete seadistanud lehel **Tooteteabe halduse parameetrid** hinnamudeli suvandi **Manusta**, lisatakse see Exceli leht tellimuse või pakkumise reale.
 
-![Exceli arvutustabel, milles on kuvatud hinnajaotus](media/prod-config-excel-example.png "Exceli arvutustabel, milles on kuvatud hinnajaotus")
+![Exceli arvutustabel, milles on kuvatud hinnajaotus.](media/prod-config-excel-example.png "Exceli arvutustabel, milles on kuvatud hinnajaotus")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Valikukriteeriumide seadistamine hinnamudelite jaoks
 
@@ -116,7 +116,7 @@ Valikukriteeriumide seadistamiseks hinnamudelite jaoks tehke järgmist.
     - **Kehtiv alates** – määrake esimene kuupäev, millal päring rakendub.
     - **Aegub** – määrake päringu rakendumise viimane kuupäev.
 
-    ![Hinnamudeli kriteeriumid](media/prod-config-price-model-criteria.png "Hinnamudeli kriteeriumid")
+    ![Hinnamudeli kriteeriumid.](media/prod-config-price-model-criteria.png "Hinnamudeli kriteeriumid")
 
 1. Valige päringu rida, mida soovite määratleda, ja seejärel valige **toimingupaanil** suvand **Redigeeri**. Avaneb päringukujundaja dialoogiboks. See toimib nagu enamik päringukujundajaid rakenduses Supply Chain Management. Kasutage seda, et määratleda tingimused, mille alusel tuleks valitud rea puhul hinnamudelit rakendada.
 
@@ -137,7 +137,7 @@ Viimane samm on määrata tootemudeli versiooni jaoks atribuudipõhised müügih
 1. Valige sobiv tootekonfiguratsiooni mudel.
 1. Valige toimingupaanil vahekaart **Mudel** ning valige rühmas **Hinnamudeli üksikasjad** suvand **Versioonid**.
 1. Avaneb leht **Versioonid**. Veenduge, et suvandi **Hinnakujundusmeetod** väärtuseks oleks seatud **Atribuudipõhine**.
-    ![Hinnakujundusmeetodi seadmine atribuudipõhiseks](media/prod-config-versions.png "Hinnakujundusmeetodi seadmine atribuudipõhiseks")
+    ![Hinnakujundusmeetodi seadmine atribuudipõhiseks.](media/prod-config-versions.png "Hinnakujundusmeetodi seadmine atribuudipõhiseks")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168725"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343954"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 
@@ -36,7 +36,7 @@ Kui olete dokumentatsiooni läbi vaadanud, võite alustada oma tehingute ja sama
 
 Suuruse muutmist mõjutavad kõik järgmisel joonisel näidatud tegurid. Mida põhjalikum on kogutud teave, seda täpsemalt saate suuruse muutmise kindlaks määrata. Riistvaraline suuruse muutmine ilma toetavate andmeteta on tõenäoliselt ebatäpne. Vajalike andmete absoluutne miinimumnõue on maksimaalne kanderea koormus tunni kohta.
 
-[![Riistvara suuruse muutmine kohapealsetes keskkondades](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Riistvara suuruse muutmine kohapealsetes keskkondades.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Vaadates vasakult paremale, on esimene ja kõige olulisem suuruse muutmise täpseks prognoosimiseks vajalik tegur kannete profiil ehk kannete iseloomustus. Tähtis on leida alati maksimaalne kannete maht tunnis. Kui tipp-perioode on mitu, tuleb need perioodid täpselt määratleda.
 

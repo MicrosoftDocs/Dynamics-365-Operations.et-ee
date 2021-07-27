@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792925"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348238"
 ---
 # <a name="create-and-update-store-hours"></a>Kaupluse lahtiolekuaegade loomine ja värskendamine
 
@@ -49,14 +49,14 @@ Kaupluse lahtiolekuaegade konfigureerimiseks tehke järgmist.
     > [!NOTE]
     > Saate luua mitu malli, millel on kattuvad algus-ja lõppkuupäevad. Seetõttu saate erinevate ajavööndite kaupluste lahtiolekuaegu määratleda.
 
-    ![Vahemiku dialoogiakna lisamine](../dev-itpro/media/Storehours1.png "Vahemiku dialoogiakna lisamine")
+    ![Vahemiku dialoogiakna lisamine.](../dev-itpro/media/Storehours1.png "Vahemiku dialoogiakna lisamine")
 
 4. Seostage kaupluse lahtiolekuaegade mall kauplustega, kus seda kasutatakse. Valige dialoogikastis **Vali organisatsiooni sõlmed** kauplused, regioonid ja organisatsioonid, millega mall peaks seotud olema.
 
     - Iga kauplusega saab seostada ainult ühe kaupluse lahtiolekuaegade malli.
     - Kasutage noolenuppe, et valida kauplusi, regioone või organisatsioone. Kalender on saadaval kauplustele või kauplusegruppidele ja see on viiteks nähtav kassas.
 
-    ![Organisatsioonisõlmede dialoogiakna valimine](../dev-itpro/media/Storehours2.png "Organisatsioonisõlmede dialoogiakna valimine")
+    ![Organisatsioonisõlmede dialoogiakna valimine.](../dev-itpro/media/Storehours2.png "Organisatsioonisõlmede dialoogiakna valimine")
 
 5. Käivitage lehel **Jaotuse graafik** tööd **1070** ja **1090**, et muuta kaupluse lahtiolekuajad kassas kättesaadavaks.
 
@@ -75,7 +75,7 @@ Järgige neid samme, et lisada kaupluse lahtiolekuajad prinditud kassa kviitungi
 
 Kassa kviitungid sisaldavad nüüd kaupluse lahtiolekuaegu. Kui malli kaasatakse kõik pühad, kuvatakse need kviitungil.
 
-![Kviitungi näide](../dev-itpro/media/Storehours3.png "Kviitungi näide")
+![Kviitungi näide.](../dev-itpro/media/Storehours3.png "Kviitungi näide")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
