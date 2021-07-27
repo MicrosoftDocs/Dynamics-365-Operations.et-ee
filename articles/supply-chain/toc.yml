@@ -246,8 +246,6 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektroonilise arvelduse kasutamise alustamine Egiptuses
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Elektroonilise arvelduse kasutamise alustamine Itaalias
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektroonilise arvelduse kasutamise alustamine Mehhikos
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektroonilise arveldamise häälestus
@@ -1607,6 +1605,8 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: Planeerimise optimeerimise sobivuse analüüs
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: 'Parameetrid, mida planeerimise optimeerimine ei kasuta'
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Filtrite rakendamine plaanile
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Koondplaneerimine koos nõudluse prognoosiga
@@ -1621,6 +1621,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Tootmise planeerimine
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Piiramatu võimsusega planeerimine
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Varude märkimine planeerimise optimeerimise käigus
                   href: master-planning/planning-optimization/marking.md
                 - name: Kontsernisisene planeerimine
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Kinnitussammude konfigureerimine
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Kulude läbivaatajate konfigureerimine
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Käsitsi otsuste konfigureerimine
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Tingimuslike otsuste konfigureerimine

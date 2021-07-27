@@ -2,7 +2,7 @@
 title: Videopleieri moodul
 description: See teema hõlmab videopleieri mooduleid ja kirjeldab, kuidas neid Microsofti rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797403"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479276"
 ---
 # <a name="video-player-module"></a>Videopleierimoodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab videopleieri mooduleid ja kirjeldab, kuidas neid Microsofti rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -43,12 +44,16 @@ Video mängija moodul toetab ka sekundaarseid audio palasid. Kui video on CMS-i 
 
 Järgmisel pildil on näide videopleieri moodulist avalehel.
 
-![Videopleieri mooduli näide](./media/ecommerce-videoplayer.PNG)
+![Videopleieri mooduli näide.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Videopleieri mooduli atribuudid
 
 | Atribuudi nimi         | Väärtus                               | Kirjeldus |
 |-----------------------|-------------------------------------|-------------|
+| Päis               | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Vaikimisi kasutatakse **H2** pealkirja silti päises, kuid pealkirja silti saab vajadusel muuta juurdepääsu nõuetele vastavaks. |
+| Rikastekst             | Lõigu tekst | Moodul toetab RTF-vormingus lõigu teksti. Toetatud on mõned põhilised RTF-i võimalused, nagu hüperlingid ja paks, allajoonitud, ning kursiivis tekst. Osasid neid võimalusi saab alistada lehe teema poolt, mis rakendatakse moodulile. |
+| Seos                  | Lingi tekst, lingi URL, Accessible Rich Internet Applications (ARIA) silt ja suvand **Ava link uuel vahekaardil** valija | Moodulid toetavad üht või mitut tegutsemiskutse linki. Lingi lisamisel on nõutavad lingi tekst, URL ja ARIA-silt. ARIA-sildid peaksid olema kirjeldavad, et vastata juurdepääsetavuse nõuetele. Linke saab konfigureerida nii, et need avatakse uuel vahekaardil. |
+| Alamtekst              | Pealkiri, tekst ja lingid | Videopleierile saate lisada täiendavat sisu nagu nt autori või kujundaja nime või lingid isiklikele ajaveebidele. |
 | Automaatesitus             | **Tõene** või **Väär**               | Kui väärtuseks on seatud **Tõene**, esitatakse video automaatselt. |
 | Vaigista                  | **Tõene** või **Väär**               | Kui väärtuseks on seatud **Tõene**, on heli vaigistatud. Selle pleieri vaikeväärtus on **Väär**. Chrome’i brauseris on automaatselt esitatavad videod vaikimisi vaigistatud ja heli esitatakse ainult siis, kui kasutaja esitab videot käsitsi. |
 | Silmus                  | **Tõene** või **Väär**               | Kui väärtuseks on seatud **Tõene**, korratakse videot tsüklis. |
@@ -58,6 +63,9 @@ Järgmisel pildil on näide videopleieri moodulist avalehel.
 | Videopleieri juhtelemendid | **Tõene** või **Väär**               | Kui väärtuseks on seatud **Tõene**, kuvatakse kõik vidopleieri juhtelemendid. Need juhtelemendid hõlmavad esitamise ja peatamise nuppe, edenemise näidikut ja suletud pealdise suvandeid. |
 | Peida plakati pilt     | **Tõene** või **Väär**               | Videol võib olla plakati raam. Kui selle atribuudi väärtuseks on seatud **Tõene**, on plakati raam peidetud. |
 | Maski tase            | Number vahemikus **0** kuni **100** | Video laadi jaoks rakendatav mask. |
+
+> [!IMPORTANT]
+> **Pealkirja**, **RTF-teksti**, **Lingi**, ja **Alamteksti** atribuudid on saadaval alates versiooni Dynamics 365 Commerce 10.0.20 väljalaskest.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Videopleieri mooduli lisamine lehele
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055096"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360588"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn talent Hubiga integreerimine
 
@@ -48,7 +48,7 @@ Süsteemiadministraator peab lõpule viima seadistustoimingud, et lubada integre
 
 5. Valige lehel **Dynamics 365 Human Resources** keskkond, millega soovite LinkedIn Talent Hubi linkida ja seejärel valige **Lingi**.
 
-    ![LinkedIn Talent Hubi sisseelamine](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hubi sisseelamine.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Saate linkida ainult keskkondadega, kus teie kasutajakontol on administraatori juurdepääs nii Human Resourcesi keskkonnale kui ka seostatud Power Appsi keskkonnale. Kui Human Resourcesi linkide lehel pole loetletud ühtegi keskkonda, veenduge, et teie rentnikus oleks litsentsitud Human Resourcesi keskkond ja et kasutajal, millega olete linkide lehele sissetogitud, oleks administraatori õigused nii Human Resourcesi keskkonnale kui ka Power Appsi keskkonnale.
@@ -91,7 +91,7 @@ Rakenduse kasutaja tuleb luua LinkedIn Talent Hubi adapteris, et anda adapterile
 
 6. Kasutage ülal olevat ripploendit, et muuta vaikimisi vaade **Lubatud kasutad** vaateks **Rakenduse kasutajad**.
 
-    ![Rakenduse kasutajate vaade](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Rakenduse kasutajate vaade.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Valige tööriistaribal **Uus**.
 
@@ -163,7 +163,7 @@ Kui kandidaat on liikunud värbamisprotsessist edasi ja on palgatud, saate ekspo
     - Sisestage väljale **Asukoht** asukoht, kus töövõtja hakkab töötama.
     - Sisestage või kinnitage töövõtja meiliaadress.
 
-![HRIS-i paanile eksportimine LinkedIn Talent Hubis](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![HRIS-i paanile eksportimine LinkedIn Talent Hub`is.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Sisseelamise lõpule viimine Human Resourcesis
 

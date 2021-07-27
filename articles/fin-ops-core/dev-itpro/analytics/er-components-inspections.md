@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753836"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357662"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 
@@ -242,7 +242,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 1. Hakake konfigureerima ER-i andmemudeli ja ER-i mudeli kaardistamise komponente samaaegselt.
 2. Lisage andmemudeli puus väli, mille nimi on **X**, ja valige andmetüübiks **Täisarv**.
 
-    ![Lehel Andmemudel andmemudeli piile lisatud väli X ja täisarvu andmetüüp](./media/er-components-inspections-01.png)
+    ![X-väli ja andmetüüp Integer lisati andmemudeli lehel andmerežiimi puule.](./media/er-components-inspections-01.png)
 
 3. Mudeli vastendamise disainis **andmeallikate** paanil lisage tüübi **Arvutatud väli** andmeallikas.
 4. Pange uue andmeallika nimeks **Y** ja konfigureerige see nii, et see sisaldaks avaldist `INTVALUE(100)`.
@@ -250,17 +250,17 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 6. Muutke andmemudeli kujundajas välja **X** andmetüüp väärtusest **Täisarv** valikule **Int64**.
 7. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
-    ![Redigeeritava mudeli vastendamise komponendi kinnitamine lehel Mudeli vastendamise kujundaja](./media/er-components-inspections-01.gif)
+    ![Redigeeritava mudeli vastendamise komponendi kinnitamine lehel mudeli vastendamise kujundaja.](./media/er-components-inspections-01.gif)
 
 8. Valige suvand **Kinnita**, et kontrollida valitud ER-i konfiguratsiooni mudeli vastendamise komponent lehel **Konfigureerimised**.
 
-    ![Kinnitage, et kontrollida mudeli vastendamise komponenti konfiguratsioonide lehel](./media/er-components-inspections-01a.png)
+    ![Kinnitage, et kontrollida mudeli vastendamise komponenti konfiguratsioonide lehel.](./media/er-components-inspections-01a.png)
 
 9. Pange tähele, et kuvatakse valideerimise tõrge. Sõnumis on toodud, et tüübi **Täisarv** väärtus, mille avaldis `INTVALUE(100)` andmeallika **Y** puhul tagastas, ei saa talletada andmemudeli **X** väljal tüübiga **Int64**.
 
 Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust ja valite suvandi **Käivita**, et käitada vormingut, mis on konfigureeritud kasutama mudeli vastendamist.
 
-![Käitusaja tõrked lehel Vormingu kujundaja](./media/er-components-inspections-01b.png)
+![Käitusaja tõrked lehel Vormingu kujundaja.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -290,7 +290,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 6. Muutke vormingustruktuuri puus vormingu elemendi **Y** andmetüüp valikult **Täisarv** valikule **Int64**.
 7. Valige nupp **Kontrolli**, et kontrollida redigeeritava vormindamise komponenti lehel **Vormingu kujundaja**.
 
-    ![Vormingu kujundaja lehel tüübi ühilduvuse kontrollimine](./media/er-components-inspections-02.gif)
+    ![Vormingu kujundaja lehel tüübi ühilduvuse kontrollimine.](./media/er-components-inspections-02.gif)
 
 8. Pange tähele, et kuvatakse valideerimise tõrge. Teade kinnitab, et konfigureeritud avaldis võib aktsepteerida ainult väärtusi **Int64**. Seega andmemudeli välja **X** väärtust tüübiga **Täisarv** ei saa sisestada vormingu elementi **Y**.
 
@@ -317,7 +317,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 1. Hakake konfigureerima ER-i andmemudeli ja ER-i mudeli kaardistamise komponente samaaegselt.
 2. Lisage andmemudeli puus väli, mille nimi on **X**, ja valige andmetüübiks **Täisarv**.
 
-    ![Andmemudeli puu koos väljaga X ja täisarvulise andmetüübiga lehel Andmemudel](./media/er-components-inspections-01.png)
+    ![Andmemudeli puu koos väljaga X ja täisarvulise andmetüübiga lehel Andmemudel.](./media/er-components-inspections-01.png)
 
 3. Mudeli vastendamise disainis **andmeallikate** paanil lisage tüübi **Arvutatud väli** andmeallikas.
 4. Pange uue andmeallika nimeks **Y** ja konfigureerige see nii, et see sisaldaks avaldist `INTVALUE(100)`.
@@ -325,7 +325,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 6. Kustutage mudeli vastendamise kujundajas **andmeallikate** paanil andmeallikas **Y**.
 7. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
-    ![Kontrollige redigeeritava ER-i mudeli vastendamise komponendi kinnitamist lehel mudeli vastendamise kujundaja](./media/er-components-inspections-03.gif)
+    ![Kontrollige redigeeritava ER-i mudeli vastendamise komponendi kinnitamist lehel mudeli vastendamise kujundaja.](./media/er-components-inspections-03.gif)
 
 8. Pange tähele, et kuvatakse valideerimise tõrge. Teates on kirjas, et andmemudeli välja **X** sidumine sisaldab teed, mis viitab andmeallikale **Y**, kuid seda andmeallikat ei leitud.
 
@@ -359,13 +359,13 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 8. Pange uue pesastatud välja nimeks **$AccNumber** ja konfigureerige see nii, et see sisaldaks avaldist `TRIM(Vendor.AccountNum)`.
 9. Valige suvand **Kontrolli**, et kontrollida mudeli vastendamise kujundaja lehel **Mudeli vastendamise kujundaja** redigeeritud mudeli vastendamise komponenti ja kinnitada, et avaldisele `FILTER(Vendor, Vendor.AccountNum="US-101")` on võimalik andmeallikas **Hankija** saata päring.
 
-    ![Avaldise kontrollimise osas on võimalik saata päring mudeli vastendamise kujundaja lehel](./media/er-components-inspections-04.gif)
+    ![Avaldise kontrollimise osas on võimalik saata päring mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-04.gif)
 
 10. Pange tähele, et ilmneb valideerimise tõrge, kuna andmeallikas **Hankija** sisaldab tüübi **Arvutatud väli** pesastatud välja, mis ei luba andmeallika **FilteredVendor** avaldist otse SQL-lauseks teisendada.
 
 Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust ja valite suvandi **Käivita**, et käitada vormingut, mis on konfigureeritud kasutama mudeli vastendamist.
 
-![Käitusaja tõrked, mis ilmnevad, kui käivitate vormingu kujundaja lehel redigeeritava vormingu](./media/er-components-inspections-04a.png)
+![Käitusaja tõrked, mis ilmnevad, kui käivitate vormingu kujundaja lehel redigeeritava vormingu.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -396,23 +396,23 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
     - Valige rühmitamiseks kirjete allikaks andmeallikaks suvand **Kanne**.
     - Valige väljal **Täitmise asukoht** suvand **Päring**, et määrata, et soovite käitada seda andmeallikat andmebaasi tasemel.
 
-    ![Andmeallika konfigureerimine lehel Rühmitamisaluse parameetrite redigeerimine](./media/er-components-inspections-05a.gif)
+    ![Andmeallika konfigureerimine lehel Rühmitamisaluse parameetrite redigeerimine.](./media/er-components-inspections-05a.gif)
 
 6. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **GroupedTrans** saab päringusse kaasata.
 7. Muutke andmeallikat **Kanne**, lisades tüübi **Arvutatud väli** pesastatud väli, et hankida kärbitud hankija konto number.
 8. Pange uue andmeallika nimeks **$AccNumber** ja konfigureerige see nii, et see sisaldaks avaldist `TRIM(Trans.AccountNum)`.
 
-    ![Andmeallikas konfigureerimine mudeli vastenduse koostaja lehel](./media/er-components-inspections-05a.png)
+    ![Andmeallikas konfigureerimine mudeli vastenduse koostaja lehel.](./media/er-components-inspections-05a.png)
 
 9. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **GroupedTrans** saab päringusse kaasata.
 
-    ![Kinnitage ER-i mudeli vastendamise komponent ja veenduge, et konfigureeritud andmeallika GroupedTrans saaks mudeli vastendamise kujundaja lehel päringusse kaasata](./media/er-components-inspections-05b.png)
+    ![Kinnitage ER-i mudeli vastendamise komponent ja veenduge, et konfigureeritud andmeallika GroupedTrans saaks mudeli vastendamise kujundaja lehel päringusse kaasata.](./media/er-components-inspections-05b.png)
 
 10. Pange tähele, et ilmneb valideerimise tõrge, kuna andmeallikas **Kanne** sisaldab tüübi **Arvutatud väli** pesastatud välja, mis ei luba andmeallika **GroupedTrans** kõnet otse SQL-lauseks teisendada.
 
 Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust ja valite suvandi **Käivita**, et käitada vormingut, mis on konfigureeritud kasutama mudeli vastendamist.
 
-![Käitusaja tõrked, mis ilmnevad, kui te ignoreerite vormindamist kujundaja lehel](./media/er-components-inspections-05c.png)
+![Käitusaja tõrked, mis ilmnevad, kui te ignoreerite vormindamist kujundaja lehel.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -448,21 +448,21 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
     2. Lisage andmeallikas **Vendor.FilteredTrans** liitumiseks teise kirjete kogumina. Valige tüübiks **INNER**.
     3. Valige väljal **Täitmine** suvand **Päring**, et määrata, et soovite käitada seda andmeallikat andmebaasi tasemel.
 
-    ![Andmeallikas konfigureerimine liitumise koostaja lehel](./media/er-components-inspections-06a.gif)
+    ![Andmeallikas konfigureerimine Join koostaja lehel.](./media/er-components-inspections-06a.gif)
 
 10. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **JoinedList** saab päringusse kaasata.
 11. Muutke andmeallika **Vendor.FilteredTrans** avaldis valikult `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` valikule `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Valige suvand **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja** ja kinnitada, et konfigureeritud andmeallika **JoinedList** saab päringusse kaasata.
 
-    ![Valige redigeeritava mudeli vastendamise komponent ja veenduge, et JoinedList andmeallika saab esitada päringu mudeli vastendamise kujundaja lehel](./media/er-components-inspections-06b.png)
+    ![Valige redigeeritava mudeli vastendamise komponent ja veenduge, et JoinedList andmeallika saab esitada päringu mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-06b.png)
 
 13. Pange tähele, et valideerimise tõrge ilmneb, kuna andmeallika **Vendor.FilteredTrans** väljendit ei saa otseseks SQL-i kõneks tõlkida. Lisaks ei luba otsene SQL-i kõne andmeallika **JoinedList** kõnet, mis teisendatakse otse SQL-i avaldiseks.
 
-    ![Käitusaja tõrked JoinedList andmeallika nurjunud valideerimise tõttu mudeli vastendamise kujundaja lehel](./media/er-components-inspections-06c.png)
+    ![Käitusaja tõrked JoinedList andmeallika nurjunud valideerimise tõttu mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-06c.png)
 
 Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust ja valite suvandi **Käivita**, et käitada vormingut, mis on konfigureeritud kasutama mudeli vastendamist.
 
-![Vormingu kujundaja lehel redigeeritava vormingu käitamine](./media/er-components-inspections-06e.png)
+![Vormingu kujundaja lehel redigeeritava vormingu käitamine.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -474,7 +474,7 @@ Selle probleemi automaatseks lahendamiseks pole saadaval ühtegi valikut.
 
 Muutke andmeallika **Vendor.FilteredTrans** avaldis suvandilt `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` tagasi väärtusele `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, nagu hoiatus soovitas.
 
-![Andmeallika värskendatud avaldis mudeli vastenduse koostaja lehel](./media/er-components-inspections-06d.png)
+![Andmeallika värskendatud avaldis mudeli vastenduse koostaja lehel.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Suvand 2
 
@@ -497,11 +497,11 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 9. Pange uue andmeallika nimeks **FilteredVendor** ja konfigureerige see nii, et see sisaldaks avaldist `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
-    ![Kontrollige redigeeritava ER-i mudeli vastendamise komponendi kinnitamist Mudeli vastendamise kujundaja lehel](./media/er-components-inspections-07a.png)
+    ![Kontrollige redigeeritava ER-i mudeli vastendamise komponendi kinnitamist mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-07a.png)
 
 11. Pange tähele, et kinnitamise hoiatused soovitavad kasutada funktsiooni **WHERE** asemel funktsiooni **Filter** andmeallikates **FilteredVendor** ja **FilteredTrans**.
 
-    ![Kinnitamise hoiatused, mis soovitavad kasutada mudeli vastendamise kujunduse lehel funktsiooni, kus asemel filtri funktsiooni](./media/er-components-inspections-07b.png)
+    ![Kinnitamise hoiatused, mis soovitavad kasutada mudeli vastendamise kujunduse lehel funktsiooni, kus asemel filtri funktsiooni.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -509,7 +509,7 @@ Valige suvand **Parandus**, et automaatselt asendada funktsioon **WHERE** funkts
 
 Teise võimalusena saate valida ruudustikus üksiku rea hoiatuse ja valida seejärel suvandi **Paranda valitud**. Sel juhul muudetakse avaldis automaatselt ainult valitud hoiatuses mainitud andmeallikas.
 
-![Valige Paranda, et asendada mudeli vastendamise Where funktsioon kujunduse lehel funktsiooniga Filter](./media/er-components-inspections-07c.png)
+![Valige Paranda, et asendada mudeli vastendamise Where funktsioon kujunduse lehel funktsiooniga Filter.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Käsitsi lahendamine
 
@@ -530,11 +530,11 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 7. Pange uue andmeallika nimeks **FilteredVendorTrans** ja konfigureerige see nii, et see sisaldaks avaldist `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
-    ![Kontrollige redigeeritava ER-i mudeli vastendamise komponendi kinnitamist lehel mudeli vastendamise kujundaja](./media/er-components-inspections-08a.png)
+    ![Kontrollige redigeeritava ER-i mudeli vastendamise komponendi kinnitamist lehel mudeli vastendamise kujundaja.](./media/er-components-inspections-08a.png)
 
 9. Pange tähele, et kuvatakse valideerimise hoiatus. Sõnum soovitab kasutada funktsiooni **ALLITEMS** asemel funktsiooni **ALLITEMSQUERY** andmeallika **FilteredVendorTrans** jaoks.
 
-    ![Kinnitamise hoiatused, mis soovitavad kasutada mudeli vastendamise kujunduse lehel funktsiooni, kus asemel filtri funktsiooni](./media/er-components-inspections-08b.png)
+    ![Soovitus kasutada mudeli kaardistamise kujundaja lehel funktsiooni ALLITEMSQUERY asemel funktsiooni ALLITEMSQUERY.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -542,7 +542,7 @@ Valige suvand **Parandus**, et automaatselt asendada funktsioon **ALLITEMS** fun
 
 Teise võimalusena saate valida ruudustikus üksiku rea hoiatuse ja valida seejärel suvandi **Paranda valitud**. Sel juhul muudetakse avaldis automaatselt ainult valitud hoiatuses mainitud andmeallikas.
 
-![Valides paranda mudeli vastendamise kujundaja lehel](./media/er-components-inspections-08c.png)
+![Valides paranda mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Käsitsi lahendamine
 
@@ -563,7 +563,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
     - Lisage tüübi **String** pesastatud väli ja pange sellele nimeks **Name**.
     - Lisage tüübi **String** pesastatud väli ja pange sellele nimeks **AccountNumber**.
 
-    ![Pesastatud väljade lisamine andmemudeli lehele](./media/er-components-inspections-09a.png)
+    ![Pesastatud väljade lisamine andmemudeli lehele.](./media/er-components-inspections-09a.png)
 
 6. Mudeli vastendamise disainis paanil **Andmeallikas** lisage **Dynamics 365 for Operations andmeallikas \\ Tabeli andmed** tüüp.
 7. Pange uuele andmeallikale nimeks **Hankija**. Valige väljal **Tabel** suvand **VendTable**, et määratleda, et see andmeallikas taotleb tabelit VendTable.
@@ -577,7 +577,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
     - Siduge **FilteredVendor.AccountNum** atribuudiga **Vendor.AccountNumber**.
     - Siduge **FilteredVendor.'name()'** atribuudiga **Vendor.Name**.
 
-    ![Andmemudeli üksuste sidumine mudeli vastenduse koostaja lehel](./media/er-components-inspections-09b.png)
+    ![Andmemudeli üksuste sidumine mudeli vastenduse koostaja lehel.](./media/er-components-inspections-09b.png)
 
 13. Lisage vormingu struktuuri puul järgmised üksused, et luua väljuv dokument XML-vormingus, mis sisaldab hankija üksikasju.
 
@@ -595,15 +595,15 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
 15. Valige nupp **Kontrolli**, et kontrollida redigeeritava vormindamise komponenti lehel **Vormingu kujundaja**.
 
-    ![Vormingu elementide kinnitamine, mis on vormingu kujundaja lehel seotud andmeallikatega](./media/er-components-inspections-09c.png)
+    ![Vormingu elementide kinnitamine, mis on vormingu kujundaja lehel seotud andmeallikatega.](./media/er-components-inspections-09c.png)
 
 16. Pange tähele, et kuvatakse valideerimise tõrge. Sõnumis on kirjas, et konfigureeritud vormingu komponentidele **Avaldis\\Osapool\\Nimi** ja **Avaldis\\Osapool\\AccountNum** võidakse käitusajal kuvada tõrge, kui loend `model.Vendor` on tühi.
 
-    ![Kinnitamise tõrge, mis teavitab konfigureeritud vormingu komponentide võimalikust tõrkest](./media/er-components-inspections-09d.png)
+    ![Kinnitamise tõrge, mis teavitab konfigureeritud vormingu komponentide võimalikust tõrkest.](./media/er-components-inspections-09d.png)
 
 Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust, valite suvandi **Käivita**, et käitada vormingut, ja valite olematu hankija kontonumbri. Kuna taotletud hankijat pole, siis on loend `model.Vendor` tühi (st see ei sisalda kirjeid).
 
-![Käitusaja tõrked, mis ilmnesid vormingu vastendamise ajal](./media/er-components-inspections-09e.png)
+![Käitusaja tõrked, mis ilmnesid vormingu vastendamise ajal.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -615,7 +615,7 @@ Saate vahekaardil **Hoiatused** ruudustiku valitud real valida suvandi **Tühist
 
 Saate siduda vormingu elemendi **Avaldis\\Osapool\\Nimi** andmeallika üksusega `model.Vendor`. Käitusaja korral nõuab see sidumine esmalt andmeallikat `model.Vendor`. Kui `model.Vendor` tagastab tühja kirje loendi, pesastatud vormingu elemendid ei tööta. Seega selle vormingu konfiguratsiooni puhul kinnituse hoiatusi ei esine.
 
-![Siduge vormingu element vormingu kujundaja lehel üksuse andmeallikaga](./media/er-components-inspections-09e.gif)
+![Siduge vormingu element vormingu kujundaja lehel üksuse andmeallikaga.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Suvand 2
 
@@ -626,7 +626,7 @@ Muutke vormingu elemendi **Avaldis\\Osapool\\Nimi** sidumine valikult `model.Ven
 
 Seetõttu ei esine kinnitamise hoiatusi vormingu elemendis **Avaldis\\Osapool\\Nimi**, kui see on seotud avaldisega `FIRSTORNULL(model.Vendor).Name`.
 
-![Muudetud sidumine lahendab kinnitamise hoiatused lehel Vormingu kujundaja](./media/er-components-inspections-09f.gif)
+![Muudetud sidumine lahendab kinnitamise hoiatused lehel Vormingu kujundaja.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Suvand 3
 
@@ -653,17 +653,17 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 7. Pange uue andmeallika nimeks **FilteredVendor** ja konfigureerige see nii, et see sisaldaks avaldist `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Märkige konfigureeritud andmeallikas **Hankija** vahemällu talletatuks.
 
-    ![Mudeli vastendamise komponendi konfigureerimine Mudeli vastendamise kujundaja lehel](./media/er-components-inspections-10a.gif)
+    ![Mudeli vastendamise komponendi konfigureerimine Mudeli vastendamise kujundaja lehel.](./media/er-components-inspections-10a.gif)
 
 9. Valige nupp **Kontrolli**, et kontrollida redigeeritava mudeli vastendamise komponenti lehel **Mudeli vastendamise kujundaja**.
 
-    ![Mudeli vastendamise vahemällu salvestatud hankijale rakendatud filtri funktsiooni kinnitamine kujundaja lehel](./media/er-components-inspections-10a.png)
+    ![Mudeli vastendamise vahemällu salvestatud hankijale rakendatud filtri funktsiooni kinnitamine kujundaja lehel.](./media/er-components-inspections-10a.png)
 
 10. Pange tähele, et kuvatakse valideerimise tõrge. Teade ütleb, et funktsiooni **FILTER** ei saa rakendada vahemällu salvestatud andmeallikale **Hankija** rakendada.
 
 Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust ja valite suvandi **Käivita**, et käitada vormingut.
 
-![Käitusaja tõrge, mis ilmnes vormingu vastendamise käitamise ajal kujundaja lehel](./media/er-components-inspections-10b.png)
+![Käitusaja tõrge, mis ilmnes vormingu vastendamise käitamise ajal kujundaja lehel.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution&quot;></a>Automaatne lahendamine
 
@@ -694,7 +694,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
     - Lisage tüübi **String** pesastatud väli ja pange sellele nimeks **Name**.
     - Lisage tüübi **String** pesastatud väli ja pange sellele nimeks **AccountNumber**.
 
-    ![Hankija üksusele andmemudeli lehel pesastatud väljade lisamine](./media/er-components-inspections-11a.png)
+    ![Hankija üksusele andmemudeli lehel pesastatud väljade lisamine.](./media/er-components-inspections-11a.png)
 
 6. Mudeli vastendamise disainis paanil **Andmeallikas** lisage **Dynamics 365 for Operations andmeallikas \\ Tabeli andmed** tüüp.
 7. Pange uuele andmeallikale nimeks **Hankija**. Valige väljal **Tabel** suvand **VendTable**, et määratleda, et see andmeallikas taotleb tabelit VendTable.
@@ -710,7 +710,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
     > [!NOTE]
     > Andmemudeli väli **Vendor.Name** jääb sidumata.
 
-    ![Andmemudeli üksused, mis on seotud konfigureeritud andmeallikatega ja andmerežiimi üksusega, mis on mudeli vastendamise kujundaja lehel sidumata](./media/er-components-inspections-11b.png)
+    ![Andmemudeli üksused, mis on seotud konfigureeritud andmeallikatega ja andmerežiimi üksusega, mis on mudeli vastendamise kujundaja lehel sidumata.](./media/er-components-inspections-11b.png)
 
 13. Lisage vormingu struktuuri puul järgmised üksused, et luua väljuv dokument XML-vormingus, mis sisaldab hankija üksikasju, kelle kohta päringu esitasite.
 
@@ -729,15 +729,15 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 
 15. Valige nupp **Kontrolli**, et kontrollida redigeeritava vormindamise komponenti lehel **Vormingu kujundaja**.
 
-    ![ER-i vormingu komponendi kinnitamine kujundaja vormingu lehel](./media/er-components-inspections-11c.png)
+    ![ER-i vormingu komponendi kinnitamine kujundaja vormingu lehel.](./media/er-components-inspections-11c.png)
 
 16. Pange tähele, et kuvatakse valideerimise hoiatus. Sõnum ütleb, et andmeallika väli **model.Vendor.Name** ei ole mudeli vastendamisel seotud ühegi andmeallikaga, mis on konfigureeritud vormingu poolt kasutamiseks. Seega ei pruugi vormingu element **Avaldis\\Osapool\\Nimi** olla käitusajal täidetud ja esineda võib käitusaja erand.
 
-    ![ER-i vormingu komponendi kinnitamine vormingu kujundaja lehel](./media/er-components-inspections-11d.png)
+    ![ER-i vormingu komponendi kinnitamine vormingu kujundaja lehel.](./media/er-components-inspections-11d.png)
 
 Järgmisel illustratsioonil on toodud käitusaja tõrge, mis ilmneb, kui te eirate hoiatust ja valite suvandi **Käivita**, et käitada vormingut.
 
-![Vormingu kujundaja lehel redigeeritava vormingu käitamine](./media/er-components-inspections-11e.png)
+![Vormingu kujundaja lehel redigeeritava vormingu käitamine.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Automaatne lahendamine
 
@@ -766,7 +766,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 5. Valige elemendis **Excel\\Fail** töölehe fail A.
 6. Valige nupp **Kontrolli**, et kontrollida redigeeritava vormindamise komponenti lehel **Vormingu kujundaja**.
 
-    ![Töölehe faili redigeeritavas vormingus komponentide valideerimine vormingu kujundaja lehel](./media/er-components-inspections-12a.gif)
+    ![Töölehe faili redigeeritavas vormingus komponentide valideerimine vormingu kujundaja lehel.](./media/er-components-inspections-12a.gif)
 
 7. Pange tähele, et kuvatakse valideerimise hoiatus. Sõnum ütleb, et töölehe fail B.xlsx ei ole ühegi komponendiga lingitud ja see eemaldatakse pärast konfiguratsiooni versiooni oleku muutmist.
 
@@ -794,7 +794,7 @@ Järgmised etapid näitavad, kuidas see probleem võib ilmneda.
 4. Lisage järgmine **Exceli\\lahtri** elemendi **pealkiri** elemendi **Aruanne** pesastatud elemendina. Sisestage väljal **Exceli vahemik** suvand **ReportTitle**.
 5. Valige nupp **Kontrolli**, et kontrollida redigeeritava vormindamise komponenti lehel **Vormingu kujundaja**.
 
-    ![Pesastatud elementide ja väljade kinitamine vormingu kujundaja lehel](./media/er-components-inspections-13a.png)
+    ![Pesastatud elementide ja väljade kinitamine vormingu kujundaja lehel.](./media/er-components-inspections-13a.png)
 
 6. Pange tähele, et kuvatakse valideerimise hoiatus. Sõnum ütleb, et nime **ReportTitle** ei ole teie asutataval Exceli mallil lehel **Leht1** olemas.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e066deedcdb02237d6f492047e19100255dab84e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bd33158514de149ecc7da5823c799dd567aeee13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795545"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357830"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Piltide seadistamine ja haldamine Modern POS-i (MPOS) jaoks
 
@@ -46,11 +46,11 @@ Järgmistes protseduurides seadistatakse näitena pildid kataloogiüksuse jaoks.
 1. Avage Commerce HQ portaal.
 2. Klõpsake suvandeid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kanali profiilid**.
 
-    [![Navigeerimine](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Navigeerimine.](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. Värskendage kanali profiilis, mida teie kauplus MPOS-ide jaoks kasutab, välja **Meedia baas-URL** oma meediaserveri või CDN-i baas-URL-iga. Baas-URL on URL-i esimene osa, mida ühiskasutavad kõik erinevate üksuste pildikaustad.
 
-    [![Kanali profiilide leht](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Kanali profiilide leht.](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Üksusele meediamalli määratlemine
 
@@ -68,7 +68,7 @@ Järgmistes protseduurides seadistatakse näitena pildid kataloogiüksuse jaoks.
 8. Käitage sünkroonimistöid, et lükata uus mall kanali andmebaasi, nii et MPOS saab kasutada malli piltidele juurdepääsuks.
 9. Kataloogi piltide meediamalli värskendamiseks kanali poolel käivitage kindlasti funktsioon **Kataloogi töö 1150** asukohas **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**.
 
-    [![Meediamalli määratlemise dialoogiboks](./media/catalog1.png)](./media/catalog1.png)
+    [![Meediamalli määratlemise dialoogiboks.](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Pildi eelvaatamine üksuse tasemelt
 
@@ -77,7 +77,7 @@ Järgmistes protseduurides seadistatakse näitena pildid kataloogiüksuse jaoks.
 3. Kasutage nuppe **Lisa** ja **Eemalda**, et muuta käsitsi teed, mis põhineb varjatud mallil ja mida kasutatakse kindla pildi jaoks. Lisateabe saamiseks vaadake käesoleva artikli jaotist [Meediumi malli üksuse kaupade ülekirjutamine](#overwriting-the-media-template-for-entity-items).
 4. Pärast pildi eelvaatuse lõpetamist ja nõutavate muudatuste tegemist käivitage sobiva kaupluse MPOS-i eksemplar ja vaadake, kas kataloogi pildid kuvatakse.
 
-    [![Piltide dialoogiboks](./media/catalog4.png)](./media/catalog4.png)
+    [![Piltide dialoogiboks.](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Saate kasutada sama protseduuri kõigi viie üksuse puhul, mida toetatakse: Töötaja, Klient, Kataloog, Kategooria ja Tooted. Kataloogi tooted (kataloogi tasemel määratud tooted) ja Kanali tooted (kanali tasemel määratud tooted) kasutavad meediamalli, mis on määratud üksusele Tooted. Meediamalli Tooted puhul saate valida toote kohta kuvatavate toote piltide arvu. Samuti saate määrata antud tootele vaikepildi. Sel moel saate vätida MPOS-is tühje pilte ja aitate juhtida, milliseid pilte kasutatakse toote puhul vaikepildina. Järgmises näites on igal tootel viis pilti ja esimene pilt on määratud vaikepildiks. Tootevariante koheldakse põhitoodetega samamoodi. Pildifaili failinimi peab põhinema tootekoodil. Mõned tähemärgid varjestatakse failinime loomisel. Seetõttu tasub failinimi kinnitada, kasutades jaotist **Pildi URL-ide loomine Exceli jaoks**. Vt selle artikli jaotist [Ülekirjutamine funktsiooniga Excelis redigeerimine](#overwrite-by-using-edit-in-excel).
@@ -117,17 +117,17 @@ Nagu te eelmises jaotises teada saite, toetab antud üksuse meediamall ainult ü
 6. Pärast Microsoft Exceli töölehe avamist klõpsake viiba avanemisel suvandit **Luba redigeerimine**.
 7. Kui küsitakse, klõpsake parempoolsel paanil suvandit **Usalda seda lisandmoodulit** ja oodake, et lisandmoodul installimise lõpetaks.
 
-    [![Usalda seda lisandmoodulit](./media/excel4.jpg)](./media/excel4.jpg)
+    [![Usalda seda lisandmoodulit.](./media/excel4.jpg)](./media/excel4.jpg)
 
 8. Kui teil palutakse sisse logida, sisestage mandaadid, mida kasutasite HQ-sse sisselogimiseks.
 
-    [![Sisselogimise viip](./media/excel5.png)](./media/excel5.png)
+    [![Sisselogimise viip.](./media/excel5.png)](./media/excel5.png)
 
 9. Pärast sisselogimist peaksite nägema erinevate kataloogiüksuste pildi-URL-ide loendit.
 10. Redigeerite, lisate ja eemaldate erinevate üksuste kaupade pildi-URL-e.
 11. Kõikide üksuste puhul (v.a Tooted) saate pildi-URL-id üle kirjutada. Muutke olemasolevat pildi-URL-i nii, et see kasutab pildi uut sihtkoha URL-i, ja värskendage pildifaili failinime. Faili nimi peab olema kordumatu, mis tagab, et kirje on kordumatu.
 
-    [![Pildi-URL-ide ülekirjutamine Excelis](./media/excel6.jpg)](./media/excel6.jpg)
+    [![Pildi-URL-ide ülekirjutamine Excelis.](./media/excel6.jpg)](./media/excel6.jpg)
 
     > [!NOTE]
     > Kui kirjutate üle üksuste Tooted pildi-URL-id, kasutades funktsiooni Excelis redigeerimine või tehes seda üksuse kauba lehel, näitab MPOS alati kõiki meediamalli pildi-URL-e koos ülekirjutatud pildi-URL-idega.
@@ -153,11 +153,11 @@ Kõikide üsksute puhul, v.a Tooted, saate pildi-URL-i antud üksuse kauba jaoks
 3. Kui soovite, et see pilt kuvataks kataloogi MPOS-is, määrake see vaikepildiks.
 4. Klõpsake nupul **OK**. Pildi-URL-i värskendatakse selle kataloogi pildi jaoks ja kuvatakse eelvaade.
 
-    [![URL on värskendatud dialoogiboksis Uus pilt](./media/preview3.png)](./media/preview3.png)
+    [![URL on värskendatud dialoogiboksis Uus pilt.](./media/preview3.png)](./media/preview3.png)
 
 5. Näete kõkide ülekirjutatud pildi-URL-ide pildi eelvaadet ka galerii lehel **Kataloogi pildid**.
 
-    [![Kataloogi piltide galerii leht](./media/preview-4.png)](./media/preview-4.png)
+    [![Kataloogi piltide galerii leht.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Praegu ei kuva galerii meediamalli pildi-URL-ide pildi eelvaateid. Üksuste Kataloog, Töötaja, Klient ja Kategooria puhul, kui kasutaja lisab selgesõnaliselt URL-i selle lehe kaudu, soovitame teil viidata, milline on vaikepilt, sest Commerce’i skaala üksuse kliendid kuvavad ainult ühe pildi üksuse Kataloog, Klient, Töötaja ja Kategooria kohta. Kui kasutaja ei määra vaikepilti, määrab süsteem vaikepildi ja saadab selle Commerce’i teenuse kutsujale (MPOS või Ecommerce).
@@ -172,7 +172,7 @@ Kataloogitoote piltide pildi-URL-ide ülekirjutamiseks peate kasutama lehte **Ee
 4. Klõpsake suvandit **Lisa** ja kirjutage pildi-URL uue URL-iga üle.
 5. Klõpsake nupul **OK**. Näete nüüd uue pildi eelvaadet ja saate määrata selle vaikepildiks.
 
-    [![Pildi eelvaade dialoogiboksis Uus pilt](./media/cat3.png)](./media/cat3.png)
+    [![Pildi eelvaade dialoogiboksis Uus pilt.](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Pärast kategooria pildi seost peate avaldama kanali ja käitama kanali töö tagamaks, et muudatused avaldatakse kanali andmebaasis.
@@ -193,7 +193,7 @@ Tootepilte, mida peab kasutama võrguühenduseta režiimis, saab seadistada, laa
 6. Kui MPOS on võrgurežiimis, käitage HQ-s funktsiooni Kataloogitöö tagamaks, et andmed saadetakse vähemalt ühe korra võrguühenduseta andmebaasi.
 7. Pange MPOS võrguühenduseta režiimi. Peaksite nägema pilti, mille HQ-s kindlale tootele üles laadisite.
 
-    [![Toote pilt ühenduseta režiimis](./media/offline1.png)](./media/offline1.png)
+    [![Toote pilt ühenduseta režiimis.](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Kataloogi, kategooria, töötaja ja kliendi piltide seadistamine MPOS-i võrguühenduseta režiimis kuvamiseks
 
@@ -205,7 +205,7 @@ Kataloogi, kategooria, töötaja ja kliendi pildid, mida on vaja kasutada võrgu
 4. Käitage kataloogitööd. Seda pilti kasutatakse nüüd MPOS-is kataloogi võrguühenduseta pildina.
 5. Järgige muude üksuste (nt Kategooria, Töötaja ja Klient) puhul sama protsessi.
 
-    [![Ühenduseta pilt](./media/offline2.png)](./media/offline2.png)
+    [![Ühenduseta pilt.](./media/offline2.png)](./media/offline2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

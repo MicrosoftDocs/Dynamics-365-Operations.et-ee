@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b91b398c4ef864a92a5318b7e80f71a5a572844e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361182"
 ---
 # <a name="create-maintenance-budgets"></a>Hoolduseelarvete loomine
 
@@ -50,7 +50,7 @@ Hoolduseelarved põhinevad kulutüüpidel, mida kasutatakse varahalduses: **Enne
     > [!NOTE]
     > Pärast hoolduseelarve kinnitamist ei saa te enam uuesti arvutada ega kohandada seotud ridu lehel **Hoolduseelarveread**, ilma kinnitust eemaldamata. Hoolduseelarve kinnituse eemaldamiseks valige see lehel **Hoolduseelarved** ja seejärel valige **Kinnita**. Seejärel valige **OK** dialoogiboksis **Kinnita eelarve**.
 
-![Hoolduseelarved](media/01-maintenance-budgets.png)
+![Hoolduse eelarved.](media/01-maintenance-budgets.png)
 
 Samuti saate luua uue hoolduseelarve olemasoleva eelarve kopeerimisega. Lehel **Hoolduseelarved** ja valige eelarve, mida soovite kopeerida, ja seejärel valige **Kopeeri**. See lähenemine on kasulik, kui olete näiteks loonud eelarve ühe kuu kohta ja soovite seda kopeerida teistesse kuudesse.
 

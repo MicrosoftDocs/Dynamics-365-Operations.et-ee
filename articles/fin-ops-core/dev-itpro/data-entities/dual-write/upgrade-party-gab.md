@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112669"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346542"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Üleminek osapoole ja globaalse aadressiraamatu mudelile
 
@@ -89,7 +89,7 @@ Täienduse ettevalmistamiseks on tarvis järgmisi tegevusi:
 
 10. Pärast juurutamist valideerige andmevabriku andmekogumid, andmevoog ja lingitud teenus.
 
-   ![Andmekogumid, andmevoog ja lingitud teenus](media/data-factory-validate.png)
+   ![Andmekogumid, andmevoog ja lingitud teenus.](media/data-factory-validate.png)
 
 11. Liikuge jaotisse **Haldamine**. Valige jaotises **Ühendused** väärtus **Lingitud teenus**. Valige **DynamicsCrmLinkedService**. Sisestage vormil **Lingitud teenuse redigeerimine (Dynamics CRM)** järgmised väärtused.
 
@@ -154,7 +154,7 @@ Täienduse ettevalmistamiseks on tarvis järgmisi tegevusi:
 
 7. Käivitage mall andmevabrikus, valides käsu **Käivita kohe**, nagu on näidatud järgmisel pildil. Selle protsessi lõpuleviimiseks võib andmemahu põhjal kuluda mõni tund.
 
-    ![Päästiku käivitamine](media/data-factory-trigger.png)
+    ![Päästiku käivitamine.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Kui teil on kohandusi kirjetes **Konto**, **Kontakt** ja **Hankija**, peate malli muutma.
@@ -164,7 +164,7 @@ Täienduse ettevalmistamiseks on tarvis järgmisi tegevusi:
     + Laadige `FONewParty.csv` fail alla Azure'i bloobimälust. Vorming on `partybootstrapping/output/FONewParty.csv`.
     + Teisendage `FONewParty.csv` fail Exceli failiks ja importige Exceli fail finance and operations rakendusse. Kui cvs import teie jaoks töötab, saate importida csv faili otse. Sõltuvalt andmemahust võib importimiseks kuluda mõni tund. Lisateavet vt [Andmete importimis- ja eksportimistööde ülevaade](../data-import-export-job.md).
 
-    ![Dataversi osapoole kirjete importimine](media/data-factory-import-party.png)
+    ![Dataversi osapoole kirjete importimine.](media/data-factory-import-party.png)
 
 9. Lubage customer engagement rakenduses järgmised plugina juhised:
 
@@ -199,7 +199,7 @@ Täienduse ettevalmistamiseks on tarvis järgmisi tegevusi:
 3. Andmevabrik töötab komaeraldusega CSV-failide põhjal. Kui on välja väärtus, millel on koma, võib see tulemusi häirida. Te peate komad eemaldama.
 4. Vahekaart **Jälgimine** sisaldab teavet kõigi töödeldavate toimingute ja andmete kohta. Valige selle silumiseks kindel juhis.
 
-    ![Vahekaart Jälgimine](media/data-factory-monitor.png)
+    ![Jälgimise vahekaart.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Lisateave malli kohta
 

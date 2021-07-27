@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017002"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358094"
 ---
 # <a name="inventory-visibility-add-in"></a>Varude nähtavuse lisandmoodul
 
@@ -143,7 +143,7 @@ Kui olete eeltingimused seadistanud, kasutage järgmist protseduuri, kui eelista
 
             Lisateavet selle muutuja kohta vaadake [Seadistage Varude nähtavuse integreerimine](#setup-inventory-visibility-integration) osas selles teemas edaspidi.
 
-        ![Konfiguratsiooni päästik](media/configuration-trigger.png "Konfiguratsiooni päästik")
+        ![Konfiguratsiooni päästik.](media/configuration-trigger.png "Konfiguratsiooni päästik")
 
     1. Valige **lülita sisse**.
 
@@ -157,7 +157,7 @@ Varude nähtavuse lisandmooduli installimiseks tehke järgmist.
 1. Keskkonna leheküljel kerige alla, kuni näete **Keskkonna lisandmoodulid** jaotist **Power Platform integratsiooni** jaotises, kust leiate Dataverse keskkonna nime.
 1. Valige jaotises **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
 
-    ![LCS-i keskkonna leht](media/inventory-visibility-environment.png "LCS-i keskkonna leht")
+    ![LCS-i keskkonna leht.](media/inventory-visibility-environment.png "LCS-i keskkonna leht")
 
 1. Valige link **Installi uus lisandmoodul**. Avaneb saadaolevate lisandmoodulite loend.
 1. Valige suvand **Varude nähtavus** menüüde loendist.
@@ -166,7 +166,7 @@ Varude nähtavuse lisandmooduli installimiseks tehke järgmist.
     - **AAD rakenduse (klient) ID**
     - **AAD Rentniku ID**
 
-    ![Lisandmooduli häälestamise leht](media/inventory-visibility-setup.png "Lisandmooduli häälestamise leht")
+    ![Lisandmooduli häälestamise leht.](media/inventory-visibility-setup.png "Lisandmooduli häälestamise leht")
 
 1. Nõustuge tingimuste, märkides ruudu **Tingimused**.
 1. Valige **Installi**. Kuvatakse lisandmooduli olek **Installimine**. Kui see on tehtud, värskendage lehte, et näha muutunud olekut **Installitud**.

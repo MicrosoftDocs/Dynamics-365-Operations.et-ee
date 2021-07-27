@@ -2,7 +2,7 @@
 title: Ostukorvi ikooni moodul
 description: See teema hõlmab ostukorvi ikooni moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,31 +14,43 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5ff514f07e8b31abe79775e5011bd3f1b24b2935
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e0238e9d464fc1d44cbc5091638ac7270d5b6ae3
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793077"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479300"
 ---
 # <a name="cart-icon-module"></a>Ostukorvi ikooni moodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab ostukorvi ikooni moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 Ostukorvi ikooni moodul tähistab ostukorvi lehe päisemoodulis ja kuvab ostukorvis olevate kaupade arvu. Ostukorvi ikooni moodul kuvab ka ostukorvi kokkuvõtte (tuntud ka kui väike ostukorv), kui hiirt hõljutatakse üle ostukorvi. Väike ostukorv esitab kasutajale kokkuvõtte ostukorvis olevatest kaupadest, ilma et peaksite liikuma ostukorvi lehele. Lisaks võimaldab see kasutajal ka otse kassa lehele minna, kui nad on kokkuvõttega rahul. See vähendab lehekülgede vahel liikumiste arvu ja teeb väljaregistreerimise kiiremaks. 
 
-> [!NOTE]
-> Ostukorvi ikooni mooduli tugi on saadaval väljalaskes Dynamics 365 Commerce 10.0.11.
-
 Järgmisel pildil on kuvatud näide ostukorvi ikooni moodulist, kus on kuvatud Fabrikami päises miniostukorv.
 
-![Ostukorvi ikooni mooduli näide](./media/ecommerce-Minicart.PNG)
+![Ostukorvi ikooni mooduli näide.](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 
 - **Kuva väike ostukorv** – kui on tõene, võimaldab see atribuut kuvada ostukorvi kokkuvõtte (väikese ostukorvi) hiire hõljutamisel ostukorvi ikooni kohal. Seda funktsiooni toetatakse ainult töölaua vaateportide korral.
+
+## <a name="module-properties-in-the-adventure-works-theme"></a>Mooduli atribuudid Adventure Works teemas
+
+Adventure Works teema kujunduses sisaldab ostukorvi ikoonimoodul kaht täiendavat pesa minikorvi jaoks. Need pesad lisatakse mooduli definitsiooni laiendina.
+
+- **Tühjad ostukorvi kampaaniad** – see pesa võtab sisubloki mooduli. Kui ostukorv on tühi, kuvatakse määratud sisubloki moodul. Sisublokaadi moodulit saab kasutada kampaaniate, turunduse sisu ja kategooria lehtede linkide jaoks, et aidata klientidel ostuteed jätkata.
+- **Kampaaniasisu** – seda pesa saab kasutada kampaaniate näitamiseks, nt "Tasuta saatmine suurema tellimuse puhul kui $100." Kampaaniasisu pesas saab kasutada sisublokki, tekstiblokki ja pildiloendi mooduleid.
+
+Järgmine pilt näitab ostukorvi ikoonimooduli näidet Adventure Worksi kujunduses, mis kuvab soodussisu minikorvis.
+
+![Ostukorvi ikoonimooduli näide Adventure Worksi kujunduses](./media/AW_minicart.PNG)
+
+> [!IMPORTANT]
+> Adventure Works teema pesad on saadaval alates Dynamics 365 Commerce väljalaske versioonist 10.0.20.
 
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Lehele ostukorvi ikooni mooduli lisamine
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754084"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361383"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -33,7 +33,7 @@ Enamiku ettevõtete oluline eesmärk on muuta potentsiaalsed kliendid klientidek
 
 Rakendusliidestes pääsete juurde reaalaja töötlemisolekutele ja arveteabele. Seetõttu saate hõlpsalt hallata selliseid funktsioone nagu toote ladustamine, laoseisu käitlemine ja täitmine Supply Chain Managementis, ilma et peaksite pakkumised ja tellimused uuesti looma.
 
-![Kaksikkirjutamise andmevoog järjestuses potentsiaalne klient-raha](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Kaksikkirjutamise andmevoog järjestuses potentsiaalne klient-raha.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Lisateavet kliendi ja kontaktide integreerimise kohta vt [Integreeritud kliendi koondandmed](customer-mapping.md). Lisateavet toote integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md).
 
@@ -48,7 +48,7 @@ Enne müügipakkumiste sünkroonimist peate uuendama järgmised sätted.
 
 Müükides avage jaotis **Sätted \> Administreerimine \> Süsteemisätted \> Müügid** ja veenduge, et kasutusel on järgmised sätted.
 
-- Süsteemisuvand **Kasuta süsteemi hinnaarvutust** on seatud väärtusele **Jah**.
+- Suvand **Kasuta süsteemi hinna arvutamise süsteemi** on seatud väärtusele **Jah**.
 - Veerg **Allahindluse arvutamise meetod** on seatud väärtusele **Rea kaup**.
 
 ### <a name="sites-and-warehouses"></a>Saidid ja laod

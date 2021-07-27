@@ -2,7 +2,7 @@
 title: Küpsise vastavus
 description: Selles teemas kirjeldatakse küpsise vastavuse ja Microsoft Dynamics 365 Commerce'is sisalduva vaikepoliitika kaalutlusi.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088383"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333065"
 ---
 # <a name="cookie-compliance"></a>Küpsise vastavus
 
@@ -33,26 +33,27 @@ Lisateavet Microsoft kasutavate üldpõhimõtete kohta leiate [Microsofti usaldu
 
 Järgmises tabelis on toodud Dynamics 365 Commerce'i saitide asetatud küpsiste kehtiv viiteloend.
 
-| Küpsise nimi                               | Kasutus                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Talletage Microsoft Azure Active Directory (Azure AD) autentimisküpsised ühekordse sisselogimise (SSO) jaoks. Talletab kasutaja kohta krüptitud põhiteavet (nimi, perekonnanimi, e-post). |
-| &#95;msdyn365___cart&#95;                           | Talletab ostukorvi ID, mida kasutatakse ostukorvi eksemplari lisatud toodete loendi hankimiseks. |
-| &#95;msdyn365___ucc&#95;                            | Küpsise vastavuse nõusoleku jälgimine.                          |
-| ai_session                                  | Tuvastab, mitu kasutajategevuse seanssi on hõlmanud konkreetseid rakenduse lehti ja funktsioone. |
-| ai_user                                     | Tuvastab, mitu inimest kasutas rakendust ja selle funktsioone. Kasutajaid loendatakse anonüümsete ID-de abil. |
-| b2cru                                       | Talletab ümbersuunamise URL-i dünaamiliselt.                              |
-| JSESSIONID                                  | Maksekonnektor Adyen kasutab seda kasutaja seansi talletamiseks.       |
-| OpenIdConnect.nonce.&#42;                       | Autentimine                                               |
-| x-ms-cpim-cache:.&#42;                          | Kasutatakse päringu oleku säilitamiseks.                      |
-| x-ms-cpim-csrf                              | Päringuvõltsingu (CRSF) talong, mida kasutatakse päringuvõltsingu eest kaitsmiseks.     |
-| x-ms-cpim-dc                                | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. |
-| x-ms-cpim-rc.&#42;                              | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. |
-| x-ms-cpim-slice                             | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Kasutatakse SSO seansi haldamiseks.                        |
-| x-ms-cpim-trans                             | Kasutatakse toimingute, sealhulgas praeguse toimingu, jälgimiseks (avatud vahekaartide arv, mis autendivad ettevõtte ja tarbija vahelist (B2C) saiti). |
-| \_msdyn365___muid_                            | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse katse eesmärgil userId-na. |
-| \_msdyn365___exp_                             | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse jõudluse koormuse tasakaalustamise mõõtmiseks.         |
-| d365mkt                                       | Kasutatakse juhul, kui asukohapõhine tuvastamine kasutaja IP-aadressi jälgimiseks poe asukohasoovituste jaoks on Commerce saidi koostajas lubatud aadressil **Saidisätted > Üldine > Luba asukohapõhine poetuvastus**.      |
+| Küpsise nimi                               | Kasutus                                                        | Eluiga |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Talletage Microsoft Azure Active Directory (Azure AD) autentimisküpsised ühekordse sisselogimise (SSO) jaoks. Talletab kasutaja kohta krüptitud põhiteavet (nimi, perekonnanimi, e-post). | Seanss |
+| \_msdyn365___cart_                           | Talletab ostukorvi ID, mida kasutatakse ostukorvi eksemplari lisatud toodete loendi hankimiseks. | Seanss |
+| \_msdyn365___checkout_cart_                           | Talletab ostukorvi ID, mida kasutatakse ostukorvi eksemplari lisatud toodete loendi hankimiseks. | Seanss |
+| \_msdyn365___ucc_                            | Küpsise vastavuse nõusoleku jälgimine.                          | 1 aasta |
+| ai_session                                  | Tuvastab, mitu kasutajategevuse seanssi on hõlmanud konkreetseid rakenduse lehti ja funktsioone. | 30 minutit |
+| ai_user                                     | Tuvastab, mitu inimest kasutas rakendust ja selle funktsioone. Kasutajaid loendatakse anonüümsete ID-de abil. | 1 aasta |
+| b2cru                                       | Talletab ümbersuunamise URL-i dünaamiliselt.                              | Seanss |
+| JSESSIONID                                  | Maksekonnektor Adyen kasutab seda kasutaja seansi talletamiseks.       | Seanss |
+| OpenIdConnect.nonce.&#42;                       | Autentimine                                               | 11 minutit |
+| x-ms-cpim-cache:.&#42;                          | Kasutatakse päringu oleku säilitamiseks.                      | Seanss |
+| x-ms-cpim-csrf                              | Päringuvõltsingu (CRSF) talong, mida kasutatakse päringuvõltsingu eest kaitsmiseks.     | Seanss |
+| x-ms-cpim-dc                                | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. | Seanss |
+| x-ms-cpim-rc.&#42;                              | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. | Seanss |
+| x-ms-cpim-slice                             | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. | Seanss |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Kasutatakse SSO seansi haldamiseks.                        | Seanss |
+| x-ms-cpim-trans                             | Kasutatakse toimingute, sealhulgas praeguse toimingu, jälgimiseks (avatud vahekaartide arv, mis autendivad ettevõtte ja tarbija vahelist (B2C) saiti). | Seanss |
+| \_msdyn365___muid_                            | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse katse eesmärgil kassutaja Id-na. | 1 aasta |
+| \_msdyn365___exp_                             | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse jõudluse koormuse tasakaalustamise mõõtmiseks.         | 1 tund |
+| d365mkt                                       | Kasutatakse juhul, kui asukohapõhine tuvastamine kasutaja IP-aadressi jälgimiseks poe asukohasoovituste jaoks on Commerce saidi koostajas lubatud aadressil **Saidisätted \> Üldine \> Luba asukohapõhine poetuvastus**.      | 1 tund |
 
 Kui saidi kasutaja valib saidil sotsiaalmeedia lingid, jälgitakse järgmises tabelis olevaid küpsiseid ka nende brauseris.
 

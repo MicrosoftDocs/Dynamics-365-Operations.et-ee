@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: e9f9da7d6e3ede9816757fb57f0b802ce4d41360
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 29029cfa032f36c4dc0590ff76f44417dc056ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348801"
 ---
 # <a name="outbound-process-overview"></a>Väljamineva protsessi ülevaade
 
@@ -37,7 +39,7 @@ Komplekteerimislehtede loomisel müügitellimustest või üleviimistellimustest 
 
 Järgmisel joonisel on antud ülevaade väljaminekuorderite protsessist. 
 
-[![Ülevaade väljaminekuorderi protsessist](./media/outbound-order.png)](./media/outbound-order.png)
+[![Ülevaade väljaminekuorderi protsessist.](./media/outbound-order.png)](./media/outbound-order.png)
 
 Saate seadistada lähetusreeglid, et määratleda, kuidas programm peaks lähetusprotsessi käsitsema. Seejärel saab nende reeglite abil lähetusprotsessi juhtida. Konkreetsemalt võite kasutada neid reegleid juhtimiseks, millise protsessietapi jooksul saadetis tuleks välja saata. Järgmised sätted määratlevad, kuidas väljaminevaid protsesse käsitsetakse.
 
@@ -45,31 +47,31 @@ Saate seadistada lähetusreeglid, et määratleda, kuidas programm peaks lähetu
 
 Avage **Ostureskontro** \> **Seadistus** \> **Ostureskontro parameetrid** ja valige siis vahekaardi **Värskendused** väljalt **Komplekteerimisprotsessi olek** väärtus.
 
-[![Müügitellimuste komplekteerimisprotsessi oleku väli](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
+[![Müügitellimuste komplekteerimisprotsessi oleku väli.](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
 
 Kui välja **Komplekteerimisprotsessi olek** väärtuseks on määratud **Lõpule viidud**, toimub komplekteerimisprotsess komplekteerimislehtede koostamise protsessi raames automaatselt. Kui välja väärtuseks on määratud **Aktiveeritud**, tuleb komplekteerimislehe read käsitsi värskendada.
 
 Sama puudutab üleviimistellimusi. Avage **Varude haldus** \> **Seadistus** \> **Varude ja laohalduse parameetrid** ja valige siis vahekaardi **Transport** väljalt **Komplekteerimisprotsessi olek** väärtus.
 
-[![Üleviimistellimuste komplekteerimisprotsessi oleku väli](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
+[![Üleviimistellimuste komplekteerimisprotsessi oleku väli.](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
 
 ## <a name="end-output-inventory-orders"></a>Väljamineku laoorderite lõpetamine
 
 Avage **Varude haldus** \> **Seadistus** \> **Varude ja laohalduse parameetrid** ja määrake siis vahekaardil **Üldine** valik **Lõpeta väljamineku laoorder**.
 
-[![Valik Lõpeta väljamineku laoorder](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
+[![Valik Lõpeta väljamineku laoorder.](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
 Kui laotöötaja vähendab komplekteerimislehe koguseid, eemaldatakse vastavad laoorderi kogused saadetisest. Kui komplekteerimislehte uuendatakse teatud ajahetkel, registreeritakse ülejäänud kogused uuesti tellimuse tasandil, kui suvand **Lõpeta väljamineku laoorder** on seatud väärtusele **Jah**. Kui suvand **Lõpeta väljamineku laoorder** on seatud väärtusele **Ei**, hoitakse ülejäänud koguseid avatud väljaminekuorderi kogusena ja need tuleb uuele komplekteerimislehele lisada funktsiooni **Ava väljaminekuorderid** osana. 
 
-[![Käsk Ava väljaminekuorderid menüüs Funktsioonid](./media/open-output-order.png)](./media/open-output-order.png)
+[![Käsk Ava väljaminekuorderid menüüs Funktsioonid.](./media/open-output-order.png)](./media/open-output-order.png)
 
-[![Lehe Ava väljaminekuorderid menüü Funktsioonid](./media/open-output-order-function.png)](./media/open-output-order-function.png)
+[![Lehe Ava väljaminekuorderid menüü Funktsioonid.](./media/open-output-order-function.png)](./media/open-output-order-function.png)
 
 ## <a name="reduce-quantity"></a>Vähenda kogust
 
 Kolmas parameeter, mida saate komplekteerimislehe koostamise raames kasutada, on parameeter **Vähenda kogust**. Selle parameetri seadistus toimib koos sättega **Reserveerimine**, mis käivitab lattu väljastamise raames reserveerimisprotsessi.
 
-[![Parameeter Vähenda kogust](./media/reduce-quantity.png)](./media/reduce-quantity.png)
+[![Parameeter Vähenda kogust.](./media/reduce-quantity.png)](./media/reduce-quantity.png)
 
 ## <a name="example-of-an-outbound-process-for-a-sales-order"></a>Müügitellimuse väljamineva protsessi näide
 
@@ -77,11 +79,11 @@ Selle näite puhul on olemas müügitellimus kahele kaubale. Komplekteerimislehe
 
 Veel reserveerimata kaubavaru reserveeritakse komplekteerimislehe koostamise käigus. Kaubavaru, mis pole saadaval, võib müügitellimusest eemaldada või väljastada lattu väljamineku töötlemiseks hiljem, kui varud on komplekteerimiseks saadaval.
 
-[![Komplekteerimislehe värskendamine](./media/update-picking-list.png)](./media/update-picking-list.png)
+[![Komplekteerimislehe värskendamine.](./media/update-picking-list.png)](./media/update-picking-list.png)
 
 Kohe, kui kõik komplekteerimisread on lehel **Komplekteerimislehe registreerimine** komplekteeritud, lõpetatakse seotud saadetis. Müügitellimuse saatelehtede protsessi saab siis komplekteeritud varude põhjal lähtestada.
 
-[![Väljuvate saadetiste värskendamine](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+[![Väljuvate saadetiste värskendamine.](./media/outbound-shipments.png)](./media/outbound-shipments.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

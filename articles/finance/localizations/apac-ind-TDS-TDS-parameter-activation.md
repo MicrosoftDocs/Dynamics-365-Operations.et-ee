@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: dda276b7d634317aae26728f7d9f51af9ccfb896
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b74a1ab6d0f17367fc16f795e1b28ff5d0c5508e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023176"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358238"
 ---
 # <a name="set-the-tds-parameters"></a>TDS-i parameetrite määramine
 
@@ -34,13 +34,13 @@ See teema kirjeldab, kuidas seadistada parameetreid määratud kannetes allika (
 3. Seadke **Arve** valikule **Jah** et aktiveerida väljad, mida kasutatakse TDS-i arvutamiseks ja mahaarvamiseks arve tasemel.
 4. Seadke **Makse** valikule **Jah** et aktiveerida väljad, mida kasutatakse TDS-i arvutamiseks ja mahaarvamiseks arve tasemel.
 
-    [![Otsesed maksud vahekaart](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
+    [![Otsesed maksud vahekaart.](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
 
 5. Leidke **Numbriseeriate** vahekaardil rida, kus **Viitenumbri** väärtuseks on seatud **Kinnipeetava maksu makse**. Sisestage **Numbriseeria kood** väljale rea jaoks numbriseeria kood väljale . Numbriseeria koodi kasutatakse TDS-i perioodilise tasakaalustusprotsessi jaoks kandenumbrite loomiseks.
 
     > [!NOTE]
     > Perioodilise TDS-i tasakaalustusprotsessi käivitamiseks minge **Maks \> Deklaratsioon \> kinnipeetava maksu \> Kinnipeetava maksu makse**.
 
-    [![Vahekaart Numbriseeriad](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
+    [![Vahekaart Numbriseeriad.](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
 
 6. Sulgege leht.

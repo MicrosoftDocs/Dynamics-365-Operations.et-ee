@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808283"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360097"
 ---
 # <a name="asset-lifecycle-states"></a>Toote elutsükli olekud
 
@@ -61,9 +61,9 @@ Pärast nõutavate vara elutsükli mudelite loomist saate seadistada elutsükli 
 
 5. Kiirkaardil **Elutsükli olekud**, valige need vara elutsükli olekud, mis peaksid olema kaasatud vara elutsükli mudelis.
 
-    - Mudeli elutsükli oleku kasutamiseks valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige nupp ![paremnool,](media/15-setup-for-objects.png) et teisaldada see jaotisesse **Valitud elutsükli olekud**.
-    - Et kasutada kõiki mudeli saadaolevaid elutsükli olekuid, valige nupp **Kõik saadaolevad elutsükli olekud** ![Kõik saadaolevad elutsükli olekud](media/20-setup-for-objects.png). Kõik elutsükli olekud viiakse üle jaotisesse **Valitud elutsükli olekud**.
-    - Elutsükli oleku eemaldamiseks mudelist, valige see jaotises **Valitud elutsükli mudelid** ja seejärel valige nupp ![vasaknool,](media/16-setup-for-objects.png) et teisaldada see jaotisesse **Järelejäänud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks lifecycle mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige paremnool ![paremnool.](media/15-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud**.
+    - Et kasutada kõiki mudeli saadaolevaid elutsükli olekuid, valige nupp **Kõik saadaolevad elutsükli olekud** nupp ![Kõik saadaolevad elutsükli olekud.](media/20-setup-for-objects.png). Kõik elutsükli olekud viiakse üle jaotisesse **Valitud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks elutsükli mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige vasaknool ![vasaknool.](media/16-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli järelejäänud olekud**.
 
 6. Valige **Elutsükli oleku värskendused**, et määratleda, millised elutsükli olekud saavad valitud elutsükli olekut järgida.
 7. Kasutage kiirkaarti **Vara olek**, kui käsitlete remondiks saadud varasid. Jaotises **Sissetulev/väljaminev** saate valida vara elutsükli olekud, et näidata vara töövoogu, mille olete paranduseks saanud. Kui pakute klientidele või osakondadele laenuvarasid, saate jaotises **Laen** valida laenuvaradele elutsükli olekud.

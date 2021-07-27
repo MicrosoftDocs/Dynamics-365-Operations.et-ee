@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015849"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360396"
 ---
 # <a name="set-up-consignment"></a>Saadetise seadistamine
 
@@ -61,7 +61,7 @@ Veose täiendustellimus on dokument, mida kasutatakse, et nõuda ja jälgida too
 
 Dimensiooni **Omanik** kasutatakse, et eraldada teavet selle kohta, millised varud kuuluvad hankijale ja millised vastuvõtvale juriidilisele isikule. Veose täiendamistellimuse ridadel on olek **Avatud tellimus** seni, kuni ridade täielikku kogust pole vastu võetud või tühistatud. Kui täielik kogus on vastu võetud või tühistatud, muudetakse olekuks **Tühistatud**. Veose täiendamistellimusega seotud füüsilisi vabu varusid saab kirjendada, kasutades registreerimisprotsessi, aga ka toote sissetuleku värskendamisprotsessi. Registreerimist saab teha osana kauba saabumisprotsessist või tellimusridu käsitsi värskendades. Toote sissetuleku värskendamisprotsessi kasutamisel tehakse kirje toote sissetuleku töölehele, mida saab kasutada kaupade hankijale sissetuleku kinnitamiseks.
 
-[![Veose täiendustellimused](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Veose täiendustellimused.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Varude omandiõiguse muutmise tööleht
 
@@ -74,7 +74,7 @@ Ainsad loodavad laokanded on need, mis on seotud sisestatud töölehega. Millal 
 
 Pärast seda, kui tellimus on loodud, ei ole võimalik värsendada kogust veose ostutellimuse ridadel.
 
-[![Varude omandiõiguse muutmise tööleht](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![varude omandiõiguse muutmise tööleht.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Hankija koostöö veose protsessides
 
@@ -90,13 +90,13 @@ Lisateavet hankijate koostööks tarnijate seadistamise kohta leiate jaotisest [
 
 Füüsiliste sissetulevate veose varude kirjendamiseks peate määratlema hankijast omaniku. Seda tehakse lehel **Varude omanik**. Kui teete valiku **Hankija konto**, loob see väljade **Nimi** ja **Omanik** jaoks vaikeväärtused. Väärtus väljal **Omanik** on hankijale nähtav, seega võite soovi korral seda muuta, kui hankijakonto nimesid pole välistel inimestel lihtne tuvastada. On võimalik redigeerida välja **Omanik**, kuid ainult kirje **Varude omanik** salvestamiseni. Väli **Nimi** täidetakse selle osapoole nimega, millega hankija konto on seostatud ja seda ei saa muuta.
 
-[![Varude omanikud](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Varude omanikud.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Jälgimisdimensioonigrupp
 
 Veose protsessides kasutatavad kaubad tuleb seostada valikuga **Jälgimisdimensioonigrupp**, kus dimensioon **Omanik** on määratud sättele **Aktiivne**. Dimensioonil Omanik on suvandid **Füüsiline ladu** ja **Finantsiline laovaru** valitud. Suvand **Laovarude planeerimine dimensioonide kaupa** pole kunagi valitud.
 
-[![Jälgimisdimensioonigrupp](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Jälgimisdimensioonigrupp.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

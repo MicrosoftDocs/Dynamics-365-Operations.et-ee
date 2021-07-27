@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808684"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360942"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Hooldusnõuete töötsükli olek
 
@@ -48,7 +48,7 @@ Hooldustaotluse elutsükli olekud määratlevad etapid, mida taotlus võib läbi
 
 Järgnev illustratsioonil kuvatakse lehe **Hooldustaotluse elutsükli olekud** näide.
 
-![Hooldusnõuete töötsükli olekute leht](media/02-setup-for-requests.png)
+![Hooldusnõuete töötsükli olekute leht.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Hooldustaotluse elutsükli olekud, elutsükli oleku rühmad ja tüübid on seotud ja neid kasutatakse samal viisil nagu töökäsu elutsükli olekud, elutsükli oleku rühmad ja tüübid. 
@@ -66,9 +66,9 @@ Pärast seda, kui olete loonud oma hooldustaotluste jaoks nõutavad elutsükli o
 
 5. Kiirkaardil **Elutsükli olekud** valige need elutsükli olekud, mis tuleks elutsükli mudelisse kaasata.
 
-    - Elutsükli oleku lisamiseks elutsükli mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** seejärel valige ![paremnool,](media/03-setup-for-requests.png) et teisaldada see jaotisesse **Valitud elutsükli olekud**.
-    - Et lisada kõik saadaolevad elutsükli olekud elutsükli mudelisse valige nupp **Vali kõik saadaolevad olekud** ![Vali kõik saadaolevad olekud](media/04-setup-for-requests.png). Kõik elutsükli olekud teisaldatakse jaotisesse **Valitud elutsükli olekud**.
-    - Elutsükli oleku eemaldamiseks elutsükli mudelist valige see jaotises **Valitud elutsükli olekud** ja seejärel valige ![vasaknool,](media/05-setup-for-requests.png) et teisaldada see jaotisesse **Järelejäänud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks lifecycle mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige paremnool ![paremnool.](media/03-setup-for-requests.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud**.
+    - Et lisada kõik saadaolevad elutsükli olekud elutsükli mudelisse valige **Vali kõik saadaolevad olekud** nupp ![Vali kõik saadaolevad olekud.](media/04-setup-for-requests.png). Kõik elutsükli olekud teisaldatakse jaotisesse **Valitud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks elutsükli mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige paremnool ![paremnool.](media/05-setup-for-requests.png) et teisaldada see valitud jaotisesse **Elutsükli järelejäänud olekud**.
 
 6. Kiirkaardil **Üldine** väljad jaotises **Värskendused** on asjakohased, kui kasutate depooparandust.
 
@@ -77,7 +77,7 @@ Pärast seda, kui olete loonud oma hooldustaotluste jaoks nõutavad elutsükli o
 
 Järgnev illustratsioon näitab lehe **Hooldustaotluse elutsükli mudelid** näidet.
 
-![Hooldusnõuete töötsükli mudelite leht](media/06-setup-for-requests.png)
+![Hooldusnõuete töötsükli mudelite leht.](media/06-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

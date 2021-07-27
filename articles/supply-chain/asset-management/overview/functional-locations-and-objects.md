@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351581"
 ---
 # <a name="functional-locations-and-assets"></a>Funktsionaalsed asukohad ja varad
 
@@ -34,13 +34,13 @@ Selles teemas kirjeldatakse funktsionaalseid asukohti ja varasid varahalduses. V
 
 Varahaldus on integreeritud sujuvalt mitme mooduliga koos muude Finance and Operationsi rakendustega. Järgmisel joonisel on kujutatud liidesed teiste moodulitega.
 
-![Diagramm, mis näitab, kuidas varahaldus liidestub teiste moodulitega](media/01-overview-image.png)
+![Diagramm, mis näitab, kuidas varahaldus liidestub teiste moodulitega.](media/01-overview-image.png)
 
 Varahaldus võimaldab teil tõhusalt hallata ja sooritada kõiki ülesandeid, mis on seotud teie ettevõtte mitut tüüpi seadmete haldamise ja hooldamisega. See varustus hõlmab masinaid, tootmisseadmeid ja sõidukeid. Varahaldus toetab lahendusi paljudes tööstusharudes.
 
 Järgmisel joonisel on ülevaade varahalduse põhifunktsioonidest.
 
-![Diagramm, mis näitab varahalduse põhifunktsioone](media/02-overview-image.png)
+![Diagramm, mis näitab varahalduse põhifunktsioone.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Töö asukohad ja varad
 
@@ -50,11 +50,11 @@ Varakulud järgivad alati vara asukohta. Teisisõnu, kui installite vara uuele f
 
 Funktsionaalsete asukohtade hierarhia ehitamine sõltub teie ettevõtte nõuetest sisemise varustuse hoidmise või kliendiseadmete teenindamise jaoks. Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad geograafilistel asukohtadel.
 
-![Diagramm, mis näitab töö asukohti geograafiliste asukohtade põhjal](media/03-overview-image.png)
+![Diagramm, mis näitab töö asukohti geograafiliste asukohtade põhjal.](media/03-overview-image.png)
 
 Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad kliendid.
 
-![Diagramm, mis näitab töö asukohti klientide põhjal](media/04-overview-image.png)
+![Diagramm, mis näitab töö asukohti klientide põhjal.](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

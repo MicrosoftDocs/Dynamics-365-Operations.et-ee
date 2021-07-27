@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187912"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355696"
 ---
 # <a name="budgeting-home-page"></a>Eelarvestamise avaleht
 
@@ -32,7 +34,7 @@ Teema annab ülevaate eelarvestamise funktsionaalsuse komponentidest, eelarvesta
 
 Ettevõtte ressursi planeerimistsükkel koosneb tavaliselt plaanimisest, eelarvestamisest ja tegevuste prognoosimisest.
 
-[![Eelarve koostamise funktsiooni komponendid](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Eelarve koostamise funktsiooni komponendid.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Pikaajalist strateegilist plaanimist ja aastase eelarve plaanimist toetatakse eelarveplaani dokumendi kaudu. Eelarveplaani dokumendid on tugevasti Microsoft Exceliga integreeritud. Kasutajad saavad konfigureerida piiramatu arvu valuuta- ja kvantitatiivseid stsenaariume ning määratleda eelarvestamise organisatsiooni hierarhia nii ülalt-alla kui ka alt-üles eelarvestamise meetodite toetamiseks. Pärast seda, kui eelarve on rakenduses loodud ja kinnitatud, teisendatakse eelarveplaan eelarveregistri kirjeks. Eelarveregistri kirjed pakuvad vahendeid eelarve haldamiseks ja summade jälgitavana hoidmiseks eelarvekoodide kaudu. Eelarve registrikirjed võimaldavad parandada algseid eelarveid, teha ülekandeid ja eelmise aasta eelarvesummasid edasi kanda. Kehtestatud eelarve põhjal saab ettevõte lubada eelarve juhtimise. Kontrolli tase oleneb organisatsiooni kultuurist ja küpsusastmest. Madala küpsusastmega organisatsioonid võivad jätta eelarve muutmata ja olla rohkem reaktiivsed kui proaktiivsed, kui eelarve ootustele ei vasta. Teised organisatsioonid võivad lubada eelarve juhtimise poliitikaid, mis takistavad kasutajatel ostmist, kui eelarvesummasid pole.
 
@@ -46,7 +48,7 @@ Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni ku
 -   [Eelarve planeerimise mallid Exceli jaoks](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Eelarvestamise tööriistad
-[![Eelarvestamise tööriistad](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Eelarvestamise tööriistad.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Saadaval on täiendavad plaanimis- ja eelarve koostamise võimalused ning need on integreeritud pearaamatu eelarvetega.
 

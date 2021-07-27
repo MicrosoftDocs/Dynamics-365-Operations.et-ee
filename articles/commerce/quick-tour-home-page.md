@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792191"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352008"
 ---
 # <a name="home-page-overview"></a>Avalehe ülevaade
 
@@ -31,7 +32,7 @@ Koduleht on vaikimisi leht, kuhu ostjad lähevad, kui nad külastavad e-kaubandu
 
 Järgmisel joonisel on kujutatud avalehe näide, mis loodi mooduliteegi ja kujunduse „Fabrikam” abil.
 
-![Avalehe näide](./media/Homepage2.PNG)
+![Avalehe näide.](./media/Homepage2.PNG)
 
 Avalehe ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehekülgi, mida jaemüüja soovib klientidele sirvimiseks pakkuda. Avalehe allosas on jalus, mis sisaldab kiireid linke erinevatele teemadele, mis võivad klientidele huvi pakkuda.
 
@@ -41,13 +42,13 @@ Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, k
 
     Järgmisel joonisel on kujutatud avalehe näide, kus põhijaotises olev esimene üksus on sisuploki pannoopaigutuse moodul, mille nimi on „Uus tulija”.
 
-    ![Pannoo mooduli näide](./media/Hero.PNG)
+    ![Pannoo mooduli näide.](./media/Hero.PNG)
 
 - **Funktsioon** – sisuploki funktsiooni paigutuse moodulit kasutatakse toodete või kampaaniate turustamiseks, kasutades piltide ja teksti kombinatsiooni. Funktsioonide paigutusi saab kasutada iseseisvalt või neid saab majutada karusselli moodulis.
 
     Järgmisel joonisel on toodud näide sisuploki funktsiooni paigutuse moodulist avalehel.
 
-    ![Funktsiooni moodulite näited](./media/Feature.PNG)
+    ![Funktsiooni moodulite näited.](./media/Feature.PNG)
 
 - **Paan** – sisuploki paani paigutuse moodulit kasutatakse mitme toote või kategooria toodete esitlemiseks, kasutades mitmeveerulise paigutusega piltide ja teksti kombinatsiooni. Selles teemas varem kuvatud avalehe illustratsioonil kasutatakse paani paigutust kolme veeruga renderduseks üksustele **Naistele**, **Meestele** ja **Aksessuaarid**.
 - **Videomängija** – videomängija moodulit saab kasutada kodulehe video sisu esitlemiseks. Selles teemas varem kuvatava avalehe illustratsioon sisaldab videomängija moodulit.
@@ -56,7 +57,7 @@ Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, k
 
     Järgmisel joonisel on näidatud tootesoovituste moodulid avalehel.
 
-    ![Tootesoovituste moodulite näited](./media/Recommendations.PNG)
+    ![Tootesoovituste moodulite näited.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Kõiki siin loetletud mooduleid saab kasutada mis tahes saidi lehel. Kuid nende paigutamine avalehele on oluline, sest see lehekülg on koht, kus kliendid esmalt teie saidiga kokku puutuvad.

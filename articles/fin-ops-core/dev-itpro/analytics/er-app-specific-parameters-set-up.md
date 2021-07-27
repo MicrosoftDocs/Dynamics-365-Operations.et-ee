@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751150"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351886"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 
@@ -49,7 +49,7 @@ Selles teemas toodud näidete läbimiseks peab teil olema juurdepääs rakenduse
     
     Järgmisel joonisel on näha konfiguratsioonid, mis teil lõpetades olema peavad.
 
-    ![ER-seadete leht](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![ER-i konfiguratsiooni leht.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>DEMF-i ettevõtte parameetrite seadistamine
 
@@ -59,7 +59,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 2.  Valige konfiguratsioonipuust vorming **Vorming LE-andmete otsingu õppimiseks**.
 3.  Tehke tegumiriba vahekaardil **Konfiguratsioonid** grupis **Rakendusekohased parameetrid** valik **Seadistus**.
 
-    ![ER-rakendusekohaste parameetrite leht](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Lehel **Rakendusekohased parameetrid** saate konfigureerida vormingu **Vorming LE-andmete otsingu õppimiseks** andmeallika **Valija** reeglid.
     
@@ -75,14 +75,14 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 
     Otsing kujutab valimiseks saadaolevate maksukoodide loendit. See loend tagastatakse andmeallikaga **Model.Data.Tax**, mis on konfigureeritud ER-vormingu aluses. Kuna see andmeallikas sisaldab välja **Nimi**, kuvatakse otsingus iga maksukoodi nimi.
 
-    ![ER-rakendusekohaste parameetrite leht](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Valige maksukood **VAT19**.
 8.  Uue kirje väljal **Otsingu tulemus** otsingu avamiseks valige ripploendi nool. Otsing kujutab vormingu loetelu TaxationLevel valimiseks saadaolevate väärtuste loendit.
 
     Pange tähele, et kui sisse logitud kasutaja eelistatud keeleks on valitud saksa keel, kuvatakse otsingu väärtuste sildid saksa keeles, eeldusel, et need on ER-vormingu aluses tõlgitud. Kui otsingu andmeallika silt on tõlgitud, kuvatakse see silt kasutaja eelistatud keeles vahekaardil **Otsingud**.
 
-    ![ER-rakendusekohaste parameetrite leht](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Valige väärtus **Tavaline maksustamine**.
 
@@ -120,7 +120,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
     
     Selle viimase kirje lisades saate määratleda järgmise reegli: alati kui argumendina edastatud maksukood ei täida mõnda eeltoodud tingimustest, tagastab otsingu andmeallikas nõutud maksustamistasemena taseme **Muu**.
 
-    ![ER-rakendusekohaste parameetrite leht](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Valige väljalt **Olek** suvand **Lõpule viidud**.
 
@@ -144,7 +144,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 6.  Valige maksukood **InVAT17**.
 7.  Valige toimingupaani vahekaardilt **Käibemaksu kood** grupis **Päringud** suvand **Sisestatud käibemaks**, et vaadata maksuväärtuse ja kohaldatava maksumäära teavet maksukoodi kohta.
 
-    ![Sisestatud käibemaksu leht](./media/GER-AppSpecParms-Statement.PNG)
+    ![Sisestatud käibemaksu leht.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Sulgege sisestatud käibemaksu leht.
 
@@ -160,7 +160,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 
     Otsing kujutab nüüd maksukoodide loendit ettevõtte **USMF** valitava maksu kohta.
 
-    ![ER-rakendusekohaste parameetrite leht](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Valige maksukood **EXEMPT**.
 9.  Valige uue kirje väljalt **Otsingu tulemus** väärtus **Maksustamine puudub**.
@@ -170,7 +170,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 13. Valige väljalt **Olek** suvand **Lõpule viidud**.
 14. Valige käsk **Salvesta**.
 
-    ![ER-rakendusekohaste parameetrite leht](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. Sulgege leht **Rakendusekohased parameetrid**.
 
@@ -225,13 +225,13 @@ Eelnevas näites pääsesite ER-vormingu rakendusekohastele parameetritele ligi 
 
 1.  Kasutage uuesti olemasolevat menüü-üksust **ERSolutionAppSpecificParametersDesigner** või juurutage oma menüü-üksus **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Visual Studio leht](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio leht.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Järgige üht neist sammudest.
 
     1.  Looge uus menüü-üksus nupp ja linkige see vastava kirjega tabelist **ERSolutionTable**, seadistades selle atribuudi **Andmeallikas** väärtusele **ERSolutionTable**.
     
-        ![Visual Studio leht](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual Studio leht.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Looge lihtne nupp ja kirjutage üle meetod **Klõpsatud**, nagu on näidatud järgmises näites.
     

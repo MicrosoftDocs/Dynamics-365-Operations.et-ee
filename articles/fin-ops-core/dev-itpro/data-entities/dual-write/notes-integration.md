@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186782"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358975"
 ---
 # <a name="note-integration"></a>Integratsiooni teatis
 
@@ -51,23 +51,23 @@ Märkuse loomiseks kliendi teenuse rakendusesse ja seejärel sünkroonige see Fi
 1. Kliendi kaasamise rakenduses avage kliendi kontokirje.
 2. Paanil **Ajajoon** valige plussmärk (**+**) ja seejärel valige **Märkus** märkuse loomiseks.
 
-    ![Märkuse loomine kliendikogemuse rakenduses](media/notes-ce-1.png)
+    ![Märkuse loomine customer engagement rakenduses.](media/notes-ce-1.png)
 
 3. Sisestage pealkiri ja kirjeldus ning seejärel valige käsk **Lisa märkus**.
 
-    ![Sisestage pealkiri ja kirjeldus](media/notes-ce-2.png)
+    ![Sisestage pealkiri ja kirjeldus.](media/notes-ce-2.png)
 
     Uus märkus lisatakse kliendi ajajoonele.
 
-    ![Uus märkus kliendi ajajoonel](media/notes-ce-3.png)
+    ![Uus märkus kliendi ajajoonel.](media/notes-ce-3.png)
 
 4. Logige sisse Finance and Operations rakendusse ja avage sama kliendikirje. Pange tähele, et **Ma nused** nupp (paberi märkide sümbol) ülemises parempoolses nurgas näitab, et kirje on manusega.
 
-    ![Manuse teatis](media/notes-ce-4.png)
+    ![Manuse teatis.](media/notes-ce-4.png)
 
 5. Lehe **Manused** avamiseks valige nupp **Manused** lehel. Peaksite leidma teate, mille lõite Customer Engagementi rakenduses.
 
-    ![Märkus kliendikogemuse rakendusest](media/notes-ce-5.png)
+    ![Märkus kliendikogemuse rakendusest.](media/notes-ce-5.png)
 
 Kõik märkuse uuendused sünkroonitakse edasi-tagasi rakenduse Finance and Operations ja kliendikogemuse rakenduse vahel.
 
@@ -79,21 +79,21 @@ Märkuse loomiseks Finance and Operations rakenduses ja seejärel selle kliendik
 
 1. Valige Finance and Operations rakenduse lehel **Manused** suvand **Uus** \> **Märkus**.
 
-    ![Märkuse loomine Finance and Operations rakenduses](media/notes-fo-1.png)
+    ![Märkuse loomine Finance and Operations rakenduses.](media/notes-fo-1.png)
 
 2. Sisestage pealkiri ja lühikirjeldus ning seejärel valige **Salvestamine**.
 
-    ![Sisestage pealkiri ja kirjeldus](media/notes-fo-2.png)
+    ![Sisestage pealkiri ja kirjeldus.](media/notes-fo-2.png)
 
 3. Kliendikogemuse rakenduses värskendage kirjet. Uue märkuse leiate ajajoonelt.
 
-    ![Uus märkus kliendi kaasamise rakenduse ajajoones](media/notes-fo-3.png)
+    ![Uus märkus customer engagement rakenduse ajajoones.](media/notes-fo-3.png)
 
 Te saate liigitada märkuse nii sisemiseks kui väliseks.
 
 - Avage Finance and Operations rakenduses **Manused** leheküljel märkus ja seejärel valige suvand **Piirang** väljal **Sisemine** või **Väline**.
 
-    ![Piiranguväli](media/notes-fo-4.png)
+    ![Piiranguväli.](media/notes-fo-4.png)
 
 Samuti saate luua URLi.
 
@@ -101,13 +101,13 @@ Samuti saate luua URLi.
 2. Sisestage pealkiri ja URL.
 3. Väljal **Piirang** valige **Sisemine** või **Väline**.
 
-    ![URLi loomine Finance and Operations rakenduses](media/notes-fo-5.png)
+    ![URLi loomine Finance and Operations rakenduses.](media/notes-fo-5.png)
 
 4. Valige käsk **Salvesta**.
 
     Kuna klienditeenuse rakendustel ei ole URL-i tüüpi, integreeritakse URL märkusena topeltkirjutusega.
 
-    ![URLi loomine kliendikogemuse rakenduses](media/notes-ce-6.png)
+    ![URLi loomine customer engagement rakenduses.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Failimanuseid ei toetata.

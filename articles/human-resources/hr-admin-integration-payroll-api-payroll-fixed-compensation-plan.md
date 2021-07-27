@@ -13,18 +13,24 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 227082358c59abddd63f4faa4536a8df270a4d80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24f8af4d691c3085c36018c574fa3b917a3d6953
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059084"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314209"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Palgaarvestuse põhipalgaplaan
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See teema annab üksikasjad ja näidispäringu põhipalgaplaani olemi kohta rakenduses Dynamics 365 Human Resources.
+Selles teemas kirjeldatakse rakenduse Dynamics 365 Human Resources fikseeritud palgaplaani olemit.
+
+### <a name="description"></a>Kirjeldus
+
+See üksus pakub töötaja antud positsioonile määratud tulemustasu plaani.
+
+Füüsiline nimi: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Atribuudid
 
@@ -37,11 +43,11 @@ See teema annab üksikasjad ja näidispäringu põhipalgaplaani olemi kohta rake
 | **Palgaarvestuse põhipalgaplaani olem**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Nõutav<br>Süsteemi loodud | Süsteemi loodud GUID-väärtus palgaplaani kordumatuks tuvastamiseks. |
 | **Tasusagedus**<br>mshr_payfrequency<br>*String* | Kirjutuskaitstud<br>Nõutav |Töötajale makstava tasu maksmise sagedus.  |
 | **Kehtiv kuni**<br>mshr_validto<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud <br>Nõutav | Töötajaga seotud põhipalga kehtivuse lõpukuupäev. |
-| **Ametikoha ID**<br>mshr_positionid<br>*String* | Kirjutuskaitstud <br>Nõutav | Töötaja ja põhipalgaplaani registreerimisega seotud ID. |
+| **Ametikoha ID**<br>mshr_positionid<br>*String* | Kirjutuskaitstud <br>Nõutav | Töötajaga seotud ametikoha ID ja fikseeritud hüvitisteplaani registreerimine. |
 | **Currency**<br>mshr_currency<br>*String* | Kirjutuskaitstud <br>Nõutav |Põhipalgaplaani jaoks määratletud valuuta   |
 | **Personalinumber**<br>mshr_personnelnumber<br>*String* | Kirjutuskaitstud<br>Nõutav |Töötaja kordumatu personalinumber.  |
 
-**Päring**
+## <a name="example-query"></a>Näidispäring
 
 **Taotlus**
 
@@ -53,18 +59,24 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollfixedcompensationplanentities?$f
 
 ```json
 {
-            "mshr_planid": "GradeC",
-            "mshr_personnelnumber": "000041",
-            "mshr_payrate": 75200,
-            "mshr_positionid": "000276",
-            "mshr_validfrom": "2011-04-05T00:00:00Z",
-            "mshr_validto": "2154-12-31T00:00:00Z",
-            "mshr_payfrequency": "Annual",
-            "mshr_currency": "USD",
-            "_mshr_fk_employee_id_value": "00000d3c-0000-0000-d5ff-004105000000",
-            "_mshr_fk_plan_id_value": "0000070c-0000-0000-b328-fef003000000",
-            "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
-            "mshr_payrollfixedcompensationplanentityid": "0000029f-0000-0000-d5ff-004105000000",
-            "_mshr_fk_payroll_id_value": null
+    "mshr_planid": "GradeC",
+    "mshr_personnelnumber": "000041",
+    "mshr_payrate": 75200,
+    "mshr_positionid": "000276",
+    "mshr_validfrom": "2011-04-05T00:00:00Z",
+    "mshr_validto": "2154-12-31T00:00:00Z",
+    "mshr_payfrequency": "Annual",
+    "mshr_currency": "USD",
+    "_mshr_fk_employee_id_value": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_fk_plan_id_value": "0000070c-0000-0000-b328-fef003000000",
+    "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
+    "mshr_payrollfixedcompensationplanentityid": "0000029f-0000-0000-d5ff-004105000000",
+    "_mshr_fk_payroll_id_value": null
 }
 ```
+
+## <a name="see-also"></a>Vt ka
+
+[Palgaarvestuse integratsiooni API tutvustus](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

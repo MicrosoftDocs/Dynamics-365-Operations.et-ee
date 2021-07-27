@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837869"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361145"
 ---
 # <a name="asset-fault-analysis"></a>Vara vea analüüs
 
@@ -60,7 +60,7 @@ Alltoodud ekraanipildil on valitud ainult **Sümptomi** nupp.
 - Vea registreerimised on tehtud kolme vea sümptomi korral: "Õhuleke", "Läbipõlenud kaitse" ja "Seade ummistunud".  
 - Veerus **Tõenäosuse %** on kõik protsendid kokku 100%. Tõenäosus põhineb kõigi **Sümptom** valikute registreerimisel selles tõrke analüüsis.
 
-![Joonis 1](media/06-controlling-and-reporting.png)
+![Joonis 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Grupeerimine sümptomite ja ajaperioodi alusel
 
@@ -69,7 +69,7 @@ Alloleval ekraanipildil lisatakse **Aasta** ja **Kuu**, et näidata, kuidas saat
 - Vea sümptomid on nüüd näidatud registreerimistena aastas/kuus.  
 - Veerus **Tõenäosuse %**, kui lisate kõik protsendid iga kuu kohta, moodustavad nad kokku 100%. Tõenäosus põhineb **Sümptom** valikute registreerimisel selles vea analüüsis. Kui teil on varal palju ridu, kuid real paistab suur protsent silma, siis on see märk vea sümptomist, mida täpsemalt uurida, et leida moodus, kuidas piirata selle vea sümptomite registreerimiste arvu.
 
-![Joonis 2](media/07-controlling-and-reporting.png)
+![Joonis 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Grupeerimine mitme sümptomi ja vara alusel
 
@@ -84,7 +84,7 @@ Alloleval ekraanipildil lisati **Vara** ja **Vara tüüp**, et anda üksikasjali
 - Vea sümptomid on nüüd jaotatud **Vara** / **Vara tüüp** / **Sümptom** kombinatsioonideks.  
 - Kui lisate kõik protsendid veerus **Tõenäosuse %** vastavalt **Vara** / **Vara tüüp** / **Sümptom** kombinatsioonidele, moodustavad nad kõik kokku 100%. Tõenäosus põhineb **Sümptom** registreeringutel selles vea analüüsis. Kui teil on varal palju ridu, kuid real paistab suur protsent silma, siis on see märk vea sümptomist, mida täpsemalt uurida, et leida moodus, kuidas piirata selle vea sümptomite registreerimiste arvu.
 
-![Joonis 3](media/08-controlling-and-reporting.png)
+![Joonis 3.](media/08-controlling-and-reporting.png)
 
 **Grupeerimine kahe sümptomi, vara ja varatüübi alusel**
 
@@ -92,7 +92,7 @@ Alloleval ekraanipildil lisati **Ala** suvand **Sümptom**, **Vara**, ja **Vara 
 
 - Veerus **Tõenäosuse %**, kui lisate varale kõik kombinatsioonide **Vara** / **Vara tüüp** / **Sümptom** protsendid, moodustavad nad kõik kokku 100%. Tõenäosus põhineb **Sümptom** ja **Ala** kombinatsioonis siin veaanalüüsis. Kui teil on varal palju ridu, kuid real paistab suur protsent silma, siis on see märk vea alast, mida täpsemalt uurida, et leida moodus, kuidas piirata selle vea ala registreerimiste arvu.  
 
-![Joonis 4](media/09-controlling-and-reporting.png)
+![Joonis 4.](media/09-controlling-and-reporting.png)
 
 **Grupeerimine kolme sümptomi, vara ja varatüübi alusel**
 
@@ -100,7 +100,7 @@ Alltoodud ekraanipildil lisati **Tüüp** ja on näidatud kõige üksikasjalikum
  
 - Veerus **Tõenäosuse %**, kui lisate varale kõik kombinatsioonide **Vara** / **Vara tüüp** / **Sümptom** protsendid, moodustavad nad kõik kokku 100%. Tõenäosus põhineb **Sümptom**, **Ala** ja **Tüüp** kombinatsioonis siin veaanalüüsis. Kui teil on varal palju ridu, kuid real paistab suur protsent silma, siis on see märk vea tüübist, mida täpsemalt uurida, et leida moodus, kuidas piirata selle vea tüübi registreerimiste arvu.
 
-![Joonis 5](media/10-controlling-and-reporting.png)
+![Joonis 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

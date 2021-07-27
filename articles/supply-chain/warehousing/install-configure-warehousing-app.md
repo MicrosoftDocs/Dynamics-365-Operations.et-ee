@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 913b20d73b87f03b4b1f80efdcf6e60bd07ce270
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909375"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359481"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Laorakenduse installimine ja ühendamine
 
@@ -64,28 +64,28 @@ Selleks et laorakendus saaks konkreetse Supply Chain Managementi serveriga suhel
 1. Sisestage selle kasutaja nimi ja parool, kellel on juurdepääs Azure’i tellimusele.
 1. Valige Azure’i portaalis vasakpoolsel navigeerimispaanil valiku **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Veenduge, et töötate Azure AD eksemplariga, mida kasutab Supply Chain Management.
 1. Klõpsake loendis **Haldamine** suvandit **Rakenduste registreerimised**.
 
-    ![Rakenduste registreerimised](media/app-connect-azure-register.png "Rakenduste registreerimised")
+    ![Rakenduste registreerimised.](media/app-connect-azure-register.png "Rakenduste registreerimised")
 
 1. Valige tööriistaribal **Uus registreerimine** viisardi **Rakenduse registreerimine** avamiseks.
 1. Sisestage rakenduse nimi ja valige suvand **Ainult selle organisatsioonikataloogi kontod** ja valige **Registreeri**.
 
-    ![Rakenduse viisardi registreerimine](media/app-connect-azure-register-wizard.png "Rakenduse viisardi registreerimine")
+    ![Rakenduse viisardi registreerimine.](media/app-connect-azure-register-wizard.png "Rakenduse viisardi registreerimine")
 
 1. Avaneb teie uue rakenduse registreerimisaken. Märkige välja **Rakenduse (klient) ID** väärtus üles, seda läheb hiljem vaja. Sellele ID-le on selles teemas hiljem viidatud kui *kliendi ID*.
 
-    ![Rakenduse (klient) ID](media/app-connect-azure-app-id.png "Rakenduse (klient) ID")
+    ![Rakenduse (klient) ID.](media/app-connect-azure-app-id.png "Rakenduse (klient) ID")
 
 1. Valige loendist **Haldamine** suvand **Serdid ja saladused**. Seejärel valige üks järgmistest nuppudest, sõltuvalt sellest, kuidas soovite rakendust autentimiseks konfigureerida. (Lisateabe saamiseks vaadake jaotist [Serdi või kliendi saladuse abil autentimine](#authenticate) selles teemas hiljem.)
 
     - **Serdi üleslaadimine** – laadige üles sert saladusena kasutatamiseks. Soovitame selle lähenemisviisi kasutamist, sest see on turvalisem ja seda saab täielikumalt automatiseerida. Kui käitate laorakendust Windowsi seadmetes, märkige üles väärtus **Sõrmejälg**, mida kuvatakse pärast serdi üleslaadimist. Vajate seda väärtust Windowsi seadmetes serdi konfigureerimisel.
     - **Uus kliendi saladus** – looge võti, sisestades võtme kirjeldus ja kestus jaotises **Paroolid** ning seejärel valige **Lisa**. Tehke võtmest koopia ja talletage see turvaliselt.
 
-    ![Serdid ja saladused](media/app-connect-azure-authentication.png "Serdid ja saladused")
+    ![Serdid ja saladused.](media/app-connect-azure-authentication.png "Serdid ja saladused")
 
 Lisateavet Azure AD-s veebiteenuse rakenduste seadistamise kohta leiate järgmistest allikatest.
 
@@ -105,7 +105,7 @@ Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige jä
     1. Looge kasutaja.
     1. Määrake ladustamise mobiilse seadme kasutaja.
 
-    ![Ladustamise mobiilse seadme kasutaja määramine](media/app-connect-app-users.png "Ladustamise mobiilse seadme kasutaja määramine")
+    ![Määrake ladustamise mobiilse seadme kasutaja.](media/app-connect-app-users.png "Ladustamise mobiilse seadme kasutaja määramine")
 
 1. Seostage oma Azure AD rakendus laorakenduse kasutajaga.
 
@@ -113,7 +113,7 @@ Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige jä
     1. Looge rida.
     1. Sisestage kliendi ID, mille märkisite üles eelmises jaotises, pange sellele nimi ja valige äsja loodud kasutaja. Soovitame teil sildistada kõik oma seadmed. Sellisel juhul saate seadme kaotamise korral selle lehe kaudu hõlpsalt eemaldada nende Supply Chain Managementi juurdepääsu.
 
-    ![Azure Active Directory rakendused](media/app-connect-aad-apps.png "Azure Active Directory avaldused")
+    ![Azure Active Directory rakendused.](media/app-connect-aad-apps.png "Azure Active Directory avaldused")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentimine serdi või kliendi saladuse abil
 
@@ -201,26 +201,26 @@ Järgige neid juhiseid ühenduse sätete importimiseks failist või QR-koodist.
 1. Avage jaotis **Ühenduse sätted**.
 1. Valige suvandi **Kasuta demorežiimi** sätteks _Ei_.
 
-    ![Suvand Kasuta demorežiimi](media/app-connect-app-demo-mode.png "Suvand Kasuta demorežiimi")
+    ![Suvand Kasuta demorežiimi.](media/app-connect-app-demo-mode.png "Suvand Kasuta demorežiimi")
 
 1. Valige suvand **Vali fail** või **Skanni QR-kood**, sõltuvalt sellest, kuidas soovite sätteid importida.
 
     - Kui impordite ühenduse sätted failist, on rakendus võib-olla juba faili leidnud, kui selle salvestamisel kasutati vaikenime ja -asukohta. Muul juhul valige **Vali fail**, sirvige oma kohalikus seadmes failini ja valige see. Kui valite kohandatud asukoha, talletab rakendus selle ja kasutab seda automaatselt järgmisel korral.
     - Kui impordite ühenduse sätted QR-koodi skannimise abil, valige **Skanni QR-kood**. Rakendus küsib teilt luba seadme kaamera kasutamiseks. Pärast loa andmist käivitatakse kaamera, et saaksite kasutada seda skannimiseks. Olenevalt seadme kaamera kvaliteedist ja QR-koodi keerukusest, võib teil olla raske saada korralikku skanni. Sel juhul proovige QR-koodi keerukust vähendada, luues ainult ühe ühenduse QR-koodi kohta. (Praegu saate QR-koodi skannimiseks kasutada ainult seadme kaamerat.)
 
-    ![Ühenduse sätete importimine](media/app-connect-app-select-file.png "Ühenduse sätete importimine")
+    ![Ühenduse sätete importimine.](media/app-connect-app-select-file.png "Ühenduse sätete importimine")
 
 1. Kui ühenduse sätted on edukalt laaditud, valige lehe vasakus ülanurgas nupp **Tagasi** (vasaknool).
 
-    ![Ühenduse sätted laaditud](media/app-connect-app-settings-loaded.png "Ühenduse sätted laaditud")
+    ![Ühenduse sätted laaditud.](media/app-connect-app-settings-loaded.png "Ühenduse sätted laaditud")
 
 1. Kui kasutate Androidi seadet ja kasutate autentimisel serti, palub seade teil serdi valida.
 
-    ![Serdi valimise viip Android seadmes](media/app-connect-app-choose-cert.png "Serdi valimise viip Android seadmes")
+    ![Serdi valimise viip Android seadmes.](media/app-connect-app-choose-cert.png "Serdi valimise viip Android seadmes")
 
 1. Rakendus loob ühenduse teie Supply Chain Managementi serveriga ja kuvab sisselogimise lehe.
 
-    ![Sisselogimise leht](media/app-connect-sign-in.png "Sisselogimise leht")
+    ![Sisselogimise leht.](media/app-connect-sign-in.png "Sisselogimise leht")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Rakenduse käsitsi konfigureerimine
 
@@ -230,11 +230,11 @@ Saate käsitsi konfigureerida rakenduse seadmel Supply Chain Managementi serveri
 1. Avage jaotis **Ühenduse sätted**.
 1. Valige suvandi **Kasuta demorežiimi** sätteks _Ei_.
 
-    ![Demorežiim on välja lülitatud](media/app-connect-app-select-file.png "Demorežiim on välja lülitatud")
+    ![Demorežiim on välja lülitatud.](media/app-connect-app-select-file.png "Demorežiim on välja lülitatud")
 
 1. Puudutage välja **Ühenduse valimine**, et laiendada ühenduse üksikasjade käsitsi sisestamiseks nõutavaid sätteid.
 
-    ![Käsitsi ühendamise väljad](media/app-connect-manual-connect.png "Käsitsi ühendamise väljad")
+    ![Käsitsi ühendamise väljad.](media/app-connect-manual-connect.png "Käsitsi ühendamise väljad")
 
 1. Sisestage järgmine teave:
 

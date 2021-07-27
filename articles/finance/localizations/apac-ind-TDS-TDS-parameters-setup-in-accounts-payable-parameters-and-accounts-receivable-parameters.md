@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023178"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358214"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>TDS-i parameetrite määramine ostureskontros ja müügireskontros
 
@@ -38,12 +38,12 @@ See teema kirjeldab, kuidas seadistada parameetreid Ostureskontros ja Müügires
     - **Viip** – Kasutajad saavad sõnumi, mis palub neil uuendada TDS-i gruppi tellimuse ridadel.
 4. Valige nupp **OK**.
 
-    [![Tellimuseridade uuendamise dialoogiboks](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Tellimuseridade uuendamise dialoogiboks.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Minge **Maks \> Seadistus \> Parameetrid \> Müügireskontro parameetrid**.
 6. Seadke **Üldine** vahekaardil **Tükelda tarneaadressi põhjal** **Toote sissetulek** väärtusele **Jah** et sisestada ja tükeldada toote sissetulek, kus on erinevad tarneaadressid ja maksukonto numbrid (TAN-id). Kui see valik on seatud valikule **Ei** ei saa te sisestada ostu saatelehte, kus on erinevad tarneaadressid ja TAN-id.
 7. TAN-idega ostuarve sisestamiseks ja tükeldamiseks määrake valiku **Arve** valiku väärtuseks **Jah**.
 
-    [![Tükelda tarneteabe kiirkaardi põhjal](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![Tükelda tarneteabe kiirkaardi põhjal.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Sulgege leht.

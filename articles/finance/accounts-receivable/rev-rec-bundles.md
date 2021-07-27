@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816264"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347778"
 ---
 # <a name="revenue-recognition-bundles"></a>Tulu tuvastamise kogumid
 
@@ -59,15 +59,15 @@ Koostiskaupadele on määratletud järgmised baasmüügihinnad:
 
 Sisestatakse kliendi US-004 Cave Wholesales müügitellimus. Ainus sisestatud rida on sülearvuti kogumi kauba jaoks. Emarea ühiku vaikehinna saab võtta mitmest kohast, nt kaubandusleppest või baasmüügihinnast. Selles näites sisestati kauba hinnana käsitsi 2300 $.
 
-[![Sülearvuti kogumi kaup müügitellimusel](./media/bundle-01.png)](./media/bundle-01.png)
+[![Sülearvuti kogumi kaup müügitellimusel.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Kuna müügitellimus sisaldab kogumit, tuleb see kinnitada. Kinnitusdialoog näitab kogumi koostiskaupu.
 
-[![Müügitellimuse kinnitamise dialoogiboks, mis näitab koostiskaupu](./media/bundle-02.png)](./media/bundle-02.png)
+[![Müügitellimuse kinnitamise dialoogiboks, mis näitab koostiskaupu.](./media/bundle-02.png)](./media/bundle-02.png)
 
 Kuid prinditud kinnitusaruanne näitab ainult kogumi emakaupa, sest see aruanne on kliendile väljapoole suunatud dokument.
 
-[![Kinnitusaruanne, mis näitab ainult emakaupa](./media/bundle-03.png)](./media/bundle-03.png)
+[![Kinnitusaruanne, mis näitab ainult emakaupa.](./media/bundle-03.png)](./media/bundle-03.png)
 
 Pärast müügitellimuse kinnitamist näidatakse müügitellimusel endiselt emakaupa, kuid selle olekuks on nüüd **Tühistatud**. Lisaks jälgitakse netosummat väljal **Kogumi netosumma**. See summa on vajalik arve printimiseks, sest arvel näidatakse emakaupa, mitte koostiskaupu.
 
@@ -85,7 +85,7 @@ Koostisosade summa peab võrduma summaga 2300 $ ja nii see ongi (1713.73 $ + 450
 
 Kui muuta on vaja kõiki koostiskaupu, saab emakauba eemaldada. Sel juhul eemaldatakse ka koostiskaubad. Emakauba saab seejärel uuesti lisada ning nõutavad muudatused saab teha enne müügitellimuse kinnitamist.
 
-[![Kogumi kaup, mis sisaldab koostiskaupade muudatusi](./media/bundle-04.png)](./media/bundle-04.png)
+[![Kogumi kaup, mis sisaldab koostiskaupade muudatusi.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Kui müügitellimus on komplekteeritud ja pakitud, sisaldavad dokumendid ainult kogumi koostisosi. Saateleht ja arve peavad sisaldama kogu kogumit. Vastasel juhul ei saa neid sisestada. Võtame näiteks dialoogiboksi, mis näitab kolme koostiskaupa. Kui proovite ühte neist kustutada, kuvatakse tõrketeade sõnumiga, et kõik kogumis olevad tooted tuleb enne nende arveldamist lähetada.
 
@@ -95,19 +95,19 @@ Osalist summat saab lähetada ja arveldada ainult siis, kui vähendatakse kogumi
 
 Viimaseks etapiks on müügitellimuse arveldamine. Arveldamisel kuvatakse arve dialoogiboksis koostiskaubad.
 
-[![Arve dialoogiboks, mis näitab koostiskaupu](./media/bundle-06.png)](./media/bundle-06.png)
+[![Arve dialoogiboks, mis näitab koostiskaupu.](./media/bundle-06.png)](./media/bundle-06.png)
 
 Kuid prinditud arvel näidatakse ainult emakaup.
  
-[![Prinditud arve, mis näitab ainult emakaupa](./media/bundle-07.png)](./media/bundle-07.png)
+[![Prinditud arve, mis näitab ainult emakaupa.](./media/bundle-07.png)](./media/bundle-07.png)
 
 Pärast sisestamist loodud arvete tööleht ei sisalda kogumi emakaupa, kuna selle kauba olek on **Tühistatud**.
 
-[![Arvete tööleht, mis ei sisalda emakaupa](./media/bundle-08.png)](./media/bundle-08.png)
+[![Arvete tööleht, mis ei sisalda emakaupa.](./media/bundle-08.png)](./media/bundle-08.png)
 
 On oluline, et arvete tööleht ei sisaldaks kogumi emakaupa, sest kõik pärast arve sisestamist tehtavad protsessid põhinevad sellel arvete töölehel. Näiteks kui loote toimingupaani vahekaardil **Müük** kreeditarve, sisaldab loodav kreeditarve koostiskaupu, kuid mitte emakaupa.
 
-[![Kreeditarve, mis näitab koostiskaupu, kuid mitte emakaupa](./media/bundle-09.png)](./media/bundle-09.png)
+[![Kreeditarve, mis näitab koostiskaupu, kuid mitte emakaupa.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

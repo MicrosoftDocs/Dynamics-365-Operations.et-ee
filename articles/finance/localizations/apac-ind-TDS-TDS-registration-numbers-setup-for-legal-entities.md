@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 3550b2b7b305702ffc337ba0a9bb79f60a9de120
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db7bdfe102fa5e24816f2cfaf2b53351362cddd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023175"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358190"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>TDS-i registreerimisnumbrite häälestamine juriidiliste isikute jaoks
 
@@ -31,7 +31,7 @@ See teema kirjeldab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel 
 
 1. Avage **Organisatsiooni haldus \> Organisatsioonid \> Juriidilised isikud**.
 
-    [![Vahekaart juriidilised olemid](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
+    [![Vahekaart juriidilised olemid.](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
 
 2. Kiirkaardi **Maksuteave** väljale **Püsikonto number** sisestage juriidilise isiku püsikonto number (PAN).
 3. Sisestage **Ringinumber** väljale TDS-i asutuse ringinumber.
@@ -41,11 +41,11 @@ See teema kirjeldab, kuidas seadistada maksegraafikuid allika (TDS) eraldamisel 
 7. Toimingupaanil valige **Registreerimise ID** et avada **Halda aadressi** leht.
 8. **Maksuteabe** kiirkaardil valige **Lisa** või **Redigeeri** et avada **Maksuteabe haldamine** leht, kus saate maksu registreerimiskirjet hallata.
 
-    [![Aadresside lehe haldamine](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
+    [![Aadresside lehe haldamine.](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
 
 9. Sisestage **Kinnipeetava maksu** kiirkaardi väljale **Maksukonto number (TAN)** väljale registreerimisnumber. TAN peab koosnema viiest tähestikumärgist, seejärel neljast numbrimärgist ja seejärel ühest tähestikumärgist. Siin on näide: **AXDF87645F**.
 10. Sisestage **Nimi või kirjeldus** kinnipeetava maksu registreerimisnumbri kirjeldus.
 
-    [![Maksuteabe lehe haldamine](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
+    [![Maksuteabe lehe haldamine.](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
 
 11. Sulgege leht.

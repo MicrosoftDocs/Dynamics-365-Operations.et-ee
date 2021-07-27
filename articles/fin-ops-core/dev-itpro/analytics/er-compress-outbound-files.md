@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5b58a9345b83219296a3570e7bf653ef8624b7a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894168"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357638"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektroonilises aruandluses loodavate suurte failide tihendamine 
 
@@ -55,7 +55,7 @@ Enne selles teemas kirjeldatud toimingute tegemist peavad järgmised sammud lõp
 1. [Imporditud vormingu käivitamine](er-defer-xml-element.md#run-the-imported-format).
 2. Pange tähele, et XML-vormingus loodud dokumendi suurus on 3 kilobaiti (KB).
 
-    ![Tihendamata väljamineva dokumendi eelvaade](./media/er-compress-outbound-files1.png)
+    ![Tihendamata väljamineva dokumendi eelvaade.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Vormingu muutmine loodud väljundi tihendamiseks
 
@@ -80,7 +80,7 @@ Enne selles teemas kirjeldatud toimingute tegemist peavad järgmised sammud lõp
     > [!NOTE] 
     > Selles ZIP-failis oleva XML-faili tihendusaste on 87 protsenti. Tihendusaste sõltub tihendatavatest andmetest.
 
-    ![Tihendatud väljamineva dokumendi eelvaade](./media/er-compress-outbound-files2.png)
+    ![Tihendatud väljamineva dokumendi eelvaade.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Kui ER-i [sihtkoht](electronic-reporting-destinations.md) on konfigureeritud vorminguelemendi jaoks, mis loob väljundi (selles näites element **Aruanne**), jäetakse väljundi tihendamine vahele.

@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829374"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356995"
 ---
 # <a name="hazardous-materials-overview"></a>Ohtlike materjalide ülevaade
 
@@ -27,7 +28,7 @@ Tarne-ja transpordimääruste nõuetele vastavuse säilitamiseks peavad organisa
 
 Järgmisel joonisel on kuvatud ohtlike materjalide funktsiooni häälestamise ja kasutamise toimingud.
 
-![Ohtlike materjalide funktsiooni häälestamine ja kasutamine](media/hazmat-overview.png "Ohtlike materjalide funktsiooni häälestamine ja kasutamine")
+![Ohtlike materjalide funktsiooni häälestamine ja kasutamine.](media/hazmat-overview.png "Ohtlike materjalide funktsiooni häälestamine ja kasutamine")
 
 Ohtlike materjalide funktsioon häälestatakse tooteteabe halduses ja see pakub dokumente, mida saab printida laohalduse kaudu. Seetõttu on need alad laias laastus kaks peamist valdkonda, kus saate üle vaadata, häälestada ja kasutada seda funktsiooni funktsionaalsust.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271204"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360372"
 ---
 # <a name="firm-planned-orders"></a>Kindlad plaanitud tellimused
 
@@ -81,7 +81,7 @@ Planeeritud tellimuste käsitsi kinnitamiseks otsige ja valige planeeritud telli
     - **Grupeeri perioodi järgi** (jaotises **Ostutellimused**) – Valige periood, mille järgi plaanitud ostutellimusi grupeerida. Selle suvandi kasutamiseks peate valima ka suvandi **Grupeeri hankija järgi**.
     - **Grupeeri perioodi järgi** (jaotises **Ülekanded**) – Valige periood, mille järgi plaanitud ülekandeid grupeerida. Tellimused grupeeritakse väärtuste alusel **Laost** ja **Lattu**.
 
-    ![Parameetrite kiirvalik kinnitamise dialoogiaknas](./media/manual-firming.png "Parameetrite kiirvalik kinnitamise dialoogiaknas")
+    ![Parameetrite kiirvaliku kinnitamise dialoogiaken.](./media/manual-firming.png "Parameetrite kiirvalik kinnitamise dialoogiaknas")
 
 1. Seadistage **Töö taustal** käitamine kiirkaardil nii, et see töötaks pakett-režiimis. Korduvat ajakava pole aga mõtet käsitsi kinnitamise ajal paika panna. Väljad töötavad samamoodi nagu muud tüüpi [taustatööl](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) Supply Chain Management puhul. Käsitsi kinnitamiseks töötleb pakett-töö ainult hetkel valitud planeeritud tellimusi. See ei töötle ühtegi tellimust, mis sobiks filtritega, mida praegu leheküljel rakendatakse.
 1. Valige **OK**, et rakendada oma sätted ja luua kinnitatud tellimused.
@@ -140,15 +140,15 @@ Planeeritud tellimuse kinnitamiseks päringupõhise kinnitamisprotsessi abil jä
     - **Kinnitamise ajapiir edasistel päevadel** – Valige, kui kaugele tulevikku peab üldplaneerimine erinevad nõuded ja muud asjaolud arvutama.
     - **Kinnitamise ajapiir eelnevatel päevadel** – Valige, kui kaugele minevikku peab üldplaneerimine erinevad nõuded ja muud asjaolud arvutama.
 
-    ![Parameetrite kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas](./media/planned-order-firming-main-1.png "Parameetrite kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas")
+    ![Parameetrite kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas.](./media/planned-order-firming-main-1.png "Parameetrite kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas")
 
 1. Täpsustamaks, milliseid kirjeid tellimusse kaasatakse, valige **Filter** nupp **Kirjete valimine** kiirvalik. Kuvatakse standardne päringudialoog, kus saate määrata valikukriteeriumid, sortimiskriteeriumid ja ühendamised. Väljad töötavad samamoodi nagu muudel päringutüüpidel Supply Chain Management puhul. Siinsed väljad on kirjutuskaitstud ja kuvavad teie päringuga seotud väärtused.
 
-    ![Kirjete kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas](./media/planned-order-firming-main-2.png "Kirjete kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas")
+    ![Kirjete kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas.](./media/planned-order-firming-main-2.png "Kirjete kiirvalik Planeeritud tellimuste kinnitamise dialoogiaknas")
 
 1. Valige **Eelversioon**, et vaadata kinnitatud tellimuse sisu, mis baseerub teie senistel seadetel. Sõnumina kuvatakse planeeritud tellimuste loetelu, mis kinnitatakse. Seejärel saate oma sätteid vastavalt vajadusele reguleerida, kuni eelversioon näitab kindlat järjekorda nii, nagu soovite.
 
-    ![Näide kinnitatud tellimuse eelversioonist](./media/planned-order-firming-preview.png "Näide kinnitatud tellimuse eelversioonist")
+    ![Näide kinnitatud tellimuse eelversioonist.](./media/planned-order-firming-preview.png "Näide kinnitatud tellimuse eelversioonist")
 
     > [!WARNING]
     > See funktsioon kinnitab kõik filtri kriteeriumidele vastavad plaanitud tellimused. Planeeritud tellimuste mittekriitiline kinnitamine võib põhjustada tohutu hulga soovimatuid ostu-, üleandmis- ja tootmistellimusi. Enne jätkamist kasutage alati **Eelversioon** nuppu, et kinnitada kaasatud kirjed.

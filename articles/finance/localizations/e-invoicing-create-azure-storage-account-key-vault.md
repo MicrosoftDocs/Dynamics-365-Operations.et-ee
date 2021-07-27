@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963235"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357410"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure'i salvestusruumi konto ja võtmehoidla loomine
 
@@ -49,7 +49,7 @@ Selles teemas läbite kaks peamist sammu.
 5. Valige **Lisa poliitika**, et lisada talletamise juurdepääsupoliitika.
 6. Seadistage väljad **Identifikaator** ja **Load** oma vajaduste järgi. Väljal **Load** peaksite valima kõik load.
 
-    ![Bloobimälu loa andmine](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Bloobimälu loa andmine.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Sisestage algus- ja aegumiskuupäev. Aegumiskuupäev peab olema tulevikus.
 8. Valige **OK** poliitika salvestamiseks ja seejärel salvestage muudatused konteineris.
@@ -57,7 +57,7 @@ Selles teemas läbite kaks peamist sammu.
 10. Paremklõpsake konteineril ja valige seejärel **Hangi jagatud juurdepääsu allkiri**.
 11. Kopeerige ja talletage dialoogiboksis **Jagatud juurdepääsu allkiri** välja **URI** väärtus. Seda väärtust kasutatakse järgmises sammus ja sellele viidatakse kui *jagatud juurdepääsu allkirja URI-le*.
 
-    ![URI väärtuse valimine ja kopeerimine](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![URI väärtuse valimine ja kopeerimine.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Võtmehoidla seadistamine salvestusruumi konto URI talletamiseks
 
@@ -69,11 +69,11 @@ Selles teemas läbite kaks peamist sammu.
 6. Seadistage juurdepääsupoliitika, et anda elektroonilise arvelduse lisandmoodulile õigel tasemel turvaline juurdepääs loodud saladusele. Avage **Sätted \> Juurdepääsupoliitika** ja valige **Lisa juurdepääsupoliitika**.
 7. Seadke saladuselubadeks toimingud **Hangi** ja **Loetle**.
 
-    ![Teenusele juurdepääsu andmine](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Teenusele juurdepääsu andmine.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Seadke serdilubadeks toimingud **Hangi** ja **Loetle**.
 
-    ![Serdiloa andmine](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Serdiloa andmine.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. Väljal **Valige subjekt**, valige **Pole valitud**.
 10. Valige subjekt dialoogiboksis **Subjekt** **elektroonilise arvelduse lisandmooduli** lisamise kaudu.

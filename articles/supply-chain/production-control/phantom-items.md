@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814774"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360894"
 ---
 # <a name="phantom-items"></a>Fiktiivsed kaubad
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814774"
 
 Selles teemas kirjeldatakse üksikasjalikult, kuidas saab fiktiivset reatüüpi kasutada koosluse- (BOM) ja valemiridade puhul. Järgmisel joonisel tähistab (a) toote H ning osade F ja G kooslust ning (b) toodete H ja osa F protsessilehte.
 
-![Toode H ja osa F](media/product-H-part-F.png)
+![Toode H ja osa F.](media/product-H-part-F.png)
 
 
 Sellel joonisel on toodud näide koosluse struktuurist kahel tasemel. Lõpetatud toode H tähistab masinakoostu toodet. Masinakoost koosneb kahest osast: elektriseadmest (F), millel on kaks materjali (A ja B), ning pakkematerjalide rühmast, millel on samuti kaks materjali (C ja D). Veel üht materjali (E) kasutatakse masina üldise kokkupaneku ajal.
 
-![Toode H ja osa F](media/product-H-part-B.png)
+![Toode H ja osa F.](media/product-H-part-B.png)
 
 Eeltoodud joonis kujutab toote H tehnilist joonist. See struktuur annab hea ülevaate masina üldkoostu osadest ja komponentidest. Ehkki tootekujundajad eelistaksid koosluse kujutamist sellisel viisil, ei pruugi see struktuur õigesti esitada viisi, kuidas masinat töökohas koostatakse. 
 
@@ -53,23 +53,23 @@ Vastupidiselt tehnilisele kooslusele, millel oli kaks toimingulehte, on tootmise
 ## <a name="multilevel-phantom-bom-structures"></a>Mitmetasandilised fiktiivse koosluse struktuurid
 Fiktiivset reatüüpi saab kasutada mitmetasandilistes kooslusestruktuurides, nagu on näidatud järgmisel joonisel. Sellel joonisel tähistab (a) toote G kooslust ning (b) osade E ja F ning toote G protsessilehte. 
 
-![Toode G ja osa F koos protsessilehtedega](media/product-G-route-sheet-G.png)
+![Toode G ja osa F koos protsessilehtedega.](media/product-G-route-sheet-G.png)
 
 
 Järgmisel joonisel on näidatud tulemuseks saadud tootmise kooslus ja protsessileht, kui osade E ning F koosluseread on konfigureeritud nii, et reatüüp on Fiktiivne. Sellel joonisel tähistab (a) toote G kooslust ja (b) toote G protsessilehte.
 
-![Toode G](media/product-G.png)
+![Toode G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Fiktiivne ja protsessivõrk
 Fiktiivseid kooslusi saab kasutada ka protsessivõrguga koosluse puhul. Protsessivõrgus tehakse paralleelselt üht või mitut toimingut. Järgmisel joonisel on näidatud mitmetasandilises koosluses kasutatava protsessivõrgu näide. Sellel joonisel tähistab (a) toote G ja osa F kooslust ning (b) toote G ja osa F protsessilehte, millel on protsessivõrk.
 
-![Toode G ja osa F](media/product-G-part-F.png)
+![Toode G ja osa F.](media/product-G-part-F.png)
 
 
 Järgmisel joonisel tähistab (a) toote G ning osa F kooslust ning (b) toote G ja osa F protsessilehte.
 
-![Toode G ja osa F koos protsessilehtedega](media/product-G-part-F-with-route-sheet.png)
+![Toode G ja osa F koos protsessilehtedega.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

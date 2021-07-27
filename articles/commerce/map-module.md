@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ba6dadf7f96510ae55c41a74d53e3ca89f663ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020255"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344070"
 ---
 # <a name="map-module"></a>Kaardimoodul
 
@@ -38,13 +38,13 @@ Kaardimoodul töötab koos kaupluse valija mooduliga, et määrata kaupluste geo
 
 Järgmisel pildil on näide kaardimoodulist, mida kasutatakse kaupluste asukohtade lehel.
 
-![Kaupluse valija mooduli näide](./media/ecommerce-Storelocator.PNG)
+![Kaupluse valija mooduli näide.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 
 | Atribuudi nimi             | Väärtus                 | Kirjeldus |
 |---------------------------|-----------------------|-------------|
-| Pealkiri | Tekst | Mooduli pealkiri. |
+| Päis | Tekst | Mooduli pealkiri. |
 | Rõhknaela suvandid: vaikeikoon | Pilt | Rõhknaelasümboli pilt, mida kasutatakse kaardil kuvatud kaupluste puhul. |
 | Rõhknaela suvandid: aktiivse üksuse ikoon | Pilt | Rõhknaelasümboli pilt, mida kasutatakse kaardil valitud kaupluse puhul. |
 | Rõhknaela suvandid: ikooni vaikevärv | Tähemärkide string | Kaardil olevate rõhknaelasümbolite värvi tekstiline või kuueteistkümnendsüsteemis väärtus. |

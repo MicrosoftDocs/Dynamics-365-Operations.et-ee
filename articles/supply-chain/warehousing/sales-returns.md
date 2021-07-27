@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d460cab24ca73d43a0f055c5f65791968841e472
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 511652c50354a440d6a165d82cb9563ce1136040
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835506"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359049"
 ---
 # <a name="sales-returns"></a>Müügitagastused
 
@@ -33,7 +33,7 @@ Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla 
 ## <a name="return-order-process"></a>Tagastustellimuse protsess
 Järgmine näide annab ülevaate tagastustellimuse protsessist.  
 
-[![Tagastustellimuse protsess](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Tagastustellimuse protsess.](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 On kaks tagastustellimuse protsessi tüüpi: füüsiline tagastus ja ainult kreedit.
 
@@ -62,7 +62,7 @@ Tagastatud kauba autoriseerimise (RMA) töötlemine põhineb müügitellimuse fu
 ## <a name="create-a-return-order"></a>Tagastustellimuse loomine
 Tagastustellimuse protsess käivitub, kui klient võtab teie organisatsiooniga ühendust, et tagastada defektne või soovimatu toode ja/või et see krediteerida. Kui teie organisatsioon aktsepteerib tagastuse, dokumenteeritakse tagastus tagastustellimusega. See tagastustellimus muutub tagastatud toote sisemise töötlemise keskpunktiks. Järgmine illustratsioon näitab tagastustellimuse loomise protseduuri.  
 
-[![Protseduur tagastustellimuse loomiseks](./media/salesreturn02.png)](./media/salesreturn02.png)
+[![Protseduur tagastustellimuse loomiseks.](./media/salesreturn02.png)](./media/salesreturn02.png)
 
 ### <a name="create-a-return-order-header"></a>Tagastustellimuse päise loomine
 
@@ -177,7 +177,7 @@ Lisaks määratlemisele, kuidas tagastatud kaupu likvideerida, saavad likvideeri
 ## <a name="arrival-at-the-warehouse-for-inspection"></a>Kontrollimiseks lattu saabumine
 Enne kui saate tagastatud kaubad saatelehe sisestamisega varudes füüsiliselt vastu võtta, peavad kaubad läbima saabumise registreerimise ja valikulise kontrollimise. Järgmine näide annab ülevaate saabumisprotsessist. Järgmistes jaotistes on kirjeldatud iga etappi, mida illustratsioonis on näidatud.  
 
-[![Saabumisprotsess](./media/salesreturn03.png)](./media/salesreturn03.png)  
+[![Saabumisprotsess.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
 Protsessil on mitu muud variatsiooni, mida selles teemas ei käsitleta. Siin on mõned nendest variatsioonidest.
 
@@ -220,7 +220,7 @@ Tooteasenduse haldamiseks on kaks meetodit.
 
 Esimeses asenduses saab asenduskauba kliendile toimetada enne kauba tagastamist. See meetod on kasulik ka siis, kui kaup on masinaosa, mida ei saa eemaldada, välja arvatud juhul, kui selle asemele on võtta varuosa või kui soovite, et teie kliendil oleks asendustoode võimalikult kiiresti olemas. Esimene asendustellimus on sõltumatu müügitellimus. Päiseteave käivitatakse kliendi ja reateave tagastustellimuse kaudu. Asendustellimust saate redigeerida, töödelda ja kustutada tagastustellimusest sõltumatult. Asendustellimuse kustutamisel saate sõnumi, et tellimus loodi asendustellimusena. Järgmine illustratsioon näitab asendustellimuse protsessi.  
 
-![Esimene asendusprotsess](./media/SalesReturn04.png)
+![Esimene asendusprotsess.](./media/SalesReturn04.png)
 
 Asendustellimus hõlmab viidet asendustellimusele. Kui esimene asendustellimus luuakse tagastustellimusele enne defektse kauba tagastamist, ei saa te pärast defektse kauba tagastamist asenduse jaoks likvideerimiskoode valida.
 
@@ -228,7 +228,7 @@ Asendustellimus hõlmab viidet asendustellimusele. Kui esimene asendustellimus l
 
 Kui tarnite kliendile asenduskauba ja kasutate tagastustellimusel olevat likvideerimistegevust **Asenda ja kanna praaki** või **Asenda ja kanna kreeditisse**, kasutage järgmisel illustratsioonil näidatud protsessi.  
 
-![Asendusprotsess likvideerimisprotsessi kasutamisel](./media/SalesReturn05.png)
+![Asendusprotsess likvideerimisprotsessi kasutamisel.](./media/SalesReturn05.png)
 
 Asenduskaup tarnitakse, kasutades sõltumatut müügitellimust ehk asendusmüügitellimust. See müügitellimus luuakse tagastustellimuse jaoks saatelehe loomisel. Tellimusepäis kasutab kliendilt teavet, millele viidatakse tagastustellimuse päises. Reateavet kogutakse teabest, mis sisestatakse lehel **Asenduskaup**. Leht **Asenduskaup** peab olema täidetud ridadele, millel on sõnaga „asendama” algavad likvideerimistegevused. Siiski pole asenduskauba kogus ega identiteet kinnitatud ega piiratud. See käitumine võimaldab juhtumeid, kus klient soovib sama kaupa, kuid erineva konfiguratsiooni või suurusega, aga ka juhtumeid, kus kliendid soovivad täiesti erinevat kaupa. Vaikimisi sisestatakse lehele **Asenduskaup** identne kaup. Siiski saate valida teise kauba, tingimusel, et funktsioon on seadistatud. 
 
@@ -268,7 +268,7 @@ Tagastustellimused saab teie organisatsioonisiseselt kahe ettevõtte vahel lõpu
 
 Järgmine näide illustreerib minimaalset seadistust, mis on vajalik kahe ettevõtte jaoks kontsernisiseses suhtes osalemiseks ja kontserni kaubavahetuse eeliste kasutamiseks.  
 
-![Minimaalne seadistus](./media/SalesReturn06.png)
+![Minimaalne seadistus.](./media/SalesReturn06.png)
 
 Järgmises stsenaariumis on CompBuy ostu- ja CompSell müügiettevõte. Tavaliselt tarnib ettevõtte kaubad ostuettevõttesse või otsetarne saadetise stsenaariumites otse lõppkliendile. CompBuys on hankija IC\_CompSell määratletud kontsernisisese lõpp-punktina, mis on seotud ettevõttega CompSell. Samaaegselt on CompSellis klient IC\_CompBuy määratletud kontsernisisese lõpp-punktina, mis on seotud ettevõttega CompBuy. Mõlemas ettevõttes peavad olema määratletud sobivad tegevuspoliitika üksikasjad ja väärtuste vastendused. Otsetarne saadetise stsenaariumis luuakse müügiettevõttes kontsernisisene tagastustellimus, mis on ka kontsernisisene müügitellimus. Kontsernisisese tagastustellimuse tagastuse numbri saab CompSellis valida tagastuse numbriseeriast või selle saab kopeerida tagastuse numbrilt, mis on CompBuys algsele tagastustellimusele määratud. Neid tegevusi määrab tegevuspoliitikas **PurchaseRequisition** olevad tagastuse numbri sätted. Tagastuse numbri sünkroonimisel peate tegema plaani numbri kokkupõrgete ohu vähendamiseks olukorras, kus kaks ettevõtet kasutavad sama numbrijada.
 
@@ -276,7 +276,7 @@ Järgmises stsenaariumis on CompBuy ostu- ja CompSell müügiettevõte. Tavalise
 
 See stsenaarium hõlmab samas organisatsioonis kaht ettevõtet, nagu on näidatud järgmises näites.  
 
-![Lihtne kontsernisisene tagastus](./media/SalesReturn07.png)
+![Lihtne kontsernisisene tagastus.](./media/SalesReturn07.png)
 
 Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus või müügiettevõttes luuakse kliendi tagastustellimus. Teises ettevõttes luuakse vastav tellimus ja tagatakse, et hankija tagastustellimuse päise ja rea teave kajastaks kliendi tagastusreal olevaid sätteid. Loodav tagastustellimus võib olemasolevale kliendiarvele viidet lisada või seda välistada (**Otsi müügitellimust**). Kahe tellimuse saatelehti ja arveid saab individuaalselt töödelda. Näiteks ei pea te looma saatelehte hankija tagastustellimuse jaoks enne kliendi tagastustellimuse jaoks saatelehe loomist.
 
@@ -284,7 +284,7 @@ Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus v�
 
 Selle stsenaariumi saab luua, kui tüübi **Otsetarne** varasem müük on lõpule viidud ja kui ettevõttes, kes suhtleb kliendiga, eksisteerib kliendi suhtes arve. Järgmisel illustratsioonil on ettevõtte CompBuy tooted varasemalt kliendile Väline müünud ja arveldenud. Tooted lähetati kliendile otse ettevõttest CompSell kontsernisisese tellimusahela kaudu.  
 
-![Otsetarne saadetise tagastused kolme osapoole vahel](./media/SalesReturn08.png)
+![Otsetarne saadetise tagastused kolme osapoole vahel.](./media/SalesReturn08.png)
 
 Kui klient Väline soovib tooteid tagastada, luuakse kliendi jaoks ettevõttes CompBuy tagastustellimus (RMA02). Kontsernisisese keti loomiseks peab tagastustellimus olema märgitud otsetarne jaoks. Funktsiooni **Otsi müügitellimust** kasutamisel tagastusele kliendiarve valimiseks luuakse kontsernisisene tellimusahel, mis koosneb järgmistest dokumentidest.
 
@@ -306,7 +306,7 @@ Järgnevates näidetes tähistatakse tagastamise omahind kui **Lao omahind**.
 
 Tagastustellimus ei viita kliendiarvele. Tagastatud kaup krediteeritakse. Parameetrit **Kreediti parandus** ei valita tagastustellimuse arve või kreeditarve loomisel.  
 
-![Tagastustellimus ei viita kliendiarvele](./media/SalesReturn09.png)  
+![Tagastustellimus ei viita kliendiarvele.](./media/SalesReturn09.png)  
 
 >[Märkus.] Kauba põhihinda kasutatakse parameetri **Tagastamise omahind** vaikeväärtusena. Vaikehind erineb lao väljamineku ajal omahinnast. Seetõttu on mõju see, et 3 kadu on kuludesse kantud. Täiendavalt ei hõlma tagastustellimus allahindlust, mis anti kliendile müügitellimusel. Seetõttu esineb üleliigset krediiti.
 
@@ -314,7 +314,7 @@ Tagastustellimus ei viita kliendiarvele. Tagastatud kaup krediteeritakse. Parame
 
 Näide 2 on sama mis näide 1, kuid parameeter **Kreediti parandus** valitakse tagastustellimuse arve loomisel.  
 
-![Tagastustellimus krediiditäpsustuse valimisel ](./media/SalesReturn10.png)  
+![Tagastustellimus krediiditäpsustuse valimisel.](./media/SalesReturn10.png)  
 
 >[Märkus.] Pearaamatu sisestused sisestatakse negatiivsete parandustena.
 
@@ -322,7 +322,7 @@ Näide 2 on sama mis näide 1, kuid parameeter **Kreediti parandus** valitakse t
 
 Selles näites kasutatakse tagastustellimuse rea loomiseks funktsiooni **Otsi müügitellimust**. Parameetrit **Kreediti parandus** ei valita arve loomisel.  
 
-![Tagastustellimuse rida, mis luuakse funktsiooni Otsi müügitellimust kasutades ](./media/SalesReturn11.png)  
+![Tagastustellimuse rida, mis luuakse funktsiooni Otsi müügitellimust kasutades.](./media/SalesReturn11.png)  
 
 >[Märkus.] **Allahindlus** ja **Tagastamise omahind** on korrektselt seatud. Seetõttu toimub kliendiarve täpne tühistamine.
 

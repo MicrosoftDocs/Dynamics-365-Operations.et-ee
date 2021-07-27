@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360812"
 ---
 # <a name="mobile-app-home-page"></a>Mobiilirakenduse avaleht
 
@@ -39,7 +39,7 @@ Mobiilirakendus võimaldab teie organisatsioonil teha äriprotsessid kättesaada
 ## <a name="elements-of-the-mobile-app"></a>Mobiilirakenduse elemendid
 Mobiilirakenduse navigeerimispaan koosneb neljast peamisest osast: armatuurlaud, tööruumid, lehed ja tegevused. 
 
-[![Navigeerimispaani põhimõtted mobiilirakenduses](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Navigeerimispaani põhimõtted mobiilirakenduses.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Rakenduse käivitamisel avaneb **armatuurlaud**.
 2. Armatuurlaual näete avaldatud **tööruumide** loendit.
@@ -53,7 +53,7 @@ Mobiilirakenduse navigeerimispaan koosneb neljast peamisest osast: armatuurlaud,
 ## <a name="implementation-process"></a>Juurutusprotsess
 Järgmisel joonisel on näidatud nii Microsofti pakutavate kui ka kohandatud mobiilsete tööruumide juurutusprotsess. 
 
-[![Mobiilirakenduste juurutamise protsess](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Mobiilirakenduste juurutamise protsess.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Microsofti pakutavaid kui ka kohandatud mobiilseid tööruume. Esimeses veerus toodud numbrid vastavad eelmisel joonisel kujutatud nummerdatud etappidele.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804449"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352272"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Isikupärastatud tootesoovitustest loobumine
 
@@ -44,11 +44,11 @@ Commerce’i kontori kontohalduses saavad jaemüüjad loobuda kasutajate nimel.
 1. Otsige kontori avalehelt **kõiki kliente**.
 1. Otsige ja valige klient ning seejärel valige kiirkaart **Jaemüük**.
 
-    ![Jaemüügi kiirkaart](./media/Disablepersonalizationpart1.png)
+    ![Jaemüügi kiirkaart.](./media/Disablepersonalizationpart1.png)
 
 1. Jaotises **Privaatsus** seadke suvand **Keela isikupärastamine** väärtusele **Jah**.
 
-    ![Privaatsussätted](./media/Disablepersonalizationpart2.png)
+    ![Privaatsussätted.](./media/Disablepersonalizationpart2.png)
 
 1. Valige **Salvesta** ja sulgege leht.
 
