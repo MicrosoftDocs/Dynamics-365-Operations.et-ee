@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350690"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Töövoo kinnitusetappide konfigureerimine
 
@@ -156,7 +156,7 @@ Järgige neid etappe, et määrata, kellele kinnitusetapp tuleb määrata.
 
     - **Üksikkinnitaja** – dokumendile rakenduva toimingu määrab esimene isik, kes vastab. Näiteks Sam on edastanud kuluaruande summale 15 000 USA dollarit. Kuluaruanne on praegu määratud Suele, Jole ja Billile. Kui Sue reageerib dokumendile esimesena, rakendatakse tema võetud meetmeid dokumendil. Kui Sue lükkab dokumendi tagasi, lükatakse dokument tagasi ja saadetakse uuesti Samile. Kui Sue kinnitab dokumendi, saadetakse see Annile kinnitamiseks.
 
-        ![Töövoog, millel on kinnitamisprotsess](./media/workflow_multipleusersinstep.gif)
+        ![Töövoog, millel on kinnitamisprotsess.](./media/workflow_multipleusersinstep.gif)
 
     - **Enamik kinnitajaid** – tegevus, mis rakendatakse dokumendile, määratakse siis, kui enamik kinnitajaid vastab. Näiteks Sam on edastanud kuluaruande summale 15 000 USA dollarit. Kuluaruanne on praegu määratud Suele, Jole ja Billile. Kui Sue ja Jo kinnitavad dokumendi esimesena, siis rakendatakse nende võetud meetmeid dokumendil.
 

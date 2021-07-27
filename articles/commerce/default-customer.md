@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799175"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349598"
 ---
 # <a name="create-a-default-customer"></a>Vaikekliendi loomine
 
@@ -47,7 +47,7 @@ Kliendigrupi loomiseks tehke järgmist.
 
 Järgmine pilt näitab mitmeid konfigureeritud kliendigruppe.
 
-![Kliendigrupid](media/customer-groups.png)
+![Kliendigrupid.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Kliendi aadressiraamatu loomine
 
@@ -63,7 +63,7 @@ Kliendi aadressiraamatu loomiseks toimige järgmiselt.
 
 Järgmine pilt näitab aadressiraamatu näidet.
 
-![Aadressiraamat](media/address-book.png)
+![Aadressiraamat.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>Vaikekliendi loomine
 
@@ -86,11 +86,11 @@ Vaikekliendi loomiseks tehke järgmist.
 
 Järgmine pilt näitab kliendi loomise näidet.
 
-![Vaikekliendi loomine](media/default-customer-creation.png)
+![Vaikekliendi loomine.](media/default-customer-creation.png)
 
 Järgmine pilt näitab vaikekliendi konfiguratsiooni.
 
-![Kliendi konfiguratsiooni näide](media/default-customer-configuration1.png)
+![Kliendi konfiguratsiooni näide.](media/default-customer-configuration1.png)
 
 Enamik kliendiandmete kuva vaikeväärtusi võib jääda, kuid muuta tuleb kaht väärtust.
 
@@ -100,13 +100,13 @@ Enamik kliendiandmete kuva vaikeväärtusi võib jääda, kuid muuta tuleb kaht 
 
 Järgmine pilt näitab kliendi konfiguratsiooni näidet.
 
-![Kliendi konfiguratsiooni näide](media/default-customer-configuration2.png)
+![Kliendi konfiguratsiooni näide.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kanalite ülevaade](channels-overview.md)
 
-[Kanali seadistamise eeltingimused](channels-prerequisites.md)
+[Kanali häälestuse eeltingimused](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

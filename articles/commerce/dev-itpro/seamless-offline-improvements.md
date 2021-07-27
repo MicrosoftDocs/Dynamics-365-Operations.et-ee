@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019953"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348264"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Kinkekaardi ja krediiditeatise toimingute sujuv võrguühenduseta lülitamine
 
@@ -36,7 +36,7 @@ Samas kui kassa kaotab ühenduvuse pärast kinkekaardi kandesse lisamist, võib 
 
 Et lubada funktsioonil lõpetada kinkekaardi kanded pärast võrguühenduseta režiimi lülitamist, avage vahekaart **Sisestamine** lehel **Commerce’i parameetrid**. Sellel vahekaardil otsige üles kiirkart **Kinkekaart** ja seadke suvand **Luba ühenduseta režiimis kinkekaardi kannete lõpetamine** valikule **Jah**.
 
-![Võrguühenduseta kinkekaardi seadistamine](../media/gift.png)
+![Võrguühenduseta kinkekaardi seadistamine.](../media/gift.png)
 
 Commerce’i parameetrid on tavaliselt vahemällu talletatud. Seega pärast seda, kui selle parameetri seadistus on värskendatud ja jaotusgraafik on käivitatud sünkroonima muudatuse kanaliga, võib muudatuse jõustumiseks kuluda kuni 24 tundi. Muudatuse kohe jõustumiseks lähtestage teenus Microsoft Internet Information Services (IIS).
 
@@ -46,7 +46,7 @@ Sarnaselt sisemistele kinkekaartidele on krediiditeatised Commerce Headquartersi
 
 Et lubada funktsioonil lõpetada krediiditeatise kanded pärast võrguühenduseta režiimi lülitamist, avage vahekaart **Sisestamine** lehel **Commerce’i parameetrid**. Sellel vahekaardil otsige üles kiirkart **Krediiditeatis** ja seadke suvand **Luba ühenduseta režiimis krediiditeatise kannete lõpetamine** valikule **Jah**.
 
-![Võrguühenduseta krediiditeatise seadistamine](../media/creditmemo.png)
+![Võrguühenduseta krediiditeatise seadistamine.](../media/creditmemo.png)
 
 Commerce’i parameetrid on tavaliselt vahemällu talletatud. Seega pärast seda, kui selle parameetri seadistus on värskendatud ja jaotusgraafik on käivitatud sünkroonima muudatuse kanaliga, võib muudatuse jõustumiseks kuluda kuni 24 tundi. Muudatuse koheselt jõustamiseks lähtestage IIS.
 

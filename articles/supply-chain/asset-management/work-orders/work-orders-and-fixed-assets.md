@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65adcd07f1649b2e4eb2e2528507bb15631782ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69653d0dde2d3675a5af5cdc032a3c9c9462d705
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354080"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Töökäsud ja põhivarad
 
@@ -34,31 +34,31 @@ Varahalduses võivad varad olla seotud põhivaradega ja te saate luua nende vara
 
 Alltoodud joonis näitab mooduli **Projektihaldus ja -arvestus** investeerimisprojekti ja töökäsu tööprojekti vahelist seost.
 
-![Joonis 1](media/24-work-orders.png)
+![Joonis 1.](media/24-work-orders.png)
 
 Järgmises toimingus kirjeldatakse varade, töökäskude, töökäskude tööprojektide ja põhivarade vahelist seost.
 
 1. Loote vara, mille seostate mõne põhivaraga.
 
-![Joonis 2](media/25-work-orders.png)
+![Joonis 2.](media/25-work-orders.png)
 
 2. Kui seadistate töökäsu tüüpe lehel **Töökäsu tüübid** (**Varahaldus** > **Seadistus** > **Töökäsud** > **Töökäsu tüübid**), loote investeeringute käitlemiseks töökäsu tüübi. Vt ka [Töökäskude tüübid](../setup-for-work-orders/work-order-types.md).
 
-![Joonis 3](media/26-work-orders.png)
+![Joonis 3.](media/26-work-orders.png)
 
 3. Kui seadistate Töökäskude projektigrupid lehe **Töökäsu projekti seadistamine** vahekaardil **Projektigrupp** (**Varahaldus** > **Seadistus** > **Töökäsud** > **Projekti seadistus**), loote seose investeeringuteks kasutatava töökäsu tüübi ja projektigrupi, mis on investeeringuteks loodud mooduli **Projektihaldus ja -arvestus** lehel **Projektigrupid** (**Projektihaldus ja -arvestus** > **Seadistus** > **Sisestamine** > **Projektigrupid**).
 
-![Joonis 4](media/27-work-orders.png)
+![Joonis 4.](media/27-work-orders.png)
 
 4. Kui loote töökäsu, mis on seotud põhivaraga, valite investeeringute käitlemiseks kasutatava töökäsu tüübi, näiteks **Investeering**.
 
 5. Töökäsu loomisel kuvatakse seotud töökäsu tüüp lehel **Kõik töökäsud**.
 
-![Joonis 5](media/28-work-orders.png)
+![Joonis 5.](media/28-work-orders.png)
 
 6. Kui töökäsk on loodud, siis luuakse töökäsuga seotud projekt mooduli **Projektihaldus ja -arvestus** lehel **Kõik projektid** (**Projektihaldus ja -arvestus** > **Projektid** > **Kõik projektid**). Projektiga seotud teabe vaatamiseks valige mooduli **Varahaldus** lehe **Kõik töökäsud** üksikasjade vaates kiirkaardi **Rea üksikasjad** vahekaardi **Üldine** väljal **Projekti ID** kuvatud link (**Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud**).
 
-![Joonis 6](media/29-work-orders.png)
+![Joonis 6.](media/29-work-orders.png)
 
 7. Põhivaraga seotud projektide ülevaate vaatamiseks valige **Põhivarad** > **Põhivarad** > **Põhivarad**, seejärel valige väljal **Põhivara kood** üksikasjade vaate avamiseks soovitud põhivara link. Laiendage lehe paremas servas paan **Seostuv teave** ja valige kiirkaart **Seotud projektid**.
 

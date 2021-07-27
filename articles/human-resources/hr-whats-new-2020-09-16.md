@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fe3ac2393e66a00e070d8cb6862c29625d39b53
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b1386cca9fd39c2cf021e87fcc33da2bbda89630
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353586"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Mis on Dynamics 365 Human Resources-is uut või mida on muudetud (16. september 2020)
 
@@ -38,7 +38,7 @@ Selles teemas kirjeldatakse Dynamics 365 Human Resourcesi uusi või muutunud fun
 
 - Kui seate **Human Resourcesi jagatud parameetrite** **täiustatud juurdepääsus** suvandi **Piira juurdepääsu töötaja teabele** väärtuseks jah, kuvatakse soodustuste vormides ainult asjakohaseid töötajaid (393384).
 
-- Uued kalendri loomise suvandid üksuses **WorkCalendar** (477055).<br>- Vaikelõppaeg<br>-    Vaikealgusaeg<br>- Kas reede on tööpäev?<br>- Kas esmaspäev on tööpäev?<br>- Kas laupäev on tööpäev?<br>- Kas pühapäev on tööpäev?<br>- Kas neljapäev on tööpäev?<br>- Kas teisipäev on tööpäev?<br>- Kas kolmapäev on tööpäev?<br>- Töökalendri pühade ID
+- Uued kalendri loomise suvandid üksuses **WorkCalendar** (477055).<br>- Vaikelõppaeg<br>- Vaikealgusaeg<br>- Kas reede on tööpäev?<br>- Kas esmaspäev on tööpäev?<br>- Kas laupäev on tööpäev?<br>- Kas pühapäev on tööpäev?<br>- Kas neljapäev on tööpäev?<br>- Kas teisipäev on tööpäev?<br>- Kas kolmapäev on tööpäev?<br>- Töökalendri pühade ID
 
 - Üksus **LeaveBankTransactionV1** sisaldab nüüd põhjusekoodi (477823).
 
@@ -99,9 +99,9 @@ See funktsioon pakub ka töövoosuvandeid, mis kuvatakse personalitoimingute vor
 
 - [Organisatsiooni ja personalijuhtimise töövoo kasutuskogemuse täiustused](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) Dynamics 365 2020. aasta väljalaskevoo 2 plaanis
 
-![Mulle määratud tööüksused](./media/hr-workflow-work-items-assigned-to-me.png)
+![Mulle määratud tööüksused.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![Töövoo üksuste kiirjuurdepääs](./media/hr-workflow-quick-access.png)
+![Töövoo üksuste kiirjuurdepääs.](./media/hr-workflow-quick-access.png)
 
 ### <a name="leave-and-absence-calendar"></a>Puhkuste ja puudumiste kalender
 

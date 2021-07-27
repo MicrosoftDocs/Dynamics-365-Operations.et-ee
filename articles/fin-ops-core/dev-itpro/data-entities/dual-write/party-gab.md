@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346616"
 ---
 # <a name="party-and-global-address-book"></a>Osapool ja globaalne aadressiraamat
 
@@ -41,7 +41,7 @@ Osapoole mudelit kasutatakse sageli organisatsioonide ja inimeste vaheliste keer
 
 Järgmine pilt näitab osapoole andmemudelit.
 
-![Osapoole andmemudel](media/party-gab-image1.png)
+![Osapoole andmemudel.](media/party-gab-image1.png)
 
 > [!TIP]
 > Kui proovite luua uut kontokirjet, kasutage välja **Osapool** kirje otsimiseks nime järgi. Sel viisil, kui te kirje leiate, peate selle lihtsalt valima. Süsteem täidab automaatselt kõik osapoole andmed. Kõiki nõutavaid välju ei tule käsitsi täita. Selline käitumine võib ilmneda valmislahendusega lehtedel **Konto**, **Kontakt** ja **Hankija** .
@@ -58,7 +58,7 @@ Sõltuvalt ärikontekstist võib inimene või organisatsioon täita rohkem kui �
 
 Järgmisel joonisel on näidatud globaalse aadressiraamatu andmemudel.
 
-![Globaalse aadressiraamatu andmemudel](media/party-gab-image2.png)
+![Globaalse aadressiraamatu andmemudel.](media/party-gab-image2.png)
 
 ## <a name="contact"></a>Kontakt
 
@@ -94,7 +94,7 @@ Need seosed salvestatakse tabelisse **Kontakt osapoole jaoks**. Teavet leiate va
     + Kui valite **Seostatud Kontakti** välja, valite sellega vöödiga kontakti, mis on **Isiku** tüüp.
     + Kui valite väärtuse väljal **Seotud konto** või **Seotud Hankija** , valite organisatsiooni.
 
-    ![Määratud Organisatsiooni vahekaart Kontaktilehel](media/party-gab-image3.png)
+    ![Associated Organizations vahekaart Kontaktilehel.](media/party-gab-image3.png)
 
     Sõltumata teie valikust luuakse seos osapoole tasemel ja see on rakendatav kõigile osapoole rollidele ning talletatakse üksuses **Kontakt osapoole jaoks** .
 
@@ -109,7 +109,7 @@ Kui avate **Kontakti** rea, kus nii väli **On Klient** kui ka **On Hankija** on
 
 Uus vahekaart **Aadressid** on sisse viidud lehtedele **Konto**, **Kontakt** ja **Hankija**. See vahekaart toetab mitut postiaadressi ruudustiku abil, nagu näha järgmises illustratsioonis.
 
-![Ruudustik postiaadresside jaoks](media/party-gab-image4.png)
+![Ruudustik postiaadresside jaoks.](media/party-gab-image4.png)
 
 Ruudustik sisaldab järgmisi veerge.
 
@@ -121,7 +121,7 @@ Ruudustiku kohal saate kasutada nuppu **Uus Aadress**, et luua nii palju sihtaad
 
 Väljad **Aadress 1** ja **Aadress 2** vahekaardil **Kokkuvõte** lehel **Konto** vastavad vastavalt **Kohaletoimetamise** ja **Arve** aadressidele.
 
-![Postiaadresside kokkuvõtte vahekaart](media/party-gab-image5.png)
+![Postiaadresside kokkuvõtte vahekaart.](media/party-gab-image5.png)
 
 Väljad **Aadress 1**, **Aadress 2** ja **Aadress 3** vahekaardil **Kokkuvõte** lehel **Kontakt** vastavad vastavalt **Ettevõtte**, **Tarne** ja **Arve** aadressidele.
 
@@ -129,7 +129,7 @@ Väljad **Aadress 1**, **Aadress 2** ja **Aadress 3** vahekaardil **Kokkuvõte**
 
 Uus vahekaart **Elektroonilised Aadressid** on sisse viidud lehtedele **Konto**, **Kontakt** ja **Hankija**. See vahekaart toetab mitut elektroonilist aadressi ruudustiku abil, nagu näha järgmises illustratsioonis.
 
-![Ruudustik elektronaadressi jaoks](media/party-gab-image6.png)
+![Ruudustik elektronaadressi jaoks.](media/party-gab-image6.png)
 
 Ruudustik sisaldab järgmisi veerge.
 
@@ -205,7 +205,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
     | Osapoole id (väli) | Täpne Vaste |
     | Valige (väli) | (tühi) |
 
-    ![Kontode duplikaatreegel](media/duplicate-rule-1.PNG)
+    ![Kontode duplikaatreegel.](media/duplicate-rule-1.PNG)
 
 10. Laiendage tabeli **Kontod** duplikaadituvastusreeglit, määrates järgmised väljad.
 
@@ -221,7 +221,7 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
     | Osapoole Id (väli) | Täpne Vaste |
     | Valige (väli) | (tühi) |
 
-    ![Kontaktidee duplikaatreegel](media/duplicate-rule-2.PNG)
+    ![Kontaktide duplikaatreegel.](media/duplicate-rule-2.PNG)
 
 11. Kui olete olemasolev topeltkirjutusega kasutaja, järgige juhiseid [Täiendage osapoole ja globaalse aadressiraamatu mudelit](upgrade-party-gab.md) ning täiendage oma andmeid.
 
@@ -300,11 +300,11 @@ Lisateavet vt [topeltkirjutuse vastendamise viitest](mapping-reference.md).
 + Elektrooniliste aadresside vahekaardile määratud elektroonilised aadressid ei tööta **Konto**, **Kontakt** ja **Hankija** vormidel tabelist `msdyn_partyelectronicaddress` . See teave ei mõjuta seotud kandeid (nt müügitellimus, pakkumine ja ostutellimus). Plaanime selle probleemi astmelises väljalaskes lahendada. Konto elektroonilise aadressi väljadel olevad andmed ja kontaktikirjed jätkavad tööd kannetega, nagu müügitellimus, pakkumine ja ostutellimus.
 + Rakendustes Finance and Operations saate luua kontaktikirje vormilt **Lisa Kontakt** . Kui proovite luua uut kontakti vormilt **Kuva Kontakt** tegevus nurjub. See on teadaolev probleem.
 
-    ![Teadaolev probleem Kontakti Lisamisega](media/party-gab-contact-issue.png)
+    ![Teadaolev probleem Kontakti Lisamisega.](media/party-gab-contact-issue.png)
 
 + **Esialgne sünkroonimine** ei toeta **Saadaval Alates** ja **Saadaval Kuni** väljasid **OsapooleKontakt** , kuna DIXF teisendab väärtuse täisarvu asemel stringiks. Teisendus käivitab tõrke `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Kui postiaadressi kasutatakse rohkem kui ühe põhjuse jaoks, näiteks ärisidemete aadressi ja arveldusaadressi, peaks see ilmuma nii, nagu `Business;Invoice` nagu näidatud järgmisel pildil. Kui lisate väärtuste vahele ruumi, kuvatakse tõrketeade.
 
-    ![Teadaolev probleem Aadressiga](media/party-gab-address-issue.png)
+    ![Teadaolev probleem Aadressiga.](media/party-gab-address-issue.png)
 
 + Te ei saa sisestada edasisuunas postiaadressi, kasutades topeltkirjutusega Finance and Operations rakendust, sest Dataverse ei toeta kuupäeva mõju. Kui sisestate rakenduse abil tulevikku ajastatud postiaadressi kasutades rakendust Finance and Operations , sünkroonitakse see täielikult Dataverse -i ja te näete aadressi kasutajaliideses kohe. Selle kirje mis tahes uuenduste tulemuseks on viga, kuna see on tulevikku ajastatud, kuid mitte rakenduses Finance and Operations praegu kehtiv.

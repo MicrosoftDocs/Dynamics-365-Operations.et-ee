@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187993"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355031"
 ---
 # <a name="overhead-calculation"></a>Üldkulude arvutus
 
@@ -48,7 +48,7 @@ Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise prot
 
 Üldkulude arvutus käivitatakse versioonist sõltumatult. Seetõttu saate arvutada eelarveversiooni enne tegelikku versiooni. Üldkulude arvutus koosneb neljast etapist, nagu näha alltoodud joonisel. Igas etapis luuakse töölehe päis, millel on töölehe kanded. See töölehe päis säiiltab sisendandmeid iga arvutusetapi kohta. Igale töölehe reale rakendatakse poliitikad ja reeglid ning väljundina luuakse kulukirjed. Seega on teil alati olemas põhjalik ülevaade. 
 
-[![Üldkulude arvutus](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Üldkulude arvutus.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektri üldkulude arvutamine ja eraldamine
 Finantsaruandluses on mõned kulud, näiteks elekter, registreeritud põhisummana. Seetõttu ei pakuta kuluarvestuseks üksikasjalikku juhtimisülevaadet. Kuluarvestuses peavad kulud liikuma läbi organisatsiooniüksuste, et pakkuda korrektset juhtimisülevaadet kõigi organisatsiooniüksuste ja -tasemete kohta. See voog peab põhinema tarbimise või õiglase hindamise täpsel kirjendamisel. Pearaamatus, saab elektrikulu sisestada nii, nagu on näidatud järgmises tabelis.
@@ -618,7 +618,7 @@ Lisateavet vt teemast [Üldkulude arvutamine](cost-rollup.md#perform-overhead-ca
 
 Eraldamist kasutatakse kuluobjekti saldo eraldamiseks teistele kuluobjektidele, rakendades eraldamisalust. Finance toetab vastastikuse eraldamise meetodit. Vastastikuse eraldamise meetodi puhul tuvastatakse täiendavate kuluobjektide vahetatavad vastastikused teenused. Süsteem määrab automaatselt eraldamiste tegemise õige järjekorra. Kuluobjekti saldo eraldatakse üksiku eraldamisalusena. Toetatakse eraldamisi kuluobjektide dimensioonide ja nende vastavate liikmete seas. Eraldamisjärjekorda reguleerib kulujuhtseade. 
 
-[![Vastastikune meetod](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Vastastikune meetod.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Kulueraldamise määratlemine
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837797"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343672"
 ---
 # <a name="schedule-maintenance-plans"></a>Hoolduskavade plaanimine
 
@@ -52,14 +52,14 @@ Ennetav hoolduskavade plaanimine loob kalendri varade kohta seadistatud hooldusp
 
 5. Klõpsake **OK**, et alustada hooldusgraafiku kannete loomist varade kohta. Loodud kandeid näidatakse loendilehel **Kõik hooldusgraafikud**. Järgnev illustratsioon näitab dialoogi **Plaani hoolduskavad** näidet.
 
-![Joonis 1](media/09-preventive-maintenance.png)
+![Joonis 1.](media/09-preventive-maintenance.png)
 
 - Dialoogis **Plaani hoolduskavad** saate seadistada pakett-tööd kiirkaardil **Käivita taustal**, et kalendri kannete loomine toimuks automaatselt regulaarsete intervallidega.  
 - Kui plaanite ennetava hoolduse, ei looda hooldusgraafiku ridu, mille oodatav alguskuupäev ja kellaaeg on varasemad kui süsteemi kuupäev ja kellaaeg.  
 
 Alloleval joonisel on kujutatud graafiline illustratsioon ajapõhisest hoolduskava arvutusest.  
 
-![Joonis 2](media/10-preventive-maintenance.jpg)
+![Joonis 2.](media/10-preventive-maintenance.jpg)
 
 Loenduripõhistest hoolduskavadest: allolevatel joonistel kuvatakse kahte erinevat loenduri registreerimise tsüklit. Need põhinevad hoolduskaval, mis on seadistatud vara "V0001" jaoks ja eeldatakse, et vara (auto) sõidab iga kuu ligikaudu 2000 km.
 
@@ -69,9 +69,9 @@ Järgmisel joonisel registreeritakse igal kuul 2000 või enam km. Seetõttu luua
 
 Siin kirjeldatud näidete põhjal on näha, et kõik vara kohta tehtud loenduri registreeringud näitavad tendentsi, mis kirjeldab vara kulumist. Seda tendentsi kasutatakse arvutuse aluseks hoolduskava plaanimise ajal.
 
-![Joonis 3](media/11-preventive-maintenance.png)
+![Joonis 3.](media/11-preventive-maintenance.png)
 
-![Joonis 4](media/12-preventive-maintenance.png)
+![Joonis 4.](media/12-preventive-maintenance.png)
 
 
 

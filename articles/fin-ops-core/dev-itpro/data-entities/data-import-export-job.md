@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937326"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351015"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -106,7 +107,7 @@ Vastendamisvaateid on kaks: **Vastendamise visualiseering**, mis on vaikevaade, 
 
 Lehel saab luua vastenduse, valides **Allika vastendamise loomine**. Loodud vastendus toimib nagu automaatne vastendus. Seega tuleb vastendamata väljad käsitsi vastendada.
 
-![Andmetüüpide vastendamine](./media/dixf-map.png)
+![Andmetüüpide vastendamine.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Impordi- või eksporditöö turvalisuse kontrollimine
 Juurdepääsu tööruumile **Andmehaldus** saab piirata, et mitte-administraatorist kasutajad pääseksid juurde ainult konkreetsetele andmetöödele. Juurdepääs andmetööle tähendab täielikku juurdepääsu selle töö läbiviimise ajaloole ja juurdepääsu koondamistabelitele. Seetõttu tuleb veenduda, et andmetöö loomisel oleksid paigas sobivad juurdepääsu kontrollimismehhanismid.
@@ -132,7 +133,7 @@ Töö saab käivitada ühe korra, valides pärast töö määratlemist nupu **Im
 ## <a name="validate-that-the-job-ran-as-expected"></a>Kontrollimine, et töö toimus õigesti
 Töö ajalugu on tõrkeotsinguks ja uurimiseks saadaval nii impordi- kui ka eksporditööde puhul. Varasemad töötsüklid on korraldatud ajavahemike alusel.
 
-![Töö ajaloo vahemikud](./media/dixf-job-history.md.png)
+![Töö ajaloo vahemikud.](./media/dixf-job-history.md.png)
 
 Iga töötsükli puhul kuvatakse järgmised andmed.
 

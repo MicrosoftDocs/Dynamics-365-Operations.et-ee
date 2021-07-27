@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020135"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352830"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>Maksuarvestuse jõudlus mõjutab kandeid
 
@@ -36,7 +36,7 @@ Järgmisena saate kindlaks teha, kas mõni järgmistest tingimustest on täidetu
 - Mitu seanssi töötleb sama kande maksuarvestust samal ajal.
 - Kandel on mitu rida ja vaadet uuendatakse reaalajas. Näiteks välja **Arvutatud käibemaksusumma** lehel **Pearaamat** uuendatakse reaalaja jooksul rea väljade muutudes.
 
-   [![Arvutatud käibemaksusumma väli päevaraamatu kviitungi lehel](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![Arvutatud käibemaksusumma väli päevaraamatu kviitungi lehel.](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 Kui mis tahes tingimus on täidetud, viivitage maksuarvestusega.
 
@@ -53,11 +53,11 @@ Vaadake üle väljakutsepinu ajajoon, et teada saada, kas järgmised probleemid 
 
 - Kande tulemusena lõpetab süsteem vastamise, kuni seanss lõpeb. Seetõttu ei saa kanne maksutulemust arvutada. Järgmine näide näitab teateboksi "Sessioon lõpetatud", mille te saate.
 
-    [![Sessioon lõpetatud teade](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![Sessiooni lõpetanud teade.](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - Meetod **TaxUncommitted** võtab rohkem aega kui teised meetodid. Näiteks järgmisel joonisel võtab meetod **TaxUncommitted::updateTaxUncommitted()** aega 43 347,42 sekundit, kuid teiste meetodite puhul kulub 0,09 sekundit.
 
-    [![Meetodite kestused](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![Meetodite kestused.](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>Maksuarvestuse kohandamine ja kutsumine
 

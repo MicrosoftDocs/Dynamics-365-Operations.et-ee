@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893976"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351742"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast
 
@@ -40,7 +40,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 3. Valige jaotises **Konfiguratsiooni pakkujad** paan **Microsoft**.
 3. Valige paanil **Microsoft** suvand **Hoidlad**.
 
-    ![Elektroonilise aruandluse tööruum](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Elektroonilise aruandluse tööruum.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Valige lehel **Konfiguratsioonihoidlad** ruudustikus olemasolev hoidla, mille tüüp on **Globaalne**. Kui hoidlat ei kuvata ruudustikus, tehke järgmist.
 
@@ -52,7 +52,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 
 5. Valitud hoidla elektroonilise aruandluse konfiguratsioonide loendi vaatamiseks valige käsk **Ava**.
 
-    ![Konfiguratsioonihoidlate leht](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Konfiguratsioonihoidlate leht.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Ühe konfiguratsiooni importimine
 
@@ -63,7 +63,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
     > [!NOTE]
     > Nupp **Impordi** ei ole saadaval elektroonilise aruandluse konfiguratsiooni versioonide puhul, mis on juba praeguses Finance'i eksemplaris olemas.
 
-    ![Konfiguratsioonide hoidla leht](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfiguratsioonihoidla leht.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtreeritud konfiguratsioonide importimine
 
@@ -77,7 +77,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 4. Valige kiirkaardil **Konfiguratsioonid** käsk **Impordi**, et laadida filtreeritud konfiguratsioonid globaalsest hoidlast praegusesse eksemplari.
 5. Valige kiirkaardil **Konfiguratsioonid** käsk **Lähtesta filter**, et puhastada määratletud valikutingimused.
 
-    ![Konfiguratsioonihoidla leht](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfiguratsioonihoidla leht.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Olenevalt ER-i sätetest kontrollitakse konfiguratsioone pärast importimist. Võib-olla teavitatakse teid leitud vasturääkivustest. Probleemid tuleb enne imporditud konfiguratsiooni versiooni kasutamist lahendada. Lisateavet leiate selle teemaga seotud ressursside loendist.

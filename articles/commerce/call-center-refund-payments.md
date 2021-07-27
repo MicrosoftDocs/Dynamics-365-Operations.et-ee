@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799585"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351365"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Tagasimaksete töötlemine kõnekeskustes
 
@@ -37,7 +37,7 @@ Kõnekeskus lähtub tagastustellimusele rakendatava makseviisi määramisel algs
 
     Järgmisel joonisel on toodud konfiguratsioon sellise stsenaariumi korral, kus klient tagastab tooted, mis pärinevad USD vääringuga lingitud müügitellimusest, ja mille eest algselt tasumiseks kasutati tavalist või tšekipõhist maksetüüpi. Selles stsenaariumis väljastatakse kliendile tagasimakse süsteemi genereeritud tagasimaksetšeki kaudu. AR-makseviis **REF-CHK** on konfigureeritud tagasimaksetšeki maksetüübina.
 
-    ![Kõnekeskuse tagasimakseviiside konfigureerimine tavaliste ja tšekipõhiste algsete maksete korral](media/callcenterrefundmethods.png)
+    ![Kõnekeskuse tagasimakseviiside konfigureerimine tavaliste ja tšekipõhiste algsete maksete korral.](media/callcenterrefundmethods.png)
 
 - **Krediitkaart** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati krediitkaarti, rakendab kõnekeskuse tagasimakseloogika tagastustellimusele sama algse krediitkaardi.
 - **Kliendikaart** – kui loodud tagastustellimus viitab algsele tellimusele, mille eest maksmiseks kasutati kliendikaarti, rakendab kõnekeskuse tagasimakseloogika tagasimakse samale algsele kliendikaardile.

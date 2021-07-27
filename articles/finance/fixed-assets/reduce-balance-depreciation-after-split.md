@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826247"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356771"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist
 
@@ -37,7 +37,7 @@ Näiteks kehtivad järgmised tingimused.
 - Esimese finantsaasta kulum võrdub 18 000 USD-ga, igakuine kulum võrdub 150 USD-ga ja vara amortiseeritakse seejärel summas 738.75 USD kuni novembrini 2019.
 - Novembris 2019 tükeldatakse 80 protsenti varast teiseks põhivaraks.
 
-[![Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Väheneva jääkväärtuse kuluarvestusmeetod pärast tükeldamist.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Algse vara kulumi summa on $1822.25. See summa võrdub raamatupidamisliku jääkväärtusega enne tükeldatud kande sisestamist (9111.25 USD), pluss soetuse korrigeerimine, mis luuakse tükeldatud kande (8000 USD) sisestamisel, pluss kulumi korrigeerimine, mis luuakse tükeldatud kande (711 USD) jooksul. Seetõttu on teise aasta kulum (1822.25 × 18 protsenti) ÷ 12 = 27.33 USD.
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271397"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350324"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Rakenda mõõtühiku sätted
 
@@ -32,7 +32,7 @@ Toodet saab müüa erinevates üksustes, näiteks "igaüks", "paar" ja "tosin." 
 
 Järgmise illustratsiooni näites on üksuse mõõtühik **ea** (iga) Commerce peakorteri toote jaoks konfigureeritud.
 
-![Näide tootest, mis on konfigureeritud mõõtühikuga Commerce peakorteris](./media/Productunit-headquarters.PNG)
+![Näide tootest, mis on konfigureeritud mõõtühikuga Commerce peakorteris.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Mõõtühiku rakendamise ja näitamise tugi on saadaval Commerce versioonis 10.0.19.
@@ -54,11 +54,11 @@ Mõõtühiku sätteid kasutavad moodulid hõlmavad ostuboksi, soovinimekirja, os
 
 Järgmises näites on toote üksikasjade lehel (PDP) kuvatud toote mõõtühik (**ea**).
 
-![Mõõtühikuid näitava PDP näide](./media/Productunit-PDP.png)
+![Mõõtühikuid näitava PDP näide.](./media/Productunit-PDP.png)
 
 Järgmise illustratsiooni näites näitab tootekogumismoodul toote mõõtühikut (**ea**).
 
-![Mõõtühikuid näitava tootekogumi mooduli näide](./media/Productunit-productcollection.png)
+![Mõõtühikuid näitava tootekogumi mooduli näide.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

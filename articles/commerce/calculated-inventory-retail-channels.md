@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270881"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350470"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Varude saadavuse arvutamine jaemüügikanalite jaoks
 
@@ -105,7 +105,7 @@ Kommertsversioonis 10.0.9 ja varasemates kasutas kassa toiming **Varude otsing**
 
 Kui kanalipoolne arvutus on õigesti konfigureeritud ja hallatud, võib see pakkuda praeguse poe varude kohta palju usaldusväärsemat hinnangut, kuna see kasutab Commerce’i kanali andmebaasis olevaid kande andmeid, kuid mille kohta Headquarters ei pruugi veel teavet omada. Näiteks, kui kasutate kassa varude otsinguteks olemasolevat reaalajas teenuse kutset, siis Headquartersil ei ole tõenäoliselt veel teavet sularahamüügi kohta, mis toote jaoks just aset leidis. Seega ületab Headquartersi tagastatav vabade varude väärtus selle toote jaoks tõenäoliselt poe tegelikku vabasid varusid ühe üksuse võrra. Samas kui kasutate kanalipoolset arvutust, siis sularahamüügi saab arvutusele liita ja lahutada näidatud laoväärtusest. Olgugi nii kanalipoolse arvutuse kui ka reaalajas teenuse kutse edastatavad väärtused on vaid vabade varude hinnang, siis kanalipoole arvutuse väärtus on suurema tõenäosusega selle poe jaoks täpne.
 
-Müügikoha **lao otsingutoimingu** konfigureerimiseks peakontoris, kasutamaks kanalipoolset arvutusloogikat ning lülitamaks välja reaalajas teenuse kutset, järgige neid samme.
+Et konfigureerida kassa **Varude otsing** kanalipoolse arvutusloogika kasutamiseks ja reaalajas teenuse kutsete väljalülitamiseks peate esmalt **Optimeeritud toote saadavuse arvutamise** funktsiooni **Funktsioonihalduse** kaudu Commerce peakontori tööruumis lubama ja siis järgige järgmisi samme.
 
 1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Funktsiooniprofiilid**.
 1. Valige Funktsiooniprofiil.
@@ -132,7 +132,7 @@ Varude parima võimaliku hinnangu tagamiseks on oluline, et kasutaksite järgmis
 - **1130 (toote saadavus)** – see töö asub lehel **Jaotusgraafikud** ja tuleks käitada kohe pärast tööd **Toote saadavus**. See töö transpordib varude hetktõmmise andmed Commerce Headquartersist kanali andmebaasidesse.
 
 > [!NOTE]
-> - Üldiselt on hea tava käitada  **toote saadavuse** ja **1130** töid kord tunnis ning ajastada P-töid, sünkroonida tellimusi ja teha vähehaaval toimuvaid sisestamisega seotud töid sama või suurema sagedusega.
+> - Üldiselt on hea tava käitada **toote saadavuse** ja **1130** töid kord tunnis ning ajastada P-töid, sünkroonida tellimusi ja teha vähehaaval toimuvaid sisestamisega seotud töid sama või suurema sagedusega.
 > - Jõudluse huvides, kui kanalipoolse varude saaadvuse arvutusi kasutatakse e-Commerce’i API-sid või kassa kanalipoolset varude loogikat kasutades varude saadavuse taotluse tegemiseks, kasutab arvutus vahemälu, et teha kindlaks, kas arvutuse loogika uuesti käitamise õigustamiseks on möödas piisavalt aega. Vaikimisi vahemäluks on määratud 60 sekundit. Näiteks lülitasite oma poe jaoks sisse kanalipoolse arvutuse ja vaatasite toote vabasid varusid lehel **Varude otsing**. Kui seejärel müüakse üks toote ühik, ei näita leht **Varude otsing** vähendatud varusid enne, kui vahemälu on tühjendatud. Pärast seda, kui kasutajad sisestavad kanded kassas, peaksid nad ootama 60 sekundit enne, kui kontrollivad, kas vabad varud on vähendatud.
 
 Kui teie ettevõtte stsenaarium nõuab väiksemat vahemälu aega, pöörduge abi saamiseks oma tootetoe esindaja poole.

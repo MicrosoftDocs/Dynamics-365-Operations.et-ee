@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025444"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353776"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Varude otsimine POS-is
 
@@ -45,7 +45,10 @@ Kui varude otsingutoiming on käivitatud kassa rakendusest, kasutab kassapidaja 
 
 Asukohtade loendi vaade hõlmab kõiki kauplusi ja ladusid, mis on konfigureeritud täitmisgruppides, mille juurde praegune kauplus on lingitud, nagu näha järgmises näitepildis.
 
-![Varude otsingu toimingute loendi vaade](media/inventory-lookup-list-view.png)
+![Varude otsingu toimingute loendi vaade.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Veenduge, et teie praegune kauplus on kaasatud seotud täitmisgruppidesse.
 
 POS-i rakenduse ribal on saadaval järgmised toimingud:
 
@@ -76,7 +79,7 @@ Variantide abil põhitoote puhul pakub varude otsingutoiming ka dimensioonipõhi
 
 Järgmine kuva näitab kassas varude otsingumaatriksi vaadet.
 
-![Varude otsingu toimingute maatriksvaade](media/inventory-lookup-matrix-view.png)
+![Varude otsingu toimingute maatriksvaade.](media/inventory-lookup-matrix-view.png)
 
 Maatriksivaates esindab iga lahter üksikut varianti ja kuvab vaba kaubavaru (vaba füüsilise) väärtuse parempoolses allnurgas kui **reserveeritud** (füüsiliselt reserveeritud) ja **tellitud** (kogu tellitud) väärtused ülemises vasakus nurgas. Järgmises tabelis selgitatakse erinevate laoseisu väärtusi.
 
@@ -103,7 +106,7 @@ Müügikoha kasutajad pääsevad kassas teistelt lehtedelt juurde varude otsingu
 
 Järgmine näide näitab POS-i PDP-st varude otsimise tulemusi.
 
-![Otsing varudest toote üksikasjade lehelt](media/inventory-lookup-from-product-details-page.png)
+![Otsing varudest toote üksikasjade lehelt.](media/inventory-lookup-from-product-details-page.png)
 
 Põhitoote PDP-s saate kasutada rakenduseribal **Kõikide variantide kuvamise** toimingut, et käivitada varude otsingumaatriksi vaade, mis kuvab toote kõigi variantide varude saadavaloleku teabe praeguses kaupluses. Üksiku toote puhul kuvab PDP selle toote vaba kaubavaru (füüsiliselt saadaoleva) väärtuse praeguses kaupluses. Lisaks saate valida lingi **Muu kaupluste laod**, et käivitada varude otsingutoiming, et kontrollida toote saadavust teistele kauplustele või ladudele.
 

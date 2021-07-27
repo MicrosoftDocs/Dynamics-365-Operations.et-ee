@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808612"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354972"
 ---
 # <a name="maintenance-status"></a>Hooldusolek
 
@@ -57,13 +57,13 @@ Varahalduses saate teha ülevaatlikke arvutusi teatud perioodi kohta, et näha u
 
 Alloleval kuvatõmmisel on nupud **Aasta** ja **Kuu** aktiveeritud. Kui valikud **Rühmitusalus** on valitud, saate igakuiselt üldise ülevaate hooldusnõuetega ja töökäskudega seotud töökoormusest ja läbilaskevõimest. 
 
-![Igakuise töökoormuse näide](media/13-controlling-and-reporting.png)
+![Igakuise töökoormuse näide.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Näide 2
 
 Alloleval kuvatõmmisel on lisatud info töö asukohtade kohta. Nüüd on võimalik võrrelda töökoormust ja läbilaskevõimet töö asukohtade vahel, mis võib esindada geograafilisi asukohti, tehaseid või tööalasid. 
 
-![Igakuise töökoormuse näide töö asukohtadega](media/14-controlling-and-reporting.png)
+![Igakuise töökoormuse näide töö asukohtadega.](media/14-controlling-and-reporting.png)
 
 
 

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 16201
+ms.custom:
+- "16201"
+- intro-internal
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a1ee19a052c4a64995e6fcaa4afbe04b3e95fa55
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b52dc87e4a6a47f0c656c25bd5b5506f9de919c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027548"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344319"
 ---
 # <a name="loyalty-overview"></a>Püsikliendi ülevaade
 
@@ -41,7 +43,7 @@ Saate seadistada püsikliendiprogrammi nii, et see hõlmaks järgmisi valikuid.
 
 Püsikliendifunktsiooni võimaldamiseks rakenduses Commerce peate seadistama mitu komponenti. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed.
 
-![Püsikliendi seadistuse protsessivoog](./media/loyaltyprocess.gif "Püsikliendiprogrammi komponendid ja nende omavahelised seosed")
+![Püsikliendi seadistuse protsessivoog.](./media/loyaltyprocess.gif "Püsikliendiprogrammi komponendid ja nende omavahelised seosed")
 
 ## <a name="loyalty-components"></a>Püsikliendiprogrammi komponendid
 
@@ -80,15 +82,15 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
     > [!NOTE]
     > Boonusskeemi teenimisreeglid on täiendavad. Näiteks kui loote reegli, et premeerida kullajärgu klienti 10 punktiga iga USA dollari eest ning loote ka reegli premeerida iga "veterani" staatusega klienti 5 punktiga iga USA dollari, siis veteran, kes on ka kullajärgu klient, teeniks iga 1 USA dollari eesti 15 punkti, kuna see klient kvalifitseerub mõlemale reeglile. Kuid kui veteran-klient ei ole kullajärgu liige, teenib ta iga dollari eest 5 punkti. Kanalites muudatuste kajastamiseks käivitage **Boonusskeemide töötlemise** ja **1050** (püsikliendi teabe) tööd.
     
-    ![Alluvusel põhinev teenimine](./media/Affiliation-based-earning.png "Alluvusel põhinevad teenimised")
+    ![Alluvusel põhinev teenimine.](./media/Affiliation-based-earning.png "Alluvusel põhinevad teenimised")
 
 - Jaemüüjatel on sageli teatud kliendigrupile erihinnad, kellele nad ei soovi püsikliendiprogrammi rakendada. Näiteks hulgimüüjad või töötajad, kes saavad erihindu kuid mitte boonuspunkte. Tavaliselt kasutatakse sellistele kliendigruppidele erihindade tegemiseks "alluvusi". Selleks, et piirata tetud kliendigruppe või kliente boonuspunkte teenimast, saab jaemüüja määrata ühe või rohkem alluvust boonunusskeemi jaotises **Välistatud alluvused**. Sel viisil ei saa kliendid, kes on olemasolevad püsikliendid, kuid kuuluvad välistatud alluvuste alla, oma ostude eest boonuspunkte teenida. Kanalites muudatuste kajastamiseks käivitage **Boonusskeemide töötlemise** ja **1050** (püsikliendi teabe) tööd.
 
-    ![Välistatud alluvused](./media/Excluded-affiliations.png "Alluvuste välistamine boonuspunktide teenimisest")
+    ![Välistatud alluvused.](./media/Excluded-affiliations.png "Alluvuste välistamine boonuspunktide teenimisest")
     
 - Kassa annab jaemüüjatele paindlikkuse füüsiliste kliendikaartide kasutamiseks või kordumatu kliendikaardi numbri automaatseks loomiseks. Kliendikaartide automaatseks loomiseks kauplusteks lülitage kauplusega seotud funktsiooniprofiilil sisse **Kliendikaardi numbri loomine**. Võrgukanalites saavad jaemüüjad kasutada IssueLoyaltyCard API-t, et klientidele kliendikaarte väljastada. Jaemüüjad saavad sellele API-le anda kliendikaardi numbri, mida kasutatakse kliendikaardi loomiseks, või kasutab süsteem kliendikaardi numbriseeriat rakendusest Commerce. Kuid kui numbriseeriat ei ole ja jaemüüja ei sisesta API-t kutsudes kliendikaardi numbrit, kuvatakse tõrge.
 
-    ![Kliendikaardi loomine](./media/Generate-loyalty-card.png "Kliendikaardi numbri automaatne loomine")
+    ![Kliendikaardi loomine.](./media/Generate-loyalty-card.png "Kliendikaardi numbri automaatne loomine")
 
 - Teenitud ja lunastatud püsikliendipunkte saab nüüd salvestatada iga kande ja müügitellimuse müügirea suhtes, et sama summa saaks täieliku või osalise tagastuse korral tagasi maksta või tagasi võtta. Lisaks annab punktide nägemine müügireal kõnekeskuse kasutajatele võimaluse vastata klientide küsimustele teenitud või lunastatud punktide kohta igal real. Enne seda muudatust kalkuleeriti boonuspunktid tagastustel alati ümber, mille tulemuseks oli originaalist erinev summa, kui teenimis- või lunastusreegleid oli muudetud ning kõnekeskuse kasutajatel ei olnud ülevaadet punktide jaotumisest. Punkte saab vaadata iga kliendikaardi **Kaardikannete** alt. Funktsiooni lubamiseks lülitage sisse konfiguratsioon **Sisesta boonuspunktid müügirea kohta** vahekaardil **Kaubanduse ühisparameetrid** \> **Üldine**.
 
@@ -99,33 +101,33 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
 
 Lisaks saavad jaemüüjad määratleda maksimaalse püsikliendiprogrammi preemiapunktide määra ühe klinedikaardi kohta. Seda välja saab kasutada püsikliendiprogrammi pettuste vähendamiseks. Kui maksimaalne boonuspunktide summa on saavutatud, ei saa kasutaja rohkem punkte teenida. Jaemüüja võib otsustada sellised kaardid blokeerida, kuni nad on uurinud võimalikke pettuseid. Kui jaemüüja tuvastab pettuse, saab ta kliendikaardi blokeerida ja märkida kliendi blokeerituks. Selleks määrake kiirkaardi **Commerce** jaotise **Kõik kliendid** atribuudi **Blokeeri kliendi registreerimine püsikliendiprogrammis** väärtuseks **Jah**. Blokeeritud kliendile ei saa väljastada kliendikaarti ühestki teisest kanalist.
 
-   ![Pensionireeglid ja maksimaalsed preemiapunktid](./media/Vesting-and-maximum-reward-points.png "Pensionireeglite ja maksimaalsete preemiapunktide määratlemine")
+   ![Pensionireeglid ja maksimaalsed preemiapunktid.](./media/Vesting-and-maximum-reward-points.png "Pensionireeglite ja maksimaalsete preemiapunktide määratlemine")
 
 - Alluvusi kasutatakse erihindade ja allahindluste pakkumiseks, kuid mõningaid alluvusi ei soovi jaemüüjad klientidele näidata. Näiteks alluvus pealkirjaga "Palju kulutav klient", ei pruugi mõndadele klientidele meeldida. Lisaks on mõned alluvused, mida ei peaks kaupluses haldama, näiteks töövõtjate alluvused, sest te ei soovi, et kassapidajad otsustaksid, kes on töövõtjad ning pakuksid seega töövõtja-põhiseid allahindlusi. Jaemüüjad saavad nüüd valida alluvused, mis peaksid kanalites peidetud olema. Alluvused, millele on märgitud **Kanalites peita**, ei saa kassas vaadata, lisada või eemaldada. Kuid alluvusega seotud hinnad ja allahindlused rakendatakse siiski toodetele.
 
-    ![Alluvuste peitmine](./media/Hide-affiliations.png "Alluvuste peitmine kanalites")
+    ![Alluvuste peitmine.](./media/Hide-affiliations.png "Alluvuste peitmine kanalites")
     
 - Kõnekeskuse kasutajad saavad nüüd hõlpsamalt kliente nende kliendikaardi teabe põhjal otsida ning navigeerida kliendikaardi ja kliendikaardi kannete lehele **Klienditeeninduse** leheküljelt.
 
-    ![Klienditeenindus](./media/Customer-service.png "Kliendi püsiklienditeabe leidmine")
+    ![Klienditeenindus.](./media/Customer-service.png "Kliendi püsiklienditeabe leidmine")
     
 - Kui kliendikaart on kompromiteeritud, tuleb luua uus kaart ja olemasolevad punktid uuele kaardile üle tuua. Selles väljaandes on lihtsustatud asenduskaardi voogu. Lisaks saavad kliendid kõik või osa oma boonuspunktidest sõpradele ja perele kinkida. Punktide ülekandmisel luuakse igale kliendikaardile punktide korrigeerimise kirjed. Asenduskaardi ning ülekande saldo funktsioonile pääseb ligi **Kliendikaartide** lehelt.
 
-    ![Punktide asendamine ja ülekandmine](./media/Replace-and-transfer-points.png "Kliendikaardi asendamine või saldo ülekandmine")
+    ![Punktide asendamine ja ülekandmine.](./media/Replace-and-transfer-points.png "Kliendikaardi asendamine või saldo ülekandmine")
     
 - Jaemüüjad võivad soovida kasutada kindla kanali efektiivsust klientide registreerimiseks püsikliendi programmi. Nüüd salvestatakse kliendikaartide registreerimise allikad, et jaemüüjad saaksid nende andmete kohta aruandeid luua. Registreerimiste allikas salvestatakse automaatselt kõikide väljastatud kliendikaartide kohta MPOS/CPOS või e-Commerce'i kanalitest. Kliendikaartidele, mis on väljastatud varukontori avaldusega, saab kõnekeskuse kasutaja valida sobiva kanali.
 - Varasemates väljaannetes said jaemüüjad kasutada MPOS/CPOS-i, et klientidele poes boonuspunkte lunastada. Kuid kuna nendes väljaannetes kuvati boonussaldo boonuspunktides, ei saanud kassiir vaadata kandele kohaldatavat valluta väärtuse summat. Kassapidaja pidi enne boonuspunktide maksmist punktid valuutasse teisendama. Praeguses väljaandes näeb kassapidaja pärast ridade kandega liitmist summat, mida boonuspunktid praeguses kandes katavad, hõlbustades kõikide või osade boonuspunktide kandes kasutamist. Lisaks näeb kassapidaja punkte, mis järgmise 30 päeva jooksul aeguvad, nii et nad saavad teha ülesmüüki või ristmüüki, et motiveerida klienti aeguvaid punkte sellele kandele kulutama.
 
-    ![Boonussaldoga kaetud punktid](./media/Points-covered-by-loyalty-balance.png "Boonuspunktidega kaetud saldo kuvamine")
+    ![Boonussaldoga kaetud punktid.](./media/Points-covered-by-loyalty-balance.png "Boonuspunktidega kaetud saldo kuvamine")
 
-    ![Aeguvad punktid](./media/Expiring-points.png "Aeguvate punktide kuvamine")
+    ![Aeguvad punktid.](./media/Expiring-points.png "Aeguvate punktide kuvamine")
 
 - Väljaandega 8.1.3 oleme lubanud kõnekeskuse kanalis kliendikaardiga tasumise suvandi. Selle suvandi lubamiseks looge püsikliendi maksevahendi tüüp ja seostage see kõnekeskusega. 
 
     > [!NOTE]
     > Kuna kliendikaardi maksed on seadistatud kaardimaksetena, peate valima kaardi lehelt **Kaardi seadistus**. 
 
-    ![Kliendikaardi seadistus](./media/LoyaltyCardSetup.png "Kliendikaardi seadistus")
+    ![Kliendikaardi seadistus.](./media/LoyaltyCardSetup.png "Kliendikaardi seadistus")
 
     Kui see on seadistatud, saavad kliendid oma boonuspunktid lunastada kõnekeskuses. Peale selle täiustame kasutajakogemust veelgi, kuvades boonuspunktidega kaetud summat, nii et kõnekeskuse kasutajad ei pea boonussaldo nägemiseks liikuma teisele kuvale.
 

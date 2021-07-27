@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022468"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353008"
 ---
 # <a name="e-commerce-site-overview"></a>E-kaubanduse saidi ülevaade
 
@@ -47,27 +47,27 @@ E-kaubanduse saidi lähtestamisel küsitakse teilt domeeninime. Lisateavet Domee
 
 Kui käivitate Commerce'i saidiehitaja LCS-i kaudu, kuvatakse leht **Saidid**. Sellel lehel on kaks eelkonfigureeritud saiti, **Vaikimisi** ja **Fabrikam**, nagu on näidatud järgmisel joonisel toodud näites.
 
-![Saitide leht Commerce'i saidiehitajas](media/e-commerce-site-01.png)
+![Saitide leht Commerce'i saidiehitajas.](media/e-commerce-site-01.png)
 
 Kui valite ühe neist saitidest, palutakse teil valida domeeni nimi, võrgupoe vaikekanal, valitud kanali toetatud keel ja tee. Kui kasutatakse ainult ühte kanalit, võite tee tühjaks jätta. Rohkem võrgupoe kanaleid või keeli saab hiljem konfigureerida Commerce'i saidiehitajas. Iga täiendav kanal või keel nõuab kordumatut teed. Oletagem näiteks, et teil on kaks võrgukanalit, mis on seotud ühe saidiga ja saidi domeeninimi on `www.fabrikam.com`. Sel juhul võib ühe kanali tee olla vaikeväärtus, millel puudub tee (`https://www.fabrikam.com`) ja teise kanali saab määrata uuele teele, näiteks **Sait2**, mille URL on `https://www.fabrikam.com/site2`. Järgmisel joonisel on näide saidi lähtestamise dialoogiboksist Commerce'i saidikoosturis.
 
-![Saidi lähtestamise dialoogiboks Commerce'i saidikoosturis](media/e-commerce-site-02.png)
+![Saidi lähtestamise dialoogiboks Commerce'i saidikoosturis.](media/e-commerce-site-02.png)
 
 Lehel **Saidid** on ka nupp **Uus sait**. Selle nupu valimisel kuvatav dialoogiboks sarnaneb saidi lähtestamise dialoogiboksiga, kuid seda kasutatakse uue saidi loomiseks. Uued saidid on tühjad. Need ei sisalda samu vaikemalle, fragmente, lehti ega pilte, mis on saidil **Vaikimisi** ja **Fabrikam**. Kuid vastavalt vajadusele saate avada tugiteenusepileti, et taotleda vaikesisu koopia lisamist uuele tühjale saidile. Lisateavet leiate teemast [E-kaubanduse saidi loomine](create-ecommerce-site.md).
 
 Pärast uue saidi lähtestamist kuvatakse Commerce'i saidikoosturi leht **Avaleht**. See leht sisaldab linke levinud toimingutele ja juhendsisule, nagu on näidatud järgmisel joonisel toodud näitel.
 
-![Lingid Commerce'i saidiehitaja avalehel](media/e-commerce-site-03.png)
+![Lingid Commerce'i saidiehitaja avalehel.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Võrgupoe kanalite muutmine või võrgupoe kanalite lisamine e-kaubanduse saidile
 
 Pärast e-kaubanduse saidi loomist saate sellega seostatud kanalit muuta, järgides teemas [E-kaubanduse saidi seostamine võrgukanaliga](associate-site-online-store.md) toodud juhiseid. Järgmisel joonisel toodud näide näitab, kuidas kanali tootmisüksuse numbrit (OUN-i) saab muuta lehel **Kanalid** (**Saidi sätted \> Kanalid**). Kui olete muudatuse tegemise lõpetanud, valige kindlasti nupp **Salvesta ja avalda**. Sel viisil tagate muudatuse avaldamise.
 
-![Kanalite leht Commerce'i saidiehitajas](media/e-commerce-site-04.png)
+![Kanalite leht Commerce'i saidiehitajas.](media/e-commerce-site-04.png)
 
 Uute kanalite lisamiseks valige nupp **Lisa kanal**. Kanalile uute keelte lisamiseks valige kanal ja seejärel valige kuvatavas kanalidialoogiboksis käsk **Lisa lokaat**. Enne, kui lokaate dialoogiboksis kuvada saab, peavad need olema Commerce'i peakontori võrgupoe kanali jaoks eelkonfigureeritud.
 
-![Kanali dialoogiboks Commerce'i saidiehitajas](media/e-commerce-site-05.png)
+![Kanali dialoogiboks Commerce'i saidiehitajas.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Azure B2C rentniku häälestamine
 

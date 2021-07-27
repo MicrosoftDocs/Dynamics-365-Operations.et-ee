@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349030"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Kliendimaksete prognoosimise lubamine (eelversioon)
 
@@ -51,7 +51,7 @@ Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsüle
 
     1. Avage suvand **Krediidihaldus ja võlanõuded \> Seadistamine \> Finantsülevaated \> Finantsülevaadete parameetrid**.
 
-        [![Finantsteabe parameetrite leht enne funktsiooni konfigureerimist](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Financial insights parameetrite leht enne funktsiooni konfiguratsiooni.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. Valige lehel **Finantsülevaadete parameetrid** vahekaardil **Kliendimaksete ülevaated** link **Prognoosimudelis kasutatavate andmeväljade kuvamine**, et avada leht **Prognoosimudeli andmeväljad**. Siin saate vaadata väljade vaikeloendit, mida kasutatakse kliendimaksete prognooside jaoks tehisintellekti (AI) prognoosimismudeli loomiseks.
 
@@ -77,7 +77,7 @@ Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsüle
 
 Pärast seda, kui funktsioon on sisse lülitatud ja konfigureeritud ning prognoosimise mudel on loodud ja töötab, kuvab jaotise **Prognoosimise mudel** leht **Finantsülevaadete parameetrid** mudeli täpsuse, nagu järgmisel illustratsioonil on näidatud.
 
-[![Prognoosimise mudeli täpsus finantsülevaadete parameetrite lehel](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Prognoosimise mudeli täpsus finantsülevaadete parameetrite lehel.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Väljastuse üksikasjad
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a20cd71c9729b492403f02f3b5576351169a6e2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0b2e2ead990332f1afd338a430406e6d1db95347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754346"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350132"
 ---
 # <a name="report-designer-interface"></a>Aruande kujundaja liides
 
@@ -169,56 +169,56 @@ Järgmistes tabelites kirjeldatakse aruannete kujundamisel kasutatavaid töörii
 
 Standardne tööriistariba võimaldab kiiret juurdepääsu faili ja redigeerimise käskudele. See tööriistariba sisaldab järgmisi nuppe.
 
-| Nupp                                                                                       | Kirjeldus |
+| Nööp                                                                                       | Kirjeldus |
 |----------------------------------------------------------------------------------------------|-------------|
-| [![Nupp Uus](./media/rowc130389.png)](./media/rowc130389.png)                              | Uue (tühja) aruande definitsiooni, readefinitsiooni, veeru definitsiooni või aruandluspuu definitsiooni loomine. |
-| [![Nupp Ava](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Olemasoleva readefinitsiooni, veeru definitsiooni, aruandluspuu definitsiooni või aruande definitsiooni avamine. |
-| [![Nupp Salvesta](./media/savec130389.png)](./media/savec130389.png)                           | Praeguse readefinitsiooni, veeru definitsiooni, aruandluspuu definitsiooni või aruande definitsiooni salvestamine. |
-| [![Nupp Kopeeri](./media/copyc130389.png)](./media/copyc130389.png)                           | Valitud teksti kopeerimine lõikelauale. |
-| [![Nupp Lõika](./media/cutc130389.png)](./media/cutc130389.png)                              | Valitud teksti kustutamine ja selle kopeerimine lõikelauale. |
-| [![Nupp Kleebi](./media/pastec130389.png)](./media/pastec130389.png)                        | Teksti lisamine lõikelaualt. |
-| [![Nupp Võta tagasi](./media/undoc130389.png)](./media/undoc130389.png)                           | Viimase tegevuse ennistamine. |
-| [![Nupp Tee uuesti](./media/redoc130389.png)](./media/redoc130389.png)                           | Viimase ennistamistegevuse tühistamine. |
-| [![Nupp Otsi](./media/findc130389.png)](./media/findc130389.png)                           | Dialoogiboksi **Otsi ja asenda** avamine, milles saate aktiivse akna teksti otsida ja asendada. |
-| [![Nupp Lisa rida](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Tühja rea lisamine readefinitsiooni või tühja päiserea lisamine veeru definitsiooni. See nupp on saadaval readefinitsioonis või veeru definitsioonis. |
-| [![Nupp Lisa veerg](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Tühja veeru lisamine veeru definitsiooni. See nupp on saadaval veeru definitsioonis. |
-| [![Nupp Lukusta](./media/lockc130389.png)](./media/lockc130389.png)                           | Parooli rakendamine aktiivsele koosteüksusele. See nupp on saadaval kasutajatele, kellel on roll **Kujundaja** või **Administraator**. |
-| [![Nupp Rea link](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Dialoogiboksi **Rea lingid** avamine, milles saate määrata andmelinkide allikad readefinitsioonides ja aruandluspuu definitsioonides. See nupp on saadaval readefinitsioonis. |
-| [![Nupp Ülenda](./media/promotec130389.png)](./media/promotec130389.png)                  | Aruandluspuu definitsiooni üksuse edendamine. Tütarüksuse valimisel ja seejärel suvandi **Edenda** klõpsamisel teisaldatakse tütarüksus selle emaüksusega samale tasemele. |
-| [![Nupp Alanda](./media/demotec130389.png)](./media/demotec130389.png)                     | Aruandluspuu definitsiooni üksuse alandamine. Üksuse valimisel ja seejärel suvandi **Alanda** klõpsamisel muutub üksus sellele eelneva üksuse tütarüksuseks. |
-| [![Nupp Laienda](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Kõikide aruandluspuu definitsiooni üksuste laiendamine valitud üksuse tasemel. |
-| [![Nupp Ahenda](./media/collapsec130389.png)](./media/collapsec130389.png)               | Aruandluspuu ahendamine. |
-| [![Nupp Spikker](./media/helpc130389.png)](./media/helpc130389.png)                           | Spikri avamine. |
+| [![Nupp Uus.](./media/rowc130389.png)](./media/rowc130389.png)                              | Uue (tühja) aruande definitsiooni, readefinitsiooni, veeru definitsiooni või aruandluspuu definitsiooni loomine. |
+| [![Nupp Ava.](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Olemasoleva readefinitsiooni, veeru definitsiooni, aruandluspuu definitsiooni või aruande definitsiooni avamine. |
+| [![Nupp Salvesta.](./media/savec130389.png)](./media/savec130389.png)                           | Praeguse readefinitsiooni, veeru definitsiooni, aruandluspuu definitsiooni või aruande definitsiooni salvestamine. |
+| [![Nupp Kopeeri.](./media/copyc130389.png)](./media/copyc130389.png)                           | Valitud teksti kopeerimine lõikelauale. |
+| [![Nupp Lõika.](./media/cutc130389.png)](./media/cutc130389.png)                              | Valitud teksti kustutamine ja selle kopeerimine lõikelauale. |
+| [![Nupp Kleebi.](./media/pastec130389.png)](./media/pastec130389.png)                        | Teksti lisamine lõikelaualt. |
+| [![Nupp Võta tagasi.](./media/undoc130389.png)](./media/undoc130389.png)                           | Viimase tegevuse ennistamine. |
+| [![Nupp Tee uuesti.](./media/redoc130389.png)](./media/redoc130389.png)                           | Viimase ennistamistegevuse tühistamine. |
+| [![Nupp Otsi.](./media/findc130389.png)](./media/findc130389.png)                           | Dialoogiboksi **Otsi ja asenda** avamine, milles saate aktiivse akna teksti otsida ja asendada. |
+| [![Nupp Lisa rida.](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Tühja rea lisamine readefinitsiooni või tühja päiserea lisamine veeru definitsiooni. See nupp on saadaval readefinitsioonis või veeru definitsioonis. |
+| [![Nupp Lisa veerg.](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Tühja veeru lisamine veeru definitsiooni. See nupp on saadaval veeru definitsioonis. |
+| [![Nupp Lukusta.](./media/lockc130389.png)](./media/lockc130389.png)                           | Parooli rakendamine aktiivsele koosteüksusele. See nupp on saadaval kasutajatele, kellel on roll **Kujundaja** või **Administraator**. |
+| [![Nupp Rea link.](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Dialoogiboksi **Rea lingid** avamine, milles saate määrata andmelinkide allikad readefinitsioonides ja aruandluspuu definitsioonides. See nupp on saadaval readefinitsioonis. |
+| [![Nupp Ülenda.](./media/promotec130389.png)](./media/promotec130389.png)                  | Aruandluspuu definitsiooni üksuse edendamine. Tütarüksuse valimisel ja seejärel suvandi **Edenda** klõpsamisel teisaldatakse tütarüksus selle emaüksusega samale tasemele. |
+| [![Nupp Alanda.](./media/demotec130389.png)](./media/demotec130389.png)                     | Aruandluspuu definitsiooni üksuse alandamine. Üksuse valimisel ja seejärel suvandi **Alanda** klõpsamisel muutub üksus sellele eelneva üksuse tütarüksuseks. |
+| [![Nupp Laienda.](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Kõikide aruandluspuu definitsiooni üksuste laiendamine valitud üksuse tasemel. |
+| [![Nupp Ahenda.](./media/collapsec130389.png)](./media/collapsec130389.png)               | Aruandluspuu ahendamine. |
+| [![Spikri nupp.](./media/helpc130389.png)](./media/helpc130389.png)                           | Spikri avamine. |
 
 ### <a name="formatting-toolbar"></a>Vormingu tööriistariba
 
 Vormingu tööriistariba võimaldab lihtsat juurdepääsu laadi käskudele. See tööriistariba sisaldab järgmisi nuppe.
 
-| Nupp                                                                                                       | Kirjeldus                                             |
+| Nööp                                                                                                       | Kirjeldus                                             |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Nupp Fondi laad](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Valitud fondi laadi rakendamine aktiivsele tekstile.      |
-| [![Nupp Font](./media/fonttype.png)](./media/fonttype.png)                                                 | Praeguse teksti määramine valitud laadile.              |
-| [![Nupp Fondi suurus](./media/fontsize.png)](./media/fontsize.png)                                            | Praeguse teksti määramine valitud laadi suurusele (punktides). |
-| [![Nupp Paks kiri](./media/boldc130389.png)](./media/boldc130389.png)                                           | Praeguse teksti muutmine paksu kirja.                             |
-| [![Nupp Kaldkiri](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Praeguse teksti muutmine kursiivi.                           |
-| [![Nupp Allajoonimine](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Praeguse teksti allakriipsutamine.                             |
-| [![Nupp Taande vähendamine](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Aktiivse teksti taande vähendamine.                |
-| [![Nupp Taande suurendamine](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aktiivse teksti taande suurendamine.                |
-| [![Nupp Taustavärv](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Aktiivse lahtri taustavärvi muutmine.        |
-| [![Nupp Fondi värv](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Aktiivse teksti värvi muutmine.                   |
+| [![Nupp Fondi laad.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Valitud fondi laadi rakendamine aktiivsele tekstile.      |
+| [![Nupp Font.](./media/fonttype.png)](./media/fonttype.png)                                                 | Praeguse teksti määramine valitud laadile.              |
+| [![Nupp Fondi suurus.](./media/fontsize.png)](./media/fontsize.png)                                            | Praeguse teksti määramine valitud laadi suurusele (punktides). |
+| [![Nupp Paks kiri.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Praeguse teksti muutmine paksu kirja.                             |
+| [![Nupp Kaldkiri.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Praeguse teksti muutmine kursiivi.                           |
+| [![Nupp Allajoonimine.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Praeguse teksti allakriipsutamine.                             |
+| [![Nupp Taande vähendamine.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Aktiivse teksti taande vähendamine.                |
+| [![Nupp Taande suurendamine.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aktiivse teksti taande suurendamine.                |
+| [![Nupp Taustavärv.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Aktiivse lahtri taustavärvi muutmine.        |
+| [![Nupp Fondi värv.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Aktiivse teksti värvi muutmine.                   |
 
 ### <a name="report-designer-toolbar"></a>Aruandekoosturi tööriistariba
 
 Aruandekoosturi tööriistariba võimaldab kiiret juurdepääsu käskudele aruandekoosturis navigeerimiseks. See tööriistariba sisaldab järgmisi nuppe.
 
-| Nupp                                                                                              | Kirjeldus |
+| Nööp                                                                                              | Kirjeldus |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Nupp Aruande definitsioon](./media/reportc130389.png)](./media/reportc130389.png)                 | Menüüs **Aken** loetletud aruande definitsiooni kuvamine. |
-| [![Nupp Rea definitsioon](./media/rowc130389.png)](./media/rowc130389.png)                          | Aktiivsele aruande definitsioonile määratud readefinitsiooni kuvamine. |
-| [![Nupp Veeru definitsioon](./media/columnc130389.png)](./media/columnc130389.png)                 | Aktiivsele aruande definitsioonile määratud veeru definitsiooni kuvamine. |
-| [![Nupp Aruandluspuu definitsioon](./media/treec130389.png)](./media/treec130389.png)             | Aktiivsele aruande definitsioonile määratud aruandluspuu definitsiooni kuvamine. |
-| [![Nupp Aruandevaatur](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Aruandevaaturi käivitamine ja loodud aruande kõige uuema versiooni kuvamine. See nupp on saadaval aruande definitsioonis, kui olete loonud vähemalt ühe aruande. |
-| [![Nupp Koosta aruanne](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Looge aktiivsest aruandedefinitsioonist aruanne. See nupp on saadaval aruandedefinitsioonis. |
+| [![Nupp Aruande definitsioon.](./media/reportc130389.png)](./media/reportc130389.png)                 | Menüüs **Aken** loetletud aruande definitsiooni kuvamine. |
+| [![Nupp Rea definitsioon.](./media/rowc130389.png)](./media/rowc130389.png)                          | Aktiivsele aruande definitsioonile määratud readefinitsiooni kuvamine. |
+| [![Nupp Veeru definitsioon.](./media/columnc130389.png)](./media/columnc130389.png)                 | Aktiivsele aruande definitsioonile määratud veeru definitsiooni kuvamine. |
+| [![Nupp Aruandluspuu definitsioon.](./media/treec130389.png)](./media/treec130389.png)             | Aktiivsele aruande definitsioonile määratud aruandluspuu definitsiooni kuvamine. |
+| [![Nupp Aruandevaatur.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Aruandevaaturi käivitamine ja loodud aruande kõige uuema versiooni kuvamine. See nupp on saadaval aruande definitsioonis, kui olete loonud vähemalt ühe aruande. |
+| [![Nupp Koosta aruanne.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Looge aktiivsest aruandedefinitsioonist aruanne. See nupp on saadaval aruandedefinitsioonis. |
 
 ## <a name="additional-resources"></a>Lisaressursid
 

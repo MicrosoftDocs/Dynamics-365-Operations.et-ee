@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347804"
 ---
 # <a name="process-collection-letters-example"></a>Protsesside kogumiskirjade näide
 
@@ -40,7 +40,7 @@ Kui olete lõpetanud, järgige järgmisi etappe.
 
 Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgukirjade** lehel. 
 
-[![Märgukirjaseeria seadistamine](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Märgukirjaseeria seadistamine.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  Nüüd peate seadistama kaks selle näite puhul nõutavat parameetrit.
 
@@ -49,7 +49,7 @@ Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgu
     1. Kaardil **Sissenõudmine** märkige **Krediit ja sissenõuete märgukirjakoodi arvutamisel eira makseid valikute krediiditeatisi** valiku väärtuseks **Jah**.
     2. Veenduge, et välja **Loo märgukiri** oleks seatud väärtusele **Klient**.
 
-    [![Sissenõuete müügireskontro parameetrite seadistamine](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Sissenõuete müügireskontro parameetrite seadistamine.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Minge **müügireskontro \> Arved \> Kõik vabas vormis arved**, valige **Uus** ja seejärel järgige järgmisi samme:
 
@@ -74,7 +74,7 @@ Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgu
 5. Korrake sammu 4, kuid sisestage **-200.00** väljal **Ühiku hind**.
 6. Minge **müügireskontro \> Kliendid \> Kõik kliendid** ja valige klient **US-045**. Seejärel valige tegevuspaanil **Kanded \> Kanded** et vaadata kliendikandeid, mille sisestasite varem.
 
-    [![Sisestatud kliendikannete ülevaatamine](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Sisestatud kliendikannete ülevaatamine.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     Teil on vaja nüüd kliendile US-045 märgukirjad koostada.
 
@@ -93,7 +93,7 @@ Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgu
 
     1. Pange tähele, et märgukirja kood nii päisel kui kanderidadel on **1. märgukiri**, sest see märgukiri on seeria esimene märgukiri. (Kanderidade vaatamiseks peate võib-olla valima **Kannete** kiirkaardi.)
 
-   [![Kontrollimine, et sama märgukirja kood ilmub päisele ja ridadele](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Kontrollimine, et sama märgukirja kood ilmub päisele ja ridadele.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Tehke toimingupaanil valik **Väljastamine**.
     3. Sisestage **Arve kuupäev** väljale **1/19/2021**.
@@ -115,7 +115,7 @@ Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgu
 
     1. Pange tähele, et päises oleva märgukirja kood on **1. märgukiri**. Kanderidade kood on siiski **2. märgukiri**.
 
-   [![Kontrollimine, et sama märgukirja kood ilmub päisele ja ridadele](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Kontrollimine, et sama märgukirja kood ilmub päisele ja ridadele.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   Koodid erinevad, kuna **Sissemaksete koodi arvutamisel eira makseid ja krediiditeatisi** valiku väärtuseks on **Jah**.
 
@@ -123,7 +123,7 @@ Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgu
 
 11. Minge **Krediit ja sissenõueded \> Seadistamine \> Müügireskontro parameetritesse** ja siis **Sissenõuded** vahekaardil **Eira makseid ja krediiditeatisi märgukirjakoodi arvutamisel** suvandile **Ei**.
 
-    [![Märgukirja koodi arvutamisel maksete ja kreeditarvete eiramiseks seadke väärtuseks Ei](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![Märgukirja koodi arvutamisel maksete ja kreeditarvete eiramiseks seadke väärtuseks Ei.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     Teil on vaja nüüd kliendile US-045 märgukirjad koostada.
 
@@ -140,6 +140,6 @@ Järgmine näide näitab teavet, mis on tabelis nii, nagu seda kuvataks **märgu
 
 13. Minge **Krediit ja sissenõuded \> Märgukiri \> Vaadake üle ja koostage märgukiri** ja pange tähele, et märgukirja kood päisel ja kanderidadel on **2. märgukiri**.
 
-    [![Kontrollimine, et sama märgukirja kood ilmub päisele ja ridadele](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Kontrollimine, et sama märgukirja kood ilmub päisele ja ridadele.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     Koodid erinevad, kuna **Sissemaksete koodi arvutamisel eira makseid ja krediiditeatisi** valiku väärtuseks on **Jah**.

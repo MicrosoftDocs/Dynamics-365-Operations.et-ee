@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223982"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355390"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektroonilise aruandluse valemi keel
 
@@ -117,15 +117,15 @@ Kui avaldis viitab struktureeritud andmeallikale, saate kasutada tee määratlem
 
 Kui struktureeritud andmeallika tee algab märgiga @, siis on see suhteline tee. @-märk kuvatakse kasutatava hierarhilise struktuuripuu absoluutse tee allesjäänud osa asemel. Järgmisel joonisel on toodud näide. Siin näitab absoluutne tee `Ledger.'accountingCurrency()'`, et arvestusvaluuta väärtus andmeallikast **Pearaamat** on sisestatud andmemudeli väljale **AccountingCurrency**.
 
-![Absoluutse tee näide ER-i mudelivastenduse kujundaja lehel](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Absoluutse tee näide ER-i mudelivastenduse kujundaja lehel.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 Järgmisel joonisel toodud näide näitab, kuidas kasutatakse suhtelist teed. Suhteline tee `@.AccountNum` näitab, et välja **AccountNum** andmeallikas **Intrastat** (mis ilmub andmemudeli hierarhilises puus üks tase väljast **AccountNum** üleval pool) kasutatakse kliendi või hankija kontonumbri sisestamiseks andmemudeli väljale **AccountNum**.
 
-![Suhtelise tee näide ER-i mudelivastenduse kujundaja lehel](./media/ER-FormulaLanguage-RelativePath1.png)
+![Suhtelise tee näide ER-i mudelivastenduse kujundaja lehel.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Absoluutse tee ülejäänud osa kuvatakse samuti [ER-i valemiredaktoris](general-electronic-reporting-formula-designer.md).
 
-![Absoluutse tee ülejäänud osa ER-i valemi kujundaja lehel](./media/ER-FormulaLanguage-RelativePath2.png)
+![Absoluutse tee ülejäänud osa ER-i valemi kujundaja lehel.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Lisateabe saamiseks vt teemat [Suhtelise tee kasutamine ER-mudelite ja -vormingute andmesidemetes](relative-path-data-bindings-er-models-format.md).
 

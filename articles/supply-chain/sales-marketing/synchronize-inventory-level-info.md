@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ce5ddf863988475550584384f4cf26f1302768aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910274"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355897"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Varude taseme teabe sünkroonimine rakendusest Supply Chain Management rakendusse Field Service 
 
@@ -31,7 +31,7 @@ ms.locfileid: "5910274"
 
 Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude tasemel teabe sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
 
-[![Äriprotsesside sünkroonimine rakenduste Supply Chain Management ja Field Service vahel](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 Olemasolevate varude taseme sünkroonimiseks rakendusest Supply Chain Management rakendusse Field Service kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
@@ -89,7 +89,7 @@ Saate rakendada filtreid täpsema päringu ja filtreerimise abil, nii et ainult 
 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Tootevarud (rakendusest Supply Chain Management rakendusse Field Service): tootevarud
 
-[![Malli vastendamine andmete integratsioonis](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+[![Malli vastendamine andmete integratsioonis.](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

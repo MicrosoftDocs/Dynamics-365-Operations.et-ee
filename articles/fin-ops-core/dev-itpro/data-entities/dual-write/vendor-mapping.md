@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750614"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346492"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
@@ -39,11 +39,11 @@ Mõlemas lähenemisviisis on hankija andmed integreeritud Dynamics 365 Supply Ch
 
 Kui te ei soovi talletada hankija andmeid Dataverse’i tabelis **Konto/kontakt**, saate kasutada uut hankija kujundust.
 
-![Hankijaandmete voog](media/dual-write-vendor-data-flow.png)
+![Hankijaandmete voog.](media/dual-write-vendor-data-flow.png)
 
 Kui soovite jätkata hankija andmete talletamist tabelis **Konto/kontakt**, saate kasutada laiendatud hankija kujundust. Laiendatud hankija kujunduse kasutamiseks peate konfigureerima hankija töövood topeltkirjutuse lahendusepaketis. Lisateavet vaadake teemast [Hankija kujunduste vahel vahetamine](vendor-switch.md).
 
-![Hankijaandmete laiendatud voog](media/dual-write-vendor-detail.jpg)
+![Hankijaandmete laiendatud voog.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Kui kasutate iseteeninduse hankijate Power Appsi portaale, võib hankija teave liikuda otse Finance and Operationsi rakendustesse.

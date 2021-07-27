@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812903"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347706"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Ajastamismootori jõudluse parandamine
 
@@ -66,11 +66,11 @@ Näitena kaaluge järgmises tabelis ja pildil toodud protsessi, mis näib olevat
 | 10 | Teisene&nbsp;1 | | | | 1 | 20 |
 | 20 | Esmane | | 3.00 | 1.00 | 3 | 0 |
 
-![Protsessidiagrammi näidis](media/scheduling-engine-route.png "Protsessidiagrammi näidis")
+![Protsessidiagrammi näidis.](media/scheduling-engine-route.png "Protsessidiagrammi näidis")
 
 Kui see saadetakse mootorisse, jagatakse see kaheksaks tööks, nagu on näidatud järgmisel illustratsioonil (klõpsake pildile, et seda suuremana näha).
 
-[![Ajastamismootori tööd](media/scheduling-engine-jobs.png "Ajastamismootori tööd")](media/scheduling-engine-jobs-large.png)
+[![Plaanimismootori tööd](media/scheduling-engine-jobs.png "Mootoritööde plaanimine."](media/scheduling-engine-jobs-large.png)
 
 Standardne seos nende kahe töö vahel on `FinishStart`, mis tähendab, et ühe töö lõppaeg peab olema enne teise töö algusaega. Kuna seadistuse peab tegema sama ressurss, mis hiljem protsessis osaleb, on nende vahel `OnSameResource`'i piirangud. Number 10 esmase ja teisese toimingu tööde vahel on seosed `StartStart` ning `FinishFinish`, mis tähendab, et tööd peavad algama ja lõppema samal ajal, ning `NotOnSameResource`'i piirangud, mis takistavad sama ressursi kasutamist esmases ja teises toimingus.
 

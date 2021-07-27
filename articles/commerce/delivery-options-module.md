@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 8342afefa6eeda3a53decb39caddb62d1e4e1963
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: af8cd65565a50341b0bf2dba84204d010486532c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270857"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350446"
 ---
 # <a name="delivery-options-module"></a>Tarnevalikute moodul
 
@@ -41,7 +41,7 @@ Kui reakaupade puhul rakenduvad saatekulud, saab neid kuvada iga kauba ostukorvi
 
 Järgmisel illustratsioonil on näide tarnevalikute moodulist maksmise lehel.
 
-![Tarnevalikute mooduli näide maksmise lehel](./media/ecommerce-deliveryoptions.PNG)
+![Tarnevalikute mooduli näide maksmise lehel.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Tarnevalikute mooduli atribuudid
 

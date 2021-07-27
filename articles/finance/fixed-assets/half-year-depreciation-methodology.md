@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818579"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355528"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Poolaasta kulumiarvestuse konventsiooni metoodika
 
@@ -36,7 +36,7 @@ Esimene kasutusaasta lõppes 2020. aasta detsembris, mis tähendab, et vara viie
 > Aastane kulum: 50 000:5 = 10 000; igakuine kulum: 10000:12 = 833,33 <br>
 > Esimese aasta kulum: 10 000:2 = 5 000; ja järgnev igakuine kulum: 5000:9 = 555,56
 
-   [![Poolaasta kulumiarvestuse konventsiooni kulumiarvestuse ajakava](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Poolaasta kulumiarvestuse konventsiooni kulumiarvestuse ajakava.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Pikendatud kulumiperioodid, mis on lisatud pooleaastase konventsiooniga, võimaldavad kulumi täpsemat jaotamist. Kuuekuuline konventsioon kajastab kulumiarvestuse kulusid võrdsemalt, mis on kasulik kasumiaruande koostamiseks.
 

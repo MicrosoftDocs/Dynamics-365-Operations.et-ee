@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797811"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347586"
 ---
 # <a name="checkout-module"></a>Maksmise moodul
 
@@ -33,7 +33,7 @@ Maksmise moodul renderdab andmeid ostukorvi ID põhjal. See ostukorvi ID salvest
 
 Järgmisel pildil on näide Fabrikami maksmise moodulist maksmise lehel.
 
-![Maksmise mooduli näide](./media/Checkout.PNG)
+![Maksmise mooduli näide.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Maksmise mooduli atribuudid
 
@@ -52,13 +52,13 @@ Kassa moodul näitab tellimuse kokkuvõtet ja pakub tellimuse esitamise funktsio
 
     Järgmisel pildil on näide tarneaadressi moodulist maksmise lehel.
 
-    ![Tarneaadressi mooduli näide](./media/ecommerce-shippingaddress.PNG)
+    ![Tarneaadressi mooduli näide.](./media/ecommerce-shippingaddress.PNG)
 
 - **Tarnevalikud** – see moodul võimaldab kliendil valida tellimuse tarneviisi. Lisateavet selle mooduli kohta leiate teemast [Tarnevalikute moodul](delivery-options-module.md).
 
     Järgmisel pildil on näide tarnevalikute moodulist maksmise lehel.
  
-    ![Tarnevalikute mooduli näide](./media/ecommerce-deliveryoptions.PNG)
+    ![Tarnevalikute mooduli näide.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Maksmise jaotise konteiner** – see moodul on konteiner, kuhu saate lisada mitu moodulit, et luua jaotis maksmise voo sees. Näiteks saate panna sellesse konteinerisse kõik maksmisega seotud moodulid, et need kuvataks ühe jaotisena. See moodul mõjutab ainult voo paigutust.
 
@@ -70,7 +70,7 @@ Kassa moodul näitab tellimuse kokkuvõtet ja pakub tellimuse esitamise funktsio
 
     Järgmisel pildil on näide kinkekaardi, boonuspunktide ja maksemoodulitest maksmise lehel.
 
-    ![Kinkekaardi, boonuspunktide ja maksemoodulite näide maksmise lehel](./media/ecommerce-payments.PNG)
+    ![Kinkekaardi, boonuspunktide ja maksemoodulite näide maksmise lehel.](./media/ecommerce-payments.PNG)
 
 - **Kontaktteave** – see moodul võimaldab kliendil lisada või muuta tellimuse kontaktandmeid (meiliaadress).
 
@@ -80,7 +80,7 @@ Kassa moodul näitab tellimuse kokkuvõtet ja pakub tellimuse esitamise funktsio
 
     Järgmisel pildil on näide tingimustest maksmise lehel.
 
-    ![Tingimuste näide maksmise lehel](./media/ecommerce-checkout-terms.PNG)
+    ![Tingimuste näide maksmise lehel.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unitiga suhtlemine
 

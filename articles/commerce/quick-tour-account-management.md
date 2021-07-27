@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027959"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352056"
 ---
 # <a name="account-management-pages-overview"></a>Kontohalduse lehtede ülevaade
 
@@ -35,7 +36,7 @@ Kui klient logib sisse ja valib suvandi **Minu konto**, avatakse konto halduse s
 
 Järgnev illustratsioon näitab kontohalduse sihtlehe näidet.
 
-![Kontohalduse sihtlehe näide](./media/Account-Management.PNG)
+![Kontohalduse sihtlehe näide.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Leht Minu reeglid
 
@@ -43,7 +44,7 @@ Lehel **Minu profiil** kuvatakse kliendi konto teave, nt tema nimi ja telefoninu
 
 Järgmisel joonisel on kujutatud lehe **Minu profiil** näide, mis loodi mooduliteegi abil.
 
-![Minu profiili lehe näide](./media/Account-Management-MyProfile.PNG)
+![Minu profiili lehe näide.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Aadresside leht
 
@@ -51,7 +52,7 @@ Leht **Aadressid** võimaldab kliendil oma kontole aadresse lisada. See näitab 
 
 Järgnev illustratsioon näitab lehe **Aadressid** näidet.
 
-![Aadresside lehe näide](./media/Account-Management-Address.png)
+![Aadresside lehe näide.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Tellimuste ajalugu ja tellimuse üksikasjade lehed
 
@@ -59,11 +60,11 @@ Lehel **Tellimuse ajalugu** kuvatakse kõigi tellimuste kokkuvõte, mille klient
 
 Järgnev illustratsioon näitab lehe **Tellimuse ajalugu** näidet.
 
-![Tellimuse ajaloo lehe näide](./media/Account-Management-OrderHistory.PNG)
+![Tellimuse ajaloo lehe näide.](./media/Account-Management-OrderHistory.PNG)
 
 Järgnev illustratsioon näitab lehe **Tellimuse üksikasjad** näidet.
 
-![Tellimuse üksikasjade lehe näide](./media/Account-Management-OrderDetails.PNG)
+![Tellimuse üksikasjade lehe näide.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Püsikliendiprogrammi leht
 
@@ -71,7 +72,7 @@ Leht **Püsikliendiprogramm** võimaldab kliendil saada püsikliendiprogrammi li
 
 Järgmisel joonisel on näidatud lehe **Püsikliendiprogramm** näide.
 
-![Püsikliendiprogramm lehe näide](./media/Account-Management-Loyalty.PNG)
+![Püsikliendiprogrammi lehe näide.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Soovinimekirja leht
 
@@ -79,7 +80,7 @@ Lehel **Soovinimekiri** kuvatakse nende kaupade loend, mille klient on oma soovi
 
 Järgmisel joonisel on näidatud lehe **Soovinimekiri** näide.
 
-![Soovinimekirja lehe näide](./media/Account-Management-Wishlist.PNG)
+![Soovinimekirja lehe näide.](./media/Account-Management-Wishlist.PNG)
 
 Lisateavet kontohalduse moodulite ja nende autori kohta vt jaotisest [Kontohaldus](account-management.md).
 

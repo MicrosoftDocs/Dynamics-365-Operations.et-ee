@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: fe3e6a4223fc8b26e523a982a2e1752a34b370de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 86551cfeda1e4204c91b0534cda563012191e25c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753668"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348112"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Käivitatud ER-vormingu andmeallikate silumine andmevoo ja teisenduse analüüsimiseks
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753668"
 
 [!include[banner](../includes/preview-banner.md)]
 
-Kui [konfigureerite](tasks/er-format-configuration-2016-11.md) elektroonilise aruandluse (ER) lahendust väljaminevate dokumentide loomise otstarbel, siis määratlete andmete rakendusest kätte saamiseks ja saadud väljundi sisestamiseks kasutatavad meetodid. ER-lahenduse töötsükli toe tõhususe tagamiseks peaks teie lahendus sisaldama  [ER-andmemudelit](general-electronic-reporting.md#DataModelComponent) ja selle [vastendamise](general-electronic-reporting.md#ModelMappingComponent) komponente ning samuti [ER-vormingut](general-electronic-reporting.md#FormatComponentOutbound) ja selle vastendamise komponente, et tagada mudeli vastendamise rakenduspõhisus, samal ajal kui muud komponendid püsivad rakendusest sõltumatud. Seetõttu võivad loodud väljundisse andmete sisestamise protsessi [mõjutada ](general-electronic-reporting.md#FormatComponentOutbound) mitmesugused ER-komponendid.
+Kui [konfigureerite](tasks/er-format-configuration-2016-11.md) elektroonilise aruandluse (ER) lahendust väljaminevate dokumentide loomise otstarbel, siis määratlete andmete rakendusest kätte saamiseks ja saadud väljundi sisestamiseks kasutatavad meetodid. ER-lahenduse töötsükli toe tõhususe tagamiseks peaks teie lahendus sisaldama [ER-andmemudelit](general-electronic-reporting.md#DataModelComponent) ja selle [vastendamise](general-electronic-reporting.md#ModelMappingComponent) komponente ning samuti [ER-vormingut](general-electronic-reporting.md#FormatComponentOutbound) ja selle vastendamise komponente, et tagada mudeli vastendamise rakenduspõhisus, samal ajal kui muud komponendid püsivad rakendusest sõltumatud. Seetõttu võivad loodud väljundisse andmete sisestamise protsessi [mõjutada ](general-electronic-reporting.md#FormatComponentOutbound) mitmesugused ER-komponendid.
 
 Vahel näevad loodud väljundi andmed välja teistsugused kui samad andmed rakenduse andmebaasis. Sellisel juhul tuleks määratleda, milline ER-komponent vastutab andmeteisenduse eest. ER-andmeallika silurifunktsioon vähendab märkimisväärselt selle uurimiseks kuluvat aega ja kulusid. Saate katkestada ER-vormingu käitamise ja avada andmeallika siluri liidese. Seal saate kuvada saadaolevaid andmeallikaid ja valida käitamiseks konkreetse andmeallika. Käsitsi käitamine simuleerib andmeallika käitamist ER-vormingu tavapärase käitamise ajal. Tulemus esitatakse lehel, kus saate saadud andmeid analüüsida.
 
@@ -64,7 +64,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 
 1. Järgige käesoleva teema [3. lisas](#appendix3) toodud etappe, et töödelda hankija makseid.
 
-    ![Hankija maksete töötlemine on pooleli](./media/er-data-debugger-process-payment.png)
+    ![Hankija maksete töötlemine on pooleli.](./media/er-data-debugger-process-payment.png)
 
 2. Laadige alla ja salvestage zip-fail kohalikku arvutisse.
 3. Ekstraktige zip-failist maksefail **ISO20022 Credit transfer.xml**.
@@ -72,7 +72,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 
     Maksefailis puuduvad hankija pangakonto rahvusvahelises pangakontonumbris (IBAN) tühikud. Seega erineb see lehel **Pangakontod** [sisestatud](#enteredIBANcode) väärtusest.
 
-    ![Tühikuteta IBAN-kood](./media/er-data-debugger-payment-file.png)
+    ![Tühikuteta IBAN-kood.](./media/er-data-debugger-payment-file.png)
 
     Saate kasutada ER-i andmeallika silurit, et saada teada, millist ER-lahenduse komponenti kasutatakse IBAN-koodi tühikute kärpimiseks.
 
@@ -85,14 +85,14 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
     > [!NOTE]
     > See parameeter on kasutajakohane ja ettevõttekohane.
 
-    ![Kasutaja parameetrite dialoogiaken](./media/er-data-debugger-user-parameters.png)
+    ![Kasutaja parameetrite dialoogiaken.](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Hankija makse töötlemine silumiseks
 
 1. Järgige käesoleva teema [3. lisas](#appendix3) toodud etappe, et töödelda hankija makseid.
 2. Valige teateaknas **Jah**, et kinnitada oma soov katkestada hankija makse töötlemine ja käivitada selle asemel lehel **Andmeallikate silumine** andmeallika silumine.
 
-    ![Kinnituse teateaken](./media/er-data-debugger-start-debugging.png)
+    ![Kinnituse teateaken.](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>Maksetöötluses kasutatavate andmeallikate silumine
 
@@ -115,7 +115,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 
 7. Valige **Laienda kõik**.
 
-    ![IBAN-välja väärtus mudeli vastendamisel](./media/er-data-debugger-debugging-model-mapping.png)
+    ![IBAN-välja väärtus mudeli vastendamisel.](./media/er-data-debugger-debugging-model-mapping.png)
 
     Nagu näete, ei vastuta mudelivastendus kärbitud tühikute eest, kuna tagastatav hankija pangakonto IBAN-kood sisaldab tühikuid. Seega peate jätkama andmeallika silumist.
 
@@ -130,7 +130,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 7. Valige **Too väärtus**.
 8. Valige **Laienda kõik**.
 
-    ![IBAN-välja väärtus vormingu vastendamisel](./media/er-data-debugger-debugging-format-mapping.png)
+    ![IBAN-välja väärtus vormingu vastendamisel.](./media/er-data-debugger-debugging-format-mapping.png)
 
     Nagu näete, ei vastuta vorminguvastenduse andmeallikad kärbitud tühikute eest, kuna tagastatav hankija pangakonto IBAN-kood sisaldab tühikuid. Seega peate jätkama andmeallika silumist.
 
@@ -142,7 +142,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 4. Laiendage vormingu elemendid, et valida **ISO20022CTReports** \> **XMLHeader** \> **Dokument** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**, ja seejärel valige **Too väärtus**.
 5. Valige **Laienda kõik**.
 
-    ![IBAN-välja väärtus vormingus](./media/er-data-debugger-debugging-format.png)
+    ![IBAN-välja väärtus vormingus.](./media/er-data-debugger-debugging-format.png)
 
    Nagu näete, ei vastuta vormingu sidumine kärbitud tühikute eest, kuna tagastatav hankija pangakonto IBAN-kood sisaldab tühikuid. Seega on elementi **BankIBAN** konfigureeritud kasutama vorminguteisendust, mis kärbib tühikuid.
 
@@ -154,13 +154,13 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 2. Valige leheküljel **Konfiguratsioonid** suvand **Maksemudel** \> **ISO20022 kreeditülekanne**.
 3. Valige **Kujundaja** ja seejärel laiendage elemendid, et valida **Dokument** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**.
 
-    ![BankIBAN element vormingukujundaja lehel](./media/er-data-debugger-referred-transformation.png)
+    ![BankIBAN element vormingukujundaja lehel.](./media/er-data-debugger-referred-transformation.png)
 
     Nagu näete, on elementi **BankIBAN** konfigureeritud kasutama teisendust **eemalda mittetähtnumbrimärgid**.
 
 4. Valige vahekaart **Teisendused**.
 
-    ![BankIBAN elemendi teisenduste vahekaart](./media/er-data-debugger-transformation.png)
+    ![BankIBAN elemendi teisenduste vahekaart.](./media/er-data-debugger-transformation.png)
 
     Nagu näete, siis on teisendus **eemalda mittetähtnumbrimärgid** konfigureeritud kasutama avaldist, mis kärbib esitatud tekstistringist tühikud.
 
@@ -168,7 +168,7 @@ Järgmised ER-vormingute sätted ei ole hetkel andmeallikate silumiseks kättesa
 
 Kui konfigureerite ER-vormingu mustandversiooni, mida saab käitada otse toimingukoostajas, siis pääsete ligi andmeallika silurile, valides toimingupaanilt **Alusta silumist**.
 
-![Silumise alustamise nupp vormingu koostaja lehel](./media/er-data-debugger-run-from-designer.png)
+![Silumise alustamise nupp vormingu koostaja lehel.](./media/er-data-debugger-run-from-designer.png)
 
 Redigeeritava ER-vormingu vorminguvastendus ja vormingu komponendid on silumiseks kättesaadavad.
 
@@ -176,7 +176,7 @@ Redigeeritava ER-vormingu vorminguvastendus ja vormingu komponendid on silumisek
 
 Kui konfigureerite ER-vormingu mudelivastendust, mida saab käitada lehel **Mudelivastendus**, siis pääsete ligi andmeallika silurile, valides toimingupaanilt **Alusta silumist**.
 
-![Silumise alustamise nupp mudelivastenduse koostaja lehel](./media/er-data-debugger-run-from-designer-mapping.png)
+![Silumise alustamise nupp mudelivastenduse koostaja lehel.](./media/er-data-debugger-run-from-designer-mapping.png)
 
 Redigeeritava ER-vastenduse mudelivastenduse komponent on silumiseks kättesaadav.
 
@@ -186,7 +186,7 @@ Redigeeritava ER-vastenduse mudelivastenduse komponent on silumiseks kättesaada
 
 Kui soovite töödeldava hankija makse kohta loodava elektroonilise maksefaili loomiseks kasutada ER-lahendust, siis saate [laadida alla](download-electronic-reporting-configuration-lcs.md) ER-maksevormingu **ISO20022 kreeditülekanne**, mis on kättesaadav rakenduse Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegis või globaalses hoidlas.
 
-![ER-maksevormingu importimine konfiguratsiooni hoidla lehel](./media/er-data-debugger-import-from-repo.png)
+![ER-maksevormingu importimine konfiguratsiooni hoidla lehel.](./media/er-data-debugger-import-from-repo.png)
 
 Lisaks valitud ER-vormingule tuleb ER-lahenduse **ISO20022 kreeditülekanne** raames automaatselt Microsoft Dynamics 365 Finance'i eksemplari importida ka järgmised [konfiguratsioonid](general-electronic-reporting.md#Configuration).
 
@@ -197,7 +197,7 @@ Lisaks valitud ER-vormingule tuleb ER-lahenduse **ISO20022 kreeditülekanne** ra
 
 Need konfiguratsioonid leiate ER-raamistiku lehelt **Konfiguratsioonid** (**Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**).
 
-![Imporditud konfiguratsioonid lehel Konfiguratsioonid](./media/er-data-debugger-configurations.png)
+![Imporditud konfiguratsioonid lehel Konfiguratsioonid.](./media/er-data-debugger-configurations.png)
 
 Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis peate need käsitsi LCS-i ühiste vahendite teegist alla laadima samal viisil, nagu laadisite alla ER-maksevormingu **ISO20022 kreeditülekanne**.
 
@@ -213,7 +213,7 @@ Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis
 
     Pange tähele, et andmemudeli väli **Maksed** on seotud andmeallikaga **\$notSentTransactions**, mis tagastab töödeldavate hankija maksete ridade loetelu.
 
-    ![Maksete väli mudelivastendamise kujundaja lehel](./media/er-data-debugger-model-mapping.png)
+    ![Maksete väli mudelivastendamise kujundaja lehel.](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>Vormingu vastendamise läbivaatamine
 
@@ -224,7 +224,7 @@ Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis
 
     Pange tähele, et faili **ISO20022CTReports** \> **XMLHeader** element **Dokument** \> **CstmrCdtTrfInitn** \> **PmtInf** on seotud andmeallikaga **\$PaymentByDebtor**, mis on andmemudeli väljal **Maksed** konfigureeritud grupi kirjetesse.
 
-    ![PmtInf element vormingukujundaja lehel](./media/er-data-debugger-format-mapping.png)
+    ![PmtInf element vormingukujundaja lehel.](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>Vormingu läbivaatamine
 
@@ -234,7 +234,7 @@ Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis
 
     Pange tähele, et suvandi **Dokument** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** all toodud vormingu element on konfigureeritud hankija konto IBAN-koodi sisestamiseks maksefaili.
 
-    ![BankIBAN element vormingukujundaja lehel](./media/er-data-debugger-format.png)
+    ![BankIBAN element vormingukujundaja lehel.](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>2. lisa: ostureskontro konfigureerimine
 
@@ -245,7 +245,7 @@ Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis
 3. Valige kiirkaardil **Identifitseerimine** väli **IBAN**, <a name="enteredIBANcode"></a>sisestage **GB33 BUKB 2020 1555 5555 55**.
 4. Valige käsk **Salvesta**.
 
-![IBAN-i väli hankija pangakontode lehel](./media/er-data-debugger-iban.png)
+![IBAN-i väli hankija pangakontode lehel.](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>Makseviisi seadistamine
 
@@ -255,7 +255,7 @@ Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis
 4. Valige väljal **Ekspordivormingu konfiguratsioon** ER-vorming **ISO20022 kreeditülekanne**.
 5. Valige käsk **Salvesta**.
 
-![Failivormingu sätted makseviiside lehel](./media/er-data-debugger-payment-method.png)
+![Failivormingu sätted makseviiside lehel.](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>Hankija makse lisamine
 
@@ -267,7 +267,7 @@ Kui konfiguratsioonipuus puudub mõni varasemalt loetletud konfiguratsioon, siis
 6. Valige väljal **Makseviis** **SEPA CT**.
 7. Valige käsk **Salvesta**.
 
-![Lisatud hankija makse hankija maksete lehel](./media/er-data-debugger-payment-journal.png)
+![Lisatud hankija makse hankija maksete lehel.](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>3. lisa: hankija makse töötlemine
 

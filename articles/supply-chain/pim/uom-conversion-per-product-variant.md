@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921213"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353536"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mõõtühiku teisendus tootevariandi kohta
 
@@ -56,7 +56,7 @@ Tooteetaloni konfigureerimiseks, et toetada ühikuteisendust ühe variandi kohta
     - **Toode** – selle väärtuse valimisel saate seadistada ühiku teisenduse tooteetaloni jaoks. Seda ühiku teisendust kasutatakse varuvariandina kõigi tootevariantide puhul, millele pole ühiku teisendust määratletud.
     - **Tootevariant** – selle väärtuse valimisel saate seadistada ühiku teisenduse kindla tootevariandi jaoks. Variandi valimiseks kasutage välja **Tootevariant**.
 
-    ![Uue ühiku teisenduse lisamine](media/uom-new-conversion.png "Uue ühiku teisenduse lisamine")
+    ![Uue ühiku teisenduse lisamine.](media/uom-new-conversion.png "Uue ühiku teisenduse lisamine")
 
 1. Ühiku teisenduse seadistamiseks kasutage teisi saadaolevaid välju.
 1. Uue ühiku teisenduse salvestamiseks valige **OK**.

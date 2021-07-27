@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f94b054d213dc2b347f4e5a7b2f4c2a51d519f57
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 626393f0c07803eb944e9066c72a24d2cf9ea0ce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824000"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356217"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Tulu tuvastamise ümberjaotamine – 1. stsenaarium
 
@@ -28,25 +28,25 @@ Selles teemas tutvustatakse ümberjaotamise stsenaariumi, kus sisestatakse kaks 
 
 Selles stsenaariumis määratakse lehe **Pearaamatu parameetrid** vahekaardi **Tulu tuvastamine** suvand **Arvete korrigeerimiste sisestamine müügireskontrole** olekusse **Ei** (**Tulu tuvastamine \> Häälestamine \> Pearaamatu parameetrid**).
 
-[![Suvand arvete korrigeerimiste sisestamine müügireskontrole määratud olekusse Ei](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
+[![Suvand arvete korrigeerimiste sisestamine müügireskontrole määratud olekusse Ei.](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
 
 Müügitellimus luuakse kliendile US\_SI\_0003. Klient ostab sülearvuti (kaubakood S0012) ja sellele tugilepingu (kaubakood S0008, „Püsiv projekteerimisteenus“). Sülearvuti tulu tuvastatakse kohe (tulu tuvastamise graafik puudub). Tugilepingu tulu lükatakse edasi ja tuvastatakse 12 kuu jooksul, nagu määratleb lepingu kuupäevavahemik.
 
-[![Sülearvuti ja tugilepingu müügitellimuse read](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
+[![Sülearvuti ja tugilepingu müügitellimuse read.](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
 
 Müügitellimus kinnitatakse. Kuna mõlemad kaubad on häälestatud tulu hinna eraldamiseks, arvutatakse tulu hind müügitellimuse kinnitamisel. Tuvastatavat tulu saate vaadata lehel **Tulu hinna eraldamine** (lehel **Müügitellimus**, toimingupaanil, vahekaardil **Haldamine**, grupis **Tulu tuvastamine** valige **Tulu hinna eraldamine**). Sülearvuti tulu sisestatakse tulu kontole summas 1008.01 $. Tugilepingu tulu sisestatakse edasilükkunud tulu kontole summas 190.99 $. Tulu hindade summa peab võrduma tulu hinna eraldamise hõivamiseks häälestatud ridade summaga (1199.00 $).
 
-[![Tulu hinna eraldamise leht](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
+[![Tulu hinna eraldamise leht.](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
 
 Müügitehingu sõlmimisel otsustas klient mitte osta installimisteenuseid (kaubakood S0001), kuid muutis hiljem meelt. Seetõttu sisestatakse samale kliendile teine müügitellimus.
 
-[![Installimisteenuste müügitellimuse rida](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
+[![Installimisteenuste müügitellimuse rida.](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
 
 Kinnitatakse teine müügitellimus. Kuna see müügitellimus sisaldab ainult üht rida, siis müügitellimuse kinnitamisel tulu hinna eraldamist ei tehta. Tulu hinna eraldamine toimub ainult siis, kui on kaks või enam kordumatut kaupa ja kui need kaubad on häälestatud tulu hinna eraldamiseks.
 
 Kui see uus müügitellimus on ainus muudatus kliendi lepingus, saab ümberjaotamise protsessi nüüd käivitada. Valige ühes kahest müügitellimusest **Hinna ümberjaotamine uute tellimuse ridadega**, et avada leht **Hinna ümberjaotamine uute tellimuse ridadega**. Teise variandina võite avada **Tulu tuvastamine \> Perioodilised ülesanded \> Hinna ümberjaotamine uute tellimuse ridadega**. Valige kaks müügitellimust ja vastavad müügitellimuse read ning seejärel valige **Uuenda ümberjaotamist**. Veerus **Ümberjaotud summa** näidatakse iga müügitellimuse rea uus tulu hind.
 
-[![Uued tulu hinnad lehel Hinna ümberjaotamine uute tellimuse ridadega](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
+[![Uued tulu hinnad lehel Hinna ümberjaotamine uute tellimuse ridadega.](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
 
 Kui valite **Eeldatav kanne**, siis ei näidata midagi, sest ühtegi arvet pole sisestatud.
 
@@ -55,7 +55,7 @@ Kui valite **Eeldatav kanne**, siis ei näidata midagi, sest ühtegi arvet pole 
 > [!TIP]
 > Nende lisakaupade näitamisele konteksti andmiseks saate ruudustikku lisada täiendavaid veerge, näiteks **Ümberjaotamise ID** ja **Müügitellimus**.
 > 
-> [![Täiendavad veerud tulu hinna eraldamiste lehel](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+> [![Täiendavad veerud tulu hinna eraldamiste lehel.](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

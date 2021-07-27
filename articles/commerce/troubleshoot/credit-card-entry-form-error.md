@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ea9105481e6c5812565f0d3604906c905bcb5443
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 593c1bdb502330c5dc9f26254dbed809cea7651b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018502"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347388"
 ---
 # <a name="credit-card-entry-page-shows-an-error-at-checkout"></a>Krediitkaardi sisestamise lehel kuvatakse väljaregistreerimisel tõrge
 
@@ -32,9 +32,9 @@ See teema annab tõrkeotsingu juhised, mis aitavad, kui **makseviisi jaotist** e
 
 Kui avate e-poe väljaregistreerimise lehekülje, ei laadita **makseviisi jaotist** ja kuvatakse järgmine tõrketeade: "Midagi läks valesti. Proovige hiljem uuesti.”
 
-![Maksemooduli tõrge](media/payment-module-error.jpg)
+![Maksemooduli tõrge.](media/payment-module-error.jpg)
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
 
 ### <a name="wait-for-the-commerce-scale-unit-cache-to-expire"></a>Oodake, kuni Commerce Scale Unit vahemälu aegub
 

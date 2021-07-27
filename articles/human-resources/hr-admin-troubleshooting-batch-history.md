@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053487"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344660"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Optimeeri jõudlus automaatse puhastamise ülesannetega
 
@@ -41,23 +41,23 @@ Planeerige automaatne ülesanne oma pakett-töö ajaloo puhastamiseks. Soovitame
 
 2. Sisestage väljale **Otsing** käsk **Pakett-töö ajaloo puhastamine**.
 
-   ![Otsige pakett-töö ajaloo puhastamist](media/talent-batch-history-cleanup-search-bar.png)
+   ![Otsige pakett-töö ajaloo puhastamist.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. Sisestage jaotisse **Ajaloo limiit (päeva)** väärtus **30**.
 
-   ![Määrake ajaloo limiidiks 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Määrake ajaloo limiidiks 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Valige suvand **Käivita taustal** ja seejärel valige **Kordumine**.
 
-   ![Seadistage kordumine](media/talent-batch-history-cleanup-recurrence.png)
+   ![Kordumise seadistamine.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. Valikus **Määratle kordumine** seadistage **Alguskuupäev** ja **Algusaeg** töövälisele ajale või nädalavahetusele ning seejärel valige **LÕPP-KUUPÄEV PUUDUB**. 
 
-   ![Määratlege korduse alguskuupäev ja -kellaaeg](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Määratlege korduse alguskuupäev ja -kellaaeg.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. Jaotises **KORDUMISMUSTER** valige **Päevad** ja määrake **KORDA MÄÄRATUD INTERVALLI JÄREL** kuni **7**.
 
-   ![Määrake puhastamisele iganädalane kordus](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Määrake puhastamisele iganädalane kordus.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Valige nupp **OK**.
 

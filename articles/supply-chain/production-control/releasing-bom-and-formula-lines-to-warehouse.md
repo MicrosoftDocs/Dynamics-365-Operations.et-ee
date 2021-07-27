@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811674"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350542"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Koosluse- ja valemiridade lattu väljastamine
 
@@ -61,7 +61,7 @@ Pakett-töö **Koosluse- ja valemiridade automaatne väljastamine** päringus sa
 
 Järgmisel joonisel on kujutatud tootmistellimus, millel on kaks tööd, 10 ja 20, mis hõlmavad tootmistellimuse koostamist ja pakkimist. Iga töö seadistatakse tarbima materjalikogust. Selles näites võrdub ajajoone all rohelise allanoolega tähistatud väljastamise ajapiir kriteeriumis **(LessThanDate())** määratud päevade arvuga. Näiteks **(LessThanDate(2))** näitab, et töö peaks otsima väljastamata koguseid ainult kahepäevases ajavahemikus.
 
-![Kahe pakett-tööga tootmistellimuse näide](media/bach-job-setup.PNG)
+![Kahe pakett-tööga tootmistellimuse näide.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Materjali väljastamine toimingu numbri järgi või proportsionaalselt lõpetatud kaupade hulgaga.
 
@@ -78,7 +78,7 @@ Toimingute juhtimiseks, millele tuleb materjali väljastada, kasutage lehte **La
 
 Järgmisel joonisel on kujutatud tootmistellimus, millel on kaks toimingut, 10 ja 20. Kui piirate selles näites väljastamise toiminguga 10, väljastatakse ainult materjal M9203.
 
-![Materjali väljastamise näide toimingu numbri järgi](media/two-operations.PNG)
+![Materjali väljastamise näide toimingu numbri järgi.](media/two-operations.PNG)
 
 Kiiret demonstratsiooni selle kohta, kuidas väljastada materjali proportsionaalselt lõpetatud kaupade hulgaga, saate vaadata järgmisest lühikesest YouTube’i videost: [Tootmistellimuse väljastusprotsessi täiustused rakenduses](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

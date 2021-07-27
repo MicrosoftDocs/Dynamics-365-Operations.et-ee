@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5dbef67728e86259ee48b51c48921f6e44a61015
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 356552fd1c2001619785b6a03b8ec4cba92725da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793053"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351317"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Sularaha nimiväärtuste konfigureerimine kassa jaoks
 
@@ -33,7 +33,7 @@ Poe kassas müüjate, müügiassistentide ja juhatajate poolt kasutatavate rahat
 
 Nimiväärtuste seadistamine iga poe kohta toimub lehel **Seadistamine** \> **Sularaha deklaratsiooni suvand**.
 
-![Sularaha deklaratsiooni suvand](./media/image1-denomination.png)
+![Sularaha deklaratsiooni suvand.](./media/image1-denomination.png)
 
 Nimiväärtuse määratlemiseks tehke järgmist.
 
@@ -41,7 +41,7 @@ Nimiväärtuse määratlemiseks tehke järgmist.
 1. Määrake tüüp (münt või rahatäht).
 1. Määrake summa (väärtus).
 
-![Sularahadeklaratsiooni põhivaluutade leht](./media/image2-denomination.png)
+![Sularahadeklaratsiooni põhivaluutade leht.](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Seadistage funktsiooniprofiil.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908702"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353416"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gantti diagramm tööde plaanimiseks
 
@@ -45,10 +45,10 @@ Gantti diagrammi saab avada kahes vaates: **Tellimuse vaade** ja **Ressursivaade
 
 ## <a name="order-view"></a>Tellimusevaade
 
-[![Tellimusevaade](./media/orderview.png)](./media/orderview.png)
+[![Tellimuse vaade.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Ressursivaade
-[![Ressursivaade](./media/resview.png)](./media/resview.png)
+[![Ressursivaade.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Tegevused
 Tegevused kuvatakse ribadena ja need on paigutatud ajaskaala tabelisse koos plaanitud alguse ja lõpu ajaga, mis muudab ribade pikkuse proportsionaalseks tegevuse lõpuleviimiseks vajaliku ajaga. Tegevused kuvatakse vastavalt ajaskaalale. Ajaskaalat saab kohandada menüüs, kus tuleb valida alguse ja lõpu kuupäev ning ajaühik, nt tunnid või päevad. Ajaskaalat kohandades saate määrata fookuse ajavahemikule, milles soovite tegevusi hallata. 
@@ -102,25 +102,25 @@ Tööd ei saa plaanida väljaspool Gantti diagrammil määratletud ajavahemikku.
 
 Tegevuste võrgus, nt samasse tootmistellimusse kuuluvate tööde puhul, saab kasutada funktsiooni **Eelmiste tööde plaanimine** võrgus valitud tööle eelnevate tööde plaanimiseks. Järgmises näites on esile tõstetud tegevus valitud töö. Diagramm kuvatakse enne eelmise töö plaanimist ja pärast eelmise töö plaanimist. 
 
-[![Eelmise töö plaanimine](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Eelmise töö plaanimine.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Planeeri järgmised tööd
 
 Võite kasutada funktsiooni **Järgmiste tööde plaanimine** valitud tööle tegevuste võrgus eelnevate tööde plaanimiseks. Järgmises näites on esile tõstetud tegevus valitud töö. Diagramm kuvatakse enne järgmise töö plaanimist ja pärast järgmise töö plaanimist. 
 
-[![Järgmise töö plaanimine](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Järgmise töö plaanimine.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Plaani töö ümber
 
 Võite kasutada funktsiooni **Plaani töö ümber** valitud tööle tegevuste võrgus järgnevate ja eelnevate tööde plaanimiseks. Järgmises näites on esile tõstetud tegevus valitud töö. Diagramm kuvatakse enne töö plaanimist ja pärast töö plaanimist. 
 
-[![Plaani töö ümber](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Plaani töö ümber.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Korrasta tööd
 
 Funktsiooni **Korrasta** abil saab korrastada valitud tegevused samal ressursil. Need tegevused võivad olla samas tegevuste võrgus, kuid võivad kuuluda ka erinevatesse võrkudesse. Kui kasutate korrastamise funktsiooni, siis eemaldatakse valitud tegevuste vahelised ajaerinevused. Võite kasutada seda funktsiooni ressursside võimsuse kasutuse optimeerimiseks. Diagramm kuvatakse enne töö plaanimist ja pärast töö plaanimist. 
 
-[![Töö korraldamine](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Töö korraldamine.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Tegevuste ümbermääramine ühelt ressursilt teisele
 

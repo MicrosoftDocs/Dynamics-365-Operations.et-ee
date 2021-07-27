@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054352"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346294"
 ---
 # <a name="dataverse-tables"></a>Dataverse'i tabelid
 
@@ -152,27 +152,27 @@ Järgmised Dataverse'i tabelid on saadaval Human Resources'i olemite põhjal.
 
 ### <a name="worker"></a>Töötaja
 
-![Töötaja](./media/HCMCommon-worker-entity-diagram.png)
+![Töötaja.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Töö ja ametikoht
 
-![Töö ja ametikoht](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Töö ja ametikoht.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Soodustused
+### <a name="benefits"></a>Kasu
 
-![Soodustused](./media/HCMCommon-benefits-entity-diagram.png)
+![Kasu.](./media/HCMCommon-benefits-entity-diagram.png)
 
-### <a name="compensation"></a>Kompensatsioon
+### <a name="compensation"></a>Hüvitus
 
-![Kompensatsioon](./media/HCMCommon-compensation-entity-diagram.png)
+![Hüvitus.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Lahkumine
+### <a name="leave"></a>Puhkus
 
-![Lahkumine](./media/HCMCommon-leave-entity-diagram.png)
+![Puhkus.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Töökalender
 
-![Töökalender](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Töökalender.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Vt ka
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018602"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352176"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
 
@@ -56,9 +56,9 @@ See stsenaarium kirjeldab käitumist, kui suvand **Proportsionaalselt vastavatel
 
 Selles stsenaariumis on ettevõte määratlenud päisetasemel kulud tarneviisi seostele **99** ja **11**. Tarneviisile **21** pole konfigureeritud ühtegi automaatset kulu.
 
-![Tarneviisi 99 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on välja lülitatud](media/99_disabled.png)
+![Tarneviisi 99 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on välja lülitatud.](media/99_disabled.png)
 
-![Tarneviisi 11 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on välja lülitatud](media/11_disabled.png)
+![Tarneviisi 11 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on välja lülitatud.](media/11_disabled.png)
 
 Kõnekeskuses luuakse müügitellimus ja tarneviisiks määratakse **99**. See tellimus sisaldab viit kaupa. Kaks tellimuserida on konfigureeritud kasutama tarneviisi **99**, kaks rida on konfigureeritud kasutama tarneviisi **11** ja üks rida on konfigureeritud kasutama tarneviisi **21**, nagu on näidatud järgmises tabelis.
 
@@ -78,9 +78,9 @@ Selles stsenaariumis, kui klient tagastab mõned tellimuse kaubad ja kui [tasuko
 
 Selles stsenaariumis määratletakse päisetasemel kulud tarneviisi seostele **99** ja **11**. Kuid nende automaatse kulu tabelite puhul on suvand **Proportsionaalselt vastavatele müügiridadele jaotamine** määratud väärtusele **Jah**.
 
-![Tarneviisi 99 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on sisse lülitatud](media/99_enabled.png)
+![Tarneviisi 99 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on sisse lülitatud.](media/99_enabled.png)
 
-![Tarneviisi 11 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on sisse lülitatud](media/11_enabled.png)
+![Tarneviisi 11 automaatsed kulud, kui vastenduv rea proportsionaalne arvestus on sisse lülitatud.](media/11_enabled.png)
 
 Stsenaarium kasutab sama müügitellimust, mis sisaldab viit rida. Tellimuse päises on tarneviisi väärtuseks **99**, kuid müügitellimuses on iga kauba tarneviis konfigureeritud järgmises tabelis näidatud viisil.
 
@@ -130,9 +130,9 @@ Kuna automaatse kulu konfiguratsioon on määratud proportsionaalsele jaotamisel
     - Toodete koguväärtus = $15
     - **Tasu väärtus = $0** (Sellise kliendi ja tarneviisi kombinatsiooni jaoks pole automaatseid kulusid konfigureeritud.)
 
-    ![Tarneviisi 11 tasud kuuluvad esiletõstetud järku](media/step2mode11.png)
+    ![Tarneviisi 11 tasud kuuluvad esiletõstetud järku.](media/step2mode11.png)
 
-    ![Tarneviisi 99 tasud kuuluvad esiletõstetud järku](media/step2mode99.png)
+    ![Tarneviisi 99 tasud kuuluvad esiletõstetud järku.](media/step2mode99.png)
 
 3. Süsteem arvutab kulu väärtuse, mis tuleb rakendada igale reale, võttes aluseks proportsionaalse arvestuse loogika, mis arvestab rea proportsionaalset väärtust grupi toodete koguväärtusega seoses.
 
@@ -163,7 +163,7 @@ Kuna automaatse kulu konfiguratsioon on määratud proportsionaalsele jaotamisel
 
 Seetõttu määratakse selles näites kaubale 81334 veokulu summas $5,62. Neid tasusid saate vaadata müügitellimuse rea lehel **Tasude haldamine**. Järgmisel joonisel on näidatud, kuidas see leht kauba 81334 jaoks välja näeb.
 
-![Müügirea proportsionaalselt jaotatud tasud kauba 81334 puhul](media/proratedlinecharge.png)
+![Müügirea proportsionaalselt jaotatud tasud kauba 81334 puhul.](media/proratedlinecharge.png)
 
 Kui seda arvutamismeetodit kasutatakse osalise tagastuse stsenaariumi korral, kui tasukood on tagasimakstav, makstakse kauba tagastamisel tagasi ainult see tasu osa, mis on eraldatud sellele reale.
 

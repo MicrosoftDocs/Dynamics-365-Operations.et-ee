@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ec5b8d0ad1e85a9c4fc7c3eb762c2c7b0b52e8d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b2b22d6e18974ed600dae6501ec103a49876d2db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893296"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345908"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Elektroonilise aruandluse konfiguratsioonide kohandamine elektroonilise dokumendi loomiseks
 
@@ -106,7 +108,7 @@ Oma praegusesse Finance'i eksemplari standardsete ER-i konfiguratsioonide lisami
 5. Kiirkaardil **Versioonid** valige versioon **11.2.2**.
 6. Valige käsk **Impordi**, et laadida valitud versioon globaalsest hoidlast.
 
-![Konfiguratsioonihoidla leht](./media/er-quick-start3-import-solution1.png)
+![Konfiguratsioonihoidla leht.](./media/er-quick-start3-import-solution1.png)
 
 > [!TIP]
 > Kui teil on probleeme [globaalsele hoidlale](er-download-configurations-global-repo.md) juurde pääsemisega, saate selle asemel [laadida konfiguratsioonid alla](download-electronic-reporting-configuration-lcs.md) Microsoft Dynamics Lifecycle Servicesist (LCS).
@@ -120,7 +122,7 @@ Oma praegusesse Finance'i eksemplari standardsete ER-i konfiguratsioonide lisami
 
 Pange tähele, et lisaks valitud ER-vormingule **PEPPOL-i müügiarve** imporditi teised nõutavad ER-i konfiguratsioonid. Kuna ER-i konfiguratsioonide uusi versioone avaldatakse pidevalt globaalsesse hoidlasse ja LCS-i, et vastavad lahendused oleksid vastavuses uute nõuetega, siis imporditi nõutava [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) konfiguratsiooni ja selle [mudeli vastenduse](general-electronic-reporting.md#data-model-and-model-mapping-components) konfiguratsioonide uusimad versioonid.
 
-![Konfiguratsioonide leht](./media/er-quick-start3-imported-solution1a.png)
+![Konfiguratsioonide leht.](./media/er-quick-start3-imported-solution1a.png)
 
 Et simuleerida olekut, milles ER-i konfiguratsioonid oleksid praeguses Finance'i eksemplaris, kui impordite **PEPPOL-i müügiarve** ER-vormingu versiooni **11.2.2** minevikus (nt 7. augustil 2019), toimige järgmiselt.
 
@@ -134,7 +136,7 @@ Seejärel kinnitage, et konfiguratsioonipuus oleksid saadaval järgmised konfigu
     - Versioon 11 sisaldab [andmemudeli](general-electronic-reporting.md#data-model-and-model-mapping-components) ER-i komponendi versiooni 10, mis tähistab arveldamise äridomeeni andmestruktuuri. See ER-i konfiguratsioon on imporditud importimiseks valitud **PEPPOL-i müügiarve** ER-vormingu eekäijana.
     - Versioon 50 sisaldab andmemudeli ER-i komponendi versiooni 31. See ER-i konfiguratsioon imporditi 7. augusti 2019 **Arve mudeli vastenduse** ER-i mudeli vastenduse konfiguratsiooni versiooni eelkäijana.
 
-    ![Arvemudeli ER-i andmemudeli konfiguratsioon lehel „Konfiguratsioonid”](./media/er-quick-start3-imported-solution1b1.png)
+    ![Arvemudeli ER-i andmemudeli konfiguratsioon konfiguratsioonide lehel.](./media/er-quick-start3-imported-solution1b1.png)
 
     > [!TIP]
     > Kui teile ei kuvata selle andmemudeli versiooni 50, avage globaalne hoidla ja importige **Arve mudeli vastenduse** ER-i konfiguratsiooni versioon 50.19.
@@ -143,7 +145,7 @@ Seejärel kinnitage, et konfiguratsioonipuus oleksid saadaval järgmised konfigu
 
     - Versioon 50.19 imporditi **Arvemudeli** ER-i andmemudeli konfiguratsiooni versiooni 50 uusima juurutusena. See sisaldab kahte ER-i komponentide [mudeli vastendust](general-electronic-reporting.md#data-model-and-model-mapping-components), mis kirjeldavad, kuidas rakenduse andmeid sisestatakse andmemudelisse käitusajal.
 
-    ![Arvemudeli vastenduse ER-i mudeli vastenduse konfiguratsioon lehel Konfiguratsioonid](./media/er-quick-start3-imported-solution1b2.png)
+    ![Arvemudeli vastenduse ER-i mudeli vastenduse konfiguratsioon konfiguratsioonide lehel.](./media/er-quick-start3-imported-solution1b2.png)
 
     > [!TIP]
     > Kui teile ei kuvata selle mudeli vastenduse versiooni 50.19, avage globaalne hoidla ja importige **Arve mudeli vastenduse** ER-i konfiguratsiooni versioon 50.19.
@@ -156,7 +158,7 @@ Seejärel kinnitage, et konfiguratsioonipuus oleksid saadaval järgmised konfigu
 
     - Versioon 11.2.2 sisaldab vormingut ja vormingu vastenduse ER-i komponente, mis konfigureeriti looma e-arveid vormingus Pan-European Public Procurement OnLine (PEPPOL).
 
-    ![PEPPOL-i müügiarve ER-vormingu konfiguratsioon lehel „Konfiguratsioonid”](./media/er-quick-start3-imported-solution1b3.png)
+    ![Peppol-i müügiarve ER-vormingu konfiguratsioon konfiguratsioonide lehel.](./media/er-quick-start3-imported-solution1b3.png)
 
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>Müügireskontro parameetrite konfigureerimine
 
@@ -164,7 +166,7 @@ Seejärel kinnitage, et konfiguratsioonipuus oleksid saadaval järgmised konfigu
 2. Valige vahekaardi **Elektroonilised dokumendid** kiirkaardi **Elektrooniline aruandlus** väljal **Müügi- ja vabas vormis arve** suvand **PEPPOL-i müügiarve**.
 3. Valige käsk **Salvesta**.
 
-![Elektrooniliste dokumentide vahekaart lehel „Müügireskontro parameetrid”](./media/er-quick-start3-configure-ar1.png)
+![Elektrooniliste dokumentide vahekaart müügireskontro parameetrite lehel.](./media/er-quick-start3-configure-ar1.png)
 
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>Juriidilise isiku parameetrite konfigureerimine
 
@@ -216,7 +218,7 @@ Nüüd saate kasutada standardseid ER-i konfiguratsioone, mille importisite klie
 
 5. Valige käsk **Salvesta**.
 
-![Vabas tekstis arve leht](./media/er-quick-start3-add-invoice.png)
+![Vabas tekstis arve leht.](./media/er-quick-start3-add-invoice.png)
 
 Lisateabe saamiseks vt [Vabas vormis arve loomine](../../../finance/accounts-receivable/create-free-text-invoice-new.md).
 
@@ -226,14 +228,14 @@ Lisateabe saamiseks vt [Vabas vormis arve loomine](../../../finance/accounts-rec
 2. Valige toimingupaani lehel **Vabas vormis arve** suvand **Sisesta**.
 3. Valige dialoogiboksis **Vabas vormis arve sisestamine** suvand **OK**.
 
-![Vabas vormis arve üksikasjade leht](./media/er-quick-start3-post-invoice.png)
+![Vabas vormis arve üksikasjade leht.](./media/er-quick-start3-post-invoice.png)
 
 ### <a name="send-a-posted-invoice"></a>Sisestatud arve saatmine
 
 1. Avage **Müügireskontro** \> **Arved** \> **Kõik vabas vormis arved**.
 2. Valige toimingupaani lehe **Vabas vormis arve** grupis **Dokument** suvand **Saada** \> **Algne**.
 
-    ![Algse arve eelvaade](./media/er-quick-start3-send-invoice.png)
+    ![Algse arve eelvaade.](./media/er-quick-start3-send-invoice.png)
 
 3. Sulgege leht **Vabas vormis arve**.
 
@@ -243,12 +245,12 @@ Lisateabe saamiseks vt [Vabas vormis arve loomine](../../../finance/accounts-rec
 2. Valige lehel **Elektroonilise aruandluse tööd** esialgne kirje, mille ülesande kirjeldus on **Saada eInvoice XML-vormingus**.
 3. Loodud failide loendi juurde pääsemiseks valige **Kuva failid**.
 
-    ![Elektroonilise aruandluse tööde leht](./media/er-quick-start3-jobs-list.png)
+    ![Elektroonilise aruandluse tööde leht.](./media/er-quick-start3-jobs-list.png)
 
 4. Loodud e-arve XML-faili allalaadimiseks valige **Ava**.
 5. Analüüsige e-arve XML-faili. Pange tähele, et kliendi maksuskeemi esindavad praegu XML-i atribuudid **schemeID** ja **schemeAgencyID**. Samuti pange tähele, et XML-i element **cbc:CustomizationID** sisaldab praegu järgmist teksti: `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0`.
 
-    ![Loodud e-arve XML-faili eelvaade](./media/er-quick-start3-e-invoice1.png)
+    ![Loodud e-arve XML-faili eelvaade.](./media/er-quick-start3-e-invoice1.png)
 
 ## <a name="add-a-custom-database-field"></a><a name="AddCustomField"></a>Kohandatud andmebaasi välja lisamine
 
@@ -280,7 +282,7 @@ Kohandamise tegemiseks toimige järgmiselt.
 12. Kuvatavas teateaknas valige **Jah**, et kinnitada, kas soovite luua uue välja kirje **FederalTaxID** tabelisse **Kliendid**.
 13. Valige **Sisesta** välja **FederalTaxID\_Kohandatud** <a name="insert_custom_field"></a>lisamiseks praegusele lehele.
 
-    ![Leht Kõik kliendid](./media/er-quick-start3-create-new-field.gif)
+    ![Kõikide klientide leht.](./media/er-quick-start3-create-new-field.gif)
 
 14. Sulgege leht **Kõik kliendid**.
 
@@ -310,7 +312,7 @@ Elektroonilise aruandluse funktsionaalse konsultandi rolli kasutajana saate kuju
 
 Nüüd saate kasutada ER-i andmemudeli kujundajat **Arvemudeli (Litware)** ER-i konfiguratsiooni versiooni 50.1 redigeerimiseks **Mustandi** [olekus](general-electronic-reporting.md#component-versioning).
 
-![ER-i konfiguratsiooni versioon 50.1 lehel „Konfiguratsioonid”](./media/er-quick-start3-added-custom-model.png)
+![ER-i konfiguratsiooni versioon 50.1 konfiguratsioonide lehel.](./media/er-quick-start3-added-custom-model.png)
 
 #### <a name="configure-a-custom-data-model"></a>Kohandatud andmemudeli konfigureerimine
 
@@ -326,7 +328,7 @@ Peate muutma oma kohandatud andmemudelit, lisades uue välja föderaalmaksu ID-k
 8. Kinnitage väljal **Üksuse tüüp** vaikeväärtus **String**.
 9. Valige **Lisa** ja seejärel **Salvesta**.
 
-    ![Andmemudeli kujundaja leht](./media/er-quick-start3-add-data-model-field.png)
+    ![Andmemudeli kujundaja leht.](./media/er-quick-start3-add-data-model-field.png)
 
     > [!NOTE]
     > Väljad **Silt** ja **Kirjeldus** kirjeldavad uue välja otstarvet. Neid välju saate täita mitmes keeles. Lisateavet vt [Mitmekeelsete aruannete kujundamine elektroonilises aruandluses](er-design-multilingual-reports.md).
@@ -343,7 +345,7 @@ Peate töö [lõpule viima](general-electronic-reporting.md#component-versioning
 
 Versiooni 50.1 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versioon muudetakse kirjutuskaitstuks. Lisatud on uus redigeeritav versioon, 50.2, ja selle olekuks on **Mustand**. Seda versiooni saate kasutada oma kohandatud ER-i andmemudeli konfiguratsioonis täiendavate muudatuste tegemiseks.
 
-![Versioon 50.1 on lõpule viidud lehel „Konfiguratsioonid”](./media/er-quick-start3-completed-custom-model1.png)
+![Versioon 50.1 on lõpule viidud konfiguratsioonide lehel.](./media/er-quick-start3-completed-custom-model1.png)
 
 ### <a name="customize-the-model-mapping-configuration"></a>Mudelivastenduse konfiguratsiooni kohandamine
 
@@ -363,7 +365,7 @@ Elektroonilise aruandluse arendaja rolli kasutajana saate kujundada oma kohandat
 
 7. Uue ER-i konfiguratsiooni lisamiseks valige **Loo konfiguratsioon**.
 
-![Kohandatud mudelivastenduse konfiguratsiooni lisamine lehel „Konfiguratsioonid”](./media/er-quick-start3-adding-custom-mapping.png)
+![Kohandatud mudelivastenduse konfiguratsiooni lisamine lehel „Konfiguratsioonid”.](./media/er-quick-start3-adding-custom-mapping.png)
 
 #### <a name="configure-a-custom-model-mapping"></a>Kohandatud mudelivastenduse konfigureerimine
 
@@ -374,7 +376,7 @@ Peate muutma oma kohandatud mudelivastendust ja määratlema, kuidas kohandatud 
 3. Valige toimingupaanil valik **Koostaja**.
 4. Tehke lehe **Mudelist andmeallikasse vastendamine** valik **Kliendiarve** vastendus.
 
-    ![Leht „Mudelist andmeallikasse vastendamine”](./media/er-quick-start3-select-customer-mapping.png)
+    ![Leht „Mudelist andmeallikasse vastendamine”.](./media/er-quick-start3-select-customer-mapping.png)
 
 5. Valige **Kujundaja**.
 6. Laiendage lehe **Mudelivastenduse kujundaja** paanil **Andmeallikad** andmeallikat **CustInvoiceJour**, mis tähistab rakenduse tabelit **CustInvoiceJour**.
@@ -384,7 +386,7 @@ Peate muutma oma kohandatud mudelivastendust ja määratlema, kuidas kohandatud 
 10. Laiendage paanil **Andmemudel** suvandit **Kliendi teave (klient)** ja valige andmemudeli väli **FederalTaxID\_Litware**.
 11. Valige **Seo**.
 
-    ![Mudelivastenduse koostaja leht](./media/er-quick-start3-customize-model-mapping.gif)
+    ![Mudelivastenduse koostaja leht.](./media/er-quick-start3-customize-model-mapping.gif)
 
 12. Valige käsk **Salvesta**.
 13. Sulgege leht **Mudelivastenduse kujundaja**.
@@ -400,7 +402,7 @@ Peate töö [lõpule viima](general-electronic-reporting.md#component-versioning
 
 Versiooni 50.19.1 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versioon muudetakse kirjutuskaitstuks. Lisatud on uus redigeeritav versioon, 50.19.2, ja selle olekuks on **Mustand**. Seda versiooni saate kasutada oma kohandatud ER-i mudelivastenduse konfiguratsioonis täiendavate muudatuste tegemiseks.
 
-![Versioon 50.19.1 on lõpule viidud lehel „Konfiguratsioonid”](./media/er-quick-start3-completed-custom-mapping1.png)
+![Versioon 50.19.1 on lõpule viidud konfiguratsioonide lehel.](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
 > Toetatud konfiguratsiooni [elutsükkel](general-electronic-reporting-manage-configuration-lifecycle.md) ei hõlma andmebaasi muudatuste elutsüklit. Kui ekspordite konfiguratsiooni **Arve mudeli vastendus (Litware)** versiooni 50.19.1 praegusest Finance'i eksemplarist ja proovite seda importida teise eksemplari, mille tabel **CustTable** ei sisalda kohandatud välja **FederalTaxID\_Kohandatud**, ilmneb erand. Erand ütleb, et imporditud ER-i konfiguratsioon ei ühildu Finance'i sihteksemplari metaandmetega.
@@ -424,11 +426,11 @@ Elektroonilise aruandluse funktsionaalse konsultandi rolli kasutajana saate kuju
 7. Valige väljal **Andmemudel** juurdefinitsioon **InvoiceCustomer**.
 8. Uue ER-i konfiguratsiooni lisamiseks valige **Loo konfiguratsioon**.
 
-![Kohandatud vormingu konfiguratsiooni lisamine lehel „Konfiguratsioonid”](./media/er-quick-start3-adding-custom-format.png)
+![Kohandatud vormingu konfiguratsiooni lisamine konfiguratsioonide lehel.](./media/er-quick-start3-adding-custom-format.png)
 
 Nüüd saate kasutada ER-i toimingute kujundajat **PEPPOL-i müügiarve (Litware)** ER-i konfiguratsiooni versiooni 11.2.2.1 redigeerimiseks **Mustandi** [olekus](general-electronic-reporting.md#component-versioning).
 
-![ER-i konfiguratsiooni versioon 11.2.2.1 lehel „Konfiguratsioonid”](./media/er-quick-start3-added-custom-format.png)
+![ER-i konfiguratsiooni versioon 11.2.2.1 konfiguratsioonide lehel.](./media/er-quick-start3-added-custom-format.png)
 
 #### <a name="configure-a-custom-format"></a>Kohandatud vormingu konfigureerimine
 
@@ -444,7 +446,7 @@ Peate muutma oma kohandatud vormingut, lisades uue vorminguelemendi arveldatud k
 8. Valige vormingupuu jaotises **XMLHeader** \> **Arve** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID** suvand **FederalTaxID**.
 9. Valige **Nihuta üles**.
 
-![Uus vorminguelement lehel „Vormingukujundaja”](./media/er-quick-start3-customized-format.png)
+![Uus vorminguelement vormingukujundaja lehel.](./media/er-quick-start3-customized-format.png)
 
 #### <a name="configure-a-custom-format-mapping"></a>Kohandatud vorminguvastenduse konfigureerimine
 
@@ -452,7 +454,7 @@ Peate muutma oma kohandatud vormingut, lisades uue vorminguelemendi arveldatud k
 2. Laiendage jaotises **Arve** suvandit **Kliendi teave (klient)** ja valige **FederalTaxID\_Litware**.
 3. Valige **Seo**.
 
-    ![Vormingukujundaja leht](./media/er-quick-start3-customized-format-mapping.png)
+    ![Vormingukujundaja leht.](./media/er-quick-start3-customized-format-mapping.png)
 
 4. Valige andmemudel **Arve**, mille tüüp on **Mudel**, ja seejärel valige **Redigeeri**.
 5. Valige väljal **Versioon** oma kohandatud andmemudeli versioon **1** ja seejärel valige **OK**.
@@ -469,7 +471,7 @@ Peate töö [lõpule viima](general-electronic-reporting.md#component-versioning
 
 Versiooni 11.2.2.1 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versioon muudetakse kirjutuskaitstuks. Lisatud on uus redigeeritav versioon, 11.2.2.2, ja selle olekuks on **Mustand**. Seda versiooni saate kasutada oma kohandatud ER-vormingu konfiguratsioonis täiendavate muudatuste tegemiseks.
 
-![Versioon 11.2.2.1 on lõpule viidud lehel „Konfiguratsioonid”](./media/er-quick-start3-completed-custom-format1.png)
+![Versioon 11.2.2.1 on lõpule viidud konfiguratsioonide lehel.](./media/er-quick-start3-completed-custom-format1.png)
 
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>Müügireskontro parameetrite konfigureerimine, et hakata kasutama kohandatud ER-i konfiguratsioone
 
@@ -477,7 +479,7 @@ Versiooni 11.2.2.1 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja ver
 2. Valige vahekaardi **Elektroonilised dokumendid** kiirkaardi **Elektrooniline aruandlus** väljal **Müügi- ja vabas vormis arve** suvand **PEPPOL-i müügiarve (Litware)**.
 3. Valige käsk **Salvesta**.
 
-![Müügireskontro parameetrite leht, Elektrooniliste dokumentide vahekaart, Elektroonilise aruandluse kiirkaart](./media/er-quick-start3-configure-ar2.png)
+![Müügireskontro parameetrite leht, Elektrooniliste dokumentide vahekaart, Elektroonilise aruandluse kiirkaart.](./media/er-quick-start3-configure-ar2.png)
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>Kliendikirje värskendamine föderaalmaksu ID-koodi lisamisega
 
@@ -486,7 +488,7 @@ Versiooni 11.2.2.1 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja ver
 3. Sisestage kiirkaardi **Üldine** väljale **Föderaalmaksu ID** väärtus **LITWARE-6789**.
 4. Valige käsk **Salvesta**.
 
-    ![DE-014 kliendi üksikasjade leht](./media/er-quick-start3-added-tax-id-value.png)
+    ![DE-014 kliendi üksikasjade leht.](./media/er-quick-start3-added-tax-id-value.png)
 
 5. Sulgege leht **Kõik kliendid**.
 
@@ -507,7 +509,7 @@ Versiooni 11.2.2.1 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja ver
 4. Loodud e-arve XML-faili allalaadimiseks valige **Ava**.
 5. Analüüsige e-arve XML-faili. Pange tähele, et vastavalt teie kohandusele sisaldab kliendi maksuskeem kohandatud XML-atribuuti **FederalTaxID** lisaks XML-atribuutidele **schemeID** ja **schemeAgencyID**. Selle uue XML-atribuudi väärtus määratletakse föderaalmaksu ID **LITWARE-6789** alusel, mis sisestati arveldatud kliendile.
 
-    ![Teie kohandustega loodud e-arve XML-faili eelvaade](./media/er-quick-start3-e-invoice2.png)
+    ![Teie kohandustega loodud e-arve XML-faili eelvaade.](./media/er-quick-start3-e-invoice2.png)
 
 ## <a name="import-the-latest-versions-of-standard-er-configurations"></a><a name="ImportERConfigurations2"></a>Standardsete ER‑i konfiguratsioonide uusimate versioonide importimine
 
@@ -520,7 +522,7 @@ Selleks, et teie Finance'i eksemplari standardsete ER-i konfiguratsioonide kompl
 5. Valige kiirkaardil **Versioonid** valitud ER-i konfiguratsiooni versioon **32.6.7**, mis on väljastatud kliendi elektrooniliste arvete toetamiseks vormingus PEPPOL BIS 3. Lisateavet vt [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
 6. Valige käsk **Impordi**, et laadida valitud versioon globaalsest hoidlast alla Finance'i praegusesse eksemplari.
 
-![Valitud versioon 32.6.7 lehel „Konfiguratsiooni hoidla”](./media/er-quick-start3-import-solution2.png)
+![Valitud versioon 32.6.7 konfiguratsiooni hoidla lehel.](./media/er-quick-start3-import-solution2.png)
 
 Lisateavet selle protsessi automatiseerimisvõimaluse kohta leiate teemast [ER-i konfiguratsioonide värskendatud versioonide importimine](er-download-updated-versions-global-repo.md).
 
@@ -541,13 +543,13 @@ Veenduge, et konfiguratsioonipuus oleksid lõpuks saadaval järgmised ER-i konfi
 
     - Versioon 206 (või uuem) sisaldab andmemudeli ER-i komponendi versiooni 24 (või uuemat), mis tähistab arveldamise äridomeeni andmestruktuuri. See ER-i konfiguratsioon imporditi **Arve mudeli vastenduse** ER-i mudelivastenduse konfiguratsiooni uusima saadaoleva versiooni eelkäijana.
 
-    ![Versioon 206 lehel „Konfiguratsioonid”](./media/er-quick-start3-imported-solution2b1.png)
+    ![Versioon 206 konfiguratsioonide lehel.](./media/er-quick-start3-imported-solution2b1.png)
 
 - **Arve mudeli vastendus** ER-i mudelivastenduse konfiguratsioon.
 
     - Versioon 206.132 (või uuem) imporditi **Arvemudeli** ER-i andmemudeli konfiguratsiooni versiooni 206 uusima juurutusena. See sisaldab mitut ER-i komponentide mudelivastendust, mis kirjeldavad, kuidas rakenduse andmeid sisestatakse andmemudelisse käitusajal.
 
-    ![Versioon 206.132 lehel „Konfiguratsioonid”](./media/er-quick-start3-imported-solution2b2.png)
+    ![Versioon 206.132 konfiguratsioonide lehel.](./media/er-quick-start3-imported-solution2b2.png)
 
 - **UBLi-i müügiarve** ER-vormingu konfiguratsioon.
 
@@ -557,7 +559,7 @@ Veenduge, et konfiguratsioonipuus oleksid lõpuks saadaval järgmised ER-i konfi
 
     - Versioon 32.6.7 sisaldab vormingut ja vormingu vastenduse ER-i komponente, mis konfigureeriti looma e-arveid PEPPOL-vormingus.
 
-    ![Versioon 32.6.7 lehel „Konfiguratsioonid”](./media/er-quick-start3-imported-solution2b3.png)
+    ![Versioon 32.6.7 konfiguratsioonide lehel.](./media/er-quick-start3-imported-solution2b3.png)
 
 ## <a name="adopt-the-changes-to-the-new-standard-er-configurations-in-your-custom-er-configurations"></a><a name="RebaseCustomERConfigurations"></a>Uute standardsete ER-i konfiguratsioonide muudatuste kasutuselevõtmine teie kohandatud ER-i konfiguratsioonides
 
@@ -577,7 +579,7 @@ Veenduge, et konfiguratsioonipuus oleksid lõpuks saadaval järgmised ER-i konfi
 
 Versiooni 206.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versioon muudetakse kirjutuskaitstuks. Lisatud on uus redigeeritav versioon, 206.3, ja selle olekuks on **Mustand**. Seda versiooni saate kasutada oma kohandatud ER-i andmemudeli konfiguratsioonis täiendavate muudatuste tegemiseks.
 
-![Versioon 206.2 on lõpule viidud lehel „Konfiguratsioonid”](./media/er-quick-start3-completed-custom-model2.png)
+![Versioon 206.2 on lõpule viidud konfiguratsioonide lehel.](./media/er-quick-start3-completed-custom-model2.png)
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Kohandatud ER-i mudelivastenduse kasutuselevõtmine
 
@@ -590,12 +592,12 @@ Versiooni 206.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versio
 
     Pange tähele, et avastati mõned aluse muutmise konfliktid. Nüüd peate need konfliktid käsitsi lahendama.
 
-    ![Aluse muutmise konflikti teade lehel „Konfiguratsioonid”](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
+    ![Aluse muutmise konflikti teade konfiguratsioonid lehel.](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. Valige toimingupaanil **Kujundaja** ja seejärel valige vastenduste loendist **Kliendi arve**.
 6. Iga aluse muutmise konflikti puhul valige **Säilita oma väärtus**, sest peate säilitama oma kohandatud andmemudeli versiooni numbri igal mainitud komponendil.
 
-    ![Aluse muutmise konfliktid lehel „Mudeli vastenduse koostaja”](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
+    ![Aluse muutmise konfliktid lehel „Mudeli vastenduse koostaja”.](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Valige **Salvesta** ja sulgege leht **Mudeli vastenduse koostaja**.
 8. Valige vastenduste loendist **Projekti arve**.
@@ -609,7 +611,7 @@ Versiooni 206.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versio
 
 Versiooni 206.132.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versioon muudetakse kirjutuskaitstuks. Lisatud on uus redigeeritav versioon, 206.132.3, ja selle olekuks on **Mustand**. Seda versiooni saate kasutada oma kohandatud ER-i mudelivastenduse konfiguratsioonis täiendavate muudatuste tegemiseks.
 
-![Versioon 206.132.2 on lõpule viidud lehel „Konfiguratsioonid”](./media/er-quick-start3-completed-custom-mapping2.png)
+![Versioon 206.132.2 on lõpule viidud konfiguratsioonide lehel.](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>Teie kohandatud ER-vormingu kasutuselevõtmine
 
@@ -637,7 +639,7 @@ Versiooni 206.132.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja ve
 
 Versiooni 32.6.7.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja versioon muudetakse kirjutuskaitstuks. Lisatud on uus redigeeritav versioon, 32.6.7.3, ja selle olekuks on **Mustand**. Seda versiooni saate kasutada oma kohandatud ER-vormingu konfiguratsioonis täiendavate muudatuste tegemiseks.
 
-![Versioon 32.6.7.2 on lõpule viidud lehel „Konfiguratsioonid”](./media/er-quick-start3-completed-custom-format2.png)
+![Versioon 32.6.7.2 on lõpule viidud konfiguratsioonide lehel.](./media/er-quick-start3-completed-custom-format2.png)
 
 ## <a name="process-a-customer-invoice-by-using-new-versions-of-the-custom-er-configurations"></a><a name="ProcessInvoice3"></a>Kliendi arve töötlemine kohandatud ER-i konfiguratsioonide uute versioonide abil
 
@@ -660,7 +662,7 @@ Versiooni 32.6.7.2 olek **Mustand** muudetakse olekuks **Lõpule viidud** ja ver
 4. Loodud e-arve XML-faili allalaadimiseks valige **Ava**.
 5. Analüüsige e-arve XML-faili. Pange tähele, et vastavalt teie kohandusele sisaldab kliendi maksuskeem endiselt kohandatud XML-atribuuti **FederalTaxID** lisaks XML-atribuutidele **schemeID** ja **schemeAgencyID**. Lisaks, kuna aluseks oleva vormingu **UBL-i müügiarve** uue versiooni muudatused ühendati teie kohandusega, muudeti XML-elemendi **cbc:CustomizationID** teksti `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` asemele `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0`.
 
-    ![Kohandustega loodud e-arve XML-faili eelvaade](./media/er-quick-start3-e-invoice3.png)
+    ![Kohandustega loodud e-arve XML-faili eelvaade.](./media/er-quick-start3-e-invoice3.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

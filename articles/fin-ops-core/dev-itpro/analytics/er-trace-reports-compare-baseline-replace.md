@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: f6eaf5f9cbc6eed09f6a3067826f7fa15fb94b2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117031"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345860"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
 
@@ -57,7 +57,7 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 
 Alus on lisatud valitud vormingu **Vorming elektroonilise aruandluse aluste õppimiseks** jaoks, aga alusreegleid pole veel selle aluse jaoks lisatud.
 
-![Elektroonilise aruandluse vormingu aluste leht, ühtegi reeglit veel pole](media/GER-BaselineSample-AddBaseline2.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht, reegleid veel pole.](media/GER-BaselineSample-AddBaseline2.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 ### <a name="make-a-new-baseline-rule"></a>Uue alusreegli tegemine
 
@@ -70,7 +70,7 @@ Alus on lisatud valitud vormingu **Vorming elektroonilise aruandluse aluste õpp
 7. Valige nupp **OK**.
 8. Valige suvand **Alused**.
 
-    ![Elektroonilise aruandluse vormingu alusleht, alusväärtused on valitud](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+    ![Elektroonilise aruandluse vormingu alusleht, alusväärtused on valitud.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
     Loodud väljaminev fail manustatakse automaatselt käivitatud elektroonilise aruandluse vormingu alusele. Alusreegel on sellele alusele automaatselt lisatud ja sisaldab ka viidet manustatud failile.
 
@@ -110,16 +110,16 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 13. Valige nupp **Salvesta** ja seejärel suvand **Katse**.
 14. Valige uuesti suvand **Katse**, et konfigureeritud avaldist uuesti kontrollida.
 
-    ![Valemikoostaja leht](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Valemikoostaja lehe kuvatõmmis")
+    ![Valemikoostaja leht.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Valemikoostaja lehe kuvatõmmis")
 
     > [!NOTE]
     > Vahekaardil **Katsetulemus** näidatakse, et konfigureeritud avaldis annab käivitamisel alati tulemuseks erineva kuupäeva ja kellaaja väärtuse.
 
 15. Sulgege leht **Valemikoostaja** ja valige käsk **Salvesta**.
 
-    ![Vormingu koostaja leht](media/GER-BaselineSample-FormatMappingDesign2.PNG "Vormingu koostaja lehe kuvatõmmis")
+    ![Vormingukujundaja leht.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Vormingu koostaja lehe kuvatõmmis")
 
-16. Sulgege **Vormingu koostaja** leht.
+16. Sulgege **Vormingu kujundaja** leht.
 
 ### <a name="remove-an-existing-baseline-rule"></a>Olemasoleva alusreegli eemaldamine
 
@@ -128,7 +128,7 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 3. Aluste loendist valige alus, mis on konfigureeritud vormingu **Vorming elektroonilise aruandluse aluste õppimiseks** jaoks.
 4. Kiirkaardilt **Alused** valige käsk **Kustuta**, et eemaldada varem konfigureeritud alusreegel.
 
-![Elektroonilise aruandluse vormingu aluste leht, kustutatud](media/GER-BaselineSample-AddBaseline3.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht, kustutatud.](media/GER-BaselineSample-AddBaseline3.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Kujundatud elektroonilise aruandluse vormingu sidumiste asenduste määratlemine
 
@@ -136,7 +136,7 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 2. Laiendage Vormingu komponentide puul suvandit **Väljund**, laiendage suvandeid **Väljund\\Dokument** ja seejärel valige suvandi **Väljund\\Dokument\\ProcessingDateTime** märkeruut.
 3. Valige nupp **OK**.
 
-![Elektroonilise aruandluse vormingu aluste leht, komponendid](media/GER-BaselineSample-AddBaseline4.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht, komponendid.](media/GER-BaselineSample-AddBaseline4.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 Valitud elektroonilise aruandluse vormingu komponent on lisatud komponentide loendisse kiirkaardil **Asendused**. Kui aluse elektroonilise aruandluse vorming käivitatakse silumisrežiimis, asendatakse vormingu sidumine iga komponendi jaoks veerus **Sidumine** kuvatud sidumisega. Kiirkaardil **Asendused** loendatud komponendi vaikesidumise muutmiseks valige nupp **Redigeeri**.
 
@@ -144,7 +144,7 @@ Valitud elektroonilise aruandluse vormingu komponent on lisatud komponentide loe
 
 Järgige etappe selle teema jaotises „Näide. Alusreeglite seadistamise automatiseerimine”. Teatis hoiatab teid, et väljaminev fail on loodud, kasutades alussätteid, ja et tekkinud on vormingu sidumiste sundasendamine.
 
-![Teatis lehel Konfiguratsioonid](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Kuvatõmmis teatisest lehel Konfiguratsioonid")
+![Teatis lehel Konfiguratsioonid.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Kuvatõmmis teatisest lehel Konfiguratsioonid")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Vormingu sidumiste asendamise hoiatuste peitmine
 
@@ -192,11 +192,11 @@ Eksporditud alussätteid saab importida teise keskkonda. Keskkond tuleb kõigepe
 
 Alussätete importimiseks lokaalselt salvestatud XML-failist valige lehel **Elektroonilise aruandluse vormingu alused** käsk **Impordi** ja seejärel käsk **Sirvi**, et valida XML-fail.
 
-![Alussätete importimise dialoogiaken](media/GER-BaselineSample-ImportBaseline1.PNG "Kuvatõmmis dialoogiaknast Alussätete importimine")
+![Alussätete importimise dialoogiaken.](media/GER-BaselineSample-ImportBaseline1.PNG "Kuvatõmmis dialoogiaknast Alussätete importimine")
 
 Alussätete importimiseks Microsoft SharePoint Serverisse salvestatud XML-failist praeguste dokumendihalduse sätete ja valitud dokumendi tüübi põhjal valige lehel **Elektroonilise aruandluse vormingu alused** käsk **Impordi allikast**. Seejärel valige dokumendi tüüp ja XML-fail. SharePointi kaustale ligipääsemiseks vajalik dokumendi tüüp peab olema varem konfigureeritud.
 
-![Allikast importimise dialoogiaken](media/GER-BaselineSample-ImportBaseline2.PNG "Kuvatõmmis dialoogiaknast Allikast importimine")
+![Allikast importimise dialoogiaken.](media/GER-BaselineSample-ImportBaseline2.PNG "Kuvatõmmis dialoogiaknast Allikast importimine")
 
 > [!NOTE]
 > Dialoogiaknast **Allikast importimine** vajaliku dokumendi tüübi ja faili nime valimise etappide salvestamiseks saate kasutada tegevuse salvestajat. Nii saate säilitada vajalikke alussätteid SharePointi serveris ja seejärel need automaatselt importida, esitades tegevuse salvestist automaatsete katsete käivitamisel tööriistaga Regression Suite Automation Tool.

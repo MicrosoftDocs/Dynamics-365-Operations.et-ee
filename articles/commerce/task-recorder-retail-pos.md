@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028103"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354465"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Tegevuse salvestaja ning spikker Retail Modern POS-i (MPOS) ja pilvekassa jaoks
 
@@ -55,14 +55,14 @@ Tehke järgmist uue salvestise loomiseks tegevuse salvestaja abil.
 1. Käivitage Retail Modern POS või pilvekassa ja logige sisse.
 2. Klõpsake lehel **Sätted** jaotises **Tegevuse salvestaja** valikut **Ava tegevuse salvestaja**. Kuvatakse paan **Tegevuse salvestaja**. Võite klõpsata nuppu **Sule** (**X**) ülemises paremas nurgas paani **Tegevuse salvestaja** sulgemiseks enne uue salvestuse alustamist. Paani taasavamiseks korrake toimingut 2.
 
-    [![Tegevuse salvestaja paan](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Tegevuse salvestaja paan.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Sisestage salvestise nimi ja kirjeldus, ning seejärel klõpsake nuppu **Käivita**. Salvestusseanss algab kohe, kui klõpsate nuppu **Käivita**.
 
     > [!NOTE]
     > Kui klõpsate nuppu **Sule** (**X**) ülemises paremas nurgas sel ajal, kui salvestamine käib, siis paan **Tegevuse salvestaja** suletakse, kuid salvestusseanssi ei lõpetata. Tegevuse salvestaja paani taasavamiseks klõpsake nuppu **Spikker** (küsimärk) ekraani ülaosas.
     >
-    > [![Küsimärk](./media/help.jpg)](./media/help.jpg)
+    > [![Küsimärk.](./media/help.jpg)](./media/help.jpg)
 
 4. Pärast nupu **Käivita** klõpsamist läheb tegevuse salvestaja salvestusrežiimi. Paanil **Tegevuse salvestaja** on näha salvestusprotsessiga seotud andmed ja nupud.
 5. Tehke uuesti toimingud, mida soovite Retail Modern POS-i või pilvekassa kasutajaliideses teha.
@@ -72,7 +72,7 @@ Tehke järgmist uue salvestise loomiseks tegevuse salvestaja abil.
 
 Pärast salvestusseansi lõpetamist kuvatakse mitu valikut, et saaksite oma salvestise alla laadida.
 
-[![Allalaadimisvalikud](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Allalaadimisvalikud.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Salvesta sellesse arvutisse
 
@@ -88,7 +88,7 @@ Töötlemata salvestusfail on kasulik arendaja stsenaariumide, nt testkoodi loom
 
 ## <a name="recording-controls"></a>Salvestamise juhtelemendid
 
-[![Salvestamise juhtelemendid](./media/controls.jpg)](./media/controls.jpg)
+[![Salvestamise juhtelemendid.](./media/controls.jpg)](./media/controls.jpg)
 
 ### <a name="stop"></a>Peata
 
@@ -117,13 +117,13 @@ Saate määrata rühmitatud toimingute kogumi alguse ja lõpu nuppudega **Alusta
 
 Märkus on lisatekst, mille saab toimingule salvestises lisada. Näiteks saab märkusi kasutada kasutajale täiendava konteksti või juhiste andmiseks. Märkusi saab lisada enne või pärast toimingut. Märkuse saab lisada mis tahes toimingule, klõpsates toimingust paremal asuvat nuppu **Redigeeri** (pliiatsi sümbol).
 
-[![Toimingu redigeerimise nupp](./media/annotate.jpg)](./media/annotate.jpg)
+[![Toimingu redigeerimise nupp.](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Tekstid ja märkused
 
 Väljade **Tekstid** ja **Märkused** abil saab lisada teksti, mis peaks olema tegevuse juhises toiminguga seotud.
 
-[![Teksti ja märkuste väljad](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Teksti ja märkuste väljad.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Tekst
 
@@ -137,7 +137,7 @@ Väljale **Märkused** sisestatav tekst kuvatakse tegevuse juhises toimingu teks
 
 Oma kohandatud tegevuse salvestiste kuvamiseks Retail Modern POS-i ja pilvekassa spikripaanil, et neid saaks tekstina kuvada, peate salvestama tegevuse salvestised oma BPM-i teeki ja seejärel värskendama oma spikrisüsteemi parameetreid nii, et need osutaksid teie BPM-i teegile. Lisateavet leiate jaotisest [Spikrisüsteemi ühendamine](../fin-ops-core/fin-ops/get-started/help-connect.md). Retail Modern POS-i ja pilvekassa spikker otsib LCS-ist reaalajas. See otsib kõigist BPM-i teekidest, mis on Commerce’i spikrisüsteemi parameetrites valitud, ja kuvab asjakohased tulemused. **Spikri** menüü avamiseks klõpsake ekraani ülaosas **spikri** nuppu (küsimärk) ning sisestage siis otsinguväljale oma protsess nimi ja vajutage otsingunuppu.
 
-[![Nupp Spikker](./media/help.jpg)](./media/help.jpg)
+[![Spikri nupp.](./media/help.jpg)](./media/help.jpg)
 
 Kui klõpsate otsingutulemustes valikut Tegevuse juhis, saate vaadata toiminguid spikriteemana või eksportida toimingud Wordi dokumenti.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352854"
 ---
 # <a name="general-journal-processing"></a>Üldtöölehe töötlemine
 
@@ -42,14 +42,14 @@ Lehel **Töölehe nimed** saate seadistada järgmisi elemente.
 
 Töölehe nime võib kasutada ainult korrigeerimiseks. Sellisel juhul saate määrata, et kõigis ettevõtetes kehtib ainult konto tüüp **Pearaamat**. 
 
-[![Töölehe juhtimise kontotüübid](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Töölehe juhtimise kontotüübid.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Töölehe nime saab kasutada ainult kindla segmendi või põhikontode vahemiku puhul. 
 
-[![Töölehe juhtimise segment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Töölehe juhtimise segment.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Päevaraamatutes on saadaval suvand **Automaatne tühistamine**. Näiteks viitvõlgade korrigeerimise puhul, kui tegelikku dokumenti pole veel töödeldud, nagu on näidatud järgmisel joonisel.
-[![Pearaamatu ennistamine](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Pearaamatu ennistamine.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Microsoft Exceli lisandmoodul pakub töölehe sisestuse puhul automatiseerimise täiendavat taset ja lihtsustab andmesisestust. Tegevus **Ridade avamine Excelis** on saadaval lehtedel **Päevaraamat** ja **Töölehe kanne**. 
 

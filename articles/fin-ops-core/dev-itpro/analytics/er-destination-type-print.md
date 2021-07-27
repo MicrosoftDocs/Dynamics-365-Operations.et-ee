@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b79c93c4920d7f40e88aa7d463961128ea9e83c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894000"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347920"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Printeri sihtkoht
 
@@ -39,7 +39,7 @@ Selleks, et **printeri** sihtkoht oleks saadaval Microsofti Dynamics 365 Finance
 1. Teisenda elektroonilise aruandluse väljaminevad dokumendid Microsoft Office'i vormingutest PDF-iks
 2. Dokumendi marsruudivaliku agent väljaminevate dokumentide elektroonilise aruandluse sihtkohana
 
-[![ER printeri sihtkoha funktsiooni sisselülitamine funktsioonide halduses](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![ER printeri sihtkoha funktsiooni sisselülitamine funktsioonide halduses.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Kohaldatavus
 
@@ -55,7 +55,7 @@ Selleks, et **printeri** sihtkoht oleks saadaval Microsofti Dynamics 365 Finance
 2. Valige väljal **Printeri nimi** vajalik võrguprinter.
 3. Seadke suvand **Kas soovite salvestada printimise arhiivi?** väärtusele **Jah**, et salvestada loodud väljund printimise arhiivi, nii et see on edasiseks printimiseks saadaval. Arhiveeritud väljundi juurde pääsemiseks hiljem avage **Organisatsiooni haldus** \> **Päringud ja aruanded** \> **Aruannete arhiiv**.
 
-[![Printimise sihtkoha kasutamine](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Printimise sihtkoha kasutamine.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > Suvand **Teisendamine PDF-iks** ei pea **Printeri** sihtkoha konfigureerimisel olema sisse lülitatud. PDF-i teisendamine printimiseks toimub isegi siis, kui suvand on välja lülitatud.

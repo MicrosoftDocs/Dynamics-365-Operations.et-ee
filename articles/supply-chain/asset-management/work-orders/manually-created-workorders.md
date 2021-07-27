@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839555"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354853"
 ---
 # <a name="manually-created-work-orders"></a>Käsitsi loodud töökäsud
 
@@ -53,7 +53,7 @@ Töökäskude käsitsi loomiseks on kaks võimalust:
 
 6. Valige väljal **Hooldustöö tüüp** töökäsu jaoks hooldustöö töö tüüp.
 
-7. Vajadusel valige **Hooldustöö  tüübi variant** ja **Vaheta**.
+7. Vajadusel valige **Hooldustöö tüübi variant** ja **Vaheta**.
 
 8. Vajadusel saate väljal **Teenindustase** töökäsu teenindustaset muuta.
 
@@ -111,7 +111,7 @@ Saate luua töökäsu, mis on seotud olemasoleva töökäsuga. Funktsioon on kas
 
 Alloleval joonisel kuvatakse dialoogi **Seotud töökäsu loomine** näide.
 
-![Joonis 1](media/03-work-orders.png)
+![Joonis 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Kui olete seadistanud seotud töökäsu maski vahekaardi **Varahalduse parameetrid** > **Töökäsud** > väljal **Seotud töökäsu mask**, luuakse töökäsu ID-d vastavalt maski seadistusele. Kui seotud töökäsu maski ei ole seadistatud, kasutatakse seotud töökäskudele järgmist saadaolevat töökäsu ID-d.
@@ -137,7 +137,7 @@ Saate olemasolevast töökäsust kiiresti luua uue töökäsu. Sel viisil töök
 
 Alloleval joonisel kuvatakse dialoogi **Töökäsu kopeerimine** näide.
 
-![Joonis 2](media/04-work-orders.png)
+![Joonis 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Töökäsu loomine hooldusnõude põhjal
@@ -157,7 +157,7 @@ Alloleval joonisel kuvatakse dialoogi **Töökäsu kopeerimine** näide.
 
 Allolevalt joonisel kuvatakse dialoogis **Töökäsu loomine** näide.
 
-![Joonis 3](media/05-work-orders.png)
+![Joonis 3.](media/05-work-orders.png)
 
 
 >[!NOTE]
