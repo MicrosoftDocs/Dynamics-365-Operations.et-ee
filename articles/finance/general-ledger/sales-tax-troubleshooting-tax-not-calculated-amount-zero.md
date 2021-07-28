@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020111"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352806"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>Maksu ei arvutatud või maksusumma on null
 
@@ -32,17 +32,17 @@ Kui kanne ei vali õigeid maksukoode või kui see ei vali ühtegi maksukoodi, si
 
 1. Kandereal **Rea detailid** kiirkaardil **Seaded** vahekaardi jaotises **Käibemaks** kontrollige, kas on valitud õiged maksugrupid väljadel **Kauba käibemaksugrupp** ja **Käibemaksugrupp**. Kui õigeid maksugruppe ei ole valitud, valige need.
 
-    [![Kauba käibemaksugrupp ja käibemaksugrupi väljad](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![Kauba käibemaksugrupp ja käibemaksugrupi väljad.](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. Avage **Maks** \> **Kaudsed maksud** \> **Käibemaks** \> **Käibemaksu grupid**.
 3. Valige sobiv käibemaksugrupp ja tehke seejärel kiirkaardil **Seaded** maksukoodi märkus väljal **Käibemaksukood**.
 
-    [![Käibemaksugruppide leht](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![Käibemaksugruppide leht.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. Avage **Maks** \> **Kaudsed maksud** \> **Käibemaks** \> **Kauba käibemaksugrupid**.
 5. Valige sobiv kauba käibemaksugrupp ja seejärel kontrollige kiirkaardil **Seaded**, et välja **Käibemaksukood** maksukood vastab käibemaksugrupi maksukoodile.
 
-    [![Kauba käibemaksugruppide leht](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![Kauba käibemaksugruppide leht.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. Kui maksukoodid ei kattu, värskendage käibemaksukoodi ühele grupist.
 
@@ -53,12 +53,12 @@ Kui maksukoodid on maksuvabad või kui maksumäär on 0 (null), on maksu arvutam
 1. Avage **Maks** \> **Kaudsed maksud** \> **Käibemaks** \> **Käibemaksu grupid**.
 2. Valige sobiv käibemaksugrupp ja seejärel kontrollige kiirkaardil **Seaded**, et **Maksuvabastus** märkeruut on tühi. Kui ruut on märgitud, tühjendage see.
 
-    [![Maksuvaba märkeruut käibemaksugruppide lehel](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![Maksuvaba märkeruut käibemaksugruppide lehel.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. Valige suvandid **Maks** \> **Kaudsed maksud** \> **Käibemaks** \> **Käibemaksukoodid**.
 4. Valige sobiv käibemaksukood ja seejärel kontrollige, et maksumäära väärtus väljal **Väärtus** ei oleks 0 (null). Kui väärtus on 0, uuendage välja nii, et selle väärtuseks oleks seadistatud õige maksumäär.
 
-    [![Välja väärtus Käibemaksukoodi väärtuse lehel](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![Välja väärtus Käibemaksukoodi väärtuse lehel.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>Määrake, kas null on õige maksusumma
 
@@ -67,7 +67,7 @@ Mõnes stsenaariumis on maksusumma 0 (null) õige. Järgige neid samme, et mää
 1. Avage **Pearaamat** \> **Pearaamatu seadistamine** \> **Pearaamatu parameetrid**.
 2. Kontrollige vahekaardi **Käibemaks** väljal **Arvutusmeetod**, et **Kogusumma** on valitud.
 
-    [![Kalkulatsiooni meetodi väli pearaamatu parameetrite lehel](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![Kalkulatsiooni meetodi väli pearaamatu parameetrite lehel.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. Valige suvandid **Maks** \> **Kaudsed maksud** \> **Käibemaks** \> **Käibemaksukoodid**.
 4. Valige sobiv käibemaksukood, valige **Kalkulatsioon** \> **Marginaali alus** ja kontrollige, et marginaali aluseks on seatud **Arve saldo netosumma** või **Arve kogusumma koos teiste käibemaksusummadega**. Lisateavet vt [Arve kogusumma koos teiste käibemaksusummadega](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts).

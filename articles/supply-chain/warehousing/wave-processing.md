@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019023"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355478"
 ---
 # <a name="wave-creation-and-processing"></a>Voo loomine ja töötlemine
 
@@ -42,7 +42,7 @@ Saate määrata, milliseid neist tootmistellimuste valikutest vaikimisi kasutada
 
 Järgnev diagramm näitab voogu selle kohta, kuidas saatmisvood luuakse, töödeldakse ja vabastatakse. Numbrid vastavad selle jaotise hilisematele osadele.
 
-![Voo loomise protsess](media/wave-processing-diagram.png "Voo loomise protsess")
+![Voo loomise protsess.](media/wave-processing-diagram.png "Voo loomise protsess")
 
 ### <a name="prerequisites"></a>Eeltingimused
 
@@ -158,7 +158,7 @@ Kui funktsioon *Töö loomise plaanimine* on lubatud, loob voo töötlemine plaa
 
 Järgmine vooskeem näitab, kuidas plaanitud tööd laine töötlemise ajal luuakse.
 
-![Töö loomise graafik](media/schedule-work-creation-process.png)
+![Töö loomise graafik.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Plaanitud töö
 

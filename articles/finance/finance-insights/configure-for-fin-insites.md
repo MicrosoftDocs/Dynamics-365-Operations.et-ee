@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186416"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357434"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Finantsülevaadete konfigureerimine (eelversioon)
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>Finance insights`i konfigureerimine isikliku eelvaate (eelvaate) jaoks - versioon 10.0.19 ja uuemad
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "6186416"
 
 Finantsülevaated kombineerivad rakenduse Microsoft Dynamics 365 Finance funktsioonid teenustega Microsoft Dataverse, Azure ja AI Builder, et pakkuda võimsaid prognoosimise tööriistu teie organisatsioonile. See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada finantsülevaatuses saadaolevaid võimalusi.
 
-## <a name="deploy-dynamics-365-finance"></a>Rakenduse  Dynamics 365 Finance juurutamine
+## <a name="deploy-dynamics-365-finance"></a>Rakenduse Dynamics 365 Finance juurutamine
 
 Keskkonna juurutamiseks tehke järgmist.
 
@@ -59,7 +59,7 @@ Kasutage järgmisi samme Finance Insights'i Dataverse konfigureerimiseks.
 
     1. Avage leht **Keskkonnad**.
 
-        [![Keskkondade leht](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![Keskkondade leht.](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. Valige ülalpool loodud Dataverse keskkond ja seejärel valige **suvand Sätted**.
     3. Valige **Ressursid \> Kõik pärandsätted**.
@@ -792,6 +792,8 @@ Lisandmoodul installitakse mõne minuti jooksul.
     | CDS-i organisatsiooni URL                                     | Ülalpool kopeeritud Dataverse organisatsiooni URL. |
     | CDS-i organisatsiooni ID                                               | Ülalpool kopeeritud Dataverse organisatsiooni ID. |
 5. Lubage suvand **Kas see on rentniku CDS-i vaikekeskkond**.
+
+Lisandmooduli installimiseks võib aega kuluda mitu minutit.
     
 ## <a name="configure-the-entity-store"></a>Üksuse salvestamise konfigureerimine
 

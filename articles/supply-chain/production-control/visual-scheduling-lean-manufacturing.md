@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353440"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Lean manufacturingi visuaalne plaanimine
 
@@ -47,8 +47,8 @@ Plaanida saab ainult töid, mille tüüp on **Protsess**. Kanban-töö ja selle 
 ## <a name="kanban-schedule-board"></a>Kanbani plaanimistahvel
 Lehel **Kanbani plaanimistahvel** on mitu põhielementi, mis on näidatud järgmisel illustratsioonil. 
 
-![Kanbani plaanimistahvel](./media/kanban-schedule-board-1024x554.png)
-1.  Tegumiriba
+![Kanban`i plaanimistahvel.](./media/kanban-schedule-board-1024x554.png)
+1.  Toimingupaan
 2.  Väljade filtreerimine
 3.  Plaanimata tööde nupp
 4.  Perioodi sõlm
@@ -71,7 +71,7 @@ Kanbani plaanimistahvli antava ülevaate täiustamiseks võite kasutada kanban-t
 ## <a name="plan-unplanned-jobs"></a>Plaanimata tööde plaanimine
 Plaanimata kanban-töid saab plaanida dialoogiboksist **Plaanimata tööde plaanimine**. Klõpsake selle dialoogiboksi avamiseks nuppu **Plaanimata tööd**, mis näitab praegust plaanimata tööde arvu. Teine võimalus on klõpsata nuppu **Plaanimata tööde plaanimine** toimingupaani vahekaardil **Tahvel**. Dialoogiboksis kuvatakse tööraku plaanimata kanban-tööd. Võite kasutada välja **Filter** kõigi tabeli väljade filtreerimiseks. Näiteks saate filtreerida konkreetse toote kanban-tööde alusel. Kui teil on olemas filtreeritud loend töödest, mida soovite plaanida, valige need loendist ja klõpsake siis nuppu **OK**. Automaatse plaanimise kasutamiseks tööde plaanimisel määrake valiku **Automaatne plaanimine** olekuks **Jah**. Sel juhul plaanitakse tööd perioodile tähtaja järgi. Töid saab ka perioodi kaupa plaanida. Valige lihtsalt periood väljalt **Periood**. Järgmisel joonisel on näide dialoogiboksist **Plaanimata tööde plaanimine**. 
 
-![Plaanimata tööde plaanimise dialoogiboks](./media/plan-unplanned-jobs-1024x564.png)
+![Plaanimata tööde plaanimise dialoogiboks.](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Kanban-tööde järjestamine samal perioodil
 Saate muuta perioodil vähemalt ühe valitud töö järjestust. See funktsioon võib olla abiks, kui soovite perioodil mõningaid töid prioritiseerida. Alternatiivina võib olla vaja järjestada töö läbiviimiseks töid, millel on samad tooteatribuudid. Järjestust saab muuta pukseerimistoimingu kaudu või menüüelementide **Tagasi** ja **Edasi** kaudu toimingupaani vahekaardil **Tahvel**.

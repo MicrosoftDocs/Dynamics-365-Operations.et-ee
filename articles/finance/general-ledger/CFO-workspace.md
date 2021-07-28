@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360708"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Pearaamatupidaja tööruumile finantsdimensioonide lisamine
 
@@ -45,14 +45,14 @@ Selles teemas selgitatakse, kuidas lisada pearaamatupidaja tööruumi finantsdim
 11. Määrake välja **Ristfiltri suund** väärtuseks **Üks**.
 12. Valige käsud **Muuda seos aktiivseks** ja **Eelda viiteterviklust**, klõpsake nuppu **OK** ja seejärel nuppu **Sule**.
 
-    [![Seose loomine](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Seose loomine.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. Loendis **Väljad** peaksite nägema tabelit ja saadaolevaid finantsdimensioone. Lohistage soovitud finantsdimensioonid aruandetaseme filtrite juurde.
 14. Salvestage muudatused.
 15. Paremklõpsake rakendusobjektide puul (AOT) projekti ja seejärel nuppu **Sünkrooni**.
 16. Looge projekt ja seejärel avage tulemuste vaatamiseks rakendus.
 
-    [![Valmis tööruum](./media/workspace.png)](./media/workspace.png)
+    [![Valmis tööruum.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

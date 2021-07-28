@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271097"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350566"
 ---
 # <a name="message-processor-messages"></a>Sõnumi töötleja sõnumid
 
@@ -88,15 +88,15 @@ Selles näites kasutage seadet **Kui ärisündmus toimub**, kui *Microsoft Power
 
 1. Looge [Power Automate](https://preview.flow.microsoft.com)-s voo käivitamiseks uus automatiseeritud pilvevoog **Ärisündmuse toimumisel – Fin & Ops App (Dynamics 365** ), millele järgnevad **Parse JSON** ja **saatke meilisõnumid**, nagu näidatud järgmises illustratsioonis.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate automaatne pilvevoog":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate automaatne pilvevoog.":::
 
 1. Sammus **Kui ärisündmus toimus** saate kas üles otsida või sisestada keskuse **instants** pärast **Kategooriat** ja seejärel **Ärisündmus** *Sõnumiprotsessori sõnum on töödeldud*, nagu näidatud järgmises illustratsioonis.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Kui ärisündmuse toimumise etapp":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Kui ärisündmuse toimumine on etapp.":::
 
 1. Sammu **Parse JSON** puhul sisestage **skeem**, mis määratleb laiendatud väljad. Saate kasutada suvandit *Laadi skeem* alla ärisündmuste kataloogi lehel **Supply Chain Management** is või alustada, kleepides näidisskeemi teksti. See näitetekst antakse pärast järgmist illustratsiooni.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Sõelu etapp JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Sõelu JSON etappi.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ Selles näites kasutage seadet **Kui ärisündmus toimub**, kui *Microsoft Power
 
 1. **E-kirja saatmise sammus** saate valida üksikud väljad või alustada, kasutades meili kehanäidet **kehaväljale**. See näide antakse pärast järgmist illustratsiooni.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate Meilisõnumi saatmise samm":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate meilisõnumi saatmise etapp.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

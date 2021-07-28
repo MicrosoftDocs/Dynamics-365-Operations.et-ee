@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349622"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kassas (POS) olevad klienditellimused
 
@@ -44,7 +46,7 @@ Enne kui proovite kassas kasutada klienditellimuse funktsioone, veenduge, et ole
 
 Klienditellimuste kasutamiseks peate konfigureerima tarnerežiimid, mida kauplusekanal saab kasutada. Peate määratlema vähemalt ühe tarnerežiimi, mida saab kasutada tellimuse ridade kliendile kauplusest lähetamisel. Samuti peate määratlema vähemalt ühe järeletulemise tarnerežiimi, mida saab kasutada, kui tellimuse read võetakse vastu kauplusest. Tarnerežiimid on määratletud Commerce'i peakorteri lehel **Tarnerežiimid**. Lisateavet Commerce'i kanali tarnerežiimi seadistamise kohta vaadake teemast [Tarnerežiimide määratlemine](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Tarnerežiimide leht](media/customer-order-modes-of-delivery.png)
+![Tarnelehe režiimid.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Täitmisgruppide häälestamine
@@ -53,7 +55,7 @@ Mõned kauplused või lao asukohad ei pruugi olla suutelised täitma klienditell
 
 Commerce'i versioonis 10.0.12 ja uuemates versioonides saavad ettevõtted määratleda, kas täitmisgruppides määratletud lao- või lao/kaupluse kombinatsioone saab kasutada lähetamiseks, järeletulemiseks või mõlema jaoks. See võimaldab ettevõttel paindlikumalt määrata, milliseid ladusid saab valida, kui luuakse klienditellimus lähetatavatele kaupadele, või millised kauplusi saab valida, kui luuakse klienditellimus järeletulemisega kaupadele. Nende konfiguratsioonisuvandite kasutamiseks lülitage funktsioon **Võimalus määrata asukohti nii, et olek Lähetamine või Järeletulemine on täitmisgrupis lubatud** sisse. Kui täitmisgrupiga lingitud ladu pole kauplus, saab seda konfigureerida ainult lähetuse asukohana. Seda ei saa kasutada, kui järeletulemisega tellimused on konfigureeritud kassas.
 
-![Täitmisgruppide leht](media/customer-order-fulfillment-group.png)
+![Täitmise gruppide leht.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Kanalisätete konfigureerimine
 
@@ -65,7 +67,7 @@ Kui töötate klienditellimustega kassas, peate arvestama kauplusekanali teatud 
 - **Kasuta sihtkohapõhist maksu** – see suvand näitab, kas lähetusaadressi kasutatakse kliendi aadressile lähetatavate tellimuse ridadele rakendatava maksugrupi määratlemiseks.
 - **Kasuta kliendipõhist maksu** – see suvand näitab, kas kliendi tarneaadressi jaoks määratletud maksugruppi kasutatakse kliendi nende tellimuste maksustamiseks, mis on loodud kassas kliendile koju saatmiseks.
 
-![Kauplusekanali häälestamine lehel Kauplused](media/customer-order-all-stores.png)
+![Kauplusekanali häälestamine lehel Kauplused.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Klienditellimuse parameetrite seadistamine
 
@@ -80,7 +82,7 @@ Enne kui proovite luua klienditellimusi kassas, peate konfigureerima vastavad pa
 - **Saatekulude kood** – kui suvandi **Kasuta täpsemaid automaatseid kulusid** väärtuseks on seatud **Jah**, siis see parameetrisäte ei toimi. Kui selle suvandi väärtuseks on seatud **Ei**, palutakse kasutajatel sisestada lähetuse tasu käsitsi, kui nad loovad klienditellimusi kassa kaudu. Selle parameetri abil saate vastendada Müügireskontro tasu koodi, mis rakendatakse tellimustele, kui kasutajad sisestavad lähetamise tasu. Tasu kood määratleb lähetamise tasu finantssisestuse loogika.
 - **Kasuta täpsemaid automaatseid kulusid** – saate seada selle suvandi väärtuseks **Jah**, et kasutada süsteemi arvutatud automaatseid tasusid klienditellimuste kassas loomisel. Neid automaatseid tasusid saab kasutada lähetamise tasude või muude tellimuse- või kaubapõhiste tasude arvutamiseks. Lisateabe saamiseks täpsemate automaatsete tasude seadistamise ja kasutamise kohta leiate teemast [Omnikanali täpsemad automaatsed tasud](./omni-auto-charges.md).
 
-![Klienditellimuste vahekaart lehel Kaubanduse parameetrid](media/customer-order-parameters.png)
+![Klienditellimuste vahekaart Commerce parameetrite lehel.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Kandekuva paigutuste värskendamine kassas
 
@@ -95,7 +97,7 @@ Veenduge, et kassa [ekraani paigutus](./pos-screen-layouts.md) oleks konfigureer
 - **Muutke kassas tarneviisi** – seda suvandit saab kasutada juba saadetiseks konfigureeritud ridade tarnerežiimi kiireks muutmiseks ilma, et kasutajad peaksid läbima uuesti voo „Läheta kõik tooted” või „Läheta valitud tooted”.
 - **Deposiidi alistamine** – selle suvandi abil saab muuta deposiidi summat, mille klient maksab valitud klienditellimuse eest.
 
-![Kassa kandekuva suvandid](media/customer-order-screen-layout.png)
+![Toimingud kassa tehingu ekraanil.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Kassas klienditellimustega töötamine
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359455"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu jaoks turbe häälestus
 
@@ -42,11 +42,11 @@ Power BI-le juurdepääsutaseme turbe levitamiseks peab Power BI sisu omanik jä
 3. Leidke **kuluarvestuse analüüsi** Power BI sisu jaoks andmekogum.
 4. Avage turbe leht.
 
-    ![Turbelehe avamine](./media/CA-picture-1.png)
+    ![Turbelehe avamine.](./media/CA-picture-1.png)
 
 5. Roll **Kuluobjekti kontroller** on juba loodud. Lisage teisi liikmeid, kes kuuluvad kuluarvestuse juurdepääsutaseme organisatsioonihierarhiasse.
 
-    ![Liikmete lisamine](./media/CA-picture-2.png)
+    ![Liikmete lisamine.](./media/CA-picture-2.png)
 
 Kasutajad, kes lisatakse rollile **Kuluobjekti kontroller**, näevad ainult neid andmeid, mida neil on kuluarvestuse juurdepääsutaseme organisatsioonihierarhia määratluse järgi lubatud näha.
 

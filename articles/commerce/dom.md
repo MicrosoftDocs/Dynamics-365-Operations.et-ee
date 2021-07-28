@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356850"
 ---
 # <a name="distributed-order-management-dom"></a>Hajutatud tellimuste haldamine (DOM)
 
@@ -34,9 +34,9 @@ DOM optimeerib tellimuste täitmist süsteemide ja protsesside keerukas võrgust
 
 Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
 
-![Müügitellimuse elutsükkel DOM-i kontekstis](./media/flow.png "Müügitellimuse elutsükkel DOM-i kontekstis")
+![Müügitellimuse elutsükkel DOM-i kontekstis.](./media/flow.png "Müügitellimuse elutsükkel DOM-i kontekstis")
 
-## <a name="set-up-dom"></a>DOM-i häälestus
+## <a name="set-up-dom"></a>DOM-i seadistamine
 
 1. Valige suvandid **Süsteemihaldus \> Häälestus \> Litsentsi konfiguratsioon**.
 2. Vahekaardil **Konfiguratsioonivõtmed** laiendage sõlme **Kaubandus** ja seejärel valige märkeruut **Hajutatud tellimuste haldamine**.
@@ -200,7 +200,7 @@ Töötlemise ajal arvestab DOM tellimust ja tellimuse ridu, nagu on kirjeldatud 
 
 Pärast reeglite, varude piirangute ja optimeerimise kohaldamist valib DOM asukoha, mis asub kliendi tarneaadressile kõige lähemal.
 
-![Müügitellimuste kriteeriumid](./media/ordercriteria.png "Müügitellimuste kriteeriumid")
+![Müügitellimuste kriteeriumid.](./media/ordercriteria.png "Müügitellimuste kriteeriumid")
 
 ## <a name="results-of-dom-runs"></a>DOM-i käituste tulemused
 

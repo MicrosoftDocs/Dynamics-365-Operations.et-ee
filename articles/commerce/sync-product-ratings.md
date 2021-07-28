@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354609"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Toote hinnangute sünkroonimine Dynamics 365 Commerceis
 
@@ -59,7 +59,7 @@ Selleks et kontrollida, kas alamtöö **RetailProductRating** on olemas, tehke j
 
 Järgmisel joonisel on näha alamtöö üksikasjade näide rakenduses Commerce.
 
-![Alamtöö RetailProductRating üksikasjad](media/rnr-hq-ratings-sub-job.png)
+![Alamtöö RetailProductRating üksikasjad.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Kui te ei leia alamtööd **RetailProductRating**, on võimalik, et olete enne kaubanduse ajasi lähtestamist juba käitanud töö **Tootehinnangute sünkroonimine** ja töö **1040 CDX**. Sellisel juhul tehke töö **Andmete täielik sünkroonimine** käitamiseks järgmist.
@@ -83,7 +83,7 @@ Tootehinnangute importimiseks Commerce’i hinnangute ja arvustuste teenusest te
 
 Järgmisel joonisel on näha pakett-töö konfiguratsiooni näide Commerce’is.
 
-![Tootehinnangute pakett-töö sünkroonimise konfiguratsioon](media/rnr-hq-batchjob-recurrence.png)
+![Tootehinnangute pakett-töö sünkroonimise konfiguratsioon.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Kontrollimine, kas tootehinnangute sünkroonimise pakett-töö õnnestus
 
@@ -95,7 +95,7 @@ Selleks et kontrollida, kas pakett-töö **Tootehinnangute sünkroonimine** õnn
 
 Järgmisel joonisel on näha näide pakett-töö üksikasjadest Commerce’is, kui pakett-töö on plaanitud käivituma kahetunnise intervalliga.
 
-![Tootehinnangute pakett-töö sünkroonimise üksikasjad](media/rnr-hq-batchjob-status-checking.png)
+![Tootehinnangute pakett-töö sünkroonimise üksikasjad.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Tootehinnangute muutmine kassas kättesaadavaks
 
@@ -113,15 +113,15 @@ Tootehinnangute kassas sisselülitamiseks tehke järgmist.
 
 Järgmisel on joonisel on näha näide Kaubanduse parameetrite konfiguratsioonist tootehinnangute sisselülitamiseks kassas.
 
-![Kaubanduse parameetrite konfiguratsioon tootehinnangute jaoks kassas](media/rnr-hq-enable-ratings-in-pos.png)
+![Commerce parameetrite konfiguratsioon tootehinnangute jaoks kassas.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Järgmisel joonisel on näha näide tootehinnangutest kassas.
 
-![Tootehinnangud kassas](media/rnr-pos-catalog-ratings.png)
+![Tootehinnangud kassas.](media/rnr-pos-catalog-ratings.png)
 
 Järgmisel joonisel on näha näide tootehinnangutest kõnekeskuse kanalites.
 
-![Tootehinnangud kõnekeskuse kanalis](media/rnr-call-center-ratings.png)
+![Tootehinnangud kõnekeskuse kanalis.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 15478776e9a2152b93e4413105145f2a40cdc506
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50fcff4bb675674bc0b32f0bbd5d06796f2dbce9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354829"
 ---
 # <a name="preventive-maintenance-overview"></a>Ennetava hoolduse ülevaade
 
@@ -34,7 +34,7 @@ Hoolduskavu kasutatakse üksikute varade ennetavaks ja reaktiivseks hoolduseks. 
 
 Alltoodud joonis annab ülevaate töövoogudest alates hoolduskavade ja hoolduskordade loomisest kuni töötellimuste loomiseni varade jaoks, põhinedes nende hoolduskavadel ja hoolduskordadel.
 
-![Joonis 1](media/01-preventive-maintenance.png)
+![Joonis 1.](media/01-preventive-maintenance.png)
 
 
 

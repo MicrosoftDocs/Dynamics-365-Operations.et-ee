@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754490"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354411"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Aruandlus ja analüüs Power BI avalehega
 
@@ -37,7 +39,7 @@ Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida toetab 
 
 Kasutajad saavad andmetega suhtlemiseks klõpsata või puudutada lehel olevaid visuaale. Nad saavad vaadata põhjuseid ja tagajärgi ning teha lihtsaid võimalike stsenaariumitega seotud toiminguid tööruumist lahkumata. Tänu hämmastavatele interaktiivsetele visuaalidele saavad kasutajad meeldival moel andmeid uurida ja peidetud trende avastada.
 
-![Tööruumis oleva Power BI näide](./media/Power-BI-in-D365-Workspace.png)
+![Tööruumis oleva Power BI näide.](./media/Power-BI-in-D365-Workspace.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
@@ -50,7 +52,7 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 ## <a name="business-documents-and-printing"></a>Äridokumendid ja printimine
 Aruandluslahendusi kasutatakse sageli äritehingute üksikasjade jäädvustamiseks ja edastamiseks. Seetõttu peab aruandluslahendus suutma luua äriandmetest füüsilisi koopiaid olemasolevate seadmetega, näiteks võrguprinteritega. Äridokumendid on näiteks müügiarved, kliendi koondväljavõtted ja tšekid.
 
-[![Äridokumentide näide](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Äridokumentide näide.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
@@ -61,7 +63,7 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 ## <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide või regioonide õigusnõuete järgi. Elektroonilise aruandluse rakenduste hulgas on saadaval finantsauditite loomine, maksuaruandlus ja elektrooniline arveldus.
 
-[![Elektroonilise aruandluse näide](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Elektroonilise aruandluse näide.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
@@ -72,7 +74,7 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 ## <a name="financial-reporting"></a>Finantsaruandlus
 Esitatavad standardsed finantsaruanded põhinevad põhikonto vaikekategooriatel. Aruandekoosturiga saate luua või muuta traditsioonilisi finantsaruandeid, näiteks kasumiaruandeid ja bilansse. Seejärel saate jagada tulemusi organisatsiooni teiste liikmetega. Finantsaruandlus hõlmab näiteks bilansse, rahavoogu ja proovibilansi aastapõhist kokkuvõtet.
 
-[![Finantsaruandluse näide](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Finantsaruandluse näide.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 

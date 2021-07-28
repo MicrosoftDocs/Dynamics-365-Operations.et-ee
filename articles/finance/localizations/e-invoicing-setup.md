@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890827"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348482"
 ---
 # <a name="set-up-electronic-invoicing"></a>Seadista elektrooniline arveldus
 
@@ -37,7 +37,7 @@ Konfigureerimise aluseks on elektroonilise aruandluse (ER) vormingu konfiguratsi
 
 Järgmisel illustratsioonil on kujutatud elektroonilise arvelduse funktsiooni põhikomponendid.
 
-![Elektroonilise arvelduse funktsiooni ülevaade](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Elektroonilise arvelduse funktsiooni ülevaade.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Kuna arvete vormingud ja tegevusvood erinevad üksteisest, võib funktsiooni seadistus olla erinev riigi, regiooni või ärivajaduste tõttu.
 
@@ -50,7 +50,7 @@ Seadistusprotsess tuleb viia lõpule RCS-i keskkonnas. Järgige neid samme, et l
 3. Lehel **Elektroonilise arvelduse funktsioonid** valige suvand **Impordi**, et importida globaalsest hoidlast ER-i andmemudeli konfiguratsioon.
 4. Valige **Lisa**, et luua elektroonilise arvelduse funktsioon. Saate luua funktsiooni otsast peale või tuletada selle olemasolevast elektroonilise arvelduse lisandmooduli funktsioonist.
 
-    ![Elektroonilise arvelduse funktsiooni lisamine](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Elektroonilise arvelduse funktsiooni lisamine.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Kui loote uue elektroonilise arvelduse funktsiooni, on sellel versiooninumber ning selle vaikeolekuks on seatud **Mustand**.
@@ -63,21 +63,21 @@ Järgige neid samme, et lisada ER-i vormingud elektroonilise arvelduse funktsioo
 
 1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Konfiguratsioonid** suvand **Lisa**, et lisada ER-i failivormingu konfiguratsioonid elektroonilise arvelduse funktsiooni.
 
-    ![Elektroonilise arvelduse funktsiooni konfiguratsioonide lisamine](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Elektroonilise arvelduse funktsiooni konfiguratsioonide lisamine.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Kui loote elektroonilise arvelduse funktsiooni otsast peale, peate lisama käsitsi kõik ER-i failivormingu konfiguratsioonid. Kui tuletate elektroonilise arvelduse lisandmooduli funktsiooni olemasolevast funktsioonist, luuakse ER-i failivormingu konfiguratsioonid automaatselt, kuna need päritakse algsest elektroonilise arvelduse funktsioonist.
 
 2. Valige suvand **Redigeeri**, et avada leht **Vormingukujundaja**, kus saate redigeerida ER-i failivormingu konfiguratsiooni.
 
-    ![Elektroonilise arvelduse funktsiooni konfiguratsioonide redigeerimine](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Elektroonilise arvelduse funktsiooni konfiguratsioonide redigeerimine.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Vormingu redigeerimise ajal on konfiguratsiooni versiooni olekuks seatud **Mustand**.
 
 3. Kasutage failivormingu konfiguratsiooni muutmiseks lehte **Vormingukujundaja**. Lisateavet leiate jaotisest [Elektrooniliste dokumentide konfiguratsioonide loomine](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Vormingukujundaja leht](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Vormingukujundaja leht.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Funktsiooniseadistused
 
@@ -87,20 +87,20 @@ Järgige neid samme, et lisada funktsiooniseadistusi elektroonilise arvelduse li
 
 1. Lehe **Elektroonilise arvelduse funktsioonid** vahekaardil **Seadistused** valige suvand **Lisa**, et lisada funktsiooniseadistused elektroonilise arvelduse funktsiooni.
 
-    ![Elektroonilise arvelduse lisandmooduli funktsiooni seadistuste lisamine](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Elektroonilise arvelduse lisandmooduli funktsiooni seadistuste lisamine.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Kui loote elektroonilise arvelduse funktsiooni otsast peale, peate lisama käsitsi kõik vajaminevad funktsiooniseadistused. Kui tuletate elektroonilise arvelduse funktsiooni olemasolevast funktsioonist, luuakse kõik funktsiooniseadistused automaatselt, kuna need päritakse algsest elektroonilise arvelduse lisandmooduli funktsioonist.
 
 2. Valige suvand **Redigeeri**, et redigeerida funktsiooni versiooni seadistust.
 
-    ![Elektroonilise arvelduse lisandmooduli funktsiooni seadistuste redigeerimine](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Elektroonilise arvelduse lisandmooduli funktsiooni seadistuste redigeerimine.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Kasutage lehte **Funktsiooni versiooni seadistus**, et konfigureerida tegevusi, rakendatavuse reegleid ja muutujaid.
 
-    ![Tegevused, rakendatavuse reeglid ja muutujad](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Tegevused, rakendatavuse reeglid ja muutujad.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
-### <a name="actions"></a>Tegevused
+### <a name="actions"></a>Actions
 
 Tegevused on eelmääratletud loend toimingutest, mis käivitatakse järjestikku. Loend kajastab nende sammude jaotust, mis on vajalikud elektroonilise arvelduse lisandmooduli funktsiooni täielikuks käivitamiseks. Tegevused võivad samas elektroonilise arvelduse lisandmooduli funktsioonis hõlmata suhtlust mõlemas suunas: sihtkoha taotluse saatmine ja vastuse vastuvõtmine ning selle sisu sõelumine.
 
@@ -113,7 +113,7 @@ Tegevuste haldamiseks jälgige lehe **Funktsiooni versioonide seadistus** vaheka
 - Valige **Uus** või **Kustuta**, et lisada uusi tegevusi või kustutada olemasolevaid.
 - Valige **Üles** või **Alla**, et teisaldada valitud tegevused ruudustikus üles või alla ning seetõttu muuta nende käitamise järjestust. Tegevused käitatakse ülevalt alla järjekorras, milles need ruudustikus kuvatakse.
 
-![Tegevuste haldamine](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Tegevuste haldamine.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 Järgmises tabelis kirjeldatakse kiirkaardil **Tegevused** olevaid välju.
 
@@ -129,7 +129,7 @@ Järgmises tabelis kirjeldatakse kiirkaardil **Tegevused** olevaid välju.
 
 Kiirkaart **Parameetrid** hõlmab selle tegevuse parameetreid, mis on valitud kiirkaardil **Tegevused**.
 
-![Parameetrite kiirkaart](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Parameetrite kiirkaart.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 Järgmises tabelis kirjeldatakse kiirkaardil **Parameetrid** olevaid välju.
 
@@ -259,20 +259,20 @@ Rakendatavuse reeglid võimaldavad teil luua loogilisi reegleid, mis määravad 
 
 1. Valige lehel **Funktsiooni versiooni seadistus** vahekaardil **Rakendatavuse reeglid** suvand **Uus**, et lisada rakendatavuse reegel.
 
-    ![Rakendatavuse reeglite haldamine](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Rakendatavuse reeglite haldamine.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Valige ruudustikus klauslid, mis tuleks rühmitada.
 3. Valige **Rühmita klausel**.
 
-    ![Klauslite rühmitamine](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Klauslite rühmitamine.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Pärast klauslite rühmitamist lisatakse ruudustikku uus veerg. See veerg määrab rühmitatud klauslite jaoks loogilise tehtemärgi.
 
-    ![Loogiline tehtemärk rühmitatud klauslite jaoks](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Loogiline tehtemärk rühmitatud klauslite jaoks.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Klauslite rühmituse tühistamiseks valige rühmitatud klauslid ja seejärel suvand **Tühista klausli rühmitus**.
 
-![Klauslite rühmituse tühistamine](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Klauslite rühmituse tühistamine.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Klausli rühmituse tühistamise korral alustage alati kõige sisemisest rühmitustasemest.
@@ -294,7 +294,7 @@ Saate luua muutujaid ja seejärel kasutada neid konkreetse tegevuse parameetri s
 
 - Valige lehe **Funktsiooni versiooni seadistus** vahekaardil **Muutujad** suvand **Uus** või **Kustuta**, et muutujaid hallata.
 
-    ![Muutujate haldamine](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Muutujate haldamine.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 Järgmises tabelis kirjeldatakse vahekaardil **Muutujad** olevaid välju.
 
@@ -310,7 +310,7 @@ Järgmises tabelis kirjeldatakse vahekaardil **Muutujad** olevaid välju.
 
 - Valige lehe **Funktsiooni versiooni seadistus** toimingupaanilt suvand **Kontrolli**, et kontrollida funktsiooni versiooni seadistust.
 
-   ![Nupu „Kontrolli” valimine](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Nupu „Kontrolli” valimine.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 Kontrollimise käigus kontrollitakse kogu konfiguratsiooni terviklikkust. Näiteks kui tegevuse puhul on mõni konkreetne parameeter kohustuslik, kuid selle väärtus on tühi, tuvastatakse see vastuolu kontrollimise käigus ja teile näidatakse tõrget.
 
@@ -323,7 +323,7 @@ Elektroonilise arvelduse keskkonna lubamiseks elektroonilise arvelduse lisandmoo
 1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Keskkonnad** suvand **Luba**, et lisada elektroonilise arvelduse lisandmooduli keskkond.
 2. Sisestage väljale **Kehtiv alates** kuupäev, mil uus keskkond kehtima hakkab.
 
-![Elektroonilise arvelduse keskkonna lubamine](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Elektroonilise arvelduse keskkonna lubamine.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organisatsioonid
 

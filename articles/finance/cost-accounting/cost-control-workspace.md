@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833038"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355223"
 ---
 # <a name="cost-control-workspace"></a>Kulujuhtimise tööruum 
 
@@ -116,7 +116,7 @@ Kiirkaardil **Eelarvestatud kulude jaoks kuvatavad veerud** määrab kuluarvesta
 
 Kasutajatele (nt juhtidele) kättesaadavate aruannete loendit juhitakse sättega valikus **Avaldatud** lehel **Kulujuhtimise tööruumi konfiguratsioonid**.
 
-![Aruanne, mida kasutajad kulujuhtimise tööruumis näevad](./media/report-cost-control.png)
+![Aruanne, mida kasutajad kulujuhtimise tööruumis näevad.](./media/report-cost-control.png)
 
 Juht saab valida kuvamiseks rahanduskalendri perioodi. Jooksva perioodi vaikeväärtuse määramiseks kasutatakse seansi kuupäeva.
 
@@ -136,11 +136,11 @@ Ruudustikus kuvatakse kuluelemendi dimensioonihierarhia sõlme ja selle väärtu
 
 Kaks diagrammi kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa.
 
-![Diagrammid, mis kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa](./media/cost-element-details-operations.png)
+![Diagrammid, mis kuvavad kokkuvõtte tegelikest andmetest võrreldes eelarvega ja eelarve hälbe perioodide kaupa.](./media/cost-element-details-operations.png)
 
 Kasutajad võivad klõpsata valikut **Kulukirjed** kirje andmetes vajalikul viisil süvitsi minekuks.
 
-![Kulukirjed](./media/cost-entries.png)
+![Kulukirjed.](./media/cost-entries.png)
 
 Näiteks rent on kulu, mis jagatakse kulukeskuste vahel. Kasutaja, kes soovib mõista oma kulukeskuse rendikulu, saab minna süvitsi, et näha, kuidas rent on arvutatud.
 
@@ -148,7 +148,7 @@ Kui kasutajad klõpsavad valikut **Eraldamisalus** lehel **Kulukirjed**, kuvatak
 
 Järgmises näites on eraldamisaluse tüüp **Valemi eraldamisalus** ja on kuvatud valem. Loetletud on valemit määratlevad tegurid. Lisaks on ruudustikus näha kuluobjekti kohta tehtav arvutus.
 
-![Arvutused kuluobjekti kohta](./media/cost-entries-allocation-base.png)
+![Arvutused kuluobjekti kohta.](./media/cost-entries-allocation-base.png)
 
 Lisaressursid 
 

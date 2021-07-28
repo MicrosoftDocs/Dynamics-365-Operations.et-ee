@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 93e5d46d6b9817b7f019e529bf4da6199bc29dbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898206"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355720"
 ---
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
@@ -40,7 +42,7 @@ Organisatsioon saab eelarve plaanimise konfigureerida ja seejärel seadistada ee
 - **Eelarve plaanimise etapid** – Eelarve plaanimise etapid määratlevad astmed, mida eelarveplaan järgib selle algusest kuni lõpliku kinnitamiseni. Eelarve planeerimise etapid korraldatakse eelarve planeerimise töövoogudes.
 - **Eelarve plaanimise töövood** – eelarve plaanimise töövood koosnevad eelarve plaanimise etappidest ja määravad need. Eelarve plaanimise töövood on seotud eelarvestuse töövoogudega. Eelarvestuse töövood on automatiseeritud ja käsitsi protsessid, mis liigutavad eelarveplaane läbi eelarve plaanimise etappide.
 
-[![Eelarve plaanimise terminoloogia](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Eelarve plaanimise terminoloogia.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Tavalised ülesanded
 
@@ -65,11 +67,11 @@ Valikuline, kuid soovitatav esimene etapp on skeemi loomine, mis näitab teie or
 
 Järgmisel joonisel on toodud üldine näide, kus organisatsiooni eri tasemete puhul luuakse eraldi eelarve plaanimise töövood. Etapid on määratletud igas töövoos ja igas etapis on määratud konkreetsed stsenaariumid eelarveandmete hoidmiseks. Täidetakse ülesandeid andmete edastamiseks ühest etapist järgmisse. Näiteks saate summad eraldada või liita eri kontodele, kinnitustele või muudele ülevaatustele. Selles näites viitab kursiivkirjas tekst stsenaariumile, mis pole etapi käigus muudetav või andmetele, mis on ajaloolised või kinnitatud varasemas etapis ja mida ei tohi seega muuta.
 
-[![Eelarve plaanimise üldine skeem](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Eelarve plaanimise üldine skeem.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 Järgmises näites hindab ettevõtte peakorter algse eelarve lähtesummasid ja jaotab need müügiosakondade vahel. Müügiosakonnad hindavad ja esitavad seejärel oma prognoosi uuesti peakorterile, kus eelarvehaldur prognoosi koondab ja kohandab. Lõpuks saadab eelarvehaldur kohandatud eelarvesummad peafinantsdirektorile (CFO) ülevaatamiseks, lõplikuks korrigeerimiseks ja kinnitamiseks.
 
-[![Eelarve plaanimise skeemi näide](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Eelarve plaanimise skeemi näide.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Organisatsiooni hierarhia eelarve plaanimiseks
 
@@ -93,7 +95,7 @@ Hea tava on luua eelarve plaanimise töövoog eelarvestamise hierarhia igal tasa
 
 Saate luua eelarvestamise töövoo eelarve plaanimiseks lehel **Eelarvestuse töövood**. Protsess sarnaneb muude töövoogude loomise protsessiga. Järgmisel joonisel on toodud peakorteri töövoo näide.
 
-[![Eelarvestuse töövoog eelarve plaanimiseks](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Eelarvestuse töövoog eelarve plaanimiseks.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 Töövoog sisaldab järgmisi elemente:
 
@@ -141,11 +143,11 @@ Etapi eraldamise seadistamisel seostage eelarve planeerimise töövoog ja etapp 
 
 Selles teema all varem kuvatud näidisskeemis tehakse eraldamine eelarveplaani summade ja peakorteri etapi "Alus"stsenaariumide üleviimiseks teise eelarveplaani ja stsenaariumidesse Müügiosakondade etapis "Hinnang". Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
 
-[![Etapi eraldamine](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Etapi eraldamine.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Lisaks tehakse näidisskeemis liitmine Müügiosakondade etapis "Edastatud" eelarveplaanidest ja stsenaariumidest peakorteri etapi "Ümberarvestus" emaplaani. Järgmisel joonisel kuvatakse näidisskeemi asjakohane jaotis.
 
-[![Liitmine](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Liitmine.](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioriteedid
 
@@ -163,7 +165,7 @@ Lisaks eelarvesummade veergudele saate määratleda veerud projekti, pakutava pr
 
 Näidisskeemi puhul võite soovida luua veerge stsenaariumitele "PY müük", "Lepingud" ja "Prognoos". (Järgnev kujutis näitab skeemi vastavat sektsiooni.) Seejärel saate jaotada ühe või kõik neist stsenaariumidest eraldi veergudesse rahandusaasta kvartalite kaupa nii, et Müügiosakonna juhataja saab täpselt sisestada iga perioodi prognoositavad summad.
 
-[![Veergude lisamise skeemi jaotiste joonis](./media/columns.png)](./media/columns.png)
+[![Veergude lisamise skeemi jaotiste kohta joonis.](./media/columns.png)](./media/columns.png)
 
 Saate ka määrata iga paigutuselemendi (veeru) redigeeritavuse ja selle, kas veerg on saadaval igas selleks paigutuseks loodud töölehe mallis. Näidisskeemi puhul on etapis "Hinnang" kasutatud paigutuses veerud "Eelarve" redigeeritavad, samas kui veerud "PY müük" ja "Lepingud" on kirjutuskaitstud.
 
@@ -201,7 +203,7 @@ Menüüs **Toimingud** saate luua ka uue protsessi, kopeerides olemasoleva prots
 
 Teine kasulik käsk menüüs **Tegevused** on **Kuva eelarve protsessi olekut**. See käsk kuvab graafiliselt protsessi eelarveplaanid koos asjakohaste andmetega, nagu plaanide töövoo olek, kokkuvõtted summa ja ühiku järgi ja ühe klõpsuga navigeerimise eelarveplaanidele.
 
-[![Eelarve plaanimise protsessi olek](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Eelarve plaanimise protsessi olek.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

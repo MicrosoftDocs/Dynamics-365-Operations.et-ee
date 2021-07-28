@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796144"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352610"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Kõnekeskuse tarneviiside ja -tasude konfigureerimine
 
@@ -65,11 +65,11 @@ Jaotises **Read** saate vajaduse järgi määratleda ühe või mitu tasu valuuta
 
 Ettevõtted konfigureerivad sageli mitmetasandilisi tasusid. Sellisel juhul sõltub summa, mille klient tarne eest maksab, tellimuse väärtusest. Mitmetasandiliste tasude konfigureerimiseks sisestage väärtused väljadele **Alates summast** ja **Summani** ning määratlege tasu ise väljal **Tasude väärtus**. Näiteks tellimuste puhul, mille väärtus on vähem kui 50 dollarit, küsib jaemüüja maatranspordi eest tasu 5,95 dollarit. Tellimuste puhul, mille väärtus on võrdne 50 dollariga või sellest suurem, kuid väiksem kui 100 dollarit, küsib jaemüüja tasu 7,95 dollarit. Tellimuste puhul, mille väärtus on võrdne 100 dollariga või sellest suurem, pakub jaemüüja tasuta tarnet. Järgmisel pildil on näidatud nende tasude konfiguratsioonid.
 
-![Näide fikseeritud mitmetasandilistest tasudest](media/fixedtieredcharges.png)
+![Näide fikseeritud mitmetasandilistest tasudest.](media/fixedtieredcharges.png)
 
 Oma ettevõtte vajaduste kohaselt saate kasutada eri tasukategooriaid. Näiteks kõikide tellimuste puhul, mille väärtus on vähem kui 100 dollarit, küsitakse tarne eest fikseeritud tasu 9,95 dollarit. Seejärel arvutatakse tellimuste jaoks, mille väärtus on võrdne 100 dollariga või sellest suurem, tarnetasuks 5% tellimuse väärtusest. Järgmisel pildil on näidatud nende tasude konfiguratsioonid.
 
-![Näide eri mitmetasandilistest tasudest](media/mixedtieredcharges.png)
+![Näide eri mitmetasandilistest tasudest.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Tarneviiside rakendamine kõnekeskuses tellimuse sisestamise ajal
 
