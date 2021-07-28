@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027911"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353726"
 ---
 # <a name="listjoin-er-function"></a>ER-i funktsioon LISTJOIN
 
@@ -66,15 +66,15 @@ Seejärel sisestate tüübi `Container` andmeallika **Kirje 2**. See andmeallika
 - **Summa**: see väli sisaldab avaldist, mis tagastab tüübi `Real` väärtuse.
 - **IsValid**: see väli sisaldab avaldist, mis tagastab tüübi `Boolean` väärtuse.
 
-![ER-i mudelivastenduse koostaja leht](./media/er-functions-list-listjoin-image1.gif)
+![ER-i mudelivastenduse koostaja leht.](./media/er-functions-list-listjoin-image1.gif)
 
 Sel juhul tagastab avaldis `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` uue loendi, mis sisaldab kaht kirjet.
 
-![ER-i mudelivastenduse koostaja leht kahe kirjega](./media/er-functions-list-listjoin-image2.gif)
+![ER-i mudelivastenduse koostaja leht kahe kirjega.](./media/er-functions-list-listjoin-image2.gif)
 
 Selle loendi struktuur koosneb ühest tüübi `Real` väljast **Summa**, kuna see väli on ainuke väli, mis on esitatud kutsutud funktsiooni igas argumendis.
 
-![ER-i mudelivastenduse koostaja lehe summaväli](./media/er-functions-list-listjoin-image3.gif)
+![ER-i mudelivastenduse koostaja lehe summaväli.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

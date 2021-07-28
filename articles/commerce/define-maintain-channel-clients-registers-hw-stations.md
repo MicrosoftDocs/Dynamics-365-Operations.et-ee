@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802041"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349548"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
@@ -78,7 +78,7 @@ Kui kanali tasemel määratletud riistvarajaam ise sisaldab eksemplaripõhist te
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>Ühendatud välisseadmetega MPOS
 
-[![Tavapärane fikseeritud kassa](./media/traditional-300x279.png)](./media/traditional.png)
+[![Tavapärane, fikseeritud kassa.](./media/traditional-300x279.png)](./media/traditional.png)
 
 MPOS-i ühendamiseks POS-i välisseadmetega tavapärases, fikseeritud kassa stsenaariumis liikuge kõigepealt registri enda juurde ja määrake sellele riistvaraprofiil. Leiate kassaregistrid, valides **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**. 
 
@@ -97,7 +97,7 @@ Lõpuks kasutage MPOS-is toimingut **Riistvarajaama valimine** riistvarajaama **
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS või Cloud POS koos eraldi riistvarajaamaga
 
-[![Ühiskasutusega välisseadmed](./media/shared-300x254.png)](./media/shared.png)
+[![Ühiskasutusega välisseadmed.](./media/shared-300x254.png)](./media/shared.png)
 
 Selles stsenaariumis jagavad MPOS-i ja Cloud POS-i kliendid eraldiseisvat riistvarajaama. See stsenaarium nõuab riistvarajaama profiili loomist allalaadimispaketi, pordi ja riistvaraprofiili määramiseks, mida riistvarajaam kasutab. Riistvarajaama profiili leiate asukohast **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Riistvarajaama profiilid**. 
 
@@ -201,7 +201,7 @@ Aktiveerimist puudutav lisateave hõlmab töötajat, kes seadme aktiveerimisolek
 
 ### <a name="client-data-synchronization"></a>Kliendi andmete sünkroonimine
 
-Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga avage **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**  ja käivitage vajalik jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud **Registrid** ja **Kanali konfiguratsioon**.
+Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga avage **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik** ja käivitage vajalik jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud **Registrid** ja **Kanali konfiguratsioon**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

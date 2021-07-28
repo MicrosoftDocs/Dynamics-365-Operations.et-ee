@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df08bdffb2bda67269eec9f1572bd76af9ae1e11
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2da54d147c7e9c8a42ef9de94abcbe7f36c98295
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355744"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Toimingud töövoo kinnitusprotsessides
 
@@ -29,7 +29,7 @@ Selles artiklis selgitatakse toiminguid, mida iga osaleja saab töövoo kinnitus
 
 Töövoog võib hõlmata mitut inimeste gruppi: algataja, ülesandes osalejad, otsustajad ja kinnitajad. Näiteks järgmises kuluaruande töövoos on Sam algataja, järjekorra liikmed on ülesandes osalejad, John on otsustaja ning Frank, Sue ja Ann on kinnitajad.
 
-[![Töövoog\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Töövoog\_ManuaalseOtsusega.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Järgmistes jaotistes selgitatakse töövoo toiminguid, mida iga grupp saab teha.
 

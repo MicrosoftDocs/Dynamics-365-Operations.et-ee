@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794345"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351269"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
 
@@ -31,7 +31,7 @@ Selles teemas antakse rakenduse Microsoft Dynamics 365 Commerce e-kaubanduse kat
 
 Kategooria vaikesihtleht on leht, kuhu veebisaidi kasutajad tavaliselt navigeerimishierarhias kategooria valimisel viiakse. Kategooria leht võimaldab teil sirvida ja saate lisaks sortida ning viimistleda kategoriseeritud tooteid.
 
-![Kategooria vaikesihtleht](./media/SimpleCategoryLandingDressCategory.png)
+![Kategooria vaikesihtleht.](./media/SimpleCategoryLandingDressCategory.png)
 
 Lehe ülaosas on päis, mis näitab kõiki tootekategooriaid ja teisi lehti, mida tootejuht on kategoriseerinud. Konfiguratsioon tehakse kanali navigeerimishierarhia konfiguratsiooni osana. Lehe allosas on jalus, mis sisaldab kiirlinke erinevatele teemadele, millest klient võib olla huvitatud.
 
@@ -55,7 +55,7 @@ Kategooria jaoks on olulised järgmised komponendid.
 
 Kui soovite, et kategooria sihtlehel oleks kindla kategooria jaoks palju kohandatum kogemus, saate selle kategooria jaoks nö rikastada kategooria sihtlehte. Näiteks saate ostja tähelepanu tõmbamiseks lisada turundusvideo ja mõne kategooria loo jutustamise. Lisateavet vaadake teemast [Kategooria sihtlehe rikastamine](enrich-category-page.md).
 
-![Rikastatud kategooria sihtleht](./media/CategoryLandingPages.png)
+![Rikastatud kategooria sihtleht.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Automaatse soovitamise ja otsingutulemuste lehed
 
@@ -69,11 +69,11 @@ Siin on mõned soovituste tüübid, mis võidakse kuvada.
 - **Tooted** pakuvad otseseid linke toote üksikasjade lehele.
 - **Määratletud kategooria otsingusoovitused** loetlevad erinevad kategooriad ja võimaldavad kasutajatel otsida märksõna kindlas kategoorias.
 
-![Kõikehõlmavad automaatsed soovitused](./media/ImmersiveAutoSuggestUX.png)
+![Kõikehõlmavad automaatsed soovitused.](./media/ImmersiveAutoSuggestUX.png)
 
 Kui kasutajad valivad ühe märksõna või määratletud kategooria otsingusoovituse või kui nende sisestatud otsingusõnale puuduvad soovitused, suunatakse need ümber otsingutulemuste lehele. Seejärel saavad kasutajad soovitud kauba leidmiseks otsingutulemuste loendit sirvida, sortida ja täpsustada.
 
-![Sihtkoha otsing](./media/SearchLanding.png)
+![Sihtkoha otsing.](./media/SearchLanding.png)
 
 Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 
@@ -94,7 +94,7 @@ Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 
 >[!NOTE]
 >Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et jaotises **Kaubanduse parameetrid > konfiguratsiooniparameetrid** on kirje ProductSearch.UseAzureSearch väärtuseks määratud „tõene”. 
-![Pilvepõhise otsingu konfiguratsiooniparameetrid](./media/CloudPoweredSearchConfigurationParameters.png)
+![Pilvepõhise otsingu konfiguratsiooniparameetrid.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350398"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>E-kaubanduse arenduskeskkonna häälestamine, et siluda järguga 1 jaemüügiserveri virtuaalmasin
 
@@ -38,13 +38,13 @@ Järgu 1 keskkonna suhtes silumisel, kuna sait kutsub nüüd teist jaemüügiser
 
 Järgmisel joonisel on toodud näide tõrkest, mis võib ilmneda, kui toote üksikasjade lehel on valitud variant.
 
-![Tõrge, kui toote üksikasjade lehel on valitud variant](media/unhandled-rejection-error.jpg)
+![Tõrge, kui toote üksikasjade lehel on valitud variant.](media/unhandled-rejection-error.jpg)
 
 Järgmisel joonisel on näidatud sarnane tõrke näide brauseri siluritööriistades (F12 Arendustööriistad). Veateade sisaldab sisu turbepoliitika direktiivi rikkumisi.
 
-![Siluritööriistade tõrge](media/debugger-tools-error.JPG)
+![Siluritööriistade tõrge.](media/debugger-tools-error.JPG)
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
 
 ### <a name="disable-the-content-security-policy-for-the-site-in-commerce-site-builder"></a>Commerce'i saidikonstruktori saidi jaoks sisu turbepoliitika keelamine
 

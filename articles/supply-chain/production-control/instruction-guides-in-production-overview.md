@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910085"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354008"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Hübriidreaalsusjuhendite kasutamise võimaldamine tootmistöötajatele
 
@@ -57,7 +59,7 @@ Järgmistes alajaotistes on kirjeldatud mõnda valitud stsenaariumi, mille puhul
 
 ### <a name="assembly"></a>Assembler
 
-![Rakenduse Guides kasutamine koostamisülesannetes](media/instruction-guides-hero-assembly.png "Rakenduse Guides kasutamine hooldusülesannetes")
+![Juhendi kasutamine koostamisülesannetes.](media/instruction-guides-hero-assembly.png "Rakenduse Guides kasutamine hooldusülesannetes")
 
 Koostamistoimingute juhised näitavad töötajatele vajalikke tööriistu ja osasid ning kuidas neid reaalses tööolukorras kasutada.
 
@@ -65,7 +67,7 @@ Tootmisjuhid saavad luua ja määrata juhendeid näiteks [tootmisprotsesside](ro
 
 ### <a name="service"></a>Teenus
 
-![Rakenduse Guides kasutamine hooldusülesannetes](media/instruction-guides-hero-service.png "Rakenduse Guides kasutamine hooldusülesannetes")
+![Juhendi kasutamine hooldusülesannetes.](media/instruction-guides-hero-service.png "Rakenduse Guides kasutamine hooldusülesannetes")
 
 Varustage tehnikud töökohas juhistega, et lisakülastusi poleks vaja plaanida.
 
@@ -73,7 +75,7 @@ Hooldusjuhid saavad määrata juhendeid näiteks konkreetsetele [toodetele](../.
 
 ### <a name="quality"></a>Kvaliteet
 
-![Rakenduse Guides kasutamine kvaliteedi tagamise ülesannetes](media/instruction-guides-hero-quality.png "Rakenduse Guides kasutamine kvaliteedi tagamise ülesannetes")
+![Juhendi kasutamine kvaliteedi tagamise ülesannetes.](media/instruction-guides-hero-quality.png "Rakenduse Guides kasutamine kvaliteedi tagamise ülesannetes")
 
 Looge uusi protsesse ja tagage suurem järjepidevus, muutes töötajate teadmised korduvalt kasutatavaks tööriistaks.
 
@@ -81,13 +83,13 @@ Kvaliteedi tagamise juhid saavad määrata juhendeid näiteks konkreetsetele [to
 
 ### <a name="certifications"></a>Serdid
 
-![Rakenduse Guides kasutamine sertifitseerimisega seotud ülesannetes](media/instruction-guides-hero-certification.png "Rakenduse Guides kasutamine sertifitseerimisega seotud ülesannetes")
+![Juhendi kasutamine sertifitseerimisega seotud ülesannetes.](media/instruction-guides-hero-certification.png "Rakenduse Guides kasutamine sertifitseerimisega seotud ülesannetes")
 
 Veenduge, et iga töötaja vastaks standarditele, tehes kiiresti kindlaks, kes vajab abi ja kus.
 
 ### <a name="safety"></a>Ohutus
 
-![Rakenduse Guides kasutamine tööohutusjuhistes](media/instruction-guides-hero-safety.png "Rakenduse Guides kasutamine tööohutusjuhistes")
+![Rakenduse Guides kasutamine tööohutusjuhistes.](media/instruction-guides-hero-safety.png "Rakenduse Guides kasutamine tööohutusjuhistes")
 
 Looge juhised, mis näitavad ohtlikke olukordi virtuaalselt, enne kui neid päriselt tehakse. Hübriidreaalsust kasutades saavad töötajad kogeda ohtlikke olukordi virtuaalselt.
 
@@ -119,7 +121,7 @@ Et muuta funktsioon oma süsteemis kättesaadavaks, peate lubama selle konfigura
 
 Et konfigureerida, kuidas rakendust Guides tootmisjaoskonnas kuvatakse, avage **Hübriidreaalsus \> Dynamics 365 Guides \> Rakenduse Guides integratsiooni konfigureerimine**.
 
-![Rakenduse Guides integratsiooni konfigureerimine tootmise jaoks](media/instruction-guides-configure-integration.png "Rakenduse Guides integratsiooni konfigureerimine tootmise jaoks")
+![Rakenduse Guides integratsiooni konfigureerimine tootmise jaoks.](media/instruction-guides-configure-integration.png "Rakenduse Guides integratsiooni konfigureerimine tootmise jaoks")
 
 Seadistage järgmised väljad.
 
@@ -136,7 +138,7 @@ Seadistage järgmised väljad.
 
 Kasutage lehte **Kõik juhendid**, et näha kõigi teie organisatsioonis saadaolevate juhendite loendit ning kõiki määramisi teie tootmisprotsessidele ja ressurssidele. Selle avamiseks avage **Hübriidreaalsus \> Juhendid \> Kõik juhendid**. Üleval olevas loendis kuvatakse kõik saadaolevad juhendid ja saate seda välja kasutada loendi filtreerimiseks. All olevas loendis kuvatakse kõik juhendite määramised ning tööriistariba nende haldamiseks.
 
-![Juhendite haldamine](media/instruction-guides-allguides.png "Juhendite haldamine")
+![Juhendite haldamine.](media/instruction-guides-allguides.png "Juhendite haldamine")
 
 Järgmised jaotised kirjeldavad objektide tüüpe, millele saate juhendeid määrata. Iga määratud juhend sisaldab juhiseid, mis seotakse automaatselt asjaomaste tootmistöödega ja mis on saadaval tootmisjaoskonnas.
 
@@ -157,7 +159,7 @@ Juhendi lisamiseks ressursile tehke järgmist.
 1. Laiendage kiirkaart **Seotud juhendid**.
 1. Valige suvand **Lisa** tööribast **Seotud juhendid**. Ruudustikku lisatakse uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata. Kui teil on palju juhendeid, saate loendit filtreerida, et leida otsitav.
-    ![Juhendite haldamine](media/instruction-guides-allguides.png "Juhendite haldamine")
+    ![Juhendite haldamine.](media/instruction-guides-allguides.png "Juhendite haldamine")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Juhendi seostamine ressursirühmaga
 
@@ -178,7 +180,7 @@ Juhendi lisamiseks ressursirühmale tehke järgmist.
 1. Laiendage kiirkaart **Seotud juhendid**.
 1. Valige suvand **Lisa** tööribast **Seotud juhendid**. Ruudustikku lisatakse uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata. Kui teil on palju juhendeid, saate loendit filtreerida, et leida otsitav.
-    ![Juhendi lisamine ressursirühmale](media/instruction-guides-resourcegroup.png "Juhendi lisamine ressursirühmale")
+    ![Juhendi lisamine ressursirühmale.](media/instruction-guides-resourcegroup.png "Juhendi lisamine ressursirühmale")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Juhendi seostamine väljastatud tootega
 
@@ -198,7 +200,7 @@ Juhendi lisamiseks väljastatud tootele tehke järgmist.
 1. Teie valitud toote jaoks avaneb leht **Seotud juhendid**.
 1. Valige toimingupaanil suvand **Lisa**, et lisada ruudustikku uus rida. 
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata.
-    ![Juhendi lisamine väljastatud tootele](media/instruction-guides-ReleasedProduct-AddGuides.png "Juhendi lisamine väljastatud tootele")
+    ![Juhendi lisamine väljastatud tootele.](media/instruction-guides-ReleasedProduct-AddGuides.png "Juhendi lisamine väljastatud tootele")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Juhendi seostamine valemiga
 
@@ -223,7 +225,7 @@ Juhendi lisamiseks valemile tehke järgmist.
 1. Laiendage kiirkaart **Seotud juhendid**.
 1. Valige suvand **Lisa** tööribast **Seotud juhendid**. Ruudustikku lisatakse uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata.
-    ![Juhendi lisamine valemile](media/instruction-guides-Formula.png "Juhendi lisamine valemile")
+    ![Juhendi lisamine valemile.](media/instruction-guides-Formula.png "Juhendi lisamine valemile")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Juhendi seostamine valemi versiooniga
 
@@ -248,11 +250,11 @@ Juhendi lisamiseks valemi versioonile tehke järgmist.
 1. Avage vahekaart **Päis**, mis asub ülemise kiirkaardi kohal.
 1. Valige kiirkaardil **Valemi versioonid** versioon, millele soovite juhendit määrata.
 1. Valige tööriistaribal **Valemi versioonid** suvand **Seotud juhendid**.
-    ![Valitud valemi versiooniga seotud juhendite avamine](media/instruction-guides-FormulaVersion.png "Valitud valemi versiooniga seotud juhendite avamine")
+    ![Valitud valemi versiooniga seotud juhendite avamine.](media/instruction-guides-FormulaVersion.png "Valitud valemi versiooniga seotud juhendite avamine")
 1. Teie valitud valemi versiooni jaoks avaneb leht **Seotud juhendid**.
 1. Valige toimingupaanil suvand **Lisa**, et lisada ruudustikku uus rida. 
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata.
-    ![Juhendi lisamine valemi versioonile](media/instruction-guides-FormulaVersionAddGuide.png "Juhendi lisamine valemi versioonile")
+    ![Juhendi lisamine valemi versioonile.](media/instruction-guides-FormulaVersionAddGuide.png "Juhendi lisamine valemi versioonile")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Juhendi seostamine kooslusega
 
@@ -275,7 +277,7 @@ Juhendi lisamiseks kooslusele tehke järgmist.
 1. Laiendage kiirkaart **Seotud juhendid**.
 1. Valige suvand **Lisa** tööribast **Seotud juhendid**. Ruudustikku lisatakse uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata.
-    ![Juhendi lisamine kooslusele](media/instruction-guides-BOM.png "Juhendi lisamine kooslusele")
+    ![Juhendi lisamine kooslusele.](media/instruction-guides-BOM.png "Juhendi lisamine kooslusele")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Juhendi seostamine koosluse versiooniga
 
@@ -297,11 +299,11 @@ Juhendi lisamiseks koosluse versioonile tehke järgmist.
 1. Avage vahekaart **Päis**, mis asub ülemise kiirkaardi kohal.
 1. Valige kiirkaardil **Koosluse versioonid** versioon, millele soovite juhendit määrata.
 1. Valige tööriistaribal **Koosluse versioonid** suvand **Seotud juhendid**.
-    ![Valitud koosluse versiooniga seotud juhendite avamine](media/instruction-guides-BOMVersion.png "Valitud koosluse versiooniga seotud juhendite avamine")
+    ![Valitud koosluse versiooniga seotud juhendite avamine.](media/instruction-guides-BOMVersion.png "Valitud koosluse versiooniga seotud juhendite avamine")
 1. Teie valitud koosluse versiooni jaoks avaneb leht **Seotud juhendid**.
 1. Valige toimingupaanil suvand **Lisa**, et lisada ruudustikku uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata.
-    ![Juhendi lisamine koosluse versioonile](media/instruction-guides-BOMVersionAddGuide.png "Juhendi lisamine koosluse versioonile")
+    ![Juhendi lisamine koosluse versioonile.](media/instruction-guides-BOMVersionAddGuide.png "Juhendi lisamine koosluse versioonile")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Juhendi seostamine protsessiga
 
@@ -322,7 +324,7 @@ Juhendi lisamiseks protsessile tehke järgmist.
 1. Laiendage kiirkaart **Seotud juhendid**.
 1. Valige suvand **Lisa** tööribast **Seotud juhendid**. Ruudustikku lisatakse uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata.
-    ![Juhendi lisamine protsessile](media/instruction-guides-Route.png "Juhendi lisamine protsessile")
+    ![Juhendi lisamine protsessile.](media/instruction-guides-Route.png "Juhendi lisamine protsessile")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Juhendi seostamine protsessi versiooniga
 
@@ -340,11 +342,11 @@ Juhendi lisamiseks protsessi versioonile tehke järgmist.
 1. Avage protsess, millele soovite juhendit määrata.
 1. Valige kiirkaardil **Versioonid** versioon, millele soovite juhendit määrata.
 1. Valige tööriistaribal **Versioonid** suvand **Seotud juhendid**.
-    ![Valitud protsessi versiooniga seotud juhendite avamine](media/instruction-guides-RouteVersion.png "Valitud protsessi versiooniga seotud juhendite avamine")
+    ![Valitud protsessi versiooniga seotud juhendite avamine.](media/instruction-guides-RouteVersion.png "Valitud protsessi versiooniga seotud juhendite avamine")
 1. Teie valitud koosluse versiooni jaoks avaneb leht **Seotud juhendid**.
 1. Valige toimingupaanil suvand **Lisa**, et lisada ruudustikku uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** ripploendit, et valida juhend, mida soovite määrata.
-    ![Juhendi lisamine protsessi versioonile](media/instruction-guides-RouteVersionAddGuide.png "Juhendi lisamine protsessi versioonile")
+    ![Juhendi lisamine protsessi versioonile.](media/instruction-guides-RouteVersionAddGuide.png "Juhendi lisamine protsessi versioonile")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Juhendi seostamine protsessi toiminguseosega
 
@@ -367,8 +369,8 @@ Juhendi lisamiseks protsessi toiminguseosele tehke järgmist.
 1. Teie valitud protsessi jaoks avaneb leht **Protsessi üksikasjad**.
 1. Valige ülemises ruudustikus toiming, millele soovite juhiseid pakkuda.
 1. Valige alumises ruudustikus konkreetne seos (või üldine seos **Kõik**).
-    ![Toimingu ja seejärel seose valimine](media/instruction-guides-RouteOperationRelation.png "Toimingu ja seejärel seose valimine")
-1. Avage alumise ruudustiku kohal olev vahekaart **Seotud juhendid**.  ![Seotud juhendite vahekaart](media/instruction-guides-RouteOperationRelation-AddGuide.png "Seotud juhendite vahekaart")
+    ![Toimingu ja seejärel seose valimine.](media/instruction-guides-RouteOperationRelation.png "Toimingu ja seejärel seose valimine")
+1. Avage alumise ruudustiku kohal olev vahekaart **Seotud juhendid**. ![Seotud juhendite vahekaart.](media/instruction-guides-RouteOperationRelation-AddGuide.png "Seotud juhendite vahekaart")
 1. Valige alumise ruudustiku ülaosas olevalt tööriistaribalt suvand **Lisa**, et lisada ruudustikku uus rida.
 1. Uue rea puhul kasutage veerus **Nimi** olevat ripploendit, et valida juhend, mida soovite määrata. Märkige ülejäänud reas märkeruut iga konteksti puhul, kus valitud juhend peaks saadaval olema.
 
@@ -379,11 +381,11 @@ Juhendi lisamiseks protsessi toiminguseosele tehke järgmist.
 
 Kui töötaja avab tootmisjaoskonna käivitusliidesest tööde loendi, otsib rakendus Supply Chain Management üles asjaomased juhendid kuvatud tööde jaoks. Kasutage nuppu **Juhendid**, et vaadata asjakohaseid juhendeid.
 
-![Nupp „Juhendid” tootmisjaoskonna käivitusliideses](media/instruction-guides-Shopfloor1.png "Nupp „Juhendid” tootmisjaoskonna käivitusliideses")
+![Nupp „Juhendid” tootmisjaoskonna käivitusliideses.](media/instruction-guides-Shopfloor1.png "Nupp „Juhendid” tootmisjaoskonna käivitusliideses")
 
 Seejärel pange ette HoloLens ning avage asjakohane juhend, vaadates QR-koodi ja aktiveerides asjakohase juhendi.
 
-![QR-kood juhendite avamiseks HoloLensi abil](media/instruction-guides-Shopfloor2.png "QR-kood juhendite avamiseks HoloLensi abil")
+![QR-kood juhendite avamiseks HoloLens`i abil.](media/instruction-guides-Shopfloor2.png "QR-kood juhendite avamiseks HoloLensi abil")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Juhendite valimise loogika lahendamine
 
@@ -406,7 +408,7 @@ Kui rakendus Supply Chain Management loob tootmisjaoskonna jaoks töid, kogub se
 - Kui lisate protsessi versiooni tootmistellimusele, kuvatakse töö juures kõik selle versiooniga seotud juhendid ning samuti selle versiooni peaprotsessiga seotud juhendid.
 - Kui määratlete mitu protsessi toiminguseost, mis sisaldavad seost *Kõik*, ja määrate neile juhendid, kuvatakse töö juures ainult kõige täpsema seose juhendid.  
 
-![Asjakohaste juhendite lahendamise diagramm](media/instruction-guides-Resolve.png "Asjakohaste juhendite lahendamise diagramm")
+![Asjakohaste juhendite lahendamise diagramm.](media/instruction-guides-Resolve.png "Asjakohaste juhendite lahendamise diagramm")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

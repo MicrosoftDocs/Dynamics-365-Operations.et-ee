@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892429"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360732"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
@@ -35,7 +37,7 @@ Lisateavet raamatupidamisstandardite kohta leiate rahvusvaheliste raamatupidamis
 ## <a name="asset-leasing-elements"></a>Vara rentimise elemendid
 Järgmisel diagrammil on toodud rentimise protsessi peamised elemendid.
 
-[![Vara rentimise elemendid](./media/overview-01.png)](./media/overview-01.png)
+[![Vara rentimise elemendid.](./media/overview-01.png)](./media/overview-01.png)
 
 Renditav vara hõlmab järgmisi põhikomponente.
 
@@ -54,7 +56,7 @@ Vara rentimise funktsioon vastendab renditeavet, maksegraafikuid, algus- ja lõp
 
 Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut, rendi ja rendiraamatute klassifitseerimise teste ning vastavaid raamatupidamiskandeid.
 
-[![Rentimine, rendiraamat ja maksegraafik](./media/overview-02.png)](./media/overview-02.png)
+[![Rentimine, rendiraamat ja maksegraafik.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Rendiraamat** – rendiraamat sisaldab kogu rendilepingu teavet, nagu renditingimused, õiglane väärtus ja rendimaksed. See hõlmab ka raamatupidamisstandardit, mida te järgite, renditüüpi ja lävesid, mida arvestatakse rendi klassifikatsioonitestis. Rendiraamat sisaldab ka pearaamatusse sisestatud rendikandeid. 
   
@@ -117,7 +119,7 @@ Esimene periood algab nullist, kui annuiteedi tüüp on perioodieelne annuiteet.
 
 Klassifikatsioonitestid hõlmavad omandi üleminekut, ostuvalikut, rendiperioodi, praegust väärtust ja kordumatut vara. Järgmine diagramm illustreerib neid rendi klassifikatsiooniteste.
 
-[![Rendi klassifikatsioonitestid](./media/overview-03.png)](./media/overview-03.png)
+[![Rendi klassifikatsioonitestid.](./media/overview-03.png)](./media/overview-03.png)
 
 Iga rendi tüübi puhul on raamatupidamine eri rendikannete puhul erinev. Kannete hulka kuuluvad esialgne tuvastamine, intressikulu, tasumisele kuuluv rendimakse ja rendikulum ning need põhinevad teie järgitavatel raamatupidamisstandarditel (IFRS 16 või ASC 842). Pearaamatukontod määratletakse iga kandetüübi ja raamatupidamisraamistiku jaoks rendi sisestusreeglites.
 
@@ -232,7 +234,7 @@ Uue renditava vara loomiseks läbige järgmised etapid.
 
    Lehel **Maksegraafik** on loetletud rendi ID tulevased maksegraafikud. Valige **Kinnita graafik**, et saaksite sisestada **esialgse tuvastamise** kanded. 
 
-[![Esialgse tuvastamise funktsioon](./media/overview-13.png)](./media/overview-13.png)
+[![Esialgse tuvastamise funktsioon.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Valige **Esialgne tuvastamine**, et luua esialgse tuvastamise tööleht. 
 
@@ -246,7 +248,7 @@ Uue renditava vara loomiseks läbige järgmised etapid.
 
    Lehel **Vara kulumigraafik** kuvatakse valitud rendi ID kulumikanded. 
 
-   [![Kasutamisõiguse esemeks olev vara kande leht](./media/overview-20.png)](./media/overview-20.png)
+   [![Kasutamisõiguse esemeks olev vara kande leht.](./media/overview-20.png)](./media/overview-20.png)
 
    Lehel **Kasutamisõiguse esemeks olev vara** loetletakse esialgne tuvastamine, akumuleerunud kulum ja vara saldo. 
 

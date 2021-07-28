@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897764"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356699"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
@@ -33,18 +33,18 @@ Olemasoleva funktsiooniga finantstöölehtede jaoks (üldine tööleht, põhivar
 
 - Seadistage töölehe nimi (**Pearaamat** \> **Töölehe seadistus** \> **Töölehe nimed**), nii et välja **Uus kanne** väärtus oleks **Ainult üks kande number**. Iga töölehele lisatud rida lisatakse nüüd samale kandele. Seetõttu saab kande sisestada mitmerealise kandena, konto/vastaskonto samal real või kombinatsioonina.
 
-    [![Üks rida](./media/same-line.png)](./media/same-line.png)
+    [![Üksik rida.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > Sätte Üks kanne definitsioon **ei** kata juhtumeid, kus töölehe nimed seadistatakse valikule **Üks kande number**, kuid kasutaja sisestab seejärel kande, mis sisaldab ainult pearaamatukonto tüüpe. Selles teemas tähendab Üks kanne, et olemas on üks kanne, mis sisaldab rohkem kui üht hankijat, klienti, panka, põhivara või projekti.
 
 - Sisestage mitmerealine kanne, kus vastaskonto puudub.
 
-    [![Mitmerealine kanne](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Mitmerealine kviitung.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Sisestage kanne, kus nii konto kui ka vastaskonto sisaldavad alampearaamatu konto tüüpi, näiteks **Hankija**/**Hankija**, **Klient**/**Klient**, **Hankija**/**Klient**, või **Pank**/**Pank**.
 
-    [![Alampearaamatu kanne](./media/subledger.png)](./media/subledger.png)
+    [![Alampearaamatu kviitung.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Ühe kande probleemid
 
@@ -52,11 +52,11 @@ Olemasoleva funktsiooniga finantstöölehtede jaoks (üldine tööleht, põhivar
 
 Näiteks sisestate järgmise kande.
 
-[![Mitmerealise kande näide](./media/example.png)](./media/example.png)
+[![Mitmerealise kviitungi näide.](./media/example.png)](./media/example.png)
 
 Seejärel loote aruande **Kulud hankija järgi** tööruumi **Finantsülevaated**. Selles aruandes grupeeritakse kulukonto saldo hankijagrupi ja seejärel hankija järgi. Kui aruanne on loodud, ei suuda süsteem määrata, millised hankijagrupid/hankijad sisestasid kulu 250.00. Kuna kande üksikasjad on puudu, eeldab süsteem, et kogu 250.00 kulu on sisestanud esimene kandes leiduv hankija. Seega kuvatakse see 250.00 kulu, mis sisaldub põhikonto 600120 saldol, selle hankijagrupi/hankija all. Kuid on väga tõenäoline, et kande esimene hankija ei ole õige hankija. Seetõttu on aruanne ilmselt vale.
 
-[![Kulud hankija aruande järgi](./media/expenses.png)](./media/expenses.png)
+[![Kulud hankija aruande järgi.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Ühe kande tulevik
 

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809586"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360444"
 ---
 # <a name="arrival-overview"></a>Saabumise ülevaade
 
@@ -34,7 +36,7 @@ Leht **Saabumisülevaade** annab ülevaate kõikide eeldatute sissetulevate kaup
 ## <a name="business-scenario"></a>Äristsenaarium
 Kaaluge järgmist sissetulevate protsesside stsenaariumit.
 
-[![Äristsenaarium](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Äristsenaarium.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Vastuvõtuametnik Sammy soovib teada, mille saabumist eeldatakse jooksval päeval. Lehel **Saabumisülevaate** näeb Sammy praeguste ülesannete ülevaadet ja ligikaudset hinnangut tellimuste koguse, mahu, kaalu, tüübi ja muude kohta. Hiljem saabub saabumisalale tarne ja Sammy saab tarne loendi. Lehel **Saabumisülevaade** saab Sammy sooritada järgmisi toiminguid.
 
@@ -66,7 +68,7 @@ Saabumistöölehtede automaatseks loomiseks lehelt **Saabumisülevaade** peate m
 
 -   Töölehe loomiseks peate määrama töölehele nime.
 
-[![Töölehe nime määramine](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Töölehe nime määramine.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Kui määrate väärtuseid väljadel **Ladu** ja **Asukoht**, siis need väärtused rakendatakse töölehe ridadele. Kui te ei määra väärtusi, siis kasutab süsteem väärtusi dimensioonist, mis on määratud laokannetel.
 

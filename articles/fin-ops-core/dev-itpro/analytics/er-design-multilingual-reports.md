@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: 48e54c0f7d4bd1b4e1661a5bd1d4c11fd9cec986
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951981"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351117"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
@@ -54,11 +54,11 @@ ER-i andmemudeli, ER-i mudelivastenduse või ER-i vormingu loomisel kuvatakse su
 
 Järgmisel illustratsioonil on näha, kuidas toimib tõlkimine muudetavas ER-i andmemudelis. Selles näites on muudetava **Arve mudeli** välja **PurchaseOrder** atribuut **Kirjeldus** tõlgitud Austria saksa (DE-AT) ja jaapani (JA) keelde.
 
-![ER-i sildi tõlkimine ER-i andmemudeli kujundajas](./media/er-multilingual-labels-refer.png)
+![ER-i sildi tõlkimine ER-i andmemudeli kujundajas.](./media/er-multilingual-labels-refer.png)
 
 Tõlkida saab ainult selliste siltide teksti, mis asuvad muudetavas ER-i komponendis. Näiteks kui valite ER-i mudelivastenduse andmeallikas oleva sildiatribuudi puhul suvandi **Tõlgi** ning valite seejärel ER-i emaandmemudelis oleva ER-i sildi, näete te sildi sisu, aga ei saa seda muuta. Sellistel juhtudel pole väli **Tõlgitud tekst** kättesaadav, nagu on näidatud järgmisel illustratsioonil.
 
-![ER-i sildi tõlke ülevaatamine ER-i mudelivastenduse kujundajas](./media/er-multilingual-labels-refer-mapping.png)
+![ER-i sildi tõlke ülevaatamine ER-i mudelivastenduse kujundajas.](./media/er-multilingual-labels-refer-mapping.png)
 
 > [!NOTE]
 > Te ei saa kasutada kujundajaid, et kustutada silt, mis on sisestatud muudetavasse ER-i komponenti.
@@ -71,19 +71,19 @@ ER-i siltidele saab viidata ER-i komponentide mitmes tõlgitavas atribuudis.
 
 ER-i andmemudeli konfigureerimisel saate sellele lisada ER-i silte. ER-i andmemudelisse lisatava ER-sildiga saab siduda mudeliüksuse atribuute **Silt** ja **Kirjeldus**, iga mudeli välju ja iga <a id="LinkModelEnum"></a>mudeli loendamisväärtust.
 
-![Kirjeldusatribuudi tõlkimine ER-i andmemudeli kujundajas](./media/er-multilingual-labels-refer.png)
+![Kirjeldusatribuudi tõlkimine ER-i andmemudeli kujundajas.](./media/er-multilingual-labels-refer.png)
 
 Kui ER-i andmemudel konfigureeritakse sel viisil, esitatakse selle sisu ER-i andmemudeli kujundaja kasutajatele nende eelistatud keeles. Seetõttu on mudeli haldamine lihtsam. Järgmistel illustratsioonidel on näha, kuidas see funktsioon töötab kasutajate puhul, kelle eelistatud keeleks on seatud DE-AT ja JA.
 
-![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks DE-AT](./media/er-multilingual-labels-refer-de.png)
+![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks DE-AT.](./media/er-multilingual-labels-refer-de.png)
 
-![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks JA](./media/er-multilingual-labels-refer-ja.png)
+![ER-i andmemudeli kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks JA.](./media/er-multilingual-labels-refer-ja.png)
 
 ### <a name="model-mapping-component"></a>Mudelivastenduse komponent
 
 Kuna ER-i mudelivastendus põhineb ER-i andmemudelil, siis esitatakse viidatud andmemudeli elementide sildid mudelivastenduse kujundajas kasutaja eelistatud keeles. Järgmisel illustratsioonil on näha, kuidas selgitatakse muudetavas mudelivastenduses välja **PurchaseOrder** tähendust konfigureeritud andmemudelisse lisatud atribuudi **Kirjeldus** sildi abil. Pange tähele, et silt on esitatud kasutaja eelistatud keeles (selles näites DE-AT).
 
-![ER-i mudelivastenduse kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks DE-AT](./media/er-multilingual-labels-show-mapping.png)
+![ER-i mudelivastenduse kujundaja paigutus kasutaja puhul, kes on määranud eelistatud keeleks DE-AT.](./media/er-multilingual-labels-show-mapping.png)
 
 Kui andmeallika **Kasutaja sisendparameeter** atribuut **Silt** on konfiguratsioonis seotud ER-i sildiga, esitatakse sellele andmeallikale vastav parameetriväli käitusajal kasutaja dialoogiboksis kasutaja eelistatud keeles.
 
@@ -100,21 +100,21 @@ Kuna ER-i vorming põhineb ER-i andmemudelil, siis esitatakse andmemudeli elemen
 
 Kui andmeallika **Kasutaja sisendparameeter** atribuut **Silt** on seotud ER-i sildiga, esitatakse parameetrile vastav väli käitusajal kasutaja dialoogiboksis viibana. Järgmistel illustratsioonidel on näha, kuidas siduda andmeallika **Kasutaja sisendparameeter** atribuut **Silt** kujundamise ajal ER-sildiga, et kasutajatelt küsitaks parameetrit käitusajal eri kasutaja eelistatud keeltes (näitena on toodud Ameerika Ühendriikide inglise (EN-US) keel ja keel DE-AT).
 
-![Kasutaja sisendparameetri atribuutide tõlkimine ER-i toimingute kujundajas](./media/er-multilingual-labels-refer-format.png)
+![Kasutaja sisendparameetri atribuutide tõlkimine ER-i toimingute kujundajas.](./media/er-multilingual-labels-refer-format.png)
 
-![ER-i hankija makse töötlemine käitusajal kasutaja eelistatud keeles EN-US](./media/er-multilingual-labels-show-runtime-en.png)
+![ER-i hankija makse töötlemine käitusajal kasutaja eelistatud keeles EN-US.](./media/er-multilingual-labels-show-runtime-en.png)
 
-![ER-i hankija makse töötlemine käitusajal kasutaja eelistatud keeles DE-AT](./media/er-multilingual-labels-show-runtime-de.png)
+![ER-i hankija makse töötlemine käitusajal kasutaja eelistatud keeles DE-AT.](./media/er-multilingual-labels-show-runtime-de.png)
 
 ### <a name="expressions"></a>Avaldised
 
 Sildi kasutamiseks ER-i [avaldises](er-formula-language.md) peate kasutama süntaksit **@"GER\_LABEL:X"**, kus eesliide **@** näitab, et operand viitab sildile, **GER\_LABEL** näitab, et kaasatud on ER-i silt, ja **X** on ER-sildi ID.
 
-![Viidet ER-i sildile sisaldava ER-i avaldise konfigureerimine ER-i vormingu kujundajas](./media/er-multilingual-labels-expression1.png)
+![Viidet ER-i sildile sisaldava ER-i avaldise konfigureerimine ER-i vormingu kujundajas.](./media/er-multilingual-labels-expression1.png)
 
 Süsteemi (rakenduse) sildile viitamiseks kasutage süntaksit **@"X"**, kus eesliide **@** näitab, et operand viitab sildile, ja **X** on süsteemi sildi ID.
 
-![Viidet rakenduse sildile sisaldava ER-i avaldise konfigureerimine ER-i vormingu kujundajas](./media/er-multilingual-labels-expression2.png)
+![Viidet rakenduse sildile sisaldava ER-i avaldise konfigureerimine ER-i vormingu kujundajas.](./media/er-multilingual-labels-expression2.png)
 
 #### <a name="model-mapping"></a>Mudeli vastendamine
 
@@ -126,19 +126,19 @@ Kui viidatud sildil ei ole mudelivastendust kasutava vormingu käivitamise konte
 
 ER-i vormingu ER-i avaldist saab konfigureerida siltide abil. Kui see vorming käivitatakse väljamineva dokumendi loomiseks, sisaldab käivitamise kontekst keelekoodi. Konfigureeritud avaldise silt täidetakse sildi tekstiga, mis on konfigureeritud selle konteksti keele jaoks.
 
-![Muudetava ER-i avaldise ER-i sildi tõlkimine ER-i vormingu kujundajas](./media/er-multilingual-labels-refer-in-expression.png)
+![Muudetava ER-i avaldise ER-i sildi tõlkimine ER-i vormingu kujundajas.](./media/er-multilingual-labels-refer-in-expression.png)
 
-![ER-i sildile viitava andmeseose näide ER-i toimingute kujundajas](./media/er-multilingual-labels-refer-in-binding.png)
+![ER-i sildile viitava andmeseose näide ER-i toimingute kujundajas.](./media/er-multilingual-labels-refer-in-binding.png)
 
 Aruande loomiseks kasutaja eelistatud keeles saate konfigureerida ER-i vormingu komponendi **FAIL**.
 
-![ER-i toimingute kujundajas komponendi FAIL seadistamine aruande loomiseks kasutaja eelistatud keeles](./media/er-multilingual-labels-language-context-user.png)
+![ER-i toimingute kujundajas komponendi FAIL seadistamine aruande loomiseks kasutaja eelistatud keeles.](./media/er-multilingual-labels-language-context-user.png)
 
 Kui konfigureerite ER-i vormingu sel viisil, luuakse aruanne ER-i siltidest võetud sobiva teksti põhjal. Järgmistel illustratsioonidel on näha aruannete näited kasutaja keeltes EN-US ja DE-AT.
 
-![Aruande eelvaade, mis on loodud kasutaja eelistatud keeles EN-US](./media/er-multilingual-labels-report-preview-en.png)
+![Aruande eelvaade, mis on loodud kasutaja eelistatud keeles EN-US.](./media/er-multilingual-labels-report-preview-en.png)
 
-![Aruande eelvaade, mis on loodud kasutaja eelistatud keeles DE-AT](./media/er-multilingual-labels-report-preview-de.png)
+![Aruande eelvaade, mis on loodud kasutaja eelistatud keeles DE-AT.](./media/er-multilingual-labels-report-preview-de.png)
 
 Kui viidatud sildil ei ole vormingu käivitamise konteksti keele jaoks tõlget, kasutatakse selle asemel sildi teksti keeles EN-US.
 
@@ -148,16 +148,16 @@ ER toetab eri viise, kuidas määrata loodud aruande keel. Saate valida vahekaar
 
 - **Ettevõtte eelistus** – looge aruanne ettevõtte määratud keeles.
 
-    ![Ettevõtte eelistatud keele määramine loodud aruande keeleks ER-i toimingute kujundajas](./media/er-multilingual-labels-language-context-company.png)
+    ![Ettevõtte eelistatud keele määramine loodud aruande keeleks ER-i toimingute kujundajas.](./media/er-multilingual-labels-language-context-company.png)
 
 - **Kasutaja eelistus** – looge aruanne kasutaja eelistatud keeles.
 - **Selgelt määratletud** – looge aruanne keeles, mis määratakse kujundamise ajal.
 
-    ![Kujundamise ajal määratletud keele määramine loodud aruande keeleks ER-i toimingute kujundajas](./media/er-multilingual-labels-language-context-fixed.png)
+    ![Kujundamise ajal määratletud keele määramine loodud aruande keeleks ER-i toimingute kujundajas.](./media/er-multilingual-labels-language-context-fixed.png)
 
 - **Käitusajal määratletud** – looge aruanne keeles, mis määratakse käitusajal. Kui valite selle väärtuse, konfigureerige väljal **Keel** ER-i avaldis, mis tagastab keele koodi, nt vastava kliendi keel.
 
-    ![ER-i toimingute kujundajas käitusajal määratletud keele määramine loodud aruande keeleks](./media/er-multilingual-labels-language-context-runtime.png)
+    ![ER-i toimingute kujundajas käitusajal määratletud keele määramine loodud aruande keeleks.](./media/er-multilingual-labels-language-context-runtime.png)
 
 ## <a name="culture-specific-formatting"></a>Kultuuripõhine vormindamine
 
@@ -165,15 +165,15 @@ ER toetab erinevaid viise, kuidas määrata loodud aruande kultuuri. Seetõttu s
 
 - **Kasutaja eelistus** – vormindage väärtused vastavalt kasutaja eelistatud kultuurile. See kultuur on määratletud **kasutaja suvandite** lehe vahekaardi **Eelistused** väljal **Kuupäev, kellaaeg ja numbrivorming**.
 
-    ![Kasutaja eelistatud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks](./media/er-multilingual-labels-culture-context-user-preferred.png)
+    ![Kasutaja eelistatud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks.](./media/er-multilingual-labels-culture-context-user-preferred.png)
 
 - **Eraldi määratletud** – vormindage väärtused vastavalt kujunduse jooksul määratud kultuurile.
 
-    ![DIsaini ajal määratud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks](./media/er-multilingual-labels-culture-context-fixed.png)
+    ![Disaini ajal määratud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks.](./media/er-multilingual-labels-culture-context-fixed.png)
 
 - **Käitusajal määratletud** – vormindage väärtused vastavalt käitusaja jooksul määratud kultuurile. Kui valite selle väärtuse vahekaardi **Vastendamine** väljal **Kuupäev, kellaaeg ja numbrivorming**, konfigureerige ER-avaldis, mis tagastab kultuuri koht kultuurikoodi, nt vastava kliendi kultuuri.
 
-    ![Käituse ajal määratud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks](./media/er-multilingual-labels-culture-context-runtime.png)
+    ![Käituse ajal määratud kultuuri määratlemine ER-i toimingukujundajas loodud aruande kultuuriks.](./media/er-multilingual-labels-culture-context-runtime.png)
 
 > [!NOTE]
 > ER-i komponent, mille jaoks määratlete kindla kultuuri, võib sisaldada tütar-ER-komponente, mis on konfigureeritud tekstiväärtuse sisestamiseks. Vaikimisi kasutatakse emakomponendi kultuuri nende komponentide väärtuste vormindamiseks. Järgmiste sisseehitatud ER-funktsioonide abil saate konfigureerida nende komponentide seoseid ja rakendada väärtuse vormindamiseks alternatiivset kultuuri:
@@ -196,19 +196,19 @@ Kui lisate **Teksti tõlkimise** [paanil](#TextTranslationPane) ER-i sildi, saat
 
 ER-i komponente konfigureeritakse sellise ER-i konfiguratsiooni mustandiversioonis, milles asub muudetav ER-i komponent.
 
-![ER-i konfiguratsioonide leht, mis annab juurdepääsu mustandi olekus konfiguratsiooni versioonile](./media/er-multilingual-labels-configurations.png)
+![ER-i konfiguratsioonide leht, mis annab juurdepääsu mustandi olekus konfiguratsiooni versioonile.](./media/er-multilingual-labels-configurations.png)
 
 Nagu selles teemas eespool kirjeldatud, saate lisada muudetavale ER-i komponendile vajalikud ER-i sildid. Sel viisil saate täpsustada ER-i siltide teksti keeles EN-US. Seejärel saate eksportida ER-i komponendi sildid sisseehitatud ER-i funktsiooni abil. Valige muudetavat ER-i komponenti sisaldava ER-i konfiguratsiooni mustandiversioon ja valige seejärel **Vahetus \> Ekspordi sildid**.
 
-![ER-i konfiguratsioonide leht, mis võimaldab eksportida ER-i silte valitud konfiguratsiooni versioonist](./media/er-multilingual-labels-export.png)
+![ER-i konfiguratsioonide leht, mis võimaldab eksportida ER-i silte valitud konfiguratsiooni versioonist.](./media/er-multilingual-labels-export.png)
 
 Saate eksportida kas kõik sildid või sildid ühe keele jaoks, mille määrate ekspordi alguses. Sildid eksporditakse ZIP-failina, mis sisaldab XML-faile. Iga XML-fail sisaldab silte ühe keele jaoks.
 
-![Eksporditava faili näidis, mis sisaldab ER-i silte keele DE-AT jaoks](./media/er-multilingual-labels-in-xml.png)
+![Eksporditava faili näidis, mis sisaldab ER-i silte keele DE-AT jaoks.](./media/er-multilingual-labels-in-xml.png)
 
 Seda vormingut kasutatakse siltide automaatseks tõlkimiseks välise tõlketeenuse abil, nt [Dynamics 365 Translation Service](../lifecycle-services/translation-service-overview.md). Tõlgitud siltide kättesaamisel saate need importida tagasi sellise ER-i konfiguratsiooni mustandiversiooni, mis sisaldab neid silte omavaid ER-i komponente. Valige muudetavat ER-i komponenti sisaldava ER-i konfiguratsiooni mustandiversioon ja valige **Vahetus \> Laadi sildid**.
 
-![ER-i konfiguratsioonide leht, mis võimaldab importida ER-i silte valitud konfiguratsiooni versiooni](./media/er-multilingual-labels-load.png)
+![ER-i konfiguratsioonide leht, mis võimaldab importida ER-i silte valitud konfiguratsiooni versiooni.](./media/er-multilingual-labels-load.png)
 
 Tõlgitud sildid imporditakse valitud ER-i konfiguratsiooni. Selles ER-i konfiguratsioonis leiduvad tõlgitud sildid asendatakse. Kui ER-i konfiguratsioonis pole mõnda tõlgitud silti, siis see lisatakse.
 

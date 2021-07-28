@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: cf82abbe5493eac9665323738441fa016205e9ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295814"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355003"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) – RCS-keskkonna kustutamine
 
@@ -38,11 +38,11 @@ Enne selles teemas kirjeldatud protseduuri lõpetamist peavad täidetud olema j�
 1. Avage RCS ja valige **Elektroonilise aruandluse** tööruumi paan.
 2. Jaotises **Seotud lingid** valige suvand **Kustuta RCS-keskkond**.
 
-    ![Kustutage RCS-i keskkonna link jaotisest Seotud lingid](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![Kustutage RCS-i keskkonna link jaotisest Seotud lingid.](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. Kuvatavas dialoogiboksis vaadake üle sõnumid keskkonna kustutamise ulatuse kohta.
 
-    ![Teated dialoogiaknas RCS keskkonna kustutamine](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![Teated dialoogiaknas RCS keskkonna kustutamine.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > RCS-keskkonna kustutamist ei saa tühistada.

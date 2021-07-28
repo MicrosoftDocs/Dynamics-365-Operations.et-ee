@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800659"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351196"
 ---
 # <a name="set-up-a-call-center-channel"></a>Kõnekeskuse kanali häälestus
 
@@ -54,11 +54,11 @@ Uue kõnekeskuse kanali loomiseks ja konfigureerimiseks toimige järgmiselt.
 
 Järgmine pilt näitab uue kõnekeskuse kanali loomist.
 
-![Uus kõnekeskuse kanal](media/channel-setup-callcenter-1.png)
+![Uus kõnekeskuse kanal.](media/channel-setup-callcenter-1.png)
 
 Järgmine pilt näitab kõnekeskuse kanali näidet.
 
-![Kõnekeskuse kanali näide](media/channel-setup-callcenter-2.png)
+![Kõnekeskuse kanali näide.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Täiendava kanali seadistamine
 
@@ -66,7 +66,7 @@ Kõnekeskuse kanali häälestamiseks nõutavad täiendavad toimingud hõlmavad m
 
 Järgmine pilt näitab seadistuste **Tarneviisid** ja **Makseviisid** suvandeid vahekaardil **Seadistus**.
 
-![Täiendavad kõnekeskuse kanali seadistamise toimingud](media/channel-setup-callcenter-3.png)
+![Täiendavad kõnekeskuse kanali seadistamise toimingud.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Seadistada maksemeetodid
 
@@ -81,7 +81,7 @@ Kõigi selles kanalis toetatud maksetüüpide makseviiside seadistamiseks toimig
 
 Järgmine pilt näitab sularaha makseviisi näidet.
 
-![Makseviiside näited](media/channel-setup-callcenter-payments.png)
+![Makseviiside näited.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Tarneviiside häälestamine
 
@@ -97,7 +97,7 @@ Selleks, et muuta või lisada tarneviis, mis on seotud kõnekeskuse kanaliga, to
 
 Järgmine pilt näitab tarneviisi näidet.
 
-![Tarneviiside häälestamine](media/channel-setup-retail-7.png)
+![Tarneviiside häälestamine.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Kanali kasutajate seadistamine
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: bdb90f8d629a026a84f8c65e7e95b589169a3e4d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a9e5204c2bb9c0a58b2e4e223a4a3d2d09d53659
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752332"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356259"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Konfiguratsioonivõtmed ja andmeüksused
 
@@ -52,24 +52,24 @@ Järgmises tabelis antakse ülevaade, kuidas objektile aluseks olevate eri artef
 ### <a name="entity-list-refresh"></a>Üksuste loendi värskendamine
 Üksuse loendi värskendamisel loob andmehaldusraamistik konfiguratsioonivõtme metaandmed käitusajal kasutamiseks. Metaandmed luuakse ülalkirjeldatud loogikat kasutades. Soovitame enne andmehaldusraamistikus tööde ja üksuste kasutamist tungivalt oodata üksuste loendi värskendamise lõpetamiseni. Kui te ei oota, ei pruugi konfiguratsioonivõtme metaandmed olla ajakohastatud, mis võib põhjustada ootamatuid tulemusi. Üksuste loendi värskendamisel kuvatakse üksuste loendi lehel järgmine teade.
 
-![Üksuste loendi värskendamine](./media/Entity_refresh_list.png)
+![Üksuste loendi värskendamine.](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Andmeüksuste loendi leht
 Andmeüksuste loendi leht tööruumis Andmehaldus näitab üksuste konfiguratsioonivõtme sätteid. Konfiguratsioonivõtmete mõju mõistmiseks andmeüksustele alustage sellelt lehelt.
 
 See teave kuvatakse üksuse värskendamise ajal loodud metaandmete abil. Konfiguratsioonivõtme veerus kuvatakse andmeüksusega seostatud konfiguratsioonivõtme nimi. Kui see veerg on tühi, tähendab see, on andmeüksusega pole konfiguratsioonivõtit seostatud. Konfiguratsioonivõtme oleku veerus kuvatakse konfiguratsioonivõtme olek. Kui see on märgitud, tähendab see, et võti on lubatud. Kui see on tühi, tähendab see, et võti on keelatud või võtit ei ole seostatud.
 
-![Üksuste loendi leht](./media/Data_entity_list_page.png)
+![Üksuste loendi leht.](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Sihtväljad
 Järgmiseks sammuks andmeteüksusesse süvitsiminek konfiguratsioonivõtmete mõju vaatamiseks tabelitele ja väljadele. Andmeüksuse sihtväljade vorm näitab andmeüksuses seotud tabelite ja väljade konfiguratsioonivõtme ja võtme oleku teavet. Kui andmeüksus ise on oma konfiguratsioonivõtme keelanud, kuvatakse hoiatusteade, et selle üksuse sihtväljade vormi tabelid ja väljad ei ole sõltumata nende konfiguratsioonivõtme olekust üldse saadaval.
 
-![Sihtväljad](./media/Target_fields_1.png)
+![Sihtväljad.](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Tütarüksused 
 Teatud üksustel on andmeallikatena teisi üksuseid või need on liit-andmeüksused; nende üksuste konfiguratsioonivõtme teave kuvatakse alamüksuse vormil. Seda vormi saate kasutada samal viisil nagu ülal kirjeldatud üksusteloendi lehte. Alamüksuse sihtväljad käituvad samuti ülal kirjeldatud viisil.
 
-![Sihtväljad](./media/Target_fields_2.png)
+![Sihtväljad.](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Andmeüksuste kasutamine
 Pärast konfiguratsioonivõtmete täieliku mõju mõistmist andmeüksustele, mida soovite kasutada, saate jätkata andmeüksuste kasutamist, lisades neid andmeprojektidele. 
@@ -91,7 +91,7 @@ Pärast konfiguratsioonivõtmete täieliku mõju mõistmist andmeüksustele, mid
 ### <a name="managing-configuration-key-changes"></a>Konfiguratsioonivõtme muudatuste haldamine
 Konfiguratsioonivõtmete värskendamisel üksuse, tabeli või välja tasemel tuleb värskendada andmehaldusraamistiku üksuste loendit. See tagab, et raamistik komplekteerib konfiguratsioonivõtme uusimad sätted. Kuni üksuste loendit värskendatakse, kuvatakse üksuste loendi lehel järgmine hoiatus. Värskendatud konfiguratsioonivõtme muudatused jõustuvad kohe pärast üksuste loendi värskendamist. Soovitame olemasoleva andmeprojektid ja tööd kinnitada, veendumaks et need toimiksid pärast konfiguratsioonivõtmete muudatuste rakendamist õigesti.
 
-![Sihtväljad](./media/Target_fields_3.png)
+![Sihtväljad.](./media/Target_fields_3.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

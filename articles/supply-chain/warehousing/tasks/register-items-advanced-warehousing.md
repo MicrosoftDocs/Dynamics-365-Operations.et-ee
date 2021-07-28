@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830830"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357998"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
 
@@ -53,14 +53,14 @@ Järgnev stsenaarium näitab, kuidas luua saabuva kauba töölehe päist, mis ka
 1. Määrake **Konto number** väärtuseks *1001*.
 1. Määrake **Number** selle ostutellimuse numbrile, mille selle teostamistaotluse puhul määratlete.
 
-    ![Saabuva kauba tööleht](../media/item-arrival-journal-header.png "Saabuva kauba tööleht")
+    ![Saabuva kauba tööleht.](../media/item-arrival-journal-header.png "Saabuva kauba tööleht")
 
 1. Valige töölehe päise loomiseks **OK**.
 1. Valige jaotises **Töölehe read** suvand **Lisa rida** ja sisestage järgmised andmed.
     - **Kauba number** – määrake väärtuseks *M9200*. **Piirkond**, **Ladu** ja **Kogus** seatakse 10 kaubaaluse laokande andmete põhjal (1000 ea.).
     - **Asukoht** – seadistage väärtuseks *001*. See konkreetne asukoht ei jälgi litsentsiplaate.
 
-    ![Kauba saabumistöölehtede rida](../media/item-arrival-journal-line.png "Kauba saabumistöölehtede rida")
+    ![Kauba saabumistöölehtede rida.](../media/item-arrival-journal-line.png "Kauba saabumistöölehtede rida")
 
     > [!NOTE]
     > Väli **Kuupäev** määratleb kuupäeva, millal selle kauba vaba kaubavaru kogus laos registreeritakse.  

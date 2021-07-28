@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053391"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357285"
 ---
 # <a name="integration-with-finance-faq"></a>Finance’i KKK-ga integreerimine
 
@@ -37,7 +37,7 @@ Nr Kui redigeerite rakenduse Human Resources kasutajat, võib integreerimine rak
 | --- | --- | --- | --- |
 | Dynamics365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Rakenduse Talent kasutaja vaikesätted](media/DynamicsApplicationUser.png)
+![Rakenduse Talent kasutaja vaikesätted.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Kas sünkroonitakse kõik andmed või ainult mõned andmeüksused?
 
@@ -57,7 +57,7 @@ Finantsdimensioonid puuduvad praegu teenusest Dataverse ja seetõttu ei ole need
 
 Andmete puhul, mis on olemas rakenduses Finance, kuid puuduvad rakendusest Human Resources, linkige kaks süsteemi kokku, kasutades Human Resourcesi funktsiooni **Linkide konfigureerimine**.
 
-![Finantsdimensioonide vastendamine](media/MapFinancialDimensions.png)
+![Finantsdimensioonide vastendamine.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Töövõtjate importimisel liiguvad need mõnikord rakenduses Finance passiivsete töötajate loendisse. Miks?
 
@@ -71,14 +71,14 @@ Andmete sünkroonimine järgib käivitusgraafikut. Integratsioon valib kirje, ku
 
 Kasutades täpsemat päringut, saate lähteandmeid filtreerida ja ümber kujundada, enne kui edastate need sihtkohta.
 
-![Aktiivsete töötajate täpsem päring](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Aktiivsete töötajate täpsem päring.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kas saan määrata, millised väljad saadetakse rakendusse Finance kindla üksuse puhul?
 
 Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse Dataverse tabelis olemas, ei asustata rakendusest Human Resources.
 Lisaandmeid saab asustada Power Appsi kaudu.
 
-![Integratsiooniülesandele väljade lisamine ja nende eemaldamine](media/SpecifyFieldsIncludedInIntegration.png)
+![Integratsiooniülesandele väljade lisamine ja nende eemaldamine.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Seadistan integratsiooni pakett-tööna, kuid rakendusel Human Resources kadus ühendus sihtsüsteemiga. Kuidas saata sihtsüsteemi sama muudatuste kogum?
 
@@ -126,21 +126,21 @@ Jälgige aega andmeintegraatori käivitusajaloost ja leidke rakenduses Finance p
 
 1. Märkige üles ülesande indeks andmeintegraatorist (selles näites 9).
 
-    ![Andmeintegraatorist ülesande indeksi ülesmärkimine](media/CaptureTaskIndex.png)
+    ![Andmeintegraatorist ülesande indeksi ülesmärkimine.](media/CaptureTaskIndex.png)
 
 2. Jälgige projekti käivitusaega.
 
-    ![Projekti käivitusaja jälgimine](media/CaptureTimeOfExecution.png)
+    ![Projekti käivitusaja jälgimine.](media/CaptureTimeOfExecution.png)
 
 3. Finantsis määratlege indeks -1. Selles näites vastab projekt järelliitega 8 ja projekti indeksiga 0 käivitusaeg etapis 2 näidatud käivitusajale.
 
-    ![Indeksi tuvastamine](media/IdentifyIndex.png)
+    ![Indeksi tuvastamine.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Pärast rakenduste Human Resources ja Finance integreerimist ei näe ma Human Resourcesi andmeid Finance’is. Mida teha?
 
 Integratsioon rakendusse Finance on kaheetapiline protsess. Esmalt kontrollige, kas rakenduse Human Resources andmed on värskendatud ja teenuses Dataverse saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida Power Appsis, vaadates andmetabelites olevaid andmeid.
 
-![Andmed teenuses Dataverse](media/DataInCDS.png)
+![Andmed teenuses Dataverse.](media/DataInCDS.png)
 
 Kui andmeid ei kuvata teenuses Dataverse oodatud viisil, siis kontrollige, kas integratsioon toetab üksust. Teenuse Dataverse lisaandmete kaasamiseks on vajalik muudatus Microsofti poolel.
 
@@ -165,7 +165,7 @@ Veenduge ka, et valiksite seostatud ühendusekogumi jaoks õiged juriidilised is
 
 Värskendage andmeüksuseid rakenduses Finance, minnes jaotisse **Andmehaldus \> Raamistiku parameetrid \> Üksuse sätted \> Värskenda üksuste loendit.** Selle lõpuleviimiseks kulub mõni minut, seejärel peaksite neid vastendusi nägema. See probleem ilmneb uute projektide loomisel.
 
-![Puuduv väljavastendus](media/MissingFieldMapping.png)
+![Puuduv väljavastendus.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

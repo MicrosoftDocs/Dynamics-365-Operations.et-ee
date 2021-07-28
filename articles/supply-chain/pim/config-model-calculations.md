@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829614"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356412"
 ---
 # <a name="product-configuration-model-calculations"></a>Toote konfiguratsioonimudeli arvutamise
 
@@ -70,7 +70,7 @@ Selles näites kasutatakse `textFixedList` sihtatribuudina tekstiatribuudi. See 
 
 Järgmine kuvatõmmis näitab, kuidas selle atribuudi sätted teie süsteemis võidakse kuvada.
 
-![Atribuudi tüübi sätted, näiteks 2](media/model-calculations-example2.png "Atribuudi tüübi sätted, näiteks 2")
+![Atribuudi tüübi sätted, näiteks 2.](media/model-calculations-example2.png "Atribuudi tüübi sätted, näiteks 2")
 
 Atribuuti kasutatakse järgmises tingimuslikus lauses:
 
@@ -92,7 +92,7 @@ Selles näites kasutatakse `textFixedList` sihtatribuuti eelmisest näitest. See
 
 Järgmine kuvatõmmis näitab, kuidas selle atribuudi sätted teie süsteemis võidakse kuvada.
 
-![Atribuudi tüübi sätted, näiteks 3](media/model-calculations-example3.png "Atribuudi tüübi sätted, näiteks 3")
+![Atribuudi tüübi sätted, näiteks 3.](media/model-calculations-example3.png "Atribuudi tüübi sätted, näiteks 3")
 
 Atribuudi `textFixedList` väärtus arvutatakse järgmise tingimusliku lause abil:
 

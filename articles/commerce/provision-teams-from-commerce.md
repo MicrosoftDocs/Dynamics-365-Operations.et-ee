@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352104"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Microsoft Teams ettevalmistamine rakendusest Dynamics 365 Commerce
 
@@ -49,7 +49,7 @@ Teamsi ettevalmistamiseks Commerce'i peakontoris toimige järgmiselt.
 > [!TIP]
 > Kui ükski teie piirkonna halduritest, kaupluste juhatajatest ja kaupluse töötajatest pole seotud Teams litsentsiga, võidakse kuvada järgmine tõrketeade: "Määratud SKU-kategooriate päring kasutajale nurjus." Probleemi lahendamiseks valige tegevuspaanil suvand **Sünkrooni töörühmad ja liikmed**.
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>Teams ettevalmistamise valideerimine Teamsi halduskeskuses
 
@@ -63,7 +63,7 @@ Microsoft Teams halduskeskuses Microsoft Teams andmete ettevalmistamise kinnitam
 
 Järgmine näide on lehe **Töörühmade haldamine** kohta Teams halduskeskuses.
 
-![Töörühmade haldamise lehe näide Teams halduskeskuses](media/Teams-FLW-Admin-Teams.png)
+![Töörühmade haldamise lehe näide Teams halduskeskuses.](media/Teams-FLW-Admin-Teams.png)
 
 ## <a name="upload-a-commerce-organizational-hierarchy-to-teams"></a>Laadige Commerce'i organisatsioonihierarhia Teamsi
     
@@ -86,7 +86,7 @@ Veendumaks, et organisatsiooni hierarhia on Microsoft Teams üles laaditud toimi
 1. Looge vahekaardil **Avaldatud loendid** uus loend, mis sisaldab fiktiivset ülesannet.
 1. Valige **Avalda**. Organisatsioonihierarhia peaks ilmuma dialoogiboksis **Vali, kellele avaldada**, nagu näha järgmises näites.
 
-![Organisatsioonihierarhia näide dialoogiaknas Vali, kellele avaldada](media/Microsoft-teams-verify-org-hierarchy.png)
+![Organisatsioonihierarhia näide dialoogiaknas Vali, kellele avaldada.](media/Microsoft-teams-verify-org-hierarchy.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

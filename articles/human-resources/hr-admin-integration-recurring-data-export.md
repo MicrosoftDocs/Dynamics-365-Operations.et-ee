@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055000"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361217"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Korduvate andmete ekspordi rakenduse loomine
 
@@ -63,13 +63,13 @@ Selle harjutuse lõpus on teil loogikarakendus, mis on ühendatud teie inimressu
 
 Lõpetatud loogikarakendus sarnaneb järgmisele joonisele.
 
-![Loogikarakenduse ülevaade](media/integration-logic-app-overview.png)
+![Loogikarakenduse ülevaade.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>1. etapp: andmete eksportimise projekti loomine rakenduses Human Resources
 
 Looge rakenduses Human Resources andmete eksportimise projekt, mis ekspordib töötajaid. Pange sellele nimi **Töötajate eksportimine** ja veenduge, et suvand **Andmepaketi loomine** oleks seatud valikule **Jah**. Lisage projektile üks üksus (**Töötaja**) ja valige eksportimiseks vorming. (Selles õpetuses on kasutatud Microsoft Exceli vormingut.)
 
-![Töötajate eksportimise andmeprojekt](media/integration-logic-app-export-workers-project.png)
+![Töötajate eksportimise andmeprojekt.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Jätke andmete eksportimise projekti nimi meelde. Seda on vaja, kui loote järgmises etapis loogikarakenduse.
@@ -80,12 +80,12 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
 
 1. Looge Azure’i portaalis loogikarakendus.
 
-    ![Loogikarakenduse loomise leht](media/integration-logic-app-creation-1.png)
+    ![Loogikarakenduse loomise leht.](media/integration-logic-app-creation-1.png)
 
 2. Alustage Logic Apps Designeris tühja loogikarakendusega.
 3. Lisage [kordumise graafiku päästik](/azure/connectors/connectors-native-recurrence), et käivitada loogikarakendus iga 24 tunni järel (või vastavalt teie valitud graafikule).
 
-    ![Kordumise dialoogiaken](media/integration-logic-app-recurrence-step.png)
+    ![Kordumise dialoogiaken.](media/integration-logic-app-recurrence-step.png)
 
 4. Kutsuge DMF-i REST API [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage), et ajastada teie andmepaketi eksportimine.
 
@@ -97,7 +97,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
         > [!NOTE]
         > Teenus Human Resources ei paku veel konnektorit, mis näitab kõiki API-sid, millest DMF-i paketi REST API koosneb, näiteks **ExportToPackage**. Selle asemel peate kutsuma API-d, kasutades HTTPS-i toortaotlusi läbi konnektori HTTP koos Azure AD-ga. See konnektor kasutab autentimiseks ja autoriseerimiseks rakendusele Human Resources Azure Active Directoryt (Azure AD).
 
-        ![Konnektor HTTP koos Azure AD-ga](media/integration-logic-app-http-aad-connector-step.png)
+        ![Konnektor HTTP koos Azure AD-ga.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Logige oma inimressursside keskkonda läbi konnektori HTTP koos Azure AD-ga sisse.
     3. Seadistage HTTP **POST-i** taotlus kutsuma DMF-i REST API **ExportToPackage**.
@@ -116,21 +116,21 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
             }
             ```
 
-        ![Tegevuse HTTP-päring käivitamine](media/integration-logic-app-export-to-package-step.png)
+        ![Tegevuse HTTP-päringu käivitamine.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Võite soovida iga sammu ümber nimetada, et see oleks tähendusrikkam kui vaikenimi **HTTP-päringu käivitamine**. Näiteks võite panna sellele etapile nimeks **ExportToPackage**.
 
 5. [Lähtestage muutuja](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) salvestama taotluse **ExportToPackage** käivitamisoleku.
 
-    ![Muutuja tegevuse lähtestamine](media/integration-logic-app-initialize-variable-step.png)
+    ![Muutuja tegevuse lähtestamine.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Oodake, kuni andmete ekspordi käivitamisolek on **Õnnestunud**.
 
     1. Lisage [silmus Kuni](/azure/logic-apps/logic-apps-control-flow-loops#until-loop), mis kordub, kuni muutuja **ExecutionStatus** väärtus on **Õnnestunud**.
     2. Lisage tegevus **Viivitus**, mis ootab viis sekundit enne kui pollib eksportimise praegust käivitamisolekut.
 
-        ![Silmuse Kuni konteiner](media/integration-logic-app-until-loop-step.png)
+        ![Silmuse Kuni konteiner.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Määrake limiidi arvuks **15**, et oodata ekspordi lõpetamiseks maksimaalselt 75 sekundit (15 iteratsiooni × 5 sekundit). Kui teie eksportimisele kulub rohkem aega, reguleerige limiidi arvu vastavalt vajadusele.        
@@ -146,9 +146,9 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
             > [!NOTE]
             > Võimalik, et peate sisestama väärtuse **Taotluse keha** kas koodi vaates või kujundaja funktsioonide redaktoris.
 
-        ![Tegevuse HTTP-päring 2 käivitamine](media/integration-logic-app-get-execution-status-step.png)
+        ![Tegevuse HTTP-päring 2 käivitamine.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Muutuva tegevuse määramine](media/integration-logic-app-set-variable-step.png)
+        ![Muutuva tegevuse määramine.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > Tegevuse **Muutuja määramine** (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) väärtus erineb keha **HTTP-päringu 2 käivitamine** väärtusest, isegi kui kujundaja näitab väärtuseid samamoodi.
@@ -161,7 +161,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
         - **Taotluse URL:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Taotluse keha:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![Tegevus GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
+        ![Tegevus GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Laadige eksporditud pakett alla.
 
@@ -173,7 +173,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
             > [!NOTE]
             > Võimalik, et peate sisestama väärtuse **URI** kas koodi vaates või kujundaja funktsioonide redaktoris.
 
-        ![HTTP tegevus GET](media/integration-logic-app-download-file-step.png)
+        ![HTTP GET tegevus.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > See taotlus ei nõua ühtegi täiendavat autentimist, kuna API **GetExportedPackageUrl** tagastatav URL sisaldab ühiskasutusega juurdepääsu allkirja luba, mis annab juurdepääsu faili allalaadimisele.
@@ -187,7 +187,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
         - **Failinimi:** worker\_package.zip
         - **Faili sisu:** keha eelmisest etapist (dünaamiline sisu)
 
-        ![Faili loomise tegevus](media/integration-logic-app-create-file-step.png)
+        ![Faili loomise tegevus.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>3. etapp: loogikarakenduse testimine
 
@@ -197,7 +197,7 @@ Kui mõnes etapis esitatakse tõrge, valige kujundajas nurjunud etapp ja kontrol
 
 Järgmisel joonisel on näha, kuidas Logic Apps Designer välja näeb, kui kõik loogikarakenduse etapid töötavad edukalt.
 
-![Edukas loogikarakenduse töötamine](media/integration-logic-app-successful-run.png)
+![Edukas loogikarakenduse käitamine.](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Kokkuvõte
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354805"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Pilv- ja perimeeterskaalaüksused tootmis- ja laohaldustöökoormuste jaoks
 
@@ -41,7 +41,7 @@ Töökoormuse võimalusi vabastatakse pidevalt astmelise täiustamise kaudu.
 
 Skaalaüksused laiendavad teie keskse rakenduse Supply Chain Management keskuse keskkonda, lisades spetsiaalse töötlemise võimsuse. Skaala üksused võivad töötada pilves. Teise võimalusena saavad nad töötada oma kohaliku asutuse ruumide serval.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 koos skaala üksustega":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 koos skaala üksustega.":::
 
 Skaalaüksused pakuvad määratud töökoormustele vastupidavust, töökindlust ja skaalat. Servaskaala üksusi saab pilvejaoturi keskkonnast ajutiselt lahti ühendada. Töötajad jätkavad tööd määratud töökoormusega pilveserval.
 
@@ -157,7 +157,7 @@ Mastaabiühikuid pakutakse mitmes laohoiuühikus (SKU) ja hinnakujundusvõimalus
 
 Algtaseme SKU on tuntud kui *Peamine* ja jõulisem SKU on tuntud kui *Standardne*. Iga SKU on eellaaditud kindla arvu igakuiste tehingutega. Siiski saate igakuist kandeeelarvet suurendada, lisades iga SKU jaoks ülekulu lisandmoodulid.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Pilvskaalaüksuse lisandmoodulid":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Pilvskaalaüksuse lisandmoodulid.":::
 
 > [!TIP]
 > Teie vajadustele kõige paremini vastava suuruse tuvastamiseks tehke koostööd oma partneri ja Microsoftiga, et mõista igakuist tehingumahtu, mida vajate.
@@ -181,11 +181,11 @@ Kui teie otsitavat üürnikku ei ole loendis, minge [LCS](https://lcs.dynamics.c
 
 Iga üürniku kohta kuvatakse loendis juurutamise olek.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Rentnike loend vahekaardil Dynamics 365 Tenants":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Rentnike loend vahekaardil Dynamics 365 Tenants.":::
 
 LCS-rentniku juurutamise taotlemiseks valige suvand **Alustamiseks klõpsake siin**. Peate tingimustega nõustuma. Peate sisestama ka ettevõtte meiliaadressi, kuhu Microsoft saab saata teateid, mis on seotud juurutamise protsessiga.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Registreerumise ettepanek üürnikule":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Registreerumise ettepanek üürnikule.":::
 
 Microsoft vaatab teie taotluse läbi ja teavitab teid järgmisest sammudest, saates e-kirja aadressile, kust saatsite registreerimise vormi. Microsoft teeb teiega tihedat koostööd, et lubada äristsenaariumi hübriidtopoloogias skaalaühikud.
 
@@ -195,13 +195,13 @@ Kui juurutamine on lõpule jõudnud, saate pordi abil konfigureerida mastaabiüh
 
 Avage [Scale Unit Manageri portaal](https://aka.ms/SCMSUM) ja logige sisse oma rentniku konto abil. Lehel **Skaalaüksuste konfigureerimine** saate lisada keskse keskkonna, kui see ei ole juba loetletud. Seejärel saate valida keskuse, mida soovite konfigureerida koos skaala ühikute ja töömahuga.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skaala üksuse ja töömahu haldamise kogemus":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Skaala üksuse ja töömahu haldamise kogemus.":::
 
 Ühe või mitme skaala üksuste lisamiseks, mis on saadaval teie tellimustel, valige **Lisa skaala ühikud**.
 
 Vahekaardil **Määratletud töömahud** Kasutage **nuppu Loo töökoormus,** et lisada laohalduse töömaht ühte teie skaalajaotise üksustest. Iga töömahu puhul peate määrama töömahule kuuluvate protsesside konteksti. Laohalduse töökoormuste puhul on kontekst konkreetne ladu kindlas tegevuskohas ja juriidiline üksus.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Töömahu loomine":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Töömahu loomine.":::
 
 > [!TIP]
 > Aja jooksul lisatakse skaala üksusehalduri kogemusele astmelised täiustused, mis aitavad elutsükli haldamise toiminguid lihtsustada. Praeguse väljalaske konkreetsed võimalused on dokumenteeritud juurutamise käsiraamatus, mis on saadaval klientidele, kes on käimas Supply Chain Management hajutatud hübriidtopoloogia juurutamisega. <!-- KFM: Add a link to the handbook when it is published -->

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804523"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352344"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Kviitungita tagastuste makseviiside piiramine
 
@@ -38,7 +38,7 @@ Makseviiside seadistamiseks täitke järgmised ülesanded.
 3. Seadistage kaupluse makseviisid. Seostage makseviisid iga kauplusega ja seejärel sisestage iga kaupluse makseviisile kauplusepõhised sätted.
 4. Seadistage kauplustele kaardimakseviisid. Tehke kaardiseadistus kõikidele kaardimakseviisidele, mida kauplus aktsepteerib.
 
-![Poe seadistus](media/NoReceiptReturns1.png "Kaupluse häälestus") 
+![Poe seadistus.](media/NoReceiptReturns1.png "Kaupluse häälestus") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Kviitungita tagastuste makseviiside piiramine
@@ -49,12 +49,12 @@ Kaupluse iga makseviisi puhul valige lehel **Kaupluse haldus** jaotises **Kviitu
 
 Kui suvandi **Keela kviitungita tagasimaksed** sätteks on valitud **Jah**, ei lubata valitud makseviisi tagasimaksete puhul. 
 
-![Kaupluse makseviis](media/NoReceiptReturns3.png "Kaupluse makseviis") 
+![Kaupluse makseviis.](media/NoReceiptReturns3.png "Kaupluse makseviis") 
 
 > [!NOTE]
 > Kui kassapidaja valib makseviisi, mille puhul on kviitungita tagasimakse keelatud, kuvatakse teade, mis palub kontrollida lubatud makseviise.
 
-![Aktsepteeritavad makseviisid](media/NoReceiptReturns4.png "Aktsepteeritavad makseviisid") 
+![Aktsepteeritavad makseviisid.](media/NoReceiptReturns4.png "Aktsepteeritavad makseviisid") 
 
 Kui kandel on nii kviitungiga tagastus kui ka kviitungita tagastus, siis piirangutingimusi ei rakendata, kuna kanne on kviitungiga tagastusvoog. 
 

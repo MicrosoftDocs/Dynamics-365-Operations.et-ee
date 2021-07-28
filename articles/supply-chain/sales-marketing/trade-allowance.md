@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102802"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359529"
 ---
 # <a name="trade-allowance-management"></a>Kaubandushüvitise haldus
 
@@ -59,7 +59,7 @@ Kaubandushüvitise leping on premeerimisprogramm, kus pakutakse rahalisi tulemus
 
 Kaubandushüvitise lepingutele eraldatavad fondid salvestatakse lehele **Fondid**. Lehe **Fondid** avamiseks valige suvandid **Müük ja turundus** \> **Kaubandushüvitised** \> **Fondid** \> **Fondid**.
 
-![Fondide leht](./media/trade-allowance-management-funds-page.png "Fondide leht")
+![Fondide leht.](./media/trade-allowance-management-funds-page.png "Fondide leht")
 
 Lehel **Fondid** saate vaadata kampaaniafondide üksikasju.
 
@@ -75,7 +75,7 @@ Kui fondidefinitsioon on paigas, on kampaania plaanimise järgmine samm registre
 
 Kaubandushüvitise lepingud salvestatakse lehele **Kaubandushüvitise lepingud**. Lehe **Kaubandushüvitise lepingud** avamiseks valige suvandid **Müük ja turundus** \> **Kaubandushüvitised** \> **Kaubandushüvitise lepingud**.
 
-![Kaubandushüvitise lepete leht](./media/trade-allowance-management-agreements-page.png "Kaubandushüvitise lepete leht")
+![Kaubandushüvitise lepete leht.](./media/trade-allowance-management-agreements-page.png "Kaubandushüvitise lepete leht")
 
 #### <a name="header"></a>Päis
 
@@ -103,7 +103,7 @@ Vahekaardil **Tootesündmused** kuvatakse lepinguga kaetud sündmuste tüübid. 
 
 Kui valite tootmissündmuse ja seejärel vahekaardi **Summad**, leitakse sündmuse üksikasjad.
 
-![Kaubandushüvitise lepingu read](./media/trade-allowance-management-agreements-lines.png "Kaubandushüvitise lepingu read")
+![Kaubandushüvitise lepingu read.](./media/trade-allowance-management-agreements-lines.png "Kaubandushüvitise lepingu read")
 
 Jaotises **Kaubandushüvitise read** saate määrata koguse või summa vahemikud, mille klient peab definitsioonide kohta saavutama, et preemiaid saada.
 

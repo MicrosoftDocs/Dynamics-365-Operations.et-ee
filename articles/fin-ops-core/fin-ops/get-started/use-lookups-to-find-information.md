@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2672520ddf21e565edee5024d6886cabb18d6e94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348625"
 ---
 # <a name="find-information-by-using-lookups"></a>Teabe leidmiseks otsingute abil
 
@@ -44,15 +44,15 @@ Näiteks kaaluge otsinguvälja nimega **Linn**.
 
 Kui fookus on väljal **Linn**, saate alustada soovitud linna otsimist, sisestades mõned tähed, nagu „col”. Pärast tippimise lõpetamist avaneb automaatselt otsing, kus on filtreeritud need linnad, mis algavad tähejadaga „col”.
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 Sellel hetkel on kursor endiselt otsinguväljal. Kui jätkate tippimist, et väärtus oleks „veer”, reguleerub otsingusisu automaatselt, et kajastada kõige värskemat väärtust juhtelemendis.
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
 
 Isegi kui fookus on ikka otsingu juhtelemendis, saate kasutada ka klahve **Ülesnool** või **Allanool**, et tõsta esile rida, mida soovite valida. Kui vajutate klahvi **Enter**, valitakse otsingust esiletõstetud rida ja juhtelemendi väärtust värskendatakse.
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup.](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Rohkemate andmete kui vaid ID-de sisestamine
 
@@ -62,25 +62,25 @@ Näiteks müügitellimuse loomisel arvestage välja **Kliendi konto**. See väli
 
 Kui kasutaja alustas otsingu juhtelementi suvandi **Konto ID** sisestamisega, avaneks rippmenüü automaatselt, nagu on kirjeldatud eelmises jaotises ja kasutaja näeks otsingut sellisena, nagu allpool on näidatud.
 
-[![Kontekstuaalne otsing kliendi konto ID sisestamisel](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Kontekstuaalne otsing kliendi konto ID sisestamisel.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 Siiski saab kasutaja nüüd sisestada ka suvandi **Konto nimi** alguse. Selle tuvastamisel näeb kasutaja seejärel järgmist otsingut. Pange tähele, kuidas veerg **Nimi** teisaldatakse otsingus esimesse veergu ja kuidas otsingut sorditakse ja filtreeritakse veeru **Nimi** põhjal.
 
-[![Kontekstuaalne otsing kliendi nime sisestamisel](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Kontekstuaalne otsing kliendi nime sisestamisel.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Täpsema filtreerimise ja sortimise jaoks ruudustiku veerupäiste kasutamine
 
 Eelmises kahes jaotises kirjeldatud otsingu täiustused parandavad suuresti kasutaja võimet navigeerida otsingu ridades, põhinedes otsingu välja **ID** või **Nimi** otsingule „algab väärtusega”. Samas on olukordi, kus õige rea leidmiseks on vajalik täpsem filtreerimine (või sortimine). Sellistes olukordades peab kasutaja kasutama otsingus ruudustiku veerupäistes olevaid filtreerimis- ja sortimissuvandeid. Näiteks arvestage müügitellimuse rida sisestavat töötajat, kes peab tootena määrama õige „kaabli” asukoha. Sõna „kaabel” sisestamine juhtelementi **Kaubakood** ei ole abiks, kuna puuduvad tootenimed, mis algavad sõnaga „kaabel”.
 
-![emptyitemlookup](./media/emptyitemlookup.png)
+![emptyitemlookup.](./media/emptyitemlookup.png)
 
 Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsingu rippmenüü ja filtreerima rippmenüü, kasutades ruudustiku veeru päist, nagu allpool on näidatud. Hiirt (või puudutamist) kasutav kasutaja saab lihtsalt klõpsata (või puudutada) mis tahes veerupäist, et saada juurdepääs selle veeru filtreerimise ja sortimise suvanditele. Klaviatuuri kasutaja peab lihtsalt vajutama teist korda klahvikombinatsiooni **Alt**+**Alla** **Allanool**, et liigutada fookus rippmenüüle, pärast mida saab kasutaja tabeldusklahvi abil õigesse veergu liikuda ja vajutada seejärel klahvikombinatsiooni **Ctrl**+**G**, et avada ruudustiku veeru päise rippmenüüd.
 
-[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Pärast filtri rakendamist (vaadake allolevat pilti) saab kasutaja leida ja valida rea tavapärasel viisil.
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![filtereditemlookup.](./media/filtereditemlookup.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795425"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357806"
 ---
 # <a name="shipping-address-module"></a>Tarneaadressi moodul
 
@@ -37,13 +37,13 @@ Kuigi tarneaadressi moodul ei paku aadressi kinnitamist, saab seda funktsiooni r
 
 Järgmisel pildil on näide uuest tarneaadressi moodulist maksmise lehel.
 
-![Tarneaadressi mooduli näide maksmise lehel](./media/ecommerce-shippingaddress.PNG)
+![Tarneaadressi mooduli näide maksmise lehel.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 
 | Atribuudi nimi | Väärtused | Kirjeldus |
 |---------------|--------|-------------|
-| Pealkiri | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Tarneaadressi mooduli valikuline pealkiri. |
+| Päis | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Tarneaadressi mooduli valikuline pealkiri. |
 | Kuva aadressi tüüp | **Tõene** või **Väär** | Kui selle valikulise atribuudi väärtuseks on seatud **Tõene**, kuvatakse aadressi tüüp, nt **Kodu** või **Ettevõte**. Kui aadressi tüüpi pole määratud, salvestatakse aadress automaatselt nii, et selle **Tüüp**=**Muu**. |
 | Lubage automaatne soovitus| **Tõene** või **Väär** | Kui valikuline atribuut on seatud väärtusele **Tõene**, antakse automaatsed aadressisoovitused. Need soovitused on toetatud Bingi kaartide puhul. Lisateavet selle kohta, kuidas seadistada oma saidi jaoks Bing Mapsi integratsioon, vt [poe valimise moodulit](store-selector.md). See funktsioon on saadaval Commerce'i versiooni 10.0.15 väljalaskes.|
 |Automaatsed soovitatud valikud| Number| Kui automaatsed aadressisoovitused on lubatud, saate määrata lisavalikud, näiteks maksimaalse soovituste arvu.|

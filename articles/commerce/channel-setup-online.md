@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936940"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351172"
 ---
 # <a name="set-up-an-online-channel"></a>Võrgukanali häälestamine
 
@@ -55,11 +55,11 @@ Uue võrgukanali loomiseks ja konfigureerimiseks toimige järgmiselt.
 
 Järgmine pilt näitab uue võrgukanali loomist.
 
-![Uus võrgukanal](media/channel-setup-online-1.png)
+![Uus võrgukanal.](media/channel-setup-online-1.png)
 
 Järgmine pilt näitab võrgukanali näidet.
 
-![Võrgukanali näide](media/channel-setup-online-2.png)
+![Võrgukanali näide.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Keelte seadistamine
 
@@ -75,7 +75,7 @@ Veebikanali häälestamiseks nõutavad täiendavad toimingud hõlmavad makseviis
 
 Järgmine pilt näitab seadistuste **Tarneviisid**, **Makseviisid** ja **Täitmisgurpi määramine** suvandeid vahekaardil **Seadistus**.
 
-![Täiendavad võrgukanali seadistamise toimingud](media/channel-setup-online-3.png)
+![Täiendavad võrgukanali seadistamise toimingud.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Seadistada maksemeetodid
 
@@ -90,7 +90,7 @@ Kõigi selles kanalis toetatud maksetüübi makseviiside seadistamiseks toimige 
 
 Järgmine pilt näitab sularaha makseviisi näidet.
 
-![Makseviiside näited](media/channel-setup-retail-5.png)
+![Makseviiside näited.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Tarneviiside häälestamine
 
@@ -104,7 +104,7 @@ Tarneviisi muutmiseks või lisamiseks toimige järgmiselt.
 
 Järgmine pilt näitab tarneviisi näidet.
 
-![Tarneviiside häälestamine](media/channel-setup-retail-7.png)
+![Tarneviiside häälestamine.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Täitmisgrupi määramise seadistamine
 
@@ -118,13 +118,13 @@ Täitmisgrupi määramise seadistamiseks tehke järgmist.
 
 Järgmine pilt näitab täitmisgrupi määramise seadistuse näidet.
 
-![Täitmisgrupi määramiste seadistamine](media/channel-setup-retail-9.png)
+![Täitmisgrupi määramiste seadistamine.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Kanalite ülevaade](channels-overview.md)
 
-[Kanali seadistamise eeltingimused](channels-prerequisites.md)
+[Kanali häälestuse eeltingimused](channels-prerequisites.md)
 
 [Jaemüügikanali seadistamine](channel-setup-retail.md)
 

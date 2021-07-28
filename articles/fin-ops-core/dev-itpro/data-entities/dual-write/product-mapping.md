@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306385"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358589"
 ---
 # <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
 
@@ -33,15 +33,15 @@ Kui ettevõtte ökosüsteem koosneb Dynamics 365 rakendustest (nt Finance, Suppl
 
 Siin on toote andmemudel müügist.
 
-![Toodete andmemudel CE-s](media/dual-write-product-4.jpg)
+![Toodete andmemudel CE-s.](media/dual-write-product-4.jpg)
 
 Siin on toote andmemudel Finance and Operationsi rakendustest.
 
-![Toodete andmemudel Finance and Operationsis](media/dual-write-products-5.jpg)
+![Toodete andmemudel Finance and Operations`is.](media/dual-write-products-5.jpg)
 
 Need kaks tooteandmemudelit on integreeritud ühisesse andmeteenusesse Dataverse, nagu allpool näidatud.
 
-![Dynamics 365 rakenduste toodete andmemudel](media/dual-write-products-6.jpg)
+![Dynamics 365 rakenduste toodete andmemudel.](media/dual-write-products-6.jpg)
 
 Toodete topeltkirjutamise tabeli kaardid on loodud andmete voogesitamiseks ainult ühesuunaliselt, reaalajas Finance and Operationsi rakendustest teenusesse Dataverse. Kuid toote infrastruktuur on tehtud avatuks, et muuta see vajadusel kahesuunaliseks. Kuid võite seda oma vastutusel kohandada, kuna Microsoft ei soovita seda lähenemist.
 
@@ -86,7 +86,7 @@ Kuna toode on esindatud SKUna, saab eristatavate toodete, tooteetalonide ja toot
 - **Tooteetalone** kasutatakse geneeriliste toodetena, mis hoiavad definitsiooni ja reegleid, mis määravad äriprotsesside käitumise. Nende mõistete põhjal saab luua erinevaid tooteid, mida nimetatakse tootevariantideks. Näiteks T-särk on tooteetalon ja selle dimensioonideks võivad olla värv ja suurus. VaVälja saab anda variante, millel on nendest mõõtmetest erinevad kombinatsioonid, näiteks väike sinine T-särk või keskmine roheline T-särk. Integreerimisel luuakse tootetabelis üks rida ühe variandi kohta. See rida sisaldab variandikohast teavet (nt erinevaid dimensioone). Toote üldine teave talletatakse tabelis **msdyn\_sharedproductdetails**. (Seda üldteavet hoitakse tooteetalonis.) Tooteetalon sünkroonitakse teenusega Dataverse niipea, kui väljaantud tooteetalon on loodud (kuid enne variantide väljaandmist).
 - **Eristatavad tooted** viitavad kõigile toodete alamtüübi tootele ja kõigile tootevariantidele. 
 
-![Toodete andmemudel](media/dual-write-product.png)
+![Toodete andmemudel.](media/dual-write-product.png)
 
 Kui topeltkirjutamise funktsioon on lubatud, sünkroonitakse rakenduse Finance and Operations tooted muudes Dynamics 365 toodetes olekus **Mustand**. Need lisatakse esimesele hinnakirjale, millel on sama valuuta. Teisisõnu lisatakse need esimesele hinnakirjale Dynamics 365 rakenduses, mis vastab teie juriidilise tabeli valuutale, kus toode on välja antud rakenduses Finance and Operations. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele. 
 
@@ -112,7 +112,7 @@ Toodete sünkroonimine toimub Finance and Operationsi rakendusest teenusesse Dat
 
 Tootedimensioonid on tootevarianti identifitseerivad omadused. Tootevariantide määratlemiseks vastendatakse Dataverse ka nelja tootedimensiooniga (värv, suurus, stiil ja konfiguratsioon). Järgmisel joonisel on näidatud tootedimensiooni värvi andmetabelit. Sama mudelit rakendatakse suurustele, stiilidele ja konfiguratsioonidele. 
 
-![Tootedimensioonide andmemudel](media/dual-write-product-two.png)
+![Tootedimensioonide andmemudel.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Tellimuse vaikesätted määratlevad tegevuskoha ja lao, kust kaupu hangitakse v
 
 Mõõtühikud ja selle vastav teisendus on saadaval Dataverse’is, mis järgivad diagrammil kuvatavat andmemudelit.
 
-![Mõõtühiku andmemudel](media/dual-write-product-three.png)
+![Mõõtühiku andmemudel.](media/dual-write-product-three.png)
 
 Mõõtühiku kontseptsioon on integreeritud Finance and Operationsi rakenduste ja muude Dynamics 365 rakenduste vahel. Iga ühiku klassi kohta Finance and Operationsi rakenduses luuakse ühiku grupp Dynamics 365 rakenduses, mis sisaldab ühiku klassi kuuluvaid ühikuid. Iga ühikurühma jaoks luuakse ka vaikimisi baasühik. 
 

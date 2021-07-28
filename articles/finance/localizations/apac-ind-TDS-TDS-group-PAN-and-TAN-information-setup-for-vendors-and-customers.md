@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023179"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358262"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>TDS-i grupi, PAN-i ja TAN-i teabe häälestus hankijatele ja klientidele
 
@@ -31,7 +31,7 @@ See teema kirjeldab, kuidas seadistada teavet maksu kohta allika (TDS) grupis, p
 
 1. Minge **Ostureskontro \> Hankijatele \> Kõik hankijad** või **Müügireskontro \> kliendid \> Kõik kliendid**.
 
-    [![Kõigi hankijate leht](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Kõigi hankijate leht.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. Tegevuspaanil valige **Uus** TDS-ile kinnipeetava maksu grupi loomiseks ja sisestage nõutavad üksikasjad. Teise võimalusena valige olemasolev hankija või klient.
 3. Määrake suvandi **Arve ja tarne** kiirkaardil **Kinnipeetava maksu** jaotises **Kinnipeetava maksu arvutamine** väärtuseks **Jah** et arvutada hankijale või kliendile kinnipeetav maks, TDS või mks, mis on kogutud allikasse (TCS).
@@ -60,7 +60,7 @@ See teema kirjeldab, kuidas seadistada teavet maksu kohta allika (TDS) grupis, p
     - Kohalik omavalitsus
     - Muud
 
-    [![Maksuteabe kiirkaart](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Maksuteabe kiirkaart.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. Seejärel, tegevuspaani **Hankija** vahekaardil, grupis **Kvaliteedijuhtimine**, valige **Registreerumine IDs**, et avada leht **Hallata aadresse**.
 10. **Aadresside haldamise** lehel **Maksuteabe** kiirkaardil valige **Lisa** või **Redigeeri** et avada **Maksuteabe haldamine** leht, kus saate maksu registreerimiskirjet hallata.

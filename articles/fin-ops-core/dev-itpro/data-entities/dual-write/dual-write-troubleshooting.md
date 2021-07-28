@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748821"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350736"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -44,16 +44,16 @@ Pärast tööriista Package Deployer installimist installige lahendusepakett, j�
 
 1. Uusima lahenduse paketi faili saate alla laadida lehelt Yammer.com. Pärast paketi ZIP-faili allalaadimist paremklõpsake seda ja valige **Atribuudid**. Valige märkeruut **Tühista blokeerimine** ja valige seejärel **Rakenda**. Kui märkeruutu **Tühista blokeerimine** ei kuvata, on ZIP-fail juba blokeeritud ja võite selle toimingu vahele jätta.
 
-    ![Atribuutide dialoogiboks](media/unblock_option.png)
+    ![Atribuutide dialoogiboks.](media/unblock_option.png)
 
 2. Ekstraktige paketi ZIP-fail ja kopeerige kõik failid kaustas **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Kausta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 sisu](media/extract_package.png)
+    ![Kausta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 sisu.](media/extract_package.png)
 
 3. Kleepige kõik kopeeritud failid tööriista Package Deployer kausta **Tööriistad**. 
 4. Käivitage **PackageDeployer.exe** Dataverse'i keskkonna valimiseks ja lahenduste installimiseks.
 
-    ![Kausta Tööriistad sisu](media/paste_copied_files.png)
+    ![Kausta Tööriistad sisu.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Teenuse Dataverse’i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
 

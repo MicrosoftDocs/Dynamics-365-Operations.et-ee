@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941025"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350955"
 ---
 # <a name="company-concept-in-dataverse"></a>Ettevõtte mõiste teenuses Dataverse
 
@@ -43,7 +43,7 @@ Kuna äriüksus ja ettevõte ei ole samaväärsed mõisted, ei ole võimalik jõ
 
 Järgmisel joonisel on näide seda tüüpi andmete seadistamise kohta teenuses Dataverse.
 
-![Andmete seadistus teenuses Dataverse](media/dual-write-company-1.png)
+![Andmete seadistus teenuses Dataverse.](media/dual-write-company-1.png)
 
 Selle konfiguratsiooni tõttu kuulub kõigi USMF-i ettevõttega seotud rea töörühmale, mis on seotud USMF-i äriüksusega teenuses Dataverse. Seetõttu saab iga kasutaja, kellel on juurdepääs sellele äriüksusele turberolli kaudu, mis on määratud äriüksuse tasemel nähtavusele, nüüd näha neid ridu. Järgnev näide näitab, kuidas töörühmi saab kasutada neile ridadele õige juurdepääsu pakkumiseks.
 
@@ -52,21 +52,21 @@ Selle konfiguratsiooni tõttu kuulub kõigi USMF-i ettevõttega seotud rea töö
 + Töörühm "USMF müük" on seotud varem mainitud USMF-i äriüksusega.
 + Seetõttu saavad töörühma „USMF Sales” liikmed vaadata mistahes kontot, mis kuulub „USMF DW” kasutajale, mis oleks tulnud USMF ettevõtte tabelist rakenduses Finance and Operations.
 
-![Töörühmade kasutamine](media/dual-write-company-2.png)
+![Töörühmade kasutamine.](media/dual-write-company-2.png)
 
 Vastavalt eespool toodud joonisele, on see 1:1 vastendamine äriüksuse, ettevõtte ja töörühma vahel vaid alguspunkt. Selles näites luuakse teenuses Dataverse uus "Euroopa" äriüksus käsitsi ülataseme üksusena nii DEMF-i kui ka ESMF-i jaoks. See uus juuräriüksus pole kahesuguse kirjutamisega seotud. Siiski saab seda kasutada "EUR Sales" töörühmale juurdepääsu andmiseks kontoandmetele nii DEMF-is kui ka ESMF-is, määrates seostatud turberollis andmete nähtavuseks **Ülataseme/alataseme äriüksus**.
 
 Viimaseks aruteluteemaks on, kuidas kahesugune kirjutamine määrab, millisele omanikust töörühmale tuleks read määrata. Seda käitumist juhib veerg **Omanikust vaiketöörühm** real CDM\_Company. Kui rida cdm\_Company on kahesuguseks kirjutamiseks lubatud, loob lisandmoodul automaatselt seostatud äriüksuse ja omaniktöörühma (kui seda veel pole) ja seadistab veeru **Omanikust vaiketöörühm**. Administraator saab selle veeru muuta muuks väärtuseks. Kuid administraator ei saa tühjendada veergu seni, kuni tabel on lubatud kahesuguseks kirjutamiseks.
 
 > [!div class="mx-imgBorder"]
-![Omanikust vaiketöörühma veerg](media/dual-write-default-owning-team.jpg)
+![Omanikust vaiketöörühma veerg.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Ettevõtte segmentimine ja eellaadimine
 
 Teenuse Dataverse integreerimine toob kaasa ettevõtte paarsuse, kasutades ettevõtte identifikaatorit andmete segmentimiseks. Järgmine illustratsioon näitab, et kõik ettevõttekohased tabelid laiendatakse nii, et neil onleks mitu-ühele (N : 1) seos tabeliga CDM\_Company.
 
 > [!div class="mx-imgBorder"]
-![Seos N : 1 ettevõttekohase tabeli ja tabeli cdm_Company vahel](media/dual-write-bootstrapping.png)
+![Seos N:1 ettevõttekohase tabeli ja tabeli cdm_Company vahel.](media/dual-write-bootstrapping.png)
 
 + Ridade puhul muutub väärtus pärast ettevõtte lisamist ja salvestamist kirjutuskaitstuks. Seetõttu peaksid kasutajad veenduma, et nad valivad õige ettevõtte.
 + Ainult read, millel on ettevõtte andmed on kahesuguse kirjutamise õigused rakenduse ja teenuse Dataverse vahel.
@@ -98,7 +98,7 @@ Ettevõtte nime automaatseks asustamiseks klientide kaasamise rakendustes on mit
 
 Filtreerimise rakendamiseks ettevõtte konteksti põhjal kohandatud vormidele või standardvormidele lisatud otsinguveergudele avage vorm ja kasutage ettevõtte filtri rakendamiseks jaotist **Seotud kirjete filtreerimine**. Selle peate määrama igale otsinguveerule, mis antud real nõuab filtreerimist aluseksoleva ettevõtte põhjal. Säte kuvatakse järgmisel joonisel suvandi **Konto** jaoks.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Ettevõtte konteksti rakendamine":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Ettevõtte konteksti rakendamine.":::
 
 
 

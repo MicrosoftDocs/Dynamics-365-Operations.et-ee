@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897984"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355552"
 ---
 # <a name="fixed-assets-home-page"></a>Põhivarade avaleht
 
@@ -30,7 +32,7 @@ Põhivarad on üksikisikule või organisatsioonile kuuluvad väärtuslikud üksu
 
 Põhivarade jaoks saate seadistada ja sisestada soetusteabe ning seejärel hallata varasid kulumiarvestuse ning kulumisumma määramiseks kapitaliseerimisläve seadmise kaudu. Saate arvutada põhivarade muudatusi ja neid ka likvideerida. Kui kasutate koos mooduliga Põhivarad moodulit Pearaamat, saate vaadata kõigi põhivarade praegust väärtust. Põhivarade käsitsemise viis peab vastama nii rahvusvahelistele raamatupidamisstandarditele kui ka iga riigi/regiooni maksuseadusandlusele. Nõuded võivad sisaldada põhivarade soetamis- ja likvideerimiskannete, kulumiarvestuse, kasuliku eluea ning juurde- ja allahindluse reegleid. Põhivarade funktsioon sisaldab paljusid neist standarditest ja reeglitest.
 
-[![Äriprotsess](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Äriprotsess.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 

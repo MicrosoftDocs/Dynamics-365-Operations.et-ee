@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351838"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER-mallide varukoopia salvestamine
 
@@ -54,7 +54,7 @@ Kui väljaminevate dokumentide genereerimiseks on nõutav ER-vormingu mall, mis 
 - Iga kasutaja, kellele on määratud **Elektroonilise aruandluse arendaja** või **Süsteemiadministraatori** roll, teavitatakse puuduva malli probleemist tegevuskeskuse kaudu. Kuvatav teade sõltub parameetri **Katkestatud mallide automaatse taastamise protseduur partiis** väärtusest.
 
     - Kui see teade on **Välja lüitatud**, soovitab teade käivitada pakktöötlusprotsessi, et lahendada sarnased probleemid automaatselt teiste ER-vormingus Teade sisaldab linki, mida saate kasutada pakktöötluse käivitamiseks.
-    - Kui selle parameetri väärtuseks on **Sees**, teavitab teade teid puuduvast mallist ja sellest, et uus masstöötlusprotsess  **Taasta katkenud mallid sisemise andmebaasi varukoopiast** on automaatselt ajastatud. See pakktöötlus parandab automaatselt teiste mallide sarnaseid probleeme.
+    - Kui selle parameetri väärtuseks on **Sees**, teavitab teade teid puuduvast mallist ja sellest, et uus masstöötlusprotsess **Taasta katkenud mallid sisemise andmebaasi varukoopiast** on automaatselt ajastatud. See pakktöötlus parandab automaatselt teiste mallide sarnaseid probleeme.
 
 Parameetri **Katkestatud mallide automaatse taastamise protseduur partiis** seadmiseks tehke järgmist.
 
@@ -65,19 +65,19 @@ Parameetri **Katkestatud mallide automaatse taastamise protseduur partiis** sead
 > [!NOTE]
 > See parameeter on määratletud rakenduse kasutaja ja logitud ettevõtte spetsiifilise parameetrina.
 
-![ER-seadete leht](./media/GER-BackupTemplates-1.png)
+![ER-i konfiguratsiooni leht.](./media/GER-BackupTemplates-1.png)
 
 Järgmisel joonisel on kujutatud teate näidet, mis kuvatakse siis, kui parameeter **Katkestatud mallide automaatse taastamise protseduur partiis** on **Sees**.
 
-![Hankija maksetööleht](./media/GER-BackupTemplates-2.png)
+![Hankija maksetööleht.](./media/GER-BackupTemplates-2.png)
 
 Järgmisel joonisel on näha pakktöötlust **Katkenud mallide taastamine andmebaasi sisemise varunduse abil** lehel **Pakett-töö**.
 
-![Pakett-töö leht](./media/GER-BackupTemplates-3.png)
+![Pakett-töö leht.](./media/GER-BackupTemplates-3.png)
 
 Lõpetatud **Taasta katkenud mallid sisemisest andmebaasi varundusest** pakktöötlusprotsess sisaldab teavet mallide kohta, mis on taastatud varukoopia talletuskohast esmase talletuskohani.
 
-![Pakett-töö ajaloo leht](./media/GER-BackupTemplates-4.png)
+![Pakett-töö ajaloo leht.](./media/GER-BackupTemplates-4.png)
 
 Vaikimisi on sisse lud ER-vorminguga konfiguratsioonides sisalduvatest mallidest automaatselt varukoopiate loomise protsess. Mallidest varukoopiate tegemise lõpetamiseks seadke **Peata mallidest varukoopiate tegemine** valikuks **Jah** vahekaardil **Manused** lehel **Elektroonilise aruandluse parameetrid**. Selle lehe saate avada tööruumist **Elektrooniline aruandlus**.
 
@@ -85,7 +85,7 @@ Kui määrate suvandi **Peata mallidest varukoopiate tegemine** väärtuseks **J
 
 Kui täiendasite oma keskkonna Finance and Operations-i versioonile 10.0.5 (oktoober 2019) ja soovite siirduda uude keskkonda, mis sisaldab käitatavaid ER-vormingu konfiguratsioone, valige enne migreerimist **Täida varundusmälu** lehel **Elektroonilise aruandluse parameetrid**. See nupp käivitab kõigi saadaolevate mallide varukoopiate tegemise, nii et neid saab talletada mallide ER-varunduse talletuskohas.
 
-![Elektroonilise aruandluse parameetrite leht](./media/GER-BackupTemplates-5.png)
+![Elektroonilise aruandluse parameetrite leht.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Käsitsi taastamine
 

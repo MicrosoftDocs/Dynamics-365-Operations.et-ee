@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842221"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352758"
 ---
 # <a name="procurement"></a>Hange
 
@@ -36,7 +36,7 @@ Loendis **Töökäsu ostutaotlus** (**Varahaldus** > **Tavaline** > **Hange** > 
 
 Alloleval joonisel kuvatakse loendilehe **Töökäsu ostutaotlus** näide.
 
-![Joonis 1](media/08-work-orders.png)
+![Joonis 1.](media/08-work-orders.png)
 
 
 Loendis **Töökäsu ost** (**Varahaldus** > **Tavaline** > **Hange** > **Töökäsu ost**) on kuvatud töökäskudega seotud ostutellimused. Kui valite sellelt lehelt töökäsu töö, saate kasutada toimingupaani vahekaardi **Töökäsu ost** grupi **Kuva** nuppe, et sooritada mitmesuguseid toiminguid:
@@ -47,7 +47,7 @@ Loendis **Töökäsu ost** (**Varahaldus** > **Tavaline** > **Hange** > **Töök
 
 Alloleval joonisel kuvatakse loendilehe **Töökäsu ost** näide.
 
-![Joonis 2](media/09-work-orders.png)
+![Joonis 2.](media/09-work-orders.png)
 
 
 Nii loendilehel **Töötellimuse ost** kui ka loendilehel **Töötellimuse ostutaotlus** kuvatakse iga rea paremal küljel tarnekuupäeva kontrolliga seotud sümbol. Kui sümbolina on kuvatud punases ringis hüüumärk, tähendab see, et seotud ostutellimuse või ostutaotluse tarne võib hilineda.
@@ -93,7 +93,7 @@ Ostutellimuse reaga seotud tegevuse numbri vaatamiseks või sisestamiseks valige
 
 Alltoodud illustratsioon kujutab lehe **Ostutellimus** näidet, millel on fookuses **Tegevuse number**.
 
-![Joonis 3](media/10-work-orders.png)
+![Joonis 3.](media/10-work-orders.png)
 
 Töökäsu ostutaotluse reaga seotud tegevuse numbri vaatamiseks või sisestamiseks toimiga sarnaselt ning valige loendilehel **Töökäsu ostutaotlus** ostutaotluse kirje ja seejärel valige veerus **Ostutaotlus** ostutaotluse link. Välja **Tegevuse number** leiate kiirkaardi **Rea üksikasjad** vahekaardilt **Projekt**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b652045b130eca7e8236b4952b7c829e53a2269e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746407"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352934"
 ---
 # <a name="getenumvaluebyname-er-function"></a>ER-i funktsioon GETENUMVALUEBYNAME
 
@@ -62,7 +62,7 @@ Tulemiks saadud loetelu väärtus.
 
 Järgmises näites on andmemudelis kasutusele võetud loetelu **ReportDirection**. Pange tähele, et loetelu väärtuste puhul on määratletud sildid.
 
-![Andmemudeli loetelu jaoks saadaolevad väärtused](./media/ER-data-model-enumeration-values.PNG)
+![Andmemudeli loetelu jaoks saadaolevad väärtused.](./media/ER-data-model-enumeration-values.PNG)
 
 Järgmises näites on toodud järgmised üksikasjad:
 
@@ -70,7 +70,7 @@ Järgmises näites on toodud järgmised üksikasjad:
 - Avaldis `$IsArrivals` on mõeldud kasutama mudeli loetelul põhinevat andmeallikat **$Direction** selle funktsiooni parameetrina.
 - Võrdluse avaldise väärtus on **TRUE**.
 
-![Andmemudeli loetelu näide](./media/ER-data-model-enumeration-usage.PNG)
+![Andmemudeli loetelu näide.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Näide 2
 
@@ -78,14 +78,14 @@ Funktsioonid `GETENUMVALUEBYNAME` ja [`LISTOFFIELDS`](er-functions-list-listoffi
 
 Järgmises näites on mudelivastenduses kasutusele võetud andmeallikas **TransType**. See andmeallikas viitab rakenduse loetelule **LedgerTransType**.
 
-![Mudelivastenduse andmeallikas, mis viitab rakenduse loetelule](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Mudelivastenduse andmeallikas, mis viitab rakenduse loetelule.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 Järgmises näites on näha andmeallikas **TransTypeList**, mis on konfigureeritud mudelivastenduses. See andmeallikas konfigureeritakse rakenduse loetelu **TransType** põhjal. Funktsiooni `LISTOFFIELDS` kasutatakse selleks, et tagastada kõik loetelu väärtused välju sisaldavate kirjete loendina. Sel viisil on iga loetelu väärtuse üksikasjad nähtaval.
 
 > [!NOTE]
 > Väli **EnumValue** konfigureeritakse andmeallika **TransTypeList** jaoks avaldise `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` abil. See väli tagastab loetelu väärtuse iga selles loendis oleva kirje jaoks.
 
-![Mudelivastenduse andmeallikas, mis tagastab valitud loetelu kõik loetelu väärtused kirjete loendina](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Mudelivastenduse andmeallikas, mis tagastab valitud loetelu kõik loetelu väärtused kirjete loendina.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 Järgmises näites on näha andmeallikas **VendTrans**, mis on konfigureeritud mudelivastenduses. See andmeallikas tagastab rakenduse tabelist **VendTrans** pärit hankija kandekirjed. Iga kande pearaamatu tüüp määratletakse välja **TransType** väärtuse põhjal.
 
@@ -94,11 +94,11 @@ Järgmises näites on näha andmeallikas **VendTrans**, mis on konfigureeritud m
 >
 > Väli **TransTypeTitle** on seotud väljaga **LedgerType**, mis kuulub andmemudelisse, mis võimaldab seda teavet kasutada igas ER-i vormingus, mis kasutab seda andmemudelit andmeallikana.
 
-![Mudelivastenduse andmeallikas, mis tagastab hankija kanded](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Mudelivastenduse andmeallikas, mis tagastab hankija kanded.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 Järgmisel joonisel on näha, kuidas saate kasutada [andmeallika silurit](er-debug-data-sources.md) konfigureeritud mudelivastenduse testimiseks.
 
-![Andmeallika siluri kasutamine konfigureeritud mudelivastenduse testimiseks](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Andmeallika siluri kasutamine konfigureeritud mudelivastenduse testimiseks.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 Andmeallika väli **LedgerType** muudab kandetüüpide sildid ootuspäraselt nähtavaks.
 

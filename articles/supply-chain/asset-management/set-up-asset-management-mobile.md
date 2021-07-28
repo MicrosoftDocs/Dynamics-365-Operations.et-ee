@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351509"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumi häälestamine
 
@@ -47,7 +47,7 @@ Varahalduse funktsioonide mobiilirakenduses Finance and Operations (Dynamics 365
 1. Valige teenuses Supply Chain Management nupp **Sätted** (ülemises parempoolses nurgas olev hammasratta sümbol) ja valige seejärel menüüst suvand **Mobiilirakendus**.
 1. Leidke dialoogiboksis **Mobiilirakenduse haldamine** paan **Varahaldus**. Kui see sisaldab teksti „Metaandmetes – pole avaldatud”, ei ole tööruumi veel avaldatud. Kui see sisaldab teksti „Metaandmetes - avaldatud”, on tööruum juba avaldatud ja saate selle protseduuri ülejäänud osa vahele jätta.
 
-    ![Dialoogiboks Mobiilirakenduse haldamine](media/mobile-workspaces.png "Dialoogiboks Mobiilirakenduse haldamine")
+    ![Mobiilirakenduse haldamise dialoogiboks.](media/mobile-workspaces.png "Dialoogiboks Mobiilirakenduse haldamine")
 
 1. Valige paan **Varahaldus** ja valige seejärel tööriistaribal käsk **Avalda**. Mõne sekundi pärast peaksite saama teatise, mis ütleb, et tööruum on avaldatud. Lisaks peaks paanil olev tekst muutuma variandile „Metaandmetes – avaldatud”.
 
@@ -60,22 +60,22 @@ Varahalduse funktsioonide mobiilirakenduses Finance and Operations (Dynamics 365
 
 1. Avage rakendus Finance and Operations (Dynamics 365). Ilmuma peaks sisselogimisleht. Sisestage **sisselogimise** väljale oma Supply Chain Managementi URL või valige loendist **Hiljutised keskkonnad** hiljutine URL ja puudutage seejärel valikut **Ühenda**.
 
-    ![Sisselogimise leht](media/mobile-app-sign-in.png "Sisselogimise leht")
+    ![Sisselogimise leht.](media/mobile-app-sign-in.png "Sisselogimise leht")
 
 1. Kui teil palutakse ühendus kinnitada, märkige ruut **Ma mõistan** ja puudutage suvandit **Ühenda**.
 1. Kasutage lehel **Konto valimine** oma Microsofti kontot mobiilirakendusse sisselogimiseks.
 
     Kuvatakse leht **Tööruumid**. See loetleb kõik mobiilsed tööruumid, mille teie Supply Chain Managementi eksemplar on avaldanud.
 
-    ![Tööruumide loend](media/mobile-app-workspaces.png "Tööruumide loend")
+    ![Tööruumide loend.](media/mobile-app-workspaces.png "Tööruumide loend")
 
 1. Kui peate juriidilist isikut (ettevõtet) muutma, puudutage ülemises vasakpoolses nurgas nuppu Menüü (vahel viidatakse sellele kui hamburger või hamburgeri nupp) ja puudutage seejärel nuppu **Muuda ettevõtet**.
 
-    ![Juriidilise isiku muutmine](media/mobile-app-change-comp.png "Juriidilise isiku muutmine")
+    ![Juriidilise isiku muutmine.](media/mobile-app-change-comp.png "Juriidilise isiku muutmine")
 
 1. Lehel **Tööruumid** valige avamiseks tööruum, millega soovite töötada.
 
-    ![Varahalduse mobiilne tööruum](media/mobile-app-asset-workspace.png "Varahalduse mobiilne tööruum")
+    ![Varahalduse mobiilne tööruum.](media/mobile-app-asset-workspace.png "Varahalduse mobiilne tööruum")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumiga töötamine
 

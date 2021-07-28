@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356826"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeenid Dynamics 365 Commerce'is
 
@@ -38,7 +38,7 @@ E-kaubanduse keskkonna ettevalmistamisel teenuses [Microsoft Dynamics Lifecycle 
 
 Järgmisel joonisel on kujutatud LCS-i e-kaubanduse ettevalmistamise ekraan, kus on esile tõstetud väli **Toetatud hostinimed**. 
 
-![LCS-i e-kaubanduse ettevalmistamise ekraan koos esiletõstetud väljaga **Toetatud hostinimed**](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![LCS e-commerce ettevalmistamise ekraan koos esiletõstetud väljaga **Toetatud hostinimed**.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Kui ettevalmistamine on juba toimunud, saate luua hooldustaotluse lisadomeenide keskkonda lisamiseks. Teenusetaotluse loomiseks LCS-is tehke oma keskkonnas valikud **Tugi \> Toeprobleemid** ja valige **Edasta juhtum**.
 
@@ -56,7 +56,7 @@ Saidi esmakordsel seadistamisel saidiehitajas kuvatakse dialoogiboks **Saidi sea
 
 Järgmisel illustratsioonil on kujutatud dialoogiboks **Saidi seadistamine** saidi „vaikimisi” jaoks, kui navigeerite saidile esmakordselt saidiehitaja kaudu.
 
-![Dialoogiboks **Saidi seadistamine**](./media/Domains_SetupyoursiteScreen.png)
+![Dialoogiboks **Saidi seadistamine**.](./media/Domains_SetupyoursiteScreen.png)
 
 Väli **Vali domeen** võimaldab teil saidiehitajas seostada oma saidiga ühe toetatud hostinimedest, mida pakutakse teie saidi jaoks LCS-is.
 
@@ -79,11 +79,11 @@ Pärast seda, kui teie sait on seadistatud teega, tuginevad kõik saidiehitaja l
 
 Järgmisel joonisel on kujutatud saidiehitaja dialoogiboks **Uus URL**, milles on esile tõstetud näidis-URL-i tee. 
 
-![Saidiehitaja dialoogiboks **Uus URL**](./media/Domains_PageSetup2a.png)
+![Saidiehitaja dialoogiboks **Uus URL**.](./media/Domains_PageSetup2a.png)
 
 Järgmisel joonisel on kujutatud saidiehitaja leht **URL-id**, mille loendis on esile tõstetud URL.
 
-![Kasutajavoo suvandi käitamine poliitika voos](./media/Domains_URLsInSiteBuilder2a.png)
+![Kasutajavoo suvandi käitamine poliitika voos.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Saidiehitaja domeenid
 

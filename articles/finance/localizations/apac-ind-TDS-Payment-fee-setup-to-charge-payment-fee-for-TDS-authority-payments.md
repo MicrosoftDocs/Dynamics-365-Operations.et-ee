@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023193"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358430"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Maksetasude häälestamine TDS-i halduri maksete jaoks
 
@@ -31,7 +31,7 @@ See teema kirjeldab, kuidas seadistada maksetasusid, mida arvatakse maha allika 
 
 1. Avage **Ostureskontro \> Makse seadistus \> Maksetasu**.
 
-    [![Maksetasu leht](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Maksetasu leht.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Klõpsake valikut **Uus**, et luua maksetööleht, ja sisestage seejärel nõutavad üksikasjad.
 3. Valige **Makse tüüp** väljal tüüp, et valida makse tüüpi:
@@ -46,7 +46,7 @@ See teema kirjeldab, kuidas seadistada maksetasusid, mida arvatakse maha allika 
 5. Sisestage kõik vajalikud üksikasjad.
 6. Tegevuspaanil valige **Maksetasu seadistus**, et avada **Maksetasu seadistuse** leht, kus saate seadistada pankade, makseviiside, maksespetsifikatsioonide, valuutade ja ajaintervallide erinevate kombinatsioonide maksetasud.
 
-    [![Maksetasu seadistuse leht](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Maksetasu seadistuse leht.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. Määrake vahekaardi **Ülevaade** väljal **Grupeerimised**, millistele pankadele maksetasu seadistate:
 
@@ -64,7 +64,7 @@ See teema kirjeldab, kuidas seadistada maksetasusid, mida arvatakse maha allika 
 15. Valige väljas **Maksu valuuta** maksu valuuta.
 16. Valige **Üldine** vahekaart valitud bangakonto üksikasjade vaatamiseks või muutmiseks.
 
-    [![Vahekaart Üldine](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Vahekaart Üldine.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. Sisestage **Minimaalne** väljal minimaalne kandesumma, mis aktiveerib tasu.
 17. Sisestage **Maksimaaalne** väljal maksimaalne kandesumma, mis aktiveerib tasu.
@@ -74,7 +74,7 @@ See teema kirjeldab, kuidas seadistada maksetasusid, mida arvatakse maha allika 
 21. Valige **Käibemaksugrupp** väljal käibemaksugrupp, mida kasutada tasusumma käibemaksu arvutamiseks.
 22. Valige vahekaart **Intervall**. 
 
-    [![Vahekaart Intervall](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Intervalli vahekaart.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. Väljal **Päevad** sisestage rahaülekande sisestuskuupäeva (allahindluskuupäeva) ja võlatähe tähtaja vahele jäävate päevade arv.
 24. Valige **Protsent/Summa** väljal kas täpsustus on protsent või seatud summa.

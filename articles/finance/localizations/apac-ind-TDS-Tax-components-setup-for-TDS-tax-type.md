@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358166"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Maksukomponentide häälestamine TDS-i maksutüübi jaoks
 
@@ -33,7 +33,7 @@ TDS komponentidde häälestamiseks tehke järgmist.
 
 1. Minge **Maks \> Seadistus \> Kinnipeetav maks \> Kinnipeetava maksu komponendid**.
 
-    [![Kinnipeetava maksu komponentide leht](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Kinnipeetava maksu komponentide leht.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. **Maksu tüübi** väljal valige **TDS** kinnipeetava maksu komponentide häälestamiseks.
 3. Rea loomiseks valige toimingupaanilt suvand **Uus**.
@@ -50,7 +50,7 @@ TDS komponentidde häälestamiseks tehke järgmist.
 
     Näiteks kui erandi lävisumma on 5000, siis arvutatakse TDS konkreetsel arvereal, kui arve rea summa ületab 5000 (teisisõnu on see 5001 või rohkem).
 
-    [![Läve leht](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Läve leht.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > Erandi lävisumma peab olema lävisummast väiksem või sellega võrdne.
@@ -66,6 +66,6 @@ TDS komponentidde häälestamiseks tehke järgmist.
 
 14. Valige **OK** et kopeerida ja luua TDS-i komponente muule TDS-i komponendigrupile **kinnipeetava maksu komponentide** lehel.
 
-    [![Kinnipeetava maksu komponentide dialoogiboksi kopeerimine](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Kinnipeetava maksu komponentide dialoogiboksi kopeerimine.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Sulgege leht.

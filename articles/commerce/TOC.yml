@@ -932,6 +932,8 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Varude sätete rakendamine
                   href: inventory-settings.md
+                - name: Toote ostukorvi sätetesse lisamise rakendamine
+                  href: add-cart-settings.md
                 - name: Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused
                   href: search-engine-optimization-considerations.md
                 - name: Sisu turbepoliitika (CSP) haldamine
@@ -1016,6 +1018,10 @@
                       href: customize-site-navigation.md
                     - name: Lehe URL-i loomine
                       href: create-page-URL.md
+                - name: Adventure Worksi kujundus
+                  items:
+                    - name: Adventure Worksi kujunduse ülevaade
+                      href: adventure-works-theme.md
             - name: Digitaalsete varade haldamine
               items:
                 - name: Digitaalse varahalduse ülevaade
@@ -1070,6 +1076,16 @@
                       href: add-hero-module.md
                     - name: Videopleierimoodul
                       href: add-video-player.md
+                    - name: Aktiivse pildi moodul
+                      href: active-image-module.md
+                    - name: Pildiloendi moodul
+                      href: image-list-module.md
+                    - name: Interaktiivse funktsiooni moodul
+                      href: interactive-feature-module.md
+                    - name: Tellimismoodul
+                      href: subscribe-module.md
+                    - name: Paaniloendi moodul
+                      href: tile-list-module.md
                 - name: Päise ja jaluse moodulid
                   items:
                     - name: Päisemoodul
@@ -1314,6 +1330,10 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Kassaaparaatide juurutamise juhised
                   href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: Venemaa
+              items:
+                - name: Commerce'i lokaliseerimine Venemaa jaoks
+                  href: localizations/rus-commerce-localization.md
             - name: Rootsi
               items:
                 - name: Kassaaparaadi funktsioonid
@@ -2146,6 +2166,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Kinnitussammude konfigureerimine
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Kulude läbivaatajate konfigureerimine
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: Käsitsi otsuste konfigureerimine
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Tingimuslike otsuste konfigureerimine
@@ -2558,6 +2580,8 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Kanali andmebaasi laiendid
                   href: dev-itpro/channel-db-extensions.md
+                - name: Pilvskaalaüksuse laienduste eemaldamine
+                  href: dev-itpro/retail-sdk/remove-csu-package.md
                 - name: Laiendi kaudu kohandatud CDX-i sünkroonimise lubamine
                   href: dev-itpro/cdx-extensibility.md
                 - name: Tellimuse atribuutide määratlemine ja häälestus

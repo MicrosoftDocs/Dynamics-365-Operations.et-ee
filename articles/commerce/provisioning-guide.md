@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352080"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
 
@@ -90,16 +90,16 @@ Keskkonna juurutamiseks tehke järgmist.
 1. Väljal **Rakenduse versioon** valige uusim versioon. Kui teil on konkreetne vajadus valida rakenduse versioon, mis ei ole kõige uuem versioon, ärge valige varasemat versiooni kui **10.0.14**.
 1. Kasutage väljal **Platvormi versioon** platvormi versiooni, mis valitakse automaatselt valitud rakenduse versiooni jaoks. 
 
-    ![Rakenduse ja platvormi versioonide valimine](./media/project1.png)
+    ![Rakenduse ja platvormi versioonide valimine.](./media/project1.png)
 
 1. Valige **Edasi**.
 1. Valige keskkonna topoloogiaks **Demo**.
 
-    ![Keskkonna topoloogia valimine 1](./media/project2.png)
+    ![Keskkonna topoloogia valimine 1.](./media/project2.png)
 
 1. Lehel **Keskkonna juurutamine** sisestage keskkonna nimi. Jätke täpsemad sätted nii nagu need on.
 
-    ![Keskkonna juurutamise leht](./media/project4.png)
+    ![Keskkonna juurutamise leht.](./media/project4.png)
 
 1. Kohandage VM-i suurust vastavalt vajadusele. (Soovitame VM-i varude arvestusühikut \[SKU\] **D13 v2**.)
 1. Vaadake üle hinnakujunduse ja litsentsimise tingimused ning märkige ruut, et näidata, et olete nendega nõus.
