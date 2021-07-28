@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186392"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355648"
 ---
 # <a name="customer-payment-predictions-preview"></a>Kliendimaksete prognoosid (eelversioon)
 
@@ -53,11 +55,11 @@ Iga avatud arve puhul määrab funktsioon kolm makse tõenäosust.
 
 Funktsioon sisaldab ka oodatavate maksete summeeritud vaadet.
 
-[![Maksete ennustuste koondvaade](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Maksete ennustuste koondvaade.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Igale arvele määratakse õigeaegselt maksmise tõenäosus. Arved, mille õigeaegselt maksmise tõenäosus on väiksem kui 50%, märgistatakse punase ringiga näitamaks, et arved võivad vajada inkassaatori tähelepanu.
 
-[![Maksetõenäosuste loend](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Maksetõenäosuste loend.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Kliendimaksete prognooside funktsioon pakub ka kontekstilist teavet prognoosi selgitamiseks. See teave sisaldab peamisi tegureid, mis mõjutasid prognoosi, praegust äritegevuse seisu kliendiga ja üksikasju kliendi ajaloolise maksekäitumise kohta.
 

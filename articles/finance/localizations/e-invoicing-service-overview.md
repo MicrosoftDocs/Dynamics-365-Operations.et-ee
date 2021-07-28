@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c3a0cc24a77b29cedaa10ebb4d6e2ad2a4cbf629
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839976"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344754"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroonilise arvelduse ülevaade
 
@@ -98,7 +100,7 @@ Kui elektrooniline arveldus on LCS-ist installitud ja vajalik seadistus on lõpe
 
 Järgmine illustratsioon näitab, kuidas andmed elektroonilisse arveldusse sisenevad ja sealt väljuvad.
 
-![Elektroonilise arvelduse lisandmooduli andmevoog](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Elektroonilise arvelduse lisandmooduli andmevoog.](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 Elektroonilise arvelduse lubamise ja kasutamise korral on võimalik, et saata tuleb piiratud andmeid, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata elektroonilisi arveid eelmääratletud vormingutes, mis on vajalikud integratsiooniks valitsuse veebiteenustega. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.

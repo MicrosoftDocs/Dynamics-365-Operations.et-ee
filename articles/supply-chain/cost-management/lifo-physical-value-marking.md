@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809730"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344540"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO füüsilise väärtuse ja märkimisega
 
@@ -53,7 +53,7 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 
 Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 15.00 USD juures Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** ei kasutata. 
 
-![LIFO valikuta Kaasa füüsiline väärtus](./media/lifowithoutincludephysicalvalue.gif) 
+![LIFO füüsilise väärtuse kaasamise valikuta.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -89,7 +89,7 @@ Kanne 6a korrigeeritakse sissetulekukandeks 4b. Süsteem ei tasakaalusta neid ka
 
 Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** kasutatakse. 
 
-![LIFO valikuga Kaasa füüsiline väärtus](./media/lifowithincludephysicalvalue.gif) 
+![LIFO füüsilise väärtuse kaasamisega.](./media/lifowithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -133,7 +133,7 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 
 Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale väljaminekute ja sissetulekute vahelise märkimise kasutamisel. 
 
-![LIFO valikuga Märkus](./media/lifowithmarking.gif) 
+![LIFO märkimise valikuga.](./media/lifowithmarking.gif) 
 
 **Diagrammi võti**
 

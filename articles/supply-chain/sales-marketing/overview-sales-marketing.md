@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188121"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359857"
 ---
 # <a name="sales-and-marketing-overview"></a>Müügi ja turunduse ülevaade
 
@@ -29,18 +31,18 @@ Müügi ja turunduse abil saate müügivoos hankida, talletada ja kasutada mitme
 
 ## <a name="marketing"></a>Turundus
 
-Saate kasutada turunduskampaaniaid ja tegevusi potentsiaalsete klientide leidmiseks ja nendega seoste loomiseks, et algsest suhtlusest saaksid kujuneda müügisuhted. Järgmine protsessivoog näitab turunduse äriprotsessi. [![Turunduse äriprotsess](./media/marketing01.jpg)](./media/marketing01.jpg)
+Saate kasutada turunduskampaaniaid ja tegevusi potentsiaalsete klientide leidmiseks ja nendega seoste loomiseks, et algsest suhtlusest saaksid kujuneda müügisuhted. Järgmine protsessivoog näitab turunduse äriprotsessi. [![Turunduse äriprotsess.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Seosed
 
-Müügis ja turunduses võib algne suhtlus potentsiaalsete klientidega leida aset mitmesugustes olukordades. Näiteks võite leida tulevase kliendi ärimessilt või saada kliendi kohta müügivihje pärast seda, kui teie organisatsioon viib läbi hulgipostituse kampaania. On väga oluline mõista osapoole üksuse voogu, enne kui osapoolest saab klient. Järgmisel joonisel on näidatud üksuse seoste voog, kui potentsiaalsest kliendist saab tegelik klient. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Müügis ja turunduses võib algne suhtlus potentsiaalsete klientidega leida aset mitmesugustes olukordades. Näiteks võite leida tulevase kliendi ärimessilt või saada kliendi kohta müügivihje pärast seda, kui teie organisatsioon viib läbi hulgipostituse kampaania. On väga oluline mõista osapoole üksuse voogu, enne kui osapoolest saab klient. Järgmisel joonisel on näidatud üksuse seoste voog, kui potentsiaalsest kliendist saab tegelik klient. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Kampaaniad
 
 Kampaania on suunatud potentsiaalsete klientide, müügivihjete, müügivõimaluste ja klientide kontaktidele, mis on valitud kampaanias osalema. Supply Chain Managementis saate luua mitut tüüpi kampaaniaid (nt telemarketingi-, posti- ja meilikampaaniaid), et maksimeerida kliendipotentsiaali. Kui saate kampaania käigus positiivseid vastuseid, saate alustada müügiprotsessi nende saajatega, kes on kampaaniale positiivselt vastanud.
 
 ## <a name="sales"></a>Müük
-Müügifunktsiooni abil saab koostada hinnapakkumisi, teha ülesmüüki ja ristmüüki uutele ja olemasolevatele klientidele, koostada müügitellimusi ja koostada klientidele müügiarveid. Järgmine protsessivoog näitab müügi äriprotsessi. [![Müügi äriprotsess](./media/sales01.jpg)](./media/sales01.jpg)
+Müügifunktsiooni abil saab koostada hinnapakkumisi, teha ülesmüüki ja ristmüüki uutele ja olemasolevatele klientidele, koostada müügitellimusi ja koostada klientidele müügiarveid. Järgmine protsessivoog näitab müügi äriprotsessi. [![Müügi äriprotsess.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Müügipakkumised
 

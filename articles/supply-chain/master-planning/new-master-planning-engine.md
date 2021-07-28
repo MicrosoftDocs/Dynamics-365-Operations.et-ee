@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907687"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348753"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Üleminek planeerimise optimeerimisele koondplaneerimiseks
 
@@ -65,7 +65,7 @@ Pärast nõutavate funktsioonide kättesaadavaks muutumist annab Microsoft ajapi
 
 Järgmine vooskeem võtab kokku selles teemas esitatud teabe, et saaksite kiiresti teada, kas peaksite erandit taotlema. Kui teil on vaja taotleda erandit, täitke ja esitage [Planning Optimization migreerimise ja erandi küsimustik](https://go.microsoft.com/fwlink/?linkid=2144962).
 
-![Erandi vooskeem](media/exception-diagram.png "Erandi vooskeem")
+![Erandi vooskeem.](media/exception-diagram.png "Erandi vooskeem")
 
 > [!NOTE]
 > Erandit saate taotleda ainult rentnikele, kes hetkel kaasavad või kaasavad tulevikus tootmiskeskkondadega, mitte ainult liivakastikeskkondadega üürnikele. Kui teil on vaja keelata planeerimise optimeerimise erandi tõrge infrastruktuuri teenuse (IaaS-i) liivakastikeskkonnas, käivitage SQL-i päring, mis on esitatud teemas [Liivakastikeskkonad](#faq-sandbox).

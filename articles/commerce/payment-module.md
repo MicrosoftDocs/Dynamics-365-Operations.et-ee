@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804475"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352320"
 ---
 # <a name="payment-module"></a>Maksemoodul
 
@@ -46,9 +46,9 @@ Adyeni maksekonnektor toetab ka tugevat kliendi autentimist (SCA). Euroopa Liidu
 
 Järgmisel illustratsioonil on näide kinkekaardi, boonuspunktide ja Aydeni maksemoodulitest maksmise lehel.
 
-![Kinkekaardi, boonuspunktide ja Adyeni maksemoodulite näide maksmise lehel](./media/ecommerce-payments.PNG)
+![Kinkekaardi, boonuspunktide ja Adyen`i maksemoodulite näide maksmise lehel.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 maksekonnektor PayPali jaoks
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector PayPali jaoks
 
 Alates Commerce'i versioonist 10.0.14 integreeriti maksemoodul ka Dynamics 365 PayPali maksekonnektoriga. Lisateavet selle maksekonnektori häälestamise ja konfigureerimise kohta leiate teemast [Dynamics 365 maksekonnektor PayPali jaoks](paypal.md).
  
@@ -59,10 +59,10 @@ Kui maksemoodul on konfigureeritud kasutama PayPali maksekonnektorit, kuvatakse 
 PayPali maksekonnektor ei nõua arveldusaadressi moodulit, kuna kogu arveldusega seotud teavet käsitletakse PayPali oma IFrame'is. Siiski on vaja saatmisaadressi ja tarnevalikute mooduleid.
 
 Järgmisel joonisel on kujutatud näide kahest maksemoodulist maksmise lehel, millest üks on konfigureeritud Adyeni maksekonnektoriga ja teine PayPali maksekonnektoriga.
-![Kinkekaardi, boonuspunktide ja PayPali maksemoodulite näide maksmise lehel](./media/ecommerce-paypal.png)
+![Adyen`i makse ja PayPali maksemoodulite näide maksmise lehel.](./media/ecommerce-paypal.png)
 
 Järgmisel joonisel on toodud näide PayPal IFrame'ist, mida käivitatakse PayPali nupu abil. 
-![Näide Paypali IFrame'ist maksmise lehel](./media/ecommerce-paypal-iframe.png)
+![Näide Paypali IFrame'ist maksmise lehel.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Maksemooduli atribuudid
 
@@ -76,7 +76,7 @@ Järgmisel joonisel on toodud näide PayPal IFrame'ist, mida käivitatakse PayPa
 |On esmane makse|  **Tõene** või **Väär** | Kui see on **Tõene**, koostatakse tõrketeated maksmise lehel esmase maksekonnektori põhjal. Kui Aydeni ja PayPali maksekonnektorid on konfigureeritud, määrake Adyeni väärtuseks **Tõene**, mis lisati Commerce'i versioonis 10.0.14.|
 
 Järgmisel joonisel on kujutatud näide, kus atribuudi **Toetatud maksevahenditüübid** jaoks on määratud väärtus „PayPal“ Commerce'i peakontori maksekonnektori konfiguratsioonis.
-![Commerce'i peakontori toetatud maksevahenditüüpide näide](./media/ecommerce-paymenttendertypes.png)
+![Commerce'i peakontori toetatud maksevahenditüüpide näide.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Arveldusaadress
 

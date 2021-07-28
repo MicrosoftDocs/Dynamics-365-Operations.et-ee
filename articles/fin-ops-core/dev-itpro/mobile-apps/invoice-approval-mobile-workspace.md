@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c3414d6ef5f2df62f37f1ef2e7e2ff43ce040e5e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ac56dd8f6ecda669f32b298649da45634c5d83c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752246"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360764"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Arvete kinnitamise mobiilne tööruum
 
@@ -72,7 +72,7 @@ Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-    [![Tõmmake värskendamiseks](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Tõmmake värskendamiseks.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Arvete kinnitamine, kasutades arvete kinnitamise mobiilset tööruumi
 1.  Valige oma mobiilses seadmes tööruum **Arvete kinnitamine**.

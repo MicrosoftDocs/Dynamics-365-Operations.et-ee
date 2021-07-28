@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093916"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351653"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine
 
@@ -137,20 +137,20 @@ Saate määratleda reeglid, kus on mitu kriteeriumi. Kui määrate sobivuse reeg
 
 Näiteks ülaltoodud **Aktiivsete töötajate** reegel koosneb järgmistest kriteeriumidest. Selleks, et töötaja oleks **aktiivsete töötajate** reegli alusel sobilik, peab töötaja olema palgatud juriidilises isikus USMF *ja* tema positsioonitüüp peab olema täiskohaga.  
 
-![Sobivuse reegli kriteeriumid](media/CriteriaWithinAnEligibilityRule.png) 
+![Sobivuse reegli kriteeriumid.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Kriteeriumide sees on mitu tingimust
 
 Reegleid saab täiendavalt laiendada, et kasutada ühe kriteeriumi raames mitut tingimust. Selleks, et töötaja oleks sobilik, peab ta vastama vähemalt ühele tingimusele. Ülaltoodud näite põhjal toetudes saab **Aktiivsete töötajate** reeglit veelgi laiendada, et kaasata ka osalise tööajaga töötajad. Seetõttu peab töötaja olema USMF-i töötaja *ja* kas täis- või osalise tööajaga töötaja.  
 
-![Kriteeriumide sees on mitu tingimust](media/MultipleConditionsWithinCriteria.png) 
+![Kriteeriumide sees on mitu tingimust.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Kohandatud väljakriteeriumi sees abikõlblikkuse tingimused 
 Nagu ülaltoodud, saab kohandatud välju kasutada sobivuse reeglite loomisel ja samal viisil töötades. Näiteks võite pakkuda interneti hüvitist kodus töötavatele Fargo ja Kopenhaageni töötajatele, kuna nendes asukohtades on interneti kulud suuremad. Selleks looge kaks kohandatud välja: **Kontori asukoht** (komplekteeritud loend) ja **Kodust töötamine** (märkeruut). Seejärel looge reegel nimega **WFH töötajad**. Reegli kriteeriumiks on see, kus **Kontori asukoht = Fargo** või **Kopenhaagen** *ja* kus **Töötamine kodust = Jah**.
 
 Kohandatud sobivuse reeglid tuleb seadistada järgmisel pildil näidatud kohaselt. 
 
-![Kohandatud väljakriteeriumi sees abikõlblikkuse tingimused](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Kohandatud väljakriteeriumi sees abikõlblikkuse tingimused.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Kogumite konfigureerimine
 

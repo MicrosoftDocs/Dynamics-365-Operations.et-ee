@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893952"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351718"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>ER-konfiguratsioonide värskendatud versioonide importimine
 
@@ -41,11 +41,11 @@ Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest
 2. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
 3. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Konfiguratsioonide versioonide värskenduste importimine**.
 
-    ![Lokalisatsiooni konfiguratsioonide leht](./media/er-download-updated-versions-global-repo1.png)
+    ![Lokalisatsiooni konfiguratsioonide leht.](./media/er-download-updated-versions-global-repo1.png)
 
 4. Valige dialoogiboksi **Elektroonilise aruandluse konfiguratsioonide versioonide värksenduste importimine** väljal **Käitusrežiim** suvand **Kuva ainult saadaolevad värskendused**. Seejärel valige **OK**. 
 
-    ![Käitusrežiimi välja väärtuseks on seatud Kuva ainult saadaolevad värskendused](./media/er-download-updated-versions-global-repo2.png)
+    ![Käitusrežiimi välja väärtuseks on seatud Kuva ainult saadaolevad värskendused.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Vaadake üle vastuvõetud teated. Need teated annavad järgmist teavet praeguse Finance'i eksemplari ER-konfiguratsioonide kohta võrreldes globaalse hoidla sisuga.
 
@@ -72,14 +72,14 @@ Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest
 4. Valige dialoogiboksi **Elektroonilise aruandluse konfiguratsioonide versioonide värskenduste importimine** väljal **Käitusrežiim** suvand **Impordi uusimad värskendused**, et importida ER-konfiguratsioonide uusimad versioonid globaalsest hoidlast praegusesse Finance'i eksemplari.
 5. Importimise jaoks pakett-töö plaanimiseks määrake kiirkaardi **Käivita taustal** suvandi **Pakktöötlus** väärtuseks **Jah**. Kui soovite korrata importimist regulaarselt, konfigureerige nõutav kordumine.
 
-    ![Käitusrežiimi välja väärtuseks on seatud Impordi uusimad värskendused](./media/er-download-updated-versions-global-repo5.png)
+    ![Käitusrežiimi välja väärtuseks on seatud Impordi uusimad värskendused.](./media/er-download-updated-versions-global-repo5.png)
 
 6. Valige nupp **OK**.
 7. Et teada saada, millised konfiguratsiooni versioonid on imporditud, järgige ühte järgmistest etappidest.
 
     - Kui käivitate importimise pakett-töö kasutamise asemel interaktiivselt, vaadake üle vastuvõetud teated.
 
-        ![Interaktiivse importimise käitamise ajal vastuvõetud teated](./media/er-download-updated-versions-global-repo6.png)
+        ![Interaktiivse importimise käitamise ajal vastuvõetud teated.](./media/er-download-updated-versions-global-repo6.png)
 
     - Kui käivitate importimise partiirežiimis, toimige järgmiselt.
 
@@ -87,7 +87,7 @@ Selles teemas selgitatakse, kuidas importida konfiguratsiooniteenuse globaalsest
         2. Otsige üles ja valige töö **Elektroonilise aruandluse konfiguratsiooni versioonide värskenduste importimine** ja seejärel valige toimingupaani vahekaardil **Pakett-töö** töö ajaloo kuvamiseks suvand **Pakett-töö ajalugu**.
         3. Valige lehel **Pakett-töö ajalugu** suvand **Logi**. Seejärel valige töölogi kuvamiseks vastuvõetud teatest link **Teade üksikasjad**.
 
-        ![Töölogi](./media/er-download-updated-versions-global-repo7.png)
+        ![Töölogi.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Me ei soovita korduva pakett-töö plaanimist, et importida ER-konfiguratsioonide värskendatud versioone globaalsest hoidlast otse töökeskkonda, kuna imporditud versioonid on kasutamiseks kohe saadaval. Selle asemel kasutage seda lähenemist ER-konfiguratsioonide versioonide juurutamiseks liivakastikeskkonda. Seejärel saab neid kõigepealt liivakastikeskkonnas hinnata enne töökeskkonda juurutamist.

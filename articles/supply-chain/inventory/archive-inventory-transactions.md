@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021265"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345520"
 ---
 # <a name="archive-inventory-transactions"></a>Laokannete arhiivimine
 
@@ -64,7 +64,7 @@ Laokannete arhiivimiseks toimige järgmiselt.
 
     Kuvatakse leht **Laokannete arhiiv** ja sellel kuvatakse arhiivitud protsessikirjete loend.
 
-    ![Laokannete arhiivi leht](media/archive-inventory-empty.png "Laokannete arhiivi leht")
+    ![Laokannete arhiivi leht.](media/archive-inventory-empty.png "Laokannete arhiivi leht")
 
 1. Valige tegevuspaanil laokannete arhiivi loomiseks **Laokannete arhiiv**.
 1. Seadke dialoogiboksis **Laokannete arhiiv** kiirkaardil **Parameetrid** järgmised väljad:
@@ -72,7 +72,7 @@ Laokannete arhiivimiseks toimige järgmiselt.
     - **Suletud pearaamatu perioodi alguskuupäev** – valige varaseim kande kuupäev arhiivi kaasamiseks.
     - **Suletud pearaamatu perioodi lõppkuupäev** – valige hiliseim kande kuupäev arhiivi kaasamiseks.
 
-    ![Laokannete arhiivi dialoogiboks](media/archive-inventory-dates.png "Laokannete arhiivi dialoogiboks")
+    ![Laokannete arhiivi dialoogiboks.](media/archive-inventory-dates.png "Laokannete arhiivi dialoogiboks")
 
     > [!NOTE]
     > Valida saab ainult [eeltingimustele](#prerequisites) vastavad perioodid.
@@ -87,7 +87,7 @@ Laokannete arhiivimiseks toimige järgmiselt.
 
 Lehel **Laokannete arhiiv** kuvatakse teie täielik arhiivimisajalugu. Igal ruudustiku real kuvatakse selline teave nagu arhiivi loomise kuupäev, arhiivi loonud kasutaja ja selle olek.
 
-![Arhiivimisajalugu lehel Laokannete arhiivimine](media/archive-inventory-full.png "Arhiivimisajalugu lehel Laokannete arhiivimine")
+![Arhiivimisajalugu lehel Laokannete arhiivimine.](media/archive-inventory-full.png "Arhiivimisajalugu lehel Laokannete arhiivimine")
 
 Valige ruudustikus kuvatavate arhiivide filtreerimiseks lehe ülaosas asuvast ripploendist üks järgmistest väärtustest:
 
@@ -109,7 +109,7 @@ Ruudustiku kohal tööriistaribal on järgmised nupud, mida saate kasutada valit
 
 - **Arhiivitud kanded** – saate vaadata valitud arhiivi kõiki üksikasju. Ilmuval lehel **Arhiivitud kanded** kuvatakse kõik arhiivis olevad kanded.
 
-    ![Leht Arhiivitud kanded](media/archive-inventory-transactions.png "Leht Arhiivitud kanded")
+    ![Leht Arhiivitud kanded.](media/archive-inventory-transactions.png "Leht Arhiivitud kanded")
 
     Konkreetse kande kohta lisateabe vaatamiseks lehel **Arhiveeritud kanded** valige see ruudustikus ja seejärel valige tegevuspaanil **Arhiivitud kande üksikasjad**. Ilmuval lehel **Arhiivitud kande üksikasjad** kuvatakse selline teave nagu pearaamatu sisestamine, seotud alammooduli viited ja finantsdimensioonid.
 

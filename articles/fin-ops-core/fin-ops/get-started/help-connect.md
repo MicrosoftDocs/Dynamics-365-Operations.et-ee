@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745685"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343930"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Spikri kasutuskogemuse konfigureerimine Finance and Operationsi rakendustes
 
@@ -32,7 +32,7 @@ Selles teemas antakse ülevaade Finance and Operationsi rakenduste spikrisüstee
 
 Finance and Operationsi rakendused hõlmavad mõistete ülevaateid ja muid teemasid, mida avaldatakse saidil [https://docs.microsoft.com/dynamics365](/dynamics365/). Selle sisu juurde pääseb seejärel tootesisese paani **Spikker** kaudu. Järgmisel joonisel on näidatud spikrisüsteemi osad.
 
-[![Spikri arhitektuur](./media/help-architecture.png)](./media/help-architecture.png)
+[![Spikri arhitektuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Tootesisene spikrisüsteem toob artikleid saidilt docs.microsoft.com ja teistelt ühendatud veebisaitidelt. See toob ka teenuse Microsoft Dynamics Lifecycle Services (LCS) äriprotsesside modelleerijas talletatud tegevuse juhiseid.
 
@@ -47,14 +47,14 @@ Süsteemiadministraatorid saavad lehel **Süsteemi parameetrid** konfigureerida 
 > - Spikri konfigureerimiseks peate logima sisse kontoga samas rentnikus, kuhu rakendus juurutatakse.
 > - LCS-teegiga ei saa luua ühendust rakenduse eksemplarist, mis töötab virtuaalsel kõvakettal (VHD).
 
-[![Süsteemi parameetrite vorm koos spikrisätetega](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Süsteemi parameetrite vorm koos spikrisätetega.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Lahenduse jaoks tegevuse juhiste konfigureerimiseks, järgige lehel **Süsteemi parameetrid** toodud juhiseid.
 
 > [!IMPORTANT]
 > Vahekaardi **Spikker** esmakordsel avamisel peate looma ühenduse elutsükli teenustega. Valige kindlasti vormi keskel olev link, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel valige **OK**, et avada **Parameetrite vormid**.
 >
-> [![Ühenda LCS-iga](./media/connect-to-lcs-crop-1024x365.png "Ühenda LCS-iga")](./media/connect-to-lcs-crop.png)
+> [![LCS-ga ühendamiseks](./media/connect-to-lcs-crop-1024x365.png "Ühenda LCS-ga."](./media/connect-to-lcs-crop.png)
 
 1. Valige elutsükli teenuste projekt, millega ühendus luua.
 2. Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.

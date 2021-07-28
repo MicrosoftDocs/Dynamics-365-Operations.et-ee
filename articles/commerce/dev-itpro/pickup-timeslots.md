@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791161"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355447"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Kliendi järeletulemise ajavahemike loomine ja värskendamine
 
@@ -34,7 +34,7 @@ Ajavahemiku funktsioon annab jaemüüjatele võimaluse määratleda ajavahemiku 
 
 Järgmisel joonisel on näidatud ajavahemiku valiku näide e-kaubanduse kassas.
 
-![Ajavahemiku valiku näide e-kaubanduse kassas](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Ajavahemiku valiku näide e-commerce kassas.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Ajavahemike atribuudid
 
@@ -60,7 +60,7 @@ Ajavahemik määratletakse järgmiste atribuutide abil.
 - **Aktiivsed päevad** – määrake nädalapäevad, kui järeletulemise ajavahemikud on aktiivsed. See atribuut võimaldab jaemüüjal määratleda päevad, mil ta soovib järeletulemisega tellimusi toetada.
 - **jaemüügikanalid** – saate määrata jaemüügikanalid. Iga ajavahemikku saab seostada ühe või mitme jaekauplusega. Sõltuvalt iga poe lahtiolekuajast saab luua ja kanaliga seostada vähemalt ühe ajavahemikukande. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Kanali kohta saab konfigureerida ainult ühe ajavahemiku malli. Need kanalid hõlmavad tellis-ja mördi kauplusi, kõnekeskusi, mobiiliseadmeid ja e-kaubanduse saite.
 
@@ -85,14 +85,14 @@ Ajavahemiku funktsiooni konfigureerimiseks Commerce'i peakontoris tehke järgmis
     > [!NOTE]
     > Saate luua mitu malli, kuid ühe kanali või poega saab seostada ainult ühe malli.
 
-    ![Dialoogiboks Tellimusele järeletulemine – kellaaja sätted](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Tellimusele järeletulemine - kellaaja sätete dialoogiboks.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Kui olete lõpetanud, valige **OK**.
 1. Kui ajavahemikud päeva jooksul varieeruvad, looge kiirkaardil **Tellimusele järeletulemine – kellaaja sätted** veel kirjeid, et kuupäevad ja kellaajad ei kattuks.
 1. Valige kiirkaardil **jaemüügikanalid** nupp **Lisa**, et seostada ajavahemiku mall nende poodide või kanalitega, kus seda kasutatakse.
 1. Kasutage dialoogiboksis **Organisatsiooni sõlmede valimine** poodide, regioonide ja organisatsioonide, millega mall peaks seotud olema, valimiseks (või valiku tühistamiseks) noolenuppe.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Kui olete lõpetanud, valige **OK**.
 1. Käivitage lehel **Jaotusgraafik** tööd **1070** ja **1135**, et sünkroonida andmed kanalitega.
@@ -103,7 +103,7 @@ Kui kassas määratakse kindlaks järeletulemisega tellimuse rida, saab kassapid
 
 Järgmisel joonisel on näidatud ajavahemiku valiku näide kassatellimuses.
 
-![Ajavahemiku valiku näide kassatellimuse jaoks](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Ajavahemiku valiku näide kassatellimuse jaoks.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>E-kaubanduse ajavahemike valimine
 
@@ -114,17 +114,17 @@ Lisateavet selle kohta, kuidas valida e-kaubanduse tellimuste jaoks ajavahemikku
 
 Järgmisel joonisel on kujutatud e-kaubanduse tellimuse näide, kus järeletulemise ajavahemik on valitud.
 
-![Näide e-kaubanduse tellimusest, kus järeletulemise ajavahemik on valitud](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Näide e-commerce tellimusest, kus järeletulemise ajavahemik on valitud.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Kõnekeskuse tellimustele ajavahemiku valimine
 
 Kõnekeskuse rakenduses saavad kõnekeskuse agendid valida järeletulemise poe või asukoha ning ka kuupäeva ja ajavahemiku, nii nagu välja toodud järgmisel joonisel.
 
-![Näide kõnekeskuse tellimusest, kus järeletulemise ajavahemik on valitud](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Näide kõnekeskuse tellimusest, kus järeletulemise ajavahemik on valitud.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Järeletulemisteabe moodul](../pickup-info-module.md)
+[Järeletulemise teabe moodul](../pickup-info-module.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

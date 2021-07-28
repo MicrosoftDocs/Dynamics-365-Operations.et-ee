@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838857"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350068"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Dokumentide ja kannete nummerdamine kronoloogiliselt
 
@@ -69,7 +69,7 @@ Numbriseeriate määratlemiseks minge jaotisse **Organisatsiooni haldus** > **Nu
 
 Määrake igale numbriseeriale ettevõte. Numbriseeriate segmendid tuleb määratleda nii, et need korraldavad perioodid kronoloogilisse järjestusse. Näiteks võivad segmentide nimed hõlmata spetsiaalset prefiksit, mis tuvastab konkreetse perioodi.
 
-![Numbriseeriate seadistamine](media/chrono-num-sequence.jpg)
+![Numbriseeriate seadistamine.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Numbriseeriate gruppide konfigureerimine
 
@@ -77,7 +77,7 @@ Numbriseeriate gruppide konfigureerimiseks minge jaotisse **Müügireskontro** >
 
 Valige iga grupi jaoks jaotises **Viide** üks toetatud dokumendiviidetest ja vaadake väljal **Numbriseeria kood** vastava perioodi jaoks eelnevalt loodud numbriseeriat.
 
-![Numbriseeriagrupi seadistus](media/chrono-num-sequence-group.jpg)
+![Numbriseeriagrupi seadistus.](media/chrono-num-sequence-group.jpg)
 
 Samuti konfigureerige numbriseeriate grupid moodulites **Ostureskontro** ja **Projektihaldus ja raamatupidamine**.
 
@@ -85,7 +85,7 @@ Samuti konfigureerige numbriseeriate grupid moodulites **Ostureskontro** ja **Pr
 
 Numbriseeriate gruppide kronoloogia konfigureerimiseks minge jaotisse **Organisatsiooni haldus** > **Numbriseeriad** > **Kronoloogilised numbriseeriate grupid**. Määratlege numbriseeriate gruppide kohaldatavuse tingimused.
 
-![Numbrite seadistamine kronoloogiliselt](media/chrono-num-sequence-group-period.jpg)
+![Numbrite seadistamine kronoloogiliselt.](media/chrono-num-sequence-group-period.jpg)
 
 | Field            | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Numbriseeriate gruppide kronoloogia konfigureerimiseks minge jaotisse **Organisa
 ## <a name="document-posting"></a>Dokumendi sisestamine
 Dokumendi sisestamisel määratakse dokumendile selle sisestuskuupäeval põhinev sobiv numbriseeriate grupp ja seejärel kasutatakse seda tuvastatud numbriseeria alusel dokumendi numbri loomiseks. Süsteem edastab numbriseeriate grupi määramise kohta teate.
 
-![Dokumendi number](media/chrono-num-sequence-fti.jpg)
+![Dokumendi number.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Mõnes riigis on dokumentide nummerdamiseks juba rakendatud kindel loogika. Sellisel juhul alistab riigipõhine loogika funktsiooni **Kronoloogiline nummerdamine**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085496"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351148"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -62,7 +62,7 @@ Kui seate suvandi **Partiitöötlus** väärtuseks **Jah**, siis käivitatakse E
 > [!NOTE]
 > Töö kirjeldus teavitab teid ER-vorminguvastenduse käitamise kohta. Samuti sisaldab see käitatud ER-i komponendi nime.
 
-[![ER-vormingu käitamine](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![ER-vormingu käitamine.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 Selle töö kohta leiate teavet mitmest kohast.
 
@@ -74,17 +74,17 @@ Selle töö kohta leiate teavet mitmest kohast.
 
 - Valige lehel **Elektroonilise aruandluse tööd** suvand **Kuva failid**, et näha töö teostamisel tekkinud tõrgete ja hoiatuste loetelu.
 
-    [![ER-i tööde nimekirja ülevaatus](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![ER-i tööde nimekirja ülevaatus.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Kasutaja konfigureeritud käitumine
 
 Lehel **Elektroonilise aruandluse sihtkoht** saate konfiguratsiooni vaikekäitumise tühistada. Imporditud konfiguratsioone ei kuvata siin lehel enne, kui valite **Uus** ja seejärel valite väljal **Viide** konfiguratsiooni, millele sihtkoha sätted luua.
 
-[![Konfiguratsiooni valimine väljal Viide](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Konfiguratsiooni valimine väljal Viide.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Pärast viite loomist saate luua faili sihtkoha iga viidatud ER vormingu **Kausta** või **Faili** väljundi komponendi jaoks.
 
-[![Failisihtkoha loomine](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Failisihtkoha loomine.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Seejärel saate faili sihtkoha jaoks üksikuid sihtkohti dialoogiboksis **Sihtkoha sätted** kas lubada või keelata. Nuppu **Sätted** kasutatakse valitud faili sihtkohtade juhtimiseks. Dialoogiboksis **Sihtkoha sätted** saate iga sihtkohta eraldi juhtida, tehes sellele valiku **Lubatud**.
 
@@ -92,7 +92,7 @@ Finance'i versioonides **enne versiooni 10.0.9** saate luua **ühe faili sihtkoh
 
 Näiteks saate kasutada seda võimalust failide sihtkohtade konfigureerimiseks sellise faili komponendi jaoks, mida kasutatakse väljamineva dokumendi loomiseks Exceli vormingus. Ühte sihtkohta ([arhiivi](er-destination-type-archive.md)) saab konfigureerida salvestama algse Exceli faili ER-tööde arhiivi ja teise sihtkohta ([meili](er-destination-type-email.md)) saab konfigureerida samaaegselt [teisendama](#OutputConversionToPDF) Exceli faili PDF-vormingusse ja saatma PDF-faili e-postiga.
 
-[![Ühele vormingu elemendile mitme sihtkoha konfigureerimine](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Ühele vormingu elemendile mitme sihtkoha konfigureerimine.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 ER-i vormingu käivitamisel käitatakse alati kõik vormingu komponentide jaoks konfigureeritud sihtkohad. Lisaks on rakenduse Finance **versioonis 10.0.17 ja uuemas** ER-i sihtkohtade funktsiooni parandatud ja nüüd võimaldab see ühe ER-i vormingu jaoks erinevad sihtkohtade komplektid. See konfiguratsioonimärk märgib iga komplekti konkreetse kasutaja tegevuseks konfigureerituks. ER-i API on [laiendatud](er-apis-app10-0-17.md), et võimalik oleks esitada kasutaja tehtav tegevus ER-i vormingut käitades. Esitatud tegevuse kood edastatakse ER-i sihtkohtadele. Olenevalt esitatud tegevuse koodist saate käitada ER-i vormingu jaoks erinevad sihtkohad. Lisateavet vt [Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Võite seadistada sihtkohad ainult imporditud ER-i konfiguratsioonidele ja vormi
 
 Kui konfigureerite valitud vormingu jaoks faili sihtkohti, konfigureerite need kogu vormingu jaoks.
 
-[![Konfiguratsiooni link](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Konfiguratsiooni link.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Samal ajal võib teil olla praegusesse Finance'i eksemplari imporditud vormingust mitu [versiooni](general-electronic-reporting.md#component-versioning). Saate neid vaadata valides linki **Konfiguratsioon**, mida näete, kui valite välja **Viide**.
 
-[![Konfiguratsiooni versioonid](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Konfiguratsiooni versioonid.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Vaikimisi rakendatakse konfigureeritud sihtkoti ainult juhul, kui käivitate ER vormingu versiooni, mille olek on kas **Lõpetatud** või **Ühiskasutuses**. Kuid vahel peate kasutama konfigureeritud sihtkohti, kui käivitatakse ER-vormingu mustandversioon. Näiteks muudate oma vormingu mustandversiooni ja soovite kasutada konfigureeritud sihtkohti, et katsetada, kuidas loodud väljund tarnitakse. Järgige neid samme, et rakendada ER-vormingule sihtkohti mustandversiooni käivitamisel.
 
@@ -128,7 +128,7 @@ Vaikimisi rakendatakse konfigureeritud sihtkoti ainult juhul, kui käivitate ER 
 2. Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
 3. Seadistage suvand **Kasuta mustandi oleku korral sihtkohti** väärtusele **Jah**.
 
-[![Suvand Kasuta mustandi oleku korral sihtkohti](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Suvand Kasuta mustandi oleku korral sihtkohti.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 ER-vormingu mustandversiooni kasutamiseks peate ER-vormingu vastavalt märgistama.
 
@@ -136,11 +136,11 @@ ER-vormingu mustandversiooni kasutamiseks peate ER-vormingu vastavalt märgistam
 2. Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
 3. Seadistage suvand **Käivita säte** väärtusele **Jah**.
 
-[![Sätte käivitamise suvand](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Sätte käivitamise suvand.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Pärast selle seadistuse lõpuleviimist muutub suvand **Käivita mustand** muudetavate ER-vormingute juures kättesaadavaks. Seadistage see suvand väärtusele **Jah**, et hakata kasutama vormingu käivitamisel vormingu mustandversiooni.
 
-[![Mustandi käivitamise suvand](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Mustandi käivitamise suvand.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Sihtkoha tõrke käsitlemine
 
@@ -148,7 +148,7 @@ Tavaliselt käivitatakse ER-vorming kindla äriprotsessi piires. Kuid väljamine
 
 Näiteks konfigureerite hankija makse töötlemise nii, et **ISO20022 krediidiülekande** ER-vorming käivitatakse maksefaili ja lisadokumentide (nt kaaskiri ja kontroll-aruanne) loomiseks. Kui makse tuleks lugeda edukalt töödelduks ainult siis, kui kaaskiri on edukalt e-posti teel kohale toimetatud, peate valima märkeruudu **Lõpeta tõrke korral töötlemine** komponendile **Kaaskiri** sobivas faili sihtkohas, nii nagu näidatud järgmisel joonisel. Sellisel juhul muudetakse töötlemiseks valitud makse olekut väärtuselt **Puudub** väärtusele **Saadetud** ainult siis, kui loodav kaaskiri on Finance'i eksemplaris konfigureeritud meiliteenuse pakkuja poolt kättetoimetamiseks vastu võetud.
 
-[![Faili sihtkoha nurjumise protsessi töötlemise konfigureerimine](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Faili sihtkoha nurjumise protsessi töötlemise konfigureerimine.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Kui tühjendate märkeruudu **Lõpeta tõrke korral töötlemine** sihtkohas komponendi **Kaaskiri** jaoks, peetakse makset edukalt töödelduks isegi siis, kui kaaskiri ei ole edukalt meili teel kohale toimetatud. Makse olek muudetakse olekust **Puudub** olekusse **Saadetud** isegi siis, kui kaaskirja ei saa saata näiteks seetõttu, et saaja meiliaadress puudub või on vale.
 
@@ -160,7 +160,7 @@ Saate kasutada PDF-i teisendamise valikut väljundi teisendamiseks Microsoft Off
 
 PDF-i teisenduse võimaluse kättesaadavaks tegemiseks praeguses Finance'i eksemplaris avage tööruum **Funktsioonide haldus** ja lülitage sisse funktsioon **Elektroonilise aruandluse väljaminevate dokumentide teisendamine Microsoft Office'i vormingutest PDF-i**.
 
-[![Väljamineva dokumendi PDF-i teisenduse sisselülitamine funktsioonide halduses](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Väljamineva dokumendi PDF-i teisenduse sisselülitamine funktsioonide halduses.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Kohaldatavus
 
@@ -185,13 +185,13 @@ Väljundi teisendamisel kasutatakse ainult tavalisi Windowsi operatsioonisüstee
 
 Faili sihtkoha jaoks PDF-teisenduse sisselülitamiseks valige märkeruut **Teisenda PDF-iks**.
 
-[![Faili sihtkoha jaoks PDF-teisenduse sisselülitamine](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![Faili sihtkoha jaoks PDF-teisenduse sisselülitamine.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">PDF-i teisenduse lehe paigutuse valimine</a>
 
 Kui loote Exceli vormingus ER-konfiguratsiooni ja soovite selle teisendada PDF-vormingusse, saate määrata PDF-dokumendi paigutuse. Kui märgite ruudu **Teisenda PDF-iks**, et lülitada sisse PDF-faili teisendamine faili sihtkoha jaoks, mis toodab väljundfaili Exceli vormingus, on väli **Lehe paigutus** saadaval kiirkaardil **PDF-i teisenduse sätted**. Valige väljal **Lehe paigutus** soovitud lehe paigutus.
 
-[![PDF-i teisenduse lehe paigutuse valimine](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![PDF-i teisenduse lehe paigutuse valimine.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > Selleks, et saaksite valida PDF-i lehe paigutust, peate installima rakenduse Finance versiooni 10.0.10 või uuema.
@@ -222,7 +222,7 @@ Valige kiirkaardil **Üldine** väljal **Saada kaust kui** üks järgmistest vä
     > [!NOTE]
     > Kui valite **Eraldi failid**, kogutakse loodud väljund mälusse sihtnumbri olekus. Seetõttu rakendatakse maksimaalne [faili mahupiirang](er-compress-outbound-files.md) sihtväljundile, kui tegelik faili suurus võib seda piirangut ületada. Soovitatav on see väärtus valida siis, kui eeldate, et loodud toodangu maht on liiga suur.
 
-[![Kausta vormingu komponendi sihtkoha konfigureerimine](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Kausta vormingu komponendi sihtkoha konfigureerimine.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Kitsendused
 

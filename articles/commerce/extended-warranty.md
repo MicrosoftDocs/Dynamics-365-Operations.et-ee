@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792459"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353824"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Põhjalikumate garantiide loomine ja konfigureerimine
 
@@ -81,7 +81,7 @@ Commerce'is kaubagarantii loomiseks toimige järgmiselt.
 
     Näiteks kaheaastase garantii puhul seadke välja **Ajaühik** väärtuseks **Aasta(t)** ja välja **Ajavahemik** väärtuseks **2**. Teise võimalusena võite seada välja **Ajaühik** väärtuseks **Kuu(d)** ja välja **Ajavahemik** väärtuseks **24**, nagu on näha järgmisel joonisel.
 
-    ![Toote üksikasjade leht kaubagarantii jaoks](./media/ew-time-properties.png)
+    ![Toote üksikasjade leht kaubagarantii jaoks.](./media/ew-time-properties.png)
 
 1. Kaubagarantii salvestamiseks valige **Salvesta**.
 1. Tehke kaubagarantii ettevõttele kättesaadavaks, et seda saaks müüa. Lisateavet leiate teemast [Jaemüügitoodete häälestamine](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Commerce'is kaubagarantii loomiseks toimige järgmiselt.
 
     Näiteks on järgmisel joonisel seatud välja **Hinnavahemiku alus** väärtuseks **Baashind**, välja **Alampiir** väärtuseks 500 $ ja välja **Ülempiir** väärtuseks 1000 $.
     
-    ![Väljastatud toote üksikasjade leht kaubagarantii jaoks](./media/ew-release-product-details.png)
+    ![Väljastatud toote üksikasjade leht kaubagarantii jaoks.](./media/ew-release-product-details.png)
 
 1. Määrake kaubagarantii kanalile, kus seda müüakse. Lisateabe saamiseks vt [Sortimentide häälestamine](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Müügiesindajad saavad kliendiostude protsessi ajal kaubagarantiisid müüa kah
 
 Järgmisel joonisel on näha kassaterminali lehe näide, millel on kujutatud praegusele garantiikõlbliku kauba ostule kaubagarantii lisamise viip.
 
-![Praegusele ostule kaubagarantii lisamise viiba näide](./media/ew-sell-warranty.png)
+![Praegusele ostule kaubagarantii lisamise viiba näide.](./media/ew-sell-warranty.png)
 
 Järgmisel joonisel on näide funktsioonist, mille kaudu saab lisada varem müüdud garantiikõlblikule kaubale kaubagarantii.
 
-![Varem müüdud garantiikõlblikule kaubale kaubagarantii lisamise funktsiooni näide](./media/ew-add-warranty-existing.png)
+![Varem müüdud garantiikõlblikule kaubale kaubagarantii lisamise funktsiooni näide.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Garantiikannete töötlemine
 

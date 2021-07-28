@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: dce0dd216d552d956ba7fdbcb4eebb6ed85b7115
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897860"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348958"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 
@@ -38,19 +38,19 @@ Kõige lihtsam meetod konsolideerimiseks finantsaruandlust kasutades on kasutada
 
 Järgmisel joonisel on näha, kuidas saate kasutada finantsaruandluses aruandluspuu definitsiooni iga konsolideeritava ettevõtte tuvastamiseks.
 
-![Aruandluspuu definitsioon](./media/reporting-tree-definition.png "Aruandluspuu definitsioon")
+![Aruandluspuu definitsioon.](./media/reporting-tree-definition.png "Aruandluspuu definitsioon")
 
 Nagu konsolideeritud aruandes järgmisel joonisel on näha, saate aruandluspuu kasutamisel koos aruande definitsooniga vaadata iga ettevõtet eraldi. Konsolideeritud summad on näha koondtasandil.
 
-![Konsolideeritud summa koondtasand](./media/consolidate-amount-summary-level.png "Konsolideeritud summa koondtasand")
+![Kkoondtasandi konsolideeritud summa.](./media/consolidate-amount-summary-level.png "Konsolideeritud summa koondtasand")
 
 Saate ka luua mitmetasemelise aruandluspuu, mis hõlmab nii palju tasemeid, kui teil on vaja. Järgmisel joonisel on näha mitmetasemeline aruandluspuu definitsioon, millel on kokkuvõtted üleilmse piirkonna järgi.
 
-![Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega piirkonna järgi](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega piirkonna järgi")
+![Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega piirkonna järgi.](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega piirkonna järgi")
 
 Järgmisel joonisel on näha mitmetasemeline aruandluspuu definitsioon, millel on kokkuvõtted funktsiooni järgi.
 
-![Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega funktsiooni järgi](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega funktsiooni järgi")
+![Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega funktsiooni järgi.](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega funktsiooni järgi")
 
 ### <a name="viewing-companies-side-by-side"></a>Ettevõtete vaatamine kõrvuti
 Paljud kliendid eelistavad aruandeid, kus ettevõtted kuvatakse kõrvuti ja kus veerus on näha konsolideeritud kogusumma. Seda vormingut on lihtne saavutada pärast aruandluspuu loomist. Siin on kõrgetasemelised etapid ettevõtete kõrvuti vaatamiseks konsolideeritud finantsaruannetel.
@@ -61,19 +61,19 @@ Paljud kliendid eelistavad aruandeid, kus ettevõtted kuvatakse kõrvuti ja kus 
 
 Järgmisel joonisel on näha veerudefinitsioon kõrvuti vormingus.
 
-![Veeru definitsioon kõrvuti vormingus](./media/column-definition-side-by-side-format.png "Veeru definitsioon kõrvuti vormingus")
+![Veeru definitsioon kõrvuti vormingus.](./media/column-definition-side-by-side-format.png "Veeru definitsioon kõrvuti vormingus")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Konsolideerimised, mis kasutavad juriidilistest isikutest loodud organisatsiooni struktuure
 Organisatsiooni hierarhiad, mis sisaldavad dimensioone või juriidilisi isikuid, loovad dünaamiliselt aruandluspuu definitsioonid finantsaruandluses. Lihtne moodus konsolideerimiste sujuvamaks muutmiseks on lisada finantsaruandluses aruandele organisatsiooni hierarhia. Finantsaruandlus valib aruande kuupäeva järgi organisatsiooni hierarhia jõustumiskuupäeval või enne seda, nagu on näha järgmisel joonisel.
 
-![Aruandluspuu definitsiooni dünaamiline loomine](./media/dynamically-create-reporting-tree-definitions.png "Aruandluspuu definitsiooni dünaamiline loomine")
+![Aruandluspuu definitsiooni dünaamiline loomine.](./media/dynamically-create-reporting-tree-definitions.png "Aruandluspuu definitsiooni dünaamiline loomine")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Eemaldamisi sisaldavad konsolideerimised
 Eemaldamiskanded on konsolideerimisprotsessi tavaline osa. Selles näites eemaldatakse konsolideerimise ajal viis kontot: 142600, 211400, 401420, 401180 ja 510820. Ettevõtted võivad oma ettevõtete vahelised kontod erinevalt seadistada. Näiteks mõni ettevõte määrab viimaseks numbriks 9, kui kontot kasutatakse ettevõtete vahelistes kannetes. Meetodist olenemata saab eemaldamise kuvada konsolideeritud finantsaruannetel, kui teate ettevõtete vahelisi kontosid.
 
 Järgmisel joonisel on näha veerudefinitsioon konsolideeritud kasumiaruande jaoks. Iga ettevõtte jaoks määratakse kolm ettevõtete vahelist kasumi ja kahju kontot, kasutades dimensioonifiltrit. Veerud F, G ja H sisaldavad eemaldamiskontosid ainult USMF-, USRT- ja DEMF-ettevõtete jaoks. Need veerud on seadistatud nii, et neid **ei** prindita finantsaruandele.
 
-![Veerudefinitsiooni konsolideeritud kasumiaruanne](./media/column-definition-consolidated-income-statement.png "Veerudefinitsiooni konsolideeritud kasumiaruanne")
+![Veerudefinitsiooni konsolideeritud kasumiaruanne.](./media/column-definition-consolidated-income-statement.png "Veerudefinitsiooni konsolideeritud kasumiaruanne")
 
 Kui aruanne luuakse, arvutatakse eemaldamiskontod veergudes F, G ja H ning need võetakse kokku veerus column I. Veerg J näitab konsolideeritud summasid. Need konsolideeritavad summad välistavad eemaldamised ettevõtetele USMF, USRT ja DEMF.
 
@@ -82,7 +82,7 @@ Kui aruanne luuakse, arvutatakse eemaldamiskontod veergudes F, G ja H ning need 
 
 Järgmisel joonisel on näha konsolideeritud aruanne.
 
-![Konsolideeritud aruande kasumiaruanne](./media/consolidated-report-income-statement.png "Konsolideeritud aruande kasumiaruanne")
+![Konsolideeritud aruande kasumiaruanne.](./media/consolidated-report-income-statement.png "Konsolideeritud aruande kasumiaruanne")
 
 Kui te kasutate kontosid, dimensioone või mõlemat, finantsaruandlus laseb teil filtreerida eemaldamiskirjeid, kasutades dimensiooni filtreerimise võimalusi.
 
@@ -95,20 +95,20 @@ Sisestage aruandluspuu definitsioonis omandiõiguse protsent veergu **Ümberarve
 > [!NOTE]
 > Saate seda omandiõiguse protsenti rakendada mis tahes aruandlusüksusele, mitte ainult ettevõtte tasemel. 
 
-![Aruandluspuu definitsiooni protsendi kasutamine](./media/Using-reporting-tree-definition-percentage.png "Aruandluspuu definitsiooni protsendi kasutamine")
+![Aruandluspuu definitsiooni protsendi kasutamine.](./media/Using-reporting-tree-definition-percentage.png "Aruandluspuu definitsiooni protsendi kasutamine")
 
 Aruande loomisel kuvab Contoso Germany aruanne 100 protsenti müügisummast ning 80 protsenti summast eraldatakse ja arvestatakse ümber müügi konsolideeritud tasemele.
 
 Kui teile kuulub ettevõttest vähem kui 1 protsent, võite valida märkeruudu **Luba alla 1% suurust ümberarvestust** vahekaardil **Lisasuvandid** lehel **Aruande sätted**, nagu on näha järgmisel joonisel. Sel juhul koheldakse aruandluspuu veeru **Ümberarvestuse %** väärtusi vähema kui 1 protsendina. Näiteks kui sisestate väärtuse **0,8**, arvestatakse konsolideeritud tasemele ümber 0,8 protsenti, mitte 80 protsenti. Teine võimalus sama tulemuse saavutamiseks on jätta märkeruut **Luba alla 1% suurust ümberarvestust** valimata ja sisestada väärtus **0,008** veergu **Ümberarvestuse %**.
 
-![Aruandluse seadistussuvandid](./media/reporting-setting-options.png "Aruandluse seadistussuvandid")
+![Aruandluse seadistussuvandid.](./media/reporting-setting-options.png "Aruandluse seadistussuvandid")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Omandiõiguse kuvamine eraldi reana konsolideeritud aruandel
 Teine võimalus vähemusosaluse korral on kuvada 100 protsenti tütarettevõttest iga aruande rea kohta, aga arvata mittekontrolliv intress netotulust maha.
 
 Järgmisel joonisel on näha, et lauset **IF THEN ELSE** ja veerupiirangut readefinitsioonis võib kasutada vähemusosaluse arvutamiseks finantsaruannetel.
 
-![Omandiõiguse kuvamine eraldi reana konsolideeritud aruandel](./media/Showing-ownership-separate-row-consolidated-report.png "Omandiõiguse kuvamine eraldi reana konsolideeritud aruandel")
+![Omandiõiguse kuvamine eraldi reana konsolideeritud aruandel.](./media/Showing-ownership-separate-row-consolidated-report.png "Omandiõiguse kuvamine eraldi reana konsolideeritud aruandel")
 
 ## <a name="multiple-charts-of-accounts-across-legal-entities"></a>Mitu juriidiliste isikute kontoplaani
 Sageli on erinevatel juriidilistel isikutel erinevad kontoplaanid, aga siiski soovitakse luua konsolideeritud finantsaruandeid. Sel juhul saab finantsaruandlust kasutada andmete konsolideerimiseks, et saaksite luua konsolideeritud finantsaruandeid. Siin on konsolideerimise kõrgetasemelised etapid, kui juriidilistes isikutes on erinevad kontoplaanid.
@@ -122,11 +122,11 @@ Iga eraldi ettevõtte kontoplaani kohta saab readefinitsioonis igale reale lisad
 > [!TIP]
 > Lisateavet lahtri **Link finantsdimensioonidele** kohta vt teemast Finantsdimensioonide lahtri lingi määratlemine.
 
-![Kontode esimese lingi finantsdimensioonidele määramine](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Kontode esimese lingi finantsdimensioonidele määramine")
+![Kontode esimese lingi finantsdimensioonidele määramine.](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Kontode esimese lingi finantsdimensioonidele määramine")
 
 Võite kasutada aruandluspuud määramaks, millist linki finantsdimensioonidele readefinitsioonis iga ettevõtte jaoks kasutatakse. Valige readefinitsioon veerus E ja seejärel valige sobiv realink veerus F, nagu on näidatud järgmisel joonisel.
 
-![Kasutatud finantsdimensioonide lingi readefinitsioon](./media/link-financial-dimensions-row-definition-used.png "Kasutatud finantsdimensioonide lingi readefinitsioon")
+![Kasutatud finantsdimensioonide lingi readefinitsioon.](./media/link-financial-dimensions-row-definition-used.png "Kasutatud finantsdimensioonide lingi readefinitsioon")
 
 > [!TIP]
 > Kui loote lingid finantsdimensioonidele, kasutage kirjeldust, et määrata ettevõtted, millele iga link rakendub. Sedasi saate aruandluspuud luues hõlpsamini valida õige ettevõtte. Veerudefinitsioonis laseb väli **Aruandlusüksus** piirata iga veergu aruandluspuu üksusele, nii et saate andmeid vaadata kõrvuti. Kui te ei märgi veeru jaoks konkreetset ettevõtet, kuvatakse konsolideeritud andmed kõikide ettevõtete kohta.
@@ -146,16 +146,16 @@ Kui loote veerudefinitsiooni mitmele ettevõttele, millel on erinevad rahanduspe
 
 Järgmisel joonisel on aruande definitsioonis välja **Ettevõtte nimi** määratud USMF-i ettevõte. Seega USMF-i ettevõtte rahanduskalendrit kasutatakse rahanduskalendri alusena. Selles näites luuakse aruanne kuupäevale 30. juuni 2018 ja USMF-i ettevõte kasutab baasperioodi BASE, mis on aruande definitsioonis määratud perioodina 12. INMF-i ettevõte kasutab baasperioodi BASE–6, mis on periood 6. Mõlemad veerud hõlmavad andmeid 2018. aasta juuni kohta.
 
-![Aruande baasperiood](./media/report-base-period.png "Aruande baasperiood")
+![Aruande baasperiood.](./media/report-base-period.png "Aruande baasperiood")
 
 Järgmisel joonisel on näha aruande definitsiooni suvandid, millega saate valida, kas konsolideerimiseks kasutatakse perioodi numbrit või perioodi lõppkuupäeva.
 
-![Aruande definitsiooni perioodi numbri suvandid](./media/options-report-definition-period-number.png "Aruande definitsiooni perioodi numbri suvandid")
+![Aruande definitsiooni perioodi numbri suvandid.](./media/options-report-definition-period-number.png "Aruande definitsiooni perioodi numbri suvandid")
 
 ## <a name="business-unit-consolidations"></a>Äriüksuse konsolideerimised
 Selles teemas keskendutakse aruandluspuu definitsioonide ja organisatsiooni hierarhiate kasutamisele finantsaruandluses konsolideerimiseks. Võite aruandluspuud kasutada ka äriüksuse konsolideerimisaruannete loomiseks, näiteks aruannete loomiseks üleilmsete müükide või tootmise kohta. Need aruanded on üldine nõue. Nende loomiseks valige ettevõte ja dimensioon iga üksuse jaoks, mille põhjal soovite konsolideerida. Näiteks järgmisel joonisel on äriüksuse ümberarvestus saavutatud, korrates iga ettevõtet veerus **Ettevõte** (veerg A) ja tuvastades osakonna dimensiooni väärtuste grupi ettevõtte kohta veerus **Dimensioonid** (veerg D).
 
-![Äriüksuse konsolideerimisaruanded](./media/business-unit-consolidation-reports.png "Äriüksuse konsolideerimisaruanded")
+![Äriüksuse konsolideerimisaruanded.](./media/business-unit-consolidation-reports.png "Äriüksuse konsolideerimisaruanded")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>Konsolideerimised, mis hõlmavad mitut aruandlusvaluutat
 Finantsaruandlus pakub suuremat paindlikkust tegelike, eelarve, eelarve juhtimise ja eelarve plaanimise andmete vaatamisel mitmes valuutas. Tähtsamaid seadistusandmeid kasutades ei pea te finantsaruandluses tegema täiendavaid seadistusi, et vaadata mis tahes aruannet, mis tahes valuutas, mis tahes ajal ja mis tahes kasutaja kohta.
@@ -168,7 +168,7 @@ Põhikontol tuleb väljad **Finantsaruandluse vahetuskursi tüüp** ja **Valuuta
 - Valige väljas **Finantsaruandluse vahetuskursi tüüp** vahetuskursi tüüp, mis sisaldab kontole rakendatavaid valuutasid ja vahetuskursse. Seda valuutade ja vahetuskursside tabelit rakendatakse finantsaruandluses tegelikele andmetele.
 - Valige väljas **Valuutateisenduse tüüp** meetod, mida kasutatakse konto vahetuskursi arvutamiseks. Seda valuuta meetodit kasutatakse finantsaruandluses nii tegelike kui ka eelarve andmete jaoks.
 
-![Finantsaruandluse põhikontod](./media/Financial-reporting-main-accounts.png "Finantsaruandluse põhikontod")
+![Finantsaruandluse põhikontod.](./media/Financial-reporting-main-accounts.png "Finantsaruandluse põhikontod")
 
 Eelarve, eelarve juhtimise ja eelarve plaanimise andmete jaoks määratakse vahetuskursi tüüp lehel **Pearaamat**. Seda tabelit kasutatakse vahetuskursside võtmiseks, ja kasutatakse kontole määratud valuuta teisenduse tüüpi.
 
@@ -199,15 +199,15 @@ Valuuta teisendamise korrigeerimine (CTA) on erinevus bilansikontode arvutamisek
 
 - Kasutage readefinitsioonis lehte **Ümardusparandused**, nagu on näha järgmisel joonisel.
 
-    ![Valuuta teisendamise korrigeerimise ümardusparandused](./media/Currency-translation-adjustment-rounding-adjustments.png "Valuuta teisendamise korrigeerimise ümardusparandused")
+    ![Valuuta teisendamise korrigeerimise ümardusparandused.](./media/Currency-translation-adjustment-rounding-adjustments.png "Valuuta teisendamise korrigeerimise ümardusparandused")
 
     Kui määrate rea, mis peaks kuvama ümardusparanduse (CTA), koguvarade rea, kohustuste ja omakapitali kogusumma rea ning teile sobiva läve, arvutab finantsaruandlus erinevuse ja paneb selle sobivasse ritta. Luuakse rida nimega **Ümardusparandus** ja see kuvatakse süvitsi minemisel, nagu on näha järgmisel joonisel.
 
-    ![Ümardusparandus süvitsi](./media/rounding-adjustment-drill-down.png "Ümardusparandus süvitsi")
+    ![Ümardusparandus süvitsi.](./media/rounding-adjustment-drill-down.png "Ümardusparandus süvitsi")
 
 - Pange kõik kontod vahemikku varadest kuludeni. Nagu järgmisel joonisel näha, on erinevus sama summa kui ümardusparandus (CTA). Seega võite seda kasutada tšeki kogusummana, et veenduda, ega ümardusparanduse leht ei hõlma vahele jäänud konto saldosid.
 
-    ![Ümardusparandus tšekist](./media/rounding-adjustment-form-check.png "Ümardusparandus tšekist")
+    ![Ümardusparandus tšekist.](./media/rounding-adjustment-form-check.png "Ümardusparandus tšekist")
 
 ### <a name="balance-calculation-approach"></a>Saldo arvutamise lähenemine
 Valuutade kasutamisel õigesti teisendatud summade saamiseks kasutab finantsaruandlus saldode jaoks järgmisi arvutusmeetodeid:

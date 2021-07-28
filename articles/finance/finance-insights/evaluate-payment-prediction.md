@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186734"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349006"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Algse kliendimakse prognoosimise mudeli hindamine (eelversioon)
 
@@ -33,32 +33,32 @@ See teema selgitab, kuidas hinnata prognoosimise mudelit pärast seda, kui olete
 
 Rakenduse Microsoft Dynamics 365 Finance lehel **Finantsülevaadete parameetrid** ilmub täpsuse skoori kõrval link **Mudeli täpsuse parandamine**.
 
-[![Mudeli täpsuse parandamise link](./media/prediction-model.png)](./media/prediction-model.png)
+[![Mudeli täpsuse parandamise link.](./media/prediction-model.png)](./media/prediction-model.png)
 
 See link viib teid AI Builderisse, kus saate lisateavet praeguse mudeli kohta ja võtta lisaks meetmeid selle parandamiseks. Järgmisel joonisel näidatakse avatud lehte.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Avaneb leht kuvab järgmist teavet.
 
 - Jaotises **Jõudlus** annab mudeli jõudluse klass mudeli kvaliteedi kohta perspektiivi. Lisateavet selle klassi kohta vt AI Builderi dokumentatsiooni teemast [Prognoosi mudeli jõudlus](/ai-builder/prediction-performance).
 - Jaotis **Kõige mõjukamad andmed** näitab, kui olulised olid teie mudeli jaoks eri andmete sisestustüübid. Saate hinnata seda loendit ja vastavaid protsente, et teha kindlaks, kas teave on kooskõlas sellega, mida te oma ettevõtte ja turu kohta teate.
 
-    [![Prognoosi mudeli jaotised Jõudlus ja Kõige mõjukamad andmed](./media/models.png)](./media/models.png)
+    [![Prognoosi mudeli jõudluse ja kõige mõjukamate andmete jaotised.](./media/models.png)](./media/models.png)
 
 - Valige jaotises **Jõudlus** suvand **Kuva üksikasjad**, et saada lisateavet klassi ja teiste kaalutluste kohta. Järgmisel illustratsioonil näitavad üksikasjad, et mudel kasutab soovitatust vähem teavet. Seetõttu on süsteem loonud hoiatusteate.
 
-    [![Hoiatused mudeli jõudluse kohta](./media/details.png)](./media/details.png)
+    [![Hoiatused mudeli jõudluse kohta.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Süvitsi minemine
 
 Kuigi täpsus on mudeli hindamiseks hea lähtepunkt ja jõudluse klass lisab perspektiivi, pakub AI Builder üksikasjalikumaid mõõdikuid, mida saate oma hinnangus kasutada. Üksikasjade allalaadimiseks valige jaotises **Jõudlus** kolmikpunkti nupp (**…**), mis asub nupu **Kasuta mudelit** kõrval, ja valige seejärel käsk **Laadi alla üksikasjalikud mõõdikud**.
 
-[![Üksikasjalike mõõdikute allalaadimise käsk](./media/performance.png)](./media/performance.png)
+[![Üksikasjalike mõõdikute allalaadimise käsk.](./media/performance.png)](./media/performance.png)
 
 Järgmine illustratsioon näitab vormingut, milles saate andmed alla laadida.
 
-[![Allalaaditud andmete vorming](./media/data-format.png)](./media/data-format.png)
+[![Allalaaditud andmete vorming.](./media/data-format.png)](./media/data-format.png)
 
 Tulemuste põhjalikumaks analüüsiks on hea lähtepunkt vaadata läbi mõõdik „Segiajamise maatriks”. Näiteks siin on andmed, mis kuvatakse selle mõõdiku jaoks eelmisel illustratsioonil.
 

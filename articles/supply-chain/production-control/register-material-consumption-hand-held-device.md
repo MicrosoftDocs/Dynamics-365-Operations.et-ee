@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189638"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345400"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materjalitarbe registreerimine mobiilse seadmega
 
@@ -30,7 +30,7 @@ Selles teemas kirjeldatakse töövoogu, mis võimaldab registreerida tootmises t
 
 ## <a name="introduction"></a>Sissejuhatus
 
-See töövoog on vajalik juhul, kui materjali jälgitavus on rangelt nõutav. Sellistel juhtudel tuleb materjalide jälgitavuse tagamiseks registreerida tarbimisel täpne kellaaeg ja kogus. Seda protsessi võib vaadelda vastandina eelnevalt või järgnevale mahaarvamise toimingule, kus registreerimise aja ja tegeliku tarbimise aja vahel on nihe. See selgitab, miks mõne jälgitavuse nõudega materjali puhul ei saa kasutada automaatse tarbimise strateegiat. Vaatame lihtsat stsenaariumi, mis selgitab, kuidas seadistada töövoogu tooraine registreerimise võimaldamiseks tootmises pihuseadme abil. [![töövoo seadistamine tooraine registreerimise võimaldamiseks tootmises pihuseadme abil](./media/scenario3.png)](./media/scenario3.png)
+See töövoog on vajalik juhul, kui materjali jälgitavus on rangelt nõutav. Sellistel juhtudel tuleb materjalide jälgitavuse tagamiseks registreerida tarbimisel täpne kellaaeg ja kogus. Seda protsessi võib vaadelda vastandina eelnevalt või järgnevale mahaarvamise toimingule, kus registreerimise aja ja tegeliku tarbimise aja vahel on nihe. See selgitab, miks mõne jälgitavuse nõudega materjali puhul ei saa kasutada automaatse tarbimise strateegiat. Vaatame lihtsat stsenaariumi, mis selgitab, kuidas seadistada töövoogu tooraine registreerimise võimaldamiseks tootmises pihuseadme abil. [![töövoo seadistamine tooraine registreerimise võimaldamiseks tootmises pihuseadme abil.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Stsenaariumi üksikasjad
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794159"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352224"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -46,7 +46,7 @@ Eraldi on hinnagrupp lihtsalt nimi, kirjeldus ja valikuliselt hinnakujunduse pri
 
 Alloleval joonisel on näidatud, kuidas hinnagruppe kasutatakse. Pange tähele, et sellel joonisel on hinnagrupp täpselt hinnakujunduse ja allahindluse haldamise keskel. Kaubanduse üksused, mida kasutate eristavate hindade ja allahindluste haldamiseks, on vasakul, ning tegelik hind ja allahindluse kirjed on paremal.
 
-![Hinnagrupid](./media/PriceGroups.png "Hinnagrupid")
+![Hinnagrupid.](./media/PriceGroups.png "Hinnagrupid")
 
 Hinnagruppe luues ei tohiks kasutada üht hinnagrupi mitut tüüpi kaubanduse üksuste jaoks. Muidu võib olla keeruline määrata, miks konkreetset hinda või allahindlust kandele rakendatakse.
 

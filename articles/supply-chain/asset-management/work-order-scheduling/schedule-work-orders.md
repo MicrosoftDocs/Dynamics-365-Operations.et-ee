@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347112"
 ---
 # <a name="schedule-work-orders"></a>Töökäskude plaanimine
 
@@ -56,7 +56,7 @@ Ajastada saab ainult sellise töökäsu töötsükli olekuga töökäske, mis lu
 
 *Näide:* alloleval joonisel väljale **Oodatav algus** sisestatud valem loob töökäsu ajastamise kõigile töökäskudele, mille oodatud alguskuupäev on nädala pärast ja hiljem. See valem võib olla kasulik, kui käivitate töökäsu ajastamisi pidevalt, kuid tahate kindlustada, et järgmisele 5-6 päevale kavandatud töökäske uuesti ei ajastataks.
 
-![Joonis 1](media/03-work-order-scheduling.png)
+![Joonis 1.](media/03-work-order-scheduling.png)
 
 Töökäskudega seotud töökäsu tüüp võib seadistada ajastamise ühele hooldustöötajale (**Varahaldus** > **Seadistus** > **Töökäsud** > **Töökäsu tüübid** > **Üks hooldustöötaja** tumblervõti seadistatud olekusse "Jah"). See tähendab, et kui töökäsu juures kasutatakse töökäsu tüüpi, seadistatakse tumblernupp **Üks hooldustöötaja** jaotise **Kõik töökäsud** üksikasjade lehe > vaates **Päis** > vahekaardil **Ajakava** automaatselt olekusse "Jah". Töökäsu ajastamise ajal ajastatakse kõik töökäsule loodud töökäsu hooldustööd hiljem samale hooldustöötajale. Vajadusel saate redigeerida tumblernupu **Üks hooldustöötaja** valikut jaotises **Kõik hooldustöötajad**, et võimaldada töökäsu töödele mitme töötaja või ühe töötaja ajastamine.
 

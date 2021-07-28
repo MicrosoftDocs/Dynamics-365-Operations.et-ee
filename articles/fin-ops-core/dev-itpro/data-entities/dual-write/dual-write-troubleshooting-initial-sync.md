@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941051"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350808"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Probleemide tõrkeotsing esmase sünkroonimise ajal
 
@@ -38,7 +38,7 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse�
 
 Pärast vastendamise mallide lubamist peaks vastenduse olekuks olema **Töötab**. Kui olek on **Ei tööta**, ilmnes tõrkeid esmasel sünkroonimisel. Tõrgete kuvamiseks valige lehel **Topeltkirjutus** vahekaart **Esmase sünkroonimise üksikasjad**.
 
-![Esmase sünkroonimise üksikasjade vahekaardi tõrge](media/initial_sync_status.png)
+![Esmase sünkroonimise üksikasjade vahekaardi tõrge.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Esmast sünkroonimist ei saa lõpule viia: 400 vigane päring
 
@@ -85,7 +85,7 @@ Probleemi lahendamiseks tehke järgmist.
 1. Logige rakendusse Finance and Operations sisse.
 2. Kustutage lehel **Azure Active Directory rakendused** klient **DtAppID** ja seejärel lisage see uuesti.
 
-![DtAppID klient Azure AD rakenduste loendis](media/aad_applications.png)
+![DtAppID klient Azure AD rakenduste loendis.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Eneseviite või ringviite tõrked esmase sünkroonimise ajal
 
@@ -115,11 +115,11 @@ Kui hankija tabelis on read, mille veerud **PrimaryContactPersonId** ja **Invoic
     2. Otsige väärtust **primarycontactperson**, et leida allika veerg **PrimaryContactPersonId**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
-        ![Veeru PrimaryContactPersonId kustutamine](media/vend_selfref3.png)
+        ![Veeru PrimaryContactPersonId kustutamine.](media/vend_selfref3.png)
 
     4. Veeru **InvoiceVendorAccountNumber** kustutamiseks korrake neid samme.
 
-        ![Veeru InvoiceVendorAccountNumber kustutamine](media/vend-selfref4.png)
+        ![Veeru InvoiceVendorAccountNumber kustutamine.](media/vend-selfref4.png)
 
     5. Salvestage oma muudatused vastendusse.
 
@@ -129,11 +129,11 @@ Kui hankija tabelis on read, mille veerud **PrimaryContactPersonId** ja **Invoic
     2. Valige tabel **Hankijad V2**.
     3. Valige tegumipaanilt **Suvandid** ja seejärel **Muudatuste jälgimine**.
 
-        ![Muudatuse jälgimise suvandi valimine](media/selfref_options.png)
+        ![Muudatuse jälgimise suvandi valimine.](media/selfref_options.png)
 
     4. Valige **Keela muudatuste jälgimine**.
 
-        ![Suvandi „Keela muudatuste jälgimine” valimine](media/selfref_tracking.png)
+        ![Suvandi „Keela muudatuste jälgimine” valimine.](media/selfref_tracking.png)
 
 3. Käivitage üksuse **Hankijad V2 (msdyn\_vendors)** vastenduse esmane sünkroonimine. Esmane sünkroonimine peaks toimima tõrgeteta.
 4. Käivitage üksuse **CDS-i kontaktid V2 (kontaktid)** vastenduse esmane sünkroonimine. Selle vastenduse peate sünkroonima juhul, kui soovite sünkroonida hankijate tabeli põhikontakti veergu, kuna ka kontaktiread tuleb esmasünkroonida.
@@ -162,11 +162,11 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
     2. Otsige väärtust **contactperson**, et leida allika veerg **ContactPersonID**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
-        ![Veeru ContactPersonID kustutamine](media/cust_selfref3.png)
+        ![Veeru ContactPersonID kustutamine.](media/cust_selfref3.png)
 
     4. Veeru **InvoiceAccount** kustutamiseks korrake neid samme.
 
-        ![Veeru InvoiceAccount kustutamine](media/cust_selfref4.png)
+        ![Veeru InvoiceAccount kustutamine.](media/cust_selfref4.png)
 
     5. Salvestage oma muudatused vastendusse.
 
@@ -176,11 +176,11 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
     2. Valige tabel **Kliendid V3**.
     3. Valige tegumipaanilt **Suvandid** ja seejärel **Muudatuste jälgimine**.
 
-        ![Muudatuse jälgimise suvandi valimine](media/selfref_options.png)
+        ![Muudatuse jälgimise suvandi valimine.](media/selfref_options.png)
 
     4. Valige **Keela muudatuste jälgimine**.
 
-        ![Suvandi „Keela muudatuste jälgimine” valimine](media/selfref_tracking.png)
+        ![Suvandi „Keela muudatuste jälgimine” valimine.](media/selfref_tracking.png)
 
 3. Käivitage üksuse **Kliendid V3 (kontod)** vastenduse esmane sünkroonimine. Esmane sünkroonimine peaks toimima tõrgeteta.
 4. Käivitage üksuse **CDS-i kontaktid V2 (kontaktid)** vastenduse esmane sünkroonimine.
@@ -196,7 +196,7 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
 
         Järgmisel illustratsioonil on toodud projekt, mis värskendab väljasid **CustomerAccount** ja **ContactPersonId**.
 
-        ![Andmeintegratsiooni projekt väljade CustomerAccount ja ContactPersonId värskendamiseks](media/cust_selfref6.png)
+        ![Andmeintegratsiooni projekt väljade CustomerAccount ja ContactPersonId värskendamiseks.](media/cust_selfref6.png)
 
     2. Lisage teenuse Dataverse poolel filtrite all ettevõtte kriteeriumid, et rakenduses Finance and Operations värskendataks vaid filtri kriteeriumidele vastavaid ridu. Filtri lisamiseks valige filtri nupp. Seejärel saate dialoogiboksis **Päringu redigeerimine** lisada filtri päringu, nagu näiteks **\_msdyn\_company\_value eq '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
 
         Kui te ei sisesta **\_msdyn\_company\_value** jaoks filtri päringut, siis sünkroonitakse kõik read.
 
-        ![Filtri päringu lisamine](media/cust_selfref7.png)
+        ![Filtri päringu lisamine.](media/cust_selfref7.png)
 
     Ridade esmane sünkroonimine on nüüd lõpule viidud.
 

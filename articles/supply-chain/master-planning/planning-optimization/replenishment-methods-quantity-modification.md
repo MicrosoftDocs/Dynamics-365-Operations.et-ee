@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347754"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Varude täiendamise meetodid ja koguse muutmine
 
@@ -34,15 +34,15 @@ Planeerimise optimeerimisel saab kasutada järgmisi laovarude tähiseid:
 
 - **Periood** – varude täiendamise meetod, mis koondab toote nõudluse teatud perioodi jooksul ühte tellimusse. Tellimus planeeritakse perioodi esimesele päevale ja selle kogus vastab netosummale määratud perioodi jooksul. Periood algab toote esimese nõudega ja katab määratud pikkusega aja jooksul. Järgmine periood algab toote järgmiste nõuetega. *Perioodi* laovarude koodi kasutatakse sageli mitteaimatavate varude joonistamiseks, hooajast mõjutatud toodete või kallite toodete jaoks. Järgmisel joonisel on toodud näide.
 
-    ![Perioodi laovarude koodi kasutamise näide](./media/coverage-code-period.png "Perioodi laovarude koodi kasutamise näide")
+    ![Perioodi laovarude koodi kasutamise näide.](./media/coverage-code-period.png "Perioodi laovarude koodi kasutamise näide")
 
 - **Nõue** – varude täiendamise meetod, mille puhul süsteem loob tootele vajaduse korral plaanitud ostu-, edastamis- või tootmistellimuse. Seda meetodit kasutatakse kallite toodete puhul, millel on vahelduv nõudlus. *Nõude* laovarude koodi kasutatakse sageli konfigureeritavate toodete või tellimuse järgi valmistatavate stsenaariumide puhul. Järgmisel joonisel on toodud näide.
 
-    ![Nõude laovarude koodi kasutamise näide](./media/coverage-code-requirement.png "Nõude laovarude koodi kasutamise näide")
+    ![Nõude laovarude koodi kasutamise näide.](./media/coverage-code-requirement.png "Nõude laovarude koodi kasutamise näide")
 
 - **Min./Max.** – Varude täiendamise meetod põhineb laovarude tasemel. See määratleb varude täiendamise kindla tasemeni, kui prognoositav vaba kaubavaru tase on allpool konkreetset künnist. Varude täiendamise kogus on maksimaalse taseme ja prognoositava vaba taseme vaheline erinevus. Väljad *Min./Max.* varude koodi kasutatakse sageli prognoositavate varude joonistamiseks, kõrgete jooksukaupade või odavamate toodete jaoks. Järgmisel joonisel on toodud näide.
 
-    ![Min./Max. laovarude koodi kasutamise näide](./media/coverage-code-min-max.png "Min./Max. laovarude koodi kasutamise näide")
+    ![Min./Max. laovarude koodi kasutamise näide.](./media/coverage-code-min-max.png "Min./Max. laovarude koodi kasutamise näide")
 
 - **Käsitsi** – varude täienduse meetodi puhul ei soovita süsteem toote ostmist, üleandmist ega tootmistellimusi. Selle asemel vastutab toote planeerija toote täiendamiseks vajalike tellimuste loomise eest. *Käsitsi* laovarude koodi kasutatakse sageli toodete puhul, mille jaoks süsteemi loodud plaanitud tellimusi ei taheta.
 

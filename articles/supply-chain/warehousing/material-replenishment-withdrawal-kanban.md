@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189940"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356923"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Täiendamine tagastamiskanbanitega
 
@@ -35,7 +35,7 @@ Väljavõtmise kanbani saab kasutada üksiku kauba kanbani liigutamiseks ladude 
 
 Järgmine stsenaarium näitab tõmbepõhist täiendamissüsteemi, kus tõmbesignaal käivitab kanban-töö loomise tootmisprotsessi jaoks materjali täiendamiseks. 
 
-[![Tõmbesignaal käivitab kanbani loomise tootmisprotsessi jaoks materjali täiendamiseks](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Tõmbesignaal käivitab kanbani loomise tootmisprotsessi jaoks materjali täiendamiseks.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanbani väljaminek
 2.  Kanbani lähtekoht ja asetamise koht laotöö jaoks
@@ -72,7 +72,7 @@ Kui laoasukohtade ja toodangu sisestuskoha vahemaa on väike, võib olla tõhusa
 
 Järgmises stsenaariumis on väljavõtmise kanbani ülekandmistegevus konfigureeritud liikuma kahe asukoha vahel samas laos. Väljavõtmise kanbani ülekandmistegevus on seadistatud nii, et see viiakse lõpule automaatselt. 
 
-[![Ülekandmistegevus viiakse automaatselt lõpule, kui kanbani komplekteerimistöö on töödeldud](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Ülekandmistegevus viiakse automaatselt lõpule, kui kanbani komplekteerimistöö on töödeldud.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Toormaterjali ja tootmise ühine ladu
 2.  Toormaterjalide laoasukohad

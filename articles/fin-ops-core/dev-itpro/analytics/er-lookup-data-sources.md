@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 682910350832e441ed13c716c0c18200a3b7865d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351069"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Andmeallikate otsingu konfigureerimine kasutama ER-i rakendusepõhiseid parameetreid 
 
@@ -44,23 +44,23 @@ Sõltuvalt mis tahes konfigureeritud reegli tagastatud väärtuse tüübist saat
 
 Järgmisel joonisel on kujutatud, kuidas vormingulist loendit saab konfigureerida näidis-ER-vormingus.
 
-   ![Vormingu loendi kuvamine konfigureeritud otsingu andmeallika alusena](./media/er-lookup-data-sources-img1.gif)
+   ![Vormingu loendi kuvamine konfigureeritud otsingu andmeallika alusena.](./media/er-lookup-data-sources-img1.gif)
 
 Järgmisel joonisel on kujutatud vormingukomponendid, mis on konfigureeritud esitama erinevat tüüpi maksete loodud aruande teises jaotises.
 
-   ![Vormingujaotiste kuvamine erinevat tüüpi maksude eraldi teatamiseks](./media/er-lookup-data-sources-img2.png)
+   ![Vormingujaotiste kuvamine erinevat tüüpi maksudest eraldi teatamiseks.](./media/er-lookup-data-sources-img2.png)
 
 Järgmisel joonisel on kujutatud, kuidas ER Operationd kujundaja lubab lisada andmeallika tüübile **Vorming\Otsing**.  Lisatud andmeallikas on konfigureeritud tagastama `List of taxation levels` vormingu loendi väärtust.
 
-   ![Vormingu loendi\otsingutüübi ER-andmeallika lisamine](./media/er-lookup-data-sources-img3.gif)
+   ![Vormingu loendi\otsingutüübi ER-andmeallika lisamine.](./media/er-lookup-data-sources-img3.gif)
 
 Järgmisel joonisel on kujutatud, kuidas lisatud andmeallikas on konfigureeritud kasutama **mudeli** andmeallika loendi **Model.Data.Tax** välja **Kood** parameetrina, mis tuleb määrata iga konfigureeritud reegli jaoks.
 
-![Vormingu loendi\otsingutüübi lisatud andmeallika parameetrite konfigureerimine](./media/er-lookup-data-sources-img4.gif)
+![Vormingu loendi\otsingutüübi lisatud andmeallika parameetrite konfigureerimine.](./media/er-lookup-data-sources-img4.gif)
 
 Lisatud `Model.Data.Tax` andmeallikas on konfigureeritud määrama maksukoodi iga konfigureeritud reegli jaoks, pääsedes juurde rakendustabeli **TaxTable** kirjetele.
 
-   ![Vormingu loendi\otsingutüübi üheettevõtte otsingu andmeallika ülevaade](./media/er-lookup-data-sources-img5.gif)
+   ![Vormingu loendi\otsingutüübi üheettevõtte otsingu andmeallika ülevaade.](./media/er-lookup-data-sources-img5.gif)
 
 Saate seadistada valitud ER-vormingu otsingureeglid, kasutades kasutajaliidest, mis joondatakse automaatselt konfigureeritud andmeallika struktuuriga. Praegu nõuab see kasutajaliides, et määraksite iga reegli puhul tagastatud väärtuse `List of taxation levels` nii vormingu loendiväärtuseks kui ka maksukoodi parameetriks.
 
@@ -71,11 +71,11 @@ Järgmisel joonisel on kujutatud, kuidas tüübiga **Arvutatud väli** `Model.Da
 > [!NOTE]
 > Erand visatakse, kui kohaldatavat reeglit ei leita. Nende erandite vältimiseks konfigureerige reeglite loendi lõpus täiendavad reeglid, et käsitleda juhtumeid, kui pole konfigureeritud väärtust või väärtust pole esitatud. Kasutage vastavalt suvandeid **\*Pole tühi\*** ja **\*Tühi\***.  
 >
-> ![Andmeallika lisamine konfigureeritud otsingu andmeallika kutsumiseks](./media/er-lookup-data-sources-img7.png)
+> ![Andmeallika lisamine konfigureeritud otsingu andmeallika kutsumiseks.](./media/er-lookup-data-sources-img7.png)
 
 Kui seate redigeeritava otsingu andmeallika jaoks **ettevõtteülese** suvandi väärtuseks **Jah**, lisate selle andmeallika parameetrite kogumikku uue nõutava **ettevõtte** parameetri. **Ettevõtte** parameetri väärtus tuleb määrata käitusajal, kui otsingu andmeallikas kutsutakse. Kui ettevõtte kood on määratud käitusajal, kasutatakse selle ettevõtte jaoks konfigureeritud reegleid kõige sobivama reegli leidmiseks ja vastav väärtus tagastatakse. Järgmisel joonisel on kujutatud, kuidas saate seda teha ja kuidas redigeeritava andmeallika parameetrite kogumit muudetakse.
 
-   ![Vormingu loendi\otsingutüübi ettevõtteülese otsingu andmeallika ülevaade](./media/er-lookup-data-sources-img8.gif)
+   ![Vormingu loendi\otsingutüübi ettevõtteülese otsingu andmeallika ülevaade.](./media/er-lookup-data-sources-img8.gif)
 
 > [!NOTE]
 > Valige iga ettevõte eraldi, et konfigureerida selle redigeeritava ER-vormingu otsingu andmeallika reeglite kogum. Erand visatakse käitusajal, kui kontserniülest otsingut nimetatakse selle ettevõtte koodiga, mille otsingusätet ei viidud lõpule.
@@ -84,7 +84,7 @@ Kui seate redigeeritava otsingu andmeallika jaoks **ettevõtteülese** suvandi v
 
 Alates versioonist 10.0.19 on saadaval **otsingu** andmeallikate laiendatud võimalused. Kui seate redigeeritava otsingu andmeallika suvandi **Laiendatud** väärtuseks **Jah**, teisendatakse konfigureeritud otsingu andmeallikas struktureeritud andmeallikaks, mis pakub konfigureeritud reeglite kogumi analüüsimiseks täiendavaid võimalusi. Järgmisel illustratsioonil on toodud see transformatsioon.
 
-   ![Vormingu loendi\otsingutüübi struktureeritud otsingu andmeallika ülevaade](./media/er-lookup-data-sources-img9.gif)
+   ![Vormingu loendi\otsingutüübi struktureeritud otsingu andmeallika ülevaade.](./media/er-lookup-data-sources-img9.gif)
 
 - **Otsingu** alamüksus on loodud funktsioonina, et leida kõige sobivam reegel konfigureeritavate reeglite komplektist, mis põhineb esitatud parameetrite komplektil.
 - Alamüksus **IsLookupResultSeton** loodud funktsioonina aktsepteerima põhiloendi andmeallika esitatud väärtust ja tagastama *kahendväärtuse* **Tõene**, kui reeglite kogum sisaldab vähemalt ühte reeglit, mille jaoks esitatud loendiväärtus on konfigureeritud tagastatud väärtusena. See funktsioon tagastab *kahendväärtuse* **Väär**, kui esitatud loendiväärtuse tagastamiseks pole konfigureeritud reegleid.

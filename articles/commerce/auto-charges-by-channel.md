@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799904"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349694"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automaatsete tasude lubamine ja konfigureerimine kanali kaupa
 
@@ -66,7 +66,7 @@ Commerce'is organisatsiooni hierarhia eesmärgi jaoks vaikehierarhia määramise
 1. Valige tegevuste paanil käsk **Käivita kohe**.
 1. Korrake kahte eelmist kahte toimingut tööde **1070** (**Kanali konfiguratsioon**) ja **1110** (**Globaalne konfiguratsioon**) käivitamiseks.
 
-![Jaemüügi automaatsete tasude organisatsiooni hierarhia eesmärgi konfigureerimine](media/Auto-charges-org-hierarchy-purpose.png)
+![Jaemüügi automaatsete tasude organisatsiooni hierarhia eesmärgi konfigureerimine.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Automaatsete tasude määratlemine kanali järgi
 
@@ -86,7 +86,7 @@ Commerce'is automaatsete tasude määratlemiseks kanali järgi toimige järgneva
 1. Valige tegevuste paanil käsk **Käivita kohe**.
 1. Korrake kahte eelmist kahte toimingut tööde **1070** (**Kanali konfiguratsioon**) ja **1110** (**Globaalne konfiguratsioon**) käivitamiseks.
     
-![Kanali järgi määratletud automaatsed tasud](media/Auto-charges-line-charge-by-channel.png)
+![Kanali järgi määratletud automaatsed tasud.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Näidisstsenaarium
 
@@ -94,7 +94,7 @@ Järgmises näites kirjeldatakse toote konfigureerimiseks vajalikke etappe nii, 
 
 Organisatsioon määratleb tasude koodi nimega **RINGLUSSEVÕTT**, nagu järgmisel joonisel on näidatud.
 
-![Tasude kood RINGLUSSEVÕTT](media/Auto-charges-charge-code.png)
+![Tasude kood RINGLUSSEVÕTT.](media/Auto-charges-charge-code.png)
 
 Automaatne tasu luuakse reatasemel. Sellel on järgmine konfiguratsioon.
 
@@ -112,13 +112,13 @@ Automaatsete tasude rida on loodud. Sellel on järgmine konfiguratsioon.
 - Välja **Kategooria** väärtuseks on seatud **Fikseeritud**.
 - Välja **Tasud** väärtuseks on seatud **6,25 $**.
 
-![Reataseme automaatsete tasude ja automaatsete tasude rea konfigureerimine](media/Auto-charges-recyclingfee-line-fee.png)
+![Reataseme automaatsete tasude ja automaatsete tasude rea konfigureerimine.](media/Auto-charges-recyclingfee-line-fee.png)
 
 Kassarakenduses on loodud müügitellimus kaupluse kanalis **San Francisco**. Real **Kulud** kuvatakse ringlussevõtu tasu **6,25 $**.
 
 Valides kassarakenduses **Kande suvandid \> Tasud \> Tasude haldamine** saate vaadata tasude koodi ja ringlussevõtu tasu kirjeldust.
 
-![Ringlussevõtu tasu kassarakenduses](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Ringlussevõtu tasu kassarakenduses.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

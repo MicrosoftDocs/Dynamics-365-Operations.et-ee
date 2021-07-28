@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fa174bbb257379f6ce906dd21180bbcb19f8bc3f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 647060635813ad7e680ea88be76668818ff606d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021123"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350350"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Vaikemakseteenusega seotud tellimuse sünkroonimise tõrge
 
@@ -32,9 +32,9 @@ See teema annab tõrkeotsingu juhised, mis aitavad parandada tõrget, mis võib 
 
 Võrgutellimuse sünkroonimisel kuvatakse järgmine tõrketeade: "Krediitkaarditehingute töötlemiseks peab olema vaikemakseteenus."
 
-![Puuduv vaikimisi makseteenuse tõrge](media/default-payment-method-error.jpg)
+![Vaikimisi puuduva makseteenuse tõrge.](media/default-payment-method-error.jpg)
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
 
 ### <a name="confirm-or-set-the-default-payment-service-in-commerce-headquarters"></a>Commerce Headquartersi vaikimisi makseteenuse kinnitamine või seadistamine
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750710"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346566"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Müügitellimuse olekuveergude vastendamise seadistamine
 
@@ -100,7 +100,7 @@ Atribuudi **IsSOPIntegrationEnabled** lubamiseks tehke järgmist.
 1. Avage brauseris leht `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Asendage **\<test-name\>** oma ettevõtte rakenduse Sales lingiga.
 2. Otsige avatud lehel üles **organizationid** ja kirjutage selle väärtus üles.
 
-    ![Väärtuse organizationid leidmine](media/sales-map-orgid.png)
+    ![Väärtuse organizationid leidmine.](media/sales-map-orgid.png)
 
 3. Avage rakenduses Sales brauserikonsool ja käivitage järgmine skript. Kasutage sammust 2 pärit üksuse **organizationid** väärtust.
 
@@ -119,33 +119,33 @@ Atribuudi **IsSOPIntegrationEnabled** lubamiseks tehke järgmist.
     );
     ```
 
-    ![JavaScripti kood brauserikonsoolis](media/sales-map-script.png)
+    ![JavaScript kood brauserikonsoolis.](media/sales-map-script.png)
 
 4. Veenduge, et suvandi **IsSOPIntegrationEnabled** väärtuseks oleks seatud **tõene**. Kasutage väärtuse kontrollimiseks sammust 1 pärit URL-i.
 
-    ![Tõeseks seatud IsSOPIntegrationEnabled](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled on seatud tõeseks.](media/sales-map-integration-enabled.png)
 
 Atribuudi **isIntegrationUser** lubamiseks tehke järgmist.
 
 1. Valige rakenduses Sales **Sätted \> Kohandamine \> Kohanda süsteemi**, valige **Kasutaja tabel** ja seejärel avage **Vorm \> Kasutaja**.
 
-    ![Kasutaja vormi avamine](media/sales-map-user.png)
+    ![Kasutaja vormi avamine.](media/sales-map-user.png)
 
 2. Leidke väljauurijas üles **Integratsiooni kasutaja režiim** ja topeltklõpsake sellel, et lisada see vormile. Salvestage muudatus.
 
-    ![Integratsiooni kasutaja režiimi veeru lisamine vormile](media/sales-map-field-explorer.png)
+    ![Integratsiooni kasutaja režiimi veeru lisamine vormile.](media/sales-map-field-explorer.png)
 
 3. Valige rakenduses Sales **Sätted \> Turve \> Kasutajad** ja muutke vaade väärtuselt **Lubatud kasutajad** väärtusele **Rakenduse kasutajad**.
 
-    ![Vaate muutmine lubatud kasutajatelt rakenduse kasutajatele](media/sales-map-enabled-users.png)
+    ![Vaate muutmine lubatud kasutajatelt rakenduse kasutajatele.](media/sales-map-enabled-users.png)
 
 4. Valige kaks kirjet nimega **DualWrite IntegrationUser**.
 
-    ![Rakenduse kasutajate loend](media/sales-map-user-mode.png)
+    ![Rakenduse kasutajate loend.](media/sales-map-user-mode.png)
 
 5. Muutke veeru **Integratsiooni kasutaja režiim** väärtuseks **Jah**.
 
-    ![Integratsiooni kasutaja režiimi veeru väärtuse muutmine](media/sales-map-user-mode-yes.png)
+    ![Integratsiooni kasutaja režiimi veeru väärtuse muutmine.](media/sales-map-user-mode-yes.png)
 
 Teie müügitellimused on nüüd vastendatud.
 

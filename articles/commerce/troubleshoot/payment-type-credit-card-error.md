@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5be19949e9d1dbc43fdd3e6def119effa50a34d0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d6813a642aefa59e20a7c77ddcf53ce7d3625eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347340"
 ---
 # <a name="payment-type-must-be-credit-card-error-on-the-sales-order-page"></a>"Maksetüübiks peab olema müügitellimuse lehel märgitud krediitkaarditõrge
 
@@ -32,9 +32,9 @@ See teema annab tõrkeotsingu juhised, mis aitavad, kui müügitellimuse lehel n
 
 Kui avate müügitellimuse lehe pärast tellimuse sünkroonimist, kuvatakse järgmine tõrketeade: "Maksetüüp peab olema krediitkaart, kuna krediitkaardi number on määratud."
 
-![Makse tüüp peab olema krediitkaardi tõrge](media/payment-type-must-be-credit-card.jpg)
+![Makse tüüp peab olema krediitkaardi tõrge.](media/payment-type-must-be-credit-card.jpg)
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
 
 ### <a name="set-the-payment-type-in-commerce-headquarters"></a>Häälestage maksetüüp Commerce Headquarters`is
 

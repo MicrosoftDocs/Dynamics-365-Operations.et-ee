@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349893"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>VAT deklaratsioon Egiptuse jaoks (EG-00002)
 
@@ -77,7 +77,7 @@ Rakendusespetsiifilised parameetrid lasevad teil määrata kriteeriumid, kuidas 
 
 Egiptuse müügi- ja osturaamatute aruanded sisaldavad veerge, mis vastavad kindlatele kandeklassifikatsioonile kui operatsioonide, toodete ja egiptuse omastele dokumentidele. Selle asemel, et lisada need uued klassifikatsioonid kannete sisestamisel uuteks sisestusandmeteks, määratakse klassifikatsioonid konfiguratsioonides tehtud erinevate otsingute alusel, mida on tutvustatud **Konfiguratsioonid** > **Seadistage rakendusomased parameetrid** > **Seaded** nii, et need vastaksid Egiptuse kinnipeetavate aruannet nõuetele. 
 
-![Rakendusekohaste parameetrite leht](media/egypt-vat-declaration-setup1.png)
+![Rakendusekohaste parameetrite leht.](media/egypt-vat-declaration-setup1.png)
 
 Järgmisi otsingu konfiguratsioone kasutatakse kannete klassifitseerimiseks ostu- ja müügi käibemaksuraamatute aruannetes:
 
@@ -206,7 +206,7 @@ VAT deklaratsioonivormi aruannete loomiseks Microsoft Excel määratlege ER form
 2. Vahekaardil **Müügi maks** jaotises **Maksuvalikud** väljal **KM-aruande vormingu vastendamine** valige **käibemaksudeklaratsiooni Excel (EG)**. Kui jätate selle välja tühjaks, luuakse standardne käibemaksuaruanne SSRS-vormingus.
 3. Valige **kategooriahierarhia**. See kategooria võimaldab kaubaartikli koodi väliskaubanduse vahekaardil kannetes, et lubada kasutajatel valida ja klassifitseerida kaupu ja teenuseid. Selle klassifikatsiooni kirjeldus on müügi- ja ostukannete aruannetes üksikasjalik. See konfiguratsioon on valikuline.
 
-![Deklaratsiooni vorm](media/egypt-vat-declaration-setup2.png)
+![Deklaratsiooni vorm.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>KM tagastuse aruande loomine

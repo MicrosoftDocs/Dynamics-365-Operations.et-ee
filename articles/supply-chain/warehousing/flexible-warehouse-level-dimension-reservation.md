@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103042"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343770"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindlik dimensiooni reserveerimise poliitika laotasemel
 
@@ -58,7 +58,7 @@ Kuigi *partii-alla\[asukoht\]* reserveerimise hierarhia teenib ettevõtte äriee
 
 Selleks, et mahutada soovitud paindlikkus partii reserveerimise käitumises kaupadele, mis on seotud *partii-alla\[asukoht\]* varude reserveerimise hierarhiaga, peavad varude haldurid lehel **Varude reserveerimise hierarhiad** valima märkeruudu **Luba reserveerimine nõudetellimusel** valiku **Partiinumber** tasemel.
 
-![Varude reserveerimise hierarhia paindlikuks muutmine](media/Flexible-inventory-reservation-hierarchy.png)
+![Varude reserveerimise hierarhia paindlikuks muutmine.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Kui hierarhias valitakse tase **Partiinumber**, valitakse automaatselt kõik seda taset ületavad dimensioonid kuni **Asukoha** tasemeni. (Vaikimisi valitakse tasemest **Asukoht** üle olevad dimensioonid.) Selline käitumine peegeldab loogikat, kus kõik dimensioonid partiinumbri ja asukoha vahel on samuti automaatselt reserveeritud pärast seda, kui reserveerite tellimuse reale kindla partiinumbri.
 
@@ -111,7 +111,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
 1. Määrake toote kolm koondandmete parameetrit, kasutades neid väärtusi.
 
     - Valige väljal **Laoala dimensioonigrupp** suvand **Ladu**.
-    - Valige väljal  **Jälgimisdimensiooni grupp** suvand **Batch-Phy**.
+    - Valige väljal **Jälgimisdimensiooni grupp** suvand **Batch-Phy**.
     - Valige väljal **Reserveeringu hierarhia** suvand **BatchFlex**.
 
 2. Looge kaks partiinumbrit, nt **B11** ja **B22**.
@@ -145,7 +145,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
 
 6. Valige lehel **Partii reserveerimine** partii **B11** jaoks rida ja seejärel käsk **Reserveeri rida**. Automaatsel reserveerimisel ei ole asukohtade ja litsentsiplaadi määramiseks loogikat määratud. Koguse saate sisestada käsitsi väljale **Reserveerimine**. Pange tähele, et kiirkaardi **Lähtereale määratud partiinumbrid** partii **B11** kuvatakse kui **Sooritatud**.
 
-    ![Kindla partiinumbri määramine müügitellimuse reale partii reserveerimise lehel](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Kindla partiinumbri määramine müügitellimuse reale partii reserveerimise lehel.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > Müügitellimuse rea koguse reserveerimist saab teha mitmel partiil. Sama partii reserveerimist saab teha ka mitme asukoha ja litsentsiplaadi alusel (kui nende asukohtade puhul on lubatud litsentsiplaadid).
@@ -154,7 +154,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
 
 7. Avage **Tooteteabe haldus** \> **Tooted** \> **Väljastatud tooted**. Valige üksus ja seejärel **Varude haldamine** \> **Kuva** \> **Kanded**.
 
-    ![Tellimusega kooskõlastatud reserveerimine laokande tüübina](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Tellimusega kooskõlastatud reserveerimine laokande tüübina.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Vaadake üle kauba varude kanded, mis on seotud müügitellimuse rea reserveerimisega.
 
@@ -172,7 +172,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
     - Töö loomiseks kasutab süsteem töömalle, kuid mitte asukoha direktiive. Kõik töömallide jaoks määratletud kindlad sätted, nt maksimaalne komplekteerimise read või kindel mõõtühik, rakendatakse uute tööde loomisel määramiseks. Siiski ei arvestata reegleid, mis on seotud asukoha direktiividega komplekteerimise asukohtade tuvastamiseks, kuna tellimusega kooskõlastatud reserveeringuga on juba määratud kõik varude dimensioonid. Need varude dimensioonid sisaldavad dimensioone lao ladustamise tasemel. Seetõttu pärib töö need dimensioonid, ilma et peaksite konsulteerima asukoha direktiividega.
     - Partiinumbrit ei kuvata komplekteerimise real (nagu näiteks töörea puhul, mis luuakse kaubale, millel on seostatud *partii-üle\[asukoht\]* reserveerimise hierarhia). Selle asemel kuvatakse seotud laokannete põhjal viidatud töökandes partiinumber ja kõik muud varude dimensioonid.
 
-        ![Tellimusega kooskõlastatud reserveeringust pärinev lao laokande töö](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Tellimusega kooskõlastatud reserveeringust pärinev lao laokande töö.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Kui töö on loodud, eemaldatakse välja **Viide** väärtusega **Tellimusele kooskõlastatud reserveerimine** kauba laokanne. Laokannete puhul, mille välja **Viide** väärtuseks on seatud **Töö**, on nüüd füüsiline reserveerimine määratud kõigi koguse varude dimensioonide jaoks.
 
@@ -207,7 +207,7 @@ Enne paindliku litsentsiplaadi reserveerimise kasutamist peate oma süsteemis si
 
 Selleks, et lubada litsentsiplaadi reserveerimine tellimusel, peate valima lehel **Varude reserveerimise hierarhiad** märkeruudu **Luba reserveerimine nõudetellimusel** tasemel **Litsentsiplaat** hierarhia jaoks, mis on seotud asjaomase kaubaga.
 
-![Varude reserveerimise hierarhialeht paindliku litsentsiplaadi reserveerimise hierarhia jaoks](media/Flexible-LP-reservation-hierarchy.png)
+![Varude reserveerimise hierarhialeht paindliku litsentsiplaadi reserveerimise hierarhia jaoks.](media/Flexible-LP-reservation-hierarchy.png)
 
 Saate lubada litsentsiplaadi reserveerimise tellimusel juurutuse käigus igal ajal. See muudatus ei mõjuta reserveeringuid ega avatud laotöid, mis loodi enne muudatuse toimumist. Kuid te ei saa märkeruutu **Luba reserveerimine nõudetellimusel** tühjendada, kui reserveerimise hierarhiaga seotud ühel või mitmel kaubal on avatud väljaminevate varude kandeid, mille väljamineku olek on *Tellimusel*, *Reserveeritud tellitud* või *Füüsiliselt reserveeritud*.
 
@@ -227,7 +227,7 @@ Kui laotoimingud töötlevad müügitellimuse rida, mis kasutab tellimusega seot
 
 Kui laotöö kaup koosneb ridadest, mis moodustavad täieliku kaubaaluse ja millel on litsentsiplaadiga seotud kogused, saate optimeerida komplekteerimisprotsessi, kasutades mobiilse seadme menüükäsku, mille puhul on suvandi **Käitle litsentsiplaadi põhjal** väärtuseks seatud *Jah*. Selle asemel, et skannida töö kaupasid ühekaupa, saab laotöötaja seejärel komplekteerimise lõpule viimiseks litsentsiplaadi skannida.
 
-![Mobiilse seadme menüükäsk, mille puhul on suvandi „Käitle litsentsiplaadi põhjal” väärtuseks seatud „Jah”](media/Handle-by-LP-menu-item.png)
+![Mobiilse seadme menüükäsk, mille puhul on suvandi "Käitle litsentsiplaadi põhjal” väärtuseks seatud „Jah”.](media/Handle-by-LP-menu-item.png)
 
 Kuna funktsioon **Käitle litsentsiplaadi põhjal** ei toeta mitut kaubaalust hõlmavaid töid, siis on parem, kui eri litsentsiplaatide jaoks on eraldi tööüksus. Selle meetodi kasutamiseks lisage väli **Tellimusega seotud litsentsiplaadi ID** tööpäise piirina lehel **Töömall**.
 
@@ -249,7 +249,7 @@ Selles stsenaariumis viidatakse väärtustele ja kirjetele, mis kuuluvad Supply 
 1. Sisestage väljale **Nimi** väärtus (nt *FlexibleLP*).
 1. Sisestage väljale **Kirjeldus** väärtus (nt *Paindlik LP reserveerimine*).
 1. Valige loendis **Valitud** suvandid **Partiinumber**, **Seerianumber** ja **Omanik**.
-1. Valige nupp **Eemalda** ![vasakule osutav nool](media/backward-button.png), et teisaldada valitud kirjed loendisse **Saadaval**.
+1. Valige nupu **Eemalda** ![vasaknool.](media/backward-button.png) klõpsake, et teisaldada valitud kirjed **saadaval** loendisse.
 1. Valige nupp **OK**.
 1. Märkige dimensioonitaseme **Litsentsiplaat** real märkeruut **Luba reserveerimine nõudetellimusel**. Tase **Asukoht** valitakse automaatselt ja selle märkeruutu ei saa tühjendada.
 1. Valige käsk **Salvesta**.

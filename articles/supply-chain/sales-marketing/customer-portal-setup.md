@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7d723e7468e42589b8b9a1ed3080c691ebc6bc8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907811"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353910"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Kliendiportaali installimine, seadistamine ja värskendamine
 
@@ -34,7 +34,7 @@ Kliendiportaali kasutamiseks peavad teil olema järgmised litsentsid.
 
 Kliendiportaal sõltub Power Appsi portaalidest ja topeltkirjutusest, nagu on näidatud järgmisel pildil.
 
-![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
+![Kliendiportaali sõltuvused.](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
 
 Erinevalt teenuse Supply Chain Management teistest funktsioonidest paikneb kliendiportaali mall Power Appsi portaalides. Seega on kliendiportaali funktsionaalsus ja võimalused piiratud Power Appsi portaalide ning topeltkirjutuse tabelites pakutavatega.
 

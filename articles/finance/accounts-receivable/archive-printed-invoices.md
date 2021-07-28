@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c627b6238a5c0ec1a45ebd9692aae7c634c4952e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018974"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356795"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Arhiivi prinditud kliendi arved räsinumbritega
 
@@ -49,7 +49,7 @@ See funktsioon on rakendatav järgmiste dokumentide puhul.
 - Projektiarve
 - Projekti kreeditarve
 
-## <a name="configure-customer-master-data"></a>Kliendi koondandmete haldamine  
+## <a name="configure-customer-master-data"></a>Kliendi koondandmete haldamine
 Viige kliendi andmete konfigureerimiseks lõpule järgmised sammud ja lülitage sisse võimalus prinditud arved manustena automaatselt salvestada.
 
 1. Avage **Saadaolevad arved** > **Kõik kliendid**. 
@@ -60,5 +60,5 @@ Saate eelmises protseduuris konfigureeritud kliendile sisestada ja printida vaba
 
 Saate avada **Manused** prinditud arve lehe. **Manused** kiirkaardil **Täiendavad üksikasjad** väljal **Dokumendi räsinumber**, leidke prinditud arve jaoks salvestatud räsinumber.
 
-![Manuse räsinumber](media/attach-hash-num.jpg)
+![Manuse räsinumber.](media/attach-hash-num.jpg)
 

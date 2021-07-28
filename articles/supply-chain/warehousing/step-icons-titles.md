@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049360"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344490"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Warehouse Management mobiilirakendusele astmeikoonide ja pealkirjade määramine
 
@@ -25,7 +25,7 @@ See teema kirjeldab, kuidas määrata Warehouse Management mobiilirakenduses uut
 
 Järgmised illustratsioonid näitavad, kuidas etapiikoonid ja pealkirjad kuvatakse Warehouse Management mobiilirakenduses.
 
-![Warehouse Management mobiilirakenduse astmeikooni ja etapi pealkirja näide](media/step-icon-example.png "Warehouse Management mobiilirakenduse astmeikooni ja etapi pealkirja näide")
+![Warehouse Management mobiilirakenduse astmeikooni ja etapi pealkirja näide.](media/step-icon-example.png "Warehouse Management mobiilirakenduse astmeikooni ja etapi pealkirja näide")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Funktsiooni sisselülitamine teie süsteemis
 
@@ -350,13 +350,13 @@ See näide selgitab, kuidas seadistada kohandatud ülesandevoo astme ikoone ja p
 
 Järgmisel illustratsioonil on toodud see töövoog.
 
-![Ülesande voo diagramm](media/step-icons-example-task-flow.png "Ülesande voo diagramm")
+![Ülesande voo diagramm.](media/step-icons-example-task-flow.png "Ülesande voo diagramm")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Konteineri sisestuslehe etapiklassi loomine
 
 Konteineri sisestusleht võimaldab töötajal skannida või sisestada konteineri ID.
 
-![Konteineri sisestusleht](media/step-icons-example-container-input.png "Konteineri sisestusleht")
+![Konteineri sisestusleht.](media/step-icons-example-container-input.png "Konteineri sisestusleht")
 
 Konteineri sisestuslehel on sisendvälja juhtelemendi nimi `ContainerId`. Kuna see juhtelemendi nimi ei ole [ID-de loendis](#step-ids-classes), te ei leia sellel põhinevat olemasolevat sammu. Seetõttu peate looma astmeklassi, mis sammu esindab. Siin on näide.
 
@@ -382,7 +382,7 @@ Astme ikooni määramiseks määrake üks ikooni ID-dest, mis on loetletud `defa
 
 Kaalu sisestusleht võimaldab töötajal sisestada kaalu.
 
-![Kaalu sisestusleht](media/step-icons-example-weight-input.png "Kaalu sisestusleht")
+![Kaalu sisestusleht.](media/step-icons-example-weight-input.png "Kaalu sisestusleht")
 
 Kaalu sisestuslehel on sisendvälja juhtelemendi nimi `Weight`, mis on [astmete ID-de loendis](#step-ids-classes). Seega, kui klassis määratletud astme ikoon ja pealkiri on teile vastuvõetavad, ei pea te selle `WHSMobileAppStepWeight` sammu jaoks midagi muutma.
 

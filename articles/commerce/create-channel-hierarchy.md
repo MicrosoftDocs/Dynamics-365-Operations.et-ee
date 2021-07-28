@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951904"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352466"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Looge kanali navigeerimishierarhia
 
@@ -49,7 +49,7 @@ Kanali navigeerimishierarhia loomiseks toimige järgmiselt.
 
 Järgmine pilt näitab juursõlme näidet.
 
-![Juursõlme näide](media/create-channel-hierarchy-1.png)
+![Juursõlme näide.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Navigeerimiskategooria sõlmede loomine
 
@@ -65,7 +65,7 @@ Et luua täiendavaid navigeerimiskategooria sõlmi, mis tähistavad tootekategoo
 
 Järgmine pilt näitab lõpuleviidud kanali navigeerimishierarhia näidet.
 
-![Kanali hierarhia näide](media/create-channel-hierarchy-2.png)
+![Kanali hierarhia näide.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Toodete lisamine kategooria sõlmedesse
 
@@ -81,7 +81,7 @@ Toodete lisamiseks kategooria sõlmedesse toimige järgmiselt.
 
 Järgmine pilt näitab lisatud toodetega sõlme näidet.
 
-![Kategooria sõlme lisatud tooted](media/create-channel-hierarchy-3.png)
+![Kategooria sõlme lisatud tooted.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Toote atribuutide gruppide lisamine kategooria sõlmedesse
 
@@ -97,7 +97,7 @@ Tootele kategooria sõlme atribuudigrupi lisamiseks toimige järgmiselt.
 
 Järgmine pilt näitab sõlme näidist koos lisatud toote atribuudigruppidega.
 
-![Sõlme toote atribuudigrupid](media/create-channel-hierarchy-4.png)
+![Sõlme toote atribuudigrupid.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

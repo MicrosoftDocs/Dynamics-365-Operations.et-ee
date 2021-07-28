@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821293"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343696"
 ---
 # <a name="weighted-average-date"></a>Kaalutud keskmine kuupäev
 
@@ -39,7 +39,7 @@ Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + 
 
 Varude sulgemise ajal tehakse arvutus iga päev sulgemisperioodi kaudu, nagu on näidatud järgmisel joonisel. 
 
-![Kaalutud keskmise kuupäeva igapäevane arvutusmudel](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Kaalutud keskmise kuupäeva igapäevane arvutusmudel.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Laokanded, millest jäävad varud, nagu müügitellimused, varude töölehed ja tootmistellimused, toimuvad sisestamise päeval eeldatava omahinnaga. Seda eeldatavat omahinda nimetatakse ka keskmiseks jooksevomahinnaks. Varude sulgemise kuupäeval analüüsib süsteem eelmiste perioodide, eelmiste päevade ja jooksva päeva laokandeid. Seda analüüsi kasutatakse, et määrata, millist järgmistest sulgemispõhimõtetest tuleks kasutada.
 
@@ -72,7 +72,7 @@ Järgmine illustratsioon näitab järgmisi kandeid.
 -   2b. Varude finantsilise väljamineku kogust värskendatakse kahe võrra tüki hinnaga 10,00 USA dollarit.
 -   3. Lao sulgemine tehakse otsese tasakaalustuse meetodi abil finantsilise sissetuleku tasakaalustamiseks lao finantsilise väljastusega.
 
-![Kaalutud keskmise kuupäeva otsene tasakaalustus ilma valikuta Kaasa füüsiline väärtus](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Kaalutud keskmise kuupäeva otsene tasakaalustus ilma füüsilise väärtuse valikut kaasamata.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Joonise võti**
 
@@ -126,7 +126,7 @@ Süsteem loob ja sisestab summeeritud laoülekande kande. Peale selle tasakaalus
 
 Järgmine joonis näitab seda kannete seeriat koos kaalutud keskmise laomudeli valimise mõjudega ja summeeritud põhimõtet ilma valikuta **Kaasa füüsiline väärtus**. 
 
-![Kaalutud keskmise kuupäeva summeeritud tasakaalustus ilma valikuta Kaasa füüsiline väärtus](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Kaalutud keskmise kuupäeva summeeritud tasakaalustus ilma füüsilise väärtuse kaasamise valikuta.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Joonise võti**
 
@@ -175,7 +175,7 @@ Väljaminekukande saate sissetulekule märkida enne kande sisestamist. Seda saat
 
 Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USD. Järgnev joonis näitab seda kannete seeriat, kaalutud keskmise kuupäeva laomudeli valiku mõju ja märkimist.
 
-![Kaalutud keskmise kuupäev koos märkimisega](./media/weightedaveragedatewithmarking.gif) 
+![Kaalutud keskmise kuupäev koos märkimisega.](./media/weightedaveragedatewithmarking.gif) 
 
 **Joonise võti**
 

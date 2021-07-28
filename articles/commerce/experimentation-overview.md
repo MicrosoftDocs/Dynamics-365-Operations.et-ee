@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798983"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349324"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimenteerimine rakenduses Dynamics 365 Commerce
 Eksperimenteerige rakenduses Dynamics 365 Commerce, et kinnitada hüpoteese oma e-kaubanduse lehtede tõhususe kohta ja langetada otsuseid andmetel põhineva kindlustundega. Commerce toetab lehtede, moodulite ja fragmentide A/B-testimist ning võimaldab teil mõõta väljapakutud muudatuste mõju oma veebisaidile.
@@ -39,7 +39,7 @@ Saate luua, redigeerida ning hallata lehe- ja sisukäsitlusi, mida nimetatakse C
 ## <a name="experimentation-lifecycle"></a>Eksperimenteerimise elutsükkel
 Eksperimendi seadistamine, variatsioonide loomine ja eksperimendi käitamine on iteratiivne protsess. Allolev diagramm illustreerib eksperimendi elutsüklit rakenduses Commerce ja kolmanda osapoole teenuses. 
 
-[ ![Eksperimenteerimise elutsükkel](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Eksperimenteerimise elutsükkel.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Lisateavet iga eksperimenteerimisprotsessi etapi kohta leiate järgmistest teemadest.
 - [Hüpoteesi tuvastamine ja eksperimendi mõõdikute määramine](experimentation-identify.md)

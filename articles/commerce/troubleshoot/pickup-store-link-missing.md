@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f692d73bf1755422e9bfc8314c1156e043ccf761
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3dd4eb576f234e4d75c08b0b5e2fe967500c8c93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020801"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347292"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>"Järeleminemise" valikut ei kuvata ostukorvi või toote üksikasjade lehtedel
 
@@ -34,9 +34,9 @@ See teema annab tõrkeotsingu juhised, mis aitavad, kui kaupluses oleva kauba sa
 
 Järgmine illustratsioon näitab näidet lehekülje kohta, mis sisaldab **Järeleminemise** nuppu.
 
-![Järeleminemise nupp](media/pickup-button-missing.jpg)
+![Järeleminemise nupp.](media/pickup-button-missing.jpg)
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
 
 ### <a name="enable-the-bopis-extension-in-commerce-site-builder"></a>BOPIS-i laiendi lubamine Commerce'i saidi koostajas
 

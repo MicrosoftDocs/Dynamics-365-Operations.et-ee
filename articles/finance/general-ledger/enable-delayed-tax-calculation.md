@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823712"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350020"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Luba töölehtedel viivitusega maksuarvutus
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ Süsteem annab prioriteedi töölehe päise sättele. Vaikimisi võetakse see s�
 1. Avage **Pearaamat \> Pearaamatu seadistamine \> Pearaamatu parameetrid**.
 2. Määrake vahekaardi **Käibemaks** kiirkaardi **Üldine** valiku **Viivitusega maksuarvutus** väärtuseks **Jah**.
 
-![Pearaamatu parameetrite kujutis](media/delayed-tax-calculation-gl.png)
+![Pearaamatu parameetrite kujutis.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Viivitusega maksuarvutuse sisselülitamine töölehe nime tasandil
 
 1. Avage **Pearaamat \> Töölehe seadistamine \> Töölehtede nimed**.
 2. Määrake kiirkaardi **Üldine** jaotises **Käibemaks** valiku **Viivitusega maksuarvutus** väärtuseks **Jah**.
 
-![Töölehe nimede kujutis](media/delayed-tax-calculation-journal-name.png)
+![Töölehe nimede kujutis.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Viivitusega maksuarvutuse sisselülitamine töölehe päise tasandil
 
@@ -61,7 +61,7 @@ Süsteem annab prioriteedi töölehe päise sättele. Vaikimisi võetakse see s�
 3. Valige töölehe nimi.
 4. Seadke vahekaardil **Seadistus** valiku **Viivitusega maksuarvutus** väärtuseks **Jah**.
 
-![Päevaraamatu lehe kujutis](media/delayed-tax-calculation-journal-header.png)
+![Päevaraamatu lehe kujutis.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

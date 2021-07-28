@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188169"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353464"
 ---
 # <a name="purchase-requisition-workflow"></a>ostutaotluse töövoog
 
@@ -51,7 +51,7 @@ Järgmine illustratsioon näitab, kuidas ostutaotlus saab läbi töövoo läbiva
 -   **Ostuagent** – kasutaja, kes vaatab hanke üle ja saab dokumendi kinnitada.
 -   **Nõude esitaja ülemus** – kasutaja, kes teeb juhtiva ülevaatuse ja saab dokumendi kinnitada.
 
-![Ostutaotluse töövoo ülevaatamise protsess](./media/purchreqworkflowoverview_submission.gif)  
+![Ostutaotluse töövoo ülevaatamise protsess.](./media/purchreqworkflowoverview_submission.gif)  
 Selles näites töövoo protsess ostutaotlusele järgib järgmiseid samme:
 
 1.  Ettevalmistaja esitab ostutaotluse ülevaatamiseks.
@@ -74,7 +74,7 @@ Selles näites kuuluvad töövoo protsessi järgmised ülesanded:
 -   **Osakonnajuhataja** – kasutaja, kes vaatab kulu üle ja saab dokumendi kinnitada.
 -   **Grupihaldur**– kasutaja, kes teeb allkirjahalduri ülevaatuse ja saab dokumendi kinnitada.
 
-![Ostutaotluse rea töövoo ülevaatamise protsess](./media/purchreqlineworkflowoverview.gif)  
+![Ostutaotluse rea töövoo ülevaatamise protsess.](./media/purchreqlineworkflowoverview.gif)  
 Selles näites töövoo protsess ostutaotluse ridadele järgib järgmiseid samme:
 
 1.  Ettevalmistaja esitab ostutaotluse ülevaatamiseks. Iga rida suunatakse ülevaatajale, kes on konfigureeritud seda töövooprotsessis vastu võtma.

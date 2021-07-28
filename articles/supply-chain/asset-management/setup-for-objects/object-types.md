@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825706"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347160"
 ---
 # <a name="asset-types"></a>Vara tüübid
 
@@ -45,9 +45,9 @@ Esmalt seadistage nõutavad varatüübid. Järgmisena saate luua varamudelid, mi
 7. Valige käsk **Salvesta**.
 8. Valige kiirkaardil **Hooldustööde tüübid** need hooldustööde tüübid, mis peaksid olema vara tüübiga seotud.
 
-    - Hooldustöö tüübi valimiseks valige see väljal **Järelejäänud hooldustöö tüübid** ja seejärel valige paremnoole nupp ![Paremnoole nupp](media/29-setup-for-objects.png), et teisaldada see jaotisse **Valitud hooldustöö tüübid**.
-    - Kõigi saadaolevate hooldustöö tüüpide valimiseks valige nupp ![Edasta kõik](media/30-setup-for-objects.png). Kõik hooldustöö tüübid kantakse väljalt **Järelejäänud hooldustöö tüübid** üle väljale **Valitud hooldustöö tüübid**.
-    - Hooldustöötüübi valiku tühistamiseks valige see väljal **Valitud hooldustöö tüübid** ja seejärel valige vasaknoole nupp ![Vasaknoole nupp](media/31-setup-for-objects.png) selle teisaldamiseks väljale **Järelejäänud hooldustöö tüübid**.
+    - Töötüübi valimiseks valige see väljal **Järelejäänud töötüübid** ja seejärel valige paremnoole nupp ![Paremnoole nupp.](media/29-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud**.
+    - Kõigi saadaolevate hooldustöö tüüpide valimiseks, valige nupp ![Edasta kõik nool.](media/30-setup-for-objects.png) nupp. Kõik hooldustöö tüübid kantakse väljalt **Järelejäänud hooldustöö tüübid** üle väljale **Valitud hooldustöö tüübid**.
+    - Töötüübi valimiseks valige see väljal **Järelejäänud töötüübid valitud** ja seejärel valige vasaknoole nupp ![Vasaknoole nupp.](media/31-setup-for-objects.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud** väli..
 
 9. Saate valida ka loendurid, mis peaksid olema seotud varatüüpidega. Kiirkaardil **Loendurid** tehke oma valikud, kasutades meetodeid, mida on kirjeldatud hooldustöö tüüpide juhises 8. Teavet loendurite häälestamise kohta leiate jaotisest [Loendurid](counters.md).
 10. Saate valida ka atribuutide tüübid, mis peaksid olema seotud varatüüpidega. Kiirkaardil **Atribuutide tüübid** tehke oma valikud, kasutades meetodeid, mida on kirjeldatud hooldustöö tüüpide juhises 8. Seejärel valige atribuuditüüpide eelistatud jada loomiseks atribuuditüüp väljal **Valitud atribuuditüübid** ja kasutage selle teisaldamiseks üles-ja allanoolenuppe. Atribuuditüüpide jada näidatakse varadele, mis kasutavad seda varatüüpi. Lisateavet vara atribuutide kohta lugege teemast [Hooldusatribuutide tüübid](../setup-for-functional-locations/specification-types.md).

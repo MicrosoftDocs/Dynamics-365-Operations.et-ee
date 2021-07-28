@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344343"
 ---
 # <a name="set-up-assortments"></a>Sortimentide häälestamine
 
@@ -31,7 +31,7 @@ Selles artiklis kirjeldatakse, mis asi on sortiment, ja selgitatakse, kuidas sor
 
 Sortiment on kogum seotud tooteid, mille määrate kaubanduse kanalile, nagu füüsiline kauplus või veebipood. Sortimentide abil saate tuvastada igas kaupluses saadaolevaid tooteid. Sortiment võib sisaldada tootekategooriaid. Seega sisaldab sortiment kindlale kategooriale määratud tooteid. Sortiment võib sisaldada ka kindlaid tooteid ja tootevariante. Sortimendi seadistamisega saate määrata oma kanalitele samal ajal mis tahes kombinatsioonis, mida teie kauplused vajavad, tuhandeid tooteid. Saate seadistada nii palju tootesortimente kui vaja. Iga toote saab lisada ühte või mitmesse sortimenti ja iga sortimendi saab määrata ühele või mitmele kanalile. Näiteks määratlete ühe sortimendi, mis sisaldab toodete põhikomplekti. Selle sortimendi saavad kõik kauplused. Seejärel määratlete teise sortimendi, mis sisaldab ainult suuri spordivahendeid. Selle sortimendi saavad ainult teie suuremad kauplused. Järgmisel joonisel on näidatud, kuidas saab tooteid sortimentidele määrata ja kuidas neid sortimente kanalitele määrata.
 
-![Tootesortimendi seosed](./media/assortments_relationship.gif)
+![Tootesortimendi seosed.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Eeltingimused
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830120"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352708"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Kaalutud keskmine füüsilise väärtuse ja märgistusega
 
@@ -65,7 +65,7 @@ Järgmistes lõikudes kirjeldatud stsenaariumis on sisestatud finantsiliselt vä
 
 Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasutamise mõjuga ja otsese tasakaalustuse põhimõttega valikuta Kaasa füüsiline väärtus. 
 
-![Kaalutud keskmise otsene tasakaalustus valikuta Kaasa füüsiline väärtus](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Kaalutud keskmise otsene tasakaalustus füüsilise väärtuse kaasamise valikuta.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 - Laokandeid tähistavad vertikaalsed nooled.
@@ -99,7 +99,7 @@ Järgmisi kandeid illustreeritakse alloleval pildil:
 
 Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasutamise mõjuga ja summeeritud tasakaalustuse põhimõttega valikuta Kaasa füüsiline väärtus. 
 
-![Kaalutud keskmise summeeritud tasakaalustus valikuta Kaasa füüsiline väärtus](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Kaalutud keskmise summeeritud tasakaalustus füüsilist väärtust kaasamata.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 - Laokandeid tähistavad vertikaalsed nooled.
@@ -128,7 +128,7 @@ Järgmisi kandeid illustreeritakse alloleval pildil:
 
 Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasutamise mõjuga ja otsese tasakaalustuse põhimõttega valikuga Kaasa füüsiline väärtus. 
 
-![Kaalutud keskmise otsene tasakaalustus valikuga Kaasa füüsiline väärtus](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Kaalutud keskmise otsene tasakaalustus füüsilise väärtuse valikut kaasamata.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 - Laokandeid tähistavad vertikaalsed nooled.
@@ -161,7 +161,7 @@ Järgmisi kandeid illustreeritakse alloleval pildil:
 
 Järgmine joonis selgitab seda kannete seeriat laomudeli Kaalutud keskmine kasutamise mõjuga ja summeeritud tasakaalustuse põhimõttega valikuta Kaasa füüsiline väärtus. 
 
-![Kaalutud keskmise summeeritud tasakaalustus valikuga Kaasa füüsiline väärtus](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Kaalutud keskmise summeeritud tasakaalustus füüsilise väärtuse kaasamise valikuga.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 - Laokandeid tähistavad vertikaalsed nooled.
@@ -209,7 +209,7 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 
 Järgnev diagramm illustreerib seda kannete seeriat Kaalutud keskmise laomudeli valiku mõjudega märkega. 
 
-![Kaalutud keskmine märkusega](./media/weightedaveragewithmarking.gif) 
+![Kaalutud keskmine märkusega.](./media/weightedaveragewithmarking.gif) 
 
 **Diagrammi võti**
 - Laokandeid tähistavad vertikaalsed nooled.
