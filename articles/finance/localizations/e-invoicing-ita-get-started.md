@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356073"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
 
@@ -59,7 +61,7 @@ RCS-i seadistuse käigus teete järgmist.
 
 4. Valige funktsioon **E-arvete eksportimine (IT)** ja seejärel valige **Impordi**.
 
-![E-arvete eksportimise (IT) funktsiooni importimine](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![E-arvete eksportimise (IT) funktsiooni importimine.](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 Funktsiooni **E-arvete eksportimine (IT)** importimisel globaalsest hoidlast, imporditakse ka kõik järgmistes jaotistes kirjeldatud sätted.
 
@@ -67,13 +69,13 @@ Funktsiooni **E-arvete eksportimine (IT)** importimisel globaalsest hoidlast, im
 
 1. Valige lehel **E-arvelduse funktsioonid** vahekaardil **Versioonid** suvand **Uus**. 
 
-    ![E-arvelduse funktsiooni uue versiooni lisamine](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![E-arvelduse funktsiooni uue versiooni lisamine.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Järgmisena konfigureerite elektroonilise aruandluse (ER) vormingud, mis on e-arvelduse funktsiooniga seotud.
 
 2. Valige vahekaardil **Konfiguratsioonid** suvand **Lisa**, et hallata konfiguratsiooni versioone.
 
-    ![E-arvelduse funktsiooni konfiguratsiooni versioonide haldamine](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![E-arvelduse funktsiooni konfiguratsiooni versioonide haldamine.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     Selles sammus lisate ja konfigureerite ER-i vormingud eri failide jaoks, mida kasutatakse Itaalia e-arvete eksportimiseks. Itaalia FatturaPA e-arvete puhul kasutage järgmisi standardseid konfiguratsioone või tegelikke e-arvelduse jaoks kasutatavaid kohandatud konfiguratsioone.
 
@@ -85,17 +87,17 @@ Funktsiooni **E-arvete eksportimine (IT)** importimisel globaalsest hoidlast, im
 3. Valige konkreetne ER-i vormingu failikonfiguratsioon.
 4. Valige **Redigeeri** või **Kuva**, et avada leht **Vormingukujundaja**.
 
-    ![Vormingukujundaja lehe avamine](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![Vormingukujundaja lehe avamine.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. Kasutage ER-i vormingu failikonfiguratsioonide redigeerimiseks ja kuvamiseks lehte **Vormingukujundaja**.
 
-    ![Vormingukujundaja leht](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![Vormingukujundaja leht.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>E-arvelduse funktsiooni seadistuste haldamine
 
 - Valige lehel **E-arvelduse funktsioonid** vahekaardil **Seadistused** suvand **Lisa**, **Kustuta** või **Redigeeri**, et hallata e-arvelduse funktsiooni seadistusi.
 
-![E-arvelduse funktsiooni seadistuste haldamine](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![E-arvelduse funktsiooni seadistuste haldamine.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 Selles sammus konfigureerite sündmused, mida rakendatakse elektrooniliste arvete puhul, sh XML-väljundfailide loomine vormingus **FatturaPA** ja digitaalne allkirjastamine (kui see on vajalik).
 
@@ -105,20 +107,20 @@ Selles sammus konfigureerite sündmused, mida rakendatakse elektrooniliste arvet
 2. Valige suvand **Redigeeri**.
 3. Valige lehel **Funktsiooni versiooni seadistus** vahekaart **Tegevused**, et hallata tegevuste loendit. Tegevused määratlevad selliste toimingute loendi, mis tuleb käitada sündmuse täielikuks lõpetamiseks järjestikku.
 
-    ![Tegevuste vahekaart](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![Tegevuste vahekaart.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | Tegevuse ID | Tegevuse nimi        | Tegevuse kirjeldus                                     |
     |-----------|--------------------|--------------------------------------------------------|
-    | 1         | Teisenda dokument | E-arve XML-faili loomine vormingus **FatturaPA**. |
+    | 1         | Dokumendi teisendamine | E-arve XML-faili loomine vormingus **FatturaPA**. |
     | 2         | Allkirjasta dokument      | Digitaalallkirja lisamine XML-failile.             |
 
 4. Valige vahekaart **Rakendatavuse reeglid**, et vaadata ja hallata rakendatavuse reegleid. Rakendatavuse reeglid määratlevad konteksti, mille puhul tegevus käivitatakse.
 
-    ![Rakendatavuse reeglite vahekaart](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![Rakendatavuse reeglite vahekaart.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. Valige vahekaart **Muutujad**, et vaadata ja hallata muutujaid.
 
-    ![Muutujate vahekaart](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![Muutujate vahekaart.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. Määratlege avalikud muutujad, mis on vajalikud tegevuste käivitamiseks.
 
@@ -133,7 +135,7 @@ Funktsiooni **Projektiarve** seadistuse konfigureerimiseks vajalikud juhised ja 
 3. Valige väljal **Kehtiv alates** kuupäev, mil uus keskkond peaks kehtima hakkama.
 4. Valige **Luba**. 
 
-![E-arvelduse keskkonna lubamine](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![E-arvelduse keskkonna lubamine.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>E-arvelduse funktsiooni avaldamine
 
@@ -149,7 +151,7 @@ Saate avaldada e-arvelduse funktsiooni, muutes versiooni olekuks väärtuse **L�
 1. Valige lehel **E-arvelduse funktsioonid** vahekaardil **Versioonid** e-arvelduse funktsiooni versioon, mille olek on **Lõpetatud**.
 2. Valige **Muuda olekut \> Avalda**.
 
-![E-arvelduse funktsiooni oleku muutmine](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![E-arvelduse funktsiooni oleku muutmine.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Seadista Elektroonilise arveldamise integratsioon Finantsis
 
@@ -170,7 +172,7 @@ Rakenduse Finance seadistuse käigus teete järgmist.
 1. Avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**.
 2. Märkige vahekaardil **Funktsioonid** märkeruut **Lubatud** funktsiooniviite **IT00036** rea puhul.
 
-![FatturaPA funktsiooni sisselülitamine](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![FatturaPA funktsiooni sisselülitamine.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Elektrooniliste dokumentide konfigureerimine
 
@@ -185,7 +187,7 @@ Rakenduse Finance seadistuse käigus teete järgmist.
     - Valige suvandi **Kliendiarve tööleht** puhul **Kliendiarve kontekst**.
     - Valige suvandi **Projektiarve** puhul **Projektiarve kontekst**.
 
-![Vastusetüüpide seadistamine](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![Vastusetüüpide seadistamine.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>Elektroonilise arve töötlemine
 
@@ -207,13 +209,13 @@ Dokumente saate edastada käsitsi sõltuvalt nõudlusest e-arve dokumentide jär
 2. Mis tahes dokumendi esimese edastamise korral seadke suvandi **Dokumentide taasedastamine** väärtuseks **Ei**. Kui peate dokumendi teenuse kaudu uuesti edastama, seadke selle suvandi väärtuseks **Jah**.
 3. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**, et avada dialoogiboks **Päring**, kus saate luua päringu edastatavate dokumentide valimiseks.
 
-![Elektrooniliste dokumentide edastamise dialoogiboks](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![Elektrooniliste dokumentide edastamise dialoogiboks.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Filtri päring
 
 1. Konfigureerige dialoogiboksis **Päring** filtreerimistingimused nii müügi- kui ka projektiarvete jaoks või jätke tingimused tühjaks, et kaasata kõik edastamata arved.
 
-    ![Edastamise filtreerimiskriteeriumide seadistamine](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![Edastamise filtreerimiskriteeriumide seadistamine.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. Valige dialoogiboksi **Päring** sulgemiseks **OK**.
 3. Valige **OK**, et edastada valitud dokumendid.
@@ -227,13 +229,13 @@ Saate vaadata kõigi edastatud dokumentide edastuslogisid.
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Elektroonilise dokumendi edastuslogi**.
 2. Valige väljal **Dokumenditüüp** suvand **Kliendiarve tööleht** või **Projektiarve**, et kuvada vajalikud elektroonilised dokumendid.
 
-    ![Dokumendi tüübi valimine edastuslogide kuvamiseks](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![Dokumendi tüübi valimine edastuslogide kuvamiseks.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     Veerus **Edastuse olek** toodud väärtus tähistab edastusprotsessi olekut. See näitab, kas protsess käitati nagu konfigureeritud ja kas vajalik on täiendav tegevus.
 
 3. Valige toimingupaanil **Päringud \> Edastuse üksikasjad**, et vaadata edastuse käivituslogide üksikasju.
 
-    ![Edastuslogi üksikasjade vaatamine](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![Edastuslogi üksikasjade vaatamine.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. Kiirkaardil **Töötlemistegevused** saate vaadata RCS-is seadistatud funktsiooni versioonis konfigureeritud tegevuste käivituslogi. Veerus **Olek** on näha, kas tegevuse käivitamine õnnestus.
 5. Kiirkaardil **Tegevusfailid** saate vaadata vahefaile, mis loodi tegevuste käivitamise ajal. Saate valida **Kuva**, et laadida alla XML-väljundfail vormingus **FatturaPA** ja vaadata selle sisu.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839603"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361110"
 ---
 # <a name="maintenance-plans"></a>Hoolduskavad
 
@@ -74,7 +74,7 @@ Selles jaotises kirjeldatakse hoolduskavade ridade seadistamist ja antakse näit
 
 1. Valige väljal **Hooldustöö tüüp** see töö tüüp, millega hoolduskava rida seotud on.
 
-1. Valige väljadel **Hooldustöö  tüübi variant** ja **Vahetus** hooldustöö tüübiga seotud variant ja vahetus.
+1. Valige väljadel **Hooldustöö tüübi variant** ja **Vahetus** hooldustöö tüübiga seotud variant ja vahetus.
 
 1. Väljadele **Päevi lõpetamiseks** ja **Tunde lõpetamiseks** võite sisestada oodatava lõppkuupäeva päevade ja tundidena. Oodatav lõppkuupäev sisestatakse vastavalt oodatavale alguskuupäevale, mis arvutatakse välja hoolduskava ridade loomisel. Näiteks võite sisestada väljale **Päevi lõpetamiseks** numbri "7" näitamaks, et seotud töö tuleks lõpetada nädala jooksul alates oodatavast alguskuupäevast.
 
@@ -145,23 +145,23 @@ Allpool leiate näiteid ajapõhiste ja loenduripõhiste hoolduskava ridade seadi
 
 **Näide 1 - ajapõhise hoolduskava rida:** määrimistöö võib seadistada fikseeritud intervalliga, toimudes korra nädalas. Selleks valige väljal **Intervalli tüüp** suvand „Korduv alates planeerimiskuupäevast”. Vt alloleval joonisel olevat näidet.
 
-![Fikseeritud intervalliga hooldustöö, toimub kord nädalas](media/02-preventive-maintenance.png "Fikseeritud intervalliga hooldustöö, toimub kord nädalas")
+![Fikseeritud intervalliga hooldustöö, toimub kord nädalas.](media/02-preventive-maintenance.png "Fikseeritud intervalliga hooldustöö, toimub kord nädalas")
 
 **Näide 2 - ajapõhise hoolduskava rida:** ülevaatuse töö võib seadistada nii, et see teostatakse umbes korra nädalas. Selleks valige väljal **Intervalli tüüp** suvand „Korduv alates viimasest töökäsust”. Vt alloleval joonisel olevat näidet.
 
-![Ligikaudu kord nädalas toimuma häälestatud ülevaatuse töö](media/03-preventive-maintenance.png "Ligikaudu kord nädalas toimuma häälestatud ülevaatuse töö")
+![Ligikaudu kord nädalas toimuma häälestatud ülevaatuse töö.](media/03-preventive-maintenance.png "Ligikaudu kord nädalas toimuma häälestatud ülevaatuse töö")
 
 **Näidis 3 - loenduripõhise hoolduskava rida:** järgmisel graafilisel joonisel on tundide loendur, mille jaoks luuakse iga kord 250 tunni möödudes uus hooldusgraafiku rida. Selle loenduripõhise rea intervalli tüüp on "Korduv alates alguskuupäevast". Alguskuupäevaks on seotus varade alguskuupäev jaotises **Kõik varad** üksikasjade vaade \> kiirkaardi **Vara hoolduskavad** \> väljal **Alguskuupäev** või jaotises **Töö asukoht** üksikasjade vaade \> kiirkaardi **Hoolduskavad** \> väljal **Alguskuupäev**. See on näide *ennetavast* hoolduskavast, sest hooldusgraafiku rida luuakse automaatselt iga kord läve (+ 250) ületamisel.
 
-![Perioodiliselt hooldusgraafiku ridu loov tunniloendur](media/04-preventive-maintenance.png "Perioodiliselt hooldusgraafiku ridu loov tunniloendur")
+![Perioodiliselt hooldusgraafiku ridu loov tunniloendur.](media/04-preventive-maintenance.png "Perioodiliselt hooldusgraafiku ridu loov tunniloendur")
 
 **Näide 4 - loenduripõhise hoolduskava rida:** järgmisel graafilisel joonisel kujutatakse piduriklotsi kulumist mõõtva loenduri väärtuse langusest. Kui piduripadjale luuakse loenduri registreering, mis on alla 20 mm, luuakse hooldusgraafiku rida. Selle loenduripõhise rea intervalli tüüp on "Kui on jõudnud allapoole" või "Üks kord alates alguskuupäevast". See on näide *reageerivast* hoolduskavast, sest hooldusgraafiku rida ei looda enne, kui registreeritakse mõõtmistulemus, mis jääb alla 20 mm.
 
-![Loenduri väärtuse vähenemine, piduriklotsi kulumise mõõtmine](media/05-preventive-maintenance.png "Loenduri väärtuse vähenemine, piduriklotsi kulumise mõõtmine")
+![Loenduri väärtuse vähenemine, piduriklotsi kulumise mõõtmine.](media/05-preventive-maintenance.png "Loenduri väärtuse vähenemine, piduriklotsi kulumise mõõtmine")
 
 **Näide 5 - loenduripõhise hoolduskava rida:** järgmisel graafilisel joonisel on loendur, mille lävi on -18° Celsiuse järgi. Hooldusgraafiku rida luuakse siis, kui loendur registreerib näidu temperatuuriga üle -18° Celsiuse järgi. Selle loenduripõhise rea intervalli tüüp on "Kui on ületanud". See on näide *reageerivast* hoolduskavast, sest hooldusgraafiku rida ei looda enne, kui registreeritakse mõõtmistulemus, on üle -18° Celsiuse järgi.
 
-![Loendur läviväärtusega –18 °Celsius](media/06-preventive-maintenance.png "Loendur läviväärtusega –18 °Celsius")
+![Loendur läviväärtusega –18 °Celsius.](media/06-preventive-maintenance.png "Loendur läviväärtusega –18 °Celsius")
 
 - Kui loote uue vara ja see vara kasutab hoolduskavaga seotud vara tüüpi, sisestatakse hoolduskava automaatselt jaotise **Kõik objektid \> Vara hoolduskavad** kiirkaardile. Samuti sisestatakse seotud hoolduskavad automaatselt jaotise **Vaikimisi varatüübid** kiirkaardile **Hoolduskavad**.
 - Kui lisate või eemaldate jaotises **Hoolduskavad** vara tüüpe või töö asukohatüüpe, peegeldub see muutus ainult uutel varadel, mis on loodud pärast muudatuse tegemist.
@@ -169,7 +169,7 @@ Allpool leiate näiteid ajapõhiste ja loenduripõhiste hoolduskava ridade seadi
 
 Järgmisel joonisel on hoolduskava „Veoteenus” näide lehel **Hoolduskavad**.
 
-![Veoauto hooldusplaani näide](media/07-preventive-maintenance.png "Veoauto hooldusplaani näide")
+![Veoauto hooldusplaani näide.](media/07-preventive-maintenance.png "Veoauto hooldusplaani näide")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Varale hoolduskava lisamine
 
@@ -187,11 +187,11 @@ Järgmisel joonisel on hoolduskava „Veoteenus” näide lehel **Hoolduskavad**
 
 Järgmisel joonisel on vara alusel seadistatud hoolduskava näide lehel **Kõik varad**.
 
-![Vara jaoks häälestatud hooldusplaanide näide](media/08-preventive-maintenance.png "Vara jaoks häälestatud hooldusplaanide näide")
+![Vara jaoks häälestatud hooldusplaanide näide.](media/08-preventive-maintenance.png "Vara jaoks häälestatud hooldusplaanide näide")
 
 <a id="counter-based-maintenance"></a>
 
-## <a name="counter-based-maintenance-enhancements"></a>Loenduripõhise hoolduse täiustused
+## <a name="counter-based-maintenance-enhancements"></a>Loenduripõhised hoolduse täiustused
 
 Funktsioon *Loenduripõhise hoolduse täiustused* lisab järgmised funktsioonid.
 

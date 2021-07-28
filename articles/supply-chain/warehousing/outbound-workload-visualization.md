@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810482"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351413"
 ---
 # <a name="outbound-workload-visualization"></a>Väljamineva töökoormuse visualiseerimine
 
@@ -60,7 +60,7 @@ Väljamineva töökoormuse visualiseerimise häälestamiseks toimige järgmiselt
     - **Kaasatavate päevade arv** – sisestage päevade arv minevikus, mille jaoks diagramm tuleb luua.
     - **Töökäsu tüüp** – valige väljaminevate töökäskude tüübid, mida filtreerida.
 
-    ![Filtrite konfigureerimise leht](media/work-viz-filters-1.png "Filtrite konfigureerimise leht")
+    ![Filtrite konfigureerimise leht.](media/work-viz-filters-1.png "Filtrite konfigureerimise leht")
 
 1. Sulgege leht **Filtrite konfigureerimine**, et naasta lehele **Väljamineva töökoormuse visualiseeringud**.
 
@@ -70,11 +70,11 @@ Väljamineva töökoormuse visualiseerimise häälestamiseks toimige järgmiselt
     - **Viimati värskendatud** – sellel väljal kuvatakse kuupäev ja kellaaeg, kui teavet diagrammis viimati värskendati.
     - **Hinnanguline/tegelik aeg** – kui teie süsteemis häälestati tööstandardid, määrake selle suvandi väärtuseks *Jah*, et kuvada diagrammi iga veeru ülaosas akumuleeritud hinnangulised komplekteerimisajad. Kui te tööstandardit ei kasuta, ei ole see suvand saadaval.
 
-    ![Näide visualiseerimisest](media/work-viz-chart.png "Näide visualiseerimisest")
+    ![Näide visualiseerimisest.](media/work-viz-chart.png "Näide visualiseerimisest")
 
 1. Valige diagrammil mis tahes riba, et vaadata seotud töörea üksikasju.
 
-    ![Töörea üksikasjad](media/work-viz-work-details.png "Töörea üksikasjad")
+    ![Töörea üksikasjad.](media/work-viz-work-details.png "Töörea üksikasjad")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Näide: väljamineva töökoormuse visualiseerimine tsoonide jaoks
 
@@ -92,7 +92,7 @@ Selle näite puhul häälestatakse visualiseering, mis näitab iga tsooni töör
 
 Järgnev illustratsioon näitab tulemuseks oleva diagrammi näidet.
 
-![Tsooni versus töö oleku visualiseerimine](media/work-viz-chart.png "Tsooni versus töö oleku visualiseerimine")
+![Tsooni versus töö oleku visualiseerimine.](media/work-viz-chart.png "Tsooni versus töö oleku visualiseerimine")
 
 Sellel diagrammil kuvatakse kaks tsooni, mille nimeks on **PÕRAND** ja **HULGI**, ning tsoon, mille nimi on **Tühi**. **Tühi** tsoon tähistab kõiki tööridu, mis ei kuulu tsooni. Diagrammis kuvatakse alati kõik sõltumatud filtreeritud andmed **tühjana**, et pakkuda võimalikult palju nähtavust. Tsooni **PÕRAND** kohta kuvab diagramm kolm suletud rida ja neli avatud rida. Tsooni **HULGI** kohta kuvab diagramm neli suletud rida, ühe avatud rea ja 24 tühistatud rida. Lõpuks näitab diagramm kaheksat suletud rida, mis pole üheski tsoonis ja on seetõttu loetletud **tühjana**.
 

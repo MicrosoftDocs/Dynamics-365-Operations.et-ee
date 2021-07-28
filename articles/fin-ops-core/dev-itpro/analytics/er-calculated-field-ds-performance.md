@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944829"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349180"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Saate parandada ER-lahenduste jõudlust, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad
 
@@ -56,7 +56,7 @@ Esimese etapina tuleb importida ER-i näidislahendus hankija kannete aruande loo
     2. Valige käsk **Sirvi** ja valige ER-i konfiguratsiooni jaoks sobiv fail XML-vormingus.
     3. Valige nupp **OK**.
 
-![Imporditud konfiguratsioonid lehel Konfiguratsioonid](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Imporditud konfiguratsioonid konfiguratsioonide lehel.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>ER-i näidislahenduse ülevaatamine
 
@@ -76,7 +76,7 @@ Esimese etapina tuleb importida ER-i näidislahendus hankija kannete aruande loo
 
     Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ER-vormingute korral, mida kasutatakse rakenduses Finance. Selle tulemusena on andmeallika **Kanded** sisu avatud ER-vormingute, näiteks abstraktsete **andmemudeli** allikate korral.
 
-    ![Andmeallikas Kanded mudeli vastenduse koostaja lehel](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Kanded andmeallikas mudeli vastenduse koostaja lehel.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Sulgege leht **Mudelivastenduse kujundaja**.
 5. Sulgege leht **Mudelist andmeallikasse vastendamine**.
@@ -90,7 +90,7 @@ Esimese etapina tuleb importida ER-i näidislahendus hankija kannete aruande loo
 
     See ER-vorming on loodud hankija kannete aruande loomiseks XML-vormingus.
 
-    ![Vorminguelementide andmeallikate ja konfigureeritud sidumiste vormindamine vormingu koostaja lehel](media/er-calculated-field-ds-performance-format.png)
+    ![Vorminguelementide andmeallikate ja konfigureeritud sidumiste vormindamine vormingu koostaja lehel.](media/er-calculated-field-ds-performance-format.png)
 
 5. Sulgege **Vormingu kujundaja** leht.
 
@@ -103,7 +103,7 @@ Oletame, et olete lõpetanud ER-i lahenduse esimese versiooni kujundamise. Nüü
 1. Valige ettevõte **DEMF**.
 2. Järgige teemas [ER-i jõudluse jälituse sisselülitamine](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) toodud juhiseid, et luua jõudluse jälitus ER-vormingu käivitamisel.
 
-    ![Kasutaja parameetrite dialoogiaken](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Kasutaja parameetrite dialoogiaken.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>ER-vormingu käivitamine
 
@@ -124,7 +124,7 @@ Praeguse mudeli vastenduse mõne andmeallika üksuse kohta on kättesaadav uus t
 - Tegelik aeg, mis kulus andmeallika abil andmete toomisele
 - Sama aeg väljendatuna protsendina koguajast, mis kulutati kogu mudelivastenduse käitamise peale
 
-![Käivitamise aja üksikasjad Mudeli vastenduse koostaja lehel](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Käivitamise aja üksikasjad Mudeli vastenduse koostaja lehel.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 Ruudustik **Jõudluse statistika** näitab, et andmeallikas **Kanded** kutsub tabeli VendTrans ühel korral. Andmeallika **Kanded** väärtus **\[265\]\[Q:265\]** näitab, et avalduse tabelist on toodud 265 hankija kannet ja need on tagastatud andmemudelisse.
 
@@ -137,7 +137,7 @@ Ruudustik **Jõudluse statistika** näitab ka, et praegune mudelivastendus duble
 
 - Hankija tabelit kutsutakse iga itereeritud hankija kande korral, kuigi toodud kanded on sisestatud ainult viie hankija kohta. 530 kutsest 525 on duplikaadid. Järgmisel illustratsioonil on kujutatud teade, mis kuvatakse duplikaatkutsete (andmebaasitaotluste) kohta.
 
-![Teade dubleeritud andmebaasi taotluste kohta mudelivastenduse koostaja lehel](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Teade dubleeritud andmebaasi taotluste kohta mudelivastenduse koostaja lehel.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Pange tähele, et mudelivastenduse käivitamise koguajast (ligikaudu kaheksa sekundit) on kulunud rohkem kui 80 protsenti (ligikaudu kuus sekundit) avalduse tabelist VendTable väärtuste toomisele. See protsent on viie hankija kahe atribuudi jaoks liiga suur, võrreldes avalduse tabelist VendTrans pärit andmete mahuga.
 
@@ -172,7 +172,7 @@ Järgige järgmisi juhiseid vahemällu salvestamise ja tüübiga **Arvutatud vä
     3. Sisestage dialoogiboksis väljale **Nimi** väärtus **Väli**.
     3. Valige nupp **OK**.
 
-    ![Andmeallikas Väli mudeli vastenduse koostaja lehel](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Ruudu välja andmeallikas mudeli vastenduse koostaja lehel.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Tüübiga **Arvutatud väli** parametriseeritud andmeallika lisamiseks tehke järgmist.
 
@@ -208,7 +208,7 @@ Järgige järgmisi juhiseid vahemällu salvestamise ja tüübiga **Arvutatud vä
 
 9. Valige käsk **Salvesta**.
 
-    ![Andmeallikas Hankija mudeli vastenduse koostaja lehel](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Hankija andmeallikas mudeli vastenduse koostaja lehel.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Sulgege leht **Mudelivastenduse kujundaja**.
 11. Sulgege leht **Mudelivastendused**.
@@ -232,11 +232,11 @@ Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et l
 
 Pange tähele, et kohandused, mida tegite mudelivastendusele, on eemaldanud dubleeritud päringud andmebaasile. Vähendatud on ka selle mudelivastenduse kutsete arvu andmebaasi tabelitele ja andmeallikatele.
 
-![Jälitusteave mudeli vastenduse koostaja lehel 1](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Kande teave mudeli vastenduse koostaja lehel 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Täitmisaega on vähendatud umbes 20 korda (umbes 8 sekundilt 400 millisekundini). See on parandanud kogu ER-lahenduse jõudlus.
 
-![Jälitusteave mudeli vastenduse koostaja lehel 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Kande teave mudeli vastenduse koostaja lehel 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Lisa 1: laadige alla Microsofti ER-näidislahenduse komponendid
 

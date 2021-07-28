@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: a2ea914344341ee26138e853727c551bdd5d733e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833086"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358613"
 ---
 # <a name="using-power-portal-with-the-party-data-model"></a>Power Portali kasutamine osapoole andmemudeliga
 
@@ -28,11 +28,11 @@ Kokkuvõttes on tabelite omavaheline suhtlus muutunud, kuid tabeliõigused klien
 
 Diagramm näitab tabeliseost **ilma** osapooleta ja globaalse aadressiraamatu andmemudelita.
 
-   ![osapoolemudelita](media/without-party-model.PNG)
+   ![osapoolemudelita.](media/without-party-model.PNG)
 
 Diagramm näitab tabeliseost **koos** osapoole ja globaalse aadressiraamatu andmemudeliga.
 
-   ![osapoolemudeliga](media/with-party-model.png)
+   ![osapoolemudeliga.](media/with-party-model.png)
 
 ## <a name="create-a-new-table-permission"></a>Loo uue tabeli luba
 

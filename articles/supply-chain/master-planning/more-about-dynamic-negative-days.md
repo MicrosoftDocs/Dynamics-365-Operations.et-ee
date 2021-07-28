@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097230"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354733"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatiivsed päevad ja dünaamilised negatiivsed päevad
 
@@ -43,7 +43,7 @@ Võite saada nõudluse kas kauba täitmisajal suhteliselt varakult või vahetult
 
 Järgmisel joonisel on selle stsenaariumi graafiline vaade.
 
-![1. stsenaariumi graafiline vaade](./media/negative-days-1.jpg)
+![1. stsenaariumi graafiline vaade.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Juhtum A: negatiivseid päevi on vähem kui kauba täitmisaeg.
 
@@ -51,11 +51,11 @@ Kui määrate negatiivsed päevad arvule, mis on väiksem kui kauba täitmisaeg,
 
 Järgmisel joonisel on selle juhtumi kuvatõmmis.
 
-![1. stsenaariumi juhtumi A kuvatõmmis](./media/negative-days-2.png)
+![1. stsenaariumi juhtumi A kuvatõmmis.](./media/negative-days-2.png)
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![1. stsenaariumi juhtumi A graafiline vaade](./media/negative-days-3.png)
+![1. stsenaariumi juhtumi A graafiline vaade.](./media/negative-days-3.png)
 
 Kui kaalute MRP jõudluse ja plaani närvilisust, siis see juhtum hästi ei toimi. MRP peab looma uue plaanitud tellimuse ning arvutama viivitused ja tegevused. Need ülesanded on aeganõudvad. See juhtum lisab teie plaani veel kaks kannet. Teisest küljest hilineb müügitellimus ainult kuus päeva, mitte seitse päeva.
 
@@ -73,11 +73,11 @@ Dünaamiliste negatiivsete päevade ajapiir = ostu täitmisaeg + negatiivse päe
 
 Kui kasutatakse dünaamilisi negatiivseid päevi, on MRP sissetulekute otsimise ajapiir nüüd 6 + 2 + 0 = 8 päeva. MRP leiab olemasoleva ostutellimuse ja seob müügitellimuse sellega. Uusi plaanitud tellimusi ei looda. Seetõttu on MRP töötamise aeg lühem. Järgmisel joonisel on näha demotoote netonõuded.
 
-![1. stsenaariumi juhtumi C netonõuded](./media/negative-days-4.png)
+![1. stsenaariumi juhtumi C netonõuded.](./media/negative-days-4.png)
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![1. stsenaariumi juhtumi C graafiline vaade](./media/negative-days-5.png)
+![1. stsenaariumi juhtumi C graafiline vaade.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Juhtum D: ainult dünaamiliste negatiivsete päevade kasutamine
 
@@ -85,11 +85,11 @@ Kui määrate negatiivsed päevad väärtusele **0** (null) ja kasutate ainult d
 
 Järgmisel joonisel on selle juhtumi kuvatõmmis.
 
-![1. stsenaariumi juhtumi D kuvatõmmis](./media/negative-days-6.png)
+![1. stsenaariumi juhtumi D kuvatõmmis.](./media/negative-days-6.png)
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![1. stsenaariumi juhtumi D graafiline vaade](./media/negative-days-7.png)
+![1. stsenaariumi juhtumi D graafiline vaade.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Juhtum E: mõlema negatiivse päeva kasutamine, mis on suurem kui kauba täitmisaeg ja dünaamiliste negatiivsete päevade ajapiir.
 
@@ -106,7 +106,7 @@ Võite saada nõudluse millalgi kauba täitmisajal. Siin on selle stsenaariumi k
 
 Järgmisel joonisel on selle stsenaariumi graafiline vaade.
 
-![2. stsenaariumi graafiline vaade](./media/negative-days-8.png)
+![2. stsenaariumi graafiline vaade.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Juhtum A: negatiivseid päevi on vähem kui kauba täitmisaeg.
 
@@ -114,11 +114,11 @@ Kui määrate negatiivsed päevad arvule, mis on väiksem kui kauba täitmisaeg,
 
 Järgmisel joonisel on selle juhtumi kuvatõmmis.
 
-![2. stsenaariumi juhtumi A kuvatõmmis](./media/negative-days-9.png)
+![2. stsenaariumi juhtumi A kuvatõmmis.](./media/negative-days-9.png)
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![2. stsenaariumi juhtumi A graafiline vaade](./media/negative-days-10.png)
+![2. stsenaariumi juhtumi A graafiline vaade.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>Juhtum B: negatiivseid päevi on rohkem kui kauba täitmisaeg.
 
@@ -130,11 +130,11 @@ See juhtum meenutab 1. stsenaariumi juhtumit C, kuna dünaamilised negatiivsed p
 
 Järgmisel joonisel on selle juhtumi kuvatõmmis.
 
-![2. stsenaariumi juhtumi C kuvatõmmis](./media/negative-days-11.png)
+![2. stsenaariumi juhtumi C kuvatõmmis.](./media/negative-days-11.png)
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![2. stsenaariumi juhtumi C graafiline vaade](./media/negative-days-12.png)
+![2. stsenaariumi juhtumi C graafiline vaade.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Juhtum D: ainult dünaamiliste negatiivsete päevade kasutamine
 
@@ -155,7 +155,7 @@ Võite saada nõudluse pärast kauba täitmisaja perioodi. Siin on selle stsenaa
 
 Järgmisel joonisel on selle stsenaariumi graafiline vaade.
 
-![3. stsenaariumi graafiline vaade](./media/negative-days-13.png)
+![3. stsenaariumi graafiline vaade.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Juhtum A: negatiivseid päevi on vähem kui kauba täitmisaeg.
 
@@ -163,11 +163,11 @@ Kui määrate negatiivsed päevad väärtusele, mis on väiksem kui kauba täitm
 
 Järgmisel joonisel on selle juhtumi kuvatõmmis.
 
-![3. stsenaariumi juhtumi A kuvatõmmis](./media/negative-days-14.png)
+![3. stsenaariumi juhtumi A kuvatõmmis.](./media/negative-days-14.png)
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![3. stsenaariumi juhtumi A graafiline vaade](./media/negative-days-15.png)
+![3. stsenaariumi juhtumi A graafiline vaade.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Eelmisel kuvatõmmisel on ostutellimuse vajaduse kuupäev 12. jaanuar. Kuna see kuvatõmmis tehti 2015. aastal, kui 11. jaanuar oli pühapäev, liigutas MRP vajaduse kuupäeva järgmisele tööpäevale, mis oli esmaspäev, 12. jaanuar. Sellegipoolest on ostutellimuse tarnekuupäev 11. jaanuar.
@@ -178,11 +178,11 @@ Kui määrate negatiivsed päevad väärtusele, mis on suurem kui kauba täitmis
 
 Järgmisel joonisel on selle juhtumi kuvatõmmis.
 
-![3. stsenaariumi juhtumi B kuvatõmmis](./media/negative-days-16.png)
+![3. stsenaariumi juhtumi B kuvatõmmis.](./media/negative-days-16.png)
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![3. stsenaariumi juhtumi B graafiline vaade](./media/negative-days-17.png)
+![3. stsenaariumi juhtumi B graafiline vaade.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Juhtum C: kauba täitmisaja automaatne korreleerimine negatiivsete päevade ajapiirile
 
@@ -192,7 +192,7 @@ Dünaamiliste negatiivsete päevade ajapiir on nüüd 6 + 2 – 7 = 1 päev. Kui
 
 Järgmisel joonisel on selles juhtumis toimuva graafiline vaade.
 
-![3. stsenaariumi juhtumi C graafiline vaade](./media/negative-days-18.png)
+![3. stsenaariumi juhtumi C graafiline vaade.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Juhtum D: ainult dünaamiliste negatiivsete päevade kasutamine
 
@@ -219,11 +219,11 @@ Võite soovida seada negatiivsed päevad pikale ajapiirile ja seejärel töötad
 
 Järgmisel joonisel on toimuva graafiline vaade.
 
-![Näite graafiline ülevaade](./media/negative-days-19.png)
+![Näite graafiline ülevaade.](./media/negative-days-19.png)
 
 MRP annab järgmised tulemused.
 
-![Tulemuste näide 1](./media/negative-days-20.png)
+![Tulemuste näide 1.](./media/negative-days-20.png)
 
 Eelmisel kuvatõmmisel on müügitellimuse vajaduse kuupäev 10. jaanuari asemel 9. jaanuaril. Kuna see kuvatõmmis tehti 2015. aastal, kui 10. jaanuar oli laupäev, peaks vajaduse kuupäev olema eelmine tööpev, mis oli reede, 9. jaanuar.
 
@@ -233,7 +233,7 @@ Tulemused ei ole valed, kuid MRP toimimise aeg võib olla pikem, kuna MRP peab l
 
 Kui vähendate negatiivsed päevad arvule, mis on kauba täitmisajale lähemal, ja kasutate dünaamilisi negatiivseid päevi, annab MRP järgmised tulemused.
 
-![Tulemuste näide 2](./media/negative-days-21.png)
+![Tulemuste näide 2.](./media/negative-days-21.png)
 
 MRP loob plaanitud tellimuse, mis on esimese müügitellimusega seotud. Seejärel seotakse teine müügitellimus oodatult negatiivsete päevade seadistuse põhjal olemasoleva müügitellimusega. Selle planeerimise tulemus on samuti õige ja MRP töötamise aeg võib olla lühem. Sellisel juhul pole oluline mõista ja teada, kuidas tegevussoovitustega töötada.
 

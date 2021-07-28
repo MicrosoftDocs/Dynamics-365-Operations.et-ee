@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831381"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359759"
 ---
 # <a name="location-license-plate-positioning"></a>Asukoha litsentsiplaadi paigutus
 
@@ -88,7 +88,7 @@ Funktsioon peab olema asukohaprofiilis sisse lülitatud iga asukoha jaoks, kus s
 1. Kui **Identifitseerimisnumber** on valitud, valige **Lisa tabeli liitmine**.
 1. Valige kuvatava tabelite loendi veerust **Seos** suvand **Asukoha identifitseerimisnumbri positsioneerimine (Identifitseerimisnumber)**. Seejärel valige **Vali**, et lisada **Asukoha identifitseerimisnumbri positsioneerimine** tabeli liitmisse **Varude dimensioonid**.
 
-    ![Tabeli liitmised](media/LpTableJoin.png "Tabeli liitmised")
+    ![Tabeli liitmised.](media/LpTableJoin.png "Tabeli liitmised")
 
 1. Värskendatud liidetud tabelite kinnitamiseks ja päringuredaktori sulgemiseks valige **OK**.
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Redigeeri päringut** uuesti, et avada päringuredaktor uuesti.
@@ -100,7 +100,7 @@ Funktsioon peab olema asukohaprofiilis sisse lülitatud iga asukoha jaoks, kus s
     - **Väli:** *LP positsioon*
     - **Kriteeriumid:** *1*
 
-    ![Uus vahemik](media/LpPositionCriteria.png "Uus vahemik")
+    ![Uus vahemik.](media/LpPositionCriteria.png "Uus vahemik")
 
 1. Oma muudatuste kinnitamiseks ja päringu redaktori sulgemiseks valige **OK**.
 
@@ -275,7 +275,7 @@ Nüüd, kui funktsioon *Asukoha identifitseerimisnumbri positsioneerimine* on se
 1. Valige leht **Töö ID / identifitseerimisnumbri ID skannimine**, valige väli **ID** ja sisestage seejärel müügirea välja töö ID.
 1. Pange tähele, et komplekteerimistöö suunab teid komplekteerima kauba *A0002* asukohast *01A01R1S2B*. Saate selle juhise seetõttu, et kaup *A0002* on identifitseerimisnumbri all, mis on selles asukohas positsioonis *1*.
 
-    ![Positsiooni 1 asukoht](media/LocationLicensePlatePositioning.png "Positsiooni 1 asukoht")
+    ![Positsiooni 1 asukoht.](media/LocationLicensePlatePositioning.png "Positsiooni 1 asukoht")
 
 1. Sisestage selle asukoha jaoks loodud identifitseerimisnumbri ID ja seejärel järgige viipasid müügitellimuse komplekteerimiseks.
 

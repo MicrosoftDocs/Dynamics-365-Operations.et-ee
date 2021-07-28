@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798749"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353104"
 ---
 # <a name="navigation-menu-module"></a>Navigeerimismenüü moodul
 
@@ -33,7 +33,7 @@ Navigeerimismenüü moodulite peamine eesmärk on võimaldada saidi kasutajatel 
 Navigeerimismenüü mooduli saab lisada lehe päisemoodulisse. Fabrikami kujunduse navigeerimismenüüs kuvatakse vaikimisi kaks taset. Starteri kujunduse navigeerimismenüüs kuvatakse vaikimisi kolm taset. Tasemete arvu muutmiseks on kujunduses nõutav vaate laiend.
 
 Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüü näide, millel on kaks kategooriahierarhia taset ja mõned staatilised menüü-üksused.
-![Navigeerimismenüü mooduli näide](./media/ecommerce-header.png)
+![Navigeerimismenüü mooduli näide.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Navigeerimismenüü mooduli atribuudid
 
@@ -50,7 +50,7 @@ Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüü näide, mil
 | Juurmenüü | string | Seda atribuuti saab kasutada kohandatud juure teksti määratlemiseks, kui atribuudi **Kuva juurmenüü** väärtuseks on seatud **Tõene**. |
 
 Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüüs kuvatav kategooria pilt.
-![Kategooria piltidega navigeerimismenüü mooduli näide](./media/ecommerce-categoryimages.PNG)
+![Kategooria piltidega navigeerimismenüü mooduli näide.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Navigeerimismenüü mooduli lisamine päisemoodulisse
 

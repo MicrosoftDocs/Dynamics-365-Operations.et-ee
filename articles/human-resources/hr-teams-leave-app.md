@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097255"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356508"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
@@ -61,7 +61,7 @@ Võite paluda robotil teha järgnevat.
 
 - Puhkusetaotluse alustamine teie eest. Näiteks saatke teade, kus on kirjas "Vaba aeg" või "Ma soovin võtta puhkuse puhkuse järgmisel neljapäeval ja reedel", et olla puhkuse tüübilt puhkuse taotlemisel spetsiifilisem. 
 
-  ![Puhkusetaotluse alustamine Teamsi vestluses](./media/hr-teams-leave-app-initiate.png)
+  ![Puhkusetaotluse alustamine Teams`i vestluses.](./media/hr-teams-leave-app-initiate.png)
 
 - Vestlusrobot sisestab puhkusetaotluse andmed teie eest. Valige **Vaba aja taotlemine** ja redigeerige taotluse üksikasju.
 
@@ -69,11 +69,11 @@ Võite paluda robotil teha järgnevat.
 
    Kui valite poolaasta puhkuse, kui puhkuse taotluse üksus on päevades, saate määrata, kas soovite taotleda vaba aega esimesel poolaastal või teisel poolaastal, valides suvandi **Poolaasta määratlus** **Veel** menüüst.
    
-   ![Poolpäevade määratlemine](./media/HalfDayDefinitions.png)
+   ![Poolpäevade määratlemine.](./media/HalfDayDefinitions.png)
 
 - Kui olete puhkusetaotluse üksikasjade redigeerimise lõpetanud, valige **Edasta**, et saata taotlus kinnitamiseks.
 
-  ![Puhkusetaotluse edastamine](./media/hr-teams-leave-app-submit.png)
+  ![Puhkusetaotluse edastamine.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Puhkuse haldamine Teamsis
 
@@ -93,7 +93,7 @@ Vahekaardil **Vaba aeg** saate kuvada järgnevat.
 
 2. Sisestage päev või päevad, mida soovite vabaks võtta ja seejärel valige **Lisa**.
 
-   ![Human Resources Teamsi puhkuse rakenduse vaba aja lisamine](./media/TimeOffHours.png)
+   ![Human Resources Teams`i puhkuse rakenduse vaba aja lisamine.](./media/TimeOffHours.png)
 
 3. Vajadusel sisestage põhjusekood. Sisestage ka vajalikud kommentaarid ja lisage manused.
 
@@ -123,7 +123,7 @@ Pärast rakenduse Human Resources installimist rakenduse Teamsi jaoks saate hõl
 
 1. Valige rakenduse Teams töörühmas või vestluses selle vestlusakna all olev nupp Human Resources.
 
-   ![Nupp Human Resources vestlusakna all](./media/hr-teams-leave-app-chat-button.png)
+   ![Nupp Human Resources vestlusakna all.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Valige puhkusetaotlus, mida soovite jagada. Kui soovite jagada puhkusetaotluse mustandit, valige enne **Mustandid**.
 
@@ -173,11 +173,11 @@ Kui tõlkeid ei kuvata ootuspäraselt, veenduge, et Teamsis valitud keel ühtiks
 
 Otsige Teamsis aknas **Sätted** üles **Rakenduse keel**.
 
-![Teamsi sätted](./media/hr-teams-leave-app-settings.png)
+![Teams`i sätted.](./media/hr-teams-leave-app-settings.png)
 
 Valige inimressursside moodulis **Sätted** ja seejärel **Kasutaja valikud**. Veenduge, et väljal **Keel** oleks valitud sama keel, mis Teamsi väljal **Rakenduse keel**.
 
-![Inimressursside mooduli kasutajavalikud](./media/hr-teams-leave-app-user-options.png)
+![Human Resources kasutajavalikud.](./media/hr-teams-leave-app-user-options.png)
 
 Kui tõlkeprobleemid ei lahene, andke meile teada. Teavet leiate teemast [Finance and Operationsi rakenduste või teenuse Lifecycle Services (LCS) tugi](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

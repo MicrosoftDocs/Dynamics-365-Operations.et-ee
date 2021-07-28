@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023188"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361282"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Kinnipeetava maksu aruandluskoodide häälestamine TDS-i maksutüübi jaoks
 
@@ -31,7 +31,7 @@ Kinnipeetava maksu aruandluskoode kasutatakse vormi 26Q ja vormi 27Q väljavõte
 
 1. Minge **Maks \> Seadistus \> Kinnipeetav maks \> Kinnipeetava maksu aruandluskoodid**.
 
-    [![Kinnipeetava maksu aruandluskoodide leht](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Kinnipeetava maksu aruandluskoodide leht.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. Väljal **Maksu tüüp** valige **TDS** kinnipeetava maksu aruandluskoodide TDS maksutüübi häälestamiseks.
 3. Väljal **Kinnipeetava maksu komponent** valige TDS-i komponent, mille jaoks te kinnipeetava maksu aruandluskoodi määratlete. Väljal **Kinnipeetava maksu komponendigrupp** kuvatakse TDS-i komponendi grupp, mis määratleti teie määratleva TDS-i komponendi jaoks.

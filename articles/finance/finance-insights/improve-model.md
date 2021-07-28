@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186638"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355672"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Prognoosi mudeli parandamine (eelversioon)
 
@@ -33,7 +33,7 @@ See teema kirjeldab funktsioone, mida saate kasutada prognoosimise mudelite jõu
 
 Esmalt valite ühe või mitu kolmest arve võimalikust tulemusest: **õigel ajal**, **hilja** ja **väga hilja**. Valida tuleb kõik kolm tulemust. Kui tühjendate mis tahes tulemuse valiku, filtreeritakse arved koolitusprotsessist välja ja prognoosi täpsus väheneb.
 
-[![Tulemuste kinnitamine](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Tulemuste kinnitamine.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Kui teie organisatsioon nõuab ainult kaht tulemust, muutke variantide **hilja** ja **väga hilja** lävendiks null (0) päeva. Sel viisil saate ahendada prognoosid tõhusalt binaarsesse olekusse **õigel ajal** või **hilinenud**.
 
@@ -51,7 +51,7 @@ Järgmistes jaotistes on näidatud väljad, mis on arve ja kliendi üksuste jaok
 
 Järgmisel joonisel on näidatud arve tabeli jaoks saadaolevad väljad.
 
-[![Arve tabeli jaoks saadaolevad väljad](./media/available-fields.png)](./media/available-fields.png)
+[![Arve tabeli jaoks saadaolevad väljad.](./media/available-fields.png)](./media/available-fields.png)
 
 Järgmisi välju ei peaks koolituse jaoks valima.
 
@@ -66,7 +66,7 @@ Järgmisi välju ei peaks koolituse jaoks valima.
 
 Järgmisel joonisel on näidatud kliendi tabeli jaoks saadaolevad väljad.
 
-[![Kliendi tabeli jaoks saadaolevad väljad](./media/related-entities.png)](./media/related-entities.png)
+[![Kliendi tabeli jaoks saadaolevad väljad.](./media/related-entities.png)](./media/related-entities.png)
 
 Järgmist välja ei peaks koolituse jaoks valima.
 
@@ -74,8 +74,8 @@ Järgmist välja ei peaks koolituse jaoks valima.
 
 ## <a name="filters"></a>Filtrid
 
-Filtrid ei toeta praegu kliendi makse prognoosimise stsenaariumit. Seetõttu valige suvand **Jäta see samm vahele** ja jätkake kokkuvõttelehega.
+Koolituseks kasutatud arveid saate filtreerida, häälestades arvel või klienditabelites väljade filtrikriteeriumid. Näiteks saate seada läve, et kaasata ainult arved, mille kogusumma on võrdne või ületab konkreetse summa. Teise võimalusena saate välistada konkreetse kliendigrupi klientidega seotud arved.
 
-[![Filtritega mudelil keskendumine](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Lisateavet andmete filtreerimise kohta vt [ennustuse mudeli loomine](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

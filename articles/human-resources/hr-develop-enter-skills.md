@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193973"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360516"
 ---
 # <a name="enter-skills"></a>Sisestage oskused
 
@@ -45,17 +45,17 @@ Oskuste sisestamiseks ilma kinnitamist nõudmata peate oskuste automaatseks kinn
 
 4. Valige **Loo töövoog** paanil väli **Töötaja oskused**.
 
-   [![Töötaja oskuste töövoo valimine](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Töötaja oskuste töövoo valimine.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. **Ava see fail?** dialoogiboksis valige **Ava**. Kui teil palutakse, sisestage oma volitused.
 
 6. Valige töövoo redaktoris **Kinnitage oskused** töövoo element ja lohistage see lõuendile.
 
-   [![Valige oskuste töövoo elemendi kinnitamine](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Valige oskuste töövoo elemendi kinnitamine.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Ühendage **Alusta** element **Kinnita oskused 1** elemendiga ja seejärel ühendage **Kinnita oskused 1** element elemendiga **Lõpp**. Võimalik, et peate elemendi **Lõpp** vaatamiseks alla kerima. Saate seda lohistada teiste elementideni lähemal.
 
-   [![Ühendage töövoo elemendid](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Ühendage töövoo elemendid.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Topeltklõpsake **1Kinnita oskused 1** töövoo element ja paremklõpsake **Samm 1** element. Paremklõpsake **Samm 1** element ja valige suvand **Atribuudid**.
 
@@ -65,7 +65,7 @@ Oskuste sisestamiseks ilma kinnitamist nõudmata peate oskuste automaatseks kinn
 
 11. Valige **Lisa tingimus**. Pärast **Kus** käsku valige **Töötaja iseteenindusoskused** ja seejärel valige **Töötaja iseteenindusoskused. Isik**. Pärast **on** valige **väli** ja seejärel valige **Kasutaja suhe isikuga. Isik**.
 
-    [![Määra tingimus](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Määra tingimus.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Valige **Määrang** vasaku käe navigeerimisribal.
 
@@ -73,7 +73,7 @@ Oskuste sisestamiseks ilma kinnitamist nõudmata peate oskuste automaatseks kinn
 
 14. Valige **Hierarhia valik** vahekaardil **Hierarhia tüüp:** väärtus **Juhtimishierarhia**.
 
-    [![Määrake juhtimishierarhia](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Määrake juhtimishierarhia.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Valige **Sule** ja seejärel valige **Töövoog** lõuendi tööreas, siis valige **Salvesta ja sule**.
 

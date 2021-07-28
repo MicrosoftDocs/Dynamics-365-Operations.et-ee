@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838126"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353368"
 ---
 # <a name="work-policies"></a>Tööpoliitikad
 
@@ -200,7 +200,7 @@ Ostutellimus on nüüd vastu võetud, kuid sellega pole seotud ühtegi tööd. V
 
 Järgmises näites on kaks tootmistellimust: *PRD-001* ja *PRD-002*. Tootmistellimusel *PRD-001* on toiming nimega *Assembler*, kus toode *SC1* on teatatud lõpetatuks asukohale *001*. Tootmistellimusel *PRD-002* on toiming nimega *Värvimine* ja tarbib toodet *SC1* asukohast *001*. Tootmistellimus *PRD-002* tarbib ka toormaterjali *RM1* asukohast *001*. Toormaterjali *RM1* hoitakse laoasukohas *BULK-001* ja komplekteeritakse asukohale *001* laotööga toormaterjali komplekteerimiseks. Komplekteerimistöö luuakse tootmise *PRD-002* väljastamisel.
 
-[![Lao tööpoliitikad](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Lao tööpoliitikad.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Kui plaanite selle stsenaariumi jaoks konfigureerida lao tööpoliitika, peaksite arvestama järgmisi punkte.
 

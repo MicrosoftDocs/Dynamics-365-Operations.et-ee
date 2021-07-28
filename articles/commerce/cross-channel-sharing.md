@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799513"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349718"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Kanaliülese ühiskasutuse lubamine ja kasutamine
 
@@ -48,15 +48,15 @@ Et lubada kanaliülene ühiskasutus Commerce'i saidiehitajas, toimige järgmisel
 1. Avage **Saidi sätted \> Funktsioonid**.
 1. Seadke funktsiooni **Kanaliülene** suvandi väärtuseks **Sees**.
 
-    ![Commerce'i saidiehitajas sisselülitatud kanaliülene suvand](./media/enabling-cross-channel-sharing.png)
+    ![Commerce'i saidiehitajas sisselülitatud kanaliülene suvand.](./media/enabling-cross-channel-sharing.png)
 
 Pärast seda, kui lubate kanaliülese ühiskasutuse, kuvatakse kanaliülene teave jaotises **Kanalid**, mis asub jaotises **Saidi sätted \> Funktsioonid**, nagu järgmisel illustratsioonil näha.
 
-![Kanalite teave, mis on nähtav pärast kanaliülese ühiskasutuse lubamist](./media/channels-cross-channel.png)
+![Kanalite teave, mis on nähtav pärast kanaliülese ühiskasutuse lubamist.](./media/channels-cross-channel.png)
 
 Pärast seda, kui lubate kanaliülese ühiskasutuse, sisaldab Commerce'i saidiehitaja ülemises parempoolses nurgas olev väli **Kanal** suvandit **Kanaliülene e-pood**, mille abil saate hallata kanaliülest sisu, nagu on näidatud järgmisel illustratsioonil.
 
-![Kanaliülese e-poe suvand väljal „Kanalid” pärast kanaliülese ühiskasutuse lubamist](./media/cross-channel-dropdown.png)
+![Kanaliülese e-poe suvand väljal „Kanalid” pärast kanaliülese ühiskasutuse lubamist.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Kanaliülese sisu loomine ja kasutamine
 

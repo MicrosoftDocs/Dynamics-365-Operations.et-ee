@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893904"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359025"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -39,7 +39,7 @@ Kui lisate uue ER-vormingu konfiguratsiooni Exceli töövihiku vormingus väljam
 
 Konfiguratsiooni ER-vormingu komponendi konfigureerimiseks valige Toimingupaanil **Kujundaja** ja avage ER-vormingu komponent selle redigeerimiseks ER-i toimingu koostajas.
 
-![Konfiguratsioonide leht](./media/er-excel-format-add-format.png)
+![Konfiguratsioonide leht.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Exceli faili komponent
 
@@ -47,14 +47,14 @@ Konfiguratsiooni ER-vormingu komponendi konfigureerimiseks valige Toimingupaanil
 
 Peate lisama konfigureeritud ER-vormingule komponendi **Excel\\File**, et luua Exceli vormingus väljaminev dokument.
 
-![Komponent Excel\File](./media/er-excel-format-add-file-component.png)
+![Komponent Excel\Fail.](./media/er-excel-format-add-file-component.png)
 
 Väljamineva dokumendi paigutuse määramiseks lisage Exceli töövihik, millel on laiend .xlsx, komponendile **Excel\\File** väljaminevate dokumentide mallina kasutamiseks.
 
 > [!NOTE]
 > Malli käsitsi manustamisel peate kasutama [dokumendi tüüpi](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), mis on konfigureeritud selleks otstarbeks [ER-i parameetrites](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
-![Komponendile Excel\fail manuse lisamine](./media/er-excel-format-add-file-component2.png)
+![Komponendile Excel\fail manuse lisamine.](./media/er-excel-format-add-file-component2.png)
 
 Selleks, et määrata, kuidas lisatud mall täidetakse konfigureeritud ER-vormingu käitamisel, tuleb teil lisada pesastatud komponendid **Leht**, **Vahemik** ja **Lahter** komponendile **Excel\\File**. Iga pesastatud komponent peab olema seostatud Exceli nimega üksusega.
 
@@ -62,7 +62,7 @@ Selleks, et määrata, kuidas lisatud mall täidetakse konfigureeritud ER-vormin
 
 Saate valida Toimingupaani **Excelist importimine** vahekaardi **Importimine**, et importida uus mall tühja ER-vormingusse. Selles näites luuakse komponent **Excel\\File** automaatselt ja sellele manustatakse imporditud mall. Kõik nõutavad ER-komponendid luuakse samuti automaatselt, võttes aluseks leitud Exceli nimega üksuste loendi.
 
-![Suvandi Excelist importimine valimine](./media/er-excel-format-import-template.png)
+![Excelist importimise valimine.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > Kui soovite luua redigeeritavas ER-vormingus valikulise elemendi **Leht** seadke suvandi **Exceli vorminguelemendi Leht loomine** väärtuseks **Jah**.
@@ -79,7 +79,7 @@ ER-i toimingu koostaja vahekaardil **Vastendamine** saate konfigureerida kompone
 - Kui atribuudi **Lubatud** avaldis on konfigureeritud tagastama käitusajal väärtuse **Tõene** või kui ühtegi avaldist pole konfigureeritud, lisatakse loodud dokumenti vastav tööleht.
 - Kui atribuudi **Lubatud** avaldis on konfigureeritud tagastama käitusajal väärtuse **Väär**, ei sisalda loodud dokument töölehte.
 
-![Lehe komponendi näide](./media/er-excel-format-sheet-component.png)
+![Lehe komponendi näide.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Vahemiku komponent
 
@@ -182,7 +182,7 @@ Saate valida Toimingupaani **Excelist värskendamine** vahekaardi **Importimine*
 >
 > Kui redigeeritav ER-vorming sisaldas algselt elemente **Leht**, soovitame teil värskendatud malli importimisel määdata suvandi **Exceli vorminguelemendi Leht loomine** väärtuseks **Jah**. Vastasel juhul luuakse kõik algse elemendi **Leht** pesastatud elemendid nullist. Seetõttu lähevad kõik uuesti loodud vorminguelementide sidumised värskendatud ER-vormingus kaotsi.
 
-![Exceli vorminguelemendi Leht suvandi loomine dialoogiboksis Excelist värskendamine](./media/er-excel-format-update-template.png)
+![Exceli vorminguelemendi Leht suvandi loomine dialoogiboksis Excelist värskendamine.](./media/er-excel-format-update-template.png)
 
 Selle funktsiooni kohta lisateabe saamiseks järgige teemas [Elekrtoonilise aruandluse muutmine Exceli mallide uuesti rakendamise teel](modify-electronic-reporting-format-reapply-excel-template.md) toodud etappe.
 
@@ -190,7 +190,7 @@ Selle funktsiooni kohta lisateabe saamiseks järgige teemas [Elekrtoonilise arua
 
 Kui kinnitate redigeeritavat ER-vormingut, tehakse järjepidevuse kontroll, et veenduda, kas Exceli nimi on praegu kasutatavas Exceli mallis olemas. Teid teavitatakse kõigist vastuoludest. Osade vastuolude korral pakutakse probleemi automaatse lahendamise valikut.
 
-![Kinnitamise tõrketeated](./media/er-excel-format-validate.png)
+![Tõrketeadete kinnitamine.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>Exceli valemite arvutamise juhtimine
 
@@ -209,7 +209,7 @@ Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad 
 1. Kasutage antud ER-i konfiguratsioone [loomiseks](er-generate-printable-fti-forms.md) prinditava vabas vormis arve (FTI) dokumenti.
 2. Vaadake üle loodud dokumendi jalus. Pange tähele, et see sisaldab teavet praeguse leheküljenumbri ja dokumendi lehtede koguarvu kohta.
 
-    ![Vaadake üle loodud dokumendi jalus Exceli vormingus](./media/er-fillable-excel-footer-1.gif)
+    ![Vaadake üle loodud dokumendi jalus Exceli vormingus.](./media/er-fillable-excel-footer-1.gif)
 
 3. ER-vormingu kujunduses [avage](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) läbivaatamiseks ER-näidisvorming.
 
@@ -222,7 +222,7 @@ Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad 
 
     - Teine **Stringi** komponent sisestab teksti, mis sisaldab praegust leheküljenumbrit ja praeguse dokumendi lehtede koguarvu.
 
-    ![ER-i vormingu komponendi kinnitamine vormingu kujundaja lehel](./media/er-fillable-excel-footer-2.png)
+    ![ER-i vormingu komponendi kinnitamine vormingu kujundaja lehel.](./media/er-fillable-excel-footer-2.png)
 
 4. Praeguse lehe jaluse muutmiseks saate kohandada ER-näidisvormingut:
 
@@ -237,14 +237,14 @@ Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad 
         1. Lisage **Stringi** komponent, mis joondab ettevõtte nime vasakul ja esitab selle 8-punkti fondis "Segoe UI Regular" font (**"&L&"Segoe UI,Regular"&8"**).
         2. Lisage **Stringi** komponent, mis täidab töötlemiskuupäeva kohandatud vormingus (**&nbsp;&DATEFORMAT(SESSIONTODAY(), "aaaa-KK-pp")**).
 
-        ![ER-i vormingu komponendi vaatamine vormingu kujundaja lehel](./media/er-fillable-excel-footer-3.png)
+        ![ER-i vormingu komponendi vaatamine vormingu kujundaja lehel.](./media/er-fillable-excel-footer-3.png)
 
     4. [Viige](er-quick-start2-customize-report.md#CompleteDerivedFormat) lõpule tuletatud **vabas vormis arve (Exceli) kohandatud** ER-vormingu mustandversioon.
 
 5. [Konfigureerige](er-generate-printable-fti-forms.md#configure-print-management) prindihaldus kasutama tuletatud **vabas vormis arve (Excel) kohandatud** ER-vormingut ER-näidisvormingu asemel.
 6. Looge prinditav FTI-dokument ja vaadake üle loodud dokumendi jalus.
 
-    ![Vaadake üle loodud dokumendi jalus Exceli vormingus](./media/er-fillable-excel-footer-4.gif)
+    ![Vaadake üle Exceli vormingus loodud dokumendi jalus.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

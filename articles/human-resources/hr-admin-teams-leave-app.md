@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053559"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357357"
 ---
 # <a name="human-resources-app-in-teams"></a>Rakendus Human Resources Teamsis
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053559"
 
 Microsoft Teamsi rakendus Microsoft Dynamics 365 Human Resources võimaldab töövõtjatel kiirelt esitada vaba aja taotlust ja kuvada vaba aja saldo teavet otse Microsoft Teamsis. Teabe taotlemiseks saavad töövõtjad suhelda robotiga. Vahekaart **Vaba aeg** annab üksikasjalikumat teavet. Lisaks saavad nad saata inimestele teavet eelseisva eemaloleku kohta töörühmades ja vestlustes väljaspool rakendust Human Resources.
 
-![Human Resources Teamsi puhkuste rakenduse robot](./media/hr-teams-leave-app-bot.png)
+![Human Resources Teams`i puhkuste rakenduse robot.](./media/hr-teams-leave-app-bot.png)
 
-![Human Resources Teamsi puhkuse rakenduse vahekaart Vaba aeg](./media/hr-teams-leave-app-timeoff-tab.png)
+![Human Resources Teams`i puhkuse rakenduse vaba aja vahekaart.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Rakenduse Human Resources puhkusetaotluse kaart](./media/hr-teams-leave-app-chat-card.png)
+![Rakenduse Human Resources puhkusetaotluse kaart.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Installimine ja häälestus
 
@@ -57,11 +57,11 @@ Kui soovite, et kasutajad saaksid puhkusetaotluse teatisi Teamsis vastu võtta, 
 
 4. Seadke vahekaardil **Üldine** seade **Teatiste lubamine rakenduse Teams jaoks** väärtuseks **Jah**.
 
-   ![Teamsi rakenduse teatiste lubamine süsteemi parameetrites](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Teamsi rakenduse teatiste lubamine süsteemi parameetrites.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Kõigi kasutajate jaoks Teamsi teatiste sisselülitamiseks valige **Jah**.
 
-   ![Teamsi teatiste lubamine kõigi kasutajate jaoks](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Teams`i teatiste lubamine kõigi kasutajate jaoks.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Üksikutele kasutajate jaoks Teamsi teatiste sisse- või väljalülitamine
 
@@ -77,7 +77,7 @@ Kui olete lubanud Teamsis rakenduse Dynamics 365 Human Resources teatised, saate
 
 5. Määrake seade **Teatiste lubamine rakenduse Teams jaoks** väärtuseks **Jah**, et lubada kasutajate jaoks teatiste kuvamine, või **Ei**, et keelata kasutajale teatiste kuvamine.
 
-   ![Teamsi rakenduse teatiste lubamine kasutaja suvandite vahekaardil Töövoog](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Teams`i rakenduse teatiste lubamine kasutaja suvandite vahekaardil Töövoog.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Valige käsk **Salvesta**.
 

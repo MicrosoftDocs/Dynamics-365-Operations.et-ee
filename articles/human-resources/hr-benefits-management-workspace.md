@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193427"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353610"
 ---
 # <a name="benefits-management-workspace"></a>Soodustuse halduse tööruum
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193427"
 Selles teemas kirjeldatakse **soodustuste halduse** tööruumi rakenduses Dynamics 365 Human Resources.
 
 > [!NOTE]
-> **Soodustuste halduse** tööruumi vaatamiseks peate esmalt funktsioonihalduse kaudu lubama funktsiooni **(Eelversioon) Soodustuste halduse tööruum**. Lisateavet funktsioonide eelversioonide lubamise kohta vt [Funktsioonide haldamine](hr-admin-manage-features.md).<br><br>![Soodustuste halduse tööruumi lubamine](./media/hr-benefits-management-workspace-enable.png)
+> **Soodustuste halduse** tööruumi vaatamiseks peate esmalt funktsioonihalduse kaudu lubama funktsiooni **(Eelversioon) Soodustuste halduse tööruum**. Lisateavet funktsioonide eelversioonide lubamise kohta vt [Funktsioonide haldamine](hr-admin-manage-features.md).<br><br>![Soodustuste halduse tööruumi lubamine.](./media/hr-benefits-management-workspace-enable.png)
 
 **Soodustuste halduse** tööruum annab teile kiiresti ülevaate soodustustest, mis nõuavad teie tähelepanu. Sellel lehel näete järgmist teavet:
 
@@ -43,13 +43,13 @@ Selles teemas kirjeldatakse **soodustuste halduse** tööruumi rakenduses Dynami
 - aktiivsete elusündmustega töötajad
 - avatud registreerimistega töötajad, kes pole ühtegi lepingut valinud
 
-![Soodustuse halduse tööruum](./media/hr-benefits-management-workspace.png)
+![Soodustuse halduse tööruum.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Tegevusüksuste kuvamine
 
 Tegevusüksuste kuvamiseks võite valida paani või vahekaardi. Vahekaardi valimise korral saate töötajaid vaadata ja valida otse tööruumi lehel.
 
-![Tegevusüksused](./media/hr-benefits-management-workspace-action-items.png)
+![Tegevusüksused.](./media/hr-benefits-management-workspace-action-items.png)
 
 Kui valite paani, viiakse teid vastava ala lehele. Kui näiteks valite ühe neist paanidest, kuvatakse leht **Töötaja soodustuste plaanid**, kus on filtri abil esile tõstetud töötajad, kellega peate midagi tegema.
 
@@ -58,21 +58,21 @@ Kui valite paani, viiakse teid vastava ala lehele. Kui näiteks valite ühe neis
 - **Soodustused registreeritud**
 - **Uus töötaja pole registreeritud**
 
-![Töötaja soodustusplaanid](./media/hr-benefits-management-workspace-plans.png)
+![Töötaja soodustusplaanid.](./media/hr-benefits-management-workspace-plans.png)
 
 Kui valite paani **Aktiivsed elusündmused** või **Tulevased elusündmused**, viiakse teid aktiivsete või tulevaste elusündmuste loendisse.
 
-![Elusündmused](./media/hr-benefits-management-workspace-life-events.png)
+![Elusündmused.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>Töötlemisel
+## <a name="processing"></a>Teostamine
 
 Registreerimiseks sobivuse, elusündmuste või tariifimuutuste uuenduste töötlemiseks valige navigeerimisribal asjakohane üksus.
 
-![Töötlemisel](./media/hr-benefits-management-workspace-processing.png)
+![Töötlemisel.](./media/hr-benefits-management-workspace-processing.png)
 
 Töötlemistulemuste kuvamiseks valige lehel **Protsessi tulemused**.
 
-![Protsessi tulemused](./media/hr-benefits-management-workspace-process-results.png)
+![Protsessi tulemused.](./media/hr-benefits-management-workspace-process-results.png)
 
 Lisateavet soodustuste töötlemise kohta leiate siit:
 
@@ -86,13 +86,13 @@ Lisateavet soodustuste töötlemise kohta leiate siit:
 
 Muu soodustuste perioodi vaatamiseks valige see ripploendist **Periood**.
 
-![Vaheta perioodi](./media/hr-benefits-management-workspace-period.png)
+![Vaheta perioodi.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Kuva rohkem variante
 
 Lisateabe ja muude võimalike toimingute vaatamiseks valige **Lingid**.
 
-![Lingid](./media/hr-benefits-management-workspace-links.png)
+![Lingid.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Vt ka
 

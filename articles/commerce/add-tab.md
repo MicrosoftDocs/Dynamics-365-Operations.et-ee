@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c865d5e055e3fadf2dda225b49f13a163974768f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797451"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348292"
 ---
 # <a name="tab-module"></a>Vahekaardimoodul
 
@@ -34,13 +34,13 @@ Igas vahekaardi moodulis saab lisada ühe või enama vahekaardi mooduli. Iga vah
 
 Järgmisel pildil on näide vahekaardi moodulist saidi lehel. Näites on valitud vahekaart **Lähetamine**.
 
-![Vahekaardi mooduli näide](./media/ecommerce-tab.PNG)
+![Vahekaardi mooduli näide.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Vahekaardi mooduli atribuudid
 
 | Atribuudi nimi | Väärtused | Kirjeldus |
 |---------------|--------|-------------|
-| Pealkiri | Tekst | See atribuut määratleb vahekaardi mooduli jaoks valikulise teksti pealkirja. |
+| Päis | Tekst | See atribuut määratleb vahekaardi mooduli jaoks valikulise teksti pealkirja. |
 | Aktiivse vahekaardi indeks | Number | See atribuut määratleb vahekaardi, mis peaks lehe laadimisel olema vaikimisi aktiivne. Kui väärtust ei esitada, siis on vaikimisi aktiivne esimene vahekaart. |
 
 ## <a name="tab-item-module-properties"></a>Vahekaardi üksuse mooduli atribuudid

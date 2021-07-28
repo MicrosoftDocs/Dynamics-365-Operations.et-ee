@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753986"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350832"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Tõrkeotsingu probleemid algse häälestuse ajal
 
@@ -42,7 +42,7 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse�
 
 Tõrkeid lehel **Dataverse'i häälestuse link** põhjustab tavaliselt puudulik häälestus või lubade probleemid. Veenduge, et kogu seisundikontroll läbitakse lehel **Dataverse'i häälestuse link**, nagu näidatud järgmisel joonisel. Topeltkirjutust ei saa linkida, kui tervet seisundikontrolli pole läbitud.
 
-![Edukas seisundikontroll](media/health_check.png)
+![Edukas seisundikontroll.](media/health_check.png)
 
 Keskkondade Finance and Operations ja Dataverse linkimiseks peab teil olema Azure AD rentniku administraatori mandaat. Pärast keskkondade linkimist saavad kasutajad sisse logida oma konto mandaadiga ja värskendada olemasoleva tabeli vastenduse.
 
@@ -77,7 +77,7 @@ Tagamaks, et topeltkirjutus töötaks õigesti, luuakse konfiguratsiooni ajal va
 4. Valige ettevõte, mis oli topeltkirjutuse konfigureerimisel lingitud.
 5. Veenduge, et veerus **Vaikeomanikust meeskond** oleks väärtus. Järgmisel joonisel on veeru **Vaikeomanikust meeskond** väärtuseks seatud **USMF topeltkirjutus**.
 
-    ![Vaikeomanikust meeskonna kontrollimine](media/default_owning_team.png)
+    ![Vaikeomanikust meeskonna kontrollimine.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Leidke juriidiliste tabelite või ettevõtete arvu piirang, mida saab siduda topeltkirjutusega
 

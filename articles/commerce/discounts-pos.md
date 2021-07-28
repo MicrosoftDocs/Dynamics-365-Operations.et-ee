@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356874"
 ---
 # <a name="show-discounts-in-pos"></a>Näita allahindlusi kassas
 
@@ -33,7 +33,7 @@ Kampaaniad mängivad olulist rolli nende klientide motiveerimisel, kes teevad os
 
 Kaubandus sisaldab operatsiooni, mida nimetatakse "Kuva kõik allahindlused". Selle operatsiooniga kuvatakse kõik kaupluses praegu kehtivad allahindlused. Operatsiooni "Kuva kõik allahindlused" saab vastendada nupuga kassas (POS) ja selle nupu saab lisada lehele **Tervitus** või lehele **Kanne** . Järgneval pildil kuvatakse näidet avatud lehest **Kõik allahindlused** .
 
-![Leht Kõik allahindlused](./media/View_all_discounts.png "Leht Kõik allahindlused")
+![Leht Kõik allahindlused.](./media/View_all_discounts.png "Leht Kõik allahindlused")
 
 Allahindluste kuvamiseks otsib süsteem kõiki allahindlusi, mis vastavad ühele või mitmele järgmistest tingimustest:
 
@@ -61,11 +61,11 @@ Järgmised pildid näitavad loogikat, mis määrab, millised allahindlused kuvat
 
 Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindluse konkureerimiskontroll on seatud **Parimale hinnale ja seosele prioriteedi piires, mitte kunagi seosele üle prioriteetide**.
 
-![Loogika Parima hinna ja seose prioriteedi piires, mitte kunagi seos üle prioriteetide](./media/Model_1.png "Loogika Parim hind ja seos prioriteedi piires, mitte kunagi seos üle prioriteetide").
+![Loogika Parima hinna ja seose prioriteedi piires, mitte kunagi seos üle prioriteetide.](./media/Model_1.png "Loogika Parim hind ja seos prioriteedi piires, mitte kunagi seos üle prioriteetide").
 
 Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindluse konkureerimiskontroll on seatud **Parimale hinnale ainult prioriteedi piires, alati seos üle prioriteedi**.
 
-![Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi](./media/Model_2.png "Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi").
+![Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi.](./media/Model_2.png "Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

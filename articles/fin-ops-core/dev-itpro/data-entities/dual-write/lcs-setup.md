@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359359"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
 
@@ -40,7 +40,7 @@ Järgige neid samme LCS-i keskkonna üksikasjade lehel **topeltkirjutuse hääle
 
 2. Valige **topeltkirjutuse rakenduse** nupp.
 
-    ![Power Platformi integratsioon](media/powerplat_integration_step2.png)
+    ![Power Platform integratsioon.](media/powerplat_integration_step2.png)
 
 3. Tingimustega nõustumiseks valige märkeruut **Konfigureeri**.
 
@@ -52,7 +52,7 @@ Järgige neid samme LCS-i keskkonna üksikasjade lehel **topeltkirjutuse hääle
 
 7. Valige **Linkige Power Platform keskkonnaga** et luua link rakenduse Dataverse ja käesoleva keskkonna andmebaasiga. Seadistus kestab tavaliselt 5 minutit või vähem.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Link Power Platform keskkonda":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Link Power Platform keskkonda.":::
 
 8. Kui linkimine on lõpetatud, kuvatakse hüperlink. Logige lingi abil sisse topeltkirjutuse haldusalasse Finance and Operations keskkonnas. Sealt saate seadistada üksuse vastendamised.
 

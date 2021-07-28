@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907713"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349766"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -32,7 +32,7 @@ Enne kui töötajad võivad hakata seadet kasutama, peab järelevaataja või teh
 
 Kui seade on ette valmistatud, kuvatakse sellel sisselogimisleht. Sellel lehel kuvatakse teave kohaliku tööraku tööde oleku kohta. Seda teavet uuendatakse regulaarselt. Lehel kasutavad töötajad oma pääsme ID-sid allkirjastamiseks. Kuigi töötajatel ei pea olema Supply Chain Managementi kasutajakontot, peab neil olema *ajaliselt registreeritud töötaja* konto, mida nad saavad kasutada sisselogimisel.
 
-![Tootmisosakonna käivitusliidese sisselogimisleht](media/pfei-sign-in-page.png "Tootmisosakonna käivitusliidese sisselogimisleht")
+![Tootmisosakonna käivitusliidese sisselogimisleht.](media/pfei-sign-in-page.png "Tootmisosakonna käivitusliidese sisselogimisleht")
 
 Selle teema järgnevates jaotistes kirjeldatakse, kuidas töötajad liidesega suhtlevad.
 
@@ -40,7 +40,7 @@ Selle teema järgnevates jaotistes kirjeldatakse, kuidas töötajad liidesega su
 
 Vahekaardil **Kõik tööd** kuvatakse tööde loend, kus on kõik tootmistööd, mille olek on *Pole alustatud*, *Peatatud* või *Käivitatud*. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
 
-![Vahekaart Kõik tööd](media/pfei-all-jobs-tab.png "Vahekaart Kõik tööd")
+![Vahekaart Kõik tööd.](media/pfei-all-jobs-tab.png "Vahekaart Kõik tööd")
 
 Tööde loendis on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutatud numbritele.
 
@@ -59,7 +59,7 @@ Tööde loendis on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutat
 
 **Aktiivsete tööde** vahekaardid kuvavad kõikide tööde loendi, mida sisse logitud töötaja on juba alustanud. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
 
-![Vahekaart Aktiivsed tööd](media/pfei-active-jobs-tab.png "Vahekaart Aktiivsed tööd")
+![Vahekaart Aktiivsed tööd.](media/pfei-active-jobs-tab.png "Vahekaart Aktiivsed tööd")
 
 Aktiivsete tööde loendis on järgmised veerud.
 
@@ -76,7 +76,7 @@ Aktiivsete tööde loendis on järgmised veerud.
 
 Vahekaart **Minu masin** lubab töötajatel valida vara, mis on ühendatud masina ressursiga vahekaardil **Kõik tööd** seatud filtri sees. Siis saab töötaja vaadata valitud vara olekut ja seisundit, lugedes kuni nelja valitud loenduri ning viimaste hooldustaotluste ja registreeritud ületunnitöö väärtused. Töötaja saab nõuda ka valitud vara hooldust ning registreerida ja redigeerida masina töötunde. (Selle vahekaardi nimi on kohandatav ja võib süsteemi jaoks erineda.)
  
-![Vahekaart Minu masin](media/pfei-my-machine-tab.png "Vahekaart Minu masin")
+![Vahekaart Minu masin.](media/pfei-my-machine-tab.png "Vahekaart Minu masin")
 
 Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel joonisel kujutatud numbritele.
 
@@ -87,7 +87,7 @@ Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel jooni
 
 1. **Sätted** – valige hammasrattaikoon, et avada dialoogiboks, kus saate valida, milliseid loendureid valitud masina vara puhul vaadata. Nende loendurite väärtused kuvatakse vahekaardil **Varahaldus**. Menüü **Sätted** (kuvatakse järgmisel kuvatõmmisel) võimaldab teil lubada kuni neli loendurit. Iga lubatava loenduri puhul kasutage loenduri valimiseks paani ülaosas otsinguvälja. Otsinguväljal loetletakse kõik lehe **Varahaldus** ülaosas valitud varaga seotud loendurid. Määrake iga loendur nii, et see jälgiks kas **koondväärtust** või loenduri viimast **tegelikku** väärtust. Näiteks kui seadistate loenduri, mis jälgib, kui palju tunde on masin töötanud, peaksite selle seadistama väärtusele **Liidetud**. Kui määrate loenduri viimati uuendatud temperatuuri või rühu mõõtmiseks, peaksite selle häälestama väärtusele **Tegelik**. Valige **OK**, et salvestada oma sätted ja sulgeda dialoogiboks.
 
-    ![Vahekaarsi Minu masin sätted](media/pfei-my-machine-tab-settings.png "Vahekaarsi Minu masin sätted")
+    ![Vahekaardi Minu masin sätted.](media/pfei-my-machine-tab-settings.png "Vahekaarsi Minu masin sätted")
 
 1. **Hooldustaotlus** – valige see nupp dialoogiboksi avamiseks, kus saate luua hooldusnõude. Saate sisestada kirjelduse ja märkuse. Supply Chain Managementi kasutaja tähelepanu juhitakse sellele, kes siis saab seejärel teisendada hooldusnõude hooldustöötellimuseks.
 1. **Seisaku registreerimine** – valige see nupp, et avada dialoogiboks, kus saate registreerida masina seisuaja. Saate valida põhjuse koodi ja sisestada seisakule kuupäeva/ajavahemiku. Masina seisuaja registreerimist kasutatakse masina vara tõhususe arvutamiseks.
@@ -98,7 +98,7 @@ Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel jooni
 
 Töötajad alustavad tootmistööd, valides töö vahekaardilt **Kõik tööd** ja valides seejärel suvandi **Käivita töö** dialoogiboksi **Alusta tööd** avamiseks.
 
-![Dialoogiboks Alusta tööd](media/pfei-start-job-dialog.png "Dialoogiboks Alusta tööd")
+![Dialoogiboks Alusta tööd.](media/pfei-start-job-dialog.png "Dialoogiboks Alusta tööd")
 
 Töötajad kasutavad dialoogiboksi **Alusta tööd**, et kinnitada tootmiskogus ja seejärel alustada tööd. Töötajad saavad kogust kohandada, valides välja **Kogus** ja kasutades seejärel kuvatavat numbriklahvistikku. Seejärel valivad töötajad töö alustamiseks **Alusta**. Dialoogiboks **Alusta tööd** suletakse ja töö lisatakse vahekaardile **Aktiivsed tööd**.
 
@@ -108,13 +108,13 @@ Töötajad saavad alustada tööd, mis on mis tahes olekus. Kui töötaja alusta
 
 Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada õige toodetud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Edenemisteabe esitamine**. Seejärel sisestab töötaja dialoogiboksis **Edenemisteabe esitamine** õige koguse numbriklahvistiku abil. Kogus on vaikimisi tühi. Pärast koguse sisestamist saab töötaja uuendada töö olekuks *Käimas*, *Peatatud* või *Lõpetatud*.
 
-![Dialoogiboks Edenemisteabe esitamine](media/pfei-report-progress-dialog.png "Dialoogiboks Edenemisteabe esitamine")
+![Dialoogiboks Edenemisteabe esitamine.](media/pfei-report-progress-dialog.png "Dialoogiboks Edenemisteabe esitamine")
 
 ## <a name="reporting-scrap"></a>Maha kantud koguse esitamine
 
 Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada maha kantud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Maha kantud koguse esitamine**. Seejärel sisestab töötaja dialoogiboksis **Maha kantud koguse esitamine** maha kantud koguse numbriklahvistiku abil. Töötaja valib ka põhjuse (*Puudub*, *Masin*, *Operaator* või *Materjal*).
 
-![Dialoogiboks Maha kantud koguse esitamine](media/pfei-report-scrap-dialog.png "Dialoogiboks Maha kantud koguse esitamine")
+![Dialoogiboks Maha kantud koguse esitamine.](media/pfei-report-scrap-dialog.png "Dialoogiboks Maha kantud koguse esitamine")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Töö lõpetamine ja uue töö alustamine
 

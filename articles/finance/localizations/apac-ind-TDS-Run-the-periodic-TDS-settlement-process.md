@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfab08a4190bf51518bd4a9b445b229a5081e87d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bfa7dc9c2a86b5bd8783327c0e7cfa6b8b9ddd4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023167"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358334"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>Perioodilise TDS-i tasakaalustusprotsessi käitamine
 
@@ -31,7 +31,7 @@ See teema kirjeldab, kuidas tasakaalustada allikas (TDS) mahaarvatud perioodilis
 
 1. Minge **Maksu \> Deklaratsioonidesse \> Kinnipeetav maks \> Kinnipeetava maksu makse**.
 
-    [![Kinnipeetava maksu makse dialoogiboks](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
+    [![Kinnipeetava maksu makse dialoogiboks.](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
 
 2. Dialoogiaknas **Kinnipeetava maksu makse** väljal **Maksu tüüp** valige **TDS**.
 3. Väljal **Maksukonto number (TAN)** valige maksukonto number (TAN), mille tasakaalustusprotsessi käitada.

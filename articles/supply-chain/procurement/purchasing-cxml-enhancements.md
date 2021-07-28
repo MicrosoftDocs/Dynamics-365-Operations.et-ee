@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825274"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359953"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Ostmisega seotud cXML-i täiustused
 
@@ -38,7 +38,7 @@ Pärast funktsiooni sisselülitamist peate konfigureerima järgmise kolme valdko
 
 Järgmisel illustratsioonil on selle konfiguratsiooni kokkuvõte.
 
-![cXML-i funktsioonide seadistamise alad](media/cxml-settings-areas.png "cXML-i funktsioonide seadistamise alad")
+![cXML-i funktsioonide seadistamise alad.](media/cxml-settings-areas.png "cXML-i funktsioonide seadistamise alad")
 
 Lisaks peate seadistama [Ostutellimustaotluse pakett-töö](#po-batch). Seda pakett-tööd kasutatakse kinnitatud ostutellimuste saatmiseks.
 
@@ -46,7 +46,7 @@ Lisaks peate seadistama [Ostutellimustaotluse pakett-töö](#po-batch). Seda pak
 
 Kasutage lehte **cXML-i parameetrid**, et luua globaalsed sätted, mis kehtivad ostutellimuste saatmise korral.
 
-![cXML-i parameetrite leht](media/cxml-parameters.png "cXML-i parameetrite leht")
+![cXML-i parameetrite leht.](media/cxml-parameters.png "cXML-i parameetrite leht")
 
 Avage **Hanked \> Seadistus \> cXML-i haldus \> cXML-i parameetrid** ning seadke järgmised parameetrid.
 
@@ -67,7 +67,7 @@ Iga kord, kui kinnitate ostutellimuse, mille suvandi **Saada ostutellimus cXML-i
 - Hankija seadistamiseks nii, et see kasutaks kõigi uute ostutaotlusest loodavate ostutellimuste puhul automaatselt cXML-i, avage **Hanked \> Hankijad \> Kõik hankijad** ning valige või looge hankija, et avada selle üksikasjade leht. Seejärel seadke kiirkaardil **Ostutellimuse vaikesätted** suvandi **Saada ostutellimus cXML-i kaudu** väärtuseks _Jah_. Kui cXML-i tuleb kasutada automaatselt ka uute ostutellimuste puhul, mida **ei** looda ostutaotluse põhjal, peate seadma seotud väliskataloogi puhul tellimuse atribuudi **ENABLEMANUALPO** väärtuseks _Tõene_, nagu on kirjeldatud selle teema tulevases jaotises [Tellimuse atribuutide seadmine](#set-order-properties).
 - Üksikute ostutellimuste puhul avage **Hanked \> Ostutellimused \> Kõik ostutellimused** ja valige või looge ostutellimus, et avada selle üksikasjade leht. Aktiveerige vaade **Päis** ja seejärel seadistage kiirkaardil **Seadistus** suvand **Saada ostutellimus cXML-i kaudu** nii, nagu vaja.
 
-![Hankija ostutellimuste vaikesätted](media/cxml-order-defaults.png "Hankija ostutellimuste vaikesätted")
+![Hankija ostutellimuste vaikesätted.](media/cxml-order-defaults.png "Hankija ostutellimuste vaikesätted")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Väliskataloogi seadistamine cXML-i kasutama
 
@@ -76,7 +76,7 @@ Lehel **Väliskataloogid** saate iga kataloogi puhul seadistada väljaregistreer
 > [!NOTE]
 > Kui kinnitate ostutellimuse, mida saab saata cXML-i kaudu, otsib süsteem üles selle ostutellimusega seotud hankija ja seejärel hankijaga seotud esimese aktiivse väliskataloogi. Süsteem kasutab seejärel ostutellimuse saatmiseks selle väliskataloogi sätteid. Kui seadistatud on mitu väliskataloogi, kasutab süsteem ainult esimest leitud väliskataloogi, lähtudes ostutellimuses märgitud hankijast. Seetõttu soovitame luua igale hankijale ainult üks väliskataloog.
 
-![Väliskataloogi sätted](media/cxml-supplier-catalog.png "Väliskataloogi sätted")
+![Väliskataloogi sätted.](media/cxml-supplier-catalog.png "Väliskataloogi sätted")
 
 ### <a name="set-the-punchout-protocol-type"></a>Väljaregistreerimisprotokolli tüübi määramine
 
@@ -143,11 +143,11 @@ Nagu mainiti jaotises [Tellimuse atribuutide määramine](#set-order-properties)
 
 Et määrata märkuste tüübid, mida süsteem otsima hakkab, avage **Hanked \> Seadistus \> Vormid \> Vormi seadistus**. Seejärel seadke vahekaardil **Ostutellimus** välja **Kaasa seda tüüpi dokumendid** väärtuseks märkuse tüüp, mida soovite kaasata. Kaasatakse ainult teksti kujul märkmed, mitte dokumendi kujul manused.
 
-![Vormi seadistuse leht](media/cxml-form-setup.png "Vormi seadistuse leht")
+![Vormi seadistuse leht.](media/cxml-form-setup.png "Vormi seadistuse leht")
 
 Manused kaasatakse ostutellimusse ainult juhul, kui nende välja **Tüüp** väärtuseks on seatud väärtus, mille valisite väljal **Kaasa seda tüüpi dokumendid**, ja kui nende välja **Piirang** väärtus on _Väline_. Ostutellimuse manuste loomiseks, vaatamiseks või redigeerimiseks avage **Hanked \> Kõik ostutellimused**, valige või looge ostutellimus ja seejärel valige ülevalt parempoolsest nurgast nupp **Manused** (kirjaklambrisümbol).
 
-![Manustatud märge, mis on seadistatud hankijale saatmiseks](media/cxml-note-to-vendor.png "Manustatud märge, mis on seadistatud hankijale saatmiseks")
+![Manustatud märge, mis on seadistatud hankijale saatmiseks.](media/cxml-note-to-vendor.png "Manustatud märge, mis on seadistatud hankijale saatmiseks")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>cXML-i ostukorvi teatelogi kuvamine väliskataloogi väljaregistreerimisel
 
@@ -155,7 +155,7 @@ Kui seate väliskataloogi puhul välja **Väljaregistreerimisprotokolli tüüp**
 
 Väliskataloogi logi valimiseks valige asjaomane kataloog ja seejärel toimingupaanilt suvand **cXML-i ostukorvi teatelogi**. Lehel **cXML-i ostukorvi teatelogi** on näha tagastatud ostukorvide loend, ostukorvidega seotud XML ja seotud ostutaotluses loodud read.
 
-![cXML-i ostukorvi teatelogi leht](media/cxml-cart-message-log.png "cXML-i ostukorvi teatelogi leht")
+![cXML-i ostukorvi teatelogi leht.](media/cxml-cart-message-log.png "cXML-i ostukorvi teatelogi leht")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Väliste elementide määramine väliskataloogi väljaregistreerimiseks
 
@@ -178,21 +178,21 @@ Väliste elementide lisamiseks väliskataloogi toimige järgmiselt.
         - **Perekonnanimi** – kasutage väliskataloogi kasutava kasutajaga seotud kontaktisiku perekonnanime.
         - **Telefoninumber** – kasutage väliskataloogi kasutava kasutajaga seotud kontaktisiku esmast telefoninumbrit.
 
-![Välise elemendi sätted](media/cxml-extrinsics.png "Välise elemendi sätted")
+![Välise elemendi sätted.](media/cxml-extrinsics.png "Välise elemendi sätted")
 
 Kasutaja või administraator ei näe väliseid elemente, kuna neid ei lisata enne, kui kasutaja teeb väljaregistreerimistegevust. Need lisatakse cXML-i seadistustaotluse teates automaatselt elementide **BuyerCookie** ja **BrowserFromPost** vahele. Seetõttu ei pea te väliskataloogi seadistades neid käsitsi XML-is seadistama.
 
-![XML-i lisatud välised elemendid](media/cxml-extrinsics-xml.png "XML-i lisatud välised elemendid")
+![XML-i lisatud välised elemendid.](media/cxml-extrinsics-xml.png "XML-i lisatud välised elemendid")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Ostutellimuse loomine ja töötlemine
 
 Kui loote hankijale ostutellimuse, pärib see samalt hankijalt suvandi **Saada ostutellimus cXML-i kaudu** seadistuse. Säte on siiski saadaval ostutellimuse vaate **Päis** kiirkaardil **Seadistus**, et saaksite seda hiljem vajadusel muuta.
 
-![cXML-i kasutamiseks seadistatud ostutellimus](media/cxml-purchase-order.png "cXML-i kasutamiseks seadistatud ostutellimus")
+![cXML-i kasutamiseks seadistatud ostutellimus.](media/cxml-purchase-order.png "cXML-i kasutamiseks seadistatud ostutellimus")
 
 Kui loote ostutellimuse ostutaotlusest, mis on pärit väljaregistreerimise voost, täidetakse kõik vajalike ridade üksikasjad. Seejärel saate ostutellimuse read käsitsi lisada või kopeerida need muudest ostutellimustest. Seadke kindlasti kõik kohustuslikud väljad. Need kohustuslikud väljad sisaldavad välisviitenumbrit, mis on cXML-i teates kasutatav hankija number.
 
-![Välisviitenumbri näide](media/cxml-line-details.png "Välisviitenumbri näide")
+![Välisviitenumbri näide.](media/cxml-line-details.png "Välisviitenumbri näide")
 
 Kui olete ostutellimuses kõigi üksikasjade täitmise lõpetanud, kinnitage see kindlasti. Teadet ei saadeta, kui ostutellimus pole kinnitatud. Ostutellimuse kinnitamiseks valige toimingupaani vahekaardi **Ostmine** grupis **Tegevused** suvand **Kinnita**. 
 
@@ -200,17 +200,17 @@ Pärast ostutellimuse kinnitamist saate vaadata kinnituse olekut töölehtede **
 
 Igal ostutellimusel võib olla palju kinnitusi. Iga kinnitus on märgitud suureneva numbriga. Järgmises näites on ostutellimus *00000275* ja kinnitus *00000275-1*. See nummerdamine kajastab rakenduse Supply Chain Management standardset funktsiooni, mille puhul tuvastatakse kinnituse põhjal ostutellimuse muudatused ja seetõttu ka hankijale saadetava cXML-i teate tüüp. Nagu illustratsioonilt näha, hõlmab leht **Ostutellimuse kinnitused** ka välju **Tellimuse saatmise olek** ja **Tellimustaotluse hankija olek**. Lisateavet eri olekuväärtuste kohta, mida sellel lehel näha võite, leiate selle teema hilisemast jaotisest [Ostutellimustaotluste jälgimine](#monitor-po-requests).
 
-![Ostutellimuse kinnituste leht](media/cxml-po-confirmations.png "Ostutellimuse kinnituste leht")
+![Ostutellimuse kinnituste leht.](media/cxml-po-confirmations.png "Ostutellimuse kinnituste leht")
 
 Dokumendi kohta lisateabe vaatamiseks valige ruudustiku kohalt **Ostutellimustaotlus**.
 
 Leht **Ostutellimustaotlus** hõlmab kaht ruudustikku. Lehe ülemises osas olevas ruudustikus on üks kirje iga saatmiseks märgitud ostutellimuse jaoks. Lehe alumises osas oleva vahekaardi **Ostutellimustaotluse ajalugu** ruudustikus võib olla valitud ostutellimuse kohta mitu kirjet, et näidata iga kinnituse olekut. Järgmisel illustratsioonil on näha ülemises ruudustikus olev ostutellimus 00000275 ja vahekaardi **Ostutellimustaotluse ajalugu** võrgustikus olev dokument 00000275-1.
 
-![Ostutellimustaotluse leht](media/cxml-po-request.png "Ostutellimustaotluse leht")
+![Ostutellimustaotluse leht.](media/cxml-po-request.png "Ostutellimustaotluse leht")
 
 Dokument saadetakse, kui pakett-töö on seadistatud ja käivitatud. Oleku muutumist saate vaadata pärast dokumendi saatmist. Järgmisel illustratsioonil on välja **Tellimuse saatmise olek** väärtuseks seatud _Saadetud_. Välja **Tellimustaotluse hankija olek** väärtus on _Kinnitatud_, et näidata, et hankija sai dokumendi kätte ning suutis seda oma süsteemis lugeda ja talletada. Vahekaardil **Ostutellimustaotluse ajalugu** olevas ruudustikus on näha dokumendi saatmise aeg. Lisateavet eri olekuväärtuste kohta, mida sellel lehel näha võite, leiate jaotisest [Ostutellimustaotluste jälgimine](#monitor-po-requests).
 
-![Olekuteated ostutellimustaotluse lehel](media/cxml-po-request-2.png "Olekuteated ostutellimustaotluse lehel")
+![Olekuteated ostutellimustaotluse lehel.](media/cxml-po-request-2.png "Olekuteated ostutellimustaotluse lehel")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Ostutellimustaotluse pakett-töö ajastamine
 
@@ -226,7 +226,7 @@ Protsessi käigus otsitakse ostutellimustaotluse dokumente, mille olek on *Ootel
 
 Tellimuste, mida saab saata cXML-i kaudu, kinnitamise puhul määratakse nende olekuks _Ootel_. Nagu kirjeldati jaotises [Ostutellimuse loomine ja töötlemine](#create-po), saate vaadata ostutellimuse olekut lehel **Ostutellimustaotlus**. Igal ostutellimustaotlusel võib olla üks mitmest olekust sõltuvalt selle parameetritest ja andmetest. Selles jaotises kirjeldatakse eri olekutüüpe ja väärtusi, mis neil olla võivad. See teave aitab teil hallata probleeme ja mõista oma ostutellimuste olekut.
 
-![Ostutellimuse olek ostutellimustaotluse lehel](media/cxml-monitor-po-request.png "Ostutellimuse olek ostutellimustaotluse lehel")
+![Ostutellimuse olek ostutellimustaotluse lehel.](media/cxml-monitor-po-request.png "Ostutellimuse olek ostutellimustaotluse lehel")
 
 Lehe **Ostutellimustaotlus** üleval olevas ruudustikus võivad olla järgmised olekuväärtused.
 
@@ -262,17 +262,17 @@ Lehe **Ostutellimustaotlus** alumises osas oleva vahekaardi **Ostutellimustaotlu
 
 Ostutellimustaotluse teate XML-i vaatamiseks valige lehe **Ostutellimustaotlus** alumisest osast vahekaart **Vastuse XML-i tekst**. Sellel vahekaardil olev teave võib tulla kasuks testimisel või tõrgete korral. Teabe lugemise hõlbustamiseks saate seda vaadata vormindatud teatena. Kopeerige vahekaardi sisu tekstifaili ja vaadake seda XML-redaktoris.
 
-![Taotluse XML-i teksti vahekaart](media/cxml-request-xml-text.png "Taotluse XML-i teksti vahekaart")
+![Taotluse XML-i teksti vahekaart.](media/cxml-request-xml-text.png "Taotluse XML-i teksti vahekaart")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Hankija vastuse üksikasjade vaatamine
 
 Hankija kinnituse või tõrkevastuse sisu vaatamiseks valige lehe **Ostutellimustaotlus** alumisest osast suvand **Vastuse XML**.
 
-![Vastuse XML-i vahekaart](media/cxml-response-xml.png "Vastuse XML-i vahekaart")
+![Vastuse XML-i vahekaart.](media/cxml-response-xml.png "Vastuse XML-i vahekaart")
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Väliskataloogi häälestamine e-hanke väljaregistreerimiseks](set-up-external-catalog-for-punchout.md)
+- [Väliskataloogi seadistamine e-hanke väljaregistreerimiseks](set-up-external-catalog-for-punchout.md)
 - [Väliskataloogide kasutamine e-hanke väljaregistreerimiseks](use-external-catalogs-for-punchout.md)
 
 

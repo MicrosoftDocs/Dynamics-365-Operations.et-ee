@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102970"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354901"
 ---
 # <a name="create-maintenance-requests"></a>Hooldustaotluste loomine
 
@@ -52,7 +52,7 @@ Jaotis **Aktiivsed hoolduse taotlused** paanil **Seotud teave** lehe **Kõik var
 11. Sisestage väljale **Märkmed** kõik nõutavad täiendavad märkused.
 12. Valige nupp **OK**.
 
-![Hooldusnõude loomine](media/03-manage-maintenance-requests.png)
+![Hooldusnõude loomine.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Hoolduse taotluste hilisem töötlemine
 
@@ -67,7 +67,7 @@ Kui hooldustaotlus on loodud, kuid see on enne teisendatud töötellimuseks, tul
 - Valige hooldustöö tüüp ja kui see teave on asjakohane, seotud hooldustöö variant ja töökaubandus.
 - Väljadele **Laius** ja **Pikkus** sisestage geograafilised koordinaadid. Kõik hooldustaotlusele lisatud koordinaadid kantakse automaatselt üle seotud töötellimusele. 
 
-![Hooldustaotluse uuendamine](media/04-manage-maintenance-requests.png)
+![Hooldustaotluse uuendamine.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Kui valite hooldustaotluse loomisel vara, saate sellele varale lisada ühe vea. Pärast hooldustaotluse loomist saate lisada rohkem vigu, kui vajate. Vigade lisamiseks valige **Vara viga** lehel **Kõik hoolduspäringud**.

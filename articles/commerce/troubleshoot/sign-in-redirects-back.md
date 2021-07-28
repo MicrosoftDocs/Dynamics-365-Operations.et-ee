@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020599"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350374"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Sisselogimislingi ümbersuunamised tagasi e-äri saidile
 
@@ -43,7 +43,7 @@ Veenduge, et vastuse URL on Azure AD B2C-rakenduses õigesti konfigureeritud, j�
 1. Valige rakendus, mille lõite Azure AD B2C-seadistuse ajal.
 1. **Vastuse URLi** all veenduge, et loend sisaldab kirjeid nii saidi domeeni URL-i kui e-kaubanduse loodud URL-i kohta, nagu näidatud järgmises illustratsioonis.
 
-    ![Azure AD B2C-vastuse URL-i kirjed](media/aad-b2c-reply-url.jpg)
+    ![Azure AD B2C-vastuse URL-i kirjed.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > Nii saidi domeeni URL kui ka e-äri loodud URL peavad olema kehtivas URL-vormingus, mis ei sisalda lõpu- või lõpukriipse.

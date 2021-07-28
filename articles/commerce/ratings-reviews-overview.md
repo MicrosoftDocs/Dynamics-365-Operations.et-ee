@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0788091755fb784621e972a0573f7004952e8e11
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4622b2a26ac6193b1408c029389e4d9f55162418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792095"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355801"
 ---
 # <a name="ratings-and-reviews-overview"></a>Hinnangute ja arvustuste ülevaade
 
@@ -39,7 +39,7 @@ Hinnangute ja arvustuste funktsioon rakenduses Dynamics 365 Commerce on omnikana
 
 Järgmine illustratsioon näitab, kuidas hinnangute ja arvustuste lahendus töötab rakenduses Dynamics 365 Commerce.
 
-![Hinnangud ja arvustused rakenduses Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Hinnangud ja arvustused rakenduses Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 Hinnangute ja arvustuste lahendus rakenduses Dynamics 365 Commerce kasutab teenust Azure Cognitive Services, et pakkuda ebasündsate sõnade automaatset modereerimist 40 keeles. Kuna inimeste heakskiitu ei nõuta, vähendatakse modereerimise kulusid. Süsteem pakub ka moderaatori tööriistu, mida saab kasutada klientide murede, tagasiside ja mahavõtmise taotluste rahuldamiseks ja kasutajatelt saadud andmetega seotud taotluste käsitlemiseks.
 

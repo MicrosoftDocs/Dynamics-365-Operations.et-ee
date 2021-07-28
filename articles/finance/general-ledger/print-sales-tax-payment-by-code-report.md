@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815448"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358853"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Käibemaksu tasumise printimine koodide aruande järgi 
 
@@ -34,17 +34,17 @@ Lülitage tööruumis **Funktsioonihaldus** sisse järgmine funktsioon: **Loo k�
 
 ## <a name="run-the-report"></a>Aruande käivitamine
 
-1. Avage  **Maks** \> **Päringud ja aruanded** \> **Käibemaksu aruanded** \> **Käibemaksu tasumine koodide lõikes**.
+1. Avage **Maks** \> **Päringud ja aruanded** \> **Käibemaksu aruanded** \> **Käibemaksu tasumine koodide lõikes**.
 2. Valige väljal **Aruandevaluuta** üks järgmistest väärtustest.
 
     - **Arvestusvaluuta** – saate printida aruandesummad arvestusvaluuta.
     - **Käibemaksukoodi valuuta** – saate printida aruandesummad käibemaksukoodide valuutades.
 
-    ![Käibemaksu tasumine koodi dialoogiboksi järgi](media/Sales-tax-payment-by-code.png)
+    ![Käibemaksu tasumine koodi dialoogiboksi järgi.](media/Sales-tax-payment-by-code.png)
 
 Järgnev illustratsioon näitab aruande loodud näidet. Aruanne näitab, et aruandluskoodil **101** on valuuta **EUR**, kui selle määratud aruandluskoodiga käibemaksukoodi jaoks on välja **Käibemaksu valuuta** väärtuseks määratud **EUR**.
 
-![Näide käibemaksu tasumisest koodide aruande järgi](media/Sales-tax-payment-by-code-2.png)
+![Näide käibemaksu tasumisest koodide aruande järgi.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799102"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349420"
 ---
 # <a name="recall-order-operation-in-pos"></a>Tellimuse tagasikutsumise toiming kassas
 
@@ -29,7 +29,7 @@ Selle funktsiooni lubamiseks lülitage sisse funktsioon **Täiustatud tellimuse 
 
 Toimingu **Tellimuse tagasikutsumine** nupp võimaldab organisatsioonidel teha toimingut eelnevalt määratletud kuva kaudu.
 
-![Nupuruudustiku konfiguratsioon](media/recallorderbuttongrid.png)
+![Nupuruudustiku konfiguratsioon.](media/recallorderbuttongrid.png)
 
 Kuvasuvandid on järgmised.
 - **Puudub** – see suvand käivitab toimingu ilma kindla kuvata. Kui kasutaja avab toimingu selle konfiguratsiooniga, palutakse neil tellimusi otsida ja leida või valida eelnevalt määratud tellimuse filtri seast.
@@ -42,11 +42,11 @@ Kui kassas käivitatakse toiming **Tellimuse tagasikutsumine** ja kuva väärtus
 - Valige rakenduseribalt ikoon **Otsi tellimusi** või **Otsi ja filtreeri**, et kasutada kriteeriumidele vastavate tellimuste leidmiseks filtreerimist.
 - Valige eelmääratletud filtri kaudu rippmenüüst **Kuva tellimused** (täidetavad tellimused, pealevõetavad tellimused või lähetatavad tellimused).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Pärast otsingukriteeriumide rakendamist kuvatakse rakenduses ühtivate müügitellimuste loend. Otsingu-/filtrisuvandite kasutamisel ei pea toodud tellimused olema kasutaja praeguse kauplusega lingitud tellimused. See otsinguprotsess toob ja kuvab kõik otsingukriteeriumitele vastavad klienditellimused, isegi kui tellimus on loodud või seatud täidetuks teise kaupluse/kanali või lao asukoha poolt.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Kasutaja saab valida loendist tellimuse, et vaadata täiendavaid üksikasju. Ekraani paremas servas oleval teabepaanil kuvatakse valitud tellimuse üksikasjad, sh tellimuse rea üksikasjad, tarne üksikasjad ja täitmise üksikasjad.
 

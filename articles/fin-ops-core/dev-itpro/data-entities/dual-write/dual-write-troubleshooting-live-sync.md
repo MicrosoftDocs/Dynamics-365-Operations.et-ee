@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748893"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350784"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Reaalajas sünkroonimise probleemide tõrkeotsing
 
@@ -73,21 +73,21 @@ Kui andmed on olemas kummalgi poolel ja olete teinud kindlaks, et probleem ei ol
 
 Võite saada tõrketeate „Vigane taotlus”, mis sarnaneb järgmise näitega rakenduses Finance and Operations andmete loomisel.
 
-![Vigase taotluse tõrketeate näide](media/error_record_id_source.png)
+![Vigase taotluse tõrketeate näide.](media/error_record_id_source.png)
 
 Probleemi lahendamiseks peate määrama vastendatud Dynamics 365 Salesi või Dynamics 365 Customer Service'i äriüksusele õige turberolli puuduva privileegi lubamiseks.
 
 1. Otsige rakendusest Finance and Operations üles andmeintegratsiooni ühendusekogumis vastendatud äriüksus.
 
-    ![Organisatsiooni vastendamine](media/mapped_business_unit.png)
+    ![Organisatsiooni vastendamine.](media/mapped_business_unit.png)
 
 2. Logige Dynamics 365 mudeljuhitud rakenduse keskkonda sisse, liikuge jaotisesse **Säte \> Turve** ja otsige üles vastendatud äriüksuse meeskond.
 
-    ![Vastendatud äriüksuse meeskond](media/setting_security_page.png)
+    ![Vastendatud äriüksuse meeskond.](media/setting_security_page.png)
 
 3. Avage selle meeskonna leht redigeerimiseks ja seejärel valige **Rollide haldamine** dialoogiboksi **Meeskonna rollide haldamine** avamiseks.
 
-    ![Nupp rollide haldamine](media/manage_team_roles.png)
+    ![Rollide haldamise nupp.](media/manage_team_roles.png)
 
 4. Määrake roll, millel on asjaomaste tabelite lugemise/kirjutamise privileeg ja seejärel valige **OK**.
 

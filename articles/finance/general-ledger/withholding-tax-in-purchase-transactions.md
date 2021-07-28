@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816879"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356672"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Kinnipeetav maks ostutehingutes
 
@@ -64,15 +64,15 @@ Kinnipeetava maksu grupi ja kauba kinnipeetava maksu grupi vaikeväärtused viia
 
 Kinnipeetava maksu ajutine summa on saadaval lehe **Ostutellimus** vahekaardi **Kogusummad** väljal **Korrigeeritud kinnipeetav maks**.
 
-![Kinnipeetav maks sisaldub ostutellimuses](media/withholding-tax-adjusted.png)
+![Kinnipeetav maks sisaldub ostutellimuses.](media/withholding-tax-adjusted.png)
 
 Kinnipeetav maks arvutatakse **Hankija makse töölehel**. Saate kohaldatavat kinnipeetava maksu koode ja ka tegelikku kinnipeetava maksu summasid käsitsi reguleerida vahekaardil **Kinnipeetav maks** lehel **Kannete tasakaalustamine**.
 
-![Kinnipeetavat maksu saab käsitsi korrigeerida lehel Kannete tasakaalustamine](media/withholding-tax-vendor-payment-tab.png)
+![Kinnipeetavat maksu saab käsitsi korrigeerida lehel Kannete tasakaalustamine.](media/withholding-tax-vendor-payment-tab.png)
 
 Saadud kinnipeetava maksu summa arvatakse hankija maksest maha ja sisestatakse seotud kande **Kinnipeetava maksu kontole**.
 
-![Kinnipeetava maksu konto, kus kuvatakse seostuv kanne](media/withholding-tax-adjusted.png)
+![Kinnipeetava maksu konto, kus kuvatakse seostuv kanne.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

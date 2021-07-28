@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750882"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351045"
 ---
 # <a name="er-migration-cleanup"></a>ER-i migratsiooni puhastamine 
 
@@ -30,11 +30,11 @@ Kui haldate oma Finance'i eksemplare, võite valida praeguse eksemplari siirdami
 
 Kui proovite käitada ER-vormingut, mis kasutab malli äridokumentide loomiseks, ilmneb erand ja teid teavitatakse puuduvast mallist. Samuti soovitatakse teil kasutada ER-puhastuse suvandit, et kustutada malli sisaldav ER-vormingu konfiguratsioon ja see seejärel uuesti importida.
 
-[![ER-vormingu käitamine](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![ER-vormingu käitamine.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Sarnane tõrge tekib siis, kui liigute lehele **Konfiguratsioonid** (**Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**) ja proovite konfiguratsioonipuus kustutada malli kasutava ER-vormingu konfiguratsiooni.
 
-[![ER-vormingu kustutamine](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![ER-vormingu kustutamine.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Ligipääsmatute ER-mallidega seotud probleemide lahendamiseks järgige järgmisi etappe.
 
@@ -50,7 +50,7 @@ Ligipääsmatute ER-mallidega seotud probleemide lahendamiseks järgige järgmis
 >
 > Kui kustutate suvandi **Migratsiooni puhastus** abil ER-vormingu konfiguratsiooni olukorras, kus viidatud mall on bloobimälus saadaval, siis kustutate ainult seotud konfiguratsiooni artefaktid rakenduse andmebaasis. Malli füüsiline fail bloobimälus jääb alles. Faili ülekirjutamine bloobimälus ei ole enam lubatud. Lisateavet vt [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Lisaks ei saa te selles keskkonnas migratsiooni puhastust kasutades kustutatud konfiguratsioone enam uuesti importida. Probleemi lahendamiseks peate vastava faili bloobimälus käsitsi tuvastama ja kustutama.
 
-[![ER-vormingu importimine](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![ER-vormingu importimine.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Sarnane probleem võib tekkida juhul, kui migreerite oma rakenduse eksemplari muude asukohta, mida on kasutatud migratsiooni sihtkohana enam kui üks kord ning mille kohta on bloobimälus juba ER-malli failid olemas.
 

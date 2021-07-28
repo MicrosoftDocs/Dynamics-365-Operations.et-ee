@@ -2,7 +2,8 @@
 title: Kaupluse valija moodul
 description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021460"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479372"
 ---
 # <a name="store-selector-module"></a>Kaupluse valimise moodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -50,12 +52,12 @@ Commerce'i peakorteris asuva poe asukoha laius- ja pikkuskraadi väärtuste sise
 1. Valige vasakpoolsel paanil lao asukoht.
 1. Kiirkaardil **Aadressid** valige **Täpsemalt**.
 
-    ![Kaupluse üksikasjade näide peakorteris](./media/Store-address.png)
+    ![Kaupluse üksikasjade näide peakorteris.](./media/Store-address.png)
 
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Kiirkaardil **Üldine** sisestage **laius-** ja **pikkuskraadide** väärtused.
 
-    ![Peakorteri kaupluse laius- ja pikkuskraadide häälestuse näide](./media/Store-latitude-longitude.png)
+    ![Peakorteri kaupluse laius- ja pikkuskraadide häälestuse näide.](./media/Store-latitude-longitude.png)
 
 1. Valige toimingupaanil nupp **Salvesta**. 
 
@@ -70,7 +72,6 @@ Autosuggest REST API puhul peate tagama, et järgmised URL-id on lubatud saidi s
 - Lisage direktiivile **script-src** väärtused **&#42;.bing.com, &#42;.virtualearth.net**.
 - Lisage direktiivile **script style-src** väärtus **&#42;.bing.com**.
 
- 
 ## <a name="pickup-in-store-mode"></a>Järgi tulemine kauplusesse režiim
 
 Kaupluse valijate moodul toetab **Järgi tulemine kauplusse** režiimis, mis kuvab kaupluste loendit, kus toode on järgi tulemuseks saadaval. See näitab ka kaupluse lahtioleku aegasid ja iga kaupluse toote laoseisu loendina. Kaupluse valija moodul eeldab toote sisu toote saadavuse kuvamiseks ja kasutaja toote ostukorvi lisamise lubamiseks, kui toote tarneviis on **järgitulemine** valitud kaupluses. Lisateavet vt teemast [Varude sätted](inventory-settings.md). 
@@ -81,7 +82,7 @@ Selleks, et see stsenaarium töötaks, tuleb toodete tarneviisiks konfigureerida
 
 Järgmisel pildil on näide, kuidas kasutatakse kaupluse valija moodulit PDP-s.
 
-![Kaupluse valija mooduli näide PDP-s](./media/BOPIS.PNG)
+![Kaupluse valija mooduli näide PDP-s.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > Versioonis 10.0.16 ja uuemates versioonides saab lubada uue funktsiooni, mis võimaldab organisatsioonil määratleda klientide jaoks mitu vastuvõtuviisi.  Kui see funktsioon on lubatud, täiustatakse kaupluse valijat ja teisi e-kaubanduse mooduleid, et võimaldada ostjal valida potentsiaalselt mitme pealevõtmise võimaluse vahel, kui see on konfigureeritud.  Lisateavet selle funktsiooni kohta leiate [sellest dokumentatsioonist](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ Kaupluse valija moodul toetab ka režiimi **Leia kauplused**. Seda režiimi saab
 
 Järgmisel joonisel on kujutatud kaupluse valija mooduli näide, mida kasutatakse koos kaardi mooduliga kaupluse asukohtade lehel.
 
-![Kaupluse valija mooduli ja kaardimooduli näide kaupluse asukohtade lehel](./media/ecommerce-Storelocator.PNG)
+![Kaupluse valija mooduli ja kaardimooduli näide kaupluse asukohtade lehel.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Kaardi renderdamine
 
@@ -110,6 +111,10 @@ Kaupluse valija moodulit saab kasutada koos kaardi mooduliga, et näidata kauplu
 | Autosuggest valikud: maksimaalne tulemus | Number | See atribuut määratleb Autosuggest tulemuste maksimaalse arvu, mida saab kuvada Bingi Autosuggest API kaudu. |
 | Otsinguraadius | Number | See atribuut määratleb kaupluste otsinguraadiuse miilides. Kui väärtust pole määratud, kasutatakse vaikimisi 50-miilist otsinguraadiust. |
 | Teenusetingimused | URL |  See atribuut määrab teenusetingimuste URL-i, mis on vajalikud Bing Mapsi teenuse kasutamiseks. |
+
+## <a name="site-settings"></a>Saidi sätted
+
+Kauplusevalija moodul võtab arvesse toote [ostukorvi lisamise sätteid](add-cart-settings.md). Pärast kauba ostukorvi lisamist kauplusevalija moodulist näeb saidi kasutajad sobivaid konfigureeritud töövooge.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Kaupluse valija mooduli lehele lisamine
 
