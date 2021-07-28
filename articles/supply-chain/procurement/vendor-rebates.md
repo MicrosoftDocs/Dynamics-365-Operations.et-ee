@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822463"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344216"
 ---
 # <a name="vendor-rebates"></a>Hankija tagasimaksed
 
@@ -53,7 +53,7 @@ Hankija tagasimakseleping on registreeritud kokkulepe hankijaga, mis täpsustab 
 
 Lehe **Hankija tagasimakselepingud** avamiseks valige **Hanked** &gt; **Hankija tagasimaksed** &gt; **Tagasimakselepingud**.
 
-![Ostuleping](media/purchase-agreement.PNG)
+![Ostuleping.](media/purchase-agreement.PNG)
 
 Lehel **Hankija tagasimakselepingud** saate vaadata hankija lepingu läbiräägitud tingimuste üksikasju.
 
@@ -129,7 +129,7 @@ Kui nõuded on kinnitatud, saab neid töödelda ostureskontro. Krediiditeatis (h
 
     Nõude summa kohta sisestatakse tagasimakse juurdekasvu tööleht. See sisestus debiteerib kogunenud tasumisele kuuluvate hankija tagasimaksete kontolt oodatava hankija kreeditsumma ja krediteerib saadud kogunenud hankija tagasimaksete vahekontot oodatud tuluga.
 
-    ![Teade](media/message.png)
+    ![Sõnum.](media/message.png)
 
 5. Valige tagasimaksete loendist rida ja valige siis tegumiribalt **Tagasimaksekanded**, et vaadata selle tagasimakse kogunenud sisestuse töölehe partiinumbrit ja liikuda selle juurde.
 

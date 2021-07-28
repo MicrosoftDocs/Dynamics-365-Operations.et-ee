@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051805"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359673"
 ---
 # <a name="recruit-job-candidates"></a>Kandidaatide värbamine
 
@@ -61,13 +61,13 @@ Kui teie organisatsioonil on mitu asukohta, saate need lisada, et taotluse esita
 
 3. Sisestage asukoha nimi väljale **Värbamistaotluse asukoht**.
 
-   ![Värbamistaotluse asukoha lisamine](./media/hr-recruit-0a-add-location.png)
+   ![Värbamistaotluse asukoha lisamine.](./media/hr-recruit-0a-add-location.png)
 
 4. Sisestage väljale **Kirjeldus** asukoha kirjeldus.
 
 5. Valige jaotises **Asukoht** nupp **Lisa**. Kui kuvatakse hüpikaken **Uus aadress**, sisestage asukoha aadress.
 
-   ![Sisestage aadress](./media/hr-recruit-0b-address.png)
+   ![Sisestage aadress.](./media/hr-recruit-0b-address.png)
 
 6. Jaotises **Kontaktteave** sisestage asukoha kontaktisiku teave.
 
@@ -83,11 +83,11 @@ Rakenduse Human Resources saavad juhid värbamistaotlusi esitada. Kui kasutate e
 
 3. Valige **Värbamistaotlus**.
 
-   ![Värbamistaotluse alustamine](./media/hr-recruit-1-request-to-recruit.png)
+   ![Värbamistaotluse alustamine.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Täitke väli **Kirjeldus**, **Töö** ja **Eeldatav alguskuupäev**.
 
-   ![Värbamistaotluse lõpuleviimine](./media/hr-recruit-2-request-to-recruit.png)
+   ![Värbamistaotluse lõpuleviimine.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Valige nupp **Jätka**. Kuvatakse teie ametikoha värbamistaotlus.
 
@@ -95,7 +95,7 @@ Rakenduse Human Resources saavad juhid värbamistaotlusi esitada. Kui kasutate e
 
 7. Jaotises **Töö** muutke teavet vastavalt vajadusele ja seejärel valige käsk **Loo töö põhjal üksikasjad**.
 
-   ![Loo üksikasjad töö põhjal](./media/hr-recruit-3-create-details-from-job.png)
+   ![Loo töö põhjal üksikasjad.](./media/hr-recruit-3-create-details-from-job.png)
 
    Ülejäänud värbamistaotlus täidetakse sisestatud töö vaiketeabega.
 
@@ -103,13 +103,13 @@ Rakenduse Human Resources saavad juhid värbamistaotlusi esitada. Kui kasutate e
 
 9. Jaotises **Ametikohad** valige nupp **Lisa** ja seejärel selle värbamistaotluse ametikoht.
 
-   ![Ametikoha lisamine](./media/hr-recruit-4-select-position.png)
+   ![Ametikoha lisamine.](./media/hr-recruit-4-select-position.png)
 
 10. Jaotises **Oskused** valige nupp **Lisa** ja seejärel valige oskus.
 
 11. Jaotises **Haridusnõuded** valige nupp **Lisa** ja seejärel valige väärtused ripploendist **Haridus** ja **Haridustase**.
 
-   ![Haridusnõuete lisamine](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Haridusnõuete lisamine.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Jaotises **Kommenteerimine** lisage vajaduse korral kommentaarid.
 
@@ -117,7 +117,7 @@ Rakenduse Human Resources saavad juhid värbamistaotlusi esitada. Kui kasutate e
 
 14. Kui teie värbamistaotlus on lõpule viidud ja olete valmis alustama värbamisprotsessi, valige menüüribalt käsk **Aktiveeri**.
 
-   ![Värbamistaotluse aktiveerimine](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Värbamistaotluse aktiveerimine.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Valige käsk **Salvesta**.
 
@@ -131,7 +131,7 @@ Kui olete juht ja soovite oma taotlusi vaadata, tehke järgmist.
 
 3. Jaotises **Minu töörühma teave** valige vahekaart **Värbamistaotlused**.
 
-   ![Värbamistaotluste vahekaardi valimine](./media/hr-recruit-7-recruiting-requests.png)
+   ![Värbamistaotluste vahekaardi valimine.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Värbamistaotluse vaatamiseks või muutmiseks valige see ruudustikus.
 
@@ -141,7 +141,7 @@ Kui olete personalispetsialist ja soovite vaadata kõiki värbamistaotlusi, tehk
 
 2. valige **Värbamistaotlused**.
 
-   ![Personalihalduse kaudu värbamistaotluste kuvamine](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Personalihalduse kaudu värbamistaotluste kuvamine.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Värbamistaotluse vaatamiseks või muutmiseks valige see ruudustikus.
 
@@ -155,7 +155,7 @@ Kui teie organisatsioon on integreeritud mõne muu rakendusega, et hallata värb
 
 3. Jaotises **Värbamine** valige **Kandidaadid**.
 
-   ![Kandidaatide kuvamine](./media/hr-recruit-9-candidates.png)
+   ![Kandidaatide kuvamine.](./media/hr-recruit-9-candidates.png)
 
 4. Kandidaadi lisamiseks valige nupp **Uus**. Olemasoleva kandidaadi redigeerimiseks valige loendist aadress ja seejärel valige **Redigeeri**. Kuvatakse kandidaadi profiil.
 
@@ -163,7 +163,7 @@ Kui teie organisatsioon on integreeritud mõne muu rakendusega, et hallata värb
 
 6. Jaotises **Värbamistaotlus** valige kandidaadi linkimiseks värbamistaotlus. Seejärel täitke väli **Eeldatav alguskuupäev**, **Värbamisjuht**, **Ametikoht** ja **Kirjeldus** vastavalt vajadusele.
 
-   ![Värbamistaotluse link](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Värbamistaotluse link.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Lisage kõik andmed järgmistes valdkondades, mida soovite kandidaadi kirjele lisada.
    - **Kommentaarid**
@@ -182,11 +182,11 @@ Kui olete kandidaadi palkamiseks valmis, järgige seda protseduuri, et muuta kan
 
 1. Kandidaadi vormil valige käsk **Palka**.
 
-   ![Kandidaadi palkamine](./media/hr-recruit-11-hire.png)
+   ![Kandidaadi palkamine.](./media/hr-recruit-11-hire.png)
 
 2. Täitke kõik väljad vormi **Uue töövõtja palkamine** jaotises **Üksikasjad**.
 
-   ![Palgatud töövõtja üksikasjade sisestamine](./media/hr-recruit-12-hire-new-worker.png)
+   ![Palgatud töövõtja üksikasjade sisestamine.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Jaotises **Ametikoha üksikasjad** kontrollige ja muutke vajaduse korral teavet.
 
@@ -203,7 +203,7 @@ Kui otsustate kandidaati mitte palgata, järgige seda protseduuri, et eemaldada 
 
 1. Kandidaadi vormil valige käsk **Ära palka**.
 
-   ![Kandidaadi mittepalkamine](./media/hr-recruit-13-do-not-hire.png)
+   ![Kandidaadi mittepalkamine.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Saate valida **Põhjuse koodi** ja kommentaare lisada.
 
@@ -215,7 +215,7 @@ Vajaduse korral saate kandidaadist pärast tema palkamist loobuda. Näiteks või
 
 - Valige kandidaadi vormil käsk **Loobu kandidaadist**.
 
-  ![Lõpeta kandidaat](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Loobu kandidaadist.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Vt ka
 

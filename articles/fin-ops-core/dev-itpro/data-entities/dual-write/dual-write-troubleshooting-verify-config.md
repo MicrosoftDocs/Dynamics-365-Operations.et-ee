@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d903d58fbd5e9d6bd9ecf7943d09525446721ba2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350760"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Kontrollige topeltkirjutuse konfiguratsiooni Finance and Operationsi rakendustes ja Dataverse’is
 
@@ -39,11 +39,11 @@ Selleks, et teha kindlaks, kas ridade värskenduse salvestamisel kuvatavad tõrk
 
 + Kui teil on administraatori privileegid rakenduses Finance and Operations, avage jaotis **Tööruumid \> Andmehaldus** ja valige paan **Topeltkirjutus**. Kui kuvatakse lingitud keskkondade üksikasjad ja kasutatava tabeli vastenduste loend, konfigureeritakse topeltkirjutus.
 
-    ![Rakenduse Finance and Operations ühenduse kontrollimine administraatori privileegide korral](media/verify_fin_ops_1.png)
+    ![Rakenduse Finance and Operations ühenduse kontrollimine administraatori privileegide korral.](media/verify_fin_ops_1.png)
 
 + Kui teil ei ole administraatori privileege, kuvatakse tõrketeade *Andmeid ei saa kirjutada üksusele \<entity name\>*. Järgmises näites kirjeldatakse, et rakenduses Finance and Operations ei saa kliendi rida luua, sest topeltkirjutus on konfigureeritud, kuid kliendigruppi ja maksetingimuste viiteandmeid pole teenuses Dataverse olemas.
 
-    ![Rakenduse Finance and Operations ühenduse kontrollimine administraatori privileegide puudumise korral](media/verify_fin_ops_2.png)
+    ![Rakenduse Finance and Operations ühenduse kontrollimine administraatori privileegide puudumise korral.](media/verify_fin_ops_2.png)
 
 Lisateavet selle kohta, kuidas lahendada probleeme rakenduses Finance and Operations andmete loomisel, vaadake teemast [Reaalajas sünkroonimise probleemide tõrkeotsing](dual-write-troubleshooting-live-sync.md).
 
@@ -51,7 +51,7 @@ Lisateavet selle kohta, kuidas lahendada probleeme rakenduses Finance and Operat
 
 Kui andmete loomisel kuvatakse Dataverse’i lehtedel veerg **Ettevõte**, on topeltkirjutus konfigureeritud.
 
-![Dataverse'i ühenduse kontrollimine](media/verify_cds.png)
+![Dataverse'i ühenduse kontrollimine.](media/verify_cds.png)
 
 Lisateavet selle kohta, kuidas lahendada probleeme Dataverse'is andmete loomisel, vaadake teemast [Reaalajas sünkroonimise probleemide tõrkeotsing](dual-write-troubleshooting-live-sync.md).
 

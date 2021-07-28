@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837893"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346222"
 ---
 # <a name="register-consumption"></a>Tarbimise registreerimine
 
@@ -54,7 +54,7 @@ Mõnel juhul saate töökäsule prognoosi ridu lisada või neid kustutada. Töö
 
 Alloleval kuvatõmmisel kuvatakse näidet tunni ja kauba registreeringutest töökäsul suvandis **Töökäsu töölehed**.
 
-![Joonis 1](media/01-consumption.png)
+![Joonis 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Töökäskude tundide eraldamine mitme töökäsu tööga
@@ -73,13 +73,13 @@ Kui töökäsk sisaldab mitut töökäsu tööd, saate registreerida töötunnid
 
 6. Sisestage väljale **Tunnid** eraldatavad töötunnid.
 
-    ![Joonis 2](media/02-consumption.png)
+    ![Joonis 2.](media/02-consumption.png)
 
 7. Klõpsake valikut **OK**.
 
 *Näide*: alloleval kuvatõmmisel kuvatakse töökäsu töölehe read, mis sisaldavad kolme töökäsu tööd. Esimene rida, mis sisaldab kolme töötundi, on eraldatud ja üks töötund on registreeritud iga töökäsu töö kohta. Pärast kolme tunni registreerimise rea loomist saate valida, mida teha algse tunni registreerimise reaga (näite esimene rida). Saate selle jätta selliseks nagu ta on või selle kustutada. 
 
-![Joonis 3](media/03-consumption.png)
+![Joonis 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Tarbimise registreerimiste finantsdimensioonid
 

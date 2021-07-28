@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103164"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359783"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Ostutellimuste sissetulevate koormate laohaldus
 
@@ -30,7 +30,7 @@ Iga sissetuleva koorma kohta peaks teie süsteem juba sisaldama seotud müügite
 
 Järgmisel joonisel on kujutatud tüüpilist kaubavoogu sissetulevate koormate käsitlemiseks, millel on ostutellimuse kogused, kui need saabuvad teie lattu.
 
-![Sissetuleva koorma haldusprotsess](media/inbound-process.png "Sissetuleva koorma haldusprotsess")
+![Sissetuleva koorma haldusprotsess.](media/inbound-process.png "Sissetuleva koorma haldusprotsess")
 
 1. **Hankija kinnitab ostutellimuse.**
 
@@ -293,7 +293,7 @@ Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevass
 
     Saate jätta kõik muud sätted nende vaikeväärtustele.
 
-    ![Mobiilse seadme menüükäsu sätted](media/inbound-mobile-menu-items.png "Mobiilse seadme menüükäsu sätted")
+    ![Mobiilse seadme menüükäsu sätted.](media/inbound-mobile-menu-items.png "Mobiilse seadme menüükäsu sätted")
 
     Lisateavet mobiilse seadme menüükäskude seadistamise kohta vt teemast [Mobiilsete seadmete seadistamine laotöö jaoks](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ Selles protseduuri käigus loote ostutellimuse ja seotud koorma käsitsi. Seejä
     - Kiirkaardil **Koorem** on välja **Koorma olek** väärtuseks seatud _Avatud_.
     - Jaotises **Koorma read** on üks rida, millel on välja **Kogus** väärtuseks seatud _10_ ja välja **Töö loodud kogus** väärtuseks on seatud _0_ (null).
 
-    ![Koormuse üksikasjad](media/inbound-load-details.png "Koormuse üksikasjad")
+    ![Koorma üksikasjad.](media/inbound-load-details.png "Koormuse üksikasjad")
 
 1. Tehke tegumiriba vahekaardil **Läheta ja võta vastu** valikud **Kinnita \> Sissetulev saadetis**. Pange tähele, et sätte **Koorma olek** väärtus on muutunud väärtuseks _Välja saadetud_.
 1. Tehke märge **Koorma ID** väärtuse kohta, et saaksite seda järgmises protseduuris kasutada.
@@ -422,7 +422,7 @@ Samuti saate teada, kuidas seada ostutellimuse rida nii, et saate vastu võtta k
 1. Tehke toimingupaani vahekaardil **Ostmine** valikud **Tegevused \> Kinnita**. Tellimuse olek on nüüd _Kinnitatud_.
 1. Tehke toimingupaani vahekaardil **Ladu** valikud **Tegevused \> Koorma planeerimise töölaud**.
 1. Tehke lehe **Koorma planeerimise töölaud** tegumiriba vahekaardil **Pakkumine ja nõudlus** valikud **Lisa \> Uude koormasse**.
-1. Seadke dialoogiboksis **Koorma malli määramine** välja **Koorma malli ID** väärtuseks _20' konteiner_. Muutke vahekaardil **Üksikasjad** välja **Kogus** väärtuseks  _5_ kuni _10_, et osaliselt lisada ostutellimuse rea kogus.
+1. Seadke dialoogiboksis **Koorma malli määramine** välja **Koorma malli ID** väärtuseks _20' konteiner_. Muutke vahekaardil **Üksikasjad** välja **Kogus** väärtuseks _5_ kuni _10_, et osaliselt lisada ostutellimuse rea kogus.
 1. Valige **OK**, et rakendada oma sätted ja sulgeda dialoogiboks.
 1. Teise koorma loomiseks korrake samme 8–10. Seekord peaks välja **Kogus** väärtus _5_ olema juba seatud.
 1. Valige lehe **Koorma planeerimise töölaud** ruudustikus **Koormad** välja **Koorma ID** väärtus esimese loodud koorma jaoks. Kuvatakse leht **Koorma üksikasjad** ja valitud koorem. Tehke järgmist.

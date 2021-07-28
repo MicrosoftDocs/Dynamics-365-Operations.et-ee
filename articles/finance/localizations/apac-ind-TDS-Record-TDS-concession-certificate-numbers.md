@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023166"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358382"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>TDS-i kontsessioonisertifikaadi numbrite kirjendamine
 
@@ -33,7 +33,7 @@ See teema kirjeldab, kuidas kirjendada mahaarvatud makseallika (TDS) kontsessioo
 2. Valige **Maksutüübi** väljal **TDS** et kirjendada TDS-maksutüübi kontsessiooniserdid.
 3. Vahekaardil **Ülevaade** valige rea loomiseks **Alt+N**.
 
-    [![Uue rea päis](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Uue rea päis.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. Väljal **Kinnipeetava maksu kood** valige TDS-maksukood, mille jaoks hankija kontsessioonisertifikaadid välja antakse. Sisestage väljale **Kinnipeetava maksu nimi** kinnipeetava maksu koodi nimi.
 5. Määratlege **Alates** ja **Kuni kuupäevani** kontsessiooniserdi kehtivuse periood, mis kasutab TDS-i maksukoodi hankija TDS-i kontsessiooni alusel arvutamiseks.
@@ -50,6 +50,6 @@ See teema kirjeldab, kuidas kirjendada mahaarvatud makseallika (TDS) kontsessioo
 
 11. Väljale **Sert** sisestage TDS-i kontsessiooniserdi number.
 
-    [![Serdi kiirkaart](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Serdi kiirkaart.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Sulgege leht.

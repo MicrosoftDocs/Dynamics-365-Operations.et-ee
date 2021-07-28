@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 42280c811e1f4ed5d33c66f5a8634417a61be905
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301325"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348825"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kvaliteedijuhtimine laoprotsesside jaoks
 
@@ -43,7 +43,7 @@ Funktsioon _Kvaliteedijuhtimine laoprotsesside jaoks_ loob automaatselt töö va
 
 Kui funktsioon _Kvaliteedijuhtimine laoprotsesside jaoks_ on sisse lülitatud, muudab see peamiste laohaldus- ja kvaliteedijuhtimise üksuste seadistust. Järgmisel joonisel on näha ülevaade üksustest, mis võimaldavad laoprotsesside jaoks kvaliteettellimusi luua. Sulgudes olev tekst näitab soovitatavaid tegevusi, kui kvaliteedijuhtimist rakendati enne funktsiooni _Kvaliteedijuhtimine laohaldusprotsesside jaoks_ sisselülitamist.
 
-![Kvaliteedijuhtimise üksused](media/quality-management-entity-diagram.png "Kvaliteedijuhtimise üksused")
+![Kvaliteedijuhtimise üksused.](media/quality-management-entity-diagram.png "Kvaliteedijuhtimise üksused")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Aktiveerijad: kauba kvaliteedivalimi ja kvaliteettellimuse töökäsu tüübid
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0015ca2ccbb0098a5a96bf56ff355fb2f9f8f626
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748919"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350907"
 ---
 # <a name="integrated-customer-master"></a>Integreeritud kliendi koondandmed
 
@@ -36,7 +36,7 @@ Kliendiandmeid saab luua rohkem kui ühes Dynamics 365 rakenduses. Näiteks klie
 
 *Klient* on rakendustes täpselt määratletud mõiste. Seetõttu hõlmab kliendiandmete integreerimine lihtsalt kliendikontseptsiooni ühtlustamist kahe rakenduse vahel. Järgmine illustratsioon näitab kliendiandmete voogu.
 
-![Kliendiandmete voog](media/dual-write-customer-data-flow.png)
+![Kliendiandmete voog.](media/dual-write-customer-data-flow.png)
 
 Kliente saab laias laastus liigitada kahte tüüpi: äri-/organisatsioonikliendid ning tarbijad/lõppkasutajad. Neid kahte tüüpi kliente talletatakse ja käsitletakse rakendustes Finance and Operations ja Dataverse erinevalt.
 

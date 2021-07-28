@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 9f3bfe950446a6e87e34c32d2593cba0af84d8e8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fd0a9b10f86699739fb529487cee124f99a0175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838977"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356971"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5838977"
 
 Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude korrigeerimiste ja üleviimiste sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
 
-[![Äriprotsesside sünkroonimine rakenduste Supply Chain Management ja Field Service vahel](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
+[![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel.](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 Varude korrigeerimiste ja üleviimiste sünkroonimiseks rakendusest Field Service rakendusse Supply Chain Management kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
@@ -72,12 +72,12 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Varude korrigeerimine (rakendusest Field Service rakendusse Supply Chain Management): varude korrigeerimine
 
-[![Malli vastendamine andmete integratsioonis](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Malli vastendamine andmete integratsioonis.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Varude üleviimine (rakendusest Field Service rakendusse Supply Chain Management): Varude üleviimine
 
-[![Malli vastendamine andmete integratsioonis](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Malli vastendamine andmete integratsioonis.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

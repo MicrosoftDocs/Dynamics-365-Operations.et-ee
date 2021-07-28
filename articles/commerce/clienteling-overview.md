@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937008"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352684"
 ---
 # <a name="clienteling-overview"></a>Kliendisuhtluse ülevaade
 
@@ -68,7 +70,7 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
 
 1. **Funktsioonide halduse** tööruumis filtreerige funktsioone rakenduse **Retail and Commerce** moodulis.
 
-    ![Klientuur Commerce'i mooduli funktsioonide loendis](./media/Enable_clienteling.png "Klientuur Retail and Commerce'i mooduli funktsioonide loendis")
+    ![Klientuur Commerce'i mooduli funktsioonide loendis.](./media/Enable_clienteling.png "Klientuur Retail and Commerce'i mooduli funktsioonide loendis")
 
 2. Lülitage sisse **Klientuuri** funktsioon, valides **Luba kohe.**
 3. Lehe **Commerce'i parameetrid** vahekaardil **Numbriseeria** valige rida **Kliendi raamatu ID**. Seejärel sisestage numbriseeria kood väljale **Numbriseeria kood**. Süsteem kasutab seda numbriseeriat, et määrata kliendi raamatutele ID.
@@ -83,7 +85,7 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
 
 6. Valige lehe **Commerce'i parameetrid** vahekaardi **Klientuur** väljal **Kliendi raamatu atribuudirühm** äsjaloodud atribuudirühm.
 
-    ![Valitud kliendi raamatu atribuudirühm](./media/Client%20book%20attributes.png "Valitud kliendi raamatu atribuudirühm")
+    ![Valitud kliendi raamatu atribuudirühm.](./media/Client%20book%20attributes.png "Valitud kliendi raamatu atribuudirühm")
 
 7. POS-is toimuvate tegevuste hõivamiseks määratlege tegevuse tüübid lehel **Tegevuse tüübid** (**Jaemüük ja kaubandus \> Kliendid \> Tegevuse tüübid**).
 
@@ -95,7 +97,7 @@ Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
 
 Kui olete selle protseduuri lõpetanud, saavad sidusettevõtted avada kliendi üksikasjade lehe kassas ja lisada kliendid oma kliendi raamatusse, vaadata ja jäädvustada klientide tegevusi ja märkmeid ning suunata kliente, kasutades kliendi ja kliendiraamatu atribuute, et filtreerida kliendiraamatut. Järgmisel joonisel on toodud kliendi raamatu näide.
 
-![Kliendi raamatu näide](./media/client_book.png "Kliendi raamatu näide")
+![Kliendi raamatu näide.](./media/client_book.png "Kliendi raamatu näide")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Customer Insightsi integreerimise sisselülitamine Commerce'iga
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023190"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349924"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Kinnipeetava maksu koodide häälestamine TDS-i maksutüübi jaoks
 
@@ -31,7 +31,7 @@ See teema kirjeldab, kuidas tasakaalustada allikas (TDS) mahaarvatud perioodilis
 
 1. Avage **Maks \> Kaudsed maksud \> Kinnipeetav maks \> Kinnipeetava maksu koodid**.
 
-    [![Kinnipeetava maksu koodide leht](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![Kinnipeetava maksu koodide leht.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. Tegevuspaanil valige **Uus** TDS-ile kinnipeetava maksu grupi loomiseks ja sisestage nõutavad üksikasjad.
 3. Väljal **Üldine** kiirkaardil **Maksu tüüp** valige **TDS** maksukood, et maksukoodi liigitada.

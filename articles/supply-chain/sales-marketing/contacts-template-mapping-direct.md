@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908104"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355921"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega
 
@@ -38,7 +38,7 @@ Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatak
 
 Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsiooni andmete sünkroonimiseks rakenduste Supply Chain Management ja Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Supply Chain Management ja Sales. Järgmine illustratsioon näitab, kuidas sünkroonitakse andmeid rakenduste Supply Chain Management ja Sales vahel.
 
-[![Andmevoog lahenduses Potentsiaalne klient sularahaks](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Andmevoog lahenduses Potentsiaalne klient sularahaks.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
@@ -119,11 +119,11 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 ### <a name="contact-to-contact"></a>Kontakt kontaktiga
 
-![Malli vastendamine andmeintegraatoris](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Malli vastendamine andmeintegraatoris.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>Kontakt kliendiga
 
-![Malli vastendamine andmeintegraatoris](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Malli vastendamine andmeintegraatoris.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Seotud dokumendid

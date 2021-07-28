@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b59be8b395826914e8196009c339c2ced5a4debf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818302"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348881"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>KM/GST-süsteemi pöördmaksustamise mehhanism
 
@@ -121,7 +121,7 @@ Pöördmaksuga ostuarve sisestamisel luuakse kaks käibemaksukannet. Ühel kande
 
 Järgneval kuvatõmmisel on ühe kande suund **Saadaolev käibemaks** ja teise kande suund **Tasumisele kuuluv käibemaks**. 
 
-![Sisestatud käibemaks](media/apac-sau-posted-sales-tax.png)
+![Sisestatud käibemaks.](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>KM-/GST-skeemi jaoks pöördkäibemaksu mehhanismi funktsiooni lubamine
 Leidke tööruumis **Funktsioonihaldus** funktsioon ja valige suvand **Luba**.

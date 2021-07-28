@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795377"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357758"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Luba "osta sarnaseid" soovitused
 
@@ -68,7 +68,7 @@ Et soovitusmootor pääseks juurde tootepiltidele, peavad jaemüüjad looma toot
 
 Järgmisel illustratsioonil on näha funktsioon **Sarnaste toodete vaatamine** Commerce'i peakontori lehel **Funktsioonihaldus**.
 
-![Sarnaste toodete vaatamise funktsioon Commerce'i peakontori funktsioonihalduse lehel](./media/enableshopsimilarlooks.png)
+![Sarnaste toodete vaatamise funktsioon Commerce'i peakontori Feature management lehel.](./media/enableshopsimilarlooks.png)
 
 Kui eelmised ülesanded on lõpule viidud, täiendatakse kassaterminale automaatselt kontekstilise paneeliga **Sarnaste toodete ostmine**. Valides suvandi **Vaata lisa**, saavad kassaterminali kasutajaid avada spetsiaalse „sarnaste toodete vaatamise” lehe, mida saab veelgi filtreerida.
 
@@ -88,7 +88,7 @@ Et lisada nupp **Vaata sarnaseid tooteid** toote üksikasjade lehele Commerce'i 
 
 Järgmisel illustratsioonil on näha saidiehitajas toodete üksikasjade näidislehel märkeruut **Luba sarnaste toodete vaatamise link** ja nupp **Vaata sarnaseid tooteid**.
 
-![Saidiehitajas toote üksikasjade lehel olev märkeruut „Luba sarnaste toodete vaatamise link” ja nupp „Vaata sarnaseid tooteid”](./media/SSLecomtooling.png)
+![Luba PDP saidiehitajas toote üksikasjade lehel olev märkeruut „Luba sarnaste toodete vaatamise link”.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

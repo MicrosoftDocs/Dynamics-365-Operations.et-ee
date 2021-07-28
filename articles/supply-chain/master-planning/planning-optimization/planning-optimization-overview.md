@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5ecfa8ac4db050ee1e38f3b420d81beba19b9409
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9b55a48847e9c6201e7a93a2fb5d6622b581d785
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812951"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354709"
 ---
 # <a name="planning-optimization-overview"></a>Planeerimise optimeerimise ülevaade
 
@@ -33,7 +33,7 @@ Planeerimise optimeerimise kasutamiseks peate installima planeerimise optimeerim
 
 Järgmisel joonisel on näha planeerimise optimeerimise kontoris viibimise ajal käivitamise eelis.
 
-![Planeerimise optimeerimise kontoris viibimise ajal käitamise eelis](media/PlanningOptimization1.png)
+![Planning Optimization`i tööajal käitamise eelis.](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Parem jõudlus
 
@@ -62,11 +62,11 @@ Kui planeerimise optimeerimise lisandmoodul desinstallitakse, eemaldatakse kõik
 
 Järgmine illustratsioon näitab andmevoogu.
 
-![Andmevoog taasloomise käivitusteks](media/PlanningOptimization2.png)
+![Andmevoog taasloomise käivitusteks.](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>Seotud ressursid
 
-[Planeerimise optimiseerimise kasutamise alustamine](get-started.md)
+[Planeerimise optimeerimise kasutamise alustamine](get-started.md)
 
 [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
 

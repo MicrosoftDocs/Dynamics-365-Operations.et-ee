@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837941"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360121"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Varahalduse mobiilse tööruumi kasutamine
 
@@ -60,7 +60,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
-    ![Tööruumi valimine](media/am-mobile-01.png "Tööruumi valimine")
+    ![Tööruumi valimine.](media/am-mobile-01.png "Tööruumi valimine")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Määratud töökäsu tööde vaatamine kalendrivaates
 
@@ -72,7 +72,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Valige loendist töökäsu töö, et näha töödetaile: vara ja töö asukoha üksikasju, samuti muid navigeerimislinke, et vaadata **Manuseid**, **Kontrollnimekirju**, **Tööriistu**, **Varaloendureid**, **Märkmeid**, **Töölehti**.
 
-    ![Määratud töökäsu tööde vaatamine kalendrivaates](media/am-mobile-02.png "Määratud töökäsu tööde vaatamine kalendrivaates")
+    ![Määratud töökäsu tööde vaatamine kalendrivaates.](media/am-mobile-02.png "Määratud töökäsu tööde vaatamine kalendrivaates")
 
 ## <a name="create-a-work-order-job"></a>Töökäsu töö loomine
 
@@ -90,7 +90,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Valige suvand **Valmis**.
 
-    ![Kuva Lisa rida](media/am-mobile-03.png "Kuva Lisa rida")
+    ![Kuva Lisa rida.](media/am-mobile-03.png "Kuva Lisa rida")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Töökäsu tööle manuse lisamine
@@ -112,7 +112,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Valige suvand **Valmis**.
 
-    ![Töökäsu töö manuste vaatamine ja nende lisamine](media/am-mobile-04.png "Töökäsu töö manuste vaatamine ja nende lisamine")
+    ![Töökäsu töö manuste vaatamine ja nende lisamine.](media/am-mobile-04.png "Töökäsu töö manuste vaatamine ja nende lisamine")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Töökäsu töö hoolduse kontrollnimekirja kuvamine
 
@@ -129,7 +129,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Valige eelmisele lehele naasmiseks nupp tagasi (**<**).
 
-    ![Hoolduse kontrollnimekiri ja rea üksikasjad](media/am-mobile-05.png "Hoolduse kontrollnimekiri ja rea üksikasjad")
+    ![Hoolduse kontrollnimekiri ja rea üksikasjad.](media/am-mobile-05.png "Hoolduse kontrollnimekiri ja rea üksikasjad")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Töökäsu tööde varaloendurite vaatamine ja uuendamine
 
@@ -146,7 +146,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Sisestage uus loenduri väärtus ja valige **Valmis**.
 
-    ![Varaloendurite vaatamine ja uuendamine](media/am-mobile-06.png "Varaloendurite vaatamine ja uuendamine")
+    ![Varaloendurite vaatamine ja uuendamine.](media/am-mobile-06.png "Varaloendurite vaatamine ja uuendamine")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Töökäsu töö tarbimise registreerimine
 
@@ -178,7 +178,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
     1. Kulu registreerimiseks sisestage **Kulu hind**.
     1. Valige suvand **Valmis**.
 
-    ![Töökäsu töölehe uuendamine](media/am-mobile-07.png "Töökäsu töölehe uuendamine")
+    ![Töökäsu töölehe uuendamine.](media/am-mobile-07.png "Töökäsu töölehe uuendamine")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Töökäsu töötsükli oleku värskendamine
 
@@ -194,7 +194,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Valige suvand **Valmis**.
 
-    ![Töökäsu töötsükli oleku värskendamine](media/am-mobile-08.png "Töökäsu töötsükli oleku värskendamine")
+    ![Töökäsu töötsükli oleku värskendamine.](media/am-mobile-08.png "Töökäsu töötsükli oleku värskendamine")
 
 ## <a name="create-a-maintenance-request"></a>Hooldusnõude loomine
 
@@ -216,7 +216,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Valige suvand **Valmis**.
 
-    ![Hooldusnõude loomine](media/am-mobile-09.png "Hooldusnõude loomine")
+    ![Hooldusnõude loomine.](media/am-mobile-09.png "Hooldusnõude loomine")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Manuse lisamine hooldusnõudele
 
@@ -236,7 +236,7 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
 1. Valige suvand **Valmis**.
 
-    ![Manuse lisamine hooldusnõudele](media/am-mobile-10.png "Manuse lisamine hooldusnõudele")
+    ![Manuse lisamine hooldusnõudele.](media/am-mobile-10.png "Manuse lisamine hooldusnõudele")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

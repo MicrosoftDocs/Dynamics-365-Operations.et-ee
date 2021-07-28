@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936826"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346824"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisu edastamise võrgu (CDN) toe lisamine
 
@@ -74,11 +74,11 @@ Azure’i sisenemispunkti teenuses tagaserverite kausta konfigureerimiseks järg
 
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiboks **Lisa tagaserver**, millesse on sisestatud tagaserveri hosti nimi.
 
-![Tagaserveri dialoogiakna lisamine](./media/CDN_BackendPool.png)
+![Tagaserveri dialoogiakna lisamine.](./media/CDN_BackendPool.png)
 
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiboks **Lisa tagaserverite kaust** koos koormuse tasakaalustamise vaikeväärtustega.
 
-![Jätkuv tagaserveri dialoogiboksi lisamine](./media/CDN_BackendPool_2.png)
+![Jätkuv tagaserveri dialoogiboksi lisamine.](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Keelake kindlasti **tervisekontrollid** rakenduse Commerce Azure Front Door teenuse häälestamisel.
@@ -107,13 +107,13 @@ Kui teie domeen on uus ja ei ole olemasolev kasutatav domeen, saate lisada oma k
 
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiaken **Konfiguratsioon CNAME**.
 
-![Dialoogiaken Konfiguratsioon CNAME](./media/CNAME_Configuration.png)
+![Dialoogiaken Konfiguratsioon CNAME.](./media/CNAME_Configuration.png)
 
 Saate kasutada Azure’i sisenemispunkti teenust serdi haldamiseks või saate kasutada oma kohandatud domeeni serti.
 
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiaken **Kohandatud domeeni HTTPS**.
 
-![Dialoogiaken Kohandatud domeeni HTTPS](./media/Custom_Domain_HTTPS.png)
+![Dialoogiaken Kohandatud domeeni HTTPS.](./media/Custom_Domain_HTTPS.png)
 
 Üksikasjalikku teavet kohandatud domeeni lisamise kohta oma Azure'i sisenemispunkti leiate teemast [Kohandatud domeeni lisamine sisenemispunkti](/azure/frontdoor/front-door-custom-domain).
 

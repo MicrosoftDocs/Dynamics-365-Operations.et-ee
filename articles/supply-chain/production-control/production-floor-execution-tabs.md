@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814676"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347658"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese kujundamine
 
@@ -32,7 +32,7 @@ Lehel **Tootmisosakonna käivituse konfigureerimine** saate luua ja konfigureeri
 
 Iga vahekaart on jagatud neljaks osaks, nagu on näha järgmisel joonisel.
 
-![Vahekaardi paigutus](media/pfe-tab-layout.png "Vahekaardi paigutus")
+![Vahekaardi paigutus.](media/pfe-tab-layout.png "Vahekaardi paigutus")
 
 Joonisel kuvatakse järgmised elemendid.
 
@@ -47,7 +47,7 @@ Uue vahekaardi loomiseks ja konfigureerimiseks toimige järgmiselt.
 
 1. Lehe **Vahekaartide kujundamine** avamiseks valige toimingupaanil **Vahekaartide kujundamine**.
 
-    ![Vahekaartide kujundamise leht](media/pfe-design-tabs.png "Vahekaartide kujundamise leht")
+    ![Vahekaartide kujundamise leht.](media/pfe-design-tabs.png "Vahekaartide kujundamise leht")
 
 1. Valige Toimingupaanil suvand **Uus**.
 
@@ -67,7 +67,7 @@ Kui olete kõik vajalikud vahekaardid loonud, saate need konfiguratsiooniga seos
 
 1. Avage **Tootmise juhtimine \> Seadistus \> Tootmise käivitamine \> Tootmisosakonna käivituse konfigureerimine**.
 
-    ![Tootmisosakonna käitus](media/pfe-config-prod-floor-execution.png "Tootmisosakonna käitus")
+    ![Tootmisosakonna käivituse konfigureerimine.](media/pfe-config-prod-floor-execution.png "Tootmisosakonna käitus")
 
 1. Valige kiirkaardil **Vahekaartide valimine** käsk **Lisa**.
 

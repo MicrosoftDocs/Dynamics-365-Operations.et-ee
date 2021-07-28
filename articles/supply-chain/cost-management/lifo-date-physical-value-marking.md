@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821533"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344564"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märgistusega
 
@@ -55,7 +55,7 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 
 Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 15,00 USD juures 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO kuupäev mõju, kui valikut **Kaasa füüsiline väärtus** ei kasutata. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus](./media/lifodatewithoutincludephysicalvalue.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO kuupäev mõju, kui valikut **Kaasa füüsiline väärtus** ei kasutata. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -90,7 +90,7 @@ Alloleval joonisel on kuvatud järgmised kanded.
 
 Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 20,00 USD juures 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus](./media/lifodatewithincludephysicalvalue.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -136,7 +136,7 @@ Alloleval joonisel on kuvatud järgmised kanded.
 
 Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USD. 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse väljastuste ja sissetulekute omavahelist märkimist. ![LIFO kuupäev valikuga Märkus](./media/lifodatewithmarking.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse väljastuste ja sissetulekute omavahelist märkimist. ![LIFO kuupäev valikuga Märkus.](./media/lifodatewithmarking.gif) 
 
 **Diagrammi võti**
 

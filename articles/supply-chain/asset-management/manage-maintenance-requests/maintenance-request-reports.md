@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0057d1a2dc00cef2474bc77b76af0d2e2b783d0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdc345ca3bdf227e5543a6f1178e6bbe2a5f7f78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839651"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345352"
 ---
 # <a name="maintenance-request-reports"></a>Kataloogihoolduse nõude üksikasjad
 
@@ -41,7 +41,7 @@ Aruandes **Hooldustaotluse üksikasjad** kuvatakse mitmesugused hooldustaotluste
 
 Järgnev illustratsioon näitab aruande **Hooldustaotluse üksikasjade** näidet.
 
-![Hooldusnõuete üksikasjade aruanne](media/09-manage-maintenance-requests.png)
+![Hooldusnõuete üksikasjade aruanne.](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Looge hooldusnõuete loendi aruanne
 
@@ -54,7 +54,7 @@ Aruanne **Hooldustaotluse loend** kuvatakse kõigi sama taotlusetüübi hooldust
 
 Järgnev illustratsioon näitab kõigi hooldustaotluste aruande **Hooldustaotluse loend** näidet.
 
-![Hooldusnõuete loendi aruanne](media/10-manage-maintenance-requests.png)
+![Hooldusnõuete loendi aruanne.](media/10-manage-maintenance-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356121"
 ---
 # <a name="revenue-recognition-reallocation"></a>Tulu tuvastamise ümberjaotamine
 
@@ -48,7 +48,7 @@ Kuna ümberjaotamist saab teha müügitellimusel, mis on osaliselt või täielik
 
 Iga organisatsioon peab ise otsustama, kas korrigeerimisega uuendatakse ainult pearaamatut või ka müügireskontrot. Langetatav otsus määrab, milline on lehe **Pearaamatu parameetrid** vahekaardi **Tulu tuvastamine** suvandi **Arvete korrigeerimiste sisestamine müügireskontrole ümberjaotamisel** kohane säte (**Tulu tuvastamine \> Häälestamine \> Pearaamatu parameetrid**). Kohane säte sõltub konkreetsest stsenaariumist. Lisateavet võimalike stsenaariumite kohta leiate käesolevas teemas allpool jaotises [Ümberjaotamise stsenaariumid](#scenarios-for-reallocation) olevate linkide kaudu.
 
-[![Tulu tuvastamise vahekaart pearaamatu parameetrite lehel](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Tulu tuvastamise vahekaart pearaamatu parameetrite lehel.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Kui suvand **Arvete korrigeerimiste sisestamine müügireskontrole** on määratud olekusse **Jah**, on ümberjaotamise protsessil järgmised tulemused.
 
@@ -76,7 +76,7 @@ Nagu eelnevalt mainitud, saate kas uuendada ainult pearaamatut või uuendada nii
 
 Ümberjaotamise protsessi alustamiseks valige **Hinna ümberjaotamine uute tellimuse ridadega** mis tahes müügitellimuses, mis on tarvis ümber jaotada. Teise variandina võite avada **Tulu tuvastamine \> Perioodilised ülesanded \> Hinna ümberjaotamine uute tellimuse ridadega** ja sisestada kohased filtrid, näiteks kliendi konto.
 
-[![Leht Hinna ümberjaotamine uute tellimuse ridadega](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Leht Hinna ümberjaotamine uute tellimuse ridadega.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 Lehe **Hinna ümberjaotamine uute tellimuse ridadega** ülemise ruudustiku nimi on **Müük**. Selles loetletakse kliendi müügitellimused. Valige müügitellimused, mis tuleb ümber jaotada. Projekti müügitellimusi ei saa valida, kuna projekti müügitellimusi ei saa ümber jaotada. Samuti ei saa te valida müügitellimusi, millel juba on ümberjaotamise ID, kuna projektiväliseid müügitellimusi saab ümber jaotada ainult üks kord. Kui müügitellimusel on ümberjaotamise ID, on teine kasutaja selle juba ümberjaotamisele märkinud.
 
@@ -86,11 +86,11 @@ Kui olete vajalike müügitellimuse ridade valimise lõpetanud, kasutage toiming
 
 - **Uuenda ümberjaotamist** – valitud müügitellimuse ridadele uute tulu hinna summade arvutamine. Kui rida eemaldati või tühistati, tehakse ümberjaotamine ainult teie valitud olemasolevatele ridadele. Järgmisel joonisel on toodud näide müügitellimuse ridadest enne ümberjaotamise uuendamist.
 
-    [![Müügitellimuse read enne ümberjaotamise uuendamist](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Müügitellimuse read enne ümberjaotamise uuendamist.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Uued tulu hinna summad kuvatakse ruudustiku **Read** veerus **Ümberjaotud summa**. Selles etapis on ümberjaotamine töödeldud, kuid see on veel arvutamata. Järgmisel joonisel on toodud näide müügitellimuse ridadest pärast ümberjaotamise uuendamist.
 
-    [![Müügitellimuse read pärast ümberjaotamise uuendamist](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Müügitellimuse read pärast ümberjaotamise uuendamist.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **Töötle** – ümberjaotatud tulu hindade töötlemine või sisestamine. Pärast selle nupu klõpsamist ei saa ümberjaotamist enam mingil viisil tagasi võtta. Kui te ei valinud enne nupu **Töötle** klõpsamist **Uuenda ümberjaotamist**, käivitatakse ümberjaotamine automaatselt.
 
@@ -100,7 +100,7 @@ Kui olete vajalike müügitellimuse ridade valimise lõpetanud, kasutage toiming
 - **Eeldatav kanne** – kõigi arveldatud müügitellimuse ridade jaoks loodud raamatupidamiskirjete eelversiooni kuvamine. Kui ühtegi rida pole arveldatud, ei kuvata midagi. Kui te ei valinud enne nupu **Eeldatav kanne** klõpsamist **Uuenda ümberjaotamist**, käivitatakse ümberjaotamine automaatselt.
 - **Tulu ümberjaotamine** – kõigi valitud ridade tulu hinna eraldamist näitava lehe avamine. Lehel olevat teavet ei saa muuta. See näitab ümberjaotamiseks kasutatud rea summasid.
 
-    [![Ümberjaotamiseks kasutatud rea summad](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Ümberjaotamiseks kasutatud rea summad.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Lähtesta valitud kliendi andmed** – kui ümberjaotamise protsess käivitati, kuid seda ei viidud lõpule, kustutage ainult valitud kliendi ümberjaotamise tabelis olevad andmed. Näiteks kui märgite ümberjaotamiseks mitu müügitellimuse rida, jätate lehekülje avatuks ilma nupul **Töötle** klõpsamata ja seejärel lehekülg aegub. Sellisel juhul jäävad müügitellimuse read märgituks ja pole teisele kasutajale ümberjaotamise protsessi lõpule viimiseks kättesaadavad. Avamisel võib leht isegi tühi olla. Sellises olukorras saab nupuga **Lähtesta valitud kliendi andmed** töötlemata müügitellimused kustutada, et teine kasutaja saaks ümberjaotamise protsessi lõpule viia.
 

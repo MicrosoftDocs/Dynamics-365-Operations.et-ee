@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354949"
 ---
 # <a name="cost-and-date-control"></a>Kulu ja kuupäeva juhtelementi
 
@@ -58,7 +58,7 @@ Varade, funktsionaalsete asukohtade ja töökäskude kohta tehtud arvutused on p
 
     Alloleval joonisel kuvatakse näidet dialoogiboksist **Vara kulu juhtelement**.
 
-    ![Dialoogiboks Vara kulu juhtimine](media/01-controlling-and-reporting.png)
+    ![Dialoogiboks Vara kulu juhtimine.](media/01-controlling-and-reporting.png)
 
 10. Klõpsale lehe **Vara kulu juhtimine** jaotise **Grupeerimisalus** nuppe, et näidata arvutuse nõutavat üksikasjalikku taset. Valitud nupud **Rühmitusalus** on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
@@ -71,7 +71,7 @@ Alloleval kuvatõmmisel kuvatakse näidet arvutuse tulemustest dialoogiboksis **
 - Väljal **Avatud kooskõlastatud kulu** kuvatakse kohustused maksta kaupade, tundide ja teenuste eest, mille olete tellinud või saanud, kuid mille eest pole veel maksnud. 
 - Kui kõik tarbimise registreeringud on sisestatud, kuvatakse seotud kulud väljal **Tegelik kulu**.
 
-![Arvutustulemuste näide lehel vara kulu juhtimine](media/02-controlling-and-reporting.png)
+![Arvutustulemuste näide lehel vara kulu juhtimine.](media/02-controlling-and-reporting.png)
 
 Teine viis kulu juhtelemendi loomiseks on teha mitmikvalik varadele suvandis **Kõik varad** või **Aktiivsed varad**. Seejärel klõpsake nupule **Kulu juhtelement** vahekaardil **Üldine**. Dialoogiboksis **Vara kulu juhtelement** valitud varad sisestatakse automaatselt väljale **Vara** vahekaardil **Kaasatavad kirjed**. Klõpsake **OK** ja kuvatakse kulu arvutus valitud varade kohta. Sama protseduuri saab teha funktsionaalsete asukohtade puhul väljades **Kõik funktsionaalsed asukohad** või **Aktiivsed funktsionaalsed asukohad** ja ktöökäskude puhul väljades **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
@@ -99,7 +99,7 @@ Alloleval kuvatõmmisel kuvatakse näide arvutustulemuste kohta dialoogiboksis *
 - Väljal **Keskm. alguse hilinemine** kuvatakse erinevus töökäsu plaanitud lõppkuupäeva ja tegeliku lõppkuupäeva vahel. Näiteks kui tegelik lõppkuupäev oli kolm päeva pärast plaanitud lõppkuupäeva, kuvatakse sellel väljal "3".  
 - Väljal **Esinemiskorrad** kuvatakse kõrvalekallete arv seoses töökäsu plaanitud ja tegelike alguskuupäevadega ning plaanitud ja tegelike lõppkuupäevadega.
 
-![Arvutustulemuste näide lehel Töökäsu kuupäeva juhtimine](media/03-controlling-and-reporting.png)
+![Arvutustulemuste näide lehel Töökäsu kuupäeva juhtimine.](media/03-controlling-and-reporting.png)
 
 
 

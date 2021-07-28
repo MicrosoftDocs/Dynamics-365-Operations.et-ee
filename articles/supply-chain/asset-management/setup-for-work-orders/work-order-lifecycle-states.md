@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 04e0bb3b1b99299c344a393e72cbe6f380e380af
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5facd333c9a76f391b36de71fa3a8e276fe2583f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350614"
 ---
 # <a name="work-order-lifecycle-states"></a>Töökäsu elutsükli olekud
 
@@ -35,7 +35,7 @@ Töökäsu töötsüklite olekud, mis on vajalikud teie tööolekute jaoks, tule
 
 Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik** kiirkaardil **Üldine** lehel **Töökäsu töötsükliolek** lehel (**Varahaldus** \> **Seadistus** \> **Töökäsud** \> **Töötsükli olekud**).
 
-![Töökäsu töötsükli oleku leht](media/09-setup-for-work-orders.png)
+![Töökäsu töötsükli oleku leht.](media/09-setup-for-work-orders.png)
 
 | Valiku nimi                   | Kirjeldus |
 |-------------------------------|-------------|
@@ -74,7 +74,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
 10. Seadke jaotises **Projekt** valik **Sule tegevused** väärtuseks **Jah**, kui projekti tegevused, mis on seotud iga töökäsu tööga, tuleb automaatselt sulgeda, kui töö tellimus on selles töötsükli olekus.
 
     > [!NOTE]
-    > Töötellimuse tööga seotud projekti tegevuse numbri leidmiseks valige **Varahaldus** \> **Ühised** \> **Töökäsudt** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**. Avage töökäsk ja valige töökäsu töö. Tegevuse number kuvatakse väljal  **Aktiivsuse number** jaotises **Projekt** kaardil **Üldine** kiirkaardil **Rea üksikasjad**.
+    > Töötellimuse tööga seotud projekti tegevuse numbri leidmiseks valige **Varahaldus** \> **Ühised** \> **Töökäsudt** \> **Kõik töökäsud**, **Aktiivsed töökäsud** või **Minu aktiivsed töökäsud**. Avage töökäsk ja valige töökäsu töö. Tegevuse number kuvatakse väljal **Aktiivsuse number** jaotises **Projekt** kaardil **Üldine** kiirkaardil **Rea üksikasjad**.
 
 11. Seadke jaotises **Prognoos** valik **Kopeeri tundide prognoos**, **Kopeeri kauba prognoos** ja/või **Kopeeri kulude prognoos** väärtusele **Jah**, kui tööoleku projekti prognoosid kopeeritakse tööoleku töölehtedesse automaatselt, kui tööolek on selles töötsükli olekus.
 12. Seadke jaotises **Graafik** üks valikutest väärtusele **Jah**, kui töökäsu tööde graafiku olekut tuleb uuendada, kui töökäsk on selles töötsükli olekus. Valikute **Valmis**, **Alusta**, **Lõpeta** ja **Kustuta graafikuread** kirjeldusi vt selles teemas eelnevalt toodud tabelist.
@@ -93,7 +93,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
     - Kui suvandi **Hoolduse seisakud** väärtuseks on **Jah** töötsükli olekus, millesse töötkäsk on uuendatud, tehakse hoolduse seisakute kinnitamine töökäsuga seotud vara puhul. Kui hoolduse seisakute registreerimine on tehtud, kuid pole **Lõpetatud** registreerimist, kuvatakse teade, kui töökäsku värskendatakse selle elutsükli olekusse.
     - Kui standardse projekti seadistamine ei sisalda kõiki teie varahalduse seadistuse jaoks nõutud etappe, saate seadistada kasutaja määratletud projektietapid vahekaardil **Projektietapp** lehel **Projektijuhtimise ja raamatupidamise parameetrid**. Järgmisel illustratsioonil kuvatakse vahekaart **Projektietapp** lehel **Projektijuhtimise ja raamatupidamise parameetrid**.
 
-    ![Leht projektietappide häälestamiseks eri projektitüüpide puhul](media/10-setup-for-work-orders.png)
+    ![Leht projektietappide häälestamiseks eri projektitüüpide puhul.](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Kui töötsükli olek, mille värskendate töökäsuks on passiivne, kustutatakse töökäskudega seotud töölehed, kuid see pole veel sisestatud. Selline käitumine aitab tagada kasutamata teabe automaatse puhastamise. (Töötsükli olek on passiivne, kui selle suvand **Aktiivne** on seatud väärtusele **Ei** kiirkaardil **Üldine** lehel **Töökäsu töötsükli olek**.)
@@ -111,7 +111,7 @@ Tüüpide kasutamise põhjus on, et kui tüüp on määratletud näiteks töök�
 
 Järgmine illustratsioon näitab seost töökäskude tüüpide, töötsükli mudelite ja töötsükliolekute vahel.
 
-![Töökäsu tüübi lehe ja töökäsu töötsükli mudelite lehe võrdlus](media/11-setup-for-work-orders.png)
+![Töökäsu tüübi lehe ja töökäsu töötsükli mudelite lehe võrdlus.](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Töökäsu töötsükli mudelid
 
@@ -126,16 +126,16 @@ Pärast seda, kui olete loonud oma töökäskude jaoks nõutavad tääkäsu tö�
 
 5. Kiirkaardil **Elutsükli olekud** valige need elutsükli olekud, mis tuleks elutsükli mudelisse kaasata.
 
-    - Elutsükli oleku lisamiseks elutsükli mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** seejärel valige ![paremnool,](media/12-setup-for-work-orders.png) et teisaldada see jaotisesse **Valitud elutsükli olekud**.
-    - Et lisada kõik saadaolevad elutsükli olekud elutsükli mudelisse valige nupp **Vali kõik saadaolevad etapid** ![Vali kõik saadaolevad etapid](media/13-setup-for-work-orders.png). Kõik elutsükli olekud teisaldatakse jaotisesse **Valitud elutsükli olekud**.
-    - Elutsükli oleku eemaldamiseks elutsükli mudelist valige see jaotises **Valitud elutsükli olekud** ja seejärel valige ![vasaknool,](media/14-setup-for-work-orders.png) et teisaldada see jaotisesse **Järelejäänud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks elutsükli mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige paremnool ![paremnool.](media/12-setup-for-work-orders.png) et teisaldada see valitud jaotisesse **Elutsükli valitud olekud**.
+    - Et lisada kõik saadaolevad elutsükli olekud elutsükli mudelisse valige **Vali kõik saadaolevad etapid** nupp ![Vali kõik saadaolevad etapid.](media/13-setup-for-work-orders.png). Kõik elutsükli olekud teisaldatakse jaotisesse **Valitud elutsükli olekud**.
+    - Elutsükli oleku lisamiseks elutsükli mudelisse, valige see jaotises **Järelejäänud elutsükli olekud** ja seejärel valige paremnool ![paremnool.](media/14-setup-for-work-orders.png) et teisaldada see valitud jaotisesse **Elutsükli järelejäänud olekud**.
 
 6. Valige **Töötsükli oleku värskendused**, et määratleda, millised töötsükli olekud saavad valitud töötsükli olekut järgida.
 7. Valige kiirkaardi **Uuendused** väljal **Plaanitud olek** töötsükli olek, mis tuleks alati valida töökäsule, mille jaoks olete lõpetanud töökäsu planeerimise, sõltumata töökäsu eelnevast töötsükli olekust.
 8. Valige väljal **Plaanimata töötsükli olek** töötsükli olek, mis tuleks töökäsule alati valida, kui töökäsu graafik on kustutatud.
 9. Salvestage töökäsu töötsükli mudel.
 
-![Töökäsu töötsükli mudelite leht](media/15-setup-for-work-orders.png)
+![Töökäsu töötsükli mudelite leht.](media/15-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

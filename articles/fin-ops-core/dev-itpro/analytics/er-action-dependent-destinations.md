@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358665"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Tegevusest sõltuvate ER-i sihtkohtade konfigureerimine
 
@@ -69,11 +69,11 @@ Näiteks saate kasutada ER-vormingut **Vabas vormis arve (Excel)**, et selle sis
 
 Järgmises näites on näidatud, kuidas saavutada seda ER-i sihtkohtade konfigureerimist individuaalsete sihtkoha kirjete komplektina, kui iga kirje konfigureeritakse individuaalse kasutaja tegevuse jaoks.
 
-![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe kasutaja tegevuse jaoks](./media/er-destination-action-dependent-01.png)
+![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe kasutaja tegevuse jaoks.](./media/er-destination-action-dependent-01.png)
 
 Järgmises näites on näidatud, kuidas saavutada samu alternatiivseid ER-i sihtkohtade konfigureerimisi individuaalsete sihtkoha kirjete komplektina, kui iga kirje konfigureeritakse individuaalse sihtkoha jaoks.
 
-![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe sihtkoha jaoks](./media/er-destination-action-dependent-01a.png)
+![Elektroonilise aruandluse sihtleht, kus on tegevusest sõltuvad sihtkoha sätted ER-vormingu jaoks, kui iga sihtkirje on konfigureeritud ühe sihtkoha jaoks.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Kui jooksva ER-vormingu käitamiseks on antud tegevuse kood, kuid selle tegevuskoodi jaoks pole ühtegi sihtkohta konfigureeritud, rakendatakse [vaikimisi](electronic-reporting-destinations.md#default-behavior) sihtkoha käitumist.
@@ -84,7 +84,7 @@ Kui ER-vormingu käitamisel kasutaja tegevused on valmistatud ette kasutaja pool
 
 Järgmises näites on toodud dialoogiboksi **Elektroonilise aruandlse vormingu sihtkohad** näide, mis ilmub, kui vabas vomis arve [sisestatakse](../../../finance/accounts-receivable/create-free-text-invoice-new.md) ja ER-vorming **Vabas vormis arve (Excel)** käitatakse selle dokumendi loomiseks, kui tegevus **Printer** valmistati ette ja ER-i sihtkohad olid selle vormingu jaoks konfigureeritud, nagu varasemalt selles teemas on näidatud.
 
-![Dialoogiboks, mis annab võimaluse muuta täätava ER-vormingu algselt konfigureeritud ER-i sihtkohad](./media/er-destination-action-dependent-02.gif)
+![Dialoogiboks, mis annab võimaluse muuta täätava ER-vormingu algselt konfigureeritud ER-i sihtkohad.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Kui konfigureerisite ER-i sihtkohad mitme töötava ER-vormingu komponendi jaoks, pakutakse valikut eraldi iga ER-vormingu konfigureeritud komponendi jaoks.
@@ -103,7 +103,7 @@ Järgige neid samme, et kontrollida esitatud kasutajategevuse koodi.
 6. Filtreerige lehel **Konfigureerimise silumislogid** ER-i käitamislogisid, et leida oma ER-vormingu käitamise logi.
 7. Vaadake läbi logikirjed, mis peavad sisaldama esitatud kasutajategevuse koodi kirjet, kui ER-vormingu käitamiseks on esitatud mis tahes tegevus.
 
-    ![Elektroonilise aruandluse käitamise logide leht, mis sisaldab teavet kasutajategevuse koodi kohta, mis on esitatud ER-vormingu filtreeritud käituse jaoks](./media/er-destination-action-dependent-03.png)
+    ![Elektroonilise aruandluse käitamise logide leht, mis sisaldab teavet kasutajategevuse koodi kohta, mis on esitatud ER-vormingu filtreeritud käituse jaoks.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Äridokumentide loend (voog 1)</a>
 

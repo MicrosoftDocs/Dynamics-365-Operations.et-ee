@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866152"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357514"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool õpiku kasutamine
 
@@ -67,11 +67,11 @@ RSAT võimaldab kasutada sama tegevuse salvestist mitme testjuhtumi korral, või
 
 Seda funktsiooni saab kasutada ka kontrollimaks, kas tegevus toimus. Näiteks kui luuakse tootmistellimus, seda hinnatakse ja see seejärel käivitatakse, kuvab rakendus teate „Tootmine – alusta”, mis annab teada, et tootmistellimust on alustatud.
 
-![Teatis Tootmine – alusta](./media/use_rsa_tool_05.png)
+![Tootmine – alustamise teatis.](./media/use_rsa_tool_05.png)
 
 Saate selle teate kinnitada läbi RSAT, sisestades teate teksti vastava salvestise Exceli parameetrifaili vahekaardile **Teate kinnitamine**.
 
-![Vahekaart Teate kinnitamine](./media/use_rsa_tool_06.png)
+![Vahekaart Teate kinnitamine.](./media/use_rsa_tool_06.png)
 
 Pärast testjuhtumi käivitamist võrreldakse teadet Exceli parameetrifailis kuvatava teatega. Kui teated ei kattu, siis testjuhtum nurjub.
 
@@ -104,11 +104,11 @@ Kui käivitate testjuhtumi, teeb RSAT hetktõmmised (pildid) töökaustas oleva 
 
 Järgmisel joonisel on näha selle stsenaariumi voog.
 
-![Demostsenaariumi voog](./media/use_rsa_tool_14.png)
+![Demostsenaariumi voog.](./media/use_rsa_tool_14.png)
 
 Järgmisel joonisel on kujutatud LCS-i äriprotsesside modelleerija selle stsenaariumi äriprotsesside hierarhia.
 
-![Demostsenaariumi äriprotsessid](./media/use_rsa_tool_15.png)
+![Demostsenaariumi äriprotsessid.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Strateegia – peamised õppepunktid
 

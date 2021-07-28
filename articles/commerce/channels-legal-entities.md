@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346030"
 ---
 # <a name="create-legal-entities"></a>Juriidiliste isikute loomine
 
@@ -44,7 +44,7 @@ Uue juriidilise isiku loomiseks Dynamics 365 Commerce'is toimige järgmiselt.
 1. Sisestage või valige väärtus väljale **Riik/regioon**.
 1. Valige nupp **OK**. 
 
-   ![Juriidilise isiku loomine](media/legal-entities.png)
+   ![Juriidilise isiku loomine.](media/legal-entities.png)
 
 1. Esitage jaotises **Üldine** juriidilise isiku kohta järgmised üldandmed. 
    1. Sisestage otsingunimi, kui otsingunimi on nõutav. Otsingunimi on alternatiivne nimi, mida saab kasutada selle juriidilise isiku otsimiseks. 
@@ -67,7 +67,7 @@ Uue juriidilise isiku loomiseks Dynamics 365 Commerce'is toimige järgmiselt.
 
 Järgmine pilt näitab näitliku juriidilise isiku üksikasju.
 
-![Juriidilise isiku üldine jaotis](media/legal-entities-general.png)
+![Juriidilise isiku üldine jaotis.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Lisaressursid
 

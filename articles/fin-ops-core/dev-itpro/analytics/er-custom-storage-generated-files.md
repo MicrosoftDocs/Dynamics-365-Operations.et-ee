@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894144"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348136"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Loodud dokumentidele kohandatud salvestuskohtade määramine
 
@@ -41,7 +41,7 @@ Kõik selle teema ülesanded saab täita ettevõttes **USMF**.
 
 Dokumentide loomiseks, mida kavatsete kohandatud talletuskoht lisada, [importige](er-download-configurations-global-repo.md) **põhivara edasiarvestuse** ER-i vormingu konfiguratsioon praegusesse topoloogiasse.
 
-![Konfiguratsioonihoidla leht](./media/er-custom-storage-generated-files-import-format.png)
+![Konfiguratsioonihoidla leht.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Käitage põhivara edasiarvestuse aruanne
 
@@ -52,7 +52,7 @@ Dokumentide loomiseks, mida kavatsete kohandatud talletuskoht lisada, [importige
 5. Valige väljal **Vormingu vastendamine** väärtus **Põhivara edasiarvestus**.
 6. Valige nupp **OK**.
 
-![Põhivara edasiarenduse aruande käitusaja dialoogiboks](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Põhivara edasiarenduse aruande käitusaja dialoogiboks.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Vaadake Microsoft Excelis üle väljamineva dokumendi, mis on loodud ja allalaadimiseks saadaval. Selline käitumine on [vaikimisi käitumine](electronic-reporting-destinations.md#default-behavior) ER-i vormingu jaoks, mille jaoks ei ole konfigureeritud ühtegi [sihtkohta](electronic-reporting-destinations.md) ja mis töötab interaktiivses režiimis.
 

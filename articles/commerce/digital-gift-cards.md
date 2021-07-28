@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6c4cf4e94e6271843d55b4ca7a0fb3ffaffc9542
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019929"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344391"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-kaubanduse digitaalsed kinkekaardid
 
@@ -34,13 +34,13 @@ Digitaalsete kinkekaartide ostmine on toetatud teenuse Dynamics 365 Commerce ver
 
 Järgmisel joonisel on toodud näide toote üksikasjade lehest (PDP) digitaalse kinkekaardi puhul Fabrikami e-kaubanduse saidil.
 
-![Digitaalse kinkekaardi PDP näide Fabrikami e-kaubanduse saidil](./media/GiftcardPDP.PNG)
+![Digitaalse kinkekaardi PDP näide Fabrikami e-kaubanduse saidil.](./media/GiftcardPDP.PNG)
 
 ## <a name="turn-on-the-digital-gift-card-feature-in-commerce-headquarters"></a>Lülitage Commerce'i peakontoris digitaalse kinkekaardi funktsioon sisse
 
 Selleks et digitaalsete kinkekaartide ostuvoog teenuses Dynamics 365 Commerce töötaks, tuleb Commerce'i peakontoris lülitada sisse funktsioon **E-kaubanduse funktsiooni kaudu kinkekaardi ostmine**. Funktsioon asub Commerce'i peakontori tööruumis **Funktsionihaldus**, nagu järgmisel joonisel näidatud.
 
-![Funktsioonihalduse tööruum Commerce'i peakontoris](./media/Featureflag.PNG)
+![Funktsioonihalduse tööruum Commerce'i peakontoris.](./media/Featureflag.PNG)
 
 ## <a name="configure-a-digital-gift-card-in-commerce-headquarters"></a>Commerce'i peakontoris digitaalse kinkekaardi konfigureerimine
 
@@ -49,16 +49,16 @@ Digitaalsete kinkekaartide tooteid tuleb konfigureerida Commerce'i peakontoris. 
 - Kui konfigureerite dialoogiboksis **Uus toode** digitaalsete kinkekaartide tooteid, määrake välja **Toote tüüp** väärtuseks **Teenus**. (Dialoogiboksi avamiseks minge lehele **Jaemüügi ja kaubandus \> Tooted ja kategooriad \> Tooted kategooriate alusel** ja valige **Uus**.) Tüübi **Teenus** tooteid ei kontrollita enne tellimuse esitamist saadaolevate varude suhtes. Lisateavet vt teemast [Uue toote loomine](create-new-product-commerce.md#create-a-new-product).
 - Lehe **Kaubanduse parameetrid** vahekaardil **Sisestamine** peab väli **Kinkekaarditoode** olema seatud väärtusele **Digitaalne kinkekaart**, nagu järgmisel joonisel näidatud. Kui toode on väline kinkekaart, vaadake lisateavet teemast [Väliste kinkekaartide tugi](./dev-itpro/gift-card.md).
 
-    ![Kinkekaarditoote väli Commerce'i peakontoris](./media/PostGiftcard.png)
+    ![Kinkekaarditoote väli Commerce'i peakontoris.](./media/PostGiftcard.png)
 
 - Kui kinkekaart peab toetama mitmeid eelmääratletud summasid (nt 25, 50 ja 100 $), tuleks nende eelmääratletud summade seadistamiseks kasutada dimensiooni **Suurus**. Iga eelmääratletud summa on variant. Lisateavet vt teemast [Toote dimensioonid](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Kui kliendid peavad saama kinkekaardile kohandatud summat määrata, seadistage esmalt variant, mis lubab kasutada kohandatud summat. Seejärel avage toode lehel **Väljastatud tooted kategooriatena** ja määrake kiirkaardil **Kaubandus** välja **Hinna sisestamine** väärtuseks **Uue hinna sisestamine on kohustuslik**, nagu järgmisel joonisel näidatud. See seadistus tagab, et kliendid saavad PDP-s toote sirvimisel hinna sisestada.
 
-    ![Hinna sisestamise väli Commerce'i peakontoris](./media/KeyInPrice.png)
+    ![Hinna sisestamise väli Commerce'i peakontoris.](./media/KeyInPrice.png)
 
 - Digitaalse kinkekaardi tarneviisi väärtuseks peab olema määratud **Elektrooniline**. Valige lehe **Tarneviisid** (**Jaemüük ja kaubandus \> Kanali seadistus \> Tarneviisid**) loendipaanil tarneviis **Elektrooniline** ja seejärel lisage digitaalse kinkekaardi toode kiirkaardi **Tooted** ruudustikku, nagu järgmisel joonisel näidatud. Lisateavet vt teemast [Tarneviiside seadistamine](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
-    ![Digitaalsete kinkekaartide tooted Commerce'i peakontori lehel Tarneviisid](./media/ElectronicMode.PNG)
+    ![Digitaalsete kinkekaartide tooted Commerce'i peakontori lehel Tarneviisid.](./media/ElectronicMode.PNG)
 
 - Veenduge, et Commerce'i peakontoris oleks loodud veebipõhine funktsiooniprofiil ja see oleks teie võrgupoega seostatud. Määrake funktsiooniprofiilil suvandi **Liida tooted** väärtuseks **Jah**. See seadistus tagab, et kõik kaubad peale kinkekaartide liidetakse. Lisateavet vt teemast [Veebipõhise funktsiooniprofiili loomine](online-functionality-profile.md).
 - Kui soovite tagada, et kliendid saaksid pärast kinkekaardi arveldamist meili, looge lehel **Meiliteatiste profiilid** uus meiliteatise tüüp ja määrake välja **Meiliteatise tüüp** väärtuseks **Väljasta kinkekaart**. Lisateavet vt teemast [Meiliteatise profiili seadistamine](email-notification-profiles.md).

@@ -2,7 +2,7 @@
 title: Human Resourcesi parameetrite konfigureerimine
 description: See artikkel selgitab ettevõttepõhiste parameetrite häälestamist rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052405"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356532"
 ---
 # <a name="configure-human-resources-parameters"></a>Human Resourcesi parameetrite konfigureerimine
 
@@ -30,7 +30,7 @@ Osa inimressursside parameetrite sätteid on ettevõtteülesed, samas kui teiste
 
 Personali ehk inimressursside parameetrite määramiseks kasutatakse kahte lehte. Ettevõtetes ühiskasutatavate parameetrite puhul kasutate lehte **Inimressursside ühiskasutusega parameetrid**. Ettevõttekohaste parameetrite (teisisõnu sätted, mis rakenduvad ühele ettevõttele) puhul kasutate lehte **Inimressursside parameetrid**.
 
-![Avage Inimressursside parameetrid](./media/hr-employee-self-service-human-resources-parameters.png)
+![Avage inimressursside parameetrid.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 Lehel **Inimressursside parameetrid** jaotatakse sätted kuue vahekaardi vahel.
 
@@ -51,14 +51,15 @@ Iga vahekaart sisaldab teavet, mis on seotud ühe ettevõttega.
 
 Sätted vahekaardil **Üldine** määratlevad puudumise, vigastuste ja haiguste ning uute värbamiste kohta käiva teabe ilmumise. Sellel vahekaardil olevad sätted määratlevad ka mõned vaikekirjed, mis ilmuvad töö tegemisel. Sellel vahekaardil saate:
 
-- valida avatud puudumiskannetele rakendatava värvi;
-- määrata aruannetes kasutatava laadilehe;
-- lubada koolituskursuste ja puudumiste registreerimise vahelise integratsiooni;
+- Valige värv avatud puudumiskannetele rakendatavaks värviks.
+- Määrata aruannetes kasutatav laadileht.
+- Lubada koolituskursuste ja puudumiste registreerimise vaheline integratsioon.
 - valida selle integratsiooni juhtimiseks kasutatava puudumise koodi;
 - näidata, kui kaua säilitada vigastus- ja haigusjuhtude juhtumeid;
 - määrata uue töötaja palkamisel vaikimisi kuvatava ID-numbri.
+- Määrata teenuseaastate arvutamiseks kasutatav kuupäev. 
 
-![Vahekaart Üldine](./media/hr-setup-parameters-general.png)
+![Vahekaart Üldine.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Värbamine
 
@@ -76,7 +77,7 @@ Inimressursside moodulis saate vahekaardi **Hüvitus** kaudu soovi korral piirat
 
 Lisateavet kompensatsiooni kohta leiate artiklist [Kompensatsiooniplaanide ülevaade](hr-compensation-overview.md).
 
-![Kompensatsiooni vahekaart](./media/hr-setup-parameters-compensation.png)
+![Kompensatsiooni vahekaart.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Numbriseeriad
 
@@ -96,13 +97,13 @@ Lisateabe saamiseks vt teemat [Numbriseeriate ülevaade](../fin-ops-core/fin-ops
 > [!NOTE]
 > Töötundide arv ei tohi ületada 1250 tundi ja töösuhte pikkus ei saa olla pikem kui 12 kuud. Need maksimumväärtused on kooskõlas USA föderaalseadustega.
 
-![Vahekaart Numbriseeriad](./media/hr-setup-parameters-number-sequences.png)
+![Numbriseeriad vahekaart.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 FMLA vahekaardil saate määrata FMLA sobivuse nõuded ja FMLA õigustatud tunnid. Lisateabe saamiseks vt jaotist [Puhkuse ja puudumise parameetrite konfigureerimine](hr-leave-and-absence-parameters.md).
 
-![FMLA vahekaart](./media/hr-setup-parameters-fmla.png)
+![FMLA vahekaart.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Töövõtja iseteenindus
 
@@ -115,7 +116,7 @@ Vahekaardi **Töötaja iseteenindus** sätted mõjutavad töötaja iseteeninduse
 
 Lisateavet töötaja iseteeninduse häälestamise kohta vt teemast [Töövõtja ja ülemuse iseteeninduse ülevaade](hr-employee-manager-self-service-overview.md).
 
-![Töötaja iseteeninduse vahekaart](./media/hr-setup-parameters-employee-self-service.png)
+![Töötaja iseteeninduse vahekaart.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Juhi iseteenindus
 
@@ -129,13 +130,13 @@ Vahekaardi **Juhi iseteenindus** sätted mõjutavad seda, millist teavet ülemus
 
 Lisateavet juhi iseteeninduse häälestamise kohta vt teemast [Töövõtja ja ülemuse iseteeninduse ülevaade](hr-employee-manager-self-service-overview.md).
 
-![Juhi iseteeninduse vahekaart](./media/hr-setup-parameters-manager-self-service.png)
+![Juhi iseteeninduse vahekaart.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Soodustuste haldus
 
 Soodustuste halduse vahekaardil saate konfigureerida soodustuste halduse meilivalikud. Lisateavet soodustuste halduse häälestamise ja kasutamise kohta vt teemast [Soodustuste halduse ülevaade](hr-benefits-management-overview.md).
 
-![Soodustuste halduse vahekaart](./media/hr-setup-parameters-benefits-management.png)
+![Soodustuste halduse vahekaart.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Puhkused ja puudumine
 
@@ -145,7 +146,7 @@ Puhkuste ja puudumiste häälestamise ja kasutamise kohta teabe saamiseks vt tee
 
 Vahekaardil **Makseviisid** saate valida makseviisid, mida teie organisatsioon toetab. Lisateavet hüvituste konfigureerimise kohta leiate artiklist [Kompensatsiooniplaanide ülevaade](hr-compensation-overview.md).
 
-![Makseviiside vahekaart](./media/hr-setup-parameters-payment-methods.png)
+![Makseviiside vahekaart.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

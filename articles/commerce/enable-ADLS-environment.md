@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ac440362379475b05c6a37019c25e3a96be3739
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792603"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349492"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas
 
@@ -59,7 +59,7 @@ Azure Data Lake Storage'i lubamiseks vajalikest toimingutest põhjalikuma üleva
 
 Järgmisel pildil on näide Azure Data Lake Storage'i konfiguratsioonist.
 
-![Azure Data Lake Storage'i konfiguratsiooni näide](./media/exampleADLSConfig1.png)
+![Azure Data Lake Storage'i konfiguratsiooni näide.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Azure Data Lake Storage'i ühenduse kontrollimine
 
@@ -79,7 +79,7 @@ Kui ühenduse testid on edukad, peate lubama automaatse värskendamise üksuse k
 
 Järgmisel pildil on üksuse kaupluse näide, millel automaatne värskendamine on lubatud.
 
-![Üksuse kaupluse näide, millel automaatne värskendamine on lubatud](./media/exampleADLSConfig2.png)
+![Üksuse kaupluse näide, millel automaatne värskendamine on lubatud.](./media/exampleADLSConfig2.png)
 
 Azure Data Lake Storage on nüüd keskkonna jaoks konfigureeritud. 
 

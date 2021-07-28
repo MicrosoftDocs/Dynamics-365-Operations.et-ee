@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796966"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346664"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>AI-ML-põhiste tootesoovituse tulemuste kohandamine
 
@@ -51,7 +51,7 @@ Sõltuvalt teie ettevõttest, võib loend Enim müüdud anda populaarsete toodet
 
 Enim müüdud toodete loendis on võimalik muuta ühte parameetrit.
 
-![Enim müüdud loendi vaikeparameetri näide](./media/examplebestsellingparameters.PNG)
+![Enim müüdud loendi vaikeparameetri näide.](./media/examplebestsellingparameters.PNG)
 
 1. **Kaasa viimase X päeva müügid** – müügitehinguid, mis on toimunud konkreetne arv päevi enne praegust kuupäeva, saab kasutada toodete tellimiseks. Ülaltoodud vaikeväärtus näitab, et kõiki viimase 30 päeva jooksul sooritatud toote ostusid kasutatakse toote asukoha määratlemiseks enim müüdud toodete loendis. 
 
@@ -65,13 +65,13 @@ Enim müüdud toodete loendis on võimalik muuta ühte parameetrit.
 1.  Toodete tabelisse lisamiseks valige suvand **Lisa rida.** 
 1.  Veerus Toode otsige toodet suvandi **Nimi** või **Tootenumber** järgi.
 
-    ![Näide toodete otsimisest uute toodete loendis](./media/examplenewlistconfiguration1.png)
+    ![Näide toodete otsimisest uute toodete loendis.](./media/examplenewlistconfiguration1.png)
 
 1.  Valige veerus Rea tüüp üks kahest suvandist.
     -   **Kaasa** – sunnib toote loendi ette
     -   **Välista** – tühistab toote loendis ilmumise
     
-    ![Näide toote kaasamisest või välistamisest uute toodete loendist](./media/examplenewlistconfiguration2.png)
+    ![Näide toote uute toodete loendist kaasamisest või välistamisest.](./media/examplenewlistconfiguration2.png)
 
 1.  Suvandi **Kuvamise järjekord** muutmine muudab järjestust, kuidas suvandiga **kaasa** tähistatud tooted loendisse ilmuvad.
     - Kui kahel tootel on sama **kuvamise järjestuse** väärtus, siis võib nende kahe tulemuse lõplik tellimus kontorist erineda.
@@ -86,12 +86,12 @@ Loendite Sageli koos ostetud või Inimestele meeldib ka kontekstis kasutatakse m
 
 Lähteväärtus toote tulemuste käsitsi lisamiseks või eemaldamiseks tehke järgmist.
 1.  Valige suvand **Lähteväärtuse toode**. 
-1.  Veerus **Toode** otsige toodet suvandite **Nimi** või **Tootenumber** alusel.
-![Näide toote otsimisest loendist Sageli koos ostetud](./media/exampleFBTlistconfiguration1.png)
+1.  Veerus **Toode** otsige toodet suvandite järgi **Nimi** või **Tootenumber.**
+![Näide toote otsimisest loendist Sageli koos ostetud.](./media/exampleFBTlistconfiguration1.png)
 1. Valige veerus **Rea tüüp** üks kahest suvandist.
     - **Kaasa** – sunnib toote loendi ette
     - **Välista** – tühistab toote loendis ilmumise     
-![Näide toote loendisse Sageli koos ostetud kaasamisest või sellest eemaldamisest](./media/exampleFBTlistconfiguration2.png)
+![Näide toote loendisse Sageli koos ostetud kaasamisest või sellest eemaldamisest.](./media/exampleFBTlistconfiguration2.png)
 1.  Toodete tabelist eemaldamiseks: valige eemaldatav rida ja klõpsake käsku Eemalda.
 
 

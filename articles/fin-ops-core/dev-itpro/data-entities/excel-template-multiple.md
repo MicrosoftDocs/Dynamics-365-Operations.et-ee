@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750560"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352908"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Mitme töölehe andmemallid
 
@@ -32,13 +32,13 @@ Oletame näiteks, et meil on üks Exceli fail koos töölehtedega **Laoalad** ja
 
 Teise üksuse, **Laod**, lisamisel vormilt **Faili lisamine** lahkumata võimaldab töölehe otsing valida töölehe **Laod** jälle ilma faili üles laadimata. Ainus põhjus uue faili üleslaadimiseks oleks see, kui töölehe **Laod** andmed oleksid eraldi failis.
 
-![Mitu töölehte](./media/AddFileMultipleWorkSheets.png)
+![Mitu töölehte.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Töölehe ja üksuse vastenduse fikseerimine
 
 Töölehe vastenduse andmeüksusega imporditöös saab ruudustikust fikseerida. Ruudustiku veerus **Tööleht** kuvatakse vastendatud failist pärit töölehed. Saate valida ripploendist erinevaid töölehti. Kui valitud tööleht on mõne andmeprojekti üksusega juba vastendatud, palub süsteem teil muudatus kinnitada. Soovitame teil kõik vastendused ruudustikus fikseerida.
 
-![Töölehe vastenduse värskendamine](./media/UpdateMappings.png)
+![Töölehe vastenduse värskendamine.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Uuesti vastendamine uue failiga
 

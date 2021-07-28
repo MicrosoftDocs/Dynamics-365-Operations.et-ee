@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754594"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354441"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
 
@@ -54,11 +54,11 @@ Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
 3. Valige dialoogiboksi **Uue üksuse lisamine** jaotises **Toimingute artefaktid** mall **Ressurss**.
 4. Sisestage nimi, mida kasutatakse aruande viitamiseks X++ metaandmetes, ja klõpsake nuppu **Lisa**.
 
-    ![Dialoogiboks Uue üksuse lisamine](media/analytical-workspace-add.png)
+    ![Dialoogiboks Uue üksuse lisamine.](media/analytical-workspace-add.png)
 
 5. Leidke pbix-fail, mis sisaldab analüütilise aruande määratlust, seejärel klõpsake käsku **Ava**.
 
-    ![Dialoogiboks Ressursifaili valimine](media/analytical-workspace-select-resource.png)
+    ![Dialoogiboks Ressursifaili valimine.](media/analytical-workspace-select-resource.png)
 
 Nüüd kui olete lisanud pbix-faili Dynamics 365 ressursina, saate kaasata aruanded tööruumidesse ja lisada ka otselingid, kasutades menüü-üksusi.
 
@@ -67,7 +67,7 @@ Selles näites laiendame mudeli Sõidukipargi haldus tööruumi **Reserveerimise
 
 Järgmisel joonisel on näha, milline näeb vorm **FMClerkWorkspace** välja Microsoft Visual Studio kujundajas.
 
-![Vorm FMClerkWorkspace enne muudatusi](media/analytical-workspace-definition-before.png)
+![Vorm FMClerkWorkspace enne muudatusi.](media/analytical-workspace-definition-before.png)
 
 Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toimige järgmisel.
 
@@ -92,7 +92,7 @@ Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toim
 
 Järgmisel joonisel on näha, milline näeb kujundus välja pärast nende muudatuste rakendamist.
 
-![FMClerkWorkspace pärast muudatusi](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace pärast muudatusi.](media/analytical-workspace-definition-after.png)
 
 Nüüd, kui olete tööruumi aruande kaasamiseks kasutatavad vormi juhtelemendid lisanud, peate määratlema ülemjuhtelemendi suuruse, nii et see mahuks paigutusse. Vaikimisi jäävad aruandes nähtavaks nii leht **Filtripaan** kui ka leht **Vahekaart**. Saate nende juhtelementide nähtavust siiski aruande sihttarbija vajaduste järgi muuta.
 
@@ -142,7 +142,7 @@ Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähte
 
 Nüüd olete kaasatud aruandevaaturi juhtelementi lähtestava äriloogika lisamise ülesande täitnudl. Järgmisel joonisel on näha, milline näeb tööruum välja pärast nende muudatuste rakendamist.
 
-![Tööruumi kaasatud aruanne](media/analytical-workspace-final.png)
+![Tööruumi kaasatud aruanne.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Pääsete juurde olemasolevale toiminguvaatele, kasutades lehe pealkirja all olevaid tööruumi vahekaarte.

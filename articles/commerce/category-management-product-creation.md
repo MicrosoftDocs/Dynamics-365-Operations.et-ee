@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794369"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351293"
 ---
 # <a name="manage-product-categories-and-products"></a>Tootekategooriate ja toodete haldamine
 
@@ -35,17 +35,17 @@ Pange tähele kuvatava lehe **Commerce'i tootehierarhia** täiustatud struktuuri
 
 Tootekategooria täiustatud struktuuris on tooteatribuudid loogiliselt eraldatud nende kohalduvuse alusel grupis, peegeldades väljastatud toote üksikasjade vormi struktuuri.
 
-![Väljade grupeerimine atribuutide kohaldatavuse ulatuse põhjal](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Väljade grupeerimine atribuutide kohaldatavuse ulatuse põhjal.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 Saate valida juriidilise isiku põhiste atribuutide haldamise kõigi juriidiliste isikute lõikes ja konkreetse juriidilise isiku puhul.
 
 Atribuutide haldamiseks kõigi juriidiliste isikute lõikes valige **Kuva kõigi juriidiliste isikute puhul** (või **Redigeeri kõigi juriidiliste isikute puhul**).
 
-![Kuvamine/redigeerimine kõigi juriidiliste isikute puhul](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Kuvamine/redigeerimine kõigi juriidiliste isikute puhul.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Konkreetse juriidilise isiku atribuutide haldamiseks valige **Kuva konkreetse juriidilise isiku puhul** (või **Redigeeri konkreetse juriidilise isiku puhul**).
 
-![Kuvamine/redigeerimine konkreetse juriidilise isiku puhul](media/ToggleToEditForAllLegalEntities.PNG)
+![Kuvamine/redigeerimine konkreetse juriidilise isiku puhul.](media/ToggleToEditForAllLegalEntities.PNG)
 
 Lisaks saab tootejuht täiustatud tootekategooria struktuuris määrata nüüd vaikeväärtusi täiendavale tooteatribuutide kogumile eraldi kategooria tasandil. Seejärel pärivad tooted loomise ajal need tooteatribuudi vaikeväärtused, põhinedes nende atribuutide seosel individuaalse kategooriaga tootehierarhiast. Neid päritud tooteatribuute saab ka iga toote puhul muuta, et need oleksid konkreetse äri vajadustega kooskõlas.
 
@@ -53,7 +53,7 @@ Lisaks saab tootejuht täiustatud tootekategooria struktuuris määrata nüüd v
 
 Saate uut tooteatribuutide täiustatud struktuuri kasutada selleks, et valida, millised värskendatud tooteatribuudid tuleb seotud toodetele tõugata. Valige lehe **Commerce'i tootehierarhia** tegumiribalt **Kategooria** ja seejärel dialoogiboksi **Värskenda tooteid** avamiseks **Värskenda tooteid**.
 
-![Dialoogiboks Värskenda tooteid](media/NewUpdateProductsEnhancedView.PNG)
+![Dialoogiboks Värskenda tooteid.](media/NewUpdateProductsEnhancedView.PNG)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

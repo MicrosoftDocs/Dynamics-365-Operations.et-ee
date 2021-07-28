@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054904"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346270"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Dataverse'i virtuaalsete tabelite päringute optimeerimine
 
@@ -50,13 +50,13 @@ Näide, kus seda mõju võite näha, on päringutes olemi Töötaja ( **mshr_hcm
 - **Päringu aegumine**: päring võib aeguda ja tagastada järgmise tõrke: "Finance and Operations kutsumiseks saadi luba, kuid Finance and Operations tagas tõrke tüübiga InternalServerError."
 - **Ootamatu tõrge**: päring võib tagastada tõrketüübi 400 järgmise teatega: "Ilmnes ootamatu tõrge."
 
-  ![Vea tüüp 400 HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Vea tüüp 400 HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Ahendamine**: päring võib serveri ressursse üle kasutada ja muutuda ahendamiseks. Sel juhul tagastab päring järgmise tõrke: "Finance and Operations kutsumiseks hangiti luba ,kuid Finance and Operations tagastas tõrge tüübiga 429." Lisateavet personaliosakonna ahendamise kohta leiate teemast [Ahendamise KKK](./hr-admin-integration-throttling-faq.md).
 
-  ![Vea tüüp 429 HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Vea tüüp 429 HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
-## <a name="resolution"></a>Eraldusvõime
+## <a name="resolution"></a>Lahendus
 
 ### <a name="limit-the-number-of-columns-included-in-your-data-query"></a>Andmepäringusse kaasatud veergude arvu piiramine
 
@@ -96,7 +96,7 @@ Kui teil tekib Power BI aruande Dataverse virtuaalse tabeli suhtes aruande üles
 2. Sisestage aknas **Hangi andmed** otsinguboksi **Common Data Service**, valige ühendus **Common Data Service** ja valige käsk **Ühenda**.
 3. Akna Common Data Service väljas **Serveri URL** sisestage oma Dataverse keskkonna organisatsiooni URI ja valige **OK**.
   
-   ![Sisestage Dataverse'i keskkonna URI](./media/PowerBIDataverseURLSetup.png)
+   ![Sisestage Dataverse'i keskkonda URI.](./media/PowerBIDataverseURLSetup.png)
   
 4. Laiendage aknas Navigator sõlm **Olemid**.
 5. Otsinguboksis sisestage **mshr_hcmworkerbaseentity** ja valige olem.
@@ -113,7 +113,7 @@ Kui teil tekib Power BI aruande Dataverse virtuaalse tabeli suhtes aruande üles
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Päringu värskendamine Power Query Editor täpsemas redaktoris](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Päringu värskendamine Power Query Editor täpsemas redaktoris.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Valige suvand **Valmis**.
 
@@ -138,7 +138,7 @@ Näiteks kui üks rakenduse lehel kaasatud andmeväljadest viitab teisele tabeli
 
 Saate kasutada [Power Apps Monitori](/powerapps/maker/monitor-overview), et Power App'i andmete toomiseks kaasaks päringusse ainult vajalikud veerud. Toimingu getRows jaoks loodud URL-i saate vaadata, kindlustamaks, et teie rakendusele valitud veerud on andmete toomisel optimaalsed.
 
-![Kasutage Power Apps Monitor funktsiooni funktsiooni getData toimingu analüüsimiseks.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![Kasutage Power Apps Monitor funktsiooni getData toimingu analüüsimiseks.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Andmepäringu filtreerimine
 

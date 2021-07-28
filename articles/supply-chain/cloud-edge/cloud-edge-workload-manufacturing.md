@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352732"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -44,7 +44,7 @@ See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pil
 
 Nagu järgnev illustratsioon näitab, on tootmise elutsükkel jagatud kolmeks faasiks: *Planeeri*, *Käivita* ja *Lõpeta*.
 
-[![Ühe keskkonna kasutamisel on tootmise käivitamise faasid](media/mes-phases.png "Tootmise täideviimisfaasid ühe keskkonna kasutamisel")](media/mes-phases-large.png)
+[![Tootmise käivitamise faasid üksiku keskkonna kasutamisel](media/mes-phases.png "Tootmise käivitamise faasid üksiku keskkonna kasutamisel."](media/mes-phases-large.png)
 
 _Planeerimise_ faas hõlmab toote määratlust, planeerimist, tellimuse loomist ja ajastamist ning müügile laskmist. Müügile laskmise etapp näitab üleminekut _planeerimise_ faasist _käivitamise_ faasi. Kui tootmistellimus on müügile lastud, on tootmistellimuse tööd tootmiskorrusel nähtavad ja valmis täitmiseks.
 
@@ -54,7 +54,7 @@ Kui tootmistöö on märgitud lõpetatuks, liigub see käivitamise _Käivitamise
 
 Nagu järgmine illustratsioon näitab, kui kasutatakse astmiku ühikuid, tükeldatakse _Käivitamise_ faas eraldi töökoormusena.
 
-[![Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid")](media/mes-phases-workloads-large.png)
+[![Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid."](media/mes-phases-workloads-large.png)
 
 Mudel läheb nüüd kohesest installist mudelile, mis põhineb keskusel ja skaala ühikutel. Faasid _Plaanimine_ ja _Lõpetamine_ käivitatakse keskuses tagatoatoimingutena ja tootmise täideviimise töökoormus käivitatakse skaalaüksustes. Andmed edastatakse asünkroonselt keskuse ja astmiku ühikute vahel.
 
@@ -87,7 +87,7 @@ Kuigi töö tavaliselt käivitub automaatselt, saate selle käivitada käsitsi m
 
 Registreerimise töötlemise Logi ülevaatamiseks logige keskusesse sisse ja minge **Tootmise juhtimise \> Perioodiliste ülesannete \> BackOffice töökoormuse haldamine \> töötlemata registreerimise töötlemise Logi**. Lehel **Töötlemata registreerimise töötluse logi** kuvatakse töötlemata registreerimiste loend ja iga registreerimise olek.
 
-![Töötlemata registreerimise töötluse logi](media/mes-processing-log.png "Töötlemata registreerimise töötluse logi")
+![Töötlemata registreerimise töötluse logi.](media/mes-processing-log.png "Töötlemata registreerimise töötluse logi")
 
 Saate töötada mis tahes registreerimisega loendis valides selle ja seejärel valides Tegevuse Paanilt ühe järgmistest nuppudest:
 

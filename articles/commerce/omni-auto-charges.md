@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022703"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353056"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
@@ -43,7 +43,7 @@ Täpsemate automaatsete kulude funktsioon pakub kassa kasutajatele automaatsete 
 
 Minge lehel **Jaemüük ja kaubandus \> Peakontori seadistamine \> Parameetrid \> Kaubanduse parameetrid** vahekaardile **Klienditellimused**. Valige kiirkaardil **Kulud** suvandi **Täpsemate automaatsete kulude kasutamine** sätteks **Jah**.
 
-![Täpsemate automaatsete kulude parameeter](media/advancedchargesparameter.png)
+![Täpsemate automaatsete kulude parameeter.](media/advancedchargesparameter.png)
 
 Kui täpsemad automaatsed kulud on lubatud, ei paluta kasutajatel klienditellimuse Saada kõik või Saada valitud loomisel enam saatekulu kassaterminalis käsitsi sisestada. Kassa tellimuse kulusid arvutatakse süstemaatiliselt ja need lisatakse kassa kandesse (kui leitakse vastav automaatsete kulude tabel, mis vastab loodava tellimuse kriteeriumidele). Kasutajad saavad päise- või reatasandil kulusid ka käsitsi lisada või hallata, kasutades äsjalisatud kassatoiminguid, mille saab lisada kassa ekraanipaigutustesse.
 
@@ -86,7 +86,7 @@ Konfigureerige kaks erinevat päisetasemel automaatset kulu. Konfigureerige üks
 
 Maismaatranspordi kulude puhul määratlege lehe **Automaatsed kulud** ridade jaotises kulu, mis rakendatakse tellimustele väärtusevahemikus 0,01 kuni 100 eurot, väärtuseks 10,00 eurot. Looge veel üks kulurida näitamaks, et tellimustele üle 100,01 eurot kulu ei kohaldu.
 
-![Kahe automaatsete kulude tabeli näited](media/headerchargesexample.png)
+![Kahe automaatsete kulude tabeli näited.](media/headerchargesexample.png)
 
 Õhutranspordi kulude puhul määratlege lehe Automaatsed kulud ridade jaotises kõigile tellimustele (väärtusevahemikus 0,01 kuni 9 999 999 eurot kulu 20,00 eurot).
 
@@ -116,7 +116,7 @@ Minge jaotisse **Müügireskontro \> Kulude seadistus \> Automaatsed kulud**.
 
 Valige rippmenüüst **Tase** suvand **Rida** ja looge uus automaatsete kulude kirje kõigile klientidele ning kindlale tootele või tooterühmale, mille puhul kohaldub seadistustasu.
 
-![Ühe reataseme automaatsete kulude tabeli näide](media/linechargesexample.png)
+![Ühe reataseme automaatsete kulude tabeli näide.](media/linechargesexample.png)
 
 Saatke tasud Commerce’i skaala üksusesse / kanali andmebaasi nii, et kassa saaks neid kasutada, käivitades töö **1040 jaotusgraafik**.
 
@@ -136,7 +136,7 @@ Jaemüüja teeb tüüpprotsessile erandi, pakkudes klientidele, kes tellivad poe
 
 Veenduge, et selles stsenaariumis kasutatavad kulukoodid oleksid õigesti konfigureeritud, minnes jaotisse **Müügireskontro \> Kulude seadistus \> Kulud** ja määratledes stsenaariumi puhul asjakohase kulukoodi.
 
-![Kulude näide](media/chargesexample.png)
+![Kulude näide.](media/chargesexample.png)
 
 Kui kulu tuleb käsitleda saatmisega seotud kuluna saatmisega seotud allahindluste või soodustuste otstarbel, valige kulukoodis suvandi **Saatekulu** sätteks **Jah**. Kui selle kulu puhul on lubatud ka süstemaatiline tagasimaksmine kassarakenduses tagastuskande töötlemisel, valige suvandi **Tagastatav** sätteks **Jah**. Lipp **Tagastatav** kohaldub ainult siis, kui parameetri **Kasuta täpsemaid automaatseid kulusid** sätteks on valitud **Jah**.
 

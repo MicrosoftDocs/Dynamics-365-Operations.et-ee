@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058556"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360564"
 ---
 # <a name="payroll-integration-api-introduction"></a>Palgaarvestuse integratsiooni API tutvustus
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058556"
 
 See dokument kirjeldab Dynamics 365 Human Resources palgaarvestuse integratsiooni API-d. API võimaldab sujuvaid otsast otsani integratsioone personaliosakonna ja partnerite palgasüsteemide vahel. Integreeritud kogemus algab personaliosakonna töötaja profiili, palga ja mahaarvamise ning panuse teabega. Kui palkate töötaja ja sisestate nõutava profiili ning sisestate teabe personaliosakonna süsteemi, tõmbab palgasüsteem selle teabe palgaarvestuse töötlemisel. Võetakse ka kõiki töötajale tehtud uuendusi või palgateavet hilisemaks maksekäitumiseks.
 
-![Palgaarvestuse integratsiooni voog](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Palgaarvestuse integratsiooni voog.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Integratsiooni lubamiseks on personaliosakond sisaldanud järgmisi komponente.
 
@@ -60,7 +60,7 @@ Lisateavet API jaoks virtuaaltabelite loomise kohta leiate jaotisest [Dataverse'
 
 Järgmine diagramm illustreerib seoseid API sees. Mitmetel tüüpidel on võõrvõtmeid rakenduse Human Resources teiste, olemasolevate olemite jaoks, mida siin ei ole kujutatud. See dokument annab teavet üksuste kohta, mis on integratsioonistsenaariumide palgaarvestusel spetsiifilised. Siiski on Dataverse'i Web APIs mitmeid teisi olemeid personaliosakonna jaoks, mis võivad samuti olla teie integratsioonile asjakohased. Mõnedele neile üksustele viidatakse võõrvõtme seostes või navigeerimisatribuutides.
 
-![Palgaarvestuse integratsiooni API andmemudel](media/hr-admin-payroll-api-data-model.png)
+[![Palgaarvestuse integratsiooni API andmemudel.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Palgatöötaja ja seotud üksused
 
@@ -68,7 +68,8 @@ Järgmine diagramm illustreerib seoseid API sees. Mitmetel tüüpidel on võõrv
 
 - [Palgaarvestuse töövõtja](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Palgaarvestuse töötaja aadress](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Palgaarvestuse põhipalgaplaan](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Palgaarvestuse põhipalgaplaan](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Palgaarvestuse hüvitise muutlik plaan](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Palga positsiooni töö](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Palga positsioon](hr-admin-integration-payroll-api-payroll-position.md)
 

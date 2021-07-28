@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355079"
 ---
 # <a name="dimension-hierarchy"></a>Dimensioonihierarhia
 
@@ -39,7 +39,7 @@ Dimensioonihierarhiaid kasutatakse kuluarvestuses mitmesugustes kohtades. Dimens
 
 Siin on dimensioonihierarhia näide.
 
-![Dimensioonihierarhia näide](./media/dimension-hierarchy.png)
+![Dimensioonihierarhia näide.](./media/dimension-hierarchy.png)
 
 Dimensioonihierarhia saab luua järgmistele dimensioonitüüpidele.
 
@@ -80,7 +80,7 @@ Dimensioonihierarhia luuakse puustruktuurina, millel on sõlme ja lehesõlme seo
 
 Väikeettevõttel on järgmine organisatsiooni struktuur, kus finantsosakond ja personaliosakond on halduse alla kuuluvad osakonnad ja komplekteerimine ning pakkumine on tootmise alla kuuluvad osakonnad.
 
-![Organisatsiooni struktuuri näide](./media/dimension-hierarchy-org.png)
+![Organisatsiooni struktuuri näide.](./media/dimension-hierarchy-org.png)
 
 Kuluobjekti dimensioon kajastab kõik organisatsiooni kulukeskusi.
 

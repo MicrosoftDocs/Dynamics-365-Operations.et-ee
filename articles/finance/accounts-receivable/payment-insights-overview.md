@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822391"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359313"
 ---
 # <a name="customer-payment-insights-preview"></a>Kliendimaksete ülevaated (eelvaade)
 
@@ -47,11 +49,11 @@ Funktsioon Kliendi makse ülevaated (eelversioon) ennustab iga avatud arve jaoks
 
 Et aidata organisatsioonidel mõista kogu maksesummat, mida nad võivad kliendilt oodata ühes kolmest vahemikust (õigeaegselt, hilja ja väga hilja), annab Klindi makse ülevaated (eelversioon) ka eeldatavate maksete koondvaate.
 
-[![Maksete ennustuste koondvaade](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Maksete ennustuste koondvaade.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Lisaks määratakse igale arvele õigeaegse maksmise tõenäosus. Kui õigeaegselt maksmise tõenäosus on väiksem kui 50%, märgistatakse arved punase ringiga, et näidata need arved võivad vajada kättesaamiseks tähelepanu. 
 
-[![Maksetõenäosuste loend](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Maksetõenäosuste loend.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Kliendi makse ülevaated (eelvaade) pakub ka ennustuse selgitamiseks konteksti puudutavat teavet, näiteks prognoose mõjutanud peamised tegurid, praegune äritegevuse olukord kliendiga ja üksikasjad seoses kliendi ajaloolise maksekäitumisega. Paljudes ettevõtetes on kogumistoiming reaktiivne tegevus; kogumistoiming ei alga enne, kui saabub arve tähtaeg. 
 

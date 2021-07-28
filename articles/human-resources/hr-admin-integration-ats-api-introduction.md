@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055288"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357384"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Kandidaadi jälgimissüsteemi integreerimise API tutvustus
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055288"
 
 Selles teemas kirjeldatakse rakenduse Dynamics 365 Human Resources kandidaadi jälgimissüsteemi (ATS) integratsiooni API-d. API eesmärk on võimaldada sujuvat integreerimist rakenduse Dynamics 365 Human Resources ja partneriks olevate ATS-ide vahel.
 
-![ATS-integratsiooni voog](media/hr-admin-integration-ats-api-introduction-flow.png)
+![ATS-integratsiooni voog.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 Integreeritud kogemus algab rakenduses Human Resources, kui värbamisjuht loob värbamistaotluse. Kui taotlus on aktiveeritud, tõmbab ATS üksikasjad värbamisprojekti loomise taotluse kohta. Seejärel jälgitakse värbamise konteinerit, et valida ja palgata ametikohale kandidaat. Lisaks lõpetab ATS integreerimise, saates valitud kandidaadi kirje rakendusse Human Resources. Kandidaadi kirje saab siis töötajakirje loomiseks läbida rohkem kinnitusi ja töövooge.
 
@@ -69,7 +69,7 @@ Andmemudel on keskendunud kahe põhiüksuse ümber.
 
 Järgmine diagramm illustreerib seoseid API sees. Mitmetel tüüpidel on võõrvõtmeid rakenduse Human Resources teiste, olemasolevate olemite jaoks, mida siin ei ole kujutatud. See dokument annab teavet üksuste kohta, mis on integratsioonistsenaariumide värbamisel spetsiifilised. Siiski on Dataverse'i Web APIs mitmeid teisi olemeid rakenduse Dynamics 365 Human Resources jaoks, mis võivad samuti olla teie integratsioonile asjakohased. Näiteks võite vajada üksikasju töötajate, tööde, ametikohtade või muude siin määratlemata üksuste kohta. Paljudele neile üksustele viidatakse võõrvõtme seostes või navigeerimisatribuutides.
 
-![ATS-integratsiooni API andmemudel](media/hr-admin-integration-ats-api-data-model.png)
+![ATS-integratsiooni API andmemudel.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Värbamistaotlus ja seotud üksused ning suvandikomplektid
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751652"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359001"
 ---
 # <a name="generate-printable-fti-forms"></a>Prinditavate FTI-vormide loomine
 
@@ -77,7 +77,7 @@ ER-raamistiku kaudu FTI-vormingute loomiseks saate määrata ER-i vorminguid sam
 3. Valige dokumendi tase, et määrata töötlemisele minevate arvete ulatus.
 4. Valige määratletud dokumendi taseme jaoks ER-i vorming.
 
-![Prindihalduse seadistus](media/FTIbyGER-PMSetting.png)
+![Prindihalduse seadistus.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Valitud vormingu väljal **Aruande vormingu otsing** ilmuvad vaid ER-i vormingud, mis kasutavad andmemudeli **CustomersInvoicing** juurdeskriptorit **FreeTextInvoice**.
@@ -87,9 +87,9 @@ FTI-vorme luuakse ER-i raamistikus samamoodi, nagu luuakse SSRS-aruandeid.
 
 FTI-vormide loomiseks saate valida arveid kas vahemiku järgi või valiku alusel. 
 
-![Arvete valimine](media/FTIbyGER-InvoiceSelection.png)
+![Arvete valimine.](media/FTIbyGER-InvoiceSelection.png)
 
-![Arve eelvaade](media/FTIbyGER-InvoiceExcelPreview.png)
+![Arve eelvaade.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Kui kasutate ER-i vorminguid, et sellel teel FTI-vorme printida, siis kasutatakse ER-i failide vaikesihtkohti. Seda sihtkohta ei saa muuta. Lisateavet ER-vormingute sihtkohtade konfigureerimise kohta leiate teemast [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ FTI postitamisel saate ka luua FTI-vorme, kui lülitate sisse suvandi **Prindi a
 > - **Nimi:** ERFormatDestinationRuntimeMaintain
 > - **Silt:** elektroonilise aruandluse vormingu sihtkoha haldamine käitusaja jooksul
 
-![Elektroonilise aruandluse sihtkoht](media/FTIbyGER-ERFileDestinationSetting.png)
+![Elektroonilise aruandluse sihtkoht.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Elektroonilise aruandluse vormingu sihtkoht](media/FTIbyGER-ERFileDestinationUsage.png)
+![Elektroonilise aruandluse vormingu sihtkoht.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 ER-i raamistik toetab praegu loodud dokumentide jaoks järgmisi sihtkohti.
 
@@ -128,7 +128,7 @@ Saate alla laadida ER-i näidiskonfiguratsioone, et kasutada neid oma FTI-lahend
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>ER-i näidisvormingus rakendatud funktsioonid
 ER-i näidisvormingu konfiguratsioonis kasutatakse FTI-vormide loomisel mallina Exceli faili.
 
-![Vormingu koostaja](media/FTIbyGER-ERFormat.png)
+![Vormingu koostaja.](media/FTIbyGER-ERFormat.png)
 
 Praegu toetab see ER-i näidisvorming FTI-vormide loomiseks järgmisi funktsioone.
 
@@ -179,7 +179,7 @@ Peale loodud arve vormi saab luua maksekorraldusi järgmiselt.
 - Juriidilise isiku jaoks, mis kasutab Soome riigi/regiooni konteksti ja millel on vähemalt üks pangakonto, mis on märgitud **Ülekandekontoks** ja kaasatud **Panga vöötkoodi**. 
 - Arve jaoks, mis on **Soome** seostatud maksemanuse jaoks vajalikuks märgitud.
 
-![Ülekandeleht](media/FTIbyGER-GiroSlip.PNG)
+![Ülekandeleht.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > ER-i näidisvorming on konfigureeritud valikuliselt eraldi töölehel maksekorraldusi looma.
@@ -194,7 +194,7 @@ Kasutage ER-i näidisvormingu järgmisi elemente, et konfigureerida meilisihtkoh
 - Meili teema tekstile saab juurdepääsu järgmise ER-i avaldisega: **Emailing.TxtToUse.Subject**.
 - Meili kehatekstile saab juurdepääsu järgmise ER-i avaldisega: **Emailing.TxtToUse.Body**.
 
-![Sihtkoha sätted](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Sihtkoha sätted.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 Meili teema ja keha vaiketekst on ER-i näidisvormingus määratletud. Keelevalik sõltub vormingu siltidest. Meilide jaoks kasutatakse vaiketeksti, kui lisatud on kohandatud organisatsiooni meilimall, millel on eelmääratletud ID **ERFTITMP**.
 
@@ -203,9 +203,9 @@ Meili teema ja keha vaiketekst on ER-i näidisvormingus määratletud. Keelevali
 
 Kui eelmääratletud ID-ga **ERFTITMP** organisatsiooni meilimall on lisatud juriidilisele isikule, mille arvet te töötlete, siis kasutatakse meili loomiseks meilimalli teema ja kehateksti. 
 
-![Organisatsiooni meilimallid](media/FTIbyGER-EmailTemplate.png)
+![Organisatsiooni meilimallid.](media/FTIbyGER-EmailTemplate.png)
 
-![Meilimalli üleslaadimine](media/FTIbyGER-EmailTemplateBody.png)
+![Meilimalli üleslaadimine.](media/FTIbyGER-EmailTemplateBody.png)
 
 Elektroonilise aruandluse näidisvormingu ER-avaldis **Emailing.TxtToUse.Subject** on konfigureeritud asendama kõik kohatäite %1 esinemised töödeldava arve ID-ga.
 
@@ -218,7 +218,7 @@ ER-i näidisvormingu ER-avaldis **Emailing.TxtToUse.Body** on konfigureeritud ko
 - „%5” asendatakse ettevõtte kontaktisiku ametinimetusega.
 - „%6” asendatakse ettevõtte kontaktisiku meiliaadressiga.
 
-![Meilisõnum](media/FTIbyGER-Email.PNG)
+![E-post.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Lisaressursid
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)

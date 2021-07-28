@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347462"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Väljavõtete sisestamiseks töö konfigureerimine ja käivitamine
 
@@ -31,9 +31,9 @@ See protseduur selgitab korduva pakett-töö konfigureerimist ja käitamist vali
 2. Klõpsake Siseta pakett-väljavõtted.
     * Valige organisatsiooni hierarhia ja seejärel valige organisatsiooni sõlmepuul kindel kauplus või sõlm. Valige sõlm, kui soovite pakett-töö luua kaupluste grupi jaoks.  
     * Klõpsake valiku lisamiseks noolt.  
-3. Klõpsake tausta vahekaardil Käita. ![Käita taustal](../dev-itpro/media/runbackground.png "Käivita taustal") 
+3. Klõpsake tausta vahekaardil Käita. ![Käita taustal.](../dev-itpro/media/runbackground.png "Käivita taustal") 
 4. Märkige või tühjendage ruut Pakktöötlus.
-![Pakktöötlus](../dev-itpro/media/batchprocessing.png "Pakktöötlus ja korduvus") 
+![Pakktöötlus.](../dev-itpro/media/batchprocessing.png "Pakktöötlus ja korduvus") 
 5. Klõpsake valikut Korduvus.
 6. Sisestage kuupäev väljale Alguskuupäev.
 7. Sisestage kellaaeg väljale Algusaeg.

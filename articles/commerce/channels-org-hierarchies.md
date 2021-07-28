@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4238d1aa277bf2f1df30825ef20dbf3095d13ebc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800563"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346004"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organisatsiooni hierarhiate häälestus
 
@@ -54,7 +54,7 @@ Organisatsiooni hierarhia loomiseks toimige järgmiselt.
 
 Järgmine pilt näitab organisatsiooni hierarhia näidet, mis on loodud fiktiivsete "Adventure Works" kauplusteketi jaoks.
 
-![Organisatsiooni hierarhia näide](media/organizational-hierarchies.png)
+![Organisatsiooni hierarhia näide.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Organisatsioonide lisamine hierarhiasse
 
@@ -67,7 +67,7 @@ Hierarhiale organisatsioonide lisamiseks toimige järgmiselt.
 
 Järgmine pilt näitab hierarhia juurele lisatud juriidilist isikut nelja lisatud kulukeskusega kanalitele "Ostukeskus", "Outlet-pood", "Veeb" ja "Kõnekeskus". Seejärel saab igale lisada erinevaid jaemüügi-, kõnekeskuse- ja veebikanaleid.
 
-![Hierarhia kujundaja näide](media/hierarchy-designer.png)
+![Hierarhia kujundaja näide.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

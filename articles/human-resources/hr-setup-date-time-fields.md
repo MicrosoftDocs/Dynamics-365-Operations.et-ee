@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051733"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356556"
 ---
 # <a name="understand-date-and-time-fields"></a>Kuupäeva ja kellaaja väljade ülevaade
 
@@ -36,13 +36,13 @@ ms.locfileid: "6051733"
 
 Kui kuvate andmeid väljal **Kuupäev ja kellaaeg**, kohandab Human Resources kuupäeva ja kellaaja vastavalt kasutaja ajavööndile, mis on seatud vormis **Kasutaja valikud** (**Üldine > Häälestus > Kasutaja valikud**). Väljale sisestatud kuupäeva ja kellaaja teave ei pruugi olla sama, mis andmebaasi kirjutatud teave.
 
-[![Kasutaja valikute vorm](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Kasutaja valikute vorm.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Kuupäeva ja kellaaja väljadest arusaamine vormides 
 
 Ekraanil kuvatavad **kuupäev ja kellaaeg** ei ole andmebaasi salvestatud andmetega samad, kui kasutaja ajavööndiks ei ole seatud UTC. **Kuupäeva ja kellaaja** väljade andmed talletatakse alati UTC-s.
 
-[![Töötaja vormi UTC](./media/worker-form.png)](./media/worker-form.png)
+[![Töötaja UTC vorm.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Kuupäeva ja kellaaja väljadest arusaamine andmebaasis 
 
@@ -52,7 +52,7 @@ Kui Human Resources kirjutab andmebaasi **kuupäeva ja kellaaja** väärtuse, ta
   
 Alltoodud näites muutub töötaja 000724 töösuhe aktiivseks samal ajal, sõltumata ajavööndist. Töötaja on aktiivne 04/30/2019 GMT ajavööndis, mis on sama, mis 05/01/2019 GMT + 12:00-ajavöönd. Mõlemad viitavad samale ajale ja mitte kindlale kuupäevale. 
 
-[![Töötaja vormi GMT](./media/worker-form2.png)](./media/worker-form2.png)
+[![Töötaja GMT vorm.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Kuupäeva ja kellaaja andmed andmehaldusraamistikus, Excelis, ühises andmeteenuses Dataverse ja teenuses Power BI. 
 
@@ -68,27 +68,27 @@ Kui kasutate välisallikaid, nagu DMF, et vaadata või luua andmeid, pidage meel
 
 **Rakenduse Human Resources kasutaja ajavööndiks on seatud UTC**
 
-[![Töötaja vorm seatud UTC-le](./media/worker-form3.png)](./media/worker-form3.png)
+[![Töötaja vorm seatud UTC-le.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Rakenduse Human Resources kasutaja ajavööndiks on seatud GMT +12.00** 
 
-[![Töötaja vorm seatud GMT-le](./media/worker-form4.png)](./media/worker-form4.png)
+[![Töötaja vorm seatud GMT-le.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel OData kaudu**
 
-[![Excel Via OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel Via OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **DMFi ajastamine**
 
-[![DMFi ajastamine](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![DMFi ajastamine.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **DMFi eksport**
 
-[![DMF eksport](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF Eksport.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel läbi Dataverse**
 
-[![Excel läbi Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel läbi rakenduse Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Vt ka
 
