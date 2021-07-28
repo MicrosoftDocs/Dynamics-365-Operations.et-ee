@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744023"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344293"
 ---
 # <a name="configure-and-filter-workspaces"></a>Tööruumide konfigureerimine ja filtreerimine
 
@@ -32,11 +32,11 @@ Selles artiklis antakse ülevaade tööruumide konfigureerimisest ja filtreerimi
 
 Saate mõne tööruumi välimust ja toimimist muuta, värskendades kogu tööruumile rakenduvaid sätteid. Kui tööruumi saab konfigureerida, sisaldab toimingupaan nuppu, mis juhendab teid konfiguratsiooni muutmiseks seda klõpsama. Näiteks järgmisel joonisel on nupu nimi **Konfigureeri minu tööruumi**.
 
-[![tööruumide-konfigureerimine-ja-filtreerimine](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![tööruumide-konfigureerimine-ja-filtreerimine.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Nupu klõpsamisel ilmub dialoog, kus saate muuta tööruumi eelnevalt määratletud sätteid. Konkreetsed sätted, mida selles dialoogis näete, on iga tööruumi puhul erinevad ja olenevad konkreetsetest juhtelementidest ja äriandmetest, mida tööruumis kasutada saab.
 
-[![minu-tööruumi-konfigureerimine](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![minu-tööruumi-konfigureerimine.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Tööruumi filtreerimine
 
@@ -46,11 +46,11 @@ Paljud töökohad võimaldavad neis kuvatavat sisu filtreerida. Saadaolevad juht
 
 Tööruumiülese filtriga saate filtreerida kogu tööruumi. Tööruumiülene filter on tööruumi ülemises vasakpoolses nurgas. Rippmenüüst konkreetse väärtuse valimisel filtreeritakse tööruumi sisu selle valiku põhjal.
 
-[![tööruumi-filter](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![tööruumi-filter.](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Kui filtri avamiseks klõpsate, antakse teile mitu valikut.
 
-[![tööruumi-laiendatud-filter](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![tööruumi-laiendatud-filter.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Tehke valik tööruumi filtreerimiseks selle valiku põhjal.
 
@@ -58,7 +58,7 @@ Tehke valik tööruumi filtreerimiseks selle valiku põhjal.
 
 Kui tööruumis üksikutel osadel on filtrid, saate filtreerida igat osa eraldi. Järgmisel joonisel on filter (väli, millel on tekst Filter) vabas vormis tekstivälja filtri näidis.
 
-[![tööruumi-osa-filtrid](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![tööruumi-osa-filtrid.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Nagu tööruumiülese filtri puhul, saate valida või sisestada väljale väärtuse, et selle osa sisu filtreerida.
 

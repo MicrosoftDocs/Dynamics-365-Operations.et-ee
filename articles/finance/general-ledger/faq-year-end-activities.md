@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822827"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345472"
 ---
 # <a name="year-end-activities-faq"></a>Aastalõpu tegevuste KKK 
 
@@ -29,7 +29,7 @@ See teema on koostatud selleks, et aidata teil teha vajalikud aastalõpu sulgemi
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Pearaamat: kuidas ma tean, et me teeme aastalõpu sulgemise käivitamise ja mitte tagasivõtmise?
 Olen näinud, kuidas organisatsioon proovib aastalõpu sulgemist käivitada, kuid teeb selle asemel aastalõpu sulgemise tagasivõtmise. Kui aastalõpu sulgemine jõuab liiga kiiresti lõpule või aastalõpu sulgemine ei tekita algsaldosid, kontrollige sätet **Eelmise sulgemise tagasivõtmine** jaotises **Aastalõpu sulgemine** (**Pearaamat > Perioodi sulgemine > Aastalõpu sulgemine > Rahandusaasta sulgemise käivitamine**). 
 
-[![Aastalõpu sulgemise käivitamine vs aastalõpu sulgemise tagasivõtmine](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![Aastalõpu sulgemise käivitamine vs aastalõpu sulgemise tagasivõtmine.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
 Kui valik **Eelmise sulgemise tagasivõtmine** on määratud olekusse **Jah**, siis eelmine aastalõpu sulgemine tühistatakse. Tagasivõtmise käivitamisel kustutatakse kõik sulgemissaldo ja algsaldo kirjed, justkui aastalõpu sulgemist ei oleks kunagi käivitatud. Kanded kustutatakse. Aastalõpu sulgemist ei käivitata automaatselt uuesti. Peate ise protsessi uuesti käivitama, määrates valiku **Eelmise sulgemise tagasivõtmine** olekuks nüüd **Ei**. 
 
@@ -39,11 +39,11 @@ Kui valik **Eelmise sulgemise tagasivõtmine** on määratud olekusse **Jah**, s
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Pearaamat: mille poolest erinevad pearaamatu aastalõpu sulgemise parameetrid Tagasivõtmine ja Kustutamine?
 Parameetri **Eelmise sulgemise tagasivõtmine**, mis asub dialoogiboksis **Aastalõpu sulgemine**, ja pearaamatus asuva parameetri **Aasta lõpetamise kannete kustutamine ülekandmisel** (**Pearaamat > Perioodi sulgemine > Aastalõpu sulgemine > Rahandusaasta sulgemise käivitamine**) eristamine võib tekitada segadust.  
 
-[![Pearaamatu aastalõpu sulgemise parameetrite Tagasivõtmine ja Kustutamine erinevus](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![Pearaamatu aastalõpu sulgemise parameetrite Tagasivõtmine ja Kustutamine erinevus.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
 Aastalõpu sulgemise protsessi käivitamisel valige rippdialoogis **Eelmise sulgemise tagasivõtmine**, et kustutada kõik sulgemissaldo ja algsaldo kirjed, justkui aastalõpu sulgemist poleks käivitatud. Kanded kustutatakse. Aastalõpu sulgemist ei käivitata automaatselt uuesti. Aastalõpu sulgemise käivitamiseks peate selle protsessi uuesti algatama, määrates valiku **Eelmise sulgemise tagasivõtmine** olekuks nüüd **Ei** (**Pearaamat > Pearaamatu seadistamine > Pearaamatu parameetrid**). 
 
-[![Pearaamatu parameetri seadistamine](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![Pearaamatu parameetri seadistamine.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
 Pearaamatu parameetrit **Aasta lõpetamise kannete kustutamine ülekandmisel** kasutatakse ainult siis, kui käivitatakse (mitte ei võeta tagasi) aastalõpu sulgemine (valiku **Eelmise sulgemise tagasivõtmine** on määratud olekusse **Ei**). Kui selle parameetri olekuks on määratud **Jah**, kustutatakse kõik sulgemissaldo ja algsaldo kirjed ning aastalõpu sulgemine käivitatakse uuesti. Seda protsessi kasutatakse siis, kui organisatsioon soovib sisestada kõik kanded (sh pärast eelmist aastalõpu sulgemist tehtud korrigeerimised) sulgemissaldo ja algsaldo kirjete ühte raamatupidamise kirjesse. 
 
@@ -60,7 +60,7 @@ Aastalõpu sulgemisel käivitamisel luuakse iga dimensioonikogumi saldo uuesti j
 
 Mittevajalikud dimensioonikogumid mõjutavad ka pakett-tööd **BudgetDimensionFocusInitializeBalance** (**Pearaamat > Kontoplaan > Dimensioonid > Finantsdimensioonikogumid**).
 
-[![Finantsdimensioonikomplektid](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![Finantsdimensioonikomplektid.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Aastalõpu sulgemise malli konfigureerimine
 Aastalõpu sulgemise mall võimaldab organisatsioonil valida finantsdimensiooni taseme, mida hoitakse kasumi- ja kahjumisaldode ülekandmisel jaotamata kasumisse. Sätted võimaldavad organisatsioonil saldode jaotamata kasumisse teisaldamisel hoida alles üksikasjalikke finantsdimensioone (**Sule kõik**) või summeerida summad ühele dimensiooniväärtusele (**Sule üks**). Selle saab määratleda iga finantsdimensiooni jaoks. Lisateavet nende sätete kohta vt teemast [Aastalõpu sulgemine](year-end-close.md).
@@ -72,14 +72,14 @@ Kui olete pärast organisatsiooni viimast aastalõpu sulgemist teinud värskendu
  
 ## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Pearaamat – mida Perioodi sulgemine - Aastalõpu sulgemine teeb?
  
-[![Perioodi sulgemine, aastalõpu sulgemine](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![Perioodi sulgemine, aastalõpu sulgemine.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
 ### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks (uus funktsioon)
 Versioonile 10.0.16 lisatud uus funktsioon parendab aastalõpu sulgemise ja konsolideerimise protsesside jõudlust. Funktsiooni nimeks on Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks. See funktsioon muudab dimensioonikogumite uuesti loomise viisi nii, et need luuakse uuesti ainult asjakohase ajavahemiku jaoks. Eelmistes versioonides loodi dimensioonikogumid uuesti kõigi kuupäevade jaoks. Näiteks kui sulgete aasta 2020, loob süsteem uuesti ainult 2020. rahandusaasta kannete saldod. Kui käivitate konsolideerimise kuupäevavahemikule 1. november 2020 kuni 30. november 2020, loob süsteem uuesti saldod ainult selle kuupäevavahemiku jaoks.
 
 Kuna seda funktsiooni loetakse murranguliseks muudatuseks, peate selle **funktsioonihalduse** tööruumi kaudu lubama.
  
-[![Aastalõpu sulgemine](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+[![Aastalõpu sulgemine.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Ostureskontro: millised muudatused on tehtud 1099 aastalõpu aruandluse toetamiseks 2020. aastal?
 
@@ -114,15 +114,15 @@ Ei. Uuenda 1099 protseduur tehakse ühele hankijale korraga. Kui teie organisats
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Ostureskontro: 1099 – „Olemasolevate 1099 summade uuesti arvutamine“ vs „Kõikide uuendamine“ utiliidis Uuenda 1099.
 Märkeruut **Olemasolevate 1099 summade uuesti arvutamine** lähtestab 1099 summa kokku tasustatud väärtustele, kui seda kasutatakse koos märkeruuduga **Kõikide uuendamine**. 
 
-[![Maksu 1099 kanded: enne uuendamisprotseduuri käivitamist](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+[![Maksu 1099 kanded: enne uuendamisprotseduuri käivitamist.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
 Märkeruut **Olemasolevate 1099 summade uuesti arvutamine** tuleb mängu alles siis, kui arvel on osalisi 1099 väärtusi või seda muudeti Maksu 1099 vormil. Oletagem näiteks, et teil on arve väärtusega 1000.00 $, kuid kasutaja tipib käsitsi 1099-summa 500.00 $ suurusele arvele.
 
-[![Maksu 1099 kanded: valikute Kõikide uuendamine ja Olemasolevate 1099 summade uuesti arvutamine korraga märkimine](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+[![Maksu 1099 kanded: valikute Kõikide uuendamine ja Olemasolevate 1099 summade uuesti arvutamine korraga märkimine.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
 Selle tasumisel on 500.00 $ tasutud 1099-summa. Kui teete ümberarvutamisprotseduuri, muudab süsteem 1099-summa väärtuseks 1000.00 $, mis on tasutud kogusumma.
 
-[![Maksu 1099 kanded: pärast 1099-protseduuri käivitamist](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![Maksu 1099 kanded: pärast 1099-protseduuri käivitamist.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Ostureskontro: 1099 – 1099-kannete käsitsi loomine
 Organisatsioonil võib olla vaja luua käsitsi 1099-kandeid, mis pole arvega seostatud. 1099 kannete käsitsi lisamiseks valige **Ostureskontro > Perioodilised ülesanded > Maks 1099 > 1099-te hankija tasakaalustus**. Valige nupp **Käsitsi 1099 kanded**. 

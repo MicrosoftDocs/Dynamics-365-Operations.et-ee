@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91b19598075871dcfaed3ad9978aa8fe8181aa6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9440471d6983136971878c8ee9e327d4dd407833
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836658"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346150"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tehnilise muudatuse haldamise funktsiooni juhis
 
@@ -57,7 +57,7 @@ Tehnikaorganisatsioon omab tehnilisi andmeid ning vastutab toote kujunduse ja to
     - **Tehnikaorganisatsioon:** *DEMF*
     - **Organisatsiooni nimi:** *Contoso Entertainment System Germany*
 
-    ![Tehnikaorganisatsiooni lisamine](media/engineering-org.png "Tehnikaorganisatsiooni lisamine")
+    ![Tehnikaorganisatsiooni lisamine.](media/engineering-org.png "Tehnikaorganisatsiooni lisamine")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>Versiooni tootedimensiooni grupi seadistamine
 
@@ -67,7 +67,7 @@ Tehnikaorganisatsioon omab tehnilisi andmeid ning vastutab toote kujunduse ja to
 1. Valige **Salvesta**, et salvestada uus dimensioon ja laadida väärtused kiirkaardile **Tootedimensioonid**.
 1. Seadke kiirkaardil **Tootedimensioonid** dimensioon **Versioon** aktiivseks tootedimensiooniks.
 
-    ![Tootedimensioonigrupi lisamine](media/product-dimension-groups.png "Tootedimensioonigrupi lisamine")
+    ![Tootedimensioonigrupi lisamine.](media/product-dimension-groups.png "Tootedimensioonigrupi lisamine")
 
 ### <a name="set-up-product-lifecycle-states"></a>Toote elutsükli olekute seadistamine
 
@@ -82,7 +82,7 @@ Tähtis on, et saaksite kontrollida, millised kanded on igas töötsükli olekus
 1. Valige **Salvesta**, et salvestada uus töötsükli olek ja laadida väärtused kiirkaardile **Lubatud äriprotsessid**.
 1. Valige kiirkaardil **Lubatud äriprotsessid** sellised äriprotsessid, mis peaksid saadaval olema. Selle näite puhul jätke kõigi äriprotsesside korral välja **Poliitika** väärtuseks *Lubatud*.
 
-    ![Töötsükli oleku jaoks äriprotsesside lubamine](media/product-lifecycle-states-1.png "Töötsükli oleku jaoks äriprotsesside lubamine")
+    ![Töötsükli oleku jaoks äriprotsesside lubamine.](media/product-lifecycle-states-1.png "Töötsükli oleku jaoks äriprotsesside lubamine")
 
 1. Valige **Uus**, et lisada veel üks töötsükli olek, ja seejärel määrake sellele järgmised väärtused.
 
@@ -92,7 +92,7 @@ Tähtis on, et saaksite kontrollida, millised kanded on igas töötsükli olekus
 1. Valige **Salvesta**, et salvestada uus töötsükli olek ja laadida väärtused kiirkaardile **Lubatud äriprotsessid**.
 1. Valige kiirkaardil **Lubatud äriprotsessid** sellised äriprotsessid, mis peaksid saadaval olema. Selle näite puhul määrake kõigi äriprotsesside korral välja **Poliitika** väärtuseks *Lubatud koos hoiatusega*.
 
-    ![Töötsükli oleku jaoks äriprotsesside lubamine (koos hoiatustega)](media/product-lifecycle-states-2.png "Töötsükli oleku jaoks äriprotsesside lubamine (koos hoiatustega)")
+    ![Töötsükli oleku jaoks äriprotsesside lubamine (koos hoiatustega).](media/product-lifecycle-states-2.png "Töötsükli oleku jaoks äriprotsesside lubamine (koos hoiatustega)")
 
 ### <a name="set-up-a-version-number-rule"></a>Versiooninumbri reegli seadistamine
 
@@ -103,7 +103,7 @@ Tähtis on, et saaksite kontrollida, millised kanded on igas töötsükli olekus
     - **Numbri reegel:** *automaatne*
     - **Vorming:** *V-\#\#*
 
-    ![Tooteversiooni numbri reegli lisamine](media/version-number-rule.png "Tooteversiooni numbri reegli lisamine")
+    ![Tooteversiooni numbri reegli lisamine.](media/version-number-rule.png "Tooteversiooni numbri reegli lisamine")
 
 ### <a name="set-up-a-product-release-policy"></a>Toote väljastamise poliitika seadistamine
 
@@ -135,7 +135,7 @@ Tähtis on, et saaksite kontrollida, millised kanded on igas töötsükli olekus
     - **Kopeeri protsessi kinnitus:** märkige see märkeruut.
     - **Kopeeri protsessi aktiveerimine:** märkige see märkeruut.
 
-    ![Toote väljastamise poliitika lisamine](media/product-release-policy.png "Toote väljastamise poliitika lisamine")
+    ![Toote väljastamise poliitika lisamine.](media/product-release-policy.png "Toote väljastamise poliitika lisamine")
 
 ### <a name="set-up-an-engineering-product-category"></a>Tehnilise toote kategooria seadistamine 
 
@@ -160,7 +160,7 @@ Tehnilise toote kategooriad on alused tehniliste toodete loomiseks (st toodeteks
 1. Seadke kiirkaardil **Väljastamise poliitika** välja **Toote väljastamise poliitika** väärtuseks *Komponendid*.
 1. Valige käsk **Salvesta**.
 
-    ![Tehnilise toote kategooria lisamine](media/product-category-details.png "Tehnilise toote kategooria lisamine")
+    ![Tehnilise toote kategooria lisamine.](media/product-category-details.png "Tehnilise toote kategooria lisamine")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Toote heakskiitmise tingimuste seadistamine
 
@@ -168,7 +168,7 @@ Tehnilise toote kategooriad on alused tehniliste toodete loomiseks (st toodeteks
 1. Valige **Tehnilise muudatuse haldamine &gt; Seadistus &gt; Tehnilise muudatuse haldamise parameetrid**.
 1. Seadke vahekaardil **Väljastamise juhtimine** jaotises **Toote heakskiitmine** välja **Toote heakskiitmine** väärtuseks *Käsitsi*.
 
-    ![Toote heakskiitmise tingimuste seadistamine](media/engineering-change-management-parameters.png "Toote heakskiitmise tingimuste seadistamine")
+    ![Toote heakskiitmise tingimuste seadistamine.](media/engineering-change-management-parameters.png "Toote heakskiitmise tingimuste seadistamine")
 
 ## <a name="create-a-new-engineering-product"></a>Uue tehnilise toote loomine
 
@@ -187,23 +187,23 @@ Tehniline toode on toode, mille versioone luuakse ja mida juhitakse tehnilise mu
     - **Toote number:** *Z0001*
     - **Toote nimi:** *kõlarid*
 
-    ![Tehnilise toote lisamine](media/new-product-dialog.png "Tehnilise toote lisamine")
+    ![Tehnilise toote lisamine.](media/new-product-dialog.png "Tehnilise toote lisamine")
 
     Võtke arvesse, et väli **Versioon** määratakse automaatselt, kasutades varem seadistatud tooteversiooni numbri reeglit.
 
 1. Valige toote loomiseks ja dialoogiboksi sulgemiseks **OK**.
 1. Avatakse uue toote üksikasjade leht. Pange tähele, et mõne välja, nt **Laoala dimensiooni grupp**, **Jälgimisdimensiooni grupp** ja/või **Kauba mudeligrupp**, väärtused on juba määratud. Need väljad määrati automaatselt, kuna toode väljastatakse juriidilises isikus *DEMF* ja see kasutab toote väljastamise poliitikat *Komponendid*, mis on seotud tehnilise toote kategooriaga *Komponendid*. Kuna kasutasite varem mallina üksust *D0006*, et seadistada rida juriidilise isiku *DEMF* jaoks, võeti täidetud väärtused üksusest *D0006*.
 
-    ![Väljastatud toote üksikasjad](media/product-details.png "Väljastatud toote üksikasjad")
+    ![Väljastatud toote üksikasjad.](media/product-details.png "Väljastatud toote üksikasjad")
 
 1. Valige toimingupaanil vahekaardil **Projekteerimine** grupis **Tehnilise muudatuse haldamine** suvand **Tehnilised versioonid**, et vaadata toote versioone.
 
-    ![Tehnilised versioonid](media/engineering-versions-list.png "Tehnilised versioonid")
+    ![Tehnilised versioonid.](media/engineering-versions-list.png "Tehnilised versioonid")
 
 1. Pange tähele, et lehel **Tehnilised versioonid** on toote jaoks on ainult üks versioon ja see on aktiivne.
 1. Valige versioon selle üksikasjade kuvamiseks.
 
-    ![Tehnilise versiooni üksikasjad](media/engineering-version-details.png "Tehnilise versiooni üksikasjad")
+    ![Tehnilise versiooni üksikasjad.](media/engineering-version-details.png "Tehnilise versiooni üksikasjad")
 
 1. Valige lehel **Tehniline versioon** kiirkaardil **Kooslus** suvand **Loo kooslus**.
 1. Määrake dialoogiboksis **Koosluse loomine** järgmised väärtused.
@@ -212,25 +212,25 @@ Tehniline toode on toode, mille versioone luuakse ja mida juhitakse tehnilise mu
     - **Nimi:** kõlarid
     - **Tegevuskoht:** 1
 
-    ![BOM-i loomine](media/create-bom.png "Koosluse loomine")
+    ![BOM-i loomine.](media/create-bom.png "Koosluse loomine")
 
 1. Valige koosluse lisamiseks ja dialoogiboksi sulgemiseks **OK**.
 1. Valige kiirkaardil **Kooslused** suvand **Kooslus**.
 1. Lisage lehel **Kooslus** kiirkaardil **Koosluseread** kolm rida, üks igale järgmisele kaubakoodile: *D0001*, *D0003* ja *D0006*.
 
-    ![Koosluseridade lisamine](media/bom.png "Koosluseridade lisamine")
+    ![Koosluseridade lisamine.](media/bom.png "Koosluseridade lisamine")
 
 1. Valige käsk **Salvesta**.
 1. Sulgege leht.
 1. Valige lehel **Tehniline versioon** kiirkaardil **Kooslus** suvand **Kinnita**.
 1. Kuvatavas dialoogiboksis tehke valik **OK**.
 
-    ![Koosluse kinnitamine](media/approve-dialog.png "Koosluse kinnitamine")
+    ![Koosluse kinnitamine.](media/approve-dialog.png "Koosluse kinnitamine")
 
 1. Valige lehel **Tehniline versioon** kiirkaardil **Kooslus** suvand **Aktiveeri**.
 1. Pange tähele, et koosluse jaoks on valitud märkeruudud **Aktiivne** ja **Kinnitatud**.
 
-    ![Aktiivne ja kinnitatud kooslus](media/approved-bom.png "Aktiivne ja kinnitatud kooslus")
+    ![Aktiivne ja kinnitatud kooslus.](media/approved-bom.png "Aktiivne ja kinnitatud kooslus")
 
 1. Sulgege leht.
 
@@ -244,25 +244,25 @@ Tehniline osakond on nüüd toote kujundanud. Selle näite puhul on toode protot
 1. Valige toimingupaanil vahekaardil **Toode** grupis **Haldamine** suvand **Väljasta tootestruktuur**, et avada viisard **Toodete väljastamine**.
 1. Valige lehel **Väljastatavate tehniliste toodete valimine** toote **Z0001** korral märkeruut *Vali*.
 
-    ![Väljastatavate tehniliste toodete valimine](media/select-eng-product-to-release.png "Väljastatavate tehniliste toodete valimine")
+    ![Väljastatavate tehniliste toodete valimine.](media/select-eng-product-to-release.png "Väljastatavate tehniliste toodete valimine")
 
 1. Valige **Väljastamise üksikasjad**.
 1. Kuvatakse leht **Toote väljastamise üksikasjad**, kus saate vaadata väljastatud toote üksikasju ja selle struktuuri. Pange tähele, et suvandi **Saada kooslus** väärtuseks on valitud *Jah*. Seetõttu väljastatakse nii toode *Z0001* kui ka kõik kooslusest pärit tütarüksused.
 
     Saate valida mis tahes tütarüksuse vasakul paanil selle üksikasjade ülevaatamiseks. Kui mis tahes tütarüksusel on kooslus, saate väljastada ka selle tütarüksuse koosluse.
 
-    ![Toote väljastamise üksikasjade ülevaatamine](media/product-release-details.png "Toote väljastamise üksikasjade ülevaatamine")
+    ![Toote väljastamise üksikasjade ülevaatamine.](media/product-release-details.png "Toote väljastamise üksikasjade ülevaatamine")
 
 1. Sulgege leht, et naasta viisardi **Toodete väljastamine** juurde.
 1. Valige **Järgmine**, et avada leht **Väljastatavate toodete valimine**. Kui valisite mõne standardse (mitte tehnilise) toote, kuvatakse need sellel lehel. Võtke arvesse, et kui te väljastate standardse toote suvandi **Väljasta tootestruktuur** kaudu, väljastatakse ka selle kooslus ja protsess.
 
-    ![Väljastatavate standardsete toodete valimine](media/select-std-product-to-release.png "Väljastatavate standardsete toodete valimine")
+    ![Väljastatavate standardsete toodete valimine.](media/select-std-product-to-release.png "Väljastatavate standardsete toodete valimine")
 
 1. Valige **Järgmine**, et avada leht **Väljastatavate tootevariantide valimine**. Selle näite korral variandid puuduvad.
 1. Valige **Järgmine**, et avada leht **Ettevõtete valimine**.
 1. Valige ettevõtted, millele toode tuleb väljastada. Selle näite korral valige märkeruut ettevõtte **USMF** jaoks.
 
-    ![Ettevõtete valimine neile väljastamiseks](media/select-release-companies.png "Ettevõtete valimine neile väljastamiseks")
+    ![Ettevõtete valimine neile väljastamiseks.](media/select-release-companies.png "Ettevõtete valimine neile väljastamiseks")
 
 1. Valige **Järgmine**, et avada leht **Valiku kinnitamine**.
 1. Valige **Lõpeta**.
@@ -280,7 +280,7 @@ Toote ülevaatamiseks ja väljastamiseks ettevõttes *USMF* toimige järgmiselt.
 
     Lehel **Avatud tooteväljastused** on toode *Z0001*, mille olek on *Heakskiitmise ootel*.
 
-    ![Avatud tooteväljastused](media/open-product-releases.png "Ava tooteväljastused")
+    ![Avatud tooteväljastused.](media/open-product-releases.png "Ava tooteväljastused")
 
 1. Valige veeruus **Tootenumber** olev väärtus, et avada leht **Toote väljastamise üksikasjad**. Pange tähele järgmiseid üksikasju.
 
@@ -288,7 +288,7 @@ Toote ülevaatamiseks ja väljastamiseks ettevõttes *USMF* toimige järgmiselt.
     - Kiirkaardil **Väljastamise üksikasjad** on teave toote ja väljastatud versiooni kohta. Siin saate muuta sätteid, nt kehtivuskuupäevi.
     - Kiirkaardil **Protsess** on toote protsess. Kuid selle näite puhul ei väljastanud te ühtegi protsessi.
 
-    ![Tooteväljastuse üksikasjad](media/product-release-details-2.png "Tooteväljastuse üksikasjad")
+    ![Tooteväljastuse üksikasjad.](media/product-release-details-2.png "Tooteväljastuse üksikasjad")
 
 1. Kui olete teabe läbivaatamise lõpetanud, olete valmis tooted heaks kiitma ja sel viisil väljastama selle ettevõttes *USMF*. Valige toimingupaanil **Tegevused &gt; Kiida heaks**.
 1. Toode väljastatakse nüüd ettevõttele *USMF*. Avage **Tooteteabe haldus &gt; Tooted &gt; Väljastatud tooted**. Peaksite nägema kaupa *Z0001*.
@@ -304,7 +304,7 @@ Ettevõtte *USMF* koondandmete haldur soovib veenduda , et toote olek on *Protot
 1. Valige toimingupaanil vahekaardil **Toode** grupis **Töötsükli olek** suvand **Muuda töötsükli olekut**.
 1. Määrake rippmenüüs **Töötsükli oleku muutmine** välja **Olek** väärtuseks *Prototüüp* ja seejärel valige **OK**.
 
-    ![Töötsükli oleku muutmine](media/change-lifecycle-state.png "Töötsükli oleku muutmine")
+    ![Töötsükli oleku muutmine.](media/change-lifecycle-state.png "Töötsükli oleku muutmine")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Tehnilise toote lisamine müügitellimusele
 
@@ -318,7 +318,7 @@ Toodet saab nüüd kliendile müüa. Toote lisamiseks müügitellimusele järgig
 
     Kuvatakse hoiatusteade, mis teavitab teid, et kauba olek on *Prototüüp*. Kuid kuna see on ainult hoiatus, loodi müügitellimus ikkagi.
 
-    ![Tehnilise toote müügitellimus](media/sales-order-eng-product.png "Tehnilise toote müügitellimus")
+    ![Tehnilise toote müügitellimus.](media/sales-order-eng-product.png "Tehnilise toote müügitellimus")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Tehnilise toote muudatuste taotlemine
 
@@ -328,7 +328,7 @@ Toode saadeti kliendile, kuid klient ei olnud täielikult rahul ja annab tagasis
 1. Otsige üles ja avage eelmises harjutuses loodud müügitellimus.
 1. Valige kiirkaardil **Müügitellimuse read** jaotis **Tehnilise muudatuse haldamine &gt; Uus tehnilise muudatuse taotlus**.
 
-    ![Tehnilise muudatuse taotluse loomine müügitellimuse põhjal](media/sales-order-eng-change-request.png "Tehnilise muudatuse taotluse loomine müügitellimuse põhjal")
+    ![Tehnilise muudatuse taotluse loomine müügitellimuse põhjal.](media/sales-order-eng-change-request.png "Tehnilise muudatuse taotluse loomine müügitellimuse põhjal")
 
 1. Täitke tehnilise muudatuse taotlus, mis põhineb kliendi tagasisidel. Seadke selle näite korral järgmised väärtused.
 
@@ -341,7 +341,7 @@ Toode saadeti kliendile, kuid klient ei olnud täielikult rahul ja annab tagasis
 1. Valige kiirkaardil **Teave** suvand **Uus &gt; Märkus**, et lisada märkus ruudustikku.
 1. Näidake uue märkuse väljal **Kirjeldus**, et kaup *D0003* tuleks kooslusest kustutada. Kui peate märkusele lisama lisateavet, saate sisestada teksti väljale **Märkused**.
 
-    ![Tehnilise muudatuse taotlus](media/eng-change-request.png "Tehnilise muudatuse taotlus")
+    ![Tehnilise muudatuse taotlus.](media/eng-change-request.png "Tehnilise muudatuse taotlus")
 
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Pange tähele, et kaup on automaatselt lisatud kiirkaardile **Tooted** ja tehnilise muudatuse taotluse allikas (müügitellimus) on lisatud kiirkaardile **Allikas**.
@@ -370,26 +370,26 @@ Insener vaatab nüüd kliendi taotluse üle ja loob toote jaoks muudatuse tellim
     - **Toode:** *Z0001*
     - **Mõju:** *uus versioon*
 
-    ![Tehnilise muudatuse tellimuse loomine](media/eng-change-order.png "Tehnilise muudatuse tellimuse loomine")
+    ![Tehnilise muudatuse tellimuse loomine.](media/eng-change-order.png "Tehnilise muudatuse tellimuse loomine")
 
 1. Pange tähele, et kuna määrate välja **Mõju** väärtuseks *Uus versioon*, näitab väli **Uus versioon**, mis asub kiirkaardi **Toote üksikasjad** vahekaardil **Üksikasjad**, uue versiooni numbrit (*V-02* selle näite puhul).
 
-    ![Tehnilise muudatuse tellimuse toote üksikasjad](media/eng-change-order-product-details.png "Tehnilise muudatuse tellimuse toote üksikasjad")
+    ![Tehnilise muudatuse tellimuse toote üksikasjad.](media/eng-change-order-product-details.png "Tehnilise muudatuse tellimuse toote üksikasjad")
 
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Valige kiirkaardil **Toote üksikasjad** vahekaardil **Kooslus** suvand **Read**, et avada toote *Z0001* versioon *V-01*.
 
-    ![Tehnilise toote koosluseread](media/eng-product-bom-lines.png "Tehnilise toote koosluseread")
+    ![Tehnilise toote koosluseread.](media/eng-product-bom-lines.png "Tehnilise toote koosluseread")
 
 1. Valige kaubakoodi *D0003* rida ja seejärel valige toimingupaanil käsk **Kustuta**. Selle rea välja **Muudatuse tüüp** väärtuseks muutub *Kustutatud*.
 1. Valige toimingupaanil nupp **Salvesta**.
 
-    ![Muudetud tehnilise toote koosluseread](media/eng-product-bom-lines-modified.png "Muudetud tehnilise toote koosluseread")
+    ![Muudetud tehnilise toote koosluseread.](media/eng-product-bom-lines-modified.png "Muudetud tehnilise toote koosluseread")
 
 1. Sulgege leht **Koosluserida**, et naasta lehele **Tehnilise muudatuse tellimus**.
 1. Pange tähele, et kiirkaardil **Toote üksikasjad** vahekaardil **Kooslus** on koosluse **Z0001** välja *Muudatuse tüüp* väärtus nüüd *Muudetud*.
 
-    ![Tehnilise muudatuse tellimus, mis sisaldab muudetud kooslust](media/eng-change-order-changed-bom.png "Tehnilise muudatuse tellimus, mis sisaldab muudetud kooslust")
+    ![Tehnilise muudatuse tellimus, mis sisaldab muudetud kooslust.](media/eng-change-order-changed-bom.png "Tehnilise muudatuse tellimus, mis sisaldab muudetud kooslust")
 
     Tellimus tuleb enne muudatuste töötlemist kinnitada. Kui muudatusi töödeldakse, uuendatakse tooteid nii, nagu tehnilise muudatuse tellimuses kirjas. Selle näite puhul on kinnitajaks määratud isik, kes loob tehnilise muudatuse tellimuse.
 

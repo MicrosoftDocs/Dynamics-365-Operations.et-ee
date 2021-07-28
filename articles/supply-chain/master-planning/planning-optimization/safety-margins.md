@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908289"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347730"
 ---
 # <a name="safety-margins"></a>Ohutuspiirid
 
@@ -41,7 +41,7 @@ Ohutuspiire on kolme tüüpi.
 
 Järgmisel illustratsioonil on näidatud, kuidas need ohutuspiirid aja jooksul rakenduvad.
 
-![Ohutuspiirid](media/safety-margins-1.png)
+![Ohutuspiirid.](media/safety-margins-1.png)
 
 Kõik piirid määratletakse päevades. Vaikeväärtus *0* (null) tähendab, et piire pole rakendatud. Kui seadistate mitu piiri, lisatakse need kõik koondajale alates pakkumise *tellimuse kuupäevast* kuni nõudluse *vajaduse kuupäevani*. Näiteks pole seadistusel täitmisaega ja kõigi kolme piiri tüübi väärtuseks on määratud üks päev. Sel juhul on tarne tellimuse kuupäeva ja nõudluse vajaduse kuupäeva vahel kolm päeva, seega kui tellimuse kuupäev on 1. juuli, siis on vajaduse kuupäev 4. juuli.
 
@@ -51,7 +51,7 @@ Sissetuleku ohutusvaru on kolmest ohutuspiirist tõenäoliselt kõige kasutatava
 
 Järgmine illustratsioon tõstab esile sissetuleku ohutusvaru.
 
-![Sissetuleku ohutusvaru](media/safety-margins-2.png)
+![Sissetuleku ohutusvaru.](media/safety-margins-2.png)
 
 Sissetuleku ohutusvaru kasutatakse tavaliselt puhvrina, et varuda aega lao registreerimiseks või muudeks aeganõudvateks protsessideks, mida ei arvestata süsteemis üldise täitmisaja osana. Ostude korral on üheks eeliseks see, et ostutellimuse *tarnekuupäev* lükatakse edasi sellele vastavalt. Kui suurendate täitmisaega ohutuspiiri kasutamise aja asemel, palutakse viimasel minutil hankijal tarnida.
 
@@ -66,7 +66,7 @@ Pange tähele, et sissetuleku ohutusvaru ei rakendata, kui varuna kasutatakse va
 
 Järgmine illustratsioon tõstab esile lisatellimuse ohutusvaru.
 
-![Lisatellimuse ohutusvaru](media/safety-margins-3.png)
+![Lisatellimuse ohutusvaru.](media/safety-margins-3.png)
 
 Lisatellimuse ohutusvaru lisatakse koondplaneerimise käigus kõigile plaanitud tellimustele enne kauba täitmisaega. Seetõttu tagab see lisaaja tarne tellimuse tegemiseks. Seda varu kasutatakse tavaliselt puhvrina, et tagada piisavalt aega kinnitamisprotsessideks või muudeks sisemisteks protsessideks, mis on vajalikud tarnetellimuste loomisel. Lisatellimuse ohutusvaru lisatakse tarne *tellimuse kuupäeva* ja *alguskuupäeva* vahele.
 
@@ -77,7 +77,7 @@ Lisatellimuse ohutusvaru lisatakse koondplaneerimise käigus kõigile plaanitud 
 
 Järgmine illustratsioon tõstab esile väljamineku ohutusvaru.
 
-![Väljamineku ohutusvaru](media/safety-margins-4.png)
+![Väljamineku ohutusvaru.](media/safety-margins-4.png)
 
 Väljamineku ohutusvaru arvestatakse koondplaneerimise käigus nõudluse vajaduse kuupäevast. See aitab tagada, et teil on piisavalt aega reageerimiseks ja sissetulevatele nõudlustellimuste tarnimiseks. Seda ohutusvaru kasutatakse tavaliselt puhvrina, et varuda aega saadetise saatmiseks ja sellega seotud väljaminevateks laoprotsessideks.
 
@@ -165,7 +165,7 @@ Järgmisel illustratsioonil on kujutatud maatriks, mis annab kokkuvõtlikku teav
 - **Ladu (WH):** kollane
 - **Hankija (V):** sinine
 
-[![Kalendri seadistamise ülevaatlik maatriks](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Kalendri seadistamise ülevaatlik maatriks.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Hilinemiste arvutamine
 
@@ -173,11 +173,11 @@ Kui süsteem määrab, kas tellimus hilineb või mitte, kaasatakse kõik kolm oh
 
 Näiteks on kaubal tarneaeg üks päev ja sissetuleku ohutusvaru kolm päeva. Selle kauba müügitellimus on seatud nõutavaks täna. Sel juhul arvutatakse hilinemine järgmiselt: *täitmisaeg* + *sissetuleku ohutusvaru* = neli päeva. Seega, kui täna on 14. august, on tarneaeg neljapäevase hilinemise tõttu 18. august. Järgmisel illustratsioonil on toodud see näide.
 
-![Hilinemise arvutamise näide](media/safety-margins-delays.png)
+![Hilinemise arvutamise näide.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Planeerimise optimeerimisega alustamine](get-started.md)
+[Planeerimise optimeerimise kasutamise alustamine](get-started.md)
 
 [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129804"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345180"
 ---
 # <a name="create-returns-in-pos"></a>Tagastuste loomine müügikohas
 
@@ -48,7 +48,7 @@ Kui leitakse otsingukriteeriumega kattuv kanne või tellimus, kuvatakse lehekül
 
 Iga tagastatavate toodete loendis oleva tellimuse rea puhul näitab müügikoht teavet algse ostukoguse ja eelnevalt töödeldud tagastuste koguste kohta. Tagastuskogus, mille kasutaja tellimusereale sisestab, peab olema väiksem või võrdne kui väli **Tagastuseks saadav**.
 
-![Tagastatavate toodete leht](media/returnslist.png)
+![Tagastatavate toodete leht.](media/returnslist.png)
 
 Kui kasutajal on tagastuse töötlemisel füüsiline toode ja tootel on vöötkood, saab kasutaja tagastuse registreerimiseks vöötkoodi skannida. Iga vöötkoodi skannimine suurendab tagastatud kogust ühe kauba kaupa. Kui vöötkoodi sildil on manustatud kogus, sisestatakse kogus väljale **Tagastamine nüüd**.
 
@@ -97,6 +97,13 @@ Kui kanali poolne teave ei ole mõnel põhjusel uuendatud ja ühenduseta tagastu
 
 > [!NOTE]
 > Kui **ühtne tagastuste töötlemise kogemus kassas** funktsioon on sisse lülitatud, muutuvad kättesaadavaks uued valikulised funktsioonid, mis toetavad seeriaks jaotatud toote tagastuste kinnitamist. Lisateavet vt [müügikohas (POS) jaotisest Seerianumbriga kontrollitud toodete tagastus](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Luba osalise kogusega tagastuste korral nõuetekohane maksuarvutus
+
+Funktsioon tagab selle, et kui tellimus tagastatakse mitme arvega, võrduvad maksud lõpuks algselt tasutud maksusummaga.
+1.  Avage tööruum **Funktsioonihaldus** ja otsige märksõna **Luba osalise kogusega tagastuste korral nõuetekohane maksuarvutus**.
+2.  Valige **Luba osalise kogusega tagastuste korral nõuetekohane maksuarvutus** ja klõpsake seejärel nuppu **Luba**.
+
 
 ## <a name="additional-resources"></a>Lisaressursid
 

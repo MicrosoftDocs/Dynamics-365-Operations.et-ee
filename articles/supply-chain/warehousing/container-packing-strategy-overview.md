@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343720"
 ---
 # <a name="container-packing-strategies"></a>Konteineri pakkimise strateegiad
 
@@ -251,7 +252,7 @@ Saadetise konsolideerimise poliitika seadistamiseks toimige järgmiselt.
 1. Valige loendist **vaike** poliitika.
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Valige kiirkaardi **Konsolideerimise väljad** loendist **Valitud väljad** rida, mille välja **Välja nimi** väärtuseks on seatud *Tellimuse number*.
-1. Valige nupp **Eemalda** ![Vasak nool](media/backward-button.png), et teisaldada väli loendisse **Allesjäänud väljad**.
+1. Valige nupu **Eemalda** ![vasaknool.](media/backward-button.png) Klõpsake , et teisaldada **Ülejäänud väljad** loendisse .
 1. Valige toimingupaanil nupp **Salvesta**.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Seadistage toote füüsilised mõõtmed

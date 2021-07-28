@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837149"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345622"
 ---
 # <a name="revenue-recognition-setup"></a>Tulu tuvastamise seadistus
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ Tulu tuvastamise sätted konfigureeritakse lehe **Pearaamatu parameetrid** vahek
     - Määrake see suvand olekusse **Ei**, et piirata korrigeeriva kande sisestamist pearaamatusse. Kui see suvand on määratud olekusse **Ei**, siis ei looda raamatupidamise sisekorrektsiooniks müügireskontros täiendavaid dokumente. Arve tasumisel kasutab tasakaalustusprotsess vana raamatupidamise kirjet, et sisestada kõik skontod või realiseeritud kasumid või kahjumid.
     - Määrake see suvand olekusse **Jah**, et luua müügireskontros korrigeerimiskande jaoks automaatselt stornodokument ja uus arve. Kuna see korrigeerimine on raamatupidamise sisekorrektsioon, siis uusi dokumente ei saadeta ega edastata kliendile. Stornodokument tasakaalustatakse algse arvega ja klient tasub uue korrigeeritud arve. Arvestage, et kõik kolm dokumenti kuvatakse aruannetes, nt kliendi väljavõttel.
 
-[![Seadistusteave](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Häälestusteave.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Tulugraafikud
 
@@ -80,9 +80,9 @@ Tulugraafik tuleb luua igal juhtumil, mil tulu saab edasi lükata. Näiteks, kui
 
 Kui tuvastate tulu vahe-eesmärkide järgi, soovitame teil luua vahe-eesmärkidele tulu tuvastamise graafikud, sõltumata tuvastamiskuupäevadest. Pärast graafikute loomist saate neid redigeerida nii, et need kajastaksid eeldatavaid vahe-eesmärkide kuupäevi. Need kirjed saab panna ootele, kuniks olete saanud teate vahe-eesmärgi täitmisest ja tulu saab tuvastada.
 
-Tulugraafikud luuakse lehel **Tulugraafikud** (**Tulu tuvastamine \> Seadistus \> Tulugraafikud**).
+Tulugraafikud luuakse lehel **Tulugraafikud** (**Tulu tuvastamine \> Häälestus \> Tulugraafikud**).
 
-[![Tulugraafikud](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Tulugraafikud.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Sisestage kirjeldavad väärtused väljadesse **Tulugraafik** ja **Kirjeldus**. Järgmisi lisasätteid kasutatakse tulugraafiku loomiseks arve sisestamisel.
 
@@ -104,7 +104,7 @@ Sisestage kirjeldavad väärtused väljadesse **Tulugraafik** ja **Kirjeldus**. 
 
 Klõpsake nuppu **Tulugraafiku üksikasjad**, et vaadata üldisi perioode ja igas perioodis tuvastatud protsente. Vaikimisi on **Tuvastamise protsendi** väärtus jaotatud perioodide arvu lõikes võrdselt. Kui tuvastamise aluseks on kas **Igakuine** või **Esinemised**, saab tuvastamise protsenti muuta. Tuvastamise protsendi muutmisel teavitab hoiatusteade teid, et koguväärtus ei võrdu 100 protsendiga. Kui saate teate, saate jätkata ridade redigeerimist. Kuid enne lehe sulgemist peab koguväärtus võrduma 100 protsendiga.
 
-[![Tulugraafiku andmed](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Tulugraafiku andmed.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Varude seadistamine
 
@@ -139,7 +139,7 @@ Kaubagrupid ja väljastatud tooted saab seadistada kas keskmise hinna meetodil v
 
 Kui olete väljastatud toote sätete konfigureerimise lõpetanud, peate käsitsi määratlema tulu hinna, sisestades õiglase väärtuse hinna või keskmise hinna (kui kasutate keskmise hinna meetodit) lehel **Tulu hinnad** (avage **Tulu tuvastamine \> Seadistus \> Varude seadistus \> Väljastatud tooted** ning seejärel valige tegumiribal vahekaardil **Müük** grupis **Tulu tuvastamine** suvand **Tulu hinnad**).
 
-[![Tulu hinnad](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Tulu hinnad.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 Sellel lehel käsitsi määratud tulu hinda kasutatakse iga müügitellimuse tulu hinna eraldamise määratlemiseks määratud kriteeriumite alusel. Iga kriteerium vastendatakse müügitellimuse reaga, et määrata tulu hind, mida tuleks eraldamise protsessis kasutada.
 
@@ -181,7 +181,7 @@ Kogumi kauba seadistamisel tuleb lehel **Väljastatud tooted** määrata kaks v�
 
 Seejärel tuleb komponendid lehel **Koosluse versioonid** määrata kogumi/koosluse emakaubale (avage **Tulu tuvastamine \> Seadistus \> Varude ja toote seadistus \> Väljastatud tooted** ning seejärel valige tegumiribal vahekaardil **Projekteeri** grupis **Kooslus** üksus **Koosluse versioonid**). Lisateabe saamiseks vt koosluste seadistamise dokumentatsiooni.
 
-[![Väljastatud tooted, koosluse graafikud](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Väljastatud tooted, koosluse graafikud.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Kui kogumi emakaup ja kogumi komponendid on määratud eraldama, jaotatakse kogumi tulu hind komponentidele nende tulupanuse protsendi alusel.
 

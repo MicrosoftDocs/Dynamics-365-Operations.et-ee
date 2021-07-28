@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753500"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347992"
 ---
 # <a name="email-er-destination-type"></a>ER-i sihtkoha tüübi e-post
 
@@ -48,13 +48,13 @@ Väljundfaili või mitme väljundfaili meili teel saatmiseks valige lehe **Elekt
 
 Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsioon seda lõpule viib, või saate meiliaadressi lahendada, kasutades viitena ER konfiguratsioonile valemi kaudu.
 
-[![Meili sihtkoha jaoks suvandi Lubatud määramine väärtusele Jah](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![Meili sihtkoha jaoks suvandi Lubatud määramine väärtusele Jah.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>Meiliaadressi tüübid
 
 Kui valite suvandi **Redigeeri** välja **Saaja** või **Koopia** juurdes dialoogiboksis **Sihtkoha sätted**, kuvatakse dialoogiboks **Meili saaja**. Valige käsk **Lisa** ja seejärel valige kasutatava meiliaadressi tüüp. Praegu toetatakse kahte tüüpi: **Prindihalduse meiliaadress** ja **Konfigureerimismeil**.
 
-[![Meiliaadressi tüübi valimine](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![Meiliaadressi tüübi valimine.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Prindihalduse meiliaadress
 
@@ -84,7 +84,7 @@ Pärast soovitud rolli valimist valige nupp **Seo** (keti sümbol) välja **Meil
 
 Sisestage lehe **Valemi kujundaja** väljale **Valem** dokumendile vastav toetatud rolli viide. Selle asemel, et tippida paanile **Andmeallikas** viide, leidke ja valige andmeallika sõlm, mis tähistab konfigureeritud rolli kontot, ja valige seejärel valemi värskendamiseks suvand **Lisa andmeallikas**. Näiteks kui konfigureerite meili sihtkoha **ISO 20022 krediidi edastamise** konfiguratsioonile, mida kasutatakse hankija maksete töötlemiseks, on hankija kontot esindav sõlm `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![Meili allika konto konfigureerimine](./media/er_destinations-emaildefineaddresssource.gif)
+![Meili allika konto konfigureerimine.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Kui konfigureeritud rolli kontonumbrid on kordumatud kogu Microsoft Dynamics 365 Finance’i eksemplari jaoks, võib välja **Meili allika ettevõte** dialoogiboks **Meili saaja** jääda tühjaks.
 
@@ -108,7 +108,7 @@ Käitusajal kasutatava meiliaadressi tüübi määramiseks valige dialoogiboksis
 
 Valige meiliaadressi tüübiks **Konfiguratsiooni meil**, kui teie kasutataval konfiguratsioonil on andmeallikate sõlm, mis annab tulemuseks ühe meiliaadressi või mitu meiliaadressi, mis on eraldatud semikoolonitega (;). Saate kasutada valemi kujundajas [andmeallikaid](general-electronic-reporting.md#FormatComponentOutbound) ja [funktsioone](er-formula-language.md#functions), et hankida õigesti vormindatud meiliaadress või õigesti vormindatud meiliaadressid, mis on semikoolonitega eraldatud. Näiteks, kui kasutate konfiguratsiooni **ISO 20022 kreediti edastamine**, siis sõlm, mis tähistab hankija esmast meiliaadressi hankija kontaktandmetest, kuhu kaaskiri tuleb saata, on `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![Meiliaadressi allika konfigureerimine](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Meiliaadressi allika konfigureerimine.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Vormingu komponentide rühmitamine
 
@@ -126,11 +126,11 @@ Vormingu komponentide rühmitamise tühistamiseks valige kiirkaart **Faili sihtk
 
 Järgmisel joonisel on kujutatud ER-i vormingu struktuur, mis on konfigureeritud tootma tihendatud väljamineva faili, mis sisaldab märgukirja märget ja vastavaid kliendi arveid PDF-vormingus.
 
-[![Väljaminevaid dokumente genereeriva ER-i vormingu struktuur](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Väljaminevaid dokumente genereeriva ER-i vormingu struktuur.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 Järgmisel joonisel on kujutatud selles teemas kirjeldatud protsessi üksikute komponentide grupeerimiseks ja uue grupi sihtkoha **Meil** lubamiseks, et märgukirja teade saadetakse koos vastava kliendi arvetega meili manustena.
 
-[![Üksikute komponentide grupeerimine ja meili sihtkoha lubamine](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Üksikute komponentide grupeerimine ja meili sihtkoha lubamine.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

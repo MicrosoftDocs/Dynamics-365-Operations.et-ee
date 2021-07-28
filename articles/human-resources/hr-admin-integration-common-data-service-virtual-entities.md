@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c2e207efe0eeec6fc7e679a6ae12edcb21b291f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f0dac25ede6c9b9dfcfa1be1f1a5f4d7a7752112
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344710"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse'i virtuaalsete tabelite konfigureerimine
 
@@ -41,7 +41,7 @@ Kõik avatud andmeprotokolli (OData) üksused rakenduses Human Resources on saad
 
 Saate vaadata keskkonnas lubatud virtuaalsete tabelite loendit ja alustada tabelitega tööd rakenduses [Power Apps](https://make.powerapps.com) lahenduses **Dynamics 365 HR-i virtuaalsed tabelid**.
 
-![Dynamics 365 HR-i virtuaalsed tabelid Power Appsis](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+![Dynamics 365 HR-i virtuaalsed tabelid Power Apps`is.](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
 ## <a name="virtual-tables-versus-native-tables"></a>Virtuaalsed tabelid vs. ematabelid
 
@@ -147,7 +147,7 @@ Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi kesk
 
    - **AAD rakenduse saladus**: klientrakenduse saladus, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-   ![Microsoft HR-i andmeallikas](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![Microsoft`i HR-i andmeallikas.](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. Valige **Salvesta ja sule**.
 
@@ -187,7 +187,7 @@ Kui seadistus on lõpule viidud, saate valida virtuaalsed tabelid, mille soovite
 
 4. Valige **Loo/värskenda**.
 
-![Dataverse’i integratsioon](./media/hr-admin-integration-dataverse-integration.png)
+![Dataverse’i integratsioon.](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Tabeli loomise oleku kontrollimine
 

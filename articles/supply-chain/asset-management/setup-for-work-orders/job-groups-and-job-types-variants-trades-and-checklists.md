@@ -1,6 +1,6 @@
 ---
 title: Hooldustöö tüübid, kategooriad, variandid, kaubandused ja kontroll-loendid
-description: Selles teemas kirjeldatakse hooldustöö tüübi kategooriaid ja hooldustöö tüüpe, hooldustöö  tüübi variante, hooldustööde vahetusi ja hoolduse kontrollnimekirju varahalduses
+description: Selles teemas kirjeldatakse hooldustöö tüübi kategooriaid ja hooldustöö tüüpe, hooldustöö tüübi variante, hooldustööde vahetusi ja hoolduse kontrollnimekirju varahalduses
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 252829ac2d070833023f1b49aef615cc376f37b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117079"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344636"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Hooldustöö tüübid, kategooriad, variandid, kaubandused ja kontroll-loendid
 
@@ -30,7 +30,7 @@ Igale varale on lisatud vara tüüp. Varatüübid määratlevad hooldustööde t
 
 Varade graafilise ülevaate ja hooldustööde tüüpide ning nende seotuse kohta töökäskudega vt [Töö asukohad ja varad](../overview/functional-locations-and-objects.md).
 
-Hooldustöö  tüübi variante saab seadistada hooldustöö tüübi järgi. Hooldustöö tüübi variandid määratlevad töö  tüübi variatsioonid, nt suurus (väike, keskmine või suur), perioodid (nädal, kaks nädalat, üks kuu või kolm kuud) ja konfiguratsioonid (madal standard, paindlik või suur jõudlus).
+Hooldustöö tüübi variante saab seadistada hooldustöö tüübi järgi. Hooldustöö tüübi variandid määratlevad töö tüübi variatsioonid, nt suurus (väike, keskmine või suur), perioodid (nädal, kaks nädalat, üks kuu või kolm kuud) ja konfiguratsioonid (madal standard, paindlik või suur jõudlus).
 
 Hooldustöö vahetused pakuvad teavet vahetuste, nt mehaaniliste, elektriliste ja hüdrauliliste vahetuste kohta. Kompetentsinõudeid saab seadistada hooldustöö vahetuse järgi. Kõiki hooldustöö vahetusi saab kasutada kõikide hooldustöö tüüpide puhul. Hooldustöö tüübi valimine ja/või hooldustöö vahetus töökäsus on valikuline.
 
@@ -54,13 +54,13 @@ Esmalt seadistage vajalikud hooldustööde tüübi kategooriad, hooldustöö tü
 
     Pärast hooldustöö tüüpide kategooriate seostamist hooldustöö tüüpidega näitab väli **Töö tüübid** selle hooldustöö tüübi kategooriaga seotud hooldustöö tüüpide arvu.
 
-![Hooldustöö tüübi kategooriate leht](media/01-setup-for-work-orders.png)
+![Hooldustöö tüübi kategooriate leht.](media/01-setup-for-work-orders.png)
 
-## <a name="create-a-maintenance-job-type-variant"></a>Looge hooldustöö  tüübi variant
+## <a name="create-a-maintenance-job-type-variant"></a>Looge hooldustöö tüübi variant
 
 1. Valige **Varahaldus** \> **Seadistus** \> **Tööd** \> **Hooldustöö tüübi variandid**.
 2. Valige suvand **Uus**.
-3. Sisestage väljale **Hooldustöö  tüübi variant** hooldustöö tüübi variandi ID.
+3. Sisestage väljale **Hooldustöö tüübi variant** hooldustöö tüübi variandi ID.
 4. Väljale **Kirjeldus** sisestage kirjeldus.
 5. Vahekaardil **Hooldustööde tüübid** valige hooldustöö tüübi lisamiseks **Lisa**.
 6. Väljal **Hooldustöö tüüp** valige hooldustöö tüüp.
@@ -68,7 +68,7 @@ Esmalt seadistage vajalikud hooldustööde tüübi kategooriad, hooldustöö tü
 
     Vahekaardil **Üksikasjad** näitab väli **Töö tüübid** hooldustöö tüüpide arvu, mis on lisatud sellele hooldustöö tüübi variandile.
 
-![Hooldustöö tüübi variantide leht](media/02-setup-for-work-orders.png)
+![Hooldustöö tüübi variantide leht.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Looge hooldustöö tüübi vahetus
 
@@ -89,7 +89,7 @@ Esmalt seadistage vajalikud hooldustööde tüübi kategooriad, hooldustöö tü
 
     Vahekaardil **Üksikasjad** näitab väli **Serdid** sertide arvu, mis on lisatud sellele hooldustöö vahetusele.
 
-![Hooldustöö tüübi vahetuse leht](media/03-setup-for-work-orders.png)
+![Hooldustöö tüübi vahetuse leht.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Looge hoolduse kontrollnimekirja muutuja
 
@@ -110,7 +110,7 @@ Kui loote hooldustööde vaiketüübis hoolduse kontrollnimekirja read, peate va
 6. Väljale **Väärtus** sisestage uus väärtuse kirjeldus.
 7. Väljal **Tulemus** valige rea tulemus.
 
-![Hoolduse kontrollnimekirja muutujate leht](media/04-setup-for-work-orders.png)
+![Hoolduse kontrollnimekirja muutujate leht.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Looge hoolduse kontrollnimekirja mall
 
@@ -139,7 +139,7 @@ Hoolduse kontrollnimekirja malle saab kasutada tavalise tööülesandekogumina, 
 
     Vahekaardil **Üksikasjad** väljal **Kontrollid** kuvatakse teie malli kontrollnimekirja ridade arv. See arv sisaldab olemasolevas mallis sisalduvaid ridu, millele olete oma mallis viidanud.
 
-![Hoolduse kontrollnimekirja mallide leht](media/05-setup-for-work-orders.png)
+![Hoolduse kontrollnimekirja mallide leht.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Looge hooldustöö tüüp
 
@@ -148,7 +148,7 @@ Hoolduse kontrollnimekirja malle saab kasutada tavalise tööülesandekogumina, 
 3. Sisestage väljale **Hooldustöö tüüp** hooldustöö tüübi ID.
 4. Väljale **Nimi** sisestage nimi.
 
-    Vahekaardil **Üksikasjad** kuvatakse hooldustöö  tüübi variantide, oskuste, sertide, järgnevate tööde ja vara tüüpide ülevaade Väljal **Ridade seadistamine** kuvatakse selle hooldustöö tüübi jaoks seadistatud hooldustöö tüübi vaikeridade arv. Väljal **Varad** kuvatakse aktiivsete varade arvu, mis seda hooldustöö tüüpi kasutavad.
+    Vahekaardil **Üksikasjad** kuvatakse hooldustöö tüübi variantide, oskuste, sertide, järgnevate tööde ja vara tüüpide ülevaade Väljal **Ridade seadistamine** kuvatakse selle hooldustöö tüübi jaoks seadistatud hooldustöö tüübi vaikeridade arv. Väljal **Varad** kuvatakse aktiivsete varade arvu, mis seda hooldustöö tüüpi kasutavad.
 
 5. Vahekaardil **Üldine** väljal **Hooldustöö tüübi kategooria** valige hooldustöö tüübi kategooria.
 6. Seadke suvandi **Hoolduskatkestuse tegevused** väärtuseks **Jah**, kui hooldustöö tüüp nõuab enne töö alustamist seadme hoolduspeatust.
@@ -162,7 +162,7 @@ Hoolduse kontrollnimekirja malle saab kasutada tavalise tööülesandekogumina, 
 
 11. Vahekaardil **Vara tüübid** saate hooldustöö tüübile lisada vara tüüpe.
 
-![Hooldustöö tüüpide leht](media/06-setup-for-work-orders.png)
+![Hooldustöö tüüpide leht.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Looge hooldustöö tüübi vaikeread ja nendega seotud prognoosid, hoolduse kontrollnimekirjad, tööriistad, kirjeldus ja manused
 
@@ -173,9 +173,9 @@ Hoolduse kontrollnimekirja malle saab kasutada tavalise tööülesandekogumina, 
     Valige **Varahaldus** \> **Seadistus** \> **Tööd** \> **Hooldustöö tüübid**, valige hooldustöö tüüp ja seejärel valige **Hooldustöö tüübi vaikeväärtused**.
 
 2. Valige suvand **Uus**.
-3. Väljadel **Töö asukoht**, **Vara tüüp**, **Tootja**, **Mudel** ja **Vara** valige sobivad väärtused,  sõltuvalt sellest, kui konkreetne hooldustöö tüüp peaks olema.
+3. Väljadel **Töö asukoht**, **Vara tüüp**, **Tootja**, **Mudel** ja **Vara** valige sobivad väärtused, sõltuvalt sellest, kui konkreetne hooldustöö tüüp peaks olema.
 4. Valige väljal **Hooldustöö tüüp** hooldustöö tüüp, kui seda ei valitud automaatselt.
-5. Väljadel **Hooldustöö  tüübi variant** ja **Vahetus** valige hooldustöö  tüübi variant ja hooldustöö vahetus vastavalt vajadusele.
+5. Väljadel **Hooldustöö tüübi variant** ja **Vahetus** valige hooldustöö tüübi variant ja hooldustöö vahetus vastavalt vajadusele.
 6. Valige **Prognoos**.
 7. Lehel **Hooldustöö tüübi vaikesätete prognoos** saate prognoosida tunde, üksusi ja kulusid. Vastavatel vahekaartidel valige **Lisa** ja tehke valikud, et luua hooldustöö tüübi jaoks vajalikud prognoosid.
 8. Vahekaardil **Üksuse prognoos** saate valida varude mõõtmed, mida tuleks kuvada üksuse real. Valige **Varud** \> **Mõõtmed**, valige kuvatavad mõõtmed, seadke suvandi **Seadistuse salvestamine** väärtuseks **Jah** ja seejärel valige **OK**.
@@ -231,9 +231,9 @@ Hoolduse kontrollnimekirja malle saab kasutada tavalise tööülesandekogumina, 
 31. Hooldustöö tüübi vaikesätte kopeerimiseks teise hooldustöö tüübi vaikesätteks valige hooldustöö tüübi vaikerida, millesse teine seadistus kopeerida, valige **Seadistuse kopeerimine** ja seejärel valige hooldustöö tüübi vaikesäte kopeerimiseks.
 32. Selliste varade, hooldusplaanide või hoolduskordade nimekirja kuvamiseks, kus praegu kasutatakse hooldustöö tüübi vaikerida, valige rida ja seejärel **Kasutaja**.
 
-![Hooldustöö tüübi vaikesuvandite leht](media/07-setup-for-work-orders.png)
+![Hooldustöö tüübi vaikesuvandite leht.](media/07-setup-for-work-orders.png)
 
-Kui süsteem valib saadaoleva hooldustöö tüübi vaikesätte, mida tuleks kasutada töökäskude real, põhineb valik vara ja sellega seotud vara tüübi seadistusel. Varahaldus läbib kõik hooldustöö tüübi vaikekirjed, mis on seotud vara tüübiga seotud hooldustöö tüübiga, et kontrollida võimalikku vastet. Varahaldus kontrollib alati kõige spetsiifilisemat kombinatsiooni esimesena. Teisisõnu, kõige spetsiifilisema kombinatsiooni leidmiseks kontrollib varahaldus kõigepealt võimalikku vastet väljale **Vahetus**. Kui vastet ei leita, otsib see vastet väljale **Hooldustöö tüübi variant**. Kui vastet ei leita, kontrollib see vastet väljadele **Hooldustöö tüüp** jne (**Vahetus**, siis **Hooldustöö  tüübi variant**, siis **Hooldustöö tüüp**, siis **Vara**, siis **Mudel**, siis **Tootja** ja siis **Vara tüüp**). Kui vastet ei leita, kasutatakse vaikekirjet, kus on valitud ainult hooldustöö tüüp.
+Kui süsteem valib saadaoleva hooldustöö tüübi vaikesätte, mida tuleks kasutada töökäskude real, põhineb valik vara ja sellega seotud vara tüübi seadistusel. Varahaldus läbib kõik hooldustöö tüübi vaikekirjed, mis on seotud vara tüübiga seotud hooldustöö tüübiga, et kontrollida võimalikku vastet. Varahaldus kontrollib alati kõige spetsiifilisemat kombinatsiooni esimesena. Teisisõnu, kõige spetsiifilisema kombinatsiooni leidmiseks kontrollib varahaldus kõigepealt võimalikku vastet väljale **Vahetus**. Kui vastet ei leita, otsib see vastet väljale **Hooldustöö tüübi variant**. Kui vastet ei leita, kontrollib see vastet väljadele **Hooldustöö tüüp** jne (**Vahetus**, siis **Hooldustöö tüübi variant**, siis **Hooldustöö tüüp**, siis **Vara**, siis **Mudel**, siis **Tootja** ja siis **Vara tüüp**). Kui vastet ei leita, kasutatakse vaikekirjet, kus on valitud ainult hooldustöö tüüp.
 
 Projekti tegevuse ID seotakse automaatselt iga teie loodud hooldustöö tüübi vaikereaga. Projekti tegevus luuakse prognoosiprojektil, mis valitakse väljal **Hoolduse prognoosi projekt** vahekaardil **Varad** lehel **Varahalduse parameetrid**. Projekti tegevuse eesmärk on hallata töökäskudega seotud töötundide, üksuste ja kulude prognoose. Hooldustöö tüübi prognoosid kantakse automaatselt töökäsu reale ja need kopeeritakse prognoosiprojektist töökäsu projektile, mis luuakse töökäsu reale. Projekti tegevuse eesmärk on hallata töökäskudega seotud töötundide, üksuste ja kulude prognoose.
 
@@ -252,7 +252,7 @@ Pärast vajalike hooldustöötüüpide vaikekombinatsioonide loomist saate lehel
 4. Valige hooldustööde tüüpide kombinatsioon, et näha hoolduse kontrollnimekirjade, prognooside ja tööriistadega seotud seadistusi. Jaotis **Üksikasjad** vahekaardil **Hooldustööde tüüpide vaikesätted** kuvatakse seotud hoolduse kontrollnimekirjad, prognoositud tunnid, üksused jne, mis on seotud valitud hooldustööde tüüpide kombinatsiooniga.
 5. Valitud hooldustööde tüübi üksikasjade nägemiseks valige **Hooldustööde tüübid**.
 
-![Vara hooldustöö tüüpide leht](media/08-setup-for-work-orders.png)
+![Vara hooldustöö tüüpide leht.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Hooldustööde tüübi prognooside automaatne värskendamine
 

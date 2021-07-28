@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a8609cb026e7738eab96980bc9fe4a53340272eb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4245f5951cc4891b378f2343a1563ced33bc937
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345836"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
 
@@ -52,7 +52,7 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 2. Sisestage väljale **Klass** suvand **Lisa fail**.
 3. Sisestage väljale **Grupp** suvand **Fail**.
 
-![Dokumenditüüpide leht](media/GER-BaselineSample-SetupDocumentType.PNG "Dokumenditüüpide lehe kuvatõmmis")
+![Dokumenditüüpide lehed.](media/GER-BaselineSample-SetupDocumentType.PNG "Dokumenditüüpide lehe kuvatõmmis")
 
 > [!NOTE]
 > Uus dokumenditüüp, millel on sama nimi, tuleb konfigureerida iga andmekogumi jaoks, kus plaanite kasutada elektroonilise aruandluse alusfunktsiooni.
@@ -61,11 +61,11 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 
 1. Tööruumis **Elektrooniline aruandlus** jaotisest **Seotud lingid** valige suvand **Elektroonilise aruandluse parameetrid**.
 
-    ![Elektroonilise aruandluse tööruum](media/GER-BaselineSample-ERWorkspace.PNG "Elektroonilise aruandluse tööruumi kuvatõmmis")
+    ![Elektroonilise aruandluse tööruum.](media/GER-BaselineSample-ERWorkspace.PNG "Elektroonilise aruandluse tööruumi kuvatõmmis")
 
 2. Vahekaardil **Manused** väljas **Alus** sisestage või valige äsja loodud dokumenditüüp.
 
-    ![Elektroonilise aruandluse parameetrite lehe vahekaart Manused](media/GER-BaselineSample-ERParameters.PNG "Elektroonilise aruandluse parameetrite kuvatõmmis")
+    ![Elektroonilise aruandluse parameetrite lehe vahekaart Manused.](media/GER-BaselineSample-ERParameters.PNG "Elektroonilise aruandluse parameetrite kuvatõmmis")
 
 3. Valige käsk **Salvesta** ja seejärel sulgege leht **Elektroonilise aruandluse parameetrid**.
 
@@ -76,7 +76,7 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 3. Dialoogiakna ripploendis sisestage välja **Nimi** suvand **Elektroonilise aruandluse aluste õppimise mudel**.
 4. Valige suvand **Loo konfiguratsioon** uue elektroonilise aruandluse andmemudeli kirje loomise kinnitamiseks.
 
-![Konfiguratsiooni loomise rippmenüü dialoogiaken](media/GER-BaselineSample-ModelAdd.PNG "Konfiguratsiooni loomise rippmenüü dialoogiakna kuvatõmmis")
+![Konfiguratsiooni loomise rippmenüü dialoogiaken.](media/GER-BaselineSample-ModelAdd.PNG "Konfiguratsiooni loomise rippmenüü dialoogiakna kuvatõmmis")
 
 ### <a name="design-a-data-model"></a>Andmemudeli kujundamine
 
@@ -90,7 +90,7 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 8. Valige käsk **Muuda olekut**.
 9. Valige suvand **Valmis** ja seejärel nupp **OK**.
 
-![Konfiguratsioonide leht](media/GER-BaselineSample-ModelComplete.PNG "Konfiguratsioonide lehe kuvatõmmis")
+![Konfiguratsioonide leht.](media/GER-BaselineSample-ModelComplete.PNG "Konfiguratsioonide lehe kuvatõmmis")
 
 ### <a name="add-a-new-er-format-configuration"></a>Uue elektroonilise aruandluse vormingu konfiguratsiooni lisamine
 
@@ -99,7 +99,7 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 3. Sisestage välja **Nimi** suvand **Vorming elektroonilise aruandluse aluste õppimiseks**.
 4. Valige suvand **Loo konfiguratsioon** uue elektroonilise aruandluse vormingu kirje loomise kinnitamiseks.
 
-![Konfiguratsiooni loomise rippmenüü dialoogiaken](media/GER-BaselineSample-FormatAdd.PNG "Konfiguratsiooni loomise rippmenüü dialoogiakna kuvatõmmis")
+![Konfiguratsiooni loomise rippmenüü dialoogiaken.](media/GER-BaselineSample-FormatAdd.PNG "Konfiguratsiooni loomise rippmenüü dialoogiakna kuvatõmmis")
 
 ### <a name="design-a-format"></a>Vormingu kujundamine
 
@@ -128,7 +128,7 @@ Selles näites loote lihtsa elektroonilise aruandluse vormingu XML-dokumentide l
     2. Sisestage **ID** väljale **Nimi**.
     3. Valige nupp **OK**.
 
-    ![Vormingu koostaja leht](media/GER-BaselineSample-FormatLayoutDesign.PNG "Vormingu koostaja lehe kuvatõmmis")
+    ![Vormingukujundaja leht.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Vormingu koostaja lehe kuvatõmmis")
 
 8. Valige vahekaardil **Vastendamine** käsk **Kustuta**.
 9. Valige **Lisa juur**.
@@ -141,7 +141,7 @@ Selles näites loote lihtsa elektroonilise aruandluse vormingu XML-dokumentide l
 11. Valige puul suvand **Väljund\\Dokument\\ID**.
 12. Valige suvand **Seo** ja seejärel käsk **Salvesta**.
 
-![Vormingu koostaja leht](media/GER-BaselineSample-FormatMappingDesign.PNG "Vormingu koostaja lehe kuvatõmmis")
+![Vormingukujundaja leht.](media/GER-BaselineSample-FormatMappingDesign.PNG "Vormingu koostaja lehe kuvatõmmis")
 
 Kujundatud struktuuri põhjal loob konfigureeritud vorming XML-faili. See XML sisaldab elementi **Juur**, millel on atribuut **ID**, mis seatakse väärtusele, mille kasutaja sisestab elektroonilise aruandluse käitusaja dialoogiboksi.
 
@@ -151,11 +151,11 @@ Kujundatud struktuuri põhjal loob konfigureeritud vorming XML-faili. See XML si
 2. Sisestage väljale **Sisestage ID** väärtus **1**.
 3. Valige nupp **OK**.
 
-    ![Elektroonilise aruande parameetrite dialoogiaken](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Elektroonilise aruande parameetrite dialoogiakna kuvatõmmis")
+    ![Elektroonilise aruande parameetrite dialoogiaken.](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Elektroonilise aruande parameetrite dialoogiakna kuvatõmmis")
 
 4. Salvestage loodud failist **out.Admin.xml** kohalik koopia, et saaksite seda hiljem kasutada selle elektroonilise aruande vormingu alusena.
 
-    ![Teatis konfiguratsioonide lehel loodud faili kohta](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Kuvatõmmis teatisest konfiguratsioonide lehel loodud faili kohta")
+    ![Teatis konfiguratsioonide lehel loodud faili kohta.](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Kuvatõmmis teatisest konfiguratsioonide lehel loodud faili kohta")
 
 ### <a name="configure-er-parameters-to-use-the-baseline-feature"></a>Elektroonilise aruandluse parameetrite konfigureerimine alusfunktsiooni kasutamiseks
 
@@ -163,20 +163,20 @@ Kujundatud struktuuri põhjal loob konfigureeritud vorming XML-faili. See XML si
 2. Määrake suvand **Käivita silumisrežiimis** valikule **Jah**.
 3. Valige nupp **OK**.
 
-![Kasutaja parameetrite dialoogiaken](media/GER-BaselineSample-ERUserParameters.PNG "Kasutaja parameetrite dialoogiakna kuvatõmmis")
+![Kasutaja parameetrite dialoogiaken.](media/GER-BaselineSample-ERUserParameters.PNG "Kasutaja parameetrite dialoogiakna kuvatõmmis")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Uue alusfaili lisamine kujundatud elektroonilise aruande vormingu jaoks
 
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Toimingupaanil valige nupp **Alused**.
 
-    ![Nupp Algväärtused konfiguratsioonide lehel](media/GER-BaselineSample-OpenBaselinePage.PNG "Kuvatõmmis nupust Algväärtused konfiguratsioonide lehel")
+    ![Nupp Algväärtused konfiguratsioonide lehel.](media/GER-BaselineSample-OpenBaselinePage.PNG "Kuvatõmmis nupust Algväärtused konfiguratsioonide lehel")
 
 3. Valige toimingupaanil nupp **Uus**.
 4. Valige varem loodud elektroonilise aruandluse vorming **Vorming elektroonilise aruandluse aluste õppimiseks**.
 5. Valige käsk **Salvesta**.
 
-![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-AddBaseline.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht.](media/GER-BaselineSample-AddBaseline.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 Alus lisatakse vormingule **Vorming elektroonilise aruandluse aluste õppimiseks**.
 
@@ -186,7 +186,7 @@ Alus lisatakse vormingule **Vorming elektroonilise aruandluse aluste õppimiseks
 2. Toimingupaanil valige suvandid **Uus** \> **Fail**. Elektroonilise aruandluse parameetrites peab olema varem valitud dokumendi tüüp **Fail** dokumendi tüübiks, mida kasutatakse alusfailide salvestamiseks.
 3. Valige nupp **Sirvi** ja valige fail **out.Admin.xml**, mis loodi varem konfigureeritud elektroonilise aruandluse vormingut käitades.
 
-    ![Manuste leht](media/GER-BaselineSample-UploadBaselineFile.PNG "Manuste lehe kuvatõmmis")
+    ![Manuste leht.](media/GER-BaselineSample-UploadBaselineFile.PNG "Manuste lehe kuvatõmmis")
 
 4. Sulgege leht **Manused**.
 5. Kiirkaardil **Alused** valige suvand **Uus**.
@@ -201,7 +201,7 @@ Alus lisatakse vormingule **Vorming elektroonilise aruandluse aluste õppimiseks
 10. Väljale **Alus** sisestage manus **out.Admin** või valige see.
 11. Valige käsk **Salvesta**.
 
-![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
+![Elektroonilise aruandluse vormingu aluste leht.](media/GER-BaselineSample-SetupBaselineLine.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Kujundatud elektroonilise aruandluse vormingu käitamine ja logi ülevaatamine tulemuste analüüsimiseks
 
@@ -212,7 +212,7 @@ Alus lisatakse vormingule **Vorming elektroonilise aruandluse aluste õppimiseks
 5. Valige nupp **OK**.
 6. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsiooni silumislogid**.
 
-    ![Elektroonilise aruandluse käitamise logide leht](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Elektroonilise aruandluse käitamise logide lehe kuvatõmmis")
+    ![Elektroonilise aruandluse käitamise logide leht.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Elektroonilise aruandluse käitamise logide lehe kuvatõmmis")
 
     > [!NOTE]
     > Käivituslogi sisaldab teavet loodud faili ja konfigureeritud aluse võrdluse tulemusi. Selles näites näitab logi, et loodud fail ja alus on võrdsed.
@@ -228,7 +228,7 @@ Alus lisatakse vormingule **Vorming elektroonilise aruandluse aluste õppimiseks
 5. Valige nupp **OK**.
 6. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsiooni silumislogid**.
 
-    ![Elektroonilise aruandluse käitamise logide leht](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Elektroonilise aruandluse käitamise logide lehe kuvatõmmis")
+    ![Elektroonilise aruandluse käitamise logide leht.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Elektroonilise aruandluse käitamise logide lehe kuvatõmmis")
 
     > [!NOTE]
     > Käivituslogi sisaldab teavet loodud faili ja konfigureeritud aluse võrdluse tulemusi. Selles näites näitab logi, et loodud fail ja alus on erinevad.

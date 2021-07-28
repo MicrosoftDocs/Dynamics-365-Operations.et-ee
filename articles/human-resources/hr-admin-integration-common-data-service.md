@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052453"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344684"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse'i integratsiooni konfigureerimine
 
@@ -48,15 +48,15 @@ Võib-olla soovite integratsiooni välja lülitada järgmistes olukordades.
 
 1. Valige rakenduse Human Resources eksemplaris, kus soovite integratsiooni sätteid rakendusega Dataverse vaadata või konfigureerida, paan **Süsteemihaldus**.
 
-    [![Süsteemihalduse paan](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Süsteemihalduse paan.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Valige vahekaart **Lingid**.
 
-    [![Vahekaart Lingid](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Linkide vahekaart.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. Valige jaotises **Integratsioonid** rakenduse **Dataverse konfiguratsioon**.
 
-    [![Dataverse’i konfiguratsiooni link](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Dataverse’i konfiguratsiooni link.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Rakenduste Human Resources ja Dataverse vahelise andmete integratsiooni sisse ja välja lülitamine
 
@@ -67,7 +67,7 @@ Võib-olla soovite integratsiooni välja lülitada järgmistes olukordades.
 
 - Integratsiooni väljalülitamiseks seadke suvandi väärtuseks **Ei**.
 
-[![Rakenduse Dataverse integratsiooni sisse või välja lülitamine](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Rakenduse Dataverse integratsiooni sisse või välja lülitamine.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Soovitame andmete migreerimisega tegeledes tungivalt Dataverse'i integratsiooni välja lülitada. Mahukate andmete üleslaadimine võib jõudlust oluliselt mõjutada. Näiteks võib 2000 töötaja üleslaadimine võtta mitu tundi, kui integratsioon on lubatud, ja vähem kui üks tund, kui see on keelatud. Näites toodud numbrid on mõeldud ainult selgitamiseks. Kirjete importimiseks kuluv täpne aeg võib mitme teguri põhjal olla väga erinev.
@@ -98,7 +98,7 @@ Kui teil tekib probleeme rakenduste Human Resources ja Dataverse vahelise sünkr
 
 - Kirje seose eemaldamiseks rakenduste Human Resources ja Dataverse'i rea vahel, valige tabel väljal **Dataverse'i tabel** ja seejärel valige käsk **Tühjenda jälgimise teave**.
 
-[![Jälgimisteabe kustutamine](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Jälgimisteabe kustutamine.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Tabeli täieliku sünkroonimise käivitamiseks pärast jälgimise tühjendamist vaadake järgmist protseduuri.
 
@@ -116,13 +116,13 @@ Rakenduse Human Resources ja Dataverse'i vahelise tabeli täieliku sünkroonimis
 
 2. Valige **Sünkrooni kohe**.
 
-[![Täieliku sünkroonimise käivitamine](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Täieliku sünkroonimise käivitamine.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>Vt ka
 
 [Dataverse'i tabelid](hr-developer-entities.md)<br>
 [Dataverse'i virtuaalsete tabelite konfigureerimine](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Human Resourcesi virtuaaltabelite KKK](hr-admin-virtual-entity-faq.md)<br>
+[Human Resourcesi virtuaalsete tabelite KKK](hr-admin-virtual-entity-faq.md)<br>
 [Mis on Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminoloogia uuendused](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 

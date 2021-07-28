@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944361"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345686"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -101,7 +103,7 @@ Vormingukomponent võimaldab manustada konkreetseid faile, mida saab aruandlusv�
 
 Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
 
-[![Väljaminevate vormingukomponentide andmevoog](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Väljaminevate vormingukomponentide andmevoog.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Ühe ER-vormingukonfiguratsiooni käitamiseks ja väljamineva elektroonilise dokumendi koostamiseks tuleb tuvastada vormingukonfiguratsiooni vastendus.
 
@@ -115,7 +117,7 @@ Vormingukomponent on käitusajal imporditava sissetuleva dokumendi skeem. Skeem 
 
 Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
 
-[![Sissetulevate vormingukomponentide andmevoog](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Sissetulevate vormingukomponentide andmevoog.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Ühe ER-vormingukonfiguratsiooni käitamiseks, et importida andmeid sissetulevast elektroonilisest dokumendist, tuleb tuvastada vormingukonfiguratsiooni soovitud vastendus ja samuti mudeli vastenduse integratsioonipunkt. Sama mudeli vastendust ja sihtkohti saab kasutada koos erinevate vormingutega erinevat tüüpi sissetulevate dokumentide puhul.
 
@@ -290,7 +292,7 @@ ER võimaldab võtta automaatselt kasutusele aluskomponendi uusima versiooni muu
 
 Rakenduse Finance ER-i konfiguratsioonide loendit värskendatakse pidevalt. Avage [Globaalne hoidla](er-download-configurations-global-repo.md), et vaadata praegu toetatud ER-i konfiguratsioonide loendit. Kiirkaardil **Kasutuselt kõrvaldamise üksikasjad** saate vaadata läbi teabe konfiguratsioonide kohta, mis on kasutuselt kõrvaldatud või mida enam ei hooldata. 
 
-![Globaalse hoidla sisu konfiguratsioonihoidla lehel](./media/er-overview-03.gif)
+![Globaalse hoidla sisu konfiguratsioonihoidla lehel.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

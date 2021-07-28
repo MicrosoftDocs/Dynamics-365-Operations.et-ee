@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755248"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347944"
 ---
 # <a name="modify-row-definition-cells"></a>Rea definitsioonide lahtrite muutmine
 
@@ -174,7 +174,7 @@ Readefinitsiooni veerus **Vormingu kood** rakendavad vormingu koodid **DES**, **
 
 Järgmises näites soovib kasutaja vältida oma aruande rea **Sularahas kokku** pealkirja ja allkriipsude printimist, kuna tegevus mõlemal sularahakontol puudus. Seetõttu sisestab kasutaja reale 220 (mis, nagu vormingu kood **---** viitab, on vormindamise rida) lahtrisse **Seotud valemid/read/üksused** väärtuse **250**, mis on rea kood summa rea puhul, mille kasutaja soovib peita.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Baasrea valimine veeru arvutamiseks
 Suhtelises aruandluses määrate readefinitsioonis ühe või mitu baasrida, kasutades vormingu koodi **CBR** (baasrea muutmine). Baasreale viidatakse seejärel veeru definitsioonis arvutusega. Järgmiselt on toodud mõni tüüpiline näide CBR-arvutuste kohta.
@@ -399,7 +399,7 @@ Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tule
 2. Topeltklõpsake veerus **Link finantsdimensioonidele** olevat lahtrit.
 3. Topeltklõpsake dialoogiboksis **Dimensioonid** dimensiooni nime all olevat lahtrit.
 4. Valige dimensiooni dialoogiaknas suvand **Üksik või vahemik**.
-5. Sisestage väljale **Alates** algusdimensioon või klõpsake saadaolevate dimensioonide otsimiseks ikooni ![Sirvi](media/browse.gif "Sirvimine"). Dimensioonide vahemiku sisestamiseks sisestage lõppdimensioon väljale **Kuni**.
+5. Sisestage **Alates** väljale algusdimensioon või klõpsake nuppu ![Sirvi.](media/browse.gif "Sirvimine") et otsida saadaolevaid dimensioone. Dimensioonide vahemiku sisestamiseks sisestage lõppdimensioon väljale **Kuni**.
 6. Dimensiooni dialoogiboksi sulgemiseks klõpsake nuppu **OK**. Dialoogiboksis **Dimensioonid** kuvatakse värskendatud dimensioon või vahemik.
 7. Klõpsake nuppu **OK** dialoogiboksi **Dimensioonid** sulgemiseks.
 
@@ -476,7 +476,7 @@ Järgmises tabelis kirjeldatakse dialoogiboksi **Dimensioonid** välju.
 
 | Kaup                | Kirjeldus |
 |---------------------|-------------|
-| Üksik või vahemik | Sisestage väljale **Alates** konto nimi või klõpsake nuppu **Sirvi** ![Sirvi](media/browse.gif "Sirvimine") konto sirvimiseks. Vahemiku valimiseks sisestage väärtus või sirvige seda väljal **Kuni**. |
+| Üksik või vahemik | Sisestage väljale **Alates** konto nimi või klõpsake konto sirvimiseks nuppu **Sirvi** nuppu ![Sirvi.](media/browse.gif "Sirvimine") konto otsimiseks. Vahemiku valimiseks sisestage väärtus või sirvige seda väljal **Kuni**. |
 | Dimensiooniväärtuste kogum | Sisestage dimensiooniväärtuste kogumi nimi väljale **Nimi**. Kogumi loomiseks, muutmiseks, kopeerimiseks või kustutamiseks klõpsake suvandit **Dimensiooniväärtuste kogumite haldamine**. Väli **Valem** täidetakse valemiga lahtrist **Link finantsdimensioonidele** readefinitsioonis määratud dimensiooniväärtuse puhul. |
 | Kontode summeerimine   | Sisestage kontode summeerimise dimensioon väljale **Nimi** või sirvige seda sellel väljal. Väli **Vorming** asustatakse valemiga lahtris **Link finantsdimensioonidele** aruande definitsiooni selle konto summeerimise puhul. |
 

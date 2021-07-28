@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190084"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347682"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Ristlaadimine tootmistellimustest lähetusaladesse
 
@@ -42,7 +42,7 @@ Toode registreeritakse tootmise väljastuskohas (3) lõpetatuna ja kahveltõstuk
 -   Kui laadimisuksele on juba määratud treiler, suunatakse tõstukijuht laadima toodet otse treilerile.
 -   Kui toote edastamise plaanitud tegevus puudub, suunatakse tõstukijuht viima toodet siselaos (5) olevasse asukohta.
 
-[![ristlaadimine võimaluse korral](./media/scenario1.png)](./media/scenario1.png)
+[![võimalik ristlaadimine.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Ristlaadimise konfigureerimine
 Ristlaadimise protsessi saab konfigureerida **tööpoliitikate** jaotises. Tööpoliitika sisaldab töötellimuse tüüpi, asukohta ja toodet. Järgmises näited konfigureeritakse ristlaadimine tootele X ja asukohale Y.

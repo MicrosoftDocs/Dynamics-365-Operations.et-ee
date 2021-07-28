@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814508"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344468"
 ---
 # <a name="replenishment-strategies"></a>Täiendusstrateegiad
 
@@ -85,7 +85,7 @@ Kui seate täiendamise strateegiaks *Asukoha maksimaalne võimsus*, saate järgm
 - **Täiendamise töö 1:** Valige 4 kasti suurema varuga asukohast ja pange need asukohta komplekteerimine-001.
 - **Täiendamise töö 2:** Valige 5 kasti suurema varuga asukohast ja pange need asukohta komplekteerimine-002.
 
-[![Näide 1](media/ReplenTemp_example_1.png "Näide 1")](media/ReplenTemp_example_1_large.png)
+[![Näide 1.](media/ReplenTemp_example_1.png "Näide 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Näide 2
 
@@ -109,7 +109,7 @@ Sõltuvalt asukoha direktiivides olevale täiendamise komplekteerimise sätte **
 
 Tulemused erinevad sõltuvalt teabest, mis on saadaval, kui loote töö. Kui täiendamise komplekteerimiseks mõeldud asukoha direktiivide suvand **Luba poolitamine** väärtuseks on seatud *Jah*, siis teate, et teil õnnestus leida 160 tk. Seetõttu saate luua töö selle koguse jaoks. Kuid kui suvandi **Luba poolitamine** väärtuseks on seatud *Ei*, ei tea te 160 tk olemasolust. Kuna lisakogus, mida otsustasite täiendada, oli 3 kasti, unustate selle lisakoguse ja proovite uuesti algset kogust.
 
-[![Näide 2](media/ReplenTemp_example_2.png "Näide 2")](media/ReplenTemp_example_2_large.png)
+[![Näide 2.](media/ReplenTemp_example_2.png "Näide 2")](media/ReplenTemp_example_2_large.png)
 
 Selleks, et saada maksimaalset kogust täiendatud asukohtadesse, peaksite täiendamise komplekteerimise asukoha direktiivides seadistama suvandi **Luba poolitamine** väärtusele *Jah*.
 

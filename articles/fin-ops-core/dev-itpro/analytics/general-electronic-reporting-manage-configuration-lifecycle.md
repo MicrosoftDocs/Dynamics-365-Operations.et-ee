@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893197"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345734"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine
 
@@ -80,7 +80,7 @@ Järgmistel ER-iga seotud põhjustel soovitame kujundada ER-i konfiguratsioonid 
 
 Arenduskeskkonnas kujundatud ER-i konfiguratsioone saab [üles laadida](#data-persistence-consideration) testkeskkonda, et hinnata konfiguratsiooni (õige protsessi integreerimine, tulemuste õigsus ja jõudlus) ja kvaliteedi tagamiseks, nt rolli juhitud juurdepääsuõiguste õigsus ja kohustuste jagamine. Selleks saab kasutada funktsioone, mis lubavad ER-i konfiguratsiooni vahetamise. Tõestatud ER-i konfiguratsioonid saab üles laadida LCS-i, kus neid saab teenuse tellijatega jagada, või neid [importida](#data-persistence-consideration) tootmiskeskkonda ettevõttesiseseks kasutamiseks.
 
-![ER-i konfiguratsiooni elutsükkel](./media/ger-configuration-lifecycle.png)
+![ER-i konfiguratsiooni elutsükkel.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Andmete püsivuse kaalutlus
 

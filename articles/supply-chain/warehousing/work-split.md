@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344142"
 ---
 # <a name="work-split"></a>Töö tükeldamine
 
@@ -51,7 +51,7 @@ Funktsioon *Töö tükeldamine* lisab järgmised kaks nuppu tegumiriba **Töö**
 - **Töö tükeldamine** – Tükeldage käesolev töö ID mitmeks väiksemaks töö ID-ks, mida saavad töödelda erinevad töötajad.
 - **Tühista töö tükeldamise seanss** – Tühistage töö tükeldamise seanss ja tehke töö töötlemiseks saadaolevaks.
 
-![Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud](media/Work_split_buttons.png "Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud")
+![Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud.](media/Work_split_buttons.png "Töö tükeldamise ja töö tükeldamise seansi tühistamise nupud")
 
 > [!IMPORTANT]
 > **Töö tükeldamise** nupp ei ole saadaval, kui on täidetud mõni järgmistest tingimustest:
@@ -94,7 +94,7 @@ Töö tükeldamiseks toimige järgmiselt.
 
     **Töö blokeerimise põhjuse** väli praeguse töö jaoks seatakse olekusse *Töö tükeldamine* ja töö blokeeritakse.
 
-    ![Blokeerimise põhjus](media/Blocking_reason.png "Blokeerimise põhjus")
+    ![Blokeerimise põhjus.](media/Blocking_reason.png "Blokeerimise põhjus")
 
 1. Valige praeguse töö ID-lt eemaldatav rida ja lisage uus töö ID. Toimub järgmine:
 

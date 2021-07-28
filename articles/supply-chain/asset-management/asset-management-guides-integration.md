@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908563"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344266"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management-i (varahalduse) integreerimine Dynamics 365 Guides-iga
 
@@ -56,38 +56,38 @@ Juhendi seostamiseks hoolduse kontrollnimekirja malliga toimige järgmiselt.
     1. Valige kiirkaardil **Hoolduse kontrollnimekirja read** rida, mida soovite juhendiga seostada.
     1. Valige kiirkaardil **Seotud juhendid** suvand **Lisa juhend**.
 
-        ![Seostage juhend hoolduse kontrollnimekirja reaga](media/am-guides-integration-add-guide.png "Seostage juhend hoolduse kontrollnimekirja reaga")
+        ![Seostage juhend hoolduse kontrollnimekirja reaga.](media/am-guides-integration-add-guide.png "Seostage juhend hoolduse kontrollnimekirja reaga")
 
     1. Valige juhend väljal **Nimi** ja seejärel valige suvand **Salvesta**.
 
-        ![Valige nimeväljal juhend](media/am-guides-integration-select-guide.png "Valige nimeväljal juhend")
+        ![Valige nimeväljal juhend.](media/am-guides-integration-select-guide.png "Valige nimeväljal juhend")
 
 1. Hoolduse kontrollnimekirja seostamine töötüübiga.
 
     1. [Looge hooldustöö tüüp](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) või valige olemasolev hooldustöö tüüp.
     1. Valige tegevuspaanil suvand **Hooldustöö tüübi vaikesuvandid**.
 
-        ![Hooldustöö tüübi vaikesuvandite nupp](media/am-guides-integration-job-defaults.png "Hooldustöö tüübi vaikesuvandite nupp")
+        ![Hooldustöö tüübi vaikesuvandite nupp.](media/am-guides-integration-job-defaults.png "Hooldustöö tüübi vaikesuvandite nupp")
 
     1. Looge rida ja seejärel valige suvand **Salvesta**.
 
-        ![Looge rida](media/am-guides-integration-add-line.png "Looge rida")
+        ![Looge rida.](media/am-guides-integration-add-line.png "Looge rida")
 
     1. Valige toimingupaanil suvand **Hoolduse kontrollnimekiri**.
 
-        ![Hoolduse kontrollnimekirja nupp](media/am-guides-integration-maintenance-checklist.png "Hoolduse kontrollnimekirja nupp")
+        ![Hoolduse kontrollnimekirja nupp.](media/am-guides-integration-maintenance-checklist.png "Hoolduse kontrollnimekirja nupp")
 
     1. Lisage rida kiirkaardil **Hoolduse kontrollnimekirja read** ja seejärel muutke välja **Tüüp** väärtuseks **Mall**.
 
-        ![Muutke tüübi väärtus](media/am-guides-integration-checklist-lines.png "Muutke tüübi väärtus")
+        ![Muutke tüübi väärtus.](media/am-guides-integration-checklist-lines.png "Muutke tüübi väärtus")
 
     1. Valige kiirkaardil **Rea üksikasjad** väljal **Mall** see mall, mille seostasite juhendiga ja seejärel klõpsake **Salvesta**.
 
-        ![Valige mall](media/am-guides-integration-checklist-line-details.png "Valige mall")
+        ![Valige mall.](media/am-guides-integration-checklist-line-details.png "Valige mall")
 
 1. [Looge töökäsk](work-orders/manually-created-workorders.md#create-work-order) ja seejärel valige hooldustöö tüüp, mis kasutab hoolduse kontrollnimekirja malli, mille seostasite juhendiga. See juhend on automaatselt töökäsuga seotud.
 
-    ![Valige hooldustöö tüüp](media/am-guides-integration-create-work-order.png "Valige hooldustöö tüüp")
+    ![Valige hooldustöö tüüp.](media/am-guides-integration-create-work-order.png "Valige hooldustöö tüüp")
 
 1. Töökäsu ja töötajatega seotud juhendi kuvamine.
 
@@ -95,11 +95,11 @@ Juhendi seostamiseks hoolduse kontrollnimekirja malliga toimige järgmiselt.
     1. [Avage töökäsu hoolduse kontrollnimekiri](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job).
     1. Valige kontrollnimekirja rida, et näha sellega seotud juhendit.
 
-        ![Kontrollnimekirja reaga seotud juhend](media/am-guides-integration-show-guide.png "Kontrollnimekirja reaga seotud juhend")
+        ![Kontrollnimekirja reaga seotud juhend.](media/am-guides-integration-show-guide.png "Kontrollnimekirja reaga seotud juhend")
 
     1. Avage juhend rakenduses HoloLens.
 
-        ![Avage juhend rakenduses HoloLens](media/am-guides-integration-hololens-select.png "Avage juhend rakenduses HoloLens")
+        ![Avage juhend rakenduses HoloLens.](media/am-guides-integration-hololens-select.png "Avage juhend rakenduses HoloLens")
 
 > [!NOTE]
 > Juhendi võite seostada ka otse töökäsu või töötüübi hoolduse kontrollnimekirjaga.

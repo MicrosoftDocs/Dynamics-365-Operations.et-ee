@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838246"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345230"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Laokannete tootefiltrite konfigureerimine
 
@@ -46,11 +46,11 @@ Tootefiltrid pakuvad kuni 10 **filtri pealkirja** omadust, mis on loetelu (enum)
 1. Valige väärtus väljal **Tootefilter**.
 1. Sisestage väärtus väljale **Filtri kood**.
 
-    ![Tootefiltri häälestamine](media/Product_Filters10.png "Tootefiltri häälestamine")
+    ![Tootefiltri häälestamine.](media/Product_Filters10.png "Tootefiltri häälestamine")
 
 1. Sisestage väljale **Kirjeldus** koodi nimi. Näiteks *Kood 2* võib tähistada hankijaid. Seejärel saate luua kindla hankija või hankijate grupi jaoks tootefiltri. Lisateabe saamiseks vaadake teemas allpool toodud jaotist [Hankija filtri koodide häälestamine](#vendor-product-filters).
 
-    ![Tootefiltrite kogum](media/Product_Filters.png "Tootefiltrite kogum")
+    ![Tootefiltrite kogum.](media/Product_Filters.png "Tootefiltrite kogum")
 
 ## <a name="set-up-product-filter-groups"></a>Tootefiltri rühmade seadistamine
 
@@ -69,7 +69,7 @@ Filtrigruppide seadistamiseks tehke järgmist.
 1. Valige väljal **Kaubagrupp** kaubagrupp, mille puhul tootefilter peaks rakenduma.
 1. Valige väljadel **Kood 1** kuni **Kood 10** vastavalt vajadusele gruppi kaasatavad filtri koodid.
 
-    ![Kaubagrupp](media/ProdFilterGroup.png "Kaubagrupp")
+    ![Kaubagrupp.](media/ProdFilterGroup.png "Kaubagrupp")
 
 > [!NOTE]
 > Kui saate lehe sulgemisel tõrketeate, võib koodi seadistus puududa. Lehel **Kaupade grupid** saate muuta koodid kaubagrupi jaoks kohustuslikuks, valides märkeruudud **Määra kaubagrupile filtri kood 1**, **Määra kaubagrupile filtri kood 2** jne.
@@ -88,7 +88,7 @@ Kaubagruppidele filtrikoodide seadistamiseks toimige järgmiselt.
 
     Väljastatud toote värskendamiseks avage selle leht **Väljastatud toote üksikasjad** ja valige seejärel tegevuspaanil suvand **Redigeeri**. Koodidega seostatud filtrid muutuvad seejärel kiirkaardil **Ladu** kättesaadavaks.
 
-    ![Kaubagrupid](media/ItemGroup10.png "Kaubagrupid")
+    ![Kaubagrupid.](media/ItemGroup10.png "Kaubagrupid")
 
 1. Märkige jaotises **Kaubagrupi filter** märkeruudud filtritele, mis peavad ühtima filtrigrupiga, et see oleks kauba vaikimisi filtrigrupp.
 

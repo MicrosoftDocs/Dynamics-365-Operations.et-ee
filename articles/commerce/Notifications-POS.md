@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796482"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345204"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Kassa tellimuse teatiste kuvamine
 
@@ -72,14 +72,14 @@ Kassa nupud saavad nüüd kuvada arvu, mis võimaldab töötajatel hõlpsalt nä
 
 Järgmine joonis näitab reaalajas sisu sätteid nupupaneeli koostajas.
 
-![Reaalajas sisu sätted nupupaneeli koostajas](./media/ButtonGridDesigner.png "Reaalajas sisu sätted nupupaneeli koostajas")
+![Reaalajas sisu sätted nupupaneeli koostajas.](./media/ButtonGridDesigner.png "Reaalajas sisu sätted nupupaneeli koostajas")
 
 Nupul teatiste arvu kuvamiseks peate veenduma, et uuendatakse õiget ekraani paigutust. Kassa kasutatava ekraani paigutuse määramiseks valige ülemises parempoolses nurgas ikoon **Sätted** ja märkige **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** Kasutades brauserit Edge, minge lehele **Ekraani paigutus**, leidke ülal tuvastatud **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** ning valige märkeruut **Luba reaalajas sisu**. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik** ja käivitage töö 1090 (registrid), et sünkroonida paigutuse muudatused.
 
-![Kassa kasutatava ekraani paigutuse leidmine](./media/Choose_screen_layout.png "Ekraanipaigutuse otsing")
+![Kassa kasutatava ekraani paigutuse leidmine.](./media/Choose_screen_layout.png "Ekraanipaigutuse otsing")
 
 Järgmisel joonisel on näidatud, mis on vahet valikul **Üleval paremal** ja **Keskel** väljal **Sisu joondamine** erinevates suurustes nuppude korral.
 
-![Reaalajas sisu kassa nuppudel](./media/ButtonsWithLiveContent.png "Reaalajas sisu kassa nuppudel")
+![Reaalajas sisu kassa nuppudel.](./media/ButtonsWithLiveContent.png "Reaalajas sisu kassa nuppudel")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

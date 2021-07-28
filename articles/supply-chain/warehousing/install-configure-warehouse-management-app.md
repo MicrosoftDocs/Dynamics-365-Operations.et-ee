@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049312"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346078"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
 
@@ -78,28 +78,28 @@ Selleks et laohalduse mobiilirakendus saaks konkreetse Supply Chain Managementi 
 1. Sisestage selle kasutaja nimi ja parool, kellel on juurdepääs Azure’i tellimusele.
 1. Valige Azure’i portaalis vasakpoolsel navigeerimispaanil valiku **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Veenduge, et töötate Azure AD eksemplariga, mida kasutab Supply Chain Management.
 1. Klõpsake loendis **Haldamine** suvandit **Rakenduste registreerimised**.
 
-    ![Rakenduste registreerimised](media/app-connect-azure-register.png "Rakenduste registreerimised")
+    ![Rakenduste registreerimised.](media/app-connect-azure-register.png "Rakenduste registreerimised")
 
 1. Valige tööriistaribal **Uus registreerimine** viisardi **Rakenduse registreerimine** avamiseks.
 1. Sisestage rakenduse nimi ja valige suvand **Ainult selle organisatsioonikataloogi kontod** ja valige **Registreeri**.
 
-    ![Rakenduse viisardi registreerimine](media/app-connect-azure-register-wizard.png "Rakenduse viisardi registreerimine")
+    ![Rakenduse viisardi registreerimine.](media/app-connect-azure-register-wizard.png "Rakenduse viisardi registreerimine")
 
 1. Avaneb teie uue rakenduse registreerimisaken. Märkige välja **Rakenduse (klient) ID** väärtus üles, seda läheb hiljem vaja. Sellele ID-le on selles teemas hiljem viidatud kui *kliendi ID*.
 
-    ![Rakenduse (klient) ID](media/app-connect-azure-app-id.png "Rakenduse (klient) ID")
+    ![Rakenduse (klient) ID.](media/app-connect-azure-app-id.png "Rakenduse (klient) ID")
 
 1. Valige loendist **Haldamine** suvand **Serdid ja saladused**. Seejärel valige üks järgmistest nuppudest, sõltuvalt sellest, kuidas soovite rakendust autentimiseks konfigureerida. (Lisateabe saamiseks vaadake jaotist [Serdi või kliendi saladuse abil autentimine](#authenticate) selles teemas hiljem.)
 
     - **Serdi üleslaadimine** – laadige üles sert saladusena kasutatamiseks. Soovitame selle lähenemisviisi kasutamist, sest see on turvalisem ja seda saab täielikumalt automatiseerida. Kui käitate laohalduse mobiilirakendust Windowsi seadmetes, märkige üles väärtus **Sõrmejälg**, mida kuvatakse pärast serdi üleslaadimist. Vajate seda väärtust Windowsi seadmetes serdi konfigureerimisel.
     - **Uus kliendi saladus** – looge võti, sisestades võtme kirjeldus ja kestus jaotises **Paroolid** ning seejärel valige **Lisa**. Tehke võtmest koopia ja talletage see turvaliselt.
 
-    ![Serdid ja saladused](media/app-connect-azure-authentication.png "Serdid ja saladused")
+    ![Serdid ja saladused.](media/app-connect-azure-authentication.png "Serdid ja saladused")
 
 Lisateavet Azure AD-s veebiteenuse rakenduste seadistamise kohta leiate järgmistest allikatest.
 
@@ -119,7 +119,7 @@ Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige jä
     1. Looge kasutaja.
     1. Määrake ladustamise mobiilse seadme kasutaja.
 
-    ![Ladustamise mobiilse seadme kasutaja määramine](media/app-connect-app-users.png "Ladustamise mobiilse seadme kasutaja määramine")
+    ![Määrake ladustamise mobiilse seadme kasutaja.](media/app-connect-app-users.png "Ladustamise mobiilse seadme kasutaja määramine")
 
 1. Seostage oma Azure AD rakendus laohalduse mobiilirakenduse kasutajaga.
 
@@ -127,7 +127,7 @@ Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige jä
     1. Looge rida.
     1. Sisestage kliendi ID, mille märkisite üles eelmises jaotises, pange sellele nimi ja valige äsja loodud kasutaja. Soovitame teil sildistada kõik oma seadmed. Sellisel juhul saate seadme kaotamise korral selle lehe kaudu hõlpsalt eemaldada nende Supply Chain Managementi juurdepääsu.
 
-    ![Azure Active Directory rakendused](media/app-connect-aad-apps.png "Azure Active Directory avaldused")
+    ![Azure Active Directory rakendused.](media/app-connect-aad-apps.png "Azure Active Directory avaldused")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentimine serdi või kliendi saladuse abil
 
@@ -213,30 +213,30 @@ Järgige neid juhiseid ühenduse sätete importimiseks failist või QR-koodist.
 
 1. Käivitage laohalduse mobiilirakendus oma mobiilses seadmes. Rakenduse esmakordsel käivitamisel kuvatakse tervitusteade. Valige **Ühenduse valik**.
 
-    ![Tervitussõnum](media/app-configure-welcome-screen.png "Tervitussõnum")
+    ![Tervitussõnum.](media/app-configure-welcome-screen.png "Tervitussõnum")
 
 1. Kui impordite ühenduse sätted failist ja selle salvestamisel kasutati vaikenime ja -asukohta, on rakendus võib-olla juba faili leidnud. Sellisel juhul edasi sammu 4 juurde. Vastasel juhul valige suvand **Häälesta ühendus** ja jätkake siis sammuga 3.
 
-    ![Häälestage ühendus](media/app-configure-set-up-connection.png "Häälestage ühendus")
+    ![Häälestage ühendus.](media/app-configure-set-up-connection.png "Häälestage ühendus")
 
 1. Valige dialoogiboksis **Ühenduse häälestus** suvand **Lisa failist** või **Lisa QR-koodist**, olenevalt sellest, kuidas soovite sätted importida.
 
     - Kui impordite ühenduse sätteid failist, valige käsk **Lisa failist**, sirvige failini kohalikus seadmes ja valige see. Kui valite kohandatud asukoha, talletab rakendus selle ja kasutab seda automaatselt järgmisel korral.
     - Kui impordite ühenduse sätted QR-koodi skannimise abil, valige **Lisa QR-koodist**. Rakendus küsib teilt luba seadme kaamera kasutamiseks. Pärast loa andmist käivitatakse kaamera, et saaksite kasutada seda skannimiseks. Olenevalt seadme kaamera kvaliteedist ja QR-koodi keerukusest, võib teil olla raske saada korralikku skanni. Sel juhul proovige QR-koodi keerukust vähendada, luues ainult ühe ühenduse QR-koodi kohta. (Praegu saate QR-koodi skannimiseks kasutada ainult seadme kaamerat.)
 
-    ![Ühenduse häälestusmenüü](media/app-configure-connection-setup-flyout.png "Ühenduse häälestusmenüü")
+    ![Ühenduse häälestusmenüü.](media/app-configure-connection-setup-flyout.png "Ühenduse häälestusmenüü")
 
 1. Kui ühenduse sätted on edukalt laaditud, kuvatakse valitud ühendus.
 
-    ![Ühenduse sätted laaditud](media/app-configure-select-connection.png "Ühenduse sätted laaditud")
+    ![Ühenduse sätted laaditud.](media/app-configure-select-connection.png "Ühenduse sätted laaditud")
 
 1. Kui kasutate Androidi seadet ja kasutate autentimisel serti, palub seade teil serdi valida.
 
-    ![Serdi valimise viip Androidi seadmes](media/app-configure-select-certificate.png "Serdi valimise viip Androidi seadmes")
+    ![Serdi valimise viip Android seadmes.](media/app-configure-select-certificate.png "Serdi valimise viip Androidi seadmes")
 
 1. Rakendus loob ühenduse teie Supply Chain Managementi serveriga ja kuvab sisselogimise lehe.
 
-    ![Sisselogimise leht](media/app-configure-sign-in-page.png "Sisselogimise leht")
+    ![Sisselogimise leht.](media/app-configure-sign-in-page.png "Sisselogimise leht")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Rakenduse käsitsi konfigureerimine
 
@@ -246,15 +246,15 @@ Kui teil pole faili ega QR-koodi, saate rakenduse seadmel käsitsi konfigureerid
 1. Kui rakendus on käivitatud **demorežiimis**, valige suvand **Ühenduse sätted**. Kui rakenduse käivitamisel kuvatakse **sisselogimisleht**, valige suvand **Muuda ühendust**.
 1. Valige suvand **Häälesta ühendus**.
 
-    ![Häälestage ühendus](media/app-configure-set-up-connection.png "Häälestage ühendus")
+    ![Häälestage ühendus.](media/app-configure-set-up-connection.png "Häälestage ühendus")
 
 1. Valige **Käsitsi sisestamine**.
 
-    ![Ühenduse häälestusmenüü](media/app-configure-connection-setup-flyout.png "Ühenduse häälestusmenüü")
+    ![Ühenduse häälestusmenüü.](media/app-configure-connection-setup-flyout.png "Ühenduse häälestusmenüü")
 
     Kuvatakse leht **Uus ühendus** ja kuvab sätted, mis on nõutavad ühenduse üksikasjade käsitsi sisestamiseks.
 
-    ![Käsitsi ühendamise väljad](media/app-configure-input-manually.png "Käsitsi ühendamise väljad")
+    ![Käsitsi ühendamise väljad.](media/app-configure-input-manually.png "Käsitsi ühendamise väljad")
 
 1. Sisestage järgmine teave:
 

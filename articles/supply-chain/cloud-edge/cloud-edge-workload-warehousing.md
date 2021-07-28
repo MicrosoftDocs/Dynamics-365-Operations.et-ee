@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184018"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345496"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -73,7 +73,7 @@ Keskusel on järgmised andmed:
 
 Skaala üksused omavad tegelikku voo töötlemist (nagu töö eraldamine, täiendamise töö ja nõude töö loomine) pärast vabastamist voogu. Seetõttu saavad lao töötajad töödelda väljaminevat tööd kasutades mobiilirakendust Warehouse Management, mis on ühendatud skaala ühikuga.
 
-![Voo töötlemise voog](./media/wes-wave-processing-ga.png "Voo töötlemise voog")
+![Voo töötlemise voog.](./media/wes-wave-processing-ga.png "Voo töötlemise voog")
 
 ### <a name="process-work-and-ship"></a>Töö ja lähetuse protsess
 
@@ -81,7 +81,7 @@ Kohe, kui lõplik tööprotsess asetab varud lähetuse lõppsihtkohta (Baydoor),
 
 Niipea, kui keskus on värskendanud kanded olekule *komplekteeritud*, saab see töödelda väljamineva saadetise kinnitust ja sellega seotud müügi saatelehte või koorma üleviimistellimuse saadetist.
 
-![Väljaminev protsessi voog](./media/WES-outbound-processing-19.png "Väljaminev protsessi voog")
+![Väljaminev protsessi voog.](./media/WES-outbound-processing-19.png "Väljaminev protsessi voog")
 
 ## <a name="inbound-process-flow"></a>Sissetuleva protsessi voog
 
@@ -107,11 +107,11 @@ Töötaja saab töödelda vastuvõtuprotsessi kasutades mobiilirakendust Warehou
 
 Kui te ei kasuta *väljalaset lattu* ja seetõttu ei kasuta *laotellimusi*, saab keskus töödelda lao sissetulekut ja töötöötlemist sõltumatult skaala ühikutest.
 
-![Sissetuleva protsessi voog](./media/wes-inbound-ga.png "Sissetuleva protsessi voog")
+![Sissetuleva protsessi voog.](./media/wes-inbound-ga.png "Sissetuleva protsessi voog")
 
 Sooritades sissetulevat registreerimist laorakenduse vastuvõtuprotsessi kaudu seoses kaaluühiku lao tellimusega, annab kaaluühiku töökoormus keskusele signaali seotud ostutellimuse rea kannete uuendamiseks olekule *Registreeritud*. Niipea kui see on lõpetatud, saate käivitada keskuses ostutellimuse toote vastuvõtmise.
 
-![Väljamineva protsessi voog](./media/WES-inbound-processing-19.png "Väljamineva protsessi voog")
+![Väljamineva protsessi voog.](./media/WES-inbound-processing-19.png "Väljamineva protsessi voog")
 
 ## <a name="supported-processes-and-roles"></a>Toetatud protsessid ja rollid
 

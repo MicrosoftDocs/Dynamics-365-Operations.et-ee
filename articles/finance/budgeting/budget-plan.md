@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3673705ba4a8d69c32848881d6a280a09047d1e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188017"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343882"
 ---
 # <a name="budget-planning"></a>Eelarve plaanimine
 
@@ -47,11 +47,11 @@ Julia töötab Saksamaa ettevõttes Contoso Entertainment Systems (DEMF) finants
 
 Eelarve plaanimise konfiguratsiooniskeem stsenaariumi puhul näeb välja järgmine.
 
-![Eelarve plaanimise konfiguratsiooniskeem](./media/screenshot1-300x152.png)
+![Eelarve plaanimise konfiguratsiooniskeem.](./media/screenshot1-300x152.png)
 
 Julia kasutab eelarve ettevalmistamiseks järgmist Exceli malli.
 
-[![Exceli mall](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
+[![Exceli mall.](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
 ## <a name="exercise-1-configuration"></a>1. harjutus: konfiguratsioon
 
@@ -60,27 +60,27 @@ Kuna kogu eelarveprotsess toimub finantsosakonnas, peab Julia seega looma väga 
 
 1.1. Navigeerige organisatsioonihierarhiasse (Organisatsioonihaldus &gt; Organisatsioon &gt; Organisatsioonihierarhiad) ja klõpsake nuppu Uus.
 
-![Organisatsiooni hierarhiad](./media/screenshot3.png) 
+![Organisatsiooni hierarhiad.](./media/screenshot3.png) 
 
 1.2. Tippige nime väljale organisatsioonihierarhia nimi ja klõpsake valikut Määra eesmärk.
 
 1.3. Valige eelarve planeerimise eesmärk, klõpsake nuppu Lisa ja määrake vastloodud organisatsioonihierarhia. 
 
-[![Eesmärgi määramine](./media/screenshot5.png)](./media/screenshot5.png)
+[![Eesmärgi määramine.](./media/screenshot5.png)](./media/screenshot5.png)
 
 1.4. Korrake ülaltoodud etappi turbekorralduse eesmärgil. Lõpetamisel sulgege vorm.
 
 1.5. Klõpsake Organisatsioonihierarhia vormil valikut Vaata. Klõpsake Hierarhiakujundajas valikut Redigeeri ja looge hierarhia, klõpsates valikut Sisesta.
 
-[![Lisa](./media/screenshot7.png)](./media/screenshot7.png) 
+[![Lisa.](./media/screenshot7.png)](./media/screenshot7.png) 
 
 1.6. Valige eelarvehierarhia puhul finantsosakond. 
 
-[![Finantsid](./media/screenshot8.png)](./media/screenshot8.png)
+[![Finantsid.](./media/screenshot8.png)](./media/screenshot8.png)
 
 1.7. Kui olete lõpetanud, klõpsake valikuid Avalda ja Sule. Valige hierarhia avaldamise kuupäevaks 1.01.2015.
 
-[![Kehtivuse algus](./media/screenshot9.png)](./media/screenshot9.png)
+[![Kehtivuse algus.](./media/screenshot9.png)](./media/screenshot9.png)
 
 ### <a name="task-2-configure-user-security"></a>2. ülesanne: kasutaja turvalisuse konfigureerimine
 Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerimiseks erilisi turbepoliitikaid. Julial peab olema juurdepääs Finantside eelarveplaanidele. 
@@ -90,15 +90,15 @@ Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerim
 
 2.2. Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon. Seadke vahekaardil Parameetrid turbemudeli väärtuseks Põhineb turbeorganisatsioonidel. 
 
-[![Parameetrid](./media/screenshot11.png)](./media/screenshot11.png) 
+[![Parameetrid.](./media/screenshot11.png)](./media/screenshot11.png) 
 
 2.3. Navigeerige jaotisse Süsteemihaldus &gt; Kasutajad &gt; Kasutajad. Andke kasutajale Administraator (Julia Funderburk) eelarve halduri roll. 
 
-[![Eelarvehaldur](./media/screenshot12.png)](./media/screenshot12.png) 
+[![Eelarvehaldur.](./media/screenshot12.png)](./media/screenshot12.png) 
 
 2.4. Valige kasutajaroll ja klõpsake valikut Määra organisatsioonid. 
 
-[![Organisatsioonide määramine](./media/screenshot13.png)](./media/screenshot13.png)
+[![Organisatsioonide määramine.](./media/screenshot13.png)](./media/screenshot13.png)
 
 2.5. Valige suvand Anna juurdepääs konkreetsetele organisatsioonidele. Valige esimeses etapis loodud organisatsioonihierarhia. Valige rahandussõlm ja klõpsake nuppu Juurdepääs tütardega. 
 
@@ -109,7 +109,7 @@ Eelarve plaanimine kasutab eelarveplaanide andmetele juurdepääsu konfigureerim
 
 *Märkus. Soovi korral saate selle harjutuse puhul luua uued stsenaariumid ja kasutada hoopis neid.* 
 
-[![Uued stsenaariumid](./media/screenshot15.png)](./media/screenshot15.png) 
+[![Uued stsenaariumid.](./media/screenshot15.png)](./media/screenshot15.png) 
 
 *Märkus. Kuna Julia ei kasuta eelarve ettevalmistamiseks ametlikku heakskiitmisprotsessi, jäetakse selles ülesandes vahele suvandite Töövood, Etapid ja Töövooetapid seadistus ja kasutatakse töövoo Automaatne heakskiitmine olemasolevat seadistust. Vt selle töövoo konfiguratsiooni lisa.*
 
@@ -118,17 +118,17 @@ Eelarveplaani veerud on kas valuuta- või kogusepõhised veerud, mida saab kasut
 
 4.1. Avage jaotises Eelarve &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon leht Veerud. Klõpsake vormi paremas ülanurgas nuppu Office ja valige Veerud (filtreerimata). 
 
-[![Filtrimata veerud](./media/screenshot16.png)](./media/screenshot16.png) 
+[![Filtrimata veerud.](./media/screenshot16.png)](./media/screenshot16.png) 
 
 4.2. Süsteem avab väärtuste täitmiseks Exceli töövihiku. Viiba kuvamisel klõpsake valikuid Luba redigeerimine ja Usalda rakendust. 
 
 4.3. Väärtuste sisestamiseks on vaja rohkem veerge. Klõpsake paremal paanil valikut Kujundus, et lisada ruudustikku veerge. 
 
-[![Kujundus](./media/screenshot19.png)](./media/screenshot19.png) 
+[![Kujundus.](./media/screenshot19.png)](./media/screenshot19.png) 
 
 4.4. Klõpsake valiku PlanColumns kõrval olevat pliiatsinuppu, et näha saadaolevaid veerge, mida ruudustikku lisada. 
 
-[![Redigeeri](./media/screenshot20.png)](./media/screenshot20.png) 
+[![Redigeeri.](./media/screenshot20.png)](./media/screenshot20.png) 
 
 4.5. Topeltklõpsake iga saadaolevat välja, et lisada need väljale Valitud, ja klõpsake nuppu Värskenda. 
 
@@ -136,7 +136,7 @@ Eelarveplaani veerud on kas valuuta- või kogusepõhised veerud, mida saab kasut
 
 4.7. Naaske rakendusse ja värskendage lehte. Avaldatud väärtused kuvatakse. 
 
-[![Värskendamine](./media/screenshot23.png)](./media/screenshot23.png)
+[![Värskendamine.](./media/screenshot23.png)](./media/screenshot23.png)
 
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>5. ülesanne: eelarveplaani dokumendipaigutuste ja mallide loomine
 Paigutus määratleb, kuidas eelarveplaani dokumendi ridade ruudustik välja näeb, kui kasutaja eelarveplaani dokumendi avab. Eelarveplaani dokumendi paigutust on võimalik vahetada ka samade andmete nägemiseks eri nurkade all. Kohe kui Julia saab meie eelarveplaani dokumendis kasutatavad veerud määratletud, peab ta looma eelarveplaani dokumendipaigutuse, mis sarnaneb Exceli tabelile, mida ta kasutab eelarveandmete loomiseks (vt selle ülesande jaotist Stsenaariumi ülevaade) 
@@ -147,14 +147,14 @@ Paigutus määratleb, kuidas eelarveplaani dokumendi ridade ruudustik välja nä
 -   Loetlege kõik jaotise Elemendid eelmises etapis loodud eelarveplaani veerud. Muutke redigeeritavaks kõik peale eelmise aasta tegelike summade.
 -   Klõpsake nuppu Kirjeldused, et valida, millised finantsdimensioonid peaks ruudustikus kirjeldusi kuvama.
 
-[![Kirjeldused](./media/screenshot24.png)](./media/screenshot24.png) 
+[![Kirjeldused.](./media/screenshot24.png)](./media/screenshot24.png) 
 
 Eelarveplaani paigutuse määratluse põhjal saame luua Exceli malli, mida kasutada eelarveandmete redigeerimise alternatiivse meetodina. Kuna Exceli mall peab ühtima eelarveplaani paigutuse määratlusega, ei saa te eelarveplaani paigutust muuta pärast Exceli malli loomist, mistõttu tuleks see ülesanne täita pärast kõikide paigutuse komponentide määratlemist. 
 
 5.2. Etapis 5.1 loodud paigutuse puhul klõpsake nuppe Mall &gt; Loo. Kinnitage hoiatusteade. Malli kuvamiseks klõpsake nuppe Mall &gt; Kuva. 
 
-*Märkus. Veenduge, et valiksite käsu Salvesta nimega ja valiksite koha, kuhu mall tuleks redigeerimiseks salvestada. Kui kasutaja valib dialoogis käsu Ava ilma salvestamata, ei säilitata faili sulgemisel sellele tehtud muudatusi.* 
-[![Template view](./media/screenshot25.png)](./media/screenshot25.png) 
+*Märkus: Veenduge, et valiksite käsu "Salvesta nimega" ja valiksite koha, kuhu mall tuleks redigeerimiseks salvestada. Kui kasutaja valib dialoogis käsu "Ava" ilma salvestamata, ei säilitata faili sulgemisel sellele tehtud muudatusi.* 
+[![Malli vaade.](./media/screenshot25.png)](./media/screenshot25.png) 
 
 5.3. &lt; Valikuline etapp&gt; Muutke Exceli malli, et see näeks välja kasutajasõbralikum – lisage kogu valemid, päiseväljad, vorming jne. Salvestage muudatused ja laadige fail eelarveplaani paigutusse üles, klõpsates valikuid Paigutus &gt; Laadi üles. 
 
@@ -174,11 +174,11 @@ Julia peab looma ja aktiveerima uue eelarve plaanimise protsessi, mis ühendab k
 
 *Märkus. Saate luua täiendavaid dokumendipaigutusi ja määrata need eelarve plaanimise töövoo etapis saadaolevaks, klõpsates nuppu Alternatiivsed paigutused.* 
 
-[![Alternatiivsed paigutused](./media/screenshot27.png)](./media/screenshot27.png) 
+[![Alternatiivsed paigutused.](./media/screenshot27.png)](./media/screenshot27.png) 
 
 6.2. Valige selle eelarve plaanimise töövoo aktiveerimiseks Toimingud &gt; Aktiveeri. 
 
-[![Aktiveeri](./media/screenshot28.png)](./media/screenshot28.png)
+[![Aktiveeri.](./media/screenshot28.png)](./media/screenshot28.png)
 
 ## <a name="exercise-2-process-simulation"></a>2. harjutus: protsessi simulatsioon
 
@@ -187,26 +187,26 @@ Julia peab looma ja aktiveerima uue eelarve plaanimise protsessi, mis ühendab k
 
 7.2. Navigeerige jaotisse Eelarve &gt; Eelarve plaanimine, et leida genereerimisprotsessi loodud eelarveplaan. 
 
-[![Eelarveplaan](./media/screenshot30.png)](./media/screenshot30.png) 
+[![Eelarveplaan.](./media/screenshot30.png)](./media/screenshot30.png) 
 
 7.3. Avage dokumendi üksikasjad, klõpsates dokumendi numbri hüperlinki. Eelarveplaani kuvatakse vastavalt selle labori ajal loodud paigutusele. 
 
-[![Eelarveplaani kuva](./media/screenshot31.png)](./media/screenshot31.png)
+[![Eelarveplaani kuva.](./media/screenshot31.png)](./media/screenshot31.png)
 
 ### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>8. ülesanne: jooksva aasta eelarve loomine eelmise aasta tegelike summade alusel
 Eraldusmeetodeid saab eelarveplaanis kasutada eelarveplaanide teabe hõlpsaks kopeerimiseks ühest stsenaariumist teise / nende jaotamiseks perioodides / dimensioonidele eraldamiseks. Kasutame eraldamisi jooksva aasta eelarve loomiseks eelmise aasta tegelikest summadest. 
 
 8.1. Valige kõik eelarveplaani dokumentide ruudustiku read ja klõpsake nuppu Eelarve eraldamine. 
 
-[![Kõik read](./media/screenshot32.png)](./media/screenshot32.png) 
+[![Kõik read.](./media/screenshot32.png)](./media/screenshot32.png) 
 
 8.2. Valige eraldamisviis, perioodiklahv, allika ja sihtkoha stsenaariumid ning klõpsake nuppu Eralda. 
 
-[![Eralda](./media/screenshot33.png)](./media/screenshot33.png)
+[![Eralda.](./media/screenshot33.png)](./media/screenshot33.png)
 
 Eelmise aasta tegelikud summad kopeeritakse jooksva aasta eelarvesse ja need eraldatakse perioodide kaupa, kasutades müügi kõvera perioodi klahvi. 
 
-[![Müügikõver](./media/screenshot34.png)](./media/screenshot34.png)
+[![Müügikõver.](./media/screenshot34.png)](./media/screenshot34.png)
 
 ### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>9. ülesanne: eelarveplaani dokumendi korrigeerimine Exceliga ja dokumendi lõpetamine
 9.1. Klõpsake Excelis dokumendi sisu avamiseks nuppu Tööleht.
@@ -215,9 +215,9 @@ Eelmise aasta tegelikud summad kopeeritakse jooksva aasta eelarvesse ja need era
 
 9.3. Eelarveplaani dokumentidesse naasmine Klõpsake dokumendi automaatselt kinnitamiseks valikuid Töövoog &gt; Esita.
 
-[![Automaatne heakskiitmine](./media/screenshot37.png)](./media/screenshot37.png) 
+[![Automaatne heakskiitmine.](./media/screenshot37.png)](./media/screenshot37.png) 
 
-Kui töövoog lõpule jõuab, muutub eelarveplaani dokumendi etapp väärtusele Kinnitatud. [![Kinnitatud](./media/screenshot38.png)](./media/screenshot38.png)
+Kui töövoog lõpule jõuab, muutub eelarveplaani dokumendi etapp väärtusele Kinnitatud. [![Kinnitatud.](./media/screenshot38.png)](./media/screenshot38.png)
 
 ## <a name="appendix"></a>Lisa
 
@@ -225,21 +225,21 @@ Kui töövoog lõpule jõuab, muutub eelarveplaani dokumendi etapp väärtusele 
 
 A. Eelarve &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve töövood. Looge eelarve plaanimise töövoogude abil uus töövoog.
 
-[![Uue töövoo loomine](./media/screenshot39.png)](./media/screenshot39.png)
+[![Uue töövoo loomine.](./media/screenshot39.png)](./media/screenshot39.png)
 
 See töövoog sisaldab ainult ühte ülesannet – etapi ülemineku eelarveplaan. 
 
-[![Etapi ülemineku eelarveplaan](./media/screenshot40.png)](./media/screenshot40.png) 
+[![Etapi ülemineku eelarveplaan.](./media/screenshot40.png)](./media/screenshot40.png) 
 
 Salvestage ja aktiveerige töövoog. 
 
 B. Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon. Looge vahekaardil Etapid 2 etappi – Algne ja Esitatud. 
 
-[![Algne ja Esitatud](./media/screenshot41.png)](./media/screenshot41.png)
+[![Algne ja Esitatud.](./media/screenshot41.png)](./media/screenshot41.png)
 
 C. Navigeerige jaotisse Eelarvestus &gt; Seadistus &gt; Eelarve plaanimine &gt; Eelarve plaanimise konfiguratsioon. Seostage vahekaardil Töövoo etapid etapis A loodud töövoog Automaatne kinnitamine etappidega Algne ja Esitatud.
 
-[![Eelarvestamine ja eelarve plaanimine](./media/screenshot42.png)](./media/screenshot42.png)  
+[![Eelarvestamine ja eelarve plaanimine.](./media/screenshot42.png)](./media/screenshot42.png)  
 
 
 

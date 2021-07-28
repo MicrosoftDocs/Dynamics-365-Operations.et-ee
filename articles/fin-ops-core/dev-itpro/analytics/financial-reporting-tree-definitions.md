@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866298"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345782"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Aruandluspuu definitsioonid finantsaruannetes
 
@@ -170,23 +170,23 @@ Siin on aruandlusüksuse struktuur järgmises aruandluspuus.
 - Madalaima taseme üksikasjade aruandlusüksused (Home Sales, Auto Sales, Client Services ja Operations) kajastavad finantsandmete osakondi. Need aruandlusüksused on diagrammi varjutatud alas.
 - Kõrgema taseme kokkuvõtte üksused esitavad üksikasjade üksuste teabe kokkuvõtte.
 
-[![Contoso Kokkuvõtte Aruandestruktuur – Näide 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso Kokkuvõtte Aruandestruktuur – Näide 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Aruandlusüksuse struktuur – näide 2
 
 Järgmisel diagrammil on aruandluspuul ettevõtte funktsiooni järgi jaotatud organisatsiooni struktuur.
 
-[![Contoso Kokkuvõtte Aruandestruktuur – Näide 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso Kokkuvõtte Aruandestruktuur – Näide 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Näide aruandlusüksuste sisestamise kohta dimensioonide dialoogiboksist
 
 Järgmisel illustratsioonil on dialoogiboksi **Sisesta aruandlusüksused dimensioonidest** näide. Selles näites annavad tulemused äriüksuste, kulukeskuste ja osakondade kombinatsiooni.
 
-[![Lisa Aruandlusüksus](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Aruandlusüksuse lisamine.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Saadud aruandluspuu definitsiooni sorditakse äriüksuse, siis kulukeskuse ja siis osakonna järgi. Viienda aruandlusüksuse dimensioon on **Äriüksus = \[001\], Kulukeskus = \[\], Osakond = \[022\]** ja tähistab äriüksuse 001 osakonda 022 puudutavate kontode aruandlusüksust.
 
-[![Aruandluspuu Illustratsioon](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Aruandluspuu Illustratsioon.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Andmete koondamise näited
 
@@ -194,11 +194,11 @@ Järgmistes näidetes on võimalik teave, mida koondatavate andmete aruandluspuu
 
 #### <a name="example-1"></a>Näide 1
 
-[![Multi-ettevõtte ümberpööramine](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Multi-ettevõtte ümberpööramine.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Näide 2
 
-[![Ettevõtetevahelise osakonna ümberpööramine](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Ettevõtetevahelise osakonna ümberpööramine.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

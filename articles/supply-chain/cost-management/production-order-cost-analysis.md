@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4d0a298a8f782ae318971e99c03e864fa5a4ef88
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187694"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343646"
 ---
 # <a name="production-order-cost-analysis"></a>Tootmistellimuse kulu analüüs
 
@@ -41,7 +41,7 @@ Hälbed kajastavad võrdlust aruandes esitatud tootmistegevuste ja toodetava kau
 
 Järgmisel diagrammil on näidatud neli hälvet, mis selgitavad erinevust tootmistellimuse tegelike kulude ja arvutatud kulude vahel kauba kulukirjes tootmistellimuse lõpetamise ajal. 
 
-![Hälbed, mis selgitavad erinevusi lõpule viidud tootmistellimuses](./media/control.jpg) 
+![Hälbed, mis selgitavad erinevusi lõpule viidud tootmistellimuses.](./media/control.jpg) 
 
 Saate tootmishälbeid analüüsida lehega **Hälve** või aruandega **Tootmishälve**. Kasutage kuvamisvalikuid üksikasjalike hälvete vaatamiseks kauba ja operatsiooniressursi või kulugrupi järgi.. Kulude jaotamise poliitika varude parameetrites määratleb, kas hälbeid jälgitakse kulugruppide alusel. Võite kasutada summeeritud hälvete vaatamiseks ka kuvamisvalikuid **üksik**, **mitmekordne** ja **kokku**. Teave üksikasjalike hälvete kohta võib aidata iga hälbe allikat mõista. Hälvete prognoosimiseks enne tootmistellimuse lõpetamist analüüsige üksikasjalikku teavet, mis on antud aruandes **Kuluhinnangud ja omahind**.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344878"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER-vormingute täitmise jälitus jõudluse probleemide tõrkeotsinguks
 
@@ -56,14 +56,14 @@ Samuti peate alla laadima ja kohalikult talletama järgmised failid.
 
 Iga ER-i jõudluse jälg, mis luuakse rakenduses, salvestatakse käivituslogi kirje manusena. Nende manuste haldamiseks kasutatakse dokumendihalduse raamistikku. Peate konfigureerima ER-i parameetreid varem, et määrata dokumendihalduse dokumendi tüüp, mida tuleks kasutada jõudluse jälgede manustamiseks. Tööruumis **Elektrooniline aruandlus** valige **Elektroonilise aruandluse parameetrid**. Seejärel valige lehe **Elektroonilise aruandluse parameetrid** vahekaardi **Manused** väljal **Muud** dokumendihalduse dokumendi tüüp, mida tuleks kasutada jõudluse jälitusteks.
 
-![Elektroonilise aruandluse parameetrite leht](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Elektroonilise aruandluse parameetrite leht.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Selleks, et dokumendihalduse dokumenditüüp oleks otsinguväljal **Muud** saadaval, peab dokumendihalduse dokumenditüüp olema lehel **Dokumenditüübid** konfigureeritud järgmisel viisil (**Organisatsiooni haldus \> Dokumendihaldus \> Dokumenditüübid**).
 
 - **Klass:** manusfail
 - **Grupp:** fail
 
-![Dokumenditüüpide leht](./media/GER-PerfTrace-DM-DocumentType.png)
+![Dokumenditüüpide leht.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > Valitud dokumenditüüp peab olema eksemplari igas ettevõttes saadaval, kuna dokumendihalduse manused on ettevõttekohased.
@@ -72,7 +72,7 @@ Selleks, et dokumendihalduse dokumenditüüp oleks otsinguväljal **Muud** saada
 
 Loodud ER-i jõudluse jäled imporditakse analüüsimiseks RCS-i, kasutades ER-vormingu kujundajat ja ER-i mudelivastenduse kujundajat. Kuna ER-i jõudluse jäljed salvestatakse ER-vorminguga seotud käivituslogi kirje manustena, peate konfigureerima RCS-i parameetreid ette, et määrata dokumendihalduse dokumenditüüp, mida tuleks kasutada jõudluse jälje manustamiseks. Valige RCS-i eksemplari, mis on teie ettevõtte jaoks ette valmistatud, tööruumis **Elektrooniline aruandlus** suvand **Elektroonilise aruandluse parameetrid**. Seejärel valige lehe **Elektroonilise aruandluse parameetrid** vahekaardi **Manused** väljal **Muud** dokumendihalduse dokumendi tüüp, mida tuleks kasutada jõudluse jälitusteks.
 
-![Elektroonilise aruandluse parameetrite leht RCS-is](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Elektroonilise aruandluse parameetrite leht RCS-is.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Selleks, et dokumendihalduse dokumenditüüp oleks otsinguväljal **Muud** saadaval, peab dokumendihalduse dokumenditüüp olema lehel **Dokumenditüübid** konfigureeritud järgmisel viisil (**Organisatsiooni haldus \> Dokumendihaldus \> Dokumenditüübid**).
 
@@ -92,7 +92,7 @@ Oletame, et olete alustanud uue ER-i lahenduse kujundamist, et luua uus hankija 
     2. Valige käsk **Sirvi**, et valida nõutava ER-i konfiguratsiooni jaoks sobiv fail XML-vormingus.
     3. Valige nupp **OK**.
 
-    ![Konfiguratsioonide leht RCS-is](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Konfiguratsioonide leht RCS-s.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>ER-i lahenduse kasutamine täitmise jälituseks
 
@@ -109,7 +109,7 @@ Oletame, et olete lõpetanud ER-i lahenduse esimese versiooni kujundamise. Nüü
     3. Valige kiirkaardil **Konfiguratsioonid** konfiguratsioon **Jõudluse jälituse vorming**.
     4. Valige kiirkaardil **Versioonid** valitud konfiguratsiooni versioon **1.1** ja seejärel käsk **Impordi**.
 
-    ![Konfiguratsioonide hoidla leht](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Konfiguratsioonihoidla leht.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 Andmemudeli ja mudelivastenduse vastavate versioonide konfiguratsioonid imporditakse eeltingimustena automaatselt imporditud ER-vormingu konfiguratsioonile.
 
@@ -156,7 +156,7 @@ Andmemudeli ja mudelivastenduse vastavate versioonide konfiguratsioonid impordit
     > [!NOTE]
     > Dialoogiboksi **Kasutaja parameetrid** parameetrid kehtivad konkreetsele kasutajale ja praegusele ettevõttele.
 
-    ![Kasutaja parameetrite dialoogiaken](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Kasutaja parameetrite dialoogiaken.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>ER-vormingu käivitamine
 
@@ -173,15 +173,15 @@ Pange tähele, et loodud fail esitab teavet kuue hankija 265 kande kohta.
 
 Jõudluse jäljed lahutatakse ER-vormingu allikast ja neid saab järjestada välisele ZIP-failile.
 
-1. Minge jaotisse **Organisatsiooni haldamine\>  Elektrooniline aruandlus \>Konfiguratsiooni silumislogid**.
+1. Minge jaotisse **Organisatsiooni haldamine\> Elektrooniline aruandlus \>Konfiguratsiooni silumislogid**.
 2. Valige lehe **Elektroonilise aruandluse käivituslogid** vasakpoolsel paanil **Konfiguratsiooni nimi** valik **Jõudluse jälituse vorming**, et leida logi kirjed, mis on loodud konfiguratsiooni **Jõudluse jälituse vorming** täitmisega.
 3. Valige lehe paremas ülanurgas nupp **Manused** (kirjaklambrisümbol) või vajutage klahve **Ctrl + Shift + A**.
 
-    ![Lehe Elektroonilise aruandluse käitamise logid nupp Manused](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Lehe Elektroonilise aruandluse käitamise logid nupp Manused.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Valige lehe **Elektroonilise aruandluse käitamise logide manused** toimingupaanil käsk **Ava**, et saada jõudluse jälg ZIP-failina ja seda kohalikult talletada.
 
-    ![Elektroonilise aruandluse logide manused](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Elektroonilise aruandluse logide manused.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > Loodud jäljel on viide allika ER-i aruandele kordumatu aruande identifikaatori kaudu ainult **GUID**-vormingus. Vormingu versiooni nummerdamist ei arvestata.
@@ -198,7 +198,7 @@ Pange tähele, et täidetud ER-vormingu jaoks loodud jõudluse jälje ja ER-i mu
 6. Valige nupp **Sirvi**, et valida varem eksporditud zip fail.
 7. Valige nupp **OK**.
 
-    ![Jõudluse jälituse tulemuse sätete dialoogiboks RCS-is](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Jõudluse jälituse tulemuse sätete dialoogiboks RCS-s.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Jõudluse jälituse kasutamine analüüsiks RCS-is – vormingu täitmine
 
@@ -209,7 +209,7 @@ Pange tähele, et täidetud ER-vormingu jaoks loodud jõudluse jälje ja ER-i mu
     - Tegelik aeg, mis kulus andmete sisestamiseks loodud väljundisse kasutades vormingu üksust
     - Sama aeg väljendatuna protsendina koguajast, mis kulutati kogu väljundi loomiseks
 
-    ![Vormingu koostaja leht RCS-is](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Vormingu koostaja leht RCS-s.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Sulgege **Vormingu koostaja** leht.
 
@@ -232,7 +232,7 @@ Pange tähele, et ER annab teile teate, et praegune mudelivastendus dubleerib an
 - Üks kutse tehakse, et sisestada andmemudelis iga kande üksikasjad konfigureeritud sidumiste alusel.
 - Teine kutse tehakse, et sisestada andmemudelis iga hankija kohta arvutatud kannete arv.
 
-![Teade dubleeritud andmebaasi taotluste kohta mudelivastenduse koostaja lehel RCS-is](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Teade dubleeritud andmebaasi taotluste kohta mudelivastenduse koostaja lehel RCS-s.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 Väärtus **\[Q:530\]** näitab, et tabelit VendTrans kutsuti 530 korda, et tagastada sellest tabelist kirje andmeallikasse VendTable/\<Relations/VendTrans.VendTable\_AccountNum. Väärtus **\[530\]** näitab, et andmeallikat VendTable/\<Relations/VendTrans.VendTable\_AccountNum kutsuti 530 korda, et tagastada kirje sellest andmeallikast ja sisestada selle üksikasjad andmemudelisse.
 
@@ -240,7 +240,7 @@ Soovitame kasutada andmeallika VendTable/\<Relations/VendTrans.VendTable\_Accoun
 
 Samuti võib see olla kasulik. et vähendada andmeallikale LedgerTransTypeList tehtud kutsumiste arvu. Seda andmeallikat kasutatakse **LedgerTransType**-i nummerdamise iga väärtuse seostamiseks oma sildiga. Seda andmeallikat kasutades saate leida sobiva sildi ja seda andmeallikasse iga hankija kande jaoks sisestada. Praegune kutsete arv sellele andmeallikale (9027) on 265 kande kohta üsna kõrge.
 
-![Mudelivastenduse koostaja leht RCS-is, mis näitab 9027 kutset andmeallikale](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![Mudelivastenduse koostaja leht RCS-s, mis näitab 9027 kutset andmeallikale.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Mudelivastenduse parandamine täitmise jälitusest saadud teabe põhjal
 
@@ -253,7 +253,7 @@ Samuti võib see olla kasulik. et vähendada andmeallikale LedgerTransTypeList t
     3. Laiendage üksust **VendTable**, laiendage andmeallika VendTable üks-mitmele seoste loendit (üksus **\<Seosed**) ja valige üksus **VendTrans.VendTable\_AccountNum**.
     4. Valige suvand **Vahemälu**.
 
-    ![Vahemälu häälestus, mis aitab vältida dubleeritud kutseid](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Vahemälu häälestus, mis aitab vältida dubleeritud kutseid.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Järgige neid samme, et tuua andmeallikas LedgerTransTypeList andmeallika VendTable ulatusse.
 
@@ -274,7 +274,7 @@ Samuti võib see olla kasulik. et vähendada andmeallikale LedgerTransTypeList t
     3. Valige üksus **VendTable.\$TransType**.
     4. Valige suvand **Vahemälu**.
 
-    ![Vahemällusalvestuse seadistamine välja $TransType jaoks](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Vahemällusalvestuse seadistamine välja $TransType jaoks.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Järgige neid samme, et muuta välja **\$TransTypeRecord** nii, et see hakkaks kasutama vahemällu salvestatud välja **\$TransType.**
 
@@ -329,19 +329,19 @@ Korrake samme selle teema jaotises [Jõudluse jälituse kasutamine analüüsiks 
 
 Pange tähele, et kohandused, mida tegite mudelivastendusele, on eemaldanud dubleeritud päringud andmebaasile. Vähendatud on ka selle mudelivastenduse kutsete arvu andmebaasi tabelitele ja andmeallikatele. See on paranenud kogu ER-i lahenduse jõudlus.
 
-![Jälje teave andmeallika VendTable kohta RCS-i lehel Mudelivastenduse koostaja](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![Jälje teave andmeallika VendTable kohta RCS-i mudelivastenduse koostaja lehel.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 Jälje teabes näitab andmeallika VendTable väärtus **\[12\]**, et seda andmeallikat kutsuti 12 korda. Väärtus **\[Q:6\]** näitab, et kuus kutset teisendati andmebaasi kutseteks andmeallika VendTable tabelile. Väärtus **\[C:6\]** näitab, et andmebaasist toodud kirjed salvestati vahemällu ja kuus muud kõnet töödeldi vahemälu abil.
 
 Pange tähele, et kutsete arv andmeallikale LedgerTransTypeList on vähendatud 9027-lt 240-le.
 
-![Jälje teave andmeallika LedgerTransTypeList kohta RCS-i lehel Mudelivastenduse koostaja](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![Jälje teave andmeallika LedgerTransTypeList kohta RCS-i mudelivastenduse koostaja lehel.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Kontrollige käivitamise jälge rakenduses
 
 Peale RCS-i võivad mõned versioonid pakkuda võimalusi ER-i raamistiku koostaja kogemuse jaoks. Nendel versioonidel on olemas suvand **Luba kujundusrežiim**, mida saab sisse lülitada. Selle suvandi leiate lehe **Elektroonilise aruandluse parameetrid** vahekaardilt **Üldine**, mille saate avada tööruumist **Elektrooniline aruandlus**.
 
-![Disainimise režiimi suvandi lubamine elektroonilise aruandluse parameetrite lehel](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Disainimise režiimi suvandi lubamine elektroonilise aruandluse parameetrite lehel.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Kui kasutate ühte neist versioonidest, saate analüüsida loodud jõudluse jälje üksikasju otse rakenduses Finance and Operations. Te ei pea neid eksportima rakendusest ning importima RCS-i.
 
@@ -359,7 +359,7 @@ Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et l
 
 Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisaldab jõudluse jälge PerfView-vormingus. Seejärel saate kasutada PerfView jõudluse analüüsi tööriista, et analüüsida ER-vormingu täitmise üksikasju.
 
-![Jõudluse jälje teave PerfView-vormingus](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Jõudluse jälje teave PerfView-vormingus.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Väliste tööriistade kasutamine täitmise jälje läbivaatamiseks, mis hõlmab andmebaasi päringuid
 
@@ -375,7 +375,7 @@ Tänu ER-raamistiku täiustustele pakub PerfView'is loodud jõudluse jälitus n�
     - Seadistage **Päringustatistika sissenõudmise** väärtuseks **Jah**.
     - Määrake suvand **Jälituse päring** olekule **Jah**.
 
-    ![Jaotis Täitmise jälitus, dialoogiboks Kasutaja parameetrid](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Täitmise jälituse jaotis, kasutaja parameetri dialoogiboks.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>ER-vormingu käivitamine
 
@@ -383,7 +383,7 @@ Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et l
 
 Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisaldab jõudluse jälge PerfView-vormingus. Seejärel saate kasutada PerfView jõudluse analüüsi tööriista, et analüüsida ER-vormingu täitmise üksikasju. See jälg sisaldab nüüd SQL-i andmebaasi juurdepääsu üksikasju ER-vormingu käivitamise ajal.
 
-![Käivitatud ER-vormingu jälitusteave PerfView'is](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Käivitatud ER-vormingu jälitusteave PerfView'is.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

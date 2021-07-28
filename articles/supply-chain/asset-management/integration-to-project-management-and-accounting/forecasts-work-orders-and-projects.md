@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813817"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345424"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognoosid, töökäsud ja projektid
 
@@ -58,13 +58,13 @@ Osa sellest teabest ei pruugi töökäsul leida. Seega otsitakse töökäsu üle
 
 Näiteks järgmisel joonisel on varatüübi **Veoki mootor** seadistamise viisi tõttu iga töökäsu töö, mis luuakse varatüübiga **Veoki mootor** projekti ID 000186 alamprojekt.
 
-![Joonis 1](media/01-integration-to-pma.png)
+![Joonis 1.](media/01-integration-to-pma.png)
 
 Projekti ID eesmärk töökäsu tööl ja sellega seotud tegevuse numbri eesmärk on jälgida töökäsu tööga seotud kulusid ja sellel valitud vara moodulis **Projektihaldus ja -arvestus**. (Projekti ID ja tegevuse numbri vaatamiseks **Varade haldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** ja valige töökäsk. Vahekaardil **Rea üksikasjad** kuvatakse väljal **Projekti ID** projekti ID ja väljal **Tegevuse number** kuvatakse tegevuse number.) Lisateavet varade haldamise kulukontrolli kohta vt [Kulude ja kuupäeva kontroll](../controlling-and-reporting/cost-and-date-control.md).
 
 Järgmisel joonisel on kujutatud graafiline ülevaade töökäsu projektidest ja sellega seotud projektitegevustest.
 
-![Joonis 2](media/02-integration-to-pma.png)
+![Joonis 2.](media/02-integration-to-pma.png)
 
 Kui töökäsus luuakse uus töö, luuakse selle jaoks automaatselt projekt. Töökäsu tööga seotud vara finantsdimensioonid edastatakse automaatselt töökäsu projekti.
 
@@ -86,17 +86,17 @@ Et tagada töökäsu tsükli olekute ja nendega seotud projekti etappide õiget 
 
 Järgmised joonised näitavad seoseid töökäsu projekti gruppide, seotud projektitüüpide, projekti etappide ja töökäsu tsükli olekute vahel.
 
-![Joonis 3](media/03-integration-to-pma.png)
+![Joonis 3.](media/03-integration-to-pma.png)
 
-![Joonis 4](media/04-integration-to-pma.png)
+![Joonis 4.](media/04-integration-to-pma.png)
 
-![Joonis 5](media/05-integration-to-pma.png)
+![Joonis 5.](media/05-integration-to-pma.png)
 
 Lisateavet töökäsu projektide seadistamise kohta vt [Töökäsu projektide seadistus](../setup-for-work-orders/work-order-project-setup.md). Lisateavet töökäsu elutsükli olekute loomise kohta vt [Töökäsu elutsükli olekud](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Järgmisel joonisel on kujutatud erinevate projektide graafiline ülevaade, mis on loodud moodulis **Varade haldus**, et võimaldada integreerimist mooduliga **Projektihaldus ja -arvestus**. See näitab ka tööprotsesse, millega projektid on seotud.
 
-![Joonis 6](media/06-integration-to-pma.png)
+![Joonis 6.](media/06-integration-to-pma.png)
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838342"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345254"
 ---
 # <a name="cycle-counting"></a>Tsükliline inventuur
 
@@ -34,7 +34,7 @@ Tsükliline inventuur on laoprotsess, mida saate kaupade laovaru kontrollimiseks
 2.  **Tsüklilise inventuuri töötlemine** – pärast tsüklilise inventuuri töö loomist saab teha tsüklilise inventuuri töö, loendades lao asukohas olevad kaubad ja sisestades tulemuse mobiilse seadme abil Dynamics 365 Supply Chain Managementisse. Teise võimalusena saate lugeda kaupu lao asukohas, tsüklilise inventuuri tööd loomata. Seda protsessi nimetatakse *punkttsükliliseks inventuuriks*.
 3.  **Tsüklilise inventuuri väärtuse erinevuse lahendamine** – pärast tsüklilist inventuuri on vormil **Kogu töö** kaupadel, mille inventuuri käigus saadud väärtuses on erinevusi, tööolek **Ülevaatuse ootel**. Need erinevused saab lahendada lehel **Ülevaatuse ootel tsüklilise inventuuri töö**.
 
-Järgmine illustratsioon näitab tsüklilise inventuuri protsessi. ![Tsüklilise inventuuri protsessivoog](./media/performcyclecountinginawarehouselocation.jpg)
+Järgmine illustratsioon näitab tsüklilise inventuuri protsessi. ![Tsüklilise inventuuri protsessivoog.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Tsüklilise inventuuri eeltingimused
 Järgmises tabelis kuvatakse eeltingimused, mis peavad olema olemas, enne kui saate tsüklilist inventuuri kasutada.
