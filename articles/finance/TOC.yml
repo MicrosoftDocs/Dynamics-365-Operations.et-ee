@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (juuni 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (mai 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Piiriüleste teenuste aruanne
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Ostulõivud
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahrein
               items:
                 - name: Bahreini ülevaade
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: EL-i Intrastati deklaratsiooni koostamine
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Prantsuse Intrastat
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Itaalia Intrastat
+                      href: localizations/emea-ita-intrastat.md
                 - name: Varude töölehe aruanded
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Arve väljastamise tähtajad
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'Käibemaksudeklaratsioon registritega (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: JPK-V7M-i aruandluseks ettevalmistamine
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: JPK-V7M-i aruandlus
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Konkreetsete äristsenaariumide üksikasjad JPK-V7M-i aruandes
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Katar
               items:
                 - name: Katari ülevaade
@@ -3200,10 +3210,12 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: Hinnatud kulude registrid
                       href: localizations/rus-rated-expenses-registers.md
-                    - name: Ostureskontro võla maksu registrid ja võla mahakandmised
+                    - name: Ostureskontro võla maksuregistrid ja võla mahakandmised
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Võlgade reservid müügireskontros
                       href: localizations/rus-bad-debts.md
+                    - name: Maksuvara ja maksukohustuse registrite arvutamine
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Saudi Araabia
               items:
                 - name: Saudi Araabia ülevaade
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Aruannete loomine Office’i vormingutes koos manustatud piltidega
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Elektroonilise aruandluse vormingu kujundamine aruande genereerimiseks Excelis koos manustatud piltidega lehe päistes või jalustes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Koosluse märkide peitmine loodud failides

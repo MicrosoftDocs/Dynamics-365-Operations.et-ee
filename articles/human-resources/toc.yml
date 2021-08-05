@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 12. juuli 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22. juuni 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20. mai 2021
@@ -255,7 +257,9 @@
           href: hr-admin-go-live-prepare.md
         - name: Süsteemi Go-live KKK
           href: hr-admin-go-live-faq.md
-        - name: Dokumentatsiooni ressursid
+        - name: Rakenduse Human Resources taristu ühendamise KKK
+          href: hr-infrastructure-merge-faq.md
+        - name: Dokumentatsiooniressursid
           items:
             - name: Spikrisüsteem
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Kompensatsiooniplaanide töötlemine
               href: hr-compensation-process.md
+            - name: Töövõtja märkimine olekusse Maksmiseks valmis
+              href: hr-compensation-payroll.md
         - name: Soodustuste haldamine
           items:
             - name: Soodustuste haldus
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Elusündmuse tüüpide konfigureerimine
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Plaani tüüpide loomine
+                    - name: Plaanitüübi ülevaade
                       href: hr-benefits-setup-plan-types.md
                     - name: Põhjusekoodide häälestamine
                       href: hr-benefits-setup-reason-codes.md
@@ -805,8 +811,10 @@
               href: hr-employee-self-service-manage-requests.md
             - name: Vaba aja taotlemine
               href: hr-employee-self-service-request-time-off.md
-            - name: Meeskonna ja ettevõtte kalendrite kuvamine
+            - name: Töörühma ja ettevõtte kalendrite kuvamine
               href: hr-employee-self-service-calendar.md
+            - name: Puudumiste halduri rolli konfigureerimine
+              href: hr-configure-absence-manager.md
             - name: Puhkuse ostu ja müügi poliitikate haldamine
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Puhkuse ostmise ja müümise töövoogude loomine

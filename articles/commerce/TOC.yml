@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (juuni 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: Commerce 10.0.18 (mai 2021)
-                      href: get-started/whats-new-commerce-10-0-18.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -896,10 +894,12 @@
                   href: manage-robots-txt-files.md
                 - name: URL-i ümbersuunamiste hulgiüleslaadimine
                   href: upload-bulk-redirects.md
-                - name: B2C-rentniku häälestus Commerce'is
+                - name: Jaekaubandusrentniku häälestamine Commerce'is
                   href: set-up-B2C-tenant.md
                 - name: Kohandatud lehtede häälestus kasutajate sisselogimise jaoks
                   href: custom-pages-user-logins.md
+                - name: Identiteedikirjete ja kliendikontode automaatse linkimise lubamine
+                  href: identity-record-linking.md
                 - name: Mitme jaekaubandusrentniku konfigureerimine Commerce'i keskkonnas
                   href: configure-multi-B2C-tenants.md
                 - name: Domeenid Dynamics 365 Commerce'is
@@ -1022,9 +1022,11 @@
                   items:
                     - name: Adventure Worksi kujunduse ülevaade
                       href: adventure-works-theme.md
+                    - name: Adventure Worksi kujunduse installimine
+                      href: install-adventure-works.md
             - name: Digitaalsete varade haldamine
               items:
-                - name: Digitaalse varahalduse ülevaade
+                - name: Digitaalsete varade haldamise ülevaade
                   href: dam-overview.md
                 - name: Piltide üleslaadimine
                   href: dam-upload-images.md

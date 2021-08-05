@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platvormi versiooni 10.0.19 värskendused (juuni 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Platvormi versiooni 10.0.18 värskendused (mai 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -366,7 +364,9 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Iseteeninduskeskkondade plaanitud hooldustöö KKK
                       href: deployment/plannedmaintenance-selfservice.md
-                - name: Azure Resource Manageri kasutuselevõtu lõpule viimine
+                    - name: Ettevõtte järjepidevus ja avariijärgne taaste
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: Azure Resource Manageri kasutuselevõtu lõpuleviimine
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute ja Finance and Operations
                   href: deployment/expressroute.md
@@ -374,9 +374,11 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Värskenduste rakendamine pilvekeskkondadele
                   href: deployment/apply-deployable-package-system.md
-                - name: Uuenduste ja laienduste rakendamine Commerce Scale Unitile (pilv)
+                - name: Värskenduste ja laienduste rakendamine Commerce Scale Unitile (pilv)
                   href: deployment/Update-retail-channel.md
-                - name: Commerce Scale Unit (pilv) lähtestamine
+                - name: Commerce Scale Uniti (pilv) automaatne värskendamine
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
+                - name: Commerce Scale Uniti (pilv) lähtestamine
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Kanalite migreerimine teise Commerce Scale Unitisse
                   href: deployment/Reassign-CSU.md
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: Kohapealsete juurutuste plaanimine ja ettevalmistamine
                       href: deployment/plan-onprem-deployment.md
+                    - name: Rakenduse Microsoft Dynamics 365 Finance + Operations (on-premises) toetatud tarkvara
+                      href: deployment/onprem-compatibility.md
                     - name: Riistvara suuruse nõuded
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Autentimine rakenduses Dynamics 365 Finance + Operations (on-premises)
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Valmis arenduskeskkondade konfigureerimine
                   href: dev-tools/configure-developer-vm.md
-                - name: Uute kasutajate loomine arendusmasinatel
-                  href: dev-tools/enable-development-machine.md
                 - name: Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Kohalike keskkondade ümbernimetamine Azure DevOps’ile juurdepääsuks
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Osapool ja globaalne aadressiraamat
                       href: data-entities/dual-write/party-gab.md
-                    - name: Power Portali kasutamine osapoole andmemudeliga
+                    - name: Microsoft Power Appsi portaalide kasutamine osapoole andmemudeliga
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Üleminek osapoole ja globaalse aadressiraamatu mudelile
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1600,10 +1602,12 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: AX 2012 täiendus – funktsionaaltestide sooritamised
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: AX 2012 täiendus – kasutuselevõtuks ettevalmistamine
+                - name: AX 2012 täiendus – valmistumine süsteemi Go-live jaoks
                   href: migration-upgrade/upgrade-go-live-prep.md
-                - name: AX 2012 täiendus – kasutuselevõtt
+                - name: AX 2012 täiendus – Go-Live
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Üleminek versioonilt AX 2012 – andmete täiendamise KKK
+                  href: migration-upgrade/upgrade-faq.md
                 - name: 'Muudatused, mis mõjutavad täiendamist versioonilt AX 2012'
                   items:
                     - name: Kontoplaani eraldaja kordumatuks muutmine
