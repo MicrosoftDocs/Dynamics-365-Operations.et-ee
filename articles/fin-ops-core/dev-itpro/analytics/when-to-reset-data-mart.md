@@ -2,7 +2,7 @@
 title: Andmevaka lähtestamise KKK
 description: Selles teemas antakse vastused mõnele korduma kippuvatele küsimustele andmevaka lähtestamise kohta.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266605"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638263"
 ---
 # <a name="data-mart-resets-faq"></a>Andmevaka lähtestamise KKK
 
@@ -37,6 +37,9 @@ Kui teie olukorras kehtib üks või mitu järgnevat lauset, võib teie organisat
 
 - Rakenduse andmebaas taastati.
 - Olete avanud tugipileti ja tugiinsener juhendas teid lähtestama andmevaka tõrkeotsingu sammu osana.
+ 
+> [!NOTE]
+> Andmebaasi lähtestamise protsessi mõjutab teie pearaamatu ja eelarvetehingute arv teie andmebaasis. Sõltuvalt teie süsteemis olevate tehingute arvust saab andmesidet lähtestada nii vähe kui 15 minutit või see võib võtta kuni neli tundi. Kui lähtestamine kestab aga üle nelja tunni, on soovitatav võtta ühendust tugiteenustega.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Millal on sobilik andmevakka lähtestada?
 

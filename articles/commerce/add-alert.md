@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: b41692304635c968b02329adeab9145b3707dd6c
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479348"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638045"
 ---
 # <a name="promo-banner-module"></a>Kampaania ribareklaami moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 

@@ -4,24 +4,17 @@ description: Siin peatükis kirjeldatakse toote andmete integratsiooni Finance a
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7b477ad83d2e101715ab85ea3f6b703732950dea
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358589"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542363"
 ---
 # <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
 
@@ -51,98 +44,94 @@ Toote teave sisaldab kogu teavet, mis on seotud tootega ja selle määratlusega,
 
 Finance and Operations rakendused | Muud Dynamics 365 rakendused | Kirjeldus
 -----------------------|--------------------------------|---
-Väljastatud tooted V2 | msdyn\_sharedproductdetails | Tabel **msdyn\_sharedproductdetails** sisaldab veerge Finance and Operationsi rakendustest, mis määratlevad toote ja mis sisaldavad toote finants- ja haldusteavet. 
-Dataverse’is väljastatud eristatavad tooted | Toode | Tabel **Toode** sisaldab veerge, mis määratlevad toote. See hõlmab üksikuid tooteid (alamtüübiga tooted) ja tootevariante. Järgmises tabelis on vastendused.
-Tootenumbriga tuvastatud vöötkood | msdyn\_productbarcodes | Toote vöötkoode kasutatakse toodete unikaalseks identifitseerimiseks.
-Tellimuse vaikesätted | msdyn\_productdefaultordersettings
-Tootepõhised vaiketellimissätted | msdyn_productdefaultordersettings
-Tootedimensiooni grupid | msdyn\_productdimensiongroups | Tootedimensioon määratleb, millised tootedimensioonid määratlevad toote. 
-Laoala dimensioonigrupid | msdyn\_productstoragedimensiongroups | Toote laoala dimensiooni grupp tähistab meetodit, mida kasutatakse toote paigutuse määratlemiseks laos.
-Jälgimisdimensioonigrupid | msdyn\_producttrackingdimensiongroups | Toote jälgimisdimensiooni grupp tähistab meetodit, mida kasutatakse toote jälgimiseks laos.
-Värvid | msdyn\_productcolors
-Suurused | msdyn\_productsizes
-Laadid | msdyn\_productsytles
-Konfiguratsioonid | msdyn\_productconfigurations
-Tooteetaloni värvid | msdyn_sharedproductcolors | Tabel **Ühiskasutatav tootevärv** näitab värve, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
-Tooteetaloni suurused | msdyn_sharedproductsizes | Tabel **Ühiskasutatava toote suurus** näitab suurust, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
-Tooteetaloni laadid | msdyn_sharedproductstyles | Tabel **Ühiskasutatava toote stiil** näitab stiili, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
-Tooteetaloni konfiguratsioonid | msdyn_sharedproductconfigurations | Tabel **Ühiskasutatava toote konfiguratsioon** näitab konfiguratsioone, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
-Kõik tooted | msdyn_globalproducts | Kõikide toodete tabel sisaldab kõiki Finance and Operationsi rakendustes saadaolevaid tooteid, nii väljastatud kui ka väljastamata tooteid.
-Ühik | uoms
-Ühiku teisendused | msdyn_ unitofmeasureconversions
-Tootepõhise mõõtühiku teisendamine | msdyn_productspecificunitofmeasureconversion
-Tootekategooriad | msdyn_productcategories | Iga tootekategooria ning teave selle struktuuri ja omaduste kohta sisaldub tootekategooria tabelis. 
-Tootekategooria hierarhiad | msdyn_productcategoryhierarhies | Tootehierarhiate abil saate tooteid kategoriseerida või grupeerida. Kategooriahierarhiad on saadaval Dataverse’is toote kategooriahierarhia tabeli kasutamisel. 
-Tootekategooria hierarhia rollid | msdyn_productcategoryhierarchies | Tootehierarhiaid saab kasutada mitmesuguste rollide jaoks rakenduses D365 Finance and Operations. Need määravad, millist kategooriat igas rollis kasutatakse, kus kasutatakse tootekategooria rolli tabelit. 
-Tootekategooria määramised | msdyn_productcategoryassignments | Toote määramiseks kategooriasse võib kasutada tootekategooria määramiste tabelit.
+[Kõik tooted](mapping-reference.md#138) | msdyn_globalproducts | Kõikide toodete tabel sisaldab kõiki Finance and Operationsi rakendustes saadaolevaid tooteid, nii väljastatud kui ka väljastamata tooteid.
+[CDS väljastatud eristatavad tooted](mapping-reference.md#213) | Toode | Tabel **Toode** sisaldab veerge, mis määratlevad toote. See hõlmab üksikuid tooteid (alamtüübiga tooted) ja tootevariante. Järgmises tabelis on vastendused.
+[Värvid](mapping-reference.md#170) | msdyn\_productcolors
+[Konfiguratsioonid](mapping-reference.md#171) | msdyn\_productconfigurations
+[Tellimuse vaikesätted](mapping-reference.md#172) | msdyn_productdefaultordersettings |
+[Tootekategooriad](mapping-reference.md#166) | msdyn_productcategories | Iga tootekategooria ning teave selle struktuuri ja omaduste kohta sisaldub tootekategooria tabelis.
+[Tootekategooria määramised](mapping-reference.md#167) | msdyn_productcategoryassignments | Toote määramiseks kategooriasse võib kasutada tootekategooria määramiste tabelit.
+[Tootekategooria hierarhiad](mapping-reference.md#168) | msdyn_productcategoryhierarchies | Tootehierarhiate abil saate tooteid kategoriseerida või grupeerida. Kategooriahierarhiad on saadaval Dataverse’is toote kategooriahierarhia tabeli kasutamisel.
+[Tootekategooria hierarhia rollid](mapping-reference.md#169) | msdyn_productcategoryhierarchyroles | Tootehierarhiaid saab kasutada mitmesuguste rollide jaoks rakenduses D365 Finance and Operations. Need määravad, millist kategooriat igas rollis kasutatakse, kus kasutatakse tootekategooria rolli tabelit.
+[Toote vaiketellimissätted V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
+[Tootedimensiooni grupid](mapping-reference.md#173) | msdyn\_productdimensiongroups | Tootedimensioon määratleb, millised tootedimensioonid määratlevad toote.
+[Tooteetaloni värvid](mapping-reference.md#187) | msdyn_sharedproductcolors | Tabel **Ühiskasutatav tootevärv** näitab värve, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
+[Tooteetaloni konfiguratsioonid](mapping-reference.md#188) | msdyn_sharedproductconfigurations | Tabel **Ühiskasutatava toote konfiguratsioon** näitab konfiguratsioone, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
+[Tooteetaloni suurused](mapping-reference.md#190) | msdyn_sharedproductsizes | Tabel **Ühiskasutatava toote suurus** näitab suurust, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
+[Tooteetaloni laadid](mapping-reference.md#191) | msdyn_sharedproductstyles | Tabel **Ühiskasutatava toote stiil** näitab stiili, mida konkreetne tooteetalon võib sisaldada. Andmete järjepidevuse tagamiseks on see kontseptsioon üle viidud ühisesse andmeteenusesse Dataverse.
+[Tootenumbriga tuvastatud vöötkood](mapping-reference.md#164) | msdyn\_productbarcodes | Toote vöötkoode kasutatakse toodete unikaalseks identifitseerimiseks.
+[Tootepõhised ühikute teisendused](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
+[Väljastatud tooted V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | Tabel **msdyn\_sharedproductdetails** sisaldab veerge Finance and Operationsi rakendustest, mis määratlevad toote ja mis sisaldavad toote finants- ja haldusteavet.
+[Suurused](mapping-reference.md#174) | msdyn\_productsizes
+[Laoala dimensioonigrupid](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | Toote laoala dimensiooni grupp tähistab meetodit, mida kasutatakse toote paigutuse määratlemiseks laos.
+[Laadid](mapping-reference.md#178) | msdyn\_productsytles
+[Jälgimisdimensioonigrupid](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups | Toote jälgimisdimensiooni grupp tähistab meetodit, mida kasutatakse toote jälgimiseks laos.
+[Ühikud](mapping-reference.md#219) | uoms
+[Ühiku teisendused](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="integration-of-products"></a>Toodete integreerimine
 
-Selles mudelis esindab teenuse Dataverse toodet kahe tabeli kombinatsioon: **Toode** ja **msdyn\_sharedproductdetails.** Esimene tabel sisaldab toote määratlust (toote ainuidentifikaator, toote nimetus ja kirjeldus), teine tabel sisaldab veerge, mis on talletatud toote tasemel. Nende kahe tabeli kombinatsiooni kasutatakse toote määratlemiseks vastavalt varude arvestusühiku mõistele (SKU). Igal väljastatud tootel on oma teave nimetatud tabelites (toote ja ühiskasutatava toote üksikasjad). Kõigi toodete (vabastatud ja mittevabastatud) jälgimiseks kasutatakse tabelit **Globaalsed tooted**. 
+Selles mudelis esindab teenuse Dataverse toodet kahe tabeli kombinatsioon: **Toode** ja **msdyn\_sharedproductdetails.** Esimene tabel sisaldab toote määratlust (toote ainuidentifikaator, toote nimetus ja kirjeldus), teine tabel sisaldab veerge, mis on talletatud toote tasemel. Nende kahe tabeli kombinatsiooni kasutatakse toote määratlemiseks vastavalt varude arvestusühiku mõistele (SKU). Igal väljastatud tootel on oma teave nimetatud tabelites (toote ja ühiskasutatava toote üksikasjad). Kõigi toodete (vabastatud ja mittevabastatud) jälgimiseks kasutatakse tabelit **Globaalsed tooted**.
 
 Kuna toode on esindatud SKUna, saab eristatavate toodete, tooteetalonide ja toote variantide mõisteid jäädvustada teenuses Dataverse järgmisel viisil:
 
 - **Tooted, mille alamtüübi tooteks** on nende endi määratletud tooted. Dimensioone ei ole vaja määrata. Näitena võib tuua konkreetse raamatu. Nende toodete puhul luuakse **Toote** tabelis üks rida ja tabelis **msdyn\_sharedproductdetails** üksuses teine rida. Tooteperekonna rida pole loodud.
 - **Tooteetalone** kasutatakse geneeriliste toodetena, mis hoiavad definitsiooni ja reegleid, mis määravad äriprotsesside käitumise. Nende mõistete põhjal saab luua erinevaid tooteid, mida nimetatakse tootevariantideks. Näiteks T-särk on tooteetalon ja selle dimensioonideks võivad olla värv ja suurus. VaVälja saab anda variante, millel on nendest mõõtmetest erinevad kombinatsioonid, näiteks väike sinine T-särk või keskmine roheline T-särk. Integreerimisel luuakse tootetabelis üks rida ühe variandi kohta. See rida sisaldab variandikohast teavet (nt erinevaid dimensioone). Toote üldine teave talletatakse tabelis **msdyn\_sharedproductdetails**. (Seda üldteavet hoitakse tooteetalonis.) Tooteetalon sünkroonitakse teenusega Dataverse niipea, kui väljaantud tooteetalon on loodud (kuid enne variantide väljaandmist).
-- **Eristatavad tooted** viitavad kõigile toodete alamtüübi tootele ja kõigile tootevariantidele. 
+- **Eristatavad tooted** viitavad kõigile toodete alamtüübi tootele ja kõigile tootevariantidele.
 
 ![Toodete andmemudel.](media/dual-write-product.png)
 
-Kui topeltkirjutamise funktsioon on lubatud, sünkroonitakse rakenduse Finance and Operations tooted muudes Dynamics 365 toodetes olekus **Mustand**. Need lisatakse esimesele hinnakirjale, millel on sama valuuta. Teisisõnu lisatakse need esimesele hinnakirjale Dynamics 365 rakenduses, mis vastab teie juriidilise tabeli valuutale, kus toode on välja antud rakenduses Finance and Operations. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele. 
+Kui topeltkirjutamise funktsioon on lubatud, sünkroonitakse rakenduse Finance and Operations tooted muudes Dynamics 365 toodetes olekus **Mustand**. Need lisatakse esimesele hinnakirjale, millel on sama valuuta. Teisisõnu lisatakse need esimesele hinnakirjale Dynamics 365 rakenduses, mis vastab teie juriidilise tabeli valuutale, kus toode on välja antud rakenduses Finance and Operations. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele.
 
 Topeltkirjutuse programmi praegune rakendus, mis seostab vaikehinnaloendi üksusega rakendusega seostatud valuutat ja leiab hinnakirja nimest tähestikulises järjekorras esimese hinnakirja kliendikogemuse Finance and Operations rakendusest. Kui teil on selle valuuta jaoks mitu hinnakirja, tuleb hinnakirja nime muuta varasemaks tähestikulises järjestuses varasemaks nimeks, kui selle valuuta jaoks on mitu hinnakirja.
 
-Vaikimisi sünkroonitakse Finance and Operationsi rakenduste tooteid teiste Dynamics 365 rakendustega olekus **Mustand**. Toote sünkroonimiseks olekuga **Aktiivne**, et saaksite seda kasutada näiteks otse müügitellimuse pakkumistes, tuleb valida järgmine säte: **Süsteem > Haldus > Süsteemihaldus > Süsteemi sätted > Müük** ja seejärel suvand **Loo tooteid aktiivses olekus = jah**. 
+Vaikimisi sünkroonitakse Finance and Operationsi rakenduste tooteid teiste Dynamics 365 rakendustega olekus **Mustand**. Toote sünkroonimiseks olekuga **Aktiivne**, et saaksite seda kasutada näiteks otse müügitellimuse pakkumistes, tuleb valida järgmine säte: **Süsteem > Haldus > Süsteemihaldus > Süsteemi sätted > Müük** ja seejärel suvand **Loo tooteid aktiivses olekus = jah**.
 
 Kui tooted on sünkroonitud, peate rakenduses sisestama väärtuse välja **Müügiüksus** jaoks, sest see on Finance and Operationsi rakenduses Sales kohustuslik väli.
 
 Dynamics 365 Sales loodud tooteperesid ei toetata toodete topeltkirjutusega sünkroonimist.
 
-Toodete sünkroonimine toimub Finance and Operationsi rakendusest teenusesse Dataverse. See tähendab, et toote tabeli veergude väärtusi saab muuta Dataverse’is, aga kui käivitatakse sünkroonimine (kui tooteveergu muudetakse Finance and Operationsi rakenduses), alistab see väärtused Dataverse’is. 
+Toodete sünkroonimine toimub Finance and Operationsi rakendusest teenusesse Dataverse. See tähendab, et toote tabeli veergude väärtusi saab muuta Dataverse’is, aga kui käivitatakse sünkroonimine (kui tooteveergu muudetakse Finance and Operationsi rakenduses), alistab see väärtused Dataverse’is.
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
+Finance and Operations rakendused | Klientide kaasamise rakendused |
+---|---
+[CDS väljastatud eristatavad tooted](mapping-reference.md#213) | Toode |
+[Väljastatud tooted V2](mapping-reference.md#189) | msdyn_sharedproductdetails |
+[Kõik tooted](mapping-reference.md#138) | msdyn_globalproducts |
 
-[!include [products](includes/EcoResReleasedDistinctProductCDSEntity-products.md)]
+## <a name="product-dimensions"></a>Tootedimensioonid
 
-[!include [product details](includes/EcoResReleasedProductV2-msdyn-sharedproductdetails.md)]
-
-[!include [global products](includes/EcoResEveryProductEntity-msdyn-globalproducts.md)]
-
-## <a name="product-dimensions"></a>Tootedimensioonid 
-
-Tootedimensioonid on tootevarianti identifitseerivad omadused. Tootevariantide määratlemiseks vastendatakse Dataverse ka nelja tootedimensiooniga (värv, suurus, stiil ja konfiguratsioon). Järgmisel joonisel on näidatud tootedimensiooni värvi andmetabelit. Sama mudelit rakendatakse suurustele, stiilidele ja konfiguratsioonidele. 
+Tootedimensioonid on tootevarianti identifitseerivad omadused. Tootevariantide määratlemiseks vastendatakse Dataverse ka nelja tootedimensiooniga (värv, suurus, stiil ja konfiguratsioon). Järgmisel joonisel on näidatud tootedimensiooni värvi andmetabelit. Sama mudelit rakendatakse suurustele, stiilidele ja konfiguratsioonidele.
 
 ![Tootedimensioonide andmemudel.](media/dual-write-product-two.png)
 
-[!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
-
-[!include [product sizes](includes/EcoResProductSizeEntity-msdyn-productsizes.md)]
-
-[!include [product sizes](includes/EcoResProductStyleEntity-msdyn-productstyles.md)]
-
-[!include [product sizes](includes/EcoResProductConfigurationsEntity-msdyn-productconfigurations.md)]
+Finance and Operations rakendused | Klientide kaasamise rakendused |
+---|---
+[Värvid](mapping-reference.md#170) | msdyn\_productcolors
+[Suurused](mapping-reference.md#174) | msdyn\_productsizes
+[Laadid](mapping-reference.md#178) | msdyn\_productsytles
+[Konfiguratsioonid](mapping-reference.md#171) | msdyn\_productconfigurations
 
 Kui tootel on erinevad tootedimensioonid (nt tooteetalonil on suurus ja värv tootedimensioonidena), määratletakse iga eristatav toode (st iga tootevariant) nende dimensioonide kombinatsioonina. Näiteks toode number B0001 on eriti väike must T-särk ja toode number B0002 on väike must T-särk. Sel juhul määratletakse tootedimensioonide olemasolevad kombinatsioonid. Näiteks eelmise näite T-särk võib olla eriti väike ja must, väike ja must, keskmine ja must või suur ja must, kuid see ei saa olla eriti suur ja must. Teisisõnu on määratud tootedimensioonid, mida tooteetalon saab kasutada, ja nende väärtuste alusel saab variante väljastada.
 
-Tootedimensioonide jälgimiseks, mida tooteetalon saab võtta, luuakse ja vastendatakse iga tootedimensiooni jaoks järgmised tabelid jaotises Dataverse. Lisateavet vt teemast [Tooteteabe ülevaade](../../../../supply-chain/pim/product-information.md). 
+Tootedimensioonide jälgimiseks, mida tooteetalon saab võtta, luuakse ja vastendatakse iga tootedimensiooni jaoks järgmised tabelid jaotises Dataverse. Lisateavet vt teemast [Tooteteabe ülevaade](../../../../supply-chain/pim/product-information.md).
 
-[!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
-
-[!include [product sizes](includes/EcoResProductMasterSize-msdyn-sharedproductsizes.md)]
-
-[!include [product styles](includes/EcoResProductMasterStyleEntity-msdyn-sharedproductstyles.md)]
-
-[!include [product configurations](includes/EcoResProductMasterConfigurationEntity-msdyn-sharedproductconfigurations.md)]
-
-[!include [product bar codes](includes/EcoResProductNumberIdentifiedBarcode-msdyn-productbarcodes.md)]
+Finance and Operations rakendused | Klientide kaasamise rakendused |
+---|---
+[Tooteetaloni värvid](mapping-reference.md#187) | msdyn_sharedproductcolors |
+[Tooteetaloni konfiguratsioonid](mapping-reference.md#188) | msdyn_sharedproductconfigurations |
+[Tooteetaloni suurused](mapping-reference.md#190) | msdyn_sharedproductsizes |
+[Tooteetaloni laadid](mapping-reference.md#191) | msdyn_sharedproductstyles |
+[Tootenumbriga tuvastatud vöötkood](mapping-reference.md#164) | msdyn\_productbarcodes |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Tellimuse vaikesätted ja tootespetsiifilise vaiketellimuse sätted
 
 Tellimuse vaikesätted määratlevad tegevuskoha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi. See teave on saadaval Dataverse’is, kasutades tellimuse vaikesätteid ja tootespetsiifilisi tellimuse vaikesätete üksust. Lugege lisateavet funktsioonide kohta teemast [Tellimuse vaikesätted](../../../../supply-chain/production-control/default-order-settings.md).
 
-[!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
-
-[!include [product sizes](includes/InventProductSpecificOrderSettingsV2Entity-msdyn-productspecificdefaultordersetting.md)]
+Finance and Operations rakendused | Klientide kaasamise rakendused |
+---|---
+[Tellimuse vaikesätted](mapping-reference.md#172) | msdyn_productdefaultordersettings |
+[Toote vaiketellimissätted V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Mõõtühik ja mõõtühiku teisendused
 
@@ -150,13 +139,13 @@ Mõõtühikud ja selle vastav teisendus on saadaval Dataverse’is, mis järgiva
 
 ![Mõõtühiku andmemudel.](media/dual-write-product-three.png)
 
-Mõõtühiku kontseptsioon on integreeritud Finance and Operationsi rakenduste ja muude Dynamics 365 rakenduste vahel. Iga ühiku klassi kohta Finance and Operationsi rakenduses luuakse ühiku grupp Dynamics 365 rakenduses, mis sisaldab ühiku klassi kuuluvaid ühikuid. Iga ühikurühma jaoks luuakse ka vaikimisi baasühik. 
+Mõõtühiku kontseptsioon on integreeritud Finance and Operationsi rakenduste ja muude Dynamics 365 rakenduste vahel. Iga ühiku klassi kohta Finance and Operationsi rakenduses luuakse ühiku grupp Dynamics 365 rakenduses, mis sisaldab ühiku klassi kuuluvaid ühikuid. Iga ühikurühma jaoks luuakse ka vaikimisi baasühik.
 
-[!include [unit of measure](includes/UnitOfMeasureEntity-uom.md)]
-
-[!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
-
-[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+Finance and Operations rakendused | Klientide kaasamise rakendused |
+---|---
+[Tootepõhised ühikute teisendused](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
+[Ühikud](mapping-reference.md#219) | uoms
+[Ühiku teisendused](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Ühikute andmete vastavusse viimise esialgne sünkroonimine Finance and Operationsi ja Dataverse’i vahel
 
@@ -183,50 +172,46 @@ Veerg msdyn_symbol tuleb täita kõikide ühikute kohta. Ühikuid saab alati luu
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Tootepoliitika: dimensioon, jälgimise ja laoala grupid
 
-Tootepoliitikad on poliitikakogumid, mida kasutatakse toodete ja selle omaduste määratlemiseks laos. Tootedimensiooni gruppi, toote jälgimisdimensiooni gruppi ja laoala dimensiooni gruppi võib leida tootepoliitikana. 
+Tootepoliitikad on poliitikakogumid, mida kasutatakse toodete ja selle omaduste määratlemiseks laos. Tootedimensiooni gruppi, toote jälgimisdimensiooni gruppi ja laoala dimensiooni gruppi võib leida tootepoliitikana.
 
-[!include [product dimension group](includes/EcoResProductDimensionGroup-msdyn-productdimensiongroups.md)]
-
-[!include [product tracking dimension group](includes/EcoResTrackingDimensionGroup-msdyn-producttrackingdimensiongroups.md)]
-
-[!include [product storage dimension group](includes/EcoResStorageDimensionGroup-msdyn-productstoragedimensiongroups.md)]
+Finance and Operations rakendused | Klientide kaasamise rakendused |
+---|---
+[Tootedimensiooni grupid](mapping-reference.md#173) | msdyn\_productdimensiongroups |
+[Laoala dimensioonigrupid](mapping-reference.md#177) | msdyn_productstoragedimensiongroups |
+[Jälgimisdimensioonigrupid](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups |
 
 ## <a name="product-hierarchies"></a>Tootehierarhiad
 
-[!include [product category hierarchy](includes/EcoResProductCategoryHierarchyEntity-msdyn-productcategoryhierarchy.md)]
+Finance and Operations rakendused | Klientide kaasamise rakendused |
+---|---
+[Tootekategooria määramised](mapping-reference.md#167) | msdyn_productcategoryassignments |
+[Tootekategooria hierarhiad](mapping-reference.md#168) | msdyn_productcategoryhierarchies |
+[Tootekategooria hierarhia rollid](mapping-reference.md#169) | msdyn_productcategoryhierarchyroles |
 
-[!include [product category](includes/EcoResProductCategoryEntity-msdyn-productcategory.md)]
+## <a name="integration-key-for-products"></a>Toodete integreerimisvõti
 
-[!include [product category assignments](includes/EcoResProductCategoryAssignmentEntity-msdyn-productcategoryassignment.md)]
+Toodete kordumatuks tuvastamiseks Dynamics 365 for Finance and Operationsi ja Dataverse’i toodete vahel kasutatakse integreerimisvõtmeid.
+Toodete integreerimisvõti on **(productnumber)**, millega tuvastatakse toode Dataverse’is. Selles on liidetud järgmised üksused: **(ettevõte, msdyn_productnumber)**. Üksus **ettevõte** tähistab juriidilist isikut rakenduses Finance and Operations ja **msdyn_productnumber** tähistab määratud toote tootenumbrit rakenduses Finance and Operations.
 
-[!include [product category role](includes/EcoResProductCategoryHierarchyRoleEntity-msdyn-productcategoryhierarchyrole.md)]
+Teiste Dynamics 365 rakenduste kasutajate jaoks tuvastatakse toode kasutajaliideses veeruga **msdyn_productnumber** (pange tähele, et välja silt on **Tootenumber**). Toote vormil kuvatakse nii ettevõte kui ka msydn_productnumber. Kuid veergu (productnumber), toote kordumatut võtit, ei kuvata.
 
-
-## <a name="integration-key-for-products"></a>Toodete integreerimisvõti 
-
-Toodete kordumatuks tuvastamiseks Dynamics 365 for Finance and Operationsi ja Dataverse’i toodete vahel kasutatakse integreerimisvõtmeid. Toodete integreerimisvõti on **(productnumber)**, millega tuvastatakse toode Dataverse’is. Selles on liidetud järgmised üksused: **(ettevõte, msdyn_productnumber)**. Üksus **ettevõte** tähistab juriidilist isikut rakenduses Finance and Operations ja **msdyn_productnumber** tähistab määratud toote tootenumbrit rakenduses Finance and Operations. 
-
-Teiste Dynamics 365 rakenduste kasutajate jaoks tuvastatakse toode kasutajaliideses veeruga **msdyn_productnumber** (pange tähele, et välja silt on **Tootenumber**). Toote vormil kuvatakse nii ettevõte kui ka msydn_productnumber. Kuid veergu (productnumber), toote kordumatut võtit, ei kuvata. 
-
-Kui koostate rakendusi teenuses Dataverse, peaksite olema tähelepanelik, et kasutaksite integratsiooni võtmena suvandit **productnumber** (kordumatu toote ID). Ärge kasutage varianti **msdyn_productnumber**, kuna see pole kordumatu. 
+Kui koostate rakendusi teenuses Dataverse, peaksite olema tähelepanelik, et kasutaksite integratsiooni võtmena suvandit **productnumber** (kordumatu toote ID). Ärge kasutage varianti **msdyn_productnumber**, kuna see pole kordumatu.
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Toodete esialgne sünkroonimine ja andmete migreerimine Dataverse’ist rakendusse Finance and Operations
 
-### <a name="initial-synchronization-of-products"></a>Toodete esialgne sünkroonimine 
+### <a name="initial-synchronization-of-products"></a>Toodete esialgne sünkroonimine
 
 Kui topeltkirjutamine on lubatud, sünkroonitakse Finance and Operationsi rakenduste tooted Dataverse’i ja teiste klientide kaasamise rakendustega. Dataverse’is ja teistes Dynamics 365 rakendustes enne topeltkirjutamise väljaandmist loodud tooteid ei värskendata ega viida vastavusse toote andmetega Finance and Operationsi rakendustest.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Toote andmete vastavusse viimine Finance and Operationsi ja teiste Dynamics 365 rakendustega
 
 Kui samu tooteid säilitatakse (kattuvad/ühtivad) Finance and Operationsis ja Dataverse’is ning teistes Dynamics 365 rakendustes, toimub Finance and Operationsi toodete sünkroonimise topeltkirjutamise lubamine ja duplikaatread kuvatakse Dataverse’is sama toote kohta.
-Kui teistes Dynamics 365 rakendustes on tooteid, mis kattuvad / on vastavuse Finance and Operationsi toodetega, peab topeltkirjutamise lubanud administraator eelmise olukorra vältimiseks alglaadima veerud **Ettevõte** (nt USMF) ja **msdyn_productnumber** (nt 1234:Black:S), enne kui toimub toodete sünkroonimine. Teisisõnu tuleb kaks veergu Dataverse’i tootes täita vastava ettevõttega Finance and Operationsis, millega toode peab ühtima, ja selle tootenumbriga. 
+Kui teistes Dynamics 365 rakendustes on tooteid, mis kattuvad / on vastavuse Finance and Operationsi toodetega, peab topeltkirjutamise lubanud administraator eelmise olukorra vältimiseks alglaadima veerud **Ettevõte** (nt USMF) ja **msdyn_productnumber** (nt 1234:Black:S), enne kui toimub toodete sünkroonimine. Teisisõnu tuleb kaks veergu Dataverse’i tootes täita vastava ettevõttega Finance and Operationsis, millega toode peab ühtima, ja selle tootenumbriga.
 
-Kui seejärel sünkroonimine lubatakse ja see toimub, sünkroonitakse tooteid Finance and Operationsist vastavusse viidud toodetega Dataverse’is ja teistes Dynamics 365 rakendustes. See kehtib nii eristatavate toodete kui ka tootevariantide kohta. 
-
+Kui seejärel sünkroonimine lubatakse ja see toimub, sünkroonitakse tooteid Finance and Operationsist vastavusse viidud toodetega Dataverse’is ja teistes Dynamics 365 rakendustes. See kehtib nii eristatavate toodete kui ka tootevariantide kohta.
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Toote andmete migreerimine teistest Dynamics 365 rakendustest rakendusse Finance and Operations
 
-Kui teistes Dynamics 365 rakendustes on tooteid, mida ei esine rakenduses Finance and Operations, võib administraator kõigepealt kasutada üksust **EcoResReleasedProductCreationV2Entity** nende toodete importimiseks Finance and Operationsis. Järgmiseks tuleb viia vastavusse toote andmed Finance and Operationsist ja teistest Dynamics 365 rakendustest, nagu on kirjeldatud üleval. 
-
+Kui teistes Dynamics 365 rakendustes on tooteid, mida ei esine rakenduses Finance and Operations, võib administraator kõigepealt kasutada üksust **EcoResReleasedProductCreationV2Entity** nende toodete importimiseks Finance and Operationsis. Järgmiseks tuleb viia vastavusse toote andmed Finance and Operationsist ja teistest Dynamics 365 rakendustest, nagu on kirjeldatud üleval.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

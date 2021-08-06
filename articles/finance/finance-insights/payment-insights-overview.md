@@ -2,7 +2,7 @@
 title: Kliendimaksete prognoosid (eelversioon)
 description: Selles teemas kirjeldatakse makse prognooside võimalust, mis aitab klientide tüüpilisi maksetavasid paremini mõista. Funktsioon aitab teil tuvastada asjaolud, mis peaksid kaasa tooma sissenõudmisprotsesside alustamise varem, kui te oleksite seda muidu teinud.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25542e72e620e5273a9cd215d5b6cd2f89a2f364
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355648"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638364"
 ---
 # <a name="customer-payment-predictions-preview"></a>Kliendimaksete prognoosid (eelversioon)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse makse prognooside võimalust, mis aitab klientide tüüpilisi maksetavasid paremini mõista. Funktsioon aitab teil tuvastada asjaolud, mis peaksid kaasa tooma sissenõudmisprotsesside alustamise varem, kui te oleksite seda muidu teinud.
 

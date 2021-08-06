@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303558"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560070"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (22. juuni 2021)
 
@@ -44,7 +44,7 @@ Selle väljalaskega tulevad üldiselt kättesaadavaks järgmised funktsioonid.
 | --- | --- | --- |
 | Tööhõivefunktsioonita töötajatest teavitamine – kui täpsem juurdepääs on sisse lülitatud ja funktsioonihalduses on funktsioon **Kuva kõik töötajad ilma tööhõiveta** keelatud, kuvatakse töötajatel ilma töösuheteta vorm. Kasutaja omakorda lülitab sisse funktsiooni **Kuva kõik tööhõiveta töötajad**. | Pole kohaldatav| [Töösuhteta töötajad](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Kohandatud väljade toe jaoks kvalifitseerumise reeglid soodustuste halduses | [Kohandatud välja tugi kõlblikkuse töötlemiseks](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Sobivuse reeglite konfigureerimine](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Puhkuse tekkepõhise kande auditeerimine | Pole kohaldatav | [Puhkuse tekkepõhise kande auditeerimine](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Puhkuse tekkepõhise kande auditeerimine | Pole kohaldatav | [Puhkuse tekkepõhise kande auditeerimine](hr-leave-and-absence-accrue.md)|
 | Puhkuse ja puudumise töövoo kogemuse täiustused | [Puhkuse ja puudumise töövoo kogemuse täiustused](https://go.microsoft.com/fwlink/?linkid=2147528) | [Taotle vaba aega](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Veaparandused

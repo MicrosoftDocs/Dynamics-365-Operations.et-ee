@@ -4,24 +4,17 @@ description: Selles teemas kirjeldatakse hankija andmete integreerimist teenusek
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 36cfed92535c1df3ba55fd56bc8aa2f9eccf3003
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346492"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542435"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
@@ -29,9 +22,7 @@ ms.locfileid: "6346492"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
-Termin *hankija* viitab tarnijariigi organisatsioonile või ainuomanikule, kes tarnib ettevõttele kaupu või teenuseid. Kuigi *hankija* on loodud mõiste teenusekomplektis Microsoft Dynamics 365 Supply Chain Management, pole teistes Dynamics 365 mudeljuhitud rakendustes mõistet hankija olemas. Kuid hankija teabe talletamiseks saate ülekoormata tabeli **Konto/kontakt**. Integreeritud hankija koondandmed tutvustavad Dynamics 365 mudeljuhitud rakendustes selgesõnalist hankija mõistet. Saate kasutada kas uut hankija kujundust või talletada hankija andmeid tabelis **Konto/kontakt**. Topeltkirjutus toetab mõlemat lähenemist.
+Termin *hankija* viitab tarnijariigi organisatsioonile või ainuomanikule, kes tarnib ettevõttele kaupu või teenuseid. Kuigi *müüja* on loodud mõiste teenusekomplektis Microsoft Dynamics 365 Supply Chain Management, pole teistes kliendikaasamise rakendustes mõistet müüja olemas. Kuid hankija teabe talletamiseks saate ülekoormata tabeli **Konto/kontakt**. Integreeritud müüja koondandmed tutvustavad kliendikaasamise rakendustes selgesõnalist müüja mõistet. Saate kasutada kas uut hankija kujundust või talletada hankija andmeid tabelis **Konto/kontakt**. Topeltkirjutus toetab mõlemat lähenemist.
 
 Mõlemas lähenemisviisis on hankija andmed integreeritud Dynamics 365 Supply Chain Managementi, Dynamics 365 Salesi, Dynamics 365 Field Service'i ja Power Appsi portaalide vahel. Supply Chain Managementis on andmed saadaval töövoogudele (nt ostutaotlused ja ostutellimused).
 
@@ -52,27 +43,17 @@ Kui soovite jätkata hankija andmete talletamist tabelis **Konto/kontakt**, saat
 
 Hankijaandmed sisaldavad kogu teavet hankija kohta (nt hankijagrupp, aadressid, kontaktandmed, makseprofiil, arveprofiil). Tabeli kaartide kogum toimib koos hankijaandmete suhtluse ajal, nagu on näidatud järgmises tabelis.
 
-Finance and Operations rakendused | Muud Dynamics 365 rakendused     | Kirjeldus
+Finance and Operations rakendused | Klientide kaasamise rakendused     | Kirjeldus
 ----------------------------|-----------------------------|------------
-Hankija V2                   | Konto                     | Ettevõtted, mis kasutavad hankija teabe talletamiseks tabelit Konto, saavad jätkata selle kasutamist samal viisil. Nad saavad Finance and Operationsi rakenduste integratsiooni tõttu kasutada ka konkreetseid hankijafunktsioone.
-Hankija V2                   | Msdyn\_vendors              | Ettevõtted, mis kasutavad hankijate jaoks kohandatud lahendusi, saavad kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni tõttu juurutatud teenuses Dataverse. 
-Hankijagrupid               | msdyn\_vendorgroups         | See mall sünkroonib hankijagrupi teabe.
-Tarnija makseviis       | msdyn\_vendorpaymentmethods | See mall sünkroonib hankija makseviisi teabe.
-CDS-i kontaktid V2             | kontaktid                    | [Kontaktide](customer-mapping.md#cds-contacts-v2-to-contacts) mall sünkroonib nii klientide kui hankijate kõik esmased, sekundaarsed ja tertsiaarsed kontaktandmed.
-Maksegraafiku read      | msdyn\_paymentschedulelines | [Maksegraafiku ridade](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) mall sünkroonib klientide ja hankijate viiteandmed.
-Maksegraafik            | msdyn\_paymentschedules     | [Maksegraafikute](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) mall sünkroonib nii klientide kui ka hankijate maksegraafiku viiteandmed.
-CDS V2 maksepäeva read    | msdyn\_paymentdaylines      | [Maksepäeva ridade](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) mall sünkroonib klientide ja hankijate maksepäeva ridade viiteandmed.
-CDS-i maksepäevad            | msdyn\_paymentdays          | [Maksepäevade](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) mall sünkroonib nii klientide kui ka hankijate maksepäevade viiteandmed.
-Maksetingimused            | msdyn\_paymentterms         | [Maksetingimuse](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) mall sünkroonib nii klientide kui ka hankijate maksetingimuste viiteandmed.
-Nime liited                | msdyn\_nameaffixes          | [Nimeliidete](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) mall sünkroonib nii klientide kui ka hankijate nimeliidete viiteandmed.
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [Vendors](includes/VendorsV2-msdyn-vendors.md)]
-
-[!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
-
-[!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
+[CDS-i kontaktid V2](mapping-reference.md#115) | kontaktid | See mall sünkroonib nii klientide kui hankijate kõik esmased, sekundaarsed ja tertsiaarsed kontaktandmed.
+[Nime liited](mapping-reference.md#155) | msdyn_nameaffixes | See mall sünkroonib nii klientide kui ka hankijate nimeliidete viiteandmed.
+[CDS V2 maksepäeva read](mapping-reference.md#157) | msdyn_paymentdaylines | See mall sünkroonib nii klientide kui ka hankijate maksepäeva ridade viiteandmed.
+[CDS-i maksepäevad](mapping-reference.md#158) | msdyn_paymentdays | See mall sünkroonib nii klientide kui ka hankijate maksepäevade viiteandmed.
+[Maksegraafiku read](mapping-reference.md#159) | msdyn_paymentschedulelines | Sünkroonib nii klientide kui ka hankijate maksegraafiku ridade viiteandmed.
+[Maksegraafik](mapping-reference.md#160) | msdyn_paymentschedules | See mall sünkroonib nii klientide kui ka hankijate maksegraafiku viiteandmed.
+[Maksetingimused](mapping-reference.md#161) | msdyn_paymentterms | See mall sünkroonib nii klientide kui ka hankijate maksetingimuste viiteandmed.
+[Hankijad V2](mapping-reference.md#202) | msdyn_vendors | Ettevõtted, mis kasutavad hankijate jaoks kohandatud lahendusi, saavad kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni tõttu juurutatud teenuses Dataverse.
+[Hankijagrupid](mapping-reference.md#200) | msdyn_vendorgroups | See mall sünkroonib hankijagrupi teabe.
+[Tarnija makseviis](mapping-reference.md#201) | msdyn_vendorpaymentmethods | See mall sünkroonib hankija makseviisi teabe.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

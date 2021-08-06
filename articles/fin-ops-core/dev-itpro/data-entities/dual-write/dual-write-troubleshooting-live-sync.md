@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350784"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542511"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Reaalajas sünkroonimise probleemide tõrkeotsing
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige annab see teavet, mis aitab lahendada reaalajas sünkroonimisega seotud probleeme.
 
@@ -81,7 +79,7 @@ Probleemi lahendamiseks peate määrama vastendatud Dynamics 365 Salesi või Dyn
 
     ![Organisatsiooni vastendamine.](media/mapped_business_unit.png)
 
-2. Logige Dynamics 365 mudeljuhitud rakenduse keskkonda sisse, liikuge jaotisesse **Säte \> Turve** ja otsige üles vastendatud äriüksuse meeskond.
+2. Logige kliendikaasamise rakenduse keskkonda sisse, liikuge jaotisesse **Säte \> Turve** ja otsige üles vastendatud äriüksuse meeskond.
 
     ![Vastendatud äriüksuse meeskond.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Kui proovite luua rakenduses Finance and Operations andmeid, võidakse kuvada j�
 
 *{„entityName”:„CustCustomerV3Entity”,„executionStatus”:2,„fieldResponses”:\[\],„recordResponses”:\[{„errorMessage”:„**Lasti ei saanud luua üksusele CustCustomerV3Entity**”,„logDateTime”:„2019-08-27T18:51:52.5843124Z”,„verboseError”:„Lasti loomine nurjus tõrkega kehtetu URI: URI on tühi.”}\],„isErrorCountUpdated”:true}*
 
-Dynamics 365 mudeljuhitud rakenduses näeb tõrge välja järgnev.
+Kliendikaasamise rakenduse tõrge näeb välja selline.
 
 *ISV-koodist ilmnes ootamatu tõrge. (ErrorType = ClientError) Ootamatu erand lisandmoodulist (Käivita): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: üksuse konto töötlemine nurjus – (ühenduse loomise katse nurjus, kuna ühendatud osapool ei reageerinud pärast teatavat ajavahemikku või loodud ühendus nurjus, kuna ühendatud host ei vastanud*
 
@@ -125,6 +123,5 @@ Probleemi lahendamiseks tehke järgmist.
 
 3. Veenduge, et veerul **externalenvironmentURL** oleks õige Dataverse'i või rakenduse URL. Kustutage kõik duplikaatread, mis osutavad valele Dataverse'i URL-ile. Kustutage vastavad read tabelitest DUALWRITEPROJECTFIELDCONFIGURATION and DUALWRITEPROJECTCONFIGURATION.
 4. Peatage tabeli vastendamine ja taaskäivitage see
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

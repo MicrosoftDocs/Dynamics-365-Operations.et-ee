@@ -2,7 +2,7 @@
 title: Rendilepingu lõpetamise ettepanek
 description: See teema selgitab, kuidas teha rendilepingu lõppemise ettepanekut.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 003eaa3f9e5ad653daed2e973044f384972b0331
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881104"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638484"
 ---
 # <a name="propose-a-lease-for-termination"></a>Rendilepingu lõpetamise ettepanek
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kui rendileping lõpetati vara, saab Vara rentimine kirjendada lõpetamise töölehe kirje, et kanda rendikohustus, kasutusõiguse (ROU) esemeks olev vara ja akumuleeritud kulum maha ja kirjendada kasum või kahjum. Varajane lõpetamisprotsess lõpetab rendilepingu ja sellega seotud rendiraamatud. See ei lõpeta individuaalseid rendiraamatuid. Selles teemas kirjeldatakse funktsioone, mis võimaldab teil teha rendilepingu lõpetamise ettepanek ja töödelda rendilepingu lõpetamise töölehes sisestust.
 

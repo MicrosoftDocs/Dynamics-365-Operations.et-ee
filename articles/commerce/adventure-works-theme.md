@@ -2,7 +2,7 @@
 title: Adventure Works teema ülevaade
 description: See teema annab ülevaate Adventure Worksi kujundusest ja kirjeldab, kuidas seda rakendada saidi lehtedele teemas Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479439"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655628"
 ---
 # <a name="adventure-works-theme-overview"></a>Adventure Works teema ülevaade
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema annab ülevaate Adventure Worksi kujundusest ja kirjeldab, kuidas seda rakendada saidi lehtedele teemas Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce e-kaubanduse teema nimega Adventure Works. Adventure Worksi teemas kuvatakse spordi- ja matitooted ning optimeeritakse rikaste ja täiustatud täiustatud teletellingikogemuse jaoks. See pakub tänapäevast ilmet, uusi kavandeid ja meelelahutusefektisid, et luua e-äri klientidele elev e-kaubanduse kogemus.
 
-Adventure Worksi teema annab järgmised uued töövood:
+## <a name="trial-environments-in-commerce"></a>Proovikeskkonnad Commerce'is
 
-- Videomängija moodul toetab nüüd pealkirja, lõigu ja linkide funktsiooni täiendavate ülekannete jaoks.
-- Ostukorvi lisamise toiming käivitab minikorvi teatise esitamise asemel.
+Kui soovite näha, kuidas Adventure Works'i teema välja näeb, kui see on paigutatud ettevõtetelt tarbijatele (B2C) ja ettevõtetevahelisele (B2B) saitidele, külastage järgmisi proovisaite.
+
+- [Adventure Worksi B2C sait](https://www.adventure-works.com/)
+- [Adventure Worksi B2B sait](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Teema võimalused
+
+Adventure Worksi teema annab järgmised uued võimalused:
+
+- Videomängija moodul toetab nüüd pealkirja, lõigu ja lingi funktsiooni täiendavate ülekannete jaoks.
+- Animatsiooni kaudu on sisu paremad üleminekud.
+- "Ostukorvi lisamise" toiming käivitab minikorvi teatise esitamise asemel.
 - Kiirvaatemoodul on paan, mis saitidelt asub nii töölaual kui ka mobiilsetes vaateportides.
-- Tühi ostukorv saab nüüd kuvada kampaaniaid.
+- Saidilehtedel on uued kavandid. 
+- Turundussisu saab konfigureerida ostukorvi ja minikorvi jaoks (kui need on tühjad).
+- Minikorv võib kuvada kampaaniateateid, nt "Tasuta saatmine üle $50 tellimuste korral."
+- Kirjelduskaarte renderdatakse otsingu- ja kategoorialehtedel.
 
-Adventure Worksi teema sisaldab Commerce'i mooduliteegis järgmisi ihaldusmooduleid:
+Adventure Worksi teema sisaldab nüüd Commerce'i mooduliteegis järgmisi ihaldusmooduleid:
 
-- Loendi moodul
-- Interaktiivne funktsioonimoodul
-- Telli moodul
-- Aktiivne pildimoodul
-- Pildi loendi moodul
+- [Paaniloendi moodul](tile-list-module.md)
+- [Interaktiivse funktsiooni moodul](interactive-feature-module.md)
+- [Aktiivse pildi moodul](active-image-module.md)
+- [Tellimismoodul](subscribe-module.md)
+- [Pildiloendi moodul](image-list-module.md)
 
 Adventure Worksi teema on täielikult vaatega ja pakub töölaua, mobiili ja tahvelarvuti vaateportide optimeeritud kogemust.
 
@@ -78,11 +90,15 @@ Sarnaselt hõlmavad muud moodulid mooduli definitsiooni laiendeid. Näiteks hõl
 
 Lisateavet kujunduse laiendite kohta vt teemast [Kujunduse laiendid](e-commerce-extensibility/theme-module-extensions.md).
 
+## <a name="install-the-adventure-works-theme"></a>Adventure Worksi kujunduse installimine
+
+Lugege, kuidas installida Adventure Worksi kujundus, jaotisest [Installi Adventure Worksi kujundus](install-adventure-works.md).
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mooduliteegi ülevaade](starter-kit-overview.md)
 
-[Loendi moodul](tile-list-module.md)
+[Paaniloendi moodul](tile-list-module.md)
 
 [Interaktiivne funktsioonimoodul](interactive-feature-module.md)
 

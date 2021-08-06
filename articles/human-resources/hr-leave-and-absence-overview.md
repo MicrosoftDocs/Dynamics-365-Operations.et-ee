@@ -2,7 +2,7 @@
 title: Puhkuste ja puudumiste ülevaade
 description: Rakenduses Dynamics 365 Human Resources pakub puhkuste ja puudumiste tööruum paindlikku raamistik uute puhkuseplaanide loomiseks. See pakub ka töövoogusid taotluste haldamiseks ja intuitiivset iseteeninduslehte töövõtjatele vaba aja taotlemiseks.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339711"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639482"
 ---
 # <a name="leave-and-absence-overview"></a>Puhkuste ja puudumiste ülevaade
 
@@ -33,8 +33,9 @@ Dynamics 365 Human Resources aitab teil pakkuda oma töötajatele suurepäraseid
 Enne oma töötajate jaoks puhkuseplaanide loomist peate läbima paar seadistuse etappi.
 
 - [Puhkuste ja puudumiste parameetrite konfigureerimine](hr-leave-and-absence-parameters.md)
-- [Tööajakalendri loomine](hr-leave-and-absence-working-time-calendar.md)
-- [Puhkusetaotluse töövoo loomine](hr-leave-and-absence-workflow.md)
+- [Looge töögraafik](hr-leave-and-absence-working-time-calendar.md)
+- [Puhkusetaotluse loomine töövoogu](hr-leave-and-absence-workflow.md)
+- [Puudumiste halduri rolli konfigureerimine](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Puhkuseplaanide loomine ja haldamine
 
@@ -50,8 +51,9 @@ Enne töötajale puhkuseplaanide loomist peate looma puhkuste ja puudumiste tü�
 
 Teie töövõtjad võivad esitada eemaloleku aja taotlusi ja saate neid hallata tööruumis **Töövõtja iseteeninduskeskus**.
 
-[Vaba aja taotlemine](hr-employee-self-service-request-time-off.md)
-[Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
+- [Taotle vaba aega](hr-employee-self-service-request-time-off.md)
+- [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
+- [Puudumiste halduri rolli konfigureerimine](hr-configure-absence-manager.md)
 
 
 

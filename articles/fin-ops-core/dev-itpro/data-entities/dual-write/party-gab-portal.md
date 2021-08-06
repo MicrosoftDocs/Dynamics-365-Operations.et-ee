@@ -1,6 +1,6 @@
 ---
-title: Power Portali kasutamine osapoole andmemudeliga
-description: See teema kirjeldab muudatusi Power Portali veebirollides osapoole andmemudeli topeltkirjutuse tõttu.
+title: Microsoft Power Apps portaalide kasutamine osapoole andmemudeliga
+description: See teema kirjeldab muudatusi Microsoft Power Apps portaalide veebirollides osapoole andmemudeli topeltkirjutuse tõttu.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358613"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542559"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Power Portali kasutamine osapoole andmemudeliga
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Microsoft Power Apps portaalide kasutamine osapoole andmemudeliga
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ Nende uute tabeli lubade loomiseks järgige neid samme.
 
     Peate looma kolm uut luba.
 
-    + Ühenduse loomine Osapoolega
-    + Ühenduse loomine Osapoole ja Konto vahel
-    + Ühenduse loomine Konto ja Tellimuse vahel
+    + **Kontakt** ja **Osapoole** tabelite ühendus
+    + **Osapoole** ja **Konto** tabelite ühendus
+    + **Konto** ja **Tellimus** tabelite ühendus
 
 4. Looge ja salvestage luba Kontakti ja Osapoole vahel ühenduse loomiseks, häälestades need parameetrid.
 
-    + **Nimi**: ühenduse loomine Osapoole ja Konto vahel (või teie valik)
+    + **Nimi**: **Osapool** ja **Konto** tabeli ühendus (või teie valik)
     + **Tabeli nimi**: msdyn_contactforparty
     + **Veebisait**: kliendiportaal
     + **Ulatus**: Kontakt

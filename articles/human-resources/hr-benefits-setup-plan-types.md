@@ -1,8 +1,8 @@
 ---
-title: Plaani tüüpide loomine
+title: Plaani tüübi ülevaade
 description: Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057858"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558269"
 ---
-# <a name="create-plan-types"></a>Plaani tüüpide loomine
+# <a name="plan-type-overview"></a>Plaani tüübi ülevaade
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid. Näiteks plaani tüüp Tavaline elu olemaks plaani tüübi koodi Elu, kuna see sarnaneb elukindlustuse plaanile ja peab vastama plaani tüübi koodis Elu määratud reeglitele. Teine plaani tüüp võib olla Täiendav elu, mis on samuti koos plaani tüübi koodi Elu.
+Plaani tüüp on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid. Näiteks plaani tüüp **Tavaline elu** olemaks plaani tüübi koodi **Elu**, kuna see sarnaneb elukindlustuse plaanile ja peab vastama plaani tüübi koodis **Elu** määratud reeglitele. Teine plaanitüüp võib olla **Täiendav eluiga**. Sellel plaanitüübil on ka **Elu** plaani tüübi kood.
 
 Iga plaani tüüp näitab, kas töövõtja saab registreeruda ühe seda tüüpi plaaniga või mitmega. Näiteks võib töötaja tõenäoliselt registreeruda plaani tüübi Elu nii Tavaline elu kui ka Täiendav elu poliisile. Töövõtjal lubatakse tõenäoliselt registreeruda ainult ühe tüübi Meditsiiniline poliisile.
 
 Kui plaani tüüp hõlmab kontakte, siis näitab plaani tüüp, kas kontaktid on kasusaajad või sõltuvad. Näiteks oleksid plaani tüübil Tavaline elu kasusaajad, samas kui plaani tüübil Tavaline meditsiiniline oleksid sõltuvad. Mõnel juhul ei tohi plaanis isiklikke kontakte olla. Näiteks Paindlik kasutuskonto või Parkimishüvitis.
 
 Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletakse vormil Katvuse valik. Katvuse valik saab määrata soodustuse summa või kontaktid, kes vastavad plaani tüübile. Näiteks kui kontakti tüüp on Kasusaaja, peaks katvuse valik määratlema tingimused, mida kasusaaja saab soodustuse kasutamisel saada. Kui kontakti tüüp on Sõltuv, peaks katvuse valik määratlema sõltuva ja töövõtja vahelise seose. 
+
+> [!IMPORTANT]
+> Vorm sisaldab põhiandmeid, mis mõjutavad uue hüvitiste plaani loomisel saadaolevaid valikuid:
+>
+> - **Plaani tüübi kood** – see väli mõjutab **konfiguratsiooni** vahekaardil kuvatavat teavet tegeliku hüvitise häälestamisel.  
+> - **Samaaegne registreerimine** – see väli määratleb, kas mitu registreerimist on lubatud. (Arstliku plaani puhul on selle välja väärtuseks tavaliselt seatud **Üks registreerimine**.)
+> - **Kontakti tüüp** – see väli võimaldab plaani lisada sõltuvaid või kasusaajaid. Kui see on seatud valikule **Puudub**, ei saa soodustuses registreerunud töötajatel valida kas kasusaajat või sõltuvat.
+> - **Katvuse valikud** – kasutage seda välja katvuse valikute seostamiseks plaanitüüpidega. See määratleb kas need isikud, kellele see plaanitüüp hõlmab, või katvuse summad, mis on selle plaani tüübi jaoks saadaval. Näiteks võite määrata, et meditsiiniplaani tüübi katvus on saadaval ainult töötajale, töötajale ja veel ühele inimesele või töötajale ja tema perele.
+
+## <a name="create-plan-types"></a>Plaani tüüpide loomine
 
 1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Plaani tüübid**.
 

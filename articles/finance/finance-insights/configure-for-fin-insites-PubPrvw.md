@@ -2,7 +2,7 @@
 title: Finance insights`i konfigureerimine avaliku eelvaate (eelvaate) jaoks - versioon 10.0.20 ja uuemad
 description: See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada Finance insights`i saadaolevaid võimalusi versioonis 10.0.20 ja uuemates.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
-ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
+ms.openlocfilehash: 859385f8feb240d3860ae37d3500029b818a5458
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "6309661"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638700"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Finance insights`i konfigureerimine avaliku eelvaate (eelvaate) jaoks - versioon 10.0.20 ja uuemad
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 

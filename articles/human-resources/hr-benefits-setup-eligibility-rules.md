@@ -2,7 +2,7 @@
 title: Sobivusreeglite ja -suvandite konfigureerimine
 description: Määrake rakenduses Microsoft Dynamics 365 Human Resources soodustuste haldamises sobivusreeglid ja -suvandi.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351653"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558365"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine
+# <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kui olete rakenduses Microsoft Dynamics 365 Human Resources konfigureerinud soodustuste haldamise vajalikud parameetrid, saate luua sobivusreeglid, kogumid, perioodid ja programmid, mille soodustuse plaanidega seostate.
+Kui olete konfigureerinud soodustuste haldamise nõutud parameetrid, saate luua sobivusreeglid, kogumid, perioodid ja programmid, mille soodustuse plaanidega seostate.
+
+Sobivuse reegleid kasutatakse selleks, et määrata, kas töötajad on plaani jaoks sobilikud. Töötajad peavad hüvitise saamise tingimustele vastamiseks vastama vähemalt ühe reegli tingimusele. Näiteks on teil plaani kohta kaks reeglit. Esimeses reeglis (1. rida) on sätestatud, et töötaja tüüp peab olema **Töötaja**. Teises reeglis (2. rida) on sätestatud, et töötaja töötab täistööajaga. Seetõttu on 1. reeglile vastavad töötajad sobilikud ka siis, kui nad on tööle võetud ainult osalise tööajaga.
+
+Saate seadistada ühe reegli, kus on mitu tingimust. Sellisel juhul peavad töötajad vastama kõigile reegli tingimustele, et oleks õigustatud hüvitise saamine. Näiteks on teil reegel nimega **Töötaja täistööaeg**. See reegel tähendab, et töötaja tüüp peab olema **Töötaja** *ja* töötaja peab olema täiskohaga palgatud. Seetõttu peavad töötajad vastama nõuetele vastamiseks reegli mõlemad tingimused.
+
+> [!IMPORTANT]
+> Iga hüvitisplaaniga peab olema seotud vähemalt üks sobivuse reegel. Eelisega saate siduda mitu reeglit.
 
 ## <a name="create-an-eligibility-rule"></a>Sobivusreegli loomine
 
@@ -72,7 +79,7 @@ Avatud registreerimise ajal saavad töötajad valida soodustuse plaanid. Kui nad
    | **Sobilik ametikoha tüüp** | Määratleb ametikoha tüübi või tüübid, mis vastavad sobivusreeglile. Näiteks täistööaeg. |
    | **Soodustuskõlblik olek** | Määratleb osariigid või provintsid, mis vastavad sobivusreeglile. Näiteks Põhja-Dakota (USA) või Briti Columbia (Kanada). |
    | **Sobilikud töölevõtu tingimused** | Määrab töölevõtutingimused, mis vastab sobivusreeglile. Näiteks üksikisiku või rühma leping. |
-   | **Kõlblik ametiühing** | Määratleb ametiühingu liikmesused, mis vastavad sobivusreeglile. Näiteks Ameerika kahveltõstukite juhid. </br></br>Ametiühingu põhist sobivusreeglit kasutades peab töötaja ametiühingu kirjes olema lõpukuupäev täidetud. Te ei saa seda tühjaks jätta. |
+   | **Kõlblik ametiühing** | Määratleb ametiühingu liikmesused, mis vastavad sobivusreeglile. Näiteks Ameerika kahveltõstukite juhid.</br></br>Ametiühingu põhist sobivusreeglit kasutades peab töötaja ametiühingu kirjes olema lõpukuupäev täidetud. Te ei saa seda tühjaks jätta. |
    | **Sobilik sihtnumber** | Määratleb sihtnumbrid, mis vastavad sobivusreeglile. Näiteks 58104. |
 
 5. Jaotises **Lisateave** saate kuvada järgmisi täiendavaid üksikasju.

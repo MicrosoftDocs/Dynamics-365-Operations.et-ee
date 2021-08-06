@@ -2,7 +2,7 @@
 title: Kanali tagastuste ja tagasimaksete poliitika loomine ja värskendamine
 description: See teema selgitab, kuidas seadistada kanali tagastuste ja tagasimaksete poliitikat.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345104"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558293"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Kanali tagastuste ja tagasimaksete poliitika loomine ja värskendamine
 
@@ -36,12 +36,21 @@ Poliitika ulatus piirdub hetkel maksevahendi määramisega, mida saab kanali jao
 
 ## <a name="enable-return-policy"></a>Tagastuspoliitika lubamine
 
-Kanali tagastuspoliitika funktsiooni lubamiseks tehke järgmist.
+Kanali tagastuspoliitika funktsionaalsuse lubamiseks Commerce peakorteris toimige järgmiselt.
 
 1. Avage tööruum **Funktsioonihaldus** rakenduses Dynamics 365 Commerce.
 1. Otsige funktsiooni nimede loendist funktsiooni **Luba kanali tagastuspoliitikad**.
 1. Valige **Luba kohe**.
-1. **Jaotusgraafiku** lehel käitage **1110** (globaalne konfiguratsioon) funktsioonimuutuse tööks. 
+1. **Jaotusgraafiku** lehel käitage **1110** (globaalne konfiguratsioon) funktsioonimuutuse tööks.
+
+## <a name="initialize-the-commerce-scheduler"></a>Commerce ajasti lähtestamine
+
+Pärast **Luba kanali tagastuspoliitikad** funktsiooni lubamist peate rakenduse Commerce ajasti lähtestama, et tagada uute funktsiooniandmebaasi muudatuste lisamine Commerce Data Exchange (CDX) sünkroonimise kaudu. 
+
+Commerce ajasti lähtestamiseks Commerce peakontoris toimige järgmiselt.
+
+- Avage **Jaemüük ja kaubandus \> Peakontori seadistamine \> Kaubanduse ajasti \> Kaubanduse ajasti lähtestamine**. Teise võimalusena võite otsida fraasi "Käivita Comemrce ajasti".
+- Dialoogiboksis **Kaubanduse ajasti lähtestamine** veenduge, et suvand **Kustuta olemasolev konfiguratsioon** oleks määratud valikule **Ei** ja seejärel valige nupp **OK**.
 
 ## <a name="configure-return-policy"></a>Tagastuspoliitika konfigureerimine
 

@@ -1,7 +1,7 @@
 ---
 title: Arveldusallika uurija
 description: Selles artiklis antakse teavet arveldusallika uurija kohta, mida saate kasutada pearaamatu raamatupidamiskannete taga oleva allikateabe üksikasjalikuks analüüsiks.
-author: ShylaThompson
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820927"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661033"
 ---
 # <a name="accounting-source-explorer"></a>Arveldusallika uurija
 
@@ -46,8 +46,10 @@ Lähtedokumentide puhul, mis kasutavad lähtedokumendi viite ID-de kontseptsioon
 
 Nende dokumentide puhul saate minna arvestusallika uurijast ka tegeliku lähtedokumendi juurde.
 
-
-
-
+> [!NOTE]
+> Versioonist 10.0.20 annab nupp **Värskenda** kaks lisavahemikku, et piirata algset päringut, mis käivitatakse lehele andmete sisestamiseks. Need lisavahemikud on saadaval ka versioonis 10.0.19 teenuse värskendusena. Lisatud on järgmised väljad.
+>
+> - Vautšerist, vautšerini
+> - Põhikontolt, põhikontole
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,24 @@
 title: Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 description: Selles teemas kirjeldatakse, kuidas administraatorid saavad lisada, redigeerida ja kustutada äripartnerist kasutajaid ettevõtetevahelistel (B2B) e-kaubanduse veebisaitidel.
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936652"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655602"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 
@@ -67,7 +67,7 @@ Potentsiaalsed äripartnerid saavad käivitada B2B e-kaubanduse veebisaidiga lii
 
 1. Avage **Jaemüügi ja kaubanduse IT \> Jaotusgraafik** ja käivitage töö **1010** (**Kliendid**), et suunata vastloodud kliendi ja kliendi hierarhia kirjed kanali andmebaasi.
 
-Kui taotlus on kinnitatud ja kliendi ning kliendi hierarhia kirjed on sünkroonitud kanali andmebaasi, saab taotleja B2B e-kaubanduse veebisaidile sisse logida, kasutades taotlust esitades antud meiliaadressi. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks.
+Kui taotlus on kinnitatud ja kliendi ning kliendi hierarhia kirjed on sünkroonitud kanali andmebaasi, saab taotleja B2B e-kaubanduse veebisaidile sisse logida, kasutades taotlust esitades antud meiliaadressi. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Identiteedipakkuja (Azure AD B2C) kirje linkimise lubamiseks registreerumisel või sisselogimisel loodud B2B-kliendikirjega järgige juhiseid lingil [Luba identiteedikirjete automaatne linkimine kliendikontodega](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Täiendavate äripartneri kasutajate liitmine
 
@@ -83,7 +83,7 @@ B2B e-kaubanduse veebisaidile äripartnerite lisamiseks toimige järgmiselt.
 
 1. Käivitage töö **1010** (**Kliendid**), et sünkroonida uued äripartneri kasutajad kanali andmebaasiga.
 
-Kui kliendikirje on sünkroonitud, määratakse kasutaja olekuks B2B e-kaubanduse veebisaidil **Aktiivne** ja uus kasutaja saab B2B e-kaubanduse veebisaidile oma meiliaadressi kasutades sisse logida. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks.
+Kui kliendikirje on sünkroonitud, määratakse kasutaja olekuks B2B e-kaubanduse veebisaidil **Aktiivne** ja uus kasutaja saab B2B e-kaubanduse veebisaidile oma meiliaadressi kasutades sisse logida. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Identiteedipakkuja (Azure AD B2C) kirje linkimise lubamiseks registreerumisel või sisselogimisel loodud B2B-kliendikirjega järgige juhiseid lingil [Luba identiteedikirjete automaatne linkimine kliendikontodega](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Äripartneri kasutaja üksikasjade redigeerimine
 

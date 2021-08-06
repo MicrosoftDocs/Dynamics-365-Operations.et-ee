@@ -2,7 +2,7 @@
 title: Puhkuste ja puudumiste tüüpide konfigureerimine
 description: Seadistage puhkuse tüübid, mida töötajad saavad rakenduses Dynamics 365 Human Resources valida.
 author: andreabichsel
-ms.date: 06/15/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 63970f69a437864675eada975c54446325fb60e2
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271123"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639578"
 ---
 # <a name="configure-leave-and-absence-types"></a>Puhkuste ja puudumiste tüüpide konfigureerimine
 
@@ -73,6 +73,37 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
  
 4. Määratlege puhkusetüübi kohta **Aegumisreeglid**. Selle valiku konfigureerimisel saate valida päevade või kuude üksuse ja määrata aegumise kestuse. Aegumisreegli jõustumiskuupäeva kasutatakse selleks, et määrata, millal puhkuse aegumist töötlev pakett-töö käivitada, või millisel kuupäeval reegel jõustub. Aegumine ise leiab aset viitvõlaperioodi alguskuupäeval. Kui viitvõlaperioodi alguskuupäev on näiteks 3. august 2021 ja aegumisreegliks seadistati 6 kuud, siis töödeldakse reeglit viitvõlaperioodi alguskuupäeva aegumisvastaskonto alusel, nii et see käivitatakse 3. veebruaril 2022. Kõik aegumiskuupäeval eksisteerivad puhkusesaldod arvatakse puhkusetüübist maha ning need kajastuvad puhkusesaldos.
  
+## <a name="configure-the-required-attachment-per-leave-type"></a>Konfigureerige puhkuse tüübi jaoks vajalik manus
+
+> [!NOTE]
+> **Manuse nõutud** välja kasutamiseks peate funktsioonihalduses funktsiooni **(Eelvaade) Puhkusetaotluste jaoks vajaliku manuse seadistamine**. Lisateavet eelvaatefunktsioonide sisselülitamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md).
+
+1. Valige lehel **Puhkus ja puudumine** vahekaart **Lingid** jaotises **Seadistamine** valik **Puhkuse ja puudumise tüübid**.
+
+2. Valige loendist puhkuse ja puudumise tüüp. Seejärel kasutage jaotises **Üldine** välja **Manus nõutud**, et määrata, kas manus tuleb üles laadida, kui töötaja esitab valitud puhkuse tüübile uue puhkuse taotluse. 
+
+Töötajad peavad manuse üles laadima, kui nad esitavad uue puhkusetaotluse, mille puhkusetüübi puhul on väli **Manus kohustuslik** lubatud. Puhkusetaotluse osana üleslaaditud manuse vaatamiseks saavad taotluse kinnitajad kasutada neile määratud tööüksuste valikut **Manused**. Kui puhkuse taotlusele pääseb juurde Microsoft Teams Human Resources rakenduse kaudu, saab suvandit **Kuva üksikasjad** kasutada selle üksikasjade ja manuste vaatamiseks.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Puhkuseühikute (tunnid/päevad) konfigureerimine puhkusetüübi järgi
+
+> [!NOTE]
+> Puhkuseühikute kasutamiseks puhkuse tüübi funktsiooni kohta peate Funktsioonihalduses kõigepealt sisse lülitama **(Eelvaade) Puhkuseühikute konfigureerimine puhkusetüübi kohta**. Lisateavet eelvaatefunktsioonide sisselülitamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md).
+
+> [!IMPORTANT]
+> Vaikimisi kasutavad puhkusetüübid juriidilises isikus puhkuse parameetrite konfiguratsioonist juriidilise isiku tasemel puhkuseühikuid.
+> 
+> Puhkuse ja puudumise tüübi puhkuseühikut saab muuta ainult siis, kui selle puhkusetüübi puhul ei ole puhkusekandeid.
+> 
+> Funktsiooni ei saa pärast sisselülitamist välja lülitada.
+
+1. Valige lehel **Puhkus ja puudumine** vahekaart **Lingid** jaotises **Seadistamine** valik **Puhkuse ja puudumise tüübid**.
+
+2. Valige loendist puhkuse ja puudumise tüüp. Seejärel valige jaotises **Üldine** väljal **Ühik** puhkuseühik. Saate valida **Tunnid** või **Päevad**.
+
+3. Valikuline: kui valisite väljal **Ühik** väärtuse **Tunnid**, saate kasutada välja **Luba poole päeva definitsioon**, et määrata, kas töötajad saavad valida esimese poolaasta või teise pool vaba päeva, kui nad taotlevad poole päevast puhkust.
+
+Uue puhkustaotluse esitanud töötajad saavad puhkusetaotluse koostamiseks valida erinevad puhkusetüübid. Kõigil ühe puhkusetaotluse osana valitud puhkusetüüpidel peaks siiski olema sama puhkuseühik. Töötajad saavad iga puhkuse tüübi puhkusühikut vaadata vormil **Taotle puhkust**.
+
 ## <a name="see-also"></a>Vt ka
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)

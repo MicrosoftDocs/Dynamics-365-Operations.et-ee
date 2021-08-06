@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056320"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639410"
 ---
 # <a name="request-a-leave-of-absence"></a>Puhkuse taotlemine
 
@@ -48,6 +48,10 @@ Saate esitada puhkusetaotluse ja näha oma puhkusetaotluste olekut rakenduses Dy
 1. Tööruumis **Töövõtja iseteenindus** valige suvand **Lisateave** (…) paanil **Vaba aja saldod**.
 
 2. Puhkusetaotluste vaatamiseks valige **Puhkuse kuvamine**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Puhkusetaotluste importimine muudest süsteemidest või vanematest süsteemidest
+
+Puhkusetaotluste importimiseks teisest süsteemist peate läbima regulaarse töövoo, et luua sobivad puhkusekanded. Teise võimalusena saate importida puhkuse pangakandeid ja puhkuse taotlusi lõpetatud olekus. Pidage meeles, et kui impordite ainult puhkusetaotlused, ei looda puhkuste kandeid automaatselt.
 
 ## <a name="see-also"></a>Vt ka
 

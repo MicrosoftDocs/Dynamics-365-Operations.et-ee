@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314281"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538850"
 ---
 # <a name="payroll-employee"></a>Palgaarvestuse töövõtja
 
@@ -32,15 +32,19 @@ Füüsiline nimi: mshr_payrollemployeeentity.
 
 See üksus annab teavet töötaja kohta. Peate häälestama [palga integreerimise parameetrid](hr-admin-integration-payroll-api-parameters.md) enne selle üksuse kasutamist.
 
+>[!IMPORTANT] 
+>Väljad **FirstName**, **MiddleName**, **LastName**, **NameValidFrom** ja **NameValidTo** pole enam selle üksuse jaoks saadaval. See tagab, et selle üksuse kindlustamiseks on ainult üks kehtivusega andmeallikas, milleks on **HcmEmployment** väljadega **EmploymentStartDate** ja **EmploymentEndDate**.
+
+>Need väljad on saadaval olemis **DirPersonNameHistoricalEntity**, mis anti välja platvormi värskendusega 43. Väljal **Isik** on OData kaudu seotud **PayrollEmployeeEntity** ja **DirPersonNameHistoricalEntity**. Teise võimalusena saab olemit **DirPersonNameHistoricalEntity** pärida otse OData kaudu kasutades avalikku nime **PersonHistoricalNames**.
+
+
 ## <a name="properties"></a>Atribuudid
 
 | Atribuut<br>**Füüsiline nimi**<br>**_Tüüp_** | Kasuta | Kirjeldus |
 | --- | --- | --- |
 | **Personalinumber**<br>mshr_personnelnumber<br>*String* | Kirjutuskaitstud<br>Nõutav | Töötaja kordumatu personalinumber. |
 | **Esmane väli**<br>mshr_primaryfield<br>*String* | Nõutav<br>Süsteemi loodud |  |
-| **Perekonnanimi**<br>mshr_lastname<br>*String* | Kirjutuskaitstud<br>Nõutav | Töötaja perekonnanimi. |
 | **Juriidilise isiku ID**<br>mshr_legalentityID<br>*String* | Kirjutuskaitstud<br>Nõutav | Määratleb juriidilise isiku (ettevõtte). |
-| **Kehtiv alates**<br>mshr_namevalidfrom<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud <br>Nõutav | Töötajaga seotud teabe kehtivuse algkuupäev.  |
 | **Sugu**<br>mshr_gender<br>[suvandikomplekt mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Kirjutuskaitstud<br>Nõutav | Töötaja sugu. |
 | **Palgatöötaja olemi ID**<br>mshr_payrollemployeeentityid<br>*GUID* | Nõutav<br>Süsteemi loodud | Süsteemi loodud GUID-väärtus töötaja kordumatuks tuvastamiseks. |
 | **Töösuhte alguskuupäev**<br>mshr_employmentstartdate<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud<br>Nõutav | Töötaja tööhõive alguskuupäev. |
@@ -50,8 +54,6 @@ See üksus annab teavet töötaja kohta. Peate häälestama [palga integreerimis
 | **Kehtiv kuni**<br>mshr_namevalidto<br>*Kuupäeva ja kellaaja nihe* |  Kirjutuskaitstud<br>Nõutav | Töötajaga seotud teabe kehtivuse lõpukuupäev. |
 | **Sünnikuupäev**<br>mshr_birthdate<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud <br>Nõutav | Töötaja sünnikuupäev |
 | **ID-number**<br>mshr_identificationnumber<br>*String* | Kirjutuskaitstud <br>Nõutav |Töötaja jaoks määratletud ID-number.  |
-| **Eesnimi**<br>mshr_firstname<br>*String* | Kirjutuskaitstud<br>Nõutav | Töötaja eesnimi. |
-| **Teine eesnimi**<br>mshr_middlename<br>*String* | Kirjutuskaitstud<br>Nõutav |Töötaja keskmine nimi.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Palgatöötaja näidispäring
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

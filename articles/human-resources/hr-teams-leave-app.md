@@ -2,7 +2,7 @@
 title: Puhkusetaotluste haldamine Teamsis
 description: Selles teemas kirjeldatakse, kuidas esitada puhkusetaotlust Microsoft Teamsi rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356508"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639434"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
@@ -166,6 +166,10 @@ Kui teil on probleeme Teamsis rakendusse Dynamics 365 Human Resources sisselogim
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Ma ei saa Teamsis rakendusse Human Resources sisse logida
 
 Kui te ei saa rakendusse sisse logida, siis on võimalik, et konto, mida kasutate rakendusse Microsoft Teams sisse logimiseks, ei ole seotud töötajakirjega rakenduses Dynamics 365 Human Resources. Võtke ühendust oma süsteemiadministraatoriga, et teha kindlaks, et teie töötajakirje on korralikult seotud.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Ei leia Sätete alt Dynamics 365 Human Resources keskkonda
+
+Kui te ei saa õiget Dynamics 365 keskkonda valida, ei pruugi kasutaja kirje õigesti sünkroonitud olla. Kasutajakirje uuesti loomiseks ja kasutaja sisselogimisandmetega seostamiseks pöörduge oma süsteemiadministraatori poole. Seejärel proovige mõne minuti jooksul Microsoft Teams Human Resources rakendusse sisse logida.
 
 ### <a name="translations-dont-display-correctly"></a>Tõlkeid ei kuvata õigesti
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0d0d39d19634498f9313aeda4143f9ec81e8f
-ms.sourcegitcommit: f3c28f57d997e824a64485d9a4ce8f198e3bcf23
+ms.openlocfilehash: 8cee60750d3c451024466109acbdc5924074a11f
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059625"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6559956"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Mis on uus või muudetud rakenduses Dynamics 365 Human Resources (3. mai 2021)
 
@@ -65,7 +65,7 @@ Järgmised uued funktsioonid on eelversioonis. Lisateavet funktsioonide sisse- v
 | Soodustuse halduse tööruum | [Soodustuste halduse tööruum (eelversioon)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Soodustuse halduse tööruum](hr-benefits-management-workspace.md) |
 | Puhkuse ja puudumise töövoo kogemuse täiustused | [Puhkuse ja puudumise töövoo kogemuse täiustused](https://go.microsoft.com/fwlink/?linkid=2147528) | [Taotle vaba aega](hr-employee-self-service-request-time-off.md)|
 | Lihtsustatud palgaintegratsiooni (palgaarvestuse integratsiooni API-d) lubamine | [Lihtsustatud integreerimise lubamine palgaarvestuse pakkujatega](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [Palgaarvestuse integratsiooni API](hr-admin-integration-payroll-api-introduction.md)|
-| Puhkuse tekkepõhise kande auditeerimine | - | [Puhkuse tekkepõhise kande auditeerimine](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Puhkuse tekkepõhise kande auditeerimine | - | [Puhkuse tekkepõhise kande auditeerimine](hr-leave-and-absence-accrue.md)|
 
 ## <a name="coming-soon"></a>Peagi tulekul
 

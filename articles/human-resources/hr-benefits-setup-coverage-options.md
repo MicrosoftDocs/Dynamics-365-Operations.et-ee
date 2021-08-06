@@ -2,7 +2,7 @@
 title: Katvuse suvandite loomine
 description: Katvussuvandid rakenduses Microsoft Dynamics 365 Human Resources on kasutaja valitud soodustuse plaani või programmi katvuse tasemed.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9f67a97ec57bade840e1035c6011b94427a77c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1e8f13075a9835963c231a8e4e8a737368a952ba
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055576"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558221"
 ---
 # <a name="create-coverage-options"></a>Katvuse suvandite loomine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Katvussuvandid rakenduses Microsoft Dynamics 365 Human Resources on kasutaja valitud soodustuse plaani või programmi katvuse tasemed. Näiteks võivad katvussuvandid hõlmata suvandit **Ainult töövõtja** meditsiiniplaani jaoks või suvandit **2 × palk** elukindlustuse plaani jaoks. Kui see on määratletud, saate soodustuse kindlustussuvandeid uuesti kasutada. Saate siduda suvandi ühe või mitme plaaniga.
+Kindlustuskaitse võimalused määravad kindlaks, kes peaks olema kaetud või kui palju kindlustusplaanis on kindlustuskaitset. Näiteks arstliku plaani puhul võib teil olla **ainult töötaja** valik, **töötaja + 1** valik ja **pere** valik. Elukindlustuse puhul võite pakkuda katteid **1x palk** või **2x palk** ulatuses.
 
-Kui katvuse valikud on määratud, lisage katvuse valikud soodustuse plaani tüübile. Plaani tüüp seostatakse seejärel soodustuse plaani või programmiga. Plaani tüübiga seostatud katvuse valikud on saadaval kõigile selle plaani tüübiga loodud plaanidele. 
+Pärast hüvitiste katvuse valikute määratlemist saate neid uuesti kasutada. Saate siduda suvandi ühe või mitme plaaniga.
 
+> [!IMPORTANT]
+> Kui katvuse valikud on määratud, lisage need soodustuse plaani tüübile. Plaani tüüp seostatakse seejärel soodustuse plaani või programmiga. Plaani tüübiga seostatud katvuse valikud on saadaval kõigile selle plaani tüübiga loodud plaanidele.
+
+## <a name="create-coverage-options"></a>Katvuse suvandite loomine
 1. Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Katvuse valikud**.
 
 2. Valige suvand **Uus**.
@@ -40,7 +44,7 @@ Kui katvuse valikud on määratud, lisage katvuse valikud soodustuse plaani tü�
    | --- | --- |
    | **Katvuse valik** | Kordumatu katvuse valiku nimi. |
    | **Kirjeldus** | Katvuse valiku kirjeldus. |
-   | **Planeerimise kood** | Katvuse koodid määravad minimaalsed ja maksimaalsed summad iga sobiva kaetud isiku tüübi jaoks. Katvuse kood näitab, kes on kaetud või plaani tüübile lubatud katvuse summa. Saate väljendada katvuse summat summana dollarites või protsendina. Näide:</br></br>- **EMP+1** – kvalifitseerumiseks peab töövõtjal olema üks sõltuv isik valitud (kui valitud on rohkem kui üks, siis need enam ei kvalifitseeru).</br></br>- **EMP+perekond** – kvalifitseerumiseks peab töövõtjal olema vähemalt kaks sõltuvat isikut valitud. |
+   | **Planeerimise kood** | Katvuse koodid määravad minimaalsed ja maksimaalsed summad iga sobiva kaetud isiku tüübi jaoks. Katvuse kood näitab, kes on kaetud või plaani tüübile lubatud katvuse summa. Saate väljendada katvuse summat summana dollarites või protsendina. Näide:<ul><li>**EMP+1** – kvalifitseerumiseks peab töövõtjal olema üks sõltuv isik valitud (kui valitud on rohkem kui üks, siis need enam ei kvalifitseeru).</li><li>**EMP+perekond** – kvalifitseerumiseks peab töövõtjal olema vähemalt kaks sõltuvat isikut valitud.</li></ul> |
    | **Maksimaalne arv** | Maksimaalne sõltuvate isikute arv. |
    | **Olek** | Katvuse valiku olek. Kui katvuse valiku olek on seatud passiivseks, ei saa plaani tüüpides katvuse valikut valida. |
    | **Protsent** | Protsendi summa. See väli on aktiivne ainult juhul, kui väljal Katvuse kood on valitud % × palk. |

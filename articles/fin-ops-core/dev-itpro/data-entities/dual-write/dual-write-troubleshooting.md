@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350736"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542487"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -61,14 +61,14 @@ Pärast tööriista Package Deployer installimist installige lahendusepakett, j�
 
 Jälituslogi sisselülitamiseks toimige järgmiselt.
 
-1. Logige sisse mudelipõhisesse rakendusse Dynamics 365, avage leht **Sätted** ja valige seejärel jaotises **Süsteem** suvand **Haldus**.
+1. Logige sisse kliendikaasamise rakendusse, avage leht **Seaded** ja valge jaotisest **Süsteem** suvand **Haldus**.
 2. Valige lehelt **Haldus** suvand **Süsteemisätted**.
 3. Lisandmooduli jälituslogi lubamiseks valige vahekaardil **Kohandamine** veerus **Lisandmooduli ja kohandatud töövoo tegevuse jälgimine** suvand **Kõik**. Kui soovite logida jälituslogisid ainult erandite ilmnemisel, saate teha valiku **Erand**.
 
 
 Jälituslogi kuvamiseks toimige järgmiselt.
 
-1. Logige sisse mudelipõhisesse rakendusse Dynamics 365, avage leht **Sätted** ja valige seejärel jaotises **Kohandamine** suvand **Lisandmooduli jälituslogi**.
+1. Logige sisse kliendikaasamise rakendusse, avage leht **Seaded** ja valge jaotisest **Kohandamine** suvand **Lisandmooduli jälituslogi**.
 2. Leiate jälituslogid siis, kui veeru **Tüübi nimi** väärtuseks on seatud **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Täieliku logi vaatamiseks topeltklõpsake üksust ja seejärel vaadake üle kiirkaardil **Käivitamine** tekst **Teateplokk**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815712"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645368"
 ---
 # <a name="fixed-asset-transaction-options"></a>Põhivara kande valikud
 
@@ -46,7 +46,7 @@ Kui põhivara soetamiseks kasutatakse ostutellimust või töölehte Põhivara va
 ## <a name="general-ledger"></a>Pearaamat
 Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate põhivarade puhul töölehti kasutada põhivarakannete sisestamiseks.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Põhivara kandetüüpide sisestamise suvandid
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Põhivara kandetüüpide sisestamise suvandid
 
 
 | Kande tüüp                    | Moodul                   | Suvandid                                   |
@@ -61,10 +61,20 @@ Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate p
 | ** **                               | Pearaamat           | Päevaraamat                           |
 | ** **                               | Müügireskontro      | Vabas vormis arve                         |
 
-
 Kulumiperioodide põhivara järelejäänud väärtust ei värskendata kulumikande tüüpi tööleherea käsitsi loomisel või importimisel andmeüksuse kaudu. Seda väärtust värskendatakse, kui töölehe rea loomiseks kasutatakse kulumisoovituste protsessi.
 
 Lisateavet leiate jaotisest [Põhivarade integreerimine](fixed-asset-integration.md).
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Kanded, mille vautšeri numbrid on erinevad
+
+Järgmistes põhivarakannetes kasutatakse erinevaid kandenumbreid:
+
+- Varale tehakse täiendav soetamine ja arvutatakse järelkulum.
+- Vara tükeldatakse.
+- Likvideerimise kulumi arvutamiseks kasutatav parameeter on sisse lülitatud ja vara likvideeritakse.
+- Vara teenuse kuupäev on enne soetamiskuupäeva. Seega sisestatakse kulumi korrigeerimine.
+
+> [!NOTE]
+> Kannete sisestamisel veenduge, et kõik kanded oleksid seotud sama põhivaraga. Kannet ei sisestata, kui see hõlmab rohkem kui ühte põhivara, isegi kui väli **Uus kanne** on määratud pearaamatu lehel **Töölehe nimed** valikule **Ainult üks kande number**. Kui kaasate kandesse rohkem kui ühe põhivara, kuvatakse teade "Kandel võib olla ainult üks põhivarakanne" ja te ei saa kannet sisestada.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

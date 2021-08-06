@@ -4,24 +4,17 @@ description: Selles teemas kirjeldatakse maksuandmete integreerimist rakenduse F
 author: robinarh
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: rhaertle
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a7992520b57b4c19b6dc8e13bd8e9ffc87b40f5a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1b5d62e56dd1f87dbfedc6a8ca7379587481ff4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750638"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542315"
 ---
 # <a name="integrated-tax"></a>Integreeritud maks
 
@@ -29,41 +22,20 @@ ms.locfileid: "5750638"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 Maksu seadistusandmed määravad nii kaudsete maksude (KM, GST, käibemaks) kui ka kinnipeetava maksu seadistuse. Need kirjeldavad maksu arvutamise reeglit, maksumäära, maksuarvestust, tasakaalustust ja muid mõisteid.
 
 ## <a name="templates"></a>Mallid
 
 Maksuandmed sisaldavad tabeli kaartide kogumit, mis töötavad andmete suhtluse ajal koos, nagu on näha järgmises tabelis.
 
-Finance and Operations rakendused | Mudeljuhitud Dynamics 365 rakendused | Kirjeldus |
--------------------------|---------------------------------|----|
-Kauba käibemaksugrupp | msdyn_taxitemgroups |
-Käibemaksuhaldurid | msdyn_taxauthorities |
-Käibemaksuvabastuse koodi olemi CDS | msdyn_taxexemptcodes |
-Käibemaksugrupid | msdyn_taxgroups |
-Käibemaksu pearaamatu sisestusgrupid V2 | msdyn_taxpostinggroups |
-Kinnipeetava maksu koodid | msdyn_withholdingtaxcodes |
-Kinnipeetava maksugrupid | msdyn_withholdingtaxgroups | 
-
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
-
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
-
-[!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
-
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
-
-[!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
-
-[!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
-
+| Finance and Operations rakendused | Klientide kaasamise rakendused | Kirjeldus |
+|-----------------------------|-----------------------------------|-------------|
+[Kauba käibemaksugrupp](mapping-reference.md#196) | msdyn_taxitemgroups | |
+[Käibemaksuhaldurid](mapping-reference.md#193) | msdyn_taxauthorities | |
+[Käibemaksuvabastuse koodi olemi CDS](mapping-reference.md#194) | msdyn_taxexemptcodes | |
+[Käibemaksugrupid](mapping-reference.md#195) | msdyn_taxgroups | |
+[Käibemaksu pearaamatu sisestusgrupid V2](mapping-reference.md#197) | msdyn_taxpostinggroups | |
+[Kinnipeetava maksu koodid](mapping-reference.md#210) | msdyn_withholdingtaxcodes | |
+[Kinnipeetava maksugrupid](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.20 eelvaade (august 2021)
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.20 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301742"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641052"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 eelvaade (august 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.20 uued või muutunud funktsioonid. Selle versiooni number on 10.0.886 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.20 uusi või muutunud funktsioone. Selle versiooni number on 10.0.886 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelversioon:** mai 2021
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** juuli 2021
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** august 2021
 
-
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
 See väljalase hõlmab järgmisi funktsioone. Veerg *Funktsioon* pakub linke [väljalaskeplaani](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) kus saate vaadata iga funktsiooni ametlikke väljalaskekuupäevi. Veerg *Lisateave* pakub üksikasju/linke seotud dokumentatsioonile.
 
-Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada. Mõnd loetletud funktsiooni saab kasutada vaid eelversioonina, teised võivad juba üldiselt kättesaadavad olla.
+Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 | Funktsiooniala | Funktsioon | Lisateave |
 |---|---|---|
@@ -49,7 +47,7 @@ Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Iga
 
 | Funktsiooniala | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
 |---|---|---|
-| Koondplaneerimine | Planeerimise optimeerimise negatiivsed päevad | See eelvaate funktsioon võimaldab Planning Optimization arvestada viivituse kõikumisega, mis põhineb **Negatiivsetel päevadel** gruppides määratletud parameetril. |
+| Koondplaneerimine | Planeerimise optimeerimise negatiivsed päevad | See funktsioon võimaldab Planning Optimization arvestada viivituse kõikumisega, mis põhineb **Negatiivsetel päevadel** gruppides määratletud parameetril. |
 | Koondplaneerimine | Korrigeeritud nõudluse prognoosi paralleelne lubamine | See funktsioon võimaldab korrigeeritud nõudluse prognoosi paralleelset lubada **Korrigeeritud nõudluse prognoosiks** lehel. Selle funktsiooni eesmärk on suurendada jõudlust suure arvu eelarvete autoriseerimisel. Autoriseerimisel saab kasutaja autoriseerimise dialoogis määrata **Lõimede arvu**. |
 | Koondplaneerimine | (Eelversioon) Plaanitud hulgi- ja partiina tellimuste partiideks jaotatud kinnitamine ja konsolideerimine | See funktsioon võimaldab teil planeeritud hulgi- ja partiidena tellimuste kinnitamiseks ja konsolideerimiseks kasutada pakett-töid. |
 | Tootmise juhtimine | Kopeeri üldised marsruudid | See funktsioon parandab kopeerimisprotsessi funktsiooni, et lubada kasutajatel kopeerida protsesse, mis pole kaubapõhised. See võimaldab süsteemil värskendada kogu asjakohast teavet (nt sait, protsessigrupp, ressursinõuded ja erinevad ajad) pärast seda, kui kopeerimisprotsessi funktsiooni on kasutatud kaubale veel määramata protsessi ülekirjutamiseks. |
@@ -75,7 +73,7 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ol
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.20 platvormivärskendused (juuli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.20 platvormivärskendused (juuli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 

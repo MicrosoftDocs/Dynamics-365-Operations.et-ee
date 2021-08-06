@@ -2,7 +2,7 @@
 title: Töötaja puhkuse haldamine
 description: Rakenduses Dynamics 365 Human Resources saate hallata töövõtja puhkust.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055624"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639458"
 ---
 # <a name="manage-employee-leave"></a>Töötaja puhkuse haldamine
 
@@ -44,12 +44,11 @@ Saate hallata töötaja puhkust puhkuse tüübi järgi. See hõlmab puhkuse regi
 
 Te võite töötaja puhkusesaldot korrigeerides lisada põhjusekoodi ja kommentaari. 
 
->[!IMPORTANT]
->Puhkusesaldode lisateabe vaatamisel on eelversioon. Peate selle lubama keskkonnas **Liivakast**. Lisateavet eelvaatefunktsioonide lubamise kohta vt [Funktsioonide haldus](hr-admin-manage-features.md).<br>
->Kui viite kursori puhkusesaldo kohale, kuvatakse nüüd järgmine teave.<br>
->- **Saadaval**: sellel aastal kokku – sellel aastal võetud
->- **Sellel aastal kokku**: kõik viitvõlad, korrigeerimised ja aasta edasikanded
->- **Sellel aastal võetud**: kogu kinnitatud vaba aeg
+Kui hõljutate kursorit mis tahes puhkuse saldo kohal, kuvatakse järgmine teave.
+
+- **Saadaval** -**selle aasta kogusumma**, millest on lahutatud väärtus **Võetud sel aastal**.
+- **Sellel aastal kokku** - kõik viitvõlad, korrigeerimised ja aasta edasikanded.
+- **Sellel aastal võetud** - kogu kinnitatud vaba aeg.
 
 ## <a name="see-also"></a>Vt ka
 

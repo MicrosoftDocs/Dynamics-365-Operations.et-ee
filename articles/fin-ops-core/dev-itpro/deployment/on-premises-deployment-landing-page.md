@@ -2,7 +2,7 @@
 title: Asutusesisese juurutamise avaleht
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
 author: sericks007
-ms.date: 03/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: ef19a154b4e18246c88adea48ee2709af17f039f
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f5ecc71326892683e0a49685262aae0db4a49ea9
+ms.sourcegitcommit: 41a5d18552bcc94cb1ddbbe3f3278eaf9d05f418
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338926"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "6617066"
 ---
 # <a name="on-premises-deployment-home-page"></a>Asutusesisese juurutuse avaleht
 
@@ -31,8 +31,9 @@ Saab juurutada rakendusele Dynamics 365 Finance + Operations (on-premises). Asut
 
 ## <a name="get-started"></a>Alustamine
 - [Asutusesisese juurutuse ülevaade](on-premises-overview.md)
-- [Asutusesiseste juurutuste plaanimine ja ettevalmistamine](plan-onprem-deployment.md)
+- [Kohapealsete juurutuste plaanimine ja ettevalmistamine](plan-onprem-deployment.md)
 - [Asutusesiseste juurutuste süsteeminõuded](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [Microsoft Dynamics 365 Finance + operatsioonid (kohapeal) toetatav tarkvara](onprem-compatibility.md)
 - [Riistvara suuruse muutmise nõuded kohapealsetes keskkondades](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Rakenduse Finance + Operations (on-premises) ostmine](../../fin-ops/get-started/purchase-on-premises.md)
 - [Pilvepõhiste ja kohapealsete funktsioonide võrdlus](../../fin-ops/get-started/cloud-prem-comparison.md)

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187243"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646483"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plaani ajaloo ja plaanimise logide vaatamine
 
@@ -34,6 +34,19 @@ Plaani ajaloo vaatamiseks avage plaan, avades **Koonplaneerimine** \> **Seadistu
 Plaanimise optimeerimise koondplaneerimise tööde ajalugu töötab ainult kuni 60 kirjet koondplaani kohta. Kui käivitate uue koondplaneerimise arvutuse, kustutatakse selle plaani varaseim ajalookirje.
 
 Lisaks tööde algusaja ja oleku nägemisele saate vaadata konkreetse töö logi. Logi sisaldab täiendavat teavet ja hoiatusi. Kõikidel töödel ei ole logi. Töö logi vaatamiseks valige **Logi**. Logikirjeid säilitatakse ainult 30 päeva jooksul pärast töö lõpetamiskuupäeva, pärast mida need automaatselt kustutatakse.
+
+Kui **Pakettkäsitlus** suvand kiirkaardil **Käivita taustal** lubati põhiplaani töötlemise seadistamisel, kuvatakse partiitöö logis lisateavet üldplaneeringu ajal loodud hoiatuste ja vigade kohta. Näiteks fikseeritakse automaatse fikseerimise vead ainult partii töölogis. Neid ei kuvata **ajaloo** leheküljel logides.
+
+Koondplaneerimise käivitamisel ilmnenud automaatse täitmise tõrgete ja teiste hoiatuste või tõrgete vaatamiseks järgige neid samme.
+
+1. Avage **Süsteemihaldus \> Päringud \> Pakett-tööd**.
+1. Leidke ja valige kirje, mis esindab teid huvitavat üldplaneeringu jooksu. (Näiteks välja **Töö kirjelduse** väärtus võib alata *koondplaneerimisega* .)
+1. Järgige üht järgmistest sammudest, sõltuvalt sellest, kas kasutate **partiitööde** lehe puhul *täiustatud vormi* või *pärandi (muutmata) vormi*.
+
+    - Kui kasutate täiustatud vormi: valige tegevuspaanil **Partiitöö ajalugu**. Seejärel valige **Partiitöö ajalugu** lehel tegevuspaanil **Logi**.
+    - Kui kasutate pärandvormi: valige tegevuspaani vahekaardil **Partiitöö** **Logi**.
+
+1. Valige **Teate üksikasjad**, et avada **Teate üksikasjade** paan, kus saate vaadata kõiki hoiatusi ja tõrkeid, mis talletati töötlemise ajal.
 
 ## <a name="related-resources"></a>Seotud ressursid
 

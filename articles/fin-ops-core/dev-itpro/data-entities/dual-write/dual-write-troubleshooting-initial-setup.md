@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350832"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542411"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Tõrkeotsingu probleemid algse häälestuse ajal
 
@@ -71,7 +71,7 @@ Rakenduse nõusoleku andmiseks toimige järgmiselt.
 
 Tagamaks, et topeltkirjutus töötaks õigesti, luuakse konfiguratsiooni ajal valitud ettevõtted Dataverse'i keskkonnas. Vaikimisi on need ettevõtted kirjutuskaitstud ja atribuudi **IsDualWriteEnable** väärtuseks on seatud **Tõene**. Lisaks luuakse vaikimisi omanikust äriüksuse omanik ja meeskond ning kaasatakse ettevõtte nimi. Enne vastenduste lubamist kontrollige, kas meeskonna vaikeomanik on määratud. Tabeli **Ettevõtted (CDM\_Company)** leidmiseks toimige järgmiselt.
 
-1. Valige filter Dynamics 365 mudeljuhitud rakenduse paremas ülanurgas.
+1. Klienditeeninduse rakenduses valige filter ülemises parempoolses nurgas.
 2. Valige ripploendist **Ettevõte**.
 3. Tulemuste nägemiseks valige **Käivita**.
 4. Valige ettevõte, mis oli topeltkirjutuse konfigureerimisel lingitud.

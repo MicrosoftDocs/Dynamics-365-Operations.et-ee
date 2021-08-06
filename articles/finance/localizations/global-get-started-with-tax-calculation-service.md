@@ -2,7 +2,7 @@
 title: Maksuarvutusega alustamine
 description: Selles teemas selgitatakse, kuidas seadistada maksuarvestusi.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336652"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644970"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Alustage maksuarvutusega (eelvaade)
 
@@ -58,15 +58,16 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduuri tuleb teha ainult üks kord ning seda saab täita mis tahes RCS-i juriidilises üksuses.
 
 1. Logige teenusesse [RCS](https://marketing.configure.global.dynamics.com/) sisse.
-2. **Elektroonilise atuandluse** tööruumis, lisage uus konfiguratsiooni pakkuja. Kasutage oma ettevõtte nime pakkuja nimena. Lisateabe saamiseks vaadake teemat [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Valige äsja loodud konfiguratsioonipakkuja ja valige **Määra aktiivseks**.
-4. Valige **Microsoft** konfiguratsiooni pakkuja ja seejärel valige **Hoidlad**.
-5. Väljalt **Tüüp** valige **Globaalne**.
-6. Valige **Avamine**.
-7. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon**.
-8. Valige uusim versioon ja seejärel käsk **Impordi**.
-9. Minge tagasi **Globaliseerimisfunktsiooni (Eelvaade)** tööruumi, valige **Funktsioonid**, valige **maksuarvutuse** paan ja seejärel valige **Lisa**.
-10. Saate valida ühe järgmistest funktsioonitüüpidest:
+2. Tööruumis **Funktsioonide haldus** valige ja lülitage sisse funktsioon **Globaliseerimisfunktsioonid**.
+3. **Elektroonilise atuandluse** tööruumis, lisage uus konfiguratsiooni pakkuja. Kasutage oma ettevõtte nime pakkuja nimena. Lisateabe saamiseks vaadake teemat [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Valige äsja loodud konfiguratsioonipakkuja ja valige **Määra aktiivseks**.
+5. Valige **Microsoft** konfiguratsiooni pakkuja ja seejärel valige **Hoidlad**.
+6. Väljalt **Tüüp** valige **Globaalne**.
+7. Valige **Avamine**.
+8. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon**.
+9. Valige uusim versioon ja seejärel käsk **Impordi**.
+10. Minge tagasi **Globaliseerimisfunktsioonide** tööruumi, valige **Funktsioonid**, valige **maksuarvutuse** paan ja seejärel valige **Lisa**.
+11. Saate valida ühe järgmistest funktsioonitüüpidest:
 
     - **Uus funktsioon** – Looge funktsiooniseadistuse, kus sisu on tühi.
     - **Põhineb olemasoleval funktsioonil** – Looge funktsioon olemasolevast funktsioonist ja kopeerige sisu olemasolevast funktsiooni seadistusest.
