@@ -2,7 +2,7 @@
 title: Sisu tarne võrgu rakendamise suvandid
 description: See teema annab ülevaate erinevatest võimalustest sisu tarnevõrgu (CDN) rakendamise kohta, mida saab kasutada Microsoft Dynamics 365 Commerce keskkondades. Need valikud on rakenduse Azure Front Door rakenduse Commerce antud eksemplarid ja Azure Front Door kliendi-eksemplarid.
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
+ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351245"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6657115"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Sisu tarne võrgu rakendamise suvandid
 
@@ -50,7 +50,7 @@ Järgmises tabelis loetletakse rakenduse Azure Front Door Commerce-antud eksempl
 
 | Plusse | Miinuseid |
 |------|------|
-| <ul><li>Eksemplar kaasatakse ärikulusse.</li><li>Kuna ärimeeskond haldab eksemplari, on vajalik väiksem hooldus ja häälestusetappideks on ühiskasutusega etapid.</li><li>Azure'i majutatud infrastruktuur on skaleeritav, turvaline ja usaldusväärne.</li><li>Secure Sockets Layeri (SSL) sert nõuab kellaaja seadistust ja seda uuendatakse automaatselt.</li><li>Ärimeeskond jälgib eksemplari vigade ja hälbide suhtes.</li></ul> | <ul><li>WAFi ei toetata.</li><li>Konkreetseid kohandusi ega seadistuse korrigeerimisi pole.</li><li>Eksemplar sõltub ärimeeskonnast uuenduste või muudatuste puhul.</li><li>Domeenide ja laiendusdomeenide integreerimiseks Azure'i DNS-iga on vaja eraldi Azure Front Door eksemplari.</li><li>Puudub telemeetria vastuste kohta sekundis (RPS) või kliendile pakutakse veamäära.</li></ul> |
+| <ul><li>Eksemplar kaasatakse ärikulusse.</li><li>Kuna ärimeeskond haldab eksemplari, on vajalik väiksem hooldus ja häälestusetappideks on ühiskasutusega etapid.</li><li>Azure'i majutatud infrastruktuur on skaleeritav, turvaline ja usaldusväärne.</li><li>Secure Sockets Layeri (SSL) sert nõuab kellaaja seadistust ja seda uuendatakse automaatselt.</li><li>Ärimeeskond jälgib eksemplari vigade ja hälbide suhtes.</li></ul> | <ul><li>Kooslust ei toetata.</li><li>Konkreetseid kohandusi ega seadistuse korrigeerimisi pole.</li><li>Eksemplar sõltub ärimeeskonnast uuenduste või muudatuste puhul.</li><li>Domeenide ja laiendusdomeenide integreerimiseks Azure'i DNS-iga on vaja eraldi Azure Front Door eksemplari.</li><li>Puudub telemeetria vastuste kohta sekundis (RPS) või kliendile pakutakse veamäära.</li></ul> |
 
 Järgmine näide näitab Commerce-toetatud Azure Front Door`i eksemplari arhitektuuri.
 
@@ -74,7 +74,7 @@ Järgmises tabelis loetletakse välise CDN-teenuse kasutamise plussid ja miinuse
 
 | Plusse | Miinuseid |
 |------|------|
-| <ul><li>See valik on kasulik, kui olemasolev domeen on juba majutatud välisele CDN-ile.</li><li>Konkurendi CDN-il (nt Atagem) võib olla rohkem WAF-võimalusi.</li></ul> | <ul><li>Eraldi leping ja täiendav kuluarvestus on nõutavad.</li><li>SSL võib vajada lisakulusid.</li><li>Kuna teenus on eraldi Azure'i pilvestruktuurist, tuleb hallata lisa infrastruktuuri.</li><li>Teenus võib nõuda pikemaid ajainvesteeringuid lõpp-punkti ja turvalisuse seadistusse.</li><li>Teenus on ise hallatav.</li><li>Teenus on ise jälgitav.</li></ul> |
+| <ul><li>See valik on kasulik, kui olemasolev domeen on juba majutatud välisele CDN-ile.</li><li>WAF: sõltub välisest pakkujast.</li></ul> | <ul><li>Eraldi leping ja täiendav kuluarvestus on nõutavad.</li><li>SSL võib vajada lisakulusid.</li><li>Kuna teenus on eraldi Azure'i pilvestruktuurist, tuleb hallata lisa infrastruktuuri.</li><li>Teenus võib nõuda pikemaid ajainvesteeringuid lõpp-punkti ja turvalisuse seadistusse.</li><li>Teenus on ise hallatav.</li><li>Teenus on ise jälgitav.</li></ul> |
 
 Järgmine näide näitab Äri infrastruktuuri, mis sisaldab välist CDN-teenust.
 

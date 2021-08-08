@@ -2,7 +2,7 @@
 title: Ülevaade
 description: Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse Human Resources seadistamise, töötajate hüvitiste ja soodustuste seadistamise ning tööjõu haldamise kohta.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338050"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639506"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -100,10 +100,11 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 [Puhkuste ja puudumiste plaanide kogumine](hr-leave-and-absence-accrue.md)</br>
 [Puhkuste ja puudumiste analüüsi kuvamine](hr-leave-and-absence-analytics.md)</br>
 [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)</br>
-[Vaba aja taotlemine](hr-employee-self-service-request-time-off.md)</br>
+[Taotle vaba aega](hr-employee-self-service-request-time-off.md)</br>
 [Meeskonna ja ettevõtte kalendrite kuvamine](hr-employee-self-service-calendar.md)</br>
+[Puudumiste halduri rolli konfigureerimine](hr-configure-absence-manager.md)</br>
 
-## <a name="develop-employees"></a>Töövõtjate arendamine
+## <a name="develop-employees"></a>Töötajate arendamine
 
 [Jõudlushalduse ülevaade](hr-develop-performance-management-overview.md)</br>
 [Tööjõu oskuste joondamine](hr-develop-skills.md)</br>
