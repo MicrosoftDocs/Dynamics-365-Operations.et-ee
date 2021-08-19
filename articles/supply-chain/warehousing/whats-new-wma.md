@@ -2,7 +2,7 @@
 title: Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 description: Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid.
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720080"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Uued funktsioonid, parandused ja täiustused versioonis 2.0.7.0
+
+- Lehele **Teave** lisati jaotis, mis kontrollib rakenduse uusimat välja antud versiooni.
+- Lihtsustus lehekülgede vahel libistamine ja nipsamine.
+- Muutis tööloendi tõusva/laskuva nupu ikooni.
+- Vähendas kaardil **Üksikasjad** olevaid veeriseid, et see mahutaks rohkem teavet.
+- Rakendas erinevaid jõudluse täiustusi, et vähendada rakenduse probleemi muutumist aja jooksul aeglasemaks.
+- Kui ekraanile mahub rohkem juhtelemente kui mahub, mille tulemuseks on saalimine, ei keri spinneri juhtelement enam samamoodi nagu leht.
+- Prioritiseerige viimase skannitud väärtuse kuvamine ülesande pealkirja kuvamise ees, nii et kui need kattuvad, kärbitakse tööülesande tiitlit.
+- Mitmed probleemid, mis põhjustasid süsteemi hangumise, on parandatud.
+- Mõnes keeles pole tekst erinevates kohtades enam ära lõigatud.
+- Rakendus töötab nüüd vaikimisi täisekraanirežiimis.
+- Lahendatud on probleem, mis võib aeg-ajalt põhjustada teatud seadmetega avalehel skannimiste ignoreerimist.
+
+### <a name="known-issues-in-version-2070"></a>Teadaolevad probleemid versioonis 2.0.7.0
+
+- Mõnes seadmes kuvatakse rakenduse käivitamisel või toimingu alustamisel järgmine tõrketeade: "Määratud suurusele sobivat vaadet ei leita." Kui näete seda tõrketeadet mõnes oma seadmes, peate alandama Warehouse Management mobiilirakenduse selles seadmes 2.0.6.0 versiooniks ja ootama täiendamist kuni rakenduse järgmise versiooni väljaandmiseni.
 
 ## <a name="version-2060"></a>Versioon 2.0.6.0
 

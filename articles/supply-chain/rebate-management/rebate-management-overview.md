@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720248"
 ---
 # <a name="rebate-management-module-overview"></a>Tagasimaksehalduse mooduli ülevaade
 
@@ -91,10 +91,9 @@ Kasutajad ei pea enam kahe sammuga tehinguid või sätteid käsitlema. Kanded ja
 
 Tagasimaksete arvutamisel loob protsess kanded, mille saab enne sisestamist üle vaadata. Eraldi protsess sisestab allahindluse halduse kanteid. Seejärel saab soovitatud kannetele sisestamise ajal luua töölehe, kreeditarve või deebetkande. Aruandluse aruandeid ja kandeloendiid on võimalik saada, et tagada vastavus, efektiivsus ja tõhusus.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Garantiiga autoritasud
 
-Tagasimaksehalduses võimaldab automaatne makse loomine autoritasusid käsitseda kiiresti ja hõlpsasti, isegi siis, kui rakenduvad garantii miinimumid. 
+Tagasimaksehalduses võimaldab automaatne makse loomine autoritasusid käsitseda kiiresti ja hõlpsasti, isegi siis, kui rakenduvad garantii miinimumid.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Kulu ja tagasimaksete maksimeerimine
 
