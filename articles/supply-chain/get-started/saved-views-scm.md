@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728623"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Managementi standardsed salvestatud vaated
 
@@ -77,6 +77,18 @@ Järgmises tabelis kirjeldatakse hankemoodulis saadaolevaid salvestatud vaateid.
 | Ostutellimuse üksikasjad | Finantshaldus | See lihtsustatud vaade on optimeeritud rahandusega seotud toimingute tegemiseks (nt arvete koostamine ja hindade, kogusummade ja tasude kontrollimine). | Ostutellimuste salvestatud vaated |
 | Ostutellimuse üksikasjad | Tellimuse heakskiitmine | See lihtsustatud vaade on optimeeritud ostutellimuste heakskiitmiseks. | Ostutellimuste salvestatud vaated |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Tooteteabe halduse mooduli salvestatud vaated
+
+Järgmises tabelis kirjeldatakse tooteteabe halduse moodulis saadaolevaid salvestatud vaateid.
+
+| Lehekülg | Vaate nimi | Kuva kirjeldus | Funktsiooni nimi |
+|---|---|---|---|
+| Väljastatud toodete loend | Toote loomine | Lihtsustatud lehevaade, mis sisaldab ainult toodete loomisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
+| Väljastatud toote üksikasjad | Toote loomine | Lihtsustatud lehevaade, mis sisaldab ainult toodete loomisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
+| Väljastatud toote üksikasjad | Logistilise teabe haldamine | Lihtsustatud lehevaade, mis sisaldab ainult toodete logistikateabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
+| Väljastatud toote üksikasjad | Ostuteabe haldus | Lihtsustatud lehevaade, mis sisaldab ainult toodete ostuteabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
+| Väljastatud toote üksikasjad | Müügiteabe haldus | Lihtsustatud lehevaade, mis sisaldab ainult toodete müügiga seotud teabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Tootmise juhtmooduli salvestatud vaated
 
 Järgmises tabelis kirjeldatakse tootmise juhtmoodulis saadaolevaid salvestatud vaateid.
@@ -110,7 +122,7 @@ Järgmises tabelis kirjeldatakse laohalduse moodulis saadaolevaid salvestatud va
 | Kõik saadetised | Sissetulev töötlus | See lihtsustatud vaade sisaldab ainult välju, mida kasutatakse kõige sagedamini sissetulevate saadetiste töötlemiseks. | Saadetise töötlemise salvestatud vaated |
 | Kõik saadetised | Väljamineva kauba töötlemine | See lihtsustatud vaade sisaldab ainult välju, mida kasutatakse kõige sagedamini väljaminevate saadetiste töötlemiseks. | Saadetise töötlemise salvestatud vaated |
 | Kõik vood | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Voo töötlemise salvestatud vaade |
-| Koorma planeerimise töölaud | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Töö planeerimise töölaua salvestatud vaade |
+| Koorma planeerimise töölaud | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Koorma planeerimise töölaua salvestatud vaade |
 | Töö üksikasjad | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Töö üksikasjade lehe salvestatud vaade |
 
 
