@@ -94,6 +94,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21 (oktoober 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (august 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (juuni 2021)
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Dialoogiboksi „tagastatav summa“ eiramine kassas
                       href: dev-itpro/skip-change-due.md
-                    - name: Adyeni maksekonnektor
-                      href: dev-itpro/adyen-connector.md
+                    - name: Dynamics 365 Payment Connector Adyeni jaoks
+                      items:
+                        - name: Dynamics 365 Payment Connector Adyeni jaoks – ülevaade
+                          href: dev-itpro/adyen-connector.md
+                        - name: Dynamics 365 Payment Connector Adyeni jaoks – häälestamine
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Dynamics 365 Payment Connector Adyeni jaoks – KKK
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Dynamics 365 Payment Connector Adyeni jaoks – tõrkeotsing
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Veebimaksevahendite salvestamine Adyeni konnektori abil
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Tugev kliendiautentimine (SCA) Adyeni konnektori abil
@@ -1182,6 +1192,10 @@
               items:
                 - name: Võrgukanali aruannete loomine
                   href: generate-reports.md
+            - name: Sihtimine
+              items:
+                - name: 'Seadme, turu ja geograafilise asukoha sihtimine'
+                  href: targeting-overview.md
             - name: Katsetamine
               items:
                 - name: Katsetamine rakenduses Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Commerce'i lokaliseerimine Venemaa jaoks
                   href: localizations/rus-commerce-localization.md
+                - name: Commerce'i lokaliseerimine Venemaa jaoks – häälestamine
+                  href: localizations/rus-commerce-setup.md
+                - name: Ettemaksed Commerce'is Venemaa jaoks
+                  href: localizations/rus-commerce-prepayments.md
             - name: Rootsi
               items:
                 - name: Kassaaparaadi funktsioonid
