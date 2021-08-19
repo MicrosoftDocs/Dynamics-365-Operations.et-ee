@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730006"
 ---
 # <a name="planned-cross-docking"></a>Plaanitud ristlaadimine
 
@@ -117,6 +117,9 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
     - **Järjekorranumber:** *1*
     - **Tarneallikas:** *Ostutellimus*
 
+> [!NOTE]
+> Saate seadistada päringu, et juhtida konkreetse ristdokkimise malli kasutamist. Ristlaadimise mallide päringus on ainult *InventTable*'i (kaubad) tabel ja sisemiselt ühendatud *WHSInventTable'i* (WHS-kaupade) tabel. Kui soovite päringule teisi tabeleid lisada, saate nendega liituda, kasutades ainult *olemas olnud liitmised* või *ei ole olemas liitmised*. Kui filtreerite ühendatud tabeleid, laaditakse põhitabelist kirje iga tabeli sobiva kirje kohta. Kui liitmistüüp *on olemas liitmine*, lõpeb otsing pärast esimese vaste leidmist. Näiteks kui te liidate müügitellimuse rea tabeliga kaupade tabeliga, kontrollib ja tagastab süsteem kaubad, mille kohta on määratud tingimus vähemalt ühel müügitellimuse real. Andmed on toodud ematabelist (kaubad), mitte alamtabelist (müügitellimuse rida). Seega ei saa lähtedokumentide (nt müügitellimuse ridade või klientide) alusel filtreerimist teha väljast.
+
 ### <a name="create-a-work-class"></a>Tööklassi loomine
 
 1. Minge jaotisse **Laohaldus \> Seadistus \> Töö \> Töö klassid**.
@@ -151,6 +154,9 @@ Plaanitud ristlaadimine rakendatakse koormuse sisestamise meetodina. Pärast fun
     - **Töö klassi ID:** *CrossDock*
 
 1. Valige **Salvesta** ja kinnitage, et malli *51 ristlaadimine* on valitud märkeruut **Kehtiv**.
+1. Valikuline: valige suvand **Redigeeri päringut**, kui soovite seada töömalli kasutamisel soovitud kriteeriumid.
+
+    Saate seadistada päringu, et juhtida, millal konkreetset töömalli kasutatakse. Näiteks saate määrata, et malli saab kasutada tööks ainult konkreetses asukohas. Kui soovite, et ristlaadimise töö mall rakendati kindlas asukohas, peate filtreerima väljal **Alustamise asukoht**, mitte väljal **Asukoht**, sest sissetulevate protsesside (ost, ristlaadimine ja laadimine) töö loomine algab panemisrealt. Töö loomisel seadistab asukoha tähis **Asukoht** välja panemiskohaks. Kuid valimiskoht salvestatakse väljale **Alguskoht**.
 
 > [!NOTE]
 > Töötüübid *Komplekteerimine* ja *Ladustamine* peavad olema samad.
