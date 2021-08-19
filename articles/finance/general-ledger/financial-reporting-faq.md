@@ -2,7 +2,7 @@
 title: Finantsaruandluse KKK
 description: Selles teemas antakse vastused mõnedele korduma kippuvatele küsimustele finantsaruandluse kohta.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266629"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733607"
 ---
 # <a name="financial-reporting-faq"></a>Finantsaruandluse KKK
 
@@ -77,5 +77,29 @@ Teade näitab, et probleem tekkis siis, kui süsteem püüdis tuua finantsmetaan
 
 - Vaadake üle andmete integreerimisolek, tehes Report Designeris valikud **Tööriistad \>integreerimisolek**. Kui integreerimine on pooleli, oodake, kuni see on lõpule viidud. Seejärel proovige uuesti toimingut, mida tegite teate ilmnemisel.
 - Probleemi tuvastamiseks ja lahendamiseks pöörduge toe poole. Süsteemis võivad olla vastuolulised andmed. Tugitehnikud aitavad teil seda probleemi serveris tuvastada ja leida kindlad andmed, mis võivad vajada värskendamist.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Kuidas mõjutab ajaloolise kursi teisendamise valik aruande tulemuslikkust?
+
+Ajaloolist kurssi kasutatakse tavaliselt jaotamata kasumi, kinnisvara, seadmete ja omakapitali kontode puhul. Ajalooline kurss võib olla vastavalt Finantsarvestuse standardite nõukogu (FASB) suunistele või heale raamatupidamistavale (GAAP) nõutav. Lisateavet vt teemast [Finantsaruande valuutavõimalused](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Mitut tüüpi valuutakursse on olemas?
+
+Neid on kolme tüüpi.
+
+- **Praegune kurss** – seda tüüpi kasutatakse tavaliselt bilansikontodel. Seda nimetatakse tavaliselt *hetkekursiks* ja see võib olla kuu viimase päeva või mõne muu eelnevalt määratud kuupäeva kurss.
+- **Keskmine kurss** – seda tüüpi kasutatakse tavaliselt kasumiaruande (kasumi/kahjumi) kontodel. Saate keskmise kursi määrata nii, et see oleks lihtne keskmine või kaalutud keskmine.
+- **Ajalooline kurss** – seda tüüpi kasutatakse tavaliselt jaotamata kasumi, kinnisvara, seadmete ja omakapitali kontode puhul. Need kontod võivad olla FASB või GAAP suuniste kohaselt nõutavad.
+
+## <a name="how-does-historical-currency-translation-work"></a>Kuidas ajalooline valuutateisendus toimib?
+
+Kursid kehtivad kandekuupäeva kohta. Seetõttu teisendatakse iga kanne eraldi, lähtudes lähimast vahetuskursist.
+
+Ajaloolise valuutateisenduse puhul võidakse üksikute kande üksikasjade asemel kasutada eelnevalt arvutatud perioodisaldosid. Selline käitumine erineb praeguse kursiga teisendamise käitumisest.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Kuidas mõjutab ajalooline valuutateisendus jõudlust?
+
+Aruannetes esitatud andmete värskendamisel võib ilmneda viivitus, kuna summad tuleb kande üksikasjade kontrollimise teel ümber arvutada. See viivitus käivitatakse iga kord, kui kursse värskendatakse või sisestatakse rohkem kandeid. Kui ajalooliseks teisendamiseks seadistatakse paar korda päevas tuhandeid kontosid, võib aruande andmete värskendamine viibida kuni tund aega. Teisest küljest, kui konkreetsete kontode arv on väiksem, võib aruande andmete värskenduste töötlemisaeg lüheneda minutitele või lühemaks.
+
+Samamoodi, kui aruanded genereeritakse ajaloolist tüüpi kontode valuutateisenduse abil, tehakse täiendavaid kandepõhiseid arvutusi. Olenevalt kontode arvust võib aruande genereerimise aeg olla enam kui kaks korda pikem.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
