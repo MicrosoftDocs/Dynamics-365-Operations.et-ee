@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716488"
 ---
 # <a name="rebate-management-deals"></a>Tagasimaksehalduse tehingud
 
@@ -102,6 +102,7 @@ Kui olete loonud tehingu eelmises jaotises kirjeldatud viisil, saate selle avada
         - *Kõik* – tehingu ridarakendub kõikidele üksustele.
 
     - **Üksuse suhe** – kui valisite väljal *Üksuse kood* suvandi **Tabel**, siis valige üksus, millele tehingu rida rakendub. Valiku *Grupp* korral valige kaubagrupp. See väli ei ole saadaval, kui valisite *Kõik*.
+    - **Ühiku tüüp** – valige tehingureale rakendatava ühiku tüüp ( *laoühik* või *tegeliku kaalu ühik*). Pange tähele, et see väli võib olla vanemate kirjete puhul tühi. Sel juhul eeldatakse *varude ühiku* väärtust.
     - **(Varude halduse parameetrid)** – määrake tehingu rea ülejäänud väljadel varude halduse parameetrite väärtused, mida kasutatakse tehingusse kaasatud kaupade määramiseks (nt kauba suurus, värv, stiil, piirkond ja ladu). Dimensioonide lisamiseks või eemaldamiseks valige tegevuspaanil **Kuva dimensioonid**.
 
 1. Valige toimingupaanil nupp **Salvesta**.
