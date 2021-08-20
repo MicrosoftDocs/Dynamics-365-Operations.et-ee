@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773533"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 Supply Chain Management versioonis 10.0.19 (juuni 2021)
 
@@ -35,6 +35,7 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 
 | Funktsiooniala | Funktsioon | Lisateave |
 |---|---|---|
+| Varud&nbsp;ja&nbsp;logistika | [Müüja edastatud panga üksikasjade kinnitamine ja salvestamine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Hankija pangakonto teabe haldamine](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Varud ja logistika | [Kontaktisiku andmeüksuse ekspordi optimeerimine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Kui see on lubatud, ei põhjusta viidatud andmete muudatused seotud müügitellimuste (või ridade) kaasamist järgmisse astmelisse eksporti. Kui see funktsioon on keelatud, kaasatakse viidatud andmete muudatustega seotud kontaktid järgmisse täiendavasse eksporti. |
 | Varud ja logistika | [Lao käivitamisvõimaluste astmelised täiustused koos skaalaüksustega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Sõnumi töötleja sõnumid](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Laovarude korrigeerimine](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Varud ja logistika | [Müügipakkumise lehel dokumendi sissejuhatuse ja dokumendi lõppväljade otsingufunktsioonid](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | See funtsiooni lisab otsingufunktsioonide **Dokumendi sissejuhatus** ja **Dokumendi järeldus** väljal **Müügipakkumiste** lehel.<br><br>Funktsioon on vaikimisi lubatud. |

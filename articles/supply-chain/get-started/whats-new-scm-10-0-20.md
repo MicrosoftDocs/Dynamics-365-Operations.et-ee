@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773509"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
 
@@ -47,7 +47,6 @@ Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Iga
 
 | Funktsiooniala | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
 |---|---|---|
-| Koondplaneerimine | Planeerimise optimeerimise negatiivsed päevad | See funktsioon võimaldab Planning Optimization arvestada viivituse kõikumisega, mis põhineb **Negatiivsetel päevadel** gruppides määratletud parameetril. |
 | Koondplaneerimine | Korrigeeritud nõudluse prognoosi paralleelne lubamine | See funktsioon võimaldab korrigeeritud nõudluse prognoosi paralleelset lubada **Korrigeeritud nõudluse prognoosiks** lehel. Selle funktsiooni eesmärk on suurendada jõudlust suure arvu eelarvete autoriseerimisel. Autoriseerimisel saab kasutaja autoriseerimise dialoogis määrata **Lõimede arvu**. |
 | Koondplaneerimine | (Eelversioon) Plaanitud hulgi- ja partiina tellimuste partiideks jaotatud kinnitamine ja konsolideerimine | See funktsioon võimaldab teil planeeritud hulgi- ja partiidena tellimuste kinnitamiseks ja konsolideerimiseks kasutada pakett-töid. |
 | Tootmise juhtimine | Kopeeri üldised marsruudid | See funktsioon parandab kopeerimisprotsessi funktsiooni, et lubada kasutajatel kopeerida protsesse, mis pole kaubapõhised. See võimaldab süsteemil värskendada kogu asjakohast teavet (nt sait, protsessigrupp, ressursinõuded ja erinevad ajad) pärast seda, kui kopeerimisprotsessi funktsiooni on kasutatud kaubale veel määramata protsessi ülekirjutamiseks. |
