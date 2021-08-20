@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780670"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Pilv- ja perimeeterskaalaüksused tootmis- ja laohaldustöökoormuste jaoks
 
@@ -102,7 +102,7 @@ Praegune tootmiskeskkond peab olema märgitud LCS-is **iseteenindus** tüübiga.
 > [!IMPORTANT]
 > Keskkonnatüüpe, mis töötavad infrastruktuuri teenusena (IaaS), ei toetata. Need keskkonnad on tavaliselt sildistatud LCS-is tüübiga **Microsofti hallatud**. Kui teil on seda tüüpi keskkondi, tehke oma Microsofti kontaktiga koostööd, et mõista oma **iseteeninduse** tüübile ülemineku migreerumise ajaskaalat.
 
-Microsoft on üle minemas kõigile Supply Chain Management pilvekeskkondadele IaaS-mudelilt topoloogiale, mida majutatakse asukohas Service Fabric. See samm toob kaasa parema skaleeritavuse ja aitab muuta teenusehalduse lihtsamaks. Seetõttu on juurutamine ja hooldustoimingud kiiremad. Lisaks viiakse teenuse komponendid üle mikroteenuste kontseptsioonile ja teenuse hostimise mudel [läheb](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) virtuaalse masina (VM) mudelilt üle kergele konteinerarhitektuurile.
+Microsoft on üle minemas kõigile Supply Chain Management pilvekeskkondadele IaaS-mudelilt topoloogiale, mida majutatakse asukohas Service Fabric. See samm toob kaasa parema skaleeritavuse ja aitab muuta teenusehalduse lihtsamaks. Seetõttu on juurutamine ja hooldustoimingud kiiremad. Lisaks viiakse teenuse komponendid üle mikroteenuste kontseptsioonile ja teenuse hostimise mudel [läheb](/virtualization/windowscontainers/about/containers-vs-vm) virtuaalse masina (VM) mudelilt üle kergele konteinerarhitektuurile.
 
 Lõppkokkuvõttes toidab sama Service Fabricil põhinev konteinerteenuse infrastruktuur nii teenuse pilve- kui ka servaeksemplare, olenemata sellest, kas eksemplar on pilvejagu või mastaabiühik pilves või pilveservas.
 
