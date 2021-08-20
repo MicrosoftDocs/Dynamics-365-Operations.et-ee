@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine
 description: Selles teemas kirjeldatakse, kuidas hallata Dynamics 365 Finance'i lahenduse elektroonilise aruandluse (ER) konfiguratsioonide elutsüklit.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767775"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine
 
@@ -82,20 +82,34 @@ Arenduskeskkonnas kujundatud ER-i konfiguratsioone saab [üles laadida](#data-pe
 
 ![ER-i konfiguratsiooni elutsükkel.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Andmete püsivuse kaalutlus
+## <a name="data-persistence-consideration"></a>Andmete püsivuse kaalutlus
 
 ER-i [konfiguratsiooni](general-electronic-reporting.md#Configuration) [versioone](general-electronic-reporting.md#component-versioning) saate eraldi [importida](tasks/er-import-configuration-lifecycle-services.md)oma Finance'i instantsile. ER-konfiguratsiooni uue versiooni importimisel kontrollib süsteem selle konfiguratsiooni mustandi versiooni sisu.
 
-   - Kui imporditud versioon on praeguse Finance instantsi selle konfiguratsiooni kõrgeimast versioonist madalam, jääb selle konfiguratsiooni mustandi versiooni sisu samaks.
-   - Kui imporditud versioon on praeguse Finance instantsi selle konfiguratsiooni mis tahes muust versioonist kõrgem, kopeeritakse imporditud versiooni sisu selle konfiguratsiooni mustandiversiooni, et saate jätkata viimati lõpetatud versiooni redigeerimist.
+- Kui imporditud versioon on praeguse Finance instantsi selle konfiguratsiooni kõrgeimast versioonist madalam, jääb selle konfiguratsiooni mustandi versiooni sisu samaks.
+- Kui imporditud versioon on praeguse Finance instantsi selle konfiguratsiooni mis tahes muust versioonist kõrgem, kopeeritakse imporditud versiooni sisu selle konfiguratsiooni mustandiversiooni, et saate jätkata viimati lõpetatud versiooni redigeerimist.
 
 Kui see konfiguratsioon kuulub praegu aktiveeritud konfiguratsiooni [pakkujale](general-electronic-reporting.md#Provider), on selle konfiguratsiooni mustandversioon teile nähtav **lehe Konfiguratsioonid** kiirkaardil **Versioonid** (**Organisatsiooni administreerimine** > **Elektroonne aruandlus** > **Konfiguratsioonid**). Saate valida konfiguratsiooni mustandiversioon ja selle sisu [muuta](er-quick-start2-customize-report.md#ConfigureDerivedFormat) kasutades vastavat ER-i kujundajat. Kui olete redigeerinud ER-i konfiguratsiooni mustandversiooni, ei vasta selle sisu enam selle konfiguratsiooni kõrgeima versiooni sisule praeguses Finance instantsis. Muudatuste kaotsimineku vältimiseks kuvab süsteem tõrke, et importimine ei saa jätkuda, kuna selle konfiguratsiooni versioon on praeguse Finance instantsi selle konfiguratsiooni kõrgeimast versioonist kõrgem. Kui see juhtub, näiteks vormingu konfiguratsiooni **X** puhul, kuvatakse **vormingu "X" versioon ei ole lõpule viidud** tõrge.
 
 Mustandiversioonis tehtud muudatuste tagasivõtmiseks valige kiirkaardil **Versioonid** oma ER-konfiguratsiooni kõrgeim lõpetatud või ühiskasutusega versioon rahanduses ja seejärel valige suvand **Hangi see versioon**. Valitud versiooni sisu kopeeritakse mustandversiooni.
 
+## <a name="applicability-consideration"></a>Kohaldatavuse kaalumine
+
+Kui kujundate ER-konfiguratsiooni uut versiooni, saate määrata selle [sõltuvuse](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) teistest tarkvarakomponentidest. Seda toimingut peetakse eeltingimuseks konfiguratsiooni versiooni allalaadimise kontrollimiseks ER-i hoidlast või välist XML -faili ja selle versiooni edasiseks kasutamiseks. Kui proovite importida ER-i konfiguratsiooni uut versiooni, kasutab süsteem konfigureeritud eeltingimusi versiooni importimise otstarbel.
+
+Mõnel juhul võite nõuda, et süsteem ignoreeriks konfigureeritud eeltingimusi ER-i konfiguratsioonide uute versioonide importimisel. Et süsteem ignoreeriks importimise ajal eeltingimusi, järgige neid samme.
+
+1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
+2. Valige lehe **Konfiguratsioonid** toimingupaani vahekaardi **Konfiguratsioonid** grupist **Täpsemad sätted** valik **Kasutaja parameetrid**.
+3. Seadke valiku **Jäta toote värskendused ja versiooni eeltingimuse kontroll importimise ajal vahele** valikule **Jah**.
+
+    > [!NOTE]
+    > See parameeter on kasutajakohane ja ettevõttekohane.
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
+[ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 description: See teema kirjeldab, kuidas konfigureerida elektroonilist arveldust Dynamics 365 teenuses Regulatory Configuration Services (RCS)-is.
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075139"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757970"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 
@@ -46,21 +46,13 @@ Funktsioonid toetavad ka olukordi, kus on nõutav vastavus failivormingu spetsif
 
 Lõpuks toetavad need funktsioonid sõnumite vahetust väliste veebiteenustega, mida majutab maksuamet või mõni volitatud osapool, ning autoriseerimistaotlusi või kinnitustemplit elektroonilisel arvel.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Elektroonilise arvelduse funktsioonide saadavus
+## <a name="availability-of-electronic-invoicing-features"></a>Elektroonilise arvelduse funktsioonide saadavus
 
 Elektroonilise arvelduse funktsioonide saadavus oleneb riigist või regioonist. Kuigi mõned funktsioonid on üldiselt saadaval, on teised saadaval eelvaateversioonis.
 
-#### <a name="generally-available-features"></a>Saadaolevad üldfunktsioonid
+### <a name="generally-available-features"></a>Saadaolevad üldfunktsioonid
 
 Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on üldiselt saadaval.
-
-| Riik/regioon | Funktsiooni nimi                         | Äridokument |
-|----------------|--------------------------------------|-------------------|
-| Egiptus          | Egiptuse elektrooniline arve (EG) | Müügi- ja projektiarved |
-
-#### <a name="preview-features"></a>Eelvaatefunktsioonid
-
-Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on praegu saadaval eelvaateversioonis.
 
 | Riik/regioon | Funktsiooni nimi                         | Äridokument |
 |----------------|--------------------------------------|-------------------|
@@ -68,29 +60,39 @@ Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on praeg
 | Belgia        | Belgia elektrooniline arve (BE)      | Müügi- ja projektiarved |
 | Brasiilia         | Brasiilia NF-e (BR)                  | Finantsdokumendi mudel 55, paranduskirjad, tühistamised ja tagasilükkamised |
 | Brasiilia         | Brasiilia NFS-e ABRASF Curitiba (BR) | Teenuste finantsdokumendid |
+| Brasiilia         | Brasiilia NF-e import meilist (BR) | Rahandusdokumentide 55. mudel |
 | Taani        | Taani elektrooniline arve (DK)       | Müügi- ja projektiarved |
+| Egiptus          | Egiptuse elektrooniline arve (EG)     | Müügi- ja projektiarved |
 | Eesti        | Eesti elektrooniline arve (EE)     | Müügi- ja projektiarved |
 | Soome        | Soome elektrooniline arve (FI)      | Müügi- ja projektiarved |
 | Prantsusmaa         | Prantsusmaa elektrooniline arve (FR)       | Müügi- ja projektiarved |
 | Saksamaa        | Saksamaa elektrooniline arve (DE)       | Müügi- ja projektiarved |
 | Itaalia          | FatturaPA (IT)                       | Müügi- ja projektiarved |
-| Mehhiko         | Mehhiko CFDI (MX)                    | Müügiarved, saatelehed, varude üleviimised, maksetoetused ja tühistamised |
 | Holland    | Hollandi elektrooniline arve (NL)        | Müügi- ja projektiarved |
 | Norra         | Norra elektrooniline arve (NO)    | Müügi- ja projektiarved |
 | Hispaania          | Hispaania elektrooniline arve (ES)      | Müügi- ja projektiarved |
 | Euroopa         | PEPPOL-i elektrooniline arve            | PEPPOL-i müügi- ja projektiarved |
+| Euroopa         | PEPPOL hankija arve                | PEPPOL impordi hankijaarved |
+
+### <a name="preview-features"></a>Eelvaatefunktsioonid
+
+Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on praegu saadaval eelvaateversioonis.
+
+| Riik/regioon | Funktsiooni nimi                         | Äridokument |
+|----------------|--------------------------------------|-------------------|
+| Mehhiko         | Mehhiko CFDI (MX)                    | Müügiarved, saatelehed, varude üleviimised, maksetoetused ja tühistamised |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Elektroonilise arvelduse funktsioonide konfigureeritavad komponendid
 
 Elektroonilise arvelduse funktsioonid hõlmavad järgmisi konfigureeritavate komponentide gruppe.
 
-- **Vormingud** – vormingud võimaldavad teil konfigureerida, mida elektroonilise arvelduse lisandmoodul peab genereerima, kui elektroonilisest dokumendist saab elektrooniline arve. Vormingud hõlmavad elektroonilise arve ning nende failide ja sõnumite vormingu konfiguratsiooni, mida kasutatakse taotluste esitamiseks ning vastuste saamiseks, kui nõutav on suhtlus välise veebiteenusega.
-- **Tegevused** – tegevused võimaldavad teil konfigureerida, kuidas elektroonilise arvelduse lisandmoodul genereerib teenuste Finance ja Supply Chain Management esitatud elektroonilise dokumendi teisendamise elektrooniliseks arveks.
-- **Kohaldatavusreeglid** – kohaldatavusreeglid võimaldavad teil konfigureerida konteksti, mida elektroonilise arvelduse lisandmoodul peab elektroonilise arvelduse funktsiooni töötlemiseks arvestama.
-- **Muutujad** – muutujad võimaldavad teil konfigureerida konfiguratsiooniloogika koostamise tuge. Muutujaid saab kasutada väärtuste sisendina konkreetse tegevuse sooritamiseks. Teise võimalusena saab neid kasutada väärtuste vahetajana teenuste Finance ja Supply Chain Management ning elektroonilise arvelduse lisandmooduli vahel.
-- **Elektroonilise dokumendi mudelivastendus** – elektroonilise dokumendi mudelivastendus võimaldab teil konfigureerida ER-i mudelivastendust. Mudelivastendus määratleb elektrooniliste dokumentide esitamise ajal elektroonilise arvelduse lisandmoodulisse integreeritava abstraktse arve andmevastenduse.
-- **Arve kontekstimudel** – arve kontekstimudel võimaldab teil konfigureerida ER-i arve kontekstimudelit ja määratleda elektroonilise arvelduse funktsiooni konteksti.
-- **Vastuse tüübid** – vastuse tüübid võimaldavad teil konfigureerida, mida elektroonilise arvelduse lisandmoodul peab teenustes Finance ja Supply Chain Management elektroonilise arve töötlemise tulemusena värskendama.
+- **Vormingud**: vormingud võimaldavad teil konfigureerida, mida elektroonilise arvelduse lisandmoodul peab genereerima, kui elektroonilisest dokumendist saab elektrooniline arve. Vormingud hõlmavad elektroonilise arve ning nende failide ja sõnumite vormingu konfiguratsiooni, mida kasutatakse taotluste esitamiseks ning vastuste saamiseks, kui nõutav on suhtlus välise veebiteenusega.
+- **Tegevused**: tegevused võimaldavad teil konfigureerida, kuidas elektroonilise arvelduse lisandmoodul genereerib teenuste Finance ja Supply Chain Management esitatud elektroonilise dokumendi teisendamise elektrooniliseks arveks.
+- **Kohaldatavusreeglid**: kohaldatavusreeglid võimaldavad teil konfigureerida konteksti, mida elektroonilise arvelduse lisandmoodul peab elektroonilise arvelduse funktsiooni töötlemiseks arvestama.
+- **Muutujad**: muutujad võimaldavad teil konfigureerida konfiguratsiooniloogika koostamise tuge. Muutujaid saab kasutada väärtuste sisendina konkreetse tegevuse sooritamiseks. Teise võimalusena saab neid kasutada väärtuste vahetajana teenuste Finance ja Supply Chain Management ning elektroonilise arvelduse lisandmooduli vahel.
+- **Elektroonilise dokumendi mudelivastendus**: elektroonilise dokumendi mudelivastendus võimaldab teil konfigureerida ER-i mudelivastendust. Mudelivastendus määratleb elektrooniliste dokumentide esitamise ajal elektroonilise arvelduse lisandmoodulisse integreeritava abstraktse arve andmevastenduse.
+- **Arve kontekstimudel**: arve kontekstimudel võimaldab teil konfigureerida ER-i arve kontekstimudelit ja määratleda elektroonilise arvelduse funktsiooni konteksti.
+- **Vastuse tüübid**: vastuse tüübid võimaldavad teil konfigureerida, mida elektroonilise arvelduse lisandmoodul peab teenustes Finance ja Supply Chain Management elektroonilise arve töötlemise tulemusena värskendama.
 
 ### <a name="formats"></a>Vormingud
 
@@ -204,10 +206,10 @@ Järgmises tabelis on toodud saadaolevad tegevused ja see, kas need on praegu ü
 | Tegevus                                        | Kirjeldus                                                                  | Kättesaadavus         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Teisenda dokument                            | Käivitage dokumendi teisendamiseks elektroonilise aruandluse vorming.                   | Üldiselt saadaval  |
-| XML-dokumendi allkirjastamine                             | Digiallkirjastage XML-dokumente.                                   | Eelvaates           |
+| XML-dokumendi allkirjastamine                             | Digiallkirjastage XML-dokumente.                                   | Üldiselt saadaval  |
 | Egiptuse maksuameti JSON-dokumendi allkirjastamine | Digiallkirjastage Egiptuse maksuameti jaoks JSON-dokumente.       | Üldiselt saadaval  |
 | Egiptuse ETA teenusega integreerimine           | Suhelge Egiptuse maksuametiga.                                     | Üldiselt saadaval  |
-| Brasiilia SEFAZ teenuse kutsumine                  | Integreerige finantsdokumendi edastamiseks Brasiilia SEFAZ teenusega.       | Eelvaates           |
+| Brasiilia SEFAZ teenuse kutsumine                  | Integreerige finantsdokumendi edastamiseks Brasiilia SEFAZ teenusega.       | Üldiselt saadaval  |
 | Mehhiko PAC teenuse kutsumine                      | Integreerige CFDI edastamiseks Mehhiko PAC teenusega.                      | Eelvaates           |
 | Töötle vastust                              | Analüüsige veebiteenuse kutsumise kaudu saadud vastust.                     | Üldiselt saadaval  |
 | MS-i teenuse Power Automate kasutamine                         | Integreeri vooga sisseehitatud Microsoft Power Automate.                       | Eelvaates           |

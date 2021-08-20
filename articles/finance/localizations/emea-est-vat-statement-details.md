@@ -14,12 +14,12 @@ ms.search.region: Estonia
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 653945968157b25326aca00eeffdeb7c262095ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 442309db43d6f154cccf48e49c3026ab57856f85e2c850613811c01364840e39
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779356"
 ---
 # <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 

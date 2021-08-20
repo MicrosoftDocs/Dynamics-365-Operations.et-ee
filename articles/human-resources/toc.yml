@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 26. juuli 2021
+          href: hr-whats-new-2021-07-26.md
         - name: 12. juuli 2021
           href: hr-whats-new-2021-07-12.md
         - name: 22. juuni 2021
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 21. jaanuar 2021
           href: hr-whats-new-2021-01-21.md
-        - name: 2. detsember 2020
-          href: hr-whats-new-2020-12-02.md
-        - name: 22. oktoober 2020
-          href: hr-whats-new-2020-10-22.md
-        - name: 6. oktoober 2020
-          href: hr-whats-new-2020-10-06.md
-        - name: 26. september 2020
-          href: hr-whats-new-2020-09-26.md
-        - name: 16. september 2020
-          href: hr-whats-new-2020-09-16.md
-        - name: 3. september 2020
-          href: hr-whats-new-2020-09-03.md
-        - name: 20. august 2020
-          href: hr-whats-new-2020-08-20.md
-        - name: 6. august 2020
-          href: hr-whats-new-2020-08-06.md
-        - name: 23. juuli 2020
-          href: hr-whats-new-2020-07-23.md
-        - name: 8. juuli 2020
-          href: hr-whats-new-2020-07-08.md
-        - name: 25. juuni 2020
-          href: hr-whats-new-2020-06-23.md
-        - name: 11. juuni 2020
-          href: hr-whats-new-2020-06-11.md
-        - name: 28. mai 2020
-          href: hr-whats-new-2020-05-28.md
-        - name: 14. mai 2020
-          href: hr-whats-new-2020-05-14.md
-        - name: 1. mai 2020
-          href: hr-whats-new-2020-05-01.md
         - name: Mis on uut arhiivides 2020?
           items:
+            - name: 2. detsember 2020
+              href: hr-whats-new-2020-12-02.md
+            - name: 22. oktoober 2020
+              href: hr-whats-new-2020-10-22.md
+            - name: 6. oktoober 2020
+              href: hr-whats-new-2020-10-06.md
+            - name: 26. september 2020
+              href: hr-whats-new-2020-09-26.md
+            - name: 16. september 2020
+              href: hr-whats-new-2020-09-16.md
+            - name: 3. september 2020
+              href: hr-whats-new-2020-09-03.md
+            - name: 20. august 2020
+              href: hr-whats-new-2020-08-20.md
+            - name: 6. august 2020
+              href: hr-whats-new-2020-08-06.md
+            - name: 23. juuli 2020
+              href: hr-whats-new-2020-07-23.md
+            - name: 8. juuli 2020
+              href: hr-whats-new-2020-07-08.md
+            - name: 25. juuni 2020
+              href: hr-whats-new-2020-06-23.md
+            - name: 11. juuni 2020
+              href: hr-whats-new-2020-06-11.md
+            - name: 28. mai 2020
+              href: hr-whats-new-2020-05-28.md
+            - name: 14. mai 2020
+              href: hr-whats-new-2020-05-14.md
+            - name: 1. mai 2020
+              href: hr-whats-new-2020-05-01.md
             - name: 13. aprill 2020
               href: hr-whats-new-2020-04-13.md
             - name: 3. aprill 2020
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Puhkusetaotlus
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Soodustustega seotud olemid
+              items:
+                - name: Palgaarvestuse töötaja soodustusplaan
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Suvandikomplektid
               items:
                 - name: Sugu
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: Protsessi tüüp
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: Soodustusplaani tüübi kate
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Soodustuse töötaja plaani olek
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: Kasutusjuhend
       items:
         - name: Ülevaade

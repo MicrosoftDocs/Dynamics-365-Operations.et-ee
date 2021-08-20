@@ -2,7 +2,7 @@
 title: ER-i sihtkoha tüübi e-post
 description: Selles teemas selgitatakse, kuidas konfigureerida meilisihtkohta iga elektroonilise aruandluse (ER) vormingu komponendi FOLDER või FILE jaoks.
 author: NickSelin
-ms.date: 12/03/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769315"
 ---
 # <a name="email-er-destination-type"></a>ER-i sihtkoha tüübi e-post
 
@@ -42,23 +42,43 @@ Samuti saate [rühmitada](#grouping) mitu komponenti **Kaust** või **Fail** kok
 
 Ühe ER-i vormingu konfiguratsiooni jaoks saab konfigureerida mitu komponentide gruppi. Sel viisil saate konfigureerida meili sihtkoha iga komponentide grupi ja meili sihtkoha iga komponendi jaoks.
 
-## <a name="configure-an-email-destination"></a>Meili sihtkoha konfigureerimine
+## <a name="enable-an-email-destination"></a>Meili sihtkoha lubamine
 
-Väljundfaili või mitme väljundfaili meili teel saatmiseks valige lehe **Elektroonilise aruandluse sihtkoht** kiirkaardil **Faili sihtkoht** ruudustiku komponent või komponentide grupp ja seejärel valige **Sätted**. Kuvatava dialoogiboksi **Sihtkoha sätted** vahekaardil **Meil** määrake suvandi **Lubatud** väärtuseks **Jah**. Seejärel saate määrata meili adressaadid ning redigeerida meilisõnumi teemat ja kehateksti. Saate kas seadistada meilide teema ja kehateksti jaoks püsiteksti või kasutada meilitekstide loomiseks elektroonilise aruandluse [valemeid](er-formula-language.md), et dünaamiliselt luua meilitekste.
+Ühe või mitme väljundfaili saatmiseks meiliga järgige neid samme.
 
-Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsioon seda lõpule viib, või saate meiliaadressi lahendada, kasutades viitena ER konfiguratsioonile valemi kaudu.
+1. Vormingu komponentide rühmitamiseks lehel **Elektroonilise aruandluse sihtkoht** kiirkaardil **Faili sihtkoht** valige ruudustikus komponendid või komponentide grupp.
+2. Valige **Sätted** ja seejärel dialoogiboksi **Sihtkoha sätted** vahekaardil **E-kiri** määrake suvandi **Lubatud** väärtuseks **Jah**.
 
 [![Meili sihtkoha jaoks suvandi Lubatud määramine väärtusele Jah.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
+## <a name="configure-an-email-destination"></a>Meili sihtkoha konfigureerimine
+
+Saate määrata e-kirja saatja ja adressaadid ning muuta e-kirja teemat ja sisu. Saate seadistada e-kirja teema ja kehateksti jaoks püsiteksti või kasutada e-kirjade dünaamiliseks loomiseks elektroonilise aruandluse [valemeid](er-formula-language.md).
+
+Vaikimisi saadetakse meil praeguse kasutaja nimel. Teise e -posti saatja määramiseks peate konfigureerima välja **Saatja**.
+
+> [!NOTE]
+> Kui meili sihtkoht on konfigureeritud, on väli **Saatja** nähtav ainult kasutajatele, kellel on `ERFormatDestinationSenderEmailConfigure` turbeõigus, **Konfigureerige saatja meiliaadress ER-vormingu sihtkohtade** jaoks.
+>
+> Kui e-posti sihtkohta pakutakse muutmiseks aadressil [käitamine](electronic-reporting-destinations.md#security-considerations) on väli **Saatja** nähtav ainult kasutajatele, kellel on turbeõigus `ERFormatDestinationSenderEmailMaintain`, **Säilita saatja e-posti aadress ER-vormingus sihtkoha jaoks**.
+>
+> Kui väli **Saatja** on konfigureeritud kasutama muud e-posti aadressi kui praegune kasutaja, peab luba **Saada kui** või **Saada nimel** luba olema õigesti [seadistatud](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) täiendavalt. Vastasel juhul ilmneb käitusajal järgmine erand: "Ei saa saata e-kirja aadressil \<from email account\> kontolt \<current user account\>, palun kontrollige luba "Saada kui aadressil \<from email account\>."
+
+Saate konfigureerida välja **Alates** tagastama rohkem kui ühte meiliaadressi. Sel juhul kasutatakse saatja e-posti aadressina loendi esimest aadressi.
+
+Meilisõnumi adressaatide määramiseks peate konfigureerima väljad **Adressaat** ja **Koopia** (valikuline).
+
+Elektroonilise aruandluse meiliaadresside konfigureerimiseks on kaks võimalust. Konfiguratsiooni saab lõpule viia samamoodi, nagu prindihalduse funktsioon seda lõpule viib, või saate meiliaadressi lahendada, kasutades viitena ER konfiguratsioonile valemi kaudu.
+
 ## <a name="email-address-types"></a>Meiliaadressi tüübid
 
-Kui valite suvandi **Redigeeri** välja **Saaja** või **Koopia** juurdes dialoogiboksis **Sihtkoha sätted**, kuvatakse dialoogiboks **Meili saaja**. Valige käsk **Lisa** ja seejärel valige kasutatava meiliaadressi tüüp. Praegu toetatakse kahte tüüpi: **Prindihalduse meiliaadress** ja **Konfigureerimismeil**.
+Kui valite suvandi **Redigeeri** välja **Saatja**, **Saaja** või **Koopia** juurdes dialoogiboksis **Sihtkoha sätted**, kuvatakse dialoogiboks **E-kirja saatja**, **E-kirja saaja** või **E-kirja koopia**. Seal saate konfigureerida e-kirja saatja ja e-kirja adressaadid. Valige käsk **Lisa** ja seejärel valige kasutatava meiliaadressi tüüp. Praegu toetatakse kahte tüüpi: **Prindihalduse meiliaadress** ja **Konfigureerimismeil**.
 
 [![Meiliaadressi tüübi valimine.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Prindihalduse meiliaadress
 
-Kui valite meiliaadressi tüübiks **Prindihalduse meiliaadress**, saate sisestada dialoogiboksi **Meili adressaat** parandatud meiliaadressid, seadistades järgmised väljad.
+Kui valite meiliaadressi tüübiks **Prindihalduse meiliaadress**, saate sisestada dialoogiboksi **E-kirja saatja**, **E-kirja saaja** või **E-kirja koopia** dialoogiboksi, seadistades järgmised väljad:
 
 - Valige väljal **Meilisõnumi allikas** suvand **Puudub**.
 - Sisestage parandatud meiliaadressid väljale **Täiendavad meiliaadressid, eraldatud semikooloniga**.
@@ -74,6 +94,7 @@ Teise võimalusena saate hankida meiliaadresse selle osapoole kontaktandmetest, 
 - Kandidaat
 - Potentsiaalne hankija
 - Keelatud hankija
+- Juriidiline isik
 
 Näiteks meili sihtkoha konfigureerimiseks ER-i vormingus, mida kasutatakse hankija maksete töötlemiseks, valige roll **Hankija**.
 
@@ -106,7 +127,7 @@ Käitusajal kasutatava meiliaadressi tüübi määramiseks valige dialoogiboksis
 
 ### <a name="configuration-email"></a>Konfigureerimismeil
 
-Valige meiliaadressi tüübiks **Konfiguratsiooni meil**, kui teie kasutataval konfiguratsioonil on andmeallikate sõlm, mis annab tulemuseks ühe meiliaadressi või mitu meiliaadressi, mis on eraldatud semikoolonitega (;). Saate kasutada valemi kujundajas [andmeallikaid](general-electronic-reporting.md#FormatComponentOutbound) ja [funktsioone](er-formula-language.md#functions), et hankida õigesti vormindatud meiliaadress või õigesti vormindatud meiliaadressid, mis on semikoolonitega eraldatud. Näiteks, kui kasutate konfiguratsiooni **ISO 20022 kreediti edastamine**, siis sõlm, mis tähistab hankija esmast meiliaadressi hankija kontaktandmetest, kuhu kaaskiri tuleb saata, on `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Valige meiliaadressi tüübiks **Konfiguratsiooni meil**, kui teie kasutataval konfiguratsioonil on andmeallikate sõlm, mis annab tulemuseks ühe meiliaadressi või mitu meiliaadressi, mis on eraldatud semikoolonitega (;). Saate kasutada valemi kujundajas [andmeallikaid](general-electronic-reporting.md#FormatComponentOutbound) ja [funktsioone](er-formula-language.md#Functions), et hankida õigesti vormindatud meiliaadress või õigesti vormindatud meiliaadressid, mis on semikoolonitega eraldatud. Näiteks, kui kasutate konfiguratsiooni **ISO 20022 kreediti edastamine**, siis sõlm, mis tähistab hankija esmast meiliaadressi hankija kontaktandmetest, kuhu kaaskiri tuleb saata, on `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![Meiliaadressi allika konfigureerimine.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

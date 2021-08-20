@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ef556c44ac0241f19e9e1891fb3ce32294667827
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0218dd93440c3cd76f16ac954dd7956998873931444fa1334e7382a177ff3fc9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757191"
 ---
 # <a name="before-you-buy"></a>Enne ostmist
 
@@ -86,7 +86,7 @@ Lisaressursside nägemiseks vt.
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Neljas etapp: FastTrackiga tutvumine ja juurutuse plaanimine
 
-Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldud selleks, et aidata teil rakendusele Dynamics 365 sujuvalt ja kindlalt üle minna, et saaksite ettevõtte väärtust kiiremini realiseerida. Kui osalete FastTracki programmis, saate juhtnöörid parimate tavade ja edukate väljastuste plaanimise kohta. Samuti tutvute viisidega uute kasutajate lisamiseks ja võimaluste laiendamiseks teie oma tempos. Lisaks saate juurdepääsu Microsofti analüüsiressurssidele, mille eesmärk on tagada teie edu Dynamics 365-ga. Lisateabe saamiseks vt [Microsoft FastTrack](/dynamics365/fasttrack/).
+Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldud selleks, et aidata teil rakendusele Dynamics 365 sujuvalt ja kindlalt üle minna, et saaksite ettevõtte väärtust kiiremini kasvatada. Kui osalete FastTracki programmis, saate juhtnöörid parimate tavade ja edukate väljastuste plaanimise kohta. Samuti tutvute viisidega uute kasutajate lisamiseks ja võimaluste laiendamiseks teie oma tempos. Lisaks saate juurdepääsu Microsofti analüüsiressurssidele, mille eesmärk on tagada teie edu Dynamics 365-ga. Lisateabe saamiseks vt [Microsoft FastTrack](/dynamics365/fasttrack/).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Kui täiendate rakenduselt Dynamics AX 2012 või migreerite rakenduselt AX 2009
 

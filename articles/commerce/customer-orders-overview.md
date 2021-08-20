@@ -2,7 +2,7 @@
 title: Kassas (POS) olevad klienditellimused
 description: Selles teemas kirjeldatakse kassas (POS) olevaid klienditellimusi. Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755079"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Kassas (POS) olevad klienditellimused
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse kassas (POS) olevate klienditellimuste loomist ja haldamist. Klienditellimusi saab kasutada sellise müügi jäädvustamiseks, mille korral ostjad soovivad tooted hiljem või muust asukohast kätte saada või et kaup tarnitakse neile sobivale aadressile. 
+Selles teemas kirjeldatakse kassa (POS) rakenduses olevate klienditellimuste loomist ja haldamist. Klienditellimusi saab kasutada sellise müügi jäädvustamiseks, mille korral ostjad soovivad tooted hiljem või muust asukohast kätte saada või et kaup tarnitakse neile sobivale aadressile. 
 
 Mitmekanalilises kaubandusmaailmas pakuvad paljud jaemüüjad mitmesuguste toote- ja täitmisnõuete täitmiseks klienditellimuste ehk eritellimuste võimalust. Tüüpilised stsenaariumid on näiteks järgmised.
 
@@ -132,6 +132,10 @@ Võrgu- või kauplusekanalis loodud jaemüügitellimusi saab vastavalt vajadusel
 > [!IMPORTANT]
 > Kõiki jaemüügitellimusi ei saa kassa rakenduse kaudu redigeerida. Kõnekeskuse kanalis loodud tellimusi ei saa kassas redigeerida, kui kõnekeskuse kanali jaoks on sisse lülitatud säte [Tellimuse lõpetamise lubamine](./set-up-order-processing-options.md#enable-order-completion). Korrektseks maksete töötlemise tagamiseks tuleb kõnekeskuse kanalist pärinevaid tellimusi, mis kasutavad funktsiooni Tellimuse lõpetamise lubamine, redigeerida kõnekeskuse rakenduse kaudu Commerce'i peakontoris.
 
+> [!NOTE]
+> Soovitame teil mitte redigeerida kassas tellimusi ja pakkumisi, mille on loonud mittekõnekeskuse kasutaja Commerce peakorteris. Need tellimused ja hinnapakkumised ei kasuta Commerce'i hinnakujundusmootorit, nii et kui neid redigeeritakse müügikohas, maksab Commerce hinnakujundusmootor need uuesti.
+
+
 Versioonis 10.0.17 ja uuemates versioonides saavad kasutajad kassa rakenduse kaudu sobilikke tellimusi redigeerida, isegi kui tellimus on osaliselt täidetud. Täielikult arveldatud tellimusi ei saa siiski kassa kaudu redigeerida. Selle võimaluse lubamiseks lülitage tööruumis **Funktsioonihaldus** sisse funktsioon **Osaliselt täidetud tellimuste redigeerimine kassas**. Kui see funktsioon ei ole lubatud või kui kasutate versiooni 10.0.16 või varasemat versiooni, saavad kasutajad kassas klienditellimusi redigeerida ainult siis, kui tellimus on täielikult avatud. Peale selle, kui see funktsioon on lubatud, saate piirata, millised kauplused saavad osaliselt täidetud tellimusi redigeerida. Suvandit selle võimaluse keelamiseks konkreetsete kaupluste puhul saab konfigureerida kiirkaardi **Üldine** jaotise **Funktsiooniprofiil** kaudu.
 
 
@@ -142,7 +146,23 @@ Versioonis 10.0.17 ja uuemates versioonides saavad kasutajad kassa rakenduse kau
 5. Viige redigeerimisprotsess lõpule, valides maksmissuvandi.
 6. Redigeerimisprotsessist väljumiseks muudatusi salvestamata saate kasutada suvandit **Tühista kanne**.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Hinnakujunduse mõju tellimuste redigeerimisel
 
+Kui tellimused esitatakse müügikohas või Commerce e-commerce saidil, võtavad kliendid endale teatud summa. See summa sisaldab hinda ja võib sisaldada ka allahindlust. Kliendil, kes esitab tellimuse ja võtab hiljem kõnekeskusega ühendust, et seda tellimust muuta (nt lisada mõni muu kaup), on hinnaalandite sidumise suhtes kindlad ootused. Isegi kui olemasolevate tellimuseridade kampaaniahinnad on aegunud, eeldab klient, et algselt nendele ridadele rakendatud allahindlused jäävad kehtima. Kui aga tellimuse esialgsel vormistamisel allahindlust ei kehtinud, kuid sellest ajast alates on allahindlus jõustunud, ootab klient uue allahindluse rakendamist muudetud tellimusele. Vastasel juhul võib klient lihtsalt olemasoleva tellimuse tühistada ja seejärel luua uue tellimuse, kus uus hinnaaland rakendatakse. Nagu see stsenaarium näitab, tuleb säilitada hinnad ja allahindlused, millele kliendid on pühendunud. Samal ajal peab müügikoha ja kõnekeskuse kasutajatel olema paindlikkus müügitellimuse ridade hindade ja allahindluste ümberarvutamiseks vastavalt vajadusele.
+
+Tellimuste tagasikutsumisel ja redigeerimisel müügikohas loetakse olemasolevate tellimuseridade hinnad ja allahindlused "lukustatuks." Teisisõnu, need ei muutu isegi siis, kui mõned tellimuseread tühistatakse või neid muudetakse või lisatakse uusi tellimuseridu. Olemasolevate müügiridade hindade ja allahindluste muutmiseks peab müügikoha kasutaja valima **ümberarvutuse**. Seejärel eemaldatakse hinnalukk olemasolevatelt tellimuseridadelt. Kuid enne Commerce'i versiooni 10.0.21 välja andmist polnud see võimalus kõnekeskuses saadaval. Selle asemel põhjustasid tellimuseridade muudatused hindade ja allahindluste ümberarvutamise.
+
+Commerce versiooni 10.0.21 väljalaskes on saadaval uus funktsioon nimega **Takista kaubandustellimuste tahtmatut hinnaarvestust** tööruumis **Fuktsioonihaldus**. Vaikimisi on see funktsioon sisse lülitatud. Kui see on sisse lülitatud, on **lukustatud hinna** atribuut kõigi e-kaubanduse tellimuste jaoks saadaval. Pärast tellimuse hõivamise lõpuleviimist, mis tahes kanalilt esitatud tellimuste puhul, lubatakse see atribuut automaatselt (st ruut on märgitud) kõigi tellimuseridade jaoks. Seejärel välistab kaubanduse hinnakujundusmootor need tellimuseread kõigist hinna- ja allahindlusarvutustest. Seega, kui tellimust redigeeritakse, jäetakse tellimuseread vaikimisi hinnakujunduse ja allahindluse arvutamisest välja. Kõnekeskuse kasutajad saavad siiski keelata mis tahes tellimuserea atribuudi (st tühjendada märkeruudu) ja seejärel valida **ümberarvutamise**, et kaasata olemasolevad tellimuseread hinnakujundusarvutustesse.
+
+Isegi kui nad rakendavad olemasolevale müügireale käsitsi allahindlust, peavad kõnekeskuse kasutajad enne käsitsi allahindluse rakendamist keelama müügirea **lukustatud hinna** atribuudi.
+
+Kõnekeskuse kasutajad saavad keelata **Hind lukustatud** atribuudi hulgi, valides **Eemalda hinnalukk** grupis **Arvuta** vahekaardil **Müük** tegevuspaanil **Müügitellimus** lehel. Sellisel juhul eemaldatakse hinnalukk kõikidelt tellimuse ridadelt, v.a ridadelt, mida ei saa redigeerida (teisisõnu read, mille olek on **Osaliselt arveldatud** või **Arveldatud**). Seejärel pärast seda, kui tellimuse muudatused on lõpetatud ja edastatud, rakendatakse hinnalukk uuesti kõigile tellimuse ridadele.
+
+> [!IMPORTANT]
+> Kui funktsioon **Enneta soovimatut hinnakalkulatsiooni äritellimuste jaoks** on sisse lülitatud, eiratakse hinnakujundust töövoogude kaubanduslepingu hindamise seadistust. See tähendab, et kaubanduslelepingu hindamise dialoogiboksides ei ole jaotist **Hinnaga seotud**. Selline käitumine ilmneb, kuna nii kaubanduslelepingu hindamisseadistusel kui hinnaluku funktsioonil on sarnane eesmärk: soovimatute hinnamuutuste vältimiseks. Kaubanduslelepingu hindamise kasutajakogemus ei mahu hästi suurte tellimuste puhul, kus kasutajad peavad ümberhinnamiseks valima ühe või mitu tellimuse rida.
+
+> [!NOTE]
+> Atribuudi **Hind lukus** saab keelata ühe või mitme valitud rea puhul ainult siis, kui kasutatakse **kõnekeskuse** moodulit. Müügikoha käitumist ei muudeta. See tähendab, et müügikoha kasutaja ei saa valitud tellimuseridade hindu vabastada. Kuid nad saavad valida suvandi **Arvuta uuesti**, et eemaldada hinnalukk kõigilt olemasolevatelt tellimuseridadelt.
 
 ### <a name="cancel-a-customer-order"></a>Klienditellimuse tühistamine
 

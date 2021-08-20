@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db75b09f1ae1f83a88a5e5eaef0c8c1b8eab5901
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774457"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Kastiaruannete loomine ja nende lõppemine
 
@@ -36,7 +36,7 @@ Selle salvestise loomisel kasutati demoettevõtte USRT-i andmeid. See salvestis 
 4. Sisestage kuupäev väljale Alguskuupäev.
 5. Sisestage kuupäev väljale Lõpukuupäev.
 6. Klõpsake väljal Kanal otsingu avamiseks ripploendi nuppu.
-7. Valige puul suvand Contoso Retail\Contoso Retail USA\Central\Houston.
+7. Valige puul suvand 'Contoso Jaemüük\Contoso Jaemüük USA\Keskne\Houston'.
     * See näitab organisatsiooni vaikehierarhiat Commerce’i aruandluseks.   Minge jaotisse Organisatsioonihaldus > Organisatsioonid > Organisatsioonihierarhia eesmärgid, valige suvand Kaubanduse aruandlus ja kontrollige jaotises Määratud hierarhiad hierarhia nime, mille puhul on veerg Vaikimisi märgitud. Selle tegevuse salvestise jaoks kasutatud demoandmete osana märkate, et aruandluse jaoks on organisatsiooni vaikehierarhiaks valitud Kauplused piirkonniti.     
 8. Klõpsake nuppu OK.
 9. Valige suvand väljal Kuva.
@@ -48,7 +48,7 @@ Selle salvestise loomisel kasutati demoettevõtte USRT-i andmeid. See salvestis 
 2. Sisestage kuupäev väljale Alguskuupäev.
 3. Sisestage kuupäev väljale Lõpukuupäev.
 4. Klõpsake väljal Kanal otsingu avamiseks ripploendi nuppu.
-5. Valige puul suvand Contoso Retail\Contoso Retail USA\West\Seattle.
+5. Valige puul suvand 'Contoso Jaemüükl\Contoso Jaemüük USA\Lääs\Seattle'.
     * See näitab organisatsiooni vaikehierarhiat Commerce’i aruandluseks. Minge jaotisse Organisatsioonihaldus > Organisatsioonid > Organisatsioonihierarhia eesmärgid, valige suvand Kaubanduse aruandlus ja kontrollige jaotises Määratud hierarhiad hierarhia nime, mille puhul on veerg Vaikimisi märgitud. Selle tegevuse salvestise jaoks kasutatud demoandmete osana märkate, et aruandluse jaoks on organisatsiooni vaikehierarhiaks valitud Kauplused piirkonniti.     
 6. Klõpsake nuppu OK.
 7. Klõpsake nuppu OK.
