@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62ebe3d6ba1208bd5f9a2082969b1960c413c152
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722667"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Lähtedokumentide jaoks auditipoliitikate määratlemine
 
@@ -39,7 +39,7 @@ Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reeg
 11. Valige suvand **Uus**.
 12. Sisestage väärtus väljale **Nimi**.
 13. Laiendage jaotist **Poliitika organisatsioonid**.
-14. Puus valige **Contoso Meelelahutussüsteem USA**, seejärel valige **Lisa**.
+14. Puus valige **Contoso Meelelahutuse Süsteem USA**, seejärel valige **Lisa**.
 15. Puus valige **Contoso Nõustamine USA**, seejärel valige **Lisa**.
 16. Puus valige **Contoso Jaemüük USA**, seejärel valige **Lisa**.
 17. Ahendage jaotist **Poliitika organisatsioonid**.

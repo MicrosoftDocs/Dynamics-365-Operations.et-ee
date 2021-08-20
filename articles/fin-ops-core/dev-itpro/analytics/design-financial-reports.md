@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724439"
 ---
 # <a name="view-and-design-financial-reports"></a>Finantsaruannete vaatamine ja kujundamine
 
@@ -151,7 +151,7 @@ Selle harjutuse puhul muudate olemasolevat vaikearuannet. Lisate organisatsiooni
 4. Valige **Fail** &gt; **Salvesta nimega** ning pange aruande nimeks **Kõrvuti konsolideeritud bilanss ja kasumiaruanne**.
 5. Muutke baasaastaks 2012.
 6. Klõpsake puu tüübi rippnoolt ja valige suvand **Organisatsiooni hierarhiad**.
-7. Klõpsake puu tüübi rippnoolt ja valige suvand **Contoso Holdings**.
+7. Klõpsake puu tüübi rippnoolt ja valige suvand **Contoso Haldus**.
 8. Salvestage muudatused ja looge aruanne. Viipamisel valige kõik aruandlusüksused. Pärast aruande loomist ja avamist saate aruannet uurida.
 9. Valige suvand **Aruandevalikud**.
 10. Valige **Lisa dimensioonifilter** ja valige **Osakond**.

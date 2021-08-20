@@ -2,7 +2,7 @@
 title: Ostukorvi ikooni moodul
 description: See teema hõlmab ostukorvi ikooni moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9e3850d98e716d1bbea2017f6e8c9d75f19adc9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6637997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735674"
 ---
 # <a name="cart-icon-module"></a>Ostukorvi ikooni moodul
 
@@ -35,9 +35,14 @@ Järgmisel pildil on kuvatud näide ostukorvi ikooni moodulist, kus on kuvatud F
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 
-- **Kuva väike ostukorv** – kui on tõene, võimaldab see atribuut kuvada ostukorvi kokkuvõtte (väikese ostukorvi) hiire hõljutamisel ostukorvi ikooni kohal. Seda funktsiooni toetatakse ainult töölaua vaateportide korral.
+- **Kuva väike ostukorv** – kui see on **tõene**, võimaldab see atribuut kuvada ostukorvi kokkuvõtte (väikese ostukorvi) kliendi poolt hiire hõljutamisel ostukorvi ikooni kohal. Seda funktsiooni toetatakse ainult töölaua vaateportide korral.
+- **Luba anonüümne väljaregistreerimine** – kui selle atribuudi väärtuseks on seatud **Tõene** võimaldab see minikäru kasutajatel, kes pole sisse logitud, teha külaliste väljaregistreerimist. See atribuut on saadaval Commerce'i versiooni 10.0.21 väljalaske osana Commerce moodul teegi paketist.
+- **Kaupade järjekord** – see omadus reguleerib kaupade minikorvis kuvamise järjekorda. Kui valitud on suvand **Uued kaubad, mis on lisatud loendi ülaossa**, kuvatakse minikärude loendi ülaosas uued ostukorvi lisatud kaubad. Kui vaikimisi suvand on **Uued kaubad, mis on lisatud loendi alaossa**, kuvatakse minikärude loendi alaosas uued ostukorvi lisatud kaubad. See atribuut on saadaval Commerce'i versiooni 10.0.21 väljalaske osana Commerce moodul teegi paketist.
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Mooduli atribuudid Adventure Works teemas
+> [!IMPORTANT]
+> Luba **anonüümne väljaregistreerimine** ja **Üksuste järjestuse** atribuudid on saadaval alates Commerce versioon 10.0.21 väljalaskest. Need nõuavad Commerce mooduli teegi paketi versiooni 9.31 installimist.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Mooduli atribuudid ja pesad Adventure Works teemas
 
 Adventure Works teema kujunduses sisaldab ostukorvi ikoonimoodul kaht täiendavat pesa minikorvi jaoks. Need pesad lisatakse mooduli definitsiooni laiendina.
 

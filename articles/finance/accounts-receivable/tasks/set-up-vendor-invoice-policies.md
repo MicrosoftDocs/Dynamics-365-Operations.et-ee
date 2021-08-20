@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c088f6e3fea7c218cfd2108d0f279bccf1292772
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 339f52727b6f5a680f711cf4e6e0b8b0bc290853316fc2f2ff63164c8292d2d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728837"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Hankija arve poliitikate seadistamine
 
@@ -56,7 +56,7 @@ Selles teemas selgitatakse, kuidas seadistada tarnijate arvete poliitikat. Hanki
 2. Valige suvand **Uus**.
 3. Sisestage väärtused väljadele **Nimi** ja **Kirjeldus**.
 4. Laiendage või ahendage jaotist **Poliitika organisatsioonid**.
-5. Valige puust **Contoso Entertainment System USA**.
+5. Valige puul **Contoso Meelelahutuse Süsteem USA**.
 6. Valige **Lisa**.
 7. Laiendage või ahendage jaotist **Poliitika reeglid**.
 8. Valige **Poliitika reegli loomine**.

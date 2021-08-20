@@ -1,8 +1,8 @@
 ---
 title: Topeltkirjutuse häälestus teenustest Lifecycle Services
 description: Selles teemas selgitatakse, kuidas häälestada topeltkirjutuse ühendust teenusest Microsoft Dynamics Lifecycle Services (LCS).
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359359"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729039"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse häälestus teenustest Lifecycle Services
 
@@ -66,5 +66,18 @@ Olemasoleva keskkonna topeltkirjutuse Dataverse häälestamiseks peate looma Mic
 
 > [!NOTE]
 > LCS-i abil ei saa keskkondade linkimist tühistada. Keskkonna linkimise tühistamiseks avage tööruum **Andmete integratsioon** keskkonnas Finance and Operations ja seejärel valige käsk **Tühista linkimine**.
+
+## <a name="linking-mismatch"></a>Mittevastavuse linkimine
+
+On võimalik, et teie LCS-keskkond on lingitud ühe Dataverse eksemplariga, samas kui teie topeltkirjutuskeskkond on lingitud teise Dataverse eksemplariga. Selline seostamine võib põhjustada ootamatut käitumist ja see võib lõppeda andmete saatmisega valesse keskkonda. Topeltkirjutuse jaoks soovitatav keskkond on see, mis luuakse Power Platform integratsiooni ja pikaajalise integreerimise osana, see on ainus viis luua seos keskkondade vahel.
+
+Kui teie keskkonnas on seostatav lahknevus, kuvab LCS hoiatuse teie keskkonna üksikasjade lehel, mis on sarnane lingile "Microsoft tuvastas, et teie keskkond on topeltkirjutuse kaudu lingitud integratsioonis määratud erinevasse sihtkohta, mis pole rakenduses Power Platform soovitatav":
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform integratsioonilink on vasta.":::
+
+Kui ilmneb see tõrge, on teie vajadustest lähtuvalt kaks võimalust:
+
++ [Kahekordse kirjutamise keskkondade linkimise tühistamine ja uuesti linkimine (linkimise lähtestamine või muutmine)](relink-environments.md#scenario-reset-or-change-linking) nagu on määratud teie LCS-i keskkonna üksikasjade lehel. See on ideaalvalik, kuna saate seda käivitada ilma Microsoft`i toeta.  
++ Kui soovite linki topeltkirjutuses säilitada, võite paluda Microsoft`i tugiteenustelt abi, et muuta Power Platform integratsiooni, et kasutada olemasolevat Dataverse keskkonda vastavalt eelmises jaotises dokumenteeritud versioonile.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

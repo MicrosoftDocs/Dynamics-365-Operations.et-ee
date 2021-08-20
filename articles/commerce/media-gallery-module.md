@@ -2,7 +2,7 @@
 title: Meediumigalerii moodul
 description: See teema hõlmab meediumigalerii mooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733193"
 ---
 # <a name="media-gallery-module"></a>Meediumigaleriimoodul
 
@@ -56,6 +56,10 @@ Järgmisel illustratsioonil on toodud näide toote üksikasjade lehel olevast os
 | Pildid | Saidiehitaja meediumiteegist valitud pildid | Lisaks tootest tuletamisele saab pilte ka meediumigalerii mooduli jaoks valida. Need pildid lisatakse kõikide saadaolevate tootepiltide lõppu. See võimalus on saadaval Commerce'i versioonis 10.0.12. |
 | Pisipildi paigutus | **Vertikaalne** või **Horisontaalne** | See atribuut määrab, kas pisipilte tuleb kuvada vertikaalse või horisontaalse ribana. |
 | Peida variandi põhitoote pildid | **Tõene** või **Väär** | Kui see atribuut on seatud väärtusele **Tõene**, siis on variandi valimisel põhitoote pildid peidetud, kui variandil ei ole pilte. See atribuut ei mõjuta variantideta tooteid. |
+| Dimensioonivaliku meediumi värskendamine | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, värskendatakse meediumiteegi pilte, kui valitud on mõni dimensioon (nt värv, laad või suurus) ja kui pilt on saadaval. See atribuut aitab sirvimiskogemust lihtsustada, kuna vastava pildi värskendamiseks ei pea valima kõiki tootevariandi dimensioone. See atribuut on saadaval **Täpsemalt** vahekaardil. |
+
+> [!IMPORTANT]
+> **Värskenda meediumit dimensioonide valimisel** on saadaval alates Commerce'i versiooni 10.0.21 väljalaskest. See nõuab Commerce mooduli teegi paketi versiooni 9.31 installimist.
 
 Järgmisel illustratsioonil on näha meediumigalerii mooduli näide, mille puhul on saadaval täisekraanirežiimi ja suumimise suvandid.
 

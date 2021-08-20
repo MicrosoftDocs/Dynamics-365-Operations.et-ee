@@ -1,8 +1,8 @@
 ---
 title: Müügitellimuste krediidi ootelolekud
 description: See teema kirjeldab nende reeglite seadistust, mida kasutatakse müügitellimuse krediidi ootele panemiseks.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723963"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Müügitellimuste krediidi ootelolekud
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 See teema kirjeldab nende reeglite seadistust, mida kasutatakse müügitellimuse krediidi ootele panemiseks. Krediidihalduse blokeerimise reegleid saab rakendada üksikule kliendile või klientide grupile. Blokeerimise reeglid määratlevad vastuseid järgmistele asjaoludele.
 
@@ -41,6 +42,11 @@ Lisaks on kaks parameetrit, mis juhivad täiendavaid müügitellimust blokeeriva
 
 Kui klient algatab müügikande, vaadatakse müügitellimuse teave üle blokeerimise reeglite kogumi suhtes, mis juhivad otsust selle kohta, kas lubada kliendile krediiti ja lubada müügil edasi liikuda. Saate määratleda ka välistused, mis tühistavad blokeerimise reeglid ja lubavad müügitellimuse töötlemist. Saate seadistada blokeerimise reeglid ja välistamise reeglid lehel **Krediidihaldus > Seadistus > Krediidihalduse seadistus > Blokeerimise reeglid**.
 
+Versiooni 10.0.21 kohaselt on krediidihalduse blokeerimisreeglid paindlikumaks muudetud järgmistel viisidel:
+
+- Laiendatavuse taotlused on lubatud, nii et saate luua enda blokeerimisreeglid.
+- **Müügitellimuse vabastamise** märkeruut on nüüd saadaval kõigi blokeerimisreeglite puhul. Varem oli see saadaval ainult müügitellimuse blokeerimisreegli puhul. Kui see ruut on märgitud, vabastab välistusreegel müügitellimuse, arvestamata muid reegleid, mis võivad müügitellimusi blokeerida. See ruut on saadaval ainult **Välistus** reegli tüübi puhul.
+
 ### <a name="days-overdue"></a>Tähtaja lõppemisest möödunud päevade arv
 
 Avage vahekaart **Ületatud päevad**, kui blokeerimise reegel rakendub kliendile, kellel on üks või mitu teatud arv päevi tähtaja ületanud arvet.
@@ -57,7 +63,7 @@ Avage vahekaart **Ületatud päevad**, kui blokeerimise reegel rakendub kliendil
 5. Valige **Väärtuse tüüp**. Vaikimisi kirje on fikseeritud päevade arv. Kui loote välistamise, saate määrata selle asemel fikseeritud päevade arvu või summa. 
 6. Sisestage **Tähtaja ületanud** päevade arv, mis valitud blokeerimise reegli jaoks lubatakse, enne kui tellimus pannakse läbivaatamiseks krediidiriski haldusega seotud ootelolekusse. Tähtaja ületanud päevade arv kujutab endast täiendavat ajapikenduse päevade arvu, mis lisatakse maksetähtaega ületanud päevade arvule, mis arvel enne tähtaja ületanuks pidamist olla võib. Kui määrasite **Väärtuse tüübiks** välistamise summa, siis sisestage see summa ja summa valuuta.
 
-### <a name="accounts-status"></a>Kontode olek
+### <a name="account-status"></a>Konto olek
 
 Avage vahekaart **Konto olek**, kui blokeerimise reegel kehtib valitud konto olekuga kliendile.
 1. Valige seadistatava reegli tüüp.  **Blokeerimine** loob reegli, mis blokeerib tellimuse. **Välistamine** loob reegli, mis välistab teise reegli poolt tellimuse blokeerimise. 
@@ -102,7 +108,7 @@ Kui blokeerimise reegel kehtib tähtaja ületanud summadega klientidele, avage v
    - Valige **Blokeerimine**, et luua reegel, mis blokeerib tellimuse. 
    - Valige **Välistamine**, et luua reegel, mis välistab teise reegli poolt tellimuse blokeerimise. 
 5. Sisestage valitud blokeerimise reeglile enne krediidihaldusega seotud ootelolekusse ülevaatamiseks panemist väärtus **Tähtaja ületanud summa**. 
-6. Valige **Väärtuse tüüp**, mis määratleb selle väärtuse tüübi, mida kasutatakse testimiseks, kui palju krediidilimiidist on ära kasutatud. Blokeerimise reeglid nõuavad protsenti, kuid välistamisel võib olla kas fikseeritud summa või protsent. Lävi on seotud krediidilimiidiga.
+6. Valige **Väärtuse tüüp**, mis määratleb selle väärtuse tüübi, mida kasutatakse testimiseks, kui palju krediidilimiidist on ära kasutatud. Blokeerimisreeglid ja välistusreeglid lubavad ainult protsendi **Tähtaja ületanud summast**. Lävi on seotud krediidilimiidiga.
 7. Sisestage valitud reegli jaoks väärtus **Krediidilimiidi lävi** enne, kui klient läheb krediidihaldusega seotult ootele. See võib olla summa või protsent, mis põhineb väärtuse tüübi all valitud väärtuse tüübist.
 8. Reegel kontrollib, kas **Tähtaja ületatud summa** on ületatud ja **Krediidilimiidi lävi** on ületatud. 
 
@@ -122,8 +128,6 @@ Valige **Müügitellimus**, kui blokeerimise reegel rakendub müügitellimuse v�
    - Valige **Blokeerimine**, et luua reegel, mis blokeerib tellimuse. 
    - Valige **Välistamine**, et luua reegel, mis välistab teise reegli poolt tellimuse blokeerimise. 
 5. Sisestage valitud blokeerimise reeglile enne krediidihaldusega seotud ootelolekusse panemist väärtus **Müügitellimuse summa**. 
-
-Müügitellimuse reegel sisaldab täiendavat sätet, mis tühistab kõik muud reeglid. Sellise välistamise loomiseks, mis vabastab müügitellimuse, võtmata arvesse muid reegleid, valige välistuse rea märkeruut **Vabasta müügitellimus**.
 
 ### <a name="credit-limit-used"></a>Krediidilimiit on kasutatud
 

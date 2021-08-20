@@ -1,8 +1,8 @@
 ---
 title: Funktsioonihalduse ülevaade
 description: See teema kirjeldab funktsioonihaldust ja kuidas seda kasutada.
-author: ChrisGarty
-ms.date: 10/05/2020
+author: Peakerbl
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,58 +11,92 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: cgarty
+ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e3cb0c637d47e3267cf63e956c8a7ea45d0623bd
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 9b51e848a965589ef0a14e5b880f213d18abc53097c18eed51320d7443a3b5f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741604"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
 
-Igale väljalaskele lisatakse funktsioone ja nende uuendusi. Funktsioonihalduse kogemus pakub tööruumi, kus saate vaadata igale väljalaskele lisatud funktsioonide loendit. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks.
+Igale väljalaskele lisatakse funktsioone ja nende uuendusi. Funktsioonihalduse kogemus pakub tööruumi, kus saate vaadata igale väljalaskele lisatud funktsioonide loendit. Siis saate kasutada tööruumi funktsioonidokumentatsiooni vaatamiseks ning funktsioonide lubamiseks või keelamiseks.
 
 ## <a name="the-feature-management-workspace"></a>Funktsioonihalduse tööruum
 
-Saate avada **Funktsioonihalduse** tööruumi, valides armatuurlaual vastava paani. Näete lehte, kus kuvatakse funktsioonide loend kõigi väljalasete jaoks, mida funktsioohalduse kogemus toetab. Aja jooksul parandab Microsoft funktsioonihalduse kogemust, et see sisaldaks rohkem funktsioone funktsioonide haldamiseks.
+Saate avada **Funktsioonihalduse** tööruumi, valides armatuurlaual vastava paani. Näete lehte, kus kuvatakse funktsioonide loend kõigi väljalasete jaoks, mida funktsioohalduse kogemus toetab. 
 
 Funktsioonide loend sisaldab järgmist teavet.
 
 - **Funktsiooni nimi** – lisatud funktsiooni kirjeldus.
-- **Lubatud olek** – sümbol näitab, kas funktsioon on sisse lülitatud (märge), poel sisse lülitatud (tühi), on plaanitud sisse lülitamiseks (kell) või on kohustuslikult sisse lülitatud (lukk). Siin kuvatavat sätet kasutatakse kõigi juriidiliste isikute puhul. Pidage meeles, et isegi kui funktsioon on sisse lülitatud, kontrollib seda ikkagi turve. Seetõttu on funktsioon saadaval ainult neile kasutajatele, kellel on sellele juurdepääs, mis põhineb nende turberollil. See on saadaval ainult juriidilistele isikutele, millele kasutajal on juurdepääs.
+- **Olek** – sümbol näitab, kas funktsioon on sisse lülitatud (märge), poel sisse lülitatud (tühi), on plaanitud sisse lülitamiseks (kell), on kohustuslikult sisse lülitatud (lukk), nõuab enne sisselülitamist tähelepanu (hoiatussümbol) või ei saa sisse lülitada (X). Siin kuvatavat sätet kasutatakse kõigi juriidiliste isikute puhul. Pidage meeles, et isegi kui funktsioon on sisse lülitatud, kontrollib seda ikkagi turve. Seetõttu on funktsioon saadaval ainult neile kasutajatele, kellel on sellele juurdepääs, põhinevalt nende turberollil. See on saadaval ainult juriidilistele isikutele, millele kasutajal on juurdepääs.
 - **Luba kuupäeval** – kuupäev, millal funktsioon sisse lülitatud või on sisse lülitamiseks plaanitud.
 - **Funktsioon lisatud** – kuupäev, mil funktsioon lisati teie keskkonda. See kuupäev sisestatakse automaatselt, kui värskendate oma keskkonda igakuiste väljaannete tsüklite ajal.
+- **Funktsiooni olek** – funktsiooni praegune töötsükli olek: **eelvaade**, **vabastatud** (kuvatakse tühjana), **Sisselülitatud vaikimisi** ja **Kohustuslik**. Täpsemate üksikasjadega kaetud olekud on selles teemas hiljem kaetud. 
 - **Moodul** – moodul, mida uus funktsioon mõjutab.
+
+> [!NOTE]
+> **Funktsiooni oleku** veerg kaasatakse versioonina 10.0.21.
 
 Kui valite funktsiooni, kuvatakse lisateave üksikasjade paanil funktsioonide loendist paremal. Paani ülaosas näete funktsiooni nime, funktsiooni lisamise kuupäeva, funktsiooni poolt mõjutatud moodulit ja linki **Lisateave**. Valige see link funktsiooni dokumentatsiooni vaatamiseks. Kui dokumentatsioon ei ole saadaval, suunatakse teid ajutisele lehele. Üksikasjade paanil on ka väli **Kommentaarid**, kus saate lisada oma kommentaare funktsiooni kohta.
 
 Tööruumis **Funktsioonihaldus** on ka mitu vahekaarti, mis igaüks kuvavad funktsioonide loendi.
 
 - **Uus** – see vahekaart näitab kõiki funktsioone, mis on lisatud alates viimasest igakuisest uuendusest. Kui olete mõne igakuise uuenduse vahele jätnud, kuvab vahekaart kõik uued funktsioonid, mis on lisatud alates viimasest korrast, kui uuendasite. Uusimad funktsioonid kuvatakse loendi ülaosas. Uute funktsioonide koguarvu näidatakse ka paanil lehe ülaosas.
-- **Pole lubatud** – see vahekaart kuvab kõik funktsioonid, mida pole sisse lülitatud. Uusimad funktsioonid kuvatakse loendi ülaosas. Uute sisse lülitamata funktsioonide koguarvu näidatakse ka paanil lehe ülaosas.
-- **Plaanitud** – sellel vahekaardil kuvatakse kõik funktsioonid, mis on plaanitud tulevikus sisse lülitada. Kõige varasema plaanitud kuupäevaga funktsioonid kuvatakse loendi ülaosas. Uute graafikus olevate funktsioonide koguarvu näidatakse ka paanil lehe ülaosas.
+- **Pole lubatud** – see vahekaart kuvab kõik funktsioonid, mida pole sisse lülitatud. Uusimad funktsioonid kuvatakse loendi ülaosas. Lisaks kuvatakse lehe ülaosas paanil väljas olevate funktsioonide koguarvu.
+- **Plaanitud** – sellel vahekaardil kuvatakse kõik funktsioonid, mis on plaanitud tulevikus sisse lülitada. Kõige varasema plaanitud kuupäevaga funktsioonid kuvatakse loendi ülaosas. Lisaks näitab lehe ülaosas olev paan ajastatud funktsioonide koguarvu.
 - **Kõik** – sellel vahekaardil kuvatakse kõik funktsioonid. Uusimad funktsioonid kuvatakse loendi ülaosas.
 
-## <a name="turn-on-a-feature"></a>Funktsiooni sisselülitamine
+## <a name="feature-states"></a>Funktsiooni olekud
+Funktsioonid võivad muutuda mitme oleku vahel, alustades funktsioonide haldamisest ja muutudes lõpuks tootes kohustuslikuks. See jaotis kirjeldab kehtivaid funktsiooni valikuid.
 
-Kui funktsioon ei ole sisse lülitatud, kuvatakse üksikasjade paanil nupp **Luba kohe**. Selle nupu abil saate funktsiooni sisse lülitada.
+### <a name="preview-features-optional"></a>Eelvaade funktsioonidele (valikuline)
 
-- Valige funktsioon, mida soovite sisse lülitada, ja seejärel valige üksikasjade paanil nupp **Luba kohe**. Funktsioon lülitatakse sisse.
+Tootemeeskonnad saavad otsustada uue funktsiooni algsel käivitamisel eelvaate funktsioonina. Eelvaate funktsioonid pole vaikimisi lubatud ja need on valikulised. Omaniku tootetiim värskendab pärast eduka eelvaateperioodi lõppu väljalasetavaid funktsioone.
 
-Mõnda funktsiooni ei saa pärast sisse lülitamist välja lülitada. Kui funktsiooni, mida proovite sisse lülitada, ei saa välja lülitada, kuvatakse hoiatus. Saate valida nupu **Tühista** toimingu tühistamiseks ja jätta funktsiooni väljalülitatuks. Kui aga valite nupu **Luba** funktsiooni sisselülitamiseks, ei saa te seda hiljem välja lülitada.
+> [!NOTE]
+> Eelvaate funktsioonid alluvad kindlatele eelvaate [tingimustele](https://go.microsoft.com/fwlink/?linkid=2105274). 
 
-Mõni funktsioon kuvab sõnumi, mis annab lisateavet enne nende sisselülitamist. Need omadused on tähistatud kollase hoiatussümboliga. Lugege lisateavet hoolikalt, et paremini mõista, mis juhtub, kui funktsioon on lubatud. Siiski saate endiselt valida suvandi **Luba**, et funktsioon sisse lülitada.
+### <a name="released-features-optional"></a>Väljastatud funktsioonid (valikuline)
+
+Nende **funktsioonide oleku** veerg funktsioonina on tühi. Algselt väljastatuna lisatud funktsioone ei lülitata vaikimisi sisse ja nende lubamine on valikuline. Eelvaatest uuendatud funktsioonid säilitavad nende lubamise oleku.
+
+### <a name="on-by-default-features-optional"></a>Vaikefunktsioonid (valikuline)
+
+Funktsioonid, mida uuendatakse **vaikimisi**, on lülitatud vaikimisi sisse, kuid neid saab keelata. Pärast seda, kui funktsioonid, mida saab keelata, on olekus **Vabastatud** olnud vähemalt kuus kuud, eeldatakse, et nad liiguvad järgmise põhivabastuse ajal siia olekusse. Funktsioonid, mis **vaikimisi** lülituvad sissse eeldatava edastamise puhul [Mis on uut](../whats-new-changed.md) väljaandmise teemas. Värskenduse algatab toote omanik.
+
+> [!NOTE]
+> Kuna need funktsioonid lubatakse automaatselt, on oluline määrata, kas teie organisatsioon on valmis neid funktsioone uuendama või on vaja rohkem aega. Kui vaja on rohkem aega, võib olla vajalik need funktsioonid ajutiselt keelata. Pange tähele, et funktsiooni siirde vaikimisi valikule **Sees vaikimisi** tehakse tavaliselt põhivabastuses enne, kui see funktsioon on määratud **Kohustuslikuks**. Sel hetkel pole teil võimalust seda funktsiooni keelata. 
+
+### <a name="released-features-mandatory"></a>Väljastatud funktsioonid (kohustuslik)
+
+**Väljastatud** on funktsioonide viimane olek. See näitab, et funktsioonid on sisse lülitatud ja te ei saa neid keelata ilma Microsoft`iga kontakteerumata. Valikulised funktsioonid muutuvad kohustuslikuks pärast kahte põhivabastust. Kriitilisi funktsioone saab erandkorras kehtestada kohustuslikuna.
+
+## <a name="example-of-expected-feature-lifecycles"></a>Eeldatava funktsiooni töötsüklite näide
+
+Funktsioonid, mida saab keelata ja mis lisati avaldatuna ja valikulisena enne aprillikuist väljalaset või selle osana, lähevad järgmisel oktoobrikuisel väljaandel üle olekusse **Sees vaikimisi**. Siis muutuvad need **kohustuslikuks** järgmise aasta aprillis.
+
+Funktsioon, mida ei saa keelata ja mis lisati avaldatuna ja valikulisena enne aprillikuist väljalaset või selle osana, läheb järgmise aasta aprillis üle olekusse **Kohustuslik**.
+
+## <a name="enable-a-feature"></a>Funktsiooni lubamine
+
+Kui funktsioon ei ole sisse lülitatud, kuvatakse üksikasjade paanil nupp **Luba kohe**. Selle nupu abil saate funktsiooni lubada.
+
+Pärast funktsioonide lubamist ei saa mõnda neist enam keelata. Kui funktsiooni, mida proovite sisse lülitada, ei saa välja lülitada, kuvatakse hoiatus. Sel hetkel saate toimingu tühistamiseks ja funktsiooni keelamiseks valida **Tühista**. Siiski, kui valite **Luba** ja lubate selle funktsiooni, ei saa te seda hiljem keelata.
+
+Mõned funktsioonid kuvavad enne nende lubamist sõnumi, mis annab lisateavet. Need omadused on tähistatud kollase hoiatussümboliga. Peaksite lisateavet hoolikalt lugema, et veenduda, et saate aru, mis juhtub, kui funktsioon on lubatud. Siiski saate endiselt valida suvandi **Luba**, et funktsioon sisse lülitada.
 
 Mõni funktsioon kuvab sõnum, et funktsiooni ei saa enne toimingu tegemist lubada. Need omadused on tähistatud punane X hoiatussümboliga. Enne funktsiooni lubamist peate täitma kirjelduses kirjeldatud toimingud. Näiteks kui te ei saa kasutada funktsiooni kuni konfiguratsioonivõti on keelatud, siis peate esmalt keelama konfiguratsioonivõtme ja seejärel naasma funktsiooni haldusesse funktsiooni lubamiseks.
 
-Kui funktsioon on sisse lülitatud, kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade kas ütleb, et funktsioon lülitati sisse, või näitab see kuupäeva tulevikus, millal funktsioon on plaanitud sisse lülitada. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
+Pärast funktsiooni lubamist kuvatakse üksikasjade paanil lingi **Lisateave** all. See teade kas ütleb, et funktsioon lülitati sisse, või näitab kuupäeva, millal on funktsioon plaanitud sisse lülitada. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
 
 Funktsioonid, mis on plaanitud tulevikus sisse lülitada, kuvatakse vahekaardil **Plaanitud**. Pakktöötlus lülitab need määratud kuupäeval keskööl sisse, lähtudes süsteemi kuupäevaga tähistatud ajavööndist.
 
@@ -74,35 +108,33 @@ Kui funktsiooni ei ole plaanis tulevikus sisse lülitada, kuvatakse üksikasjade
 2. Kuvatavas dialoogiboksis väljas **Luba kuupäeval** määrake uus kuupäev, millal tuleb funktsioon sisse lülitada.
 3. Valige **Luba**, et funktsiooni uuesti plaanida, või **Keela** plaanimise tühistamiseks.
 
-## <a name="turn-off-a-feature"></a>Funktsiooni väljalülitamine
+## <a name="disable-a-feature"></a>Funktsiooni keelamine
 
-Kui funktsioon on juba sisse lülitatud, kuvatakse üksikasjade paanil nupp **Keela**. Selle nupu abil saate funktsiooni välja lülitada. Nupp **Keela** ei ole saadaval, kui funktsiooni ei saa välja lülitada pärast selle sisse lülitamist.
+Kui funktsioon on juba lubatud, kuvatakse üksikasjade paanil nupp **Keela**. Selle nupu abil saate funktsiooni keelata. Nupp **Keela** ei ole saadaval, kui funktsiooni ei saa keelata pärast selle lubamist. 
 
-- Valige välja lülitamiseks funktsioon ja seejärel valige üksikasjade paanil nupp **Keela**. Funktsioon lülitatakse välja ja väli **Luba kuupäeval** tühjendatakse.
+Pärast funktsiooni keelamist kuvatakse üksikasjade paanil lingi **Lisateave** all teade. See teade ütleb, et funktsioon pole sisse lülitatud. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist. Funktsioonid, mis pole lubatud, kuvatakse vahekaardil **Pole lubatud**.
 
-Kui funktsioon on välja lülitatud, kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade ütleb, et funktsioon pole veel sisse lülitatud. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist. Funktsioonid, mida pole sisse lülitatud, kuvatakse vahekaardil **Pole lubatud**.
+## <a name="features-that-must-be-enabled"></a>Funktsioonid, mis peavad olema lubatud
 
-## <a name="features-that-must-be-turned-on"></a>Funktsioonid, mis peavad olema sisse lülitatud
-
-Mõnikord lisatakse kriitiline funktsioon, mis tuleb uuendamisel automaatselt sisse lülitada. Need funktsioonid lülitatakse sisse automaatselt väljas **Luba kuupäeval** määratud kuupäeval. Nende funktsioonide kohta kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade kas ütleb, et funktsioon lülitati sisse, või näitab kuupäeva, millal funktsioon sisse lülitatakse. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
+Mõnikord lisatakse kriitiline funktsioon, mis tuleb uuendamisel automaatselt sisse lülitada. Need funktsioonid lubatakse automaatselt väljas **Luba kuupäeval** määratud kuupäeval. Nende funktsioonide kohta kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade kinnitab, et funktsioon on lubatud, või näitab tulevast kuupäeva, millal funktsioon lubatakse. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
 
 ## <a name="enable-all-features"></a>Kõigi funktsioonide lubamine
 
-Vaikimisi lülitatakse kõik teie keskkonda lisatavad funktsioonid välja, kui need pole kohustuslikud funktsioonid. Kõik funktsioonid saate lubada, kui valite nupu **Luba kõik**. 
+Kõik funktsioonid saate lubada, kui valite nupu **Luba kõik**. 
 
-Kui valite **Luba kõik**, kuvatakse suvand, kus peate esitama järgmise teabe.
+Kui valite **Luba kõik**, kuvatakse suvand, kus peate esitama järgmise teabe:
+
 - Kõigi funktsioonide loend, mis vajavad kinnitamist enne, kui neid saab lubada. Kui soovite funktsioone loendis lubada, valige väärtus **Jah** nupul **Luba funktsioonid, mis vajavad kinnitust**.
 - Kõik funktsioonid, mida saab lubada, on lubatud. Neid funktsioone ei saa lubada.
 
 Kõik funktsioonid, mida saab lubada, on lubatud. Kui funktsioon on juba plaanitud tulevikus lubatuks, siis ajakava ei muutu. 
 
-## <a name="turn-on-all-features-automatically"></a>Kõikide funktsioonide automaatselt sisselülitamine
+## <a name="enable-all-features-automatically"></a>Luba kõik funktsioonid automaatselt
 
-Vaikimisi lülitatakse kõik teie keskkonda lisatavad funktsioonid välja, kui need pole kohustuslikud funktsioonid. Kuid kui soovite kõiki uusi funktsioone automaatselt sisse lülitada, saate kasutada ripploendit tööruumi nime all, et muuta, mis juhtub uute funktsioonide lisamisel.
+Kui soovite kõik uued funktsioonid automaatselt lubada, saate tööruumi pealkirja all oleva ripploendi abil muuta, mis juhtub uute funktsioonide lisamisel.
 
-- Kõikide uute funktsioonide automaatseks lubamiseks keskkonda lisandumisel valige `Enable new features automatically`.
-- Kõikide uute funktsioonide automaatseks keelamiseks keskkonda lisandumisel valige `Do not enable new features automatically`.
-
+- Kõikide uute funktsioonide automaatseks lubamiseks keskkonda lisandumisel valige **Luba uued funktsioonid automaatselt**.
+- Valige **Ärge lubage uusi funktsioone automaatselt** kui kõik rakendatavad uued funktsioonid peaksid teie keskkonda lisamisel olema vaikimisi välja lülitatud.
 
 Kui lubate kõik funktsioonid automaatselt, lubab see kõik funktsioonid, mis oleks lubatud, kui klõpsate nuppu **Luba kõik**. See ei luba kinnitamist nõudvaid funktsioone või funktsioone, mida ei saa enne toimingu tegemist lubada.
 
@@ -128,20 +160,16 @@ Andmeüksusega nimega **Funktsioonihaldus** saate eksportida funktsioonihalduse 
 
 Järgmistest näidetes kirjeldatakse, mis juhtub, kui kasutate andmete importimiseks üksust **Funktsioonihaldus**.
 
-- Kui muudate välja **Lubatud** väärtusele **Jah**, lülitatakse funktsioon sisse ja välja **Luba kuupäeval** väärtuseks määratakse praegune kuupäev.
-- Kui muudate välja **Lubatud** väärtusele **Ei** või jätate välja **Luba kuupäeval** tühjaks, lülitatakse funktsioon välja ja väli **Luba kuupäeval** tühjendatakse. Välja ei saa lülitada kohustuslikke funktsioone või funktsiooni, mida pole võimalik välja lülitada pärast selle sisse lülitamist.
+- Kui muudate välja **Lubatud** väärtuseks **Jah**, lülitatakse funktsioon sisse ja välja **Luba kuupäeval** väärtuseks määratakse praegune kuupäev.
+- Kui muudate välja **Lubatud** väärtusele **Ei** või jätate välja **Luba kuupäeval** tühjaks, lülitatakse funktsiooni välja ja väli **Luba kuupäeval** tühjendatakse. Välja ei saa lülitada kohustuslikke funktsioone või funktsiooni, mida pole võimalik välja lülitada pärast selle sisse lülitamist.
 - Kui muudate välja **Luba kuupäeval** väärtuseks tulevase kuupäeva, plaanitakse funktsioon sellele kuupäevale.
 - Kui muudate välja **Lubatud** väärtusele **Jah** ja muudate välja **Luba kuupäeval** väärtuseks tulevase kuupäeva, plaanitakse funktsioon sellele kuupäevale. 
 - Kui muudate välja **Lubatud** väärtusele **Ei**, aga muudate ka välja **Luba kuupäeval** väärtuseks tulevase kuupäeva, plaanitakse funktsioon sellele kuupäevale.
-- Kui funktsioon lülitatakse sisse ja lisate välja **Luba kuupäeval**, mis on määratud tulevasele kuupäevale, jääb funktsioon sisse lülitatuks. Funktsiooni uuesti plaanimiseks peate muutma välja **Lubatud** väärtusele **Ei**.
+- Kui funktsioon lülitatakse sisse ja lisate välja **Luba kuupäeval**, mis on määratud tulevasele kuupäevale, jääb funktsioon sisse lülitatuks. Funktsiooni uuesti plaanimiseks peate muutma välja **Lubatud** väärtuseks **Ei**.
 
 ## <a name="feature-management-and-flighting"></a>Funktsioonihaldus ja eelväljaanded
 
 Funktsioonihaldusega saate juhtida igas väljaandes saadetud funktsioone. Eelväljaandega saab Microsoft Teams välja anda funktsioone piiratud arvule klientidele, et neid funktsioone saaks katsetada ja kontrollida kõiki kliente mõjutamata. Funktsioonihaldus ei reguleeri ühtegi eelväljaantud funktsiooni.
-
-## <a name="new-features-are-optional-for-12-months"></a>Uued funktsioonid on valikulised 12 kuu jooksul
-
-Uue mitte-kriitilise funktsiooni installimisel on see 12 kuu jooksul valikuline. See võimaldab planeerida teil ja teie organisatsioonil ette, millal funktsiooni kasutusele võtta ja testida seda koos teie igapäevaste toimingutega. Lisateavet vt teemast [Ühe versiooni teenuse värskenduste KKK](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Funktsioonihalduse kasutamine ISV-funktsioonide või kohandatud funktsioonide sisselülitamiseks
 
@@ -150,13 +178,10 @@ Funktsioonihaldus pole praegu saadaval sõltumatute tarkvaramüüjate (ISV-d) fu
 ## <a name="frequently-asked-questions-faq"></a>Korduma kippuvad küsimused (KKK)
 
 ### <a name="when-are-features-added-removed-or-changed"></a>Millal funktsioone lisatakse, eemaldatakse või muudetakse? 
-Funktsioone lisatakse, eemaldatakse ja muudetakse koodimuudatuste kaudu. Nende muudatuste aktiveerimiseks tuleb keskkondasid värskendada.
+Omadused lisatakse, eemaldatakse ja neid muudetakse koodimuudatuste kaudu, mida omavad tootetiimid. Nende muudatuste vastuvõtmiseks tuleb keskkondi värskendada.
 
 ### <a name="does-a-feature-become-mandatory-automatically"></a>Kas funktsioon muutub automaatselt kohustuslikuks? 
-Ei, funktsiooni kohustuslikuks muutumine ei ole automaatne tegevus. Tootemeeskonnad peavad koodi muutma.
-
-### <a name="when-do-features-become-mandatory"></a>Millal muutuvad funktsioonid kohustuslikuks? 
-Reeglite järgi saab uute funktsioonidega nõustuda 12 kuu jooksul ning enne funktsiooni lubamist ei pea muudatusi haldama. Tootemeeskonnad saavad valida, kas muuta funktsioon pärast selle perioodi lõppu kohustuslikuks. 
+Ei, funktsioon ei muutu automaatselt kohustuslikuks. Omaniku tootetiim peab koodi muutma.
 
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Miks ei eksisteeri kindlat kohustuslikku lubamiskuupäeva? 
 Värskenduste väljaandmissaeg on muutuv, keskkondade värskendamisaeg on muutuv ja kliendid saavad mõne värskenduse vahele jätta. Seetõttu on kindlaid kuupäevi raske määrata. 
@@ -168,7 +193,9 @@ Selle dokumentatsiooni koostavad Dynamics 365 rakendusemeeskonnad. Neid funktsio
 Praegu pole olemas teavitamismehhanismi, mis annaks teada, et funktsioon muutub kohustuslikuks.
 
 ### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Kas funktsioone lubatakse kunagi kliendi teadmata? 
-Jah, kui funktsioonidel ei ole funktsionaalset mõju, võidakse need vaikimisi lubada.
+Jah, funktsioone saab lubada kliendi teadmata järgmistes olukordades:
+- Funktsioon viiakse **Sisse lülitatud vaikimisi**. Selles olekus saab funktsiooni siiski keelata. 
+- Funktsiooni uuendatakse **kohustuslikuks**. See muudatus ilmneb ainult koos põhivabastusega. Kriitilisi funktsioone võib igal uuendamisel teisaldada **kohustuslikuks**.
 
 ### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Mis on eelväljaanne ja kuidas on see seotud funktsioonihaldusega? 
 Funktsiooni eelväljaanded on Microsofti kontrollitavad reaalajas sisse-väljalülitid. Need eristuvad kliendi kontrollitavatest suvanditest, mida pakub funktsioonihaldus. 

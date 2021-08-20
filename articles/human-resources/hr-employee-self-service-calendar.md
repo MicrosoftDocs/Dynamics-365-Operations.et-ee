@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639386"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744222"
 ---
 # <a name="view-team-and-company-calendars"></a>Meeskonna ja ettevõtte kalendrite kuvamine
 
@@ -47,7 +47,7 @@ Haldurid pääsevad juurde ka meeskonna kalendri jaotistele **Minu meeskonna oot
 
 Puudumiste halduri rolli kasutajad saavad vaadata oma kalendris puhkuste taotlusi. Puhkusekalendrile juurdepääsemiseks järgige järgmisi samme.
 
-1. Valige tööruumis **Töötaja iseteenindus** **Puudumiste haldur** ja seejärel **Puudumiste halduri kalender**.
+1. Tööruumis **Töötaja iseteenindus** valige **Puudumiste haldur** ja seejärel **Puudumiste halduri kalender**.
 
 2. Väljale **Kuupäev** sisestage soovitud kuupäevad.
 

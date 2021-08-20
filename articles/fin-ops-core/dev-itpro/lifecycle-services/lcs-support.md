@@ -2,7 +2,7 @@
 title: Finance and Operations rakenduste või teenuse Lifecycle Services (LCS) tugi
 description: See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel.
 author: EricMoos
-ms.date: 09/16/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b32ae88f9c4439b83ae60e6a0b5f0e16280fcf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4314545941cd4c401325aad7651c8882db322f58aae54e85dbad2548733cc95e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713330"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Finance and Operations rakenduste või teenuse Lifecycle Services (LCS) tugi
 
@@ -48,7 +48,7 @@ See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teen
 <td>Kasutage lehel <a href="https://lcs.dynamics.com/">LCS</a> <strong>teema otsingut</strong>, et leida kiiresti Microsofti teabebaasi (KB) artikleid, kiirparandusi ja leitud probleemide lahendusi. Saate vaadata, milliste leitud probleemide lahendamisega kindlas kategoorias tegeletakse ja millised on juba lahendatud. Lisateabe saamiseks vt <a href="issue-search-lcs.md">Teema otsing (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Hankige rakendusesisene tugi.</td>
+<td>Hankige tuge rakendusest Finance and Operations.</td>
 <td>Valige rakenduse ülemisest parempoolsest nurgast nupp <strong>Spikker</strong> (<strong>?</strong>) ja seejärel <strong>Tugi</strong>. Probleemid edastatakse LCS-is vahekaardil <strong>Aktiivsed probleemid</strong>. Seal saavad administraatorid teha kindlaks, kas nad peaksid pakkuma ettevõttesisest tuge või edastama probleemid Microsoftile.</td>
 </tr>
 <tr>

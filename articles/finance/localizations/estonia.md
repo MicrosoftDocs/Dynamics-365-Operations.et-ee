@@ -13,12 +13,12 @@ ms.search.region: Estonia
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b4e92568276f2a471450df83bbe3d3ae478c0dd9
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8df9fc5b7fc8498251bd7aed774d852e4a7b50c832bf062734c525acb58e1337
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735438"
 ---
 # <a name="estonia-overview"></a>Eesti ülevaade
 

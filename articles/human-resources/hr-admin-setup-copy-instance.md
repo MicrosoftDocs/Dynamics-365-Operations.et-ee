@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740835"
 ---
 # <a name="copy-an-instance"></a>Kopeeri eksemplar
 
@@ -52,9 +52,9 @@ Rakenduse Human Resources andmebaasi kopeerimisel esinevad järgmised sündmused
 
 - Microsoft Azure’i bloobimälu dokumente ei kopeerita ühest keskkonnast teise. Selle tulemusena ei kopeerita ühtegi lisatud dokumenti ega malli ja need jäävad lähtekeskkonda.
 
-- Ükski kasutaja (v.a administraatorkasutajad ja teised sisemised teenusekasutajate kontod) pole saadaval. Administraatorkasutaja andmed kustutada või ebaselgeks muuta enne teiste kasutajate tagasi süsteemi lubamist.
+- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" ja teised siseteenuse kasutajakontod, pole saadaval. Administraatorkasutaja andmed kustutada või ebaselgeks muuta enne teiste kasutajate tagasi süsteemi lubamist.
 
-- Administraatorkasutaja peab tegema vajalikud konfiguratsiooni muudatused, nagu integratsiooni lõpp-punktide uuesti ühendamine kindlate teenuste või URL-idega.
+- Iga kasutaja, kellel on turvaroll "Süsteemihaldur", peab tegema vajalikud konfiguratsioonimuudatused, näiteks ühendama integratsiooni lõpp-punktid uuesti teatud teenuste või URL-idega.
 
 ## <a name="copy-the-human-resources-database"></a>Rakenduse Human Resources andmebaasi kopeerimine
 
@@ -111,7 +111,7 @@ Osasid neist elementidest ei kopeerita, kuna need on keskkonnale spetsiifilised.
 
 Samuti muutuvad eksemplari kopeerimisel järgmised olekud.
 
-- Kõik kasutajad peale administraatori seatakse olekusse **Keelatud**.
+- Kõik kasutajad, v.a need, kellel on turberoll "Süsteemiadministraator" on seatud olekusse **Ei ole lubatud**.
 
 - Kõik pakett-tööd, välja arvatud mõned süsteemi tööd, seatakse olekusse **Kinnipeetud**.
 

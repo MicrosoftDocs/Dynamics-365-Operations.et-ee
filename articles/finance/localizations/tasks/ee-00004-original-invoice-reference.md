@@ -12,12 +12,12 @@ ms.search.region: Estonia
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38d39256b9534777a724b2748a54bcab4636aed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3834cb789c679e9fc589759dc68243c1887417bac61036c091cf86c63e33d8cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740861"
 ---
 # <a name="original-invoice-reference-eastern-europe"></a>Algse arve viide (Ida-Euroopa)
 
