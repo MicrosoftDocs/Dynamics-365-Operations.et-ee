@@ -2,7 +2,7 @@
 title: Tootedimensiooni väärtuste konfigureerimine näidistena kuvamiseks
 description: Selles teemas kirjeldatakse, kuidas konfigureerida tootedimensiooni väärtusi Microsoft Dynamics 365 Commerce peakorteris.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764610"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Tootedimensiooni väärtuste konfigureerimine näidistena kuvamiseks
 
@@ -124,6 +124,19 @@ Järgmisel joonisel on kujutatud näide, kus **Failide üleslaadimine** dialoogi
 Enne kui kellad kuvatakse e-kaubanduse saidi lehtedel, mis nõuavad dimensioonivalimist, näiteks PDP-d ja loendilehed, peate konfigureerima dimensioonisaidi sätted Commerce peakorteris. Lisateavet leiate teemast [Saidisätete rakendamine dimensioonidele](../dimension-settings.md).
 
 Lisaks peaksite lubama otsingutulemite moodulite atribuudi **Kaasa toote atribuudid otsingutulemites**. Kui teie sait kasutab kohandatud kategoorialehti, peaksite värskendama nendel lehtedel kasutatavaid otsingutulemite mooduleid, et lubada atribuut **Kaasa toote atribuudid otsingutulemitesse**. Lisateabe saamiseks vaata [Otsingutulemuste moodul](../search-result-module.md).
+
+## <a name="inventory-awareness-on-swatches"></a>Teadlikkus laovarudest
+
+Valikulise võimalusega näidata tootevariandi värvi või dimensiooni varude saadavust. Näiteks müüakse toodet mitmes suuruses, kuid teatud suurused on laost otsas. Sel juhul esitatakse laost väljas toodete laaadid teisiti, näitamaks, et need pole saadaval. See võimalus aitab vähendada kliendi klikkide arvu, mis on vajalikud toote saadavuse määramiseks.
+
+Varude kättesaadavuse funktsiooni saab konfigureerida nii PDP-de kui ka otsingu- või kategoorialoendilehtede jaoks, kus kuvatakse skandeid. Selle aktiveerimiseks peate seadistama atribuudi **Uuenda meedia dimensioonivaliku** väärtuseks **Tõene** [meediagalerii moodulis](../media-gallery-module.md). See säte võimaldab meediagalerii pilte dimensioonide valimisel uuendada. 
+
+> [!IMPORTANT]
+> Atribuut Luba külaliskasutajatele on saadaval alates Commerce'i versiooni 10.0.21 väljalaskest. See nõuab Commerce mooduli teegi paketi versiooni 9.31 installimist.
+
+Järgmine näide näitab varude ülevaadet PDP suuruse järgi.
+
+![Varude tedlikkus PDP suuruse jadade kohta](../dev-itpro/media/swatch_inventory.png)
 
 ## <a name="display-swatches-in-pos-and-other-channels"></a>POS-i ja muude kanalite näidiste kuvamine
 
