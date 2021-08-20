@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4162ae04c58a88c7c3aac56297a6c12db98b15c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773557"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Mis on uut või mida on muudetud Dynamics 365 Supply Chain Management versioonis 10.0.18 (mai 2021)
 
@@ -37,9 +37,11 @@ See väljalase hõlmab järgmisi funktsioone. Järgige [väljalaskeplaani](/dyna
 
 - Ostutellimuste automaatne väljastamine (täiustus [Lao läbiviimine pilve skaalaüksustega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud) jaoks)<br> - Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Ettevõtte-mastaabis varude jõudluse parendused ja arhiveerimine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Lisateavet vt [Laokannete arhiivimine](../inventory/archive-inventory-transactions.md)
+- [Saate luua ja kuvada müüja koostööliidese serte](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Lisateavet vt [Müüja sertifitseerimise haldamine](../../finance/public-sector/manage-vendor-certification.md).
 
-- [Tagasimakse haldus](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Lisateavet vt [Tagasimaksehalduse mooduli ülevaade](../rebate-management/rebate-management-overview.md)
+- [Ettevõtte-mastaabis varude jõudluse parendused ja arhiveerimine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Lisateavet vt [Laokannete arhiivimine](../inventory/archive-inventory-transactions.md).
+
+- [Tagasimakse haldus](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Lisateavet vt [Tagasimaksehalduse mooduli ülevaade](../rebate-management/rebate-management-overview.md).
 
 - [Müügiandmete olemi ekspordi seadistamise poliitika](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
 

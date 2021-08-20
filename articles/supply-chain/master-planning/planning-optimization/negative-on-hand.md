@@ -2,7 +2,7 @@
 title: Negatiivsete vabade kogustega plaanimine
 description: Selles teemas selgitatakse, kuidas plaanimise optimeerimise kasutamisel käsitsetakse negatiivset kaubavaru.
 author: ChristianRytt
-ms.date: 02/18/2020
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758540"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Negatiivsete vabade kogustega plaanimine
 
@@ -73,17 +73,29 @@ Sellisel juhul eeldab planeerimise mootor, et lao 13 vaba kogus on 0 tk, mitte &
 
 Tulemuseks on plaanitud tellimus 25 tk (= 25 tk &minus; 0 tk), et täita ladu 13 koguselt 0 tk kogusele 25 tk.
 
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Plaanimine negatiivse vaba kaubavaru reserveerimise korral
+
+Kui korrigeerite varusid füüsilise reserveerimise ajal, saate põhjustada olukorra, kus tellimus reserveeritakse füüsiliselt negatiivse kaubavaru suhtes. Sel juhul, kuna füüsiline reserveering on olemas, eeldab planeerimise optimeerimine, et seda toetab olemasolev laoseis, isegi kui varude vastuvõtmine pole veel süsteemis registreeritud. Seega eeldab see, et varude registreerimine pole nõutav ja ei loo plaanitud tellimust tellimuse koguse täiendamiseks.
+
+Seda illustreerib järgmine näidisstsenaarium.
+
+### <a name="example"></a>Näide
+
+Süsteem on konfigureeritud järgmiselt.
+
+- Toode *FG* on olemas ja seda on *10* tk. vaba kaubavaru.
+- Toote konfiguratsioon lubab füüsilist negatiivset laovaru.
+- Müügitellimus on olemas kogusele *10* tk. toodet *FG*.
+- Müügitellimuse kogus reserveeritakse füüsiliselt olemasoleva vaba kaubavaru suhtes.
+
+Seejärel korrigeerite toote *FG* kogust nii, et vaba kaubavaru väärtus oleks 0 (null). Kuna vaba kaubavaru on null, reserveeritakse nüüd müügitellimuse kogus negatiivsete varude suhtes. Sel juhul, kuna füüsiline reserveering on olemas, eeldab planeerimise optimeerimine, et seda kasutada olemasoleva laoseis, isegi kui varude vastuvõtmine pole veel süsteemis registreeritud.
+
 ## <a name="related-resources"></a>Seotud ressursid
 
-[Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
-
-[Planeerimise optimeerimisega alustamine](get-started.md)
-
-[Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
-
-[Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
-
-[Planeerimistöö tühistamine](cancel-planning-job.md)
-
+- [Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
+- [Planeerimise optimeerimise kasutamise alustamine](get-started.md)
+- [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md)
+- [Plaani ajaloo ja plaanimise logide vaatamine](plan-history-logs.md)
+- [Planeerimistöö tühistamine](cancel-planning-job.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 1fd641d4f60d8ff9710c89f43777f7fd8f378dbc6c73d773ac103f9d9f68e60e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770589"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Arvestus- või aruandlusvaluuta muutmine
 
@@ -75,6 +75,6 @@ Järgige neid etappe, et kopeerida seadistus- ja koondandmed praegusest juriidil
 12. Valige **Juriidilisse isikusse kopeerimine** pakktöötluse alustamiseks, millega luuakse valitud üksused ja kopeeritakse need juriidilisse sihtisikusse.
 13. Pärast töötluse lõpule viimist, kuid enne mis tahes kande sisestamist, avage pearaamat ja uuendage arvestus- ja aruandlusvaluutasid käesolevas teemas eespool kirjeldatud viisil.
 
-Kui lõite uue juriidilises isiku, et saaksite muuta arvestus- või aruandlusvaluutat, veenduge, et vana juriidilise isiku valuutades algsaldod teisendatakse uutesse valuutadesse.
+Kui lõite uue juriidilise isiku, et saaksite muuta arvestus- või aruandlusvaluutat, veenduge, et vana juriidilise isiku valuutades algsaldod teisendatakse uutesse valuutadesse.
 
 Eelmisi etappe kirjeldavat videot vt [Juriidilisse isikusse kopeerimine](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017).
