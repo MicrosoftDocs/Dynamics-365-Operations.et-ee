@@ -72,6 +72,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.21 (oktoober 2021)
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (august 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (juuni 2021)
@@ -256,7 +258,7 @@
                       href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Maksuarvutusega alustamine
                       href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Maksufunktsiooni tugi ülekandekorraldustele
+                    - name: Maksufunktsiooni tugi üleviimistellimuste jaoks
                       href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Andmeväljade lisamine maksukonfiguratsioonidesse
                       href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
@@ -1601,6 +1603,8 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Planeerimise optimeerimise kasutamise alustamine
                   href: master-planning/planning-optimization/get-started.md
+                - name: Planeerimise optimeerimise vabastamise protsess ja väljalaskeajalugu
+                  href: master-planning/planning-optimization/release-process.md
                 - name: Planeerimise optimeerimise sobivuse analüüs
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: 'Parameetrid, mida planeerimise optimeerimine ei kasuta'
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Laovarude ajapiirid
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Netonõuded ja sidumisteave seoses planeerimise optimeerimisega
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Plaanitud tellimuste kinnitamine
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Kindlad plaanitud tellimused
@@ -1709,11 +1715,13 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Sisemise tarneahela klientidega koostöö tegemine
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: Netonõuded ja sidumisteave seoses sisseehitatud koondplaneerimisega
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: Eelarvestus
               items:
-                - name: Nõudluse ja tarneprognoos
+                - name: Nõudluse ja tarne prognoosimine
                   items:
-                    - name: Varude eelarved
+                    - name: Varude prognoosid
                       href: master-planning/inventory-forecast.md
                     - name: 'Juhend: nõudluse prognoosi käsitsi muutmine'
                       href: master-planning/tasks/modify-demand-forecast-manually.md
@@ -1967,6 +1975,8 @@
                   href: procurement/request-quotations.md
                 - name: Pakkumiskutse loomine
                   href: procurement/tasks/create-request-quotation.md
+                - name: Pitseeritud pakkumine pakkumiskutsete puhul
+                  href: procurement/sealed-bidding.md
                 - name: Pakkumiskutset kasutava taotluse loomine
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Pakkumiskutsetele hindamismeetodi loomine
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Toote struktuuri väljastamine
               href: engineering-change-management/release-product-structure.md
+            - name: Tehnikatoodete variantide loomine
+              href: engineering-change-management/engineering-variants.md
             - name: Tehnilise muudatuse halduse KKK
               href: engineering-change-management/change-management-faq.md
         - name: Tootmise juhtimine
@@ -2603,9 +2615,11 @@
               href: rebate-management/rebate-management-overview.md
             - name: Tagasimakse halduse mooduli häälestamine ja konfigureerimine
               items:
+                - name: Süsteemi tagasimaksehalduse mooduli sisselülitamine
+                  href: rebate-management/rebate-management-enable.md
                 - name: Tagasimakse halduse parameetrid
                   href: rebate-management/rebate-management-parameters.md
-                - name: Tagasimakse halduse tehingu töövood
+                - name: Tagasimakse halduse tehingute töövood
                   href: rebate-management/rebate-management-workflows.md
                 - name: Tagasimakse vähendamispõhimõtted
                   href: rebate-management/rebate-reduction-principle.md
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'Tagasimaksete töötlemine, läbivaatamine ja sisestamine'
               href: rebate-management/process-review-post.md
+            - name: Mahaarvamiste haldamine mahaarvamise töölaua abil
+              href: rebate-management/deduction-workbench.md
         - name: Müük ja turundus
           items:
             - name: Müügi ja turunduse ülevaade
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: Üle-/alakannete töötlemine
               href: landed-cost/over-under-transactions.md
+            - name: Ärapanemiseks jälgimise värskendamine
+              href: landed-cost/update-tracking-putaway.md
             - name: Väljalaadimiskulu päringud
               href: landed-cost/landed-cost-inquiries.md
             - name: Väljalaadimiskulu aruanded
@@ -3111,12 +3129,14 @@
                       href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Komplekteerimine ja pakkimine
                   items:
-                    - name: Kogumi komplekteerimise häälestus
+                    - name: Kogumi komplekteerimise häälestamine
                       href: warehousing/set-up-cluster-picking.md
                     - name: Kogumi positsioon on täis
                       href: warehousing/cluster-position-full.md
                     - name: Süsteemi suunatud kogumi komplekteerimine
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Müügi- ja üleviimistellimuste ülekomplekteerimine
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Pakkimisele ja ladustamisele erinevate dimensioonide määramine
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Partii ja litsentsiplaadi kinnitus
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Laohaldus
               items:
+                - name: 'Saadetist ei saa kinnitada, kuna klient on ootel'
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: 'Saadetist ei saa kinnitada, kuna koormaridadel on kogus null'
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: 'Koormarida ei saa värskendada, kuna vabastatud kogus oleks negatiivne'
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: Tühistatud toote sissetulekud ei värskenda kannete olekut olekusse Registreeritud
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: Värskendatava füüsilise koguse kümnendkohani ümardamine on vale

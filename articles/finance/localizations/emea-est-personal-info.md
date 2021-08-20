@@ -12,12 +12,12 @@ ms.search.region: Estonia
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2954aa2c3f0306ed56d6efb7d10ecfd3e24e6dc8
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 1b595729398af24dbfa52a31e443ba0c0b9edd2999b63eb4b8a2810c34618b36
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779382"
 ---
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 

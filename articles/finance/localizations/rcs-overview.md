@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358118"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012009"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ Vaadake lehel **Regulatory Configuration Service** üle ja nõustuge teenuse kas
 
 - **Registreeri**, kui olete teenuse esmakordne kasutaja ja kasutate ettevõtte meiliaadressi oma organisatsiooni teenusekeskkonna ettevalmistamiseks
 - **Logi sisse**, kui olete varem teenuse kasutajaks registreerunud ja soovite pääseda ligi oma ettevõtte keskkonnale
+
+> [!NOTE] 
+> Pärast registreerumist on soovitatav lisada RCS-keskkonda täiendav SysAdmin`i kasutaja. See kasutaja on ette nähtud keskkonna kaasadministraatoriks. See aitab tagada stabiilsust juurdepääsuks RCS-keskkonnale, kuna rolliga SysAdmin hallatakse kasutajaid selle keskkonna puhul. Saate kasutajaid lisada kasutades **RCS tööruumi > Süsteemihaldus**.
 
 ## <a name="regional-availability"></a>Piirkondlik kättesaadavus
 
