@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345496"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740691"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -142,8 +142,8 @@ Järgmiseid töötellimmused on praegu toetatud WES töömahtudele skaalaüksust
 
 - Müügitellimused
 - Edastuse väljaminek
-- Täiendamine
-- Lao liikumised
+- Toodangu täiendamine (v.a tootmiseks kasutatavad toormaterjalid)
+- Lao liikumine
 - Tsükliline inventuur
 - Ostutellimused (laotellimustega lingitud)
 
@@ -298,6 +298,7 @@ Järgmine tabel võtab kokku, milliseid laohalduse tootmistsenaariume (ja mida m
 | Teata lõpetamisest ja kaupade kõrvale panemisest | Jah | Jah |
 | Kaastoodete ja kõrvalsaaduste kõrvalepanek | Jah | Jah |
 | <p>Kõik muud laohalduse protsessid, mis on seotud tootmisega, kaasa arvatud:</p><li>Lattu väljastamine</li><li>Tootmisvoo töötlemine</li><li>Toormaterjalide komplekteerimine</li><li>Kanbani kõrvalepanek</li><li>Kanbani komplekteerimine</li><li>Käivita tootmistellimus</li><li>Tootmise praak</li><li>Tootmise viimane kaubaalus</li><li>Materjali tarbimise registreerimine</li><li>Tühi kanban</li></ul> | Jah | Ei |
+| Toormaterjali täiendamine | Ei | Ei |
 
 ## <a name="maintaining-scale-units-for-wes"></a>WES-i jaoks skaalaüksuste haldamine
 
