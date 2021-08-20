@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744794"
 ---
 # <a name="goods-in-transit-processing"></a>Transiidis olevate kaupade töötlemine
 
@@ -104,6 +104,7 @@ Kaupu saate vastu võtta ka saabumistöölehe loomisega. Saabumistöölehe saate
 1. Avage teekond, konteiner või foolio.
 1. Valige toimingupaani vahekaardi **Haldamine** jaotises **Funktsioonid** käsk **Loo saabumistööleht**.
 1. Dialoogiboksis **Saabumistöölehe loomine** määrake järgmised väärtused.
+
     - **Lähtesta kogus** – koguse määramiseks transiidi kogusest määrake selle sätte väärtuseks *Jah*. Kui selle sätte väärtus on *Ei*, ei määrata transiidis olevate kaupade ridadelt vaikekogust.
     - **Loo transiidis olevatest kaupadest** – määrake selle sätte väärtuseks *Jah*, et võtta kogused valitud teekonna, konteineri või foolio valitud transiidiridadelt.
     - **Loo tellimuse ridadelt** – määrake selle sätte väärtuseks *Jah*, et määrata saabumistöölehe vaikekogus ostutellimuse ridadelt. Saabumistöölehe vaikekoguse saab sel viisil määrata ainult siis, kui ostutellimuse rea kogus ühtib transiidis olevate kaupade tellimuse kogusega.
@@ -140,4 +141,21 @@ Väljalaadimiskulu lisab lehele *Asukohakorraldus* uue töökäsutüübi nimega 
 
 ### <a name="work-templates"></a>Töömallid
 
+See jaotis kirjeldab funktsioone, mida **väljaminev kulu** moodul lisab töömallidele.
+
+#### <a name="goods-in-transit-work-order-type"></a>Transporditöö tellimuse tüüp
+
 Väljalaadimiskulu lisab lehele *Töömallid* uue töökäsutüübi nimega **Transiidis olevad kaubad**. See töökäsutüüp tuleb konfigureerida sarnaselt [ostutellimuse töömallidega](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Tööpäise jaotused
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Töömalle, mille töötellimuse tüüp on *Transiidis kaubad*, saab konfigureerida tööpäiste tükeldamiseks. Lehel **Töömallid** tehke üht järgmistest.
+
+- Seadke malli vahekaardil **Üldine** tööpäise maksimumid. Need maksimumid töötavad samal viisil, nagu need töötavad ostutellimuse töömallide puhul. (Lisateavet vt [ostutellimuse töömallid](/dynamicsax-2012/appuser-itpro/create-a-work-template).)
+- Kasutage nuppu **Tööpäise piirid**, et määrata, millal süsteem peaks looma uusi tööpäiseid sõltuvalt sorteeritavatest väljadest. Näiteks, et luua tööpäis igale konteineri ID-le, valige toimingupaanil **Redigeeri päringut** ja siis lisage väli **Konteineri ID** päringuredaktoris vahekaardile **Sortimine**. Välju, mis on lisatud **Sortimise** vahekaardile, saab valida *grupeerimisväljadena*. Grupeerimisväljade määramiseks valige toimingupaanil **Tööpäise piirid** ja seejärel valige märkige iga välja puhul, mida soovite kasutada grupeerimisväljana, märkeruut veerus **Grupeeri selle välja järgi**.
+
+Väljaminev kulu [loob ülekande](over-under-transactions.md), kui registreeritud kogus ületab algse tellimuse koguse. Kui tööpäis on lõpule viidud, värskendab süsteem peamise tellimiskoguse varude tehingute olekut. Siiski värskendab see esmalt ülekandega seotud kogust pärast põhiosa täielikku ostmist.
+
+Kui tühistate juba registreeritud ülekande tööpäise, vähendatakse ülekande summat esmalt tühistatud koguse võrra. Pärast ülekandetehingu vähendamist koguseks 0 (null) eemaldatakse kirje ja lisakogused registreeritakse põhilise tellimiskoguse suhtes.
