@@ -2,7 +2,7 @@
 title: Finantsaruandluse ülevaade
 description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi.
 author: aprilolson
-ms.date: 12/04/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748206"
 ---
 # <a name="get-started-with-financial-reporting"></a>Rakenduse Financial Reporting kasutamise alustamine 
 
@@ -47,10 +47,10 @@ Finantsaruannete loomiseks ja genereerimiseks juriidilisele isikule tuleb seadis
 -   Kontoplaan
 -   Currency
 -   Sisestage kanne vähemalt ühele kontole
--   MainAccount on toodud veerus Valitud jaotises **Pearaamat > Pearaamatu seadistus > Finantsaruandluse seadistus**
+-   MainAccount on toodud veerus **Valitud** jaotises **Finantsaruandluse seadistuse** leht (**Pearaamat > Pearaamatu seadistus > Finantsaruandluse seadistus**)
 
-## <a name="granting-security-access-to-financial-reporting"></a>Rakendusele Financial Reporting turbejuurdepääsu võimaldamine
-Rahalise aruandluse funktsioonid on saadaval kasutajatele, kellele on turberollide kaudu määratud sobivad privileegid ja kohustused. Järgmistes jaotistes on nimetatud need privileegid ja kohustused koos seotud rollidega.
+## <a name="granting-security-access-to-financial-reporting"></a>Turvalisuse võimaldamine finantsaruandlusele
+Finantsaruandluse funktsioonid on saadaval kasutajatele, kellele on turberollide kaudu määratud sobivad privileegid ja kohustused. Järgmistes jaotistes on nimetatud need privileegid ja kohustused koos seotud rollidega.
 
 ### <a name="duties"></a>Kohustused
 
@@ -160,15 +160,52 @@ Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja av
 2. probleem: kasutajale ei ole määratud vajalikke lubasid rakenduse Financial Reporting kasutamiseks. 
 
 * Et kontrollida, kas kasutajal pole luba, valige suvand **Jah** tõrkes „Rakenduse Financial Reporting serveriga ei saanud ühendada. Valige Jah, kui soovite jätkata ja määrata teise serveri aadressi.” Seejärel valige **Testi ühendust**. Kui teil pole luba, kuvatakse teade, mis ütleb: „Ühenduse loomise katse nurjus. Kasutajal pole serveriga ühenduse loomiseks vajalikke lubasid. Pöörduge süsteemiadministraatori poole.”
-* Nõutavad load on loetletud ülalpool teemas [Rakendusele Financial Reporting turbejuurdepääsu võimaldamine](#granting-security-access-to-financial-reporting). Rakenduse Financial Reporting turve põhineb nendel lubadel. Teil pole juurdepääsu, kui teile pole määratud neid lubasid (või mõnda muud turberolli, mis sisaldab neid lubasid). 
+* Nõutavad load on loetletud ülalpool [Rakendusele Financial reporting turbejuurdepääsu võimaldamine](#granting-security-access-to-financial-reporting). Rakenduse Financial reporting turve põhineb nendel lubadel. Teil pole juurdepääsu, kui teile pole määratud neid lubasid (või mõnda muud turberolli, mis sisaldab neid lubasid). 
 * Integratsiooniülesanne **Ettevõtte kasutajate pakkuja ettevõttele** (mis vastutab ka kasutaja integreerimise eest) käivitub 5-minutilise vahemikuga. Rakenduses Financial Reporting mis tahes õiguste muudatuste jõustumiseks võib kuluda kuni 10 minutit. 
   Kui teine kasutaja saab avada aruande kujundaja, valige **Tööriistad** ja seejärel valige **Integratsiooni olek**. Kinnitage, et integratsiooni vastendamine „Ettevõtte kasutajate pakkuja ettevõttele” on edukalt käivitatud, kuna teile määrati luba rakenduse Financial Reporting kasutamiseks. 
 * Võib olla võimalik, et teine tõrge takistas suvandi **Dynamicsi kasutaja integreerimine rakenduse Financial Reporting kasutajaks** lõpetamist. Võib olla ka võimalik, et andmekava lähtestamine on käivitatud ja veel lõpule viimata või ilmnes mõni muu süsteemi tõrge. Proovige protsess hiljem uuesti käivitada. Kui probleem ei lahene, pöörduge oma süsteemiadministraatori poole.
 
-3. probleem: pääsete edasi ClickOnce'i aruande kujundaja sisselogimise lehelt, kuid ei saa aruande kujundajas sisselogimist lõpule viia. 
+3. probleem: pääsete edasi **ClickOnce'i Report Designer** sisselogimise lehelt, kuid ei saa rakenduses Report Designer sisselogimist lõpule viia. 
 
-* Mandaadi sisestamise ajal peab peie kohalikus arvutis määratud aeg jääma viie minuti vahemikku rakenduse Financial Reporting serveris oleva ajaga. Kui erinevus on üle viie minuti, ei luba süsteem sisse logida. 
-* Sellisel juhul soovitame lubada Windowsi suvandi, mis seadistab arvuti aja automaatselt. 
+* Kohalikus arvutis süsteemi sisselogimisel määratud aeg peab olema viie minuti jooksul pärast Financial Reporting serveris oldud aega. Kui erinevus on üle viie minuti, ei luba süsteem sisse logida. 
+* Kui teie arvuti kellaaeg erineb Financial aruandluse serveri ajast, soovitame lubada Windows suvandil seadistada arvuti aeg automaatselt. 
+
+## <a name="troubleshoot-report-designer-issues-with-event-viewer"></a>Report Designer probleemide tõrkeotsing sündmusevaaturiga
+
+Financial aruandluse kasutamisel tekkinud probleemide analüüsimiseks saate kasutada sündmusevaaturit. 
+
+### <a name="what-happens-when-you-have-connections-issues-with-financial-reporting"></a>Mis toimub siis, kui teil on probleemid Financial aruandlusega? 
+
+Siin on mõned sammud, mida saate teha, et muuta oma vestlus Microsoft`i toega tõhusamaks, mis aitab viia teid kiiremini lahenduseni. 
+ 
+Järgmised sammud läbivad sündmusevaaturi teadete sisselutusprotsessi Financial aruandluses. Sündmustevaaturi loodud logid aitavad insenere ühenduse probleemi kiires tuvastamises. Esitage nende logide koopiad koos oma piletiga toe saamiseks.
+
+> 1.    Kopeerib faili RegisterETW.zip kliendi tööjaama (eelistatult töölauale) ja ekstraktib [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+
+> 2.    Veenduge, et Windows Event vaatur on suletud.
+
+> 3.    Avage administraatori PowerShell käsuviip ja minge kataloogi, kus asub RegisterETW.ps1.
+
+> 4.    Käivitage järgmine käsk: .\RegisterETW.ps1
+   
+   PowerShell`i edukas väljund kontrollitakse teatega, **kompetenteeritud RegisterETW skriptiga**.
+Avage sündmusevaatur uuesti ja nüüd näete neid logisid **Microsoft > Dynamicsis**: * MR-Klient * MR-DVT * MR-Integration * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
+   
+> 5. Probleemi taasesitamine rakenduses report designer.
+   
+> 6. Eksportige MR-logija sündmused sündmusevaaturi abil.
+
+## <a name="troubleshoot-issues-connecting-to-financial-reporting"></a>Financial aruandlust ühendavate probleemide tõrkeotsing
+
+Probleem: kuvatakse tõrge "Ei saa ühendust Financial aruandlusserveriga".
+
+* Määrake, kas probleem ilmneb Chrome või Edge interneti-brauserites.
+* Kui probleem ilmneb ainult ühes brauseris, võib see olla ClickOnce probleem. 
+* Kui saate ühenduse veateate, valige ühenduse testimiseks **Test** katsetus, et näha, milline teade kuvatakse. 
+* Probleem võib olla tingitud teisest kasutajast, kellel pole Financial aruandlusele juurdepääsu. Kui kasutajal ei ole juurdepääsu, saab ta teate, et tal pole luba.
+* Kui probleem ilmneb mitmes brauseris, veenduge, et tööjaama kella väärtuseks oleks seatud automaatne.
+* Töötage kasutajaga, kellel on turvaadministraatori õigused rakenduses Dynamics 365 Finance  ja võrgudomeenis administraatoriõigused, et logida sisse oma tööjaama, et näha, kas nad on ühendatud. Kui nad saavad ühendust, võib probleem olla seotud võrguõigustega.
+* Keelake tööjaamas ajutiselt tulemüür. Kui saate siis rakendusega Report Designer ühenduse luua, oli probleem seotud tulemüüriga. Probleemi lahendamiseks tehke koostööd oma organisatsiooni IT-osakonnaga.
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Finantsaruannete vaatamine](view-financial-reports.md)

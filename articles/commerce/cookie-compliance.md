@@ -2,7 +2,7 @@
 title: Küpsise vastavus
 description: Selles teemas kirjeldatakse küpsise vastavuse ja Microsoft Dynamics 365 Commerce'is sisalduva vaikepoliitika kaalutlusi.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747693"
 ---
 # <a name="cookie-compliance"></a>Küpsise vastavus
 
@@ -54,6 +54,10 @@ Järgmises tabelis on toodud Dynamics 365 Commerce'i saitide asetatud küpsiste 
 | \_msdyn365___muid_                            | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse katse eesmärgil kassutaja Id-na. | 1 aasta |
 | \_msdyn365___exp_                             | Kasutatakse, kui eksperimenteerimine on keskkonna jaoks aktiveeritud; kasutatakse jõudluse koormuse tasakaalustamise mõõtmiseks.         | 1 tund |
 | d365mkt                                       | Kasutatakse juhul, kui asukohapõhine tuvastamine kasutaja IP-aadressi jälgimiseks poe asukohasoovituste jaoks on Commerce saidi koostajas lubatud aadressil **Saidisätted \> Üldine \> Luba asukohapõhine poetuvastus**.      | 1 tund |
+| \_msdyn365___tuid_                           | Kasutatakse ainult siis, kui katsed on keskkonna jaoks aktiveeritud; loob kasutaja identifikaatorina toimimiseks GUID-i. Väärtus muutub, kui kasutaja sisselogimisolek muutub.      | 1 aasta |
+| \_msdyn365___aud_0                          | Talletab sihtimises kasutatavaid segmendiväärtusi ja seda kasutatakse ainult siis, kui sihtimine on konfigureeritud saidi kasutaja soovitud lehel või fragmendil. Küpsis paigutatakse ainult siis, kui segmendi väärtused pärinevad kolmanda osapoole segmentimise pakkujalt.      | 7 päeva |
+| \_msdyn365___aud_1                           | Talletab sihtimises kasutatavaid segmendiväärtusi ja seda kasutatakse ainult siis, kui sihtimine on konfigureeritud saidi kasutaja soovitud lehel või fragmendil. Küpsis paigutatakse ainult siis, kui segmendi väärtused pärinevad kolmanda osapoole segmentimise pakkujalt.      | 7 päeva |
+| \_msdyn365___aud_2                           | Talletab sihtimises kasutatavaid segmendiväärtusi ja seda kasutatakse ainult siis, kui sihtimine on konfigureeritud saidi kasutaja soovitud lehel või fragmendil. Küpsis paigutatakse ainult siis, kui segmendi väärtused pärinevad kolmanda osapoole segmentimise pakkujalt.      | 7 päeva |
 
 Kui saidi kasutaja valib saidil sotsiaalmeedia lingid, jälgitakse järgmises tabelis olevaid küpsiseid ka nende brauseris.
 
