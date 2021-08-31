@@ -2,7 +2,7 @@
 title: Finance'i avaleht
 description: Selles teemas on teenuse Microsoft Dynamics 365 Finance finantshalduse funktsioonide spikriteemade ja muude ressursside loend.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779418"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394559"
 ---
 # <a name="finance-home-page"></a>Finance'i avaleht
 
@@ -35,6 +35,7 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
     :::column:::
         - [Ostureskontro](accounts-payable/accounts-payable.md) 
         - [Müügireskontro](accounts-receivable/accounts-receivable.md)
+        - [Vara rentimine](asset-leasing/asset-leasing-homepage.md)
         - [Eelarvestamine](budgeting/budgeting-overview.md) 
         - [Sularaha- ja pangahaldus](cash-bank-management/cash-bank-management.md)
         - [Kuluarvestus](cost-accounting/cost-accounting-home-page.md)
@@ -43,6 +44,7 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
         - [Kulude haldus](/dynamics365/project-operations/prod-exp/expense-management)
         - [Finantsaruandlus](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Põhivarad](fixed-assets/fixed-assets.md)
+        - [Finance'i ülevaated](finance-insights/finance-insights-home-page.md)
         - [Pearaamat ja finantsaruandlus](general-ledger/general-ledger.md) 
         - [Projektihaldus ja -arvestus](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Avalik sektor](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 - [Microsoft Dynamics 365 ajaveeb](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [Ajaveeb Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>Tegevuse juhised
-Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
 
 ### <a name="videos"></a>Videod
 

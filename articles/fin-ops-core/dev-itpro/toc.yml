@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Toimingu/tegevuse oleku toomine
                       href: database/api/v1/reference-get-status.md
-                    - name: Keskkondade käivitamine ja lõpetamine
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Demoandmed
           items:
             - name: Demoandmete ülevaade
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Ettevõtte järjepidevus ja avariijärgne taaste
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Azure Resource Manageri kasutuselevõtu lõpuleviimine
+                - name: Azure Resource Manageri kasutuselevõtuprotsessi lõpuleviimine
                   href: deployment/arm-onboarding.md
+                - name: Azure Resource Manageri kasutuselevõtuprotsessi lõpuleviimine USA valitsuse LCS-i projektide jaoks
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute ja Finance and Operations
                   href: deployment/expressroute.md
                 - name: Finance and Operationsi arhitektuur
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneritele
                   href: lifecycle-services/getting-started-lcs.md
+                - name: ReSTful API-d
+                  items:
+                    - name: Keskkondade käivitamine ja lõpetamine
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Keskkonna metaandmete toomine
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Keskkonna ajaloo toomine
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Keskkonna RSAT-serdi ZIP-i toomine
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Mis on uut või mida on muudetud teenuses Lifecycle Services?
                   href: lifecycle-services/whats-new-lcs.md
             - name: Teenuse Lifecycle Services kasutusjuhend
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Tõrkeotsing
                       items:
-                        - name: Topeltkirjutuse konfiguratsiooni kontrollimine Finance and Operationsi rakendustes ja Dataverse'is
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Üldine tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Tõrkeotsingu probleemid algse häälestuse ajal
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Finance and Operationsi rakendustes topeltkirjutuse probleemide tõrkeotsing
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Reaalajas sünkroonimise probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Finance and Operationsi rakendustes topeltkirjutuse probleemide tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Osapoole ja globaalse aadressiraamatu probleemide tõrkeotsing
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Lahenduse teadlikkusega seotud probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Finance and Operationsi rakenduste värskenduste probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Üldine tõrkeotsing
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Topeltkirjutuse konfiguratsiooni kontrollimine Finance and Operationsi rakendustes ja Dataverse'is
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Korduma kippuvad küsimused topeltkirjutuse kohta
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuaalsed üksused

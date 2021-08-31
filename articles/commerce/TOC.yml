@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Modern POS-i ülesehitus
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Võrgupoe kanali avaldamine
+                - name: Võrgupoe kataloogi avaldamine
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance’i Power BI sisu
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: ER-i konfiguratsioonide allalaadimine rakendusse Commerce
+                  items:
+                    - name: Konfiguratsioonide allalaadimine RCS-ist
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfiguratsioonide importimine RCS-ist
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Globaalne hoidla (GR)
+                  items:
+                    - name: Konfiguratsioonide importimine GR-ist
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER-i konfiguratsioonide värskendatud versioonide import
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfiguratsioonide üleslaadimine GR-i
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfiguratsioonide jagamine GR-is
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
@@ -1315,6 +1335,12 @@
                 - name: Kassaaparaadi funktsioonid
                   href: localizations/emea-fra-cash-registers.md
                 - name: Kassaaparaatide juurutamise juhised
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: Fiskaalarhiivi ja andmete terviklikkuse kontrollimine
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: Üleminek pärandfunktsioonidelt Prantsusmaa jaoks
+                  href: localizations/emea-fra-fi-migration.md
+                - name: Kassaaparaatide juurutamise juhised (pärand)
                   href: localizations/emea-fra-deployment.md
             - name: Saksamaa
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: Commerce'i lokaliseerimine Venemaa jaoks
                   href: localizations/rus-commerce-localization.md
+                - name: Kliendiaadressi lihtsustatud vorming Commerce'i kassas Venemaa jaoks
+                  href: localizations/rus-simplified-address.md
                 - name: Commerce'i lokaliseerimine Venemaa jaoks – häälestamine
                   href: localizations/rus-commerce-setup.md
                 - name: Ettemaksed Commerce'is Venemaa jaoks
@@ -1860,30 +1888,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfiguratsioonide importimine (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: Globaliseerimise funktsioonid RCS-is
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER-i konfiguratsioonide allalaadimine rakendusse Commerce
-                      items:
-                        - name: Konfiguratsioonide allalaadimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfiguratsioonide importimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Globaalne hoidla (GR)
-                      items:
-                        - name: Konfiguratsioonide importimine GR-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: ER-i konfiguratsioonide värskendatud versioonide import
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfiguratsioonide üleslaadimine GR-i
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfiguratsioonide jagamine GR-is
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Lühijuhendid
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
@@ -2112,7 +2116,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Üksuse andmete avamine Excelis ja nende värskendamine Exceli lisandmooduliga
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Excelis avamise kogemuste loomine
+            - name: Excelis avamise kogemuste KKK
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Exceli menüüsse Ava read mallide lisamine
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
@@ -2360,6 +2364,8 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Azure'i võtmehoidla häälestamine turvaliseks võtmehalduseks
                       href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: Taotluse konveieri lisandmooduli konksu loomine
+                      href: e-commerce-extensibility/request-pipeline-hook.md
                 - name: Andmetegevuste haldamine
                   items:
                     - name: Andmetegevuste ülevaade
@@ -2422,6 +2428,12 @@
                   items:
                     - name: Konnektorite konfigureerimine ja lubamine
                       href: e-commerce-extensibility/connectors.md
+                - name: Jõudlus
+                  items:
+                    - name: Lehtede vahemällu salvestamise konfigureerimine
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: Andmetegevuse eksemplari vahemälu
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: Telemeetria ja analüüs
                   items:
                     - name: Telemeetria logija

@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Finantstöölehe mallide avamine Office'is
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Töölehe sisestamise tõrge tasakaalustamatuse tõttu
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Miks ma ei saa seda kannet tühistada?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Finantsaruandlus
@@ -1482,6 +1484,26 @@
                       href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-i konfiguratsioonide allalaadimine rakendusse Finance
+                      items:
+                        - name: Konfiguratsioonide allalaadimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide importimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Globaalne hoidla (GR)
+                      items:
+                        - name: Konfiguratsioonide importimine GR-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: ER-i konfiguratsioonide värskendatud versioonide import
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide üleslaadimine GR-i
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide jagamine GR-is
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Elektrooniline arveldus
                   items:
                     - name: Elektroonilise arvelduse ülevaade
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Maksuarvutuse ülevaade
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Maksuarvutusega alustamine
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: Käibemaksu kohaldatavuse ja käibemaksugrupi määramise loogika
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Maksufunktsiooni tugi üleviimistellimuste jaoks
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Maksu arvutamine lisaks hinnale, kui valik Hinnad sisaldavad makse on lubatud'
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Andmeväljade lisamine maksukonfiguratsioonidesse
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Andmeväljade lisamine maksu integreerimisse, kasutades laiendusi'
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Koondandmete otsingu keskkonna häälestamine
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Mitu käibemaksu registreerimisnumbrit
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Mitme KM-i registreerimise aruandlus
+                    - name: Häälestus
                       items:
+                        - name: Maksuarvutusega alustamine
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Koondandmete otsingu keskkonna häälestamine
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Määratlemine
+                      items:
+                        - name: Käibemaksu kohaldatavuse ja käibemaksugrupi määramise loogika
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Arvutus
+                      items:
+                        - name: 'Maksu arvutamine hindadelt, kui valik Hinnad sisaldavad makse on lubatud'
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Maksuarvutuse ümardamisreeglid
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Mitu käibemaksu registreerimist
+                      items:
+                        - name: Mitu käibemaksu registreerimisnumbrit
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Mitme KM-i registreerimise aruandlus
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Prantsusmaa aruandlus
                           items:
                             - name: Käibemaksudeklaratsioon
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Hollandi aruandlus
                           items:
                             - name: Käibemaksudeklaratsioon
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: EL käibearuanne
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Šveitsi aruandlus
+                          items:
+                            - name: Käibemaksudeklaratsioon
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Ühendkuningriigi aruandlus
                           items:
                             - name: MTD-ga integreerimiseks ettevalmistamine KM-i jaoks
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Üleviimistellimuse maksuarvutuse lubamine
+                      items:
+                        - name: Maksufunktsiooni tugi üleviimistellimuste jaoks
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Laiendus
+                      items:
+                        - name: Andmeväljade lisamine maksukonfiguratsioonidesse
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Andmeväljade lisamine maksu integreerimisse, kasutades laiendusi'
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
             - name: Austraalia
@@ -1710,6 +1748,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e parameetrite seadistamine maksuameti jaoks
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.005 – paigutuse ja kinnitamise uuendused elektroonilises fiskaaldokumendis (NF-e)
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – vahendaja müügi digitaalne platvorm NF-e jaoks
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 – maksusoodustused ja maksuvabastuse reeglid NF-e/NFC-e jaoks
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Maksukanded
                           items:
-                            - name: GST TDS kaupade ja teenuste eest maksmisel
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Ostukanded
                               items:
                                 - name: Ostud registreerimata hankijatelt
@@ -2370,6 +2408,10 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: 'Hankija ettemaksed, millel on pöördtasusid'
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: GST TDS kaupade ja teenuste eest maksmisel
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: GST TCS kaupade ja teenuste eest maksmisel
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Müügikanded
                               items:
                                 - name: Maksustatavate kaupade müük tarbijatele
@@ -3132,14 +3174,16 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Põhivarade ülekandmine
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: Põhivara ühtsed printimisvormid
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Päringud ja aruanded
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Ei ole väärtuslik põhivara ega töörõivad
                       items:
                         - name: Väheväärtuslik põhivara (Venemaa)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Töörõivaste/erivarustuse raamatupidamine (Venemaa)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Põhivara ühtsed printimisvormid
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Müügi- ja ostureskontrod
                   items:
                     - name: Kreeditarve parandused (Venemaa)
@@ -3330,6 +3374,8 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Šveitsi QR-arved
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: Käibemaksudeklaratsioon
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Tai
               items:
                 - name: Tai ülevaade
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Konfiguratsioonide importimine (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: Globaliseerimise funktsioonid RCS-is
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: ER-i konfiguratsioonide allalaadimine rakendusse Finance
-                      items:
-                        - name: Konfiguratsioonide allalaadimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide importimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Globaalne hoidla (GR)
-                      items:
-                        - name: Konfiguratsioonide importimine GR-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: ER-i konfiguratsioonide värskendatud versioonide import
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide üleslaadimine GR-i
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide jagamine GR-is
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Lühijuhendid
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
@@ -4355,7 +4377,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Üksuse andmete avamine Excelis ja nende värskendamine Exceli lisandmooduliga
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Excelis avamise kogemuste loomine
+            - name: Excelis avamise kogemuste KKK
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Exceli menüüsse Ava read mallide lisamine
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json

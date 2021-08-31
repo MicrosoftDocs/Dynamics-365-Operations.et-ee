@@ -222,6 +222,26 @@
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER-i konfiguratsioonide allalaadimine Supply Chain Managementi
+                      items:
+                        - name: Konfiguratsioonide allalaadimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfiguratsioonide importimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Globaalne hoidla (GR)
+                      items:
+                        - name: Konfiguratsioonide importimine GR-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ER-i konfiguratsioonide värskendatud versioonide import
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfiguratsioonide üleslaadimine GR-i
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: Konfiguratsioonide jagamine GR-is
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektrooniline arveldus
                   items:
                     - name: Elektroonilise arvelduse ülevaade
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Konfiguratsioonide importimine (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory service (RCS)
-                  items:
-                    - name: Globaliseerimise funktsioonid RCS-is
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-i konfiguratsioonide allalaadimine Supply Chain Managementi
-                      items:
-                        - name: Konfiguratsioonide allalaadimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfiguratsioonide importimine RCS-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Globaalne hoidla (GR)
-                      items:
-                        - name: Konfiguratsioonide importimine GR-ist
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ER-i konfiguratsioonide värskendatud versioonide import
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfiguratsioonide üleslaadimine GR-i
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Konfiguratsioonide jagamine GR-is
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Lühijuhendid
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
@@ -1574,7 +1570,19 @@
             - name: Laokannete arhiivimine
               href: inventory/archive-inventory-transactions.md
             - name: Varude nähtavuse lisandmoodul
-              href: inventory/inventory-visibility.md
+              items:
+                - name: Varude nähtavuse lisandmooduli ülevaade
+                  href: inventory/inventory-visibility.md
+                - name: Varude nähtavuse häälestamine
+                  href: inventory/inventory-visibility-setup.md
+                - name: Varude nähtavuse konfigureerimine
+                  href: inventory/inventory-visibility-configuration.md
+                - name: Varude nähtavuse reserveeringud
+                  href: inventory/inventory-visibility-reservations.md
+                - name: Varude nähtavuse Power App
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: Varude nähtavuse avalikud API-d
+                  href: inventory/inventory-visibility-api.md
         - name: IoT iseõppimisvõime
           items:
             - name: IoT iseõppimisvõime avaleht
@@ -1607,6 +1615,8 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: Planeerimise optimeerimise sobivuse analüüs
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Integreeritud koondplaneerimise ja planeerimise optimeerimise vahelised erinevused
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: 'Parameetrid, mida planeerimise optimeerimine ei kasuta'
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Filtrite rakendamine plaanile
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Üksuse andmete avamine Excelis ja nende värskendamine Exceli lisandmooduliga
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Excelis avamise kogemuste loomine
+            - name: Excelis avamise kogemuste KKK
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Exceli menüüsse Ava read mallide lisamine
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: Pakkumiskutse loomine
                   href: procurement/tasks/create-request-quotation.md
-                - name: Pitseeritud pakkumine pakkumiskutsete puhul
-                  href: procurement/sealed-bidding.md
                 - name: Pakkumiskutset kasutava taotluse loomine
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Pakkumiskutsetele hindamismeetodi loomine
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Laorakenduse installimine ja ühendamine
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Mobiilse vöötkoodi tugi
+                      href: warehousing/mobile-barcode-support.md
                     - name: Vöötkoodide skannimine kaamera abil mobiilirakenduses Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Mobiilirakenduse Warehouse Management ühendusprobleemide tõrkeotsing
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiilsete seadmete häälestus laotöö jaoks
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Mobiilirakenduse Warehouse Management etapipealkirjade ja juhiste kohandamine
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: Laorakenduse sündmusetöötlus
                   href: warehousing/warehouse-app-events.md
-                - name: Laorakenduse kohandamine
+                - name: Lao mobiilsete protsesside laiendamine
                   items:
                     - name: Protsessijuhendi raamistik
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Mobiilse vöötkoodi tugi
-                      href: warehousing/mobile-barcode-support.md
+                    - name: GS1-vöötkoodid ja QR-koodid
+                      href: warehousing/gs1-barcodes.md
                     - name: Lao häälestamine üleviimistellimuste jaoks
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Lao konfiguratsiooni tõrkeotsing
