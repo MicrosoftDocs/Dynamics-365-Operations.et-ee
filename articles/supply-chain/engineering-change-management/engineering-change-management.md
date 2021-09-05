@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714326"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384581"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Tehniliste toodete muudatuste haldamine
 
@@ -113,16 +113,16 @@ Mõjutatud kannete ülevaatamiseks, valitud kannete blokeerimiseks ja teatiste s
     - **Vaadake kannet** - Avage valitud kandekirje.
     - **Blokeeri tellimus** - See nupp on saadaval ainult **Müügitellimused** vahekaart. Valige see valitud müügitellimuse blokeerimiseks.
     - **Blokeeri rida** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see, et blokeerida valitud ostutellimuse rida.
-    - **Teavitage vastutajat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see muudatusteatise saatmiseks valitud müügitellimuse eest vastutavale kasutajale.
-    - **Teavitage tellijat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks.
-    - **Teavita tootmist** – see nupp on saadaval ainult **Tootmistellimused** vahekaardil. Erinevalt müügitellimustest ja ostutellimustest ei ole tootmistellimustel ühtegi kasutajat, kes on määratud nende eest vastutavaks lõpuni. Selle asemel saavad erinevad ülevaatajad või planeerijad tavaliselt omanikud kindlale saidile või kindlale tootmise osale (nt kindlatele ressurssidele või ressursigruppidele). Seetõttu saavad selle nupu valimisel muutmisteatise kõik kasutajad, kes vastutavad valitud tootmistellimusega seotud ressursside eest.
-    - **Teavitage ettevalmistajat** - See nupp on saadaval ainult **Ostutellimus** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks.
-    - **Teavitage müügivastutusest** - See nupp on saadaval ainult **Pakkumised** vahekaardil. Valige see muudatusteatis saatmiseks kasutajale, kes on määratud vastutama valitud pakkumise eest.
+    - **Teavitage vastutajat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see muudatusteatise saatmiseks valitud müügitellimuse eest vastutavale kasutajale. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
+    - **Teavitage tellijat** - See nupp on saadaval ainult **Müügitellimused** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
+    - **Teavita tootmist** – see nupp on saadaval ainult **Tootmistellimused** vahekaardil. Erinevalt müügitellimustest ja ostutellimustest ei ole tootmistellimustel ühtegi kasutajat, kes on määratud nende eest vastutavaks lõpuni. Selle asemel saavad erinevad ülevaatajad või planeerijad tavaliselt omanikud kindlale saidile või kindlale tootmise osale (nt kindlatele ressurssidele või ressursigruppidele). Seetõttu saavad selle nupu valimisel muutmisteatise kõik kasutajad, kes vastutavad valitud tootmistellimusega seotud ressursside eest. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
+    - **Teavitage ettevalmistajat** - See nupp on saadaval ainult **Ostutellimus** vahekaardil. Valige see, et saata muutmisteatis kasutajale, kes on määratud valitud ostutellimuse tellijaks. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
+    - **Teavitage müügivastutusest** - See nupp on saadaval ainult **Pakkumised** vahekaardil. Valige see muudatusteatis saatmiseks kasutajale, kes on määratud vastutama valitud pakkumise eest. Lisateavet selle kohta, kes näeb teatisi ja kuidas seda vaadata, vaadake [kannete muutmise teatiste ülevaatamist ja töötlemisest](#review-notifications).
     - **Jäägid** - See nupp on saadaval ainult **Varud** vahekaardil. Valige see valitud laovaru mahakandmiseks.
     - **Kuva ajalugu** – Avage valitud kandega seotud tegevuste ajalugu, kasutades dialoogiboksi **Ärimõju avatud kannetele**. (Näiteks näitab ajalugu, kas teatised on saadetud või kanded on blokeeritud.) 
     - **Vaadake kõiki kandeid** – Avage kõigi kannete, mitte ainult avatud kannete täielik loend.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Kannete muutmise teatiste ülevaatamine ja protsess
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Kannete muutmise teatiste ülevaatamine ja protsess
 
 Saate lugeda ja töödelda muutuseteatisi, mida saate järgmistel viisidel:
 

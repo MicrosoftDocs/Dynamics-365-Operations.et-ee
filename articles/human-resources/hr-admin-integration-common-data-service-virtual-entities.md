@@ -1,8 +1,8 @@
 ---
 title: Dataverse'i virtuaalsete tabelite konfigureerimine
-description: Selles teemas kirjeldatakse virtuaalsete tabelite konfigureerimist rakenduse Dynamics 365 Human Resources jaoks. Looge ja värskendage olemasolevaid virtuaalseid tabeleid ning analüüsige loodud ja saadaolevaid tabeleid.
-author: andreabichsel
-ms.date: 01/25/2021
+description: See teema näitab, kuidas konfigureerida, luua, uuendada olemasolevaid virtuaaltabeleid ning analüüsida loodud ja saadaolevaid tabeleid Dynamics 365 Human Resources jaoks.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721603"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414660"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse'i virtuaalsete tabelite konfigureerimine
 
@@ -140,6 +140,9 @@ Järgmine samm on konfigureerida virtuaalse tabeli andmeallikas Power Appsi kesk
 
      >[!NOTE]
      >Tõrketeate kuvamise välistamiseks lisage URL-i lõppu märk „**/**“.
+
+     >[!NOTE]
+     >Siht-URL määrab inimressursside keskkonna, milleni virtuaalsed tabelid andmete eest liidavad. Kui loote uuenduskeskkonna, luues tootmiskeskkonnast koopia, uuendage see väärtus oma uue sisendkausta keskkonna nimeruumi URL-iks. See tagab, et virtuaalsed tabelid on ühendatud liivakasti keskkonna andmetega, selle asemel, et osutada tootmiskeskkonnale.
 
    - **Rentniku ID**: Azure Active Directory (Azure AD) rentniku ID.
 

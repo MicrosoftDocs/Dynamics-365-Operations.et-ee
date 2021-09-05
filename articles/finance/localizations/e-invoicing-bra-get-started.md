@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730473"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345193"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Alustage elektroonilise arveldusega Brasiilias 
 
@@ -55,7 +55,7 @@ Viige need sammud lõpule enne rakenduse häälestuse juurutamist ühendatud fin
 
 See jaotis täiendab **Rakenduse seadistamise riigispetsiifilist funktsiooni** jaotist teemas [Alusta elektroonilise arveldusega](e-invoicing-get-started.md).
 
-1. RCS-is **Funktsioonid** jaotisest **Globaliseerimisfunktsioonid** tööruum valige **Elektroonilise arvelduse lisandmoodul* plaan.
+1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
 2. Lehel **Elektroonilise arveldamise Funktsioonid** veenduge, et **Brasiilia NF-e (BR)** on valitud loodud elektroonilise arveldamise funktsioon.
 3. Vahekaardil **Versioon** kontrollige, et oleks valitud versioon **Mustand**.
 4. Vahekaardil **Seadistused** valige **rakenduse häälestus** ja **Ühendatud rakendus** väljal, valige rakendus, kuhu soovite juurutada.

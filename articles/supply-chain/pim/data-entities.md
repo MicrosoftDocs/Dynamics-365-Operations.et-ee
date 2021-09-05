@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: f40b4157520a399f1c2971a425e47b904b3b2f5eb30b87e54f8b810647bcdaeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf23284729cd10569ceb320d5fd30f8429974c3d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747909"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344754"
 ---
 # <a name="product-data-entities"></a>Toote andmeüksused
 
@@ -41,8 +41,8 @@ Toote andmete importimiseks ja eksportimiseks peate kasutama andmeüksuseid. Jä
 | Müüdavad väljastatud tooted | `EcoResSellableReleasedProductEntity` | Seda üksust kasutatakse ainult müüdavate toodete eksportimiseks. Müüdavad tooted on toote, mis omavat teavet, mida need müügitellimuses kasutamiseks vajavad. Samad reeglid kehtivad, kui toode valideeritakse funktsiooniga **Valideeri** lehel **Vabastatud tooted**. |
 | Väljastatud eristatavad tooted V2 | `EcoResDistinctProductV2Entity` | Seda üksust kasutatakse eristatavate toodete eksportimiseks. Need eristatavad tooted võivad olla tooted, alamtüübi tooted ja tootevariandid. |
 | Väljastatud tooteetalonid V2 | `EcoResProductMasterV2Entity` | Seda üksust kasutatakse tooteetalonide importimiseks ja eksportimiseks. See pole andmehalduse jaoks lubatud. |
-| Kaup – vöötkood | `EcoResProductBarcodeEntityV3` | Seda üksust kasutatakse toodete ja vöötkoodide eksportimiseks. Selle üksuse korral pole lubatud muudatuste jälgimine, värskendamine ega kustutamine. Vöötkoodide muudatuste jälgimiseks, värskendamiseks või kustutamiseks kasutage üksust **Kauba ja vöötkoodi seos**. |
-| Kauba ja vöötkoodi seos | `EcoResProductBarcodeAssociationEntity` | Seda üksust kasutatakse toodete ja vöötkoodide eksportimiseks. See võimaldab jälgida muudatusi, värskendada ja kustutada. Üksuse kasutamiseks peab funktsioon *Kauba ja vöötkoodi täiustused* olema lubatud [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Selle üksusevõti on `AssociationID`, mis loob seose vöötkoodi ja toote vahel. Selle võtme toe lisamiseks asustatakse tabel `InventitemBarcodeAssociation` olemasoleva kauba vöötkoodiandmetega, kui lülitate funktsiooni sisse. Tabel asustatakse pakett-töö kaudu ja kui vöötkoodi tabelil on palju kirjeid, võib pakett-töö käitamiseks kuluda palju aega. Seetõttu soovitame teil funktsioon lubada (ja seega pakett-töö käitada) ajal, mis sobib teie ettevõtte graafikuga. |
+| Kaup – vöötkood | `EcoResProductBarcodeEntityV3` | Seda üksust kasutatakse toodete ja vöötkoodide eksportimiseks. Selle üksuse korral pole lubatud muudatuste jälgimine, värskendamine ega kustutamine. Vöötkoodide muudatuste jälgimiseks, värskendamiseks või kustutamiseks kasutage **Üksus - Kauba vöötkood** üksust. |
+| Kauba ja vöötkoodi seos | `EcoResProductBarcodeAssociationEntity` | Seda üksust kasutatakse toodete ja vöötkoodide eksportimiseks. See võimaldab jälgida muudatusi, värskendada ja kustutada. Üksuse kasutamiseks peab funktsioon *Kauba ja vöötkoodi täiustused* olema lubatud [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Selle üksuse võti on `AssociationID`, mis loob seose vöötkoodi ja toote vahel. Selle võtme toe lisamiseks asustatakse tabel `InventitemBarcodeAssociation` olemasoleva kauba vöötkoodiandmetega, kui lülitate funktsiooni sisse. Tabelit kasustatakse pakett-töö kaudu ja kui vöötkoodi tabelil on palju kirjeid, võib pakett-töö käitamiseks kuluda palju aega. Seetõttu soovitame teil funktsioon lubada (ja seega pakett-töö käitada) ajal, mis sobib teie ettevõtte graafikuga. |
 | Toote elutsükli olekud | `EcoResProductLifecycleSateEntity` | Seda üksust kasutatakse erinevate toote töötsükli olekute importimiseks ja eksportimiseks, mida saab tootele määrata. |
 
 > [!NOTE]

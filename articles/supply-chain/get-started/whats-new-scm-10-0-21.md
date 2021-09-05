@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.21 eelversioon (oktoober 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.21 uusi või muutunud funktsioone.
 author: kamaybac
-ms.date: 08/02/2021
+ms.date: 08/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 517411512760374f1d1fd3b8ea3615563c47202c2e847569d00cb17a94657630
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
+ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012033"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7391204"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Dynamics 365 Supply Chain Management 10.0.21 eelversioon (oktoober 2021)
 
@@ -29,17 +29,18 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** oktoober 2021
 
 ## <a name="known-deployment-issue"></a>Teadaolev juurutuse probleem
+
 Juurutades IaaS-i versiooni 10.0.21, võidakse kuvada järgmine juurutamise hoiatus.
 
 **Hoiatuskood:** 95017
 
-**Hoiatusteade:** skripti [SetupDiagnostics] käivitamine VM-is nurjus
+**Hoiatusteade:** skripti \[SetupDiagnostics\] käivitamine VM-is nurjus
 
-Juurutamine töötab hoolimata hoiatusest, kuid Lifecycle Services (LCS) võivad ilmneda järgmised teadaolevad probleemid.
+Juurutamine toimib hoiatusest hoolimata. Siiski võivad teenuses Lifecycle Services (LCS) ilmneda järgmised teadaolevad probleemid.
 
--   **Keskkonna jälgimise** lehel ei kuvata **üksikasjalikku versiooniteabe** linki, seega ei saa te vaadata teie keskkonnas installitud moodulite kindlaid versioone. Ilma nende andmeteta võivad järgnevad kiirparandused nurjuda, kuna kiirparandusi kasutav protsess kasutab neid andmeid, et kontrollida, kas mooduli versiooni eeltingimused on täidetud. Kuna PEAP/Preview koostet ei saa tootmises kasutada või kiirparandusi rakendada, peaks mõju olema minimaalne.
--   SQL Insights'i jaotise **Keskkonnaseire** lehe **Jõudlusmõõdikud** ja **Indeksi analüüs** vahekaardid ei kuva andmeid. Kõik teised **Keskkonna seire** funktsioonid töötavad nii, nagu ette nähtud.
--   **Kogu süsteemi diagnostika** lehekülg pole kättesaadav. Seotud andmeid igatunnise koguja oleku kohta ja selle reeglite järgi tuvastatud probleemid ei ilmu samuti.
+- **Keskkonna jälgimise** lehel ei kuvata **üksikasjalikku versiooniteabe** linki, seega ei saa te vaadata teie keskkonnas installitud moodulite kindlaid versioone. Ilma nende andmeteta võivad järgnevad kiirparandused nurjuda, kuna kiirparandusi kasutav protsess kasutab neid andmeid, et kontrollida, kas mooduli versiooni eeltingimused on täidetud. Kuna PEAP/Preview koostet ei saa tootmises kasutada või kiirparandusi rakendada, peaks mõju olema minimaalne.
+- SQL Insights'i jaotise **Keskkonnaseire** lehe **Jõudlusmõõdikud** ja **Indeksi analüüs** vahekaardid ei kuva andmeid. Kõik teised **Keskkonna seire** funktsioonid töötavad nii, nagu ette nähtud.
+- **Kogu süsteemi diagnostika** lehekülg pole kättesaadav. Seotud andmeid igatunnise koguja oleku kohta ja selle reeglite järgi tuvastatud probleemid ei ilmu samuti.
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
@@ -52,10 +53,10 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 | Varud&nbsp;ja&nbsp;logistika | [Global Inventory Accounting on lisandmoodul Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Globaalse laoarvestuse kodulehekülg](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Funktsiooni nimi: sisestage vaba kaubavaru korrigeerimised, kasutades vastaskontodega ühendatud konfigureeritavaid põhjusekoode](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Varude inventuuri põhjusekoodid](../warehousing/reason-codes-for-counting-journals.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Müügipakkumisele viitavate andmete ekspordipoliitika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Valige, kas hinnapakkumistega viidatud andmete muudatuste tõttu kaasatakse need hinnapakkumised (või read) järgmisele ekspordile. Kui otsustate selliseid pakkumisi või ridu mitte kaasata, siis järkjärguline eksportimine toimub kiiremini.<br><br>See funktsioon lisab sätte **Vahele jäetud müügipakkumise viidatud andmed muudatuste jälgimise ajal** **Müügireskontro parameetrid** lehele. |
-| Varud&nbsp;ja&nbsp;logistika | [Skannige vöötkoode laos, kasutades GS1-vormingu standardeid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | *Peagi tulekul*<!-- KFM: Add doc link when ready. --> |
-| Varud&nbsp;ja&nbsp;logistika | Pitseeritud pakkumine <!-- KFM: Add RP link when available --> | *Peagi tulekul*<!-- KFM: Add doc link when ready. --> |
+| Varud&nbsp;ja&nbsp;logistika | [Skannige vöötkoode laos, kasutades GS1-vormingu standardeid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 vöötkoodid ja QR-koodid](../warehousing/gs1-barcodes.md) |
+| Varud&nbsp;ja&nbsp;logistika | [Varude nähtavuse lisandmooduli esialgne reserveerimine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Varude nähtavuse reserveeringud](../inventory/inventory-visibility-reservations.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Mahaarvamise ja tegeliku kaalu täiustused tagasimaksehalduse jaoks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Mahaarvamise töölaual mahaarvamiste haldamine](../rebate-management/deduction-workbench.md )<br><br>[Tagasimaksete töötlemine, läbivaatamine ja sisestamine](../rebate-management/process-review-post.md)<br><br>[Tagasimakse halduse tehingud](../rebate-management/rebate-management-deals.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Laorakenduse etapi juhised](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | *Peagi tulekul*<!-- KFM: Add doc link when ready --> |
+| Varud&nbsp;ja&nbsp;logistika | [Laorakenduse etapi juhised](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Mobiilirakenduse Warehouse Management etapi pealkirjade ja juhiste kohandamine](../warehousing/mobile-app-titles-instructions.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Väljaminev kulu tööpauside ja jälgimisvärskenduste jälitamine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Värskenda ärapanemiseks jälgimist](../landed-cost/update-tracking-putaway.md )<br><br>[Transiidis olevate kaupade töötlemine](../landed-cost/in-transit-processing.md) |
 | Koondplaneerimine | [Planeerimise optimeerimise negatiivsed päevad](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/negative-days-support-planning-optimization) | [Viivituse kõikumine (negatiivsed päevad)](../master-planning/planning-optimization/delay-tolerance.md) |
 
@@ -66,9 +67,9 @@ Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Iga
 | Funktsiooniala | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
 |---|---|---|
 | Kuluhaldus | Varude sulgemise edenemise üksikasjad | See eelvaate funktsioon võimaldab varude sulgemise edenemise üksikasjalikku kuva. |
-| Koondplaneerimine | (Eelversioon) Prioriteedipõhine MRP tugi planeerimise optimeerimiseks | See planeerimise optimeerimise eelvaate funktsioon võimaldab koondplaneerimise, mis on suunatud plaanimise prioriteedile lisatellimuse punktis. Esiletõstetud muudatused hõlmavad müügitellimuse ridade, ostutellimuse ridade, nõudluse prognoosi ja plaanitud tellimuste **plaanimise prioriteedi** välja, uut laovarude koodi suvandit. **Kauba laovarude** väli järeltellimuse punkti jaoks, koondplaneerimise seadistusvormid plaanimise prioriteedi häälestuse juhtimiseks ja planeerimise optimeerimise kalkulatsiooniloogika plaanimise prioriteedi järjekorra määramiseks ja arvestamiseks. |
 | Hanked | Vältige eelarvereservi ületarbimist, kui töövoos on mitu ostutaotlust | See eelvaate funktsioon parandab tõrkekontrolli, kui kasutajad esitavad ja kinnitavad ostutaotlusi, mis ületavad üldise eelarve reserveerimisrea järelejäänud saldot. See aitab vältida üldise eelarvereserveeringu ülepidamist, kui töövoos on mitu ostutaotlust. |
 | Tootmise juhtimine | Kuva tootmisosakonna täideviimisliidese täielikud seeria-, partii- ja numbrimärginumbrid | See funktsioon pakub täiustatud kogemust seeria-, partii- ja litsentsiplaadinumbrite loendite vaatamiseks tootmispinna käivitamise liideses. Kuva muutused piiratud arvu märkidega kaardivaates loendivaatesse, mis pakub täisväärtuste näitamiseks piisavalt ruumi. Loend võimaldab ka otsida kindlaid numbreid. |
+| Müük ja turundus | Postitamiseks valitavate müügitellimuste arvu piiramine | See funktsioon võimaldab teil määratleda maksimaalse müügitellimuste arvu, mida saab valida kinnituste, komplekteerimislehtede, saatelehtede ja arvete sisestamisel müügitellimuste loendilehelt. See lubatakse automaatselt. Funktsioon lisab lehele **Müügireskontro parameetrid** sätte **Müügitellimuste maksimumarv sisestamisel**. Uue sätte vaikeväärtus on *100*. See funktsioon aitab parandada müügitellimuste loendilehe jõudlust, kui valitud on märkimisväärne arv müügitellimusi. See ei mõjuta müügitellimuste arvu, mida töötleb perioodiline ülesanne. |
 | Laohaldus | ASN-idest kõrvalepaneku töö eradamine | See funktsioon on vajalik saadetise eelteatiste (ASN-ide) saatmiseks ja vastuvõtuks, kui käitate laohalduse töökoormust kaaluühikul (osana jaotatud topoloogiast). See lisab uue andmebaasi tabeli, mis on mõeldud put lisatöö teabe salvestamiseks. Varem talletati seda teavet tabelites ka ASN-ide jaoks. |
 | Laohaldus | Pesa segaühikud | Lubab süsteemil pesaüksused asukohtadesse, mis sisaldavad segaühikuid (nt kastid ja kastid). Iga pesastatud mallirea puhul võimaldab see funktsioon teil valida, kas rida peaks kaupu avama segaühiku või ühe ühiku asukohta. |
 | Laohaldus | Kasutage pakkimisjaamas konteinerite sulgemiseks / uuesti avamiseks kiiremat API-d | Kui see eelvaate funktsioon on lubatud, luuakse konteineritega seotud laokanded, kasutades uut kerge kaalu protsessi, mis parandab konteinerite sulgemise või taasavamise jõudlust pakkejaama käsitsi töötlemisel. |

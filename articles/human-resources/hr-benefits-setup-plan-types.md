@@ -1,8 +1,8 @@
 ---
 title: Plaani tüübi ülevaade
-description: Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Plaani tüüp rakenduses Microsoft Dynamics 365 Human Resources on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732725"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423340"
 ---
-# <a name="plan-type-overview"></a>Plaani tüübi ülevaade
+# <a name="plan-type-overview"></a>Plaanitüübi ülevaade
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -32,10 +32,10 @@ Iga plaani tüüp näitab, kas töövõtja saab registreeruda ühe seda tüüpi 
 
 Kui plaani tüüp hõlmab kontakte, siis näitab plaani tüüp, kas kontaktid on kasusaajad või sõltuvad. Näiteks oleksid plaani tüübil Tavaline elu kasusaajad, samas kui plaani tüübil Tavaline meditsiiniline oleksid sõltuvad. Mõnel juhul ei tohi plaanis isiklikke kontakte olla. Näiteks Paindlik kasutuskonto või Parkimishüvitis.
 
-Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletakse vormil Katvuse valik. Katvuse valik saab määrata soodustuse summa või kontaktid, kes vastavad plaani tüübile. Näiteks kui kontakti tüüp on Kasusaaja, peaks katvuse valik määratlema tingimused, mida kasusaaja saab soodustuse kasutamisel saada. Kui kontakti tüüp on Sõltuv, peaks katvuse valik määratlema sõltuva ja töövõtja vahelise seose. 
+Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletakse lehel **Katvuse valik**. Katvuse valik saab määrata soodustuse summa või kontaktid, kes vastavad plaani tüübile. Näiteks kui kontakti tüüp on Kasusaaja, peaks katvuse valik määratlema tingimused, mida kasusaaja saab soodustuse kasutamisel saada. Kui kontakti tüüp on Sõltuv, peaks katvuse valik määratlema sõltuva ja töövõtja vahelise seose. 
 
 > [!IMPORTANT]
-> Vorm sisaldab põhiandmeid, mis mõjutavad uue hüvitiste plaani loomisel saadaolevaid valikuid:
+> Lehekülg sisaldab põhiandmeid, mis mõjutavad uue hüvitiste plaani loomisel saadaolevaid valikuid:
 >
 > - **Plaani tüübi kood** – see väli mõjutab **konfiguratsiooni** vahekaardil kuvatavat teavet tegeliku hüvitise häälestamisel.  
 > - **Samaaegne registreerimine** – see väli määratleb, kas mitu registreerimist on lubatud. (Arstliku plaani puhul on selle välja väärtuseks tavaliselt seatud **Üks registreerimine**.)

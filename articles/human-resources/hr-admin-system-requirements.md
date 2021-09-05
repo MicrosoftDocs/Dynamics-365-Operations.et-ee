@@ -1,8 +1,8 @@
 ---
 title: Süsteeminõuded
-description: Selles artiklis kirjeldatakse rakenduse Microsoft Dynamics 365 Human Resources nõudeid.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Selles teemas on loetletud rakenduse Microsoft Dynamics 365 Human Resources süsteeminõuded.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ef0176926fd6c5c5d2bc852080dde5273d05d0f2edd20e091d97c71e503dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15770595a0639c03df1138ec25010ca8168bd9a8
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761088"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393469"
 ---
 # <a name="system-requirements"></a>Süsteeminõuded
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles artiklis kirjeldatakse rakenduse Microsoft Dynamics 365 Human Resources nõudeid. Lisaks tuuakse välja riigid ja piirkonnad, kus rakendus Human Resources on saadaval ning teave keelte ja Human Resourcesi andmete lokaliseerimise kohta.
+Selles teemas on loetletud rakenduse Microsoft Dynamics 365 Human Resources süsteeminõuded. Lisaks tuuakse välja riigid ja piirkonnad, kus rakendus Human Resources on saadaval ning teave keelte ja Human Resourcesi andmete lokaliseerimise kohta.
 
 ## <a name="supported-web-browsers"></a>Toetatud veebibrauserid
 
-Rakendust Human Resources saab kasutada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemis. 
+Microsoft Dynamics 365 Human Resourcesi saab kasutada kõigis järgmistes veebibrauserites, mis töötavad nimetatud operatsioonisüsteemis. 
 
 *   Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s
 *   Internet Explorer 11 operatsioonisüsteemides Windows 10, Windows 8.1 või Windows 7
@@ -39,14 +39,17 @@ Rakendust Human Resources saab kasutada kõigis järgmistes veebibrauserites, mi
 
 Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile. 
 
-> [!NOTE]
-> * Tegevuse salvestajas loodud piltide jäädvustamiseks ja nende Microsoft Wordi dokumentidesse lisamiseks peab teil olema installitud Chrome’i laiendus. 
-> * Töövooredaktor käivitatakse ClickOnce’i rakendusena. Ainult Microsoft Edge ja Internet Explorer (Microsoft Windowsi toetatud versioonis) toetavad ClickOnce’i rakendusi. Töövooredaktori ClickOnce rakendus nõuab ühilduvat 64-bitist operatsioonisüsteemi.
-> * PDF-failide eelvaateks soovitame kasutada tänapäevasi brausereid, nagu Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s või Chrome (viimane avalikult saadaolev versioon) Windows 10-s, Windows 8.1-s, Windows 8-s, Windows 7-s või tahvelarvutis Google Nexus 10.
->   Võrgunõuded
-> * Human Resources on mõeldud võrkudele, mille latentsus on kuni 250–300 millisekundit (ms). See on latentsus brauserikliendist Microsoft Azure’i andmekeskusse, mis majutab rakendust Human Resources. Soovitame teilt testida võrgulatentsust veebiaadressil [www.azurespeed.com](https://www.azurespeed.com "Azure’i latentsustest").
-> * Ribalaiuse nõuded rakenduse Human Resources puhul sõltuvad teie stsenaariumist. Kõige tüüpilisemad stsenaariumid nõuavad ribalaiust rohkem kui 50 kilobaiti sekundis (KB/s).
-> 
+## <a name="special-considerations"></a>Erikaalutlused
+
+* Et lubada kuvatõmmise piltide salvestamine tegevuse salvestajas ja nende lisamine loodud Microsoft Wordi dokumentidesse, peate installima Chrome'i laienduse eel-väljalaske
+* Töövooredaktor käivitatakse ClickOnce’i rakendusena. Ainult Microsoft Edge ja Internet Explorer (Microsoft Windowsi toetatud versioonis) toetavad ClickOnce’i rakendusi. Töövooredaktori ClickOnce rakendus nõuab ühilduvat 64-bitist operatsioonisüsteemi.
+* PDF-failide eelvaateks soovitame kasutada tänapäevasi brausereid, nagu Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s või Chrome (viimane avalikult saadaolev versioon) Windows 10-s, Windows 8.1-s, Windows 8-s, Windows 7-s või tahvelarvutis Google Nexus 10.
+
+## <a name="network-requirements"></a>Võrgunõuded
+
+* Human Resources on mõeldud võrkudele, mille latentsus on kuni 250–300 millisekundit (ms). See on latentsus brauserikliendist Microsoft Azure’i andmekeskusse, mis majutab rakendust Human Resources. Soovitame teilt testida võrgulatentsust veebiaadressil [www.azurespeed.com](https://www.azurespeed.com "Azure’i latentsustest").
+* Ribalaiuse nõuded rakenduse Human Resources puhul sõltuvad teie stsenaariumist. Tüüpilised stsenaariumid nõuavad ribalaiust rohkem kui 50 kilobaiti sekundis (KB/s).
+ 
 > [!WARNING]
 > Ärge arvutage ribalaiuse nõudeid kliendi asukohast, korrutades kasutajate arvu minimaalsete ribalaiuse nõuetega. Antud asukoha samaaegset kasutust on väga keeruline arvutada. Ribalaiuse nõuete pärast muret tundvad kliendid peaksid kasutama rakenduse Human Resources eelvaateversiooni.
 
@@ -63,6 +66,5 @@ Saate alla laadida PDF-faili riikide, piirkondade ja keelte kohta, mida Human Re
 > Kui kasutajaliides on lokaliseeritud teistesse keeltesse, talletatakse kõik kasutajaandmed keeles, milles need sisestati. Saate luua e-kirju ja malle teistes keeltes, kuid sellised andmed nagu planeerimise teave on praegu saadaval ainult inglise keeles.
 
 Kui olete arendaja, kes on huvitatud riigi- või piirkonnapõhiste kohanduste loomisest või luua lahendus mõnele riigile või piirkonnale, mida Microsoft praegu ei toeta, vt [Globaliseerumine](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

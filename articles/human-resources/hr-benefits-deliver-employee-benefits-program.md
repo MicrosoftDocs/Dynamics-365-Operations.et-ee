@@ -1,8 +1,8 @@
 ---
 title: Töötaja soodustuste programmi pakkumine
-description: Selles artiklis näidatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Selles teemas selgitatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBen
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: eba305a6a5e1b32636e17bba090047d6167ecebd4f0fe49b17b5267c71b98773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3339464fb459461b1ad399868d9b1245263cef9
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757011"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416274"
 ---
 # <a name="deliver-employee-benefits-program"></a>Töötaja soodustuste programmi pakkumine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles artiklis näidatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud hüvitise ja eeliste haldurile.
+Selles teemas selgitatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud hüvitise ja eeliste haldurile.
 
 
 ## <a name="create-benefit-elements"></a>Soodustuse elementide loomine

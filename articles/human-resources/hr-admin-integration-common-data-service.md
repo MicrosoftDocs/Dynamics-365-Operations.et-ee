@@ -1,8 +1,8 @@
 ---
 title: Dataverse'i integratsiooni konfigureerimine
-description: Saate Microsoft Dataverse’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja tabelit uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
-author: andreabichsel
-ms.date: 01/25/2021
+description: Selles teemas kirjeldatakse maksuandmete integreerimist rakenduse Microsoft Dataverse ja teenuse Dynamics 365 Human Resources vahel.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71afb7fb200f5e36c62569810812f1c73a67b512eafeec1ec73f755025b238d9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c942358772e8ca92774decc3d4b6914fab65e22
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782751"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414605"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse'i integratsiooni konfigureerimine
 

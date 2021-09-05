@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 757c8b9f2b57374e4b6d35c9be95b9e1dfe7f249c9ea903009cc26e16711bead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713800"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344710"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Kulumiraamatu uuendamise ülevaade
 
@@ -42,19 +42,19 @@ Suvand 1: **Süsteemi määratletud numbriseeria** – see on vaikesuvand täien
     -   Püsinimi: **NumberSequenceDefaultParameterPrefix**
     -   Vaikeväärtus: "FADBUpgr"
 -   **Tähtnumbriline pikkus** – numbriseeria tähtnumbrilise segmendi pikkus.
-    -   Püsinimi: **NumberSequenceDefaultParameterAlpanumericLength **
+    -   Püsinimi: **NumberJadaVaikimisiParameeterTähtnumbrilinePikkus**
     -   Vaikeväärtus: 9
 -   **Algusnumber** – esimene numbriseerias kasutatav number.
-    -   Püsinimi: **NumberSequenceDefaultParameterStartNumber **
+    -   Püsinimi: **NumberJadaVaikimisiParameeterStardiNumber**
     -   Vaikeväärtus: 1
 
 2. valik: **Olemasolev kasutaja määratletud numbriseeria** – see valik võimaldab määratleda täiendamiseks kasutatava numbriseeria. Kaaluge selle valiku kasutamist, kui vajate täpsemat numbriseeria konfigureerimist. Numbriseeria kasutamiseks peate muutma täiendusklassi ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans järgmise teabega.
 
 -   **Numbriseeria kood** – numbriseeria kood.
-    -   Püsinimi: **NumberSequenceExistingCode **
+    -   Püsinimi: **NumberSequenceExistingCode**
     -   Vaikeväärtus: vaikesäte puudub, seda tuleb värskendada numbriseeria koodi järgi.
 -   **Ühiskasutuses numbriseeria** – kahendmuutuja väärtus, et tuvastada numbriseeria ulatus. Kasutage kõigis ettevõtetes ühiskasutuses numbriseeriate jaoks „tõene” ja ettevõttespetsiifilise ulatuse jaoks „väär”. Väärtuse „väär” kasutamisel peab määratud nimega numbriseeria eksisteerima igas ettevõttes, mis sisaldab kulumiraamatu kandeid. Ühiskasutatud numbriseeriad eksisteerivad igas sektsioonis, mis sisaldab kulumiraamatu kandeid.
-    -   Püsinimi: **NumberSequenceExistingIsShared **
+    -   Püsinimi: **NumberSequenceExistingIsShared**
     -   Vaikeväärtus: tõene
 
 Parameetrid asuvad klassi ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans alguses. 

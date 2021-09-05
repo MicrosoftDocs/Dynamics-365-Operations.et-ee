@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfe473f39ee729957924fd7c161aed01138cd507eea56766af35177891676f65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fde81efed6b8a72e2149056f0196e4f9d60e59f2
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778889"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345515"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>TDS-i arvutamine arvetel töölehtede abil
 
@@ -65,6 +65,6 @@ Alustage lehekülje **Üldised töölehed** avamisega (**Pearaamat > Töölehe s
 
 8. Sisestage kõik vajalikud üksikasjad. Kinnitage ja sisestage tööleht. Ostuarvetel arvutatud TDS-i summa sisestatakse tasumisele kuuluvale kontole. Müügiarvetel arvutatud TDS-summa sisestatakse tasumisele kuuluvale kontole, mis on määratud igale TDS-i maksukoodile TDS-grupis. TDS-i maksukoodide ostureskontro või müügireskontrod määratletakse **Kinnipeetava maksu koodide** lehel.
 
-9. Valige **Sisestatud kinnipeetav maks**, et avada **Kinnipeetava** **maksu** **kannete** leht. Väljal **Väärtus** kuvatakse kande TDS-i arvutamiseks kasutatav koguprotsent.
+9. Valige **Sisestatud kinnipeetav maks**, et avada **Kinnipeetava maksu kannete** leht. Väljal **Väärtus** kuvatakse kande TDS-i arvutamiseks kasutatav koguprotsent.
 
    Välja **Ülevaade**, **Üldine**, ja **Summa** vahekaardil kinnipeetava maksu kannete lehel kuvatakse TDS-summa ja korrigeeritud TDS-i summa TDS-i grupiga seotud TDS-i maksukoodi kohta.

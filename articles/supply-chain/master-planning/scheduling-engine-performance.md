@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738265"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343473"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Ajastamismootori jõudluse parandamine
 
@@ -70,7 +70,7 @@ Näitena kaaluge järgmises tabelis ja pildil toodud protsessi, mis näib olevat
 
 Kui see saadetakse mootorisse, jagatakse see kaheksaks tööks, nagu on näidatud järgmisel illustratsioonil (klõpsake pildile, et seda suuremana näha).
 
-[![Plaanimismootori tööd](media/scheduling-engine-jobs.png "Mootoritööde plaanimine."](media/scheduling-engine-jobs-large.png)
+[![Ajastamismootori tööd](media/scheduling-engine-jobs.png "Ajastamismootori tööd.")](media/scheduling-engine-jobs-large.png)
 
 Standardne seos nende kahe töö vahel on `FinishStart`, mis tähendab, et ühe töö lõppaeg peab olema enne teise töö algusaega. Kuna seadistuse peab tegema sama ressurss, mis hiljem protsessis osaleb, on nende vahel `OnSameResource`'i piirangud. Number 10 esmase ja teisese toimingu tööde vahel on seosed `StartStart` ning `FinishFinish`, mis tähendab, et tööd peavad algama ja lõppema samal ajal, ning `NotOnSameResource`'i piirangud, mis takistavad sama ressursi kasutamist esmases ja teises toimingus.
 

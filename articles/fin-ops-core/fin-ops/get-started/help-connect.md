@@ -2,7 +2,7 @@
 title: Spikri kasutuskogemuse konfigureerimine Finance and Operationsi rakendustes
 description: Selles teemas antakse teavet osade Microsoft Dynamics 365 rakenduste spikrisüsteemi komponentide kohta.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714519"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343808"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Spikri kasutuskogemuse konfigureerimine Finance and Operationsi rakendustes
 
@@ -54,7 +54,7 @@ Lahenduse jaoks tegevuse juhiste konfigureerimiseks, järgige lehel **Süsteemi 
 > [!IMPORTANT]
 > Vahekaardi **Spikker** esmakordsel avamisel peate looma ühenduse elutsükli teenustega. Valige kindlasti vormi keskel olev link, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel valige **OK**, et avada **Parameetrite vormid**.
 >
-> [![LCS-ga ühendamiseks](./media/connect-to-lcs-crop-1024x365.png "Ühenda LCS-ga."](./media/connect-to-lcs-crop.png)
+> [![Ühenda LCS-iga](./media/connect-to-lcs-crop-1024x365.png "Ühenda LCS-iga.")](./media/connect-to-lcs-crop.png)
 
 1. Valige elutsükli teenuste projekt, millega ühendus luua.
 2. Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.

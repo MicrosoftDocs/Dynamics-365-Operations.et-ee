@@ -1,6 +1,6 @@
 ---
 title: Põhikonto loomine
-description: See ülesandejuhend kirjeldab olemasolevale kontoplaanile põhikonto lisamise etappe.
+description: Selles protseduuris kirjeldatakse põhikonto lisamist olemasolevale kontoplaanile.
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729626"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394631"
 ---
 # <a name="create-a-main-account"></a>Põhikonto loomine
 
 [!include [banner](../../includes/banner.md)]
 
-See ülesandejuhend kirjeldab olemasolevale kontoplaanile põhikonto lisamise etappe. Salvestamisel kasutatakse demoettevõtte USMF-i.  
+Selles protseduuris kirjeldatakse põhikonto lisamist olemasolevale kontoplaanile. Salvestamisel kasutatakse demoettevõtte USMF-i.  
 
 1. Avage **Navigeerimispaan > Moodulid > Pearaamat > Kontoplaan > Kontdd > Põhikontod**.
 2. Klõpsake valikut **Uus**.

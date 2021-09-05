@@ -2,7 +2,7 @@
 title: Andmeallikate otsingu konfigureerimine kasutama ER-i rakendusepõhiseid parameetreid
 description: Selles teemas selgitatakse, kuidas saab konfigureerida elektroonilise aruandluse (ER) vormingute otsingu andmeallikaid, mis kasutaksid ER rakendusespetsiifilisi parameetreid.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723185"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343425"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Andmeallikate otsingu konfigureerimine kasutama ER-i rakendusepõhiseid parameetreid 
 
@@ -69,7 +69,7 @@ Saate seadistada valitud ER-vormingu otsingureeglid, kasutades kasutajaliidest, 
 Järgmisel joonisel on kujutatud, kuidas tüübiga **Arvutatud väli** `Model.Data.Summary.LevelByLookup` andmeallikat saab konfigureerida kutsuma konfigureeritud **otsingu** andmeallikat, mis pakub vajalikke parameetreid. Kutsungi töötlemiseks käitusajal läbib ER määratletud jada konfigureeritud reeglite loendi, et leida esimene reegel, mis vastab esitatud tingimustele. Näites on see reegel, mis sisaldab esitatud maksukoodile vastavat maksukoodi. Selle tulemusena leitakse kõige sobivam reegel ja leitud reegli jaoks konfigureeritud loendiväärtuse tagastab see andmeallikas.
 
 > [!NOTE]
-> Erand visatakse, kui kohaldatavat reeglit ei leita. Nende erandite vältimiseks konfigureerige reeglite loendi lõpus täiendavad reeglid, et käsitleda juhtumeid, kui pole konfigureeritud väärtust või väärtust pole esitatud. Kasutage vastavalt suvandeid **\*Pole tühi\*** ja **\*Tühi\***.  
+> Erand visatakse, kui kohaldatavat reeglit ei leita. Nende erandite vältimiseks konfigureerige reeglite loendi lõpus täiendavad reeglid, et käsitleda juhtumeid, kui pole konfigureeritud väärtust või väärtust pole esitatud. Kasutage vastavalt suvandeid **\*Pole tühi**\* ja **\*Tühi**\*.  
 >
 > ![Andmeallika lisamine konfigureeritud otsingu andmeallika kutsumiseks.](./media/er-lookup-data-sources-img7.png)
 

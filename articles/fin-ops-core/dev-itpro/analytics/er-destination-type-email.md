@@ -2,7 +2,7 @@
 title: ER-i sihtkoha tüübi e-post
 description: Selles teemas selgitatakse, kuidas konfigureerida meilisihtkohta iga elektroonilise aruandluse (ER) vormingu komponendi FOLDER või FILE jaoks.
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769315"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343856"
 ---
 # <a name="email-er-destination-type"></a>ER-i sihtkoha tüübi e-post
 
@@ -53,9 +53,22 @@ Samuti saate [rühmitada](#grouping) mitu komponenti **Kaust** või **Fail** kok
 
 ## <a name="configure-an-email-destination"></a>Meili sihtkoha konfigureerimine
 
-Saate määrata e-kirja saatja ja adressaadid ning muuta e-kirja teemat ja sisu. Saate seadistada e-kirja teema ja kehateksti jaoks püsiteksti või kasutada e-kirjade dünaamiliseks loomiseks elektroonilise aruandluse [valemeid](er-formula-language.md).
+### <a name="email-content"></a>Meili sisu
 
-Vaikimisi saadetakse meil praeguse kasutaja nimel. Teise e -posti saatja määramiseks peate konfigureerima välja **Saatja**.
+Saate redigeerida meilisõnumi teemat ja keha.
+
+Sisestage **teema** väljale e-kirja teema tekst, mis peaks ilmuma käitusajal loodud elektroonilise teate teemaväljal. Sisestage **keha** väljale e-kirja keha tekst, mis peaks ilmuma käitusajal loodud elektroonilise teate kehaväljal. Saate seadistada e-kirja teema ja kehateksti jaoks püsiteksti või kasutada ER [valemeid](er-formula-language.md) e-kirjade teksti dünaamiliseks loomiseks käitusajal. Konfigureeritud valem peab tagastama v''rtuse [Stringi](er-formula-supported-data-types-primitive.md#string) tüübi.
+
+Teie meili kehatekst on koostatud TEKSTI või HTML vormingus, sõltuvalt meili kliendist. Võite kasutada mis tahes paigutust, laadi ja kaubamärki, mida HTML ja tekstisisene kaskaadlaadistik (CSS) võimaldavad.
+
+> [!NOTE]
+> Meilikliendid kehtestavad paigutuse ja stiili piiranguid, mis võivad nõuda sõnumi sisus kasutatava HTML-i ja CSS-i korrigeerimist. Soovitame teil tutvuda HTML-i loomise heade tavadega, mida kõige populaarsemad meilikliendid toetavad.
+>
+> Kasutage õiget kodeeringut, et juurutada tagasipöördumine, sõltuvalt keha vormindusest. Lisateabeks vaata definitsiooni [Strringi](er-formula-supported-data-types-primitive.md#string) andmetüübist.
+
+### <a name="email-addresses"></a>Meiliaadressid
+
+Seal saate konfigureerida e-kirja saatja ja e-kirja adressaadid. Vaikimisi saadetakse meil praeguse kasutaja nimel. Teise e -posti saatja määramiseks peate konfigureerima välja **Saatja**.
 
 > [!NOTE]
 > Kui meili sihtkoht on konfigureeritud, on väli **Saatja** nähtav ainult kasutajatele, kellel on `ERFormatDestinationSenderEmailConfigure` turbeõigus, **Konfigureerige saatja meiliaadress ER-vormingu sihtkohtade** jaoks.

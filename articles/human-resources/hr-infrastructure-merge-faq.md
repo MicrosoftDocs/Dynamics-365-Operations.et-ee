@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources infrastruktuuri ühendamise KKK
 description: See teema vastab korduma kippuvatele küsimustele infrastruktuuri ühendamise kohta Microsoft Dynamics 365 Human Resources ja Finance and Operations rakenduste jaoks.
-author: rachel-profitt
-ms.date: 07/14/2021
+author: twheeloc
+ms.date: 08/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: raprofit
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 537917e9a987d701a0c96dfb7592e124e09bb748e4f2f52d39f8d97000c70ae3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ae2896eda98a8f9545d465e941d5b50065ae94b
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711997"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386535"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Dynamics 365 Human Resources infrastruktuuri ühendamise KKK
 
@@ -38,12 +38,12 @@ Dynamics 365 Human Resources on eraldi rakendus, mis kasutab Finance and Operati
 
 ### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-its-hr-operations-what-benefits-will-we-see-from-these-changes"></a>Minu organisatsioon kasutab Dynamics 365 Human Resources oma personalitoimingute haldamiseks. Milliseid soodustusi neist muudatustest näeb?
 
-- Need muudatused eemaldavad Dynamics 365 HR mitme võimaluse komplekti.
+- Need muudatused eemaldavad Dynamics 365 HR mitme võimaluse komplektiga seotud segadused.
 - Need pakuvad nii Microsoft Power Platform laiendatavust kui ka viisi äriloogika ja funktsioonivalikute laiendamiseks.
 - Need toovad järjepidevust rakenduste Dynamics 365 Human Resources ja teiste Finance and Operations vahel rakenduste elutsükli halduse (ALM), Microsoft Dynamics Lifecycle Services (LCS), geograafilise saadavuse, laiendatavuse jne mõistes.
 - Need lasevad teil kasutada jagatud teenuseid ja tööriistu ning aitavad kulusid vähendada.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Minu organisatsioon kasutab Dynamics 365 Human Resources rakenduses Dynamics 365 Finance, Supply Chain Management, Commerce või Project Operations. Milliseid soodustusi neist muudatustest näeb?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Minu organisatsioon kasutab inimressursside moodulit rakendustes Dynamics 365 Finance, Supply Chain Management, Commerce või Project Operations. Milliseid soodustusi neist muudatustest näeb?
 
 Dynamics 365 Human Resources valmistatud võimalused ja investeeringud on nüüd saadaval klientidele, kes kasutavad Dynamics 365 Finance personalimoodulit. Mõned neist võimalustest hõlmavad puhkuse- ja puudumiste haldust, soodustuste haldust ja ülesannete haldust.
 
@@ -67,21 +67,27 @@ Kui teie organisatsioon kasutab Dynamics 365 Human Resources, kuid ei kasuta mui
 
 Lisaks on tööriistamine olemas, et saate enne tootmiskeskkonna ülekandmist testida siirdeprotsessi ning kontrollida oma andmeid ja kogemust.
 
-Kui teie organisatsioon kasutab nii Dynamics 365 Human Resources kui ka muid Finance and Operations rakendusi, peaksite kinnitamisele lisama aja, et tagada andmete õige ülekandmine uude keskkonda. Uuele infrastruktuurile migreerimine ühendab teie personalikeskkonna andmed Finance and Operations keskkonnaga. Tööriistad on loodud selleks, et automatiseerida võimalikult palju andmete ühendamise protsessi. Vastuoluliste andmete eksemplarid nõuavad siiski kasutaja sisestust, et määratleda konflikti lahendamine. Kasutajad ja administraatorid peavad haldama andmete vastendamist konfliktide korral ja testima migratsiooni liivakastikeskkondades enne tootmiskeskkonna üleviimist.
+Kui teie organisatsioon kasutab nii Dynamics 365 Human Resources kui ka muid Finance and Operations rakendusi, peaksite kinnitamisele lisama aja, et tagada andmete õige ülekandmine uude keskkonda. Uuele infrastruktuurile migreerimine ühendab teie personalikeskkonna andmed Finance and Operations keskkonnaga. Vastuolulised andmed nõuavad siiski kasutaja sisestust, et määratleda konflikti lahendamine. Kasutajad ja administraatorid peavad haldama andmete vastendamist konfliktide korral ja testima migratsiooni liivakastikeskkondades enne tootmiskeskkondade üleviimist.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Minu organisatsioon kasutab Dynamics 365 Human Resources rakenduses Dynamics 365 Finance, Supply Chain Management, Commerce või Project Operations. Mida on vaja uuele kogemusele migreerimise jaoks planeerida?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Minu organisatsioon kasutab inimressursside moodulit rakendustes Dynamics 365 Finance, Supply Chain Management, Commerce või Project Operations. Mida on vaja uuele kogemusele migreerimise jaoks planeerida?
 
-Organisatsioonid, mis kasutavad Finance and Operations rakendustes personalimoodulit, rakendatakse teie keskkonnas uued Dynamics 365 Human Resources funktsioonid standardse ühe versiooni uuendamise protsessi kaudu. Võite eeldada, et näete oma keskkonnas uusi funktsioone, kui need iga värskenduse korral kättesaadavaks saavad. Funktsioonide haldamise abil saate uusi funktsioone sisse lülitada. Nende funktsioonide kinnitamist peaksite siiski plaanima. Järgige oma keskkonna muude värskenduste valideerimiseks kasutatavaid protsesse. Lisateavet Finance and Operations rakenduste värskenduste rakendamisest vt teemast [Ühe versiooni ülevaade](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
+Organisatsioonid, mis kasutavad Finance and Operations rakendustes personalimoodulit, rakendatakse teie keskkonnas uued Dynamics 365 Human Resources funktsioonid standardse ühe versiooni uuendamise protsessi kaudu. Võite eeldada, et näete oma keskkonnas uusi funktsioone, kui need iga värskenduse korral kättesaadavaks saavad. Uute funktsioonide sisselülitamiseks saate kasutada funktsioonihaldust, kuid peaksite kavandama nende funktsioonide kinnitamist. Järgige oma keskkonna muude värskenduste valideerimiseks kasutatavaid protsesse. Lisateavet Finance and Operations rakenduste värskenduste rakendamisest vt teemast [Ühe versiooni ülevaade](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="when-will-my-organization-be-migrated"></a>Millal minu organisatsioon migreeritakse?
 
 Iga organisatsiooni üleviimine sõltub selle praegusest konfiguratsioonist ja valmisolekust uude infrastruktuuri üle minna. Need kuupäevad võivad muutuda.
 
-- Organisatsioonid, mis kasutavad Finance and Operations rakendustes personalimoodulit saab Dynamics 365 Human Resources personalifunktsioonid tavalise versiooni uuendamise protsessi raames. Uute funktsioonide muutumine üldiselt kättesaadavaks alates oktoober 2021.
-- Organisatsioonidel, kes kasutavad praegu ainult rakendust Dynamics 365 Human Resources, on juurdepääs migratsioonitööriistadele, et nad saaksid alustada testimist ja alustada üleviimist alates 2022. aasta keskpaigast. Kuupäev, millal uuele infrastruktuurile migratsioon peab olema lõpetatud, pole veel määratletud. Kuid see on vähemalt üks aasta pärast kuupäeva, mil migreerimistööriista kasutamine muutub kättesaadavaks.
-- Organisatsioonidel, kes kasutavad hetkel nii Dynamics 365 Human Resources kui ka Finance and Operations rakendust, on juurdepääs migratsioonitööriistadele, et nad saaksid alustada testimist ja alustada üleviimist alates 2022. aasta lõpust. Kuupäev, millal uuele infrastruktuurile migratsioon peab olema lõpetatud, pole veel määratletud. Kuid see on vähemalt üks aasta pärast kuupäeva, mil migreerimistööriista kasutamine muutub kättesaadavaks.
+- Organisatsioonid, mis kasutavad praegu Finance and Operations rakendustes personalimoodulit saavad Dynamics 365 Human Resources personalifunktsioonid tavalise versiooni uuendamise protsessi raames. Uute funktsioonide muutumine üldiselt kättesaadavaks alates jaanuarist 2022.
+- Organisatsioonidel, kes kasutavad ainult rakendust Dynamics 365 Human Resources, on juurdepääs migratsioonitööriistadele, et nad saaksid alustada testimist ja alustada üleviimist alates 2022. aasta keskpaigast. Kuupäev, millal uuele infrastruktuurile migratsioon peab olema lõpetatud, pole veel määratletud. Kuid see on vähemalt üks aasta pärast kuupäeva, mil migreerimistööriista kasutamine muutub kättesaadavaks.
+- Organisatsioonidel, kes kasutavad nii Dynamics 365 Human Resources kui ka Finance and Operations rakendust, on juurdepääs migratsioonitööriistadele, et nad saaksid alustada testimist ja alustada üleviimist alates 2022. aasta lõpust. Kuupäev, millal uuele infrastruktuurile migratsioon peab olema lõpetatud, pole veel määratletud. Kuid see on vähemalt üks aasta pärast kuupäeva, mil migreerimistööriista kasutamine muutub kättesaadavaks.
 
 Lisateavet Dynamics 365 Human Resources uute funktsioonide kohta vt jaotisest [Mis on uut või muutunud rakenduses Human Resources](./hr-admin-whats-new.md).
+
+### <a name="my-organization-has-not-yet-gone-live-on-dynamics-365-human-resources-should-we-go-live-with-the-human-resources-module-in-the-finance-and-operations-apps-or-with-the-dynamics-365-human-resources-app-on-the-legacy-infrastructure"></a>Minu organisatsioon pole veel rakenduses Dynamics 365 Human Resources aktiivne. Kas me peaksime end aktiveerima inimressursside moodulis rakendustekomplektis Finance and Operations või pärandinfrastruktuuri rakenduses Dynamics 365 Human Resources?
+
+Oluline on kaaluda, milliseid inimressursside funktsionaalsusi on vaja ja millal see funktsionaalsus uues infrastruktuuris saadaval on. Kui organisatsioon vajab personalihalduse põhifunktsioone, on see praegu uue infrastruktuuri rakendustekomplekti Finance and Operations inimressursside moodulis saadaval. Funktsioonide paarsust rakendustekomplekti Finance and Operations inimressursside mooduli ja rakenduse Dynamics 365 Human Resources vahel on oodata väljalaskega 10.0.25, mis saab plaanikohaselt üldiselt kättesaadavaks märtsis 2022. Integreerimisfunktsioonid, nagu rakendus Teams ja Dataverse'i olemi integratsioonid on saadaval hilisemates väljaannetes.
+
+Kui organisatsiooni personalifunktsioonid on saadaval uues infrastruktuuris ajavahemikus, millal organisatsioon läheb aktiivseks, võib aktiveerimine olla lihtsam rakendustekomplekti Finance and Operations inimressursside moodulis. See lihtsustab migreerimist, kuna see on rakenduse Dynamics 365 Human Resources ja klient on juba uues infrastruktuuris sees. Kui organisatsioon otsustab aktiveerida end pärandinfrasktruktuuri rakenduses Dynamics 365 Human Resources, on uuele infrastruktuurile üleminekuks vaja keskkonna migreerimist. Seda saab vältida, kui aktiveerite uues infrastruktuuris.
 
 ### <a name="i-am-using-new-capabilities-that-are-available-only-in-dynamics-365-human-resources-such-as-leave-and-absence-and-benefits-management-will-these-capabilities-now-be-available-in-the-human-resources-module-on-the-finance-and-operations-infrastructure-too"></a>Kasutan uusi võimalusi, mis on saadaval ainult rakenduses Dynamics 365 Human Resources (nt **Puhkus ja puudumine** ning **Soodustuste haldus**). Kas need võimalused on nüüd saadaval ka Finance and Operations infrastruktuuri moodulis Human Resources?
 
@@ -97,7 +103,7 @@ Iga sõltumatu tarkvaratootja (ISV) lahenduse üleviimise kogemus varieerub sõl
 
 ### <a name="my-organization-uses-linkedin-talent-hub-integration-with-dynamics-365-human-resources-will-this-integration-continue-to-work-after-the-infrastructure-change-is-completed"></a>Minu organisatsioon kasutab rakendusega Dynamics 365 Human Resources LinkedIn Talent Hub integreerimist. Kas integratsioon jätkab tööd pärast infrastruktuuri muudatuse lõpetamist?
 
-Jah, LinkedIn Talent Hub integreerimine jätkab tööd pärast uude infrastruktuuri siirdamist.
+Ei, LinkedIn Talent Hub integreerimine ei tööta pärast uude infrastruktuuri siirdamist. LinkedIn Talent Hubi integratsiooni teenus lõpeb rakenduse Dynamics 365 Human Resources pärandinfrastruktuuriga.
 
 ### <a name="my-organization-uses-the-human-resources-app-for-teams-will-the-app-continue-to-work-after-the-infrastructure-change-is-completed"></a>Minu organisatsioon kasutab Teamside jaoks Human Resources rakendust. Kas rakendus jätkab tööd pärast infrastruktuuri muudatuse lõpetamist?
 
@@ -109,7 +115,7 @@ Jah, kohandatud turvakonfiguratsioonid kaasatakse andmete migreerimisel uude inf
 
 ### <a name="we-are-using-data-integrator-to-move-data-between-dynamics-365-human-resources-and-finance-and-operations-apps-how-will-the-data-that-is-currently-being-integrated-be-affected"></a>Kasutame andmete integreerijat andmete teisaldamiseks rakenduste Dynamics 365 Human Resources ja Finance and Operations vahel. Kuidas mõjutab see praegu integreeritavaid andmeid?
 
-Praegu koondunud personaliandmeid sünkroniseeritakse rakenduses Dynamics 365 Human Resources rakendusega Dataverse. Andmete integraatorit saab seejärel kasutada ühesuunaliseks sünkroonimiseks Finance and Operations rakendustega. Pärast migratsiooni uude infrastruktuuri on personaliandmed Finance and Operations rakenduste jaoks omased. Andmete integraator ei ole enam vajalik andmete sünkroonimiseks Finance and Operations rakenduste ja Human Resources vahel.
+Praegu rakenduses Dynamics 365 Human Resources olevad inimressursside andmed sünkroonitakse Dataverse'i. Andmete integraatorit saab seejärel kasutada ühesuunaliseks sünkroonimiseks Finance and Operations rakendustega. Pärast migratsiooni uude infrastruktuuri on personaliandmed Finance and Operations rakenduste jaoks omased. Andmete integraator ei ole enam vajalik andmete sünkroonimiseks Finance and Operations rakenduste ja Human Resources vahel.
 
 Praegused Dataverse personaliandmete tabelid sünkroonivad jätkuvalt uue infrastruktuuri keskkonnast pärit andmeid. Üksused teisendatakse topeltkirjutuse toetamiseks. Kõik muud andmete integreerimised, mis on konfigureeritud andmeintegraatori kaudu neile tabelitele teiste Dynamics 365 rakenduste jaoks, töötavad jätkuvalt nii, nagu need on praegu konfigureeritud.
 
@@ -123,15 +129,15 @@ See sõltub integratsiooni lõpp-punktist. Lisateavet rakendustes Finance and Op
 
 ### <a name="we-have-extended-dataverse-for-dynamics-365-human-resources-will-these-extensions-be-migrated-automatically"></a>Oleme laiendanud Dataverse-i rakendusele Dynamics 365 Human Resources. Kas need laiendused migreeritakse automaatselt?
 
-Kui Dynamics 365 Human Resources ja Finance and Operations keskkonnad, mis liituvad uue infrastruktuuri keskkonnaga, on ühendatud sama Dataverse keskkonnaga, jätkatakse kahe rakenduse ühendamist sama Dataverse keskkonnaga pärast migratsiooni. Seetõttu pole Dataverse laienduste jaoks vaja migratsiooni.
+Kui Dynamics 365 Human Resources ja Finance and Operations keskkonnad, mis liituvad uue infrastruktuuri keskkonnaga, on ühendatud sama Dataverse keskkonnaga, jätkatakse kahe rakenduse ühendamist sama Dataverse keskkonnaga pärast migratsiooni. Dataverse'i laienduste jaoks vaja migratsiooni.
 
-Samas, kui Dynamics 365 Human Resources ja Finance and Operations keskkonnad on ühendatud eraldiseisvate Dataverse keskkondadega, peavad kaks Dataverse keskkonda olema ühendatud nii, et nad oleks ühendatud uue infrastruktuuri ühe keskkonnaga. Selle Dataverse migreerimise jaoks saab Human Resources lahenduste standardseid Dataverse tabeleid ühendada ja taassünkrooneerida uue Dataverse keskkonnaga. Kõiki Dataverse keskkonna laiendeid ei migreerita automaatselt, vaid need tuleb uues keskkonnas uuesti juurutada. Soovitame Dataverse laiendite haldamiseks kasutada hallatud lahendusi. Lisateavet vt [Sissejuhatus lahendustesse](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+Samas, kui Dynamics 365 Human Resources ja Finance and Operations keskkonnad on ühendatud eraldiseisvate Dataverse keskkondadega, peavad kaks Dataverse keskkonda olema ühendatud nii, et nad oleks ühendatud uue infrastruktuuri ühe keskkonnaga. Selle Dataverse migreerimise jaoks saab Human Resources lahenduste standardseid Dataverse tabeleid ühendada ja taassünkrooneerida uue Dataverse keskkonnaga. Kõiki Dataverse keskkonna laiendeid ei migreerita automaatselt, vaid need tuleb uues keskkonnas uuesti juurutada. Soovitame Dataverse laiendite haldamiseks kasutada hallatud lahendusi. Lisateavet vt [Sissejuhatus lahendustesse](/powerapps/developer/data-platform/introduction-solutions).
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Oleme konfigureerinud Microsoft Power Automate vooge ja/või Microsoft Power Apps, mis töötaks rakendusega Dynamics 365 Human Resources. Kas need Microsoft Power Platform komponendid migreeritakse ja töötavad automaatselt pärast infrastruktuuri muudatuse lõpetamist?
 
 Power Apps, Power Automate vood ja muud Microsoft Power Platform kohandamised on Dataverse laienditega sarnased. See, kas need töötavad pärast uude infrastruktuuri üleviimist automaatselt, sõltub sellest, kas Human Resouces ja Finance and Operations rakendused on enne üleviimist ühendatud sama Power Appsi keskkonnaga.
 
-Kui rakendused on praegu ühendatud sama Power Apps keskkonnaga, jätkatakse nende ühendamist selle Power Apps keskkonnaga pärast migreerimist uude infrastruktuuri. Sel juhul Power Apps, Power Automate vood ja muud Microsoft Power Platform kohandused jätkavad töötamist ilma lisakonfiguratsioonita. Soovitame Dataverse rakenduse laiendite haldamiseks kasutada hallatud lahendusi. Lisateavet vt [Sissejuhatus lahendustesse](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions).
+Kui rakendused on praegu ühendatud sama Power Apps keskkonnaga, jätkatakse nende ühendamist selle Power Apps keskkonnaga pärast migreerimist uude infrastruktuuri. Sel juhul Power Apps, Power Automate vood ja muud Microsoft Power Platform kohandused jätkavad töötamist ilma lisakonfiguratsioonita. Soovitame Dataverse rakenduse laiendite haldamiseks kasutada hallatud lahendusi. Lisateavet vt [Sissejuhatus lahendustesse](/powerapps/developer/data-platform/introduction-solutions).
 
 Kui aga Human Resources rakendus ja Finance and Operations rakendused on ühendatud eraldi Power Apps keskkondadega, tuleb need ühendada migreerimise osana. See ülesanne nõuab kõigi Power Apps ja muude kohanduste kordusjuurutamist uues keskkonnas.
 
@@ -149,7 +155,7 @@ Kui aga uue infrastruktuuri keskkond on pärast üleviimist ühendatud mõne tei
 
 ### <a name="is-there-an-impact-on-the-azure-region-when-my-environment-is-migrated"></a>Kas minu keskkonna üleviimisel mõjutab see Azure'i piirkonda?
 
-Eeldatakse, et teie Human Resources keskkond jääb tavaliselt migreerimise ajal samasse Azure'i piirkonda. Ainus erand esineb siis, kui personalikeskkond liidetakse Finance and Operations keskkonnaga, mis asub teises piirkonnas. Sel juhul migreeritakse Human Resources keskkond Finance and Operations keskkonna Azure'i piirkonda.
+Eeldatakse, et teie Human Resources keskkond jääb tavaliselt migreerimise ajal samasse Azure'i piirkonda. Ainus erand on siis, kui personalikeskkond liidetakse Finance and Operations keskkonnaga, mis asub teises piirkonnas. Sel juhul migreeritakse Human Resources keskkond Finance and Operations keskkonna Azure'i piirkonda.
 
 ### <a name="my-organization-depends-on-workflows-in-dynamics-365-human-resources-for-one-or-more-business-processes-will-the-workflows-be-migrated-automatically"></a>Minu organisatsioon sõltub ühe või mitme Dynamics 365 Human Resources äriprotsessi töövoogudest. Kas töövood viiakse automaatselt üle?
 
@@ -173,7 +179,7 @@ Pärast migreerumsit on klientidel ALM -i ja teenuste värskenduste osas palju r
 
 ### <a name="how-will-the-migration-affect-my-lcs-project-for-dynamics-365-human-resources"></a>Kuidas mõjutab migratsioon minu Dynamics 365 Human Resources LCS-projekti?
 
-Uuele infrastruktuurile migreerimine teisaldab teie Dynamics 365 Human Resources keskkonnahalduse LCS-i rakendusprojekti. Kui migreerimine ühendab Dynamics 365 Human Resources olemasoleva Finance and Operations keskkonnaga, ühendatakse teie Human Resources LCS-projekt rakenduse Finance and Operations LCS-i rakendusprojekti. Kui kasutate praegu ainult rakendust Dynamics 365 Human Resources, luuakse uus LCS-i rakendusprojekt ja teie olemasolev Human Resources LCS-projekt migreeritakse uude projekti.
+Uuele infrastruktuurile migreerimine teisaldab teie rakenduse Dynamics 365 Human Resources keskkondade halduse Finance and Operationsi LCS-i rakendusprojekti. Kui migreerimine ühendab Dynamics 365 Human Resources olemasoleva Finance and Operations keskkonnaga, ühendatakse teie Human Resources LCS-projekt rakenduse Finance and Operations LCS-i rakendusprojekti. Kui kasutate praegu ainult rakendust Dynamics 365 Human Resources, luuakse uus LCS-i rakendusprojekt ja teie olemasolev Human Resources LCS-projekt migreeritakse uude projekti.
 
 Uus projekt on sama tüüpi projekt, mida Finance and Operations rakendused kasutavad. Sellel on keskkonnahalduse jaoks samad funktsioonid ja funktsionaalsus. Lisateabe saamiseks vt [Lifecycle Servicesi ressursid](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
@@ -217,7 +223,7 @@ See dokumentatsioon ei alista ega asenda mis tahes juriidilist dokumentatsiooni,
 
 Dynamics 365 Human Resources litsentse ostnud kliente see ei mõjuta. Sellel kliendil puudub litsentside migratsioon. Täiendav liivakasti varude hoidmise üksus (SKU), mis oli spetsiifiline rakendusega Human Resources, ei kehti enam. Selle asemel saavad kliendid valida rakenduste Finance and Operations 2. taseme liivakasti veidi väiksema maksumusega. Olemasolevad kliendid, kes on ostnud inimressursside liivakasti, viiakse ilma lisatasuta üle Finance and Operations rakenduste 2. järgi liivakasti.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Minu organisatsioon kasutab Dynamics 365 Human Resources rakenduses Dynamics 365 Finance, Supply Chain Management, Commerce või Project Operations. Kas mu litsentsimine või kulud muutuvad?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Minu organisatsioon kasutab inimressursside moodulit rakendustes Dynamics 365 Finance, Supply Chain Management, Commerce või Project Operations. Kas mu litsentsimine või kulud muutuvad?
 
 Dynamics 365 rakenduste olemasolevad kasutajad ja Dynamics 365 Finance, Supply Chain Management, Commerce ja Project Operations kasutajad pääsevad Human Resouces juurde nende litsentside osana kuni veebruarini 2025 või kuni praeguse litsentsilepingu aegumiseni, olenevalt sellest, kumb toimub varem. Võite minna varem Human Resources litsentsidele üle, kui see aitab saavutada paremat kulude kokkuhoidu. Alates veebruarist 2025 peavad kõik olemasolevad CSP- ja EA -kliendid personalimooduli maha võtma ja ostma Human Resources litsentsid, et kasutada ära uusi võimalusi, mida rakenduses Finance and Operations pakutakse.
 

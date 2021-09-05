@@ -2,7 +2,7 @@
 title: B2C rentniku seadistus Kaubanduses
 description: Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) ettevõtja ja tarbija vahelisi (B2C) rentnikke kasutaja saidi autentimiseks rakenduses Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772248"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344494"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -34,6 +34,9 @@ Dynamics 365 Commerce kasutab Azure AD B2C'd kasutaja mandaadi ja autentimise vo
  
  > [!NOTE]
  > Commerce'i hindamiskeskkonnad on eellaaditud Azure AD B2C rentnikuga demo eesmärgil. Oma Azure AD B2C rentniku laadimine alltoodud juhiste alusel ei ole hindamiskeskkondade jaoks vajalik.
+
+> [!TIP]
+> Saate oma saidi kasutajaid täiendavalt kaitsta ja suurendada oma Azure AD B2C rentnike turvalisust Azure AD identiteedikaitse ja tingimusliku juurdepääsu abil. Azure AD B2C Premium P1 ja Premium P2 rentnikele pakutavate võimaluste ülevaatamiseks vt [Azure AD B2C identiteedikaitse ja tingimuslik juurdepääs](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Olemasoleva AAD B2C rentniku loomine või linkimine Azure'i portaalis
 

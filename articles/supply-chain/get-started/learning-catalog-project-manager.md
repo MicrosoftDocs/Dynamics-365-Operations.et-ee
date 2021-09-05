@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 76e7c0be047decb40019be207a735be27f79d78b4cde9321e8c3728bdbd45e35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b337e80db6d47354dc187477832add370a164172
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760534"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402197"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Õppekataloog Dynamics 365 Supply Chain Managementiga töötavatele juurutusprojekti juhtidele
 
@@ -27,8 +27,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="get-started"></a>Alustamine<a name="get-started"></a>
 
-| Sisu | Kirjeldus  | Vorming  | Pikkus    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Dynamics 365 ja Power Platformi põhisätted](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi |
 | [Finance and Operationsi rakenduste kasutamise alustamine](/learn/paths/get-started-finance-operations/) | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
@@ -38,8 +38,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="core-platform-knowledge"></a>Põhiplatvormi teave<a name="core-platform-knowledge"></a>
 
-| Sisu  | Kirjeldus  | Vorming   | Pikkus    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Finance and Operationsi rakenduste juurutamise kavandamiseks kasutage teenust Lifecycle Services (LCS)](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) on tööruum koostöö tegemiseks, mida kliendid ja nende partnerid kasutavad Finance and Operationsi rakenduste projektide haldamiseks müügieelsel etapil ning juurutamisel ja lõpuks ka tootmiskeskkonnas. See hõlmab kontroll-loendeid ja tööriistu, mis aitavad teil projekti hallata, sh eelnevalt loodud metoodikaid, mis aitavad juurutada ja kasutada regulaarselt värskendatavaid teenuseid. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
 | [Organisatsiooni konfigureerimine Finance and Operationsi rakendustes](/learn/paths/configure-your-organization-finance-ops/) | Finance and Operationsi rakendustega töötava funktsionaalse konsultandina peate mõistma, kuidas oma kliendi organisatsiooni seadistada. See õppetee näitab teile muu hulgas, kuidas häälestada juriidilisi isikuid, rakendada turvasätteid, isikupärastada kasutajaliidest kasutajate jaoks, kujundada ja luua mobiilirakendusi ning rakendada ühiseid integratsioone. | Tasuta iseläbitav internetipõhine õppetee | 12 tundi |
 | [Andmete migreerimine ning avaldamine Finance and Operationsi rakendustega](/learn/paths/migrate-data-go-live-finance-operations/) | Funktsionaalse konsultandina peate mõistma, kuidas oma kliendi andmeid migreerimiseks ette valmistada, töötada andmehaldusega ja läbi viia kasutaja vastuvõtu testimist, et Finance and Operationsi rakenduste abil avaldada. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
@@ -69,8 +69,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="supply-chain-management"></a>Hankeahela haldamine<a name="supply-chain-management"></a>
 
-| Sisu  | Kirjeldus  | Vorming | Pikkus    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Toodete ja varude konfigureerimine ja haldamine Dynamics 365 Supply Chain Managementis](/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Tooteteave on tarneahela ja jaemüügirakenduste alus kõigi valdkondade lõikes. Mitmesugustes ärilahenduse moodulites on vajalik tootepõhine teave ja konfiguratsioon, et hallata toodete, tooteperede, koosluse või tootekategooriatega seotud äriprotsesse. Varude aruanded näitavad, kui palju varusid teil oleks erinevaid võimalusi rakendades, ning selgitavad, kuidas laoinvesteeringuid tõhusamalt kasutada. | Tasuta iseläbitav internetipõhine õppetee | 6 tundi |
 | [Hanke ja hankijate konfigureerimine ja haldamine Dynamics 365 Supply Chain Managementis](/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Hankijate leidmise ja nendega koostöötamise protsess, toodete ostmine ning kaupade ja teenuste kvaliteedi tagamine on kõik olulised tegurid, mis mõjutavad ettevõtte mainet ja edukust. | Tasuta iseläbitav internetipõhine õppetee | 6 tundi |
 | [Laohalduse konfigureerimine ja sellega töötamine Dynamics 365 for Finance and Operationsis](/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Dynamics 365 for Finance and Operationsi laohaldus aitab laoprotsesse optimeerida ja sujuvamaks muuta vastavalt teie vajadustele ning annab ülevaate teie varudest ja tööriistadest, mis aitavad suurendada klientide rahulolu ja vähendada kulusid. | Tasuta iseläbitav internetipõhine õppetee | 5 tundi |
@@ -86,8 +86,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="manufacturing"></a>Tootmine<a name="manufacturing"></a>
 
-| Sisu  | Kirjeldus  | Vorming    | Pikkus    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Diskreetse tootmise konfigureerimine ja kasutamine Dynamics 365 Supply Chain Managementis](/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | Kui ettevõte toodab ainult lihtsaid tooteid, saab tootmist käsitsi planeerida õige koosluse (BOM) osadega, mis saabuvad tootmisosakonda õigel ajal ja õigete ressursside olemasolul. Tootmise funktsionaalse konsultandina peate teadma, kuidas konfigureerida Dynamics 365 for Finance and Operationsi diskreetse tootmise jaoks, et teie klient saaks tootmise töötsüklit juhtida. | Tasuta iseläbitav internetipõhine õppetee | 9 tundi |
 | [Lean manufacturingi konfigureerimine ja kasutamine Dynamics 365 Supply Chain Managementis](/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | Lean manufacturing hõlmab pidevaid parandusi. Eesmärk on toota täpselt seda, mida klient soovib, ja täpselt siis, kui ta seda soovib, ning teha seda säästlikult. Saate kasutada lean manufacturingi ühtlustatud (segarežiimis) tootmiskeskkonnas, mis ühendab mitmesugused tarne-, tootmis- ja hankestrateegiad. Need strateegiad hõlmavad tootmistellimusi, protsessi haru partiitellimusi, ostutellimusi ja üleviimistellimusi. Lean manufacturingi arhitektuur rakenduses Dynamics 365 for Finance and Operations koosneb tootmisvoogudest, tegevustest ja kanban-reeglitest. | Tasuta iseläbitav internetipõhine õppetee | 6.5 tundi |
 | [Protsessi tootmise konfigureerimine ja kasutamine Dynamics 365 Supply Chain Managementis](/learn/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) | Protsessi tootmine on seotud valemite ja tootmisjuhistega, vastupidiselt diskreetsele tootmisele, mis kasutab diskreetseid ühikuid, ja koosluseid. Protsessi tootmist kasutatakse tootmiskeskkondades, kus tootmine viiakse lõpule pakktöötluse või poolpidevate protsessidena. | Tasuta iseläbitav internetipõhine õppetee | 6 tundi |
@@ -98,13 +98,12 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="exams"></a>Eksamid<a name="exams"></a>
 
-| Sisu  | Kirjeldus  | Vorming   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------|
+| Sisu | Kirjeldus | Vorming |
+|---------|-------------|--------|
 | [Microsofti serditud: Dynamics 365 for Finance and Operations, Supply Chain Managementi funktsionaalse konsultandi seostamine](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsofti serditud: Dynamics 365 for Finance and Operations, Supply Chain Managementi funktsionaalsed konsultandid hõlbustavad klientidel kuluarvestust, varude haldamist, koondplaneerimist ja laohaldust. | Sert, hind varieerub piirkonniti |
 | [Microsofti serditud: Dynamics 365 for Finance and Operations, tootmise funktsionaalse konsultandi seostamine](https://www.microsoft.com/learning/d365-functional-consultant-manufacturing.aspx) | Microsofti serditud: Dynamics 365 for Finance and Operations, tootmise funktsionaalsed konsultandid integreerivad digitaalsed ja füüsilised süsteemid, parandavad nähtavust, tootmise tõhusust ja paindlikkust ning vähendavad oma klientide kulusid. | Sert, hind varieerub piirkonniti |
 | [Eksam MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: kasutada ühiseid funktsioone ja juurutustööriistu; konfigureerida turvalisust, protsesse ja suvandeid; migreerida andmeid ning kontrollida lahendust ja pakkuda selle tuge. | Eksam, hind varieerub piirkonniti |
 | [Eksam MB-320: Microsoft Dynamics 365 for Finance and Operations, tootmine](/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: tootmise seadistamine ja konfigureerimine, tootmis- ja lean manufacturingi tellimuste loomine ja haldamine ning tootmise partiitellimuste loomine, töötlemine ja haldamine. | Eksam, hind varieerub piirkonniti |
 | [Eksam MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: tooteteabe haldamine, varude haldamine, tarneahela protsesside rakendamine ja haldamine, lao ja transpordi haldamine ning äriprotsesside teostamine. | Eksam, hind varieerub piirkonniti |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

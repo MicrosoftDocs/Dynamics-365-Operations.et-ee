@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720522"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344054"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>Mis on funktsioon Üks kanne?
@@ -81,7 +82,7 @@ Klientidega peetud vestluste põhjal on Microsoft koostanud järgmise loendi sts
 
 Järgmiseid stsenaariume on võimalik täita ainult ühe kande funktsiooni kasutades. Kui teie organisatsioonil on mõni neist stsenaariumitest, peate lubama mitme kande sisestamist ühte kandesse, muutes parameetrit **Luba ühe kande raames mitu kannet** lehel **Pearaamatu parameetrid**. Need funktsionaalsed vahemikud täidetakse teiste funktsioonidega hilisemates väljaannetes.
 
-> [!Note]
+> [!NOTE]
 > [Iga järgneva stsenaariumi jaoks peab väli **Luba ühe kande raames mitu kannet** olema määratud väärtusele „Jah” kiirkaardil **Üldine** lehel **Üldised pearaamatu parameetrid**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Hankija või kliendi maksete sisestamine pangakonto kokkuvõttevormi
@@ -115,15 +116,7 @@ Selles stsenaariumis on ühe kande kliendid üks ja sama klient, sest kanne simu
 Kui korvamise perioodiline ülesanne käivitatakse Müügireskontro mooduli, loob see kande, et viia saldo kliendilt hankijale. Selles stsenaariumis tuleb kliendile tagasi maksmiseks kasutada Ühe kande funktsiooni.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Põhivara hooldus: järelkulum, vara tükeldamine, likvideerimise kulumi arvutamine
-Järgmised põhivara kanded loovad samuti ühes kandes mitu kannet.
-
-- Varale tehakse täiendav soetamine ja arvutatakse järelkulum.
-- Vara tükeldatakse.
-- Likvideerimise kulumi arvutamiseks kasutatav parameeter on sisse lülitatud ja vara likvideeritakse.
-- Vara teenuse kuupäev on enne soetamiskuupäeva. Seega sisestatakse kulumi korrigeerimine.
-
-> [!Note]
-> Kannete sisestamisel veenduge, et kõik kanded oleksid seotud sama põhivaraga. Kannet ei sisestata, kui see hõlmab rohkem kui ühte põhivara, isegi kui väli **Uus kanne** on määratud pearaamatu lehel **Töölehe nimed** valikule Ainult üks kande number. Kui kaasate kandesse rohkem kui ühe põhivara, kuvatakse teade **Kandel võib olla ainult üks põhivarakanne** ja te ei saa kannet sisestada.  
+Versiooniga 10.0.21 ja hilisema versiooniga luuakse põhivarakanded lisakulumi, põhivara tükeldamise ja vara likvideerimise kulumi arvutamiseks, kasutades erinevaid kandenumbreid.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Käskveksel ja võlatähed
 Käskvekslid ja võlatähed nõuavad Ühe kande kasutamist, sest kanded viivad kliendi või hankija saldo ühelt Müügireskontro/ostureskontro pearaamatukontolt teisele, olenevalt makse olekust.

@@ -10,20 +10,19 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 51f0ab8f76fe3bce91d6e4ed56bdfa8529c1aacbd326a8b4b3d80615f872f8c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729547"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403887"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Kinnipeetava maksu deklaratsioon Egiptuse jaoks (EG-00005)
 
 [!include[banner](../includes/banner.md)]
-
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Ülevaade
@@ -113,7 +112,7 @@ Maksudeklaratsiooni aruande loomiseks viige lõpule järgmised sammud.
 1. Minge **Maksu** > **Deklaratsioonidesse** > **Kinnipeetav maks** > **Kinnipeetava maksu makse*.
 2. Valige tasakaalustusperiood ja seejärel valige aruande alguskuupäev. 
 3. Sisestage makse kuupäev ja seejärel valige **OK**.
-4. Avanev dialoogiboksis valige üks või mitu vormitüüpi **Vorm No 41**, **Vorm Nr 11** või **Pole**. Kui valite **Pole**, luuakse standardaruanne. 
+4. Avanevas dialoogiboksis valige üks või mitu vormitüüpi **Vorm Nr 41**, **Vorm Nr 11** või **Pole**. Kui valite **Pole**, luuakse standardaruanne. 
 5. Keele valimine. Kõik aruanded tõlgitakse **en-us** ja **ar-eg**.
 6. Sisestage selle panga haru ja nimi, kus maksumakse tasutakse.
 7. Valige ettevõtte tüüp ning seejärel sisestage tšeki- ja dokumendinumbrid. 

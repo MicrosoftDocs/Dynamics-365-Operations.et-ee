@@ -2,19 +2,19 @@
 title: Osapool ja globaalne aadressiraamat
 description: Selles teemas kirjeldatakse osapoole ja globaalse aadressiraamatu topeltkirjutuse funktsioone.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729772"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386681"
 ---
 # <a name="party-and-global-address-book"></a>Osapool ja globaalne aadressiraamat
 
@@ -139,7 +139,10 @@ Ruudustik sisaldab järgmisi veerge.
 
 Ruudustiku kohal saate kasutada nuppu **Uus Elektrooniline Aadress**, et luua nii palju sihtaadresse, kui soovite.
 
-Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasetes eemaldatakse kõik elektron- ja postiaadressi väljad teistelt vahekaartidelt, näiteks vahekaartidelt **Kokkuvõte** ja **Üksikasjad**.
+Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasetes eemaldatakse kõik elektron- ja postiaadressi väljad teistelt vahekaartidelt, näiteks vahekaartidelt **Kokkuvõte** ja **Üksikasjad**. Vahekaardil **Üksikasjad** kuvatud kontaktandmed on esmase elektroonilise aadressi kirjutuskaitstud koopiad, nagu esmane telefon, esmane meil, esmane telefon, esmane faks ja esmane Twitteri ID. Müügivihje kvalifikatsiooniprotsessi käigus saate sisestada nii ettevõtte telefoninumbri kui ka mobiiltelefoni numbri. Ettevõtte telefoninumber on esmane telefoninumber, kui **IsMobile=No** ja mobiiltelefoni numbrit loetakse teiseseks telefoninumbriks, kui **IsMobile=Yes**.
+
+> [!TIP]
+> Kasutage vahekaarte **Aadressid** ja **Elektroonilised aadressid** vormidel **Konto** ja **Kontakt** posti- ja elektrooniliste aadresside haldamiseks. See tagab, et aadressiandmed sünkroonitakse rakendustekomplektiga Finance and Operations.
 
 ## <a name="setup"></a>Seadistus
 
@@ -249,13 +252,11 @@ Elektronaadressid on saadaval ainult selles ruudustikus. Tulevastes väljalasete
     [CDS-i müügitellimuse päised](mapping-reference.md#217) | müügitellimused
     [Müügiarve päised V2](mapping-reference.md#118) | arved
 
-> [!Note]
+> [!NOTE]
 > Kaart `CDS Contacts V2 (contacts)` on kaart, mille peatasite sammus 1. Kui proovite käitada teisi kaarte, võivad need 2 vastekaarti ilmuda ülalpeetavate loendis. Ära käita neid kaarte.
-
-> [!Note]
+>
 > Kui osapool ja globaalse aadressiraamatu lahendus on installitud, peate ühenduse `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`keelama. Kui desinstallid osapoole ja globaalse aadressiraamatu lahenduse siis peate ühenduse keelama.
-
-> [!Note]
+>
 > `msdyn_*partynumber` välja (ühe rea tekstivälja), mis on kaasatud tabelitesse **Konto**, **Kontakt** ja **Hankija** ei tohiks kasutada edasiminekuks. Sildinimel on eesliide **Iganenud** selguse jaoks. Selle asemel kasutage **msdyn_partyid** välja. See väli on tabeli **msdyn_party** otsing.
 
 > Tabeli nimi | Vana väli | Uus väli
@@ -296,7 +297,6 @@ Lisateavet vt [topeltkirjutuse vastendamise viitest](mapping-reference.md).
 
 + Finance and Operations rakendustes, kui loote kliendi aadressiga ja salvestate selle, ei pruugi aadress **Aadressi** tabeliga sünkroonida. Põhjus on platvormi topeltkirjutuse järjestuse probleemis. Lahendusena looge kõigepealt klient ja salvestage see. Seejärel lisage aadress.
 + Finance and Operations rakendustes, kui kliendikirjel on esmane aadress ja te loote sellele kliendile uue kontakti, pärib kontaktikirje peamise aadressi seotud kliendikirjest. See juhtub ka hankija kontakti korral. Dataverse ei toeta praegu seda käitumist. Kui topeltkirjutus on lubatud, sünkroonitakse rakendusest esmase aadressiga Finance and Operations päritud kliendikontaktid Dataverse koos selle aadressiga.
-+ Tabeli `msdyn_partyelectronicaddress` elektroonilised aadressid ei tööta elektroonilise aadressi väljadel **Konto** ja **Kontakti** tabelites. Plaanime selle probleemi astmelises väljalaskes lahendada. Elektroonilise aadressivälja tabelite **Konto** ja **Kontakt** olemasolevaid andmeid ei kirjutata üle.
 + Elektrooniliste aadresside vahekaardile määratud elektroonilised aadressid ei tööta **Konto**, **Kontakt** ja **Hankija** vormidel tabelist `msdyn_partyelectronicaddress` . See teave ei mõjuta seotud kandeid (nt müügitellimus, pakkumine ja ostutellimus). Plaanime selle probleemi astmelises väljalaskes lahendada. Konto elektroonilise aadressi väljadel olevad andmed ja kontaktikirjed jätkavad tööd kannetega, nagu müügitellimus, pakkumine ja ostutellimus.
 + Rakendustes Finance and Operations saate luua kontaktikirje vormilt **Lisa Kontakt** . Kui proovite luua uut kontakti vormilt **Kuva Kontakt** tegevus nurjub. See on teadaolev probleem.
 

@@ -1,8 +1,8 @@
 ---
 title: Human Resourcesi ettevalmistus
 description: See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks.
-author: andreabichsel
-ms.date: 06/14/2021
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58ffce072c8b73f4907b18c6c60b022f9a3b55f26cb785238367254021afdc28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756144"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393519"
 ---
 # <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
@@ -28,9 +28,15 @@ ms.locfileid: "6756144"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks. See teema eeldab, et olete ostnud rakenduse Human Resources pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. Kui teil on olemasolev Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Human Resources teenuseplaani ja te ei saa selles artiklis olevaid etappe läbida, võtke ühendust toega.
+See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks. 
 
-Alustuseks peab üldadministraator sisse logima [Microsoft Dynamicsi teenusesse Lifecycle Services](https://lcs.dynamics.com) (LCS) ja looma uue Human Resourcesi projekti. Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil rakenduse Human Resources kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.
+## <a name="prerequisites"></a>Eeltingimused
+
+Enne uue tootmiskeskkonna ettevalmistamise alustamist peavad olema täidetud järgmised eeltingimused:
+
+- Olete inimressursse ostnud Cloud Solution Provider pakkuja (CSP) või ettevõtte arhitektuuri (EA) lepingu kaudu. Kui teil on olemasolev Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Human Resources teenuseplaani ja te ei saa selles artiklis olevaid etappe läbida, võtke ühendust toega.
+
+- Alustuseks peab üldadministraator sisse logima [Microsoft Dynamics`i teenusesse Lifecycle Services](https://lcs.dynamics.com) (LCS) ja looma uue Human Resourcesi projekti. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources proovikeskkonna ettevalmistamine
 
@@ -42,7 +48,7 @@ Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud
 
 Enne oma esimese Human Resourcesi keskkonna loomist peaksite hoolikalt planeerima keskkonna vajadused oma projekti jaoks. Human Resourcesi baastellimus sisaldab kahte keskkonda: töökeskkond ja liivakasti keskkond. Sõltuvalt teie projekti keerukusest võib teil projekti tegevuste toetamiseks olla vaja osta täiendavaid liivakastisekkondi. 
 
-Täiendavate keskkondade kasutamise kaalutlused on järgmised (kuid mitte ainult need).
+Kaalutlused täiendavatele keskkondadele:
 
 - **Andmete migratsioon**: teil võib olla tarvis kaaluda andmete migreerimise tegevuste jaoks lisakeskkonda, et võimaldada liivakastikeskkonna testimiseks kasutamist kogu projekti vältel. Lisakeskkonna omamine võimaldab andmete migreerimise toimingute jätkumist testimisega ja konfigureerimisega samaaegselt teises keskkonnas.
 - **Integratsioon**: täiendavaid keskkondi peaksite kaaluma testintegreerimiste konfigureerimiseks. See võib hõlmata põhiintegratsioone, nagu Ceridan Dayforce LinkedIn Anne'i talendikeskuse integratsioonid, või kohandatud integratsioonid, nagu palgaarvestuse, kandidaadi jälgimissüsteemide või soodustussüsteemide ja pakkujate integratsioonid.
@@ -50,10 +56,11 @@ Täiendavate keskkondade kasutamise kaalutlused on järgmised (kuid mitte ainult
 - **Mitmefaasiline projekt**: teil võib täiendavad keskkonna olla vaja konfiguratsiooni, andmete migratsiooni, testimise või muude tegevuste jaoks projektifaasis, mis on planeeritud pärast esialgset projekti käivitamist.
 
  > [!IMPORTANT]
- > Soovitame kasutada töökeskkonda kogu projekti vältel oma GOLD konfiguratsioonikeskkonnana. See on oluline, kuna te ei saa liivakastikeskkonda töökeskkonda kopeerida. Seetõttu on käivitamisel teie GOLD-keskkond teie töökeskkonnaks ja viite oma üleminekutegevused lõpule selles keskkonnas.</br></br>
- > Me soovitame kasutada oma liivakasti või muud keskkonda ülemineku mudeldamiseks enne tegelikku kasutuselevõttu. Seda saate teha, kui värskendate oma KULD-konfiguratsiooniga töökeskkonda oma liivakastikeskkonda.</br></br>
- > Soovitame pidada üksikasjalikku ülemineku kontroll-loendit, mis sisaldab kõiki andmepakette, mida on vaja lõppandmete migreerimiseks töökeskkonda kasutuselevõtuks ülemineku ajal.</br></br>
- > Soovitame kasutada ka liivakastikeskkonda kogu projekti vältel oma TEST-keskkonnana. Kui vajate täiendavaid keskkondi, saab teie organisatsioon neid lisatasu eest osta.</br></br>
+ > Keskkonda arvesse kandes soovitame:
+ > - Kasutage oma tootmiskeskkonda kogu projekti vältel GOLD -i konfiguratsioonikeskkonnana. See on oluline, kuna te ei saa liivakastikeskkonda töökeskkonda kopeerida. Seetõttu on käivitamisel teie GOLD-keskkond teie töökeskkonnaks ja viite oma üleminekutegevused lõpule selles keskkonnas.</br></br>
+ > - Me soovitame kasutada oma liivakasti või muud keskkonda ülemineku mudeldamiseks enne tegelikku kasutuselevõttu. Seda saate teha, kui värskendate oma KULD-konfiguratsiooniga töökeskkonda oma liivakastikeskkonda.</br></br>
+ > - Soovitame pidada üksikasjalikku ülemineku kontroll-loendit, mis sisaldab kõiki andmepakette, mida on vaja lõppandmete migreerimiseks töökeskkonda kasutuselevõtuks ülemineku ajal.</br></br>
+ > - Kasutage TEST -keskkonnana kogu projekti vältel oma liivakasti keskkonda. Kui vajate täiendavaid keskkondi, saab teie organisatsioon neid lisatasu eest osta.</br></br>
 
 ## <a name="create-an-lcs-project"></a>LCS-i projekti loomine
 
@@ -115,7 +122,7 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda rak
 
 4. Arvestada tuleks andmete integreerimis- ja testimisstrateegiatega, nagu liivakast, UAT või tootmine. Soovitame hoolikalt kaaluda juurutamise mõju, kuna hiljem ei ole lihtne muuta, milline rakenduse Human Resources keskkond Power Appsi keskkonnaga vastendatakse.
 
-5. Te ei saa kasutada rakenduse Human Resources jaoks järgmisi Power Appsi keskkondi. Need filtreeritakse LCS-is valikuloendist.
+5. Te ei saa kasutada rakenduse Human Resources jaoks järgmisi Power Apps`i keskkondi. Need filtreeritakse LCS-is valikuloendist.
  
     - **Power Appsi vaikekeskkonnad** – kuigi iga rentniku jaoks on automaatselt ette valmistatud Power Appsi vaikekeskkond, ei soovita me neid rakenduses Human Resources kasutada. Kõik rentniku kasutajad pääsevad Power Appsi keskkonnale ligi ja võivad tahtmatult tootmisandmeid rikkuda, kui nad katsetavad Power Appsi või Power Automate'i integratsioone või tutvuvad nendega.
    
@@ -147,7 +154,7 @@ Inimressursside keskkonna andmed sisalduvad alati Azure'i geograafilises piirkon
 
 ## <a name="grant-access-to-the-environment"></a>Keskkonnale juurdepääsu andmine
 
-Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. Te peate rakenduse teistele kasutajatele konkreetselt juurdepääsu andma. Te peate rakenduse Human Resources keskkonnas kasutajad lisama ja neile sobivad rollid määrama. Lähtestamise lõpetamiseks ja teistele rentiku kasutajatele juurdepääsu lubamiseks peaks Human Resourcesi keskkonna juurutanud üldadministraator käivitama ka mõlemad rakendused Attract ja Onboard. Kuni seda pole tehtud, pole teistel kasutajatel juurdepääsu rakendustele Attract ja Onboard ning nad saavad juurdepääsuõiguste rikkumise tõrkeid. Lisateabe saamiseks vaadake teemasid [Uute kasutajate loomine](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ja [Kasutajate määramine turberollidesse](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. Te peate rakenduse teistele kasutajatele konkreetselt juurdepääsu andma. Te peate rakenduse Human Resources keskkonnas kasutajad lisama ja neile sobivad rollid määrama. Lisateabe saamiseks vaadake teemasid [Uute kasutajate loomine](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ja [Kasutajate määramine turberollidesse](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

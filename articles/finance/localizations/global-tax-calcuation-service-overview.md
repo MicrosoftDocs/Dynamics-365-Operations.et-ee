@@ -1,12 +1,12 @@
 ---
-title: Maksuarvutus (eelversioon)
+title: Maksuarvutuse ülevaade
 description: Selles teemas selgitatakse maksuarvestuse võimekuse üldist ulatust ja funktsioone.
 author: wangchen
-ms.date: 06/03/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4e01247cddad4201760fd56e00e05a8373a1ca6ef7c26ae5e1f5cca63bd8a456
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775090"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394582"
 ---
-# <a name="tax-calculation-preview"></a>Maksuarvutus (eelversioon)
+# <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,44 +33,59 @@ Maksuarvestus on hüperskaleeritav mitmetasandiline teenus, mis võimaldab globa
 Maksuarvutus integreerub Dynamics 365 Finance ja Dynamics 365 Supply Chain Management-iga. Lõpuks integreerub see ka Dynamics 365 Project Operations Dynamics 365 Commerce ja teiste esimese ja kolmanda osapoole rakendustega.
 
 > [!IMPORTANT]
-> Kui lubate maksuarvestuse teenuse, võidakse teha mõningaid seotud andmete toiminguid andmekeskuses, mis ei ole andmekeskus, mis haldab teie teenuse andmeid. Vaadake [Maksuarvutuse tingimused](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) üle enne teenuse lubamist. Teie privaatsus on meie jaoks oluline. Lisateabe saamiseks lugege meie [privaatsusavaldust](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Kui lubate maksuarvestuse teenuse, võidakse teha mõningaid seotud andmete toiminguid andmekeskuses, mis ei ole andmekeskus, mis haldab teie teenuse andmeid. Vaadake [Reeglid ja tingimused](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) üle enne maksuarvutamise lubamist. Teie privaatsus on meie jaoks oluline. Lisateabe saamiseks lugege meie [privaatsusavaldust](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-Maksuarvestuse on mikroteenuse põhine maksumootor, mis pakub astmelisi skaleeritavust. Saate teha järgmisi toiminguid:
+Maksu arvutamine on mikroteenustel põhinev maksumootor, mis pakub astmelist skaleeritavust ja aitab täita järgmisi ülesandeid:
 
-- Konfigureerige maksuarvestus Regulatory Configuration Service'i (RCS) kaudu. RCS on elektroonilise aruandluse (ER) kujundaja täiustatud versioon ja saadaval eraldi teenusena.
-- Konfigureerige maksumaatriks maksukoodide ja -määrade automaatseks määramiseks.
-- Konfigureerige maksumaatriks maksu registreerimise number automaatseks määramiseks.
-- Konfigureerige maksuarvutuse kujundajat valemite ja tingimuste määratlemiseks.
-- Jagage maksu määramist ja arvutuslahendust juriidiliste isikute lõikes.
+- Täiustatud määratlemismehhanismi abil saate automaatselt määrata õige käibemaksugrupi, kauba käibemaksugrupi ja maksukoodid.
+- Kui teil on mitu maksuregistreerimise numbrit ühe hankija kohta, saab maksuarvestuse lisandmoodul õige maksuregistreerimise numbri määrata automaatselt.
+- Saate toetada üleviimistellimuste maksu määramist, arvutamist, sisestamist ja tasakaalustamist.
+- Määratlege konfigureeritavad maksuarvutuse valemid ja tingimused teie konkreetsetele ärinõuetele.
+- Jagage maksu määramise ja arvutamise lahendust juriidiliste isikute vahel, et salvestada hoolduse panus ja vältida tõrkeid.
+- Kliendi ja hankija maksu registreerimisnumbri määramine.
+- Tugiloendi koodi määramine.
+- Toetab maksuarvutuse parameetreid maksu jurisdiktsiooni tasandil.
 
-Maksuarvutusteenuse kasutamiseks installige maksuarvutuse teenuse lisandmoodul oma projektist Microsoft Dynamics Lifecycle Services (LCS). Seejärel lõpetage seadistus RCS-s ja lubage maksu arvutamise teenus finantside ja Supply Chain Management. Lisateavet leiate teemast [Maksuteenusega alustamine](./global-get-started-with-tax-calculation-service.md).
+Maksuarvutusteenuse kasutamiseks installige Tax Calculation lisandmoodul oma projektist Microsoft Dynamics Lifecycle Services. Seejärel lõpetage seadistus rakenduses [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/) ja lubage maksu arvutamise teenus rakenduses Finance ja Supply Chain Management. Lisateavet leiate teemast [Maksuteenusega alustamine](global-get-started-with-tax-calculation-service.md).
 
 ## <a name="availability"></a>Kättesaadavus
 
-Maksuarvutus on avaliku eelvaateprogrammi kaudu saadaval ainult liivakasti keskkondades ja valitud klientide jaoks. Lõpuks muutub see üldiselt kättesaadavaks kõigile klientidele ja tootmiskeskkondades.
+Maksu arvutamine on üldiselt saadaval tootmiskeskkondades kõigile klientidele versiooni 10.0.21 alusel.
 
-Uusi funktsioone edastatakse, mistõttu kontrollige kindlasti kõige ajasemat dokumentatsiooni, et teada saada toetatud funktsioonide laovarudest ja ulatusest.
+Uute funktsioonide tarnimist jätkatakse. Kontrollige kindlasti kõige ajasemat dokumentatsiooni, et teada saada toetatud funktsioonide laovarudest ja ulatusest.
 
-Maksuarvestus on juurutatud järgmistes Azure'i geograafilistes asukohtades. See juurutatakse ka rohkematele Azure'i geograafilistele aseukohtades, sõltuvalt klientide vajadustest:
+Maksuarvestus on juurutatud järgmistes Azure'i geograafilistes asukohtades. Vastavalt klientide vajadustele lisatakse rohkem Azure'i geograafilisi asukohti.
 
-- Ameerika Ühendriigid
+- Aasia ja Vaikse ookeani
+- Austraalia
+- Kanada
 - Euroopa
+- Jaapan
+- Ühendkuningriik
+- Ameerika Ühendriigid
 
 > [!NOTE]
-> Maksuarvestus ei toeta kohapealset juurutamist Dynamics 365-s. Samuti ei toeta see varasemaid versioone, nt Dynamics AX 2012.
+> Maksuarvutus ei toeta Dynamics 365 varasemat versiooni, nt Dynamics AX 2012 või Dynamics 365 valdustes juurutamist.
 
-## <a name="feature-highlights"></a>Esiletõstetud funktsioonid
+## <a name="data-flow"></a>Andmevoog
 
-- Konfigureerige maksumaatriks maksude automaatseks määramiseks ja arvutamiseks
-- Tugi mitme maksu registreerimisnumbritele
-- Üleviimistellimuse tugi maksu määramiseks ja arvutamiseks
-- Üleviimistellimuse tugi mitme maksu registreerimisnumbri määramiseks
+Siin on ülevaade maksude arvutamise andmevoo protsessist. 
+
+1. RCS-s saate vaadata ja importida maksustatava dokumendi mudeli konfiguratsioone ja mudeli vastendamise konfiguratsioone. Kui peate täpsema stsenaariumi konfiguratsioone laiendama, vaata [Andmeväljade lisamine maksukonfiguratsioonides](tax-service-add-data-fields-tax-configurations.md).
+2. RCS-sis looge või säilitage maksufunktsioonid. Saate kasutada maksufunktsiooni maksumäärade ja maksu kohaldatavusreeglite säilitamiseks.
+3. Pärast maksufunktsiooni häälestuse lõpuleviimist avaldage maksukonfiguratsioonid ja maksufunktsioonid RCS-ist globaalsesse hoidlasse.
+4. Rakenduses Finance valige, millist maksufunktsiooni seadistusversiooni konkreetse juriidilise isiku puhul kasutada.
+5. Finance ja Supply Chain Management halduses kasutage kandeid nagu tavaliselt. Kui on vaja maksu arvutamist, kogub klient kandest teavet, nt müügitellimust või ostutellimust, ja pakib teabe lastiks. Seejärel saadetakse maksu arvutamiseks taotlus.
+6. Maksu arvutamise taotlus on kliendilt saadud ja kalkulatsioon on lõpule viidud. Maksu tulemus tagastatakse seejärel kliendile.
+7. Dynamics 365 klient saab käibemaksu tulemuse ja esitab käibemaksu arvutamise tulemuse käibemaksu leheküljel.
 
 ## <a name="supported-transactions"></a>Toetatud kanded
 
-Maksuarvestus võib olla juriidiliste isikute ja kannete puhul võimaldatud. Toetatud on järgmised kanded:
+Maksu arvutuse saab lubada kannetega. 
 
-- Müügiprotsess
+Finantsversioonis 10.0.21 toetatakse järgmisi kandeid: 
+
+- Müük
 
     - Müügipakkumine
     - Müügitellimus
@@ -83,7 +98,7 @@ Maksuarvestus võib olla juriidiliste isikute ja kannete puhul võimaldatud. Toe
     - Mitmesugused tasude päis
     - Mitmesuguste kulude rida
 
-- Ostuprotsess
+- Ost
 
     - Ostutellimus
     - Kinnitus
@@ -100,10 +115,36 @@ Maksuarvestus võib olla juriidiliste isikute ja kannete puhul võimaldatud. Toe
     - Pakkumispäise lisakulunõue
     - Pakkumisrea lisakulunõue
 
-- Inventuuriprotsess
+- Varud
 
     - Kandetellimus-- lähetus
     - Kandetellimus-- kättesaamine
+
+## <a name="supported-countriesregions"></a>Toetatud riigid/regioonid
+
+Maksude arvutamist saab lubada juriidiline isik. 
+
+Versioonis 10.0.21 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+
+- Austria
+- Belgia
+- Taani
+- Eesti
+- Soome
+- Prantsusmaa
+- Saksamaa
+- Ungari
+- Island
+- Itaalia
+- Läti
+- Leedu
+- Holland
+- Norra
+- Poola
+- Rootsi
+- Šveits
+- Ühendkuningriik
+- Ameerika Ühendriigid
 
 ## <a name="related-resources"></a>Seotud ressursid
 

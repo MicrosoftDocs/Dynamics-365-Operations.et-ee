@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742436"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416475"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 
@@ -128,7 +128,7 @@ Commerce’is kõikide andmete sünkroonimise käitamiseks tehke Commerce'i peak
 Selleks, et sooritada testi kandeid saidil, saate kasutada järgmist testi krediitkaardi teavet.
 
 - **Kaardi number:** 4111-1111-1111-1111
-- **Aegumiskuupäev:** 10/20
+- **Aegumiskuupäev:** 10/30
 - **Kaardi tõendamise väärtus (CVV) kood:** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Selleks, et sooritada testi kandeid saidil, saate kasutada järgmist testi kredi
 Pärast ettevalmistamise ja konfigureerimise etappide lõpule viimist, olete valmis oma hindamiskeskkonda kasutama. Kasutage Commerce'i saidiehitaja URL-i, et minna autorluskogemuse juurde. Kasutage Commerce'i saidi URL-i, et minna jaemüügi klientide saidikogemuse juurde.
 
 Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone konfigureerida, vaadake teemast [Commerce’i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md).
+
+> [!NOTE]
+> Commerce'i hindamiskeskkonnad on eellaaditud Azure Active Directory (Azure AD) ettvõttelt tarbijale (B2C) rentnikule demo eesmärgil. Oma Azure AD B2C rentniku konfigureerimine ei ole hindamiskeskkondade jaoks vajalik. Kui aga konfigureerite hindamiskeskkonda oma Azure AD B2C rentniku kasutamiseks, lisage ``https://login.commerce.dynamics.com/_msdyn365/authresp`` see Azure AD Azure Portaali kaudu B2C-rakendusele vastuse URL-ina.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -159,6 +162,8 @@ Teavet selle kohta, kuidas Commerce’i hindamiskeskkonna valikulisi funktsioone
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Jaekaubandusrentniku häälestamine Commerce'is](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

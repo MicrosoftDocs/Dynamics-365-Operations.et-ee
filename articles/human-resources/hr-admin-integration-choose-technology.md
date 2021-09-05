@@ -1,8 +1,8 @@
 ---
 title: Andme integratsioonitehnoloogia valimine
-description: Selles artiklis antakse teavet Human Resourcesis hallatud andmetega integreerimise kohta. Kirjeldatakse erinevaid integratsioonitehnoloogiaid, et aitata teil otsustada, millised tehnoloogiad teie vajadustele kõige paremini vastavad.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Selles artiklis antakse teavet personaliga hallatavate andmetega integreerimise kohta.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720464"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414710"
 ---
 # <a name="choose-a-data-integration-technology"></a>Andme integratsioonitehnoloogia valimine
 
@@ -34,8 +34,7 @@ Selles artiklis antakse teavet Dynamics 365 Human Resources hallatud andmetega i
 
 Äriandmed on oluline vara, mis muudab teie ettevõtte ainulaadseks. Teie ettevõtte andmed on väga väärtuslikud. Saate kasutada kogu oma ettevõttes kogutud andmete vahelisi seoseid äriprotsesside ja äriteabe parandamiseks kogu teie organisatsioonis. Püüame pakkuda lihtsat, turvalist ja stabiilset juurdepääsu teie äriandmetele olenemata sellest, millisest süsteemist see pärineb.
 
-Ajalooliselt on teabe integreerimine mitme süsteemi vahel olnud raske.
-Microsoft astub samme, et muuta andmeintegratsioon lihtsamaks ja üks osa selle eesmärgi täideviimisest on platvorm [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Ajalooliselt on teabe integreerimine mitme süsteemi vahel olnud raske. Microsoft astub samme, et muuta andmeintegratsioon lihtsamaks ja üks osa selle eesmärgi täideviimisest on platvorm [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources on muutmas rakendust Dataverse rakenduse Human Resources andmete eelistatud avalikuks liideseks. Aja jooksul eeldame, et kõik kõige olulisemad rakendusega Human Resources hallatavad andmed jõuavad ka rakendusse Dataverse. Soovitame rakendust Dataverse kui tehnoloogilist valikut suurema osa integreeritavate rakenduste jaoks.
 
@@ -47,7 +46,7 @@ Järgmised jaotised kirjeldavad erinevaid teabe integreerimise tehnoloogiaid, mi
 
 ### <a name="dataverse-tables"></a>Dataverse'i tabelid
 
-Dataverse on eelistatud avaliku teabe liides rakenduse Human Resources jaoks. See kasvas välja Dynamics 365 XRM-i platvormist, mida kasutavad [Dynamics 365 Customer Engagementi](/dynamics365/?panel=customer-engagement#pivot=business-apps) lahendused.
+Dataverse on eelistatud avaliku teabe liides rakenduse Human Resources jaoks. See kasvas välja Dynamics 365 XRM-i platvormist, mida kasutavad [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) lahendused.
 
 Dataverse pakub andmetabelitele platvormi ja API-d. Human Reasourcesi juurutamisel ühendub see Dataverse'i eksemplariga. Human Resourcesi andmeüksused juurutatakse sellesse Dataverse'i eksemplari. Tabelid ja nende andmed on saadaval mis tahes rakendusele, mida saab Dataverse'i eksemplariga ühendada. Human Resources sünkroonib andmeid Dataverse'i tabelite vahel.
 

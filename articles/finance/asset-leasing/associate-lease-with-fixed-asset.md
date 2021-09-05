@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4811c65a32e27668d1247086d962366eb8369d5e9fe28a105e1d6a020bca325d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737745"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392470"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Põhivara seostamine rendiga
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 See teema selgitab, kuidas seostada olemasolev põhivara uue rendikirjega. Kui seostate põhivara rendikirjega, on põhivara soetusmaksumuseks kasutamisõiguse esemeks oleva vara väärtus esialgsel tuvastamisel.
 
@@ -49,8 +50,18 @@ Pärast esialgse tuvastuse töölehe kirje sisestamist kuvatakse kanne põhivara
 
 Põhivara saab nüüd amortiseerida põhivarade standardse kulumi funktsiooni abil. Lisateavet kulumiarvestuse kohta leiate jaotisest [Kulumimeetodid ja kulumiarvestusreeglid](../fixed-assets/depreciation-methods-conventions.md).
 
+Kui rent on seotud põhivaraga, uuendatakse põhivararaamatu **Teenusea** väli nii, et see ühtiks väikseima väärtusega järgmistest kriteeriumidest: 
+
+ - Vara kasulik tööiga
+ - Rendi tähtaeg seotud rendiraamatust
+
+Kui välja **Omandiõiguse üleminek** väärtuseks on rendiraamatu puhul määratud **Jah**, on välja **Kasutusiga** väärtus alati vara kasulik tööiga. 
+ 
+Kasutusiga uuendatakse iga kord, kui renti korrigeeritakse, et tagada vara kasutusaja amortiseerimine tähtajalise rendi korral, nagu oleks see amortiseeritud Varade kulumis.
+
 > [!NOTE]
 > Kui seostate põhivara rendiga, on nupud **Vara kulum** ja **Rendi väärtuse langus** põhivara rentimises keelatud. Vara kulumist ja rendi väärtuse languse tehinguid saate vaadata püsivaradest. Nupp **Vara kanded**, mis avab päringu vormi, on samuti keelatud. Saate avada päringu **Vara tehingud** ka põhivaradest.  
 
+Lehekülgedel **Põhivarad** ja **põhivararaamat** kuvatakse põhivaraga seostatud liisingu ID. Kui põhivara on seotud rendiga, kuvatakse liisimise ID ja liisingu kirjeldus põhivarade lehel **renditeabe** kiirkaardil **Põhivara** lehel. Liisinguraamatutega seotud põhivararaamatute puhul kuvatakse väljadel **Liisingu ID**, **Liisingu kirjeldus** ja **Raamatu tüüp** valitud põhivararaamatu teave **Liisinguteabe** kiirkaardil, näitamaks, et see on seotud rendiraamatuga.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

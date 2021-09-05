@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721459"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345294"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Tootmise täideviimise töökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -44,7 +44,7 @@ See teema kirjeldab, kuidas tootmise läbiviimise töömahud töötavad koos pil
 
 Nagu järgnev illustratsioon näitab, on tootmise elutsükkel jagatud kolmeks faasiks: *Planeeri*, *Käivita* ja *Lõpeta*.
 
-[![Tootmise käivitamise faasid üksiku keskkonna kasutamisel](media/mes-phases.png "Tootmise käivitamise faasid üksiku keskkonna kasutamisel."](media/mes-phases-large.png)
+[![Ühe keskkonna kasutamisel on tootmise käivitamise faasid](media/mes-phases.png "Tootmise täideviimisfaasid ühe keskkonna kasutamisel.")](media/mes-phases-large.png)
 
 _Planeerimise_ faas hõlmab toote määratlust, planeerimist, tellimuse loomist ja ajastamist ning müügile laskmist. Müügile laskmise etapp näitab üleminekut _planeerimise_ faasist _käivitamise_ faasi. Kui tootmistellimus on müügile lastud, on tootmistellimuse tööd tootmiskorrusel nähtavad ja valmis täitmiseks.
 
@@ -54,7 +54,7 @@ Kui tootmistöö on märgitud lõpetatuks, liigub see käivitamise _Käivitamise
 
 Nagu järgmine illustratsioon näitab, kui kasutatakse astmiku ühikuid, tükeldatakse _Käivitamise_ faas eraldi töökoormusena.
 
-[![Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse kaaluühikuid."](media/mes-phases-workloads-large.png)
+[![Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid](media/mes-phases-workloads.png "Tootmise käivitamise faasid, kui kasutatakse astmiku ühikuid.")](media/mes-phases-workloads-large.png)
 
 Mudel läheb nüüd kohesest installist mudelile, mis põhineb keskusel ja skaala ühikutel. Faasid _Plaanimine_ ja _Lõpetamine_ käivitatakse keskuses tagatoatoimingutena ja tootmise täideviimise töökoormus käivitatakse skaalaüksustes. Andmed edastatakse asünkroonselt keskuse ja astmiku ühikute vahel.
 

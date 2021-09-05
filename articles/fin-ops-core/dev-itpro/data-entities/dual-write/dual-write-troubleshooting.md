@@ -4,24 +4,17 @@ description: See teema annab teavet rakendustekomplekti Finance and Operations j
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 779cc80d4cb510e79885919f1c705824ab6ad58b3e2fe1bab7bbec0511d08951
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736298"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380208"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -29,31 +22,10 @@ ms.locfileid: "6736298"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni üldise tõrkeotsingu kohta.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Kui üritate installida tööriista Package Deployer abil topeltkirjutuse paketti, ei kuvata ühtegi saadaolevat lahendust
-
-Mõni tööriista Package Deployer versioon ei ühildu topeltkirjutuse lahenduse paketiga. Paketi edukaks installimiseks kasutage kindlasti tööriista Package Deployer [versiooni 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) või uuemat.
-
-Pärast tööriista Package Deployer installimist installige lahendusepakett, järgides neid juhiseid.
-
-1. Uusima lahenduse paketi faili saate alla laadida lehelt Yammer.com. Pärast paketi ZIP-faili allalaadimist paremklõpsake seda ja valige **Atribuudid**. Valige märkeruut **Tühista blokeerimine** ja valige seejärel **Rakenda**. Kui märkeruutu **Tühista blokeerimine** ei kuvata, on ZIP-fail juba blokeeritud ja võite selle toimingu vahele jätta.
-
-    ![Atribuutide dialoogiboks.](media/unblock_option.png)
-
-2. Ekstraktige paketi ZIP-fail ja kopeerige kõik failid kaustas **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
-
-    ![Kausta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 sisu.](media/extract_package.png)
-
-3. Kleepige kõik kopeeritud failid tööriista Package Deployer kausta **Tööriistad**. 
-4. Käivitage **PackageDeployer.exe** Dataverse'i keskkonna valimiseks ja lahenduste installimiseks.
-
-    ![Kausta Tööriistad sisu.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Teenuse Dataverse’i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
 
@@ -74,18 +46,17 @@ Jälituslogi kuvamiseks toimige järgmiselt.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Silumisrežiim lubamine tõrkeotsingu reaalajas sünkroonimise probleemide korral Finance and Operationsi rakendustes
 
-**Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator. Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Mõnel juhul ei ole tõrketeate täistekst saadaval, kuna sõnum on liiga pikk või sisaldab tuvastamist võimaldavaid andmeid (PII). Verbose tõrgete logimise saate sisse lülitada järgmiste juhiste abil.
+**Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator
 
-1. Kõigil Finance and Operationsi rakenduste projekti konfiguratsioonidel on atribuut **IsDebugMode** tabelis **DualWriteProjectConfiguration**. Tabeli **DualWriteProjectConfiguration** avamine Exceli lisandmooduliga.
+Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Vigade paljusõnalise logimise lubamiseks toimige järgmiselt:
 
-    > [!TIP]
-    > Kõige lihtsam on tabelit avada režiimi **Kujundus** sisselülitamisel Exceli lisandmoodulis ja seejärel lisada töölehele üksus **DualWriteProjectConfigurationEntity**. Lisateabe saamiseks vt [Tabeli andmete avamine Excelis ja andmete värskendamine Exceli lisandmooduliga](../../office-integration/use-excel-add-in.md).
-
-2. Seadke projekti atribuudi **IsDebugMode** väärtuseks **Jah**.
-3. Käivitage stsenaarium, mis tekitab tõrkeid.
-4. Verbose logid on saadaval tabelis DualWriteErrorLog. Tabeli brauseris andmete otsimiseks kasutage järgmist URL-i (asendage **XXX** vastavalt vajadusele):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
+1. Kõigil Finance and Operations rakenduste projekti konfiguratsioonidel on atribuut **Silumisrežiim** tabelis **TopeltKirjutuseProjektiKonfiguratsioon**.
+2. **TopeltKirjutuseProjektiKonfiguratsioon** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage kujundusrežiim Finance and Operations Exceli lisandmoodulis ja lisage lehele **TopeltKirjutuseProjektiKonfiguratsioon**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
+3. Seadke projekti **Silumisrežiim** väärtuseks **Jah**.
+4. Käivitage stsenaarium, mis tekitab tõrkeid.
+5. Paljusõnalised logid salvestatakse **TopeltKirjutusTõrkeLogi** tabelisse.
+6. Tabelibrauseri andmete otsimiseks kasutage järgmist linki: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, asendades `999` vastavalt vajadusele.
+7. Uuendage uuesti pärast [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), mis on saadaval platvormi värskendusteks 37 ja uuemad. Kui see parandus on installitud, hõivab silumisrežiim rohkem logisid.  
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Rakenduse Finance and Operations virtuaalarvuti sünkroonimistõrgete kontrollimine
 
@@ -116,10 +87,28 @@ Nüüd saate linkida uue keskkonna.
 Kui loote müügitellimuse rakenduses Dynamics 365 Sales, võib nupu **+ Lisa tooted** klõpsamine suunata teid rakenduse Dynamics 365 Project Operations tellimuserea vormile. Sellel vormil ei saa vaadata müügitellimuse rea vormi **Teave**. Ripploendis ei kuvata suvandi **Uus tellimuse rida** all suvandit **Teave**. See juhtub, kuna teie keskkonnas on installitud rakendus Project Operations.
 
 Vormisuvandi **Teave** uuesti lubamiseks tehke järgmist.
+
 1. Avage tabel **Tellimuse rida**.
-2. Leidke vormide sõlme alt vorm **Teave**. 
-3. Valige vorm **Teave** ja klõpsake **Luba turberollid**. 
+2. Leidke vormide sõlme alt vorm **Teave**.
+3. Valige vorm **Teave** ja klõpsake **Luba turberollid**.
 4. Seadke turbesäte väärtusele **Kuva kõigile**.
 
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Kuidas lubada ja salvestada võrgujälgi nii, et jälge saab siduda piletipiletite toega
+
+Tugimeeskond võib mõne probleemi tõrkeotsinguks vajada võrgujälje ülevaatamist. Võrgujälje loomiseks järgige järgmisi samme:
+
+### <a name="chrome"></a>Chrome
+
+1. Avatud vahekaardil vajutage **F12** või valige **arendaja tööriistad** arendaja tööriistade avamiseks.
+2. Saate avada **Võrk** vahekaardi ja tippige **integreeri** filtri tekstiboksi.
+3. Käivitage stsenaarium ja jälgige sisselogitud taotlusi.
+4. Paremklõpsake kirjeid ja valige suvand **Salvesta kõik sisuga HAR-i jaoks**.
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. Avatud vahekaardil vajutage **F12** või valige **arendaja tööriistad** arendaja tööriistade avamiseks.
+2. Avage vahekaart **Võrgustik**.
+3. Käivitage stsenaarium.
+4. Valige **Salvestamine** eksportimiseks HAR-tööna.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Sobivusreeglite ja -suvandite konfigureerimine
-description: Määrake rakenduses Microsoft Dynamics 365 Human Resources soodustuste haldamises sobivusreeglid ja -suvandi.
-author: andreabichsel
-ms.date: 06/25/2021
+description: See teema kirjeldab, kuidas määrata sobivusreegleid ja võimalusi rakenduse Microsoft Dynamics 365 Human Resources soodustuste halduses.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423467"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine 
 
@@ -217,13 +217,13 @@ Saate kasutada paindliku krediidiga programme, et registreerida töötajad eelm�
 
    | Field | Kirjeldus |
    | --- | --- |
-   | Soodustuse krediidi ID | Paindliku krediidiga programmi kordumatu identifikaator. |
-   | Kirjeldus | Paindliku krediidiga programm kirjeldus. | 
-   | Kehtivuse alguskuupäev | Paindliku krediidiga programmi aktiivseks muutumise kuupäev. |
-   | Kuupäevani | Paindliku krediidiga programmi lõpukuupäev. Saate jätta vaikeväärtuse (12/31/2154), mis näitab, et paindliku krediidiga programmil ei ole plaanitud aegumist. |
-   | Krediidi koguväärtus | Krediidi hulk, mida iga töövõtja saab nende soodustuste jaoks kasutada. |
-   | Proportsionaalse jaotumise reegel | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks, kui töövõtja palgatakse paindliku krediidi perioodi keskel. </br></br><ul><li>**Pole** – töövõtja ei saa paindlikku krediiti, kui ta on palgatud pärast paindliku krediidiga programmi perioodi algust.</li><li>**Täiskrediit** – töötaja saab paindliku krediidi koguhulga, olenemata nende palkamise ajast.</li><li>**Jaota proportsionaalselt** – töövõtja saab proportsionaalselt jaotatud hulga paindlikku krediiti, olenevalt nende tööhõive alguskuupäevast.</li></ul> |
-   | Paindliku krediidi proportsionaalse jaotamise valem | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks töövõtjatele, kes palgatakse paindliku krediidi programmi soodustuste perioodi keskel. Proportsionaalne jaotamine põhineb tööhõive alguskuupäeval. Seda välja kasutatakse ainult siis kui valite suvandi **Jaota proportsionaalselt** väljal **Proportsionaalselt jaotamise reegel**. </br></br><ul><li>**Igapäevane** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt päevade tasemel. Paindliku krediidi koguhulk jagatakse perioodi päevade arvuga. Näiteks kui teie soodustuste periood on 400 päeva, jaotab süsteem paindliku krediidi koguhulga 400-ga, et arvutada paindliku krediidi hulga, mida töötaja päevas saab.</li><li>**Jooksev kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna praeguse kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li><li>**Järgmine kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna järgmise kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li></ul> |
+   | **Soodustuse krediidi ID** | Paindliku krediidiga programmi kordumatu identifikaator. |
+   | **Kirjeldus** | Paindliku krediidiga programm kirjeldus. | 
+   | **Kehtivuse alguskuupäev** | Paindliku krediidiga programmi aktiivseks muutumise kuupäev. |
+   | **Kuupäevani** | Paindliku krediidiga programmi lõpukuupäev. Saate jätta vaikeväärtuse (12/31/2154), mis näitab, et paindliku krediidiga programmil ei ole plaanitud aegumist. |
+   | **Krediidi koguväärtus** | Krediidi hulk, mida iga töövõtja saab nende soodustuste jaoks kasutada. |
+   | **Proportsionaalse jaotumise reegel** | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks, kui töövõtja palgatakse paindliku krediidi perioodi keskel. </br></br><ul><li>**Pole** – töövõtja ei saa paindlikku krediiti, kui ta on palgatud pärast paindliku krediidiga programmi perioodi algust.</li><li>**Täiskrediit** – töötaja saab paindliku krediidi koguhulga, olenemata nende palkamise ajast.</li><li>**Jaota proportsionaalselt** – töövõtja saab proportsionaalselt jaotatud hulga paindlikku krediiti, olenevalt nende tööhõive alguskuupäevast.</li></ul> |
+   | **Paindliku krediidi proportsionaalse jaotamise valem** | Reeglit kasutatakse paindliku krediidi proportsionaalseks jaotamiseks töövõtjatele, kes palgatakse paindliku krediidi programmi soodustuste perioodi keskel. Proportsionaalne jaotamine põhineb tööhõive alguskuupäeval. Seda välja kasutatakse ainult siis kui valite suvandi **Jaota proportsionaalselt** väljal **Proportsionaalselt jaotamise reegel**. </br></br><ul><li>**Igapäevane** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt päevade tasemel. Paindliku krediidi koguhulk jagatakse perioodi päevade arvuga. Näiteks kui teie soodustuste periood on 400 päeva, jaotab süsteem paindliku krediidi koguhulga 400-ga, et arvutada paindliku krediidi hulga, mida töötaja päevas saab.</li><li>**Jooksev kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna praeguse kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li><li>**Järgmine kuu** – jaotab töövõtja saadava paindliku krediidi hulga proportsionaalselt kuu tasemel, ümardatuna järgmise kuuni. Paindliku krediidi koguhulk jagatakse perioodi kuude arvuga. Näiteks kui teie soodustuste periood on 15 kuud, jaotab süsteem paindliku krediidi koguhulga 15-ga, et arvutada paindliku krediidi hulga, mida töötaja kuus saab.</li></ul> |
    
    Veenduge, et iga soodustuse plaan oleks igal soodustuse perioodil registreeritud ainult ühes paindliku krediidiga programmis. Vastasel juhul süsteem ei tea, millist paindliku krediidiga programmi kasutada, et paindlikku krediiti anda, ja teil tekib probleeme. 
 

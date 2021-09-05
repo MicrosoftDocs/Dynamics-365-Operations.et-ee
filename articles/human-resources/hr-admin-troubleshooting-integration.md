@@ -1,8 +1,8 @@
 ---
 title: Finance’i KKK-ga integreerimine
-description: Selles artiklis selgitatakse, millised andmed sünkroonitakse rakenduste Human Resources ja Finance integratsioonis.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Selles teemas selgitatakse, millised andmed sünkroonitakse rakenduste Human Resources ja Finance integratsioonis.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782140"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413372"
 ---
 # <a name="integration-with-finance-faq"></a>Finance’i KKK-ga integreerimine
 
@@ -158,8 +158,7 @@ Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 Finance ja Data
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Saan töösuhete sünkroonimisel tõrketeate „Atribuuti CompanyInfo_FK pole olemas” või „Väärtust 12/31/2154 23:59:59 väljal Töösuhte lõppkuupäev ei leitud seotud tabelist Töösuhe”. Mida teha?
 
-Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Human Resourcesis ja teenuses Dataverse olev juriidiline isik olemas olema ka Finance’is.
-Veenduge ka, et valiksite seostatud ühendusekogumi jaoks õiged juriidilised isikud.
+Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Human Resourcesis ja teenuses Dataverse olev juriidiline isik olemas olema ka Finance’is. Veenduge ka, et valiksite seostatud ühendusekogumi jaoks õiged juriidilised isikud.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Pärast projekti seadistamist kuvatakse väljavastendus Finance’i puhul tühjana. Mida teha?
 

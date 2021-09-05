@@ -2,7 +2,7 @@
 title: Kolmanda osapoole rakenduste manustamine
 description: Selles teemas seletatakse, kuidas manustada kliendis kolmandate osapoolte rakendusi, et suurendada toote funktsionaalsust.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737795"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345406"
 ---
 # <a name="embed-third-party-apps"></a>Kolmanda osapoole rakenduste manustamine
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Paljud kliendid kasutavad oma äritegevuses mitmesuguseid rakendusi. Mõned neist rakendustest on kolmandate osapoolte veebirakendused, mis töötavad koos Finance and Operations rakendustega. Sujuvama kasutajakogemuse võimaldamiseks saate kasutada **(Eelvaade) täieliku lehekülje rakenduste funktsiooni** et neid kolmanda osapoole rakendusi otse oma rakendustesse Finance and Operations manustada (eeldusel, et kolmanda osapoole rakendused võimaldavad end manustada). Sel viisil pääsevad kasutajad ligi veebisaitidele ja rakendustele, mida nad vajavad ilma, et nad vahetaks vahekaarte või aknaid.
+Paljud kliendid kasutavad oma äritegevuses mitmesuguseid rakendusi. Mõned neist rakendustest on kolmandate osapoolte veebirakendused, mis töötavad koos Finance and Operations rakendustega. Sujuvama kasutajakogemuse võimaldamiseks saate kasutada **Täieliku lehekülje rakenduste** funktsiooni, et neid kolmanda osapoole rakendusi otse oma rakendustesse Finance and Operations manustada (eeldusel, et kolmanda osapoole rakendused võimaldavad end manustada). Sel viisil pääsevad kasutajad ligi veebisaitidele ja rakendustele, mida nad vajavad ilma, et nad vahetaks vahekaarte või aknaid.
 
-Enne kui saate kolmanda osapoole rakendused tootele manustada, peate funktsioonihalduses lülitama sisse funktsioonihalduse **(Preview) täislehe rakenduste funktsiooni**. Seejärel saate kasutada üht järgmistest meetoditest, et manustada kolmanda osapoole rakendus või veebisait. Need meetodid on analoogsed meetoditele, mida kasutatakse Microsoft Power Apps lõuendi rakenduste rakendustesse Finance and Operations manustamiseks.
+Enne kui saate kolmanda osapoole rakendused tootele manustada, peate funktsioonihalduses lülitama sisse funktsiooni **Täieliku lehekülje rakenduste** funktsioonihalduse. Seejärel saate kasutada üht järgmistest meetoditest, et manustada kolmanda osapoole rakendus või veebisait. Need meetodid on analoogsed meetoditele, mida kasutatakse Microsoft Power Apps lõuendi rakenduste rakendustesse Finance and Operations manustamiseks.
 
 - Manustage rakendus või veebisait olemasoleval lehel uue vahekaardina (liigendtabel, kiirkaart, rakendus või tööruumi jaotis).
 - Looge uus täislehe kasutuskogemus töölauarakenduse või veebisaidi jaoks.
@@ -64,7 +64,7 @@ Kasutage seda protseduuri, kui soovite täiendada süsteemi olemasolevat lehekü
 Kasutage seda protseduuri, kui rakendus, mida soovite manustada ei ole seotud olemasoleva leheküljega või kui soovite rakenduse jaoks ainult kogu lehe kogemust Finance and Operations rakenduses.
 
 1. Avage armatuurlaud.
-2. Valige ja hoidke lehte all (või paremklõpsake), valige **isikupärastamine** ja seejärel valige **lisa lehekülg**.
+2. Valige ja hoidke lehte all (või paremklõpsake) armatuurlaual, valige **Isikupärastamine** ja seejärel valige **Lisa lehekülg**.
 3. Klõpsake paani **Lisa leht** valikul **Veebileht**.
 4. Manustatud rakenduse konfigureerimine.
 
@@ -82,9 +82,9 @@ Kasutage seda protseduuri, kui rakendus, mida soovite manustada ei ole seotud ol
 
 Pärast rakenduse manustatud kasutamist, kasutades ühte eelmistes jaotistes kirjeldatud meetodit, võite soovida vaadet teiste süsteemi kasutajatega jagada. Manustatud rakenduse jagamiseks kasutage ühte järgmistest meetoditest.
 
-- **Avaldage vaade (soovitatav):** kui manustatud rakendus on vaatesse salvestatud, on soovitatav ja eelistatud viis seda jagada, et avaldada vaade kasutajatele, kellel on vastavad turberollid. Seejärel näevad kõik kasutajad, kellel on avaldatud vaatega seotud turberollid, rakendust Finance and Operationsi rakendustes. Lisateavet vaate avaldamise kohta vt jaotisest [Vaadete avaldamine](saved-views.md#publishing-views).
+- **Avaldage vaade (soovitatav):** kui manustatud rakendus on vaatesse salvestatud, on soovitatav ja eelistatud viis seda jagada, et avaldada vaade kasutajatele, kellel on sihitud juriidilistes isikutes asjakohased turberollid. Sel juhul näevad selle lehe manustatud rakendust ainult soovitud kasutajad. Lisateavet vaate avaldamise kohta vt jaotisest [Vaadete avaldamine](saved-views.md#publishing-views).
 
-    Saate avaldada ka rakenduse, mis on armatuurlaualt täislehe kogemusena manustatud. Valige ja hoidke armatuurlaual (või paremklõpsake) rakendusega seotud paanil, valige **isikupärastamine** ja seejärel valige **Avalda leht**. Hetkel saate avaldada ainult turberollidele. Kuid võimalus avaldada juriidilistele isikutele lisatakse enne, kui funktsioon muutub üldiselt kättesaadavaks.
+    Saate avaldada ka rakenduse, mis on armatuurlaualt täislehe kogemusena manustatud. Valige ja hoidke armatuurlaual (või paremklõpsake) rakendusega seotud paanil, valige **isikupärastamine** ja seejärel valige **Avalda leht**. Kuvatakse selline kogemus, mis sarnaneb *avaldamisvaadete* kogemusega ja te saate valida turvarollid, mida avaldada. Kui **täiustatud juriidilise isiku tugi salvestatud vaadete** funktsiooni jaoks on sisse lülitatud, saate värskenduses 10.0.21 või hiljem avaldada rakenduses soovitud juriidilistele isikutele.
 
 - **Isikupärastamise kopeerimine:** lehtedel, mis ei toeta vaateid (nt dialoogiboksid või tööruumid) või kogu lehe rakendusekogemuse jaoks saate isikupärastamise kopeerida vastavale kasutajale. Lisateavet leiad artiklist [Isikupärastamiste jagamine](personalize-user-experience.md#sharing-personalizations).
 

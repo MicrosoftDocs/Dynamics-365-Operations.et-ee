@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720080"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386095"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720080"
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Versioon 2.0.9.0
+
+Selles versioonis on parandatud probleem, kus rakendus mõnikord hangus, kui kasutajad loendi ülaosast lehel üles proovisid liikuda.
+
+## <a name="version-2080"></a>Versioon 2.0.8.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Tugi lisati [etapiviisiliste juhiste funktsioonile](mobile-app-titles-instructions.md), mida tutvustati Supply Chain Managementi versioonis 10.0.21.
+- Lisati vihjeanimatsioon, mis näitab kasutajatele, et nad saavad ülekatteid sulgeda allapoole nipsamisega.
+- Lisati tegevusloendite ja menüüde funktsioonivõtmete tugi. Kasutajad saavad mis tahes funktsiooniklahvi kolm sekundit all hoides saadaolevate käskude loendi.
+- Lahendati probleem, mis põhjustas mõnes seadmes järgmise tõrketeate kuvamise: „Määratud suuruse jaoks ei leia sobivat vaadet”.
+- Lahendati probleem, kus mõnikord ekraaniklaviatuuri kasutamisel täisekraanrežiim ei töötanud.
+- Lahendati probleem, kus lehe nipsamine Windowsi seadmetes ei toiminud.
+- Mitmed probleemid, mis põhjustasid süsteemi hangumise, on parandatud.
+
+## <a name="version-2070"></a>Versioon 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Uued funktsioonid, parandused ja täiustused versioonis 2.0.7.0
 

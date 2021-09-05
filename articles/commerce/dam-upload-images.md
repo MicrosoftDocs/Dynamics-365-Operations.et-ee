@@ -2,7 +2,7 @@
 title: Piltide üleslaadimine
 description: Selle teema all kirjeldatakse, kuidas üles laadida videosid rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757394"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423251"
 ---
 # <a name="upload-images"></a>Piltide üleslaadimine
 
@@ -52,10 +52,17 @@ Vaikimisi nimetava sõltub kategooriast:
 - Kategooriapildid tuleb nimetada "**/Categories/\{CategoryName\}. png**"
 - Kliendipildid peavad olema nimega "**/Customers/\{CustomerNumber\}. jpg**"
 - Töötajapildid peavad olema nimega "**/Workers/\{WorkerNumber\}. jpg**"
-- Tootepildid tuleb nimetada "**/Products/\{ProductNumber\}_000_001. png**"
+- Tootepildid tuleb nimetada "**/Toode/\{TooteNumber\}\_000_001. png**"
     - 001 on pildijärjestus ja see võib olla 001, 002, 003, 004 või 005
 - Tootevariandi pildid tuleb nimetada "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Näiteks: 93039 \^ \^ 2 \^ Black \^_000_001.png
+    - Näiteks: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- Tootevariandi kujutised, millel on konfiguratsioonimõõtmed, peaksid kandma nime "**/Tooted/\{TooteNumber\} \^ \{Konfiguratsioon\}\_000_001.png**"
+    - Näiteks: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Tootevariandi piltide puhul, kui dimensiooni väärtus on tühi, peab failinimes mõõtude vahel olema kaks tühikut.
+
+Ülaltoodud näited kasutavad vaikekonfiguratsiooni. Eraldaja märk ja dimensioonid on konfigureeritavad ning täpne nime andmine võib juurutuste vahel erineda. Üks täpse nimetamistava tuvastamise viis on kasutada brauseri arendajakonsooli tootevariandi pilditaotluste üle vaatamiseks, muutes tootedimensioone kaupluse toote üksikasjade lehel (PDP).
 
 ## <a name="upload-an-image"></a>Laadi pilt üles
 

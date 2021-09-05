@@ -1,8 +1,8 @@
 ---
 title: Katvuse suvandite loomine
-description: Katvussuvandid rakenduses Microsoft Dynamics 365 Human Resources on kasutaja valitud soodustuse plaani või programmi katvuse tasemed.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Selles teemas kirjeldatakse katvuse suvandeid rakenduses Microsoft Dynamics 365 Human Resources kasutaja valitud soodustuste plaanile või programmile.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 447317d0e9cb23bea21dae448048d05a3d989c89df17e4b8ea836201c20aefff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a553fa1aa4bac0d2fb11b87ee05e4e52c019411d
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741425"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423516"
 ---
 # <a name="create-coverage-options"></a>Katvuse suvandite loomine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Kindlustuskaitse võimalused määravad kindlaks, kes peaks olema kaetud või kui palju kindlustusplaanis on kindlustuskaitset. Näiteks arstliku plaani puhul võib teil olla **ainult töötaja** valik, **töötaja + 1** valik ja **pere** valik. Elukindlustuse puhul võite pakkuda katteid **1x palk** või **2x palk** ulatuses.
+Kindlustuskaitse võimalused määravad kindlaks, kes peaks olema kaetud või kui palju kindlustusplaanis on kindlustuskaitset. Näiteks meditsiiniplaani puhul võib teil olla valik **Ainult töövõtja**, valik **Töövõtja + 1** ja valik **Pere**. Elukindlustuse puhul võite pakkuda katteid **1x palk** või **2x palk** ulatuses.
 
 Pärast hüvitiste katvuse valikute määratlemist saate neid uuesti kasutada. Saate siduda suvandi ühe või mitme plaaniga.
 
@@ -46,7 +46,7 @@ Pärast hüvitiste katvuse valikute määratlemist saate neid uuesti kasutada. S
    | **Kirjeldus** | Katvuse valiku kirjeldus. |
    | **Planeerimise kood** | Katvuse koodid määravad minimaalsed ja maksimaalsed summad iga sobiva kaetud isiku tüübi jaoks. Katvuse kood näitab, kes on kaetud või plaani tüübile lubatud katvuse summa. Saate väljendada katvuse summat summana dollarites või protsendina. Näide:<ul><li>**EMP+1** – kvalifitseerumiseks peab töövõtjal olema üks sõltuv isik valitud (kui valitud on rohkem kui üks, siis need enam ei kvalifitseeru).</li><li>**EMP+perekond** – kvalifitseerumiseks peab töövõtjal olema vähemalt kaks sõltuvat isikut valitud.</li></ul> |
    | **Maksimaalne arv** | Maksimaalne sõltuvate isikute arv. |
-   | **Olek** | Katvuse valiku olek. Kui katvuse valiku olek on seatud passiivseks, ei saa plaani tüüpides katvuse valikut valida. |
+   | **Olek** | Katvuse valiku olek. Kui katvuse valiku olek on seatud **Passiivseks**, ei saa plaani tüüpides katvuse valikut valida. |
    | **Protsent** | Protsendi summa. See väli on aktiivne ainult juhul, kui väljal Katvuse kood on valitud % × palk. |
    | **Jagaja** | Jagaja, mida kasutatakse arvutamisel, kui valite katvuse koodi % × palk. |
    | **Miinimumprotsent** | Minimaalne protsent, kui valite katvuse koodi Protsent. |

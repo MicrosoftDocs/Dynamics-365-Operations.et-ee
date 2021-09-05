@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716617"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402172"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Õppekataloog Dynamics 365 Finance'iga töötavatele juurutusprojekti juhtidele
 
@@ -61,7 +61,6 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Versioonitäiendus versioonile 7.2 (juuli 2017) versioonilt 7.0 (RTW) / 7.1 (väljaanne 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Selle seansi käigus selgitame, kuidas täiendada rakenduse Dynamics 365 Finance and Operations versioonilt v7.0 (RTW) ja v7.1 (1611) versioonile v7.2 (juuli 2017). Eristame selgelt Live'i kliente ja pooleliolevaid projekte (ei ole veel reaalajas). | Tech Talk (salvestatud veebipõhine seminar) | 58 minutit |
 | [Finance and Operations: versiooni 7.x täiendamine versioonile 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Liituge meie järgmise aruteluga, mis hõlmab täiendusprotsessi versioonilt 7.X versioonile 8.X. Arutame erinevaid stsenaariume ja etappe koodi ja andmete täiendamiseks. Samuti käsitleme laiendatavuse taotluse stsenaariume ja seda, kuidas neid vajaduse korral suurendada. Osa 1/2. | Tech Talk (salvestatud veebipõhine seminar) | 61 minutit |
 | [Täiendamine versioonilt AX2012 rakendusele Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | See arutelu annab ülevaate sellest, kuidas täiendada Dynamics AX 2012 koodi ja andmeid rakendusele Dynamics 365 for Operations. | Tech Talk (salvestatud veebipõhine seminar) | 45 minutit |
-| [Aruandlusvalikud rakenduses Dynamics 365 for Operations (VIR810PAL) ](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | Selle seansi käigus arutatakse mitmesuguseid D365 for Operationsi printimisstsenaariume, sealhulgas antakse näpunäiteid ja nippe dokumendi marsruudivaliku agendi jaoks. | Tech Talk (salvestatud veebipõhine seminar) | 60 minutit |
 | [Analüütika- ja aruandlussuvandid: printimine ning dokumendi marsruudivaliku agent](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| Liituge meie aruteluga, et rääkida kahest seotud teemast. Esiteks arutleme analüütika- ja aruandluslahenduse mustrite ning Dynamics 365 for Finance and Operationsi Enterprise Editionile mõeldud tööriistade üle. Teiseks arutleme printimisstsenaariumide ja dokumendi marsruudivaliku agendi üle. | Tech Talk (salvestatud veebipõhine seminar) | 45 minutit |
 | [Kursus MB-300T01-A: Dynamics 365 for Finance and Operationsi ühiseid põhifunktsioonid](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Kursus hõlmab Microsoft Dynamics 365 for Finance and Operationsi ühiseid põhifunktsioone. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev |
 | [Kursus MB-300T02-: Dynamics 365 for Finance and Operationsi põhikonfiguratsioonid](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Kursus käsitleb Microsoft Dynamics 365 for Finance and Operationsi põhikonfiguratsiooni toiminguid. | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev |
@@ -93,6 +92,5 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Eksam MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: kasutada ühiseid funktsioone ja juurutustööriistu; konfigureerida turvalisust, protsesse ja suvandeid; migreerida andmeid ning kontrollida lahendust ja pakkuda selle tuge. | Eksam, hind varieerub piirkonniti |
 | [Eksam MB-310: Microsoft Dynamics 365 for Finance and Operations, finantsid](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: finantshalduse seadistamine ja konfigureerimine, ühiste protsesside haldamine ja rakendamine, ostu- ja müügireskontro juurutamine ja haldamine, eelarve ja põhivarade haldamine. | Eksam, hind varieerub piirkonniti |
 | [Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalse konsultandi seostamine](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalsed konsultandid ühendavad globaalsed finantsid ja toimingud ning automatiseerivad ülesandeid ja töövooge, hõlbustavad kliendil tellimist, müüki, arveldamist ja aruandlust. | Sert, hind varieerub piirkonniti |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

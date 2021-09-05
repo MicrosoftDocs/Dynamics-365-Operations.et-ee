@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423443"
 ---
 # <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
 
@@ -81,9 +81,9 @@ Kuna toode on esindatud SKUna, saab eristatavate toodete, tooteetalonide ja toot
 
 ![Toodete andmemudel.](media/dual-write-product.png)
 
-Kui topeltkirjutamise funktsioon on lubatud, sünkroonitakse rakenduse Finance and Operations tooted muudes Dynamics 365 toodetes olekus **Mustand**. Need lisatakse esimesele hinnakirjale, millel on sama valuuta. Teisisõnu lisatakse need esimesele hinnakirjale Dynamics 365 rakenduses, mis vastab teie juriidilise tabeli valuutale, kus toode on välja antud rakenduses Finance and Operations. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele.
+Kui topeltkirjutamise funktsioon on lubatud, sünkroonitakse rakenduse Finance and Operations tooted muudes Dynamics 365 toodetes olekus **Mustand**. Need lisatakse esimesele hinnakirjale, millel on sama valuuta, mida kasutatakse kliendikogemuse rakenduses ja hinnakirja nimes kasutatakse tähestikulist sortimist. Teisisõnu lisatakse need esimesele hinnakirjale Dynamics 365 rakenduses, mis vastab teie juriidilise tabeli valuutale, kus toode on välja antud rakenduses Finance and Operations. Kui antud valuuta puhul hinnakirja pole, luuakse hinnakiri automaatselt ja toode määratakse sellele.
 
-Topeltkirjutuse programmi praegune rakendus, mis seostab vaikehinnaloendi üksusega rakendusega seostatud valuutat ja leiab hinnakirja nimest tähestikulises järjekorras esimese hinnakirja kliendikogemuse Finance and Operations rakendusest. Kui teil on selle valuuta jaoks mitu hinnakirja, tuleb hinnakirja nime muuta varasemaks tähestikulises järjestuses varasemaks nimeks, kui selle valuuta jaoks on mitu hinnakirja.
+Topeltkirjutuse programmi praegune rakendus, mis seostab vaikehinnaloendi üksusega rakendusega seostatud valuutat ja leiab hinnakirja nimest tähestikulises järjekorras esimese hinnakirja kliendikogemuse Finance and Operations rakendusest. Kui teil on selle valuuta jaoks mitu hinnakirja, tuleb hinnakirja nime muuta varasemaks tähestikulises järjestuses varasemaks nimeks, kui selle valuuta jaoks on mitu hinnakirja. Kui antud valuuta jaoks hinnakiri puudub, luuakse uus hinnakiri.
 
 Vaikimisi sünkroonitakse Finance and Operationsi rakenduste tooteid teiste Dynamics 365 rakendustega olekus **Mustand**. Toote sünkroonimiseks olekuga **Aktiivne**, et saaksite seda kasutada näiteks otse müügitellimuse pakkumistes, tuleb valida järgmine säte: **Süsteem > Haldus > Süsteemihaldus > Süsteemi sätted > Müük** ja seejärel suvand **Loo tooteid aktiivses olekus = jah**.
 

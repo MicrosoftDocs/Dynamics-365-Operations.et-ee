@@ -2,7 +2,7 @@
 title: Finantsanalüüs
 description: Finantsülevaated kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767823"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416301"
 ---
 # <a name="financial-analysis"></a>Finantsanalüüs
 
@@ -36,9 +36,9 @@ ms.locfileid: "6767823"
 > - **Leht** – ühe PBIX-faili vahekaart. Iga leht võib sisaldada üht või mitut visuaali.
 > - **Visuaal** – üks andmeallikas, näiteks kaart, KPI, diagramm, graafik, maatriks või finantsaruanne. Lehel, millel on visuaalina finantsaruanne, ei saa raporteeritava andmemahu tõttu olla rohkem visuaale.
 
-Praegu kasutatakse **finantsülevaateid** aktiivse juriidilise isiku või kõigi juriidiliste isikute andmete vaatamiseks. Tulevikus areneb tööruum kohaks, kus saate Power BI-d kasutada visuaalide redigeerimiseks ja loomiseks.
+**Finantsanalüüsi** tööruum keskendub olemasolevate aruannete andmete vaatamisele ja filtreerimisele. Tulevastes väljaannetes saate lisada uusi visuaale **finantsülevaadete** tööruumi. **Finantsanalüüsi** tööruum on saadaval nii praeguse ettevõtte kui ka kõigi ettevõtete jaoks, et näidata andmeid kõigi juriidiliste isikute kohta, olenemata sellest, millistele juriidilistele isikutele rollile juurdepääs on.
 
-Tööruumis **CFO ülevaade** on kuvatud samad visuaalid, nagu **finantsülevaadetes**, kuid see võimaldab vaadata ja filtreerida olemasolevate aruannete andmeid. Tulevastes väljaannetes saate lisada uusi visuaale **finantsülevaadete** tööruumi. Uued visuaalid võivad saadaval olla ka tööruumides, mis keskenduvad muudele rollidele, näitaks projektijuhid või ostureskontro juhid. Tööruum **CFO ülevaade** jätkab kõigi juriidiliste isikute andmete näitamist olenemata sellest, millistele juriidilistele isikutele rollil juurdepääs on.
+- [Visualiseeringute Power BI lisamine või redigeerimine armatuurlaudal](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance’i häälestus
 **Pearaamat**

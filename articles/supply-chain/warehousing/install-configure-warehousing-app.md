@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8386adc3f0e9c9a782e6cd5d4ba770f9650583b8ff3f32c3ac23478475d085ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753791"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384631"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Laorakenduse installimine ja ühendamine
 
@@ -136,7 +136,7 @@ Rakenduse haldamise lihtsustamiseks ja selle juurutamiseks mitmes mobiilses sead
 | ConnectionName | Määrake ühenduse sätte nimi. Maksimaalne märkide arv on 20. Kuna see väärtus on ühenduse sätte kordumatu identifikaator, veenduge, et see oleks loendis kordumatu. Kui seadmes on sama nimega ühendus juba olemas, alistatakse see imporditud faili sätetega. |
 | ActiveDirectoryClientAppId | Määrake kliendi ID, mille märkisite üles Azure AD seadistamise ajal, jaotises [Veebiteenuse rakenduse loomine Azure Active Directorys](#create-service). |
 | ActiveDirectoryResource | Määrake Supply Chain Managementi juur-URL. |
-| ActiveDirectoryTenant | Määrake Azure AD rentnik, mida kasutate Supply Chain Managementi serveriga. Sellel väärtusel on vorm `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Näite leiate siit: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Määrake Azure AD domeeninimi, mida kasutate Supply Chain Managementi serveriga. Sellel väärtusel on vorm `https://login.windows.net/<your-Azure-AD-domain-name>`. Näite leiate siit: `https://login.windows.net/contosooperations.onmicrosoft.com`. Lisateavet oma Azure AD domeeninime leidmise kohta vt teemast [Kasutaja oluliste ID-de leidmine](/partner-center/find-ids-and-domain-names). |
 | Ettevõte | Määrake Supply Chain Managementis juriidiline isik, millega soovite rakenduse ühendada. |
 | ConnectionType | (Valikuline) Määrake, kas ühenduse säte peaks keskkonnaga ühenduse loomiseks kasutama serti või kliendi saladust. Kehtivad väärtused on *„sert”* ja *„kliendisaladus”*. Vaikeväärtus on *„sert”*.<p>**Märkus:** kliendi saladusi ei saa importida.</p> |
 | IsEditable | (Valikuline) Määrake, kas rakenduse kasutaja saab ühenduse sätteid redigeerida. Kehtivad väärtused on *„tõene”* ja *„väär”*. Vaikeväärtus on *„tõene”*. |
@@ -248,7 +248,7 @@ Saate käsitsi konfigureerida rakenduse seadmel Supply Chain Managementi serveri
         > [!NOTE]
         > Ärge lisage selle väärtuse lõppu kaldkriipsu (/).
 
-    - **Azure Active directory rentnik** – sisestage Azure AD rentnik, mida kasutate Supply Chain Managementi serveri puhul. Sellel väärtusel on vorm `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Näite leiate siit: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Azure Active directory rentnik** – sisestage Azure AD domeeninimi, mida kasutate Supply Chain Managementi serveri puhul. Sellel väärtusel on vorm `https://login.windows.net/<your-Azure-AD-domain-name>`. Näite leiate siit: `https://login.windows.net/contosooperations.onmicrosoft.com`. Lisateavet oma Azure AD domeeninime leidmise kohta vt teemast [Kasutaja oluliste ID-de leidmine](/partner-center/find-ids-and-domain-names).
 
         > [!NOTE]
         > Ärge lisage selle väärtuse lõppu kaldkriipsu (/).

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739306"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345224"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>TDS-i maksukoodide TDS-i maksugruppidele manustamine ja TDS-i arvutamise valemi määratlemine
 
@@ -55,7 +55,7 @@ Järgige neid samme TDS-i maksugrupi häälestamiseks, lisage TDS-i maksukoodid 
     > [!NOTE]
     > Välja **Maksustatav alus** ei saa seada väärtusele **Välja arvatud brutosumma** TDS-maksukoodi jaoks, mille prioriteedi ID on **1**.
 
-12. TDS-i arvutus põhineb valemil, mis on määratud arvutusavaldise väljal **Arvutusavaldis** TDS-maksugrupiga seotud maksukoodi jaoks. Valige plussmärk (**+**), miinusmärk (**-**), korrutusmärk (**\**_), või jagamismärk (_*/**) TDS-maksukoodi arvutusavaldise sisestamiseks **Arvutusavaldis** väljal.
+12. TDS-i arvutus põhineb valemil, mis on määratud arvutusavaldise väljal **Arvutusavaldis** TDS-maksugrupiga seotud maksukoodi jaoks. Valige plussmärk (+), miinusmärk (-), korrutusmärk (\*), või jagamismärk (/) TDS-maksukoodi arvutusavaldise sisestamiseks **Arvutusavaldis** väljal.
 
     > [!NOTE]
     > Arvutusavaldist ei saa määrata TDS-i maksukoodile, mille prioriteedi ID on **1**.

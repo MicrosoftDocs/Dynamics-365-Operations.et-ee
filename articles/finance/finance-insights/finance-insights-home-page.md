@@ -1,5 +1,5 @@
 ---
-title: Finantsülevaadete avaleht (eelversioon)
+title: Finance Insightsi avaleht
 description: Finantsülevaated pakuvad konfigureeritavaid ja laiendatavaid mudeleid, mis aitavad teil täpselt ja nutikalt ennustada oma ettevõtte rahavoogu, ennustada, millal saate laekumata nõuete eest tasu, ja luua eelarveplaani, mis võib kiirendada teie eelarve koostamise protsessi. Kõik need funktsioonid põhinevad nutikatel masinõppemudelitel.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8c9d5b9857e978eb5e591f4d854d687f33b438025e81fe2c827ab7ecdb2be4e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768815"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386382"
 ---
-# <a name="finance-insights-home-page-preview"></a>Finantsülevaadete avaleht (eelversioon)
+# <a name="finance-insights-home-page"></a>Finance Insightsi avaleht
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,8 +1,8 @@
 ---
 title: Soodustuste halduse ülevaade
-description: Rakenduse Dynamics 365 Human Resources soodustuste haldamise funktsiooni eelvaade. Pakkuge oma töötajatele hõlpsasti kasutatava võrgukasutuskogemusega laiendatud soodustuste võimalusi.
-author: andreabichsel
-ms.date: 07/13/2021
+description: Selles teemas antakse ülevaade rakenduse Dynamics 365 Human Resources soodustuste halduse funktsioonist.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719139"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417388"
 ---
-# <a name="benefits-management-overview"></a>Soodustuste haldamise ülevaade
+# <a name="benefits-management-overview"></a>Soodustuste halduse ülevaade
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,13 +37,13 @@ Konkurentsivõime säilitamiseks peate pakkuma parimate töövõtjate meelitamis
 Kui soovite ligipääsu demoandmetelel, peate oma liivakastikeskkonna uuesti juurutama.
 
 > [!NOTE]
-> Nüüd saate soodustuste haldusvorme kohandada. Nüüd saate soodustusplaanide laovarude suvandi vormile lisada **laovarude määraga** seotud kohandatud väljad. Lisateavet kohandatud väljadega töötamise kohta leiate teemast [Kohandatud väljad](hr-developer-custom-fields.md).
+> Nüüd saate soodustuste halduslehti kohandada. Lehele **Katvuse valik** saab soodustuste plaanide kohta lisada katvuse määradega seotud kohandatud välju. Lisateavet kohandatud väljadega töötamise kohta leiate teemast [Kohandatud väljad](hr-developer-custom-fields.md).
 >
 > ![Soodustuste halduse kohandatud väljad](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Soodustuste halduse lubamine
 
-Selles teemas kirjeldatakse, kuidas funktsioone rakenduses Human Resources sisse lülitada. Lisaks annab see teada, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine asendab või keelab, pärast soodustuste haldamise sisselülitamist.
+Selles teemas kirjeldatakse, kuidas funktsioone rakenduses Human Resources sisse lülitada. Lisaks selgitab see, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine pärast soodustuste haldamise sisselülitamist asendab ja keelab.
 
 > [!IMPORTANT]
 > Keskkonnas **Tootmine** ei saa soodustuste haldust keelata, kui olete selle lubanud. Enne soodustuste halduse keskkonnas **Tootmine** lubamist soovitame lubada ja testida soodustuste haldust keskkonnas **Liivakast**. Olemasolevate pärandsoodustuse funktsioonide ja uute pärandsoodustuse funktsioonide vahel on olulisi erinevusi, mis vajavad täiendavat seadistamist ja mida tuleks enne tootmise alustamist testida.

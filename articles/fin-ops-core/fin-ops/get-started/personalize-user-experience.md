@@ -2,7 +2,7 @@
 title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719297"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344370"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -169,7 +169,7 @@ Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Seda saab is
 Üks armatuurlaual saadaolev ainulaadne isikupärastamise võimalus on võime lisada paane. 
 
 - Kui funktsioon **Täisleheküljelised rakendused** on välja lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti saate lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Paanide, loendite ja linkide lisamine tööruumi](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
-- Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Appsist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. 
+- Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Appsist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. Lisateavet nende manustatud rakenduste lisamise, redigeerimise, kustutamise ja jagamise kohta vt jaotisest [Lõuendirakenduste manustamine Power Appsist](embed-power-apps.md) ja [Kolmanda osapoole rakenduste manustamine](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Isikupärastamiste ühiskasutamine
 

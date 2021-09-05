@@ -4,24 +4,17 @@ description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada lah
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736370"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416977"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Probleemide tõrkeotsing esmase sünkroonimise ajal
 
@@ -46,7 +39,7 @@ Pärast vastendamise mallide lubamist peaks vastenduse olekuks olema **Töötab*
 
 Kui proovite käivitada vastendust ja esmast sünkroonimist, võidakse kuvada järgmine tõrketeade.
 
-*(\[Vigane päring\], kaugserver tagastas tõrke: (400) vigane päring.), AX eksportimisel ilmnes tõrge*
+*(\[Vigane päring\], kaugserver tagastas tõrke: (400) vigane päring.), AX eksportimisel ilmnes tõrge.*
 
 Siin on tabeli täieliku tõrketeate näide.
 
@@ -198,7 +191,7 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
 
         ![Andmeintegratsiooni projekt väljade CustomerAccount ja ContactPersonId värskendamiseks.](media/cust_selfref6.png)
 
-    2. Lisage teenuse Dataverse poolel filtrite all ettevõtte kriteeriumid, et rakenduses Finance and Operations värskendataks vaid filtri kriteeriumidele vastavaid ridu. Filtri lisamiseks valige filtri nupp. Seejärel saate dialoogiboksis **Päringu redigeerimine** lisada filtri päringu, nagu näiteks **\_msdyn\_company\_value eq '\<guid\>'**. 
+    2. Lisage teenuse Dataverse poolel filtrite all ettevõtte kriteeriumid, et rakenduses Finance and Operations värskendataks vaid filtri kriteeriumidele vastavaid ridu. Filtri lisamiseks valige filtri nupp. Seejärel saate dialoogiboksis **Päringu redigeerimine** lisada filtri päringu, nagu näiteks **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [MÄRKUS] Kui filtri nuppu ei kuvata, siis saate luua tugiteenusepileti, et paluda andmeintegratsiooni meeskonnal lubada teie rentnikus filtri võimalus.
 
@@ -210,5 +203,36 @@ Kui kliendi tabelis on read, mille veerud **ContactPersonID** ja **InvoiceAccoun
 
 8. Lülitage rakenduses Finance and Operations tabeli **Kliendid V3** muudatuste jälgimine tagasi sisse.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Algse sünkroonimise tõrked rohkem kui 10 otsinguväljaga vastetel
+
+Võite saada järgmise tõrketeate, kui proovite käitada **klientide V3 – kontode**, **müügitellimuste** vastenduste või muu enam kui 10 otsinguväljaga vastendusi:
+
+*CRMExport: paketi täitmine on lõpule viidud. Tõrke kirjeldus 5 katset võtta andmeid https://xxxxx//datasets/yyyyy/tables/accounts/items? $select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq ID)&$orderby=accountnumber asc nurjus.*
+
+Otsingupiirangu tõttu päringus nurjub esialgne sünkroonimine, kui üksuse vastendamine sisaldab rohkem kui 10 otsingut. Lisateavet vt teemast [Seotud tabelikirjete toomine päringuga](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+Selle probleemi lahendamiseks tehke järgmist:
+
+1. Eemaldage valikulised otsinguväljad topeltkirjutuse üksuse kaardist, et otsingute arv oleks 10 või vähem.
+2. Salvestage kaart ja sünkroonige esialgne.
+3. Kui esimese sammu esialgne sünkroonimine õnnestus, lisage ülejäänud otsinguväljad ja eemaldage esimeses sammus sünkroonitud otsinguväljad. Kontrollige, et otsinguväljade arv oleks 10 või vähem. Salvestage kaart ja käitage esialgne sünkroonimine.
+4. Korrake neid samme, kuni kõik otsinguväljad on sünkroonitud.
+5. Lisage kõik otsinguväljad tagasi kaardile, salvestage kaart ja käivitage kaart käsuga **Jäta algne sünkroonimine vahele**.
+
+See protsess võimaldab kaardi reaalajas sünkroonimisrežiimi jaoks.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Teadaolev probleem osapoole postiaadresside ja osapoole elektrooniliste aadresside esmasel sünkroonimisel
+
+Kui proovite käivitada osapoole postiaadresside ja osapoole elektrooniliste aadresside algset sünkroniseerimist, võidakse kuvada järgmine tõrketeade:
+
+*Osapoole numbrit Dataverse`ist ei leitud.*
+
+On määratud vahemikud **KolmasOsaCDSÜksus** rakenduses Finance and Operations, mis filtreerivad **Isiku** ja **Organisastsiooni** tüüpi osapooli. Selle tulemusena **CDS-i osapoolte - msdyn_parties** vastendamine ei sünkrooni teist tüüpi osapooli, sh **juriidilist isikut** ja **tootmisüksust**. Kui algne sünkroonimine töötab **CDS Party postiaadresside (msdyn_partypostaladdresses)** või **Party Contacts V3 (msdyn_partyelectronicaddresses)** puhul, võidakse kuvada tõrge.
+
+Töötame parandusega, et eemaldada üksuselt osapoole tüübi vahemik, nii et igat tüüpi osapooled rakenduses Finance and Operations saavad edukalt Dataverse sünkroonida.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Kas klientide või kontaktide andmete algsel sünkroonimisel ilmnes jõudlusprobleeme?
+
+Kui olete käivitanud **kliendi** andmete esmase sünkroonimise ja **Kliendi** vastendused on käivitatud ning seejärel käivitate **Kontaktid** andmete esmase sünkroonimise, võivad värskendustel olla jõudlusprobleemid tabelite sisestamisel **LogisticsPostalAddress** ja **LogisticsElectronicAddress** tabelitesse **Kontaktid** aadressides. Sama globaalset postiaadressi ja elektroonilist aadressitabelit jälgitakse **KohandKlientV3Üksus** ja **HankHankijaV2Üksus** puhul ja topeltkirjutus püüab luua rohkem päringuid, et kirjutada andmeid teisele poolele. Kui olete **kliendi** algse sünkroonimise juba käitanud, siis peatage vastav kaart **Kontaktide** andmete algse sünkroonimise ajal. Tehke sama asja **hankija** andmete jaoks. Kui esialgne sünkroonimine on lõpetatud, saate käivitada kõik kaardid, jättes algse sünkroonimise vahele.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

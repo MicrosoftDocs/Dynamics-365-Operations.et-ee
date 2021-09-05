@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763090"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402369"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Õppekataloog Dynamics 365 Finance'i funktsionaalsetele konsultantidele
 
@@ -34,6 +34,7 @@ Meie tööülesandeid analüüsivast uuringust selgus, et kõik funktsionaalsed 
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Dynamics 365 ja Power Platformi põhisätted](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi |
 | [Finance and Operationsi rakenduste kasutamise alustamine](/learn/paths/get-started-finance-operations/) | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
+| [Dynamics 365 Intelligent Order Managementi kasutamise alustamine](/learn/modules/get-started-intelligent-order-management/) | Dynamics 365 Intelligent Order Managementi abil saavad kliendid hallata tellimuste korraldamist täitmise kaudu. Need võimalused võimaldavad organisatsioonidel korraldada tellimuse voogusid erinevate platvormide ja rakenduste kaudu. | Tasuta iseläbitav internetipõhine õppemoodul | 30 minutit |
 | [Enne ostmist](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | Uurige üksikasjalikke juhiseid, kui te alles kaalute Finance and Operationsit või olete valmis seda ostma. | Dokumentatsioon | |
 | [Väljaandmisplaan](/dynamics365/release-plans/) | Hankige teavet Dynamics 365 uusimate võimaluste ja täiustuste kohta | Dokumentatsioon | |
 
@@ -41,6 +42,7 @@ Meie tööülesandeid analüüsivast uuringust selgus, et kõik funktsionaalsed 
 
 | Sisu  | Kirjeldus | Vorming  | Pikkus    |
 |----------|-------------|---------|-----------|
+| [Lahenduste Success by Design for Dynamics 365 kasutamine](/learn/paths/use-success-design/) | FastTrack for Dynamics 365 on mõeldud selleks, et aidata klientidel ja partneritel saavutada Dynamics 365 lahenduste edukat juurutamist. Teenuse osutamiseks peaksid lahenduse arhitektid kasutama lahendust Success by Design. See õppetee käsitleb Success by Designi kontseptsioone. | Tasuta iseläbitav internetipõhine õppemoodul | 12 tundi |
 | [Finance and Operationsi rakenduste juurutamise kavandamiseks kasutage teenust Lifecycle Services (LCS)](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) on tööruum koostöö tegemiseks, mida kliendid ja nende partnerid kasutavad Finance and Operationsi rakenduste projektide haldamiseks müügieelsel etapil ning juurutamisel ja lõpuks ka tootmiskeskkonnas. See hõlmab kontroll-loendeid ja tööriistu, mis aitavad teil projekti hallata, sh eelnevalt loodud metoodikaid, mis aitavad juurutada ja kasutada regulaarselt värskendatavaid teenuseid. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
 | [Organisatsiooni konfigureerimine Finance and Operationsi rakendustes](/learn/paths/configure-your-organization-finance-ops/) | Finance and Operationsi rakendustega töötava funktsionaalse konsultandina peate mõistma, kuidas oma kliendi organisatsiooni seadistada. See õppetee näitab teile muu hulgas, kuidas häälestada juriidilisi isikuid, rakendada turvasätteid, isikupärastada kasutajaliidest kasutajate jaoks, kujundada ja luua mobiilirakendusi ning rakendada ühiseid integratsioone. | Tasuta iseläbitav internetipõhine õppetee | 12 tundi |
 | [Andmete migreerimine ning avaldamine Finance and Operationsi rakendustega](/learn/paths/migrate-data-go-live-finance-operations/) | Funktsionaalse konsultandina peate mõistma, kuidas oma kliendi andmeid migreerimiseks ette valmistada, töötada andmehaldusega ja läbi viia kasutaja vastuvõtu testimist, et Finance and Operationsi rakenduste abil avaldada. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
@@ -102,6 +104,5 @@ Meie tööülesandeid analüüsivast uuringust selgus, et kõik funktsionaalsed 
 | [Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalse konsultandi seostamine](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsofti serditud: Dynamics 365 for Finance and Operations, finantside funktsionaalsed konsultandid ühendavad globaalsed finantsid ja toimingud ning automatiseerivad ülesandeid ja töövooge, hõlbustavad kliendil tellimist, müüki, arveldamist ja aruandlust. | Sert, hind varieerub piirkonniti |
 | [Eksam MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: kasutada ühiseid funktsioone ja juurutustööriistu; konfigureerida turvalisust, protsesse ja suvandeid; migreerida andmeid ning kontrollida lahendust ja pakkuda selle tuge. | Eksam, hind varieerub piirkonniti |
 | [Eksam MB-310: Microsoft Dynamics 365 for Finance and Operations, finantsid](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Selle eksamiga hinnatakse teie võimet täita järgmisi tehnilisi ülesandeid: finantshalduse seadistamine ja konfigureerimine, ühiste protsesside haldamine ja rakendamine, ostu- ja müügireskontro juurutamine ja haldamine, eelarve ja põhivarade haldamine. | Eksam, hind varieerub piirkonniti |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

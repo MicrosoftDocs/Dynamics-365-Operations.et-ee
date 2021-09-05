@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764880"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402221"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Õppekataloog Dynamics 365 Supply Chain Managementi administraatoritele
 
@@ -60,15 +60,24 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Dynamics AX 2012 täiendamine Finance and Operations rakendustes](/learn/paths/upgrade-ax-2012-finance-operations/) | Siit leiate kõige olulisemad elemendid ja parimad tavad Dynamics AX 2012 lahenduse edukaks täiendamiseks Finance and Operations rakendustes. Alates peamistest arhitektuuriliste erinevuste avastamise esimestest sammudest, uuendusprotsessiga alustamisest ning koodi ja andmete täiendamise tööriistadest kuni parimate viisideni integreerimise, analüüsi ja aruandluse uusimate võimaluste põhjal ümber kujundada. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Finance and Operations: versiooni 7.x täiendamine versioonile 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Liituge meie järgmise aruteluga, mis hõlmab täiendusprotsessi versioonilt 7.X versioonile 8.X. Arutame erinevaid stsenaariume ja etappe koodi ja andmete täiendamiseks. Samuti käsitleme laiendatavuse taotluse stsenaariume ja seda, kuidas neid vajaduse korral suurendada. | Veebikonverentsi tasuta salvestamine | 61 minutit |
 | [Versioonitäiendus versioonile 7.2 (juuli 2017) versioonilt 7.0 (RTW) / 7.1 (väljaanne 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Selle seansi käigus selgitame, kuidas täiendada rakenduse Dynamics 365 Finance and Operations versioonilt v7.0 (RTW) ja v7.1 (1611) versioonile v7.2 (juuli 2017). Eristame selgelt Live'i kliente ja pooleliolevaid projekte (ei ole veel reaalajas). | Veebikonverentsi tasuta salvestamine | 58 minutit |
-| [Täiendamine versioonilt AX2012 rakendusele Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | See arutelu annab ülevaate sellest, kuidas täiendada Dynamics AX 2012 koodi ja andmeid rakendusele Dynamics 365 for Operations. | Veebikonverentsi tasuta salvestus | 45 minutit |
+| [Täiendamine versioonilt AX2012 rakendusele Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | See arutelu annab ülevaate sellest, kuidas täiendada Dynamics AX 2012 koodi ja andmeid rakendusele Dynamics 365 for Operations. | Veebikonverentsi tasuta salvestamine | 45 minutit |
+| [Migreerimistööriistad versioonist AX2009 rakendusele Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | See seanss hõlmab saadaolevaid tööriistu, mis aitavad teil migreerida versioonist AX2009 rakendusele D365 for Operations. | Veebikonverentsi tasuta salvestus | 55 minutit |
+| [AX2009 migreerimistööriist](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | See seanss hõlmab saadaolevaid tööriistu, mis aitavad teil migreerida versioonist AX2009 rakendusele D365 for Operations. | Veebikonverentsi tasuta salvestus | 55 minutit |
 
-## <a name="servicing"></a>Hooldus<a name="servicing"></a>
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
+| [Tehnilise muudatuse haldamise seadistamine rakendusele Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Tootjad nõuavad ranget tooteandmete haldamist, sest versioonihaldus ja tehniliste muudatuste haldus on, et saavutada edu tänapäeval, kus toote töötsüklid pidevalt lühenevad, kvaliteedi- ja töökindlusnõudeid karmistatakse ning tooteohutusele keskendutakse üha enam. Sellel õppeteel saate teada, kuidas seadistada tehniliste muudatuste haldamist. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
+
+## <a name="servicing"></a>Teenuste osutamine<a name="servicing"></a>
 
 | Sisu  | Kirjeldus   | Vorming  | Pikkus    |
 |----------|---------------|---------|-----------|
 | [Finance and Operations: funktsioonihaldus (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Arutelu funktsioonihalduse kohta. See pakub tööruumi, kus saate vaadata, lubada, keelata ja ajastada igale väljalaskele lisatud funktsioone. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks. Osalege sellel koosolekul, et uurida, mis on uut versioonis 10.0.3 ja tutvuda meie tulevikuplaanidega. | Veebikonverentsi tasuta salvestamine | 47 minutit |
 | [Finance and Operations: tootmise hooldamine, toetamine ja haldamine (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Tech Talk: kuidas oma Dynamics 365 for Finance and Operationsi tootmiskeskkonda tõhusalt toetada, hallata ja hooldada? | Veebikonverentsi tasuta salvestamine | 53 minutit |
 | [Finance And Operations: Microsofti hallatavad pidevad värskendused (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Pidevad Finance and Operationsi värskendused on alanud! Liituge meiega selle tunni jooksul, et arutada Microsofti hallatavate pidevate värskenduste, Lifecycle Services'i juba saadaoleva kasutuskeskkonna ja tulevaste värskenduste üle. | Veebikonverentsi tasuta salvestamine | 61 minutit |
+| [Finance And Operations: Microsofti hallatavad pidevad värskendused: mis on uut – 1. november 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | Selle tunni jooksul räägime nii Microsofti hallatava pideva värskenduse sagedusest kui ka tutvume Lifecycle Services'i kasutuskeskkonnaga. | Veebikonverentsi tasuta salvestamine | 59 minutit |
 | [Microsofti hallatavad pidevad värskendused: mis on uut? (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Selle tunni jooksul selgitame, mis on uut Microsofti hallatavates pidevates värskendustes. Arutleme värskenduste sageduse üle, selle üle, kuidas oleme reageerinud teie väärtuslikule tagasisidele protsessi kohta, ning uurime eelseisvat Lifecycle Servicesi kasutuskeskkonda, mille kaudu saate oma värskendusi hallata. | Veebikonverentsi tasuta salvestamine | 56 minutit |
 | [Microsofti hallatavad pidevad värskendused (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Arutame Microsofti plaanide üle hoida teie teie süsteemi ajakohasena uusima versiooni abil. Vestlus hõlmab teemasid, nagu ajaskaalad, suurte ja väiksemate värskenduste sagedus, kavandatud protseduurid, mõjud ja tegevused, mida peaksite tegema optimaalsete tulemuste saavutamiseks. | Veebikonverentsi tasuta salvestamine | 62 minutit |
 | [Seire, optimeerimisnõustaja ja kriitilised KB-d (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Me räägime jälgimisvõimalustest ja sellest, mida Microsoft jälgib teie eest teie tootmiskeskkonnas, optimeerimisnõustajast ja sellest, kuidas seda saab laiendada, LCS-i kriitilistest X++ värskendustest ning LCS-i valiku „Tootmiskatkestusest teatamine” parimatest tavadest. | Veebikonverentsi tasuta salvestamine | 40 minutit |
@@ -86,6 +95,5 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | Sisu  | Kirjeldus  | Vorming  |
 |----------|--------------|---------|
 | [Dynamics 365 põhisätted](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Kinnitage, et olete tutvunud teenusekomplekti Microsoft Dynamics 365, Power Platformi, pilvkeskkonna kontseptsioonide, litsentsimisvõimaluste ning juurutus- ja väljastusvalikutega. | Eksam, hind varieerub piirkonniti |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

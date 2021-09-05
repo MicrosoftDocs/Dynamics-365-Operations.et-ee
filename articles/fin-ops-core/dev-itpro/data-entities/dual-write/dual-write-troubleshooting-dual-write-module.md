@@ -2,26 +2,19 @@
 title: Topeltkirjutamise probleemide tõrkeotsing Finance and Operationsi rakendustes
 description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada Finance and Operationsi rakenduste topelkirjutuse mooduliga seotud probleeme.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6689fae215937f58c93cce72df3fa0a1b5aecd3a5ac9913981b253344a1ba13f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720732"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380136"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Topeltkirjutamise probleemide tõrkeotsing Finance and Operationsi rakendustes
 
@@ -44,8 +37,7 @@ Kui te ei saa avada lehte **Topeltkirjutus**, valides tööruumis **Andmehaldus*
 
 Teile võidakse kuvada järgmine tõrketeade, kui proovite konfigureerida uut tabelit topeltkirjutuse jaoks. Vastendust võib luua ainult kasutaja, kes seadistas topeltkirjutuse ühenduse.
 
-*Vastuse oleku kood ei näita edu: 401 (autoriseerimata)*
-
+*Vastuse oleku kood ei näita edu: 401 (autoriseerimata).*
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Tõrge topeltkirjutuse kasutajaliidese avamisel
 
@@ -61,7 +53,11 @@ Probleemi lahendamiseks logige sisse Microsoft Edge InPrivate-aknas, Chromiumi i
 
 Vastenduste linkimisel või loomisel võib ilmneda järgmine tõrge.
 
-*Vastuse oleku kood ei näita edu: 403 (tokenexchange).<br> Seansi ID: \<your session id\><br> Juurtegevuse ID: \<your root activity id\>*
+```dos
+Response status code does not indicate success: 403 (tokenexchange).
+Session ID: \<your session id\>
+Root activity ID: \<your root activity\> id
+```
 
 See tõrge võib ilmneda juhul, kui teil pole topeltkirjutuse või vastenduste loomiseks piisavaid lube. See tõrge võib ilmneda ka siis, kui teenuse Dataverse keskkond lähtestati ilma topeltkirjutuse linkimist tühistamata. Keskkondi saavad linkida kõik kasutajad, kes on süsteemiadministraatorid nii Finance and Operationsi rakendustes kui ka teenuses Dataverse. Uusi tabeli vastendusi saavad lisada ainult kasutajad, kes seadistasid topeltkirjutuse ühenduse. Pärast seadistamist saab iga süsteemiadministraatori rolliga kasutaja olekut jälgida ja vastendusi redigeerida.
 
@@ -75,16 +71,29 @@ See tõrge ilmneb siis, kui lingitud Dataverse'i keskkond ei ole saadaval.
 
 Probleemi lahendamiseks looge andmeintegratsiooni meeskonnale pilet. Manustage võrgujälitus, et andmeintegratsiooni meeskond saaks märgistada vastendused olekusse **Ei tööta** tagaserveris.
 
-## <a name="error-while-trying-to-start-a-table-mapping"></a>Tabeli vastendamise alustamise katsel ilmnes tõrge
+## <a name="errors-while-trying-to-start-a-table-mapping"></a>Tabeli vastendamise alustamise katsel ilmnesid tõrked
 
-Kui proovite seada vastenduse olekut väärtusele **Töötab**, võite saada järgmise tõrketeate.
+### <a name="unable-to-complete-initial-data-sync"></a>Algset andmete sünkroonimist ei saa lõpetada
+
+Andmete esialgse sünkroonimise käivitamisel võidakse kuvada järgmine tõrketeade:
 
 *Esialgset andmete sünkroonimist ei saa lõpule viia. Tõrge: topeltkirjutuse tõrge – lisandmooduli registreerimine nurjus: topeltkirjutuse otsingu metaandmete koostamine pole võimalik. Tõrkeobjekti viide pole seatud objekti eksemplarile.*
 
-Selle tõrke parandus sõltub tõrke põhjusest.
+Kui proovite seada vastenduse olekut väärtusele **Töötab**, võite saada järgmise tõrketeate. Selle tõrke parandus sõltub tõrke põhjusest:
 
 + Kui vastendusel on sõltuvaid vastendusi, siis veenduge, et selle tabeli vastendusest sõltuvad vastendused oleksid lubatud.
 + Vastendusel võivad puududa lähte- või sihtveerud. Kui veerg Finance and Operationsi rakenduses puuudb, järgige jaotises [Puuduva tabeli veeru probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) toodud samme. Kui veerg on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et veerud täidetaks vastenduses automaatselt.
 
+### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Versiooni lahknevuse tõrge ja topeltkirjutuslahenduste täiendamine
+
+Tabeli vastendamise käivitamisel võidakse kuvada järgmised tõrketeated:
+
++ *Kliendigrupid (msdyn_customergroups) : topeltkirjutuse tõrge – Dynamics 365 for Sales lahendusel 'Dynamics365Company' on versiooniviga. Versioon: '2.0.2.10' Nõutav versioon: '2.0.133'*
++ *Dynamics 365 for Sales lahendusel 'Dynamics365FinanceExtended' on versiooni lahknevus. Versioon: '1.0.0.0' Nõutav versioon: '2.0.227'*
++ *Dynamics 365 for Sales lahendusel 'Dynamics365FinanceAndOperationsCommon' on versiooni lahknevus. Versioon: '1.0.0.0' Nõutav versioon: '2.0.133'*
++ *Dynamics 365 for Sales lahendusel 'CurrencyExchangeRates' on versiooni lahknevus. Versioon: '1.0.0.0' Nõutav versioon: '2.0.133'*
++ *Dynamics 365 for Sales lahendusel 'Dynamics365SupplyChainExtended' on versiooni lahknevus. Versioon: '1.0.0.0' Nõutav versioon: '2.0.227'*
+
+Probleemide lahendamiseks värskendage topeltkirjutuslahendusi rakenduses Dataverse. Veenduge, et see täiendaks uusimale lahendusele, mis vastab nõutud lahenduse versioonile.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

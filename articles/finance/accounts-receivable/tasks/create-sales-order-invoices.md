@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771820"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394606"
 ---
 # <a name="create-sales-order-invoices"></a>Müügitellimuse arvete loomine
 
@@ -30,7 +30,7 @@ Selles tegevuse juhises kirjeldatakse müügitellimuse arveldust, sh arvete ühe
 ## <a name="create-an-invoice-from-a-sales-order"></a>Müügitellimusest arve loomine
 1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Tellimused > Ilma arvet väljastamata lähetatud müügitellimused**.
 2. Valige loendist müügitellimus. 
-3. Klõpsake **Toimingupaanil** valikut **Arve > Loo > Arve**. Pange tähele, et selle müügitellimusega on seostatud mitu saatelehte. Saatelehe numbri asemel kuvatakse ainult sõna <multiple> (mitu).  
+3. Klõpsake **Toimingupaanil** valikut **Arve > Loo > Arve**. Pange tähele, et selle müügitellimusega on seostatud mitu saatelehte. Saatelehe numbri asemel kuvatakse ainult sõna *mitu*.  
 4. Laiendage jaotist **Parameetrid**.
     - Arve sisestamiseks peab sisestamise väärtuseks olema määratud Jah. Võite ka sisestamise välja lülitada ja arve ainult printida. Sama tulemuse saate ka siis, kui loote arve asemel esialgse arve.  
     - Seda suvandit kasutatakse pakett-tööde puhul. Päring käivitatakse pakett-töö käivitamisel.

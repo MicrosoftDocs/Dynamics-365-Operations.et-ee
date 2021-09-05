@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 053e73d9291ffce0d0a1d0b07b980f23d1b6f713f12ea38c22bdac9389c628bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e806be95947988f6a612ddbc1efb0b72cf971806
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724864"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402319"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Managementi õppekataloog Microsofti partneri müügi- ja turundusrollidele
 
@@ -27,8 +27,8 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 ## <a name="get-started"></a>Alustamine<a name="get-started"></a>
 
-| Sisu  | Kirjeldus  | Vorming  | Pikkus    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
+| Sisu | Kirjeldus | Vorming | Pikkus |
+|---------|-------------|--------|--------|
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Dynamics 365 ja Power Platformi põhisätted](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee | 5.5 tundi |
 | [Finance and Operationsi rakenduste kasutamise alustamine](/learn/paths/get-started-finance-operations/) | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee | 2 tundi |
@@ -37,8 +37,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 ## <a name="exam"></a>Eksam<a name="exam"></a>
 
 | Sisu  | Kirjeldus  | Vorming |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+|----------|--------------|--------|
 | [Dynamics 365 põhisätted](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Kinnitage, et olete tutvunud teenusekomplekti Microsoft Dynamics 365, Power Platformi, pilvkeskkonna kontseptsioonide, litsentsimisvõimaluste ning juurutus- ja väljastusvalikutega. | Eksam, hind varieerub piirkonniti |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

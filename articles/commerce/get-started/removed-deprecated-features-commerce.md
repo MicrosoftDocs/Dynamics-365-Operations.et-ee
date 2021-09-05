@@ -2,7 +2,7 @@
 title: Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Commerce'ist.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740403"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386737"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 
@@ -32,6 +32,55 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!NOTE]
 > Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce'i väljalaskest 10.0.21 eemaldatud või aegunud funktsioonid
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Teenusega Lifecycle Services jaotatud Retail SDK
+
+Retail SDK saadetakse teenusega Lifecycle Services (LCS). See jaotusviis aegus väljalaskes 10.0.21. Edaspidi avaldatakse Retail SDK viitepaketid, teegid ja näidised GitHub-i avalikus hoidlas.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Retail SDK saadetakse LCS-is. LCS-i protsessi lõpule viimine võtab mõne tunni aega ja protsessi tuleb korrata iga värskenduse puhul. Edaspidi avaldatakse Retail SDK viitepaketid, teegid ja näidised GitHub-i avalikus hoidlas. Laiendinäidiseid ja viitepakette saab hõlpsasti tarbida ning uuendused viiakse lõpuni mõne minuti jooksul. |
+| **Asendatud teise funktsiooniga?**   |  [Laadige Retail SDK näidised ja viitepaketid alla teenusest GitHub ja NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Mõjutatud tootealad**         | Retail SDK |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: alates väljalaskest 10.0.21 eemaldatakse LCS-i VM-i kaudu saadetav SDK (oktoobris 2022). |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Retaili juurutatav pakett ja koondkassa, riistvarajaam ning pilvskaalaüksuse installerid
+
+Retaili juurutatavad paketid, mis on loodud rakenduse Retail SDK MSBuild abil, on versioonis 10.0.21 aegunud. Edaspidi kasutage pilvskaalaüksuse (CSU) paketti pilvskaalaüksuse laiendite jaoks (Commerce Runtime, kanali andmebaas, kaugadministreeritava kaubanduse API-d, maksed ja pilvekassa). Kasutage kassa, riistvarajaama ja isehostitud pilvskaalaüksuse puhul ainult laiendusega installereid.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Retaili juurutatav pakett on koondpakett, mis sisaldab täielikku pakettide ja installerite komplekti. See koondpakett muudab juurutuse keerukaks, kuna CSU laiendid lähevad pilvskaalaüksusesse ja installerid juurutatakse kauplustes. Installerid sisaldavad laiendust ja põhitoodet, mis muudab värskendused keeruliseks. Iga täienduse puhul on vaja koodi ühendamist ja paketi loomist. Protsessi hõlbustamiseks eraldatakse nüüd laiendipaketid osadeks, et juurutus ja haldus oleks lihtsamad. Uue lähenemisega eraldatakse laiendid ja põhitoote installerid ning neid saab sõltumatult hooldada ja uuendada ilma koodi ühendamise või ümberpakkimiseta.|
+| **Asendatud teise funktsiooniga?**   | CSU laiendid, kassalaiendite installerid, riistvarajaama laienduse installerid |
+| **Mõjutatud tootealad**         | Rakenduse Dynamics 365 Commerce laiendus ja juurutamine |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: alates väljalaskest 10.0.21 eemaldatakse paketi RetailDeployablePackage juurutamise tugi LCS-is (oktoobris 2022). |
+
+Lisateabe saamiseks vt:
+
++ [Commerce’i pilvskaalaüksuse (CSU) jaoks eraldi paketi loomine](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Modern POS-i laienduspaketi loomine](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [Kassa integreerimine uue riistvaraseadmega](../dev-itpro/hardware-device-extension.md)
++ Koodinäidised
+    + [Pilvskaalaüksus](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [Kassa, CSU ja riistvarajaam](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln ja CloudPOs.sln rakenduses Retail SDK
+
+Kassalaiendi juurutus ModernPos.sln, CloudPOs.sln, POS.Extension.csproj ja kassakausta abil aegus väljalaskes 10.0.21. Edaspidi kasutage kassalaiendite jaoks kassast sõltumatut pakendamise SDK-d.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Retail SDK varasemates versioonides on kassalaiendite korral vaja kassa uusimale versioonile värskendamiseks koodi ühendamist ja ümberpakkimist. Koodi ühendamine oli aeganõudev täiendusprotsess ja te pidite säilitama täielikku Retail SDK-d hoidlas. Samuti pidite kompileerima tuumprojekti POS.App. Sõltumatu pakendamise mudeli kasutamisel peate hooldama ainult oma laiendust. Kassalaiendite uusimale versioonile uuendamise protsess on sama lihtne, kui teie projekti tarbitava NuGeti paketi versiooni uuendamine. Laiendeid saab juurutada iseseisvalt ja teenused kasutavad laienduse installereid. Põhikassat saab juurutada ja hooldada eraldi ning koodi ühendamist ega ümberpakkimist põhiinstalleri või koodiga pole vaja. |
+| **Asendatud teise funktsiooniga?**   | [Kassa sõltumatu pakendamise SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Mõjutatud tootealad**         | Rakenduse Dynamics 365 Commerce kassalaiend ja juurutamine |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: alates väljalaskest 10.0.21, eemaldatakse tugi kassa koondpakettidelt ja laiendimudelilt, mis kasutavad rakenduses Retail SDK üksusi ModernPos.Sln, CloudPOs.sln ja POS.Extensons.csproj (oktoobris 2022). |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Commerce'i väljalaskest 10.0.17 eemaldatud või aegunud funktsioonid
 

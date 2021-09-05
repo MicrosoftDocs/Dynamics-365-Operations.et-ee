@@ -1,8 +1,8 @@
 ---
 title: Halduse ülevaade
-description: See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsingut rakenduses Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Selles teemas on teenuse Dynamics 365 Human Resources finantshalduse funktsioonide spikriteemade ja muude ressursside loend.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765610"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393567"
 ---
 # <a name="administration-overview"></a>Halduse ülevaade
 
@@ -28,11 +28,11 @@ ms.locfileid: "6765610"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsingut rakenduses Dynamics 365 Human Resources.
+Selles teemas on teenuse Dynamics 365 Human Resources finantshalduse funktsioonide spikriteemade ja muude ressursside loend.
 
 - [Süsteeminõuded](hr-admin-system-requirements.md)
 
-- Eksemplaride häälestamine ja haldamine
+- Eksemplaride häälestus ja haldamine
   - [Rakenduse Human Resources ettevalmistamine](hr-admin-setup-provision.md)
   - [Kopeeri eksemplar](hr-admin-setup-copy-instance.md)
   - [Eemalda eksemplar](hr-admin-setup-remove-instance.md)
@@ -92,9 +92,18 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
   - [Kompensatsiooni protsessi käitamine](hr-admin-troubleshooting-compensation.md)
   - [Tegevuse juhise salvestamine LCS-i](hr-admin-troubleshooting-task-guide.md)
   - [Juurdepääs privaatsetele aadressidele turberolli järgi](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources ei ilmu Dynamics 365 rakenduste hulgas](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resourcesi ei kuvata Dynamics 365 rakendustes](hr-admin-troubleshooting-not-in-apps.md)
   - [Aruandlusvalikud](hr-admin-troubleshooting-reporting.md)
   - [Integratsiooni KKK](hr-admin-troubleshooting-integration.md)
+
+## <a name="additional-resources"></a>Lisaressursid
+
+### <a name="elearning-courses"></a>E-õppe kursused
+Veebikursuste ja koolituse kohta leiate teavet [Microsoft Learni jaotisest Dynamics 365 Human Resources](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>Videod
+
+Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ## <a name="see-also"></a>Vt ka
 

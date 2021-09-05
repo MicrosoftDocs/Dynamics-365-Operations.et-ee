@@ -1,8 +1,8 @@
 ---
 title: Registreerimise sobivuse töötlemine
-description: Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Selles teemas selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782068"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417480"
 ---
 # <a name="process-enrollment-eligibility"></a>Registreerimise sobivuse töötlemine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
+Selles teemas selgitatakse, kuidas käivitada registreerimise sobivuse töötlemist.
 
 1. Tööruumis **Soodustuste haldus** jaotises **Töötlemine** valige suvand **Registreerimise sobivuse töötlemine**.
 
@@ -53,11 +53,11 @@ Selles artiklis selgitatakse, kuidas käivitada registreerimise sobivuse töötl
 
 ## <a name="view-process-results"></a>Protsessi tulemuste kuvamine
 
-Selles artiklis selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
+Selles teemas selgitatakse, kuidas kuvada sobivuse töötlemise tulemusi.
 
 1.  Tööruumis **Soodustuste haldus** jaotises **Töötlemine** valige suvand **Protsessi tulemused**.
 
-2.  Vormil **Protsessi tulemused** on määratud järgmised väljad.
+2.  Lehel **Protsessi tulemused** on määratud järgmised väljad.
 
    | Field | Kirjeldus |
    | --- | --- |

@@ -1,8 +1,8 @@
 ---
-title: Dayforce’iga integreerimise konfigureerimine
-description: Rakenduste Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce vaheline integratsioon oleneb mitmest selles teemas kirjeldatavast konfiguratsioonietapist. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Human Resources kui ka Dayforce.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Integratsiooni konfigureerimine Dayforce’iga
+description: See teema kirjeldab vajalikke konfigureerimisetappe, mida on vaja Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce'i vaheliseks integreerimiseks.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782727"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414580"
 ---
-# <a name="configure-integration-with-dayforce"></a>Dayforce’iga integreerimise konfigureerimine
+# <a name="configure-integration-with-dayforce"></a>Integratsiooni konfigureerimine Dayforce’iga
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Rakenduste Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce vaheline integratsioon oleneb mitmest selles teemas kirjeldatavast konfiguratsioonietapist. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Human Resources kui ka Dayforce.
+Rakenduste Microsoft Dynamics 365 Human Resources ja Ceridian Dayforce vaheline integratsioon sõltub mitmest konfiguratsioonietapist, mida kirjeldatakse selles teemas. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Human Resources kui ka Dayforce.
 
 Kui te kasutate palgatöötluste tegemiseks teenust, nagu Dayforce, siis peate rakenduses Human Resources integratsiooni lubama. Integratsiooni jaoks on rakendusest Human Resources vaja teatud andmeid. Seega peate kinnitama, et Dayforce’iga vastendatud andmed on rakenduses Human Resources konfigureeritud viisil, mis lubab integratsiooni. Integratsioon kasutab järgmisi üldisi andmekategooriaid.
 
@@ -35,7 +35,7 @@ Kui te kasutate palgatöötluste tegemiseks teenust, nagu Dayforce, siis peate r
 - Palgaandmed, näiteks palgatsüklid, makseperioodid ja tulukoodid
 - Töötaja andmed
 
-Teemas kirjeldatakse integratsiooni lubamiseks vajalikke etappe. Samuti selgitatakse integratsiooni jaoks vajalikke andmetüüpe ja konfigureerimise üksikasju.
+See teema kirjeldab samme, mida peate järgima integratsiooni lubamiseks ja selgitab andmetüüpe ja konfiguratsiooni üksikasju, mida integratsioon nõuab.
 
 ## <a name="enable-the-integration"></a>Integratsiooni lubamine
 
@@ -122,7 +122,7 @@ Dayforce loob järgmised mahaarvamised palga mõju alusel, mis on määratletud 
 | Ainult lisamine          | Luuakse tööandja mahaarvamine.             |
 | Mahaarvamine ja lisamine | Luuakse töövõtja ja tööandja mahaarvamised. |
 
-Lisateavet soodustusprogrammi määratlemise ja haldamise kohta vaadake järgmistest artiklitest.
+Lisateavet soodustusprogrammi määratlemise ja haldamise kohta vaadake järgmistest teemadest.
 
 - [Töötaja soodustuste programmi pakkumine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [Uue soodustuse loomine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
@@ -135,7 +135,7 @@ Hüvituste haldust kasutatakse põhitasu ja preemiate jagamise juhtimiseks. Tö�
 
 Dayforce kasutab hüvituse teavet töövõtja tunni- või aastamäära arvutamiseks. Nõutavad on põhipalgaplaanid ja palgamäära teisendamised. Töövõtjad peavad olema seotud põhipalgaplaaniga.
 
-Lisateavet hüvitusplaanide kohta vaadake järgmistest artiklitest.
+Lisateavet hüvitusplaanide kohta vaadake järgmistest teemadest.
 
 - [Põhipalga plaanide loomine](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Ergutussüsteemi plaanide loomine](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,7 +147,7 @@ Lisateavet hüvitusplaanide kohta vaadake järgmistest artiklitest.
 
 #### <a name="jobs"></a>Tööd 
 
-Töö on tööd tegeva isiku jaoks nõutavate ülesannete ja vastutuste kogum. Lisateavet vt järgmistest artiklitest.
+Töö on tööd tegeva isiku jaoks nõutavate ülesannete ja vastutuste kogum. Lisateavet vt järgmistest teemadest:
 
 - [Töö komponentide seadistamine](/dynamics365/unified-operations/talent/create-job)
 - [Uute tööde määratlemine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -172,7 +172,7 @@ Ametikohtade seadistamisel pidage meeles järgmisi andmeid ja konfiguratsioone.
 
 Kui ühes osakonnas on sama tööga seotud mitu ametikohta, siis konsolideeritakse need rakenduses Dayforce üheks ametikohaks.
 
-Lisateavet vt järgmistest artiklitest.
+Lisateavet vt järgmistest teemadest:
 
 - [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Ametikohtade seadistamine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,7 +181,7 @@ Lisateavet vt järgmistest artiklitest.
 
 Osakond on tootmisüksus, mis esindab organisatsiooni kategooriat või funktsionaalset ala. Osakond vastutab organisatsiooni kindla valdkonna eest, nagu müük, raamatupidamine või inimressursid. Saate osakondi kasutada funktsionaalsete alade aruannete koostamiseks. Osakonnad võivad vastutada kasumi ja kahjumi eest.
 
-Lisateavet vt järgmistest artiklitest.
+Lisateavet vt järgmistest teemadest:
 
 - [Osakonna loomine ja selle seostamine osakonnahierarhiaga](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Uute osakondade määratlemine](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)

@@ -1,5 +1,5 @@
 ---
-title: Kliendimaksete prognooside kasutamine (eelvaade)
+title: Kliendimaksete prognoosimise kasutamine
 description: See teema selgitab eeltingimusi ja üldisi samme, mis on vajalikud Finance'i ülevaadete prooviversiooni kasutamiseks.
 author: ShivamPandey-msft
 ms.date: 07/17/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 6e89ab13f005a9a0e00da6ce9da14dd505219c497e1105785843b2375166dbce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748230"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386286"
 ---
-# <a name="use-customer-payment-predictions-preview"></a>Kliendimaksete prognooside kasutamine (eelvaade)
+# <a name="use-customer-payment-predictions"></a>Kliendimaksete prognoosimise kasutamine
 
 [!include [banner](../includes/banner.md)]
 
