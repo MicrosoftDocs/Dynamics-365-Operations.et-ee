@@ -6,6 +6,8 @@
           href: index.md
         - name: Alustamine
           items:
+            - name: Teenuse kirjeldus
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Enne ostmist
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: Ühe versiooni teenusevärskendused
@@ -94,6 +96,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.22 (november 2021)
+                      href: get-started/whats-new-commerce-10-0-22.md
                     - name: Commerce 10.0.21 (oktoober 2021)
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (august 2021)
@@ -254,8 +258,12 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: Commerce Data Exchange'i tõrkeotsing
                       href: dev-itpro/CDX-Troubleshooting.md
+                    - name: Commerce Data Exchange'i pakettide sortimine esmase indeksi alusel
+                      href: CDX-package-sort.md
                 - name: Modern POS-i ülesehitus
                   href: dev-itpro/retail-modern-pos-architecture.md
+                - name: Kaubanduse rakendamine võrguühenduseta ja tõrkeotsing
+                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Võrgupoe kataloogi avaldamine
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance’i Power BI sisu
@@ -704,6 +712,10 @@
                   href: configure-ratings-reviews.md
                 - name: Toote hinnangute sünkroonimine
                   href: sync-product-ratings.md
+                - name: Moderaatori hinnangute ja ülevaadete käsitsi avaldamise lubamine
+                  href: manual-publish-rating-reviews.md
+                - name: Hinnangute ja arvustuste KKK
+                  href: ratings-reviews-faq.md
             - name: Hallake varusid
               items:
                 - name: Varud
@@ -754,6 +766,8 @@
                   href: multiple-pickup-modes.md
                 - name: Klienditellimuse järeletulemise töötlemine kassas
                   href: process-order-pickup-POS.md
+                - name: Tellimuse otsingu lubamine külaliste väljaregistreerimiseks
+                  href: order-lookup-guest.md
             - name: Müügitellimused
               items:
                 - name: Kõnekeskuse tellimuste loomine
@@ -1146,6 +1160,8 @@
                       href: order-confirmation-module.md
                     - name: Kinkekaardi moodul
                       href: add-giftcard.md
+                    - name: Tellimuse otsingu moodul
+                      href: order-lookup-module.md
                 - name: Kaupluse leidmise moodulid
                   items:
                     - name: Kaardimoodul
@@ -1174,6 +1190,8 @@
                       href: nav-menu-module.md
                     - name: Saidi valimise moodul
                       href: site-selector.md
+                    - name: Riigi/regiooni valija moodul
+                      href: country-region-picker-module.md
                 - name: Otsingumoodulid
                   items:
                     - name: Otsingutulemuste moodul
@@ -1196,6 +1214,8 @@
               items:
                 - name: 'Seadme, turu ja geograafilise asukoha sihtimine'
                   href: targeting-overview.md
+                - name: Geotuvastuse ja ümbersuunamise seadistamine
+                  href: geo-detection-redirection.md
             - name: Katsetamine
               items:
                 - name: Katsetamine rakenduses Dynamics 365 Commerce
@@ -1258,15 +1278,15 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service
+            - name: Regulatory configuration service (RCS)
               items:
-                - name: Regulatory Configuration Service'i ülevaade
+                - name: Regulatory configuration service'i (RCS) ülevaade
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service – globaliseerumise funktsioonid
+                - name: (RCS) Regulatory configuration service (RCS) – globaliseerumise funktsioonid
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: ER-i konfiguratsioonide loomine Regulatory Configuration Service'is ja üleslaadimine globaalsesse hoidlasse
+                - name: ER-i konfiguratsioonide loomine Regulatory configuration service'is (RCS) ja üleslaadimine globaalsesse hoidlasse
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
+                - name: Regulatory Configuration Service (RCS) – Lifecycle Servicesi salvestusruumi aegumine
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: ER-i konfiguratsioonide allalaadimine rakendusse Commerce
                   items:
@@ -1274,20 +1294,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                - name: Globaalne hoidla (GR)
-                  items:
-                    - name: Konfiguratsioonide importimine GR-ist
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER-i konfiguratsioonide värskendatud versioonide import
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
-                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfiguratsioonide üleslaadimine GR-i
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfiguratsioonide jagamine GR-is
-                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
-                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Globaalne hoidla (GR)
+                      items:
+                        - name: Konfiguratsioonide importimine GR-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: ER-i konfiguratsioonide värskendatud versioonide import
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfiguratsioonide üleslaadimine GR-i
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfiguratsioonide jagamine GR-is
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
@@ -1888,6 +1908,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfiguratsioonide importimine (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: Regulatory configuration service'i (RCS) ülevaade
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER-i konfiguratsioonide allalaadimine rakendusse Commerce
+                      items:
+                        - name: Konfiguratsioonide allalaadimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfiguratsioonide importimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: Globaalne hoidla (GR)
+                      items:
+                        - name: Konfiguratsioonide importimine GR-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: ER-i konfiguratsioonide värskendatud versioonide import
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfiguratsioonide üleslaadimine GR-i
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfiguratsioonide jagamine GR-is
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Lühijuhendid
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
@@ -1944,6 +1988,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+                    - name: VÖÖTKOODI kasutamine vöötkoodi piltide genereerimiseks
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Andmeallikate OTSINGU konfigureerimine kasutama ER-i rakendusepõhiseid parameetreid
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ANDMEKOGUMI andmeallikate kasutamine ER-vormingutes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Andmeallikate silumine
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: VÖÖTKOODI kasutamine vöötkoodi piltide genereerimiseks
@@ -2014,6 +2064,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Toimingust sõltuvate sihtkohtade konfigureerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Prindihalduse kirjepõhise ER-i sihtkoha konfigureerimine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: ER-vormingu viite häälestamine
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Loodud aruannete automaatne kinnitamine
@@ -2062,6 +2114,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
                     - name: Rakenduse värskendus 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
+                    - name: Rakenduse värskendus 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
                   items:
                     - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
@@ -2072,7 +2126,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Tüübi USER INPUT PARAMETER andmeallika väärtuste käivitamine lähtekoodist
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
-        - name: Finance and Operations (Dynamics 365) mobiillirakendus
+                - name: 'Koodi muutmine, et lubada kasutajatel nimega ER-sihtkohti konfigureerida ja kasutada'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
+        - name: Finance and Operations (Dynamics 365) mobiilirakendus
           items:
             - name: Mobiilirakenduse avaleht
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
@@ -2456,10 +2512,6 @@
               items:
                 - name: Retail SDK arhitektuur
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Retail SDK tulevased muudatused
-                  href: dev-itpro/UpcomingSDKChanges.md
-                - name: Arendus ja ALM-i muudatused versioonist 10.0.10 kuni versioonini 10.0.13
-                  href: dev-itpro/dev-changes-10-13.md
                 - name: Sõltumatu pakendamise SDK järgukonveieri häälestamine
                   href: dev-itpro/build-pipeline.md
                 - name: Commerce'i ja Finance and Operationsi järgusüsteemide ühendamine
@@ -2586,8 +2638,6 @@
                   href: dev-itpro/retail-server-customer-consumer-api.md
                 - name: Retail Serveri laienduse API loomine (Retaili SDK versioon 10.0.11 ja hilisem)
                   href: dev-itpro/retail-server-icontroller-extension.md
-                - name: Uue Retail Serveri laienduse API loomine (Retaili SDK versioon 10.0.11 ja varasem)
-                  href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript ja C# puhvrid
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Retail Server API-de kasutamine välisrakendustes
@@ -2704,6 +2754,8 @@
                   href: troubleshoot/pickup-store-missing.md
                 - name: Laovaruta kaupu saab välja registreerida
                   href: troubleshoot/items-without-inventory-checked-out.md
+                - name: 'Otsingutulemuste ja kategooriate lehtedel kuvatakse hinnangute filter, kui hinnangute ja ülevaadete lahendus pole lubatud'
+                  href: troubleshoot/hide-ratings-refiner.md
             - name: SDK tõrkeotsing
               items:
                 - name: E-kaubanduse arenduskeskkonna häälestamine 1. järgu Retail Serveri VM suhtes silumiseks

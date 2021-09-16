@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0fc784c3d0a1df7984761c95b5f6955cc1b441e7a51ac75eecd971a42a47a317
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ac5a8005851dc2894a0fbed74f47be6e1e14b58
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743598"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416547"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
@@ -81,7 +81,7 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
 - **Koondplaneerimine:**
   - [Nõudluse prognoosi funktsiooni pikendamine](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Koondplaneerimine – vihjed ja näpunäited tõrkeotsinguks](https://youtu.be/7v8BPmEs9Dg)
-  - [Mida teha? MRP on aeglane.](https://youtu.be/RLXybx20B5o)
+  - [MRP jõudluse häälestamine](https://youtu.be/RLXybx20B5o)
 - **Tooteteabe haldus:**
   - [Toote konfiguraator teenuses Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Laohaldus:**

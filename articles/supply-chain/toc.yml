@@ -6,6 +6,8 @@
           href: index.md
         - name: Alustamine
           items:
+            - name: Teenuse kirjeldus
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: Enne ostmist
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Eelvaatetellimuste saajaks registreerumine
@@ -72,6 +74,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.22 (november 2021)
+                      href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (oktoober 2021)
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (august 2021)
@@ -212,15 +216,15 @@
               items:
                 - name: Globaliseerimisteenuste ülevaade
                   href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory configuration service (RCS)
                   items:
-                    - name: Regulatory Configuration Service'i ülevaade
+                    - name: Regulatory configuration service'i (RCS) ülevaade
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service – globaliseerumise funktsioonid
+                    - name: Regulatory configuration service (RCS) – globaliseerumise funktsioonid
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-i konfiguratsioonide loomine Regulatory Configuration Service'is ja üleslaadimine globaalsesse hoidlasse
+                    - name: ER-i konfiguratsioonide loomine Regulatory configuration service'is (RCS) ja üleslaadimine globaalsesse hoidlasse
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service – Lifecycle Servicesi salvestusruumi aegumine
+                    - name: Regulatory Configuration Service (RCS) – Lifecycle Servicesi salvestusruumi aegumine
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER-i konfiguratsioonide allalaadimine Supply Chain Managementi
                       items:
@@ -302,9 +306,9 @@
                   items:
                     - name: Hankija transiidis olevad kaubad
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Pilv ja perimeeter
+        - name: Hajutatud hübriidtopoloogia
           items:
-            - name: Pilv- ja perimeeterskaalaüksused tootmis- ja laohaldustöökoormuste jaoks
+            - name: Skaala ühikud hajutatud hübriidtopoloogias
               href: cloud-edge/cloud-edge-landing-page.md
             - name: Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
@@ -753,8 +757,6 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Kuluhalduse Power BI sisupakett
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Kuluhalduse tõrkeotsing
-              href: cost-management/troubleshoot-costmanagement.md
         - name: Aruandlus ja Power BI integratsioonid
           items:
             - name: Aruandlus ja analüüs rakendusega Power BI
@@ -1257,6 +1259,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Konfiguratsioonide importimine (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: Regulatory configuration service'i (RCS) ülevaade
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER-i konfiguratsioonide allalaadimine Supply Chain Managementi
+                      items:
+                        - name: Konfiguratsioonide allalaadimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfiguratsioonide importimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Globaalne hoidla (GR)
+                      items:
+                        - name: Konfiguratsioonide importimine GR-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ER-i konfiguratsioonide värskendatud versioonide import
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfiguratsioonide üleslaadimine GR-i
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfiguratsioonide jagamine GR-is
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Konfiguratsioonide katkestamine RCS-i globaalses hoidlas
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Lühijuhendid
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
@@ -1313,10 +1339,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Andmeallikate silumine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: VÖÖTKOODI kasutamine vöötkoodi piltide genereerimiseks
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Andmeallikate OTSINGU konfigureerimine kasutama ER-i rakendusepõhiseid parameetreid
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ANDMEKOGUMI andmeallikate kasutamine ER-vormingutes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Andmeallikate silumine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mudelivastenduste konfigureerimine
                   items:
                     - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
@@ -1383,6 +1413,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Toimingust sõltuvate sihtkohtade konfigureerimine
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Prindihalduse kirjepõhise ER-i sihtkoha konfigureerimine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ER-vormingu viite häälestamine
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Loodud aruannete automaatne kinnitamine
@@ -1431,6 +1463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Rakenduse värskendus 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Rakenduse värskendus 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
                   items:
                     - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
@@ -1441,6 +1475,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tüübi USER INPUT PARAMETER andmeallika väärtuste käivitamine lähtekoodist
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Koodi muutmine, et lubada kasutajatel nimega ER-sihtkohti konfigureerida ja kasutada'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: Varude haldus
           items:
             - name: Varude halduse ülevaade
@@ -1547,8 +1583,6 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Mobiilse tööruumi varude laoseis
                   href: inventory/inventory-on-hand-mobile-workspace.md
-                - name: Varude toimingute tõrkeotsing
-                  href: inventory/troubleshoot-inventory-operations.md
             - name: Väljaminev protsess
               items:
                 - name: Väljamineva protsessi ülevaade
@@ -1573,14 +1607,14 @@
               items:
                 - name: Varude nähtavuse lisandmooduli ülevaade
                   href: inventory/inventory-visibility.md
-                - name: Varude nähtavuse häälestamine
+                - name: Varude nähtavuse installimine ja häälestamine
                   href: inventory/inventory-visibility-setup.md
                 - name: Varude nähtavuse konfigureerimine
                   href: inventory/inventory-visibility-configuration.md
+                - name: Varude nähtavuse rakenduse kasutamine
+                  href: inventory/inventory-visibility-power-platform.md
                 - name: Varude nähtavuse reserveeringud
                   href: inventory/inventory-visibility-reservations.md
-                - name: Varude nähtavuse Power App
-                  href: inventory/inventory-visibility-power-platform.md
                 - name: Varude nähtavuse avalikud API-d
                   href: inventory/inventory-visibility-api.md
         - name: IoT iseõppimisvõime
@@ -1697,6 +1731,8 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: Kalendrid ja koondplaneerimine
                   href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Ajastamismootori tõrke „Ei leitud piisavalt võimsust” lahendamine
+                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: Koondplaneerimise jõudluse parandamine
                   href: master-planning/master-planning-performance.md
                 - name: Plaanimismootori jõudluste täiustamine
@@ -1759,8 +1795,6 @@
                   items:
                     - name: Eelarve planeerimise koefitsiendid
                       href: master-planning/reduction-keys.md
-            - name: Koondplaneerimise tõrkeotsing
-              href: master-planning/troubleshoot-masterplanning.md
         - name: Mobiilirakendus
           items:
             - name: Mobiilirakenduse avaleht
@@ -1963,8 +1997,6 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Hangete töövoog
               href: procurement/procurement-sourcing-workflows.md
-            - name: Hangete töövoogude tõrkeotsing
-              href: procurement/troubleshoot-procurementworkflows.md
             - name: Hankekataloogid
               items:
                 - name: Hankekataloogide ülevaade
@@ -2005,8 +2037,6 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Kaupade vastuvõtu registreerimine ostutellimusel
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
-                - name: Ostutellimuste tõrkeotsing
-                  href: procurement/troubleshoot-purchaseorders.md
             - name: Ostutellimuse loomine
               items:
                 - name: Ostutellimuste loomine käsitsi
@@ -2037,8 +2067,6 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: Hankija tagasimaksed
                   href: procurement/vendor-rebates.md
-                - name: 'Hindade, allahindluste, lepingute ja tagasimaksete tõrkeotsing'
-                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Ostupoliitikad
               items:
                 - name: Ostupoliitikate ülevaade
@@ -2053,11 +2081,9 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Hankija arvete ülevaade
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Toote sissetulekute ja arvelduse tõrkeotsing
-                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Hankija haldus ja koostöö
               items:
-                - name: Hankija koostöö seadistamine ja haldamine
+                - name: Hankija koostöö häälestus ja haldamine
                   href: procurement/set-up-maintain-vendor-collaboration.md
                 - name: Hankija koostöö kasutajate haldamine
                   href: procurement/manage-vendor-collaboration-users.md
@@ -2109,6 +2135,8 @@
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Projekti eelarverevisjonide esitamine ja kinnitamine
                   href: procurement/tasks/submit-approve-project-budget-revision.md
+            - name: Hanke KKK
+              href: procurement/procurement-faq.md
         - name: Tooteteabe haldus
           items:
             - name: Tooteteabe ülevaade
@@ -2203,9 +2231,7 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Koosluse kalkulatsioonid
                   href: cost-management/bom-calculations.md
-                - name: Tooteteabe tõrkeotsing
-                  href: pim/troubleshooting-productinformation.md
-            - name: Tootekonfiguratsioon
+            - name: Toote konfiguratsioon
               items:
                 - name: Tootekonfiguratsiooni ülevaade
                   href: pim/build-product-configuration-model.md
@@ -2267,8 +2293,8 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Tootemudelite andmete ülekandmine
                       href: pim/tasks/transfer-data-product-models.md
-                - name: Tootekonfiguraatori tõrkeotsing
-                  href: pim/troubleshooting-productconfigurator.md
+            - name: Tooteteabe halduse KKK
+              href: pim/product-information-faq.md
         - name: Tehnilise muudatuse haldamine
           items:
             - name: Tehnilise muudatuse haldamise ülevaade
@@ -2461,13 +2487,11 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Paindgrupid
                       href: production-control/time-attendance-flex-groups.md
-                - name: Diskreetse tootmise tõrkeotsing
-                  href: production-control/troubleshoot-discretemanufacturing.md
-            - name: Timmitud tootmine
+            - name: Lean manufacturing
               items:
-                - name: Timmitud tootmise ülevaade
+                - name: Lean manufacturingi ülevaade
                   href: production-control/lean-manufacturing-overview.md
-                - name: Tegevuspõhine allhange
+                - name: Tegevusel põhinev allhange
                   href: production-control/activity-based-subcontracting.md
                 - name: Tootmise koondandmete haldamine
                   items:
@@ -2615,8 +2639,6 @@
                       href: production-control/consumption.md
                     - name: Tootmise sisestamine
                       href: cost-management/production-posting.md
-                - name: Protsesstootmise tõrkeotsing
-                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Tagasimakse haldus
           items:
             - name: Tagasimakse halduse mooduli ülevaade
@@ -2681,8 +2703,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Müügitellimuste kinnitamine
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: Müügitellimuste tõrkeotsing
-                  href: sales-marketing/troubleshooting-sales.md
+                - name: Müügitellimuse KKK-d
+                  href: sales-marketing/sales-orders-faq.md
             - name: Müügilepingud
               items:
                 - name: Müügilepingute ülevaade
@@ -2705,8 +2727,6 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Müügipakkumiste loomine ja redigeerimine
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-                - name: Müügipakkumiste tõrkeotsing
-                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Tagastused
               items:
                 - name: Müügitagastused
@@ -3115,26 +3135,18 @@
                   href: inventory/quality-management-for-warehouses-processes.md
                 - name: Kvaliteedikontroll
                   href: warehousing/quality-check.md
-                - name: Saabuvate kaupade laotoimingute tõrkeotsing
-                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Väljuvate kaupade laotoimingud
               items:
-                - name: Reserveerimised laohalduses
-                  items:
-                    - name: Paindlik dimensiooni reserveerimise poliitika laotasemel
-                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                    - name: Reserveerimiste tõrkeotsing laohalduses
-                      href: warehousing/troubleshoot-warehouse-reservations.md
-                    - name: Lao partii ja seeria reserveerimishierarhiate tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md
+                - name: Paindlik dimensiooni reserveerimise poliitika laotasemel
+                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Lattu väljastamine
+                  href: warehousing/release-to-warehouse-process.md
                 - name: Osaline väljastamine ja osaline lähetamine
                   items:
                     - name: Transpordikoorma osaline lähetamine
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Osaliselt reserveeritud üleviimistellimuste hulgiväljastamine
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-                    - name: Osaliste väljastuste ja osaliste saadetiste tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Komplekteerimine ja pakkimine
                   items:
                     - name: Kogumi komplekteerimise häälestamine
@@ -3177,8 +3189,6 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Väljamineva töökoormuse visualiseerimine
                       href: warehousing/outbound-workload-visualization.md
-                    - name: Komplekteerimise ja pakkimise tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Täiendamine
                   items:
                     - name: Täiendamise ülevaade
@@ -3195,13 +3205,11 @@
                       href: warehousing/replenishment-strategies.md
                     - name: Täiendamine üle asukoha mahutavuse
                       href: warehousing/replenishment-over-location-capacity.md
-                    - name: Laotäiendamise tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Koorma koostamine ja saadetised
                   items:
                     - name: Kinnitamine ja üleviimine
                       href: warehousing/confirm-and-transfer.md
-                    - name: Pakett-töös väljuvate saadetiste kinnitamine
+                    - name: Pakett-töö väljuvate saadetiste kinnitamine
                       href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Täiustatud koorma koostamine voo ajal
                       href: warehousing/advanced-load-building-during-wave.md
@@ -3209,8 +3217,6 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Väikepaki saatmine
                       href: warehousing/small-parcel-shipping.md
-                    - name: Koorma koostamise ja saadetiste tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Saadetise konsolideerimispoliitikad
                   items:
                     - name: Saadetise konsolideerimispoliitikad
@@ -3231,8 +3237,6 @@
                   href: warehousing/wave-processing.md
                 - name: Voosiltide uuesti printimine ja tühistamine
                   href: warehousing/reprint-and-void-wave-labels.md
-                - name: Väljuvate kaupade laotoimingute tõrkeotsing
-                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Kõik laotoimingud
               items:
                 - name: Laotööpoliitikad
@@ -3297,8 +3301,6 @@
                       href: warehousing/work-split.md
                     - name: Materjali käsitlemise seadmete liides (MHAX)
                       href: warehousing/mhax.md
-                    - name: Laotöö tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Laorakendus
               items:
                 - name: 'Mobiilsete seadmete installimine, häälestamine ja kasutamine'
@@ -3313,8 +3315,6 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Vöötkoodide skannimine kaamera abil mobiilirakenduses Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Mobiilirakenduse Warehouse Management ühendusprobleemide tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Mobiilsete seadmete väljade ja menüüde seadistamine
                   items:
                     - name: Mobiilirakenduse Warehouse Management väljade konfigureerimine
@@ -3419,17 +3419,11 @@
                       href: warehousing/gs1-barcodes.md
                     - name: Lao häälestamine üleviimistellimuste jaoks
                       href: warehousing/transfer-orders-warehouse.md
-                    - name: Lao konfiguratsiooni tõrkeotsing
-                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Täiendamine ja migreerimine
                   items:
                     - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versiooniks Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
-                    - name: Täpsema laohalduse kasutuselevõtmine ja sellesse migreerumine
-                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
-                - name: Laoseadistuse tõrkeotsing
-                  href: warehousing/troubleshoot-warehouse-setup.md
-        - name: Supply Chain Managementi arendamine
+        - name: Supply Chain Managementi juurutamine
           items:
             - name: Gantti juhtelemendi arendamise juhis
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
@@ -3441,6 +3435,14 @@
           items:
             - name: Kuluhaldus
               items:
+                - name: Varude ajalise jaotuse aruande lahknevused
+                  href: troubleshooting/costing/aging-report-discrepancies.md
+                - name: Hoiatused või tõrked pearaamatuperioodi oleku muutmisel ilma lao sulgemiseta
+                  href: troubleshooting/costing/change-ledger-period-without-closing.md
+                - name: Funktsionaalsed lüngad varude väärtuse/vananemise aruannete ja nende ladustamise versioonide vahel
+                  href: troubleshooting/costing/function-gaps-storage-reports.md
+                - name: 'Uuenduse vastuolu ilmneb, kui varude hinna määramise meetod on kas standardne kulu või libisev keskmine'
+                  href: troubleshooting/costing/update-conflict-standard-moving.md
                 - name: Puuduvad väljaseaded kauba mudeligruppide kopeerimisel teise juriidilisse isikusse
                   href: troubleshooting/costing/copying-item-model-groups.md
                 - name: Aruanne „Töödeldavad kaudsed kulud” sisaldab kustutatud tootmistellimusi
@@ -3453,6 +3455,20 @@
                   href: troubleshooting/costing/there-is-no-from-dat.md
             - name: Varude haldus
               items:
+                - name: Te ei leia varude töölehel ripploendi välja „Töövoog”
+                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
+                - name: Varude töölehe töövoog ei jõua kunagi lõpule ja töölehte ei saa töödelda
+                  href: troubleshooting/inventory/cant-post-inventory-journal.md
+                - name: Teie varude tööleht on lukus ja töövoo pakett-töö ei toimi
+                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
+                - name: Ühik ja ühiku kogus ei toimi varude töölehel õigesti
+                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
+                - name: 'Varude töölehe töövoo tingimused kehtivad töölehe tasemel, mitte rea tasemel'
+                  href: troubleshooting/inventory/journal-workflow-conditions.md
+                - name: Laoseisu loendilehe filtripaan ei toimi ootuspäraselt
+                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
+                - name: Varude arvestusühiku kümnendkohtade maksimumarv on 0
+                  href: troubleshooting/inventory/sku-max-decimals-zero.md
                 - name: Mitu laokannet partiinumbrite kohta ilma valikuta „Füüsilise sisestamise puhul”
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Aruande tühistamine lõpetatuna loob ootamatu avatud kande
@@ -3467,6 +3483,20 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Koondplaneerimine
               items:
+                - name: Koosluse koosnevus käitub kinnitatud ja hinnanguliste tootmistellimuste puhul erinevalt
+                  href: troubleshooting/planning/bom-explosion-works-differently.md
+                - name: 'Viivituse väärtust ei uuendata, kui plaanite plaanitud tellimust uuesti planeerida'
+                  href: troubleshooting/planning/delay-value-not-updated.md
+                - name: Plaanitud tellimused võtaksid uuendamiseks kaua aega
+                  href: troubleshooting/planning/planned-order-long-update.md
+                - name: Plaanitud tellimused luuakse laovarude kohta koos tootmistellimustega
+                  href: troubleshooting/planning/planned-orders-in-stock-items.md
+                - name: Tootmise planeerimisel ei arvestata ohutuspiire
+                  href: troubleshooting/planning/prod-schedule-safety-margins.md
+                - name: Koondplaneerimine plaanib üle saadaoleva võimsuse
+                  href: troubleshooting/planning/respect-capacity-limitations.md
+                - name: Piisavat võimsust ei leitud.
+                  href: troubleshooting/planning/not-enough-capacity-error.md
                 - name: Sisseehitatud koondplaneerimise mootori käitamisel kuvatakse tõrge
                   href: troubleshooting/planning/deprecated-master-planning-error.md
                 - name: Kaubal ei saa olla kooslust ega valemit
@@ -3499,12 +3529,68 @@
                   href: troubleshooting/planning/when-importing-to-th.md
             - name: Hange
               items:
+                - name: Üks või mitu arvestuse jaotust on kas üle- või alajaotatud.
+                  href: troubleshooting/procurement/accounting-over-under-distributed.md
+                - name: Ostutellimuse tegevuse saab lõpetada ainult täielikult jaotatud reanumbrite osas
+                  href: troubleshooting/procurement/action-requires-full-distribution.md
+                - name: Kinnitatud hankija kehtivuse kuupäeva ei saa muuta
+                  href: troubleshooting/procurement/approved-vendor-effective-date.md
+                - name: Tühistatud ostutellimused kuvatakse tööruumi mustandiloendis
+                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
+                - name: Kandeid saab sisestada peatatud pearaamatukontole
+                  href: troubleshooting/procurement/canceled-receipts-posted.md
+                - name: Tarnejäägi tühistamisel teisaldatakse ostutellimus kinnitatud olekusse
+                  href: troubleshooting/procurement/change-management-canceled-remainder.md
+                - name: Te ei saa mitut toote sissetulekut üheks ostutellimuseks konsolideerida
+                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
+                - name: Vaikemaksugrupp ja skonto pole arvekontol täidetud
+                  href: troubleshooting/procurement/default-tax-group-and-discount.md
+                - name: Tarne nime ei sünkroonita pärast ostutellimuse tarneaadressi muutmist
+                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
+                - name: Hankija arve sisestamisel ilmneb erand
+                  href: troubleshooting/procurement/invocation-target-exception.md
+                - name: Imporditud ostutellimuste reanumbrid on valed
+                  href: troubleshooting/procurement/line-number-increments.md
+                - name: Ostulepingu maksimaalne limiit ei kehti ostutaotluse suhtes
+                  href: troubleshooting/procurement/max-limit-on-requisition.md
+                - name: Ostutellimuse kinnitamisel ilmneb tõrge „Objektiviidet pole määratud”
+                  href: troubleshooting/procurement/object-reference-not-set.md
+                - name: Arvestuse jaotused on kas üle- või alajaotatud
+                  href: troubleshooting/procurement/over-under-distribution.md
+                - name: Välja Hinnaühik ei saa lisada lehele Ostutellimus
+                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
+                - name: Ostutellimustel ei kajastata juriidilise isiku keelesätteid
+                  href: troubleshooting/procurement/po-language.md
+                - name: Ostutellimuse sissetulek ei sisalda kõiki kulusid
+                  href: troubleshooting/procurement/po-receipt-missing-charges.md
+                - name: Ostutellimuste ühikuhindu ei arvutata ühikuteisenduse alusel
+                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
+                - name: Säte „Sisesta pearaamatu kulude kontole” pole sisse lülitatud
+                  href: troubleshooting/procurement/post-setting-turned-off.md
+                - name: Tõrge ostutellimuse taasedastamisel töövoogu pärast muudatust
+                  href: troubleshooting/procurement/resubmit-po-after-change.md
+                - name: Kaubanduslelepingu valuutateisenduse probleemid
+                  href: troubleshooting/procurement/trade-agreement-currencies.md
+                - name: Kaubanduslelepingu tingimusi ei rakendata imporditud tellimuseridadele
+                  href: troubleshooting/procurement/trade-agreement-not-applied.md
+                - name: Kaubandusleppeid saab luua tagasilükatud pakkumiskutsete põhjal
+                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
+                - name: Hankija tagasimakset ei kumuleerita arvete põhjal
+                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
+                - name: 'Toote sissetuleku kande number kasutatakse ära ka siis, kui kannet ei looda'
+                  href: troubleshooting/procurement/voucher-number-consumed.md
                 - name: Te ei saa arvet esitada kliendile suunatud müügitellimuse kohta
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Ostutaotlusele ei saa pärast muudatuse taotlemist rida lisada
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Tooteteabe haldus
               items:
+                - name: Väljastatud toodet ei saa kustutada
+                  href: troubleshooting/products/cant-delete-released-prod.md
+                - name: Toote konfiguratsioonimudelite arvutamisel ümardatakse täisarvud valesti
+                  href: troubleshooting/products/integers-incorrectly-rounded.md
+                - name: 'Kauba tekst kirjutatakse üle, kui toode konfigureeritakse müügitellimuse real'
+                  href: troubleshooting/products/text-overwritten-configured-item.md
                 - name: Te ei saa väljastatud toote loomiseks malli rakendada
                   href: troubleshooting/products/apply-template-in-re.md
                 - name: Te ei saa üksuse Väljastatud tooted V2 abil kaupa importida
@@ -3513,6 +3599,32 @@
                   href: troubleshooting/products/when-the-customer-ad.md
             - name: Tootmise juhtimine
               items:
+                - name: Omahinna tagasiarvestuse arvutamise tõrge lao sulgemisel
+                  href: troubleshooting/production/backflush-costing-calculation-error.md
+                - name: Tootmistellimust ei saa lõpetada koosluse consumptionCosti väärtuse vea tõttu
+                  href: troubleshooting/production/bom-consumption-cost-error.md
+                - name: Uue tootmistellimuse loomisel ei saa kooslust ja protsessi lisada
+                  href: troubleshooting/production/cant-insert-bom-route-number.md
+                - name: Eelmised pooleliolevad tööd lõpetatakse viimase töö osalise koguse teatamisel
+                  href: troubleshooting/production/in-progress-jobs-ended.md
+                - name: Tootmistellimuse vabastamisel ei saa kauba RM-i täielikult reserveerida
+                  href: troubleshooting/production/item-rm-not-reserved.md
+                - name: Lõpetatuna kinnitamise värskendus nurjub puuduva koguse tõrkega
+                  href: troubleshooting/production/missing-report-finished-quantity.md
+                - name: 'Tõrge, kui postitatakse Märgi lõpetatud tööleheks'
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Tõrge tootmistellimuse oleku muutmisel olekust Lõpetatuna kinnitatud olekusse Lõpp
+                  href: troubleshooting/production/production-order-status-error.md
+                - name: Tootmistellimusi ei kuvata lehel Märgistus
+                  href: troubleshooting/production/production-orders-marking-page.md
+                - name: Ressursi nime ei värskendata pärast töötaja nime muutmist aadressiraamatus
+                  href: troubleshooting/production/resource-name-not-updated.md
+                - name: Kaupade üldkoguse tõrge tootmistellimuse lõpetamisel
+                  href: troubleshooting/production/total-good-quantity-order-error.md
+                - name: Lõpetatud kaupade seerianumbreid ei saa jälitada tarbitud kaupade suhtes
+                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
+                - name: 'Tööd ei saa reserveerida ega vabastada, sest protsessid on praegu kasutusel'
+                  href: troubleshooting/production/warehouse-management-processes-used.md
                 - name: Koosluseridade automaatse tarbimise põhimõtte sätteid ei järgita
                   href: troubleshooting/production/flushing-principle-n.md
                 - name: Partiinumber eemaldatakse uue partii ID valimisel
@@ -3531,6 +3643,18 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Müük ja turundus
               items:
+                - name: Kontsernisiseses protsessis ei toetata kogumiüksust
+                  href: troubleshooting/sales/bundle-item-intercompany-process.md
+                - name: Müügitellimusega seotud kontsernisisest ostutellimust ei saa tühistada
+                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
+                - name: Tellimuse tühistamisel ei saa reserveeringuid eemaldada
+                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
+                - name: 'Kui on olemas kaks kattuvate kuupäevadega kaubandusleppet, valitakse alati sama'
+                  href: troubleshooting/sales/same-trade-agreement-selected.md
+                - name: Teenusüksuse müügikogust ei saa muuta müügipakkumise real
+                  href: troubleshooting/sales/service-item-sales-quantity.md
+                - name: 'Maksuteavet ei värskendata, kui müügitellimuse päises muudetakse asukohta'
+                  href: troubleshooting/sales/tax-information-not-updated.md
                 - name: Kogust ei saa vähendada müügitellimuse tühistamisel
                   href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: 'Süsteemiadministraatorid ei saa tellimuste ootelolekuid tühjendada, sest nad pole autoriseeritud'
@@ -3541,6 +3665,90 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Laohaldus
               items:
+                - name: Partiinumbri automaatse reserveerimise viip kuvatakse isegi saadaolevate varude puhul
+                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
+                - name: Komplekteerimistöö blokeeringut ei saa lõpetamata täiendustöö tõttu eemaldada
+                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
+                - name: Pärast müügitellimusest sisestamist ei saa saatelehte tühistada
+                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
+                - name: 'Litsentsiplaati ei saa teisaldada, kui seerianumbril on lubatud tühi väljastamine ja tühi sissetulek'
+                  href: troubleshooting/warehousing/cant-move-license-plate.md
+                - name: 'Kaupa ei saa liigutada asukohta, mis on identifitseerimisnumbri järgi kontrollitud'
+                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
+                - name: Rakenduse ühenduse seadistamisel ei leitud sertifikaadi tee usaldusankrut
+                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                - name: Kogumiprofiili ei leitud
+                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
+                - name: Tarneteate parandust ei saa töödelda
+                  href: troubleshooting/warehousing/delivery-note-correction.md
+                - name: Tõrge saadetise kinnitamisel pärast seeriakauba üleviimistellimuse loomist
+                  href: troubleshooting/warehousing/dimension-location-left-blank.md
+                - name: Otsetarne ei ole võimeline töötlema WMS-loaga ladu
+                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
+                - name: Laadimissildade halduse profiili kasutamisel segatakse laotüüpe
+                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
+                - name: Mitu SKU valikut ei hinda mitme asukoha direktiivi tegevust
+                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
+                - name: 'Komplekteerimistööd ei looda kohe, kui väljaminev koormus vabastatakse'
+                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
+                - name: Litsentsiplaadi ID skannimisel mobiilirakenduses ilmnes kehtetu litsentsiplaadi tõrge
+                  href: troubleshooting/warehousing/invalid-license-plate.md
+                - name: Laovarude omanik pole lubatud liikumiste töötlemisel laorakenduses
+                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
+                - name: Süsteem ei saa laovarude kogust ebapiisavate kannete tõttu värskendada
+                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
+                - name: Laovarude oleku muudatust ei saa valida veerus Töö tüüp
+                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
+                - name: Mobiilirakenduses skannimisel ilmnes kehtetu litsentsiplaadi või asukoha tõrge
+                  href: troubleshooting/warehousing/license-plate-location-invalid.md
+                - name: Litsentsiplaadi kogus sissetulevate tellimuste registreerimisel ei sobi
+                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
+                - name: Litsentsiplaadi spetsifikatsiooni tõrge üleviimistellimuse saadetise kinnitamisel
+                  href: troubleshooting/warehousing/license-plate-specified-location.md
+                - name: Üks rida on juba koormal
+                  href: troubleshooting/warehousing/line-already-on-load.md
+                - name: Koorma kaalu tõrge ja värskendamine tühistati töö töötlemisel asukohtade vahel
+                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
+                - name: 'Kasutatav kombineeritud identifitseerimisnumber ei tööta ühegi likvideerimise koodi, v.a krediidi puhul'
+                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
+                - name: Mobiilse seadme rakenduse emulaatorile juurdepääsemiseks saab kasutada ainult administraatorirolli
+                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
+                - name: Üldisest ladustamisest täpsemasse ladustamisse teisaldamisega seotud probleemid
+                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
+                - name: 'Kogumi jaoks ei leidu piisavalt tööd, kui kasutatakse süsteemi suunatud kogumi komplekteerimist'
+                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
+                - name: Tellimuse olek jääb osaliselt väljastatud olekusse isegi pärast müügitellimuse arveldamist
+                  href: troubleshooting/warehousing/order-status-partially-released.md
+                - name: Lao mobiilirakendust Warehouse Management ei saa kasutada osalise komplekteerimise tegemiseks
+                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
+                - name: Luba osalise kogusega töö laovarude oleku muutmine
+                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
+                - name: Tarneteate või pakkimissisu printimine lao või saidi alusel
+                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
+                - name: 'Kogus ei sobi, kui ühes asukohas on mitme LP-ga komplekteerimistöö'
+                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
+                - name: Kogus ei sobi mitme partii tükeldatud komplekteerimisel
+                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
+                - name: Osaliselt lähetatud koormat ei saa uuesti lattu väljastada
+                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
+                - name: 'Süsteem ei saa reserveeringuid teha, sest laos on saadaval 0,00'
+                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
+                - name: Varude sobimatute dimensioonide tõttu ei saa tagastusmüügitellimuse jaoks koormarida luua
+                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
+                - name: Müügitellimust ei saanud väljastada väljaminevate laotoimingutega
+                  href: troubleshooting/warehousing/sales-order-not-released.md
+                - name: 'Koorma saadetis on kinnitatud, kuid ühtegi rida ei sisestata'
+                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
+                - name: Ruumi leidmise mallid ei arvesta partiiüleste kaupade vaba kaubavaru
+                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
+                - name: Osalise koguse koormust ei saa väljastada partiiülese reserveerimishierarhiaga
+                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
+                - name: Kinnitamata ostutellimused kinnitatakse pärast toote sissetulekute värskendamise käitamist.
+                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
+                - name: Müügitellimuse real oleva laovaru reserveeringut ei saa tühistada
+                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
+                - name: Värskendamisel ja WMS-i migreerimisel ei leitud sertifikaadi tee usaldusankrut
+                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Saadetist ei saa kinnitada, kuna klient on ootel'
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 'Saadetist ei saa kinnitada, kuna koormaridadel on kogus null'

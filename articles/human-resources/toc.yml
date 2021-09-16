@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 23. august 2021
+          href: hr-whats-new-2021-08-23.md
         - name: 09. august 2021
           href: hr-whats-new-2021-08-09.md
         - name: 26. juuli 2021
@@ -543,6 +545,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Aadressiraamatute konfigureerimine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Asukoha omanike haldamine
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: Töövoo süsteem
               items:
                 - name: Töövoosüsteemi ülevaade
