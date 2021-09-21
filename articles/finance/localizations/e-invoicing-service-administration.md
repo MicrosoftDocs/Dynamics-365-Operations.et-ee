@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse administratsioonikomponendid
 description: Sellest teemast leiate teavet komponentide kohta, mis on seotud elektroonilise arvelduse administratsiooniga.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721722"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463877"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektroonilise arvelduse administratsioonikomponendid
 
@@ -31,14 +31,14 @@ Sellest teemast leiate teavet komponentide kohta, mis on seotud elektroonilise a
 
 ## <a name="azure"></a>Azure
 
-Kasutage teenust Microsoft Azure võtmehoidla ja salvestuskonto salasõnade loomiseks. Seejärel kasutage saladusi elektroonilise arvelduse lisandmooduli konfigureerimisel.
+Kasutage teenust Microsoft Azure võtmehoidla ja salvestuskonto salasõnade loomiseks. Seejärel kasutage elektroonilise arveldamise konfiguratsioonis võtmehoidla saladusi ja salvestuskonto SAS-i luba.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Kasutage Microsoft Dynamics Lifecycle Services (LCS) et võimaldada mikroteenused sinu LCS juurutamisprojektis.
+Kasutage Microsoft Dynamics Lifecycle Services (LCS), et lubada oma LCS-i juurutusprojekti jaoks elektroonilise arvelduse lisandmoodul.
 
 > [!NOTE]
-> Mikroteenuse LCS-i install nõuab vähemalt 2. taseme virtuaalmasinat. Lisateavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+> Lisandmooduli LCS-i install nõuab vähemalt **2. taseme keskkonda**. Lisateavet keskkondade kohta vaadake teemast [Keskkonna planeerimine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,16 +53,17 @@ Lisateavet RCS-i kohta vt teemast [Regulatory Configuration Services (RCS) – g
 
 Enne kui saate elektrooniliste arvete konfigureerimiseks RCS-i kasutada, peate konfigureerima RCS-i, et lubada andmevahetus elektroonilise arveldusega. See konfiguratsioon lõpetatakse lehe **Elektroonilise arvelduse parameetrid** vahekaardil lehel **Elektroonilise aruandluse lisandmoodul**.
 
-#### <a name="service-endpoint"></a>Teenuse lõpp-punkt
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Teenuse lõpp-punkt
 
 Elektrooniline arveldus on saadaval mitmetes Azure'i geograafilistes andmekeskustes. Järgmises tabelis on toodud saadavus piirkonniti.
 
-| Azure'i andmekeskuse geograafiline piirkond |
-|----------------------------|
-| Ameerika Ühendriigid              |
-| Euroopa                     |
-| Ühendkuningriik             |
-| Aasia                       |
+
+| Azure'i andmekeskuse geograafiline piirkond | Teenuse lõpp-punkti URI                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| Ameerika Ühendriigid              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Euroopa                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Ühendkuningriik             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Aasia                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Teenusekeskkonnad
 
@@ -84,8 +85,8 @@ Teenusekeskkondi saab hallata oleku kaudu. Saadaval on järgmised valikud.
 
 Elektroonilise arvelduse teenus vastutab kõigi teie äriandmete talletamise eest Azure'i ressurssides, mis kuuluvad teie ettevõttele. Kindlustamaks seda, et teenus korrektselt töötab ja et kõik äriandmed on nõutud ja loodud Elektroonilise arvelduse jaoks sobivalt saadaval,peate looma kaks peamist Azure-i ressurssi:
 
-- Azure'i salvestuskonto (bloobimälu) elektrooniliste arvete talletamiseks
-- Azure'i võtmehoidla salvestab sertide ja salvestuskonto ühtset ressursi-indikaatorit (URI)
+- Azure'i salvestuskonto (Bloobi talletus), mis talletada elektroonilisi dokumente, sh elektroonilisi arveid, dokumenditeisenduste tulemusi ja väliste veebiteenuste vastuseid.
+- Azure'i võtmehoidla salvestab sertide ja salvestuskonto ühtset ressursi-indikaatorit (URI) (SAS juurdepääs).
 
 
 Spetsiaalne võtmehoidla ja kliendi salvestuskonto peab olema spetsiaalselt elektroonilise arvelduse jaoks määratud. Lisateavet vt teemast [Azure'i salvestuskonto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -122,13 +123,13 @@ Teenuste Finance ja Supply Chain Management ning elektroonilise arvelduse lisand
 
 Teenuse lõpp-punkt on elektroonilise arvelduse asukoha URL. Enne kui saab väljastada elektroonilisi arveid, tuleb teenuse lõpp-punkt konfigureerida teenustes Finance ja Supply Chain Management nii, et see lubaks teenusega suhtlemist.
 
-Teenuse lõpp-punkti konfigureerimiseks minge **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameeter** ja seejärel sisestage vahekaardi **Edastusteenused** väljale **Elektroonilise arvelduse URL** URL, nagu on kirjeldatud jaotises **Teenuse lõpp-punkt** näidatud tabelis.
+Teenuse lõpp-punkti konfigureerimiseks avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid** ja seejärel sisestage vahekaardi **Elektrooniline arveldus** väljale sisestage sobiv URL tabelist **Lõpp-punkti URL** jaotises [Teenuse lõpp-punkt](#svc-endpoint-uris) nagu näidatud tabelis.
 
 #### <a name="environments"></a>Keskkonnad
 
 Keskkonna nimi, mis on sisestatud Finants ja Supply Chain Management -i viitab keskkonna nimele, mis on loodud RCS-is ja avaldatud Elektroonilises arvelduses.
 
-Keskkond tuleb konfigureerida lehe **Elektroonilise dokumendi parameetrid** vahekaardil **Edastusteenused**, nii et kõik elektrooniliste arvete väljastamistaotlused hõlmavad keskkonda, kus elektroonilise arvelduse lisandmoodul saab määrata, milline elektroonilise arvelduse funktsioon peab taotlust töötlema.
+Keskkond peab olema konfigureeritud **elektroonilis arve** vahekaardil **elektroonilise dokumendi parameetrite** lehel. Nii sisaldab iga elektrooniliste arvete väljastamise taotlus keskkonda, kus elektrooniline arveldamine saab määrata, milline elektroonilise arveldamise funktsioon peab taotluse töötlema.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

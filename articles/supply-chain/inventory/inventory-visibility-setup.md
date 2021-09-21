@@ -1,5 +1,5 @@
 ---
-title: Varude nähtavuse häälestamine
+title: Varude nähtavuse lisandmooduli installimine
 description: See teema kirjeldab varude nähtavuse lisandmooduli installimist rakenduse Microsoft Dynamics 365 Supply Chain Management jaoks.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343580"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474816"
 ---
-# <a name="set-up-inventory-visibility"></a>Varude nähtavuse häälestamine
+# <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installimine ja seadistamine
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Enne Varude nähtavuse installimist peate tegema järgmist.
     - `Inventory Visibility Integration.zip` (Kui Supply Chain Management versioon, mida käitate, on varasem kui versioon 10.0.18)
 
 > [!NOTE]
-> Praegu toetatavad riigid ja regioonid hõlmavad Kanadat (CCA, ECA), USA-d (WUS, EUS), Euroopa Liitu (NEU, WEU), Suurbritanniat (SUK,WUK) ja Austraaliat (EAU, SEAU).
+> Praegu toetatavad riigid ja regioonid hõlmavad Kanadat (CCA, ECA), USA-d (WUS, EUS), Euroopa Liitu (NEU, WEU), Suurbritanniat (SUK, WUK), Austraaliat (EAU, SEAU), Jaapanit (EJP, WJP), ja Brasiiliat (SBR, SCUS).
 
 Kui teil on küsimusi nende eeltingimuste kohta, võtke ühendust varude nähtavuse tootemeeskonnaga.
 
@@ -119,6 +119,9 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 1. Nõustuge tingimustega, valides märkeruudu **Tingimused**.
 1. Valige **Installi**. Lisandmooduli olek kuvatakse kui **Installimine**. Kui installimine on lõpule viidud, värskendage lehte. Uueks olekuks peaks muutuma **Installitud**.
 
+> [!IMPORTANT]
+> Kui teil on rohkem kui üks LCS keskkond, looge igale Azure AD keskkonnale erinev rakendus. Kui kasutate sama rakenduse ID-d ja rentniku ID-d varude nähtavuse lisandmooduli installimiseks erinevates keskkondades, ilmneb loa probleem vanemates keskkondades. Kehtib ainult viimane installitud versioon.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Varude nähtavuse lisandmooduli desinstallimine
 
 Varude nähtavuse lisandmooduli eemaldamiseks valige LCS-i lehel **Desinstalli**. Desinstallimisprotsess eemaldab varude nähtavuse lisandmooduli, tühistab lisandmooduli registreeringu LCS-t ja kustutab kõik ajutised andmed, mis on salvestatud Varude nähtavuse lisandmooduli andmete vahemällu. Siiski ei kustutata esmaseid varude andmeid, mis on salvestatud teie Dataverse'i tellimusse.
@@ -133,7 +136,7 @@ Dataverse'i tellimusse salvestatud varude andmete desinstallimiseks avage [Power
 
 Pärast nende lahenduste kustutamist kustutatakse ka tabelites talletatud andmed.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Rakenduse Supply Chain Management häälestamine
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Saate häälestada Inventory Visibility rakenduses Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Juuruta varude nähtavuse integreerimispakett
 
@@ -153,8 +156,23 @@ Veenduge, et järgmised funktsioonid on sisse lülitatud teenuse Supply Chain Ma
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Inventory Visibility integratsiooni seadistamine
 
-1. Teenuses Supply Chain Management avage **[funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** tööruum ja lülitage sisse *varude nähtavuse integreerimise* funktsioon.
-1. Minge **Varude haldamine \> Seadistamine \> Varude nähtavuse intergratsiooni parameetrid** ja sisestage selle keskkonna URL, kus käitate Varude nähtavust. Lisateavet vt jaotisest [Teenuse lõpp-punkti leidmine](inventory-visibility-power-platform.md#get-service-endpoint).
+Kui olete lisandmooduli installinud, valmistage Supply Chain Management süsteem ette järgmiste sammude abil tööks.
+
+1. Rakenduses Supply Chain Management avage **[funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** tööruum ja lülitage sisse järgmised funktsioonid:
+    - *Inventory Visibility integratsioon* - Nõutud.
+    - *Inventory Visibility integreerimine reserveerimise vastaskontoga* – soovitatav, kuid valikuline. Nõuab versiooni 10.0.22 või uuemat. Lisateavet vt teemast [Varude nähtavuse reserveeringud](inventory-visibility-reservations.md).
+
+1. Avage **Varude haldus \> Seadistus \> Inventory Visibility integratsiooni parameetrid**.
+1. Avage vahekaart **Üldine** ja tehke järgmised sätted:
+    - **Inventory Visibility lõpp-punkt** – sisestage keskkonna URL, kus käitatakse varude nähtavust. Lisateavet vt jaotisest [Teenuse lõpp-punkti leidmine](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Kirjete maksimaalne arv ühes taotluses** - määrake kirjete maksimaalne arv, mida ühte taotlusse kaasata. Sisestage positiivne täisarv, mis on väiksem kui 1000 või sellega võrdne. Vaikeväärtus on 512. Soovitame säilitada vaikeväärtuse, kui te pole Microsoft`i toelt soovitust saanud või olete muidu kindel, et peate seda muutma.
+
+1. Kui valitav varude nähtavuse *integratsioon reserveerimise vastasfunktsiooniga* lubatud, avage vahekaart **Reserveerimise vastaskonto** ja tehke järgmised sätted:
+    - **Luba reserveerimise vastaskonto** – selle funktsiooni lubamiseks määrake väärtuseks *Jah*.
+    - **Reserveerimise vastaskonto** - Valige laokande olek, mis tasakaalustab varude nähtavuse tehtud reserveerimised. See säte määrab tellimuse töötlemise etapi, mis käivitab vastaskontod. Etappi jälgitakse tellimuse laokande oleku alusel. Valige üks järgmistest:
+        - *Tellimusel* – oleku *Kandel* korral saadab tellimus loomisel vastaskonto taotluse. Vastaskogus on loodud tellimuse kogus.
+        - *Reserv* – Oleku *Reservi tellimise kanne* korral saadab tellimus vastaskonto taotluse, kui see on reserveeritud, komplekteeritud, saatelehtedega sisestatud või arveldatud. Taotlus käivitatakse ainult üks kord esimese sammu korral, kui nimetatud protsess aset leiab. Vastaskogus on kogus, mille puhul laokande olek on vastaval tellimusereal muudetud olekuks *Tellitud* või *Tellimusel reserveeritud* (või hilisem olek).
+
 1. Minge **Varude halduse \> Perioodiline \> Varude nähtavuse integratsioon** ja lubage töö. Kõik varude muutmise sündmused teenusest Supply Chain Management sisestatakse nüüd Varude nähtavusse.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

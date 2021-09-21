@@ -2,7 +2,7 @@
 title: Elektroonilise arveldusega alustamine
 description: Sellest teemast leiate teabe, mis aitab teil Elektroonilise arveldusega alustada Microsoft Dynamics 365 Finance -is ja Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732977"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463830"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Elektroonilise arveldusega alustamine
 
@@ -43,11 +43,11 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 2. Tööruumis **Globaliseerimisfunktsioonid** jaotises **Funktsioonid** valige paan **Elektrooniline arveldus** .
 3. Valige **Impordi** ja seejärel **Sünkrooni**.
 4. Filtreerige veerg **Konfiguratsioonipakkuja** terminiga **Microsoft**.
-5. Valige selle teema alguses olevast tabelist elektroonilise arvelduse funktsiooni nimi ja seejärel valige käsk **Impordi**.
+5. Valige tabelist elektroonilise arveldamise funktsiooni nimi ja seejärel valige käsk **Impordi**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Organisatsiooni pakkuja all elektroonilise arvelduse funktsiooni loomine
 
-1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus** .
+1. RCS-i jaotises **Funktsioonid** tööruumis **Globaliseerimisfunktsioonid** valige paan **Elektrooniline arveldus**.
 2. Valige **Lisa** > **Olemasoleva funktsiooni põhjal** ja sisestage väljale **Nimi** elektroonilise arvelduse funktsiooni nimi.
 3. Sisestage väljale **Kirjeldus** funktsiooni kirjeldus.
 4. Valige väljal **Põhifunktsioon** Microsofti konfiguratsioonipakkujalt imporditud elektroonilise arvelduse funktsioon.
@@ -113,7 +113,7 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
     | Hispaania elektrooniline arve (ES)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
     | PEPPOL-i elektrooniline arve            | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
 
-7. Iga tabeli nime jaoks, mille loote, valige ja sisestage kontekstiväärtus vastavalt järgnevale tabelile.
+6. Iga tabeli nime jaoks, mille loote, valige ja sisestage kontekstiväärtus vastavalt järgnevale tabelile.
 
     | Funktsiooni nimi                         | Äridokument | Kontekst |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
     | Hispaania elektrooniline arve (ES)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
     | PEPPOL-i elektrooniline arve            | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
 
-8. Iga tabeli nime ja konteksti jaoks valige ja sisestage äridokumendi kaardistav väärtus vastavalt järgmisele tabelile.
+7. Iga tabeli nime ja konteksti jaoks valige ja sisestage äridokumendi kaardistav väärtus vastavalt järgmisele tabelile.
 
     | Funktsiooni nimi                         | Äridokument | Äridokumendi kaardistus |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Elektroonilise arveldamise funktsiooni juurutamine Ühendatud rakendusse
 
 1. Vahekaardil **Versioonid** valige see elektroonilise arvelduse funktsiooni versioon, mida soovite juurutada.
-4. Valige **Juuruta**.
-5. Määrake suvandi **Juuruta ühendatud rakenduses** väärtuseks **Jah**.
-6. Väljal **Ühendatud rakendus** valige ühendus, mis on seotud teie finants või Supply Chain Management eksemplariga.
-7. Määrake **Juuruta teenusekeskkonnas** väärtuseks **Ei**.
-10. Valige nupp **OK**.
+2. Valige **Juuruta**.
+3. Määrake suvandi **Juuruta ühendatud rakenduses** väärtuseks **Jah**.
+4. Väljal **Ühendatud rakendus** valige ühendus, mis on seotud teie finants või Supply Chain Management eksemplariga.
+5. Määrake **Juuruta teenusekeskkonnas** väärtuseks **Ei**.
+6. Valige nupp **OK**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Teenuses Finance või Supply Chain Management elektroonilise arvelduse funktsiooni sisselülitamine
 

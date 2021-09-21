@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778672"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474840"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Koondplaneerimine koos nõudluse prognoosidega
 
@@ -137,32 +137,85 @@ Kui käivitate sellisel juhul eelplaneerimise 1. jaanuaril, tarbitakse nõudluse
 
 #### <a name="transactions--reduction-key"></a>Kanded – planeerimise koefitsient
 
-Kui valite suvandi **Kanded – planeerimise koefitsient**, siis vähendatakse eelarvevajadusi planeerimise koefitsiendiga määratud perioodide jooksul toimuvate kannete kohaselt.
+Kui seate välja **Eelarvenõuded vähendamiseks kasutatava meetodi** väärtuseks *Kanded – vähendamise klahv* vähendatakse eelarve vajadusi kvalifitseeritud nõudluse kannete võrra, mis toimuvad vähendamisvõtmega määratletud perioodidel.
+
+Kvalifitseeritud nõudluse määratleb **Vähenda lprognoosi** väli **Katvusgrupid** leht. Kui seate **Vähenda prognoosi** välja seadeks *Tellimused*, ainult müügitellimuse kanded kvalifitseeritud nõudluseks. Kui seadistate selle *Kõigile kannetele*, peetakse kõiki mitte kontsernisiseseid väljamineku laokandeid kvalifitseeritud nõudluseks. Kui prognoosi vähendamisel tuleks kaasata kontsernisisesed tellimused, seadke suvandi **Kaasa kontsernisisesed tellimused väärtuseks** väärtuseks *Jah*.
+
+Prognoosi vähendamine algab nõudluse esimese (varaseima) prognoosi kirjega vähendamisest võtme perioodil. Kui kvalifitseeritud laokannete kogus on suurem kui nõudluse prognoosi ridade kogus samas vähendamise võtme perioodis, kasutatakse laokannete koguse saldot nõudluse prognoosi koguse vähendamiseks eelmises perioodis (kui on kinnitamata prognoos).
+
+Kui eelmisesse vähendusvõtme perioodi ei ole jäänud ühtegi kinnitamata eelarvet, kasutatakse laokannete koguse saldot eelarve koguse vähendamiseks järgmisel kuul (kui prognoosi pole kokkuleppinud).
+
+**Protsendi** välja väärtus kui **eelarvenõuete vähendamiseks kasutatava meetodi** väli on seatud väärtusele *Kanded – vähendamisvõti*. Vähendusvõtme perioodi määratlemiseks kasutatakse ainult kuupäevi.
+
+> [!NOTE]
+> Kõiki tänasele kuupäevale või enne seda sisestatud eelarvet ignoreeritakse ja seda ei kasutata plaanitud tellimuste loomiseks. Näiteks kui teie kuu nõudluse prognoos on loodud 1. jaanuaril ja te käivitate koondplaanimise, mis hõlmab nõudluse prognoosi 2. jaanuaril, ignoreerib kalkulatsioon nõudluse prognoosi rida, mille kuupäev on 1. jaanuar.
 
 ##### <a name="example-transactions--reduction-key"></a>Näide: valik Kanded – planeerimise koefitsient
 
 See näide selgitab, kuidas vähendavad planeerimise koefitsiendiga määratletud perioodide ajal tehtavad tegelikud tellimused nõudluse prognoosi nõudeid.
 
-Selle näite jaoks valige lehe **Koondplaanid** väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Kanded – planeerimise koefitsient**.
+[![Tegelikud tellimused ja prognoosid enne koondplaneerimise käivitamist.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-1. jaanuaril on olemas järgmised müügitellimused.
+Selle näite jaoks valige lehe *Koondplaanid* väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Kanded – planeerimise koefitsient**.
 
-| Kuu    | Tellitud tükkide arv |
-|----------|--------------------------|
-| Jaanuar  | 956                      |
-| Veebruar | 1,176                    |
-| Märts    | 451                      |
-| Aprill    | 119                      |
+1. aprillil on olemas järgmised nõudluse prognoosi read.
 
-Kui kasutate sama nõudluse prognoosi (1000 tk kuus), mida kasutati eelmises näites, kantakse koondplaani üle järgmised vajaduse kogused.
+| Kuupäev     | Prognoositud tükkide arv |
+|----------|-----------------------------|
+| 5. aprill  | 100                         |
+| 12. aprill | 100                         |
+| 19. aprill | 100                         |
+| 26. aprill | 100                         |
+| 3. mai    | 100                         |
+| 10. mai   | 100                         |
+| 17. mai   | 100                         |
 
-| Kuu                | Vajalik tükkide arv |
-|----------------------|---------------------------|
-| Jaanuar              | 44                        |
-| veebruar             | 0                         |
-| märts                | 549                       |
-| aprill                | 881                       |
-| Mai kuni detsember | 1000                     |
+Järgmised müügitellimuse read on aprillis olemas.
+
+| Kuupäev     | Taotletud tükkide arv |
+|----------|----------------------------|
+| 27. aprill | 240                        |
+
+[![Aprilli tellimuste põhjal loodud plaanitud tarne.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Koondplaanimise käivitamisel 1. aprillil kantakse koondplaani üle järgmised vajaduse kogused. Nagu näete, vähendati aprilli eelarvekandeid järjest 240 nõudluse koguse võrra, alustades esimesest nimetatud kandest.
+
+| Kuupäev     | Vajalik tükkide arv |
+|----------|---------------------------|
+| 5. aprill  | 0                         |
+| 12. aprill | 0                         |
+| 19. aprill | 60                        |
+| 26. aprill | 100                       |
+| 27. aprill | 240                       |
+| 3. mai    | 100                       |
+| 10. mai   | 100                       |
+| 17. mai   | 100                       |
+
+Oletame nüüd, et maiks imporditi uued tellimused.
+
+Järgmised müügitellimuse read on mais olemas.
+
+| Kuupäev   | Taotletud tükkide arv |
+|--------|----------------------------|
+| 4. mai  | 80                         |
+| 11. mai | 130                        |
+
+[![Aprilli ja mai tellimuste põhjal loodud plaanitud tarne.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Koondplaanimise käivitamisel 1. aprillil kantakse koondplaani üle järgmised vajaduse kogused. Nagu näete, vähendati aprilli eelarvekandeid järjest 240 nõudluse koguse võrra, alustades esimesest nimetatud kandest. Siiski, mai prognoosikandeid vähendati aga kokku 210 võrra, alustades esimesest mai nõudluse prognoosi kandest. Kuid, perioodi kogusummad säilitatakse (400 aprillis ja 300 mais).
+
+| Kuupäev     | Vajalik tükkide arv |
+|----------|---------------------------|
+| 5. aprill  | 0                         |
+| 12. aprill | 0                         |
+| 19. aprill | 60                        |
+| 26. aprill | 100                       |
+| 27. aprill | 240                       |
+| 3. mai    | 0                         |
+| 4. mai    | 80                        |
+| 10. mai   | 0                         |
+| 11. mai   | 130                       |
+| 17. mai   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Kanded – dünaamiline periood
 

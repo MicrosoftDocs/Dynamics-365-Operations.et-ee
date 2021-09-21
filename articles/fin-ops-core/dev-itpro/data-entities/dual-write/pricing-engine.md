@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416176"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481311"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Nõudmisel sünkroonimine Supply Chain Managementi hinnakujunduse mootoriga
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management sisaldab hinnakujunduse mootorit,
     + Kogumaks
     + Kogusumma
     
-5. Et tagada, et süsteem võtab hinna arvutamisel arvesse kaubandusleppeid ja müügilepinguid, tehke järgmist.
+5. Tagamaks, et süsteem võtab hinna arvutamisel arvesse kaubandusleppeid ja müügilepinguid, tehke järgmist:
     1. Liikuge teenuses Supply Chain Management oma keskkonna juurde.
     2. Navigeerige jaotisse **Müügireskontro \> Seadistus \> Müügireskontro parameetrid**.
     3. Valige külgmisel navigeerimisribal vahekaart **Hinnad**.
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management sisaldab hinnakujunduse mootorit,
 
 Kui teete Salesis valiku **Hinnajärjestus**, kutsutakse seostatud müügitellimuse jaoks Supply Chain Managementi vahekaardil **Müügitellimus \> Kuva** funktsioon **Kogusummad**. Tellimuse kogusumma väärtusi kasutatakse Salesis vastavate Supply Chain Managementi veergude täitmiseks.
 
-Kui Supply Chain Managementis avutatakse müügitellimuse kogusumma, hindab arvutus kliendi ja müügitellimuse jaoks loetletud toodete kehtivaid kaubandusleppeid ja müügilepinguid. Seda teavet kasutatakse kogusummade arvutamiseks. Kui valitud on **Hinnajärjestus**, kajastab Sales automaatselt kõiki Supply Chain Managementis tehtud seadistusi.
+Kui rakenduses Supply Chain Management avutatakse müügitellimuse kogusumma, hindab arvutus kliendi ja müügitellimuse jaoks loetletud toodete kehtivaid kaubandusleppeid ja müügilepinguid. Seda teavet kasutatakse kogusummade arvutamiseks. Kui valitud on **Hinnajärjestus**, kajastab Sales automaatselt kõiki Supply Chain Managementis tehtud seadistusi.
 
 ## <a name="limitations"></a>Kitsendused
 

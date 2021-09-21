@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423340"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431388"
 ---
 # <a name="plan-type-overview"></a>Plaanitüübi ülevaade
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423340"
 
 Plaani tüüp on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Igal plaani tüübil on plaani tüübi kood, mis määrab plaani tüübi reeglid. Näiteks plaani tüüp **Tavaline elu** olemaks plaani tüübi koodi **Elu**, kuna see sarnaneb elukindlustuse plaanile ja peab vastama plaani tüübi koodis **Elu** määratud reeglitele. Teine plaanitüüp võib olla **Täiendav eluiga**. Sellel plaanitüübil on ka **Elu** plaani tüübi kood.
 
-Iga plaani tüüp näitab, kas töövõtja saab registreeruda ühe seda tüüpi plaaniga või mitmega. Näiteks võib töötaja tõenäoliselt registreeruda plaani tüübi Elu nii Tavaline elu kui ka Täiendav elu poliisile. Töövõtjal lubatakse tõenäoliselt registreeruda ainult ühe tüübi Meditsiiniline poliisile.
+Iga plaani tüüp näitab, kas töövõtja saab registreeruda ühe seda tüüpi plaaniga või mitmega. Näiteks võib töötaja tõenäoliselt registreeruda plaani tüübi nii **Tavaline elu** kui ka **Täiendav elu** poliisile. Töövõtjal lubatakse tõenäoliselt registreeruda ainult ühe tüübi Meditsiiniline poliisile.
 
-Kui plaani tüüp hõlmab kontakte, siis näitab plaani tüüp, kas kontaktid on kasusaajad või sõltuvad. Näiteks oleksid plaani tüübil Tavaline elu kasusaajad, samas kui plaani tüübil Tavaline meditsiiniline oleksid sõltuvad. Mõnel juhul ei tohi plaanis isiklikke kontakte olla. Näiteks Paindlik kasutuskonto või Parkimishüvitis.
+Kui plaani tüüp hõlmab kontakte, siis näitab plaani tüüp, kas kontaktid on kasusaajad või sõltuvad. Näiteks oleksid plaani tüübil **Tavaline elu** kasusaajad, samas kui plaani tüübil Tavaline meditsiiniline oleksid sõltuvad. Mõnel juhul ei tohi plaanis isiklikke kontakte olla. Näiteks Paindlik kasutuskonto või Parkimishüvitis.
 
-Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletakse lehel **Katvuse valik**. Katvuse valik saab määrata soodustuse summa või kontaktid, kes vastavad plaani tüübile. Näiteks kui kontakti tüüp on Kasusaaja, peaks katvuse valik määratlema tingimused, mida kasusaaja saab soodustuse kasutamisel saada. Kui kontakti tüüp on Sõltuv, peaks katvuse valik määratlema sõltuva ja töövõtja vahelise seose. 
+
+Plaani tüüp võib määratleda katvuse valikud. Katvuse valikud määratletakse lehel **Katvuse atribuudid**. Katvuse valik saab määrata soodustuse summa või kontaktid, kes vastavad plaani tüübile. Näiteks kui kontakti tüüp on **Kasusaaja**, peaks katvuse valik määratlema tingimused, mida kasusaaja saab soodustuse kasutamisel saada. Kui kontakti tüüp on **Sõltuv**, peaks katvuse valik määratlema sõltuva ja töövõtja vahelise seose. 
 
 > [!IMPORTANT]
-> Lehekülg sisaldab põhiandmeid, mis mõjutavad uue hüvitiste plaani loomisel saadaolevaid valikuid:
+> Lehekülg **Plaani tüüp** sisaldab põhiandmeid, mis mõjutavad uue hüvitiste plaani loomisel saadaolevaid valikuid:
 >
 > - **Plaani tüübi kood** – see väli mõjutab **konfiguratsiooni** vahekaardil kuvatavat teavet tegeliku hüvitise häälestamisel.  
 > - **Samaaegne registreerimine** – see väli määratleb, kas mitu registreerimist on lubatud. (Arstliku plaani puhul on selle välja väärtuseks tavaliselt seatud **Üks registreerimine**.)

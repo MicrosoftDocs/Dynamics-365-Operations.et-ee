@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344284"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474984"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Varude nähtavuse lisandmooduli ülevaade
 
@@ -31,22 +31,20 @@ Microsoft Dataverse'ile loodud mikroteenusena pakub Varude nähtavus laiendatavu
 
 Varude nähtavuse saate integreerida mitme kolmanda osapoole süsteemiga, seadistades standardiseeritud varude dimensioonide konfiguratsiooni valikud ja seadistades kandetüübid. Varude nähtavus toetab ka kohandatud laiendatavust konfigureeritavate arvutatud koguste kaudu.
 
-## <a name="supported-features"></a>Toetatud funktsioonid
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Inventory Visibility integratsioon rakendusega Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Inventory Visibility integratsioon rakendusega Dynamics 365 Supply Chain Management
+Integreeritud lahendus tõmbab varude andmeid rakendusest Dynamics 365 Supply Chain Management ja jälgib pidevalt varude muutusi. Lisateabe saamiseks vt [Inventory Visibility installimine ja seadistamine](inventory-visibility-setup.md) ning [Inventory Visibility konfigureerimine](inventory-visibility-configuration.md).
 
-Integreeritud lahendus tõmbab varude andmeid rakendusest Dynamics 365 Supply Chain Management ja jälgib pidevalt varude muutusi. Lisateavet vt teemast [Varude nähtavuse seadistamine](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Varude globaalse ülevaate saamine
 
-### <a name="get-a-global-view-of-inventory"></a>Varude globaalse ülevaate saamine
-
-Integreeritud lahendus võimaldab teil määratleda oma andmeallikad ja tsentraliseerida varude andmed. Lisateavet vt teemast [Varude nähtavuse konfigureerimine](inventory-visibility-configuration.md).
+Integreeritud lahendus võimaldab teil määratleda oma andmeallikad ja tsentraliseerida varude andmed. Lisateavet vt teemast [Inventory Visibility konfigureerimine](inventory-visibility-configuration.md).
 
 Varude vaatamisele on kaks lähenemist.
 
 - Päringu esitamine suure jõudlusega API kaudu. See API võib tagastada peaaegu reaalajas laoandmed otse vahemällu talletatud eksemplarist. Lepinguid ja näidiseid leiate varude jaotisest [Varude nähtavuse avalikud APId](inventory-visibility-api.md).
 - Vaba kaubavaru loendi vaatamine. See loend sünkroonitakse perioodiliselt vahemällu talletatud eksemplarist ja see on nähtav Dataverse'is. Lisateavet vt teemast [Varude nähtavuse rakendus](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Esialgsed reserveeringud
+## <a name="soft-reservations"></a>Esialgsed reserveeringud
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

@@ -2,7 +2,7 @@
 title: Palgaarvestuse põhipalgaplaan
 description: See teema annab üksikasjad ja näidispäringu põhipalgaplaani olemi kohta rakenduses Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429218"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Palgaarvestuse põhipalgaplaan
 
@@ -34,18 +34,27 @@ Füüsiline nimi: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Atribuudid
 
-| Atribuut<br>**Füüsiline nimi**<br>**_Tüüp_** | Kasuta | Kirjeldus |
+| Atribuut</br>**Füüsiline nimi**</br>**_Tüüp_** | Kasuta | Kirjeldus |
 | --- | --- | --- |
-| **Töötaja ID**<br>mshr_fk_employee_id_value<br>*GUID* | Kirjutuskaitstud<br>Nõutav<br>Foreign key:mshr_Employee_id of mshr_payrollemployeeentity entity  | Töötaja ID |
-| **Tasumäär**<br>mshr_payrate<br>*Kümnendkoht* | Kirjutuskaitstud<br>Nõutav | Põhipalgaplaanis määratletud tasumäär. |
-| **Plaani ID**<br>mshr_planid<br>*String* | Kirjutuskaitstud<br>Nõutav |Määrab palgaplaani.  |
-| **Kehtiv alates**<br>mshr_validfrom<br>*Kuupäeva ja kellaaja nihe* |  Kirjutuskaitstud<br>Nõutav |Töötajaga seotud põhipalga kehtivuse algkuupäev.  |
-| **Palgaarvestuse põhipalgaplaani olem**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Nõutav<br>Süsteemi loodud | Süsteemi loodud GUID-väärtus palgaplaani kordumatuks tuvastamiseks. |
-| **Tasusagedus**<br>mshr_payfrequency<br>*String* | Kirjutuskaitstud<br>Nõutav |Töötajale makstava tasu maksmise sagedus.  |
-| **Kehtiv kuni**<br>mshr_validto<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud <br>Nõutav | Töötajaga seotud põhipalga kehtivuse lõpukuupäev. |
-| **Ametikoha ID**<br>mshr_positionid<br>*String* | Kirjutuskaitstud <br>Nõutav | Töötajaga seotud ametikoha ID ja fikseeritud hüvitisteplaani registreerimine. |
-| **Currency**<br>mshr_currency<br>*String* | Kirjutuskaitstud <br>Nõutav |Põhipalgaplaani jaoks määratletud valuuta   |
-| **Personalinumber**<br>mshr_personnelnumber<br>*String* | Kirjutuskaitstud<br>Nõutav |Töötaja kordumatu personalinumber.  |
+| **Plaani ID**</br>mshr_planid</br>*String* | Kirjutuskaitstud | Määrab palgaplaani.  |
+| **Personalinumber**</br>mshr_personnelnumber</br>*String* | Kirjutuskaitstud | Töötaja kordumatu personalinumber. |
+| **Tasumäär**</br>mshr_payrate</br>*Kümnendkoht* | Kirjutuskaitstud | Põhipalgaplaanis määratletud tasumäär. |
+| **Ametikoha ID**</br>mshr_positionid</br>*String* | Kirjutuskaitstud | Töötajaga seotud ametikoha ID ja fikseeritud hüvitisteplaani registreerimine. |
+| **Kehtiv alates**</br>mshr_validfrom</br>*Kuupäeva ja kellaaja nihe* |  Kirjutuskaitstud | Töötajaga seotud põhipalga kehtivuse algkuupäev.  |
+| **Kehtiv kuni**</br>mshr_validto</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Töötajaga seotud põhipalga kehtivuse lõpukuupäev. |
+| **Tasusagedus**</br>mshr_payfrequency</br>*String* | Kirjutuskaitstud | Töötajale makstava tasu maksmise sagedus.  |
+| **Currency**</br>mshr_currency</br>*String* | Kirjutuskaitstud | Põhipalgaplaani jaoks määratletud valuuta. |
+| **Palgaarvestuse põhipalgaplaani olem**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Süsteemi loodud | Süsteemi loodud GUID-väärtus palgaplaani kordumatuks tuvastamiseks. |
+
+## <a name="relations"></a>Seosed
+
+|Atribuudi väärtus | Seotud üksus | Navigeerimise atribuut | Kogumi tüüp |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Eployee_id | mshr_FK_PayrollEmployeeEntity_FixeddCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_palgaarvestusehüvitiseplaanidüksus](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Näidispäring
 

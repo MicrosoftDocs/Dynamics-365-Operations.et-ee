@@ -2,7 +2,7 @@
 title: Nõudluse prognoosi seadistus
 description: Selles teemas kirjeldatakse seadistustoiminguid, mida tuleb nõudluse prognoosimiseks valmistumiseks teha.
 author: roxanadiaconu
-ms.date: 01/07/2020
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f282d26f4b2f607cf5f16cdf3dee4ad2c6b9c203973135f75db3f652fdd81c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fec20130a1621d4cb55394db75a7ac0a16fdf3
+ms.sourcegitcommit: 4fbf031319109660c0462a800f85848571eb040d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746204"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "7471331"
 ---
 # <a name="demand-forecasting-setup"></a>Nõudluse prognoosi seadistus
 
@@ -31,73 +31,84 @@ Selles teemas kirjeldatakse seadistustoiminguid, mida tuleb nõudluse prognoosim
 
 Seadistustoimingud hõlmavad järgmiste andmete ja parameetrite seadistamist.
 
-## <a name="item-allocation-key"></a>Kauba eraldamisvõti
-Nõudluse prognoosi arvutatakse kaubale ja selle dimensioonidele ainult siis, kui kaup on osa kauba eraldamisvõtmest. Seda reeglit jõustatakse suurele hulgale kaupadele, et nõudluse prognoosi loomine oleks kiirem. Nõudluse prognooside loomisel eiratakse kauba eraldamisvõtme protsenti. Prognoose luuakse ainult ajalooliste andmete põhjal. 
+## <a name="item-allocation-keys"></a>Kauba eraldamisvõtmed
 
-Kui prognoosi loomisel kasutatakse kauba eraldamisvõtit, peab kaup ja selle dimensioonid kuuluma ainult ühe kauba eraldamisvõtme juurde. 
+Nõudluse prognoosi arvutatakse kaubale ja selle dimensioonidele ainult siis, kui kaup on osa kauba eraldamisvõtmest. Seda reeglit jõustatakse suurele hulgale kaupadele, et nõudluse prognoosi loomine oleks kiirem. Nõudluse prognooside loomisel eiratakse kauba eraldamisvõtme protsenti. Prognoose luuakse ainult ajalooliste andmete põhjal.
 
-Kauba eraldamisvõtmele varude arvestusühiku (SKU) lisamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoos** &gt; **Kauba eraldamisvõtmed**. Kaubale kauba eraldamisvõtme määramiseks kasutage lehekülge **Kaupade määramine**.
+Kui prognoosi loomisel kasutatakse kauba eraldamisvõtit, peab kaup ja selle dimensioonid kuuluma ainult ühe kauba eraldamisvõtme juurde.
+
+Kauba eraldamisvõtmele varude arvestusühiku (SKU) lisamiseks minge jaotisse **Koondplaneerimine \> Seadistus \> Nõudluse prognoos \> Kauba eraldamisvõtmed**. Kaubale kauba eraldamisvõtme määramiseks kasutage lehekülge **Kaupade määramine**.
 
 ## <a name="intercompany-planning-groups"></a>Kontsernisisesed plaanimisgrupid
-Nõudluse prognoos loob ettevõteteülesed prognoosid. Dynamics 365 Supply Chain Managementis grupeeritakse koos plaanitud ettevõtted ühte kontsernisisesesse plaanimisgruppi. Ettevõtteti nõudluse prognoosimisel arvestatavate kauba eraldamisvõtmete määratlemiseks tuleks kauba eraldamisvõti seostada kontsernisisese plaanimisgrupi liikmega, minnes jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Kontsernisisesed plaanimisgrupid**. 
 
-Kui kontsernisisese plaanimisgrupi liikmetele ei ole määratud ühtki kauba eraldamisvõtit, arvutatakse nõudluse prognoos vaikimisi kõigile kaupadele, mis on määratud kõikidele kauba eraldamisvõtmetele kõigis ettevõtetes. Ettevõtte ja kauba eraldamisvõtmete täiendavad filtreerimissuvandid on saadaval leheküljel **Statistilise alusprognoosi loomine**. 
+Nõudluse prognoos loob ettevõteteülesed prognoosid. Dynamics 365 Supply Chain Managementis grupeeritakse koos plaanitud ettevõtted ühte kontsernisisesesse plaanimisgruppi. Ettevõtteti nõudluse prognoosimisel arvestatavate kauba eraldamisvõtmete määratlemiseks tuleks kauba eraldamisvõti seostada kontsernisisese plaanimisgrupi liikmega, minnes jaotisse **Koondplaneerimine \> Seadistus \> Kontsernisisesed plaanimisgrupid**.
+
+Kui kontsernisisese plaanimisgrupi liikmetele ei ole määratud ühtki kauba eraldamisvõtit, arvutatakse nõudluse prognoos vaikimisi kõigile kaupadele, mis on määratud kõikidele kauba eraldamisvõtmetele kõigis ettevõtetes. Ettevõtte ja kauba eraldamisvõtmete täiendavad filtreerimissuvandid on saadaval leheküljel **Statistilise alusprognoosi loomine**.
 
 Vaadake üle prognoositavate kaupade arv. Mittevajalike kaupadega võivad Microsoft Azure’i masinõppe kasutamisel suurenenud kulud kaasneda.
 
 ## <a name="demand-forecasting-parameters"></a>Nõudluse prognoosimise parameetrid
-Nõudluse prognoosimise parameetrite seadistamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoosimise parameetrid**. Seadistus on globaalne, kuna nõudluse prognoosimine toimub ettevõteteüleselt. Teisisõnu rakendatakse seadistust kõigis ettevõtetes. 
 
-Nõudluse prognoosimine loob koguselise prognoosi. Seetõttu peab väljal **Nõudluse prognoosi ühik** olema määratud mõõtühik, milles kogus peaks olema väljendatud. Kogumi ja protsentide jaotuse loogilisuse tagamiseks peaks mõõtühik olema kordumatu. Kogumi ja protsentide jaotuse kohta vt lisateavet artiklist [Alusprognoosi käsitsi korrigeerimine](manual-adjustments-baseline-forecast.md). Veenduge, et igal nõudluse prognoosimisse kaasatud SKU-na kasutataval mõõtühikul oleks mõõtühiku teisendusreegel ja üldise prognoosimise mõõtühik. Prognoosi loomise käitamisel logitakse kõik mõõtühikuta kaubad, nii et saate hõlpsalt seadistust korrigeerida. 
+Nõudluse prognoosimise parameetrite seadistamiseks minge jaotisse **Koondplaneerimine \> Seadistus \> \> Nõudluse prognoosimine \> Nõudluse planeermise parameetrid**. Seadistus on globaalne, kuna nõudluse prognoosimine toimub ettevõteteüleselt. See tähendab, et seadistust rakendatakse kõigis ettevõtetes.
 
-Nõudluse prognoosimist saab kasutada nii sõltuva kui ka sõltumatu nõudluse prognoosimiseks. Näiteks kui on valitud ainult ruut **Müügitellimus** ja kui kõik kaubad, mida arvestatakse nõudluse prognoosimisel, on müüdud, arvutab süsteem sõltumatu nõudluse. Kauba eraldamisvõtmetele ja nõudluse prognoosimisse saab siiski lisada olulisi alamkomponente. Kui ruut **Tootmisrida** on märgitud, arvutatakse sel juhul sõltuv prognoos. 
+Nõudluse prognoosimine loob koguselise prognoosi. Seetõttu peab väljal **Nõudluse prognoosi ühik** olema määratud mõõtühik, milles kogus peaks olema väljendatud. Kogumi ja protsentide jaotuse loogilisuse tagamiseks peaks mõõtühik olema kordumatu. Kogumi ja protsentide jaotuse kohta vt lisateavet artiklist [Alusprognoosi käsitsi korrigeerimine](manual-adjustments-baseline-forecast.md). Veenduge, et igal nõudluse prognoosimisse kaasatud SKU-na kasutataval mõõtühikul oleks mõõtühiku teisendusreegel ja üldise prognoosimise mõõtühik. Prognoosi loomise käitamisel logitakse kõik mõõtühikuta kaubad, nii et saate hõlpsalt seadistust korrigeerida.
 
-Alusprognoosi loomiseks on kaks võimalust. Saate prognoosimise mudeleid ajalooliste andmete peal kasutada või ajaloolised andmed prognoosi kopeerida. Nende kahe meetodi vahel saate valida väljal **Prognoosi koostamise strateegia**. Prognoosimudelite kasutamiseks valige **Azure'i masinõpe**. 
+Nõudluse prognoosimist saab kasutada nii sõltuva kui ka sõltumatu nõudluse prognoosimiseks. Näiteks kui on valitud ainult ruut **Müügitellimus** ja kui kõik kaubad, mida arvestatakse nõudluse prognoosimisel, on müüdud, arvutab süsteem sõltumatu nõudluse. Kauba eraldamisvõtmetele ja nõudluse prognoosimisse saab siiski lisada olulisi alamkomponente. Kui ruut **Tootmisrida** on märgitud, arvutatakse sel juhul sõltuv prognoos.
 
-Kui klõpsate valikut **Prognoosi dimensioonid** lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil, saate valida ka nõudluse prognoosi loomisel kasutatavad prognoosi dimensioonid. Prognoosi dimensioon näitab prognoosile määratletud üksikasjade taset. Ettevõte, koht ja kauba eraldamisvõti on prognoosi kohustuslikud dimensioonid, kuid saate kasutada ka ladu, varude olekut, kliendigruppi, kliendikontot, riiki/regiooni, maakonda ja kaupa ning kõiki kauba dimensiooni tasemeid. 
+Alusprognoosi loomiseks on kaks võimalust. Saate prognoosimise mudeleid ajalooliste andmete peal kasutada või ajaloolised andmed prognoosi kopeerida. Nende kahe meetodi vahel saate valida väljal **Prognoosi koostamise strateegia**. Prognoosimudelite kasutamiseks valige **Azure'i masinõpe**.
 
-Nõudluse prognoosimiseks kasutatavasse dimensioonide loendisse saate igal ajal prognoosi dimensioone juurde lisada. Samuti saate prognoosi dimensioone loendist eemaldada. Prognoosi dimensiooni lisamisel või eemaldamisel kaovad siiski käsitsi tehtud korrigeerimised. 
+Kui klõpsate valikut **Prognoosi dimensioonid** lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil, saate valida ka nõudluse prognoosi loomisel kasutatavad prognoosi dimensioonid. Prognoosi dimensioon näitab prognoosile määratletud üksikasjade taset. Ettevõte, koht ja kauba eraldamisvõti on prognoosi kohustuslikud dimensioonid, kuid saate kasutada ka ladu, varude olekut, kliendigruppi, kliendikontot, riiki/regiooni, maakonda ja kaupa ning kõiki kauba dimensiooni tasemeid.
 
-Kõik kaubad ei käitu nõudluse prognoosimise perspektiivist samal viisil. Sarnased kaubad saab koondada ühe kauba eraldamisvõtme alla ning seada kauba eraldamisvõtmeti parameetreid, nagu kande tüübid ja prognoosi meetodi seadistus. Klõpsake lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil valikut **Kauba eraldamisvõtmed**. 
+Nõudluse prognoosimiseks kasutatavasse dimensioonide loendisse saate igal ajal prognoosi dimensioone juurde lisada. Samuti saate prognoosi dimensioone loendist eemaldada. Prognoosi dimensiooni lisamisel või eemaldamisel kaovad siiski käsitsi tehtud korrigeerimised.
+
+Kõik kaubad ei käitu nõudluse prognoosimise perspektiivist samal viisil. Sarnased kaubad saab koondada ühe kauba eraldamisvõtme alla ning seada kauba eraldamisvõtmeti parameetreid, nagu kande tüübid ja prognoosi meetodi seadistus. Klõpsake lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil valikut **Kauba eraldamisvõtmed**.
 
 Prognoosi loomiseks kasutab Supply Chain Management masinõppe veebiteenust. Teenusega ühenduse loomiseks peate Microsoft Azure Machine Learning Studiosse sisselogimiseks esitama järgmise teabe (klassikaline):
 
--   veebiteenuse rakenduse programmeerimisliidese (API) võti;
--   veebiteenuse lõpp-punkti URL;
--   Azure'i salvestuskonto nimi;
--   Azure'i salvestuskonto võti.
+- veebiteenuse rakenduse programmeerimisliidese (API) võti;
+- veebiteenuse lõpp-punkti URL;
+- Azure'i salvestuskonto nimi;
+- Azure'i salvestuskonto võti.
 
 > [!NOTE]
-> Azure’i salvestuskonto nimi ja võti on vajalikud ainult siis, kui kasutate kohandatud salvestuskontot. Kui juurutate asutusesisest versiooni, peab teil olema Azure’is kohandatud salvestuskonto, et masinõpe pääseks ajaloolistele andmetele ligi. 
+> Azure’i salvestuskonto nimi ja võti on vajalikud ainult siis, kui kasutate kohandatud salvestuskontot. Kui juurutate asutusesisest versiooni, peab teil olema Azure’is kohandatud salvestuskonto, et masinõpe pääseks ajaloolistele andmetele ligi.
 
 Nõudluse prognooside loomiseks saate juurutada oma teenuse, kasutades masinõppe stuudio või Supply Chain Managementi nõudluse prognoosimise katseid. Nõudluse prognoosimise katsete veebiteenusena juurutamise juhised on saadaval Supply Chain Managementis. Klõpsake lehel **Nõudluse prognoosimise parameetrid** vahekaarti **Azure'i masinõpe**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Nõudluse prognoosi masinõppe teenuse sätted
-Nõudluse prognoosimise teenuse jaoks konfigureeritavate parameetrite vaatamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoos** &gt; **Prognoosi algoritmi parameetrid**. Lehel **Prognoosi algoritmi parameetrid** kuvatakse parameetrite vaikeväärtused. Saate need parameetrid üle kirjutada lehel **Nõudluse prognoosimise parameetrid**. Parameetrite globaalseks ülekirjutamiseks kasutage vahekaarti **Üldine**, kauba eraldamisvõtmeti ülekirjutamiseks kasutage vahekaarti **Kauba eraldamisvõtmed**. Kauba eraldamisvõtme parameetrite ülekirjutamine mõjutab ainult selle kauba eraldamisvõtmega seostatud kaupade prognoosi.
+
+Nõudluse prognoosimise teenuse jaoks konfigureeritavate parameetrite vaatamiseks minge jaotisse **Koondplaneerimine \> Seadistus \> Nõudluse prognoos \> Prognoosi algoritmi parameetrid**. Lehel **Prognoosi algoritmi vaikeparameetrid** kuvatakse parameetrite vaikeväärtused. Neid parameetreid saate üle kirjutada, kui kasutate **Koondplaneerimine \> Seadistus \> Nõudluse prognoosimine \> Nõudluse prognoosimise parameetrid** järgmist:
+
+- Kasutage vahekaarti **Üldine** parameetrite globaalseks ülekirjutamiseks.
+- Kasutage **Kauba eraldamisvõtmete** vahekaarti, et kauba eraldamisvõtme parameetrid üle kirjutada. Kauba eraldamisvõtme parameetrite ülekirjutamine mõjutab ainult selle kauba eraldamisvõtmega seostatud kaupade prognoosi.
 
 ### <a name="forecast-algorithm-parameters"></a>Prognoosi algoritmi parameetrid
 
-Vahekaardil **Eraldamise võtmed** saate igale kauba eraldamisvõtmele seada **Prognoosi algoritmi parameetrid**. Saadaval on järgmised suvandid.
-- **Usaldusväärsuse taseme protsent**: usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et tulev nõudlus jääb usaldusväärsusintervalli vahemikust välja.
-- **Sundhooajalisus**: määrab, kas sundida mudelit kasutama teatud hooajalisuse tüüpi. See rakendub ainult üksustele ARIMA ja ETS. Valikud: AUTOMAATNE (vaikimisi), PUUDUB, LISAND, KORRUTAV.
-- **Prognoosimise mudel**: valikud: ARIMA, ETS, STL, ETS + ARIMA, ETS + STL, KÕIK. Kõige sobivama mudeli valimiseks kasutage valikut **KÕIK**.
-- **Maksimaalne prognoositav väärtus**: määrab prognoosimiseks kasutatava maksimaalse väärtuse. Vorming: +1E [n] või arvuline konstant.
-- **Minimaalne prognoositav väärtus**: määrab prognoosimiseks kasutatava minimaalse väärtuse. Vorming: -1E [n] või arvuline konstant.
-- **Puuduva väärtuse asendamine**: määrab, kuidas varasemate andmete lüngad täidetakse. Valikud: arvuline väärtus, KESKMINE, EELMINE, JAGATUD LINEAARNE, JAGATUD POLÜNOOM.
-- **Puuduva väärtuse asendamise ulatus**: määrab, kas väärtuse asendus rakendub ainult iga üksiku granuleeritud atribuudi või tervele andmekomplektile. Valikud: GRANULAARSUSE_ATTRIBUUT (vaikimisi), GLOBAALNE.
-- **Hooajalisuse vihje**: hooajaliste andmete puhul saate prognoosi täpsuse parandamiseks lisada vihje prognoosimise mudelile. Vorming: täisarv, mis tähistab vahemike arvu, mille järel nõudluse muster kordub. Näiteks sisestage „6”, et näha andmeid, mis korduvad iga 6 kuu järel.
-- **Proovikogumi suuruse protsent**: ajalooliste andmete protsent, mida kasutatakse proovikogumina prognoosi täpsuse arvutamiseks. 
+**Kauba eraldamisvõtmete** vahekaardil **Nõudluse prognoosimise parameetrite** lehel saate kasutada **prognoosi algoritmi parameetrite** kiirkaarti prognoosi algoritmi parameetrite määramiseks kauba eraldamisvõtmele, mis on praegu vasakul ruudustikus valitud. Kasutage tööriistariba **Lisa** ja **Eemalda** nuppe parameetrite nõutava kogumi loomiseks. Valige iga loendi parameetri jaoks väljal **Nimi** üks järgmistest väärtustest ja sisestage seejärel väärtus väljale **Väärtus**:
+
+- **Usaldusväärsuse taseme protsent** - Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et tulev nõudlus jääb usaldusväärsusintervalli vahemikust välja.
+- **Sundhooajalisus** - Määrab, kas sundida mudelit kasutama teatud hooajalisuse tüüpi. See rakendub ainult üksustele ARIMA ja ETS. Valikud: AUTOMAATNE (vaikimisi), PUUDUB, LISAND, KORRUTAV.
+- **Prognoosimise mudel** - valikud: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, KÕIK. Kõige sobivama mudeli valimiseks kasutage valikut **KÕIK**.
+- **Maksimaalne prognoositav väärtus** - määrab prognoosimiseks kasutatava maksimaalse väärtuse. Vorming: +1E [n] või arvuline konstant.
+- **Minimaalne prognoositav väärtus** - Määrab prognoosimiseks kasutatava minimaalse väärtuse. Vorming: -1E [n] või arvuline konstant.
+- **Puuduva väärtuse asendamine** - Määrab, kuidas varasemate andmete lüngad täidetakse. Valikud: arvuline väärtus, KESKMINE, EELMINE, JAGATUD LINEAARNE, JAGATUD POLÜNOOM.
+- **Puuduva väärtuse asendamise ulatus** - Määrab, kas väärtuse asendus rakendub ainult iga üksiku granuleeritud atribuudi või tervele andmekomplektile. Järgmised valikud on saadaval, et luua kuupäevavahemik, mida süsteem kasutab ajalooliste andmete lünkade täitmisel:
+
+  - GLOBAALNE – Süsteem kasutab kõigi granulaarsuse atribuutide täielikku kuupäevavahemikku.
+  - HISTORY_DATE_RANGE– Süsteem kasutab kindlat kuupäevavahemikku **Alates** ja **Kuni** väljadel **Ajalooline vahemik** väljagrupil **Statistilise alusprognoosi loomine** dialoogiboksis.
+  - GRANULARITY_ATTRIBUTE – süsteem kasutab praegu töödeldud granulaarsuse atribuudi kuupäevavahemikku.
+
+  > [!NOTE]
+  > Granulaarsuse atribuut on prognoosi dimensioonide kombinatsioon, mille suhtes prognoos tehakse. Saate prognoosi dimensioonid määrata **Nõudluse prognoosimise parameetrid** lehel.
+
+- **Hooajalisuse vihje** - Hooajaliste andmete puhul saate prognoosi täpsuse parandamiseks lisada vihje prognoosimise mudelile. Vorming: täisarv, mis tähistab vahemike arvu, mille järel nõudluse muster kordub. Näiteks sisestage „6”, et näha andmeid, mis korduvad iga 6 kuu järel.
+- **Proovikogumi suuruse protsent** - Ajalooliste andmete protsent, mida kasutatakse proovikogumina prognoosi täpsuse arvutamiseks.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Nõudluse prognoosimise ülevaade](introduction-demand-forecasting.md)
-
-[Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
-
-[Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
-
-
-
+- [Nõudluse prognoosimise ülevaade](introduction-demand-forecasting.md)
+- [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
+- [Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

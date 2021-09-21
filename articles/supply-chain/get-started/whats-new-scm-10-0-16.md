@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712045"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474912"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.16. (veebruar 2021)
 
@@ -56,30 +56,6 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ol
 - [Ohtlike materjalide ülevaade](../pim/hazmat-overview.md) (ja seotud teemad)
 - [Planeerimise optimeerimise kasutuselevõtmine koondplaneerimise jaoks](../master-planning/new-master-planning-engine.md)
 - [Ostmisega seotud cXML-i täiustused](../procurement/purchasing-cxml-enhancements.md)
-- [Kuluhalduse tõrkeotsing](../cost-management/troubleshoot-costmanagement.md)
-- [Saabuvate kaupade laotoimingute tõrkeotsing](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Koorma koostamise ja saadetiste tõrkeotsing](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Koondplaneerimise tõrkeotsing](../master-planning/troubleshoot-masterplanning.md)
-- [Väljuvate kaupade laotoimingute tõrkeotsing](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Osaliste väljastuste ja osaliste saadetiste tõrkeotsing](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Tootekonfiguratsiooni tõrkeotsing](../pim/troubleshooting-productconfigurator.md)
-- [Tooteteabe tõrkeotsing](../pim/troubleshooting-productinformation.md)
-- [Hangete töövoogude tõrkeotsing](../procurement/troubleshoot-procurementworkflows.md)
-- [Ostutellimuste tõrkeotsing](../procurement/troubleshoot-purchaseorders.md)
-- [Hindade, allahindluste, lepingute ja tagasimaksete tõrkeotsing](../procurement/troubleshooting-pricediscountagreements.md)
-- [Toote sissetulekute ja arvelduse tõrkeotsing](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Diskreetse tootmise tõrkeotsing](../production-control/troubleshoot-discretemanufacturing.md)
-- [Komplekteerimise ja pakkimise tõrkeotsing](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Protsesstootmise tõrkeotsing](../production-control/troubleshoot-processmanufacturing.md)
-- [Reserveerimiste tõrkeotsing laohalduses](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Müügitellimuste tõrkeotsing](../sales-marketing/troubleshooting-sales.md)
-- [Müügipakkumiste tõrkeotsing](../sales-marketing/troubleshooting-salesquotation.md)
-- [Täpsema laohalduse kasutuselevõtmine ja sellesse migreerumine](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Laohalduse mobiilirakenduse ühendusprobleemide tõrkeotsing](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Lao konfiguratsiooni tõrkeotsing](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Laotäiendamise tõrkeotsing](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Laoseadistuse tõrkeotsing](../warehousing/troubleshoot-warehouse-setup.md)
-- [Laotöö tõrkeotsing](../warehousing/troubleshoot-warehouse-work.md)
 - [Kogumite ladustamine](../warehousing/putaway-clusters.md)
 - [Täiendamisstrateegiad](../warehousing/replenishment-strategies.md)
 - [Töö tükeldamine](../warehousing/work-split.md)

@@ -1,8 +1,8 @@
 ---
 title: Isiklike andmete muutmine
 description: Selles artiklis kirjeldatakse, kuidas redigeerida isikuandmeid töövõtja ja ülemuse iseteeninduses.
-author: andreabichsel
-ms.date: 03/19/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715891"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431458"
 ---
 # <a name="edit-personal-information"></a>Isiklike andmete muutmine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Saate Dynamics 365 Human Resourcesi isikuandmeid redigeerida jaotises **Töövõtja iseteeninduse tööruum**.
+Saate Dynamics 365 Human Resources`i isikuandmeid redigeerida jaotises **Töövõtja iseteeninduse** tööruum.
 
 Redigeeritavate isikuandmete hulka kuulub järgnev.
 
@@ -40,7 +40,7 @@ Redigeeritavate isikuandmete hulka kuulub järgnev.
 >[!NOTE]
 >On võimalik, et te ei saa redigeerida teatud tüüpi isiklikke andmeid, nt ärikontakti üksikasju. Lisateavet vt teemast [Isikuandmete redigeerimise piiramine](hr-employee-self-service-restrict-editing.md).
 
-Globaalses aadressiraamatus seatud parameetrid määratlevad rollid, mis näevad teie isikuandmeid.
+**Globaalses aadressiraamatu parameetrid** lehel seatud parameetrid määratlevad rollid, kes näevad teie isikuandmeid.
 
 1. Human Resourcesis valige **Töövõtja iseteenindus**.
 

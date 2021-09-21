@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393519"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441161"
 ---
 # <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
@@ -43,6 +43,11 @@ Enne uue tootmiskeskkonna ettevalmistamise alustamist peavad olema täidetud jä
 Enne oma esimese kausta või tootmiskeskkonna ressursi ressursiks saatmist võite soovida Human Resources funktsionaalsuse kinnitamiseks ette võtta [Human Resources proovikeskkonna](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. 
 
 Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud 60-päevase prooviajaga. Proovikeskkonna aegumisel keskkond ja kõik selle sisalduvad andmed kustutatakse ning neid ei saa taastada. Keskkonda ei saa teisendada kasti või tootmiskeskkonda. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
+
+Inimressursside proovikeskkonna loomisel luuakse rentnikule ka Power Apps proovikeskkond ning see seotakse Inimressursside keskkonnaga. Keskkonnal Power Apps nimega "TestDrive", on sama katseperiood kui inimressursside keskkonnas.
+
+> [!NOTE]
+> Inimressursside proovikeskkonna ettevalmistamine nurjub, kui autenditud kasutajal ei ole proovikeskkonna Power Apps loomise õigust. Kasutaja peab olema kaasatud kasutajagruppi, kes saab halduskeskuses luua Power Platform proovikeskkondasid. Lisateavet vt [Kontrollige kes saab luua ja hallata keskkonda Power Platform halduskeskuses](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Human Resourcesi keskkondade plaanimine
 
@@ -69,7 +74,7 @@ Selleks, et kasutada oma rakenduse Human Resources keskkondade haldamiseks LCS-i
 1. Logige [LCS-i](https://lcs.dynamics.com/Logon/Index) sisse, kasutades kontot, mida kasutasite rakenduse Human Resources tellimiseks.
 
    > [!NOTE]
-   > Eduka ressursimääramise tagamiseks peab konto, mida kasutate Inimressursside keskkonna kasutamiseks, olema määratud kas **süsteemiadministraatori** või **süsteemi kohandaja** rollile Power Apps keskkonnas, mis on seotud inimressursside keskkonnaga. Lisateavet kasutajatele turvarollide määramise kohta vaadake jaotisest [kasutajate turberollide konfigureerimise kohta](/power-platform/admin/database-security) Power Platform-s.
+   > Eduka ressursimääramise tagamiseks peab konto, mida kasutate Inimressursside keskkonna kasutamiseks, olema määratud kas **süsteemiadministraatori** või **süsteemi kohandaja** rollile Power Apps keskkonnas, mis on seotud inimressursside keskkonnaga. Power Platform kasutajatele turberollide määramise kohta lisateabe saamiseks vaadake [kasutajate turberollide konfigureerimise kohta](/power-platform/admin/database-security).
 
 2. Valige projekti loomiseks plussmärk (**+**).
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a367b95a65c45b1e7ac46e9ac96baa2417bf3e48e3d5bfeca21c82cc8c427c24
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5cb4c2b9b4a3c54e71f73369096d00b436079c1c
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714350"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475008"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Tehnilised atribuudid ja tehnilise atribuudi otsimine
 
@@ -26,15 +26,13 @@ ms.locfileid: "6714350"
 
 Kasutage tehnilisi atribuute kõigi mittestandardsete omaduste määramiseks, tagamaks, et kõiki toote koondandmeid saab süsteemis registreerida. Siis saate kasutada tehnilise atribuudi otsingut, et leida tooteid lihtsasti nende registreeritud omaduste alusel.
 
-## <a name="engineering-attributes"></a>Tehnilised atribuudid
+## <a name="create-engineering-attributes-and-attribute-types"></a>Tehniliste atribuutide ja tehnilise atribuudi tüüpide loomine
 
 Tavaliselt on tehnilistel toodetel palju omadusi ja atribuute, mida peate talletama. Ehkki saate registreerida atribuute standardseid tootevälju kasutades, saate vajadusel luua ka uusi tehnilisi atribuute. Saate määratleda omaenda *tehnilised atribuudid* ja muuta need osaks tootemääratlusest.
 
-### <a name="create-engineering-attributes-and-attribute-types"></a>Tehniliste atribuutide ja tehnilise atribuudi tüüpide loomine
-
 Iga tehniline atribuut peab kuuluma *atribuuditüüpi*. See nõue on olemas, kuna igal tehnilisel atribuudil peab olema *andmetüüp*, mis määrab, millist tüüpi väärtusi see talletada võib. Tehnilise atribuudi tüüp võib olla standardne tüüp (nt vaba tekst, täisarv või kümnendarv) või kohandatud tüüp (nt tekst, mis sisaldab kindlat väärtuste kogumit, mille hulgast valida). Saate määrate igat atribuuditüüpi ükskõik kui paljudele tehnilistele atribuutidele.
 
-#### <a name="set-up-engineering-attribute-types"></a>Tehnilise atribuudi tüüpide seadistamine
+### <a name="set-up-engineering-attribute-types"></a>Tehnilise atribuudi tüüpide seadistamine
 
 Tehnilise atribuudi tüübi vaatamiseks, loomiseks või redigeerimiseks toimige järgmiselt.
 
@@ -48,7 +46,7 @@ Tehnilise atribuudi tüübi vaatamiseks, loomiseks või redigeerimiseks toimige 
     - **Väärtuse vahemik** – see valik on saadaval ainult siis, kui seate välja **Tüüp** väärtuseks *Täisarv*, *Kümnendarv* või *Valuuta*. Seadke selle väärtuseks *Jah*, et luua miinimum- ja maksimumväärtus, mis on seda tüüpi atribuutide puhul lubatud. Saate kasutada kiirkaarti **Vahemik**, et määrata miinimum- ja maksimumväärtus ning (valuuta korral) valuuta, mis kehtib teie sisestatud piirangute puhul. Seadke selle suvandi väärtuseks *Ei*, et lubada ükskõik millist väärtust. 
     - **Mõõtühik** – see väli on saadaval ainult siis, kui seate välja **Tüüp** väärtuseks *Täisarv* või *Kümnendarv*. Valige mõõtühik, mis kehtib selle atribuuditüübi korral. Kui ühikut pole vaja, jätke see väli tühjaks.
 
-#### <a name="set-up-engineering-attributes"></a>Tehniliste atribuutide seadistamine
+### <a name="set-up-engineering-attributes"></a>Tehniliste atribuutide seadistamine
 
 Tehnilise atribuudi vaatamiseks, loomiseks või redigeerimiseks toimige järgmiselt.
 
@@ -70,17 +68,43 @@ Tehnilise atribuudi vaatamiseks, loomiseks või redigeerimiseks toimige järgmis
     - **Miinimum** – sisestage minimaalne soovitatav või aktsepteeritud väärtus.
     - **Maksimum** – sisestage maksimaalne soovitatav või aktsepteeritud väärtus.
 
-### <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Tehniliste atribuutide ühendamine tehnilise toote kategooriaga
+### <a name="engineering-attribute-inheritance"></a>Tehnika atribuudi pärilus
+
+Tootestruktuuride nagu materjali arvete (nt koosluste) või valemite puhul saab valitud atribuudid tütarüksustelt kuni emaüksusteni üle vaadata. Võite arvata sellest protsessist kui "pöörd pärilusest."
+
+#### <a name="turn-on-this-feature-for-your-system"></a>Selle funktsiooni sisselülitamine teie süsteemi jaoks
+
+Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage funktsioon *Plaanitud optimeerimine plaanitud tootetellimustele* sisse.
+
+#### <a name="attribute-inheritance-example"></a>Atribuutide päriluse häälestamine
+
+Toiduaine, näiteks porgandikoogi puhul peab süsteem registreerima iga toote allergeeni. Porgandikooki saab süsteemis arvutada kui inseneritoodet, millel on valem. See valem sisaldab porgandikoogi koostisosi nagu näiteks jahu, piima, porgandit ja pähklit. Selles näites on ettevõttes kaks mudelit porgandikoogi jaoks: üks, mis sisaldab laktoosi ja teine, mis mitte.
+
+Laktoosi sisaldaval koogil on koostisosade tasemel järgmised atribuudid:
+
+- Koostisosa "jahu": atribuut "gluteen" = jah
+- Koostisosa "piim": atribuut " laktoos" = jah
+- Koostisosa "pähklid": atribuut "pähklid" = jah
+
+Laktoosi mitte sisaldaval kook sisaldab laktoosivaba piima ja sel koostisosade tasemel järgmised atribuudid:
+
+- Koostisosa "jahu": atribuut "gluteen" = jah
+- Koostisosa "piim": atribuut " laktoos" = ei
+- Koostisosa "pähklid": atribuut "pähklid" = jah
+
+Kuna need tooted on enamasti sarnased, võib olla mugav läbida need atribuudid tütartoodetest (need kaks varianti) ematootele (baas porgandikook). "Tagasipööratud päriluse" juurutamiseks saate kasutada *atribuudi päriluse* funktsiooni. See funktsioon on määratud iga [tehnika versiooni](engineering-versions-product-category.md) jaoks.
+
+## <a name="connect-engineering-attributes-to-an-engineering-product-category"></a>Tehniliste atribuutide ühendamine tehnilise toote kategooriaga
 
 Mõned tehnilised atribuudid rakenduvad kõikidele toodetele, samas kui teised on omased üksikutele toodetele või tootekategooriatele. Näiteks ei ole mehaaniliste toodete puhul vaja elektrilisi atribuute. Seetõttu saate seadistada *tehnilise toote kategooriaid*. Tehnilise toote kategooria teeb kindlaks tehniliste atribuutide kogumi, mis peab kuuluma sellesse kategooriasse kuuluvate toodete määratluse hulka. Samuti saate määrata, millised tehnilised atribuudid on kohustuslikud ja kas on olemas vaikeväärtus.
 
 Lisateavet selle kohta, kuidas töötada tehnilise toote kategooriatega, sealhulgas teavet atribuutide ühendamise kohta kategooriatega, leiate teemast [Tehnilised versioonid ja tehnilise toote kategooriad](engineering-versions-product-category.md).
 
-### <a name="set-values-for-engineering-attributes"></a>Tehniliste atribuutide väärtuste seadistamine
+## <a name="set-attribute-values-for-engineering-attributes"></a>Tehniliste atribuutide väärtuste seadistamine
 
 Tehnilise toote kategooriaga seotud tehnilised atribuudid esitatakse, kui loote uue tehnilise toote, mis põhineb sellel kategoorial. Siis saate seada atribuutide väärtused. Hiljem saab neid väärtusi muuta lehel **Tehniline versioon** või tehnilise muudatuse tellimuses tehnilise muudatuse haldamise käigus. Lisateavet vt teemast [Tehniliste toodete muudatuste haldamine](engineering-change-management.md).
 
-### <a name="create-an-engineering-product"></a>Tehnilise toote loomine
+## <a name="create-an-engineering-product"></a>Tehnilise toote loomine
 
 Tehnilise toote loomiseks avage leht **Väljastatud tooted**. Siis valige toimingupaani vahekaardi **Toode** grupis **Uus** suvand **Tehniline toode**.
 

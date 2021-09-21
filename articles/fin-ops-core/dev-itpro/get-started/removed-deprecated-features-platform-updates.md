@@ -2,7 +2,7 @@
 title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774405"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463615"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -32,7 +32,29 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Funktsiooni amortiseerumise teatis, mis kehtib 2021. aasta maist
+## <a name="feature-deprecation-effective-august-2021"></a>Funktsioon aegub 2021. aasta augustist
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Lifecycle Services’i (LCS) SQL aruanded
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad. Te ei pea enam aruandeid jälgima, kuna see funktsioon on asendatud teiste teenustega. |
+| **Asendatud teise funktsiooniga?**   | Ei |
+| **Mõjutatud tootealad**         | SQL-i aruanded: praegune DTU, praeguse DTU üksikasjad, lukustamise üksikasjad, praeguse plaani juhendi loend, päringu ID-de loendi toomine, SQL-i päringuplaani toomine antud plaani ID jaoks, päringuplaanide ja käivitamise oleku toomine, konfiguratsiooni saamine, oota statistikat, kõige kallimate päringute loend |
+| **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
+| **Olek**                         | Aegunud: Planeeritud eemaldamise kuupäev oktoobris 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azure SQL-i tegevused LCS-is
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad.  |
+| **Asendatud teise funktsiooniga?**   | Ei |
+| **Mõjutatud tootealad**         | SQL-i tegevused: plaanijuhendi loomine, et sundida plaani ID-d, luua plaanijuhend tabeli vihjete lisamiseks, plaani juhendi eemaldamine, lehelukkude keelamine/lukustamine ja lukustamise eskalatsioon, tabeli statistika värskendamine, indeksi uuesti loomine, indeksi loomine |
+| **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
+| **Olek**                         | Aegunud: Planeeritud eemaldamise kuupäev oktoobris 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Funktsioon aegus 2021. aasta maist
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalisatsiooni portaal rakenduses Lifecycle Services (LCS)
 

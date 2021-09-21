@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345145"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475032"
 ---
 # <a name="inventory-visibility-reservations"></a>Varude nähtavuse reserveeringud
 
@@ -32,19 +32,20 @@ Soovi korral saate seadistada rakenduse Microsoft Dynamics 365 Supply Chain Mana
 
 Kui lülitate reserveerimisfunktsiooni sisse, on rakendus Supply Chain Management automaatselt valmis Varude nähtavust kasutades tehtud reserveeringute tasakaalustamiseks.
 
-> [!NOTE]
-> Nihke funktsionaalsus nõuab rakenduse Supply Chain Management versiooni 10.0.22 või uuemat. Kui soovite kasutada Varude nähtavuse reserveeringuid, on soovitatav oodata, kuni olete uuendanud rakenduse Supply Chain Management versioonile 10.0.22 või uuemale.
-
-## <a name="turn-on-the-reservation-feature"></a>Lülitage reserveerimisfunktsioon sisse
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Lülitage reserveerimisfunktsioon sisse
 
 Reserveerimisfunktsiooni sisselülitamiseks toimige järgmiselt.
 
-1. Avage Power Appsis **Varude nähtavus**.
+1. Logige sisse rakendusse Power Apps ja avage **Inventory Visibility**.
 1. Avage lehekülg **Konfiguratsioon**.
 1. Lülitage vahekaardil **Funktsioonihaldus** sisse funktsioon *OnHandReservation*.
 1. Logige sisse rakendusse Supply Chain Management.
-1. Avage **Varude haldus \> Seadistus \> Varude nähtavuse integratsiooni parameetrid**.
-1. Seadke jaotises **Reserveerimise vastaskonto** valiku **Luba reserveerimise vastaskonto** väärtuseks *Jah*.
+1. Minge **[funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** tööruumi ja lubage *varude nähtavuse integreerimine reserveerimise vastas* funktsiooniga (nõuab versiooni 10.0.22 või uuemat).
+1. Minge **Varude halduse \> Seadistus \> Inventory Visibility integreerimisparameetritele** avage **reserveerimise vastaskonto** vahekaart ja tehke järgmised sätted:
+    - **Luba reserveerimise vastaskonto** – selle funktsiooni lubamiseks määrake väärtuseks *Jah*.
+    - **Reserveerimise vastaskonto** - Valige laokande olek, mis tasakaalustab varude nähtavuse tehtud reserveerimised. See säte määrab tellimuse töötlemise etapi, mis käivitab vastaskontod. Etappi jälgitakse tellimuse laokande oleku alusel. Valige üks järgmistest:
+        - *Tellimusel* – oleku *Kandel* korral saadab tellimus loomisel vastaskonto taotluse. Vastaskogus on loodud tellimuse kogus.
+        - *Reserv* – Oleku *Reservi tellimise kanne* korral saadab tellimus vastaskonto taotluse, kui see on reserveeritud, komplekteeritud, saatelehtedega sisestatud või arveldatud. Taotlus käivitatakse ainult üks kord esimese sammu korral, kui nimetatud protsess aset leiab. Vastaskogus on kogus, mille puhul laokande olek on vastaval tellimusereal muudetud olekuks *Tellitud* või *Tellimusel reserveeritud* (või hilisem olek).
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Reserveerimise funktsiooni kasutamine Varude nähtavuses
 
@@ -56,13 +57,21 @@ Reserveerimishierarhia kirjeldab dimensioonide järjestust, mis tuleb reserveeri
 
 Reserveerimishierarhia võib indeksihierarhiast erineda. See sõltumatus võimaldab teil juurutada kategooriahaldust, kus kasutajad saavad dimensioonid täpsemate reserveeringute nõuete määramiseks osadeks lammutada.
 
-Esialge reserveerimishierarhia konfigureerimiseks Power Appsis avage leht **Konfiguratsioon** ja seejärel seadistage vahekaardil **Esialgse reserveerimise vastendamine** reserveerimishierarhia, lisades ja/või muutes dimensioone ja nende hierarhiatasemeid.
+Esialge reserveerimishierarhia konfigureerimiseks avage Power Apps`is leht **Konfiguratsioon** ja seejärel seadistage vahekaardil **Esialgse reserveerimise vastendamine** reserveerimishierarhia, lisades ja/või muutes dimensioone ja nende hierarhiatasemeid.
+
+Teie tarkvara reserveerimise hierarhia peaks sisaldama komponentidena `SiteId` ja `LocationId`, sest need konstrueerivad sektsiooni konfiguratsiooni.
+
+Lisateavet reserveeringute konfigureerimise kohta vt teemast [Reserveermise konfiguratsioon](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Reserveerimise API kutsumine
 
 Reserveerimised tehakse Varude nähtavuse teenuses, esitades teenuse URL-ile nagu nt `/api/environment/{environment-ID}/onhand/reserve` SISESTAMISE taotluse.
 
 Reserveerimiseks peab taotluse sisu sisaldama organisatsiooni ID-d, toote ID-d, reserveeritud koguseid ja dimensioone. Taotlus loob kordumatu reserveerimise ID igale reserveerimiskirjele. Reserveerimiskirje sisaldab toote ID ja dimensioonide kordumatut kombinatsiooni.
+
+Kui kutsute reserveerimise API, saate kontrollida reserveerimise kinnitamist, määrates `ifCheckAvailForReserv` kahendmuutuja parameetri taotluse kehas. Väärtus `True` tähendab, et kinnitamist nõutakse, samas kui väärtus `False` tähendab, et kinnitamist ei nõuta. Vaikeväärtus on `True`.
+
+Kui soovite tühistada reserveeringu või määratud laokogused reserveerimata, määrake koguseks negatiivne väärtus ja seadke `ifCheckAvailForReserv` parameetrile kinnitus `False` vahele jätmiseks.
 
 Siin on viiteks näide taotluse sisust.
 
@@ -108,18 +117,9 @@ Laokande olekute puhul, mis hõlmavad määratud reservi vastaskonto muutujat, t
 
 Nihke kogus järgib laokogust, mis on laokandel määratletud. Nihe ei jõustu, kui Varude nähtavuse teenusesse ei jää reserveeritud kogust alles.
 
-> [!NOTE]
-> Nihke funktsionaalsus on saadaval alates versioonist 10.0.22
+### <a name="set-up-the-reservation-offset-modifier"></a>Seadistage broneeringu nihke teisendaja
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Reservi vastaskonto muutja häälestamine
-
-Reservi vastaskonto muutja määrab tellimuse töötlemise etapi, mis käivitab nihked. Etappi jälgitakse tellimuse laokande oleku alusel. Reservi vastaskonto muutuja häälestamiseks toimige järgmiselt.
-
-1. Avage **Varude haldus \> Seadistus \> Varude nähtavuse integratsiooni parameetrid \> Reserveerimise vastaskonto**.
-1. Seadistage välja **Reservi vastaskonto muutuja** väärtuseks üks järgnevatest.
-
-    - *Tellimusel* – oleku *Kandel* korral saadab tellimus loomisel vastaskonto taotluse.
-    - *Reserv* – Oleku *Reservi tellimise kanne* korral saadab tellimus vastaskonto taotluse, kui see on reserveeritud, komplekteeritud, saatelehtedega sisestatud või arveldatud. Taotlus käivitatakse ainult üks kord esimese sammu korral, kui nimetatud protsess aset leiab.
+Kui te pole seda juba teinud, seadistage reserveerimise muutja vastavalt kirjeldusele jaotises [Lülita sisse ja seadistage reserveerimisfunktsioon](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Reserveerimise ID seadistamine
 

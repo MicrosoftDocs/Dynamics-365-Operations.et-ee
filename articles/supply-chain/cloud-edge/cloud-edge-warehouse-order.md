@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731885"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471688"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Laotellimused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731885"
 
 ## <a name="what-are-warehouse-orders"></a>Mis on laotellimused?
 
-*Laotellimused* on tellimuse tüüp, mis loodi keskuse ja skaalaüksuse lao juurutuste toetamiseks. Need võimaldavad teil lao töökoormuse skaalaühikus käitamisel võtta vastu varusid. Neid kasutatakse praegu ainult ostutellimustega.
+*Laotellimused* on tellimuse tüüp, mida kasutatakse jaoturite ja mõõtühikute lao juurutamise toetamiseks. Need võimaldavad teil lao töökoormuse skaalaühikus käitamisel võtta vastu varusid.
 
-Laotellimusi kasutatakse laohalduse töötlemise osana, näiteks kui mobiilirakendust Warehouse Management kasutatakse sissetuleva ostutellimuse töötlemisel füüsilise vaba kaubavaru registreerimiseks. Laotellimused luuakse osana *lattu vabastamise* protsessist, mis on saadaval ostutellimustele, mis määratlevad kaaluühiku lao ja kaubad, mis on lubatud laohaldusprotsesside kasutamiseks.
+Laotellimusi kasutatakse nii sissetulevate kui ka väljaminevate laohalduse töötlemistoimingute osana. Need luuakse osana *lattu vabastamise* protsessist, mis lähtestatakse keskusesse.
+Sissetulevaks töötlemiseks kasutatakse warehouse mobile app rakendust sissetulevate tellimuste töötlemisel füüsilise vaba kaubavaru registreerimiseks, see on saadaval ostu- ja tootmistellimustele, mis määravad kaaluühiku lao ja kaubad, mis on lubatud kasutada laohalduse protsesse.
+Väljaminevaid laotellimusi kasutatakse üleviimis- ja müügitellimuste saadetise laineprotsessi osana.
 
 > [!IMPORTANT]
 > Laotellimused on saadaval ainult juurutustes, mis kasutavad [laohaldustöökoormusi pilv- ja perimeeterskaalaüksuste](cloud-edge-workload-warehousing.md) jaoks.
 
-## <a name="create-a-warehouse-order"></a>Laotellimuse loomine
+## <a name="create-an-inbound-warehouse-order"></a>Looge sissetuleva lao tellimus
 
-Laotellimuse loomiseks tehke järgmist.
+Sissetuleva lao tellimuse loomiseks ostutellimuse protsessi jaoks järgige neid samme.
 
 1. Logige sisse keskuses töötavasse rakendusse Microsoft Dynamics 365 Supply Chain Management. (Peate käivitama protsessi *Vabasta lattu* ajal, kui olete keskusesse sisse logitud.)
 1. Avage **Hanked \> Ostutellimused \> Kõik ostutellimused**.

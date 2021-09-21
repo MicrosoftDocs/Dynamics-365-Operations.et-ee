@@ -2,7 +2,7 @@
 title: Tehniliste muudatuste halduse ülevaade
 description: See teema annab ülevaate tehniliste muudatuste haldusest, mis aitab teil planeerida ja hallata toote versioonimist ning hallata toote töötsüklit ja tehnilisi muudatusi.
 author: t-benebo
-ms.date: 11/11/2020
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f2d577d9e48ced9d4c516a66e4f53671417875cbfb51bd6bdc2cb0938d83c01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Release 10.0.21
+ms.openlocfilehash: b4fe2d62bc8084cf8c0d10b7bcb94f08cc618900
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714952"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467394"
 ---
 # <a name="engineering-change-management-overview"></a>Tehniliste muudatuste halduse ülevaade
 
@@ -43,9 +43,11 @@ Tehniliste muudatuste haldus aitab teil planeerida ja hallata toote versioonimis
 
 See video ([Muudatuste halduse funktsioonid Dynamics 365 Supply Chain Managementis](https://youtu.be/N313FqvRuBc)) on [ esitusloendis Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
 
-## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Lülitage oma süsteemi jaoks sisse tehnilise muudatuse halduse ja versiooni dimensiooni funktsioonid
+## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Lülitage oma süsteemis sisse tehniliste muudatuste haldamise funktsioonid
 
-Enne, kui saate kasutada tehnilise muudatuse haldust, peate lubama nii funktsiooni *Tehnilise muudatuse haldus* kui selle konfiguratsioonivõtme. Kui soovite ka jälgida kannetes toodete versiooni dimensiooni (valikuline), peate lisaks lubama funktsiooni *Tooteversiooni dimensioon* ja selle konfiguratsioonivõtme.
+Enne, kui saate kasutada tehnilise muudatuse haldust, peate lubama nii funktsiooni *Tehnilise muudatuse haldus* kui selle konfiguratsioonivõtme. Kui soovite ka jälgida kannetes toodete versiooni dimensiooni (valikuline), peate lisaks lubama funktsiooni *Tooteversiooni dimensioon* ja selle konfiguratsioonivõtme. Kui need eeltingimused on vastavalt vajadusele seadistatud, saate lülitada sisse täiendavad valikulised funktsioonid tehnika muudatusehalduse jaoks.
+
+### <a name="turn-on-the-basic-engineering-change-management-features"></a>Lülitage oma süsteemis sisse tehniliste muudatuste haldamise funktsioonid
 
 Esmalt lülitage sisse funktsioonid, järgides järgmisi etappe.
 
@@ -53,6 +55,8 @@ Esmalt lülitage sisse funktsioonid, järgides järgmisi etappe.
 1. Otsige värskendusi.
 1. Lülitage sisse funktsioon nimega *Tehniliste muudatuste haldus*.
 1. Kui soovite seda kasutada, lülitage sisse ka funktsioon nimega *Tootedimensiooni versioon*.
+
+### <a name="turn-on-the-required-configuration-keys"></a>Lülitage vajalikud konfiguratsioonivõtmed sisse
 
 Seejärel lülitage sisse konfiguratsioonivõtmed, järgides järgmisi etappe.
 
@@ -70,5 +74,18 @@ Seejärel lülitage sisse konfiguratsioonivõtmed, järgides järgmisi etappe.
 
 > [!IMPORTANT]
 > Alates 2022. aasta aprillist lubatakse kõigi uute installide puhul vaikimisi nii **Tehniliste muudatuste haldus** kui ka **Toote dimensioon – versioon** litsentsivõtmed, kuid vajadusel saate need siiski keelata.
+
+### <a name="turn-on-additional-engineering-change-management-features"></a>Lülitage oma süsteemis sisse tehniliste muudatuste haldamise funktsioonid
+
+Pärast seda, kui lülitate sisse peamised tehnika muudatuste haldamise funktsioonid ja lubate nende konfiguratsioonivõtmed, lisatakse funktsioonihaldusele mitu lisa- ja valikulist tehnika muudatusehalduse funktsiooni. Kõik need funktsioonid on loetletud **tehnika muudatusehalduse** moodulis. Järgmises tabelis kirjeldatakse iga valikulist funktsiooni ja antakse lisateabe jaoks linke.
+
+| Funktsiooni nimi funktsioonihalduses | Kirjeldus |
+|---|---|
+| Luba olemasolevate toodete muudatuste haldamine | <p>See funktsioon võimaldab teil teisendada olemasolevaid tooteid tehnika toodeteks, nii et saate alustada nende haldamist tehnika muudatusehalduse abil.</p><p>Lisateavet vt [Olemasolevate toodete muudatuste haldamise lubamine](change-management-existing-products.md).</p> |
+| Tootmise tehnilised teatised | <p>Kui toode on tehnikas muutunud, võib olla oluline teavitada tootmist nendest muudatustest. Sel viisil saavad tootmistöötajad teha vastavaid tegevusi, nt komponentide asendamine, koosluse asendamine või protsessi asendamine. See funktsioon võimaldab teil teavitada tootmist toodetavate toodete muudatustest.</p><p>Lisateavet vt teemast [Tehniliste toodete muudatuste haldamine](engineering-change-management.md).</p> |
+| Paranenud tehnilise muudatuse halduse atribuudi pärimine | <p>See funktsioon lihtsustab lõpetatud kaupade või vahekaupade atribuutide haldust. Kui see funktsioon on sisse lülitatud, on lihtsam tuvastada kõiki üksusele kuuluvaid atribuute ja valida atribuudid, mida tuleks sellelt kaubalt emaüksusele levitada. See funktsioon on kasulik näiteks siis, kui üks valmistoote komponent on habras, mürgine või tuleohtlik, sest saate kergesti tuvastada hapra, mürgise või tuleohtliku atribuudi ja levitate seda valmistoodangule.</p><p>Lisateavet vt jaotisest [Tehnilised atribuudid ja tehnilise atribuudi otsing](engineering-attributes-and-search.md).</p> |
+| Toote valmisoleku kontrollid | <p>See funktsioon võimaldab seadistada standardsete toodete (mitteinsenerilistele) toodete valmisolekukontrolli. Kasutage toote valmisoleku kontrolle, et tagada iga toote täielik määratlemine ja kõigi nõutud poliitikate konfigureerimine enne toote kättesaadavaks tegemist ja kannetes kasutamist. Kui keelate selle funktsiooni mõneks ajaks pärast seda, kustutatakse kõik olemasolevad standardtoodete valmisolekukontrollid.</p><p>Lisateavet vt jaotisest [Toote valmisolek](product-readiness.md).</p> |
+| Valemite ja nende koostisosade muudatuste haldamine | <p>See funktsioon võimaldab teil jälgida valemi koostisainete, kaastoodete ja kõrvaltoodete muutusi.</p><p>Lisateavet vt jaotisest [Valemite ja nende koostisainete muudatuste haldamine](manage-formula-changes.md).</p> |
+| Tehnikatoodetele variantide loomine | <p>See funktsioon võimaldab teil luua saadaolevatel dimensiooniväärtustel põhinevaid tehnikatoodete variante.</p><p>Lisateavet vt teemast [Tehnikatoodete variantide loomine](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

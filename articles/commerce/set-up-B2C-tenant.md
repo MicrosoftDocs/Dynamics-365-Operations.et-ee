@@ -2,7 +2,7 @@
 title: B2C rentniku seadistus Kaubanduses
 description: Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) ettevõtja ja tarbija vahelisi (B2C) rentnikke kasutaja saidi autentimiseks rakenduses Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344494"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466264"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce kasutab Azure AD B2C'd kasutaja mandaadi ja autentimise vo
 
 > [!TIP]
 > Saate oma saidi kasutajaid täiendavalt kaitsta ja suurendada oma Azure AD B2C rentnike turvalisust Azure AD identiteedikaitse ja tingimusliku juurdepääsu abil. Azure AD B2C Premium P1 ja Premium P2 rentnikele pakutavate võimaluste ülevaatamiseks vt [Azure AD B2C identiteedikaitse ja tingimuslik juurdepääs](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Dynamics keskkonna eeltingimused
+
+Enne alustamist veenduge, et teie Dynamics 365 Commerce keskkond ja e-äri kanal konfigureeritakse õigesti, täites järgmised eeltingimused.
+
+- Seadke kassatoimingute **AllowAnonymousAccess** väärtuseks "1" Commerce headquarters`is:
+    1. Minge **kassatoimingutesse**.
+    1. Tehke paremklõps ruudustikul ja siis klõpsake **Isikupärasta**.
+    1. Valige **Lisa väli**.
+    1. Valige saadaoleva veeru loendist veerg **AllowAnonymousAccess** et see lisada.
+    1. Tehke valik **Värskenda**.
+    1. Toimingu **612** "Kliendi lisamine" jaoks muutke **AllowAnonymousAccessiks** "1".
+    1. Käitage **1090 (Registrid)** töö.
+- Häälestage numbriseeria kliendikonto atribuut **Käsitsi** väärtusele **Ei** Commerce headquarters`is:
+    1. Valige suvandid **Jaemüük ja Kaubandus \> Peakontori seadistamine \> Parameetrid \> Nõuete parameetrid**.
+    1. Valige **numbriseeria**.
+    1. Topeltklõpsake **kliendikonto** real **numbriseeria koodi** väärtust.
+    1. Numbriseeria **Üldises** kiirkaardis määrake olekuks **Käsitsi** väärtuseks **Ei**.
+
+Pärast teie keskkonna Dynamics 365 Commerce juurutamist on soovitatav [lähtestada ka algandmed](enable-configure-retail-functionality.md) keskkonnas.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Olemasoleva AAD B2C rentniku loomine või linkimine Azure'i portaalis
 

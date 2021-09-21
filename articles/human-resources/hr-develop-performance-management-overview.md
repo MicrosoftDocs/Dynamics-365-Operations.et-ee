@@ -1,8 +1,8 @@
 ---
 title: Jõudlushaldus
-description: Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid.
-author: andreabichsel
-ms.date: 07/28/2020
+description: Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc0821a2e3974bee93fc40241fd141374906c456e73730d82d902924b56c0a04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1751183e929a906694cb5fd8e5d7960f9f00c6c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732173"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431233"
 ---
 # <a name="performance-management"></a>Jõudlushaldus
 
@@ -43,7 +43,7 @@ Töövõtjana kogute enne ülevaate lõpuleviimist sageli teavet tegevuste ja s�
 
 Jõudluse töölehti on saadaval kahe versioonina: töövõtja versioon, millele pääseb ligi **töövõtja iseteeninduse** tööruumi (**ESS**) kaudu, ja juhataja versioon, millele pääseb ligi **juhataja iseteeninduse** tööruumi (**MSS**) kaudu. Töövõtjad saavad enda jaoks luua töölehti ja soovi korral jagada neid juhatajaga. Juhatajad saavad luua töölehti oma meeskonna jaoks ja soovi korral jagada neid töövõtjatega. 
 
-Kui see avatakse **ESS** tööruumi kaudu, võimaldab **jõudluse töölehe** leht teil salvestada järgmist teavet.
+Kui see avatakse **ESS** tööruumi kaudu, võimaldab **jõudluse töölehe** leht teil salvestada järgmist teavet:
 
 -   Tegevuse pealkiri
 -   Tegevuse kirjeldus, mis sisaldab tegevuse üksikasju
@@ -55,9 +55,9 @@ Kui see avatakse **ESS** tööruumi kaudu, võimaldab **jõudluse töölehe** le
 
 Jõudluse töölehe saate linkida ka välisele veebilehele, salvestades lehe URL-i. Kui tööleht on seotud eesmärkide või jõudluse ülevaadetega, saate selle siduda ka ühe või mitmega neist. Kui jõudluse tööleht avatakse **MSS** lehelt, saate sisestada sama teavet, mida töövõtja töölehel. Lisaks saate määrata töövõtja, kelle jaoks tööleht luuakse. Saate valida, kas jagada juhataja töölehte oma töövõtjaga.
 
-### <a name="send-feedback"></a>Saada tagasisidet
+### <a name="send-feedback"></a>Saada tagasiside
 
-Jõudluse tööleht sisaldab lisafunktsiooni nimega Tagasiside. Kui klõpsate valikul **Saada tagasisidet**, saate valida töövõtja ja anda talle meili teel tagasisidet. Sõnum saadetakse töövõtjale, kes tagasisidet saab, töövõtja juhatajale, tagasisidet saatvale töövõtjale ja selle töövõtja juhatajale. Jõudluse töölehe sisestus luuakse iga inimese jaoks, kes tagasisidesõnumi saab.
+Jõudluse tööleht sisaldab lisafunktsiooni nimega **Saada tagasiside**. Kui klõpsate valikul **Saada tagasisidet**, saate valida töövõtja ja anda talle meili teel tagasisidet. Sõnum saadetakse töövõtjale, kes tagasisidet saab, töövõtja juhatajale, tagasisidet saatvale töövõtjale ja selle töövõtja juhatajale. Jõudluse töölehe sisestus luuakse iga inimese jaoks, kes tagasisidesõnumi saab.
 
 ## <a name="goals"></a>Eesmärgid
 
@@ -86,7 +86,7 @@ Saate eesmärgist luua malli ja seejärel kasutada seda uute eesmärkide loomise
 
 Jõudluse ülevaated on ametlikult tuntud kui arutelud. Need on nüüd piisavalt paindlikud, et toetada pidevat tagasisidet, arenguplaane ja ametlikke ülevaateid. Saate kiiresti luua väikeseid kohtumisi kahe inimese vahel, nagu üks-ühele kohtumine, või saate luua keerukama ülevaate, mis vastab teie ettevõtte ülevaatuse protsessile. 
 
-Üks-ühele kohtumine on lihtne ülevaade, mis vajab lühinime, kohtumise sisu pikemat kirjeldust ja kohtumise kuupäeva. Lihtne ülevaade hõlmab sama teavet ning arutletavat ülevaatusperioodi. Juhatajad näevad ka isiku nime. kelle jaoks ülevaade on loodud. 
+Üks-ühele kohtumine on lihtne ülevaade, mis vajab lühinime, kohtumise sisu pikemat kirjeldust ja kohtumise kuupäeva. Juhatajad näevad ka isiku nime. kelle jaoks ülevaade on loodud. 
 
 Üksikasjalikumate ülevaadete jaoks saate tõmmata aktiivseid ja lõpule viidud eesmärke ning sisestada nende kohta kommentaare. Ülevaates kuvatakse kõik jõudluse töölehe tegevused ja mõõtmised, mis on eesmärgiga seotud. Pärast ülevaate lõpetamist salvestatakse mõõtmiste hetktõmmis, et säilitada ülevaate ajal nende kaupade ajalugu. 
 
@@ -121,11 +121,11 @@ Saate määrata hinnangu ülevaates olevale mis tahes eesmärgile või pädevuse
 
 ### <a name="sign-offs"></a>Nõusolekud
 
-Töövõtja ja/või juhataja esitatakse ülevaates teie määratud ülevaate parameetrite põhjal. Ülevaated võivad olla kohustuslikud või valikulised. Kui kõik vajalikud nõusolekud on tehtud, märgitakse ülevaate olekuks Lõpetatud.
+Töövõtja ja/või juhataja esitatakse ülevaates teie määratud ülevaate parameetrite põhjal. Ülevaated võivad olla kohustuslikud või valikulised. Kui kõik vajalikud nõusolekud on tehtud, märgitakse ülevaate olekuks **Lõpetatud**.
 
 ### <a name="attachments"></a>Manused
 
-Ülevaatele saate lisada dokumendi **ülevaadete** lehe jaotises **Manused**. Saate kasutada dokumendivaaturit, et kuvada kiiresti mis tahes manustatud dokumendi sisu.
+Ülevaatele saate lisada dokumendi **Ülevaadete** lehe jaotises **Manused**. Saate kasutada dokumendivaaturit, et kuvada kiiresti mis tahes manustatud dokumendi sisu.
 
 ## <a name="workflow-for-performance-management"></a>Jõudlushalduse töövoog
 
@@ -155,14 +155,14 @@ Saadaval on kolm lehte, mis aitavad teil häälestada jõudluse protsessi lõpet
 
 ### <a name="measurements"></a>Mõõtmised
 
-Mõõtmiste lehel saate luua standardseid mõõtmisi, mida kasutatakse **jõudluse eesmärkide** ja **ülevaadete** lehtedel. Saate luua mõõtmisi, mis on kuupäevad, summad, kogused või protsendid, või mõõtmisi, mis põhinevad hinnangumudelil.
+**Mõõtmiste** lehel saate luua standardseid mõõtmisi, mida kasutatakse **jõudluse eesmärkide** ja **ülevaadete** lehtedel. Saate luua mõõtmisi, mis on kuupäevad, summad, kogused või protsendid, või mõõtmisi, mis põhinevad hinnangumudelil.
 
 ### <a name="performance-journal-source-types"></a>Jõudluse tööraamatu allikatüübid
 
-Jõudluse töölehe allikatüübid kirjeldavad, kust jõudluse töölehed tulevad. Saate vaadata, kas töölehe kaupa saavad vaikimisi vaadata ainult juhataja, ainult töövõtja või mõlemad. Te ei saa praegu allikatüüpe keelata.
+**Jõudluse töölehe allikatüübid** kirjeldavad, kust jõudluse töölehed tulevad. Saate vaadata, kas töölehe kaupa saavad vaikimisi vaadata ainult juhataja, ainult töövõtja või mõlemad. Te ei saa praegu allikatüüpe keelata.
 
 ### <a name="review-types"></a>Ülevaate tüübid
 
-Jõudluse ülevaate tüübid aitavad teil kontrollida ülevaate käitumist. Saate lubada või keelata ülevaate töövoo. Kui ülevaade ei kasuta töövoogu, saate määrata vaikeoleku, mida kasutatakse ülevaate loomisel. Samuti saate otsustada, kas ülevaatele peavad nõusoleku andma töövõtja, juhataja või mõlemad.
+**Ülevaate tüübid** aitavad teil kontrollida ülevaate käitumist. Saate lubada või keelata ülevaate töövoo. Kui ülevaade ei kasuta töövoogu, saate määrata vaikeoleku, mida kasutatakse ülevaate loomisel. Samuti saate otsustada, kas ülevaatele peavad nõusoleku andma töövõtja, juhataja või mõlemad.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

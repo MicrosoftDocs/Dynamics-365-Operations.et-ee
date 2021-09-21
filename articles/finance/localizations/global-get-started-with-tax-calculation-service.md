@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394505"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465073"
 ---
 # <a name="get-started-with-tax-calculation"></a>Maksuarvutusega alustamine
 
@@ -49,13 +49,9 @@ Tootmiskeskkonna puhul peavad olema täidetud järgmised eeltingimused:
 - Peate looma oma organisatsioonile RCS-keskkonna ja teil peab olema juurdepääs oma kontole. Lisateavet RCS-keskkonna loomise kohta vt [Regulatory Configuration Service ülevaadet](rcs-overview.md).
 - Järgmised funktsioonid peavad teie **Funktsioonihalduse** Finance ja Supply Chain Management keskkonna tööruumis olema vastavalt ärihuvile sisse lülitatud:
 
-    - Maksuarvutus
+    - Maksuarvutusteenus
     - Toeta mitut käibemaksu registreerimisnumbrit
     - Maks üleviimistellimuses
-    - EL-i käibearuande ülekanded ainult maksukannete põhjal
-    - Intrastati aruandlus mitme maksu ID alusel
-    - ELi käibearuandlus mitme maksu ID järgi
-    - Käibemaksudeklaratsioon mitme maksu ID järgi
 
 - Järgmised funktsioonid peavad olema sisse lülitatud teie **Funktsioonihalduse** tööruumis juurutatud RCS-i keskkonnas.
 
@@ -65,18 +61,14 @@ Tootmiskeskkonna puhul peavad olema täidetud järgmised eeltingimused:
 
 Tootmiskeskkonna puhul peavad olema täidetud järgmised eeltingimused:
 
-- Teil peab olema juurdepääs oma LCS-i kontole ja peate olema juurutanud LCS-projekti, millel on 2 või kõrgema taseme keskkond, mis käitab Dynamics 365 versiooni 10.0.18 koos KB4616360 või uuemat versiooni.
+- Teil peab olema juurdepääs oma LCS-i kontole ja peate olema juurutanud LCS-projekti, millel on 2 või kõrgema taseme keskkond, mis käitab Dynamics 365 versiooni 10.0.21 või uuemat.
 - Peate looma oma organisatsioonile RCS-keskkonna ja teil peab olema juurdepääs oma kontole. Lisateavet RCS-keskkonna loomise kohta vt [Regulatory Configuration Service ülevaadet](rcs-overview.md).
 - Peate Microsoft `iga ühendust võtma saates e-kirja aadressil <taxcalc@microsoft.com> et lubada lennud juurutatud Finance või Supply Chain Management keskkonnas.
 - Järgmised funktsioonid peavad teie **Funktsioonihalduse** Finance ja Supply Chain Management keskkonna tööruumis olema vastavalt ärihuvile sisse lülitatud:
 
-    - Maksuarvutus
+    - Maksuarvutusteenus
     - Toeta mitut käibemaksu registreerimisnumbrit
     - Maks üleviimistellimuses
-    - EL-i käibearuande ülekanded ainult maksukannete põhjal
-    - Intrastati aruandlus mitme maksu ID alusel
-    - ELi käibearuandlus mitme maksu ID järgi
-    - Käibemaksudeklaratsioon mitme maksu ID järgi
 
 - Järgmised funktsioonid peavad olema sisse lülitatud teie **Funktsioonihalduse** tööruumis juurutatud RCS-i keskkonnas.
 
@@ -103,12 +95,12 @@ Selle jaotise sammud ei ole seotud kindla juriidilise üksusega. Seda protseduur
 7. Minge **Maksu andmemudelisse**, laiendage failipuud ja valige seejärel **Maksukonfiguratsioon**.
 8. Valige õige maksu konfiguratsiooni versioon, mis põhineb teie Finance versioonil, ja seejärel valige suvand **Impordi**.
 
-    | Vabasta versioon | Maksukonfiguratsioon                       | Mudeli vastendamine                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Maksu konfiguratsioon - Euroopa 30.12.82     |                                 |
-    | 10.0.19         | Maksu arvutamise konfiguratsioon 36.38.193 |                                 |
-    | 10.0.20         | Maksu arvutamise konfiguratsioon 40.43.208 |                                 |
-    | 10.0.21         | Maksu arvutamise konfiguratsioon 40.46.212 | Dataverse mudeli vastendamine 40.46.9 |
+    | Vabasta versioon | Maksukonfiguratsioon                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Maksu konfiguratsioon - Euroopa 30.12.82     |
+    | 10.0.19         | Maksu arvutamise konfiguratsioon 36.38.193 |
+    | 10.0.20         | Maksu arvutamise konfiguratsioon 40.43.208 |
+    | 10.0.21         | Maksu arvutamise konfiguratsioon 40.46.212 |
 
 9. Minge tagasi **Globaliseerimisfunktsioonide** tööruumi, valige **Funktsioonid**, valige **maksuarvutuse** paan ja seejärel valige **Lisa**.
 10. Saate valida ühe järgmistest funktsioonitüüpidest:

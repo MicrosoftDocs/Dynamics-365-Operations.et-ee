@@ -2,7 +2,7 @@
 title: Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) silte mitmekeelsete aruannete kujundamiseks ja loomiseks.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718401"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473401"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Ülevaade
 
@@ -229,10 +231,14 @@ Nagu selles teemas eespool kirjeldatud, saab asjakohases ER-i komponendis kätte
 - Atribuudiga **Silt** seotud ER-i sildi väärtus salvestatakse tagastatud kirje väljale **Silt**.
 - Atribuudiga **Kirjeldus** seotud ER-i sildi väärtus salvestatakse tagastatud kirje väljale **Kirjeldus**.
 
+## <a name="performance"></a><a name=performance></a>Jõudlus
+
+Kui konfigureerite ER-vormingu komponenti, et luua aruanne eelistatud [keeles](#language), või importida sissetulev dokument, kus sisu sõelutakse eelistatud keele järgi, on soovitatav lubada funktsioonihalduse tööruumis **praeguse kasutaja eelistatud keel** funktsioon [Funktsioonihalduse](../../fin-ops/get-started/feature-management/feature-management-overview.md) tööruumis. See funktsioon aitab parandada jõudlust, eriti ER-vormingu komponentide puhul, mis sisaldavad mitmeid viiteid ER-i valemite ja sidumiste [siltidele](general-electronic-reporting-formula-designer.md#TestFormula) ning palju kinnitusreegliid eelistatud keelekasutajateadete loomiseks.
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
-- [Elektroonilise aruandluse funktsioonid](er-formula-language.md#functions)
+- [Elektroonilise aruandluse funktsioonid](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

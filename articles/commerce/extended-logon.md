@@ -1,8 +1,8 @@
 ---
 title: MPOS-i ja pilve kassa (CPOS) jaoks laiendatud sisselogimise funktsiooni seadistamine
 description: See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilvekassas ja Retail Modern POS-is (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748542"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478667"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Cloud MPOS ja Cloud POS‑i laiendatud sisselogimisfunktsiooni seadistamine
 
@@ -58,6 +58,8 @@ Vaikimisi saavad töötajatele laiendatud sisselogimist määrata ainult juhid. 
 Töötajale määratud laiendatud sisselogimise kustutamiseks otsige töötajat toimingu **Laiendatud sisselogimine** abil. Valige töötaja ja klõpsake seejärel nuppu **Eemalda määrang**. Kõik töötajaga seostatud laiendatud sisselogimise identimisteave eemaldatakse.
 
 ## <a name="extending-extended-logon"></a>Laiendatud sisselogimine laiendamine
+
+Laiendatud sisselogimine lubab ainult viit olulist märki, et olla boksist väljas kordumatu ID. Näiteks kui konfigureerite kaks kaarti ID-dega "1234567" ja "1234578", peetakse neid mõlemaid kui "12345". Võite luua laiendi, mis toetab rohkem märke. Üksikasjalikke juhiseid vaadake [MPOS-i ja pilve kassa laiendatud sisselogimise funktsioonide laiendamisest](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 Sisselogimisteenust saab laiendada täiendavate laiendatud sisselogimine seadmete nagu käsiskannerid toetamiseks. Lisateabe saamiseks vt kassa laiendatavuse dokumentatsiooni.
 

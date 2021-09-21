@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343628"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474648"
 ---
 # <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
 
@@ -46,6 +46,9 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 
 Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
+> [!NOTE]
+> Tee {environmentId} osa on keskkonna ID rakenduses Microsoft Dynamics Lifecycle Services (LCS).
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Lõpp-punkti leidmine vastavalt Lifecycle Services keskkonnale
 
 Varude nähtavuse mikroteenused juurutatakse rakenduses Microsoft Azure Service Fabric mitmes piirkonnas ja mitmes regioonis. Praegu puudub keskne lõpp-punkt, mida saab automaatselt ümber suunata teie taotluse vastavasse asukohta ja regiooni. Seepärast tuleb teil koostada teabetükid URL-i, kasutades järgmist mustrit.
@@ -54,22 +57,26 @@ Varude nähtavuse mikroteenused juurutatakse rakenduses Microsoft Azure Service 
 
 Regiooni lühinime leiate rakenduse Microsoft Dynamics Lifecycle Services (LCS) keskkonnast. Järgmises tabelis on toodud hetkel saadaolevad regioonid.
 
-| Azure’i regioon | Regiooni lühinimi |
-|---|---|
-| Ida-Austraalia | Eau |
-| Kagu-Austraalia | seau |
-| Kesk-Kanada | cca |
-| Ida-Kanada | eca |
-| Põhja-Euroopa | neu |
-| Lääne-Euroopa | weu |
-| Ida-USA | eus |
-| Lääne-USA | wus |
-| Lõuna-ÜK | suk |
-| Lääne-UK | wuk |
+| Azure’i regioon        | Regiooni lühinimi |
+| ------------------- | ----------------- |
+| Ida-Austraalia      | Eau               |
+| Kagu-Austraalia | seau              |
+| Kesk-Kanada      | cca               |
+| Ida-Kanada         | eca               |
+| Põhja-Euroopa        | neu               |
+| Lääne-Euroopa         | weu               |
+| Ida-USA             | eus               |
+| Lääne-USA             | wus               |
+| Lõuna-ÜK            | suk               |
+| Lääne-UK             | wuk               |
+| Ida-Jaapan          | ejp               |
+| Lääne-Jaapan          | wjp               |
+| Lõuna-Brasiilia        | sbr               |
+| Kesk-USA lõunaosa    | scus              |
 
 Saare number on see, kus teie LCS keskkond on rakendusele Service Fabric juurutatud. Praegu puudub viis selle teabe hankimiselt kasutaja poolelt.
 
-Microsoft on loonud kasutajaliidese (UI) rakendustekomplekti Power Apps, et saaksite mikroteenuse täieliku lõpp-punkti. Lisateavet vt jaotisest [Teenuse lõpp-punkti leidmine](inventory-visibility-power-platform.md#get-service-endpoint).
+Microsoft on loonud kasutajaliidese (UI) rakendustekomplekti Power Apps, et saaksite mikroteenuse täieliku lõpp-punkti. Lisateavet vt jaotisest [Teenuse lõpp-punkti leidmine](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentimine
 
@@ -80,66 +87,66 @@ Turbeteenusetõendi hankimiseks tehke järgmist.
 1. Logige Azure’i portaali sisse ja kasutage seda oma rakenduse Dynamics 365 Supply Chain Management  `clientId` ja `clientSecret` väärtuste leidmiseks.
 1. Tooge Azure AD luba (`aadToken`), edastades järgmiste atribuutidega HTTP-taotluse.
 
-    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **Meetod:** `GET`
-    - **Sisu (vormi andmed):**
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Meetod:** `GET`
+   - **Sisu (vormi andmed):**
 
-        | Võti | Väärtus |
-        |---|---|
-        | client_id | ${aadAppId} |
-        | client_secret | ${aadAppSecret} |
-        | grant_type | client_credentials |
-        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Võti           | Väärtus                                |
+     | ------------- | ------------------------------------ |
+     | client_id     | ${aadAppId}                          |
+     | client_secret | ${aadAppSecret}                      |
+     | grant_type    | client_credentials                   |
+     | resource      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
 
-    Vastuseks peaksite saama Azure AD loa (`aadToken`). See peals sarnanema järgmise näitega.
+   Vastuseks peaksite saama Azure AD loa (`aadToken`). See peals sarnanema järgmise näitega.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. Vormindage JavaScripti objektiteatise (JSON) taotlus, mis sarnaneb järgmise näitega.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    Pidage meeles järgmiseid punkte.
+   Pidage meeles järgmiseid punkte.
 
-    - Väärtus `client_assertion` peab olema see Azure AD luba (`aadToken`), mille eelmises etapis saite.
-    - Väärtus `context` peab olema keskkonna ID, kus soovite lisandmooduli juurutada.
-    - Häälestage kõik muud väärtused, nagu näites näidatud.
+   - Väärtus `client_assertion` peab olema see Azure AD luba (`aadToken`), mille eelmises etapis saite.
+   - `context` väärtud peab olema LCS keskkonna ID, kus soovite lisandmooduli juurutada.
+   - Häälestage kõik muud väärtused, nagu näites näidatud.
 
 1. Edastage HTTP-taotlus, millel on järgmised atribuudid.
 
-    - **URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **Meetod:** `POST`
-    - **HTTP päis:** kaasake API versioon. (Võti on `Api-Version` ja väärtus on `1.0`.)
-    - **Sisu:** lisage eelmises sammus loodud JSON-i taotlus.
+   - **URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **Meetod:** `POST`
+   - **HTTP päis:** kaasake API versioon. (Võti on `Api-Version` ja väärtus on `1.0`.)
+   - **Sisu:** lisage eelmises sammus loodud JSON-i taotlus.
 
-    Vastuseks peaksite saama juurdepääsuloa (`access_token`). Luba on teil vaja juurepääsuloaks, et kutsuda Varude nähtavuse API. Siin on näide.
+   Vastuseks peaksite saama juurdepääsuloa (`access_token`). Luba on teil vaja juurepääsuloaks, et kutsuda Varude nähtavuse API. Siin on näide.
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 Hilisemates jaotistes kasutate luba `$access_token`, et esindada luba, mis eelmises sammus saadi.
 
@@ -160,6 +167,9 @@ Järgmine tabel võtab kokku JSON-i sisu iga välja tähenduse.
 | `quantities` | Kogus, mille võrra vaba kaubavaru kogust tuleb muuta. Näiteks kui riiulile lisatakse 10 uut raamatut, on selleks väärtuseks `quantities:{ shelf:{ received: 10 }}`. Kui kolm raamatut riiulilt eemaldatakse või müüakse, on selleks väärtuseks `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | Muudatuse sündmuse ja päringu sisestamises kasutatud dimensioonide andmeallikas. Andmeallika määramisel saate kasutada määratud andmeallika kohandatud dimensioone. Varude nähtavus võib kasutada dimensiooni konfigureerimist kohandatud dimensioonide vastendamiseks üldiste vaikedimensioonidega. Kui väärtust `dimensionDataSource` pole määratletud, saate oma päringutes kasutada ainult üldisi [põhidimensioone](inventory-visibility-configuration.md#data-source-configuration-dimension). |
 | `dimensions` | Dünaamiline võtme-väärtuse paar. Väärtused vastendatakse mõnede rakenduse Supply Chain Management dimensioonidega. Kuid te saate lisada ka kohandatud dimensioone (nt _Allikas_), et näidata, kas sündmus tuleb rakendusest Supply Chain Management või välisest süsteemist. |
+
+> [!NOTE]
+> Sektsiooni `SiteId` ja `LocationId` parameetrid konstrueerivad [partitsiooni konfiguratsioon](inventory-visibility-configuration.md#partition-configuration). Seetõttu peate need dimensioonides määrama, kui loote vaba kaubavaru muutuse sündmusi, seadistate või alistate vaba kaubavaru kogused või loote reserveerimissündmused.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Ühe vabade kaubavarude muutmise sündmuse loomine
 
@@ -201,6 +211,9 @@ Järgmises näites on toodud näidissisu. Selles näites sisestate toote *T-sär
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId": "Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ Järgmises näites on toodud näidissisu. Selles näites sisestate toote *T-sär
 }
 ```
 
-Järgmises näites on toodud näidissisu ilma `dimensionDataSource`.
+Järgmises näites on toodud näidissisu ilma `dimensionDataSource`. Sel juhul, `dimensions` on [alus dimensioon](inventory-visibility-configuration.md#data-source-configuration-dimension). Kui `dimensionDataSource` on seadistatud, võivad `dimensions` olla andmeallika mõõtmed või baasmõõtmed.
 
 ```json
 {
@@ -219,9 +232,9 @@ Järgmises näites on toodud näidissisu ilma `dimensionDataSource`.
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId": "11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ Järgmises näites on toodud näidissisu.
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ Järgmises näites on toodud näidissisu.
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ Järgmises näites on toodud näidissisu. Selle API käitumine erineb nende API-
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ Järgmises näites on toodud näidissisu. Selle API käitumine erineb nende API-
 API *Reserveerimine* kasutamiseks peate avama reserveerimisfunktsiooni ja viima lõpuni reserveerimise konfiguratsiooni. Lisateavet vt teemast [Reserveerimise konfigureerimine (valikuline)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Ühe reserveerimissündmuse loomine
+
+Reserveerida saab erinevate andmeallikate sätete suhtes. Seda tüüpi reserveeringute konfigureerimiseks määrake parameetris esmalt `dimensionDataSource` andmeallikas. Seejärel määrake `dimensions` parameetris dimensioonid vastavalt sihtandmeallika dimensioonisätetele.
+
+Kui kutsute reserveerimise API, saate kontrollida reserveerimise kinnitamist, määrates `ifCheckAvailForReserv` kahendmuutuja parameetri taotluse kehas. Väärtus `True` tähendab, et kinnitamist nõutakse, samas kui väärtus `False` tähendab, et kinnitamist ei nõuta. Vaikeväärtus on `True`.
+
+Kui soovite tühistada reserveeringu või määratud laokogused reserveerimata, määrake koguseks negatiivne väärtus ja seadke `ifCheckAvailForReserv` parameetrile kinnitus `False` vahele jätmiseks.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+Taotluse kehaosa, `dimensionDataSource` on siiski valikuline parameeter. Kui see pole määratud, käsitletakse `filters` seda *põhidimensioonidena*. Väljadel on neli `filters` kohustuslikku välja: `organizationId`, `productId`, `siteId` ja `locationId`.
+
+- `organizationId` sisaldab ainult üht väärtust, kuid on siiski massiiv.
+- `productId` võib sisalda üht või mitut väärtust. Kui see on tühi massiiv, tagastatakse kõik tooted.
+- `siteId` ja `locationId` kasutatakse rakenduses Inventory Visibility sektsioonimiseks.
+
+Parameeter `groupByValues` peaks järgima indekseerimiseks teie konfiguratsiooni. Lisateavet leiate teemast [Tooteindeksi hierarhia konfiguratsioon](./inventory-visibility-configuration.md#index-configuration).
+
+Parameeter `returnNegative` kontrollib, kas tulemused sisaldavad negatiivseid kandeid.
 
 Järgmises näites on toodud näidissisu.
 
@@ -484,7 +522,24 @@ Järgmises näites on toodud näidissisu.
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+Järgmised näited näitavad, kuidas teha päringuid kõigi toodete kohta konkreetsel saidil ja asukohas.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 Siin on hankimise URL-i näidis. See hankimise taotlus on täpselt sama, mis varem antud sisestamise näide.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

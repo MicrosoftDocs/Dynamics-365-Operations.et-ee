@@ -2,7 +2,7 @@
 title: Elektrooniline sõnumside
 description: Selles teemas antakse elektroonilise sõnumside ülevaade ja seadistusteave rakenduses Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768335"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478720"
 ---
 # <a name="electronic-messaging"></a>Elektronsõnumid
 
@@ -57,6 +57,16 @@ Elektronsõnumite funktsioon toetab järgmisi stsenaariume:
 - Loodud aruannete talletamine ja ülevaatamine.
 - Kogu logiteabe talletamine ja ülevaatamine, mis on seotud tegevustega, mis käivitatakse sõnumi või sõnumiüksuse jaoks.
 - Töötlemise kontrollimine erinevate sõnumi ja sõnumiüksuse olekutega.
+
+## <a name="security-privileges"></a>Turbeprivileegid
+
+Elektrooniliste teadete jaoks on saadaval järgmised turva privileegid.
+
+| Turvalisuse privileeg           | Juurdepääsu tase | Seos |
+|------------------------------|--------------|-------------|
+| Elektronsõnumite haldamine | See privileeg annab täieliku juurdepääsu EM-funktsioonile. Kui teil on see privileeg, saate seadistada elektroonilise sõnumside ja käivitada kogu töötluse. | See privileeg on kaasatud **Maksu müügitehingute säilitamine** turvakohustuste hulka. See kohustus sisaldub omakorda **raamatupidaja** turberollis. |
+| Elektronsõnumite kuvamine     | See privileeg annab kirjutuskaitstud juurdepääsu EM-funktsioonile. Kui teil on see privileeg, saate vaadata elektroonilise sõnumside seadeid ja sõnumeid. Te ei saa siiski midagi seadistada ega käivitada. | See privileeg sisaldub **Päring müügimaksu tehingute staatuses** turvakohustuste hulka. See kohustus sisaldub omakorda järgmistes turberollides:<ul><li>Sissenõuete haldur</li><li>Müügireskontro ametnik</li><li>Müügireskontro haldur</li><li>Maksuametnik</li><li>Raamatupidaja</li><li>Pearaamatupidaja</li><li>Raamatupidaja</li><li>Müügijuht</li><li>Ostureskontro ametnik</li></ul> |
+| Tööta elektronsõnumitega  | See privileeg annab juurdepääsu ainult **elektrooniliste teadete** ja **elektrooniliste teadete kaupade** lehtedele. Kui teil on see privileeg, saate käivitada kogu töötlemise, mis on kutsutud neilt lehtedelt. | See privileeg kuulub turvakohustustesse **Elektrooniliste teadete haldamine**. See kohustus sisaldub omakorda **Elektrooniliste sõnumite operaator** turberollis. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>EM-funktsiooni toetatud riigispetsiifilised regulatiivsed funktsioonid
 

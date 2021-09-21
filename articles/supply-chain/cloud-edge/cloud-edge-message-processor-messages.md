@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748855"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471640"
 ---
 # <a name="message-processor-messages"></a>Sõnumi töötleja sõnumid
 
@@ -44,7 +44,7 @@ Võite kasutada väljasid **sõnumiprotsessori teadete** lehe ülaosas, et aidat
   - *Järjekorras* – sõnum on teateprotsessori töötlemiseks valmis.
   - *Töödeldud* – sõnum on teateprotsessori poolt edukalt töödeldud.
   - *Tühistatud* – teade on töödeldud, kuid töötlemine nurjus.
-- **Sõnumi sisu** – selle filtriga tehakse sõnumisisu täistekstotsing. (Sõnumit ei kuvata ruudustikus.) Filter käsitleb enamikke erisümboleid (nt „-”) tühikuna ja käsitleb kõiki tühikuid kahendmuutuja VÕI tehtemärkidena. T=Nt kui otsite konkreetset väärtust `journalid`, mis oleks "USMF-123456", otsib süsteem kõik teated, mis sisaldavad "USMF" või "123456", mis on tõenäoliselt pikk loend. Seetõttu oleks parem sisestada ainult "123456", sest see annab paremad tulemused.
+- **Sõnumi sisu** – selle filtriga tehakse sõnumisisu täistekstotsing. (Sõnumit ei kuvata ruudustikus.) Filter käsitleb enamikke erisümboleid (nt „-”) tühikuna ja käsitleb kõiki tühikuid kahendmuutuja VÕI tehtemärkidena. Näiteks tähendab see, et kui otsite konkreetset `journalid` väärtust, mis oleks võrdne "USMF-123456", leiab süsteem kõik teated, mis sisaldavad "USMF" või "123456", mis on tõenäoliselt pikk loend. Seetõttu oleks parem sisestada ainult "123456", sest see annab paremad tulemused.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Teate näidistüüp: varude korrigeerimise finantsvärskenduse taotlemine
 
@@ -65,7 +65,7 @@ Vahekaardi **Logi** tööriistaribal on järgmised nupud:
 
 ## <a name="message-processor-batch-job"></a>Teateprotsessori pakett-töö
 
-Pilve ja serva juurutuse käitamisel käivitatakse sõnumiprotsessori pakett-töö automaatselt uue teate loomisel töötlemiseks, seega ei pea te seda tööd käsitsi *plaanima*.
+Kui kasutate hajutatud hübriid-topoloogiat koos skaalaühikutega, käivitatakse *sõnumiprotsessi* pakett-töö automaatselt uue teate loomisel töötlemiseks, seega ei pea te seda tööd käsitsi ajastama.
 
 Vajadusel pääsete pakett-tööle, kui valides **Süsteemihaldus > Sõnumiprotsessor > Teateprotsessor**.
 

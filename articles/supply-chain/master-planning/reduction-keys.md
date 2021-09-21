@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736619"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474768"
 ---
 # <a name="forecast-reduction-keys"></a>Eelarve planeerimise koefitsiendid
 
@@ -86,7 +86,18 @@ Kui käivitate sellisel juhul eelplaneerimise 1. jaanuaril, tarbitakse nõudluse
 
 ### <a name="transactions--reduction-key"></a>Kanded – planeerimise koefitsient
 
-Kui valite suvandi **Kanded – planeerimise koefitsient**, siis vähendatakse eelarvevajadusi planeerimise koefitsiendiga määratud perioodide jooksul toimuvate kannete kohaselt.
+Kui seate välja **Eelarvenõuded vähendamiseks kasutatava meetodi** väärtuseks *Kanded – vähendamise klahv* vähendatakse eelarve vajadusi kvalifitseeritud nõudluse kannete võrra, mis toimuvad vähendamisvõtmega määratletud perioodidel.
+
+Kvalifitseeritud nõudluse määratleb **Vähenda lprognoosi** väli **Katvusgrupid** leht. Kui seate **Vähenda prognoosi** välja seadeks *Tellimused*, ainult müügitellimuse kanded kvalifitseeritud nõudluseks. Kui seadistate selle *Kõigile kannetele*, peetakse kõiki mitte kontsernisiseseid väljamineku laokandeid kvalifitseeritud nõudluseks. Kui prognoosi vähendamisel tuleks kaasata kontsernisisesed tellimused, seadke suvandi **Kaasa kontsernisisesed tellimused väärtuseks** väärtuseks *Jah*.
+
+Prognoosi vähendamine algab nõudluse esimese (varaseima) prognoosi kirjega vähendamisest võtme perioodil. Kui kvalifitseeritud laokannete kogus on suurem kui nõudluse prognoosi ridade kogus samas vähendamise võtme perioodis, kasutatakse laokannete koguse saldot nõudluse prognoosi koguse vähendamiseks eelmises perioodis (kui on kinnitamata prognoos).
+
+Kui eelmisesse vähendusvõtme perioodi ei ole jäänud ühtegi kinnitamata eelarvet, kasutatakse laokannete koguse saldot eelarve koguse vähendamiseks järgmisel kuul (kui prognoosi pole kokkuleppinud).
+
+**Protsendi** välja väärtus kui **eelarvenõuete vähendamiseks kasutatava meetodi** väli on seatud väärtusele *Kanded – vähendamisvõti*. Vähendusvõtme perioodi määratlemiseks kasutatakse ainult kuupäevi.
+
+> [!NOTE]
+> Kõiki tänasele kuupäevale või enne seda sisestatud eelarvet ignoreeritakse ja seda ei kasutata plaanitud tellimuste loomiseks. Näiteks kui teie kuu nõudluse prognoos on loodud 1. jaanuaril ja te käivitate koondplaanimise, mis hõlmab nõudluse prognoosi 2. jaanuaril, ignoreerib kalkulatsioon nõudluse prognoosi rida, mille kuupäev on 1. jaanuar.
 
 #### <a name="example-transactions--reduction-key"></a>Näide: valik Kanded – planeerimise koefitsient
 

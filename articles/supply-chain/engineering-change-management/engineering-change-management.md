@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384581"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467418"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Tehniliste toodete muudatuste haldamine
 
@@ -122,6 +122,9 @@ Mõjutatud kannete ülevaatamiseks, valitud kannete blokeerimiseks ja teatiste s
     - **Kuva ajalugu** – Avage valitud kandega seotud tegevuste ajalugu, kasutades dialoogiboksi **Ärimõju avatud kannetele**. (Näiteks näitab ajalugu, kas teatised on saadetud või kanded on blokeeritud.) 
     - **Vaadake kõiki kandeid** – Avage kõigi kannete, mitte ainult avatud kannete täielik loend.
 
+> [!IMPORTANT]
+> Nupp **Teavita tootmist** on saadaval ainult siis, kui *tootmisfunktsiooni tehnikateatiste* funktsioon on teie süsteemis sisse lülitatud. Lisateavet vt teemast [Tehniliste muudatuste haldamise ülevaade](product-engineering-overview.md).
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Kannete muutmise teatiste ülevaatamine ja protsess
 
 Saate lugeda ja töödelda muutuseteatisi, mida saate järgmistel viisidel:
@@ -131,6 +134,9 @@ Saate lugeda ja töödelda muutuseteatisi, mida saate järgmistel viisidel:
 - Tootmistellimuste puhul saate valida ainult nende muutuse teatiste ülevaatamise, mis kehtivad teie hallatavate tootmisressursside puhul. Tööruumis **Tootmispinna haldus** toimingupaanil **Konfigureerige oma tööruum** valige lehe filtreerimiseks, nii et see kuvab infot ainult teie hallatavate tootmisüksuste, gruppide ja/või ressursside kohta. Jaotises **Kokkuvõte** paanil nimega **Muudetud toodetega tootmistellimused** kuvatakse teatised, mis vastavad teie teatiste filtri sätetele. Valige see paani, et avada **Tehnika teatiste** leht, mis näitab kogu kannete loendit, mis vastavad teie filtri kriteeriumitele.
 
 Tootmistellimuse teatiste ülevaatamise ajal **Tehnika teatiste** lehel saate jälgida linke seotud muudatuse tellimustele või tootmistellimustele, valides veeru väärtused või kasutades seotud käske tegevuspaanil. Pärast muudatuse hindamise lõpetamist ja pärast vajaduse järgi tootmistellimuste tühistamist või muutmist saate märkida teatise lahendatuks. Valige tegevuspaanilt teatis ja seejärel valige tegevuspaanil **Lahendatud**. Teatis eemaldatakse kõikide kasutajate vaadetelt.
+
+> [!IMPORTANT]
+> Võimalus saata tootmistellimuste teatisi nõuab, et *tootmisfunktsiooni tehnikateatiste* funktsioon oleks teie süsteemis sisse lülitatud. Lisateavet vt teemast [Tehniliste muudatuste haldamise ülevaade](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Muudatuse tellimuse loomine muudatuse taotluse põhjal
 

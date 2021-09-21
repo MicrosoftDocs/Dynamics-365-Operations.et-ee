@@ -15,21 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b8d8e838b3c42f7dd02ce4adabcb1f412a3834006ad913e8f40191da751c08d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765235"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473473"
 ---
 # <a name="ratings-and-reviews-overview"></a>Hinnangute ja arvustuste ülevaade
-
 
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab hinnanguid ja arvustusi rakenduses Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Ülevaade
 
 Hinnangud ja arvustused on olulised e-kaubanduse klientidele, kes soovivad teada, kuidas teised kliendid toodet hindavad. Samuti võivad need aidata tarbijatel teha ostuotsuseid. Rakenduses Dynamics 365 Commerce võimaldab hinnangute ja arvustuste lahendus jaemüüjatel jäädvustada tootearvustusi ja hinnanguid klientidelt. Seejärel saavad jaemüüjad kuvada keskmised hinnangud ja vaadata üle oma e-kaubanduse veebisaidil olevat teavet.
 

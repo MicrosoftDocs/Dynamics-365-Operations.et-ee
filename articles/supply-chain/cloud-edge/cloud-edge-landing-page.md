@@ -1,5 +1,5 @@
 ---
-title: Pilv- ja perimeeterskaalaüksused tootmis- ja laohalduse töökoormuste jaoks
+title: Skaala ühikud jaotatud topoloogias
 description: Selles teemas antakse teavet tootmis- ja laohalduse töökoormuste pilv- ja perimeeterskaalaüksuste kohta.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780670"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471736"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Pilv- ja perimeeterskaalaüksused tootmis- ja laohaldustöökoormuste jaoks
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Skaala ühikud jaotatud topoloogias
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780670"
 >
 > Lubades pilv- ja perimeeterskaalaüksused, palutakse teil kinnitada, et saate aru, et mõned pilv- ja perimeeterskaalaüksuste konfiguratsiooni ja töötlemisega seotud andmed võidakse talletada Ameerika Ühendriikides asuvas andmekeskuses. Lisateavet pilve- ja servaskaalaüksuste andmetöötluse kohta leiate käesoleva teema jaotisest [Andmetöötlus mastaabiühikute haldamisel](#data-processing-management).
 
-## <a name="core-value-proposition-for-scale-units"></a>Skaalaühikute põhiväärtuse töö
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Jaotatud hübriid-topoloogia põhiväärtuste ettepanekuks
 
-Tootmise ja jaotamisega töötavad ettevõtted peavad olema võimelised käivitama olulisi äriprotsesse 24/7, katkestusteta ja nõutud ulatuses. Pilv- ja perimeeterskaalaüksused võimaldavad ettevõtetel käitada peamisi olulise tootmis- ja laoprotsesse ilma katkestusteta, isegi siis kui ilmnevad juhuslikud probleemid internetiühenduse või latentsusega.
+Tootmise ja jaotamisega töötavad ettevõtted peavad olema võimelised käivitama olulisi äriprotsesse 24/7, katkestusteta ja nõutud ulatuses. Jaotatud hübriid-topoloogia võimaldab ettevõtetel käitada peamisi olulise tootmis- ja laoprotsesse ilma katkestusteta, isegi siis, kui ilmnevad juhuslikud probleemid internetiühenduse või latentsusega.
 
-Pilv- ja perimeeterskaalaüksused võimaldavad tootmisjaoskonna ja täideviidavate laotööde töökoormust erikeskkondade vahel jagada. See funktsioon aitab parandada jõudlust, ennetada teenuse katkestusi ja maksimeerida tööaega. Mõõtühikud pakutakse Supply Chain Management tellimuse jaoks järgmiste lisandmoodulite kaudu:
+Jaotatud hübriid-topoloogias tutvustatakse *kaaluühikute* mõisteid, mis võimaldavad tööde ja laotäitmiskoormuste jaotamist erinevate keskkondade vahel. See funktsioon aitab parandada jõudlust, ennetada teenuse katkestusi ja maksimeerida tööaega. Mõõtühikud pakutakse Supply Chain Management tellimuse jaoks järgmiste lisandmoodulite kaudu:
 
 - Dynamics 365 Supply Chain Management Cloud Scale Unit Add-in lisandmoodul ( *saadaval aprillist 2021*)
 - Dynamics 365 Supply Chain Management Edge Scale Unit Add-in lisandmoodul (*saadaval peagi*)

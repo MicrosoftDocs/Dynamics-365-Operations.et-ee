@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: b9c82f28dcc7ebd223b2483ca257ba934024d755
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757802"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475080"
 ---
 # <a name="inventory-forecasts"></a>Varude prognoosid
 
@@ -94,7 +94,7 @@ Järgmises tabelis kirjeldatakse käske toimingupaanil lehel **Ülevaade** vahek
 
 | Käsk | Kirjeldus |
 |---|---|
-| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. |
+| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. (Vaata [Määrake eelarve](#allocate-forecast) sektsioon selles teemas hiljem.) |
 | Hulgivärskendamine | Saate avada **Eelarvekannete redigeerimine** lehe. (Vt [Eelarvekannete hulgivärskendus](#bulk-update) sektsioon selles teemas hiljem.) |
 | Varude prognoos | Saate avada valitud **varude eelarve** lehe, mis on filtreeritud valitud toote/mudeli kombinatsioon. (Vt [Varude eelarve](#inventory-forecast) sektsioon selles teemas hiljem.) |
 | Loo kaubavajadus | Saate avada dialoogiboksi, kus saate luua kauba vajadusi ning projektiga seotud eelarvekannete jaoks müügitellimusi või kaubatöölehe ridu. Kuigi see käsk on saadaval nii tarneprognoosi ridade kui ka nõudluse prognoosi ridade jaoks, ei saa seda kasutada **tarneprognoosi** lehel. |
@@ -201,7 +201,7 @@ Järgmises tabelis kirjeldatakse käske toimingupaanil lehel **Ülevaade** vahek
 
 | Käsk | Kirjeldus |
 |---|---|
-| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. |
+| Eralda prognoos | Kui kasutate eraldamismeetodit, looge eelarvekandele individuaalsed graafiku read. Rea kogus jaotatakse seejärel kuupäeva (vastavalt valitud ajaintervallidele), koguse ja kogu ajavahemiku summa järgi. (Vaata [Määrake eelarve](#allocate-forecast) sektsioon selles teemas hiljem.)|
 | Hulgivärskendamine | Saate avada **Eelarvekannete redigeerimine** lehe. (Vt [Eelarvekannete hulgivärskendus](#bulk-update) sektsioon selles teemas hiljem.) |
 | Varude prognoos | Saate avada valitud **varude eelarve** lehe, mis on filtreeritud valitud toote/mudeli kombinatsioon. (Vt [Varude eelarve](#inventory-forecast) sektsioon selles teemas hiljem.) |
 | Loo kaubavajadus | Saate avada dialoogiboksi, kus saate luua kauba vajadusi ning projektiga seotud eelarvekannete jaoks müügitellimusi või kaubatöölehe ridu. |
@@ -296,7 +296,7 @@ Vahekaardil **Varude dimensioonid** kuvatakse kõik vahekaardil **Ülevaade** pr
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Jaotusvõrk lehel Nõudluse prognoos
 
-Kui kasutate kauba eraldusvõtit, või kui olete sisestanud kaubaeelarve ühe või mitme tulevase perioodi jaoks, saate eraldada eelarve valides **Eralda prognoos** vahekaardil **Ülevaade** tööriistaribal. Seejärel jaotatakse kogus nii nagu on näidatud ridadel **Eraldus** ruudustikus.
+Kui kasutate kauba eraldusvõtit, või kui olete sisestanud kaubaeelarve ühe või mitme tulevase perioodi jaoks, saate eraldada eelarve valides **Eralda prognoos** vahekaardil **Ülevaade** tööriistaribal. Seejärel jaotatakse kogus nii nagu on näidatud ridadel **Eraldus** ruudustikus. (Vaata [Määrake eelarve](#allocate-forecast) sektsioon selles teemas hiljem.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Varude prognoos
 
@@ -328,6 +328,25 @@ Järgmine tabel kirjeldab veerud ruudustikus **Varude prognoos** lehel.
 | **Alamkooslus** | Määratud alamkoosluse kood. |
 | **Alamprotsess** | Määratud alamprotsessi protsessikood. |
 | (Muud mõõtmed) | Täiendavaid dimensioone saab kuvada võrgustiku veergudena. Valige toimingupaanil üksus **Varud \> Kuva dimensioonid** et valida lisadimensioon, mida kuvatakse. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Eralda prognoos
+
+Kasutage seda protseduuri valitud eelarvekande ridade töötlemiseks. Eelarve eraldamisel jaotatakse kogus nii, nagu on näidatud **Eralda** rida ruudustikus.
+
+1. Sõltuvalt üksuse tüübist, millele soovite prognoosi luua ja sellest, mis tüüpi eelarvet soovite luua, avage pakkumine, nõudlus või varude eelarve leht, nagu kirjeldatud [Vaata ja lisa manuaalselt eelarve ridu](#manual-entry).
+1. Pakkumise või nõudluse prognoosi ridade lehel valige prognoosi rida ja seejärel valige vahekaardil **Ülevaade** tööriistaribal **Eralda prognoos**.
+1. Dialoogiboksis **Eralda eelarve** seadke väljad, mida kirjeldatakse järgmises tabelis. (Väärtus, mille valite väljal **Meetod** määratleb, et saadaval on ka teised väljad.)
+
+    | Field | Kirjeldus |
+    |---|---|
+    | Meetod | <p>Valige eelarvekande eraldamiseks kasutatav meetod:</p><ul><li>**Puudub** – eraldamist ei toimu.</li><li>**Periood** – prognoositakse iga perioodi sama kogus. Selle väärtuse valikul määrake väljale **Eel** kogus ja ajaühik **Ühik** väljale.</li><li>**Võti** – eelarve kogus määratakse vastavalt väljalmääratud **Perioodi eraldusvõtmele**. Seda meetodit kasutatakse juhul, kui soovite arvesse võtta ka hooajalisi kõikumisi.</li><ul>|
+    | Kohta | <p>Saate sisestada ajaintervallide arvu, mida prognoos tulevikus pikendab. See väli on saadaval ainult siis, kui valite väljal *Periood* suvandi **Meetod**.</p><p>Näiteks tehke valik *Periood* väljal **Meetod**, sisestage *1* väljale **Alus** ja valige *Kuud* väärtus **Ühik** väljal. Siis määrake väljal **Lõpp** lõppkuupäev, mis on ühe aasta pärast. Sellisel juhul luuakse eeloleva aasta igaks kuuks üks prognoosirida päise real määratud üksuse ja koguse põhjal. |
+    | Ühik | Valige ajaintervalli ühik: *Päevad*, *Kuud*, või *Aastad*. Jaotus vastab siis päevade, kuude või aastate arvule, mille olete määranud väljale **Alus**.|
+    | Perioodi võti | Määrake perioodi eraldamisvõti, mida kasutatakse eelarve eraldamiseks. Lisateabe saamiseks vt jaotist [Eelarve planeerimise andmete eraldamine](../../finance/budgeting/budget-planning-data-allocation.md). |
+    | Lõpeta | Määratlege lõppkuupäev, mis rakendub teie sätetele väljadel **Kohta** ja **Üksus** väljal. |
+
+1. Seadete kinnitamiseks valige **OK**.
+1. Sama rea kohta saate tulemusi üle vaadata vahekaardil **Eraldamine**.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Eelarvekannete hulgivärskendus
 

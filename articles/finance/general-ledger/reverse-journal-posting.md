@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753476"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463585"
 ---
 # <a name="reverse-journal-posting"></a>Tühistatud sisestustööleht
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753476"
 
 See teema kirjeldab võimalusi lahenduses Microsoft Dynamics 365 Finance, mis lubavad teil kogu töölehe tagasi võtta või ühe või mitu kannet kannete loendist tagasi võtta, sõltumata nende päritolust. 
 
+Enne, kui saate kasutada selles teemas kirjeldatud funktsioone, peate need oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+ - Moodul: Pearaamat
+ - Funktsiooni nimi: **mitme dokumendi hulgipööramised**
+
 ## <a name="reversing-journals"></a>Töölehtede tühistamine
 
 Töölehe ridu saate ükshaaval muuta. Tühistatud töölehe sisestamisega saate ka kogu Finantstöölehe tagasi võtta. Töölehe tühistamine: 
 
-- Avage finantstööleht ja sisestatud töölehtede filter.
+- Filtreerige sisestatud töölehed ja avage **Read** vaade töölehel.
 - Valige lehe ülaosas olevas menüüs **Storneeri**.
-- Näete kannete ja kanderidade koguarvu, samuti tühistatud ridade kogusummat
+- Näete kannete ja kanderidade koguarvu, samuti tühistatud ridade kogusummat.
 - Valige **Jah**, et kasutada olemasolevaid kande kuupäevi, või **Ei**, et sisestada uus. Mõnel juhul võib algse kande perioodi sulgeda ja tühistamise jaoks tuleb sisestada uue kande kuupäev.
 - Kui valisite **Ei**, sisestage tühistamise kande kuupäev. 
 - Sisestage kommentaar, mida soovite tühistamise kandele lisada.
@@ -52,7 +56,7 @@ Samuti saate kandeid **kannete loendist** tagasi võtta kõigis pearaamatutes. L
 
 Ühe või mitme kande tühistamine: 
 
-- Valige lehe ülaosas olevas menüüs **Storneeri**
+- Valige lehe ülaosas olevas menüüs **Tühista kogu töölehe ripploend**.
 - Näete kannete ja kanderidade koguarvu, samuti tühistatud ridade kogusummat.
 - Valige **Jah**, et kasutada olemasolevaid kande kuupäevi, või **Ei**, et sisestada uus. Mõnel juhul võib algse kande perioodi sulgeda ja selle tühistamiseks tuleb sisestada uue kande kuupäev.
 - Kui valisite **Ei**, sisestage tühistamise kande kuupäev. 
