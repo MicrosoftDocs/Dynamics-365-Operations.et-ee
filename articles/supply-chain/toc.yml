@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (august 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (juuni 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Piiramatu võimsusega planeerimine
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Võimekusel põhineva ressursivalikuga planeerimine
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Varude märkimine planeerimise optimeerimise käigus
                   href: master-planning/planning-optimization/marking.md
                 - name: Kontsernisisene planeerimine
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: Pakkumiskutse loomine
                   href: procurement/tasks/create-request-quotation.md
+                - name: Pitseeritud pakkumine pakkumiskutsete puhul
+                  href: procurement/sealed-bidding.md
                 - name: Pakkumiskutset kasutava taotluse loomine
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Pakkumiskutsetele hindamismeetodi loomine

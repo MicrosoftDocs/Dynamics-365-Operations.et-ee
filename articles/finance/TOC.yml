@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (august 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (juuni 2021)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Sissenõuete protsessi automatiseerimine
                   href: accounts-receivable/collections-process-automate.md
+                - name: Sissenõuete protsessi automatiseerimise parameetrite konfigureerimine
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Krediidihalduse häälestamine
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Krediidihalduse häälestuse andmed
@@ -1635,7 +1635,9 @@
                 - name: KM-aruanne
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Piiriüleste teenuste aruanne
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Intrastati aruanne
+                  href: localizations/emea-aut-intrastat.md
                 - name: Ostulõivud
                   href: localizations/emea-aut-purchase-duties.md
             - name: Bahrein
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM-i häälestus ja haldamine
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Kodumaiste müükide KM-i aastane loend
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brasiilia
               items:
                 - name: Brasiilia ülevaade
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Elektroonilised arved
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: Saatelehe (Carta de Porte) täiendus (versioon 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Pearaamatu elektroonilised arvestusväljavõtted
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Mehhiko juriidiliste isikute maksukohustuslase registreerimisnumbrite sisestamine
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Hankijate registreerimisnumbrid
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Omaan
-              items:
-                - name: Omaani ülevaade
-                  href: localizations/oman.md
-                - name: Omaani käibemaksudeklaratsioon (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Holland
               items:
                 - name: Hollandi ülevaade
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: EL käibearuanne
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Uus-Meremaa
+              items:
+                - name: GST-deklaratsiooni vorm GST101A Uus-Meremaale (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Norra
               items:
                 - name: Norra ülevaade
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Kliendi elektroonilised arved Norras
                   href: localizations/emea-nor-e-invoices.md
+            - name: Omaan
+              items:
+                - name: Omaani ülevaade
+                  href: localizations/oman.md
+                - name: Omaani käibemaksudeklaratsioon (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Poola
               items:
                 - name: Poola ülevaade
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: Keskkonna ettevalmistamine koostööks HMRC MTD käibemaksu veebiteenusega
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Finance'i keskkonna autoriseerimine koostööks HMRC MTD käibemaksu veebiteenusega
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: MTD käibemaksu liivakastiga toimuva koostöö testimine
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Käibemaksutagastuse tagastamine HMRC MTD veebiteenusele
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: MTD käibemaksu elektrooniliste teadete seadistuse kontroll-loend
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Käibemaksudeklaratsiooni loomine pabervormingus (aruanne VAT 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: Käibemaksu seadistuse üksikasjad käibemaksudeklaratsioonide kohta Ühendkuningriigis
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: MTD käibemaksu liivakastiga toimuva koostöö testimine
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Finance'i keskkonna autoriseerimine koostööks HMRC MTD käibemaksu veebiteenusega
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Käibemaksutagastuse tagastamine HMRC MTD veebiteenusele
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Käibemaksu maksete ja kohustuste kohta teabe toomine HMRC-st
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: Käibemaksu seadistuse üksikasjad käibemaksudeklaratsioonide kohta Ühendkuningriigis
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Käibemaksudeklaratsiooni loomine pabervormingus (aruanne VAT 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Maksete aruande statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Ameerika Ühendriigid
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Vormingute käitamine dünaamiliseks veergude lisamiseks Exceli aruannetesse
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-vormingu kujundamine Excelis genereeritud dokumentide lehekülgjaotuseks
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Konfiguratsioonide loomine Wordi vormingus aruannete loomiseks
                   items:
                     - name: Uue ER-i konfiguratsiooni koostamine Wordi vormingus aruannete loomiseks

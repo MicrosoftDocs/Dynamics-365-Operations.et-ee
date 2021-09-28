@@ -1007,7 +1007,11 @@
                 - name: Plaanitud hooldustöö aja KKK
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Jälgimine ja diagnostika
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Jälgimise ja diagnostika tööriistad
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Azure Data Exploreri kasutamine töötlemata teabe logide päringuks
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Keskkonnateenuste taaskäivitamine
               href: lifecycle-services/restart-environment-services.md
             - name: Tootmiskatkestusest teatamine

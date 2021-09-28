@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (august 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (juuni 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Kaubanduslepete loomine kategooria hinnakujunduse reeglitega
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Viivituse täpse hinna ja allahindluse arvutamine
+                  href: delayed-price-calculation.md
             - name: Soovitused
               items:
                 - name: Tootesoovituste ülevaade
@@ -1328,11 +1328,13 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Brasiilia fiskaaldokumentide sisestamine jaemüügi parameetrite kaudu Commerce'i peakontoris
                   href: localizations/latam-bra-retail-statements.md
+                - name: Aydeni Dynamics 365 Payment Connector Commerce'i kassas Brasiilia jaoks
+                  href: localizations/latam-bra-adyen.md
             - name: Ida-Euroopa
               items:
-                - name: Üldist
+                - name: Üldine
                   items:
-                    - name: Commerce'i ettemaksuarved Ida-Euroopa korral
+                    - name: Commerce'i ettemaksuarved Ida-Euroopa jaoks
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
                     - name: Commerce'i pisikulude kassa haldus Ida-Euroopa puhul
                       href: localizations/emea-eeu-petty-cash-for-retail.md
@@ -2436,9 +2438,9 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Tuumandmetegevused
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Retail Serveri helistamise APId
+                    - name: Commerce Scale Uniti API-de kutsumine
                       href: e-commerce-extensibility/call-retail-server-apis.md
-                    - name: Retail Serveri laienduse helistamise APId
+                    - name: Retail Serveri laienduse API-de kutsumine
                       href: e-commerce-extensibility/call-retail-extension-api.md
                 - name: Täpsemad andmetegevuste teemad
                   items:
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Sõltumatu pakendamise SDK järgukonveieri häälestamine
                   href: dev-itpro/build-pipeline.md
-                - name: Commerce'i ja Finance and Operationsi järgusüsteemide ühendamine
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Retail SDK migreerimine versioonist Visual Studio 2015 versiooni Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Retail SDK laiendatavuse näited
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Hardware Stationi laiendatavus
               items:
-                - name: Hardware Station ja laiendatavus
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Kassa integreerimine uue riistvaraseadmega
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Serveri laiendatavus
