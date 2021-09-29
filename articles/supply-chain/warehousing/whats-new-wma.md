@@ -1,27 +1,39 @@
 ---
 title: Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 description: Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386095"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485618"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+
+## <a name="version-20100"></a>Versioon 2.0.10.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Lisatud animatsioonid loendite ja lehtede sirvimisel.
+- Tekst pakitakse nüüd ühenduse vealehel õigesti.
+- Vaikeväärtusteta liitkastid kuvatakse nüüd õigesti.
+- Alamrubriigi ala teavet kuvatakse nüüd ainult üksikasjade lehel.
+- Tühje sisestusvälju ei kuvata enam üksikasjade kaardil.
+- Kinnitusväärtusi üksikasjade kaardil enam ei dubleerita.
+- Mitmed probleemid, mis põhjustasid süsteemi hangumise, on parandatud.
 
 ## <a name="version-2090"></a>Versioon 2.0.9.0
 

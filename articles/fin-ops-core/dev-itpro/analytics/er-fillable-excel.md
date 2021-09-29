@@ -2,7 +2,7 @@
 title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevaid Exceli vormingus dokumente.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748468"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488134"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -138,6 +138,55 @@ Lisateavet piltide ja kujundite manustamise kohta leiate teemast [Piltide ja kuj
 
 Komponent **PageBreak** sunnib Excelit uut lehte alustama. See komponent pole nõutav, kui soovite kasutada Exceli vaikimisi lehekülgede saalimist, kuid peaksite seda kasutama juhul, kui soovite, et Excel järgiks teie ER-vormingut lehekülgede saalimise struktureerimisel.
 
+## <a name="page-component"></a><a name="page-component"></a>Lehekülje komponent
+
+### <a name="overview"></a>Ülevaade
+
+Saate kasutada **Lehekülje** komponenti, kui soovite, et Excel järgiks teie ER-vormingut ja struktuuri lehekülgede saalimist loodud väljaminevas dokumendis. Kui ER-vorming käitab komponente, mis on **Lehekülje** komponendi all, lisatakse nõutavad leheküljepiirid automaatselt. Selle protsessi käigus kaalutakse loodud sisu suurust, Exceli malli lehekülje seadistust ja Exceli mallis valitud paberi suurust.
+
+Kui peate dokumendi tükeldama erinevatesse sektsioonidesse, millest igaühel on erinev lehekülgede saalimine, saate konfigureerida mitu **Lehekülje** komponenti iga [Lehe](er-fillable-excel.md#sheet-component) komponendis.
+
+### <a name="structure"></a><a name="page-component-structure"></a>Struktuur
+
+Kui **Lehekülje** komponendi esimene komponent on [Vahemiku](er-fillable-excel.md#range-component) komponent, kus **Andmeedastuse suuna** atribuut on seatud valikule **Andmeedastust pole**, loetakse see vahemik lehekülgede saalimiseks lehekülje päiseks, mis põhineb praeguse **Lehekülje** komponendi sätetel. Selle vormingu komponendiga seostatud Exceli vahemikku korratakse iga lehe ülaosas, mis luuakse praeguse **Lehekülje** komponendi sätteid kasutades.
+
+> [!NOTE]
+> Õige lehekülgede saalimiseks, kui [ülemises vahemikus korduvad read](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) on konfigureeritud Exceli mallis, peab selle Exceli vahemiku aadress olema võrdne eelnevalt kirjeldatud vahemiku komponendiga seotud Exceli **Vahemiku** aadressiga.
+
+Kui **Lehekülje** komponendi viimane komponent on **Vahemiku** komponent, kus **Andmeedastuse suuna** atribuut on seatud valikule **Andmeedastust pole**, loetakse see vahemik lehekülgede saalimiseks lehekülje jalamiks, mis põhineb praeguse **Lehekülje** komponendi sätetel. Selle vormingu komponendiga seostatud Exceli vahemikku korratakse iga lehe alaosas, mis luuakse praeguse **Lehekülje** komponendi sätteid kasutades.
+
+> [!NOTE]
+> Õige lehekülgede saalimiseks ei tohi **Vahemiku** komponentidega seostatud Exceli vahemikke käitusajal muuta. Me ei soovita teil vormindada selle vahemiku lahtrid **Vormindades teksti lahtrina** ja **Automaatse rea kõrguse** Exceli [suvanditega](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84).
+
+Saate lisada valikuliste **Vahemiku** komponentide vahele mitmeid teisi **Vahemiku** komponente, et määrata, kuidas loodud dokument täidetakse.
+
+Kui **Lehe** komponendi pesastatud **Vahemiku** komponentide kogum ei vasta eelnevalt kirjeldatud struktuurile, ilmneb ER-i vormingukujundaja ajal [kinnitamistõrge](er-components-inspections.md#i17). Veateade teavitab teid, et probleem võib käitusajal põhjustada probleeme.
+
+> [!NOTE]
+> Õige väljundi loomiseks ärge määrake **Lehekülje** komponendi all mis tahes **Vahemiku** komponendi sidumist, kui selle **Vahemiku** komponendi **Andmeedastussuuna** atribuut on seatud valikule **Andmeedastus puudub** ja vahemik on konfigureeritud lehe päiste või lehe jaluste loomiseks.
+
+Kui soovite lehekülgedega seotud summeerimist ja loendamist, et arvutada jooksvaid kogusummasid ja kogusummasid lehekülje kohta, on soovitatav konfigureerida nõutavad [Andmete kogum](er-data-collection-data-sources.md) andmeallikad. Selleks, et teada saada, kuidas kasutada **Lehe** komponenti loodud Exceli dokumendi lehekülgede saalimiseks, viige lõpule toimingud [ER-vormingu kujundamisel, et luua loodud dokument Exceli vormingus](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Kitsendused
+
+Exceli **Lehekülgede** nummerdamiseks lehekülje komponendi kasutamisel ei saa te teada loodud dokumendi lõplikke lehti enne, kui lehekülgede saalimine on lõpule viidud. Seetõttu ei saa ER valemite abil lehtede koguarvu arvutada ja printida loodud dokumendi õige arv leheküljed mis tahes leheküljele enne viimast lehekülge.
+
+> [!TIP]
+> Selle tulemuse saavutamiseks Exceli päises või jaluses, kasutades spetsiaalset Exceli [vormingut](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) päiste ja jaluste jaoks.
+
+Konfigureeritud **Lehekülje** komponente ei peeta Exceli malli uuendamisel versiooni Dynamics 365 Finance 10.0.22 redigeeritavas vormingus. Seda funktsiooni kaalutakse finantside täiendavateks väljalaseteks.
+
+Kui konfigureerite Exceli malli [tingimusliku vormingu](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting) kasutamiseks, ei pruugi see mõnel juhul nii hästi töötada.
+
+### <a name="applicability"></a>Kohaldatavus
+
+**Lehe** komponent töötab [Exceli failivormingu](er-fillable-excel.md#excel-file-component) komponendiga ainult siis, kui see komponent on konfigureeritud malli kasutama Excelis. Kui [asendate](tasks/er-design-configuration-word-2016-11.md) Exceli malli Wordi malliga ja käivitate siis redigeeritava ER-vormingu, eiratakse **Lehekülje** komponenti.
+
+Komponent **Leht** töötab ainult siis, kui **EPPlus Teekide kasutamise lubamine elektroonilise aruandluse raamistikus** on lubatud. Käitusajal ilmneb erand, kui ER püüab **Lehe** komponenti töödelda, kui see funktsioon on keelatud.
+
+> [!NOTE]
+> Käitusajal ilmneb erand, kui ER-vorming töötleb **Lehe** komponenti Exceli malli jaoks, mis sisaldab vähemalt üht kehtetule lahtrile viivitud valemit. Käitusaja vigade vältimiseks parandage Exceli mall, nagu on kirjeldatud jaotises [Kuidas parandada #REF! viga](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Jaluse komponent
 
 **Jaluse** komponenti kasutatakse jaluste täitmiseks Exceli töövihikus loodud töölehe allservas.
@@ -197,9 +246,12 @@ Kui kinnitate redigeeritavat ER-vormingut, tehakse järjepidevuse kontroll, et v
 Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad mõned selle dokumendi lahtrid sisaldada Exceli valemeid. Kui funktsioon **Luba EPPlusi teegi kasutamine elektroonilise aruandluse raamistikus** on lubatud, saate kontrollida, millal valemid arvutatakse, muutes kasutatavas Exceli mallis **arvutamise valikute** [parameetrit](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows).
 
 - Valige suvand **Automaatne**, et arvutada kõik sõltuvad valemid iga kord uuesti, kui loodud dokumendile lisatakse uued vahemikud, lahtrid jne.
+
     >[!NOTE]
     > See võib põhjustada mitut seotud valemit sisaldavate Exceli mallide korral jõudlusprobleemi.
+
 - Valige **Käsitsi**, et vältida dokumendi loomisel valemi uuesti arvutamist.
+
     >[!NOTE]
     > Valemi uuesti arvutamine tehakse käsitsi, kui loodud dokument avatakse Excelit kasutades eelvaateks.
     > Ärge kasutage seda valikut, kui konfigureerite ER-i sihtkohta, mis eeldab loodud dokumendi kasutamist ilma selle eelvaateta Excelis (PDF-i teisendamine, meilimine jne)., kuna loodud dokument ei pruugi omada valemeid sisaldavates lahtrites väärtusi.

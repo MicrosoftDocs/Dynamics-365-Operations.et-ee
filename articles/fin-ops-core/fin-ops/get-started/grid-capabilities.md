@@ -2,7 +2,7 @@
 title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775238"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483850"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -30,7 +30,7 @@ Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida
 -  Summade arvutamine
 -  Süsteemist eespool tippimine
 -  Matemaatiliste avaldiste hindamine 
--  Tabeli andmete grupeerimine (lubatud eraldi kasutades **(eelvaade) grupeerimist võrkude** funktsioonis)
+-  Tabeli andmete grupeerimine (lubatud eraldi kasutades **Grupeerimine võrkudes** funktsiooni)
 -  Veergude külmutamine
 
 ## <a name="calculating-totals"></a>Summade arvutamine
@@ -93,7 +93,7 @@ Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse 
 Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabeli andmete grupeerimine
-Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Üks võimalus selle tegemiseks on eksportida andmed Microsoft Excelisse ja kasutada liigendtabeleid, kuid funktsioon **ruudustikes rühmitamine**, mis on üldsusele versioonis 10.0.16 / platvormi värskenduses 40 saadaval ja sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel oma tabeli andmeid põnevatel viisidel Finance and Operationsi rakendustes korraldada. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
+Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Üks võimalus selle tegemiseks on eksportida andmeid Microsoft Excelisse ja kasutada liigendtabeleid, **Grupeerimine võrkudes** funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel oma tabeli andmeid põnevatel viisidel Finance and Operationsi rakendustes korraldada. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
 
 Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue veeru **Rühmitamisalus** ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet. 
 -  Grupi andmete väärtus 
@@ -108,9 +108,6 @@ Kui olete andmed ühe veeru kaupa rühmitanud, saate andmed rühmitada erineva v
 
 Saate igal ajal teisaldada rühmitamise mis tahes veerule paremklõpsates seda veergu ja valides suvandi **Tühista rühmitamine**. Saate rühmitamise kõikidelt veergudelt eemaldada, kui valite suvandi **Ruudustiku suvandid** ja seejärel **Tühista kõikide rühmitamine**.   
 
-Pange tähele, et enne versiooni 10.0.16 / platvormi värskendust 40 on toetatud ainult ühe taseme rühmitamine. Kui nendes versioonides on andmed rühmitatud ja valite erineva veeru jaoks suvandi **Rühmita selle veeru alusel**, algne rühmitamine asendatakse.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Gruppide laiendamine ja ahendamine
 Andmete algsel grupeerimisel on kõik grupid laiendatud. Andmete summeeritud vaateid saate luua üksikute rühmade ahendamise abil või kasutada andmete navigeerimisel grupi laiendamist ja ahendamist. Grupi laiendamiseks või ahendamiseks valige vastava grupi päisereal nupp Rööpnool (>). Pange tähele, et üksikute gruppide laiendamis-/ahendamisolek on **pole** salvestatud isikupärastamise võimalustes.
 
@@ -118,10 +115,10 @@ Andmete algsel grupeerimisel on kõik grupid laiendatud. Andmete summeeritud vaa
 Samamoodi nagu ruudustiku kõigi ridade valimiseks (või valiku tühistamiseks) saate märkida ruudustiku esimese veeru ülaosas oleva ruudu, saate kiiresti valida (või valiku tühistada) kõik grupi read, kui märgite vastava grupi päiserea ruudu. Grupi päiserea märkeruut kajastab alati selle grupi ridade praegust valikuolekut, olenemata sellest, kas kõik read on valitud, ühtegi rida pole valitud või on valitud ainult mõned read.
 
 ### <a name="hiding-column-names"></a>Veeru nimede peitmine
-Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Alates versioonist 10.0.14/Platvormi värskendusega nr 38 saate veeru nime grupi päiseridades peita, valides **Ruudustiku suvandid** > **Peida grupi veeru nimi**.
+Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Te saate veeru nime grupi päiseridades peita, valides **Ruudustiku suvandid** > **Peida grupi veeru nimi**.
 
 ## <a name="freezing-columns"></a>Veergude külmutamine
-Mõned ruudustiku veerud võivad olla piisavalt olulised konteksti jaoks, et te ei soovi neid vaatest välja kerida. Selle asemel soovite, et nende veergude väärtused oleks alati nähtaval. Versioonis 10.0.17 pakub funktsioon **Külmuta ruudustiku veerud** kasutajatele seda paindlikkust. 
+Mõned ruudustiku veerud võivad olla piisavalt olulised konteksti jaoks, et te ei soovi neid vaatest välja kerida. Selle asemel võite soovida, et nende veergude väärtused oleks alati nähtaval. Funktsioon **Külmuta ruudustiku veerud** pakub kasutajatele seda paindlikkust. 
 
 Veeru külmutamiseks paremklõpsake veeru päist ja valige seejärel suvand **Külmuta veerg**. Selle sammu esmakordsel lõpuleviimisel muutub valitud veerg esimeseks veeruks ja ei keri enam vaatest välja. Kõik järgmised külmutatud veerud lisatakse viimasest külmutatud veerust paremale. Saate külmutatud veergude järjestuse vastavalt vajadusele muutmiseks kasutada tavalist liigutamise funktsiooni. Samas ei saa külmutatud veerge liigutada nii, et need ilmuksid külmutamata veergude hulgas. Sarnaselt ei saa külmutamata veerge liigutada nii, et need ilmuksid külmutatud veergude hulgas.
 
@@ -132,32 +129,16 @@ Pange tähele, et uue ruudustiku rea valiku ja rea oleku veerud on esimeses kahe
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kuidas lubada uut ruudustiku juhtelementi oma keskkonnas? 
 
-**10.0.9 / platvormi värskendus 33 või hilisem**
+Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval otse funktsioonihalduses. Pärast funktsioonihalduse funktsiooni lubamist kasutavad kõik järgnevad kasutajaseansid uut ruudustiku juhtelementi. 
 
-Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele avaliku eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](public-preview-terms.md).  
-
-**10.0.8 / Platvormi värskendus 32 ning 10.0.7 / platvormi värskendus 31**
-
-Funktsiooni **Uus ruudustiku juhtelement** saab lubada 1. taseme (arendamine/testimine) ja 2. taseme (liivakast) keskkondades, et pakkuda täiendavat testimist ja kujundusmuudatusi, järgides alltoodud juhiseid.
-
-1.  **Luba lend**: Käivitage järgmine SQL-lause: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Lähtesta IIS**, et tühjendada staatilise eelväljaande vahemälu. 
-
-3.  **Leia funktsioon**: avage tööruum **Funktsiooni haldus**. Kui funktsiooni **Uus ruudustiku juhtelement** ei kuvata kõigi funktsioonide loendis, tehke valik **Otsi värskendusi**.   
-
-4.  **Luba funktsioon**: leidke funktsioon **Uus ruudustiku juhtelement** funktsioonide loendist ja valige üksikasjade paanilt suvand **Luba nüüd**. Pidage meeles, et brauseri värskendamine on nõutav. 
-
-Kõik järgmised kasutajaseansid algavad lubatud uue ruudustiku juhtelemendiga.
+See funktsioon lubatakse vaikimisi versioonis 10.0.21 ja see on mõeldud kohustuslikuks versiooniga 10.0.25. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
-Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada alates versioonist 10.0.13 / platvormi värskendusest 37 saadaolevat API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
+Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
 
  ```this.forceLegacyGrid();```
 
-Seda API-d saab kasutada kuni 2021. aasta oktoobri väljalaskeni, mil uus ruudustiku juhtelement muutub kohustuslikuks. Kui mõne probleemi korral on vaja kasutada seda API-d, teatage sellest Microsoftile.
+See API tasutakse seni, kuni uus ruudustiku kontroll muutub kohustuslikuks, mis on praegu mõeldud aprillile 2022. Kui mõne probleemi korral on vaja kasutada seda API-d, teatage sellest Microsoftile.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Lehe sundimine kasutama uut ruudustikku pärast ruudustikust varem loobumist
 Kui olete uue ruudustiku kasutamisest loobunud, võite soovida hiljem uue ruudustiku uuesti lubada pärast põhiprobleemide lahendamist. Selleks peate lihtsalt eemaldama kutse üksusesse `forceLegacyGrid()`. Muudatus ei jõustub enne, kui toimub üks järgmisest:

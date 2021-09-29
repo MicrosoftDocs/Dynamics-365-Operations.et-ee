@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471712"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500423"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -157,6 +157,7 @@ Järgmised laohalduse funktsioonid ei ole praegu skaalaühiku töökoormustes to
 
 - Koormusele määratud ostutellimuse ridade sissetulev töötlemine.
 - Projekti ostutellimuste sissetulev töötlemine.
+- Maandumiskulude haldamine, reiside kasutamine ja transiitkauba jälgimine.
 - Sissetuleva ja väljamineva töötlemise kaubad, millel on aktiivsed liikumise dimensioonid **Omanik** ja/või **Seerianumber**.
 - Blokeeritud oleku väärtusega varude töötlemine.
 - Varuda oleku muutmine mis tahes töö liikumisprotsessi ajal.
@@ -187,6 +188,7 @@ Järgmine tabel näitab, milliseid väljaminevaid funktsioone toetatakse ja kus 
 |--------------------------------------------------------------|-----|------------------------------|
 | Lähtedokumendi töötlemine                                   | Jah | Ei |
 | Laadimise ja transpordijuhtimise töötlemine                | Jah, kuid ainult koorma planeerimise protsessid. Transpordihalduse töötlemist ei toetata  | Ei |
+| Maandumiskulu ja transiitkauba vastuvõtmine                                         | Jah | Ei |
 | Lattu väljastamine                                         | Jah | Ei |
 | Plaanitud ristlaadimine                                        | Ei  | Ei |
 | Saadetise konsolideerimine                                       | Jah, koorma planeerimisel | Jah |

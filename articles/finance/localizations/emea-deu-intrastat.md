@@ -1,24 +1,26 @@
 ---
 title: Saksa Intrastat
 description: See teema sisaldab teavet Saksamaa Intrastat deklareerimise kohta.
-author: andosip
-ms.date: 08/2/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759839"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487921"
 ---
 # <a name="german-intrastat"></a>Saksa Intrastat
 
-**Intrastat** lehte kasutatakse Euroopa Liidu (EL) riikide vahelise kaubavahetuse aruannete loomiseks ja esitamiseks. Saksa Intrastati deklaratsioon sisaldab aruandluseks teavet kauplemise kohta.
+[!include [banner](../includes/banner.md)]
+
+**Intrastat** lehte kasutatakse Euroopa Liidu (EL) riikide vahelise kaubavahetuse aruannete loomiseks ja esitamiseks. Saksa Intrastati deklaratsioon sisaldab aruandluseks teavet kauplemise kohta. Aruanne on vormindatud vastavalt Saksa ametivõimude juhistele, mis on esitatud [6.2 failideklaratsioonidel INSTAT/XML-vormingus](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html) lehel.
 
 Järgmine tabel näitab väljasid, mis kuvatakse Saksa Intrastati deklaratsioonil.
 
@@ -71,15 +73,16 @@ Järgmine tabel näitab väljasid, mis kuvatakse Saksa Intrastati deklaratsiooni
     3. Sisestage või valige väärtus **Intrastati aruanne** väljal **Aruandevormingu vastendamine**.
     4. Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.
     5. Väljal **Kande kood** valige varaülekannete kandekood. Seda koodi kasutatakse tehingute jaoks, mis põhjustavad vara tegeliku või kavandatud üleandmise hüvitise eest (finantsiline ja muu). Seda kasutatakse ka paranduste puhul.
-    6. Väljal **Kreeditmärge** valige kandekood kaupade tagastamiseks. Seda koodi kasutatakse kaupade tagastamisel pärast seda, kui algne kanne on kandekoodi all kirjendatud.
-    7. Valige väljal **Asutus** Intrastati asutus.
-    8. Minge **maksu** > **kaudsete maksude** > **käibemaksu** > **käibemaksuhaldurid** ja sisestage Intrastati maksuametile järgmine teave:
+    6. Väljal **Kreeditmärge** valige kandekood kaupade tagastamiseks.
+    7. Väljal **Töötaja** valige Intrastat-aruande kontaktisik. Teise võimalusena sisestage või valige väärtused vahekaardil **Kontakt** väljadel **Nimi**, **Telefon**, **Faks**, **Meiliaadress** ja **Interneti-aadress**. Need väljad on aruandesse kaasatud.
+    8. Valige väljal **Asutus** Intrastati asutus.
+    9. Minge **maksu** > **kaudsete maksude** > **käibemaksu** > **käibemaksuhaldurid** ja sisestage Intrastati maksuametile järgmine teave:
 
        - Maksuameti ID
        - Aadress
        - Kontaktandmed
 
-    9. Vahekaardil **Riigi/regiooni atribuudid** väljal **Riik/regioon**, loetlege kõik riigid või regioonid, millega teie organisatsioonil on ärisuhted. Valige iga riigi või regiooni jaoks väljal **Riigi/regiooni tüüp** **EU**, et teie riik või regioon ilmuks teie Intrastat-aruandes.
+    10. Vahekaardil **Riigi/regiooni atribuudid** väljal **Riik/regioon**, loetlege kõik riigid või regioonid, millega teie organisatsioonil on ärisuhted. Valige iga riigi või regiooni jaoks väljal **Riigi/regiooni tüüp** **EU**, et teie riik või regioon ilmuks teie Intrastat-aruandes.
 
 4. Regioonikoodide häälestamine.
 

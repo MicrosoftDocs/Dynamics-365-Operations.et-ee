@@ -1,8 +1,8 @@
 ---
 title: Andmeväljade lisamine maksukonfiguratsioonidele
 description: Käesolev teema kirjeldab maksukonfiguratsioonide kohandamist andmeväljade lisamise abil.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 56b2eae37738ff6a12226671c386e2dd63c380bd4dca1554ef2d1cad0b75faaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725937"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500142"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Andmeväljade lisamine maksukonfiguratsioonidele
 
@@ -30,7 +30,7 @@ See teema kirjeldab, kuidas kohandada maksu konfiguratsioone, kasutades [andmev�
 
 ## <a name="customize-the-tax-data-model"></a>Maksuandmete mudeli kohandamine
 
-1. Avage rakenduses Microsoft Dynamics 365 Finance jaotis **Elektrooniline aruandlus** \> **Maksukonfiguratsioonid**.
+1. Avage rakenduses Microsoft Dynamics 365 Finance jaotis **Elektrooniline aruandlus** > **Maksukonfiguratsioonid**.
 2. Konfiguratsioonipuus valige **Maksuandmete mudel – Euroopa**. Valige toimingupaanilt suvand **Loo konfiguratsioon**.
 3. Valige ripploendist valik **Tuletatud maksustatav dokumendimudel nimest: Maksu andmemudel -- Euroopa, Microsoft**, sisestage uue maksuandmete mudeli nimi ja seejärel valige käsk **Loo konfiguratsioon**.
 4. Valige äsja loodud maksuandmete mudel ja seejärel valige tegevuspaanil suvand **Kujundaja**.
@@ -42,9 +42,9 @@ See teema kirjeldab, kuidas kohandada maksu konfiguratsioone, kasutades [andmev�
 
 ## <a name="customize-the-tax-configuration"></a>Maksukonfiguratsiooni kohandamine
 
-1. Jaotises Finants avage menüü **Elektrooniline aruandlus** \> **Maksukonfiguratsioonid**.
+1. Jaotises Finants avage menüü **Elektrooniline aruandlus** > **Maksukonfiguratsioonid**.
 2. Konfiguratsioonipuus valige **Maksukonfiguratsioon – Euroopa**. Valige toimingupaanilt suvand **Loo konfiguratsioon**.
-3. Valige ripploendist valik **Tuletatud maksuteenuse konfiguratsioon nimest: Maksukonfiguratsioon -- Euroopa, Microsoft**, sisestage uue maksukonfiguratsiooni nimi ja seejärel valige käsk **Loo konfiguratsioon**.
+3. Valige ripploendist **Tuletatud maksuteenuse konfiguratsioon nimest: Maksukonfiguratsioon -- Euroopa, Microsoft**, sisestage uue maksukonfiguratsiooni nimi ja seejärel valige käsk **Loo konfiguratsioon**.
 4. Valige äsja loodud maksukonfiguratsioon ja seejärel valige tegevuspaanil suvand **Kujundaja**.
 5. Valige jaotises **Atribuudid** väljal **Andmemudel** varem loodud kohandatud maksuandmete mudel.
 6. Valige väljal **Andmemudeli versioon** maksuandmete mudeli lõpetatud versioon.
@@ -54,8 +54,11 @@ See teema kirjeldab, kuidas kohandada maksu konfiguratsioone, kasutades [andmev�
 
 ## <a name="implement-tax-features-in-the-customized-tax-configuration"></a>Rakendage maksufunktsioone kohandatud maksukonfiguratsioonis
 
-1. Jaotises Regulatory Configuration Services (RCS) avage **Globaliseerumise funktsioonid** \> **Maks**.
+1. Jaotises Regulatory Configuration Service (RCS) avage **Globaliseerumise funktsioonid** > **Maksud**.
 2. Valige **Lisa**, sisestage uue funktsiooni kohta teave ja seejärel valige käsk **Loo funktsioon**.
 3. Valige funktsioon vahekaardil **Versioon** ja seejärel käsk **Redigeeri**.
 4. Valige vahekaardi **Üldine** väljal **Konfiguratsiooni versioon** kohandatud maksukonfiguratsioon ja versioon.
 5. Dialoogiboksis **Veergude haldamine** valige päise- ja reaveerud, mida soovite oma kohandatud maksumeetmesse kaasata ja seejärel valige paremnoolenupp nende lisamiseks loendisse **Valitud veerud**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

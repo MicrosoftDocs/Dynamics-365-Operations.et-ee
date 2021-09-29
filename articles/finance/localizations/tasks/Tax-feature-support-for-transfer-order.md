@@ -1,8 +1,8 @@
 ---
 title: Maksufunktsiooni tugi üleviimistellimuste jaoks
 description: See teema selgitab uut maksufunktsiooni tuge üleviimistellimustele, kasutades maksuarvutuse teenust.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c47c327841b8c712220e440e2aa6b4fe2b31b4a1ccd03dc0a200dbeb7394071
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721685"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500072"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Maksufunktsiooni tugi üleviimistellimuste jaoks
 
@@ -53,7 +53,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         4. Valige tabelis **Määr** suvand **Lisa**.
         5. Lülitage valikul **On maksuvabastus** sisse nupp **Jah** jaotises **Üldine**.
 
-        ![NL-maksuvabastuse maksukood.](../media/tax-feature-support-02.png)
+           ![NL-maksuvabastuse maksukood.](../media/tax-feature-support-02.png)
 
     - Kui üleviimistellimus on vastu võetud Belgia lattu, rakendatakse pöördtasu mehhanism, kasutades maksukoode **BE-RC-21** ja **BE-RC+21**.
         
@@ -66,7 +66,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         6. Lülitage valikul **On pöördmaks** sisse nupp **Jah** jaotises **Üldine**.
         7. Valige käsk **Salvesta**.
 
-        ![BE-RC-21 maksukood pöördmaksude jaoks.](../media/tax-feature-support-03.png)
+           ![BE-RC-21 maksukood pöördmaksude jaoks.](../media/tax-feature-support-03.png)
         
         Looge maksukood **BE-RC+21**.
         1. Valige suvand **Lisa**, sisestage **BE-RC-21** väljale **Maksukood**.
@@ -76,7 +76,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         5. Sisestage väljale **Maksumäär** väärtus **21**.
         6. Valige käsk **Salvesta**.
 
-        ![BE-RC+21 maksukood pöördmaksude jaoks.](../media/tax-feature-support-04.png)
+           ![BE-RC+21 maksukood pöördmaksude jaoks.](../media/tax-feature-support-04.png)
 
 3. Määratlege maksukoodide kohaldatavus.
 
@@ -97,6 +97,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         7. Sisestage väljadele **Maksugrupp** ja **Kauba maksugrupp** seotud käibemaksugrupp ja kauba käibemaksugrupp, mis on määratletud teie finantssüsteemis.
         
         Saate lisada üleviimistellimuse sissetulekule muu reegli.
+        
         1. Valige tabelis **Rakendatavuse reeglid** suvand **Lisa**.
         2. Väljal **Äriprotsess** valige **Ladu**, et muuta reegel üleviimistellimusel rakendatavaks.
         3. Väljale **Riigist/regioonist lähetamine** sisestage **NLD**.
@@ -105,7 +106,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
         6. Valige väljal **Maksukoodid** suvandid **BE-RC+21** ja **BE-RC-21**.
         7. Sisestage väljadele **Maksugrupp** ja **Kauba maksugrupp** seotud käibemaksugrupp ja kauba käibemaksugrupp, mis on määratletud teie finantssüsteemis.
 
-        ![Kohaldatavusreeglid.](../media/image5.png)
+           ![Kohaldatavusreeglid.](../media/image5.png)
 
 4. Viige uus maksufunktsiooni versioon lõpule ja avaldage see.
 
@@ -115,7 +116,7 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
 
 Üleviimistellimuste lubamiseks ja maksude seadistamiseks järgige neid samme.
 
-1. Jaotises Finantsid avage **Tööruumid** \> **Funktsioonihaldus**.
+1. Jaotises Finantsid avage **Tööruumid** > **Funktsioonihaldus**.
 2. Leidke ja valige loendist funktsioon **Üleviimistellimuse maks** ning seejärel valige **Luba kohe**, et see sisse lülitada.
 
     > [!IMPORTANT]
@@ -128,10 +129,10 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
     > [!IMPORTANT]
     > Peate selle etapi jaotises Finants lõpule viima iga juriidilise isiku puhul, kus soovite, et maksuteenus ja üleviimistellimuste maksufunktsioonid oleks saadaval.
 
-    1. Avage menüü **Maks** \> **Seadistamine** \> **Maksu konfiguratsioon** \> **Maksuteenuse häälestus**.
+    1. Avage menüü **Maksud** > **Seadistamine** > **Maksu konfiguratsioon** > **Maksuteenuse häälestus**.
     2. Väljal **Äriprotsess** valige **Ladu**.
 
-    ![Äriprotsessi välja seadistamine.](../media/image8.png)
+      ![Äriprotsessi välja seadistamine.](../media/image8.png)
 
 4. Kontrollige, kas pöördmaksu mehhanism on seadistatud. Avage menüü **Pearaamat** \> **Seadistus** \> **Parameetrid** ja seejärel veenduge, et vahekaardil **Pöördmaks** on valik **Luba pöördmaks** seatud väärtuseks **Jah**.
 
@@ -140,10 +141,10 @@ Järgige neid samme üleviimistellimusse lisatava maksu seadistamiseks. Siin kuv
 5. Kontrollige, et seotud maksukoodid, maksugrupid, kauba maksugrupid ja KM-i registreerimisnumbrid on jaotises Finants seadistatud vastavalt maksuteenuste juhistele.
 6. Seadistage vahetransiidi konto. See samm on nõutav ainult juhul, kui üleviimistellimusele rakendatav maks ei ole rakendatav maksuvabastuse või pöördmaksumehhanismi puhul.
 
-    1. Avage **Maks** \> **Seadistus** \> **Käibemaks** \> **Pearaamatu sisestusgrupid**.
+    1. Avage **Maksud** > **Seadistus** > **Käibemaks** \ **Pearaamatu sisestusgrupid**.
     2. Valige väljal **Vahetransiidid** pearaamatu konto.
 
-    ![Vahetransiidi konto valimine.](../media/image10.png)
+       ![Vahetransiidi konto valimine.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Peamiste varude seadistamine kannete üleviimiseks
 
@@ -151,7 +152,7 @@ Järgige neid samme, et seadistada peamised varud, et lubada üleviimistellimuse
 
 1. Looge erinevates riikides või regioonides oma ladude jaoks saatmis- ja lähetuskohad ning lisage iga asukoha esmane aadress.
 
-    1. Avage jaotis **Laohaldus** \> **Seadistus** \> **Ladu** \> **Asukohad**.
+    1. Avage jaotis **Warehouse management** > **Seadistus** > **Ladu** > **Saidid**.
     2. Valige suvand **Uus** asukoha loomiseks, mille hiljem määrate laole.
     3. Korrake 2. sammu kõigi teiste asukohta puhul, mille peate looma.
 
@@ -162,11 +163,11 @@ Järgige neid samme, et seadistada peamised varud, et lubada üleviimistellimuse
 
 2. Looge lähetamis-, transiit- ja sihtlaod. Kogu laos säilitatav aadressiteave alistab maksuarvestuse ajal asukoha aadressi.
 
-    1. Avage **Laohaldus** \> **Seadistus** \> **Ladu** \> **Laod**.
+    1. Avage **Laohaldus** > **Seadistus** > **Ladu** > **Laod**.
     2. Valige suvand **Uus** lao loomiseks ja määrake see vastavale asukohale.
     3. Korrake 2. sammu, et luua ladu igale asukohale vastavalt vajadusele.
 
-    ![Ladude seadistamine.](../media/image12.png)
+       ![Ladude seadistamine.](../media/image12.png)
 
     > [!NOTE]
     > Lähetamislaost üleviimistellimuse kannete jaoks peab transiitladu olema väljal **Transiitladu** valitud.
@@ -175,7 +176,7 @@ Järgige neid samme, et seadistada peamised varud, et lubada üleviimistellimuse
 
 3. Veenduge, et üleviimistellimuste kannete varude sisestuste konfiguratsioon on seadistatud.
 
-    1. Avage **Varude haldus** \> **Seadistus** \> **Sisestus** \> **Sisestus**.
+    1. Avage **Varude haldus** > **Seadistus** > **Sisestus** > **Sisestus**.
     2. Kontrollige vahekaardil **Varud**, et pearaamatukontol on seadistatud nii **Lao väljamineku** kui ka **Lao sissetuleku** sisestamine.
 
         ![Lao väljamineku ja lao sissetuleku sisestamise seadistamine.](../media/image14.png)
@@ -187,3 +188,6 @@ Järgige neid samme, et seadistada peamised varud, et lubada üleviimistellimuse
     4. Kontrollige, kas pearaamatukonto on seadistatud **Üksusesiseseks müügireskonto** sisestamiseks.
 
         ![Üksusesisese müügireskonto sisestuse seadistamine.](../media/image16.png)
+        
+        
+  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

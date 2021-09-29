@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715330"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500299"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
@@ -562,7 +562,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kas
 > Kui seadmed kasutavad sageli erinevaid riistvarajaamu, siis soovitame konfigureerida Modern POS-i paluma kassapidajatel maksmisprotsessi alustamisel riistvarajaama valida. Klõpsake valikuid **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**. Valige register ja määrake siis valiku **Valige maksmisel** väärtuseks **Jah**. Kasutage jaotusgraafikut **1090** muudatuste sünkroonimiseks kanali andmebaasiga.
 
 ## <a name="extensibility"></a>Laiendatavus
-Teavet riistvarajaama laiendatavuse stsenaariumide kohta leiate jaotisest [Riistvarajaama laiendatavus](dev-itpro/hardware-station-extensibility.md).
+Teavet riistvarajaama laiendatavuse stsenaariumide kohta leiate jaotisest [POS Integreerimine uue riistvaraseadmega ja laienduste paigaldaja genereerimine](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Turvalisus
 Praeguste turvastandardite kohaselt tuleks kasutada tootmiskeskkonnas järgmisi sätteid: 

@@ -1,8 +1,8 @@
 ---
-title: Arhiivi prinditud kliendi arved räsinumbritega
+title: Arhiivi prinditud kliendiarved räsinumbritega
 description: See teema kirjeldab, kuidas lubada arhiveerimine, et talletada prinditud kliendiarved koos räsinumbritega.
-author: ilyako
-ms.date: 03/05/2021
+author: ilkond
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 474f5f19d709f3f04a2dbf4383360f58db7ecc8953e8624d9eef92286c52d4d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724203"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500523"
 ---
-# <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Arhiivi prinditud kliendi arved räsinumbritega
+# <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Arhiivi prinditud kliendiarved räsinumbritega
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Mõnedes riikides on juriidiline nõue talletada süsteemis arvutatud räsinumbrid koos mõne dokumendi väljaprintiga. Räsinumbreid saab kasutada ametivõimudele aruandluseks ja auditi ajal.
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345262"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500586"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Varude inventuuri põhjusekoodid
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Põhjusekoodide abil saate analüüsida inventuuriprotsessi tulemusi ja protsessi käigus tekkivaid võimalikke lahknevusi. Saate määrata inventuuri tegemise põhjuse, nagu katkine kaubaalus või varude korrigeerimine, mis põhineb varude näidistel. Samal ajal saate kasutada korrigeerimisfunktsiooni, et sisestada vaba kaubavaru korrigeerimiste väärtus sobivale vastaskontole, mis põhineb iga laokorrektsiooni põhjusel.
 
@@ -42,8 +41,6 @@ Enne süsteemi häälestamist on soovitatav määratleda põhjusekoodidega töö
 - Kas põhjusekoodid peaksid juhtima finantsilist vastaskonto sisestamist?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Lülitage põhjusekoodi funktsioonid oma süsteemis sisse
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Kui te ei näe kõiki selles teemas kirjeldatud funktsioone süsteemis, peate tõenäoliselt lülitama sisse *vaba kaubavaru sisestamise, kasutades vastaskontode funktsiooniga ühendatud konfigureeritavaid põhjusekoode*. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 

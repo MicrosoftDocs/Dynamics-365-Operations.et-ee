@@ -1,8 +1,8 @@
 ---
 title: Ergutussüsteemi plaanide loomine
-description: Ergutussüsteem moodustab töötaja ebaregulaarse tasu, nagu lisatasud või aktsiapreemiad. Selles artiklis kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate kasutada ergutussüsteemi ja registreerida töötaja ergustussüsteemi plaani.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Selles teemas kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate kasutada ergutussüsteemi ja registreerida töötaja ergutussüsteemi plaani.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,32 +12,32 @@ ms.search.scope: Human Resources
 ms.custom: 16011
 ms.assetid: fc3a394e-9ac6-4f8c-9162-dc16ec22720f
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5bceecbf0095eaac6c8cab3a954cd6d03fd380c66061b3996169fced7e14ca9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8e3f8535e509b4c1922f083e4182eb5f1a83c3c
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732317"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484164"
 ---
 # <a name="create-variable-compensation-plans"></a>Ergutussüsteemi plaanide loomine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Ergutussüsteem moodustab töötaja ebaregulaarse tasu, nagu lisatasud või aktsiapreemiad. Selles artiklis kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate kasutada ergutussüsteemi ja registreerida töötaja ergustussüsteemi plaani.
+Ergutussüsteem moodustab töötaja ebaregulaarse tasu, nagu lisatasud või aktsiapreemiad. Selles teemas selgitatakse, kuidas seadistada muutuva hüvitise jaoks vajalikke komponente ja registreerida töötaja muutuva töötasuga plaani.
 
 Ergutussüsteemi summade arvutamine töötajatele võib põhineda mitmel teguril, näiteks töötaja tulemustel, töötaja palgatasemel ja osakonna tulemustel.
 
 ## <a name="variable-compensation-components"></a>Ergutussüsteemi osad
 ### <a name="create-compensation-types"></a>Tasutüüpide loomine
 
-**Ergutussüsteemi tüübid** on kohustuslik osa. Ergutussüsteemi tüübid võimaldavad kirjeldada organisatsioonis kasutatavaid ergutussüsteeme. Samuti võimaldavad need määrata, kas tasu makstakse sularahas või mitterahalistes vahendites (nt aktsiatega).
+**Ergutussüsteemi tüübid** on kohustuslik osa. **Ergutussüsteemi tüübid** võimaldavad kirjeldada organisatsioonis kasutatavaid ergutussüsteeme. Samuti võimaldavad need määrata, kas tasu makstakse sularahas või mitterahalistes vahendites (nt aktsiatega).
 
 ### <a name="describe-vesting-rules"></a>Pensionireeglite kirjeldamine
 
-Soovi korral saavad ettevõtted seadistada **pensionireegleid**. Pensionireeglid kirjeldavad, kuidas tuleks preemiat aja jooksul eraldada. Näiteks võib pensionireegel sätestada, et töötaja saab nelja järgmise aasta jooksul igal aastal 25 protsenti kogu preemiast. Pensionireeglid on üksnes informatiivsed.
+Soovi korral saavad ettevõtted seadistada **Pensionireegleid**. **Pensionireeglid** kirjeldavad, kuidas tuleks preemiat aja jooksul eraldada. Näiteks võib pensionireegel sätestada, et töötaja saab nelja järgmise aasta jooksul igal aastal 25 protsenti kogu preemiast. Pensionireeglid on üksnes informatiivsed.
 
 ## <a name="variable-compensation-plans"></a>Tulemustasu plaanid
 **Ergutussüsteemi plaan** sisaldab reegleid, arvutusmeetodeid ja vaikeväärtusi registreerunud töötajate ergutussüsteemi arvutamiseks. Ergutussüsteemi plaani loomisel peate määrama ergutussüsteemi tüübi. Ergutussüsteemi tüüp määrab, kas süsteem arvutab preemiana valuutasumma või ühikute arvu. Peate seadistama ka arvutusmeetodi.
@@ -47,24 +47,24 @@ Soovi korral saavad ettevõtted seadistada **pensionireegleid**. Pensionireeglid
 
 Tulemustasu summa võib põhineda töötaja regulaarse põhitasu protsendil või määratud ühikute arvul.
 
--   Tehke valik **Alusprotsent** vaikeprotsendi sisestamiseks ja määrake, kas alus peaks olema töötaja põhipalgamäär või töötaja palgataseme kontrollpunkt. Töötaja ametile määratakse palgatase. Üks palgastruktuuri viitepunkt võib olla määratud põhipalgaplaani kontrollpunktiks. Süsteem kasutab töötaja ametikoha puhul seda palgataset ja ristviitab sellele kontrollpunktiga, mis on nimetatud töötaja põhipalgaplaanis, et leida töötaja palgataseme kontrollpunkti summa. Kontrollpunkti summat kasutatakse siis töötaja fikseeritud palgamäära asemel tulemustasu alusena.
+-   Tehke valik **Alusprotsent** vaikeprotsendi sisestamiseks ja määrake, kas alus peaks olema töötaja põhipalgamäär või töötaja palgataseme kontrollpunkt. Töötaja ametile määratakse palgatase. Üks palgastruktuuri viitepunkt võib olla määratud põhipalgaplaani kontrollpunktiks. Töötaja hüvitise taseme kontrolltaseme suuruse leidmiseks kasutatakse töötaja tööhüvitise taset ja sellele viidatakse kontrollpunktiga, mis on kirjas töötaja fikseeritud hüvituskavas. Kontrollpunkti summat kasutatakse siis töötaja fikseeritud palgamäära asemel tulemustasu alusena.
 -   Valige **Ühikute arv**, et sisestada ühikute vaikearv, iga ühiku väärtus ja ühiku väärtuse valuuta, kui tasuplaan on mitterahaline tasu (nt 200 aktsiat väärtusega 40 dollarit) või lihtsalt ühikute arv, kui tasuplaan on rahalise tulemustasu kohta. Rahalise preemia puhul saab töötaja nimetatud valuutaühikute arvu, mida kasutatakse tema põhipalgaplaani puhul (nt 500 ühikut väärtusega 1 dollar). Üks-ühele seose juhtimise abil saab näidata, kas ühikute arvu ja ühiku väärtuse vahel on otsene üks-ühele vastendus. Kui koostate ergutussüsteemi plaani rahapõhisele plaanile, kasutades ühikute arvu, lukustatakse see valik automaatselt väärtusele **Jah** ja ühiku väärtus on **1,0000**.
 
-Säte **Palkamise reegel** võimaldab määrata, kas kõik töötajad peaksid saama ühesugust palgatõusu, olenemata nende palkamise kuupäevast (**Palkamise reegel** = **Pole**) või peaksid töötajad saama preemiaprotsenti selle põhjal, kui kaua nad tsükli vältel palgatud olid (**Palkamise reegel** = **Protsent**). 
+Säte **Palkamise reegel** määrab, kas kõik töötajad peaksid saama ühesugust palgatõusu, olenemata nende palkamise kuupäevast (**Palkamise reegel** = **Pole**) või peaksid töötajad saama preemiaprotsenti selle põhjal, kui kaua nad tsükli vältel palgatud olid (**Palkamise reegel** = **Protsent**). 
 
-**Mõjujõud** võimaldab kohandada töötaja preemiat töötaja osakonna tulemuste põhjal. Igale osakonnale saab määrata tulemuste näitajad lehel **Osakonnad** jaotises **Seotud vormid** &gt; **Tasu** &gt; **Tulemused**. Osakonna töötajatele makstav preemia sõltub välja **Saavutatava eesmärgi protsent** väärtusest, mis näitab osakonna tulemust.
+**Mõjujõud** kohandab töötaja preemiat töötaja osakonna tulemuste põhjal. Igale osakonnale saab määrata tulemuste näitajad lehel **Osakonnad** jaotises **Seotud vormid** &gt; **Tasu** &gt; **Tulemused**. Osakonna töötajatele makstav preemia sõltub välja **Saavutatava eesmärgi protsent** väärtusest, mis näitab osakonna tulemust.
 
 -   Kui osakonna tulemus on 100 protsenti, faktooritakse selle osakonna töötajate preemiat väljal **Väljamakse 100% juures** määratud protsendi võrra.
 -   Kui osakonna tulemus on üle 100 protsendi, lisab süsteem väljal **1% kohta üle eesmärgi** määratud protsendi väljal **Väljamakse 100% juures** määratud protsendile, kuni jõutakse väljal **Kõrgeim lubatud väljamakse** määratud väärtuseni.
 -   Kui osakonna jõudlus on alla 100 protsendi, lahutab süsteem väljal **1% kohta alla eesmärgi** määratud protsendi väljal **Väljamakse 100% juures** määratud protsendist, kuni jõutakse väljal **Madalaim lubatud väljamakse** määratud väärtuseni.
 
-Saate seadistada läveprotsentidele **tolerantsi tasemeid**, et juhul, kui finantsvõimendus viib protsendi läveprotsendist väljapoole, kuvatakse hoiatusteade. 
+Saate seadistada läveprotsentidele **Tolerantsi tasemeid**, et juhul, kui finantsvõimendus viib protsendi läveprotsendist väljapoole, kuvatakse hoiatusteade. 
 
-Vaikimisi otsib süsteem töötaja ametikohale määratud osakonda. Mõne töötaja preemia võib siiski sõltuda mitme osakonna tulemustest. Sellisel juhul saab töötaja ergutussüsteemi registreerimisele määrata mitmesugused osakonnad ja preemiaprotsendi, mis iga osakonna tulemustele eraldatakse. Lisateavet leiate järgmisest teemast „Ergutussüsteemis registreerimine”. 
+Vaikimisi kasutatakse töötajate auhindade jagamiseks töötaja ametikohale määratud osakonda. Mõne töötaja preemia võib siiski sõltuda mitme osakonna tulemustest. Sellisel juhul saab töötaja ergutussüsteemi registreerimisele määrata mitmesugused osakonnad ja preemiaprotsendi, mis iga osakonna tulemustele eraldatakse. Lisateavet leiate järgmisest teemast „Ergutussüsteemis registreerimine”. 
 
 Finantsvõimendust kasutatakse ainult juhul, kui tasuprotsessi käivitamisel on valitud **Tulemuspalk**. 
 
-Vahekaardil **Tasemete alistamised** saate alistada preemia vaikeprotsendi või ühikute arvu töötaja palgataseme põhjal. Kui valiku **Luba tasemete alistamised** väärtuseks on ergutussüsteemi plaanides registreeritud töötajate puhul määratud **Jah**, võtab süsteem taseme töötaja ametikohalt ja otsib siis seda tasemete alistamise tabelist, et määratleda selle taseme protsent või ühikute arv. Kui taset tasemete alistamise tabelist ei leita, kasutatakse vaikeprotsenti või ühikute arvu vahekaardilt **Üldine**. Protsenti ja ühikute arvu saab alistada ka töötaja registreerimisel ergutussüsteemi plaanis.
+Vahekaardil **Tasemete alistamised** saate alistada preemia vaikeprotsendi või ühikute arvu töötaja palgataseme põhjal. Kui valiku **Luba tasemete alistamised** väärtuseks on ergutussüsteemi plaanides registreeritud töötajate puhul määratud **Jah**, võrreldakse töötaja töökoha taset tasemete alistamise tabeliga, et määrata selle taseme protsent või ühikute arv. Kui taset tasemete alistamise tabelist ei leita, kasutatakse vaikeprotsenti või ühikute arvu vahekaardilt **Üldine**. Protsenti ja ühikute arvu saab alistada ka töötaja registreerimisel ergutussüsteemi plaanis.
 
 ## <a name="variable-compensation-enrollment"></a>Tulemustasu jaoks registreerimine
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Määratlege, kellele plaan kohaldub

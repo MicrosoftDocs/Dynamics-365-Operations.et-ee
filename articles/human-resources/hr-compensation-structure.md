@@ -1,8 +1,8 @@
 ---
 title: Hüvitise struktuuri arendamine
-description: See artikkel annab ülevaate põhipalga plaani loomisest ja sobivusreeglite abil töötajate plaani lisamisest.
-author: andreabichsel
-ms.date: 02/10/2020
+description: Selles teemas selgitatakse, kuidas luua fikseeritud hüvituskava ja registreerida töötajad abikõlblikkuse reeglite kaudu plaani.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec30d6259b755bf7c304e8796b32d373027ce7ff
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732365"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483948"
 ---
 # <a name="develop-a-compensation-structure"></a>Hüvitise struktuuri arendamine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See artikkel annab ülevaate põhipalga plaani loomisest ja sobivusreeglite abil töötajate plaani lisamisest. See artikkel kasutab USMF-i demoandmeid ja kehtib hüvitise ja soodustuste halduritele.
+See teema kirjeldab fikseeritud hüvitiste plaani loomist ja töötajate registreerimist plaani abikõlblikkuse reeglite kaudu. See teema kasutab USMF-i demoandmeid ja kehtib hüvitise ja soodustuste halduritele.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Põhipalga plaani loomine
 
@@ -42,7 +42,7 @@ See artikkel annab ülevaate põhipalga plaani loomisest ja sobivusreeglite abil
 
 7. Väljal **Tüüp** valige, kas põhipalgaplaan on **rea-**, **klassi-** või **etapiplaan**.
 
-8. Märkeruut **Soovitamine lubatud** toimib protsessi sündmusena plaani lisatud mistahes tegevuse vaikeväärtusena. Tasu töötlemisel saate soovituste lubamisega tühistada arvutatud juhise summa.
+8. Märkeruut **Soovitamine lubatud** on protsessi sündmusena plaani lisatud mistahes tegevuse vaikeväärtusena. Tasu töötlemisel saate soovituste lubamisega tühistada arvutatud juhise summa.
 
 9. Väli **Vahemikust väljajäämise tolerants** võimaldab määrata, kuidas käsitletakse tasusummasid, mis ei kuulu antud tasemel määratletud tasustruktuuri vahemikku. Välja **Vahemikust väljajäämise tolerants** määramine suvandile **Puudub** võimaldab kasutada mis tahes hüvitise summat. Suvand **Paindlik tolerants** hoiatab kasutajaid, kui hüvitise summa on selle taseme viitepunkti summade miinimumist väiksem või maksimumist suurem. Kasutajad võivad hoiatust ignoreerida ja jätkata. Valik **Jäik tolerants** annab tõrketeate, kui töötaja tasu jääb väljapoole taseme minimaalset või maksimaalset viitepunkti ning töötaja tasu korrigeeritakse automaatselt määratud vahemikku.
 

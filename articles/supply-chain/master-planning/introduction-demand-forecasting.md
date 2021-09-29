@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736667"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484045"
 ---
 # <a name="demand-forecasting-overview"></a>Nõudluse prognoosimise ülevaade
 
@@ -34,7 +34,9 @@ Nõudluse prognoosimist kasutatakse müügitellimuste sõltumatu nõudluse ja kl
 Alusprognoosi loomiseks edastatakse kannete ajaloo kokkuvõte Azure’is hostitud Microsoft Azure’i masinõppe teenusele. Teenust ei jagata kasutajate vahel, mistõttu saab seda hõlpsalt tööstuspõhistele nõuetele kohandada. Supply Chain Managementi abil saate prognoosi visualiseerida, korrigeerida ning vaadata prognoosi täpsuse jõudlusnäidikuid.
 
 > [!NOTE]
-> Microsoft Azure Machine Learning Studio (klassikaline) on nõutav masinõppega prognoosi loomiseks. Alates jaanuarist 2021 on see saadaval Ida-Jaapanis, Ameerika Ühendriikide lõuna-keskosas; Kagu-Aasias, Ameerika Ühendriikude lääne-keskosas ning Lääne-Euroopas. Lisateavet praeguse saadavuse kohta vt [Azure’i tooted regiooniti](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> Microsoft Azure Machine Learning Studio (klassikaline) on nõutav masinõppega prognoosi loomiseks. Alates 1. detsembrist 2021 ei saa te uusi Masinõppestuudio (klassikalisi) ressursse luua. Siiski saate oma olemasoleva Masinõppestuudio (klassikaliste) ressursside kasutamist jätkata kuni 31. augustini 2024. Värskendatud teabe saamiseks vaadake [Azure Masinõppestuudio](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio).
+> 
+> Dynamics 365 Supply Chain Management versioon 10.0.23 ja uuemad toetavad uut Azure Masinõppestuudiot.
 
 ## <a name="key-features-of-demand-forecasting"></a>Nõudluse prognoosimise võtmefunktsioonid
 

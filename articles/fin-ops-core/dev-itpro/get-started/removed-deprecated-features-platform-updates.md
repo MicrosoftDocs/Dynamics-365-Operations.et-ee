@@ -2,7 +2,7 @@
 title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463615"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500105"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -38,7 +38,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad. Te ei pea enam aruandeid jälgima, kuna see funktsioon on asendatud teiste teenustega. |
+| **Aegumise/eemaldamise põhjus** |   Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist.|
 | **Asendatud teise funktsiooniga?**   | Ei |
 | **Mõjutatud tootealad**         | SQL-i aruanded: praegune DTU, praeguse DTU üksikasjad, lukustamise üksikasjad, praeguse plaani juhendi loend, päringu ID-de loendi toomine, SQL-i päringuplaani toomine antud plaani ID jaoks, päringuplaanide ja käivitamise oleku toomine, konfiguratsiooni saamine, oota statistikat, kõige kallimate päringute loend |
 | **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
@@ -181,7 +181,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | [Uue tabeli juhtelement](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Versioonis 10.0.13 on uus tabeli juhtelement üldiselt saadaval ja kliendid saavad funktsiooni valikuliselt sisse lülitada. Uus tabeli juhtelement muutub kohustuslikuks 2021. aasta oktoobri väljalaskes. Kui uus tabeli juhtelement muutub kohustuslikuks ei saa **forceLegacyGrid()** API-t enam kasutada. |
+| **Olek**                         | Versioonis 10.0.13 on uus tabeli juhtelement üldiselt saadaval ja kliendid saavad funktsiooni valikuliselt sisse lülitada. Uus võrgukontroll lülitatakse vaikimisi sisse 2021. aasta oktoobri väljaandega ja praegu on plaanitud teha see kohustuslikuks 2022. aasta aprillis. Kui uus tabeli juhtelement muutub kohustuslikuks ei saa **forceLegacyGrid()** API-t enam kasutada. |
 
 ### <a name="personalization-without-saved-views"></a>Salvestatud vaadeteta isikupärastamine 
 

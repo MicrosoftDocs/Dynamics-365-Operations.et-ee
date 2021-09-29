@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417078"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486942"
 ---
 # <a name="swedish-intrastat"></a>Rootsi Intrastat
 
@@ -48,7 +48,7 @@ Lisateavet leiate teemast [ER konfiguratsioonide allalaadimine konfiguratsioonit
 3. Sisestage või valige väärtus **Intrastati aruanne** väljal **Aruandevormingu vastendamine**.
 4. Valige kiirkaardi **Kaubaartikli hierarhia** väljal **Kategooriahierarhia** väärtus **Intrastat**.
 5. Väljal **Kande kood** valige varaülekannete kandekood. Seda koodi kasutatakse tehingute jaoks, mis põhjustavad vara tegeliku või kavandatud üleandmise hüvitise eest (finantsiline ja muu). Seda kasutatakse ka paranduste puhul. Rootsi ettevõtted kasutavad ühekohalist kandekoodi.
-6. Väljal **Kreeditmärge** valige kandekood kaupade tagastamiseks. Seda koodi kasutatakse kaupade tagastamisel pärast seda, kui algne kanne on kandekoodi all kirjendatud. Rootsi ettevõtted kasutavad ühekohalist kandekoodi.
+6. Väljal **Kreeditmärge** valige kandekood kaupade tagastamiseks.
 7. Vahekaardil **Riigi/regiooni atribuudid** väljal **Riik/regioon**, loetlege kõik riigid või regioonid, millega teie organisatsioonil on ärisuhted. Iga riigi puhul, mis on ELi osa, väljal **Riigi/regiooni tüüp** valige **EL**, et teie riik või regioon ilmuks teie Intrastat-aruandes.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>Intrastati deklaratsiooni tooteparameetrite seadistamine

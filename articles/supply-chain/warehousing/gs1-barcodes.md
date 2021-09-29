@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ef28fcaf308225a78bcbac42f591e6b24b21b1b1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384533"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500326"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>GS1-vöötkoodid ja QR-koodid
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Laotöötajad peavad mobiilse seadme skanneri kasutamisel kauba, paleti või konteineri liikumise registreerimiseks täitma mitu ülesannet. Need ülesanded võivad hõlmata nii vöötkoodide skannimist kui ka teabe käsitsi sisestamist mobiilsesse seadmesse. Vöötkoodid kasutavad ettevõtteomast vormingut, mille määratlete ja haldate Microsoft Dynamics 365 Supply Chain Management abil.
 

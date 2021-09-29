@@ -2,7 +2,7 @@
 title: Power Appsi lõuendirakenduste manustamine
 description: Selles teemas seletatakse, kuidas manustada kliendis Microsoft Power Appsi lõuendirakendusi, et suurendada toote funktsionaalsust.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344525"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488050"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Power Appsi lõuendirakenduste manustamine
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps on teenus, mis võimaldab arendajatel ja mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiilsete seadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Finance and Operationsi rakenduste puhul toetatakse integratsiooni Power Appsiga. Teie, teie organisatsiooni või laiema ettevõtete „ökosüsteemi” arendatud lõuendirakendusi saab manustada Finance and Operationsi rakendustes, et suurendada toote funktsionaalsust. Näiteks saate luua Power Appsis lõuendirakenduse, mis täiendab Finance and Operationsi rakendust teisest süsteemist toodud teabega.
 

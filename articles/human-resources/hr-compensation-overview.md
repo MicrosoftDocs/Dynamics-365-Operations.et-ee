@@ -1,8 +1,8 @@
 ---
-title: Hüvitusplaanid
-description: Hüvitise ja eeliste haldurid saavad kasutada hüvituste haldust, et hallata ning töödelda organisatsiooni töötajate fikseeritud ja ergutussüsteemi plaane.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Palgaplaanid
+description: See teema kirjeldab, kuidas kasutada kompensatsioonihaldust kompensatsiooniplaanide haldamiseks ja töötlemiseks.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732437"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483802"
 ---
-# <a name="compensation-plans"></a>Hüvitusplaanid
+# <a name="compensation-plans"></a>Palgaplaanid
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Hüvitise ja eeliste haldurid saavad kasutada hüvituste haldust, et hallata ning töödelda organisatsiooni töötajate fikseeritud ja ergutussüsteemi plaane.
+Kompensatsiooni ja eeliste haldurid saavad kasutada **Kompensatsioonihaldust**, et hallata ning töödelda organisatsiooni töötajate fikseeritud ja ergutussüsteemi plaane.
 
 ### <a name="introduction"></a>Sissejuhatus
 
@@ -43,7 +43,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 <thead>
 <tr class="header">
 <th>Komponent</th>
-<th>Lisateave ...</th>
+<th>Lisateave</th>
 </tr>
 </thead>
 <tbody>
@@ -89,7 +89,7 @@ Järgmises tabelis on tasuprotsessi komponendid, mis võivad kuuluda teie ettev�
 </tr>
 <tr class="even">
 <td>kontrollpunkt</td>
-<td>Kontrollpunkt näitab, seda, mida peetakse tasu tasemel ideaalseks tasumääraks kõigi töötajate puhul. Taseme plaanide struktuuride puhul on kontrollpunktid tavaliselt vahemike keskpunktid. Palgaastmikuga struktuurid kasutavad kontrollpunkte harva. Põhipalgaplaani kontrollpunkti saab määrata vormil Põhipalgaplaanid.</td>
+<td>Kontrollpunkt näitab, seda, mida peetakse tasu tasemel ideaalseks tasumääraks kõigi töötajate puhul. Taseme plaanide struktuuride puhul on kontrollpunktid tavaliselt vahemike keskpunktid. Palgaastmikuga struktuurid kasutavad kontrollpunkte harva. Põhilist kompensatsiooniplaani kontrollpunkti saab määrata lehel **Põhipalgaplaanid**.</td>
 </tr>
 <tr class="odd">
 <td>Tööfunktsioonid</td>

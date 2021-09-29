@@ -2,7 +2,7 @@
 title: Kolmanda osapoole rakenduste manustamine
 description: Selles teemas seletatakse, kuidas manustada kliendis kolmandate osapoolte rakendusi, et suurendada toote funktsionaalsust.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345406"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488230"
 ---
 # <a name="embed-third-party-apps"></a>Kolmanda osapoole rakenduste manustamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Paljud kliendid kasutavad oma äritegevuses mitmesuguseid rakendusi. Mõned neist rakendustest on kolmandate osapoolte veebirakendused, mis töötavad koos Finance and Operations rakendustega. Sujuvama kasutajakogemuse võimaldamiseks saate kasutada **Täieliku lehekülje rakenduste** funktsiooni, et neid kolmanda osapoole rakendusi otse oma rakendustesse Finance and Operations manustada (eeldusel, et kolmanda osapoole rakendused võimaldavad end manustada). Sel viisil pääsevad kasutajad ligi veebisaitidele ja rakendustele, mida nad vajavad ilma, et nad vahetaks vahekaarte või aknaid.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729406"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500471"
 ---
 # <a name="process-review-and-post-rebates"></a>Tagasimaksete protsess, ülevaatamine ja sisestamine
 
@@ -43,8 +43,6 @@ Saate igale tehingule selle jälgimiseks määrata oleku. Sellel olekul on ainul
 Mine **Tagasimaksete haldus \> Perioodilised ülesanded \>FIFO ostuhinna arvutamine**. Kuvatavas dialoogiboksis valige arvutuse käivitamiseks **OK**.
 
 ## <a name="create-source-transactions"></a>Lähtekannete loomine
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Saate luua müügi- või ostutellimusi, millel on lähtetehingud kas enne või pärast rakendatava tagasimaksehalduse tehingu loomist.
 
@@ -158,8 +156,6 @@ Kindlate tehingu või tehingu ridade töötlemise asemel võite käivitada parti
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Tehingute töötlemine tagasimakse tööpingi abil
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Kindlate tehingu või tehingu ridade töötlemise asemel võite mitme samaaegse tehingu töötlemiseks kasutada *tagasimakse töölauda*. Võite valikuliselt rakendada kirjefiltreid ja/või seadistada korduva graafiku. Te ei pea ridu valima. Süsteem töötleb kõiki ridu, mis vastavad teie seadistatud kuupäeva- ja filtrinõuetele.
 
 Pakkumiste töötlemiseks tagasimakse töölaua abil tehke järgmist.
@@ -213,8 +209,6 @@ Tagasimaksete haldamise tehingute vaatamiseks ja muutmiseks allahindlustehingute
 > Kui kasutate nõude esitamise protsessi, siis järgmise perioodi töötlemiseks sisaldab kannete loend kõiki eelmise sisestuse tagasimaksmata kandeid ja valitud perioodi uusi kandeid.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Tagasimaksehalduse kannete kuvamine ja redigeerimine tagasimakse töölaua abil
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Tagasimaksete haldamise tehingute vaatamiseks ja muutmiseks allahindlustöölaua kaudu tehke järgmist.
 
@@ -295,8 +289,6 @@ Kindlate tehingu või tehingu ridade kannete sisestamise asemel võite käivitad
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Sisestage tehingud allahindluse töölaua abil
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Pärast kannete töötlemist, tagasimakset või mahakandmist järgige neid samme tagasimakse töölaua kasutamiseks, et üle vaadata ja sisestada ühe või mitme konkreetse kanderead kõigi tehingute jaoks.
 
 1. Minge **Tagasimaksehaldus \> Tagasimaksete haldusse tehingud \> Tagasimakse töölaud**.
@@ -332,8 +324,6 @@ Tagasimaksehalduse tehinguga seotud töölehe sisestuste ülevaatamiseks toimige
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Töölehtede ülevaatus tagasimakse tööpingi abil
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Töölehtede ülevaatamiseks tagasimakse töölaua abil tehke järgmist.
 
 1. Minge **Tagasimaksehaldus \> Tagasimaksete haldusse tehingud \> Tagasimakse töölaud**.
@@ -342,8 +332,6 @@ Töölehtede ülevaatamiseks tagasimakse töölaua abil tehke järgmist.
 1. Kuvatakse vastavate töölehtede, dokumentide või üksuste loend. Mis tahes töölehe, dokumendi või üksuse kohta lisateabe saamiseks valige selle rida ja seejärel valige toimingupaanil suvand **Kuva üksikasjad**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Tagasimaksehalduse kanded mahaarvamise töölaual
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Kui sisestate tagasimaksehalduse kande, mil on üks järgmistest **makse tüübi** väärtustest, loob süsteem kliendi mahaarvamise töölehe või vabas vormis arve vastavale kliendi kontole:
 
@@ -358,8 +346,6 @@ Lisateavet vt jaotisest [Mahaarvamiste haldamine mahaarvamise töölaual](deduct
 
 ## <a name="purge-unposted-transactions"></a>Sisestamata kannete likvideerimine
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Pärast kannete töötlemist, tagasimakset või mahakandmist järgige neid samme valitud sisestamata kannete likvideerimiseks.
 
 1. Minge **Tagasimaksehaldus \> Tagasimaksete haldusse tehingud \> Tagasimakse töölaud**.
@@ -368,8 +354,6 @@ Pärast kannete töötlemist, tagasimakset või mahakandmist järgige neid samme
 4. Sisestamata kannete kustutamiseks klõpsake nuppu **OK**.
 
 ## <a name="cancel-a-posted-provision"></a>Sisestatud eraldise tühistamine
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Pärast eraldise töötlemist ja sisestamist järgige neid samme sisestatud eraldiskannete tühistamiseks.
 

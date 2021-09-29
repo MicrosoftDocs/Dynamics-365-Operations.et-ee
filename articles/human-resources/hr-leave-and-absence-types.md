@@ -1,8 +1,8 @@
 ---
 title: Puhkuste ja puudumiste tüüpide konfigureerimine
 description: Seadistage puhkuse tüübid, mida töötajad saavad rakenduses Dynamics 365 Human Resources valida.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730414"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485803"
 ---
 # <a name="configure-leave-and-absence-types"></a>Puhkuste ja puudumiste tüüpide konfigureerimine
 
@@ -65,9 +65,9 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
 
 1. Määrake puhkuse tüübi ümardamise suvandid. Valikud hõlmavad suvandeid **Puudub**, **Üles**, **Alla** ja **Lähim**. Saate määrata ka puhkuse tüübi ümardamise täpsuse.
 
-2. Määrake puhkuse tüübiks **Puhkuse parandused**. Kui valite selle suvandi, kasutab rakendus Human Resources pühade arvu, mis langevate tööpäevadele, et määratleda, kuidas lisada puhkuse tüübile vaba aeg. Näiteks kui jõulupüha langeb esmaspäevale, lahutab rakendus Human Resources lisandumiste töötlemisel puhkuse tüübist ühe päeva.
+2. Määrake puhkuse tüübiks **Puhkuse parandused**. Kui valite selle valiku, kasutatakse tööpäevale langevate puhkepäevade arvu, et määrata kindlaks, kuidas puhkusetüübi jaoks vaba aega koguda. Näiteks kui jõulupüha langeb esmaspäevale, lahutab rakendus Human Resources lisandumiste töötlemisel puhkuse tüübist ühe päeva.
 
-   Pühad määrate tööajakalendris. Lisateavet vt teemast [Tööajakalendri loomine](hr-leave-and-absence-working-time-calendar.md)
+   Pühad määrate tööajakalendris. Lisateabe saamiseks vaata [Tööajakalendri loomine](hr-leave-and-absence-working-time-calendar.md).
    
  3. Seadistage puhkusetüübi kohta **Ülekantav puhkusetüüp**. Selle valiku korral kantakse ülekantavad saldod üle konkreetsele puhkusetüübile. Samuti tuleb ülekantava puhkuse tüüp lisada puhkuse ja puudumiste plaanile. 
  
@@ -76,7 +76,7 @@ Rakenduse Dynamics 365 Human Resources puhkuse tüübid määratlevad puhkuste t
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Konfigureerige puhkuse tüübi jaoks vajalik manus
 
 > [!NOTE]
-> **Manuse nõutud** välja kasutamiseks peate funktsioonihalduses funktsiooni **(Eelvaade) Puhkusetaotluste jaoks vajaliku manuse seadistamine**. Lisateavet eelvaatefunktsioonide sisselülitamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md).
+> **Manus nõutud** välja kasutamiseks peate funktsioonihalduses funktsiooni **Puhkusetaotluste jaoks vajaliku manuse seadistamine** sisse lülitama. Lisateabe jaoks funktsioonide sisselülitamise kohta vaata [Funktsioonide haldamine](hr-admin-manage-features.md).
 
 1. Valige lehel **Puhkus ja puudumine** vahekaart **Lingid** jaotises **Seadistamine** valik **Puhkuse ja puudumise tüübid**.
 
@@ -87,7 +87,7 @@ Töötajad peavad manuse üles laadima, kui nad esitavad uue puhkusetaotluse, mi
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Puhkuseühikute (tunnid/päevad) konfigureerimine puhkusetüübi järgi
 
 > [!NOTE]
-> Puhkuseühikute kasutamiseks puhkuse tüübi funktsiooni kohta peate Funktsioonihalduses kõigepealt sisse lülitama **(Eelvaade) Puhkuseühikute konfigureerimine puhkusetüübi kohta**. Lisateavet eelvaatefunktsioonide sisselülitamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md).
+> Puhkuseühikute kasutamiseks puhkuse tüübi funktsiooni kohta peate Funktsioonihalduses kõigepealt sisse lülitama funktsiooni **Puhkuseühikute konfigureerimine puhkusetüübi kohta**. Lisateabe jaoks funktsioonide sisselülitamise kohta vaata [Funktsioonide haldamine](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > Vaikimisi kasutavad puhkusetüübid juriidilises isikus puhkuse parameetrite konfiguratsioonist juriidilise isiku tasemel puhkuseühikuid.

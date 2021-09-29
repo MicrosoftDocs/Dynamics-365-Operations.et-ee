@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474888"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506851"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 Supply Chain Management versioonis 10.0.19 (juuni 2021)
 
@@ -40,8 +40,7 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 | Varud ja logistika | [Lao käivitamisvõimaluste astmelised täiustused koos skaalaüksustega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Sõnumi töötleja sõnumid](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Laovarude korrigeerimine](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Varud ja logistika | [Müügipakkumise lehel dokumendi sissejuhatuse ja dokumendi lõppväljade otsingufunktsioonid](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | See funtsiooni lisab otsingufunktsioonide **Dokumendi sissejuhatus** ja **Dokumendi järeldus** väljal **Müügipakkumiste** lehel.<br><br>Funktsioon on vaikimisi lubatud. |
 | Varud ja logistika | [Lao käivitamine oma kohandatud riistvara servaskaala ühikutega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Juurutage servaskaala ühikud kohandatud riistvaras LBD-ga](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Tootmine | [Lao käivitamine oma kohandatud riistvara servaskaala ühikutega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planeerimine | [Planeerimise optimeerimise lõpmatu võimsuse ajastamine](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Piiramatu võimsusega planeerimine](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Tootmine | [Lao käivitamine oma kohandatud riistvara servaskaala ühikutega](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Juurutage servaskaala ühikud kohandatud riistvaras LBD-ga](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Planeerimine | Päringupõhise plaanitud tellimuse kinnitamine | [Kindlad plaanitud tellimused](../master-planning/planning-optimization/planned-order-firming.md) |
 | Tooteteabe haldus | [Variandi soovituste lehe täiustused](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Eelmääratletud tootevariantide loomine](../pim/tasks/create-predefined-product-variants.md) |
 

@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415317"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500579"
 ---
 # <a name="product-readiness"></a>Toote valmisolek
 
 [!include [banner](../includes/banner.md)]
 
-Saate kasutada valmisoleku kontrolle, et tagada, et nõutavad põhiandmed täpsustatakse toote kohta enneselle kannetes kasutamist. Kui kasutatakse valmisoleku kontrolle, vastutab kasutaja või meeskond kindla eelmääratletud tootega seotud teabe kinnitamise eest. Kui toote kohta on avatud valmisoleku kontroll, ei saa toodet kannetes kasutada.
+Saate kasutada valmisoleku kontrolle, et tagada, et nõutavad põhiandmed täpsustatakse toote kohta enne selle kannetes kasutamist. Kui kasutatakse valmisoleku kontrolle, vastutab kasutaja või meeskond kindla eelmääratletud tootega seotud teabe kinnitamise eest.
 
-Tehnilise toote, variandi või versiooni märkeruut **Aktiivne** on saadaval ainult siis, kui kõik nõutavad andmed on sisestatud ja kinnitatud ning pärast seda on kõik valmisoleku kontrollid töödeldud. Seejärel saab toodet, versiooni või varianti kasutada kannetes. Saate luua valmisoleku kontrolli uute toodete, uute variantide ja uute tehniliste versioonide jaoks.
+Pärast kõigi nõutavate andmete sisestamist ja kontrollimist ning pärast kõigi valmisoleku kontrollide töötlemist saate insenertehnilise toote, variandi või versiooni jaoks märkeruudu **Aktiivne** märkida. Kui toote, versiooni või variandi jaoks pole üht või mitut tšekki töödeldud, siis kui proovite märkida märkeruutu **Aktiivne**, kuvatakse teile kiire hoiatus, et kõik kontrollid pole lõpule viidud.
 
-Te saate rakendada ka valmisolekukontrollid standardsetele (mitteinsenerilistele) toodetele. Lisateavet vt selle teema [Häälestamist väljastatud tootemalli abil](#standard-products) selles teemas hiljem.
+Saate luua valmisoleku kontrolli uute tehniliste toodete, variantide ja versioonide jaoks. Valmisolekukontrolli saate rakendada ka standardsetele (mitte-tehnilistele) toodetele (vaata ka [Standardsete toodete valmisolekukontrollid](#standard-products)). 
+
+Tehingutes saate kasutada standardtooteid, kuigi kõik valmisoleku kontrollid pole lõpule viidud. Kui peate blokeerima toote kasutamise tehingutes, kasutage selle töötsükli olekut. Saate määrata töötsükli oleku, mis blokeerib toote kasutamise tehingutes, ja seejärel, pärast kõigi valmisoleku kontrollide lõpetamist, saate määrata uue töötsükli oleku, mis võimaldab nõutavaid tehinguid.
 
 ## <a name="types-of-readiness-checks"></a>Valmisoleku kontrollide tüübid
 

@@ -2,7 +2,7 @@
 title: Kviitungivormingute häälestamine ja kujundamine
 description: See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kviitungite, arvete ja muude dokumentide printimise viisi. Dynamics 365 Commerceis on vormi kavandi kujundaja funktsioon, millega saab hõlpsalt ja graafiliselt luua ning muuta mitmesuguseid vormi kavandeid.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715354"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500165"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Kviitungivormingute häälestamine ja kujundamine
 
@@ -46,7 +46,12 @@ See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kvii
 
 ## <a name="print-images"></a>Piltide printimine
 
-Kviitungi kujundaja sisaldab muutujat **Logo**, mida saab kasutada kviitungile prinditavate piltide määratlemiseks. Pildid, mis muutuja **Logo** abil kviitungitele trükitakse peaksid olema monokroomise bitmapi (.bmp) failitüübiga. Kui kviitungi kujundajas on määratud .bmp-pilt, kuid printerisse saatmisel seda ei prindita, võib faili suurus olla liiga suur või pildi pikslite mõõdud ei ole printeriga ühilduvad. Kui nii juhtub, proovige vähendada pildifaili eraldusvõimet.   
+Kviitungi kujundaja sisaldab muutujat **Logo**. Selle muutuja abil saate määrata pildi, mis tuleks kviitungitele printida. Pildid, mis trükitakse kviitungitele muutuja **Logo** abil peaksid olema monokroomise bitmapi (.bmp) failitüübiga. Kui kviitungi kujundaja on määranud bitmapi kujutise, kuid seda ei prindita kviitungi printerile saatmisel, võib põhjuseks olla üks järgmistest probleemidest:
+
+- Faili suurus on liiga suur või pildi pikslimõõtmed ei ühildu printeriga. Sel juhul proovige vähendada pildifaili eraldusvõimet või mõõtmeid.
+- Mõned objektide linkimise ja müügipunkti sisestamise (OPOS) printeri draiverid ei rakenda meetodit **PrintMemoryBitmap**, mida riistvarajaamad kasutavad logopiltide printimiseks. Sel juhul proovige lisada lipu **HardwareStation.Extension.config** fail oma pühendatud või jagatud riistvarajaama:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Kviitungi vormingu kujundamine
 

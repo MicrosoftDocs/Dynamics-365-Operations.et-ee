@@ -2,7 +2,7 @@
 title: Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 description: Selles teemas selgitatakse, kuidas kontrollida konfigureeritud elektroonilise aruandluse (ER) komponente, et vältida tekkida võivaid käitusaja probleeme.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718619"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488110"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Käitusaja probleemide ennetamiseks konfigureeritud ER-i komponendi kontrollimine
 
@@ -229,6 +229,12 @@ Järgmises tabelis antakse ülevaade ER-i pakutavate kontrollide ülevaade. Nend
 <p>Päised/jalused (&lt;komponendi tüüp: päis või jalus&gt;) pole kooskõlas</p>
 <p><b>Käitusaeg:</b> Viimast konfigureeritud komponenti kasutatakse käitusajal, kui konfigureeritud ER-vormingu mustandversioon on käivitatud.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Lehekomponendi ebaühtlane säte</a></td>
+<td>Andmete terviklikkus</td>
+<td>Viga</td>
+<td>Andmeedastuseta on rohkem kui kaks vahemikukomponenti. Palun eemaldage mittevajalikud komponendid.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Muutke konfigureeritud vormingut, kustutades ühe vastuolulise **Exceli\\päis**
 #### <a name="option-2"></a>Suvand 2
 
 Muutke **päise/jaluse välimuse** atribuudi väärtust ühes vastuolulises **Exceli\\päise** või **Exceli\\jaluse** komponedis.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Lehekomponendi ebaühtlane säte
+
+Kui [konfigureerite](er-fillable-excel.md) ER-vormingu komponenti kasutama Exceli malli väljamineva dokumendi loomiseks, saate lisada **Exceli\\lehekülje** komponendi loodud dokumendi lehekülgedeks ER-valemite abil. Iga lisatud **Exceli\\lehe** komponendi jaoks saate lisada palju pesastatud [Vahemiku](er-fillable-excel.md#range-component) komponente ja püsida ühilduv endiselt järgmise [struktuuriga](er-fillable-excel.md#page-component-structure):
+
+- Esimese pesastatud **Vahemiku** komponendi saab konfigureerida nii, et **Andmeedastuse suuna** atribuudi väärtuseks on määratud **Andmeedastus puudub**. Seda vahemikku kasutatakse lehepäiste loomiseks dokumentides.
+- Saate lisada palju teisi pesastatud **Vahemiku** komponente, kus **Andmeedastussuuna** atribuut on seatud väärtusele **Vertikaalne**. Neid vahemikke kasutatakse loodud dokumentide täitmiseks.
+- Viimase pesastatud **Vahemiku** komponendi saab konfigureerida nii, et **Andmeedastuse suuna** atribuudi väärtuseks on määratud **Andmeedastus puudub**. Seda vahemikku kasutatakse lehe jaluste loonud dokumentides ja nõutud leheküljepiiride lisamiseks.
+
+Kui te ei järgi ER-vormingu seda struktuuri ER-vormingu kujundajas konstruktsiooni ajal, ilmneb valideerimistõrge ja kuvatakse järgmine tõrketeade: "Andmeedastuseta on üle kahe vahemikukomponendi. Palun eemaldage mittevajalikud komponendid."
+
+### <a name="automatic-resolution"></a>Automaatne lahendamine
+
+Selle probleemi automaatseks lahendamiseks pole saadaval ühtegi valikut.
+
+### <a name="manual-resolution"></a>Käsitsi lahendamine
+
+#### <a name="option-1"></a>Suvand 1
+
+Muutke konfigureeritud vormingut, muutes kõikide vastuolude **Exceli\\Vahemiku** komponentide **Andmeedastussuuna** atribuuti.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

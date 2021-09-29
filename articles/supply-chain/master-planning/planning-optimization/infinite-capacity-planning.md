@@ -2,7 +2,7 @@
 title: Piiramatu võimsusega plaanimine
 description: Sellest teemast leiate teavet Planning Optimization piiramatu võimsuse plaanimise kohta. See kirjeldab ka funktsiooni praeguseid piiranguid.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471664"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506803"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Piiramatu võimsusega plaanimine
 
@@ -27,7 +27,12 @@ ms.locfileid: "7471664"
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Lülitage sisse piiramatu võimsuse planeerimise funktsioon
 
-Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruum ja lülitage funktsioon *Plaanitud optimeerimine plaanitud tootetellimustele* sisse.
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+
+- **Moodul:** *Koondplaneerimine*
+- **Funktsiooni nimi:** *Planeerimise optimeerimise lõpmatu võimsuse ajastamine*
+
+Selle funktsiooni kohta lisateabe saamiseks vaadake [Planeerimine koos ressursside valikuga vastavalt võimalustele](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Lisatud funktsionaalsus
 
@@ -42,7 +47,7 @@ Planeerimisprotsessi ajal võtab süsteem arvesse ka operatsioonile määratud *
 - Ressursi tüüp
 - Ressurss
 - Ressursigrupp
-- Võimalus
+- Võimalus (Lisateabe saamiseks vaadake [Planeerimine koos ressursside valikuga vastavalt võimalustele](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Inimressurssidega seotud nõudeid (nt oskused või tunnistuse nõuded) ei toetata veel.
@@ -55,7 +60,6 @@ Kokkuvõttena toetab Planning Optimization planeerimine kõige sagedamini kasuta
 
 Kui kasutate plaanimiseks Planning Optimization`i, rakenduvad järgmised piirangud:
 
-- See funktsioon toetab ainult tööde planeerimist. Operatsioonide planeerimisega seotud sätteid ei loeta planeerimisel, olenemata koondplaanide planeerimisviisist.
 - See funktsioon toetab ainult piiramatut võimsust.
 - Funktsioon ei toeta ressursi koormuse funktsioone.
 - See funktsioon ei arvesta protsessi praaki.

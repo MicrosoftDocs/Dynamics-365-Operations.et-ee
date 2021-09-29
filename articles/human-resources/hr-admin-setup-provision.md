@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441161"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488079"
 ---
 # <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
@@ -41,6 +41,8 @@ Enne uue tootmiskeskkonna ettevalmistamise alustamist peavad olema täidetud jä
 ## <a name="provision-a-human-resources-trial-environment"></a>Human Resources proovikeskkonna ettevalmistamine
 
 Enne oma esimese kausta või tootmiskeskkonna ressursi ressursiks saatmist võite soovida Human Resources funktsionaalsuse kinnitamiseks ette võtta [Human Resources proovikeskkonna](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. 
+
+Proovikeskkonnad pakuvad võimalust hinnata inimressursside funktsioone üksikisikute puhul, kellel pole veel juurdepääsu Inimressursside keskkonnale. Kui kasutate proovikeskkonda ja autenditud kasutajal on juba juurdepääs ühele või mitmele olemasolevale Inimressursside keskkonnale, suunatakse kasutaja ümber olemasolevasse keskkonda või keskkondade loendisse.
 
 Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud 60-päevase prooviajaga. Proovikeskkonna aegumisel keskkond ja kõik selle sisalduvad andmed kustutatakse ning neid ei saa taastada. Keskkonda ei saa teisendada kasti või tootmiskeskkonda. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
@@ -135,7 +137,12 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda rak
    
     - **Toetuseta geograafiline asukoht** - keskkond peab olema toetatud geograafiline asukoht. Lisateavet leiate artiklist [Toetatud geograafiad](hr-admin-setup-provision.md#supported-geographies).
 
-6. Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata. 
+6. Topeltkirjutuse võimalusi personaliandmete integreerimiseks Power Apps keskkonnaga saab kasutada ainult siis, kui keskkonna jaoks on valitud suvand **Luba Dynamics 365 rakendused**. Vaata [Topeltkirjutuse kodulehte](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) – lisateabe saamiseks topeltkirjutuse kohta.
+
+    > [!NOTE]
+    > Suvand **Luba Dynamics 365** rakendused peab olema valitud keskkonna Power Apps loomise ajal. Kui suvandit ei ole ettevalmistamise ajal valitud, ei saa te topeltkirjutust kasutada andmete integreerimiseks Dynamics 365 Human Resources ja Power Apps keskkonna vahel ega installida Dynamics 365 rakendusi, näiteks Dynamics 365 Sales ja Field Service keskkonnale. See valik ei ole tühistatav. Lisateabe saamiseks vaata [Olulistest kaalutlustest uue keskkonna loomisel](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) Power Platform dokumentatsiooni saidil.
+
+7. Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata. 
 
 ### <a name="supported-geographies"></a>Toetatud geograafilised graafikud
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744174"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488198"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Luba olemasolevate toodete muudatuste haldamine
 
@@ -47,7 +47,9 @@ Seega, kui teil on eristatav toode, saate seda muuta ainult tehniliseks tooteks,
 
 Igale tehnilisele tootele tuleb määrata *tehnilise toote kategooria*. See määramine tuleb teha viisardi **Teisenda tehniliseks tooteks** käitamisel. Tehnilise toote kategooriad peavad *enne* nende toodete teisendamist olemas olema kõigi asjakohaste standardtoodete puhul.
 
-Tehnilise toote kategooria annab aluse tehnilise toote loomiseks ning see loob vaikeväärtuste ja -poliitikate komplekti. Tehnilise toote kategooria peab vastama tootele, millele te selle määrate. Näiteks tootetüüp ja dimensioonigrupp peavad vastama nii tootele kui ka selle tehnilise toote kategooriale. Lisateavet vt teemast [Tehnilised versioonid ja tehniliste toodete kategooriad](engineering-versions-product-category.md).
+Tehnilise toote kategooria annab aluse tehnilise toote loomiseks ning see loob vaikeväärtuste ja -poliitikate komplekti. Tehnika atribuute ja nende vaikeväärtusi (nagu on määratletud tehnika kategoorias) rakendatakse ka tulenevale tehnikatootele. Saate redigeerida atribuudiväärtusi ja/või lisada tulemuseks saadud tootele vajaduse korral rohkem tehnika atribuute.
+
+Tehnilise toote kategooria peab vastama tootele, millele te selle määrate. Näiteks tootetüüp ja dimensioonigrupp peavad vastama nii tootele kui ka selle tehnilise toote kategooriale. Lisateavet vt teemast [Tehnilised versioonid ja tehniliste toodete kategooriad](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > Viisard **Teisenda tehniliseks tooteks** saab teisendada toote ainult tehnilisteks toodeteks, mille puhul versiooni kannetes ei jälgita. Seepärast tuleb suvandi **Jälgi kannete versiooni** väärtuseks olemasolevate toodete teisendamiseks loodavate tehnilise toote kategooriate puhul seada *Ei*.
