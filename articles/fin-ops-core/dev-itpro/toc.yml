@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Platvormi versiooni 10.0.20 värskendused (august 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Platvormi versiooni 10.0.19 värskendused (juuni 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1076,13 +1074,15 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: Kontsernisiseste tellimuste filtreerimine tellimuse ja tellimuseridade sünkroonimise vältimiseks
                       href: data-entities/dual-write/filtering-intercompany-orders.md
-                - name: Topeltkirjutamise haldamine
+                - name: Topeltkirjutuse haldamine
                   items:
                     - name: Üksuse- ja väljavastenduste kohandamine
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Topeltkirjutuse juhised
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Mitme üksusevastenduse käsitsemine
                       href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: Juriidilise isiku redigeerimine pärast topeltkirjutamise seadistamist
+                    - name: Juriidilise isiku redigeerimine pärast topeltkirjutuse seadistamist
                       href: data-entities/dual-write/edit-legal-entity.md
                     - name: Tõrkehaldus ja teatised
                       href: data-entities/dual-write/errors-and-alerts.md

@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: 'Parameetrid, mida planeerimise optimeerimine ei kasuta'
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Tarnegraafik
+                  href: master-planning/supply-schedule.md
                 - name: Filtrite rakendamine plaanile
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Koondplaneerimine koos nõudluse prognoosiga
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Väljamineva plaanitud kontsernisisese nõudluse kuvamine
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Sisemise tarneahela klientidega koostöö tegemine
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Netonõuded ja sidumisteave seoses sisseehitatud koondplaneerimisega
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Eelarvestus
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Ostutellimuse heakskiitmise mobiilne tööruum
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Kontsernisisese ostutellimuse loomine ja arveldamine sisekasutuseks
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Kontsernisisese tellimuse hinnaerinevuste kontrollimine
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Kaupade vastuvõtu registreerimine ostutellimusel
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Ostutellimuse loomine
               items:
                 - name: Ostutellimuste loomine käsitsi
@@ -2725,10 +2729,66 @@
               items:
                 - name: Hinnasimulatsioon
                   href: sales-marketing/price-simulation.md
-                - name: Müügipakkumiste hulgiloomine
+                - name: Müügipakkumiste hulgi loomine
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Müügipakkumiste loomine ja redigeerimine
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Kontsernisisene kaubavahetus
+              items:
+                - name: Kontsernisisese kaubavahetuse seadistamine
+                  items:
+                    - name: Kontsernisisese kaubavahetuse seadistamine
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Kontsernisisesed parameetrid
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Hankijate, klientide ja kaupade seadistamine kontsernisisese kaubavahetuse jaoks'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Tasude seadistamine kontsernisisestel tellimustel
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Kontsernisisese tellimuse sisestusparameetrite seadistamine
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Kontsernisisese teabe sünkroonimine
+                  items:
+                    - name: Kontsernisiseste hindade ja allahindluste sünkroonimine
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Kontsernisiseste tasude sünkroonimine
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Kontsernisisese klienditeabe sünkroonimine
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Kontsernisiseste likvideerimiskoodide sünkroonimine
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Kontsernisisesed müügitellimused ja arved
+                  items:
+                    - name: Kontsernisiseste ostu- ja müügitellimuste loomine mitmes ettevõttes
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Kontsernisisesed tellimused ja tagastustellimused
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Kontsernisisese müügitellimuse loomine sisekasutuseks
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Kontsernisisese müügitellimuse loomine ja arveldamine väliskliendi puhul
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Kontsernisisesed reserveeringud
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Algse kontsernisisese müügitellimuse muutmine või kustutamine
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Kontsernisiseste tellimuste muutmine
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Kontsernisisesed partii- ja seerianumbrid
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Kontsernisisesed saatelehed
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Kontsernisiseste kliendiarvete maksete automaatne registreerimine
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Kontsernisisesed ostutellimused
+                  items:
+                    - name: Kontsernisisese ostutellimuse loomine ja arveldamine sisekasutuseks
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Kontsernisisese tellimuse hinnaerinevuste kontrollimine
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Kontsernisisesed valuuta konverteerimised
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Kontsernisisene koondplaneerimine
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: Tagastused
               items:
                 - name: Müügitagastused
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Väljalaadimiskulu mooduli häälestamine ja konfigureerimine
               items:
+                - name: Süsteemi väljalaadimiskulu mooduli sisselülitamine
+                  href: landed-cost/landed-cost-enable.md
                 - name: Väljalaadimiskulu parameetrid
                   href: landed-cost/landed-cost-parameters.md
                 - name: Väljalaadimiskulu hangete parameetrid
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Asukohakorralduse varude komplekteerimise ajaline jaotus
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Ankurdamine
+                      href: warehousing/anchoring.md
                     - name: Väljastuste sortimine
                       href: warehousing/outbound-sorting.md
                     - name: Pane seinale – pane kauplusesse
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Vanima partii komplekteerimine mobiilsel seadmel
                       href: warehousing/pick-oldest-batch.md
+                - name: Mobiilsete seadmete globaalsed parameetrid
+                  href: warehousing/mobile-device-parameters.md
                 - name: Mobiilse seadme kasutaja sätted
                   href: warehousing/mobile-device-user-settings.md
                 - name: Laorakenduse sündmusetöötlus

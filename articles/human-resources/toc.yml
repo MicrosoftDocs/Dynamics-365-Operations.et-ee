@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 20. september 2021
+          href: hr-whats-new-2021-09-20.md
         - name: 06. september 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23. august 2021
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Kinni jäänud pakett-tööde lähtestamine
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Dataverse'i sünkroonimise lähtestamine
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Analüütilisi aruandeid ei värskendata
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Power Appsi halduskeskuses ei saa keskkonda luua
@@ -481,10 +485,16 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Puhkusetaotlus
                   href: hr-admin-integration-payroll-api-leave-request.md
-            - name: Soodustustega seotud olemid
+            - name: Soodustustega seotud üksused
               items:
                 - name: Palgaarvestuse töötaja soodustusplaan
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Muud üksused
+              items:
+                - name: Isiku nime ajalugu
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Valuutakurss
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Suvandikomplektid
               items:
                 - name: Sugu
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Globaalse aadressiraamatu konfigureerimine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Aadressi häälestamine
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Aadressiraamatute KKK
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Aadressiraamatute konfigureerimine
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: ACA aruandlus
                   href: hr-benefits-management-aca-reports.md
+                - name: Soodustuste avaldus
+                  href: hr-benefits-statement.md
             - name: Soodustusprogrammi määratlemine ja haldamine
               href: hr-benefits-manage-program.md
             - name: Soodustuse saamise õiguse eeskirjad

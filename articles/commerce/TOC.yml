@@ -1398,12 +1398,16 @@
               items:
                 - name: Commerce'i lokaliseerimine Venemaa jaoks
                   href: localizations/rus-commerce-localization.md
-                - name: Kliendiaadressi lihtsustatud vorming Commerce'i kassas Venemaa jaoks
-                  href: localizations/rus-simplified-address.md
                 - name: Commerce'i lokaliseerimine Venemaa jaoks – häälestamine
                   href: localizations/rus-commerce-setup.md
                 - name: Ettemaksed Commerce'is Venemaa jaoks
                   href: localizations/rus-commerce-prepayments.md
+                - name: Kliendiaadressi lihtsustatud vorming Commerce'i kassas Venemaa jaoks
+                  href: localizations/rus-simplified-address.md
+                - name: Fiskaalprinteri integratsiooni näide Venemaa jaoks
+                  href: localizations/rus-fpi-sample.md
+                - name: Klienditeabe haldus Venemaa jaoks
+                  href: localizations/rus-customer-information.md
             - name: Rootsi
               items:
                 - name: Kassaaparaadi funktsioonid
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Globaalse aadressiraamatu konfigureerimine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Aadressi häälestamine
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Aadressiraamatute KKK
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Aadressiraamatute konfigureerimine
@@ -2329,7 +2335,11 @@
         - name: Laiendatavus
           items:
             - name: Kaubanduse arendus ja laiendatavus
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: Commerce IT-spetsialistidele ja arendajatele
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Kohaliku arenduskeskkonna häälestus
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Võrgukanali laiendatavus
               items:
                 - name: Võrgukanali laiendatavuse ülevaade

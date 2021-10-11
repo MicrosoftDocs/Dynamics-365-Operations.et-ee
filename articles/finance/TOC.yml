@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Honorarilepingu haldus
               href: accounts-payable/royalty-contract.md
+            - name: Algsetele arvetele viitamine kreeditarvetes (hankija arved)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Maksed ja tasakaalustamised
               items:
                 - name: Ostureskontro tsentraliseeritud maksed
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Hetktõmmiste ülevaade
                   href: finance-insights/payment-snapshots.md
+            - name: Finance Insightsi tõrkeotsingu KKK
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Projektihaldus ja -arvestus
           items:
             - name: Projektihalduse ja -arvestuse ülevaade
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Mitme KM-i registreerimise aruandlus
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Austria aruandlus
+                          items:
+                            - name: Käibemaksudeklaratsioon
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Prantsusmaa aruandlus
                           items:
                             - name: Käibemaksudeklaratsioon
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Piiriüleste teenuste aruanne
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Intrastati aruanne
+                - name: Austria Intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Ostulõivud
                   href: localizations/emea-aut-purchase-duties.md
+                - name: Käibemaksudeklaratsioon
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
                 - name: Bahreini ülevaade
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Kvartali KM-i kommunikatsiooniaruanne
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Musta loendi aruanne
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Pädevuskuupäev ja fiskaaltööleht
                   href: localizations/emea-ita-competence-date.md
                 - name: Põhivarade kulum
@@ -3801,6 +3809,8 @@
           items:
             - name: Elektroonilise aruandluse ülevaade
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Elektroonilise aruandluse komponendid
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Konfiguratsioonid
               items:
                 - name: Konfiguratsioonide loomine
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Globaalse aadressiraamatu konfigureerimine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Aadressi häälestamine
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Aadressiraamatute KKK
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Aadressiraamatute konfigureerimine
