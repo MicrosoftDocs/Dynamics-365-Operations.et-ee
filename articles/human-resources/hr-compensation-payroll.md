@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483778"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559603"
 ---
 # <a name="ready-to-pay"></a>Maksmiseks valmis
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Kui soovite märkida töötaja maksmiseks valmis olevaks, peate esmalt lubama funktsioonihalduses **(Eelvaate) palgaarvestuse integratsiooni** funktsiooni. Lisateavet funktsioonide eelversioonide lubamise kohta vt [Funktsioonide haldamine](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Kui üks neist kinnitustest ebaõnnestub, ei saa te töötajat maksevalmis märk
 
 Kui väli **Maksmiseks valmis** on **Ei**, näitab see, et peate töötaja profiili lõpuleviimiseks midagi tegema. See ei peata andmete avatud saatmist üheski andmeüksuses. 
 
-## <a name="known-issues"></a>Teadaolevad probleemid
+## <a name="process-automation"></a>Protsesside automatiseerimine
 
-- Funktsiooni **Sujuv töötajate sisenemine** tuleb funktsioonihalduses keelata. Selle funktsiooni kasutamisel ei tööta hüvitise haldamise tööruumi paanid korralikult.
-- **Töötaja** lehel **Palgaarvestuse** vahekaardil on grupp **Maksmiseks valmis** saadaval igale kasutajarollile. 
+Saate automatiseerida kõikide töötajate kinnitamise [Protsessi automatiseerimise](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation)abil. **Kompensatsiooni halduse** tööruumis minge **Lingid** \> **Parameetrid** \> **Prostsessi automatiseerimine**.
 
 ## <a name="see-also"></a>Vt ka
 

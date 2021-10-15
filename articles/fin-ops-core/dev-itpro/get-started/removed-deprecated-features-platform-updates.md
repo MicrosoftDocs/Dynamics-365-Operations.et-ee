@@ -2,7 +2,7 @@
 title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500105"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595141"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -32,14 +32,26 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
 
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.21 värskendused
+
+### <a name="skype-for-business-online-support"></a>Skype'i ärirakenduse veebiväljaande tugi
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Skype'i ärirakenduse veebiväljaanne on käibelt kõrvaldatud. Lisateabe saamiseks vaadake, [Skype'i ärirakenduse veebiväljaanne on käibelt kõrvaldatud](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Asendatud teise funktsiooniga?**   | Praegu mitte, ehkki võime edaspidi kaaluda Teams'i kohaloleku lisamist.|
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. **Skype on lubatud** säte on välja lülitatud alates väljalaskest 10.0.21. Selle sätte eemaldamise eesmärk on 2022. aasta aprilliks. Kuid funktsioon lõpetab töö pärast seda, kui Skype töörühm on teenuse sulgenud. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Funktsioon aegub 2021. aasta augustist
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Lifecycle Services’i (LCS) SQL aruanded
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** |   Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist.|
-| **Asendatud teise funktsiooniga?**   | Ei |
+| **Aegumise/eemaldamise põhjus** | Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist.|
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
 | **Mõjutatud tootealad**         | SQL-i aruanded: praegune DTU, praeguse DTU üksikasjad, lukustamise üksikasjad, praeguse plaani juhendi loend, päringu ID-de loendi toomine, SQL-i päringuplaani toomine antud plaani ID jaoks, päringuplaanide ja käivitamise oleku toomine, konfiguratsiooni saamine, oota statistikat, kõige kallimate päringute loend |
 | **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
 | **Olek**                         | Aegunud: Planeeritud eemaldamise kuupäev oktoobris 2021. |
@@ -48,8 +60,8 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad.  |
-| **Asendatud teise funktsiooniga?**   | Ei |
+| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad. Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist. |
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
 | **Mõjutatud tootealad**         | SQL-i tegevused: plaanijuhendi loomine, et sundida plaani ID-d, luua plaanijuhend tabeli vihjete lisamiseks, plaani juhendi eemaldamine, lehelukkude keelamine/lukustamine ja lukustamise eskalatsioon, tabeli statistika värskendamine, indeksi uuesti loomine, indeksi loomine |
 | **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
 | **Olek**                         | Aegunud: Planeeritud eemaldamise kuupäev oktoobris 2021. |
@@ -158,7 +170,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Üldiselt on kohandatud koodi pakutav kasu piiratud, samal ajal kui selle toetamiseks on vaja märkimisväärseid ressursse ja arvutusvõimsust. Kohandatud koodi kasutavad peamiselt aruande loojad, et kutsuda kohandatud koodi moodulist välja avalikke meetodeid. Siiski ei toeta pilvepõhine teenus SSRS-aruannete puhul viiteid kohandatud moodulitele. |
-| **Asendatud teise funktsiooniga?**   | Aruande loojad võivad jätkata viitamist avalikele .NET-i API-dele, et teha mistahes tekstiboksi avaldises matemaatika, teisenduse ja vorminguga seotud toiminguid. Lisateavet leiate teemast [Koodi lisamine aruandesse (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Asendatud teise funktsiooniga?**   | Aruande loojad võivad jätkata viitamist avalikele .NET-i API-dele, et teha mistahes tekstiboksi avaldises matemaatika, teisenduse ja vorminguga seotud toiminguid. Lisateavet leiate teemast [Koodi lisamine aruandesse (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Mõjutatud tootealad**         | RDL-is määratletud, kohandatud koodi sisaldavate rakenduse aruande kujunduste alamhulk. |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Versioonis 10.0.13 hakkab kompilaator väljastama hoiatusi selliste eksemplaride korral, mille puhul tuvastati SSRS-aruande definitsioonis kohandatud kood. Probleemi lahendamiseks avage aruande kujunduse definitsioon ja eemaldage kõik kohandatud koodi artefaktid. See hoiatus asendatakse tulevases värskenduses kompilaatori tõrkega.   |

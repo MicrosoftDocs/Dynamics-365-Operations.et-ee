@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343856"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595199"
 ---
 # <a name="email-er-destination-type"></a>ER-i sihtkoha tüübi e-post
 
@@ -75,7 +75,7 @@ Seal saate konfigureerida e-kirja saatja ja e-kirja adressaadid. Vaikimisi saade
 >
 > Kui e-posti sihtkohta pakutakse muutmiseks aadressil [käitamine](electronic-reporting-destinations.md#security-considerations) on väli **Saatja** nähtav ainult kasutajatele, kellel on turbeõigus `ERFormatDestinationSenderEmailMaintain`, **Säilita saatja e-posti aadress ER-vormingus sihtkoha jaoks**.
 >
-> Kui väli **Saatja** on konfigureeritud kasutama muud e-posti aadressi kui praegune kasutaja, peab luba **Saada kui** või **Saada nimel** luba olema õigesti [seadistatud](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) täiendavalt. Vastasel juhul ilmneb käitusajal järgmine erand: "Ei saa saata e-kirja aadressil \<from email account\> kontolt \<current user account\>, palun kontrollige luba "Saada kui aadressil \<from email account\>."
+> Kui väli **Saatja** on konfigureeritud kasutama muud e-posti aadressi kui praegune kasutaja, peab luba **Saada kui** või **Saada nimel** luba olema õigesti [seadistatud](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) täiendavalt. Vastasel juhul ilmneb käitusajal järgmine erand: "Ei saa saata e-kirja aadressil \<from email account\> kontolt \<current user account\>, palun kontrollige luba "Saada kui aadressil \<from email account\>."
 
 Saate konfigureerida välja **Alates** tagastama rohkem kui ühte meiliaadressi. Sel juhul kasutatakse saatja e-posti aadressina loendi esimest aadressi.
 

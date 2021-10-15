@@ -2,7 +2,7 @@
 title: Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Commerce'ist.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386737"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559555"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 
@@ -36,6 +36,18 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce'i väljalaskest 10.0.21 eemaldatud või aegunud funktsioonid
 
 [!include [banner](../includes/preview-banner.md)]
+
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Kattuvate allahindluste käsitlemise säte Commerce'i parameetrites
+
+**Kattuvate allahindluste käsitlemine** säte lehel **Commerce'i parameetrid** on Commerce'i versiooni 10.0.21 väljalaskes aegunud. Commerce'i hinnakujunduse mootor kasutab ühte algoritmi, et määrata kattuvate allahindluste optimaalne kombinatsioon.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | <p>**Kattuvate allahindluste käsitlemise** säte Commerce'i parameetrites reguleerib Commerce'i hinnakujunduse mootori otsinguid ja määrab kattuvate allahindluste optimaalse kombinatsiooni. Praegu pakub see kolme valikut:<p><ul><li> **Parim jõudlus** – See valik kasutab täpsemat heuristilise algoritmi ja [marginaali väärtuse reitingu](../optimal-combination-overlapping-discounts.md) meetodit, et õigeaegselt määrata prioriteedid, hinnata ja määrata parim allahindluskombinatsioon.</li><li>**Tasakaalustatud kalkulatsioon** – Praeguse koodi alusel toimib see valik nagu **Parim jõudlus** suvand. Seetõttu on see põhiliselt topeltvalik.</li><li>**Ammendav arvutamine** – See valik kasutab vana algoritmi, mis läheb hinna arvutamisel läbi kõigist võimalikest allahindluse kombinatsioonidest. Suurte ridade ja kogustega tellimuste puhul võib see valik põhjustada jõudluse probleeme.</li></ul><p>Konfiguratsiooni lihtsustamiseks, jõudluse parandamiseks ja vana algoritmi põhjustatud juhtumite vähendamiseks eemaldame täielikult **Kattuvate allahindluste käsitlemise** sätte ja uuendame Commerce'i hinnakujundusmootori siseloogikat, et see kasutaks nüüd ainult täpsemat algoritmi (st **Parima jõudluse** suvandi algoritmi taga).</p> |
+| **Asendatud teise funktsiooniga?**   | Ei. Soovitame, et organisatsioonid, mis kasutavad **Tasakaalustatud arvutuse** või **Ammendava arvutuse** suvandit lülituvad **Parim jõudluse** suvandile enne selle funktsiooni eemaldamist. |
+| **Mõjutatud tootealad**         | Hinnad ja allahindlused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Alates 10.0.21 väljaandest eemaldatakse **Kattuvate allahindluste käsitlemise** säte Commerce'i parameetritest 2022 aasta oktoobris. |
 
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Teenusega Lifecycle Services jaotatud Retail SDK
 
@@ -100,7 +112,7 @@ Kassalaiendi juurutus ModernPos.sln, CloudPOs.sln, POS.Extension.csproj ja kassa
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Kehtib alates 2020. detsembrist, Microsoft Internet Explorer 11 tugi kõigile Dynamics 365 toodetele on iganenud ja Internet Explorer 11 ei toetata pärast 2021. aasta augustit.<br><br>See mõjutab kliente, kes kasutavad Dynamics 365 tooteid, mis on mõeldud kasutamiseks Internet Explorer 11 liidese kaudu. Pärast 2021. aasta augustit, Internet Explorer 11 ei toetata selliste Dynamics 365 toodete puhul. |
+| **Aegumise/eemaldamise põhjus** | Alates 2020. detsembrist, Microsoft Internet Explorer 11 tugi kõigile Dynamics 365 toodetele on iganenud ja Internet Explorer 11 ei toetata pärast 2021. aasta augustit.<br><br>See mõjutab kliente, kes kasutavad Dynamics 365 tooteid, mis on mõeldud kasutamiseks Internet Explorer 11 liidese kaudu. Pärast 2021. aasta augustit, Internet Explorer 11 ei toetata selliste Dynamics 365 toodete puhul. |
 | **Asendatud teise funktsiooniga?**   | Soovitame klientide minna üle Microsoft Edge-le.|
 | **Mõjutatud tootealad**         | Kõik Dynamics 365 tooted |
 | **Juurutamissuvand**              | Kõik|

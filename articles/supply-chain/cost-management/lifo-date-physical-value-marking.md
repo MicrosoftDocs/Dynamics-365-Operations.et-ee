@@ -13,15 +13,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f033dee70f3423ec560885d59e2db1bc61cb6009e9c9c151c15c0ecd8d697862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748005"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567555"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO kuupäev füüsilise väärtuse ja märgistusega
 
@@ -55,7 +55,9 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 
 Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 15,00 USD juures 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO kuupäev mõju, kui valikut **Kaasa füüsiline väärtus** ei kasutata. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus.](./media/lifodatewithoutincludephysicalvalue.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO kuupäev mõju, kui valikut **Kaasa füüsiline väärtus** ei kasutata. 
+
+![LIFO kuupäev füüsilise väärtuse valiku kaasamiseta.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -90,7 +92,9 @@ Alloleval joonisel on kuvatud järgmised kanded.
 
 Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 20,00 USD juures 
 
-Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**. ![LIFO kuupäev valikuga Kaasa füüsiline väärtus.](./media/lifodatewithincludephysicalvalue.gif) 
+Järgmisel joonisel on kujutatud laomudeli LIFO mõju, kui kasutatakse valikut **Kaasa füüsiline väärtus**. 
+
+![LIFO kuupäev füüsilise väärtuse valiku kaasamisega.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 

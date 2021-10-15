@@ -1,8 +1,8 @@
 ---
 title: Likviidsuse plaanimine
 description: Selles teemas antakse ülevaade rahavoo prognoosimise protsessist. Samuti selgitatakse, kuidas rahavoogude prognoosimine on integreeritud teiste süsteemi moodulitega.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779442"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547951"
 ---
 # <a name="cash-flow-forecasting"></a>Likviidsuse plaanimine
 
@@ -83,7 +83,10 @@ Välja **Likviidsuskonto** vaikeseadistuse saab konkreetsete kliendi sisestusree
 
 ### <a name="budgeting"></a>Eelarvestamine
 
-Likviidsuse plaanimisse saab lisada eelarvemudelite põhjal loodud eelarveid. Valige vahekaardilt **Eelarvestamine** lehel **Likviidsuse plaanimise seadistus** eelarvemudelid, mida prognoosi lisada. Vaikimisi lisatakse uued eelarve registrikirjed prognoosidesse pärast eelarvemudeli lubamist likviidsuse plaanimiseks. Likviidsuse plaanimisse lisamise saab eraldi eelarve registrikirjete puhul üle kirjutada.
+Likviidsuse plaanimisse saab lisada eelarvemudelite põhjal loodud eelarveid. Valige **Rahavoo prognoosi seadistamine** lehel **Eelarvestamine** vahekaardilt eelarvemudelid, mida prognoosi lisada. Vaikimisi lisatakse uued eelarve registrikirjed prognoosidesse pärast eelarvemudeli lubamist likviidsuse plaanimiseks.
+
+Eelarve registrikirjeid saab rahavoogude prognoosi lisada individuaalselt isikupärastamise kaudu. Kui lisate lehele **Eelarve registrikirje** veeru „Lisa rahavoogude prognoosidesse“, kirjutab süsteem **Rahavoo prognoosi seadistus** lehe seaded üle, et lisada üksik eelarve registrikirje prognoos.
+
 
 ### <a name="inventory-management"></a>Varud
 
@@ -144,7 +147,7 @@ Tööruum **Kassa ülevaade – kõik ettevõtted** näitab likviidsuse plaanimi
 
 Tööruumis **Sularaha ülevaade – praegune ettevõte** näidatakse rahavoo prognoosi analüüsi ettevõtte määratletud arvestusvaluutas. Analüüsiks kasutatav arvestusvaluuta on määratletud lehel **Pearaamat**. Selles tööruumis kuvatakse ülevaade likviidsuse plaanimisest ja pangakontode saldodest praeguse ettevõtte kohta. Sularaha sissetulekute ja väljaminekute diagramm annab ülevaate tulevastest sularaha liikumistest ja saldodest arvestusvaluutas, koos prognoositavate kannete üksikasjalike andmetega. Võimalik on vaadata ka prognoositavaid valuutasaldosid.
 
-Lisateavet likviidsuse plaanimise analüüsi kohta leiate teemast [Kassa ülevaate Power BI sisu](./cash-overview-power-bi-content.md).
+Lisateabe saamiseks likviidsuse plaanimise analüüsi kohta vaadake [Kassa ülevaate Power BI sisu](Cash-Overview-Power-BI-content.md).
 
 Lisaks saate vaadata likviidsuse plaanimise andmeid konkreetsete kontode, tellimuste ja üksuste kohta järgmistelt lehtedelt.
 

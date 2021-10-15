@@ -1,7 +1,7 @@
 ---
 title: Topeltkasutusega kaubad
 description: Selles teemas selgitatakse, kuidas saada ülevaadet topeltkasutusega kaupadest, talletada iga asjakohase toote ja sihtriigi sertifikaadi numbreid ning printida kehtivaid sertifikaadi numbreid vastavatele arvetele, saatelehtedele ja/või müügitellimustele.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a5e7386c900ff8879cc90e311dfc098a47e10acc414d9a1c5f39ada381850167
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767432"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570749"
 ---
 # <a name="dual-use-goods"></a>Topeltkasutusega kaubad
 
