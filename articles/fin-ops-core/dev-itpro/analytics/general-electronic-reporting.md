@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) ülevaade
 description: Teema annab ülevaate elektroonilise aruandluse tööriista kohta. See kirjeldab põhimõisteid, toetatud stsenaariume ja vorminguid, mis on lahenduse osaks.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9bb0b427f4fe30ab95efabf8ab9871b681e35d51c0fbaf5a162235640d2f376
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723161"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562172"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -50,7 +50,14 @@ ER-i mootoril on järgmised võimalused.
 
 ### <a name="components"></a>Komponendid
 
-ER toetab kahte tüüpi komponente: **Andmemudel** ja **Vorming**.
+ER toetab järgmist tüüpi komponente:
+
+- Andmemudel
+- Mudeli vastendamine
+- Vorming
+- Metaandmed
+
+Lisateabe saamiseks vaadake [Elektroonilise aruandluse komponendid](er-overview-components.md).
 
 #### <a name="data-model-and-model-mapping-components"></a>Andmemudeli ja mudeli vastendamise komponendid
 

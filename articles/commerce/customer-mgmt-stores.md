@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472221"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563057"
 ---
 # <a name="customer-management-in-stores"></a>Kaupluste kliendihaldus
 
@@ -45,7 +45,8 @@ Müügiesindajad saavad hõivata kliendi kohta mitu aadressi. Kliendi nimi ja te
 
 ## <a name="sync-customers-and-async-customers"></a>Klientide ja asünkroonsete klientide sünkroonimine
 
-> [OLULINE] Kui kassa pole veebiga ühendatud, loob süsteem automaatselt kliendi asünkroonimise, isegi, kui Asynci kliendi loomisrežiim on keelatud. Seepärast peavad Commerce Headquartersi administraatorid sünkroniseeritud ja asünkroniseeritud kliendi loomise valikule vaatamata looma ja plaanima korduva pakett-töö **P-töö** jaoks, **sünkrooni kliendid ja äripartnerid asünkroonsest reziimist** töö (varasema nimega **Sünkrooni kliendid ja äripartnerid asünkroonsest reziimist** töö) ja **1010** töö, nii et kõik asünkronoseeritud kliendid teisendatakse sünkroniseeritud klientide rakendusse Commerce peakontoris.
+> [!IMPORTANT]
+> Kui kassa pole veebiga ühendatud, loob süsteem automaatselt kliendi asünkroonimise, isegi, kui Asynci kliendi loomisrežiim on keelatud. Seepärast peavad Commerce Headquartersi administraatorid sünkroniseeritud ja asünkroniseeritud kliendi loomise valikule vaatamata looma ja plaanima korduva pakett-töö **P-töö** jaoks, **sünkrooni kliendid ja äripartnerid asünkroonsest reziimist** töö (varasema nimega **Sünkrooni kliendid ja äripartnerid asünkroonsest reziimist** töö) ja **1010** töö, nii et kõik asünkronoseeritud kliendid teisendatakse sünkroniseeritud klientide rakendusse Commerce peakontoris.
 
 Äris on kliendi loomiseks kaks režiimi: sünkroonne (või Sync) ja asünkroonne (või Async). Vaikimisi luuakse kliendid sünkroonselt. See tähendab, et need luuakse Commerce Headquarters`is reaalajas. Kliendi loomise režiim Sync on kohe tellitav, kuna uued kliendid on kanalites kohe otsitavad. Ent sellel on ka puudusi. Kuna see loob [Commerce Data Exchange: Real-time Service'i](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) kutsed Commerce Headquarters`isse, võib see mõjutada jõudlust, kui tehakse mitu samaaegset kliendi loomise kutset.
 

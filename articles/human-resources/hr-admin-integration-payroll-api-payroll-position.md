@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741449"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559358"
 ---
 # <a name="payroll-position"></a>Palga positsioon
 
@@ -32,22 +32,29 @@ Füüsiline nimi: mshr_payrollpositionentity.
 
 See üksus annab konkreetse töötaja kohta positsiooni puudutavat teavet.
 
-Füüsiline nimi: 
+Füüsiline nimi: mshr_payrollpositionentity.
 
 ## <a name="properties"></a>Atribuudid
 
-| Atribuut<br>**Füüsiline nimi**<br>**_Tüüp_** | Kasuta | Kirjeldus |
+| Atribuut</br>**Füüsiline nimi**</br>**_Tüüp_** | Kasuta | Kirjeldus |
 | --- | --- | --- |
-| **Iga-aastased regulaarsed tunnid**<br>annualregularhours<br>*Kümnendkoht* | Kirjutuskaitstud<br>Nõutav | Ametikohal määratletud iga-aastased regulaarsed tunnid.  |
-| **Palgaarvestuse ametikoha üksikasjade olemi ID**<br>payrollpositiondetailsentityid<br>*Guid* | Nõutav<br>Süsteemi loodud. | Süsteemi loodud GUID-väärtus ametikoha kordumatuks tuvastamiseks.  |
-| **Esmane väli**<br>mshr_primaryfield<br>*String* | Nõutav<br>Süsteemi loodud |  |
-| **Ametikoha töö ID väärtus**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Kirjutuskaitstud<br>Nõutav<br>Foreign key:mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity |Ametikohaga seotud töö ID.|
-| **Põhipalgaplaani ID**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Kirjutuskaitstud<br>Nõutav<br>Foreign key: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | Põhipalgaplaaniga seotud töö ID. |
-| **Palgatsükli ID**<br>mshr_primaryfield<br>*String* | Kirjutuskaitstud<br>Nõutav | Ametikohal määratletud palgatsükkel. |
-| **Maksja juriidiline isik**<br>paidbylegalentity<br>*String* | Kirjutuskaitstud<br>Nõutav | Makse tegemise eest vastutaval ametikohal määratletud juriidiline isik. |
-| **Ametikoha ID**<br>mshr_positionid<br>*String* | Kirjutuskaitstud<br>Nõutav | Ametikoha ID. |
-| **Kehtiv kuni**<br>validto<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud<br>Nõutav |Kuupäev, millest alates ametikoha üksikasjad kehtivad.  |
-| **Kehtiv alates**<br>validfrom<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud<br>Nõutav |Kuupäev, milleni ametikoha üksikasjad kehtivad.  |
+| **Ametikoha ID**</br>mshr_positionid</br>*String* | Kirjutuskaitstud | Ametikoha ID. |
+| **Palgatsükli ID**</br>mshr_paycycleid</br>*String* | Kirjutuskaitstud | Ametikohal määratletud palgatsükkel. |
+| **Iga-aastased regulaarsed tunnid**</br>annualregularhours</br>*Kümnendkoht* | Kirjutuskaitstud | Ametikohal määratletud iga-aastased regulaarsed tunnid. |
+| **Maksja juriidiline isik**</br>paidbylegalentity</br>*String* | Kirjutuskaitstud | Makse tegemise eest vastutavale ametikohale määratletud juriidiline isik. |
+| **Kehtiv kuni**</br>validto</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Kuupäev, milleni ametikoha üksikasjad kehtivad. |
+| **Kehtiv alates**</br>validfrom</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Kuupäev, millest ametikoha üksikasjad kehtivad. |
+| **Esmane väli**</br>mshr_primaryfield</br>*String* | Süsteemi loodud | Esmane väli. |
+| **Palgaarvestuse ametikoha üksikasjade olemi ID**</br>payrollpositiondetailsentityid</br>*Guid* | Nõutav</br>Süsteemi loodud. | Süsteemi loodud globaalse ainuidentifikaatori (GUID) väärtus positsiooni unikaalseks tuvastamiseks. |
+
+## <a name="relations"></a>Seosed
+
+| Atribuudi väärtus | Seotud üksus | Navigeerimise atribuut | Kogumi tüüp |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | Pole kohaldatav |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | Pole kohaldatav |
 
 ## <a name="example-query"></a>Näidispäring
 

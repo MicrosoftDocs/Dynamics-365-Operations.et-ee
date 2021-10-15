@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474816"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581861"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installimine ja seadistamine
 
@@ -35,63 +35,11 @@ Enne Varude nähtavuse installimist peate tegema järgmist.
 
 - Hankige LCS-i juurutamise projekt, millel on vähemalt üks juurutatud keskkond.
 - Kontrollige, et lisandmoodulite seadistamise eeltingimused on täidetud. Eeltingimuste kohta lisateabe saamiseks vaadake teema [Lisandmoodulite ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Varude nähtavus ei nõua topeltkirjutuse linkimist.
-- Järgmiste nõutavate failide saamiseks võtke ühendust varude nähtavuse tootemeeskonnaga aadressil [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip` (Kui Supply Chain Management versioon, mida käitate, on varasem kui versioon 10.0.18)
 
 > [!NOTE]
 > Praegu toetatavad riigid ja regioonid hõlmavad Kanadat (CCA, ECA), USA-d (WUS, EUS), Euroopa Liitu (NEU, WEU), Suurbritanniat (SUK, WUK), Austraaliat (EAU, SEAU), Jaapanit (EJP, WJP), ja Brasiiliat (SBR, SCUS).
 
-Kui teil on küsimusi nende eeltingimuste kohta, võtke ühendust varude nähtavuse tootemeeskonnaga.
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Seadistamine Dataverse
-
-Seadistamaks Dataverse'i nii, et seda saab kasutada Varude nähtavusega, kasutage Varude nähtavuse paketi juurutamiseks paketi juurutamise tööriista Package Deployer. Järgmised alamjaotised kirjeldavad, kuidas neid ülesandeid lõpetada.
-
-> [!NOTE]
-> Praegu toetatakse ainult LCS abil loodud Dataverse'i keskkondi. Kui teie Dataverse'i keskkond loodi mõnel muul viisil (nt Power Appsi halduskeskuse abil) ja kui see on seotud teie rakenduse Supply Chain Management keskkonnaga, peate esmalt vastendamise probleemi lahendamiseks kontakteeruma Varude nähtavuse tootemeeskonnaga. Seejärel saate Varude nähtavuse installida.
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>Vanalt Dataverse'i lahenduse versioonilt üleminek
-
-Kui olete installinud Laovarude nähtavuse Dataverse'i lahenduse vanema versiooni, kasutage versiooni uuendamiseks neid juhiseid. Selleks on kaks võimalust.
-
-- **Võimalus 1:** kui häälestasite Dataverse'i käsitsi, importides lahenduse `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip`, toimige järgmiselt.
-
-    1. Laadige alla järgmised kolm faili.
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. Importige `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` ja `InventoryServiceBase_managed.cab` käsitsi Dataverse'i, toimides järgmiselt.
-
-        1. Avage oma Dataverse keskkonna URL.
-        1. Avage leht **Lahendused**.
-        1. Valige **Impordi**.
-
-    1. Kasutage paketi `InventoryServiceApplication.PackageDeployer.zip` juurutamiseks paketi juurutamise tööriista Package Deployer. Juhiseid vt käeolevas teemas allpool asuvast jaotisest [Paketi juurutamise tööriista Package Deployer kasutamine paketi juurutamiseks](#deploy-package).
-
-- **Võimalus 2:** kui häälestasite Dataverse'i paketi juurutamise tööriista Package Deployer abil enne kui installisite vanema paketi `.*PackageDeployer.zip`, laadige alla `InventoryServiceApplication.PackageDeployer.zip`, ja tehke värskendus. Juhiseid vt jaotisest [Paketi juurutamise tööriista Package Deployer kasutamine paketi juurutamiseks](#deploy-package).
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>Kasutage paketi juurutamiseks paketi juurutamise tööriista Package Deployer
-
-1. Installige arendajate tööriistad, nagu on kirjeldatud [Tööriistade allalaadimine NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
-1. Avage fail `InventoryServiceApplication.PackageDeployer.zip`, mille laadisite alla Teamsi grupist, toimides järgmiselt.
-
-    1. Valige fail ja hoidke all (või paremklõpsake) ning seejärel valige **Atribuudid**.
-    1. Leidke dialoogiboksi **Atribuudid** vahekaardilt **Üldine** jaotis **Turvalisus**, valige **Eemalda blokeering** ja rakendaga muudatus. Kui jaotis **Turvalisus** vahekaardil **Üldine** puudub, siis fail ei ole blokeeritud. Sellisel juhul jätkake järgmise etapiga.
-
-    ![Allalaaditud faili blokeeringu eemaldamine](media/unblock-file.png "Allalaaditud faili blokeeringu eemaldamine")
-
-1. Pakkige `InventoryServiceApplication.PackageDeployer.zip` lahti, et leida järgmised üksused.
-
-    - `InventoryServiceApplication`i kaust
-    - `[Content_Types].xml`-fail
-    - `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`-fail
-
-1. Kopeerige kõik need üksused kataloogi `.\Tools\PackageDeployment`. (See kaust loodi arendaja tööriistade installimisel.)
-1. Käivitage `.\Tools\PackageDeployment\PackageDeployer.exe` ja järgige lahenduste importimiseks ekraanil olevad juhiseid.
+Kui teil on küsimusi nende eeltingimuste kohta, võtke ühendust varude nähtavuse tootemeeskonnaga siin [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Varude nähtavuse lisandmooduli installimine
 
@@ -102,7 +50,11 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 1. Logige teenusesse [LCS](https://lcs.dynamics.com/Logon/Index) sisse.
 1. Avalehel valige projekt, kus teie keskkond juurutati.
 1. Projekti lehel valige keskkond, kuhu soovite lisandmooduli installida.
-1. Kerige keskkonna lehel alla, kuni leiate jaotise **Keskkonna lisandmoodulid**, mis asub jaotises **Power Platformi integratsioon**. Siit leiate Dataverse'i keskkonna nime.
+1. Kerige keskkonna lehel alla, kuni leiate jaotise **Keskkonna lisandmoodulid**, mis asub jaotises **Power Platformi integratsioon**. Siit leiate Dataverse'i keskkonna nime. Veenduge, et Dataverse keskkonna nimi oleks see, mida soovite varude nähtavuse jaoks kasutada.
+
+    > [!NOTE]
+    > Praegu toetatakse ainult LCS abil loodud Dataverse'i keskkondi. Kui teie Dataverse'i keskkond loodi mõnel muul viisil (näiteks Power Apps halduskeskuse abil) ja kui see on seotud teie rakenduse Supply Chain Management keskkonnaga, peate esmalt vastendamise probleemi lahendamiseks kontakteeruma varude nähtavuse tootemeeskonnaga siin [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com). Seejärel saate Varude nähtavuse installida.
+
 1. Valige jaotises **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
 
     ![LCS-i keskkonna leht](media/inventory-visibility-environment.png "LCS-i keskkonna leht")
@@ -118,6 +70,7 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 
 1. Nõustuge tingimustega, valides märkeruudu **Tingimused**.
 1. Valige **Installi**. Lisandmooduli olek kuvatakse kui **Installimine**. Kui installimine on lõpule viidud, värskendage lehte. Uueks olekuks peaks muutuma **Installitud**.
+1. Valige Dataverse vasakpoolsel navigeerimisel jaotis **Rakendused** ja veenduge, et **Varude nähtavus** Power Apps on edukalt installitud. Kui jaotist **Rakendused** pole olemas, võtke ühendust varude nähtavuse tootetiimiga siin [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!IMPORTANT]
 > Kui teil on rohkem kui üks LCS keskkond, looge igale Azure AD keskkonnale erinev rakendus. Kui kasutate sama rakenduse ID-d ja rentniku ID-d varude nähtavuse lisandmooduli installimiseks erinevates keskkondades, ilmneb loa probleem vanemates keskkondades. Kehtib ainult viimane installitud versioon.
@@ -126,13 +79,13 @@ Pärast rakenduse registreerimist ja Azure AD kliendi saladuse lisamist, järgig
 
 Varude nähtavuse lisandmooduli eemaldamiseks valige LCS-i lehel **Desinstalli**. Desinstallimisprotsess eemaldab varude nähtavuse lisandmooduli, tühistab lisandmooduli registreeringu LCS-t ja kustutab kõik ajutised andmed, mis on salvestatud Varude nähtavuse lisandmooduli andmete vahemällu. Siiski ei kustutata esmaseid varude andmeid, mis on salvestatud teie Dataverse'i tellimusse.
 
-Dataverse'i tellimusse salvestatud varude andmete desinstallimiseks avage [Power Apps](https://make.powerapps.com), valige navigeerimisribal **Keskkond** ja valige see Dataverse'i keskkond, mis on seotud teie LCS-i keskkonnaga. Seejärel avage **Lahendused** ja kustutage järgmised viis lahendust.
+Dataverse'i tellimusse salvestatud varude andmete desinstallimiseks avage [Power Apps](https://make.powerapps.com), valige navigeerimisribal **Keskkond** ja valige see Dataverse'i keskkond, mis on seotud teie LCS-i keskkonnaga. Seejärel avage **Lahendused** ja kustutage järgmised viis lahendust selles järjekorras:
 
-- Varude nähtavuse rakenduse ankurlahendus Dynamics 365 lahendustes
-- Dynamics 365 FNO SCM-i Varude nähtavuse rakenduste lahendus
-- Laoteenuse konfiguratsioon
-- Eraldiseisev Varude nähtavus
-- Dynamics 365 FNO SCM-i Varude nähtavuse põhilahendus
+1. Varude nähtavuse rakenduse ankurlahendus Dynamics 365 lahendustes
+1. Dynamics 365 FNO SCM-i Varude nähtavuse rakenduste lahendus
+1. Laoteenuse konfiguratsioon
+1. Eraldiseisev Varude nähtavus
+1. Dynamics 365 FNO SCM-i Varude nähtavuse põhilahendus
 
 Pärast nende lahenduste kustutamist kustutatakse ka tabelites talletatud andmed.
 

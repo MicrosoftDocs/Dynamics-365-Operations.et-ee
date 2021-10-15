@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761970"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559505"
 ---
 # <a name="payroll-worker-address"></a>Palgaarvestuse töötaja aadress
 
@@ -36,20 +36,26 @@ See üksus annab palgaarvestuse asukoha ja palgatöö asukoha antud töötaja ko
 
 | Atribuut</br>**Füüsiline nimi**</br>**_Tüüp_** | Kasuta | Kirjeldus |
 | --- | --- | --- |
-| **Linn**</br>mshr_city</br>*String* | Kirjutuskaitstud</br>Nõutav | Määratletud linna aadress.   |
-| **Personalinumber**</br>mshr_personnelnumber</br>*String* | Kirjutuskaitstud</br>Nõutav | Töötaja kordumatu personalinumber.  |
-| **Riik/regioon**</br>mshr_countryregionid</br>*String* | Kirjutuskaitstud</br>Nõutav | Aadressi jaoks defineeritud riigi regioon.  |
-| **Kehtiv alates**</br>mshr_postaladdressvalidfrom</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud </br>Nõutav | Aadressi kehtimise alguskuupäev. |
-| **Töötas aadressil** </br> mshr_töötasaadressilbr </br>*[suvandikomplekt mshr_noyes](hr-admin-integration-payroll-api-no-yes.md)* | Kirjutuskaitstud</br>Nõutav | Näitab, kas aadress on töötaja töökohaks. |
-| **Maakond**</br>mshr_county</br>*String* | Kirjutuskaitstud</br>Nõutav | Määratletud riigi aadress.  |
-| **Palgatöötaja aadressi ID**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Nõutav</br>Süsteemi loodud | Süsteemi loodud GUID-väärtus aadressi kordumatuks tuvastamiseks.  |
-| **Esmane väli**</br>mshr_primaryfield</br>*String* | Kirjutuskaitstud</br>Nõutav |  |
-| **Tänav**</br>mshr_street</br>*String* | Kirjutuskaitstud</br>Nõutav | Aadressis määratletud tänav. |
-| **Kehtiv kuni**</br>mshr_postaladdressvalidto</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud </br>Nõutav | Aadressi kehtimise lõpukuupäev.  |
-| **Asukoha ID**</br>mshr_locationidbr>*String* | Kirjutuskaitstud <br>Nõutav | Aadressi ID.  |
-| **Sihtnumber**</br>mshr_zipcode<br>*String* | Kirjutuskaitstud <br>Nõutav |Töötaja jaoks määratletud ID-number.  |
-| **Elab aadressil**</br>mshr_elabaadressil </br> *[suvandikomplekt mshr_noyes](hr-admin-integration-payroll-api-no-yes.md)* | Kirjutuskaitstud</br>Nõutav | Näitab, kas aadress on töötaja elukohaks. |
-| **Maakond**</br>mshr_state</br>*String* | Kirjutuskaitstud</br>Nõutav | Aadressis määratletud maakond.  |
+| **Personalinumber**</br>mshr_personnelnumber</br>*String* | Kirjutuskaitstud | Töötaja kordumatu personalinumber. |
+| **Asukoha ID**</br>mshr_locationidbr>*String* | Kirjutuskaitstud | Aadressi ID. |
+| **Elab aadressil**</br>mshr_elabaadressil </br> *[suvandikomplekt mshr_noyes](hr-admin-integration-payroll-api-no-yes.md)* | Kirjutuskaitstud | Väärtus, mis näitab, kas aadress on seal, kus töötaja elab. |
+| **Töötas aadressil** </br> mshr_töötasaadressilbr </br>*[suvandikomplekt mshr_noyes](hr-admin-integration-payroll-api-no-yes.md)* | Kirjutuskaitstud | Väärtus, mis näitab, kas aadress on seal, kus töötaja töötab. |
+| **Riik/regioon**</br>mshr_countryregionid</br>*String* | Kirjutuskaitstud</br>Nõutav | Aadressi jaoks defineeritud riik või regioon. |
+| **Sihtnumber**</br>mshr_zipcode<br>*String* | Kirjutuskaitstud | Töötaja jaoks määratletud ID-number. |
+| **Tänav**</br>mshr_street</br>*String* | Kirjutuskaitstud | Aadressiks määratletud tänav. |
+| **Linn**</br>mshr_city</br>*String* | Kirjutuskaitstud | Aadressiks määratletud linn. |
+| **Maakond**</br>mshr_state</br>*String* | Kirjutuskaitstud | Aadressi jaoks defineeritud osariik või maakond. |
+| **Maakond**</br>mshr_county</br>*String* | Kirjutuskaitstud | Aadressiks määratletud maakond. |
+| **Kehtiv alates**</br>mshr_postaladdressvalidfrom</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Aadressi kehtimise alguskuupäev. |
+| **Kehtiv kuni**</br>mshr_postaladdressvalidto</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Aadressi kehtimise lõpukuupäev. |
+| **Esmane väli**</br>mshr_primaryfield</br>*String* | Kirjutuskaitstud | Esmane väli. |
+| **Palgatöötaja aadressi ID**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Süsteemi loodud | Süsteemi loodud globaalse ainuidentifikaatori (GUID) väärtus aadressi unikaalseks tuvastamiseks. |
+
+## <a name="relations"></a>Seosed
+
+| Atribuudi väärtus | Seotud üksus | Navigeerimise atribuut | Kogumi tüüp |
+| --- | --- | --- | --- |
+| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>Näidispäring
 

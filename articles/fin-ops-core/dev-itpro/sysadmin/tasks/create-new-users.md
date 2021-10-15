@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8ae7bc937e916195b49df91be73ba906bcd2e593c9222cdc07adfcbf2396c05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733681"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595382"
 ---
 # <a name="create-new-users"></a>Uute kasutajate loomine
 
@@ -29,7 +29,7 @@ Enne Finance and Operationsi rakenduste avamist peate olema kõigepealt lisatud 
 Lisateavet Finance and Operationsi rakendust ostmise ja litsentsimise kohta vt [Microsoft Dynamics 365 litsentsimise juhend](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Kasutajale litsentsi määramine
-Süsteemi administraatorid saavad [litsentse määrata](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)[Microsoft 365-i administreerimiskeskuse](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) kasutajatele.
+Süsteemi administraatorid saavad [litsentse määrata](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)[Microsoft 365-i administreerimiskeskuse](/office365/admin/admin-overview/about-the-admin-center) kasutajatele.
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Azure AD-s välise kasutaja lisamine ja litsentsi määramine 
 Litsentside määramiseks peavad välised kasutajad olema teie rentniku teegis esindatud (Azure Active Directory (Azure AD)). Need välised kasutajad tuleb lisada Azure AD's rentnikku külaliskasutajatena ja seejärel määrata vastavad litsentsid. Finance and Operationsi rakenduste nõue on, et külaliskasutaja ettevõte peab kasutama teenust Azure AD. Lisateavet vt teemast [Azure portaalis Azure Active Directory B2B koostöö kasutajate lisamine](/azure/active-directory/b2b/add-users-administrator).

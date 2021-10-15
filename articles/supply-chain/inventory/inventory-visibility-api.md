@@ -2,7 +2,7 @@
 title: Varude nähtavuse avalikud API-d
 description: Selles teemas kirjeldatakse Varude nähtavuse pakutavaid avalikke API-sid.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474648"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592484"
 ---
 # <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
 
@@ -82,6 +82,8 @@ Microsoft on loonud kasutajaliidese (UI) rakendustekomplekti Power Apps, et saak
 
 Platvormi turbeluba kasutatakse Laovarude nähtavuse API kutsumiseks. Seepärast peate _Azure Active Directory (Azure AD) loa_ genereerima kasutades Azure AD rakendust. Seejärel peate kasutama Azure AD luba, et saada _pääsutõend_ turvateenusest.
 
+Microsoft pakub kastist välja *Postimehe* hankimismärkide kogu. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Turbeteenusetõendi hankimiseks tehke järgmist.
 
 1. Logige Azure’i portaali sisse ja kasutage seda oma rakenduse Dynamics 365 Supply Chain Management  `clientId` ja `clientSecret` väärtuste leidmiseks.
@@ -131,7 +133,7 @@ Turbeteenusetõendi hankimiseks tehke järgmist.
    - `context` väärtud peab olema LCS keskkonna ID, kus soovite lisandmooduli juurutada.
    - Häälestage kõik muud väärtused, nagu näites näidatud.
 
-1. Edastage HTTP-taotlus, millel on järgmised atribuudid.
+1. Tooge juurdepääsuluba (`access_token`), esitades HTTP-päringu, millel on järgmised omadused:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Meetod:** `POST`
@@ -148,7 +150,8 @@ Turbeteenusetõendi hankimiseks tehke järgmist.
    }
    ```
 
-Hilisemates jaotistes kasutate luba `$access_token`, et esindada luba, mis eelmises sammus saadi.
+> [!IMPORTANT]
+> Kui kasutate *Postimehe* taotluse kogumist, et kutsuda varude nähtavuse avalikud API-d, peate iga taotluse jaoks lisama kandjatõendi. Oma kandjaloa leidmiseks valige taotluse URL-i all **Autoriseerimise** vahekaart, valige **Kandjatõendi** tüüp ja kopeerige viimases sammus toodnud juurdepääsuluba. Selle teema hilisemates jaotistes kasutatakse `$access_token`, et esindada luba, mis eelmises sammus saadi.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Vaba kaubavaru muutmise sündmuste loomine
 
@@ -508,7 +511,7 @@ Taotluse kehaosa, `dimensionDataSource` on siiski valikuline parameeter. Kui see
 
 - `organizationId` sisaldab ainult üht väärtust, kuid on siiski massiiv.
 - `productId` võib sisalda üht või mitut väärtust. Kui see on tühi massiiv, tagastatakse kõik tooted.
-- `siteId` ja `locationId` kasutatakse rakenduses Inventory Visibility sektsioonimiseks.
+- `siteId` ja `locationId` kasutatakse rakenduses Inventory Visibility sektsioonimiseks. Saate päringu *Vaba kaubavaru* nõudes määrata rohkem kui ühe `siteId` ja `locationId` väärtuse. Praeguses väljalaskes tuleb määrata nii `siteId` väärtused kui ka `locationId` väärtused.
 
 Parameeter `groupByValues` peaks järgima indekseerimiseks teie konfiguratsiooni. Lisateavet leiate teemast [Tooteindeksi hierarhia konfiguratsioon](./inventory-visibility-configuration.md#index-configuration).
 

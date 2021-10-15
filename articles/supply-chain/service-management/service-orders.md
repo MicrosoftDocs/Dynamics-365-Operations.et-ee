@@ -1,7 +1,7 @@
 ---
 title: Teenuse tellimused
-description: Hooldustellimus näitab hooldustehniku külastust kliendi laoalasse konkreetsel kuupäeval.
-author: ShylaThompson
+description: Selles teemas antakse ülevaade sellest, kuidas teenuse tellimustega töötada.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89ff650b0813318573fa273533ba31b57e35696a551105cca7e1a247099b218f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dc88d445e1331e1532cb3b7385cda39c4f22e80
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739702"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566115"
 ---
-# <a name="service-orders"></a>Teenuse tellimused   
+# <a name="service-orders"></a>Teenuse tellimused
 
 [!include [banner](../includes/banner.md)]
-
 
 Hooldustellimus näitab hooldustehniku külastust kliendi laoalasse konkreetsel kuupäeval. Iga teenuse tellimus koosneb ühest või mitmest teenuse tellimuse reast. Hooldustellimuse ridadel on toodud hooldustehniku töötunnid ning seotud kaubad, kulud ja tasud.
 
@@ -39,19 +38,19 @@ Saate hooldustellimusi luua ka eraldi, ilma nende määramiseta leppele. Neid ho
 
 
 > [!NOTE]
-> <P>Teenuseleppega mitte seostatud hooldustellimuste loomiseks peate valima märkeruudu <STRONG>Luba teenuseleppeta</STRONG> vormis <STRONG>Teenuste halduse parameetrid</STRONG>.</P>
+> Teenuseleppega mitte seostatud hooldustellimuste loomiseks peate valima märkeruudu **Luba teenuseleppeta** lehel **Teenuste halduse parameetrid**.
 
-**Stsenaarium**
+### <a name="scenario"></a>Stsenaarium
 
 Järgmises stsenaariumis kirjeldatakse olukorda, kus on kasulik luua hooldustellimus, mida ei ole seostatud teenuseleppega.
 
-Ettevõtte dispetšer võtab vastu telefonikõne, kus nõutakse lifti erakorralist teenust. Teenuseleppe ja teenuse jaoks projekti seadistamiseks pole aega. Seetõttu loob dispetšer hooldustellimuse otse vormis **Hooldustellimused**, lisab olemasolevale projektile hooldustellimuse ja loob hooldustellimuse read. Dispetšer loob ka olemasolevale hooldustellimusele tööülesande või objekti seose, et kirjendada teenuselepinguga mitte seotud töö. Lisateavet vt teemadest [Hooldustellimuste loomine käsitsi](create-service-orders-manually.md) ja [Hooldustoimingute seoste loomine](create-service-task-relations.md).
+Ettevõtte dispetšer võtab vastu telefonikõne, kus nõutakse lifti erakorralist teenust. Teenuseleppe ja teenuse jaoks projekti seadistamiseks pole aega. Seetõttu loob dispetšer hooldustellimuse otse lehel **Hooldustellimused**, lisab olemasolevale projektile hooldustellimuse ja loob hooldustellimuse read. Dispetšer loob ka olemasolevale hooldustellimusele tööülesande või objekti seose, et kirjendada teenuselepinguga mitte seotud töö. Lisateavet vt teemadest [Hooldustellimuste loomine käsitsi](create-service-orders-manually.md) ja [Hooldustoimingute seoste loomine](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>Hooldustellimuste edenemise jälgimine
 
 Hooldustellimuse edenemise jälgimiseks läbi eri meeskondade tööprotsesside saate seadistada hooldustellimustele etappide ja põhjusekoodide süsteemi. Iga etapi jaoks saate määrata lubatud toimingud. Lisateavet põhjusekoodide kohta vt teemast [Põhjusekoodide loomine](create-reason-codes.md).
 
-**Näide**
+### <a name="example"></a>Näide
 
 Dispetšer kinnitab hooldustellimuse. Dispetšer värskendab hooldustellimuse etappi ja määrab põhjusekoodi, mis näitab, et hooldustellimus on väljastatud hooldustehnikule. Tehnik läheb kliendi laoalasse ja täidab teenuse.
 
@@ -59,7 +58,7 @@ Dispetšer kinnitab hooldustellimuse. Dispetšer värskendab hooldustellimuse et
 
 Saate määrata hooldustellimuste jaoks vajalikke laokaupu. Kuid hooldustellimus peab olema seotud projektiga. Teenusetellimuste kaubavajadusi töödeldakse projekti kaudu. 
 
-**Näide**
+### <a name="example"></a>Näide
 
 Teenuseleppest loodud hooldustellimusi töötleb dispetšer. Esmasel hooldustellimusel tõdeb dispetšer, et hooldustehnikul on vaja olulist varuosa, mida laos eelnevalt pole. Seetõttu loob dispetšer varuosa kaubavajaduse otse hooldustellimusest.
 
@@ -73,7 +72,7 @@ Hooldustehnik naaseb teenusekülastuselt ning muudab ja uuendab hooldustellimust
 
 ## <a name="post-from-projects"></a>Sisestamine projektidest
 
-Iga nädala lõpus soovib dispetšer sisestada kõik konkreetsele projektile lisatud hooldustellimused. Seega määrab dispetšer asjakohase projekti asukoha vormil **Projektid** ja sisestab lõpetatud hooldustellimused. Lisateavet vt teemast [Hooldustellimuste sisestamine (klassi vorm)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
+Iga nädala lõpus soovib dispetšer sisestada kõik konkreetsele projektile lisatud hooldustellimused. Seega määrab dispetšer asjakohase projekti asukoha lehel **Projektid** ja sisestab lõpetatud hooldustellimused. Lisateavet vt teemast [Hooldustellimuste sisestamine (klassi vorm)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Kustuta teenuse tellimused
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722627"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559579"
 ---
 # <a name="payroll-position-job"></a>Palga positsiooni töö
 
@@ -34,16 +34,22 @@ Füüsiline nimi: mshr_payrollpositionjobentity.
 
 ## <a name="properties"></a>Atribuudid
 
-| Atribuut<br>**Füüsiline nimi**<br>**_Tüüp_** | Kasuta | Kirjeldus |
+| Atribuut</br>**Füüsiline nimi**</br>**_Tüüp_** | Kasuta | Kirjeldus |
 | --- | --- | --- |
-| **Töö ID**<br>mshr_jobid<br>*String* | Kirjutuskaitstud<br>Nõutav |Töö ID. |
-| **Kehtiv alates**<br>mshr_validto<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud <br>Nõutav | Kuupäev, millest alates ametikoht ja töösuhe kehtivad. |
-| **Kehtiv kuni**<br>mshr_validto<br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud <br>Nõutav | Kuupäev, milleni ametikoht ja töösuhe kehtivad.  |
-| **Ametikoha ID**<br>mshr_positionid<br>*String* | Kirjutuskaitstud<br>Nõutav | Ametikoha ID. |
-| **Esmane väli**<br>mshr_primaryfield<br>*String* | Nõutav<br>Süsteemi loodud |  |
-| **Ametikoha töö ID väärtus**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Kirjutuskaitstud<br>Nõutav<br>Foreign key:mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity |Ametikohaga seotud töö ID.|
-| **Põhipalgaplaani ID**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Kirjutuskaitstud<br>Nõutav<br>Foreign key: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | Põhipalgaplaaniga seotud töö ID. |
-| **Palgaarvestuse töökoha olemi ID**<br>mshr_payrollpositionjobentityid<br>*Guid* | Nõutav<br>Süsteemi loodud. | Süsteemi loodud GUID-väärtus töö kordumatuks tuvastamiseks.  |
+| **Ametikoha ID**</br>mshr_positionid</br>*String* | Kirjutuskaitstud | Ametikoha ID. |
+| **Kehtiv alates**</br>mshr_validto</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Kuupäev, millest alates ametikoht ja töösuhe kehtivad. |
+| **Kehtiv kuni**</br>mshr_validto</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Kuupäev, milleni ametikoht ja töösuhe kehtivad. |
+| **Töö ID**</br>mshr_jobid</br>*String* | Kirjutuskaitstud | Töö ID. |
+| **Esmane väli**</br>mshr_primaryfield</br>*String* | Süsteemi loodud | Esmane väli. |
+| **Palgaarvestuse töökoha olemi ID**</br>mshr_payrollpositionjobentityid</br>*Guid* | Süsteemi loodud. | Süsteemi loodud globaalse ainuidentifikaatori (GUID) väärtus töö unikaalseks tuvastamiseks. |
+
+## <a name="relations"></a>Seosed
+
+| Atribuudi väärtus | Seotud üksus | Navigeerimise atribuut | Kogumi tüüp |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Pole kohaldatav |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Näidispäring
 

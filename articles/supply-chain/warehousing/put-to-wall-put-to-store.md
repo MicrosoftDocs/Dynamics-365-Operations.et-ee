@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712858"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574133"
 ---
 # <a name="put-to-wall---put-to-store"></a>Pane seinale – pane kauplusesse
 
@@ -42,7 +42,7 @@ Funktsiooni *Väljamineku sortimine* saab kasutada koos funktsiooniga *Organisat
 - **Moodul:** *laohaldus*
 - **Funktsiooni nimi:** *Organisatsiooniülene vooetapi kood*
 
-## <a name="setup"></a>Seadistus
+## <a name="setup"></a>Häälestus
 
 Selle demo puhul kasutatakse standardseid Contoso andmeid ja ladu *62*. Samuti kasutatakse mõndasid hiljem esitatud täiendusi.
 

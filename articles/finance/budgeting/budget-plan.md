@@ -1,7 +1,7 @@
 ---
 title: Eelarve plaanimine
 description: Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 Finance'i funktsioonivärskendustest eelarve plaanimise alal. Selle ülesande eesmärk on illustreerida kiiret eelarve plaanimise mooduli konfigureerimise näidet ja näidata, kuidas selle konfiguratsiooni abil on võimalik eelarvet plaanida.
-author: ShylaThompson
+author: panolte
 ms.date: 06/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e995a3fb7f87db2aed676d12ca4b4732eb3e96c5e52b702890d53cd1840d7cb1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775190"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595330"
 ---
 # <a name="budget-planning"></a>Eelarve plaanimine
 
@@ -36,7 +36,7 @@ Selle ülesande eesmärk on anda juhendatud ülevaade Microsoft Dynamics 365 Fin
 
 ## <a name="prerequisites"></a>Eeltingimused 
 
-Selle õpetuse jälgimiseks vajate juurdepääsu Microsoft Dynamics 365 Finance keskkonda Contoso demoandmetega ja peate olema eksemplaris administraatori õigustega. Ärge kasutage selle ülesande puhul privaatbrauseri režiimi – vajaduse korral logige brauseri muult kontolt välja ja logige sisse administraatori mandaatidega. Sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. See loob püsiva küpsise, mida Exceli rakendus praegu vajab. Kui logite rakendusse sisse muu brauseriga kui IE, siis palutakse teil Exceli rakenduses sisse logida. Exceli rakenduses suvandi Sisselogimine klõpsamine avab IE hüpikakna ja sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. Kui Exceli rakenduses suvandi Sisselogimine klõpsamine midagi ei tee, peaksite IE küpsiste vahemälu tühjendama.
+Selle õppetüki saamiseks vajate juurdepääsu Microsoft Dynamics 365 Finance keskkonda Contoso demoandmetega ja peate olema eksemplaris administraatori õigustega. Ärge kasutage selle ülesande puhul privaatbrauseri režiimi – vajaduse korral logige brauseri muult kontolt välja ja logige sisse administraatori mandaatidega. Sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. See loob püsiva küpsise, mida Exceli rakendus praegu vajab. Kui logite rakendusse sisse muu brauseriga kui IE, siis palutakse teil Exceli rakenduses sisse logida. Exceli rakenduses suvandi Sisselogimine klõpsamine avab IE hüpikakna ja sisselogimisel **PEATE** märkima ruudu Hoia mind sisselogituna. Kui Exceli rakenduses suvandi Sisselogimine klõpsamine midagi ei tee, peaksite IE küpsiste vahemälu tühjendama.
 
 ## <a name="scenario-overview"></a>**Stsenaariumi ülevaade**
 Julia töötab Saksamaa ettevõttes Contoso Entertainment Systems (DEMF) finantshaldurina. FY2016 lähenemisel peab ta töötama eelseisva aasta ettevõtte eelarve seadistamise osas. Eelarve koostamine näeb välja järgmine.

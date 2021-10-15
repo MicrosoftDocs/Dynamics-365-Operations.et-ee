@@ -4,18 +4,18 @@ description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500551"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579732"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.21 uut või mida on muudetud (oktoober 2021)
 
@@ -26,20 +26,6 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versio
 - **Eelvaateversiooni välja andmine:** august 2021
 - **Väljalaske üldine kättesaadavus (enesevärskendus):** september 2021
 - **Väljalaske üldine kättesaadavus (automaatne värskendamine):** oktoober 2021
-
-## <a name="known-deployment-issue"></a>Teadaolev juurutuse probleem
-
-Juurutades IaaS-i versiooni 10.0.21, võidakse kuvada järgmine juurutamise hoiatus.
-
-**Hoiatuskood:** 95017
-
-**Hoiatusteade:** skripti \[SetupDiagnostics\] käivitamine VM-is nurjus
-
-Juurutamine toimib hoiatusest hoolimata. Siiski võivad teenuses Lifecycle Services (LCS) ilmneda järgmised teadaolevad probleemid.
-
-- **Keskkonna jälgimise** lehel ei kuvata **üksikasjalikku versiooniteabe** linki, seega ei saa te vaadata teie keskkonnas installitud moodulite kindlaid versioone. Ilma nende andmeteta võivad järgnevad kiirparandused nurjuda, kuna kiirparandusi kasutav protsess kasutab neid andmeid, et kontrollida, kas mooduli versiooni eeltingimused on täidetud. Kuna PEAP/Preview koostet ei saa tootmises kasutada või kiirparandusi rakendada, peaks mõju olema minimaalne.
-- SQL Insights'i jaotise **Keskkonnaseire** lehe **Jõudlusmõõdikud** ja **Indeksi analüüs** vahekaardid ei kuva andmeid. Kõik teised **Keskkonna seire** funktsioonid töötavad nii, nagu ette nähtud.
-- **Kogu süsteemi diagnostika** lehekülg pole kättesaadav. Seotud andmeid igatunnise koguja oleku kohta ja selle reeglite järgi tuvastatud probleemid ei ilmu samuti.
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 

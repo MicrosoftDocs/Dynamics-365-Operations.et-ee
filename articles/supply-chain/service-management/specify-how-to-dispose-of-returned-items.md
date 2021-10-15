@@ -1,7 +1,7 @@
 ---
 title: Tagastatud kaupade likvideerimise viisi määratlemine
 description: Määratlege tagastatud kaupade likvideerimise viis.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722243"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571325"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Tagastatud kaupade likvideerimise viisi määratlemine 
+# <a name="specify-how-to-dispose-of-returned-items"></a>Tagastatud kaupade likvideerimise viisi määratlemine
 
 [!include [banner](../includes/banner.md)]
-
 
 Kui töötlete tagastuskorraldust, peate määrama põhjusekoodi selgitamaks, miks toode tagastatakse. Peate määrama ka likvideerimiskoodi ja likvideerimistegevuse, et määratleda, mida teha tagastatud tootega.
 
@@ -35,9 +34,9 @@ Saate määratleda kõiki likvideerimiskoode, mida äriprotsessi toetamiseks tar
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ Iga määratletava likvideerimistähise jaoks peate valima likvideerimistegevuse
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ Iga määratletava likvideerimistähise jaoks peate valima likvideerimistegevuse
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Likvideerimiskoodi valimine vahelao orderile
 
-1.  Klõpsake valikuid **Varude haldamine** \> **Perioodiline** \> **Kvaliteedijuhtimine** \> **Vahelao orderid**.
-
-2.  Olemasoleva vahelao orderi jaoks valige tegevus väljalt **Likvideerimiskood** vahekaardil **Ülevaade**.
-
-
+1. Minge **Varude haldamine** \> **Perioodiline** \> **Kvaliteedijuhtimine** \> **Vahelaoorderid**.
+1. Olemasoleva vahelao orderi jaoks valige tegevus väljalt **Likvideerimiskood** vahekaardil **Ülevaade**.
 
 ## <a name="see-also"></a>Vt ka
 
 [Vahelao order (vorm)](/dynamicsax-2012//quarantine-order-form)
 
 [Likvideerimiskoodid (vorm)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

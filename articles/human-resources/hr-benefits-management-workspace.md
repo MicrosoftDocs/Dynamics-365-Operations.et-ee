@@ -1,8 +1,8 @@
 ---
 title: Soodustuse halduse tööruum
 description: Selles teemas kirjeldatakse soodustuste halduse tööruumi rakenduses Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719088"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512470"
 ---
 # <a name="benefits-management-workspace"></a>Soodustuse halduse tööruum
 
@@ -47,7 +47,7 @@ Selles teemas kirjeldatakse **soodustuste halduse** tööruumi rakenduses Dynami
 
 ## <a name="view-action-items"></a>Tegevusüksuste kuvamine
 
-Tegevusüksuste kuvamiseks võite valida paani või vahekaardi. Vahekaardi valimise korral saate töötajaid vaadata ja valida otse tööruumi lehel.
+Tegevusüksuste kuvamiseks võite valida paani või vahekaardi. Vahekaardi valimise korral saate töötajaid vaadata ja valida tööruumi lehelt.
 
 ![Tegevusüksused.](./media/hr-benefits-management-workspace-action-items.png)
 
@@ -55,16 +55,16 @@ Kui valite paani, viiakse teid vastava ala lehele. Kui näiteks valite ühe neis
 
 - **Kinnitamata valikud**
 - **Ava välja registreeritud plaanideta registreerimised**
-- **Soodustused registreeritud**
+- **Soodustuste jaoks registreeritud**
 - **Uus töötaja pole registreeritud**
 
 ![Töötaja soodustusplaanid.](./media/hr-benefits-management-workspace-plans.png)
 
-Kui valite paani **Aktiivsed elusündmused** või **Tulevased elusündmused**, viiakse teid aktiivsete või tulevaste elusündmuste loendisse.
+Valides **Aktiivsed elusündmused** või **Tulevased elusündmused**, viiakse teid aktiivsete või tulevaste elusündmuste loendisse.
 
 ![Elusündmused.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>Teostamine
+## <a name="processing"></a>Töötlemine
 
 Registreerimiseks sobivuse, elusündmuste või tariifimuutuste uuenduste töötlemiseks valige navigeerimisribal asjakohane üksus.
 
@@ -88,9 +88,42 @@ Muu soodustuste perioodi vaatamiseks valige see ripploendist **Periood**.
 
 ![Vaheta perioodi.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>Registreerimise vahekaardi avamine
+
+Tegevusüksuste kuvamiseks võite valida kas paani või vahekaardi. Vahekaardi valimise korral saate töötajaid vaadata ja valida tööruumi lehel.
+Vahekaardil **Avatud registreerimine** antakse avatud registreerimisprotsessi võtmemõõdud. 
+
+Avatud registreerimisega seotud teave kuvatakse 30 päeva enne **Registreerimise alguskuupäeva**. See määratletakse **Perioodide** seadistuses **Soodustuste haldus** > **Lingid** > **Perioodid** väljal **Registreerimise alguskuupäev**.  Selle sätte muutmiseks minge **Inimressursside jagatud parameetrid** > **Soodustuste haldus** > **Avatud registreerimise suvandid** ja värskendage **Arv** välja.  
+
+Järgmine teave on saadaval vahekaardil **Avatud registreerimine**:
+ - Töötajad, kes ei ole avatud registreerimisprotsessi alustanud
+ - Töötajad, kellel on valimised toimumas
+ - Töötajad, kellel on valimiste protsess lõpule viidud
+ - Kinnitamata valikud
+
+**Kokkuvõttepaanid**
+
+- **Alustamata** – **Alustamata** paan kuvab töötajate arvu, kes pole registreerimisprotsessi alustanud. **Alustamata** paanil on filtreeritud loend, milles kuvatakse ainult need töötajad, kelle plaanid ei ole valitud, loobutud või avatud registreerimisplaani perioodi kohta välja registreeritud. Kohustuslikke plaane ignoreeritakse ja neid ei kaasata, kuna need on töötaja jaoks vaikimisi valitud.  Saate minna tagasi sellele paanile, et vaadata töötajate loendit, kes ei ole **Töötaja soodustuste plaani** lehel avatud registreerimisprotsessi alustanud.
+
+  > [!NOTE]
+  > Kui te ei soovi jälgida **Plaani tüübi** avatud registreerimise edenemist, saate selle välistada, kui kasutate **Soodustuste haldus** > **Lingid** > **Töötaja iseteeninduse parameetrid** > **Soodustuse plaani paani häälestus** ja värskendades välja **Jälgi avatud registreerimise edenemist**.  Näiteks võib olla loodud plaane, millel **Plaani tüüp** = **Muu**. Need plaanid võivad olla valikulised plaanid, mille puhul te ei soovi jälgida registreerimise edenemist. Kui te seda plaanitüüpi ei vali, eiratakse seda tüüpi plaane registreerimiste jälgimisel või lõpetamisel vahekaardil **Avatud registreerimine**. See säte rakendub plaani tüübile, mis valitakse kõigi perioodide ja juriidiliste isikute puhul.
+
+- **Pooleli** – **Pooleli** paanil on töötajate arv, kellel on valimised pooleli. Paanil **Pooleli** on filtreeritud loend, mis näitab ainult töötajaid, kes omavad vähemalt ühte loobutud või valitud plaani. Kohustuslikke plaane ignoreeritakse ja neid ei kaasata, kuna need on töötaja jaoks vaikimisi valitud. Sellelt paanilt saate tagasi minna, et näha **Töötaja soodustuse plaanide hulgivärskenduse lehel** valitud ja loobutud plaane.
+
+- **Registreeritud soodustusteks** – **Registreeritud soodustusteks** paanil on kaasatud töötajate arv, kes on registreeritud soodustusteks. **Registreeritud soodustusteks** paanil on filtreeritud loend, mis näitab kõiki plaanidest valitud või sellest loobunud töötajaid. Päring välistab plaanid, mida ei jälgita avatud registreerimise jaoks lehel **Töötaja iseteeninduse parameetrid**. Sellelt paanilt saate tagasi minna, et vaadata töötajate loendit **Töötaja soodustuse plaanide** lehel.
+
+- **Kinnitamata valikud** – **Kinnitamata valikute** paanil kuvatakse töötajate arv, kes on valitud või loobunud plaanidest, mis tuleb kinnitada. Sellelt paanilt saate tagasi minna, et kuvada **Töötajate soodustuse plaanide hulgivärskenduse** lehte.
+
+**Tegevus**
+
+- **Alustamata** - **Alustamata** vahekaart kuvab töötajate nimekirja, kes pole registreerimisprotsessi alustanud. **Alustamata** paanil on filtreeritud loend, milles kuvatakse need töötajad, kelle plaanid ei ole valitud, loobutud või avatud registreerimisplaani perioodi kohta välja registreeritud. Kohustuslikke plaane ignoreeritakse ja neid ei kaasata, kuna need on töötaja jaoks vaikimisi valitud. **Töötaja soodustusplaanide üksikasjade** lehe kuvamiseks saate töötajal süvitsi minna.
+
+- **Valimised pooleli** – **Valimised pooleli** vahekaardil on töötajate nimekiri, kellel on valimised pooleli. Paanil **Valimised pooleli** on filtreeritud loend, mis näitab töötajaid, kes omavad vähemalt ühte loobutud või valitud plaani. Kohustuslikke plaane ignoreeritakse ja neid ei kaasata, kuna need on töötaja jaoks vaikimisi valitud. **Töötaja soodustusplaanide üksikasjade** lehe kuvamiseks saate töötajal süvitsi minna.
+
 ## <a name="view-more-options"></a>Kuva rohkem variante
 
-Lisateabe ja muude võimalike toimingute vaatamiseks valige **Lingid**.
+Lisateabe ja muude toimingute vaatamiseks valige **Lingid**.
 
 ![Lingid.](./media/hr-benefits-management-workspace-links.png)
 

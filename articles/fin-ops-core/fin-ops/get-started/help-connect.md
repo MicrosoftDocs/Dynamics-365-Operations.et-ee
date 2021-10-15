@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343808"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594853"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Spikri kasutuskogemuse konfigureerimine Finance and Operationsi rakendustes
 
@@ -30,7 +30,7 @@ Selles teemas antakse ülevaade Finance and Operationsi rakenduste spikrisüstee
 
 ## <a name="help-architecture"></a>Spikri arhitektuur
 
-Finance and Operationsi rakendused hõlmavad mõistete ülevaateid ja muid teemasid, mida avaldatakse saidil [https://docs.microsoft.com/dynamics365](/dynamics365/). Selle sisu juurde pääseb seejärel tootesisese paani **Spikker** kaudu. Järgmisel joonisel on näidatud spikrisüsteemi osad.
+Finance and Operations rakendused hõlmavad mõistete ülevaateid ja muid teemasid, mida avaldatakse [Microsoft Dynamics 365 dokumentatsioon](/dynamics365/) saidil . Selle sisu juurde pääseb seejärel tootesisese paani **Spikker** kaudu. Järgmisel joonisel on näidatud spikrisüsteemi osad.
 
 [![Spikri arhitektuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Tootesisene spikrisüsteem toob artikleid saidilt docs.microsoft.com ja teistelt
 ## <a name="adding-task-guides"></a>Tegevuse juhiste lisamine
 
 > [!NOTE]
-> Vahekaart **Tegevuse juhised** ei ole praegu rakendustes Human Resources ega Commerce saadaval. <!--We are currently working to enable this functionality in a future release.--> Kuid rakenduse Human Resources alustuskogemuse tegevuse juhised jäävad põhifunktsioonide pakkumiseks saadavaks. Nii rakenduse Human Resources kui ka Commerce protseduurispikker on saadaval ka saidil [https://docs.microsoft.com/dynamics365](/dynamics365/).
+> Vahekaart **Tegevuse juhised** ei ole praegu rakendustes Human Resources ega Commerce saadaval. <!--We are currently working to enable this functionality in a future release.--> Kuid rakenduse Human Resources alustuskogemuse tegevuse juhised jäävad põhifunktsioonide pakkumiseks saadavaks. Personali ja kaubanduse protseduurispikker on saadaval [Microsoft Dynamics 365 dokumentatsioon](/dynamics365/) saidil .
 
 Süsteemiadministraatorid saavad lehel **Süsteemi parameetrid** konfigureerida vastavatele tegevuse juhiste teekidele juurdepääsu rakendamise jaoks.
 

@@ -11,14 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d0e2a730743a7921578278f23d0d2272b8e052174620c8a6c86c3e1809cdae7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739007"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570893"
 ---
 # <a name="production-planning"></a>Tootmise planeerimine
+
+[!include [banner](../../includes/banner.md)]
 
 Planning Optimization toetab mitut tootmisstsenaariumi. Kui migreerite olemasolevalt sisse-ehitatud koondplaneerimise mootorilt, on oluline, et teaksite mõnda muutunud käitumist.
 

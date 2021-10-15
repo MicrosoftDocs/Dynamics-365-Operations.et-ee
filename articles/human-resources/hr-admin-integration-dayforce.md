@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414580"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559457"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integratsiooni konfigureerimine Dayforce’iga
 
@@ -64,7 +64,6 @@ Palga integreerimise sisselülitamisel on kaks peamist mõju.
 
 > [!NOTE]
 > SFTP-lõpp-punkti edastatud andmete pakett krüptitakse, kasutades võtit, mis on paketile kordumatu. Võti on Azure võtmehoidlas, mis on kättesaadav ainult Ceridianile. Andmebaasi sisu ei saa dekrüptida ja uurida. Kui teil on vaja uurida andmepaketi sisu, peate eksportima projekti "Palga integreerimise eksport" käsitsi, selle alla laadima ja seejärel avama. Käsitsi eksportimine ei rakenda krüptimist ega edasta paketti.
-> Kui integratsioonifailid saadetakse Dynamics 365 Human Resources UAT- või liivakastikeskkonnast Ceridian Dayforce'i testkeskkonda, saate kasutada järgmist võtmehoidla URL-i: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Andmete konfigureerimine 
 

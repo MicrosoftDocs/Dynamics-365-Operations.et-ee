@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774965"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557388"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Global Inventory Accounting kodulehekülg
 
@@ -41,13 +41,16 @@ Reeglid on kogum varude raamatupidamispõhimõtteid, mida saab seostada ühe võ
 
 Global Inventory Accounting on praegu saadaval järgmistes Azure'i geograafilistes piirkondades:
 
-- Ameerika Ühendriigid
+- USA
 - Euroopa
 - Ühendkuningriik
 - Austraalia
 - Kanada
+- Lõuna-Ameerika
 
 Kui proovite lisandmoodulit installida muus geograafilises piirkonnas, siis kuvab Microsoft Dynamics Lifecycle Services (LCS) teate, et teie geograafilist piirkonda ei toetata. Global Inventory Accounting ei toeta Supply Chain Managementi ettevõttesisene juurutamist.
+
+Kui teil on globaalse laoseisu raamatupidamisega probleeme ühes siin loetletud toetatud geograafilistest regioonidest, saatke valideerimiseks meilisõnum oma keskkonna ID-ga [Globaalse laoseisu raamatupidamise meeskonnale](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Litsentsimine
 

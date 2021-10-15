@@ -2,19 +2,19 @@
 title: Rakenduse Finance and Operations teenuse kirjeldus
 description: Selles teemas antakse Finance and Operations rakenduste teenuse kirjeldus.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472501"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581812"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Rakenduse Finance and Operations teenuse kirjeldus
 
@@ -28,7 +28,7 @@ Finance and Operations rakenduseks on ettevõtte ressursiplaanimise (ERP) tarkva
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Koos [äriteabega](/power-bi/fundamentals/power-bi-service-overview), [infrastruktuuriga](https://azure.microsoft.com/global-infrastructure/), [arvutus](/azure/service-fabric/service-fabric-overview) ja [andmebaasiteenusega](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview), võimaldavad need rakendused organisatsioonidel käitada valdkonnaspetsiifilisi ja tegevuspõhiseid äriprotsesse. Kliendid määravad oma rakenduspartneri toetatud ärirakenduse loogika konfiguratsiooni, mis sobib kõige paremini nende kordumatute äriprotsessidega. Funktsioone ja äriprotsesse saab ühe või mitme järgmise lahenduse abil kas laiendada või laiendada:
+Koos [äriteabega](/power-bi/fundamentals/power-bi-service-overview), [infrastruktuuriga](https://azure.microsoft.com/global-infrastructure/), [arvutus](/azure/service-fabric/service-fabric-overview) ja [andmebaasiteenusega](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/), võimaldavad need rakendused organisatsioonidel käitada valdkonnaspetsiifilisi ja tegevuspõhiseid äriprotsesse. Kliendid määravad oma rakenduspartneri toetatud ärirakenduse loogika konfiguratsiooni, mis sobib kõige paremini nende kordumatute äriprotsessidega. Funktsioone ja äriprotsesse saab ühe või mitme järgmise lahenduse abil kas laiendada või laiendada:
 
 - Integreeritud [isikupärastamise kogemus](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md) tööriistad
@@ -197,17 +197,17 @@ Järgmises tabelis kirjeldatakse teenuse tavalisi stsenaariume ja tegevusi. Samu
 | Kõigi tootmiseksemplaride ja mittetootmiseksemplaride ettevalmistamine. | X | |
 | Kõigi tootmiseksemplaride ja mittetootmiseksemplaride valideerimine. | | X |
 | **Teenuse värskendused** | |
-| Microsoft rakendab teenusevärskendused määratud mittetootmis- ja tootmiseksemplaride suhtes. | X | X |
-| Laadige värskendus alla LCS-st, määratlege, arendage välja ja katsetage värskendust ning esitage koodivärskenduspakett LCS-ile tagasi. | | X |
-| Taotlege laienduse uuenduste rakendamist tootmiseksemplari puhul. | | X |
+| Rakendage teenuse värskendusi määratud mittetootmis- ja tootmiseksemplaride suhtes. | X | |
+| Saate LCS-i teenuseuuendused kastist käsitsi rakendada. Saate määratleda, piiritleda, testida uuendust ning anda koodivärskenduse pakett tagasi LCS-i. | | X |
+| Taotlege ja planeerige laienduse uuenduste rakendamist tootmiseksemplari puhul. | | X |
 | Looge kood ja andmete varundamine tootmiseksemplari jaoks enne mis tahes uuenduste rakendamist. | X | |
 | Tõrke korral tuleb tootmiseksemplar tagasi pöörata koodile ja andmete varundamisele. | X | |
 | **Andmehaldus (varundamine, taastamine ja värskendamine)** | | |
 | Varundage andmebaas. | X | |
 | Määratlege kõrge saadavus ja katastroofide taastamise plaan. | X | |
-| Saate jälgida tootmiseksemplari andmebaasi jõudlust. | X | X |
-| Häälestage tootmisjuhtumite andmebaasi jõudlust. | X | X |
-| Käivitage tootmiseksemplari andmebaasi kopeerimine mittetootmiseksemplari. | | X |
+| Saate jälgida tootmiseksemplari andmebaasi jõudlust. | X | |
+| Häälestage tootmisjuhtumite andmebaasi jõudlust. | X | |
+| Tootmiseksemplari andmebaasi ajapunkti värskendamine mittetootmiseksemplariks. | | X |
 | **Infrastruktuuri uuendamine** | | |
 | Plaanige tavalised infrastruktuuri uuendused. | X | |
 | **Skaala suurendamine ja vähendamine (kasutajad, ladustamine ja eksemplarid)** | | |
@@ -215,7 +215,7 @@ Järgmises tabelis kirjeldatakse teenuse tavalisi stsenaariume ja tegevusi. Samu
 | Uuendage kasutusmuudatused LCS-i kordustellimuse hindaja tööriistas. | | X |
 | Teatage olulistest jõudlusprobleemidest, mis mõjutavad teenuse kasutamist. | | X |
 | Halda ennetavalt ressursse, mis on vajalikud rakendatava teenuse jaoks. | X | |
-| Uurida ja teha tõrkeotsinguid. | X | X |
+| Uurida ja teha tõrkeotsinguid. | X | |
 | **Turvalisus (kasutaja juurdepääs)** | | |
 | Andke kasutajale juurdepääs teenusele. | | X |
 | LCS-i projektile juurdepääsu andmine LCS-i kaudu juurutatud eksemplaride haldamiseks ja käitamiseks. | | X |

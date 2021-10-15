@@ -1,7 +1,7 @@
 ---
 title: Rakenduse Supply Chain Management müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügipakkumise päiste ning ridade sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Sales.
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9076d04e71ceae41a4fbdd09bebd2db8e9ed298c2a318a64f2fea6fb71447e5b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736643"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571637"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
 
@@ -116,11 +116,11 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![Malli vastendamine andmete integratsioonis.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Mallide vastendamine SalesInvoiceHeader andmete integreerimisel.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![Malli vastendamine andmete integratsioonis.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Mallide vastendamine SalesInvoiceLine andmete integreerimisel.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 

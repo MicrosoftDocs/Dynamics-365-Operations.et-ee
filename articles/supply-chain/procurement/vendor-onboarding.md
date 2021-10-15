@@ -1,7 +1,7 @@
 ---
 title: Hankijate vastuvõtmine
 description: Selles teemas kirjeldatakse, kuidas uusi hankijaid vastu võtta. See kirjeldab mitmesuguste rollide puhul nõutavaid tegevusi selle protsessi käigus.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPag
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fb0c5eff505a0e405a1c850014cfdf9e600921130d1751befdf45e168603b566
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743526"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566883"
 ---
 # <a name="onboard-vendors"></a>Hankijate vastuvõtmine
 

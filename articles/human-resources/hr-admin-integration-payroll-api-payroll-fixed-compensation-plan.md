@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429218"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559335"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Palgaarvestuse põhipalgaplaan
 
@@ -42,8 +42,8 @@ Füüsiline nimi: mshr_payrollfixedcompensationplanentity.
 | **Ametikoha ID**</br>mshr_positionid</br>*String* | Kirjutuskaitstud | Töötajaga seotud ametikoha ID ja fikseeritud hüvitisteplaani registreerimine. |
 | **Kehtiv alates**</br>mshr_validfrom</br>*Kuupäeva ja kellaaja nihe* |  Kirjutuskaitstud | Töötajaga seotud põhipalga kehtivuse algkuupäev.  |
 | **Kehtiv kuni**</br>mshr_validto</br>*Kuupäeva ja kellaaja nihe* | Kirjutuskaitstud | Töötajaga seotud põhipalga kehtivuse lõpukuupäev. |
-| **Tasusagedus**</br>mshr_payfrequency</br>*String* | Kirjutuskaitstud | Töötajale makstava tasu maksmise sagedus.  |
-| **Currency**</br>mshr_currency</br>*String* | Kirjutuskaitstud | Põhipalgaplaani jaoks määratletud valuuta. |
+| **Tasusagedus**</br>mshr_payfrequency</br>*String* | Kirjutuskaitstud | [Kompensatsioonitasude sageduse ID](hr-admin-integration-payroll-api-compensation-pay-frequency.md) antud palgamäära jaoks. |
+| **Valuuta**</br>mshr_currency</br>*String* | Kirjutuskaitstud | Põhipalgaplaani jaoks määratletud valuuta. |
 | **Palgaarvestuse põhipalgaplaani olem**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Süsteemi loodud | Süsteemi loodud GUID-väärtus palgaplaani kordumatuks tuvastamiseks. |
 
 ## <a name="relations"></a>Seosed

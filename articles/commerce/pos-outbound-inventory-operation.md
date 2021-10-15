@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772274"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581133"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Väljaminev laooperatsioon kassas
 
@@ -116,7 +116,7 @@ Vaates **Täielik tellimuste loend** saate käsitsi valida loendist rea ja seej�
 
 ### <a name="over-delivery-shipping-validations"></a>Ületarne saadetise kinnitamised
 
-Kinnitamine leiab aset dokumendi ridade vastuvõtmise protsessi ajal. Nende hulka kuuluvad ületarne kinnitused. Kui kasutaja püüab võtta vastu rohkem varusid kui ostutellimusel tellitud, kuid kas ületarne pole konfigureeritud või kui saadud kogus ületab ostutellimuse rea jaoks konfigureeritud ületarne hälbe, kuvatakse kasutajale viha ja tal pole võimalik üleliigset kogust vastu võtta.
+Kinnitamine leiab aset dokumendi ridade täitmise protsessi ajal. Nende hulka kuuluvad ületarne kinnitused. Kui kasutaja püüab saata rohkem varusid kui on ülekandekorraldusel tellitud, kuid kas ületarne pole konfigureeritud või kui saadetud kogus ületab ülekandekorralduse rea jaoks konfigureeritud ületarne hälbe, kuvatakse kasutajale veateade ja tal pole võimalik üleliigset kogust saata.
 
 ### <a name="underdelivery-close-lines"></a>Alatarne sulgemisread
 

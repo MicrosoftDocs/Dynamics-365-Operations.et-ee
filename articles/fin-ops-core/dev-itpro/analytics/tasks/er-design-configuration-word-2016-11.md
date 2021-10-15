@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83e75eee54516539be939e9547a8b637bbf2ab107ae96c07c4bbefaad75f1022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d4eb4fd4ea32db5aa19e9d2b1300818b3aaf6fc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768437"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594980"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Exceli mallidega ER-i konfiguratsioonide taaskasutamine Wordi vormingus aruannete loomiseks
 
@@ -90,7 +90,7 @@ Praegu kasutatakse Exceli dokumenti mallina väljundi loomiseks OPENXML-vormingu
 
 Saate nüüd vastendada kohandatud XML-i osa **Aruanne** elemendid Word dokumendi sisu juhtelementidega.
 
-Kui olete tuttav protsessiga kujundada Wordi dokumendid vormidena, mis sisaldavad [sisu juhtelemente](/office/client-developer/word/content-controls-in-word), mis on vastendatud [kohandatud XML-i osade](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) elementidega, täitke dokumendi loomiseks kõik järgmise protseduuri sammud. Lisateabe saamiseks vt [Ankeetide loomine, mida kasutajad täidavad või prindivad Wordis](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Vastasel juhul jätke järgmine protseduur vahele.
+Kui olete tuttav protsessiga kujundada Wordi dokumendid vormidena, mis sisaldavad [sisu juhtelemente](/office/client-developer/word/content-controls-in-word), mis on vastendatud [kohandatud XML-i osade](/visualstudio/vsto/custom-xml-parts-overview) elementidega, täitke dokumendi loomiseks kõik järgmise protseduuri sammud. Lisateabe saamiseks vt [Ankeetide loomine, mida kasutajad täidavad või prindivad Wordis](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Vastasel juhul jätke järgmine protseduur vahele.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Wordi dokumendi hankimine, mis sisaldab kohandatud XML-i osa ja teeb andmevastendust
 

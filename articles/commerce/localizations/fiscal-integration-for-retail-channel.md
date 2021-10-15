@@ -3,7 +3,7 @@ title: Kaubanduskanalite fiskaalüksuse integratsiooni ülevaade
 description: Selles teemas antakse ülevaade rakenduses Dynamics 365 Commerce saadaolevatest fiskaalüksuse integratsioonivõimalustest.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 08/10/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 323d9f4816a4f622143692ead3d1871980b19b52
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343283"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512576"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Kaubanduskanalite fiskaalüksuse integratsiooni ülevaade
 
@@ -141,6 +141,7 @@ Commerce SDK-s on praegu saadaval järgmised fiskaalüksuse integratsiooni näid
 - [Fiskaalüksuse registreerimisteenuse integratsiooni näide Tšehhi Vabariigi jaoks](./emea-cze-fi-sample.md)
 - [Juhtseadme integratsiooni näidis Rootsi jaoks](./emea-swe-fi-sample.md)
 - [Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks](./emea-deu-fi-sample.md)
+- [Fiskaalprinteri integratsiooni näide Venemaa jaoks](./rus-fpi-sample.md)
 
 Järgmisi fiskaalintegratsiooni funktsioone rakendatakse ka fiskaalintegratsiooni raamistiku abil, kuid see on saadaval kastist väljas ja seda ei kaasata Commerce SDK-sse:
 

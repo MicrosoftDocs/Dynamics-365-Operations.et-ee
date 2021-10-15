@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386334"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594827"
 ---
 # <a name="model-management-lifecycle"></a>Mudelihalduse elutsükkel
 
@@ -32,4 +32,4 @@ Soovitame teil õpetada AI-mudelit sisendkausta keskkonnas ja seejärel kasutada
 
 Kuna AI-mudel põhineb olemasolevatel arve- ja kliendiandmetel, on oluline, et kastikeskkonnas oleks tootmisandmetest viimati koopia. Te võite alustada oma mudelit õpetama, järgides sammude juhiseid [Kasuta kliendi makseprognoose](use-customer-payment-predictions.md). Pärast mudeli ümber piiramist hinnake tulemusi, nagu on kirjeldatud algse [kliendi makseennustuse mudeli hindamises](evaluate-payment-prediction.md). Kasutage teavet [ennustuse mudeli täiustamiseks](improve-model.md) et katsetada funktsiooni ja filtrikombinatsioonidega, mis aitavad mudelit parandada.
 
-Kui olete koolitustulemustega rahul, järgige juhiseid jaotises [Jaotage oma AI-mudel](https://docs.microsoft.com/ai-builder/distribute-model) üleminekuks tootmiskeskkonda.
+Kui olete koolitustulemustega rahul, järgige juhiseid jaotises [Jaotage oma AI-mudel](/ai-builder/distribute-model) üleminekuks tootmiskeskkonda.

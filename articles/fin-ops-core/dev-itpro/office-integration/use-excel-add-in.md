@@ -2,7 +2,7 @@
 title: Üksuse andmete vaatamine ja värskendamine Exceliga
 description: See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamicsi Excelile lisandmooduli abil.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761350"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592661"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Üksuse andmete vaatamine ja värskendamine Exceliga 
 
@@ -60,7 +60,7 @@ Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et
 
 6. Muudatuse kinnitamiseks valige **OK** ja seejärel **Jah**. Exceli lisandmoodul taaskäivitub ja laadib metaandmed.
 
-    Nupp **Kujundus** on nüüd saadaval. Kui Exceli lisandmoodulil on nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Lisateabe saamiseks vaadake selle teema jaotises [Tõrkeotsing](../office-integration/use-excel-add-in.md#troubleshooting) olevat nuppu „Kuvatakse nupp Aplettide laadimine”.
+    Nupp **Kujundus** on nüüd saadaval. Kui Exceli lisandmoodulil on link **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Lisateabe saamiseks selle probleemi lahendamise kohta vaadake [Aplettide laadimine](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) veaotsingu kirjet.
 
 7. Valige **Kujundus**. Exceli lisandmoodul toob üksuse metaandmed.
 8. Valige käsk **Lisa tabel**. Ilmub olemite loend. Olemid on esitatud vormingus „Nimi – silt”.
@@ -136,7 +136,7 @@ Exceli töövihiku mallide autorid saavad kasutada sama protseduuri, et seada ma
 ## <a name="troubleshooting"></a>Tõrkeotsing
 On mõned probleemid, mida saab lahendada mõne lihtsa juhise kaudu.
 
-- **Kuvatakse nupp Aplettide laadimine**: kui Exceli lisandmoodulil on pärast sisselogimist nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, valige see, logige välja ja logige tagasi sisse.
+- **Link „Aplettide laadimine" on näidatud** – Lisateabe saamiseks selle probleemi lahendamise kohta vaadake [Aplettide laadimine](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) veaotsingu kirjet. 
 - **Kuvatakse teade „Keelatud”**: kui näete Exceli lisandmoodulis metaandmete laadimise ajal teadet „Keelatud”, siis ei ole kontol, mis on Exceli lisandmoodulisse sisse logitud, õigust kasutada sihtteenust, -eksemplari või -andmebaasi. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, valige see, logige välja ja logige tagasi sisse.
 - **Excelis kuvatakse tühi veebileht**: kui sisselogimisprotsessi käigus avaneb tühi veebileht, nõuab konto AD FS-i, kuid lisandmoodulit sisaldav Exceli versioon pole sisselogimise dialoogiboksi laadimiseks piisavalt hiljutine. Selle probleemi lahendamiseks värskendage kasutatavat Exceli versiooni. Exceli versiooni värskendamiseks, kui olete viitkanalis asuvas ettevõttes, kasutage tööriista [Office’i juurutustööriist](/deployoffice/overview-office-deployment-tool), et [liikuda edasilükatud kanalist praegusesse kanalisse](/deployoffice/overview-update-channels).
 - **Ajalõpu periood andmete muudatuste avaldamise ajal** – kui saate ajalõpu teate sel ajal, kui proovite üksuses andmemuudatusi avaldada, kaaluge mõjutatud töövihiku avaldamise partii suuruse vähendamist. Üksused, mis käivitavad kirjete muudatuste puhul suurema loogika hulga, nõuavad värskenduste saatmist väiksemates partiides, et vältida ajalõppe.
