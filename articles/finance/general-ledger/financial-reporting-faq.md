@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733607"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605275"
 ---
 # <a name="financial-reporting-faq"></a>Finantsaruandluse KKK
 
@@ -101,5 +101,28 @@ Ajaloolise valuutateisenduse puhul võidakse üksikute kande üksikasjade asemel
 Aruannetes esitatud andmete värskendamisel võib ilmneda viivitus, kuna summad tuleb kande üksikasjade kontrollimise teel ümber arvutada. See viivitus käivitatakse iga kord, kui kursse värskendatakse või sisestatakse rohkem kandeid. Kui ajalooliseks teisendamiseks seadistatakse paar korda päevas tuhandeid kontosid, võib aruande andmete värskendamine viibida kuni tund aega. Teisest küljest, kui konkreetsete kontode arv on väiksem, võib aruande andmete värskenduste töötlemisaeg lüheneda minutitele või lühemaks.
 
 Samamoodi, kui aruanded genereeritakse ajaloolist tüüpi kontode valuutateisenduse abil, tehakse täiendavaid kandepõhiseid arvutusi. Olenevalt kontode arvust võib aruande genereerimise aeg olla enam kui kaks korda pikem.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Millised on hinnangulised andmevaka integreerimisintervallid?
+
+Financial Reporter kasutab 16 ülesannet andmete kopeerimiseks teenusest Dynamics 365 Finance Financial Reporteri andmebaasi. Järgmises tabelis on loetletud need 16 ülesannet ja näidatud intervall, mis määrab, kui sageli iga ülesanne käivitub. Intervalle ei saa muuta.
+
+| Nimi                                                       | Intervall | Intervalli ajastus |
+|------------------------------------------------------------|----------|-----------------|
+| AX 2012 konto kategooriad konto kategooriaks            | 41       | minutit         |
+| AX 2012 kontod kontoks                                | 7        | minutit         |
+| AX 2012 ettevõtted ettevõtteks                               | 300      | sekundit         |
+| AX 2012 ettevõtted organisatsiooniks                          | 23       | minutit         |
+| AX 2012 dimensioonikombinatsioonid dimensioonikombinatsiooniks    | 1        | minutit         |
+| AX 2012 dimensiooniväärtused dimensiooniväärtuseks                | 11       | minutit         |
+| AX 2012 dimensioonid dimensiooniks                            | 31       | minutit         |
+| AX 2012 vahetuskursid vahetuskursiks                    | 17       | minutit         |
+| AX 2012 finantsaastad finantsaastateks                        | 13       | minutit         |
+| AX 2012 pearaamatu kanded kiirinfoks                | 1        | minutit         |
+| AX 2012 organisatsiooni hierarhiad puuks                   | 3600    | sekundit         |
+| AX 2012 stsenaariumid stsenaariumiks                              | 29       | minutit         |
+| AX 2012 kandetüübi täpsustid kiirinfotüübi täpsustiks | 19       | minutit         |
+| Hooldusülesanne                                           | 1        | minutit         |
+| MR-i aruandluse definitsioonid AX7 finantsaruanneteks             | 45       | sekundit         |
+| MR-i aruande versioonid AX-i finantsaruande versioonideks         | 45       | sekundit         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

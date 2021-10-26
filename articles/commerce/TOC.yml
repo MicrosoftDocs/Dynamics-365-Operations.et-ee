@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: Lingitud tagasimaksed
                   href: dev-itpro/linked-refunds.md
+                - name: Linkimata tagasimaksete töötlemine Dynamics 365 Commerce’i Aydeni jaoks mõeldud Payment Connectoriga
+                  href: dev-itpro/unlinked-refunds.md
                 - name: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
                   href: sell-return-outside-assortments.md
                 - name: Vahetuse konfigureerimine ja töötlemine tagastustellimusel

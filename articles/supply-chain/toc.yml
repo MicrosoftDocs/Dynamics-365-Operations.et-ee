@@ -2813,7 +2813,9 @@
               href: sales-marketing/trade-allowance.md
             - name: Uue kaubandusleppe loomine
               href: sales-marketing/tasks/create-new-trade-agreement.md
-        - name: Teenusehaldus
+            - name: Müügiajaloo puhastamise jõudluse täiustused
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
+        - name: Teenuste haldus
           items:
             - name: Teenuste halduse ülevaade
               href: service-management/service-management-home-page.md
@@ -3711,7 +3713,9 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Müük ja turundus
               items:
-                - name: Kontsernisiseses protsessis ei toetata kogumiüksust
+                - name: Müügi uuendamisajaloo puhastamise töö nurjub või sellel on jõudlusprobleeme
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
+                - name: Kontsernisiseses protsessis ei toetata kogumi kaupa
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: Müügitellimusega seotud kontsernisisest ostutellimust ei saa tühistada
                   href: troubleshooting/sales/cancel-intercompany-purchase-order.md
