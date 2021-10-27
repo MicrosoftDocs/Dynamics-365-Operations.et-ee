@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 64963348ef2cf850477d03fcb9a40d3a167c715bea86eca1d756f01f54472d5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718547"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605367"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Riigi konteksti konfigureerimine sõltuvalt ER-i mudelivastendustest
 
@@ -48,7 +48,7 @@ Mõned selle teema etapid nõuavad ER-vormingu käitamist. Mõnel juhul mõjutab
 
 Nõutud ER-komponentide kujundamiseks järgige etappe selle teema [lisas 1](#appendix1). Nüüd on teil mudelivastenduse konfiguratsioon **Vastendamine (üldine)**, mis sisaldab määratluse **Sisenemiskoht 1** mudelivastendust.
 
-![ER-i konfiguratsiooni leht.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![ER konfiguratsioonide leht, vorming, et saada vastenduste konfiguratsioon.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigureeritud vormingu käitamine
 
@@ -61,7 +61,7 @@ Pange tähele, et veebilehitseja pakub laadida alla tekstifaili, mis käivitatud
 
 Nõutud ER-komponentide kujundamiseks järgige etappe selle teema [lisas 2](#appendix2). Nüüd on teil mudelivastenduse konfiguratsioonid **Vastendamine (üldine)** ja **Vastendamise (üldine) kohandus**, mis sisaldavad määratluse **Sisenemiskoht 1** mudelivastendust.
 
-![ER-i konfiguratsiooni leht.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![ER konfiguratsioonide leht, üldise kohandatud konfiguratsiooni vastendamine.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigureeritud vormingu käitamine
 
@@ -71,7 +71,7 @@ Nõutud ER-komponentide kujundamiseks järgige etappe selle teema [lisas 2](#app
 
 Pange tähele, et valitud ER-vormingu käivitamine ei õnnestu. Tõrketeade teavitab teid, et mudelil **Mudel vastenduste õppimiseks** on rohkem kui üks mudelivastendus ja määratlus **Sisenemiskoht 1** mudelivastenduse konfiguratsioonides **Vastendamine (üldine)** ja **Vastendamise (üldine) kohandus**. Samuti soovitab teade, et valite ühe nendest konfiguratsioonidest vaikimisi konfiguratsiooniks.
 
-![ER-i konfiguratsiooni leht.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![ER konfiguratsioonide leht tõrketeatega.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Vaikimisi vastenduskonfiguratsiooni määratlemine
 
@@ -82,7 +82,7 @@ Järgige neid etappe, et määratleda mudelivastenduse konfiguratsioon **Vastend
 3.  Seadistage **Vaikimisi mudeli vastendamise** suvand väärtusele **Jah**.
 4.  Valige käsk **Salvesta**.
 
-![ER-i konfiguratsiooni leht.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![ER konfiguratsioonide leht, vaikimisi on mudeli vastendamise liugur häälestatud väärtusele Jah.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigureeritud vormingu käitamine
 
@@ -101,7 +101,7 @@ Nõutud ER-komponentide kujundamiseks järgige etappe selle teema [lisas 3](#app
 
 Pange tähele, et mudelivastenduse konfiguratsiooni **Vastendamine (FR)** 1. versioon konfigureeritakse nii, et see rakendub ainult mudeli **Mudel vastenduste õppimiseks** ER-vormingutele, mida käitatakse rakenduse Finance ettevõtetes, mille riigi/piirkonna kontekst on Prantsusmaa.
 
-![ER-i konfiguratsiooni leht.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![ER konfiguratsioonide leht, mudeli vastendamise (FR) konfiguratsioon.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigureeritud vormingu käitamine
 
@@ -121,7 +121,7 @@ Järgige neid samme, et määratleda kohandatud mudelivastenduse konfiguratsioon
 3.  Seadistage **Vaikimisi mudeli vastendamise** suvand väärtusele **Jah**.
 4.  Valige käsk **Salvesta**.
 
-![ER-i konfiguratsiooni leht.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![ER konfiguratsioonide leht, vastendamise (FR) konfiguratsioon, vaikimisi on mudeli vastendamise liugur häälestatud väärtusele Jah.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Konfigureeritud vormingu käitamine
 
@@ -276,7 +276,7 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 5.  Valige käsk **Salvesta**.
 6.  Sulgege **Valemikoostaja** leht.
 
-    ![ER-i mudelivastenduse koostaja leht.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![ER-mudeli vastendamise kujundaja leht, sisestuspunkti 1 määratlus.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Valige käsk **Salvesta**.
 8.  Sulgege leht **Mudelivastenduse kujundaja**.
@@ -289,12 +289,12 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 15. Valige käsk **Salvesta**.
 16. Sulgege **Valemikoostaja** leht.
 
-    ![ER-i mudelivastenduse koostaja leht.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![ER-mudeli vastendamise kujundaja leht, sisestuspunkti 2 määratlus](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Valige käsk **Salvesta**.
 18. Sulgege leht **Mudelivastenduse kujundaja**.
 
-    ![ER-i mudelivastenduste leht.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![ER -mudeli vastendusleht sisenemispunktide määratlustega.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Sulgege leht **Mudelivastendused**.
 
@@ -369,7 +369,7 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 6.  Valige käsk **Salvesta**.
 7.  Sulgege leht.
 
-    ![ER-i mudelivastenduse koostaja leht.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![ER-mudeli vastendamise kujundaja leht, üldise funktsiooni 1 kohandatud valem.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Valige käsk **Salvesta**.
 9.  Sulgege leht.
@@ -380,12 +380,12 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 14. Valige käsk **Salvesta**.
 15. Sulgege leht.
 
-    ![ER-i mudelivastenduse koostaja leht.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![ER-mudeli vastendamise kujundaja leht, üldise funktsiooni 2 kohandatud valem.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Valige käsk **Salvesta**.
 17. Sulgege leht.
 
-    ![ER-i mudelivastenduste leht.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![ER-mudel andmeallika vastendamise lehega vastendamise (üldine) koopia vastendamiseks.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Sulgege leht.
 
@@ -432,7 +432,7 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 7.  Valige käsk **Salvesta**.
 8.  Sulgege leht.
 
-    ![ER-i mudelivastenduse koostaja leht.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![ER-mudeli vastendamise kujundaja leht, FR funktsiooni 1 valem.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Valige käsk **Salvesta**.
 10. Sulgege leht.
@@ -444,12 +444,12 @@ Pange tähele, et selle ER.konfiguratsiooni versiooni 1 mustand on redigeerimise
 16. Valige käsk **Salvesta**.
 17. Sulgege leht.
 
-    ![ER-i mudelivastenduse koostaja leht.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![ER-mudeli vastendamise kujundaja leht, FR funktsiooni 2 valem.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Valige käsk **Salvesta**.
 19. Sulgege leht.
 
-    ![ER-i mudelivastenduste leht.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![ER -mudel andmeallika vastendamise lehele.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Sulgege leht.
 

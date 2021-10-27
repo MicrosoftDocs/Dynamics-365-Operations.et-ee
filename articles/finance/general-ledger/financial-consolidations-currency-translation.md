@@ -1,8 +1,8 @@
 ---
 title: Finantskonsolideerimise ja valuuta teisenduse ülevaade
 description: Selles teemas kirjeldatakse pearaamatu finantskonsolideerimisi ja valuuta teisendusi.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748976"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615931"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finantskonsolideerimiste ja valuutateisenduse ülevaade
 
@@ -182,5 +182,17 @@ Siin on mõned konsolideerimisstsenaariumid, mida finantsaruandlus toetab:
 ## <a name="generating-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 Lisateavet stsenaariumide kohta, kus võite luua konsolideeritud finantsaruandeid, vt teemast [Konsolideeritud finantsaruannete loomine](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Suurte konsolideerimise jõudluse suurenemine
+
+Keskkonnad, kus on palju pearaamatukandeid, võivad olla optimaalseset kiirusest aeglasemad. Probleemi lahendamiseks saate seadistada paralleeltöötluse partiide jaoks, mis kasutavad kasutaja määratud kuupäevade arvu. Lahenduse ettenähtud toimimise tagamiseks lisage kuupäevavahemike konteineri tagastamiseks konsolideerimisele laienduspunkt. Põhiline rakendamine peaks sisaldama ühte kuupäevavahemikku konsolideerimise algus- ja lõppkuupäeva jaoks. Põhilise rakendamise kuupäevavahemikud kinnitatakse, et veenduda, et need ei sisaldaks tühikuid või kattumist. Kuupäevavahemikke kasutatakse igale ettevõttele paralleelpartiide kogumite loomiseks.
+
+Saate kohandada kuupäevavahemike arvu vastavalt oma organisatsiooni vajadustele. Kuupäevavahemike arvu kohandamisel saate lihtsustada testimist ja vähendada mõju olemasolevale koodile, kuna pole ühtegi eraldamisloogikat. Ainsad uued testid, mida on vaja partiikogumite loomise kinnitamiseks, kuupäevavahemike kontrollimiseks ja kuupäevavahemike alamkogumi testimiseks, kontrollimaks, et partiid saab lõpliku partiiülesande jaoks kokku tuua. 
+
+See funktsioon parandab konsolideerimisprotsessi pearaamatus, kui protsessi käitatakse partiitööna. Täiustus parandab pearaamatu konsolideerimisprotsessi jõudlust jaotades konsolideerimise mitmeks tööülesandeks, mida saab paralleelselt töödelda. Vaikemeetod, konsolideerimise käivitamiseks, töötleb iga ülesanne pearaamatu kaheksa päeva tegevust. Ent lisatud on laienduspunkt, mis võimaldab teil kohandada loodud numbritoiminguid.
+
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada **funktsioonihalduse** tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+
+- **Moodul:** pearaamat
+- **Funktsiooni nimi:** suurte konsolideerimise jõudluse suurenemine
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

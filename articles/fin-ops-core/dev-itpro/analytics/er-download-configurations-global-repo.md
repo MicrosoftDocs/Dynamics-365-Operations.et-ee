@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724413"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605327"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Elektroonilise aruandluse konfiguratsioonide allalaadimine konfiguratsiooniteenuse globaalsest hoidlast
 
@@ -63,7 +63,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
     > [!NOTE]
     > Nupp **Impordi** ei ole saadaval elektroonilise aruandluse konfiguratsiooni versioonide puhul, mis on juba praeguses Finance'i eksemplaris olemas.
 
-    ![Konfiguratsioonihoidla leht.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Konfiguratsioonihoidla leht, konfiguratsioonide kiirkaart.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Filtreeritud konfiguratsioonide importimine
 
@@ -77,7 +77,7 @@ Selles teemas selgitatakse, kuidas laadida konfiguratsiooniteenuse globaalsest h
 4. Valige kiirkaardil **Konfiguratsioonid** käsk **Impordi**, et laadida filtreeritud konfiguratsioonid globaalsest hoidlast praegusesse eksemplari.
 5. Valige kiirkaardil **Konfiguratsioonid** käsk **Lähtesta filter**, et puhastada määratletud valikutingimused.
 
-    ![Konfiguratsioonihoidla leht.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Konfiguratsioonihoidla leht, versioonide kiirkaart, nupp Impordi.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Olenevalt ER-i sätetest kontrollitakse konfiguratsioone pärast importimist. Võib-olla teavitatakse teid leitud vasturääkivustest. Probleemid tuleb enne imporditud konfiguratsiooni versiooni kasutamist lahendada. Lisateavet leiate selle teemaga seotud ressursside loendist.

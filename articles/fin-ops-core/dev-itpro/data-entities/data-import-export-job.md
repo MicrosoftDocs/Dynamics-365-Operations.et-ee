@@ -2,7 +2,7 @@
 title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404030"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612360"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -198,16 +198,10 @@ Puhastamise protsessi planeerimisel tuleb täpsustada puhastuse kriteeriumite j�
 > [!NOTE]
 > Kui vahetabelite kirjeid täielikult ei puhastata, veenduge, et puhastamise töö oleks plaanitud käivituma korduvalt. Nagu eespool selgitatud, siis mis tahes puhastamise käivitamisel töö puhastab ainult nii palju käivitamise ID-sid, nagu on ettenähtud maksimaalsete tundide jooksul võimalik. Mis tahes allesjäänud vahekirjete puhastamise jätkamiseks peab töö olema ajastatud töötama perioodiliselt.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Tööde ajaloo puhastamine ja arhiveerimine (saadaval rakenduse Platform värskenduse 39 või versiooni 10.0.15 eelversiooni jaoks)
+## <a name="job-history-clean-up-and-archival"></a>Tööajaloo puhastamine ja arhiivimine 
 Tööde ajaloo puhastamise ja arhiveerimise funktsioon asendab puhastamise funktsioonide varasemad versioonid. Selles jaotises selgitatakse neid uusi võimalusi.
 
-Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab Finance and Operationsi rakendustel puhastada automaatselt pakett-tööd plaanitult ja käivitada selle kohe, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates kl 12 keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks.
-
-> [!NOTE]
-> Kuna see funktsioon on eelvaateversioonis, ei kustuta süsteemi pakett-töö käivitamise ajalugu enne, kui see on lubatud eelväljaande DMFEnableExecutionHistoryCleanupSystemJob kaudu. Kui funktsioon on tavaliselt saadaval tulevases väljalaskes, ei ole see eelväljaanne nõutav ja süsteemi pakett-töö hakkab likvideerima ja arhiveerima pärast süsteemi valmimist, mis põhineb määratletud graafikul, nagu eespool selgitatud. 
-
-> [!NOTE]
-> Tulevases väljalaskes eemaldatakse rakenduse puhastamise funktsioonidest Finance and Operationsi rakenduste varasemad versioonid.
+Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab Finance and Operationsi rakendustel puhastada automaatselt pakett-tööd plaanitult ja käivitada selle kohe, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks. Alates versioonist 10.0.20 on see funktsioon alati sees.
 
 Puhastustoimingu protsessi teine muudatus on likvideeritud käivitamise ajaloo arhiveerimine. Puhastamise töö arhiveerib kustutatud kirjed bloobimällu, mida DIXF kasutab regulaarsete integratsioonide jaoks. Arhiveeritud fail on DIXF-i paketi vormingus ja see on bloobimälus 7 päeva jooksul saadaval, mille jooksul saab selle alla laadida. Arhiivitud faili vaikimisi säilimisaega 7 päeva saab muuta parameetrites maksimaalselt 90 päevaks.
 

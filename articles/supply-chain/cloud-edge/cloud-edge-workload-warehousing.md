@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500423"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641156"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -171,7 +171,8 @@ Järgmised laohalduse funktsioonid ei ole praegu skaalaühiku töökoormustes to
 - Negatiivse vaba kaubainventuuriga töötlemine.
 - Laotöö töötlemine saadetise märkustega.
 - Laotöö töötlemine koos materjali töötlemisega/warehouse automation.
-- Toote põhiandmete pildi kasutamine (näiteks mobiilirakenduses Warehouse Management).
+- Toote põhiandmete pildid (näiteks mobiilirakenduses Warehouse Management).
+- Kontsernisisene tooteandmete ühiskasutus.
 
 > [!WARNING]
 > Mõned laofunktsioonid ei ole saadaval ladude puhul, mis käitavad laohalduse töökoormusi skaalaüksuses, ning samuti ei toetata seda keskuse või skaalaüksuse töökoormusega.
@@ -188,7 +189,6 @@ Järgmine tabel näitab, milliseid väljaminevaid funktsioone toetatakse ja kus 
 |--------------------------------------------------------------|-----|------------------------------|
 | Lähtedokumendi töötlemine                                   | Jah | Ei |
 | Laadimise ja transpordijuhtimise töötlemine                | Jah, kuid ainult koorma planeerimise protsessid. Transpordihalduse töötlemist ei toetata  | Ei |
-| Maandumiskulu ja transiitkauba vastuvõtmine                                         | Jah | Ei |
 | Lattu väljastamine                                         | Jah | Ei |
 | Plaanitud ristlaadimine                                        | Ei  | Ei |
 | Saadetise konsolideerimine                                       | Jah, koorma planeerimisel | Jah |
@@ -224,6 +224,7 @@ Järgnev tabel näitab, milliseid sissetulevaid funktsioone toetatakse ja kus ne
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
 | Lähte&nbsp;dokumendi&nbsp;töötlemine                             | Jah | Ei |
 | Laadimise ja transpordijuhtimise töötlemine                    | Jah | Ei |
+| Maandumiskulu ja transiitkauba vastuvõtmine                       | Jah | Ei |
 | Sissetuleva saadetise kinnitus                                    | Jah | Ei |
 | Ostutellimuse vabastamine lattu (lao tellimuse töötlemine) | Jah | Ei |
 | Laotellimuse ridade tühistamine<p>Pange tähele, et seda toetatakse ainult siis, kui rea suhtes pole registreerimist toimunud</p> | Jah | Ei |

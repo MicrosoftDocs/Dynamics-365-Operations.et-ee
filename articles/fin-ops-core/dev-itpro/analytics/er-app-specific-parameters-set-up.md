@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749820"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605251"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 
@@ -58,8 +58,6 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 1.  Valige juriidiline isik **DEMF**.
 2.  Valige konfiguratsioonipuust vorming **Vorming LE-andmete otsingu õppimiseks**.
 3.  Tehke tegumiriba vahekaardil **Konfiguratsioonid** grupis **Rakendusekohased parameetrid** valik **Seadistus**.
-
-    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Lehel **Rakendusekohased parameetrid** saate konfigureerida vormingu **Vorming LE-andmete otsingu õppimiseks** andmeallika **Valija** reeglid.
     
@@ -75,14 +73,14 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 
     Otsing kujutab valimiseks saadaolevate maksukoodide loendit. See loend tagastatakse andmeallikaga **Model.Data.Tax**, mis on konfigureeritud ER-vormingu aluses. Kuna see andmeallikas sisaldab välja **Nimi**, kuvatakse otsingus iga maksukoodi nimi.
 
-    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER-rakendusekohaste parameetrite leht, koodivälja otsing.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Valige maksukood **VAT19**.
 8.  Uue kirje väljal **Otsingu tulemus** otsingu avamiseks valige ripploendi nool. Otsing kujutab vormingu loetelu TaxationLevel valimiseks saadaolevate väärtuste loendit.
 
     Pange tähele, et kui sisse logitud kasutaja eelistatud keeleks on valitud saksa keel, kuvatakse otsingu väärtuste sildid saksa keeles, eeldusel, et need on ER-vormingu aluses tõlgitud. Kui otsingu andmeallika silt on tõlgitud, kuvatakse see silt kasutaja eelistatud keeles vahekaardil **Otsingud**.
 
-    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER-i rakenduse kindlate parameetrite leht, otsingutulemused, mis näitavad tulemust eelistatult saksa keeles.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Valige väärtus **Tavaline maksustamine**.
 
@@ -120,7 +118,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
     
     Selle viimase kirje lisades saate määratleda järgmise reegli: alati kui argumendina edastatud maksukood ei täida mõnda eeltoodud tingimustest, tagastab otsingu andmeallikas nõutud maksustamistasemena taseme **Muu**.
 
-    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER-i rakenduse kindlate parameetrite leht, tingimuste kiirkaart viimase kirjega Muu.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Valige väljalt **Olek** suvand **Lõpule viidud**.
 
@@ -160,7 +158,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 
     Otsing kujutab nüüd maksukoodide loendit ettevõtte **USMF** valitava maksu kohta.
 
-    ![ER-rakendusekohaste parameetrite leht.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER-i rakenduse kindlate parameetrite leht, koodivälja otsing, kus on kuvatud USMF-ettevõtte maksukoodide loend.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Valige maksukood **EXEMPT**.
 9.  Valige uue kirje väljalt **Otsingu tulemus** väärtus **Maksustamine puudub**.
@@ -225,13 +223,13 @@ Eelnevas näites pääsesite ER-vormingu rakendusekohastele parameetritele ligi 
 
 1.  Kasutage uuesti olemasolevat menüü-üksust **ERSolutionAppSpecificParametersDesigner** või juurutage oma menüü-üksus **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Visual Studio leht.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio leht, atribuutide paan.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Järgige üht neist sammudest.
 
     1.  Looge uus menüü-üksus nupp ja linkige see vastava kirjega tabelist **ERSolutionTable**, seadistades selle atribuudi **Andmeallikas** väärtusele **ERSolutionTable**.
     
-        ![Visual Studio leht.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual Studio lehekülg, kujunduspaanid.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Looge lihtne nupp ja kirjutage üle meetod **Klõpsatud**, nagu on näidatud järgmises näites.
     
