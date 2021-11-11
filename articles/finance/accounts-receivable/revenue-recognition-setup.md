@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759013"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675174"
 ---
 # <a name="revenue-recognition-setup"></a>Tulu tuvastamise seadistus
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "6759013"
 Lisatud on moodul **Tulu tuvastamine**, mis sisaldab kõiki seadistamiseks vajalikke menüü-üksusi. Selles teemas kirjeldatakse seadistamise suvandeid ja nende mõjusid.
 
 > [!NOTE]
-> Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
-
-> Tulu tuvastamise, sh kogumifunktsiooni kasutamist ei toetata Commerce'i kanalites (e-kaubandus, kassa, kõnekeskus). Tulu tuvastamisega konfigureeritud kaupu ei tuleks Commerce'i kanalites loodud tellimustele või kannetele lisada.
+> Tulu tuvastamise funktsiooni on nüüd funktsioonihalduse kaudu vaikimisi sisse lülitatud. Kui teie organisatsioon ei kasuta seda funktsiooni, saate selle tööruumis **Funktsioonihaldus** välja lülitada.
+>
+> Tulu tuvastamise, sh kogumifunktsiooni kasutamist ei toetata Commerce'i kanalites (e-kaubandus, kassa ja kõnekeskus). Tulu tuvastamiseks konfigureeritud kaupu ei tuleks Commerce'i kanalites loodud tellimustele või kannetele lisada.
 
 Moodulil **Tulu tuvastamine** on järgmised seadistussuvandid.
 
@@ -40,12 +40,16 @@ Moodulil **Tulu tuvastamine** on järgmised seadistussuvandid.
     - Kaubagrupid ja väljastatud tooted
     - Tulugraafiku määratlemine
     - Tulu hinna määratlemine
+    - Varude seadistamine
 
-        - Sisestusreeglid
-        - Kogumid
+        - Tulugraafiku määratlemine
+        - Tulu hinna määratlemine
 
-    - Kogumi komponendid
-    - Kogumi kaup
+    - Sisestusreeglid
+    - Kogumid
+
+        - Kogumi komponendid
+        - Kogumi kaup
 
 - Projekti seadistus
 
@@ -91,20 +95,27 @@ Sisestage kirjeldavad väärtused väljadesse **Tulugraafik** ja **Kirjeldus**. 
 - **Automaatsed lepingutingimused** – märkige see ruut, kui lepingu algus- ja lõppkuupäevad tuleks määrata automaatselt. Need kuupäevad määratakse automaatselt ainult tulu tüübiga **Lepingujärgne tugi** väljastatud toodetele. Lepingu alguskuupäevaks määratakse automaatselt müügitellimuse rea nõutud lähetuskuupäev ja lepingu lõppkuupäevaks määratakse automaatselt kuupäev, mis saadakse, kui alguskuupäevale liidetakse tulugraafiku seadistamisel määratletud kuude või esinemiste arv. Näiteks müügitellimuse real oleval tootel on üheaastane garantii. Vaikimisi on tulugraafik **12 k** (12 kuud) ja selle tulugraafiku märkeruut **Automaatsed lepingutingimused** on valitud. Kui müügitellimuse real on nõutav lähetuskuupäev 16. detsember 2019, siis vaikimisi on lepingu alguskuupäev on 16. detsember 2019 ja lepingu lõppkuupäev 15. detsember 2020.
 - **Tuvastamise alus** – tuvastamise alus määratleb, kuidas tulu hind esinemiste lõikes eraldatakse.
 
-    - **Igakuiselt kuupäevade järgi** – summa eraldatakse iga kuu tegelike päevade alusel.
+    - **Igakuiselt päevade järgi** – summa eraldatakse iga kalendrikuu tegelike päevade alusel.
     - **Igakuiselt** – summa eraldatakse võrdselt esinemistes määratletud kuude arvu lõikes.
     - **Esinemised** – summa eraldatakse võrdselt esinemiste lõikes, kuid see võib hõlmata lisaperioodi, kui valite tuvastamisreegliks **Tegelik alguskuupäev**.
+    - **Rahandusperiood päevade järgi** – summa eraldatakse iga rahandusperioodi tegelike päevade alusel. 
 
-- **Tuvastamisreegel** – tuvastamisreegel määratleb arvele tulugraafikus määratavad vaikekuupäevad.
+    Kui rahandusperioodid järgivad kalendrikuid, on tulemused **Igakuiselt päevade järgi** ja **Rahandusperiood päevade järgi** samad. Ainus erand on see, kui tuvastamisreegli väärtuseks seatakse **Kuu/perioodi lõpp** ning müügitellimuse real jäetakse väljad **Lepingu alguskuupäev** ja **Lõppkuupäev** tühjaks.
+
+- **Tuvastamisreegel** – tuvastamisreegel määratleb arvele tulugraafikus määratavad kuupäevad.
 
     - **Tegelik alguskuupäev** – graafiku loomisel kasutatakse kas lepingu alguskuupäeva (lepingujärgse toe \[TK\] kaupade korral) või arve kuupäeva (oluliste ja ebaoluliste kaupade korral).
-    - **Kuu esimene** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõigi järgnevate graafikute read luuakse kuu esimese jaoks.
+    - **Kuu/perioodi esimene päev** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõigi järgnevate graafikute read luuakse kuu või rahandusperioodi esimese päeva jaoks.
     - **Tükeldamine kuu keskel** – graafiku esimese rea kuupäev sõltub arve kuupäevast. Kui arve sisestatakse esimesest kuni viieteistkümnenda kuupäevani, luuakse tulugraafik kuu esimese päeva alusel. Kui arve sisestatakse alates kuueteistkümnendast kuupäevast, luuakse tulugraafik järgmise kuu esimese päeva alusel.
-    - **Järgmise kuu esimene** – graafiku kuupäevaks on järgmise kuu esimene päev.
 
-Klõpsake nuppu **Tulugraafiku üksikasjad**, et vaadata üldisi perioode ja igas perioodis tuvastatud protsente. Vaikimisi on **Tuvastamise protsendi** väärtus jaotatud perioodide arvu lõikes võrdselt. Kui tuvastamise aluseks on kas **Igakuine** või **Esinemised**, saab tuvastamise protsenti muuta. Tuvastamise protsendi muutmisel teavitab hoiatusteade teid, et koguväärtus ei võrdu 100 protsendiga. Kui saate teate, saate jätkata ridade redigeerimist. Kuid enne lehe sulgemist peab koguväärtus võrduma 100 protsendiga.
+        Rida **Tükeldamine kuu keskel** ei saa valida, kui tuvastamise aluse väärtuseks on seatud **Rahandusperiood päevade järgi**.
 
-[![Tulugraafiku andmed.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Järgmise kuu/perioodi esimene päev** – graafiku alguskuupäevaks on järgmise kuu või rahandusperioodi esimene päev.
+    - **Kuu/perioodi lõpp** – lepingu alguskuupäevaks (või arve kuupäevaks) on graafiku esimese rea kuupäev. Kuid kõik järgnevad graafikuread luuakse kuu või rahandusperioodi viimase päeva jaoks. 
+
+Klõpsake nuppu **Tulugraafiku üksikasjad**, et vaadata üldisi perioode ja igas perioodis tuvastatud protsente. Vaikimisi on **Tuvastamise protsendi** väärtus jaotatud perioodide arvu lõikes võrdselt. Kui tuvastamise aluseks on määratud **Igakuine**, saab tuvastamise protsenti muuta. Tuvastamise protsendi muutmisel teavitab hoiatusteade teid, et koguväärtus ei võrdu 100 protsendiga. Selle teate saamise korral saate jätkata ridade redigeerimist. Kuid enne lehe sulgemist peab koguväärtus võrduma 100 protsendiga.
+
+[![Tulugraafiku andmed.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Varude seadistamine
 

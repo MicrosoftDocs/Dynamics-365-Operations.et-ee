@@ -74,12 +74,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (november 2021)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (oktoober 2021)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: Finance 10.0.20 (august 2021)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Hankija arve automatiseerimise seadistussuvandid
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Ettemaksete automaatne rakendamine hankija arvete ülevaatele
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: Arveridade loomine hankija arvete importimisel
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Arvete esitamine töövoosüsteemi ja toote sissetulekuridade vastendamine
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Hankija arve automatiseerimise tulemuste kuvamine
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Hankija sisestusreeglid
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Hankija arve kuupäevad
+              href: accounts-payable/vendor-invoice-dates.md
             - name: Ostureskontro ja müügireskontro välisvaluuta ümberarvutamine
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobiilsed arvete heakskiidud
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: Kontoplaanide plaanimine
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Kohalike kontoplaanide plaanimine
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Pearaamatukontode kannete tasakaalustamine
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: Pearaamatukonto pseudonüümi häälestus
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Käibemaksumakse loomine
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Maksu tasakaalustuse ümardamine kohandatud valuuta komakohtade põhjal
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: Käibemaksukannete loomine dokumentidel
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: Pearaamatu käibemaksu sisestusgruppide häälestus
@@ -1546,6 +1556,8 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Elektroonilise arvelduse kasutamise alustamine Mehhikos
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias
+                          href: localizations/e-invoicing-sa-get-started.md
                         - name: Elektroonilise arveldamise teenuse kasutamine hankija arvete importimiseks
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektroonilise arveldamise häälestus
@@ -1568,6 +1580,8 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Käibemaksu kohaldatavuse ja käibemaksugrupi määramise loogika
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: Maksujurisdiktsiooni parameetrite kasutamine skonto arvutamise häälestamiseks
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Arvutus
                       items:
                         - name: 'Maksu arvutamine hindadelt, kui valik Hinnad sisaldavad makse on lubatud'
@@ -1594,6 +1608,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: EL käibearuanne
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Hispaania aruandlus
+                          items:
+                            - name: 'KM-i kohene teave (Suministro Inmediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
                         - name: Rootsi aruandlus
                           items:
                             - name: Käibemaksudeklaratsioon
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Ühendkuningriigi aruandlus
                           items:
-                            - name: MTD-ga integreerimiseks ettevalmistamine KM-i jaoks
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: Käibemaksudeklaratsioon
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: Üleviimistellimuse maksuarvutuse lubamine
                       items:
                         - name: Maksufunktsiooni tugi üleviimistellimuste jaoks
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                        - name: Maksuteabe printimine üleviimistellimuse dokumentidele
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Laiendus
                       items:
                         - name: Andmeväljade lisamine maksukonfiguratsioonidesse
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: 'Andmeväljade lisamine maksu integreerimisse, kasutades laiendusi'
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: Maksukonfiguratsioonide kohandamine koondandmete otsinguks
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: Maksuarvutuse KKK
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
             - name: Austraalia
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: Kodumaiste müükide KM-i aastane loend
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: Belgia Intrastat
+                  href: localizations/emea-bel-intrastat.md
             - name: Brasiilia
               items:
                 - name: Brasiilia ülevaade
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: Mis on uut või mida on muudetud India lokaliseerimise puhul?
                   items:
+                    - name: Mis on uut või mida on muudetud versioonides 10.0.20 – 10.0.22?
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: Mis on uut või mida on muudetud versioonides 10.0.15 – 10.0.19?
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Mis on uut või mida on muudetud versioonis 10.0.14?
@@ -2680,6 +2708,12 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: TDS-i kannete sertifikaadinumbrite ja kuupäevade uuendamine
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: Indoneesia
+              items:
+                - name: Indoneesia ülevaade
+                  href: localizations/indonesia.md
+                - name: Indoneesia käibemaksudeklaratsioon
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: Itaalia
               items:
                 - name: Itaalia ülevaade
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: Käibemaksudeklaratsioon (Holland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Hollandi Intrastat
+                  href: localizations/emea-nl-intrastat.md
                 - name: EL käibearuanne
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Uus-Meremaa
@@ -3352,6 +3388,8 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Pangadokumentide tasude eraldamine saadetisele
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: Kliendi elektroonilised arved Saudi Araabias
+                  href: localizations/emea-sau-e-invoices.md
             - name: Singapur
               items:
                 - name: Singapuri ülevaade
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: ELi sisene KM
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: Hispaania intrastat
+                  href: localizations/emea-esp-intrastat.md
                 - name: Ühekordsed kliendid
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Tšekkide printimine Hispaania paigutusega
@@ -3462,28 +3502,26 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Käibemaksugruppide häälestus pöördkäibemaksu jaoks
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Ühendkuningriigi aruandlus
+                - name: Maksude digitaalseks muutmine (MTD) käibemaksu jaoks
                   items:
-                    - name: Maksude digitaalseks muutmine (MTD) käibemaksu jaoks
-                      items:
-                        - name: Maksude digitaalseks muutmise (MTD) käibemaksutagastuse esitamine Ühendkuningriigis
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Keskkonna ettevalmistamine koostööks HMRC MTD käibemaksu veebiteenusega
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: MTD käibemaksu elektrooniliste teadete seadistuse kontroll-loend
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: MTD käibemaksu liivakastiga toimuva koostöö testimine
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Finance'i keskkonna autoriseerimine koostööks HMRC MTD käibemaksu veebiteenusega
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Käibemaksutagastuse tagastamine HMRC MTD veebiteenusele
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: Käibemaksu maksete ja kohustuste kohta teabe toomine HMRC-st
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: Käibemaksu seadistuse üksikasjad käibemaksudeklaratsioonide kohta Ühendkuningriigis
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Käibemaksudeklaratsiooni loomine pabervormingus (aruanne VAT 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: Maksude digitaalseks muutmise (MTD) käibemaksutagastuse esitamine Ühendkuningriigis
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Keskkonna ettevalmistamine koostööks HMRC MTD käibemaksu veebiteenusega
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: MTD käibemaksu elektrooniliste teadete seadistuse kontroll-loend
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: MTD käibemaksu liivakastiga toimuva koostöö testimine
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: Finance'i keskkonna autoriseerimine koostööks HMRC MTD käibemaksu veebiteenusega
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: Käibemaksutagastuse tagastamine HMRC MTD veebiteenusele
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: Käibemaksu maksete ja kohustuste kohta teabe toomine HMRC-st
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: Käibemaksu seadistuse üksikasjad käibemaksudeklaratsioonide kohta Ühendkuningriigis
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: Käibemaksudeklaratsiooni loomine pabervormingus (aruanne VAT 100)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Maksete aruande statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Ameerika Ühendriigid
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4003,9 +4043,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                        - name: Ühenda
+                        - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
-                        - name: Vorming
+                        - name: Format
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Rakenduse värskendus 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: Rakenduse värskendus 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
                   items:
                     - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: 'Koodi muutmine, et lubada kasutajatel nimega ER-sihtkohti konfigureerida ja kasutada'
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: Sissetulevate dokumentide kohandatud ER-allika juurutamine
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Mobiilirakendus
           items:
             - name: Mobiilirakenduse avaleht
