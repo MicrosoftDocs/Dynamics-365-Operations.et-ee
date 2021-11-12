@@ -74,12 +74,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (november 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (oktoober 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (august 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -1043,15 +1043,15 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/supply-chain/toc.json
                         - name: NullContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Tekst
+                    - name: Text
                       items:
                         - name: Tekstifunktsioonid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Char
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Ühenda
+                        - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Vorming
+                        - name: Format
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/supply-chain/toc.json
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Koondplaneerimine koos ostu kaubanduslepetega
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Planeerimise optimeerimise kasutatavad kuupäeva ja aja parameetrid
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Ohutuspiirid
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Viivituse kõikumine (negatiivsed päevad)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Globaalse aadressiraamatu konfigureerimine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Aadressi häälestamine
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aadressiraamatute KKK
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aadressiraamatute konfigureerimine
@@ -2427,18 +2431,6 @@
                       href: production-control/release-production-orders.md
                     - name: Tootmistellimuste lõpetatuks tunnistamine
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Tootmisosakonna täideviimisliidese häälestamine ja kasutamine
-                      items:
-                        - name: Tootmisosakonna täideviimisliidese konfigureerimine
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Tootmisosakonna täideviimisliidese kujundamine
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Seadme häälestamine tootmisosakonna täideviimisliidese käitamiseks
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
-                          href: production-control/production-floor-execution-use.md
-                        - name: Tootmisosakonna täideviimisliidese laadide määramine
-                          href: production-control/production-floor-execution-styles.md
                     - name: Töökaardi konfigureerimine seadmetele
                       href: production-control/config-job-card-device.md
                     - name: Lõpetatuna kinnitamine töökaardi seadmest
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Tootmise sisestamine
                       href: cost-management/production-posting.md
+            - name: Tootmisosakonna täideviimisliidese häälestamine ja kasutamine
+              items:
+                - name: Tootmisosakonna täideviimisliidese konfigureerimine
+                  href: production-control/production-floor-execution-configure.md
+                - name: Tootmisosakonna täideviimisliidese kujundamine
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Seadme häälestamine tootmisosakonna täideviimisliidese käitamiseks
+                  href: production-control/production-floor-execution-setup.md
+                - name: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
+                  href: production-control/production-floor-execution-use.md
+                - name: Tootmisosakonna täideviimisliidese laadide määramine
+                  href: production-control/production-floor-execution-styles.md
         - name: Tagasimakse haldus
           items:
             - name: Tagasimakse halduse mooduli ülevaade
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Mobiilirakenduse Warehouse Management etapipealkirjade ja juhiste kohandamine
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Esiletõstetud väljade konfigureerimine mobiilse seadme etappide jaoks
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Ringiminekute konfigureerimine mobiilse seadme menüü-üksuste etappide jaoks
+                      href: warehousing/warehouse-app-detours.md
                     - name: Identifitseerimisnumbri vastuvõtmine mobiilirakenduse Warehouse Management kaudu
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Mobiilsete seadmete globaalsed parameetrid
                   href: warehousing/mobile-device-parameters.md
+                - name: Mobiilse seadme kasutajakontod
+                  href: warehousing/mobile-device-work-users.md
                 - name: Mobiilse seadme kasutaja sätted
                   href: warehousing/mobile-device-user-settings.md
                 - name: Laorakenduse sündmusetöötlus
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Laohaldus
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: Rakenduse ühenduse seadistamisel ei leitud sertifikaadi tee usaldusankrut
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: Värskendamisel ja WMS-i migreerimisel ei leitud sertifikaadi tee usaldusankrut
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Partiinumbri automaatse reserveerimise viip kuvatakse isegi saadaolevate varude puhul
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Komplekteerimistöö blokeeringut ei saa lõpetamata täiendustöö tõttu eemaldada
@@ -3745,10 +3761,8 @@
                   href: troubleshooting/warehousing/cancel-posted-packing-slip.md
                 - name: 'Litsentsiplaati ei saa teisaldada, kui seerianumbril on lubatud tühi väljastamine ja tühi sissetulek'
                   href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Kaupa ei saa liigutada asukohta, mis on identifitseerimisnumbri järgi kontrollitud'
+                - name: 'Varusid ei saa liigutada asukohta, mis on identifitseerimisnumbri järgi kontrollitud'
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Rakenduse ühenduse seadistamisel ei leitud sertifikaadi tee usaldusankrut
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Kogumiprofiili ei leitud
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Tarneteate parandust ei saa töödelda
@@ -3817,10 +3831,8 @@
                   href: troubleshooting/warehousing/specify-dimensions-above-location.md
                 - name: Kinnitamata ostutellimused kinnitatakse pärast toote sissetulekute värskendamise käitamist.
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Müügitellimuse real oleva laovaru reserveeringut ei saa tühistada
+                - name: Müügitellimuse real olevate varude reserveeringut ei saa tühistada
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Värskendamisel ja WMS-i migreerimisel ei leitud sertifikaadi tee usaldusankrut
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Saadetist ei saa kinnitada, kuna klient on ootel'
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 'Saadetist ei saa kinnitada, kuna koormaridadel on kogus null'
