@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769415"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647481"
 ---
 # <a name="mobile-device-user-settings"></a>Mobiilse seadme kasutaja sätted
 
@@ -54,7 +54,7 @@ Samuti saate määrata sätteprofiili, mis kehtib kõigi seadmemarkide, seadmemu
 
 Mobiilsete seadmete kasutajasätete loomiseks ja haldamiseks tehke järgmised toimingud.
 
-1. Avage **Laohaldus \> Mobiilne seade \> Mobiilse seadme kasutajasätted**.
+1. Avage **Warehouse management \> Seadistus \> Mobiilne seade \> Mobiilse seadme kasutajasätted**.
 1. Kindla kirje avamiseks valige loendipaanil olemasolev kasutajasätete profiil. Kuid kui soovite luua hoopis uue profiili, valige toimingupaanil **Uus**.
 
     Iga loendipaani profiil on sildistatud, et tähistada tootemarki, mudelit ja/või kasutaja ID-d, millele profiil rakendub. Üldisematel profiilidel on mõne või iga nimetatud omaduse jaoks määratud väärtus *Kõik*.
@@ -83,7 +83,7 @@ Kasutage lehte **Mobiilsete seadmete tootemargid**, et vaadata, luua ja hallata 
 
 Mobiilsete seadmete tootemarkide ja mudelite loomiseks ja haldamiseks tehke järgmised toimingud.
 
-1. Avage **Laohaldus \> Mobiilne seade \> Mobiilsete seadmete tootemargid**.
+1. Avage **Warehouse management \> Seadistus \> Mobiilne seade \> Mobiilse seadme brändid**.
 1. Soovitud kirje avamiseks valige loendipaanil mobiilse seadme tootemark. Kuid kui soovite luua hoopis uue tootemargi, valige toimingupaanil **Uus**.
 1. Seadke uue või valitud seadmemargi kirje päisejaotises järgmised väljad.
 

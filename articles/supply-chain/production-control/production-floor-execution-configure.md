@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576924"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647185"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese konfigureerimine
 
@@ -74,6 +74,12 @@ See funktsioon lisab tootmisosakonna täideviimisliidesele varahalduse vahekaard
 See funktsioon võimaldab lisada tööde loendisse otsinguvälja. Töötajad saavad leida konkreetse töö, sisestades töö ID või otsides kõik konkreetse tellimuse tööd, sisestades tellimuse ID. Töötajad saavad sisestada ID võtmeklahvistikuga või vöötkoodi skannides. Kui soovite seda kasutada, lülitage [funktsioonide halduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse järgmised funktsioonid.
 
 - Tootmisosakonna täideviimisliidese töö otsing
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Lubage kaas- ja kõrvalsaaduste aruandlus
+
+See funktsioon võimaldab töötajatel kasutada partiitellimuste edenemisest teatamiseks tootmispõranda täitmisliidest. See aruandlus hõlmab kaas- ja kõrvalsaaduste aruandlust. Selle funktsiooni kasutamiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmine funktsioon.
+
+- Tootmisosakonna täideviimisliidese kaas- ja kõrvalsaaduste aruanne
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Tootmisosakonna käivituskonfiguratsioonidega töötamine
 

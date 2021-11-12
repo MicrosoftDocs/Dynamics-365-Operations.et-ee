@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472595"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675113"
 ---
 # <a name="order-lookup-module"></a>Tellimuse otsingu moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab tellimuse otsingu moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 
@@ -34,11 +33,11 @@ Järgmine näide näitab tellimuse otsingumooduli renderdatud vormi näidet. Kui
 
 ![Tellimuse otsingumooduli vorm lehel.](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>Tellimuse otsingu mooduli atribuudid
+## <a name="order-lookup-module-properties"></a>Tellimuse otsingu mooduli atribuudid
 
 | Atribuudi nimi     | Väärtus     | Kirjeldus |
 |-------------------|-----------|-------------|
-| Päis           | Tekst      | Vormi ülaosas kuvatav pealkiri (nt &quot;Otsi oma tellimust"). |
+| Päis           | Tekst      | Vormi ülaosas kuvatav pealkiri (nt "Otsi oma tellimust"). |
 | Rikastekst         | Rikastekst | Pealkirja all kuvatav valikuline selgitav tekst. |
 | Tellimuse oleku tüüp | Loend      | <p>Valige teabe tüüp, mida vorm kliendilt lisaks tellimuse kinnituse ID-le taotleb. Praegu toetatakse järgmisi väärtusi:</p><ul><li><b>E-post</b> - Vorm sisaldab välja, kus kliendid saavad sisestada meiliaadressi, mida nad tellimuse sisestamisel kasutavad.</li><li><b>Pole</b> – Vorm ei taotle lisaks tellimuse kinnituse ID-le teavet.</li></ul> |
 

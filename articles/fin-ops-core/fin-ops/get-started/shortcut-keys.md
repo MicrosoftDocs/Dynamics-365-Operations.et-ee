@@ -2,7 +2,7 @@
 title: Kiirklahvid
 description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada Finance and Operationsi rakendustega töötamisel.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743167"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647532"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Järgmised klaviatuuri otseteed aitavad teil Finance and Operationsi rakendustes kiiresti ja tõhusalt andmeid sisestada.
 
@@ -148,14 +149,15 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
 | Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |
 | Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)                                              | Sisestusklahv                           |
+| Muutke praeguse veeru suurust, et see mahuks sisuga (fookusega päisereal)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Sisestamise kiirklahvid
 
-| Toiming                                                                   | Klahv või klahvikombinatsioon                         |
+| Toiming                                                                   | Vajutage nuppu                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Hüperlingi avamine                                                           | Ctrl + Enter                    |
-| Kuupäevaväljale seansi kuupäeva sisestamine                                       | D                         |
-| Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T                         |
+| Kuupäevaväljale seansi kuupäeva sisestamine                                       | D                             |
+| Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T                             |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi avamine                         | Alt + allanool                |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi sulgemine                        | Esc-klahv                           |
 | Fookuse nihutamine otsingule (kui otsing on juba avatud)                   | Alt + allanool                |
@@ -202,8 +204,8 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Tööriista Teisalda kasutamine (isikupärastamise režiimis)                                                                       | M                                   |
 | Praeguse juhtelemendi valimine teisaldamiseks (kasutades teisaldamistööriista ja kui teisaldamiseks pole veel ühtki juhtelementi valitud)  | Tühik või sisestusklahv (Enter)                      |
 | Teisaldatava juhtelemendi kustutamine (tööriista Teisalda kasutamisel)                                                                   | Esc-klahv                                 |
-| Valitud juhtelemendi teisaldamine järgmisse asukohta (tööriista Teisalda kasutades)                                          | Tabulaator või paremnool või allanool    |
-| Valitud juhtelemendi teisaldamine eelmisse asukohta (tööriista Teisalda kasutades)                                      | Shift + Tab või vasaknool või ülesnool |
+| Valitud juhtelemendi teisaldamine järgmisse asukohta (tööriista Teisalda kasutades)                                              | Tabulaator või paremnool või allanool    |
+| Valitud juhtelemendi teisaldamine eelmisse asukohta (tööriista Teisalda kasutades)                                          | Shift + Tab või vasaknool või ülesnool |
 | Tööriista Peida kasutamine (isikupärastamise režiimis)                                                                       | H                                   |
 | Vahetamine, kas praegune juhtelement on nähtav või peidetud (tööriista Peida kasutamisel)                                     | Tühik või sisestusklahv (Enter)                      |
 | Tööriista Jäta vahele kasutamine (isikupärastamise režiimis)                                                                       | K                                   |

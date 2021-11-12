@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463830"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700375"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Elektroonilise arveldusega alustamine
 
@@ -84,6 +84,7 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
 | Norra elektrooniline arve (NO)    | <p>Kliendiarve kontekstimudel</p><p>Arve mudel</p> |
 | Hispaania elektrooniline arve (ES)      | <p>Kliendiarve kontekstimudel</p><p>Arve mudel</p> |
 | PEPPOL-i elektrooniline arve            | <p>Kliendiarve kontekstimudel</p><p>Arve mudel</p> |
+| Elektroonilised arved Saudi Araabias (SA)| <p>Kliendiarve kontekstimudel</p><p>Arve mudel</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Rakenduse seadistuse konfigureerimine
@@ -111,7 +112,8 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
     | Hollandi elektrooniline arve (NL)        | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
     | Norra elektrooniline arve (NO)    | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
     | Hispaania elektrooniline arve (ES)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
-    | PEPPOL-i elektrooniline arve            | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarvete tööleht</p><p>Projektiarve</p> |
+    | PEPPOL-i elektrooniline arve            | <p>Müügiarve</p><p>Projekti arve</p> | <p>Kliendiarvete tööleht</p><p>Projekti arve</p> |
+    | Elektroonilised arved Saudi Araabias (SA)| <p>Müügiarve</p><p>Projekti arve</p> | <p>Kliendiarvete tööleht</p><p>Projekti arve</p> |
 
 6. Iga tabeli nime jaoks, mille loote, valige ja sisestage kontekstiväärtus vastavalt järgnevale tabelile.
 
@@ -133,6 +135,7 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
     | Norra elektrooniline arve (NO)    | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
     | Hispaania elektrooniline arve (ES)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
     | PEPPOL-i elektrooniline arve            | <p>Müügiarve</p><p>Projektiarve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
+    | Elektroonilised arved Saudi Araabias (SA)| <p>Müügiarve</p><p>Projekti arve</p> | <p>Kliendiarve kontekstimudel – kliendiarve kontekst</p><p>Kliendiarve kontekstimudel – projektiarve kontekst</p> |
 
 7. Iga tabeli nime ja konteksti jaoks valige ja sisestage äridokumendi kaardistav väärtus vastavalt järgmisele tabelile.
 
@@ -154,6 +157,7 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
     | Norra elektrooniline arve (NO)    | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
     | Hispaania elektrooniline arve (ES)      | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
     | PEPPOL-i elektrooniline arve            | <p>Müügiarve</p><p>Projektiarve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
+    | Elektroonilised arved Saudi Araabias (SA)| <p>Müügiarve</p><p>Projekti arve</p> | <p>Arvemudeli vastendus – kliendiarve</p><p>Arvemudeli vastendus – projektiarve</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Riigispetsiifiline rakenduse häälestuse konfiguratsioon
@@ -207,6 +211,8 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
     | Norra elektrooniline arve (NO)                     | Norra          |
     | PEPPOL-i elektrooniline arve                             | Üldine          |
     | Hispaania elektrooniline arve (ES)                       | Hispaania           |
+    | Elektroonilised arved Saudi Araabias (SA)                 | Saudi Araabia    |
+    
 
 4. Valige käsk **Salvesta**.
 
@@ -242,8 +248,9 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
 - [Elektroonilise arvelduse lisandmooduli teenusehalduse kasutamise alustamine](e-invoicing-get-started-service-administration.md)
 - [Alustage elektroonilise arveldusega Brasiilias](e-invoicing-bra-get-started.md)
 - [Alustage elektroonilise arveldusega Mehhikos](e-invoicing-mex-get-started.md)
-- [Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias](e-invoicing-ita-get-started.md)
+- [Elektroonilise arvelduse kasutamise alustamine Itaalias](e-invoicing-ita-get-started.md)
 - [Kliendi elektroonilised arved Egiptuses](emea-egy-e-invoices.md)
+- [Kliendi elektroonilised arved Saudi Araabias](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

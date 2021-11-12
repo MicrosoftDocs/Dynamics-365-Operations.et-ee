@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569333"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678685"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -93,7 +93,6 @@ Vahekaardil **Minu masin** on järgmised veerud. Numbrid vastavad eelmisel jooni
 1. **Seisaku registreerimine** – valige see nupp, et avada dialoogiboks, kus saate registreerida masina seisuaja. Saate valida põhjuse koodi ja sisestada seisakule kuupäeva/ajavahemiku. Masina seisuaja registreerimist kasutatakse masina vara tõhususe arvutamiseks.
 1. **Vaatamine või redigeerimine** – valige see nupp, et avada dialoogiboks, kus saate redigeerida või vaadata olemasolevaid seisuaja kirjeid.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Tootmistööde alustamine ja lõpetamine
 
 Töötajad alustavad tootmistööd, valides töö vahekaardilt **Kõik tööd** ja valides seejärel suvandi **Käivita töö** dialoogiboksi **Alusta tööd** avamiseks.
@@ -109,6 +108,32 @@ Töötajad saavad alustada tööd, mis on mis tahes olekus. Kui töötaja alusta
 Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada õige toodetud koguse, valides töö vahekaardil **Aktiivsed tööd** ja valides seejärel **Edenemisteabe esitamine**. Seejärel sisestab töötaja dialoogiboksis **Edenemisteabe esitamine** õige koguse numbriklahvistiku abil. Kogus on vaikimisi tühi. Pärast koguse sisestamist saab töötaja uuendada töö olekuks *Käimas*, *Peatatud* või *Lõpetatud*.
 
 ![Dialoogiboks Edenemisteabe esitamine.](media/pfei-report-progress-dialog.png "Dialoogiboks Edenemisteabe esitamine")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Headest kogustest teatamine partiitellimuste puhul, millel on kaas- ja kõrvalsaadused
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Töötajad saavad kasutada partiitellimuste edenemisest teatamiseks tootmispõranda täitmisliidest. See aruandlus hõlmab kaas- ja kõrvalsaaduste aruandlust.
+
+Mõned tootjad, eriti töötlevas tööstuses, kasutavad oma tootmisprotsesside haldamiseks partiitellimusi. Partiitellimused luuakse valemitest ja neid valemeid saab määratleda nii, et nende väljundiks on kaas- ja kõrvalsaadused. Kui nende partiitellimuste kohta antakse tagasisidet, tuleb toodangu kogus registreerida valemiartiklile ning ka kaas- ja kõrvalsaadustele.
+
+Kui töötaja lõpetab partiitellimuse töö või lõpetab selle osaliselt, saab ta teatada kauba või praagi kogused iga toote kohta, mis on määratletud tellimuse väljundina. Tooted, mis on määratletud partiitellimuse väljundina, võivad olla *Valem*, *Kaastoode* või *Kõrvaltoode* tüüpi.
+
+Toodete headest kogustest teatamiseks valib töötaja vahekaardil **Aktiivsed tööd** töö ja seejärel **Edenemisteabe esitamine**.
+
+Seejärel saab töötaja dialoogiboksis **Edenemisteabe esitamine** valida toodete hulgast, mis on määratletud aruande esitamise partiitellimuse väljundina. Töötaja saab valida loendist ühe või mitu toodet ja seejärel valida **Edenemisteabe esitamine**. Iga toote puhul on kogus vaikimisi 0 ja töötaja saab koguse sisestamiseks kasutada numbriklaviatuuri. Kui toodete vahel liikumiseks saab töötaja valide nuppude **Eelmine** ja **Järgmine** vahel. Pärast iga toote koguse sisestamist saab töötaja uuendada töö olekuks *Käimas*, *Peatatud* või *Lõpetatud*.
+
+![Kaastoodete ja kõrvalsaaduste aruandlus.](media/report-co-by-products.png "Kaastoodete ja kõrvalsaaduste aruandlus")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Aruandlus kaupade planeerimise partiitellimuste kohta
+
+Kui töötaja lõpetab planeeritava kauba partiitellimuse töö, esitab ta kogused ainult kaas- ja kõrvalsaaduste kohta, kuna planeerimisartiklid ei sisalda *Valem* tüüpi üksust.
+
+### <a name="reporting-co-product-variation"></a>Kaastoote variatsioonist teatamine
+
+Kui partiitellimus luuakse valemiversioonist, kus suvand **Kaastoodete variatsioonid** on seatud väärtusele *Jah*, saab töötaja esitada aruande kaastoodete kohta, mis ei kuulu partiitellimuste määratlusesse. Seda funktsiooni kasutatakse stsenaariumide korral, kus tootmisprotsessis võib tekkida ootamatu tooteväljund.
+
+Sel juhul saab töötaja määrata aruandluse aluseks oleva kaastoote ja koguse, valides aruande edenemise dialoogiboksis **Kaastoodete variatsioonid**. Seejärel saab töötaja valida kõigi välja antud toodete hulgast, mis on määratletud kaastoodetena.
 
 ## <a name="reporting-scrap"></a>Maha kantud koguse esitamine
 

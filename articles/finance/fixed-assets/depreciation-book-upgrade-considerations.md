@@ -1,7 +1,7 @@
 ---
-title: Kulumiraamatu täiendamise ülevaade
-description: Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni, väärtusmudelid ja kulumiraamatud.
-author: ShylaThompson
+title: Kulumiraamatu uuendamise ülevaade
+description: Selles teemas kirjeldatakse põhivarade praeguse raamatu funktsioone. See funktsioon põhineb väärtusmudeli funktsionaalsusel, mis oli saadaval varasemates versioonides, kuid sisaldab ka kõiki funktsioone, mida varem pakuti ainult amortisatsiooniraamatutes.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,25 +13,25 @@ ms.custom:
 - intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: c36e0ab53f8a10e81e1bed207417861066dd6917
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344710"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675148"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Kulumiraamatu uuendamise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni: väärtusmudelid ja kulumiraamatud. Rakenduses Microsoft Dynamics 365 for Operations (1611) on väärtusmudeli ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat. Selles teemas antakse mõned asjad, mida täiendamisel arvestada. 
+Selles teemas kirjeldatakse põhivarade praeguse raamatu funktsioone. See funktsioon põhineb väärtusmudeli funktsionaalsusel, mis oli saadaval varasemates versioonides, kuid sisaldab ka kõiki funktsioone, mida varem pakuti ainult amortisatsiooniraamatutes. Rakenduses on väärtusmudeli funktsionaalsus ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat. Raamatufunktsiooni abil saate kasutada ühtset lehekülgede, päringute ja aruannete komplekti kõigi organisatsiooni põhivaraprotsesside kohta. See teema sisaldab mõningaid asju, mida peate enne täiendamist arvesse võtma. 
 
-Täiendusprotsess liigutab teie olemasoleva seadistuse ja kõik olemasolevad kanded uude raamatu struktuuri. Väärtusmudelid jäävad selliseks, nagu need praegu on ehk raamatuks, mis sisestab pearaamatusse. Kulumiraamatud liigutatakse raamatusse, millel on valik **Pearaamatusse sisestamine** määratud sättele **Ei**. Kulumiraamatu töölehe nimed liigutatakse pearaamatu töölehele, mille nimel on sisestamiskiht määratud sättele **Pole**. Kulumiraamatu kanded teisaldatakse jaotisse Põhivara kanded. 
+Täiendusprotsess liigutab teie olemasoleva seadistuse ja kõik olemasolevad kanded uude raamatu struktuuri. Väärtusmudelid jäävad selliseks, nagu need praegu on ehk raamatuks, mis sisestab pearaamatusse. Kulumiraamatud liigutatakse raamatusse, millel on valik Pearaamatusse sisestamine määratud sättele Ei. Kulumiraamatu töölehe nimed liigutatakse pearaamatu töölehele, mille nimel on sisestamiskiht määratud sättele Pole. Kulumiraamatu kanded teisaldatakse jaotisse Põhivara kanded.
 
-Enne andmete täiendamise käivitamist peate mõistma kahte suvandit, mis on saadaval kulumiraamatu tööleheridade täiendamiseks kanneteks, ja numbriseeriat, mida kasutatakse kande seeria jaoks. 
+Enne andmete täiendamise käivitamist peate mõistma kahte suvandit, mis on saadaval kulumiraamatu tööleheridade täiendamiseks kanneteks, ja numbriseeriat, mida kasutatakse kande seeria jaoks.
 
 Suvand 1: **Süsteemi määratletud numbriseeria** – see on vaikesuvand täiendamise jõudluse optimeerimiseks. Täiendamine ei kasutada numbriseeriate raamistikku, vaid eraldab selleasemel kanded kogumipõhise lähenemisega. Pärast täiendamist luuakse uus numbriseeria, mille parameeter **Järgmine numbrikomplekt** põhineb asjakohaselt täiendatud kandel. Vaikimisi on kasutatava numbriseeria vorming FADBUpgr\#\#\#\#\#\#\#\#\#. Seda lähenemist kasutades saate vormingut korrigeerida järgmiste parameetrite abil.
 
@@ -53,7 +53,7 @@ Suvand 1: **Süsteemi määratletud numbriseeria** – see on vaikesuvand täien
 -   **Numbriseeria kood** – numbriseeria kood.
     -   Püsinimi: **NumberSequenceExistingCode**
     -   Vaikeväärtus: vaikesäte puudub, seda tuleb värskendada numbriseeria koodi järgi.
--   **Ühiskasutuses numbriseeria** – kahendmuutuja väärtus, et tuvastada numbriseeria ulatus. Kasutage kõigis ettevõtetes ühiskasutuses numbriseeriate jaoks „tõene” ja ettevõttespetsiifilise ulatuse jaoks „väär”. Väärtuse „väär” kasutamisel peab määratud nimega numbriseeria eksisteerima igas ettevõttes, mis sisaldab kulumiraamatu kandeid. Ühiskasutatud numbriseeriad eksisteerivad igas sektsioonis, mis sisaldab kulumiraamatu kandeid.
+-   **Ühiskasutuses numbriseeria** – kahendmuutuja väärtus, et tuvastada numbriseeria ulatust. Kasutage kõigis ettevõtetes ühiskasutuses numbriseeriate jaoks „tõene” ja ettevõttespetsiifilise ulatuse jaoks „väär”. Väärtuse „väär” kasutamisel peab määratud nimega numbriseeria eksisteerima igas ettevõttes, mis sisaldab kulumiraamatu kandeid. Ühiskasutatud numbriseeriad eksisteerivad igas sektsioonis, mis sisaldab kulumiraamatu kandeid.
     -   Püsinimi: **NumberSequenceExistingIsShared**
     -   Vaikeväärtus: tõene
 

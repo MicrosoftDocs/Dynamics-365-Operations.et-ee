@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) sihtkohad
 description: See teema annab teavet elektroonilise aruandluse sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743307"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647089"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -164,12 +164,12 @@ PDF-i teisenduse võimaluse kättesaadavaks tegemiseks praeguses Finance'i eksem
 
 ### <a name="applicability"></a>Kohaldatavus
 
-PDF-i teisenduse valikut saab sisse lülitada ainult faili komponentide puhul, mida kasutatakse väljundi loomiseks Office’i (Excel või Word) vormingus (**Exceli fail**). Kui see võimalus on sisse lülitatud, teisendatakse Office'i vormingus loodud väljund automaatselt PDF-vormingusse. Finantside versioonides Exceli failitüübi **enne versiooni 10.0.18** saate selle suvandi sisse lülitada ainult **Exceli\\Fail** tüübi komponentide puhul, mida kasutatakse väljundi loomiseks [Exceli](er-fillable-excel.md) või [Wordi](er-design-configuration-word.md) vormingus. Siiski, **Versioonis 10.0.18 ja uuemas** saate selle suvandi sisse lülitada ka komponentidega **Üldine\\Fail** tüüp jaoks.
+Finantside versioonides **enne versiooni 10.0.18** saate selle suvandi sisse lülitada ainult **Exceli\\Fail** tüübi komponentide puhul, mida kasutatakse Office väljundi loomiseks (Excel või Word) vormingus. Kui see võimalus on sisse lülitatud, teisendatakse Office'i vormingus loodud väljund automaatselt PDF-vormingusse. Siiski, **Versioonis 10.0.18 ja uuemas** saate selle suvandi sisse lülitada ka komponentidega **Üldine\\Fail** tüüp jaoks.
 
 > [!NOTE]
 > Jälgige hoiatusteadet, mis kuvatakse PDF-i teisendamise suvandi sisselülitamisel tavafailitüübi **Üldine\\File** jaoks. See teade teavitab teid, et ei ole võimalik tagada konstruktsiooni ajal, et valitud faili komponent annab sisu pdf-vormingus või käitusajal PDF-vormingus või PDF-vormingus teisendatava sisu. Seetõttu peaksite suvandi sisse lülitama ainult siis, kui olete kindel, et valitud faili komponent on konfigureeritud nii, et sisu oleks käitusajal esitatud PDF-vormingus või PDF-vormingus teisendatav sisu.
 > 
-> Kui lülitate komponendi PDF-teisendusssuvandi **Excel\\Fail** tüübi jaoks sisse, kui see komponent annab sisule vormingu, mis pole PDF, ja kui avatud sisu ei saa teisendada PDF-vormingusse, ilmneb käitusajal erand. Teade, mille saate, teavitab teid, et loodud sisu ei saa teisendada PDF-vormingusse.
+> Kui lülitate vormingukomponendi jaoks sisse PDF-teisendusssuvandi, kui see komponent annab sisule vormingu, mis pole PDF ja kui avatud sisu ei saa teisendada PDF-vormingusse, ilmneb käitusajal erand. Teade, mille saate, teavitab teid, et loodud sisu ei saa teisendada PDF-vormingusse.
 
 ### <a name="limitations"></a>Kitsendused
 
@@ -193,12 +193,22 @@ Kui loote Exceli vormingus ER-konfiguratsiooni ja soovite selle teisendada PDF-v
 
 [![PDF-i teisenduse lehe paigutuse valimine.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> Selleks, et saaksite valida PDF-i lehe paigutust, peate installima rakenduse Finance versiooni 10.0.10 või uuema.
->
-> Valitud lehe paigutus rakendatakse kõigile ER-konfiguratsioonidele, mis luuakse Exceli vormingus ja seejärel teisendatakse PDF-vormingusse.
->
-> Kui Wordi vormingus ER-i konkonfiguratsioon teisendatakse PDF-vormingusse, võetakse PDF-dokumendi lehe paigutus Wordi dokumendist.
+Selleks, et saaksite valida PDF-i lehe paigutust, peate installima rakenduse Finance versiooni 10.0.10 või uuema. Enne Finance **versiooni 10.0.23** pakub see valik järgmisi lehekülje suunavalikuid:
+
+- Vertikaalne
+- Horisontaalne
+
+Valitud lehe orientatsiooni rakendatakse kõikidele väljamineva dokumendi lehtedele, mis genereeritakse Exceli vormingus ja teisendatakse seejärel PDF-vormingusse.
+
+Siiski, **versioonis 10.0.23 ja hilisemas** on leheküljele aste valikute loendit laiendatud järgmiselt:
+
+- Vertikaalne
+- Horisontaalne
+- Töölehepõhine
+
+**Töölehepõhise** suvandi valimisel teisendatakse iga loodud Exceli töövihiku tööleht PDF-iks, kasutades lehekülje paigutust, mis on konfigureeritud sellele töölehele kasutatud Exceli mallis. Seega võib teil olla lõplik PDF-dokument, mis sisaldab vertikaal- ja horisontaallehti. 
+
+Kui Wordi vormingus ER-i konkonfiguratsioon teisendatakse PDF-vormingusse, võetakse PDF-dokumendi lehe paigutus alati Wordi dokumendist.
 
 ## <a name="output-unfolding"></a>Väljundi avanemine
 

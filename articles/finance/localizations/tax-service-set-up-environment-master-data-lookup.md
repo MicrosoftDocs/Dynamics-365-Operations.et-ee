@@ -2,7 +2,7 @@
 title: Koondandmete otsingu keskkonna häälestamine
 description: Selles teemas selgitatakse, kuidas seadistada oma keskkond kasutama maksuarvestuse põhiandmete otsingufunktsiooni.
 author: kai-cloud
-ms.date: 04/21/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4435dbfdb808a75b41a77d3c15d1c9fd29b266f353b1fbe18955ff985ab38bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718175"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700400"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Koondandmete otsingu keskkonna häälestamine
 
@@ -28,57 +28,54 @@ ms.locfileid: "6718175"
 
 Selles teemas selgitatakse, kuidas seadistada oma keskkond kasutama maksuarvestuse põhiandmete otsingufunktsiooni.
 
-1. Seadistage energiaplatvormi integreerimine rakenduses Lifecycle Services (LCS). Lisateavet vt teemast [Microsoft Power Platform ingegratsioon - lisandmooduli ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
-2. Dynamics 365 Finance ja Microsoft Dataverse häälestamine. Lisateavet vt teemadest [Lahenduse leidmine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) ja [Autentimine ja autoriseerimine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
-3. Seadistage järgmised üksused. Lisateavet leiate [Virtuaalsete jaotiste lubamine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities).
-      - EttevõteInfoÜksus
-      - CurrencyEntity
-      - CustCustomerV3Entity
-      - DeliveryTermsEntity
-      - EcoResProductCategoryEntity
-      - EcoResReleasedProductV2Entity
-      - LogistikaAadressLinnÜksus
-      - LogistikaAadressRiikRegioonTõlgeÜksus
-      - LogistikaAadressOsariikÜksus
-      - OstaHankedTasuCDSÜksus
-      - MüükTasuCDSÜksus
-      - TaxGroupEntity
-      - MaksKaupGruppPäisÜksus
-      - VendVendorV2Entity
-4. Seadistage Dynamics 365 Regulatory Configuration Service (RCS). 
-5. Järgmiste funktsioonide lendamise lubamiseks looge Microsofti jaoks teenusetaotlus.
+1. Seadistage Microsoft Power Platform integreerimine rakenduses Microsoft Dynamics Lifecycle Services (LCS). Lisateavet vt teemast [Microsoft Power Platform ingegratsioon - lisandmooduli ülevaade](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Pärast selle toimingu sooritamist kuvatakse jaotises **Power Platform Integration** Microsoft Power Platformi keskkonna nimi.
+2. Minge [Microsoft Power Platformi halduskeskusesse](https://admin.powerplatform.microsoft.com/environments) ja valige keskkonna nimi. Keskkonna URL on esitatud.
+3. Dynamics 365 Finance ja Dataverse häälestamine. Lisateavet vt teemadest [Virtuaalse olemi lahenduse leidmine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) ja [Autentimine ja autoriseerimine](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+4. Seadistage järgmised üksused. Lisateavet vt [Microsoft Dataverse virtuaalsete olemite lubamine](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
 
-      - ERCdsFeature
-      - TaxServiceCDSFeature
+    - EttevõteInfoÜksus
+    - CurrencyEntity
+    - CustCustomerV3Entity
+    - DeliveryTermsEntity
+    - EcoResProductCategoryEntity
+    - EcoResReleasedProductV2Entity
+    - LogistikaAadressLinnÜksus
+    - LogistikaAadressRiikRegioonTõlgeÜksus
+    - LogistikaAadressOsariikÜksus
+    - OstaHankedTasuCDSÜksus
+    - MüükTasuCDSÜksus
+    - TaxGroupEntity
+    - MaksKaupGruppPäisÜksus
+    - VendVendorV2Entity
 
-6. Minge **Funktsioonide haldus** tööruumi ja lülitage sisse järgmised funktsioonid:
+5. Seadistage Regulatory Configuration Service (RCS). Avage **Funktsioonide haldus** tööruumi ja lülitage sisse järgmised funktsioonid:
 
-      - (Eelvaade) Elektroonilise aruandluse Dataverse andmeallikate tugi
-      - (Eelversioon) Maksuteenuse Dataverse'i andmeallikate tugi
-      - (Eelvaade) Globaliseerimisfunktsioonid
+    - elektroonilise aruandluse Dataverse andmeallikate tugi
+    - Maksuteenuse Dataverse'i andmeallikate tugi
+    - Globaliseerimisfunktsioonid
 
-5. Logige RCS-i sisse rentniku administraatorikontoga.
-6. Avage **Elektrooniline aruandlus** > **Ühendatud rakendused**. 
-7. Kirje lisamiseks klõpsake nuppu **Uus** ja sisestage järgmine väljateave. 
+6. Logige RCS-i sisse rentniku administraatorikontoga.
+7. Avage **Elektrooniline aruandlus** > **Ühendatud rakendused**. 
+8. Kirje lisamiseks klõpsake nuppu **Uus** ja sisestage järgmine väljateave. 
 
-   - Väljale **Nimi** sisestage nimi.
-   - Väljal **Tüüp** valige **Dataverse**.
-   - Väljale **Rakendus** sisestage oma Dataverse URL.
-   - Väljal **Rentnik** sisestage oma rentnik.
-   - Sisestage väljale **Kohandatud URL** oma Dataverse URL ja lisage see tekstiga "/api/data/v9.1".
+    - Väljale **Nimi** sisestage nimi.
+    - Väljal **Tüüp** valige **Dataverse**.
+    - Väljale **Rakendus** sisestage oma Dataverse URL.
+    - Väljal **Rentnik** sisestage oma rentnik.
+    - Sisestage väljale **Kohandatud URL** oma Dataverse URL ja lisage see tekstiga "/api/data/v9.1".
 
-8. Valige **Kontrolli ühendust** ja viige ühendusprotsess lõpule. 
+9. Valige **Kontrolli ühendust** ja viige ühendusprotsess lõpule. 
 
-   [![Ühenduse kontrollimise nupp.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+    [![Ühenduse kontrollimise nupp.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
-9. Avage **Elektrooniline aruandlus** > **Maksukonfiguratsioonid** ja importige maksukonfiguratsioonid teemast [Maksukonfiguratsioonid](https://go.microsoft.com/fwlink/?linkid=2158352).
+10. Avage **Elektrooniline aruandlus** > **Maksukonfiguratsioonid** ja importige maksukonfiguratsioonid teemast [Maksukonfiguratsioonid](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-   [![Maksukonfiguratsioonide leht, maksuandmete mudelipuu.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+    [![Maksukonfiguratsioonide leht, maksuandmete mudelipuu.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
-10. Microsofti konfiguratsiooni kasutamisel minge **Maksustatava dokumendi mudeli vastendamine** või **Dataverse mudelivastendus** ja valige väljal **Ühendatud rakendus** 7. etapis loodud kirje.
-11. Seadistage **Vaikimisi mudeli vastendamise** väärtusele **Jah**.
+11. Microsofti konfiguratsiooni kasutamisel minge **Maksustatava dokumendi mudeli vastendamine** või **Dataverse mudelivastendus** ja valige väljal **Ühendatud rakendus** 7. etapis loodud kirje.
+12. Seadistage **Vaikimisi mudeli vastendamise** väärtusele **Jah**.
 
-   [![Mudelivastenduse leht.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+    [![Mudelivastenduse leht.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

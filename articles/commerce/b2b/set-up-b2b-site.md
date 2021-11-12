@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721003"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713744"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-kaubandussaidi häälestamine
 
@@ -37,7 +37,7 @@ Ettevõtetevahelised (B2B) e-kaubanduse saidid pakuvad mõningaid võtmefunktsio
 
 Saiditasemel sätetele pääsete saidiehitaja jaotisest **Saidi sätted \> Laiendused**. B2B-stsenaariumite puhul kehtivad järgmised kaks saiditasemel seadistust.
 
-- **Kliendikonto maksete lubamine** - see atribuut võimaldab kasutajatel maksta tellimuste eest kliendikontosid kasutades. Saadaolevad väärtused on **Lubatud B2B-klientidele**, **Lubatud B2C-klientidele**, **Lubatud kõigile klientidele** ja **Keelatud kõigile klientidele**. Kui teie B2B-sait toetab kliendikontosid, peaksite valima **Lubatud B2C-klientidele**.
+- **Kliendikonto maksete lubamine** - see atribuut võimaldab kasutajatel maksta tellimuste eest kliendikontosid kasutades. Saadaolevad väärtused on **Lubatud B2B-klientidele**, **Lubatud B2C-klientidele**, **Lubatud kõigile klientidele** ja **Keelatud kõigile klientidele**. Kui teie B2B-sait toetab kliendikontosid, peaksite valima **Lubatud B2B-klientidele**.
 - **Tellimuse koguseliste piirangute lubamine** - see atribuut võimaldab teil seada piirangud toodete arvule, mida saab iga toote või kategooria kohta tellida. Saadaolevad väärtused on **Lubatud B2B-klientidele**, **Lubatud B2C-klientidele**, **Lubatud kõigile klientidele** ja **Keelatud kõigile klientidele**.
 
 > [!NOTE]

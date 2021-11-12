@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine
 description: See teema annab teavet Microsoft Dynamics Lifecycle Services (LCS) talletuse amortiseerumise kohta, mis on plaanitud Regulatory Configuration Service (RCS) globaalse hoidla väljamineku osana.
 author: JaneA07
-ms.date: 05/25/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 7a738af04da4425e76bd3b224400f91bc4eb8364d323da67ea457eaba9e65643
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782194"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715226"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) ladustamise amortiseerimine
 
@@ -38,8 +38,9 @@ LCS-i kasutuse aegumine ladustamiseks oli edastatud [Eemaldatud või aegunud Dyn
 
 ## <a name="key-features"></a>Võtmefunktsioonid
 
-- Konfiguratsioonide loomiseks ja redigeerimiseks saate kasutada RCS-i. Seejärel saate neid konfiguratsioone otse kujundajast ühendatud rakendusse tõugata. Seega saate konfiguratsioone kiiresti muuta ja testida.
-- Globaalne hoidla on kõigi ER-konfiguratsioonide keskne talletus.
+- Kasutage RCS-i ER-i konfiguratsioonide ja globaliseerimisfunktsioonide loomiseks ja muutmiseks.
+- Lükake konfiguratsioonid otse RCS-kujundajast ühendatud rakendusse, näiteks Dynamics 365 Finance'i keskkonda, et saaksite oma konfiguratsioonides kiiresti muudatusi teha ja testida.
+- Keskselt salvestage, jagage ja hallake nii ER-i konfiguratsioonide kui ka globaliseerimisfunktsioonide elutsüklit globaalse hoidla tsentraliseeritud salvestusruumi kaudu.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Juhis ühekordsete ja jooksvate tegevuste jaoks
 
@@ -53,11 +54,20 @@ Importige kõik nõutavad konfiguratsioonid LCS-st RCS-i ja salvestage need RCS-
 2. Eraldise kantud RCS-eksemplaris registreerige varateegi iga LCS-projekti jaoks, mis sisaldab tuletatud ER-konfiguratsioone, sobiv LCS-i hoidla.
 3. Importige ER-konfiguratsioonid LCS-i hoidlatest RCS-i. Lisateabe saamiseks vt teemat [Konfiguratsioonide importimine LCS-ist](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
 4. Kui globaalset hoidlat automaatselt ei sisestata, registreerige see RCS-i.
-5. Laadige kõik praegusest RCS-eksemplarist tuletatud konfiguratsioonid globaalsesse hoidlasse. Kasutage **Konfiguratsioonipakette, mis võimaldavad kasutajal üles laadida kõik konfiguratsioonid GR-sse ühe toiminguna** funktsioonis, mis aitavad üleslaadimist. Lisateavet leiad artiklist [RCS globaalne repro üleslaadimine](rcs-global-repo-upload.md).
+5. Laadige kõik praegusest RCS-eksemplarist tuletatud konfiguratsioonid globaalsesse hoidlasse. Kasutage üleslaadimisel abifunktsiooni **Konfiguratsioonipaketid**. Lisateavet leiad artiklist [RCS globaalne repro üleslaadimine](rcs-global-repo-upload.md).
 
 ### <a name="going-forward"></a>Edasi minemine
 
-Kasutage kõikide uute konfiguratsioonide loomiseks RCS-i visuaalseid kujundajaid. Siis laadige konfiguratsioonid globaalsesse hoidlasse. Lisateavet vt [ER-i konfiguratsiooni loomine RCS-s ja üleslaadimine globaalsesse hoidlasse](rcs-global-repo-upload.md).
+Kasutage RCS-i visuaalseid kujundajaid järgmistel eesmärkidel.
+
+- Laiendage Microsofti pakutavaid malle.
+- Looge uusi konfiguratsioone, mida teie organisatsioon vajab.
+- Kohandage e-arvete ja maksuarvestuse teenuse globaliseerimisfunktsioone.
+
+Kasutage globaliseerumise hoidlat järgmistel eesmärkidel.
+
+- Juurdepääs Microsofti loodud konfiguratsioonidele ja globaliseerimisfunktsioonidele.
+- Laadige salvestamiseks üles loodud või laiendatud konfiguratsioonid globaalsesse hoidlasse ja jagage neid oma organisatsiooni Dynamics 365 rakenduskeskkondades või väliste organisatsioonidega. Lisateavet vt [ER-i konfiguratsiooni loomine RCS-s ja üleslaadimine globaalsesse hoidlasse](rcs-global-repo-upload.md).
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
@@ -76,3 +86,22 @@ RCS kasutab *ühendatud rakenduse* mõisteid. Seotud rakendus moodustab ühendus
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Kas on näiteid, mis näitavad seadistust ja haldust?
 
 Näiteid pole, kuid saate selles teemas varasemad sammud lõpule viia, et oma konfiguratsioonid üle viia RCS-i globaalsesse hoidlasse.
+
+### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Kas RCS on elektroonilise aruandluse konfigureerimise eeltingimus?
+
+Jah. RCS sisaldab võimalusi, mis toetavad üleilmastumise funktsioonide seadistamist, mida kasutavad globaliseerumisteenused, nagu elektrooniline arveldus ja maksuarvestuse teenus. Kuid teenusel on sama visuaalse kujundaja funktsioon, mis võimaldab teil laiendada või luua uusi ER-i konfiguratsioone. RCS pakub ka elutsükli haldust nii ER-i konfiguratsioonide kui ka globaliseerimisfunktsioonide jaoks.
+
+### <a name="which-regions-can-rcs-be-deployed-in"></a>Millistes piirkondades saab RCS-i kasutusele võtta?
+
+RCS on saadaval järgmistes Azure'i piirkondades:
+
+- USA
+- India
+- Prantsusmaa
+- Euroopa
+
+Lisateavet tootetoe kohta vt [Dynamics Globalization teenuste ülevaade](globalization-services-overview.md). Teavet geograafilise toe kohta vt teemast [Dynamics 365 ja Power Platform: saadavus, andmete asukoht, keel ja lokaliseerimine](https://aka.ms/rcs/D365Productavailabilityguide).
+
+### <a name="whats-the-cost-of-using-rcs"></a>Kui palju maksab RCS-i kasutamine?
+
+RCS ja globaliseerumise hoidla on saadaval olemasolevate Finance and Operationsi rakenduse litsentside osana tasuta. RCS-i disainiteenuse kasutamise või konfiguratsioonide globaalsesse hoidlasse salvestamisega ei kaasne eraldi kulusid. Praegu pole konfiguratsioonide või ühendatud rakenduste arvul piiranguid.

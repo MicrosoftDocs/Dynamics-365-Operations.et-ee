@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
-ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
-ms.translationtype: HT
+ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557388"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678491"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Global Inventory Accounting kodulehekülg
 
-[!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Rahvusvahelised organisatsioonid on ametivõimude surve all, et nad vastaksid kohalikele ja globaalsetele raamatupidamisstandarditele. Laovarude hindamisel on vastavuse tagamisel oluline roll. Microsoft Dynamics 365 Supply Chain Management Global Inventory Accounting lisandmoodul pakub mitmekülgst lahendust, mis võimaldab organisatsioonidel (eriti rahvusvahelistel organisatsioonidel) varude raamatupidamise jaoks kasutada mitmeid kuluarvestuse pearaamatuid. Seetõttu võivad need organisatsioonid samaaegselt olla vastavuses mitme raamatupidamisstandardi ja sisehalduse raamatupidamisega.
 

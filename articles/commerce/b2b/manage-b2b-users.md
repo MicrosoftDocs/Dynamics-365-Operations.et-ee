@@ -2,7 +2,7 @@
 title: Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 description: Selles teemas kirjeldatakse, kuidas administraatorid saavad lisada, redigeerida ja kustutada äripartnerist kasutajaid ettevõtetevahelistel (B2B) e-kaubanduse veebisaitidel.
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734939"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713689"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Äripartnerist kasutajate haldamine B2B e-kaubanduse veebisaitidel
 
@@ -68,6 +68,18 @@ Potentsiaalsed äripartnerid saavad käivitada B2B e-kaubanduse veebisaidiga lii
 1. Avage **Jaemüügi ja kaubanduse IT \> Jaotusgraafik** ja käivitage töö **1010** (**Kliendid**), et suunata vastloodud kliendi ja kliendi hierarhia kirjed kanali andmebaasi.
 
 Kui taotlus on kinnitatud ja kliendi ning kliendi hierarhia kirjed on sünkroonitud kanali andmebaasi, saab taotleja B2B e-kaubanduse veebisaidile sisse logida, kasutades taotlust esitades antud meiliaadressi. Kasutajad saavad kasutada registreerumisvoogu oma kontole parooli määratlemiseks. Identiteedipakkuja (Azure AD B2C) kirje linkimise lubamiseks registreerumisel või sisselogimisel loodud B2B-kliendikirjega järgige juhiseid lingil [Luba identiteedikirjete automaatne linkimine kliendikontodega](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Teatage B2B-potentsiaalseid kliente, kui need on kinnitatud või tagasi lükatud
+
+Kui kinnitate või lükkate tagasi B2B potentsiaalse kliendi taotluse, saate potentsiaalsele kliendile automaatselt saata meiliteatise. 
+
+Commerce Headquarters`is kinnitatud B2B-potentsiaalse kliendi heakskeedetud või B2B-potentsiaalse kliendi tagasilükatud teatise tüübi sündmuste kohta meiliteatiste häälestamiseks järgige neid samme.
+
+1. Looge meilimallid e-kirjade jaoks, mis saadetakse potentsiaalsetele klientidele, kui B2B-potentsiaalne klient on kinnitatud või B2B potentsiaalse kliendi tagasilükatud teavitustüüp on käivitatud.
+
+    Lisateavet kohatäitjate kohta, mida B2B potentsiaalne klient heaks kiitis ja B2B potentsiaalse kliendi tagasilükatud teatisetüübid toetavad, vaata [teatisetüübid](../email-templates-transactions.md#notification-types). Teabe saamiseks e-kirja mallide loomise kohta vt teemast [E-kirja malli loomine](../email-templates-transactions.md#create-an-email-template). 
+
+1. Lisage B2B-potentsiaalne klient kinnitatud ja B2B-potentsiaalse kliendi tagasilükatud teatisetüübid oma meiliteatise profiili ja vastendage need loodud meilimallidega. Lisateavet meiliteatise profiilide häälestamise kohta vaata [häälestage meiliteatise profiil](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Täiendavate äripartneri kasutajate liitmine
 

@@ -1,7 +1,7 @@
 ---
 title: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
-description: See artikkel selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
-author: ShylaThompson
+description: See teema selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
+author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb3d622f8a81c0eabc84fb165203aa193f5e7dd6ad148ff50a9f55c87453be9c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731472"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726819"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel selgitab käibemaksukoodide välja Arvutusmeetod ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
+See teema selgitab käibemaksukoodide välja **Arvutusmeetod** ja seda, kuidas käibemaksu vahemike ja terviksummade puhul arvutatakse.
 
-Saate seadistada käibemaksukoodi arvutamise kogusumma või intervallisumma põhjal. Valige käibemaksukoodi arvutamise viis lehe Käibemaksukoodid kiirkaardi Arvutamine väljal Arvutusmeetod.
+Saate seadistada käibemaksukoodi arvutamise kogusumma või intervallisumma põhjal. Valige käibemaksukoodi arvutamise viis lehe **Käibemaksukoodid** kiirkaardi **Arvutamine** väljal **Arvutusmeetod**.
 - Kogusumma – maksumäära rakendatakse kogu maksustatavale summale.
 - Intervall – maksustatav summa on jagatud osadeks, millest igaüks langeb kindla käibemaksumäärata vahemikku. Osa summast, mis langeb antud intervalli, maksustatakse selle intervalli maksumäära järgi. Käibemaks on iga summa intervalli kohta arvutatud maksusummade summa.
   > [!NOTE]                                                                                                                              

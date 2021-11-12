@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722787"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647126"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
@@ -72,12 +72,9 @@ Teie organisatsioon võib kasutada töövoogusid, et hallata hankijaarvete läbi
 Järgnevalt on loetletud miteid viise, kuidas saate takistada arve esitamist töövoogu.
 
 - **Arve kogusumma ja registreeritud kogusumma ei ole võrdsed.** Arve esitanud isikule saadetakse teatis selle kohta, et kogusummad ei ole võrdsed. Teatis annab võimaluse parandada saldosid enne arve uuesti töövoogu saatmist. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui arve kogusumma ja arve registreeritud kogusumma ei ole võrdsed** sisse lülitatud. 
-
 - **Arve sisaldab eraldamata kulusid.** Arve esitanud isik saab teate, et arve sisaldab eraldamata kuludes, võimaldades tal arvet enne töövoogu uuesti esitamist parandada. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui hankija arvel on eraldamata kulusid** sisse lülitatud.
-
 - **Arvel on sama arvenumber teise sisestatud arvega.** Arve edastanud isikule saadetakse teade, mis näitab, et leiti duplikaatnumbriga arve. Duplikaatnumbrit saab parandada enne arve uuesti töövoole edastamist. See teatis kuvatakse siis, kui ostureskontro parameetriks **Kontrolli kasutatavat arvenumbrit** on määratud **Lükka duplikaat tagasi**. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui sisestatud arvel on selline number juba olemas ja süsteemis ei ole lubatud topeltnumbriga arvete vastuvõtmine** on sisse lülitatud.
-
-- **Arve sisaldab rida, kus arve kogus on väiksem kui vastendatud toote sissetuleku kogus.** Isik, kes arve esitab või proovib postitada, saab teate, et kogused ei ole võrdsed. Teatis annab võimaluse parandada saldosid enne arve uuesti töövoogu saatmist. See funktsioon on saadaval juhul, kui **Hankija arvete sisestamise blokeerimise** parameeter on **Funktsioonide haldus** lehel ja parameetri **Ostureskontro blokeerimine ja töövoole esitamine** lehel **Konto maksu parameetrid** sisse lülitatud.  
+- **Arve sisaldab rida, kus arve kogus on väiksem kui vastendatud toote sissetuleku kogus.** Isik, kes arve esitab või proovib postitada, saab teate, et kogused ei ole võrdsed. Teatis annab võimaluse parandada saldosid enne arve uuesti töövoogu saatmist. See funktsioon on saadaval juhul, kui **Hankija arvete sisestamise blokeerimise** parameeter on **Funktsioonide haldus** lehel ja parameetri **Ostureskontro blokeerimine ja töövoole esitamine** lehel **Konto maksu parameetrid** sisse lülitatud.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Hankijaarvete vastavusseviimine toote sissetulekutega
 
@@ -122,9 +119,32 @@ Taastamatu tõrke tõttu peatatud töövoo eksemplaril on töövoo olekuks **Par
 Saate kasutada lehte **Töövoo ajalugu**, et lähtestada töövoo olekuks **Mustand**. Saate avada selle lehe jaotisest **Hankija arve** või navigeerides **Üldine > Päringud > Töövoog**. Töövoo oleku lähtestamiseks olekusse **Mustand**, valige **Tagasikutsumine**. Võite lähtestada töövoo oleku mustandiks ka valides tegevuse **Tagasikutsumine** lehel **Hankija arve** või **Ootel hankija arved**. Pärast töövoo olekule **Mustand** lähtestamist muutub see lehel **Hankija arve** redigeerimise jaoks kättesaadavaks.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Arve kogusumma kuvamine lehel Ootel hankija arved
+
 Saate vaadata arve kogusummat lehel **Ootel hankija arved**, lubades parameetri **Kuva arve kogusumma ootel hankija arvete loendis** lehel **Ostureskontro parameetrid**. 
 
+## <a name="vendor-open-transactions-report"></a>Hankija avatud kannete aruanne
 
+Aruanne **Tarnija avatud tehingud** annab üksikasjalikku teavet iga hankija avatud tehingute kohta teie määratud kuupäeva seisuga. Seda aruannet kasutatakse sageli auditiprotseduuri ajal hankijaraamatu tehingute ja pearaamatukonto tehingute vaheliste saldode kontrollimiseks.
+
+Iga tehingu kohta sisaldab aruanne järgmisi üksikasju:
+
+- Arve number
+- Kande kuupäev
+- Kande number
+- Tehingu summa tehingu- ja arvestusvaluutas
+- Krediidijääk tehingu- ja arvestusvaluutas
+- Deebetjääk tehingu- ja arvestusvaluutas
+- Kogusumma arvestusvaluutas
+- Makse tähtaeg
+
+### <a name="filter-the-data-on-the-report"></a>Aruande andmete filtreerimine
+
+Kui loote aruande **Tarnija avatud tehingud**, on saadaval järgmised vaikeparameetrid. Saate neid kasutada aruandesse lisatavate andmete filtreerimiseks.
+
+- **Välista tulevane arveldus** – märkige see ruut, et välistada tehingud, mis arveldatakse pärast väljale **Ava tehingud kuupäevast** sisestatud kuupäeva.
+- **Avatud tehingud kuupäevast** – sisestage kuupäev, et kaasata tehingud, mis on sellel kuupäeval avatud. Kui te kuupäeva ei sisesta, määratakse sellele väljale maksimaalne kuupäev. (Maksimaalne kuupäev on viimane kuupäev, mille süsteem aktsepteerib, 31. detsember 2154.) Vaikimisi määratakse järgmisel aruande käivitamisel sellele väljale viimane sellele sisestatud kuupäev.
+
+Aruandes sisalduvate tehinguandmete piiramiseks saate kasutada välja **Kaasamiseks kirje** all olevaid filtreid.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

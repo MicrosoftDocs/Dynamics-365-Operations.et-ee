@@ -1,7 +1,7 @@
 ---
 title: Sisestamine tuletatud raamatute kaudu
 description: Selles artiklis kirjeldatakse tuletatud raamatute kasutamist.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f76b30ebf61e0fc709513d1f5a1670930fab54a51d976df80842c35a2ae10b63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ef0c7b2ad93f4a9c4ff24052c749f7891f9e915d
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754238"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675415"
 ---
 # <a name="post-with-derived-books"></a>Sisestamine tuletatud raamatute kaudu
 
@@ -52,7 +52,7 @@ Raamatuga VM 1 põhivara soetamise sisestamisel sisestatakse see mitte ainult ra
 > [!NOTE]                                                                                                         
 > Kui te tuletatud raamatuid ei kasuta, tuleb teil soetamine sisestada nii raamatu VM 1 kui raamatu VM 2 kohta.
 
-Lisateavet vt teemast [Tuletatud raamatud](derived-books.md)
+Lisateavet vt teemast [Tuletatud raamatud](derived-books.md).
 
 
 

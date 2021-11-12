@@ -2,7 +2,7 @@
 title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595141"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725045"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -31,6 +31,64 @@ See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Fi
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="feature-removal-effective-october-2021"></a>Funktsiooni eemaldamine jõustub 2021. aasta oktoobris
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Lifecycle Services’i (LCS) SQL aruanded
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist.|
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
+| **Mõjutatud tootealad**         | SQL-i aruanded: praegune DTU, praeguse DTU üksikasjad, lukustamise üksikasjad, praeguse plaani juhendi loend, päringu ID-de loendi toomine, SQL-i päringuplaani toomine antud plaani ID jaoks, päringuplaanide ja käivitamise oleku toomine, konfiguratsiooni saamine, oota statistikat, kõige kallimate päringute loend |
+| **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
+| **Olek**                         | Eemaldatud |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azure SQL-i tegevused LCS-is
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Mõned SQL-aruanded LCS-s aeguvad. Kõik tegevused ja seire viiakse läbi sisemiselt, platvormi kaudu, automatiseerimise abil. See ei nõua käsitsi sekkumist. |
+| **Asendatud teise funktsiooniga?**   | Jah, nüüd on olemas automatiseeritud süsteem, mis renderdab need võimalused aegunuks. |
+| **Mõjutatud tootealad**         | SQL-i tegevused: plaanijuhendi loomine, et sundida plaani ID-d, luua plaanijuhend tabeli vihjete lisamiseks, plaani juhendi eemaldamine, lehelukkude keelamine/lukustamine ja lukustamise eskalatsioon, tabeli statistika värskendamine, indeksi uuesti loomine, indeksi loomine |
+| **Juurutamissuvand**              | Pilve juurutamine: Mõjutab Microsoft`i hallatud tootmiskeskkondi ja liivakastikeskkondi kihist 2 kuni kihini 5. |
+| **Olek**                         | Eemaldatud |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Funktsiooni tugi lõpetatakse 2021. aasta oktoobris
+
+### <a name="show-related-document-attachments-feature"></a>Funktsioon "Kuva seotud dokumendimanused".
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Funktsioon andis ootamatuid tulemusi. |
+| **Asendatud teise funktsiooniga?**   | Ei. Kõik selle funktsiooniga seotud edasised plaanid edastatakse meie standardse väljalaskelaine avalikustamisprotsessi kaudu. |
+| **Mõjutatud tootealad**         | Veebiklient – ​​dokumentide manustamise kogemus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.23 värskendused
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize üritus
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Selle sündmuse läbiviimiseks puudub kontroll. |
+| **Asendatud teise funktsiooniga?**   | Jah, teisaldage sündmusega **OnDBSynchronzie** tellitud olemasolevad meetodid SysSetupi laiendatud klassi. |
+| **Mõjutatud tootealad**         | Andmebaasi sünkroonimine |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Planeeritud kolimiskuupäev on oktoober 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Microsoft nõuab teatiste lisamisel täiendavaid parameetreid. |
+| **Asendatud teise funktsiooniga?**   | Jah, API **SystemNotificationsManager.AddSystemNotification()**. See API nõuab loodud teatiste jaoks ExpirationDateTime ja RuleID selgesõnalist määramist. |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Planeeritud kolimiskuupäev on aprill 2023. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.21 värskendused
 

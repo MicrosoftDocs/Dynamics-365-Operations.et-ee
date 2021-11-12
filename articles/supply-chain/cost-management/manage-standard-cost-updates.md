@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579756"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678661"
 ---
 # <a name="manage-standard-cost-updates"></a>Standardomahinna värskenduste haldus
 
@@ -43,8 +43,6 @@ Järgmine näide illustreerib, kuidas üheversioonilist ja kaheversioonilist lä
 Selles näites on aasta 2020 värskenduste haldamisel kasutatud täiendavat üht kuluversiooni. Kasutada saab rohkem kui üht täiendavat kuluversiooni, näiteks iga värskenduste partii puhul võib kasutada eraldi versiooni. Kui kasutusel on rohkem kui üks täiendav kuluversioon, peab taande esitama aktiivsete kuludena, sest need jaotatakse mitme kuluversiooni vahel.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Standardse kulu ümberhindamise finantsdimensioonid
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Uue standardhinna aktiveerimine hindab tavaliselt vaba kaubavaru väärtuse ümber standardse kulu ümberhindamise kannete alusel. Tavaliselt sisestatakse kauba finantsdimensioonid seejärel kannetele. Samas kui soovite kontrollida, kas ja kuidas finantsdimensioone sisestatakse, kasutage [funktsioonihaldust](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), et lülitada sisse funktsioon nimega *Finantsdimensioonide vaikevalikud varude standardkulu ümberhindamise jaoks*. Pärast selle funktsiooni lubamist avage suvand **Kuluhaldus > Laoarvestuse poliitikate seadistus > Parameetrid** ja määrake uus ripploend **Finantsdimensiooni päritolu** ühega järgmistest väärtustest.
 

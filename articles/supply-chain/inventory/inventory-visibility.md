@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575167"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678905"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Varude nähtavuse lisandmooduli ülevaade
 
@@ -45,8 +45,6 @@ Varude vaatamisele on kaks lähenemist.
 - Vaba kaubavaru loendi vaatamine. See loend sünkroonitakse perioodiliselt vahemällu talletatud eksemplarist ja see on nähtav Dataverse'is. Lisateavet vt teemast [Varude nähtavuse rakendus](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Esialgsed reserveeringud
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Esialgne reserveerimine kehtib juhul, kui ettevõte peab reserveerima konkreetse koguse tooteid, et toetada näiteks müügitellimuse täitmist, mis väldib ülemüümist. Kui müügitellimus luuakse ja kinnitatakse rakenduses Supply Chain Management või muudes tellimuste halduse süsteemides, saadetakse Varude nähtavusse taotlus koguse reserveerimiseks. Varude nähtavus võimaldab teil reserveerida tooted, millel on dimensiooni üksikasjad ja konkreetsed kandetüübid. (Lisateavet vt teemast [Varude nähtavuse rakendus](inventory-visibility-power-platform.md).) Pärast koguse edukat reserveerimist tagastatakse reserveerimise ID. Selle reserveeringu ID abil saate linkida tagasi originaaltellimusele rakenduses Supply Chain Management või muudele tellimuste halduse süsteemidele.
 

@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 131d88c51755a433a874ac0fe086b3eaa48f161c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 3e0840944b7619f870194f6c16e15672bb888546
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572789"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678539"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Protsessi automatiseerimisvoogude kutsumine kvaliteettellimuste loomiseks
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 12/1/2021 -->
 
 Organisatsioonidel on järjest suurem nõudlus standardsete äriprotsesside automatiseerimiseks, mugavamaks suhtluse pakkumiseks personaliga ja erinevate andmeimpulsside ja -süsteemide kasutamine äriprotsesside automaatseks käivitamiseks. Automaatse protsessi automatiseerimise (RPA) puhul saavad ettevõtted kasutada koodita kogemust, et automatiseerida korduvad protsessid, mis koguvad nii efektiivsust Microsoft Power Automate ja täpsust.
 

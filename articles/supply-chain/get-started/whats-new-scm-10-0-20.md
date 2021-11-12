@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580980"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647310"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.20. (august 2021)?
 
@@ -46,7 +46,7 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 
 Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Igaüks neist võimaldab olemasoleva funktsiooni järk-haaval täiustada. Kuna need on ainult täiustused, siis neid ei loetleta [väljalaskeplaanis](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Kindlustamaks, et need täiustused ei satu vastuollu olemasolevate kohanduste või eelistustega, lülitatakse iga neist vaikimisi välja (kui pole märgitud teisiti). Kui soovite mõnda neist funktsioonidest kasutada, peate need eraldi lubama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Funktsiooniala | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
+| Moodul | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
 |---|---|---|
 | Koondplaneerimine | Korrigeeritud nõudluse prognoosi paralleelne lubamine | See funktsioon võimaldab korrigeeritud nõudluse prognoosi paralleelset lubada **Korrigeeritud nõudluse prognoosiks** lehel. Selle funktsiooni eesmärk on suurendada jõudlust suure arvu eelarvete autoriseerimisel. Autoriseerimisel saab kasutaja autoriseerimise dialoogis määrata **Lõimede arvu**. |
 | Koondplaneerimine | (Eelversioon) Plaanitud hulgi- ja partiina tellimuste partiideks jaotatud kinnitamine ja konsolideerimine | See funktsioon võimaldab teil planeeritud hulgi- ja partiidena tellimuste kinnitamiseks ja konsolideerimiseks kasutada pakett-töid. |

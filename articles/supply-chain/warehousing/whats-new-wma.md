@@ -10,18 +10,31 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
-ms.translationtype: HT
+ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
+ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485618"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655381"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+
+## <a name="version-20110"></a>Versioon 2.0.11.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Lisatud tugi reklaamitavatele väljadele.
+- Lisatud on riistvaralise klaviatuuriga navigeerimise tugi.
+- Paremad hõlbustusfunktsioonid.
+- Täiustatud üksikasjade kaardid.
+- Täiustatud ümbersõidud menüü-üksuse sammude jaoks.
+- Vähesed kasutusliidese täiustused.
+- Lahendatud on probleem, mis võib põhjustada vöötkoodide skannimisel rakenduse hangumise.
+- Mitmed probleemid, mis võib põhjustada süsteemi hangumise, on parandatud.
 
 ## <a name="version-20100"></a>Versioon 2.0.10.0
 

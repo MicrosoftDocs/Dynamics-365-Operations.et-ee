@@ -2,7 +2,7 @@
 title: Tooteotsing ja kliendiotsing kassas
 description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716391"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700085"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -45,9 +45,9 @@ Kohalik tooteotsing otsib järgmistest tooteatribuutidest.
 - Kirjeldus
 - Dimensioonid
 - Vöötkood
-- Otsi nime
+- Otsitav nimi
 
-### <a name="additional-local-product-search-capabilities"></a>Täiendavad kohaliku tooteotsingu võimalused
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Täiendavad kohaliku tooteotsingu võimalused (tavaline SQL-i täistekstiotsing) 
 
 - Mitme märksõnaga otsingute puhul (st otsingusõnu kasutavate otsingute puhul) saavad jaemüüjad konfigureerida, kas otsingutulemused sisaldavad *mõnele* või ainult *kõigile* otsingusõnadele vastavaid tulemusi. Selle funktsiooni säte on saadaval kassa funktsiooniprofiilis uues grupis, mille nimi on **Tooteotsing**. Vaikesäte on **Mis tahes otsingusõnade vastendamine**. See säte on ka soovitatav säte. Sätte **Mis tahes otsingusõnade vastendamine** kasutamisel antakse tulemuseks kõik tooted, mis vähemalt ühele otsingusõnale vastavad. Tulemused sorditakse automaatselt, lisades kasvavas järjestuses tooted, millel on kõige rohkem märksõnade (täielikke või osalisi) vasteid.
 
@@ -55,6 +55,8 @@ Kohalik tooteotsing otsib järgmistest tooteatribuutidest.
 
     - Otsing toimub eraldi tooteatribuutidel. Näiteks antakse tulemuseks ainult need tooted, millel on vähemalt ühes tooteatribuudis kõik otsitud märksõnad.
     - Dimensioonidest ei otsita.
+> [!NOTE]
+> Järgmised konfiguratsioonid **Sobib mis tahes otsinguterminiga**/**Vastenda kõik otsinguterminid** POS-i funktsiooniprofiilides kehtivad ainult **kohaliku** tooteotsingu (tavalise SQL-i täistekstiotsingu) kogemuste puhul. See konfiguratsioon ei mõjuta pilvepõhiseid otsingukogemusi. Uuel otsingumootoril on oma täiustatud algoritm, mis määrab tooteotsingu tulemuste jaoks otsingu asjakohasuse. 
 
 - Nüüd saavad jaemüüjad konfigureerida tooteotsingut nii, et kui kasutajad tootenimesid tipivad, kuvatakse otsingusoovitused. Selle funktsiooni uus säte on saadaval kassa funktsiooniprofiilis grupis, mille nimi on **Tooteotsing**. Sätte nimi on **Näita tippimise ajal otsingusoovitusi**. See funktsioon aitab töötajatel otsitavat toodet kiiresti leida, kuna nad ei pea kogu nime käsitsi tippima.
 - Tooteotsingu algoritm otsib nüüd otsitud sõnu toote atribuudist **Otsingunimi**.
@@ -147,7 +149,5 @@ Järgmises loendis näidatakse, kuidas pilve toega kliendi otsingufunktsioon eri
 > Kliendi otsinguvõimalused Azure'i cotive search service'i abil on eelvaate jaoks saadaval piiratud regioonides. Kliendi otsinguvõimalused *pole* saadaval järgmistes regioonides:
 > - Brasiilia
 > - India
-> - Kanada
-> - Ühendkuningriik
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474672"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678467"
 ---
 # <a name="configure-inventory-visibility"></a>Varude nähtavuse konfigureerimine
 
@@ -366,16 +366,12 @@ Indeks võimaldab teil teha vaba kaubavaru kohta päringuid järgmistel viisidel
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Reserveeringu konfiguratsioon (valikuline)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Kui soovite kasutada esialgse reserveerimise funktsiooni, on vajalik reserveeringu konfiguratsioon. Konfiguratsioon koosneb kahest põhiosast.
 
 - Esialgse reserveerimise vastendus
 - Esialgse reserveeringu hierarhia
 
 ### <a name="soft-reservation-mapping"></a>Esialgse reserveerimise vastendus
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Reserveerides võite soovida teada, kas vaba kaubavaru on praegu reserveerimiseks saadaval. Kinnitamine on seotud arvutatud mõõtmega, mis esindab füüsiliste mõõtmete kombinatsiooni arvutusvalemit.
 
@@ -446,8 +442,6 @@ Seetõttu, kui püüate teha `iv.SoftReservOrdered` reserveeringuid ja kogus on 
 > Kui kutsute reserveerimise API, saate kontrollida reserveerimise kinnitamist, määrates `ifCheckAvailForReserv` kahendmuutuja parameetri taotluse kehas. Väärtus `True` tähendab, et kinnitamist nõutakse, samas kui väärtus `False` tähendab, et kinnitamist ei nõuta. Vaikeväärtus on `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Esialgse reserveeringu hierarhia
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Reserveerimishierarhia kirjeldab dimensioonide järjestust, mis tuleb reserveeringute tegemisel määratleda. See toimib samamoodi, nagu toote indeksi hierarhia töötab vaba kaubavaru päringute puhul.
 
@@ -747,8 +741,6 @@ Järgmine tabel näitab indeksi vaikekonfiguratsiooni.
 Selles jaotises kirjeldatakse reserveeringu vaikekonfiguratsiooni.
 
 #### <a name="reservation-mapping"></a>Reserveeringu vastendus
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Järgmine tabel näitab reserveeringu vaikevastendust.
 

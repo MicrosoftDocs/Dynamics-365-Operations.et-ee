@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
-ms.translationtype: HT
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384607"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647616"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Laohalduse mobiilirakenduse installimine ja ühendamine
 
@@ -109,7 +109,7 @@ Lisateavet Azure AD-s veebiteenuse rakenduste seadistamise kohta leiate järgmis
     - [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](/azure/active-directory/develop/quickstart-register-app)
     - [Kuidas: portaali abil Azure AD rakenduse ja ressurssidele juurde pääseva teenusesubjekti loomine](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Supply Chain Managementis kasutajakonto loomine ja konfigureerimine
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Supply Chain Managementis kasutajakonto loomine ja konfigureerimine
 
 Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige järgmiselt.
 
@@ -117,17 +117,24 @@ Supply Chain Managementi lubamiseks, et kasutada Azure AD rakendust, toimige jä
 
     1. Avage Supply Chain Managementis **Süsteemihaldus \> Kasutajad \> Kasutajad**.
     1. Looge kasutaja.
-    1. Määrake ladustamise mobiilse seadme kasutaja.
+    1. Määrake kasutajale *Ladustamise mobiilse seadme kasutaja* roll.
 
     ![Määrake ladustamise mobiilse seadme kasutaja.](media/app-connect-app-users.png "Ladustamise mobiilse seadme kasutaja määramine")
 
 1. Seostage oma Azure AD rakendus laohalduse mobiilirakenduse kasutajaga.
 
     1. Minge jaotisse **Süsteemihaldus \> Seadistus \> Azure Active Directory rakendused**.
-    1. Looge rida.
-    1. Sisestage kliendi ID, mille märkisite üles eelmises jaotises, pange sellele nimi ja valige äsja loodud kasutaja. Soovitame teil sildistada kõik oma seadmed. Sellisel juhul saate seadme kaotamise korral selle lehe kaudu hõlpsalt eemaldada nende Supply Chain Managementi juurdepääsu.
+    1. Rea loomiseks valige toimingupaanilt suvand **Uus**.
+    1. Sisestage väljale **Kliendi ID** kliendi ID millele eelmises jaotises märkisite.
+    1. Väljale **Nimi** sisestage nimi.
+    1. Väljale **Kasutaja ID** äsja loodud kasutaja ID.
 
     ![Azure Active Directory rakendused.](media/app-connect-aad-apps.png "Azure Active Directory avaldused")
+
+> [!TIP]
+> Üks viis nende sätete kasutamiseks on luua Azure'is kliendi ID igale füüsilisele seadmele ja seejärel lisada igale rakenduse lehele kliendi **Azure Active Directory rakenduse** leht. Sellisel juhul saate seadme kaotamise korral selle lehe kaudu hõlpsalt eemaldada nende Supply Chain Management juurdepääsu. (See lähenemine töötab, sest igas seadmes salvestatud ühenduse mandaadid määravad ka kliendi ID, nagu kirjeldatud selles teemas allpool.)
+>
+> Lisaks määratakse iga kliendi ID vaikekeel, numbrivorming ja ajavööndi sätted siin vastendatud **kasutaja ID** väärtusele seadistatud eelistustega. Seetõttu võite kasutada neid eelistusi kliendi ID-l põhinevate vaikesätete kehtestamiseks iga seadme või seadmete kogumi jaoks. Kuid need vaikesätted alistatakse, kui need on määratud ka *laorakenduse kasutajakontole* mida töötaja kasutab seadmesse sisselogimiseks. (Lisateavet vt artiklist [Töötajate mobiilse seadme kasutajakontode häälestamine](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autentimine serdi või kliendi saladuse abil
 

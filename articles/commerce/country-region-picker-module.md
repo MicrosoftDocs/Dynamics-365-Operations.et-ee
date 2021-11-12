@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 35d78cdcc356d35776940147e9b0afee0f0be2a2
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472597"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674719"
 ---
 # <a name="countryregion-picker-module"></a>Riigi/regiooni valija moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab tarneaadressi moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 
@@ -35,13 +34,13 @@ Näiteks klient Kanadas taotleb saidi URL-i, mis ei ole Kanadaga seostatud. Sel 
 
 ![Riigi/regiooni valija dialoogiboksi näide avalehel.](./media/Geo_country-region-module-insitu.png)
 
-## <a name="countryregion-picker-module-properties&quot;></a>Riigi/regiooni valija mooduli atribuudid
+## <a name="countryregion-picker-module-properties"></a>Riigi/regiooni valija mooduli atribuudid
 
 | Atribuudi nimi              | Väärtus       | Kirjeldus |
 | -------------------------- | ----------- | ----------- |
 | Päis                    | Tekst        | Dialoogiakna ülaosas kuvatav pealkiri. |
 | Alapealkiri                 | Tekst        | Pealkirja all kuvatav alapealkiri. |
-| Riik: kuva string    | Tekst        | URL-i suvandi kuvatav nimi (nt &quot;Kanada"). |
+| Riik: kuva string    | Tekst        | URL-i suvandi kuvatav nimi (nt "Kanada"). |
 | Riik: kuva alamstring | Tekst        | URL-i suvandi valikuline kuvamise alamstring (nt "inglise" või "prantsuse"). |
 | Riik: riigi pilt     | Meedia vara | URL-i suvandiga seostatud valikuline pilt (nt Kanada lipu pilt). |
 | Riik: riigi URL       | Tekst        | URL, mis vastab kanalile ja lokaadile, mis on konfigureeritud riigi või regiooni jaoks Commerce'i saidikonstruktori **kanalite** lehel (**Saidisätete \> Kanalid**). See URL peab täpselt vastama URL-ile, mis on **kanalite** lehel konfigureeritud. |

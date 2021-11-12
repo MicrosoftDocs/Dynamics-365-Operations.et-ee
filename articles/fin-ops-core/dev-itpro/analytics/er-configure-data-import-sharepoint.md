@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 20e4e03a347cb046b58c4aceec8c473cf2aba6f50f09497b7bab2bcddc947cf2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718571"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675341"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePointist andmete importimise konfigureerimine
 
@@ -203,6 +203,8 @@ Vaadake kood läbi klassi `BankImport_RU` mudelis `Application Suite`, et näha,
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 
 [ER-i raamistiku API muudatused rakenduse värskenduse 7.3 puhul](er-apis-app73.md)
+
+[ER-i raamistiku API muudatused rakenduse värskenduse 10.0.23 puhul](er-apis-app10-0-23.md)
 
 
 

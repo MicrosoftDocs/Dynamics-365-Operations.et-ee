@@ -2,7 +2,7 @@
 title: Navigeerimismenüü moodul
 description: See teema hõlmab navigeerimismenüü mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761582"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713848"
 ---
 # <a name="navigation-menu-module"></a>Navigeerimismenüü moodul
 
@@ -41,8 +41,8 @@ Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüü näide, mil
 |---------------------------|-----------------------|-------------|
 | Allikas                  | **Jaemüük**, **Käsitsi koostamine**, **Jaemüük ja käsitsi koostamine** | Väärtus **Jaemüük** võimaldab navigeerimismenüüs kuvada kanali navigeerimishierarhia Commerce'i peakontorist. Väärtus **Käsitsi koostamine** võimaldab staatiliste menüüde üksusi kureerida. Väärtus **Jaemüük ja käsitsi koostamine** võimaldab mõlemat. |
 | Kategooria piltide kuvamine | **Tõene** või **Väär**    | Kui see on lubatud, kuvatakse navigeerimismenüüs kategooria pildid, nagu on määratletud iga kategooria kohta Commerce’i peakontoris. Lisatud Commerce'i väljalaskesse 10.0.14. |
-| Kuva kampaaniad | **Tõene** või **Väär** | Kui see atribuut on lubatud, saab kampaaniaid konfigureerida piltide, linkide ja teksti abil. See atribuut lisati Commerce'i versiooni 10.0.17 väljalaskesse. |
-| Kampaaniate lisamine | Tekst, pilt või link | Kui atribuut **Kuva kampaaniad** on lubatud, saate lisada navigeerimismenüüst kampaaniasisuna teksti, pildi või lingi. |
+| Kuva reklaamipildid | **Tõene** või **Väär** | Kui see atribuut on lubatud, saab kampaaniaid konfigureerida piltide, linkide ja teksti abil. See atribuut lisati Commerce'i versiooni 10.0.17 väljalaskesse. |
+|Lisa kategooria reklaamsisu | Tekst, pilt või link | Kui atribuut **Kuva kreklaampildid** on lubatud, saate lisada navigeerimismenüüst kampaaniasisuna teksti, pildi või lingi. |
 | Mitme tasemega navigeerimismenüü lubamine | **Tõene** või **Väär** | Kui see atribuut on lubatud, võib navigeerimismenüü kuvada navigeerimise hierarhia mitut taset. See funktsioon on saadaval Commerce'i versiooni 10.0.15 väljalaskes. |
 | Tasemete arv | täisarv | See atribuut määratleb tasemete numbrid, mis tuleb kuvada, kui atribuudi **Luba mitmetasandiline navigeerimismenüü** väärtuseks on seatud **Tõene**. |
 | Staatiline menüü-üksus| Väärtuste massiiv| Staatilised menüü-üksused, mis seostavad menüü-üksuse nime staatilise saidi lingiga. Menüü-üksusi saate luua muude menüü-üksuste all. Vaikimisi kuvatakse staatilised menüüd juuretasandil ja need lisatakse kanali navigeerimishierarhiasse, kui see on olemas. |

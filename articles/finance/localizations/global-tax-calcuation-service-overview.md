@@ -2,7 +2,7 @@
 title: Maksuarvutuse ülevaade
 description: Selles teemas selgitatakse maksuarvestuse võimekuse üldist ulatust ja funktsioone.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
-ms.translationtype: HT
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394582"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647053"
 ---
 # <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Maksuarvestus on hüperskaleeritav mitmetasandiline teenus, mis võimaldab global tax engine maksu määramise ja arvutamise protsessi automatiseerida ja seda lihtsustada. Maksumootor on täielikult konfigureeritav. Elemendid, mida saab konfigureerida, sisaldavad, kuid ei ole piiratud maksustatavate andmemudelite, maksukoodide, maksu kohaldatavusmaatriksi ja maksuarvutuse valemiga. Maksumootor töötab teenuste Microsoft Azure põhiplatvormil ja pakub tänapäevasttehnoloogiat ja kõrgetasemelist skaleeritavust.
 
@@ -120,6 +118,10 @@ Finantsversioonis 10.0.21 toetatakse järgmisi kandeid:
     - Kandetellimus-- lähetus
     - Kandetellimus-- kättesaamine
 
+Finantsversioonis 10.0.23 toetatakse järgmisi kandeid: 
+
+- Vabas vormis arve
+
 ## <a name="supported-countriesregions"></a>Toetatud riigid/regioonid
 
 Maksude arvutamist saab lubada juriidiline isik. 
@@ -144,7 +146,29 @@ Versioonis 10.0.21 toetatakse järgmisi juriidilise isiku esmase aadressi riike/
 - Rootsi
 - Šveits
 - Ühendkuningriik
-- Ameerika Ühendriigid
+- USA
+
+Versioonis 10.0.22 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+
+- Austraalia
+- Bahrein
+- Kanada
+- Egiptus
+- Hong Kongi EHP
+- Kuveit
+- Uus-Meremaa
+- Omaan
+- Katar
+- Saudi Araabia
+- Lõuna-Aafrika
+- Araabia Ühendemiraadid
+
+Versioonis 10.0.23 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+
+- Tai
+- Jaapan
+- Malaisia
+- Singapur
 
 ## <a name="related-resources"></a>Seotud ressursid
 

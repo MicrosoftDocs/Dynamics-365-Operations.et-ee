@@ -2,7 +2,7 @@
 title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483850"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700133"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida saate kasutada kasutaja tootlikkuse suurendamiseks, teie andmetest huvitavate vaadete loomiseks ja sisukate ülevaadete hankimiseks andmete jaoks. Selles artiklis tutvustatakse järgmisi võimalusi. 
@@ -32,6 +33,8 @@ Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida
 -  Matemaatiliste avaldiste hindamine 
 -  Tabeli andmete grupeerimine (lubatud eraldi kasutades **Grupeerimine võrkudes** funktsiooni)
 -  Veergude külmutamine
+-  Veeru laiuse automaatkorrekteerimine
+-  Venitatavad veerud
 
 ## <a name="calculating-totals"></a>Summade arvutamine
 Rakendustes Finance and Operations on kasutajatel võimalik ruudustiku numbriveergude allosas näha kogusummasid. Ruudustiku allosas olev jaluse jaotis näitab neid kogusummasid. 
@@ -43,7 +46,7 @@ Finance and Operationsi rakendustes on igas tabeliruudustikus allosas jaluse ala
 - Konfigureeritud arvveergude allosas olevad kogusummad
 - Andmekogumi ridade arv 
 
-See jalus on vaikimisi peidetud, kuid saate selle sisse lülitada. Ruudustiku jaluse kuvamiseks paremklõpsake ruudustiku veeru päist ja valige suvand **Kuva jalus**. Kui olete konkreetse ruudustiku jaluse sisse lülitanud, peetakse see seadistus meeles, kuni kasutaja otsustab jaluse peita. Jaluse peitmiseks paremklõpsake veeru päist ja valige käsk **Peida jalus**.  (Toimingu **Kuva jalus / peida jalus** paigutus võib edasistes värskendustes liikuda uude kohta. 
+See jalus on vaikimisi peidetud, kuid saate selle sisse lülitada. Ruudustiku jaluse kuvamiseks paremklõpsake **ruudustiku valikute** nuppu ruudustiku päises ja valige suvand **Kuva jalus**. Kui olete konkreetse ruudustiku jaluse sisse lülitanud, peetakse see seadistus meeles, kuni kasutaja otsustab jaluse peita. Jaluse peitmiseks valige suvand **Peida jalus** **Ruudustiku valikute** menüüs.  
 
 ### <a name="specifying-columns-with-totals"></a>Veergude määramine kogusummade abil
 Praegu ei kuva ükski veerg kogusummat vaikimisi. Selle asemel loetakse seda ühekordse häälestuse toiminguks, mis on sarnane veergude laiuste kohandamisega ruudustikes. Kui olete määranud, et soovite näha veeru kogusummasid, kuvatakse teile seda sätet järgmisel lehekülastusel.  
@@ -82,7 +85,7 @@ Selle uue funktsiooni toetamiseks on rea valimise veeru paremasse osasse lisatud
 Kui kasutajad sisestavad andmeid kohas, kuhu serveritöötlus pole veel jõudnud, võib nende andmesisestuskogemus olla halvem, näiteks puuduvad otsingud, kontrolli tasemel kinnitamine ja vaikeväärtuste sisestamine. Kasutajatel, kellel on väärtuse leidmiseks vaja ripploendit, soovitatakse oodata, kuni server jõuab praegusele reale. Kontrolli tasemel kinnitamist ja vaikeväärtuste sisestamist saab samuti teha, kui server töötleb seda rida.   
 
 ### <a name="pasting-from-excel"></a>Kleepimine Excelist
-Kasutajad on alati saanud eksportida andmeid Finance and Operationsi rakendustest rakendusse Excel, kasutades suvandit **Ekspordi Excelisse**. Kuna andmeid saab sisestada enne süsteemi, toetab uus ruudustik tabelite kopeerimist Excelist ja nende kleepimist otse Finance and Operationsi rakenduste ruudustikesse. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
+Kasutajad on alati saanud eksportida andmeid Finance and Operations`i rakendustest rakendusse Microsoft Excel kasutades suvandi **Ekspordi Excelisse** mehhanisme. Kuna andmeid saab sisestada enne süsteemi, toetab uus ruudustik tabelite kopeerimist Excelist ja nende kleepimist otse Finance and Operationsi rakenduste ruudustikesse. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
 
 - Kui kopeeritud tabeli veergude arv ületab kleepimise asukohast alates ruudustikku jäävate veergude arvu, teavitatakse kasutajat, et lisaveergusid eirati. 
 - Kui kopeeritud tabeli ridade arv ületab kleepimise asukohast alates ruudustiku ridade arvu, kirjutatakse olemasolevad lahtrid kleebitud sisuga üle ja kõik kopeeritud tabeli lisaread lisatakse ruudustiku allossa uute ridadena. 
@@ -125,6 +128,9 @@ Veeru külmutamiseks paremklõpsake veeru päist ja valige seejärel suvand **K�
 Veeru külmutamisest vabastamiseks paremklõpsake külmutatud veeru päist ja valige seejärel suvand **Vabasta veerg külmutamisest**. 
 
 Pange tähele, et uue ruudustiku rea valiku ja rea oleku veerud on esimeses kahes veerus alati külmutatud. Kui need veerud on ruudustikku kaasatud, on nad seetõttu alati kasutajatele nähtavad hoolimata ruudustiku horisontaalsest kerimisasukohast. Nende kahe veeru järjestust ei saa muuta.
+
+## <a name="autofit-column-width"></a>Veeru laiuse automaatkorrekteerimine
+Sarnaselt Excel`iga saavad kasutajad automaatselt veeru suurust muuta, võttes aluseks selles veerus praegu kuvatud sisu. Selleks topeltklõpsake veeru suuruse muutmise pidemeid või asetage fookus veeru päisesse ja vajutage nuppu **A** (automaatseks korrektsiooniks). See võimalus on saadaval alates versioonist 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kuidas lubada uut ruudustiku juhtelementi oma keskkonnas? 

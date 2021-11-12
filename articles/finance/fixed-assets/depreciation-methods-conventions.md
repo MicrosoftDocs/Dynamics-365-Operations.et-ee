@@ -1,7 +1,7 @@
 ---
 title: Kulumimeetodid ja kulumiarvestusreeglid
 description: See artikkel annab ülevaate Microsoft Dynamics 365 Finance'is toetatud kulumiarvestusreeglitest ja -meetoditest.
-author: ShylaThompson
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa8f70e12a8c837a599ead5ef8b98aaf13e8cc827853de8b0332611ed2e257e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713230"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674522"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Kulumimeetodid ja kulumiarvestusreeglid
 
@@ -32,7 +32,7 @@ Saate valida mitmesuguste kulumimeetodite ja kulumiarvestusreeglite hulgast. Mee
 
 Kui kasutate kulumiarvestusreegleid ja muudate vara viimase kulumiarvestuse käituskuupäeva, mis seejärel põhjustab mõne kulumi vahelejätmist, võib viimase aasta kulum olla oodatust suurem või väiksem. Kulumit korrigeeritakse viimase kulumikäituskuupäeva muutmisega mõjutatavate kulumiperioodide arvuga.
 
-Näiteks kui kasutate poolaasta kulumireeglit kolme aasta puhul, kestab kulumiarvestus tavaliselt 3 1/2 aastat. Kui muudate 3 1/2 aasta jooksul viimast kulumiarvestuskuupäeva, siis viimasel kulumiaastal mõjutatud perioodide arv suureneb. Kui viite kuupäeva edasi kolme kuu võrra, arvestatakse viimasel aastal kulumit tavalise kuue kuu asemel üheksa kuu eest.
+Näiteks kui kasutate poolaasta kulumireeglit kolme aasta puhul, kestab kulumiarvestus tavaliselt kolm ja pool aastat. Kui muudate kolme ja poole aasta jooksul viimast kulumiarvestuskuupäeva, siis viimasel kulumiaastal mõjutatud perioodide arv suureneb. Kui viite kuupäeva edasi kolme kuu võrra, arvestatakse viimasel aastal kulumit tavalise kuue kuu asemel üheksa kuu eest.
 
 Kulumiarvestusreegli saate valida järgmisest loendist.
 
@@ -46,12 +46,12 @@ Kulumiarvestusreegli saate valida järgmisest loendist.
 -   Poolaasta (järgmine aasta)
 
 Saate valida järgmiste kulumimeetodite hulgast.
--   Lineaarne kasulik eluiga
+-   Otse0-joone teenusiga
 -   Vähenev saldo
--   Manuaal
+-   Käsitsi
 -   Tegur
 -   Tarbimine
--   Allesjäänud lineaarne eluiga
+-   Otse-joone allesjäänud elu
 -   200% vähenev saldo
 -   175% vähenev saldo
 -   150% vähenev saldo
@@ -65,7 +65,7 @@ Saate valida järgmiste kulumimeetodite hulgast.
 
 [Põhivara kulum](fixed-asset-depreciation.md)
 
-[Kasuliku eluea lineaarne kulum](Straight-line-service-life-depreciation.md)
+[Otse-joone teenuselu kulum](Straight-line-service-life-depreciation.md)
 
 [Väheneva jääkväärtuse kuluarvestusmeetod](reduce-balance-depreciation.md)
 
@@ -75,7 +75,7 @@ Saate valida järgmiste kulumimeetodite hulgast.
 
 [Tarbimise kulum](consumption-depreciation.md)
 
-[Allesjäänud eluea lineaarne kulum](straight-line-life-remaining-depreciation.md)
+[Otse-joone eluea allesjäänud kulum](straight-line-life-remaining-depreciation.md)
 
 [125 protsenti väheneva saldoga kulum](125-percent-reducing-balance-depreciation.md)
 

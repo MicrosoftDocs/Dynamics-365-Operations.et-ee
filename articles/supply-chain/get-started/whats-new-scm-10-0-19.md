@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638466"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647211"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 Supply Chain Management versioonis 10.0.19 (juuni 2021)
 
@@ -48,7 +48,7 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 
 Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Igaüks neist võimaldab olemasoleva funktsiooni järk-haaval täiustada. Kuna need on ainult täiustused, siis neid ei loetleta [väljalaskeplaanis](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Kindlustamaks, et need täiustused ei satu vastuollu olemasolevate kohanduste või eelistustega, lülitatakse iga neist vaikimisi välja (kui pole märgitud teisiti). Kui soovite mõnda neist funktsioonidest kasutada, peate need eraldi lubama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Funktsiooniala | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
+| Moodul | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
 |---|---|---|
 | Müük ja turundus | Müügiajaloo puhastamise jõudluse parendused | Müügiajaloo puhastamine võib võtta kaua aega, kui seda käitatakse harva suure müügiuuendustega keskkondades. Kestuse vähendamiseks ja töökindluse parandamiseks tükeldab see funktsioon puhastuse piiratud kestusega partiidele. Võimaluse korral võimendatakse andmebaasi võimalusi lukustamise minimeerimiseks ja kannete tabelite ühendamise vältimiseks puhastamise ajal. Lisateavet vt [Müügiajaloo puhastamisjõudluse parendused](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Müük ja turundus | Värskenda kontsernisiseste tellimuste taotletud kviitungi kuupäev kinnitatud kuupäevale | See funktsioon võimaldab kontsernisisese otsetarne kasutamisel kontrollida, mis juhtub müügi- ja ostukuupäeva välja väärtustega. Saate valida, kas süsteem uuendab taotletud kuupäevi või jäetakse nende uuendamine vahele. Kui uuendamise vahele jätate, tähistavad taotletud kuupäevad kliendi taotletud kuupäeva. Uuendamise lubamisel tähistavad taotletud kuupäevad (tarnekuupäeva kontrolli kasutamisel) algselt ainult seda, mida klient taotles. Tarnekuupäeva kontroll, kui see erineb väljast *Pole*, alistab algselt taotletud teabe. Saate selle suvandi seada, kasutades uut **Nõutava vastuvõtukuupäeva värskendamise kinnitatud kuupäeva** sättega kontsernisisese hankija või kliendi sätetes.<br><br>Kui see funktsioon on keelatud, kirjutab süsteem nõutava sissetulekukuupäeva üle algsetele müügitellimustele, mis põhinevad tarnekuupäeva kontrollreeglil, kuid nõutav tarnekuupäev jääb samaks. |

@@ -2,7 +2,7 @@
 title: Teksti kategooria ER-i funktsioonide loend
 description: See teema annab teavet teksti funktsioonide kohta, mida toetatakse elektroonilises aruandluses (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741010"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647556"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Teksti kategooria ER-i funktsioonide loend
 
@@ -40,7 +40,8 @@ Elektroonilise aruandluse (ER) teksti funktsioone saab kasutada toimingute tegem
 | [Vasak](er-functions-text-left.md) | See funktsioon tagastab *stringi* väärtuse, mis esindab määratud tähemärkide arvu määratud stringi algusest. |
 | [Len](er-functions-text-len.md) | See funktsioon tagastab *täisarvu* väärtuse, mis esindab tähemärkide arvu määratud stringis. |
 | [Lower](er-functions-text-lower.md) | See funktsioon tagastab *stringi* väärtusena määratud tekstistringi pärast selle teisendamist väiketäheliseks. |
-| [Mid](er-functions-text-mid.md) | See funktsioon tagastab *stringi* väärtuse, mis esindab määratud tähemärkide arvu määratud stringis, alustades määratud kohast. |
+| [Mid](er-functions-text-mid.md) | See funktsioon tagastab *[stringi](er-formula-supported-data-types-primitive.md#string)* väärtuse, mis esindab määratud tähemärkide arvu määratud stringis, alustades määratud kohast. |
+| [NewGUID](er-functions-text-newguid.md) | See funktsioon tagastab vastloodud *[GUID](er-formula-supported-data-types-primitive.md#guid)* väärtuse. |
 | [NumberFormat](er-functions-text-numberformat.md) | See funktsioon tagastab *stringi* väärtuse, mis esitab määratud numbri määratud vormingus ja valikuliselt määratletud kultuuris. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | See funktsioon tagastab määratud numbri *stringi* väärtusena pärast selle määratud keeles tekstistringideks kirjutamist (st teisendamist). |
 | [PadLeft](er-functions-text-padleft.md) | See funktsioon tagastab määratud pikkusega *stringi* väärtuse, milles määratud stringi algusele on lisatud ühest või mitmest määratud märkide üksusest koosnevad täidismärgid. |

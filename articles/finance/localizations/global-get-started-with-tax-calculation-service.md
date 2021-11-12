@@ -2,7 +2,7 @@
 title: Maksuarvutusega alustamine
 description: Selles teemas selgitatakse, kuidas seadistada maksuarvestusi.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562122"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647430"
 ---
 # <a name="get-started-with-tax-calculation"></a>Maksuarvutusega alustamine
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 See teema annab teavet selle kohta, kuidas alustada maksuarvestusega. Esiteks antakse teile juhised konfigureerimise kohta lahendustes Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance ja Dynamics 365 Supply Chain Management. Seejärel vaatab see üle tavalise protseduuri kasutades maksuarvestuse võimekusi Finants ja Supply Chain Management -i kannetes.
 
@@ -41,29 +39,10 @@ Seadistus koosneb neljast peamisest astmest:
 
 Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema järgmised eeltingimused.
 
-### <a name="for-a-production-environment"></a>Tootmiskeskkonna jaoks
-
-Tootmiskeskkonna puhul peavad olema täidetud järgmised eeltingimused:
+Järgmised eeltingimused peavad olema täidetud:
 
 - Teil peab olema juurdepääs oma LCS-i kontole ja peate olema juurutanud LCS-projekti, millel on 2 või kõrgema taseme keskkond, mis käitab Dynamics 365 versiooni 10.0.21 või uuemat versiooni.
 - Peate looma oma organisatsioonile RCS-keskkonna ja teil peab olema juurdepääs oma kontole. Lisateavet RCS-keskkonna loomise kohta vt [Regulatory Configuration Service ülevaadet](rcs-overview.md).
-- Järgmised funktsioonid peavad teie **Funktsioonihalduse** Finance ja Supply Chain Management keskkonna tööruumis olema vastavalt ärihuvile sisse lülitatud:
-
-    - Maksuarvutusteenus
-    - Toeta mitut käibemaksu registreerimisnumbrit
-    - Maks üleviimistellimuses
-
-- Järgmised funktsioonid peavad olema sisse lülitatud teie **Funktsioonihalduse** tööruumis juurutatud RCS-i keskkonnas.
-
-    - Globaliseerimisfunktsioonid
-
-### <a name="for-a-test-environment-public-preview"></a>Katsekeskkonna jaoks (avalik eelvaade)
-
-Tootmiskeskkonna puhul peavad olema täidetud järgmised eeltingimused:
-
-- Teil peab olema juurdepääs oma LCS-i kontole ja peate olema juurutanud LCS-projekti, millel on 2 või kõrgema taseme keskkond, mis käitab Dynamics 365 versiooni 10.0.21 või uuemat.
-- Peate looma oma organisatsioonile RCS-keskkonna ja teil peab olema juurdepääs oma kontole. Lisateavet RCS-keskkonna loomise kohta vt [Regulatory Configuration Service ülevaadet](rcs-overview.md).
-- Peate Microsoft `iga ühendust võtma saates e-kirja aadressil <taxcalc@microsoft.com> et lubada lennud juurutatud Finance või Supply Chain Management keskkonnas.
 - Järgmised funktsioonid peavad teie **Funktsioonihalduse** Finance ja Supply Chain Management keskkonna tööruumis olema vastavalt ärihuvile sisse lülitatud:
 
     - Maksuarvutusteenus

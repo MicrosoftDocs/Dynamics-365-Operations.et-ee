@@ -1,8 +1,8 @@
 ---
 title: Põhivara väärtusmudeli ja kulumiraamatu ühendamine
 description: 'Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni: väärtusmudelid ja kulumiraamatud. Rakenduses Microsoft Dynamics 365 for Operations (1611) on väärtusmudeli ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat.'
-author: ShylaThompson
-ms.date: 06/20/2017
+author: moaamer
+ms.date: 10/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,32 +11,33 @@ ms.reviewer: roschlom
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a8e04f89673b3e0eb07e19aa1e14276f1f22c25b9aaabc91e2919892f74ed985
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9b11edcbf03b0917e35d9cef03834629b7b67fad
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727979"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674922"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Põhivara väärtusmudeli ja kulumiraamatu ühendamine
 
 [!include [banner](../includes/banner.md)]
 
-Varasemates väljalasetes on põhivarade jaoks kaks hindamiskontseptsiooni: väärtusmudelid ja kulumiraamatud. Rakenduses Microsoft Dynamics 365 for Operations (1611) on väärtusmudeli ja kulumiraamatu funktsioonid ühendatud üheks kontseptsiooniks, mis on tuntud kui raamat.
+Selles teemas kirjeldatakse põhivarade praeguse raamatu funktsioone. See funktsioon põhineb väärtusmudeli funktsionaalsusel, mis oli saadaval varasemates versioonides, kuid sisaldab ka kõiki funktsioone, mida varem pakuti ainult amortisatsiooniraamatutes.
 
-Uued raamatu funktsioonid põhinevad varasema väärtusmudeli funktsioonidel, kui hõlmab ka kõiki funktsioone, mis olid varasemalt antud ainult kulumiraamatutes. [![Raamat väärtusmudeli ja kulumiraamatu funktsioonide ühendamisena.](./media/fixed-assets.png)](./media/fixed-assets.png) Selle ühendamise tõttu saate nüüd kasutada lehtede, päringute ja aruannete üksikut kogumit kõikide teie põhivara protsesside jaoks. Selles teemas olevates tabelites kirjeldatakse kulumiraamatute ja väärtusmudelite varasemaid funktsioone koos raamatute uute funktsioonidega.
+Raamatufunktsiooni abil saate kasutada ühtset lehekülgede, päringute ja aruannete komplekti kõigi organisatsiooni põhivaraprotsesside kohta. Selles teemas olevates tabelites kirjeldatakse kulumiraamatute ja väärtusmudelite varasemaid funktsioone koos raamatute uute funktsioonidega.
 
 ## <a name="setup"></a>Häälestus
-Vaikimisi sisestavad raamatud nii pearaamatusse (PR) kui ka põhivara alammoodulisse. Raamatutel on uus valik **Pearaamatusse sisestamine**, mis võimaldab teil keelata PR-sse sisestamise ja sisestada ainult põhivara alammoodulisse. See funktsioon sarnaneb kulumiraamatute varasemale sisestamise käitumisele. Töölehe nimede seadistusel on uus sisestamiskiht, mille nimetus on Pole. Sisestamiskiht lisati spetsiifiliselt põhivara kannetele. Sisestamaks kandeid raamatutele, mis ei sisesta pearaamatusse, peate kasutama töölehe nime, mille sisestamiskiht on määratud valikul **Pole**.
+Vaikimisi sisestavad raamatud nii pearaamatusse (PR) kui ka põhivara alammoodulisse. Raamatutel on uus valik **Pearaamatusse sisestamine**, mis võimaldab teil keelata pearaamatusse sisestamise ja sisestada ainult põhivara alammoodulisse. See funktsioon sarnaneb kulumiraamatute varasemale sisestamise käitumisele. Töölehe nimede seadistusel on uus sisestamiskiht, mille nimetus on Pole. Sisestamiskiht lisati spetsiifiliselt põhivara kannetele. Sisestamaks kandeid raamatutele, mis ei sisesta pearaamatusse, peate kasutama töölehe nime, mille sisestamiskiht on määratud valikul **Pole**.
+
 
 | &nbsp;                                           | Kulumiraamat               | Väärtusmudel                     | Raamat (Uus)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-| Pearaamatusse sisestamine                                   | Mitte kunagi                           | Alati                          | Valik pearaamatusse sisestamiseks                                |
+| Pearaamatusse sisestamine                                   | Mitte kunagi                           | Alati                          | Pearaamatusse sisestamise valikud                                |
 | Sisestamiskihid                                   | Pole kohaldatav                  | 3: Praegune, Toimingud ja Maks | 11: Praegune, Toimingud, Maks, 7 kohandatud kihti ja Pole |
-| Töölehe nimed                                    | Kulumiraamatu töölehtede nimed | PR – töölehe nimed              | PR – töölehe nimed                                      |
+| Töölehe nimed                                    | Kulumiraamatu töölehtede nimed | Pearaamat - töölehe nimed              | Pearaamat - töölehe nimed                                      |
 | Tuletatud raamatud                                    | Pole lubatud                     | Lubatud                         | Lubatud                                                 |
 | Kulumireeglite alistamine vara tasandil | Lubatud                         | Pole lubatud                     | Lubatud                                                 |
 

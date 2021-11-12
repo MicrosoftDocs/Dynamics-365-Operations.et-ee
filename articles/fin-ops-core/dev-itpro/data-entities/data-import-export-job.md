@@ -2,7 +2,7 @@
 title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
-ms.translationtype: HT
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612360"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675365"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -68,6 +68,9 @@ Kui valite üksuse, peate valima eksporditavate või imporditavate andmete vormi
 | Excel                  | Excel                                      | \-Pole-                     |
 | XML                    | \-Pole-                                      | XML-element XML-atribuut |
 | Eraldatud, fikseeritud laius | Koma, semikoolon, vahekaart, vertikaalriba, koolon | \-Pole-                     |
+
+> [!NOTE]
+> Oluline on valida õige väärtus , veerueraldaja ja teksti täpifikaatori jaoks, kui failivormingu suvand on **reaeraldaja**, **veerueraldaja**, ja **teksti täpifikaatori** jaoks kui **Faili vormaat** väärtus on seatud väärtusele **Eraldatud**. Kontrollige, et teie andmed ei sisaldaks eraldajana või täpindina kasutatavat märki, kuna see võib importimise ja eksportimise ajal põhjustada tõrkeid.
 
 ### <a name="sequence-the-entities"></a>Üksuste järjestamine
 Üksusi saab järjestada andmemallis või impordi- ja eksporditöödes. Kui käivitate mitut andmeüksust sisaldava töö, peate veenduma, et andmeüksused oleksid õiges järjestuses. Üksused järjestatakse peamiselt nii, et saaksite käsitleda funktsionaalseid sõltuvusi üksuste vahel. Kui üksustel pole ühtegi funktsionaalset sõltuvust, saab need plaanida paralleelseks impordiks või ekspordiks.

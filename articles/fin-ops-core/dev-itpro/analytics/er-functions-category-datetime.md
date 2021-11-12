@@ -2,7 +2,7 @@
 title: ER-i funktsioonide loend kuupäeva ja kellaaja kategoorias
 description: See teema annab teavet kuupäeva ja kellaaja funktsioonide kohta, mida toetatakse elektroonilises aruandluses (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760046"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647259"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>ER-i funktsioonide loend kuupäeva ja kellaaja kategoorias
 
@@ -31,8 +31,9 @@ Elektroonilise aruandluse (ER) kuupäeva ja kellaaja funktsioone saab kasutada k
 
 | Funktsioon | Kirjeldus |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | See funktsioon tagastab *kuupäeva ja kellaaja* väärtuse, mis on määratud alguskuupäevast varasemate või hilisemate päevade arv. |
-| [DateFormat](er-functions-datetime-dateformat.md) | See funktsioon tagastab *stringi* väärtuse, mis esitab antud kuupäeva väärtuse määratud vormingus tekstina ja valikuliselt määratletud kultuuris. |
+| [AddDays](er-functions-datetime-adddays.md) | See funktsioon tagastab *[kuupäeva ja kellaaja](er-formula-supported-data-types-primitive.md#datetime)* väärtuse, mis on määratud alguskuupäevast varasemate või hilisemate päevade arvuna. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | See funktsioon tagastab *DateTime* väärtuse, mis teisendatakse antud ajatsooni kuupäeva/kellaaja väärtusest teise ajatsooni kuupäeva/kellaaja väärtuseks. |
+| [DateFormat](er-functions-datetime-dateformat.md) | See funktsioon tagastab *[stringi](er-formula-supported-data-types-primitive.md#string)* väärtuse, mis esitab antud kuupäeva väärtuse määratud vormingus tekstina ja valikuliselt määratletud kultuuris. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | See funktsioon tagastab *stringi* väärtuse, mis esitab antud kuupäeva/kellaaja väärtuse määratud vormingus tekstina ja valikuliselt määratletud kultuuris. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | See funktsioon tagastab *kuupäeva ja kellaaja* väärtuse, mis on antud teksti väärtusest konverteeritud väärtus määratud vormingus tekstina ja valikuliselt määratletud kuupäeva/kellaaja väärtuse kultuuris. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | See funktsioon tagastab *kuupäeva ja kellaaja* väärtuse, mis teisendatakse määratud kuupäevast väärtusest kuupäeva/kellaaja väärtuseks koordineeritud maailmaajas (Greenwichi aeg \[GMT\]). |

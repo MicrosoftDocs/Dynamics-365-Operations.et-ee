@@ -2,7 +2,7 @@
 title: Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.21 uut või mida on muudetud (oktoober 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.21 uusi või muutunud funktsioone.
 author: kamaybac
-ms.date: 08/09/2021
+ms.date: 10/28/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579732"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715250"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.21 uut või mida on muudetud (oktoober 2021)
 
@@ -38,7 +38,7 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 | Varud&nbsp;ja&nbsp;logistika | [Global Inventory Accounting on lisandmoodul Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Globaalse laoarvestuse kodulehekülg](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Funktsiooni nimi: sisestage vaba kaubavaru korrigeerimised, kasutades vastaskontodega ühendatud konfigureeritavaid põhjusekoode](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Varude inventuuri põhjusekoodid](../warehousing/reason-codes-for-counting-journals.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Müügipakkumisele viitavate andmete ekspordipoliitika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Valige, kas hinnapakkumistega viidatud andmete muudatuste tõttu kaasatakse need hinnapakkumised (või read) järgmisele ekspordile. Kui otsustate selliseid pakkumisi või ridu mitte kaasata, siis järkjärguline eksportimine toimub kiiremini.<br><br>See funktsioon lisab sätte **Vahele jäetud müügipakkumise viidatud andmed muudatuste jälgimise ajal** **Müügireskontro parameetrid** lehele. |
-| Varud&nbsp;ja&nbsp;logistika | Pitseeritud pakkumine <!-- KFM: Add RP link when available --> | [Pitseeritud pakkumine pakkumiskutsete puhul](../procurement/sealed-bidding.md) |
+| Varud&nbsp;ja&nbsp;logistika | [Pitseeritud pakkumine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Pitseeritud pakkumine pakkumiskutsete puhul](../procurement/sealed-bidding.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Skannige vöötkoode laos, kasutades GS1-vormingu standardeid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 vöötkoodid ja QR-koodid](../warehousing/gs1-barcodes.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Varude nähtavuse lisandmooduli esialgne reserveerimine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Varude nähtavuse reserveeringud](../inventory/inventory-visibility-reservations.md) |
 | Varud&nbsp;ja&nbsp;logistika | [Mahaarvamise ja tegeliku kaalu täiustused tagasimaksehalduse jaoks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Mahaarvamise töölaual mahaarvamiste haldamine](../rebate-management/deduction-workbench.md )<br><br>[Tagasimaksete töötlemine, läbivaatamine ja sisestamine](../rebate-management/process-review-post.md)<br><br>[Tagasimakse halduse tehingud](../rebate-management/rebate-management-deals.md) |
@@ -50,7 +50,7 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 
 Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Igaüks neist võimaldab olemasoleva funktsiooni järk-haaval täiustada. Kuna need on ainult täiustused, siis neid ei loetleta [väljalaskeplaanis](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Kindlustamaks, et need täiustused ei satu vastuollu olemasolevate kohanduste või eelistustega, lülitatakse iga neist vaikimisi välja (kui pole märgitud teisiti). Kui soovite mõnda neist funktsioonidest kasutada, peate need eraldi lubama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Funktsiooniala | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
+| Moodul | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
 |---|---|---|
 | Kuluhaldus | Varude sulgemise edenemise üksikasjad | See eelvaate funktsioon võimaldab varude sulgemise edenemise üksikasjalikku kuva. |
 | Hanked | Vältige eelarvereservi ületarbimist, kui töövoos on mitu ostutaotlust | See eelvaate funktsioon parandab tõrkekontrolli, kui kasutajad esitavad ja kinnitavad ostutaotlusi, mis ületavad üldise eelarve reserveerimisrea järelejäänud saldot. See aitab vältida üldise eelarvereserveeringu ülepidamist, kui töövoos on mitu ostutaotlust. |
@@ -59,6 +59,64 @@ Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Iga
 | Laohaldus | ASN-idest kõrvalepaneku töö eradamine | See funktsioon on vajalik saadetise eelteatiste (ASN-ide) saatmiseks ja vastuvõtuks, kui käitate laohalduse töökoormust kaaluühikul (osana jaotatud topoloogiast). See lisab uue andmebaasi tabeli, mis on mõeldud put lisatöö teabe salvestamiseks. Varem talletati seda teavet tabelites ka ASN-ide jaoks. |
 | Laohaldus | Pesa segaühikud | Lubab süsteemil pesaüksused asukohtadesse, mis sisaldavad segaühikuid (nt kastid ja kastid). Iga pesastatud mallirea puhul võimaldab see funktsioon teil valida, kas rida peaks kaupu avama segaühiku või ühe ühiku asukohta. |
 | Laohaldus | Kasutage pakkimisjaamas konteinerite sulgemiseks / uuesti avamiseks kiiremat API-d | Kui see eelvaate funktsioon on lubatud, luuakse konteineritega seotud laokanded, kasutades uut kerge kaalu protsessi, mis parandab konteinerite sulgemise või taasavamise jõudlust pakkejaama käsitsi töötlemisel. |
+
+## <a name="features-turned-on-by-default-in-this-release"></a>Funktsioonid on selles versioonis vaikimisi sisse lülitatud
+
+Järgmises tabelis on loetletud funktsioonid, mis on versioonis 10.0.21 vaikimisi sisse lülitatud. Enamiku aatomiliselt sisse lülitatud funktsioone saab sisse lülitada jaotises [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Funktsiooni nimi | Lubamise kuupäev | Funktsioon lisati | Funktsiooni olek | Moodul |
+| :--- | :--- | :--- | :--- | :--- |
+| Vaba kaubavaru aruande talletamine | 9/1/2021 | 4/1/2020 | Vaikimisi sees | Varude ja laohaldus |
+| Ülekandetellimuse tühistamine | 9/1/2021 | 7/13/2020 | Vaikimisi sees | Varude ja laohaldus |
+| Ava varude tööleht | 9/1/2021 | 8/17/2020 | Vaikimisi sees | Varude ja laohaldus |
+| Varude haldamise salvestatud vaated | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Varude ja laohaldus |
+| Koosluse ridadelt koosluse versioonile navigeerimine. | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Mõõtühiku ja ühikukoguse kasutamine varude töölehel. | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Luba tühjade partii atribuutide väärtused | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Varude üleviimistellimuse ridade reanumbrid suurenevad automaatselt. | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Varude töölehe kinnitamise töövoog | 9/1/2021 | 1/6/2020 | Vaikimisi sees | Varude ja laohaldus |
+| Luba varude kvaliteedihalduse parameetrite hoiatuse funktsioon | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Loo müügirealt üleviimistellimus | 9/1/2021 | 8/31/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Prognoosimudeli valimine nõudluse prognoosi üksikasjades | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Koondplaneerimine |
+| Koondplaneerimise edenemise visualiseerimine | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Koondplaneerimine |
+| Automaatkinnitamine planeerimise optimeerimiseks | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Koondplaneerimine |
+| Plaanitud tellimuste paralleelne kinnitamine | 9/1/2021 | 8/31/2019 | Vaikimisi sees | Koondplaneerimine |
+| Pakkumise esitamise edu sõnum | 9/1/2021 | 5/15/2019 | Vaikimisi sees | Hanked |
+| Ostutellimusele on lisatud pakkumiskutse viite link | 9/1/2021 | 8/31/2019 | Vaikimisi sees | Hanked |
+| Võimalus kinnitada hankijakoostööst aktsepteeritud ostutellimused partiina | 9/1/2021 | 9/10/2019 | Vaikimisi sees | Hanked |
+| cXML-i täiustuste ostmine | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Hanked |
+| Kuvage link &quot;Ava avaldatud hinnapäringud&quot; paanina | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Hanked |
+| Pakkumiskutse küsimused ja vastused | 9/1/2021 | 2/19/2020 | Vaikimisi sees | Hanked |
+| Toote ohtlike materjalide teave ja saatmisdokumentatsioon | 9/1/2021 | 6/14/2020 | Vaikimisi sees | Tooteteabe haldus |
+| Vaiketellimuse koguste range kinnitamine | 9/1/2021 | 6/24/2020 | Vaikimisi sees | Tooteteabe haldus |
+| Päritoluriigi haldamise funktsioon | 9/1/2021 | 7/13/2020 | Vaikimisi sees | Tooteteabe haldus |
+| Väljastatud toodete salvestatud vaated | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Tooteteabe haldus |
+| Täiustused dialoogides Kinnita ja Ülekandmistööd | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Tootmise juhtimine |
+| Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat | 9/1/2021 | 8/31/2019 | Vaikimisi sees | Tootmise juhtimine |
+| Töökaardi terminali lehele on lisatud uus nupp „Lõpeta vaheaeg”. | 9/1/2021 | 2/19/2020 | Vaikimisi sees | Tootmise juhtimine |
+| Lubage allhankelepingu alusel sõlmitud kaupade osaline vastuvõtmine ja parandage hankija tüüpi BOM-ridade praagi arvutamisega seotud probleem. | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Tootmise juhtimine |
+| Tootmisjuhtimise salvestatud vaated | 9/1/2021 | 8/17/2020 | Vaikimisi sees | Tootmise juhtimine |
+| Dynamics 365 Guides tootmise jaoks | 9/1/2021 | 7/13/2020 | Vaikimisi sees | Tootmise juhtimine |
+| Tootmisosakonna täideviimine | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Tootmise juhtimine |
+| Funktsioon töökaardi vahendi ja töökaardi terminali lukustamiseks, et neid saaks puhastada. | 9/1/2021 | 5/10/2020 | Vaikimisi sees | Tootmise juhtimine |
+| Tasude eraldamine müügitellimusel | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Müük ja turundus |
+| Postitamiseks valitavate müügitellimuste arvu piiramine | 9/1/2021 | 9/1/2021 | Vaikimisi sees | Müük ja turundus |
+| Müügitellimuse värskendamise ajaloo puhastamine | 9/1/2021 | 9/1/2021 | Vaikimisi sees | Müük ja turundus |
+| Muutke tsüklilise inventuuri töö numbriseeriat | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Laohaldus |
+| Toimingupõhine voonõude täiendamine | 9/1/2021 | 10/7/2019 | Kohustuslik | Laohaldus |
+| Peida summa väli lehtedel &quot;Kogu laadung&quot; ja &quot;Kooremi üksikasjad&quot; | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Laohaldus |
+| Voosildi printimine | 9/1/2021 | 2/19/2020 | Kohustuslik | Laohaldus |
+| Ostutellimuse varude kannete seostamine koormusega | 9/1/2021 | 1/6/2020 | Kohustuslik | Laohaldus |
+| Täiustatud litsentsiplaadi sildipaigutused | 9/1/2021 | 2/19/2020 | Vaikimisi sees | Laohaldus |
+| Organisatsiooniülene töö blokeerimine | 9/1/2021 | 2/19/2020 | Kohustuslik | Laohaldus |
+| Töörea üksikasjad | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Laohaldus |
+| Muuda mobiilse seadme varude liikumise varude oleku väli redigeeritavaks | 9/1/2021 | 10/16/2019 | Vaikimisi sees | Laohaldus |
+| Pakett-töös väljuvate saadetiste kinnitamine | 9/1/2021 | 7/13/2020 | Vaikimisi sees | Laohaldus |
+| Saate kontrollida, kas mobiilsetes seadmetes kuvatakse vastuvõtu kokkuvõttelehte | 9/1/2021 | 4/1/2020 | Vaikimisi sees | Laohaldus |
+| Viip mitmetähendusliku &#39;Loc / LP&#39; nimede lahendamiseks | 9/1/2021 | 4/1/2020 | Vaikimisi sees | Laohaldus |
+| Jäädvusta lao rakenduses koorma kaupade vastuvõtmise ajal tootevariandid ja jälgimisdimensioonid | 9/1/2021 | 5/10/2020 | Vaikimisi sees | Laohaldus |
+| Ärge lubage luua koormaid, mis ei vasta voo koormuse koostamismalli nõuetele. | 9/1/2021 | 8/17/2020 | Vaikimisi sees | Laohaldus |
+| Mitme SKU asukohakorralduste kõigi toimingute hindamine | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Laohaldus |
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
