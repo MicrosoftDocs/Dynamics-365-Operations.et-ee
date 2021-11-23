@@ -1084,7 +1084,7 @@
                           href: data-entities/dual-write/sites-warehouses-mapping.md
                     - name: Ettevõtte integratsioon
                       items:
-                        - name: Ettevõtte kontseptsioon Dataverseis
+                        - name: Ettevõtte kontseptsioon Dataverse'is
                           href: data-entities/dual-write/company-data.md
                         - name: Ettevõtte andmete lähtestamine
                           href: data-entities/dual-write/bootstrap-company-data.md
@@ -1172,6 +1172,8 @@
               items:
                 - name: Ärisündmuste ülevaade
                   href: business-events/home-page.md
+                - name: Ärisündmuse lõpp-punktide haldamine
+                  href: business-events/managing-business-event-endpoints.md
                 - name: Rakenduse ärisündmused
                   href: business-events/app-business-events.md
                 - name: Töövoo ärisündmused
@@ -1198,12 +1200,16 @@
                       href: business-events/how-to/how-to-eventgrid.md
                     - name: Ärisündmused ja Azure Service Bus
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: Ärisündmused ja Azure Service Busi järjekord
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: Ärisündmuste ja töövoogude kinnitused
                       href: business-events/how-to/how-to-workflow.md
                     - name: Ärisündmused ja Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
                     - name: Ärisündmused ja Azure'i sündmuste keskused
                       href: business-events/how-to/event-hub.md
+                    - name: Sündmuste kordustellimus Dataverse'is
+                      href: business-events/how-to/how-to-dataverse-events.md
                     - name: Ärisündmused finantsperioodi sulgemisel
                       href: business-events/how-to/period-close.md
             - name: Lisandmoodulid
@@ -1654,8 +1660,6 @@
                   items:
                     - name: Kontoplaani eraldaja kordumatuks muutmine
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Üksiku kande töölehtede ja valuuta ümberarvutamise täiendus
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Projekti ressursi plaanimise andmemudel
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Töövoo alamsüsteemi muudatused

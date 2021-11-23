@@ -708,48 +708,6 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: Lihtsa elektroonilise aruandluse eksporditava vormingu kutsumine Exceli aruande genereerimiseks
               href: general-ledger/electronic-messaging-example.md
-        - name: Kulude haldus
-          items:
-            - name: Kuluhalduse ülevaade
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: Uuendatud kuluaruanded
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: Kuluhalduse plaanimine
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: Kuluhalduse parameetrid
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: Kuluhalduse mobiilne tööruum
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: Kulude halduse töövoogude häälestamine
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: Kulude halduse töövoog
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: Kulude delegeerimise haldus
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: Kulusissetuleku töötlemine
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: Krediitkaardikannete importimine ja haldamine
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: Kuluaruande jaotused
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: Kontsernisisesed kulud
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: Kulupoliitikate määratlemine
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: Kuluaruande vaatamine
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: Kuluaruande sisestamine
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: Kuluaruanded ja mitu kinnitajat
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: Käibemaksu sissenõudmine kulude halduses
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: Päevaraha reeglid
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: Reisiplaanid
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: Isiklikud kulud kuluaruandes
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Põhivarad
           items:
             - name: Põhivarade avaleht
@@ -1248,9 +1206,7 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Häälestamine ja haldus
               items:
-                - name: Finance Insightsi konfigureerimine avaliku eelversiooni jaoks
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: Finance Insightsi konfigureerimine privaatse eelversiooni jaoks
+                - name: Finance Insightsi konfigureerimine
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Kliendimaksete prognoosimise lubamine
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: Finance Insightsi tõrkeotsingu KKK
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: Projektihaldus ja -arvestus
-          items:
-            - name: Projektihalduse ja -arvestuse ülevaade
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: Kontsernisisene arveldamine
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: Kontsernisisese projekti arveldamise konfigureerimine
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: Tööjõu ja kulude standardsete kulude konfigureerimine
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: Hankija makse kinnipidamise tingimuste loomine ja rakendamine
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: Maksame-kui-meile makstakse hankijamaksete seadistamine ja kasutamine
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: Lisandunud projektikulud ostutarnete loenditest
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: Projekti arveldamine
-              href: accounts-payable/project-invoicing.md
-            - name: Projektilepingud
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: Valmidusastmelisusel põhineva arveldamise täpsemate lepingute koostamine
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: Projekti prognoosid ja eelarved
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: Eelarvemudelite loomine projektieelarvete jaoks
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: Projekti eelarvete ülekandmine finantsaasta lõpus
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: Projekti müügitellimused
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: Projekti ostutellimused
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: Projektipakkumised
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: 'Projektipakkumise kinnitamine, värskendamine ja saatmine'
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: Pakkumise ülekandmine projekti
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: Projekti ressursid
-              items:
-                - name: Projekti ressursside ülevaade
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: Projekti ressursside häälestamine
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: Ressursi kompetentside haldamine
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: Uue projekti loomine
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: Rollipõhise hinnakujunduse häälestamine
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: Projektimeeskonna koostamine
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: Ressursi võimsuse sünkroonimine
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: Projekti ressursside plaanimise jõudlus
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: Tööjaotuse struktuuri mallide rollide häälestamine
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: Ressursi täitmine plaanitud ressursside puhul
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: Ostutellimusel olevate kaupade kaubavajadusest vastuvõtmine
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: Tööjaotuse struktuurid
-              items:
-                - name: Tööjaotuse struktuuride ülevaade
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: Microsoft Project Clienti integreerimine
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: Projecti mobiilirakenduste ülevaade
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: Mobiilse tööruumi projekti ajakirje
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: Project Timesheeti mobiilirakendus
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: Projekti ajatabelid mobiilses seadmes
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: Kohandatud väljade juurutamine projekti ajatabeli mobiilirakenduses
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: Projekti hüvitised
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: Projekti hinnangu eemaldamine
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Avalik sektor
           items:
             - name: Avaliku sektori avaleht
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e parameetrite seadistamine maksuameti jaoks
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NF-e XML-failide teisaldamine manustena
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 – paigutuse ja kinnitamise uuendused elektroonilises fiskaaldokumendis (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – vahendaja müügi digitaalne platvorm NF-e jaoks
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Kannete kuvamine tasakaalustamisel
                   href: localizations/emea-transactions-settlement-form.md
+                - name: Finantspõhjus
+                  href: localizations/emea-financial-reason.md
             - name: Soome
               items:
                 - name: Soome ülevaade
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Pangaandmete kasutatavuse täiendus
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Itaalia Intrastat
-                  href: localizations/emea-ita-intrastat.md
-                - name: Saabumiste ja lähetuste sisestamine Intrastati jaoks
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: Intrastat
+                  items:
+                    - name: Itaalia Intrastat
+                      href: localizations/emea-ita-intrastat.md
+                    - name: Saabumiste ja lähetuste sisestamine Intrastati jaoks
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: Intrastati (IT) failivorming
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: Mitmesugused tasud kilogrammi kohta Intrastati deklaratsioonis
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Eellepingud – arvete esitamine tavalistele eksportijatele
@@ -3110,6 +2992,8 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: Käibemaksuaruanded
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: Poola Intrastat
+                  href: localizations/emea-pol-intrastat.md
                 - name: Numbriseeriate häälestamine lao järgi
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Standardne auditifail
@@ -4037,7 +3921,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
                         - name: NullContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
-                    - name: Tekst
+                    - name: Text
                       items:
                         - name: Tekstifunktsioonid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Suhteline tee andmesidemetes
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: 'Avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: ER-lahenduste kasutamine Finance'is
               items:
                 - name: Raamistiku konfigureerimine

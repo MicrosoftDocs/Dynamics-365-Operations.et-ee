@@ -1272,7 +1272,7 @@
               href: store-performance-information.md
             - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi häälestus'
               href: set-up-rfm-analysis.md
-            - name: Microsoft Clarity seadistamine Dynamics 365 Commerce'is
+            - name: Microsoft Clarity seadistamine Dynamics 36 Commerce'is
               href: set-up-clarity.md
         - name: Globaliseerimine
           items:
@@ -1708,7 +1708,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/commerce/toc.json
                         - name: NullContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
-                    - name: Tekst
+                    - name: Text
                       items:
                         - name: Tekstifunktsioonid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
@@ -2538,6 +2538,8 @@
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: Retail SDK
               items:
+                - name: Commerce SDK-sse migreerimine
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: Retail SDK arhitektuur
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Sõltumatu pakendamise SDK järgukonveieri häälestamine

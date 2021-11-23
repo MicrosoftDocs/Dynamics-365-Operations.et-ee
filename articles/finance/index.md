@@ -2,7 +2,7 @@
 title: Finance'i avaleht
 description: Selles teemas on teenuse Microsoft Dynamics 365 Finance finantshalduse funktsioonide spikriteemade ja muude ressursside loend.
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394559"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753717"
 ---
 # <a name="finance-home-page"></a>Finance'i avaleht
 
@@ -41,12 +41,10 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
         - [Kuluarvestus](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Kulude haldus](/dynamics365/project-operations/prod-exp/expense-management)
         - [Finantsaruandlus](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Põhivarad](fixed-assets/fixed-assets.md)
-        - [Finance'i ülevaated](finance-insights/finance-insights-home-page.md)
+        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Pearaamat ja finantsaruandlus](general-ledger/general-ledger.md) 
-        - [Projektihaldus ja -arvestus](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Avalik sektor](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 
 ### <a name="countryregion-functionality"></a>Riigi/regiooni funktsionaalsus
 
-Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi. Vt spikri jaotist [Lokaliseerimine ja regulatiivsed funktsioonid](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json), et saada lisateavet riigi-/regioonipõhise funktsionaalsuse kohta.
+Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi. Lisateabe saamiseks riigi-/regioonipõhise funktsionaalsuse kohta, vt [Lokaliseerimine ja regulatiivsed funktsioonid](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>Lisasisu
 
-Supply Chain Managementi funktsioonid sisaldavad protsessi Procure-to-Pay osi, mis hõlmavad teie organisatsiooni ostetavate kaupade ja teenuste taotlemist, tellimist, vastuvõtmist, arveldamist ja nende eest maksmist. Teavet ostude, varude ja tootmise haldamise funktsioonide kohta leiate [Supply Chain Managementi avalehelt](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
+Supply Chain Managementi funktsioonid katavad protsessi procure-to-pay osi, mis hõlmab järgnevat:
+
+   - Ostutellimus
+   - Tellimus 
+   - Vastuvõtmine
+   - Arve koostamine
+   - Teie organisatsiooni ostetud kaupade ja teenuste eest tasumine 
+    
+Teavet ostude, varude ja tootmise haldamise funktsioonide kohta leiate [Supply Chain Managementi avalehelt](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>E-õppe kursused
 
