@@ -1,8 +1,8 @@
 ---
 title: Uute tööde määratlemine
 description: See ülesanne keskendub uue töö loomisele.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 088f49d7887616300b4a9ea07f91598d65afbf6899e678b2c5c51797b4966ef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770452"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771362"
 ---
 # <a name="define-new-jobs"></a>Uute tööde määratlemine
 
@@ -28,48 +28,54 @@ ms.locfileid: "6770452"
 
 See ülesanne keskendub uue töö loomisele. See lõpetatakse käsitsi sisestamisega ja kopeerimisega malli funktsioonist. Selle tegevuse loomisel kasutati demoettevõtte USMF-i andmeid. See ülesanne on mõeldud inimressursside spetsialistile.
 
-1. Avage Personaliarvestus > Tööd > Tööd.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Töö.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige töö puhul kasutatav standardpealkiri. 
-    * Sisestatud pealkirja kasutatakse tööle määratud uute ametikohtade puhul vaikeväärtusena.  
+1. Avage inimressursside **tööde \>\> töö**.
+2. Valige suvand **Uus**.
+3. Sisestage **·** väärtus väljale Töö.
+4. Sisestage väärtus väljal **Kirjeldus**.
+5. Valige töö puhul kasutatav standardpealkiri.
+
+    Seda ametinimetust kasutatakse vaikeväärtusna uutele ametitele, mis on tööle määratud.
+
 6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake loendis valitud real olevat linki.
-8. Valige grupis Ametikohtade maksimaalne arv suvand Maksimaalne ametikohtade arv
+7. Valige loendis link valitud reas.
+8. Valige **jaotises Maksimaalne ametikohtade** arv väärtus **Maksimaalne** positsioon.
 9. Sisestage ametikohtade maksimaalne arv. 
-    * Ametikoha määranguid ei lubata siia sisestatud maksimumväärtusest rohkem.  
-10. Lülitage jaotise Kirjeldus laiendamist.
-11. Sisestage töö standardkirjeldus väljale Märkus.
-    * Kirjeldus kehtib kõigi siin määratletud tööle määratud ametikohtade kohta.  
-12. Lülitage jaotise Töö klassifikatsioon laiendamist.
-13. Valige tööfunktsioon, mida kasutatakse inimressurssides standardaruandluses.
-14. Otsige loendist ja valige soovitud kirje.
-15. Klõpsake loendis valitud real olevat linki.
-16. Valige teie organisatsiooni tööde edasiseks klassifitseerimiseks töö tüüp. 
-    * Töö tüüpe saab kasutada aruandluseks kogu inimressurssides.  
-17. Otsige loendist ja valige soovitud kirje.
-18. Klõpsake loendis valitud real olevat linki.
-19. Lülitage jaotise Lisatasu laiendamist.
-20. Valige lisatasu tase.
-    * Lisatasu tase määratleb miinimum- ja maksimumlisatasu, mis võib töötajal töö puhul olla. Lisatasu reeglid määravad, kas töötaja lisatasu võib olla väljaspool vahemikku.  
-21. Otsige loendist ja valige soovitud kirje.
-22. Klõpsake loendis valitud real olevat linki.
-23. Lülitage jaotise Oskused laiendamist.
-    * Pange tähele, et kiirvahekaartide Oskused, Haridus ja Tunnistused väljad on tühjad. Pärast teabe kopeerimist ametijuhendist sisestatakse teave nendel väljadel ühe etapina.   
-24. Klõpsake nuppu Salvesta.
-25. Klõpsake suvandit Kopeeri.
-26. Klõpsake suvandit Kopeeri mallist.
-27. Klõpsake väljal Töömall otsingu avamiseks ripploendi nuppu.
-28. Otsige loendist ja valige soovitud kirje.
-29. Klõpsake loendis valitud real olevat linki.
-30. Klõpsake suvandit Märkus.
-    * Valitud töösse kopeeritakse ainult need kaubad, mille valite.    
-31. Klõpsake nuppu OK.
-32. Lülitage jaotise Tunnistused laiendamist.
-33. Lülitage jaotise Haridus laiendamist.
-34. Klõpsake nuppu Salvesta.
 
+    Seda arvu ületavaid positsioonimääranguid ei lubata.
 
+10. Sisestage **·** jaotise Kirjeldus väljale Märkus **töö** **standardne** kirjeldus.
+
+    See kirjeldus rakendub kõigile ametikohtadele, mis on määratud töösse, mida määratlete.
+
+11. Jaotises **Töö** klassifikatsioon valige töö funktsioon, mida kasutatakse inimressursside standardaruandluses.
+12. Otsige loendist ja valige soovitud kirje.
+13. Valige loendis link valitud reas.
+14. Väljal **Töö tüüp** valige töö tüüp, et töid teie organisatsioonis veelgi liigitada.
+
+    Töö tüüpe saab kasutada aruandluseks kogu inimressurssides.
+
+15. Otsige loendist ja valige soovitud kirje.
+16. Valige loendis link valitud reas.
+17. Jaotises **·** Tasu valige hüvituse tase.
+
+    Hüvituse tase määratleb miinimum- ja maksimumtasu, mis töötajal selle töö jaoks võib olla. Kompensatsiooni reeglid määratlevad, kas töötajate tasud võivad olla vahemikust väljaspool.
+
+18. Otsige loendist ja valige soovitud kirje.
+19. Valige loendis link valitud reas.
+20. Jaotises **·** Oskused pange tähele, et kiirkaardid **·** **·** Oskused, Haridus **ja** Tunnistused on tühjad. Pärast teabe kopeerimist ametimallilt sisestatakse teave nendele väljadele ühe sammuna.
+21. Valige käsk **Salvesta**.
+22. Valige **kopeerimise** asukohast.
+23. Valige **kopeerimismallist.**
+24. Otsingu **·** avamiseks valige väljal Ametimall rippnool.
+25. Otsige loendist ja valige soovitud kirje.
+26. Valige loendis link valitud reas.
+27. Valige **·** märkus.
+
+    Valitud tööle kopeeritakse ainult teie valitud kaubad.
+
+28. Valige nupp **OK**.
+29. Laiendage **jaotist** Tunnistused.
+30. Laiendage **jaotist** Haridus.
+31. Valige käsk **Salvesta**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

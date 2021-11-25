@@ -5,17 +5,17 @@ author: RamaKrishnamoorthy
 ms.date: 11/11/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 4a2420981553957b6b234fe56747bc6f3568acf6b8ad77366c33caeae63b4faf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ab251ee60bf3c831b0139beb9557c6b3faaf9f66
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716755"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783279"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Hanke integreerimine teenuste Supply Chain Management ja Field Service vahel
 
@@ -124,7 +124,7 @@ Lisaks sisaldab Dataverse loogikat, mis vastendab hankijaid seotud kontodega. Se
 - Kui ostutellimust juhitakse Supply Chain Managementi muudatuse haldusega, saab Field Service’i kasutaja ostutellimust värskendada ainult siis, kui Supply Chain Managementi kinnituse olekuks on *Mustand*.
 - Mitut veergu haldab ainult Supply Chain Management ja neid ei saa Field Service’is uuendada. Et teada saada, milliseid veerge ei saa värskendada, vaadake toote vastendamise tabelit. Lihtsustamise huvides on enamik neist veergudest Dataverse’i lehtedel määratud kirjutuskaitstuks. 
 
-    Näiteks haldab Supply Chain Management hinnateabe veerge. Supply Chain Managementil on kaubanduslepped, mida Field Service saab kasutada. veerud, nagu **Ühiku hind**, **Allahindlus** ja **Netosumma**, tulevad ainult Supply Chain Managementist. Kindlustamaks, et hind oleks teenusega Field Service sünkroonitud, peaksite kasutama Dataverse’is **ostutellimuse** ja **ostutellimuse toote** lehtedel **sünkroonimise** funktsiooni, kui ostutellimuse andmed on sisestatud. Lisateavet vt [Nõudmisel Dynamics 365 Supply Chain Managementi hankeandmetega sünkroonimine](#sync-procurement).
+    Näiteks haldab Supply Chain Management hinnateabe veerge. Supply Chain Managementil on kaubanduslepped, mida Field Service saab kasutada. veerud, nagu **Ühiku hind**, **Allahindlus** ja **Netosumma**, tulevad ainult Supply Chain Managementist. Kindlustamaks, et hind oleks teenusega Field Service sünkroonitud, peaksite kasutama Dataverse’is **ostutellimuse** ja **ostutellimuse toote** lehtedel **sünkroonimise** funktsiooni, kui ostutellimuse andmed on sisestatud. Lisateavet vt [Nõudmisel Dynamics 365 Supply Chain Management i hankeandmetega sünkroonimine](#sync-procurement).
 
 - Veerg **Kogusummad** on saadaval ainult teenuses Field Service, kuna Supply Chain Managementis pole ostutellimusel ajavälist kogusummat. Supply Chain Managementi kogusummad arvutatakse mitme parameetri põhjal, mis pole Field Service’i puhul saadaval.
 - Ostutellimuse ridu, kus on määratud ainult hankekategooria või kus määratud toode on teenuse tootetüübi *Teenus* või tootetüübi Field Service kaup, saab käivitada ainult Supply Chain Managementis. Seejärel sünkroonitakse read Dataverse’i ja need on Field Service’is nähtavad.
@@ -165,7 +165,7 @@ Olekuveergudele rakendatakse järgmisi reegleid.
 - Kui Supply Chain Managementis muudetakse dokumendi päise olekuks *Tühistatud* ja ühtegi välja Field Service’i ostutellimuste vastuvõtmise toodet ei seostata ostutellimusega (ostutellimuse toodete kaudu), on Field Service’i süsteemi olekuks seatud *Tühistatud*.
 - Kui ostutellimuse rea olek Supply Chain Managementis on *Tühistatud*, seatakse ostutellimuse toote oleku Field Service’is olekule *Tühistatud*. Kui lisaks ostutellimuse rea olek Supply Chain Managementis muudetakse olekust *Tühistatud* olekule *Tagasitellimus*, on ostutellimuse toote kauba olekuks Field Service’is *Ootel*.
 
-## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Supply Chain Managementi hankeandmetega nõudmisel sünkroonimine
+## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a> Supply Chain Managementi hankeandmetega nõudmisel sünkroonimine
 
 Supply Chain Management hõlmab hankeandmeid, mis töötlevad kaubandusleppeid, allahindlusi ja muid stsenaariume, mis toetuvad Supply Chain Managementi teisestele protsessidele. Hankemootor kasutab keerukaid reegleid antud ostutellimusele parima hinna määramiseks. Kui kasutate topeltkirjutust, ei hoita neid andmeid alati sünkroonis kahe keskkonna vahel, eriti stsenaariumides, kus rida loodi või uuendati Dataverse’is ja see võib käivitada Supply Chain Managementis järelprotsessid.
 
@@ -194,10 +194,10 @@ Järgmised mallid on saadaval hankega seotud dokumentidega integreerimiseks.
 
 | Supply Chain Management | Field Service | Kirjeldus |
 |---|---|---|
-| [Ostutellimuse päis V2](mapping-reference.md#183) | msdyn\_Purchaseorders | See tabel sisaldab veerge, mis tähistavad ostutellimuse päist. |
-| [Ostutellimuse rea üksus](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | See tabel sisaldab ridu, mis tähistavad ostutellimuse ridu. Tootenumbrit kasutatakse sünkroonimiseks. See tuvastab toote varude arvestusühikuna (SKU), sh tootedimensioonid. Lisateavet toote Dataverse ’iga integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md). |
-| [Toote sissetuleku päis](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | See tabel sisaldab toote sissetuleku päiseid, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
-| [Toote sissetuleku rida](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | See tabel sisaldab toote sissetuleku ridu, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
-| [Ostutellimuse rea ajutiselt kustutatud üksus](mapping-reference.md#182) | msdyn\_purchaseorderproducts | See tabel sisaldab teavet ajutiselt kustutatud ostutellimuste ridade kohta. Ostutellimuse rea saab Supply Chain Managementis ajutiselt kustutada ainult siis, kui ostutellimus on kinnitatud või vastu võetud, kui muutuse haldamine on sisse lülitatud. Rida on Supply Chain Managementi andmebaasis olemas ja märgitud kui **IsDeleted**. Kuna Dataverse ei oma ajutiselt kustutamise kontseptsiooni, siis on oluline, et see teave oleks Dataverse’iga sünkroonitud. Sel viisil saab Supply Chain Managementis ajutiselt kustutatud read automaatselt Dataverse’ist kustutada. Sel juhul asub Dataverse’i rea kustutamise loogika Supply Chain Managementi laiendatud versioonis. |
+| [Ostutellimuse päis V2](mapping-reference.md#183) | msdyn\_ Purchaseorders | See tabel sisaldab veerge, mis tähistavad ostutellimuse päist. |
+| [Ostutellimuse rea üksus](mapping-reference.md#181) | msdyn\_ PurchaseOrderProducts | See tabel sisaldab ridu, mis tähistavad ostutellimuse ridu. Tootenumbrit kasutatakse sünkroonimiseks. See tuvastab toote varude arvestusühikuna (SKU), sh tootedimensioonid. Lisateavet toote Dataverse ’iga integreerimise kohta vt [Ühendatud toote kasutusfunktsionaalsus](product-mapping.md). |
+| [Toote sissetuleku päis](mapping-reference.md#185) | msdyn\_ purchaseorderreceipts | See tabel sisaldab toote sissetuleku päiseid, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
+| [Toote sissetuleku rida](mapping-reference.md#184) | msdyn\_ purchaseorderreceiptproducts | See tabel sisaldab toote sissetuleku ridu, mis luuakse toote sissetuleku sisestamisel Supply Chain Managementis. |
+| [Ostutellimuse rea ajutiselt kustutatud üksus](mapping-reference.md#182) | msdyn\_ purchaseorderproducts | See tabel sisaldab teavet ajutiselt kustutatud ostutellimuste ridade kohta. Ostutellimuse rea saab Supply Chain Managementis ajutiselt kustutada ainult siis, kui ostutellimus on kinnitatud või vastu võetud, kui muutuse haldamine on sisse lülitatud. Rida on Supply Chain Managementi andmebaasis olemas ja märgitud kui **IsDeleted**. Kuna Dataverse ei oma ajutiselt kustutamise kontseptsiooni, siis on oluline, et see teave oleks Dataverse’iga sünkroonitud. Sel viisil saab Supply Chain Managementis ajutiselt kustutatud read automaatselt Dataverse’ist kustutada. Sel juhul asub Dataverse’i rea kustutamise loogika Supply Chain Managementi laiendatud versioonis. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

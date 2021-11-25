@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570173"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790862"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Tootmisosakonna käivitusliidese kujundamine
 
@@ -53,13 +53,13 @@ Uue vahekaardi loomiseks ja konfigureerimiseks toimige järgmiselt.
 
 1. Määrake lehe päises järgmised sätted.
 
-    - **Vahekaardi nimi** – määrake vahekaardi nimi.
-    - **Põhivaade** – valige üks kahest eelnevalt määratletud tööloendist (*Aktiivsed tööd*, *Kõik tööd* või *Minu masin*).
-    - **Üksikasjalik vaade** – valige tühi väärtus või **töö üksikasjad**. Kui valite tühja väärtuse, ei ole vahekaardil ühtegi üksikasjalikku vaadet. Kui valite **töö üksikasjad**, sisaldab üksikasjalik vaade põhivaates tööde loendis valitud töö üksikasjalikku kirjeldust.
+    - **Vahekaardi** nimi: määrake vahekaardi nimi.
+    - **Põhivaade** – valige eelmääratletud tööde loendite hulgast *(Aktiivsed* tööd, Kõik tööd ja Minu *·* *·* masin).
+    - **Üksikasjade** vaade: valige tühja väärtuse või töö **üksikasjade** vahel. Kui valite tühja väärtuse, ei ole vahekaardil ühtegi üksikasjalikku vaadet. Kui valite **töö üksikasjad**, sisaldab üksikasjalik vaade põhivaates tööde loendis valitud töö üksikasjalikku kirjeldust.
 
 1. Valige jaotises **Põhitööriistariba** nupud, mis peaksid põhitööriistaribal olema. Veerus **Saadaolevad toimingud** kuvatakse loend kõigist nuppudest, mida saab lisada. Veerg **Valitud tegevused** näitab kõigi praegusse konfiguratsiooni kaasatud nuppude loendit. Kasutage nuppe veergude vahel, et teisaldada valitud üksused veergude vahel vastavalt vajadusele. Kasutage veeru **Valitud toimingud** kõrval üles- ja allanuppe, et kontrollida, millises järjekorras on nupud kasutajaliideses esitatud.
 
-1. Valige jaotises **Lisa** **tööriistariba** nupud, mis peaksid lisatööriistaribal olema. Veerus **Saadaolevad toimingud** kuvatakse loend kõigist nuppudest, mida saab lisada. Veerg **Valitud tegevused** näitab kõigi praegusse konfiguratsiooni kaasatud nuppude loendit. Kasutage nuppe veergude vahel, et teisaldada valitud üksused veergude vahel vastavalt vajadusele. Kasutage veeru **Valitud toimingud** kõrval üles- ja allanuppe, et kontrollida, millises järjekorras on nupud kasutajaliideses esitatud.
+1. Valige jaotises **Teisene** tööriistariba, millised nupud peaksid teiseses tööriistaribas saadaval olema. Veerus **Saadaolevad toimingud** kuvatakse loend kõigist nuppudest, mida saab lisada. Veerg **Valitud tegevused** näitab kõigi praegusse konfiguratsiooni kaasatud nuppude loendit. Kasutage nuppe veergude vahel, et teisaldada valitud üksused veergude vahel vastavalt vajadusele. Kasutage veeru **Valitud toimingud** kõrval üles- ja allanuppe, et kontrollida, millises järjekorras on nupud kasutajaliideses esitatud.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Vahekaardi seostamine konfiguratsiooniga
 

@@ -1,7 +1,7 @@
 ---
 title: Sihtotstarbelised makseterminalid ja printeri ja sularahasahtli viibad
 description: See teema annab teavet sihtotstarbelise makseterminali omamise võimaluse kohta ja palub kasutajal valida sularahasahtli ja kviitungiprinteri.
-author: rubendel
+author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0611e90e47eabf0cb96208690acda22651d669ae812d2af2547a294c32ed0a1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764533"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779766"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Sihtotstarbelised makseterminalid ja printeri ja sularahasahtli viibad
 
@@ -40,13 +40,13 @@ Microsoft Dynamics 365 Commerce toetab nimetatud suundumusi, võimaldades kasuta
 |---|---|
 | Registreerimine | Üksus, mida kasutatakse kassaaparaadi eksemplari konfigureerimiseks. |
 | Seade | Kassaaparaadi füüsilise eksemplari ja sellele määratud rakenduse Modern POS kujutis. |
-| Sihtotstarbeline riistvarajaam | Riistvarajaama äriloogika, mis on integreeritud rakendustesse Modern POS Windowsile ja Modern POS Androidile. |
+| Sihtotstarbeline riistvarajaam | Riistvarajaama äriloogika, mis on integreeritud rakendustesse Modern POS Windowsile ja Modern POS Android ile. |
 | Sahtli avamise (d/k) port | Tavaline meetod sularahasahtli ühendamiseks kviitungiprinteriga. |
 | Võrgu välisseadmed | Võrgutoega makseterminalide, kviitungiprinterite ja sularahasahtlite sisseehitatud tugi. |
 
 ## <a name="supported-pos-clients-and-devices"></a>Toetatud kassa kliendid ja seadmed
 
-Selles teemas kirjeldatud funktsionaalsust toetavad kassa klientidele mõeldud rakendused Modern POS Windowsile ja Modern POS Androidile.
+Selles teemas kirjeldatud funktsionaalsust toetavad kassa klientidele mõeldud rakendused Modern POS Windowsile ja Modern POS Android ile.
 
 See funktsionaalsus toetab võrgutoega makseterminale ja kviitungiprintereid. Te võite pakkuda ka sularasahtli tuge, ühendades sularahasahtli d/k pordi kaudu võrgutoega kviitungiprinteriga.
 
@@ -82,7 +82,7 @@ Kassale määratud riistvaraprofiili seadistamiseks toimige järgmiselt.
 
 5. Leidke rakenduses Dynamics 365 Commerce suvand **Kassad**.
 6. Valige kassanumbri järgi kassa ning seejärel **Redigeeri**.
-7. Määrake kassale, mis peaks kasutama sihtotstarbelist makseterminali, äsja loodud riistvaraprofiil. Kassale vastendatud seade peab kasutama rakendust Modern POS Windowsile või rakendust Modern POS Androidile.
+7. Määrake kassale, mis peaks kasutama sihtotstarbelist makseterminali, äsja loodud riistvaraprofiil. Kassale vastendatud seade peab kasutama rakendust Modern POS Windowsile või rakendust Modern POS Android ile.
 8. Valige käsk **Salvesta**.
 9. Toimingupaanil vahekaardil **Kassad** valige suvand **Konfigureeri IP-aadressid**.
 10. Sisestage kiirkaardil **PIN-klahvistik** makseterminali IP-aadress. Lisateavet selle kohta, kuidas saada Adyen konnektori abil makseterminali IP-aadress, vt teemast [Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md?tabs=8-1-3).
@@ -148,7 +148,7 @@ Kaupluse töötajad peavad valima riistvarajaama tehingu jooksul vaid ühe korra
 
 ## <a name="related-articles"></a>Seotud artiklid
 
-- [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](./dev-itpro/hybridapp.md)
+- [Rakenduse POS Hybrid seadistamine Android is ja iOS-is](./dev-itpro/hybridapp.md)
 - [Dynamics 365 maksekonnektor Adyeni jaoks](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 - [Võrgu välistoe ülevaade](./dev-itpro/network-peripherals.md)
 

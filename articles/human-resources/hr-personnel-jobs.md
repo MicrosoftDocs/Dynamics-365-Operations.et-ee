@@ -1,26 +1,26 @@
 ---
 title: Töö komponentide seadistamine
-description: See artikkel kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada.
-author: andreabichsel
-ms.date: 06/24/2021
+description: See teema kirjeldab töö võimalikke põhielemente ja toob näiteid, kuidas saate neid elemente oma organisatsioonis kasutada.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754772"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731536"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Töö komponentide seadistamine
 
@@ -60,7 +60,7 @@ Tööfunktsioonid kirjeldavad kõrgetasemelisi funktsioonikategooriaid ja seotud
 Tööfunktsioone saate hallata lehel **Tööfunktsioonid**. Sisestage lehel **Tööfunktsioonid** tööfunktsiooni ID-kood ja lühikirjeldus.
 
 ## <a name="compensation"></a>Hüvitus
-Fikseeritud tasuplaani määramiseks töötajale, kellel on töö positsioon, peate tööle seadistama hüvitustasemed. Hüvitustaset kasutatakse siis, kui miinimum-, keskpunkti- ja maksimumsummad on seadistatud tasustruktuuris (tasuruudustik). Kui põhitasu plaan on loodud, valitakse tasustruktuur. Tasustruktuur hõlmab ka hüvitustaset. Kui valite töötajale fikseeritud tasuplaani, sõltuvad valimiseks saadaolevad tasutasemed tööst, millega töötaja ametikoht on seotud. Lisateavet kompensatsiooni seadmise kohta leiate artiklist [Kompensatsiooniplaanid](hr-compensation-overview.md).
+Fikseeritud tasuplaani määramiseks töötajale, kellel on töö positsioon, peate tööle seadistama hüvitustasemed. Hüvituse **taset** kasutatakse siis, kui miinimum-, keskpunkti- ja maksimumsummad on seadistatud tasustruktuuris (tasuruudustik). Kui põhitasu plaan on loodud, valitakse tasustruktuur. Tasustruktuur hõlmab ka hüvitustaset. Kui valite töötajale fikseeritud tasuplaani, sõltuvad valimiseks saadaolevad tasutasemed tööst, millega töötaja ametikoht on seotud. Lisateavet kompensatsiooni seadmise kohta leiate artiklist [Kompensatsiooniplaanid](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Töö oskused
 Tööoskused kirjeldavad oskusi, mis on vajalikud töö sooritamiseks. Oskuste tase tuleb seostada iga tööoskusega. Oskuste tasemed on kasutaja määratud. Need näitavad oskusele vajaliku teadmiste või oskustaseme taset. Näiteks võivad ettevõtted seadistada numbrilisi tasemeid, nt 1–5, kus **1** näitab algajat ja **5** näitab spetsialisti. Teise võimalusena võivad ettevõtted seadistada tasemed, mille sildiks on **Algaja**, **Edasijõudnu** või **Ekspert**. Pärast oskuste taseme seadmist saab seada ka oskuse tähtsuse. Näiteks kui raamatupidaja peab omama tugevaidd teadmisi, saab Microsoft Excel`is luua oskuse, mille nimi on **Exceli oskus**. Seejärel saab oskuste tasemeks seada **Edasijõudnu** ja selle tähtsus seada väärtusele **Enamik**.

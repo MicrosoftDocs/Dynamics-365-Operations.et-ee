@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574541"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752828"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Seadme häälestamine tootmisosakonna käivitusliidese käitamiseks
 
@@ -28,9 +28,9 @@ Tootmisosakonna käivitusliides seadistakse iga tootmisosakonnas oleva seadme ja
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Kindla seadme konfiguratsiooni ja filtrite häälestamine
 
-Seadme konfiguratsiooni ja tööfiltrite seadistamiseks logige sisse lehele **Tootmisosakonna käivitus**, kasutades kontot, millel on turberolli, mis sisaldab kohustust *Ajahalduse järelevaataja*. (Valmislahenduse turberollide seast on see kohustus ainult *Tööde järelevaatajal*.) Seejärel toimige järgmiselt.
+Seadme konfiguratsiooni ja töö filtrite seadistamiseks logige sisse tootmise juhtimise lehele, kasutades kontot, mil on turberoll, mis sisaldab **·** aja järelevalve kohustuse *·* säilitamist. (Valmislahenduse turberollide seast on see kohustus ainult *Tööde järelevaatajal*.) Seejärel toimige järgmiselt.
 
-1. Minge seadme juurde, mida soovite häälestada, ja logige tööde juhatajana sisse Microsoft Dynamics 365 Supply Chain Managementi. (Kasutage kontot, mis sisaldab kohustust *Ajahalduse järelevaataja*.)
+1. Minge seadme juurde, mida soovite häälestada, ja logige tööde juhatajana sisse Microsoft Dynamics 365 Supply Chain Management i. (Kasuta kontot, mis sisaldab kontot *Aja* järelevalvekohustuse hooldamine.)
 1. Veenduge, et konfiguratsioon oleks saadaval seadmele, mida seadistate. Kui konfiguratsioon pole olemas, pakutakse vaikekonfiguratsiooni. Lisateavet konfiguratsiooni seadistamise kohta leiate teemast [Tootmisosakonna käivitusliidese konfigureerimine](production-floor-execution-configure.md).
 1. Avage **Tootmise juhtimine \> Tootmise käivitamine \> Tootmisosakonna käivitus**.
 

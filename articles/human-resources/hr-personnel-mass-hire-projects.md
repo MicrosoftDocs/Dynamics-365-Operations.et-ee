@@ -1,8 +1,8 @@
 ---
 title: Hulgivärbamisprojektid
-description: Hulgivärbamisprojektid võimaldavad inimressursside spetsialistidel luua mitu ametikohta ja palgata tõhusalt neile ametikohtadele töötajaid.
-author: andreabichsel
-ms.date: 06/20/2017
+description: See teema kirjeldab hulgi palkamise projekte, mis võimaldavad inimressursside spetsialistitel luua mitmeid ametikohti ja tõhusalt töötajaid nendele ametikohtadele palgata.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e6c2addcf3f43c843692013489afcc1912b9baac1dbdfa6b4d4a1afc4398cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6e0a8bba2227136995542d08f4b3f1e9d6d48ad5
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754797"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728652"
 ---
 # <a name="mass-hire-projects"></a>Hulgivärbamisprojektid
 
@@ -43,19 +43,19 @@ Kui võtate korraga tööle mitu töötajat, nt hooajatöö puhul, kasutage hulg
 
 Suviti palkate tavaliselt ettevõtte pakutavate praktikakohtade täitmiseks 15–20 osalise tööajaga üliõpilast. Sel aastal soovite palgata viis raamatupidajat, viis tellimuse töötlejat ja viis kassapidajat. Selle asemel, et luua iga ametikoha ja töötaja kirje eraldi, saate luua ühe hulgivärbamisprojekti nimega „Suvepraktikandid”. Projekti algus- ja lõppkuupäev korreleeruvad hulgivärbamisprojektis loodud ametikohtade algus- ja lõppkuupäevadega.
 
-Valige lehel **Hulgivärbamisprojektid** projekt „Suvepraktikandid” ja seejärel klõpsake käsku **Ava projekt**. Avatud hulgivärbamisprojektis klõpsake valikut **Ametikohtade loomine** ja sisestage teave raamatupidaja ametikoha kohta. Näidake, viie raamatupidaja ametikoha loomiseks kasutatakse sama teavet, ning seejärel klõpsake nuppu OK. Korrake seda toimingut tellimuse töötleja ja kassapidaja ametikohtade puhul.
+Hulgi **palkamise projektide** lehel valige **Projekt SummerInterns** ja seejärel valige Avatud **projekt**. Avatud hulgi palkamise projektis valige **Käsk Loo** ametikohad ja sisestage teave raamatupidaja ametikoha kohta. Saate näidata, et luua tuleks viis raamatupidaja ametikohta ja sama teavet tuleks kasutada iga konto puhul. Seejärel valige **OK**. Korrake seda toimingut tellimuse töötleja ja kassapidaja ametikohtade puhul.
 
-Pärast üliõpilaste valimist praktikakohtadele saate iga tudengi kohta sisestada jaotises **Ametikoha üksikasjad** teabe, millisele ametikohale te nad palkasite. Kui olete kõik ametikoha üksikasjad sisestanud, valige lehel Hulgivärbamisprojektid ametikoht ja seejärel klõpsake valikut **Palka**. Igale ametikohale luuakse ametikoha ning töötaja kirje, mis määratakse õigele ametikohale iga palgatava inimese jaoks.
+Pärast seda, kui valite soovitud palkamise ametikoha internatuuri positsioonile, sisestate te iga õpilase teabe ametikoha üksikasjadesse, mille jaoks te neid palkate. Kui olete sisestanud kõik ametikoha üksikasjad, valige positsioon hulgi palkamise projektide lehel ja **·** seejärel valige **·** Palkamine. Positsioonikirje luuakse igale ametikohale ja töötajakirje luuakse ja määratakse igale palgatud isikule õigele positsioonile.
 
 ## <a name="mass-hire-project-statuses"></a>Hulgivärbamisprojekti olekud
 
 Hulgivärbamisprojekti olek võib olla järgmine.
 
 - Loodud
-- Avatud
+- Ava
 - Suletud
 
-Hulgivärbamisprojekti oleku muutmiseks avage lehekülg **Hulgivärbamisprojekt** ja klõpsake käsku **Ava projekt** või **Sule projekt**. Järgnevas tabelis on kirjeldatud, mida saab projektiga teha vastavalt selle olekule.
+Hulgi **palkamise projekti lehel valige suvand Ava projekt või** **·** **Sule** projekt, et muuta hulgi palkamise projekti olekut. Järgnevas tabelis on kirjeldatud, mida saab projektiga teha vastavalt selle olekule.
 
 <table>
 <thead>
@@ -75,8 +75,8 @@ Hulgivärbamisprojekti oleku muutmiseks avage lehekülg **Hulgivärbamisprojekt*
 </tr>
 <tr>
 <td>Suletud</td>
-<td>Te ei saa projekti ametikohti lisada. Hulgivärbamisprojekti ametikohtade lisamiseks avage projekt uuesti. Selline on lõpetatud projektide olek.
-<blockquote>[!NOTE] Enne hulgivärbamisprojekti sulgemist peab kõigi ametikohtade olek olema kas Loodud või Suletud.</blockquote>
+<td><p>Te ei saa projekti ametikohti lisada. Hulgivärbamisprojekti ametikohtade lisamiseks avage projekt uuesti. Selline on lõpetatud projektide olek.</p>
+<p><strong>Märkus: enne hulgirendiprojekti sulgemist peab kõigi projekti ametikohtade olek olema</strong> Loodud <b>või</b><b></b> Suletud.</p>
 </td>
 </tr>
 </tbody>

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d47b88fcc5e25fc85377b52fa9832916a4bb2217
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572381"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778469"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Pakett-töödes väljaminevate saadetiste kinnitamine
 
@@ -27,7 +27,7 @@ Selles teemas kirjeldatakse, kuidas seadistada pakett-tööd, mis kinnitab autom
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Funktsiooni „Pakett-töödes väljaminevate saadetiste kinnitamine” lubamine
 
-Enne selle funktsiooni kasutamist tuleb see teie süsteemis lubada. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et kontrollida funktsiooni olekut ja vajaduse korral see lubada. Funktsioon on loetletud järgmiselt.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
 
 - **Moodul** - *laohaldus*
 - **Funktsiooni nimi** - *Pakett-töödes väljaminevate saadetiste kinnitamine*

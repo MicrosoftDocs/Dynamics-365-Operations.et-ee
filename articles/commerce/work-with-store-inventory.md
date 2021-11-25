@@ -1,7 +1,7 @@
 ---
 title: Kaupluse varude haldamine
 description: Selles teemas kirjeldatakse dokumenditüüpe, mida saate kasutada varude haldamiseks.
-author: rubencdelgado
+author: BrianShook
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 293040ccbe99c07b15373b92d64d086227de9d3f09c8feba700648b320cd8c74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a4a8f517ebb6fd4ce291b5d28ae22db62a832251
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762544"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779354"
 ---
 # <a name="commerce-inventory-management"></a>Kaubanduse varude haldamine
 
 [!include [banner](includes/banner.md)]
 
-Kui töötate varudega rakenduses Microsoft Dynamics 365 Commerce ja kasutate mis tahes Commerce'i rakendusi, mis on ühendatud Commerce Scale Unit'iga (CSU), on oluline teada, et CSU tellimuse töötlemise loogika pakub piiratud tuge teatud varude dimensioonidele ja teatud varude üksuse tüüpidele. Commerce'i rakendused ei toeta täielikke kauba konfigureerimise võimalusi, mis on saadaval Dynamics 365 Supply Chain Managementi kauba konfigureerimise suvandite kaudu.
+Kui töötate varudega rakenduses Microsoft Dynamics 365 Commerce ja kasutate mis tahes Commerce'i rakendusi, mis on ühendatud Commerce Scale Unit'iga (CSU), on oluline teada, et CSU tellimuse töötlemise loogika pakub piiratud tuge teatud varude dimensioonidele ja teatud varude üksuse tüüpidele. Commerce'i rakendused ei toeta täielikke kauba konfigureerimise võimalusi, mis on saadaval Dynamics 365 Supply Chain Management i kauba konfigureerimise suvandite kaudu.
 
 CSU-l töötavad Commerce'i rakendused ei toeta praegu järgmisi tootedimensioone ja kauba konfiguratsioone.
 

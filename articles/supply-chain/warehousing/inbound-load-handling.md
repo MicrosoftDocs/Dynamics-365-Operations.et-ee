@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577836"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778055"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Ostutellimuste sissetulevate koormate laohaldus
 
@@ -54,7 +54,7 @@ Järgmisel joonisel on kujutatud tüüpilist kaubavoogu sissetulevate koormate k
 
     Kui koorma kogused on saabumisel registreeritud, peavad need kogused olema kantud ettevõtte lao pearaamatusse, et registreerida varude füüsiline kasv. Lisateavet vt [Toote sissetulek ostutellimuste suhtes – toote sissetulek](../procurement/product-receipt-against-purchase-orders.md#product-receipt) ja [Registreeritud toote koguste sisestamine ostutellimuste kohta](#post-registered-quantities).
 
-## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Sissetuleva koorma kaubakoguste registreerimine
+## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a> Sissetuleva koorma kaubakoguste registreerimine
 
 Microsoft Dynamics 365 Supply Chain Management toetab mitut toimingut tellitud toodete saabumise registreerimiseks. Seetõttu saate konfigureerida süsteemi, et see vastaks teie kindlatele ärivajadustele. Selles jaotises kirjeldatakse sissetulevate kaubakoguste registreerimist mobiilsete seadme abil, kui täpsem laohaldus on süsteemis sisse lülitatud. Siiski on olemas alternatiivne voog, mis põhineb mobiilse seadme kasutamise asemel kauba saabumistöölehe kasutamisel. Lisateavet selle voo kohta leiate teemast [Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil](tasks/register-items-advanced-warehousing.md).
 
@@ -113,7 +113,7 @@ Laotöötajad saavad registreerida koorma koguse sissetuleku osaliselt. Iga osal
 
 Kui koorma saabudes on kauba kogused väiksemad kui koorma kirjel märgitud kogused, saab lao vastuvõtupersonal töötada otse kliendis, et parandada see lahknevus, vähendades koorma real märgitud kogust, nii et see vastaks tegelikule saabunud ja registreeritud kogusele.
 
-#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a>Planeeritust suurema koorma vastuvõtt
+#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a> Planeeritust suurema koorma vastuvõtt
 
 Planeeritust suurema koorma vastuvõtt toimub siis, kui koorma saabudes ületavad kauba kogused koorma real märgitud eeldatava koguse. Saate kontrollida, kas ja millisel määral on planeeritust suurema koorma vastuvõtt koorma registreerimise ajal lubatud.
 
@@ -147,7 +147,7 @@ Kui laotöötaja on paigutamistöö lõpule viinud, salvestab ja jälitab süste
 | Nende tööde laokanded, mille jaoks seotud kogused on ladustatud | Väljad **Sissetulek** ja **Asukoht** ning muud asjakohased väljad värskendatakse, et kajastada liikumist vastuvõtvast asukohast salvestuskohta. | Ostutellimuse varude kande sätte **Sissetuleku olek** väärtuseks jääb _Registreeritud_. |
 | Lao ladustamine | Väärtus **Töö olek** on muudetud väärtuseks _Suletud_. | |
 
-## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a>Registreeritud toote koguste sisestamine ostutellimuste kohta
+## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a> Registreeritud toote koguste sisestamine ostutellimuste kohta
 
 Pärast seda, kui sissetulevad tootekogused on süsteemis registreeritud, muutuvad need reserveerimiseks kättesaadavaks seoses müügi ning muude väljamineku ja sissetuleku toimingutega. Kuid süsteem ei uuenda veel varude (vahepealseid) kontosid. Värskendamine saab toimuda ainult siis, kui operatsioonimeeskond sisestab registreeritud toote sissetulekud.
 
@@ -267,7 +267,7 @@ Need stsenaariumid nõuavad funktsiooni _Mitme toote sissetuleku sisestamine üh
 
 1. Avage tööruum **Funktsioonihaldus**. (Täielikku teavet selle tööruumi leidmise ja kasutamise kohta vt teemast [Funktsioonihalduse ülevaade](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Lülitage sisse funktsioon _Ostutellimuse varude kannete seostamine koormaga_, mis on loetletud järgmiselt.
+1. Veenduge, et _ostutellimuse laokannete seostamine koorma_ funktsiooniga on sisse lülitatud. Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada. Kuid see funktsioon on siiski [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) loetletud järgmisel viisil:
 
     - **Moodul:** _laohaldus_
     - **Funktsiooni nimi:** _ostutellimuse varude kannete seostamine koormaga_
@@ -290,7 +290,7 @@ Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevass
 1. Avage **Laohaldus \> Seadistamine \> Mobiilne seade \> Mobiilse seadme menüükäsud** ja veenduge, et teie mobiilse seadme menüü sisaldab menüükäsku, millel on järgmised sätted.
 
     - **Režiim:** _töö_
-    - **Töö loomise protsess:**_vastuvõetav koormas olev kaup_
+    - **Töö loomise protsess:** _vastuvõetav koormas olev kaup_
     - **Loo litsentsiplaat:** _jah_
 
     Saate jätta kõik muud sätted nende vaikeväärtustele.

@@ -1,7 +1,7 @@
 ---
 title: Välisseadmete ühendamine kassaga (POS)
 description: See teema käsitleb välisseadmete ühendamist Retail POS-iga.
-author: rubencdelgado
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5c9f38cc7874fa6c9188f87ca01e561d434092fadaddf2504c79e4bd6dc322ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725334"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779514"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
@@ -78,7 +78,7 @@ Kui kanali tasemel määratletud riistvarajaam ise sisaldab eksemplaripõhist te
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>Ühendatud välisseadmetega MPOS
 
-[![Tavapärane, fikseeritud kassa.](./media/traditional-300x279.png)](./media/traditional.png)
+[![ Tavapärane, fikseeritud kassa.](./media/traditional-300x279.png)](./media/traditional.png)
 
 MPOS-i ühendamiseks POS-i välisseadmetega tavapärases, fikseeritud kassa stsenaariumis liikuge kõigepealt registri enda juurde ja määrake sellele riistvaraprofiil. Leiate kassaregistrid, valides **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**. 
 
@@ -97,13 +97,13 @@ Lõpuks kasutage MPOS-is toimingut **Riistvarajaama valimine** riistvarajaama **
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS või Cloud POS koos eraldi riistvarajaamaga
 
-[![Ühiskasutusega välisseadmed.](./media/shared-300x254.png)](./media/shared.png)
+[![ Ühiskasutusega välisseadmed.](./media/shared-300x254.png)](./media/shared.png)
 
 Selles stsenaariumis jagavad MPOS-i ja Cloud POS-i kliendid eraldiseisvat riistvarajaama. See stsenaarium nõuab riistvarajaama profiili loomist allalaadimispaketi, pordi ja riistvaraprofiili määramiseks, mida riistvarajaam kasutab. Riistvarajaama profiili leiate asukohast **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Riistvarajaama profiilid**. 
 
 Pärast riistvarajaama profiili loomist minge konkreetse jaemüügikanali juurde (**Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed**) ja lisage uus riistvarajaam. Vastendage see uus riistvarajaam varem loodud riistvarajaama profiiliga. 
 
-Järgmiseks sisestage kirjeldus, mis aitab kassiiril riistvarajaama tuvastada. Sisestage väljale **Hosti nimi** hostseadme URL järgmises vormingus: `https://<MachineName:Port>/HardwareStation`. (Asendage **&lt;MachineName:Port&gt;** riistvarajaama tegeliku seadmenime ja pordiga, mis on määratud riistvarajaama profiilis.) Eraldi riistvarajaama puhul tuleks täpsustada ka elektroonilise rahaülekande (EFT) terminali ID-d. See väärtus tähistab EFT terminali, mis on riistvarajaamaga ühendatud, kui makseühendus maksepakkujaga suhtleb. 
+Järgmiseks sisestage kirjeldus, mis aitab kassiiril riistvarajaama tuvastada. Sisestage väljale **Hosti nimi** hostseadme URL järgmises vormingus: `https://<MachineName:Port>/HardwareStation`. (Asendage **&lt; MachineName:Port&gt;** riistvarajaama tegeliku seadmenime ja pordiga, mis on määratud riistvarajaama profiilis.) Eraldi riistvarajaama puhul tuleks täpsustada ka elektroonilise rahaülekande (EFT) terminali ID-d. See väärtus tähistab EFT terminali, mis on riistvarajaamaga ühendatud, kui makseühendus maksepakkujaga suhtleb. 
 
 Järgmiseks minge tegelikust riistvarajaamast kanali juurde ja valige riistvarajaam. Siis klõpsake valikut **Allalaadimine** ja installige riistvarajaam. 
 

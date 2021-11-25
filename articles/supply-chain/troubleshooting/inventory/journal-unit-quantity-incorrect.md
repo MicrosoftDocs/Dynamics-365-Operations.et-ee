@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 39f462ae325aa1104a25a8290daed70388e624ec
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 074be71d7b6ec1acab6307a79e397c2a2a045c39
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7476101"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778421"
 ---
 # <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>Ühik ja ühiku kogus ei tööta varude töölehel õigesti
 
@@ -31,7 +31,7 @@ Varude töölehel üksuste ja kogustega töötades võite puutuda kokku ühe võ
 
 Selle probleemi lahendamiseks tehke järgmist.
 
-1. Kontrollige **funktsioonihalduse** tööruumis, et funktsioon *Mõõtühiku ja ühiku koguse kasutamine varude töölehtedel* oleks sisse lülitatud. See funktsioon lisab töölehele väljad **Ühik** ja **Ühiku kogus**.
+1. Kontrollige **funktsioonihalduse** tööruumis, et funktsioon *Mõõtühiku ja ühiku koguse kasutamine varude töölehtedel* oleks sisse lülitatud. See funktsioon lisab töölehele väljad **Ühik** ja **Ühiku kogus**. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 1. Kui funktsioon on sisse lülitatud, kasutage välju **Kogus**, **Ühiku kogus** ja **Ühik** järgmisel viisil.
 
     - **Kogus** – määrake kogus, kasutades vaikeühikut, mis on vabastatud toote jaoks määratletud. Samas vaikeühikut ennast siin ei kuvata. Kui vaikeühiku ja väljal **Ühik** valitud ühiku vahel on häälestatud teisendus, uuendatakse välja **Kogus** väljade **Ühiku kogus** ja **Ühik** valikute alusel automaatselt.

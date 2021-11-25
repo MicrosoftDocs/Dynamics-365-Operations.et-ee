@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641156"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813719"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks
 
@@ -222,13 +222,13 @@ Järgnev tabel näitab, milliseid sissetulevaid funktsioone toetatakse ja kus ne
 
 | Töötle                                                          | Keskus | Lao täitmise töökoormus skaala ühikutes<BR>*(Valikuga „Jah” märgitud üksused rakenduvad ainult laotellimustele)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Lähte&nbsp;dokumendi&nbsp;töötlemine                             | Jah | Ei |
+| Lähte&nbsp; dokumendi&nbsp; töötlemine                             | Jah | Ei |
 | Laadimise ja transpordijuhtimise töötlemine                    | Jah | Ei |
 | Maandumiskulu ja transiitkauba vastuvõtmine                       | Jah | Ei |
 | Sissetuleva saadetise kinnitus                                    | Jah | Ei |
 | Ostutellimuse vabastamine lattu (lao tellimuse töötlemine) | Jah | Ei |
 | Laotellimuse ridade tühistamine<p>Pange tähele, et seda toetatakse ainult siis, kui rea suhtes pole registreerimist toimunud</p> | Jah | Ei |
-| Vastuvõttev ostutellimuse üksus ja kõrvaleseadmine                       | <p>Jah,&nbsp;kui &nbsp;sinna&nbsp;lao tellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kui ostutellimus pole <i>koormuse</i> osa</p> |
+| Vastuvõttev ostutellimuse üksus ja kõrvaleseadmine                       | <p>Jah,&nbsp; kui &nbsp; sinna&nbsp; lao tellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kui ostutellimus pole <i>koormuse</i> osa</p> |
 | Vastuvõttev ostutellimuse rida ja kõrvaleseadmine                       | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | <p>Jah, kui ostutellimus pole <i>koormuse</i> osa</p></p> |
 | Tagastustellimuse vastuvõtt ja kõrvaleseadmine                              | Jah | Ei |
 | Kombineeritud litsentsiplaadi vastuvõtt ja kõrvaleseadmine                       | <p>Jah, kui laotellimust pole</p><p>Ei, kui on olemas lao tellimus</p> | Jah |
@@ -290,7 +290,8 @@ Järgmine tabel võtab kokku, milliseid laohalduse tootmistsenaariume praegu ska
 |---------|-----|------------------------------|
 | Teata lõpetamisest ja kaupade kõrvale panemisest | Jah | Jah |
 | Kaastoodete ja kõrvalsaaduste kõrvalepanek | Jah | Jah |
-| <p>Kõik muud laohalduse protsessid, mis on seotud tootmisega, kaasa arvatud:</p><li>Lattu väljastamine</li><li>Tootmisvoo töötlemine</li><li>Toormaterjalide komplekteerimine</li><li>Kanbani kõrvalepanek</li><li>Kanbani komplekteerimine</li><li>Käivita tootmistellimus</li><li>Tootmise praak</li><li>Tootmise viimane kaubaalus</li><li>Materjali tarbimise registreerimine</li><li>Tühi kanban</li></ul> | Jah | Ei |
+| Käivita tootmistellimus | Jah | Jah |
+| <p>Kõik muud laohalduse protsessid, mis on seotud tootmisega, kaasa arvatud:</p><li>Lattu väljastamine</li><li>Tootmisvoo töötlemine</li><li>Toormaterjalide komplekteerimine</li><li>Kanbani kõrvalepanek</li><li>Kanbani komplekteerimine</li><li>Tootmise praak</li><li>Tootmise viimane kaubaalus</li><li>Materjali tarbimise registreerimine</li><li>Tühi kanban</li></ul> | Jah | Ei |
 | Toormaterjali täiendamine | Ei | Ei |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Skaalaühikute säilitamine lao täitmiseks

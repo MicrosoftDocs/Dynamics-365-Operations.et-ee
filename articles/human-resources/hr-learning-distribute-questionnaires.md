@@ -1,8 +1,8 @@
 ---
-title: Küsimustike jaotamine ja kavandamine
-description: See artikkel selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad.
-author: andreabichsel
-ms.date: 04/04/2017
+title: Küsimustike jaotamine ja ajastamine
+description: See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755511"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728999"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Küsimustike jaotamine ja kavandamine
+# <a name="distribute-and-schedule-questionnaires"></a>Küsimustike jaotamine ja ajastamine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See artikkel selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
+See teema selgitab, kuidas saata laiali enda kavandatud küsimustikke, nii et need oleksid kättesaadavad inimesele või inimeste grupile, kes neid täidavad. 
 
 Küsimustiku laialisaatmiseks on mitu võimalust.
 
--   Saate märkida küsimustiku aktiivseks. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
+-   Saate märkida küsimustiku **aktiivseks**. Küsimustik on siis saadaval kõigile töötajatele, kui küsimusegrupile pole määratud piiratud juurdepääsu.
 -   Saate määrata õigused küsimustike grupile. Küsimustik on siis saadaval valitud grupi liikmetele.
 -   Saate luua plaanitud vastamissessioone. Küsimustik on siis saadaval ainult kindlale isikule.
 -   Saate luua graafiku. Küsimustik võib siis olla saadaval mitmele inimesele.
@@ -108,10 +108,10 @@ Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefon
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Vastajate teavitamine plaanimisest
 
-Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
+Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage e-kirja tekst **vahekaardile Töötaja** iseteenindus. Pärast graafiku käivitamist klõpsake suvandil **Funktsioonid** &gt; **saada** meilisõnum, et luua ja saata meil vastajatele. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
 
 > [!NOTE]
-> Enne meilifunktsiooni kasutamist peab teie IT-administraator sisestama lehel **Meiliparameetrid** meilisätted.
+> Enne meilifunktsiooni kasutamist peab IT-administraator sisestama **meiliparameetrite** lehele meilisätted.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
 

@@ -2,7 +2,7 @@
 title: Finance Insights häälestusprobleemide tõrkeotsing
 description: Selles teemas loetletakse probleemid, mis võivad ilmneda Finance Insights võimaluste kasutamisel. See selgitab ka nende probleemide lahendamist.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512886"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752613"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Finance Insights häälestusprobleemide tõrkeotsing
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas loetletakse probleemid, mis võivad ilmneda Finance Insights võimaluste kasutamisel. See selgitab ka nende probleemide lahendamist.
 
@@ -34,7 +35,7 @@ Selles teemas loetletakse probleemid, mis võivad ilmneda Finance Insights võim
 
 ### <a name="resolution"></a>Lahendus
 
-Te võite kasutada malli varasema versiooni jaoks. Enne versiooni 10.0.17 väljalaset konfigureerisid eelvaate kliendid **Kliendi makseülevaadete tulemused (CDS fini ja Opsi)** andmeintegratsiooni (DI) malli, kasutades **Makse ennustuse tulemust (eelvaade)**. Pärast versiooniks 10.0.17 ja uuemaks täiendamist peaksite vastendamise lõpule viimiseks kasutama **Kliendi makseülevaate tulemusi (CDS finiks ja ops 10.0.17 ja uuemat versiooni)**. Võimalik, et te ei saa DI-malli sihtveeru vastendada enne, kui andmehalduse üksuse loend on värskendatud ja **Makse ennustuse tulemuse** üksus ilmub selles. Üksuseloendi värskendamiseks ja makseennustuse tulemuse näitamiseks läbite sammud mõlemas, Microsoft Dynamics 365 Finance kui ka Dataverse (varem tuntud kui Common Data Service \[CDS\] haldusportaal).
+Te võite kasutada malli varasema versiooni jaoks. Enne versiooni 10.0.17 väljalaset konfigureerisid eelvaate kliendid **Kliendi makseülevaadete tulemused (CDS fini ja Opsi)** andmeintegratsiooni (DI) malli, kasutades **Makse ennustuse tulemust (eelvaade)**. Pärast versiooniks 10.0.17 ja uuemaks täiendamist peaksite vastendamise lõpule viimiseks kasutama **Kliendi makseülevaate tulemusi (CDS finiks ja ops 10.0.17 ja uuemat versiooni)**. Võimalik, et te ei saa DI-malli sihtveeru vastendada enne, kui andmehalduse üksuse loend on värskendatud ja **Makse ennustuse tulemuse** üksus ilmub selles. Üksuseloendi värskendamiseks ja makseennustuse tulemuse näitamiseks läbite sammud mõlemas, Microsoft Dynamics 365 Finance kui ka Dataverse (varem tuntud kui Common Data Service \[ CDS\] haldusportaal).
 
 ### <a name="in-finance"></a>Finantsides
 
@@ -53,6 +54,12 @@ Järgige neid samme [Power Platform halduskeskuses](https://admin.powerplatform.
 
 1. Kui kasutate Finance Insights eelvaate versiooni, eemaldage **Kliendi makse vihjete tulemustega (CDS fini ja Ops)** malliga seotud DI-projekt.
 2. Järgige samme [andme integraatori projekti loomiseks](create-data-integrate-project.md). Kasutage **Kliendi makse vihjete tulemuste (CDS fini ja ops 10.0.17 ja hilisemaid)** malle.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Sümptom: kui püüan AI Builderit avada, kasutades linke kliendi makseennustuse häälestuslehele, siis miks ma soovin saada järgmise tõrketeate: "Kahjuks on katkestamine"?
+
+### <a name="resolution"></a>Lahendus
+
+Dynamics 365 Finance Kasutajatel peab olema Microsoft Power Apps keskkonna kasutajakonto ja kasutajakontol peab olema süsteemi kohandaja roll. Süsteemiadministraator Microsoft Power Apps saab luua kasutajakonto ja määrata rolli. Siis saate selle <https://make.preview.powerapps.com/> kasutajakontoga sisse logida ja proovida linke uuesti proovida.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Sümptom: Miks ei kuva rahaprognoosi vahekaart rahavoo prognoosi tööruumis andmeid?
 

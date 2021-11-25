@@ -2,7 +2,7 @@
 title: Organisatsioonide ja organisatsioonihierarhiate ülevaade
 description: Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715985"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798342"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organisatsioonide ja organisatsiooniliste hierarhiate ülevaade
 
@@ -64,9 +64,19 @@ Töörühm on organisatsioon, mille liikmed jagavad ühist vastutust, huvi või 
 
 Organisatsiooni hierarhiate seadistamine võimaldab teil oma äri vaadata ja selle aruandlust teha erinevatest aspektidest. Näiteks saate seadistada juriidiliste isikute hierarhia maksu-, õigus- või seadusliku aruandluse jaoks. Saate seadistada tootmisüksustel põhineva hierarhia finantsteabe aruandluseks, mis ei ole õiguslikult vajalik, kuid mida kasutatakse sisejuhtimiseks. Näiteks saate luua ostuhierarhia ostupoliitikate, -reeglite ja äriprotsesside juhtimiseks.
 
+> [!NOTE]
+> Pärast tootmisüksuse lisamist hierarhiasse ei saa tootmisüksust kustutada. 
+
 Igale hierarhiale määratakse eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada.
 
 Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Oma organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>Lisaressursid
+- [Organisatsioonihierarhia kavandamine](plan-organizational-hierarchy.md)
+- [Organisatsioonihierarhia loomine](tasks/create-organization-hierarchy.md)
+- [Juriidilise isiku loomine](tasks/create-legal-entity.md)
+- [Tootmisüksuse loomine](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
-ms.translationtype: HT
+ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380208"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781170"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -27,7 +27,7 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse�
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Teenuse Dataverse’i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a> Teenuse Dataverse’i lisandmooduli jälituslogide lubamine ja kuvamine tõrke üksikasjade kuvamiseks
 
 **Jälituslogi sisselülitamiseks ja tõrgete kuvamiseks nõutav roll:** süsteemiadministraator
 
@@ -44,11 +44,11 @@ Jälituslogi kuvamiseks toimige järgmiselt.
 2. Leiate jälituslogid siis, kui veeru **Tüübi nimi** väärtuseks on seatud **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Täieliku logi vaatamiseks topeltklõpsake üksust ja seejärel vaadake üle kiirkaardil **Käivitamine** tekst **Teateplokk**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Silumisrežiim lubamine tõrkeotsingu reaalajas sünkroonimise probleemide korral Finance and Operationsi rakendustes
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Silumisrežiim lubamine tõrkeotsingu reaalajas sünkroonimise probleemide korral Finance and Operations i rakendustes
 
 **Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator
 
-Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Vigade paljusõnalise logimise lubamiseks toimige järgmiselt:
+Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operations i rakenduses. Vigade paljusõnalise logimise lubamiseks toimige järgmiselt:
 
 1. Kõigil Finance and Operations rakenduste projekti konfiguratsioonidel on atribuut **Silumisrežiim** tabelis **TopeltKirjutuseProjektiKonfiguratsioon**.
 2. **TopeltKirjutuseProjektiKonfiguratsioon** avamine Exceli lisandmooduliga. Lisandmooduli kasutamiseks lubage kujundusrežiim Finance and Operations Exceli lisandmoodulis ja lisage lehele **TopeltKirjutuseProjektiKonfiguratsioon**. Lisateavet vaata [üksuse andmete kuvamiseks ja värskendamiseks Exceli`ga](../../office-integration/use-excel-add-in.md).
@@ -70,12 +70,12 @@ Dataverse'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and 
 6. Valige **Rakenduste ja teenuste logid \> Microsoft \> Dynamics \> AX-DualWriteSync \> Toiming**.
 7. Vaadake läbi hiljutiste tõrgete loend.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Linkimise tühistamine ja teise Dataverse'i keskkonna linkimine Finance and Operationsi rakendusest
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Linkimise tühistamine ja teise Dataverse'i keskkonna linkimine Finance and Operations i rakendusest
 
-**Keskkonna linkimise tühistamiseks nõutav roll:** kas Finance and Operationsi rakenduse või teenuse Dataverse süsteemiadministraator.
+**Keskkonna linkimise tühistamiseks nõutav roll:** kas Finance and Operations i rakenduse või teenuse Dataverse süsteemiadministraator.
 
 1. Logige rakendusse Finance and Operations sisse.
-2. Avage **Tööruumid \>Andmehaldus** ja valige paan **Topeltkirjutus**.
+2. Avage **Tööruumid \> Andmehaldus** ja valige paan **Topeltkirjutus**.
 3. Valige kõik töötavad vastendused ja valige **Peata**.
 4. Valige nupp **Tühista keskkonna link**.
 5. Toimingu kinnitamiseks valige **Jah**.

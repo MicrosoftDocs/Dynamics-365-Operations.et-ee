@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675389"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733459"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 
@@ -118,7 +118,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 
 15. Valige käsk **Lisa** ja tehke järgmist.
 
-    1. Valige väljalt **Kood** suvand **\*Mitte tühi\***.
+    1. Valige väljalt **Kood** suvand **\* Mitte tühi\***.
     2. Valige väljalt **Otsingu tulemus** väärtus **Muu**.
 
     Selle viimase kirje lisades saate määratleda järgmise reegli: alati kui argumendina edastatud maksukood ei täida mõnda eeltoodud tingimustest, tagastab otsingu andmeallikas nõutud maksustamistasemena taseme **Muu**.
@@ -170,7 +170,7 @@ USMF-ettevõtte parameetrite häälestamiseks läbige järgmised sammud:
 8. Valige maksukood **EXEMPT**.
 9. Valige uue kirje väljalt **Otsingu tulemus** väärtus **Maksustamine puudub**.
 10. Valige **Lisa**.
-11. Valige uue kirje väljalt **Kood** suvand **\*Mitte tühi\***.
+11. Valige uue kirje väljalt **Kood** suvand **\* Mitte tühi\***.
 12. Valige uue kirje väljalt **Otsingu tulemus** väärtus **Tavaline maksustamine**.
 13. Valige väljalt **Olek** suvand **Lõpule viidud**.
 14. Valige käsk **Salvesta**.
@@ -226,15 +226,6 @@ Seda ekspordi-impordi lähenemisviisi saate kasutada ka ER-vorminguga seotud rak
 Kui konfigureerite rakendusepõhised parameetrid ER-vormingu ühe versiooni jaoks ja impordite seejärel sama vormingu uuema versiooni praegusesse Finance'i eksemplari, ei rakendata olemasolevaid rakendusepõhiseid parameetreid imporditud versioonile, välja arvatud juhul, kui kasutate **Kasutage ER-vormingute eelmiste versioonide rakendusespetsiifilisi parameetreid** funktsioone. Lisateabe saamiseks vaadake teemat [Olemasolevate taaskasutamine](#reuse-existing-parameters).
 
 Pidage ka meeles, et kui valite importimiseks faili, võrreldakse selle faili rakendusekohaseid parameetreid importimiseks valitud ER-vormingu tüübi **Otsing** vastava andmeallika struktuuriga. Vaikimisi viiakse importimine lõpule ainult siis, kui iga rakendusepõhise parameetri struktuur ühtib impordiks valitud ER-vormingus vastava andmeallika struktuuriga. Kui struktuurid ei kattu, kuvatakse hoiatusteade, et importimist ei toimu. Kui sunnite importimise, tühistatakse valitud ER-vormingu olemasolevad rakendusekohased parameetrid ja peate need uuesti algusest peale seadistama.
-
-Alustades Dynamics 365 Finance versioonis 10.0.23 saate muuta vaikekäitumist ja vältida hoiatusteate saamist, lubades  **joondamise ER-rakenduse funktsiooni importimise** parameetrid spetsiifilise **funktsioonihalduse** tööruumis. Kui see funktsioon on lubatud ja imporditavate rakendusepõhiste parameetrite struktuur erineb importimiseks valitud siht-ER-vormingus vastavate andmeallikate struktuurist, õnnestub importimine järgmistel juhtudel.
-
-- Sihtkoha ER-vormingu struktuuri on muudetud, lisades uusi tingimuse veerge mis tahes olemasolevatele **otsingu** tüübi andmeallikatele. Kui import on lõpetatud, uuendatakse rakendusepõhised parameetrid. Kõikides rakendusspetsiifiliste parameetrite imporditud kirjetes lähtestatakse iga lisatud tingimuse veeru väärtused selle veeru vaikeväärtusega [andmetüübi jaoks](er-formula-supported-data-types-primitive.md).
-- Sihtkoha ER-vormingu struktuuri on muudetud, eemaldades mõned veerud olemasolevatelt **otsingu** tüübi andmeallikatelt. Kui import on lõpetatud, uuendatakse rakendusepõhised parameetrid. Rakendusespetsiifiliste parameetrite imporditud kirjetes kustutatakse iga eemaldatud tingimuse veeru väärtused.
-- Sihtkoha ER-vormingu struktuuri on muudetud, lisades uusi tingimuse veerge, mis tahes olemasolevatele **otsingu** tüübi andmeallikatele. Kui import on lõpetatud, lisatakse lisatud otsingud rakendusepõhistele parameetritele.
-- Sihtkoha ER-vormingu struktuuri on muudetud, eemaldades mõned **otsingu** tüübi andmeallikatelt. Kui import on lõpetatud, kustutatakse imporditud rakendusspetsiifilistest parameetritest kõik **Otsingu** tüübiga andmeallikatega seotud artefaktid, mis eemaldatisiht-ER vormingust.
-
-Kui import on lõpule viidud, muudetakse lisaks äsja kirjeldatud muudatustele imporditud rakendusspetsiifiliste parameetrite olekuks **Pooleli**. Hoiatusteade teavitab teid, et automaatselt korrigeeritud rakenduseomased parameetrid tuleb käsitsi redigeerida.
 
 ### <a name="reuse-existing-parameters"></a>Olemasolevate parameetrite taaskasutamine
 

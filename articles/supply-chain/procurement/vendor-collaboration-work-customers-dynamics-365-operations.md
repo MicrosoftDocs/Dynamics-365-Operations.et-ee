@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575383"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777590"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Hankija koostöö klientidega
 
@@ -102,7 +102,7 @@ Avaliku sektori töötajad saavad vaadata avatud ja aegunud avalikult kättesaad
 
     Kui teid on kutsutud pakkumist esitama, leiate sama pakkumiskutse lehelt **Uue pakkumise kutsed**. Mõnikord võib ette tulla, et teile pole avatud pakkumiskutset saadetud, kuid soovite siiski pakkumise esitada. Sel juhul võib olla võimalik iseennast kutsuda, eeldusel et klient on selle pakkumiskutse puhul lubanud ise end kutsuda.
 
-    Laiendage **Ava avaldatud pakkumiskutsete** link lülitades sisse **Kuva "Ava avaldatud pakkumiskutsed" link plaadina** funktsiooni. See funktsioon teisendab lingi paanile ja teisaldab selle silmapaistvasse asukohta, et seda oleks lihtne leida.
+    Laiendage **Ava avaldatud pakkumiskutsete** link lülitades sisse **Kuva "Ava avaldatud pakkumiskutsed" link plaadina** funktsiooni. See funktsioon teisendab lingi paanile ja teisaldab selle silmapaistvasse asukohta, et seda oleks lihtne leida. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 
 - Avalikult kättesaadavaks tehtud suletud pakkumiskutsete vaatamiseks valige link **Suletud avaldatud pakkumiskutsed**. Suletud pakkumiskutse on aegunud pakkumiskutse. Aegumiskuupäeva ja -kellaaja leiate pakkumiskutse päisest.
 

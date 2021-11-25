@@ -1,5 +1,5 @@
 ---
-title: Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.21 uut või mida on muudetud (oktoober 2021)
+title: Mis on Dynamics 365 Supply Chain Management i versioonis 10.0.21 uut või mida on muudetud (oktoober 2021)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.21 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 10/28/2021
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
-ms.translationtype: HT
+ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715250"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777933"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.21 uut või mida on muudetud (oktoober 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Mis on Dynamics 365 Supply Chain Management i versioonis 10.0.21 uut või mida on muudetud (oktoober 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.21 uusi või muutunud funktsioone. Selle versiooni number on 10.0.960 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management i versiooni 10.0.21 uusi või muutunud funktsioone. Selle versiooni number on 10.0.960 ja see on saadaval järgmiselt:
 
 - **Eelvaateversiooni välja andmine:** august 2021
 - **Väljalaske üldine kättesaadavus (enesevärskendus):** september 2021
@@ -35,22 +35,22 @@ Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../.
 
 | Funktsiooniala | Funktsioon | Lisateave |
 |---|---|---|
-| Varud&nbsp;ja&nbsp;logistika | [Global Inventory Accounting on lisandmoodul Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Globaalse laoarvestuse kodulehekülg](../global-inventory-accounting/global-inventory-accounting-home.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Funktsiooni nimi: sisestage vaba kaubavaru korrigeerimised, kasutades vastaskontodega ühendatud konfigureeritavaid põhjusekoode](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Varude inventuuri põhjusekoodid](../warehousing/reason-codes-for-counting-journals.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Müügipakkumisele viitavate andmete ekspordipoliitika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Valige, kas hinnapakkumistega viidatud andmete muudatuste tõttu kaasatakse need hinnapakkumised (või read) järgmisele ekspordile. Kui otsustate selliseid pakkumisi või ridu mitte kaasata, siis järkjärguline eksportimine toimub kiiremini.<br><br>See funktsioon lisab sätte **Vahele jäetud müügipakkumise viidatud andmed muudatuste jälgimise ajal** **Müügireskontro parameetrid** lehele. |
-| Varud&nbsp;ja&nbsp;logistika | [Pitseeritud pakkumine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Pitseeritud pakkumine pakkumiskutsete puhul](../procurement/sealed-bidding.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Skannige vöötkoode laos, kasutades GS1-vormingu standardeid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 vöötkoodid ja QR-koodid](../warehousing/gs1-barcodes.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Varude nähtavuse lisandmooduli esialgne reserveerimine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Varude nähtavuse reserveeringud](../inventory/inventory-visibility-reservations.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Mahaarvamise ja tegeliku kaalu täiustused tagasimaksehalduse jaoks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Mahaarvamise töölaual mahaarvamiste haldamine](../rebate-management/deduction-workbench.md )<br><br>[Tagasimaksete töötlemine, läbivaatamine ja sisestamine](../rebate-management/process-review-post.md)<br><br>[Tagasimakse halduse tehingud](../rebate-management/rebate-management-deals.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Laorakenduse etapi juhised](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Mobiilirakenduse Warehouse Management etapi pealkirjade ja juhiste kohandamine](../warehousing/mobile-app-titles-instructions.md) |
-| Varud&nbsp;ja&nbsp;logistika | [Väljaminev kulu tööpauside ja jälgimisvärskenduste jälitamine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Värskenda ärapanemiseks jälgimist](../landed-cost/update-tracking-putaway.md )<br><br>[Transiidis olevate kaupade töötlemine](../landed-cost/in-transit-processing.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Global Inventory Accounting on lisandmoodul Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Globaalse laoarvestuse kodulehekülg](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Funktsiooni nimi: sisestage vaba kaubavaru korrigeerimised, kasutades vastaskontodega ühendatud konfigureeritavaid põhjusekoode](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Varude inventuuri põhjusekoodid](../warehousing/reason-codes-for-counting-journals.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Müügipakkumisele viitavate andmete ekspordipoliitika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Valige, kas hinnapakkumistega viidatud andmete muudatuste tõttu kaasatakse need hinnapakkumised (või read) järgmisele ekspordile. Kui otsustate selliseid pakkumisi või ridu mitte kaasata, siis järkjärguline eksportimine toimub kiiremini.<br><br>See funktsioon lisab sätte **Vahele jäetud müügipakkumise viidatud andmed muudatuste jälgimise ajal** **Müügireskontro parameetrid** lehele. |
+| Varud&nbsp; ja&nbsp; logistika | [Pitseeritud pakkumine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Pitseeritud pakkumine pakkumiskutsete puhul](../procurement/sealed-bidding.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Skannige vöötkoode laos, kasutades GS1-vormingu standardeid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 vöötkoodid ja QR-koodid](../warehousing/gs1-barcodes.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Varude nähtavuse lisandmooduli esialgne reserveerimine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Varude nähtavuse reserveeringud](../inventory/inventory-visibility-reservations.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Mahaarvamise ja tegeliku kaalu täiustused tagasimaksehalduse jaoks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Mahaarvamise töölaual mahaarvamiste haldamine](../rebate-management/deduction-workbench.md )<br><br>[Tagasimaksete töötlemine, läbivaatamine ja sisestamine](../rebate-management/process-review-post.md)<br><br>[Tagasimakse halduse tehingud](../rebate-management/rebate-management-deals.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Laorakenduse etapi juhised](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Mobiilirakenduse Warehouse Management etapi pealkirjade ja juhiste kohandamine](../warehousing/mobile-app-titles-instructions.md) |
+| Varud&nbsp; ja&nbsp; logistika | [Väljaminev kulu tööpauside ja jälgimisvärskenduste jälitamine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Värskenda ärapanemiseks jälgimist](../landed-cost/update-tracking-putaway.md )<br><br>[Transiidis olevate kaupade töötlemine](../landed-cost/in-transit-processing.md) |
 | Koondplaneerimine | [Planeerimise optimeerimise negatiivsed päevad](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/negative-days-support-planning-optimization) | [Viivituse kõikumine (negatiivsed päevad)](../master-planning/planning-optimization/delay-tolerance.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
 Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Igaüks neist võimaldab olemasoleva funktsiooni järk-haaval täiustada. Kuna need on ainult täiustused, siis neid ei loetleta [väljalaskeplaanis](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Kindlustamaks, et need täiustused ei satu vastuollu olemasolevate kohanduste või eelistustega, lülitatakse iga neist vaikimisi välja (kui pole märgitud teisiti). Kui soovite mõnda neist funktsioonidest kasutada, peate need eraldi lubama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Moodul | Funktsiooni&nbsp;nimi&nbsp;funtsiooni&nbsp;halduses | Lisateave |
+| Moodul | Funktsiooni&nbsp; nimi&nbsp; funtsiooni&nbsp; halduses | Lisateave |
 |---|---|---|
 | Kuluhaldus | Varude sulgemise edenemise üksikasjad | See eelvaate funktsioon võimaldab varude sulgemise edenemise üksikasjalikku kuva. |
 | Hanked | Vältige eelarvereservi ületarbimist, kui töövoos on mitu ostutaotlust | See eelvaate funktsioon parandab tõrkekontrolli, kui kasutajad esitavad ja kinnitavad ostutaotlusi, mis ületavad üldise eelarve reserveerimisrea järelejäänud saldot. See aitab vältida üldise eelarvereserveeringu ülepidamist, kui töövoos on mitu ostutaotlust. |
@@ -70,10 +70,10 @@ Järgmises tabelis on loetletud funktsioonid, mis on versioonis 10.0.21 vaikimis
 | Ülekandetellimuse tühistamine | 9/1/2021 | 7/13/2020 | Vaikimisi sees | Varude ja laohaldus |
 | Ava varude tööleht | 9/1/2021 | 8/17/2020 | Vaikimisi sees | Varude ja laohaldus |
 | Varude haldamise salvestatud vaated | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Varude ja laohaldus |
-| Koosluse ridadelt koosluse versioonile navigeerimine. | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
-| Mõõtühiku ja ühikukoguse kasutamine varude töölehel. | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Koosluseversioonile navigeerimine koosluseridadelt | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Mõõtühiku ja ühikukoguse kasutamine laotöölehtedel | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
 | Luba tühjade partii atribuutide väärtused | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Varude ja laohaldus |
-| Varude üleviimistellimuse ridade reanumbrid suurenevad automaatselt. | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Varude ja laohaldus |
+| Suurenda automaatselt lao üleviimistellimuse ridade numbreid | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Varude ja laohaldus |
 | Varude töölehe kinnitamise töövoog | 9/1/2021 | 1/6/2020 | Vaikimisi sees | Varude ja laohaldus |
 | Luba varude kvaliteedihalduse parameetrite hoiatuse funktsioon | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Varude ja laohaldus |
 | Loo müügirealt üleviimistellimus | 9/1/2021 | 8/31/2019 | Vaikimisi sees | Varude ja laohaldus |
@@ -85,7 +85,7 @@ Järgmises tabelis on loetletud funktsioonid, mis on versioonis 10.0.21 vaikimis
 | Ostutellimusele on lisatud pakkumiskutse viite link | 9/1/2021 | 8/31/2019 | Vaikimisi sees | Hanked |
 | Võimalus kinnitada hankijakoostööst aktsepteeritud ostutellimused partiina | 9/1/2021 | 9/10/2019 | Vaikimisi sees | Hanked |
 | cXML-i täiustuste ostmine | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Hanked |
-| Kuvage link &quot;Ava avaldatud hinnapäringud&quot; paanina | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Hanked |
+| Kuvage link &quot; Ava avaldatud hinnapäringud&quot; paanina | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Hanked |
 | Pakkumiskutse küsimused ja vastused | 9/1/2021 | 2/19/2020 | Vaikimisi sees | Hanked |
 | Toote ohtlike materjalide teave ja saatmisdokumentatsioon | 9/1/2021 | 6/14/2020 | Vaikimisi sees | Tooteteabe haldus |
 | Vaiketellimuse koguste range kinnitamine | 9/1/2021 | 6/24/2020 | Vaikimisi sees | Tooteteabe haldus |
@@ -93,18 +93,18 @@ Järgmises tabelis on loetletud funktsioonid, mis on versioonis 10.0.21 vaikimis
 | Väljastatud toodete salvestatud vaated | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Tooteteabe haldus |
 | Täiustused dialoogides Kinnita ja Ülekandmistööd | 9/1/2021 | 10/11/2019 | Vaikimisi sees | Tootmise juhtimine |
 | Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat | 9/1/2021 | 8/31/2019 | Vaikimisi sees | Tootmise juhtimine |
-| Töökaardi terminali lehele on lisatud uus nupp „Lõpeta vaheaeg”. | 9/1/2021 | 2/19/2020 | Vaikimisi sees | Tootmise juhtimine |
+| Töökaardi terminali lehele on lisatud uus nupp Pausi peatamiseks | 9/1/2021 | 2/19/2020 | Vaikimisi sees | Tootmise juhtimine |
 | Lubage allhankelepingu alusel sõlmitud kaupade osaline vastuvõtmine ja parandage hankija tüüpi BOM-ridade praagi arvutamisega seotud probleem. | 9/1/2021 | 11/11/2019 | Vaikimisi sees | Tootmise juhtimine |
 | Tootmisjuhtimise salvestatud vaated | 9/1/2021 | 8/17/2020 | Vaikimisi sees | Tootmise juhtimine |
 | Dynamics 365 Guides tootmise jaoks | 9/1/2021 | 7/13/2020 | Vaikimisi sees | Tootmise juhtimine |
 | Tootmisosakonna täideviimine | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Tootmise juhtimine |
-| Funktsioon töökaardi vahendi ja töökaardi terminali lukustamiseks, et neid saaks puhastada. | 9/1/2021 | 5/10/2020 | Vaikimisi sees | Tootmise juhtimine |
+| Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada | 9/1/2021 | 5/10/2020 | Vaikimisi sees | Tootmise juhtimine |
 | Tasude eraldamine müügitellimusel | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Müük ja turundus |
 | Postitamiseks valitavate müügitellimuste arvu piiramine | 9/1/2021 | 9/1/2021 | Vaikimisi sees | Müük ja turundus |
 | Müügitellimuse värskendamise ajaloo puhastamine | 9/1/2021 | 9/1/2021 | Vaikimisi sees | Müük ja turundus |
 | Muutke tsüklilise inventuuri töö numbriseeriat | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Laohaldus |
 | Toimingupõhine voonõude täiendamine | 9/1/2021 | 10/7/2019 | Kohustuslik | Laohaldus |
-| Peida summa väli lehtedel &quot;Kogu laadung&quot; ja &quot;Kooremi üksikasjad&quot; | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Laohaldus |
+| Peida summa väli lehtedel &quot; Kogu laadung&quot; ja &quot; Kooremi üksikasjad&quot; | 9/1/2021 | 10/7/2019 | Vaikimisi sees | Laohaldus |
 | Voosildi printimine | 9/1/2021 | 2/19/2020 | Kohustuslik | Laohaldus |
 | Ostutellimuse varude kannete seostamine koormusega | 9/1/2021 | 1/6/2020 | Kohustuslik | Laohaldus |
 | Täiustatud litsentsiplaadi sildipaigutused | 9/1/2021 | 2/19/2020 | Vaikimisi sees | Laohaldus |
@@ -113,7 +113,7 @@ Järgmises tabelis on loetletud funktsioonid, mis on versioonis 10.0.21 vaikimis
 | Muuda mobiilse seadme varude liikumise varude oleku väli redigeeritavaks | 9/1/2021 | 10/16/2019 | Vaikimisi sees | Laohaldus |
 | Pakett-töös väljuvate saadetiste kinnitamine | 9/1/2021 | 7/13/2020 | Vaikimisi sees | Laohaldus |
 | Saate kontrollida, kas mobiilsetes seadmetes kuvatakse vastuvõtu kokkuvõttelehte | 9/1/2021 | 4/1/2020 | Vaikimisi sees | Laohaldus |
-| Viip mitmetähendusliku &#39;Loc / LP&#39; nimede lahendamiseks | 9/1/2021 | 4/1/2020 | Vaikimisi sees | Laohaldus |
+| Viip mitmetähendusliku &#39; Loc / LP&#39; nimede lahendamiseks | 9/1/2021 | 4/1/2020 | Vaikimisi sees | Laohaldus |
 | Jäädvusta lao rakenduses koorma kaupade vastuvõtmise ajal tootevariandid ja jälgimisdimensioonid | 9/1/2021 | 5/10/2020 | Vaikimisi sees | Laohaldus |
 | Ärge lubage luua koormaid, mis ei vasta voo koormuse koostamismalli nõuetele. | 9/1/2021 | 8/17/2020 | Vaikimisi sees | Laohaldus |
 | Mitme SKU asukohakorralduste kõigi toimingute hindamine | 9/1/2021 | 30.9.2020 | Vaikimisi sees | Laohaldus |
@@ -140,7 +140,7 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need ei ol
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.21 platvormivärskendused (oktoober 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operations i rakenduste versiooni 10.0.21 platvormivärskendused (oktoober 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 
@@ -154,12 +154,12 @@ Vaadake [Dynamics 365 ja majandusharu pilved: 2021 väljalaskevoo 2 plaan](/dyna
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Management i funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Management i funktsioonid](removed-deprecated-features-scm-updates.md).
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

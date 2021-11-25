@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: f967f832fc716938c544aad266d2c14a9ea19dd0ca8ee11fe228ce47145f3e78
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762422"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782525"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Varude saadavus topeltkirjutuses
 
@@ -28,7 +28,7 @@ Kui teil puuduvad piisavad varud, siis saate eeldatava varude vastuvõtu ja väl
 
 Rakenduses Dynamics 365 Sales on lehtede **Pakkumised**, **Tellimused** ja **Arved** päisesse lisatud uus nupp **Vaba kaubavaru**. Nupule klõpsates ilmub dialoogiboks, kus saate määratleda ettevõtte ja toote, mille puhul soovite kontrollida vaba kaubavaru. Selles dialoogiboksis kuvatav teave ühtib teemas [Vaba kaubavaru](../../../../supply-chain/inventory/tasks/check-availability-stock.md) kirjeldatud teabega.
 
-Dialoogiboksis kuvatakse Dynamics 365 Supply Chain Managementist pärit teavet varude kohta. See teave sisaldab järgmiseid koguseid.
+Dialoogiboksis kuvatakse Dynamics 365 Supply Chain Management ist pärit teavet varude kohta. See teave sisaldab järgmiseid koguseid.
 
 - Laos olev kogus
 - Reserveeritud laos olev kogus

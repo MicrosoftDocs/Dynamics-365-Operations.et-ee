@@ -1,8 +1,8 @@
 ---
 title: Puhkusetaotluste haldamine Teamsis
-description: Selles teemas kirjeldatakse, kuidas esitada puhkusetaotlust Microsoft Teamsi rakenduses Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+description: Selles teemas kirjeldatakse, kuidas esitada puhkusetaotlust Microsoft Teams i rakenduses Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725862"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771527"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Puhkusetaotluste haldamine Teamsis
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Teamsi rakendus Dynamics 365 Human Resources võimaldab teil kiiresti taotleda puhkepäevi ja vaadata vaba aja saldo teavet otse Microsoft Teamsis. Saate suhelda robotiga, et taotleda teavet ja algatada puhkusetaotlus. Vahekaart **Vaba aeg** annab üksikasjalikumat teavet. Lisaks saate inimestele saata teavet eelseisva eemaloleku kohta Teamsis ja vestlustes väljaspool rakendust Human Resources.
+Microsoft Teams i rakendus Dynamics 365 Human Resources võimaldab teil kiiresti taotleda puhkepäevi ja vaadata vaba aja saldo teavet otse Microsoft Teams is. Saate suhelda robotiga, et taotleda teavet ja algatada puhkusetaotlus. Vahekaart **Vaba aeg** annab üksikasjalikumat teavet. Lisaks saate inimestele saata teavet eelseisva eemaloleku kohta Teamsis ja vestlustes väljaspool rakendust Human Resources.
 
 ## <a name="install-the-app"></a>Rakenduse installimine
 
@@ -41,7 +41,7 @@ Rakenduse Dynamics 365 Human Resources leiate Teamsi poest.
 Kui rakendus ei logi teid automaatselt sisse, valige sisselogimiseks vahekaart **Sätted**.
 
 > [!NOTE]
-> Kui sisselogimise dialoogiboksi ei kuvata, kontrollige oma brauseri sätteid hüpikakende lisamiseks. 
+> Kui te ei näe sisselogimisdialoogi, uuendage brauseri sätteid hüpikakende võimaldamiseks. 
 
 Kui teil on juurdepääs rohkem kui ühele Human Resourcesi eksemplarile, saate valida vahekaardil **Sätted** keskkonna, millega soovite ühenduse luua.
 
@@ -53,7 +53,7 @@ Kui teil on juurdepääs rohkem kui ühele Human Resourcesi eksemplarile, saate 
 Pärast rakenduse installimist kuvatakse tervitussõnum, mis teavitab teid tegevuste tüüpidest, mida robot saab teie eest teha.
 
 > [!NOTE]
-> Esmakordsel suhtlemisel robotiga peate tõenäoliselt sisse logima. Kui sisselogimise dialoogiboksi ei kuvata, kontrollige oma brauseri sätteid hüpikakende lisamiseks.
+> Kui te esimest korda süsteemiga suhtlete, peate võibolla sisse logima. Kui te ei näe sisselogimisdialoogi, uuendage brauseri sätteid hüpikakende võimaldamiseks.
 
 Võite paluda robotil teha järgnevat.
 
@@ -113,11 +113,11 @@ Vahekaardil **Vaba aeg** saate kuvada järgnevat.
    
 ### <a name="respond-to-teams-notifications"></a>Rakenduse Teams teatistele vastamine
 
-Kui teie või töötaja olete puhkusetaotluse esitamise kinnitaja, kuvatakse teile Teamsi rakenduses Human Resources vastav teatis. Saate valida teatise, et seda vaadata. Teatised kuvatakse ka alal **Vestlus**.
+Kui te olete või töötaja, kes olete puhkusetaotluse kinnitaja, saate te teatise Inimressursside rakenduses Teamsis. Saate valida teatise puhkuse taotluse vaatamiseks. Teatised kuvatakse ka alal **Vestlus**.
 
 Kui olete kinnitaja, saate teatises valida **Kinnita** või **Keeldu** . Saate ka esitada valikulise teate.
 
-## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Eelseisva eemaloleku teabe saatmine oma kaastöötajatele
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Saada tulevane aja mahaminev teave kaastööjatele
 
 Pärast rakenduse Human Resources installimist rakenduse Teamsi jaoks saate hõlpsalt saata teavet eelseisva eemaloleku kohta oma kaastöötajatele töörühmades või vestlustes.
 
@@ -167,7 +167,7 @@ Kui teil on probleeme Teamsis rakendusse Dynamics 365 Human Resources sisselogim
 
 Kui te ei saa rakendusse sisse logida, siis on võimalik, et konto, mida kasutate rakendusse Microsoft Teams sisse logimiseks, ei ole seotud töötajakirjega rakenduses Dynamics 365 Human Resources. Võtke ühendust oma süsteemiadministraatoriga, et teha kindlaks, et teie töötajakirje on korralikult seotud.
 
-### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Ei leia Sätete alt Dynamics 365 Human Resources keskkonda
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Sätetest ei Dynamics 365 Human Resources leia keskkonda
 
 Kui te ei saa õiget Dynamics 365 keskkonda valida, ei pruugi kasutaja kirje õigesti sünkroonitud olla. Kasutajakirje uuesti loomiseks ja kasutaja sisselogimisandmetega seostamiseks pöörduge oma süsteemiadministraatori poole. Seejärel proovige mõne minuti jooksul Microsoft Teams Human Resources rakendusse sisse logida.
 
@@ -183,7 +183,7 @@ Valige inimressursside moodulis **Sätted** ja seejärel **Kasutaja valikud**. V
 
 ![Human Resources kasutajavalikud.](./media/hr-teams-leave-app-user-options.png)
 
-Kui tõlkeprobleemid ei lahene, andke meile teada. Teavet leiate teemast [Finance and Operationsi rakenduste või teenuse Lifecycle Services (LCS) tugi](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Kui tõlkeprobleemid ei lahene, andke meile teada. Teavet leiate teemast [Finance and Operations i rakenduste või teenuse Lifecycle Services (LCS) tugi](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Tõrge puhkusetaotluste kinnitamise korral Teamsis rakenduses Human Resources
 
@@ -199,7 +199,7 @@ Kui saate Teamsi rakenduses puhkusetaotluste kinnitamise katsel tõrke, proovige
 
 2. Veenduge, et kasutajad on vahekaardile **Vestlus** sisse logitud samade mandaatidega, mida nad puhkuse taotluste kinnitamiseks kasutavad. Kasutage sõnumeid "väljalogimine" ja seejärel "sisselogimine" õigete mandaatidega sisse logimiseks.
 
-3. Kui probleem ei lahene, kontrollige süsteemiadministraatorina ärisündmuste süsteemi pakett-töö olekut. Kui see on oote- või täitmisetapis, kontrollige mõne minuti pärast uuesti. Kui olek jääb muutmata, registreerige tugipilet, et meie meeskond saaks probleemi lahendada.
+3. Kui probleem ei lahene, kontrollige ärisündmuste süsteemi **·** pakett-töö olekut süsteemiadministraatorina. Kui see on etapis **Ootamine** või **·** Teostamine, kontrollige mõne minuti pärast uuesti. Kui olek jääb muutmata, logige tugipilet, et meie meeskond saaks probleemi lahendada.
 
 ## <a name="known-accessibility-issues"></a>Teadaolevad hõlbustusprobleemid
 
@@ -208,7 +208,7 @@ Teamsi rakendusel Human Resources on järgmised hõlbustusprobleemid, mille lahe
 | Väljasta | Lahendus või selgitus |
 | --- | --- |
 | 400% suumimine töölaual peidab vaates mõned tegevusnupud. | Selle asemel soovitame kasutada luupi, kuni saame sellel tasemel suumi toetada. |
-| VoiceOver teatab vahekaardil **Vaba aeg** nuputoimingust, lugedes ette vaba aja ruudustiku päist. | Ruudustiku päis ja elemendid rühmitatakse aasta kaupa ja need on ahendatavad. VoiceOver tõlgendab seda kui tegevusüksust, kuid see pole seda. |
+| Vahekaardil Eemaldus on vaate kaudu nuputegevus, samal ajal kui ta **·** loeb päist väljaminekuruudustiku jaoks. | Ruudustikus päised ja elemendid on grupeeritud aasta alusel ning kokkupandavad. Seda esitust tõlgendatakse tegevustava kaubana, kuid mitte nii. |
 | Vahekaardil **Vaba aeg** saab teha lisaks veel ühe nipsamise, kui valitakse uue taotluse **põhjuse kood**. | See nipsamine ei ava siiski ühtki peidetud juhtelementi. |
 | Kui nipsate vahekaardil **Vaba aeg** avatud kalendri korral, liigutakse uue taotluse korral või taotluse redigeerimisel ülaosa asemel hoopis juhtelemendist välja. | Kui jõuate valikuni **Liigu tänase juurde**, võtke arvesse, et see on juhtelemendi lõpp ja nipske vastassuunas, et tagasi algusse saada. |
 | Vahekaardil **Vestlus** viiakse fookus tagasi algusse, kui sisestate kuupäeva abistavat tööriista kaustades või klaviatuuri abil valides. | Vajutage tabeldusklahvi, kuni jõuate uuesti sisendi juurde. |
@@ -217,19 +217,19 @@ Teamsi rakendusel Human Resources on järgmised hõlbustusprobleemid, mille lahe
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Kui Dynamics 365 Human Resourcesi robot on kasutusel Microsoft Teamsis, analüüsitakse kasutaja tekstisisestusi, et mõista aluseks olevat päringut/eesmärki. Kasutaja sisestus (nt „otsing konto Contoso”) suunatakse Microsofti kognitiivsesse teenusesse nimega Language Understanding Intelligent Service (LUIS). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). Seejärel edastatakse see teave Microsofti  [Azure'i roboti raamistikule](https://azure.microsoft.com/services/bot-service/), mis suhtleb Dynamics 365 Human Resourcesi andmetega ja toob kasutaja päringu vastuseks soovitud teabe. 
+Kasutaja Dynamics 365 Human Resources tekstisisestuse abil analüüsitakse aluseks olevat Microsoft Teams päringut/eesmärki mõista. Kasutajasisend, nt Otsingukonto Contoso, suunatakse ühte Microsofti kokuptiivne teenusest Language Understanding Nutikas Teenus (SOFT). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). See teave edastatakse siis  [Microsoft Azure Azure'i raamistikule, mis suhtleb andmetega ja toob](https://azure.microsoft.com/services/bot-service/)Dynamics 365 Human Resources kasutajapäringu jaoks soovitud teabe. 
 
-Kui installite ja lubate juurdepääsu roboti kasutamiseks, annate teenusele LUIS ja Azure'i roboti raamistikule nõusoleku töödelda sisestuse kavatsust, mille tulemuseks on täiustatud vestlusvaatega kasutuskogemus. Teenusel LUIS ja Azure'i roboti raamistikul võib olla võrreldes Dynamics 365 Human Resourcesiga erinev vastavuse tase. Kui teenusel LUIS on juurdepääs ainult kasutaja päringutele ja ei ole mõeldud ühendamiseks kasutaja Dynamics 365 Human Resourcesi andmete või kontoga, siis Dynamics 365 Human Resourcesi roboti kasutaja saab vabatahtlikult sisestada kliendiandmeid, isikuandmeid või muid andmeid sisaldavaid päringuid ja selle päringu sisu võidakse saata teenusesse LUIS ja Azure'i roboti raamistikku. 
+Kui installite ja lubate juurdepääsu roboti kasutamiseks, annate teenusele LUIS ja Azure'i roboti raamistikule nõusoleku töödelda sisestuse kavatsust, mille tulemuseks on täiustatud vestlusvaatega kasutuskogemus. Teenusel LUIS ja Azure'i roboti raamistikul võib olla võrreldes Dynamics 365 Human Resources iga erinev vastavuse tase. Kui AJATEENUSEl on juurdepääs ainult kasutajapäringutele ja see ei ole loodud ühenduseks kasutaja andmete või kontoga, võib osa kasutaja ise sisestada kliendiandmeid, isikuandmeid või muid andmeid ja sellist päringu sisu sisaldava päringu, mille saab saataKOOSTE teenusesse ja Dynamics 365 Human Resources Dynamics 365 Human Resources Azure azure'i raamistikusse. 
 
-Kasutaja päringute ja sõnumite sisu säilitatakse süsteemis LUIS maksimaalselt 30 päeva, krüptitakse passiivsena ja seda ei kasutata koolituse või teenuse täiustamiseks. Lisateavet kognitiivsete teenuste kohta leiate [siit](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
+Kasutaja päringute ja teadete sisu säilitatakse KRÜPTO süsteemi maksimaalselt 30 päevaks, krüptitakse ülejäänud ajal ja seda ei kasutata koolitusel või teenuse täiustamisel. Lisateavet kognitiivsete teenuste kohta leiate [siit](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-Microsoft Teamsi rakenduste administraatori sätete haldamiseks minge [Microsoft Teamsi halduskeskusesse](https://admin.teams.microsoft.com/).
+Microsoft Teams i rakenduste administraatori sätete haldamiseks minge [Microsoft Teams i halduskeskusesse](https://admin.teams.microsoft.com/).
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid ja Azure Cosmos DB
 
-Rakenduse Dynamics 365 Human Resources kasutamisel rakenduses Microsoft Teams võivad mõned kliendiandmed liikuda väljapoole geograafilist piirkonda, kus teie rentniku teenus Human Resources on juurutatud.
+Rakenduse kasutamisel võivad teatud kliendiandmed voogu väljapoole geograafilises piirkonnas, kus Dynamics 365 Human Resources Microsoft Teams teie rentniku Inimressursid teenus juurutatakse.
 
-Dynamics 365 Human Resources edastab töötaja puhkusetaotluse ja töövoo ülesande üksikasjad Microsoft Azure Event Gridi ja Microsoft Teamsi. Neid andmeid võidakse säilitada teenuses Microsoft Azure Event Grid kuni 24 tundi ja töödelda Ameerika Ühendriikides, need krüptitakse edastamisel ja passiivsena ning Microsoft ega selle alamtöötlejad ei kasuta neid koolituste või teenuste täiustamiseks. Lisateavet selle kohta, kus teie andmeid rakenduses Teams talletatakse, leiate teemast [Andmete asukoht rakenduses Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
+Dynamics 365 Human Resources edastab töötaja puhkusetaotluse ja töövoo ülesande üksikasjad sündmuste Microsoft Azure tabelisse ja . Microsoft Teams Neid andmeid võidakse säilitada teenuses Microsoft Azure Event Grid kuni 24 tundi ja töödelda Ameerika Ühendriikides, need krüptitakse edastamisel ja passiivsena ning Microsoft ega selle alamtöötlejad ei kasuta neid koolituste või teenuste täiustamiseks. Lisateavet selle kohta, kus teie andmeid rakenduses Teams talletatakse, leiate teemast [Andmete asukoht rakenduses Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
 Vestlusrobotiga suhtlemisel rakenduses Human Resources võidakse vestluse sisu teenuses Azure Cosmos DB talletada ja edastada rakendusele Microsoft Teams. Neid andmeid võidakse talletada teenuses Azure Cosmos DB kuni 24 tundi ja töödelda väljaspool geograafilist piirkonda, kus teie rentniku teenus Human Resources on juurutatud, need krüptitakse edastamisel ja passiivsena ning Microsoft ega selle alamtöötlejad ei kasuta neid koolituste või teenuste täiustamiseks. Lisateavet selle kohta, kus teie andmeid rakenduses Teams talletatakse, leiate teemast [Andmete asukoht rakenduses Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  
@@ -237,7 +237,7 @@ Et piirata oma organisatsiooni või selles olevate kasutajate juurdepääsu rake
 
 ## <a name="see-also"></a>Vt ka
 
-[Microsoft Teamsi allalaadimine ja installimine](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
+[Microsoft Teams i allalaadimine ja installimine](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams spikrikeskus](https://support.office.com/teams)</br>
 [Rakendus Human Resources Teamsis](hr-admin-teams-leave-app.md)
 

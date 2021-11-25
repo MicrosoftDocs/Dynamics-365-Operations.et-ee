@@ -2,7 +2,7 @@
 title: Hetktõmmiste ülevaade
 description: Selles teemas kirjeldatakse hetktõmmiste funktsiooni, mis võimaldab teil salvestada likviidsuse prognoosi hilisemaks analüüsimiseks või tegelikkusega võrdlemiseks. Likviidsuse prognoosi loomisel saate selle prognoosi salvestada hetktõmmisena. Seejärel saate kasutada hetktõmmiseid, et redigeerida prognoosi kaasatud kontosid või võrrelda hetktõmmise prognoosi tegelike näitajatega.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386559"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752753"
 ---
 # <a name="snapshots-overview"></a>Hetktõmmiste ülevaade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Hetktõmmised lasevad organisatsioonidel redigeerida ja salvestada oma teatud ajahetke sularahajääki ja sularaha prognoose. Saate hetktõmmist võrrelda tegeliku finantssüsteemiga, uurida hälvet ja kasutada seda teavet likviidsuse planeerimise parandamiseks aja jooksul. Täpsemalt saab hetktõmmiseid kasutada järgmistel viisidel.
 
@@ -40,8 +41,6 @@ Saate luua hetktõmmise, kui valite käsu **Uus hetktõmmis** kas vahekaardil **
 
 Hetktõmmiste sularaha sissetulekuid ja väljaminekuid saab igal ajal redigeerida. Kui sissetuleku või väljamineku summat muuta, siis jagatakse uuendatud summat algse saldo moodustanud likviidsuse kontodel proportsionaalselt. Kui olete hetktõmmise redigeerimise lõpetanud, valige muudatuste salvestamiseks käsk **Salvesta**.
 
-Mitme hetktõmmise võrdlemiseks valige käsk **Võrdle hetktõmmiseid**. Korraga saate võrrelda kaht hetktõmmist. Valige kaks hetktõmmist, mida võrrelda ja seejärel valige **OK**. Leht **Hetktõmmiste võrdlemine** kuvab valitud hetktõmmiste võrdluse. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa kahe prognoosi üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi saldode vahel.
-
-Tegelike finantstulemuste võrdlemiseks hetktõmmisena salvestatud prognoosiga valige **Võrdle tegelikega**. Lehel **Hetktõmmise võrdlemine** kuvatakse võrdlust tegelike summade ja prognoosi vahel. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa perioodi tegelike saldode ja prognoositud saldode üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi tegeliku saldo ja prognoositud saldo vahel.
+Tegelike finantstulemuste võrdlemiseks hetktõmmisena salvestatud prognoosiga valige **Võrdle tegelikega**. Lehekülg **Võrdle tegelikega** näitab võrdlust tegelike summade ja prognoosiga. Lehe ülaosas olev diagramm näitab sularaha sissetulekute, sularaha väljaminekute ja panga saldode võrdlust kattuvatel perioodidel kahe hetktõmmise vahel. Allosas olev ruudustik näitab iga likviidsuse summa perioodi tegelike saldode ja prognoositud saldode üksikasjalikku võrdlust. Ruudustiku veerg **Hälve** kuvab erinevust perioodi tegeliku saldo ja prognoositud saldo vahel.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

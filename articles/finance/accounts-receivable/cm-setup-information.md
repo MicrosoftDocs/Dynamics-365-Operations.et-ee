@@ -1,7 +1,7 @@
 ---
 title: Krediidihalduse seadistamine
 description: See teema kirjeldab kreeditihalduseks vajalikku seadistust.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfb747c9a510474d0ca27a595158cd6e6d24359a37f665f64b4c640536874aa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723939"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753661"
 ---
 # <a name="credit-management-setup"></a>Krediidihalduse seadistamine 
 

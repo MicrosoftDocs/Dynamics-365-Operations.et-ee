@@ -1,8 +1,8 @@
 ---
 title: Ühisparameetrite konfigureerimine
-description: Ettevõtete vahel ühiskasutuses olevate kirjete (nt ametikoha kirjete) puhul tuleb seadistada jagatud parameetrid. See artikkel selgitab juriidiliste isikute vahel inimressursside parameetrite seadistamist.
-author: andreabichsel
-ms.date: 06/24/2021
+description: Käesolev teema kirjeldab inimressursside parameetrite seadistamist juriidiliste isikute lõikes.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,30 +12,30 @@ ms.search.scope: Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66f57c9613ba04ebb3748699105469586c27d66131c062d1af286b24199c4be7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 039d8e2100824921d568c013fe3e113e1b091979
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723643"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729095"
 ---
 # <a name="configure-shared-parameters"></a>Ühisparameetrite konfigureerimine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Ettevõtete vahel ühiskasutuses olevate kirjete (nt ametikoha kirjete) puhul tuleb seadistada jagatud parameetrid. See artikkel selgitab juriidiliste isikute vahel inimressursside parameetrite seadistamist.
+Peate seadistama ühised parameetrid kirjetele, mida jagatakse ettevõtete vahel, nt **Positsiooni** kirjed. Käesolev teema kirjeldab inimressursside parameetrite seadistamist juriidiliste isikute lõikes.
 
-Mõnd tüüpi kirjeid, nt ametikohakirjeid, ühiskasutatakse kõikides ettevõtetes. Nende kirjete puhul peate seadistama ühiskasutatavad parameetrid. Kasutate näiteks lehte **Inimressursside ühiskasutusega parameetrid**, et seadistada inimressursside parameetrid juriidilistele isikutele. 
+Teatud tüüpi kirjed, nt Positsiooni **·** kirjed, on mitme ettevõtte ühiskasutuses. Nende kirjete puhul peate seadistama ühiskasutatavad parameetrid. Näiteks inimressursside jagatud **parameetrite lehte kasutatakse inimressursside parameetrite** häälestamiseks juriidiliste isikute lõikes. 
 
 Lehel **Inimressursside ühiskasutusega parameetrid** on parameetrid rühmitatud piirkondadeks nende funktsiooni põhjal. 
 
 ### <a name="settings"></a>Sätted
-Vahekaardil **ID** peate valima ID tüübid, mis esindavad lehel loetletud ID-koode. Peate seadistama ID tüübid enne, kui saate töötajatele ID teavet sisestada. Teave isikukoodi, rahvusliku ID-koodi, välismaalase ID-koodi ja isikliku ID-koodi kohta säilitatakse lehel **ID tüüp**. Uue ID tüübi määratlemiseks või olemasolevate tüüpide loendi ülevaatamiseks klõpsake valikuid **Personalijuhtimine** &gt; **Linkide vahekaart** &gt; **Seadistus** &gt; **Identifikatsiooni tüübid**. Saate sisestada lihtsa koodi ja kirjelduse. 
+Vahekaardil **ID** peate valima ID tüübid, mis esindavad lehel loetletud ID-koode. Peate seadistama ID tüübid enne, kui saate töötajatele ID teavet sisestada. Teave isikukoodi, rahvusliku ID-koodi, välismaalase ID-koodi ja isikliku ID-koodi kohta säilitatakse lehel **ID tüüp**. Uue ID tüübi määratlemiseks või olemasolevate tüüpide loendi ülevaatamiseks minge personalihalduse linkide **·** &gt; **·** &gt; **häälestuse** &gt; **ID-tüüpi.** Saate sisestada lihtsa koodi ja kirjelduse. 
 
-Vahekaardil **Numbriseeriad** saate valida numbriseeriad, mida kasutatakse järgmiste kirjete puhul: Personalinumber, Ametikoht, Kasutajanõude ID, I-9 dokument, Kandidaat, Arutelu, Soodustuse ID ja Personalitoiming (kui see kirje tüüp on lubatud). Numbriseeria viidete ja koodide säilitamiseks kasutage loendilehte **Numbriseeriad**. Selle lehe leidmiseks kasutage lehe otsimise funktsiooni. 
+Numbriseeriate vahekaardil saate valida numbriseeriad, mida kasutatakse järgmiste kirjete **·** jaoks: personalinumber, positsioon, kasutajanõude **·** **·** **·** **ID, I-9** dokument, **·** kandidaat, **·** arutelu, **hüvitise ID** **·** ja personalitegevus (kui see kirjetüüp on lubatud). Numbriseeria viidete ja koodide säilitamiseks kasutage loendilehte **Numbriseeriad**. Selle lehe leidmiseks kasutage lehe otsimise funktsiooni. 
 
 Osutage vahekaardil **Ametikohad**, kas määramisele on saadaval vaikimisi uusi ametikohti.
 
@@ -44,19 +44,19 @@ Osutage vahekaardil **Ametikohad**, kas määramisele on saadaval vaikimisi uusi
 
 Vahekaardil **Täpsem juurdepääs** saate piirata juurdepääsu teabele või linkidele:
 
-- **Juurdepääsu piiramine töötaja teabele** - lülitage see funktsioon sisse, kui kasutajatel peaks olema võimalik vaadata töötaja teavet ainult nende juriidiliste isikute puhul, kellele neil on juurdepääs, ja töötajate puhul, kellel on nendes juriidilistes isikutes töö.
+- **Juurdepääsu piiramine töötaja teabele – valige see funktsioon, kui kasutajatel peaks olema võimalik vaadata töötaja teavet ainult nende juriidiliste isikute puhul, kellele neil on juurdepääs, ja töötajate puhul, kelle töö on nendes** juriidilistes isikutes.
 
-    Kui see funktsioon on sisse lülitatud, järgige neid samme, et seadistada sobivad õigused igale kasutajale, kelle vaade peab olema piiratud:
+    Kui see funktsioon on valitud, järgige neid samme, et seadistada sobivad õigused igale kasutajale, kelle vaade peab olema piiratud:
 
     1. Valige **kasutaja** lehel kasutaja.
     1. Valige kasutajale roll. Suvand **Organisatsioonide määramine** muutub kättesaadavaks.
     1. Valige **Organisatsioonide määramine**.
     1. Valige uuel leheküljel suvand **Anna juurdepääs konkreetsetele organisatsioonidel** ja seejärel valige organisatsioonid, mille juurdekasutajal peab juurdepääs olema.
-    1. Korrake samme 2 kuni 4 muude rollide puhul, mis kasutajal on, k.a süsteemi kasutaja roll.
+    1. Korrake samme 2 kuni 4 iga täiendava rolliga, mis kasutajal on, k.a süsteemi kasutaja roll.
 
     > [!NOTE]
     > Ettevõtted, kus kasutajal juurdepääs on, peavad ühtima kõigi kasutaja rollidega.
 
-- **Luba ettevõtetevahelise hüvitise vaade** – hüvitus töötajatele määratakse tööle juriidilise isiku kohta. Mõnikord võib töötaja olla tööle võetud korraga mitmesse juriidilisse isikusse. Kui see funktsioon on sisse lülitatud, kuvatakse igale juriidilisele isikule hüvitus töötajate iseteeninduses ja haldurite iseteeninduses ilma, et peate juriidilisi isikuid muutma. 
+- **Luba ettevõtetevahelise hüvitise vaade** – hüvitus töötajatele määratakse tööle juriidilise isiku kohta. Mõnikord võib töötaja olla tööle võetud korraga mitmesse juriidilisse isikusse. Kui see funktsioon on valitud, kuvatakse hüvitus igale juriidilisele isikule Töötaja iseteeninduses ja juhataja iseteeninduses ilma, et peate **·** **·** juriidilised isikud muutma. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

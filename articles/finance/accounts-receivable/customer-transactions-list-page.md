@@ -1,7 +1,7 @@
 ---
 title: Kliendi kannete loendi leht
 description: See teema annab teavet rakenduse Microsoft Dynamics 365 Finance kliendi kannete loendilehe kohta.
-author: mikefalkner
+author: abruer
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e91e21c765c30740082ed0c5e5405a8748ffe8cc3babbe821103976d14c7a43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728909"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753870"
 ---
 # <a name="customer-transactions-list-page"></a>Kliendi kannete loendi leht
 
@@ -39,7 +39,7 @@ Nupp **Kuva tasakaalustused** toimingupaanil annab kiire juurdepääsu tasakaalu
     - **Kuvaga seotud** – kuvab kõik kliendi maksetöölehe kanded ja päevaraamatu kanded, mis loodi töölehtedes, milles loodi loendis kuvatud dokumendid. Näiteks makse kuvamisel kuvatakse kõik maksetöölehel, milles see loodi, olevad maksed. Arve või makse kuvamisel, mis loodi päevaraamatus, kuvatakse kõik päevaraamatus, milles see loodi, olevad dokumendid. Peale selle kuvatakse kõik nende dokumendiloendiga seotud tasakaalustused. Seotud maksete vaatamise ajal muutub nupu sildiks **Kuva tasakaalustused**. Valige suvand **Kuva tasakaalustused**, et kuvada ainult need kanded, mis kuvati dialoogiboksi **Kuva tasakaalustused** avamisel.
     - **Kuva ajalugu** – kuvatakse kannete tasakaalustamisajalugu. Valige dialoogiboksi sulgemiseks suvand **Sule**.
     - **Kuva raamatupidamine** – kuvatakse kõik valitud dokumentidega seotud kanded. Valige dialoogiboksi sulgemiseks suvand **Sule**.
-    - **Ekspordi** – valitud kanded eksporditakse Microsoft Excelisse.
+    - **Ekspordi** – valitud kanded eksporditakse Microsoft Excel isse.
     - **Kannete tasakaalustamine** – see nupp kuvatakse ainult siis, kui valitud algdokument ei olnud täielikult tasakaalustatud. Selle nupu valimisel kuvatakse dialoogiboks **Kannete tasakaalustamine**, kus saate valida tasakaalustamiseks kanded.
     - **Tasakaalustamise tühistamine** – see nupp kuvatakse ainult siis, kui valitud algdokument oli täielikult tasakaalustatud. Selle nupu valimisel kuvatakse dialoogiboks **Tasakaalustamise tühistamine**, kus saate selle dokumendi tasakaalustamised tühistada.
 

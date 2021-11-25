@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: eebe51ae89326965235c031ed11008c6af3d453f0f297d3201862946ab4caca9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 815e3f15f97c7f7083c4044b9f61bd05a33624cc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741504"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778180"
 ---
 # <a name="electronic-invoicing-overview"></a>Elektroonilise arvelduse ülevaade
 
@@ -44,14 +44,16 @@ Elektrooniline arveldus aitab teil saavutada järgmisi eesmärke:
 
 Elektroonilise arvelduse kasutamiseks peate selle installima oma projektis Microsoft Dynamics Lifecycle Services (LCS). Järgmiseks järgige seadistusjuhiseid, et lülitada sisse integratsioon rakendusega Finance või Supply Chain Management. Lisateavet leiate teemast [Elektroonilise arvelduse kasutamise alustamine](e-invoicing-get-started.md).
 
-## <a name="service-availability"></a><a name="availability"></a>Teenuse saadavus
+## <a name="service-availability"></a><a name="availability"></a> Teenuse saadavus
 
 Praegu on elektrooniline arveldus saadaval klientidele eelvaateprogrammi kaudu ja järgmises faasis muutub teenus üldiselt kättesaadavaks. Kuna riigi-/regioonipõhiste nõuetega seotud funktsioonid võivad olla väljalaske eri faasides piiratud, peaksite alati lugema kõige ajakohasemat dokumentatsiooni, milles käsitletakse toetatud riigi-/regioonipõhiste lahenduste ulatust.
 
 Elektrooniline arveldus juurutatakse järgmistes Azure'i geograafilistes piirkondades:
 
-- Ameerika Ühendriigid
+- USA
 - Euroopa
+- Ühendkuningriik
+- Aasia
 
 > [!NOTE]
 > Elektrooniline arveldus ei toeta kohapealseid juurutusi.
@@ -66,7 +68,7 @@ Elektroonilist arveldust saab kasutada olukordades, kus te peate looma elektroon
 - Järjekindel kasutajakogemus e-arvete protsessi konfigureerimisel ja jälgimisel kõigi riikide või regioonide puhul
 - Kiirema, lihtsama ja odavama Elektroonilise arvelduse lahenduse kohandamine uutele riikidele või piirkondadele
 - Teenuse konfigureerimine teenuse Regulatory Configuration Service (RCS) kaudu ja globaliseerimisfunktsiooni seadistamine
-- Äriandmete teisendamine mitmesse e-arve vormingusse (XML, JavaScript Object Notation \[JSON\], TXT ja komaeraldusega väärtused \[CSV\]) RCS-is määratletud konfiguratsioonide abil.
+- Äriandmete teisendamine mitmesse e-arve vormingusse (XML, JavaScript Object Notation \[ JSON\], TXT ja komaeraldusega väärtused \[ CSV\]) RCS-is määratletud konfiguratsioonide abil.
 
     - Elektroonilise aruandluse vormingud, mis on saadaval riikides või regioonides, kus e-arve teisendamise konfigureerimine pole saadaval
 

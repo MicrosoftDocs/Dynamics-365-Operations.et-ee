@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577908"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778373"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Voo ajal töö loomise plaanimine
 
@@ -33,7 +33,7 @@ Kui see funktsioon on lubatud, luuakse plaanitud töö automaatselt, mida süste
 
 Selles teemas kirjeldatud funktsioonide kasutamiseks tuleb need teie süsteemi jaoks sisse lülitada. Kasutage [Funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et lülitada sisse järgmised funktsioonid järgmises järjekorras:
 
-1. **Üleorganisatsioonilise töö blokeerimine** - vajalik plaanitud töö loomise nii käsitsi kui ka automaatseks konfigureerimiseks.
+1. **Üleorganisatsioonilise töö blokeerimine** - vajalik plaanitud töö loomise nii käsitsi kui ka automaatseks konfigureerimiseks. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada.)
 1. **Planeeritud töö loomine** - vajalik plaanitud töö loomise nii käsitsi kui ka automaatseks konfigureerimiseks.
 1. **Üleorganisatsioonilise "planeeritud töö loomise" voo meetod** - vajalik plaanitud töö loomise nii käsitsi kui ka automaatseks konfigureerimiseks. Kui kasutate ainult käsitsi konfigureerimist, siis seda funktsiooni ei vaja.
 
@@ -65,7 +65,7 @@ Kui te ei aktiveerinud [*üleorganisatsioonilist "töö loomise plaani" voomeeto
 
 Laotöö loomiseks paralleelse asünkroonse meetodi kasutamiseks peab teie voo protsess olema käivitatud partiina. Selle häälestamiseks tehke järgmist.
 
-1. Avage  **Laohaldus\>Seadistus \> Laohalduse parameetrid**.
+1. Avage  **Laohaldus \> Seadistus \> Laohalduse parameetrid**.
 1. Vahekaardil **Üldine** määrake suvand **Töötle vooge pakett-töötlusega** valikule *Jah*. Soovi korral saate valida ka sihtotstarbelise **voo töötlemise pakett-tööde grupi**, et vältida pakett-töötluse järjekorra käitamist teiste protsessidega samal ajal.
 1. Määrake syvandi **Oota lukustust (ms)** aeg, mis kohaldub, kui süsteem töötleb mitut voogu samal ajal. Enamike suuremate laine loomisprotsesside puhul soovitame väärtus *60 000*.
 
@@ -73,7 +73,7 @@ Laotöö loomiseks paralleelse asünkroonse meetodi kasutamiseks peab teie voo p
 
 Alustage uue voo etapi meetodi loomisega ja selle lubamisega paralleelse asünkroonse ülesande töötlemiseks.
 
-1. Avage jaotis  **Laohaldus \>Seadistus \> Vood \> Voo töötlemise meetodid**.
+1. Avage jaotis  **Laohaldus \> Seadistus \> Vood \> Voo töötlemise meetodid**.
 1. Valige  **Meetodite uuesti loomine** ja pange tähele, et *WHSScheduleWorkCreationWaveStepMethod* on lisatud voo töötlemise meetodite loendisse, mida saate oma saatmise voomallides kasutada.
 1. Valige kirje **meetodi nimega** *WHSScheduleWorkCreationWaveStepMethod* ja valige suvand **Ülesande konfiguratsioon**.
 1. Ruudustikku uue rea loomiseks valige tegevuspaanil **Uus** ja kasutage järgmisi sätteid.
@@ -84,7 +84,7 @@ Alustage uue voo etapi meetodi loomisega ja selle lubamisega paralleelse asünkr
 
 Nüüd olete valmis värskendama olemasolevat voomalli (või looma uue), et kasutada voo töötlemismeetodit *Töö loomise plaanimine*.
 
-1. Avage **Laohaldus\>Seadistus \> Vood \> Voomallid**.
+1. Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.
 1. Valige toimingupaanil nupp **Redigeeri**.
 1. Valige loendipaanil voomall, mida soovite värskendada (kui testite demoandmeid kasutades, võite kasutada *24 saadetise vaikemalli*).
 1. Laiendage kiirkaarti **Meetodid** ja valige rida **nimega** *Töö loomise plaanimine* ruudustikus **Ülejäänud meetodid**.

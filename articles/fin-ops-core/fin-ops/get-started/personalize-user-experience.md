@@ -2,7 +2,7 @@
 title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
-ms.translationtype: HT
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581061"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777981"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -46,7 +46,7 @@ Leht **Kasutaja suvandid** sisaldab mitut süsteemiülest sätet praegusele kasu
 Lisaks oma kasutajasätete muutmisele saate oma kasutusandmeid ja isikupärastamisi vaadata ning kustutada lehel **Kasutaja suvandid**. Oma kasutusandmete vaatamiseks valige toimingupaanil **Kasutusandmed**. Süsteemi lehtedel tehtud isiklikke muudatusi võimaldab teil vaadata ja hallata vahekaart **Isikupärastamine**. Sellel vahekaardil saate lähtestada ka funktsiooni viiktekstid (st hüpikaknad, mis tutvustavad uusi süsteemifunktsioone). Seejärel teavitatakse teid uuesti eelnevatest funktsioonidest.
 
 > [!NOTE]
-> Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, saate isikupärastamisi vaadata ja hallata, kui valite lehe **Kasutaja valikud** tegumiribal **Isikupärastamine**.
+> Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, saate isikupärastamisi vaadata ja hallata, kui valite lehe Kasutaja valikud tegumiribal Isikupärastamine.
 
 ## <a name="restricted-personalization-access-formerly-implicit-personalizations"></a>Piiratud juurdepääs isikupärastamisele (varem kaudsed isikupärastamised)
 
@@ -107,7 +107,7 @@ Kui soovite teha lehel mitu muudatust või teha muudatusi, mis pole muude mehhan
 - Valige mistahes lehe vahekaardi **Suvandid** jaotise **Isikupärastamine** tegumiribal **Isikupärasta seda lehte**.
 - Valige navigeerimisribal nupp **Sätted** (hammasrattasümbol) ja valige **Isikupärasta**.
 
-[![Isikupärastamise tööriistariba.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![ Isikupärastamise tööriistariba.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Lehel liikumine
 
@@ -126,8 +126,8 @@ Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 - Tööriistaga **Kuva päis** saate kuvada välja kiirkaardi kokkuvõttejaotises. Tööriistariba nupu **Kuva päises** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja välju sealt eemaldada, valides soovitud väljad.
 - Kasutage tööriista **Nõua**, et määrata element, nagu on nõutud andmesisestuse jaoks. Nupu **Nõua** valimisel tööriistaribal kuvatakse kõik nõutavad isikupärastatud elemendid varjutatud konteineris. Seejärel saate need uuesti mittenõutavaks muuta. See suvand on saadaval ainult versioonis 10.0.12 ja hilisemates versioonides, milles on sisse lülitatud funktsioon **Väljade määramine vastavalt vajadusele isikupärastamise abil**.
 - Tööriistaga **Lukusta** saate märkida elemendi redigeeritavaks või mitteredigeeritavaks. Nupu **Lukusta** valimisel tööriistaribal kuvatakse kõik parasjagu mitteredigeeritavad elemendid varjutatud konteineris. Seejärel saate need uuesti redigeeritavaks muuta. Arvestage sellega, et mõned väljad on nõutavad ja neid ei saa mitteredigeeritavaks muuta. Nende väljade kõrval kuvatakse tabalukuikoon.
-- Kasutage tööriista **Lisa rakendus Power Appsist**, et manustada lehel rakendus, mis loodi Microsoft Power Appsi kasutades. Üksikasjalikku teavet rakenduse Power Appsist lehele manustamise kohta vt teemast [Rakenduste manustamine Power Appsist](embed-power-apps.md). See suvand on saadaval ainult siis, kui funktsioon [Salvestatud vaated](saved-views.md) on väljalülitatud.
-- Kasutage nuppu **Lisa rakendus**, et manustada lehele rakendus, mis loodi Microsoft Power Appsis või kolmanda poole poolt. See suvand on saadaval ainult siis, kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud. 
+- Kasutage tööriista **Lisa rakendus Power Apps ist**, et manustada lehel rakendus, mis loodi Microsoft Power Apps i kasutades. Üksikasjalikku teavet rakenduse Power Apps ist lehele manustamise kohta vt teemast [Rakenduste manustamine Power Apps ist](embed-power-apps.md). See suvand on saadaval ainult siis, kui funktsioon [Salvestatud vaated](saved-views.md) on väljalülitatud.
+- Kasutage nuppu **Lisa rakendus**, et manustada lehele rakendus, mis loodi Microsoft Power Apps is või kolmanda poole poolt. See suvand on saadaval ainult siis, kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud. 
 - Kasutage tööriista **Eemaldamine** lehe lähtestamiseks vaikesätetele, installitud olekusse. Kõik praeguse lehe isikupärastamised kustutatakse. Seda tegevust ei saa tagasi võtta. Seetõttu kasutage seda tööriista ainult siis, kui soovite lehe lähtestada. Kui funktsioon **Salvestatud vaated** on sisse lülitatud, kustutab see tööriist praeguse vaate isikupärastamise.
 - Tööriistaga **Importimine** saate laadida isikupärastamise failist, mille teie või keegi teine on lehe jaoks varem loonud. 
 
@@ -148,7 +148,7 @@ Mõned lehed, milles on loendid, on isikupärastamisfunktsioon **Lisa tööruumi
 > [!NOTE]
 > Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, on tööruumi lükatud sisu vaatega otse lingitud. Vaate päringut kasutatakse andmeid tööruumi tuua ning tööruumi asjaomane paan või link avab selle vaate lehe, nii et selle puhul rakendatakse vaate päring ja isikupärastamised. Kui vaadet uuendatakse, kohandatakse asjaomaseid tööruumi elemente uue vaate järgi.
 
-[![Lisa tööruumi.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![ Lisa tööruumi.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Tööruumile loendi lisamiseks tööruumi sortige või filtreerige esmalt lehel loend, et see kuvaks teavet nii, nagu soovite seda tööruumis kuvada. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Loend**. Pärast suvandi **Konfigureeri** valimist ilmub dialoogiboks, kus saate valida veerud, mis peaks tööruumis loendis ilmuma. Saate ka määrata tööruumis olevale loendile sildi.
 - Tööruumile paani lisamiseks filtreerige esmalt lehel loendit, et see kuvaks andmed, mida tuleks kokku võtta või millele soovite kiirelt juurdepääsu. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Paan**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale paanile sildi. Saate ka määrata, kas paanil kuvatakse arv. Pärast seda, kui paan on tööruumi lisatud, saate selle valida praeguse lehe avamiseks tööruumist. Seejärel saate vaadata paaniga seotud filtreeritud loendit.
@@ -170,7 +170,7 @@ Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Seda saab is
 Üks armatuurlaual saadaolev ainulaadne isikupärastamise võimalus on võime lisada paane. 
 
 - Kui funktsioon **Täisleheküljelised rakendused** on välja lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti saate lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Paanide, loendite ja linkide lisamine tööruumi](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
-- Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Appsist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. Lisateavet nende manustatud rakenduste lisamise, redigeerimise, kustutamise ja jagamise kohta vt jaotisest [Lõuendirakenduste manustamine Power Appsist](embed-power-apps.md) ja [Kolmanda osapoole rakenduste manustamine](embed-website.md).
+- Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Apps ist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. Lisateavet nende manustatud rakenduste lisamise, redigeerimise, kustutamise ja jagamise kohta vt jaotisest [Lõuendirakenduste manustamine Power Apps ist](embed-power-apps.md) ja [Kolmanda osapoole rakenduste manustamine](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Isikupärastamiste ühiskasutamine
 
@@ -219,6 +219,9 @@ Kui salvestatud vaated ei ole lubatud, järgige isikupärastamise kopeerimiseks 
 ### <a name="export-and-import-views-or-personalizations"></a>Eksportige ja importige vaateid või isikupärastamiseid
 
 Teine viis isikupärastamise jagamiseks on läbi ekspordi ja impordi. Üksikud kasutajad või administraator, kes tegutseb enda nimel, saavad seda meetodit kasutada oma isikupärastamise või vaadete eksportimiseks ja seejärel anda eksporditud faili teistele kasutajatele importimiseks. Teise võimalusena saavad kasutajad anda eksporditud isikupärastamised haldusõigusi omavale kasutajale ja see kasutaja saab seejärel kasutada **Isikupärastamise** halduslehte et rakendada isikupärastamise fail paljudele kasutajatele samaaegselt.
+
+> [!IMPORTANT]
+> Kuna isikupärastamised jäävad püsima kõigis uuendustes, importige kõik isikupärastamised uuesti pärast teenuse uuendamist või mis tahes muul ajal on ebavajalik ja väga laidetud.   
 
 #### <a name="export"></a>Eksport
 

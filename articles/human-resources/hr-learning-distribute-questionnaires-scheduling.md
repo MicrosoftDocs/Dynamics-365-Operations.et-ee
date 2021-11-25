@@ -1,8 +1,8 @@
 ---
 title: Küsimustike levitamine ajastamise abil
 description: Küsimustiku planeerimine võimaldab plaanida ja jaotada küsimustikke mitmele vastajale.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningM
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ca8eddea3dddbbe873717b1d1f5cb2054891d0f0036400d22eacef84bf96da3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a2336cafe7e2c914c2592c91c888b1e0ae1bc608
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755537"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728672"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Küsimustike levitamine ajastamise abil
 
@@ -28,105 +28,105 @@ Küsimustiku planeerimine võimaldab plaanida ja jaotada küsimustikke mitmele v
 
 ## <a name="create-a-questionnaire-schedule"></a>Küsimustiku graafiku loomine
 
-1. Tehke valik Küsimustik > Jaota > Küsimustiku graafikud.
+1. Minge küsimustiku **·** > **·** > **jaotamisgraafikusse**.
 
-2. Klõpsake valikut Uus.
+2. Klõpsake valikut **Uus**.
 
-3. Sisestage väärtus väljale Plaanimine.
+3. Tippige **väärtus** väljale Planeerimine.
 
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-    * Määrake graafik olekusse Anonüümne, kui soovite vastused salvestada kujul, kus vastustega ei ole seotud nimesid.  
+4. Sisestage väärtus väljale **Kirjeldus**.
+    * Määrake graafik **·** anonüümseks, kui vastused tuleks salvestada ilma vastusega seostatud nimedeta.  
     * Anonüümsete tulemuste lubamine tuleb esmalt inimressursside parameetrites seadistada.  
 
-5. Valige väljalt Tüüp plaanimise tüüp.  Selles näites kasutame tüüpi Rahulolu.
+5. Väljal **Tüüp** valige planeerimistüüp.  Selles näites kasutatakse rahulolu **·** tüüpi.
 
 6. Otsige loendist ja valige soovitud kirje.
 
 7. Klõpsake loendis valitud real olevat linki.
 
-8. Sisestage kuupäev väljale Kuupäev.
+8. Väljale **Kuupäev** sisestage kuupäev.
 
-9. Laiendage jaotist Töötaja iseteeninduse meil.
+9. Laiendage **töötaja iseteeninduse e-kirja** jaotist.
 
-10. Sisestage väärtus väljale Teema.
+10. Sisestage väärtus väljale **Teema**.
 
     * Näide: küsimustik on saadaval  
 
-11. Tippige väljale Tekst meilisõnumi sisu. Pange tähele, et süsteemis saab kasutada väärtuste asendamiseks muutujat.
+11. Tippige **·** tekstiväljale oma meilisõnumi keha. Pange tähele, et süsteemis saab kasutada väärtuste asendamiseks muutujat.
 
     * Näide: Lugupeetud %P%! Töötajate tervise küsitluse täitmiseks palun logige sisse töötaja iseteenindusse.  Contoso  
 
-12. Klõpsake nuppu Salvesta.
+12. Klõpsake nuppu **Salvesta**.
 
 ## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a>Kasutage seadistuse üksikasju vastamiseks küsimustik(e) valimiseks ja päringuid vastajate valimiseks.
 
-1. Klõpsake valikut Seadistuse üksikasjad.
+1. Klõpsake **seadistuse** üksikasju.
 
 2. Valige loendist päring, mille abil süsteemist küsimustikule vastajaid leida.
 
     * Näide: töötajad  
 
-3. Klõpsake valikut Kuva või muuda päringut, et kindlaid inimesi valida, või kohandage päringut inimeste leidmiseks, kes vastavad teatud kriteeriumidele.
+3. Kindlate inimeste valimiseks või päringu kohandamiseks kindlate kriteeriumitega inimeste leidmiseks klõpsake **nuppu Vaata või muuda** päringut.
 
     * Pange tähele, et kõik vastajad peavad olema süsteemi kasutajad.  
 
-4. Märkige loendis rida nimega Person
+4. Märkige loendis rida Isiku jaoks.
 
-5. Sisestage või valige väärtus väljal Kriteeriumid.
+5. Sisestage või valige väärtus väljal **Kriteeriumid**.
 
     * Valige Julia Funderburk  
 
 6. Valige loendist Julia Funderburk
 
-7. Klõpsake nuppu OK.
+7. Klõpsake valikut **OK**.
 
-8. Klõpsake vahekaarti Küsimustikud.
+8. Klõpsake vahekaarti **·** Küsimustikud.
 
-9. Laiendage puul valikut „sõlm küsimustiku tüübi Rahuoluküsitlus kohta”.
+9. Laiendage puus küsimustikutüübi rahulolu-uuringu **·** sõlme.
 
 10. Märkige puul valik Töötajate tervise hindamine.
 
-11. Klõpsake nuppu OK.
+11. Klõpsake valikut **OK**.
 
-12. Klõpsake valikut Planeeritud vastamisseanss.
+12. Klõpsake nuppu **Planeeritud vastamisseanss.**
 
-    * Pange tähele, et Planeeritud vastamisseansid on loodud iga valitud/päringuga leitud kasutaja jaoks.  
+    * Pange **tähele, et igale** valitud/päringuga kasutajale on loodud plaanitud vastamisseansid.  
 
 13. Sulgege leht.
 
 ## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a>Küsimustiku graafiku käivitamine küsimustiku vastajatele kättesaadavaks muutmiseks.
 
-1. Klõpsake suvandit Funktsioonid.
+1. Klõpsake suvandit **Funktsioonid**.
 
-2. Klõpsake nuppu Käivita.
+2. Klõpsake käsku **Käivita**.
 
-3. Klõpsake nuppu OK.
+3. Klõpsake valikut **OK**.
 
 ## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a>Meili saatmine vastajate teavitamiseks saadaolevast küsimustikust.
 
-1. Klõpsake suvandit Funktsioonid.
+1. Klõpsake suvandit **Funktsioonid**.
 
-2. Klõpsake valikut Saada meil.
+2. Klõpsake **käsku Saada** meilisõnum.
 
-3. Klõpsake valikut Tühista.
+3. Klõpsake **Tühista**.
 
 ## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a>Kasutage Valikut Planeeritud vastamisseansid, et jälgida, kes peab küsimustiku täitma.
 
-1. Klõpsake valikut Planeeritud vastamisseanss.
+1. Klõpsake nuppu **Planeeritud vastamisseanss.**
 
     * Kustutage kõik ülejäänud planeeritud vastamisseansid, kui olete valmis planeeritud seansi lõpetamiseks.  
 
-2. Klõpsake  Kustuta.
+2. Klõpsake **Kustuta**.
 
-3. Klõpsake nuppu Jah.
+3. Klõpsake nuppu **Jah**.
 
 4. Sulgege leht.
 
 ## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a>Lõpetage graafik, kui kõik vastajad on küsimustiku täitnud ja/või kõik järelejäänud plaanitud vastuseseansid on kustutatud.
 
-1. Klõpsake suvandit Funktsioonid.
-2. Klõpsake suvandit Lõpeta.
-3. Klõpsake nuppu OK.
+1. Klõpsake suvandit **Funktsioonid**.
+2. Klõpsake **nuppu** Lõpeta.
+3. Klõpsake valikut **OK**.
 
 
 

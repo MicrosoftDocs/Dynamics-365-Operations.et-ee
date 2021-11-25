@@ -1,33 +1,33 @@
 ---
-title: Topeltkirjutamise probleemide tõrkeotsing Finance and Operationsi rakendustes
-description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada Finance and Operationsi rakenduste topelkirjutuse mooduliga seotud probleeme.
+title: Topeltkirjutamise probleemide tõrkeotsing Finance and Operations i rakendustes
+description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada Finance and Operations i rakenduste topelkirjutuse mooduliga seotud probleeme.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
-ms.translationtype: HT
+ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380136"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781194"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Topeltkirjutamise probleemide tõrkeotsing Finance and Operationsi rakendustes
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Topeltkirjutamise probleemide tõrkeotsing Finance and Operations i rakendustes
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Täpsemalt annab see teema tõrkeotsingu teavet, mis aitab lahendada Finance and Operationsi rakenduste **Topelkirjutuse** mooduliga seotud probleeme.
+See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Täpsemalt annab see teema tõrkeotsingu teavet, mis aitab lahendada Finance and Operations i rakenduste **Topelkirjutuse** mooduliga seotud probleeme.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Te ei saa laadida topeltkirjutuse moodulit Finance and Operationsi rakenduses
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Te ei saa laadida topeltkirjutuse moodulit Finance and Operations i rakenduses
 
 Kui te ei saa avada lehte **Topeltkirjutus**, valides tööruumis **Andmehaldus** paani **Topeltkirjutus**, on andmete integratsiooni teenus tõenäoliselt maas. Looge tugiteenusepilet andmete integratsiooni teenuse taaskäivitamise taotlemiseks.
 
@@ -49,7 +49,7 @@ Probleemi lahendamiseks logige sisse Microsoft Edge InPrivate-aknas, Chromiumi i
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Tõrge keskkonna linkimisel topeltkirjutusega või uue tabeli vastendamisel
 
-**Probleemi lahendamiseks nõutav roll:** nii Finance and Operationsi rakenduste kui ka teenuse Dataverse süsteemiadministraator.
+**Probleemi lahendamiseks nõutav roll:** nii Finance and Operations i rakenduste kui ka teenuse Dataverse süsteemiadministraator.
 
 Vastenduste linkimisel või loomisel võib ilmneda järgmine tõrge.
 
@@ -59,13 +59,13 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-See tõrge võib ilmneda juhul, kui teil pole topeltkirjutuse või vastenduste loomiseks piisavaid lube. See tõrge võib ilmneda ka siis, kui teenuse Dataverse keskkond lähtestati ilma topeltkirjutuse linkimist tühistamata. Keskkondi saavad linkida kõik kasutajad, kes on süsteemiadministraatorid nii Finance and Operationsi rakendustes kui ka teenuses Dataverse. Uusi tabeli vastendusi saavad lisada ainult kasutajad, kes seadistasid topeltkirjutuse ühenduse. Pärast seadistamist saab iga süsteemiadministraatori rolliga kasutaja olekut jälgida ja vastendusi redigeerida.
+See tõrge võib ilmneda juhul, kui teil pole topeltkirjutuse või vastenduste loomiseks piisavaid lube. See tõrge võib ilmneda ka siis, kui teenuse Dataverse keskkond lähtestati ilma topeltkirjutuse linkimist tühistamata. Keskkondi saavad linkida kõik kasutajad, kes on süsteemiadministraatorid nii Finance and Operations i rakendustes kui ka teenuses Dataverse. Uusi tabeli vastendusi saavad lisada ainult kasutajad, kes seadistasid topeltkirjutuse ühenduse. Pärast seadistamist saab iga süsteemiadministraatori rolliga kasutaja olekut jälgida ja vastendusi redigeerida.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Tõrge tabeli vastendamise peatamisel
 
 Kui proovite peatada tabeli vastendust, võidakse kuvada järgmine tõrketeade.
 
-*\[Keelatud\], \[{„olek”:403,„allikas”:„”,„sõnum”:„Loa vahetuse tõrge: kasutajal pole juurdepääsu ühendusele dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx”}\], Kaugserver tagastas tõrke: (403) keelatud.*
+*\[ Keelatud\], \[{„olek”:403,„allikas”:„”,„sõnum”:„Loa vahetuse tõrge: kasutajal pole juurdepääsu ühendusele dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx”}\], Kaugserver tagastas tõrke: (403) keelatud.*
 
 See tõrge ilmneb siis, kui lingitud Dataverse'i keskkond ei ole saadaval.
 
@@ -82,7 +82,7 @@ Andmete esialgse sünkroonimise käivitamisel võidakse kuvada järgmine tõrket
 Kui proovite seada vastenduse olekut väärtusele **Töötab**, võite saada järgmise tõrketeate. Selle tõrke parandus sõltub tõrke põhjusest:
 
 + Kui vastendusel on sõltuvaid vastendusi, siis veenduge, et selle tabeli vastendusest sõltuvad vastendused oleksid lubatud.
-+ Vastendusel võivad puududa lähte- või sihtveerud. Kui veerg Finance and Operationsi rakenduses puuudb, järgige jaotises [Puuduva tabeli veeru probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) toodud samme. Kui veerg on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et veerud täidetaks vastenduses automaatselt.
++ Vastendusel võivad puududa lähte- või sihtveerud. Kui veerg Finance and Operations i rakenduses puuudb, järgige jaotises [Puuduva tabeli veeru probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) toodud samme. Kui veerg on teenuses Dataverse puudu, klõpsake vastendusel nuppu **Värskenda tabeleid**, et veerud täidetaks vastenduses automaatselt.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Versiooni lahknevuse tõrge ja topeltkirjutuslahenduste täiendamine
 

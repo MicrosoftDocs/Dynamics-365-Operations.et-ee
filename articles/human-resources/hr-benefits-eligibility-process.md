@@ -1,8 +1,8 @@
 ---
 title: Soodustuskõlblikkuse töötlemine
 description: See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: e93c5d57f5bc36e633a5f2147fe5d2f754a5e1cc30a3b8b64582f7229314a338
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: db8dd3e9c3401129ea5474d47f5401c552cab72b
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756987"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771378"
 ---
 # <a name="benefit-eligibility-process"></a>Soodustuskõlblikkuse töötlemine
 
@@ -26,33 +26,31 @@ ms.locfileid: "6756987"
 
 See protseduur näitab, kuidas soodustuskõlblikkuse protsess töötab. Kui protsess on lõpule viidud, saab tulemusi vaadata. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
-1. Avage Personaliarvestus > Soodustused > Soodustused.
+1. Minge inimressursside **soodustuste \>\> soodustustesse**.
 2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake loendis valitud real olevat linki.
-4. Klõpsake nuppu Redigeeri.
-5. Valige väljal Sobivus väärtus Reegli põhjal.
-6. Valige väljal Reegli tüüp soodustuse poliitika reegel, mida soovite soodustusele rakendada.
-7. Klõpsake toimingupaanil suvandit Soodustus.
-8. Klõpsake valikut Kõlblikkuse sündmuse loomine, et avada rippdialoog.
-9. Tippige väärtus väljale Sündmus.
-10. Sisestage väärtus väljale Kirjeldus.
-11. Tehke väljal Sündmuse tüüp valik Registreerimise avamine.
-12. Sisestage kuupäev ja kellaaeg väljale Kehtivuse alguskuupäev.
-13. Sisestage kuupäev ja kellaaeg väljale Registreerimisperiood.
-14. Sisestage number väljale Registreerimispäevad.
-15. Klõpsake valikut Loo sündmus.
-16. Klõpsake käsku Lisa töötajate kiirkaardile.
-17. Tehke väljal Tüübi alusel kuvamine valik Töötajad.
-18. Tehke väljal Juriidilise isiku alusel kuvamine valik Praegune juriidiline isik.
+3. Valige loendis link valitud reas.
+4. Valige suvand **Redigeeri**.
+5. Valige **väljal** Sobivus suvand **Reeglipõhine**.
+6. Valige **väljal Reegli** tüüp soodustuspoliitika reegel, mida kasuks rakendada.
+7. Tegevuspaanil valige **·** soodustus.
+8. Valige **loo kõlblikkuse** sündmus.
+9. Sisestage väärtus ripploendi **väljale** Sündmus.
+10. Sisestage väärtus väljal **Kirjeldus**.
+11. Väljal **Sündmuse** tüüp valige **Suvand Ava** registreerimine.
+12. Sisestage **väljale** Laovarude alguskuupäev kuupäev ja kellaaeg.
+13. Sisestage **väljale Registreerimisperioodi** alguskuupäev kuupäev ja kellaaeg.
+14. Väljale **Registreerimispäevad** sisestage number.
+15. Valige **loo** sündmus.
+16. Valige **·** kiirkaardil Töötajad suvand **·** Lisa.
+17. Väljal **Näita tüübi järgi** valige suvand **·** Töötajad.
+18. Valige väljal **Juriidilise isiku** alusel näitamine suvand Praegune **juriidiline** isik.
 19. Märkige või tühjendage loendis kõik read.
-20. Klõpsake nuppu OK.
-21. Klõpsake suvandit Töötle.
-22. Klõpsake nuppu OK.
+20. Valige nupp **OK**.
+21. Valige **·** protsess.
+22. Valige nupp **OK**.
 23. Värskendage lehte.
-24. Klõpsake käsku Kuva tulemused.
-25. Avage oleku veeru filter.
-26. Sordi A-st Z-ni
-
-
+24. Valige **kuva** tulemused.
+25. Saate avada **·** olekuveeru filtri.
+26. Sordi veerg A-st Z-ni.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

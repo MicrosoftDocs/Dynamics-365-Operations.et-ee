@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568851"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778301"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Varude töölehe kinnitamise töövood
 
@@ -31,7 +31,7 @@ Selles teemas kirjeldatakse, kuidas seadistada ja kasutada varude töölehe kinn
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Varude töölehe kinnitustöövoogude funktsiooni sisselülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
 
 - **Moodul:** *varude ja laohaldus*
 - **Funktsiooni nimi**: *Varude töölehe kinnitamise töövoog*

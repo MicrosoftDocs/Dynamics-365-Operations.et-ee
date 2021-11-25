@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a15c913c876e961c6824c1e8812ab2be2d6ffa4333cd0d4e6f80cae8bac79394
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746743"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777662"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Laovarude manuaalse liigutamise edasilükatud töötlemine
 
@@ -32,7 +32,7 @@ Taustatöötlus on saavutatud lao rakenduse [Process app sündmuste funktsiooni]
 
 Selle funktsiooni sisselülitamiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmiseid funktsioone. Need tuleb sisse lülitada selles järjekorras:
 
-1. Organisatsiooniülene töö blokeerimine
+1. Organisatsiooni üleorganisatsiooniline töö blokeerimine (tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon kohustuslik, seega lülitatakse see vaikimisi sisse ja seda ei saa uuesti välja lülitada.)
 1. Laorakenduse sündmuste töötlemine
 1. Edasilükatud asetamistoimingud
 1. Varude käsitsi paigutamise toimingu edasilükatud töötlemine

@@ -1,8 +1,8 @@
 ---
 title: Välisandmete kasutamine likviidsuse planeerimistes
-description: See teema kirjeldab seadistuse etappe, mille peate täitma, et välisandmeid saaks sisestada või importida rahavoo prognoosidesse.
+description: Selles teemas kirjeldatakse seadistuse etappe, mis tuleb lõpule viia, et välisandmeid saaks sisestada või importida likviidsuse prognoosi.
 author: rcarlson
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,35 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 855f428ae8ce79f2b7ce9a6f3347cd454bad9566
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: dbfa04228cf63c0874a7d69af4e2b932544c0d7f
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386458"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752998"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts"></a>Välisandmete kasutamine likviidsuse planeerimistes
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Välisandmeid saab sisestada või importida rahavoo prognoosidesse. See teema kirjeldab seadistuse etappe, mis on omased välisandmete kasutamisele ja võimaldavad kaasata välisandmed rahavoo prognoosimisse.
 
 ## <a name="external-data-setup"></a>Välisandmete häälestus
 
-Kasutage vahekaarti **Väline allikas** lehel **Rahavoo prognoosi häälestamine** (**Sularaha- ja pangahaldus \> Rahavoo prognoosimine**), et sisestada sätted, mis toetavad rahavoo prognoosimises välisandmete kasutamist.
+Kasutage vahekaarti Väline allikas likviidsuse prognoosi seadistamise lehel (Sularaha ja panga halduse likviidsuse prognoosimise häälestus), et sisestada sätted, mis toetavad väliste andmete kasutamist **·** **·** **\>\>** likviidsuse eelarves.
 
-Lisateavet häälestamise kohta vaadake jaotisest [Rahavoo prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
+Välisandmeid saab sisestada või importida rahavoo prognoosidesse. Enne välisandmete sisestamist või importimist tuleb seadistada välisallikad. Seadistage **vahekaardil** Välisallikas välised rahavoo kategooriad. Kategooria võib olla **väljaminev** või **sissetulev.** **Likviidsuse** peaks olema sisestustüübiks valitud. Valige juriidilise **isiku sätete ruudustikus juriidilised isikud ja vastavad põhikontod,** mille suhtes välised rahavookategooriad kehtivad.
 
-Rahavoo prognoosimisse välisandmete sisestamiseks saate kasutada välisandmete sisestamiseks ja muutmiseks Excelis avamise kasutuskogemust. Valige nupp **Välisandmed** ja valige seejärel kas **Lisa välisandmed** või **Redigeeri olemasolevaid välisandmeid**. Kui Microsoft Exceli fail on avatud, saate sisestada teavet järgmistele väljadele.
+Lisateavet likviidsuse eelarvete seadistamise kohta vt [likviidsuse](../cash-bank-management/cash-flow-forecasting.md) prognoosimine.
 
-- **Kirje ID**
+## <a name="enter-external-data"></a>Välisandmete sisemine
+
+Väliste andmete sisestamiseks ja muutmiseks likviidsuse prognoosimiseks saate kasutada Exceli **kogemuses** avatud. Valige likviidsuse prognoosi häälestuse lehel nupp Välised andmed ja seejärel valige **·** suvand Lisa **·** **välisandmed või** **redigeerige olemasolevaid** välisandmeid. Kui Microsoft Excel i fail on avatud, saate sisestada teavet järgmistele väljadele.
+
+- **Kirje ID** (kordumatu)
 - **Kirjeldus** (valikuline)
-- **Välise allika nimi** – valige loendist üks väärtustest, mille finantsülevaadete seadistamisel määrasite.
+- **Välisallika** nimi– valige üks loendis väärtustest, mis määratleti finantsülevaadete häälestamisel.
 - **Juriidiline isik**
 - **Kuupäev**
 - **Summa kandevaluutas**

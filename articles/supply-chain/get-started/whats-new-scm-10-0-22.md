@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678831"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778153"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.22 (november 2021)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.22 uusi või muutunud funktsioone. Selle versiooni number on 10.0.995 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management i versiooni 10.0.22 uusi või muutunud funktsioone. Selle versiooni number on 10.0.995 ja see on saadaval järgmiselt:
 
 - **Avaldamise eelvaade:** september 2021
 - **Väljalaske üldine kättesaadavus (ise värskendamine):** oktoober 2021
@@ -41,7 +41,6 @@ Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Kõ
 
 | Moodul | Funktsiooni nimi funktsioonihalduses | Lisateave |
 |---|---|---|
-| Kuluhaldus | Standardkulu ümardamise ümberhindamiste jaoks seotud kannete loomine | <p>Kui tehakse kannete finantsarvestus (nt müügitellimuse arve või laokanne), loob süsteem iga seotud standardkulu ümardamise ümberhindluse jaoks eraldi kande ja seob selle finantsi sisestuskandega seotud kandena.</p><p>Ilma selle funktsioonita salvestab süsteem standardkulu ümardamise ümberhindlused samale kande sisestamisele. Selline käitumine võib mõnikord põhjustada vastuolulisi kuupäeva andmeid, kuna ümberhindamised kasutavad seansi või süsteemi kuupäeva, samas kui finantssisestused kasutavad sisestuskuupäeva.</p> |
 | Hajutatud hübriidtopoloogia | *(Funktsioonihaldus pole nõutud.)* | <p>See vabastus laiendab laohalduse töökoormuse väljamineva koormuse planeerimise võimalusi pilve- ja servaskaala üksuste puhul.</p><p>Lisateavet vt [Laohalduse töökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Tehnilise muudatuse haldamine | Tehnikatoodetele variantide loomine | <p>See funktsioon võimaldab teil luua mitmeid variante tehnika tootele, mis põhineb selle värvil, suurusel, stiilil või konfiguratsiooni dimensioonil.</p><p>Lisateavet vt teemast [Tehnikatoodete variantide loomine](../engineering-change-management/engineering-variants.md).</p> |
 | Varude ja laohaldus | Varude nähtavuse integreerimine broneerimise nihkega | <p>Seda funktsiooni saab lubada ainult siis, kui *Varude nähtavuse integreerimise* funktsioon on lubatud. See pakub funktsioone lao nähtavuse puhul tehtud tasakaalustusreserveeringute jaoks.</p><p>Lisateavet vt teemast [Varude nähtavuse reserveeringud](../inventory/inventory-visibility-reservations.md).</p> |
@@ -75,12 +74,12 @@ Vaadake [Dynamics 365 ja majandusharu pilved: 2021 väljalaskevoo 2 plaan](/dyna
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Management i funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Management i funktsioonid](removed-deprecated-features-scm-updates.md).
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

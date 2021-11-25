@@ -1,7 +1,7 @@
 ---
 title: Jäägi tasakaalustus
 description: Võite tasakaalustada tasakaalustamistegevusest järelejäänud summa kandes selle summa pearaamatukontole.
-author: mikefalkner
+author: roschlom
 ms.date: 10/16/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 1eb82c1f5982b30052acb2cb7659f6c07f2a4da54b68f602a2afb4e499fbcc73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719784"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754092"
 ---
 # <a name="settle-remainder"></a>Jäägi tasakaalustus
 
@@ -33,7 +33,7 @@ Peate lubama funktsiooni Tasakaalusta jääk ja enne jäägi tasakaalustamise ka
 2)  Valige vahekaart **Tasakaalustamine** ja klõpsake **Luba jäägi tasakaalustus**
 3)  Jaotises **Põhjuse vaikekood** valige põhjuse vaikekood. Põhjusekoodid peavad olema juba seadistatud jaotises **Müügireskontro > Seadistus > Kliendi mahakandmise põhjuse koodid** või **Ostureskontro > Seadistus > Kliendi mahakandmise põhjuse koodid**. **Jäägi tasakaalustamise vaikekonto** lähtestatakse mahakandmise põhjusekoodi kontole.
 3)  Värskendage **Jäägi tasakaalustamise vaikekontot** vastavalt vajadusele.
-4)  Valige **Vaiketöölehe nimi** alt maksetööleht, mida kasutatakse siis, kui soovite luua maksetöölehe, kui te vaid tasakaalustate avatud kandeid. Kui lubate jäägi tasakaalustuse funktsiooni, peate lisama töölehe vaikenime.
+4)  Valige **vaiketöölehe nimes maksetööleht, mida kasutatakse, kui soovite luua maksetöölehte ainult avatud** kannete tasakaalustamisel. Kui lubate jäägi tasakaalustuse funktsiooni, peate lisama töölehe vaikenime.
 
 ## <a name="settle-remainder-from-a-journal"></a>Tasakaalustage jääk töölehelt
 Kuil te ei luba funktsiooni **Jäägi tasakaalustamine**, võite siiski sisestada kande töölehele ja seejärel tasakaalustada see kannetega, nagu olete teinud varem. Kui klõpsate nupule **OK**, vähendatakse arve avatud saldot sularaha summa võrra. Kui sularaha arvet täielikult ei tasakaalusta, jäetakse arve avatuks ning ülejäänud summa tasakaalustatakse hiljem.

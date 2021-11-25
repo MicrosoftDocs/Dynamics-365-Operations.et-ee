@@ -1,7 +1,7 @@
 ---
 title: Hankija kannete loendi leht
 description: Selles teemas antakse teavet rakenduse Microsoft Dynamics 365 Finance hankija kannete loendilehe kohta.
-author: mikefalkner
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 455ff6b2f337af272c63fce08f40de574622ad55c6fb2c3e5b354a9d34843559
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6029e67cbbe72bbe95082cb7146834c0d7318261
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777188"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754068"
 ---
 # <a name="vendor-transactions-list-page"></a>Hankija kannete loendi leht
 
@@ -39,7 +39,7 @@ Nupp **Kuva tasakaalustused** toimingupaanil annab kiire juurdepääsu tasakaalu
     - **Kuva seotud** – kuvab kõik hankija maksetöölehe kanded ja päevaraamatu kanded, mis loodi töölehtedes, milles loodi loendis kuvatud dokumendid. Näiteks makse kuvamisel kuvatakse kõik maksetöölehel, milles see loodi, olevad maksed. Arve või makse kuvamisel, mis loodi päevaraamatus, kuvatakse kõik päevaraamatus, milles see loodi, olevad dokumendid. Peale selle kuvatakse kõik nende dokumendiloendiga seotud tasakaalustused. Seotud maksete vaatamise ajal muutub nupu sildiks **Kuva tasakaalustused**. Valige suvand **Kuva tasakaalustused**, et kuvada ainult need kanded, mis kuvati dialoogiboksi **Kuva tasakaalustused** avamisel.
     - **Kuva ajalugu** – kuvatakse kannete tasakaalustamisajalugu. Valige dialoogiboksi sulgemiseks suvand **Sule**.
     - **Kuva raamatupidamine** – kuvatakse kõik valitud dokumentidega seotud kanded. Valige dialoogiboksi sulgemiseks suvand **Sule**.
-    - **Ekspordi** – valitud kanded eksporditakse Microsoft Excelisse.
+    - **Ekspordi** – valitud kanded eksporditakse Microsoft Excel isse.
     - **Kannete tasakaalustamine** – see nupp kuvatakse ainult siis, kui valitud algdokument ei olnud täielikult tasakaalustatud. Selle nupu valimisel kuvatakse dialoogiboks **Kannete tasakaalustamine**, kus saate valida tasakaalustamiseks kanded.
     - **Tasakaalustamise tühistamine** – see nupp kuvatakse ainult siis, kui valitud algdokument oli täielikult tasakaalustatud. Selle nupu valimisel kuvatakse dialoogiboks **Tasakaalustamise tühistamine**, kus saate selle dokumendi tasakaalustamised tühistada.
 

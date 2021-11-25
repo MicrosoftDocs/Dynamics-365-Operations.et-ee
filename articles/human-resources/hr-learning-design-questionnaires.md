@@ -1,8 +1,8 @@
 ---
 title: Küsimustike loomine
-description: See artikkel kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise.
-author: andreabichsel
-ms.date: 06/20/2017
+description: See teema kirjeldab küsimustiku koostamise protsessi.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755560"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729047"
 ---
 # <a name="create-questionnaires"></a>Küsimustike loomine
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-See artikkel kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
+See teema kirjeldab küsimustiku koostamise protsessi. Esimene samm on küsimustiku kavandamine. Küsimustiku kavandamisel ei kirjutata ainult küsimusi ja vastuseid, vaid luuakse ka struktuur, mis võimaldab vastuste salvestamise ja tabelisse paigutamise. 
 
 Hoolikalt koostatud küsimustik võib aidata tõsta kogutavate andmete kvaliteeti. Hoolika kavandamise kaudu saate küsimustiku jaoks sobival ajal paremini sobivaid võimalusi valida. Järgmised punktid aitavad tulemuslikku küsimustikku kavandada.
 
@@ -63,7 +63,7 @@ Mõned eeltingimused peavad olema kehtestatud enne, kui saate küsimustikke, vas
 
 ### <a name="questionnaire-types"></a>Küsimustike tüübid
 
-Küsimustike tüübid on kohustuslikud ja need tuleb määrata küsimustiku koostamisel. Küsimustike tüübid aitavad küsimustikke hõlpsamini hallata ja klassifitseerida. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
+**·** Küsimustikutüübid on nõutavad ning need tuleb määrata küsimustiku loomisel. **·** Küsimustikutüübid aitavad küsimustikke hallata ja liigitada lihtsamaks. Kasutage küsimustike tüüpe küsimustike klassifitseerimiseks ja üksteisest eristamiseks. Näiteks kui teil on mitu küsimustikku, mille vahel valida, võite neid tüübi järgi filtreerida, et konkreetset küsimustikku oleks lihtsam leida. Siin on mõned näited küsimustike tüüpide kohta.
 
 -   inimressursside areng,
 -   kliendiülevaated,
@@ -71,9 +71,9 @@ Küsimustike tüübid on kohustuslikud ja need tuleb määrata küsimustiku koos
 
 ### <a name="question-types"></a>Küsimuste tüübid
 
-Küsimuse tüübid on kohustuslikud ja need tuleb määrata küsimuse koostamisel. 
+**Küsimuse tüübid** on nõutavad ning need tuleb küsimuse loomisel määrata. 
 
-Saate kasutada küsimuste tüüpe aruandluse eesmärgil küsimuste kategoriseerimiseks. Küsimuste tüübid muudavad ka küsimuste leidmise lihtsamaks, kuna saate tüüpe lehel **Küsimused** filtritena kasutada. Siin on mõned näited küsimuste tüüpide kohta.
+Aruandluse **küsimuste** kategoriseerimiseks kasutage küsimuste tüüpe. **Küsimuste tüübid** lihtsustavad küsimuste otsimist, sest lehte Küsimused saab filtritena **·** kasutada. Siin on mõned näited küsimuste tüüpide kohta.
 
 -   Inimressursid
 -   Ärijuhtimine
@@ -92,7 +92,7 @@ Kõik parameetrid tuleks määratleda enne andmete loomise alustamist. Küsimust
 ## <a name="questionnaire-components"></a>Küsimustiku osad
 Küsimustikud hõlmavad kolme põhielementi: vastusegruppe, mis sisaldavad valikvastustega küsimuste vastuseid, küsimusi ja küsimustikku ennast. Soovi korral saab küsimustiku küsimused tulemusegruppidesse jagada. Tulemusegrupid võimaldavad küsimusi kategoriseerida ja küsimustikku edasi analüüsida. 
 
-[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![ QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Vastusegrupid ja vastused
 
@@ -105,7 +105,7 @@ Võimaliku vastuste loendi esitamiseks suletud küsimustele võite luua vastused
 
 Vastusegrupid ja vastused on komponendid, mis moodustavad küsimuste aluseks oleva teabe põhiosa. Pärast vastusegrupi loomist saate seostada selle vastusegrupi küsimusega väljal **Vastusegrupp** lehel **Küsimused**. 
 
-Vastusegruppi saab kasutada samas küsimustikus rohkem kui ühe küsimuse puhul ja ka rohkem kui ühes küsimustikus. 
+Vastustegruppi saab kasutada samas küsimustikus rohkem kui ühe küsimuse puhul ning seda saab **kasutada ka rohkem kui ühes** küsimustikus. 
 
 > [!NOTE]
 > Kui muudate vastuste rühmas vastuse teksti, mida on juba kasutatud täidetud küsimustikes, võib andmete hindamine osutuda raskeks ja küsimustiku tulemused ei pruugi enam kehtida. Kui teil on vaja vastusegruppi muuta, kaaluge olemasoleva grupi muutmise asemel uue vastusegrupi loomist. Küsimuse või vastusega seotud või vastatud vastusegruppe ei saa kustutada.
@@ -171,7 +171,7 @@ Küsimustikus ei saa kustutada järgmist tüüpi küsimusi.
 
 ### <a name="result-groups"></a>Tulemustegrupid
 
-Tulemusegrupid on valikulised, kui seote küsimused küsimustikega. 
+**·** Tulemustegrupid on küsimustikuga küsimuste seostamisel valikulised. 
 
 Tulemusegruppi kasutatakse punktide arvestamiseks ja küsimustiku tulemuste kategooriatesse jagamiseks. Kui kasutate tulemusegruppe, saate teha järgmist.
 

@@ -5,17 +5,17 @@ author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
-ms.translationtype: HT
+ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556761"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781959"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool õpiku kasutamine
 
@@ -79,13 +79,13 @@ Pärast testjuhtumi käivitamist võrreldakse teadet Exceli parameetrifailis kuv
 
 See funktsioon teeb kuvatõmmise etappidest, mis läbiti tegevuse salvestamise ajal. See on kasulik auditeerimiseks või silumiseks.
 
-- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega töötamise ajal avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
+- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega töötamise ajal avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega CLI poolt (näiteks Azure DevOps), avage töötamise ajal fail **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
+- Selle funktsiooni kasutamiseks RSAT-i kasutajaliidesega CLI poolt (näiteks Azure DevOps), avage töötamise ajal fail **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** RSAT installikaustas (nt **C:\\ Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
@@ -148,7 +148,7 @@ Järgmisel joonisel on kujutatud LCS-i äriprotsesside modelleerija selle stsena
 RSAT saab käivitada aknast **Käsuviip** või **PowerShell**.
 
 > [!NOTE]
-> Veenduge, et keskkonnamuutuja **TestRoot** oleks seatud RSAT installiteele. (Avage Microsoft Windowsis suvand **Juhtpaneel**, valige **Süsteem ja turvalisus \> Süsteem \> Täpsemad süsteemisätted** ja seejärel valige suvand **Keskkonnamuutujad**.)
+> Veenduge, et keskkonnamuutuja **TestRoot** oleks seatud RSAT installiteele. (Avage Microsoft Windows is suvand **Juhtpaneel**, valige **Süsteem ja turvalisus \> Süsteem \> Täpsemad süsteemisätted** ja seejärel valige suvand **Keskkonnamuutujad**.)
 
 1. Avage administraatorina aken **Käsuviip** või **PowerShell**.
 2. Navigeerige RSAT-i installikausta.

@@ -1,8 +1,8 @@
 ---
 title: Töötajatele laenatud kaupade haldamine
 description: Laenuartiklid on kirjed, mis aitavad juhtidel jälgida füüsilisi kaupu, mida ettevõte töötajatele laenab.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760582"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728755"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Töötajatele laenatud kaupade haldamine
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760582"
 
 Laenuartiklid on kirjed, mis aitavad juhtidel jälgida füüsilisi kaupu, mida ettevõte töötajatele laenab. 
 
-Järgmistes punktides on loetletud artiklite näited, mida ettevõte võib töötajatele laenata.
+Siin on mõned näited kaupadest, mida ettevõte võib töötajatele laenata:
+
 -   mobiiltelefonid,
 -   autod,
 -   Arvutiseadmed
@@ -37,7 +38,7 @@ Iga füüsiline kaup peab laenuartiklile vastama. Iga laenuartikli kirje peaks k
 
 Artiklit laenates sisestage laenamise kuupäev ja plaanitav tagastamise kuupäev. Artikli tagastamisel sisestage tegelik tagastamise kuupäev.
 
-Töötajad saavad vaadata neile laenatud artiklite kirjeid, kasutades töötaja iseteeninduse tööruumi. Nad saavad redigeerida ka olemasolevaid kirjeid või sisestada uusi laenuartikleid, kui nad on saanud veel füüsilisi kaupu.  Uute või olemasolevate laenuartiklite muudatuste suunamiseks läbi kinnitusprotsessi saab seadistada töövoo. 
+Töötajad saavad kasutada **töötaja** iseteeninduse tööruumi neile laenatud kaupade kirjete vaatamiseks. Samuti saavad nad redigeerida olemasolevaid kirjeid või sisestada uusi laenuüksusi, kui nad on saanud täiendavaid füüsilisi kaupu. Töövoogu saab seadistada protsessi muutmisele uutes või olemasolevates laenuüksustes kinnitusprotsessi kaudu. 
 
 Juhatajad saavad vaadata oma otseste alluvate laenatud artikleid. Neile saab anda ka õiguse oma töötajate nimel uusi laenuartikleid lisada.
 

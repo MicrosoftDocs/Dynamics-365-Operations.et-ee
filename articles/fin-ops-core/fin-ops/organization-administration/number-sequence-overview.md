@@ -1,7 +1,7 @@
 ---
 title: Numbriseeriate ülevaade
 description: Numbriseeriaid kasutatakse loetavate ainuidentifikaatorite loomiseks koondandmete ja kannete kirjete jaoks, mis nõuavad identifikaatoreid.
-author: MargoC
+author: SunilGarg
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: margoc
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99647578c11c960cf67439b1cd9994464637feff862d191338811d8ba3e6bef5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1d65eb3824cfa158e6b382ee7bae2c86aab9396b
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759916"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778325"
 ---
 # <a name="number-sequences-overview"></a>Numbriseeriate ülevaade
 
@@ -36,7 +36,7 @@ Kui häälestate numbriseeria, tuleb teil määrata ulatus, mis määratleb, mil
 
 Numbriseeria vorming koosneb segmentidest. Numbriseeriad, mille ulatus ei ole **Jagatud**, võivad sisaldada ulatusele vastavaid segmente. Näiteks numbriseeria, mille ulatus on **Juriidiline isik**, võib sisaldada juriidilise isiku segmenti. Kui kaasate numbriseeria vormingus ulatuse segmendi, saate kirje numbri alusel määrata konkreetse kirje ulatuse.
 
-Peale ulatustele vastavate segmentide võivad numbriseeriate vormingud sisaldada segmente tüübiga **Konstantne** ja **Tähe- ja numbrimärkidest koosnevad segmendid**. Segment **Konstantne** sisaldab tähtede, numbrite või sümbolite muutumatut kogumit. **Tähe- ja numbrimärkidest** koosnev segment sisaldab tähtede või numbrite kogumit, mis suureneb iga kord, kui numbrit kasutatakse. Kasvavate numbrite tähistamiseks kasutage numbriosundit (\#), kasvavate tähtede jaoks ampersandi. Näiteks vorming \#\#\#\#\#\_2017 loob seeria 00001\_2017, 00002\_2017 jne.
+Peale ulatustele vastavate segmentide võivad numbriseeriate vormingud sisaldada segmente tüübiga **Konstantne** ja **Tähe- ja numbrimärkidest koosnevad segmendid**. Segment **Konstantne** sisaldab tähtede, numbrite või sümbolite muutumatut kogumit. **Tähe- ja numbrimärkidest** koosnev segment sisaldab tähtede või numbrite kogumit, mis suureneb iga kord, kui numbrit kasutatakse. Kasvavate numbrite tähistamiseks kasutage numbriosundit (\#), kasvavate tähtede jaoks ampersandi. Näiteks vorming \#\#\#\#\#\_ 2017 loob seeria 00001\_ 2017, 00002\_ 2017 jne.
 
 ## <a name="number-sequence-examples"></a>Numbriseeriate näidised
 

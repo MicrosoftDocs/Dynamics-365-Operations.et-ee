@@ -1,8 +1,8 @@
 ---
 title: Osakondade loomine ja nende kaasamine osakonnahierarhiasse
-description: Osakond on tootmisüksus, mis esindab organisatsiooni kategooriat või funktsionaalset ala. Osakond vastutab organisatsiooni kindla valdkonna eest, nagu müük, raamatupidamine või inimressursid. Saate osakondi kasutada funktsionaalsete alade aruannete koostamiseks. Osakonnad võivad vastutada kasumi ja kahjumi eest.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Osakond on tootmisüksus, mis esindab organisatsiooni kategooriat või funktsionaalset ala. Osakond vastutab organisatsiooni kindla valdkonna eest, nagu müük, raamatupidamine või inimressursid.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727013"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731608"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Osakondade loomine ja nende kaasamine osakonnahierarhiasse
 
@@ -32,15 +32,15 @@ Osakond võib sisaldada kulukeskuste gruppi. Ametikohti saab määrata osakondad
 
 | Väli               | Kirjeldus                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nimi                | Sisestage osakonnale nimi.                                                                                                                                                                                  |
-| Osakonna number   | Vaikeväärtus võidakse luua automaatselt, kui viitele **Organisatsiooni kood** lehel **Numbriseeriad** määratakse numbriseeria kood.                                                 |
-| Otsingunimi         | Sisestage nimi või lühend, mida osakonna otsimiseks kasutada.                                                                                                                                            |
-| Memo                | Sisestage kogu lisateave siia.                                                                                                                                                                            |
-| Hierarhias        | Valitud ruut näitab, et osakond on lisatud osakonnahierarhiasse. Lisateavet osakonna lisamise kohta osakonnahierarhiasse vt järgnevat artikli teavet. |
-| DUNS-number         | DUNS tähendab andmete universaalset nummerdussüsteemi. See on üheksakohaline number, mille väljastab Dun & Bradstreet.                                                                                                     |
-| Juhataja             | Sisestage isik, kes osakonda juhib.                                                                                                                                                                    |
-| Aadressid           | Lisage osakonna aadress. Näiteks lisage hoone postiaadress, kus osakond asub.                                                                          |
-| Kontaktteave | Lisage osakonna kontakkteave. Näiteks lisage osakonna kasutajatoe telefoninumber.                                                                                           |
+| **Nimi**                | Sisestage osakonnale nimi.                                                                                                                                                                                  |
+| **Osakonna number**   | Vaikeväärtus võidakse luua automaatselt, kui viitele **Organisatsiooni kood** lehel **Numbriseeriad** määratakse numbriseeria kood.                                                 |
+| **Otsingunimi**         | Sisestage nimi või lühend, mida osakonna otsimiseks kasutada.                                                                                                                                            |
+| **Memo**                | Sisestage kogu lisateave siia.                                                                                                                                                                            |
+| **Hierarhias**        | Valitud ruut näitab, et osakond on lisatud osakonnahierarhiasse. Lisateavet osakonna lisamise kohta osakonnahierarhiasse vt järgnevat artikli teavet. |
+| **DUNS-kood**         | DUNS tähendab andmete universaalset nummerdussüsteemi. See on üheksakohaline number, mille väljastab Dun & Bradstreet.                                                                                                     |
+| **Juhataja**             | Sisestage isik, kes osakonda juhib.                                                                                                                                                                    |
+| **Aadressid**           | Lisage osakonna aadress. Näiteks lisage hoone postiaadress, kus osakond asub.                                                                          |
+| **Kontaktteave** | Lisage osakonna kontakkteave. Näiteks lisage osakonna kasutajatoe telefoninumber.                                                                                           |
 
 Osakonna lisamiseks osakonnahierarhiasse toimige järgmiselt.
 

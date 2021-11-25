@@ -1,7 +1,7 @@
 ---
 title: Klientidele krediidihalduse andmete lisamine
 description: See teema selgitab, kuidas lisada kliendile krediidihalduse andmeid.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 080b1c4a3887aa5f354743315dc11ffd9f089e73350429d5e08710927f6b2454
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724059"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753966"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Klientidele krediidihalduse andmete lisamine
 
@@ -86,7 +86,7 @@ Kindlustuspoliise ja garantiisid saate luua lehel **Kõik kliendid** (**Müügir
     - Poliisi väärtus (B) on 50 000.
     - **Värskenda krediidilimiiti** protsent (C) on 50.00.
     
-    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[B × C\]).
+    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[ B × C\]).
 
 11. Märkige ruut **Kaasatud riski**, et vähendada krediidilimiiti, mida kasutatakse krediidilimiidi arvutustes poliisi täieliku väärtuse võrra. Kui see ruut on märgitud, ei kasutata krediidilimiidi arvutustes väärtust, mis arvutatakse, kui on määratud **Värskenda krediidilimiiti** protsent.
 
@@ -96,9 +96,9 @@ Kindlustuspoliise ja garantiisid saate luua lehel **Kõik kliendid** (**Müügir
     - Poliisi väärtus (B) on 50 000.
     - **Värskenda krediidilimiiti** protsent (C) on 50.00.
 
-    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[B × C\]).
+    Sel juhul on tegelik kehtiv krediidilimiit 125 000 (= A + \[ B × C\]).
     
-    Kui aga märgite ruudu **Kaasatud riski**, eemaldatakse **Värskenda krediidilimiiti** väärtus 50 000 (= 50.00 protsenti 100 000st) ja riski väärtus on 75 000 (= A + \[B × C\] – B).
+    Kui aga märgite ruudu **Kaasatud riski**, eemaldatakse **Värskenda krediidilimiiti** väärtus 50 000 (= 50.00 protsenti 100 000st) ja riski väärtus on 75 000 (= A + \[ B × C\] – B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

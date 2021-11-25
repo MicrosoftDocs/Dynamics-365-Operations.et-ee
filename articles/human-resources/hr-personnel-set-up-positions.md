@@ -1,8 +1,8 @@
 ---
 title: Saate häälestada ametikohti
-description: Ametikohad on organisatsioonihierarhia madalama taseme oluline element.
-author: andreabichsel
-ms.date: 08/29/2018
+description: See teema kirjeldab, kuidas ametikohad on organisatsiooni hierarhia madalama taseme oluline element.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart,
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83d30b7b0945051e2f3c0ee014cff6c98a2287ad64eb565282f497393b8cf0d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f4b9f09db8465cc55c9b0c4dc403c2c7a3647d7e
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775767"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728708"
 ---
 # <a name="set-up-positions"></a>Saate häälestada ametikohti
 
@@ -26,45 +26,57 @@ ms.locfileid: "6775767"
 
 
 
-Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoht on töökoha üksik eksemplar. Näiteks on ametikoht „müügijuht (Ida)” vaid üks tööga „müügijuht” seostatud ametikohti. Osakonnas on töökoht ja sellega võib olla seostatud ainult üks töötaja. Selles ülesandes tutvustatakse ametikoha loomiseks nõutavaid etappe. See protseduur on mõeldud inimressursside spetsialistidele.
+Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoht on töökoha üksik eksemplar. Näiteks ametikoht "Müügijuht (Ida)" on üks tööga seotud positsioonidest, "Müügijuht". Osakonnas on töökoht ja sellega võib olla seostatud ainult üks töötaja. Selles ülesandes tutvustatakse ametikoha loomiseks nõutavaid etappe. See protseduur on mõeldud inimressursside spetsialistidele.
 
-1. Klõpsake vahekaarti Tööjõu haldus.
-2. Klõpsake suvandil Avatud ametikohad.
-3. Rippdialoogi avamiseks klõpsake valikut Uus.
-4. Sisestage või valige väärtus väljal Töö.
-    * Töö kirjeldus, ametinimetus ja täistööajaga samaväärse tööhõive tegur kopeeritakse automaatselt valitud tööst ametikohale.  
+1. Valige **Tööjõuhaldus**.
+2. Valige **avatud ametikohad**.
+3. Ripploendi **·** avamiseks klõpsake nuppu Uus.
+4. Sisestage **·** või valige väärtus väljal Töö.
+
+    Väljad Töö kirjeldus, Ametinimetus ja Täistööajaga samaväärne **·** **·** **·** tööhõivetegur kopeeritakse automaatselt valitud töölt ametikohale.
+
 5. Töö toiming ResolveChanges.
-6. Klõpsake käsku Loo ametikoht.
-7. Sisestage või valige väärtus väljal Osakond.
-8. Sisestage või valige väärtus väljal Ametikoha tüüp.
-9. Sisestage või valige väärtus väljal Hüvituspiirkond.
-    * Hüvituspiirkond määrab hüvituse sobivuse reeglid ja fikseeritud kasvuga eelarved, mis kehtivad töötajale sellel ametikohal.  
-10. Sisestage kuupäev ja kellaaeg väljal Määramiseks saadaval.
-11. Laiendage jaotist Ametikoha kestus.
-    * Amerikoha kestus sisestatakse vaikimisi varem sisestatud aktiveerimise ja pensionile minemise kuupäevade alusel  
-12. Laiendage jaotist Millisele ametikohale annab aru.
-    * Kui määrate töötaja ametikohale, mis annab aru teisele ametikohale, loote neile kahele ametikohale määratud töötajate vahel otsese aruandlusseose.  
-13. Rippdialoogi avamiseks klõpsake valikut Uus.
-14. Sisestage või valige väärtus väljal Aruannete sihtkoht.
-15. Klõpsake käsku Loo.
-16. Laiendage jaotist Töötaja määramine.
-17. Laiendage jaotist Seosed.
-    * Kui teie organisatsioon kasutab maatrikshierarhiat või mõnd muud kohandatud hierarhiat, saate seadistada ametikohahierarhia tüübid ja seejärel lisada iga seadistatud hierarhiatüübi puhul aruandlusseosed ametikohtadele.  
-18. Klõpsake vahekaarti Lisa.
+6. Valige **loo** positsioon.
+7. Sisestage **·** või valige väärtus väljal Osakond.
+8. Sisestage **või valige väärtus väljal Positsiooni** tüüp.
+9. Sisestage **või valige väärtus väljal Tasu** piirkond.
+
+    Kompensatsiooni **piirkonna väli määrab kompensatsiooni** sobivuse reeglid ja fikseeritud kasvu eelarved, mis kehtivad töötajale sellel ametikohal.
+
+10. Sisestage **väljale** Määratav saadav kuupäev ja kellaaeg.
+11. Laiendage **jaotist Positsiooni** kestus.
+
+    Positsiooni kestus sisestatakse vaikimisi varem sisestatud aktiveerimis- ja pensionilemineku kuupäevade alusel.
+
+12. Laiendage **jaotist Aruanded** ametikohale.
+
+    Kui määrate töötaja ametikohale, mis annab aru teisele ametikohale, loote neile kahele ametikohale määratud töötajate vahel otsese aruandlusseose.
+
+13. Ripploendi **·** avamiseks klõpsake nuppu Uus.
+14. Sisestage **või valige väärtus väljal Aruanded** kuni.
+15. Valige **Loo**.
+16. Laiendage **jaotist Töötaja** määramine.
+17. Laiendage **jaotist** Seosed.
+
+    Kui teie organisatsioon kasutab maatrikshierarhiat või mõnd muud kohandatud hierarhiat, saate seadistada ametikohahierarhia tüübid ja seejärel lisada iga seadistatud hierarhiatüübi puhul aruandlusseosed ametikohtadele.
+
+18. Valige **Lisa**.
 19. Märkige loendis valitud rida.
-20. Sisestage või valige väärtus väljal Hierarhia nimi.
-21. Sisestage või valige väärtus väljal Millisele ametikohale annab aru.
-22. Laiendage jaotist Palk.
-23. Sisestage või valige väärtus väljal Palgatsükkel.
-24. Sisestage või valige väärtus väljal Maksja.
-25. Sisestage number väljale Iga-aastased töötunnid.
-    * See on sellel ametikohal töötava töötaja iga-aastane eeldatav töötundide arv.  
-26. Laiendage jaotist Ametiühing.
-27. Ahendage jaotist Ametiühing.
-28. Laiendage jaotist Financial dimensions (Finantsdimensioonid).
-29. Sisestage või valige väärtus väljal Jaotusmall.
-30. Sisestage või valige väärtus väljal Osakond.
-31. Klõpsake nuppu Salvesta.
+20. Sisestage **või** valige väärtus väljal Hierarhia nimi.
+21. Sisestage **või** valige väärtus väljal Positsiooniaruanded.
+22. Laiendage **jaotist** Palk.
+23. Sisestage **või valige väärtus väljal** Maksetsükkel.
+24. Sisestage **või valige väärtus väljal** Makstud.
+25. Sisestage **väljale** Iga-aastased regulaarsed tunnid arv.
+
+    Teie järjestatud väärtus on nende regulaarsete tasustatud tundide arv, mille jooksul sellel ametikohal töötaja peaks töötama igal aastal.
+
+26. Laiendage **jaotist Tööjõu** liit.
+27. **Ahendab ametiühingu** jaotise.
+28. Laiendage **jaotist** Finantsdimensioonid.
+29. Sisestage **või valige väärtus väljal** Jaotusmall.
+30. Sisestage **·** või valige väärtus väljal Osakond.
+31. Valige käsk **Salvesta**.
 
 
 

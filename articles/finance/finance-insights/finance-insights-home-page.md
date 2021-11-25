@@ -2,7 +2,7 @@
 title: Finance Insightsi avaleht
 description: Finantsülevaated pakuvad konfigureeritavaid ja laiendatavaid mudeleid, mis aitavad teil täpselt ja nutikalt ennustada oma ettevõtte rahavoogu, ennustada, millal saate laekumata nõuete eest tasu, ja luua eelarveplaani, mis võib kiirendada teie eelarve koostamise protsessi. Kõik need funktsioonid põhinevad nutikatel masinõppemudelitel.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,24 +17,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386382"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813743"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insightsi avaleht
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Finantsülevaated pakuvad konfigureeritavaid ja laiendatavaid mudeleid, mis aitavad teil täpselt ja nutikalt ennustada oma ettevõtte rahavoogu, ennustada, millal saate laekumata nõuete eest tasu, ja luua eelarveplaani, mis võib kiirendada teie eelarve koostamise protsessi. Kõik need funktsioonid põhinevad nutikatel masinõppemudelitel. Kui need uued võimalused on kombineeritud hankija maksete ja kogumite automaatikaga, pakuvad need rikkalikku ja nutikat finantssüsteemi, mis juhib otsustusprotsessi ja aitab teil võtta meetmeid, et tõhusalt reageerida praegustele ja oodatavatele ettevõtluse väljakutsetele.
-
-> [!NOTE]
-> Finance insights eelversioon on kasutuselevõtu proovimiseks saadaval Ameerika Ühendriikides, Kanadas, Ühendkuningriigis, Euroopas, Aasia ja Vaikse ookeani piirkonnas, Austraalias ja Uus-Meremaal. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge. Finance insights lubamiseks tootmiskeskkondades [Ekspordi rakendusse Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) tuleks esmalt lubada ekspordi võimalused tootmiskeskkonnas.
+Finantside vihjed annavad konfigureeritavaid ja laiendatavaid lahendusi, mis aitavad nutikalt prognoosida ettevõtte rahavoog, prognoosida, millal võite saada tasu laekumata müügireskontro eest, ja luua eelarvesoovitusi, mis aitavad eelarvete protsessi kiirendada. Need funktsioonid kasutavad nutikaid masina õppemalle, et koostada mudeleid, kasutades teie poolt pakutavaid andmeid (sh kolmanda osapoole andmed, nt büroo tarbearuande teave). Need nutikad võimalused aitavad otsustusprotsessi teavitada ja aitab teil reageerida efektiivselt praegustele ja eeldatavatele äritegevusega seotud küsimustele. Vastutate finantside vihjetega kasutatavate või väljastamisandmete eest.
 
 > [!NOTE]
-> Seda funktsiooni pakutakse eelvaate funktsioonide komplektina. Eelvaate funktsioonina ei tohiks te kasutada tulemuseks saadud masinõppe mudeleid, et juhtida või mõjutada oma äriotsuseid või eelarvete ettepanekuid. Selle funktsiooni kasutamist reguleeritakse jaotisega [Lisatingimusted](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Finantsülevaadete eelvaade on saadaval juurutamiseks Ameerika Ühendriikides, Kanadas, Suurbritannias, Euroopas, Aasia-Vaikses, Jaapanis, Austraalias ja Uus-Meremaal. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -50,28 +48,15 @@ Tier-2 keskkond (mitme kastiga) on nõutav Finance insights eelvaateks. Tausttea
 
 ### <a name="version-requirements"></a>Versiooninõuded
 
-See dokument kehtib rakenduse Finance and Operations versioonile 10.0.11 (platvormi värskendus 35) ja hilisematele versioonidele.
+See teema kehtib Microsoft versiooni Dynamics 365 Finance 10.0.21 ja uuemate versioonide puhul.
 
 ### <a name="historical-data-requirements"></a>Ajalooliste andmete nõuded
 
-Kliendi maksmise prognoosimise funktsiooni jaoks kasutatava masinõppemudeli õigesti treenimiseks on nõutav vähemalt ühe aasta jagu kliendiarveid.
+Kliendi maksmise prognoosimise funktsiooni jaoks kasutatava masinõppemudeli õigesti treenimiseks on nõutav vähemalt ühe aasta jagu kliendiarveid. Likviidsuse prognoosimiseks on soovitatav kasutada kolme aasta jooksul andmeid. Nutikate eelarveettepanekute jaoks on soovitatav kasutada kolme aasta jooksul ajaloolist eelarvet ja/või tegelikke eelarveid.
 
-### <a name="role-and-permission-requirements"></a>Rolli ja õiguste nõuded
+## <a name="configure-finance-insights"></a>Finance Insightsi konfigureerimine
 
-Keskkondades Microsoft Dynamics 365 Finance, Microsoft Dynamics Lifecycle Services (LCS), Power Apps ja Azure tehakse muudatusi. Nende keskkondade puhul on nõutavad õiged load. Allpool on mõned näited muudatustest, mis tehakse.
-
-- Teenuses Microsoft Power Platform luuakse uus keskkond.
-- Azure’is luuakse uus talletamise konto, võtme seif ja rakendus.
-- Active Directory rentniku administraator peab andma AI Builderi rakendusele loa andmejärvele juurdepääsuks.
-- Funktsioon lülitatakse sisse rakenduses Dynamics 365.
-
-Selle protsessi läbimisel on kasu keskkondades Azure, Microsoft Dataverse ja LCS ressursside loomise ja haldamise protsessi tundmisest.
-
-## <a name="configure-finance-insights"></a>Finantsülevaadete konfigureerimine
-
-Enne finantsülevaadete kasutamist peate täitma mõned konfigureerimise etapid. Lisateavet Finance insights`i konfigureerimise kohta leiate teemast:
-  - Versioonidele kuni 10.0.19: [Finance insights konfigureerimine (eelvaade) – versioonid kuni 10.0.19](configure-for-fin-insites.md).
-  - Versioonidele 10.0.20 ja pärast seda: [Finance insights konfiguratsioon (eelvaade) – versioonid 10.0.20 ja uuemad](configure-for-fin-insites-PubPrvw.md).
+Enne finantsülevaate kasutamist peate lõpule viima konfiguratsiooni etapid. Lisateavet finantsülevaadete konfigureerimise kohta vt jaotisest [Finantsülevaadete konfigureerimine](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Andmeintegraatori projekti loomine
 
@@ -84,7 +69,7 @@ Kui olete konfigureerimise etapid lõpule viinud ja häälestanud demoandmed, pe
 ### <a name="enable-customer-payment-predictions"></a>Kliendimaksete prognoosimise lubamine
 Kui kasutate kliendimaksete prognoosimise testimiseks demoandmeid, võib olla vajalik, et oma tehisintellekti mudeli loomise õnnestumiseks peate importima täiendavad demoandmed. 
 
-Kliendimaksete prognooside lubamiseks peate viima lõpule etappide kogumi, et luua teie organisatsiooni andmeid kasutav masinõppemudel, et luua prognoose, millal kliendid tõenäoliselt tasuvad laekumata arved ja millal konkreetsed arved tõenäoliselt tasutakse. Lisateavet ja konkreetseid lõpule viimise etappe vt teemast [Kliendimakse prognooside lubamine](enable-cust-paymnt-prediction.md). 
+Kliendi makseprognooside lubamiseks peate lõpule määrama sammud masina õppemudeli loomiseks, mis kasutab teie organisatsiooni andmeid prognooside loomiseks selle kohta, millal kliendid tasuvad tõenäoliselt laekumata arveid ja kui makstakse tõenäoliselt konkreetseid arveid. Lisateavet ja konkreetseid lõpule viimise etappe vt teemast [Kliendimakse prognooside lubamine](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Rahavoo prognoosimise lubamine
 Rahavoo prognoosimise lubamiseks peate viima lõpule etappide kogumi, et luua teie organisatsiooni andmeid kasutav masinõppemudel, et luua rahavoo prognoose. Lisateavet ja konkreetseid lõpule viimise etappe vt teemast [Rahavoo prognooside lubamine](enable-cash-flow-forecasting.md).
@@ -97,17 +82,14 @@ Eelarvesoovituste funktsioon kasutab masinõppemudelit koos teie organisatsiooni
 
 ### <a name="using-customer-payment-predictions"></a>Kliendimaksete prognoosimise kasutamine
 
-Nutikas rahavoo prognoosimine on loodud rakenduse Dynamics 365 Finance olemasoleva rahavoo prognoosimise funktsiooni põhjal. Olemasoleva võimaluse läbivaatamiseks vt teemat [Rahavoo prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
-
-- Lisateavet selle kohta, kuidas kliendimakse prognoosid võivad esitada vajalikku teavet, et aktiivselt alustada kogumistegevusi, vt teemast [Kliendimakse prognooside kasutamine](use-customer-payment-predictions.md).
+- Teavet selle kohta, kuidas kliendi makseennustused saavad esitada teavet, mis on vajalik sissenõude ennetavaks alustamiseks, leiate jaotisest [Kasuta kliendi makseprognoose](use-customer-payment-predictions.md).
 - Teabe saamiseks, mis aitab teil hinnata prognoosimismudeli tõhusust pärast funktsiooni kasutamise alustamist, vt teemast [Algse kliendimakse prognoosimise mudeli hindamine](evaluate-payment-prediction.md).
 - Teavet, mis aitab teil korrigeerida prognoosimise loomiseks kasutatavaid andmeid ja seeläbi parandada selle tõhusust, vt teemast [Prognoosimise mudeli parandamine](improve-model.md).
-
-Lisateavet tehisintellekti prognoositavate mudelite tulemuste kohta vt teemast [Masinõppemudelite tulemid](confusion-matrix.md).
+- Lisateavet tehisintellekti prognoositavate mudelite tulemuste kohta vt teemast [Masinõppemudelite tulemid](confusion-matrix.md).
 
 ### <a name="using-cash-flow-forecasts"></a>Rahavoo prognooside kasutamine
 
-Rahavoo prognooside võimekus võib aidata teil hinnata oma sularahajääki täpsemalt. 
+Rahavoo prognooside võimekus võib aidata teil hinnata oma sularahajääki täpsemalt. Nutikas likviidsuse prognoosimine on üles ehitatud olemasolevatele likviidsuse prognoosimise funktsioonidele moodulis Dynamics 365 Finance. Olemasoleva võimaluse läbivaatamiseks vt teemat [Rahavoo prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
 
 - Teavet rahavoo prognooside uute võimaluste kohta vt teemast [Rahavoo prognoos](cash-flow-forecast-intro.md).
 - Teavet välisandmete importimise kohta siin rahavoo prognoosimisse kaasamiseks vt teemast [Rahavoo prognoosimises välisandmete kasutamine](external-data-in-cash-flow.md). 
@@ -120,6 +102,6 @@ Teavet eelarve loomise kiirendamise kohta vt teemast [Eelarvesoovitused](budget-
 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 
-Kui soovite anda tagasisidet või vajate tuge, saatke meil [kliendimaksete ülevaadetele (eelversioon)](mailto:fiap@microsoft.com).
+Kui olete tagasiside pakkumisest huvitatud või teil on vaja tuge, saatke finantside [vihjetele meilisõnum](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

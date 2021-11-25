@@ -1,5 +1,5 @@
 ---
-title: Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil (eelvaade)
+title: Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil
 description: See teema selgitab, kuidas kasutada ettevõtte andmetel (LBD) põhinevat kohandatud riistvara ja juurutamist, kasutades valdustelimuse skaala üksuseid.
 author: cabeln
 ms.date: 04/22/2021
@@ -9,24 +9,21 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ebbdaab9d6f040497d3158db2712e102b6e9aa8
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678977"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729071"
 ---
-# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd-preview"></a>Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil (eelvaade)
+# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Perimeeterskaalaüksuste juurutamine kohandatud riistvara jaoks LBD abil
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)] <!--KFM: Until 11/1/2021 -->
 
 Servaskaala ühikud on hankeahela halduse jaotatud topoloogias olulise rolliga. Selles topoloogias saate jaotada töökoormusi Supply Chain Management pilve keskuse ja täiendavate kaaluühikute vahel pilves või servas.
 
 Servaskaala ühikuid saab juurutada, luues kohalikke äriandmeid (LBD) [ettevõttekeskkonnas](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) ja konfigureerides need siis nii, et see töötaks supply chain management jaotatud topoloogias kaaluühikuna. Selle saavutamiseks seostatakse ettevõttesisene LBD keskkond Supply Chain Management pilve keskkonnaga, mis on konfigureeritud funktsioneerima keskusena.  
-
-Servaskaala üksused on praegu eelvaates. Seetõttu saate seda tüüpi keskkonda kasutada ainult vastavalt [eelvaate tingimustele](https://aka.ms/scmcnepreviewterms).
 
 See teema kirjeldab, kuidas seadistada ettevõttesisene LBD-keskkond servaskaala üksusena ja seejärel seostada see keskusega.
 
@@ -36,11 +33,9 @@ Siin on juurutamise protsessi ülevaade.
 
 1. **Lubage LBD-pesa oma LBD-projektis Microsoft Dynamics Lifecycle Services (LCS).**
 
-    Eelvaate ajal sihivad LBD-servaskaala üksused olemasolevaid LBD-kliente. Täiendav 60-päevase piiratud LBD boksi pesa antakse ainult konkreetsetes kliendiolukordades.
-
 1. **Seadistage ja juurutage LBD keskkond *tühja* andmebaasiga.**
 
-    Kasutage LCS-i, et juurutada LBD-keskkond uusima topoloogia ja tühja andmebaasiga. Lisateavet vt [Häälestusest tühja andmebaasiga LBD keskkonna juurutamiseks](#set-up-deploy) selles teemas hiljem. Peate kasutama Supply Chain Management versiooni 10.0.19 platvormi värskendusega 43 või uuemaga üle kogu keskuse ja kaalu ühiku keskkondades.
+    Kasutage LCS-i, et juurutada LBD-keskkond uusima topoloogia ja tühja andmebaasiga. Lisateavet vt [Häälestusest tühja andmebaasiga LBD keskkonna juurutamiseks](#set-up-deploy) selles teemas hiljem. Peate kasutama tarneahela halduse versiooni 10.0.21 või hiljem läbi kogu keskuse ja kaalu ühiku keskkondades.
 
 1. **Laadige sihtpaketid LBD-projekti varadesse LCS-s.**
 
@@ -56,16 +51,16 @@ Siin on juurutamise protsessi ülevaade.
 
 Selle teema ülejäänud osades on lisateave iga protsessi etapi kohta, kuidas neid samme lõpetada.
 
-## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Seadistage ja juurutage LBD keskkond tühja andmebaasiga
+## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a> Seadistage ja juurutage LBD keskkond tühja andmebaasiga
 
 See samm loob funktsionaalse LBD keskkonna. Keskkonnal ei pea siiski olema samu rakenduse ja platvormi versioone kui keskuse keskkonnas. Lisaks puudub see ikkagi kohandustest ja sellel ei ole veel lubatud töötada kaaluühikuna.
 
-1. Järgige juhiseid [apealsete keskkondade häälestamine ja juurutamine (platvormivärskendus 41 ja uuemad)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Peate kasutama Supply Chain Management versiooni 10.0.19 platvormi värskendusega 43 või uuemaga üle kogu keskuse ja kaalu ühiku keskkondades
+1. Järgige juhiseid [apealsete keskkondade häälestamine ja juurutamine (platvormivärskendus 41 ja uuemad)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Peate kasutama tarneahela halduse versiooni 10.0.21 või hiljem läbi kogu keskuse ja kaalu ühiku keskkondades. Lisaks peate kasutama infrastruktuuriskriptide versiooni 2.12.0 või uuemat versiooni. 
 
     > [!IMPORTANT]
     > **Enne** selle teema lõpule viimist lugege ülejäänud osa.
 
-1. Enne konfiguratsiooni kirjeldamist infrastruktuuri\\ConfigTemplate.xml failis käivitage järgmine skript:
+1. Enne konfiguratsiooni kirjeldamist infrastruktuuri\\ ConfigTemplate.xml failis käivitage järgmine skript:
 
     ```powershell
     .\Configure-ScriptsForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml
@@ -75,10 +70,51 @@ See samm loob funktsionaalse LBD keskkonna. Keskkonnal ei pea siiski olema samu 
     > See skript eemaldab mis tahes konfiguratsiooni, mis ei ole vajalik servaskaala ühikute juurutamiseks.
 
 1. Seadistage andmebaas, mis sisaldab tühje andmeid, nagu kirjeldatud [konfigureerimise andmebaasides](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb). Kasutage selle sammu jaoks tühja faili data.bak.
-1. Seadistage eeljuurutuse skript. Vaata lisainformatsiooni [Kohaliku esindaja eeljuurutuse ja järeljuurutuse skriptid](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+1. Pärast andmebaaside konfigureerimise etapi lõpule viimist käivitage järgmine skript, et konfigureerida [...](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) KaalühikuÜhiku orkestraatori andmebaas.
 
-    1. Kopeerige sisu **ScaleUnit** kaustast **infrastruktuuri skriptid** kaustast **skriptid** kausta agendi faili talletusossa, mis häälestati keskkonnas. Tavaline tee on \\\\lbdiscsi01\\agendi\\skriptid.
-    2. Looge **PreDeployment.ps1** mis käivitab skriptid nõutud parameetreid kasutades. Eeljuurutuse skript tuleb panna **Skriptid** talletusosa skriptide kausta. Vastasel juhul ei saa seda käivitada. Tavaline tee on \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1.
+    > [!NOTE]
+    > Ärge konfigureerige finantsaruandluse andmebaasi andmebaaside [...](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) konfigureerimisel.
+
+    ```powershell
+    .\Initialize-Database.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -ComponentName EdgeScaleUnit
+    ```
+
+    Skript Initialize-Database.ps1 teeb järgmist:
+
+    1. Looge tühi andmebaas nimega **ScaleUnitNioDb**.
+    2. Vastendage kasutajad andmebaasi rollidega järgmise tabeli alusel.
+
+        | Kasutaja            | Tüüp | Andmebaasi roll |
+        |-----------------|------|---------------|
+        | svc-LocalAgent$ | gMSA | Db \_ omanik     |
+
+1. Jätkake juhiste järgimist seadistuses [ja juurutage ettevõtteruumides asuvates keskkondades (Platvormi värskendus 41 ja uuem)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
+1. Pärast [AD FS-i konfigureerimise etapi](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) lõpetamist järgige järgmisi samme:
+
+    1. Looge uus Active Directory FS-i (AD FS) rakendus, mis võimaldab Windows Orchestrationi teenusel suhelda rakendusobjekti serveriga (AOS).
+
+        ```powershell
+        # Host URL is your DNS record\host name for accessing the AOS
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        ```
+
+    1. Looge uus Azure Active Directory Azure AD () rakendus, mis võimaldab Orkestrtuse teenusel Orkestratsiooniteenuse abil kaaluühiku haldusteenusega suhelda.
+
+        ```powershell
+        # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
+        .\Create-SumAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                       -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                       -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+        ```
+
+1. Jätkake juhiste järgimist seadistuses [ja juurutage ettevõtteruumides asuvates keskkondades (Platvormi värskendus 41 ja uuem)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Kui peate sisestama kohaliku esindaja konfiguratsiooni, veenduge, et lubate Servaskaala ühiku funktsioonid ja esitate kõik nõutavad parameetrid.
+
+    ![Servaskaala ühiku funktsioonide lubamine.](media/EnableEdgeScaleUnitFeatures.png "Servaskaala ühiku funktsioonide lubamine.")
+
+1. Enne keskkonna juurutamist LCS-st seadistage eeljuurutuse skript. Vaata lisainformatsiooni [Kohaliku esindaja eeljuurutuse ja järeljuurutuse skriptid](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+
+    1. Kopeerige skript Configure-CloudAndEdge.ps1 infrastruktuuriskriptide **kaustast ScaleUnit skriptide kausta agendi faili salvestusosas, mis** **·** **seadistati** keskkonnas. Tavaline tee on \\\\ lbdiscsi01\\ agendi\\ skriptid.
+    2. Looge **PreDeployment.ps1** mis käivitab skriptid nõutud parameetreid kasutades. Eeljuurutuse skript tuleb panna **Skriptid** talletusosa skriptide kausta. Vastasel juhul ei saa seda käivitada. Tavaline tee on \\\\ lbdiscsi01\\ agent\\ Scripts\\ PreDeployment.ps1.
 
         Skripti PreDeployment.ps1 sisu sarnaneb järgmise näitega.
 
@@ -86,7 +122,7 @@ See samm loob funktsionaalse LBD keskkonna. Keskkonnal ei pea siiski olema samu 
         $agentShare = '\\lbdiscsi01\agent'
         
         Write-Output "AgentShare is set to $agentShare" 
-        & $agentShare\Scripts\Configure-CloudandEdge.ps1 -AgentShare $agentShare -InstanceId '@A' -DatabaseServer 'lbdsqla01.contoso.com' -DatabaseName 'AXDB'
+        . $PSScriptRoot\Configure-CloudAndEdge.ps1 -AgentShare $agentShare -InstanceId '@A'
         ```
 
         > [!NOTE]
@@ -101,137 +137,97 @@ See samm loob funktsionaalse LBD keskkonna. Keskkonnal ei pea siiski olema samu 
         >   - @#
 
 1. Juurutage keskkond viimase saadaoleva alus topoloogia abil.
+1. Kui teie keskkond on juurutatud, järgige neid samme.
 
-## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>Laadige sihtpaketid LBD-projekti varadesse LCS-i
+    1. Käitage oma äriandmebaasis (AXDB) järgmised SQL-käsud.
+
+        ```sql
+        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
+        delete from NumberSequenceTable
+        delete from NumberSequenceReference
+        delete from NumberSequenceScope
+        delete from FeatureManagementMetadata
+        delete from FeatureManagementState
+        delete from SysFeatureStateV0
+        ```
+
+    1. Saate suurendada samaaegselt maksimaalset partiiseanssi väärtusele, mis on suurem kui 4.
+
+        ```sql
+        Update batchserverconfig set maxbatchsessions = '<Replace with number of concurrent batch tasks you want>'
+        ```
+
+    1. Kontrollige, kas muudatuste jälitamine on teie äriandmebaasis (AXDB) lubatud.
+
+        1. Avage SQL Server Management Studio (SSMS).
+        1. Valige ja hoidke all (või paremklõpsake) oma ettevõtte andmebaasi (AXDB) ja valige **·** atribuudid.
+        1. Kuvatavas aknas valige **Change Tracking (Muudatuste** jälitamine) ja seadke seejärel järgmised väärtused:
+
+            - **Muudatuste jälitamine:** *tõene*
+            - **Kinnipidamise periood:** *7*
+            - **Kinnipidamise ühikud:** *päevi*
+            - **Automaatne puhastamine:** *tõene*
+
+    1. Lisage varem loodud AD FS-i rakenduse ID (kasutades skripti Create-ADFSServerApplicationForEdgeScaleUnits.ps1) oma kaaluühiku avalduste Azure AD tabelisse. Selle sammu saate käsitsi lõpule viia kasutajaliidese kaudu. Teise võimalusena saate selle andmebaasi kaudu lõpule viia, kasutades järgmist skripti.
+
+        ```sql
+        DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
+
+        IF NOT EXISTS (SELECT TOP 1 1 FROM SysAADClientTable WHERE AADClientId = @ALMOrchestratorId)
+        BEGIN
+            INSERT INTO SysAADClientTable (AADClientId, UserId, Name, ModifiedBy, CreatedBy)
+            VALUES (@ALMOrchestratorId, 'ScaleUnitManagement', 'Scale Unit Management', 'Admin', 'Admin');
+        END
+        ```
+
+## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a> Seadistage Azure'i võtme vault ja Azure AD rakendus, et võimaldada kommunikatsiooni kaaluüksuste vahel
+
+1. Pärast keskkonna juurutamist looge lisarakendus, et Azure AD võimaldada usaldusväärset suhtlust oma keskuse ja kaaluüksuse vahel.
+
+    ```powershell
+    .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                          -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                          -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+    ```
+
+1. Pärast rakenduse loomise peate looma kliendi saladuse ja salvestama teabe Azure'i võtme hoidlasse. Lisaks peate andma juurdepääsu loodud rakendusele, et see saaks tuua võtmehoidlasse talletatud Azure AD saladusi. Teie mugavuse huvides sooritab järgmine skript automaatselt kõik nõutud toimingud.
+
+    ```powershell
+    .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                         -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                         -SubscriptionName '<Any subscription within your tenant>' `
+                                         -ResourceGroupName '<Any resource group within your subscription>' `
+                                         -KeyVaultName '<Any key vault within your resource group>' `
+                                         -Location '<Any Azure location where Azure Key Vault is available>' `
+                                         -LCSEnvironmentId '<The LCS environment ID of your deployed scale unit>' `
+    ```
+
+    > [!NOTE]
+    > Kui määratud atribuudi KeyVaultName väärtusega võtme vault **·** puudub, loob skript selle automaatselt.
+
+1. Lisage Azure AD äsja loodud rakenduse ID (skripti Create-ToolToHubAADApplication.ps1 kasutamisel) oma keskuse Azure AD avalduste tabelisse. Selle sammu saate kasutajaliidese kaudu käsitsi lõpule viia.
+
+## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a> Laadige sihtpaketid LBD-projekti varadesse LCS-i
 
 See samm valmistab ette rakenduse versiooni, platvormi versiooni ja kohandused, mis läheb üle LBD-kaalu ühiku keskkonda.
 
 1. Laadige üles sama kombineeritud rakenduse/platvormi pakett, mida rakendati keskuse keskkonnas, LCS-i valdusse projekti varateeki.
 1. Hankige jaoturi keskkonnas kombineeritud rakenduse/platvormi pakett, mida rakendati keskuse keskkonnas, LCS-i valdusse projekti varateeki.
 
-## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a>Teenindage LBD keskkonda sihtpakettidega
+## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a> Teenindage LBD keskkonda sihtpakettidega
 
 See etapp joondab rakenduse versiooni, platvormi versiooni ja kohandused, mis läheb üle LBD-kaalu ühiku keskkonda.
 
 1. Teenus LBD keskkonnas koos eelmises sammus üleslaaditud kombineeritud rakendus-/platvormipaketiga.
 1. Teenus LBD keskkonnas koos eelmises sammus üleslaaditud kombineeritud rakendus-/platvormipaketiga.
 
-    ![Valides hoolduse > Rakenda LCS-s värskendused.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Valides hoolduse > Rakenda LCS-s värskendused")
+    ![Värskenduste rakendamine LCS-s.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Värskenduste rakendamine LCS-s")
 
     ![Kohandatud paketi valimine.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "Kohandatud paketi valimine")
 
-## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>Määrake oma LBD servaskaala üksus keskusesse
+## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a> Määrake oma LBD servaskaala üksus keskusesse
 
-Kui servaskaala ühikud on veel eelvaates, peate kasutama [saadaolevaid kaaluühiku juurutuse ja konfiguratsiooni tööriistu](https://github.com/microsoft/SCMScaleUnitDevTools) et määrata GitHub-is oma LBD servaskaala üksus keskusele. Protsess võimaldab LBD konfiguratsioonil toimida servaskaala üksusena ja seostab selle keskusega. Protsess sarnaneb ühe boksi arenduskeskkonna konfigureerimisega.
-
-1. Laadige alla viimane väljalase [SCMScaleUnitDevTools](https://github.com/microsoft/SCMScaleUnitDevTools/releases) ja laadige faili sisu lahti.
-1. Saate luua faili koopia `UserConfig.sample.xml` ja sellele nime anda `UserConfig.xml`.
-1. Looge Microsoft Azure Active Directory (Azure AD) rakendus teie Azure AD rentnikus nagu mainitud [Kaaluühiku ja töökoormuse Juurutusjuhendis](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#aad-application-registrations).
-    1. Kui see on loodud, navigeerige Azure AD avalduste vormi (SysAADClientTable) oma keskusesse.
-    1. Looge uus kirje ja seadistage **Kliendi ID** loodud rakenduse ID-le. Määrake **nimeks** *ScaleUnits* ja **kasutaja ID** *Adminiks*.
-
-1. Looge Active Directory Federation Service (AD FS) rakendus, nagu on nimetatud [Kaaluühiku ja töökoormuste juurutusjuhendis](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#adfs-application-registrations).
-    1. Kui see on loodud, navigeerige Azure AD avalduste vormi (SysAADClientTable) oma kaaluühiku keskusesse.
-    1. Looge uus kirje ja seadistage **Kliendi ID** loodud rakenduse ID-le. Määrake **Kasutaja ID** väärtuseks *Admin*.
-
-1. Muuda `UserConfig.xml` faili.
-    1. Sisestage `InterAOSAADConfiguration` jaotisesse teave eelnevalt loodud Azure AD rakendusest.
-        - Sisestage `AppId` elemendis Azure'i rakenduse ID.
-        - Sisestage `AppSecret` elemendis Azure'i rakenduse saladus.
-        - `Authority` element peab sisaldama URL-i, mis määrab teie rentniku turvaasutuse.
-
-        ```xml
-        <InterAOSAADConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopty56TGUedDTVhtER-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </InterAOSAADConfiguration>
-        ```
-
-    1. Jaotises `ScaleUnitConfiguration` muutke esimese `ScaleUnitInstance` jaoks `AuthConfiguration` jaotist.
-        - Sisestage `AppId` elemendis Azure'i rakenduse ID.
-        - Sisestage `AppSecret` elemendis Azure'i rakenduse saladus.
-        - `Authority` element peab sisaldama URL-i, mis määrab teie rentniku turvaasutuse.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopdz.6d3DTVOtf9Lo-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. Lisaks määrake selle sama `ScaleUnitInstance` jaoks järgmised väärtused:
-        - `Domain` elemendis määrake oma keskuse URL. Näiteks: `https://cloudhub.sandbox.operations.dynamics.com/`
-        - Kontrollige `EnvironmentType` elemendis, et see oleks väärtusele `LCSHosted` seatud.
-
-    1. Jaotises `ScaleUnitConfiguration` muutke teise `ScaleUnitInstance` jaoks `AuthConfiguration` jaotist.
-        - Sisestage `AppId` elemendis AD FS-i rakenduse ID.
-        - Sisestage `AppSecret` elemendis ADFS rakenduse saladus.
-        - Element `Authority` peab sisaldama teie AD FS-i eksemplari URL-i.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>26b16f25-21d8-4d36-987b-62df292895aa</AppId>
-            <AppSecret>iZFfObgI6lLtY9kEbBjEFV98NqI5_YZ0e5SBcWER</AppSecret>
-            <Authority>https://adfs.contoso.com/adfs</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. Lisaks määrake selle sama `ScaleUnitInstance` jaoks järgmised väärtused:
-        - `Domain` elemendis määrake oma kaaluühiku keskuse URL. Näiteks: https://ax.contoso.com/
-        - Kontrollige `EnvironmentType` elemendis, et see oleks seatud väärtusele LBD.
-        - Sisestage `ScaleUnitId` elemendis sama väärtus, mille määrate `InstanceId` eeljuurutusskripti `Configure-CloudandEdge.ps1` konfigureerimisel.
-
-        > [!NOTE]
-        > Kui te ei kasuta vaike-ID-d (@A), veenduge, et värskendate ScaleUnitId iga ConfiguredWorkload jaoks töökoormuste jaotises.
-
-1. Avage PowerShell ja navigeerige `UserConfig.xml` fail sisaldavasse kausta.
-
-1. Käivitage tööriista selle käsuga.
-
-    ```powershell
-    .\CLI.exe
-    ```
-
-    > [!NOTE]
-    > Pärast iga tegevust peate tööriista uuesti käivitama.
-
-1. Valige tööriistas **2. Valmistage keskkondi ette töökoormuse installiks**. Seejärel käitage järgmised etapid:
-    1. Valige **1. Valmistage keskus ette**.
-    1. Valige **2. Valmistage ette kaaluühik**.
-
-    > [!NOTE]
-    > Kui te ei käivita seda käsku puhtast installist ja see nurjub, tehke järgmist:
-    >
-    > - Eemaldaga kaustast kõik `aos-storage` kaustad (v.a `GACAssemblies`).
-    > - Käivitage järgmine SQL-i käsk oma äriandmebaasis (AXDB):
-    >
-    > ```sql 
-    > delete from storagefoler
-    > ```
-
-1. Käivitage järgmised SQL-i käsud oma äriandmebaasis (AXDB):
-
-    ```sql
-    delete from FEATUREMANAGEMENTMETADATA
-    delete from FEATUREMANAGEMENTSTATE
-    delete from NUMBERSEQUENCESCOPE
-    ```
-
-1. Kontrollige, kas muudatuste jälitamine on teie äriandmebaasis (AXDB) lubatud
-    1. Käivitage SQL Server Management Studio (SSMS).
-    1. Paremklõpsake oma äriandmebaasil (AXDB) ja valige atribuudid.
-    1. Avanevas aknas valige **Muudatuste jälitamine** ja muutke järgmisi sätteid:
-
-        - **Muudatuste jälitamine:** *tõene*
-        - **Kinnipidamise periood:** *7*
-        - **Kinnipidamise ühikud:** *päevi*
-        - **Automaatne puhastamine:** *tõene*
-
-1. Valige tööriistas **3. Töökoormuste installimine**. Seejärel käitage järgmised etapid:
-    1. Valige **1. Installi keskusesse**.
-    1. Valige **2. Installige keskusesse**.
+Konfigureerige ja hallake oma servaskaala ühikut kaaluühiku haldusportaali kaudu. Lisateavet vt jaotisest [Halda kaaluühikuid ja töökoormusi kaaluüksuse juhi portaali](./cloud-edge-landing-page.md#scale-unit-manager-portal) abil.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -2,7 +2,7 @@
 title: IFrame-moodul
 description: See teema hõlmab iframe-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767286"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754010"
 ---
 # <a name="iframe-module"></a>IFrame-moodul
 
@@ -66,7 +66,10 @@ Et lisada välise video kuvamiseks lehele iFrame-moodul, toimige järgmiselt.
 1. Määrake vajaduse järgi muud atribuudid, näiteks **Pealkiri** ja **Kõrgus**.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Minge oma saidil turunduslehele. Peaksite nägema iFrame-moodulis renderdatavat videot.
- 
+
+> [!NOTE]
+> Kuna IFrame'i moodul hostib välist sisu, peavad saidi autorid tagama, et iframe'i moodulis majutatud sisu ei riku sisupiirangu poliitikaid vastaval turul. Kui iframe-moodulit kasutav lehekülg sisaldab sisu rikkumise, saab saidi autor iFrame'i mooduli eemaldada, avades saidikonstruktoris lehe, valides iframe-moodulis suvandi Eemalda moodul ning salvestades ja avaldades seejärel **·** uuesti.
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mooduliteegi ülevaade](starter-kit-overview.md)

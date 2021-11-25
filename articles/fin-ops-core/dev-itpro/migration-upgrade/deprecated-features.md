@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745172"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753022"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasemate versioonide eemaldatud või iganenud funktsioonid
 
@@ -37,7 +37,7 @@ Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid plane
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+Üksikasjalikku teavet rakenduse Finance and Operations i rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operations i rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 koos platvormivärskendusega 31
 
@@ -84,7 +84,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: 1. oktoobrist 2020, me ei plaani enam toetada **setUtcString ()** meetodit. Arendajad peaksid kasutama hoopis **setUtcDateTime ()** meetodit. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Musta nimekirja aruanne (IT) – funktsiooni viide IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blokiloendi aruanne (IT) – funktsiooni IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -302,7 +302,7 @@ Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelle
 | **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevikus kompileerimistõrkega. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: hoiatus on Finance and Operationsi rakenduste versiooni 10.0.11 platvormivärskendustes kompileerimisaegne tõrge. |
+| **Olek**                         | Aegunud: hoiatus on Finance and Operations i rakenduste versiooni 10.0.11 platvormivärskendustes kompileerimisaegne tõrge. |
 
 #### <a name="complete-list"></a>Täielik loend
 Aegunud API-de täielikule loendile juurdepääsuks vaadake jaotist [Meetodite ja metaandmeelementide aegumine](deprecation-deletion-apis.md).
@@ -573,7 +573,7 @@ BBS Direkte Remitteringi maksevormingud hõlmavad kliendimakse kogumise eksporti
 
 ### <a name="chart-of-accounts-tool-for-spain"></a>Kontoplaani tööriist Hispaania puhul
 
-Seda tööriista kasutatakse siis, kui kontoplaan nõuab Hispaanias suuremaid muudatusi. Kasutajad saavad importida uue kontoplaani Microsoft Excelis või tekstivormingus ja saavad ka importida finantsaruandeid.
+Seda tööriista kasutatakse siis, kui kontoplaan nõuab Hispaanias suuremaid muudatusi. Kasutajad saavad importida uue kontoplaani Microsoft Excel is või tekstivormingus ja saavad ka importida finantsaruandeid.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -904,7 +904,7 @@ Arveldusskripte kasutati arvekoodide jaoks arvelduskursside arvutamiseks. Need s
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Kohandatud C Sharpi või Visual Basicu kohandatud skriptide tuge rakendusse Dynamics AX 7.0 ei lisatud. |
+| **Aegumise/eemaldamise põhjus** | Kohandatud C Sharpi või Visual Basic u kohandatud skriptide tuge rakendusse Dynamics AX 7.0 ei lisatud. |
 | **Asendatud teise funktsiooniga?**   | Ei                                                                                      |
 | **Mõjutatud tootealad**         | Avalik sektor, müügireskontrod                                    |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.                                                          |
@@ -1004,7 +1004,7 @@ Vastavuskeskus oli ettevõtteportaali sait dokumentide nõuete haldamiseks Sarba
 | **Mõjutatud tootealad**         | Vastavuse ja sisekontrollid  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.    |
 
-### <a name="connector-for-microsoft-dynamics"></a>Microsoft Dynamicsi konnektor
+### <a name="connector-for-microsoft-dynamics"></a>Microsoft Dynamics i konnektor
 
 Seda tööriista kasutati võtmeandmete integreerimiseks Microsoft Dynamics CRM-ist Dynamics ERP rakendustesse.
 
@@ -1203,7 +1203,7 @@ Järgmisi menüüelemente sisaldavad aruanded on eemaldatud. **Proovibilansi kok
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Microsoft SQL Serveri teenuste Reporting Services (SSRS) finantsaruanded on asendatud Management Reporteri võimaluste ja vaikearuannetega. |
+| **Aegumise/eemaldamise põhjus** | Microsoft SQL Server i teenuste Reporting Services (SSRS) finantsaruanded on asendatud Management Reporteri võimaluste ja vaikearuannetega. |
 | **Asendatud teise funktsiooniga?**   | Management Reporter (selles Dynamics AX-i versioonis nimega **Finantsaruandlus**)    |
 | **Mõjutatud tootealad**         | Pearaamat   |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.   |
@@ -1266,7 +1266,7 @@ Dynamics AX 2012 haldas realiseerimata käibemaksu (KM), kasutades Mehhiko kohas
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | See funktsioon on asendatud Microsoft Exchange Serveri integratsiooniga. |
+| **Aegumise/eemaldamise põhjus** | See funktsioon on asendatud Microsoft Exchange Server i integratsiooniga. |
 | **Asendatud teise funktsiooniga?**   | Jah                                                                            |
 | **Mõjutatud tootealad**         | Müük ja turundus                                                            |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.                                                 |

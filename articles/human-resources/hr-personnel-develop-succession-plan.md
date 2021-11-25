@@ -1,8 +1,8 @@
 ---
 title: Järgnevusplaani arendamine
 description: Oma organisatsiooni kasvades peata hakkama mõtlema talentide kasvatamisele.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca1d9dda75038d937e2a3dad4582feefa617aac9f7f3f1a75ffd274c69c68ae9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ed10813c30b9a49b84a7e8e333fbac3d1e26720a
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768211"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731512"
 ---
 # <a name="develop-a-succession-plan"></a>Järgnevusplaani arendamine
 
@@ -35,8 +35,8 @@ Oma organisatsiooni kasvades peata hakkama mõtlema talentide kasvatamisele. Tal
 7. Valige **Isik**.
 8. Sisestage inimese nimi väljal **Isik** või valige rippmenüüst.
 9. Valige nupp **OK**.
-10. Laiendage kiirkaarti **Sertifikaadid**, et vaadata või redigeerida oskuste vastendamisse kaasatud tunnistusi.
-11. Laiendades kiirkaarti **Oskused** saate vaadata või redigeerida kaasatud oskusi.
+10. Oskuste **kaardistamisse** kaasatud sertide vaatamiseks või redigeerimiseks laiendage kiirkaarti Serdid.
+11. Kaasatud **oskuste** vaatamiseks või redigeerimiseks laiendage kiirkaarti Oskused.
 12. Märkige loendis esimene rida. Näide: raamatupidamine.
 13. Valige märkeruut **Valikuline**.
 14. Valige suvand väljal **Tähtsus**. Kui märgite oskuse valikuliseks, peate valima oskuse tähtsusastme.  
@@ -48,8 +48,8 @@ Oma organisatsiooni kasvades peata hakkama mõtlema talentide kasvatamisele. Tal
 20. Valige suvand väljal **Tähtsus**.
 21. Valige loendist rida 4.
 22. Valige märkeruut **Valikuline**.
-23. Valige suvand väljal Tähtsus.
-24. Laiendades kiirkaarti **Haridus** saate vaadata või redigeerida oskuste kaardistamisse kaasatatud hariduskompetentsi.
+23. Valige suvand väljal **Tähtsus**.
+24. Oskuste **·** kaardistamisse kaasatav haridusoskuste vaatamiseks või redigeerimiseks laiendage hariduse kiirkaarti.
 25. Valige **Käivita**.
 26. Valige nupp **OK**.
 27. Valige **Tulem**.

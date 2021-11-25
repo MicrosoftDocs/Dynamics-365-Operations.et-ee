@@ -1,7 +1,7 @@
 ---
 title: Panga välisvaluuta ümberarvutamine
 description: Selles teemas antakse ülevaade panga välisvaluuta ümberarvutamise protsessi kohta. Siin on teave seadistamise, protsessi käitamise, protsessi jaoks arvutuste tegemise ja ümberarvutuskannete tühistamise kohta.
-author: mikefalkner
+author: roschlom
 ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 575e92c79eb3524af3e19e29b91567d13e08f9c783d0cca432d23dc5a6d68254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3df6a22e06abbfa75a12ffddac242dd34f5beba5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745009"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754116"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Panga välisvaluuta ümberarvutamine
 
@@ -66,7 +66,7 @@ Väljaga **Vahetuskursi kuupäev** määratakse kindlaks valuutasaldode ümberar
 
 Ümberarvutusprotsessi saab käitada ühe või mitme juriidilise isiku puhul. Otsing kuvab ainult need juriidilised isikud, kellele teil on juurdepääs. Valige juriidilised isikud, kellele soovite valida pangakontod, mis sobivad välisvaluuta ümberarvutamiseks. Kõik nende juriidiliste isikute pangakontod kuvatakse ruudustikus.
 
-Kui soovite ümberarvutamise tulemusi enne sisestamist üle vaadata, määrake suvandi **Eelvaade enne sisestamist** olekuks **Jah**. Välisvaluuta ümberarvutamisel on eelvaade, mida saab sisestada. Te ei pea ümberarvutamisprotsessi uuesti käivitama. Te saate eksportida eelvaates olevad tulemused Microsoft Excelisse, et säiliks summade arvutamise ajalugu. Kui soovite ümberarvutamise tulemuste eelvaadet näha, ei saa te kasutada pakktöötlust.
+Kui soovite ümberarvutamise tulemusi enne sisestamist üle vaadata, määrake suvandi **Eelvaade enne sisestamist** olekuks **Jah**. Välisvaluuta ümberarvutamisel on eelvaade, mida saab sisestada. Te ei pea ümberarvutamisprotsessi uuesti käivitama. Te saate eksportida eelvaates olevad tulemused Microsoft Excel isse, et säiliks summade arvutamise ajalugu. Kui soovite ümberarvutamise tulemuste eelvaadet näha, ei saa te kasutada pakktöötlust.
 
 Välisvaluuta ümberarvutamise töötlemiseks valige **OK**. Iga tsükli ajaloo jälgimiseks luuakse kirje. Iga juriidilise isiku ja sisestamiskihi kohta luuakse eraldi kirje.
 

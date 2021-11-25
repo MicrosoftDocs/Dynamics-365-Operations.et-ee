@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735892"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777861"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Voo sildi printimise plaanimine voo ajal
 
@@ -33,14 +33,14 @@ Voo siltide printimise konfigureerimine on keerukas ning põhineb täpsel konfig
 Selles teemas kirjeldatud funktsioonide kasutamiseks tuleb need teie süsteemi jaoks sisse lülitada. Kasutage [Funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) tööruumi, et lülitada sisse funktsioonid järgmises järjekorras:
 
 1. *Voo sildi printimine* – see funktsioon on vajalik voo protsessi meetodi lubamiseks voo sildi printimisel.
-1. *Üleorganisatsioonilise töö blokeerimine* - see funktsioon on vajalik plaanitud töö loomise nii käsitsi kui ka automaatseks konfigureerimiseks.
+1. *Üleorganisatsioonilise töö blokeerimine* - see funktsioon on vajalik plaanitud töö loomise nii käsitsi kui ka automaatseks konfigureerimiseks. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon kohustuslik, seega on see vaikimisi sisse lülitatud ja seda ei saa enam välja lülitada.)
 1. *Ülesandel põhineva voo sildi printimine* – see funktsioon on vajalik voo sildi printimise tükeldamiseks eraldi kande raames.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Luba uus voo etapi meetod käsitsi
 
 Kõigepealt peate looma uue voo etapi meetodi ja lubama selle paralleelse, asünkroonse ülesande töötlemiseks.
 
-1. Avage jaotis  **Laohaldus \>Seadistus \> Vood \> Voo töötlemise meetodid**.
+1. Avage jaotis  **Laohaldus \> Seadistus \> Vood \> Voo töötlemise meetodid**.
 1. Valige toimingupaanil suvand **Meetodi uuesti loomine**. Pange tähele, et *waveLabelPrinting* lisatakse vooprotsessi meetodite loendisse, mida saate kasutada oma saadetise voo mallides.
 1. Valige kirje, kus **meetodi nime** väljaks on määratud *waveLabelPrinting* ja seejärel valige tegumiribal suvand **Ülesande konfiguratsioon**.
 1. Valige toimingupaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
@@ -51,7 +51,7 @@ Kõigepealt peate looma uue voo etapi meetodi ja lubama selle paralleelse, asün
 
 Nüüd saate värskendada olemasolevat voomalli nii, et see kasutab *Voo sildi printimise* voo töötlemise meetodit. Teise võimalusena saate luua uue voomalli, mis seda kasutab.
 
-1. Avage **Laohaldus\>Seadistus \> Vood \> Voomallid**.
+1. Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Valige loendi paanis värskendatav voomall. (Kui kasutate testimiseks demoandmeid, saate valida *24 vaikimisi saatmine*.)
 1. Valige kiirkaardi **Meetodid** veerust **Järelejäänud meetodid** rida, mille välja **Nimi** väärtuseks on seatud *waveLabelPrinting*.

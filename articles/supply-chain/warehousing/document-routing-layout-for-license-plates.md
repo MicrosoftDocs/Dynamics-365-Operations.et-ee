@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574661"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778349"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
 
@@ -53,7 +53,7 @@ Mitmed laialdaselt kättesaadavad siltide tegemise tööriistad aitavad teil vor
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Selle funktsiooni sisselülitamine teie süsteemi jaoks
 
-Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse funktsioon *Litsentsiplaadi siltide täiustatud paigutused*.
+Kui teie süsteemis ei ole veel selles teemas kirjeldatud funktsioone, avage [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse funktsioon *Litsentsiplaadi siltide täiustatud paigutused*. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 
 ## <a name="custom-number-formats"></a>Kohandatud numbrivormingud
 

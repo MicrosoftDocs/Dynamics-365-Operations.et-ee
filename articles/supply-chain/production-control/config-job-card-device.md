@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576948"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777736"
 ---
 # <a name="configure-job-card-for-devices"></a>Töökaardi konfigureerimine seadmetele
 
@@ -34,19 +34,19 @@ Mõned selles teemas kirjeldatud sätted peavad teie süsteemis olema lubatud, e
 
 Selle funktsiooni kättesaadavaks muutmiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmised funktsioonid (järjekorras).
 
-1. Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat
+1. Töökaardi seadmesse lisatud litsentsiplaat lõpetatuna teatamiseks (tarneahela halduse versiooniga 10.0.21 lülitatakse see funktsioon vaikimisi sisse.)
 1. Identifitseerimisnumbri automaatse genereerimise lubamine lõpetamisest teatamisel töökaardi vahendis
 
 ### <a name="print-label"></a>Prindi silt
 
 Selle funktsiooni kättesaadavaks muutmiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmised funktsioonid (järjekorras).
 
-1. Töökaardi vahendile on lisatud lõpetatuks märkimise litsentsiplaat
+1. Töökaardi seadmesse lisatud litsentsiplaat lõpetatuna teatamiseks (tarneahela halduse versiooniga 10.0.21 lülitatakse see funktsioon vaikimisi sisse.)
 1. Sildi printimine töökaardi vahendilt
 
 ### <a name="allow-locking-of-touch-screen"></a>Puuteekraani lukustamise lubamine
 
-Selle funktsiooni kättesaadavaks muutmiseks lubage [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) järgmine funktsioon.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Kui soovite seda kasutada, veenduge, et funktsioonihalduses on järgmine funktsioon sisse [...](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lülitatud:
 
 - Funktsioon töökaardi seadme ja töökaardi terminali lukustamiseks, et neid saaks puhastada
 

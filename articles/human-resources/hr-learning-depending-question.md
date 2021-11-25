@@ -1,8 +1,8 @@
 ---
 title: Eelmise küsimuse vastusest sõltuva küsimuse koostamine
 description: Tingimuslike küsimuste abil saate määrata, milliseid järelküsimusi vastajale eelmise küsimuse vastuse põhjal esitatakse.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, Hc
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9397b3dfa353398a5d326ae68ec8269369ebf85b7b2e61c73013db76c5dd475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 11787aa0b32c0d7493e4528b00304e51f01a655f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745690"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728901"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Eelmise küsimuse vastusest sõltuva küsimuse koostamine
 
@@ -30,28 +30,28 @@ Tingimuslike küsimuste abil saate määrata, milliseid järelküsimusi vastajal
 
 
 ## <a name="find-the-existing-questionnaire"></a>Olemasoleva küsimustiku leidmine
-1. Avage Küsimustik > Kujundus > Küsimustikud.
+1. Avage küsimustiku **·** > **·** > **kujundusküsimustikke**.
 2. Valige loendist küsimustik WorkFH.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Kõikide küsimuste ja alamküsimuste lisamine küsimustikku
-1. Klõpsake suvandit Küsimused.
-2. Klõpsake valikut Uus.
-3. Valige küsimus number 00016 väljalt Küsimus.
+1. Klõpsake **nuppu Küsimused**.
+2. Klõpsake valikut **Uus**.
+3. Valige väljal **·** Küsimus küsimuse number 00016.
 4. Otsige loendist ja valige soovitud kirje.
 5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake nuppu Salvesta.
+6. Klõpsake nuppu **Salvesta**.
 7. Sulgege leht.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Küsimustiku järjestuse määramine tingimuslikuks ja küsimuse muutmine asjakohasest küsimusest sõltuvaks
-1. Klõpsake nuppu Redigeeri.
-2. Laiendage jaotist Seadistus.
-3. Valige väljalt Küsimuste järjekord suvand Tingimuslik.
-4. Klõpsake suvandit Tinglik küsimus.
+1. Klõpsake valikut **Redigeeri**.
+2. Laiendage jaotist **Seadistus**.
+3. Valige **välja Küsimuse** järjestus suvand Tingimuslik.
+4. Klõpsake **Tinglik** küsimus.
 5. Valige puult suvand Küsimused\selgitage, miks vastasite eelmisele küsimusele selliselt?.
-6. Valige küsimus 00009 väljalt Esmane küsimus.
+6. Valige **väljal** Esmane küsimus küsimus 00009.
 7. Klõpsake loendis valitud real olevat linki.
-8. Sisestage väljale Vastus see vastuse suvandi vastuse seeria ID, millest soovite küsimuse sõltuvaks teha. Näiteks sisestage esimese vastuse suvandi puhul 1.
-9. Klõpsake nuppu Salvesta.
+8. Sisestage **väljale Vastus selle vastuseseeria ID, millele soovite küsimuse** sõltuvaks teha. Näiteks sisestage esimese vastuse suvandi puhul 1.
+9. Klõpsake nuppu **Salvesta**.
 10. Valige puul suvand Küsimused\mulle makstakse tehtava töö eest õiglast tasu.
     * Pange tähele, et küsimuse puud värskendatakse sõltuvuse näitamiseks.  
 

@@ -1,7 +1,7 @@
 ---
 title: Omnikanali maksete ülevaade
 description: Selles teemas antakse ülevaade omnikanali maksetest rakenduses Dynamics 365 Commerce.
-author: rubendel
+author: BrianShook
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 11198795ebc09acd740546e0b18260e8ea2ddfc1dcc2ff38feafecc220655f1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0b01a5b08304b04b924da20310b6eee0c50e9d0e
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743403"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779714"
 ---
 # <a name="omni-channel-payments-overview"></a>Omnikanali maksete ülevaade
 
@@ -72,7 +72,7 @@ Vajalikud on järgmised komponendid ja seadistustoimingud.
 - **EFT-teenus:** maksed läbi makseterminali tuleb seadistada riistvaraprofiili kiirkaardil **EFT-teenus**. Adyeni konnektor toetab omnikanali maksete stsenaariume valmis kujul. Kasutada saab ka muid maksekonnektoreid, mis toetavad liidest **iNamedRequestHandler**, kui need toetavad omnikanali makseid.
 - **Maksekonnektori saadavus:** kui tellimus tagasi kutsutakse, sisaldavad tellimusega koos tagasi kutsutud makse maksevahendi read maksekonnektori nime, mida kasutati selle tellimusega seotud autoriseerimiste loomiseks. Kui tellimus täidetakse, üritab maksete SDK kasutada sama konnektorit, mida kasutati algse autoriseerimise loomiseks. Seetõttu peab hõivamiseks olema saadaval maksekonnektor, millel on samad kaupmehe atribuudid. 
 - **Kaarditüübid:** selleks et omnikanali stsenaariumid õigesti toimiks, peab igal kanalil olema sama seadistus maksevahendite tüüpide jaoks, mida saab omnikanali jaoks kasutada. See seadistus hõlmab maksemeetodi ID-sid ja kaarditüübi ID-sid. Näiteks kui maksevahendi tüübi **Kaardid** ID on veebipoe seadistuses **2**, peab sellel olema sama ID kaupluse seadistuses. Sama nõue kehtib kaarditüübi ID-dele. Kui kaardi number **12** seadistatakse veebipoes väärtusele **VISA**, tuleb sama ID seadistada kauplusele. 
-- Retail Modern POS Windowsile või Androidile koos integreeritud riistvarajaamaga või
+- Retail Modern POS Windowsile või Android ile koos integreeritud riistvarajaamaga või
 - Modern POS iOS-ile või Cloud POS-ile koos ühendatud jagatud riistvarajaamaga. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Omnikanali maksete toetamise üldpõhimõtted
@@ -106,7 +106,7 @@ Enne alustamist veenduge, et järgmised tingimused oleks täidetud.
 - Olemas on viite fassaad, kus on konfigureeritud Adyeni konnektor.
 - Suvand **Omnikanali maksed** lehel **Commerce’i ühiskasutuses parameetrid** on seatud väärtusele **Tõene**. Hilisemates versioonides teisaldatakse see säte tööruumi **Funktsioonihaldus**, kus saate valida funktsiooni **Omnikanali maksed** ja klõpsata **Luba kohe**. 
 - Adyeni maksekonnektor on konfigureeritud Houstoni kassaregistrile.
-- Retail Modern POS Windowsile või Androidile koos integreeritud riistvarajaamaga või
+- Retail Modern POS Windowsile või Android ile koos integreeritud riistvarajaamaga või
 - Modern POS iOS-ile või Cloud POS-ile koos ühendatud jagatud riistvarajaamaga. 
 
 Stsenaariumi käivitamiseks järgige neid toiminguid.
@@ -139,7 +139,7 @@ Stsenaariumi käivitamiseks järgige neid toiminguid.
 9. Valige käsk **Lõpeta**, et sisestada tellimus lõpetamise voogu.
 10. Kerige alla maksete jaotisesse, valige käsk **Lisa** ja seejärel valige rida, kus maksemeetodi tüüp on seatud valikule **Kaardid**. 
 11. Valige plussmärk (**+**) kaardimakse lisamiseks. 
-12. Sisestage krediitkaardi kontrollnumbri üksikasjad, mille leidsite lehelt [Adyeni kaardi kontrollnumbrite leht](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description), ja valige **OK**.
+12. Sisestage krediitkaardi kontrollnumbri üksikasjad, mille leidsite lehelt [Adyeni kaardi kontrollnumbrite leht](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description), ja valige OK
 
     > [!NOTE]
     > Kui sisestatud kaardinumbri kaardi tootemark erineb tootemargist, mis valiti makse käivitamisel, läheb makse siiski läbi. Kuid see sisestatakse kontodele, mis on vastendatud kaardi tootemargiga, mille valisite sammus 10.

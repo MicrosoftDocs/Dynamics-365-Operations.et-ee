@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2b75155aac12d79b9d68cce3e066acaaf80d6764
-ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
-ms.translationtype: HT
+ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380184"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781436"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Tõrkeotsingu probleemid algse häälestuse ajal
 
@@ -27,9 +27,9 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse�
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Finance and Operationsi rakendust ei saa linkida Dataverse'iga
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Finance and Operations i rakendust ei saa linkida Dataverse'iga
 
-**Topeltkirjutuse seadistamiseks nõutav roll:** Finance and Operationsi rakenduste ja Dataverse'i süsteemiadministraator.
+**Topeltkirjutuse seadistamiseks nõutav roll:** Finance and Operations i rakenduste ja Dataverse'i süsteemiadministraator.
 
 Tõrkeid lehel **Dataverse'i häälestuse link** põhjustab tavaliselt puudulik häälestus või lubade probleemid. Veenduge, et kogu seisundikontroll läbitakse lehel **Dataverse'i häälestuse link**, nagu näidatud järgmisel joonisel. Topeltkirjutust ei saa linkida, kui tervet seisundikontrolli pole läbitud.
 

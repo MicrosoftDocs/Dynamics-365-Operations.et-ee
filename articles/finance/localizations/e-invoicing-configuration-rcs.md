@@ -2,7 +2,7 @@
 title: Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 description: See teema kirjeldab, kuidas konfigureerida elektroonilist arveldust Dynamics 365 teenuses Regulatory Configuration Services (RCS)-is.
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757970"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779666"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektroonilise arvelduse konfigureerimine Regulatory Configuration Services -is (RCS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "6757970"
 
 Sellest teemast leiate teavet elektroonilise arvelduse konfiguratsioonivõimaluste kohta Dynamics 365 teenuses Regulatory Configuration Services (RCS).
 
-Elektroonilise arvelduse lisandmoodul aitab teil konfiguratsioonivõimaluste kaudu täita elektrooniliste arvete ärialaseid ja regulatiivseid nõudeid, ilma et peaksite midagi kodeerima. Olukordades, kus veebiteenused peavad elektroonilised arved elektrooniliselt kinnitama, aitavad konfiguratsioonivõimalused teil täita veebiteenustega sõnumite vahetamise nõudeid ilma midagi kodeerimata.
+Elektroonilise arvelduse lisandmoodul aitab teil konfiguratsioonivõimaluste kaudu täita elektrooniliste arvete ärialaseid ja regulatiivseid nõudeid, ilma et peaksite midagi kodeerima. Stsenaariumides, kus elektroonilised arved peab veebiteenus elektrooniliselt kinnitanud, aitavad konfiguratsioonivõimalused täita ka veebiteenusega sõnumite vahetamise nõudeid ilma koodita.
 
 ## <a name="electronic-reporting"></a>Elektrooniline aruandlus
 
@@ -73,6 +73,7 @@ Järgmises tabelis on toodud elektroonilise arvelduse funktsioonid, mis on üldi
 | Hispaania          | Hispaania elektrooniline arve (ES)      | Müügi- ja projektiarved |
 | Euroopa         | PEPPOL-i elektrooniline arve            | PEPPOL-i müügi- ja projektiarved |
 | Euroopa         | PEPPOL hankija arve                | PEPPOL impordi hankijaarved |
+| Saudi Araabia   | Elektroonilised arved Saudi Araabias (SA)| Müügi- ja projektiarved |
 
 ### <a name="preview-features"></a>Eelvaatefunktsioonid
 
@@ -197,6 +198,11 @@ Järgmistes loendites on toodud ER-i funktsioonide jaoks saadaolevad ER-i vormin
 - Müügiarve (ES)
 - Projektiarve (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Saudi Araabia (SA) elektrooniline arve: Saudi Araabia müügi- ja projektiarved
+
+- Müügi e-arve (SA)
+- Projekti e-arve (SA)
+
 Lisaks ER-vormingu konfiguratsioonidele, mis on saadaval e-arveldamise teenusega kasutamiseks, saate luua ka oma ER-vormingu konfiguratsioone. E-arveldamise funktsioonidega kasutamiseks loodud vormingukonfiguratsioonid ei toeta siiski otsest viidet Finance või Supply Chain Management halduse tabelitele ega ühelegi vastavale metaandmele. Toetatakse ainult viiteid ER-mudeli vastendusele.
 
 ### <a name="actions"></a>Actions
@@ -274,7 +280,7 @@ Loogikatehtemärgid:
 - ja
 - Või
 
-Tehtemärkide tüübid:
+Operaatoritüübid:
 - Equal
 - Not equal
 - Greater than

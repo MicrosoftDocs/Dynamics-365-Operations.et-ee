@@ -1,7 +1,7 @@
 ---
 title: Numbriseeriate häälestamine viisardi abil
 description: See teema selgitab, kuidas seadistada nõutavaid numbriseeriaid viisardi abil korraga.
-author: sericks007
+author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sericks
+ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd335f73b2851352dce1eb36c5e5e6838f8611c8ed9fa8cb65fd1c826530f857
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749480"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777564"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Numbriseeriate häälestamine viisardi abil
 

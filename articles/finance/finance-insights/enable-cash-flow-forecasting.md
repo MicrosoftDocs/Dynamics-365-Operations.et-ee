@@ -2,7 +2,7 @@
 title: Rahavoo prognoosimise lubamine
 description: Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse rahavoo prognoosimise funktsioon.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,45 +15,37 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5e54772b132b4098df8259e954a484a0838ee38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386707"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752684"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Rahavoo prognoosimise lubamine
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse rahavoo prognoosimise funktsioon.
+See teema kirjeldab, kuidas lülitada finantside vihjetes sisse likviidsuse prognoosimise funktsioon.
 
 > [!NOTE]
 > Maksete prognoosimises rahavoo kasutamiseks peate häälestama kliendimaksete prognoosimise funktsiooni, nagu on kirjeldatud jaotises [Kliendimaksete prognoosimise lubamine](enable-cust-paymnt-prediction.md).
-
-1. Kasutage teavet teenuse Microsoft Dynamics Lifecycle Services (LCS) lehelt, et ühendada Azure SQL-i esmane eksemplar selle keskkonnaga. Käivitage järgmine Transact-SQL (T-SQL) käsk, et lülitada liivakasti keskkonna eelväljaanded sisse. (Enne rakendusobjekti serveriga \[AOS\] eemalt ühenduse loomist võib olla vajalik, et peate LCS-is lülitama oma IP-aadressi juurdepääsu sisse.)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Jätke see samm vahele, kui kasutate 10.0.20 või uuemat versiooni või kui kasutate Service Fabric juurutamist. Finantsülevaadete meeskond peaks olema väljaande juba teie jaoks sisse lülitanud. Kui te funktsiooni tööruumis **Funktsioonihaldus** ei näe või kui selle sisselülitamisel esineb probleeme, võtke ühendust aadressil <fiap@microsoft.com>.
   
-2. Avage tööruum **Funktsioonide haldus** ja järgige järgmisi etappe.
+1. Avage tööruum **Funktsioonide haldus** ja järgige järgmisi etappe.
 
     1. Valige **Otsi värskendusi**.
-    2. Järgmiste funktsioonide sisselülitamine.
+    2. Vahekaardil **Kõik** otsige **likviidsuse eelarveid**. Kui te seda funktsiooni ei leia, otsige **(eelvaade) likviidsuse prognoose**. 
+    3. Lülitage funktsioon sisse.
 
-        - Uus ruudustiku juhtelement
-        - Ruudustikus grupeerimine (eelversioon) 
-        - Kliendimaksete prognoosid (eelversioon)
-        - Likviidsuse planeerimine (eelversioon)
-
-3. Avage jaotis **Sularaha ja panga haldus \>Rahavoo prognoosimise seadistus** ja lisage likviiduses kontod, mis peaksid olema prognoosi kaasatud.
+2. Avage jaotis **Sularaha ja panga haldus \> Rahavoo prognoosimise seadistus** ja lisage likviiduses kontod, mis peaksid olema prognoosi kaasatud. Saate seadistada ka vahekaartide Müügireskontro **ja** Ostureskontro **maksete** likviidsuskonto. Arvutage kindlasti likviidsuse prognoos ümber.
 
     > [!NOTE]
     > Kui likviidsuse kontosid ei ole seadistatud, ei saa rahavoogu luua.
+    >
+    > Lisateavet likviidsuse eelarvete seadistamise kohta vt [likviidsuse](../cash-bank-management/cash-flow-forecasting.md) prognoosimine.
 
-4. Avage jaotis **Sularaha ja panga haldus \> Seadistus \> Finantsülevaated (eelversioon) \> Rahavoo prognoosid (eelversioon)** ja tehke järgmist.
+3. Avage jaotis **Sularaha ja panga haldus \> Seadistus \> Finantsülevaated (eelversioon) \> Rahavoo prognoosid (eelversioon)** ja tehke järgmist.
 
     1. Valige vahekaardil **Rahavoo prognoosimine** suvand **Luba funktsioon**.
     2. Valige **Prognoosimise mudeli loomine**.

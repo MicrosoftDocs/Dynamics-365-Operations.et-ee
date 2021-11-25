@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 03bfb5f97b332abb7f34e179d7b294ed2228ab474825a76271f42cc60971a645
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716090"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781787"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -96,7 +96,7 @@ Kui sünkroonite Supply Chain Managementi Müükidega, saate järgmise tulemuse:
 Tabelile **Tellimus** lisati uued veerud ja need kuvatakse lehel. Enamik neist veergudes kuvatakse rakenduse Sales vahekaardil **Integreerimine**. Lisateavet selle kohta, kuidas olekuveergusid vastendatakse, vaadake: [Müügitellimuse olekuveergude vastendamise seadistamine](sales-status-map.md).
 
 + Nupud **Loo arve** ja **Tühista tellimus** lehel **Müügitellimus** on Müükides peidetud.
-+ Väärtus **Müügitellimuse olek** jääb **Aktiivseks** , et rakendusest Supply Chain Management pärit muudatused saaksid liikuda rakenduse Müügid müügitellimusse. Selle käitumise juhtimiseks seadke suvandi **Olekukood \[Olek\]** vaikeväärtuseks **Aktiivne**.
++ Väärtus **Müügitellimuse olek** jääb **Aktiivseks**, et rakendusest Supply Chain Management pärit muudatused saaksid liikuda rakenduse Müügid müügitellimusse. Selle käitumise juhtimiseks seadke suvandi **Olekukood \[ Olek\]** vaikeväärtuseks **Aktiivne**.
 
 ## <a name="invoices"></a>Arved
 

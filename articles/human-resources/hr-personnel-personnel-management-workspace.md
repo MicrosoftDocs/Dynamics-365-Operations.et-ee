@@ -1,27 +1,27 @@
 ---
 title: Soodustuse halduse tööruum
 description: See teema kirjeldab personalihalduse tööruumi kontseptuaalseid elemente.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754811"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771334"
 ---
 # <a name="personnel-management-workspace"></a>Soodustuse halduse tööruum
 
@@ -33,11 +33,11 @@ ms.locfileid: "6754811"
 
 Vahekaart **Tegevus** sisaldab jaotisi, mis grupeerivad töötajaid nende tööhõiveprotsessi etapi alusel:
 
-- Palgatavad kandidaadid
-- Alustab varsti
-- Viimati palgatud
-- Lahkumine
-- Lahkunud
+- **Palgatavad kandidaadid**
+- **Alustab varsti**
+- **Viimati palgatud**
+- **Lahkumine**
+- **Lahkunud**
 
 Kui töötaja on ühes nendest etappidest, on konkreetsed tegevused saadaval nupuna kaardil või menüül, mis kuvatakse, kui valite ellips (**...**) ülemises parempoolses nurgas. Järgmised alamjaotised kirjeldavad vahekaardi **Tegevus** jaotisi ja loetlevad saadaolevad tegevused.
 
@@ -51,9 +51,9 @@ Tööruumi **palkamiskandidaatide** jaotis täidetakse mitmest allikast:
 
 Kui kandidaadid ilmuvad **Kandidaadid palkamiseks** jaotisesse, saate kandidaadi kaardi ellipsi abil sooritada järgmisi toiminguid:
 
-- Lõpeta kandidaat
-- Ära palka
-- Palka
+- **Lõpeta kandidaat**
+- **Ära palka**
+- **Palka**
 
 > [!NOTE]
 > Kui kandidaatide loend täidetakse asukohast Microsoft Dataverse, kuvatakse samad kandidaadid kõigis juriidilistes isikutes, kuna juriidiline isik polekandidaadiga seostatud.
@@ -65,7 +65,7 @@ Kui kandidaadid ilmuvad **Kandidaadid palkamiseks** jaotisesse, saate kandidaadi
 Kui juhataja ei ilmu kaardile, pole töötajale ametikohta määratud.
 
 > [!NOTE] 
-> Soovitame teil määrata töötajale positsioon enne kontroll-loendi rakendumist, sest põhiülesanded määratakse vahel äsja palgatud töötaja juhatajale. Kui ühtegi ametikohta pole määratud, ei saa uue töötaja juhatajat määrata. Sel juhul määratakse juhatajale mõeldud põhiülesanded hoopis kontroll-loendi omanikule.
+> Soovitame teil määrata töötajale positsioon enne kontroll-loendi rakendumist. Mõnikord määratakse põhiülesanded äsja palgatud töötaja juhatajale. Kui ühtegi ametikohta pole määratud, ei saa uue töötaja juhatajat määrata. Sel juhul määratakse juhatajale mõeldud põhiülesanded hoopis kontroll-loendi omanikule.
 
 Kui töötajad ilmuvad jaotises **Alagb peatselt**, on nende jaoks saadaval järgmised tegevused:
 
@@ -85,7 +85,7 @@ Jaotises **Hiljutised palkamised** loetletakse töötajad, kelle alguskuupäev o
 Vaikimisi kuvatakse loendis töötajad, kes on palgatud viimase 7 päeva jooksul. Selle sätte muutmiseks määratlege **inimressursside parameetrite** leht, **Üldisel** vahekaardil, määratlemaks ajaplaani **Hiljutised palkamised**. Jaotises **Hiljutised palkamised** saab kuvada andmeid kindla päevade, kuude või aastate arvu kohta. Näiteks viimase 14 päeva jooksul palgatud töötajate loendi vaatamiseks seadke välja **Periood** väärtuseks **14** ja **Ühik** välja väärtuseks **Päevad**.
 
 > [!NOTE]
-> Lehel **Inimressursside parameetrid** jaotatakse sätted ettevõttepõhiselt. Seetõttu võib ajaraam, mille jooksul hiljuti palgatud on, ettevõtteti erineda. Näiteks ettevõttes USMF võite tahta vaadata kõiki viimasest seitsmest päevast pärit uusi palkamisi. Siiski, ettevõttes USSI võite tahta vaadata kõiki viimasest 14 päevast pärit uusi palkamisi. Sellisel juhul peate avama lehekülje **Inimressursside parameetrid** igas ettevõttes ja seadistama vajalikud parameetrid.
+> Lehel **Inimressursside parameetrid** jaotatakse sätted ettevõttepõhiselt. Seetõttu võib ajaraam, mille jooksul hiljuti palgatud on, ettevõtteti erineda. Näiteks ettevõttes USMF võite tahta vaadata kõiki viimasest seitsmest päevast pärit uusi palkamisi. AJAETTEVÕTTES võite siiski soovida vaadata kõiki viimase 14 päeva uusi palkamiseid. Sel juhul avage iga ettevõtte inimressursside parameetrite leht ja **·** seadke parameetrid vastavalt vajadusele.
 
 Kui juhataja ei ilmu kaardile, pole töötajale ametikohta määratud.
 
@@ -132,13 +132,9 @@ Kui töötajad ilmuvad jaotises **Lahkunud**, on nende jaoks saadaval järgmised
 
 Vahekaart **Töötaja muudatused** annab kõigi töötaja personalitoimingute loendi. See valik pole vaikimisi saadaval. Funktsiooni lubamiseks seadke **inimressursside jagatud parameetrite** lehel **Personalitoimingud** vahekaardil suvandi **Luba töötaja tegevused** väärtusele **Jah**.
 
-Lisateavet personalitoimingute kohta vt teemast (Link personalitoimingute lehele).
-
 ## <a name="position-changes-tab"></a>Vahekaart Positsiooni muudatused
 
 Vahekaart **Töötaja muudatused** annab kõigi töötaja ametikoha toimingute loendi. See valik pole vaikimisi saadaval. Funktsiooni lubamiseks seadke **inimressursside jagatud parameetrite** lehel **Personalitoimingud** vahekaardil suvandi **Luba töötaja tegevused** väärtusele **Jah**.
-
-Lisateavet personalitoimingute kohta vt teemast (Link personalitoimingute lehele).
 
 ## <a name="open-positions-tab"></a>Avatud positsioonide vahekaart
 
@@ -151,11 +147,11 @@ Vahekaardil **Avatud ametikohad** loetletakse kõik avatud ametikohad. Loendis i
 
 **Aeguvate kirjete** vahekaardil loetletakse kõik aegunud või aeguvad töötajate üksused, kus kasutaja on sisse loginud. Loendis kuvatakse järgmised üksused:
 
-- Serdid
-- Tuvastamine
-- Katseajad
-- Skriiningud
-- Katsed
+- **Serdid**
+- **Tuvastamine**
+- **Katseajad**
+- **Skriiningud**
+- **Katsed**
 
 Määramaks, kas loend näitab aegunud või aegunud kirjeid, määratlege **inimressursside parameetrite** lehel vahekaardil **Üldine** aegunud kirjete ajaraamiks kas **Aeguvad kirjed** või **Aegunud kirjed**. Vahekaardil **Aeguvad kirjed** saab andmeid näidata kindla päevade arvu kohta. Näiteks järgmise 14 päeva jooksul aegumispäevade loendi vaatamiseks seadke **päevade arvu** välja väärtuseks **14**.
 

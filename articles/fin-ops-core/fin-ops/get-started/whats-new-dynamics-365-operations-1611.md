@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
-description: Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi või muutunud funktsioone.
+description: Selles teemas kirjeldatakse Dynamics 365 for Operations i versiooni 1611 uusi või muutunud funktsioone.
 author: sericks007
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce31755e326ca598ad83c59c7025e3802d15a8b471d62f63e3150f61300777ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715194"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752804"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 for Operations i versiooni 1611 uusi või muutunud funktsioone.
 
 ## <a name="cost-accounting"></a>Kuluarvestus
 
@@ -40,7 +40,7 @@ Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi võ
 <tbody>
 <tr>
 <td>Määratlege kuluelemendi dimensioonid ja importige kuluelemendi dimensiooni numbrid.</td>
-<td>Kuluelemente kasutatakse kuluarvestuses, et kategoriseerida kulusid ja dokumenteerida kulude voogu. Esmased kuluelemendid imporditakse kas Microsoft Dynamics 365 for Operationsi andmekonnektori abil, et tuua põhikontod otse Operationsist, või üldise andmekonnektori abil, kus saate põhikontod Microsoft Exceli kaudu mis tahes muud tüüpi lähtesüsteemist. Pärast põhikontode importimist kuluarvestusse kasutatakse neid kuluelemendi dimensiooniliikmetena. Teisesed kuluelemendid on kasutaja määratletud ja neid kasutatakse eraldamistes, et dokumenteerida kulude voolu.</td>
+<td>Kuluelemente kasutatakse kuluarvestuses, et kategoriseerida kulusid ja dokumenteerida kulude voogu. Esmased kuluelemendid imporditakse kas Microsoft Dynamics 365 for Operations i andmekonnektori abil, et tuua põhikontod otse Operationsist, või üldise andmekonnektori abil, kus saate põhikontod Microsoft Excel i kaudu mis tahes muud tüüpi lähtesüsteemist. Pärast põhikontode importimist kuluarvestusse kasutatakse neid kuluelemendi dimensiooniliikmetena. Teisesed kuluelemendid on kasutaja määratletud ja neid kasutatakse eraldamistes, et dokumenteerida kulude voolu.</td>
 </tr>
 <tr>
 <td>Vastendage kuluelemendi dimensioonid.</td>
@@ -48,7 +48,7 @@ Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi võ
 </tr>
 <tr>
 <td>Määratlege kuluobjekti dimensioonid ja importige kuluobjekti dimensiooni liikmed.</td>
-<td>Kuluobjektid on mis tahes tüüpi objektid, millele kulud on määratud. Tüüpilised kuluobjektid hõlmavad tooteid, projekte, ressursse, osakondi, kulukeskuseid ja geograafilisi regioone. Saate kasutada Microsoft Dynamics 365 for Operationsi andmekonnektorit, et tuua Operationsist finantsdimensioone ja väärtuseid, või kasutada üldist andmekonnektorit, kus saate tuua dimensioonid ja väärtused Exceli kaudu mis tahes muud tüüpi lähtesüsteemist. Näiteks kui kasutate objekti dimensioonina kulukeskuse finantsdimensiooni, siis on kõik imporditavad kulukeskused selle kuluobjekti dimensiooniliikmed.</td>
+<td>Kuluobjektid on mis tahes tüüpi objektid, millele kulud on määratud. Tüüpilised kuluobjektid hõlmavad tooteid, projekte, ressursse, osakondi, kulukeskuseid ja geograafilisi regioone. Saate kasutada Microsoft Dynamics 365 for Operations i andmekonnektorit, et tuua Operationsist finantsdimensioone ja väärtuseid, või kasutada üldist andmekonnektorit, kus saate tuua dimensioonid ja väärtused Exceli kaudu mis tahes muud tüüpi lähtesüsteemist. Näiteks kui kasutate objekti dimensioonina kulukeskuse finantsdimensiooni, siis on kõik imporditavad kulukeskused selle kuluobjekti dimensiooniliikmed.</td>
 </tr>
 <tr>
 <td>Määratlege või importige statistilised dimensioonid.</td>
@@ -496,7 +496,7 @@ Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi võ
 <li>ISO20022 otsedeebeti maksevorming Itaalia puhul</li>
 <li>RIBA kogumise rahaülekande vorming Itaalia puhul</li>
 <li>Kodumaine maksukannete aruanne Itaalia puhul</li>
-<li>Musta loendi aruanne Itaalia puhul</li>
+<li>Blokiloendi aruanne Itaalia jaoks</li>
 <li>Modello770 aruanne Itaalia puhul</li>
 <li>Iga-aastane maksusuhtluse aruanne Itaalia puhul</li>
 </ul>
@@ -618,7 +618,7 @@ Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi võ
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
 | Konfigureerige elektroonilise aruandluse aruandeid, et sisestada andmeid erinevates vormingutes dokumendihalduse mälust loodud elektroonilistesse sõnumitesse. | Elektroonilise aruandluse aruandeid saab sisestada elektroonilistesse teadetesse, mis luuakse dokumendihalduse mälust. Seetõttu saab äridokumendi manuseid lisada elektroonilistele sõnumitele, mis luuakse selle dokumendi jaoks vastavalt juriidilistel nõuetele. Praegu saab need manused MIME-vormingus lisada loodud XML-teatesse. Teise võimalusena saab manused Base64-vormingus lisada loodud binaarsesse teatesse. |
-| Saate konfigureerida elektroonilise aruandluse aruandeid, et luua Excelis, Microsoft Wordis või PDF-vormingus elektroonilisi dokumente. | Üks konfiguratsioon lubab elektroonilise aruandluse aruanded, et luua elektroonilisi dokumente kolmes erinevas vormingus: OpenXML-i tööleht (Excel), Word ja XML-vormide andmevorming (XFDF) (PDF). Kasutajad saavad valida vormingu, lisades vormingu malli elektroonilisele aruandlusele Exceli, Wordi või PDF-i dokumendina. |
+| Saate konfigureerida elektroonilise aruandluse aruandeid, et luua Excelis, Microsoft Word is või PDF-vormingus elektroonilisi dokumente. | Üks konfiguratsioon lubab elektroonilise aruandluse aruanded, et luua elektroonilisi dokumente kolmes erinevas vormingus: OpenXML-i tööleht (Excel), Word ja XML-vormide andmevorming (XFDF) (PDF). Kasutajad saavad valida vormingu, lisades vormingu malli elektroonilisele aruandlusele Exceli, Wordi või PDF-i dokumendina. |
 | Konfigureerige elektroonilise aruandluse aruandeid, et kontrollida lehepiire ja sisestada andmed selliste elektrooniliste dokumentide lehe päisetesse ja jalustesse, mis luuakse OpenXML-i töölehe vormingus. | Elektroonilise aruandluse aruanded saavad sisestada äriandmeid lehepäistesse ja -jalustesse ning samuti kontrollida, kus lehepiir tekib. Seetõttu saavad aruanded toetada loodud elektrooniliste dokumentide lehtede staatilisi ülemisi ja alumisi jaotiseid. Need saavad toetada ka nende dokumentide spetsiifilist saalimist, et need vastaks juriidilistele nõuetele. |
 | Konfigureerige elektroonilise aruandluse aruannete sihtkohta, et väljund saadetaks meilina ning et äriandmeid ja elektroonilise aruandluse loogikat (avaldised) saaks kasutada käitusajal kasutatava meiliaadressi määramiseks. | Varasemalt, kui konfigureerisite elektroonilise aruandluse sihtkohta, sai väljundi adressaadi meiliaadressit määratleda käitusajal. Nüüd saate konfigueerida avaldist elektroonilise aruandluse vormingus. Selle avaldise saab seejärel valida sihtkohas meiliaadressi allikana iga vormingu konfiguratsiooni ja iga väljundi komponendi (kaust või fail) jaoks eraldi. Seetõttu, kui elektrooniline aruanne töötab, saab iga loodava faili erinevale adressaadile saata ja meiliaadressi saab määratleda elektroonilise aruandluse loogika- ja äriandmete põhjal. |
 | Saate konfigureerida elektroonilise aruandluse aruannete sihtkohta nii, et väljund saadetaks Microsoft SharePoint kausta olemasoleva faili uue nimega faili või uue versioonina ja äriandmeid saaks kasutada Microsoft Power BI raamistikus andmekogumi või aruandena. | Elektroonilise aruandluse aruannete konfigureerimisel saate nüüd hõlpsalt (ilma kodeerimiseta) valmistada ette nõutavad äriandmed, et Power BI raamistik saaks neid kasutada. Kui käivitate need elektroonilise aruandluse aruanded, saate pakkuda Power BI raamistikku sobivate äriandmete ja/või Exceli aruannetega, mis on juba saadaval. Kui ajastate aruande käitused korduvas režiimis, saate luua äriandmete ajastatud lükke rakendusest Dynamics 365 for Operations Power BI-sse, et toetada Power BI põhiste aruannete värskendamisgraafikut. |
@@ -650,7 +650,7 @@ Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi võ
 </tr>
 <tr>
 <td>Jälgige ja töödelge makseperioodi protsessi, kasutades uut tööruumi <strong>Palgaarvestuse haldamine</strong>.</td>
-<td>Nüüd saate hõlpsalt jälgida palgaarvestuse töötlemist. Lühidalt saavad palgaarvestuse administraatorid näha tulu- ja palgaväljavõtteid, mis nõuavad nende tähelepanu nii, et palgatöötlus on täielik ja täpne. Tööruum <strong>Palgaarvestuse haldamine </strong>võimaldab kasutajatel jälgida ja käitada täielikud protsessid ühest tööjaamast.</td>
+<td>Nüüd saate hõlpsalt jälgida palgaarvestuse töötlemist. Lühidalt saavad palgaarvestuse administraatorid näha tulu- ja palgaväljavõtteid, mis nõuavad nende tähelepanu nii, et palgatöötlus on täielik ja täpne. Tööruum <strong>Palgaarvestuse haldamine</strong> võimaldab kasutajatel jälgida ja käitada täielikud protsessid ühest tööjaamast.</td>
 </tr>
 <tr>
 <td>Looge palgatšekkide jaoks positiivsete maksefailid.</td>
@@ -743,7 +743,7 @@ Sujuv ühiskanali kaubandus viitab haldusele ja tellimuse töötlemisele füüsi
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
-| Tarbija: tarbijale suunatud rakenduse praegune väljalase lubab järgmised funktsioonid – tooteotsing, kategooria sirvimine, lisamine kärule ja külalise väljaregistreerimine. Jaemüüjad saavad rakendada ka nende ettevõtte kaubamärgi rakendusele ja seejärel pakendada selle Androidi ja iOS-i rakendusepoodidele. | Jaemüüjad saate lihtsalt luua tarbijale suunatud rakendust, mis võimaldab nende klientidel sirvida, otsida tooteid ja lähetada tooteid külalisena nende mobiiliseadmetest. |
+| Tarbija: tarbijale suunatud rakenduse praegune väljalase lubab järgmised funktsioonid – tooteotsing, kategooria sirvimine, lisamine kärule ja külalise väljaregistreerimine. Jaemüüjad saavad rakendada ka nende ettevõtte kaubamärgi rakendusele ja seejärel pakendada selle Android i ja iOS-i rakendusepoodidele. | Jaemüüjad saate lihtsalt luua tarbijale suunatud rakendust, mis võimaldab nende klientidel sirvida, otsida tooteid ja lähetada tooteid külalisena nende mobiiliseadmetest. |
 | Kliendi soovinimekirjad c-kaubanduse võrgupoe fassaadides | Sõltumatud tarkvarahankijad (ISV-d) saavad kasutada soovinimekirja juhtelementi, et võimaldada kasutajatel luua ja hallata nende veebipoe fassaadis mitut nimekirja ning vaadata/kasutada neid nimekirju kassas. |
 | Asünkroonne kliendi loomine e-kaubanduse võrgupoe fassaadides | Sõltumatud tarkvaratarnijad saavad nüüd luua kliendikontod isegi siis, kui Commerce Data Exchange: Real-time Service pole kättesaadav. |
 | Avaldage kanali tooted jaemüügiserverist muu osapoole kaupluse fassaadidele. | Jaemüügiserver toetab nüüd teenusest teenusesse autentimist. Sõltumatud tarkvaratarnijad saavad kasutada kanali toote avaldamise eeliseid jaemüügiserverist muu osapoole kaupluse fassaadidele. |
@@ -942,7 +942,7 @@ Praegu on Retail Modern POS saadaval ainult Windows 8.1 rakendusena laua- ja tah
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Mis on uut või muudetud Finance and Operationsi avalehel](whats-new-changed.md)
+[Mis on uut või muudetud Finance and Operations i avalehel](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

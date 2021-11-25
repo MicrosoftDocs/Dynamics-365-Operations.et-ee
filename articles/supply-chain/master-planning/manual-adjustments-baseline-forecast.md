@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579636"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778029"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Alusprognoosis käsitsi korrigeerimiste tegemine
 
@@ -34,7 +34,7 @@ Enne käsitsi korrigeerimiste tegemist on oluline mõista mõnda põhimõtet eri
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Korrigeeritud nõudluse prognoosi lehe ruudustik
 Lehe **Korrigeeritud nõudluse prognoos** ruudustikul on järgmine struktuur.
 
--   Esimeses veerus kuvatakse kaubad, kauba eraldamisvõtmed, ettevõtted jms, mille jaoks prognoos loodi. Lehe alapealkiri kirjeldab ruudustikus kuvatatud praegusi prognoosi dimensioone. Näiteks kui lehe alapealkiri on **Ettevõte / Koht / Kauba eraldamisvõti** ja üks ruudustiku reapäiseid on **USMF / 1 / D\_Alloc**, näitab see rida, et tegemist on USMF-i ettevõtte, koha 1 ja **D\_Alloc** kauba eraldamisvõtme prognoosiga.
+-   Esimeses veerus kuvatakse kaubad, kauba eraldamisvõtmed, ettevõtted jms, mille jaoks prognoos loodi. Lehe alapealkiri kirjeldab ruudustikus kuvatatud praegusi prognoosi dimensioone. Näiteks kui lehe alapealkiri on **Ettevõte / Koht / Kauba eraldamisvõti** ja üks ruudustiku reapäiseid on **USMF / 1 / D\_ Alloc**, näitab see rida, et tegemist on USMF-i ettevõtte, koha 1 ja **D\_ Alloc** kauba eraldamisvõtme prognoosiga.
 -   Järgnevad veerud esindavad prognoosivahemikke, mille jaoks prognoos on loodud. Iga veeru päis on veerus kuvatava prognoosivahemiku alguskuupäev.
 -   Lahtrite väärtused esitavad ühe kauba, kauba eraldamisvõtme jm kindla prognoosivahemiku prognoosi.
 
@@ -67,7 +67,7 @@ Lehel **Nõudluse prognoosi üksikasjad** kuvatakse graafilises vormingus ja tab
 
 **Märkused.**
 
--   Kui lubate funktsioonide halduses suvandi **Prognoosi mudeli valik nõudluse prognoosi üksikasjades**, saate valida ajaloolisesse prognoosi kaasatavad prognoosimudelid lehel **Nõudluse prognoosi üksikasjad**.
+-   Kui lubate funktsioonide halduses suvandi **Prognoosi mudeli valik nõudluse prognoosi üksikasjades**, saate valida ajaloolisesse prognoosi kaasatavad prognoosimudelid lehel **Nõudluse prognoosi üksikasjad**. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 -   Jaotises **Prognoos** kuvatud usaldusvahemik tähistab usaldusvahemiku ülem- ja alampiiri erinevust. Ülem- ja alampiiri väärtuste vaatamiseks liikuge üle diagrammi jaotises **Varasem nõudlus ja prognoos graafiliselt**.
 -   Kui kasutate nõudluse prognoosimise Microsoft Azure’i masinõpet, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
 

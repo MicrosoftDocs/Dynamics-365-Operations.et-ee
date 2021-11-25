@@ -1,22 +1,22 @@
 ---
-title: Finance and Operationsi rakenduste värskenduste probleemide tõrkeotsing
-description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada Finance and Operationsi rakenduste täiendustega seotud probleeme.
+title: Finance and Operations i rakenduste värskenduste probleemide tõrkeotsing
+description: Selles teemas antakse tõrkeotsingu teavet, mis aitab lahendada Finance and Operations i rakenduste täiendustega seotud probleeme.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 4b5950d203594ba74f6f7f5454028e306767b7af
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: db1602c2edaa2e6b6310cce04639ef7a8e43df15
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417001"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782777"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Finance and Operationsi rakenduste värskenduste probleemide tõrkeotsing
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Finance and Operations i rakenduste värskenduste probleemide tõrkeotsing
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "7417001"
 
 
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige annab see teema teavet, mis aitab lahendada Finance and Operationsi rakenduste täiendustega seotud probleeme.
+See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige annab see teema teavet, mis aitab lahendada Finance and Operations i rakenduste täiendustega seotud probleeme.
 
 > [!IMPORTANT]
 > Mõne selles teemas käsitletava probleemi korral on nõutav kas süsteemiadministraatori roll või Microsoft Azure Active Directory (Azure AD) rentniku administraatori mandaat. Kõigis probleeme kirjeldavates jaotistes täpsustatakse, kas konkreetne roll või mandaat on nõutav.

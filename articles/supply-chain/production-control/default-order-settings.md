@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579420"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778103"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Dimensioonide ja tootevariantide tellimuse vaikesätted
 
 [!include [banner](../includes/banner.md)]
 
-Tellimuse vaikesätted Dynamics 365 Supply Chain Managementis määratlevad koha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ning standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi. Tellimuse vaikesätteid kasutatakse ostutellimuste, müügitellimuste, üleviimistellimuste, laotöölehtede loomisel ja plaanitud tellimuste loomiseks koondplaanimisega. Tellimuse vaikesätted võivad olla kaubaspetsiifilised, kohaspetsiifilised, tootevariandispetsiifilised ja või tootedimensiooni-spetsiifilised.
+Tellimuse vaikesätted Dynamics 365 Supply Chain Management is määratlevad koha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ning standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi. Tellimuse vaikesätteid kasutatakse ostutellimuste, müügitellimuste, üleviimistellimuste, laotöölehtede loomisel ja plaanitud tellimuste loomiseks koondplaanimisega. Tellimuse vaikesätted võivad olla kaubaspetsiifilised, kohaspetsiifilised, tootevariandispetsiifilised ja või tootedimensiooni-spetsiifilised.
 
 Toote jaoks tellimuse vaikesätete määratlemiseks toimige järgmiselt.
 
@@ -188,7 +188,7 @@ Range kontrollimine rakendub **Standardse tellimuse koguse** väärtustele, mis 
 
 ### <a name="enable-the-strict-validation-option"></a>Range kontrollimise suvandi lubamine
 
-Enne range kontrollimise funktsiooni kasutamist peab see teie süsteemis olema sisse lülitatud. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et kontrollida funktsiooni olekut ja vajaduse korral see lubada. Siin on funktsioon loetletud järgmiselt.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
 
 - **Moodul** - *Tooteteabe haldus*
 - **Funktsiooni nimi** - *Tellimuse vaikekoguste range kontrollimine*

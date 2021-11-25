@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728623"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777835"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Managementi standardsed salvestatud vaated
 
@@ -27,7 +27,7 @@ ms.locfileid: "6728623"
 
 Microsoft Dynamics 365 Supply Chain Management sisaldab mitut salvestatud vaadet, mida saate lubada ja kasutada vastavalt vajadusele. Mõned neist standardsetes salvestatud vaadetes on optimeeritud ja nimetatud konkreetse rolli või ülesande jaoks (näiteks „Kvaliteedikontroll” või „Vastuvõtmine”). Teisi optimeeritakse nii, et need sisaldaks ainult välju ja sätteid, mida kliendid Microsofti kasutusstatistika põhjal kasutavad kõige sagedamini. Neid salvestatud vaateid nimetatakse tavaliselt *lihtsustatud* vaadeteks. See teema kirjeldab saadaolevaid standardseid salvestatud vaateid ja selgitab, kuidas need lubada ja neid kohandada.
 
-Täielikke üksikasju salvestatud vaadetega töötamise kohta (sh standardsete salvestatud vaadetega) pärast nende lubamist, vt teemat[Salvestatud vaated](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
+Täielikke üksikasju salvestatud vaadetega töötamise kohta (sh standardsete salvestatud vaadetega) pärast nende lubamist, vt teemat [Salvestatud vaated](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
 ## <a name="customizing-the-standard-saved-views"></a>Standardsete salvestatud vaadete kohandamine
 
@@ -47,15 +47,15 @@ Järgmises tabelis kirjeldatakse varude halduse moodulis saadaolevaid salvestatu
 
 | Lehekülg | Vaate nimi | Kuva kirjeldus | Funktsiooni nimi |
 |---|---|---|---|
-| Laoseisu loend | Finantsid | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda finantsteabele. | Varude haldamise salvestatud vaated |
-| Laoseisu loend | Kvaliteedikontroll | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda kvaliteedikontrollile. | Varude haldamise salvestatud vaated |
-| Laoseisu loend | Vastuvõtmine | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda vastuvõtmisele. | Varude haldamise salvestatud vaated |
-| Laoseisu loend | Lähetamine | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda saatmisele. | Varude haldamise salvestatud vaated |
-| Kanded | Lihtsustatud | See lihtsustatud vaade võimaldab teil varude oleku läbi vaadata, ilma et finantsteave ja teised väljad, mida kasutatakse vähem, teid ei segaks. | Varude haldamise salvestatud vaated |
-| Üleviimistellimused | Lähetamine | See lihtsustatud vaade võimaldab teil üleviimistellimuste haldamise ajal keskenduda saatmisele. | Varude haldamise salvestatud vaated |
-| Üleviimistellimused | Vastuvõtmine | See lihtsustatud vaade võimaldab teil üleviimistellimuse haldamise ajal keskenduda vastuvõtmisele. | Varude haldamise salvestatud vaated |
-| Üleviimistellimused | Kvaliteedikontroll | See lihtsustatud vaade võimaldab teil üleviimistellimuste haldamise ajal keskenduda kvaliteedikontrollile. | Varude haldamise salvestatud vaated |
-| Üleviimistellimused | Finantsid | See lihtsustatud vaade võimaldab teil üleviimistellimuse haldamise ajal keskenduda finantsteabele. | Varude haldamise salvestatud vaated |
+| Laoseisu loend | Finantsid | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda finantsteabele. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Laoseisu loend | Kvaliteedikontroll | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda kvaliteedikontrollile. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Laoseisu loend | Vastuvõtmine | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda vastuvõtmisele. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Laoseisu loend | Saatmine | See lihtsustatud vaade võimaldab teil vaba kaubavaru haldamise ajal keskenduda saatmisele. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Kanded | Lihtsustatud | See lihtsustatud vaade võimaldab teil varude oleku läbi vaadata, ilma et finantsteave ja teised väljad, mida kasutatakse vähem, teid ei segaks. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Üleviimistellimused | Saatmine | See lihtsustatud vaade võimaldab teil üleviimistellimuste haldamise ajal keskenduda saatmisele. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Üleviimistellimused | Vastuvõtmine | See lihtsustatud vaade võimaldab teil üleviimistellimuse haldamise ajal keskenduda vastuvõtmisele. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Üleviimistellimused | Kvaliteedikontroll | See lihtsustatud vaade võimaldab teil üleviimistellimuste haldamise ajal keskenduda kvaliteedikontrollile. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Üleviimistellimused | Finantsid | See lihtsustatud vaade võimaldab teil üleviimistellimuse haldamise ajal keskenduda finantsteabele. | Laohalduse salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Koondplaneerimise mooduli salvestatud vaated
 
@@ -83,11 +83,11 @@ Järgmises tabelis kirjeldatakse tooteteabe halduse moodulis saadaolevaid salves
 
 | Lehekülg | Vaate nimi | Kuva kirjeldus | Funktsiooni nimi |
 |---|---|---|---|
-| Väljastatud toodete loend | Toote loomine | Lihtsustatud lehevaade, mis sisaldab ainult toodete loomisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
-| Väljastatud toote üksikasjad | Toote loomine | Lihtsustatud lehevaade, mis sisaldab ainult toodete loomisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
-| Väljastatud toote üksikasjad | Logistilise teabe haldamine | Lihtsustatud lehevaade, mis sisaldab ainult toodete logistikateabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
-| Väljastatud toote üksikasjad | Ostuteabe haldus | Lihtsustatud lehevaade, mis sisaldab ainult toodete ostuteabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
-| Väljastatud toote üksikasjad | Müügiteabe haldus | Lihtsustatud lehevaade, mis sisaldab ainult toodete müügiga seotud teabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated |
+| Väljastatud toodete loend | Toote loomine | Lihtsustatud lehevaade, mis sisaldab ainult toodete loomisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Väljastatud toote üksikasjad | Toote loomine | Lihtsustatud lehevaade, mis sisaldab ainult toodete loomisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Väljastatud toote üksikasjad | Logistilise teabe haldamine | Lihtsustatud lehevaade, mis sisaldab ainult toodete logistikateabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Väljastatud toote üksikasjad | Ostuteabe haldus | Lihtsustatud lehevaade, mis sisaldab ainult toodete ostuteabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Väljastatud toote üksikasjad | Müügiteabe haldus | Lihtsustatud lehevaade, mis sisaldab ainult toodete müügiga seotud teabe haldamisel kõige sagedamini kasutatavaid välju. | Väljastatud toodete salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Tootmise juhtmooduli salvestatud vaated
 
@@ -95,10 +95,10 @@ Järgmises tabelis kirjeldatakse tootmise juhtmoodulis saadaolevaid salvestatud 
 
 | Lehekülg | Vaate nimi | Kuva kirjeldus | Funktsiooni nimi |
 |---|---|---|---|
-| Tootmistellimuse BOM-leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
-| Tootmistellimuse üksikasjade leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
-| Tootmistellimuse komplekteerimisloendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
-| Tootmistellimuste loendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmise juhtimise salvestatud vaated |
+| Tootmistellimuse BOM-leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmisjuhtimise salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Tootmistellimuse üksikasjade leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmisjuhtimise salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Tootmistellimuse komplekteerimisloendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmisjuhtimise salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
+| Tootmistellimuste loendi leht | Lihtsustatud | See lihtsustatud vaade sisaldab ainult kõige sagedamini kasutatavaid välju. Sel viisil pakub see kiiremat ülevaadet ja sujuvat tööd. | Tootmisjuhtimise salvestatud vaated (sisse lülitatud vaikimisi, alustades versiooniga 10.0.21.) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Müügi- ja turundusmooduli salvestatud vaated
 

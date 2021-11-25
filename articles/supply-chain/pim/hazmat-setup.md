@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577428"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778005"
 ---
 # <a name="set-up-hazardous-materials"></a>Ohtlike materjalide seadistamine
 
@@ -27,7 +27,7 @@ Ohtlike materjalide funktsiooni kasutamiseks peate esmalt häälestama andmed, m
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Süsteemi ohtlike materjalide funktsiooni sisselülitamine
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+Tarneahela halduse versiooni 10.0.21 puhul on see funktsioon vaikimisi sisse lülitatud. Administraatorid saavad funktsioonihalduse [lehte](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kasutada, et kontrollida funktsiooni olekut ja lubada või keelata see, kui vaja. Siin on funktsioon loetletud järgmiselt.
 
 - **Moodul:** *Tooteteabe haldus*
 - **Funktsiooni nimi:** *Toote ohtlike materjalide teave ja saatmisdokumentatsioon*
@@ -100,7 +100,7 @@ Järgmises tabelis kirjeldatakse kiirkaardil **Riik** olevaid välju.
 |---|---|
 | Riik/regioon | Valige määrusega seostatav riik/regioon. |
 
-## <a name="material-codes"></a><a name="hazmat-codes"></a>Materjalikoodid
+## <a name="material-codes"></a><a name="hazmat-codes"></a> Materjalikoodid
 
 Materjalikoodid määravad sätted, mis on seotud kindla ohtliku komponendiga, mis võidakse kaasata väljastatud tootesse. Iga materjalikood kuulub konkreetsele ohtlike materjalide määrusele ja selle määratlus peab vastama sellele määrusele. Kui rakendate väljastatud tootele materjalikoodi väljaga **Materjalikood**, rakendatakse selle toote puhul automaatselt kõiki materjalikoodi ohtlike materjalide sätteid. Seetõttu on väljastatud toodete häälestamine kiirem ja vähem aldis tõrketele.
 
@@ -115,7 +115,7 @@ Ohtlike materjalide määratluste haldamiseks toimige järgmiselt.
 
 5. Kasutage selle lehe ülejäänud välju iga teie valitud määrusele kohalduva ohtliku materjali loomiseks ja häälestamiseks. Saadaolevad väljad on üksikute väljastatud toodete jaoks saadaolevad ohtlike materjalide väljade alamkogum. Lisateabe saamiseks vt [Ohtlikud materjalid toodetes, tellimustes, saadetistes ja koormates](hazmat-items.md).
 
-## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a>Ohtliku materjali klassifikatsioonigrupid
+## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a> Ohtliku materjali klassifikatsioonigrupid
 
 Iga ohtliku materjali klassifikatsioonigrupp määratleb väljaväärtuste grupi, mis määravad malli. Seda malli saate kasutada hiljem, kui häälestate väljastatud kauba ohtliku materjali andmed.
 
@@ -135,7 +135,7 @@ Ohtlike materjalide klassifikatsioonigruppide häälestamiseks avage **Tooteteab
 | Transpordikategooria kood | Saate grupiga seostada [transpordikategooria koodi](#transport-category). |
 | Kordaja | Saate sisestada ohtliku materjali kordaja, mida kohaldatakse ohtlike materjalide klassi ja jaotuse suhtes vastavalt kehtivale määrusele. Seda kordajat kasutatakse valemi osana, mis arvutab koormasse või saadetisse kaasatud kõik *ohtliku materjali punktid*. Lisateavet ohtlike materjalide punktide ja selle kordaja kohta vt [kiirkaardilt Materjalihaldus](hazmat-items.md#material-management). |
 
-## <a name="hazardous-material-classes"></a><a name="classes"></a>Ohtliku materjali klassid
+## <a name="hazardous-material-classes"></a><a name="classes"></a> Ohtliku materjali klassid
 
 Ohtliku materjali klass vastendatakse tavaliselt klasside loendiga, mis on esitatud määruses, millele te vastate. Näiteks USA määruse CFR 49 loendis on "klass 3" kergestisüttivad ja tuleohtlikud vedelikud. Saate häälestada klassid, mis puudutavad materjale, mida peate klassifitseerima.
 
@@ -156,7 +156,7 @@ Ohtliku materjali klasside häälestamiseks avage **Tooteteabe halduse \> Hääl
 | Klassi kood | Saate sisestada selle klassi tuvastamise koodi. Saate määratleda selle kauba koodi. Seejärel kasutatakse seda otsinguloendites, kui määrate väljastatud kaubale ohtliku materjali klassi. |
 | Kirjeldus | Saate sisestada klassi kirjelduse. |
 
-## <a name="hazardous-material-divisions"></a><a name="divisions"></a>Ohtliku materjali jaotused
+## <a name="hazardous-material-divisions"></a><a name="divisions"></a> Ohtliku materjali jaotused
 
 Ohtlike materjalide jaotus on ohtliku materjali klassi alamkogum. Peate igale ohtlikku materjali sisaldavale tootele määrama nii jaotuse kui ka klassi.
 
@@ -178,7 +178,7 @@ Ohtlike materjalide jaotuste häälestamiseks avage **Tooteteabe halduse \> Hä�
 | Kirjeldus | Sisestage jaotuse kirjeldus. |
 | Klass | Otsige üles ja määrake klass, kuhu jaotus kuulub. |
 
-## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a>Ohtliku materjali ühilduvusgrupid
+## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a> Ohtliku materjali ühilduvusgrupid
 
 Ohtliku materjali ühilduvusgrupid määravad, milliseid ohtlike materjalide klasse ja jaotusi saab koos tarnida. Kui operaatorid loovad laokoormaid või saadetisi, saavad nad käitada ühilduvuskontrolli, mis väljastab hoiatuse, kui koorem või saadetis sisaldab kaupu, mis ei kuulu samasse ühilduvusgruppi.
 
@@ -220,7 +220,7 @@ Spetsifikatsioon *Ohtliku materjali erakorraline vastus* näitab, mida tuleks te
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali erakorraline vastus**. Lehel **Ohtliku materjali erakorraline vastus** saate luua mistahes arvu väärtusi ja konfigureerida igaühe neist klassifikatsioonikoodi ja lühikirjeldusega.
 
-### <a name="hazardous-material-identification"></a><a name="identification"></a>Ohtliku materjali ID
+### <a name="hazardous-material-identification"></a><a name="identification"></a> Ohtliku materjali ID
 
 Spetsifikatsioon *Ohtliku materjali ID* määratleb ohtliku materjali klassi või olemuse. Väärtus on tavaliselt kood, mis põhineb ÜRO standardil. Iga klass tuvastatakse koodi ja kirjeldusega ning see võib määrata transpordiviisi piirangud. Näiteks tuleohtliku kauba või materjali tuvastamiseks saate luua ohtliku materjali klassi, mis kasutab koodi *FL* ja kirjeldust *Tuleohtlik*. Samuti saate määrata, et klassi jaoks ei tohi kasutada õhutransporti.
 
@@ -233,49 +233,49 @@ Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \
 | Keela lennutransport | Märkige see ruut, et näidata, et seda ohtlike materjalide klassi jaoks ei tohi kasutada õhutransporti. |
 | Keela meretransport | Märkige see ruut, et näidata, et seda ohtlike materjalide klassi jaoks ei tohi kasutada meretransporti. |
 
-### <a name="hazardous-material-label"></a><a name="label"></a>Ohtliku materjali silt
+### <a name="hazardous-material-label"></a><a name="label"></a> Ohtliku materjali silt
 
 Spetsifikatsioon *Ohtliku materjali silt* tuvastab ohtlike kaupade sildi, mida tuleb rakendada asjakohaste väljastatud toodete puhul. Sildid ise kirjeldavad, kuidas toodet käsitseda. Näiteks on teil toode, mis sisaldab mürgiseid gaase. Sel juhul häälestage sildi kood, mis tähistab mürgise gaasi silti. Samuti saate luua oma äriprotsessi nii, et see otsiks toodete tarnimise ajal üles selle väärtuse.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali silt**. Lehel **Ohtliku materjali silt** saate luua mistahes arvu silte ja konfigureerida igaühe neist ID-koodi ja lühikirjeldusega.
 
-### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a>Ohtliku materjali pakkimiskirjeldused
+### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a> Ohtliku materjali pakkimiskirjeldused
 
 Spetsifikatsioon *Ohtliku materjali pakkimiskirjeldused* näitab, kuidas ohtlik kaup peab olema pakitud. Näiteks tuleks see pakkida kindlat tüüpi terasvaati või mõnda muud tüüpi spetsiaalsesse pakendisse.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali pakkimiskirjeldused**. Lehel **Ohtliku materjali pakkimiskirjeldused** saate luua mistahes arvu pakkimiskirjeldusi ja konfigureerida igaühe neist ID-koodi ja lühikirjeldusega.
 
-### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a>Ohtliku materjali pakendigrupp
+### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a> Ohtliku materjali pakendigrupp
 
 Spetsifikatsioon *Ohtliku materjali pakendigrupp* tuvastab ohtliku kauba pakendigrupi. Pakendigrupp võimaldab teil määratleda koodi ja kirjelduse, et näidata, kuidas ohtlikke materjale tuleks transportimise või saatmise ajal pakkida. Pakendigrupp määratakse kaubale kauba lehe **Kauba ohtlikud materjalid** kaudu.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali pakendigrupp**. Lehel **Ohtliku materjali pakendigrupp** saate luua mistahes arvu pakendigruppe ja konfigureerida igaühe neist ID-koodi ja lühikirjeldusega.
 
-### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a>Ohtliku materjali pakkimisjuhend
+### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a> Ohtliku materjali pakkimisjuhend
 
 Spetsifikatsioon *Ohtliku materjali pakkimisjuhend* määrab pakkimisejuhised, mida tuleb järgida, kui antud ohtlik kaup on ette valmistatud õhutranspordi jaoks.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali pakkimisjuhend**. Lehel **Ohtliku materjali pakkimisjuhend** saate luua mistahes arvu pakkimisjuhendi ID-sid ja konfigureerida igaühe neist ID-koodi ja lühikirjeldusega.
 
-### <a name="hazardous-material-stowage"></a><a name="stowage"></a>Ohtliku materjali laadimine
+### <a name="hazardous-material-stowage"></a><a name="stowage"></a> Ohtliku materjali laadimine
 
 Spetsifikatsioon *Ohtliku materjali laadimine* näitab, kuidas toode tuleb ladustada laeval, kui kasutatakse meretransporti.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali laadimine**. Lehel **Ohtliku materjali laadimine** saate luua mistahes arvu laadimis-ID-sid ja konfigureerida igaühe neist ID-koodi ja lühikirjeldusega.
 
-### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a>Ohtliku materjali transpordikategooria
+### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a> Ohtliku materjali transpordikategooria
 
 Spetsifikatsiooni *Ohtliku materjali transpordikategooria* kasutatakse aruannetes tavaliselt sarnaste ohtlike toodete grupeerimiseks. Näiteks kasutatakse transpordikategooriaid aruandes **Saadetise kokkuvõte**, mille saate printida lao saadetisekirjest.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali transpordikategooria**. Lehel **Ohtliku materjali transpordikategooria** saate luua mistahes arvu transpordikategooriaid ja konfigureerida igaühe neist kuvatava nime ja lühikirjeldusega.
 
-### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a>Ohtliku materjali tehniline nimi
+### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a> Ohtliku materjali tehniline nimi
 
 Spetsifikatsiooni *Ohtliku materjali tehniline nimi* saate kasutada igat materjali kirjeldava üldkasutatava või sisemise ettevõttenime pakkumiseks.
 
 Selle spetsifikatsiooni väärtuste häälestamiseks avage **Tooteteabe haldus \> Häälestus \> Ohtlike materjalide saatmisdokumentatsioon \> Ohtliku materjali tehniline nimi**. Lehel **Ohtliku materjali tehniline nimi** saate luua mistahes arvu tehnilisi nimesid ja konfigureerida igaühe neist kuvatava nime ja lühikirjeldusega.
 
-### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a>Ohtliku materjali tunnel
+### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a> Ohtliku materjali tunnel
 
 Spetsifikatsioon *Ohtliku materjali tunnel* piirab tunnelite tüüpe, mille kaudu saab ohtlikke materjale transportida, määratledes nende tunnelite tüübid, mida tuleb kasutada. Tunnelite kategooriad on kehtestatud ohtlike materjalide transpordi kehtivate määrustega. See spetsifikatsioon rakendub tavaliselt ainult maanteetranspordi puhul.
 

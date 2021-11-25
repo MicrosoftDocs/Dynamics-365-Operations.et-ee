@@ -1,8 +1,8 @@
 ---
 title: Kauba laenamine töötajale
 description: See protseduur näitab, kuidas laenata kaupa töötajale ja kirjendada töötaja kauba tagastamist.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmPersonLoan, HcmPersonLookup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09ed853cb4e937632015007886676542816094011aec8db87f89fdec3ad7f102
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b60439f5f7bb5509423219606d7b9bb2cf3c28a6
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734471"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771310"
 ---
 # <a name="loan-item-to-a-worker"></a>Kauba laenamine töötajale
 
@@ -26,23 +26,23 @@ ms.locfileid: "6734471"
 
 
 
-See protseduur näitab, kuidas laenata kaupa töötajale ja kirjendada töötaja kauba tagastamist. Töötajad saavad taotleda ka kaupade laenamist lehtede Töötaja iseteenindus kaudu. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+See protseduur näitab, kuidas laenata töötajale kaupa ja registreerida töötaja laenu artikli tagastamine. Töötajad saavad laenuüksusi taotleda ka oma **töötaja iseteeninduslehe** kaudu. Selle **protseduuri** loomiseks kasutati USMF-i demoandmete ettevõtet.
 
 
-## <a name="loan-item-to-a-worker"></a>Kauba laenamine töötajale
-1. Avage Personaliarvestus > Töötajad > Laenuartiklid > Laenatud seadmed.
-2. Klõpsake valikut Uus.
-3. Sisestage või valige väärtus väljal Isik.
-4. Sisestage või valige väärtus väljal Laenuartikkel.
-5. Sisestage väljale Plaanitud tagastus kuupäev, mil töötaja peab laenuartikli tagastama.
-6. Klõpsake nuppu Salvesta.
+## <a name="loan-an-item-to-a-worker"></a>Kauba laenamine töötajale
+
+1. Avage inimressursside **töötajate \>\> laenatud kaupade \> laenatud seadmed**.
+2. Valige suvand **Uus**.
+3. Sisestage **·** või valige väärtus väljal Isik.
+4. Sisestage **või valige väärtus väljal** Laenuüksus.
+5. Väljale **Planeeritud tagastus** sisestage kuupäev, millal töötaja peab laenu artikli tagastama.
+6. Valige käsk **Salvesta**.
 7. Sulgege leht.
 
 ## <a name="return-a-loan-item"></a>Laenuartikli tagastamine
-1. Avage Personaliarvestus > Töötajad > Laenuartiklid > Laenatud seadmed.
-2. Klõpsake nuppu Redigeeri.
-3. Sisestage kuupäev väljale Tegelik tagastus.
 
-
+1. Avage inimressursside **töötajate \>\> laenatud kaupade \> laenatud seadmed**.
+2. Valige suvand **Redigeeri**.
+3. Sisestage **väljale Tegelik tagastus** kuupäev.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

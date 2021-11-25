@@ -1,22 +1,22 @@
 ---
-title: Kontrollige topeltkirjutuse konfiguratsiooni Finance and Operationsi rakendustes ja Dataverse’is
-description: Selles teemas selgitatakse, kuidas teha kindlaks, kas topeltkirjutus on konfigureeritud Finance and Operationsi rakendustes ja Dataverse'is.
+title: Kontrollige topeltkirjutuse konfiguratsiooni Finance and Operations i rakendustes ja Dataverse’is
+description: Selles teemas selgitatakse, kuidas teha kindlaks, kas topeltkirjutus on konfigureeritud Finance and Operations i rakendustes ja Dataverse'is.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 074cfd5dc2d2877e83e7e65a8b2178ed954a288e
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 1f82705f3d8bc11eacbc13d32c14ad1765dcc559
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416677"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782623"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Kontrollige topeltkirjutuse konfiguratsiooni Finance and Operationsi rakendustes ja Dataverse’is
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Kontrollige topeltkirjutuse konfiguratsiooni Finance and Operations i rakendustes ja Dataverse’is
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,9 +24,9 @@ ms.locfileid: "7416677"
 
 
 
-See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige selgitab see, kuidas teha kindlaks, kas topeltkirjutus on konfigureeritud Finance and Operationsi rakendustes ja Dataverse'is.
+See teema annab teavet rakendustekomplekti Finance and Operations ja Dataverse’i vahelise andmete topeltkirjutuse integratsiooni tõrkeotsingu kohta. Eelkõige selgitab see, kuidas teha kindlaks, kas topeltkirjutus on konfigureeritud Finance and Operations i rakendustes ja Dataverse'is.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Kontrollimine, kas topeltkirjutus on konfigureeritud Finance and Operationsi rakenduses
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Kontrollimine, kas topeltkirjutus on konfigureeritud Finance and Operations i rakenduses
 
 Selleks, et teha kindlaks, kas ridade värskenduse salvestamisel kuvatavad tõrketeated on põhjustatud topeltkirjutusest, kontrollige esmalt, kas topeltkirjutus on konfigureeritud.
 

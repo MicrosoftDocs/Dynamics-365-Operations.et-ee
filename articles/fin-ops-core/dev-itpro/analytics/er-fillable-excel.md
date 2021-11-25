@@ -2,7 +2,7 @@
 title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevaid Exceli vormingus dokumente.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488134"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731634"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
 [!include[banner](../includes/banner.md)]
 
-Saate luua [Elektroonilise aruandluse (ER)](general-electronic-reporting.md) vormingu konfiguratsiooni, millel on ER-i [vormingu komponent](general-electronic-reporting.md#FormatComponentOutbound), mida saate konfigureerida väljamineva Microsoft Exceli töövihiku vormingus dokumendi loomiseks. Sellel otstarbel tuleb kasutada kindlaid ER-vormingu komponente.
+Saate luua [Elektroonilise aruandluse (ER)](general-electronic-reporting.md) vormingu konfiguratsiooni, millel on ER-i [vormingu komponent](general-electronic-reporting.md#FormatComponentOutbound), mida saate konfigureerida väljamineva Microsoft Excel i töövihiku vormingus dokumendi loomiseks. Sellel otstarbel tuleb kasutada kindlaid ER-vormingu komponente.
 
 Lisateabe saamiseks selle funktsiooni kohta, järgige teemas [Konfiguratsiooni kujundamine aruannete loomiseks OPENXML-vormingus](tasks/er-design-reports-openxml-2016-11.md) toodud etappe.
 
@@ -45,22 +45,22 @@ Konfiguratsiooni ER-vormingu komponendi konfigureerimiseks valige Toimingupaanil
 
 ### <a name="manual-entry"></a>Käsitsi kirje
 
-Peate lisama konfigureeritud ER-vormingule komponendi **Excel\\File**, et luua Exceli vormingus väljaminev dokument.
+Peate lisama konfigureeritud ER-vormingule komponendi **Excel\\ File**, et luua Exceli vormingus väljaminev dokument.
 
 ![Komponent Excel\Fail.](./media/er-excel-format-add-file-component.png)
 
-Väljamineva dokumendi paigutuse määramiseks lisage Exceli töövihik, millel on laiend .xlsx, komponendile **Excel\\File** väljaminevate dokumentide mallina kasutamiseks.
+Väljamineva dokumendi paigutuse määramiseks lisage Exceli töövihik, millel on laiend .xlsx, komponendile **Excel\\ File** väljaminevate dokumentide mallina kasutamiseks.
 
 > [!NOTE]
 > Malli käsitsi manustamisel peate kasutama [dokumendi tüüpi](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types), mis on konfigureeritud selleks otstarbeks [ER-i parameetrites](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Komponendile Excel\fail manuse lisamine.](./media/er-excel-format-add-file-component2.png)
 
-Selleks, et määrata, kuidas lisatud mall täidetakse konfigureeritud ER-vormingu käitamisel, tuleb teil lisada pesastatud komponendid **Leht**, **Vahemik** ja **Lahter** komponendile **Excel\\File**. Iga pesastatud komponent peab olema seostatud Exceli nimega üksusega.
+Selleks, et määrata, kuidas lisatud mall täidetakse konfigureeritud ER-vormingu käitamisel, tuleb teil lisada pesastatud komponendid **Leht**, **Vahemik** ja **Lahter** komponendile **Excel\\ File**. Iga pesastatud komponent peab olema seostatud Exceli nimega üksusega.
 
 ### <a name="template-import"></a>Malli importimine
 
-Saate valida Toimingupaani **Excelist importimine** vahekaardi **Importimine**, et importida uus mall tühja ER-vormingusse. Selles näites luuakse komponent **Excel\\File** automaatselt ja sellele manustatakse imporditud mall. Kõik nõutavad ER-komponendid luuakse samuti automaatselt, võttes aluseks leitud Exceli nimega üksuste loendi.
+Saate valida Toimingupaani **Excelist importimine** vahekaardi **Importimine**, et importida uus mall tühja ER-vormingusse. Selles näites luuakse komponent **Excel\\ File** automaatselt ja sellele manustatakse imporditud mall. Kõik nõutavad ER-komponendid luuakse samuti automaatselt, võttes aluseks leitud Exceli nimega üksuste loendi.
 
 ![Excelist importimise valimine.](./media/er-excel-format-import-template.png)
 
@@ -85,6 +85,8 @@ ER-i toimingu koostaja vahekaardil **Vastendamine** saate konfigureerida kompone
 
 Komponent **Vahemik** tähistab Exceli vahemikku, mida selle ER-komponendiga tuleb juhtida. Vahemiku nimi määratletakse selle komponendi atribuudis **Exceli vahemik**.
 
+### <a name="replication"></a>Andmeedastus
+
 Atribuut **Edastamise suund** määrab, kas ja kuidas vahemik kordub loodud dokumendis.
 
 - Kui atribuudi **Edastamise suund** värtuseks on seatud **Andmeedastust pole**, ei korrata loodud dokumendis vastavat Exceli vahemikku.
@@ -92,6 +94,8 @@ Atribuut **Edastamise suund** määrab, kas ja kuidas vahemik kordub loodud doku
 - Kui atribuudi **Edastamise suund** värtuseks on seatud **Horisontaalne**, korratakse loodud dokumendis vastavat Exceli vahemikku. Iga edastatud vahemik lisatakse Exceli mallis algsest vahemikust paremale. Korduste arv määratletakse tüübi **Kirje loend** andmeallika kirjete arvu põhjal, mis seotakse selle ER-komponendiga.
 
 Horisontaalse edastamise kohta lisateabe saamiseks järgige teemas [Horisontaalselt laiendatavate vahemike kasutamine Exceli aruannete veergude lisamiseks dünaamiliselt](tasks/er-horizontal-1.md) toodud etappe.
+
+### <a name="nested-components"></a>Pesastatud komponendid
 
 Komponendil **Vahemik** võib olla muid pesastatud ER-komponente, mida kasutatakse vastavate Exceli nimega vahemike väärtuste sisestamiseks.
 
@@ -105,11 +109,40 @@ Komponendil **Vahemik** võib olla muid pesastatud ER-komponente, mida kasutatak
     > [!NOTE]
     > Saate kasutada seda mustrit, et lubada Exceli rakendusel vormindada sisestatud väärtusi kohaliku arvuti lokaadi alusel, mis avab väljamineva dokumendi.
 
+### <a name="enabling"></a>Lubamine
+
 ER-i toimingu koostaja vahekaardil **Vastendamine** saate konfigureerida komponendi **Vahemik** jaoks atribuudi **Lubatud**, et määrata, kas komponent tuleks lisada loodud dokumenti.
 
 - Kui atribuudi **Lubatud** avaldis on konfigureeritud tagastama käitusajal väärtuse **Tõene** või kui ühtegi avaldist pole konfigureeritud, täidetakse loodud dokumedis vastav vahemik.
 - Kui atribuudi **Lubatud** avaldis on konfigureeritud tagastama käitusajal väärtuse **Väär** ja see vahemik ei esinda terveid ridu või veerge, ei täideta loodud dokumedis vastavat vahemikku.
 - Kui atribuudi **Lubatud** avaldis on konfigureeritud tagastama käitusajal väärtuse **Väär** ja see vahemik esindab terveid ridu või veerge, sisaldab loodud dokument neid ridu ja veerge peidetud ridade ja veergudena.
+
+### <a name="resizing"></a>Suuruse muutmine
+
+Te saate konfigureerida oma Exceli malli, et kasutada lahtrid tekstiandmete esitlemiseks. Tagamaks, et kogu tekst lahtris on loodud dokumendis nähtav, saate selle lahtri konfigureerida automaatselt selle sees oleva teksti vormindama. Kui tekstiline tekst ei ole täielikult nähtav, saate seda lahtrit sisaldava rea konfigureerimisel automaatselt selle kõrgust korrigeerida. Lisateavet vt jaotisest "Lahtri teksti mähkimine", mis [asub lahtrites katkestatud andmete fikseerimiseks](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> Teadaoleva Exceli piirangu tõttu, isegi kui konfigureerite lahtrid teksti vormindama ja konfigureerite neid lahtriid sisaldavad read korrigeerima automaatselt nende kõrgust nii, et need sobiksid tekstiga, ei pruugi te ühendatud lahtrite ja neid sisaldavate ridade puhul kasutada automaatset ja vormindatud Exceli [...](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353)**·** **·** funktsioone. 
+
+Versiooni 10.0.23 puhul saate sundida ER-i arvutama loodud dokumendis iga rea kõrgus, mis on konfigureeritud automaatselt sobima selle kõrgusega pesastatud lahtrite sisuga, kui see rida sisaldab vähemalt üht ühendatud lahtrit, mis oli konfigureeritud selle sisse Dynamics 365 Finance vormindama. Arvutatud kõrgust kasutatakse siis rea suuruse muutmiseks, kindlustamaks, et kõik rea lahtrid on loodud dokumendis nähtavad. Selle funktsiooni kasutamiseks, kui käitate mis tahes ER-vormingut, mis on konfigureeritud kasutama Exceli malle väljaminevate dokumentide loomiseks, järgige neid samme.
+
+1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
+2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Seostatud lingid** paan **Elektroonilise aruandluse parameetrid**.
+3. Seadke **elektroonilise aruandluse parameetrite** lehe vahekaardil **Käitusaeg rea kõrguse automaatseks muutmiseks** suvand **·** **·** Jah.
+
+Kui soovite seda reeglit üksiku ER-vormingu jaoks muuta, värskendage selle vormingu mustandversiooni järgmiste sammude abil.
+
+1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
+2. Valige lehe **Lokaliseerimise konfiguratsioonid** jaotises **Konfiguratsioonid** suvand **Aruandluse konfiguratsioonid**.
+3. Valige konfiguratsioonilehe vasakpoolse paani konfiguratsioonipuus **ER-i konfiguratsioon, mis on loodud kasutama väljaminevate dokumentide loomiseks** Exceli malli.
+4. Valige kiirkaardil **Versioonid** konfiguratsiooni versioon, mille olek on **Mustand**.
+5. Valige toimingupaanil valik **Koostaja**.
+6. Valige **vormingukujundaja** lehel vasakul paanil olevas vormingupuus Exceli komponent, mis on lingitud Exceli malliga.
+7. Valige vahekaardi Vorming väljal Rea kõrguse korrigeerimine väärtus, et määrata, kas käitusajal peaks ER olema sundrea kõrguse muutmiseks väljaminevas dokumendis, mille on loonud redigeeritud **·** **·** ER-vorming:
+
+    - **Vaikimisi** : kasutage üldist sätet, mis on konfigureeritud automaatse rea kõrguse väljal elektroonilise aruandluse parameetrite **·** **·** lehel.
+    - **Jah** – alistage üldsäte ja muutke käitusajal rea kõrgust.
+    - **Ei** – alistage üldsäte ega muuda rea kõrgust käitusajal.
 
 ## <a name="cell-component"></a>Lahtri komponent
 
@@ -138,7 +171,7 @@ Lisateavet piltide ja kujundite manustamise kohta leiate teemast [Piltide ja kuj
 
 Komponent **PageBreak** sunnib Excelit uut lehte alustama. See komponent pole nõutav, kui soovite kasutada Exceli vaikimisi lehekülgede saalimist, kuid peaksite seda kasutama juhul, kui soovite, et Excel järgiks teie ER-vormingut lehekülgede saalimise struktureerimisel.
 
-## <a name="page-component"></a><a name="page-component"></a>Lehekülje komponent
+## <a name="page-component"></a><a name="page-component"></a> Lehekülje komponent
 
 ### <a name="overview"></a>Ülevaade
 
@@ -146,7 +179,7 @@ Saate kasutada **Lehekülje** komponenti, kui soovite, et Excel järgiks teie ER
 
 Kui peate dokumendi tükeldama erinevatesse sektsioonidesse, millest igaühel on erinev lehekülgede saalimine, saate konfigureerida mitu **Lehekülje** komponenti iga [Lehe](er-fillable-excel.md#sheet-component) komponendis.
 
-### <a name="structure"></a><a name="page-component-structure"></a>Struktuur
+### <a name="structure"></a><a name="page-component-structure"></a> Struktuur
 
 Kui **Lehekülje** komponendi esimene komponent on [Vahemiku](er-fillable-excel.md#range-component) komponent, kus **Andmeedastuse suuna** atribuut on seatud valikule **Andmeedastust pole**, loetakse see vahemik lehekülgede saalimiseks lehekülje päiseks, mis põhineb praeguse **Lehekülje** komponendi sätetel. Selle vormingu komponendiga seostatud Exceli vahemikku korratakse iga lehe ülaosas, mis luuakse praeguse **Lehekülje** komponendi sätteid kasutades.
 
@@ -167,7 +200,7 @@ Kui **Lehe** komponendi pesastatud **Vahemiku** komponentide kogum ei vasta eeln
 
 Kui soovite lehekülgedega seotud summeerimist ja loendamist, et arvutada jooksvaid kogusummasid ja kogusummasid lehekülje kohta, on soovitatav konfigureerida nõutavad [Andmete kogum](er-data-collection-data-sources.md) andmeallikad. Selleks, et teada saada, kuidas kasutada **Lehe** komponenti loodud Exceli dokumendi lehekülgede saalimiseks, viige lõpule toimingud [ER-vormingu kujundamisel, et luua loodud dokument Exceli vormingus](er-paginate-excel-reports.md).
 
-### <a name="limitations"></a><a name="page-component-limitations"></a>Kitsendused
+### <a name="limitations"></a><a name="page-component-limitations"></a> Kitsendused
 
 Exceli **Lehekülgede** nummerdamiseks lehekülje komponendi kasutamisel ei saa te teada loodud dokumendi lõplikke lehti enne, kui lehekülgede saalimine on lõpule viidud. Seetõttu ei saa ER valemite abil lehtede koguarvu arvutada ja printida loodud dokumendi õige arv leheküljed mis tahes leheküljele enne viimast lehekülge.
 
@@ -206,7 +239,7 @@ Kui konfigureerite üksiku **jaluse** komponendi, saate kasutada **päise/jaluse
 > [!NOTE]
 > Veenduge, et **jaluse** komponent, mille te lisate üksikule **lehe** komponendile, oleks erinev väärtus **päise/jaluse välimuse** atribuudi jaoks. Vastasel juhul [ilmneb](er-components-inspections.md#i16) kinnitamistõrge. Tõrketeade, mille saate, teavitab teid vastuolust.
 
-Lisage lisatud **jaluse** komponendi alla, vajalikud pesastatud komponendid **Tekst\\Tekstiring**, **Tekst\\KuupäevKellaaeg** või muu tüüp. Konfigureerige nende komponentide sidumised, et määratleda, kuidas teie lehekülg jalus täidetakse.
+Lisage lisatud **jaluse** komponendi alla, vajalikud pesastatud komponendid **Tekst\\ Tekstiring**, **Tekst\\ KuupäevKellaaeg** või muu tüüp. Konfigureerige nende komponentide sidumised, et määratleda, kuidas teie lehekülg jalus täidetakse.
 
 Loodud jaluse sisu [õigeks](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) vormindamiseks saate kasutada ka erilisi vorminduskoode. Et teada saada, kuidas seda lähenemist kasutada, järgige selle [teema näites 1](#example-1) toodud etappe.
 
@@ -221,7 +254,7 @@ Loodud jaluse sisu [õigeks](/office/vba/excel/concepts/workbooks-and-worksheets
 
 ### <a name="update-a-template"></a>Malli värskendamine
 
-Saate valida Toimingupaani **Excelist värskendamine** vahekaardi **Importimine**, et importida värskendatud mall redigeeritavasse ER-vormingusse. Selle protsessi käigus asendatakse valitud komponent **Excel\\File** uue malliga. Redigeeritava ER-vormingu sisu sünkroonitakse värskendatud ER-i malli sisuga.
+Saate valida Toimingupaani **Excelist värskendamine** vahekaardi **Importimine**, et importida värskendatud mall redigeeritavasse ER-vormingusse. Selle protsessi käigus asendatakse valitud komponent **Excel\\ File** uue malliga. Redigeeritava ER-vormingu sisu sünkroonitakse värskendatud ER-i malli sisuga.
 
 - Uus ER-vormingu komponent luuakse automaatselt iga Exceli nime kohta, kui redigeeritavast vormist ei leida ER-vormingu komponenti.
 - Redigeeritavast ER-vormingust kustutatakse kõik ER-vormingu komponendid, mille kohta ei ei leita sobivat Exceli nime.
@@ -243,7 +276,7 @@ Kui kinnitate redigeeritavat ER-vormingut, tehakse järjepidevuse kontroll, et v
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>Exceli valemite arvutamise juhtimine
 
-Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad mõned selle dokumendi lahtrid sisaldada Exceli valemeid. Kui funktsioon **Luba EPPlusi teegi kasutamine elektroonilise aruandluse raamistikus** on lubatud, saate kontrollida, millal valemid arvutatakse, muutes kasutatavas Exceli mallis **arvutamise valikute** [parameetrit](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows).
+Kui luuakse väljaminev töövihikuvormingus Microsoft Excel i dokument, võivad mõned selle dokumendi lahtrid sisaldada Exceli valemeid. Kui funktsioon **Luba EPPlusi teegi kasutamine elektroonilise aruandluse raamistikus** on lubatud, saate kontrollida, millal valemid arvutatakse, muutes kasutatavas Exceli mallis **arvutamise valikute** [parameetrit](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows).
 
 - Valige suvand **Automaatne**, et arvutada kõik sõltuvad valemid iga kord uuesti, kui loodud dokumendile lisatakse uued vahemikud, lahtrid jne.
 
@@ -256,7 +289,7 @@ Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad 
     > Valemi uuesti arvutamine tehakse käsitsi, kui loodud dokument avatakse Excelit kasutades eelvaateks.
     > Ärge kasutage seda valikut, kui konfigureerite ER-i sihtkohta, mis eeldab loodud dokumendi kasutamist ilma selle eelvaateta Excelis (PDF-i teisendamine, meilimine jne)., kuna loodud dokument ei pruugi omada valemeid sisaldavates lahtrites väärtusi.
 
-## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Näide 1: jaluse sisu vormindamine
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a> Näide 1: jaluse sisu vormindamine
 
 1. Kasutage antud ER-i konfiguratsioone [loomiseks](er-generate-printable-fti-forms.md) prinditava vabas vormis arve (FTI) dokumenti.
 2. Vaadake üle loodud dokumendi jalus. Pange tähele, et see sisaldab teavet praeguse leheküljenumbri ja dokumendi lehtede koguarvu kohta.
@@ -278,7 +311,7 @@ Kui luuakse väljaminev töövihikuvormingus Microsoft Exceli dokument, võivad 
 
 4. Praeguse lehe jaluse muutmiseks saate kohandada ER-näidisvormingut:
 
-    1. [Looge](er-quick-start2-customize-report.md#DeriveProvidedFormat) tuletatud **vabas vormis arve (Excel) kohandatud** ER-vorming, mis põhineb ER-näidisvormingul.
+    1. [Looge](er-quick-start2-customize-report.md#DeriveProvidedFormat) tuletatud vabas vormis arve (Excel) kohandatud ER-vorming, mis põhineb ER-näidisvormingul.
     2. Lisage arve töölehe jaluse **Rida** komponendile **jalus** komponent **arve** töölehel:
 
         1. Lisage **Stringi** komponent, mis joondab ettevõtte nime vasakul ja esitab selle 8-punkti fondis "Segoe UI Regular" font (**"&L&"Segoe UI,Regular"&8"**).

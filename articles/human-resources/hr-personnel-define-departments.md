@@ -1,8 +1,8 @@
 ---
 title: Uute osakondade määratlemine
 description: Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, nagu müük või raamatupidamine.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68e925e0aad2bc5e60bfef0479a6eb7247a1a186ebe25c1eaf6afc4715d163f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: eb83ab1839e5610731afc7073c9d94e34f31bc07
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726965"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731690"
 ---
 # <a name="define-new-departments"></a>Uute osakondade määratlemine
 
@@ -28,28 +28,28 @@ ms.locfileid: "6726965"
 
 Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, nagu müük või raamatupidamine. Paljudel ettevõtetel on organisatsioonihierarhiad, mis näitavad ettevõtte erinevaid osakondi. See protseduur selgitab osakondade loomise ja nende osakondade organisatsiooni osakonnahierarhiasse lisamise protsessi. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
-1. Avage Inimressursid > Osakonnad > Osakonnad.
-2. Rippdialoogi avamiseks klõpsake valikut Uus.
-3. Sisestage väärtus väljale Nimi.
+1. Minge inimressursside **osakonna** > **·** > **osakonda**.
+2. Rippdialoogi avamiseks klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Nimi**.
     * Näide: projekti arveldus  
-4. Sisestage väärtus väljale Memo.
+4. Memo **·** väljale tippige väärtus.
     * Näide: projekti arveldus  
-5. Sisestage või valige väärtus väljal Haldur.
-    * Näide: Jodi Christiansen  
-6. Klõpsake nuppu Salvesta.
+5. Sisestage **·** või valige väärtus väljal Haldur.
+    * Näide: Ana Lisa  
+6. Klõpsake nuppu **Salvesta**.
 7. Sulgege leht.
-8. Avage Inimressursid > Osakonnad > Osakonnahierarhia.
-9. Klõpsake nuppu Redigeeri.
-10. Klõpsake nuppu Sisesta.
-11. Klõpsake suvandit Osakond.
+8. Minge inimressursside **osakonna** > **osakonna** > **hierarhiasse.**
+9. Klõpsake valikut **Redigeeri**.
+10. Klõpsake nuppu **Sisesta**.
+11. Klõpsake **nuppu** Osakond.
 12. Otsige loendist ja valige soovitud kirje.
     * Näide: projekti arveldus  
-13. Klõpsake nuppu OK.
-14. Rippdialoogi avamiseks klõpsake käsku Avalda.
-15. Sisestage kuupäev ja kellaaeg väljale Jõustumiskuupäev.
+13. Klõpsake valikut **OK**.
+14. Dialoogiakna **·** avamiseks klõpsake nuppu Avalda.
+15. Sisestage kuupäev ja kellaaeg väljale **Jõustumiskuupäev**.
     * Osakonna hierarhia avaldamisel saate valida, millal muudatused jõustuvad. Muudatused saab dateerida hilisemale kuupäevale. Näiteks teate võib-olla, et lisate finantsaasta alguses uue osakonna. Saate määrata jõustumiskuupäeva finantsaasta algusse ja hierarhia muudatused jõustuvad sellel kuupäeval.  
-16. Sisestage väärtus väljale Kirjelda muudatusi.
-17. Klõpsake Avalda.
+16. Tippige **väärtus** väljale Kirjelda muudatusi.
+17. Klõpsake **käsku** Avalda.
 
 
 

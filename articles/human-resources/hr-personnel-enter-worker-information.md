@@ -1,8 +1,8 @@
 ---
 title: Töötaja andmete sisestamine
 description: Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0025fcc29eed31fb301052c1080b1631f9eb7ec5201d9d4b7ea8a825d14bf0c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c7929a89d1f503fa42b214dc1f1019a2c26e607b
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770428"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731584"
 ---
 # <a name="enter-worker-information"></a>Töötaja andmete sisestamine
 
@@ -26,20 +26,20 @@ ms.locfileid: "6770428"
 
 
 
-Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks avage Inimressursid > Värbamine > Hulgivärbamisprojektid.
+Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Demoandmed sisaldavad avatud hulgivärbamise projekti. Selle protseduuri alustamiseks minge inimressursside **värbamise** > **·** > **hulgivärbamisprojektidesse**.
 
 1. Märkige loendis valitud rida.
-2. Klõpsake suvandit Ametikoha üksikasjad.
-    * Redigeerige töötaja puhul alguskuupäeva.  
-    * Redigeerige töötaja puhul lõppkuupäeva.  
-    * Vajaduse korral muutke töötaja puhul töötaja tüüpi.  
-3. Sisestage väärtus väljale Eesnimi.
-4. Sisestage väärtus väljale Teine nimi.
-5. Sisestage väärtus väljale Perekonnanimi.
+2. Klõpsake **valikul Ametikoha üksikasjad**.
+    * Töötaja **·** alguskuupäeva redigeerimine  
+    * Töötaja **·** lõppkuupäeva redigeerimine  
+    * Vajadusel **muutke** töötaja tüüpi.  
+3. Tippige **väärtus** väljale Eesnimi.
+4. Tippige **väärtus** väljale Teine nimi.
+5. Tippige **väärtus** väljale Perekonnanimi.
     * Vajaduse korral muutke töötaja puhul tööd.  
     * Vajaduse korral muutke töötaja puhul osakonda.  
     * Vajaduse korral muutke töötaja puhul täistööaja olekut.  
-6. Klõpsake nuppu OK.
+6. Klõpsake valikut **OK**.
 7. Otsige loendist ja valige soovitud kirje.
 8. Eemaldage loendis valitud realt märge.
     * Valige projekti järgmine ametikoht ja jätkake iga värvatava inimese puhul töötaja teabe sisestamist.  

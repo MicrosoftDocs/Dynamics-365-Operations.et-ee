@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 31541
 ms.assetid: 7a25f9b4-a0bb-4e8c-95c0-c0799ec0620d
 ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7cdc583f44e50f378702280db6f641204086d226fef138539e43d9787abe206e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e5bff9986467b79beb68e9274d3c554fe10c9cbb
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745960"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781825"
 ---
 # <a name="configure-online-stores"></a>Konfigureeri e-poode
 
@@ -37,7 +37,7 @@ Järgmises tabelis loetletud teemad aitavad teil kaubanduse komponente ja jaemü
 | Kanali navigeerimishierarhia konfigureerimine.    | Saate luua kanali navigeerimiskategooria hierarhia, mida saab kasutada kategooriastruktuuri seadistamiseks teie võrgupoe kaudu pakutavatele toodetele. Saate määratleda kategooriahierarhia ning määrata kategooriatesse tooted, tooteatribuutide grupid ja atribuudiväärtused. Seejärel saate määrata võrgupoele kategooriahierarhia.                            | [Jaemüügihierarhia häälestus](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (TechNet sisu AX 2012 jaoks)</br> [Atribuutide ja atribuudi tüüpide seadistamine](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (TechNet sisu AX 2012 jaoks)</br> [Jaemüügi atribuutide gruppide seadistamine](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (TechNet sisu AX 2012 jaoks) |
 | Võrgupoe lisamine organisatsioonihierarhiasse. | Enne kui saate määrata loodud võrgupoe jaoks tootesortimendid või täita tellimusi või luua selle võrgupoe andmeid sisaldavaid aruandeid, peate määrama poe ühte või mitmesse organisatsioonihierarhiasse. Peate e-poe määrama vähemalt organisatsioonihierarhiale, mis sisaldab tootesortimente. | [Võrgupoe seadistamine](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNeti sisu AX 2012 kohta)                                                                                                                                                                                                                                                                                                     |
 | Võrgupoele tarneviiside lisamine.          | Saate lisada tarneviisid, mida võrgupood pakub.                                                                                                                                                                                                                                                                                                 | [Võrgupoe seadistamine](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNeti sisu Microsoft AX 2012 kohta)                                                                                                                                                                                                                                                                                                     |
-| Atribuutide vastendamine ja metaandmete lisamine.                   | Saate valida suvandid, mis näitavad, kuidas iga kategooria või kanali toote atribuudid peavad Microsoft SharePointi saidi võrgupoes käituma.                                                                                                                                                                                              | [Võrgupoe seadistamine](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNeti sisu AX 2012 kohta)                                                                                                                                                                                                                                                                                                     |
+| Atribuutide vastendamine ja metaandmete lisamine.                   | Saate valida suvandid, mis näitavad, kuidas iga kategooria või kanali toote atribuudid peavad Microsoft SharePoint i saidi võrgupoes käituma.                                                                                                                                                                                              | [Võrgupoe seadistamine](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNeti sisu AX 2012 kohta)                                                                                                                                                                                                                                                                                                     |
 
 ## <a name="configure-online-store-products"></a>Võrgupoe toodete konfigureerimine
 

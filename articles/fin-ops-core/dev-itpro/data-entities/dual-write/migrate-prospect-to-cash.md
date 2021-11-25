@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/04/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d216f1c46aa3362730c126ffc33fefdddddf1853
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: d119a9e5874f73e024cedc4cdb581f947e5bf1a0
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416373"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782501"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Potentsiaalne klient sularahaks andmete migreerimine andmeintegraator topeltkirjutusse
 
@@ -22,7 +22,7 @@ ms.locfileid: "7416373"
 
 Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist topeltkirjutusse tehke järgmist.
 
-1. Käivitage potentsiaalne klient sularahaks andmeintegraatori tööd, et teha üks lõplik täielik sünkroonimine. Sel viisil tagate, et mõlemas süsteemis (Finance and Operationsi rakendustes ja kliendi kaasamise rakendustes) on kõik andmed.
+1. Käivitage potentsiaalne klient sularahaks andmeintegraatori tööd, et teha üks lõplik täielik sünkroonimine. Sel viisil tagate, et mõlemas süsteemis (Finance and Operations i rakendustes ja kliendi kaasamise rakendustes) on kõik andmed.
 2. Potentsiaalse andmekao vältimiseks eksportige potentsiaalne klient sularahaks andmed rakendusest Microsoft Dynamics 365 Sales Exceli faili või komaga eraldatud väärtustega (CSV) faili. Eksportige andmed järgmistest üksustest.
 
     - [Konto](#account-table)
@@ -41,7 +41,7 @@ Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist 
 6. Lubage topeltkirjutustabeli kaardid ja käivitage nõutud viiteandmete esialgne sünkroonimine. (Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md).) Nõutavate andmete näidete hulka kuuluvad kliendigrupid, maksetingimused ja maksegraafikud. Ärge lubage topeltkirjutuse kaarte tabelitele, mis nõuavad lähtestamist, nt konto, pakkumise, pakkumise rea, tellimuse ja tellimuse rea tabelid.
 7. Avage kliendi kaasamise rakenduses **Täpsemad sätted \> Süsteemi sätted \> Andmehaldus \> Duplikaadi tuvastamise reeglid** ja keelake kõik reeglid.
 8. Lähtestage 2. etapis loetletud tabelid. Juhiseid vaadake selle teema ülejäänud jaotistest.
-9. Avage rakendus Finance and Operations ja lubage tabelikaardid, nt konto, hinnapakkumise, pakkumise rea, tellimuse ja tellimuse rea tabeli kaardid. Seejärel käivitage algne sünkroonimine. (Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md)sünkroonimist.) See protsess sünkroonib rakendusest Finance and Operations lisateavet, nagu töötlemise olek, saatmine ja arveldusaadressid, saidid ja laod.
+9. Avage rakendus Finance and Operations ja lubage tabelikaardid, nt konto, hinnapakkumise, pakkumise rea, tellimuse ja tellimuse rea tabeli kaardid. Seejärel käivitage algne sünkroonimine. (Lisateavet vt teemast [Algse sünkroonimise kaalutlused](initial-sync-guidance.md) sünkroonimist.) See protsess sünkroonib rakendusest Finance and Operations lisateavet, nagu töötlemise olek, saatmine ja arveldusaadressid, saidid ja laod.
 
 ## <a name="account-table"></a>Konto tabel
 
@@ -60,7 +60,7 @@ Teie potentsiaalne klient sularahaks andmete migreerimiseks andmeintegraatorist 
 
 3. Kui kasutate lahendust potentsiaalne klient sularahaks ilma **kontaktinumbrit** kohandamata, määrake järgmised veerud.
 
-    - Migreerige kontakti number CSV-failist (**msdynce\_contactnumber**) kontaktinumbrisse tabelis **Kontakt** (**msd\_contactnumber**).
+    - Migreerige kontakti number CSV-failist (**msdynce\_ contactnumber**) kontaktinumbrisse tabelis **Kontakt** (**msd\_ contactnumber**).
     - Kasutage tabeli **Kontakti number** väärtusi veerus **Osapoole number**.
     - Kasutage tabeli **Kontakti number** väärtusi veerus **Kontonumber / kontaktisiku ID**.
 
