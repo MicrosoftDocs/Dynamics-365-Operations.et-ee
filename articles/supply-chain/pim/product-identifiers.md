@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569669"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825350"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid
 
@@ -39,7 +39,7 @@ Rakenduses Dynamics 365 Supply Chain Management on toote peamine identifikaator 
 
 Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply Chain Management. Selle asemel on see seotud tootega toote elutsükli halduse (PLM) süsteemis või toote teabehalduse (PDM) süsteemis. Sel juhul saate toodete ja tootevariantide importimiseks kasutada andmeüksuseid. Tarneahela haldus kasutab seejärel kõigi operatsioonide numbreid.
 
-Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator sisaldab kuni 15 tähemärki. Ideaaljuhul sisaldab see vähem kui 10 tähemärki ja kuni viis liigitavat tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
+Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Heal tooteidentifikaatoril peaks tavaliselt olema kuni 20 märki, kuid üldiselt soovitame kasutada alla 10 märgi ning mitte rohkem kui 5 klassifitseerivat märki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
 Kui kasutate teenust Microsoft Dataverse, siis on ka toote number Supply Chain Managementis ka toote number teenuses Microsoft Dataverse. Tootevariandid sünkroonitakse Dataverse’iga eristatavate toodetena.
 

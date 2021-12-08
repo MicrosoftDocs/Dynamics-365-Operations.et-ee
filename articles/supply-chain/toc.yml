@@ -60,15 +60,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Rakenduse Finance + Operations (on-premises) ostmine
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Asutusesisese juurutuste ladustamise konfigureerimine
+                - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operationsi rakendused Prantsusmaal
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
-                - name: Mis on uut või mida on muudetud rakendustes Finance and Operations?
+                - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mis on uut või mida on muudetud Supply Chain Managementis?
                   items:
@@ -2147,7 +2143,7 @@
               items:
                 - name: Projekti ressursiteabe häälestus
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Projekti eelarvete esitamine ja kinnitamine
+                - name: Projektieelarve töövoo loomine ja esitamine
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Projekti eelarverevisjonide esitamine ja kinnitamine
                   href: procurement/tasks/submit-approve-project-budget-revision.md

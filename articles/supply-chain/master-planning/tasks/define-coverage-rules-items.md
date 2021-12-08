@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567219"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860609"
 ---
 # <a name="define-coverage-rules-for-items"></a>Kaubakatte reeglite määratlemine
 
@@ -113,6 +113,7 @@ Looge kaubavarude reeglid järgmiselt:
 1. Sisestage väljale **Ostu aeg** väärtus „5“.
 1. Valige käsk **Salvesta**.
 
-
+> [!NOTE]
+> Toodetud kaupade puhul kasutatakse **tootmise** täitmisaega juhul, kui kaubal puudub protsess. Kui kaubaga on seotud aktiivne protsess, planeerib koondplaneerimine tellimuse ja arvutab selle kuupäevad vastavalt protsessiajale ja ressursside võimsusele (kui see on olemas).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

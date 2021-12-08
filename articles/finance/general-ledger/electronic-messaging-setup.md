@@ -2,7 +2,7 @@
 title: Elektroonilise sõnumi häälestamine
 description: Selles teemas antakse ülevaade, kuidas töötada elektroonilise sõnumsidega (EM).
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752171"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860554"
 ---
 # <a name="set-up-electronic-messages"></a>Elektroonilise sõnumi häälestamine
 
@@ -34,6 +34,7 @@ Kui te ei impordi andmeüksuse paketti, saate elektronsõnumite funktsiooni sead
 - [Lisaväljad](#additional)
 - [Täidetava klassi sätted](#executable)
 - [Kirjete asustamise tegevused](#populate)
+- [Saate asustada mitme ettevõtte kirjed.](#multiple-companies-populate)
 - [Veebirakendused](#applications)
 - [Veebiteenuse sätted](#settings)
 - [Sõnumi töötlemise tegevused](#actions)
@@ -139,6 +140,38 @@ Kiirkaardil **Andmeallikate seadistus** lisage rida iga andmeallika jaoks, mida 
 | Ettevõte                | See väli on saadaval, kui **kirjete tegevuste funktsiooni ettevõtteülesed päringud** on **funktsioonihalduse** tööruumis sisse lülitatud. Kasutage seda funktsiooni ettevõtteüleste andmeallikate häälestamiseks asustatud kirjete tegevuste jaoks. Andmeid saab tuua mitmest ettevõttest. |
 | Kasutaja päring             | <p>Kui valite päringu loomiseks ruudustiku kohal suvandi **Redigeeri päringut** ja määrate kriteeriumid, mida tuleb rakendada valitud koondtabelile, mille andmed täidetakse, valitakse see märkeruut automaatselt. Muul juhul täidetakse kõik kirjed valitud põhitabeli allikast.</p><p>Kui **asustatud kirjete tegevuste funktsiooni kontserniülesed** päringud on sisse lülitatud ja kirjed tuleb koguda mitmelt ettevõttelt, lisage rida iga täiendava juriidilise isiku jaoks, kes tuleb aruandlusesse **funktsioonihalduse** töötuumis kaasata. Iga uue rea jaoks valige käsk **Redigeeri päringut** ja määrake rea väljal **Ettevõte** määratud juriidilisele isikules eostuv kriteerium. Kui olete lõpetanud, sisaldab **andmeallikate häälestuse** ruudustik kõigi juriidiliste isikute ridu, mis tuleb aruandesse kaasata.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a> Saate asustada mitme ettevõtte kirjed.
+
+Kui teie ettevõte peab esitama aruande mitmest sama finantsandmebaasi juriidilisest isikust, seadistage asusta kirjete tegevused kõigile juriidilistele isikutele, kelle andmed tuleb aruandesse [kaasata](#populate).
+
+Selle võimaluse lubamiseks finantskeskkonnas järgige neid samme. 
+
+1. Avage **tööruumide** \> **funktsioonihaldus**.
+2. Otsige ja valige **loendi asusta kirjete tegevuste funktsiooni jaoks** ettevõtetevahelised päringud.
+3. Valige **Luba kohe**. 
+
+Et seadistada mitme [ettevõtte](#populate) asustamiskirjete tegevused, millest tuleb andmed aruandlusesse kaasata, järgige neid samme.
+
+1. Minge maksu seadistamise **elektrooniliste** \> **teadete** \> **·** \> **asustamiskirjete** tegevustele.
+
+    Kui ettevõtteülesed päringud asustamiskirjete tegevuste funktsiooni kohta on lubatud, sisaldab andmeallikate häälestusruudustik **tegevuslehel** **·** **Asusta** kirjed ettevõtte **välja**. Asustamiskirjete tegevuste üldise seadistuse ajal loodud olemasolevate kirjete puhul kuvatakse sellel väljal [praeguse](#populate) juriidilise isiku ID.
+
+2. Andmeallikate häälestusruudustikus lisage rida igale all juriidilisele isikule, kes tuleb aruandlusesse kaasata **ja seadke järgmised** väljad.
+
+    | Välja nimi             | Väärtus |
+    |------------------------|-------|
+    | Nimi                   | Sisestage tekstiväärtus, mis aitab teil mõista, kust see kirje pärineb. Näiteks sisestage **andmeallika nimi - Allettevõte 1.** |
+    | Sõnumiüksuse tüüp      | Valige teate kauba tüüp, mis on vajalik EM-i töötlemiseks. |
+    | Konto tüüp           | Määrake konto tüüp, mis on vajalik EM-i töötlemiseks. Kui em-töötlusel pole kindlaid kontotüüpe, valige **väärtus** Kõik. |
+    | Peatabeli nimi      | Määrake kindlaks EM-i töötlemiseks vajaliku koondtabeli nimi. |
+    | Dokumendi numbriväli  | Määrake väli, mis sisaldab dokumendi numbrit teie EM-i töötlemise kirjetes. |
+    | Dokumendi kuupäevaväli    | Määrake väli, mis sisaldab dokumendi kuupäeva teie EM-i töötlemise kirjetes. |
+    | Dokumendi kontoväli | Määrake väli, mis sisaldab dokumendi kontot teie EM-i töötlemise kirjetes. |
+    | Ettevõte                | Valige allüksuse juriidilise isiku ID. |
+    | Kasutaja päring             | See ruut valitakse kriteeriumide määratlemisel automaatselt, valides käsu **Redigeeri** päringut. |
+
+3. Iga uue rea jaoks valige käsk Redigeeri päringut ja määrake rea väljal Ettevõte määratud **juriidilise** **isikuga** seotud kriteeriumid.
+
 ## <a name="web-applications"></a><a id="applications"></a>Veebirakendused
 
 Veebirakenduse sätetega saate seadistada veebirakenduse nii, et see toetab Open Authorization (OAuth) 2.0. OAuth on avatud standard, mis võimaldab kasutajatel anda rakendusele enda nimel turvalise delegeeritud juurdepääsu identimisteavet jagamata. Samuti saate läbi teha autoriseerimisprotsessi, hankides autoriseerimiskoodi ja pääsutõendi. Veebirakenduse sätteid saate määrata lehel **Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Veebirakendused**.
@@ -185,7 +218,7 @@ Järgmises tabelis kirjeldatakse lehe **Veebiteenuse sätted** välju.
 |--------------------------------|-------------|
 | Veebiteenus                    | Saate sisestada veebiteenuse nime. |
 | Kirjeldus                    | Saate sisestada veebiteenuse kirjelduse. |
-| Interneti-aadress               | <p>Saate sisestada veebiteenuse Interneti-aadressi. Kui veebiteenusele on määratud veebirakendus ja veebiteenuse internetiaadress peaks olema sama, mis valitud veebirakenduse puhul määratletud aadress, valige suvand **Kopeeri baas-URL**, et kopeerida veebirakendusest pärinev baas-URL sellele väljale. Veebirakenduse baas-URL kopeeritakse seejärel sellele väljale.</p><p>**Hoiatus:** Kolmanda osapoole teenused või muud siin konfigureeritavad teenused ei vaja sertifikaati ja need ei pruugi vastata Microsofti privaatsusstandarditele. Peaksite vaatama üle iga teenuse privaatsusdokumentatsiooni ja töötama koos iga teenuse pakkujaga, et saada lisateavet teenuse pakutava vastavuse taseme kohta. Teie vastutate selle eest, et need teenused vastaksid teie turvalisusele, privaatsusele ja juriidilistele standarditele. Teenuse kasutamisega seotud risk langeb teile. Microsoft ei anna ühtki muud garantiid, tagatist ega tingimust. Soovitame tungivalt kasutada ainult turvaliseid ja autoriseeritud ühendusi nagu näiteks HTTPS teenuseid.</p> |
+| Interneti-aadress               | <p>Saate sisestada veebiteenuse Interneti-aadressi. Kui veebiteenusele on määratud veebirakendus ja veebiteenuse internetiaadress peaks olema sama, mis valitud veebirakenduse puhul määratletud aadress, valige suvand **Kopeeri baas-URL**, et kopeerida veebirakendusest pärinev baas-URL sellele väljale. Veebirakenduse baas-URL kopeeritakse seejärel sellele väljale.</p><p>**Hoiatus:** Kolmanda osapoole teenused või muud siin konfigureeritavad teenused ei vaja sertifikaati ja need ei pruugi vastata Microsofti privaatsusstandarditele. Peaksite vaatama üle iga teenuse privaatsusdokumentatsiooni ja töötama koos iga teenuse pakkujaga, et saada lisateavet teenuse pakutava vastavuse taseme kohta. Teie vastutate selle eest, et need teenused vastaksid teie turvalisusele, privaatsusele ja juriidilistele standarditele. Teenuse kasutamisega seotud risk langeb teile. Microsoft ei anna mingeid kiirgarantiisid, garantiisid ega tingimusi. Soovitame tungivalt kasutada ainult turvaliseid ja autoriseeritud ühendusi nagu näiteks HTTPS teenuseid.</p> |
 | Sert                    | Saate valida eelnevalt seadistatud Azure Key Vault serdi. |
 | Veebirakendus                | Saate valida eelnevalt seadistatud veebirakenduse. |
 | Vastuse tüüp – XML        | Määrake selle suvandi väärtuseks **Jah**, kui vastuse tüüp on XML. |
@@ -214,6 +247,7 @@ Järgmistes tabelites kirjeldatakse lehel **Sõnumi töötlemise tegevused** ole
 | Täidetav klass                          | Valige olemasolev täitmisklassi säte. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Sõnumi täitmise tase** ja **Sõnumiüksuse täitmise tase**. |
 | Kirjete asustamise tegevus                   | Valige olemasolev asusta kirjete tegevus. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Kirjete asustamine**. |
 | Veebiteenus                               | Valige olemasolev veebiteenus. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Veebiteenus**. |
+| Saadetava faili nimi                         | Sisestage selle toiminguga saadetavale elektroonilisele teatele manuse nimi. Kui mitu manust on sama algse failinimega, saadetakse uusim manuse nimi. Kui ei leita manust, mille failil oleks määratud algne nimi, saadetakse taotlus ilma sisuta. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Veebiteenus**. |
 | Faili nimi                                 | Saate määrata tegevuse tulemfaili nime. See fail võib olla vastus veebiserverilt või loodud aruanne. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Veebiteenus** ja **Elektroonilise aruandluse eksportimissõnum**. |
 | Failide manustamine lähtedokumentidele          | Märkige see ruut loodud failide lisamiseks EM-üksuste viidatud koondtabeli kirjetele. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Elektroonilise aruandluse eksportimissõnum** ja **Veebiteenus**. |
 | Manusta failid väljundarhiivist üksustele | Valige see märkeruut, et ekstraktida eraldi XML-failid väljundi arhiivifailist ja lisada need vastavatele elektroonilistele teateüksustele. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Elektroonilise aruandluse eksport**. |

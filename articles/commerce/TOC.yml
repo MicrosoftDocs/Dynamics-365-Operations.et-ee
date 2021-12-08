@@ -74,15 +74,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange'i juurutamise juhised
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operationsi rakendused Prantsusmaal
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Toe hankimine
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Täiendus ja N-1 tugi
               items:
-                - name: Täiendus ja Commerce'i N-1 tugi
+                - name: Täiendus ja N-1 tugi Commerce'i jaoks
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Installimine, konfigureerimine ja üleminek etapiviisilise levitamise (N-1) puhul'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -1272,8 +1268,10 @@
               href: store-performance-information.md
             - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi häälestus'
               href: set-up-rfm-analysis.md
-            - name: Microsoft Clarity seadistamine Dynamics 36 Commerce'is
+            - name: Microsoft Clarity seadistamine Dynamics 365 Commerce'is
               href: set-up-clarity.md
+            - name: Commerce‘i analüütika (eelversioon)
+              href: commerce-analytics.md
         - name: Globaliseerimine
           items:
             - name: Commerce'i kanali fiskaalüksuse integreerimise ülevaade
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Klienditeabe haldus Venemaa jaoks
                   href: localizations/rus-customer-information.md
+            - name: Saudi Araabia
+              items:
+                - name: QR-koodide loomine ja nende printimine kviitungitele Saudi Araabia jaoks
+                  href: localizations/emea-sau-qr-code.md
             - name: Rootsi
               items:
                 - name: Kassaaparaadi funktsioonid
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Dynamics 365 Commerce'i arenduse parimate tavade veaparandus
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: E-kaubanduse saidi lehtede mälulekete testimine
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: Commerce SDK-sse migreerimine

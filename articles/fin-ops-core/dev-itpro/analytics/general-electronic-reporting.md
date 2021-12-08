@@ -2,7 +2,7 @@
 title: Elektroonilise aruandluse (ER) ülevaade
 description: Teema annab ülevaate elektroonilise aruandluse tööriista kohta. See kirjeldab põhimõisteid, toetatud stsenaariume ja vorminguid, mis on lahenduse osaks.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562172"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867276"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562172"
 
 Teema annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana.
 
-ER on tööriist, mille abil saate seadistada nii sissetulevate kui ka väljaminevate elektrooniliste dokumentide vorminguid mitmesuguste riikide/regioonide seadusenõuete kohaselt. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Näiteks saate võtta vastu õigusaktidega kehtestatud uusi nõudeid ja koostada nõutud vormingus äridokumente teabe elektrooniliseks vahetamiseks valitsusasutuste, pankade ja muude osapooltega.
+ER on konfigureeritav tööriist, mis aitab teil luua ja hallata regulatiivset elektroonilist aruandlust ja makseid. See põhineb kolmel mõistel:
+
+- Kodeerimise asemel konfiguratsioon:
+
+    - Konfiguratsiooni saab teha ärikasutaja ja see ei vaja arendajat.
+    - Andmemudel on määratletud äritingimustes.
+    - Visuaalseid redaktoreid kasutatakse ER-i konfiguratsiooni kõigi komponentide loomiseks.
+    - Andmete teisendamiseks kasutatav keel sarnaneb kasutatava keelega Microsoft Excel.
+
+- Üks konfiguratsioon mitmele Dynamics 365 Finance väljalaskele:
+
+    - Hallake ühte domeeniomast ärieesmärgil määratletud andmemudelit.
+    - Eralda rakenduse vabastamise üksikasjad vabastamissõltuvuse andmemudeli vastendustes.
+    - Saate hallata andmemudelil põhinevat ühe vormingu konfiguratsiooni praeguse versiooni mitme väljaande jaoks.
+
+- Lihtne või automaatne täiendamine:
+
+    - Toetatakse ER-i konfiguratsioonide versioonimist.
+    - Elutsükli Microsoft Dynamics teenuste (LCS) varateeki saab kasutada versioonivahetuseks ER-i konfiguratsioonide hoidlana.
+    - Algsetel ER-konfiguratsioonidel põhinevaid lokaliseerimist saab juurutada tütarversioonidega.
+    - ER-i konfiguratsioonipuud pakutakse tööriistana, mis aitab kontrollida versioonide sõltuvusi.
+    - Erinevused lokaliseerimisel või delta konfiguratsioonil salvestatakse, et lubada algse ER-i konfiguratsiooni uuele versioonile automaatset täiendamist.
+    - Lokaliseerimisversioonide automaatsel uuendamisel avastatud konflikte on lihtne käsitsi lahendada.
+
+ER võimaldab teil määratleda elektroonilise vormingu struktuurid ja seejärel kirjeldada, kuidas struktuurid tuleb andmete ja algoritmide abil täita. Saate kasutada valemikeelt, mis sarnaneb andmeteisenduse Exceli keelele. Andmebaasi ja vormingu vastendamise hallatavamaks, taaskasutatavaks ja vormingumuudatustest sõltumatuks muutmisel tutvustatakse vahepealseid andmemudeli mõisteid. Mõiste võimaldab rakendusandmete peitmist vormingu vastenduses ja võimaldab ühte andmemudelit mitme vormingu vastenduse jaoks uuesti kasutada.
+
+Saate ER-i kasutada nii sissetulevate kui väljaminevate elektrooniliste dokumentide vormingute konfigureerimiseks vastavalt erinevate riikide ja piirkondade juriidilistele nõuetele. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Näiteks saate võtta vastu õigusaktidega kehtestatud uusi nõudeid ja koostada nõutud vormingus äridokumente teabe elektrooniliseks vahetamiseks valitsusasutuste, pankade ja muude osapooltega.
 
 ER-i mootor on suunatud arendajate asemel ärikasutajatele. Kuna seadistate koodi asemel vorminguid, on elektrooniliste dokumentide loomise ja kohandamise protsessid kiiremad ja lihtsamad.
 
-ER toetab praegu töölehevorminguid TEXT, XML, Microsoft Wordi dokument ja OPENXML. Kuid laiendusliides toetab täiendavaid vorminguid.
+ER toetab praegu töölehevorminguid TEXT, XML, JSON, Microsoft Word Microsoft Excel PDF, ja OPENXML.
 
 ## <a name="capabilities"></a>Võimalused
 
@@ -48,6 +74,10 @@ ER-i mootoril on järgmised võimalused.
 
 ## <a name="key-concepts"></a>Põhimõisted
 
+### <a name="main-data-flow"></a>Põhiandmete voog
+
+[![ER-i põhiandmete voog.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Komponendid
 
 ER toetab järgmist tüüpi komponente:
@@ -59,74 +89,6 @@ ER toetab järgmist tüüpi komponente:
 
 Lisateabe saamiseks vaadake [Elektroonilise aruandluse komponendid](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Andmemudeli ja mudeli vastendamise komponendid
-
-Andmemudeli komponent on andmestruktuuri abstraktne kujutis. Seda kasutatakse konkreetse äridomeeni piirkonna kirjeldamiseks piisavalt üksikasjalikult, et rahuldada selle domeeni aruandlusvajadusi. Andmemudeli komponent koosneb järgmistest osadest:
-
-- <a name="DataModelComponent"></a>andmemudel domeenipõhiste äriüksuste kogumina ja nende üksuste vaheline hierarhiliselt struktureeritud suhtemääratlus;
-- <a name="ModelMappingComponent"></a>Mudeli vastendus, mis seob valitud rakenduse andmeallikad andmemudeli eraldi elementidega, mis määrab käitusajal andmemudelikomponendile andmevoo ja äriandmete populatsiooni reeglid.
-
-Andmemudeli äriüksus on esindatud konteinerina (kirje). Äriüksuse atribuudid on esindatud andmeüksustena (väljad). Igal andmeüksusel on kordumatu nimi, silt, kirjeldus ja väärtus. Iga andmeüksuse väärtus võib olla sellise ülesehitusega, et see tuvastatakse stringi, täisarvu, reaalarvu, kuupäeva, loetelu, kahendväärtusena jne. See võib olla ka teine kirje või kirjete loend.
-
-Üksik andmemudeli komponent võib sisaldada mitut domeenipõhiste äriüksuste hierarhiat. See võib sisaldada ka mudelivastendusi, mis toetavad käitusajal aruandepõhist andmevoogu. Hierarhiaid eristatakse ühe kirjega, mis on valitud mudelivastenduse juurena. Näiteks võib maksedomeeni ala andmemudel toetada järgmisi vastendusi:
-
-- Ettevõte \> Hankija \> AP-domeeni maksekanded
-- Klient \> Ettevõte \> AR-domeeni maksekanded
-
-Arvestage, et äriüksused (nt ettevõte ja maksekanded) kavandatakse ühe korra. Seejärel kasutavad neid erinevad vastendused.
-
-Väljaminevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised võimalused.
-
-- See võib kasutada andmemudeli andmeallikatena erinevaid andmetüüpe. Näiteks võib see kasutada tabeleid, andmeüksus, meetodeid või loetelusid.
-- See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
-- See toetab andmete teisendamist vajalikesse gruppidesse. Samuti võimaldab see filtreerida, sortida ja summeerida andmeid ning lisada loogilisi arvutatud välju, mis on kavandatud Microsoft Exceli valemitele sarnanevate valemite kaudu. Lisateavet vt [Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)).
-
-Sissetulevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised võimalused.
-
-- See saab kasutada sihtidena erinevaid värskendatavaid andmeelemente. Nende andmeelementide hulka kuuluvad tabelid, andmeüksused ja vaated. Andmeid saab uuendada sissetulevate elektrooniliste dokumentide andmete abil. Ühe mudeli vastenduses saab kasutada mitut sihtüksust.
-- See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
-
-Andmemudeli komponent on kavandatud igale äridomeenile, mida tuleks kasutada ühtlustatud andmeallikana aruandluse jaoks, mis eraldab aruandluse andmeallikate füüsilisest juurutusest. See kajastab domeenipõhiseid ärikontseptsioone ja funktsioone sellisel kujul, mis teeb aruandlusvormingu algse koostamise ja edasise haldamise tõhusamaks.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Väljaminevate elektrooniliste dokumentide vormingukomponendid
-
-Vormingu komponent on käitusajal loodava aruandlusväljundi skeem. Skeem koosneb järgmistest osadest:
-
-- vorming, mis määratleb käitusajal loodud väljamineva elektroonilise dokumendi struktuuri ja sisu;
-- andmeallikad kasutaja väljundi parameetrite ja domeenipõhise andmemudeli kogumina, mis kasutab valitud mudelivastendust;
-- vormingu vastendamine vormingu andmeallikate seoste kogumina, millel on vormingu üksikud elemendid, mis määravad käitusajal andmevoo ja vormingu väljundi loomise reeglid;
-- vormingu kinnitamine konfigureeritavate reeglite kogumina, mis juhib käitamisel aruande loomist olenevalt käitatavast kontekstist. Näiteks võib olla olemas reegel, mis peatab hankija maksete väljundi loomise ja annab erandi, kui valitud hankija konkreetsed atribuudid (nt pangakonto number) on puudu.
-
-Vormingukomponent toetab järgmisi funktsioone.
-
-- Aruandluse väljundi loomine eraldi failidega mitmesugustes vormingutes, nt tekst, XML, Microsoft Wordi dokument või tööleht.
-- Mitme faili eraldi loomine ja nende failide kapseldamine zip-failidesse.
-
-Vormingukomponent võimaldab manustada konkreetseid faile, mida saab aruandlusväljundis järgmiselt kasutada:
-
-- Exceli töövihikud, mis sisaldavad töölehte, mida saab kasutada töölehevormingu OPENXML väljundi mallina;
-- Wordi failid, mis sisaldavad dokumenti, mida saab kasutada Microsoft Wordi dokumendivormingu väljundi mallina;
-- muud failid, mida saab vormingu väljundisse eelmääratletud failidena lisada.
-
-Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
-
-[![Väljaminevate vormingukomponentide andmevoog.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Ühe ER-vormingukonfiguratsiooni käitamiseks ja väljamineva elektroonilise dokumendi koostamiseks tuleb tuvastada vormingukonfiguratsiooni vastendus.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Sissetulevate elektrooniliste dokumentide vormingukomponendid
-
-Vormingukomponent on käitusajal imporditava sissetuleva dokumendi skeem. Skeem koosneb järgmistest osadest:
-
-- vorming, mis määratleb käitusajal imporditud andmeid sisaldava sissetuleva elektroonilise dokumendi struktuuri ja sisu. Vormingukomponenti kasutatakse sissetuleva dokumendi sõelumiseks mitmesugustes vormingutes, nt tekst ja XML.
-- Vormi vastendus, mis seob eraldi vormielemente domeenipõhise andmemudeli elementidega. Käitusajal määravad andmemudeli elemendid andmevoo ja reeglid andmete importimiseks sissetulevast dokumendist ning salvestavad siis andmed andmemudelisse.
-- Vormingu kinnitamine konfigureeritavate reeglite kogumina, mis juhib käitamisel andmete importimist olenevalt käitatavast kontekstist. Näiteks võib olla olemas reegel, mis peatab hankija maksetega pangaväljavõtte andmeimpordi ja annab erandi, kui hankija konkreetsed atribuudid (nt hankija ID-kood) on puudu.
-
-Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
-
-[![Sissetulevate vormingukomponentide andmevoog.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Ühe ER-vormingukonfiguratsiooni käitamiseks, et importida andmeid sissetulevast elektroonilisest dokumendist, tuleb tuvastada vormingukonfiguratsiooni soovitud vastendus ja samuti mudeli vastenduse integratsioonipunkt. Sama mudeli vastendust ja sihtkohti saab kasutada koos erinevate vormingutega erinevat tüüpi sissetulevate dokumentide puhul.
 
 #### <a name="component-versioning"></a>Komponendi versioonimine
 

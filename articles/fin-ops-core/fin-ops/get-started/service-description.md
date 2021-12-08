@@ -2,19 +2,19 @@
 title: Rakenduse Finance and Operations teenuse kirjeldus
 description: Selles teemas antakse Finance and Operations rakenduste teenuse kirjeldus.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581812"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825396"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Rakenduse Finance and Operations teenuse kirjeldus
 
@@ -50,10 +50,10 @@ Rakenduste Finance and Operations töömudel määrab kindlaid rolle ja kohustus
 
 ### <a name="customer-activities"></a>Kohandatud tegevused
 
-Kliendid töötavad koos oma partneri ja [Microsoft FastTrack`iga](/dynamics365/fasttrack/) jälgides [Success by Design](/dynamics365/fasttrack/success-by-design-overview) raamistikku oma lahenduse rakendamiseks [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) tööriistu ja heade tavade malle. Tavalised tegevused hõlmavad:
+Kliendid töötavad koos oma partneri ja Microsoft FastTrackiga, järgides [Dynamics](/dynamics365/fasttrack/) [365 rakendusjuhendit, raamistikku ning töötsükli teenustes antud tööriistu ja heade tavade malle oma](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide) lahenduse [Success by Design](/dynamics365/fasttrack/success-by-design-overview)[rakendamiseks](../../dev-itpro/lifecycle-services/lcs.md). Tavalised tegevused hõlmavad:
 
 - Kasutaja identiteet ja turvahaldus
-- Äriprotsesside määratlemine, arendamine ja käitamine
+- Äriprotsesside määratlemine, arendamiseks ja käitamine
 - Laienduste määratlemine, arendamine, testimine ja käitamine
 - Tootmisväliste juurutuste jälgimine ja haldamine
 - Halda rakenduse värskendusi ja kinnita laiendusi
@@ -66,7 +66,7 @@ Microsoft haldab Finance and Operations teenust, juurutades, jälgides ja hoolda
 **Infrastruktuuri haldus**
 - Turvalisus ja isolatsioon
 - Operatsioonisüsteemid ja virtuaalsus
-- Serverid, ladustamine ja võrgustumine
+- Serverid, ladustamine ja serverid
 - Andmekeskuse võimsus, võrgustumine, jahutus
 
 **Rakenduse platvormi haldus**

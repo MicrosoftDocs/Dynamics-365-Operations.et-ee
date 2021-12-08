@@ -60,17 +60,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Rakenduse Finance + Operations (on-premises) ostmine
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Asutusesisese juurutuste ladustamise konfigureerimine
+                - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operationsi rakendused Prantsusmaal
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
-                - name: Mis on uut või mida on muudetud rakendustes Finance and Operations?
+                - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Mis on uut või mida on muudetud rakenduses Finance?
+                - name: Mis on uut või mis on muutunud Finance'is?
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Kliendi ajalise jaotuse aruanne
               href: accounts-receivable/customer-aging.md
+            - name: Kliendi ajalise jaotuse andmete salvestusruum
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Kliendi jaoks mahakandmise töölehe loomine
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Täpsemate märkmete haldus
@@ -1470,15 +1468,19 @@
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Austria aruandlus
                           items:
-                            - name: Käibemaksudeklaratsioon
+                            - name: KM-i deklaratsioon
                               href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Prantsusmaa aruandlus
                           items:
-                            - name: Käibemaksudeklaratsioon
+                            - name: KM-i deklaratsioon
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Saksamaa aruandlus
+                          items:
+                            - name: KM-i deklaratsioon
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Hollandi aruandlus
                           items:
-                            - name: Käibemaksudeklaratsioon
+                            - name: KM-i deklaratsioon
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: EL käibearuanne
                               href: localizations/emea-nl-eu-sales-list.md
@@ -1488,15 +1490,15 @@
                               href: localizations/emea-esp-sii-spain.md
                         - name: Rootsi aruandlus
                           items:
-                            - name: Käibemaksudeklaratsioon
+                            - name: KM-i deklaratsioon
                               href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: Šveitsi aruandlus
                           items:
-                            - name: Käibemaksudeklaratsioon
+                            - name: KM-i deklaratsioon
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Ühendkuningriigi aruandlus
                           items:
-                            - name: Käibemaksudeklaratsioon
+                            - name: KM-i deklaratsioon
                               href: localizations/emea-gbr-vat-declaration.md
                     - name: Üleviimistellimuse maksuarvutuse lubamine
                       items:
@@ -1548,7 +1550,7 @@
                   href: localizations/emea-aut-intrastat.md
                 - name: Ostulõivud
                   href: localizations/emea-aut-purchase-duties.md
-                - name: Käibemaksudeklaratsioon
+                - name: KM-i deklaratsioon
                   href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
@@ -1556,7 +1558,7 @@
                   href: localizations/bahrain.md
                 - name: Bahreini arve paigutuse konfigureerimine
                   href: localizations/emea-bhr-invoice-layout.md
-                - name: Bahreini käibemaksudeklaratsioon
+                - name: Bahreini KM-i deklaratsioon
                   href: localizations/emea-bhr-vat-declaration.md
                 - name: Arve väljastamise tähtaeg
                   href: localizations/gcc-invoice-issue-deadline.md
@@ -1862,7 +1864,7 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: KM-aruanne
                   href: localizations/emea-cze-vat-statement-details.md
-                - name: Käibemaksudeklaratsioon (Tšehhi Vabariik)
+                - name: KM-i deklaratsioon (Tšehhi Vabariik)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Pangakontode pangasümbolid
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
@@ -2136,7 +2138,7 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Kliendi makseviisi värskendamine
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: Käibemaksudeklaratsioon
+                - name: KM-i deklaratsioon
                   href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2-aruanne
                   href: localizations/emea-fra-das2-report.md
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Täiendavate soetamiste kulumi korrigeerimised teisel aastal
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: Käibemaksudeklaratsiooni (ELSTER) elektrooniline edastamine
+                - name: KM-i deklaratsioon
+                  href: localizations/emea-deu-vat-declaration-germany.md
+                - name: KM-i deklaratsiooni (ELSTER) elektrooniline edastamine
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Saksa Intrastat
                   href: localizations/emea-deu-intrastat.md
-                - name: Saksamaa käibemaksudeklaratsioon
+                - name: KM-aruanne
                   href: localizations/emea-de-vat-declaration.md
                 - name: Kliendi elektrooniliste arvete aruanne
                   href: localizations/emea-deu-e-invoices.md
@@ -2590,7 +2594,7 @@
               items:
                 - name: Indoneesia ülevaade
                   href: localizations/indonesia.md
-                - name: Indoneesia käibemaksudeklaratsioon
+                - name: Indoneesia KM-i deklaratsioon
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Itaalia
               items:
@@ -2930,7 +2934,7 @@
               items:
                 - name: Hollandi ülevaade
                   href: localizations/netherlands.md
-                - name: Käibemaksudeklaratsioon
+                - name: KM-i deklaratsioon
                   href: localizations/emea-nl-VAT-declaration.md
                 - name: Elektroonilised maksudeklaratsioonid (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
@@ -2938,7 +2942,7 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Auditifail (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
-                - name: Käibemaksudeklaratsioon (Holland)
+                - name: KM-i deklaratsioon (Holland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: Hollandi Intrastat
                   href: localizations/emea-nl-intrastat.md
@@ -2968,7 +2972,7 @@
               items:
                 - name: Omaani ülevaade
                   href: localizations/oman.md
-                - name: Omaani käibemaksudeklaratsioon (OM-00003)
+                - name: Omaani KM-i deklaratsioon (OM-00003)
                   href: localizations/emea-oma-vat-declaration.md
             - name: Poola
               items:
@@ -3006,9 +3010,9 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: PKWiU-koodide häälestamine ja kasutamine Poolas
                   href: localizations/emea-pol-pkwiu-code.md
-                - name: 'Käibemaksudeklaratsioon registritega (JPK_V7M, VDEK)'
+                - name: 'KM-i deklaratsioon registritega (JPK_V7M, VDEK)'
                   items:
-                    - name: 'Käibemaksudeklaratsioon registritega (JPK_V7M, VDEK) – ülevaade'
+                    - name: 'KM-i deklaratsioon registritega (JPK_V7M, VDEK) – ülevaade'
                       href: localizations/emea-pol-vdek.md
                     - name: JPK-V7M-i aruandluseks ettevalmistamine
                       href: localizations/emea-pol-vdek-setup.md
@@ -3078,7 +3082,7 @@
                       href: localizations/rus-revise-invoice-facture.md
                     - name: Maksuesindajate käibemaks (KM)
                       href: localizations/rus-tax-agent.md
-                    - name: Käibemaksudeklaratsioon
+                    - name: KM-i deklaratsioon
                       href: localizations/rus-VAT-declaration.md
                     - name: 'Müügiraamatud, osturaamatud ja faktuurarvete töölehed'
                       href: localizations/rus-sales-books-purchase-books.md
@@ -3328,7 +3332,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Rootsi käibemaksu maksearuanne
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Rootsi käibemaksudeklaratsioon
+                - name: Rootsi KM-i deklaratsioon
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Rootsi Intrastat
                   href: localizations/emea-swe-intrastat.md
@@ -3340,7 +3344,7 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Šveitsi QR-arved
                   href: localizations/emea-che-swiss-qr-bills.md
-                - name: Käibemaksudeklaratsioon
+                - name: KM-i deklaratsioon
                   href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Tai
               items:
@@ -3402,9 +3406,9 @@
                       href: localizations/emea-gbr-mtd-vat-integration-submission.md
                     - name: Käibemaksu maksete ja kohustuste kohta teabe toomine HMRC-st
                       href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                    - name: Käibemaksu seadistuse üksikasjad käibemaksudeklaratsioonide kohta Ühendkuningriigis
+                    - name: Käibemaksu seadistuse üksikasjad KM-i deklaratsioonide kohta Ühendkuningriigis
                       href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                    - name: Käibemaksudeklaratsiooni loomine pabervormingus (aruanne VAT 100)
+                    - name: KM-i deklaratsiooni loomine pabervormingus (aruanne VAT 100)
                       href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Maksete aruande statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
