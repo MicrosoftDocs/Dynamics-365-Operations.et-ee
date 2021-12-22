@@ -2,7 +2,7 @@
 title: Alustage elektroonilise arveldusega Mehhikos
 description: Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega Mehhikos.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742149"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881587"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Alustage elektroonilise arveldusega Mehhikos
 
@@ -35,7 +35,15 @@ Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne selle teema juhiste täitmist peate järgima teemas [Elektroonilise arvelduse lisandmooduli kasutamise alustamine](e-invoicing-get-started.md) olevaid juhiseid.
+Enne selle teema sammude sooritamist peate lõpule viima sammud jaotistest [Elektroonilise arveldamise teenuse haldamise alustamine](e-invoicing-get-started-service-administration.md) ja [Elektroonilise arveldamise alustamine](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>Cadena XSLT-i seadistamine
+
+Cadena XSLT-skeemi lisamiseks globaliseerimisfunktsioonile CFDI töötlemiseks, läbige järgmised sammud.
+
+1. Laadige skeem [SAT-i veebisaidilt alla](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Tihendage skeem ZIP-failina.
+3. Salvestage xslt-fail oma uuele konteinerile teenuse keskkonnas seadistatud Azure'i ladustamise kontole.
 
 ## <a name="rcs-setup"></a>RCS häälestus
 
@@ -127,6 +135,17 @@ CFDI arve tühistamise edastamiseks on vajalikud funktsiooniseadistused **Tühis
 
 > [!NOTE]
 > Kasutage samu samme, et värskendada tegevuse **Kutsu Mehhiko PAC teenust** URL-i funktsiooniseadistuste **Tühista** ja **Tühistamistaotlus** jaoks.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Cadena XLST-skeemi tee seadistamine
+
+1. Funktsiooni **versiooni seadistamise** lehel vahekaardil Muutujad valige muutuja **nimi**, **DigitalSignatureXSLT.**
+2. Väärtuste väljale **sisestage**: { "containerUrl":" https://&lt; AccountStorageName &gt; .blob.core.windows.net/ &lt; ContainerName &gt; ","tee":" &lt;&gt; RelativePath"}
+   
+    kus: <RelativePath> = \\ kausta \\ failinimi kahekordse kaldkriipsuga, ContainerName peab tähistama teenuses kasutatavat konteinerit.
+   
+    Muutuja näide oleks:
+    
+    {tee: x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev \\ cadena_xslt, containerUrl:https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Mustandversiooni määramine e-arvelduse keskkonnale
 

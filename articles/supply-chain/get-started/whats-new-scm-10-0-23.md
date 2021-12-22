@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.23 eelvaade
+title: Dynamics 365 Supply Chain Managementi versiooni 10.0.23 eelversioon (jaanuar 2022)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.23 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777787"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891789"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Dynamics 365 Supply Chain Management 10.0.23 eelvaade
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Dynamics 365 Supply Chain Managementi versiooni 10.0.23 eelversioon (jaanuar 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Manageme
 
 - **Väljalaske eelversioon:** oktoober 2021
 - **Väljalaske üldine kättesaadavus (enesevärskendus):** detsember 2021
+- **Väljalaske üldine kättesaadavus (automaatne värskendamine):** jaanuar 2022
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
@@ -34,8 +35,8 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Veerg
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
 | Globaalne aadressiraamat | Määrake aadressi seadistuses iga riigi/piirkonna jaoks vaikeosariik/provints | Nüüd saate globaalse aadressiraamatu aadressi seadistuses määratleda iga riigi/piirkonna jaoks vaikeosariigi/provintsi. Kui vaikeosariik/provints on määratud, on see osariigi/provintsi väljadele sisestatud vaikeväärtus, kui loote selle riigi/piirkonna jaoks uue maakonna või linna kirje. Vaata ka [Aadressi häälestamine](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Vaikimisi lubatud. |
-| Varud&nbsp; ja&nbsp; logistika | [Warehouse Management mobiilirakenduse ülesannete peatamine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine](../warehousing/warehouse-app-detours.md) | Funktsioonide haldamine (*Warehouse management rakenduse ümbersuunamised*) |
-| Varud&nbsp; ja&nbsp; logistika | [Laorakenduse ülendatud väljad](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Mobiilseadmes sammude jaoks esiletoodud väljade konfigureerimine](../warehousing/warehouse-app-promoted-fields.md)| Funktsioonide haldamine (*Laohalduse rakenduse esiletoodud väljad*) |
+| Varud&nbsp;ja&nbsp;logistika | [Warehouse Management mobiilirakenduse ülesannete peatamine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Mobiilse seadme menüükäskude sammude ümbersuunamise konfigureerimine](../warehousing/warehouse-app-detours.md) | Funktsioonide haldamine (*Warehouse management rakenduse ümbersuunamised*) |
+| Varud&nbsp;ja&nbsp;logistika | [Laorakenduse ülendatud väljad](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Mobiilseadmes sammude jaoks esiletoodud väljade konfigureerimine](../warehousing/warehouse-app-promoted-fields.md)| Funktsioonide haldamine (*Laohalduse rakenduse esiletoodud väljad*) |
 | Tootmine | [Tootmise käivitamissüsteemide integreerimine](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Kolmanda osapoole tootmise käivitussüsteemidega integreerimine](../production-control/mes-integration.md) | Funktsioonihaldus *(Tootmise käivitamissüsteemi* integreerimine) |
 | Tootmine | [Tootmisosakonna täideviimisliidese kaas- ja kõrvalsaaduste aruanne](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [Kuidas töötajad kasutavad tootmisosakonna käivitusliidest](../production-control/production-floor-execution-use.md) | Funktsioonide haldamine (*Kaas- ja kõrvalsaaduste aruanne tootmispõranda täitmisliidesest*) |
 | Planeerimine | [Optimeerimise toetuse plaanimine prioriteedipõhiseks planeerimiseks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Prioriteedipõhine planeerimine](../master-planning/planning-optimization/priority-based-planning.md) | Funktsioonihaldus *(prioriteedipõhine MRP tugi optimeerimise* planeerimisel) |
@@ -50,10 +51,11 @@ Kui soovite mõnda neist funktsioonidest sisse või välja lülitada, peate seda
 |---|---|---|
 | Varahaldus | Töökäsu töölehtedel olevad kulude vastaskontod | See funktsioon võimaldab teil määrata tasaarvestuskonto iga töökäsu töökirjas loetletud kulu jaoks. Tavaliselt võite iga kuluga siduda hankija konto, kuid toetatud on ka muud kontotüübid. See lisab lehel **Töökäsupäevik** vahekaardile **Kulud** kaks uut veergu (**Tasaarvestuskonto tüüp** ja **Tasaarvestuskonto**).|
 | Kuluhaldus | Standardomahinna ümardamise ümberhindamise jaoks seotud vautšerite loomine | <p>Kui tehakse kannete finantsarvestus (nt müügitellimuse arve või laokanne), loob süsteem iga seotud standardkulu ümardamise ümberhindluse jaoks eraldi kande ja seob selle finantsi sisestuskandega seotud kandena.</p><p>Ilma selle funktsioonita salvestab süsteem standardkulu ümardamise ümberhindlused samale kande sisestamisele. Selline käitumine võib mõnikord põhjustada vastuolulisi kuupäeva andmeid, kuna ümberhindamised kasutavad seansi või süsteemi kuupäeva, samas kui finantssisestused kasutavad sisestuskuupäeva.</p> |
-| Varude ja laohaldus | \[ Venemaa\] Postitage storno finantsinventari tehingud müügitellimuste finantsvautšeril oleva paranduslipu järgi | See funktsioon mõjutab Venemaa kreeditarvete korrigeerimise funktsioone. See võimaldab müügiarvete laotehingud konteerida vastavalt pearaamatu parandusvõimalusele. Kui see funktsioon on lubatud, ei esine enam lahknevusi laotehingu finantskviitungil oleva lipu **Parandus** ja laotehingutel oleva lipu **Storno** vahel. |
+| Varude ja laohaldus | \[Venemaa\] Postitage storno finantsinventari tehingud müügitellimuste finantsvautšeril oleva paranduslipu järgi | See funktsioon mõjutab Venemaa kreeditarvete korrigeerimise funktsioone. See võimaldab müügiarvete laotehingud konteerida vastavalt pearaamatu parandusvõimalusele. Kui see funktsioon on lubatud, ei esine enam lahknevusi laotehingu finantskviitungil oleva lipu **Parandus** ja laotehingutel oleva lipu **Storno** vahel. |
 | Varude ja laohaldus | (Venemaa) Varde saldo käibearuande arvutamise käitamine partiidena | Supply Chain Management haldamise venekeelsete tõlgete puhul annab see funktsioon võimaluse käitada *Varude saldo käibe* aruannet partiidena, seda salvestada ja vaadata varem koostatud aruandeid. |
 | Varude ja laohaldus | (Venemaa) Laohalduses riigile või regioonile omastes peamistes vormides kohaliku keele tõlke kasutamine | Supply Chaing Managementi venekeelsete tõlgete puhul võimaldab see funktsioon kasutada toodete/kaubanimede ja mõõtühikute venekeelseid tõlkeid järgmistel venekeelsetel varude väljatrükkidel: loendusloend (INV-3), loendusloend (INV-5), ja loendusloend (INV-6). |
-| Hanked | Puhastage ostutellimuste värskenduste ajalugu | See funktsioon võimaldab teil puhastada ostutellimuse värskendustega seotud ajutisi ajaloolisi kirjeid. See lisab lehel **Kõik ostutellimused** toimingupaanile uue nupu nimega **Ostuvärskenduste ajaloo puhastamine**. Funktsioon on vaikimisi lubatud. |
+| Koondplaneerimine | Teenus Azure Machine Learning nõudluse prognoosi jaoks | See funktsioon võimaldab Azure'i masinaõppimisteenusel luua ajaloolistel andmetel põhinevaid nõudluse prognoose. Lisateavet vt nõudluse [prognoosimise](../master-planning/demand-forecasting-setup.md) häälestusest. |
+| Hanked | Ostutellimuse värskendamise ajaloo puhastamine | See funktsioon võimaldab teil puhastada ostutellimuse värskendustega seotud ajutisi ajaloolisi kirjeid. See lisab lehel **Kõik ostutellimused** toimingupaanile uue nupu nimega **Ostuvärskenduste ajaloo puhastamine**. Funktsioon on vaikimisi lubatud. |
 | Tootmise juhtimine | (Eelversioon) Laos lubatud materjalide automaatne valimine automaatselt sisestatud komplekteerimislehtede jaoks | See funktsioon võimaldab teil automaatselt valida ja lahendada varude dimensioone automaatselt postitatud, tuletatud ja tagasilõigatud komplekteerimisloendi töölehtede jaoks. |
 | Tootmise juhtimine | Kinnitage tooraine aegumiskuupäev kavandatud tarbimiskuupäeva suhtes | See funktsioon muudab partii aegumiskuupäevade valideerimist, kui reserveeritakse toormaterjali partii tootmiseks kasutamiseks. Kui see funktsioon on lubatud, kontrollitakse partii aegumiskuupäeva kavandatud tarbimiskuupäeva (tooraine kuupäeva) suhtes, mis on kehtestatud tootmismaterjalide rea või partiitellimuse valemi real. Kui see funktsioon on keelatud, kontrollitakse partii aegumiskuupäeva tootmis- või partiitellimuse kavandatud tarnekuupäeva suhtes (nagu varem). |
 | Müük ja turundus | Müügi värskendamise ajaloo puhastamine vanuse põhjal | See funktsioon võimaldab teil seada kirjete maksimaalse vanuse, kui käitatakse müügi **uuendamisajaloo perioodilist** puhastusülesannet. Vanemad kirjed kustutatakse. See on kasulik, kui seadistate ülesande perioodiliseks käivitumiseks, kuna iga arvutatakse alati vastavalt ülesande käituskuupäevale. Ilma selle funktsioonita saate määrata ainult konkreetse kuupäeva vanimatele säilitamiskirjetele. |
@@ -94,12 +96,12 @@ Vaadake [Dynamics 365 ja majandusharu pilved: 2021 väljalaskevoo 2 plaan](/dyna
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Eemaldatud ja aegunud Supply Chain Managementi funktsioonid
 
-Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Management i funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
+Teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md) kirjeldatakse funktsioone, mis on eemaldatud või aegunud või kavandatakse eemaldada Supply Chain Managementist.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
-Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Management i funktsioonid](removed-deprecated-features-scm-updates.md).
+Enne mis tahes funktsiooni eemaldamist tootest, teavitatakse aegumisest 12 kuud ette teemas [Eemaldatud või aegunud Dynamics 365 Supply Chain Managementi funktsioonid](removed-deprecated-features-scm-updates.md).
 
 Murranguliste muudatuste puhul, mis mõjutavad ainult kompileerimise aega, kuid on binaarselt ühilduvad liivakasti- ja tootmiskeskkondadega, on aegumise aeg vähem kui 12 kuud. Need on tavaliselt funktsionaalsed uuendused, mida tuleb teha kompilaatori jaoks.
 

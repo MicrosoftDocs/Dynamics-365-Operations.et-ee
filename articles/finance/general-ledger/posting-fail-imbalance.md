@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
-ms.translationtype: HT
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605425"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903246"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Töölehe sisestamise tõrge tasakaalustamatuse tõttu
 
@@ -52,13 +52,13 @@ Kui kandel on ainult üks kandevaluuta, peab selle kande puhul deebetite kogusum
 
 Kui kande kõigil ridadel on sama kandevaluuta ja kui kandevaluuta summad on tasakaalustatud, kontrollib süsteem, et arvestusvaluuta summad oleks tasakaalustatud. Kui kanne sisestatakse välisvaluutas, kasutatakse kanderidade vahetuskurssi kandevaluuta summade teisendamiseks arvestusvaluutasse. Kõigepealt teisendatakse iga kanderida ja ümardatakse kahe komakohani. Seejärel read summeeritakse, et määrata deebetite ja kreeditite kogusummad. Kuna iga rida on teisendatud, ei pruugi deebetite ja kreeditite kogusummad tasakaalus olla. Sellest hoolimata, kui erinevuse absoluutväärtus jääb lehel **Pearaamatu parameetrid** määratletud väärtuse **Suurim sendierinevus** sisse, kanne sisestatakse ja erinevus sisestatakse automaatselt sendierinevuse kontole.
 
-Kui kandel on rohkem kui üks kandevaluuta, teisendatakse kande iga rida arvestusvaluutasse kahe komakohani ja seejärel read summeeritakse, et määrata deebetite ja kreeditite kogusumma. Tasakaalustamiseks tuleb deebetid ja kreeditid tasakaalustada kas teisendatult või siis, kui kaasatakse arvestusvaluuta sendi ümardamise erinevus.
+Kui kandel on rohkem kui üks kandevaluuta, teisendatakse kande iga rida arvestusvaluutasse kahe komakohani ja seejärel read summeeritakse, et määrata deebetite ja kreeditite kogusumma. Tasakaalustamiseks tuleb deebetid ja kreeditid tasakaalustada arvestusvaluutas.  Sendierinevuse kontot ei lisata kunagi arvestusvaluutas kandele deebetite ja kreeditite saldosse viimiseks. 
 
 ### <a name="reporting-currency"></a>Aruandlusvaluuta
 
 Kui kande kõigil ridadel on sama kandevaluuta ja kui kandevaluuta summad on tasakaalustatud, kontrollib süsteem, et aruandlusvaluuta summad oleks tasakaalustatud. Kui kanne sisestatakse välisvaluutas, kasutatakse kanderidade vahetuskurssi kandevaluuta summade teisendamiseks aruandlusvaluutasse. Kõigepealt teisendatakse iga kanderida ja ümardatakse kahe komakohani. Seejärel read summeeritakse, et määrata deebetite ja kreeditite kogusummad. Kuna iga rida on teisendatud, ei pruugi deebetite ja kreeditite kogusummad tasakaalus olla. Sellest hoolimata, kui erinevus jääb lehel **Pearaamatu parameetrid** määratletud väärtuse **Suurim sendiümardus aruandlusvaluutas** sisse, kanne sisestatakse ja erinevus sisestatakse automaatselt sendierinevuse kontole.
 
-Kui kandel on rohkem kui üks kandevaluuta, teisendatakse kande iga rida aruandlusvaluutasse kahe komakohani ja seejärel read summeeritakse, et määrata deebetite ja kreeditite kogusumma. Tasakaalustamiseks tuleb deebetid ja kreeditid tasakaalustada kas teisendatult või siis, kui kaasatakse aruandlusvaluuta sendi ümardamise erinevus.
+Kui kandel on rohkem kui üks kandevaluuta, teisendatakse kande iga rida aruandlusvaluutasse kahe komakohani ja seejärel read summeeritakse, et määrata deebetite ja kreeditite kogusumma. Tasakaalustamiseks tuleb deebetid ja kreeditid tasakaalustada aruandlusvaluutas.  Sendierinevuse kontot ei lisata kunagi aruandlusvaluutas kandele deebetite ja kreeditite saldosse viimiseks.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Arvestusvaluuta tasakaalustumatuse näide
 

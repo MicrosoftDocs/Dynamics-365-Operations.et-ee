@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 013a5b1ac5b99c6a8ac75885e6d65067d5ed4c2ffd5cc5f625a73963666c0a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779493"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902503"
 ---
 # <a name="close-the-fiscal-year"></a>Finantsaasta sulgemine
 
@@ -36,7 +36,7 @@ See protseduur kirjeldab rahandusaasta sulgemise protsessi etappe, millega kanta
 
 4. Valige suvandi **Loo ülekande ajal sulgemiskanded** väärtuseks „Jah“ või „Ei“.
 
-    Kui väärtuseks on määratud Jah, luuakse kaks kannet. Üks kanne luuakse suletavas rahandusaastas, et viia tulu- ja kulukontode saldod nulli, ja teine kanne luuakse järgmises rahandusaastas algsaldode jaoks. Kui väärtuseks on määratud Ei, luuakse järgmises rahandusaastas algsaldode jaoks üks kanne.  
+    Kui väärtuseks on määratud Jah, luuakse kaks kannet. Suletav rahandusaasta kohta luuakse üks kanne, et viia kõigi pearaamatukontode saldod nulli ja järgmine finantsaasta luuakse algsaldode kohta teine kanne. Kui väärtuseks on määratud Ei, luuakse järgmises rahandusaastas algsaldode jaoks üks kanne.  
 
 5. Valige suvandi **Määra rahandusaasta olek püsivalt suletuks** väärtuseks „Jah“ või „Ei“.
 

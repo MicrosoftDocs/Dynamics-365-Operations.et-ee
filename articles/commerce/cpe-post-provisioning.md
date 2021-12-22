@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonda, kui see on ette valmistatud.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416475"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913723"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
 
@@ -39,6 +39,7 @@ Pärast seda, kui teie Commerce'i hindamiskeskkond on täielikult ettevalmistatu
 1. Valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna teabest **Keskkonda sisselogimine**. Teid suunatakse Commerce'i peakontorisse.
 1. Veenduge, et **USRT** juriidiline isik on valitud ülemises parempoolses nurgas.
+2. Minge konfiguratsiooniparameetrite > ja veenduge, et **parameetri** **ProductSearch.UseAzureSearch kirje** on seatud **tõeseks**. Kui see kirje puudub, saate lisada selle kirje ja käivitada **kanali andmebaasi > Oma eCommerce'i veebisaidiga seotud Commerce Scalei üksuse** Jaoks Kanali andmebaas.
 
 Commerce'i peakontori ettevalmistusjärgsete tegevuste käigus veenduge, et juriidiline isik **USRT** oleks alati valitud.
 
@@ -105,6 +106,12 @@ Commerce’is tööde lubamiseks tehke järgmist.
     1. Vali kirje.
     1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
     1. Valige **Tühistamine** ja seejärel valige **OK**.
+
+1. Kui töö olek on **Kinnipeetud,** järgige neid samme.
+
+    1. Vali kirje.
+    1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
+    1. Valige suvand **Ootel** ja seejärel nupp **OK**.
 
 Saate seadistada ka kordumise intervalli iga ühe (1) minuti järel järgmiste tööde puhul.
 

@@ -2,7 +2,7 @@
 title: B2B e-kaubanduse saidi seadistamine
 description: Selles teemas kirjeldatakse ettevõtetevahelise (B2B) e-kaubanduse saidi loomist lahenduses Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713744"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891381"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-kaubandussaidi häälestamine
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Ettevõtetevahelised (B2B) e-kaubanduse saidid pakuvad mõningaid võtmefunktsioone, mis optimeerivad töövoogu B2B-kasutaja jaoks. Selles teemas kirjeldatakse B2B e-kaubanduse saidi loomist lahenduses Microsoft Dynamics 365 Commerce. See käib läbi moodulite ja saidisätete, mis tuleb B2B-spetsiifiliste stsenaariumite lubamiseks konfigureerida.
 
@@ -306,6 +307,30 @@ Kiirliidete mooduli lisamiseks Commerce saidi looja ostukorvi lehele toimige jä
 
 > [!NOTE] 
 > Kiirliitemoodul on saadaval alates Commerce'i versioonist 10.0.17. Kui uuendate rakenduse Commerce'i varasemat versiooni, peate faili appsettings.json käsitsi värskendama. Juhiste saamiseks vt [SDK ja mooduli teekide värskendused](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Hulgiostumooduli lisamine toote üksikasjade lehele
+
+Hulgiostu moodul toote üksikasjade lehel (PDP) pakub maatriksipõhist kogemust, mis võimaldab ostjal kiiresti lisada ostukorvi mitu tootevariandit. Kui saidi kasutaja peab tellima sama toote mitu varianti, kõrvaldab see kogemus vajaduse valida tootedimensioonide kombinatsioon, määrata kogus, lisada ostukorvi variant ja seejärel korrata protsessi teiste tootedimensioonide kombinatsioonide puhul.
+
+Hulgiostumooduli lisamiseks PDP-le Commerce'i saidi koostajas järgige neid samme.
+
+1. Minge **mallidele** ja valige oma saidi PDP mall.
+1. Valige suvand **Redigeeri**.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. **Dialoogiaknas** Lisa moodul valige **hulgiostumoodul** ja seejärel valige **OK**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Minge **lehekülgedele** ja valige oma saidi PDP.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Valige konteinerimooduli atribuutide **paani** jaotises Laius suvand **Täida** **konteiner**.
+1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. **Dialoogiaknas** Lisa moodul valige **hulgiostumoodul** ja seejärel valige **OK**.
+1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+
+> [!NOTE] 
+> Hulgiostumoodul on saadaval äriversiooni 10.0.24 vabastamisel. Kui uuendate rakenduse Commerce'i varasemat versiooni, peate faili appsettings.json käsitsi värskendama. Juhiste saamiseks vt [SDK ja mooduli teekide värskendused](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -2,7 +2,7 @@
 title: Mis on uut või mida on muudetud rakenduses Human Resources?
 description: Iga kahe nädala tagant esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Teemad selles loendis kirjeldavad iga nädal tehtud muudatusi.
 author: twheeloc
-ms.date: 04/21/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e30267ca95bdcaa8b42cfb7e606a0a8eda8c1da4
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641181"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902529"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Mis on uut või mida on muudetud rakenduses Human Resources?
 
@@ -40,6 +40,7 @@ Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisp
 
 Et näha, mis on Human Resourcesi igas kahenädalases väljalaskes uut või muudetud, vaadake järgmisi teemasid.
 
+[29. november 2021](hr-whats-new-2021-11-29.md)<br>
 [5. oktoober 2021](hr-whats-new-2021-10-04.md)</br>
 [20. september 2021](hr-whats-new-2021-09-20.md)</br>
 [6. september 2021](hr-whats-new-2021-09-06.md)</br>

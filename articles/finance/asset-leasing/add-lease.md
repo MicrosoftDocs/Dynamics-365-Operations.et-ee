@@ -2,7 +2,7 @@
 title: Rendikirjete lisamine või kopeerimine (eelversioon)
 description: Selles teemas kirjeldatakse, kuidas luua uus rentimine, sisestades selle teabe vara rentimisest või kopeerides teabe olemasolevast rendikirjest.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761322"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893641"
 ---
 # <a name="add-or-copy-leases-preview"></a>Rendikirjete lisamine või kopeerimine (eelversioon)
 
@@ -35,6 +35,8 @@ Vara rentimises rendikirje loomiseks tehke järgmist.
 1. Valige toimingupaani lehel **Rendi kokkuvõte** suvand **Uus**.
 2. Sisestage rendi teave. Nõutavatel väljadel on punased ääred.
 
+> Rendimakse alguskuupäev ei saa olla varasem kui rendi alguskuupäev. Kui sisestate liisingumakse alguskuupäeva, mis on varasem kui liisingu alguskuupäev, saate veateate.
+  
 ## <a name="create-a-lease-schedule"></a>Rendigraafiku loomine
 
 Pärast rendikirje teabe sisestamist tehke rendiajakava loomiseks järgmist.

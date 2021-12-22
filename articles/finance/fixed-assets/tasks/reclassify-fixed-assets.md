@@ -1,7 +1,7 @@
 ---
 title: Põhivarade ümberklassifitseerimine
-description: Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri.
-author: saraschi2
+description: See teema selgitab varade ümberklassifitseerimise protsessi. Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri.
+author: moaamer
 ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75e7d40a647577687f0be671500968a883a1d24643af39224ae0d9e43ff206ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a5fadebe685810d6833d1cb0581ed9a4869cc124
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713206"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883642"
 ---
 # <a name="reclassify-fixed-assets"></a>Põhivarade ümberklassifitseerimine
 

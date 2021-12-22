@@ -2,7 +2,7 @@
 title: Eelarve juhtimise ülevaade
 description: Selles teemas tutvustatakse eelarvekontrolli funktsiooni ja antakse teavet, mis aitab teil eelarvekontrolli konfigureerida organisatsiooni finantsressursside haldamise optimeerimiseks.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772875"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890696"
 ---
 # <a name="budget-control-overview"></a>Eelarve juhtimise ülevaade
 
@@ -78,9 +78,7 @@ Vahekaardil **Eelarve ületamise load** saate määrata kasutajagrupid. Samuti s
 Vahekaardil **Saadaolevad eelarvefondid** saate määratleda saadaolevate eelarvefondide arvutamiseks kasutatava valemi. Olenevalt sellest, kui konservatiivselt organisatsioon oma rahalisi vahendeid haldab või olenevalt eeskirjadest või valdkonna nõuetest võidakse arvutamisse kaasata mustand või sisestamata dokumendid. 
 
 > [!NOTE]
-> Kui arvutust muudetakse eelarvetsükli ajal, siis muudatused ei mõjuta varem eelarve juhtimise kontrolli läbinud, sisestatud ega lõpetatud dokumente. Rakenduse väljaandega 10.0.17 tehakse piiratud klientidele kättesaadavaks **ainult saadaoleva eelarvefondide arvutamise** uus funktsioon. See funktsioon võimaldab teil muuta tabelites BudgetSourceTracking jälgitavaid andmeid. Kui see funktsioon on sisse lülitatud, talletatakse summad ainult siis, kui need on valitud kasutamiseks saadaoleva eelarvefondide arvutamisel. Võtke ühendust tugiteenustega, kui taodelda **Jälgige summasid ainult eelarvevahendite saadaolevas arvutuses** funktsiooni lubamist. 
-
-### <a name="documents-and-journals"></a>Dokumendid ja töölehed
+> Kui kalkulatsiooni on eelarvetsükli jooksul muudetud, ei mõjuta muudatused ühtegi dokumenti, mis on eelnevalt läbinud eelarvekontrolli kontrollid ja need sisestati või lõpetati. Funktsioon, mille nimi on Ainult jälgige summasid saadaolevas eelarvefondide arvutuses, võimaldab teil muuta, milliseid andmeid **BudgetSourceTracking** tabelites jälgitakse. Kui see funktsioon on sisse lülitatud, talletatakse summad ainult siis, kui need on valitud kasutamiseks saadaoleva eelarvefondide arvutamisel. Lisateavet vt saadaolevad [eelarvefondid](budget-funds-available.md).
 
 Vahekaardil **Dokumendid ja töölehed** saate valida, millised lähtedokumendid ja töölehed eelarve juhtimise kontrollid läbivad ning kas kontrollitakse rea sisestamise või kogu dokumendi tasemel. 
 

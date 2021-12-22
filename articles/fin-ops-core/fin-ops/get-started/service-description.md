@@ -2,19 +2,19 @@
 title: Rakenduse Finance and Operations teenuse kirjeldus
 description: Selles teemas antakse Finance and Operations rakenduste teenuse kirjeldus.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
-ms.translationtype: HT
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825396"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898385"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Rakenduse Finance and Operations teenuse kirjeldus
 
@@ -314,9 +314,9 @@ Microsoft`i katastroofidest taastamise plaane ja protseduure kontrollitakse regu
 | Microsoft sisaldab esmase tootmiseksemplari juurutamisel Azure'i paaristatud andmekeskuse teisese keskkonna. Lisateavet vt jaotisest [Talitluspidevus ja katastroofist taastamine (BCDR): Azure paaritud piirkonnad](/azure/best-practices-availability-paired-regions). | None |
 | Microsoft võimaldab esmase tootmiseksemplari juurutamisel kasutada Azure SQL-i ja Azure Blob Storage`i geokoondamist. | None |
 | Microsoft võimaldab automaatset Azure SQL-i andmebaaside varundamist. | None |
-| <p>Sidekatkestuse ilmnemisel määrab Microsoft, kas kliendi puhul tuleb teha üleminekut ja kas toimub andmekadu. Andmekadu võib olla kuni viis sekundit. Lisateavet vt [Azure SQL-andmebaasi geo-taastamine](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>Andmete kaotsimineku korral taotleb Microsoft kliendi sisselogimist tõrke tõttu.</p> | Andmekao korral võib kliendil olla vaja teha mahakandmine, et käivitada ülemineku nurjumine. |
+| <p>Sidekatkestuse ilmnemisel määrab Microsoft, kas kliendi puhul tuleb teha üleminekut ja kas toimub andmekadu. Sõltuvalt tegevuse olemusest ja ajast võivad kliendid esineda kuni 15-minutilise andmekadu. | Andmekadu korral peab klient võib-olla esitama kirjaliku allkirja, et käivitada ülemineku nurjumine. |
 | Tõrke korral töötab rakendatav teenus piiratud režiimis. Uuenduste hooldust ei saa käivitada tõrkesiirderežiimis. | Klient ei saa tõrkerežiimis taotleda paketi juurutamist ega muid regulaarse hoolduse taotlusi. |
-| Kui andmekeskus muutub tööks, ebaõnnestub Microsoft tagasi tootmiseksemplari juurde esmases Azure'i regioonis. Normaalsed toimingud jätkuvad. | Võimalik, et klient peab esmases Azure'i regioonis tootmiseksemplari tõrke korral välja logima. |
+| Kui andmekeskus muutub tööks, ebaõnnestub Microsoft tagasi tootmiseksemplari juurde esmases Azure'i regioonis. Normaalsed toimingud jätkuvad. | Võimalik, et klient peab esmases Azure'i regioonis tootmiseksemplari tagasi logima. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations tugiteenuste pakkumine
 

@@ -2,7 +2,7 @@
 title: Renditöölehe nimede seadistamine
 description: Selles teemas selgitatakse renditöölehe nimede määratlemist. Renditöölehe nimed määravad töölehed, millele vara rentimise kanded sisestatakse.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343210"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890746"
 ---
 # <a name="set-up-lease-journal-names"></a>Renditöölehe nimede seadistamine
 
@@ -33,12 +33,13 @@ Renditöölehe nimed määravad töölehed, millele vara rentimise kanded sisest
 Süsteem lukustab teatud finantsväljade redigeerimise, et vältida hälbeid kannete ja graafikute vahel. Mõned lukustatud väljad on: **Konto**, **Summad**, **Finantsdimensioonid**, **Valuuta** ja **Kande tüüp**. Samuti ei saa te lisada ega kustutada töölehe kirje ridu üheski vara rentimise töölehekirjes, kuna see võib graafikute ja kannete vahel hälbeid põhjustada.
 
 
-Renditöölehe nimede konfigureerimiseks toimige järgmiselt.
+Liisingutöölehe nimede konfigureerimiseks viige lõpule järgmised sammud.
 
 1. Avage **Vara rentimine \> Seadistus \> Vara rentimise parameetrid**.
 2. Valige tööleht vahekaardi **Üldine** väljal **Esialgse tuvastamise töölehe nimi**. Kõik esialgse tuvastamise töölehe kirjed sisestatakse sellele töölehe nimele.
 3. Valige tööleht väljal **Arve töölehe nimi**. Kui rendiraamatu suvand **Maksa hankijale** on määratud olekusse **Jah**, siis sisestatakse rendi ja kulude maksete arved sellele töölehe nimele.
 4. Valige tööleht väljal **Renditöölehe nimi**. Kõik kulumi-, intressi- ja lühiajalise ümberklassifitseerimise kanded sisestatakse sellele töölehe nimele. Kui rendiraamatu suvand **Maksa hankijale** on määratud olekusse **Ei**, siis sisestatakse rendimaksete ja kulude maksete kirjed samuti sellele töölehe nimele.
+5. Valige **väljal Liisingu muutmise** töölehe nimi tööleht. Sellele töölehe nimele sisestatakse rendi-, lepingu lõpetamise- ja kahjustuse kanded. Teie valitud töölehe nimele ei tohiks määrata töövoogu ega kinnitamist. Kui liisingu muutmise töölehe nimi on määratlemata, sisestatakse rendi korrigeerimine, lõpetamine ja kahjustuse kanded töölehe nimele, mis on valitud **renditöölehe nime** väljal. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

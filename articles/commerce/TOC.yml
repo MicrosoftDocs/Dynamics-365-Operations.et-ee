@@ -92,7 +92,9 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24 (veebruar 2022)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (jaanuar 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (november 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: Omnikanali maksete ülevaade
                       href: omni-channel-payments.md
+                    - name: Mitu saadaolevat makseviisi kauplusest kättesaamise jaoks
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Omnikanali Commerce'i tellimuste maksed
                       href: dev-itpro/commerce-payments.md
                     - name: Arhiveeri krediitkaardi kandeandmed
@@ -814,6 +818,10 @@
           items:
             - name: Kliendihaldus poodides
               href: customer-mgmt-stores.md
+            - name: Asünkroonne kliendi loomise režiim
+              href: async-customer-mode.md
+            - name: Asünkroonsete klientide teisendamine sünkroonseteks klientideks
+              href: convert-async-to-sync.md
             - name: Kliendisuhtlus
               items:
                 - name: Kliendisuhtluse ülevaade
@@ -1330,7 +1338,9 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Brasiilia fiskaaldokumentide sisestamine jaemüügi parameetrite kaudu Commerce'i peakontoris
                   href: localizations/latam-bra-retail-statements.md
-                - name: Aydeni Dynamics 365 Payment Connector Commerce'i kassas Brasiilia jaoks
+                - name: CF-e fiskaaldokumendi ja SAT-iga integreerimise funktsioonid Commerce POS-is Brasiilia jaoks
+                  href: localizations/latam-bra-cf-e-sat.md
+                - name: Aydeni Dynamics 365 Payment Connector Commerce POS-is Brasiilia jaoks
                   href: localizations/latam-bra-adyen.md
             - name: Ida-Euroopa
               items:
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Täiendamise tugi ja N-1 India jaoks
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: QR-koodide loomine ja nende printimine kviitungitele
+                - name: QR-koodide loomine ja nende printimine kviitungitele India jaoks
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: E-kaubanduse saitide kaupade ja teenuste maksu (GST) integreerimine
+                  href: localizations/apac-ind-e-commerce.md
             - name: Itaalia
               items:
                 - name: Fiskaalprinteri integratsiooni näide Itaalia jaoks
@@ -1616,7 +1628,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: Loend
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: Loendi funktsioonid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json

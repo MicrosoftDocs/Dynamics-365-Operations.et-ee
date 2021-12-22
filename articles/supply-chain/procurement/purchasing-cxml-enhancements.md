@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777763"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900701"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Ostmisega seotud cXML-i täiustused
 
@@ -42,7 +42,7 @@ Järgmisel illustratsioonil on selle konfiguratsiooni kokkuvõte.
 
 Lisaks peate seadistama [Ostutellimustaotluse pakett-töö](#po-batch). Seda pakett-tööd kasutatakse kinnitatud ostutellimuste saatmiseks.
 
-## <a name="set-up-global-cxml-parameters"></a><a name="cxml-parameters"></a> Globaalsete cXML-i parameetrite seadistamine
+## <a name="set-up-global-cxml-parameters"></a><a name="cxml-parameters"></a>Globaalsete cXML-i parameetrite seadistamine
 
 Kasutage lehte **cXML-i parameetrid**, et luua globaalsed sätted, mis kehtivad ostutellimuste saatmise korral.
 
@@ -60,7 +60,7 @@ Avage **Hanked \> Seadistus \> cXML-i haldus \> cXML-i parameetrid** ning seadke
 - **Arhiivifail** – määratlege failitee, kuhu soovite eksportida ja salvestada arhiveeritud cXML-dokumente. Teed kasutatakse siis, kui käivitate lehel **Ostutellimustaotlus** likvideerimisfunktsiooni.
 - **Tänava rea maksimaalne tähemärkide arv** – sisestage suurim märkide arv, mida saab cXML-dokumendis tänava väljal aadresside jaoks kasutada. Kui väliskataloogi atribuutides pole määratletud alistust, mõjutab see globaalne parameeter kõiki hankijaid.
 
-## <a name="set-up-vendor-purchase-orders-to-use-cxml"></a><a name="vendor-setup"></a> Hankija ostutellimuste seadistamine cXML-i kasutamiseks
+## <a name="set-up-vendor-purchase-orders-to-use-cxml"></a><a name="vendor-setup"></a>Hankija ostutellimuste seadistamine cXML-i kasutamiseks
 
 Iga kord, kui kinnitate ostutellimuse, mille suvandi **Saada ostutellimus cXML-i kaudu** väärtuseks on seatud _Jah_, loob süsteem automaatselt cXML-i teate ja saadab selle ostutellimusega seotud hankijale. Selle suvandi kontrollimiseks ostutellimuste puhul on kaks võimalust.
 
@@ -69,7 +69,7 @@ Iga kord, kui kinnitate ostutellimuse, mille suvandi **Saada ostutellimus cXML-i
 
 ![Hankija ostutellimuste vaikesätted.](media/cxml-order-defaults.png "Hankija ostutellimuste vaikesätted")
 
-## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a> Väliskataloogi seadistamine cXML-i kasutama
+## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Väliskataloogi seadistamine cXML-i kasutama
 
 Lehel **Väliskataloogid** saate iga kataloogi puhul seadistada väljaregistreerimise ja ostutellimuste saatmise funktsioonid. Asjakohaste sätete leidmiseks avage **Hanked \> Kataloogid \> Väliskataloogid**. Alustage [iga kataloogi seadistamisest, nagu tavaliselt](set-up-external-catalog-for-punchout.md). See protsess hõlmab hankija määramist, kategooriate valimist, milles hankijal on lubatud tarnida, ja kataloogi aktiveerimist. Seejärel konfigureerige lisasätted, mida kirjeldatakse selles jaotises.
 
@@ -84,7 +84,7 @@ Seadke lehel **Väliskataloogid** asuval kiirkaardil **Üldine** välja **Välja
 
 Kui kasutate kataloogi ka väljaregistreerimiseks, peate [seadistama ka teatevormingu](set-up-external-catalog-for-punchout.md). Teatevormingut kasutatakse taotlusest alguse saanud väljaregistreerimiskandes hankijaga ühenduse loomiseks. Ostutellimuse saatmisel kasutatakse tellimuse atribuute hankijaga ühenduse loomiseks.
 
-### <a name="set-the-order-properties"></a><a name="set-order-properties"></a> Tellimuse atribuutide määramine
+### <a name="set-the-order-properties"></a><a name="set-order-properties"></a>Tellimuse atribuutide määramine
 
 Funktsioon _Ostmisega seotud cXML-i täiustused_ lisab väliskataloogidele uute kiirkaardi **Tellimuse atribuudid**. Kiirkaart hõlmab võrgustikku, kus saate määratleda tellimuse atribuudid. Samuti on sellel tööriistariba. See tööriistariba hõlmab kolme järgmist nuppu, mida saate kasutada tellimuse atribuutide haldamiseks.
 
@@ -96,36 +96,36 @@ Iga kord, kui lisate ruudustikku ühe või mitu atribuuti, kasutage nende väär
 
 Kasutage vaikeatribuute järgmisel viisil.
 
-- **BUYER\_ COOKIE** – seda jälgimisvälja saab kasutada ettevõtte kohta kindla teabe määramiseks. Kui te pole hankijaga kokku leppinud, kuidas seda atribuuti kasutada, pole see ostutellimuse saatmisel kuigi oluline. Seetõttu peaksite selle puhul kasutama lihtsat väärtust.
+- **BUYER\_COOKIE** – seda jälgimisvälja saab kasutada ettevõtte kohta kindla teabe määramiseks. Kui te pole hankijaga kokku leppinud, kuidas seda atribuuti kasutada, pole see ostutellimuse saatmisel kuigi oluline. Seetõttu peaksite selle puhul kasutama lihtsat väärtust.
 - **DELIVERTO** – kui ostutellimusest pärit dokumenti sisestatakse tarneaadress, kasutatakse välja **Tähtis teave**, et määrata XML-teatises väli **DeliverTo**. Kui teil on vaja, et see väärtus oleks nõude esitaja, ja te määrate nõude esitaja välja ostutellimuse päises, sisestage selle atribuudi väärtuseks _REQUESTER_, et nõude esitaja nimi sisestataks XML-is väljale **DeliverTo**. Sel juhul on kasutatavad peamine meiliaadress ja telefoninumber pärit nõude esitajalt, mitte tellijalt.
 - **DEPLOYMENTMODE** – määrake see atribuut hankija soovitud viisil. Väärtused on tavaliselt _PRODUCTION_ või _TEST_. Seadke väärtus hankijaga suhtlemise põhjal. Tavaliselt peab see ühtima väärtuse **ORDERCHECKURL** kaudu määratud süsteemiga, mille hankija määrab test- või tootmissüsteemina.
 - **FIXEDBILLADDRESSID** – välja **addressID** määramisel XML-teatises võtab see enda väärtuseks aadressis määratletud asukoha. Kui hankijale edastatud ID väärtus erineb mingil põhjusel aadressi asukoha väärtusest, saate asukoha alistada, määratledes väärtuse selle suvandi kaudu. Eeldatakse, et te kasutate hankija puhul ainult üht aadressi ja aadress seadistatakse hankija süsteemis. Arveaadress on esmane arve saaja aadress, mis on määratletud juriidilise isiku jaoks rakenduses Supply Chain Management.
 - **FIXEDSHIPADDRESSID** – välja **addressID** määramisel XML-teatises võtab see enda väärtuseks aadressis määratletud asukoha. Kui hankijale edastatud ID väärtus erineb mingil põhjusel aadressi asukoha väärtusest, saate asukoha alistada, määratledes väärtuse selle suvandi kaudu. Eeldatakse, et te kasutate hankija puhul ainult üht aadressi ja aadress seadistatakse hankija süsteemis. Tarneaadress on ostutellimuse päises määratletud aadress. Enamikule hankijatest sobib ainult päise aadressid, mitte rea aadressid. Kuigi XML sisaldab välju rea aadresside jaoks, seatakse need päise aadressiks.
-- **FROM\_ DOMAIN** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
-- **FROM\_ IDENTITY** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
+- **FROM\_DOMAIN** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
+- **FROM\_IDENTITY** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
 - **ORDERCHECKURL** – sisestage URL, kuhu edastada ostutellimuse dokumendid. URL algab tähemärkidega `https://` ja selle annab teie hankija.
-- **PAYLOAD\_ ID** – sisestage lasti ID eesliite väärtus nii, nagu on vaja praeguse hankija puhul kehtivate äriprotsesside puhul.
-- **SENDER\_ DOMAIN** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
-- **SENDER\_ IDENTITY** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
-- **SHARED\_ SECRET** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
+- **PAYLOAD\_ID** – sisestage lasti ID eesliite väärtus nii, nagu on vaja praeguse hankija puhul kehtivate äriprotsesside puhul.
+- **SENDER\_DOMAIN** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
+- **SENDER\_IDENTITY** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
+- **SHARED\_SECRET** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
 - **STREETLENGTH** – sisestage number, mis tähistab maksimaalset tähemärkide arvu, mis hankijale tänava nime puhul sobib. Kui siia sisestatakse väärtus, alistab see väärtuse, mis on määratletud lehel **cXML-i parameetrid**. Süsteem eemaldab reapiirid ja tühikud, et üritada jätta rakenduses Supply Chain Management määratud standardne aadress siin määratletud tähemärkide arvu piiridesse. Kõik lisatähemärgid kärbitakse.
-- **TO\_ DOMAIN** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
-- **TO\_ IDENTITY** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
+- **TO\_DOMAIN** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
+- **TO\_IDENTITY** – sisestage ostutellimuse dokumentide saatmiseks kasutatav väärtus. Selle väärtuse annab teie hankija.
 - **USERAGENT** – sisestage väärtus süsteemi tuvastamiseks, mida te kasutate. Sisestage näiteks _Dynamics 365 Supply Chain Management_.
 - **VERSION** – sisestage cXML-i versiooni number, kui hankija seda teavet nõuab. Vaikeversioon on *1.2.008*. See versioon on stabiilne ja sobib enamikule hankijatele.
 - **RESPONSETEXT** – sisestage kohandatud tekst, mida soovite, et hankija tagastaks cXML-i vastuseteates pärast tellimuse saatmist. Sel viisil saab süsteem märkida teate _kinnitatuks_. Kui vastus ei ühti standardse tekstiga või siia sisestatud kliendi tekstiga, märgitakse taotlus _tõrkeks_.
 - **RESPONSETEXTSUB** – määrake selle atribuudi väärtuseks _TRUE_, kui soovite otsida hankija vastuse tekstist väärtusi, mis on määratletud väljal **RESPONSETEXT**. Näiteks võib hankija tagastada vastuses pika stringi, mis sisaldab teksti „OK”. Sel juhul saate sisestada väljale **RESPONSETEXT** väärtuse _OK_ ja seada suvandi **RESPONSETESTSUB** väärtuseks _TRUE_, et otsida vastusest teksti „OK”. Seejärel saab tellimuse märkida _kinnitatuks_.
 - **CONTENTTYPE** – tüüpilise kataloogiseadistuse puhul ei pea te seda atribuuti määrama. Kui saate ostutellimuse saatmisel hankija süsteemist tõrke „Server 500”, on teil võimalik probleemi testida, määrates selle atribuudi väärtuseks _FALSE_. See väärtus muudab veebipäringus üht sätet ja on võimalik, et mõne platvormi puhul on teadet võimalik saata.
-- **ENABLEHEADERS** – seadke selle atribuudi väärtuseks _TRUE_, et saata päised koos ostutellimusega. Määrake see atribuut ainult juhul, kui hankija seda nõuab. Kui seate selle atribuudi väärtuseks _TRUE_, lisage täiendavad kohandatud atribuudid, mis põhinevad hankija antud nimedel, ja lisage nende eesliiteks _H\__. Tüüpilised näited on **H\_ USERID**, **H\_ PASSWORD**, **H\_ RECEIVERID** ja **H\_ ACTIONREQUEST**. Vaikeatribuudid hõlmavad järgmisi kohandatud atribuute.
+- **ENABLEHEADERS** – seadke selle atribuudi väärtuseks _TRUE_, et saata päised koos ostutellimusega. Määrake see atribuut ainult juhul, kui hankija seda nõuab. Kui seate selle atribuudi väärtuseks _TRUE_, lisage täiendavad kohandatud atribuudid, mis põhinevad hankija antud nimedel, ja lisage nende eesliiteks _H\__. Tüüpilised näited on **H\_USERID**, **H\_PASSWORD**, **H\_RECEIVERID** ja **H\_ACTIONREQUEST**. Vaikeatribuudid hõlmavad järgmisi kohandatud atribuute.
 
-    - **H\_ USERID** – kui äripartner nõuab, et saadaksite ostutellimuse esitamisel URL-i osana kasutaja ID, sisestage see väärtus siia.
-    - **H\_ PASSWORD** – kui äripartner nõuab, et saadaksite ostutellimuse esitamisel URL-i osana parooli, sisestage see väärtus siia.
+    - **H\_USERID** – kui äripartner nõuab, et saadaksite ostutellimuse esitamisel URL-i osana kasutaja ID, sisestage see väärtus siia.
+    - **H\_PASSWORD** – kui äripartner nõuab, et saadaksite ostutellimuse esitamisel URL-i osana parooli, sisestage see väärtus siia.
 
 - **ENABLEMANUALPO** – kui selle atribuudi väärtuseks on seatud _TRUE_, siis pärivad kasutajate käsitsi loodud ostutellimused (st kui neid ei luua ostutaotluse põhjal) hankijalt suvandi **Saada ostutellimus cXML-i kaudu**. Kui seda atribuuti pole määratud või kui selle väärtuseks on seatud _FALSE_, ei määrata käsitsi loodud ostutellimuste puhul ostutellimuse päises suvandit **Saada ostutellimus cXML-i kaudu**. Ostutaotluse põhjal loodud ostutellimuste puhul päritakse suvand **Saada ostutellimus cXML-i kaudu** alati hankijalt, hoolimata selle atribuudi sättest. Lisateavet leiate selle teema varasemast jaotisest [Hankija ostutellimuste seadistamine cXML-i kasutamiseks](#vendor-setup).
 - **PUNCHOUTPOONLY** – kui selle atribuudi väärtuseks on seatud _TRUE_, määravad ostutellimuse päises suvandi **Saada ostutellimus cXML-i kaudu** ainult väljaregistreerimisprotsessi kaudu loodud ostutaotluse read. Lisaks peab ostutellimuse kõigi ridade ostutaotluse rea tüüp olema _Väliskataloogi kaup_. Vastasel juhul ei saa cXML-i ostutellimust luua.
 - **PUNCHOUTSHIPTO** – kui selle atribuudi väärtuseks on seatud _TRUE_, lisatakse juriidilise isiku vaike-aadress väljaregistreerimise seadistustaotluse teatele, kui kasutaja avab väliskataloogi. See aadress lisatakse aadressina **ShipTo**. Hankijad kasutavad aadressi **ShipTo**, et näidata ettevõtte asukoha põhjal hinnakirja.
 - **TRACEPUNCHOUT** – seadke selle atribuudi väärtuseks _TRUE_, kui te saate ostutaotlusest väliskataloogi minna üritades tõrketeate. Seejärel lisatakse jälitusteave teadetesse **PunchOutSetupRequest** ja **PunchOutResponse**, mis saadetakse rakenduse Supply Chain Management ja hankija saidi vahel. Seda teavet saate vaadata lehel **CXML-i ostukorvi teatelogi**, mille saate avada probleemse hankija kataloogi lehel **Väliskataloogi seadistus**. Peaksite määrama selle atribuudi väärtuseks _TRUE_ ainult tõrkeotsinguks, kuna see vähendab iga väljaregistreerimise puhul suuresti andmebaasi jõudlust. Lisateavet leiate selle teema hilisemast jaotisest [cXML-i ostukorvi teatelogi kuvamine väliskataloogi väljaregistreerimisel](#message-log).
-- **REPLACENEWLINE** – seadke selle atribuudi väärtuseks _TRUE_, kui teil tekib probleem selle tõttu, et hankija süsteem saadab teate **PunchOutResponse**, mis sisaldab reavahetuse märke (\\ n). See probleem võib ilmneda juhul, kui hankija teateid sõelutakse vahetarkvara või hankekeskuse kaudu. Kui teil tekib probleem uue hankija seadistuse tõttu, seadke atribuudi **TRACEPUNCHOUT** väärtuseks _TRUE_, et vaadata teadet **PunchOutResponse** ja teha kindlaks, kas XML-sildid on reavahetuse märkide tõttu katkenud.
+- **REPLACENEWLINE** – seadke selle atribuudi väärtuseks _TRUE_, kui teil tekib probleem selle tõttu, et hankija süsteem saadab teate **PunchOutResponse**, mis sisaldab reavahetuse märke (\\n). See probleem võib ilmneda juhul, kui hankija teateid sõelutakse vahetarkvara või hankekeskuse kaudu. Kui teil tekib probleem uue hankija seadistuse tõttu, seadke atribuudi **TRACEPUNCHOUT** väärtuseks _TRUE_, et vaadata teadet **PunchOutResponse** ja teha kindlaks, kas XML-sildid on reavahetuse märkide tõttu katkenud.
 - **POCOMMENTS** – seadke selle atribuudi väärtuseks _TRUE_, kui soovite, et cXML-dokument sisaldaks märkusi, mis on rakenduses Supply Chain Management ostutellimusele lisatud. Manuse tekst lisatakse ostutellimuse teates päise kommentaaridesse. Lisateavet selle kohta, kuidas süsteem neid manuseid valib ja töötleb, leiate selle teema hilisemast jaotisest [Ostutellimusele märkuste lisamine](#attach-po-notes).
 - **VENDCOMMENTS** – seadke selle atribuudi väärtuseks _TRUE_, kui soovite, et cXML-dokument sisaldaks märkusi, mis on rakenduses Supply Chain Management ostutellimusele lisatud. Manuse tekst lisatakse ostutellimuse teates päise kommentaaridesse. Lisateavet selle kohta, kuidas süsteem neid manuseid valib ja töötleb, leiate jaotisest [Ostutellimusele märkuste lisamine](#attach-po-notes).
 - **CLEANAMP** – seadke selle atribuudi väärtuseks _TRUE_, kui te saate hankija puhul väljaregistreerides tõrketeate ja hankija tagastus-URL sisaldab valesti kodeeritud ampersande (\&).
@@ -137,11 +137,11 @@ Kasutage vaikeatribuute järgmisel viisil.
 
 Kui olete väliskataloogi kõigi atribuutide seadistamise ja muude sätete konfigureerimise lõpetanud, minge tagasi vahekaardile **Üldine**, mis asub lehel **Väliskataloogid**, ja seadke suvandi **Aktiivne** väärtuseks *Jah*.
 
-### <a name="attach-notes-to-a-purchase-order"></a><a name="attach-po-notes"></a> Ostutellimusele märkuste lisamine
+### <a name="attach-notes-to-a-purchase-order"></a><a name="attach-po-notes"></a>Ostutellimusele märkuste lisamine
 
 Nagu mainiti jaotises [Tellimuse atribuutide määramine](#set-order-properties), saate seada väliskataloogi seadistuses atribuudi **POCOMMENTS** ja/või **VENDCOMMENTS** väärtuseks _TRUE_, kui soovite, et saadetav cXML sisaldaks teksti, mis on pärit ostutellimusele ja/või hankijakirjetele lisatud märkustest. Selles jaotises antakse üksikasjalikumat teavet selle kohta, kuidas süsteem neid manuseid kasutamise korral valib ja töötleb.
 
-Et määrata märkuste tüübid, mida süsteem otsima hakkab, avage **Hanked \> Seadistus \> Vormid \> Vormi seadistus**. Seejärel seadke vahekaardil **Ostutellimus** välja **Kaasa seda tüüpi dokumendid** väärtuseks märkuse tüüp, mida soovite kaasata. Kaasatakse ainult teksti kujul märkmed, mitte dokumendi kujul manused.
+Märkuste tüüpide seadistamiseks, mida süsteem hakkab otsima, minge **hankevormi \> häälestuse vormi \>\> seadistusse**. Seejärel seadke vahekaardil **Ostutellimus** välja **Kaasa seda tüüpi dokumendid** väärtuseks märkuse tüüp, mida soovite kaasata. Kaasatakse ainult teksti kujul märkmed, mitte dokumendi kujul manused.
 
 ![Vormi seadistuse leht.](media/cxml-form-setup.png "Vormi seadistuse leht")
 
@@ -149,7 +149,7 @@ Manused kaasatakse ostutellimusse ainult juhul, kui nende välja **Tüüp** vä�
 
 ![Manustatud märge, mis on seadistatud hankijale saatmiseks.](media/cxml-note-to-vendor.png "Manustatud märge, mis on seadistatud hankijale saatmiseks")
 
-## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a> cXML-i ostukorvi teatelogi kuvamine väliskataloogi väljaregistreerimisel
+## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>cXML-i ostukorvi teatelogi kuvamine väliskataloogi väljaregistreerimisel
 
 Kui seate väliskataloogi puhul välja **Väljaregistreerimisprotokolli tüüp** väärtuseks _cXML_, jäädvustab süsteem hankijalt tagasi tulevate ostukorvide teatelogi. Seda logi saab kasutada tõrkeotsinguks ja muudeks andmetoiminguteks.
 
@@ -184,7 +184,7 @@ Kasutaja või administraator ei näe väliseid elemente, kuna neid ei lisata enn
 
 ![XML-i lisatud välised elemendid.](media/cxml-extrinsics-xml.png "XML-i lisatud välised elemendid")
 
-## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a> Ostutellimuse loomine ja töötlemine
+## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Ostutellimuse loomine ja töötlemine
 
 Kui loote hankijale ostutellimuse, pärib see samalt hankijalt suvandi **Saada ostutellimus cXML-i kaudu** seadistuse. Säte on siiski saadaval ostutellimuse vaate **Päis** kiirkaardil **Seadistus**, et saaksite seda hiljem vajadusel muuta.
 
@@ -212,7 +212,7 @@ Dokument saadetakse, kui pakett-töö on seadistatud ja käivitatud. Oleku muutu
 
 ![Olekuteated ostutellimustaotluse lehel.](media/cxml-po-request-2.png "Olekuteated ostutellimustaotluse lehel")
 
-## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a> Ostutellimustaotluse pakett-töö ajastamine
+## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Ostutellimustaotluse pakett-töö ajastamine
 
 Pakett-töö aktiveerimiseks ostutellimustaotluste saatmiseks avage **Hanked \> Seadistus \> cXML-i haldus \> Ostutellimustaotlus** ning seejärel valige toimingupaanil vahekaardi **Ostutellimustaotlus** grupis **Partii** suvand **Edasta töö**, et avada dialoogiboks **Ostunõude ettevalmistamine ja saatmine**. Seda dialoogiboksi saate kasutada kordumise seadistamiseks, nagu te teete seda pakett-tööde puhul rakenduses Supply Chain Management. Valige oma tellimuse mahul põhinev intervall. Kuigi saate pakett-töö käivitada iga minut, on parem saata partiisid kogu tööpäeva jooksul, võttes arvesse hankijate graafikutega ühtivaid tellimuse sissetuleku ajavahemikke.
 
@@ -220,11 +220,11 @@ Näiteks on teie hankijal poliitika, mille põhjal lähetatakse kõik enne kella
 
 Protsessi käigus otsitakse ostutellimustaotluse dokumente, mille olek on *Ootel*. Kui teil on tellimus, mille peate hankijale kohe saatma, saate valida **Edasta töö** ja seada suvandi **Pakktöötlus** väärtuseks *Ei*.
 
-## <a name="monitor-purchase-order-requests"></a><a name="monitor-po-requests"></a> Ostutellimustaotluste jälgimine
+## <a name="monitor-purchase-order-requests"></a><a name="monitor-po-requests"></a>Ostutellimustaotluste jälgimine
 
 ### <a name="view-the-status-of-a-purchase-order"></a>Ostutellimuse oleku vaatamine
 
-Tellimuste, mida saab saata cXML-i kaudu, kinnitamise puhul määratakse nende olekuks _Ootel_. Nagu kirjeldati jaotises [Ostutellimuse loomine ja töötlemine](#create-po), saate vaadata ostutellimuse olekut lehel Ostutellimustaotlus. Igal ostutellimustaotlusel võib olla üks mitmest olekust sõltuvalt selle parameetritest ja andmetest. Selles jaotises kirjeldatakse eri olekutüüpe ja väärtusi, mis neil olla võivad. See teave aitab teil hallata probleeme ja mõista oma ostutellimuste olekut.
+Tellimuste, mida saab saata cXML-i kaudu, kinnitamise puhul määratakse nende olekuks _Ootel_. Nagu kirjeldati jaotises [Ostutellimuse loomine ja töötlemine](#create-po), saate vaadata ostutellimuse olekut lehel **Ostutellimustaotlus**. Igal ostutellimustaotlusel võib olla üks mitmest olekust sõltuvalt selle parameetritest ja andmetest. Selles jaotises kirjeldatakse eri olekutüüpe ja väärtusi, mis neil olla võivad. See teave aitab teil hallata probleeme ja mõista oma ostutellimuste olekut.
 
 ![Ostutellimuse olek ostutellimustaotluse lehel.](media/cxml-monitor-po-request.png "Ostutellimuse olek ostutellimustaotluse lehel")
 

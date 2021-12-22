@@ -2,7 +2,7 @@
 title: Tellimuse otsingu lubamine külaliste väljaregistreerimiseks
 description: See teema kirjeldab, kuidas lubada tellimuste otsingut Microsoft Dynamics 365 Commerce sisseregistreerimiseks.
 author: stuharg
-ms.date: 09/01/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674972"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891494"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Tellimuse otsingu lubamine külaliste väljaregistreerimiseks
 
@@ -58,11 +58,21 @@ Kui olete lülitanud sisse **Jaemüügi anonüümse kasutaja otsingutellimuse ü
 > [!NOTE]
 > Need valikud määravad, millal anonüümsetele kasutajatele kuvatakse sellised isiklikud andmed nagu kliendi aadress ja kliendi krediitkaardinumbri neli viimast numbrit. Registreeritud klientide privaatsuse kaitsmiseks on soovitatav valida **Ainult külalistellimuste** suvand. Kõige turvalisem valik on aga **Mitte kunagi**.
 
-Pärast väärtuse muutmist **isiklike andmete kaasamisväärtuse muutmisel külalise tellimuse otsingul** väljal peate käitama Commerce Headquartersis töö1070 (**kanali konfiguratsioon**) ja minema **Jaemüügi ja äri \> Jaemüük ja äri IT \> jaotusgraafikusse**.
+Pärast isiklike andmete kaasamisväärtuse muutmisel külalise tellimuse otsinguväljal peate käitama Commerce Headquartersis töö **1070 (kanali konfiguratsioon), liikes jaemüügi ja äri jaemüügi ja äri IT jaotuse** **·** **\>\> graafikusse**.
 
 ## <a name="configure-the-order-lookup-module"></a>Tellimuse otsingumooduli konfigureerimine
 
 Commerce module library tellimuse otsingumoodulit kasutatakse tellimuse otsimiseks kasutatava vormi renderdamiseks. Tellimuse otsingumoodul võib olla kaasatud iga lehe kehapesasse, mis ei nõua kliendi sisselogimist. Lisateavet mooduli konfigureerimise kohta vt [Tellimuse otsingumoodulist](order-lookup-module.md).
+
+## <a name="configure-the-order-details-page"></a>Tellimuse üksikasjade lehe konfigureerimine
+
+Enne, kui külaliskasutajad saavad vaadata oma tellimuse üksikasju, peab tellimuse üksikasjade leht teie e-äri saidil olema konfigureeritud nii, et see ei nõua sisselogimist. Tellimuse üksikasjade lehe sisselogimisnõude välja lülitamiseks avage leht Commerce'i saidikonstruktoris, valige puuvaates vaikeleht (nõutav) ja tühjendage parempoolsel paanil atribuutide allosas ruut **Nõuab** **logimist**.
+
+## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Lisa link kande meilide üksikasjade tellimiseks
+
+Tellimusega seotud meilide puhul saate anda lingi või nupu, mis viib kliendid tellimuse üksikasjade lehele. Lingi või nupu lisamiseks looge HTML-link, mis osutab tellimuse üksikasjade leheküljele teie e-kaubanduse saidil, ning läbige tellimuse kinnituse ID ja kliendi meiliaadress URL-i parameetritena, nagu näha järgmises näites.
+
+`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Lisaressursid
 

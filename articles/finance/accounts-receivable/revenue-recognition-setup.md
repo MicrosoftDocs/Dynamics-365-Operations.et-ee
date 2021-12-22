@@ -2,7 +2,7 @@
 title: Tulu tuvastamise seadistus
 description: Selles teemas kirjeldatakse tulude tuvastamise seadistamise suvandeid ja nende mõjusid.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675174"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867216"
 ---
 # <a name="revenue-recognition-setup"></a>Tulu tuvastamise seadistus
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ Esimene stsenaarium leiab aset pärast kõigi lepinguliste kohustuste täitmist,
 
 Teine stsenaarium leiab aset siis, kui pärast ümberjaotamist luuakse tööleht. Ümberjaotamine toimub siis, kui müügitellimuse rida lisatakse eelnevalt arveldatud müügitellimusele või kui luuakse uus müügitellimus, mis sisaldab rida, mis on algse lepingu osa. Kui arve sisestati enne uue müügitellimuse rea lisamist, tuleb sisestatud kliendiarvele luua korrigeeriv raamatupidamise kirje.
 
-Tööleht seadistatakse lehel **Töölehe nimed** (**Tulu tuvastamise \> Seadistus \> Töölehe nimed**). Töölehe tüübiks peab olema määratud **Tulu tuvastamine**. Tulu tuvastamise töölehel saate valida sisestamiskihi, kuhu sisestada.
+Tööleht seadistatakse lehel **Töölehe nimed** (**Tulu tuvastamise \> Seadistus \> Töölehe nimed**). Töölehe tüübiks peab olema määratud **Tulu tuvastamine**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Tulu tuvastamise parameetrid
 

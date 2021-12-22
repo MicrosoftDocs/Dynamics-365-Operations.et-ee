@@ -4,6 +4,8 @@
     - name: Mis on uut?
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
+          href: hr-whats-new-2021-11-29.md
+        - name: 29. november 2021
           href: hr-admin-whats-new.md
         - name: 5. oktoober 2021
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Määra muudatuste töötlemine
                       href: hr-benefits-process-rate-changes.md
+                - name: Töövõtja soodustuse valimine
+                  href: employee-select-benefits-ess.md
                 - name: ACA aruandlus
                   href: hr-benefits-management-aca-reports.md
                 - name: Soodustuste avaldus

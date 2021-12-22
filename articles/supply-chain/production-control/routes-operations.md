@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566691"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891949"
 ---
 # <a name="routes-and-operations"></a>Protsessid ja operatsioonid
 
@@ -223,7 +223,7 @@ Selle lähenemise kasutamisel muutub leht **Operatsiooniseosed** käitusaegade j
 Kui te operatsiooni ressursivajaduste hulgas operatsiooniressurssi või ressursigruppi ei määra, võivad vastavad ressursid tegutseda erineva kiirusega. Seega võib aeg, mida on operatsiooni töötlemiseks vaja, erinev olla. Selle probleemi lahendamiseks võib kasutada operatsiooni seose välja **Valem** määramiseks, kuidas protsessi aega arvutatakse. Valikud on järgmised:
 
 - **Standardne** – (vaikevalik) arvutus kasutab ainult operatsiooniseose välju ja korrutab määratud käitusaja tellimuse kogusega.
-- **Maht** – arvutus sisaldab operatsiooniressursi välja **Maht**. Seega on aeg ressursist sõltuv. Operatsiooniressursi juures määratud väärtus on maht tunni kohta. **Töötlemisaeg** arvutatakse **Tellimuse kogusena**, mis jagatakse **Võimsusega**.
+- **Maht** – arvutus sisaldab operatsiooniressursi välja **Maht**. Seega on aeg ressursist sõltuv. Operatsiooniressursi juures määratud väärtus on maht tunni kohta. **Töötlemisaeg** arvutatakse **Tellimuse kogusena**, mis jagatakse **Võimsusega**. Võimsuse väärtus pole kindlale mõõtühikule omane ja seega ei põhine see võimsusühiku väljal, mis on lihtsalt kirjeldav väli, mida arvutustes **ei** kasutata.
 - **Partii** – partii maht arvutatakse operatsiooni seose teabe abil. Siis saab arvutada tellimuse koguse põhjal partiide arvu ja protsessi aja.
 - **Ressursi partii** – see valik on põhimõtteliselt sama, mis valik **Partii**. Kuid arvutus sisaldab operatsiooniressursi välja **Partii maht**. Seega on aeg ressursist sõltuv.
 

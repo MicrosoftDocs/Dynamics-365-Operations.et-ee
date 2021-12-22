@@ -1,8 +1,8 @@
 ---
 title: Kiirklahvid
-description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada Finance and Operations i rakendustega töötamisel.
+description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada Finance and Operationsi rakendustega töötamisel.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800189"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913514"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Järgmised klaviatuuri otseteed aitavad teil Finance and Operations i rakendustes kiiresti ja tõhusalt andmeid sisestada.
+Järgmised klaviatuuri otseteed aitavad teil Finance and Operationsi rakendustes kiiresti ja tõhusalt andmeid sisestada.
 
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
@@ -73,7 +72,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Kiirinfopaani avamine (või fookuse nihutamine kiirinfopaanile, kui see on juba avatud) | Alt + M, B või Ctrl + F2                        |
 | Kiirinfopaani sulgemine (fookusega kiirinfopaanil)                         | Esc-klahv                                       |
 | Järgmisele/eelmisele kiirinfole liikumine (fookusega kiirinfopaanil)              | Alt + Shift + allanool / Alt + Shift + ülesnool |
-| Liigutage &lt; n&gt;. kiirinfosse (fookusega kiirinfopaanile)                | Alt+&lt; n&gt; (&lt; n&gt; = 1–9)           |
+| Liigutage &lt;n&gt;. kiirinfosse (fookusega kiirinfopaanile)                | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)           |
 | Kiirinfo laiendamine (fookusega kiirinfo päisel)                             | Tühik või sisestusklahv (Enter)                            |
 | Praeguse kiirinfo ahendamine                                                    | Alt + 0                                     |
 
@@ -114,11 +113,11 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 |-----------------------------------------------------|----------------------------------------------|
 | Järgmisele/eelmisele väljale liikumine                     | tabeldusklahv / Shift + tabeldusklahv                              |
 | Järgmisele/eelmisele vahekaardile liikumine                       | Alt + Shift + paremnool / Alt + Shift + vasaknool |
-| Liigutamine &lt; n&gt;. vahekaardile                         | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1–9)        |
+| Liigutamine &lt;n&gt;. vahekaardile                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Järgmisele/eelmisele kiirkaardile liikumine                   | Alt + Shift + allanool / Alt + Shift + ülesnool    |
-| Liigutamine &lt; n&gt;. kiirkaardile                     | Alt+&lt; n&gt; (&lt; n&gt; = 1–9)              |
+| Liigutamine &lt;n&gt;. kiirkaardile                     | Alt+&lt;n&gt; (&lt;n&gt; = 1–9)              |
 | Järgmise/eelmise laba juurde liikumine (vertikaalne vahekaart)      | Alt + Shift + paremnool / Alt + Shift + vasaknool |
-| &lt; n&gt;. laba juurde liikumine (vertikaalne vahekaart)        | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1–9)        |
+| &lt;n&gt;. laba juurde liikumine (vertikaalne vahekaart)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1–9)        |
 | Kiirkaardi laiendamine (fookusega kiirkaardi päisel) | Tühik või sisestusklahv (Enter)                               |
 | Praeguse kiirkaardi ahendamine                        | Alt + 0                                        |
 | Ruudustikuvaatele lülitumine                                 | Ctrl + Shift + G                                 |
@@ -150,6 +149,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Vaiketegevuse käivitamine ruudustikus<blockquote>[!NOTE] See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.</blockquote> | Sisestusklahv                           |
 | Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
 | Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |
+| Praeguse veeru teisaldamine järgmisele/eelmisele positsioonile (fookusega päise real)                                   | Ctrl+ Shift + paremnool / Ctrl + Shift + vasaknool |
 | Praeguse veeru ruudustiku filtrimise avamine (kui fookus on päisereas)                                              | Sisestusklahv                           |
 | Muutke praeguse veeru suurust, et see mahuks sisuga (fookusega päisereal)                                           | A (või topeltklõpsake veeru suuruse muutmise pidet) |
 

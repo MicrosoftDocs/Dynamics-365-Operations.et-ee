@@ -1,7 +1,7 @@
 ---
 title: Konsolideerimiskontode grupid ja täiendavad konsolideerimiskontod
-description: See teema annab teavet konsolideerimiskontode gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist Microsoft Dynamics 365 Finance'is.
-author: aprilolson
+description: See teema annab teavet konsolideerimiskonto gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist.
+author: panolte
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
@@ -12,25 +12,25 @@ ms.reviewer: roschlom
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: aolson
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3e6671e5f3ceff671210011913a3a91194613c7c0e4e1d8e8063e4e27e5f3cf5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727416"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883383"
 ---
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolideerimiskontode grupid ja täiendavad konsolideerimiskontod
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolideerimiskonto grupid ja täiendavad konsolideerimiskontod
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab teavet konsolideerimiskontode gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist Microsoft Dynamics 365 Finance'is.
+See teema annab teavet konsolideerimiskonto gruppide ja täiendavate konsolideerimiskontode kohta ning selgitab nende kasutamist.
 
 ## <a name="consolidation-account-groups"></a>Konsolideerimiskontode grupid
 
-Konsolideerimiskontode grupid võimaldavad luua gruppe kontodest, mida soovite kasutada andmete konsolideerimiseks. Enamasti kujutab konsolideerimiskontode grupp riiklikul tasandil kontoplaani või vastendab kontod grupiga, mille on määratlenud ettevõtte peakontorid. Konsolideerimiskontode grupid leiate mooduli **Konsolideerimised** alast **Häälestus**. Uue kontogrupi lisamisel sisestage selle jaoks kordumatu identifikaator ja nimi.
+Konsolideerimiskontode grupid võimaldavad luua gruppe kontodest, mida soovite kasutada andmete konsolideerimiseks. Tavaliselt esindab konsolideerimiskonto grupp valitsuse volitatud kontoplaani. Konsolideerimiskonto grupp saab vastendada ka kontosid grupiga, mille on määranud ettevõtte peakontor. Konsolideerimiskontode grupid leiate mooduli **Konsolideerimised** alast **Häälestus**. Uue grupi lisamisel saate sisestada kontogrupi kordumatu ID ja nime.
 
 ## <a name="additional-consolidation-accounts"></a>Täiendavad konsolideerimiskontod
 Täiendavad konsolideerimiskontod võimaldavad määrata konto olemasolevast kontoplaanist konsolideerimiskontode gruppi. Seejärel saate määrata konsolideerimiskonto väärtuse ja nime. 

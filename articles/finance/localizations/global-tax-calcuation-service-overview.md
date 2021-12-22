@@ -2,7 +2,7 @@
 title: Maksuarvutuse ülevaade
 description: Selles teemas selgitatakse maksuarvestuse võimekuse üldist ulatust ja funktsioone.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647053"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892420"
 ---
 # <a name="tax-calculation-overview"></a>Maksuarvutuse ülevaade
 
@@ -65,9 +65,23 @@ Maksuarvestus on juurutatud järgmistes Azure'i geograafilistes asukohtades. Vas
 > [!NOTE]
 > Maksuarvutus ei toeta Dynamics 365 varasemat versiooni, nt Dynamics AX 2012 või Dynamics 365 valdustes juurutamist.
 
+## <a name="versions"></a>Versioonid
+Soovitame teil importida ja seadistada oma maksuarvestuse konfiguratsioon versiooniga, mis vastab teie finantside või tarneahela halduse versioonile.
+
+| Finants- või tarneahela halduse versioon | Maksu konfiguratsiooni versioon               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Maksu konfiguratsioon - Euroopa 30.12.82     |
+| 10.0.19         | Maksu arvutamise konfiguratsioon 36.38.193 |
+| 10.0.20         | Maksu arvutamise konfiguratsioon 40.43.208 |
+| 10.0.21         | Maksu arvutamise konfiguratsioon 40.48.215 |
+| 10.0.22         | Maksu arvutamise konfiguratsioon 40.48.215 |
+| 10.0.23         | Maksu arvutamise konfiguratsioon 40.50.221 |
+| 10.0.24         | Maksu arvutamise konfiguratsioon 40.50.225 |
+
+
 ## <a name="data-flow"></a>Andmevoog
 
-Siin on ülevaade maksude arvutamise andmevoo protsessist. 
+Siin on maksuarvestuse andmevoo protsessi liigendus. 
 
 1. RCS-s saate vaadata ja importida maksustatava dokumendi mudeli konfiguratsioone ja mudeli vastendamise konfiguratsioone. Kui peate täpsema stsenaariumi konfiguratsioone laiendama, vaata [Andmeväljade lisamine maksukonfiguratsioonides](tax-service-add-data-fields-tax-configurations.md).
 2. RCS-sis looge või säilitage maksufunktsioonid. Saate kasutada maksufunktsiooni maksumäärade ja maksu kohaldatavusreeglite säilitamiseks.
@@ -169,6 +183,10 @@ Versioonis 10.0.23 toetatakse järgmisi juriidilise isiku esmase aadressi riike/
 - Jaapan
 - Malaisia
 - Singapur
+
+Versioonis 10.0.24 toetatakse järgmisi juriidilise isiku esmase aadressi riike/piirkondi:
+
+- Mehhiko
 
 ## <a name="related-resources"></a>Seotud ressursid
 

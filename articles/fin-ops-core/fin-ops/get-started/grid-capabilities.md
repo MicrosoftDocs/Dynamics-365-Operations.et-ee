@@ -2,7 +2,7 @@
 title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks peate lubama uue ruudustiku funktsiooni.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700133"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890852"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -119,6 +119,9 @@ Samamoodi nagu ruudustiku kõigi ridade valimiseks (või valiku tühistamiseks) 
 
 ### <a name="hiding-column-names"></a>Veeru nimede peitmine
 Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Te saate veeru nime grupi päiseridades peita, valides **Ruudustiku suvandid** > **Peida grupi veeru nimi**.
+
+### <a name="grouping-on-date-and-time-columns"></a>Grupeerimine kuupäeva ja kellaaja veergudel
+Versioonis 10.0.24 väljade Kuupäev või Kuupäev/kellaaeg jaoks on suvand lisatud grupeerimiseks aasta, kuu või päeva järgi. Vastava päiserea grupp "väärtus" vastab selle välja vormingule. Lisaks saate väljade DateTime ja Time puhul grupeerida tunni, minuti või teise järgi.    
 
 ## <a name="freezing-columns"></a>Veergude külmutamine
 Mõned ruudustiku veerud võivad olla piisavalt olulised konteksti jaoks, et te ei soovi neid vaatest välja kerida. Selle asemel võite soovida, et nende veergude väärtused oleks alati nähtaval. Funktsioon **Külmuta ruudustiku veerud** pakub kasutajatele seda paindlikkust. 

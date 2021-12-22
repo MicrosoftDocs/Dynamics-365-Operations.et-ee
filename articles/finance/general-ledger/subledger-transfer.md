@@ -2,7 +2,7 @@
 title: Alampearaamatu ülekandmine pearaamatusse
 description: Selles teemas kirjeldatakse seotud võimalusi alampearaamatu ülekandmiseks pearaamatusse.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716641"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900726"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Alampearaamatu ülekandmine pearaamatusse
 
@@ -39,7 +39,7 @@ Versioonil 10.0.8 tehti parandusi **asünkroonse** valiku jõudluse suurendamise
 
 Alamraamatu partiide asünkroonse edastamise funktsionaalsus aitab parandada andmete ülekandmist allkirjast pearaamatusse. Väiksemate kannete grupeerimiskogumite ja kannete gruppidesse ülekandmise teel töötleb funktsioon kandeid tõhusamalt. Kannete grupeerimisel kasutatakse tõhusamalt pakktöötluse serveri ressursse.
 
-Asünkroonne alampearaamatu partiide ülekanne nõuab, et pakktöötluse server oleks seadistatud, võrgus ja töötaks. Vastasel juhul **asünkroonne** ülekandevalik ei tööta.
+Asünkroonne alamtööaja partiide ülekanne nõuab, et pakktöötluse server oleks seadistatud, võrgus ja töötaks, kuna pakett-töö toimingud luuakse pakktöötluse serveris koheseks täitmiseks. Kui alammooduli ülekanne pearaamatu jõudluse optimeerimise funktsiooni on lubatud, peab samuti olema lubatud protsessi automatiseerimissüsteemi pakett-töö nimega **Protsessi** **·** **automatiseerimise** pollimise süsteemitöö. Lisateavet vt teemast [Protsessi automatiseerimine](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 Tõhususe muutmine paketitasandil kasutab kõigi süsteemi juriidiliste isikute jaoks ühte korduvat partiitööd. Käitusajal luuakse uus pakett-töö, et töödelda nõutud kirjeid, mida pole veel üle kantud. Rohkem sätteid saab kontrollida süsteemihalduse **Protsessi automatiseerimise** leheküljelt. Sel leheküljel saate muuta taustaprotsessi, muuta sagedust ja määratleda perioodi.
 

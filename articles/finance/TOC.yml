@@ -70,12 +70,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (veebruar)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (jaanuar)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (november 2021)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21 (oktoober 2021)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Eelarve koostamise ülevaade
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Saadaolevad eelarvefondid
+              href: budgeting/budget-funds-available.md
             - name: Ametikoha prognoosimine
               href: budgeting/position-forecasting.md
             - name: Eelarve planeerimise põhjendusdokumendid
@@ -1434,16 +1436,26 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektroonilise arveldamise häälestus
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Power Platformi lisandmooduli administraatori viide
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Elektroonilise arvelduse KKK
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Maksuarvutus
                   items:
                     - name: Maksuarvutuse ülevaade
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Häälestus
+                    - name: Seadistus
                       items:
                         - name: Maksuarvutusega alustamine
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Maksukoodide häälestus
+                          href: localizations/set-up-tax-codes.md
+                        - name: Maksugruppide häälestus
+                          href: localizations/set-up-tax-groups.md
+                        - name: Kauba maksugruppide häälestus
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Impordi- ja ekspordimaksude arvutused
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Koondandmete otsingu keskkonna häälestamine
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Määratlemine
@@ -2594,6 +2606,8 @@
               items:
                 - name: Indoneesia ülevaade
                   href: localizations/indonesia.md
+                - name: Maksuarvete nummerdamine ja arveldamine
+                  href: localizations/apac-idn-invoicing.md
                 - name: Indoneesia KM-i deklaratsioon
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Itaalia
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Kliendi elektroonilised arved
                   href: localizations/emea-ita-e-invoices.md
+                - name: Hankija elektroonilised arved
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Aastane maksusuhtlus
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Makse jälgitavus
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: KM-aruanne
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: Käibemaksutagastus otseedastusega Altinnile
+                  items:
+                    - name: 'Ülevaade: käibemaksutagastus otseedastusega Altinnile'
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Integratsioonipunktide registreerimine ID-porteni veebiportaalis
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: Keskkonna ettevalmistamine koostööks ID-porteni ja Altinni veebiteenustega
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: Käibemaksutagastuse elektrooniliste teadete seadistuse kontroll-loend
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Finance'i keskkonna autoriseerimine koostööks ID-Porteni ja Altinni veebiteenustega
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: Käibemaksutagastuse edastamine Altinni veebiteenusele
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Maksu standardne auditifail (SAF-T) Norra jaoks
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Kliendi elektroonilised arved Norras
@@ -3831,7 +3861,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Loend
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
+                    - name: List
                       items:
                         - name: Loendi funktsioonid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json

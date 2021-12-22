@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778445"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891922"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Kolmanda osapoole tootmise käivitussüsteemidega integreerimine
 
@@ -53,7 +53,7 @@ Saate lubada mis tahes või kõik järgmised integratsiooniprotsessid.
 | Toodetud või praagitud koguse aruanne | See protsess varustab tarneahela haldust teabega nende heade ja veakoguste kohta, mis on tootmistöös mes-i kasutades teatatud. See tagab, et tööde ülevaatajad peavad tootmisplaani edenemist uuendatud vaates. |
 | Teata materjali tarbimisest | See protsess varustab tarneahela haldust MES-i teabega tarbitavate materjalide koguse kohta. See teeb uuendatud laokirjed kättesaadavaks teistele olulistele protsessidele, nt planeerimisele ja müügile. |
 | Operatsiooni jaoks tarbitud aja teatamine | See protsess varustab tarneahela haldust teabega konkreetseks operatsiooniks kasutatud aja kohta. |
-| Tootmistellimuse lõpetamine | See protsess teavitab tarneahela haldust, et MES on värskendanud tootmistellimuse oma lõplikuks olekuks *·* Lõpetatud. See olek näitab, et tootmistellimusega ei toodeta rohkem koguseid. |
+| Tootmistellimuse lõpetamine | See protsess teavitab tarneahela haldust, et MES on värskendanud tootmistellimuse oma lõplikuks olekuks *Lõpetatud*. See olek näitab, et tootmistellimusega ei toodeta rohkem koguseid. |
 
 ## <a name="monitor-incoming-messages"></a>Saate jälgida sissetulevaid teateid.
 
@@ -191,7 +191,7 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `RouteCardLines` iga rida `P
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|
-| `OperationNumber` | Kohustuslik | Kohustuslik, täisarv |
+| `OperationNumber` | Kohustuslik | Täisarv |
 | `OperationPriority` | Valikuline | Enum (esmane \| teisene \| 1. sekundaarne2 \| ... \| Teisene 20) |
 | `OperationId` | Valikuline | String |
 | `OperationsResourceId` | Valikuline | String |
@@ -215,7 +215,7 @@ Järgnev tabel näitab välju, mida sõnumi jaotise `RouteCardLines` iga rida `P
 
 ### <a name="end-production-order-message"></a>Tootmistellimuse lõpetamise teade
 
-Tootmistellimuse *·* lõppteate väärtus on `_messageType``ProdProductionOrderEnd`. Järgmine tabel näitab välju, mida see teade toetab.
+Tootmistellimuse *lõppteate* väärtus on `_messageType``ProdProductionOrderEnd`. Järgmine tabel näitab välju, mida see teade toetab.
 
 | Välja nimi | Olek | Tüüp |
 |---|---|---|

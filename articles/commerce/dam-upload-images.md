@@ -2,7 +2,7 @@
 title: Piltide üleslaadimine
 description: Selle teema all kirjeldatakse, kuidas üles laadida videosid rakenduse Microsoft Dynamics 365 Commerce saidiehituses.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423251"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891518"
 ---
 # <a name="upload-images"></a>Piltide üleslaadimine
 
@@ -41,7 +41,8 @@ Pildi üleslaadimisel saab määrata järgmise teabe.
 - **Avalda varad pärast üleslaadimist**: kui see ruut on märgitud, avaldatakse pilt või pildid kohe pärast üleslaadimist.
 
 > [!NOTE]
-> Pildivarad, mille kategooria on määratud, sildistatakse automaatselt selle kategooriaga märksõnana, mis aitab otsida kindla kategooria varasid.
+> - Pildivarad, mille kategooria on määratud, sildistatakse automaatselt selle kategooriaga märksõnana, mis aitab otsida kindla kategooria varasid.
+> - Toote üksikasjade leheküljed loovad dünaamiliselt asetekst, kasutades toote nime, nii et tootepildi asetekst muutmine ei **mõjuta** **renderdatud** pilti.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Omnikanali piltide nimetustavad 
 

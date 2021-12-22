@@ -14,12 +14,12 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Platvormi versiooni 10.0.23 värskendused
+                - name: Platvormi versiooni 10.0.24 värskendused (veebruar 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Platvormi versiooni 10.0.23 värskendused (jaanuar 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: Platvormi versiooni 10.0.22 värskendused (november 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Platvormi versiooni 10.0.21 värskendused (oktoober 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Azure Data Lake'i ülevaade
-              href: data-entities/azure-data-lake-overview.md
-            - name: Eksportimise konfigureerimine Azure Data Lake'i
+            - name: Azure Data Lake'i eksportimise ülevaade
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Azure Data Lake'i eksportimise lisandmooduli installimine
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operationsi rakendused Azure Data Lake'is
               href: data-entities/finance-data-azure-data-lake.md
@@ -406,6 +406,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduv kasutamine
                       href: deployment/onprem-reuseadfs.md
+                    - name: Microsoft Dynamics 365 Finance + Operationsi (on-premises) keskkondade SQL Serveri eksemplari täiendamine
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Kohalik esindaja
                   items:
                     - name: AD FS Microsoft 365 ühilduvus
@@ -1010,9 +1012,9 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tõlkemälu failid
                   href: lifecycle-services/use-translation-service-tm.md
-        - name: Microsoft Power Platformi integreerimine
+        - name: Microsoft Power Platformi integratsioon
           items:
-            - name: Microsoft Power Platformi integreerimine Finance and Operations'iga
+            - name: Ülevaade
               href: power-platform/overview.md
             - name: Power Platformi integreerimise lubamine
               href: power-platform/enable-power-platform-integration.md

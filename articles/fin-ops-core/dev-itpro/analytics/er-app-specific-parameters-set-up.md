@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
-ms.translationtype: MT
+ms.openlocfilehash: 130487c41d8021692968141eca1a16d298a809e1
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733459"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913647"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -118,7 +116,7 @@ Saate kasutada ER-raamistikku rakendusekohaste parameetrite seadistamiseks ER-vo
 
 15. Valige käsk **Lisa** ja tehke järgmist.
 
-    1. Valige väljalt **Kood** suvand **\* Mitte tühi\***.
+    1. Valige väljalt **Kood** suvand **\*Mitte tühi\***.
     2. Valige väljalt **Otsingu tulemus** väärtus **Muu**.
 
     Selle viimase kirje lisades saate määratleda järgmise reegli: alati kui argumendina edastatud maksukood ei täida mõnda eeltoodud tingimustest, tagastab otsingu andmeallikas nõutud maksustamistasemena taseme **Muu**.
@@ -170,7 +168,7 @@ USMF-ettevõtte parameetrite häälestamiseks läbige järgmised sammud:
 8. Valige maksukood **EXEMPT**.
 9. Valige uue kirje väljalt **Otsingu tulemus** väärtus **Maksustamine puudub**.
 10. Valige **Lisa**.
-11. Valige uue kirje väljalt **Kood** suvand **\* Mitte tühi\***.
+11. Valige uue kirje väljalt **Kood** suvand **\*Mitte tühi\***.
 12. Valige uue kirje väljalt **Otsingu tulemus** väärtus **Tavaline maksustamine**.
 13. Valige väljalt **Olek** suvand **Lõpule viidud**.
 14. Valige käsk **Salvesta**.
