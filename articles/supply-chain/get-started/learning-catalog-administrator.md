@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
-ms.translationtype: HT
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402221"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920419"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Õppekataloog Dynamics 365 Supply Chain Managementi administraatoritele
 
@@ -68,7 +68,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 | Sisu | Kirjeldus | Vorming | Pikkus |
 |---------|-------------|--------|--------|
-| [Tehnilise muudatuse haldamise seadistamine rakendusele Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Tootjad nõuavad ranget tooteandmete haldamist, sest versioonihaldus ja tehniliste muudatuste haldus on, et saavutada edu tänapäeval, kus toote töötsüklid pidevalt lühenevad, kvaliteedi- ja töökindlusnõudeid karmistatakse ning tooteohutusele keskendutakse üha enam. Sellel õppeteel saate teada, kuidas seadistada tehniliste muudatuste haldamist. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
+| [Tehnilise muudatuse haldamise seadistamine rakendusele Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Tänased tootjad nõuavad tugevat tooteandmete haldust, versioonijuhtimist ja tehnika muudatusehaldust, et edukas olla toote elutsüklite kahandamises, kvaliteedi ja usaldusväärsuse nõuetele ning keskenduda tooteohutusele. Sellel õppeteel saate teada, kuidas seadistada tehniliste muudatuste haldamist. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
 
 ## <a name="servicing"></a>Teenuste osutamine<a name="servicing"></a>
 

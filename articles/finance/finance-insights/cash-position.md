@@ -2,7 +2,7 @@
 title: Kassajääk
 description: Selles teemas kirjeldatakse, kuidas rahavoo prognoosimise funktsioon prognoosib organisatsiooni sularahajäägi konkreetsetel aegadel. Lisaks kirjeldab see valikuid, mis on saadaval erinevatel ajavahemikel prognooside kuvamiseks.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752876"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945785"
 ---
 # <a name="cash-position"></a>Kassajääk
 
@@ -45,5 +45,17 @@ Vahekaardi **Sularahajääk** alumine osa kuvav ametikoha, rahavoo, projitseerit
 - Ruudustik **Pangakonto** kuvab eeldatava sularaha sissetulekute ja väljaminekute mõju pangasaldole.
 
 Sularahajäägi salvestamiseks ja redigeerimiseks looge hetktõmmis. Lisateavet selle kohta, kuidas hetktõmmistega töötada, vt teemast [Hetktõmmiste ülevaade](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Kassa positsiooni võimaluse üksikasjad 
+
+Kassa positsiooni funktsioon sisaldab järgmisi funktsioone. 
+
+- Sularaha positsiooni funktsioon näitab rahavoo süsteemi olemasolevatel dokumentidel ning välissüsteemidest imporditud sularaha sissevoolu ja väljamineku ridu.
+- Muudab rahavoo andmete integreerimise välistest süsteemidest rakendusse Dynamics 365 Finance lihtsaks. Kassapositsioon saab kasutada ka andmete importimise/eksportimise raamistikku. Selle raamistiku abil on Exceli ODataga integreerimine lihtne. Mitme allika andmeid saate kombineerida ka mitmekülgse kassa positsiooni lahenduse loomiseks.
+- Tutvustab nutikat sularahajääki. Sularaha positsioon luuakse kliendi maksekäitumise põhjal, et prognoosida, millal ettevõte võib eeldada sularaha saabumist oma kontodele.
+- Kliendi tellimuste ja arvete puhul kasutatakse kliendi makse ennustuse AI-funktsiooni, et määrata ajaloolist kliendi maksekäitumist, kui makstakse tellimust või arvet.
+- Hankija tellimuste ja arvete puhul kasutame keskmist aega lähetuse ja arve maksmise vahel hankija kohta, et määrata, millal hankija tellimusele või arvele makstakse sularaha väljaminekuorderite täpsemat tasu.
+
+See loob täpsem vaate rahavoost, mis põhineb kassiri ajaloolisel maksekäitumisest. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

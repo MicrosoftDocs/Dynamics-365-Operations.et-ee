@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e84df8aa4f3e4079cf97d35b0d67a75d68dbb4b2
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860529"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920644"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
 
@@ -110,9 +110,6 @@ Kui töötaja lõpetab või osaliselt lõpetab töö, saab ta teatada õige tood
 ![Dialoogiboks Edenemisteabe esitamine.](media/pfei-report-progress-dialog.png "Dialoogiboks Edenemisteabe esitamine")
 
 ## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Headest kogustest teatamine partiitellimuste puhul, millel on kaas- ja kõrvalsaadused
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] 
-<!--KFM: Preview until GA with 10.0.23 -->
 
 Töötajad saavad kasutada partiitellimuste edenemisest teatamiseks tootmispõranda täitmisliidest. See aruandlus hõlmab kaas- ja kõrvalsaaduste aruandlust.
 

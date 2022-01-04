@@ -2,7 +2,7 @@
 title: ER-i funktsioon VALUEIN
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni VALUEIN.
 author: NickSelin
-ms.date: 08/18/2020
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f230b05cd88554d30106337ae3e3f684c958c76eaf8ad8eae0dceda53f0b6862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: efa811df360b2ca38eb59bac849e70041405fa81
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729067"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922358"
 ---
 # <a name="valuein-er-function"></a>ER-i funktsioon VALUEIN
 
@@ -62,6 +62,9 @@ Tulemiks saadud *kahendmuutuja* väärtus.
 ```
 
 Mõnel juhul saab selle teisendada andmebaasi SQL-lauseks, kasutades `EXISTS JOIN` tehtemärki.
+
+> [!NOTE]
+> Väärtust, mida funktsioon tagastab, kasutatakse teisiti, sõltuvalt sellest, kas seda funktsiooni kasutatakse funktsiooni või `VALUEIN`[funktsiooni](er-functions-list-filter.md#usage-notes)[`FILTER`](er-functions-list-filter.md) valikukriteeriumide [`WHERE`](er-functions-list-where.md) määramiseks.
 
 ## <a name="example-1"></a>Näide 1
 

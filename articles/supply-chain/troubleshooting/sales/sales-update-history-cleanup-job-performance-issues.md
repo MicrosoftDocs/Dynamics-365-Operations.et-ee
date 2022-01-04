@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4f04dc204c705b40ed25fadc75118feaef4d6b6e
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: c02273adf90afc67b7c0ae1b82c19d489bfbd3b1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641455"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920070"
 ---
 # <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>Müügi värskendamise ajaloo puhastustöö ebaõnnestub või on jõudlusprobleeme
 
@@ -30,5 +30,5 @@ See võib juhtuda, kui süsteem hõlmab suurt hulka müügiuuendusi, mille tulem
 
 ## <a name="resolution"></a>Lahendus
 
-Uus **müügi värskendusajaloo puhastamise** töö versioon on saadaval Supply Chain Management versioonist 10.0.19 või uuemas. Vaikimisi pole see funktsioon lubatud. Üksikasju selle kohta, kuidas see toimib ja kuidas see funktsioonihalduses lubada, vt [Müügiajaloo puhastamine jõudluse parendamisel](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
+Uus **müügi värskendusajaloo puhastamise** töö versioon on saadaval Supply Chain Management versioonist 10.0.19 või uuemas. Vaikimisi pole see funktsioon lubatud. Üksikasju selle kohta, kuidas see toimib ja kuidas seda funktsioonihalduses lubada, vt [müügiajaloo puhastamisjõudluse parendust](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
 

@@ -2,7 +2,7 @@
 title: ER-i funktsioon FILTER
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni FILTER.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c601babd3ea7122bc9ddf7bf101751d4c032016fb33c3d4101f588789491e817
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760022"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922419"
 ---
 # <a name="filter-er-function"></a>ER-i funktsioon FILTER
 
@@ -49,11 +49,17 @@ Kehtiv tingimuslik avaldis, mida kasutatakse määratud loendi kirjete filtreeri
 
 Saadud kirjete loend.
 
-## <a name="usage-notes"></a>Kasutamise märkused
+## <a name="usage-notes"></a><a name="usage-notes"></a>Kasutamise märkused
 
 Erinevalt funktsioonist [WHERE](er-functions-list-where.md) rakendatakse määratud tingimust andmebaasi tasemel kõigile tüübi *Tabeli kirjed* elektroonilise aruandluse (ER) andmeallikatele. Loendi ja tingimuse saab määrata tabelite ja seoste abil.
 
 Kui üks või mõlemad argumendid, mis on selle funktsiooni jaoks konfigureeritud (`list` ja `condition`), ei luba seda taotlust otsesesse SQL-kutsesse tõlkida, esitatakse kujundamise ajal erand. See erand teavitab kasutajat, et funktsiooni `list` või `condition` ei saa andmebaasi päringuks kasutada.
+
+> [!NOTE]
+> Funktsioon `FILTER` erineb `WHERE` funktsioonist, kui [`VALUEIN`](er-functions-logical-valuein.md) funktsiooni kasutatakse valikukriteeriumide määramiseks.
+> 
+> - Kui funktsiooni kasutatakse funktsiooni ulatuses ja teine argument viitab andmeallikale, mis ei tagasta ühtegi kirjet, viidatakse Kahendmuutuja `VALUEIN``WHERE` väärale `VALUEIN`*[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` väärtusele, mis tagastab. Seega ei tagasta `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` avaldis hankija kirjeid, kui **VendGroupsi** andmeallikas ei tagasta hankijagrupi kirjeid.
+> - Kui funktsiooni kasutatakse funktsiooni ulatuses ja teine argument viitab andmeallikale, mis ei tagasta ühtegi kirjet, ignoreeritakse Kahendmuutuja väära väärtust, mis `VALUEIN``FILTER``VALUEIN`*[...](er-formula-supported-data-types-primitive.md#boolean)*`VALUEIN` tagastab. Seega avaldis `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` tagastab hankijate andmeallika kõik **hankijakirjed** ka siis, kui **andmeallikas VendGroups ei tagasta** hankijagrupi kirjeid.
 
 ## <a name="example-1"></a>Näide 1
 

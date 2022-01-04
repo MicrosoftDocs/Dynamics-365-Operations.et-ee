@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 680d5ed929a396bfb2d3c7f05351ab6c93d29256c825c618cb166aac444aa5d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726893"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920519"
 ---
 # <a name="product-dimensions"></a>Tootedimensioonid
 
@@ -78,7 +78,7 @@ Ettevõte müüb teksasid. Kaup *Teksad* kasutab värvi- ja suurusedimensioone. 
 
 ## <a name="the-version-product-dimension"></a>Tootedimensioon „versioon”
 
-Versioon on tootedimensioon, mille eesmärk on aidata teil kogu tarneahelas hallata ja jälgida toote mitut versiooni. Versiooni jälgimine on tootjatele oluline edu saavutamiseks, sest nad tegutsevad maailmas, kus toote elutsüklid kahanevad pidevalt, kvaliteedi- ja töökindlusnõuded on järjest karmimad ning tooteohutusele keskendutakse üha enam.
+Versioon on tootedimensioon, mille eesmärk on aidata teil kogu tarneahelas hallata ja jälgida toote mitut versiooni. Versiooni jälgimine on oluline tootjate edukuseks, mis opereerivad toote töötsüklite kahandamise ja suurema kvaliteedi ja usaldusväärsuse nõuetes ning pööravad tähelepanu tooteohutusele.
 
 Standardse tootedimensioonina toimib versioon samamoodi nagu olemasolevad tootedimensioonid (suurus, stiil, värv ja konfiguratsioon). Seetõttu saate seda kasutada lisaks tooteversioonide jälgimisele ka muude eesmärkide jaoks.
 

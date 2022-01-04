@@ -2,7 +2,7 @@
 title: Krediidihalduse parameetrite seadistus
 description: See teema kirjeldab suvandeid, mida saate kasutada krediidihalduse konfigureerimiseks teie ettevõtte vajaduste täitmiseks.
 author: JodiChristiansen
-ms.date: 08/03/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 768fb5121ae6be513c4a533a20027cf784640b2a
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753461"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921211"
 ---
 # <a name="credit-management-parameters-setup"></a>Krediidihalduse parameetrite seadistus
 
@@ -31,7 +31,7 @@ Jaotises **Krediit** on neli kiirkaarti, kus saate muuta parameetreid, mis kontr
 
 ### <a name="credit-holds"></a>Kreediti ootelolekud
 
-- Seadistage suvand **Müügitellimuste väärtuse redigeerimise lubamine pärast tellimuse ooteloleku vabastamist** väärtusele **Ei**, et nõuda sisestamise reeglite uuesti kontrollimist, kui müügitellimuse väärtus (laiendatud hind) on pärast müügitellimuse ootelolekust vabastamist tõusnud. .
+- Seadistage suvand **Müügitellimuste väärtuse redigeerimise lubamine pärast tellimuse ooteloleku vabastamist** väärtusele **Ei**, et nõuda sisestamise reeglite uuesti kontrollimist, kui müügitellimuse väärtus (laiendatud hind) on pärast müügitellimuse ootelolekust vabastamist tõusnud.
 - Valige väljal **Tühistatud tellimuste põhjused** vabastamise põhjus, mida kasutatakse vaikimisi siis, kui tühistatakse müügitellimus, mis oli krediidihaldusega seotud ooteloendis.
 - Seadistage suvand **Kontrolli kliendi krediidigruppide krediidilimiiti** väärtuseks **Jah**, et kontrollida kliendi kreeditigrupi krediidilimiiti, kui müügitellimuse klient kuulub kliendi krediidigruppi. Grupi krediidilimiiti kontrollitakse ja kui see on piisav, kontrollitakse kliendi krediidilimiiti.
 - Määrake suvand **Kontrolli krediidilimiiti, kui maksetingimused on suurenenud** väärtusele **Jah**, et kontrollida maksetingimuste reitingut, et teha kindlaks, kas müügitellimuse maksetingimused erinevad kliendi vaikimisi maksetingimustest. Kui uutel maksetingimustel on kõrgem reiting kui algsetel maksetingimustel, pannakse tellimus krediidihaldusega seotult ootele.
@@ -72,6 +72,10 @@ Te ei saa määrata ajapikenduse päevi ainult osadele sisestamise kontrollpunkt
 
 - Kreeditihalduses kuvatakse kliendi krediidilimiit kliendi valuutas. Peate määratlema krediidilimiidi vahetuskursi tüübi kliendi valuutas. Väljal **Krediidilimiiti vahetuskursi tüüp** valige vahetuskursi tüüp, mida tuleks kasutada esmase krediidilimiidi teisendamiseks kliendi krediidilimiidiks.
 - Seadke suvand **Luba krediidilimiitide käsitsi redigeerimine** väärtusele **Ei** et takistada kasutajatel muuta krediidilimiiti lehel **Klient**. Kui see valik on seadistatud väärtusele **Ei**, saab kliendi krediidilimiidi muudatusi teha ainult krediidilimiidi korrigeerimise kannete sisestamisega.
+- Kui **krediidihalduse blokeerimisreeglid on märgitud, eirake varude reserveeringute ignoreerimiseks varude** **reserveeringuid.** Sel juhul kontrollib süsteem rea kogust ja võimaldab kontrollpunkti ajapikenduse perioodid, sõltumata varude reserveeringu kogusest.
+- Kui krediidihaldus on lubatud, kasutatakse krediidilimiidi ületamisel teate sätet ainult **vabas** vormis arvete töötlemiseks. Kuigi teated lisatakse müügitellimustele alles siis, kui kliendid on ületanud krediidilimiidi, ei blokeeri nende teadete olemasolu kinnitust, komplekteerimislehtede ja saatelehtede printimist või arvete sisestamist.
+
+    Krediidihaldus on vaikimisi lubatud, kuid te saate selle keelata. Kui see on lubatud, kasutate krediidihalduse blokeerimisreeglit ja kontrollpunkte, et tuvastada, millal kliendid on ületanud krediidilimiiti. Kui see on keelatud, saavad teated, mis lisatakse müügitellimustele krediidilimiidi ületamisel teate sätte põhjal, aidata teil tuvastada, kui kliendid on ületanud **oma** krediidilimiiti.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numbriseeriad ja jagatud numbriseeria parameetrid
 

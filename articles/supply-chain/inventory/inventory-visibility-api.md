@@ -2,7 +2,7 @@
 title: Varude nähtavuse avalikud API-d
 description: Selles teemas kirjeldatakse Varude nähtavuse pakutavaid avalikke API-sid.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678783"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920096"
 ---
 # <a name="inventory-visibility-public-apis"></a>Varude nähtavuse avalikud API-d
 
@@ -41,8 +41,8 @@ Järgmises tabelis on toodud hetkel saadaolevad API-d.
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Postita | [Vabade kaubavarude koguste seadistamine/ülekirjutamine](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Postita | [Ühe reserveerimissündmuse loomine](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Postita | [Mitme reserveerimissündmuse loomine](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Hangi | [Päring sisestamismeetodi abil](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | Postita | [Päring hankimismeetodi abil](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Postita | [Päring sisestamismeetodi abil](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | Hangi | [Päring hankimismeetodi abil](#query-with-get-method) |
 
 Microsoftil on valmiskujul nõudekogum *Postman*. Saate importida selle kogumi oma tarkvarasse *Postman*, kasutades järgmist ühiskasutuses olevat linki: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Vaba kaubavaru päring
 
-API-d _Vaba kaubavaru päring_ kasutatakse teie toodete praeguste vaba kaubavaru andmete toomiseks.
+Kasutage päringu _vaba laoseisu_ API-d oma toodetele praeguste vaba kaubavaru andmete toomiseks. API toetab praegu päringuid kuni 100 üksiku üksuse kohta väärtuse `ProductID` alusel. Iga `SiteID` päringu puhul saab määrata ka mitu `LocationID` väärtust. Maksimaalne limiit on määratletud kui `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Päring sisestusmeetodi abil
 
@@ -551,7 +551,7 @@ Järgmised näited näitavad, kuidas teha päringuid kõigi toodete kohta konkre
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 Siin on hankimise URL-i näidis. See hankimise taotlus on täpselt sama, mis varem antud sisestamise näide.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

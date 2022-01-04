@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3632f115b1ef4cd3a41a483270fb5f6bb6c73526ce9322f16a6533265302937c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719712"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945537"
 ---
 # <a name="configure-account-structures"></a>Konto struktuuride konfigureerimine
 
@@ -79,7 +79,7 @@ Töölehte sisestades ning kasumi ja kahjumi vahemikust kontot valides määrab 
 
 ## <a name="more-than-7-criteria-needed"></a>Rohkem kui 7 kriteeriumit
 
-Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real. Jaotises **Lubatud väärtuse üksikasjad** töötades märkate, et kriteerium **+ Lisa uus** pole enam pärast seitsmenda kriteeriumi sisestamist aktiivne. Seda mõjutavad järgmised tegurid. 
+Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real. Kui töötate jaotises Lubatud väärtuse üksikasjad, siis teate, et pärast sisestatud seitsmes kriteeriumi sisestamist pole +Lisa uued **kriteeriumid** enam **aktiivsed**. Seda mõjutavad järgmised tegurid. 
  - Veeru laius 
  - Kuidas andmeid talletatakse 
  - Juhtelemendi **Lubatud väärtuse üksikasjad** jõudlus
@@ -101,7 +101,7 @@ Konto struktuuride ülesseadmisel on välja kujunenud mõned head tavad, mida j�
 - Ärge sisestage igasse konto struktuuri segmenti tärni, et toetuda vaid täpsematele reeglitele. Seda võib olla raske hallata ja tihtipeale põhjustab see haldamise ajal kasutaja vigasid, mistõttu ei suuda süsteem sisestada.
 
 ## <a name="account-structure-activation"></a>Konto struktuuri aktiveerimine
-Kui olete konto struktuuri häälestuse või muudatusega rahul, tuleb see aktiveerida. Kui konto struktuur on määratud pearaamatule, siis võib aktiveerimine võtta kaua aega, kuna kõik süsteemi sisestamata kanded tuleb sünkroonida uue struktuuriga. Konto struktuuri muudatused ei mõjuta sisestatud kandeid.
+Kui olete uue seadistuse või konto struktuuri muudatusega rahul, peate selle aktiveerima. Kui konto struktuur on määratud pearaamatule, siis võib aktiveerimine võtta kaua aega, kuna kõik süsteemi sisestamata kanded tuleb sünkroonida uue struktuuriga. Konto struktuuri muudatused ei mõjuta sisestatud kandeid.
 
 Lisateabe saamiseks vaadake jaotisi [Kontoplaanide plaanimine](plan-chart-of-accounts.md), [Finantsdimensioonid](financial-dimensions.md) ja [Konto ja dimensioonide kombinatsioonide sisestamine (segmenditud sisestamise juhtimine)](enter-account-dimension-combinations-segmented-entry-control.md).
 

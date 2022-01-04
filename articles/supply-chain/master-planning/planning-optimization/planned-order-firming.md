@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778517"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920719"
 ---
 # <a name="firm-planned-orders"></a>Kindlad plaanitud tellimused
 
@@ -31,7 +31,7 @@ Planeeritud tellimuste kinnitamiseks on kolm meetodit:
 
 Selles teemas kirjeldatakse üksikasjalikult iga meetodit.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a> Luba selles teemas kirjeldatud funktsioonid
+## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Luba selles teemas kirjeldatud funktsioonid
 
 Enamik planeeritud tellimuse funktsioone on saadaval Microsoft Dynamics 365 Supply Chain Management standardinstallide puhul, mis kasutavad planeerimise optimeerimist. Kuid mõned selles teemas kirjeldatud funktsioonid tuleb funktsioonihalduses enne nende kasutamist sisse lülitada.
 
@@ -39,25 +39,25 @@ Enamik planeeritud tellimuse funktsioone on saadaval Microsoft Dynamics 365 Supp
 
 Paralleelne kinnitamine aitab kinnitamisprotsessi kiirendada, seda mitme lõime vahel paralleelselt. Selline lähenemine võib olla kasulik, kui paljud planeeritud tellimused on kinnitatud.
 
-Et teha see funktsioon süsteemis kättesaadavaks, minge [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse *planeeritud tellimuste paralleelse kinnitamise* funktsioon. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+Et teha see funktsioon süsteemis kättesaadavaks, minge [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)ja lülitage sisse *planeeritud tellimuste paralleelse kinnitamise* funktsioon. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Lubage planeeritud tellimuse kinnitamine filtreerimisel
 
 Planeeritud tellimuste kinnitamine filtreerimisel võimaldab määratleda loogilised kriteeriumid, et valida, milliseid planeeritud tellimusi kinnitada. Saate ka eelversiooni vaadata, millised plaanitud tellimused valiti, protsessi taustal käitada ja/või planeerida seda pakett-tööna.
 
-Et teha see funktsioon süsteemis kättesaadavaks, minge [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse *Planeeritud tellimuste paralleelse kinnitamise* funktsioon.
+Et teha see funktsioon süsteemis kättesaadavaks, minge [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)ja lülitage sisse *Planeeritud tellimuste paralleelse kinnitamise* funktsioon.
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Lubage automaatne kinnitamine planeerimise optimeerimise käigus
 
 Automaatkinnitamine võimaldab teil kinnitada planeeritud tellimused koondplaneerimise protsessi osana kinnitamise ajaaknas. Supply Chain Management integreeritud planeerimismootori puhul toetatakse alati automaatset kinnitamist. Kuid selleks, et seda kasutada ka planeerimise optimeerimisel, peate selle funktsiooni sisse lülitama.
 
-Et teha see funktsioon süsteemis kättesaadavaks, minge [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ja lülitage sisse *Planeeritud tellimuste paralleelse kinnitamise* funktsioon. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
+Et teha see funktsioon süsteemis kättesaadavaks, minge [Funktsioonihaldus](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)ja lülitage sisse *Planeeritud tellimuste paralleelse kinnitamise* funktsioon. (Tarneahela halduse versiooni 10.0.21 kohaselt on see funktsioon vaikimisi sisse lülitatud.)
 
 ## <a name="manually-firm-planned-orders"></a>Planeeritud tellimuste käsitsi kinnitamine
 
 Planeeritud tellimuste käsitsi kinnitamiseks otsige ja valige planeeritud tellimused, mida soovite kinnitada ning seejärel käivitage kinnitamisprotsess käsitsi.
 
-1. [Kõigi planeeritud tellimuste loendilehe](approved-planned-order.md#view-planned-orders) avamine.
+1. [Kõigi planeeritud tellimuste loendilehe](approved-planned-order.md#view-planned-orders)avamine.
 1. Loendi filtreerimiseks ja sortimiseks kasutage välja **Filter**, **Plaan** ja veerupäiseid, et leida otsitav planeeritud tellimus.
 1. Märkige ruut iga planeeritud tellimuse puhul, mille soovite kinnitada. Kui soovite kõikide praegu leheküljel loetletud planeeritud tellimuste kinnitamist (filtrite alusel), jätke see etapp vahele.
 1. Klõpsake tegumiribal ühte järgmistest valikutest:
@@ -80,6 +80,9 @@ Planeeritud tellimuste käsitsi kinnitamiseks otsige ja valige planeeritud telli
     - **Grupeeri ostulepingu järgi** – määrake selle suvandi väärtuseks *Jah* et grupeerida plaanitud ostutellimused, mille hankija on olemasolevate ostulepingutega sama ja luua ostulepinguostutellimus. See suvand lubatakse automaatselt, kui on lubatud **Grupeerimine hankija kaupa**. **Ostulepingu alusel grupeerimise** kasutamiseks tuleb lehel **Koondplaneerimise parameetrid** seada väärtusle *Jah* olema seatud **Ostulepingute parameetrid** lehel.
     - **Grupeeri perioodi järgi** (jaotises **Ostutellimused**) – Valige periood, mille järgi plaanitud ostutellimusi grupeerida. Selle suvandi kasutamiseks peate valima ka suvandi **Grupeeri hankija järgi**.
     - **Grupeeri perioodi järgi** (jaotises **Ülekanded**) – Valige periood, mille järgi plaanitud ülekandeid grupeerida. Tellimused grupeeritakse väärtuste alusel **Laost** ja **Lattu**.
+
+    > [!NOTE]
+    > Iga valik Grupeerimis alus põhjustab süsteemi teisendamise iga plaanitud tellimuse reaks üksikus ostutellimuses, mis tuleneb grupeerimisest.
 
     ![Parameetrite kiirvaliku kinnitamise dialoogiaken.](./media/manual-firming.png "Parameetrite kiirvalik kinnitamise dialoogiaknas")
 
@@ -160,7 +163,7 @@ Planeeritud tellimuse kinnitamiseks päringupõhise kinnitamisprotsessi abil jä
 
 Kinnitatud planeeritud tellimuse jälgimiseks järgige neid samme.
 
-1. [Kõigi planeeritud tellimuste loendilehe](approved-planned-order.md#view-planned-orders) avamine.
+1. [Kõigi planeeritud tellimuste loendilehe](approved-planned-order.md#view-planned-orders)avamine.
 1. Valige või avage planeeritud tellimus, mida soovite jälgida.
 1. Seejärel valige toimingupaanil vahekaardi **Vaade** grupis **Vaade** suvand **Kinnitamisajalugu**.
 

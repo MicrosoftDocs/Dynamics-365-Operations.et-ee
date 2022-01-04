@@ -1,8 +1,8 @@
 ---
 title: Märgukirjaseeria loomine
 description: Kasutage seda protseduuri kogumistähtede jada loomiseks.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753582"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921195"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Märgukirjaseeria loomine
 
@@ -31,10 +31,10 @@ Kasutage seda protseduuri kogumistähtede jada loomiseks. See ülesanne kasutab 
 3. Sisestage seeriat tähistav seeria ID väljale **Märgukirja seeria**. Seda kasutatakse sisestusreeglite seadistamiseks.
 4. Sisestage väärtus väljale **Kirjeldus**.  Maksetingimused on valikulised. Kui sisestate väärtuse siia, kasutab märgukirja tasu arve neid maksetingimusi kliendi puhul salvestatud maksetingimuste asemel.  
 5. **Valige märgukirja koodi** väljalt esimese märgukirja kood, mille soovite saata. Esimene märgukiri luuakse arve maksetähtaja, selle rea väljale Päevad ajapikendusperioodi puhul sisestatud väärtuse ja muu sellele reale sisestatud teabe järgi.  
-6. Sisestage väärtus väljale **Kirjeldus**. Tasu valuuta on vaikimisi kliendi valuutas. Valuutakood võib arve valuutast erineda.  
-7. Seerias järgmisena saadetava märgukirja lisamiseks klõpsake nuppu **Lisa**. Paljudel juhtudel on esimene märgukiri ainult hoiatus. Vajaduse korral saate lisada tasud.  
-8. Valige märgukirja koodi väljalt seerias järgmisena saadetav märgukiri.
-9. Sisestage väärtus väljale **Kirjeldus**.
+6. Sisestage väärtus väljale **Kirjeldus**. 
+7. Tasu vaikevaluuta on juriidilise isiku valuuta. Valuutakood võib arve valuutast erineda.   
+8. Seerias järgmisena saadetava märgukirja lisamiseks klõpsake nuppu **Lisa**. Paljudel juhtudel on esimene märgukiri ainult hoiatus. Vajaduse korral saate lisada tasud.  
+9. Väljal **Märgukirja kood** valige seerias järgmisena saadetav märgukiri.
 10. Väljal **Põhikonto** valige tulukonto, mida kasutatakse tasude jaoks.
 11. Sisestage tasu, mis tuleb maksta selle märgukirja sisestamisel.
 12. Klõpsake väljal **Kauba käibemaksu rühm** ripploendi nuppu otsingu avamiseks. Kui tasu puhul tuleb arvutada käibemaksu, valige kauba käibemaksugrupp.  

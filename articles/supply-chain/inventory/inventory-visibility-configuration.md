@@ -2,7 +2,7 @@
 title: Varude nähtavuse konfigureerimine
 description: Selles teemas kirjeldatakse, kuidas Varude nähtavust konfigureerida.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678467"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920294"
 ---
 # <a name="configure-inventory-visibility"></a>Varude nähtavuse konfigureerimine
 
@@ -61,7 +61,7 @@ Kui konfiguratsioon on lõpule viidud, valige kindlasti rakenduses **Konfigurats
 Iga andmeallikas tähistab süsteemi, millest teie andmed tulevad. Andmeallikate näidete hulka kuuluvad näiteks `fno` (mis tähistab rakendusi "Dynamics 365 Finance and Operations rakendus) ja `pos` (mis tähistab "kassat"). Vaikimisi on rakenduse Varude nähtavus andmeallikaks (`fno`) seadistatud Supply Chain Management.
 
 > [!NOTE]
-> Andmeallikas `fno` on reserveeritud rakendusele Dynamics 365 Supply Chain Management.
+> Andmeallikas `fno` on reserveeritud tarneahela haldamiseks. Kui varude nähtavuse lisandmoodul on integreeritud tarneahela halduskeskkonnaga, on soovitatav mitte kustutada andmeallikaga `fno` seotud konfiguratsioone.
 
 Andmeallika lisamiseks toimige järgmiselt.
 
@@ -273,17 +273,17 @@ Selle arvutusvalemi kasutamisel sisaldab uus päringutulemus kohandatud mõõdet
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Sektsiooni konfiguratsioon
 
-Sektsiooni konfiguratsioon koosneb põhidimensioonide kombinatsioonist. See määratleb andmejaotuse mustri. Andmetoimingud samas sektsioonis toetavad kõrget jõudlust ja ei maksa liiga palju. Seetõttu võivad head sektsioonimustrid anda märkimisväärseid eeliseid.
-
-Varude nähtavus annab järgmise sektsiooni vaikekonfiguratsiooni.
+Sektsiooni konfiguratsioon koosneb praegu kahest põhidimensioonist (ja ) sellest, `SiteId``LocationId` kuidas andmeid jaotatakse. Sama sektsiooni toimingutega saab madalama hinnaga jõudlust parandada. Järgmine tabel näitab vaikimisi sektsiooni konfiguratsiooni, mille pakub varude nähtavuse lisandmoodul.
 
 | Põhidimensioon | Hierarhia |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> Sektsiooni vaikekonfiguratsioon on ainult viiteks. Te ei pea seda Varude nähtavuses määratlema. Sektsiooni konfiguratsiooni täiendust praegu ei toetata.
+Lahendus sisaldab vaikimisi seda sektsiooni konfiguratsiooni. Seetõttu *ei pea te seda ise määratlema*.
+
+> [!IMPORTANT]
+> Ärge kohandage sektsiooni vaikekonfiguratsiooni. Selle kustutamisel või muutmisel võib põhjustada ootamatu tõrge.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Tooteindeksi hierarhia konfiguratsioon
 

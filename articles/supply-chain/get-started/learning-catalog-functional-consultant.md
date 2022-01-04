@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7271436bd155918dfdac792486c89966e7adb18c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
-ms.translationtype: HT
+ms.openlocfilehash: a028de4bd37b965d55783dad4b39378d6400bf4b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402638"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920744"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Õppekataloog Dynamics 365 Supply Chain Managementi funktsionaalsetele konsultantidele
 
@@ -113,7 +113,7 @@ Meie tööülesandeid analüüsivast uuringust selgus, et kõik funktsionaalsed 
 | [Varahalduse konfigureerimine rakenduse Dynamics 365 Supply Chain Management jaoks](/learn/paths/configure-asset-management-dyn365-supply-chain-mgmt/) | Varahaldus on lisandmoodul rakenduse Dynamics 365 Supply Chain Management jaoks, mida kasutatakse teie ettevõtte igapäevastes toimingutes kasutatavate varade haldamiseks. Mõned näited seda tüüpi varadest on masinad, tootmisseadmed ja kahveltõstukid. | Tasuta iseläbitav internetipõhine õppetee | 7 tundi |
 | [Töö varahaldusega rakenduses Dynamics 365 Supply Chain Management](/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Varahaldus on lisandmoodul rakendusele Dynamics 365 Supply Chain Management, mida kasutatakse teie ettevõtte igapäevastes toimingutes kasutatavate varade haldamiseks. Mõned näited seda tüüpi varadest on masinad, tootmisseadmed ja kahveltõstukid. | Tasuta iseläbitav internetipõhine õppetee | 12.5 tundi |
 | [Tooteversiooni teabe haldamine rakenduses Dynamics 365 Supply Chain Management](/learn/paths/manage-product-version-engineering-change-management/) | Tehniliste muudatuste halduse lisandmoodul rakendusele Dynamics 365 Supply Chain Management annab struktureeritud protsessi toote versiooniteabe haldamiseks tehnilise toote elutsükli jooksul. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
-| [Tehnilise muudatuse haldamise seadistamine rakendusele Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Tootjad nõuavad ranget tooteandmete haldamist, sest versioonihaldus ja tehniliste muudatuste haldus on, et saavutada edu tänapäeval, kus toote töötsüklid pidevalt lühenevad, kvaliteedi- ja töökindlusnõudeid karmistatakse ning tooteohutusele keskendutakse üha enam. Sellel õppeteel saate teada, kuidas seadistada tehniliste muudatuste haldamist. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
+| [Tehnilise muudatuse haldamise seadistamine rakendusele Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Tänased tootjad nõuavad tugevat tooteandmete haldust, versioonijuhtimist ja tehnika muudatusehaldust, et edukas olla toote elutsüklite kahandamises, kvaliteedi ja usaldusväärsuse nõuetele ning keskenduda tooteohutusele. Sellel õppeteel saate teada, kuidas seadistada tehniliste muudatuste haldamist. | Tasuta iseläbitav internetipõhine õppetee | 4 tundi |
 | [Microsofti serditud: Dynamics 365 for Finance and Operations, Supply Chain Managementi funktsionaalse konsultandi seostamine](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsofti serditud: Dynamics 365 for Finance and Operations, Supply Chain Managementi funktsionaalsed konsultandid hõlbustavad klientidel kuluarvestust, varude haldamist, koondplaneerimist ja laohaldust. | Sert, hind varieerub piirkonniti | |
 
 ## <a name="exams"></a>Eksamid<a name="exams"></a>

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae02846c0ec937ebaff440dc5272a135e16c8aa7355ecc303929e760a54b6627
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7cdc22eeabda6cf9f08484d698e5096f66af4a12
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760294"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920694"
 ---
 # <a name="quantity-exceeds-under-delivery-percentage-during-packing-slip-generation"></a>Kogus ületab saatelehe loomise ajal alatarne protsendi
 
@@ -49,8 +49,8 @@ Alatarne protsendi reguleerimiseks kasutage järgmist toimingut.
 
 1. Avage jaotis **Müügireskontro \> Tellimused \> Kõik tellimused**.
 1. Valige müügitellimus, millele ei saa koormuse jaoks saatelehte sisestada.
-1. Valige vahekaardil  **Müügitellimused** müügitellimuse rida kauba jaoks, mis ületab alatarne protsent.
-1. Vahekaardil  **Liini detailid** valige **Kohaletoimetamine**.
+1. Valige **vahekaardil Müügitellimuse** read kauba jaoks müügitellimuse rida, mis ületab alatarne protsendi.
+1. Valige **vahekaardil Rea** üksikasjad suvand **Tarne**.
 1. Seadke **Alatarne** väljal väärtus suuremale protsendile, mis rahuldab koorma koguse suhtes komplekteeritud kogust, nii et saatelehe loomine on võimalik.
 
 ### <a name="reverse-and-make-adjustments"></a>Pöörake ümber ja tehke kohandusi
@@ -60,14 +60,14 @@ Tühistage kõik koormuse jaoks sisestatud asjad (nt saateleht, lähetuskinnitus
 Saatelehe tühistamiseks kasutage järgmist toimingut.
 
 1. Avage **Laohaldus \> Koormad \> Kõik koormad**.
-1. Valige toimingupaani vahekaardi  **Saatmine ja vastuvõtmine** jaotises  **Ümberpööramine** suvand  **Tühista saatelehed**.
+1. Tegevuspaani vahekaardil **Lähetus ja võta vastu grupis Tühista saatelehti tehke** valik **Tühista** **saatelehti.**
 
 Saadetise kinnituse tühistamiseks kasutage järgmist toimingut.
 
 1. Avage **Laohaldus \> Koormad \> Kõik koormad**.
-1. Valige toimingupaani vahekaardi  **Saatmine ja vastuvõtmine** jaotises  **Ümberpööramine** suvand  **Pööra saadetise kinnitus ümber**.
+1. Valige tegevuspaani vahekaardil **Läheta ja võta vastu grupi Tühista** **saadetis** käsku Tühista saadetise **kinnitus**.
 
 Töö pööramiseks tehke järgmised toimingud:
 
 1. Avage **Laohaldus \> Koormad \> Kõik koormad**.
-1. Valige toimingupaani vahekaardil  **Koormused** grupis  **Töö** üksus  **Pöördtöö**.
+1. Tegevuspaani vahekaardil **Koormad** grupis Töö **valige** Tühista **töö**.

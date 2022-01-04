@@ -1,8 +1,8 @@
 ---
 title: Andmebaasi logimise konfigureerimine ja haldamine
 description: Andmebaasi logimise abil saate jälgida rakenduses Microsoft Dynamics 365 Human Resources tabelite ja väljade muudatusi.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781653"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924816"
 ---
 # <a name="configure-and-manage-database-logging"></a>Andmebaasi logimise konfigureerimine ja haldamine
 
@@ -93,14 +93,14 @@ Järgmiste võimaluste abil saate kustutada kõik andmebaasilogid või osa neist
 Andmebaasilogi puhastamise seadistamiseks järgige neid samme. 
 
 1. Avage **Süsteemihaldus > Lingid > Andmebaas > Andmebaasilogi**. Valige **Puhasta logi**.
-
-2. Valige kustutamiseks mõeldud logide valimise meetod, sisestades ühe järgmistest valikutest.
+2. Valige päise **kaasamiseks** kirjetes suvand **Filter**.
+3. Valige kustutamislogide valimiseks kasutatav meetod. Sisestage üks järgmistest suvanditest:
 
    - Tabeli kood
    - Logi tüüp
-   - Loomise kuupäev ja kellaaeg
+   - Loodud kuupäev ja kellaaeg
 
-3. Kasutage vahekaarti **Andmebaasilogi puhastamine**, et määrata, millal käitada logi puhastamise ülesanne. Vaikimisi on andmebaasilogid saadaval 30 päeva.
+4. Kasutage vahekaarti **Andmebaasilogi puhastamine**, et määrata, millal käitada logi puhastamise ülesanne. Vaikimisi on andmebaasilogid saadaval 30 päeva.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

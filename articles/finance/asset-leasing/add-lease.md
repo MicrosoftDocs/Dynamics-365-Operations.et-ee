@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
-ms.translationtype: HT
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893641"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931977"
 ---
 # <a name="add-or-copy-leases-preview"></a>Rendikirjete lisamine või kopeerimine (eelversioon)
 
@@ -50,6 +50,9 @@ Pärast rendikirje teabe sisestamist tehke rendiajakava loomiseks järgmist.
     Leht **Raamatu üksikasjad** näitab, kuidas renti sellele eraldatud raamatutega arvestatakse. Siit saate vaadata rendigraafikuid.
 
     Maksegraafik sisaldab vahekaardi **Maksegraafiku read** sisendeid lehel **Rendi lisamine**. Saate iga makse summat ja muutuvat makset endiselt muuta. Rendikohustis arvutatakse muudetud maksegraafiku põhjal.
+    
+> [!NOTE]
+> Rendimakse alguskuupäev peab olema rendi alguskuupäevaga sama või hilisem. Saate tõrketeate, kui makse alguskuupäev on varasem kui rendi alguskuupäev. 
 
 4. Kui olete maksegraafiku läbivaatamise lõpetanud valige **Kinnita graafik**. Pärast graafiku kinnitamist pole rendikirje redigeerimiseks enam saadaval.
 

@@ -2,19 +2,19 @@
 title: Valuuta andmetüübi migreerimine topeltkirjutamise jaoks
 description: Selles teemas kirjeldatakse, kuidas muuta kümnendkohtade arvu, mida topeltkirjutamine valuuta puhul toetab.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782803"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917726"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Valuuta andmetüübi migreerimine topeltkirjutamise jaoks
 
@@ -59,9 +59,9 @@ Kui taotlete migreerimist, peaksite teadma järgmiseid üksikasju ja neid arvess
 
 ## <a name="changing-the-number-of-decimal-places"></a>Kümnendkohtade arvu muutmine
 
-Kui migreerimine on lõpule viidud, saab teenus Dataverse talletada numbreid, millel on rohkem kümnendkohti. Administraatorid saavad valida mitut kümnendkohta kasutatakse kindlate valuutakoodide ja hinnakujunduse puhul. Microsoft Power Apps i, Power BI ja Power Automate'i kasutajad saavad seejärel vaadata ja kasutada numbreid, millel on rohkem kümnendkohti.
+Kui migreerimine on lõpule viidud, saab teenus Dataverse talletada numbreid, millel on rohkem kümnendkohti. Administraatorid saavad valida mitut kümnendkohta kasutatakse kindlate valuutakoodide ja hinnakujunduse puhul. Microsoft Power Appsi, Power BI ja Power Automate'i kasutajad saavad seejärel vaadata ja kasutada numbreid, millel on rohkem kümnendkohti.
 
-Selle muudatuse tegemiseks peate värskendama Power Apps is järgmised sätted.
+Selle muudatuse tegemiseks peate värskendama Power Appsis järgmised sätted.
 
 + **Süsteemisätted: valuuta täpsus hinnakujunduse puhul** – veerg **Määra valuuta täpsus, mida kasutatakse hinnakujunduse jaoks terves süsteemis** määratleb, kuidas valuuta organisatsiooni puhul käitub, kui valitud on **Hinnakujunduse täpsus**.
 + **Ärihaldus: valuutad** – veerg **Valuuta täpsus** võimaldab teil määrata kindla valuuta jaoks kohandatud kümnendkohtade arvu. Tervet organisatsiooni hõlmav säte pole ideaalne.
@@ -83,9 +83,20 @@ Kui teil on vaja, et konkreetse valuuta täpsus erineks hinnakujunduses kasutata
 
 ![Konkreetse lokaadi valuutasätted.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tabelid: valuutaveerg
+### <a name="tables-currency-column"></a>Tabelid: valuuta veerg
 
 Kindlate valuutaveergude jaoks konfigureeritav maksimaalne kümnendkohtade arv on neli.
 
+### <a name="default-currency-decimal-precision"></a>Vaikevaluuta kümnendarvuline täpsus
+Migreerimise ja mittesiirde stsenaariumide vaikimisi valuuta kümnendarvu täpsuse eeldatava käitumise jaoks vaadake järgmist tabelit. 
+
+| Loomiskuupäev  | Valuuta kümnendkoht    | Olemasolev org (valuutavälja ei migreerita) | Olemasolev org (ülekantud valuutaväli) | Uus org. loomise järgselt 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Enne valuutakursi loomist 9.2.21111.00146  |     |  |       |
+|    | Maksimaalne täpsus, mis on nähtav kasutajaliideses.   | 4 numbrit    | 10 numbrit    | Pole    |
+| | Maksimaalne täpsus, mis on nähtav andmebaasis ja andmebaasi päringutulemuste kasutajaliideses         | 4 numbrit   | 10 numbrit   | Pole    |
+| Pärast valuuta 9.2.21111.00146 |    |  |     |   |
+|   | Kasutajaliideses nähtav kümnendarvuline täpsus     | 4 numbrit   | 10 numbrit   | 10 numbrit     |
+|          | Maksimaalne kümnendarvuline täpsus, mis on nähtav andmebaasi ja andmebaasi päringutulemuste kasutajaliideses | 10 numbrit. Kuid ainult 4 on oluline, kui kõik nullid on väljaspool nelja kümnendkohta. See võimaldab vajadusel organisatsiooni lihtsamat ja kiiremat siirdet. | 10 numbrit      | 10 numbrit     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

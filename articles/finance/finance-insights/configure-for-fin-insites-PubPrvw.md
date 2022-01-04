@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 58b23058582c949a757ec5c141e218b36833ec21e72c35db89762017dc26ae19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752938"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927400"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Finance insights`i konfigureerimine avaliku eelvaate (eelvaate) jaoks - versioon 10.0.20 ja uuemad
 
@@ -39,7 +40,7 @@ Keskkonna juurutamiseks tehke järgmist.
 
 1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage ’i keskkonda. Keskkond vajab rakenduse versiooni 10.0.20 või hilisemat Finance and Operations rakendust.
 2. Keskkond peab olema hea kättesaadavusega (HA) liivakasti keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Finance insights`i konfigureerimisel võib olla peate prognooside tööle kopeerimiseks tootmisandmed sellele keskkonnale kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustuse mudeli liigenduste jaoks. 
+3. Finance insights`i konfigureerimisel võib olla peate prognooside tööle kopeerimiseks tootmisandmed sellele keskkonnale kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustuse mudeli andmeedastuse jaoks. 
 
 ## <a name="configure-dataverse"></a>Dataverse konfigureerimine
 

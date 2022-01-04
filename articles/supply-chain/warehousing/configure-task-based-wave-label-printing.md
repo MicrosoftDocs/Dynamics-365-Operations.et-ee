@@ -1,22 +1,22 @@
 ---
 title: Voo sildi printimise plaanimine voo ajal
 description: See teema kirjeldab, kuidas seadistada ja kasutada funktsioone ülesandepõhise voo sildi printimiseks.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777861"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920145"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Voo sildi printimise plaanimine voo ajal
 
@@ -40,7 +40,7 @@ Selles teemas kirjeldatud funktsioonide kasutamiseks tuleb need teie süsteemi j
 
 Kõigepealt peate looma uue voo etapi meetodi ja lubama selle paralleelse, asünkroonse ülesande töötlemiseks.
 
-1. Avage jaotis  **Laohaldus \> Seadistus \> Vood \> Voo töötlemise meetodid**.
+1. Avage jaotis **Laohaldus \> Seadistus \> Vood \> Voo protsessi meetodid**.
 1. Valige toimingupaanil suvand **Meetodi uuesti loomine**. Pange tähele, et *waveLabelPrinting* lisatakse vooprotsessi meetodite loendisse, mida saate kasutada oma saadetise voo mallides.
 1. Valige kirje, kus **meetodi nime** väljaks on määratud *waveLabelPrinting* ja seejärel valige tegumiribal suvand **Ülesande konfiguratsioon**.
 1. Valige toimingupaanil suvand **Uus**, et lisada ruudustikku rida. Seejärel määrake uuel real järgmised väljad.
@@ -51,7 +51,7 @@ Kõigepealt peate looma uue voo etapi meetodi ja lubama selle paralleelse, asün
 
 Nüüd saate värskendada olemasolevat voomalli nii, et see kasutab *Voo sildi printimise* voo töötlemise meetodit. Teise võimalusena saate luua uue voomalli, mis seda kasutab.
 
-1. Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.
+1. Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Valige loendi paanis värskendatav voomall. (Kui kasutate testimiseks demoandmeid, saate valida *24 vaikimisi saatmine*.)
 1. Valige kiirkaardi **Meetodid** veerust **Järelejäänud meetodid** rida, mille välja **Nimi** väärtuseks on seatud *waveLabelPrinting*.

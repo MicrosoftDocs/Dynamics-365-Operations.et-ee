@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abe82bb888b7501b00af44b48bfb40fbe8e2ee3
-ms.sourcegitcommit: 6ef4906621fbb4e3afaf2b0d6697536288365bb1
-ms.translationtype: HT
+ms.openlocfilehash: 4f53171361b655ab4ae05894d098203df0af8d60
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868633"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920769"
 ---
 # <a name="demand-forecasting-setup"></a>Nõudluse prognoosi häälestus
 
@@ -196,9 +196,6 @@ Nende parameetrite väärtused saate alistada, kui saadate koondplaneerimise sea
 
 Tarneahela haldus arvutab nõudluse prognoosid Azure Machine Learning Service'i abil, mille peate seadistama ja käitama oma Azure'i kordustellimusel. See jaotis kirjeldab, kuidas seadistada Azure Machine Learning Service Azure'is ja seejärel ühendada see tarneahela haldamise keskkonnaga.
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: Preview until 10.0.23 GA -->
-
 ### <a name="enable-the-azure-machine-learning-service-in-feature-management"></a>Lubage Azure'i masinaõppimisteenus funktsioonihalduses
 
 Enne Kui saate kasutada Azure Machine Learning Service'i nõudluse prognoosimiseks, peate integreerimise lubamiseks lülitama sisse tarneahela halduse funktsiooni. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
@@ -210,8 +207,8 @@ Enne Kui saate kasutada Azure Machine Learning Service'i nõudluse prognoosimise
 
 Et Lubada Azure'is kasutada prognooside töötlemiseks masina õppet, peate selleks otstarbeks seadistama Azure'i masina õppe tööruumi. Teil on kaks valikut:
 
-- Tööruumi häälestamiseks Microsofti antud skripti käivitamiseks järgige juhiseid jaotises [Valik 1: käivitage skript, et automaatselt seadistada oma masinõppe tööruum](#ml-workspace-script) ja seejärel minge edasi jaotisse [Azure'i masinõppe teenuse ühenduse parameetrite seadistamine tarneahela halduses](#demand-forecast-parameters).
-- Tööruumi käsitsi häälestamiseks järgige juhendit jaotises [2. valik: masinõppe tööruumi käsitsi häälestamine](#ml-workspace-manual) ja seejärel minge edasi jaotisse [Azure'i masinõppe teenuse ühenduse parameetrite seadistamine tarneahela halduses](#demand-forecast-parameters). See valik võtab rohkem aega, kuid annab teile rohkem kontrolli.
+- Tööruumi häälestamiseks Microsofti antud skripti käivitamiseks järgige juhiseid [valikus 1: käivitage skript, et automaatselt seadistada oma arvuti õppe tööruumi](#ml-workspace-script) jaotis ja seejärel minge edasi [Azure'i masina õppeteenuse ühenduse parameetrite juurde tarneahela halduses](#demand-forecast-parameters).
+- Tööruumi käsitsi häälestamiseks järgige juhendit [2. valik: käsitsi häälestage masina õppe tööruumi](#ml-workspace-manual) jaotis ja seejärel minge edasi [Azure Machine Learning Service'i ühenduse parameetrite häälestamiseks tarneahela halduses](#demand-forecast-parameters). See valik võtab rohkem aega, kuid annab teile rohkem kontrolli.
 
 #### <a name="option-1-run-a-script-to-automatically-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-script"></a> 1. valik: käivitage skript, et automaatselt seadistada oma masina õpperuum
 
@@ -222,16 +219,16 @@ See jaotis kirjeldab, kuidas seadistada masina õppe tööruumi, kasutades Micro
     - quick_setup.ps1
     - sampleInput.csv
     - rc/parameters.py
-    - src/api_trigger.
+    - src/api_trigger.lisa
     - rc/run.py
     - src/REntryScript/forecast.r
 
 1. Avage powerShelli aken ja käivitage eelmises sammus alla laaditud **skript** quick_setup.ps1. Järgige ekraanil toodud juhiseid. Skript seadistab nõutava tööruumi, salvestuse, vaikeandmelao ja andmetöötlusressursse. Nõutavad konveierid tuleb siiski luua, järgides protseduuri järelejäänud etappe. (Müügivõimaluste abil saab käivitada tarneahela haldusskriptide prognoosimise.)
-1. Azure Machine Learning Studios laadige üles sammus 1 allalaaditud **fail sampleInput.csv** konteinerisse nimega *virtuaalplan-azureml.* (Selle konteineri lõi quick_setup.ps1 skript.) See fail on vajalik müügivõimaluste avaldamiseks ja katseprognoosi loomiseks. Juhiseid vt [blokeerimisbloki](/azure/storage/blobs/storage-quickstart-blobs-portal#upload-a-block-blob) üleslaadimine.
+1. Azure Machine Learning Studios laadige üles sammus 1 allalaaditud **fail sampleInput.csv** konteinerisse nimega *virtuaalplan-azureml.* (Selle konteineri quick_setup.ps1 skript.) See fail on vajalik müügivõimaluste avaldamiseks ja katseprognoosi loomiseks. Juhiseid vt [blokeerimisbloki](/azure/storage/blobs/storage-quickstart-blobs-portal#upload-a-block-blob) üleslaadimine.
 1. Azure Machine Learning Studios valige **navigaator** navigatsioonistuudios Arvutid.
 1. Failistruktuuris leiate järgmise **asukoha**: **kasutajad/ \[praegune \] kasutaja/src.**
 1. Laadige ülejäänud neli faili, mille sammus 1 alla laadisite eelmises sammus leitud asukohta.
-1. Valige **äsja üleslaaditud fail api_trigger.the** ja käivitage see. See loob müügivõimaluste, mille saab API kaudu käivitada.
+1. Valige **äsja üleslaaditud api_trigger.meetri** fail ja käivitage see. See loob müügivõimaluste, mille saab API kaudu käivitada.
 1. Teie tööruum on nüüd häälestatud. Jäta ette [jaotisest Azure Machine Learning Service ühenduse parameetrid Tarneahela](#demand-forecast-parameters) haldus.
 
 #### <a name="option-2-manually-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-manual"></a> 2. valik: seadistage käsitsi oma masina õpperuum
@@ -281,7 +278,7 @@ Kasutage järgmist protseduuri andmetöötlusressursi häälestamiseks Azure Mac
 1. Vahekaardil **Kogumite** arvutamine valige suvand Uus, et **avada** viisard, mis aitab teil luua uue arvutuskogumi. Järgige ekraanil toodud juhiseid. Andmetöötluskogumit kasutatakse nõudluse prognooside loomiseks. Selle sätted mõjutavad käituse jõudlust ja paralleelsuse maksimaalset taset. Seadistage järgmised väljad, kuid kasutage kõigi muude väljade vaikesätteid:
 
     - **Nimi** – *sisestage e2ecpuruluster.*
-    - **Virtuaalmasina** suurus – korrigeerige seda sätet vastavalt andmete mahule, mida eeldate kasutada sisendina nõudluse prognoosimiseks. Sõlmede arv ei tohi ületada 11, kuna nõudluse prognoosi loomise käivitamiseks on vaja ühte sõlme ja maksimumarv sõlmede arvu, mida saab seejärel prognoosi loomiseks kasutada, on 10. (Määrate sõlmede arvu ka parameters.py sõlme failis [5. etapp: konveierite](#create-pipelines) sektsiooni loomine.) Igas sõlmes on mitu töötajaprotsessi, mis käivitavad prognoosiskripte paralleelselt. Töötaja protsesside koguarv teie töös on tuumade *arv, mida sõlmel* on × *loendada*. Näiteks kui teie arvutatud kobara tüüp on *Standardne D4 (kaheksa tuuma) ja kuni 11 sõlme ning kui parameters.py-failis on väärtuseks seatud 10, on paralleelsuse tegelik tase \_*`nodes_count`*80*.
+    - **Virtuaalmasina** suurus – korrigeerige seda sätet vastavalt andmete mahule, mida eeldate kasutada sisendina nõudluse prognoosimiseks. Sõlmede arv ei tohi ületada 11, kuna nõudluse prognoosi loomise käivitamiseks on vaja ühte sõlme ja maksimumarv sõlmede arvu, mida saab seejärel prognoosi loomiseks kasutada, on 10. (Määrate sõlmede arvu ka parameters.py failis [5. etapp: konveierite](#create-pipelines) sektsiooni loomine.) Igas sõlmes on mitu töötajaprotsessi, mis käivitavad prognoosiskripte paralleelselt. Töötaja protsesside koguarv teie töös on tuumade arv, mida *sõlmel* × *loendada*. Näiteks kui teie arvutatud kobara tüüp on *Standardne D4 (kaheksa tuuma) ja kuni 11 sõlme ning kui parameters.py-failis on väärtuseks seatud 10, on paralleelsuse tegelik tase \_*`nodes_count`*80*.
 
 ##### <a name="step-5-create-pipelines"></a><a name="create-pipelines"></a> 5. etapp: müügivõimaluste loomine
 
@@ -290,7 +287,7 @@ Müügivõimaluste abil saab käivitada tarneahela haldamisest prognoosi skripte
 1. Avage GitHubis malle nõudluse prognoosimiseks [Dynamics 365 Supply Chain Management rakendusega Azure Machine Learning](https://github.com/microsoft/Dynamics-365-Supply-Chain-Management-Demand-Forecasting-With-Azure-Machine-Learning-Service) repo ja laadige alla järgmised failid:
 
     - rc/parameters.py
-    - src/api_trigger.
+    - src/api_trigger.lisa
     - rc/run.py
     - src/REntryScript/forecast.r
 
@@ -298,7 +295,7 @@ Müügivõimaluste abil saab käivitada tarneahela haldamisest prognoosi skripte
 1. Failistruktuuris leiate järgmise **asukoha**: **kasutajad/ \[praegune \] kasutaja/src.**
 1. Laadige üles neli faili, mille alla laadisite sammus 1 eelmises sammus leitud asukohta.
 1. Azure'is avage ja vaadake **parameters.py** fail, mille äsja üles laadisite. Veenduge, et väärtus on üks väiksem kui väärtus, mille konfigureerisid arvutuskogumi jaoks sammus `nodes_count`[4: arvuta ressursside](#config-compute-resources) konfigureerimine. Kui `nodes_count` väärtus on suurem kui sõlmede arv arvutamiskogumis või sellega võrdne, võib müügivõimaluste käitamine olla võimeline käivituma. Kuid see lõpetab siis vastamise, kuni ootab nõutavaid ressursse. Lisateavet sõlmede arvu kohta vt sammust [4: andmetöötlusressursside](#config-compute-resources) konfigureerimine.
-1. Valige **äsja üleslaaditud fail api_trigger.the** ja käivitage see. See loob müügivõimaluste, mille saab API kaudu käivitada.
+1. Valige **äsja üleslaaditud api_trigger.meetri** fail ja käivitage see. See loob müügivõimaluste, mille saab API kaudu käivitada.
 
 ### <a name="set-up-a-new-active-directory-application"></a><a name="aad-app"></a> Uue Active Directory rakenduse seadistamine
 

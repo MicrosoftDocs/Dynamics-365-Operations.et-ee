@@ -2,7 +2,7 @@
 title: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 description: Selles teemas kirjeldatakse, kuidas kujundada elektroonilise aruandluse (ER) vormingut Exceli malli täitmiseks ja seejärel luua väljaminevaid Exceli vormingus dokumente.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
-ms.translationtype: HT
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890861"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943608"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
 
@@ -122,7 +122,7 @@ ER-i toimingu koostaja vahekaardil **Vastendamine** saate konfigureerida kompone
 Te saate konfigureerida oma Exceli malli, et kasutada lahtrid tekstiandmete esitlemiseks. Tagamaks, et kogu tekst lahtris on loodud dokumendis nähtav, saate selle lahtri konfigureerida automaatselt selle sees oleva teksti vormindama. Kui tekstiline tekst ei ole täielikult nähtav, saate seda lahtrit sisaldava rea konfigureerimisel automaatselt selle kõrgust korrigeerida. Lisateavet vt jaotisest "Lahtri teksti mähkimine", mis [asub lahtrites katkestatud andmete fikseerimiseks](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
 
 > [!NOTE]
-> Teadaoleva [Exceli piirangu](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) tõttu, isegi kui konfigureerite lahtrid teksti vormindama ja konfigureerite neid lahtreid sisaldavaid ridu korrigeerima automaatselt nende kõrgust nii, et need sobiksid tekstiga, ei pruugi te saada Exceli funktsioone **AutoFit** ja **Wrap text** ühendatud lahtrite ja neid sisaldavate ridade puhul kasutada. 
+> Teadaoleva [Exceli piirangu](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353) tõttu, isegi kui konfigureerite lahtrid teksti vormindama ja konfigureerite neid lahtriid sisaldavad read korrigeerima automaatselt nende kõrgust nii, et need sobiksid tekstiga, ei pruugi te ühendatud lahtrite ja neid sisaldavate ridade puhul kasutada **automaatset** ja **vormindatud** Exceli funktsioone. 
 
 Versiooni 10.0.23 puhul saate sundida ER-i arvutama loodud dokumendis iga rea kõrgus, mis on konfigureeritud automaatselt sobima selle kõrgusega pesastatud lahtrite sisuga, kui see rida sisaldab vähemalt üht ühendatud lahtrit, mis oli konfigureeritud selle sisse Dynamics 365 Finance vormindama. Arvutatud kõrgust kasutatakse siis rea suuruse muutmiseks, kindlustamaks, et kõik rea lahtrid on loodud dokumendis nähtavad. Selle funktsiooni kasutamiseks, kui käitate mis tahes ER-vormingut, mis on konfigureeritud kasutama Exceli malle väljaminevate dokumentide loomiseks, järgige neid samme.
 
@@ -364,6 +364,22 @@ Probleemi saate lahendada järgmistel viisidel:
     3. Saate käivitada muudetud ER-vormingu.
 
         ![Genereeritud dokumendi ülevaatamine Exceli töölaua rakenduses.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Kitsendused
+
+### <a name="known-epplus-library-limitations"></a>Teadaolevad EP Saateteegi piirangud
+
+#### <a name="external-data-sources"></a>Välisandmete allikad
+
+Kui üks teie mallidest sisaldab PivotTable'i, mis põhineb välisele andmeallikale viitaval mudelil ja epTekstiteegi kasutamise lubamine elektroonilise aruandluse raamistiku funktsioonis on lubatud, saate järgmise tõrketeate, kui käitate PowerPivot [...](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b)**ER-vormingut, mis kasutab seda malli väljamineva dokumendi loomiseks** Exceli vormingus: "Vahemäluallikas pole tööleht." Probleemi lahendamiseks on teil järgmised võimalused:
+
+- **Soovitatav:** kujundage ümber exceli lahendus, mida kasutate:
+
+    1. Eraldage osa, mis sisaldab pivoteid eraldi Exceli töövihikus (töövihik A). 
+    2. Kasutage ER-i, et luua finantsidest teine Exceli töövihik (töövihik B), kus on nõutavad üksikasjad. 
+    3. Viide töövihikule B töövihikus A kohe, kui töövihik B on loodud.
+
+- Funktsiooni välja lülitamiseks kasutage muud suvandit kui EP Siis. 
 
 ## <a name="additional-resources"></a>Lisaressursid
 

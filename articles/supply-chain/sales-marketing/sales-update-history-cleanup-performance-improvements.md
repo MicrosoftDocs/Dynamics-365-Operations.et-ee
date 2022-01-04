@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
-ms.translationtype: HT
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891764"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920269"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>Müügiajaloo puhastamise jõudluse täiustused
+# <a name="sales-history-cleanup-performance-improvements"></a>Müügiajaloo puhastamise jõudluse täiustused
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ See funktsioon parandab olemasolevat puhastustööd järgmistel viisidel:
 
 Pärast funktsiooni lubamist käitatakse partiitöö **Müügi värskendamise ajaloo puhastamine** (**Müük ja turundus \> Perioodi ülesanded \> Puhastamine \> Müügi värskendamiste ajaloo puhastamine**) nii, nagu seda enne, kuid parema jõudluse ja maksimaalselt 2 tunni jooksul. See tähendab, et teatud andmete säilitamiseks teatud ajavahemiku jooksul võib vaja minna mitut käivitamist.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>Lülitage müügiajaloo puhastulemuste täiustamise funktsioon sisse
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Lülitage müügiajaloo puhastamisjõudluse parendusfunktsioon sisse.
 
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
 

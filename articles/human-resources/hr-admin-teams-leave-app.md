@@ -2,7 +2,7 @@
 title: Rakendus Human Resources Teamsis
 description: Selles teemas tutvustatakse Microsoft Teamsi rakendust Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: HT
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913485"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924718"
 ---
 # <a name="human-resources-app-in-teams"></a>Rakendus Human Resources Teamsis
 
@@ -41,6 +41,21 @@ Rakenduse Dynamics 365 Human Resources leiate Teamsi poest. Lisateabe saamiseks 
 Lisateabe saamiseks rakenduse lubade haldamise kohta Teamsis, vaadake teemat [Rakenduse lubade poliitikate haldamine Microsoft Teamsis](/MicrosoftTeams/teams-app-permission-policies).
 
 Kui soovite, et kasutajad saaksid rakenduses vaadata puhkuste ja puudumise kalendrit, peate sätte **Puhkuste ja puudumiste kalender Teamsis** funktsioonihalduse kaudu lubama. Lisateavet funktsioonide lubamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Uuenda rakendust
+>[!NOTE]
+> Alates 20. detsembrist 2021, on Microsofti rentnikus majutatud Inimressursside rakenduse ressursiteenused kasutuselt kõrvaldatud. Installiks saadaolevale ajapikendusle (versiooniversioonile 1.1.5) mõju ei ole. Põhimõju on aegunud laiendile (versiooniversioon 1.1.4). Selle versiooni vestlus lõpetab töötamise. Vahekaart **Aja väljalülitamine jätkab tööd** mõlemas laiendis.
+
+Versiooni 1.1.4 puhul lõpetab vestlus sõnumi vastamise. Näiteks logige **sisse**, vaadake **saldosid** ja vaadake **ajaloidet.** Rakendus tuleb käsitsi värskendada uusimale versioonile. Lisateavet vt jaotisest [Rakenduste värskendamine Microsoft Teams](/MicrosoftTeams/apps-update-experience) jaotises.
+
+Versioonile 1.1.5 uuendamiseks läbige järgmised sammud:
+1. Rakenduses Microsoft Teams minge **rakendustesse**.
+2. Saate otsida **inimressursside** rakenduse.
+3. Valige **täiendus**.
+
+Inimressursside rakenduse versiooni saate kontrollida, kas minna vahekaardile Teave või minna jaotisse **Isiklik** **rakendus**. 
+
+![Vahekaart Inimressursid **Teave**](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Teatiste lubamine rakenduse Human Resources jaoks Teamsis
 
@@ -113,7 +128,7 @@ Järgmised tööüksused on kavas välja anda tulevastes väljalasetes:
 Kui kasutajal on probleeme Human Resources Teamsi rakendusse sisselogimisega või selle kasutamisega, proovige neid tõrkeotsingujuhiseid järgida. Kui teil on pärast tõrkeotsingut endiselt probleeme, siis võtke ühendust tugiteenusega. Lisateavet leiate teemast [Toe hankimine](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 ### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>Veenduge, et töörühmade inimressursside rakendus on ajasõbralik.
-Kui teil tekib probleeme Teamsi inimressursside rakendusega, peate kinnitama, et kasutate uusimat versiooni. Minimaalne toetatud versioon on 1.1.5. Juhendite saamiseks teamsi rakenduse uuendamise kohta vt [töörühmade dokumentatsiooni](/MicrosoftTeams/apps-update-experience).
+Kui teil tekib probleeme Teamsi inimressursside rakendusega, peate kinnitama, et kasutate uusimat versiooni. Minimaalne toetatud versioon on 1.1.5. Juhendite saamiseks töörühma rakenduse värskendamise kohta vt [töörühmade](/MicrosoftTeams/apps-update-experience) dokumentatsioonist.
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Ma ei saa Teamsis rakendusse Human Resources sisse logida
 
@@ -139,7 +154,7 @@ Kui kasutaja saab vea, kui ta proovib kinnitada puhkuse taotlusi Teamsi rakendus
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Kasutaja Dynamics 365 Human Resources tekstisisestuse abil analüüsitakse aluseks olevat Microsoft Teams päringut/eesmärki mõista. Kasutajasisend, nt Otsingukonto Contoso, suunatakse ühte Microsofti kokuptiivne teenusest Language Understanding Nutikas Teenus (SOFT). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). See teave edastatakse siis Microsoft [Azure Azure'i raamistikule](https://azure.microsoft.com/services/bot-service/), mis suhtleb andmetega ja toob Dynamics 365 Human Resources kasutajapäringu jaoks soovitud teabe.
+Kasutaja Dynamics 365 Human Resources tekstisisestuse abil analüüsitakse aluseks olevat Microsoft Teams päringut/eesmärki mõista. Kasutajasisend, nt Otsingukonto Contoso, suunatakse ühte Microsofti kokuptiivne teenusest Language Understanding Nutikas Teenus (SOFT). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). See teave edastatakse siis Microsoft  [Azure boti raamistikule](https://azure.microsoft.com/services/bot-service/), mis suhtleb andmetega ja toob Dynamics 365 Human Resources kasutajapäringu jaoks soovitud teabe.
 
 Kui installite ja lubate juurdepääsu roboti kasutamiseks, annate teenusele LUIS ja Azure'i roboti raamistikule nõusoleku töödelda sisestuse kavatsust, mille tulemuseks on täiustatud vestlusvaatega kasutuskogemus. Teenusel LUIS ja Azure'i roboti raamistikul võib olla võrreldes Dynamics 365 Human Resourcesiga erinev vastavuse tase. Kui AJATEENUSEl on juurdepääs ainult kasutajapäringutele ja see ei ole loodud ühenduseks kasutaja andmete või kontoga, võib osa kasutaja ise sisestada kliendiandmeid, isikuandmeid või muid andmeid ja sellist päringu sisu sisaldava päringu, mille saab saataKOOSTE teenusesse ja Dynamics 365 Human Resources Dynamics 365 Human Resources Azure azure'i raamistikusse. 
 
