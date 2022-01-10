@@ -1,81 +1,119 @@
 ---
-title: Jaemüügikande süsteemsuskontroll
-description: Selles teemas kirjeldatakse kande süsteemsuskontrolli funktsiooni teenuses Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/07/2020
+title: Kaupluse kannete kinnitamine väljavõtte arvutamiseks
+description: Selles teemas kirjeldatakse kaupluse kannete kinnitamist Microsoft Dynamics 365 Commerce'is.
+author: analpert
+ms.date: 12/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgriffin
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: josaw
+ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c8ba0f99743984860119deb96c889f5d62e1728c8772b9e6786d371690b61489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741728"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924767"
 ---
-# <a name="retail-transaction-consistency-checker"></a>Jaemüügikande süsteemsuskontroll
+# <a name="validate-store-transactions-for-statement-calculation"></a>Kaupluse kannete kinnitamine väljavõtte arvutamiseks
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse kande süsteemsuskontrolli funktsiooni teenuses Microsoft Dynamics 365 Commerce. Süsteemsuskontroll tuvastab ja isoleerib vastuolulised kanded enne, kui väljavõtte sisestuse protsess need peale võtab.
+Selles teemas kirjeldatakse kaupluse kannete kinnitamist Microsoft Dynamics 365 Commerce'is. Kinnitamisprotsess tuvastab ja märgib kanded, mis põhjustavad sisestustõrkeid, enne kui väljavõtte sisestusprotsess need tuvastab.
 
-Väljavõtte sisestamine võib nurjuda, kuna kaubanduse kannete tabelites on vastuolulised andmed. Andmete probleemi võivad põhjustada ettenägematud probleemid kassarakenduses (POS) või kolmanda osapoole kassasüsteemidest valesti imporditud kanded. Need vastuolud võivad ilmuda näiteks järgmistel juhtudel. 
+Kui proovite väljavõtet sisestada, võib kinnitamisprotsess kaubanduse kannete tabelites olevate andmete vastuolu tõttu nurjuda. Järgnevalt on toodud mõned näidistegurid, mis võivad põhjustada neid vastuolusid.
 
 - Päisetabelis olev kande kogusumma ei kattu kande ridade kogusummaga.
-- Päisetabeli ridade arv ei kattu kandetabeli ridade arvuga.
+- Päisetabelis määratletud üksuste arv ei ühti kandetabelis olevate üksuste arvuga.
 - Päisetabeli maksud ei kattu ridade maksusummaga. 
 
-Kui väljavõtte sisestamise protsess laadib vastuolulised kanded, luuakse vastuolulised müügiarved ja maksetöölehed ning kogu väljavõtte sisestamise protsess nurjub. Sellises olekus väljavõtete taastamine hõlmab keerukaid andmeparandusi mitmes kandetabelis. Kande süsteemsuskontroll takistab selliseid probleeme.
+Kui väljavõtte sisestamisprotsess laadib vastuolulised kanded, võivad loodavad müügiarved ja maksetöölehed põhjustada väljavõtte sisestamise protsessi nurjumise. Protsess **Kinnita kaupluse kanded** ennetab neid probleeme, võimaldades kande väljavõtte arvutusprotsessi ainult kande kinnitamisreeglid läbinud kannete edastamist.
 
-Järgmine diagramm illustreerib kande süsteemsuskontrolliga sisestusprotsessi.
+Järgmine näide kujutab korduvaid päevaseid toiminguid kannete üleslaadimiseks, kannete kinnitamiseks ning kandeväljavõtete arvutamiseks ja sisestamiseks ning päeva lõpu toiminguid finantsaruannete arvutamiseks ja sisestamiseks.
 
-![Väljavõtte sisestamise protsess kande süsteemsuskontrolliga.](./media/validchecker.png "Väljavõtte sisestamise protsess jaemüügikande süsteemsuskontrolliga")
+![Näites kujutatakse korduvaid päevaseid toiminguid kannete üleslaadimiseks, kannete kinnitamiseks ning kandeväljavõtete arvutamiseks ja sisestamiseks ning päeva lõpu toiminguid finantsaruannete arvutamiseks ja sisestamiseks](./media/valid-checker-statement-posting-flow.png)
 
-Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib kaubanduse kandetabelite järjepidevust järgmiste stsenaariumide suhtes.
+## <a name="store-transaction-validation-rules"></a>Kaupluse kande kinnitusreeglid
 
-- **Kliendi konto** – kontrollib, kas kandetabelites märgitud kliendikonto on peakontori kliendi koondandmetes olemas.
-- **Ridade arv** – kontrollib, kas kande päisetabelis märgitud ridade arv kattub müügikande tabeli ridade arvuga.
-- **Hind sisaldab maksu** – kontrollib, kas parameeter **Hind sisaldab maksu** on kõigil kanderidadel ühtne ja kas müügirea hind vastab maksu sisaldava hinna ja maksuvabastuse konfiguratsioonile.
-- **Maksesumma** – kontrollib kas maksekirjed ühtivad makse summaga päises, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
-- **Brutosumma** – kontrollib, kas päises olev brutosumma vastab ridadel olevate netosummade kogusummale pluss maksusummale, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
-- **Netosumma** – kontrollib, kas päises olev netosumma vastab ridadel olevate netosummade kogusummale, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
-- **Üle-/alamakse** – kontrollib, ega päises oleva brutosumma ja maksesumma vahe ei ületa üle-/alamakse konfiguratsiooni maksimumi, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
-- **Allahindluse summa** – kontrollib, kas allahindluse summa allahindlustabelites ja allahindluse summa kanderidade tabelites on ühtne ja kas päises olev allahindluse summa päises on ridadel olevate allahindluse summade kogusumma, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
-- **Rea allahindlus** – kontrollib, kas rea kandereal olev rea allahindlus on kandereale vastavas allahindluse tabelis olevate kõigi ridade summa.
-- **Kinkekaardi kaup** – kaubandus ei toeta kinkekaardikaupade tagastamist. Kinkekaardil oleva saldo saab aga sularahaks teisendada. Väljavõtte sisestamise protsess nurjub iga kinkekaardikauba puhul, mida töödeldakse sularahaks teisendamise rea asemel tagastusreana. Kinkekaardikaupade valideerimisprotsess aitab tagada, et ainsad tagastatavad kinkekaardi reakaubad kandetabelites oleksid kinkekaardi sularahaks teisendamise read.
-- **Negatiivne hind** – kontrollib, ega kuskil pole negatiivse hinna kanderidu.
-- **Kaup ja variant** – kontrollib, kas kanderidadel olevad kaubad ja variandid on olemas ka kauba ja variandi põhifailis.
-- **Maksusumma** – kontrollib, kas maksukirjed vastavad ridadel olevatele maksusummadele.
-- **Seerianumber** – kontrollib, kas seerianumber on seerianumbriga kontrollitavate ridade puhul kanderidadel olemas.
-- **Märk** – kontrollib, kas koguse ja netosumma märk on kõigil kanderidadel sama.
-- **Ärikuupäev** – kontrollib, kas kõigi kannete ärikuupäevade finantsperioodid on avatud.
-- **Tasud** – kontrollib, kas päise ja rea tasusumma vastab hinnale, sealhulgas maksu ja maksuvabastuse konfiguratsioonile.
-
-## <a name="set-up-the-consistency-checker"></a>Süsteemsuskontrolli seadistamine
-
-Seadistage pakktöötluse funktsiooni „Kontrolli kaupluse kandeid” regulaarne käitamine jaotises **Retail ja Commerce \> Retaili ja Commerce'i IT \> Kassa sisestamine**. Pakett-tööd saab ajastada kaupluse organisatsiooni hierarhia alusel, sarnaselt protsesside „Väljavõtte arvutamine partiina” ja „Väljavõtte sisestamine partiina” seadistamisega. Soovitame konfigureerida pakktöötluse nii, et seda käitataks mitu korda päevas, ja ajastada käitamise iga P-töö lõpus.
-
-## <a name="results-of-validation-process"></a>Kontrollimisprotsessi tulemused
-
-Pakktöötluse kontrolli tulemused märgistatakse sobivas kandes. Kande kirje väljal **Kinnitamise olek** on märge **Õnnestus** või **Tõrge** ning viimase kontrollimise kuupäev kuvatakse väljal **Viimase kinnitamise aeg**.
-
-Kontrollimistõrkega seotud täpsema tõrketeksti vaatamiseks valige asjakohane kande kirje ja seejärel klõpsake nuppu **Valideerimistõrked**.
-
-Kandeid, mille kontroll nurjub või mis ei ole veel kontrollitud, ei lisata väljavõtetesse. Protsessi „Väljavõtte arvutamine” ajal teavitatakse kasutajaid, kui teatud kandeid ei saanud väljavõttesse kaasata.
-
-Ainus viis valideerimistõrke lahendamiseks on võtta ühendust Microsofti toega. Tulevases versioonis lisatakse funktsioonid, mis võimaldavad kasutajatel nurjunud kirjeid kasutajaliidese kaudu parandada. Samuti tulevad saadavale logimise ja auditeerimise funktsioonid, mis võimaldavad muudatuste ajalugu jälgida.
+Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib kaubanduse kandetabelite järjepidevust järgmiste kinnitusreeglite alusel.
 
 > [!NOTE]
-> Tulevases versioonis lisatakse täiendavad kinnitusreeglid, mis toetavad rohkem stsenaariume.
+> Kinnitusreeglite lisamist jätkatakse järgnevates väljaannetes.
 
+### <a name="transaction-header-validation-rules"></a>Kande päise kinnitusreeglid
+
+Järgmises tabelis esitatakse kande päise kinnitusreeglite loend, mida kontrollitakse jaemüügikannete päise suhtes enne nende kannete edastamist väljavõtete sisestamiseks.
+
+| Pealkiri | Kirjeldus |
+|-------|-------------|
+| Ärikuupäev | See reegel kontrollib, kas kande ärikuupäev seostatakse pearaamatus avatud rahandusperioodiga. |
+| Valuuta ümardamine | See reegel kontrollib, kas kande summad ümardatakse valuuta ümardamisreegli põhjal. |
+| Kliendi konto | See reegel kontrollib, kas kandes kasutatav klient on andmebaasis olemas. |
+| Allahindluse summa | See reegel kontrollib, kas päises olev allahindluse summa vastab ridadel olevate allahindluse summade kogusummale. |
+| Finantsdokumendi sisestamise olek (Brasiilia) | See reegel kontrollib, kas finantsdokumendi sisestamine on võimalik. |
+| Brutosumma | See reegel kontrollib, kas kande päises olev brutosumma vastab kande ridadel olevale netosummale koos maksu ning tasudega. |
+| Neto | See reegel kontrollib, kas kande päises olev netosumma vastab kande ridadel olevale netosummale ilma maksuta ning koos tasudega. |
+| Neto + maks | See reegel kontrollib, kas kande päises olev brutosumma vastab kande ridadel olevale netosummale ilma maksuta ning koos kõigi maksude ja tasudega. |
+| Kaupade arv | See reegel kontrollib, kas kande päises määratletud kaupade arv ühtib kanderidadel olevate koguste summaga. |
+| Maksesumma | See reegel kontrollib, kas kande päise maksesumma ühtib kõigi maksekannete summaga. |
+| Maksuvabastuse arvutamine | See reegel kontrollib, kas tasuridade arvutatud summa ja maksuvabastuse summa võrdub algse arvutatud summaga. |
+| Maksu sisaldav hind | See reegel kontrollib, kas lipp **Maks sisaldub hinnas** on kande päises ja kõigis maksukannetes kooskõlas. |
+| Kanne pole tühi | See reegel kontrollib, kas kanne sisaldab ridu ja et vähemalt üks rida poleks tühistatud. |
+| Ala-/ülemakse | See reegel kontrollib, ega päises oleva brutosumma ja maksesumma vahe ei ületa üle-/alamakse konfiguratsiooni maksimumi. |
+
+### <a name="transaction-line-validation-rules"></a>Kanderea kinnitusreeglid
+
+Järgmises tabelis esitatakse kanderea kinnitusreeglite loend, mida kontrollitakse jaemüügikannete rea üksikasjade suhtes enne nende kannete edastamist väljavõtete sisestamiseks.
+
+| Pealkiri | Kirjeldus |
+|-------|-------------|
+| Vöötkood | See reegel kinnitab, kas kõik kanderidadel kasutatavad kauba vöötkoodid on andmebaasis olemas. |
+| Tasuread | See reegel kontrollib, kas tasuridade arvutatud summa ja maksuvabastuse summa võrdub algse arvutatud summaga. |
+| Kinkekaardi tagastused | See reegel kontrollib, ega kandes pole kinkekaartide tagastusi. |
+| Kaubavariant | See reegel kinnitab, kas kõik kanderidadel kasutatavad kaubad ja kõik variandid on andmebaasis olemas. |
+| Rea allahindlus | See reegel kontrollib, kas rea allahindluse summa vastab allahindluse kannete summale. |
+| Rea maks | See reegel kontrollib, kas rea maksu summa vastab maksu kannete summale. |
+| Negatiivne hind | See reegel kontrollib, ega kanderidadel ei kasutata negatiivseid hindu. |
+| Kontrollitud seerianumber | See reegel kontrollib, kas seerianumber on seerianumbriga kontrollitavate üksuste puhul kandereal olemas. |
+| Seerianumbri dimensioon | See reegel kontrollib, et seerianumbrit ei sisestataks, kui kauba seerianumbri dimensioon on passiivne. |
+| Märgi vastuolu | See reegel kontrollib, kas koguse ja netosumma märk on kõigil kanderidadel sama. |
+| Maksuvabastus | See reegel kontrollib, kas reaüksuse hinna ja maksuvabastuse summa võrdub algse arvutatud hinnaga. |
+| Maksugrupi määramine | See reegel kontrollib, kas käibemaksugrupi ja kauba maksugrupi kombinatsioon loob kehtiva maksu lõikumiskoha. |
+| Mõõtühiku teisendamised | See reegel kontrollib, kas kõikide ridade mõõtühikutel on kehtiv teisendus varude mõõtühikuks. |
+
+## <a name="enable-the-store-transaction-validation-process"></a>Kaupluse kande kinnitusprotsessi lubamine
+
+Seadistage töö **Kontrolli kaupluse kandeid** Commerce'i peakontoris regulaarseks käitamiseks (**Retail ja Commerce \> Retaili ja Commerce'i IT \> Kassa sisestamine**). Pakett-töö ajastatakse kaupluse organisatsiooni hierarhia alusel. Soovitame teil konfigureerida selle pakktöötluse nii, et see töötaks teie pakett-töödega **P-töö** ja **Kandeväljavõtte arvutamine** samal sagedusel.
+
+## <a name="results-of-the-validation-process"></a>Kontrollimisprotsessi tulemused
+
+Pakktöötluse **Kinnita kaupluse kanded** tulemusi saab kuvada igal jaemüügikaupluse kandel. Kandekirje väli **Kinnitamise olek** olekuks on määratud **Õnnestunud**, **Tõrge** või **Puudub**. Väljal **Viimase kinnitamise aeg** kuvatakse viimase kinnitamise kuupäev.
+
+Järgmises tabelis kirjeldatakse kõiki kinnitamise olekuid.
+
+| Kinnitamise olek | Kirjeldus |
+|-------------------|-------------|
+| Õnnestunud | Kõik lubatud kinnitusreeglid on edastatud. |
+| Tõrge | Lubatud kinnitusreegel tuvastas tõrke. Saate tõrke kohta rohkem üksikasju kuvada, valides toimingupaanil **Kinnitamistõrked**. |
+| Pole | Kande tüüp ei nõua kinnitusreeglite rakendamist. |
+
+![Kaupluse kannete leht, kus kuvatakse kinnitamise oleku välja ja kinnitamistõrgete nuppu.](./media/valid-checker-validation-status-errors.png)
+
+Kandeväljavõtetesse võetakse ainult need kanded, mille kinnitamise olek on **Õnnestunud**. Olekuga **Tõrge** kannete kuvamiseks vaadake üle tööruumis **Kaupluse finantsandmed** paan **Selvehulgimüügi kinnitamistõrked**.
+
+![Tööruumi Kaupluse finantsandmed paanid.](./media/valid-checker-cash-carry-validation-failures.png)
+
+Lisateabe saamiseks selle kohta, kuidas parandada selvehulgimüügi kinnitamistõrkeid, vaadake teemat [Selvehulgimüügi- ja kassahalduskannete redigeerimine ning auditeerimine](edit-cash-trans.md).
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Selvehulgimüügi- ja kassahalduskannete redigeerimine ning auditeerimine](edit-cash-trans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
