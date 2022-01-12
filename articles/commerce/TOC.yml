@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (november 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (oktoober 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -842,7 +840,7 @@
           items:
             - name: Väljavõtete ülevaade
               href: retail-statements.md
-            - name: Kande süsteemsuskontroll
+            - name: Kaupluse kannete kinnitamine väljavõtte arvutamiseks
               href: valid-checker.md
             - name: Jaemüügikande süsteemsuskontrolli reeglite keelamine
               href: disable-consistency-check-rule.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce'i kanali fiskaalüksuse integreerimise häälestus
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Fiskaalüksuse integreerimise näidise arenduskonveieri seadistamine
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory configuration service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
                   href: localizations/emea-aut-fi-sample.md
+                - name: Fiskaalüksuse integratsiooni näite juurutusjuhised Austria jaoks (pärand)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasiilia
               items:
                 - name: Commerce'i lokaliseerimine Brasiilia jaoks
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Tšehhi Vabariigi jaoks
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Fiskaalüksuse integratsiooni näite juurutusjuhised Tšehhi Vabariigi jaoks (pärand)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Poola
                   items:
                     - name: Fiskaalprinteri integratsiooni näide Poola jaoks
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Klienditeabe haldus Poola jaoks
                       href: localizations/emea-pol-customer-information.md
+                    - name: Fiskaalüksuse integratsiooni näite juurutusjuhised Poola jaoks (pärand)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Prantsusmaa
               items:
                 - name: Kassaaparaadi funktsioonid
@@ -1380,6 +1386,8 @@
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks
                   href: localizations/emea-deu-fi-sample.md
+                - name: Fiskaalüksuse integratsiooni näite juurutusjuhised Saksamaa jaoks (pärand)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: India
               items:
                 - name: Kassaaparaatide kaupade ja teenuste maksu (GST) integreerimine
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Klienditeabe haldus Itaalia jaoks
                   href: localizations/emea-ita-customer-information.md
+                - name: Fiskaalüksuse integratsiooni näite juurutusjuhised Itaalia jaoks (pärand)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Mehhiko
               items:
                 - name: Globaalsed CFDI e-arved Mehhiko jaoks
@@ -1407,6 +1417,8 @@
                 - name: Kassaaparaadi funktsioonid
                   href: localizations/emea-nor-cash-registers.md
                 - name: Kassaaparaatide juurutamise juhised
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Kassaaparaatide juurutamise juhised (pärand)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Venemaa
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Juhtseadme integratsiooni näidis Rootsi jaoks
                   href: localizations/emea-swe-fi-sample.md
+                - name: Juhtseadme integratsiooni näite juurutusjuhised Rootsi jaoks (pärand)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Retail POS-i juhtseadmetega integreerimise näide (pärandandmed)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Aruandlus ja Power BI integratsioonid
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Taotluse konveieri lisandmooduli konksu loomine
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Kujutise komponent
+                      href: e-commerce-extensibility/image-component.md
                 - name: Andmetegevuste haldamine
                   items:
                     - name: Andmetegevuste ülevaade
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Näidiste ja pakettide allalaadimine GitHubist ja NuGetist
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Visual Studio 2017 arendusagendi häälestamine Modern POS-i arendamiseks
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Retail SDK KKK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Kassa laiendatavus

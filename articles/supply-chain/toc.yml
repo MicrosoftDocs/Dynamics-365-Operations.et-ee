@@ -4,6 +4,34 @@
       items:
         - name: Dynamics 365 Supply Chain Management'i avaleht
           href: index.md
+        - name: Mis on uut või mida on muudetud?
+          items:
+            - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Mis on uut või mida on muudetud Supply Chain Managementis?
+              items:
+                - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24 (veebruar 2022)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (jaanuar 2022)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: Supply Chain Management 10.0.22 (november 2021)
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: Supply Chain Management 10.0.21 (oktoober 2021)
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Eemaldatud või iganenud funktsioonid
+              items:
+                - name: Eemaldatud või iganenud funktsioonide avaleht
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: AX 2012 edasilükatud funktsioonid
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Alustamine
           items:
             - name: Teenuse kirjeldus
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Mis on uut või mida on muudetud?
-              items:
-                - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Mis on uut või mida on muudetud Supply Chain Managementis?
-                  items:
-                    - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24 (veebruar 2022)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23 (jaanuar 2022)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: Supply Chain Management 10.0.22 (november 2021)
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: Supply Chain Management 10.0.21 (oktoober 2021)
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Eemaldatud või iganenud funktsioonid
-                  items:
-                    - name: Eemaldatud või iganenud funktsioonide avaleht
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: AX 2012 edasilükatud funktsioonid
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentatsiooniressursid
               items:
                 - name: Spikrisüsteem
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: Varude nähtavuse avalikud API-d
                   href: inventory/inventory-visibility-api.md
+                - name: Varude nähtavuse nõuanded
+                  href: inventory/inventory-visibility-tips.md
         - name: IoT iseõppimisvõime
           items:
             - name: IoT iseõppimisvõime avaleht
@@ -2827,11 +2829,11 @@
               href: sales-marketing/trade-allowance.md
             - name: Uue kaubandusleppe loomine
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Müügiajaloo puhastamise jõudluse täiustused
+            - name: Müügiajaloo puhastamise jõudluse täiustused
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
-        - name: Teenuste haldus
+        - name: Teenuse haldus
           items:
-            - name: Teenuste halduse ülevaade
+            - name: Teenuse halduse ülevaade
               href: service-management/service-management-home-page.md
             - name: Klienditeeninduse häälestus
               items:
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Koondplaneerimine
               items:
+                - name: 'Süsteem ei leia plaanitud tellimust, kui see töötab mitme tellimusega'
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: Koosluse koosnevus käitub kinnitatud ja hinnanguliste tootmistellimuste puhul erinevalt
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: 'Viivituse väärtust ei uuendata, kui plaanite plaanitud tellimust uuesti planeerida'

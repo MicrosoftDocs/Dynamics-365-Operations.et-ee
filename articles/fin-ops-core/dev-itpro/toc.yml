@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tõlkemälu failid
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOpsi laiend (avalik eelversioon)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Microsoft Power Platformi integratsioon
           items:
             - name: Ülevaade
@@ -1602,9 +1604,11 @@
                   href: sysadmin/retryable-batch.md
                 - name: Pakett-töö kopeerimine
                   href: sysadmin/copy-batch-job.md
+                - name: Prioriteedipõhine partii planeerimine
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Aktiivsed partiiperioodid
                   href: sysadmin/activeperiod.md
-                - name: Aktiivsete pakettide perioodide suveaja tugi
+                - name: Aktiivsete partiide perioodide suveaja tugi
                   href: sysadmin/batch-active-period-dst.md
                 - name: Partii halduri turberoll
                   href: sysadmin/runby.md
