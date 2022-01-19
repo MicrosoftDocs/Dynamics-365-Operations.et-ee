@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
-ms.translationtype: MT
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937656"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952594"
 ---
 # <a name="engineering-change-management-overview"></a>Tehniliste muudatuste halduse ülevaade
 
@@ -71,6 +71,7 @@ Seejärel lülitage sisse konfiguratsioonivõtmed, järgides järgmisi etappe.
 
 1. Kui soovite kasutada ka versiooni dimensiooni, märkige ruut **Tootedimensioon – versioon**. (See märkeruut asub loendis allpool, mitte pesastatud **Tehniliste muudatuste halduse** sõlmpunkti alla.)
 1. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Käivitage andmebaasi sünkroonimine, et veenduda konfiguratsioonivõtmete õiges lubamises.
 
 > [!IMPORTANT]
 > Alates 2022. aasta aprillist lubatakse kõigi uute installide puhul vaikimisi nii **Tehniliste muudatuste haldus** kui ka **Toote dimensioon – versioon** litsentsivõtmed, kuid vajadusel saate need siiski keelata.

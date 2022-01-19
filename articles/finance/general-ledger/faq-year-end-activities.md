@@ -1,8 +1,8 @@
 ---
 title: Aastalõpu tegevuste KKK
-description: See teema on koostatud selleks, et aidata teil teha vajalikud aastalõpu sulgemistegevused.
-author: kweekley
-ms.date: 01/25/2021
+description: Selles teemas esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul.
+author: moaamer
+ms.date: 12/21/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,30 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b7606314b9cf7050a565822b5b9e23beb0cb4978b20e88596c5002d918cfcd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
+ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725070"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947258"
 ---
 # <a name="year-end-activities-faq"></a>Aastalõpu tegevuste KKK 
 
 [!include [banner](../includes/banner.md)]
 
-See teema on koostatud selleks, et aidata teil teha vajalikud aastalõpu sulgemistegevused. Selle teema teave keskendub põhiliselt pearaamatu ja ostureskontro aastalõpu sulgemistegevustele.
+Selles teemas esitletakse küsimusi, mis võivad tekkida rahandusaasta sulgemisel, ja vastuseid, mis võivad aidata aasta lõpu sulgemistegevuste puhul. Selle teema teave keskendub põhiliselt pearaamatu ja ostureskontro rahandusaasta sulgemistegevustele.
+
+## <a name="general-ledger-year-end-enhancements"></a>Pearaamatu aastalõpu täiustused 
+Versioonis 10.0.20 avaldati aastalõpu sulgemise täiustus, mis lubatakse vaikimisi alates versioonist 10.0.25. Kui teie organisatsioon kasutab varasemat versiooni kui 10.0.25, soovitame lubada selle funktsiooni enne aastalõpu sulgemistoimingute alustamist. Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada funktsioonihalduse tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
+
+ - Moodul: Pearaamat
+ - Funktsiooni nimi: Pearaamatu aastalõpu täiustused
+
+Rahandusaasta sulgemise mallide seadistamine on viidud uuele seadistuslehele **Aastalõpu sulgemise malli seadistus**. Olemasolev aastalõpu sulgemise leht muutub sarnaselt pearaamatu välisvaluuta ümberarvutamisega, kus loendit kuvatakse iga kord, kui aastalõpu sulgemist käitatakse või tagasi võetakse. Raamatupidaja saab käivitada aastalõpu sulgemise uuelt lehelt. 
+
+Aastalõpu sulgemise tagasivõtmiseks valige vastava juriidilise isiku kõige hiljutisem rahandusaasta ja valige nupp **Aastalõpu sulgemise tagasivõtmine**. Tagasivõtmine kustutab eelmise aastalõpu sulgemise raamatupidamiskirjed ja ei käivita aastalõpu sulgemist automaatselt uuesti. 
+
+Saate käivitada aastalõpu sulgemise uuesti, taaskäivitades finantsaasta ja juriidilise isiku protsessi. Protsess jätkab pearaamatu parameetri sätte kasutamist määramaks, kas aastalõpu sulgemise uuesti käivitamine arvestab ainult uusi või muudetud kandeid või võtab eelmise sulgemise täielikult tagasi, käivitades protsessi kõigi kannete jaoks uuesti.  
 
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Pearaamat: kuidas ma tean, et me teeme aastalõpu sulgemise käivitamise ja mitte tagasivõtmise?
 Olen näinud, kuidas organisatsioon proovib aastalõpu sulgemist käivitada, kuid teeb selle asemel aastalõpu sulgemise tagasivõtmise. Kui aastalõpu sulgemine jõuab liiga kiiresti lõpule või aastalõpu sulgemine ei tekita algsaldosid, kontrollige sätet **Eelmise sulgemise tagasivõtmine** jaotises **Aastalõpu sulgemine** (**Pearaamat > Perioodi sulgemine > Aastalõpu sulgemine > Rahandusaasta sulgemise käivitamine**). 
@@ -67,43 +79,72 @@ Aastalõpu sulgemise mall võimaldab organisatsioonil valida finantsdimensiooni 
 
 Soovitame teil hinnata oma organisatsiooni vajadusi ja jõudluse täiustamiseks sulgeda võimaluse korral nii palju dimensioone kui võimalik, kasutades aastalõpu suvandit **Sule üks**. Sulgedes ühele dimensiooniväärtusele (mis võib olla ka tühi väärtus), arvutab süsteem jaotamata kasumi konto kirjete saldode määratlemisel vähem üksikasju.
 
-### <a name="10013-update-or-later"></a>10.0.13 või uuem värskendus
-Kui olete pärast organisatsiooni viimast aastalõpu sulgemist teinud värskenduse versioonile 10.0.13 või uuemale versioonile, võib aastalõpu sulgemise protsess kesta kauem, kuna toimub [RäsiV2 funktsiooni juurutamine](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2). Mõiste *räsi* viitab väljale, mis arvutatakse teiste stringiväljade alusel. Turvalisuse täiustamiseks värskendati räsi GUID-väärtuse arvutamise API-t. Aastalõpu sulgemise protsessi kiirendamiseks soovitame enne aastalõpu sulgemise käivitamist dimensioonikogumite saldod uuesti luua. Kui olete pärast versioonile 10.0.13 värskendamise tegemist dimensioonikogumi saldod juba uuesti loonud, ei ole vaja uuesti loomist korrata.
- 
-## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Pearaamat – mida Perioodi sulgemine - Aastalõpu sulgemine teeb?
+## <a name="degenerate-dimensions"></a>Dimensioonide degenereerimine
+
+Dimensiooni degenereerimisega on eraldiseisev või teiste dimensioonidega koos taaskasutamine peaaegu olematu. Dimensioonide degenereerimist on kahte tüüpi. Esimene tüüp on eraldiseisvalt degenereeriv dimensioon. Tavaliselt kuvatakse seda tüüpi degenereerivat dimensiooni ainult ühel kandel või väikesel hulgal kannetel. Teine tüüp on dimensioon, mis degenereerib vähemalt ühe lisadimensiooniga, millel on sama potentsiaal võimalike genereeritavate permutatsioonide põhjal. Degenereeriv dimensioon võib märkimisväärselt mõjutada aastalõpu sulgemise protsessi jõudlust. Jõudlusprobleemide vähendamiseks määratlege kõik degenereerivad dimensioonid aastalõpu sulgemise seadistuses olekusse **Sule üks** eelmises jaotises kirjeldatud viisil.
+
+## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Pearaamat: mida perioodi sulgemine, aastalõpu sulgemine teeb?
  
 [![Perioodi sulgemine, aastalõpu sulgemine.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks (uus funktsioon)
+### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Finantsdimensioonide komplektide uuestiloomise jõudlustäiustused
 Versioonile 10.0.16 lisatud uus funktsioon parendab aastalõpu sulgemise ja konsolideerimise protsesside jõudlust. Funktsiooni nimeks on Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks. See funktsioon muudab dimensioonikogumite uuesti loomise viisi nii, et need luuakse uuesti ainult asjakohase ajavahemiku jaoks. Eelmistes versioonides loodi dimensioonikogumid uuesti kõigi kuupäevade jaoks. Näiteks kui sulgete aasta 2020, loob süsteem uuesti ainult 2020. rahandusaasta kannete saldod. Kui käivitate konsolideerimise kuupäevavahemikule 1. november 2020 kuni 30. november 2020, loob süsteem uuesti saldod ainult selle kuupäevavahemiku jaoks.
 
-Kuna seda funktsiooni loetakse murranguliseks muudatuseks, peate selle **funktsioonihalduse** tööruumi kaudu lubama.
+Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada funktsioonihalduse tööruumi, et kontrollida funktsiooni olekut ja vajadusel selle sisse lülitada. Seega on funktsioon loetletud järgmisel viisil.
  
-[![Aastalõpu sulgemine.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+- Moodul: Pearaamat
+- Funktsiooni nimi: Jõudluse täiustused finantsdimensioonikogumite uuesti loomiseks
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Ostureskontro: millised muudatused on tehtud 1099 aastalõpu aruandluse toetamiseks 2020. aastal?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Ostureskontro: millised muudatused on tehtud 1099 aastalõpu aruandluse toetamiseks 2021. aastal?
 
-1099 aastalõpu muudatuste jaoks aastal 2020 on lisatud kaks uut regulatiivset funktsiooni. Esimene funktsioon **Muudatuste rakendamine 1099-NEC- ja 1099-MISC-vormi aasta 2020 jaoks** väljastati aasta keskel kohustusliku funktsioonina. Selle eesmärk on tagada, et 2020. aasta 1099 kandeandmeid saaks uues 1099-NEC-vormis jälgida. See funktsioon lisas 1099 väljad, mis on vajalikud uue 1099-NEC-i toetamiseks, ja värskendas 1099-MISC-välju. See värskendus uuendas ka hankija kirje andmeid 1099-välja teabe jaoks. 
+2021. aastal on vorme DIV, NEC ja MISC pisut muudetud ning lisatud täiendavaid välju.
 
-Teine regulatiivne funktsioon **2020. aasta maksuseaduse jaoks värskendatud 1099-väljavõtted** sisaldab järgmisi muudatusi.
+#### <a name="div-new-box2e-2f"></a>DIV: uus väli 2e, 2f
+ 
+- Väli 2e. Näitab lahtri 1a summa osa, mis on jaotise 897 omandatav tulu USA kinnisvara intresside likvideerimisel (USRPI).  
+- Väli 2f. Näitab lahtri 2a summa osa, mis on jaotise 897 omandatav tulu USRPI likvideerimisel. Pidage meeles, et väljad 2e ja 2f kehtivad ainult välismaalastele ja üksustele, kelle sissetulekud säilitatavad selle olemuse otsestele või kaudsetele omanikele või kasusaajatele edastamisel või jaotamisel. Üldiselt käsitletakse seda faktiliselt Ameerika Ühendriikides asuva valdkonna või ettevõttega seonduvalt. Vaadake oma maksudeklaratsiooni juhiseid. 
+ 
+#### <a name="nec-new-box-2"></a>NEC: uus väli 2 
+ 
+Kui ruut 2 on märgitud, teatage vähemalt 5000 $ väärtuses tarbekaupadest, mis müüdi teile edasimüügiks, ostu-müügi, sissemaksu-komisjonitasu või muul alusel. Üldiselt peate teatama kõigist nende toodete müügist saadud tuludest Graafikus C (Vorm 1040). 
+ 
+Samas on muudetud NEC-vormi suurust. Printimisel on kolm vormi lehe kohta. 
+ 
+#### <a name="misc-new-box-11"></a>MISC: uus väli 11 
+ 
+Väljal 11 kuvatakse kala edasimüügiks ostetud toote eest makstud summa mis tahes isikule, kes tegutseb kala püüdmise valdkonnas. Vaadake oma maksudeklaratsiooni juhiseid selle tulu esitamiseks. 
+ 
+#### <a name="electronic-filing"></a>Elektrooniline esitamine 
+Elektroonilise esitamise kohta lisateabe saamiseks vt [Elektroonilise esitamise nõuete väljaanne](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
 
-- 1099-OID – IRS on teisendanud vormi pidevaks kasutamiseks.
-   - Printimisel tuleb täita aruandeaasta 3. ja 4. number. Kasutage **Aruandeaasta** välja 3. ja 4. numbrit valikust **Maksu 1099 prindivalikud**. 
-
-- 1099-NEC – uus vorm 2020. aasta jaoks. See kajastab mittetöötaja hüvitust. 
-
--   1099-MISC – vormi 1099-NEC loomise tõttu on IRS üle vaadanud vormi 1099-MISC ja paigutanud ümber teatud tulude esitamise lahtrinumbrid.
-Allpool on loetletud tuluaruandluses ja vormi lahtrinumbrites tehtud muutused.
-   - Maksja tehtud otsemüügid summas 5000 $ või rohkem (märkeruut) väljal 7.
-   - Saagi kindlustuse tulud esitatakse lahtris 9.
-   - Advokaadi kogutulud on esitatakse lahtris 10.
-   - Jaotise 409A viitvõlad esitatakse lahtris 12.
-   - Kvalifitseerimata edasilükkunud hüvituse tulu esitatakse lahtris 14.
-   - Väljad 15, 16 ja 17 esitavad vastavalt kinnipeetud osariiriigimaksud, osariigi ID-koodi ja osariigis teenitud tulu summa.
-
-- 1099-DIV ja 1099-INT on 2020. aastal jäänud muutmata.
-
-- Elektrooniline esitamine – vormingut on muudetud, et hõlmata uus NEC-vorm ja lahtri MISC ülalkirjeldatud muudatused. Täpset teavet elektroonilise esitamise nõuete kohta vt [IRS-i trükises 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+Vormingu spetsifikatsioonide ja kirje paigutuste värskendamine 2021 e-aruande jaoks 
+- Jaot. 2 Väljastaja A-kirje. 
+- Summakoodid – suurendati Välja asukoht 28–45, Pikkus 18-le. 
+ 
+#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Jaot. 2 Väljastaja A-kirje, Maksete esitamiseks Vormil 1099-DIV: 
+- Summa tüüp – lisati Jaotis 897 tavalised dividendid ja lisati Summakood H. 
+- Summa tüüp – lisati Jaotis 897 kapitalitulu ja lisati Summakood H. 
+ 
+#### <a name="sec-3-payee-b-record"></a>Jaot. 3 Makse saaja B-kirje 
+- Üldteabe kirjed – värskendati kolmandat loetelupunkti 16 kuni 18 väljad Maksesumma. 
+- Välja pealkiri Makse H – uuendati Välja paigutus 247–258, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
+- Välja pealkiri Makse J – uuendati Välja paigutus 259–270, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
+- Väli Tühi uuendati Välja asukohale 271–286. 
+- Välismaa näidik uuendati Välja asukohale 287. 
+- Esimese makse saaja nime rea välja uuendati Välja asukohale 288–327. 
+- Teise makse saaja nime rea välja uuendati Välja asukohale 328–367. 
+- Kirje paigutuse asukohad, Vorm 1099-MISC – kustutati Välja asukoht 548 ja Välja pealkirja FATCA esitamise nõude näidik. 
+- Kirje paigutuse asukohad, Vorm 1099-NEC – uuendati 545–546 väärtusele Tühi, uuendati väli 547 väärtusele Otsemüügi Indikaator, uuendati Pikkus ja Kirjeldus ning Kommentaarid 548–722 väärtusele Tühi. 
+ 
+#### <a name="sec-4-end-of-issuer-c-record"></a>Jaot. 4 Väljastaja lõpp C-kirje 
+- Välja pealkiri Makse H – uuendati Välja paigutus 304–321, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
+- Välja pealkiri Makse J – uuendati Välja paigutus 322–339, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
+- Välja pealkiri 340–499 – uuendati pikkust 160-ni. 
+ 
+#### <a name="sec-5-state-totals-k-record"></a>Jaot. 5 Osariigi kogusummad K-kirje 
+- Välja pealkiri Makse H – uuendati Välja paigutus 304–321, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
+- Välja pealkiri Makse J – uuendati Välja paigutus 322–339, Välja pealkiri, Pikkus ja Välja üldine kirjeldus. 
+- Välja pealkiri 340–499 – uuendati pikkust 160-ni.  
 
 ## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Ostureskontro: 1099 – kuidas muuta välja 1099 ja selle väärtusi hankijal, kes ei jälginud aasta vältel 1099 teavet?
 Kasutage funktsiooni Uuenda 1099 (**Ostureskontro > Hankijad>Kõik hankijad > Valige hankija > Hankija vahekaart lindil > Uuenda 1099**), et sirvida läbida varem makstud arve kanded, et määrata 1099-andmed uuesti ja õigesti vastavalt vahekaardi **Maks 1099** sätetele lehel **Hankija**.
@@ -111,7 +152,7 @@ Kasutage funktsiooni Uuenda 1099 (**Ostureskontro > Hankijad>Kõik hankijad > Va
 ## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>Kas saan käivitada funktsiooni Uuenda 1099 kõigi hankijate jaoks korraga?
 Ei. Uuenda 1099 protseduur tehakse ühele hankijale korraga. Kui teie organisatsioon vajab seda nõuet, siis andke oma hääl ettepanekule [Hankija 1099 andmete uuendamise pakktöötlus](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Ostureskontro: 1099 – „Olemasolevate 1099 summade uuesti arvutamine“ vs „Kõikide uuendamine“ utiliidis Uuenda 1099.
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Ostureskontro: 1099 – „Olemasolevate 1099 summade uuesti arvutamine“ vs. „Kõikide uuendamine“ utiliidis Uuenda 1099.
 Märkeruut **Olemasolevate 1099 summade uuesti arvutamine** lähtestab 1099 summa kokku tasustatud väärtustele, kui seda kasutatakse koos märkeruuduga **Kõikide uuendamine**. 
 
 [![Maksu 1099 kanded: enne uuendamisprotseduuri käivitamist.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)

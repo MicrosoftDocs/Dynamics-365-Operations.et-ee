@@ -512,6 +512,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Teenuse Lifecycle Services (LCS) ühenduse loomine lahenduses Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: LCS-i ühenduse autentimise ülesannete värskendamine Azure Pipelinesi MSAL-i
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: Majutatud Azure Pipeline'i värskendamine uute NuGet-pakettide jaoks
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Pärandkonveieri värskendamine lahenduses Azure Pipelines
@@ -1484,6 +1486,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: Andmete sõltumatu testimine tööriistaga Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Regression Suite Automation Tooli (RSAT) käitamine paralleelkäivitusega
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Tõrkeotsing
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lahenduste väljaandmine teenuse Lifecycle Services abil

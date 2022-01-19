@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345366"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947311"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Kasutamisõiguse esemeks oleva vara kulumi kirjendamine (eelversioon)
 
@@ -35,7 +35,7 @@ Organisatsiooni bilansis tuvastatud rentide korral, amortiseeritakse kasutamisõ
 1. Valige **Rendi kokkuvõtte** lehel rendileping. Seejärel valige **Raamatud \> Vara kulumigraafik**, et avada leht **Vara kulumigraafik**.
 
     Kasutamisõiguse esemeks oleva vara kulumi töölehe kirje põhineb veerus **Kulumi kulu** oleval summal. Raamatupidamise standardi vastavuse juhendite näite leiate edaspidi selles teemas olevast jaotisest [Kasutamisõiguse esemeks oleva vara amortisatsiooni kulumi arvutamine kapitalirendi korral](#calculation-of-rou-asset-amortization-expense-for-finance-leases).
-
+    
 2. Valige kulumi periood ja seejärel valige **Loo tööleht**. Kuvatakse teade, mis teatab, et tööleht, mida kasutatakse kulumi kirjendamiseks, on loodud.
 3. Valige **Töölehed \> Vara rentimise töölehed**, et avada leht **Vara rentimise tööleht**, kus saate vaadata loodud kulumi töölehe kirjet.
 
@@ -70,6 +70,8 @@ Nagu varem mainitud, siis lineaarse rendikulu arvutamiseks jagatakse kõigi maks
 
 > [!NOTE]
 > Vastavalt ASC 842-le on kasutusrendi kasutamisõiguse esemeks oleva vara kulum kasumiaruandes liigitatud rendikuluna. Nähtavuse saamiseks kirjeldab vara rentimine kirjet kasutamisõiguse esemeks oleva vara kulumina. Kuid deebetkanne tuleks määrata kasutusrendi kulukontole ja kreeditkanne tuleks määrata otse kasutamisõiguse esemeks oleva vara kasutusrendile. Sellegipoolest saate rendi parameetrites määrata, et kasutamisõiguse esemeks oleva vara puhul tuleks akumuleeritud kulumi kontole kreeditkandeid teha.
+
+Kui rent klassifitseeritakse kasutusrendiks, arvutatakse kahjustusele järgmine igakuine kulum lineeeritud kulumi alusel.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Kasutamisõiguse esemeks oleva vara amortisatiooni kulu arvutamine kapitalirendi korral
 

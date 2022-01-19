@@ -2,7 +2,7 @@
 title: Human Resourcesi ettevalmistus
 description: See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 Human Resources jaoks.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
-ms.translationtype: HT
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644523"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952698"
 ---
 # <a name="provision-human-resources"></a>Human Resourcesi ettevalmistus
 
@@ -44,7 +44,7 @@ Enne oma esimese kausta või tootmiskeskkonna ressursi ressursiks saatmist võit
 
 Proovikeskkonnad pakuvad võimalust hinnata inimressursside funktsioone üksikisikute puhul, kellel pole veel juurdepääsu Inimressursside keskkonnale. Kui kasutate proovikeskkonda ja autenditud kasutajal on juba juurdepääs ühele või mitmele olemasolevale Inimressursside keskkonnale, suunatakse kasutaja ümber olemasolevasse keskkonda või keskkondade loendisse.
 
-Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud 60-päevase prooviajaga. Proovikeskkonna aegumisel keskkond ja kõik selle sisalduvad andmed kustutatakse ning neid ei saa taastada. Keskkonda ei saa teisendada kasti või tootmiskeskkonda. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
+Proovikeskkonnad pole mõeldud kasutamiseks tootmiskeskkonnana. Need on piiratud 30-päevase prooviajaga. Proovikeskkonna aegumisel keskkond ja kõik selle sisalduvad andmed kustutatakse ning neid ei saa taastada. Keskkonda ei saa teisendada kasti või tootmiskeskkonda. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
 Inimressursside proovikeskkonna loomisel luuakse rentnikule ka Power Apps proovikeskkond ning see seotakse Inimressursside keskkonnaga. Keskkonnal Power Apps nimega "TestDrive", on sama katseperiood kui inimressursside keskkonnas.
 

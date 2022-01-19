@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Likviidsuse planeerimise lubamine
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Välisandmed likviidsuse planeerimistes
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Eelarveettepanekute lubamine
                   href: finance-insights/enable-budget-proposal.md
                 - name: Andmeintegraatori projekti loomine
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Kassajääk
                   href: finance-insights/cash-position.md
-                - name: Likviidsuse planeerimine
+                - name: Rahaprognoos
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Välisandmete kasutamine likviidsuse planeerimistes
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Kliendimaksete prognoosimine
                   href: finance-insights/payment-insights-overview.md
                 - name: Kliendimaksete prognoosimise kasutamine
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Elektroonilise arvelduse kasutamise alustamine Saudi Araabias
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Itaalia SDI-ga FatturaPA otseintegratsiooni seadistamine
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Elektroonilise arveldamise teenuse kasutamine hankija arvete importimiseks
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektroonilise arveldamise häälestus
@@ -1512,6 +1514,10 @@
                           items:
                             - name: KM-i deklaratsioon
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Norra aruandlus
+                          items:
+                            - name: KM-i deklaratsioon
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Üleviimistellimuse maksuarvutuse lubamine
                       items:
                         - name: Maksufunktsiooni tugi üleviimistellimuste jaoks
@@ -1557,7 +1563,7 @@
                 - name: KM-aruanne
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Piiriüleste teenuste aruanne
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Austria Intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Ostulõivud
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Põhivarade kulumiarvestusmeetodid
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Hiina kuldse maksu andmeüksuse importimine
+                - name: Hiina kuldse maksu failide importimine
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Igakuise keskmise kulumudel
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: Soome käibemaksu maksearuanne
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Soome Intrastat
+                  href: localizations/emea-fin-intrastat.md
             - name: Prantsusmaa
               items:
                 - name: Prantsusmaa ülevaade
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Indoneesia KM-i deklaratsioon
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Kinnipeetava maksu aruanne Indoneesia jaoks
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Itaalia
               items:
                 - name: Itaalia ülevaade

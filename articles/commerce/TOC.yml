@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Azure'i võtmehoidla häälestamine turvaliseks võtmehalduseks
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Taotluse konveieri lisandmooduli konksu loomine
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Kujutise komponent
                       href: e-commerce-extensibility/image-component.md
                 - name: Andmetegevuste haldamine

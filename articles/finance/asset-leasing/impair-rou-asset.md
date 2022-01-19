@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890826"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947336"
 ---
 # <a name="impair-right-of-use-assets"></a>Kasutamisõiguse esemeks olevate varade väärtuse langus
 
@@ -44,6 +44,8 @@ Kasutamisõiguse esemeks oleva vara järelejäänud saldo amortiseeritakse vasta
 
     > [!NOTE]
     > Pärast kahjustuse kande sisestamist luuakse uus raamatu versioon.
+
+    > Kui rent klassifitseeritakse kasutusrendiks, arvutatakse kahjustusele järgmine igakuine kulum lineeeritud kulumi alusel.
 
 9. Kahjustatud vara kulumigraafiku vaatamiseks avage rendiraamatu vara kulumigraafik. Vara amortiseeritakse nüüd lineaarselt vastavalt kuude arvule, mille sisestasite väljale **Järelejäänud perioodid**.
 10. Väärtuse vähenemise töölehe kirje vaatamiseks valige vähenenud väärtusega rendi raamatu tegevuspaanil suvand **Vara rentimise tööleht**. Süsteem loob töölehe kirje, mis debiteerib väärtuse languse kulu sisestamise kontot ja krediteerib rendi vara sisestamise kontot. 
@@ -100,6 +102,7 @@ Järgmistes tabelites on toodud väärtused, mis on määratud vahekaartidel **�
     | Sule raamat             | Ei       |
 
 6. Väärtuse languse kulu töölehe kanne on loodud ja sisestatud. Selle vaatamiseks minge rendiraamatus vara rentimise töölehele. Pange tähele, et väärtuse languse summat on debiteeritud väärtuse languse kulu sisestamise konto suhtes ja kasutamisõiguse esemeks oleva vara sisestamise kontot on krediteeritud.
+
 7. Väärtuse languse netomõju vaatamiseks minge tabelitesse kohustise ja varade kanded. Pange tähele, et väärtuse languse kulu on vähendanud kasutamisõiguse esemeks olevat vara, kuid rendikohustise bilansiline maksumus pole muutunud.
 
 Väärtuse langusel on veel üks mõju, millega peate arvestama. Kuna kasutamisõiguse esemeks oleva vara summa on nüüd rendikohustisest palju väiksem, tuleb summat amortiseerida varasemast erinevalt. Täpsemalt on põhivara nüüd amortiseeritud lineaarselt kogu järelejäänud 84 kuu jooksul, alates kande kuupäevast.
