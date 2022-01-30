@@ -2,7 +2,7 @@
 title: Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
 description: Selles teemas kirjeldatakse vähehaaval toimuvat tellimuse loomist kaupluse kannete jaoks Microsoft Dynamics 365 Commerce'is.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921241"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964625"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
 
 [!include [banner](includes/banner.md)]
 
-Versioonis Microsoft Dynamics 365 Commerce 10.0.5 ja uuemas on soovitatav viia kõik väljavõtte sisestamisprotsessid üle vähehaaval toimuvale väljavõtte sisestusprotsessile. Vähehaaval toimuva funktsiooni kasutamisega on seotud olulised jõudluse ja ärieelised. Müügikandeid töödeldakse kogu päeva jooksul. Makse- ja sularahahalduse kandeid töödeldakse finantsaruandes päeva lõpus. Vähehaaval toimuv funktsioon võimaldab müügitellimuste, arvete ja maksete pidevat töötlemist. Seetõttu saab varusid, tulu ja makseid uuendada ja tuvastada peaaegu reaalajas.
+Versioonis Microsoft Dynamics 365 Commerce 10.0.5 ja uuemas on soovitatav viia kõik väljavõtte sisestamisprotsessid üle vähehaaval toimuvale väljavõtte sisestusprotsessile. Vähehaaval toimuva funktsiooni kasutamisega on seotud olulised jõudluse ja ärieelised. Müügikandeid töödeldakse kogu päeva jooksul. Makse- ja sularahahalduse kandeid töödeldakse finantsaruandes päeva lõpus. Vähehaaval toimuv funktsioon võimaldab müügitellimuste, arvete ja maksete pidevat töötlemist. Seetõttu uuendatakse ja tuvastatakse varusid, tulu ja makseid peaaegu reaalajas.
 
 ## <a name="use-trickle-feed-based-posting"></a>Vähehaaval toimuva sisestamise kasutamine
 
@@ -37,7 +37,7 @@ Jaemüügikannete vähehaaval toimuva sisestamise lubamiseks lubage tööruumis 
 
 ### <a name="transactional-statements"></a>Kandeväljavõtted
 
-Kandeväljavõtete töötlemise eesmärk on nende käitamine suurel sagedusel kogu päeva jooksul, et dokumendid loodaks siis, kui kanded laaditakse Commerce'i peakontorisse. Kanded laaditakse kauplustest Commerce'i peakontorisse **P-töö** käivitamisel. Peate käitama ka töö **Kinnita kaupluse kanded**, et kandeid kinnitatakse nii, et kandeväljavõte saab need kätte.
+Kandeväljavõtete töötlemise eesmärk on nende käitamine suurel sagedusel kogu päeva jooksul, et dokumendid loodaks siis, kui kanded laaditakse Commerce’i peakontorisse. Kanded laaditakse kauplustest Commerce'i peakontorisse **P-töö** käivitamisel. Peate käitama ka töö **Kinnita kaupluse kanded**, et kandeid kinnitatakse nii, et kandeväljavõte saab need kätte.
 
 Ajastage järgmised tööd suure sagedusega käivituma.
 
@@ -47,6 +47,10 @@ Ajastage järgmised tööd suure sagedusega käivituma.
 ### <a name="financial-statements"></a>Finantsaruanded
 
 Finantsaruande töötlemine on mõeldud päeva lõpetamise protsessina. Seda tüüpi väljavõtte töötlemine toetab ainult **Vahetuse** sulgemismeetodit ja tuvastab ainult suletud vahetused. Väljavõtted on piiratud finantstehingute vastavusseviimisega. Need loovad töölehed ainult loendatud summa ja kandesumma vaheliste erinevuste summade jaoks maksete ja töölehtede jaoks muude sularahahalduse kannete puhul.
+
+Finantsaruanded võimaldavad ka järgmiste kannete ülevaatamist: päevakassa kanded, maksete kanded, panka hoiustatud maksevahendi kanded ja seifi hoiustatud maksevahendi kanded. Maksevahendi üksikasjade leht on nähtav ainult siis, kui on valitud finantsaruanne.
+
+![Pilt, kus kuvatakse sisestatud väljavõtete vormi maksevahendi üksikasjade jaotis ainult siis, kui on valitud finantsaruanne.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Ajastage järgmiste finantsaruande tööde algus- ja lõppajad päeva eeldatava lõpu alusel.
 
