@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573341"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969083"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Kliendi tagasimaksete genereerimine ja töötlemine
 
@@ -69,7 +69,7 @@ See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest
 2. Klõpsake suvandit **Kumuleeri**.
 3. Sisestage või valige väärtus väljal **Klient**.
 4. Valige tänane kuupäev **Alguskuupäev**.
-5. Klõpsake valikut **OK**. Funktsiooni **Kumuleeri** käitamise tagajärjel on nüüd hinnanguline nõudesumma korrigeeritud, et võtta arvesse fakti, et kliendi kogu müügimaht vastaval perioodil on suurem kui esimese tagasimakse loomisel. Täpsemalt öeldes, kuna ostetud täielik kogus on jõudnud 100 ühikuni, kvalifitseerub klient nüüd 40 USA dollarile ühiku kohta (leppe teise kogusekatkestuse järgi) või 400 USA dollarile tagasimakse kogusummana. See erinevus salvestatakse uue nõude korrigeerimisena täiendavale 800 USA dollarile. Kumulatiivsesse värskendusse kaasatud tagasimaksenõuete olek on nüüd Arvutatud. 
+5. Klõpsake valikut **OK**. Funktsiooni **Kumuleeri** käitamise tagajärjel on nüüd hinnanguline nõudesumma korrigeeritud, et võtta arvesse fakti, et kliendi kogu müügimaht vastaval perioodil on suurem kui esimese tagasimakse loomisel. Täpsemalt öeldes, kuna ostetud täielik kogus on jõudnud 100 ühikuni, kvalifitseerub klient nüüd 40 USA dollarile ühiku kohta (leppe teise kogusekatkestuse järgi) või 4,000 USA dollarile tagasimakse kogusummana. See erinevus salvestatakse uue nõude korrigeerimisena täiendavale 800 USA dollarile. Kumulatiivsesse värskendusse kaasatud tagasimaksenõuete olek on nüüd Arvutatud. 
 6. Märkige loendis kõik read.
 7. Klõpsake nuppu **Kinnita**.
 8. Klõpsake nuppu **Töötle**.

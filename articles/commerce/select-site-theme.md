@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cd110a94991659036ac5cee1cd5f77e0cd3ba7356be902bdae37e957247535ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737526"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964777"
 ---
 # <a name="select-a-site-theme"></a>Saidi kujunduse valimine
 
@@ -50,8 +50,6 @@ Saidil rakendatava kujunduse valimiseks järgige neid etappe.
 [CSS-i alistusfailidega töötamine](css-override-files.md)
 
 [Leheikooni lisamine](add-favicon.md)
-
-[Tervitussõnumi lisamine](add-welcome-message.md)
 
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 

@@ -2,8 +2,8 @@
 title: Organisatsioonide ja organisatsioonihierarhiate ülevaade
 description: Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid.
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798342"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7991735"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organisatsioonide ja organisatsiooniliste hierarhiate ülevaade
 
@@ -54,7 +54,7 @@ Tootmisüksuste tüübid hõlmavad kulukeskuseid, äriüksuseid, väärtuse voog
 | Äriüksus       | Poolautonoomne tootmisüksus, mis on loodud strateegilise ärieesmärkide saavutamiseks. | Kasutatakse finantsaruandluseks, mis põhineb tööstusvaldkondadel või tootmissuundadel, mida organisatsioon juriidilistest isikutest sõltumatult pakub. |
 | Väärtuse voog        | Tootmisüksus, mis kontrollib ühte või mitut tootmisvoogu. | Tavaliselt kasutatakse kulusäästlikus tootmises toote või teenuse tarbijani viimiseks vajalike tegevuste ja voogude juhtimiseks. |
 | Osakond          | Tootmisüksus, mis kujutab kindlat ülesannet (nt müük või raamatupidamine) täitva organisatsiooni kategooriat või funktsionaalset osa. | Kasutatakse funktsioonivaldkondade aruandluseks. Osakond võib vastutada kasumi ja kahjumi eest ning koosneda kulukeskuste grupist. |
-| Kaubanduse kanal      | Tootmisüksus, mis kujutab traditsioonilist kauplust, võrgupoodi või võrguturuplatsi. | Kasutatakse ühe või mitme kaupluse haldamiseks ja tegevusjuhtimiseks juriidiliste isikute piires või vahel. |
+| Jaemüügikanal      | Tootmisüksus, mis esindab telefoni- ja matipoodi, e-poodi või kõnekeskust. | Kasutatakse ühe või mitme kaupluse haldamiseks ja tegevusjuhtimiseks juriidiliste isikute piires või vahel. |
 
 ### <a name="teams"></a>Meeskonnad
 

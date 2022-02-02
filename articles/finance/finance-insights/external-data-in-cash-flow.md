@@ -1,5 +1,5 @@
 ---
-title: Välised andmed likviidsuse eelarves
+title: Välisandmed likviidsuse planeerimistes
 description: Selles teemas kirjeldatakse seadistuse etappe, mis tuleb lõpule viia, et välisandmeid saaks sisestada või importida likviidsuse prognoosi.
 author: rcarlson
 ms.date: 12/21/2021
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 66b097b2936e61c619d45ad103440eddbb983feb
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 8284ccd7ac383c53960f7fd6a1333aeb0e7e6f3c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945776"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969008"
 ---
-# <a name="external-data-in-cash-flow-forecasts"></a>Välised andmed likviidsuse eelarves
+# <a name="external-data-in-cash-flow-forecasts"></a>Välisandmed likviidsuse planeerimistes
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Välisandmeid saab sisestada või importida rahavoo prognoosidesse. See teema kirjeldab seadistuse etappe, mis on omased välisandmete kasutamisele ja võimaldavad kaasata välisandmed rahavoo prognoosimisse.
 
@@ -35,7 +34,7 @@ Kasutage vahekaarti Väline allikas likviidsuse prognoosi seadistamise lehel (Su
 
 Välisandmeid saab sisestada või importida rahavoo prognoosidesse. Enne välisandmete sisestamist või importimist tuleb seadistada välisallikad. Seadistage **vahekaardil** Välisallikas välised rahavoo kategooriad. Kategooria võib olla **väljaminev** või **sissetulev.** **Likviidsuse** peaks olema sisestustüübiks valitud. Valige juriidilise **isiku sätete ruudustikus juriidilised isikud ja vastavad põhikontod,** mille suhtes välised rahavookategooriad kehtivad.
 
-Lisateavet likviidsuse eelarvete seadistamise kohta vt [likviidsuse](../cash-bank-management/cash-flow-forecasting.md) prognoosimine.
+Rahavoogude prognooside seadistamise kohta leiate lisateavet teemast [Rahavoogude prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
 
 ## <a name="enter-external-data"></a>Välisandmete sisemine
 

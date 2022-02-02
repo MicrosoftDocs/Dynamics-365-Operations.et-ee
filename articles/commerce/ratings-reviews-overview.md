@@ -3,24 +3,23 @@ title: Hinnangute ja arvustuste ülevaade
 description: See teema hõlmab hinnanguid ja arvustusi rakenduses Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
+ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473473"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982248"
 ---
 # <a name="ratings-and-reviews-overview"></a>Hinnangute ja arvustuste ülevaade
 
@@ -53,6 +52,14 @@ Hinnangute ja arvustuste lahendus pakub ka ärianalüüsi (BI) malli, mis sisald
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Commerce](sync-product-ratings.md)
+
+[Lubage hinnangute ja ülevaadete käsitsi avaldamine moderaatori poolt](manual-publish-rating-reviews.md)
+
+[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
+
+[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
+
+[Hinnangud ja arvustused KKK](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

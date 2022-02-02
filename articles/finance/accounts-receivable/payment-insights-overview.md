@@ -3,7 +3,7 @@ title: Kliendimaksete ülevaated (eelvaade)
 description: Selles teemas kirjeldatakse makse ülevaadete võimalust, mis aitab parandada üksikute klientide tüüpiliste maksetavade mõistmist. Funktsioon aitab teil tuvastada asjaolud, mis õigustavad sissenõudmisprotsesside alustamist varem, kui te oleksite seda muidu teinud.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ecd368237f949b6cbfbbb7293f6ddc5b1199d6fc0aef7e0bf44f4a2a808a6ccb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737769"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983998"
 ---
 # <a name="customer-payment-insights-preview"></a>Kliendimaksete ülevaated (eelvaade)
 
@@ -61,7 +61,7 @@ Kliendi makse ülevaadete (eelvaade) abil saavad organisatsioonid olla kogumiste
 
 ## <a name="methodology"></a>Metoodika
 
-Tehisintellektiga lahenduse arendamine ja kasutuselevõtmine on raske. Selleks on vajalik andmeteadlastest, valdkonna asjatundjatest ja inseneridest koosnevat meeskonda, kes töötavad pikka aega, et sõnastada, arendada, kasutada ja hallata kasutatavat tehisintellekti lahendust. Me muudame tehisintellektiga lahenduse rakenduses Finance juurutamise ja kasutamise lihtsaks. Meil on lisame tehisintellektiga lahendused rakendusse Finance, mis on ehitatud Microsoft AI Builderi peale. Lõppkasutaja saab ühe nupuvajutusega juurutada tehisintellektiga lahenduse ja hakata kaaluma nutikate ennustuste eeliseid. Kui organisatsioon ei ole ennustuste täpsusega rahul, saab lauskasutaja taas ühe nupuvajutusega siseneda AI Builderi laienduskogemusse ja seejärel valida või tühistada nende väljade valiku, mida kasutatakse ennustuste loomiseks. Kui valmis, saavad nad treenida ja avaldada muudatused ning uut treenitud mudelit hakatakse automaatselt rakenduses Finance ennustuste jaoks kasutama.
+Tehisintellektiga lahenduse arendamine ja kasutuselevõtmine on raske. Selleks on vajalik andmeteadlastest, valdkonna asjatundjatest ja inseneridest koosnevat meeskonda, kes töötavad pikka aega, et sõnastada, arendada, kasutada ja hallata kasutatavat tehisintellekti lahendust. Me muudame tehisintellektiga lahenduse rakenduses Finance juurutamise ja kasutamise lihtsaks. Oleme eelpakivad AI-lahendusi finantsis, mis on üles ehitatud Microsoftile AI Builder. Lõppkasutaja saab ühe nupuvajutusega juurutada tehisintellektiga lahenduse ja hakata kaaluma nutikate ennustuste eeliseid. Kui organisatsioon ei ole ennustuste täpsusega rahul, saab lauskasutaja taas ühe nupuvajutusega siseneda AI Builderi laienduskogemusse ja seejärel valida või tühistada nende väljade valiku, mida kasutatakse ennustuste loomiseks. Kui valmis, saavad nad treenida ja avaldada muudatused ning uut treenitud mudelit hakatakse automaatselt rakenduses Finance ennustuste jaoks kasutama.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Kuidas hankida funktsioon Kliendi makse ülevaated (eelvaade)
 
@@ -69,7 +69,7 @@ Kui olete huvitatud funktsiooni Kliendi makse ülevaated (eelversioon) proovimis
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 
-Eelvaated 1) võivad kasutada vähem privaatsus- ja turbemeetmeid kui rakenduse Dynamics 365 Finance and Operations teenus, 2) ei ole hõlmatud selle teenuse teenusetaseme leppes, 3) ei tohi olla kasutusel isiklike andmete ega muude andmete töötlemiseks, mis on seaduste või määrustega kaitstud, ja 4) on piiratud toega.
+Eelvaated (1) võivad kasutada vähem privaatsus- ja turvaandmeid kui ja toimingute teenus, (2) ei sisaldu selle teenuse teenusetaseme lepingus, (3) ei tohi kasutada isikuandmete või muude andmete töötlemiseks, mille suhtes kehtivad juriidilise või regulatiivse vastavuse Dynamics 365 Finance nõuded, ja (4) on piiratud tugi.
 
 
 

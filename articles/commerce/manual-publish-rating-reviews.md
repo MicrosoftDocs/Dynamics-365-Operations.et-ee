@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675045"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968199"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Moderaatori hinnangute ja ülevaadete käsitsi avaldamise lubamine
 
@@ -68,3 +68,17 @@ Järgmine illustratsioon kujutab näidet, kus Commerce'i saidilooja **Modereerim
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hinnangute ja arvustuste ülevaade](ratings-reviews-overview.md)
+
+[Hinnangute ja arvustuste kasutamise valimine](opt-in-ratings-reviews.md)
+
+[Hinnangute ja arvustuste haldus](manage-reviews.md)
+
+[Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
+
+[Toote hinnangute sünkroonimine](sync-product-ratings.md)
+
+[Hinnangute ja kommentaaride importimine ja eksportimine](import-export-reviews.md)
+
+[Teenusepõhise autentimise konfigureerimine](service-to-service-auth.md)
+
+[Hinnangud ja arvustused KKK](ratings-reviews-faq.md)

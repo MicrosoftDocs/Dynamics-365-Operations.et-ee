@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749098"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966711"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Hankija maksesoovituste automatiseerimine
 
@@ -32,6 +32,9 @@ Korduva graafiku alusel hankijatele maksvad organisatsioonid saavad nüüd autom
 - Millisel hankija maksete töölehel tehtavad maksed salvestatakse
 
 Maksesoovituste automatiseerimine ei sisesta makseid automaatselt. Seega saate loodud maksete kinnitamiseks jätkata mis tahes valideerimis- ja töövooprotsesside kasutamist.
+
+> [!NOTE]
+> Funktsioonihalduses peab selle funktsiooni kasutamiseks olema lubatud hankija **maksesoovituse** automatiseerimise funktsioon. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Hankija maksesoovituste aset leidmise määratlemine
 

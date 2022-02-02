@@ -2,22 +2,22 @@
 title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 Finance plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772741"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016096"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -25,7 +25,7 @@ ms.locfileid: "6772741"
 
 Selles teemas on toodud loend regulatiivsetest värskendustest, mis on plaanitud rakenduse Dynamics 365 Finance toetatud lokaliseeringute väljalaskesse. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet leiate jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Teavet muude plaanitud ja välja antud riigikohaste funktsioonide kohta vaadake lehelt [Dynamics 365 ja Power Platformi väljalaskeplaanid](/business-applications-release-notes/index).
+Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Lisateavet plaanitud ja väljastatud riigispetsiifiliste funktsioonide kohta vt [Dynamics 365 ja Power Platform väljalaskeplaanidest](/business-applications-release-notes/index).
 
 Microsoft püüab juurutada uusi regulatiivseid nõudeid võimalikult kiiresti. Tegelik väljalaskekuupäev sõltub seaduse väljakuulutamise päevast, nõuete üksikasjaliku teabe kättesaadavusest kohalike omavalitsuste käest, valideerimisvahendite kättesaadavusest ning muutuste ulatusest ja keerukusest.
 
@@ -71,7 +71,7 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 
 
 ## <a name="additional-resources"></a>Lisaressursid
-- Kõik plaanitud ja väljaantud regulatiivsed värskendused leiate jaotisest [Lifecycle Service – väljaande otsing](https://lcs.dynamics.com/Logon/Index) (vajalik on sisselogimine).
+- Lisateavet kõikide plaanitud ja väljastatud riigispetsiifiliste regulatiivsete uuenduste kohta vt [riigispetsiifiliste regulatiivsete uuenduste otsing](search-for-regulatory-updates.md). (Registreerumine on nõutav.)
 - Toetatavate lokaliseeringute loendi leiate [Rahvusvahelise saadavuse juhendist](https://aka.ms/dynamics_365_international_availability_deck).
 
 

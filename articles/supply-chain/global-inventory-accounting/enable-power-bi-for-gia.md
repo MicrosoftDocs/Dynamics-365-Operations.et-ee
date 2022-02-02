@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860663"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013830"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Global Inventory Accounting teenuses Power BI lubamine
 
@@ -51,8 +51,9 @@ Power BI integratsiooni seadistamiseks läbige need etapid.
 
     1. Minge tööruumi **Minu tööruum**, leidkeGlobal Inventory Accounting andmekogum ja seejärel valige menüü **Suvandid** käsk **Sätted**.
     1. **Globaalse laoarvestuse sätetes** laiendage **Parameetrid** ja uuendage kõiki parameetreid vastavalt vajadusele. Kontrollige kindlasti järgmisi sätteid.
-        1. Kirjuta üle vaikimisi **Dataverse URL** ja **Keskkonna ID** väärtused, kasutades LCS-i **Keskkonna üksikasjade** lehel leitud väärtusi (jaotisest **Power Platform integratsioon**).
-        1. Valige link **Redigeeri mandaate** **Cds**-sildi kõrval jaotises **Andmeallika mandaadid**. Seejärel logige Dataverse kontole **OAuth2** autentimismeetodi abil sisse.
+        1. Kirjutake URL-i **Dataverse vaikeväärtused** üle, kasutades **LCS-i Power-platvormi** keskkonnateabest **(Power-platvormi integreerimisjaost) leitud** väärtusi.
+        1. Kirjutab keskkonna **vaike-ID väärtused üle, kasutades LCS-i keskkonna üksikasjades leitud väärtusi** **·** (jaotises **Keskkonna** haldamine).
+        1. Valige CDS-sildi kõrval link Redigeeri mandaate **andmeallika** **·** **mandaatide** jaotises. Seejärel logige Dataverse kontole **OAuth2** autentimismeetodi abil sisse.
     1. Veenduge, et Power BI aruanded asukohas **Tööruum \> Aruanded \> Globaalse laoarvestus** töötaksid nüüd õigesti ja kuvavad teie süsteemist sisu.
 
 1. Registreerige rakendus vastavalt jaotisele [PowerBI.com integreerimise konfigureerimine](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).

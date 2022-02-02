@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920170"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982146"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Piiramatu võimsusega plaanimine
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: Preview until 1/14/2022 -->
 
 *Piiramatu võimsuse plaanimine Planning Optimization`is* funktsioon tutvustab marsruuditeabel põhinevat planeerimist. See võimaldab teil planeerida töid protsessi erinevate seadistuste põhjal. Planning Optimization planeerimine hõlmab sageli kasutatavaid protsessisätteid, sh protsessi operatsiooni järjestust või protsessi operatsiooni ressursside nõudeid.
 
@@ -51,7 +49,9 @@ Planeerimisprotsessi ajal võtab süsteem arvesse ka operatsioonile määratud *
 - Võimalus (Lisateabe saamiseks vaadake [Planeerimine koos ressursside valikuga vastavalt võimalustele](capability-based-scheduling.md).)
 
 > [!NOTE]
-> Inimressurssidega seotud nõudeid (nt oskused või tunnistuse nõuded) ei toetata veel.
+>
+> - Kui ressurss ja/või ressursigrupp on seatud piiramatule võimsusele, arvestab koondplaneerimine neid piiramatu võimsusega.
+> - Inimressurssidega seotud nõudeid (nt oskused või tunnistuse nõuded) ei toetata veel.
 
 See funktsioon toetab ka **seadistusaja** ja **käitusaja** töö atribuute. Kui seadistate need atribuudid protsessi operatsioonis, loob planeerimisprotsess sobivad seadistus- ja protsessitööd.
 

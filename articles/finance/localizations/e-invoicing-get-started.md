@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ba9f6ca08af0647f4519726894b1c9dfcc9cce24
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779690"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983858"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Elektroonilise arveldusega alustamine
 
@@ -58,9 +56,9 @@ Enne selles teemas kirjeldatud protseduuride lõpetamist peavad täidetud olema 
 Olenevalt riigist või regioonist võib elektroonilise arvelduse funktsioon vajada spetsiifilist konfiguratsiooni. 
 
 > [!NOTE]
-> Kui lubate elektroonilise arveldamise funktsiooni Soome jaoks, ei toetata otsingutes rakendusepõhiseid parameetreid. Selle probleemi lahendamiseks vaadake elektroonilise **aruandluse** moodulis üle müügiarve ja projektiarve vormingute konfiguratsioonid. Seadistage arvutatud väli käsitsi ettevõtte $PaymentMethodSubstitution ning seejärel siduge see väli müügiarve ja projektiarve vormingute **·** **väljagaKriteeriumPaymentMeansCode.**
+> Kui lubate elektroonilise arveldamise funktsiooni Soome jaoks, ei toetata otsingutes rakendusepõhiseid parameetreid. Selle probleemi lahendamiseks vaadake elektroonilise **aruandluse** moodulis üle müügiarve ja projektiarve vormingute konfiguratsioonid. Seadistage käsitsi arvutatud väli ettevõtte $PaymentMethodSubstitution ja seejärel siduge see väli müügiarve ja projektiarve **vormingu** **väljaga EttevõttesPaymentMeansCode.**
 >
-> Kui lubate Elektroonilise arveldamise funktsiooni Itaalia jaoks, ei toetata otsingutes rakendusepõhiseid parameetreid. Selle probleemi lahendamiseks seadistage elektroonilise aruandluse moodulis arvutatud väli käsitsi **ettevõtte $NaturaReverseCharge** **·** vastendamiseks.
+> Kui lubate Elektroonilise arveldamise funktsiooni Itaalia jaoks, ei toetata otsingutes rakendusepõhiseid parameetreid. Selle probleemi lahendamiseks seadistage elektroonilise aruandluse moodulis arvutatud väli käsitsi **ettevõtte** **·** $NaturaReverseCharge.
 >
 > Teiste asukohtadega seotud konkreetsete sammude kohta vt oma riigi või regiooni jaoks saadaolevat dokumentatsiooni "Alusta alustamine".
 
@@ -253,7 +251,7 @@ Konkreetsete etappide kohta vt teavet teie riigi või regiooni jaoks saadaolevas
 3. Valige ruudustikust dokument ja seejärel valige **elektrooniline dokumendi** \> **allalaadimise** fail. Allalaadimiseks soovitatakse arhiivi, mis sisaldab elektroonilist dokumendifaili.
 
 > [!NOTE]
-> Enne failide allalaadimist peab ekspordi tulemuse suvand olema sisse lülitatud seotud tegevuse jaoks **·** RCS-i elektroonilise arveldamise funktsiooni seadistuses.
+> Enne failide allalaadimist peab ekspordi tulemuse suvand olema sisse lülitatud seotud tegevuse jaoks **RCS**-i elektroonilise arveldamise funktsiooni seadistuses.
 
 ## <a name="related-topics"></a>Seotud teemad
 

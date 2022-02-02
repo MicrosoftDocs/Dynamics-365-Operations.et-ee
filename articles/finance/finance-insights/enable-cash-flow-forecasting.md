@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: cfcdbe76d640d1786b4622febf9157f5fb1c42f9
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752684"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969133"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Rahavoo prognoosimise lubamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-See teema kirjeldab, kuidas lülitada finantside vihjetes sisse likviidsuse prognoosimise funktsioon.
+Selles teemas selgitatakse, kuidas sisse lülitada rahavoogude prognooside funktsioon finance insightsis.
 
 > [!NOTE]
 > Maksete prognoosimises rahavoo kasutamiseks peate häälestama kliendimaksete prognoosimise funktsiooni, nagu on kirjeldatud jaotises [Kliendimaksete prognoosimise lubamine](enable-cust-paymnt-prediction.md).
@@ -35,15 +34,15 @@ See teema kirjeldab, kuidas lülitada finantside vihjetes sisse likviidsuse prog
 1. Avage tööruum **Funktsioonide haldus** ja järgige järgmisi etappe.
 
     1. Valige **Otsi värskendusi**.
-    2. Vahekaardil **Kõik** otsige **likviidsuse eelarveid**. Kui te seda funktsiooni ei leia, otsige **(eelvaade) likviidsuse prognoose**. 
+    2. Otsige **vahekaardil** Kõik **väljalt Rahavoogude prognoosid**. Kui te seda funktsiooni ei leia, otsige **(eelvaade) rahavoogude prognoose**. 
     3. Lülitage funktsioon sisse.
 
-2. Avage jaotis **Sularaha ja panga haldus \> Rahavoo prognoosimise seadistus** ja lisage likviiduses kontod, mis peaksid olema prognoosi kaasatud. Saate seadistada ka vahekaartide Müügireskontro **ja** Ostureskontro **maksete** likviidsuskonto. Arvutage kindlasti likviidsuse prognoos ümber.
+2. Avage jaotis **Sularaha ja panga haldus \>Rahavoo prognoosimise seadistus** ja lisage likviiduses kontod, mis peaksid olema prognoosi kaasatud. Seadistage ka maksete likviidsuskonto **vahekaartidel Ostureskontro** ja **Ostureskontro.** Arvutage kindlasti rahavoogude prognoos ümber.
 
     > [!NOTE]
     > Kui likviidsuse kontosid ei ole seadistatud, ei saa rahavoogu luua.
     >
-    > Lisateavet likviidsuse eelarvete seadistamise kohta vt [likviidsuse](../cash-bank-management/cash-flow-forecasting.md) prognoosimine.
+    > Rahavoogude prognooside seadistamise kohta leiate lisateavet teemast [Rahavoogude prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
 
 3. Avage jaotis **Sularaha ja panga haldus \> Seadistus \> Finantsülevaated (eelversioon) \> Rahavoo prognoosid (eelversioon)** ja tehke järgmist.
 

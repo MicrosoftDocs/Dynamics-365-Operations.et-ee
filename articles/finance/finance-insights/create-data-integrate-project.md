@@ -1,6 +1,6 @@
 ---
-title: Andmete integreerimisprojekti loomine
-description: See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
+title: Andmete integreerimise projekti loomine
+description: Selles teemas selgitatakse, kuidas luua andmeintegratsiooni projekti.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,34 +15,33 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 956524e3778eed9898374952466f70c37c99163f
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752660"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968933"
 ---
-# <a name="create-a-data-integration-project"></a>Andmete integreerimisprojekti loomine
+# <a name="create-a-data-integration-project"></a>Andmete integreerimise projekti loomine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
+Selles teemas selgitatakse, kuidas luua andmeintegratsiooni projekti.
 
 1. Rakenduse Microsoft Dynamics 365 Finance sisselogimine.
 2. Minge jaotisse **Tööruumid \> Andmehaldus** ja valige suvand **Andmeüksused**. Oodake, kuni kõik andmeüksused on värskendatud, enne kui liigute järgmisele etapile.
-3. Avage [Power Apps i portaal](https://make.powerapps.com/) ja järgige järgmisi etappe.
+3. Avage [Power Appsi portaal](https://make.powerapps.com/) ja järgige järgmisi etappe.
 
     1. Valige sobiv keskkond.
-    2. Valige vasakul navigeerimispaanil **Dataverse\> ühendus**.
+    2. Valige vasakpoolsel navigeerimispaanil **Dataverse\> Ühendused**.
     3. Looge ühendus järgmiste üksuste vastavate eksemplaridega.
 
         - Dynamics 365
         - Dynamics 365 Findance and Operationsi jaoks
 
-4. Avage [Power Apps i keskkonnad](https://admin.powerapps.com/environments) ja järgige järgmisi etappe.
+4. Avage [Power Appsi keskkonnad](https://admin.powerapps.com/environments) ja järgige järgmisi etappe.
 
-    1. Valige **andmete integreerimine**.
+    1. Valige **Andmete integreerimine**.
     2. Valige suvand **Ühenduskomplektid**.
     3. Valige suvand **Uus ühenduskomplekt**.
     4. Sisestage ühenduse nimi.
@@ -54,11 +53,11 @@ See teema kirjeldab, kuidas luua andmete integreerimisprojekti.
     6. Valige sobiv organisatsiooni vastendus.
     7. Valige **Loo**.
 
-5. Avage [Power Apps i keskkonnad](https://admin.powerapps.com/environments) ja järgige järgmisi etappe.  
+5. Avage [Power Appsi keskkonnad](https://admin.powerapps.com/environments) ja järgige järgmisi etappe.  
 
     1. Looge järgmiste mallide jaoks andmeintegratsiooni projektid, kasutades äsja loodud ühenduse komplekti.
 
-        - Kliendi makse vihjete tulemus (CDS fini ja Ops 10.0.17+)
+        - Kliendimaksete ülevaate tulemus (CDS finile ja ops 10.0.17+)
         - Rahavoo ajaseeria tulemid (CDS-ist Finance and Operationsisse)
         - Eelarve ajaseeria tulemid (CDS-ist Finance and Operationsisse)
 

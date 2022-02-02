@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 11882f641830f04acb4eb58fa631b5372c25e65b
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752708"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969033"
 ---
 # <a name="enable-budget-proposal"></a>Luba eelarvesoovitus
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse eelarvesoovituste funktsioon.
 
@@ -35,6 +34,6 @@ Selles teemas selgitatakse, kuidas lülitada finantsülevaadetes sisse eelarveso
     2. Otsige **vahekaardil** Kõik **eelarvesoovitust**. Kui te seda funktsiooni ei leia, otsige **(eelvaade) eelarvesoovitust**. 
     3. Lülitage funktsioon sisse.
 
-2. Avage eelarve **seadistamise peamine \>\>\> eelarvesoovitus ja valige luba** **·** funktsioon.
+2. Avage eelarve **seadistamise peamine \>\>\> eelarvesoovitus ja valige luba** **funktsioon**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

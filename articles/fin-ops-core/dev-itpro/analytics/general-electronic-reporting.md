@@ -3,7 +3,7 @@ title: Elektroonilise aruandluse (ER) ülevaade
 description: Teema annab ülevaate elektroonilise aruandluse tööriista kohta. See kirjeldab põhimõisteid, toetatud stsenaariume ja vorminguid, mis on lahenduse osaks.
 author: NickSelin
 ms.date: 11/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867276"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986143"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -143,7 +143,7 @@ ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroo
 
 **LCS-i ühise teegi** hoidla annab juurdepääsu konfiguratsioonide loendile teenuse Lifecycle Services (LCS) ühiste vahendite teegis. Seda tüüpi ER-i hoidlat saab registreerida ainult Microsofti pakkuja jaoks. LCS-i ühiste varade teegist saate importida ER-i konfiguratsioonide uusimaid versioone praegusesse eksemplari.
 
-Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimisel. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka **LCS-i projekti** hoidlast praegusesse Finance and Operationsi rakenduste eksemplari.
+Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimisel. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Konfiguratsioone saate **LCS-projektihoidlast** importida ka oma finantside ja toimingute rakenduste praegusesse eksemplari.
 
 Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuvad XML-failidena AOS-i teenuse hostitud masina kohaliku failisüsteemi kindlas kaustas. Vajalik kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse eksemplari. 
 

@@ -2,23 +2,22 @@
 title: Tehnika muudatusehalduse ülevaade (sisaldab videot)
 description: See teema annab ülevaate tehniliste muudatuste haldusest, mis aitab teil planeerida ja hallata toote versioonimist ning hallata toote töötsüklit ja tehnilisi muudatusi.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952594"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985208"
 ---
 # <a name="engineering-change-management-overview"></a>Tehniliste muudatuste halduse ülevaade
 
@@ -39,9 +38,9 @@ Tehniliste muudatuste haldus aitab teil planeerida ja hallata toote versioonimis
 - Tehniliste muudatuste taotlusi toetavad töövood
 - Tehniliste muudatuste tellimusi toetavad töövood
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-See video ([Muudatuste halduse funktsioonid Dynamics 365 Supply Chain Managementis](https://youtu.be/N313FqvRuBc)) on [ esitusloendis Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
+Eelnev video [(sisaldab muudatusehalduse Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc) võimalusi) sisaldub finantside ja [operatsioonide teabes, mille kaudu](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) on saadaval YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Lülitage oma süsteemis sisse tehniliste muudatuste haldamise funktsioonid
 
@@ -71,7 +70,9 @@ Seejärel lülitage sisse konfiguratsioonivõtmed, järgides järgmisi etappe.
 
 1. Kui soovite kasutada ka versiooni dimensiooni, märkige ruut **Tootedimensioon – versioon**. (See märkeruut asub loendis allpool, mitte pesastatud **Tehniliste muudatuste halduse** sõlmpunkti alla.)
 1. Lülitage hooldusrežiim välja, nagu on kirjeldatud teemas [Hooldusrežiim](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Käivitage andmebaasi sünkroonimine, et veenduda konfiguratsioonivõtmete õiges lubamises.
+1. Konfiguratsioonivõtmete õige lubamise tagamiseks peab andmebaas olema sünkroonitud. Sõltuvalt kasutatava keskkonna tüübist tehke ühte järgmistest sammudest:
+    - **Järgu 1 (arendus) keskkondades: avage Microsoftis oma projekt** ja valige suvand Dynamics Visual Studio **365 \> Sünkrooni andmebaas \>** Sünkrooni.
+    - **Järgu 2 (ja kõrgema taseme) keskkondades: andmebaas sünkroonib automaatselt pärast seda, kui panete keskkonna hooldusrežiimile ja sealt välja, seega võite selle** sammu vahele jätta.
 
 > [!IMPORTANT]
 > Alates 2022. aasta aprillist lubatakse kõigi uute installide puhul vaikimisi nii **Tehniliste muudatuste haldus** kui ka **Toote dimensioon – versioon** litsentsivõtmed, kuid vajadusel saate need siiski keelata.

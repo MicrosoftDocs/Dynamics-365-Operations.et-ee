@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 16ccd7f2e11f0b46aaa646de272e668d29ccc0c0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 5002fc79842bef150892347a7ff4702b07cfe5be
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752924"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968873"
 ---
 # <a name="enable-customer-payment-predictions"></a>Kliendimaksete prognoosimise lubamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsülevaadetes kliendimakse prognooside funktsioon. Lülitate funktsiooni sisse funktsioonihalduse **tööruumis** ja sisestate konfiguratsioonisätted **finantsülevaate konfiguratsioonilehele.** See teema sisaldab ka teavet, mis võib aidata teil funktsiooni tõhusalt kasutada.
 
@@ -44,9 +43,9 @@ Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsüle
 2. Kliendimaksete ülevaadete funktsiooni konfigureerimine.
 
     1. Mine **kreediti ja kollektsioonide \> häälestuse \> finantside \> vihjete kliendi makseprognooside kohta**
-    2. Finantsülevaate konfiguratsioonilehel kliendi makse prognooside vahekaardil valige prognoosimudelis kasutatavate andmeväljade kuvamine prognoosimudeli andmeväljade **·** **·** **·** **avamiseks prognoosimudeli** lehe jaoks. Siin saate vaadata väljade vaikeloendit, mida kasutatakse kliendimaksete prognooside jaoks tehisintellekti (AI) prognoosimismudeli loomiseks.
+    2. Finantsülevaate konfiguratsioonilehel kliendi makse prognooside vahekaardil valige prognoosimudelis kasutatavate andmeväljade kuvamine prognoosimudeli **andmeväljade** **·** **·** **avamiseks prognoosimudeli** lehe jaoks. Siin saate vaadata väljade vaikeloendit, mida kasutatakse kliendimaksete prognooside jaoks tehisintellekti (AI) prognoosimismudeli loomiseks.
 
-        Ennustuse mudeli loomiseks vaikimisi väljaloendi kasutamiseks sulgege prognoosimudeli lehe andmeväljad ja seadke seejärel finantsülevaadete konfiguratsioonilehel suvandi Luba funktsioon väärtusele **·** **·** **·** **·** Jah.
+        Ennustuse mudeli loomiseks vaikimisi väljaloendi kasutamiseks sulgege prognoosimudeli lehe andmeväljad ja seadke seejärel finantsülevaadete konfiguratsioonilehel suvandi Luba funktsioon **väärtusele** **·** **·** **Jah**.
 
     3. Määrake väga hilise kande periood, et määratleda, mida tähendab teie ettevõtte jaoks prognoosisalv **Väga hilja**.
 
@@ -59,13 +58,13 @@ Selles teemas selgitatakse, kuidas lülitada sisse ja konfigureerida finantsüle
         > [!NOTE]
         > Kui muudate kande perioodi „väga hilja” ja valite suvandi **Hilise lävendi muutmine** pärast seda, kui tehisintellekti prognoosimise mudel on kliendimaksete jaoks on loodud, olemasolev prognoosimise mudel kustutatakse ja luuakse uus mudel. Uus prognoosimise mudel teisaldab kanded perioodile „väga hilja”, mis põhineb selle määratlemiseks sisestatud sätetel.
 
-    4. Kui olete tehingu perioodi „väga hilja” määratlenud, valige prognoosimise mudeli loomiseks suvand **Prognoosimise mudeli loomine**. Finantside **·** vihjete **konfiguratsioonilehe ennustuse mudeli** jaotis näitab ennustuse mudeli olekut.
+    4. Kui olete tehingu perioodi „väga hilja” määratlenud, valige prognoosimise mudeli loomiseks suvand **Prognoosimise mudeli loomine**. Finantside **vihjete** **konfiguratsioonilehe ennustuse mudeli** jaotis näitab ennustuse mudeli olekut.
 
         > [!NOTE]
         > Prognoosimise mudeli loomise ajal saate igal ajal protsessi taaskäivitamiseks valida suvandi **Lähtesta mudeli loomine**.
 
     Funktsioon on nüüd konfigureeritud ja kasutamiseks valmis.
 
-Kui funktsioon on sisse lülitatud ja konfigureeritud ning ennustuse mudel on loodud ja töötab, näitab finantsülevaate parameetrite lehe ennustuse mudeli jaotis mudeli **·** **·** täpsust.
+Kui funktsioon on sisse lülitatud ja konfigureeritud ning ennustuse mudel on loodud ja töötab, näitab finantsülevaate parameetrite lehe ennustuse mudeli jaotis **mudeli** **täpsust**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Maksuarvutuse andmemudel
 description: Selles teemas antakse teavet maksuandmete mudeli kohta ja selle kohta, kuidas iga andmemudeli välja väärtused määratletakse maksuarvutuskannete kontekstiga.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864256"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985962"
 ---
 # <a name="tax-calculation-data-model"></a>Maksuarvutuse andmemudel
 
 See teema annab teavet selle kohta, kuidas maksuandmete mudeli väljaväärtused määratakse kindlaks maksuarvutustehingutes.
 
-*Maksuandmete mudel* koosneb väljadest, mis on nõutavad maksuarvutustes. Microsoft pakub *maksuarvutuse andmemudelit*, mis sisaldab rakendustes kandedokumentide päisevälju ja Finance and Operations reavälju. Väljad, mis on määratletud maksuarvutuse andmemudelis, on kohaldatavate eeskirjade tabelite veerud maksuarvutuse funktsiooni konfiguratsioonis.
+*Maksuandmete mudel* koosneb väljadest, mis on nõutavad maksuarvutustes. Microsoft pakub *maksuarvutuse andmemudelit, mis sisaldab finantside ja toimingute rakenduste kandedokumentide* päisevälju ja reavälju. Väljad, mis on määratletud maksuarvutuse andmemudelis, on kohaldatavate eeskirjade tabelite veerud maksuarvutuse funktsiooni konfiguratsioonis.
 
 > [!NOTE] 
 > Mõned andmemudelis määratletud sõlmed nagu näiteks **Kirje ID** ja **Tabeli ID**, on tehnilisteks eesmärkideks. Need pole kättesaadavad veerud maksu arvutamise funktsiooni konfiguratsioonis.
@@ -55,7 +55,7 @@ Saate vaadata ka maksuarvutuse andmemudelit ja saadaolevaid veerge kohaldatavusr
 
     [![Veergude haldamine.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Maksu arvutamise andmemudel on integreeritud Finance and Operations rakendustega. Iga maksuarvutusega seotud kande ajal kogutakse kohaldatavusreeglite tabelites määratletud väljade väärtused ja saadetakse arvutamiseks maksuarvutusteenusele. Versioonis 40.46, on saadaval 57 eelmääratletud andmemudelit järgmiste kandetüüpide jaoks: ostutellimused, müügitellimused, üleviimistellimused, ostutaotlused, pakkumiskutsed ja müügipakkumised.
+Maksu arvutamise andmemudel on integreeritud finantside ja toimingute rakendustega. Iga maksuarvutusega seotud kande ajal kogutakse kohaldatavusreeglite tabelites määratletud väljade väärtused ja saadetakse arvutamiseks maksuarvutusteenusele. Versioonis 40.46, on saadaval 57 eelmääratletud andmemudelit järgmiste kandetüüpide jaoks: ostutellimused, müügitellimused, üleviimistellimused, ostutaotlused, pakkumiskutsed ja müügipakkumised.
 
 Kolmkümmend üks andmemudelit võib lisada väljadena tehingu pealkirjas. Kõik väljad ei kehti aga kõigile kandetüüpidele. Järgmine tabel näitab, millised päiseväljad on konkreetsete kandetüüpide puhul saadaval. Mõnel juhul peab välja vastendamine olema määratletud eelmääratletud loogikaga. Võimaluse korral esitatakse loogika.
 

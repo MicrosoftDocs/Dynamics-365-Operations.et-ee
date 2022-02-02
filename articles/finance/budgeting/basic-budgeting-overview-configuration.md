@@ -1,9 +1,9 @@
 ---
 title: Eelarve koostamise ülevaade
-description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav rakenduses Finance and Operations eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 author: panolte
 ms.date: 04/29/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343652"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986506"
 ---
-# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade
+# <a name="budgeting-overview"></a>Eelarve koostamise ülevaade 
 
 [!include [banner](../includes/banner.md)]
 
-Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav rakenduses Finance and Operations eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 Finance'is funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 
 ## <a name="overview"></a>Ülevaade
 

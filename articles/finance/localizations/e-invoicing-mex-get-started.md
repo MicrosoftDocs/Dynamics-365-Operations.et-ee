@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
+ms.openlocfilehash: 76c9f44dcc68b23058319cd317ba8426709fdca7
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "7881587"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986354"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Alustage elektroonilise arveldusega Mehhikos
 
@@ -35,7 +33,7 @@ Sellest teemast leiate teabe, mis aitab teil alustada elektroonilise arveldusega
 
 ## <a name="prerequisites"></a>Eeltingimused
 
-Enne selle teema sammude sooritamist peate lõpule viima sammud jaotistest [Elektroonilise arveldamise teenuse haldamise alustamine](e-invoicing-get-started-service-administration.md) ja [Elektroonilise arveldamise alustamine](e-invoicing-get-started.md).
+Enne selle teema sammude sooritamist peate lõpule viima sammud, mis on vajalikud selleks, et käivitada elektroonilise arveldamise teenuse haldus ja [alustada](e-invoicing-get-started-service-administration.md)[elektroonilist arveldamist](e-invoicing-get-started.md).
 
 ## <a name="set-up-the-cadena-xslt"></a>Cadena XSLT-i seadistamine
 

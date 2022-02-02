@@ -2,7 +2,7 @@
 title: Itaalia FatturaPA otseintegratsiooni seadistamine SDI-ga
 description: See teema annab teavet, mis aitab teil alustada Itaalia elektroonilise arveldusega ja seadistada Itaalia FatturaPA otsese integreerimise vahetussüsteemiga (SDI).
 author: abaryshnikov
-ms.date: 12/14/2021
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922461"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984799"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Itaalia FatturaPA otseintegratsiooni seadistamine SDI-ga
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Itaalia elektroonilise arvelduse lisandmoodul ei pruugi praegu toetada kõiki elektrooniliste arvete jaoks saadaolevaid funktsioone rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management.
@@ -60,7 +58,7 @@ See jaotis täiendab teema "Alusta elektroonilise arveldamisega alustamine" rake
 6. Lisage igale süsteemis määratletud alamkategooriale kindlad tingimused ja seejärel salvestage oma muudatused.
 
     > [!NOTE]
-    > Veerus Nimi saate valida konkreetse väärtuse asemel väärtuse Tühi või Mitte tühi \*\* \*\* kohatäitja.
+    > Veerus **Nimi** saate valida konkreetse väärtuse asemel väärtuse **\*Tühi\*** või **\*Mitte\*** tühi kohatäitja.
 
 ### <a name="configure-a-processing-pipeline-for-export"></a>Konfigureerige müügivõimaluste töötlemine ekspordiks
 
