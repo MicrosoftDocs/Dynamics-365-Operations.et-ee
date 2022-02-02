@@ -3,7 +3,7 @@ title: Töövõtja ja juhataja iseteeninduskeskuse ülevaade
 description: Selles artiklis antakse ülevaate töövõtja ja ülemuse iseteeninduse tööruumist.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cea92092701f960f12aa74efe4c82c379a2b2c6d
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431207"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7991741"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Töövõtja ja juhataja iseteeninduskeskuse ülevaade
 
@@ -93,7 +93,7 @@ Kaardil **Manused** saate vaadata ja hallata dokumente. Saate hallata kõiki **V
 
 Sellest jaotisest leiate lingid teistele **töövõtja iseteenindusaladele**, sarnaselt jaotisele **Minu tööalane teave**.
 
-Registreeruge soodustuste saamiseks lingi **Soodustused** kaudu. Lisateavet soodustuste halduse kohta vt [Soodustuste ülevaade](hr-benefits-management-overview.md)
+Registreeruge soodustuste saamiseks lingi **Soodustused** kaudu. Lisateavet soodustuste haldamise kohta vt soodustuste [ülevaatest](hr-benefits-management-overview.md).
 
 Jaotises **Jõudlus** saate valida **Jõudluse töölehed** jõudluse töölehekannete loomiseks, et kasutada neid nii jõudluse eesmärkide kui ka ülevaatuse puhul. Organisatsiooni teiste töövõtjate kohta tagasiside andmiseks saate valida **Saada tagasisidet**. Sõltuvalt teie organisatsiooni sätetest võidakse meile saata adressaadile, saatjale ja ülemustele. Tagasisidet saate saata kõigi organisatsiooni töötajate kohta. Ettevõte ei piira tagasiside saatmist.
 

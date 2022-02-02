@@ -4,6 +4,30 @@
       items:
         - name: Dynamics 365 Finance'i avaleht
           href: index.md
+        - name: Mis on uut või mida on muudetud?
+          items:
+            - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Mis on uut või mis on muutunud Finance’is?
+              items:
+                - name: Mis on uut või mida on muudetud Finance'i avalehel?
+                  href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.24 (veebruar)
+                  href: get-started/whats-new-changed-10-0-24.md
+                - name: Finance 10.0.23 (jaanuar)
+                  href: get-started/whats-new-changed-10-0-23.md
+            - name: Eemaldatud või iganenud funktsioonid
+              items:
+                - name: Eemaldatud või iganenud funktsioonide avaleht
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Dynamics 365 Finance'i eemaldatud või iganenud funktsioonid
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: AX 2012 edasilükatud funktsioonid
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: Alustamine
           items:
             - name: Teenuse kirjeldus
@@ -62,32 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Laorakenduse konfigureerimine kohapealseteks juurutusteks
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: Mis on uut või mida on muudetud?
-              items:
-                - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Mis on uut või mis on muutunud Finance'is?
-                  items:
-                    - name: Mis on uut või mida on muudetud Finance'i avalehel?
-                      href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.24 (veebruar)
-                      href: get-started/whats-new-changed-10-0-24.md
-                    - name: Finance 10.0.23 (jaanuar)
-                      href: get-started/whats-new-changed-10-0-23.md
-                    - name: Finance 10.0.22 (november 2021)
-                      href: get-started/whats-new-changed-10-0-22.md
-            - name: Eemaldatud või iganenud funktsioonid
-              items:
-                - name: Eemaldatud või iganenud funktsioonide avaleht
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Dynamics 365 Finance'i eemaldatud või iganenud funktsioonid
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: Varasemate versioonide eemaldatud või iganenud funktsioonid
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: AX 2012 edasilükatud funktsioonid
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentatsiooniressursid
               items:
                 - name: Spikrisüsteem
@@ -836,6 +834,8 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: Rendigrupi loomine
                   href: asset-leasing/create-lease-group.md
+                - name: Maksesumma tüüp
+                  href: asset-leasing/Payment-amount-type.md
                 - name: Indeksimäärade seadistamine
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: Kulutüüpide seadistamine
@@ -1460,6 +1460,8 @@
                           href: localizations/tax-calculation-import-export-feature.md
                         - name: Koondandmete otsingu keskkonna häälestamine
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                        - name: Maksuhäälestuse sünkroonimine maksuarvutusteenusest Finance’isse
+                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
                     - name: Määratlemine
                       items:
                         - name: Maksuarvutuse andmemudel
@@ -1482,19 +1484,19 @@
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Austria aruandlus
                           items:
-                            - name: KM-i deklaratsioon
+                            - name: KM-deklaratsioon
                               href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Prantsusmaa aruandlus
                           items:
-                            - name: KM-i deklaratsioon
+                            - name: KM-deklaratsioon
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Saksamaa aruandlus
                           items:
-                            - name: KM-i deklaratsioon
-                              href: /localizations/emea-deu-vat-declaration-germany.md
+                            - name: KM-deklaratsioon
+                              href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Hollandi aruandlus
                           items:
-                            - name: KM-i deklaratsioon
+                            - name: KM-deklaratsioon
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: EL käibearuanne
                               href: localizations/emea-nl-eu-sales-list.md
@@ -1502,21 +1504,23 @@
                           items:
                             - name: 'KM-i kohene teave (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
+                            - name: KM-deklaratsioon
+                              href: localizations/emea-esp-vat-declaration-spain.md
                         - name: Rootsi aruandlus
                           items:
-                            - name: KM-i deklaratsioon
+                            - name: KM-deklaratsioon
                               href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: Šveitsi aruandlus
                           items:
-                            - name: KM-i deklaratsioon
+                            - name: KM-deklaratsioon
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Ühendkuningriigi aruandlus
                           items:
-                            - name: KM-i deklaratsioon
+                            - name: KM-deklaratsioon
                               href: localizations/emea-gbr-vat-declaration.md
                         - name: Norra aruandlus
                           items:
-                            - name: KM-i deklaratsioon
+                            - name: KM-deklaratsioon
                               href: localizations/emea-nor-vat-declaration.md
                     - name: Üleviimistellimuse maksuarvutuse lubamine
                       items:
@@ -1536,6 +1540,8 @@
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
+            - name: Regulatiivsete värskenduste otsing
+              href: localizations/search-for-regulatory-updates.md
             - name: Austraalia
               items:
                 - name: Austraalia ülevaade
@@ -1568,7 +1574,7 @@
                   href: localizations/emea-aut-intrastat.md
                 - name: Ostulõivud
                   href: localizations/emea-aut-purchase-duties.md
-                - name: KM-i deklaratsioon
+                - name: KM-deklaratsioon
                   href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
@@ -1576,7 +1582,7 @@
                   href: localizations/bahrain.md
                 - name: Bahreini arve paigutuse konfigureerimine
                   href: localizations/emea-bhr-invoice-layout.md
-                - name: Bahreini KM-i deklaratsioon
+                - name: Bahreini KM-deklaratsioon
                   href: localizations/emea-bhr-vat-declaration.md
                 - name: Arve väljastamise tähtaeg
                   href: localizations/gcc-invoice-issue-deadline.md
@@ -1754,6 +1760,8 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Kliendimaksete intresside ja trahvide arvutamine
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+                - name: Pangakonto numbrite seadistamine Brasiilia jaoks
+                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: Maksud
                   items:
                     - name: Brasiilia maksude ülevaade
@@ -1782,7 +1790,9 @@
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
                     - name: 'ICMS-ST täiendus- ja restitutsiooniprotsess ja deklaratsioon olekutele RS, SC ja SP'
                       href: localizations/latam-bra-complement-restitution.md
-                    - name: IPI-i maksude jaoks korrigeerimiskoodide häälestus
+                    - name: ICMS-DIF-i maksuarvutuste aluse muutus teiste riikide hankijate toodete puhul
+                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
+                    - name: IPI maksude jaoks korrigeerimiskoodide häälestamine
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: PIS-i ja COFINS-i põhivarad
                       href: localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
@@ -1882,11 +1892,13 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: KM-aruanne
                   href: localizations/emea-cze-vat-statement-details.md
-                - name: KM-i deklaratsioon (Tšehhi Vabariik)
+                - name: KM-deklaratsioon (Tšehhi Vabariik)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Tšehhi intrastat
+                  href: localizations/emea-cze-intrastat.md
                 - name: Pangakontode pangasümbolid
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
-                - name: ELi sisene KM
+                - name: ELi-sisene KM
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Aastalõpu sulgemine
                   href: localizations/emea-cze-hun-year-end.md
@@ -1916,6 +1928,8 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Maksekviitungi vormingu häälestus
                   href: localizations/tasks/set-up-payment-slip-format.md
+                - name: Taani intrastat
+                  href: localizations/emea-dnk-intrastat.md
             - name: Egiptus
               items:
                 - name: Egiptuse ülevaade
@@ -1938,6 +1952,8 @@
                   href: localizations/emea-est-personal-info.md
                 - name: KM-aruanne
                   href: localizations/emea-est-vat-statement-details.md
+                - name: Eesti intrastat
+                  href: localizations/emea-est-intrastat.md
             - name: Euroopa
               items:
                 - name: Euroopa ülevaade
@@ -2080,10 +2096,12 @@
                       href: localizations/emea-vat-register-transactions.md
                     - name: Maksupunkti kuupäev (KM-registri kuupäev)
                       href: localizations/emea-tax-point-date.md
-                    - name: Käibemaksuaruanne
+                    - name: KM-aruandlus
                       href: localizations/emea-vat-reporting.md
                     - name: KM-aruande loomine ja esitamine
                       href: localizations/tasks/create-submit-vat-report.md
+                    - name: Hankija KM-registri kuupäev
+                      href: localizations/emea-date-vendor-vat-register.md
                 - name: Kannete kuvamine tasakaalustamisel
                   href: localizations/emea-transactions-settlement-form.md
                 - name: Finantspõhjus
@@ -2158,7 +2176,7 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Kliendi makseviisi värskendamine
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: KM-i deklaratsioon
+                - name: KM-deklaratsioon
                   href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2-aruanne
                   href: localizations/emea-fra-das2-report.md
@@ -2182,9 +2200,9 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Täiendavate soetamiste kulumi korrigeerimised teisel aastal
                   href: localizations/tasks/de-00002-depreciation.md
-                - name: KM-i deklaratsioon
+                - name: KM-deklaratsioon
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: KM-i deklaratsiooni (ELSTER) elektrooniline edastamine
+                - name: KM-deklaratsiooni (ELSTER) elektrooniline edastamine
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Saksa Intrastat
                   href: localizations/emea-deu-intrastat.md
@@ -2616,7 +2634,7 @@
                   href: localizations/indonesia.md
                 - name: Maksuarvete nummerdamine ja arveldamine
                   href: localizations/apac-idn-invoicing.md
-                - name: Indoneesia KM-i deklaratsioon
+                - name: Indoneesia KM-deklaratsioon
                   href: localizations/apac-idn-ppn-declaration.md
                 - name: Kinnipeetava maksu aruanne Indoneesia jaoks
                   href: localizations/apac-idn-wht-declaration.md
@@ -2872,6 +2890,8 @@
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: KM-aruande üksikasjad
                   href: localizations/emea-lva-vat-statement-details.md
+                - name: Läti intrastat
+                  href: localizations/emea-lva-intrastat.md
             - name: Leedu
               items:
                 - name: Leedu ülevaade
@@ -2960,7 +2980,7 @@
               items:
                 - name: Hollandi ülevaade
                   href: localizations/netherlands.md
-                - name: KM-i deklaratsioon
+                - name: KM-deklaratsioon
                   href: localizations/emea-nl-VAT-declaration.md
                 - name: Elektroonilised maksudeklaratsioonid (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
@@ -2968,7 +2988,7 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Auditifail (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
-                - name: KM-i deklaratsioon (Holland)
+                - name: KM-deklaratsioon (Holland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: Hollandi Intrastat
                   href: localizations/emea-nl-intrastat.md
@@ -3012,7 +3032,7 @@
               items:
                 - name: Omaani ülevaade
                   href: localizations/oman.md
-                - name: Omaani KM-i deklaratsioon (OM-00003)
+                - name: Omaani KM-deklaratsioon (OM-00003)
                   href: localizations/emea-oma-vat-declaration.md
             - name: Poola
               items:
@@ -3050,9 +3070,9 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: PKWiU-koodide häälestamine ja kasutamine Poolas
                   href: localizations/emea-pol-pkwiu-code.md
-                - name: 'KM-i deklaratsioon registritega (JPK_V7M, VDEK)'
+                - name: 'KM-deklaratsioon registritega (JPK_V7M, VDEK)'
                   items:
-                    - name: 'KM-i deklaratsioon registritega (JPK_V7M, VDEK) – ülevaade'
+                    - name: 'KM-deklaratsioon registritega (JPK_V7M, VDEK) – ülevaade'
                       href: localizations/emea-pol-vdek.md
                     - name: JPK-V7M-i aruandluseks ettevalmistamine
                       href: localizations/emea-pol-vdek-setup.md
@@ -3060,6 +3080,8 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: Konkreetsete äristsenaariumide üksikasjad JPK-V7M-i aruandes
                       href: localizations/emea-pol-vdek-scenarios.md
+                - name: Maksetingimused ärikannete aruandes
+                  href: localizations/emea-pol-payment-terms-report.md
             - name: Katar
               items:
                 - name: Katari ülevaade
@@ -3122,7 +3144,7 @@
                       href: localizations/rus-revise-invoice-facture.md
                     - name: Maksuesindajate käibemaks (KM)
                       href: localizations/rus-tax-agent.md
-                    - name: KM-i deklaratsioon
+                    - name: KM-deklaratsioon
                       href: localizations/rus-VAT-declaration.md
                     - name: 'Müügiraamatud, osturaamatud ja faktuurarvete töölehed'
                       href: localizations/rus-sales-books-purchase-books.md
@@ -3342,7 +3364,7 @@
                   href: localizations/emea-esp-fiscal-data-invoice-account.md
                 - name: Põhivaragrupi ümberhindamine
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: ELi sisene KM
+                - name: ELi-sisene KM
                   href: localizations/emea-esp-intra-community-vat.md
                 - name: Hispaania intrastat
                   href: localizations/emea-esp-intrastat.md
@@ -3356,6 +3378,8 @@
                   href: localizations/emea-esp-report-340.md
                 - name: Deklaratsiooni 347 aruanne
                   href: localizations/emea-esp-declaration-347-report.md
+                - name: KM-deklaratsioon 303
+                  href: localizations/emea-esp-vat-declaration-spain.md
                 - name: Müügi- ja ostutsüklid
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Erikanded ja avamislehed
@@ -3372,7 +3396,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Rootsi käibemaksu maksearuanne
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Rootsi KM-i deklaratsioon
+                - name: Rootsi KM-deklaratsioon
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Rootsi Intrastat
                   href: localizations/emea-swe-intrastat.md
@@ -3384,7 +3408,7 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Šveitsi QR-arved
                   href: localizations/emea-che-swiss-qr-bills.md
-                - name: KM-i deklaratsioon
+                - name: KM-deklaratsioon
                   href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Tai
               items:
@@ -3446,9 +3470,9 @@
                       href: localizations/emea-gbr-mtd-vat-integration-submission.md
                     - name: Käibemaksu maksete ja kohustuste kohta teabe toomine HMRC-st
                       href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                    - name: Käibemaksu seadistuse üksikasjad KM-i deklaratsioonide kohta Ühendkuningriigis
+                    - name: Käibemaksu seadistuse üksikasjad KM-deklaratsioonide kohta Ühendkuningriigis
                       href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                    - name: KM-i deklaratsiooni loomine pabervormingus (aruanne VAT 100)
+                    - name: KM-deklaratsiooni loomine pabervormingus (aruanne VAT 100)
                       href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Maksete aruande statistika
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
@@ -3466,6 +3490,8 @@
           items:
             - name: Rakenduse Human Resources ülevaade
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: Taristuväljaanne 10.0.25
+              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
             - name: Rakenduse Human Resources häälestamine
               items:
                 - name: Human Resourcesi parameetrite konfigureerimine
@@ -3473,7 +3499,7 @@
                 - name: Human Resourcesi ühiskasutuses parameetrite konfigureerimine
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Human Resource'i töövoogude häälestamine
-                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: Kuupäeva ja kellaaja väljade ülevaade
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Personali haldamine

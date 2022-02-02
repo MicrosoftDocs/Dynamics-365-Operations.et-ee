@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
-ms.translationtype: MT
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813743"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968782"
 ---
 # <a name="finance-insights-home-page"></a>Finance Insightsi avaleht
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finantside vihjed annavad konfigureeritavaid ja laiendatavaid lahendusi, mis aitavad nutikalt prognoosida ettevõtte rahavoog, prognoosida, millal võite saada tasu laekumata müügireskontro eest, ja luua eelarvesoovitusi, mis aitavad eelarvete protsessi kiirendada. Need funktsioonid kasutavad nutikaid masina õppemalle, et koostada mudeleid, kasutades teie poolt pakutavaid andmeid (sh kolmanda osapoole andmed, nt büroo tarbearuande teave). Need nutikad võimalused aitavad otsustusprotsessi teavitada ja aitab teil reageerida efektiivselt praegustele ja eeldatavatele äritegevusega seotud küsimustele. Vastutate finantside vihjetega kasutatavate või väljastamisandmete eest.
 
 > [!NOTE]
-> Finantsülevaadete eelvaade on saadaval juurutamiseks Ameerika Ühendriikides, Kanadas, Suurbritannias, Euroopas, Aasia-Vaikses, Jaapanis, Austraalias ja Uus-Meremaal. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
+> Finantsülevaated on saadaval juurutamiseks Ameerika Ühendriikides, Kanadas, Suurbritannias, Euroopas, Aasia-vaikses, Jaapanis, Austraalias ja Uus-Meremaal. Microsoft lisab astmeliselt juurde täiendavate piirkondade tuge.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -76,7 +75,7 @@ Rahavoo prognoosimise lubamiseks peate viima lõpule etappide kogumi, et luua te
 
 ### <a name="enable-budget-proposals"></a>Eelarvesoovituste lubamine
 
-Eelarvesoovituste funktsioon kasutab masinõppemudelit koos teie organisatsiooni ajalooliste andmetega, et luua eelarvesoovitus. Loodud soovitus võib aidata teil alustada eelarve koostamise protsessi, mis on efektiivsem ja tõhusam kui käsitsi protsess. Selle funktsiooni lubamise konkreetseid samme vt teemast [Eelarvesoovituste lubamine](enable-budget-proposal.md). 
+Eelarvesoovituste funktsioon kasutab masinõppemudelit koos teie organisatsiooni ajalooliste andmetega, et luua eelarvesoovitus. Loodud soovitus võib aidata teil alustada eelarve koostamise protsessi, mis on efektiivsem ja tõhusam kui käsitsi protsess. Funktsiooni lubamise konkreetsete sammude kohta vt Luba [eelarveettepanekud](enable-budget-proposal.md). 
 
 ## <a name="using-finance-insights-features"></a>Finantsülevaate funktsioonide kasutamine
 
@@ -91,7 +90,7 @@ Eelarvesoovituste funktsioon kasutab masinõppemudelit koos teie organisatsiooni
 
 Rahavoo prognooside võimekus võib aidata teil hinnata oma sularahajääki täpsemalt. Nutikas likviidsuse prognoosimine on üles ehitatud olemasolevatele likviidsuse prognoosimise funktsioonidele moodulis Dynamics 365 Finance. Olemasoleva võimaluse läbivaatamiseks vt teemat [Rahavoo prognoosimine](../cash-bank-management/cash-flow-forecasting.md).
 
-- Teavet rahavoo prognooside uute võimaluste kohta vt teemast [Rahavoo prognoos](cash-flow-forecast-intro.md).
+- Likviidsuse prognoosi uute võimaluste kohta leiate lisateavet [likviidsuse prognoosist](cash-flow-forecast-intro.md).
 - Teavet välisandmete importimise kohta siin rahavoo prognoosimisse kaasamiseks vt teemast [Rahavoo prognoosimises välisandmete kasutamine](external-data-in-cash-flow.md). 
 - Teavet selle kohta, kuidas kasutada tehisintellekti mudelit pikaajalise rahavoo lähedal, vt teemast [Rahavoo positsioon](cash-position.md).
 - Teavet rahavoo positsioonide ja rahavoo prognooside hetktõmmistena salvestamise ning hetktõmmise tegelike näitajatega võrdlemise kohta vt teemast [Hetktõmmiste ülevaade](payment-snapshots.md).
@@ -102,6 +101,6 @@ Teavet eelarve loomise kiirendamise kohta vt teemast [Eelarvesoovitused](budget-
 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 
-Kui olete tagasiside pakkumisest huvitatud või teil on vaja tuge, saatke finantside [vihjetele meilisõnum](mailto:fiap@microsoft.com).
+Kui olete tagasiside pakkumisest huvitatud või teil on vaja tuge, saatke finantside [vihjetele](mailto:fiap@microsoft.com) meilisõnum.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

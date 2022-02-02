@@ -1,8 +1,8 @@
 ---
 title: Värbamisprotsesside haldus
-description: See artikkel kirjeldab kontseptsiooni, mida värbajad saavad kasutada värbamisprotsessi sammude jälgimiseks.
+description: See teema kirjeldab kontseptsiooni, mida värbamisjad saavad kasutada värbamisprotsessi sammude jälgimiseks.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf873a58900fa86d068d9ebc75f4f389e7d8359cc685d4635e083437c55ae56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752986"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965060"
 ---
 # <a name="manage-recruiting-processes"></a>Värbamisprotsesside haldus
 
@@ -42,7 +42,7 @@ Värbamisprojektid lubavad värbajatel jälgida ühe või mitme vaba ametikoha t
 - avalduse tähtaeg;
 - eeldatav alguskuupäev.
 
-Värbamisprojekt sisaldab **töötaja iseteeninduses** vaba ametikohta reklaamivat **töökuulutust**. Töötajatele vaba töökoha kohta teabe kuvamiseks peab värbamisprojektil olema **töökuulutus**, väljal **Kuva töötaja iseteeninduses** valitud Jah, **Avalduse tähtaeg** seatud tulevasele kuupäevale ning värbamisprojekti **Projekti olek** Alustatud. Järgmises tabelis loetletakse värbamisprojekti võimalikud olekud ja nende kirjeldus.
+Värbamisprojekt sisaldab **töökuulutuse** väärtust, mida kasutatakse töötaja **iseteeninduse** lehel avamiskuulutuse reklaamimiseks. Avanemist saab töötajatele kuvada ainult siis, kui värbamisprojektil on töö vaate väärtus, väli Kuva töötaja iseteeninduses on seatud väärtusele Jah, avalduse tähtaja väli on seatud tulevasele kuupäevale ja värbamisprojekti olekuks **on** **·** **·** **·** **·** **Alustatud**. Järgmises tabelis loetletakse värbamisprojekti võimalikud olekud ja nende kirjeldus.
 
 | Olek    | Näitab, et …                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Värbajad saavad salvestada ka vaba töökoha reklaamimiseks väljaspool organis
 
 ## <a name="applicants"></a>Kandidaadid
 
-Kandidaat on isik, kes taotleb töökohta teie ettevõttesse. Kandidaatide jagamine kõigi teie organisatsiooni kuuluvate juriidiliste isikute vahel annab teile hulga talente, kelle hulgast sobivat otsida. Saate säilitada kandidaatide pädevusi, soovitusi, erivajaduse taotlusi ja isikuandmeid. Kandidaadi kirje loomisel luuakse selle kandidaadi isiku kirje globaalses aadressiraamatus. Kandidaatide kohta saate globaalses aadressiraamatus olevat järgmist teavet lehekülje **Kandidaat** abil värskendada:
+Kandidaat on isik, kes taotleb töökohta teie ettevõttesse. Kandidaadid jagatakse teie organisatsiooni kõigi juriidiliste isikute vahel. Seetõttu on teil otsimiseks suur hulk andeid. Saate säilitada kandidaatide pädevusi, soovitusi, erivajaduse taotlusi ja isikuandmeid. Kandidaadi kirje loomisel luuakse selle kandidaadi isiku kirje globaalses aadressiraamatus. Kandidaatide kohta saate globaalses aadressiraamatus olevat järgmist teavet lehekülje **Kandidaat** abil värskendada:
 
 - Aadressiteave
 - Kontaktteave
@@ -84,7 +84,7 @@ Avalduse olek näitab, millises faasis avaldus värbamisprotsessis on. Järgmise
 
 ### <a name="correspondence-actions"></a>Vastamistegevused
 
-**Avalduse** vastamistegevus määrab, millist dokumendi- või meilimalli avalduse esitanud kandidaadiga suhtlemiseks kasutatakse. Vastamistegevustega saate seostada **avalduse järjehoidjad**, mis lubavad kasutada kandidaatidega suhtlemisel väärtusi lehekülgedelt Avaldus, Kandidaat, Töövestlus ja Värbamisprojekt. Teatud avalduse oleku ja vastamistegevuse kombinatsiooniga kandidaatidele saab kiiresti meili saata, kui loote **avalduse meilimallid**. Näiteks võite saata kinnitusmeili kõigile kanditaatidele, kelle **Olek** on Saadud ja **Vastamistegevus** Saadud. Meili saatmise järel on teil võimalik automaatselt avalduste olekut värskendada.
+Avalduse korrespondenttegevus määratleb dokumendi või meilimalli, mida kasutate avalduse esitanud kandidaadiga suhtlemisel. Avalduste järjehoidjate seostamisel korrespondenttoimingutega saate kandidaatidega suhtlemisel kasutada väärtusi rakenduse, kandidaadi, vestluse **ja** **·** **·** **·** **värbamisprojekti** lehtedelt. Luues avalduse meilimallid kirjavahetustegevustele, saate kiiresti saata e-kirju kandidaatidele, kelle avaldustel on kindel oleku ja **korrespondenttegevuse** kombinatsioon. Näiteks saate saata kinnitusmeil kõigile avaldustele, mille olekuväärtus on Saadud **ja** **·** **korrespondenttegevus** väärtuseks **Vastu** võetud. Pärast e-kirja saatmist on teil võimalus avalduste olekut automaatselt uuendada.
 
 ## <a name="application-routing"></a>Avalduse marsruutimine
 
@@ -101,6 +101,5 @@ Vabale töökohale sobiva kandidaadi tuvastamiseks saate kasutada vorme **Oskust
 ## <a name="hiring-applicants"></a>Kandidaatide palkamine
 
 Kandidaadi palkamiseks kasutage lehekülge **Avaldused**. Kandidaadi palkamisel muudetakse avalduse kirje olekuks **Tööle võetud** ja kandidaadi isikukirje globaalses aadressiraamatus seostatakse uue töötaja kirjega. Globaalses aadressiraamatus uue töötaja kirjes tehtud muudatused kuvatakse ka kandidaadi kirjes. See aitab vähendada andmete sisestamiseks kuluvat aega, kui uus töötaja tulevikus ettevõttesiseselt teisele töökohale kandideerib. Olemasoleva töötaja uuele ametikohale palkamiseks avage lehekülg **Avalduse olek** ja klõpsake üleviimisprotsessi käivitamiseks valikut **Ametikoha muutmine**.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

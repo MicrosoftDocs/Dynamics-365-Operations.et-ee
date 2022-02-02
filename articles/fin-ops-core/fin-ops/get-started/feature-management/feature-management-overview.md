@@ -1,27 +1,26 @@
 ---
 title: Funktsioonihalduse ülevaade
-description: See teema kirjeldab funktsioonihaldust ja kuidas seda kasutada.
+description: Selles teemas kirjeldatakse Funktsioonihaldust ja selle kasutamist.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488174"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984455"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -75,9 +74,9 @@ Funktsioonid, mida uuendatakse **vaikimisi**, on lülitatud vaikimisi sisse, kui
 > [!NOTE]
 > Kuna need funktsioonid lubatakse automaatselt, on oluline määrata, kas teie organisatsioon on valmis neid funktsioone uuendama või on vaja rohkem aega. Kui vaja on rohkem aega, võib olla vajalik need funktsioonid ajutiselt keelata. Pange tähele, et funktsiooni siirde vaikimisi valikule **Sees vaikimisi** tehakse tavaliselt põhivabastuses enne, kui see funktsioon on määratud **Kohustuslikuks**. Sel hetkel pole teil võimalust seda funktsiooni keelata. 
 
-### <a name="released-features-mandatory"></a>Väljastatud funktsioonid (kohustuslik)
+### <a name="mandatory"></a>Kohustuslik
 
-**Väljastatud** on funktsioonide viimane olek. See näitab, et funktsioonid on sisse lülitatud ja te ei saa neid keelata ilma Microsoft`iga kontakteerumata. Valikulised funktsioonid muutuvad kohustuslikuks pärast kahte põhivabastust. Kriitilisi funktsioone saab erandkorras kehtestada kohustuslikuna.
+**Kohustuslik on** funktsioonide eeldatav lõplik olek. See näitab, et funktsioonid on sisse lülitatud ja te ei saa neid keelata ilma Microsoft`iga kontakteerumata. Valikulised funktsioonid muutuvad kohustuslikuks pärast kahte põhivabastust. Kriitilisi funktsioone saab erandkorras kehtestada kohustuslikuna.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Eeldatava funktsiooni töötsüklite näide
 

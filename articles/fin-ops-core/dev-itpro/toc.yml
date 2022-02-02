@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: Platvormi versiooni 10.0.23 värskendused (jaanuar 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: Platvormi versiooni 10.0.22 värskendused (november 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -190,7 +188,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: Üldise töölehe üksuse abil kannete importimine
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Finance and Operationsi rakenduste andmete migreerimise optimeerimine
+                - name: Andmete migreerimise optimeerimine Finance and Operationsi rakenduste jaoks
                   href: sysadmin/optimize-data-migration.md
             - name: Andmeüksuste arendamine
               items:
@@ -236,7 +234,7 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Azure Data Lake'i eksportimise lisandmooduli installimine
               href: data-entities/configure-export-data-lake.md
-            - name: Finance and Operationsi rakendused Azure Data Lake'is
+            - name: Finance and Operationsi rakendused Azure Data Lake’is
               href: data-entities/finance-data-azure-data-lake.md
             - name: Üksusesalve Data Lake’i üksusena saadavaks muutmine
               href: data-entities/entity-store-data-lake.md
@@ -360,11 +358,11 @@
                       href: deployment/on-premises-overview.md
                     - name: Kohapealsete juurutuste plaanimine ja ettevalmistamine
                       href: deployment/plan-onprem-deployment.md
-                    - name: Rakenduse Microsoft Dynamics 365 Finance + Operations (on-premises) toetatud tarkvara
+                    - name: Lahenduste Microsoft Dynamics 365 Finance + Operations (on-premises) toetatud tarkvara
                       href: deployment/onprem-compatibility.md
                     - name: Riistvara suuruse nõuded
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Autentimine rakenduses Dynamics 365 Finance + Operations (on-premises)
+                    - name: Autentimine lahenduses Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: Kohapealsete keskkondade häälestamine ja juurutamine
                   items:
@@ -406,11 +404,11 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduv kasutamine
                       href: deployment/onprem-reuseadfs.md
-                    - name: Microsoft Dynamics 365 Finance + Operationsi (on-premises) keskkondade SQL Serveri eksemplari täiendamine
+                    - name: Lahenduse Microsoft Dynamics 365 Finance + Operations (on-premises) keskkondade SQL Serveri eksemplari täiendamine
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Kohalik esindaja
                   items:
-                    - name: AD FS Microsoft 365 ühilduvus
+                    - name: AD FS Microsoft 365-ga ühilduvus
                       href: deployment/onprem-adfscompatibility.md
                     - name: Kohaliku esindaja eeljuurutuse ja järeljuurutuse skriptid
                       href: lifecycle-services/pre-post-scripts.md
@@ -1044,9 +1042,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                    - name: Topeltkirjutuse lubamine olemasolevatele Finance and Operationsi rakendustele
                       items:
-                        - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                        - name: Topeltkirjutuse lubamine olemasolevatele Finance and Operationsi rakendustele
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Süsteeminõuded ja eeltingimused
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1054,6 +1052,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Üksuse vastenduse lubamine topeltkirjutamise jaoks
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Eraldatud topeltkirjutusrakenduse orkestratsioonipakett
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: Müügitellimuse olekuväljade vastendamise seadistamine
@@ -1156,7 +1156,7 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Reaalajas sünkroonimise probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Finance and Operationsi rakendustes topeltkirjutuse probleemide tõrkeotsing
+                        - name: Topeltkirjutusprobleemide tõrkeotsing Finance and Operationsi rakendustes
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Osapoole ja globaalse aadressiraamatu probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
@@ -1164,7 +1164,7 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Finance and Operationsi rakenduste värskenduste probleemide tõrkeotsing
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Topeltkirjutuse konfiguratsiooni kontrollimine Finance and Operationsi rakendustes ja Dataverse'is
+                        - name: Topeltkirjutuse konfiguratsiooni kontrollimine Finance and Operationsi rakendustes ja Dataverse’is
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: Tõrkekoodid tabelikaardi seisundikontrolli jaoks
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1530,11 +1530,11 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 toe ülevaade
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 'Toe hankimine Finance and Operationsi jaoks, mida käitab 21Vianet Hiinas'
+            - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
-            - name: Tehnilise toe häälestus Finance and Operationsi rakenduste jaoks
+            - name: Tehnilise toe seadistamine Finance and Operationsi rakenduste jaoks
               href: lifecycle-services/support-experience.md
-            - name: Finance and Operationsi rakenduste tugiteenuste haldamine
+            - name: Finance and Operationsi rakenduste tugikogemuste haldamine
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Toote tugi ja jälgimine
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md

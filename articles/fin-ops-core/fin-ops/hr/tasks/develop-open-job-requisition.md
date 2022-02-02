@@ -1,68 +1,73 @@
 ---
 title: Töötaotluse arendamine ja avamine
 description: Värbamisprojektid aitavad värbamisprotsessi hallata.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae2e42627d7d3dbbc0bde2740e7c017c5858eab8cd825b77a1bc4611a3a4ab7b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a97c2a8bb6c334a5a060fcbfc9527a41ba592750
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738476"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964651"
 ---
 # <a name="develop-and-open-job-requisition"></a>Töötaotluse arendamine ja avamine
 
 [!include [banner](../../includes/banner.md)]
 
-Värbamisprojektid aitavad värbamisprotsessi hallata. Igale värbamisprojektile saate lisada teabe värvatava ametikoha, värbaja nime, projekti oleku ja osakonna kohta. Värbamisprojekti loomise järel saate kirjutada projekti töökuulutuse, avaldada reklaami lehtedel Töötaja iseteenindus, seostada kandideerimisavaldusi projektiga ja jälgida projekti tegevusi. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. Protseduuri alustamiseks avage Inimressursid > Värbamine > Värbamisprojektid > Värbamisprojektid
+Värbamisprojektid aitavad värbamisprotsessi hallata. Iga värbamisprojekti puhul saate seadistada teavet, näiteks tööd, mille jaoks värbamine on tehtud, värbaja nimi, projekti olek ja osakond, kus töö asub. Pärast värbamisprojekti loomist saate kirjutada selle kohta töökuulutuse, avaldada reklaami **töötaja** iseteeninduse lehel, seostada projektiga töötamise taotlusi ja jälgida selle projekti tegevusi. Selle **protseduuri** loomiseks kasutati USMF-i demoandmete ettevõtet.
 
-1. Klõpsake valikut Uus.
-2. Sisestage väärtus väljale Värbamisprojekt.
-3. Sisestage väljale Kirjeldus soovitud väärtus.
-4. Klõpsake väljal Värbaja otsingu avamiseks ripploendi nuppu.
-5. Otsige loendist ja valige soovitud kirje.
-6. Klõpsake loendis valitud real olevat linki.
-7. Klõpsake Vali.
-8. Klõpsake väljal Osakond otsingu avamiseks ripploendi nuppu.
-9. Klõpsake loendis valitud real olevat linki.
-10. Klõpsake väljal Töö otsingu avamiseks ripploendi nuppu.
-11. Otsige loendist ja valige soovitud kirje.
-12. Klõpsake loendis valitud real olevat linki.
-13. Sisestage arv väljale Vabade kohtade arv.
-14. Klõpsake väljal Värbamisjuht otsingu avamiseks ripploendi nuppu.
-15. Otsige loendist ja valige soovitud kirje.
-16. Klõpsake loendis valitud real olevat linki.
-17. Klõpsake Vali.
-18. Sisestage lõpukuupäev väljale Avalduse tähtaeg.
-19. Klõpsake valikut Meedia.
-    * Värbamisprojektid sisaldavad suvandit, kus saab määrata vabade töökohtade reklaamimiseks kasutatavaid meediakanaleid.  
-20. Klõpsake valikut Uus.
-21. Klõpsake väljal Meedia otsingu avamiseks ripploendi nuppu.
-22. Klõpsake loendis valitud real olevat linki.
-23. Sisestage kuupäev väljale Alguskuupäev.
-24. Sisestage kuupäev väljale Lõppkuupäev.
-25. Klõpsake nuppu Salvesta.
-26. Sulgege leht.
-27. Klõpsake valikut Töökuulutused.
-28. Klõpsake nuppu Salvesta.
-29. Sulgege leht.
-30. Märkige ruut Kuva töötaja iseteeninduses või eemaldage sellelt märge.
-    * Valige märkeruut Kuva töötaja iseteeninduses, et teha värbamisprojekt töötajatele nähtavaks lehtedel Töötaja iseteenindus.  
-31. Klõpsake valikut Värbamisprojekti olek.
-32. Klõpsake nuppu Käivita.
-    * Olek Alustatud tähendab, et projekt on valmis avaldusi vastu võtma.  
-33. Klõpsake nuppu OK.
+1. Minge **inimressursside \>\> värbamise värbamisprojektidesse \> Värbamisprojektid**.
+2. Valige suvand **Uus**.
+3. Sisestage väärtus väljale **Värbamisprojekt**.
+4. Sisestage väärtus väljal **Kirjeldus**.
+5. Otsingu **avamiseks valige väljal Värbaja** rippnool.
+6. Otsige loendist ja valige soovitud kirje.
+7. Valige loendis link valitud reas.
+8. Valige käsk **Vali**.
+9. Otsingu **avamiseks** valige väljal Osakond rippnool.
+10. Valige loendis link valitud reas.
+11. Otsingu **avamiseks** valige väljal Töö rippnool.
+12. Otsige loendist ja valige soovitud kirje.
+13. Valige loendis link valitud reas.
+14. **Sisestage väljale Avade arv** number.
+15. Otsingu **avamiseks valige väljal Rentimise haldur** rippnool.
+16. Otsige loendist ja valige soovitud kirje.
+17. Valige loendis link valitud reas.
+18. Valige käsk **Vali**.
+19. Sisestage lõpukuupäev väljale **Avalduse tähtaeg**.
+20. Valige **Meedium**.
 
+    Värbamisprojektid hõlmavad võimalust määrata meediaväljaanded, mida kasutatakse avatud ametikohtade reklaamimiseks.
 
+21. Valige suvand **Uus**.
+22. Otsingu **avamiseks** valige väljal Meedia rippnool.
+23. Valige loendis link valitud reas.
+24. Väljale **Alguskuupäev** sisestage kuupäev.
+25. Väljale **Lõppkuupäev** sisestage kuupäev.
+26. Valige käsk **Salvesta**.
+27. Sulgege leht.
+28. Valige **Töökuulutused**.
+29. Valige käsk **Salvesta**.
+30. Sulgege leht.
+31. Märkige või tühjendage **ruut Kuva töötaja iseteeninduses.**
+
+    Märkige ruut, et muuta värbamisprojekt töötajatele nähtavaks nende **töötaja** iseteeninduse lehel.
+
+32. Valige **värbamisprojekti** olek.
+33. Valige nupp **Alusta**.
+
+    **Olek Alustatud** näitab, et projekt on taotluste vastuvõtmiseks valmis.
+
+34. Valige nupp **OK**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

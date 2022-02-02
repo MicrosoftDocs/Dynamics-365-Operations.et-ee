@@ -1,6 +1,6 @@
 ---
-title: Finance insights`i konfigureerimine avaliku eelvaate (eelvaate) jaoks - versioon 10.0.20 ja uuemad
-description: See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada Finance insights`i saadaolevaid võimalusi versioonis 10.0.20 ja uuemates.
+title: Finantside vihjete konfiguratsioon – versioon 10.0.20 ja uuem
+description: See teema kirjeldab, kuidas konfigureerida süsteemi nii, et see kasutaks finantside vihjetes saadaolevaid võimalusi versioonis 10.0.20 ja uuemates versioonides.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
-ms.translationtype: MT
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927400"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968958"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Finance insights`i konfigureerimine avaliku eelvaate (eelvaate) jaoks - versioon 10.0.20 ja uuemad
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finantside vihjete konfiguratsioon – versioon 10.0.20 ja uuem
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finantsülevaated kombineerivad rakenduse Microsoft Dynamics 365 Finance funktsioonid teenustega Dataverse, Azure ja AI Builder, et pakkuda võimsaid prognoosimise tööriistu teie organisatsioonile. See teema selgitab konfiguratsiooni samme, mis võimaldavad teie süsteemil kasutada Finance insights`i saadaolevaid võimalusi Dynamics 365 Finance versioonis 10.0.20 ja uuemates.
+Finantsülevaated koondavad Microsofti Dynamics 365 Finance funktsioone Dataverse rakendusega, AI Builder Azure'iga ja pakuvad organisatsioonile võimast prognoosimise tööriistu. See teema kirjeldab versiooni 10.0.20 konfigureerimist, nii et süsteem saab kasutada finantsülevaadetes Dynamics 365 Finance saadaolevaid võimalusi.
 
 > [!NOTE]
 > Selles teemas kirjeldatud konfiguratsiooni etapid kehtivad ainult finantsversiooni 10.0.20 ja uuemate versioonide puhul. Finance insights`i seadistamiseks versioonil 10.0.19 ja uuemates versioonides vt [Finance insights vihjete konfigureerimine (eelvaade) – versioonid kuni 10.0.19](configure-for-fin-insites.md).
@@ -38,7 +38,7 @@ Finantsülevaated kombineerivad rakenduse Microsoft Dynamics 365 Finance funktsi
 
 Keskkonna juurutamiseks tehke järgmist.
 
-1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage ’i keskkonda. Keskkond vajab rakenduse versiooni 10.0.20 või hilisemat Finance and Operations rakendust.
+1. Looge teenuses Microsoft Dynamics Lifecycle Services (LCS) või värskendage ’i keskkonda. Keskkonnas on vaja rakenduse 10.0.20 või uuemat Rakendust Finance and Operationsi rakendustest.
 2. Keskkond peab olema hea kättesaadavusega (HA) liivakasti keskkond. (Seda tüüpi keskkond on tuntud ka kui järgu 2 keskkond.) Lisateavet vt teemast [Keskkonna kavandamine](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Finance insights`i konfigureerimisel võib olla peate prognooside tööle kopeerimiseks tootmisandmed sellele keskkonnale kopeerima. Ennustuse mudel kasutab prognooside koostamiseks mitmeid aastaid andmeid. Contoso demoandmed ei sisalda piisavalt ajaloolisi andmeid ennustuse mudeli andmeedastuse jaoks. 
 
@@ -94,7 +94,7 @@ Järgige neid samme, et konfigureerida Azure Windows PowerShell skripti abil. Te
     |------------------------------------------|--------------------------------------|
     | Microsoft Dynamics ERP Microservices     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    | AI Builderi autoriseerimise teenus         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
+    | AI Builder Autoriseerimisteenus         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
 
 Kui te ei leia ühtegi eelnevat rakendust, proovige järgmisi samme.
 
@@ -126,7 +126,7 @@ Kui te ei leia ühtegi eelnevat rakendust, proovige järgmisi samme.
         - **Jõudlus** – soovitame valida suvandi **Standardne**.
         - **Konto liik** – peate valima **StorageV2**.
 
-    3. Dialoogiaknas **Täpsemad suvandid** valige suvandi **Data Lake storage Gen2** valik **Luba** jaotises **Hierarhilised nimeruumide**. Kui te selle funktsiooni keelate, ei saa te tarbida andmeid, mida Finance and Operations rakendused kirjutavad, kasutades selliseid teenuseid nagu Power BI andmevoog.
+    3. Dialoogiaknas **Täpsemad suvandid** valige suvandi **Data Lake storage Gen2** valik **Luba** jaotises **Hierarhilised nimeruumide**. Kui te seda funktsiooni ei luba, ei saa te finantside ja toimingute rakenduste kirjutamiseks andmeid tarbida, kasutades selliseid teenuseid nagu Power BI andmevood.
     4. Valige **Läbivaatus ja loomine**. Kui juurutamine on lõpule viidud, kuvatakse Azure’i portaalis uus ressurss.
     5. Avage loodud salvestusruumi konto.
     6. Valige vasakpoolses menüüs **Juurdepääsuvõtmed**.
@@ -214,7 +214,7 @@ Kui te ei leia ühtegi eelnevat rakendust, proovige järgmisi samme.
         | Teie loodud uue rakenduse kuvatav nimi | Kaasautor                 |
         | Teie loodud uue rakenduse kuvatav nimi | Salvestamiskonto toetaja |
         | Teie loodud uue rakenduse kuvatav nimi | Salvestamise bloobimälu andmete omanik     |
-        | **AI Builderi autoriseerimise teenus**                     | Salvestamise bloobimälu andmete lugeja    |
+        | **AI Builder Autoriseerimisteenus**                     | Salvestamise bloobimälu andmete lugeja    |
 
 # <a name="azure-cli"></a>[Azure CLI](#tab/azure-azure-cli)
 
@@ -752,6 +752,6 @@ Lisandmooduli installimiseks võib aega kuluda mitu minutit.
 
 ## <a name="feedback-and-support"></a>Tagasiside ja tugi
 
-Kui soovite anda tagasisidet või vajate tuge, saatke meil [Finance insights (eelversioon)](mailto:fiap@microsoft.com).
+Kui soovite pakkuda tagasisidet või kui teil on tuge vaja, saatke finantsülevaatele [meilisõnum](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

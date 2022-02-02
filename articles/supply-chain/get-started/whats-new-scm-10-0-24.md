@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Managementi versiooni 10.0.24 eelversioon (veebruar 2022)
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.24. (veebruar 2022)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Supply Chain Management 10.0.24 uusi või muutunud funktsioone.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920544"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986299"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Managementi versiooni 10.0.24 eelversioon (veebruar 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.24. (veebruar 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loetletakse rakenduse Microsoft Dynamics 365 Supply Chain Management eelversiooni 10.0.24 uued või muutunud funktsioonid. Selle versiooni number on 10.0.1084 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.24 uusi või muutunud funktsioone. Selle versiooni number on 10.0.1084 ja see on saadaval järgmiselt:
 
 - **Väljalaske eelvaade:** detsember 2021
 - **Väljalaske üldine kättesaadavus (iseseisev värskendamine):** jaanuar 2022
@@ -34,22 +33,22 @@ Järgmises tabelis on loetletud selles versioonis sisalduvad funktsioonid. Võim
 
 | Funktsiooniala | Funktsioon | Lisateave | Lubaja:   |
 |---|---|---|---|
-| Hajutatud hübriidtopoloogia | [Täiustatud lao käivitamise töökoormused kaaluüksustes](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md) | Vaikimisi lubatud. |
-| Planeerimine | [Plaanimise optimeerimise tugi lisatellimuse marginaali ja väljamineku kasumi jaoks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Ohutuspiirid](../master-planning/planning-optimization/safety-margins.md) | Vaikimisi lubatud. |
+| Hajutatud hübriidtopoloogia | [Suurenenud laokäitlemise töökoormus skaalaühikutel](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Laohaldustöökoormused pilv- ja perimeeterskaalaüksuste jaoks](../cloud-edge/cloud-edge-workload-warehousing.md) | Vaikimisi lubatud. |
+| Planeerimine | [Plaani optimeerimise tugi kordustellimuse marginaali ja väljaminemismarginaali jaoks](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Ohutuspiirid](../master-planning/planning-optimization/safety-margins.md) | Vaikimisi lubatud. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
 Järgmises tabelis on loetletud selle väljalaske funktsioonide täiustused. Kõik need täiustused parandavad olemasolevat funktsiooni järk-järgult. Kuna need on ainult täiustused, siis neid ei loetleta [väljalaskeplaanis](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Kindlustamaks, et need täiustused ei satu vastuollu olemasolevate kohanduste või eelistustega, lülitatakse iga neist vaikimisi välja (kui pole märgitud teisiti).
 
-Kui soovite mõne neist funktsioonidest sisse ja välja lülitada, peate seda [funktsioonihalduses tegema](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Kui soovite mõnda neist funktsioonidest sisse või välja lülitada, peate seda [funktsioonihalduses tegema](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 | Moodul | Funktsiooni nimi funktsioonihalduses | Lisateave |
 |---|---|---|
-| Tootmise juhtimine | Tootmistellimuste vajaduse korral materjali saadavuse kontroll | See funktsioon muudab kiiremaks tootmistellimuse **avamiseks lehekülje** vabastamise, mis on saadaval tootmispinna **halduse** tööruumis. Ilma selle funktsioonita kontrollib süsteem automaatselt, kas materjalid on saadaval kõigi loetletud tootmistellimuste jaoks kohe, kui avate lehekülje, mis võib võtta palju aega, kui teil on palju tellimusi. Kui see funktsioon on lubatud, pakub süsteem hoopis tööriistariba nuppu, mille abil saate käivitada materjalide kontrolli ainult valitud tellimustele ja vajadusel. |
-| Tootmise juhtimine | (Eelversioon) Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS) | See funktsioon võimaldab töötajatel kasutada tootmispinna käivitamise liidest materjalitarbimise, partiinumbrite ja seerianumbrite registreerimiseks. See funktsioon toetab ainult kaupu, mis ei ole lubatud täpsemate laoprotsesside (WMS) kasutamiseks. WMS-iga lubatud kaupade tugi on plaanitud tulevaseks väljalaskeks.<p>Osa tootjaid, eriti neid, kes kuuluvad protsessitööstusesse, peavad iga partii või tootmistellimuse puhul eraldi registreerima tarbitud materjali hulga. Töötajad võivad näiteks kaalu kasutada oma töös tarbitud materjali kaalu kaalumiseks. Täieliku materjalijälgitavuse tagamiseks peavad need organisatsioonid registreerima ka iga toote tootmises kasutatud partiinumbrid. |
-| Tootmise juhtimine | Teata pilve ja servaskaala ühiku laohalduse töökoormusest lõpetatuna | See funktsioon võimaldab töötajatel kasutada laohalduse mobiilirakendust, et teatada tootmise või partii tellimuse lõpetatuna, kui rakendus töötab laohalduse töökoormusega pilves või servaskaala üksuses. Lisateavet vt lõpetatuna [kinnitamine ja kaaluühiku panemine.](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) |
-| Tootmise juhtimine | Käivita tootmistellimuse laohalduse töökoormuses pilve ja servaskaala ühiku puhul | See funktsioon võimaldab töötajatel kasutada laohalduse mobiilirakendust, et käivitada tootmis- või partiitellimus, kui rakendus töötab pilves või servaskaala üksuses laohalduse töökoormuse suhtes. |
-| Laohaldus | Uued koorma planeerimise töölaua leheküljed | Lubab kaks uut koorma planeerimise töölaualehte: sissetuleva koorma planeerimise töölaud ja väljamineva **koorma** **plaanimise** töölaud. |
+| Tootmise juhtimine | Tootmistellimuste vajaduse korral materjali saadavuse kontroll | See funktsioon muudab **tootmistellimuste avamise kiiremaks, et vabastada** leht, mis on saadaval **tootmispõrandahalduse** tööruumis. Ilma selle funktsioonita kontrollib süsteem automaatselt, kas materjalid on saadaval kõigi loetletud tootmistellimuste jaoks kohe, kui avate lehe, mis võib võtta palju aega, kui teil on palju tellimusi. Kui see funktsioon on lubatud, pakub süsteem selle asemel tööriistariba nuppu, mida saate kasutada materjalide kontrollimiseks ainult valitud tellimuste puhul ja vajadusel. |
+| Tootmise juhtimine | (Eelversioon) Materjali tarbimise registreerimine tootmisosakonna täideviimisliideses (mitte-WMS) | See funktsioon võimaldab töötajatel kasutada tootmispõranda täitmise liidest materjali tarbimise, partiinumbrite ja seerianumbrite registreerimiseks. See funktsioon toetab ainult kaupu, millel pole lubatud kasutada täpsemaid laoprotsesse (WMS). WMS-toega üksuste tugi on kavandatud tulevaseks väljaandeks.<p>Mõned tootjad, eriti need, kes kuuluvad protsessitööstusesse, peavad selgesõnaliselt registreerima iga partii või tootmistellimuse jaoks tarbitud materjali koguse. Näiteks võivad töötajad kasutada skaalat, et kaaluda nende töötamise ajal tarbitud materjali kogust. Täieliku materjali jälgitavuse tagamiseks peavad need organisatsioonid registreerima ka selle, milliseid partiinumbreid iga toote tootmisel tarbiti. |
+| Tootmise juhtimine | Lõpetatuna kinnitamine laohaldustöökoormuses pilv- ja perimeeterskaalaüksuste jaoks | See funktsioon võimaldab töötajatel kasutada laohalduse mobiilirakendust, et teatada tootmisest või partiitellimusest lõpetatuna, kui rakendus töötab pilve- või servaskaala üksuse laohalduse töökoormuse vastu. Lisateavet vt [aruande lõpetatud ja putaway skaala](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF) üksus. |
+| Tootmise juhtimine | Käivitage tootmistellimus pilve- ja servaskaala üksuse laohalduse töökoormusel | See funktsioon võimaldab töötajatel kasutada laohalduse mobiilirakendust tootmise või partiitellimuse käivitamiseks, kui rakendus töötab pilve- või servaskaala üksuse laohalduse töökoormuse vastu. |
+| Laohaldus | Uued koormuse planeerimise tööpingilehed | Lubab kaks uut koormuse planeerimise tööpingi lehte: **Sissetulev koormuse planeerimise töölaud** ja **väljaminev koormuse planeerimise töölaud**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Uued ja värskendatud dokumentatsiooni ressursid
 
@@ -69,9 +68,9 @@ Oleme hiljuti lisanud või oluliselt uuendanud järgmisi abiteemasid. Need teema
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Rakenduse Finance and Operations platvormi värskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Platvormivärskendused Finance and Operations rakenduste versiooni 10.0.24 jaoks (veebruar 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.24 platvormi värskendused (november 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 

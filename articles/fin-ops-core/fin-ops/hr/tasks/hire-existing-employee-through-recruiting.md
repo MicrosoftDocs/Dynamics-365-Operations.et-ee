@@ -1,43 +1,48 @@
 ---
 title: Olemasolevate töötajate palkamine värbamise kaudu
 description: Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõtte töötajad.
-author: andreabichsel
-ms.date: 02/10/2017
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df23be9a657b7001b4974e7802a507c0c54a18dacb46354a68699d759827e941
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749576"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964904"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Olemasolevate töötajate palkamine värbamise kaudu
 
 [!include [banner](../../includes/banner.md)]
 
-Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõtte töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+Mõnikord võivad avatud ametikohad täita kandidaadid, kes on juba teie organisatsiooni töötajad. See protseduur annab ülevaate olemasoleva töötaja värbamise kohta värbamisprotsessi kaudu. Selles protseduuris on värbamisprojekt juba loodud ja olemasolev töötaja on juba värbamisprojekti avalduse esitanud. Selle **protseduuri** loomiseks kasutati USMF-i demoandmete ettevõtet.
 
-1. Avage Personaliarvestus > Värbamine > Avaldused > Avaldused.
-2. Leidke loendist selle töötaja avaldus, keda soovite palgata. Näide: 00002 John Emory
-3. Klõpsake suvandit Avalduse olek.
-    * Avalduse olek näitab, kus avaldus värbamisprotsessis on.  Need sammud on valikulised. Üldjuhul muutuks avalduse olekud järgmises järjestuses: saadud, kinnitatud ja küsitletud. Pärast vestluse protsessi tehakse värbamisotsus.  
-4. Klõpsake suvandit Muuda ametikohta.
-5. Valige ametikoht, millele töötaja värbate.
-6. Sisestage väljale Uue määramise alguskuupäev kuupäev, mil töötaja alustab uuel ametikohal töötamist.  
-7. Sisestage väljale Määramise lõppkuupäev kuupäev, mil töötaja oma praegusel ametikohal töötamise lõpetab.
-    * Uue ametikoha alguskuupäev ja vana ametikoha lõppkuupäev võivad kattuda. See võib juhtuda, kui isik täidab üleminekuperioodi jooksul ametikohustusi mõlemal ametikohal.  
-8. Lisaks saate valida põhjusekoodi. Näide: reorganiseerimine
-9. Klõpsake suvandit Muuda ametikohta.
-    * Võite sel ajal muuta ka lisatasu. Kui te sel ajal lisatasu ei määra, saate seda muuta, minnes töötaja vormi, valides vahekaardi Lisatasu ja valides suvandi Fikseeritud plaan. Pärast suvandi Muuda ametikohta valimist värskendatakse avaldus olekule Tööle võetud.  
+1. Minge inimressursside **värbamis \>\>\> avaldustele**.
+2. Otsige loendist üles tööle soovitud töötaja avaldus. Näiteks valige **00002 John Emory**.
+3. Valige **avalduse** olek.
 
+    Avalduse olek näitab, millises faasis avaldus värbamisprotsessis on. Iga samm on valikuline. Tavaliselt liigub rakendus läbi olekute järgmises järjestuses: **Vastuvõetud**, **Kinnitatud ja** **Vestlustega**. Pärast vestluse protsessi tehakse tööle palkamise otsus.
 
+4. Valige **Muuda** ametikohta.
+5. Valige ametikoht, mille jaoks te töötajat palkate.
+6. Väljale **Uus määramise** alguskuupäev sisestage kuupäev, mil töötaja hakkab tööle uuel positsioonil.
+7. Sisestage **väljale** Määrangu lõppkuupäev kuupäev, millal töötaja lõpetab töötamise oma praegusel ametikohal.
+
+    Uue positsiooni alguskuupäev ja vana positsiooni lõppkuupäev võivad kattuda. See kattumine võib ilmneda, kui inimene täidab üleminekuperioodi jooksul mõlema ametikohaga seotud kohustusi.
+
+8. Valikuline: valige põhjuse kood. Näiteks valige käsk **Reorganiseerimine**.
+9. Valige **Muuda** ametikohta.
+
+    Sel ajal saate tasu ka muuta. Kui te seda ei tee, saate seda hiljem muuta, valides fikseeritud plaani **vahekaardi** Töötaja **vahekaardil** **Tasu**.
+
+    Pärast valiku **Muuda** positsioone uuendatakse avalduse olekuks **Tööle** võetud.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

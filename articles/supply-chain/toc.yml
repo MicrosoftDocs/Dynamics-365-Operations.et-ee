@@ -16,10 +16,6 @@
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (jaanuar 2022)
                   href: get-started/whats-new-scm-10-0-23.md
-                - name: Supply Chain Management 10.0.22 (november 2021)
-                  href: get-started/whats-new-scm-10-0-22.md
-                - name: Supply Chain Management 10.0.21 (oktoober 2021)
-                  href: get-started/whats-new-scm-10-0-21.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud funktsioonide avaleht
@@ -3513,9 +3509,9 @@
                       href: warehousing/transfer-orders-warehouse.md
                 - name: Täiendamine ja migreerimine
                   items:
-                    - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versiooniks Finance and Operations
+                    - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versioonile Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
-        - name: Supply Chain Managementi juurutamine
+        - name: Supply Chain Managementi arendamine
           items:
             - name: Gantti juhtelemendi arendamise juhis
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json

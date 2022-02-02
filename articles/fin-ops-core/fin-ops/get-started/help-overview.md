@@ -1,9 +1,9 @@
 ---
 title: Spikrisüsteem (sisaldab videot)
-description: Selles teemas antakse ülevaade Finance and Operationsi rakenduste spikrisüsteemist.
+description: Selles teemas antakse ülevaade finantside ja toimingute rakenduste spikrisüsteemist.
 author: edupont04
 ms.date: 07/20/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemParameters
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d272221cc7a976d48b09b2f78bdb3f7fded2fc53
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
-ms.translationtype: MT
+ms.openlocfilehash: 67f2fe493c57cd004b1003c1d95734bd455fde8c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937525"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984430"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -50,7 +50,7 @@ Sisu leiate saidilt docs.microsoft.com mis tahes otsingumootori abil. Soovitame 
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Muudatuste kohta teatiste saamine RSS-kanali kaudu
 
-RSS-kanali tellimiseks kõigi docs.microsoft.com sisu värskenduste jaoks (Finance and Operations rakendustes), kasutage järgmist linki.
+RAKENDUSE Finance and Operations rakenduste kaudu RAKENDUSE docs.microsoft.com sisule tehtud kõigi uuenduste tellimiseks kasutage järgmist linki:
 
 [RSS-kanal](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

@@ -96,15 +96,13 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (jaanuar 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: Commerce 10.0.22 (november 2021)
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Eemaldatud või iganenud funktsioonide avaleht
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Finance and Operationsi eemaldatud või iganenud funktsioonid
+                    - name: Finance and Operationsi eemaldatud või aegunud funktsioonid
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
-                    - name: Dynamics 365 Commerce'i eemaldatud või iganenud funktsioonid
+                    - name: Dynamics 365 Commerce’i eemaldatud või iganenud funktsioonid
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: AX 2012 edasilükatud funktsioonid
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
@@ -222,7 +220,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Mitu LCS-i projekti ja töökeskkonda ühes Azure AD rentnikus
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations Commerce'i projektide juurutamine
+                - name: Finance and Operations Commerce’i projektide juurutamine
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Uute keskkondade, Azure DevOps’i ja projektide harude häälestus'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: Moderaatori hinnangute ja ülevaadete käsitsi avaldamise lubamine
                   href: manual-publish-rating-reviews.md
+                - name: Hinnangute ja arvustuste importimine ja eksportimine
+                  href: import-export-reviews.md
+                - name: Teenusest teenusesse autentimise konfigureerimine
+                  href: service-to-service-auth.md
                 - name: Hinnangute ja arvustuste KKK
                   href: ratings-reviews-faq.md
             - name: Hallake varusid
@@ -998,13 +1000,11 @@
                       href: style-presets.md
                     - name: Leheikooni lisamine
                       href: add-favicon.md
-                    - name: Tervitussõnumi lisamine
-                      href: add-welcome-message.md
                     - name: Autoriõiguste teatise lisamine
                       href: add-copyright-notice.md
                     - name: Keelte lisamine
                       href: add-languages-to-site.md
-                    - name: Telemeetria toetamiseks saidile skriptikoodi lisamine
+                    - name: Telemeetria toetamiseks saidilehtedele skriptikoodi lisamine
                       href: add-telemetry.md
                 - name: Moodulid
                   items:
@@ -2180,7 +2180,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Sissetulevate dokumentide kohandatud ER-allika juurutamine
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
-        - name: Finance and Operationsi (Dynamics 365) mobiilirakendus
+        - name: Mobiilirakendus Finance and Operations (Dynamics 365)
           items:
             - name: Mobiilirakenduse avaleht
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
@@ -2758,9 +2758,9 @@
                   href: payment-connector-data-fields.md
                 - name: Maksekonnektori duplikaatmaksete kaitse lubamine
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Finance and Operationsi juurutamisele Commerce'i maksepaketi loomine
+                - name: Finance and Operationsi juurutamisele Commerce’i maksepaketi loomine
                   href: dev-itpro/payment-connector-package.md
-            - name: Kolmanda osapoole e-kaubanduse laiendatavus
+            - name: Kolmanda osapoole e-Commerce’i laiendatavus
               items:
                 - name: Veebipoodide konfigureerimine
                   href: dev-itpro/configure-online-store.md

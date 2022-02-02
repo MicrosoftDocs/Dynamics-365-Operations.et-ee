@@ -1,0 +1,73 @@
+---
+title: Riigispetsiifiliste regulatiivsete uuenduste otsing
+description: See teema sisaldab linke Microsofti plaanitud ja väljastatud riigispetsiifiliste regulatiivsete värskenduste juurde Dynamics 365 Finance.
+author: AKroshkina
+ms.date: 01/20/2022
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.region: Global
+ms.author: kfend
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 1796fbb56467b8a3e5b9431b1db400dc83fbae2f
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016145"
+---
+# <a name="search-for-country-specific-regulatory-updates"></a>Riigispetsiifiliste regulatiivsete uuenduste otsing
+
+[!include [banner](../includes/banner.md)]
+
+See teema sisaldab linke Microsofti plaanitud ja väljastatud riigispetsiifiliste regulatiivsete värskenduste juurde Dynamics 365 Finance. Sellele teabele Microsoft Dynamics juurdepääsemiseks peate sisse logima elutsükli teenustesse (LCS).
+
+| Riik või regioon    | Väljaminek LCS-i väljaminek otsingus |
+|----------------------|---------------------------|
+| Austraalia            | [Plaanitud ja väljastatud regulatiivsed funktsioonid Austraalia jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=1_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Austria              | [Austria plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=2_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Bahrein              | [Bahreini plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=37_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Belgia              | [Belgia plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=3_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Brasiilia               | [Plaanitud ja väljastatud regulatiivsed funktsioonid Brasiilia jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=4_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Hiina                | [Plaanitud ja väljastatud regulatiivsed funktsioonid Hiina jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=6_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Tšehhi Vabariik                | [Tšehhi Vabariigi plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=7_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Taani              | [Taani plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=8_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Egiptus                | [Egiptuse plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=42_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Eesti              | [Eesti plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=9_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Soome              | [Plaanitud ja väljastatud regulatiivsed funktsioonid Soome jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=10_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Prantsusmaa               | [Prantsusmaa plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=11_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Saksamaa              | [Saksamaa plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=12_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Hong Kongi EHP        | [Plaanitud ja väljastatud regulatiivsed funktsioonid Hong Kongi EHMi jaoks](https://fix.lcs.dynamics.com/Issue/Results?q=&dm=0&v=8_versionClass&i=2_issueTypeClass_1_issueTypeClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=38_countryClass&pi=&pm=&pc=&rd=&d=&envId=&permission=) |
+| Ungari              | [Ungari plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=13_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Island              | [Islandi plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?q=&dm=0&v=8_versionClass&i=2_issueTypeClass_1_issueTypeClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=14_countryClass&pi=&pm=&pc=&rd=&d=&envId=&permission=) |
+| India                | [India plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=15_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Iirimaa              | [Plaanitud ja väljastatud regulatiivsed funktsioonid Iirimaa jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=16_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Itaalia                | [Plaanitud ja väljastatud regulatiivsed funktsioonid Itaalia jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=17_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Jaapan                | [Jaapani plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=18_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Kuveit               | [Kuveit plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=39_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClasshttps://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=39_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Läti               | [Läti plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=19_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Leedu            | [Leedu plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=20_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Malaisia             | [Plaanitud ja väljastatud regulatiivsed funktsioonid Malaisia jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=21_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Mehhiko               | [Mehhiko plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=22_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Holland          | [Hollandi plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=23_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Uus-Meremaa          | [Plaanitud ja väljastatud regulatiivsed funktsioonid Uus-Meremaa jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=24_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Norra               | [Plaanitud ja väljastatud regulatiivsed funktsioonid Norra jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=25_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Omaan                 | [Omaani plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=40_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Poola               | [Plaanitud ja väljastatud regulatiivsed funktsioonid Poola jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=26_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Katar                | [Katar- plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=41_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Venemaa               | [Venemaa plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=27_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Saudi Araabia         | [Saudi Araabia plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=28_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Singapur            | [Planeeritud ja väljastatud regulatiivsed funktsioonid Singapuri jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=29_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Lõuna-Aafrika         | [Lõuna-Aafrika plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?q=&dm=0&v=8_versionClass&i=2_issueTypeClass_1_issueTypeClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=30_countryClass&pi=&pm=&pc=&rd=&d=&envId=&permission=) |
+| Hispaania                | [Hispaania plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=31_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Rootsi               | [Rootsi plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=32_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Šveits          | [Šveitsi plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=33_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Tai             | [Plaanitud ja väljastatud regulatiivsed funktsioonid Tai jaoks](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=34_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Araabia Ühendemiraadid | [Araabia Ühendemiraadi plaanitud ja väljastatud regulatiivsed funktsioonid](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=43_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
+| Ühendkuningriik       | [Ühendkuningriigi plaanitud ja väljastatud regulatiivsed funktsioonid](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffix.lcs.dynamics.com%2FIssue%2FResults%3Fv%3D8_versionClass%26ct%3D2_categoryClass_6_categoryClass%26ft%3D1_featureClass_2_featureClass_3_featureClass%26cu%3D3_countryClass%26o%3DD%26mode%3DFull%26i%3D2_issueTypeClass_1_issueTypeClass&data=04%7C01%7Cvastrup%40microsoft.com%7C6e8a12140a0548c9224508d94add50a5%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637623136671200065%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=eiZzncdY20RjysdC8rpru54YONhSlJUec093vwFK5jI%3D&reserved=0) |
+
+Igakuistesse uuendusse kaasatud globaliseerimisfunktsiooni kohta lisateabe saamiseks liituge [GRUPIga DGX - GLOBALIZATION](https://www.yammer.com/dynamicsaxfeedbackprograms/)Yammer FEATURES.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

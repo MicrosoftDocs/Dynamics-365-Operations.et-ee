@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b21fba6fbfd4fe2a645efd56fb3592252c2a3fe0
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: e4a120dd4199b143c3103392515c85e7b887194b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920619"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982711"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Et näha, mis on teenuse Dynamics 365 Supply Chain Management igas väljalaskes 
 
 | Versioon | Loo number | Automaatvärskenduse kättesaadavus | Lisateave |
 |---|---|---|---|
-| 10.0.24 | 10.0.1084 | 2022. veebruar | [Dynamics 365 Supply Chain Management 10.0.24 eelvaade](whats-new-scm-10-0-24.md) |
+| 10.0.24 | 10.0.1084 | 2022. veebruar | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.24?](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | 2022. jaanuar | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.23?](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | November 2021 | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.22?](whats-new-scm-10-0-22.md) |
 | 10.0.21 | 10.0.960 | 2021. oktoober | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.21?](whats-new-scm-10-0-21.md) |
@@ -62,8 +62,8 @@ Et enne 2019. aasta novembrit näha, mis on väljalasetes uut või muudetud, vaa
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019. juuni        | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.2      | 10.0.80          | 2019. mai         | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.2 (mai 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md)                     |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.1      | 10.0.51          | 2019. aprill       | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.1 (aprill 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                   |
-| Microsoft Dynamics 365 for Finance and Operations                     | 10.0        | 10.0.8           | 2019. aprill       | [Mis on uut või mida on muudetud rakenduse Finance and Operations versioonis 10.0 (aprill 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
-| Microsoft Dynamics 365 for Finance and Operations                     | 8,1,3       | 8,1,227          | jaanuar 2019     | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 8.1.3 (jaanuar 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
+| Microsoft Dynamics 365 for Finance and Operations                     | 10.0        | 10.0.8           | 2019. aprill       | [Mis on uut või muutunud rakenduse Finance and Operations versioonis 10.0 (aprill 2019) ](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md)                                      |
+| Microsoft Dynamics 365 for Finance and Operations                     | 8.1.3       | 8.1.227          | jaanuar 2019     | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 8.1.3 (jaanuar 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md)                   |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8,1,2       | 8,1,195          | 2018. detsember    | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 8.1.2 (detsember 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md)                  |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8,1,1       | 8,1,170          | 2018. oktoober     | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 8.1.1 (oktoober 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md)                   |
 | Microsoft Dynamics 365 for Finance and Operations                     | 8,1         | 8,1,136          | 2018. oktoober     | [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 8.1 (oktoober 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-october-2018.md)          |

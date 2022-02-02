@@ -3,22 +3,21 @@ title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: peakerbl
 ms.date: 10/21/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: a7e867b2815920a68e3cd79843ba7b15ed6bb635
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675365"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7981981"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -204,7 +203,7 @@ Puhastamise protsessi planeerimisel tuleb täpsustada puhastuse kriteeriumite j�
 ## <a name="job-history-clean-up-and-archival"></a>Tööajaloo puhastamine ja arhiivimine 
 Tööde ajaloo puhastamise ja arhiveerimise funktsioon asendab puhastamise funktsioonide varasemad versioonid. Selles jaotises selgitatakse neid uusi võimalusi.
 
-Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab Finance and Operationsi rakendustel puhastada automaatselt pakett-tööd plaanitult ja käivitada selle kohe, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks. Alates versioonist 10.0.20 on see funktsioon alati sees.
+Üks põhilistest puhastamise funktsiooni muudatustest on ajaloo puhastamiseks süsteemi pakett-töö kasutamine. Süsteemi pakett-töö kasutamine võimaldab finantside ja toimingute rakendustel puhastada pakett-töö automaatselt ja käivituda niipea, kui süsteem on valmis. Pakett-tööd ei pea enam käsitsi planeerima. Selle vaikimisi käivitamise režiimis käivitub pakett-töö iga tund alates keskööl ja säilitab viimase seitsme päeva käivitamise ajaloo. Likvideeritud ajalugu arhiveeritakse tulevikus toomiseks. Alates versioonist 10.0.20 on see funktsioon alati sees.
 
 Puhastustoimingu protsessi teine muudatus on likvideeritud käivitamise ajaloo arhiveerimine. Puhastamise töö arhiveerib kustutatud kirjed bloobimällu, mida DIXF kasutab regulaarsete integratsioonide jaoks. Arhiveeritud fail on DIXF-i paketi vormingus ja see on bloobimälus 7 päeva jooksul saadaval, mille jooksul saab selle alla laadida. Arhiivitud faili vaikimisi säilimisaega 7 päeva saab muuta parameetrites maksimaalselt 90 päevaks.
 

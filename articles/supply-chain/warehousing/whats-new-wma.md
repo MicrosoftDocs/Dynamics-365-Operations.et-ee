@@ -2,7 +2,7 @@
 title: Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 description: Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued ja muudetud funktsioonid.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901884"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007570"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Mis on uut või muudetud Warehouse Management laohalduse mobiilirakenduses
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas loetletakse Microsoft Dynamics 365 Supply Chain Management iga Warehouse Management mobiilirakenduse väljastatud versiooni uued funktsioonid, parandused, täiustused ja teadaolevad vead.
+
+## <a name="version-20140"></a>Versioon 2.0.14.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+
+- Saate lahendada probleemi, mis keelas nupu Edasta vaikeväärtus.
+
+## <a name="version-20130"></a>Versioon 2.0.13.0
+
+See versioon tutvustab järgmisi uusi funktsioone, parandusi ja täiustusi:
+ 
+- Täiustatud kerimine sujuvama meelelahutusega lehtede vahel.
+- Fikseeritud counter-intuitiivne vastused liigutuste ja juhuslike ekraanide külmutamise tõmbamiseks.
+- Täiustatud tumerežiimi tekst ja taustavärvi kombinatsioonid parema loetavuse tagamiseks.
+- Fikseeritud probleem, mille puhul mõni tekst võib rakenduse akna suuruse muutmisel muutuda väga väikeseks.
+- Lahendati probleem, mis võib vöötkoodide skannimisel mõnikord rakenduse alla anda.
+- Lisati võimalus asendada slaidli oma nupuga.
+- Fikseeritud probleem, mis võib põhjustada rakenduse tõrketeate näitamise, "AADSTS7000215: antud on lubamatu kliendisaladus."
+- Fikseeritud vihje vihje vihje, mis näitab, kuidas sulgeda lehekülge, kasutades tõmbamise ettemaks.
+- Lisatud võimalus sulgeda leht, kasutades lisandit.
+- Fikseeritud probleem, mille puhul ripploendi pealkirjad kasutajasätete lehel **ei** kuvatud.
+- Fikseeritud lokaliseerimisprobleem, mille puhul rakendusele ei määratud koma (,) komaeraldajana.
+- Paremad hõlbustusfunktsioonid.
+- Parandatud hõlbustusfunktsioonide **loomiseks** parandage navigeerimist lehel Uus ühendus.
+- Fikseeritud probleem, kus sisendvälja valimisel ei kuvata kerget (ekraanil) klaviatuuri teksti.
+- Fikseeritud probleem, mis võib rakendusele reageerida, kui kasutajad selle akna kiiresti muutsid.
+- Fikseeritud probleem, kus kiirklahvi vajutamist on vahel tõlgendatud kui pikale pressile.
+- Lahendas probleemi, mille puhul rakenduse paigutus võis tarneahela halduses tehtud väljakohanduste tõttu muutuda rikutud.
+- Lahendati probleem, mille puhul kauba asukohti ei kuvatud õigesti.
+- Tootevariandi töövoo lühikese komplekteerimisega seotud probleemi fikseeritud
+- Eemaldas eelseadistatud vaikeväärtusi sisaldavate väljade mittevajaliku kinnitamise.
+- Täiustatud jõudlus.
+- Lisatud uus säte, mis võimaldab kasutajatel valida, kuidas väljad kaardi leheküljel filtreeritakse ja tellitakse.
 
 ## <a name="version-20110"></a>Versioon 2.0.11.0
 

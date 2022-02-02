@@ -1,21 +1,20 @@
 ---
 title: Topeltkirjutuse ülevaade
-description: See teema annab ülevaate topelkirjutusest, mis pakub reaalaja lähedast suhtlust klientide kaasamise rakenduste ja Finance and Operations i rakenduste vahel.
+description: Käesolevas teemas antakse ülevaade topeltkirjutusest, mis annab reaalajas lähedalasuvad suhtlused kliendi kaasamise rakenduste ning finantside ja toimingute rakenduste vahel.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
-ms.topic: article
+ms.topic: overview
 audience: Application User, IT Pro
 ms.reviewer: tfehr
-ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
-ms.translationtype: MT
+ms.openlocfilehash: e71d1496da24b21949259e8f43a32cd4ff60249c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817357"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984137"
 ---
 # <a name="dual-write-overview"></a>Topeltkirjutuse ülevaade
 
@@ -27,9 +26,9 @@ ms.locfileid: "7817357"
 
 ## <a name="what-is-dual-write"></a>Mis on topeltkirjutus?
 
-Topeltkirjutus on valmiskujul infrastruktuur, mis pakub reaalaja lähedast suhtlust klientide kaasamise rakenduste ja Finance and Operations i rakenduste vahel. Kui andmed klientide, toodete, inimeste ja operatsioonide kohta liiguvad rakenduse piiridest välja, omavad organisatsiooni kõik osakonnad võimalust.
+Topeltkirjutus on boksist väljas infrastruktuur, mis pakub reaalajas lähedalasulist suhtlust kliendikogemuse rakenduste ning finantside ja toimingute rakenduste vahel. Kui andmed klientide, toodete, inimeste ja operatsioonide kohta liiguvad rakenduse piiridest välja, omavad organisatsiooni kõik osakonnad võimalust.
 
-Topeltkirjutus pakub tihedalt ühendatud, kahesuunalist integratsiooni Finance and Operations i rakenduste ja teenuse Dataverse vahel. Mis tahes andmete muudatus Finance and Operations i rakendustes põhjustab kirjutamist teenusesse Dataverse ja mis tahes andmete muudatused teenuses Dataverse põhjustab kirjutamist Finance and Operations i rakendustesse. See automatiseeritud andmevoog pakub rakenduste vahel integreeritud kasutuskogemust.
+Topeltkirjutus võimaldab finantside ja operatsioonide rakenduste ja nende vahel tihedalt kahesuunalist integratsiooni Dataverse. Mis tahes andmete muutmine finantside ja toimingute rakendustes põhjustab kirjutusi ja mis tahes andmete muutus põhjustab Dataverse Dataverse finantside ja toimingute rakendustesse kirjutamise. See automatiseeritud andmevoog pakub rakenduste vahel integreeritud kasutuskogemust.
 
 ![Andmete seos rakenduste vahel.](media/dual-write-overview.jpg)
 
@@ -52,7 +51,7 @@ Topeltkirjutuse taristu on laiendatav ja usaldusväärne ning sisaldab järgmisi
 
 ### <a name="application"></a>Avaldus
 
-Topeltkirjutus loob vastenduse Finance and Operations i rakenduste kontseptsioonide ja klientide kaasamise rakenduste kontseptsioonide vahel. See integratsioon toetab järgmisi stsenaariumeid.
+Topeltkirjutusega luuakse finantside ja toimingute rakenduste mõistete ja kliendi kaasamise rakenduste mõistete vaheline vastendus. See integratsioon toetab järgmisi stsenaariumeid.
 
 + Integreeritud kliendi koondandmed
 + Juurdepääs kliendi kliendikaartidele ja preemiapunktidele
@@ -75,21 +74,21 @@ Topeltkirjutus loob vastenduse Finance and Operations i rakenduste kontseptsioon
 Topeltkirjutus võimaldab Microsoft Dynamics 365 rakenduste üleselt andmete integreerimist. See jõuline raamistik ühendab keskkondasid ja võimaldab erinevatel ärirakendustel koos töötada. Siin on peamised põhjused, miks peaksite topeltkirjutust kasutama.
 
 + Topeltkirjutus pakub tihedalt ühendatud, peaaegu reaalajas ja kahesuunalist integratsiooni finants- ja tegevusrakenduste ja kliendikaasamise rakenduste vahel. See integratsioon muudab Microsoft Dynamics 365 ühe peatuse poeks kõigi teie ärilahenduste jaoks. Kliendid, kes kasutavad rakendusi Dynamics 365 Finance ja Dynamics 365 Supply Chain Management, kuid kasutavad kliendisuhte halduseks (CRM) mitte-Microsofti lahendusi, liiguvad Dynamics 365 suunas selle topeltkirjutamise toe jaoks.
-+ Klientide, toodete, operatsioonide, projektide ja asjade Interneti (IoT) andmed voolavad automaatselt topeltkirjutuse kaudu teenusesse Dataverse. See ühendus on kasulik ettevõtetele, kes on huvitatud Power Platform i laiendustest.
++ Klientide, toodete, operatsioonide, projektide ja asjade Interneti (IoT) andmed voolavad automaatselt topeltkirjutuse kaudu teenusesse Dataverse. See ühendus on kasulik ettevõtetele, kes on huvitatud Power Platformi laiendustest.
 + Topeltkirjutuse infrastruktuur järgib puuduva koodi / vähese koodi põhimõtet. Standardsete tabelist tabelisse kaartide laiendamiseks ja kohandatud kaartide kaasamiseks on vajalik minimaalne projekteerimise panus.
 + Topeltkirjutus toetab nii ühendusega režiimi kui ka võrguühenduseta režiimi. Microsoft on ainus ettevõte, mis pakub ühendusega ja võrguühenduseta režiimide tuge.
 
-## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a> Mida tähendab topeltkirjutus klientide kaasamise rakenduste arendajate ja arhitektide jaoks?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Mida tähendab topeltkirjutus klientide kaasamise rakenduste arendajate ja arhitektide jaoks?
 
-Topeltkirjutus automatiseerib andmevoo Finance and Operations i rakenduste ja klientide kaasamise rakenduste vahel. Topeltkirjutamine koosneb kahest AppSource'i lahendusest, mis on installitud Dataverse'isse. Lahendused laiendavad Dataverse’i tabeli skeemi, lisandmooduleid ja töövooge, et neid saaks sobitada ERP suurusega. Edukaks rakendamiseks peavad klientide kaasamise rakenduste arendajad ja arhitektid neid muudatusi mõistma ning tegema koostööd oma kolleegidega Finance and Operations i rakendustega seoses.
+Topeltkirjutusega automatiseerib andmevoog finantside ja toimingute rakenduste ja kliendi kaasamise rakenduste vahel. Topeltkirjutamine koosneb kahest AppSource'i lahendusest, mis on installitud Dataverse'isse. Lahendused laiendavad Dataverse’i tabeli skeemi, lisandmooduleid ja töövooge, et neid saaks sobitada ERP suurusega. Eduka rakenduse jaoks peavad klienditeeninduse rakenduste arendajad ja arhitektid neid muudatusi mõista ja tegema koostööd finantside ja toimingute rakendustes teiste partneritega.
 
-Finance and Operations i rakenduste paarsuse loomiseks teeb topeltkirjutamine Dataverse'i skeemis mõned olulised muudatused. Kui te seda plaani mõistate, saate tulevikus vältida mõnda kujundamise ja arendamisega seotud taastöötlust.
+Paarsuse loomiseks finantside ja toimingute rakendustega teeb topeltkirjutus skeemis mõned olulised Dataverse muudatused. Kui te seda plaani mõistate, saate tulevikus vältida mõnda kujundamise ja arendamisega seotud taastöötlust.
 
-+ Kui AppSource'i topeltkirjutamisega pakett on installitud, on Dataverse'il uued mõisted (nt ettevõte ja osapool). Need mõisted aitavad Dataverse'il (sh Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service ja Dynamics 365 Field Service) põhinevatel rakendustel Finance and Operations i rakendustega sujuvalt suhelda.
++ Kui AppSource'i topeltkirjutamisega pakett on installitud, on Dataverse'il uued mõisted (nt ettevõte ja osapool). Need mõisted aitavad rajatud rakendusi, sh Dataverse Dynamics 365 Müük, Dynamics 365 Marketing, Dynamics 365 Klienditeenindus ja, et suhelda sujuvalt finantside ja toimingute Dynamics 365 Field Service rakendustega.
 
 + Tegevused ja märkmed on ühtlustatud ning laiendatud, et toetada nii C1-sid (süsteemi kasutajaid) kui ka C2-sid (süsteemi kliendid).
 
-+ Selleks et vältida andmete kaotsiminekut valuuta ülekandmisel Finance and Operations i rakenduste ning Dataverse'i vahel, saate klientide kaasamise rakenduste valuuta andmetüübi kümnendkohtade arvu suurendada. Funktsioon teisendab metaandmete kihis olemasolevad read uude laiendatud olekusse automaatselt. Selle protsessi käigus teisendatakse valuuta väärtus raha andmetüübi asemel kümnendkoha andmetüübiks ja valuuta väärtus toetab 10 kümnendkohta. See funktsioon on valikuline ja organisatsioonid, kes ei vaja rohkem kui nelja kümnendkohta, ei pea seda kasutama. Lisateavet vt [Valuuta andmetüübi migratsioon topeltkirjutamise jaoks](currrency-decimal-places.md).
++ Et vältida andmekadu valuuta edastamisel finantside ja toimingute rakenduste ning rakenduste vahel, saate klientide rakenduste valuuta andmetüübis kümnendkohti Dataverse suurendada. Funktsioon teisendab metaandmete kihis olemasolevad read uude laiendatud olekusse automaatselt. Selle protsessi käigus teisendatakse valuuta väärtus raha andmetüübi asemel kümnendkoha andmetüübiks ja valuuta väärtus toetab 10 kümnendkohta. See funktsioon on valikuline ja organisatsioonid, kes ei vaja rohkem kui nelja kümnendkohta, ei pea seda kasutama. Lisateavet vt [Valuuta andmetüübi migratsioon topeltkirjutamise jaoks](currrency-decimal-places.md).
 
 + [Kuupäeva jõustumine](../../dev-tools/date-effectivity.md) lisatakse Dataverse'isse. See toetab samas tabelis mineviku, oleviku ja tuleviku andmeid.
 

@@ -13,18 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
-ms.translationtype: MT
+ms.openlocfilehash: 37484ce022085dfac66edba31b7adf9af4095df8
+ms.sourcegitcommit: bbe8ab054ad7cc00a63c63e02dc90bfa8ede15bb
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890852"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974377"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida saate kasutada kasutaja tootlikkuse suurendamiseks, teie andmetest huvitavate vaadete loomiseks ja sisukate ülevaadete hankimiseks andmete jaoks. Selles artiklis tutvustatakse järgmisi võimalusi. 
 
@@ -37,10 +35,10 @@ Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida
 -  Venitatavad veerud
 
 ## <a name="calculating-totals"></a>Summade arvutamine
-Rakendustes Finance and Operations on kasutajatel võimalik ruudustiku numbriveergude allosas näha kogusummasid. Ruudustiku allosas olev jaluse jaotis näitab neid kogusummasid. 
+Finantside ja toimingute rakendustes on kasutajatel võimalus näha kogusummasid ruudustike numbriveergude all. Ruudustiku allosas olev jaluse jaotis näitab neid kogusummasid. 
 
 ### <a name="showing-the-grid-footer"></a>Ruudustiku jaluse kuvamine
-Finance and Operationsi rakendustes on igas tabeliruudustikus allosas jaluse ala. Jalus näitab olulist teavet, mis on seotud ruudustikus kuvatavate andmetega. Siin on mõned näited sellest teabest.
+Finantside ja toimingute rakenduste iga vahekaardi allosas on jaluse ala. Jalus näitab olulist teavet, mis on seotud ruudustikus kuvatavate andmetega. Siin on mõned näited sellest teabest.
 
 - Valitud ridade arv tabelis (kui valite rohkem kui ühe kirje)
 - Konfigureeritud arvveergude allosas olevad kogusummad
@@ -85,7 +83,7 @@ Selle uue funktsiooni toetamiseks on rea valimise veeru paremasse osasse lisatud
 Kui kasutajad sisestavad andmeid kohas, kuhu serveritöötlus pole veel jõudnud, võib nende andmesisestuskogemus olla halvem, näiteks puuduvad otsingud, kontrolli tasemel kinnitamine ja vaikeväärtuste sisestamine. Kasutajatel, kellel on väärtuse leidmiseks vaja ripploendit, soovitatakse oodata, kuni server jõuab praegusele reale. Kontrolli tasemel kinnitamist ja vaikeväärtuste sisestamist saab samuti teha, kui server töötleb seda rida.   
 
 ### <a name="pasting-from-excel"></a>Kleepimine Excelist
-Kasutajad on alati saanud eksportida andmeid Finance and Operations`i rakendustest rakendusse Microsoft Excel kasutades suvandi **Ekspordi Excelisse** mehhanisme. Kuna andmeid saab sisestada enne süsteemi, toetab uus ruudustik tabelite kopeerimist Excelist ja nende kleepimist otse Finance and Operationsi rakenduste ruudustikesse. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
+Kasutajatel on alati olnud võimalik finantside ja toimingute rakenduste ruudustike andmeid eksportida, kasutades Microsoft Excel **Excelisse eksportimise** mehhanismi. Kuid võimalus sisestada andmeid süsteemist ette võimaldab uuel ruudustikul toetada tabelite kopeerimist Excelist ja nende otse finantside ja toimingute rakenduste ruudustikke. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
 
 - Kui kopeeritud tabeli veergude arv ületab kleepimise asukohast alates ruudustikku jäävate veergude arvu, teavitatakse kasutajat, et lisaveergusid eirati. 
 - Kui kopeeritud tabeli ridade arv ületab kleepimise asukohast alates ruudustiku ridade arvu, kirjutatakse olemasolevad lahtrid kleebitud sisuga üle ja kõik kopeeritud tabeli lisaread lisatakse ruudustiku allossa uute ridadena. 
@@ -96,7 +94,7 @@ Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse 
 Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Tabeli andmete grupeerimine
-Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Üks võimalus selle tegemiseks on eksportida andmeid Microsoft Excelisse ja kasutada liigendtabeleid, **Grupeerimine võrkudes** funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel oma tabeli andmeid põnevatel viisidel Finance and Operationsi rakendustes korraldada. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
+Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Ehkki seda saab teha andmete eksportimisel liigendtabelisse ja kasutades seda, võimaldab grupeerimine ruudustikes funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel organiseerida oma tabelandmeid huvitavatel viisidel Finantside ja toimingute Microsoft Excel **rakendustes**. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
 
 Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue veeru **Rühmitamisalus** ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet. 
 -  Grupi andmete väärtus 
