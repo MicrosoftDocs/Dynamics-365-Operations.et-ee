@@ -6,12 +6,14 @@
           href: index.md
         - name: Mis on uut või mida on muudetud?
           items:
-            - name: Mis on uut või mida on muudetud Finance and Operationsi rakendustes?
+            - name: Mis on uut või mida on muudetud Rahanduse ja toimingute rakendustes?
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Mis on uut või mis on muutunud Finance’is?
               items:
                 - name: Mis on uut või mida on muudetud Finance'i avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.25 (aprill)
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (veebruar)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23 (jaanuar)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Videod
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: Sõnastik
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Õppekataloog
               items:
                 - name: Õppekataloogi avaleht
@@ -172,7 +172,7 @@
               items:
                 - name: Juurutamise elutsüklihalduse avaleht
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operationsi rakenduste arhitektuur
+                - name: Rahanduse ja toimingute rakenduste arhitektuur
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/index
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Hankija arve kirjendamine arvete töölehele
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: Makse rakendamine arve töölehele
+                  href: accounts-payable/payment-invoice-journal.md
             - name: Arvete ja võtmeandmete audit ostureskontros
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Kolmesuunalised vastavusseviimise poliitikad
@@ -1028,7 +1030,7 @@
                   href: general-ledger/currency-revaluation-consolidation-company.md
                 - name: Pearaamatu välisvaluuta ümberarvutamine
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Valuutavahetuskursside importimine
+                - name: Impordi valuutavahetuskursid
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: Üks kanne
                   href: general-ledger/one-voucher.md
@@ -1036,6 +1038,8 @@
                   href: general-ledger/one-voucher-faq.md
                 - name: Pearaamatu tasakaalustused
                   href: general-ledger/ledger-settlements.md
+                - name: Teadlikkus pearaamatu tasakaalustamise ja aastalõpu sulgemise vahel
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: Perioodi lõpu sulgemine
               items:
                 - name: Pearaamatu sulgemine perioodi lõpus
@@ -1050,80 +1054,6 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Aastalõpu tegevuste KKK
                   href: general-ledger/faq-year-end-activities.md
-            - name: Käibemaks
-              items:
-                - name: Käibemaksu ülevaade
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
-                  href: general-ledger/marginal-base-field.md
-                - name: Käibemaksu maksed ja ümardamisreeglid
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: Käibemaksuarvutusmeetodid väljal Päritolu
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Arvutatud käibemaks üldise töölehe ridade kohta
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Luba töölehel viivitusega maksuarvutus
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: Käibemaksumakse loomine
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: Maksu tasakaalustuse ümardamine kohandatud valuuta komakohtade põhjal
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: Käibemaksukannete loomine dokumentidel
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Pearaamatu käibemaksu sisestusgruppide häälestus
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Käibemaksuhaldurite häälestus
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Käibemaksukoodide häälestus
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Käibemaksugruppide ja kauba käibemaksugruppide häälestus
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Käibemaksuaruandluse koodide häälestus
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Käibemaksu topeltvaluuta tugi
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: Käibemaksu täpsustus pearaamatukannete aruande järgi
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: Käibemaksu tasakaalustusperioodide häälestamine
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Sisestatud käibemaksukannete kuvamine
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: Käibemaksu tasumise printimine koodide aruande järgi
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: Käibemaksu tõrkeotsing
-                  items:
-                    - name: Maksu ei arvutatud või maksusumma on null
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: Maksuarvutuse jõudlus mõjutab kandeid
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: Vale väljaväärtus TaxTransis
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: TaxTransi kirjet ei looda
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: Maks sisestatakse kandes valele pearaamatukontole
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: Kannet ei looda
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: Kinnipeetav maks
-              items:
-                - name: Kinnipeetava maksu häälestus
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: Globaalne kinnipeetav maks
-                  items:
-                    - name: Globaalse kinnipeetava maksu ülevaade
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: Globaalse kinnipeetava maksu häälestus
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: Kinnipeetav maks ostukannetes
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: Kinnipeetav maks müügikannetes
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: Kinnipeetava maksu makse loomine
-                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Auditi töölaud
               items:
                 - name: Auditipoliitika reeglid
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Maksuarvutuse KKK
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: Maks
+              items:
+                - name: Käibemaks
+                  items:
+                    - name: Käibemaksu ülevaade
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
+                      href: general-ledger/marginal-base-field.md
+                    - name: Käibemaksu maksed ja ümardamisreeglid
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: Käibemaksuarvutusmeetodid väljal Päritolu
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Arvutatud käibemaks üldise töölehe ridade kohta
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Luba töölehel viivitusega maksuarvutus
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: Käibemaksumakse loomine
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: Maksu tasakaalustuse ümardamine kohandatud valuuta komakohtade põhjal
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: Käibemaksukannete loomine dokumentidel
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: Pearaamatu käibemaksu sisestusgruppide häälestus
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: Käibemaksuhaldurite häälestus
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: Käibemaksukoodide häälestus
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: Käibemaksugruppide ja kauba käibemaksugruppide häälestus
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: Käibemaksuaruandluse koodide häälestus
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: Käibemaksu topeltvaluuta tugi
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: Käibemaksu täpsustus pearaamatukannete aruande järgi
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: Käibemaksu tasakaalustusperioodide häälestamine
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: Sisestatud käibemaksukannete kuvamine
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: Käibemaksu tasumise printimine koodide aruande järgi
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: Käibemaksu tõrkeotsing
+                      items:
+                        - name: Maksu ei arvutatud või maksusumma on null
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: Maksuarvutuse jõudlus mõjutab kandeid
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: Vale väljaväärtus TaxTransis
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: TaxTransi kirjet ei looda
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: Maks sisestatakse kandes valele pearaamatukontole
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: Kannet ei looda
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: Kinnipeetav maks
+                  items:
+                    - name: Kinnipeetava maksu häälestus
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: Globaalne kinnipeetav maks
+                      items:
+                        - name: Globaalse kinnipeetava maksu ülevaade
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: Globaalse kinnipeetava maksu häälestus
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Kinnipeetav maks ostukannetes
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: Kinnipeetav maks müügikannetes
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: Kinnipeetava maksu makse loomine
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
             - name: Regulatiivsete värskenduste otsing
@@ -1822,7 +1828,7 @@
               items:
                 - name: Hiina ülevaade
                   href: localizations/china.md
-                - name: 'Finance and Operations, mida käitab 21Vianet Hiinas'
+                - name: 'Rahandus ja toimingud, mida käitab 21Vianet Hiinas'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: Kontogruppide valik Hiina kandetüüpide jaoks
                   href: localizations/apac-chn-account-groups-selection.md
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Kontotoimingute aruanded
                       href: localizations/rus-account-activity-reports.md
+                    - name: Föderaalne raamatupidamisstandard 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: Elektroonilise aruandluse sihtkohtade lubamine Venemaa raamatupidamisdokumentide talletamiseks
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Avansisaajad
                   items:
                     - name: Venemaa avansisaajate ülevaade
@@ -3204,10 +3214,12 @@
                           href: localizations/rus-fa-inquiries-reports.md
                     - name: Ei ole väärtuslik põhivara ega töörõivad
                       items:
-                        - name: Väheväärtuslik põhivara (Venemaa)
+                        - name: Väheväärtuslik põhivara (NVFA-d) (Venemaa)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Töörõivaste/erivarustuse raamatupidamine (Venemaa)
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: Põhivarade integreerimine varahalduse mooduliga
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: Müügi- ja ostureskontrod
                   items:
                     - name: Kreeditarve parandused (Venemaa)
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Müügi komisjonitasu
                           href: localizations/rus-sales-on-commission.md
+                    - name: Müügireskontro ja Ostureskontro kohalikud aruanded ja esmased vormid
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Varud
                   items:
                     - name: Hankija transiidis olevad kaubad
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: Hankijate häälestamine aruande 1099 jaoks
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: Rakenduse Human Resources ülevaade
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Taristuväljaanne 10.0.25
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: Rakenduse Human Resources häälestamine
-              items:
-                - name: Human Resourcesi parameetrite konfigureerimine
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Human Resourcesi ühiskasutuses parameetrite konfigureerimine
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Human Resource'i töövoogude häälestamine
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Kuupäeva ja kellaaja väljade ülevaade
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: Personali haldamine
-              items:
-                - name: Tööjõu korraldamine
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Töö komponentide häälestus
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Osakondade määratlemine
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: Osakonna lisamine hierarhiasse
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Tööde määratlemine
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Töögraafikute loomine
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: Personalitegevuste KKK
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Töövoogude kasutamine töövõtja teabe haldamiseks
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Ametikoha aruandlusseoste muutmine
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: Töötaja andmete sisestamine
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: Töötajatele kaupade laenamine
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: Laenuartiklite loomine
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Laenuartiklite haldamine
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Järgnevusplaani arendamine
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: Projekti ajatabelite sisestamine
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: Hulgivärbamisprojektid
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: Hulgivärbamisprojekti loomine
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: Ametikohtade häälestus
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Saate häälestada vigastuste ja haiguste teavet
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: Töövõtjate vigastuste ja haiguste teabe haldamine
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: Kandidaatide värbamine
-              items:
-                - name: Värbamisprotsesside haldus
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Hulgivärbamisprojektid
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Hulgivärbamisprojektide loomine
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Kandidaadi ja avalduse andmete käsitsi sisestamine
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: Töötaotluste arendamine ja avamine
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Ametikohtade häälestus
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Kandidaatide palkamine värbamise kaudu
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Olemasolevate töövõtjate palkamine värbamise kaudu
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Kandidaatide valikutööriistade tuvastamine ja juurutamine
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Kompensatsiooniplaanide häälestamine
-              items:
-                - name: Kompensatsiooniplaanide ülevaade
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Hüvitusruudustike häälestus
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: Kompensatsiooni struktuuri ja plaani arendamine
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: Põhipalga plaanide loomine
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Ergutussüsteemi plaanide loomine
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Töövõtjate registreerimine põhipalga plaanis
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: Töövõtjate registreerimine ergutussüsteemi plaanis
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: Kompensatsiooniprotsessi määratlemine ja tulemuste arvutamine
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: Kompensatsiooniplaanide töötlemine
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: Soodustuste haldamine
-              items:
-                - name: Soodustusprogrammi määratlemine ja haldamine
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: Soodustuse saamise õiguse eeskirjad
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Soodustuse sobivuse töötlemine
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: Töövõtja soodustuste programmi pakkumine
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: Uute soodustuste loomine
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: Töötajate registreerimine soodustustes
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: Soodustuste aegumiskuupäevade haldamine
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: ACA aruannete loomine
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Töövõtjate arendamine
-              items:
-                - name: Jõudlushalduse ülevaade
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Tööjõu oskuste joondamine
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: Oma jõudluse töölehele lisamine
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: Eesmärgi loomine
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: Jõudluse ülevaate loomine
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: Kursuste loomine
-              items:
-                - name: Koolituskursuste häälestus
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: Küsimustike ülevaade
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Küsimustike kujundamine
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Küsimustike jaotamine ja kavandamine
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Küsimustike levitamine ajastamise abil
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: Küsimustiku tulemuste kuvamine
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Küsimustiku tulemuste analüüsimine
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Avatud küsimuse loomine
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Suletud küsimuse loomine
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Loo sõltuv küsimus
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: Töökoha ohutus ja nõuetelevastavus (Ameerika Ühendriigid)
-              items:
-                - name: Vormi I-9 kinnitamine
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: Töökohale sobivuse kontrollimine vormil I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: Vormi I-9 dokumenditüüpide häälestus
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: Ameerika võimetusakti järgimine
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: Töötajate majutuse haldamine
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Aruandlus ja Power BI integratsioonid
           items:
             - name: Aruandlus ja analüüs rakendusega Power BI
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4191,6 +4043,8 @@
                   items:
                     - name: Konfiguratsioonide loomine andmete importimiseks välisest XML-failist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
+                    - name: Partiirežiimis käsitsi valitud failidest andmete importimine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: Rakenduses SharePoint asuvatest failidest partiirežiimis andmete importimise konfigureerimine
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Failide importimine XML-vormingus
@@ -4271,6 +4125,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: Aruannete käivitamine
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: Kirjete rühmitamine ning loendamine ja liitmine GROUPBY andmeallikate abil
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Loodud väljundi andmeallikana kasutamine loendamiseks ja summeerimiseks
                       items:
                         - name: Vormingute loomine
@@ -4423,6 +4279,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                     - name: Rakenduse värskendus 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: Rakenduse värskendus 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud dokumentidele kohandatud salvestuskoha määramine
                   items:
                     - name: Sündmuse tellimine tellimuste käitlejalt vastuse taotlemiseks
@@ -4749,13 +4607,15 @@
               items:
                 - name: Vahetuskursipakkujate loomine
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
-                - name: Vahetuskursipakkujate loomine Finance and Operationsi versioonis 8.0
+                - name: Vahetuskursipakkujate loomine Rahanduse ja toimingute versioonis 8.0
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Kannete tasakaalustamine CustTrans::settleTransactioni abil'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Finance and Operationsi rakenduste juurutamine ja haldamine
+    - name: Finantside ja toimingute rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

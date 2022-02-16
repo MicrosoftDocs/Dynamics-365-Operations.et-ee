@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b88ccbbb55e4c08c3a8e6cd415f8701d5ff1e9361dc8675eef23f35d76acd528
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e235ba4ef2412c50101bc69f467836dd9a9d11e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735748"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061955"
 ---
 > [!IMPORTANT]
-> Dynamics 365 Talent: Attracti ja Onboardi rakendused kõrvaldatakse kasutuselt. Lugege lisateavet teemast [Dynamics 365 Talent: Attracti ja Onboardi rakenduste kasutuselt kõrvaldamine](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps).
+> Dynamics 365 Talent: Attracti ja Onboardi rakendused kõrvaldatakse kasutuselt 1. veebruarist 2022. Lugege lisateavet teemast [Dynamics 365 Talent: Attracti ja Onboardi rakenduste kasutuselt kõrvaldamine](../../human-resources/hr-talent-retire.md).

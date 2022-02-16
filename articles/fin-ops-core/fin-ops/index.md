@@ -1,6 +1,6 @@
 ---
-title: Rakenduse Finance and Operations dokumentatsioon
-description: Finance and Operationsi rakenduste dokumentatsioon.
+title: Rakenduse Rahandus ja toimingud dokumentatsioon
+description: Rahanduse ja toimingute rakenduste dokumentatsioon.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782128"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075393"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Rakenduse Finance and Operations dokumentatsioon
+# <a name="finance-and-operations-application-documentation"></a>Rakenduse Rahandus ja toimingud dokumentatsioon
 
 [!include [banner](includes/banner.md)]
 
-Vaadake, kuidas rakendused Finance and Operations oma ettevõtte heaks tööle panna, kasutades selle teema ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
+Vaadake, kuidas rakendused Rahandus ja toimingud oma ettevõtte heaks tööle panna, kasutades selle teema ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
 
 Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja Dynamics 365 Human Resourcesi puhul. 
 
@@ -81,15 +81,17 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionaalsed regulatiivsed funktsioonid</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Inimressursid</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Töövõtja iseteenindus</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Personalihaldus</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Puhkused ja puudumine</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Soodustused</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Töövõtja areng ja koolitused</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Küsimustikud</a></p>
-<p><a href="hr/manage-recruiting-process.md">Värbamine</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">USA palk</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Töötajate areng</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Õpe</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">USA palk</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Hankeahela haldamine</a></h3>
+<h3><a href="../../supply-chain/index.md">>Tarneahela juhtimine</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Kuluhaldus</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Varude haldus</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Koondplaneerimine</a></p>
@@ -131,11 +133,6 @@ Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja 
 <p><a href="../../commerce/define-maintain-retail-channels.md">Kanali seadistus ja haldamine</p>
 <p><a href="../../commerce/retail-peripherals-overview.md">MPOS ja Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Kaubanduse arendaja ja haldus</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Administraatori juhend</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Arendaja juhend</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Kasutusjuhend</a></p>
 
 
 </td>

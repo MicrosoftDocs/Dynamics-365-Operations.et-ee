@@ -1,6 +1,8 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Dynamics 365 Talenti kasutuselt kõrvaldamine
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
+    - name: Dynamics 365 Talent'i avaleht
+      href: ./index.md
     - name: Alustamine
       items:
         - name: Talenti kasutamise alustamine
@@ -248,7 +250,7 @@
       items:
         - name: LinkedIn-i tööde sisestamine tõrkeotsing
           href: attract-troubleshoot-linkedin.md
-        - name: 'Kasutaja pääseb ligi Human Resourcesile, aga mitte rakendusele Onboard või Attract'
+        - name: 'Kasutaja pääseb ligi Human Resources''ile, aga mitte rakendusele Onboard või Attract'
           href: user-access-core-hr.md
         - name: Azure Active Directory kasutajaid ei leitud inimestevalijast
           href: people-picker-user-not-found.md
